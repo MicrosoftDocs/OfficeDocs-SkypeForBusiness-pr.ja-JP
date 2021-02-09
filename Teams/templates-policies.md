@@ -19,19 +19,19 @@ localization_priority: Normal
 search.appverid: MET150
 description: 管理センターで Teams テンプレートを管理する方法について説明します。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ef765013541ae740211cc5666da3544f1cd5b528
-ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
+ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50125904"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145884"
 ---
 # <a name="create-and-manage-teams-templates-in-the-admin-center"></a>管理センターで Teams テンプレートを作成および管理する
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 管理センターでテンプレート ポリシーを作成して、エンド ユーザーに表示される Teams テンプレートを管理します。 各テンプレート ポリシー内で、表示または非表示のテンプレートを指定できます。
-ユーザーが指定した Teams テンプレートのサブセットのみを表示するために、異なるテンプレート ポリシーに異なるユーザーを割り当てる。
+ユーザーが指定した Teams テンプレートのサブセットのみを表示するために、異なるユーザーを異なるテンプレート ポリシーに割り当てる。
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>テンプレート ポリシーを作成し、使用可能なテンプレートを割り当てる
 
@@ -43,7 +43,7 @@ ms.locfileid: "50125904"
 
     ![テンプレート ポリシーが選択され、[追加] が強調表示されている](media/template-policies-1.png)
 
-1. [テンプレート ポリシー **の設定] セクションで、** 次のフィールドに入力します。
+1. [テンプレート ポリシー **の設定] セクションで** 、次のフィールドに入力します。
 
     - テンプレート ポリシー名
 
@@ -51,7 +51,7 @@ ms.locfileid: "50125904"
 
 2. [表示可能 **なテンプレート] テーブル** で、非表示にするテンプレートを選択し、[非表示] を選択 **します**。
 
-    ![非表示が強調表示された選択したテンプレート](media/template-policies-2.png)
+    ![[非表示] が強調表示された選択したテンプレート](media/template-policies-2.png)
 
     非表示に設定したテンプレートは、[非表示のテンプレート] テーブル **に表示** されます。
 
@@ -59,7 +59,7 @@ ms.locfileid: "50125904"
 
 1. 再表示するテンプレートを選択し、[表示] を選択 **します**。
 
-   ![非表示が強調表示された選択したテンプレート](media/template-policies-3.png)
+   ![[非表示] が強調表示された選択したテンプレート](media/template-policies-3.png)
 
    選択したテンプレートが表示可能なテンプレート **テーブルに表示** されます。
 3. **[保存]** を選択します。
@@ -74,7 +74,7 @@ ms.locfileid: "50125904"
 
 2. このポリシーに割り当てるユーザーを入力します。
 
-   ![非表示が強調表示された選択したテンプレート](media/template-policies-4.png)
+   ![[非表示] が強調表示された選択したテンプレート](media/template-policies-4.png)
 
 3. **[適用]** を選択します。
 
@@ -121,7 +121,7 @@ A: 管理センターで、
 2. [ユーザー] リスト テーブルでフィルターを選択し、チーム テンプレート ポリシーのフィルターを適用します。
 3. **[適用]** を選択します。
 
-![非表示が強調表示された選択したテンプレート](media/template-policies-5.png)
+![[非表示] が強調表示された選択したテンプレート](media/template-policies-5.png)
 
 **Q: PowerShell でテンプレート ポリシーを管理できますか?**
 
@@ -131,7 +131,7 @@ A: いいえ、これはサポートされていません。
 
 A: いいえ、これはサポートされていません。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [管理センターでチーム テンプレートの使用を開始する](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
 
@@ -143,4 +143,4 @@ A: いいえ、これはサポートされていません。
 
 - [Microsoft Teams でユーザーにポリシーを割り当てる - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [TeamsTemplatePermissionPolicy](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [ポリシーにユーザーをバッチ割り当てる](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)

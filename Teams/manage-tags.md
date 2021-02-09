@@ -16,17 +16,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で組織でタグがどのように使用されるのかについて説明します。
-ms.openlocfilehash: 9d9ba4584572ad1e1707c250ee92c49e9aaec7fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e5222a820a3a721c3692b0cdb272d1c4f3aaea6d
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831237"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145854"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
 > [!NOTE]
-> この記事で説明されている機能の 1つ、シフトによるタグ付けはまだリリースされていません。 これは発表され、近日公開される予定です。 管理者は、メッセージ センター ([Microsoft 365 管理センター](https://portal.office.com/adminportal/home)) でこの機能のリリース日を確認できます。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
+> この記事で説明する機能の 1 つ、シフトによるタグ付 **けは展開** 中です。管理者の場合は、この機能がメッセージ センター [(Microsoft 365](https://portal.office.com/adminportal/home)管理センター) で、お客様の地域でいつリリースされるのか確認できます。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
 
 ## <a name="overview"></a>概要
 
@@ -35,10 +35,10 @@ Microsoft Teams のタグを使用すると、ユーザーはチームの一部�
 前述のように、Teams には 2 種類のタグがあります。
 
 - **カスタム タグ**: チーム所有者とチーム メンバー (機能が有効な場合) は、手動でタグを作成してユーザーに割り当てできます。 たとえば、"Designer" タグまたは "Radiradiradi" タグは、名前を入力することなく、チーム内のユーザー のセットに到達します。
-- **シフトによるタグ付** け (近日公開): この機能を使用すると、Teams の [Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) アプリでスケジュールとシフト グループ名に一致するタグが自動的に割り当てられます。 たとえば、"EngineerOnCall" タグは、チャットまたはチャネル投稿でタグが使用された時点で作業するためにシフトでスケジュールされているすべてのエンジニアに到達します。 シフトによるタグ付けにより、Teams は、ユーザーが情報をすばやく中継する必要があるときに、シフト上のスタッフの名前を知ることから推測を取り出します。 シフト別のタグ付けは、Teams の Shifts と統合することで、JDA、Kronos、AMiON のような主要な人員管理システムによってもサポートされます。 この機能の設定方法の詳細については、「シフトでタグ付けを設定する [」を参照してください](#set-up-tagging-by-shift-coming-soon)。
+- **シフトによるタグ** 付け: この機能を使用すると、Teams の Shifts アプリでスケジュールとシフト グループ名に一致するタグ [が自動的に](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop) 割り当てられます。 たとえば、"EngineerOnCall" タグは、チャットまたはチャネル投稿でタグが使用された時点で作業するためにシフトでスケジュールされているすべてのエンジニアに到達します。 シフトによるタグ付けにより、Teams は、ユーザーが情報をすばやく中継する必要があるときに、シフト上のスタッフの名前を知ることから推測を取り出します。 シフト別のタグ付けは、Teams の Shifts と統合することで、JDA、Kronos、AMiON のような主要な人員管理システムによってもサポートされます。 この機能の設定方法の詳細については、「シフトでタグ付けを設定する [」を参照してください](#set-up-tagging-by-shift)。
 
 > [!NOTE]
-> プライベート チャネルでは、タグはまだサポートされていません。 タグは、米国政府機関コミュニティ クラウド (GCC)、GCC High、または国防総省 (DoD) 組織ではまだ利用できません。 
+> プライベート チャネルでは、タグはまだサポートされていません。 タグは US Government Community Cloud (GCC) に展開されています。 タグは、GCC High または Department of Defense (DoD) 組織では利用できません。 
 
 ## <a name="how-tags-work"></a>タグの動作
 
@@ -100,7 +100,7 @@ Microsoft Teams 管理センターで [チーム所有者がタグを管理で�
 
 タグを削除するには、タグの横にある [その他のオプション] **を選択** し、[タグの削除] を **選択します**。
 
-### <a name="set-up-tagging-by-shift-coming-soon"></a>シフトによるタグ付けを設定する (近日公開予定)
+### <a name="set-up-tagging-by-shift"></a>シフトでタグ付けを設定する
 
 1. Teams で [、Shifts アプリに移動します](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)。
 2. シフト [グループを作成し](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) 、役割などの属性の後に名前を付けします。 たとえば、EngineerOnCall などです。 シフト グループ名はタグの名前です。
@@ -110,7 +110,7 @@ Microsoft Teams 管理センターで [チーム所有者がタグを管理で�
 
 シフトによるタグ付けにより、ユーザーはリアルタイムでシフト上のユーザーにアクセスできます。 通知は、タグを使用してチャットを開始した時点またはチャネルの投稿にシフトしているユーザーにのみ送信されます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams でタグを使用する](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)
 

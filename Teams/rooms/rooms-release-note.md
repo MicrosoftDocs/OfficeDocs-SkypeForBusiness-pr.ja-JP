@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c88912330fd8bed6beaa4b55c4747785feb7b4e
-ms.sourcegitcommit: 4bf85d91befb56566130731198518c103a53ebc4
+ms.openlocfilehash: 274a83925a47519dba174a75bd92582670dab1d6
+ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50101325"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150883"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -80,10 +80,10 @@ ms.locfileid: "50101325"
 
 この更新プログラムで導入されるもの:
 
-- Teams 会議の会議参加者に HDMI オーディオを共有する
+- Teams 会議で会議の参加者に HDMI オーディオを共有する
 - Cortana の音声スキル (プレビュー)
 - Teams Room が出席者として参加するときに、音声アクセス許可に基づいてミュートを解除することはできません。 詳細については、「Teams 会議で出席者 [の音声アクセス許可を管理する」を参照してください](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。
-- Teams Room コンソールから他のユーザーのビデオにスポットライトを当て、スポットライトを当てたビデオをルーム ディスプレイで使う
+- Teams Room コンソールから他のユーザーのビデオにスポットライトを当て、スポットライトを当てたビデオを部屋のディスプレイで使う
 
 > [!NOTE]
 > Cortana の音声スキルは、米国内にあるテナントの一部のオーディオ 周辺機器で利用できます。 今後、追加の国または地域が追加される予定です。 詳細については、Teams の [Cortana 音声アシスタンスを参照してください。](https://docs.microsoft.com/microsoftteams/cortana-in-teams)
@@ -99,11 +99,11 @@ ms.locfileid: "50101325"
 この更新プログラムで導入されるもの:
 
 - ルーム ディスプレイの前に 3x3 ビデオ ギャラリーを表示してその他のビデオを表示する  
-- ローカルライブ クローズド キャプションを開始する
+- ローカルライブクローズドキャプションをローカルに開始する
 - 直接ゲスト参加を使用して Teams 会議室からズーム会議に参加する (プレビュー)
 
 > [!NOTE]
-> 3x3 ビデオ ギャラリーとローカルライブクローズド キャプションは、Microsoft Teams サービスを通じて配信されます。 これらの機能は、アプリケーション バージョン 4.5.37.0 以上のすべての Teams Rooms デバイスで使用できます。
+> 3x3 ビデオ ギャラリーとローカルライブクローズドキャプションは、Microsoft Teams サービスを通じて配信されます。 これらの機能は、アプリケーション バージョン 4.5.37.0 以上のすべての Teams Rooms デバイスで使用できます。
 
 ### <a name="45370-08142020"></a>4.5.37.0 (2020/8/14)
 
@@ -330,7 +330,7 @@ ms.locfileid: "50101325"
 
 - 安定性を改善するためのバグ/クラッシュの修正
 - 可変サイズのコンソールのサポート
-- 周辺機器のオーディオ処理の負荷軽減 (追加のメディア ホワイトリスト登録)
+- 周辺機器のオーディオ処理のオフロード (追加のメディア 許可リスト)
 - IT プロフェッショナルが Windows 10 バージョン 1709 の 1 月の更新プログラム以降を使用して DIY イメージを作成できるようにする最適化。
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)

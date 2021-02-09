@@ -19,29 +19,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使って、Microsoft Teams のベルギーでの電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: 82f508ff286ad0fc811c0048e9ba181ea5847c09
-ms.sourcegitcommit: 3b54a56ec1fe4366580621e19cdbb6a833a01161
+description: 次の表は、Microsoft Teams のベルギーでの電話番号の取得と管理に関する情報を示しています。
+ms.openlocfilehash: 7effe968fcd9349341805e09c66bbd6706e2df38
+ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "48361767"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "50150863"
 ---
 # <a name="phone-number-management-for-belgium"></a>ベルギーでの電話番号の管理
 
-この表を使って、Microsoft Teams のベルギーでの電話番号の取得と管理に関する情報を参照してください。 
+次の表は、Microsoft Teams のベルギーでの電話番号の取得と管理に関する情報を示しています。 
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|Microsoft Teams 管理センターに表示されていない新しいユーザーとサービスの電話番号を取得します。   <br/> |ベルギーでは、Microsoft Teams 管理センターを使用して、組織の電話番号を取得することはできません。新しい電話番号の要求を送信する必要があります。 <br/><br/>次のフォームのいずれかをダウンロードします。 <br/>  [ベルギーへの新しい電話番号要求 (v) (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [ベルギー (fr-ca) の新しい電話番号要求 (fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [ベルギー (nl) の新しい電話番号要求 (nl) (nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/>   [ベルギーへの新しい電話番号要求 (en-us) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/>|
-|お客さまの電話番号をお送りします。  <br/> | 次のいずれかのフォームをダウンロードします。 <br/>[ベルギーの承認状 (LOA) (すべての数値) (v) (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf?raw=true) <br/> [ベルギーの承認状 (LOA) (すべての数値) (v) (de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(fr-be).pdf?raw=true)<br/> [ベルギーの承認状 (LOA) (すべての数値) (nl) (nl)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(nl-be).pdf?raw=true) <br/>   <br/>   記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/> |
-|国内電話ディレクトリの電話番号を公開/非公開にします。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。      <br/> |
-|ユーザーの電話番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
-|通話キューまたは自動応答の番号にディレクトリサービスの更新を行う|通話キューまたは自動応答の番号を追加または変更するには、 [PSTN サービスデスク](contact-pstn-service-desk.md)に問い合わせてください。 |
+|Microsoft Teams 管理センターに表示されていない新しいユーザーとサービスの電話番号を取得します。   <br/> |ベルギーでは、Microsoft Teams 管理センターを使用して組織の電話番号を取得できないので、新しい電話番号のリクエストを送信する必要があります。 <br/><br/>次のフォームのいずれかをダウンロードします。 <br/>  [ベルギー (v.5.0) の新しい電話番号要求 (de-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf?raw=true) <br/> [ベルギー (v.5.0) (fr-be) の新しい電話番号の要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf?raw=true) <br/> [ベルギー (v.5.0) (nl-be) の新しい電話番号の要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf?raw=true) <br/>   [ベルギー (v.5.0) の新しい電話番号の要求 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/>|
+|電話番号を転送します。  <br/> | これらのフォームのいずれかをダウンロードします。 <br/>[ベルギーの承認状 (LOA) (すべての数値) (v.5.0) (de-be)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf?raw=true) <br/> [ベルギーの承認状 (LOA) (すべての数値) (v.6.0) (fr-be)](https:download.microsoft.com/download/d/f/3/df304a78-db38-41f9-98d2-0b590cf8c68f/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.0)-(fr-be).pdf)<br/> [ベルギーの承認状 (LOA) (すべての数値) (v.6.0) (nl-be)](https://download.microsoft.com/download/4/b/a/4bacc856-3bf2-45f7-ade2-8b1d81fc09c6/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.0)-(nl-be).pdf) <br/>   <br/>   記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/> |
+|国内の電話番号ディレクトリに電話番号を公開または公開を取り消します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。      <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|通話キューまたは自動応答番号に対するディレクトリ サービスの更新を行う|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

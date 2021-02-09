@@ -3,6 +3,52 @@
 
 
 
+## <a name="week-of-february-01-2021"></a>2021 年 2 月 1 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 2/1/2021 | [通話品質ダッシュボード (CQD) でテナントと建物のデータをアップロードする](/MicrosoftTeams/cqd-upload-tenant-building-data) | 更新日時 |
+| 2/1/2021 | [Microsoft Teams の Education Insights への IT 管理者ガイド](/MicrosoftTeams/class-insights) | 更新日時 |
+| 2/1/2021 | [学生情報システム (SIS) データを Education Insights と同期する](/MicrosoftTeams/education-insights-sis-data-sync) | 更新日時 |
+| 2/1/2021 | [Microsoft Teams の情報バリア](/MicrosoftTeams/information-barriers-in-teams) | 更新日時 |
+| 2/1/2021 | [Teams を管理および監視する](/MicrosoftTeams/manage-teams-overview) | 追加済 |
+| 2/1/2021 | [Microsoft Teams のリリース ノート](/MicrosoftTeams/release-notes/release-notes) | 更新日時 |
+| 2/2/2021 | [Microsoft 365 とカスタム コネクタを使用する](/MicrosoftTeams/office-365-custom-connectors) | 更新日時 |
+| 2/2/2021 | [Microsoft Teams でポリシー パッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
+| 2/2/2021 | [Teams コンタクト センター](/MicrosoftTeams/teams-contact-center) | 更新日時 |
+| 2/3/2021 | [Microsoft Teams エクスポート API を使用してコンテンツをエクスポートする](/MicrosoftTeams/export-teams-content) | 更新日時 |
+| 2/3/2021 | [スイスの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 更新日時 |
+| 2/3/2021 | [セッション ボーダー コントローラー (SBC) を直接ルーティングに接続する](/MicrosoftTeams/direct-routing-connect-the-sbc) | 更新日時 |
+| 2/3/2021 | Microsoft Teams \| 環境準備の \| 導入、検出 | 削除されました |
+| 2/3/2021 | [Teams for Virtual の訪問](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 更新日時 |
+| 2/3/2021 | [リリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
+| 2/4/2021 | [Teams コンタクト センター](/MicrosoftTeams/teams-contact-center) | 更新日時 |
+| 2/4/2021 | [通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | 更新日時 |
+| 2/4/2021 | [Skype for Business から Teams へのアップグレードに関する FAQ](/MicrosoftTeams/faq-journey) | 更新日時 |
+| 2/4/2021 | [電話会議に関するよくある質問](/MicrosoftTeams/audio-conferencing-common-questions) | 更新日時 |
+| 2/4/2021 | [ディメンションと寸法 - 通話品質ダッシュボード (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新日時 |
+| 2/4/2021 | [セッション ボーダー コントローラーを構成する - 複数のテナント](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 更新日時 |
+| 2/4/2021 | [Microsoft Teams 管理者ドキュメント # < 60 文字](/MicrosoftTeams/index) | 更新日時 |
+| 2/4/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 2/4/2021 | [Teams アプリ提出 API を使用してカスタム アプリを提出および承認する](/MicrosoftTeams/submit-approve-custom-apps) | 更新日時 |
+| 2/4/2021 | [仮想デスクトップ インフラストラクチャ用の Teams](/MicrosoftTeams/teams-for-vdi) | 更新日時 |
+| 2/4/2021 | [会議への通話用の Teams ポリシーベースの記録&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 2/4/2021 | [通話品質ダッシュボード (CQD) を設定する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 更新日時 |
+| 2/4/2021 | [Skype for Business から Teams へのアップグレードを開始する](/MicrosoftTeams/upgrade-start-here) | 更新日時 |
+| 2/5/2021 | [セキュリティとコンプライアンスの概要](/MicrosoftTeams/security-compliance-overview) | 更新日時 |
+| 2/5/2021 | [Microsoft Teams の使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 更新日時 |
+| 2/5/2021 | [Microsoft 365 Multi-Geo 対応環境での Teams のエクスペリエンス](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 更新日時 |
+| 2/5/2021 | [管理センターで Teams テンプレートを管理する](/MicrosoftTeams/templates-policies) | 追加済 |
+| 2/5/2021 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 2/5/2021 | [Teams for Virtual の訪問](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 更新日時 |
+| 2/5/2021 | [医療組織向け Teams の使用を開始する](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 更新日時 |
+| 2/5/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 2/5/2021 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
+| 2/5/2021 | [Microsoft Endpoint Configuration Manager を使用して Teams をインストールする](/MicrosoftTeams/msi-deployment) | 更新日時 |
+| 2/5/2021 | [Teams の自動応答と通話キューを計画する](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
+
+
 ## <a name="week-of-january-25-2021"></a>2021 年 1 月 25 日の週
 
 
@@ -16,7 +62,7 @@
 | 1/25/2021 | [OneDrive for Business と SharePoint を使用して会議の記録を行う](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
 | 1/25/2021 | [Microsoft Teams でコンテンツ検索を使用する](/MicrosoftTeams/content-search) | 更新日時 |
 | 1/25/2021 | [コンテンツの電子情報開示調査を実施する](/MicrosoftTeams/ediscovery-investigation) | 更新日時 |
-| 1/25/2021 | [Microsoft Teams ユーザーまたはチームを訴訟ホールドの対象にする](/MicrosoftTeams/legal-hold) | 更新日時 |
+| 1/25/2021 | [Microsoft Teams ユーザーまたはチームを訴訟ホールドの対象にする](/MicrosoftTeams/legal-hold) | 更新 |
 | 1/26/2021 | [学生情報システム (SIS) データを Education Insights と同期する](/MicrosoftTeams/education-insights-sis-data-sync) | 追加済 |
 | 1/26/2021 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
 | 1/26/2021 | [ディメンションと寸法 - 通話品質ダッシュボード (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新日時 |
@@ -67,7 +113,7 @@
 | 1/21/2021 | [レポート ラベルを追加して更新する](/MicrosoftTeams/learn-more-about-site-upload) | 更新日時 |
 | 1/21/2021 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
 | 1/21/2021 | [Teams の自動応答と通話キューを計画する](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
-| 1/21/2021 | [Microsoft Teams で電話会議の PIN をリセットする](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | 更新日時 |
+| 1/21/2021 | [Microsoft Teams で電話会議の PIN をリセットする](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | 更新 |
 | 1/21/2021 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
 | 1/21/2021 | [組織の電話番号のリストを表示する](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | 更新日時 |
 | 1/21/2021 | [Microsoft Teams のユーザー アクティビティ レポートを使用する](/MicrosoftTeams/teams-activity-reports) | 更新日時 |
@@ -205,7 +251,7 @@
 | 1/5/2021 | [Microsoft Teams との SharePoint Online と OneDrive for Business の連携](/MicrosoftTeams/sharepoint-onedrive-interact) | 更新日時 |
 | 1/5/2021 | [Microsoft 365 Multi-Geo 対応環境での Teams のエクスペリエンス](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 更新日時 |
 | 1/5/2021 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新日時 |
-| 1/5/2021 | [会議を呼び出す Teams ポリシーベースの記録&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 1/5/2021 | [会議への通話用の Teams ポリシーベースの記録&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
 | 1/5/2021 | [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](/MicrosoftTeams/log-files) | 更新日時 |
 | 1/6/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
 | 1/6/2021 | [Graph API を使用して Microsoft Teams のプライベート チャネルを管理する](/MicrosoftTeams/private-channels-life-cycle-management) | 更新日時 |
@@ -215,6 +261,6 @@
 | 1/7/2021 | [Microsoft Teams の範囲指定ディレクトリ検索を使用する](/MicrosoftTeams/teams-scoped-directory-search) | 更新日時 |
 | 1/7/2021 | [直接ルーティングの認定を受けたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 1/8/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
-| 1/8/2021 | [Microsoft Teams の保持ポリシー](/MicrosoftTeams/retention-policies) | 更新日時 |
+| 1/8/2021 | [Microsoft Teams の保持ポリシー](/MicrosoftTeams/retention-policies) | 更新 |
 | 1/8/2021 | [Microsoft Teams へのゲスト アクセスをオンまたはオフにする](/MicrosoftTeams/set-up-guests) | 更新日時 |
 | 1/8/2021 | [安全な学習のためのポリシーを簡単に適用する Teams for Education ポリシー ウィザード](/MicrosoftTeams/easy-policy-setup-edu) | 更新日時 |
