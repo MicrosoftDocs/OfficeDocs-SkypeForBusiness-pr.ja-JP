@@ -22,12 +22,12 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 7d64720c1e72c20be1bed51ee961a59068eafd4f
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 8e77ac547d41e10c006c321555db8b850d648983
+  ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110373"
+  ms.lasthandoff: 02/09/2021
+  ms.locfileid: "50150873"
 highlightedContent:
   items:
   - title: 実績のあるアップグレード フレームワークを活用する
@@ -53,7 +53,7 @@ productDirectory:
     - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment
       text: 3. アップグレード用に環境を準備する
     - url: https://docs.microsoft.com/microsoftteams/upgrade-prepare-organization
-      text: 4. アップグレードのために組織を準備する
+      text: 4. アップグレードの準備を行う
     - url: https://docs.microsoft.com/microsoftteams/upgrade-to-teams
       text: 5. アップグレードを実装する
     - url: https://docs.microsoft.com/microsoftteams/continue-journey
@@ -99,7 +99,7 @@ productDirectory:
   - title: 'Ignite セッション: Teams へのパスを設計する'
     imageSrc: https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg
     summary: Ignite 2020 からのこのセッションは、Skype for Business の実装と目標に最も適したアプローチを見つけるのに役立ちます。
-    url: https://myignite.microsoft.com/sessions/48e53fab-37ea-4b89-bdde-21bdefff6e0e
+    url: https://go.microsoft.com/fwlink/?linkid=2154668
   - title: Microsoft Teams のプランと価格
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-teams.svg
     summary: ビジネスに合った Microsoft Teams を見つける。
@@ -118,13 +118,13 @@ additionalContent:
       summary: Teams アップグレードの各手順をマップする、この楽しく便利なインフォグラフィックをダウンロードしてください。
       url: https://download.microsoft.com/download/6/b/f/6bfda7ac-3a2b-4156-9c2f-6dc1878d048f/Chart Your Journey from Skype to Teams Infographic.pdf
     - title: FastTrack に展開支援を提供する
-      summary: Teams 展開プロジェクトでさらに詳しいサポートが必要な場合、対象となるサブスクリプションをお持ちのお客様は FastTrack にサポートを提供できます。
+      summary: Teams 展開プロジェクトでさらにサポートが必要な場合、対象となるサブスクリプションをお持ちのお客様は FastTrack にサポートを提供できます。
       url: https://www.microsoft.com/fasttrack
     - title: Microsoft パートナーを見つける
       summary: 追加のガイダンスが必要な場合 Microsoft ソリューション プロバイダーは、アップグレードの技術的および物流の管理を支援します。
       url: https://www.microsoft.com/solution-providers/home
     - title: Teams 管理者ドキュメント
-      summary: Teams を展開して管理する方法と、新しいコミュニケーションと共同作業のエクスペリエンスのためにユーザーを準備する方法について学習します。
+      summary: Teams を展開して管理する方法と、新しいコミュニケーションとコラボレーションエクスペリエンスのためにユーザーを準備する方法について学習します。
       url: https://docs.microsoft.com/MicrosoftTeams/
     - title: インストラクター主導の Teams のトレーニング
       summary: Teams を使い始め、実行するために設計された無料のライブ オンライン トレーニング クラス。
