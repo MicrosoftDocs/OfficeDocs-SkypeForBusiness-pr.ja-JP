@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6d8e00bb7dd4ff39bae434f13cdb814d9a40fa7
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067122"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145824"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>学生情報システム (SIS) データを Education Insights と同期する
 より多くのデータが [Education Insights](class-insights.md) に提供されるほど、教師はより適切に学生をサポートでき、教育リーダーはより適切に教師をサポートできます。

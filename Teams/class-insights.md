@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89e98c53a3005cb503b98d44db761e620bcf49da
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067132"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145904"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -102,6 +102,9 @@ Insights では、クラスチーム内のすべてのチャネルのアクテ�
 
 :::image type="content" source="media/insights-pin-app.png" alt-text="Insights アプリを固定する":::
 
+> [!TIP]
+> 次のリンクから Insights アプリを見つけることもできます。[https://aka.ms/addInsights](https://aka.ms/addInsights)
+
 ## <a name="when-is-insights-used"></a>インサイトはいつ使用されますか? 
 Insights は、**学習サイクル** 全体を通じて学習コミュニティをサポートします。 Insights は、複数の側面にわたるリアルタイムの指標を使用して、学校コミュニティのメンバー間での識別、考察、ディスカッション、およびアクションの継続的なサイクルをサポートします。
 *   学生が教職員、コース資料、および学友といつどのように関わるか、そして彼らが課題をどのように実行するかを **特定** します。 
@@ -177,10 +180,9 @@ Insights にアクセスするには、ユーザーは Microsoft 365 の A1、A3
 詳細については、「[**学生情報システム (SIS) データを Education Insights と同期する**](education-insights-sis-data-sync.md)」をご確認ください。
 
 ## <a name="manage-permissions"></a>権限の管理
-教育リーダー、地区リーダー、学校長、学部長、カウンセラー、教科長、プログラム ディレクター、ソーシャル ワーカー、心理学者に許可を与える必要があります。 教職員には、クラス チームを所有している場合、自動的に許可が与えられます。
+教育リーダー、地区リーダー、学校長、学部長、カウンセラー、教科長、プログラム ディレクター、ソーシャル ワーカー、心理学者に許可を与える必要があります。 教職員には、クラス チームを所有している場合、*自動的* に許可が与えられます。
 
-> [!NOTE]
-> それらを必要とする教育リーダーと彼らが担当するチームにのみ許可を与えてください。 特定の組織のユーザー許可が必要かどうかわからない場合は、法務担当者や人事担当者など、組織のプライバシーに関する専門家に相談してください。
+詳細については、「[**Education Insights へのユーザー アクセスを管理する**](education-insights-manage-access.md)」を参照してください。
 
 ## <a name="manage-the-setup-policy"></a>設定ポリシーの管理
 管理者として、教職員やリーダーが Teams の使用を開始する場合にアプリ設定ポリシーを使用して既定で Insights をインストールすることができます。 このポリシーを使用すると、Teams をカスタマイズして、Insights を強調表示したり、アプリ バーにInsightsをピン留めしたりすることができます。

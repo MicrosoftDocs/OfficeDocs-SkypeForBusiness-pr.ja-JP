@@ -20,12 +20,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd66cd0f8f73ec6a52466965a5ab227e9f4b5122
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
+ms.openlocfilehash: af2915d1e86fbfe1c3dc2bd804511a8e7ca6865a
+ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757762"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "50145914"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -40,10 +40,11 @@ ms.locfileid: "49757762"
 
 ユーザーが Teams ライブ イベントをスケジュールするには、次の前提条件を満たす必要があります。
 
-Teams ライブ イベントを作成または表示するために割り当てる必要があるライセンスは次のとおりです。  
+Teams ライブ イベントを整理、作成または発表するために割り当てる必要があるライセンスは次のとおりです。  
 
-- Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、または Office 365 Education A3 または A5 ライセンス。 この要件の例外は、 [ゲスト ユーザー](plan-for-teams-live-events.md#guest-to-present)の他の条件が満たされている場合は、ゲスト ユーザーがライセンスなしで発表できることです。 
-- Microsoft Teams ライセンス - これは 1 つ目の項目に記載されているライセンスに含まれています。
+- **整理:** Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、**[または]** Office 365 Education A3 または A5 ライセンス。 
+- **作成または発表:** Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、**[または]** Office 365 Education A1、A3 または A5 ライセンス。 この要件の例外は、[ゲスト ユーザー](plan-for-teams-live-events.md#guest-to-present)の他の条件が満たされている場合は、ゲスト ユーザーがライセンスなしで発表できることです。
+- Microsoft Teams ライセンス - これは最初と 2 番目の項目に記載されているライセンスに含まれています。
 - Microsoft Stream のライセンス - コンテンツを外部のアプリまたはデバイスと共有する場合はこのライセンスが必要です。「[Microsoft Stream のライセンス](https://docs.microsoft.com/stream/license-overview)」をご覧ください。
 
   ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。これは、記録が Microsoft Stream に保存されず、代わりに Azure Media Services (AMS) に保存され、削除されるまでに 180 日の制限があることを意味します。現時点では、削除機能を含めるように管理者が制御または管理できるものではありません。
