@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams Rooms を展開する方法について説明します。Teams または Skype for Business と Exchange はどちらもオンラインです。
-ms.openlocfilehash: 4b5bd3967d3a1fcc8859cf4da8b039418819cb4e
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
+ms.openlocfilehash: 4ec54763379e4a13a69eb3e08019924708873faf
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616891"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196211"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
 
@@ -108,7 +108,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    構文とパラメーターの詳細については、「[Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
-4. MS Online PowerShell に接続して、powershell コマンドレットを実行して Active Directory の設定を行い `Connect-MsolService -Credential $cred` ます。 Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。
+4. POWERShell コマンドレットを実行して、MS Online PowerShell に接続して Active Directory `Connect-MsolService -Credential $cred` の設定を行います。 Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。
@@ -146,6 +146,9 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
    ```  -->
 
+> [!NOTE]
+> パスワードが [有効期限なし] に設定されていない場合、アカウントの有効期限が切れると、アカウントはデバイスにサインインしなくなりました。 その後、アカウントのパスワードを変更する必要があります。また、ローカルの場合は、このパスワードは、この場合は、ローカルの
+
 6. デバイス アカウントには、有効な Microsoft 365 または Office 365 ライセンスが必要です。ライセンスがない場合は Exchange と Microsoft Teams または Skype for Business が動作しません。 ライセンスを所有している場合は、使用場所をデバイス アカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。 `Get-MsolAccountSku` を使用して、 <!-- Get-AzureADSubscribedSku --> 次のように、Microsoft 365 または Office 365 組織で使用できる SKU の一覧を取得できます。
 
    ```Powershell
@@ -157,7 +160,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   次に、`Set-MsolUserLicense` コマンドレットを使用してライセンスを追加  <!--Set-AzureADUserLicense --> することができます。 この例では、会議室ライセンスをアカウントに追加します。
+   次に、`Set-MsolUserLicense` コマンドレットを使用してライセンスを追加  <!--Set-AzureADUserLicense --> することができます。 この例では、会議室のライセンスをアカウントに追加します。
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
@@ -172,7 +175,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    詳細な手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
 
-   このアカウントには電話システムの機能を追加することもできますが、最初に設定する必要があります。 詳細については、「 [電話システムとは](../what-is-phone-system-in-office-365.md) 」を参照してください。 この例では、PSTN 国内および国際通話プランを追加します。
+   このアカウントに電話システム機能を追加することもできますが、最初に設定する必要があります。 詳細 [については、「電話システムとは?」](../what-is-phone-system-in-office-365.md) を参照してください。 この例では、PSTN 国内通話プランと国際通話プランを追加します。
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
@@ -185,7 +188,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 > [!NOTE]
 > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
 >
-> 最新の [Teams PowerShell パブリックリリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)を使用している場合は、Skype For Business Online Connector をインストールする必要はありません。
+> 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)をご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
 
    ``` Powershell
    Import-Module -Name MicrosoftTeams  

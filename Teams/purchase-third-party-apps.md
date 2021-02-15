@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 管理センターで Teams サードパーティ アプリのサービスを購入する
+title: Teams 用のサード パーティ製アプリを購入する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -12,18 +12,18 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: ''
-description: Microsoft Teams 管理センターの [アプリの管理] ページで、Teams サードパーティ アプリのサービスを購入する方法について説明します。
+description: Microsoft Teams 管理センターで Teams 用のサード パーティ製アプリを購入する方法について説明します。
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 8ee5b5c56a26ed054cdef559bc623b3cca4baa43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3b90af2e0fecba2d6c421a5b26547e93b18df05d
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834327"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196181"
 ---
-<a name="purchase-services-for-teams-third-party-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Teams サードパーティ アプリのサービスを購入する
+<a name="purchase-third-party-apps-for-teams"></a>Teams 用のサード パーティ製アプリを購入する
 ======================================================
 
 > [!NOTE]
@@ -65,7 +65,7 @@ Teams アプリに関連付けられている SaaS プランを購入した後�
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Microsoft Teams 管理センターと AppSource でリストと販売を行う Teams アプリの SaaS 特典はありますか?
 
-開発者は、Teams アプリに関連付けられている SaaS オファーを作成できます。 これらのオファーはパートナー [センターを](https://partner.microsoft.com) 通じて公開され、組織は [AppSource](https://appsource.microsoft.com/) と Microsoft Teams 管理センターを通じて購入できます。
+開発者は、Teams アプリに関連付けられた SaaS オファーを作成できます。 これらのオファーはパートナー [センターを](https://partner.microsoft.com) 通じて公開され、組織は [AppSource](https://appsource.microsoft.com/) と Microsoft Teams 管理センターを通じて購入できます。
  
 サード パーティ製アプリの開発者は [、「SaaS](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-new-saas-offer) サービスを作成する」で詳細を確認できます。
 

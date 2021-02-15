@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df06c03ab37a98c5ea4404d8dbd12703b07ad3ee
-ms.sourcegitcommit: 4386f4b89331112e0d54943dc3133791d5dca3fb
+ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "49611811"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196471"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 
@@ -60,6 +60,8 @@ Teams Exploratory エクスペリエンスの抽出条件を満たすユーザ�
 
 - 管理された Azure AD ドメインのメールアドレスをお持ちである。
 - 有料サブスクリプションのテナントに所属している。
+- アクティブな Teams ライセンスを持っていない。
+- ライセンスの割り当てポリシーが作成されたテナントに存在していない。
 
 ユーザーが (Microsoft 365 管理センターで) アプリや試用版にサインアップできるようにする必要があります。 詳細については、この記事で後述する「[Teams Exploratory エクスペリエンスを管理する](#manage-the-teams-exploratory-experience)」を参照してください。
 
@@ -169,17 +171,13 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory エクスペリエンスの利用可能期間
 
-Microsoft Teams Exploratory エクスペリエンスは、（最初のユーザー サインアップから）12 か月間と、それに加え 30 日間の猶予期間のあいだ、追加費用なしで利用できます。 この時点で、Microsoft Exploratory エクスペリエンス ライセンスのエンド ユーザーは、Teams を含む有料のライセンスに移行する必要があります。 同じテナントのすべてのユーザーに同じ終了日が適用されます。12 か月の期間は最初のユーザーのサインアップした日付から開始します。
+2021 年初頭の時点で、Teams Exploratory は、すべての新規のお客様を対象とした (最初のユーザー サインアップから) 12 か月のサブスクリプションとして利用できます。 新しい Teams Exploratory サブスクリプションは、組織の最初のユーザーが Teams Exploratory にサインアップしたときに開始され、12 か月後に期限切れになります。 有効期限は同じテナントのすべてのユーザーに適用されます。12 か月の期間は最初のユーザーのサインアップした日付から開始します。
 
-### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-the-anniversary-or-renewal-date"></a>エンド ユーザーが、Microsoft Teams Exploratory エクスペリエンスを契約日、または更新日の前に開始した場合は、どうなりますか
+> [!NOTE]
+> エクスペリエンスの終了日は組織レベルで構成されます。つまり、同じ組織内のすべてのユーザーに適用されます。 たとえば、ユーザー 1 が 2021 年 1 月 1 日にサブスクリプションにサインアップしたとします。 これにより、2021 年 12 月 31 日を終了日とするサブスクリプションが開始されます。 別のユーザーであるユーザー 2 が、2021 年 10 月 1 日にサブスクリプションにサインアップした場合、 ユーザー 2 は Teams Exploratory を 2 か月間使用できます。これは、ユーザー 1 と同じ組織のサブスクリプションでは、終了日が 2021 年 12 月 31 日となるためです。
 
-Microsoft Teams Exploratory エクスペリエンス ライセンスの開始が、**契約応当日**、または **更新日** の 90 日以内であれば、次の契約応当日、更新日まで有料のライセンスに移行する必要はありません。
+### <a name="what-should-administrators-do-at-the-end-of-the-12-month-teams-exploratory-experience"></a>12 か月の Teams Exploratory エクスペリエンスの終了時に管理者がすべきこと
 
-### <a name="what-if-my-agreement-doesnt-have-an-anniversary-or-yearly-renewal-date-for-example-month-to-month-agreements"></a>契約に応当日または年次更新日がない場合 (月単位の契約など)
+12 か月のサブスクリプションの終了時に、管理者はすべての Teams Exploratory ユーザーを Teams を含む有料ライセンスに変換する必要があります。 ユーザー エクスペリエンスの中断を回避するために、Teams Exploratory サブスクリプションの有効期限が切れる前にこの処理を完了しておくことが重要です。
 
-応当日または年次更新日を含まない契約については、最初のエンド ユーザーが Microsoft Teams Exploratory エクスペリエンス ライセンスをアクティブ化した翌年が、応当日または年次更新日として扱われます。 Microsoft Teams Exploratory ライセンスを使用しているユーザーは、この記事のポリシーに従って、その年のその日までに有料ライセンスに移行する必要があります。
-
-たとえば、最初のエンドユーザーが、2020 年 6 月 19 日に Microsoft Teams Exploratory をアクティブ化した場合、2021 年 6 月 19 日までにそれらのユーザーと顧客テナントのその他のすべての対象ユーザーが Teams の有料ライセンスに移行する必要があります。
-
-> [!Note]
-> お客様は、以前の Exploratory 試用版ライセンスの有効期限が終了してから 3 か月間、新しい Exploratory 試用版ライセンスは無効になり、起動がブロックされます。
+詳細については、この記事の上記の「[Teams Exploratory ライセンスからユーザーをアップグレードする](#upgrade-users-from-the-teams-exploratory-license))」を参照してください。

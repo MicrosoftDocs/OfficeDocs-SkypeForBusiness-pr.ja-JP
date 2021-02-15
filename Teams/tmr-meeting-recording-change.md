@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3b7a3917f47bd07bd5d66ce5fdb524b91b0299e
-ms.sourcegitcommit: d5732f043b7b5aa9b889aae185a7bc7e6ffad409
+ms.openlocfilehash: c3172250c1bf6fe914c331712db74a83ebe98a6d
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49979754"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196351"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -55,12 +55,11 @@ Microsoft Teams には、会議の記録を保存するための新しい方法�
 - **ローカルにする** テナントへのサポート
 - 複数地域のサポート – 記録はそのユーザーに固有の地域に格納されます。
 - 独自のキー (BYOK) サポートを利用する
-- トランスクリプトの品質とスピーカーの属性の改善
 
 サービスにはいくつかの制約事項があります。
 
-- 英語のみでクローズド キャプションとトランスクリプトが表示されます。
-- トランスクリプトやその内容を検索することはできません。
+- 英語専用のクローズド キャプションが表示され、キャプションのオン/オフを切り替えできます。
+- 完全な *トランスクリプトの* 表示、編集、検索は、最初は行えなっていません (ただし、この機能の追加は間もなく行っています)。
 - トランスクリプトは編集できませんが、キャプションのオン/オフを切り替えることができます。
 - 記録を共有するユーザーを制御することはできますが、共有アクセス権を持つユーザーが記録をダウンロードできないようにすることはできません。
 - 記録の保存が完了しても、メールは送信されません。完了したレコーディングは、会議のチャットに表示されます。 以前の Stream と比べてはるかに早くなります。

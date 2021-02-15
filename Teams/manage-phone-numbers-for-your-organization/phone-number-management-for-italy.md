@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表は、イタリア for Microsoft Teams の電話番号の取得と管理に関する情報を示しています。
-ms.openlocfilehash: 8f05d4df6450ec1161e9196a05fef6399db8ad9a
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+description: この表は、イタリア for Microsoft Teams での電話番号の取得と管理に関する情報を示しています。
+ms.openlocfilehash: 08a472952cce420f65313be641b01dabf78e12c8
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868332"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196401"
 ---
 # <a name="phone-number-management-for-italy"></a>イタリアの電話番号管理
 
-この表は、イタリア for Microsoft Teams の電話番号の取得と管理に関する情報を示しています。
+この表は、イタリア for Microsoft Teams での電話番号の取得と管理に関する情報を示しています。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
@@ -38,7 +38,7 @@ ms.locfileid: "49868332"
 |電話番号を転送します。  <br/> | このフォームをダウンロードします。 <br/>[イタリアの承認状 (LOA) (すべての番号) (v.6.0) (it-it)](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 |
 |国内の電話番号ディレクトリに電話番号を公開または公開を取り消します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。      <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
-|通話キューまたは自動応答番号に対するディレクトリ サービスの更新を行う|通話キューまたは自動応答番号を追加または変更するには、イタリア [(v.1.0) 用の](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)このディレクトリ サービス フォーム (it-it) をダウンロードし、入力して [送信](mailto:ptneu@microsoft.com)します。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、イタリア [(v.1.0) 用の](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)このディレクトリ サービス フォーム (it-it) をダウンロードし、入力して [送信](mailto:ptneu@microsoft.com)します。 |
 |サービスの予約を確認する| イタリア向け [サービスの予約 (v.1.0) (it-it) をダウンロードして読む](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true)。 |
 
 ## <a name="related-topics"></a>関連項目
@@ -49,4 +49,4 @@ ms.locfileid: "49868332"
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
   
-[緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[緊急通話の免責事項ラベル](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

@@ -333,6 +333,8 @@ items:
                 href: troubleshoot-guest-access.md
       - name: Teams の Cortana
         href: cortana-in-teams.md
+      - name: チーム対象の階層を設定する
+        href: set-up-your-team-hierarchy.md
   - name: ミーティングと会議
     items:
       - name: クイック スタート - 会議とライブ イベント
@@ -1027,50 +1029,54 @@ items:
     items:
       - name: 概要
         href: deploy-apps-microsoft-teams-landing-page.md
-      - name: Power Platform との統合
-        href: teams-power-platfom-integration.md
-      - name: Teams 用アプリを管理する
-        href: manage-apps.md
-      - name: Teams でのアプリの管理設定
-        href: admin-settings.md
-      - name: 組み込みタブとカスタム タブの使用
-        href: built-in-custom-tabs.md
-      - name: Microsoft 365 または Office 365 とカスタム コネクタを使用する
-        href: Office-365-custom-connectors.md
-      - name: リソース固有の同意
-        href: resource-specific-consent.md
-      - name: カスタム アプリ
+      - name: Microsoft のアプリ
         items:
+          - name: Teams で組織のリスト アプリを管理する
+            href: manage-lists-app.md
+          - name: 組織のタスク アプリを管理する
+            href: manage-tasks-app.md
+          - name: 称賛アプリを管理する
+            href: manage-praise-app.md
+          - name: Teams 承認アプリを管理する
+            href: approval-admin.md
+          - name: Teams で組織のシフト アプリを管理する
+            href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+      - name: サードパーティ製アプリ
+        items:
+          - name: アプリ証明書
+            href: 'https://docs.microsoft.com/en-us/microsoft-365-app-certification/overview'
+          - name: Teams 用のサードパーティ製アプリを購入する
+            href: purchase-third-party-apps.md
+      - name: Teams 用のアプリ テンプレート
+        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
+      - name: 独自のアプリを構築およびカスタマイズする方法
+        items:
+          - name: Power Platform との統合
+            href: teams-power-platfom-integration.md
+          - name: Microsoft Teams 管理センターで Power Platform アプリを管理する
+            href: manage-power-platform-apps.md
           - name: Teams アプリ 申請 API を使用して送信されたカスタム アプリを発行する
             href: submit-approve-custom-apps.md
-          - name: Microsoft Teams 管理センターで電源プラットフォームアプリを管理する
-            href: manage-power-platform-apps.md
           - name: アプリ パッケージをアップロードしてカスタム アプリを発行する
             href: upload-custom-apps.md
           - name: カスタム アプリ ストア
             href: customize-your-app-store.md
-      - name: アプリ証明書
-        href: /teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
-        href: app-permissions-admin-center.md
-      - name: アプリのアクセス許可と考慮事項
-        href: app-permissions.md
-      - name: Teams サードパーティ アプリのサービスを購入する
-        href: purchase-third-party-apps.md
-      - name: Teams 用のアプリ テンプレート
-        href: 'https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json'
-      - name: Teams で組織のリストアプリを管理する
-        href: manage-lists-app.md
-      - name: 組織のタスク アプリを管理する
-        href: manage-tasks-app.md
-      - name: チーム対象の階層を設定する
-        href: set-up-your-team-hierarchy.md
-      - name: Teams 管理センターで称賛アプリを管理する
-        href: manage-praise-app.md
-      - name: Teams と連動するように Skype 会議アプリを構成する
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: Teams 承認アプリの利用可能性
-        href: approval-admin.md
+      - name: Teams 用アプリを管理する
+        items:
+          - name: 概要
+            href: manage-apps.md
+          - name: Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
+            href: app-permissions-admin-center.md
+          - name: リソース固有の同意
+            href: resource-specific-consent.md
+          - name: アプリのアクセス許可と考慮事項
+            href: app-permissions.md
+          - name: Teams でのアプリの管理設定
+            href: admin-settings.md
+          - name: 組み込みタブとカスタム タブの使用
+            href: built-in-custom-tabs.md
+          - name: Microsoft 365 または Office 365 とカスタム コネクタを使用する
+            href: Office-365-custom-connectors.md
   - name: 導入
     items:
       - name: 概要
