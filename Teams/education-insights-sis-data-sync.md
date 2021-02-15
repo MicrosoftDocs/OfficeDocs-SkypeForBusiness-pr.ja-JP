@@ -16,19 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70cef1893b0260e690f5470bff0111dda5e7e7fe
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8f6d4a7dca340d297543abb3620a36cdd804ca9f
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145824"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196581"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>学生情報システム (SIS) データを Education Insights と同期する
 より多くのデータが [Education Insights](class-insights.md) に提供されるほど、教師はより適切に学生をサポートでき、教育リーダーはより適切に教師をサポートできます。
 
 組織レベルの Insights を提供するには、[学校データ同期 (SDS)](https://docs.microsoft.com/SchoolDataSync) を使用して学生情報システム (SIS) に接続する必要があります。これは、Insights が教育システムの階層構造を正しくマッピングできるようにするためです。 
 
-クラスの教師としてクラス レベルの Insights を表示する場合は、*その必要はありません*。これは、Teams のクラス構造とアクセス許可が使用されるためです。
+クラスの教師としてクラス レベルの Insights を表示する場合は、この同期は *必要ありません*。これは、Teams のクラス構造とアクセス許可が使用されるためです。
 
 ## <a name="plan-your-sis-integration"></a>SIS の統合を計画する
 SIS データは、教育システムの階層構造を提供し、どのユーザーがどこに割り当てられているかをマップします。
@@ -47,10 +47,10 @@ Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasy
 
 | データの種類 | 入力するデータの例|重要な理由|
 |:--- |:--- |:--- |
-| **ユーザー** |   役割 (学生など)<br/> 学年 (10 など)<br/> 組織 (名前) | 各ユーザーがそれぞれの役割、学年、および組織に正しく割り当てられていれば、要約と集計に間違いが生じません。|
+| **ユーザー** |   役割 (学生など)<br/> [学年](#supported-grade-level-values) (10 など)<br/> 組織 (名前) | 各ユーザーがそれぞれの役割、学年、および組織に正しく割り当てられていれば、要約と集計に間違いが生じません。|
 | **組織** | 組織の種類 (単科大学など) |   ここでは階層が重要です。 たとえば、学校がある地区に属し、その地区がある都道府県に属している場合があります。<br/> ある地区の教育リーダーがデータの表示を許可されている場合、その地区の学校のみが対象となります。|
-| **クラス** | タイトル (コンピューター サイエンス 101 など) | 組織内で開講されているクラスの詳細です。 学生を適切なクラスに割り当てることができるように、正しくマッピングする必要があります。 |
-| **登録** | 役割 (学生など) | これは学生と教師向けのデータです。学生や教師がどのクラスに登録されているのかを知ることができます。 |
+| **クラス** | タイトル (コンピューター サイエンス 101 など) | このテーブルは、組織内で開講されているクラスの詳細を示します。 学生を適切なクラスに割り当てることができるように、このテーブルは正しくマッピングされている必要があります。 |
+| **登録** | 役割 (学生など) | このテーブルは学生と教師向けのデータです。学生や教師がどのクラスに登録されているのかを知ることができます。 |
 
 > [!NOTE]
 > 展開プロセス中に、Teams のユーザーとクラスのプロビジョニングに SDS を使用するか、Insights にデータを提供するためだけに SDS を使用するかを決定できます。
@@ -70,7 +70,7 @@ Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasy
     
 *   必ず *各ユーザーの姓と名を入力* してください。 入力しない場合、ユーザーはメール アドレスによって参照されます。これはレポートとスポットライト (学生のアクティビティやパフォーマンスに関する分析情報を含むカード) において、実用的なエクスペリエンスとは言えません。
 
-*   *学年は 2 桁で入力する必要があります* (たとえば、学年が 7 の場合は「07」と入力します)。 詳しくは、[マッピング リスト](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)を参照してください。 
+*   *学年は 2 桁で入力する必要があります* (たとえば、学年が 7 の場合は「07」と入力します)。 詳しくは、[マッピング リスト](#supported-grade-level-values)を参照してください。 
 
 *   学年でデータをフィルタ処理できるように、*すべての学生に学年を追加する* ことが重要です。    
 
@@ -80,7 +80,7 @@ Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasy
     
     *   スタッフの組織単位に基づいて、関連するアクセス許可を定義できます。 必要なアクセス許可が与えられるように、スタッフが適切な組織単位レベルに関連付けられていることを確認してください。 たとえば、4 つの学校に割り当てられているカウンセラーは、それらの学校のすべてのクラスを表示する必要があります。校長は自分の学校のすべてのクラスを表示する必要があります。 
     
-*   役割はきわめて重要です。 これはクローズド リストですが、[このリスト](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)の役割と、アップロードする各ユーザーの実際の役割を一致させるようにしてください。 それにより、役割ベースのアクセス許可を適切に割り当てることができます。 たとえば、すべての校長に対して自分の学校のクラスを表示するアクセス許可を、またはすべての教授に対して自分の学部を表示するアクセス許可を与えます。 
+*   役割はきわめて重要です。 このリストは閉じられていますが、[こちらのリスト](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)の役割と、アップロードする各ユーザーの実際の役割を一致させるようにしてください。 それにより、役割ベースのアクセス許可を適切に割り当てることができます。 たとえば、すべての校長に対して自分の学校のクラスを表示するアクセス許可を、またはすべての教授に対して自分の学部を表示するアクセス許可を与えます。 
 
 ### <a name="organizations"></a>組織
 
@@ -134,3 +134,77 @@ Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasy
 
 > [!IMPORTANT]
 > 問題が発生した場合は、[カスタマー サポート](https://aka.ms/edusupport)にお問い合わせください。
+
+## <a name="supported-grade-level-values"></a>サポートされている学年の値
+
+SDS ファイルでは、学年は列挙値として定義されています。つまり、CSV ファイル内で指定されている値のセットのみを入力できます。 指定されている値以外の値を入力すると、同期処理中にエラーとなります。
+
+> [!NOTE]
+> *学年は 2 桁で入力する必要があります* (たとえば、Year 7 の場合は「07」と入力します)。
+
+以下のセクションでは、users ファイルでサポートされている値を定義します。
+
+### <a name="united-states--worldwide-grade-levels"></a>米国 / 世界的に用いられる学年
+|ファイル内の値 (Grade 列) | Insights のラベル|
+|:---|:---| 
+|IT|Infant (保育園)|
+|PR|Pre-school (保育園)|
+|PK|Pre-kindergarten (保育園)|
+|TK|Transitional Kindergarten (幼稚園 - 年少)|
+|KG|Kindergarten (幼稚園)|
+|01|First grade (1 年)|
+|02|Second grade (2 年)|
+|03|Third grade (3 年)|
+|04|Fourth Grade (4 年)|
+|05|Fifth grade (5 年)|
+|06|Sixth grade (6 年)|
+|07|Seventh grade (7 年)|
+|08|Eighth grade (8 年)|
+|09|Ninth grade (9 年)|
+|10|Tenth grade (10 年)|
+|11|Eleventh grade (11 年)|
+|12|Twelfth grade (12 年)|
+|PS|Postsecondary (高等教育)|
+|PS1|Postsecondary freshman (大学 1 年)|
+|PS2|Postsecondary sophomore (大学 2 年)|
+|PS3|Postsecondary junior (大学 3 年)|
+|PS4|Postsecondary senior (大学 4 年)|
+|undergraduate|Undergraduate (大学)|
+|graduate|Graduate (大学院)|
+|postgraduate|Postgraduate (研究科)|
+|alumni|Alumni (卒業生)|
+|adultEducation|Adult Education (社会人教育)|
+|UG|Ungraded (特殊教育)|
+|Other|Other (その他)|
+
+### <a name="united-kingdom-year-groups"></a>英国の学年グループ
+|ファイル内の値 (Grade 列) | Insights のラベル|
+|:---|:---| 
+|IT|Nursery (保育園)|
+|PR|Pre-school (保育園)|
+|PK|Reception (幼稚園)|
+|01|Year 1 (1 年)|
+|02|Year 2 (2 年)|
+|03|Year 3 (3 年)|
+|04|Year 4 (4 年)|
+|05|Year 5 (5 年)|
+|06|Year 6 (6 年)|
+|07|Year 7 (7 年)|
+|08|Year 8 (8 年)|
+|09|Year 9 (9 年)|
+|10|Year 10 (10 年)|
+|11|Year 11 (11 年)|
+|12|Year 12 (12 年)|
+|13|Year 13 (13 年)|
+|PS|Postsecondary (高等教育)|
+|PS1|Postsecondary Year 1 (大学 1 年)|
+|PS2|Postsecondary Year 2 (大学 2 年)|
+|PS3|Postsecondary Year 3 (大学 3 年)|
+|PS4|Postsecondary Year 4 (大学 4 年)|
+|undergraduate|Undergraduate (大学)|
+|graduate|Graduate (大学院)|
+|postgraduate|Postgraduate (研究科)|
+|alumni|Alumni (卒業生)|
+|adultEducation|Adult Education (社会人教育)|
+|UG|Ungraded (特殊教育)|
+|Other (その他)|Other (その他)|

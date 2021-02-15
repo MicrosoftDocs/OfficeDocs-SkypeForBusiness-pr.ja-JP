@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Microsoft Teams でユーザーの電話会議 PIN をリセットする方法と PIN に関する重要な事実について説明します。
-ms.openlocfilehash: cf660331bebfe32fe1809067570e316449c12a22
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+description: Microsoft Teams でユーザーの電話会議 PIN をリセットする方法と、PIN に関する重要な事実について説明します。
+ms.openlocfilehash: 3f1055551edb45ac422052476196f01ee4d2765d
+ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918983"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50237467"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
@@ -58,7 +58,7 @@ PIN は、電話会議に対応している Microsoft Teams ユーザーごと�
 
 ## <a name="what-else-should-you-know-about-pins"></a>PIN について知っておくべきその他のこと
 
-- セキュリティ保護のため、PIN のリセット時に PIN は 1 回だけ管理者に表示されます。 管理者が PIN をリセットすると、PIN は ***** として表示されます。
+- セキュリティ上の目的で、PIN がリセットされた場合、PIN は管理者に 1 回だけ表示されます。 管理者が PIN をリセットすると、PIN は *********** として表示されます。
     
 - ユーザーへのメールの自動送信は既定で有効になっています。ユーザーが電話会議で有効になっている場合、または PIN がリセットされた場合、ユーザーは自分の PIN が記載されたメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN リセット メールはユーザーに送信されません。PIN 情報を手動でユーザーに送信する必要があります。
     
@@ -68,9 +68,9 @@ PIN は、電話会議に対応している Microsoft Teams ユーザーごと�
     
 - ユーザーを電話会議用に有効にした場合、既定では、ユーザーは会議情報と PIN を含むメールを送信します。 PIN がリセットされた場合、ユーザーに設定されているプライマリ SMTP アドレス (エイリアス) に新しい PIN がメールで送信されるので、ユーザーは Microsoft 365 または Office 365 メールボックスを持っている必要があります。
     
-- 電話会議をセットアップするときに、組織内の PIN に必要な数字を設定します。 PIN は 4 ~ 12 桁で指定できます。既定値は 5 です。 PIN の長さの設定を変更した場合、この設定は新しく生成された PIN にのみ適用され、電話会議で有効になっている既存のユーザーの PIN 設定には適用されません。 「 [電話会議の PIN の長さを設定する」を参照してください](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
+- 電話会議をセットアップするときに、組織内の PIN に必要な数字を設定します。 PIN は 4 ~ 12 桁の数字で指定できます。既定値は 5 です。 PIN の長さの設定を変更した場合、この設定は新しく生成された PIN にのみ適用され、電話会議で有効になっている既存のユーザーの PIN 設定には適用されません。 「 [電話会議の PIN の長さを設定する」を参照してください](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
     
-- 既定では、メールはユーザーの Microsoft 365 Office 365 プライマリ SMTP アドレスに設定されます。 Microsoft 365 以外のアドレスまたは Office 365 以外のアドレス (Hotmail または MSN のメール アドレスなど) にメールを送信できます。 既定のメール アドレスを上書きするには、既定のメール Windows PowerShell。 これは、ユーザーが Microsoft 365 または 365 で Exchange メールボックスを持Office便利です。
+- 既定では、メールはユーザーの Microsoft 365 Office 365 プライマリ SMTP アドレスに設定されます。 Microsoft 365 以外のアドレスまたは Office 365 以外のアドレス (Hotmail または MSN のメール アドレスなど) にメールを送信できます。 既定のメール アドレスを上書きするには、既定のメール Windows PowerShell。 これは、ユーザーが Microsoft 365 または 365 に Exchange メールボックスを持Office便利です。
 
     
 

@@ -21,18 +21,15 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3204bc58b083f62feca3f878d2189558b69af6bd
-ms.sourcegitcommit: 6b24c82837ca2c11f450a162ca4fab3dfa4ac8d4
+ms.openlocfilehash: 9fb8812fd025317eb9c6e3c67ce1f5fcea094978
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620732"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196491"
 ---
-# <a name="survivable-branch-appliance-sba-for-direct-routing---public-preview"></a>ダイレクト ルーティング用の分岐電気機器 (SBA) - パブリック プレビュー
+# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>ダイレクト ルーティング用の分岐電気機器 (SBA)
 
-
-> [!NOTE]
-> これはパブリック プレビュー リリースです。
 
 場合によっては、Microsoft Phone System に接続するためにダイレクト ルーティングを使用しているお客様のサイトで、インターネットが停止することがあります。
 
@@ -72,7 +69,7 @@ Microsoft Teams クライアントがオフライン モードの場合、次の
 
 ## <a name="configuration"></a>構成
 
-SBA 機能を機能するには、Teams クライアントは、各ブランチ サイトで使用できる SBA と、そのサイト内のユーザーに割り当てられている SBA を知る必要があります。 構成手順は次のとおりです。
+SBA 機能を機能するには、Teams クライアントは、各ブランチ サイトで利用できる SBA と、そのサイト内のユーザーに割り当てられている SBA を知る必要があります。 構成手順は次のとおりです。
 
 1. SA を作成します。
 2. Teams ブランチのアクセス可能性ポリシーを作成します。
@@ -154,7 +151,7 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Azure Active Directory で SBA のアプリケーションを登録する
 
-テナント内で使用される異なる SBA が Microsoft 365 から必要なデータを読み取り込むには、Azure Active Directory で SBA 用のアプリケーションを登録する必要があります。 
+テナント内で使用されている異なる SBA が Microsoft 365 から必要なデータを読み取り込むには、Azure Active Directory で SBA のアプリケーションを登録する必要があります。 
 
 アプリケーションの登録の詳細については、次を参照してください。
 
@@ -210,7 +207,7 @@ SBA アプリケーションの場合は、次の注意が必要です。
 
 - ユーザーに変更可能な分岐ポリシーを割り当てると、SBA が Get-CsOnlineUser の出力に表示されるまで時間がかかる場合があります。 
 
-- Azure の連絡先に対する逆ADの参照は実行されません。 
+- Azure の連絡先に対する逆AD参照は実行されません。 
 
 - SBA では、通話の転送設定はサポートされていません。 
 

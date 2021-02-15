@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 次の表は、Microsoft Teams のアイルランドでの電話番号の取得と管理に関する情報を示しています。
-ms.openlocfilehash: 0526bd1827f838298a86498d93c3e24acb0e38be
-ms.sourcegitcommit: 8703d668949ae2004f8a9e576f5ffc9e3158db0e
+ms.openlocfilehash: def8a47ff77510597fc1f5a43cc1dd08509f7084
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49876711"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196811"
 ---
 # <a name="phone-number-management-for-ireland"></a>アイルランドでの電話番号の管理
 
@@ -35,12 +35,12 @@ ms.locfileid: "49876711"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|Microsoft Teams 管理センターに表示されていない新しいユーザーまたはサービスの電話番号を取得します。 <br/> |アイルランドでは、Microsoft Teams 管理センターを使用して組織の電話番号を取得できない。 新しい電話番号の申請を送信する必要があります。 <br/><br/>このフォームをダウンロードします。<br/>[アイルランド (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true)の新しい電話番号の要求。 <br/><br/> 入力して送信 [します](mailto:ptneu@microsoft.com)。  <br/> |
+|Microsoft Teams 管理センターに表示されていない新しいユーザーまたはサービスの電話番号を取得します。 <br/> |アイルランドでは、Microsoft Teams 管理センターを使用して組織の電話番号を取得できない。 新しい電話番号の申請を送信する必要があります。 <br/><br/>このフォームをダウンロードします。<br/>[アイルランド (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf?raw=true)の新しい電話番号の要求。 <br/><br/> 入力して、 [お送りください](mailto:ptneu@microsoft.com)。  <br/> |
 |電話番号を転送します。  <br/> | このフォームをダウンロードします。 <br/>[アイルランドの承認状 (LOA) (すべての番号) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/> |
 |国内の電話番号ディレクトリに電話番号を公開または公開を取り消します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |通話キューまたは自動応答番号に対するディレクトリ サービスの更新を行う|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
-   
+
 ## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
@@ -49,4 +49,4 @@ ms.locfileid: "49876711"
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
   
-[緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[緊急通話の免責事項ラベル](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

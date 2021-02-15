@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6452d49f1d00558d2103cfe45be0dc848d6f0a26
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145724"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196791"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -131,13 +131,10 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 |機能     | 上限 |
 |------------|---------------|
-|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 300 |
-|チャットタブから開始されるビデオ通話または音声通話の人数 | 20 |
-|PowerPoint ファイルの最大サイズ | 2 GB|
+|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 300。**表示専用** では、開催者が E3/E5/A3/A5 SKU のライセンスを持っている会議に、最大 1 万人の聴取のみの参加者が参加できます。<br>**注:** 政府機関用の Teams (GCC、GCC High、DoD) の場合、制限は 250 のままです。 政府機関のクラウド制限が 250 から 300 に増加し、会議のオーバーフローがサポートされたら、この記事を更新します。 [表示専用エクスペリエンス](view-only-meeting-experience.md)に関する詳細。|
+|チャットから開始されるビデオまたは音声通話に参加できるユーザー数 | 20 |
+|PowerPoint ファイルの最大サイズ | 2GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
-
->[!Note]
-> Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 ### <a name="meeting-expiration"></a>会議の有効期限
 

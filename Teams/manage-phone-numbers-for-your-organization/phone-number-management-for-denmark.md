@@ -19,16 +19,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Microsoft Teams のデンマークで電話番号を取得および管理する方法については、次の表を参照してください。
-ms.openlocfilehash: 79922e3a4c37682a6c16317b9b6c7f9da00f5d39
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2138e4e9da1522c5f32c08a100dee41bca74e017
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822827"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196841"
 ---
 # <a name="phone-number-management-for-denmark"></a>デンマークの電話番号管理
 
-Microsoft Teams のデンマークで電話番号を取得および管理する方法については、次の表を参照してください。 
+Microsoft Teams のデンマークで電話番号を取得および管理する方法については、次の表を参照してください。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
@@ -40,7 +40,6 @@ Microsoft Teams のデンマークで電話番号を取得および管理する�
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |通話キューまたは自動応答番号に対するディレクトリ サービスの更新を行う|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
 
-
 ## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
@@ -49,5 +48,4 @@ Microsoft Teams のデンマークで電話番号を取得および管理する�
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
   
-[緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
- 
+[緊急通話の免責事項ラベル](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

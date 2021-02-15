@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e017ac0795d2fdd65d89c0532469e8e269ee0e58
-ms.sourcegitcommit: e9f8e1a085cbcd2592d3386fdbcfca8a6e032b10
+ms.openlocfilehash: f22b2c53ab6f3c3c90e1720313c135c2106b1a49
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50173093"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196531"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Microsoft Teams でカスタム チーム テンプレートを作成する
 
@@ -39,7 +39,7 @@ ms.locfileid: "50173093"
 
 ![[追加] が強調表示された [チーム テンプレート] ダイアログの画像。](media/team-templates-new.png)
 
-4. [チーム **テンプレート] セクションで** 、[新しい **テンプレートの作成] を選択します**。
+4. [チーム **テンプレート] セクションで、[** 新しい **テンプレートの作成] を選択します**。
 
 5. [テンプレートの **設定] セクションで** 、次のフィールドに入力し、[次へ] を **クリックします**。
     - テンプレート名
@@ -57,7 +57,7 @@ ms.locfileid: "50173093"
     5. チャネルに追加するアプリ名を検索します。
     6. 完了 **したら [適用** ] をクリックします。
 
-![チーム テンプレートのチャネル、タブ、アプリの画面の画像。](media/template-channels-tabs-apps.png)
+![チーム テンプレートのチャネル、タブ、アプリ画面の画像。](media/template-channels-tabs-apps.png)
 
 8. 完了したら **[送信** ] をクリックします。
 
@@ -70,9 +70,13 @@ ms.locfileid: "50173093"
 
 **問題**: 追加のカスタム タブを含むカスタム テンプレートからチームを作成した場合、カスタム タブ アプリの代ねに空白のタブが表示される場合があります。 既定のタブ (投稿、ファイル **、Wiki** など) が期待通り表示されます。 
 
-**解決** 方法: この問題を解決するには、カスタム タブを削除し、同じアプリで新しいタブを追加します。 現在、2021/02/08 現在、すべてのカスタム テンプレートの修正に取り組み中です。
+**解決** 方法: 追加のカスタム タブを含むカスタム テンプレートからチームを作成した場合、カスタム タブ アプリの代に空白のタブが表示される場合があります。 既定のタブ (投稿、ファイル、Wiki など) が期待通り表示されます。
 
-## <a name="related-topics"></a>関連トピック
+この問題を解決するには、カスタム タブを削除し、同じアプリで新しいタブを追加します。 カスタム タブを削除して新しいタブを追加するアクセス許可が与えされていない場合は、チームの所有者に問い合わせ、確認してください。
+
+現在、カスタム テンプレートから作成された将来のチームの修正に取り組み中です。
+
+## <a name="related-topics"></a>関連項目
 
 - [管理センターでチーム テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
 - [既存のチームからテンプレートを作成する](create-template-from-existing-team.md)

@@ -22,17 +22,17 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a1af7f14695d1f933a9c3902b373eb668044e24
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 481e087a6cfe2b641f6b81fcfc893d50f27cbf47
+ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918643"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "50237487"
 ---
 <a name="add-and-update-reporting-labels"></a>レポート ラベルを追加して更新する
 ============================
 
-レポート ラベルは、オフィス、建物、または組織サイトの物理的な場所を示すために組織で使用されます。 Microsoft Teams 管理センターの [レポート ラベル] ページでは、物理的な場所と関連するネットワーク サブネットの一覧を含むテキスト ファイル (.csv または .tsv) を提供できます。 このファイルは、通話分析によってレポートを生成するために使用されます。 サブネット マッピングをアップロードすると、これらのサービスによって提供されるレポートにも場所の名前が含まれるので、潜在的な問題の修復にレポートを理解し、使用しやすくなります。
+レポート ラベルは、オフィス、建物、または組織サイトの物理的な場所を示すために組織で使用されます。 Microsoft Teams 管理センターの [レポート ラベル] ページでは、物理的な場所と関連するネットワーク サブネットの一覧を含むテキスト ファイル (.csv または .tsv) を提供できます。 このファイルは、通話分析によってレポートを生成するために使用されます。 サブネット マッピングをアップロードすると、これらのサービスによって提供されるレポートにも場所の名前が含まれるので、潜在的な問題を修復するためにレポートを理解し、使用しやすくなります。
 
 > [!IMPORTANT]
 > アップロードしたレポート ラベルは、Office  365 に関する契約の下でサポート データとして処理されます。この場合、顧客データまたは個人データと見なされる情報も *含めて処理されます*。 この情報はサポート目的で Microsoft エンジニアに表示されますので、Microsoft にサポート データとして提供しないデータは含めここではお使いください。
@@ -42,8 +42,8 @@ ms.locfileid: "49918643"
 **サブネットと場所のテーブルを編集するには**
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[場所レポート ラベル **]**  >  **をクリックします**。
-2. [場所 **データの置換] をクリックします**。
-3. [場所データ **の置換]** ウィンドウで、[ファイルの選択] をクリックし、編集した .csv ファイルまたは .tsv ファイルを参照してアップロードします。
+2. [データ **のアップロード] をクリックします**。
+3. [データ **のアップロード]** ウィンドウで、[ファイルの選択] をクリックし、編集した .csv ファイルまたは .tsv ファイルを参照してアップロードします。
 4. [アップロード **] をクリックします**。
 
 サンプル テンプレートはここでダウンロード [できます](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)。
@@ -60,7 +60,7 @@ ms.locfileid: "49918643"
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|マウンテン ビュー|94043|米国|CA|米国|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|マウンテン ビュー|94043|米国|CA|米国|1|1|
 
-データ ファイルの書式設定の詳細については、「テナント データ ファイル形式」および「建物データ ファイル [構造」を参照してください](CQD-upload-tenant-building-data.md#upload-building-data-file)。
+データ ファイルの書式設定の詳細については、「テナント データ ファイル形式」および「建物データ ファイル構造」 [を参照してください](CQD-upload-tenant-building-data.md#upload-building-data-file)。
 
 ## <a name="related-topics"></a>関連トピック
 

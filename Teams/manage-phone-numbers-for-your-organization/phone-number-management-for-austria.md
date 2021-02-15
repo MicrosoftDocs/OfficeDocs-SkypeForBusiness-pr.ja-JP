@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 次の表は、オーストリア for Microsoft Teams での電話番号の取得と管理に関する情報を示しています。
-ms.openlocfilehash: 44dad7d3baa95b0841c2e0c90512fa674f0decef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2efccd354553f4f7a4acd61e0017b45c2e92c669
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822867"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196741"
 ---
 # <a name="phone-number-management-for-austria"></a>オーストリアの電話番号管理
 
@@ -48,5 +48,4 @@ ms.locfileid: "49822867"
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
   
-[緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 
- 
+[緊急通話の免責事項ラベル](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)

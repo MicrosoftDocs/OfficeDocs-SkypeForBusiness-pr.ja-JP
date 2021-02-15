@@ -18,33 +18,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、Microsoft Teams のオーストラリアでの電話番号の取得と管理に関する情報を参照してください。
-ms.openlocfilehash: e62f87f810ac8572fd893561461e159e9bc41821
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: 次の表を使用して、オーストラリア for Microsoft Teams の電話番号の取得と管理に関する情報を確認します。
+ms.openlocfilehash: b2f8a690d57e7af16900dd05fe100c5697eaa44d
+ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48321670"
+ms.lasthandoff: 02/12/2021
+ms.locfileid: "50196961"
 ---
 # <a name="phone-number-management-for-australia"></a>オーストラリアでの電話番号の管理
-オーストラリアでは、Telstra と提携して、オーストラリアの請求先住所を使って、お客様の通話プランを購入およびプロビジョニングします。 Telstra は、通話プランを販売し、オーストラリアのユーザー番号を提供し、自動応答と通話キューのユーザーとサービス番号の両方に対して電話番号管理のサポートを提供します。 ただし、電話会議のサービス番号とライセンスは、引き続き Microsoft 365 および Office 365 によって販売および管理されます。
 
-[Telstra 通話](https://aka.ms/TelstraVoicePlan)の詳細については、こちらを参照してください。
+オーストラリアでは、オーストラリアの請求先住所を持つ顧客向け通話プランの購入とプロビジョニングについて Telstra と提携しました。 Telstra は通話プランを販売し、オーストラリアのユーザー番号を提供します。 Telstra は、自動応答と通話キューのユーザー番号とサービス番号の両方の電話番号管理をサポートします。 ただし、電話会議のサービス番号とライセンスは、引き続き Microsoft 365 および Office 365 によって販売および管理されます。
 
-この表を使用して、Microsoft Teams のオーストラリアでの電話番号の取得と管理に関する情報を参照してください。
+Telstra 通話の[詳細については、](https://aka.ms/TelstraVoicePlan)
+
+次の表を使用して、オーストラリア for Microsoft Teams の電話番号の取得と管理に関する情報を確認します。
 
 詳細については、「[組織の電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**これらの手順を実行して正しいフォームをダウンロードする**|
 |:-----|:-----|
-|オーストラリアで通話プランのユーザー電話番号を取得する。   <br/> |ユーザの新しい電話番号については、 [Telstra](https://aka.ms/TelstraVoicePlan) に連絡してください。 ユーザーに割り当てることができるように、同社によりそれらの番号が組織に追加されます。 <br/>
-|Telstra 通話を利用している場合は、クラウドの自動応答で使用できる新しいサービス電話番号を取得して、Telstra からオーストラリアの通話キューを取得できます。 <br/> |新しい電話番号については、 [Telstra](https://aka.ms/TelstraVoicePlan) に連絡してください。 同社がそれらの電話番号を組織に追加し、自動応答とコール キューに割り当てられるようにします。 Telstra 通話を利用していない場合は、microsoft 電話番号 ManagementService デスクにお問い合わせください。 Microsoft からサービス番号を取得するには、microsoft にお [問い合わせください](mailto:ptnapac@microsoft.com)。 <br/>|
+|オーストラリアで通話プランのユーザー電話番号を取得する。   <br/> |ユーザー [の新しい電話番号については、Telstra 通話](https://aka.ms/TelstraVoicePlan) にお問い合わせください。 ユーザーに割り当て可能な番号が組織に追加されます。 <br/>
+|Telstra 通話を利用している場合は、Telstra からクラウド自動応答およびオーストラリアの通話キューで使用できる新しいサービス電話番号を取得できます。 <br/> |新しい [電話番号については、Telstra 通話](https://aka.ms/TelstraVoicePlan) にお問い合わせください。 これらの番号が組織に追加され、自動応答や通話キューに割り当てられます。 Telstra **Calling** を使用していない場合は、Microsoft Number ManagementService デスクに問い合わせ、Microsoft からサービス番号を取得することができます。お問い合 [わせください](mailto:ptnapac@microsoft.com)。 <br/>|
 |オーストラリアで、電話会議の新しいサービス電話番号を取得する。   <br/> |[お問い合わせください](mailto:ptnapac@microsoft.com)。|
-|Microsoft 365 または Office 365 に転送された電話番号をユーザー、自動応答、通話キューに転送します。  <br/> |電話番号を移行するには、 [Telstra 通話](https://aka.ms/TelstraVoicePlan) に連絡してください。 次に、これらの番号を組織に追加します。  <br/> |
-|電話会議で使用するために Microsoft 365 または Office 365 に転送された電話番号を取得します。  |[お問い合わせください](mailto:ptnapac@microsoft.com) |
-|コール プラン電話番号を持っているユーザーに割り当てられた緊急アドレス指定を変更する。 |緊急対応の住所を変更するには、 [Telstra 通話](https://aka.ms/TelstraVoicePlan) に連絡してください。 同社がこの情報を更新できます。|
+|ユーザー、自動応答、通話キューの電話番号を Microsoft 365 または Office 365 に転送します。  <br/> | [電話番号を転送するには、Telstra Calling](https://aka.ms/TelstraVoicePlan)にお問い合わせください。 これらの番号が組織に追加されます。  <br/> |
+|電話会議で使用するために、Microsoft 365 または Office 365 に転送される電話番号を取得します。  |[お問い合わせ](mailto:ptnapac@microsoft.com) |
+|コール プラン電話番号を持っているユーザーに割り当てられた緊急アドレス指定を変更する。 |[緊急対応の住所を変更するには、Telstra 通話](https://aka.ms/TelstraVoicePlan)にお問い合わせください。 同社がこの情報を更新できます。|
 |ユーザー番号をサービス番号に変更する。 |Telstra 通話を使用する場合にサポートされます。|
-|通話キューまたは自動応答の番号にディレクトリサービスの更新を行う|通話キューまたは自動応答の番号を追加または変更するには、 [PSTN サービスデスク](contact-pstn-service-desk.md)に問い合わせてください。 |
+|通話キューまたは自動応答番号に対するディレクトリ サービスの更新を行う|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>関連項目
 
@@ -53,3 +54,5 @@ ms.locfileid: "48321670"
 [組織の電話番号を管理する](manage-phone-numbers-for-your-organization.md)
 
 [緊急通話の利用条件](../emergency-calling-terms-and-conditions.md)
+
+[緊急通話の免責事項ラベル](https://download.microsoft.com/download/a/8/0/a807c43d-2177-4fe0-8732-86b3784ae6e5/emergency-calling-label-(en-us)-(v.1.0).zip)
