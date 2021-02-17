@@ -20,23 +20,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea8c313d74829c00532fa3310657879f94dc2e5d
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 7ffc673ade43e8acdb258c9364b3023ba21da2a7
+ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196431"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50260349"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams と Skype for Business の共存と相互運用性を理解する
 
 ![プロジェクトの定義ステージが強調表示されたアップグレード行程図](media/upgrade-banner-project-definition.png "「プロジェクトの定義」段階が強調表示された、アップグレード行程の各段階")
 
-この記事は、お客様のアップグレード行程の「プロジェクトの定義」段階の一部です。プロジェクトの定義は、スポンサー連合とプロジェク チームを作成し、プロジェクトの適用範囲、目標、ビジョンを定義した後に実行するアクティビティです。 続く前に、次のアクティビティを完了したと確認します。
+この記事は、お客様のアップグレード行程の「プロジェクトの定義」段階の一部です。 後でスポンサーの連立とプロジェクト チームを作成し、プロジェクトの範囲、目標、計画を定義します。 続く前に、次のアクティビティを完了したと確認します。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
 
-組織で現在 Skype for Business を使用し、Skype for Business と一緒に Teams を使用し始める場合、または Teams へのアップグレードを開始する場合は、2 つのアプリケーションが共存する方法、いつ、どのように相互運用するか、および Skype for Business から Teams への最終的なアップグレードまでユーザーの移行を管理する方法を理解することが重要です。
+組織で現在 Skype for Business を使用している場合、または Teams へのアップグレードを開始する場合、または Skype for Business と一緒に Teams を使用し始める場合は、次の項目を理解することが重要です。
+
+- 2 つのアプリケーションが共存する方法。
+- 相互運用の方法と時間。
+- Skype for Business から Teams への最終的なアップグレードまで、ユーザーの移行を管理する方法。
 
 > [!Tip]
 > [共存と相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)の詳細を説明するセッションをご視聴ください。
@@ -47,7 +51,7 @@ ms.locfileid: "50196431"
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>Teams と Skype for Business の共存
 
-Teams では、共同作業の機能だけでなく、チャット、通話、会議の機能も提供しています。 選択する Teams の展開方法によっては、これらの機能が、特定のユーザーに対して Skype for Business で提供される機能と重複する場合があります。 既定のモードでは、機能が重複して Skype for Business と共に Teams を実行します。ただし、これらの機能がユーザーに重ならないように設計された複数の共存モード (アップグレード モードとも呼ばれる) の 1 つをユーザーに割り当てることができます (その場合、Teams と Skype for Business 間の相互運用性を利用できます)。 たとえば、複雑なエンタープライズ VoIP の展開と共に、多くの Skype for Business Server のオンプレミスの資産を持ってい組織で、できるだけ早く最新の会議をユーザーが利用できるようにしたい場合には、代替パスとして [Meetings First](meetings-first.md) を評価することができます。
+ Teams は、共同作業機能、チャット、通話、会議機能を提供します。 Teams の展開方法によっては、これらの機能が特定のユーザーに対して Skype for Business によって提供される機能と重複する場合があります。 既定のモードでは、機能が重複して Skype for Business と共に Teams を実行します。 ただし、これらの機能がユーザーに重ならないように設計された複数の共存モード (アップグレード モードとも呼ばれる) の 1 つをユーザーに割り当てることができます (その場合、Teams と Skype for Business 間の相互運用性を利用できます)。 たとえば、複雑な エンタープライズ VoIP 展開を持つオンプレミスの重要な Skype for Business Server 資産があるが、ユーザーが可能な限り迅速に最新の会議を利用する必要がある場合は、代替パスとして会議 [を最初](meetings-first.md) に評価することができます。
 
 どのパスが組織に一番適しているかを判断するために、以下の共存モードを確認することをお勧めします。
 
@@ -56,11 +60,18 @@ Teams では、共同作業の機能だけでなく、チャット、通話、�
 
 ### <a name="islands-mode"></a>アイランド モード
 
-既定では、ユーザーは、プレゼンス、チャット、通話、会議などの類似した重なり合う機能を提供する 2 つの別個のソリューションとして、Teams と Skype for Business を並列で実行できます。 Teams ユーザーは、チームやチャネルなどの新しいコラボレーション機能、Microsoft 365 または Office 365 のファイルへのアクセス、アプリケーションを利用することもできます。
+既定では、ユーザーは Skype for Business と一緒に Teams を実行し、類似した重複する機能を提供する 2 つの個別のソリューションとして実行できます。 プレゼンス、チャット、通話、会議などの機能があります。 Teams ユーザーは、チームやチャネルなどの新しいコラボレーション機能、Microsoft 365 または Office 365 のファイルへのアクセス、アプリケーションを利用することもできます。
 
-「**アイランド**」と呼ばれるこの共存モードでは、各クライアント アプリケーションが別個のアイランド (島) として動作します。 Skype for Business は Skype for Business とやり取りし、Teams は Teams とやり取りします。 ユーザーは、両方のクライアントを常時実行することが想定されており、コミュニケーションを開始したクライアントでネイティブにコミュニケーションできます。 そのため、Islands モードで相互運用性を確保する **必要** はありません。
+「**アイランド**」と呼ばれるこの共存モードでは、各クライアント アプリケーションが別個のアイランド (島) として動作します。 Skype for Business は Skype for Business とやり取りし、Teams は Teams とやり取りします。 ユーザーは、両方のクライアントをすべての時点で実行すると想定され、通信を開始したクライアントでネイティブに通信できます。 そのため、Islands モードで相互運用性を確保する **必要** はありません。
 
-Skype for Business エクスペリエンスが複雑化または低下することを回避するため、外部 (フェデレーション) コミュニケーション、PSTN 音声サービスと音声アプリケーション、Office の統合、USB デバイスの HID 制御、その他のいくつかの統合は引き続き Skype for Business で処理され、[**アイランド**] モードの Teams では利用できません。 Teams では、電話システムは [**アイランド**] モードではサポートされません。このモードで使用できる唯一のエンタープライズ VoIP クライアントは、Skype for Business です。
+Skype for Business の操作環境が混乱したり、再表示されるのを避けるために、Skype for Business は Teams の諸島モードでは処理されない次の統合を **処理** します。
+
+- 外部 (フェデレーション) 通信。
+- PSTN 音声サービスと音声アプリケーション、Office。
+- USB デバイスの HID コントロール。
+- その他のいくつかの統合。  
+
+電話システムは、Teams の諸島モードでは **サポート** されていません。 **Islands** モードでは、クライアントが Skype for Business エンタープライズ VoIPサポートされていません。
 
 > [!Important]
 > [**アイランド**] モードでは、フェデレーション ユーザー (組織外のユーザー) からのすべてのメッセージと通話は、Skype for Business に配信されます。 [**Teams のみ**] モードにアップグレードすると、組織の外部からのすべてのメッセージと通話が Teams に配信されます。
@@ -70,42 +81,53 @@ Skype for Business エクスペリエンスが複雑化または低下するこ�
 
 ### <a name="teams-only"></a>Teams のみ
 
-「**Teams のみ**」ユーザー (*アップグレード済み* ユーザーとも呼ばれます) は、Teams のすべての機能にアクセスできます。 これらのユーザーは、アップグレード済みではないユーザーや外部関係者によって開催される Skype for Business の会議に参加するために Skype for Business クライアントを残しておくことができます。 アップグレード済みユーザーは、Skype for Business をまだ使用している組織内の他のユーザーと引き続きやり取りするために、(Skype for Business ユーザーが [**アイランド**] モードに設定されていない限り) Teams と Skype for Business との相互運用機能を使用することができます。 ただし、アップグレード済みユーザーは、Skype for Business のチャット、通話、会議を開始することはできません。
+「**Teams のみ**」ユーザー (*アップグレード済み* ユーザーとも呼ばれます) は、Teams のすべての機能にアクセスできます。 これらのユーザーは、アップグレード済みではないユーザーや外部関係者によって開催される Skype for Business の会議に参加するために Skype for Business クライアントを残しておくことができます。 アップグレードしたユーザーは、Teams と Skype for Business の間の相互運用性機能を使用して(Skype for Business ユーザーが諸島モードではない場合)、引き続きSkype for Business を使用している組織内の他のユーザーと通信できます。 ただし、アップグレード済みユーザーは、Skype for Business のチャット、通話、会議を開始することはできません。
 
-一部またはすべてのユーザーが Teams を唯一のコミュニケーションおよびコラボレーション ツールとして使用する準備が組織ででき次第、それらのユーザーを [**Teams のみ**] モードにアップグレードできます。 [**アイランド**] モードからアップグレードする場合は、最初に Teams の導入を組織全体に行き渡らせてからアップグレード プロセスを開始することをお勧めします。 これにより、相互運用性が [**アイランド**] モードで提供されないことによるコミュニケーションの中断という事態を避けられます。
+一部またはすべてのユーザーが Teams を通信および共同作業ツールとして使用する準備ができたら、それらのユーザーを **Teams のみモードにアップグレード** します。 Islands モードからアップグレードする場合は、アップグレード プロセスを開始する前に、まず組織全体で Teams の導入を飽和状態に設定してください。 この導入により、Islands モードでは相互運用性が提供されないため、通信シナリオが壊れるのを回避できます。
 
-Teams のみモード **の** 場合、Teams は SIP/Tel プロトコルの既定のアプリです。 つまり、通話またはチャット用の Outlook のユーザーの連絡先カード内のリンクは、Teams によって処理されます。
+Teams のみモード **の** 場合、Teams は SIP/Tel プロトコルの既定のアプリです。 通話またはチャット用の Outlook のユーザーの連絡先カード内のリンクは、Teams によって処理されます。
 
-[**Teams のみ**] モードへの移行に関するその他の考慮事項については、「[Teams のみモードの考慮事項](teams-only-mode-considerations.md)」を参照してください。
+Teams Only モードへの移行に関するその他の考慮事項については **、「Teams** のみモードに関する考慮事項」 [を参照してください](teams-only-mode-considerations.md)。
 
 ![Teams の確認メッセージのスクリーン ショット](media/teams-and-skypeforbusiness-coexistence-and-interop-image1.png "ユーザーが Teams 専用ユーザーとしてアップグレードされた後、特別なモードで実行されている Skype for Business クライアント")
 
 ### <a name="skype-for-business-only"></a>Skype for Business のみ
 
-この共存モードでは、ユーザーはチャット、会議、通話機能のために Teams ではなく Skype for Business に残り、チームやチャネルに Teams を使用しません。 このモードは現在使用できます。ただし、現在の実装では、チームとチャネルはユーザーに対して自動的にオフになりません。 これは、アプリ セットアップ ポリシーを使用してチームやファイルを非表示にすることで実現できます。
+この共存モードでは、ユーザーはチャット、会議、通話機能のために Teams ではなく Skype for Business に残り、チームやチャネルに Teams を使用しません。 このモードは現在使用できます。ただし、現在の実装では、チームとチャネルはユーザーに対して自動的にオフになりません。 これは、アプリ セットアップ ポリシーを使用してチームとファイルを非表示にすることで実現できます。
 
-このモードは、Teams の管理された展開を開始する前に使用することができます。これは、ユーザーが準備完了に先行して Teams の使用を開始することを防ぐため、または Skype for Business ユーザーの Teams 会議での認証された参加を可能にする方法として、ユーザーが Teams のライセンスを持っている場合に使用できます。
+このモードは、Teams の管理された展開を開始する前に使用して、ユーザーが準備を構築する前に Teams を使用し始めから始めない場合に使用できます。 このモードは、ユーザーが Teams のライセンスを取得している場合に、Skype for Business ユーザーの Teams 会議に認証された参加を有効にする方法です。
 
 ### <a name="skype-for-business-with-teams-collaboration"></a>Skype for Business と Teams のコラボレーション
 
-このモードを使用すると、Skype for Business の既存の投資を継続して利用しつつ、Teams を組織の環境に導入できます。 このモードでは、チャット、通話、会議の機能に対して Skype for Business を変更しないままにし、Teams の共同作業機能 (チームとチャネル、Microsoft 365 または Office 365 のファイルへのアクセス、アプリケーション) を追加します。 このモードでは、Teams のコミュニケーション機能 (プライベート チャット、通話、会議のスケジュール) は既定ではオフになります。
+このモードを使用して、Skype for Business への既存の投資を引き続き使用しながら、環境に Teams を導入します。 チャット、通話、会議の機能については、Skype for Business を変更しないでください。 Teams の共同作業機能を追加する:
+
+- チームとチャネル。
+- Microsoft 365 または Office 365 のファイルにアクセスします。
+- アプリケーション。 Teams のコミュニケーション機能 (プライベート チャット、通話、会議のスケジュール設定)。
+
+このモードでは、Teams のプライベート チャット、通話、および会議のスケジュール設定は既定でオフになっています。
 
 オンプレミスまたはハイブリッドの Skype for Business Server を開始点とする組織は、コミュニケーションの相互運用性と予測可能性をユーザーに提供する場合、または ([**アイランド**] モードでの導入の浸透に頼る代わりに) ユーザーの Teams へのアップグレードを予測可能なタイムラインに沿って行う場合は、このモードを [**アイランド**] モードの代わりに使用することを検討してください。
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>Skype for Business と Teams のコラボレーションと会議 (Meetings First とも呼ばれます)
 
-この共存モードを使用すると、Teams の共同作業機能に加え、Teams の会議機能の利用を組織で加速させられます。これにより、Teams の優れた会議エクスペリエンス、議事録、翻訳、背景のぼかしなどの高品質かつ画期的な機能、およびモバイル デバイスやブラウザーを含むすべてのプラットフォームにおける優れたユーザー エクスペリエンスをユーザーが活用できるようになります。
+この共存モードを使用して、組織内の Teams 会議とコラボレーション機能の可用性を加速します。 共存モードを使用すると、ユーザーは優れた Teams 会議エクスペリエンスを利用できます。
 
-このモードでは、Teams はチームやチャネル ベースの会話に使用される他、ユーザーが会議のスケジュールを設定して実施するのにも Teams が使用されます。 プライベート チャットと通話は引き続き Skype for Business で行います。 Teams と Skype for Business には、プレゼンスの調整、自動保留/ホールド解除、両方のアプリケーションでの HID デバイス のサポートなど、さまざまな "より優れた" 機能があります。 アプリセットアップ ポリシーを使用すると、必要に応じてチームとチャネルを非表示にできます。
+- 優れた品質。
+- トランスクリプションと翻訳。
+- 背景のぼかし。
+- モバイル デバイスやブラウザーなど、すべてのプラットフォームで優れたユーザー エクスペリエンスを提供します。
 
-この共存モードは、エンタープライズ VoIP と共に Skype for Business オンプレミスの展開を使用している組織に特に適しています。このような組織では多くの場合、Teams へのアップグレードに時間を要し、より優れた Teams の会議をできるだけ早く活用できることを望んでいるためです。
+このモードでは、Teams はチームやチャネル ベースの会話に使用される他、ユーザーが会議のスケジュールを設定して実施するのにも Teams が使用されます。 プライベート チャットと通話は引き続き Skype for Business で行います。 Teams と Skype for Business は、プレゼンスの調整、自動保留/ホールド解除、両方のアプリケーションでの HID デバイス のサポートなど、さまざまな "より優れた" 機能を利用できます。 必要に応じて、アプリセットアップ ポリシーを使用して、チームとチャネルを非表示にできます。
+
+この共存モードは、Skype for Business を展開している組織に特に便利な機能エンタープライズ VoIP。 これらの組織は、Teams へのアップグレードに少し時間がかかる可能性が高く、できるだけ早く優れた Teams 会議の恩恵を受けしたいと考えています。
 
 > [!TIP]
 > Skype for Business の使用が継続している場合に、 Teams で有効にしたい機能に基づき推奨されるアップグレード モードを特定するには、[Skype から Teams へのアップグレード ウィザード](https://aka.ms/SkypeToTeamsWizard)を使用します。
 
-共存モード、前提条件、および管理の詳細については、「[Migration and interoperability guidance for organizations using Teams together with Skype for Business (Teams を Skype for Business と併用する組織向けの移行と相互運用に関するガイダンス)](https://aka.ms/SkypeToTeams-Interop)」および「[共存およびアップグレードの設定 (Setting your coexistence and upgrade settings)](https://aka.ms/SkypeToTeams-SetCoexistence)」を参照してください。
+共存モード、前提条件、および管理の詳細については[、「Skype for Business](https://aka.ms/SkypeToTeams-Interop)と共に Teams を使用する組織の移行と相互運用性のガイダンス」および「共存とアップグレードの設定」を参照[してください。](https://aka.ms/SkypeToTeams-SetCoexistence)
 
-| | | |
+|意思決定ポイント アイコン |アイコンの定義 |説明 |
 |---|---|---|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|判断ポイント|<ul><li>組織とユーザーのニーズに最も適した共存モード</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next step"/>|次の手順|<ul><li>アップグレード行程での最適なアプローチを選択する。</li></ul>|
@@ -126,7 +148,7 @@ Teams のみモード **の** 場合、Teams は SIP/Tel プロトコルの既�
 
 相互運用エクスペリエンスには、ネイティブ相互運用と相互運用エスカレーションの 2 種類があります。
 
-- _ネイティブ相互運用_ は、ユーザーがその時点で使用しているクライアントにおいて実行されます。 1 人のユーザーが Skype for Business クライアント内に存在し、もう 1 人は Teams 内にいる場合です。 ネイティブの相互運用機能では、通信に他のクライアントに移動しません。ユーザーは現在使用しているクライアントで会話を行えます。 ネイティブ相互運用エクスペリエンスは、1 対 1 のチャットと通話です。
+- _ネイティブ相互運用_ は、ユーザーがその時点で使用しているクライアントにおいて実行されます。 1 人のユーザーが Skype for Business クライアント内に存在し、もう 1 人は Teams 内にいる場合です。 ネイティブの相互運用機能のエクスペリエンスでは、通信に他のクライアントに移動しません。 ユーザーは、現在使用しているクライアントで会話を行う可能性があります。 ネイティブ相互運用エクスペリエンスは、1 対 1 のチャットと通話です。
 - _相互運用エスカレーション_ エクスペリエンスでは、ユーザー行う高度な操作 (デスクトップの共有など) のサポートの一環として、クライアントでの会議の作成が容易になります。ユーザーはこの会議に参加して、相互運用エスカレーション エクスペリエンスを会議内で継続させられます。 会議は、操作を開始したユーザーのプラットフォームに作成されます。 そのプラットフォームに参加していないユーザーは、会議参加リンクを受け取る。 このリンクをクリックすると、互換性のあるクライアント (構成に基づいて、ブラウザー、Web アプリ、フル クライアントのいずれか) で会議に参加できます。 Skype for Business からの相互運用エスカレーションには、最新のクライアントが必要です。 Teams から相互運用エスカレーションを利用できるようになりました。 いずれのエスカレーションも、テナント内の相互運用エクスペリエンス、およびテナント間のフェデレーション コミュニケーションでサポートされます。
 
 ### <a name="native-interop-experiences"></a>ネイティブ相互運用エクスペリエンス
@@ -137,7 +159,7 @@ Skype for Business ユーザーと Teams ユーザーは 1 対 1 のチャット
 
 <!--![Screen shot of Interop chat experience from Teams](media/Interop_chat_experience_from_Teams.png "Interop chat experience from Teams")-->
 
-Skype for Business ユーザーと Teams ユーザーは 1 対 1 の音声通話とビデオ通話を行えます。その逆も行えます。
+Skype for Business ユーザーは Teams ユーザーに対して 1 対 1 の音声通話とビデオ通話を行い、Teams ユーザーは同じ操作を行います。
 
 <!--![Screen shot of Interop calling experience from Teams](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
@@ -167,7 +189,7 @@ Skype for Business ユーザーと Teams ユーザーは 1 対 1 の音声通話
 相互運用エスカレーションは、ネイティブ相互運用機能を、会議への管理されたエスカレーションを使用して補完したものです。 会議では、ユーザーが所有しているクライアントに関係なく、だれもが豊富な機能を利用できます。
 
 Teams ユーザーにより相互運用エスカレーションがトリガーされると、Teams 会議が作成されます。 それをトリガーしたのが Skype for Business ユーザーであった場合は、Skype for Business 会議が作成されます。 どちらの場合も、作成された会議は [今すぐ会議] 会議で、ユーザーの予定表には反映されません。
- 
+
 相手のユーザーは、相互運用チャットで会議参加リンクを受け取り、そのリンクをクリックすると参加できます。 Skype for Business ユーザーが Teams アカウントを持っていて Teams ユーザーによって招待されると、認証された状態で会議に参加します。 それ以外の場合は、匿名の参加者として参加します。 反対に、ほとんどの Teams ユーザーには必ず Skype for Business アカウントと、Skype for Business 会議に認証された参加者として使用できる Skype for Business クライアントがありますが、Skype 会議アプリを使用する場合など匿名の参加者として参加することもできます。
 
 会議に参加したユーザーは、デスクトップやコンテンツの共有、ファイルの共有や転送、他の参加者の追加など、会議でサポートされるすべてのアクティビティを実行できます。
@@ -177,7 +199,7 @@ Teams ユーザーにより相互運用エスカレーションがトリガー�
 Skype for Business からの相互運用と相互運用エスカレーションは、月次 C2R の 2019 年 7 月ビルドで更新されました。 以前は、Skype for Business では、リモート ユーザーが Teams を使用していることを事前に認識できませんでした。 セッションが確立された後に受信した信号に基づいて推測されるだけでした。
 
 応答が相互運用ゲートウェイから来たこと、またはゲートウェイを経由したことを信号が示している場合、そのユーザーが Skype for Business を使用していないことを示す黄色の ビジネス バー (バナー) が表示されます。 サービスの進化に伴い、実際の **Teams のみ** ユーザーに接続したときではなく、クラウド ボイスメール サービスや他のクラウド ボイス サービスに接続した場合にこのビジネス バーが Skype for Business ユーザーに表示されるようになり、誤検知が発生していました。
- 
+
 こうした誤検知を防ぐために、プレゼンス サービスでは、相手のユーザーが実際に **Teams のみ** ユーザーである場合に Skype for Business クライアントに通知するようになりました。 これにより、会話ウィンドウが作成されてしまう前に相互運用会話および相互運用専用の会話ウィンドウを作成する必要があることを Skype for Business に認識させられます。
 
 ![Skype for Business ユーザーとの相互運用会話を作成するための Teams メッセージのスクリーンショット](media/teams-and-skypeforbusiness-coexistence-and-interop-create-conversation-with-skype-user.png)
@@ -198,17 +220,22 @@ Teams から Teams 会議への相互運用エスカレーションが、Skype f
 
 相互運用スレッドとフェデレーション相互運用スレッドで、Teams ユーザーにコンテンツ共有を開始するためのコントロール (ボタン) が表示されるようになりました。 Teams ユーザーがこのボタンを選択すると、コンテンツ共有や、Teams 会議を開始する必要があることを知らせる追加メニューが表示されます。
 
-ユーザーが通話中の場合は、Teams と Skype for Business 間で行われている現在の通話が、Teams 会議に参加すると終了することも警告されます。 その場合、承諾前に Skype for Business ユーザーに警告できます。
+ユーザーが通話中の場合は、Teams と Skype for Business 間で行われている現在の通話が、Teams 会議に参加すると終了することも警告されます。 ユーザーが選択した場合は、承諾する前に Skype for Business ユーザーに警告を表示できます。
 
 ![Skype for Business ユーザーと会議を共有するための Teams メッセージのスクリーンショット](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
 
 承諾すると、Teams 会議に参加できます。会議の共有トレイから共有を開始する必要があります。
- 
+
 一方、Skype for Business ユーザーは、会議へのリンクを含む着信チャット メッセージを受信し、参加するためのガイドが示されます。
 
 Teams 会議へのこのエスカレーションは、テナント内の相互運用と、テナント間のフェデレーション通話とチャットで利用できます。 これは既定で有効になっており、管理者がプロビジョニングする必要のある設定はありません。 ただし、管理者が ``CsTeamsMeetingPolicy`` の ``-AllowPrivateMeetNow`` を ``$false`` に設定すると、ユーザーに対して無効になります。
 
-この記事の内容を確認し終わったら、実装の詳細について、「[アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)」、「[移行と相互運用に関するガイドライン](https://aka.ms/SkypeToTeams-Interop)」、「[Skype for Business と共存する](coexistence-chat-calls-presence.md)」、および「[共存およびアップグレードを設定する](https://aka.ms/SkypeToTeams-SetCoexistence)」を参照してください。
+この記事を確認した後は、次の関連記事を参照してください。
+
+- [アップグレードの行程を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [移行と相互運用性のガイダンス](https://aka.ms/SkypeToTeams-Interop)
+- [Skype for Business と共存する](coexistence-chat-calls-presence.md)
+-  [実装の詳細について共存とアップグレードの設定](https://aka.ms/SkypeToTeams-SetCoexistence) を設定します。
 
 ## <a name="related-links"></a>関連リンク
 

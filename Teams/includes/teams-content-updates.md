@@ -3,6 +3,77 @@
 
 
 
+## <a name="week-of-february-08-2021"></a>2021 年 2 月 8 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 2/8/2021 | [Education Insights へのユーザー アクセスを管理する](/MicrosoftTeams/education-insights-manage-access) | 追加済 |
+| 2/8/2021 | [Microsoft Teams の Education Insights への IT 管理者ガイド](/MicrosoftTeams/class-insights) | 更新日時 |
+| 2/8/2021 | [別の組織のユーザーとの電話およびチャット](/MicrosoftTeams/communicate-with-users-from-other-organizations) | 更新日時 |
+| 2/8/2021 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 2/8/2021 | [学生情報システム (SIS) データを Education Insights と同期する](/MicrosoftTeams/education-insights-sis-data-sync) | 更新日時 |
+| 2/8/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 2/8/2021 | [Microsoft Teams でタグを管理する](/MicrosoftTeams/manage-tags) | 更新日時 |
+| 2/8/2021 | [Teams アプリ提出 API を使用してカスタム アプリを提出および承認する](/MicrosoftTeams/submit-approve-custom-apps) | 更新日時 |
+| 2/8/2021 | [Microsoft Teams のアプリのセットアップ ポリシーを管理する](/MicrosoftTeams/teams-app-setup-policies) | 更新日時 |
+| 2/8/2021 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新日時 |
+| 2/8/2021 | [管理センターで Teams テンプレートを管理する](/MicrosoftTeams/templates-policies) | 更新日時 |
+| 2/8/2021 | [ベルギーでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 更新日時 |
+| 2/8/2021 | [リリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
+| 2/8/2021 | [Skype for Business から Microsoft Teams へのアップグレードを計画する](/MicrosoftTeams/upgrade-skype-teams) | 更新日時 |
+| 2/9/2021 | [Microsoft Teams でカスタム チーム テンプレートを作成する](/MicrosoftTeams/create-a-team-template) | 更新日時 |
+| 2/9/2021 | [Microsoft Teams の電話とデバイス](/MicrosoftTeams/devices/usb-devices) | 更新日時 |
+| 2/10/2021 | [Microsoft Teams の自動応答でサポートされている言語](/MicrosoftTeams/create-a-phone-system-auto-attendant-languages) | 追加済 |
+| 2/10/2021 | [Microsoft Teams の通話キューでサポートされている言語](/MicrosoftTeams/create-a-phone-system-call-queue-languages) | 追加済 |
+| 2/10/2021 | [Microsoft Teams の自動応答を設定する](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 2/10/2021 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 2/10/2021 | [学生情報システム (SIS) データを Education Insights と同期する](/MicrosoftTeams/education-insights-sis-data-sync) | 更新日時 |
+| 2/10/2021 | [Microsoft Teams の情報バリア](/MicrosoftTeams/information-barriers-in-teams) | 更新日時 |
+| 2/10/2021 | [Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する](/MicrosoftTeams/rooms/with-office-365) | 更新日時 |
+| 2/10/2021 | [Microsoft Teams の分析とレポート](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 更新日時 |
+| 2/10/2021 | [Microsoft Teams ユーザー アクティビティ レポート](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 更新日時 |
+| 2/10/2021 | [Teams コンタクト センター](/MicrosoftTeams/teams-contact-center) | 更新日時 |
+| 2/10/2021 | [会議を呼び出す Teams ポリシーベースの記録&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 2/10/2021 | [OneDrive for Business と SharePoint を使用して会議の記録を行う](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
+| 2/10/2021 | [Microsoft Teams のアプリ、ボット、およびコネクタ](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 更新日時 |
+| 2/10/2021 | [ダイレクト ルーティング SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | 更新日時 |
+| 2/10/2021 | [Teams 用のサード パーティ製アプリを購入する](/MicrosoftTeams/purchase-third-party-apps) | 更新日時 |
+| 2/10/2021 | [Microsoft Teams ルーム](/MicrosoftTeams/rooms/index) | 更新日時 |
+| 2/10/2021 | [Teams アドオン ライセンスをユーザーに割り当てる](/MicrosoftTeams/teams-add-on-licensing/assign-teams-add-on-licenses) | 更新日時 |
+| 2/10/2021 | [Skype for Business と Microsoft Teams の相互運用性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 更新日時 |
+| 2/10/2021 | [Microsoft Teams Exploratory エクスペリエンスを管理する](/MicrosoftTeams/teams-exploratory) | 更新日時 |
+| 2/11/2021 | [表示のみ会議のエクスペリエンス](/MicrosoftTeams/view-only-meeting-experience) | 追加済 |
+| 2/11/2021 | [Microsoft Teams ユーザー アクティビティ レポート](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 更新日時 |
+| 2/11/2021 | [Microsoft Teams でユーザーにライセンスを割り当てる](/MicrosoftTeams/assign-policies) | 更新日時 |
+| 2/11/2021 | [Microsoft Teams でカスタム チーム テンプレートを作成する](/MicrosoftTeams/create-a-team-template) | 更新日時 |
+| 2/11/2021 | [組織の電話番号を管理する](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 更新日時 |
+| 2/11/2021 | [オーストラリアでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia) | 更新日時 |
+| 2/11/2021 | [オーストリアの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-austria) | 更新日時 |
+| 2/11/2021 | [ベルギーでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 更新日時 |
+| 2/11/2021 | [カナダでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-canada) | 更新日時 |
+| 2/11/2021 | [デンマークの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-denmark) | 更新日時 |
+| 2/11/2021 | [フランスでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 更新 |
+| 2/11/2021 | [ドイツでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 更新日時 |
+| 2/11/2021 | [アイルランドでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 更新 |
+| 2/11/2021 | [イタリアの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | 更新日時 |
+| 2/11/2021 | [日本での電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-japan) | 更新日時 |
+| 2/11/2021 | [ポルトガルの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-portugal) | 更新日時 |
+| 2/11/2021 | [スペインでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-spain) | 更新 |
+| 2/11/2021 | [スウェーデンの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-sweden) | 更新日時 |
+| 2/11/2021 | [スイスの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-switzerland) | 更新日時 |
+| 2/11/2021 | [オランダでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-netherlands) | 更新日時 |
+| 2/11/2021 | [英国の電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 更新日時 |
+| 2/11/2021 | [米国の電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s) | 更新日時 |
+| 2/11/2021 | [Microsoft Teams でのパブリック プレビュー](/MicrosoftTeams/public-preview-doc-updates) | 更新日時 |
+| 2/11/2021 | [Skype for Business から Microsoft Teams へのアップグレードを計画する](/MicrosoftTeams/upgrade-skype-teams) | 更新日時 |
+| 2/12/2021 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 更新日時 |
+| 2/12/2021 | [レポート ラベルを追加して更新する](/MicrosoftTeams/learn-more-about-site-upload) | 更新日時 |
+| 2/12/2021 | [ベルギーでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 更新日時 |
+| 2/12/2021 | [Microsoft Teams で電話会議の PIN をリセットする](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | 更新 |
+| 2/12/2021 | [表示のみ会議のエクスペリエンス](/MicrosoftTeams/view-only-meeting-experience) | 更新日時 |
+
+
 ## <a name="week-of-february-01-2021"></a>2021 年 2 月 1 日の週
 
 
@@ -33,7 +104,7 @@
 | 2/4/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
 | 2/4/2021 | [Teams アプリ提出 API を使用してカスタム アプリを提出および承認する](/MicrosoftTeams/submit-approve-custom-apps) | 更新日時 |
 | 2/4/2021 | [仮想デスクトップ インフラストラクチャ用の Teams](/MicrosoftTeams/teams-for-vdi) | 更新日時 |
-| 2/4/2021 | [会議への通話用の Teams ポリシーベースの記録&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 2/4/2021 | [会議を呼び出す Teams ポリシーベースの記録&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
 | 2/4/2021 | [通話品質ダッシュボード (CQD) を設定する](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | 更新日時 |
 | 2/4/2021 | [Skype for Business から Teams へのアップグレードを開始する](/MicrosoftTeams/upgrade-start-here) | 更新日時 |
 | 2/5/2021 | [セキュリティとコンプライアンスの概要](/MicrosoftTeams/security-compliance-overview) | 更新日時 |
@@ -135,7 +206,7 @@
 | 1/19/2021 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
 | 1/19/2021 | [Ignite 2020 の Teams セッション](/MicrosoftTeams/ignite-2020-landing-page) | 更新日時 |
 | 1/19/2021 | [Teams 管理センターで称賛アプリを管理する](/MicrosoftTeams/manage-praise-app) | 更新日時 |
-| 1/19/2021 | [Microsoft Teams で組織のタスク アプリを管理する](/MicrosoftTeams/manage-tasks-app) | 更新日時 |
+| 1/19/2021 | [Microsoft Teams で組織の Tasks アプリを管理する](/MicrosoftTeams/manage-tasks-app) | 更新日時 |
 | 1/19/2021 | [Office 365 Government - DoD 展開](/MicrosoftTeams/plan-for-government-dod) | 更新日時 |
 | 1/19/2021 | [Microsoft 365 Government - GCC の高い展開](/MicrosoftTeams/plan-for-government-gcc-high) | 更新日時 |
 | 1/19/2021 | [Microsoft Teams 必須モバイル診断データ](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | 更新日時 |
@@ -185,14 +256,14 @@
 | 1/12/2021 | [Microsoft Teams の運用\| サービス管理 \| 品質](/MicrosoftTeams/upgrade-operate-my-service) | 更新日時 |
 | 1/13/2021 | [Microsoft Teams でポリシー パッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
 | 1/13/2021 | [Microsoft Teams Rooms の管理](/MicrosoftTeams/rooms/rooms-manage) | 更新日時 |
-| 1/13/2021 | [チームのターゲット階層を設定する](/MicrosoftTeams/set-up-your-team-hierarchy) | 更新日時 |
+| 1/13/2021 | [チーム対象の階層を設定する](/MicrosoftTeams/set-up-your-team-hierarchy) | 更新日時 |
 | 1/13/2021 | [コミュニケーション クレジットについて](/MicrosoftTeams/what-are-communications-credits) | 更新日時 |
 | 1/13/2021 | [既知の問題](/MicrosoftTeams/rooms/known-issues) | 更新日時 |
 | 1/13/2021 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 更新日時 |
 | 1/14/2021 | [アイルランドでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-ireland) | 更新 |
 | 1/14/2021 | [イタリアの電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-italy) | 更新日時 |
 | 1/14/2021 | [英国の電話番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-k) | 更新日時 |
-| 1/14/2021 | [チームのターゲット階層を設定する](/MicrosoftTeams/set-up-your-team-hierarchy) | 更新日時 |
+| 1/14/2021 | [チーム対象の階層を設定する](/MicrosoftTeams/set-up-your-team-hierarchy) | 更新日時 |
 | 1/14/2021 | [仮想デスクトップ インフラストラクチャ用の Teams](/MicrosoftTeams/teams-for-vdi) | 更新日時 |
 | 1/14/2021 | [組織の設定を管理する](/MicrosoftTeams/enable-features-office-365) | 更新日時 |
 | 1/14/2021 | [Meeting First - Microsoft Teams](/MicrosoftTeams/meetings-first) | 更新日時 |
@@ -251,8 +322,8 @@
 | 1/5/2021 | [Microsoft Teams との SharePoint Online と OneDrive for Business の連携](/MicrosoftTeams/sharepoint-onedrive-interact) | 更新日時 |
 | 1/5/2021 | [Microsoft 365 Multi-Geo 対応環境での Teams のエクスペリエンス](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | 更新日時 |
 | 1/5/2021 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新日時 |
-| 1/5/2021 | [会議への通話用の Teams ポリシーベースの記録&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
-| 1/5/2021 | [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](/MicrosoftTeams/log-files) | 更新日時 |
+| 1/5/2021 | [会議を呼び出す Teams ポリシーベースの記録&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 1/5/2021 | [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](/MicrosoftTeams/log-files) | 更新 |
 | 1/6/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
 | 1/6/2021 | [Graph API を使用して Microsoft Teams のプライベート チャネルを管理する](/MicrosoftTeams/private-channels-life-cycle-management) | 更新日時 |
 | 1/6/2021 | [Microsoft Teams でチーム ポリシーを管理する](/MicrosoftTeams/teams-policies) | 更新日時 |
