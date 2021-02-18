@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd6959522c756f02a983742fbbc136cd2ef3174a
-ms.sourcegitcommit: d2e67f2eed7b817c2c5f76015ec11582d0e0cb9e
+ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50037803"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278557"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -77,7 +77,7 @@ FindTime は、Outlook 用のアドインです。これは、企業全体での
 
 ## <a name="authentication-requirements"></a>認証要件
 
-Teams の会議アドインでは、ユーザーが認証要件を使用して Teams にサインインすることが必要になります。 ユーザーがこの方法を使用せずにサインインした場合、Teams クライアントを使用することはできますが、Outlook アドインを使用して Teams のオンライン会議をスケジュール設定することはできません。 これを修正するには、次のいずれかを実行します。
+Teams の会議アドインでは、ユーザーが認証要件を使用して Teams にサインインすることが必要になります。 ユーザーがサインインにこの方法を使用しない場合、Teams クライアントは引き続き使用できますが、Outlook アドインを使用して [Teams](https://www.microsoft.com/microsoft-teams/online-meetings) オンライン会議をスケジュールすることはできません。 これを修正するには、次のいずれかを実行します。
 
 - 先進認証が組織に対して構成されていない場合は、先進認証を構成します。
 - 先進認証が構成されていているのにダイアログ ボックスでユーザーが無効になってしまう場合は、それらのユーザーに対して多要素認証を使用してサインインし直すよう指示します。

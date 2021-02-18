@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3172250c1bf6fe914c331712db74a83ebe98a6d
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 4a206570ffd000f80f1f0a865af6e46e511a0ac6
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196351"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278667"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -31,11 +31,11 @@ ms.locfileid: "50196351"
 
 |<div style="width:290px">日付&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |イベント&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|2020 年 10 月 5 日&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| [Teams ミーティング ポリシー] を有効にすると、Microsoft Stream (クラシック) の代わりに OneDrive for Business と SharePoint に会議の記録を保存することができます|
-|2021年1月7日より開始 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|組織の Teams 会議ポリシーを変更し、それを明示的に **Stream** に設定することで、この変更を後回しにしない限り、すべての新しい Teams 会議の記録を OneDrive for Business と SharePoint に保存します。 Stream をポリシーで報告するだけでは十分ではありません。 ポリシー値を明示的に **Stream** に設定する必要があります。|
-|2021年1月11日より開始 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC のみ**<br> GCC をご利用のお客様は、10 月 5 日からオプトアウトすることはできますが、オプト インすることはできません。 この機能は、(オプトアウト) を使用していない場合、2021 年 1 月 11 日以降のすべての GCC ユーザーにロールアウトされます。<br>  <br>2021 年 1 月 11 日から、GCC をご利用のお客様は、組織の Teams 会議ポリシーを変更し、それを明示的に **Stream** に設定することによって、この変更を遅らせない限りは、Teams の会議記録はすべて OneDrive for Business と SharePoint に保存されます。 <br><br>オプトアウトしても、この機能を有効にする準備ができたら、Teams の会議ポリシーを明示的に **OneDrive for Business** に設定することで、この機能を有効にすることができます。 |
-|2021 年 3 月 1 日からロールアウト開始 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**エンタープライズ & GCC ユーザー**<br>**Microsoft Stream (クラシック) には、新しい会議の記録を保存できません。ユーザーがをチームの会議ポリシーを Stream に変更した場合でも、すべての顧客の会議記録は、OneDrive for Business と SharePoint に自動的に保存されます。**<br><br> ユーザーがリリースのタイミングを制御できるように、この日付より前にこの機能のロール アウトをすることをお勧めします。 |
-|2021 年 7 月 7 日よりロール アウト開始 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**教育機関のお客様**<br>**Microsoft Stream (クラシック) には、新しい会議の記録を保存できません。ユーザーがをチームの会議ポリシーを Stream に変更した場合でも、すべての顧客の会議記録は、OneDrive for Business と SharePoint に自動的に保存されます。**<br><br> ユーザーがリリースのタイミングを制御できるように、この日付より前にこの機能のロール アウトをすることをお勧めします。 このスケジュールは、教育機関のお客様が進行中のセメスター を完了できるようにするために更新されました。 |
+|2020 年 10 月 5 日<br> <br>*(完了)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Teams 会議ポリシーを有効にして、会議の記録を Microsoft Stream (クラシック) ではなく OneDrive for Business と SharePoint に保存する|
+|2021年1月7日より開始 <br> <br>*(完了)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|組織の Teams 会議ポリシーを変更し、それを明示的に **Stream** に設定することで、この変更を後回しにしない限り、すべての新しい Teams 会議の記録を OneDrive for Business と SharePoint に保存します。 Stream をポリシーで報告するだけでは十分ではありません。 ポリシー値を明示的に **Stream** に設定する必要があります。|
+|2021年1月11日より開始 <br> <br>*(完了)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC のみ**<br> GCC をご利用のお客様は、10 月 5 日からオプトアウトすることはできますが、オプト インすることはできません。 この機能は、(オプトアウト) を使用していない場合、2021 年 1 月 11 日以降のすべての GCC ユーザーにロールアウトされます。<br>  <br>2021 年 1 月 11 日から、GCC をご利用のお客様は、組織の Teams 会議ポリシーを変更し、それを明示的に **Stream** に設定することによって、この変更を遅らせない限りは、Teams の会議記録はすべて OneDrive for Business と SharePoint に保存されます。 <br><br>オプトアウトしても、この機能を有効にする準備ができたら、Teams の会議ポリシーを明示的に **OneDrive for Business** に設定することで、この機能を有効にすることができます。 |
+|2021 年 3 月 1 日からロールアウト開始 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC-High および DoD のみ**<br> お客様は、Microsoft Teams で初めてクラウド会議の記録を有効にすすむ機能を利用できます。 これらのレコーディングは、既定で OneDrive と SharePoint に保存および再生されます。 |
+|2021 年 7 月 7 日から段階的に展開する &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**すべてのお客様 (エンタープライズ、教育、GCC)**<br>**Microsoft Stream (クラシック) には、新しい会議の記録を保存できません。ユーザーがをチームの会議ポリシーを Stream に変更した場合でも、すべての顧客の会議記録は、OneDrive for Business と SharePoint に自動的に保存されます。**<br><br> ユーザーがリリースのタイミングを制御できるように、この日付より前にこの機能のロール アウトをすることをお勧めします。 |
 
 > [!Note]
 > エンタープライズおよび教育機関のお客様は、組織の変化をより効果的に管理するために、変更が可能になるまで待つよりも、変更するのが都合が良いタイミングでオプト インすることをお薦めします。
@@ -50,7 +50,6 @@ Microsoft Teams には、会議の記録を保存するための新しい方法�
 - 明示的な共有のみを使用してゲスト (外部ユーザー) とレコーディング を共有する
 - アクセス フローを要求する
 - OneDrive for Business と SharePoint 共有リンクを提供する
-- クォータの増加
 - 会議の記録をより早く使用できるようにする
 - **ローカルにする** テナントへのサポート
 - 複数地域のサポート – 記録はそのユーザーに固有の地域に格納されます。
@@ -59,7 +58,7 @@ Microsoft Teams には、会議の記録を保存するための新しい方法�
 サービスにはいくつかの制約事項があります。
 
 - 英語専用のクローズド キャプションが表示され、キャプションのオン/オフを切り替えできます。
-- 完全な *トランスクリプトの* 表示、編集、検索は、最初は行えなっていません (ただし、この機能の追加は間もなく行っています)。
+- 最初 *は、完全* なトランスクリプトを表示、編集、検索する操作は行えなっていません (ただし、この機能の追加は間もなく行っています)。
 - トランスクリプトは編集できませんが、キャプションのオン/オフを切り替えることができます。
 - 記録を共有するユーザーを制御することはできますが、共有アクセス権を持つユーザーが記録をダウンロードできないようにすることはできません。
 - 記録の保存が完了しても、メールは送信されません。完了したレコーディングは、会議のチャットに表示されます。 以前の Stream と比べてはるかに早くなります。
@@ -76,15 +75,17 @@ Microsoft Teams には、会議の記録を保存するための新しい方法�
 > Teams の会議ポリシー変更の反映にはしばらく時間がかかります。 設定して数時間後に確認してください。もう一度サインアウトしてサインインし直してください。
 
 1. Skype for Business Online PowerShell のインストール
-**注**: Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリック リリースをご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。 「[PowerShell を使用する Skype for Business Online を管理する](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)」を参照してください。
 
-    a. [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)をダウンローします。
+   > [!NOTE]
+   > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリック リリースをご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。 「[PowerShell を使用する Skype for Business Online を管理する](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)」を参照してください。
 
-    b. 指示に従ってインストールします。
+    1. [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)をダウンローします。
 
-    c. コンピューターを再起動する
+    1. 指示に従ってインストールします。
 
-2. 管理者として Windows PowerShell を開きます。
+    1. コンピューターを再起動する
+
+2. 管理者として PowerShell を起動します。
 
 3. SkypeOnline Connector をインポートし、Teams 管理者としてサインインします。
 

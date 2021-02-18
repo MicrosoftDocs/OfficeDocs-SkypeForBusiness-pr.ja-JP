@@ -16,20 +16,20 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SPC) を確認できます。
+description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SBC) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab409ccc93d08c20bb4498e39f26e1cd9bde6dcb
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: 5887e69e5cc8dc36070da2c22be997a7deef771c
+ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055669"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50278697"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
 マイクロソフトは、選択したセッション ボーダー コントローラー (SBC) ベンダーと提携して、SBC がダイレクト ルーティングと連携していることを保証しています。 
 
-Microsoft は、各ベンダーと次のサービスを提供しています。 
+Microsoft は、各ベンダーと次のサービスを提供しています。
 
 - SIP 相互接続プロトコルで共同で作業します。
 - サードパーティラボを使用して、テストを行います。 テストに合格したデバイスだけが認定されます。 
@@ -38,9 +38,9 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
 
 
   > [!NOTE]
-  > Microsoft は、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ電話システムをサポートします。 Microsoft は、認定されていないデバイスが直接ルーティングを通じて電話システムに接続されているサポート ケースを拒否する権利を持っています。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを提供する必要があります。
+  > Microsoft は、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ電話システムをサポートします。 Microsoft は、認定されていないデバイスが直接ルーティングを通じて電話システムに接続されているサポート ケースを拒否する権利を持っています。 Microsoft が顧客のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると判断した場合、顧客は SBC ベンダーにサポートを提供する必要があります。
 
-以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディア最適化をサポートしている SBC ベンダーの詳細については、「直接ルーティング用にローカル メディアの最適化 [を構成する」を参照してください](direct-routing-media-optimization-configure.md))。
+以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディア最適化をサポートしている SBC ベンダーについては、「直接ルーティング用にローカル メディア最適化を構成する」 [を参照](direct-routing-media-optimization-configure.md)してください)。
 
 [ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認定プログラムについて不明な点がある場合は、drsbccertification@microsoft.com。
 <br/>
@@ -86,7 +86,7 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    リンクリンク    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
 |                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape セッション ボーダー コントローラー   |     &#10004;     |          |      V10R1.2       |     |    | 
-
+|                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 
 <br/>
 <br/>
