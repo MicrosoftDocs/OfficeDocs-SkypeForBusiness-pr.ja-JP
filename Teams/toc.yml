@@ -1272,12 +1272,8 @@ items:
                 href: expand-teams-across-your-org/healthcare/messaging-policies-hc.md
               - name: メッセージの委任
                 href: expand-teams-across-your-org/healthcare/hc-delegates.md
-          - name: Teams テンプレート
-            items:
-              - name: 医療機関向けの Teams テンプレートを使用する
-                href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
-              - name: 医療機関向けの Teams のテンプレート
-                href: expand-teams-across-your-org/healthcare/healthcare-templates.md
+          - name: Teamsの医療テンプレートを使用する
+            href: expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md
           - name: Teams で組織のリスト アプリを管理する
             href: manage-lists-app.md
           - name: 組織のタスク アプリを管理する
@@ -1422,6 +1418,8 @@ items:
             href: office-365-urls-ip-address-ranges.md
           - name: 仮想デスクトップ インフラストラクチャ (VDI) 用の Teams
             href: teams-for-vdi.md
+          - name: リモート デスクトップ環境 (RDP) 用の Teams
+            href: teams-for-rdp.md
           - name: Surface Hub の Teams を展開する
             href: teams-surface-hub.md
           - name: Teams クライアントの更新プログラム
