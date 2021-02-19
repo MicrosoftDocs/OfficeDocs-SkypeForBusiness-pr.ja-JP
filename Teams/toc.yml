@@ -1419,7 +1419,7 @@ items:
           - name: 仮想デスクトップ インフラストラクチャ (VDI) 用の Teams
             href: teams-for-vdi.md
           - name: リモート デスクトップ環境 (RDP) 用の Teams
-            href: teams-for-rdp.md
+            href: teams-on-rdp.md
           - name: Surface Hub の Teams を展開する
             href: teams-surface-hub.md
           - name: Teams クライアントの更新プログラム
