@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を得る Microsoft Teams の認定を受けたデスク電話と電話会議について説明します。
-ms.openlocfilehash: 05598dfa351e62674c3ff9a9498672614f41a5d1
-ms.sourcegitcommit: 9c1f3a72fb166b49a4b68bcdb9a2868bf86ca680
+ms.openlocfilehash: e93756b1d7aaadb3027e0172d9495393be650e7b
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "49718601"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347838"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Microsoft Teams 認定 IP 電話
 
@@ -46,6 +46,7 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 
 | 電話モデル                            | ファームウェアのバージョン                                                                                                                                                                                                                           | リリース日                 |
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
+| C450HD でサポートされているオーディオコード拡張モジュール |C450HD_TEAMS_0.225                                        | 2021 年 1 月                 |
 | Audiocodes C450HD                      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
 | Audiocodes C448HD (CAP モードのみ)      | C450HD_TEAMS_0.225                                                                                                                                                                                                                         | 2019 年 3 月                   |
 |クレットロン UC-2                           |1.0.1.46                                                  | 2020 年 7 月                    |
@@ -57,6 +58,7 @@ Microsoft Teams の認定を受けているのは、以下の電話です:
 | Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 年 1 月                 |
 | Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 年 12 月                |
 | Poly Trio 8500/8800 (共有モードのみ) | 5.9.0.10869                                                                                                                                                                                                                                | 2019 年 6 月                    |
+| Yealink EXP50 は T56、T58、MP56、MP58、VP59 でサポートされています| サポートされている各デバイス モデルについては、ファームウェアのバージョン#7参照してください。 | 2021 年 1 月 |
 | Yealink MP58 | 122.15.0.27| 2020 年 12 月 |
 | Yealink MP54 | 122.15.0.27| 2020 年 11 月 |
 | Yealink MP56 | 122.15.0.6 | 2020 年 3 月    |

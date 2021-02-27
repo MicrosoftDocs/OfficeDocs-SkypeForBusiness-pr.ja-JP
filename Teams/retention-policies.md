@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams のアイテム保持ポリシー
+title: Microsoft Teams のアイテム保持ポリシーを管理する
 author: cabailey
 ms.author: cabailey
 ms.reviewer:
@@ -9,7 +9,7 @@ manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: Microsoft Teams のアイテム保持ポリシーを使用して、内部ポリシー、業界の規制、法的なニーズに準拠するために必要なメッセージを保持し、責任と見なされたメッセージまたは法的なビジネス価値がないメッセージを削除します。
+description: Microsoft Teams のアイテム保持ポリシーを使用して、内部ポリシー、業界の規制、または法的なニーズに準拠するために必要なメッセージを保持し、責任と見なされたメッセージまたは法的なビジネス価値がないメッセージを削除します。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -19,37 +19,42 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aba9858466b43693603aa4a1cd396748d2c83d6e
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
+ms.openlocfilehash: 3b0197d9a5cf9ada93ac16ad083f293b573c4eed
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786829"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347657"
 ---
-# <a name="retention-policies-in-microsoft-teams"></a>Microsoft Teams のアイテム保持ポリシー
+# <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams のアイテム保持ポリシーを管理する
+
+> [!NOTE]
+> アイテム保持ポリシーによってチャットやメッセージが削除されたというメッセージが Teams に表示されるユーザーの場合は、アイテム保持ポリシーに関する Teams メッセージを [参照してください](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。
+> 
+> このページの情報は、これらのアイテム保持ポリシーを管理する IT 管理者向けです。
 
 Microsoft 365 のアイテム保持ポリシーと保持ラベルは、組織内の情報を効果的に管理するのに役立ちます。 保持設定を構成して、組織の内部ポリシー、業界の規制、または法的なニーズに準拠するために必要なデータを保持できます。 また、責任と見なされるデータ、保持する必要がなくなったデータ、法的価値またはビジネス価値がないデータを削除する保持設定を構成することもできます。
 
 Teams はチャットおよびチャネル メッセージのアイテム保持ポリシーをサポートし、管理者は、このデータを保持するか、削除するか、特定の期間保持してから削除するかどうかを積極的に決定できます。 Teams のアイテム保持ポリシーは、組織全体に適用することも、特定のユーザーやチームに適用することもできます。 保持ラベルは、Teams ではサポートされていません。
 
-Microsoft 365 で他のワークロードのアイテム保持ポリシーまたはアイテム保持ラベルを使用して保持設定を適用する方法の詳細については、「アイテム[](https://docs.microsoft.com/microsoft-365/compliance/retention)保持ポリシーとアイテム保持ラベルについて」を参照してください。
+Microsoft 365 の他のワークロードにアイテム保持ポリシーまたはアイテム保持ラベルを使用して保持設定を適用する方法の詳細については、「アイテム[](https://docs.microsoft.com/microsoft-365/compliance/retention)保持ポリシーとアイテム保持ラベルについて」を参照してください。
 
 Teams のアイテム保持ポリシーの最小ライセンス要件は、Microsoft 365 E3 です。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 ## <a name="how-teams-retention-policies-work"></a>Teams のアイテム保持ポリシーのしくみ
 
-Teams のチャット メッセージは、チャットに含まれる各ユーザーのメールボックスの隠しフォルダーに保存され、Teams チャネル メッセージはチームのグループ メールボックス内の同様の隠しフォルダーに保存されます。 アイテム保持ポリシーの適用対象となるメッセージを保持するために、コンテンツのコピーは、Exchange の回復可能なアイテム フォルダーのサブフォルダーとして **、"FolderHolds"** という名前の非表示フォルダーに自動的に **保持** されます。 これらのメッセージが、電子情報開示ツールで検索可能なままになるまでは、そのメッセージは、HoldHolds フォルダーから完全に削除されます。
+Teams のチャット メッセージは、チャットに含まれる各ユーザーのメールボックスの隠しフォルダーに保存され、Teams チャネル メッセージはチームのグループ メールボックス内の同様の隠しフォルダーに保存されます。 アイテム保持ポリシーの適用対象となるメッセージを保持するために、コンテンツのコピーは、Exchange の回復可能なアイテム フォルダーのサブフォルダーとして **、"FolderHolds"** という名前の非表示フォルダーに自動的に **保持** されます。 これらのメッセージが、電子情報開示ツールで検索可能なままになるまで、そのメッセージは、電子情報開示ツールで検索可能なままです。
 
 Teams アイテム保持ポリシーに含まれる内容と除外される内容、およびポリシーの構成に応じてこれらのポリシーがどのように動作するのかの詳細については [、「Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)の保持について」を参照してください。
 
 > [!NOTE]
-> このページでは、アイテム保持ポリシーでメッセージを削除するときに遅延が発生する場合がある理由について説明します。 たとえば、メッセージは、アイテム保持ポリシーで構成した有効期限の 7 日後まで表示できます。
+> このページでは、アイテム保持ポリシーがメッセージを削除するときに遅延が発生する場合がある理由について説明します。 たとえば、メッセージは、アイテム保持ポリシーで構成した有効期限の 7 日後まで表示できます。
 
 異なる保持設定で複数の Teams アイテム保持ポリシーを設定した場合、保持の原則は競合を解決します。 次に例を示します。
 - 同じコンテンツの保持と削除の間に競合がある場合、コンテンツは常に保持されます。
 - 同じコンテンツを保持する期間に競合がある場合、最長の保持期間は保持されます。
 
-これら 2 つの保持原則は、Teams に複数のアイテム保持ポリシーがある場合に発生する可能性があるほとんどの競合に対処しますが、詳細については、「保持の原則」または「優先されるルール」を参照してください [。](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
+これら 2 つの保持原則は、Teams に対して複数のアイテム保持ポリシーがある場合に発生する可能性があるほとんどの競合に対処しますが、詳細については、「保持の原則」または「優先順位」を参照 [してください。](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
 
 ## <a name="when-to-use-retention-policies-for-teams"></a>Teams のアイテム保持ポリシーを使用すべき状況
 
@@ -67,24 +72,25 @@ Teams チャットおよびチャネル メッセージのアイテム保持ポ�
 
 ## <a name="end-user-experience"></a>エンド ユーザーのエクスペリエンス
 
-プライベート チャット (1 対 1 のチャット) またはグループ チャットの場合、エンド ユーザーには、アイテム保持ポリシーの構成よりも古いチャットが削除され、まだ削除されていないメッセージの上に "組織のアイテム保持ポリシーにより古いメッセージが削除されました" というコントロール メッセージが表示されます。
+プライベート チャット (1 対 1 のチャット) またはグループ チャットの場合、ユーザーには、アイテム保持ポリシーの構成よりも古いチャットが削除され、まだ削除されていないメッセージの上に "組織のアイテム保持ポリシーにより古いメッセージが削除されました" というメッセージが自動的に生成されます。 次に例を示します。
 
 :::image type="content" source="media/retention-policies-image1.png" alt-text="Teams のアイテム保持ポリシーのためにチャット メッセージが削除されたという通知を受け取ったユーザー":::
 
 
 :::image type="content" source="media/retention-policies-image2.png" alt-text="Teams アイテム保持ポリシーの結果としてメッセージが削除されたと説明する Teams のユーザー":::
 
-チャネル メッセージの場合、エンド ユーザー (チャネル メンバー) には、メッセージの有効期限が切れた後に、削除したメッセージが表示されなくなります。 削除されたメッセージがスレッド会話の親メッセージであった場合、親メッセージの代わりに "アイテム保持ポリシーに従い、このメッセージは削除されました。" というメッセージが表示されます。
+チャネル メッセージの場合、ユーザー (チャネル メンバー) は、メッセージの有効期限が切れると、削除されたメッセージがビューから消えます。 削除されたメッセージがスレッド会話の親メッセージであった場合、親メッセージの代わりに "アイテム保持ポリシーに従い、このメッセージは削除されました。" というメッセージが表示されます。 次に例を示します。
 
 :::image type="content" source="media/retention-policies-image3.png" alt-text="保持前のチャネルのスクリーンショット":::
 
 :::image type="content" source="media/retention-policies-image4.png" alt-text="保持後のチャネルのスクリーンショット":::
 
 > [!NOTE]
-> 削除されたメッセージングの結果としてエンド ユーザーに表示されるメッセージは、現時点では構成できません。
+> 削除されたメッセージの結果としてユーザーに表示されるメッセージは、現時点では構成できません。
 
+表示されるメッセージ内のリンクは、 [アイテム保持ポリシーに関する Teams メッセージに移動します](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。 エンド ユーザー向けこのドキュメントは、メッセージが削除された理由に関する基本的な質問に答えるのに役立ちます。 ただし、アイテム保持ポリシーの展開の一環として、構成した設定の影響をユーザーとヘルプ デスクに伝えます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [アイテム保持ポリシーとアイテム保持ラベルの使用を開始する](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-retention)
 - [Microsoft Teams の保持について](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ac88778fca7034446d0ec42a0a4a65d7c76f979
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
+ms.openlocfilehash: dbf8be686029aa995ac0fb8a9977d129746b0c78
+ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278899"
+ms.lasthandoff: 02/26/2021
+ms.locfileid: "50347878"
 ---
 # <a name="teams-in-remote-desktop-services"></a>リモート デスクトップ サービスの Teams
 
@@ -30,14 +30,14 @@ ms.locfileid: "50278899"
 
 ## <a name="what-is-rds"></a>RDS とは
 
-リモート デスクトップ サービス (RDS) は、エンド ユーザーのニーズに合った仮想化ソリューションを構築するための選択のプラットフォームです。 RDS を使用すると、仮想化された個々のアプリケーションを提供し、セキュリティで保護されたモバイルおよびリモート デスクトップ アクセスを提供し、エンド ユーザーにクラウドからアプリケーションとデスクトップを実行する機能を提供できます。
+リモート デスクトップ サービス (RDS) は、エンド ユーザーのニーズに合った仮想化ソリューションを構築するためのプラットフォームです。 RDS を使用すると、仮想化された個々のアプリケーションを提供し、セキュリティで保護されたモバイルおよびリモート デスクトップ アクセスを提供し、エンド ユーザーにクラウドからアプリケーションとデスクトップを実行する機能を提供できます。
 
 RDS は、展開の柔軟性、コスト効率、拡張性を提供します。 RDS は、オンプレミス展開用の Windows Server 2016、クラウド展開用の Microsoft Azure、強力なパートナー ソリューションなど、さまざまな展開オプションによって提供されます。
 環境と環境設定に応じて、仮想デスクトップ インフラストラクチャ (VDI) としてセッション ベースの仮想化用に RDS ソリューションを設定できます。
 
 現在、リモート デスクトップ サービス環境の Teams は、共同作業とチャット機能をサポートして利用できます。 最適なユーザー エクスペリエンスを確保するには、この記事のガイダンスに従ってください。
 
-## <a name="teams-on-vdi-with-chat-and-collaboration"></a>チャットと共同作業を備えた VDI 上の Teams
+## <a name="teams-on-rds-with-chat-and-collaboration"></a>チャットとコラボレーションを使用した RDS 上のチーム
 
 組織で Teams のチャットおよび共同作業機能のみを使用する場合は、ユーザーレベル ポリシーを設定して、Teams の通話および会議機能を無効にすることができます。
 
