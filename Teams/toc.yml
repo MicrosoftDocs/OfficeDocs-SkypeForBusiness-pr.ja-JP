@@ -1481,6 +1481,10 @@ items:
             href: devices/phones-for-teams.md
           - name: Teams ディスプレイ
             href: devices/teams-displays.md
+          - name: Teams パネル
+            href: devices/teams-panels.md
+          - name: Teams パネルを使用する
+            href: devices/use-teams-panels.md
           - name: Teams 電話を Teams ディスプレイにアップグレードする
             href: devices/upgrade-phones-to-displays.md
           - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
