@@ -17,30 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dc34d56ebb10dc7319d855bbd0d98184f1e54a
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: afe6b57b5b2b430c056d49b29a752e55bd4a0afe
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347848"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397542"
 ---
 # <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>IT 管理者向け Teams &mdash; にアップグレードするためのツール
 
-この記事では、Teams にアップグレードするためのツールについて説明します。 この記事では、IT 管理者向けアップグレードの概念と実装について説明する 3 番目の記事です。  
+この記事では、Skype for Business から Teams にアップグレードするためのツールについて説明します。 
 
-- [概要](upgrade-to-teams-on-prem-overview.md)
-- [アップグレード方法](upgrade-to-teams-on-prem-upgrade-methods.md)
-- **アップグレードを管理するためのツール**   (この記事)
-- [Skype for Business オンプレミスの組織に関するその他の考慮事項](upgrade-to-teams-on-prem-considerations.md)
-- [アップグレードを実装する](upgrade-to-teams-on-prem-implement.md)
-- [公衆交換電話網 (PSTN) に関する考慮事項](upgrade-to-teams-on-prem-pstn-considerations.md)
-
-さらに、次の記事では、アップグレードの重要な概念と共存動作について説明します。
+アップグレードを開始する前に、アップグレードの重要な概念と共存動作について説明する次の記事をお勧めします。
 
 - [Teams と Skype for Business の共存](upgrade-to-teams-on-prem-coexistence.md)
 - [共存モード - リファレンス](migration-interop-guidance-for-teams-with-skype.md)
 - [Teams のクライアント エクスペリエンスおよび共存モードへの準拠](teams-client-experience-and-conformance-to-coexistence-modes.md)
-
 
 ## <a name="tools-for-managing-the-upgrade"></a>アップグレードの管理ツール
 
@@ -120,7 +112,7 @@ TeamsOnly モードをテナント レベルで割り当てる場合は、どの
 
 ## <a name="related-links"></a>関連リンク
 
-[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md) 
+[共存モード - リファレンス](migration-interop-guidance-for-teams-with-skype.md) 
 
 [Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を構成する](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 

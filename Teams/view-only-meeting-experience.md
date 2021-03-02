@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54bbb3c00aae8a2785e867be9614f8509ca9344d
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: ed7221192fdc3588856755b8be651065fdbf15ab
+ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237457"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50397562"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示のみ会議のエクスペリエンス
 
 > [!Note]
-> 表示専用の会議エクスペリエンスは、2021 年 3 月初めに利用できます。
+> 表示専用の会議エクスペリエンスは、2021 年 3 月初めに利用できます。 この機能は、既定ではオフとして 2021 年 3 月 1 日に有効になります。 この機能を既定でオンにしたい場合は、その日付以降に既定のポリシーを変更する必要があります。 PowerShell を使用してポリシーを有効にする `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled` 。
 
 > [!Note]
 > 20,000 人の出席者に対する表示専用のエクスペリエンスが一時的に向上しましたが、2021 年 6 月 30 日に 10,000 人の出席者にサポートを戻します。
@@ -42,9 +42,9 @@ Microsoft Teams では、最大 10,000 人の出席者が Teams 会議に参加�
 > [!Note]
 > 会議にチャットおよびコールインできるユーザーの現在の制限は、WW では 300 人、GCC では 250 人、GCC High、DoD では 250 人です。
 
-表示専用のエクスペリエンスは、E3/E5/A3/A5 SKU を持つすべての開催者に対して既定で有効になっています。 それ以上の構成やセットアップは必要ありません。
+表示専用のエクスペリエンスは、E3/E5/A3/A5 SKU を持つすべての開催者に対して既定で無効になっています。 それ以上の構成やセットアップは必要ありません。
 
-### <a name="disable-teams-view-only-experience"></a>Teams の表示専用エクスペリエンスを無効にする
+## <a name="disable-teams-view-only-experience"></a>Teams の表示専用エクスペリエンスを無効にする
 
 管理者は、PowerShell を使用して表示専用のエクスペリエンスを無効にできます。
 
@@ -63,11 +63,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 管理者が Teams の表示専用エクスペリエンスを無効にしました。
 - 出席者には、ロビーをバイパスするアクセス許可が与えらな。
 
-メイン会議のキャパシティに達すると、会議の開催者と発表者に、会議のキャパシティに達し、新しい出席者がビュー専用の出席者に参加するという通知のバナーが表示されます。
+メイン会議のキャパシティに達すると、会議の開催者と発表者には、会議のキャパシティに達し、新しい出席者がビュー専用の出席者に参加するという通知のバナーが表示されます。
 
   ![開催者と発表者のための Teams クライアントとバナーの乱雑な問題](media/chat-and-banner-message.png)
 
-メイン会議のキャパシティに達すると、会議の出席者は、参加前の画面で、出席者が表示専用モードで参加中である通知を受け取ります。
+メイン会議のキャパシティに達すると、会議の出席者には、参加前の画面に、出席者が表示専用モードで参加しているという通知が表示されます。
 
   ![Teams の事前参加画面と、参加者に表示専用モードで参加を伝えるメッセージ](media/view-only-pre-join-screen.png)
 
@@ -77,8 +77,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 ## <a name="impact-to-meeting-presenters"></a>会議の発表者への影響
 
-通常の会議には、会議オプションで発表者として明示的に指定されたユーザー用の空き領域が予約されます。 発表者が離れ、その後会議に再び参加すると、発表者として会議に参加できます。
-
 会議の発表者には、次のような制限があります。
 
 - 表示専用の出席者に関する情報はありません。 表示専用の出席者に対する E-discovery はサポートされていません。
@@ -86,7 +84,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 会議から表示専用の出席者を削除できない。
 
 > [!Note]
-> 出席者数は会議の参加者のみを反映し、オーバーフロールームのユーザーは反映されません。 そのため、発表者は、ビュー専用のエクスペリエンスを持つユーザーの正確なカウントを取得できない。
+> 出席者数は会議の参加者のみを反映し、オーバーフロールームのユーザーは反映されません。 そのため、発表者は、ビュー専用のエクスペリエンスを持つユーザーの正確なカウントを取得できないのです。
 
 ## <a name="experience-for-view-only-attendees"></a>表示専用の出席者のエクスペリエンス
 
@@ -101,16 +99,15 @@ Teams の表示専用エクスペリエンスでは、出席者は次の機能�
 - 出席者にロビー ポリシーまたはオプションの設定に基づいてロビーをバイパスするアクセス許可がない場合は、会議に参加します。
 - 電話会議でオーバーフロー ルームに参加します。
 - Microsoft Teams Room system または Cloud Video Interop (CVI) サービスを介してオーバーフロー ルームに参加します。
-- Teams Android モバイル アプリでオーバーフロー ルームに参加します。
 - 音声またはビデオを共有します。
 - 会議チャットを表示または参加します。
-- 参加者がアクティブな発表者である場合を含め、会議参加者のビデオ フィードを表示します。
+- 参加者がアクティブなスピーカーである場合を限り、会議参加者のビデオ フィードを表示します。
 - ネイティブの共有 PowerPoint 機能または (デスクトップ共有以外の) 個々のアプリケーション共有を使用して共有されている PowerPoint ファイルを参照してください。
 
 ## <a name="view-only-feature-limitations"></a>表示専用機能の制限事項
 
 - 表示専用の出席者には、その会議のライブ キャプション設定に関係なく、常にライブ キャプションが表示されます。 現時点では、英語のキャプションのみをサポートしています。
-- 表示専用の出席者はストリーミング テクノロジでサポートされます。
+- 表示専用の出席者は、ストリーミング テクノロジでサポートされます。
 - 表示専用の出席者は、出席レポートに含まれません。
 - 表示専用の出席者は、1 つのビデオエクスペリエンスを使用できます。 アクティブなスピーカーまたは共有されているコンテンツは表示できますが、両方は表示できません。
 - 現在、表示専用出席者の **ギャラリー**、 **大きなギャラリー**、または **一** 緒に使用するモードのレイアウトはサポートされていません。  
@@ -118,7 +115,7 @@ Teams の表示専用エクスペリエンスでは、出席者は次の機能�
 
   <sup>1</sup> 表示専用の出席者は、会議で 30 秒のビデオと音声による遅延が発生します。  
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の高度なコミュニケーション アドオン](teams-add-on-licensing/advanced-communications.md)
 - [Teams の制限と仕様](limits-specifications-teams.md)
