@@ -1,36 +1,254 @@
 items:
   - name: Teams へようこそ
     href: teams-overview.md
-  - name: アーキテクチャとテレフォニー ソリューションのポスター
-    href: teams-architecture-solutions-posters.md
-  - name: リモート ワーカーのサポート (WFH)
-    href: support-remote-work-with-teams.md
-  - name: トレーニング
+  - name: 作業の開始
     items:
-      - name: 概要
-        href: training-microsoft-teams-landing-page.md
-      - name: Teams の管理者トレーニング
-        href: itadmin-readiness.md
-      - name: Ignite 2020 の Teams セッション
-        href: ignite-2020-landing-page.md
-      - name: Teams のライブ トレーニング
-        href: instructor-led-training-teams-landing-page.yml
-      - name: Teams のオンライン トレーニング
-        href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
-  - name: Teams のロールアウト方法
-    href: How-to-roll-out-teams.md
-  - name: 概要
+      - name: 展開の概要
+        href: deploy-overview.md
+      - name: クイック スタート
+        items:
+          - name: クイック スタートの概要
+            href: get-started-with-teams-quick-start.md
+          - name: 'ステップ 1: 最初のチームとチャネルを作成する'
+            href: get-started-with-teams-create-your-first-teams-and-channels.md
+          - name: 'ステップ 2: 早期導入者を参加させる'
+            href: get-started-with-teams-onboard-early-adopters.md
+          - name: 'ステップ 3: 利用状況とフィードバックを監視する'
+            href: get-started-with-teams-monitor-usage-and-feedback.md
+          - name: 'ステップ 4: 組織全体へのロールアウトを計画する'
+            href: get-started-with-teams-resources-for-org-wide-rollout.md
+          - name: リモート ワーカー (WFH) のサポート
+            href: support-remote-work-with-teams.md
+      - name: 小規模ビジネス セットアップ
+        href: deploy-small-business.md
+      - name: エンタープライズ セットアップ
+        items:
+          - name: エンタープライズ セットアップの概要
+            href: deploy-enterprise-overview.md
+          - name: アーキテクチャとテレフォニー ソリューションのポスター
+            href: teams-architecture-solutions-posters.md
+          - name: 組織を準備する
+            items:
+              - name: Teams 用に組織のネットワークを準備する
+                href: prepare-network.md
+              - name: Advisor for Teams を使用して Teams をロールアウトする
+                href: use-advisor-teams-roll-out.md
+              - name: Teams の Network Planner を使用する
+                href: network-planner.md
+              - name: Network Planner のチュートリアル
+                href: tutorial-network-planner-example.yml
+              - name: Teams または Skype for Business Online 向けのプロキシ サーバー
+                href: proxy-servers-for-skype-for-business-online.md
+              - name: Teams でチームを作成するときの Microsoft 365 グループの計画
+                href: plan-office-365-groups.md
+              - name: Teams でのライフサイクル管理の計画
+                href: plan-teams-lifecycle.md
+              - name: Teams でのガバナンスを計画する
+                href: plan-teams-governance.md
+          - name: 組織で Teams をセットアップする
+            href: deploy-enterprise-setup.md
+          - name: 導入
+            items:
+              - name: 概要
+                href: adopt-microsoft-teams-landing-page.md
+              - name: 概要
+                href: teams-adoption-get-started.md
+              - name: 'フェーズ 1: 開始'
+                items:
+                  - name: 開始
+                    href: teams-adoption-phase1.md
+                  - name: チームとチャネルについて理解する
+                    href: teams-adoption-understand-teams-and-channels.md
+                  - name: 最初のチームを作成する
+                    href: teams-adoption-your-first-teams.md
+                  - name: Teams に対する組織の準備状況について
+                    href: teams-adoption-assess-readiness.md
+              - name: 'フェーズ 2: 試用'
+                items:
+                  - name: 試用
+                    href: teams-adoption-phase2-experiment.md
+                  - name: 主導者プログラムを作成する
+                    href: teams-adoption-create-champions-program.md
+                  - name: クイック スタートのガバナンス
+                    href: teams-adoption-governance-quick-start.md
+                  - name: 使用例を定義する
+                    href: teams-adoption-define-usage-scenarios.md
+                  - name: アーリー アダプターに関与してフィードバックを収集する
+                    href: teams-adoption-onboard-early-adopters.md
+                  - name: 参加サポート
+                    href: teams-adoption-onboard-support.md
+              - name: 'フェーズ 3: スケール'
+                items:
+                  - name: '[倍率]'
+                    href: teams-adoption-phase3-enable.md
+                  - name: 結果と成功を定義する
+                    href: teams-adoption-define-outcomes.md
+                  - name: フィードバックとレポートを最適化する
+                    href: teams-adoption-optimize-feedback-and-reporting.md
+                  - name: 啓発とトレーニングの実施
+                    href: teams-adoption-drive-awareness.md
+                  - name: サービス正常性のレビューをスケジュールする
+                    href: teams-adoption-schedule-service-health-reviews.md
+          - name: Teams のクライアントを展開する
+            items:
+              - name: Teams のクライアントを取得する
+                href: get-clients.md
+              - name: 中国で Android 用 Teams を取得する
+                href: get-teams-android-in-china.md
+              - name: Teams アプリのハードウェア要件
+                href: hardware-requirements-for-the-teams-app.md
+              - name: ハードウェア デコーダー/エンコーダー ドライバーの推奨事項
+                href: hardware-decoders-and-encoders.md
+              - name: MSI を使用した Teams のインストール
+                href: msi-deployment.md
+              - name: 組織で Teams を有効にする
+                href: Office-365-set-up.md
+              - name: Microsoft Teams のメモリ使用方法
+                href: teams-memory-usage-perf.md
+              - name: Microsoft 365 と Office 365 の URL と IP アドレスの範囲
+                href: office-365-urls-ip-address-ranges.md
+              - name: 仮想デスクトップ インフラストラクチャ (VDI) 用の Teams
+                href: teams-for-vdi.md
+              - name: リモート デスクトップ環境 (RDP) 用の Teams
+                href: teams-on-rdp.md
+              - name: Surface Hub の Teams を展開する
+                href: teams-surface-hub.md
+              - name: Teams クライアントの更新プログラム
+                href: teams-client-update.md
+              - name: インストールと更新に関する問題のトラブルシューティング
+                href: troubleshoot-installation.md
+          - name: Teams のトレーニング
+            items:
+              - name: 概要
+                href: training-microsoft-teams-landing-page.md
+              - name: Teams の管理者トレーニング
+                href: itadmin-readiness.md
+              - name: Ignite 2020 の Teams セッション
+                href: ignite-2020-landing-page.md
+              - name: Teams のライブ トレーニング
+                href: instructor-led-training-teams-landing-page.yml
+              - name: Teams のオンライン トレーニング
+                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+  - name: Skype for Business からアップグレード
     items:
-      - name: 概要
-        href: get-started-with-teams-quick-start.md
-      - name: 'ステップ 1: 最初のチームとチャネルを作成する'
-        href: get-started-with-teams-create-your-first-teams-and-channels.md
-      - name: 'ステップ 2: 早期導入者を参加させる'
-        href: get-started-with-teams-onboard-early-adopters.md
-      - name: 'ステップ 3: 利用状況とフィードバックを監視する'
-        href: get-started-with-teams-monitor-usage-and-feedback.md
-      - name: 'ステップ 4: 組織全体へのロールアウトを計画する'
-        href: get-started-with-teams-resources-for-org-wide-rollout.md
+      - name: 開始する
+        href: upgrade-start-here.md
+      - name: アップグレードのフレームワークについて
+        href: upgrade-framework.md
+      - name: どのようにアップグレードするか計画する
+        items:
+          - name: プロジェクトと要件を計画する
+            items:
+              - name: 概要
+                href: upgrade-plan-journey.md
+              - name: プロジェクト関係者に協力を求める
+                href: upgrade-enlist-stakeholders.md
+              - name: プロジェクトの対象範囲を定義する
+                href: upgrade-define-project-scope.md
+              - name: 共存および相互運用性について理解する
+                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
+              - name: PSTN に関する考慮事項
+                href: upgrade-to-teams-on-prem-pstn-considerations.md
+              - name: アップグレードの行程を選択する
+                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
+              - name: ユーザー パイロットを計画する
+                href: pilot-essentials.md
+          - name: Teams 向けの環境を準備する
+            items:
+              - name: 技術準備の概要
+                href: upgrade-prepare-environment.md
+              - name: Teams に向けて IT スタッフを準備する
+                href: upgrade-prepare-IT-pros.md
+              - name: 前提条件
+                href: upgrade-plan-journey-prerequisites.md
+              - name: 環境を評価する
+                href: upgrade-plan-journey-evaluate-environment.md
+              - name: サービスを準備する
+                href: upgrade-prepare-environment-prepare-service.md
+          - name: Teams に向けて組織を準備する
+            items:
+              - name: 組織準備の概要
+                href: upgrade-prepare-organization.md
+              - name: 組織的な変更の準備状況を評価する
+                href: upgrade-org-change-readiness.md
+              - name: ユーザーの準備計画を整える
+                href: upgrade-user-readiness.md
+      - name: アップグレードを実装する
+        items:
+          - name: 概要
+            href: upgrade-to-Teams.md
+          - name: Skype for Business Online から Teams にアップグレードする
+            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
+          - name: Skype for Business オンプレミスから Teams にアップグレードする
+            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+      - name: 運用、導入、および最適化
+        href: continue-journey.md
+      - name: Skype for Business Online のサポート終了
+        href: skype-for-business-online-retirement.md
+      - name: よくあるご質問 (FAQ)
+        href: FAQ-journey.yml
+      - name: テクニカル ライブラリ
+        items:
+          - name: IT 管​​理者向けのアップグレード ガイダンス
+            items:
+              - name: 概要
+                href: upgrade-to-teams-on-prem-overview.md
+              - name: アップグレード方法
+                href: upgrade-to-teams-on-prem-upgrade-methods.md
+              - name: アップグレードの管理ツール
+                href: upgrade-to-teams-on-prem-tools.md
+              - name: Skype for Business オンプレミスを使用している組織に関する考慮事項
+                href: upgrade-to-teams-on-prem-considerations.md
+              - name: アップグレードを実装する
+                href: upgrade-to-teams-on-prem-implement.md
+              - name: Teams と Skype for Business の共存
+                href: upgrade-to-teams-on-prem-coexistence.md
+              - name: 共存モード - リファレンス
+                href: migration-interop-guidance-for-teams-with-skype.md
+              - name: Teams のクライアント エクスペリエンスおよび共存モードへの準拠
+                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: 共存およびアップグレードの設定
+            href: setting-your-coexistence-and-upgrade-settings.md
+          - name: Meetings First
+            href: meetings-first.md
+  - name: ハイブリッド接続
+    items:
+      - name: ハイブリッド接続のプラン
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+      - name: ハイブリッド接続の構成
+        items:
+          - name: 概要
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+          - name: ハイブリッド環境用の Azure AD Connect の構成
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+          - name: Skype for Business ハイブリッドの構成
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+      - name: オンプレミスとクラウドの間でユーザーを移動する
+        items:
+          - name: 概要
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+          - name: オンプレミスから Teams にユーザーを移動する
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+          - name: ユーザーをオンプレミスから Skype for Business Online に移動する
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+          - name: ユーザーをクラウドからオンプレミスに移動する
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+          - name: 会議の移行を管理する
+            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+      - name: ハイブリッドを無効にしてクラウドへの移行を完了する
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+      - name: リソース フォレスト トポロジの展開
+        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+      - name: Teams および Skype for Business Online のクラウド統合
+        items:
+          - name: 概要
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+          - name: エッジ証明書の更新
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+          - name: AAD Connect を更新して複数のフォレストを含める
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+      - name: Exchange および SharePoint との統合
+        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: セキュリティ、プライバシー、コンプライアンス
     items:
       - name: 概要
@@ -1079,168 +1297,6 @@ items:
             href: Office-365-custom-connectors.md
           - name: 非標準ユーザーに対する Teams アプリの動作
             href: non-standard-users.md
-  - name: 導入
-    items:
-      - name: 概要
-        href: adopt-microsoft-teams-landing-page.md
-      - name: 概要
-        href: teams-adoption-get-started.md
-      - name: 'フェーズ 1: 開始'
-        items:
-          - name: 開始
-            href: teams-adoption-phase1.md
-          - name: チームとチャネルについて理解する
-            href: teams-adoption-understand-teams-and-channels.md
-          - name: 最初のチームを作成する
-            href: teams-adoption-your-first-teams.md
-          - name: Teams に対する組織の準備状況について
-            href: teams-adoption-assess-readiness.md
-      - name: 'フェーズ 2: 試用'
-        items:
-          - name: 試用
-            href: teams-adoption-phase2-experiment.md
-          - name: 主導者プログラムを作成する
-            href: teams-adoption-create-champions-program.md
-          - name: クイック スタートのガバナンス
-            href: teams-adoption-governance-quick-start.md
-          - name: 使用例を定義する
-            href: teams-adoption-define-usage-scenarios.md
-          - name: アーリー アダプターに関与してフィードバックを収集する
-            href: teams-adoption-onboard-early-adopters.md
-          - name: 参加サポート
-            href: teams-adoption-onboard-support.md
-      - name: 'フェーズ 3: スケール'
-        items:
-          - name: '[倍率]'
-            href: teams-adoption-phase3-enable.md
-          - name: 結果と成功を定義する
-            href: teams-adoption-define-outcomes.md
-          - name: フィードバックとレポートを最適化する
-            href: teams-adoption-optimize-feedback-and-reporting.md
-          - name: 啓発とトレーニングの実施
-            href: teams-adoption-drive-awareness.md
-          - name: サービス正常性のレビューをスケジュールする
-            href: teams-adoption-schedule-service-health-reviews.md
-  - name: Teams へのアップグレード
-    items:
-      - name: 開始する
-        href: upgrade-start-here.md
-      - name: アップグレードのフレームワークについて
-        href: upgrade-framework.md
-      - name: どのようにアップグレードするか計画する
-        items:
-          - name: プロジェクトと要件を計画する
-            items:
-              - name: 概要
-                href: upgrade-plan-journey.md
-              - name: プロジェクト関係者に協力を求める
-                href: upgrade-enlist-stakeholders.md
-              - name: プロジェクトの対象範囲を定義する
-                href: upgrade-define-project-scope.md
-              - name: 共存および相互運用性について理解する
-                href: teams-and-skypeforbusiness-coexistence-and-interoperability.md
-              - name: PSTN に関する考慮事項
-                href: upgrade-to-teams-on-prem-pstn-considerations.md
-              - name: アップグレードの行程を選択する
-                href: upgrade-and-coexistence-of-skypeforbusiness-and-teams.md
-              - name: ユーザー パイロットを計画する
-                href: pilot-essentials.md
-          - name: Teams 向けの環境を準備する
-            items:
-              - name: 技術準備の概要
-                href: upgrade-prepare-environment.md
-              - name: Teams に向けて IT スタッフを準備する
-                href: upgrade-prepare-IT-pros.md
-              - name: 前提条件
-                href: upgrade-plan-journey-prerequisites.md
-              - name: 環境を評価する
-                href: upgrade-plan-journey-evaluate-environment.md
-              - name: サービスを準備する
-                href: upgrade-prepare-environment-prepare-service.md
-          - name: Teams に向けて組織を準備する
-            items:
-              - name: 組織準備の概要
-                href: upgrade-prepare-organization.md
-              - name: 組織的な変更の準備状況を評価する
-                href: upgrade-org-change-readiness.md
-              - name: ユーザーの準備計画を整える
-                href: upgrade-user-readiness.md
-      - name: アップグレードを実装する
-        items:
-          - name: 概要
-            href: upgrade-to-Teams.md
-          - name: Skype for Business Online から Teams にアップグレードする
-            href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
-          - name: Skype for Business オンプレミスから Teams にアップグレードする
-            href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
-      - name: 運用、導入、および最適化
-        href: continue-journey.md
-      - name: Skype for Business Online のサポート終了
-        href: skype-for-business-online-retirement.md
-      - name: よくあるご質問 (FAQ)
-        href: FAQ-journey.yml
-      - name: テクニカル ライブラリ
-        items:
-          - name: IT 管​​理者向けのアップグレード ガイダンス
-            items:
-              - name: 概要
-                href: upgrade-to-teams-on-prem-overview.md
-              - name: アップグレード方法
-                href: upgrade-to-teams-on-prem-upgrade-methods.md
-              - name: アップグレードの管理ツール
-                href: upgrade-to-teams-on-prem-tools.md
-              - name: Skype for Business オンプレミスを使用している組織に関する考慮事項
-                href: upgrade-to-teams-on-prem-considerations.md
-              - name: アップグレードを実装する
-                href: upgrade-to-teams-on-prem-implement.md
-              - name: Teams と Skype for Business の共存
-                href: upgrade-to-teams-on-prem-coexistence.md
-              - name: 共存モード - リファレンス
-                href: migration-interop-guidance-for-teams-with-skype.md
-              - name: Teams のクライアント エクスペリエンスおよび共存モードへの準拠
-                href: teams-client-experience-and-conformance-to-coexistence-modes.md
-          - name: 共存およびアップグレードの設定
-            href: setting-your-coexistence-and-upgrade-settings.md
-          - name: Meetings First
-            href: meetings-first.md
-  - name: ハイブリッド接続
-    items:
-      - name: ハイブリッド接続のプラン
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-      - name: ハイブリッド接続の構成
-        items:
-          - name: 概要
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-          - name: ハイブリッド環境用の Azure AD Connect の構成
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-          - name: Skype for Business ハイブリッドの構成
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-      - name: オンプレミスとクラウドの間でユーザーを移動する
-        items:
-          - name: 概要
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-          - name: オンプレミスから Teams にユーザーを移動する
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-          - name: ユーザーをオンプレミスから Skype for Business Online に移動する
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-          - name: ユーザーをクラウドからオンプレミスに移動する
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-          - name: 会議の移行を管理する
-            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-      - name: ハイブリッドを無効にしてクラウドへの移行を完了する
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-      - name: リソース フォレスト トポロジの展開
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-      - name: Teams および Skype for Business Online のクラウド統合
-        items:
-          - name: 概要
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-          - name: エッジ証明書の更新
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-          - name: AAD Connect を更新して複数のフォレストを含める
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-      - name: Exchange および SharePoint との統合
-        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: 業界および政府機関向けのガイダンス
     items:
       - name: 概要
@@ -1380,52 +1436,6 @@ items:
     items:
       - name: Teams の制限と仕様
         href: limits-specifications-teams.md
-      - name: Teams のロールアウトの準備
-        items:
-          - name: Teams 用に組織のネットワークを準備する
-            href: prepare-network.md
-          - name: Advisor for Teams を使用して Teams をロールアウトする
-            href: use-advisor-teams-roll-out.md
-          - name: Teams の Network Planner を使用する
-            href: network-planner.md
-          - name: Network Planner のチュートリアル
-            href: tutorial-network-planner-example.yml
-          - name: Teams または Skype for Business Online 向けのプロキシ サーバー
-            href: proxy-servers-for-skype-for-business-online.md
-          - name: Teams でチームを作成するときの Microsoft 365 グループの計画
-            href: plan-office-365-groups.md
-          - name: Teams でのライフサイクル管理の計画
-            href: plan-teams-lifecycle.md
-          - name: Teams でのガバナンスを計画する
-            href: plan-teams-governance.md
-      - name: Teams のインストール
-        items:
-          - name: Teams のクライアントを取得する
-            href: get-clients.md
-          - name: 中国で Android 用 Teams を取得する
-            href: get-teams-android-in-china.md
-          - name: Teams アプリのハードウェア要件
-            href: hardware-requirements-for-the-teams-app.md
-          - name: ハードウェア デコーダー/エンコーダー ドライバーの推奨事項
-            href: hardware-decoders-and-encoders.md
-          - name: MSI を使用した Teams のインストール
-            href: msi-deployment.md
-          - name: 組織で Teams を有効にする
-            href: Office-365-set-up.md
-          - name: Microsoft Teams のメモリ使用方法
-            href: teams-memory-usage-perf.md
-          - name: Microsoft 365 と Office 365 の URL と IP アドレスの範囲
-            href: office-365-urls-ip-address-ranges.md
-          - name: 仮想デスクトップ インフラストラクチャ (VDI) 用の Teams
-            href: teams-for-vdi.md
-          - name: リモート デスクトップ環境 (RDP) 用の Teams
-            href: teams-on-rdp.md
-          - name: Surface Hub の Teams を展開する
-            href: teams-surface-hub.md
-          - name: Teams クライアントの更新プログラム
-            href: teams-client-update.md
-          - name: インストールと更新に関する問題のトラブルシューティング
-            href: troubleshoot-installation.md
       - name: ライセンス
         items:
           - name: Teams へのユーザー アクセスを管理する
