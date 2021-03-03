@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Teams 管理ドキュメント
-summary: Teams をロールアウトして管理する方法を学び、Teams のためにユーザーを準備する
+summary: Microsoft Teams の管理者や IT プロフェッショナル向けのドキュメントをご覧になり、Teams のロールアウトや管理方法を学習し、ユーザーが Teams に対応するための準備をしましょう。
 brand: teams
 metadata:
   title: Microsoft Teams 管理ドキュメント
-  description: Teams のロールアウトと管理の方法を含む Microsoft Teams 管理ドキュメントについて学び、Teams のためにユーザーを準備します。
+  description: Microsoft Teams の管理者や IT プロフェッショナル向けのドキュメントをご覧になり、Teams のロールアウトや管理方法を学習し、ユーザーが Teams に対応するための準備をしましょう。
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
@@ -13,82 +13,140 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 0be9febe11179da1ffa5b2bd696704e7763da272
-  ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+  ms.openlocfilehash: 4063aca5206303a43f66dbf8c8b002cd8ae53d59
+  ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/05/2021
-  ms.locfileid: "50110300"
+  ms.lasthandoff: 03/01/2021
+  ms.locfileid: "50395389"
 highlightedContent:
   items:
-  - title: 新型コロナ ウイルス感染症の応答 - Teams を使用したリモート ワーカーのサポート
+  - title: Teams を使用してリモート ワーカーをサポートする
     itemType: overview
-    url: /MicrosoftTeams/support-remote-work-with-teams
-  - title: Teams のロールアウト方法
-    itemType: deploy
-    url: /MicrosoftTeams/how-to-roll-out-teams
-  - title: Teams でのセキュリティとコンプライアンス
-    itemType: overview
-    url: /MicrosoftTeams/security-compliance-overview
-  - title: 自分と自分のユーザーのためのトレーニングを見つける
-    itemType: learn
-    url: /MicrosoftTeams/training-microsoft-teams-landing-page
+    url: https://docs.microsoft.com/en-us/microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
   - title: Skype for Business から Teams へのアップグレード
     itemType: how-to-guide
     url: /MicrosoftTeams/upgrade-skype-teams
-  - title: Adoption Hub
+  - title: Teams のアドバイザーを使用して、Teams の展開を支援する
     itemType: get-started
-    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    url: /MicrosoftTeams/use-advisor-teams-roll-out
 productDirectory:
+  title: IT プロフェッショナル – Microsoft Teams の使用を開始する
   items:
-  - title: Microsoft Power Platform との統合
-    imageSrc: ./media/blocks-teams.svg
-    summary: Microsoft Power Platform を使用して、ビジネス プロセスを実行して価値を向上する
-    url: teams-power-platfom-integration.md
-  - title: Contoso 社のケース スタディ - Teams 音声への移行
-    imageSrc: https://docs.microsoft.com/office/media/icons/call-phone-teams.svg
-    summary: 架空の多国籍企業が、組織用に Teams 音声を導入するにあたっての解決策を実行する方法を説明します。
-    url: voice-case-study-overview.md
-  - title: Microsoft 365 での共同作業の管理
-    imageSrc: https://docs.microsoft.com/office/media/icons/collaborate-blue.svg
-    summary: 組織のニーズに合わせて Microsoft 365 コラボレーション サービスの管理戦略を作成します。
-    url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+  - title: パイロット
+    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
+    summary: 展開を計画し、ソリューションを試験的に導入することにより、スムーズなエクスペリエンスを得ることができます。
+    url: /MicrosoftTeams/get-started-with-teams-quick-start
+  - title: エンド ユーザーの導入を準備する 
+    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
+    summary: ユーザーに参加を促し、成功へのシナリオを共有しましょう。
+    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+  - title: エンタープライズ展開の計画
+    imageSrc: https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
+    summary: 環境とインフラストラクチャを展開可能な状態にします。
+    url: /MicrosoftTeams/deploy-enterprise-overview
+  - title: 展開
+    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
+    summary: Microsoft Teams を組織全体で展開します。
+    url: /MicrosoftTeams/deploy-overview
+  - title: セキュリテイ保護
+    imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
+    summary: Microsoft Teams でデータ、ファイル、ID をセキュリティで保護するには、以下のベスト プラクティスに従います。
+    url: /MicrosoftTeams/security-compliance-overview
+  - title: 管理
+    imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
+    summary: Microsoft Teams の日常的な管理タスクを実行します。
+    url: /MicrosoftTeams/manage-teams-overview
+tools:
+  title: すべての対象ユーザーのリソース
+  items:
+  - title: IT 担当者と管理者向けの詳細情報
+    imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
+    url: https://docs.microsoft.com/learn/teams/
+  - title: Microsoft Teams と Microsoft 365 開発者プラットフォーム
+    imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
+    url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+  - title: エンド ユーザーのヘルプとラーニング
+    imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
+    url: https://support.office.com/Teams
+  - title: Teams のブログと技術コミュニティ
+    imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
+    url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+  - title: Teams UserVoice (ユーザー フィードバック フォーラム)
+    imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
+    url: https://microsoftteams.uservoice.com/
+  - title: Microsoft Teams のダウンロード
+    imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
+    url: https://products.office.com/microsoft-teams/group-chat-software
 additionalContent:
   sections:
-  - items:
-    - title: よく参照される記事
+  - title: 主なソリューション
+    items:
+    - title: チャット、チーム、チャネル
       links:
-      - text: Teams 用に組織のネットワークを準備する
-        url: /MicrosoftTeams/prepare-network
-      - text: 遠隔教育に Teams を使用している間、学生を安全に保つ
-        url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
-      - text: Teams のアドバイザーを使用して、Teams の展開を支援する
-        url: /MicrosoftTeams/use-advisor-teams-roll-out
-      - text: Teams がメモリを使用する方法
-        url: /MicrosoftTeams/teams-memory-usage-perf
-      - text: 別の組織のユーザーと通信する (ゲスト/外部アクセス)
+      - text: チャット、チーム、チャネルおよびアプリ
+        url: /Microsoftteams/deploy-chat-teams-channels-microsoft-teams-landing-page
+      - text: チームとチャネルの概要
+        url: /Microsoftteams/teams-channels-overview
+      - text: 別の組織のユーザーと通話およびチャットをする (ゲスト/外部アクセス)
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-      - text: IT アーキテクチャのポスターとソリューション
-        url: /MicrosoftTeams/teams-architecture-solutions-posters
-    - title: Teams との音声通話
+      - text: 共同作業のガバナンスとは?
+        url: https://docs.microsoft.com/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+      - text: ファイル共有セキュリティの 3 つの階層を使用して Teams を構成する
+        url: https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
+    - title: ミーティングと会議
       links:
-      - text: Microsoft Teams でのクラウド ボイス
+      - text: ミーティングと会議の概要
+        url: /Microsoftteams/deploy-meetings-microsoft-teams-landing-page
+      - text: Microsoft Teams のライブ イベントとは
+        url: /Microsoftteams/teams-live-events/what-are-teams-live-events
+      - text: 電話会議を展開する
+        url: /Microsoftteams/deploy-audio-conferencing-teams-landing-page
+      - text: Microsoft Teams Rooms
+        url: /MicrosoftTeams/rooms/
+    - title: 音声通話
+      links:
+      - text: Teams の音声ソリューションを計画する
         url: /MicrosoftTeams/cloud-voice-landing-page
-      - text: Microsoft 365 企業向け音声
+      - text: Microsoft 365 Business Voice とは
         url: /MicrosoftTeams/business-voice/whats-business-voice
-      - text: 電話システムのダイレクト ルーティング
-        url: /MicrosoftTeams/direct-routing-landing-page
-      - text: 共通領域電話をセットアップする
-        url: /MicrosoftTeams/set-up-common-area-phones
-    - title: その他の Teams のコンテンツ
+      - text: 電話システムをセットアップする
+        url: /Microsoftteams/setting-up-your-phone-system
+      - text: 'Contoso 社のケース スタディ: Teams 音声への移行'
+        url: /MicrosoftTeams/voice-case-study-overview
+    - title: Teams の機能を拡張する
       links:
-      - text: エンドユーザー向けのヘルプ コンテンツ
-        url: https://support.office.com/Teams
-      - text: Teams 技術コミュニティ
-        url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-      - text: Teams のユーザー フィードバック フォーラム
-        url: https://microsoftteams.uservoice.com/
-      - text: Teams 製品情報
-        url: https://products.office.com/microsoft-teams/group-chat-software
-      - text: Teams 開発者プラットフォーム
-        url: https://docs.microsoft.com/microsoftteams/platform/overview
+      - text: Microsoft Teams のアプリ、ボット、およびコネクタ
+        url: /MicrosoftTeams/deploy-apps-microsoft-teams-landing-page
+      - text: Microsoft Teams のアプリを作成する
+        url: /MicrosoftTeams/platform/overview
+      - text: Microsoft Power Platform との統合
+        url: https://docs.microsoft.com/MicrosoftTeams/teams-power-platfom-integration
+      - text: Microsoft Teams アプリのセキュリティとコンプライアンス
+        url: https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps
+      - text: Microsoft Viva - 従業員エクスペリエンスとエンゲージメント
+        url: https://www.microsoft.com/microsoft-viva/
+    - title: 教育と産業
+      links:
+      - text: 遠隔学習で Teams を使用している間、学生の安全を確保する
+        url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
+      - text: Microsoft Teams for Education
+        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page
+      - text: 医療
+        url: /MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc
+      - text: 現場担当者
+        url: /MicrosoftTeams/flw-quickstart
+      - text: 小売
+        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-retail-landing-page
+    - title: 政府機関
+      links:
+      - text: 政府機関用 Teams
+        url: /MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page
+      - text: 政府機関 - GCC の展開
+        url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc
+      - text: 政府機関 - GCC High の展開
+        url: https://docs.microsoft.com/microsoftteams/plan-for-government-gcc-high
+      - text: 政府機関 - DoD の展開
+        url: https://docs.microsoft.com/microsoftteams/plan-for-government-dod
+      - text: 政府機関向けのポリシー パッケージ
+        url: https://docs.microsoft.com/microsoftteams/policy-packages-gov
