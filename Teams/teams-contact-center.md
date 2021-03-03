@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 207b39fd0ac7b879002355921d001b2bbb01070b
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 470b8cb523a688be87eaef51dbb93ea7aaa59c38
+ms.sourcegitcommit: 49674c122d69b5495afeb2833ecf498acf129746
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196376"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50402863"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
@@ -44,10 +44,11 @@ API を使用すると、ソリューション プロバイダーは、Teams 用
 
 |  ソリューション プロバイダー                                                                                                                               |  ソリューションの Web サイト                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 
-### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>認定プロセス中のコネクテッド コンタクト センター ソリューション
+### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>認定プロセス中の接続されたコンタクト センター ソリューション
 
 |  ソリューション プロバイダー                                                                                                                               |  ソリューションの Web サイト                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -89,7 +90,7 @@ Connect モデルに構築されたソリューションを使用するエージ
 
   - マルチテナント SIP トランキングをサポートして、ソリューション プロバイダーの SBC に関する複数のお客様をサポートできます。  
 
-  - Microsoft 認定セッション ボーダー[<span class="underline">コントローラー (SBC)</span>を使用するソリューション プロバイダー](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
+  - Microsoft 認定セッション ボーダー コントローラー [ <span class="underline">(SBC)</span>を使用するソリューション プロバイダー](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers) 
 
 ### <a name="connect-and-extend"></a>接続と拡張
 
@@ -125,7 +126,7 @@ Connect および拡張ベースのソリューションを使用すると、エ
 
 Azure に直接構築することで、ソリューション プロバイダーは、すべての Teams の地域と地域にソリューションを迅速に展開してプロビジョニングすることができます。Azure のストレージ、計算、分析 & の認知サービスを利用しながら、共有のグローバル通信ネットワークのメリットを受けることができます。
 
-拡張および Power 統合モデルを使用すると、ソリューション プロバイダーは、参加者 (または他のサービス) が Microsoft Graph で [Cloud Communications API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を適用する呼び出しに従事する方法と時間をカスタマイズするために人工知能を組み込む一方で、コンタクト センター エージェントにコンタクト センターの通信エクスペリエンスを提供できます。
+拡張および Power 統合モデルを使用すると、ソリューション プロバイダーは、参加者 (または他のサービス) が Microsoft Graph で [Cloud Communications API](https://docs.microsoft.com/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を適用する呼び出しに従事する方法と時間をカスタマイズするために人工知能を組み込む一方で、コンタクト センター エージェントにコンタクト センターエージェントにチャネル通信エクスペリエンスを提供できます。
 
 **主要な機能**
 

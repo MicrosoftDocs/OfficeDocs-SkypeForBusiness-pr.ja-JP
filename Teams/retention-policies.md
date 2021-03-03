@@ -19,17 +19,17 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3b0197d9a5cf9ada93ac16ad083f293b573c4eed
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
+ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347657"
+ms.lasthandoff: 03/02/2021
+ms.locfileid: "50401311"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams のアイテム保持ポリシーを管理する
 
 > [!NOTE]
-> アイテム保持ポリシーによってチャットやメッセージが削除されたというメッセージが Teams に表示されるユーザーの場合は、アイテム保持ポリシーに関する Teams メッセージを [参照してください](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。
+> アイテム保持ポリシーによってチャットまたはメッセージが削除されたというメッセージが Teams に表示される場合は、アイテム保持ポリシーに関する Teams メッセージ [を参照してください](https://support.microsoft.com/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。
 > 
 > このページの情報は、これらのアイテム保持ポリシーを管理する IT 管理者向けです。
 
@@ -37,18 +37,18 @@ Microsoft 365 のアイテム保持ポリシーと保持ラベルは、組織内
 
 Teams はチャットおよびチャネル メッセージのアイテム保持ポリシーをサポートし、管理者は、このデータを保持するか、削除するか、特定の期間保持してから削除するかどうかを積極的に決定できます。 Teams のアイテム保持ポリシーは、組織全体に適用することも、特定のユーザーやチームに適用することもできます。 保持ラベルは、Teams ではサポートされていません。
 
-Microsoft 365 の他のワークロードにアイテム保持ポリシーまたはアイテム保持ラベルを使用して保持設定を適用する方法の詳細については、「アイテム[](https://docs.microsoft.com/microsoft-365/compliance/retention)保持ポリシーとアイテム保持ラベルについて」を参照してください。
+Microsoft 365 で他のワークロードのアイテム保持ポリシーまたはアイテム保持ラベルを使用して保持設定を適用する方法の詳細については、「アイテム[](https://docs.microsoft.com/microsoft-365/compliance/retention)保持ポリシーとアイテム保持ラベルについて」を参照してください。
 
 Teams のアイテム保持ポリシーの最小ライセンス要件は、Microsoft 365 E3 です。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 ## <a name="how-teams-retention-policies-work"></a>Teams のアイテム保持ポリシーのしくみ
 
-Teams のチャット メッセージは、チャットに含まれる各ユーザーのメールボックスの隠しフォルダーに保存され、Teams チャネル メッセージはチームのグループ メールボックス内の同様の隠しフォルダーに保存されます。 アイテム保持ポリシーの適用対象となるメッセージを保持するために、コンテンツのコピーは、Exchange の回復可能なアイテム フォルダーのサブフォルダーとして **、"FolderHolds"** という名前の非表示フォルダーに自動的に **保持** されます。 これらのメッセージが、電子情報開示ツールで検索可能なままになるまで、そのメッセージは、電子情報開示ツールで検索可能なままです。
+Teams のチャット メッセージは、チャットに含まれる各ユーザーのメールボックスの隠しフォルダーに保存され、Teams チャネル メッセージはチームのグループ メールボックス内の同様の隠しフォルダーに保存されます。 アイテム保持ポリシーの適用対象となるメッセージを保持するために、コンテンツのコピーは、Exchange の回復可能なアイテム フォルダーのサブフォルダーとして **、"FolderHolds"** という名前の非表示フォルダーに自動的に **保持** されます。 これらのメッセージが、電子情報開示ツールで検索可能なままになるまでは、そのメッセージは、HoldHolds フォルダーから完全に削除されます。
 
 Teams アイテム保持ポリシーに含まれる内容と除外される内容、およびポリシーの構成に応じてこれらのポリシーがどのように動作するのかの詳細については [、「Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)の保持について」を参照してください。
 
 > [!NOTE]
-> このページでは、アイテム保持ポリシーがメッセージを削除するときに遅延が発生する場合がある理由について説明します。 たとえば、メッセージは、アイテム保持ポリシーで構成した有効期限の 7 日後まで表示できます。
+> このページでは、アイテム保持ポリシーでメッセージを削除するときに遅延が発生する場合がある理由について説明します。 たとえば、メッセージは、アイテム保持ポリシーで構成した有効期限の 7 日後まで表示できます。
 
 異なる保持設定で複数の Teams アイテム保持ポリシーを設定した場合、保持の原則は競合を解決します。 次に例を示します。
 - 同じコンテンツの保持と削除の間に競合がある場合、コンテンツは常に保持されます。
