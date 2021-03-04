@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の使用を開始する
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
@@ -19,58 +19,65 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0d59a3dbecb10a1666949273023112fa09961639
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: a0188b544c69d3779282aff06b007f4f06910b85
+ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030433"
+ms.lasthandoff: 03/01/2021
+ms.locfileid: "50395354"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 
-> [!IMPORTANT]
-> **リモート ワーク** に対応するようにという要望の高まりに応えるため Microsoft Teams を迅速にロールアウトする場合、使用を開始するためのこのガイダンスにより、組織全体に Teams をロールアウトできます。 このガイダンスは、Teams が初めての Microsoft 365 または Office 365 ワークロードである場合でも当てはまります。
+> [!TIP]
+> PC またはモバイル デバイスに Teamsクライアントをインストールする方法に関する情報をお探しですか? [Microsoft Teams のダウンロード](https://www.microsoft.com/microsoft-teams/download-app) に移動してください。
 
-Teams をすぐ開始するには、選択した早期導入者のグループに 2 つまたは 3 つのチームとチャネルを作成することをお勧めします。 まず Teams を小規模に展開することにより、Teams を使用して Teams を学習できます。また、組織全体に Teams を展開する方法を知るための貴重な識見を得ることができます。 中小企業の場合、組織全体に Teams を展開するために必要なのは、このクイック スタート ガイドのみです。
+## <a name="start-here"></a>開始するには
 
+中小企業でも多国籍企業でも、Teams の展開はここから始めることができます。 これらの記事では、小規模な Teams の展開について手順ごとに説明されています。中小企業の場合、または **リモート ワーカー** をサポートするために初めての Microsoft 365 ワークロードとして Teams を迅速に展開する場合に必要なことがすべて網羅されています。
 
-Teams を使用すると、すぐに組織内外のチームとユーザーをまとめることができます。他のユーザーとチャットして、迅速で包括的な会話を促進したり、ドキュメントを安全に共有および共同編集したり、プロジェクトで反復処理を行うことができます。 共有メモ、Web ページ、およびアプリへの簡単に操作できるアクセスを追加して、Teams をカスタマイズします。 ユーザーは会議や通話を使用して、どこからでもリアルタイムで共同作業を行うことができます。 Teams によって Microsoft 365 または Office 365 サービスとサードパーティ製アプリへのアクセスが簡素化され、共同作業とコミュニケーションのニーズの新たな中心になります。 最高のエクスペリエンスと一番的確なフィードバックを得るために、デスクトップとモバイルの両方のアプリケーションをインストールすることを早期導入者に勧めてください。
+大規模な組織の場合は、これらの記事を使用して、少数の早期導入者のグループで Teams を試験運用してください。これにより、Teams を知り、組織全体の展開計画を立てることができます。 後で、[Microsoft Teams 導入](https://adoption.microsoft.com/microsoft-teams/#get-started)サイトのガイダンスを使用して、組織全体に Teams を展開するのに役立ててください。
 
-![デスクトップおよびモバイル クライアントのユーザー インターフェイスを示すスクリーン ショット](media/get-started-microsoft-teams.png "Teams のデスクトップ クライアントとモバイル クライアントのユーザー インターフェイスを示すスクリーン ショット" ) 
+組織の準備が整ったら、Teams を段階的に、ワークロードごとに展開することをお勧めします。 **あるステップを完了するまで待ってから、次のステップに進む必要はありません。** 一部の組織は Teams 機能を一度に全部展開することを希望するかもしれませんが、別の組織は段階的なアプローチを好むかもしれません。 Teams のワークロードを次に示します。この順番で展開することをお勧めします。
 
-最初のチームとチャネルのセットを展開する方法を次に示します。これにより、早期導入者はチャット、ファイル共有、共同作業を開始できます。
+- [チャット、チーム、チャネルおよびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [会議および通信会議](deploy-meetings-microsoft-teams-landing-page.md)
+- [クラウド ボイス](cloud-voice-landing-page.md)
 
-- ステップ 1: [最初のチームとチャネルを作成する](get-started-with-teams-create-your-first-teams-and-channels.md)
-- ステップ 2: [早期導入者を参加させる](get-started-with-teams-onboard-early-adopters.md)
-- ステップ 3: [利用状況とフィードバックを監視する](get-started-with-teams-monitor-usage-and-feedback.md)
-- ステップ 4: [組織全体の展開を計画するためのリソースを入手する](get-started-with-teams-resources-for-org-wide-rollout.md)
+![Teams の展開経路を示す図](media/get-started-with-teams-quick-start-pathways.png)
 
-大規模な組織で、ハイブリッドまたはオンプレミスの Skype for Business 構成があり、厳格な規制またはコンプライアンス要件がある場合や、会議または音声機能 (通話プランや電話システムなど) を展開する場合は、「[Teams の展開方法](how-to-roll-out-teams.md)」を読むことから始めてください。 スキルを構築し、組織全体の展開計画を開始するには、この「**使用を開始する**」セクションから始めることをお勧めします。 「Teams で Teams を計画する。」 チャット、チーム、チャネル、アプリを使用して Teams を展開し、そこから構築することにより、小さな規模で開始します。 これらの最初のエクスペリエンスは、Teams の評判を広めるために役立ち、次の立ち上げ段階に対して組織全体の気持ちを高めます。 
+中規模または大規模の組織の場合は、[Teams のアドバイザーを使用して、Microsoft Teams の展開を支援](use-advisor-teams-roll-out.md)し、組織全体でのこれらのワーク ロードの展開を計画するのに役立ててください。 アドバイザーは、Teams 自体を使用して計画タスクを作成し、それらを所有者に割り当て、ドキュメントを共有し、展開チーム間でのディスカッションを可能にします。
 
-中小企業の場合、または **新しいリモート要員をサポートするために迅速に Teams をロールアウトする** 場合は、使用を開始するためのこのガイダンスによって、組織全体に Teams をロールアウトできます。 組織での展開をより簡単に、より能率化して行うには、特に小規模企業用に利用可能なテンプレートをご確認ください。 「[中小企業向けの Teams テンプレートを使ってみる](https://docs.microsoft.com/microsoftteams/smb-templates)」を参照してください。
-
-## <a name="before-you-get-started"></a>使用を開始する前に
+## <a name="make-sure-youre-ready"></a>準備ができていることを確認します。
 
 Teams をロールアウトする準備を整えるために実行する必要がある事柄について取り上げます。Teams が初めてのワークロード (「Teams 優先」) の場合でも、既存の Microsoft 365 または Office 365 展開のその後のワークロードである場合でも、当てはまります。
 
 - [Teams 用に組織のネットワークを準備する](prepare-network.md)
-    - これには、Microsoft 365 または Office 365 ドメイン、SharePoint Online、Exchange Online、OneDrive for Business の構成が含まれます。
+  - これには、Microsoft 365 または Office 365 ドメイン、SharePoint Online、Exchange Online、OneDrive for Business の構成が含まれます。
 
 - すべてのユーザーの Teams のライセンスを取得する。 [チーム プラン](https://www.microsoft.com/microsoft-365/microsoft-teams/compare-microsoft-teams-options)と [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)を確認します。
 
 - [デスクトップ、Web、モバイル クライアントをインストールするメリットについて学ぶ](get-clients.md)
 
-- オンプレミスの Skype for Business または Lync Server から開始する
-   - [オンプレミス環境の Skype for Business から Teams にアップグレードする](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md) 
-   
-   - [Skype for Business Server と Office 365 の間のハイブリッド接続を計画する](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)
-   
-   > [!NOTE]
-   > 組織でオンプレミスの Skype for Business Server (または Lync Server) を実行している場合、オンプレミスのディレクトリと Microsoft 365 または Office 365 を同期するよう [Azure AD Connect を構成](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)する必要があります。 
+## <a name="get-familiar-with-teams"></a>Teams に精通する
 
+Teams を初めて使用する場合、Teams に慣れるための最良の方法は、すぐに使い始めることです。 Teams の優れている点は、現在設定しているものが、後で行う必要のあるアップグレードや移行の邪魔にならないことです。
 
-## <a name="next-steps"></a>次の手順
+> [!TIP]
+> [Teams 向け Microsoft Learn](/learn/teams/) で利用可能な学習パスやモジュールについて確認してください。 [Teams 管理センター](https://docs.microsoft.com/learn/modules/m365-teams-navigate-admin-portal/)のツアーに参加したり、[Teams 用にネットワークを構成する](/learn/modules/m365-teams-connectivity/)方法を学んだり、[ユーザーを Teams に最適にオンボードする](/learn/modules/m365-teams-onboard-users/)方法についてのアイデアを入手したりできます。
 
-[最初のチームとチャネルを作成する](get-started-with-teams-create-your-first-teams-and-channels.md)
+以下の手順を使用して、いくつかのチームを設定し、Teams に慣れるために数名のアーリー アダプターをオンボードします。
 
-詳細については、対話型の「[Teams 導入ガイド](https://aka.ms/teamstoolkit)」を参照してください。
+- ステップ 1: [最初のチームとチャネルを作成する](get-started-with-teams-create-your-first-teams-and-channels.md)
+- ステップ 2: [早期導入者を参加させる](get-started-with-teams-onboard-early-adopters.md)
+- ステップ 3: [利用状況とフィードバックを監視する](get-started-with-teams-monitor-usage-and-feedback.md)
+- ステップ 4: [組織全体での展開を開始する](get-started-with-teams-resources-for-org-wide-rollout.md)
+
+## <a name="upgrade-or-migrate-from-skype-for-business"></a>Skype for Business からアップグレードまたは移行する
+
+Skype for Business (オンラインまたはオンプレミス) から Teams に参加している場合や、ハイブリッド構成が必要な場合は、上記の「推奨される経路」に従って Teams を展開する必要がありますが、最初に追加の計画を立てる必要があります。 まず、次の表のガイダンスを確認します。これらは組織のプロファイルに適用されます。
+
+|  |組織のプロファイル|ガイダンス  |
+|---------|---------|---------|
+|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|現在 Skype for Business Online を使用しており、Teams に移行する準備が整っている。 |「[Teams へのアップグレード](upgrade-start-here.md)」に移動します。        |
+|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|組織で Skype for Business Server を実行しており、Teams の展開を希望している。 |本格的に Teams を展開するには、まず、オンプレミス環境と Microsoft 365 とのあいだでハイブリッド接続を構成する必要があります。「[Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を計画する](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity)」を読むことから始めてください。<br><br>「[Teams へのアップグレード](upgrade-start-here.md)」も参照してください。   |
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Skype for Business Server はないが、オンプレミスの PSTN ソリューションは所有している。Teams の展開は希望するが、オンプレミスの PSTN ソリューションも維持したい。 |上記の「[推奨される経路](#recommended-path-to-teams)」に従って、Teams を展開します。<br><br>次に、「[ダイレクト ルーティングを計画する](direct-routing-plan.md)」を読んで、電話システムのダイレクト ルーティングを使用してオンプレミスの PSTN ソリューションと Teams を接続する方法を確認してください。|
