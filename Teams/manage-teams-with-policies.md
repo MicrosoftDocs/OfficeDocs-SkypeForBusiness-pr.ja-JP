@@ -1,5 +1,5 @@
 ---
-title: ポリシーを使用してチームを管理する
+title: ポリシーを使用して Teams を管理する
 author: karlistites
 ms.author: kastites
 manager: serdars
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad39b24ee177e8e8282c6ad948b69fbdf866aa56
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 368e71820100ba8cfccb28eef63864f47cd8ce85
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347687"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421302"
 ---
-# <a name="manage-teams-with-policies"></a>ポリシーを使用してチームを管理する
+# <a name="manage-teams-with-policies"></a>ポリシーを使用して Teams を管理する
 
 ポリシーは、Teams 管理の重要な部分です。 この記事では、ポリシーを使用して組織に利益をもたらす方法について説明します。
 

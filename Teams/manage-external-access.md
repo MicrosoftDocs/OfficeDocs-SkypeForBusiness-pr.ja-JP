@@ -21,19 +21,16 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: b5d8bb969725507eec54a66c7ccb20b6eb54ec68
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: ae9a198de7fa15ac77743b2477a44602e54fecb7
+ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055749"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "50421332"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 
 外部アクセスは、外部ドメイン全体の Teams ユーザーが Teams で自分と会議を検索、通話、チャット、設定するための方法です。 また、外部アクセスを使用して、Skype for Business (オンラインおよびオンプレミス) および Skype (プレビュー) をまだ使用している他の組織のユーザーと通信できます。
-
-> [!NOTE]
-> 許可されたドメインまたはブロックされたドメインは、会議への匿名アクセスが "オフ" の場合にのみ適用されます。
 
 他の組織のユーザーにチームやチャネルへのアクセスを許可する場合は、ゲスト アクセスの方が良い方法である可能性があります。 外部アクセスとゲスト アクセスの違いの詳細については、「[外部アクセスとゲスト アクセスの比較](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)」を参照してください。 
 
@@ -46,11 +43,14 @@ ms.locfileid: "50055749"
 - ユーザーのメール アドレスを使用して、世界中の Teams のユーザーは誰でもそのユーザーを検索して連絡を取れるようにする場合。 
 
 > [!IMPORTANT]
-> Teams クライアントを使用して外部ユーザーと通信するには (そのユーザーが Teams または Skype for Business を使用している場合でも)、Teams ユーザーは Skype for Business Online に保存されている必要があります。
+> Teams クライアントを使用して外部ユーザーと通信するには (そのユーザーが Teams または Skype for Business を使用している場合も)、Teams ユーザーは Skype for Business Online に保存されている必要があります。
 
 ## <a name="plan-for-external-access"></a>外部アクセスの計画
 
 Teams では既定で外部アクセスが有効になっています。つまり、組織はすべての外部ドメインと通信できます。 禁止ドメインを追加すると、他のすべてのドメインが許可され、許可ドメインを追加すると、他のすべてのドメインが禁止されます。 このルールの例外は、匿名参加者が会議で許可されている場合です。 Teams 管理センターで外部アクセスを設定するには、次の 3 つのシナリオがあります (**[組織全体の設定]**  >  **[外部アクセス]**)。
+
+> [!NOTE]
+> 組織で外部アクセスをオフにした場合でも、外部ユーザーは匿名参加を通じて会議に参加できます。 詳細については、「[Teams での会議設定を管理する](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)」を参照してください。
 
 - **開いているフェデレーション**: これは Teams の既定の設定です。組織内のユーザーが任意のドメインの組織外ユーザーとの会議の検索、呼び出し、チャット、設定を行えるようにします。
 
@@ -61,7 +61,7 @@ Teams では既定で外部アクセスが有効になっています。つま�
 - **特定のドメインを禁止する** - **[禁止]** リストにドメインを追加すると、禁止したもの *以外の* すべての外部ドメインと通信することができます。 特定のドメインを禁止するには、**[ドメインの追加]** をクリックし、ドメイン名を追加します。その後、**[このドメインで実行するアクション]** をクリックし、**[禁止]** を選択します。 禁止ドメインのリストを設定すると、他のすべてのドメインが許可されます。
 
 > [!NOTE]
-> 組織で外部アクセスをオフにした場合でも、外部ユーザーは匿名参加を通じて会議に参加できます。 詳細については、「[Teams での会議設定を管理する](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)」を参照してください。
+> 許可されたドメインまたはブロックされたドメインは、会議への匿名アクセスが "オフ" の場合にのみ適用されます。
 
 ## <a name="allow-or-block-domains"></a>ドメインの許可または禁止
 
@@ -126,7 +126,7 @@ Teams ユーザーと Skype ユーザーが通信できるようにする方法�
 
 |**組織が** |**次のようにフェデレーションを有効にする**  |
 |:---------|:-----------------------|
-|オンプレミスの Skype for Business がないオンライン。 これには、TeamsOnly ユーザーまたは Skype for Business Online ユーザーを持つ組織が含まれます。| Teams 管理センターを使用している場合: <br>- ユーザーが他の Skype for Business ユーザーと通信可能であり **、Teams** のユーザー設定が外部アクセスで有効になっているか確認します。<br>- オープン フェデレーション (他のドメインとのフェデレーションを許可する) を使用していない場合は、許可リストに外部ドメインを追加します。<br><br>PowerShell を使用している場合:<br>- テナントがフェデレーションに対して有効になっている必要があります `Get-CsTenantFederationConfiguration` `AllowFederatedUsers=true` 。 <br>- ユーザーの有効な価値が `CsExternalAccessPolicy` . `EnableFederationAccess=true`<br>- オープン フェデレーションを使用していない場合は、ターゲット ドメインが `AllowedDomains` `CsTenantFederationConfiguration` |
+|オンプレミスの Skype for Business がないオンライン。 これには、TeamsOnly ユーザーまたは Skype for Business Online ユーザーを持つ組織が含まれます。| Teams 管理センターを使用している場合: <br>- ユーザーが他の Skype for Business ユーザーと通信可能であり **、Teams** のユーザー設定が外部アクセスで有効になっているか確認します。<br>- オープン フェデレーション (他のドメインとのフェデレーションを許可する) を使用していない場合は、許可リストに外部ドメインを追加します。<br><br>PowerShell を使用している場合:<br>- テナントがフェデレーションに対して有効になっている必要があります `Get-CsTenantFederationConfiguration` `AllowFederatedUsers=true` 。 <br>- ユーザーの有効な値が `CsExternalAccessPolicy` . `EnableFederationAccess=true`<br>- オープン フェデレーションを使用していない場合は、ターゲット ドメインが `AllowedDomains` `CsTenantFederationConfiguration` |
 |純粋なオンプレミス | オンプレミス ツールの場合: <br>- フェデレーションが有効になっているか確認します `CsAccessEdgeConfiguration` 。<br>- (グローバル ポリシー、サイト ポリシー、またはユーザーに割り当てられたポリシーを通じて) ユーザーのフェデレーション `ExternalAccessPolicy` が有効になっているか確認します。 <br> - オープン フェデレーションを使用していない場合は、ターゲット ドメインがリストに表示されるのを確認します `AllowedDomains` 。 |
 |オンラインの一部のユーザー (Skype for Business または Teams) とオンプレミスの一部のユーザーとのハイブリッド。 | オンライン組織とオンプレミス組織の両方について、上記の手順に従います。 |
 
@@ -137,22 +137,22 @@ Teams ユーザーと Skype ユーザーが通信できるようにする方法�
 |**必要な場合は、** |**次の操作を行います。**  |
 |:---------|:-----------------------|
 | 着信フェデレーション チャットと通話がユーザーの Teams クライアントに到着します。 | ユーザーを TeamsOnly に構成します。
-| 着信フェデレーション チャットと通話がユーザーの Skype for Business クライアントで受信されるのを確認する | TeamsOnly 以外のモードでユーザーを構成します。 |
+| 着信フェデレーション チャットと通話がユーザーの Skype for Business クライアントに到着する | TeamsOnly 以外のモードでユーザーを構成します。 |
 
 
 ### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>組織内のユーザーと Skype のコンシューマー ユーザー間のフェデレーションを有効にする
 
-組織内のユーザーと Skype のコンシューマー ユーザー間のフェデレーションを有効にするには:
+組織内のユーザーと Skype のコンシューマー ユーザー間のフェデレーションを有効にするには、次の方法を使用します。
 
 |**組織が** |**次のようにコンシューマー フェデレーションを有効にする**  |
 |:---------|:-----------------------|
-| オンプレミスの Skype for Business がない純粋なオンライン。  これには、TeamsOnly ユーザーまたは Skype for Business Online ユーザーを持つ組織が含まれます。 | Teams 管理センターを使用している場合: <br>-外部アクセス **でユーザーが Skype ユーザーと通信** 可能になっているか確認します。<br><br>PowerShell を使用している場合: <br>-テナントがフェデレーションに対して有効になっている必要があります `Get-CsTenantFederationConfiguration` `AllowPublicUsers=true` 。 <br> - ユーザーの有効な価値が `CsExternalAccessPolicy` . `EnablePublicCloudAccess=true` |
+| オンプレミスの Skype for Business を使用した純粋なオンライン。  これには、TeamsOnly ユーザーまたは Skype for Business Online ユーザーを持つ組織が含まれます。 | Teams 管理センターを使用している場合: <br>-外部アクセス **でユーザーが Skype ユーザーと通信** 可能になっているか確認します。<br><br>PowerShell を使用している場合: <br>-テナントがフェデレーションに対して有効になっている必要があります `Get-CsTenantFederationConfiguration` `AllowPublicUsers=true` 。 <br> - ユーザーの有効な値が `CsExternalAccessPolicy` . `EnablePublicCloudAccess=true` |
 | 純粋なオンプレミス | オンプレミス ツールの場合: <br> - Skype がフェデレーション パートナーとして有効に設定されています。 <br> - (グローバル ポリシー、サイト ポリシー、またはユーザー割り当てポリシーを使用して) ユーザー `EnablePublicCloudAccess=true` `ExternalAccessPolicy` を確認します。|
 | オンラインの一部のユーザー (Skype for Business または Teams) とオンプレミスの一部のユーザーとのハイブリッド。| オンライン組織とオンプレミス組織の両方について、上記の手順に従います。
 
 
 > [!IMPORTANT]
-> Teams または Skype for Business Online ユーザーが組織内外の Skype ユーザーと通信できるようにする際、**Skype ドメイン** を許可ドメインとして追加する必要はありません。 すべての **Skype ドメイン** が許可されます。
+> Teams または Skype for Business Online ユーザーが組織内外の Skype ユーザーと通信できるようにする際、**Skype ドメイン** を許可ドメインとして追加する必要はありません。 すべての **Skype ドメインが** 許可されます。
 
 ## <a name="how-does-external-access-compare-with-guest-access"></a>ゲスト アクセスと比べて外部アクセスはどう違うのか
 
