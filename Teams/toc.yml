@@ -181,32 +181,22 @@ items:
             href: upgrade-to-Teams-execute-SkypeforBusinessOnline.md
           - name: Skype for Business オンプレミスから Teams にアップグレードする
             href: upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md
+          - name: アップグレード戦略
+            href: upgrade-to-teams-on-prem-implement.md
       - name: 運用、導入、および最適化
         href: continue-journey.md
       - name: Skype for Business Online のサポート終了
         href: skype-for-business-online-retirement.md
       - name: よくあるご質問 (FAQ)
         href: FAQ-journey.yml
-      - name: テクニカル ライブラリ
+      - name: 参照
         items:
-          - name: IT 管​​理者向けのアップグレード ガイダンス
-            items:
-              - name: 概要
-                href: upgrade-to-teams-on-prem-overview.md
-              - name: アップグレード方法
-                href: upgrade-to-teams-on-prem-upgrade-methods.md
-              - name: アップグレードの管理ツール
-                href: upgrade-to-teams-on-prem-tools.md
-              - name: Skype for Business オンプレミスを使用している組織に関する考慮事項
-                href: upgrade-to-teams-on-prem-considerations.md
-              - name: アップグレードを実装する
-                href: upgrade-to-teams-on-prem-implement.md
-              - name: Teams と Skype for Business の共存
-                href: upgrade-to-teams-on-prem-coexistence.md
-              - name: 共存モード - リファレンス
-                href: migration-interop-guidance-for-teams-with-skype.md
-              - name: Teams のクライアント エクスペリエンスおよび共存モードへの準拠
-                href: teams-client-experience-and-conformance-to-coexistence-modes.md
+          - name: アップグレードの管理ツール
+            href: upgrade-to-teams-on-prem-tools.md
+          - name: 共存モード - リファレンス
+            href: migration-interop-guidance-for-teams-with-skype.md
+          - name: Teams のクライアント エクスペリエンスおよび共存モードへの準拠
+            href: teams-client-experience-and-conformance-to-coexistence-modes.md
           - name: 共存およびアップグレードの設定
             href: setting-your-coexistence-and-upgrade-settings.md
           - name: Meetings First
