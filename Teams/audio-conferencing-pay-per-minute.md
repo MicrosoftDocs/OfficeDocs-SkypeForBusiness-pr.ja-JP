@@ -22,67 +22,67 @@ f1.keywords:
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
-description: Microsoft ボリュームライセンスを使用する組織で電話会議機能を有効にするための [分単位の支払い] オプションについて説明します。
-ms.openlocfilehash: 858b0f34075e2aa81e4c34794c96f37a2d5c9d36
-ms.sourcegitcommit: d1e4e1105d86745009cf0fdf42d1fc5ad545a952
+description: Microsoft ボリューム ライセンスを使用している組織で電話会議機能を有効にする分単位支払いオプションについて説明します。
+ms.openlocfilehash: 846c169206a96c4587ecee5bbb55215dd9dc4081
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "46788681"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460677"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
-標準の電話会議に加えて、ユーザーごとのライセンス、ボリューム、ライセンスなどの組織で電話会議機能を有効にすることもできます。
+ボリューム およびライセンスの組織では、標準的な電話会議のユーザーごとのライセンスに加えて、分単位支払いサービスを選択して、組織の電話会議機能を有効にできます。
   
 
-電話会議の [国/地域がサポートされて](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) いるかどうかを確認できます。
+お客様の国/地域 [が電話会議](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) でサポートされていないか確認できます。
 
   
 > [!NOTE]
-> この特典はボリュームとライセンスのお客様のみが利用できるため、これらのライセンスを取得するには、アカウントの担当者と協力して行う必要があります。 
+> このオファーはボリューム ライセンスのお客様しか利用できないので、これらのライセンスを取得するには、アカウントの担当者と連絡を取る必要があります。 
   
-## <a name="need-some-details"></a>詳細情報が必要ですか?
+## <a name="need-some-details"></a>詳細が必要な場合
 
-電話会議のユーザーごとの電話会議には、ダイヤルインの利用状況が含まれています。また、ダイヤルアウトの使用状況によっては、電話会議の1分あたりの料金で支払いを行うことができます。 **ユーザーごとの月間ライセンスを購入**する必要はありません。 これにより、すべてのダイヤルインおよびダイヤルアウト通話は、次のような分単位で課金されます。
+電話会議のユーザーごとのライセンス プランにはダイヤルインの使用状況と一部のダイヤルアウトの使用状況が含まれますが、電話会議の分単位支払いでは、ユーザーごとの月次ライセンスの支払いを行わずに、分単位ですべての電話会議の使用状況を支払う必要があります。 これにより、すべてのダイヤルイン通話とダイヤルアウト通話が分単位で請求されます。これには次の情報が含まれる必要があります。
   
 - 組織の有料電話会議番号への着信通話。
     
 - 組織の無料電話会議番号への着信通話。
     
-- 組織の会議内から外部電話番号への発信通話。
+- 組織の会議内から外部の電話番号に発信通話を発信します。
     
 > [!NOTE]
-> この種の通話に関連付けられているダイヤルインとダイヤルアウトの料金は、「電話[会議](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)の**発信先の料金を確認する」** で確認できます。
+> これらの種類の通話に関連付けられているダイヤルインとダイヤルアウトの料金を確認するには、[電話会議]の [通話先の料金を確認する] セクション[を確認します](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)。
   
-1分あたりの支払いには、組織が [通信クレジット](what-are-communications-credits.md) を設定する必要があります。 また、電話会議を使用するには、1分あたりのライセンスと通信クレジットライセンスの両方を各ユーザーに割り当てる必要があります。 詳細については、「組織または[Microsoft Teams のアドオンライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)[の通信クレジットをセットアップ](set-up-communications-credits-for-your-organization.md)する」を参照してください。
+分単位支払いを行うには、組織でコミュニケーション クレジット [を設定する](what-are-communications-credits.md) 必要があります。 また、電話会議を機能するには、分単位支払いライセンスと通信クレジットライセンスの両方を各ユーザーに割り当てる必要があります。 詳細については、組織および Microsoft [](set-up-communications-credits-for-your-organization.md) Teams アドオン ライセンスのコミュニケーション クレジットの[セットアップに関するページを参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
   
-組織内のユーザーに対して電話会議を1分あたりに有効にするには、「 [Microsoft office 365 または office 365 で電話会議を試す](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)、または購入する」を参照してください。
+組織内のユーザーに対して電話会議の分単位支払いを有効にするには [、「Microsoft Office 365 または Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)の電話会議を試用または購入する」を参照してください。
 
-## <a name="why-is-it-best-for-you"></a>最適な理由は何ですか?
+## <a name="why-is-it-best-for-you"></a>最適な理由
 
-- 1分あたりの支払いは、モバイルデバイスや PC で Skype for Business または Teams アプリケーションを使用する代わりに、スケジュールされた会議中に各出席者が指定した通話または通話の発信または着信について、1分あたりの料金で課金されます (料金は無料です)。
+- 分単位の支払いは、モバイル デバイスや PC で Skype for Business または Teams アプリケーションを使用する代わりに、スケジュールされた会議中に各出席者が発信または着信通話を行うごとに分単位で課金されます (料金は有料通話または無料通話および発信先によって異なります)。
 
-- 管理者は、開催者の会議から実行できるダイヤルアウトの種類 (国際および国内) を制限することができます。そのため、コストを管理する機能を備えています。 電話[会議とユーザー PSTN 通話の発信通話制限ポリシーを](/microsoftteams/outbound-calling-restriction-policies)参照してください。
+- 管理者は開催者の会議から実行できるダイヤルアウトの種類 (国際および国内) を制限するために制御できるので、コストを管理する機能。 電話 [会議とユーザー PSTN 通話の発信通話制限ポリシーを参照してください。](/microsoftteams/outbound-calling-restriction-policies)
 
 - 分数ごと従量課金制電話会議のライセンスがあれば、電話会議の使用率 (他のサービスを割り当てる必要がある可能性があります) の各ユーザーに個別にコミュニケーション クレジットのライセンスを割り当てる必要はありません。
 
-- 通信クレジットを使用して、分単位の料金を管理および監視します。
+- 通信クレジットを使用して、分単位支払い料金を制御および監視します。
 
-- サブスクリプションベースですべてのユーザーを必要としないお客様には、より柔軟な料金が提供されます。 
+- サブスクリプションベースですべてのユーザーを必要としないお客様向け価格の柔軟性を高めます。 
 
-- 1分あたりの電話会議を有効にする E5 または単独の電話会議の月額プランを使用して、両方のサービスを引き続き同じ方法で使用できます。 変更しても、電話会議または通信クレジットの操作に影響はありません。
+- 電話会議の 1 分単位支払いを、E5 の月次サブスクリプションまたはスタンドアロンの電話会議サブスクリプションと共に有効にすることで、両方のサービスは引き続き同じように動作します。 変更は、電話会議または通信クレジットの操作には影響しません。
   
-## <a name="want-to-find-out-more-about-pricing"></a>価格設定の詳細については、こちらを参照してください。
+## <a name="want-to-find-out-more-about-pricing"></a>価格の詳細については、次のリンクを参照してください。
 
- **価格を見る** 次の内容を参照してください。
+ **価格を見る** 次を参照してください。
   
-- [電話会議の価格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)
+- [電話会議の価格](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
     
-- [電話システムの価格](https://products.office.com/skype-for-business/phone-system#Requirements)
+- [電話システムの価格](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
     
-- [通話プランの価格](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)
+- [通話プランの価格](https://go.microsoft.com/fwlink/?linkid=799763)
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
   
 [Microsoft Teams アドオン ライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
   

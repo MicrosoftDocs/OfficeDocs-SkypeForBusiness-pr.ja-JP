@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ''
+description: Teams のポリシーについて説明します。
 audience: admin
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 368e71820100ba8cfccb28eef63864f47cd8ce85
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421302"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460497"
 ---
 # <a name="manage-teams-with-policies"></a>ポリシーを使用して Teams を管理する
 
@@ -72,5 +72,6 @@ ms.locfileid: "50421302"
 
 * [Microsoft Teams でフィードバック ポリシーを管理する](manage-feedback-policies-in-teams.md)
 * [Microsoft Teams でチーム ポリシーを管理する](teams-policies.md)
+* [アクティビティ ログでポリシー割り当てを表示する](activity-log.md)
 * [Microsoft Teams でのライブ イベントのセットアップ](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams for Education ポリシーとポリシー パッケージ](policy-packages-edu.md)

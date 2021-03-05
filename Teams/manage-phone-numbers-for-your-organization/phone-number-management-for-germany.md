@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 次の表は、Microsoft Teams のドイツでの電話番号の取得と管理に関する情報を示しています。
-ms.openlocfilehash: 9c89cf7642f1c422b1cfe7f032caaa19c7acc05d
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: d033d0089a1656819288ac5f3c18c7d93882eacb
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196951"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460877"
 ---
 # <a name="phone-number-management-for-germany"></a>ドイツでの電話番号の管理
 
@@ -36,12 +36,12 @@ ms.locfileid: "50196951"
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
 |Microsoft Teams 管理センターに表示されていない新しいユーザーまたはサービスの電話番号を取得します。  <br/> | ドイツでは、Microsoft Teams 管理センターを使用して組織の電話番号を取得できない。 新しい電話番号の申請を送信する必要があります。 <br/><br/>これらのフォームのいずれかをダウンロードします。 <br/>[ドイツ (v.5.0) (de-de) の新しい電話番号要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf?raw=true) <br/>  [ドイツ (v.5.0) の新しい電話番号の要求 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
-|電話番号を転送します。  <br/> | これらのフォームのいずれかをダウンロードします。 <br/><br/> ユーザーの電話番号の場合:<br/>[ドイツの承認状 (LOA) (地理的な番号) (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf?raw=true)<br/><br/>  無料電話番号の場合:<br/>[ドイツの承認状 (LOA) (フリーダイヤル番号) (v.5.0) (de-de)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de).pdf?raw=true) <br/><br/> 記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
+|電話番号を転送します。  <br/> | これらのフォームのいずれかをダウンロードします。 <br/><br/> ユーザーの電話番号の場合:<br/>[ドイツの承認状 (LOA) (地理的な番号) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  無料電話番号の場合:<br/>[ドイツの承認状 (LOA) (フリーダイヤル番号) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> 記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。  <br/> |
 |国内の電話番号ディレクトリに電話番号を公開または公開を取り消します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

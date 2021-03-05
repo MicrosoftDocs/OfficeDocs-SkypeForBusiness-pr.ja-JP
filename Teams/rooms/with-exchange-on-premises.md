@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: このトピックでは、オンプレミスの Exchange が搭載されたハイブリッド環境に Microsoft Teams Rooms を展開する方法について説明します。
-ms.openlocfilehash: f9f80f5b993b9be95e35c8178d996973558e2512
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662322"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460517"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>オンプレミスで Exchange を使用し Microsoft Teams Rooms を展開する
 
@@ -89,7 +89,7 @@ Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、�
 
    - DeleteComments: $false (受信した会議出席依頼のメッセージ本文内のテキストを保持します。)
 
-   - DeleteSubject: $false (受信した会議出席依頼の件名を保存します。)
+   - DeleteSubject: $false (受信した会議出席依頼の件名を保持します。)
 
    - RemovePrivateProperty: $false (開催者が送信した元の会議出席依頼のプライベート フラグを指定された値のままにしておきます。)
 
@@ -118,7 +118,7 @@ Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、�
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ``` -->
 
-3. 次に、以下の `Set-MsolUserLicense`を使用してライセンスを追加することができます。 <!-- Set-AzureADUserLicense --> コマンドレットです。 この例では、表示される SKU コードは$strLicenseです (たとえば、contoso: STANDARDPACK )。
+3. 次に、以下の `Set-MsolUserLicense`を使用してライセンスを追加することができます。 <!-- Set-AzureADUserLicense --> することができます。 この例では、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。
 
   ``` PowerShell
   Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
@@ -140,9 +140,9 @@ Skype for Business Online PowerShell は、Microsoft Teams および Skype for B
 
 1. PC からリモートの Windows PowerShell セッションを作成するには、次のようにします。
 > [!NOTE]
-> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールの一部です。
+> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
 >
-> 最新の [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリースを使用している場合は、Skype for Business Online Connector をインストールする必要があります。
+> 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)をご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
 
    ``` Powershell
    Import-Module -Name MicrosoftTeams  
@@ -159,7 +159,7 @@ Skype for Business Online PowerShell は、Microsoft Teams および Skype for B
 3. Microsoft Teams Rooms を使用するには、次のコマンドを実行します。
 
    ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
+   Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
    ```
 
    お使いの環境の RegistrarPool パラメーターに使用する値が定かでない場合は、次のコマンドを実行して既存のユーザーから値を取得できます。

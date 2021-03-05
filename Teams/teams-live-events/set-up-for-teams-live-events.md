@@ -14,17 +14,18 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 description: ネットワークのセットアップ、ライセンスの割り当て、ライブ イベント機能とスケジュールの有効化、ビデオ配信ソリューションなど、Teams でのライブ イベントのセットアップ。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 64a5bf471a79de73be3900e6b52fee38ebc12423
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 108c6ba6730751c9858a3c4a45c8060c231be4a1
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809167"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461007"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 

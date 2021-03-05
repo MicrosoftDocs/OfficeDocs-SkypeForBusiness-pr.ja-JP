@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- m365initiative-meetings-enabler
 - enabler-strategic
 description: 組織内に保持されている Teams のライブ イベントの設定を管理する方法について説明します。
 f1.keywords:
@@ -21,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c62b7ed2afcfdb9baa779c57f3fcf566295053b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0bcb5edea00066c861b2288791f3ff3e0ee58431
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831197"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461017"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -64,7 +65,7 @@ Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネ�
 1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 2. [**サード パーティ製ビデオ配信プロバイダー**] で次を実行します。 
 
-    ![管理センターのサードパーティビデオ配布プロバイダーの設定](../media/teams-live-events-settings-distribution-provider.png "ライブ イベントのサードパーティビデオ配信プロバイダーの設定のスクリーン ショット")
+    ![管理センターのサードパーティビデオ配信プロバイダーの設定](../media/teams-live-events-settings-distribution-provider.png "ライブ イベントのサードパーティビデオ配信プロバイダーの設定のスクリーン ショット")
 
     - **サード パーティ製配信プロバイダーを使用する** これを選択してサード パーティ製ビデオ配信プロバイダーを有効にします。
     - **SDN プロバイダー名** お使いのプロバイダーを選択します。
@@ -95,7 +96,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 >[!Note]
 > Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams のライブ イベントをセットアップする](set-up-for-teams-live-events.md)

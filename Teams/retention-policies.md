@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 66af968b066b1fa385674d828985606f05bd3d07
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: 9422fd2b47ac3d460ee10e8933c45964d78282c1
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401311"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460657"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Microsoft Teams のアイテム保持ポリシーを管理する
 
@@ -41,9 +41,11 @@ Microsoft 365 で他のワークロードのアイテム保持ポリシーまた
 
 Teams のアイテム保持ポリシーの最小ライセンス要件は、Microsoft 365 E3 です。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
-## <a name="how-teams-retention-policies-work"></a>Teams のアイテム保持ポリシーのしくみ
+## <a name="how-teams-retentiondeletion-policies-work"></a>Teams のアイテム保持/削除ポリシーの動作
 
-Teams のチャット メッセージは、チャットに含まれる各ユーザーのメールボックスの隠しフォルダーに保存され、Teams チャネル メッセージはチームのグループ メールボックス内の同様の隠しフォルダーに保存されます。 アイテム保持ポリシーの適用対象となるメッセージを保持するために、コンテンツのコピーは、Exchange の回復可能なアイテム フォルダーのサブフォルダーとして **、"FolderHolds"** という名前の非表示フォルダーに自動的に **保持** されます。 これらのメッセージが、電子情報開示ツールで検索可能なままになるまでは、そのメッセージは、HoldHolds フォルダーから完全に削除されます。
+Teams チャット メッセージは 2 つの場所に保存されます。 プライマリ コピーは Azure に保存され、コンパイル ポリシーに使用されるセカンダリ コピーは、チャットに含まれる各ユーザーの Exchange オンライン メールボックスの非表示フォルダーに保存され、Teams チャネル メッセージはチームのグループ メールボックス内の同様の非表示フォルダーに保存されます。 ユーザーまたはチームにチャット メッセージ削除ポリシーを適用すると、最初にセカンダリ コピーが削除され、その後にプライマリ コピーが削除されます。 電子情報開示または Teams の検索は、セカンダリ コピーに保存されているメッセージに基づくため、セカンダリ コピーが削除された場合、メッセージは検出できません。 
+
+チャット メッセージの保持ポアシーがユーザーまたはチームに適用されている場合、およびメッセージが削除された場合 (別の削除ポリシーまたはユーザー自身が削除された場合)、プライマリ コピーが削除されると、Teams クライアントはメッセージが消えますが、セカンダリ コピーは自動的に、Exchange の回復可能なアイテム フォルダーのサブフォルダーである **、SubfolderHolds** という名前の非表示のフォルダーに移動されます。  これらのメッセージが、電子情報開示ツールで検索可能なままになるまで、そのメッセージは、電子情報開示ツールで検索可能なままです。
 
 Teams アイテム保持ポリシーに含まれる内容と除外される内容、およびポリシーの構成に応じてこれらのポリシーがどのように動作するのかの詳細については [、「Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-teams)の保持について」を参照してください。
 
@@ -54,7 +56,7 @@ Teams アイテム保持ポリシーに含まれる内容と除外される内�
 - 同じコンテンツの保持と削除の間に競合がある場合、コンテンツは常に保持されます。
 - 同じコンテンツを保持する期間に競合がある場合、最長の保持期間は保持されます。
 
-これら 2 つの保持原則は、Teams に対して複数のアイテム保持ポリシーがある場合に発生する可能性があるほとんどの競合に対処しますが、詳細については、「保持の原則」または「優先順位」を参照 [してください。](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
+これら 2 つの保持原則は、Teams に複数のアイテム保持ポリシーがある場合に発生する可能性のあるほとんどの競合に対処しますが、詳細については、「保持の原則」または「優先されるルール」を参照してください [。](https://docs.microsoft.com/microsoft-365/compliance/retention#the-principles-of-retention-or-what-takes-precedence)
 
 ## <a name="when-to-use-retention-policies-for-teams"></a>Teams のアイテム保持ポリシーを使用すべき状況
 
@@ -88,7 +90,7 @@ Teams チャットおよびチャネル メッセージのアイテム保持ポ�
 > [!NOTE]
 > 削除されたメッセージの結果としてユーザーに表示されるメッセージは、現時点では構成できません。
 
-表示されるメッセージ内のリンクは、 [アイテム保持ポリシーに関する Teams メッセージに移動します](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。 エンド ユーザー向けこのドキュメントは、メッセージが削除された理由に関する基本的な質問に答えるのに役立ちます。 ただし、アイテム保持ポリシーの展開の一環として、構成した設定の影響をユーザーとヘルプ デスクに伝えます。
+表示されるメッセージ内のリンクは、 [アイテム保持ポリシーに関する Teams メッセージに移動します](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。 エンド ユーザー向けこのドキュメントは、メッセージが削除された理由に関する基本的な質問に答えるのに役立ちます。 ただし、アイテム保持ポリシーの展開の一環として、設定した設定の影響をユーザーとヘルプ デスクに伝えます。
 
 ## <a name="related-topics"></a>関連トピック
 

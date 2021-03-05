@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 430c64fed77412ca555048adf3cf5e323fa20856
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: adefa7a7ca948363f3d331c4500619e81bbc1ea8
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397592"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460607"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams と Skype for Business の共存と相互運用性を理解する
 
@@ -47,7 +47,7 @@ ms.locfileid: "50397592"
 
 ## <a name="coexistence-of-teams-and-skype-for-business-overview"></a>Teams と Skype for Business の共存の概要
 
-以下のセクションでは、Teams へのアップグレードを決定するときに使用できる共存モードと、各モードで提供される機能について説明します。 さらに、Skype-for-Business クライアント上のユーザーと Teams クライアント上のユーザー間で発生する相互運用性 (相互運用) と、選択した共存モードによる相互運用の影響について説明します。
+以下のセクションでは、Teams へのアップグレードを決定するときに使用できる共存モードと、各モードで提供される機能について説明します。 さらに、Skype-for-Business クライアントのユーザーと Teams クライアント上のユーザー間で発生する相互運用性 (相互運用) と、選択した共存モードによる相互運用の影響について説明します。
 
  Teams では、共同作業の機能だけでなく、チャット、通話、会議の機能を提供しています。 選択する Teams の展開方法によっては、これらの機能が、特定のユーザーに対して Skype for Business で提供される機能と重複する場合があります。 既定のモードでは、Teams は Skype for Business と並列に、機能が重複して実行されます。 ただし、ユーザーにはいくつかある共存モード (アップグレード モードとも呼ばます) のいずれかを割り当てることができます。共存モードは、モードが割り当てられたユーザーに対して機能が重複しないよう作られており、その場合には Teams と Skype for Business の相互運用性を利用できます。 たとえば、複雑なエンタープライズ VoIP の展開と共に、多くの Skype for Business Server のオンプレミスの資産を持っているものの、ユーザーが最新の会議をできるだけ早く利用できるようにしたい場合には、代替パスとして [Meetings First](meetings-first.md) を評価することができます。
 
@@ -236,12 +236,10 @@ Teams 会議へのこのエスカレーションは、テナント内の相互�
 
 - [会議](#meetings)
 - [相互運用性](#interoperability)
-- [Teams の会話スレッドとネイティブ スレッドの相互運用](#teams-conversations---interop-versus-native-threads)
+- [相互運用とネイティブ会話スレッド](#interop-versus-native-conversation-threads)
 - [プレゼンス](#presence)
 - [フェデレーション](#federation)
 - [連絡先](#contacts)
-
-
 
 ### <a name="meetings"></a>会議
 
@@ -257,7 +255,7 @@ Teams 会議へのこのエスカレーションは、テナント内の相互�
 | :------------------ | :---------------- |
 | TeamsOnly、SfbWithTeamsCollabAndMeetings |    すべての会議が Teams でスケジュールされます。 Skype for Business アドインは Outlook では使用できません。 | 
 | SfbWithTeamsCollab、SfbOnly   | すべての会議が Skype for Business でスケジュールされます。 Teams アドインは Outlook では使用できません。 | 
-| アイランド | 既定では、会議は Skype for Business または Teams でスケジュールできます。 両方のアドインを Outlook で使用できます。 ただし、オプションで、Islands のユーザーに PreferredMeetingProviderForIslandsMode=Teams を使用する TeamsMeetingPolicy のインスタンスを割り当てると、Teams で常に会議をスケジュールする必要があります。| 
+| アイランド | 既定では、会議は Skype for Business または Teams でスケジュールできます。 両方のアドインを Outlook で使用できます。 ただし、オプションで、Islands のユーザーに PreferredMeetingProviderForIslandsMode=Teams を使用する TeamsMeetingPolicy のインスタンスを割り当て、Teams で常に会議をスケジュールする必要があります。| 
 
 
 ### <a name="interoperability"></a>相互運用性
@@ -278,7 +276,7 @@ Teams 会議へのこのエスカレーションは、テナント内の相互�
 
 - Skype for Business ユーザーが 2018 以降のクライアントを使用していて、任意のコンテンツを共有しようとすると、オンデマンドの Skype for Business 会議が自動的に作成され、Teams ユーザーのクライアントにその会議への招待リンクが送信されます。 リンクをクリックすると、Teams ユーザーがその Skype for Business 会議に参加するための試行が実行されます。 その Teams ユーザーが Skype for Business クライアントをインストール済みの場合は、そのクライアントが開き、ユーザーはログインするように求められます (ログインしていない場合)。  その Teams ユーザーが Skype for Business クライアントをインストールしていない場合は、Web バージョンを使用するように求められます。 両方のユーザーがログインすると、どちらも Skype for Business 会議に参加している形になり、必要に応じて共有を行なえます。
 
-### <a name="teams-conversation-threads---interop-versus-native-threads"></a>Teams の会話スレッド - 相互運用とネイティブ スレッド
+### <a name="interop-versus-native-conversation-threads"></a>相互運用とネイティブ会話スレッド
 
 相互運用通信はネイティブな Teams の会話の一部の機能をサポートしていないため、Teams クライアントは、"Teams から Teams" の通信と "Teams から Skype for Business" の通信の会話スレッドを別個に維持します。 これらの会話は、ユーザー インターフェイスに異なる方法で表示されます。相互運用スレッドは、通常のネイティブな Teams スレッドと次の点で区別できます。
 
@@ -322,13 +320,13 @@ Skype for Business を使用している他のユーザーへの Teams からの
 - Teams から開始されたチャットと通話は、受信者が同じテナントにいる場合、Teams に配信されます。
 - Skype for Business から開始されたチャットと通話は常に、Skype for Business に配信されます。
 
-フェデレーション チャットには、ネイティブ スレッドまたは相互運用スレッドを使用できます。 [Teams の会話と---対ネイティブ スレッドを参照してください](#teams-conversations---interop-versus-native-threads)。
+フェデレーション チャットには、ネイティブ スレッドまたは相互運用スレッドを使用できます。 「 [相互運用とネイティブ会話スレッド」を参照してください](#interop-versus-native-conversation-threads)。
 
-- 受信者と送信者の両方が TeamsOnly アップグレード モードの場合、会話はネイティブ チャットエクスペリエンスになります。これには、すべてのリッチ メッセージング機能と通話機能が含まれます。 詳細については、Teams の外部 (フェデレーション) ユーザーのネイティブ [チャット エクスペリエンスを参照してください](native-chat-for-external-users.md)。 
+- 受信者と送信者の両方が TeamsOnly アップグレード モードの場合、会話はネイティブ チャットエクスペリエンスになります。これには、すべてのリッチ メッセージングと通話機能が含まれます。 詳細については、Teams の外部 (フェデレーション) ユーザーのネイティブ [チャット エクスペリエンスを参照してください](native-chat-for-external-users.md)。 
 
 - いずれかの会話の参加者が TeamsOnly アップグレード モードではない場合、会話はテキスト専用メッセージとの相互運用性を維持します。 ユーザー インターフェイスには、そのユーザーが外部ユーザーであることを示すメモがあることを除けば、同一テナントの相互運用スレッドと同様の方法でフェデレーション チャットが表示されます。
 
-詳細については [、「Microsoft Teams](manage-external-access.md) での外部アクセスの管理」および「Teams の外部 (フェデレーション) ユーザーのネイティブ チャット エクスペリエンス」 [を参照してください](native-chat-for-external-users.md)。
+詳細については [、「Microsoft Teams](manage-external-access.md) での外部アクセスの管理」および「Teams の外部 (フェデレーション) ユーザーのネイティブ チャット [エクスペリエンス」を参照してください](native-chat-for-external-users.md)。
 
 ### <a name="contacts"></a>連絡先
 

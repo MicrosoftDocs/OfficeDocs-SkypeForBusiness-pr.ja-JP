@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff5a13d6b31527138b71d2ad3b2387f827933eda
-ms.sourcegitcommit: 07afc959fec802db583e7111280d0035fdb6e412
-ms.translationtype: HT
+ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49616951"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460557"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -51,7 +51,8 @@ ms.locfileid: "49616951"
 || ![灰色枠の丸は、状態不明を示す](media/Presence_Unknown.png) 状態不明|
 || ![矢印付き紫色の丸、外出中を示す](media/Presence_OOF.png) 外出中。 自動応答が設定されている場合、外出中が使用されます。 (Outlook でのみ利用可能です。) |
 |||
-
+ > [!Note]
+ > メールボックスがオンプレムでホストされているユーザーの場合、プレゼンスの遅延時間は最大 1 時間と予想されます。
 アプリで構成されたプレゼンス状態は、ユーザーのアクティビティ (連絡可能、退席中)、Outlook カレンダーの状態 (会議中)、Teams アプリの状態 (通話中、発表中) などに基づいています。 カレンダーに基づいてフォーカス モードになっている場合、**フォーカ** スは Teams で表示される状態になります。 フォーカス モードは、他の製品では **応答不可** と表示されます。
 
 コンピューターをロックするか、コンピューターがアイドル モードまたはスリープ モードに入ると、現在のプレゼンス状態が [退席中] に変わります。 モバイル端末では、Teams アプリがバックグラウンドにあるときはいつでも、プレゼンス状態が [退席中] に変わります。
