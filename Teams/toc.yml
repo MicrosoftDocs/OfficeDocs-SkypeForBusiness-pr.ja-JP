@@ -315,16 +315,12 @@ items:
         href: enable-features-office-365.md
       - name: ポリシーを管理する
         items:
+          - name: 概要
+            href: manage-teams-with-policies.md
           - name: ユーザーにポリシーを割り当てる
             href: assign-policies.md
           - name: アクティビティ ログでポリシーの割り当てを表示する
             href: activity-log.md
-          - name: Teams のアプリのアクセス許可ポリシーを管理する
-            href: teams-app-permission-policies.md
-          - name: Teams のアプリのセットアップ ポリシーを管理する
-            href: teams-app-setup-policies.md
-          - name: Teams のカスタム アプリのポリシーと設定を管理する
-            href: teams-custom-app-policies-and-settings.md
           - name: Teams でフィードバック ポリシーを管理する
             href: manage-feedback-policies-in-teams.md
           - name: Teams でポリシー パッケージを管理する
@@ -773,6 +769,8 @@ items:
     items:
       - name: Teams の音声ソリューションを計画する
         href: cloud-voice-landing-page.md
+      - name: Teams で音声および通話のポリシーを管理する
+        href: voice-and-calling-policies.md
       - name: 電話システム
         items:
           - name: 電話システムとは
@@ -1273,7 +1271,9 @@ items:
         items:
           - name: 概要
             href: manage-apps.md
-          - name: Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
+          - name: Teams のアプリ ポリシーを管理する
+            href: app-policies.md
+          - name: アプリのアクセス許可を表示し、管理者の同意を与える
             href: app-permissions-admin-center.md
           - name: リソース固有の同意
             href: resource-specific-consent.md
@@ -1287,6 +1287,12 @@ items:
             href: Office-365-custom-connectors.md
           - name: 非標準ユーザーに対する Teams アプリの動作
             href: non-standard-users.md
+          - name: Teams のアプリのアクセス許可ポリシーを管理する
+            href: teams-app-permission-policies.md
+          - name: Teams のアプリのセットアップ ポリシーを管理する
+            href: teams-app-setup-policies.md
+          - name: Teams のカスタム アプリのポリシーと設定を管理する
+            href: teams-custom-app-policies-and-settings.md
   - name: 業界および政府機関向けのガイダンス
     items:
       - name: 概要
