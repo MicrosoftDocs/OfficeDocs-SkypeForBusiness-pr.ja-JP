@@ -19,18 +19,16 @@ localization_priority: Normal
 search.appverid: MET150
 description: 管理センターで Teams テンプレートを管理する方法について説明します。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9704fdb92689031d44fa692383c701ec47877fc6
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
+ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145884"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50507970"
 ---
 # <a name="create-and-manage-teams-templates-in-the-admin-center"></a>管理センターで Teams テンプレートを作成および管理する
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-管理センターでテンプレート ポリシーを作成して、エンド ユーザーに表示される Teams テンプレートを管理します。 各テンプレート ポリシー内で、表示または非表示のテンプレートを指定できます。
+エンド ユーザーに表示される Teams テンプレートを管理するには、管理センターでテンプレート ポリシーを作成します。 各テンプレート ポリシー内で、表示または非表示のテンプレートを指定できます。
 ユーザーが指定した Teams テンプレートのサブセットのみを表示するために、異なるユーザーを異なるテンプレート ポリシーに割り当てる。
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>テンプレート ポリシーを作成し、使用可能なテンプレートを割り当てる
@@ -59,7 +57,7 @@ ms.locfileid: "50145884"
 
 1. 再表示するテンプレートを選択し、[表示] を選択 **します**。
 
-   ![[非表示] が強調表示された選択したテンプレート](media/template-policies-3.png)
+   ![非表示ではない選択したテンプレート](media/template-policies-3.png)
 
    選択したテンプレートが表示可能なテンプレート **テーブルに表示** されます。
 3. **[保存]** を選択します。
@@ -74,7 +72,7 @@ ms.locfileid: "50145884"
 
 2. このポリシーに割り当てるユーザーを入力します。
 
-   ![[非表示] が強調表示された選択したテンプレート](media/template-policies-4.png)
+   ![テンプレート ポリシーにユーザーを割り当てる](media/template-policies-4.png)
 
 3. **[適用]** を選択します。
 
@@ -101,7 +99,7 @@ A: 新しいテンプレートは既定で表示されます。 管理センタ�
 
 **Q: テンプレートが削除された場合は、どうなるでしょうか。**
 
-A: 削除されたテンプレートは、テンプレート ポリシーに存在しなくなりました。
+A: 削除されたテンプレートは、テンプレート ポリシーに表示されなくなりました。
 
 **Q: Teams 管理センターで複数のユーザーをテンプレート ポリシーに割り当てできますか?**
 
@@ -121,17 +119,17 @@ A: 管理センターで、
 2. [ユーザー] リスト テーブルでフィルターを選択し、チーム テンプレート ポリシーのフィルターを適用します。
 3. **[適用]** を選択します。
 
-![[非表示] が強調表示された選択したテンプレート](media/template-policies-5.png)
+![選択したテンプレート ポリシーとユーザーの表示](media/template-policies-5.png)
 
 **Q: PowerShell でテンプレート ポリシーを管理できますか?**
 
-A: いいえ、これはサポートされていません。
+A: いいえ、PowerShell でのテンプレートの管理はサポートされていません。
 
 **Q: テンプレート ポリシーは EDU に適用されますか?**
 
-A: いいえ、これはサポートされていません。
+A: いいえ、EDU のテンプレート ポリシーはサポートされていません。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [管理センターでチーム テンプレートの使用を開始する](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
 
