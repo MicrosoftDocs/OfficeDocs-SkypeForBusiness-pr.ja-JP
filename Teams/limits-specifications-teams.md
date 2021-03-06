@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: daba993118348bbd4de2b1677e6a75cbce7c0ae9
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: dbab559da8062fa30fb1b42e632baabe2c50fc63
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196791"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50460447"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -36,14 +36,14 @@ ms.locfileid: "50196791"
 |-----------|---------------|
 |ユーザーが作成できるチームの数 | オブジェクト制限 250、&sup1;         |
 |ユーザーがメンバーの一員になることができるチームの数|1,000&sup2;|
-|チームのメンバーの数 | 10,000<sup>6</sup>     |
+|チームのメンバーの数 | 25,000<sup>6</sup>     |
 |チーム 1 つあたりの所有者数 | 100   |
 |テナントで許可されている組織全体のチームの数 | 5     |
 |[組織全体のチーム](create-an-org-wide-team.md)のメンバーの数 | 10,000       |
 |グローバル管理者を作成できるチームの数        |  500,000   |
 |Microsoft 365 または Office 365 組織が持てるチームの数    | 500,000&sup3;     |
-|チームごとのチャネル数    | 200 (削除されたチャネルを含む)&sup4;         |
-|チームごとのプライベート チャネル数    |30| (削除されたチャネルを含む)&sup4;
+|チームごとのチャネル数    | 200 (削除されたチャネルを含む)<sup>4</sup>        |
+|チームごとのプライベート チャネル数    |30 (削除されたチャネルを含む)<sup>4</sup>        |
 |プライベート チャネルのメンバー数    |250|
 |チームにインポートできる配布リスト、セキュリティ グループ、または Office 365 グループの最大サイズ    |3,500|
 |チームに変換できる Office 365 グループのメンバーの最大数    |10,000<sup>6</sup>     |
@@ -59,7 +59,7 @@ ms.locfileid: "50196791"
 
 <sup>5</sup> 28 KBは、メッセージ自体 （テキスト、画像リンクなど）、@メンション、コネクタの数、およびリアクションを含むため、おおよその制限です。
 
-<sup>6</sup> GCC の チーム は 5,000 人のメンバーしか収容できず、GCCH / DoD のチームは 2,500 人のメンバーしか収容できません。
+<sup>6</sup> GCC の チーム は 25,000 人のメンバーを収容できますが、GCCH / DoD のチームは 2,500 人のメンバーしか収容できません。 さらに、メンバー数が 10,000 人以上のチームでは、チーム/チャネルのメンションはブロックされます。
 
 ## <a name="messaging"></a>Messaging
 
