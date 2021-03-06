@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 外部アクセス (フェデレーション) とゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
-ms.openlocfilehash: e3524bfeb7e21e18d0d742c7208bbe307bdd16c8
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
+ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421322"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "50461047"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする
 
@@ -43,6 +43,9 @@ Teams、Skype for Business (オンラインまたはオンプレミス)、Skype 
 ![外部アクセス設定のスクリーンショット](media/external-access-federation-settings.png)
 
 外部アクセスを構成するには、「[外部アクセスの管理](manage-external-access.md)」を参照してください。 
+
+>[!NOTE]
+>Microsoft Teams の無料ライセンスでは、外部アクセスはサポートされていません。
 
 ## <a name="guest-access"></a>ゲスト アクセス
 
@@ -65,8 +68,8 @@ Teams のゲスト アクセスを構成する方法については、「[チー
 | 別の組織のユーザーが通話またはチャットできるかどうかを確認する | はい | はい<sup>1</sup> |
 | 別の組織内のユーザーを検索する | はい<sup>2</sup> | いいえ |
 | ファイルを共有する | いいえ | はい |
-| 不在メッセージを確認する | いいえ | はい |
-| 別の組織のユーザーをブロックする | いいえ | はい |
+| 別の組織のユーザーの不在メッセージを見る | いいえ | はい |
+| 別の組織のユーザーをブロックする  | いいえ | はい |
 | @メンションを使用する | はい<sup>3</sup> | はい |
 
 ### <a name="things-people-outside-your-organization-can-do"></a>組織外のユーザーが実行できる操作
