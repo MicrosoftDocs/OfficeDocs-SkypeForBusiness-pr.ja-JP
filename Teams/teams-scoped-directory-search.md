@@ -19,18 +19,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4f478bba8c396f0f20b95f69f56c2ded556224d
-ms.sourcegitcommit: 2300595db7779da7a127ae9ee16e474452df02d3
+ms.openlocfilehash: b1ba7de8cea23efc23f1eaa6c568d87b0d3ec750
+ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "49779931"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50558326"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams の範囲指定ディレクトリ検索を使用する
 
 Microsoft Teams の範囲指定ディレクトリ検索を使用すると、組織は、ユーザーが組織内の他のユーザーを見つけて通信する方法を制御する仮想境界を作成できます。 
 
-Microsoft Teams を使用すると、組織はディレクトリのカスタム ビューをユーザーに提供できます。 Microsoft Teams では [、Information Barrier ポリシーを使用して](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) 、これらのカスタム ビューをサポートします。 ポリシーを有効にすると、他のユーザーの検索によって返される結果 (チャットの開始やチームへのメンバーの追加など) は、構成されたポリシーに従って範囲指定されます。 範囲指定検索が有効な場合、ユーザーはチームを検索または検出できない。 
+Microsoft Teams を使用すると、組織はディレクトリのカスタム ビューをユーザーに提供できます。 Microsoft Teams では [、Information Barrier ポリシーを使用して](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) 、これらのカスタム ビューをサポートします。 ポリシーを有効にすると、他のユーザーの検索によって返される結果 (チャットの開始やチームへのメンバーの追加など) は、構成されたポリシーに従って範囲指定されます。 対象範囲検索が有効な場合、ユーザーはチームを検索または検出できますが、アクティブな Information Barrier ポリシーで許可されている方法で、これらのチームの既存のメンバーはユーザーを追加できます。
 
 > [!NOTE]
 > Exchange ハイブリッド環境では、この機能は Exchange Online メールボックスでのみ動作し、オンプレミスのメールボックスでは動作しません。
