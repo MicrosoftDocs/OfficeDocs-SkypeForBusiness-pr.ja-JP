@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: この記事では、Microsoft Teams パネルでサポートされる機能の概要と機能について説明します。
-ms.openlocfilehash: e22a49d4cba45507649ad5c15bbb626b77fe800a
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 913924e62483c1a8d44bfade29e5bc700f92b646
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460507"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568923"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams のパネル
 
@@ -82,7 +82,7 @@ Teams パネル デバイスの展開は、次のタスクに分けられます�
 
 Teams パネルの展開の範囲にある会議スペースの数に基づいて、Teams パネルの認定を受けたパートナーの 1 つからデバイス [を調達します](#partners-certified-for-teams-panels)。 デバイスと調達オプションの詳細については、パートナーの Web サイトを参照してください。
 
-組織の会議スペースには、デバイスをインストールまたはマウントする場合、ハードウェア要件が異なる場合があります。 たとえば、デバイスをガラス、ガラス、ドライ壁、または材木パネルに取り付ける際に必要なハードウェアが同じではない場合があります。 使用可能なマウント オプションについては、デバイス パートナーのドキュメントを参照してください。
+組織の会議スペースには、デバイスをインストールまたはマウントする場合、ハードウェア要件が異なる場合があります。 たとえば、デバイスをガラス、装飾、ドライ壁、または木パネルに取り付けるのに必要なハードウェアが同じではない場合があります。 使用可能なマウント オプションについては、デバイス パートナーのドキュメントを参照してください。
 
 ## <a name="site-readiness"></a>サイトの準備
 
@@ -125,11 +125,11 @@ Teams パネルに Microsoft 365 リソース アカウントを設定するに�
 
 ### <a name="testing"></a>テスト
 
-パネルを配置した後は、パネルをテストする必要があります。 Teams パネル [でサポートされる機能が、展開](#features-supported-by-teams-panels) されたデバイスで動作しているのを確認します。 コンピューター上の Teams または Outlook 365 を使用して、さまざまなタイム スロットに対して複数の会議を作成してみてください。 会議の詳細とスケジュールされた会議の空き時間情報がパネルに正しく表示されていることを確認します。 デバイスから直接 **利用可能** なミーティング スペースを予約できる場合は、[予約] ボタンを使用して確認してください。
+パネルを配置した後は、パネルをテストする必要があります。 Teams パネル [でサポートされる機能が、展開](#features-supported-by-teams-panels) されたデバイスで動作しているのを確認します。 コンピューター上の Teams または Outlook 365 を使用して、さまざまなタイム スロットに対して複数の会議を作成してみてください。 会議の詳細とスケジュールされた会議の空き時間情報がパネルに正しく表示されていることを確認します。 デバイスから直接 **使用可能** なミーティング スペースを予約できる場合は、[予約] ボタンを使用して確認してください。
 
 ## <a name="manage-teams-panels-in-your-organization"></a>組織内の Teams パネルを管理する
 
-Teams パネル デバイスを管理するには、Microsoft Teams 管理センターの左側のナビゲーションで、[デバイス Teams] パネル **に**  >  **移動します**。 ここから、デバイス構成プロファイルの変更、更新の管理、デバイスの再起動、デバイス タグの追加と削除を行えます。 詳細については、「Teams でデバイス [を管理する」を参照してください](device-management.md)。
+Teams パネル デバイスを管理するには、Microsoft Teams 管理センターの左側のナビゲーションで、[デバイス Teams] パネル  >  **に移動します**。 ここから、デバイス構成プロファイルの変更、更新の管理、デバイスの再起動、デバイス タグの追加と削除を行えます。 詳細については、「Teams でデバイス [を管理する」を参照してください](device-management.md)。
 
 ## <a name="next-steps"></a>次の手順
 
@@ -140,3 +140,5 @@ Teams パネル デバイスを管理するには、Microsoft Teams 管理セン
 [Teams パネルの Microsoft Teams ブログ](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [Teams パネルの使用を開始する](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+
+[Microsoft Teams パネル認定プログラムで認定されたデバイス](teams-ip-phones.md#currently-certified-teams-panels)

@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SBC) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5887e69e5cc8dc36070da2c22be997a7deef771c
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
+ms.openlocfilehash: 31a9003015fc9f9d6f12595e313022c305faab8a
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278697"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568933"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
 マイクロソフトは、選択したセッション ボーダー コントローラー (SBC) ベンダーと提携して、SBC がダイレクト ルーティングと連携していることを保証しています。 
 
-Microsoft は、各ベンダーと次のサービスを提供しています。
+Microsoft は、各ベンダーと次の取り合いを行っています。
 
 - SIP 相互接続プロトコルで共同で作業します。
 - サードパーティラボを使用して、テストを行います。 テストに合格したデバイスだけが認定されます。 
@@ -42,7 +42,7 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
 
 以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディア最適化をサポートしている SBC ベンダーについては、「直接ルーティング用にローカル メディア最適化を構成する」 [を参照](direct-routing-media-optimization-configure.md)してください)。
 
-[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認定プログラムについて不明な点がある場合は、drsbccertification@microsoft.com。
+[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認定プログラムに関してご質問がある場合は、drsbccertification@microsoft.com。
 <br/>
 <br/>
 
@@ -81,7 +81,7 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |           |       リリース 8.1.1       |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 |                     |    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       20.8       |      <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
-|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       5.0       |     |    | 
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       サポートされている 5.0 (推奨 5.1)     |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    リンクリンク    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
@@ -108,4 +108,4 @@ Microsoft は、各ベンダーと次のサービスを提供しています。
   | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Multiplatform アナログ電話アダプター |     &#10004;     |
   
 新機能のアイデアなど、Teams に関する製品フィードバックを提供する場合は [、Uservoice を参照してください](https://microsoftteams.uservoice.com)。
-メジャー バージョンに付与された証明書に注意してください。 つまり、メジャー バージョンに続く SBC ファームウェアの任意の番号のファームウェアがサポートされます。
+メジャー バージョンに付与された証明書に注意してください。 つまり、メジャー バージョンに続く SBC ファームウェアの任意の番号のファームウェアがサポートされています。

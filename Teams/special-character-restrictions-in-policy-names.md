@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: ポリシー名に特殊文字が含まれている問題と、その問題を修正する際の対処方法を確認します。
-ms.openlocfilehash: 899cffa45bc5ec7a36339e89e3cb97e35e6e4507
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: bc5a2fbb28e37602b21e6c519ea3b3b7cb9a0325
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814716"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569409"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams のポリシーでの特殊文字の制限について
 
@@ -41,17 +41,18 @@ PowerShell を使用して Teams での会議とメッセージング用に作�
 
 ## <a name="to-remove-special-characters"></a>特殊文字を削除するには
 
-**手順 1-PowerShell を使用してリモート接続を作成します。**
+**手順 1 - PowerShell でリモート接続を行います。**
 > [!NOTE]
-> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
+> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールの一部です。
 >
-> 最新の [Teams PowerShell パブリックリリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)を使用している場合は、Skype For Business Online Connector をインストールする必要はありません。
+> 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)をご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
 
-```PowerShell
- Import-Module -Name MicrosoftTeams
- $credential = Get-Credential
- $session = New-CsOnlineSession -Credential $credential
- Import-PSSession $session
+```powershell
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 
@@ -95,11 +96,11 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
-Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常的な作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell では、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する必要がある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - 多くのユーザーの設定を同時に変更するときなどは、Microsoft 365 管理センターのみを使用するよりも、Windows PowerShell を使用した方が、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。
     

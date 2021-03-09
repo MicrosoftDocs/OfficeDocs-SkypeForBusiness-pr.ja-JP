@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams Rooms を展開する方法について説明します。Teams または Skype for Business と Exchange はどちらもオンラインです。
-ms.openlocfilehash: 4ec54763379e4a13a69eb3e08019924708873faf
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 7a25fb17e4b9fce4a51c6e2be5828ecafff59894
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196211"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569123"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
 
@@ -147,7 +147,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    ```  -->
 
 > [!NOTE]
-> パスワードが [有効期限なし] に設定されていない場合、アカウントの有効期限が切れると、アカウントはデバイスにサインインしなくなりました。 その後、アカウントのパスワードを変更する必要があります。また、ローカルの場合は、このパスワードは、この場合は、ローカルの
+> パスワードが [有効期限なし] に設定されていない場合、アカウントの有効期限が切れると、アカウントはデバイスにサインインしなくなりました。 その後、アカウントのパスワードを変更する必要があります。また、ローカルの場合は、このパスワードも、ローカルの(または)、ローカルの(または)、(または)、()、パスワードを変更する必要があります。また
 
 6. デバイス アカウントには、有効な Microsoft 365 または Office 365 ライセンスが必要です。ライセンスがない場合は Exchange と Microsoft Teams または Skype for Business が動作しません。 ライセンスを所有している場合は、使用場所をデバイス アカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。 `Get-MsolAccountSku` を使用して、 <!-- Get-AzureADSubscribedSku --> 次のように、Microsoft 365 または Office 365 組織で使用できる SKU の一覧を取得できます。
 
@@ -175,7 +175,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    詳細な手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
 
-   このアカウントに電話システム機能を追加することもできますが、最初に設定する必要があります。 詳細 [については、「電話システムとは?」](../what-is-phone-system-in-office-365.md) を参照してください。 この例では、PSTN 国内通話プランと国際通話プランを追加します。
+   このアカウントには電話システムの機能を追加することもできますが、最初に設定する必要があります。 詳細 [については、「電話システムとは?」](../what-is-phone-system-in-office-365.md) を参照してください。 この例では、PSTN 国内通話プランと国際通話プランを追加します。
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
@@ -191,9 +191,11 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 > 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)をご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess = New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
    次の例のように、セットアップ中の新しいユーザー アカウントの RegistrarPool 情報を取得します。

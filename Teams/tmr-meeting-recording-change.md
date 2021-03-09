@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d18f6b5ef5b4668324a68b4456cd3ad5aa4b7364
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: 0431b7ebd385f2ad17d659e238f54b4ebb1ab20a
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507980"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569093"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -57,8 +57,8 @@ Microsoft Teams には、会議の記録を保存するための新しい方法�
 
 サービスにはいくつかの制約事項があります。
 
-- 英語専用のクローズド キャプションが表示され、キャプションをオフ/オンに切り替えできます。
-- 完全な *トランスクリプトの* 表示、編集、検索は、最初は行えなっていません (ただし、この機能の追加は間もなく行っています)。
+- 英語専用のクローズド キャプションが表示され、キャプションのオン/オフを切り替えできます。
+- 最初 *は、完全* なトランスクリプトを表示、編集、検索する操作は行えなっていません (ただし、この機能の追加は間もなく行っています)。
 - トランスクリプトは編集できませんが、キャプションのオン/オフを切り替えることができます。
 - 記録を共有するユーザーを制御することはできますが、共有アクセス権を持つユーザーが記録をダウンロードできないようにすることはできません。
 - 記録の保存が完了しても、メールは送信されません。完了したレコーディングは、会議のチャットに表示されます。 以前の Stream と比べてはるかに早くなります。
@@ -74,26 +74,25 @@ Microsoft Teams には、会議の記録を保存するための新しい方法�
 > [!Note]
 > Teams の会議ポリシー変更の反映にはしばらく時間がかかります。 設定して数時間後に確認してください。もう一度サインアウトしてサインインし直してください。
 
-1. Skype for Business Online PowerShell のインストール
+1. Teams PowerShell PowerShell をインストールします。
 
    > [!NOTE]
    > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリック リリースをご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。 「[PowerShell を使用する Skype for Business Online を管理する](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)」を参照してください。
 
-    1. [Skype for Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)をダウンローします。
+1. 管理者として PowerShell を起動します。
 
-    1. 指示に従ってインストールします。
+2. [Teams PowerShell モジュールをインストールします](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。
 
-    1. コンピューターを再起動する
+3. MicrosoftTeams モジュールをインポートし、Teams 管理者としてサインインします。
 
-2. 管理者として PowerShell を起動します。
 
-3. SkypeOnline Connector をインポートし、Teams 管理者としてサインインします。
+```powershell
+  # When using Teams PowerShell Module
 
-   ```powershell
    Import-Module MicrosoftTeams
-   $sfbSession = New-CsOnlineSession
-   Import-PSSession $sfbSession
-   ```
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+```
 
 4. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) を使用して、Teams 会議ポリシーを設定し、Stream ストレージから OneDrive for Business と SharePoint に切り替えます。
 

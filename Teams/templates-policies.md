@@ -18,18 +18,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 管理センターで Teams テンプレートを管理する方法について説明します。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: bcb99538ebd129e02e511c8260dc3bfa101bff9d
-ms.sourcegitcommit: 113f587a1c09d42b7394ba1195c32cb054bdf31c
+ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50507970"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569013"
 ---
-# <a name="create-and-manage-teams-templates-in-the-admin-center"></a>管理センターで Teams テンプレートを作成および管理する
+# <a name="manage-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートを管理する
 
 エンド ユーザーに表示される Teams テンプレートを管理するには、管理センターでテンプレート ポリシーを作成します。 各テンプレート ポリシー内で、表示または非表示のテンプレートを指定できます。
-ユーザーが指定した Teams テンプレートのサブセットのみを表示するために、異なるユーザーを異なるテンプレート ポリシーに割り当てる。
+ユーザーが指定した Teams テンプレートのサブセットのみを表示するために、異なるテンプレート ポリシーに異なるユーザーを割り当てる。
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>テンプレート ポリシーを作成し、使用可能なテンプレートを割り当てる
 
@@ -41,7 +40,7 @@ ms.locfileid: "50507970"
 
     ![テンプレート ポリシーが選択され、[追加] が強調表示されている](media/template-policies-1.png)
 
-1. [テンプレート ポリシー **の設定] セクションで** 、次のフィールドに入力します。
+1. [テンプレート ポリシー **の設定] セクションで、** 次のフィールドに入力します。
 
     - テンプレート ポリシー名
 
@@ -99,7 +98,7 @@ A: 新しいテンプレートは既定で表示されます。 管理センタ�
 
 **Q: テンプレートが削除された場合は、どうなるでしょうか。**
 
-A: 削除されたテンプレートは、テンプレート ポリシーに表示されなくなりました。
+A: 削除されたテンプレートは、テンプレート ポリシーに存在しなくなりました。
 
 **Q: Teams 管理センターで複数のユーザーをテンプレート ポリシーに割り当てできますか?**
 

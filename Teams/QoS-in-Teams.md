@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52b1d03be3e5d54260084bbf44ad6695404607c9
-ms.sourcegitcommit: 0a51738879b13991986a3a872445daa8bd20533d
-ms.translationtype: HT
+ms.openlocfilehash: c07e3e71d391123d34ae64ebf5806c090c29a29d
+ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48766580"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "50558206"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービス品質 (QoS) を実装する
 
@@ -51,28 +51,28 @@ _図 1. 組織のネットワークと Microsoft 365 または Office 365 サー
 
 上位レベルでは、QoS を実装するために以下のことを行います。
 
-1. [ネットワークの準備ができていることを確認する](#make-sure-your-network-is-ready)
+1. [ネットワークの準備ができていることを確認します](#make-sure-your-network-is-ready)。
 
-1. [QoS の実装方法を選択する](#select-a-qos-implementation-method)
+1. [QoS 実装方法を選択します](#select-a-qos-implementation-method)。
 
-1. [各メディア タイプの初期ポート範囲を選択する](#choose-initial-port-ranges-for-each-media-type)
+1. [メディアの種類ごとに初期ポート範囲を選択します](#choose-initial-port-ranges-for-each-media-type)。
 
 1. 以下のように QoS 設定を実装する:
-   1. クライアントでグループ ポリシー オブジェクト (GPO) を使用して、[クライアント デバイスのポート範囲とマーキングを設定](QoS-in-Teams-clients.md)します。
+   1. グループ ポリシー オブジェクト (GPO) を使用してクライアント デバイスのポート範囲とマーキングを設定するクライアント [の場合](QoS-in-Teams-clients.md)。
    2. ルーター (製造元の資料を参照) または他のネットワーク デバイスで実装します。 これには、ポートベースのアクセス制御リスト (ACL) を含めるか、単に QoS キューと DSCP マーキングを定義するか、またはこれらすべてを含めることもできます。
 
       > [!IMPORTANT]
       > これらの QoS ポリシーは、クライアントの送信元ポートと、送信元と宛先の IP アドレスを "any"として実装することをお勧めします。 これにより、内部ネットワーク上の受信と送信の両方のメディア トラフィックがキャッチされます。  
 
-   3. [Teams 会議のメディア トラフィックの処理方法を設定する](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+   3. [Teams 会議のメディア トラフィックを処理する方法を設定します](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)。
 
 5. ネットワーク上の Teams トラフィックを分析して [QoS 実装を検証](#validate-your-qos-implementation)します。
 
 QoS の実装を準備する際には、次のガイドラインに留意してください。
 
-- Microsoft 365 への最短パスが最適です
-- ポートを閉じると品質が低下します
-- プロキシなどの障害となるものは推奨されません
+- Microsoft 365 への最短パスが最適です。
+- ポートを閉じると、品質の低下のみを引き起こす可能性があります。
+- プロキシなど、その間の問題は推奨されません。
 - ポップ数を制限します:
   - クライアントからネットワーク エッジ - 3 から 5 ホップ
   - ISP から Microsoft ネットワーク エッジ - 3 ホップ
@@ -118,7 +118,7 @@ _図 2. QoS キューの例_
 
 グループ ポリシー オブジェクト (GPO) を使用して QoS をクライアント デバイスに直接実装し、特定の種類のトラフィック (音声など) であることを示す DSCP マーカーを IP パケットのヘッダーに挿入することもできます。 ルーターとその他のネットワーク デバイスでは、これらのマーキングを認識し、トラフィックを優先度の高い個別のキューに配置するように構成できます。
 
-このシナリオ全体は有効ですが、ドメインに参加している Windows クライアントでのみ機能します。 ドメインに参加している Windows クライアントではないデバイスでは、DSCP タグ付けが有効になりません。 Mac OS などのクライアントでは、ハードコードされたタグがあり、常にトラフィックがタグ付けされます。
+このシナリオ全体は有効ですが、ドメインに参加している Windows クライアントでのみ機能します。 ドメインに参加している Windows クライアントではないデバイスでは、DSCP タグ付けが有効になりません。 macOS を実行しているクライアントなど、他のクライアントにはハードコードされたタグが含まれます。常にトラフィックにタグが付けされます。
 
 利点としては、GPO を介して DSCP マーキングを制御することで、ドメインに参加しているすべてのコンピューターが同じ設定を受信し、管理者だけがそれを管理できるようになります。 GPO を使用できるクライアントは、元のデバイスでタグ付けされ、構成されたネットワーク デバイスでは DSCP コードによってリアルタイム ストリームを認識して、適切な優先順位を付けることができます。
 
@@ -148,8 +148,11 @@ _推奨される初期ポート範囲_
 これらの設定を使用する場合は、以下の点に注意してください。
 
 - 将来 ExpressRoute を実装する予定で、まだ QoS を実装していない場合は、ガイダンスに従って、DSCP値が送信者と受信者間で同じになるようにすることをお勧めします。
+
 - モバイル クライアントや Teams デバイスを含むすべてのクライアントは、これらのポート範囲を使用し、これらの送信元ポート範囲を使用して実装するすべての DSCP ポリシーの影響を受けます。 動的ポートを引き続き使用するクライアントは、ブラウザーベースのクライアント (参加者を各自のブラウザーを使用して会議に参加させるクライアント) のみです。
+
 - Mac クライアントは同じポート範囲を使用しますが、オーディオ (EF) とビデオ (AF41) のハードコードされた値も使用します。 これらの値を構成することはできません。
+
 - ユーザー エクスペリエンスを向上させるために、後でポート範囲を調整する必要がある場合は、ポート範囲が重なることなく、相互に隣接するようにする必要があります。
 
 ## <a name="migrate-qos-to-teams"></a>QoS を Teams に移行する
@@ -164,22 +167,19 @@ _推奨される初期ポート範囲_
 **オーディオ用に QoS を設定する**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000
--IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Audio" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50000 -IPSrcPortEndMatchCondition 50019 -DSCPAction 46 -NetworkProfile All
 ```
 
 **ビデオ用に QoS を設定する**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020
--IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Video" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50020 -IPSrcPortEndMatchCondition 50039 -DSCPAction 34 -NetworkProfile All
 ```
 
 **共有用に QoS を設定する**
 
 ```powershell
-new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040
--IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
+new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -IPProtocolMatchCondition Both -IPSrcPortStartMatchCondition 50040 -IPSrcPortEndMatchCondition 50059 -DSCPAction 18 -NetworkProfile All
 ```
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>Teams 管理センターで送信元ポートを管理する

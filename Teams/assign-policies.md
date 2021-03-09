@@ -18,12 +18,12 @@ description: Microsoft Teams でユーザーにポリシーを割り当てる方
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3a788ff2712c065d0273d4dfb6233f03e2272337
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 50d0ddf3da73addde36cb045a3d61eb9a5618e8c
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196296"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568993"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーにポリシーを割り当てる
 
@@ -31,7 +31,7 @@ ms.locfileid: "50196296"
 
 組織には、固有のニーズを持つユーザーの種類が異なります。 作成して割り当てるカスタム ポリシーを使用すると、それらのニーズに基づいて、さまざまなユーザー セットにポリシー設定をカスタマイズできます。
 
-組織内のポリシーを簡単に管理するために、Teams にはユーザーにポリシーを割り当てる方法がいくつか用意されています。 ポリシーをユーザーに直接割り当てる。個別に割り当てるか、バッチ割り当てを通じて規模を調整するか、ユーザーがメンバーであるグループに割り当てる。 ポリシー パッケージを使用して、ポリシーの既定のコレクションを、同様の役割を持つ組織内のユーザーに割り当てることもできます。 選択するオプションは、管理するポリシーの数と、ポリシーを割り当てるユーザーの数によって異なります。 グローバル (組織全体の既定) ポリシーは、組織内で最も多くのユーザーに適用されます。 ポリシーを割り当てる必要があるのは、特殊なポリシーが必要なユーザーのみです。
+組織内のポリシーを簡単に管理するために、Teams にはユーザーにポリシーを割り当てる方法がいくつか用意されています。 ポリシーをユーザーに直接割り当てる。個別に割り当てるか、バッチ割り当てを通じて規模を調整するか、ユーザーがメンバーであるグループに割り当てる。 ポリシー パッケージを使用して、ポリシーの既定のコレクションを、同様の役割を持つ組織内のユーザーに割り当てることもできます。 選択するオプションは、管理するポリシーの数と、ポリシーを割り当てるユーザーの数によって異なります。 グローバル (組織全体の既定) ポリシーは、組織内で最も多くのユーザーに適用されます。 特別なポリシーを必要とするユーザーにのみポリシーを割り当てる必要があります。
 
 この記事では、ユーザーにポリシーを割り当てるさまざまな方法と、何をいつ使用するかについての推奨シナリオについて説明します。
 
@@ -63,8 +63,8 @@ ms.locfileid: "50196296"
 
 |操作  |条件...  | 使用する技術...
 |---------|---------|----|
-|[ポリシーを個々のユーザーに割り当てる](#assign-a-policy-to-individual-users)    | Teams を初めて使用する場合、1 つまたはいくつかのポリシーを少数のユーザーに割り当てるだけで済みます。 |Microsoft Teams 管理センターまたは Skype for Business Online PowerShell モジュールの PowerShell コマンドレット
-|[ポリシーをグループに割り当てる](#assign-a-policy-to-a-group) |ユーザーのグループ メンバーシップに基づいてポリシーを割り当てる。 たとえば、セキュリティ グループまたは配布リストのすべてのユーザーにポリシーを割り当てるとします。| Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
+|[ポリシーを個々のユーザーに割り当てる](#assign-a-policy-to-individual-users)    | Teams を初めて使用する場合、1 つまたはいくつかのポリシーを少数のユーザーに割り当てるだけで済みます。 |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット
+|[ポリシーをグループに割り当てる](#assign-a-policy-to-a-group) |ユーザーのグループ メンバーシップに基づいてポリシーを割り当てる。 たとえば、セキュリティ グループまたは配布リスト内のすべてのユーザーにポリシーを割り当てるとします。| Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
 |[ポリシーをユーザーのバッチに割り当てる](#assign-a-policy-to-a-batch-of-users)   | 多数のユーザーにポリシーを割り当てる。 たとえば、一度に数百または数千人のユーザーにポリシーを割り当てるとします。 |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
 | [ポリシー パッケージをユーザーに割り当てる](#assign-a-policy-package-to-users)  |同じ役割または同様の役割を持つ組織内の特定のユーザー セットに複数のポリシーを割り当てます。 たとえば、学校の教師に教育 (教師) ポリシー パッケージを割り当て、チャット、通話、会議へのフル アクセス権を与えます。 Education (中等学生) ポリシー パッケージを中学生に割り当て、プライベート通話などの特定の機能を制限します。  |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
 | [ポリシー パッケージをグループに割り当てる](#assign-a-policy-package-to-a-group) (プライベート プレビュー)   |同じ役割または同様の役割を持つ組織内のユーザーのグループに複数のポリシーを割り当てます。 たとえば、セキュリティ グループまたは配布リスト内のすべてのユーザーにポリシー パッケージを割り当てるとします。 |Microsoft Teams 管理センター (近日公開予定) または Teams PowerShell モジュールの PowerShell コマンドレット|
@@ -136,9 +136,9 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ### <a name="use-powershell"></a>PowerShell を使用する
 
-各ポリシー タイプには、それを管理するための独自のコマンドレットのセットがあります。 特定のポリシー タイプに ```Grant-``` コマンドレットを使用して、ポリシーを割り当てます。 たとえば、```Grant-CsTeamsMeetingPolicy``` コマンドレットを使用して、Teams 会議ポリシーをユーザーに割り当てます。 これらのコマンドレットは、Skype for Business Online PowerShell モジュールに含まれており、[Skype for Business コマンドレットのリファレンス](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) に記載されています。
+各ポリシー タイプには、それを管理するための独自のコマンドレットのセットがあります。 特定のポリシー タイプに ```Grant-``` コマンドレットを使用して、ポリシーを割り当てます。 たとえば、```Grant-CsTeamsMeetingPolicy``` コマンドレットを使用して、Teams 会議ポリシーをユーザーに割り当てます。 これらのコマンドレットは Teams PowerShell モジュールに含まれており、Skype for Business コマンドレット リファレンス [に記載されています](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
 
- (まだインストールされていない場合は) [Skype for Business Online PowerShell モジュール](https://www.microsoft.com/download/details.aspx?id=39366) をダウンロードしてインストールし、次のコマンドを実行して Skype for Business Online に接続しセッションを開始します。
+ [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリース (まだインストールしていない場合) をダウンロードしてインストールし、次のコマンドを実行して接続します。
 
 > [!NOTE]
 > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
@@ -146,10 +146,11 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 > 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)をご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
 
 ```powershell
-Import-Module -Name MicrosoftTeams
-$Cred = Get-Credential
-$CSSession = New-CsOnlineSession -Credential $Cred
-Import-PSSession -Session $CSSession
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 この例では、Student Meeting Policy という名前の Teams 会議ポリシーを、Reda というユーザーに割り当てています。
@@ -435,8 +436,6 @@ Teams のポリシー パッケージは、組織内で同じまたは類似の�
 4. ユーザーの追加が完了したら、**[保存]** を選択します。
 
 ## <a name="assign-a-policy-package-to-a-group"></a>ポリシー パッケージをグループに割り当てる
-
-**この機能はプライベート プレビューです**
 
 グループにポリシー パッケージを割り当てると、セキュリティ グループや配布リストなど、ユーザーのグループに複数のポリシーを割り当てることができます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
 

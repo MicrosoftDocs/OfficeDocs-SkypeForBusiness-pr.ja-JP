@@ -13,16 +13,16 @@ ms.collection:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12360110df90fb5de2e3e4547534c8569cc5537a
-ms.sourcegitcommit: 3f465eb6eb46db008f2b69fc4c6bb425d432dfcc
+ms.openlocfilehash: 6c2c626d61a10437fc5bb349dd128415d64448a7
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48852158"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569023"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell の概要
 
-Microsoft Teams PowerShell は、PowerShell コマンド ラインから直接 Teams を管理するための一連のコマンドレットです。 作成された .NET Standard では、Teams PowerShell は、Azure Cloud Shell を含むすべてのプラットフォームで PowerShell 5.1 x 以降で動作します。
+Microsoft Teams PowerShell は、PowerShell コマンド ラインから直接 Teams を管理するための一連のコマンドレットです。 .NET Standard で記述された Teams PowerShell は、Azure Cloud Shell を含むすべてのプラットフォームで、Windows、PowerShell 6.x 以上の PowerShell 5.1 で動作します。
 
 PowerShell の使用を開始する前に、[それをインストール](teams-powershell-install.md)する必要があります。 
 
@@ -34,9 +34,9 @@ PowerShell の使用を開始する前に、[それをインストール](teams-
 
 Teams PowerShell は、2 つのリリース タイプで [PowerShell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams)を利用できます。
 
-- **一般提供 (GA)** : 本番対応のコマンドレットであり、毎月更新されます。
+- **一般提供 (GA)**: 本番対応のコマンドレットであり、毎月更新されます。
 
-- **パブリック プレビュー** : 機能にいち早くアクセスします。 GA よりも頻繁に更新される場合があります。
+- **パブリック プレビュー**: 機能にいち早くアクセスします。 GA よりも頻繁に更新される場合があります。
 
 両方のリリースでの機能の追加と改善の詳細については、「[Teams PowerShell リリース ノート](teams-powershell-release-notes.md)」をご覧ください。
 
@@ -48,7 +48,7 @@ Teams PowerShell モジュールを使用して、Teams を完全に管理しま
 - [Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/): Teams PowerShell モジュールには、チーム、チャット、およびチャネルを管理するためのコマンドレットが含まれています。
 
 > [!NOTE]
-> 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)は Skype for Business Online コネクタと統合され、Teams PowerShell 管理用の単一モジュールを提供します。
+> [Teams PowerShell の](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリース バージョン 1.1.6 以降は、Skype for Business Online Connector と統合され、Teams PowerShell 管理用の 1 つのモジュールが提供されます。
 
 - [Skype for Business PowerShell コネクタ](https://www.microsoft.com/download/details.aspx?id=39366): Skype for Business PowerShell コネクタは、Teams PowerShell モジュールの一部になりました。
 

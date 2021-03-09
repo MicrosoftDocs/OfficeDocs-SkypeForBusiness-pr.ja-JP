@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd5b38dd3a43a405794209a9dc7ac4a4468386ef
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: a99967df019a91460bde5fd4e3e6e7aee15444d3
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662022"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50569113"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Microsoft Teams PowerShell をインストールする
 
@@ -37,7 +37,7 @@ Teams PowerShell には、すべてのプラットフォームで PowerShell 5.1
 > 最適なエクスペリエンスを得る場合は、両方ではなく、一般提供 (GA) モジュールまたはパブリック プレビュー モジュールのいずれかを使用します。 これらは、一緒に作業するつもりではありません。
 
 
-**PowerShellGet コマンドレットを** 使用して、Teams PowerShell モジュールをインストールします。 システム上のすべてのユーザーにモジュールをインストールするには、管理者特権が必要です。 Windows の [管理者として実行] を使用するか、macOS または Linux でコマンドを使用して `sudo` PowerShell セッションを開始します。
+**PowerShellGet コマンドレットを** 使用して、Teams PowerShell モジュールをインストールします。 システム上のすべてのユーザーにモジュールをインストールするには、管理者特権が必要です。 Windows の管理者として実行を使用するか、macOS または Linux でコマンドを使用して `sudo` PowerShell セッションを開始します。
 
 ```powershell
 Install-Module MicrosoftTeams
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-[ **はい]** または **[はい] から [すべて] に応答** して、インストールを続行します。
+[ **はい]** または **[はい] から [すべて] に回答** して、インストールを続行します。
 
 
 ## <a name="install-teams-powershell-public-preview"></a>Teams PowerShell パブリック プレビューをインストールする
@@ -63,15 +63,15 @@ Are you sure you want to install the modules from 'PSGallery'?
 > [!NOTE]
 > Teams PowerShell のパブリック プレビュー 版を使用している場合は、最初に Skype for Business Online Connector をアンインストールすることを強く推奨します。
 
-システム上のすべてのユーザーに Teams PowerShell パブリック プレビュー モジュールをインストールするには、管理者特権が必要です。 Windows の管理者として実行を使用するか、macOS または Linux でコマンドを使用して `sudo` PowerShell セッションを開始します。
+システム上のすべてのユーザーに Teams PowerShell パブリック プレビュー モジュールをインストールするには、管理者特権が必要です。 Windows の [管理者として実行] を使用するか、macOS または Linux でコマンドを使用して `sudo` PowerShell セッションを開始します。
 
-PowerShell 5.1 を使用している場合は、事前に **PowerShellGet** モジュールを更新する必要があります。 **PowerShellGet を更新した** 後、管理者特権の PowerShell セッションを閉じてもう一度開き、最新の **PowerShellGet** が読み込まれるのを確認します。
+PowerShell 5.1 を使用している場合は、事前に **PowerShellGet モジュールを** 更新する必要があります。 **PowerShellGet を更新した** 後、昇格された PowerShell セッションを閉じてもう一度開き、最新の **PowerShellGet** が読み込まれるのを確認します。
 
 ```powershell
 Install-Module PowerShellGet -Force -AllowClobber
 ```
 
-Teams PowerShell パブリック プレビューをインストールするには、以下の PowerShell コマンドを実行します。
+Teams PowerShell パブリック プレビューをインストールするには、次の PowerShell コマンドを実行します。
 
 > [!NOTE]
 > PowerShell ギャラリーまたは [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) で最新のプレビュー バージョンを見つけるには、"Find-Module MicrosoftTeams -AllowPrerelease" を実行します。
@@ -84,14 +84,16 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 
 > [!NOTE]
 >
-> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールの一部です。
-> 最新の [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリースを使用している場合は、Skype for Business Online Connector をインストールする必要があります。
+> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
+> 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)をご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
+
 
 ```powershell
-Import-Module -Name MicrosoftTeams
-$userCredential = Get-Credential
-$sfbSession = New-CsOnlineSession -Credential $userCredential
-Import-PSSession $sfbSession
+  # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
 ```
 
 ## <a name="sign-in"></a>サインイン
