@@ -19,52 +19,31 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online.
-ms.openlocfilehash: 3928e77e5bac77dbfe89f7be5e762dd0d8ff93eb
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
+ms.openlocfilehash: 5883eba8dc4dd959e67e45aa27413624e0f5d941
+ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814566"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "50568943"
 ---
-# <a name="download-and-install-the-skype-for-business-online-connector-module"></a><span data-ttu-id="e1d82-103">Skype for Business Online Connector モジュールをダウンロードしてインストールする</span><span class="sxs-lookup"><span data-stu-id="e1d82-103">Download and install the Skype for Business Online Connector module</span></span>
+# <a name="download-and-install-the-teams-powershell-module"></a><span data-ttu-id="a474a-103">Teams PowerShell モジュールをダウンロードしてインストールする</span><span class="sxs-lookup"><span data-stu-id="a474a-103">Download and install the Teams PowerShell module</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e1d82-104">最新の [Teams powershell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) は、Skype For Business Online Connector と統合されており、teams powershell 管理用の1つのモジュールを提供しています。</span><span class="sxs-lookup"><span data-stu-id="e1d82-104">The latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.</span></span>
 
-<span data-ttu-id="e1d82-105">[] Skype for Business Online Connector モジュール には、 **New-CsOnlineSession** Windows PowerShell に接続するリモート Skype for Business Online セッションを作成できるようにする コマンドレットが含まれます。</span><span class="sxs-lookup"><span data-stu-id="e1d82-105">The Skype for Business Online Connector module includes the **New-CsOnlineSession** cmdlet, which enables you to create a remote Windows PowerShell session that connects to Skype for Business Online.</span></span> <span data-ttu-id="e1d82-106">このモジュールは、64ビットのコンピューターでのみサポートされます (詳細については、「 [Windows PowerShell を使用して Skype For Business Online 管理用にコンピューターを設定](set-up-your-computer-for-windows-powershell.md) する」を参照してください)。 Microsoft ダウンロードセンターからダウンロードでき [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366) ます。</span><span class="sxs-lookup"><span data-stu-id="e1d82-106">This module, which is supported only on 64-bit computers (see [Set up your computer for Skype for Business Online management using Windows PowerShell](set-up-your-computer-for-windows-powershell.md) for more information), can be downloaded from the Microsoft Download Center at [https://www.microsoft.com/download/details.aspx?id=39366](https://www.microsoft.com/download/details.aspx?id=39366).</span></span> <span data-ttu-id="e1d82-107">SkypeOnlinePowershell.exe ファイルをダウンロードしてから、次の手順を完了します。</span><span class="sxs-lookup"><span data-stu-id="e1d82-107">Download the SkypeOnlinePowershell.exe file, and then complete the following procedure:</span></span>
-  
-1. <span data-ttu-id="e1d82-108">**SkypeOnlinePowershell.exe** ファイルをダブルクリックします。</span><span class="sxs-lookup"><span data-stu-id="e1d82-108">Double-click the **SkypeOnlinePowershell.exe** file.</span></span>
+> <span data-ttu-id="a474a-104">最新の [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) パブリック リリースは、Skype for Business Online Connector と統合され、Teams と Skype for Business オンライン PowerShell 管理用の 1 つのモジュールを提供します。</span><span class="sxs-lookup"><span data-stu-id="a474a-104">The latest [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) is integrated with Skype for Business Online Connector, providing a single module for Teams and Skype for Business online PowerShell management.</span></span>
+
+
+1. <span data-ttu-id="a474a-105">Teams [PowerShell モジュールをインストールします](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。</span><span class="sxs-lookup"><span data-stu-id="a474a-105">Install the [Teams PowerShell module](https://docs.microsoft.com/microsoftteams/teams-powershell-install).</span></span>
     
-2. <span data-ttu-id="e1d82-p102">In the Skype for Business Online, Windows PowerShell setup wizard, on the **Microsoft Software License Terms** page, select **I accept the terms in the License Agreement**, and then click **Install**. If the **User Account Control** dialog box appears, click **Yes** to continue the installation.</span><span class="sxs-lookup"><span data-stu-id="e1d82-p102">In the Skype for Business Online, Windows PowerShell setup wizard, on the **Microsoft Software License Terms** page, select **I accept the terms in the License Agreement**, and then click **Install**. If the **User Account Control** dialog box appears, click **Yes** to continue the installation.</span></span>
-    
-3. <span data-ttu-id="e1d82-111">[ **Completed the Skype for Business Online, Windows PowerShell Module (Skype for Business Online、Windows PowerShell Module の完了)**] ページで、[ **完了**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="e1d82-111">On the **Completed the Skype for Business Online, Windows PowerShell Module** page, click **Finish**.</span></span>
-    
-<span data-ttu-id="e1d82-p103">セットアップ プログラムが Skype for Business Online Connector モジュール (および **New-CsOnlineSession** コマンドレット) をコンピューターにコピーします。モジュールにアクセスするには、Windows PowerShell セッションを管理者の資格情報で開始してから、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="e1d82-p103">The setup program copies the Skype for Business Online Connector module (and the **New-CsOnlineSession** cmdlet) to your computer. To access the module, start a Windows PowerShell session under administrator credentials, and then run the following command:</span></span>
-  
-```PowerShell
-Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-```
+2. <span data-ttu-id="a474a-106">コマンド プロンプトWindows PowerShellし、次のコマンドを実行します。</span><span class="sxs-lookup"><span data-stu-id="a474a-106">Open a Windows PowerShell command prompt and run the following commands:</span></span> 
 
-<span data-ttu-id="e1d82-p104">このコマンドを Windows PowerShell の開始時に毎回入力しないようにする場合に、そのコマンドを Windows PowerShell プロファイルに追加することができます。これを行うには、Windows PowerShell プロンプトで次のコマンドを入力してから ENTER を押します。</span><span class="sxs-lookup"><span data-stu-id="e1d82-p104">If you don't want to type this command every time you start Windows PowerShell, you can add the command to your Windows PowerShell profile. To do that, type the following command at the Windows PowerShell prompt and then press ENTER:</span></span>
+   ```powershell
+   # When using Teams PowerShell Module
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
+   ```
+   <span data-ttu-id="a474a-107">Windows PowerShell の起動の詳細については、「1 つの Windows PowerShell ウィンドウで[すべての Microsoft 365 または Office 365](https://technet.microsoft.com/library/dn568015.aspx)サービスに接続する」[](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)または「Windows PowerShell 用にコンピューターをセットアップする」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a474a-107">If you want more information about starting Windows PowerShell, see [Connect to all Microsoft 365 or Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/library/dn568015.aspx) or [Set up your computer for Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).</span></span>
   
-```PowerShell
-notepad.exe $profile
-```
-
- <span data-ttu-id="e1d82-116">Notepad が表示されたら、(該当する場合は) 既にプロファイル内にあるコマンドの最下部に次の行を追加します。</span><span class="sxs-lookup"><span data-stu-id="e1d82-116">When Notepad appears, add the following line to the bottom of the commands that are already in the profile (if any):</span></span>
-  
-```PowerShell
-Import-Module SkypeOnlineConnector
-```
-
-<span data-ttu-id="e1d82-p105">ファイルを保存します。次回の Windows PowerShell の開始時に、Skype for Business Online Connector モジュール が自動的にインポートされます。管理者の資格情報で Windows PowerShell を実行していない場合は、エラー メッセージが表示され、モジュールがロードされないことに留意してください。</span><span class="sxs-lookup"><span data-stu-id="e1d82-p105">Save the file. The next time you start Windows PowerShell, the Skype for Business Online Connector module will automatically be imported. Be aware that you will get an error message, and the module will not be loaded, if you are not running Windows PowerShell under administrator credentials.</span></span>
-  
-<span data-ttu-id="e1d82-p106">Skype for Business Online Connector モジュール のインストールに加えて、SkypeOnlinePowershell.exe は、1) Skype for Business Online に対するクライアント認証を処理する Identity Service Client Runtime Library (IDCRL)、2) .NET Framework 4.5、および 3) Microsoft Visual C++ 2012 再頒布可能パッケージ (x64) (バージョン 11.0.50727) という 3 つの追加コンポーネントもインストールします。NET Framework 4.5 は、Windows PowerShell を含む .NET アプリケーションを構築して実行するために使われるインフラストラクチャを提供します。Visual C++ 再頒布可能パッケージは、Microsoft Visual Studio 2012 がインストールされていないコンピューターのために Visual C++ ランタイム コンポーネントをインストールします。</span><span class="sxs-lookup"><span data-stu-id="e1d82-p106">In addition to installing the Skype for Business Online Connector module, SkypeOnlinePowershell.exe also installs three additional components: 1) the Identity Service Client Runtime Library (IDCRL), used to handle client authentication to Skype for Business Online; 2) .NET Framework 4.5; and, 3) the Microsoft Visual C++ 2012 Redistributable (x64) package (version 11.0.50727). .NET Framework 4.5 provides the infrastructure used for building and running .NET applications, including Windows PowerShell. The Visual C++ Redistributable package installs Visual C++ runtime components for computers that do not have Microsoft Visual Studio 2012 installed.</span></span>
-  
-<span data-ttu-id="e1d82-123">お使いのコンピューターに現在インストールされている Connector モジュールのバージョン番号を検証するには、[ **プログラムと機能** ] を開いて、 **Skype for Business Online、Windows PowerShell Module** のバージョン番号を確認してください。</span><span class="sxs-lookup"><span data-stu-id="e1d82-123">To verify the version number of the Connector module that is currently installed on your computer, open Control Panel, open **Programs and Features**, and then check the version number for the **Skype for Business Online, Windows PowerShell Module**.</span></span>
-  
-## <a name="related-topics"></a><span data-ttu-id="e1d82-124">関連トピック</span><span class="sxs-lookup"><span data-stu-id="e1d82-124">Related topics</span></span>
-[<span data-ttu-id="e1d82-125">Windows PowerShell を使用して skype for business online 管理用にコンピューターをセットアップする</span><span class="sxs-lookup"><span data-stu-id="e1d82-125">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
-
-  
- 
+## <a name="related-topics"></a><span data-ttu-id="a474a-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="a474a-108">Related topics</span></span>
+[<span data-ttu-id="a474a-109">Skype for Business Online 管理用にコンピューターをセットアップするには、次のWindows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a474a-109">Set up your computer for skype for business online management using Windows PowerShell</span></span>](set-up-your-computer-for-windows-powershell.md)
