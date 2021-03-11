@@ -24,7 +24,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
 ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/14/2021
 ms.locfileid: "49865171"
@@ -96,10 +96,10 @@ Microsoft Teams は、縦割り組織を解体して機能横断型チームを�
 |チームのタイプ  |考えられるチャネル  |アプリ (タブ ![タブがあるフォルダーを表すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/コネクタ ![くっついたブロックを表すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/ボット ![小さなロボットを表すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |売上     |年次販売会議<br></br> 四半期ビジネス レビュー<br></br> 月次売上パイプライン レビュー<br></br> 売上戦略 |Power BI<br></br>Trello<br></br>CRM<br></br>サマライズ ボット         |
-|広報活動     |プレス リリース<br></br>ニュースおよび更新情報<br></br>ファクト チェック         |RSS フィード<br></br>ツイッター         |
-|イベント計画     |マーケティング<br></br>物流およびスケジュール<br></br>会場<br></br>予算         |ツイッター<br></br>Facebook<br></br>プランナー<br></br>PDF         |
+|広報活動     |プレス リリース<br></br>ニュースおよび更新情報<br></br>ファクト チェック         |RSS フィード<br></br>Twitter         |
+|イベント計画     |マーケティング<br></br>物流およびスケジュール<br></br>会場<br></br>予算         |Twitter<br></br>Facebook<br></br>プランナー<br></br>PDF         |
 |マーケティング/市場開拓   |市場調査<br></br>メッセージ ピラー<br></br>コミュニケーション プラン<br></br>部品表のマーケティング        |YouTube<br></br>Microsoft Stream<br></br>Twitter<br></br>MailChimp         |
-|技術運用    |インシデント管理<br></br>スプリント計画<br></br>作業項目<br></br>インフラストラクチャおよび運用         |Team Services<br></br>Jira<br></br>AzureBot         |
+|技術運用    |インシデント管理<br></br>スプリント計画<br></br>作業項目<br></br>インフラストラクチャおよび運用         |チーム サービス<br></br>Jira<br></br>AzureBot         |
 |製品チーム      |戦略<br></br>マーケティング<br></br>売上<br></br>操作<br></br>分析情報<br></br>サービスとサポート         |Power BI<br></br>チーム サービス         |
 |Finance    |現会計年度<br></br>年度計画<br></br>予測<br></br>売掛金<br></br>買掛金         |Power BI<br></br>Google アナリティクス         |
 |物流     |倉庫管理<br></br>車両整備<br></br>ドライバー勤務表         |気象サービス<br></br>トラベル/道路混乱<br></br>プランナー<br></br>Tubot<br></br>UPS ボット         |

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6183471d8266ff004e1028ec3102e21f73fff77
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909121"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711644"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams にサイン インする
 ==========================
@@ -161,7 +161,7 @@ Teams Android アプリは、グローバルなサインインとサインアウ
 Teams を使用するには、インターネットへの接続が必要です。 Office 365 の各プラン、政府機関向けまたはその他のクラウドを使用するユーザーが到達する必要があるエンドポイントについては、「[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。
 
 > [!IMPORTANT]
-> Teams では現在、すべてのユーザーについて、Google の ssl.gstatic.com サービス (<https://ssl.gstatic.com)> への接続 (TCP ポート 443) が要求されています。Gstatic を使用していない場合であってもこれは要求されます。 Teams では間もなく (2020 年前半) この要件が削除される予定になっており、そのタイミングに合わせてこの記事も更新されます。
+> Teams では現在、すべてのユーザーについて、Google の ssl.gstatic.com サービスへの接続 (TCP ポート 443) が要求されています。Gstatic を使用していない場合であってもこれは要求されます。 Teams では間もなく (2020 年前半) この要件が削除される予定になっており、そのタイミングに合わせてこの記事も更新されます。
 
 ## <a name="related-topics"></a>関連項目
 

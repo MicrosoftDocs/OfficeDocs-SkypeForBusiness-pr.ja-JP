@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: ポート注文の概要と、サービス プロバイダーから Teams に電話番号を転送する方法について説明します。
-ms.openlocfilehash: 4f1f8ca843db8c2b27eaa467b0014befe6f2b519
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d7ca4769dcd1f320a7d0b8a8ed18fdba5b06abbd
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802507"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50615053"
 ---
 # <a name="whats-a-port-order"></a>番号移行注文について
 
@@ -70,7 +70,7 @@ ms.locfileid: "49802507"
   **次の情報を転送できます。**
   
     > [!NOTE]
-    > 現時点では、VoIP 電話プロバイダーからの電話番号を含め、サポートされている国または地域から電話番号や電話番号を転送できない場合があります。 サポートされている国/地域の一覧については、「電話会議と通話プランの国と地域の利用可」[を参照してください](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+    > 現時点では、VoIP 電話プロバイダーの電話番号を含め、サポートされている国または地域から電話番号や電話番号を転送できない場合があります。 サポートされている国/地域の一覧については、「電話会議と通話プランの国と地域の利用可」[を参照してください](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
 - DSL 回線やブロードバンド インターネット接続などのデータ接続で使用される電話番号を移転することもできません。
 
@@ -120,7 +120,7 @@ ms.locfileid: "49802507"
 
 - 市 **番** が 800、844、855、866、877、888 などの市番を含む無料電話番号は、他の種類の番号との番号の移植要求に含めません。 これらの無料電話番号を移植するには、ポート注文を [手動で送信する必要があります](manually-submit-port-order.md)。 Microsoft Teams 管理センターでこれらの番号を移植できない。 詳細については、「[組織のために電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」をご覧ください。
 
-    国とポートする電話番号の種類に適切な承認状 (LOA) を使用することが重要です。 必要な [LOA はここでダウンロードできます](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+    ポートする国と電話番号の種類に適切な承認状 (LOA) を使用することが重要です。 必要な [LOA はここからダウンロードできます](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 - **携帯電話番号** には、移行を承認するための PIN コードが必要です。 したがって、個別の番号移行要求が必要です。
 
@@ -129,14 +129,14 @@ ms.locfileid: "49802507"
 ## <a name="how-long-does-it-take-to-port-numbers"></a>番号の移行にはどれくらいかかりますか?
 <a name="bkmk_type_1"> </a>
 
-番号移動注文の要求が完了したら、処理には 7 ~ 14 日かかります。 ただし、サービス プロバイダーによっては、最大 30 日かかる場合があります。 電話番号を移植した後は、メールでお知らせします。
+ポート注文の要求が完了したら、処理には 7 ~ 14 日かかります。 ただし、サービス プロバイダーによっては、最大 30 日かかる場合があります。 電話番号の移植が終わった後は、メールで連絡を受け取り、問題が起き続くと知らせたメールが届きます。
   
-ポート注文の状態を確認するには、Microsoft Teams 管理センターの左側のナビゲーションで、[音声電話番号] に移動し、[注文履歴] を  >  **クリックします**。 各ポート注文の状態が [状態] 列に **一覧表示** されます。
+ポート注文の状態を確認するには、Microsoft Teams 管理センターの左側のナビゲーションで[音声の電話番号] に移動し、[注文履歴] を  >  **クリックします**。 各ポート注文の状態が [状態] 列に **一覧表示** されます。
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>ユーザー (加入者番号) の電話番号をサービス番号に変更できますか?
 <a name="bkmk_type_1"> </a>
 
-はい、できます。 変換したい組織のテナント GUID と電話番号を含んでいるサービス要求を送信するだけです。 これを行うには、「組織の電話番号 [を管理する」を参照してください](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+はい、できます。 変換したい組織のテナント GUID と電話番号を含んでいるサービス要求を送信するだけです。 これを行うには、「組織の [電話番号を管理する」を参照してください](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Teams から別の電話サービス プロバイダーまたは通信事業者に自分の番号を移植できますか?
 

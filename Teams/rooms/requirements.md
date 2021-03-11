@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b4966111c8d8729ad429f7b0fdd850b32155024
-ms.sourcegitcommit: 49674c122d69b5495afeb2833ecf498acf129746
+ms.openlocfilehash: e62aaa41b81550619ed670159cd071bc22e01cda
+ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50402853"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50716902"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
@@ -56,7 +56,7 @@ Microsoft Teams Rooms では、会議室のサイズと用途に応じたさま�
   |[Intel NUC を使用した、ブレットロンFlex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
   [Intel NUC を使用した、セボロンFlex UC-C140-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8 GB |128 GB|
   |[Intel NUC を使用した、クナロンFlex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)  + [CCS-UCA-MIC](https://www.crestron.com/en-US/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 GB |128 GB |
-  |[Intel NUC を使用した、エボロンFlex UC-MX150-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 GB |128 GB |
+  |[Intel NUC を使用した、クナロンFlex UC-MX150-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 GB |128 GB |
    [Intel NUC を使用した、ブレットロンFlex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
   |[Intel NUC を使用した、セボロンFlex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
   |[星型水星ミニ UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
@@ -130,6 +130,7 @@ Microsoft Teams Rooms では、会議室のサイズと用途に応じたさま�
 |[Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom EagleEye Director II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Polycom Studio サウンドバー](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
+|[Poly Sync 40](https://www.poly.com/us/en/products/phones/sync/sync-40)|0.0.94.1461|
 |[Polycom Trio 8500 / 8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
 |[Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |

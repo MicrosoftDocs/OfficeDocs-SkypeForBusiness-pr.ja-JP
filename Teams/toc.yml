@@ -501,6 +501,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 製造カテゴリの Teams テンプレート
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Teams テンプレートのポリシーを管理する
+            href: templates-policies.md
       - name: 外部ユーザーと通信する
         items:
           - name: 別の組織のユーザーと通信する
@@ -547,6 +549,12 @@ items:
         items:
           - name: 概要
             href: rooms/index.md
+          - name: Microsoft Teams Rooms の管理サービス
+            items:
+              - name: 管理を計画する
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: 役割ベースのアクセス制御
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 計画
             items:
               - name: Microsoft Teams Rooms の計画の概要
@@ -565,12 +573,6 @@ items:
                 href: rooms/rooms-licensing.md
               - name: Azure Monitor による管理の計画
                 href: rooms/azure-monitor-plan.md
-              - name: Microsoft Teams Rooms の管理サービス
-                items:
-                  - name: Microsoft Teams Rooms の管理サービスを使用して管理を計画する
-                    href: rooms/microsoft-teams-rooms-premium.md
-                  - name: Microsoft Teams Rooms のプレミアム サービスを使用した役割ベースのアクセス制御
-                    href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 展開
             items:
               - name: 展開の概要
@@ -1328,6 +1330,8 @@ items:
             href: manage-lists-app.md
           - name: 組織のタスク アプリを管理する
             href: manage-tasks-app.md
+          - name: 承認アプリを管理する
+            href: approval-admin.md
           - name: Teams の Shifts
             items:
               - name: Teams の Shifts
@@ -1499,7 +1503,7 @@ items:
             href: devices/collab-bar-deploy.md
           - name: 会議室のデバイスとソリューション
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Microsoft Teams 認定 IP 電話
+          - name: Teams 認定 デバイス
             href: devices/teams-ip-phones.md
           - name: Skype for Business Online 対応の電話機
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json

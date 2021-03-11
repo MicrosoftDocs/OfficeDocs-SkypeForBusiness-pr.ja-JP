@@ -1,5 +1,5 @@
 ---
-title: 割り当てられていない電話番号の作成 (新規) または [既存の番号の編集]
+title: 割り当てられていない電話番号 新規の作成または既存の編集
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: a584812b32d99796259bde56838f0193c54b8fac
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9cef4ae8075bf4982ab9c3ddd857062d4fa1a824
+ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812097"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50711734"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>割り当てられていない電話番号: 新規作成または現在の形式のままで編集
 
 > [!NOTE]
-> Skype for Business 2019 と Exchange 2013 または Exchange 2016 を統合する場合、Exchange UM は Skype for Business Server 2019 で引き続き使用できます。 Exchange 2019 のサポートが変更されたので、Exchange UM 統合はクラウド ボイスメール機能とクラウド ボイスメール機能の使用を重視自動応答されています。
+> Skype for Business Server 2019 を Exchange 2013 または Exchange 2016 に統合すると、Exchange UM は Skype for Business Server 2019 で引き続き使用できます。 Exchange 2019 でのサポートの変更により、Exchange UM の統合はクラウド ボイスメール機能とクラウド ボイスメール機能の機能を重視自動応答されています。
 
 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
 
@@ -36,28 +36,28 @@ ms.locfileid: "49812097"
 
 次の一覧に、このページのフィールドを示します。
 
-- **名前** 割り当てられていない番号範囲を識別するわかりやすい名前を入力します。 範囲を保存した後は、この名前を変更できません。
+- **名前** 割り当てられていない番号範囲を識別するわかりやすい名前を入力します。 範囲を保存した後、この名前を変更することはできません。
 
-- **番号の範囲** 最初のフィールドに、割り当てられていない番号範囲の開始番号を入力します。 2 番目のフィールドに、範囲の終了番号を入力します。
+- **数値範囲** 最初のフィールドに、割り当てられていない番号範囲の先頭番号を入力します。 2 番目のフィールドに、範囲の終了番号を入力します。
 
   - 範囲の開始番号が終了番号より大きくならないようにしてください。
 
   - 範囲の開始番号または終了番号に内線番号が含まれる場合は、両方の番号が内線番号を含む必要があり、その内線番号は両方の番号で一致する必要があります。
 
-  - 数値は正規表現 (tel:)?( )と一致する必要 \+ があります。[1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. つまり、番号は tel: (文字列を指定しない場合は自動的に追加されます)、プラス記号 (+)、および 1 ~ 9 の数字で始まる可能性があります。 電話番号は最大 17 桁で、その後に内線番号 ;ext= の後に内線番号を続けることもできます。
+  - 数値は正規表現 ( `tel:` )?( )と一致 \+ する必要があります。[1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. つまり、番号は文字列 'tel:' で始まる可能性があります。 その文字列を指定しない場合は、プラス記号 (+)、数字 1 ~ 9 など、自動的に追加されます。 電話番号には最大 17 桁の数字を指定できます。その後に内線番号 ;ext= の後に内線番号を付けることもできます。
 
-- **アナウンス サービス** アナウンス **アプリケーションで** 着信呼び出しを処理する場合は [アナウンス] を選択し、 **着信** 呼び出しを処理する Exchange UM 自動応答 Exchange UM を使用します。
+- **アナウンス サービス** アナウンス **アプリケーションが** 着信呼び出しまたは **Exchange UM** を処理するには、[アナウンス] を選択して、着信呼び出しを処理自動応答 Exchange UM を持つ必要があります。
 
 - [**アナウンス サービス**] で [**アナウンス**] を選択した場合:
 
-  - **送信先サーバーの FQDN** この割り当てられていない番号範囲への着信呼び出しを処理するアナウンス アプリケーションを実行するアプリケーション サービスのサービス ID を選択します。
+  - **宛先サーバーの FQDN** 割り当てられていないこの範囲の着信呼び出しを処理するアナウンス アプリケーションを実行する Application サービスのサービス ID を選択します。
 
-  - **アナウンス** この割り当てられていない番号の範囲で再生するアナウンスを選択します。
+  - **お知らせ** 割り当てられていないこの範囲の番号に対して再生するアナウンスを選択します。
 
 - [**アナウンス サービス**] で [**Exchange UM**] を選択した場合:
 
-  - **自動応答電話番号** Exchange UM メールボックスの電話番号を自動応答。
+  - **自動応答電話番号** Exchange UM サーバーの電話番号を自動応答。
 
-アナウンスの機能の詳細については、「計画」のドキュメントの [「Plan for the Announcement application in Skype for Business」](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)」を参照してください。
+アナウンスの機能の詳細については、「計画」のドキュメントの「Plan for the [Announcement application in Skype for Business」](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)」を参照してください。
 
 

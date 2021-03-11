@@ -1,5 +1,5 @@
 ---
-title: チームのターゲット階層を設定する
+title: チーム対象の階層を設定する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,23 +15,23 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c5a0fcdce1218bc32eac8b28e7a8c1f41e87cb0
-ms.sourcegitcommit: 9787b84ab15ee2e14890151e966c81b4a4d43e62
+ms.openlocfilehash: fcdae04ce87db82bd5f18e818dcf194fc7ff38c7
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49868342"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50615043"
 ---
-# <a name="set-up-your-team-targeting-hierarchy"></a>チームのターゲット階層を設定する
+# <a name="set-up-your-team-targeting-hierarchy"></a>チーム対象の階層を設定する
 
-チームのターゲット階層を設定すると、組織は大規模なチーム セットにコンテンツを発行できます。 チームのターゲット階層は、階層内のすべてのチームが互いに関連付けられている方法、ユーザーがタスクを発行できる方法、および発行する権限を持つチームを定義します。 組織に対してチームのターゲット階層が設定されていない限り、すべてのユーザーに対して発行機能が無効になります。 チームのターゲット階層を設定するには、階層を定義するファイルを作成し、それを Teams にアップロードして組織に適用する必要があります。 スキーマがアップロードされると、Teams 内のアプリで使用できます。
+チームのターゲット階層を設定すると、組織は大規模なチーム セットにコンテンツを発行できます。 チームターゲット階層は、階層内のすべてのチームが互いに関連付けられている方法、ユーザーがタスクを発行できる方法、および公開する権限を持つチームを定義します。 組織に対してチームのターゲット階層が設定されていない限り、すべてのユーザーに対して発行機能が無効になります。 チームのターゲット階層を設定するには、階層を定義するファイルを作成し、それを Teams にアップロードして組織に適用する必要があります。 スキーマがアップロードされると、Teams 内のアプリで使用できます。
 
 > [!IMPORTANT]
-> 最初のリリースでは、タスク アプリだけが階層構造のチームをサポートしています。  チームのターゲット階層を組織に適用すると、 [タスク](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) アプリでのタスクの発行が有効になります。 Microsoft Teams の他の領域には、チームの階層は表示されません。
+> 最初のリリースでは、タスク アプリだけが階層型チームをサポートしています。  チームのターゲット階層を組織に適用すると、 [タスク](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) アプリでのタスクの発行が有効になります。 Microsoft Teams の他の領域には、チームの階層は表示されません。
 
 Teams のタスク アプリで階層がどのように表されるのかの例を次に示します。 タスク リストを作成した後、発行チームのメンバーは、タスク リストを送信 (発行) する受信者チームを選択できます。 チームを選択すると、発行チームは階層、属性、または両方の組み合わせでフィルター処理できます。<br>
 
-![タスクの発行のスクリーンショット](media/manage-tasks-app-publish.png)
+![タスク発行のスクリーンショット](media/manage-tasks-app-publish.png)
 
 ## <a name="terminology"></a>用語
 
@@ -67,7 +67,7 @@ Teams のタスク アプリで階層がどのように表されるのかの例�
 
 ### <a name="example-hierarchy"></a>階層の例
 
-たとえば、次の階層では、リコール、コミュニケーション、人事は、階層内のすべての下位ノード (チーム) にタスクを発行できますが、ノースゾーンでは、タスクをニューヨーク ストアとボストン ストア チームにのみ発行できます。 この階層例では、リコール、コミュニケーション、人事グループが、福利厚生情報や CEO からのメッセージなど、会社全体に適用されるタスクを発行できます。 ノースゾーンでは、人事のスケジュール、天気情報など、タスクをニューヨークのストアチームとボストン ストア チームにのみ発行できます。
+たとえば、次の階層では、リコール、コミュニケーション、人事は、階層内のすべての下位ノード (チーム) にタスクを発行できますが、ノースゾーンでは、タスクをニューヨークストアとボストン ストア チームにのみ発行できます。 この階層例では、リコール、コミュニケーション、人事グループが、福利厚生情報や CEO からのメッセージなど、会社全体に適用されるタスクを発行できます。 ノースゾーンでは、人事のスケジュール、天気情報など、タスクをニューヨーク のストアチームとボストン ストア チームにのみ発行できます。
 
 ![チームの階層構造の例](media/team-targeting-schema-example-new.png)
 
@@ -106,7 +106,7 @@ CSV ファイルには、最初の列から始まる次の 3 つの列が次の�
 
 * 指定した列名またはコロンの前に指定した列名 (:)属性の名前になります。 この値は、階層を使用する Teams アプリに表示されます。
 * 階層には最大 50 列の属性列を含めできます。
-* 列名には最大 100 文字まで使用できます。A ~ Z、a ~ z、0 ~ 9、およびスペースのみを含めることができます。 列名は一意である必要があります。
+* 列名には、最大 100 文字まで使用できます。A ~ Z、a ~ z、0 ~ 9、およびスペースのみを含めることができます。 列名は一意である必要があります。
 
 ### <a name="add-bucket-columns"></a>バケット列を追加する
 
@@ -132,20 +132,20 @@ CSV ファイルには、最初の列から始まる次の 3 つの列が次の�
 属性 `Store layout` には、次の `Compact` 値が `Standard` 含まれます `Large` 。 属性 `Departments` 列は、値 `0` (0) または . `1` 上 `Store` の図 `Departments` では、レイアウトと属性は表示されません。 属性をノード エントリに追加する方法を示すのに役立つ情報がここに追加されます。 3 つのバケット列にも同じです。
 
 ```CSV
-"TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear"
-"Recall,,db23e6ba-04a6-412a-95e8-49e5b01943ba,,,,,,"
-"Communications,,145399ce-a761-4843-a110-3077249037fc,,,,,,"
-"HR,,,,,,,,,,"
-"East Regional Office,,,,,,,,,,"
-"West Regional Office,,,,,,,,,,"
-"Northeast Zone,East Regional Office,,,,,,,,"
-"Southeast Zone,East Regional Office,,,,,,,,"
-"New York Store,Northeast Zone,e2ba65f6-25e7-488b-b8f0-b8562d5de60a,Large,1,1,,,"
-"Boston Store,Northeast Zone,0454f08a-0507-437c-969a-682eb2fae7fc,Standard,1,1,,,"
-"Miami Store,Southeast Zone,619d6e4e-5f68-4b36-8e1f-16c98d7396c1,Compact,0,1,,,"
-"New Orleans Store,Southeast Zone,6be960b8-72af-4561-a343-9ac4711874eb,Compact,0,1,,,"
-"Seattle Store,West Regional Zone,487c0d20-4e55-4dc2-8187-a24c826e0fee,Standard,1,1,,,"
-"Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,1,1,,,"
+TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
+Recall,,db23e6ba-04a6-412a-95e8-49e5b01943ba,,,,,,
+Communications,,145399ce-a761-4843-a110-3077249037fc,,,,,,
+HR,,,,,,,,
+East Regional Office,,,,,,,,
+West Regional Office,,,,,,,,
+Northeast Zone,East Regional Office,,,,,,,
+Southeast Zone,East Regional Office,,,,,,,
+New York Store,Northeast Zone,e2ba65f6-25e7-488b-b8f0-b8562d5de60a,Large,1,1,,,
+Boston Store,Northeast Zone,0454f08a-0507-437c-969a-682eb2fae7fc,Standard,1,1,,,
+Miami Store,Southeast Zone,619d6e4e-5f68-4b36-8e1f-16c98d7396c1,Compact,0,1,,,
+New Orleans Store,Southeast Zone,6be960b8-72af-4561-a343-9ac4711874eb,Compact,0,1,,,
+Seattle Store,West Regional Zone,487c0d20-4e55-4dc2-8187-a24c826e0fee,Standard,1,1,,,
+Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,1,1,,,
 ```
 
 ## <a name="apply-your-hierarchy"></a>階層を適用する
@@ -264,7 +264,7 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-スキーマ CSV ファイルでチームに正しい TeamId を使用していることを確認します。 TeamId は、チームをバックアップする Microsoft 365 グループのグループ ID と同じである必要があります。 Microsoft Teams 管理センターでチームのグループ ID を確認できます。
+スキーマ CSV ファイル内のチームに正しい TeamId を使用していることを確認します。 TeamId は、チームをバックアップする Microsoft 365 グループのグループ ID と同じである必要があります。 Microsoft Teams 管理センターでチームのグループ ID を確認できます。
 
 1. Microsoft Teams 管理センターの左側のナビゲーション [で、[チーム](https://admin.teams.microsoft.com/)の管理]  >  **に移動します**。
 2. テーブルに **[グループ ID]** 列が表示されない場合は、テーブルの右上隅にある [列の編集] を選び、[グループ **ID] をオンにします**。

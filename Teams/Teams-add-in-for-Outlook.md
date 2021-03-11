@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams は、ユーザーが  Outlook から Teams の会議をスケジュール設定することができるようになるアドインを Outlook にインストールします。
 f1.keywords:
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3635d56b510c0ece55a0fdb9408c72a697436841
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
-ms.translationtype: MT
+ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
+ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278557"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50614933"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -77,7 +77,7 @@ FindTime は、Outlook 用のアドインです。これは、企業全体での
 
 ## <a name="authentication-requirements"></a>認証要件
 
-Teams の会議アドインでは、ユーザーが認証要件を使用して Teams にサインインすることが必要になります。 ユーザーがサインインにこの方法を使用しない場合、Teams クライアントは引き続き使用できますが、Outlook アドインを使用して [Teams](https://www.microsoft.com/microsoft-teams/online-meetings) オンライン会議をスケジュールすることはできません。 これを修正するには、次のいずれかを実行します。
+Teams の会議アドインでは、ユーザーが認証要件を使用して Teams にサインインすることが必要になります。 ユーザーがこの方法を使用せずにサインインした場合、Teams クライアントを使用することはできますが、Outlook アドインを使用して [Teams のオンライン会議](https://www.microsoft.com/microsoft-teams/online-meetings)をスケジュール設定することはできません。 これを修正するには、次のいずれかを実行します。
 
 - 先進認証が組織に対して構成されていない場合は、先進認証を構成します。
 - 先進認証が構成されていているのにダイアログ ボックスでユーザーが無効になってしまう場合は、それらのユーザーに対して多要素認証を使用してサインインし直すよう指示します。
@@ -182,4 +182,4 @@ Outlook 用の Teams 会議アドインをインストールできない場合�
 
 - [Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
 
-- [Outlook から Teams 会議をスケジュールする](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
+- [Outlook から Teams の会議のスケジュールを設定する](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
