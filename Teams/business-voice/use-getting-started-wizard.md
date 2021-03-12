@@ -18,12 +18,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53636ada916fec05bf75ef8947cdab44e38644e2
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 3a3a5162f46631e00e6ffc22c19654908b4cb78b
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030613"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726238"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>[作業の開始] ウィザードを使用して Business Voice をセットアップする
 
@@ -53,7 +53,7 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
 <table>
     <tr>
         <td>緊急アドレスを変更する場合は、[<b>編集</b>] をクリックして新しいアドレスを入力します。 入力したアドレスは、正当なものであり、緊急対応サービス用に正しく書式設定されていることを確認するために検証されます。 このアドレスは、次の手順で番号を割り当てるすべてのユーザーに割り当てられます。 複数の場所に従業員がいる場合、「<a href="./customize-business-voice.md">Business Voice 設計カスタマイズ</a>」を参照して、[作業の開始] ウィザードを準備した後、緊急アドレスを追加し割り当ててください。</td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="wizard choose number"></td></tr>
 </table>
 
 詳細については、「[緊急対応の場所、アドレス、通話ルーティングの概要](../what-are-emergency-locations-addresses-and-call-routing.md)」をご覧ください。
@@ -64,7 +64,7 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
     <tr>
         <td>新しいローカル電話番号に加えて、フリーダイヤル番号を購入するか、既存の番号を Microsoft 365 にポートできます。 フリーダイヤル番号を設定する場合は、通信クレジットを購入する必要があります。 1 つ以上の番号を Microsoft 365 にポートするには、ウィザードが完了した後、<a href="https://admin.teams.microsoft.com">Teams 管理センター</a>に移動します。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400" alt="choose number">
         </td>
     </tr>
 </table>
@@ -78,7 +78,7 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
     <tr>
         <td>ユーザー ライセンスを割り当てるために、Teams の外部で電話を発信および受信する組織内の人を選択します (サプライヤーへの電話など)。 使用可能な Business Voices ライセンスな数だけを割り当てることができます。 さらに必要な場合は、ウィザード終了後に追加のライセンスを購入できます。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-get-numbers.png" width="400" alt="get numbers">
         </td>
     </tr>
 </table>
@@ -92,7 +92,7 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
     <tr>
         <td>案内応答として使用する最大 5 メガバイト (MB) の音声ファイル (MP3 または WAV) をアップロードするか、案内応答を入力すると、Microsoft 365 は音声合成を使用して発信者に読み上げます。 案内応答は、発信者が会社の電話番号に電話をかけるときに最初に聞くことになります。 音声合成の場合、発音を正しくするために、音声表記を使用する必要がある場合があります。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-greeting.png" width="400" alt="greeting">
         </td>
     </tr>
 </table>
@@ -104,7 +104,7 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
         <td>すべての通話を特定のユーザーに転送するか、発信者がオプションを選択できる通話メニューを設定できます。 通話メニューを作成する場合、音声または電話のキーパッドで数字を押すことにより、発信者が選択できるオプションを指定できます。 各メニュー オプションにより、通話を特定のユーザーに転送できます。<br><br>
         発信者に指示する最大 5MB の音声ファイル (MP3 または WAV) をアップロードするか、指示を入力できます。 Microsoft 365 は、音声合成を使用して、発信者にそれらを読みます。 正しい発音のために、音声で単語を綴る必要がある場合があります。
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400" alt="call forwarding">
         </td>
     </tr>
 </table>
@@ -117,7 +117,7 @@ Microsoft 365 Business Voice の [作業の開始] ウィザードを使用す�
         <td> <p>[作業の開始] ウィザードは、入力した情報を取得し、Business Voice を設定します。 [<b>概要</b>] ページで、ユーザーに割り当てられる電話番号を確認したり、通話メニューを確認したり、案内応答を聞いたりすることができます。</p>
              <p>設定には数分間かかります。 [<b>完了</b>] を選択した場合、バックグランドで Business Voice の設定を続行します。 または、設定が完了するまで待機してください。 完了したら、<a href="https://admin.teams.microsoft.com" target="_blank">Teams 管理センター</a>の [<b>音声</b>] に移動して、さらに Business Voice 機能をセットアップします。</p>
         </td>
-        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400">
+        <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-finish-page.png" width="400" alt="finish page">
         </td>
     </tr>
 </table>
