@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: この記事では、次世代の Skype ミーティング システムである Microsoft Teams Rooms の展開に関連した計画時の考慮事項について説明します。
-ms.openlocfilehash: ccc24aea1a45d2aa75c3b1a5de668b520483c2bd
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: fae50e076467efdfe69115d967f3d6564ba9266a
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662472"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726278"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams Rooms を計画する
 
@@ -58,8 +58,8 @@ Microsoft Teams、Skype for Business Online、または Skype for Business ハ�
 
 |    |     |
 |-----------|------------|
-|![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms を組織に展開しますか? </li><li>別のコンポーネントとしてバンドルされている、または統合されたユニットとして Microsoft Teams Rooms システムを購入するにはどうすればよいですか?</li></ul> |
-| ![](../media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>展開全体を通して、主要な作業を引き受けるユーザーを特定します。</li><li>所有している (およびセットアップを計画している) 会議室を確認し、Microsoft Teams Rooms を展開する場所と、会議室の規模に適した周辺機器を把握します。</li></ul> |
+|![展開を決定する](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms を組織に展開しますか? </li><li>別のコンポーネントとしてバンドルされている、または統合されたユニットとして Microsoft Teams Rooms システムを購入するにはどうすればよいですか?</li></ul> |
+| ![アクティビティを特定する](../media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>展開全体を通して、主要な作業を引き受けるユーザーを特定します。</li><li>所有している (およびセットアップを計画している) 会議室を確認し、Microsoft Teams Rooms を展開する場所と、会議室の規模に適した周辺機器を把握します。</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>展開全体を通して、主要な作業を引き受けるユーザーを特定する
@@ -96,8 +96,7 @@ Microsoft Teams、Skype for Business Online、または Skype for Business ハ�
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>この展開にはどの部屋が対象ですか?</li><li>この展開にはどのサイトが対象ですか?</li><li>会議室のリスト化は誰が引き受けますか?</li></ul> |
-| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>対象の会議室を確認し、Microsoft Teams Rooms の構成を定義します。</li></ul>|
+| ![deplyment rooms](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>対象の会議室を確認し、Microsoft Teams Rooms の構成を定義します。</li></ul>|
 
 _会議のサンプルのリスト_
 
@@ -118,8 +117,8 @@ _会議のサンプルのリスト_
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>リストから、どの種類の会議室が展開対象ですか?</li><li>各会議室の種類ごとにどのシステムを導入しますか?</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>選んだシステムの重要な運用材料を収集し、調達チームと連携します。</li></ul>|
+| ![範囲内の会議室](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>リストから、どの種類の会議室が展開対象ですか?</li><li>各会議室の種類ごとにどのシステムを導入しますか?</li></ul>|
+| ![資料を収集する](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>選んだシステムの重要な運用材料を収集し、調達チームと連携します。</li></ul>|
 
 _お客様の組織に適した Microsoft Teams Rooms の展開テンプレートの例_
 
@@ -142,8 +141,8 @@ _お客様の組織に適した Microsoft Teams Rooms の展開テンプレー�
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>コンポーネントをサイトまたはステージング施設に直接発送しますか?</li><li>ステージング施設を管理するのは誰ですか (1 つを使用する場合)?</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>運用計画を立てます。</li><li>導入および変更管理を計画します。</li></ul>|
+| ![出荷コンポーネント](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>コンポーネントをサイトまたはステージング施設に直接発送しますか?</li><li>ステージング施設を管理するのは誰ですか (1 つを使用する場合)?</li></ul>|
+| ![プランの操作](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>運用計画を立てます。</li><li>導入および変更管理を計画します。</li></ul>|
 
 ## <a name="plan-for-operations"></a>運用計画 
 
@@ -155,8 +154,8 @@ Microsoft Teams Rooms関連の連絡を転送するヘルプデスク キュー�
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms の管理者を決めます。</li><li>Microsoft Teams Rooms 関連の連絡を転送するヘルプデスク キューを決めます。</li></ul>|
-| ![](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アカウントのホストを準備します。 </li></ul>|
+| ![[マネージャー] を選ぶ](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms の管理者を決めます。</li><li>Microsoft Teams Rooms 関連の連絡を転送するヘルプデスク キューを決めます。</li></ul>|
+| ![ホスト アカウントを準備する](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アカウントのホストを準備します。 </li></ul>|
 
 
 ## <a name="plan-for-adoption-and-change-management"></a>導入と変更の管理の計画

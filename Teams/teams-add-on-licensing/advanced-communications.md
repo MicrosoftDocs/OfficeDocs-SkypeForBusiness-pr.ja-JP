@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b24002dc01c2de717bbf237d956770b45219edf5
-ms.sourcegitcommit: 654199b413d1c0ab3feffbb9b7d7ddfa021ec273
+ms.openlocfilehash: 446a9d5abab6f7302a46d6a8fca43f642fcea2d6
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50032416"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726378"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Microsoft Teams 用 Advanced Communications アドオン
 
@@ -30,15 +30,16 @@ ms.locfileid: "50032416"
 
 ## <a name="what-is-advanced-communications"></a>Advanced Communications とは
 
-Advanced Communications には、高度な会議のカスタマイズと、組織のコミュニケーション ポリシーを管理するためのツールが含まれています。 その他の機能には、会議をカスタマイズするためのカスタム ブランドのミーティング ロビーや、ユーザーやデバイスのデータを監視、追跡、分析するためのツールが含まれます。
+Advanced Communications には、高度な会議のカスタマイズ、組織のコミュニケーション ポリシーを管理するためのツール、カスタム ポリシー パッケージを使用したプレミアム管理が含まれます。 その他の機能には、会議をカスタマイズするためのカスタム ブランドのミーティング ロビーや、ユーザーやデバイスのデータを監視、追跡、分析するためのツールが含まれます。
 
-- **会議の調整とカスタマイズ:** カスタム ブランドのミーティング ロビーなどの機能を使用して、社内シナリオとカスタム向けシナリオの会議全体の標準化を推進します。 組織の部門全体で柔軟性を備えて実装します。
+- **会議のカスタマイズとカスタマイズ**: カスタム ブランドのミーティング ロビーなどの機能を使用して、内部およびユーザー設定のシナリオに合わせて会議全体の標準化を推進します。 組織の部門全体で柔軟性を備えて実装します。
 - **組織の通信を管理** する: ユーザーとデバイスのデータを監視、追跡、分析して、スムーズなエクスペリエンスを実現します。
+- **カスタム ポリシー パッケージでの** エクスペリエンスのカスタマイズ: 組織内で同様の役割を持つユーザーに独自のポリシー セットをバンドルできます。 Teams 管理センターまたは PowerShell を使用して、バンドルするポリシーの種類とポリシーを追加して、独自のポリシー パッケージを作成します。 カスタム ポリシー パッケージの割り当てを受け取るには、各ユーザーにライセンスが必要です。 
 
 Advanced Communications は、すべての Microsoft 365 市場で、有料の Microsoft 365 または Office 365 サブスクリプションのアドオンとして利用できます。 Advanced Communications に含まれる機能は、他の Microsoft 365 プランまたは Office 365 プランには追加されません。また、個別に購入する方法もあります。 機能を取得するには、アドオンを購入する必要があります。
 
 > [!NOTE]
-> 機能は利用可能になるとリリースされます。 最新の機能の [タイミングについては、Microsoft 365 パブリック](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) ロードマップにアクセスしてください。
+> 機能は利用可能になるとリリースされます。 最新の [機能のタイミングについては、Microsoft 365 の](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) 一般向けロードマップを参照してください。
 
 > [!NOTE]
 > Advanced Communications は、Microsoft 365 GCC High または Department of Defense (DoD) 環境ではまだ利用できません。

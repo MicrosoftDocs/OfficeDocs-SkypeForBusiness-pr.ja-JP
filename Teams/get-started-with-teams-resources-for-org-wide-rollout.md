@@ -21,12 +21,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df4cc9e8c71622fd8564420b31bd5a06d7ac73b2
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 41b5a0f2a09d05ba1a55ee3fcd31ce3a9c4222b2
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395289"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726208"
 ---
 # <a name="start-your-organization-wide-rollout-of-microsoft-teams"></a>Microsoft Teams の組織全体での展開を開始する
 
@@ -63,6 +63,6 @@ Teams の小規模なビジネス セットアップは、Teams のすべての�
 これがご所属の組織のように感じられる場合は、Teams のエンタープライズ セットアップを完了する必要があります。 エンタープライズ セットアップは、導入計画を支援し、Teams を最大限に活用するための導入プログラムの確立方法を提案します。
 
 > [!div class="nextstepaction"]
-> [エンタープライズ セットアップへ移動](deploy-advanced.md)
+> [エンタープライズ セットアップへ移動](deploy-enterprise-overview.md)
 
 ---

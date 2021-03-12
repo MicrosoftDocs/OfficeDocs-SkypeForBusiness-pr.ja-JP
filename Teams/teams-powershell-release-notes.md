@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell の最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24fa58e50ad42d3204fd4dc1269c8f59a3349d5e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 3e464071252ebbd713495ba070ba3f9ae8a23c3b
+ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569399"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50741898"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell のリリース ノート
 
@@ -27,12 +27,12 @@ ms.locfileid: "50569399"
 ## <a name="release-notes"></a>リリース ノート
 
 > [!NOTE]
-> **下のバージョン** 列の -preview は、Teams PowerShell パブリック プレビューの更新を表しています。
+> **下の** バージョン列の -preview は、Teams PowerShell パブリック プレビューの更新プログラムを表しています。
 
 | 日付 | バージョン | 更新プログラム |
 |------- | -------------------- | ------------------------------ |
-| 2021 年 3 月 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>認証認証に MSAL を&する</li><li>リファクタリングされたポリシー パッケージコマンドレットとグループ パッケージ割り当ての追加</li><li>Get-Team コマンドレットの Mezzo とバッチ処理の拡張機能</li> <li>既存のコマンドレットのログ記録とデバッグ オプションの改善 </li> <li>テンプレート管理コマンドレットが追加されました</li> <li>New-CsOnlineSession の廃止</li>|
-| 2021 年 2 月 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>テンプレート管理コマンドレットが追加されました</li><li>Get-Team コマンドレットの mezzo とバッチ処理の拡張機能</li> <li>既存のコマンドレットのログ記録とデバッグ オプションの改善 </li> <li>リファクタリングされたポリシー パッケージコマンドレット</li>|
+| 2021 年 3 月 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>認証認証に MSAL を&する</li><li>リファクタリングされたポリシー パッケージコマンドレットとグループ パッケージ割り当ての追加</li><li>Get-Team コマンドレットの大幅Get-Team強化</li> <li>既存のコマンドレットのログ記録とデバッグ オプションの改善 </li> <li>テンプレート管理コマンドレットが追加されました</li> <li>New-CsOnlineSession の廃止</li>|
+| 2021 年 2 月 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>テンプレート管理コマンドレットが追加されました</li><li>Get-Team コマンドレットの Mezzo とバッチ処理の拡張機能</li> <li>既存のコマンドレットのログ記録とデバッグ オプションの改善 </li> <li>リファクタリングされたポリシー パッケージコマンドレット</li>|
 | 2020 年 12 月 | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>再試行回数とスリープ時間が長い New-team コマンドレットの更新</li>|
 | 2020 年 12 月 | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Skype for Business Online との統合に関する更新プログラム</li><li>Teams での重複プロンプトのConnect-Microsoft修正</li>|
 | 2020 年 11 月 | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>カスタム ポリシー パッケージコマンドレットを追加する</li><li>ターゲット階層のアップロード コマンドの修正</li>|
