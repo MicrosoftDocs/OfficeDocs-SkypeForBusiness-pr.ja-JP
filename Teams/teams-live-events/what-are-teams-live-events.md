@@ -24,7 +24,7 @@ appliesto:
 localization_priority: Normal
 ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
 ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/21/2021
 ms.locfileid: "49918993"
@@ -63,7 +63,7 @@ Teams では、主催者は適切な参加者アクセス許可でイベント�
 ![新しいライブ イベント画面](../media/teams-live-events-schedule.png "新しいライブ イベントを作成およびスケジュールするための [新しいライブ イベント] 画面を示すスクリーンショット")
 
 > [!IMPORTANT]
-> オフラインの場合や帯域幅が限られている場合、Teams ではユーザーが会議やライブ イベントをスケジュールすることはできません。
+> Teams は、ユーザーがオフラインのときや、限られた帯域幅で実行しているときには、会議やライブ イベントをスケジュールできないようにします。
 
 ### <a name="production"></a>作成
 

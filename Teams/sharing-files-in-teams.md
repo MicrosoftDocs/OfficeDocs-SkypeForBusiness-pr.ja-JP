@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams でファイルとフォルダーを共有する
+title: Microsoft Teams でのファイルとフォルダー共有
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -13,17 +13,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: Microsoft Teams でのファイルとフォルダー共有のエクスペリエンスについて説明します。
+description: Microsoft Teams のファイルとフォルダー共有機能について説明します。
 ms.openlocfilehash: 5b6847c42f13701e289b2efaad4a5489351f339b
 ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 01/11/2021
 ms.locfileid: "49795779"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Microsoft Teams でのファイル共有
 
-Microsoft Teams では、組織内外の他の Teamsユーザーとコンテンツを共有できます。 Teams でのファイルとフォルダーの共有は、SharePoint と OneDrive で構成された設定に基づいて行うので、SharePoint と OneDrive に設定した設定は、Teams での共有にも影響します。
+Microsoft Teams では、組織内外の他の Teamsユーザーとコンテンツを共有できます。 Teamsでのファイルとフォルダー共有は、SharePoint と OneDrive に構成されている設定に基づいているため、SharePoint および OneDrive 用の設定が、Teams での共有にも影響します。
 
 ## <a name="overview"></a>概要
 
@@ -50,4 +50,4 @@ Microsoft Teams では、組織内外の他の Teamsユーザーとコンテン�
 
 [サイトの既定のリンクの種類を変更する](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
 
-[チームのゲストと共同作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+[チームでゲストと共同で作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
