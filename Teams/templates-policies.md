@@ -18,17 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 管理センターで Teams テンプレートを管理する方法について説明します。
-ms.openlocfilehash: df734d175d521b5be3ef81bf9dd8a95d749812e2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: b32be22dc7a57e65c6ec8d901ae6e7b004ce4b6c
+ms.sourcegitcommit: 3db994f3d26b05071d84b2004892a2ca2ff26d25
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569013"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "50765830"
 ---
-# <a name="manage-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートを管理する
+# <a name="manage-teams-templates-in-the-admin-center"></a>管理センターで Teams テンプレートを管理する
 
 エンド ユーザーに表示される Teams テンプレートを管理するには、管理センターでテンプレート ポリシーを作成します。 各テンプレート ポリシー内で、表示または非表示のテンプレートを指定できます。
 ユーザーが指定した Teams テンプレートのサブセットのみを表示するために、異なるテンプレート ポリシーに異なるユーザーを割り当てる。
+
+テンプレート ポリシーを管理する方法については、この短いビデオをご覧ください。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXL9]
 
 ## <a name="create-template-policies-and-assign-available-templates"></a>テンプレート ポリシーを作成し、使用可能なテンプレートを割り当てる
 
@@ -40,7 +44,7 @@ ms.locfileid: "50569013"
 
     ![テンプレート ポリシーが選択され、[追加] が強調表示されている](media/template-policies-1.png)
 
-1. [テンプレート ポリシー **の設定] セクションで、** 次のフィールドに入力します。
+1. [テンプレート ポリシー **の設定] セクションで** 、次のフィールドに入力します。
 
     - テンプレート ポリシー名
 
@@ -48,7 +52,7 @@ ms.locfileid: "50569013"
 
 2. [表示可能 **なテンプレート] テーブル** で、非表示にするテンプレートを選択し、[非表示] を選択 **します**。
 
-    ![[非表示] が強調表示された選択したテンプレート](media/template-policies-2.png)
+    ![非表示が強調表示された選択したテンプレート](media/template-policies-2.png)
 
     非表示に設定したテンプレートは、[非表示のテンプレート] テーブル **に表示** されます。
 
@@ -86,7 +90,7 @@ ms.locfileid: "50569013"
 
 **Q: チーム テンプレート ポリシーにユーザーをバッチ割り当てできますか?**
   
-A: はい、PowerShell のテンプレート ポリシーのバッチ割り当てをサポートしています。 このアクションのポリシーの種類は、TeamsTemplatePermissionPolicy です。 [詳細情報](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+A: はい、PowerShell のテンプレート ポリシーのバッチ割り当てをサポートしています。 このアクションのポリシーの種類は、TeamsTemplatePermissionPolicy です。 [詳細情報](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q: グループはチーム テンプレート ポリシーに割り当てることができますか?**
 
@@ -128,7 +132,7 @@ A: いいえ、PowerShell でのテンプレートの管理はサポートされ
 
 A: いいえ、EDU のテンプレート ポリシーはサポートされていません。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [管理センターでチーム テンプレートの使用を開始する](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
 
@@ -140,4 +144,4 @@ A: いいえ、EDU のテンプレート ポリシーはサポートされてい
 
 - [Microsoft Teams でユーザーにポリシーを割り当てる - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
 
-- [ポリシーにユーザーをバッチ割り当てる](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)
+- [ポリシーにユーザーをバッチ割り当てる](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)

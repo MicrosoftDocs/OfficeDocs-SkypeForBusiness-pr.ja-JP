@@ -16,24 +16,24 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: 組織内のユーザーから RestrictedAnonymousAccess Teams 会議ポリシーを削除する方法について説明します。
-ms.openlocfilehash: 55385cdd47f6b6c9882f8d4e8dcadc848f13755d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 16158be1c0550cf1753d8984f8760e267ab4af5c
+ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806257"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "50756213"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>ユーザーから RestrictedAnonymousAccess Teams 会議ポリシーを削除する
 
 Microsoft Teams[の](meeting-policies-in-teams.md)会議ポリシーは、組織内のユーザーがスケジュールした会議の会議参加者が使用できる機能を制御するために使用されます。 
 
-Teams には RestrictedAnonymousAccess という名前の組み込みポリシーが含まれています。これには、匿名ユーザーによる会議の開始を制限する設定が事前に含まれています。 (匿名ユーザーは、認証されていないユーザーです)。会議ポリシーの定義済みの設定は、管理者が編集または変更することはできません。
+Teams には RestrictedAnonymousAccess という組み込みポリシーが含まれています。これには、匿名ユーザーによる会議の開始を制限する設定が事前に含まれています。 (匿名ユーザーは、認証されていないユーザーです)。会議ポリシーの定義済みの設定は、管理者が編集または変更することはできません。
 
 この記事では、PowerShell を使用して、このポリシーが割り当てられているユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する方法について説明します。 PowerShell を使用して Teams を管理する方法の詳細については [、Teams PowerShell の概要を参照してください](teams-powershell-overview.md)。
 
 ## <a name="before-you-start"></a>始める前に
 
-[Skype for Business PowerShell モジュールをインストールして接続します](https://www.microsoft.com/download/details.aspx?id=39366)。 詳しい手順については [、「Microsoft Teams PowerShell をインストールする」を参照してください](teams-powershell-install.md)。
+[Skype for Business PowerShell モジュールをインストールして接続します](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)。 詳しい手順については [、「Microsoft Teams PowerShell をインストールする」を参照してください](teams-powershell-install.md)。
 
 ## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>組織の Teams 会議ポリシーの割り当てを取得する
 
@@ -70,7 +70,7 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 バッチ [ポリシーの割](assign-policies.md#assign-a-policy-to-a-batch-of-users)り当てでは、ポリシーを削除または更新できるユーザーの最大数は、一度に 5,000 人です。 たとえば、ユーザー数が 5,000 を超える場合は、複数のバッチを送信する必要があります。 最良の結果を得る場合は、一度に複数のバッチを送信しない。 さらにバッチを送信する前に、バッチが処理を完了できるようにします。
 
 > [!NOTE]
-> [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)コマンドレットは、Teams PowerShell モジュール内に入っています。 これらの手順を実行する前に [、Teams PowerShell モジュールをインストールして接続します](https://www.powershellgallery.com/packages/MicrosoftTeams)。 詳しい手順については [、「Microsoft Teams PowerShell をインストールする」を参照してください](teams-powershell-install.md)。
+> [New-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps)コマンドレットは、Teams PowerShell モジュールに含されます。 これらの手順を実行する前に [、Teams PowerShell モジュールをインストールして接続します](https://www.powershellgallery.com/packages/MicrosoftTeams)。 詳しい手順については [、「Microsoft Teams PowerShell をインストールする」を参照してください](teams-powershell-install.md)。
 
 次のコマンドを実行して、ユーザーのバッチから RestrictedAnonymousAccess 会議ポリシーを削除します。
 
@@ -92,7 +92,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454
 
 **ErrorCount** が **0** (ゼロ) で **、OverallStatus が** 完了した状態を **確認します**。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
