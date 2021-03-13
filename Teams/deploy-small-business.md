@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbadcd18050d098d9c602f7ba56da40ecafd89b4
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: e93463b175c58e588cf982f17c8a83535c4b0c80
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395437"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726218"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>小規模ビジネスで Microsoft Teams を設定する
 
@@ -51,7 +51,7 @@ Teams を多数のユーザーに展開する前に、「[準備ができてい�
 > [!TIP]
 > Microsoft Learn の 「[Microsoft Teams の管理](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/)」モジュールを完了して、チームの役割、アクセス権、およびメッセージング ポリシーを管理する方法を確認してください。
 
-チームおよびチャネルの展開を検討するときは、チームやチャネルの作成権限を与えるユーザー、組織外のゲストがチームやチャネルにアクセスすることを許可するかどうかなどを決定する必要があります。 「[Microsoft Teams のチャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)」の記事では、チャット、チーム、およびチャネルの計画に関する多くの情報が提供されています。以下は、この記事に記載されている主な検討事項です。 それぞれの判断事項をクリックすると、詳細を確認できます。
+チームおよびチャネルの展開を検討するときは、チームやチャネルの作成権限を与えるユーザー、組織外のゲストがチームやチャネルにアクセスすることを許可するかどうかなどを決定する必要があります。 「[Microsoft Teams のチャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)」の記事では、チャット、チーム、およびチャネルの計画に関する多くの情報が提供されています。以下は、この記事に記載されている主な検討事項です。 それぞれの判断事項を選択すると、詳細を確認できます。
 
 | 判断事項 | 説明 |
 |--|--|
@@ -62,7 +62,7 @@ Teams を多数のユーザーに展開する前に、「[準備ができてい�
 上記以外に、ユーザーがチャット、チーム、およびチャネルの使用を開始できるようにするために管理者が行う必要がある操作はありません。 ただし、Teams の利用方法を管理するためのさまざまなオプションがあります。 今すぐ変更することも、Teams の実際の利用状況を確認してから変更することもできます。 詳細については、次の記事を参照してください。
 
 - [Teams のメッセージング ポリシーを管理する](messaging-policies-in-teams.md)
-- [Teams の設定](enable-features-office-365#teams-settings)
+- [Teams の設定](enable-features-office-365.md#teams-settings)
 
 ### <a name="meetings-and-conferencing"></a>ミーティングと会議
 

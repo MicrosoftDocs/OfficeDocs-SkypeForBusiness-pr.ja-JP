@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8d0b51b577ca12bc454617e60671fcefe4da03d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 22e2f243bfde3e4671727ce737ba62bc154adb0d
+ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395440"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "50726198"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams の展開の概要
 
@@ -40,7 +40,7 @@ Teams はこのように幅広い組織タイプと開始ポイントをサポ�
 > 既存の Skype for Business Online またはオンプレミスの Skypef or Business の展開がある場合は、**概要** セクションのトピックに加えて、次のトピックを確認してください。
 >
 > - [Skype for Business Online からアップグレード](upgrade-start-here.md)
-> - [ハイブリッド接続のプラン](../Skype/SfbHybrid/hybrid/plan-hybrid-connectivity.md)
+> - ハイブリッド接続のプラン
 
 |セクション  |説明  |
 |---------|---------|
