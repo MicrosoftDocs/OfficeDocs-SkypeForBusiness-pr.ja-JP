@@ -765,6 +765,8 @@ items:
             href: teams-live-events/set-teams-live-events-policies-using-powershell.md
           - name: Teams のライブ イベント設定を構成する
             href: teams-live-events/configure-teams-live-events.md
+          - name: ライブ イベント レコーディング ポリシー
+            href: teams-live-events/live-events-recording-policies.md
   - name: 音声 - 電話システムと PSTN 接続
     items:
       - name: Teams の音声ソリューションを計画する
