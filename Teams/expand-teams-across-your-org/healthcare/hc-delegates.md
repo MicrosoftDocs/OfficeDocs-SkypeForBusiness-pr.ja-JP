@@ -20,11 +20,11 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
-description: "\"退席中\" 状態または \"応答不可\" 状態のユーザーが自分の状態メッセージで別のユーザーを代理として明示的に設定する方法について説明します。"
+description: '[退席中] 状態または [応答不可] 状態のユーザーが、状態メッセージで別のユーザーを代理人として明示的に設定する方法について説明します。'
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: ac23afbea7f452967718a8c2d86fd4d36584492d
 ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/28/2020
 ms.locfileid: "48790469"
@@ -47,13 +47,13 @@ ms.locfileid: "48790469"
 
 ## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>Teams クライアントのユーザー ステータスに対する共存モードの影響
 
-管理者は、[状態メモ] と [委任によるメンション] の動作が、ユーザーの共存モードに依存することに注意する必要があります。 このマトリックスは可能性を示します。
+管理者は、状態メモと委任に関するメンションの動作がユーザーの共存モードに一部依存することに注意する必要があります。 このマトリックスは可能性を示します。
 
 |共存モード | 正常な動作|
 |---|---|
-|TeamsOnly |ユーザーは、Teams からのみメモを設定できます。 <br> ユーザーの Teams のメモは Teams & SfB に表示されます。 |
-|アイランド | Teams でのユーザーのメモセットは、Teams でのみ表示されます。 <br> Sfb でのみ表示される sfb でのユーザのメモセット |
-|SfB* モード | ユーザーは、SfB からのみメモを設定できます。 <br> ユーザーの SfB メモは、SfB & Teams で表示されます。  |
+|TeamsOnly |ユーザーは、Teams からのみメモを設定できます。 <br> ユーザーの Teams メモは、Teams と SfB に表示されます。 |
+|アイランド | Teams で設定されたユーザーのメモは、Teams でのみ表示されます。 <br> SfB で設定されたユーザーのメモは、SfB でのみ表示されます。 |
+|SfB* モード | ユーザーは、SfB からのみメモを設定できます。 <br> ユーザーの SfB メモは、SfB と Teams に表示されます。  |
 |||
 
 モードが TeamsOnly または アイランドの場合、ユーザーはメモを設定できます。  
@@ -62,9 +62,9 @@ ms.locfileid: "48790469"
   
 メモが Skype for Business から設定されていることを視覚的に示すものはありません。
 
-Skype for Business では、状態メモに文字数の制限は適用されません。 Microsoft Teams は、Skype for Business からのメモ セットのうち最初の 280 文字のみを表示します。 メモの最後にある省略記号 (…) は省略されたことを示します。
+Skype for Business の状態メモに文字数の制限は適用されていません。 Microsoft Teams は、Skype for Business からのメモ セットのうち最初の 280 文字のみを表示します。 メモの最後にある省略記号 (…) は省略されたことを示します。
   
-Skype for Business では、ノートの有効期間をサポートしていません。
+Skype for Business は、メモの有効期限をサポートしていません。
 
 ユーザーが TeamsOnly モードにアップグレードされている場合は、Skype for Business から Teams にメモを移行することはできません。
 
