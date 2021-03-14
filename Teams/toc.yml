@@ -201,44 +201,44 @@ items:
             href: setting-your-coexistence-and-upgrade-settings.md
           - name: Meetings First
             href: meetings-first.md
-  - name: ハイブリッド接続
-    items:
-      - name: ハイブリッド接続のプラン
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
-      - name: ハイブリッド接続の構成
+      - name: ハイブリッド接続
         items:
-          - name: 概要
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
-          - name: ハイブリッド環境用の Azure AD Connect の構成
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
-          - name: Skype for Business ハイブリッドの構成
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
-      - name: オンプレミスとクラウドの間でユーザーを移動する
-        items:
-          - name: 概要
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
-          - name: オンプレミスから Teams にユーザーを移動する
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
-          - name: ユーザーをオンプレミスから Skype for Business Online に移動する
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
-          - name: ユーザーをクラウドからオンプレミスに移動する
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
-          - name: 会議の移行を管理する
-            href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
-      - name: ハイブリッドを無効にしてクラウドへの移行を完了する
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
-      - name: リソース フォレスト トポロジの展開
-        href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
-      - name: Teams および Skype for Business Online のクラウド統合
-        items:
-          - name: 概要
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
-          - name: エッジ証明書の更新
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
-          - name: AAD Connect を更新して複数のフォレストを含める
-            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
-      - name: Exchange および SharePoint との統合
-        href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
+          - name: ハイブリッド接続のプラン
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json'
+          - name: ハイブリッド接続の構成
+            items:
+              - name: 概要
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity'
+              - name: ハイブリッド環境用の Azure AD Connect の構成
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect'
+              - name: Skype for Business ハイブリッドの構成
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online'
+          - name: オンプレミスとクラウドの間でユーザーを移動する
+            items:
+              - name: 概要
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud'
+              - name: オンプレミスから Teams にユーザーを移動する
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams'
+              - name: ユーザーをオンプレミスから Skype for Business Online に移動する
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online'
+              - name: ユーザーをクラウドからオンプレミスに移動する
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises'
+              - name: 会議の移行を管理する
+                href: 'https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json'
+          - name: ハイブリッドを無効にしてクラウドへの移行を完了する
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid'
+          - name: リソース フォレスト トポロジの展開
+            href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid'
+          - name: Teams および Skype for Business Online のクラウド統合
+            items:
+              - name: 概要
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation'
+              - name: エッジ証明書の更新
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates'
+              - name: AAD Connect を更新して複数のフォレストを含める
+                href: 'https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect'
+          - name: Exchange および SharePoint との統合
+            href: 'https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint'
   - name: セキュリティ、プライバシー、コンプライアンス
     items:
       - name: 概要
@@ -739,6 +739,8 @@ items:
                 href: set-the-phone-numbers-included-on-invites-in-teams.md
               - name: PIN を使用せずに電話で音声会議を開始する
                 href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+              - name: Teams 会議で電話番号をマスクする
+                href: ptsn-mask-phone-numbers.md
           - name: 国および地域ごとの電話会議の利用可能性
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 参照
