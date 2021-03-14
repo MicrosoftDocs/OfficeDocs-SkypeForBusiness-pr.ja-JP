@@ -1,5 +1,5 @@
 ---
-title: Teams for Virtual の訪問
+title: 仮想アクセスのための Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -22,156 +22,156 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Microsoft Teams を使用して仮想訪問システムをセットアップする
+description: Microsoft Teams を使用して仮想アクセス システムをセットアップする
 ms.openlocfilehash: 2d2be135668bcc45f0054e987a23845e3245c38e
 ms.sourcegitcommit: 1b11a2b74b8db6ed9e5da9b04cf3ed9c02a1d892
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2021
 ms.locfileid: "50125780"
 ---
-# <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams を使用した仮想アクセス - EHR への統合
+# <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams での仮想アクセス - EHR への統合
 
-Microsoft Teams 電子健康記録 (EHR) コネクタを使用すると、診療所は、EHR システムから直接 Teams の別のプロバイダーへの仮想患者訪問または相談を簡単に開始できます。 Microsoft Teams は、Microsoft 365 クラウド上に構築され、HIPAA、HITECH 認定、その他のコンプライアンスをサポートする単一のハブで、チャット、ビデオ、音声、医療ツールを使用した簡単で安全な共同作業とコミュニケーションを可能にしています。
-Teams のコミュニケーションプラットフォームとコラボレーション プラットフォームを使用すると、診療所は断片化したシステムを簡単に切り取り、可能な限り最適なケアを提供するために時間を費やします。 Microsoft Teams 電子健康記録 (EHR) コネクタでは、次の機能を使用できます。
-- Teams の仮想アクセスをプロバイダーと患者の両方のポータルから起動します。
-- 接続イベントと切断イベントの EHR メタデータに書き戻して、自動監査と記録を有効にする。
-- Microsoft Teams を使用しながら、既存の診療所や患者のワークフローに統合します。
+Microsoft Teams の電子健康記録 (EHR) コネクタを使用すると、臨床医は EHR システムから直接、仮想の患者訪問や Teams 内の別のプロバイダーとの相談を簡単に開始できます。 Microsoft 365 クラウド上に構築された Microsoft Teams は、HIPAA、HITECH 認定などへの準拠をサポートする単一のハブで、チャット、ビデオ、音声、およびヘルスケア ツールとのシンプルで安全なコラボレーションとコミュニケーションを可能にします。
+Teams のコミュニケーションおよびコラボレーション プラットフォームにより、臨床医は断片化されたシステムの乱雑さを簡単に切り抜けることができるため、可能な限り最善のケアを提供するために時間を費やすことができます。 Microsoft Teams の電子健康記録 (EHR) コネクタは次のことができます。
+- プロバイダー ポータルと患者ポータルの両方から Teams の仮想アクセスを開始します。
+- 接続イベントと切断イベントで EHR メタデータに書き戻し、自動監査と記録保持を有効にします。
+- Microsoft Teams の使用を許可しながら、既存の臨床医および患者のワークフローに統合します。
 
   EHR ポータルから仮想アクセスを管理する方法のビデオをご覧ください。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
-## <a name="before-you-begin"></a>開始する前に
+## <a name="before-you-begin"></a>はじめに
 
-EHR コネクタを統合する前に、次の前提条件を満たしていることを確認する必要があります。
+EHR コネクタを統合する前に、次の前提条件があることを確認する必要があります。
 
-- エピスの App Marketplace マーケットプレースで Microsoft Teams [アプリに使用するアクセス](https://apporchard.epic.com/Gallery?id=6153)。
+- [Epic の App Orchard マーケットプレイス](https://apporchard.epic.com/Gallery?id=6153)で Microsoft Teams アプリを使用するためのアクセス。
 
-- 医療向け Microsoft Cloud のアクティブなサブスクリプション、または Microsoft Teams EHR Connector 単体プランのサブスクリプション (実稼働テスト中にのみ適用されます)。
+- Microsoft Cloud for Healthcare の現在有効なサブスクリプションまたは Microsoft Teams EHR Connector のスタンドアロン プランのサブスクリプション (本番テスト中にのみ適用されます)。
 
-- ユーザーは、Microsoft Teams 会議を含む適切な Microsoft 365 Office 365 ライセンスを持っている必要があります。
+- ユーザーは Microsoft Teams 会議が含まれている Microsoft 365 または Office 365 の適切なライセンスを所有している必要があります。
 
 - Microsoft Teams は、組織内で採用および使用する必要があります。
 
-- 組織は、2018 年 11 月以降のバージョンのエピスを使用している必要があります。
+- 組織は、 Epic の 2018 年 11 月以降のバージョンを持っている必要があります。
 
-- システムは、すべてのソフトウェアと [ブラウザーの前提条件を満たす必要があります](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)。
+- システムは、すべての[ソフトウェアとブラウザーの前提条件](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)を満たす必要があります。
 
-組織内の次のユーザーからの情報も必要です。
+また、組織内の次のユーザーからの情報も必要になります。
 
 - Microsoft 365 管理者
 
-- 壮大な顧客アナリスト
+- Epic 顧客アナリスト
 
 > [!Note]
-> 壮大なテクニカル スペシャリストに依頼して、エEpic-Microsoftマーケットプレースで利用可能な Teams Telehealth Integration Guide の機能を提供してください。
+> Epic テクニカル スペシャリストに、Epic マーケットプレイスで入手可能な Epic-Microsoft Telehealth Integration ガイドを提供するように依頼してください。
 
-## <a name="connector-setup"></a>コネクタのセットアップ
+## <a name="connector-setup"></a>コネクタの設定
 
-コネクタのセットアップでは、次の操作が必要です。
+コネクタの設定には、次のことが必要です。
 
 - [EHR コネクタ構成ポータルを起動する](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
 - [構成情報](ehr-admin.md#configuration-information)
 - [構成を承認または表示する](ehr-admin.md#approve-or-view-configuration)
-- [構成を確認して完了する](ehr-admin.md#review-and-finish-the-configuration)
+- [構成を確認して終了する](ehr-admin.md#review-and-finish-the-configuration)
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>[EHR コネクタ構成ポータルを起動する](#launch-the-ehr-connector-configuration-portal)
 
-Microsoft Teams で仮想訪問を開始するための医療組織の構成は、EHR Connector 構成ポータルを起動して開始します。 統合をテストするために、1 つ以上の組織を構成します。 構成ポータルでテストと実稼働の URL を構成します。 実稼働環境に移行する前に、エピスのテスト環境から統合をテストします。
+Microsoft Teams で仮想アクセスを開始するため医療機関を構成するには、EHR コネクタ構成ポータルを起動することから始めます。 統合をテストするために、単一または複数の組織を構成します。 構成ポータルでテスト URL と本番 URL を構成します。 本番環境に移行する前に、Epic のテスト環境から統合をテストします。
   
 - EHR コネクタ構成 URL: [https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
-組織の Microsoft 365 管理者および壮大な顧客アナリストは、構成ポータルの情報と統合の手順を完了する必要があります。 壮大な構成手順については、組織に割り当てられているエピスの技術専門リソースにお問い合わせください。
+組織の Microsoft 365 管理者と Epic 顧客アナリストは、構成ポータルで情報と統合の手順を完了する必要があります。 Epic の構成手順については、組織に割り当てられている Epic テクニカル スペシャリスト リソースにアクセスしてください。
 
 ### <a name="configuration-information"></a>[構成情報](#configuration-information)
 
-この手順は **、Microsoft 365 管理者が行います**。 Microsoft 365 管理者は、コネクタ構成ポータルを起動し、Microsoft 資格情報でサインインして構成プロセスを開始する必要があります。
+この手順は、**Microsoft 365 管理者** が実行する必要があります。 Microsoft 365 管理者は、コネクタ構成ポータルを起動し、Microsoft 資格情報を使用してサインインし、構成プロセスを開始する必要があります。
 
-この手順を完了するには、Microsoft 365 管理者が、有効なファースト Health 相互運用性リソース (FHIR) ベース URL を、エピスの技術専門家と、構成を承認するエピスの顧客アナリストのユーザー名を受け取る必要があります。 Microsoft 365 管理者は、コネクタ構成ページを起動し、Microsoft 資格情報でサインインして構成プロセスを開始する必要があります。
+この手順を完了するには、Microsoft 365 管理者は、Epic テクニカル スペシャリストから有効な Fast Health Interoperability Resources (FHIR) ベース URL と、構成を承認する Epic 顧客アナリストのユーザー名を受け取る必要があります。 Microsoft 365 管理者は、コネクタ構成ページを起動し、Microsoft 資格情報を使用してサインインし、構成プロセスを開始する必要があります。
 
-- FHIR ベース URL は、サーバー FHIR API エンドポイントに対応する静的アドレスです。 URL の例 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` は次のようになります。
+- FHIR ベース URL は、サーバーの FHIR API エンドポイントに対応する静的アドレスです。 URL の例は、`https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST` です。
 
-- 構成承認者の名前は、次の手順で構成の承認を担当する、壮大な顧客アナリストの名前です。 壮大な顧客アナリストは、組織のユーザーで、エピスへのサインイン アクセスを持っています。
+- 構成承認者名は、次の手順で構成を承認する責任を負う Epic 顧客アナリストの名前です。 Epic 顧客アナリストは、Epic にサインイン アクセスできる組織内のユーザーです。
 
-  ![構成承認者の名前は、EHR コネクタの一覧から選択されます。](../../media/teams-ehr-connector.png)
+  ![構成承認者の名前は、EHR コネクタのリストから選択されます。](../../media/teams-ehr-connector.png)
 
 ### <a name="approve-or-view-configuration"></a>[構成を承認または表示する](#approve-or-view-configuration)
 
-承認者として追加された医療組織の壮大な顧客アナリストは、Microsoft 365 の資格情報を使用してサインインするために、前の手順と同じ EHR Connector URL を使用する必要があります。 検証が成功すると、承認者は、エピカル組織を検証するために、エピカルの資格情報を使用してサインインを求めるメッセージが表示されます。
+承認者として追加されたヘルスケア組織の Epic 顧客アナリストは、Microsoft 365 資格情報を使用してサインインするために、前の手順と同じ EHR コネクタ URL を使用する必要があります。 検証が成功すると、承認者は Epic 資格情報を使用してサインインし、Epic 組織を検証するように求められます。
 
 > [!Note]
-> 組織内の Microsoft 365 管理者と壮大な顧客アナリストは、同じ人物である可能性があります。 その場合は、独自のユーザー名を承認者として追加します。 アクセスを検証するには、引き続きエピスにサインインする必要があります。 エピカル サインインは、FHIR ベース URL の検証にのみ使用されます。 Microsoft は、このサインインで資格情報を保存したり、EHR データにアクセスしたりは行ないます。
+> 組織内の Microsoft 365 管理者と Epic 顧客アナリストは同じ人物であることが可能です。 その場合は、自分のユーザー名を承認者として追加してください。 アクセスを検証するには、Epic にサインインする必要があります。 Epic サインインは、FHIR ベース URL を検証するためにのみ使用されます。 Microsoft は、このサインインで資格情報を保存したり、EHR データにアクセスしたりすることはありません。
 
   ![資格情報の構成を確認して承認します。](../../media/approve-view-configuration.png)
 
-壮大なサインインが成功した後、壮大な顧客アナリストが **構成を** 承認する必要があります。 構成が正しく設定されていない場合、Microsoft 365 管理者は、Microsoft EHR コネクタ ポータルにもう一度サインインして、元の構成を変更できます。 
+Epic サインインが成功したら、Epic 顧客アナリストは構成を承認する **必要があります**。 構成が正しくない場合、Microsoft 365 管理者は、Microsoft EHR コネクタ ポータルに再度サインインすることにより、元の構成を変更できます。 
 
-![EHR コネクタが構成されていることを確認し、構成を変更するオプションを選択します。](../../media/ehc-approve-3.png)
+![EHR コネクタが構成されていること、および構成を変更するオプションがあることを確認します。](../../media/ehc-approve-3.png)
 
-### <a name="review-and-finish-the-configuration"></a>[構成を確認して完了する](#review-and-finish-the-configuration)
+### <a name="review-and-finish-the-configuration"></a>[構成を確認して終了する](#review-and-finish-the-configuration)
 
-構成情報が壮大な管理者によって承認されると、患者とプロバイダーの立ち上げに関する統合レコードが表示されます。 これらのレコードは、壮大な仮想訪問構成を完了するために必要です。 詳細については、Epic-Microsoft Teams Telehealth Integration ガイドを参照してください。
+構成情報が Epic 管理者によって承認されると、患者とプロバイダーの立ち上げに関する統合レコードが表示されます。 これらのレコードは、Epic で仮想アクセスの構成を完了するために必要です。 詳細については、Epic-Microsoft Teams Telehealth Integration ガイドを参照してください。
 
 > [!Note]  
-> Microsoft 365 または壮大な顧客アナリストは、いつでも構成ポータルにサインインして統合レコードを表示し、必要に応じて組織の構成を変更できます。
+> Microsoft 365 または Epic 顧客アナリストは、いつでも構成ポータルにサインインして、統合レコードを表示し、必要に応じて組織の構成を変更できます。
 
 ![統合情報が表示されます。](../../media/finish-configuration.png)
 
 > [!Note]
-> 承認プロセスは、以前に Microsoft 管理者によって構成された FHIR URL ごとに、壮大な顧客アナリストによって完了する必要があります。
+> 承認プロセスは、Microsoft 管理者が以前に構成したすべての FHIR URL について、Epic 顧客アナリストにより完了される必要があります。
 
 ![構成情報が承認されます。](../../media/approve-configuration-2.png)
 
 ## <a name="launch-teams-virtual-visits"></a>Teams の仮想アクセスを開始する
 
-EHR Connector の手順と壮大な構成が完了すると、組織は Microsoft Teams でのビデオアクセスをサポートする準備が整います。
+EHR コネクタの手順と Epic 構成を完了すると、組織は Microsoft Teams でのビデオ訪問をサポートする準備が整います。
 
 ### <a name="virtual-visit-prerequisites"></a>仮想アクセスの前提条件
 
-- システムは、すべてのソフトウェアと [ブラウザーの前提条件を満たす必要があります](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)。
+- システムは、すべての[ソフトウェアとブラウザーの前提条件](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)を満たす必要があります。
 
-- 医療組織は、エピスの組織と Microsoft 365 組織の間のセットアップを完了している必要があります。
+- ヘルスケア組織は、Epic 組織と Microsoft 365 組織の間のセットアップを完了している必要があります。
 
-### <a name="provider-experience"></a>プロバイダーエクスペリエンス
+### <a name="provider-experience"></a>プロバイダー エクスペリエンス
 
-組織の医療プロバイダーは、エピクト プロバイダー アプリケーション (Hyperspace、Haグループ、Canto) から Microsoft Teams を使用して仮想訪問に参加することもできます。 [ **仮想アクセスの開始]** ボタンがプロバイダー フローに埋め込まれている。
+組織の医療提供者は、Epic プロバイダー アプリケーション (Hyperspace、Haiku、Canto) から Microsoft Teams を使用した仮想アクセスに参加することもできます。 **[仮想アクセスの開始]** ボタンは、プロバイダー フローに組み込まれています。
 
-プロバイダーエクスペリエンスの主な機能:
+プロバイダー エクスペリエンスの主な機能:
 
 - プロバイダーは、サポートされているブラウザーまたは Microsoft Teams アプリケーションを使用して仮想アクセスに参加できます。
 
-- プロバイダーは、仮想アクセスに初めて参加する際に、Microsoft 365 アカウントで 1 回のサインインを行う必要があります。
+- プロバイダーは、仮想アクセスに初めて参加するときに、Microsoft 365 アカウントで 1 回サインインする必要があります。
 
-- 1 回のサインイン後、プロバイダーは Microsoft Teams の仮想予定に直接アクセスします。 (プロバイダーは Microsoft Teams にサインインしている必要があります)。
+- 1 回のサインイン後、プロバイダーは Microsoft Teams の仮想予定に直接移動します。 (プロバイダーは Microsoft Teams にサインインする必要があります)。
 
-- プロバイダーは、特定の予定の接続と切断の参加者の更新をリアルタイムで確認できます。 プロバイダーは、患者がいつ仮想訪問に接続されたのか確認できます。
+- プロバイダーは、与えられた予定に対し、参加者の接続と切断のリアルタイム更新を確認できます。 プロバイダーは、患者が仮想アクセスに接続されていることを確認できます。
 
-  ![患者との仮想訪問のプロバイダーエクスペリエンス](../../media/ehc-provider-experience-6.png)
+  ![患者の仮想アクセスのプロバイダー エクスペリエンス](../../media/ehc-provider-experience-6.png)
 
-### <a name="patient-experience"></a>患者の経験
+### <a name="patient-experience"></a>患者エクスペリエンス
 
-このコネクタは、MyChart Web とモバイルを介して仮想訪問に参加する患者をサポートします。 予約の時点で、患者は [仮想訪問の開始] ボタンを使用して、MyChart から **仮想訪問を開始** できます。
+コネクタは、MyChart の Web とモバイルを通じて仮想アクセスに参加する患者をサポートします。 予約時に、患者は **[仮想アクセスの開始]** ボタンを使用して MyChart から仮想アクセスを開始できます。
 
-患者の経験の主な機能:
+患者エクスペリエンスの主な機能:
 
-- 患者は、アプリをインストールすることなく、デスクトップとモバイルの最新の Web ブラウザーから仮想アクセスに参加できます。
+- 患者は、アプリをインストールしなくても、デスクトップとモバイルの最新の Web ブラウザーから仮想アクセスに参加できます。
 
-- 患者は 1 回のクリックで仮想訪問に参加できます。他のアカウントやサインインは必要ありません。
+- 患者はワンクリックで仮想アクセスに参加でき、他のアカウントやサインインは必要ありません。
 
-- 患者は、Microsoft アカウントを作成したり、仮想アクセスを開始するためにサインインしたりする必要はありません。
+- 患者は、仮想アクセスを開始するために Microsoft アカウントを作成したりサインインしたりする必要はありません。
 
-- 患者は、医療プロバイダーが予定に参加し、仮想訪問を認めるまでロビーに置かれる予定です。
+- 患者は、医療提供者が予約に参加し、仮想アクセスを許可するまでロビーに配置されます。
 
-- 仮想訪問に参加する前に、ロビーでビデオとマイクのテストを利用できます。
+- ビデオとマイクのテストは、仮想アクセスに参加する前にロビーで利用できます。
 
-  ![仮想訪問の患者体験](../../media/ehc-virtual-visit-5.png)
+  ![仮想アクセスの患者エクスペリエンス](../../media/ehc-virtual-visit-5.png)
 
 > [!Note]
-> エピクト、MyChart、Ha、Canto は、エピクト システム社の商標です。
+> Epic、MyChart、Haiku、および Canto は、Epic Systems Corporation の商標です。
 
 ### <a name="privacy-and-location-of-data"></a>データのプライバシーと場所
 
-Teams を EHR システムに統合すると、統合中に使用および保存されるデータの量と仮想訪問フローが最適化されます。 このソリューションは、Teams のプライバシーとデータ管理に関する全体的な原則と、Teams のプライバシーに関するガイドラインに従います。
+Teams の EHR システムへの統合により、統合および仮想アクセス フロー中に使用および保存されるデータの量が最適化されます。 このソリューションは、Teams のプライバシーとデータ管理の原則、および Teams のプライバシーで概説されているガイドラインに従います。
 
-Microsoft Teams EHR コネクタは、識別可能な個人データや、患者や医療プロバイダーの医療記録を EHR システムから保存または転送したりできません。 EHR コネクタによって保存される唯一のデータは、Teams 会議のセットアップ中に使用される EHR ユーザーの一意の ID です。 EHR ユーザーの一意の ID は [、Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)の顧客データが保存される場所で説明されている 3 つの地理的領域の 1 つに格納されます。 会議の参加者によって Teams に入力されたチャット、レコーディング、その他のデータはすべて、既存のストレージ ポリシーに従って保存されます。 Microsoft Teams のデータの場所に関する詳細については、Teams のデータの場所 [にアクセスしてください](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams)。
+Microsoft Teams EHR コネクタは、EHR システムから、識別可能な個人データや患者または医療提供者の健康記録を保存または転送しません。 EHR コネクタによって保存される唯一のデータは、EHR ユーザーの一意の ID であり、Teams 会議のセットアップ中に使用されます。 EHR ユーザーの一意の ID は、「[Microsoft 365 の顧客データの保存場所](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)」で説明されている 3 つの地理的地域のいずれかに保存されます。 会議の参加者が Teams に入力したすべてのチャット、録音、およびその他のデータは、既存の保存ポリシーに従って保存されます。 Microsoft Teams のデータの場所の詳細については、「[Teams のデータの場所](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams)」にアクセスしてください。
