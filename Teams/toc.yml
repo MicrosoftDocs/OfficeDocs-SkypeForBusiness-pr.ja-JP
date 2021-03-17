@@ -469,6 +469,8 @@ items:
         href: sharing-files-in-teams.md
       - name: Teams と Outlook のメールの統合
         href: teams-outlook-email-integration.md
+      - name: Outlook から Teams に共有する
+        href: teams-outlook-share-teams.md
       - name: メッセージ ポリシーを管理する
         href: messaging-policies-in-teams.md
       - name: Teams でのユーザーのプレゼンス
@@ -1438,6 +1440,14 @@ items:
     items:
       - name: Teams の制限と仕様
         href: limits-specifications-teams.md
+      - name: Kaizala から Microsoft Teams に移行する
+        items:
+          - name: 概要
+            items:
+              - name: 移動を計画する
+              - name: Teams に向けて組織を準備する
+              - name: 移動を実装する
+                href: implement-your-move.md
       - name: ライセンス
         items:
           - name: Teams へのユーザー アクセスを管理する
@@ -1511,6 +1521,10 @@ items:
             href: devices/teams-ip-phones.md
           - name: Skype for Business Online 対応の電話機
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Teams の警告と監視
+            href: alerts/teams-admin-alerts.md
+          - name: Teams のサービス正常性の監視
+            href: alerts/device-health-status.md
       - name: Teams PowerShell
         items:
           - name: 概要
