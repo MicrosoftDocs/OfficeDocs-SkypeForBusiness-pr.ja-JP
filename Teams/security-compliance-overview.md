@@ -1,8 +1,8 @@
 ---
 title: セキュリティとコンプライアンスの概要
-author: MicrosoftHeidi
-ms.author: heidip
-manager: serdars
+author: laurawi
+ms.author: laurawi
+manager: laurawi
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anwara
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c400f6f3fdb0c0cf5abce3a34f05c8488909aab
-ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
+ms.openlocfilehash: 36cb67dc73177678206e5d5865ba145414ae37a9
+ms.sourcegitcommit: 360c78c66386fe00afe535681f51254eda886edf
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50122207"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50836924"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams のセキュリティとコンプライアンス
 
@@ -54,7 +54,7 @@ Teams では、チーム全体および組織全体の 2 要素認証、Active D
 
 認証と Teams の詳細については、「[ID モデルと認証](identify-models-authentication.md)」を参照してください。先進認証については、「[先進認証のしくみ](sign-in-teams.md)」が特に役立ちます。
 
-Teams は SharePoint、OneNote、Exchange などと連携して動作しますので、Microsoft 365 または Office 365 全体のセキュリティの管理に快適に取り組む必要があります。 詳細については、セキュリティを強化するために [Microsoft 365 または Office 365](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)組織を構成する方法を参照してください。
+Teams は SharePoint、OneNote、Exchange などと連携して動作しますので、Microsoft 365 または Office 365 全体のセキュリティ管理に快適に取り組む必要があります。 詳細については、セキュリティを強化するために [Microsoft 365 または Office 365](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)組織を構成する方法を参照してください。
 
 > [!NOTE]
 > 現時点では、[プライベート チャネル](private-channels.md)でサポートされるセキュリティとコンプライアンス機能は制限されています。 プライベート チャネルにおけるすべてのセキュリティ機能とコンプライアンス機能のサポートは、近日中に行われる予定です。
@@ -75,11 +75,11 @@ Advanced Threat protection (ATP) は、Microsoft Teams および SharePoint お�
 
 ### <a name="secure-score"></a>Secure Score
 
-Microsoft Secure Score は、組織のセキュリティの姿勢を表す測定値で、より多くの改善アクションが実行されたことを示す数値が高くなります。 これは [、Microsoft 365](https://security.microsoft.com/securescore)セキュリティ センターにあります。 セキュリティ スコアの推奨事項に従って、脅威から組織を保護できます。 Microsoft 365 セキュリティ センターの一元管理ダッシュボードから、組織は Microsoft 365 ID、アプリ、デバイスのセキュリティを監視し、作業できます。 Microsoft Teams にはセキュリティ スコアに関する推奨事項が追加されました。管理者はプラットフォーム上でセキュリティに関する姿勢を監視する必要があります。
+Microsoft Secure Score は、組織のセキュリティの姿勢を表す測定値で、より多くの改善アクションが実行されたことを示す数値が高くなります。 これは [、Microsoft 365 セキュリティ センターにあります](https://security.microsoft.com/securescore)。 セキュリティ スコアの推奨事項に従って、脅威から組織を保護できます。 Microsoft 365 セキュリティ センターの一元管理ダッシュボードから、組織は Microsoft 365 ID、アプリ、デバイスのセキュリティを監視し、作業できます。 Microsoft Teams にはセキュリティ スコアに関する推奨事項が追加されました。管理者はプラットフォーム上でセキュリティに関する姿勢を監視する必要があります。
 
 セキュリティ スコアは、組織を支援します。
 - 組織のセキュリティの姿勢の現在の状態を報告します。
-- 見やすさ、可視性、ガイダンス、制御を提供することで、セキュリティの姿勢を改善します。
+- 検出可能性、可視性、ガイダンス、制御を提供することで、セキュリティの姿勢を改善します。
 - ベンチマークと比較し、主要業績評価指標 (KPI) を確立します。
 
 
@@ -99,27 +99,27 @@ Teams には、チャネル、チャット、添付ファイルの通信コン�
 
 ### <a name="information-barriers"></a>情報バリア
 
-情報バリアとは、Teams 管理者がユーザーやグループが通信し合う必要がない場合 (ビジネス上の必要がない場合や、ブロックする規制上の理由がある場合) などを行うポリシーです。また、ルックアップや電子情報開示などのポリシーを設定することもできます (以下で説明します)。 これらのポリシーは、1 対 1 のチャット、グループ チャット、またはチーム レベルのユーザーに影響を与える可能性があります。
+情報バリアとは、Teams 管理者がユーザーやグループが通信し合う必要がない場合 (ビジネス上の必要がない場合や、ブロックする規制上の理由がある場合) などを行うポリシーです。また、ルックアップや電子情報開示などのポリシーを設定することもできます (以下で説明します)。 これらのポリシーは、1 対 1 のチャット、グループ チャット、またはチーム レベルのユーザーに影響を与える可能性があります。 Information Barrier 機能はパブリック クラウドで利用できます。2021 年 1 月から GCC クラウドに展開されています。
 
 このトピックの詳細については [、Microsoft Teams の情報バリアに関するページを参照してください](information-barriers-in-teams.md)。
 
-### <a name="communication-compliance"></a>コミュニケーションのコンプライアンス
+### <a name="communication-compliance"></a>通信コンプライアンス
 
-Microsoft 365 のコミュニケーション コンプライアンスを使用すると、ユーザーを範囲内のポリシーに追加して、Microsoft Teams の通信を調べて、不快な言葉、機密情報、内部および規制基準に関連する情報を確認できます。 パブリックとプライベートの Teams チャネル、個々のチャット、添付ファイルの両方のチャット通信および関連する添付ファイルをスキャンして、組織内の通信上のリスクを最小限に抑えるのに役立ちます。 不適切な Teams 通信の検出、キャプチャ、アクションの実行に役立つポリシーを構成する方法の詳細については [、Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)のコミュニケーション コンプライアンスを参照してください。
+Microsoft 365 のコミュニケーション コンプライアンスを使用すると、ユーザーを範囲内のポリシーに追加して、Microsoft Teams の通信を調べ、不快な言葉、機密情報、内部および規制基準に関連する情報を確認できます。 パブリックとプライベートの Teams チャネル、個々のチャット、添付ファイルの両方のチャット通信および関連する添付ファイルをスキャンして、組織内の通信上のリスクを最小限に抑えるのに役立ちます。 不適切な Teams 通信の検出、キャプチャ、アクションの実行に役立つポリシーを構成する方法の詳細については [、Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance)のコミュニケーション コンプライアンスを参照してください。
 
 ### <a name="retention-policies"></a>アイテム保持ポリシー
 
 Microsoft Teams のアイテム保持ポリシーを使用すると、規制、法的、ビジネス、その他の理由で、組織が所有する必要がある重要なデータを保持することができます。また、保持する必要がないコンテンツや通信を削除することもできます。 アイテム保持ポリシーを使用して、データを一定期間保管してから削除することもできます。 詳細については [、Microsoft Teams のアイテム保持ポリシーを参照してください](retention-policies.md)。
 
-## <a name="sensitivity-labels"></a>感度ラベル
+## <a name="sensitivity-labels"></a>秘密度ラベル
 
 機密 [ラベルを適用して、](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) チーム内での共同作業中に作成された機密性の高い組織コンテンツへのアクセスを保護し、規制します。 たとえば、チームのプライバシー (パブリックまたはプライベート) を構成するラベルを適用し、ゲスト アクセスと外部共有を制御し、非管理対象デバイスからのアクセスを管理します。 詳細については、Microsoft Teams の [[感度] ラベルを参照してください](sensitivity-labels.md)。
 
 ### <a name="data-loss-prevention-dlp"></a>データ損失防止 (DLP)
 
-Microsoft Teams のデータ損失防止 (DLP) と、Microsoft 365 または Office 365 の大規模な DLP の話は、機密性の高いドキュメントとデータの保護に関するビジネスの準備を中心に展開します。 メッセージやドキュメントの機密情報に関する懸念がある場合、DLP ポリシーを使用すれば、ユーザーがその機密データを不適切な人々と共有しないようにすることができます。
+Microsoft Teams のデータ損失防止 (DLP) と、Microsoft 365 または Office 365 の大規模な DLP の話は、機密性の高いドキュメントとデータを保護する場合のビジネスの準備を中心に展開します。 メッセージやドキュメントの機密情報に関する懸念がある場合、DLP ポリシーを使用すれば、ユーザーがその機密データを不適切な人々と共有しないようにすることができます。
 
-Teams でのデータ損失防止の詳細については、「[Microsoft Teams 向け DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)」を参照してください。 O365 DLP の問題に関する良い記事は、 [データ損失防止の概要です](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)。
+Teams でのデータ損失防止の詳細については、「[Microsoft Teams 向け DLP](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)」を参照してください。 O365 DLP の懸念事項に関する良い記事は、 [データ損失防止の概要です](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)。
 
 ### <a name="ediscovery"></a>電子情報開示
 
@@ -155,7 +155,7 @@ Teams でのデータ損失防止の詳細については、「[Microsoft Teams 
 
 どちらの場合でも、ホールドに設定されれば、エンド ユーザーがグループのメールボックス内のチャネル メッセージを削除または編集しても、そのコンテンツの不変のコピーが維持され、電子情報開示の検索で利用できるようになります。 訴訟ホールドは、通常、電子情報開示ケースのコンテキスト内で適用されます。
 
-Microsoft [](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 365 コンプライアンス センターでの保持と保持の詳細については、アイテム保持ポリシーの概要を参照してください。 Teams 固有の法的ホールドに関するその他の情報については [、Microsoft Teams](legal-hold.md) のユーザーまたはチームを法的な保留にし、詳細を確認します。
+Microsoft [](https://docs.microsoft.com/microsoft-365/compliance/retention-policies) 365 コンプライアンス センターでの保持と保持の詳細については、アイテム保持ポリシーの概要を参照してください。 Teams 固有の法的ホールドに関するその他の情報については [、Microsoft Teams](legal-hold.md) ユーザーまたはチームを法的ホールドに配置して詳細を確認します。
 
 ### <a name="compliance-content-search"></a>コンプライアンスのコンテンツ検索
 
@@ -168,7 +168,7 @@ Microsoft [](https://docs.microsoft.com/microsoft-365/compliance/retention-polic
 
 ### <a name="auditing-and-reporting"></a>監査と報告
 
-監査ログの検索は、Microsoft 365 コンプライアンス センターに接続され、無制限の監査タイムラインで管理者が使用および調査するためにワークロード固有または汎用のイベント セットをエクスポートできるようにして、アラートを設定したり、監査イベントに関するレポートを作成することができます。 Microsoft 365 コンプライアンス センター内のすべての監査ログ データに対する警告を設定し、さらに分析のためにこのデータをフィルター処理およびエクスポートすることができます。 Microsoft 365 または Office 365 の監査ログ検索を実行する方法の詳細については、「監査ログを検索する」を参照してください。 [](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) Microsoft 365 コンプライアンス センターで Microsoft Teams イベントを検索する方法の詳細については [、Teams](audit-log-events.md) で監査を有効にすることもできます。
+監査ログの検索は、Microsoft 365 コンプライアンス センターに接続され、無制限の監査タイムライン全体で管理者が使用および調査するためにワークロード固有または汎用のイベント セットをエクスポートできるようにして、アラートを設定したり、監査イベントについて報告する機能を提供します。 Microsoft 365 コンプライアンス センター内のすべての監査ログ データに対する警告を設定し、さらに分析のためにこのデータをフィルター処理およびエクスポートすることができます。 Microsoft 365 または Office 365 の監査ログ検索を実行する方法の詳細については、「監査ログを検索する」を参照してください。 [](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) Microsoft 365 コンプライアンス センターで Microsoft Teams イベントを検索する方法の詳細については [、Teams](audit-log-events.md) で監査を有効にすることもできます。
 
 ## <a name="customer-key"></a>顧客キー
 
@@ -180,7 +180,7 @@ Microsoft 365 では、コンテンツのサービス暗号化に加え、暗号
 - Teams のストレージに保存されている Teams の通話と会議の記録
 - Teams のチャット通知
 - Cortana による Teams チャットの提案
-- Teams のステータス メッセージの詳細については、テナント レベルでの [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level) のカスタマー キーの概要を参照し、パブリック プレビューで Microsoft Teams のカスタマー キー サポートを扱う [Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)ブログを参照してください。 テナント レベルのカスタマー キーが含まれる Microsoft Information Protection リリースの詳細については、機密データを知り、保護するための新しい [Microsoft Information Protection](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)機能についてお知りください。
+- Teams のステータス メッセージの詳細については、テナント レベルでの [Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level) のカスタマー キーの概要を参照し、パブリック プレビューで Microsoft Teams のカスタマー キー サポートを扱う [Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)ブログを参照してください。 テナント レベルで顧客キーが含まれる Microsoft Information Protection リリースの詳細については、「機密データを知り、保護するための [Microsoft Information Protection](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)の新しい機能を発表する」を参照してください。
 
 ## <a name="privacy"></a>プライバシー
 
@@ -229,7 +229,7 @@ Teams では[、ISO 27001、ISO](https://docs.microsoft.com/microsoft-365/compli
 
 詳細については、データ保護リソース [を参照してください](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)。 Teams では、Cloud Security Alliance のコンプライアンスもサポートしています。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Microsoft 365 セキュリティ](https://docs.microsoft.com/microsoft-365/security/)
 
