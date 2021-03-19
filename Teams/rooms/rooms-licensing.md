@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams Rooms の通話と会議機能の種類に応じて使用できるライセンスについて説明します。
-ms.openlocfilehash: 6f339136d6084046004506c30b6827aaed62971a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867126"
+ms.locfileid: "50875157"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams ミーティング ルームのライセンスの更新
 
@@ -77,4 +77,6 @@ Microsoft には、会議室デバイスのライセンス会議と通話をデ�
 > [!NOTE]
 > 既存のライセンスが会議室システムに割り当てられている場合、これらは中断されることなく機能します。 既存のライセンスの有効期限が切れた時点で、新しいミーティング ルーム SKU を使用するように移行する必要があります。  
 
- **正しいバージョンの Windows 10 を使用する**。Windows 10 イメージをデバイスに展開する場合は、「[Microsoft Teams Rooms コンソールを構成する](https://docs.microsoft.com/microsoftteams/room-systems/console)」を参照してください。 [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを入手できます。
+ **正しいバージョンの Windows 10 を使用する**。Windows 10 イメージをデバイスに展開する場合は、「[Microsoft Teams Rooms コンソールを構成する](https://docs.microsoft.com/microsoftteams/room-systems/console)」を参照してください。 [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを入手できます。 
+ 
+ 「会議室での [優れたエクスペリエンス:新しい Microsoft Teams Rooms Standard](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)と Premium をご利用ください。」をご覧ください。

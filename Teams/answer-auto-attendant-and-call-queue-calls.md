@@ -1,6 +1,6 @@
 ---
 title: 自動応答と通話キューの呼び出しに応答する
-ms.reviewer: waseemh
+ms.reviewer: colongma
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95719bc95cc752888964a5f404e6f8050ebf3fa4
-ms.sourcegitcommit: 67c686810d37bffda72a6e92155d9c8ec86bfae6
+ms.openlocfilehash: cca068ab1194a48eb775550e4bf3f99826d82d2a
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47766861"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874667"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 ===========================================================
@@ -50,6 +50,8 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 > [!NOTE] 
 > 通話キューの呼び出しは、ユーザーの構成に基づいて転送されません。 これは、エージェントが通話に応答でき、発信者に予期しない転送がされない限り、発信者がキューに留まるようにするためです。
 
+> エージェントは、通話キュー通話の着信やボイスメールの欠落については通知されません。
+
 ## <a name="supported-clients"></a>サポートされるクライアント
 
 自動応答および通話キューの通話は、次のクライアントで利用できます。
@@ -65,7 +67,7 @@ Microsoft Teams で自動応答および通話キューの通話を受信する�
 
 ## <a name="known-issues"></a>既知の問題
 
-通話キューエージェントがモバイルデバイスで通話を受信したときに、デバイスがロックされていると、通話が保留になることがあります。 ユーザーは最初にデバイスのロックを解除し、通話に応答する必要があります。
+通話キュー エージェントがモバイル デバイスで通話を受信すると、デバイスがロックされている場合に通話が保留される場合があります。 ユーザーは最初にデバイスのロックを解除してから、通話に応答する必要があります。
 
 
 ## <a name="related-topics"></a>関連トピック

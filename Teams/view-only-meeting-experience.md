@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 6fc7838ac1f3235acf576d437e3dabccfc2a0b6f
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867066"
+ms.locfileid: "50875057"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示のみ会議のエクスペリエンス
 
 > [!Note]
-> 表示専用ブロードキャストは、Microsoft 365 E3/E5 および Microsoft 365 A3/A5 で利用できます。 この機能は、既定ではオフとして 2021 年 3 月 1 日に有効になります。 Microsoft 365 Government G3/G5 プランのこの機能は、後日提供される予定です。 この機能を既定でオンにしたい場合は、その日付以降に既定のポリシーを変更する必要があります。 PowerShell を使用してポリシーを有効にする `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 。
+> 表示専用ブロードキャストは、Microsoft 365 E3/E5 および Microsoft 365 A3/A5 で利用できます。 この機能は、既定ではオフとして 2021 年 3 月 1 日に有効になります。 Microsoft 365 Government Community Cloud (GCC) の機能は、2021 年 3 月末に展開が開始されます。 Government Community Cloud High (GCCH) と国防総省 (DoD) は、後日ロールアウトされる予定です。 この機能を既定でオンにしたい場合は、その日付以降に既定のポリシーを変更する必要があります。 PowerShell を使用してポリシーを有効にする `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 。
 
 > [!Note]
 > 会議またはウェビナーが容量を超える場合、Teams は 10,000 人のビュー専用ブロードキャストエクスペリエンスに対応するようにシームレスにスケーリングします。 さらに、リモート作業の増加に当たっては、今年の終わりまで、さらに大規模な 20,000 人のブロードキャストを利用できます。

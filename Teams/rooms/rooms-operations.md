@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: このトピックでは、Skype Room Systems の後継である Microsoft Teams Roomsの管理について説明します。
-ms.openlocfilehash: a6ab68200002035632314ac976cd45a2ee4ff714
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 56468ad85b20b25d6e9310a20638ae35e941db73
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662462"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875147"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用 
  
@@ -63,11 +63,11 @@ Microsoft Teams Roomsが正常に動作していない場合は、出荷時の�
 
 |ワークグループ|ドメインに参加していない場合|ドメインに参加している場合|
 |:-----|:-----|:-----|
-|再起動  <br/> |リモート デスクトップ  <br/> リモート Powershell  <br/> |リモート デスクトップ (詳細な設定が必要)  <br/> リモート PowerShell (詳細な設定が必要)  <br/> Configuration Manager  <br/> |
+|再起動  <br/> |Teams 管理センター  <br/> リモート デスクトップ  <br/> リモート Powershell  <br/> | <br/>リモート デスクトップ (詳細な設定が必要)  <br/> リモート PowerShell (詳細な設定が必要)  <br/> Configuration Manager  <br/> |
 |OS の更新  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |アプリの更新  <br/> |Windows ストア  <br/> |Windows ストア  <br/> Configuration Manager  <br/> |
-|Skype アカウントの構成  <br/> |現在サポートされていません  <br/> |現在サポートされていません  <br/> |
-|ログへのアクセス  <br/> |現在サポートされていません  <br/> |現在サポートされていません  <br/> |
+|アカウント構成  <br/> |Teams 管理センター  <br/> |Teams 管理センター  <br/> |
+|ログへのアクセス  <br/> |Teams 管理センター  <br/> |Teams 管理センター <br/> |
    
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Microsoft Teams Rooms のグループ ポリシーを構成する
 <a name="GroupPolicy"> </a>

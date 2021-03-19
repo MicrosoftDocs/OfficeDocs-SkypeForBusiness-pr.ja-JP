@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e2e6af198c578279e2af8928e8a6ac299f262a5
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661902"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874897"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -64,8 +64,7 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Micros
 
 <sup>6</sup> 既定の連絡先フォルダーは連絡先のみです。 他の連絡先フォルダーまたはサブフォルダーへのアクセスはサポートされていません。
 
-<sup>7</sup> Teams では、ユーザーがプロフィール画像を変更できるかどうかを制御するため、テナント管理者によって構成されている[Outlook on the web のメールボックス ポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)の設定を優先します。 ポリシーで **[-SetPhotoEnabled]** 設定がオフの場合は、ユーザーがプロフィール画像を追加、変更、削除することはできません。 たとえば、ユーザーが組織の IT 部門または HR 部門によって承認されたプロフィール画像をアップロードした場合、操作は必要ありません。 ただし、ユーザーが不適切な画像をアップロードした場合は、組織の内部ポリシーに従って画像を変更してください。
-
+<sup>7</sup> Teams では、ユーザーがプロフィール画像を変更できるかどうかを制御するため、テナント管理者によって構成されている[Outlook on the web のメールボックス ポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)の設定を優先します。 **ポリシーで -SetPhotoEnabled** 設定がオフになっている場合、ユーザーはプロファイル画像を追加、変更、または削除できないので、管理者が写真を変更した場合、porfile 画像はチームに同期されません。
 <sup>8</sup> 「[オンプレミスでホストされているメールボックスの会議を作成および表示するための要件](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)」セクション記載されている要件を満たす必要があります。 
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件

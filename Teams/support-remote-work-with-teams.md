@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f5da56005b6ac616ff60052c331c1ae66959002
-ms.sourcegitcommit: 26dc4ca6aacf4634b1dbe1bfbd97aa17f8cb7dd5
+ms.openlocfilehash: ca3c7b430469887d4ebbee3e12836e72d1204eef
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "48235825"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875097"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -44,9 +44,9 @@ ms.locfileid: "48235825"
 
 Teams をユーザーに展開するための準備として、 **[カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)** を入手します。これには、次の便利なメール テンプレートが含まれています。
 
-- **お知らせメール**は、Teams が利用できることをユーザーに伝える際に使用できます。
+- **お知らせメール** は、Teams が利用できることをユーザーに伝える際に使用できます。
 
-- **カウントダウン - Teams での初日に Teams からメール**が届き、ユーザーがすぐに生産的に作業を始められるように助けます。
+- **カウントダウン - Teams での初日に Teams からメール** が届き、ユーザーがすぐに生産的に作業を始められるように助けます。
 
 - 「**ヒントとテクニック メール**」は、ユーザーが Teams を最大限に活用できるようにするためのヒントで、使用開始後数日してから送信します。
 
@@ -74,7 +74,7 @@ Teams をユーザーに展開するための準備として、 **[カスタマ�
    - [Microsoft Teams によって Microsoft 社員のリモート作業が実現している方法](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
    - [Teams により中小規模企業でのリモート作業をサポートする](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT が社員のリモート勤務を実現した 9 つの方法](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT が社員のリモート勤務を実現した 9 つの方法](https://www.microsoft.com/ja-JP/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 教育機関用 Teams 

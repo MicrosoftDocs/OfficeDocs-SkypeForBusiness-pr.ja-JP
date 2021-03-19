@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: この記事では、Microsoft Teams パネルでサポートされる機能の概要と機能について説明します。
-ms.openlocfilehash: effbb5d76220c98aee726efe66b41954c7fceb7a
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 0d470116f5867a9d610fb376bfe2389600916c5a
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867085"
+ms.locfileid: "50875077"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams のパネル
 
@@ -90,7 +90,7 @@ Teams パネル サイトに関する推奨事項は次のとおりです。
 
 - 専用リソース アカウント
 - 電源アダプター (パネルは、通常、電源に対して Power over Ethernet Plus (PoE+) をサポートします。 デバイス固有の電源要件については、OEM ドキュメントを参照してください)。
-- Microsoft Teams のネットワークで有効になっているサービスの品質 (QoS)
+
 
 物理的なインストールに関する考慮事項については、OEM ドキュメントを参照し、ある場合は、デバイスをインストールしてマウントし、ケーブルを実行する前に、オーディオ ビジュアル チームのエクスペリエンスを使用してください。
 
@@ -105,15 +105,13 @@ Teams パネル サイトに関する推奨事項は次のとおりです。
 
 すべての Teams パネル デバイスには、Microsoft 365 のルーム リソース アカウントが必要です。 リソース アカウントの資格情報を使用して、パネル デバイスで Microsoft Teams アプリにサインインします。
 
-Teams パネルに Microsoft 365 リソース アカウントを設定するには、Microsoft Teams Rooms Standard ライセンスを [購入する必要があります](#license-requirement)。 このライセンスには、組織内のユーザーが Outlook または Teams 経由でミーティング スペースを予約できるリソース メールボックスが含まれています。
-
-リソース アカウントを作成し、そのアカウントにライセンスを割り当てる方法については [、「Microsoft 365](resource-account-ui.md)管理センターを使用してリソース アカウントを作成する」を参照してください。
+Teams パネルに Microsoft 365 リソース アカウントを設定するには、Microsoft Teams Rooms Standard ライセンスを購入 [する必要があります](#license-requirement)。 リソース アカウントを作成し、そのアカウントにライセンスを割り当てる方法については [、「Microsoft 365](resource-account-ui.md)管理センターを使用してリソース アカウントを作成する」を参照してください。
 
 > [!NOTE]
 >
 >- パネルをインストールするミーティング スペース用に会議室リソース アカウントが既に設定されている場合は、同じ会議室リソース アカウントを使用してパネル デバイスにサインインします。 ただし、パネル リソース アカウントとして使用するには、会議室リソース アカウントに Microsoft Teams Rooms Standard ライセンスが割り当てられている必要があります。
 >
->- Teams パネルをインストールするミーティング スペースに Microsoft Teams 会議室が既に展開されている場合、リソース アカウントには Microsoft Teams Rooms ライセンスが既に [割り当てされています](../rooms/rooms-licensing.md)。 このような場合は、パネルを展開するために、別個の Microsoft Teams Rooms Standard ライセンスを購入する必要が生じ得る必要があります。 管理者は、同じ領域の Microsoft Teams 会議室と同じ資格情報でパネル デバイスにサインインします。
+>- Teams パネルをインストールするミーティング スペースに Microsoft Teams の会議室が既に展開されている場合は、パネルを展開するために別のライセンスを購入する必要はない。 管理者は、同じ領域の Microsoft Teams 会議室と同じ資格情報でパネル デバイスにサインインします。
 >
 >- ボード ルームや会議室など、複数の入り口がある大きなミーティング スペースの場合は、各入口に 1 つのパネル デバイスをマウントできます。 1 つのミーティング スペースに属する複数のパネルは、同じリソース アカウントを共有し、同じ資格情報でサインインします。 同じ領域のパネルごとに個別のリソース アカウントを作成する必要はありません。
 

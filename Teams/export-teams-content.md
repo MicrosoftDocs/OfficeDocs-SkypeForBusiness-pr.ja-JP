@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1bca4eb70bff07e809630e1b997f377064b5e0e
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: 948b30e9494bbac78dc7cf2e3e276242feea306e
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861411"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50874687"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams エクスポート API を使用してコンテンツをエクスポートする
 
-Teams エクスポート API を使用すると、Microsoft Teams から 1 対 1、グループ チャット、チャネル メッセージをエクスポートできます。 組織で Microsoft Teams メッセージをエクスポートする必要がある場合は、Teams エクスポート API を使用してメッセージを抽出できます。 *チャット メッセージは* 、チャネルまたはチャット内の個々の [チャット メッセージを](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 表 [します](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)。 チャット メッセージには、ルート チャット メッセージや、チャット メッセージの **replyToId** プロパティによって定義される返信スレッドの一部を使用できます。
+Teams エクスポート API を使用すると、Microsoft Teams から 1 対 1、グループ チャット、会議チャット、チャネル メッセージをエクスポートできます。 組織で Microsoft Teams メッセージをエクスポートする必要がある場合は、Teams エクスポート API を使用してメッセージを抽出できます。 *チャット メッセージは* 、チャネルまたはチャット内の個々の [チャット メッセージを](https://docs.microsoft.com/graph/api/resources/channel?view=graph-rest-beta) 表 [します](https://docs.microsoft.com/graph/api/resources/chat?view=graph-rest-beta)。 チャット メッセージには、ルート チャット メッセージや、チャット メッセージの **replyToId** プロパティによって定義される返信スレッドの一部を使用できます。
 
 これらのエクスポート API を使用する方法の例を次に示します。
 
@@ -41,7 +41,7 @@ Teams エクスポート API を使用すると、Microsoft Teams から 1 対 1
 
     アプリと Microsoft ID プラットフォームを統合してトークンを取得する方法について既に理解している[](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)場合は、Microsoft Graph 固有の情報とサンプルについては、「次の手順」セクションを参照してください。
 - **ハイブリッド環境:** ハイブリッド環境 (オンプレミスの Exchange と Teams) でプロビジョニングされたユーザーから送信されたエクスポート API サポート メッセージ。 ハイブリッド環境用に構成されているユーザーから送信されたメッセージには、エクスポート API を使用してアクセスできます。
-- **ユーザーが削除したメッセージ:** Teams クライアントからユーザーによって削除されたメッセージには、削除から最大 30 日後にエクスポート API を使用してアクセスできます。
+- **ユーザーが削除したメッセージ:** Teams クライアントからユーザーによって削除されたメッセージには、削除から最大 21 日後にエクスポート API を使用してアクセスできます。
 - **メッセージの添付ファイル:** エクスポート API には、メッセージの一部として送信される添付ファイルへのリンクが含まれます。 エクスポート API を使用すると、メッセージに添付されているファイルを取得できます。
 - **チャット メッセージのプロパティ:** Teams エクスポート API がここでサポートするプロパティの完全な一覧を参照 [してください](https://docs.microsoft.com/graph/api/resources/chatmessage?view=graph-rest-beta#properties)。
 
@@ -50,19 +50,19 @@ Teams エクスポート API を使用すると、Microsoft Teams から 1 対 1
 - **例 1** は、フィルターなしでユーザーまたはチームのすべてのメッセージを取得する簡単なクエリです。
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages
     ```
 
 - **例 2** は、日付時刻フィルターと上位 50 件のメッセージを指定して、ユーザーまたはチームのすべてのメッセージを取得するサンプル クエリです。
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
     ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getallMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
 >API は、複数の結果が得られた場合に、次のページ リンクを含む応答を返します。 次の結果セットを取得するには、@odata.nextlink の URL で GET を呼び出します。 @odata.nextlink が存在しないか null の場合は、すべてのメッセージが取得されます。

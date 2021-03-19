@@ -17,22 +17,22 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でチームを保護するために、感度ラベルを使用する方法について説明します。
-ms.openlocfilehash: 3b994bd7f1aa8fbc1fde13aaf49b195a1698695a
-ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
+ms.openlocfilehash: 6929e9c51f35cb4483c81323048b2a1f9ec6243a
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937529"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875107"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams の感度ラベル
 
-[機密ラベルを使用](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) すると、Teams 管理者は、チーム内での共同作業中に作成された機密性の高い組織のコンテンツへのアクセスを保護し、規制することができます。 [Microsoft](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)コンプライアンス センターで、関連するポリシーを使用して感度ラベルを構成した後、これらのラベルを組織内のチームに適用できます。
+[機密ラベルを使用](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) すると、Teams 管理者は、チーム内での共同作業中に作成された機密性の高い組織コンテンツへのアクセスを保護し、規制することができます。 [Microsoft](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)コンプライアンス センターで、関連するポリシーを使用して感度ラベルを構成した後、これらのラベルを組織内のチームに適用できます。
 
 現在、Teams Education SKU を使用しているお客様は、感度ラベルはサポートされていません。 Teams のライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>区別ラベルと Teams の分類ラベルの違いは何ですか?
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>感度ラベルと Teams の分類ラベルの違いは何ですか?
 
-感度ラベルは、分類ラベルとは異なります (Azure ラベルと呼ばれるAD分類)。 分類ラベルは、Microsoft 365 グループに関連付け可能なが、実際のポリシーが関連付け内にはないテキスト文字列です。 分類ラベルをメタデータとして使用し、内部ツールやスクリプトなどの他の方法を使用してポリシーを適用する必要があります。
+感度ラベルは、分類ラベルとは異なります (Azure ラベルと呼ばれるAD分類)。 分類ラベルは、Microsoft 365 グループに関連付け可能なが、実際のポリシーが関連付けはないテキスト文字列です。 分類ラベルをメタデータとして使用し、内部ツールやスクリプトなどの他の方法を使用してポリシーを適用する必要があります。
 
 感度ラベルを使用する利点は、ポリシーが Microsoft 365 グループ プラットフォーム、コンプライアンス センター、および Teams サービスの組み合わせを通じてエンドツーエンドで自動的に適用される点です。 機密ラベルは、組織の機密データをセキュリティで保護し、内部のポリシーまたは規制に準拠するための強力なインフラストラクチャ サポートを提供します。
 
@@ -55,11 +55,12 @@ ms.locfileid: "49937529"
 
 ![機密ラベルのスクリーンショット](media/sensitivity-labels-confidential-example.png)
 
-同様に、"全般" という名前の感度ラベルを作成して発行し、ラベルのプライバシー オプションを [パブリック] として構成 **します**。 ユーザーが新しいチームを作成する場合、ユーザーは次のラベルを選択した場合にのみ、パブリックまたは組織全体のチームを作成できます。
+同様に、"全般" という名前の感度ラベルを作成して発行し、ラベルのプライバシー オプションを [パブリック] として構成 **します**。 ユーザーが新しいチームを作成すると、次のラベルを選択した場合にのみ、パブリックまたは組織全体のチームを作成できます。
 
 ![[一般的な感度] ラベルのスクリーンショット](media/sensitivity-labels-general-example.png)
 
-チームを作成すると、チームのチャネルの右上隅に感度ラベルが表示されます。
+チームが作成されると、チームのチャネルの右上隅に感度ラベルが表示されます。 "Confidential\Finance" などの階層的な親の子ラベルを使用している場合は、親ラベルだけがチャネル ヘッダーに表示されます。
+
 
 ![チーム チャネルの感度ラベルのスクリーンショット](media/sensitivity-labels-channel.png)
 

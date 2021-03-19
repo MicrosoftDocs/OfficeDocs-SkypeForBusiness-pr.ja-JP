@@ -17,16 +17,16 @@ description: Microsoft Teams 管理センターで Teams PSTN 使用状況レポ
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b6957effb494e2b7509d0e8ddc15f64baeb30be
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: a7783c3084beaa87b709ca1e9d5ab4e6932a5e59
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867056"
+ms.locfileid: "50875027"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 使用状況レポート
 
-Microsoft Teams 管理センターの Teams PSTN 使用状況レポートでは、組織内での通話と電話会議のアクティビティの概要が表示されます。 Microsoft をテレフォニー通信事業者として使用している場合、および独自のテレフォニー通信事業者を使用している場合は、通話プランの通話アクティビティの詳細を表示できます。
+Microsoft Teams 管理センターの Teams PSTN (公衆交換電話網) 利用状況レポートでは、組織内での通話および電話会議アクティビティの概要を示します。 Microsoft をテレフォニー通信事業者として使用している場合、および独自のテレフォニー通信事業者を使用している場合は、通話プランの通話アクティビティの詳細を表示できます。
 
 [ **通話プラン]** タブには、ユーザーが PSTN 通話の着信および発信に費やした通話分数や、これらの通話の料金などの情報が表示されます。 [ **直接ルーティング]** タブには、SIP アドレスや通話の開始時間と終了時間などの情報が表示されます。 このレポートの情報を使用して、組織内の PSTN 使用状況を把握し、ビジネス上の意思決定を調査、計画、実行するのに役立ちます。
 

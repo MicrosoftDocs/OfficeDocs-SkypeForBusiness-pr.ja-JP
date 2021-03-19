@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理する方法について説明します。 ポリシー設定を使用して、ユーザーがスケジュールした会議の会議参加者が使用できる機能を制御します。
-ms.openlocfilehash: 77c99516e188ecc0f42fd663a121d439b5470000
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: cdeadfd119ae0a1aa1d1f42af84d2c30ac014584
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726439"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50875167"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -459,10 +459,10 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 ### <a name="let-anonymous-people-start-a-meeting"></a>匿名ユーザーが会議を開始できるようにする
 
-これは、リーダーなしのダイヤル イン会議開催を許可する開催者単位のポリシーです。 この設定は、組織から認証されたユーザーが参加していない場合でも、ダイヤル インのユーザーが会議に参加できるかどうかを制御します。 既定では、この設定はオフになっています。これは、組織の認証済みのユーザーが会議に参加するまで、ダイヤル インのユーザーはロビーで待機します。
+これは、リーダーレス会議を許可する開催者ごとのポリシーです。 この設定は、出席している組織から認証されたユーザーなしで、無音のユーザーが会議に参加できるかどうかを制御します。 既定では、この設定はオフになっています。つまり、匿名ユーザーは、組織の認証されたユーザーが会議に参加するまでロビーで待機します。
 
 > [!NOTE]
-> この設定がオフになっていて、ダイヤル イン ユーザーが最初に会議に参加していて、ロビーに配置されている場合、組織のユーザーは、Teams クライアントと共に会議に参加して、ユーザーをロビーから会議室への入室を認める必要があります。 ダイヤル インのユーザーに使用できるロビー コントロールはありません。
+> この設定がオフになっていて、匿名ユーザーが最初に会議に参加し、ロビーに配置されている場合、組織のユーザーがロビーからユーザーを許可するには、Teams クライアントで会議に参加する必要があります。 ダイヤル インのユーザーに使用できるロビー コントロールはありません。
 
 ### <a name="automatically-admit-people"></a>ユーザーの参加を自動的に許可する
 

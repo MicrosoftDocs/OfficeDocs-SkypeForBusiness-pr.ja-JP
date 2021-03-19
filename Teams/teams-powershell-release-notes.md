@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell の最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef78d1a6be92ba3d7f4c84ce8012f84f40e58e96
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 159e73ff9f499538f830da6dd57c8ff7584e49cd
+ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867076"
+ms.locfileid: "50874737"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell のリリース ノート
 
@@ -95,9 +95,11 @@ ms.locfileid: "50867076"
 | [Set-TeamArchivedState](https://docs.microsoft.com/powershell/module/teams/set-teamarchivedstate?view=teams-ps) | はい | はい |
 | [Set-TeamChannel](https://docs.microsoft.com/powershell/module/teams/set-teamchannel?view=teams-ps) | はい | はい |
 | [Set-TeamPicture](https://docs.microsoft.com/powershell/module/teams/set-teampicture?view=teams-ps) | はい | はい |
-| [Set-TeamsApp](https://docs.microsoft.com/powershell/module/teams/set-teamsapp?view=teams-ps) | はい | はい |
-| [Set-TeamTargetingHierarchy](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy#apply-your-hierarchy) | はい | **いいえ** |
-| [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamsappinstallation?view=teams-ps) | はい | **いいえ** |
+| [Set-TeamsApp](https://docs.microsoft.com/powershell/module/teams/set-teamapp?view=teams-ps) | はい | はい |
+| [Set-TeamTargetingHierarchy](https://docs.microsoft.com/powershell/module/teams/set-teamtargetinghierarchy?view=teams-ps) | はい | **いいえ** |
+| [Update-TeamsAppInstallation](https://docs.microsoft.com/powershell/module/teams/update-teamappinstallation?view=teams-ps) | はい | **いいえ** |
+| [Enable-CsOnlineSessionForReconnection](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/diagnose-problems-with-the-skype-for-business-online-connector) | **いいえ** | **いいえ** |
+
 
 ## <a name="related-topics"></a>関連トピック
 
