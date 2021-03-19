@@ -22,18 +22,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Office 365 の管理者として Microsoft Teams のゲスト アクセス機能を有効または無効にする方法について説明します。
-ms.openlocfilehash: aaf37fda456f0e48d441e78f785a3ce450f1f42c
-ms.sourcegitcommit: def4b475b785a7b963f499cf9a1044e842ff66a5
-ms.translationtype: HT
+ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49786779"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884521"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 
 > [!Note]
 
-> **2021 年 2 月** まで、ゲスト アクセスは既定で無効になっています。 管理者やチームの所有者がゲストを追加できるようにするには、Teams へのゲスト アクセスをオンにする必要があります。 ゲストアクセスを有効にするには、変更を反映するのに、数時間かかりることもあります。 ユーザーがチームにゲストを追加しようとするときに **Contact your administrator (管理者にお問い合わせください)** というメッセージが表示される場合、ゲスト アクセスがオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。 
+> **2021 年 2 月** まで、ゲスト アクセスは既定で無効になっています。 管理者やチームの所有者がゲストを追加できるようにするには、Teams へのゲスト アクセスをオンにする必要があります。 ゲストアクセスを有効にするには、変更を反映するのに、数時間かかりることもあります。 ユーザーがチームにゲストを追加しようとするときに **Contact your administrator (管理者にお問い合わせください)** というメッセージが表示される場合、ゲスト アクセスがオンになっていないか、設定が有効になっていないかのいずれかの可能性があります。
 
 > **2021 年 2 月** 以降、この設定を構成していない新規のお客様と既存のお客様へは、Microsoft Teams のゲスト アクセスが既定で有効になります。 この変更を実装すると、Microsoft Teams でゲスト アクセス機能をまだ構成していない場合、その機能はテナントで有効になります。 組織でゲスト アクセスを無効にしたままにする場合は、ゲスト アクセスの設定が **既定のサービス** ではなく **オフ** に設定されていることを確認する必要があります。
 
@@ -48,7 +48,7 @@ ms.locfileid: "49786779"
 
 3. **[Microsoft Teams でのゲスト アクセスを許可]** を **[オン]** に設定します。
 
-    ![ゲスト アクセスの許可の切り替えをオンに設定する ](media/set-up-guests-image1.png)
+    ![ゲスト アクセスの許可の切り替えをオンに設定する ](media/guest-access-setting.png)
 
 4. **[通話]**、**[会議]**、および **[メッセージング]** で、ゲスト ユーザーに何を許可する必要があるかに応じて、各機能の **[オン]** または **[オフ]** を選択します。
 

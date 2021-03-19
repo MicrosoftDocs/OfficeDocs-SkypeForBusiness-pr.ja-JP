@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms を展開するためのインフラストラクチャを準備して、すべての機能を利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d0c5d5a1b0333a30b7730d6c8b91d06e67e291b4
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 181599e6b5181f50548621e4895b400f442646a6
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662432"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884571"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -30,14 +30,16 @@ ms.locfileid: "49662432"
     
 2. デバイスが使用できるように動作するネットワークまたはインターネット接続があることを確認します。 
     
-   - DHCP を使用して IP アドレスを受信できるようにする必要があります。 (Microsoft Teams Rooms を最初のユニットの起動時に静的 IP アドレスを使って構成することはできませんが、その後でデバイスの静的 IP アドレスを、デバイス上または上流のスイッチやルーターで構成することができます)。
-   - 次のポートが開かれている必要があります (メディアの通常のポートも開かれている必要があります)。
+   これは、DH を使用して IP アドレスを受信できる必要があります。 (Microsoft Teams Rooms は、1 台目の起動時に静的 IP アドレスを使用して構成することはできませんが、その後、デバイスまたはデバイスの静的 IP アドレスをデバイスまたはスタートアップ スイッチまたはルーターで構成できます)。
+
+   次のポートが開かれている必要があります (メディアの通常のポートも開かれている必要があります)。
    - HTTPS: 443
    - HTTP:80
-   - プロキシを介してネットワークが動作している場合は、プロキシのアドレスまたはスクリプトの情報も必要です。
+
+   プロキシを介してネットワークが動作している場合は、プロキシのアドレスまたはスクリプトの情報も必要です。
     
-     > [!IMPORTANT]
-     > Microsoft Teams Rooms は、会議室の通常の操作を妨害する可能性があるため、プロキシ認証をサポートしていません。 運用環境に移行する前に、Microsoft Teams Rooms がプロキシ認証から除外されていることを確認してください。
+   > [!IMPORTANT]
+   > Microsoft Teams Rooms は、会議室の通常の操作を妨害する可能性があるため、プロキシ認証をサポートしていません。 運用環境に移行する前に、Microsoft Teams Rooms がプロキシ認証から除外されていることを確認してください。
   
 3. エクスペリエンスを向上させるために、Microsoft ではデータを収集します。 Microsoft にデータの収集を許可するには、次のサイトを許可します。
 
@@ -53,8 +55,11 @@ ms.locfileid: "49662432"
 適切に機能するために、Microsoft Teams Rooms デバイスには、以下の要件を満たす有線ネットワークにアクセスする必要があります。
   
 - Active Directory または Azure Active Directory (Azure AD) インスタンスと、Microsoft Exchange および Skype for Business Server へのアクセス。
+
 - DHCP を使用して IP アドレスを提供することができるサーバーへのアクセス。 最初のユニットの起動時に、静的 IP アドレスを使用して Microsoft Teams Rooms を構成することはできません。
+
 - HTTP ポート 80 および 443 にアクセスします。
+
 - オンプレミスの Skype for Business Server の実装については「[サーバーのポートとプロトコルの要件](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)」、または Microsoft Teams や Skype for Business Online の実装については「[Microsoft 365 および Office 365 の URL と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)」の説明に従って構成された TCP および UDP ポート。
 
 > [!IMPORTANT]
@@ -82,48 +87,38 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
 4. HKEY_USERS フォルダーをクリックして (コンピューター ユーザーの SID の一覧が表示されます)、ルート フォルダー HKEY_USERS が選択されていることを確認してください。
        
 5. [ファイル] をクリックし、**[ハイブの読み込み]** を選択します。
-6. **C:\Users\Skype** フォルダーを参照して、[ファイル名] ボックスに「NTUSER.dat」と入力し、[開く] ボタンを押します。
+6. **C:\Users\Skype** フォルダーを参照し、[ファイル名] ボックスに NTUSER.dat を入力し、[開く] ボタンを押します。
 
 7. 新たに読み込まれたハイブのキー名が求められます。「Skype」と入力します (Skype ユーザーのレジストリ設定が表示されます)。
  
 8. Skype キーを開き、HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings を参照して、次の設定が入力されていることを確認します。 
     
-    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
-    
-    `"MigrateProxy"=dword:00000001`
-    
-    `"ProxyEnable"=dword:00000001`
-    
-    `"ProxyServer"="xx.xx.xx.xx:8080"`
+    ```console
+    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    "MigrateProxy"=dword:00000001
+    "ProxyEnable"=dword:00000001
+    "ProxyServer"="xx.xx.xx.xx:8080"
+    ```
     
     ProxyServer が存在しない場合は、このキーを文字列として追加し、xx.xx.xx.xx:8080 をプロキシ サーバーの IP/ホストとポートに変更する必要があります。
+ 
+    顧客が PAC ファイルを使用している場合、構成は次の例のようになります。
+
+     ```console
+    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    "MigrateProxy"=dword:00000001
+    "ProxyEnable"=dword:00000001
+    "AutoConfigURL"=http://contosoproxy.corp.net/proxy.pac
+    ```
     
-9. 変更を完了したら、Skype ユーザー キー (Skype のルート フォルダー) を強調表示し、レジストリのファイル メニューから [ハイブのアンロード] を選択します (確認が求められるので、**[はい]** を選択します)。
+9. 変更を完了したら、Skype ユーザー キー (Skype のルート フォルダー) を強調表示し、レジストリのファイル メニューから [ハイブのアンロード] を選択します (確認が求められるので、[**はい**] を選択します)。
     
 10. これで、レジストリ エディターを閉じて、Windows の検索ボックスに logoff と入力できます。
     
 11. サインイン画面に戻り、**Skype** ユーザーを選択します。 上記のすべての手順を正常に完了した場合は、Microsoft Teams Rooms デバイスのサインインに成功します。
     
-このアプリケーションを使用するには、以下に記載されるエンドポイントに接続できる必要があります。IP アドレスを表示するには、トラフィックの流れを説明する表の下にある IP アドレスのセクションを展開します。
+Microsoft Teams [の会議室に必要](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) な FQDN、ポート、IP アドレス範囲の詳細については、ネットワーク セキュリティに関する記事を参照してください。
   
-**ファイアウォール プロキシのホスト名またはポートの例**
-
-|用途|ソースまたは資格情報|送信元ポート|接続先|CDN|Office 365 向け ExpressRoute|接続先 IP|送信先ポート|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|認証と ID  <br/> |「[Microsoft 365 および Office 365 の認証と ID](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity)」を参照 <br/> |||
-|ポータルと共有  <br/> |「[Microsoft 365 管理センターおよび共有](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity)」を参照 <br/> |||
-|SIP 信号  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|永続共有オブジェクト モデル (PSOM) 接続による Web 会議  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|HTTPS ダウンロード  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
-|オーディオ  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |TCP/UDP 50,000-50019  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50,000-59,999  <br/> |
-|ビデオ  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |TCP/UDP 50,020 ～ 50,039  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、UDP 3478、TCP/UDP 50,000-59,999  <br/> |
-|デスクトップの共有  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |TCP/UDP 50,040 ～ 50,059  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443、50,000-59,999  <br/> |
-|iOS デバイスの Lync Mobile 2010 向け Lync モバイルのプッシュ通知Android、Nokia Symbian または Windows Phone のモバイル デバイスには、これは必要ありません。  <br/> |クライアント コンピューターまたはログオン ユーザー  <br/> |エフェメラル ポート  <br/> |\*.contoso.com  <br/> |いいえ  <br/> |はい  <br/> |[Skype for Business の IP 範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
-|Skype テレメトリ  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |なし  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
-|Skype クライアントのポップ ヒント  <br/> |クライアント コンピューターまたはログオンしているユーザー  <br/> |エフェメラル ポート  <br/> |quicktips.skypeforbusiness.com  <br/> |×  <br/> |いいえ  <br/> |該当なし  <br/> |TCP 443  <br/> |
-
-> [!NOTE]
-> contoso.com および broadcast.skype.com のワイルドカードは、Microsoft 365 または Office 365 専用で使用されるノードの長いリストを表しています。 
   
 ### <a name="create-provisioning-packages"></a>プロビジョニング パッケージを作成する
 
@@ -155,9 +150,9 @@ Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます
   
 ### <a name="machine-account"></a>コンピューター アカウント
 
-その他の Windows デバイスと同様に、[設定] \> [バージョン情報] \> [PC 名の変更] の順に右クリックして、コンピューターの名前を変更することができます。
+他の Windows デバイスと同様に、[PC 名の変更に関する設定] を右クリックすると、コンピューター名 \> **の名前を** \> **変更できます**。
   
- ドメインへの参加後にコンピューターの名前を変更する場合は、Rename-Computer PowerShell コマンドを使用し、その後にコンピューターの新しい名前を続けます。
+ドメインに参加した後にコンピューターの名前を変更する場合は、PowerShellコマンドの後にコンピューターの新しい名前を入力します。
   
 ## <a name="related-topics"></a>関連項目
 
