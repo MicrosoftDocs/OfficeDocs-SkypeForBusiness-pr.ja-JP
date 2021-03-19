@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft Teams でユーザーの電話会議 PIN をリセットする方法と、PIN に関する重要な事実について説明します。
-ms.openlocfilehash: 3f1055551edb45ac422052476196f01ee4d2765d
-ms.sourcegitcommit: 75ccb8cda9e6dd900df93a2d856ff5f7682ac623
+ms.openlocfilehash: 1ee3360668084bf6bf99b3ede25584ce9800dd5b
+ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "50237467"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50861441"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
@@ -55,14 +55,16 @@ PIN は、電話会議に対応している Microsoft Teams ユーザーごと�
 1. ユーザーにアクセスを許可します [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) 。
 2. [PIN **のリセット] をクリックします**。 
 
+> [!NOTE]
+> GCCH の場合は、次の場所に移動します https://webdir2g.online.gov.skypeforbusiness.us/lscp/usp/pstnconferencing 。
 
 ## <a name="what-else-should-you-know-about-pins"></a>PIN について知っておくべきその他のこと
 
 - セキュリティ上の目的で、PIN がリセットされた場合、PIN は管理者に 1 回だけ表示されます。 管理者が PIN をリセットすると、PIN は *********** として表示されます。
     
-- ユーザーへのメールの自動送信は既定で有効になっています。ユーザーが電話会議で有効になっている場合、または PIN がリセットされた場合、ユーザーは自分の PIN が記載されたメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN リセット メールはユーザーに送信されません。PIN 情報を手動でユーザーに送信する必要があります。
+- 既定では、ユーザーにメールを自動的に送信する機能は有効になっています。ユーザーが電話会議で有効になっている場合、または PIN がリセットされた場合、ユーザーは自分の PIN が記載されたメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN リセット メールはユーザーに送信されません。PIN 情報を手動でユーザーに送信する必要があります。
     
-- 会議が始まると、ロビー内のすべてのユーザーが自動的に会議に参加します。 たとえば、開始前に 2 人の参加者が会議に参加しようとする場合、その参加者はロビーに配置され、保留音が聞き取り、会議の開催者が自分の PIN を使って電話で参加すると、会議が開始され、ロビーの参加者が会議に参加します。
+- 会議が始まると、ロビー内のすべてのユーザーが自動的に会議に参加します。 たとえば、開始前に 2 人の参加者が会議に参加しようとする場合、参加者はロビーに置かれ、保留音を聞き、会議の開催者が自分の PIN を使って電話で参加すると、会議が開始され、ロビーの参加者が会議に参加します。
     
 - 既定の設定では、匿名の発信者による会議の開始を許可しません。
     
@@ -80,7 +82,7 @@ Windows PowerShellは、ユーザーの管理と、ユーザーに許可する�
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 または Office 365 を管理するための最適Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
   

@@ -16,16 +16,16 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: この記事では、Microsoft Teams パネルでサポートされる機能の概要と機能について説明します。
-ms.openlocfilehash: 913924e62483c1a8d44bfade29e5bc700f92b646
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: effbb5d76220c98aee726efe66b41954c7fceb7a
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50568923"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867085"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams のパネル
 
-Microsoft Teams のパネルは、会議スペースの外に取り付けられているコンパクトなタッチスクリーン デバイスで、通常は入り口の横に表示されます。 Teams のパネルでは、場所と会議の詳細を一目で確認し、その場で利用可能なミーティング スペースを予約することができます。 豊富な大きなテキストと色分けされたインジケーターを使用すると、離れた場所からミーティング スペースの空き時間を確認できます。
+Microsoft Teams のパネルは、会議スペースの外 (通常は入り口の隣) の外に取り付けられているコンパクトなタッチスクリーン デバイスです。 Teams のパネルでは、場所と会議の詳細を一目で確認し、その場で利用可能なミーティング スペースを予約することができます。 豊富な大きなテキストと色分けされたインジケーターを使用すると、離れた場所からミーティング スペースの空き時間を確認できます。
 
 Teams パネルは専用の Microsoft Teams デバイスで、Teams または Outlook 365 の予定表アプリケーションでスケジュールされた会議の詳細を表示します。 会議の詳細が目立つように表示された出席者は、適切なミーティング スペース、適切な時間、適切な会議に参加している確認を行います。
 
@@ -59,9 +59,7 @@ Teams パネル デバイスは、次のいずれかのパートナーから入�
 Teams パネルを使用するには [、Microsoft Teams Rooms Standard License が必要です](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing)。
 
 > [!Note]
->
-> - Teams パネルをインストールするミーティング スペースに Microsoft Teams 会議室が既に展開されている場合は、Teams パネルを使用するために追加のライセンスは必要ない。
-> - 近日公開される追加の高度な Teams パネル機能を使用するには、Microsoft Teams Rooms Premium のライセンスが必要です。
+> Teams パネルをインストールするミーティング スペースに Microsoft Teams 会議室が既に展開されている場合は、Teams パネルを使用するために追加のライセンスは必要ない。
 
 ## <a name="deploy-teams-panels-devices"></a>Teams パネル デバイスを展開する
 
@@ -125,7 +123,7 @@ Teams パネルに Microsoft 365 リソース アカウントを設定するに�
 
 ### <a name="testing"></a>テスト
 
-パネルを配置した後は、パネルをテストする必要があります。 Teams パネル [でサポートされる機能が、展開](#features-supported-by-teams-panels) されたデバイスで動作しているのを確認します。 コンピューター上の Teams または Outlook 365 を使用して、さまざまなタイム スロットに対して複数の会議を作成してみてください。 会議の詳細とスケジュールされた会議の空き時間情報がパネルに正しく表示されていることを確認します。 デバイスから直接 **使用可能** なミーティング スペースを予約できる場合は、[予約] ボタンを使用して確認してください。
+パネルを配置した後は、パネルをテストする必要があります。 Teams パネル [でサポートされる機能が、展開された](#features-supported-by-teams-panels) デバイスで動作しているのを確認します。 コンピューター上の Teams または Outlook 365 を使用して、さまざまなタイム スロットに対して複数の会議を作成してみてください。 会議の詳細とスケジュールされた会議の空き時間情報がパネルに正しく表示されていることを確認します。 デバイスから直接 **利用可能** なミーティング スペースを予約できる場合は、[予約] ボタンを使用して確認してください。
 
 ## <a name="manage-teams-panels-in-your-organization"></a>組織内の Teams パネルを管理する
 

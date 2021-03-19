@@ -13,12 +13,12 @@ ms.collection:
 description: Teams PowerShell の最新の変更について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22688a6e4fbeb11e09eb0c2765a9de1408ce6484
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ef78d1a6be92ba3d7f4c84ce8012f84f40e58e96
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756173"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867076"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell のリリース ノート
 
@@ -27,14 +27,17 @@ ms.locfileid: "50756173"
 ## <a name="release-notes"></a>リリース ノート
 
 > [!NOTE]
-> **下のバージョン** 列の -preview は、Teams PowerShell パブリック プレビューの更新を表しています。
+> **下の** バージョン列の -preview は、Teams PowerShell パブリック プレビューの更新プログラムを表しています。
 
 | 日付 | バージョン | 更新プログラム |
 |------- | -------------------- | ------------------------------ |
+| 2021 年 3 月 | [2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/) | <li>Connect-MicrosoftTeamsは、すべてのコマンドレットのエントリ ポイントです。</li><li>New-csOnlineSession は利用できなくなりました。 これは Connect-MicrosoftTeams に置き換えられた。</li><li>Enable-csonlinesessionforreconnection は不要です。 この機能は、Teams PowerShell モジュールでネイティブに実装されています。</li>|
+| 2020 年 11 月 | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>バグの修正と改善</li>|
+| 2020 年 11 月 | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>バグの修正と改善</li>|
 | 2021 年 3 月 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>認証認証に MSAL を&する</li><li>リファクタリングされたポリシー パッケージコマンドレットとグループ パッケージ割り当ての追加</li><li>Get-Team コマンドレットの大幅Get-Team強化</li> <li>既存のコマンドレットのログ記録とデバッグ オプションの改善 </li> <li>テンプレート管理コマンドレットが追加されました</li> <li>New-CsOnlineSession の廃止</li>|
 | 2021 年 2 月 | [1.1.11-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.11-preview) | <li>テンプレート管理コマンドレットが追加されました</li><li>Get-Team コマンドレットの Mezzo とバッチ処理の拡張機能</li> <li>既存のコマンドレットのログ記録とデバッグ オプションの改善 </li> <li>リファクタリングされたポリシー パッケージコマンドレット</li>|
 | 2020 年 12 月 | [1.1.10-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.10-preview) | <li>再試行回数とスリープ時間が長い New-team コマンドレットの更新</li>|
-| 2020 年 12 月 | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Skype for Business Online 統合の更新プログラム</li><li>Teams での重複プロンプトのConnect-Microsoft修正</li>|
+| 2020 年 12 月 | [1.1.9-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.9-preview) | <li>Skype for Business Online との統合に関する更新プログラム</li><li>Teams での重複プロンプトのConnect-Microsoft修正</li>|
 | 2020 年 11 月 | [1.1.8-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.8-preview) | <li>カスタム ポリシー パッケージコマンドレットを追加する</li><li>ターゲット階層のアップロード コマンドの修正</li>|
 | 2020 年 11 月 | [1.1.7-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>認証認証に MSAL を&する</li><li>リファクタリングされたポリシー パッケージコマンドレットとグループ パッケージ割り当ての追加</li><li>非同期モデルを使用するためにリファクタリングされたターゲット階層のアップロード コマンド</li> <li>ユーザーが -credential パラメーターを使用しない場合、最初の認証中に 2 回メッセージが表示されます。 ユーザーは、-credential パラメーターを使用して資格情報を渡して、プロンプトが重複しないようにすることができます。 この動作は次のリリースで修正される予定です。</li> |
 | 2020 年 9 月 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype for Business Online Connector の統合</li> |
@@ -49,7 +52,7 @@ ms.locfileid: "50756173"
 ### <a name="cmdlet-availability"></a>コマンドレットの可用性
 
 > [!NOTE]
-> 次の表の一覧には、Teams PowerShell モジュールのネイティブの一部であるコマンドレットだけが含まれています。 S[kype for Business Online Connector モジュールの Teams コマンドレットは](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) 表示されません。 ただし、これらのコマンドレットは Teams PowerShell にネイティブで移行されるので、このテーブルに追加します。
+> 次の表の一覧には、Teams PowerShell モジュールのネイティブの一部であるコマンドレットだけが含まれています。 S[kype for Business Online Connector モジュールの Teams コマンドレットは](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps) 表示されません。 ただし、これらのコマンドレットは Teams PowerShell にネイティブで移行されるので、次の表に追加します。
 
 | コマンドレット | パブリック プレビューで利用可能 | GA で利用可能 |
 | -| -- | --|

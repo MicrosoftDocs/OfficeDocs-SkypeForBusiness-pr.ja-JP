@@ -16,22 +16,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49f65e1ff47caefd61a9b2753b12da23fd2184e9
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: cf6787c3118ba36b71175f0ddb3360e980732a71
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401321"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867066"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示のみ会議のエクスペリエンス
 
 > [!Note]
-> 表示専用の会議エクスペリエンスは、2021 年 3 月初めに利用できます。 この機能は、既定ではオフとして 2021 年 3 月 1 日に有効になります。 この機能を既定でオンにしたい場合は、その日付以降に既定のポリシーを変更する必要があります。 PowerShell を使用してポリシーを有効にする `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 。
+> 表示専用ブロードキャストは、Microsoft 365 E3/E5 および Microsoft 365 A3/A5 で利用できます。 この機能は、既定ではオフとして 2021 年 3 月 1 日に有効になります。 Microsoft 365 Government G3/G5 プランのこの機能は、後日提供される予定です。 この機能を既定でオンにしたい場合は、その日付以降に既定のポリシーを変更する必要があります。 PowerShell を使用してポリシーを有効にする `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled` 。
 
 > [!Note]
 > 会議またはウェビナーが容量を超える場合、Teams は 10,000 人のビュー専用ブロードキャストエクスペリエンスに対応するようにシームレスにスケーリングします。 さらに、リモート作業の増加に当たっては、今年の終わりまで、さらに大規模な 20,000 人のブロードキャストを利用できます。
 
-Microsoft Teams では、最大 10,000 人の出席者が Teams 会議に参加できます。 メイン会議のキャパシティに達すると、追加の出席者がビュー専用のエクスペリエンスで参加します。
+Microsoft Teams では、最大 10,000 人の出席者が Teams 会議に参加できます。 メイン会議のキャパシティに達すると、追加の出席者が表示専用のエクスペリエンスで参加します。
 
 最初に会議に参加する出席者 (会議のキャパシティまで) は、完全な Teams 会議エクスペリエンスを取得します。 音声とビデオの共有、共有ビデオの表示、会議チャットへの参加を行います。
 
@@ -61,15 +61,15 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 メイン会議のキャパシティに達すると、次の条件に該当する場合、出席者は会議に参加できません。
 
 - 管理者が Teams の表示専用エクスペリエンスを無効にしました。
-- 出席者には、ロビーをバイパスするアクセス許可が与えらな。
+- 出席者はロビーをバイパスするアクセス許可を持つ必要があります。
 
 メイン会議のキャパシティに達すると、会議の開催者と発表者に、会議のキャパシティに達し、新しい出席者がビュー専用の出席者に参加するという通知のバナーが表示されます。
 
-  ![開催者と発表者のための Teams クライアントとバナーの乱雑な問題](media/chat-and-banner-message.png)
+  ![開催者と発表者向け Teams クライアントとバナー メッセージ](media/chat-and-banner-message.png)
 
 メイン会議のキャパシティに達すると、会議の出席者は、参加前の画面で、出席者が表示専用モードで参加中である通知を受け取ります。
 
-  ![Teams の事前参加画面と、参加者に表示専用モードで参加を伝えるメッセージ](media/view-only-pre-join-screen.png)
+  ![Teams の事前参加画面と、参加者が表示専用モードで参加すると伝えるメッセージ](media/view-only-pre-join-screen.png)
 
 空き領域がある場合、ユーザーは常にメイン会議に参加します。 メイン会議がキャパシティに達し、1 人または複数の出席者がメイン会議から退席する場合、メイン会議には利用可能な容量があります。 会議に参加 (または再参加) した出席者は、再び会議のキャパシティに達するまで、メイン会議に参加します。 表示専用の操作を行っている出席者は、メイン会議には自動的に昇格されません。また、現在、メイン会議に手動で昇格することはできません。
 
@@ -84,7 +84,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - 会議から表示専用の出席者を削除できない。
 
 > [!Note]
-> 出席者数は会議の参加者のみを反映し、オーバーフロールームのユーザーは反映されません。 そのため、発表者は、ビュー専用のエクスペリエンスを持つユーザーの正確なカウントを取得できないのです。
+> 出席者数には会議の参加者だけが反映され、表示専用ルームのユーザーは反映されません。 そのため、発表者は、ビュー専用のエクスペリエンスを持つユーザーの正確なカウントを取得できないのです。
 
 ## <a name="experience-for-view-only-attendees"></a>表示専用の出席者のエクスペリエンス
 
@@ -96,12 +96,12 @@ Teams の表示専用エクスペリエンスでは、出席者は次の機能�
 
 表示専用の出席者は、会議で次のオプションを利用できます。
 
-- 設定されたロビー ポリシーまたはオプションに基づいて、出席者がロビーをバイパスするアクセス許可がない場合は、会議に参加します。
-- 電話会議でオーバーフロー ルームに参加します。
-- Microsoft Teams Room system または Cloud Video Interop (CVI) サービスを介してオーバーフロー ルームに参加します。
+- 出席者にロビー ポリシーまたはオプションの設定に基づいてロビーをバイパスするアクセス許可がない場合は、会議に参加します。
+- 電話会議を使用して、ビュー専用のルームに参加します。
+- Microsoft Teams Room system または Cloud Video Interop (CVI) サービスを使用して、ビュー専用ルームに参加します。
 - 音声またはビデオを共有します。
 - 会議チャットを表示または参加します。
-- 参加者がアクティブな発表者である場合を含め、会議参加者のビデオ フィードを表示します。
+- 参加者がアクティブなスピーカーである場合を限り、会議参加者のビデオ フィードを表示します。
 - ネイティブの共有 PowerPoint 機能または個々のアプリケーション共有 (デスクトップ共有以外) を使用して共有されている PowerPoint ファイルを参照してください。
 
 ## <a name="view-only-feature-limitations"></a>表示専用機能の制限事項
@@ -114,8 +114,3 @@ Teams の表示専用エクスペリエンスでは、出席者は次の機能�
 - 表示専用の出席者は、通常の出席者と同じ待機時間を持つ必要があります。 <sup>1</sup>
 
   <sup>1</sup> 表示専用の出席者は、会議で 30 秒のビデオと音声による遅延が発生します。  
-
-## <a name="related-topics"></a>関連トピック
-
-- [Teams の高度なコミュニケーション アドオン](teams-add-on-licensing/advanced-communications.md)
-- [Teams の制限と仕様](limits-specifications-teams.md)

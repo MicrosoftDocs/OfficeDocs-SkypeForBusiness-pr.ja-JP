@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 または Office 365 の電話会議 (PSTN 会議) ライセンスを試用または購入して、ユーザーがダイヤルインできる電話会議を設定する方法について説明します。 '
-ms.openlocfilehash: 547e60b828c7baa36b21b8ad63ae08268c33d4dc
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: f93ce6306dfa4ab7b5eb198363a698a352763d93
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701205"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867026"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 365 for Microsoft Teams で電話会議を試用または購入する
 
@@ -37,7 +37,7 @@ ms.locfileid: "49701205"
 
 必要なのは、会議をスケジュールまたは開催する予定のユーザーのために電話会議を設定する場合のみです。 会議の出席者にミーティングへのライセンスが割り当てられている必要はなく、その他のセットアップも必要ありません。
 
-価格情報については、「[電話会議の価格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)」を参照してください。
+価格情報については、「[電話会議の価格](https://www.microsoft.com/microsoft-teams/audio-conferencing?rtc=3)」を参照してください。
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>手順 1: 電話会議ライセンスを購入して割り当てる
 
@@ -55,7 +55,7 @@ ms.locfileid: "49701205"
 
 3. [会議をスケジュールまたは開催](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) する組織内のユーザーにライセンスを割り当てる。
 
-4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「Microsoft Teams アドオン ライセンス [を割り当てる」を参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「Microsoft Teams アドオン ライセンスを割り当てる [」を参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分単位支払い電話会議ライセンスを購入して割り当てるには
 
@@ -96,7 +96,7 @@ Skype for  Business がサードパーティの電話会議プロバイダーと
 > [!NOTE]
 > この機能は、21Vianet が運営する Office 365 を中国で使用しているお客様にはまだご利用いただけません。詳細については、「 [21Vianet が運営する Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [組織内の Teams を有効にする](office-365-set-up.md)
 

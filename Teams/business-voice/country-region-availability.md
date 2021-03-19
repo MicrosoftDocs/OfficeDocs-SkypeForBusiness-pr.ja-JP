@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b352493f408f9adbc41fc978c4990f3d07f7a410
-ms.sourcegitcommit: f1386c5cfe52819e54f4ffb1f1ce06aef5a59522
+ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
+ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "45170606"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50861421"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>国および地域ごとの Business Voice の利用可能性
 
@@ -30,7 +30,7 @@ Microsoft 365 Business Voice は 70 以上の国と地域で利用できます�
 
 一部の Business Voice の機能、特に通話プランや作業の開始ウィザードは、特定の国や地域でのみ利用できます。 テナントの場所でこれらの機能を使用できるかどうかによって、Business Voice を自分で設定できるか、または Microsoft パートナーや販売店のサポートが必要かどうかが決まります。
 
-通話プランと作業の開始ウィザードのサポートが**利用可能な**国や地域では、Microsoft から Business Voice を購入し、既存の電話番号を設定または Microsoft に転送することできます。 これにより、Microsoft 365 ですべての電話番号を管理できます。 Business Voice への移行が完了したら、次のことが可能になります。
+通話プランと作業の開始ウィザードのサポートが **利用可能な** 国や地域では、Microsoft から Business Voice を購入し、既存の電話番号を設定または Microsoft に転送することできます。 これにより、Microsoft 365 ですべての電話番号を管理できます。 Business Voice への移行が完了したら、次のことが可能になります。
 
 - Microsoft 365 は電話プロバイダーとなり、Business Voice サービスには国内の市内通話と長距離通話が含まれます。  フリーダイヤルと国際長距離通話料は、Microsoft によって直接課金されます。
 - 電話番号を管理するために、サード パーティの電話プロバイダーに加入する必要がなくなります。
@@ -38,7 +38,7 @@ Microsoft 365 Business Voice は 70 以上の国と地域で利用できます�
 
 テナントが、通話プランと作業開始ウィザードがサポートされている国や地域に存在する場合は、「[通話プラン付きの Microsoft 365 Business Voice を使用するために購入する必要があるもの](what-to-buy.md)」をご確認ください。
 
-通話プランと作業の開始ウィザードのサポートが**利用できない**国や地域では、、Microsoft パートナーまたは販売店から Business Voice を購入する必要があります。 Business Voice を購入した後、パートナーまたは販売店およびサード パーティの電話プロバイダーと協力して、オンプレミスのテレフォニー ハードウェアと Microsoft 365 の間にダイレクト ルーティングを設定する必要があります。
+通話プランと作業の開始ウィザードのサポートが **利用できない** 国や地域では、、Microsoft パートナーまたは販売店から Business Voice を購入する必要があります。 Business Voice を購入した後、パートナーまたは販売店およびサード パーティの電話プロバイダーと協力して、オンプレミスのテレフォニー ハードウェアと Microsoft 365 の間にダイレクト ルーティングを設定する必要があります。
 
 - 電話プロバイダーは変更されません。 市内通話、長距離通話、フリーダイヤルの料金はすべて、既存のサード パーティの電話プロバイダーによって課金されます。
 - 電話プロバイダーが、電話番号の管理を続けます。 電話番号を追加したり、削除したりする場合は、電話プロバイダーとの間で変更を調整する必要があります。
@@ -56,7 +56,7 @@ Microsoft 365 Business Voice は 70 以上の国と地域で利用できます�
 | 米国        | X                                    | X<sup>1</sup>                                               | X                      |
 | アルゼンチン            |                                      | X                                                           |                        |
 | オーストラリア            |                                      | X                                                           |                        |
-| オーストリア              |                                      | X                                                           |                        |
+| オーストリア              | X                                    | X                                                           |                        |
 | ベルギー              |                                      | X                                                           |                        |
 | ボスニア・ヘルツェゴビナ |                                      | X                                                           |                        |
 | ブラジル               |                                      | X                                                           |                        |
@@ -67,7 +67,7 @@ Microsoft 365 Business Voice は 70 以上の国と地域で利用できます�
 | クロアチア              |                                      | X                                                           |                        |
 | キプロス               |                                      | X                                                           |                        |
 | チェコ共和国       |                                      | X                                                           |                        |
-| デンマーク              |                                      | X                                                           |                        |
+| デンマーク              | X                                    | X                                                           |                        |
 | ドミニカ共和国   |                                      | X                                                           |                        |
 | エクアドル              |                                      | X                                                           |                        |
 | エジプト                |                                      | X                                                           |                        |
@@ -81,7 +81,7 @@ Microsoft 365 Business Voice は 70 以上の国と地域で利用できます�
 | インドネシア            |                                      | X                                                           |                        |
 | アイルランド              |                                      | X                                                           |                        |
 | イスラエル               |                                      | X                                                           |                        |
-| イタリア                |                                      | X                                                           |                        |
+| イタリア                | X                                    | X                                                           |                        |
 | 日本                |                                      | X<sup>2</sup>                                               |                        |
 | ヨルダン               |                                      | X                                                           |                        |
 | ケニア                |                                      | X                                                           |                        |
@@ -100,7 +100,7 @@ Microsoft 365 Business Voice は 70 以上の国と地域で利用できます�
 | ペルー                 |                                      | X                                                           |                        |
 | フィリピン          |                                      | X                                                           |                        |
 | ポーランド               |                                      | X                                                           |                        |
-| ポルトガル             |                                      | X                                                           |                        |
+| ポルトガル             | X                                    | X                                                           |                        |
 | プエルトリコ          |                                      | X                                                           |                        |
 | カタール                |                                      | X                                                           |                        |
 | ルーマニア              |                                      | X                                                           |                        |
@@ -113,8 +113,8 @@ Microsoft 365 Business Voice は 70 以上の国と地域で利用できます�
 | 韓国          |                                      | X                                                           |                        |
 | スペイン                |                                      | X                                                           |                        |
 | スリランカ            |                                      | X                                                           |                        |
-| スウェーデン               |                                      | X                                                           |                        |
-| スイス          |                                      | X                                                           |                        |
+| スウェーデン               | X                                    | X                                                           |                        |
+| スイス          | X                                    | X                                                           |                        |
 | 台湾               |                                      | X                                                           |                        |
 | タイ             |                                      | X                                                           |                        |
 | トリニダード・トバゴ  |                                      | X                                                           |                        |

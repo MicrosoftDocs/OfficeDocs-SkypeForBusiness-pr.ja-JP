@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c99bed1ef9a1862b469dd5214b8d829bde8479b
-ms.sourcegitcommit: 15c45befbee35e69f9ec82493151cb82e61da4fb
+ms.openlocfilehash: f1bca4eb70bff07e809630e1b997f377064b5e0e
+ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "50096930"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "50861411"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams エクスポート API を使用してコンテンツをエクスポートする
 
@@ -31,13 +31,13 @@ Teams エクスポート API を使用すると、Microsoft Teams から 1 対 1
 
 これらのエクスポート API を使用する方法の例を次に示します。
 
-- **例 1:** 組織内で Microsoft Teams を有効にしている場合、特定のユーザーまたはチームの日付範囲を渡して、プログラムを使用してすべての Microsoft Teams メッセージを日付にエクスポートする場合。
-- **例 2:** 日付範囲を指定して、プログラムを使用してすべてのユーザーまたはチーム メッセージを毎日エクスポートする場合。 エクスポート API は、指定した日付範囲内に作成または更新されたメッセージをすべて取得できます。
+- **例 1:** 組織内で Microsoft Teams を有効にし、プログラムを使用してすべての Microsoft Teams メッセージを日付にエクスポートする場合は、特定のユーザーまたはチームの日付範囲を渡します。
+- **例 2:** 日付範囲を指定して、プログラムですべてのユーザーまたはチーム メッセージを毎日エクスポートする場合。 エクスポート API は、指定した日付範囲内に作成または更新されたメッセージをすべて取得できます。
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>Teams エクスポート API でサポートされる機能
 
-- **Teams メッセージの一括エクスポート:** Teams エクスポート API は、テナントごとに最大 200 RPS、アプリケーションに 600 RPS をサポートします。これらの制限により、Teams メッセージを一括エクスポートできる必要があります。
-- **アプリケーション コンテキスト**: Microsoft Graph を呼び出す場合、アプリは Microsoft ID プラットフォームからアクセス トークンを取得する必要があります。 アクセス トークンには、アプリに関する情報と、Microsoft Graph で利用できるリソースと API に対するアクセス許可が含まれます。 アクセス トークンを取得するには、アプリを Microsoft ID プラットフォームに登録し、必要な Microsoft Graph リソースへのアクセスをユーザーまたは管理者が承認する必要があります。
+- **Teams メッセージの一括エクスポート:** Teams エクスポート API は、テナントあたり最大 200 RPS、アプリケーションでは 600 RPS をサポートします。これらの制限により、Teams メッセージを一括エクスポートできる必要があります。
+- **アプリケーション コンテキスト**: Microsoft Graph を呼び出す場合、アプリは Microsoft ID プラットフォームからアクセス トークンを取得する必要があります。 アクセス トークンには、Microsoft Graph で利用できるリソースと API に対するアプリとアクセス許可に関する情報が含まれます。 アクセス トークンを取得するには、アプリを Microsoft ID プラットフォームに登録し、必要な Microsoft Graph リソースへのアクセスをユーザーまたは管理者が承認する必要があります。
 
     アプリと Microsoft ID プラットフォームを統合してトークンを取得する方法について既に理解している[](https://docs.microsoft.com/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)場合は、Microsoft Graph 固有の情報とサンプルについては、「次の手順」セクションを参照してください。
 - **ハイブリッド環境:** ハイブリッド環境 (オンプレミスの Exchange と Teams) でプロビジョニングされたユーザーから送信されたエクスポート API サポート メッセージ。 ハイブリッド環境用に構成されているユーザーから送信されたメッセージには、エクスポート API を使用してアクセスできます。
@@ -98,13 +98,17 @@ Teams エクスポート API を使用すると、Microsoft Teams から 1 対 1
                 "device": null,
                 "conversation": null,
                 "user": {
-                    "id": "string (identifier)",
-                    "displayName": "string",
+
+                    "id": \[{"@odata.type": "microsoft.graph.user"}\],
+                    "displayName": "User Name",
+
                     "userIdentityType": "aadUser"                }
             },
 "body": {"@odata.type": "microsoft.graph.itemBody"},
 "summary": "string",
-"chatId": "string (identifier)"
+
+"chatId": \[{"@odata.type": "microsoft.graph.chat"}\]
+
 "attachments": \[{"@odata.type": "microsoft.graph.chatMessageAttachment"}\],
 "mentions": \[{"@odata.type": "microsoft.graph.chatMessageMention"}\],
 "importance": "string",
