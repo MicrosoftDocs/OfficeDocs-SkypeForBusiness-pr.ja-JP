@@ -94,7 +94,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 - <span data-ttu-id="c78c5-150">アクティブなスピーカーのビデオ フィードを表示します (アクティブなスピーカーがビデオを共有している場合)。</span><span class="sxs-lookup"><span data-stu-id="c78c5-150">See the video feed for the active speaker (if the active speaker is sharing video).</span></span>
 - <span data-ttu-id="c78c5-151">共有デスクトップ機能を使用して共有されているコンテンツを確認します。</span><span class="sxs-lookup"><span data-stu-id="c78c5-151">See content being shared using the share desktop functionality.</span></span>
 
-<span data-ttu-id="c78c5-152">表示専用の出席者は、会議で次のオプションを利用できます。</span><span class="sxs-lookup"><span data-stu-id="c78c5-152">The view-only attendee won't be able to experience the following options in meetings:</span></span>
+<span data-ttu-id="c78c5-152">表示専用の出席者は、会議の次のオプションを利用できません。</span><span class="sxs-lookup"><span data-stu-id="c78c5-152">The view-only attendee won't be able to experience the following options in meetings:</span></span>
 
 - <span data-ttu-id="c78c5-153">出席者にロビー ポリシーまたはオプションの設定に基づいてロビーをバイパスするアクセス許可がない場合は、会議に参加します。</span><span class="sxs-lookup"><span data-stu-id="c78c5-153">Join the meeting if the attendee doesn't have permission to bypass the lobby based on set lobby policies or options.</span></span>
 - <span data-ttu-id="c78c5-154">電話会議を使用して、ビュー専用のルームに参加します。</span><span class="sxs-lookup"><span data-stu-id="c78c5-154">Join the view-only room using Audio Conferencing.</span></span>
