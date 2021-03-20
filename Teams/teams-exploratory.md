@@ -18,16 +18,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9aa7b0a26e947eaa961db5d5be3b793d50474867
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: bb5e415128baae6bfc458b5d0000128010a9b5cd
+ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196471"
+ms.lasthandoff: 03/18/2021
+ms.locfileid: "50867046"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 
-Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure Active Directory (Azure AD) を持ち、Teams のライセンスを取得していない組織内のユーザーは、Teams の Exploratory エクスペリエンスを開始できます。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 以前の [Microsoft の商用クラウド試用版](iw-trial-teams.md) は、 Teams Exploratory エクスペリエンスに変更になりました。
+Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure Active Directory (Azure AD) を持ち、Teams のライセンスを取得していない組織内のユーザーは、Teams の Exploratory エクスペリエンスを開始できます。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 以前の [Microsoft の商用クラウド試用版](iw-trial-teams.md)は、 Teams Exploratory エクスペリエンスに変更になりました。
+
+> [!NOTE]
+> テナントごとに 100 の Microsoft Teams Exploratory ライセンスの制限があります。
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory エクスペリエンスの内容
 
@@ -131,8 +134,8 @@ Teams Exploratory エクスペリエンスのライセンスをオフにする�
 
 4. [**製品ライセンス**] ウィンドウで、この Exploratory ライセンスのトグルを [**オフ**] に切り替えます。
 
-    >[!Note]
-    >Teams Exploratory のトグル スイッチは、組織の最初のユーザーが Teams Exploratory エクスペリエンスを起動した後に表示されます。
+    > [!NOTE]
+    > Teams Exploratory のトグル スイッチは、組織の最初のユーザーが Teams Exploratory エクスペリエンスを起動した後に表示されます。
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>Teams Exploratory ライセンスを持つユーザーの Teams を管理する
 
@@ -180,4 +183,9 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 
 12 か月のサブスクリプションの終了時に、管理者はすべての Teams Exploratory ユーザーを Teams を含む有料ライセンスに変換する必要があります。 ユーザー エクスペリエンスの中断を回避するために、Teams Exploratory サブスクリプションの有効期限が切れる前にこの処理を完了しておくことが重要です。
 
+
+> [!NOTE]
+> お客様は、以前の Exploratory 試用版ライセンスの有効期限が終了してから 3 か月間、新しい Exploratory 試用版ライセンスは無効になり、起動がブロックされます。
+
 詳細については、この記事の上記の「[Teams Exploratory ライセンスからユーザーをアップグレードする](#upgrade-users-from-the-teams-exploratory-license))」を参照してください。
+

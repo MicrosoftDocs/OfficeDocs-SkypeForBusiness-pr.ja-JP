@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Microsoft Teams のアドオン ライセンスと各ライセンスで利用できる機能について説明します。
-ms.openlocfilehash: 0c8b37ab30837e6e1fba6c61eeb1a3044f3409f9
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: ef0fd186fc3f7836e45fccacbfcdba6cb31ba60e
+ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861431"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50937864"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams アドオン ライセンス
 
@@ -74,7 +74,50 @@ Microsoft 365 Business Voice には、次の 2 つのオプションがありま
 
 ライセンスプランに基づく概要を次に示します。
 
-  ![小規模ビジネス プランのオプション](../media/licensing-smallbusiness-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>小規模ビジネス &lt; (300 人)</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本計画</strong></td>
+<td colspan="3"><strong>音声通話と会議のオプション</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Business Basic<br />
+Microsoft 365 Business Standard Microsoft 365 Business Premium</td>
+<td>Microsoft 365 Business Voice<br>国際通話プラン <br />(省略可能)コミュニケーション クレジット </td><td>または</td>
+<td>通話プランのない Microsoft 365 Business Voice<br />
+電話会議の通信クレジット </td><td>または</td>
+<td>電話会議の通信クレジット</td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Office 365 F1</td>
+<td>Microsoft 365 Business Voice<br>国際通話プラン <br />(省略可能)コミュニケーション クレジット </td><td>または</td>
+<td>通話プランのない Microsoft 365 Business Voice</td><td>または</td>
+<td>電話会議<br> 電話システム<br>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
+<td>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 お客様の国または地域で電話会議がサポートされていない場合は、電話会議プランなしで Microsoft 365 Enterprise E5 を取得するか、電話会議プランなしで Office 365 Enterprise E5 を取得することができます。
 
@@ -92,7 +135,31 @@ Microsoft 365 Enterprise または Office 365 Enterprise プランを既にお�
 
 ライセンスプランに基づく概要を次に示します。
 
-  ![エンタープライズ ベースのプラン オプション](../media/licensing-enterprise-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>エンタープライズ ビジネス (>300 人)</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本計画</strong></td>
+<td colspan="2"><strong>音声通話と会議のオプション</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise E1/E3<br>Office 365 Enterprise E1/E3<br>Microsoft 365 F3<br>Office 365 F3</td><td>電話会議<br>電話システム<br>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Enterprise E5<br>Office 365 Enterprise E5</td>
+<td>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 お客様の国または地域で電話会議がサポートされていない場合は、電話会議プランなしで Microsoft 365 Enterprise E5 を取得するか、電話会議プランなしで Office 365 Enterprise E5 を取得することができます。
 
@@ -111,7 +178,38 @@ Microsoft 365 Enterprise または Office 365 Enterprise プランを既にお�
 
 ライセンスプランに基づく概要を次に示します。
 
-  ![EDU プランオプション](../media/licensing-education-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>Education</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本計画</strong></td>
+<td colspan="3"><strong>音声通話と会議のオプション</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Enterprise A1 または A3<br>Office 365 Education A1 または A3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>国際通話プラン (オプション)<br>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td><td>または</td><td>Microsoft 365 Business Voice (通話プラン<sup>1 なし)</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 Education A1 または A3<br>Office 365 Education A1 または A3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 Business Voice <sup>1</sup><br>国際通話プラン (オプション)<br>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td><td>または</td><td>Microsoft 365 Business Voice (通話プラン<sup>1 なし)</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Education A5<br>Office 365 Education A5</td>
+<td>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
   <sup>1</sup> ユーザー数が 300 未満の組織でのみ利用できます。
 
@@ -130,7 +228,38 @@ Microsoft 365 Enterprise または Office 365 Enterprise プランを既にお�
 
 ライセンスプランに基づく概要を次に示します。
 
-  ![Gov ベースのオプション](../media/licensing-government-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>行政</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本計画</strong></td>
+<td colspan="3"><strong>音声通話と会議のオプション</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 GOV G1 または G3<br>Office 365 GOV G1 または G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>国際通話プラン (オプション)<br>通信クレジット</td><td>または</td><td>Microsoft 365 Business Voice (通話プラン<sup>1 なし)</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 GOV G1 または G3<br>Office 365 GOV G1 または G3<br>Microsoft 365 F3<br>Office 365 F3</td><td>Microsoft 365 Business Voice <sup>1</sup><br>国際通話プラン (オプション)<br>通信クレジット</td><td>または</td>
+<td>電話会議<br>電話システム<br>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 GOV G5<br>Office 365 GOV G5</td>
+<td>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
   <sup>1</sup> ユーザー数が 300 未満の組織でのみ利用できます。
 
@@ -150,7 +279,44 @@ Microsoft 365 Enterprise または Office 365 Enterprise プランを既にお�
 
 ライセンスプランに基づく概要を次に示します。
 
-  ![非営利団体ベースのオプション](../media/licensing-nonprofit-options.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>非営利団体</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>基本計画</strong></td>
+<td colspan="3"><strong>音声通話と会議のオプション</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Nonprofit Business Basic<br>Microsoft 365 Nonprofit Business Standard</td><td>Microsoft 365 Business Voice <sup>1</sup><br>国際通話プラン (オプション)<br>通信クレジット</td><td>または</td><td>Microsoft 365 Business Voice (通話プラン<sup>1 なし)</sup></td>
+</tr>
+<tr>
+<td>Microsoft 365 Nonprofit E1 または E3<br>Office 365 Nonprofit E1 または E3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>Microsoft 365 Business Voice <sup>1</sup><br>国際通話プラン (オプション)<br>通信クレジット</td><td>または</td><td>Microsoft 365 Business Voice (通話プラン<sup>1 なし)</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Nonprofit E1 または E3<br>Office 365 Nonprofit E1 または E3<br>Microsoft 365 F3<br>Office 365 F3</td>
+<td>電話会議<br>電話システム<br>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Nonprofit E5<br>Office 365 Nonprofit E5</td>
+<td>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
   <sup>1</sup> ユーザー数が 300 未満の組織でのみ利用できます。
 
@@ -175,7 +341,48 @@ Microsoft 365 Enterprise または Office 365 Enterprise プランを既にお�
 
 音声機能の試用版オファーの概要を次に示します。
 
-  ![試用版のオプション](../media/licensing-trial-offers.png)
+<table>
+<thead>
+<tr class="header">
+<th><strong>試用版のオファー</strong></th>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>音声通話と会議のオプション</strong></td>
+<td><strong>説明</strong></td>
+</tr>
+<tr class="even">
+<td>Microsoft 365 Business Voice Trial</td><td>国内音声通話、電話会議、自動応答や通話キューのような高度な音声機能の機能を示します。</td>
+</tr>
+<tr class="odd">
+<td>Microsoft 365 Business Voice Trial<br>Microsoft 365 国内通話と国際通話プランの試用版</td>
+<td>国内および国際音声通話、電話会議、自動応答やキューのような高度な音声機能の機能について説明します。</td>
+</tr>
+<tr>
+<td>Microsoft 365 国内通話プランの試用版</td>
+<td>国内音声通話の機能を表示します。</td>
+</tr>
+<tr>
+<td>Microsoft 365 国内通話と国際通話プランの試用版</td>
+<td>国内通話と国際通話の機能を表示します。</td>
+</tr>
+<tr>
+<td>Microsoft 365 電話会議試用版</td>
+<td>電話会議の機能が表示されます。</td>
+</tr>
+<tr>
+<td>Microsoft 365 Phone system - 仮想ユーザー</td>
+<td>自動応答や通話キューなど、高度な音声機能が表示されます。</td>
+</tr>
+<tr>
+<td>Common Area Phone Trial</td>
+<td>一般的なエリアの電話の機能が表示されます。</td>
+</tr>
+</tbody>
+</table>
 
  基本プランは、音声機能でこれらの評価版を使用するために試用版プランである必要は一切ない。 Microsoft 365 Business プラン、またはエンタープライズ、政府機関、教育、非営利団体向けプランを音声機能の試用版プランで使用できます。 利用可能な試用版プランとアドオンを表示するには、Microsoft 365 管理センターで、[課金購入サービス] に移動し、興味のあるその他のカテゴリを選択し、[アドオン] を選択します。  >    
 

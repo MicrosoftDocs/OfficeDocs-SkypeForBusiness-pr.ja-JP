@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: この記事では、Microsoft Teams パネルでサポートされる機能の概要と機能について説明します。
-ms.openlocfilehash: 0d470116f5867a9d610fb376bfe2389600916c5a
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: d0316cc54404547910557cfcf9a608e9e2614ba0
+ms.sourcegitcommit: 5c49dc68c964481c46127f9fb3f5ca358897b0f8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875077"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50937854"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams のパネル
 
@@ -136,5 +136,7 @@ Teams パネル デバイスを管理するには、Microsoft Teams 管理セン
 [Teams パネルの Microsoft Teams ブログ](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [Teams パネルの使用を開始する](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
+
+[Teams パネルマーケットプレース](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=815)
 
 [Microsoft Teams パネル認定プログラムで認定されたデバイス](teams-ip-phones.md#currently-certified-teams-panels)
