@@ -541,130 +541,56 @@ items:
         href: cortana-in-teams.md
       - name: チーム対象の階層を設定する
         href: set-up-your-team-hierarchy.md
-  - name: ミーティングと会議
+  - name: 会議、会議、ライブ イベント
     items:
       - name: クイック スタート - 会議とライブ イベント
         href: quick-start-meetings-live-events.md
       - name: 展開の計画
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: Microsoft Teams Rooms
+      - name: 会議
         items:
-          - name: 概要
-            href: rooms/index.md
-          - name: Microsoft Teams Rooms の管理サービス
-            items:
-              - name: 管理を計画する
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: 役割ベースのアクセス制御
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-          - name: 計画
-            items:
-              - name: Microsoft Teams Rooms の計画の概要
-                href: rooms/rooms-plan.md
-              - name: バージョンのサポート
-                href: rooms/rooms-lifecycle-support.md
-              - name: リリース ノート
-                href: rooms/rooms-release-note.md
-              - name: 環境を準備する
-                href: rooms/rooms-prep.md
-              - name: 要件
-                href: rooms/requirements.md
-              - name: セキュリティ
-                href: rooms/security.md
-              - name: オンライン ライセンス
-                href: rooms/rooms-licensing.md
-              - name: Azure Monitor による管理の計画
-                href: rooms/azure-monitor-plan.md
-          - name: 展開
-            items:
-              - name: 展開の概要
-                href: rooms/rooms-deploy.md
-              - name: アカウントを構成する
-                href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 最適化された会議を設定する
-                    href: rooms/coordinated-meetings.md
-                  - name: Microsoft Teams 設定の管理
-                    href: rooms/surface-hub-manage-config.md
-              - name: Office 365 の場合
-                href: rooms/with-office-365.md
-              - name: Skype for Business Server の場合
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: Exchange Online の場合 (ハイブリッド)
-                href: rooms/with-exchange-online.md
-              - name: オンプレミスの Exchange の場合 (ハイブリッド)
-                href: rooms/with-exchange-on-premises.md
-              - name: コンソールを構成する
-                href: rooms/console.md
-              - name: 手動でデバイスを更新する
-                href: rooms/manual-update.md
-              - name: 認証を構成する
-                href: rooms/rooms-authentication.md
-              - name: サードパーティ製の会議に参加する
-                href: rooms/third-party-join.md
-              - name: Microsoft Endpoint Configuration Manager を使用する
-                href: rooms/rooms-scale.md
-              - name: Azure Monitor による管理
-                href: rooms/azure-monitor-deploy.md
-              - name: SRS v1 または LRS の移行
-                href: rooms/lrs-migration.md
-              - name: コンテンツ カメラ
-                href: rooms/content-camera.md
-          - name: 管理
-            items:
-              - name: 管理の概要
-                href: rooms/rooms-manage.md
-              - name: メンテナンスと操作
-                href: rooms/rooms-operations.md
-              - name: 組織で Teams をサポートする
-                href: rooms/known-issues.md
-              - name: Azure Monitor でのデバイス
-                href: rooms/azure-monitor-manage.md
-              - name: XML を使用した設定
-                href: rooms/xml-config-file.md
-              - name: 回復ツールの使用
-                href: rooms/recovery-tool.md
-      - name: 会議ポリシーを管理する
-        href: meeting-policies-in-teams.md
-      - name: ユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する
-        href: meeting-policies-restricted-anonymous-access.md
-      - name: 会議の設定を管理する
-        href: meeting-settings-in-teams.md
-      - name: ユーザーの設定を変更したときに送信されるメール
-        href: emails-sent-to-users-when-their-settings-change-in-teams.md
-      - name: ユーザーが会議に参加するときに名前を記録できるようにする
-        href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-      - name: 会議の入退室通知をオンまたはオフにする
-        href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-      - name: Teams で NDI® テクノロジを使用する
-        href: use-NDI-in-meetings.md
-      - name: Teams 会議での挙手オプション
-        href: raise-hand-meetings.md
-      - name: サポートされていないブラウザーでの Teams 会議
-        href: unsupported-browsers.md
-      - name: Teams でのデスクトップ共有を構成する
-        href: configure-desktop-sharing.md
-      - name: Teams のクラウド会議のレコーディング
-        href: cloud-recording.md
-      - name: OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
-        href: tmr-meeting-recording-change.md
-      - name: コンタクト センターの統合
-        href: teams-contact-center.md
-      - name: Outlook で Teams の会議アドインを使用する
-        href: teams-add-in-for-outlook.md
-      - name: Teams と連動するように Skype 会議アプリを構成する
-        href: configure-skype-meetings-app-to-work-with-teams.md
-      - name: 'ユーザーの [電話する] 機能をセットアップする'
-        href: set-up-the-call-me-feature-for-your-users.md
-      - name: 会議出席レポートを入手する
-        href: teams-analytics-and-reports/meeting-attendance-report.md
-      - name: Meeting Migration Service (MMS) のセットアップ
-        href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-      - name: Teams でホワイトボードを管理する
-        href: manage-whiteboard.md
-      - name: Google Workspace 用のTeams 会議アドオンを設定する
-        href: google-workspace-addon-teams.md
+          - name: 会議ポリシーを管理する
+            href: meeting-policies-in-teams.md
+          - name: ユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する
+            href: meeting-policies-restricted-anonymous-access.md
+          - name: 会議の設定を管理する
+            href: meeting-settings-in-teams.md
+          - name: ユーザーの設定を変更したときに送信されるメール
+            href: emails-sent-to-users-when-their-settings-change-in-teams.md
+          - name: ユーザーが会議に参加するときに名前を記録できるようにする
+            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+          - name: 会議の入退室通知をオンまたはオフにする
+            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+          - name: Teams で NDI® テクノロジを使用する
+            href: use-NDI-in-meetings.md
+          - name: Teams 会議での挙手オプション
+            href: raise-hand-meetings.md
+          - name: サポートされていないブラウザーでの Teams 会議
+            href: unsupported-browsers.md
+          - name: Teams でのデスクトップ共有を構成する
+            href: configure-desktop-sharing.md
+          - name: Teams のクラウド会議のレコーディング
+            href: cloud-recording.md
+          - name: OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
+            href: tmr-meeting-recording-change.md
+          - name: コンタクト センターの統合
+            href: teams-contact-center.md
+          - name: Outlook で Teams の会議アドインを使用する
+            href: teams-add-in-for-outlook.md
+          - name: Teams と連動するように Skype 会議アプリを構成する
+            href: configure-skype-meetings-app-to-work-with-teams.md
+          - name: 'ユーザーの [電話する] 機能をセットアップする'
+            href: set-up-the-call-me-feature-for-your-users.md
+          - name: 会議出席レポートを入手する
+            href: teams-analytics-and-reports/meeting-attendance-report.md
+          - name: Meeting Migration Service (MMS) のセットアップ
+            href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Teams でホワイトボードを管理する
+            href: manage-whiteboard.md
+          - name: Google Workspace 用のTeams 会議アドオンを設定する
+            href: google-workspace-addon-teams.md
+          - name: クラウド ビデオ相互運用性
+            href: cloud-video-interop.md
       - name: 電話会議
         items:
           - name: 展開の計画
@@ -755,8 +681,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: 'ビデオ: Teams での電話会議'
                 href: audio-conferencing-videos.md
-      - name: クラウド ビデオ相互運用性
-        href: cloud-video-interop.md
       - name: ライブ イベント
         items:
           - name: Teams のライブ イベントについて
@@ -771,6 +695,84 @@ items:
             href: teams-live-events/configure-teams-live-events.md
           - name: ライブ イベント レコーディング ポリシー
             href: teams-live-events/live-events-recording-policies.md
+      - name: Microsoft Teams Rooms
+        items:
+          - name: 概要
+            href: rooms/index.md
+          - name: Microsoft Teams Rooms の管理サービス
+            items:
+              - name: 管理を計画する
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: 役割ベースのアクセス制御
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: 計画
+            items:
+              - name: Microsoft Teams Rooms の計画の概要
+                href: rooms/rooms-plan.md
+              - name: バージョンのサポート
+                href: rooms/rooms-lifecycle-support.md
+              - name: リリース ノート
+                href: rooms/rooms-release-note.md
+              - name: 環境を準備する
+                href: rooms/rooms-prep.md
+              - name: 要件
+                href: rooms/requirements.md
+              - name: セキュリティ
+                href: rooms/security.md
+              - name: オンライン ライセンス
+                href: rooms/rooms-licensing.md
+              - name: Azure Monitor による管理の計画
+                href: rooms/azure-monitor-plan.md
+          - name: 展開
+            items:
+              - name: 展開の概要
+                href: rooms/rooms-deploy.md
+              - name: アカウントを構成する
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: 最適化された会議を設定する
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 設定の管理
+                    href: rooms/surface-hub-manage-config.md
+              - name: Office 365 の場合
+                href: rooms/with-office-365.md
+              - name: Skype for Business Server の場合
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: Exchange Online の場合 (ハイブリッド)
+                href: rooms/with-exchange-online.md
+              - name: オンプレミスの Exchange の場合 (ハイブリッド)
+                href: rooms/with-exchange-on-premises.md
+              - name: コンソールを構成する
+                href: rooms/console.md
+              - name: 手動でデバイスを更新する
+                href: rooms/manual-update.md
+              - name: 認証を構成する
+                href: rooms/rooms-authentication.md
+              - name: サードパーティ製の会議に参加する
+                href: rooms/third-party-join.md
+              - name: Microsoft Endpoint Configuration Manager を使用する
+                href: rooms/rooms-scale.md
+              - name: Azure Monitor による管理
+                href: rooms/azure-monitor-deploy.md
+              - name: SRS v1 または LRS の移行
+                href: rooms/lrs-migration.md
+              - name: コンテンツ カメラ
+                href: rooms/content-camera.md
+          - name: 管理
+            items:
+              - name: 管理の概要
+                href: rooms/rooms-manage.md
+              - name: メンテナンスと操作
+                href: rooms/rooms-operations.md
+              - name: 組織で Teams をサポートする
+                href: rooms/known-issues.md
+              - name: Azure Monitor でのデバイス
+                href: rooms/azure-monitor-manage.md
+              - name: XML を使用した設定
+                href: rooms/xml-config-file.md
+              - name: 回復ツールの使用
+                href: rooms/recovery-tool.md
   - name: 音声 - 電話システムと PSTN 接続
     items:
       - name: Teams の音声ソリューションを計画する
@@ -1440,14 +1442,6 @@ items:
     items:
       - name: Teams の制限と仕様
         href: limits-specifications-teams.md
-      - name: Kaizala から Microsoft Teams に移行する
-        items:
-          - name: 概要
-            items:
-              - name: 移動を計画する
-              - name: Teams に向けて組織を準備する
-              - name: 移動を実装する
-                href: implement-your-move.md
       - name: ライセンス
         items:
           - name: Teams へのユーザー アクセスを管理する
