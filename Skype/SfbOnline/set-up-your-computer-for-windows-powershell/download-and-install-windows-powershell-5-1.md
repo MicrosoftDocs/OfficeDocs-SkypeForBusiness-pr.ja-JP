@@ -19,19 +19,19 @@ f1.keywords:
 ms.custom:
 - PowerShell
 - LIL_Placement
-description: Windows PowerShell 5.1 をダウンロード、インストール、および使用して、Skype for Business Online に接続するリモート PowerShell セッションを作成します。
+description: Windows PowerShell 5.1 のダウンロードとインストールを行い、これを使用して Skype for Business Online に接続するリモート PowerShell セッションを作成します。
 ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
 ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 02/15/2020
 ms.locfileid: "42029098"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Windows PowerShell 5.1 をダウンロードしてインストールする
 
-Windows 10 記念の更新プログラムまたは Windows Server 2016 を使用している場合は、既に Windows PowerShell 5.1 を持っている必要があります。 このため、このアプリケーションはこれらのオペレーティング システムでプリインストールされています。
+Windows 10 Anniversary Update または Windows Server 2016 を使用している場合は、Windows PowerShell 5.1 が既にインストールされているはずです。 このアプリケーションはこれらのオペレーティング システムにプリインストールされているためです。
   
-使用している Microsoft PowerShelll のバージョンを確認するには、Windows 7 または windows Server 2008 R2 または Windows Server 2012 コンピューターで次の操作を行います。
+ご使用中の Microsoft PowerShell のバージョンを特定するには、Windows 7 または Windows Server 2008 R2 もしくは Windows Server 2012 のコンピューターで次を実行します。
   
 1. [ **スタート**]、[ **すべてのプログラム**]、[ **アクセサリ**]、[ **Windows PowerShell**] の順にクリックしてから、[ **Windows PowerShell**] をクリックします。
     
@@ -49,9 +49,9 @@ Windows 10 記念の更新プログラムまたは Windows Server 2016 を使用
     4.0
     </pre>
 
-    返されるバージョン番号が5.1 の場合は、Windows PowerShell 5.1 を実行しています。 返されるバージョン番号が5.1 ではない場合は、Windows PowerShell 5.1 をインストールする必要があります。 Windows PowerShell 5.1 を含む Windows Management Framework 5.1 は、 [Microsoft ダウンロードセンター](https://www.microsoft.com/download/details.aspx?id=54616)からダウンロードできます。
+    返されたバージョン番号が 5.1 の場合は、Windows PowerShell 5.1 を実行しています。 返されたバージョン番号が 5.1 ではない場合は、Windows PowerShell 5.1 をインストールする必要があります。 Windows PowerShell 5.1 が含まれている Windows Management Framework 5.1 を [Microsoft ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=54616)からダウンロードできます。
   
-Windows PowerShell 5.1 がインストールされていることを確認したら、リモートスクリプトを実行するように PowerShell が構成されていることを確認する必要があります。 これを実行するには、PowerShell を管理者として開始する必要があります。 Windows 7、Windows Server 2008 R2、Windows Server 2012、または Windows Server 2012 R2 で次を実行します。
+Windows PowerShell 5.1 がインストールされていることを確認した後に、PowerShell がリモート スクリプトを実行するために構成されていることを確認する必要があります。 これを実行するには、PowerShell を管理者として開始する必要があります。 Windows 7、Windows Server 2008 R2、Windows Server 2012、または Windows Server 2012 R2 で次を実行します。
   
 1. [ **スタート**]、[ **すべてのプログラム**]、[ **アクセサリ**]、[ **Windows PowerShell**] の順にクリックして、[ **Windows PowerShell**] を右クリックし、[ **管理者として実行**] をクリックします。
     
@@ -72,7 +72,7 @@ Set-ExecutionPolicy RemoteSigned -Force
    
  
 > [!NOTE]
-> 上記のコマンドを実行すると、次のエラーメッセージが表示されることがあります: > *set-executionpolicy: レジストリキーへ\\の\\アクセス\\HKEY_LOCAL_MACHINE\\、\\Microsoft\\powershell 1 ShellIds micrsoft soft soft soft soft soft soft soft soft soft the powershell ' が拒否さ*れています。 このエラーメッセージは、通常、管理者の資格情報で PowerShell を実行していない場合に発生します。 PowerShell のセッションを終了し、管理者として新しいセッションを開始します。
+> 前述のコマンドを実行すると次のエラー メッセージが表示されることがあります: *Set-ExecutionPolicy : Access to the registry key'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' is denied.* このエラー メッセージは通常、管理者の資格情報で PowerShell を実行していない場合に発生します。 PowerShell のセッションを閉じ、管理者として新しいセッションを開始します。
  
 実行ポリシーが正しく構成されていることを確認するには、PowerShell プロンプトで次を入力してから ENTER を押します。
   
@@ -84,17 +84,17 @@ Get-ExecutionPolicy
   
 `RemoteSigned`
 
-現在 Windows PowerShell 5.1 を実行していない場合は、Microsoft ダウンロードセンターから Windows Management Framework 5.1 をダウンロードしてインストールする必要もあります。 これは、Windows PowerShell 5.1 および Windows リモート管理 (WinRM) 3.0 を含むインストールパッケージです。 たとえば、Windows 7 SP1 を実行していて、Windows PowerShell 5.1 にまだ更新されていない場合は、このインストールパッケージが必要になることがあります。 Windows Server 2016 または Windows 10 記念日更新を実行している場合は、Windows PowerShell 5.1 をインストールする必要はありません。 Windows PowerShell 5.1 は、これらのオペレーティングシステムにプレインストールされています。
+現在 Windows PowerShell 5.1 を実行していない場合は Microsoft ダウンロード センターから Windows Management Framework 5.1 をダウンロードしてインストールする必要もあります。 これは、Windows PowerShell 5.1 と Windows リモート管理 (WinRM) 3.0 が含まれているインストール パッケージです。 このインストール パッケージは、Windows 7 SP1 を実行していて Windows PowerShell 5.1 にまだ更新していない場合に必要となる場合があります。 Windows Server 2016 または Windows 10 Anniversary Update を実行している場合は、Windows PowerShell 5.1 をインストールする必要はありません。 Windows PowerShell 5.1 はこれらのオペレーティング システムにプレインストールされています。
   
-Windows Management Framework 5.1 をインストールする前に、次の操作を行います。
+Windows Management Framework 5.1 をインストールする前に次を行います。
   
-- インストール パッケージの正しいバージョンをダウンロードしたことを確認します。 64ビット版の Windows 7 SP1 を実行している場合は、Win7AndW2K8R2-KB3191566-x64 ファイルをダウンロードします。 32ビットバージョンの Windows 7 を実行している場合は、Win7-KB3191566-x86 ファイルをダウンロードします。
+- 正しいバージョンのインストール パッケージをダウンロードしたことを確認します。 Windows 7 SP1 の 64 ビット版を実行している場合は、ファイル Win7AndW2K8R2-KB3191566-x64.ZIP をダウンロードします。 Windows 7 の 32 ビット版を実行している場合は、ファイル Win7-KB3191566-x86.ZIP をダウンロードします。
     
 - コンピューター上で Windows 7 を実行している場合は、Windows 7 Service Pack 1 をインストール済みであることを確認します。
 
 どのバージョンの Windows を実行しているかわからない場合、または Windows 7 Service Pack 1 をインストール済みであるかわからない場合は、[ **スタート**] をクリックして、[ **コンピューター**] を右クリックしてから [ **プロパティ**] をクリックします。この情報は [システム] ダイアログ ボックスで報告されます。
   
-Windows Management Framework 5.1 をインストールするには、「 [WMF 5.1 をインストールして構成](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure)する」の手順を実行します。
+Windows Management Framework 5.1 をインストールするには、「[WMF 5.1 のインストールと構成](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure)」の手順を実行します。
   
 コンピューターが再起動した後に、Windows PowerShell が開始できることと、管理者の資格情報でアプリケーションが実行できることを検証します。その手順は次のとおりです。
   
@@ -140,7 +140,7 @@ Auth
     CredSSP = false
 </pre>
 
-基本認証が true に設定されている場合は、PowerShell を使用して Skype for Business Online に接続する準備ができています。
+基本認証が True に設定されている場合、PowerShell を使用して Skype for Business Online に接続する準備ができています。
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
