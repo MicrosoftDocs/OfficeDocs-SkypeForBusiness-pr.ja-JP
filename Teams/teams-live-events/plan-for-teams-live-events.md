@@ -3,7 +3,6 @@ title: Microsoft Teams でのライブ イベントの計画
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,12 +20,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dc05b94fd5f375133c0682d72757eec5f90ef43e
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 26192da2b9d11a94f9d37adb7e1a170cb81d3170
+ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569239"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50884581"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -45,7 +44,7 @@ Teams ライブ イベントを整理、作成または発表するために割�
 
 - **整理:** Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、**[または]** Office 365 Education A3 または A5 ライセンス。 
 - **作成または発表:** Microsoft 365 または Office 365 Enterprise E1、E3、E5 のいずれかのライセンス、**[または]** Office 365 Education A1、A3 または A5 ライセンス。 この要件の例外は、[ゲスト ユーザー](plan-for-teams-live-events.md#guest-to-present)の他の条件が満たされている場合は、ゲスト ユーザーがライセンスなしで発表できることです。
-- Microsoft Teams ライセンス - これは最初と 2 番目の項目に記載されているライセンスに含まれています。
+- Microsoft Teams ライセンス - このライセンスは最初と 2 番目の項目に記載されているライセンスに含まれています。
 - Microsoft Stream のライセンス - コンテンツを外部のアプリまたはデバイスと共有する場合はこのライセンスが必要です。「[Microsoft Stream のライセンス](https://docs.microsoft.com/stream/license-overview)」をご覧ください。
 
   ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。これは、記録が Microsoft Stream に保存されず、代わりに Azure Media Services (AMS) に保存され、削除されるまでに 180 日の制限があることを意味します。現時点では、削除機能を含めるように管理者が制御または管理できるものではありません。
@@ -80,13 +79,13 @@ Teams ライブ イベントを整理、作成または発表するために割�
 
 ### <a name="guest-to-present"></a>[発表を行うゲスト](#guest-to-present)
 
-ゲストがライブ イベントで発表するようにするには、次の操作を行います:
+ゲストがライブ イベントで発表するようにするには、次のタスクを行います:
 
 1. [ユーザーをゲストとしてチームに追加します](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)。
 2. ユーザーにゲストの招待を承諾してチームに参加してもらいます。
 3. [ライブイベントをスケジュールし、ゲストをイベントグループに追加します](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-ベストプラクティスとして、ライブイベントのプロデューサーと発表者がイベントの前にチャットして情報を共有できるように、チャネルを作成することをお勧めします。 Microsoft 365 の資格情報を持たないゲストには、Teams の予定表は表示されません。 簡単にイベントに参加できるように、プロデューサーはイベントリンクをチャネルに投稿できます。 発表者は、Teams を開いてチャネルに移動し、リンクをクリックしてイベントに参加できます。
+ベストプラクティスとして、ライブイベントのプロデューサーと発表者がイベントの前にチャットして情報を共有できるように、チャネルを作成することをお勧めします。 Microsoft 365 の資格情報を持たないゲストには、Teams の予定表は表示されません。 簡単にイベントに参加できるように、プロデューサーはイベントリンクをチャネルに投稿できます。 発表者は、Teams を開いてチャネルに移動し、リンクを選択してイベントに参加できます。
 
 ## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか
 
@@ -165,9 +164,10 @@ Teams ライブ イベントを整理、作成または発表するために割�
 **これらの国/地域のデータの場所 (サポートされている)**
 
 - オーストラリア
+- ブラジル
 - カナダ
-- ドイツ
 - フランス
+- ドイツ
 - インド
 - 日本
 - 南アフリカ
@@ -178,14 +178,13 @@ Teams ライブ イベントを整理、作成または発表するために割�
 
 **これらの国/地域およびクラウドはサポートされていません**
 
-- ブラジル
 - ノルウェー
 - Government Community Cloud (GCC)-H
-- DOD
+- 米国国防総省 (DOD)
 
 **除外対象と考慮事項**
 
-- **データの場所**: 上記以外の Teams のデータの場所はサポートされていません。
+- **データの場所**: 上記以外の Teams のデータの場所は、現在サポートされていません。
 - **中国:** 中国では Azure CDN にアクセスできないため、イベント チームのメンバーと出席者は Teams ライブ イベントを使用できません。 企業の VPN 接続を使用して、顧客の企業ネットワーク経由でクライアントを CDN に接続することにより、これを回避できます。
 
 ## <a name="next-steps"></a>次の手順
