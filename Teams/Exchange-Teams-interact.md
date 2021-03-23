@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39b60bcd5913619efbf9dfd2aec22813e79921dd
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 9790cfb186e1745d7233bf23232ac4b4a69b00e0
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874897"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997325"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -50,7 +50,7 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Micros
 | **Exchange Online**                                                 | はい <sup>1</sup> | はい <sup>1</sup>   | はい        | はい                   | はい                               | はい<sup>7</sup>             | はい          | はい             | はい <sup>6</sup>        | はい        | はい                          | はい                    | はい                    |
 | **Exchange Online 専用 vNext**                                 | はい <sup>1</sup> | はい <sup>1</sup>   | はい        | はい                   | はい                               | はい<sup>7</sup>             | はい          | はい             | はい <sup>6</sup>        | はい        | はい                          | はい                    | はい                    |
 | **Exchange Online 専用 – レガシー** (Azure AD との同期が必要)  | はい <sup>1</sup> | はい <sup>1,2</sup> | はい <sup>3</sup> | はい                   | いいえ                                | いいえ                          | はい          | はい             | 不要                      | はい <sup>4</sup> | はい <sup>5</sup>                   | はい                    | はい                    |
-| **Exchange On-premises** (Azure AD との同期) | はい <sup>1</sup> | はい <sup>1</sup>   | はい <sup>3</sup> | はい                   | はい <sup>8</sup>         | いいえ                          | はい          | はい             | 不要                      | はい <sup>4</sup> | はい <sup>5</sup>                   | はい                    | はい                    |
+| **Exchange On-premises** (Azure AD との同期) | ○ <sup>1,9</sup> | はい <sup>1</sup>   | はい <sup>3</sup> | はい                   | はい <sup>8</sup>         | いいえ                          | はい          | はい             | 不要                      | はい <sup>4</sup> | はい <sup>5</sup>                   | はい                    | はい                    |
 
 <sup>1</sup> チャネル メッセージのコンプライアンスに関する電子情報開示および法的な保全は、すべてのホスティング オプションでサポートされています。
 
@@ -66,6 +66,8 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Micros
 
 <sup>7</sup> Teams では、ユーザーがプロフィール画像を変更できるかどうかを制御するため、テナント管理者によって構成されている[Outlook on the web のメールボックス ポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)の設定を優先します。 **ポリシーで -SetPhotoEnabled** 設定がオフになっている場合、ユーザーはプロファイル画像を追加、変更、または削除できないので、管理者が写真を変更した場合、porfile 画像はチームに同期されません。
 <sup>8</sup> 「[オンプレミスでホストされているメールボックスの会議を作成および表示するための要件](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)」セクション記載されている要件を満たす必要があります。 
+
+<sup>9</sup> 最低でも Exchange Online プラン 1 のライセンスが必要です。 詳細については、「オンプレミス ユーザーの Teams チャット データを検索 [する」を参照してください](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件
 
@@ -105,12 +107,12 @@ Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサー�
 
 これらのユーザーのカレンダー委任を有効にするには、
 
-- 上記に加え、「[Skype for Business Online と Exchange Server 間の統合と OAuth の構成](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)」の説明に従って手順 2-3 を完了する必要があります。 これらの手順により、Teams スケジューリング アプリケーションに、委任のアクセス許可を確認するために必要なアクセス許可が提供されます。
+- 「Skype for Business Online と Skype for Business Online 間の統合と OAuth の構成」の説明に従って、手順 [を完了Exchange Server。](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)次の手順では、Teams のスケジュール アプリケーションに、代理人のアクセス許可を確認するために必要なアクセス許可が提供されます。
  
   > [!NOTE]
   > 手順 2 には、委任に必要のない ArchiveApplication の役割の割り当てが含まれています。
 
-- 誰かに代わって会議をスケジュールする場合の Outlook 用の Teams スケジュール設定 アドインには、Exchange 2013 CU19 以降が必要です。 これは、委任メールボックスに対する委任権限をチェックするために、サービスによるメールボックスの認証されていない検出をサポートするためです。 代理人と代理人の場所は、Exchange 2013 以降、または Exchange オンラインですが、自動検出は Exchange 2013 CU19 以降に解決する必要があります。
+- Outlook 用 Teams スケジュール アドインでは、他のユーザーの代わりに会議をスケジュールする際に Exchange 2013 CU19 以降が必要です。 これは、委任メールボックスに対する委任権限をチェックするために、サービスによるメールボックスの認証されていない検出をサポートするためです。 代理人と代理人の場所は、Exchange 2013 以降、または Exchange オンラインですが、自動検出は Exchange 2013 CU19 以降に解決する必要があります。
 
 ## <a name="additional-considerations"></a>その他の考慮事項
 

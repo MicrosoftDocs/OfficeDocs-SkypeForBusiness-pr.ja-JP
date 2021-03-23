@@ -22,33 +22,33 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ユーザー用にクラウド ボイスメールを設定する方法について学習します。 '
-ms.openlocfilehash: 81e5f83b251a0bd648cb2ab2afd69f35357fc49f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: fa30184d38822141d0f30404fb55b79eefd5d33d
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662212"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997425"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
 この記事は、Microsoft 365 または Office 365 管理者向け[](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)です。「組織のすべてのユーザーにクラウド ボイスメール機能を設定する管理者ロールについて」を参照してください。
 
 > [!NOTE]
-> クラウド ボイスメールは、Exchange メールボックスへのボイスメール メッセージの受信のみをサポートし、サードパーティのメール システムをサポートしません。 
+> クラウド ボイスメールは、ボイスメール メッセージの受信のみを Exchange メールボックスにサポートし、サードパーティのメール システムをサポートしません。 
 
 > [!NOTE]
-> 代理人が委任者の代わりに通話に応答すると、クラウド ボイスメールでは通知を利用できません。 ユーザーは、着信を逃した場合の通知を受け取る可能性があります。
+> 代理人が委任者の代わりに通話に応答すると、通知はクラウド ボイスメールで利用できません。 ユーザーは、着信を逃した場合の通知を受け取る可能性があります。
 
 ## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>クラウド専用環境: オンライン電話システム ユーザー向けクラウド ボイスメールをセットアップする
 
-オンライン電話システム ユーザーの場合、ユーザーに電話システム ライセンスを割り当てると、クラウド ボイスメールが自動的にセットアップ **され、ユーザー** 用にプロビジョニングされます。 
+オンライン電話システム ユーザーの場合、ユーザーに電話システム ライセンスを割り当てると、クラウド ボイスメールが自動的にセットアップされ **、ユーザー用** にプロビジョニングされます。 
 
 > [!NOTE]
 > オンプレミスで提供された電話番号を持つ Online Skype for Business Phone System ユーザーの場合 [、Set-CsUser -HostedVoicemail](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps)$True を使用してホストボイス メールを有効にする必要がある場合があります。 
 
 ## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>メールボックス ユーザー向けクラウド ボイスメールExchange Serverセットアップする
 
-次の情報は、電話システム用にオンラインでメールボックスを持っているユーザーと作業するためにクラウド ボイスメールをExchange Server。 
+次の情報は、電話システム用にオンラインでメールボックスを持っているユーザーと作業するためのクラウド ボイスメールの構成Exchange Server。 
   
 1. ボイスメール メッセージは、Exchange Online Protection 経由でルーティングされる SMTP 経由でユーザーの Exchange メールボックスに配信されます。 これらのメッセージを正常に配信するには、Exchange サーバーと Exchange Online Protection の間で Exchange コネクタが正しく構成されていることを確認してください。 [コネクタを使用してメール フローを構成します](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)。 
 
@@ -60,7 +60,7 @@ ms.locfileid: "49662212"
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>組織内で保護されたボイスメールを有効にする
 
-ユーザーが組織内のユーザーのボイスメール メッセージを離れる場合、ボイスメールはメール メッセージの添付ファイルとしてユーザーのメールボックスに配信されます。 メール フロー ルールを使用してメッセージの暗号化を適用すると、それらのボイスメール メッセージが他の受信者に転送されるのを防ぐ方法があります。 保護されたボイスメールを有効にした場合、ユーザーは、ボイスメール メールボックスに通話するか、Outlook、Outlook on the web、または Outlook for Android または iOS でメッセージを開いて、保護されたボイスメール メッセージを聞き取ります。 保護されたボイスメール メッセージは、Skype for Business または Microsoft Teams で開くことができません。
+ユーザーが組織内のユーザーのボイスメール メッセージを離れる場合、ボイスメールはメール メッセージの添付ファイルとしてユーザーのメールボックスに配信されます。 メール フロー ルールを使用してメッセージの暗号化を適用すると、これらのボイスメール メッセージが他の受信者に転送されるのを防止できます。 保護されたボイスメールを有効にした場合、ユーザーは、ボイスメール メールボックスに通話するか、Outlook、Outlook on the web、または Outlook for Android または iOS でメッセージを開いて、保護されたボイスメール メッセージを聞き取ります。 保護されたボイスメール メッセージは、Skype for Business または Microsoft Teams で開くことができません。
 
 メッセージの暗号化の詳細については、「メールの暗号化 [」を参照してください](https://docs.microsoft.com/microsoft-365/compliance/email-encryption?view=o365-worldwide)。
 
@@ -69,7 +69,7 @@ ms.locfileid: "49662212"
 1. グローバル管理者権限 https://admin.microsoft.com を持つアカウントに移動してサインインします。
 2. [すべて **表示] を選** び、管理センターの Exchange **に**  >  **移動します**。
 3. Exchange 管理センターで、[メール フロー ルール **] を選択**  >  **します**。
-4. [ **+** **追加]** を選択し **、[365 Message Encryption Office権限** の保護をメッセージに適用する] を選択します。
+4. [ **+** **追加]** を選択し **、[365 Message Encryption Office権限の保護** をメッセージに適用する] を選択します。
 5. 新しいメール フロー ルールの名前を入力し、[このルールを適用する場合] の [メッセージのプロパティにメッセージの種類を含めるボイス メール  >  **]**  >  **を選択します**。 **[OK] を選択します**。
 6. [ **次の操作を行** う] で **、[365 Message Encryption** とOffice保護を適用する] を選択し、[Select **one]** を選択します。 **[RMS テンプレート] で 、[** 転送しない **] を選択します**。 **[OK] を選択** し、[保存 **] を選択します**。
     > [!NOTE]
@@ -85,16 +85,49 @@ ms.locfileid: "49662212"
 
 既定では、すべての組織とユーザーに対して、ボイスメール トランスクリプションは有効に、トランスクリプション不適切表現マスキングは無効になっています。ただし、[Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) と [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) コマンドレットを使用してそれらを制御することができます。
 
-組織内のユーザーによって受信されたボイスメール メッセージは、Microsoft 365 または Office 365 組織がホストされている地域で変換されます。 テナントがホストされている地域は、ボイスメール メッセージを受信するユーザーと同じ地域ではない可能性があります。 テナントがホストされている地域を表示するには、[組織プロファイル][](https://go.microsoft.com/fwlink/p/?linkid=2067339)ページに移動し、[データの場所] の横にある [**詳細の表示**]**をクリックします**。
+組織内のユーザーによって受信されたボイスメール メッセージは、Microsoft 365 または Office 365 組織がホストされている地域で変換されます。 テナントがホストされている地域は、ボイスメール メッセージを受信するユーザーと同じ地域ではない可能性があります。 テナントがホストされている地域を表示するには、[組織プロファイル][](https://go.microsoft.com/fwlink/p/?linkid=2067339)ページに移動し、[データの場所] の横にある [詳細の表示]**をクリックします**。
 
 > [!IMPORTANT]
 > **New-CsOnlineVoiceMailPolicy** コマンドレットを使用してトランスクリプションとトランスクリプション不適切なマスクの新しいポリシー インスタンスを作成したり **、Remove-CsOnlineVoiceMailPolicy** コマンドレットを使用して既存のポリシー インスタンスを削除したりできない。
 
 ボイスメール ポリシーを使用してユーザーのトランスクリプション設定を管理することができます。 使用可能なすべてのボイスメール ポリシー インスタンスを表示するには [、Get-CsOnlineVoicemailPolicy コマンドレットを使用](https://technet.microsoft.com/library/mt798311.aspx) します。
 
- **PS C:\\> Get-CsOnlineVoicemailPolicy**
-  
-![Get-CsOnlineVoiceMailPolicy results window.](media/6cea8310-2d71-4b95-8d36-688472845727.png)
+```PowerShell
+PS C:\> Get-CsOnlineVoicemailPolicy
+
+
+Identity                            : Global
+EnableTranscription                 : True
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : False
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+
+Identity                            : Tag:Default
+EnableTranscription                 : True
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : False
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+
+Identity                            : Tag:TranscriptionProfanityMaskingEnabled
+EnableTranscription                 : True
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : True
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+
+Identity                            : Tag:TranscriptionDisabled
+EnableTranscription                 : False
+ShareData                           : Defer
+EnableTranscriptionProfanityMasking : False
+EnableEditingCallAnswerRulesSetting : True
+MaximumRecordingLength              : 00:05:00
+EnableTranscriptionTranslation      : True
+```
   
 ### <a name="turning-off-transcription-for-your-organization"></a>組織のトランスクリプションをオフにする
 

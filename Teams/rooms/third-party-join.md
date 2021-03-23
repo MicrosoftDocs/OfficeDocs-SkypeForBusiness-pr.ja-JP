@@ -12,17 +12,17 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: この記事では、Cisco WebEx とズームへの参加をサポートするサードパーティ会議をサポートするために組織および Teams Rooms デバイスを構成する方法について説明します。
-ms.openlocfilehash: 82369c534a616796382b1de69e37c64f15392f9b
-ms.sourcegitcommit: db0dc45520503753567e99c0c016f0265d45aa66
+description: この記事では、Cisco WebEx とズームへの参加をサポートするサードパーティ会議をサポートするために、組織と Teams Rooms デバイスを構成する方法について説明します。
+ms.openlocfilehash: ac4c57dc5cc743fb7b141ecaaaf3531b35912e77
+ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "49682386"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "50997435"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>Teams Room デバイスがサードパーティの会議に参加する
 
-Microsoft Teams Rooms デバイスは、サードパーティのオンライン会議 (直接ゲスト参加とも呼ばれます) に参加するワンタッチ操作をサポートします。 有効になっている場合は、Teams 会議室デバイスを使用して、Microsoft Teams でホストされている会議に参加できるのと同じ方法で、Cisco WebEx およびズームでホストされている会議に簡単に参加できます。
+Microsoft Teams Rooms デバイスは、サードパーティのオンライン会議 (直接ゲスト参加とも呼ばれます) に参加するワンタッチ操作をサポートします。 有効になっている場合は、Teams 会議室デバイスを使用して、Microsoft Teams でホストされている会議に参加できるのと同じ方法で、Cisco WebEx でホストされている会議に参加し、ズームを簡単に行うことができます。
 
 Teams 会議室デバイスからサードパーティ会議に参加するには、次の操作を行う必要があります。
 
@@ -34,7 +34,7 @@ Teams 会議室デバイスからサードパーティ会議に参加するに�
 
 ## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>手順 1: サードパーティ会議の予定表の招待処理を許可する
 
-チーム ルーム デバイスからワンタッチで参加するには、まず、デバイスの Exchange Online 会議室メールボックスの予定表処理ルールを設定します。 会議室メールボックスでは、外部会議を許可し、メッセージ本文と件名を保持して、サードパーティ会議への参加に必要な URL を確認する必要があります。 [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.)コマンドレットを使用してこれらのルーム メールボックス オプションを設定するには、次の操作を行います。
+チーム ルーム デバイスからワンタッチで参加するには、まず、デバイスの Exchange Online 会議室メールボックスの予定表処理ルールを設定します。 会議室メールボックスでは、外部会議を許可し、メッセージの本文と件名を保持して、サードパーティ会議への参加に必要な URL を確認する必要があります。 [Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.)コマンドレットを使用してこれらのルーム メールボックス オプションを設定するには、次の操作を行います。
 
 1. Exchange Online PowerShell に接続します。 詳細については、認証方法に応じて、「基本認証を使用して [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps) に接続する」または「多要素認証を使用して [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)に接続する」を参照してください。
 
@@ -56,23 +56,23 @@ Teams 会議室デバイスからサードパーティ会議に参加するに�
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>手順 2: Office 365 Threat Protection を構成し、リンクを書き換える
 
-ワンタッチ参加機能を有効にするには、サードパーティの会議からの会議参加リンク情報が会議の出席と読み取りが可能である必要があります。 組織で Office [365 Advanced Threat Protection の](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) 安全なリンク機能を使用している場合、またはすべての受信 URL と送信 URL を脅威用にスキャンするサードパーティ ソリューションを使用している場合は、会議参加 URL が変更され、Teams Rooms デバイスで会議が認識不可になります。 この問題が発生しない場合は、サード パーティの会議サービスの URL を ATP の安全なリンクのリストに追加するか、サード パーティの URL 書き換え例外リストを "書き換えない" 必要があります。
+ワンタッチ参加機能を有効にするには、サードパーティの会議からの会議参加リンク情報が会議の出席と読み取りが可能である必要があります。 組織で Office [365 Advanced Threat Protection の](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) 安全なリンク機能を使用している場合、またはすべての受信 URL と送信 URL を脅威用にスキャンするサードパーティ ソリューションを使用している場合は、会議参加 URL が変更され、Teams Rooms デバイスによって会議が認識されなくる可能性があります。 この問題が発生しない場合は、サード パーティの会議サービスの URL を ATP の安全なリンクのリストに追加するか、サード パーティの URL の書き換え例外リストを "書き換えない" 必要があります。
 
-サード パーティの会議サービスの URL を ATP の安全なリンクの "書き換えない" リストに追加するには [、「ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)の安全なリンクを使用して、書き換えないカスタム URL リストを設定する」の手順に従います。 サード パーティのソリューションを使用する場合は、そのソリューションの手順を参照して、URL の書き換え例外リストに URL を追加します。
+サード パーティの会議サービスの URL を ATP の安全なリンクの "書き換えない" リストに追加するには [、「ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)の安全なリンクを使用して、書き換えないカスタム URL リストを設定する」の手順に従います。 サードパーティソリューションを使用する場合は、そのソリューションの手順を参照して URL を URL 書き換え例外リストに追加します。
 
 ATP の安全なリンクの "書き換えない" リストまたはサード パーティの URL 書き換え例外リストに追加する必要があるエントリの例を次に示します。
 
 - **Cisco WebEx**`*.webex.com*`
 - **ズーム** `*.zoom.us*` `*.zoom.com*` 、、 `*.zoomgov.com*`
 
-ATP の安全なリンクの "書き換えない" リストまたはサード パーティの URL 書き換え例外リストに追加する URL の完全なリストについては、会議の招待を受け入れるサードパーティの会議サービス プロバイダーにお問い合わせください。 
+ATP の安全なリンクに 「書き換えない」リストまたはサード パーティの URL 書き換え例外リストに追加する URL の完全なリストについては、会議の招待を受け入れるサードパーティの会議サービス プロバイダーにお問い合わせください。 
 
 > [!CAUTION]
-> 信頼できる URL のみを ATP の安全なリンクのリストに追加するか、サード パーティ URL の書き換え例外リストを作成します。
+> 信頼できる URL は、ATP の安全なリンクのリストに 「書き換えない」か、サード パーティの URL 書き換え例外リストにのみ追加します。
 
 ## <a name="step-3-enable-third-party-meetings-on-device"></a>手順 3: デバイスでサードパーティ会議を有効にする
 
-最後に行う必要がある手順は、各 Teams Rooms デバイスがサードパーティ会議に参加することを許可します。 サードパーティの会議に参加するには、ユーザー名とメール アドレスが必要です。 使用する必要があるユーザー名とメール アドレスがデバイスのルーム メールボックスと異なる場合は、デバイスに追加する必要があります。 これは、デバイスの設定または XML 構成ファイルで行います。
+最後に行う必要がある手順は、Teams 会議室の各デバイスがサードパーティ会議に参加することを許可します。 サードパーティの会議に参加するには、ユーザー名とメール アドレスが必要です。 使用する必要があるユーザー名とメール アドレスがデバイスのルーム メールボックスと異なる場合は、デバイスに追加する必要があります。 これは、デバイスの設定または XML 構成ファイルで行います。
 
 ### <a name="use-device-settings"></a>デバイス設定を使用する
 
@@ -81,15 +81,15 @@ ATP の安全なリンクの "書き換えない" リストまたはサード �
 1. Microsoft Teams の会議室デバイスで、[その他 **...] を選択します**。
 2. [ **設定]** を選び、デバイス管理者のユーザー名とパスワードを入力します。
 3. [会議] タブ **に移動** し **、Cisco WebEx、ズーム**、または **両方を選択** します。
-4. ルーム メールボックスに関連付けられているユーザー名とメール アドレスを使用して会議に参加する場合は、[ルーム情報で参加] を **選択します**。
-5. 別のユーザー名とメール アドレスを使用して会議に参加する場合は、[ユーザー設定の情報で参加] を選択し、使用するユーザー名とメール アドレスを入力します。
+4. ルーム メールボックスに関連付けられているユーザー名とメール アドレスを使用して会議に参加する場合は、[ルーム情報で参加] **を選択します**。
+5. 別のユーザー名とメール アドレスを使って会議に参加する場合は、[ユーザー設定の情報で参加] を選択し、使用するユーザー名とメール アドレスを入力します。
 6. **[保存して終了]** を選択します。 デバイスが再起動します。
 
 ### <a name="use-the-skypesettingsxml-configuration-file"></a>構成ファイルSkypeSettings.xml使用する
 
-次の設定は、次の `SkypeSettings.xml` 場所にあるファイルに追加できます `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 。 ファイルの詳細については、「XML 構成ファイルを使用して Microsoft Teams Rooms 本体の設定をリモート `SkypeSettings.xml` [で管理する」を参照してください](xml-config-file.md)。
+次の設定は、次の `SkypeSettings.xml` 場所にあるファイルに追加できます `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` 。 ファイルの詳細については、「XML 構成ファイルを使用して Microsoft Teams Rooms 本体の設定をリモートで `SkypeSettings.xml` [管理する」を参照してください](xml-config-file.md)。
 
-Cisco WebEx 会議を有効にするには、次のように XML 要素 `WebExMeetingsEnabled` を **True** に設定します。
+Cisco WebEx 会議を有効にするには、次のように XML 要素を `WebExMeetingsEnabled` **True** に設定します。
 
 ```xml
 <WebExMeetingsEnabled>True</WebExMeetingsEnabled>
@@ -113,4 +113,3 @@ Cisco WebEx 会議を有効にするには、次のように XML 要素 `WebExMe
 
 > [!NOTE]
 > Teams Rooms デバイスから Cisco WebEx 会議に参加するには、Cisco WebEx Web アプリケーション バージョン WBS 40.7 以降を使用して Cisco 会議をホストする必要があります。
-
