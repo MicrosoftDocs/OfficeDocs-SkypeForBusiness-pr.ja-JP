@@ -1,5 +1,5 @@
 ---
-title: クライアント バージョン ポリシーの作成(新規) または [既存の編集]
+title: クライアント バージョン ポリシー [新規の作成] または [既存の編集]
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,45 +15,44 @@ localization_priority: Normal
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 現在の環境でサポートするクライアントのバージョンを指定できます。 バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。
-ms.openlocfilehash: c2d6dc4f68a7c40668db9042d420f2f341e35ca0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 57c273198a9c88ae26540518c9f892b218b96118
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824897"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100693"
 ---
-# <a name="client-version-policy-create-new-or-edit-existing"></a><span data-ttu-id="64568-104">クライアント バージョン ポリシー: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="64568-104">Client Version Policy: Create New or Edit Existing</span></span>
+# <a name="client-version-policy-create-new-or-edit-existing"></a><span data-ttu-id="0f98f-104">クライアント バージョン ポリシー: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="0f98f-104">Client Version Policy: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="64568-105">現在の環境でサポートするクライアントのバージョンを指定できます。</span><span class="sxs-lookup"><span data-stu-id="64568-105">You can specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="64568-106">バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。</span><span class="sxs-lookup"><span data-stu-id="64568-106">When two clients that are running different versions interact, the features that are available to either client can be limited by the capabilities of the other client.</span></span> <span data-ttu-id="64568-107">Skype for Business Server に含まれる機能を最大に利用し、全体的なユーザー エクスペリエンスを向上させるために、クライアント バージョン フィルターを使用して、環境で使用されるクライアント バージョンを制限できます。</span><span class="sxs-lookup"><span data-stu-id="64568-107">To make the greatest use of features included in Skype for Business Server and to improve the overall user experience, you can use the client version filter to restrict the client versions that are used in your environment.</span></span> <span data-ttu-id="64568-108">クライアント バージョン フィルターを使用すると、複数バージョンのクライアントをサポートすることによって発生するコストを抑えることもできます。</span><span class="sxs-lookup"><span data-stu-id="64568-108">By using the client version filter, you can also help reduce costs associated with supporting multiple client versions.</span></span>
+<span data-ttu-id="0f98f-105">現在の環境でサポートするクライアントのバージョンを指定できます。</span><span class="sxs-lookup"><span data-stu-id="0f98f-105">You can specify the version of clients that are supported in your environment.</span></span> <span data-ttu-id="0f98f-106">バージョンが異なる 2 つのクライアントが対話する場合、機能によっては一方のクライアントでは使用できても、他方のクライアントでは使用できないことがあります。</span><span class="sxs-lookup"><span data-stu-id="0f98f-106">When two clients that are running different versions interact, the features that are available to either client can be limited by the capabilities of the other client.</span></span> <span data-ttu-id="0f98f-107">Skype for Business Server に含まれる機能を最も有効に利用し、全体的なユーザー エクスペリエンスを向上させるために、クライアント バージョン フィルターを使用して、環境で使用されるクライアント バージョンを制限できます。</span><span class="sxs-lookup"><span data-stu-id="0f98f-107">To make the greatest use of features included in Skype for Business Server and to improve the overall user experience, you can use the client version filter to restrict the client versions that are used in your environment.</span></span> <span data-ttu-id="0f98f-108">クライアント バージョン フィルターを使用すると、複数バージョンのクライアントをサポートすることによって発生するコストを抑えることもできます。</span><span class="sxs-lookup"><span data-stu-id="0f98f-108">By using the client version filter, you can also help reduce costs associated with supporting multiple client versions.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="64568-p103">フィルターは、優先順にリストされます。たとえば、バージョン 1.5 を実行するクライアントに接続を許可するフィルターの後に、2.0 より古いバージョンを実行するクライアントを禁止するフィルターを設定した場合、最初のフィルターが優先されるため、バージョン 1.5 を実行するクライアントの接続が許可されます。</span><span class="sxs-lookup"><span data-stu-id="64568-p103">Filters are listed in order of precedence. For example, if you have a filter that allows clients running version 1.5 to connect, followed by a filter that blocks clients running a version earlier than 2.0, the first filter takes precedence, and clients running version 1.5 are allowed to connect.</span></span>
+> <span data-ttu-id="0f98f-p103">フィルターは、優先順にリストされます。たとえば、バージョン 1.5 を実行するクライアントに接続を許可するフィルターの後に、2.0 より古いバージョンを実行するクライアントを禁止するフィルターを設定した場合、最初のフィルターが優先されるため、バージョン 1.5 を実行するクライアントの接続が許可されます。</span><span class="sxs-lookup"><span data-stu-id="0f98f-p103">Filters are listed in order of precedence. For example, if you have a filter that allows clients running version 1.5 to connect, followed by a filter that blocks clients running a version earlier than 2.0, the first filter takes precedence, and clients running version 1.5 are allowed to connect.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="64568-111">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="64568-111">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="0f98f-111">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="0f98f-111">Tasks you can perform</span></span>
 
-<span data-ttu-id="64568-112">[**新しいクライアント バージョン ポリシーの作成**] または [**編集 クライアント バージョン ポリシー**] ページでは、次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="64568-112">You can perform the following tasks on the **New Client Version Policy** or **Edit Client Version Policy** page:</span></span>
+<span data-ttu-id="0f98f-112">[**新しいクライアント バージョン ポリシーの作成**] または [**編集 クライアント バージョン ポリシー**] ページでは、次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="0f98f-112">You can perform the following tasks on the **New Client Version Policy** or **Edit Client Version Policy** page:</span></span>
 
-- <span data-ttu-id="64568-113">クライアント バージョン ポリシーの名前や説明を追加または変更します。</span><span class="sxs-lookup"><span data-stu-id="64568-113">Add or modify the name or description of the client version policy.</span></span>
+- <span data-ttu-id="0f98f-113">クライアント バージョン ポリシーの名前や説明を追加または変更します。</span><span class="sxs-lookup"><span data-stu-id="0f98f-113">Add or modify the name or description of the client version policy.</span></span>
 
-- <span data-ttu-id="64568-114">クライアント バージョン ポリシーのクライアント バージョン ルールを追加または変更します。</span><span class="sxs-lookup"><span data-stu-id="64568-114">Add or modify client version rules for the client version policy.</span></span>
+- <span data-ttu-id="0f98f-114">クライアント バージョン ポリシーのクライアント バージョン ルールを追加または変更します。</span><span class="sxs-lookup"><span data-stu-id="0f98f-114">Add or modify client version rules for the client version policy.</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="64568-115">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="64568-115">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="0f98f-115">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="0f98f-115">UI Reference</span></span>
 
-<span data-ttu-id="64568-116">次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。</span><span class="sxs-lookup"><span data-stu-id="64568-116">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="0f98f-116">次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。</span><span class="sxs-lookup"><span data-stu-id="0f98f-116">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
 
-- <span data-ttu-id="64568-117">**スコープ** クライアント バージョン ポリシーのスコープ (サイト、プール、またはユーザー) を識別します。</span><span class="sxs-lookup"><span data-stu-id="64568-117">**Scope** Identifies the scope (Site, Pool, or User) of the client version policy.</span></span>
+- <span data-ttu-id="0f98f-117">**スコープ** クライアント バージョン ポリシーのスコープ (サイト、プール、またはユーザー) を識別します。</span><span class="sxs-lookup"><span data-stu-id="0f98f-117">**Scope** Identifies the scope (Site, Pool, or User) of the client version policy.</span></span>
 
-- <span data-ttu-id="64568-118">**名前** クライアント バージョン ポリシーの名前を追加または変更できます。</span><span class="sxs-lookup"><span data-stu-id="64568-118">**Name** You can add or modify the name of the client version policy.</span></span>
+- <span data-ttu-id="0f98f-118">**名前** クライアント バージョン ポリシーの名前を追加または変更できます。</span><span class="sxs-lookup"><span data-stu-id="0f98f-118">**Name** You can add or modify the name of the client version policy.</span></span>
 
-- <span data-ttu-id="64568-119">**説明** [クライアント バージョン ポリシー] ページの一覧で、ポリシーの識別に役立つ説明を追加できます。</span><span class="sxs-lookup"><span data-stu-id="64568-119">**Description** You can add a description to help in identifying the policy in the list on the Client Version Policy page.</span></span>
+- <span data-ttu-id="0f98f-119">**説明** [クライアント バージョン ポリシー] ページの一覧で、ポリシーの識別に役立つ説明を追加できます。</span><span class="sxs-lookup"><span data-stu-id="0f98f-119">**Description** You can add a description to help in identifying the policy in the list on the Client Version Policy page.</span></span>
 
-- <span data-ttu-id="64568-120">**新規** 新しいクライアント バージョン ルールをポリシーに追加できます。</span><span class="sxs-lookup"><span data-stu-id="64568-120">**New** You can add a new client version rule to the policy.</span></span>
+- <span data-ttu-id="0f98f-120">**New** 新しいクライアント バージョン ルールをポリシーに追加できます。</span><span class="sxs-lookup"><span data-stu-id="0f98f-120">**New** You can add a new client version rule to the policy.</span></span>
 
-- <span data-ttu-id="64568-121">**詳細の表示** このオプションを選択すると、クライアント バージョン ルールのオプションを変更できるダイアログ ボックスが開きます。</span><span class="sxs-lookup"><span data-stu-id="64568-121">**Show details** This option opens a dialog box in which you can change the options for a client version rule.</span></span>
+- <span data-ttu-id="0f98f-121">**詳細の表示** このオプションは、クライアント バージョン ルールのオプションを変更できるダイアログ ボックスを開きます。</span><span class="sxs-lookup"><span data-stu-id="0f98f-121">**Show details** This option opens a dialog box in which you can change the options for a client version rule.</span></span>
 
-- <span data-ttu-id="64568-122">**Remove** このオプションを選択すると、選択したクライアント バージョン ルールがポリシーから削除されます。</span><span class="sxs-lookup"><span data-stu-id="64568-122">**Remove** This option removes the selected client version rule from the policy.</span></span>
+- <span data-ttu-id="0f98f-122">**削除** このオプションは、選択したクライアント バージョン ルールをポリシーから削除します。</span><span class="sxs-lookup"><span data-stu-id="0f98f-122">**Remove** This option removes the selected client version rule from the policy.</span></span>
 
-- <span data-ttu-id="64568-123">**上矢印と下矢印** このオプションは、選択したクライアント バージョン ルールを優先度の上または下に移動します。</span><span class="sxs-lookup"><span data-stu-id="64568-123">**Up and down arrows** This option moves the selected client version rule up or down in priority.</span></span> <span data-ttu-id="64568-124">ルールは、記載されている順序で処理されます。</span><span class="sxs-lookup"><span data-stu-id="64568-124">Rules are processed in the order listed.</span></span>
+- <span data-ttu-id="0f98f-123">**上下の矢印** このオプションは、選択したクライアント バージョン ルールを優先度で上下に移動します。</span><span class="sxs-lookup"><span data-stu-id="0f98f-123">**Up and down arrows** This option moves the selected client version rule up or down in priority.</span></span> <span data-ttu-id="0f98f-124">ルールは、一覧表示された順序で処理されます。</span><span class="sxs-lookup"><span data-stu-id="0f98f-124">Rules are processed in the order listed.</span></span>
 
-<span data-ttu-id="64568-125">クライアントとクライアント バージョン間の相互運用性の詳細については、「クライアントの相互運用 [性」を参照してください](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx)。</span><span class="sxs-lookup"><span data-stu-id="64568-125">For details about interoperability among clients and client versions, see [Client Interoperability](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx).</span></span> <span data-ttu-id="64568-126">クライアント バージョン ポリシーの操作の詳細については、「操作」のドキュメントの「[Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="64568-126">For details about working with client version policies, see [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) in the Operations documentation.</span></span>
-
+<span data-ttu-id="0f98f-125">クライアントとクライアント バージョン間の相互運用性の詳細については [、「Client Interoperability」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)。</span><span class="sxs-lookup"><span data-stu-id="0f98f-125">For details about interoperability among clients and client versions, see [Client Interoperability](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013).</span></span> <span data-ttu-id="0f98f-126">クライアント バージョン ポリシーの操作の詳細については、「操作」のドキュメントの「[Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="0f98f-126">For details about working with client version policies, see [Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013) in the Operations documentation.</span></span>

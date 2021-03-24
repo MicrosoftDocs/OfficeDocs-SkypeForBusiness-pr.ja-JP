@@ -1,5 +1,5 @@
 ---
-title: トポロジ信頼済みアプリケーション
+title: トポロジの信頼されたアプリケーション
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: cf15b313ab0b9b62a2666616252c3713fe33e842
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c8af86cd81b469eaa1e4d180edd407affaf9719d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818977"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099273"
 ---
-# <a name="topology-trusted-application"></a><span data-ttu-id="3dd7f-104">トポロジ: 信頼済みアプリケーション</span><span class="sxs-lookup"><span data-stu-id="3dd7f-104">Topology: Trusted Application</span></span>
+# <a name="topology-trusted-application"></a><span data-ttu-id="67251-104">トポロジ: 信頼済みアプリケーション</span><span class="sxs-lookup"><span data-stu-id="67251-104">Topology: Trusted Application</span></span>
 
-<span data-ttu-id="3dd7f-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="3dd7f-105">What do you want to do?</span></span> <span data-ttu-id="3dd7f-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="3dd7f-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="67251-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="67251-105">What do you want to do?</span></span> <span data-ttu-id="67251-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="67251-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="3dd7f-107">信頼済みアプリケーションの一覧を表示する</span><span class="sxs-lookup"><span data-stu-id="3dd7f-107">View a List of Trusted Applications</span></span>](https://technet.microsoft.com/library/f09300b3-67cf-4e70-a51a-23d62479b913.aspx)
+- [<span data-ttu-id="67251-107">信頼できるアプリケーションの一覧を表示する</span><span class="sxs-lookup"><span data-stu-id="67251-107">View a List of Trusted Applications</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-trusted-applications)
 
-<span data-ttu-id="3dd7f-108">Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3dd7f-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="67251-108">Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。</span><span class="sxs-lookup"><span data-stu-id="67251-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
