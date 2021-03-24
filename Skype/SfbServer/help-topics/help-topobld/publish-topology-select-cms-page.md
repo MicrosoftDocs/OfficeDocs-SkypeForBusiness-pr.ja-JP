@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
-description: トポロジ ビルダーを使用して構成したトポロジを公開します。 中央管理ストアを保持する役割を担うフロント エンド サーバーまたはフロントエンド プールを一覧から選択する必要があります。 このロールを保持できるフロントエンド サーバーまたはフロントエンド プールは 1 つのみです。
-ms.openlocfilehash: ba166af4daee293b450e60909fb30a8757e2d70b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: トポロジ ビルダーを使用して構成したトポロジを公開します。 サーバーの全体管理ストアを保持する役割を担うフロント エンド サーバーまたはフロント エンド プールを一覧から選択する必要があります。 この役割をいつでも保持できるのは、フロント エンド サーバーまたはフロントエンド プールの 1 つのみです。
+ms.openlocfilehash: c55cd337e7c49f943705671983a436397bf4e4e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823667"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104403"
 ---
 # <a name="publish-topology-select-cms-page"></a>トポロジの公開での CMS の選択ページ
 
-トポロジ ビルダーを使用して構成したトポロジを公開します。 中央管理ストアを保持する役割を担うフロント エンド サーバーまたはフロントエンド プールを一覧から選択する必要があります。 このロールを保持できるフロントエンド サーバーまたはフロントエンド プールは 1 つのみです。
+トポロジ ビルダーを使用して構成したトポロジを公開します。 サーバーの全体管理ストアを保持する役割を担うフロント エンド サーバーまたはフロント エンド プールを一覧から選択する必要があります。 この役割をいつでも保持できるのは、フロント エンド サーバーまたはフロントエンド プールの 1 つのみです。
 
-中央管理ストアの詳細については [、「Lync Server 2010 Central Management Server を Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx)に移動する」を参照してください。
+サーバーの全体管理ストアの詳細については [、「Lync Server 2010 Central Management Server を Lync Server 2013](/previous-versions/office/lync-server-2013/move-the-lync-server-2010-central-management-server-to-lync-server-2013)に移動する」を参照してください。
 
 ## <a name="see-also"></a>関連項目
 
-[Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+[Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps)

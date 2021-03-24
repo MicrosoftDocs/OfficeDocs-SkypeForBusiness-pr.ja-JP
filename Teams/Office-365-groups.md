@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 グループおよび Microsoft Teams
+title: Microsoft 365 グループと Microsoft Teams
 ms.reviewer: kblevins
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,44 +16,44 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: Microsoft 365 グループとグループメンバーシップが Microsoft Teams とどのように連携するかについて説明します。
-ms.openlocfilehash: a4227432ab3557ca5e74ee5a769641185c1e432c
-ms.sourcegitcommit: f18941b6dc17b6ea411e10970602aee271242d43
+description: Microsoft 365 グループとグループ メンバーシップが Microsoft Teams でどのように機能するのかについて説明します。
+ms.openlocfilehash: d258fa4252f6bbb02d2b9a8211dd5919c2d7a67b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "48456081"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51105243"
 ---
-# <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 グループおよび Microsoft Teams
+# <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 グループと Microsoft Teams
 
-Microsoft 365 グループは、Microsoft 365 のクロスアプリケーションメンバーシップサービスです。 基本的なレベルでは、Microsoft 365 グループは Azure Active Directory 内のオブジェクトであり、メンバーの一覧と、SharePoint チームサイト、共有 Exchange メールボックス、Planner、Power BI workspace などの関連ワークロードへの結合です。 Active Directory の他のグループベースのセキュリティオブジェクトと同様に、グループにユーザーを追加または削除することができます。
+Microsoft 365 グループは、Microsoft 365 のクロスアプリケーション メンバーシップ サービスです。 基本的なレベルでは、Microsoft 365 グループは Azure Active Directory 内のオブジェクトであり、メンバーの一覧と、SharePoint チーム サイト、共有 Exchange メールボックス、Planner、Power BI ワークスペースなどの関連するワークロードに対応しています。 Active Directory の他のグループ ベースのセキュリティ オブジェクトと同様に、グループにユーザーを追加または削除できます。
 
-![Microsoft 365 グループと関連サービスを示す図](https://docs.microsoft.com/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
+![Microsoft 365 グループと関連サービスを示す図](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
-既定では、Microsoft 365 のユーザーはグループの作成と管理を行うことができます。 Microsoft 365 グループの詳細については、「 [microsoft 365 グループ](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) および microsoft [365 の IT アーキテクト向けグループ](teams-architecture-solutions-posters.md#groups-in-microsoft-365) 」を参照してください。
+既定では、Microsoft 365 のユーザーはグループを作成および管理できます。 Microsoft 365 グループの詳細については [、「Microsoft 365](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2) グループと [Microsoft 365 for IT Architects](teams-architecture-solutions-posters.md#groups-in-microsoft-365) ポスターのグループ」を参照してください。
 
-## <a name="how-microsoft-365-groups-work-with-teams"></a>Microsoft 365 グループが Teams と連携する方法
+## <a name="how-microsoft-365-groups-work-with-teams"></a>Microsoft 365 グループと Teams の動作
 
-チームを作成するときに、チームのメンバーシップを管理するために Microsoft 365 グループが作成されます。 SharePoint サイト、Power BI workspace などのグループ関連サービスは、同時に作成されます。
+チームを作成すると、チーム メンバーシップを管理するために Microsoft 365 グループが作成されます。 SharePoint サイト、Power BI ワークスペースなど、グループに関連するサービスが同時に作成されます。
 
-チームを作成するユーザーは、そのグループの所有者である場合は、既存の Microsoft 365 グループを使用することを選ぶことができます。 チーム内の各チャネルには、ドキュメントライブラリ内の個別のフォルダーがあります。 ドキュメントライブラリで直接フォルダーを作成しても、チーム内にチャネルは作成されません。
+チームを作成するユーザーは、そのグループの所有者である場合、既存の Microsoft 365 グループを使用することができます。 チーム内の各チャネルには、ドキュメント ライブラリに個別のフォルダーがあります。 ドキュメント ライブラリにフォルダーを直接作成しても、チームにチャネルは作成されません。
 
-Outlook または SharePoint で Microsoft 365 グループを作成すると、Outlook にグループメールボックスが表示されます。 Teams でチームを作成する場合、グループのメールボックスは既定で非表示になっています。 **HiddenFromExchangeClientsEnabled**パラメーターを指定して[get-unifiedgroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-unifiedgroup)コマンドレットを使用して、メールボックスを表示することができます。
+Outlook または SharePoint で Microsoft 365 グループを作成すると、グループ メールボックスが Outlook に表示されます。 Teams でチームを作成する場合、既定ではグループ メールボックスは非表示になっています。 [Set-UnifiedGroup](/powershell/module/exchange/users-and-groups/set-unifiedgroup)コマンドレットと **HiddenFromExchangeClientsEnabled** パラメーターを使用して、メールボックスを表示することができます。
 
 ## <a name="group-membership"></a>グループ メンバーシップ
 
-チームのメンバーを削除すると、Microsoft 365 グループからも削除されます。 グループから削除すると、チームクライアントからチームとチャネルが直ちに削除されます。 Microsoft 365 管理センターを使用してグループからユーザーを削除すると、SharePoint Online ドキュメントライブラリ、Yammer グループ、共有 OneNote などの他の共同作業の側面にはアクセスできなくなります。 ただし、チームのチャット機能へのアクセス権は、約2時間で引き続き利用できます。
+チームのメンバーを削除すると、そのメンバーも Microsoft 365 グループから削除されます。 グループから削除すると、Teams クライアントからチームとチャネルが直ちに削除されます。 Microsoft 365 管理センターを使用してグループからユーザーを削除すると、そのユーザーは SharePoint Online ドキュメント ライブラリ、Yammer グループ、共有 OneNote などの他の共同作業面にアクセスできなくなりました。 ただし、チームのチャット機能には約 2 時間引き続きアクセスできます。
 
-チームメンバーを管理するためのベストプラクティスとして、チームクライアントに対してそれらを追加および削除して、他のグループに接続されたワークロードのアクセス許可の更新がすばやく行われるようにします。 Teams クライアントの外部でチームメンバーを追加または削除する場合 (Microsoft 365 管理センター、Azure AD、または Exchange Online PowerShell を使用して)、変更が Teams に反映されるまでに最大24時間かかることがあります。
+チーム メンバーを管理するためのベスト プラクティスとして、Teams クライアントにチーム メンバーを追加して削除し、他のグループに接続されたワークロードのアクセス許可の更新が迅速に行われるのを確認します。 Teams クライアントの外部で (Microsoft 365 管理センター、Azure AD、または Exchange Online PowerShell を使用して) チーム メンバーを追加または削除した場合、変更が Teams に反映されるのに最大 24 時間かかる場合があります。
 
-## <a name="deleting-groups-and-teams"></a>グループとチームを削除する
+## <a name="deleting-groups-and-teams"></a>グループとチームの削除
 
-Microsoft 365 グループを削除すると、永続的な Outlook/OWA の会話と Teams の会議出席依頼のメールボックスのエイリアスが削除され、SharePoint サイトの削除のマークが付けられます。 チームの削除と Outlook への影響の間は、約20分かかります。 チームクライアントからチームを削除すると、チームのメンバーになっているすべてのユーザーに直ちにチームが削除されます。 チーム機能が有効になっている Microsoft 365 グループのメンバーを削除した場合は、削除された対象ユーザーのチームクライアントでチームがビューから削除されるまでに約2時間かかることがあります。
+Microsoft 365 グループを削除すると、永続的な Outlook/OWA 会話と Teams 会議の招待のメールボックス エイリアスが削除され、SharePoint サイトに削除のマークが付けされます。 チームの削除から Outlook への影響まで、約 20 分かかります。 Teams クライアントからチームを削除すると、そのチームはビューからチームのメンバー全員に直ちに削除されます。 Teams 機能が有効になっている Microsoft 365 グループのメンバーを削除した場合、チームが削除された影響を受けたユーザーの Teams クライアントのビューからチームが削除されるのに約 2 時間遅れる可能性があります。
 
-グループとチームのライフサイクルの終了オプションの詳細については、「  [グループ、チーム、Yammer のライフサイクルの終了オプション](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer) 」と「 [Microsoft teams でチームをアーカイブまたは削除](https://docs.microsoft.com/microsoftteams/archive-or-delete-a-team)する」を参照してください。
+グループとチームのライフサイクルの終了オプションの詳細については[、「Microsoft Teams](./archive-or-delete-a-team.md)でグループ、[チーム](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)、Yammer およびチームをアーカイブまたは削除するためのライフサイクルの終了オプション」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams の基礎 (ビデオ)](https://aka.ms/teams-foundations)
 
-[削除したグループを復元する](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
+[削除したグループを復元する](/microsoft-365/admin/create-groups/restore-deleted-group)

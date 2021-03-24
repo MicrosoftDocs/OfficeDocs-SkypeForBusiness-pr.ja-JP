@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Skype for Business Server エンタープライズ VoIP で応答グループの営業時間を作成または変更します。
-ms.openlocfilehash: dcd2f7174a75eb68ef8d35759a1e454ede976bde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server で応答グループの営業時間を作成または変更エンタープライズ VoIP。
+ms.openlocfilehash: d4a8101749e7fde06fc4c3d88ab343eb6e4d0f1d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830997"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103673"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(省略可能)Skype for Business で応答グループの営業時間を定義する 
  
-Skype for Business Server エンタープライズ VoIP で応答グループの営業時間を作成または変更します。
+Skype for Business Server で応答グループの営業時間を作成または変更エンタープライズ VoIP。
   
 ## <a name="defining-business-hours"></a>営業時間の定義
 
 営業時間設定では、ワークフローが通話に応答できる時間を定義し、営業時間外の通話に対するアクションを指定します。 応答グループ管理者は、**New-CsRgsHoursOfBusiness** コマンドレットを使用して、使用できる応答グループの数に制限がない事前設定スケジュールを作成できます。
   
 > [!TIP]
-> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については [、「Skype for Business での応答グループ ワークフローの設計と作成」を参照してください](designing-and-creating-response-group-workflows.md)。 
+> ワークフローを作成または変更するときに、そのワークフローのみに適用されるカスタム スケジュールを指定できます。 詳細については、「Skype for Business での応答グループ ワークフローの設計と [作成」を参照してください](designing-and-creating-response-group-workflows.md)。 
   
 > [!NOTE]
 > ワークフローが管理ワークフローとして定義されている場合、CsResponseGroupManager の役割を割り当てられているすべてのユーザーは、管理するワークフローのカスタム営業時間を設定および変更できます。 
@@ -41,7 +41,7 @@ Skype for Business Server エンタープライズ VoIP で応答グループの
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
+2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
     
 3. 定義する一意の時間の範囲ごとに、以下を実行します。
     
@@ -66,6 +66,6 @@ Skype for Business Server エンタープライズ VoIP で応答グループの
 
 ## <a name="see-also"></a>関連項目
 
-[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[New-CsRgsTimeRange](/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[New-CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[New-CsRgsHoursOfBusiness](/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

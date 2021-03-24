@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 環境で TLS 1.0 と 1.1 を無効にする準備と実装を行います。
-ms.openlocfilehash: 214605f80c79d7ecb334aeca49d29210e888b511
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: b07b9b5319b858a20a8073de8c6a37dd4d3299ec
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726398"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103213"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で TLS 1.0/1.1 を無効にする
 
@@ -51,7 +51,7 @@ Microsoft は、ここで利用できる TLS に関するホワイト ペーパ�
 
 - Lync 2013 (Skype for Business) デスクトップ クライアント、MSI、C2R (Basic [15.0.5023.1000 以上を含む](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334))
 - Skype for Business 2016 デスクトップ クライアント、MSI [16.0.4678.1000](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)以上 (Basic を含む)
-- Skype for Business 2016 Click to Run Require the [April 2018](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus) Updates: 
+- Skype for Business 2016 Click to Run Require the [April 2018](/officeupdates/release-notes-office365-proplus) Updates: 
     - 月次およびSemi-Annual対象、16 \. 0 \. 9126 \. 2152 以上
     - Semi-Annualおよび遅延チャネル、16 \. 0 \. 8431 \. 2242 以上
 - Skype for Business on Mac 16.15 以上
@@ -239,7 +239,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-Enterprise Edition SQLバック エンドの場合、前提条件と TLS の無効化は、すべての更新プログラムまたは OS 更新プログラムSQL扱う必要があります。参照: [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server)
+Enterprise Edition SQLバック エンドの場合、前提条件と TLS の無効化は、すべての更新プログラムまたは OS 更新プログラムSQL扱う必要があります。参照: [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
 
 必須アプリケーションと TLS 無効化の両方の手順を組み合わせることができますが、すべての前提条件を適用してから、オペレーティング システム レベルで TLS 1.0 と 1.1 を無効にすることを強く推奨します。 ベスト プラクティスの方法は、すべての前提条件を展開し、すべてのワークロードが正しく正常に機能していることを検証し、後で TLS 1.0/1.1 を無効にすることで環境を準備します。
 
@@ -455,7 +455,7 @@ TLS 1.0 および 1.1 を無効にする各サーバーに .reg ファイルを�
 
 1. 起動Internet Explorer。
 2. [ツール **インターネット**  >  **オプション] を選択します**。
-3. [詳細設定] **タブを選択** します。
+3. [**詳細設定**] タブを選択します。
 4. [設定 **] の** 下までスクロールします。
 5. TLS 1.0、TLS 1.1、および TLS 1.2 が有効になっているか確認します。
 6. SfB 2015 プールの内部 Web サービス URL を参照します (正常に接続する必要があります)。

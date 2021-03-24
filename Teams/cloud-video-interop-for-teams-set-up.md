@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1f45967b3e2737f6e2df74c505932ea69afe37f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 64d790e775ac0d76de48a71de8d165656f2e6927
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582634"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102603"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用機能の設定
 
@@ -62,19 +62,19 @@ ms.locfileid: "46582634"
 テナント キーをプロビジョニングするには、次のコマンドレットを実行する必要があります。また、選択したユーザーまたは組織全体がビデオ相互運用座標を使用して会議を作成できるようになります。
 
  
-- **[Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft では、サポート対象の各パートナーに対して、クラウド ビデオ相互運用性に使用するパートナーを指定できる事前構築ポリシーを提供しています。
+- **[Get-CsTeamsVideoInteropServicepolicy](/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft では、サポート対象の各パートナーに対して、クラウド ビデオ相互運用性に使用するパートナーを指定できる事前構築ポリシーを提供しています。
 
     このコマンドレットは、組織内で使用できる事前構築ポリシーを指定できます。 Grant-CsTeamsVideoInteropServicePolicy コマンドレットを使用して、このポリシーを 1 人または複数のユーザーに割り当てることができます。
  
-- **[Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** Grant-CsTeamsVideoInteropServicePolicy コマンドレットを使用すると、組織で使用するために事前構築されたポリシーを割り当てたり、特定のユーザーにポリシーを割り当てたりすることができます。
+- **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** Grant-CsTeamsVideoInteropServicePolicy コマンドレットを使用すると、組織で使用するために事前構築されたポリシーを割り当てたり、特定のユーザーにポリシーを割り当てたりすることができます。
  
-- **[New-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** New-CsVideoInteropServiceProvider を使用して、組織が使用するサポート対象の CVI パートナーに関する情報を指定します。
+- **[New-CsVideoInteropServiceProvider](/powershell/module/skype/new-csvideointeropserviceprovider):** New-CsVideoInteropServiceProvider を使用して、組織が使用するサポート対象の CVI パートナーに関する情報を指定します。
  
-- **[Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** Set-CsVideoInteropServiceProvider を使用して、組織が使用するサポート対象の CVI パートナーに関する情報を更新します。
+- **[Set-CsVideoInteropServiceProvider](/powershell/module/skype/set-csvideointeropserviceprovider):** Set-CsVideoInteropServiceProvider を使用して、組織が使用するサポート対象の CVI パートナーに関する情報を更新します。
  
-- **[Get-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** 組織内で使用するために構成されているすべてのプロバイダーを取得します。
+- **[Get-CsVideoInteropServiceProvider](/powershell/module/skype/get-csvideointeropserviceprovider):** 組織内で使用するために構成されているすべてのプロバイダーを取得します。
  
-- **[Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** Remove-CsVideoInteropServiceProvider を使用して、組織で使用しなくなったプロバイダーに関するすべてのプロバイダー情報を削除します。  
+- **[Remove-CsVideoInteropServiceProvider](/powershell/module/skype/remove-csvideointeropserviceprovider):** Remove-CsVideoInteropServiceProvider を使用して、組織で使用しなくなったプロバイダーに関するすべてのプロバイダー情報を削除します。  
  
 ## <a name="consent"></a>同意
 
@@ -109,4 +109,4 @@ ms.locfileid: "46582634"
 - ワンタッチ ダイヤル
     - Teams ミーティングが統合されている場合は、パートナーが提供するワンタッチ ダイヤル機能を使用できます (ダイヤルの文字列を入力する必要はありません)。
 
-最後に、音声、ビデオ、コンテンツ共有を使用して、Teams ユーザーと打ち合わせを行います。 
+最後に、音声、ビデオ、コンテンツ共有を使用して、Teams ユーザーと打ち合わせを行います。

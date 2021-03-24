@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469017eb9d03cbba55017ca609f49da9ebfe07a
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 3bfab6643d478537b3f9d2b7e4fa990b75511582
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819363"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51104053"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams と Outlook のメールの統合
 
@@ -31,17 +31,17 @@ Microsoft Teams には、組織内のユーザーが Outlook のメールと Tea
 
 ![Teams の [Outlook に共有する] 機能を示すスクリーンショット](media/share-to-outlook.png)
 
-この機能を使用するには、ユーザーに対して Outlook on the web がオンになっている必要があります。 Outlook on the web がオフになっている場合は、**Teams** のユーザーに対して、[Outlook に共有する] のオプションは表示されません。 Outlook on the web をオンまたはオフにする手順については、「[メールボックスメールボックス用に Outlook on the web を有効または無効にする](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)」をご覧ください。
+この機能を使用するには、ユーザーに対して Outlook on the web がオンになっている必要があります。 Outlook on the web がオフになっている場合は、**Teams** のユーザーに対して、[Outlook に共有する] のオプションは表示されません。 Outlook on the web をオンまたはオフにする手順については、「[メールボックスメールボックス用に Outlook on the web を有効または無効にする](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)」をご覧ください。
 
 ## <a name="actionable-activity-emails"></a>操作可能なアクティビティ メール
 
 ユーザーは、Teams で会話を見落としがあった際の助けになる、操作可能な見落としのあるアクティビティ メールを自動的に受け取ります。 見落としがあったアクティビティ メールには、見落としたメッセージの後に送信されたメッセージなど、会話の最新の返信が表示されます。ユーザーは、[**返信**] をクリックして Outlook から直接返信できます。 詳細については、「[Outlook から送信された、見落としがあったアクティビティ メールに返信する](https://support.office.com/article/reply-to-missed-activity-emails-from-outlook-bc0cf587-db26-4946-aac7-8eebd84f1381)」をご覧ください。 
 
 > [!NOTE]
-> この機能は、Outlook for Mac または一部の古いバージョンの Outlook for Windows ではサポートされていません。 詳細については、「[Outlook および Office 365 グループの操作可能なメッセージ](https://docs.microsoft.com/outlook/actionable-messages/)」を参照してください。
+> この機能は、Outlook for Mac または一部の古いバージョンの Outlook for Windows ではサポートされていません。 詳細については、「[Outlook および Office 365 グループの操作可能なメッセージ](/outlook/actionable-messages/)」を参照してください。
 
 ![見落としがあったアクティビティ メールを表示したスクリーンショット](media/missed-activity-email.png)
 
 ![見落としがあったアクティビティ メールに返信する方法を表示したスクリーンショット](media/missed-activity-email-reply.png)
 
-[Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/set-organizationconfig) コマンドレットと **SmtpActionableMessagesEnabled** パラメーターを使用して、操作可能なメールをオフにできます。 既定では、**smtpActionableMessagesEnabled** パラメーターは、**true** に設定されます。 パラメーターを **false** に設定すると、Office 365 全体で操作可能なメール メッセージがオフになります。  Teams ユーザーの場合、Outlook で直接 **返信** するオプションは、見落としがあったアクティビティ メールには利用できません。 その代わりに、見落としがあったアクティビティ メールには、[**Teams で返信する**] オプションが含まれ、ユーザーは Teams から返信することができます。
+[Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) コマンドレットと **SmtpActionableMessagesEnabled** パラメーターを使用して、操作可能なメールをオフにできます。 既定では、**smtpActionableMessagesEnabled** パラメーターは、**true** に設定されます。 パラメーターを **false** に設定すると、Office 365 全体で操作可能なメール メッセージがオフになります。  Teams ユーザーの場合、Outlook で直接 **返信** するオプションは、見落としがあったアクティビティ メールには利用できません。 その代わりに、見落としがあったアクティビティ メールには、[**Teams で返信する**] オプションが含まれ、ユーザーは Teams から返信することができます。

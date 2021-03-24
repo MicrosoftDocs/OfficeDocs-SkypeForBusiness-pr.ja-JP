@@ -16,24 +16,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f6d4a7dca340d297543abb3620a36cdd804ca9f
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: d0403e2e804397249dfd07eb03843e6b0b38653c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196581"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102123"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>学生情報システム (SIS) データを Education Insights と同期する
 より多くのデータが [Education Insights](class-insights.md) に提供されるほど、教師はより適切に学生をサポートでき、教育リーダーはより適切に教師をサポートできます。
 
-組織レベルの Insights を提供するには、[学校データ同期 (SDS)](https://docs.microsoft.com/SchoolDataSync) を使用して学生情報システム (SIS) に接続する必要があります。これは、Insights が教育システムの階層構造を正しくマッピングできるようにするためです。 
+組織レベルの Insights を提供するには、[学校データ同期 (SDS)](/SchoolDataSync) を使用して学生情報システム (SIS) に接続する必要があります。これは、Insights が教育システムの階層構造を正しくマッピングできるようにするためです。 
 
 クラスの教師としてクラス レベルの Insights を表示する場合は、この同期は *必要ありません*。これは、Teams のクラス構造とアクセス許可が使用されるためです。
 
 ## <a name="plan-your-sis-integration"></a>SIS の統合を計画する
 SIS データは、教育システムの階層構造を提供し、どのユーザーがどこに割り当てられているかをマップします。
 
-Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format)を使用する場合に最適に機能しますが、機能が *制限* された [SDS V1 ファイル形式](https://docs.microsoft.com/schooldatasync/school-data-sync-format-csv-files-for-sds)もサポートします。
+Insights は [SDS V2 ファイル形式](/schooldatasync/sds-v2-csv-file-format)を使用する場合に最適に機能しますが、機能が *制限* された [SDS V1 ファイル形式](/schooldatasync/school-data-sync-format-csv-files-for-sds)もサポートします。
 
 ### <a name="differences-between-sds-v1-and-v2-file-formats"></a>SDS V1 ファイル形式と SDS V2 ファイル形式の違い
 
@@ -80,7 +80,7 @@ Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasy
     
     *   スタッフの組織単位に基づいて、関連するアクセス許可を定義できます。 必要なアクセス許可が与えられるように、スタッフが適切な組織単位レベルに関連付けられていることを確認してください。 たとえば、4 つの学校に割り当てられているカウンセラーは、それらの学校のすべてのクラスを表示する必要があります。校長は自分の学校のすべてのクラスを表示する必要があります。 
     
-*   役割はきわめて重要です。 このリストは閉じられていますが、[こちらのリスト](https://docs.microsoft.com/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)の役割と、アップロードする各ユーザーの実際の役割を一致させるようにしてください。 それにより、役割ベースのアクセス許可を適切に割り当てることができます。 たとえば、すべての校長に対して自分の学校のクラスを表示するアクセス許可を、またはすべての教授に対して自分の学部を表示するアクセス許可を与えます。 
+*   役割はきわめて重要です。 このリストは閉じられていますが、[こちらのリスト](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)の役割と、アップロードする各ユーザーの実際の役割を一致させるようにしてください。 それにより、役割ベースのアクセス許可を適切に割り当てることができます。 たとえば、すべての校長に対して自分の学校のクラスを表示するアクセス許可を、またはすべての教授に対して自分の学部を表示するアクセス許可を与えます。 
 
 ### <a name="organizations"></a>組織
 
@@ -89,7 +89,7 @@ Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasy
 * *組織ツリーの下位にあるすべての組織単位に、学生またはクラスが含まれている* ことを確認して、組織の学生データを集計します。 学生がツリーの末端の枝に含まれるようにすることをお勧めします。
 
 > [!NOTE]
-> SDS 展開の詳細については、「[SDS の計画](https://docs.microsoft.com/schooldatasync/planning-school-data-sync)」を参照してください。
+> SDS 展開の詳細については、「[SDS の計画](/schooldatasync/planning-school-data-sync)」を参照してください。
 
 ## <a name="integrate-sis-using-sds"></a>SDS を使用して SIS を統合する
 
@@ -116,7 +116,7 @@ Insights は [SDS V2 ファイル形式](https://docs.microsoft.com/schooldatasy
 
 :::image type="content" source="media/insights-sds-profile-sync.png" alt-text="プロファイルを Insights トグルと同期する":::
 
-**SDS を使用していない場合は**、[SDS を展開する](https://docs.microsoft.com/schooldatasync/deploying-school-data-sync)必要があります。
+**SDS を使用していない場合は**、[SDS を展開する](/schooldatasync/deploying-school-data-sync)必要があります。
 
 展開プロセス中に、Teams のユーザーとクラスのプロビジョニングに SDS を使用するか、Insights にデータを提供するためだけに SDS を使用するかを決定できます。
 
@@ -175,7 +175,7 @@ SDS ファイルでは、学年は列挙値として定義されています。�
 |alumni|Alumni (卒業生)|
 |adultEducation|Adult Education (社会人教育)|
 |UG|Ungraded (特殊教育)|
-|Other|Other (その他)|
+|Other (その他)|Other (その他)|
 
 ### <a name="united-kingdom-year-groups"></a>英国の学年グループ
 |ファイル内の値 (Grade 列) | Insights のラベル|

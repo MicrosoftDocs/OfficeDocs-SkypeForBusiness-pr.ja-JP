@@ -22,42 +22,42 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 組織の既定のボイスメール応答メッセージで別の言語を使用するように Skype for Business をセットアップする方法について説明します。
-ms.openlocfilehash: 988f09141913c72b9334b28d2c218b15bdbf3376
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 組織の既定のボイスメール応答メッセージに別の言語を使用する Skype for Business をセットアップする方法について説明します。
+ms.openlocfilehash: f6fb890d52e052afffccbfe753ab5b3b8a1bb338
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691393"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102673"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 
-[グローバル管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)である場合は、Skype for business で、既定のボイスメール応答メッセージを別の言語で再生するように設定できます。 既定のシステム応答メッセージは、たとえば「内田です。ただいま、席を外しております。 発信音の後に、メッセージを録音してください。 終わりましたら、電話を切るか、シャープを押して別のオプションを選択してください。」のようになっています。 
+グローバル管理者 [の場合は](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)、別の言語で既定のボイスメール応答メッセージを再生する Skype for Business を設定できます。 既定のシステム応答メッセージは、たとえば「内田です。ただいま、席を外しております。 発信音の後に、メッセージを録音してください。 終わりましたら、電話を切るか、シャープを押して別のオプションを選択してください。」のようになっています。 
   
  **最初に、次の重要な情報をお読みください。**
   
 - **利用できる言語は組織の場所によって決まります** 。 たとえば、組織が米国内にある場合は、既定の言語を英語またはスペイン語に設定できます。 組織がカナダにある場合は、英語とフランス語から選べます。 サポートされる言語のリストについては、「[Skype for Business からのボイスメールの応答メッセージに使用する言語](languages-for-voicemail-greetings-and-messages.md)」をご覧ください。
     
-- **個々のユーザのボイスメールの応答メッセージとボイスメールメッセージの言語を変更します。** ユーザーの優先 lanaguage を変更することができます。これにより、Outlook メールボックスに送信されるボイスメールの応答メッセージとボイスメールメッセージの言語が変更されます。 手順については、「Microsoft 365 または Office 365 の言語と地域の設定を行う方法 (英語)」を参照してください https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region) 。 
+- **個々のユーザーのボイスメール応答メッセージとボイスメール メッセージの言語を変更する。** ユーザーに優先する言語を変更できます。この場合、ボイスメール応答メッセージと Outlook メールボックスに送信されるボイスメール メッセージの言語が変更されます。 手順については、「Microsoft 365 または Office 365 の言語と地域の設定を設定する方法」 https://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region) (. 
     
     > [!NOTE]
-    > [Microsoft 365 For Business の [表示言語とタイムゾーンの変更](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)] にある手順に従って、ユーザーが自分のあいさつ文の言語を変更することができます。
+    > [ユーザーは、Microsoft 365 for Business](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)の表示言語とタイム ゾーンの変更に関する手順に従って、サインイン後に設定を使用して独自の応答メッセージの言語を変更できます。
   
-- **発信ボイス メール メッセージを録音する場合は、** 「[Skype for Business ボイス メールの確認とオプション](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)」をご覧ください。 Microsoft Teams の場合-ユーザーは、[ [Teams デスクトップクライアント](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)] の設定からボイスメールの設定を変更できます
+- **発信ボイス メール メッセージを録音する場合は、** 「[Skype for Business ボイス メールの確認とオプション](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)」をご覧ください。 Microsoft Teams の場合 - ユーザーは Teams デスクトップ クライアントの設定から [ボイスメールの設定を変更できます](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **ボイスメールプロンプトの言語を変更しますか?** Skype for Business につい [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) ては、[**プロンプト言語**] で新しい言語を選択します。 Microsoft Teams の場合-ユーザーは、 [Teams のデスクトップクライアント設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)からボイスメールの応答メッセージを変更することができます。
+- **ボイスメール プロンプトの言語を変更しますか?** Skype for Business の場合 - [  [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) プロンプト言語] で新しい言語 **を選択します**。 Microsoft Teams の場合 - ユーザーは Teams デスクトップ クライアント設定からボイスメール応答 [メッセージを変更できます](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>組織のユーザー全員に対してシステムの言語を変更する
 
-1. [グローバル管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)アカウントでサインイン [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) します。 
+1. グローバル管理者 [アカウントでサインイン](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) します [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。 
     
-2. Microsoft 365 管理センターで、[**設定**の構成] の [  >  **Settings**  >  **組織プロファイル**] を選びます。 
+2. Microsoft 365 管理センターで、[設定の設定] 組織  >  **プロファイル**  >  **を選択します**。 
     
-     ![[設定]、[組織プロファイル] の選択を示すスクリーンショット。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![[設定]、次に [組織プロファイル] の順に選択しているスクリーンショット。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. [ **編集**] を選びます。
     
-    ![[編集] オプションが表示されたスクリーンショット。](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
+    ![[編集] オプションを示すスクリーンショット。](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
   
 4. [ **優先言語**] リストから、組織内のすべてのユーザーのための言語を選択します。
     
@@ -69,15 +69,14 @@ ms.locfileid: "44691393"
     
 - [通話プランの設定](set-up-calling-plans.md)
     
-- [Skype for Business Server でオンプレミスの PSTN 接続を使用して Microsoft 365 または Office 365 で電話システムを計画する](https://go.microsoft.com/fwlink/?LinkId=717947)
+- [Skype for Business Server でオンプレミス PSTN 接続Office Microsoft 365 または Office 365 の電話システムを計画する](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
     
 ## <a name="related-topics"></a>関連項目
 
-- [Microsoft 365 または一般法人向け Office 365 の表示言語とタイムゾーンを変更する](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [Microsoft 365 または Office 365 for Business で表示言語とタイム ゾーンを変更する](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
     
 - [Office 2010 以降で別の言語を使用できるようにする](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
     
 - [キーボード レイアウトの言語を有効化または変更する](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
     
   
- 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 ビジネスボイスを購入するのに必要な管理者権限
+title: Microsoft 365 Business Voice の購入に必要な管理者権限
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,33 +16,33 @@ description: ''
 appliesto:
 - Microsoft Teams
 ROBOTS: NOINDEX, NOFO
-ms.openlocfilehash: b1f031a538872aac7bf0891c6dc56886f7eae048
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 236b3444d78950ea4f84fb28187d6d4d3046205c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868444"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102853"
 ---
-# <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Microsoft 365 ビジネスボイスを購入するのに必要な管理者権限
+# <a name="admin-permissions-needed-to-buy-microsoft-365-business-voice"></a>Microsoft 365 Business Voice の購入に必要な管理者権限
 
-こんにちは！ [Microsoft 365 ビジネス voip](../whats-business-voice.md)ライセンスを購入しようとしたが、そのために必要なアクセス許可がないため、このページに送信されました。
+こんにちは。 [Microsoft 365 Business Voice](../whats-business-voice.md)ライセンスを購入しようとして、必要なアクセス許可を持たなかったため、このページに移動しました。
 
-最初に、リンクを誤ってクリックして、ビジネス用ボイスライセンスを試用して購入することを意味していない場合は、このページを閉じるだけです。 ビジネス用ボイスライセンスを**購入する場合**(または、ビジネス voip について詳しく知りたい場合) は、こちらをご覧ください。
+最初に、リンクをクリックしたが、Business Voice ライセンスを試用して購入するつもりはなかった場合は、このページを閉じます。 Business Voice **ライセンス** を購入する場合 (または Business Voice の詳細を確認したい場合)、以下を参照してください。
 
-## <a name="how-can-i-buy-business-voice"></a>ビジネス Voip を購入する方法を教えてください。
+## <a name="how-can-i-buy-business-voice"></a>Business Voice を購入する方法
 
-ビジネス用ボイスは、Microsoft 365 および Office 365 のアドオンです。 ビジネス Voip を購入するには、Microsoft 365 または Office 365 にサインアップする必要があります。 サインアップ後、または microsoft 365 または Office 365 のサブスクリプションを既にお持ちの場合は、microsoft [365 管理センター](https://admin.microsoft.com)の  >  **課金**  >  **サービス**  >  **アドオン**(ページの下部にスクロール) で**microsoft 365 ビジネスボイス**> に移動して、ビジネスボイスアドオンライセンスを購入できます。
+Business Voice は、Microsoft 365 および Office 365 のアドオンです。 Business Voice を購入する前に、Microsoft 365 または Office 365 にサインアップする必要があります。 サインアップした後、または Microsoft 365 または Office 365 サブスクリプションを既に持っている場合は [、Microsoft 365](https://admin.microsoft.com)管理センターの課金購入サービス アドオン (ページの下部までスクロール) >  >    >    >   **Microsoft 365 Business Voice** に移動して、Business Voice アドオン ライセンスを購入できます。
 
-## <a name="why-dont-i-see-an-option-to-buy-business-voice"></a>ビジネス音声を購入するオプションが表示されないのはなぜですか?
+## <a name="why-dont-i-see-an-option-to-buy-business-voice"></a>Business Voice を購入するオプションが表示される理由
 
-Microsoft 365 管理センターにアクセスできない場合、ビジネス用の音声を購入するオプションが表示されない場合、またはエラーが表示される場合は、次のいずれかの理由が考えられます。
+Microsoft 365 管理センターにアクセスできない場合、Business Voice を購入するオプションが表示できない場合、またはエラーが表示される場合は、次のいずれかの理由が考まれます。
 
-- **十分な権限**がない: ビジネスボイスなどのライセンスを Microsoft 365 または Office 365 組織に追加するには、アカウントがグローバル管理者であるか、または課金管理者の役割を割り当てられている必要があります。 適切なアクセス許可を得るため、またはビジネスボイスライセンスを追加するには、Microsoft 365 または Office 365 管理者にお問い合わせください。
-- **管理者以外のアカウントにサインイン**している場合-自分が Microsoft 365 または Office 365 組織のグローバル管理者または課金管理者である場合は、お客様が管理者アカウントとは異なる "標準" ユーザーアカウントを作成して、通常のユーザーアカウントからサインアウトし、管理者アカウントにサインインすることをお勧めします。
-- **サインインしていない**場合は、管理する Microsoft 365 または Office 365 組織のグローバル管理者または課金管理者アカウントにサインインしていることを確認してください。
-- **間違った組織にサインイン**している場合-複数の Microsoft 365 または Office 365 組織へのアクセス権がある場合は、正しいものにサインインしていることを確認してください。 現在の Office 365 アカウントからログアウトして、管理する組織内のアカウントにサインインする必要があります。
-- ビジネス用ボイスは、現在のところ、限定された数の国と地域で現在利用可能な場合は**利用できません**。 ビジネスボイスがお持ちの場所で利用可能かどうかを確認するには、[ビジネスボイスの概要](../whats-business-voice.md)を参照してください。
+- アクセス許可が **不足している**- Business Voice を含むライセンスを Microsoft 365 または Office 365 の組織に追加するには、アカウントがグローバル管理者か、課金管理者ロールが割り当てられている必要があります。 適切なアクセス許可の取得や Business Voice ライセンスの追加については、Microsoft 365 または Office 365 管理者にお問い合わせください。
+- 管理者以外のアカウントに **サインインしている**- Microsoft 365 または Office 365 組織のグローバル管理者または課金管理者で、管理者アカウントとは別の "通常の" ユーザー アカウントを使用する場合は、通常のユーザー アカウントからサインアウトし、管理者アカウントにサインインします。
+- **サインイン** していない - 管理する Microsoft 365 または Office 365 組織で、グローバル管理者または課金管理者アカウントにサインインしている必要があります。
+- **間** 違った組織にサインインしている - 複数の Microsoft 365 または Office 365 組織にアクセスできる場合は、正しい組織にサインインしている必要があります。 現在の Office 365 アカウントからログアウトし、管理する組織のアカウントにサインインする必要があります。
+- **現在、Business Voice** は使用できません。現在、Business Voice は一部の国と地域で利用できます。 Business [Voice の機能を確認して](../whats-business-voice.md) 、現在いる場所で Business Voice を利用できる場所を確認します。
 
-## <a name="what-if-im-still-having-trouble"></a>問題が解決しない場合はどうすればよいですか?
+## <a name="what-if-im-still-having-trouble"></a>問題が引き続き発生する場合
 
-上記の理由をすべてオンにしていても、まだビジネス用の音声を購入できない場合は、「一般[法人向けサポートへのお問い合わせ-管理者向けヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)」を参照してください。
+上記のすべての理由を確認した後でも Business Voice を購入できない場合は、一部のビジネス製品のサポートへのお問い合わせ - 管理者向け [ヘルプを参照してください](/microsoft-365/admin/contact-support-for-business-products)。

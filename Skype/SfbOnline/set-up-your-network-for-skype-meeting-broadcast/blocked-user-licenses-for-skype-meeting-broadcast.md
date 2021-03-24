@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 残念なことに、ユーザーが  Skype 会議ブロードキャストにアクセスして使用するときに、ブロックされる特定のユーザー ライセンスがあります。https://broadcast.skype.com ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
-ms.openlocfilehash: 0b2791f0f3d04de7e1383516b0c44cf392233761
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 91c1005ee211bd51fc0f713237362b43a79d5e69
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865151"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103763"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Skype 会議ブロードキャストをホストするユーザー ライセンスがブロックされました
 
@@ -64,9 +64,8 @@ ms.locfileid: "49865151"
     
 ## <a name="related-topics"></a>関連項目
 
-[Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+[Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
   
- 

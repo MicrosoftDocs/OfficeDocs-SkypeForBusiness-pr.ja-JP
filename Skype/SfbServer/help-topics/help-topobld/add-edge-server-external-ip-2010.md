@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
-description: このページのプロパティを構成して、エッジ サーバーがアクセス エッジ サービス、Web 会議エッジ サービス、音声ビデオ エッジ サービスの外部の場所を指し示します。
-ms.openlocfilehash: 92292c626f35e0bdaa4e4c88c9559506ded87bd0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: このページのプロパティを構成して、エッジ サーバーが Access Edge サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスの外部の場所を指し示します。
+ms.openlocfilehash: b93330d1e3e93d516264748fedba1ad1b6bde4da
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815297"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103403"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>エッジ サーバー外部 IP の追加 (2010)
 
-このページのプロパティを構成して、エッジ サーバーがアクセス エッジ サービス、Web 会議エッジ サービス、音声ビデオ エッジ サービスの外部の場所を指し示します。
+このページのプロパティを構成して、エッジ サーバーが Access Edge サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスの外部の場所を指し示します。
 
-- [**外部 IPv4 アドレス**] に、アクセス エッジ サービス **、Web** 会議エッジ サービス、音声ビデオ エッジ サービスのエッジ サーバーの外部 IPv4 アドレスを **入力します**。 
+- [ **外部 IPv4 アドレス**] で **、Access Edge** サービス **、Web** 会議エッジ サービス、および音声ビデオ エッジ サービスでエッジ サーバーの外部 IPv4 アドレスを **入力します**。
 
 - トポロジ ドキュメントへの変更を保存して確定するには、[**OK**] をクリックします。
 
@@ -34,6 +34,4 @@ ms.locfileid: "49815297"
 
 - このヘルプ トピックを読むには、[**ヘルプ**] をクリックします。
 
-既存のトポロジへのエッジ サーバーの追加の詳細については、「エッジ トポロジの定義 [」を参照してください](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)。 エッジ サーバーの移行の詳細については、「フェーズ [5: Lync Server 2013 プレビュー エッジ](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx)サーバーをパイロット プールに追加する」を参照してください。
-
-
+エッジ サーバーを既存のトポロジに追加する方法の詳細については [、「Define Your Edge Topology」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)。 エッジ サーバーの移行の詳細については、「フェーズ [5: Lync Server 2013 Preview Edge Server](/previous-versions/office/lync-server-2013/phase-5-add-lync-server-2013-edge-server-to-pilot-pool)をパイロット プールに追加する」を参照してください。

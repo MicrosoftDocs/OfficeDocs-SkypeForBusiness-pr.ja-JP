@@ -15,17 +15,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 description: 内部 IP アドレスは、エッジ サーバーの内部インターフェイスの IP アドレスです。
-ms.openlocfilehash: 5f8f6d4dac047d4c3689c37d86832f0edf092647
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 027ea79dc9242a039184bf323266ccbf94e54a60
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815247"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103283"
 ---
 # <a name="add-edge-server-internal-ip"></a>エッジ サーバー内部 IP の追加
 
 内部 IP アドレスは、エッジ サーバーの内部インターフェイスの IP アドレスです。
 
-最初のトポロジの展開時やその後に、外部ユーザー アクセスのサポートを追加できます。 既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)」を参照してください。
-
-
+最初のトポロジの展開時やその後に、外部ユーザー アクセスのサポートを追加できます。 既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「[Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)」を参照してください。

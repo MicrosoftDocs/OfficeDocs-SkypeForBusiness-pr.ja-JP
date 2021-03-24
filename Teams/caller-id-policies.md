@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号を変更またはブロックする方法について説明します。
-ms.openlocfilehash: c3eabc5a9e906fd514ce92864e08cad5015f6670
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
-ms.translationtype: HT
+ms.openlocfilehash: cd15245523cdc3f5fb3625a2b4cfdae4deebb7d3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255530"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102783"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号ポリシーを管理する
 
@@ -44,7 +44,7 @@ ms.locfileid: "47255530"
 4. ここで、希望する設定を選びます。
 
     - **[着信した発信者番号をブロックする]**: この設定をオンにすると、着信した通話の発信者番号が表示されないようにブロックされます。
-    - **[発信者番号ポリシーの上書き]**: この設定をオンにすると、ユーザーは自分の番号が受信者に表示されるかどうかに関するポリシーの設定を上書きすることができます。 つまり、発信者番号を表示するかどうかをユーザー自身が選択できます。 詳細については、「[発信者番号のエンド ユーザー制御](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization#end-user-control-of-outbound-caller-id)」を参照してください。
+    - **[発信者番号ポリシーの上書き]**: この設定をオンにすると、ユーザーは自分の番号が受信者に表示されるかどうかに関するポリシーの設定を上書きすることができます。 つまり、発信者番号を表示するかどうかをユーザー自身が選択できます。 詳細については、「[発信者番号のエンド ユーザー制御](./how-can-caller-id-be-used-in-your-organization.md#end-user-control-of-outbound-caller-id)」を参照してください。
     - **[発信者番号を置換する]**: 次のいずれかを選択して、ユーザーに対して表示される発信者番号を設定します。
 
         - **[ユーザーの番号]**: ユーザーの番号を表示します。 
@@ -69,6 +69,6 @@ ms.locfileid: "47255530"
 
 ## <a name="related-topics"></a>関連項目
 
-[New-CsCallingLineIdentity](https://docs.microsoft.com/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
 
 [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)

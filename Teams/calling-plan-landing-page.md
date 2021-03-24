@@ -14,16 +14,16 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Teams のクラウドボイスで組織に最適な Microsoft 電話システム通話プランを決定する。
+description: Teams の Cloud Voice で組織に最適なサービスを提供する Microsoft 電話システム通話プランを決定します。
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71fe92646a3a2976e9a4d393e54ea56a7669b400
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: b88af706f79dd195e2f9363ff45e586a1123686f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031853"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102733"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>どの通話プランが適していますか? 
 
@@ -53,7 +53,7 @@ Microsoft をテレフォニー通信事業者として使用するには、通�
 |確認事項|Action |
 |------------|-------|
 |自分の住んでいる地域で通話プランを利用できますか? 通話プラン サービスを利用できるのはどのユーザーの場所ですか? | 詳細については、「[国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。 | 
-ユーザーは国際電話を利用する必要がありますか? | 詳細については、「 [Microsoft 365 または Office 365 の通話プラン](calling-plans-for-office-365.md)」を参照してください。 |
+ユーザーは国際電話を利用する必要がありますか? | 詳細については [、「Microsoft 365 または Office 365](calling-plans-for-office-365.md)の通話プラン」を参照してください。 |
 ユーザーは通話プランのライセンスを持っていますか? | ライセンスを購入して割り当てるには、「[手順 2: ライセンスを購入して割り当てる](set-up-calling-plans.md#step-2-buy-and-assign-licenses)」を参照してください。 |
 ユーザーはそれぞれ直通社内通話 (DID) 電話番号がありますか? | 電話番号を取得するには、「[手順 3: 電話番号を取得する](set-up-calling-plans.md#step-3-get-phone-numbers)」を参照してください。 |
 |||
@@ -65,11 +65,11 @@ Microsoft をテレフォニー通信事業者として使用するには、通�
 
 ### <a name="phone-numbers-and-emergency-locations"></a>電話番号と緊急対応の場所
 
-Microsoft 365 または Office 365 の通話プランを使用する場合、組織内のすべてのユーザーは、固有の直通電話番号と、対応する有効な緊急対応の住所を持っている必要があります。 緊急対応の住所に、緊急対応の場所 (たとえば、部屋番号や階数) を指定することもできます。 
+Microsoft 365 または Office 365 の通話プランでは、組織内のすべてのユーザーに固有の直接ダイヤル (DID) 電話番号と、対応する検証済み緊急対応の住所が必要です。 緊急対応の住所に、緊急対応の場所 (たとえば、部屋番号や階数) を指定することもできます。 
 
 |確認事項|Action |
 |:------------|:-------|
-|緊急対応の住所と場所をどれほど詳しく指定しますか? |詳細については、[緊急対応の場所、住所、通話ルーティングの概要](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)をご覧ください。
+|緊急対応の住所と場所をどれほど詳しく指定しますか? |詳細については、[緊急対応の場所、住所、通話ルーティングの概要](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)をご覧ください。
 
 
 ### <a name="calling-identity"></a>通話 ID
@@ -80,7 +80,3 @@ Microsoft 365 または Office 365 の通話プランを使用する場合、組
 |:------------|:-------|
 |発信者 ID のマスクや無効化を行いますか? | 発信者 ID を変更またはブロックするには、「[ユーザーの発信者 ID を設定する](set-the-caller-id-for-a-user.md)」を参照してください。 |
 |||
-
-
-
-

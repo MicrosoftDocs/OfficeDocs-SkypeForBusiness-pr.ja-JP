@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft Teams のチョークの話
-summary: IT プロフェッショナルと意思決定者向けに設計されたチームのチョークの話は、ベストプラクティスと実践的なガイダンスを得るのに最適です。
+title: Microsoft Teams の取り分け講演
+summary: IT プロフェッショナルや意思決定者向けに設計された Teams のスロペンド 講演は、Teams で最も人気があり説得力のあるシナリオのいくつかについて、ベスト プラクティスと実践的なガイダンスを学ぶ独自の機会を提供します。
 brand: teams
 metadata:
-  title: Microsoft Teams のチョークの話
-  description: IT プロフェッショナルと意思決定者向けに設計されたチームのチョークの話は、ベストプラクティスと実践的なガイダンスを得るのに最適です。 このオンラインインタラクティブワークショップは、分野の専門家によって促進され、チームの実装を強化し、エンドユーザーに付加価値を提供します。 以下のワークショップのタイトルをクリックすると、使用可能な日付と時刻が表示され、今すぐサインアップできます。
+  title: Microsoft Teams での講演
+  description: IT プロフェッショナルや意思決定者向けに設計された Teams のスロペンド 講演は、Teams で最も人気があり説得力のあるシナリオのいくつかについて、ベスト プラクティスと実践的なガイダンスを学ぶ独自の機会を提供します。 主題の専門家によって促進される、これらのオンライン 対話型ワークショップは、Teams の実装を強化し、エンド ユーザーに追加の価値を提供するための洞察を提供します。 以下のワークショップのタイトルをクリックして、利用可能な日時を確認し、今すぐサインアップしてください。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -25,40 +25,40 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 6a30116a884ea2cbe66447b36071ba71e29f50e4
-  ms.sourcegitcommit: 62d5ccf10202a50755166e3b8de0bd31d1f94fef
+  ms.openlocfilehash: 2cd84e6eeb43816d86424f2e63919efb750cdaa5
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 10/28/2020
-  ms.locfileid: "48790599"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51102703"
 productDirectory:
   summary: 登録するワークショップのタイトルをクリックします。
   items:
-  - title: だから。。。Teams で電話をかけたい場合
+  - title: だから。。。Teams で通話を行いますか?
     imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: お客様のチーム展開に PSTN 通話機能を追加する方法について詳しくは、こちらをご覧ください。 さらに、用語、重要な概念、構成の呼び出しについて説明します。
+    summary: Teams 展開に PSTN 通話機能を追加する方法の詳細については、ご参加ください。 一緒に、呼び出し用語、主要な概念、構成について説明します。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: Teams で音声/ビデオの品質を取得する
+  - title: Teams でオーディオ/ビデオ品質を担当する
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: ユーザーが会議や音声機能に最適なエクスペリエンスを提供できるようにする方法 ここでは、サービスの品質を管理するためのツール、レポート、ベストプラクティスについて説明します。一般的な問題を解決するための予防的な戦略を確立します。
+    summary: ユーザーが会議や音声機能で最適なエクスペリエンスを得る方法をご確認ください。 積極的な戦略の確立から一般的な問題の解決まで、サービス品質の管理に役立つツール、レポート、ベスト プラクティスについて説明します。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Teams の基礎となるアプリ
+  - title: Teams の基礎のアプリ
     imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: この基本セッションでは、アプリの管理とセキュリティなどの基本的な機能について説明します。 ワークフロー、生産性向上アプリ、日常的に使用するサービスを1つの統一された操作に統合する方法について説明します。
+    summary: この基本セッションでは、アプリの管理やセキュリティなどの基本的な機能について説明します。 ワークフロー、生産性アプリ、および毎日使用するサービスを 1 つの統一されたエクスペリエンスに統合する方法について説明します。
     url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Teams のアプリでの重要なワークフローのスーパーチャージ
+  - title: Teams のアプリを使用して重要なワークフローをスーパーチャージする
     imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: システムを接続して自動化を強化し、ユーザーのエクスペリエンスを向上させるには、組織がチームに依存するアプリを使います。
+    summary: 組織が依存するアプリを Teams に組み込み、システムを接続し、自動化を強化し、ユーザーに改善されたエクスペリエンスを提供します。
     url: https://aka.ms/ChalkTalkKeyApps
 additionalContent:
   sections:
   - items:
-    - title: Skype for Business をまだ使っていますか?
-      summary: アップグレードワークショップのシリーズをご覧ください。
+    - title: Skype for Business をまだお使いですか?
+      summary: アップグレード ワークショップ シリーズをご覧ください。
       url: upgrade-workshops-landing-page.yml
     - title: ユーザーを準備する
-      summary: Teams ライブトレーニングを使用して、ユーザーの操作を実行します。
-      url: https://aka.ms/TeamsLiveTraining
+      summary: Teams Live トレーニングを使用してユーザーを立ち上げ、実行します。
+      url: ./instructor-led-training-teams-landing-page.yml
     - title: Teams は初めてですか?
-      summary: チームの概要については、こちらを参照してください。
-      url: https://docs.microsoft.com/microsoftteams/teams-overview
+      summary: Teams の使用を開始する方法について詳しくは、次のリンクを参照してください。
+      url: ./teams-overview.md

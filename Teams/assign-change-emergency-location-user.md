@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーの緊急対応の場所を割り当てる方法または変更する方法について学習します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8352c702d2c6d32b6384599499aa326def49fa4e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7dd986085a8c42df34d6634cbadc6e96fdfb14ca
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809567"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102983"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
-通話プランを設定する場合は、電話番号またはユーザーごとに緊急対応の場所を割り当てる必要があります。 ヨーロッパの国では、緊急対応の場所は、Microsoft 365 または Office 365 から電話番号を取得した場合、または電話番号を Microsoft 365 または Office 365 に転送した場合に関連付けされます。 米国では、緊急対応の場所はユーザーに割り当てられた電話番号に関連付けされます。 緊急対応の住所は、割り当てられているユーザーが新しい場所に移動した場合に変更できます。 緊急対応の住所と場所の詳細については、「緊急対応の場所、場所、通話ルーティングとは [何か」を参照してください](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
+通話プランを設定する場合は、電話番号またはユーザーごとに緊急対応の場所を割り当てる必要があります。 ヨーロッパの国では、緊急対応の場所は、Microsoft 365 または Office 365 から電話番号を取得した場合、または電話番号を Microsoft 365 または Office 365 に転送した場合に関連付けされます。 米国では、緊急対応の場所はユーザーに割り当てられた電話番号に関連付けされます。 緊急対応の住所は、割り当てられているユーザーが新しい場所に移動した場合に変更できます。 緊急対応の住所と場所の詳細については、「緊急対応の場所、場所、通話ルーティングとは [何か」を参照してください](./what-are-emergency-locations-addresses-and-call-routing.md)。
   
-通話プランを取得する方法と料金については、「Teams アドオン ライセンス [」を参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+通話プランを取得する方法と料金については、「Teams アドオン ライセンス [」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 Microsoft Teams 管理センターまたは PowerShell を使用して、ユーザーの緊急対応の場所を割り当てまたは変更できます。
 
@@ -51,7 +51,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、ユー�
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
-[「Set-CsOnlineVoiceUser」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser)。 
+[「Set-CsOnlineVoiceUser」を参照してください](/powershell/module/skype/set-csonlinevoiceuser)。 
 
     
 ## <a name="related-topics"></a>関連項目
@@ -61,5 +61,5 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、ユー�
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 - [ユーザーの緊急対応の場所の位置情報を割り当てたり変更したりする](assign-change-emergency-place-user.md)
 - [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
+- [緊急通話の利用条件](./emergency-calling-terms-and-conditions.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

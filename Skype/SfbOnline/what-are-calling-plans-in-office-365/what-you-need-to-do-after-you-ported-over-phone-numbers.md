@@ -1,5 +1,5 @@
 ---
-title: 電話番号を移植した後に何を行う必要がありますか?
+title: 電話番号を移植した後は、何を行う必要がありますか?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,23 +21,23 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
-description: 電話番号を Skype for Business に移植した後、次に何を行う必要があるかを参照してください。
-ms.openlocfilehash: b96a0f62dc6c31de744786a47a7a7ef6d26c0937
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 電話番号を Skype for Business に移植した後に、次に必要な操作を確認します。
+ms.openlocfilehash: 8dcb74cad8a745fd81b22c0aa68d4f3cedd3502a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769230"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101863"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>電話番号を移植した後に何を行う必要がありますか?
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>電話番号を移植した後は、何を行う必要がありますか?
 
-ポート注文を送信すると、お使いの携帯電話会社に連絡して、詳細情報を表示します。 最終転送日が設定されたら、メールでお知らせします。 ただし、お客さまのご注文については、ご利用の電話会社にお問い合わせになり、これらの番号で使用する必須の緊急対応の住所を作成してください。
+ポート注文を送信した後、お客様の通信事業者に連絡し、詳細を確認します。 最終転送日が設定された場合は、メールでお知らせします。 ただし、ご利用の通信事業者が注文を受け入れるのを待っている間に、これらの番号で使用する必要な緊急対応の住所を作成します。
   
-- [緊急対応の場所、アドレス、通話ルーティング](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)について、詳細はこちらをご覧ください。
+- 緊急対応の [場所、住所、通話ルーティングについて説明します](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
     
-- 必要に応じ[て、組織の緊急対応の住所を追加または削除](add-or-remove-an-emergency-address-for-your-organization.md)できます。
+- 必要に [応じて、組織の緊急対応の住所を](/MicrosoftTeams/add-change-remove-emergency-location-organization) 追加または削除できます。
     
-- 電話番号に既に緊急対応の住所がある場合は、[組織の緊急対応の場所を追加、変更、または削除](add-change-or-remove-an-emergency-location-for-your-organization.md)します。
+- 電話番号に緊急対応の住所が既にある場合は、組織の緊急対応の場所を追加、 [変更、または削除します](/MicrosoftTeams/add-change-remove-emergency-place-organization)。
     
 - [ユーザーの電話番号を割り当て、変更、または削除する](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)
 
@@ -55,4 +55,3 @@ ms.locfileid: "41769230"
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

@@ -13,12 +13,12 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 16a646af3e456bb68a2a582cad7d6b742100c650
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7848aff5f5b4dbb56be713b9241f2ace1ee6e6b3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820917"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102073"
 ---
 # <a name="block-inbound-calls"></a>受信通話をブロックする
 
@@ -38,15 +38,15 @@ Skype for Business Online 通話プランでは、公衆交換電話網 (PSTN) �
 ## <a name="call-blocking-powershell-commands"></a>ブロッキング PowerShell コマンドの呼び出し
 
 番号パターンは、コマンド、、および ```CsInboundBlockedNumberPattern``` ```New``` ```Get``` ```Set``` ```Remove``` . これらのコマンドレットを使用して、アクティブ化を切り替える機能などを含む、指定されたパターンを管理できます。
-- [Get-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/get-csinboundblockednumberpattern) それぞれの名前、説明、Enabled (True/False)、およびパターンを含む、テナント リストに追加されたすべてのブロックされた番号パターンのリストを返します。
-- [New-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/new-csinboundblockednumberpattern) ブロックされた番号パターンをテナント リストに追加します。
-- [Remove-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/remove-csinboundblockednumberpattern) ブロックされた番号パターンをテナント リストから削除します。
-- [Set-CsInboundBlockedNumberPattern](https://docs.microsoft.com/powershell/module/skype/set-csinboundblockednumberpattern) テナント リスト内のブロックされた番号パターンの 1 つ以上のパラメーターを変更します。
+- [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) それぞれの名前、説明、Enabled (True/False)、およびパターンを含む、テナント リストに追加されたすべてのブロックされた番号パターンのリストを返します。
+- [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) ブロックされた番号パターンをテナント リストに追加します。
+- [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) ブロックされた番号パターンをテナント リストから削除します。
+- [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) テナント リスト内のブロックされた番号パターンの 1 つ以上のパラメーターを変更します。
 
-通話ブロック機能全体の表示とアクティブ化は、コマンドを通じて ```CsTenantBlockingCallingNumbers``` 管理 ```Get``` されます ```Set``` 。
+通話ブロック機能全体の表示とアクティブ化は、コマンドで ```CsTenantBlockingCallingNumbers``` 管理 ```Get``` されます ```Set``` 。
 
-- [Get-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockedcallingnumbers) Enabled (True/False) を含むグローバル ブロック番号リストのパラメーターを返します。 機能をオンまたはオフにする以外に、手動で変更できない単一のグローバル テナント ポリシーがあります。
-- [Set-CsTenantBlockedCallingNumbers](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockedcallingnumbers) グローバル テナントのブロックされたコールを変更して、テナント レベルでオンとオフを切り替えることができます。
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) Enabled (True/False) を含むグローバル ブロック番号リストのパラメーターを返します。 機能をオンまたはオフにする以外に、手動で変更できない単一のグローバル テナント ポリシーがあります。
+- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) グローバル テナントのブロックされたコールを変更して、テナント レベルでオンとオフを切り替えることができます。
 
 ### <a name="examples"></a>例
 
@@ -90,10 +90,10 @@ Get-CsInboundBlockedNumberPattern
 
 コマンド、、、および . ```CsTenantBlockNumberExceptionPattern``` ```New``` ```Get``` ```Set``` ```Remove```
 
-- [New-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/new-cstenantblockednumberexceptionpattern) テナント リストに番号例外パターンを追加します。 
-- [Get-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/get-cstenantblockednumberexceptionpattern) テナント リストに追加されたすべての番号例外パターンのリストを返します。
-- [Set-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/set-cstenantblockednumberexceptionpattern) 1 つ以上のパラメーターをテナント リストの番号例外パターンに変更します。
-- [Remove-CsTenantBlockedNumberExceptionPattern](https://docs.microsoft.com/powershell/module/skype/remove-cstenantblockednumberexceptionpattern) テナント リストから番号例外パターンを削除します。
+- [New-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/new-cstenantblockednumberexceptionpattern) テナント リストに番号例外パターンを追加します。 
+- [Get-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/get-cstenantblockednumberexceptionpattern) テナント リストに追加されたすべての番号例外パターンのリストを返します。
+- [Set-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/set-cstenantblockednumberexceptionpattern) 1 つ以上のパラメーターをテナント リストの番号例外パターンに変更します。
+- [Remove-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/remove-cstenantblockednumberexceptionpattern) テナント リストから番号例外パターンを削除します。
 
 ### <a name="examples"></a>例
 
@@ -149,7 +149,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 テナントで ```Test-CsInboundBlockedNumberPattern``` 番号がブロックされているかどうかを確認するには、コマンドレットを使用します。
  
-この例では、パラメーター ```-Phonenumber``` は ```-Tenant``` 必須です。 パラメーターは、+ や -などの追加の文字を含めずに数値 ```-PhoneNumber``` 文字列である必要があります。 TRPS では、 ```-Tenant parameter``` 省略可能です。 結果のパラメーターは、テナントで数値がブロックされている場合は True、ブロックされていない場合は ```isNumberBlocked``` False の値を返します。
+この例では、パラメーター ```-Phonenumber``` が ```-Tenant``` 必要です。 パラメーターは、+ や -などの追加の文字を含めずに数値 ```-PhoneNumber``` 文字列である必要があります。 TRPS では、省略 ```-Tenant parameter``` 可能です。 結果のパラメーターは、テナントで数値がブロックされている場合は True、ブロックされていない場合は ```isNumberBlocked``` False の値を返します。
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>

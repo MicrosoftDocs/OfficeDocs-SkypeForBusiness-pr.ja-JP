@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Skype for Business Server エンタープライズ VoIP での、保留音やリングバック設定などのアプリケーション レベルの応答グループ設定の管理。
-ms.openlocfilehash: d41211b83e5ce0c27bb9efe1d3d15a6289ae38fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server エンタープライズ VoIP で、アプリケーション レベルの応答グループ設定 (保留音やリングバック設定など) を管理します。
+ms.openlocfilehash: 941164fb3a99f62303b45f587b64e7aff9cb1393
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830787"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103473"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Skype for Business でのアプリケーション レベルの応答グループ設定の管理
  
-Skype for Business Server エンタープライズ VoIP での、保留音やリングバック設定などのアプリケーション レベルの応答グループ設定の管理。
+Skype for Business Server エンタープライズ VoIP で、アプリケーション レベルの応答グループ設定 (保留音やリングバック設定など) を管理します。
   
 応答グループ アプリケーションのアプリケーション レベルの設定には、既定の保留音構成、既定の保留音オーディオ ファイル、エージェントリングバック猶予期間、通話コンテキスト構成が含まれます。 プールごとにアプリケーションレベルの設定のセットを 1 つだけ定義できます。 アプリケーション レベルの設定を表示するには **、Get-CsRgsConfiguration コマンドレットを使用** します。 アプリケーション レベルの設定を変更するには **、Set-CsRgsConfiguration コマンドレットを使用** します。
   
@@ -35,7 +35,7 @@ Skype for Business Server エンタープライズ VoIP での、保留音やリ
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
+2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
     
 3. コマンド ラインで、次のコマンドを実行します。
     
@@ -58,8 +58,8 @@ Skype for Business Server エンタープライズ VoIP での、保留音やリ
 
 ## <a name="see-also"></a>関連項目
 
-[Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
+[Get-CsRgsConfiguration](/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
-[Set-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
+[Set-CsRgsConfiguration](/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
-[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f916b4e794c862a05a42f075ca2f210a079ff42a
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909521"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103013"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 
@@ -50,13 +50,13 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 
 - ターゲット環境における管理者の役割。
 
-- [Power Automate](https://docs.microsoft.com/power-automate/get-started-approvals)、Office 365、または Dynamics 365 のライセンス。
+- [Power Automate](/power-automate/get-started-approvals)、Office 365、または Dynamics 365 のライセンス。
 
 ## <a name="storage-with-cds"></a>CDS を使用するストレージ
 
-共通データ モデル (CDM) は、CDS のビジネス アプリケーションや分析アプリケーションで使用される共有データ言語です。 これは、Microsoft とそのパートナーによって公開された、一連の標準化された拡張可能なデータ スキーマで構成されており、アプリケーションとビジネス プロセス全体でデータとその意味の一貫性を実現します。 [Microsoft Power Platform の共通データ モデル](https://docs.microsoft.com/power-automate/get-started-approvals)の詳細については、以下をご覧ください。
+共通データ モデル (CDM) は、CDS のビジネス アプリケーションや分析アプリケーションで使用される共有データ言語です。 これは、Microsoft とそのパートナーによって公開された、一連の標準化された拡張可能なデータ スキーマで構成されており、アプリケーションとビジネス プロセス全体でデータとその意味の一貫性を実現します。 [Microsoft Power Platform の共通データ モデル](/power-automate/get-started-approvals)の詳細については、以下をご覧ください。
 
-[承認ワークフロー](https://docs.microsoft.com/power-automate/modern-approvals)の詳細。
+[承認ワークフロー](/power-automate/modern-approvals)の詳細。
 
 ## <a name="approvals-teams-app-permissions"></a>Teams アプリの権限の承認
 
@@ -101,7 +101,7 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
 ## <a name="retention-policy"></a>アイテム保持ポリシー
 
-承認アプリから作成された承認は既定の CDS 環境に保存されます。現時点では、バックアップはサポートされません。 詳細については、「[環境のバックアップと復元の方法Power Platform \|Microsoft Docs](https://docs.microsoft.com/power-platform/admin/backup-restore-environments)」をご覧ください。
+承認アプリから作成された承認は既定の CDS 環境に保存されます。現時点では、バックアップはサポートされません。 詳細については、「[環境のバックアップと復元の方法Power Platform \|Microsoft Docs](/power-platform/admin/backup-restore-environments)」をご覧ください。
 
 ## <a name="auditing"></a>監査
 
@@ -133,7 +133,7 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
 - 電子署名が追加された承認要求
 
-フロー内の他の監査承認にアクセスするには、プライマリ承認エンティティの承認、承認要求、承認応答の既定の環境において、監査を有効にして構成します。 作成、更新、および削除の操作は、承認レコードにて監査可能なイベントです。 詳細については、「[セキュリティとコンプライアンスのための監査データとユーザー アクティビティ - Power Platform \|Microsoft Docs](https://docs.microsoft.com/power-platform/admin/audit-data-user-activity)」をご覧ください。
+フロー内の他の監査承認にアクセスするには、プライマリ承認エンティティの承認、承認要求、承認応答の既定の環境において、監査を有効にして構成します。 作成、更新、および削除の操作は、承認レコードにて監査可能なイベントです。 詳細については、「[セキュリティとコンプライアンスのための監査データとユーザー アクティビティ - Power Platform \|Microsoft Docs](/power-platform/admin/audit-data-user-activity)」をご覧ください。
 
 監査は、「[Microsoft 365 セキュリティとコンプライアンス センター](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)」にてさらにカスタマイズできます。
 
@@ -143,7 +143,7 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
 3. 監査ログを検索し、[**Dynamics 365 アクティビティ**］を選択 します。
 
-詳細については、「[Microsoft Dataverse モデルベース アプリ アクティビティ ログ - Power Platform](https://docs.microsoft.com/power-platform/admin/enable-use-comprehensive-auditing)」を参照してください。
+詳細については、「[Microsoft Dataverse モデルベース アプリ アクティビティ ログ - Power Platform](/power-platform/admin/enable-use-comprehensive-auditing)」を参照してください。
 
 ## <a name="security"></a>セキュリティ
 

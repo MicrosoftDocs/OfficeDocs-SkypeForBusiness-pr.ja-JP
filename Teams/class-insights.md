@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d3975ac177af7717dbfbcbd3bc8e027b5d8ea11
-ms.sourcegitcommit: 27bfa015413bc7742bca4ea227e0324da0c740d7
+ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "50145904"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51102623"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -137,7 +137,7 @@ Insights は、教職員に関するデータを表示 *しません*。 デー�
 > 収集されたデータのほとんどは、数分以内に Insights に表示されます。 クラス ミーティング (クラス チャネルの 1 つに関連するミーティング) への出席は、ミーティングの終了後数時間で、通常は最大 24 時間後に表示されます。
 
 ### <a name="privacy-and-security"></a>プライバシーとセキュリティ
-Insights で収集、表示される情報は、学生、子供、その他同様のプライバシーに関する規定に対して、[GDPR](https://docs.microsoft.com/compliance/regulatory/gdpr)、家庭教育の[権利とプライバシーに関する法律 (FERPA)](https://docs.microsoft.com/compliance/regulatory/offering-ferpa) などを含む [90 以上の規制および業界標準](https://docs.microsoft.com/compliance/regulatory/offering-home)を満たしています。
+Insights で収集、表示される情報は、学生、子供、その他同様のプライバシーに関する規定に対して、[GDPR](/compliance/regulatory/gdpr)、家庭教育の[権利とプライバシーに関する法律 (FERPA)](/compliance/regulatory/offering-ferpa) などを含む [90 以上の規制および業界標準](/compliance/regulatory/offering-home)を満たしています。
 
 データは教育機関に属し、Microsoft はデータを収集して保存するだけです。 Microsoft の担当者は、データ リカバリなど、サービスを維持するための監査された方法でコンプライアンスによって許可されている場合を除き、データにアクセスしたり、データを表示したりすることはできません。
 
@@ -173,7 +173,7 @@ Insights にアクセスするには、ユーザーは Microsoft 365 の A1、A3
 ## <a name="student-information-system-sis-integration"></a>学生情報システム (SIS) への統合
 より多くのデータが Insights に提供されるほど、教師はより適切に学生をサポートでき、教育リーダーはより適切に教師をサポートできます。
 
-組織レベルの Insights を提供するには、[学校データ同期 (SDS)](https://docs.microsoft.com/SchoolDataSync) を使用して学生情報システム (SIS) に接続する必要があります。これは、Insights が教育システムの階層構造を正しくマッピングできるようにするためです。 
+組織レベルの Insights を提供するには、[学校データ同期 (SDS)](/SchoolDataSync) を使用して学生情報システム (SIS) に接続する必要があります。これは、Insights が教育システムの階層構造を正しくマッピングできるようにするためです。 
 
 クラスの教師としてクラス レベルの Insights を表示する場合は、*その必要はありません*。これは、Teams のクラス構造とアクセス許可が使用されるためです。
 
@@ -192,7 +192,7 @@ Insights にアクセスするには、ユーザーは Microsoft 365 の A1、A3
 どちらのビューでも、教職員はクラス データにアクセスできます。 パーソナル アプリを使用すると、教職員はクラス レベルにドリルダウンする必要がありますが、タブではクラス データに直接アクセスできます。
 
 > [!TIP]
-> 詳細については、「[教育機関向け Teams ポリシーおよびポリシー パッケージ](https://docs.microsoft.com/microsoftteams/policy-packages-edu)」をご確認ください。
+> 詳細については、「[教育機関向け Teams ポリシーおよびポリシー パッケージ](./policy-packages-edu.md)」をご確認ください。
 
 ## <a name="encourage-the-adoption-of-insights"></a>Insights の導入をすすめる
 所属する教育機関に Insights の使用をおすすめしてください。
@@ -255,6 +255,3 @@ Insights レポートで会議データを表示するには、最大 24 時間�
 
 > [!NOTE]
 > 質問にまだ回答がない場合は、[サポート チケットをオープン](https://aka.ms/edusupport)してください。 問題を示すスクリーンショットと、問題が発生した日付を含めます。 問題の解決に役立つと思われるデータを追加してください。
-
-
-

@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
-description: Skype for Business Server サービスで E9-1-1 と動作する SNMP アプリケーションをエンタープライズ VoIP。
-ms.openlocfilehash: eb1947f24968dccc6f45b6d8ea3a7df42282a58f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server の E9-1-1 で動作する SNMP アプリケーションを構成エンタープライズ VoIP。
+ms.openlocfilehash: f8b4c7503524dacdc20e85fc68f0a79286e38c2e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804157"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103633"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Skype for Business Server で SNMP アプリケーションを構成する
  
-Skype for Business Server サービスで E9-1-1 と動作する SNMP アプリケーションをエンタープライズ VoIP。 
+Skype for Business Server の E9-1-1 で動作する SNMP アプリケーションを構成エンタープライズ VoIP。 
   
-Skype for Business Server には、場所情報サービスをポートおよびスイッチ情報と MAC アドレスと一致する簡易ネットワーク管理プロトコル (SNMP) アプリケーションに接続するために使用できる標準の Web サービス インターフェイスが含まれています。 
+Skype for Business Server には標準的な Web サービス インターフェイスが含まれています。このインターフェイスを使用して、場所情報サービスをポートおよびスイッチ情報と MAC アドレスと一致する簡易ネットワーク管理プロトコル (SNMP) アプリケーションに接続できます。 
   
-SNMP アプリケーションがインストールされ、場所情報サービスが場所データベースで一致するアプリケーションを検出できない場合、場所情報サービスは、クライアントが提供する MAC アドレスを使用してアプリケーションを自動的に照会します。 その後、場所情報サービスは、SNMP アプリケーションから返されたポートとスイッチ情報を使用して、場所データベースに再度クエリを実行します。
+SNMP アプリケーションがインストールされ、位置情報サービスが場所データベース内で一致する検索に失敗した場合、位置情報サービスはクライアントが提供する MAC アドレスを使用してアプリケーションに自動的にクエリを実行します。 その後、Location Information Service はポートを使用して、SNMP アプリケーションから返される情報を切り替えて、場所データベースに対して再度クエリを実行します。
   
 > [!NOTE]
-> MAC アドレスは、MAC アドレスを実行しているコンピューター Windows 8。 
+> MAC アドレスは、MAC アドレスを実行しているコンピューターではWindows 8。 
   
 ### <a name="to-configure-the-snmp-application-url"></a>SNMP アプリケーションの URL を構成するには
 
-1.  Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
+1.  Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
     
 2. 次のコマンドレットを使用して SNMP アプリケーションの URL を構成します。 
     
@@ -46,5 +46,4 @@ SNMP アプリケーションがインストールされ、場所情報サービ
 
 ## <a name="see-also"></a>関連項目
 
-[Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
-
+[Set-CsWebServiceConfiguration](/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
