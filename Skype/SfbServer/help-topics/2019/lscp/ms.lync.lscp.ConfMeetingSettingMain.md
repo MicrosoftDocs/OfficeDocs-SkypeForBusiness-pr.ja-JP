@@ -14,57 +14,55 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
-description: 会議の構成設定は、ユーザーが作成できる会議 (meetings とも呼ばれる) の種類を定義し、匿名ユーザーとダイヤルイン会議ユーザーがこれらの会議に参加する方法 (または参加できるかどうか) を制御します。 これらの設定はスケジュール設定された会議にのみ適用されます。 クライアントの [今すぐミーティング] オプションをクリックして作成された臨時の会議には適用されません。
-ms.openlocfilehash: 260abc13f321111b26c70b4ca8a318c8c9a2d59b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 会議の構成設定では、ユーザーが作成できる会議の種類 (いわゆるmeetings) を定義し、匿名ユーザーとダイヤルイン会議ユーザーがこれらの会議に参加する方法 (またはかどうかを) 制御します。 これらの設定はスケジュール設定された会議にのみ適用されます。 クライアントで [今すぐ会議] オプションをクリックして作成されたアドホック会議には適用されません。
+ms.openlocfilehash: 053378ef694a66413f11760be5f449cd21e6b764
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824797"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095971"
 ---
-# <a name="meeting-configuration"></a><span data-ttu-id="e2dc2-105">会議の構成</span><span class="sxs-lookup"><span data-stu-id="e2dc2-105">Meeting Configuration</span></span>
+# <a name="meeting-configuration"></a><span data-ttu-id="4ad71-105">会議の構成</span><span class="sxs-lookup"><span data-stu-id="4ad71-105">Meeting Configuration</span></span>
 
-<span data-ttu-id="e2dc2-106">会議の構成設定では、ユーザーが作成できる会議 ("ミーティング" とも呼ばれます) の種類を定義でき、さらにこの会議への匿名ユーザーやダイヤルイン会議ユーザーの参加方法について (または、参加可能かどうかについて) 制御できます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-106">Meeting configuration settings define the type of conferences (also called "meetings") that users can create, and control how (or whether) anonymous users and dial-in conferencing users can join these conferences.</span></span> <span data-ttu-id="e2dc2-107">これらの設定はスケジュール設定された会議にのみ適用されます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-107">These settings only apply to scheduled meetings.</span></span> <span data-ttu-id="e2dc2-108">クライアントの [今すぐミーティング] オプションをクリックして作成された臨時の会議には適用されません。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-108">They do not apply to ad-hoc meetings created by clicking the Meet Now option in the client.</span></span>
+<span data-ttu-id="4ad71-106">会議の構成設定では、ユーザーが作成できる会議 ("ミーティング" とも呼ばれます) の種類を定義でき、さらにこの会議への匿名ユーザーやダイヤルイン会議ユーザーの参加方法について (または、参加可能かどうかについて) 制御できます。</span><span class="sxs-lookup"><span data-stu-id="4ad71-106">Meeting configuration settings define the type of conferences (also called "meetings") that users can create, and control how (or whether) anonymous users and dial-in conferencing users can join these conferences.</span></span> <span data-ttu-id="4ad71-107">これらの設定はスケジュール設定された会議にのみ適用されます。</span><span class="sxs-lookup"><span data-stu-id="4ad71-107">These settings only apply to scheduled meetings.</span></span> <span data-ttu-id="4ad71-108">クライアントで [今すぐ会議] オプションをクリックして作成されたアドホック会議には適用されません。</span><span class="sxs-lookup"><span data-stu-id="4ad71-108">They do not apply to ad-hoc meetings created by clicking the Meet Now option in the client.</span></span>
 
-<span data-ttu-id="e2dc2-109">会議の構成は、グローバル、サイト、またはプールのレベルで適用されます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-109">Meeting configurations apply on the global, site, or pool level:</span></span>
+<span data-ttu-id="4ad71-109">会議の構成は、グローバル、サイト、またはプールのレベルで適用されます。</span><span class="sxs-lookup"><span data-stu-id="4ad71-109">Meeting configurations apply on the global, site, or pool level:</span></span>
 
-- <span data-ttu-id="e2dc2-110">**グローバル会議の構成:** グローバル会議の構成は、既定で作成されます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-110">**Global meeting configuration:** The global meeting configuration is created by default.</span></span> <span data-ttu-id="e2dc2-111">グローバルな会議の構成は編集できますが、削除することはできません。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-111">You can edit the global meeting configuration, but you cannot delete it.</span></span> <span data-ttu-id="e2dc2-112">グローバルな会議の構成の削除を試みると、設定がすべて既定値にリセットされます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-112">If you try to remove the global meeting configuration, all the settings are reset to the default values.</span></span>
+- <span data-ttu-id="4ad71-110">**グローバル会議の構成:** グローバル会議の構成は既定で作成されます。</span><span class="sxs-lookup"><span data-stu-id="4ad71-110">**Global meeting configuration:** The global meeting configuration is created by default.</span></span> <span data-ttu-id="4ad71-111">グローバルな会議の構成は編集できますが、削除することはできません。</span><span class="sxs-lookup"><span data-stu-id="4ad71-111">You can edit the global meeting configuration, but you cannot delete it.</span></span> <span data-ttu-id="4ad71-112">グローバルな会議の構成の削除を試みると、設定がすべて既定値にリセットされます。</span><span class="sxs-lookup"><span data-stu-id="4ad71-112">If you try to remove the global meeting configuration, all the settings are reset to the default values.</span></span>
 
-- <span data-ttu-id="e2dc2-113">**サイト会議の構成 (オプション):** 1 つ以上のサイト会議構成を作成し、それぞれの構成を特定のサイトに適用できます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-113">**Site meeting configuration (optional):** You can create one or more site meeting configurations, each of which applies to a specific site.</span></span> <span data-ttu-id="e2dc2-114">サイト構成はグローバル構成より優先されます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-114">Site configurations override the global configuration.</span></span>
+- <span data-ttu-id="4ad71-113">**サイト会議の構成 (オプション):** 1 つ以上のサイト会議構成を作成できます。それぞれの構成は、特定のサイトに適用されます。</span><span class="sxs-lookup"><span data-stu-id="4ad71-113">**Site meeting configuration (optional):** You can create one or more site meeting configurations, each of which applies to a specific site.</span></span> <span data-ttu-id="4ad71-114">サイト構成は、グローバル構成を上書きします。</span><span class="sxs-lookup"><span data-stu-id="4ad71-114">Site configurations override the global configuration.</span></span>
 
-- <span data-ttu-id="e2dc2-115">**プール会議の構成 (オプション):** 1 つ以上のプール会議構成を作成し、それぞれの構成を特定のプールに適用できます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-115">**Pool meeting configuration (optional):** You can create one or more pool meeting configurations, each of which applies to a specific pool.</span></span> <span data-ttu-id="e2dc2-116">プール構成は、グローバル構成とサイト構成より優先されます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-116">Pool configurations override the global configuration and site configurations.</span></span>
+- <span data-ttu-id="4ad71-115">**プール会議の構成 (オプション):** 1 つ以上のプール会議構成を作成できます。それぞれの構成は、特定のプールに適用されます。</span><span class="sxs-lookup"><span data-stu-id="4ad71-115">**Pool meeting configuration (optional):** You can create one or more pool meeting configurations, each of which applies to a specific pool.</span></span> <span data-ttu-id="4ad71-116">プール構成は、グローバル構成とサイト構成を上書きします。</span><span class="sxs-lookup"><span data-stu-id="4ad71-116">Pool configurations override the global configuration and site configurations.</span></span>
 
-<span data-ttu-id="e2dc2-117">[**会議の構成**] ページには、組織で定義されているすべての会議の構成が一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-117">The **Meeting Configuration** page displays a list of all the meeting configurations that are defined for your organization.</span></span>
+<span data-ttu-id="4ad71-117">[**会議の構成**] ページには、組織で定義されているすべての会議の構成が一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="4ad71-117">The **Meeting Configuration** page displays a list of all the meeting configurations that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="e2dc2-118">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="e2dc2-118">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="4ad71-118">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="4ad71-118">Tasks you can perform</span></span>
 
-<span data-ttu-id="e2dc2-119">[**会議の構成**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-119">You can perform the following tasks from the **Meeting Configuration** page:</span></span>
+<span data-ttu-id="4ad71-119">[**会議の構成**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="4ad71-119">You can perform the following tasks from the **Meeting Configuration** page:</span></span>
 
-- <span data-ttu-id="e2dc2-120">新しいサイトの会議の構成またはプールの会議の構成を作成する</span><span class="sxs-lookup"><span data-stu-id="e2dc2-120">Create a new site meeting configuration or pool meeting configuration</span></span>
+- <span data-ttu-id="4ad71-120">新しいサイトの会議の構成またはプールの会議の構成を作成する</span><span class="sxs-lookup"><span data-stu-id="4ad71-120">Create a new site meeting configuration or pool meeting configuration</span></span>
 
-- <span data-ttu-id="e2dc2-121">グローバルな構成または既存のサイトの構成またはプールの構成を変更する</span><span class="sxs-lookup"><span data-stu-id="e2dc2-121">Change the global configuration or an existing site configuration or pool configuration</span></span>
+- <span data-ttu-id="4ad71-121">グローバルな構成または既存のサイトの構成またはプールの構成を変更する</span><span class="sxs-lookup"><span data-stu-id="4ad71-121">Change the global configuration or an existing site configuration or pool configuration</span></span>
 
-- <span data-ttu-id="e2dc2-122">サイトの構成またはプールの構成を削除する</span><span class="sxs-lookup"><span data-stu-id="e2dc2-122">Delete a site configuration or pool configuration</span></span>
+- <span data-ttu-id="4ad71-122">サイトの構成またはプールの構成を削除する</span><span class="sxs-lookup"><span data-stu-id="4ad71-122">Delete a site configuration or pool configuration</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="e2dc2-123">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="e2dc2-123">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="4ad71-123">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="4ad71-123">UI Reference</span></span>
 
-<span data-ttu-id="e2dc2-124">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-124">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="4ad71-124">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="4ad71-124">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="e2dc2-125">**新規** 新しいサイト会議構成またはプールの会議構成を開始します。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-125">**New** Starts a new site meeting configuration or pool meeting configuration.</span></span>
+- <span data-ttu-id="4ad71-125">**New** 新しいサイト会議の構成またはプール会議の構成を開始します。</span><span class="sxs-lookup"><span data-stu-id="4ad71-125">**New** Starts a new site meeting configuration or pool meeting configuration.</span></span>
 
-- <span data-ttu-id="e2dc2-126">**編集** 選択した会議の構成を開き、編集するか、一覧内のすべての会議構成を選択するか、選択したサイト構成またはプール構成を削除します。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-126">**Edit** Opens the selected meeting configuration to edit it, selects all meeting configurations in the list, or deletes the selected site configuration or pool configuration.</span></span>
+- <span data-ttu-id="4ad71-126">**編集** 選択した会議の構成を開き、編集するか、リスト内のすべての会議構成を選択するか、選択したサイト構成またはプール構成を削除します。</span><span class="sxs-lookup"><span data-stu-id="4ad71-126">**Edit** Opens the selected meeting configuration to edit it, selects all meeting configurations in the list, or deletes the selected site configuration or pool configuration.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="e2dc2-127">グローバルな会議の構成に対して [**削除**] を使用すると、設定が既定値にリセットされます。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-127">For the global meeting configuration, **Delete** resets the settings to the default values.</span></span>
+    > <span data-ttu-id="4ad71-127">グローバルな会議の構成に対して [**削除**] を使用すると、設定が既定値にリセットされます。</span><span class="sxs-lookup"><span data-stu-id="4ad71-127">For the global meeting configuration, **Delete** resets the settings to the default values.</span></span>
 
-- <span data-ttu-id="e2dc2-128">**更新** 会議の構成の一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-128">**Refresh** Refreshes the list of meeting configurations.</span></span>
+- <span data-ttu-id="4ad71-128">**更新** 会議の構成の一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="4ad71-128">**Refresh** Refreshes the list of meeting configurations.</span></span>
 
-<span data-ttu-id="e2dc2-129">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-129">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="4ad71-129">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="4ad71-129">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="e2dc2-130">**名前** 会議の構成を識別します。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-130">**Name** Identifies the meeting configuration.</span></span>
+- <span data-ttu-id="4ad71-130">**名前** 会議の構成を識別します。</span><span class="sxs-lookup"><span data-stu-id="4ad71-130">**Name** Identifies the meeting configuration.</span></span>
 
-- <span data-ttu-id="e2dc2-131">**スコープ** 会議構成のスコープ (グローバル、サイト、プール) を識別します。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-131">**Scope** Identifies the scope of the meeting configuration: global, site, or pool.</span></span>
+- <span data-ttu-id="4ad71-131">**スコープ** 会議構成のスコープを識別します。グローバル、サイト、またはプール。</span><span class="sxs-lookup"><span data-stu-id="4ad71-131">**Scope** Identifies the scope of the meeting configuration: global, site, or pool.</span></span>
 
-<span data-ttu-id="e2dc2-132">会議の構成の操作の詳細については、「操作」のドキュメントの「[Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="e2dc2-132">For details about working with meeting configurations, see [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) in the Operations documentation.</span></span>
-
-
+<span data-ttu-id="4ad71-132">会議の構成の操作の詳細については、「操作」のドキュメントの「[Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="4ad71-132">For details about working with meeting configurations, see [Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) in the Operations documentation.</span></span>

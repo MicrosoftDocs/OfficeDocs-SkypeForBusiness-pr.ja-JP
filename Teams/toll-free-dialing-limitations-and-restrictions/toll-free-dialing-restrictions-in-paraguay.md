@@ -22,35 +22,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: dec6127e2a52ae729e7106d76fb27785cd6fbf09
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
+ms.openlocfilehash: b4272ac27391fc861d5b1c9b2d5e90aaccb7aff2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693482"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097843"
 ---
-# <a name="toll-free-dialing-restrictions-in-paraguay"></a><span data-ttu-id="0bc2b-105">パラグアイでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="0bc2b-105">Toll-free dialing restrictions in Paraguay</span></span>
+# <a name="toll-free-dialing-restrictions-in-paraguay"></a><span data-ttu-id="74461-105">パラグアイでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="74461-105">Toll-free dialing restrictions in Paraguay</span></span>
 
-<span data-ttu-id="0bc2b-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。</span><span class="sxs-lookup"><span data-stu-id="0bc2b-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="74461-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="74461-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="0bc2b-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="0bc2b-107">**Details**</span></span>|<span data-ttu-id="0bc2b-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="0bc2b-108">**Description**</span></span>|
+|<span data-ttu-id="74461-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="74461-107">**Details**</span></span>|<span data-ttu-id="74461-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="74461-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="0bc2b-109">無料通話を利用できますか?</span><span class="sxs-lookup"><span data-stu-id="0bc2b-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="0bc2b-110">はい</span><span class="sxs-lookup"><span data-stu-id="0bc2b-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="0bc2b-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="0bc2b-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="0bc2b-112">009-800-101-XXX</span><span class="sxs-lookup"><span data-stu-id="0bc2b-112">009-800-101-XXX</span></span> <br/> |
-|<span data-ttu-id="0bc2b-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="0bc2b-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="0bc2b-114">PY</span><span class="sxs-lookup"><span data-stu-id="0bc2b-114">PY</span></span>  <br/> |
-|<span data-ttu-id="0bc2b-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="0bc2b-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="0bc2b-116">該当しない</span><span class="sxs-lookup"><span data-stu-id="0bc2b-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="0bc2b-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="0bc2b-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="0bc2b-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="0bc2b-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="0bc2b-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="0bc2b-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="0bc2b-120">あり</span><span class="sxs-lookup"><span data-stu-id="0bc2b-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="0bc2b-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="0bc2b-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="0bc2b-122">なし</span><span class="sxs-lookup"><span data-stu-id="0bc2b-122">No</span></span>  <br/> |
-|<span data-ttu-id="0bc2b-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="0bc2b-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="0bc2b-124">なし</span><span class="sxs-lookup"><span data-stu-id="0bc2b-124">None</span></span>  <br/> |
+|<span data-ttu-id="74461-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="74461-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="74461-110">はい</span><span class="sxs-lookup"><span data-stu-id="74461-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="74461-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="74461-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="74461-112">009-800-101-XXX</span><span class="sxs-lookup"><span data-stu-id="74461-112">009-800-101-XXX</span></span> <br/> |
+|<span data-ttu-id="74461-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="74461-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="74461-114">PY</span><span class="sxs-lookup"><span data-stu-id="74461-114">PY</span></span>  <br/> |
+|<span data-ttu-id="74461-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="74461-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="74461-116">該当なし</span><span class="sxs-lookup"><span data-stu-id="74461-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="74461-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="74461-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="74461-118">該当なし</span><span class="sxs-lookup"><span data-stu-id="74461-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="74461-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="74461-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="74461-120">はい</span><span class="sxs-lookup"><span data-stu-id="74461-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="74461-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="74461-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="74461-122">なし</span><span class="sxs-lookup"><span data-stu-id="74461-122">No</span></span>  <br/> |
+|<span data-ttu-id="74461-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="74461-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="74461-124">なし</span><span class="sxs-lookup"><span data-stu-id="74461-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="0bc2b-125">関連トピック</span><span class="sxs-lookup"><span data-stu-id="0bc2b-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="74461-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="74461-125">Related topics</span></span>
 
-[<span data-ttu-id="0bc2b-126">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="0bc2b-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="74461-126">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="74461-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="0bc2b-127">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="0bc2b-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="74461-127">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="74461-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
- 
