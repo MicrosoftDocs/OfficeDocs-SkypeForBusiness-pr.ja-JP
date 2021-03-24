@@ -13,58 +13,58 @@ ms.collection:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec9c9062a26442ae03a332f7cdd6f1e9b56cee5
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 6d191d4d1dbb9c3d3d2f206bce76e9d3ddd7d78d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756159"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094117"
 ---
-# <a name="microsoft-teams-powershell-overview"></a><span data-ttu-id="197da-103">Microsoft Teams PowerShell の概要</span><span class="sxs-lookup"><span data-stu-id="197da-103">Microsoft Teams PowerShell Overview</span></span>
+# <a name="microsoft-teams-powershell-overview"></a><span data-ttu-id="8a4d8-103">Microsoft Teams PowerShell の概要</span><span class="sxs-lookup"><span data-stu-id="8a4d8-103">Microsoft Teams PowerShell Overview</span></span>
 
-<span data-ttu-id="197da-104">Microsoft Teams PowerShell は、PowerShell コマンド ラインから直接 Teams を管理するための一連のコマンドレットです。</span><span class="sxs-lookup"><span data-stu-id="197da-104">Microsoft Teams PowerShell is a set of cmdlets for managing Teams directly from the PowerShell command line.</span></span> <span data-ttu-id="197da-105">.NET Standard で記述された Teams PowerShell は、Azure Cloud Shell を含むすべてのプラットフォームで、Windows、PowerShell 6.x 以上の PowerShell 5.1 で動作します。</span><span class="sxs-lookup"><span data-stu-id="197da-105">Written in .NET Standard, Teams PowerShell works on PowerShell 5.1 on Windows, PowerShell 6.x and higher on all platforms including Azure Cloud Shell.</span></span>
+<span data-ttu-id="8a4d8-104">Microsoft Teams PowerShell は、PowerShell コマンド ラインから直接 Teams を管理するための一連のコマンドレットです。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-104">Microsoft Teams PowerShell is a set of cmdlets for managing Teams directly from the PowerShell command line.</span></span> <span data-ttu-id="8a4d8-105">.NET Standard で記述された Teams PowerShell は、Azure Cloud Shell を含むすべてのプラットフォームで、Windows、PowerShell 6.x 以上の PowerShell 5.1 で動作します。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-105">Written in .NET Standard, Teams PowerShell works on PowerShell 5.1 on Windows, PowerShell 6.x and higher on all platforms including Azure Cloud Shell.</span></span>
 
-<span data-ttu-id="197da-106">PowerShell の使用を開始する前に、[それをインストール](teams-powershell-install.md)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="197da-106">Before you can start using PowerShell, you'll need to [install it](teams-powershell-install.md).</span></span> 
+<span data-ttu-id="8a4d8-106">PowerShell の使用を開始する前に、[それをインストール](teams-powershell-install.md)する必要があります。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-106">Before you can start using PowerShell, you'll need to [install it](teams-powershell-install.md).</span></span> 
 
 > [!WARNING]
-> <span data-ttu-id="197da-107">PowerShell 7 および Teams PowerShell には、既知の問題があります。</span><span class="sxs-lookup"><span data-stu-id="197da-107">There are known issues with PowerShell 7 and Teams PowerShell.</span></span> <span data-ttu-id="197da-108">問題が解決されるまで PowerShell 5.1 の使用をお勧めします。</span><span class="sxs-lookup"><span data-stu-id="197da-108">We recommend using PowerShell 5.1 until the issues are resolved.</span></span>
+> <span data-ttu-id="8a4d8-107">PowerShell 7 および Teams PowerShell には、既知の問題があります。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-107">There are known issues with PowerShell 7 and Teams PowerShell.</span></span> <span data-ttu-id="8a4d8-108">問題が解決されるまで PowerShell 5.1 の使用をお勧めします。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-108">We recommend using PowerShell 5.1 until the issues are resolved.</span></span>
 
-## <a name="releases"></a><span data-ttu-id="197da-109">リリース</span><span class="sxs-lookup"><span data-stu-id="197da-109">Releases</span></span>
-
-
-<span data-ttu-id="197da-110">Teams PowerShell は、2 つのリリース タイプで [PowerShell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams)を利用できます。</span><span class="sxs-lookup"><span data-stu-id="197da-110">Teams PowerShell is available on [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) in two release types.</span></span>
-
-- <span data-ttu-id="197da-111">**一般提供 (GA)**: 本番対応のコマンドレットであり、毎月更新されます。</span><span class="sxs-lookup"><span data-stu-id="197da-111">**General Availability (GA)**: Production-ready cmdlets, updated monthly.</span></span>
-
-- <span data-ttu-id="197da-112">**パブリック プレビュー**: 機能にいち早くアクセスします。</span><span class="sxs-lookup"><span data-stu-id="197da-112">**Public Preview**: Early access to features.</span></span> <span data-ttu-id="197da-113">GA よりも頻繁に更新される場合があります。</span><span class="sxs-lookup"><span data-stu-id="197da-113">May be updated more frequently than GA.</span></span>
-
-<span data-ttu-id="197da-114">両方のリリースでの機能の追加と改善の詳細については、「[Teams PowerShell リリース ノート](teams-powershell-release-notes.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="197da-114">For detailed information on feature additions and improvements for both releases, read the [Teams PowerShell release notes](teams-powershell-release-notes.md).</span></span>
+## <a name="releases"></a><span data-ttu-id="8a4d8-109">リリース</span><span class="sxs-lookup"><span data-stu-id="8a4d8-109">Releases</span></span>
 
 
-## <a name="manage-teams-with-powershell"></a><span data-ttu-id="197da-115">PowerShell で Teams を管理する</span><span class="sxs-lookup"><span data-stu-id="197da-115">Manage Teams with PowerShell</span></span>
+<span data-ttu-id="8a4d8-110">Teams PowerShell は、2 つのリリース タイプで [PowerShell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams)を利用できます。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-110">Teams PowerShell is available on [PowerShell Gallery](https://www.powershellgallery.com/packages/MicrosoftTeams) in two release types.</span></span>
 
-<span data-ttu-id="197da-116">Teams PowerShell モジュールを使用して、Teams を完全に管理します。</span><span class="sxs-lookup"><span data-stu-id="197da-116">You'll use Teams PowerShell modules to fully manage Teams:</span></span>
+- <span data-ttu-id="8a4d8-111">**一般提供 (GA)**: 本番対応のコマンドレットであり、毎月更新されます。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-111">**General Availability (GA)**: Production-ready cmdlets, updated monthly.</span></span>
 
-- <span data-ttu-id="197da-117">[Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/): Teams PowerShell モジュールには、チーム、チャット、およびチャネルを管理するためのコマンドレットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="197da-117">[Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/): The Teams PowerShell module contains cmdlets for managing teams, chat, and channels.</span></span>
+- <span data-ttu-id="8a4d8-112">**パブリック プレビュー**: 機能にいち早くアクセスします。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-112">**Public Preview**: Early access to features.</span></span> <span data-ttu-id="8a4d8-113">GA よりも頻繁に更新される場合があります。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-113">May be updated more frequently than GA.</span></span>
+
+<span data-ttu-id="8a4d8-114">両方のリリースでの機能の追加と改善の詳細については、「[Teams PowerShell リリース ノート](teams-powershell-release-notes.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-114">For detailed information on feature additions and improvements for both releases, read the [Teams PowerShell release notes](teams-powershell-release-notes.md).</span></span>
+
+
+## <a name="manage-teams-with-powershell"></a><span data-ttu-id="8a4d8-115">PowerShell で Teams を管理する</span><span class="sxs-lookup"><span data-stu-id="8a4d8-115">Manage Teams with PowerShell</span></span>
+
+<span data-ttu-id="8a4d8-116">Teams PowerShell モジュールを使用して、Teams を完全に管理します。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-116">You'll use Teams PowerShell modules to fully manage Teams:</span></span>
+
+- <span data-ttu-id="8a4d8-117">[Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/): Teams PowerShell モジュールには、チーム、チャット、およびチャネルを管理するためのコマンドレットが含まれています。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-117">[Microsoft Teams PowerShell module](https://www.powershellgallery.com/packages/MicrosoftTeams/): The Teams PowerShell module contains cmdlets for managing teams, chat, and channels.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="197da-118">[Teams PowerShell の](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリース バージョン 1.1.6 以降は、Skype for Business Online Connector と統合され、Teams PowerShell 管理用の 1 つのモジュールが提供されます。</span><span class="sxs-lookup"><span data-stu-id="197da-118">The [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) version 1.1.6 or later is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.</span></span>
+> <span data-ttu-id="8a4d8-118">[Teams PowerShell の](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリース バージョン 1.1.6 以降は、Skype for Business Online Connector と統合され、Teams PowerShell 管理用の 1 つのモジュールが提供されます。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-118">The [Teams PowerShell public release](https://www.powershellgallery.com/packages/MicrosoftTeams/) version 1.1.6 or later is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management.</span></span>
 
-- <span data-ttu-id="197da-119">[Skype for Business PowerShell コネクタ](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): Skype for Business PowerShell コネクタは、Teams PowerShell モジュールの一部になりました。</span><span class="sxs-lookup"><span data-stu-id="197da-119">[Skype for Business PowerShell Connector](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): The Skype for Business PowerShell connector is now a part of Teams PowerShell module.</span></span>
+- <span data-ttu-id="8a4d8-119">[Skype for Business PowerShell コネクタ](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): Skype for Business PowerShell コネクタは、Teams PowerShell モジュールの一部になりました。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-119">[Skype for Business PowerShell Connector](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): The Skype for Business PowerShell connector is now a part of Teams PowerShell module.</span></span>
 
-<span data-ttu-id="197da-120">これらのモジュールを使用して Teams を管理するための完全なガイドについては、「[Teams PowerShell で Teams を管理する](teams-powershell-managing-teams.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="197da-120">For a complete guide to managing Teams using these modules, please see [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md).</span></span>
+<span data-ttu-id="8a4d8-120">これらのモジュールを使用して Teams を管理するための完全なガイドについては、「[Teams PowerShell で Teams を管理する](teams-powershell-managing-teams.md)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="8a4d8-120">For a complete guide to managing Teams using these modules, please see [Manage Teams with Teams PowerShell](teams-powershell-managing-teams.md).</span></span>
 
 
-## <a name="related-topics"></a><span data-ttu-id="197da-121">関連トピック</span><span class="sxs-lookup"><span data-stu-id="197da-121">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="8a4d8-121">関連トピック</span><span class="sxs-lookup"><span data-stu-id="8a4d8-121">Related topics</span></span>
 
-[<span data-ttu-id="197da-122">Teams Powershell のインストール</span><span class="sxs-lookup"><span data-stu-id="197da-122">Installing Teams PowerShell</span></span>](teams-powershell-install.md)
+[<span data-ttu-id="8a4d8-122">Teams Powershell のインストール</span><span class="sxs-lookup"><span data-stu-id="8a4d8-122">Installing Teams PowerShell</span></span>](teams-powershell-install.md)
 
-[<span data-ttu-id="197da-123">Teams PowerShell での Teams の管理</span><span class="sxs-lookup"><span data-stu-id="197da-123">Managing Teams with Teams PowerShell</span></span>](teams-powershell-managing-teams.md)
+[<span data-ttu-id="8a4d8-123">Teams PowerShell での Teams の管理</span><span class="sxs-lookup"><span data-stu-id="8a4d8-123">Managing Teams with Teams PowerShell</span></span>](teams-powershell-managing-teams.md)
 
-[<span data-ttu-id="197da-124">Teams PowerShell のリリース ノート</span><span class="sxs-lookup"><span data-stu-id="197da-124">Teams PowerShell Release Notes</span></span>](teams-powershell-release-notes.md)
+[<span data-ttu-id="8a4d8-124">Teams PowerShell のリリース ノート</span><span class="sxs-lookup"><span data-stu-id="8a4d8-124">Teams PowerShell Release Notes</span></span>](teams-powershell-release-notes.md)
 
-[<span data-ttu-id="197da-125">Microsoft Teams コマンドレット リファレンス</span><span class="sxs-lookup"><span data-stu-id="197da-125">Microsoft Teams cmdlet reference</span></span>](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[<span data-ttu-id="8a4d8-125">Microsoft Teams コマンドレット リファレンス</span><span class="sxs-lookup"><span data-stu-id="8a4d8-125">Microsoft Teams cmdlet reference</span></span>](/powershell/teams/?view=teams-ps)
 
-[<span data-ttu-id="197da-126">Skype for Business コマンドレット リファレンス</span><span class="sxs-lookup"><span data-stu-id="197da-126">Skype for Business cmdlet reference</span></span>](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[<span data-ttu-id="8a4d8-126">Skype for Business コマンドレット リファレンス</span><span class="sxs-lookup"><span data-stu-id="8a4d8-126">Skype for Business cmdlet reference</span></span>](/powershell/skype/intro?view=skype-ps)
 
-[<span data-ttu-id="197da-127">Microsoft Teams の管理者ロールを使用して Teams を管理する</span><span class="sxs-lookup"><span data-stu-id="197da-127">Use Microsoft Teams admin roles to manage Teams</span></span>](using-admin-roles.md)
+[<span data-ttu-id="8a4d8-127">Microsoft Teams の管理者ロールを使用して Teams を管理する</span><span class="sxs-lookup"><span data-stu-id="8a4d8-127">Use Microsoft Teams admin roles to manage Teams</span></span>](using-admin-roles.md)

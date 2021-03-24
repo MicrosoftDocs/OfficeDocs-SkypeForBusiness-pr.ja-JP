@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で通話詳細記録を有効にする
+title: Skype for Business Server で通話の詳細記録を有効にする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,69 +12,69 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '概要: Skype for Business Server で通話詳細記録 (CDR) レコードを有効にする方法について説明します。'
-ms.openlocfilehash: 48d21be6d377df24e859c3ffa6bb8b7858076d29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e2f652eeef77c336fb34be07c123f1ef026d458c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816887"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095231"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server"></a><span data-ttu-id="2c73b-103">Skype for Business Server で通話詳細記録を有効にする</span><span class="sxs-lookup"><span data-stu-id="2c73b-103">Enable call detail recording in Skype for Business Server</span></span>
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a><span data-ttu-id="c3fa1-103">Skype for Business Server で通話の詳細記録を有効にする</span><span class="sxs-lookup"><span data-stu-id="c3fa1-103">Enable call detail recording in Skype for Business Server</span></span>
 
-<span data-ttu-id="2c73b-104">**概要:** Skype for Business Server で通話詳細記録 (CDR) レコードを有効にする方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="2c73b-104">**Summary:** Learn how to enable Call detail recording (CDR) records in Skype for Business Server.</span></span>
+<span data-ttu-id="c3fa1-104">**概要:** Skype for Business Server で通話詳細記録 (CDR) レコードを有効にする方法について説明します。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-104">**Summary:** Learn how to enable Call detail recording (CDR) records in Skype for Business Server.</span></span>
 
-<span data-ttu-id="2c73b-p101">通話詳細記録 (CDR) は、インスタント メッセージング、ボイス オーバー IP (VoIP) 通話、アプリケーション共有、ファイル送信などのピアツーピア アクティビティ、および会議に関する使用状況および診断情報を記録します。使用状況データは投資収益率 (ROI) の計算に、診断データはピアツーピア アクティビティおよび会議のトラブルシューティングに使用できます。</span><span class="sxs-lookup"><span data-stu-id="2c73b-p101">Call detail recording (CDR) records usage and diagnostic information about peer-to-peer activities including instance messaging, Voice over Internet Protocol (VoIP) calls, application sharing, file transfer, and meetings. The usage data can be used to calculate return on investment (ROI) and the diagnostic data can be used to troubleshoot peer-to-peer activities and meetings.</span></span>
+<span data-ttu-id="c3fa1-p101">通話詳細記録 (CDR) は、インスタント メッセージング、ボイス オーバー IP (VoIP) 通話、アプリケーション共有、ファイル送信などのピアツーピア アクティビティ、および会議に関する使用状況および診断情報を記録します。使用状況データは投資収益率 (ROI) の計算に、診断データはピアツーピア アクティビティおよび会議のトラブルシューティングに使用できます。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-p101">Call detail recording (CDR) records usage and diagnostic information about peer-to-peer activities including instance messaging, Voice over Internet Protocol (VoIP) calls, application sharing, file transfer, and meetings. The usage data can be used to calculate return on investment (ROI) and the diagnostic data can be used to troubleshoot peer-to-peer activities and meetings.</span></span>
 
-<span data-ttu-id="2c73b-107">組織全体または組織内の各サイトで CDR を有効にするには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="2c73b-107">Use the following procedure to enable CDR for your whole organization or each site in your organization.</span></span>
+<span data-ttu-id="c3fa1-107">組織全体または組織内の各サイトで CDR を有効にするには、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-107">Use the following procedure to enable CDR for your whole organization or each site in your organization.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2c73b-108">CDR を有効にするには、監視および監視データベースを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="2c73b-108">In order to enable CDR you must configure monitoring and a monitoring database.</span></span> <span data-ttu-id="2c73b-109">詳細については、「[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2c73b-109">For details, see [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).</span></span>
+> <span data-ttu-id="c3fa1-108">CDR を有効にするには、監視および監視データベースを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-108">In order to enable CDR you must configure monitoring and a monitoring database.</span></span> <span data-ttu-id="c3fa1-109">詳細については、「[Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-109">For details, see [Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring).</span></span>
 
-### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a><span data-ttu-id="2c73b-110">Skype for Business Server コントロール パネルで CDR を有効にするには</span><span class="sxs-lookup"><span data-stu-id="2c73b-110">To enable CDR with Skype for Business Server Control Panel</span></span>
+### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a><span data-ttu-id="c3fa1-110">Skype for Business Server コントロール パネルで CDR を有効にするには</span><span class="sxs-lookup"><span data-stu-id="c3fa1-110">To enable CDR with Skype for Business Server Control Panel</span></span>
 
-1.  <span data-ttu-id="2c73b-111">RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="2c73b-111">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.</span></span>
+1.  <span data-ttu-id="c3fa1-111">RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-111">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Skype for Business Server.</span></span>
 
-2. <span data-ttu-id="2c73b-112">ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="2c73b-112">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
+2. <span data-ttu-id="c3fa1-112">ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-112">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span>
 
-3. <span data-ttu-id="2c73b-113">左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**通話詳細記録**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2c73b-113">In the left navigation bar, click **Monitoring and Archiving**, and then click **Call Detail Recording**.</span></span>
+3. <span data-ttu-id="c3fa1-113">左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**通話詳細記録**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-113">In the left navigation bar, click **Monitoring and Archiving**, and then click **Call Detail Recording**.</span></span>
 
-4. <span data-ttu-id="2c73b-114">[**通話詳細記録**] ページで、表から該当するサイトをクリックして、[**アクション**] をクリックし、[**CDR の有効化**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2c73b-114">On the **Call Detail Recording** page, click the appropriate site from the table, click **Action**, and then click **Enable CDR**.</span></span>
+4. <span data-ttu-id="c3fa1-114">[**通話詳細記録**] ページで、表から該当するサイトをクリックして、[**アクション**] をクリックし、[**CDR の有効化**] をクリックします。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-114">On the **Call Detail Recording** page, click the appropriate site from the table, click **Action**, and then click **Enable CDR**.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="2c73b-115">CDR は、既定では有効になっています。</span><span class="sxs-lookup"><span data-stu-id="2c73b-115">CDR is enabled by default.</span></span>
+    > <span data-ttu-id="c3fa1-115">CDR は、既定では有効になっています。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-115">CDR is enabled by default.</span></span>
 
-## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="2c73b-116">コマンドレットを使用して CDR をWindows PowerShellする</span><span class="sxs-lookup"><span data-stu-id="2c73b-116">Enabling CDR by using Windows PowerShell cmdlets</span></span>
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="c3fa1-116">複数のコマンドレットを使用して CDR をWindows PowerShellする</span><span class="sxs-lookup"><span data-stu-id="c3fa1-116">Enabling CDR by using Windows PowerShell cmdlets</span></span>
 
-<span data-ttu-id="2c73b-117">CDR を有効にするには、Windows PowerShell **Set-CsCdrConfiguration コマンドレットを使用** します。</span><span class="sxs-lookup"><span data-stu-id="2c73b-117">You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration** cmdlet.</span></span> <span data-ttu-id="2c73b-118">このコマンドレットは、Skype for Business Server 管理シェルまたは Skype for Business Server のリモート セッションから実行Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="2c73b-118">You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="2c73b-119">リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="2c73b-119">For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876).</span></span> <span data-ttu-id="2c73b-120">プロセスは Skype for Business Server でも同じです。</span><span class="sxs-lookup"><span data-stu-id="2c73b-120">The process is the same in Skype for Business Server.</span></span>
+<span data-ttu-id="c3fa1-117">CDR を有効にするには、Windows PowerShell **Set-CsCdrConfiguration コマンドレットを使用** します。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-117">You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration** cmdlet.</span></span> <span data-ttu-id="c3fa1-118">このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-118">You can run this cmdlet either from the Skype for Business Server Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="c3fa1-119">リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-119">For details about using remote Windows PowerShell to connect to Skype for Business Server, see the blog article ["Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876).</span></span> <span data-ttu-id="c3fa1-120">このプロセスは、Skype for Business Server でも同じです。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-120">The process is the same in Skype for Business Server.</span></span>
 
-### <a name="to-enable-cdr-for-a-single-location"></a><span data-ttu-id="2c73b-121">1 つの場所の CDR を有効にするには</span><span class="sxs-lookup"><span data-stu-id="2c73b-121">To enable CDR for a single location</span></span>
+### <a name="to-enable-cdr-for-a-single-location"></a><span data-ttu-id="c3fa1-121">1 つの場所の CDR を有効にするには</span><span class="sxs-lookup"><span data-stu-id="c3fa1-121">To enable CDR for a single location</span></span>
 
- <span data-ttu-id="2c73b-122">CDR を無効にするには、EnableCDR パラメーターを True ($True) に設定します。</span><span class="sxs-lookup"><span data-stu-id="2c73b-122">To disable CDR, set the EnableCDR parameter to True ($True).</span></span>
+ <span data-ttu-id="c3fa1-122">CDR を無効にするには、EnableCDR パラメーターを True ($True) に設定します。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-122">To disable CDR, set the EnableCDR parameter to True ($True).</span></span>
 
   ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $True
   ```
 
-### <a name="to-disable-cdr-for-a-single-location"></a><span data-ttu-id="2c73b-123">1 つの場所の CDR を無効にするには</span><span class="sxs-lookup"><span data-stu-id="2c73b-123">To disable CDR for a single location</span></span>
+### <a name="to-disable-cdr-for-a-single-location"></a><span data-ttu-id="c3fa1-123">1 つの場所の CDR を無効にするには</span><span class="sxs-lookup"><span data-stu-id="c3fa1-123">To disable CDR for a single location</span></span>
 
- <span data-ttu-id="2c73b-124">CDR を無効にするには、EnableCDR パラメーターを False ($False) に設定します。</span><span class="sxs-lookup"><span data-stu-id="2c73b-124">To disable CDR, set the EnableCDR parameter to False ($False).</span></span> <span data-ttu-id="2c73b-125">CDR を無効にしても、監視はアンインストールされない。</span><span class="sxs-lookup"><span data-stu-id="2c73b-125">Disabling CDR does not uninstall monitoring.</span></span> <span data-ttu-id="2c73b-126">CDR データの収集と保存を一時停止します。</span><span class="sxs-lookup"><span data-stu-id="2c73b-126">It pauses the collection and storage of CDR data.</span></span>
+ <span data-ttu-id="c3fa1-124">CDR を無効にするには、EnableCDR パラメーターを False ($False) に設定します。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-124">To disable CDR, set the EnableCDR parameter to False ($False).</span></span> <span data-ttu-id="c3fa1-125">CDR を無効にしても、監視はアンインストールされない。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-125">Disabling CDR does not uninstall monitoring.</span></span> <span data-ttu-id="c3fa1-126">CDR データの収集と保存を一時停止します。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-126">It pauses the collection and storage of CDR data.</span></span>
 
   ```PowerShell
   Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
-### <a name="to-use-a-single-command-to-enable-cdr-in-multiple-locations"></a><span data-ttu-id="2c73b-127">1 つのコマンドで複数の場所にある CDR を有効にするには</span><span class="sxs-lookup"><span data-stu-id="2c73b-127">To use a single command to enable CDR in multiple locations</span></span>
+### <a name="to-use-a-single-command-to-enable-cdr-in-multiple-locations"></a><span data-ttu-id="c3fa1-127">1 つのコマンドで複数の場所にある CDR を有効にするには</span><span class="sxs-lookup"><span data-stu-id="c3fa1-127">To use a single command to enable CDR in multiple locations</span></span>
 
- <span data-ttu-id="2c73b-128">このコマンドによって、組織で現在使用されているすべての CDR 構成設定の CDR が有効になります。</span><span class="sxs-lookup"><span data-stu-id="2c73b-128">This command enables CDR for all the CDR configuration settings currently in use in your organization.</span></span>
+ <span data-ttu-id="c3fa1-128">このコマンドによって、組織で現在使用されているすべての CDR 構成設定の CDR が有効になります。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-128">This command enables CDR for all the CDR configuration settings currently in use in your organization.</span></span>
 
   ```PowerShell
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-<span data-ttu-id="2c73b-129">詳細については [、Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="2c73b-129">For more information, see the help topic for the [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet.</span></span>
+<span data-ttu-id="c3fa1-129">詳細については [、Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="c3fa1-129">For more information, see the help topic for the [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) cmdlet.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2c73b-130">関連項目</span><span class="sxs-lookup"><span data-stu-id="2c73b-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c3fa1-130">関連項目</span><span class="sxs-lookup"><span data-stu-id="c3fa1-130">See also</span></span>
 
-[<span data-ttu-id="2c73b-131">監視の計画</span><span class="sxs-lookup"><span data-stu-id="2c73b-131">Planning for Monitoring</span></span>](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[<span data-ttu-id="c3fa1-131">監視の計画</span><span class="sxs-lookup"><span data-stu-id="c3fa1-131">Planning for Monitoring</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 
-[<span data-ttu-id="2c73b-132">監視の展開</span><span class="sxs-lookup"><span data-stu-id="2c73b-132">Deploying Monitoring</span></span>](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[<span data-ttu-id="c3fa1-132">監視の展開</span><span class="sxs-lookup"><span data-stu-id="c3fa1-132">Deploying Monitoring</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)
