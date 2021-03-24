@@ -1,5 +1,5 @@
 ---
-title: 音声ルーティングテスト ケースのテスト
+title: 音声ルーティングのテスト ケースのテスト
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,24 +15,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: c13299afbd065934b032282f739483c548562138
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a3dc3e6beb0eabe6f2fa48001b61fe81ba269ad1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819027"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099313"
 ---
 # <a name="test-voice-routing-test-cases"></a>音声ルーティングのテスト: テスト ケース
 
 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [音声ルーティング テスト ケースの作成](https://technet.microsoft.com/library/43a07a5b-2f20-462a-81e5-d628c18391e0.aspx)
+- [音声ルーティング テスト ケースの作成](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-voice-routing-test-case)
 
-- [音声ルーティング テスト ケースのエクスポート](https://technet.microsoft.com/library/489ac472-1a35-4755-b390-48f7cdf31e94.aspx)
+- [音声ルーティング テスト ケースのエクスポート](/previous-versions/office/lync-server-2013/lync-server-2013-export-voice-routing-test-cases)
 
-- [音声ルーティング テスト ケースのインポート](https://technet.microsoft.com/library/6546e24c-9ad2-428b-92b2-63948ed0f884.aspx)
+- [音声ルーティング テスト ケースのインポート](/previous-versions/office/lync-server-2013/lync-server-2013-import-voice-routing-test-cases)
 
-- [音声ルーティング テスト ケースの実行](https://technet.microsoft.com/library/fb4d32df-b9ea-4944-8cd7-a6102c78c465.aspx)
+- [音声ルーティング テスト ケースの実行](/previous-versions/office/lync-server-2013/lync-server-2013-run-voice-routing-test-cases)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
-
+Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。

@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48ec728921f545f4e8c383b16a9bc4e82c22b363
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918683"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101273"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -69,7 +69,7 @@ Teams の最高のエクスペリエンスを実現する場合、組織は Exch
 
 | 確認事項 | アクション |
 |--------------|--------|
-|Teams のミーティングの展開にネットワークが対応しているか? | ネットワークの対応状況を確認するには、次を参照してください。<ul><li>[Microsoft Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URL と IP アドレスの範囲](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Teams のミーティングの展開にネットワークが対応しているか? | ネットワークの対応状況を確認するには、次を参照してください。<ul><li>[Microsoft Teams 用に組織のネットワークを準備する](./prepare-network.md)</li><li>[URL と IP アドレスの範囲](./office-365-urls-ip-address-ranges.md)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
@@ -83,7 +83,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 | 確認事項 | アクション |
 |--------------|--------|
 |Teams 通信管理者の役割を誰に割り当てるか?|Teams 管理者の役割の詳細については、「[Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)」を参照してください。|
-|Teams 通信サポート エンジニアの役割を誰に割り当てるか?|管理者の役割を割り当てるには、「[Active Directory で管理者の役割と管理者以外の役割をユーザーに割り当てる](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)」を参照してください。|
+|Teams 通信サポート エンジニアの役割を誰に割り当てるか?|管理者の役割を割り当てるには、「[Active Directory で管理者の役割と管理者以外の役割をユーザーに割り当てる](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)」を参照してください。|
 |Teams 通信サポート スペシャリストの役割を誰に割り当てるか?||
 |||
 
@@ -119,7 +119,7 @@ Teams のミーティング エクスペリエンスを最適なものにする�
 | 確認事項 | アクション |
 |--------------|--------|
 |ユーザーのために個人用デバイスを購入するか? |「[Teams でのデバイスを管理する](devices/device-management.md)」を参照してください。 |
-|会議室に会議室システムのデバイスを購入して配備するか?|「[会議室のデバイスとソリューション](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」を参照してください。|
+|会議室に会議室システムのデバイスを購入して配備するか?|「[会議室のデバイスとソリューション](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)」を参照してください。|
 |||
 
 ### <a name="reporting"></a>レポート
@@ -181,7 +181,7 @@ Teams のライブ イベント ポリシーは、ユーザー グループの�
 
 | 確認事項 | アクション |
 |--------------|--------|
-| 会議室システムを展開するために何を実行する必要があるか?|[Plan Microsoft Teams ルーム](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)の記事をご確認ください。|
+| 会議室システムを展開するために何を実行する必要があるか?|[Plan Microsoft Teams ルーム](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)の記事をご確認ください。|
 |||
 
 ### <a name="cloud-video-interop"></a>クラウド ビデオ相互運用性

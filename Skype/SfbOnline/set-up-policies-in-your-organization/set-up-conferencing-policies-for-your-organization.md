@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 電話会議は Skype for Business Online の重要な部分です。電話会議により、ユーザーのグループがオンラインで一緒にスライドやビデオを表示したり、アプリケーションを共有したり、ファイルをやり取りしたり、連絡を取り合って共同作業することができるようになります。
-ms.openlocfilehash: 9a2e18ad23eaa08813c87e83058ecc0dcd1dfec1
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: f4c8831408ed5c17073456306c0f48add73161ff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569209"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100523"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>組織の電話会議ポリシーをセットアップする
 
@@ -45,7 +45,7 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
 
  > [!Note]
 > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリック リリースをご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
-1. Teams [PowerShell モジュールをインストールします](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。
+1. Teams [PowerShell モジュールをインストールします](/microsoftteams/teams-powershell-install)。
     
 2. コマンド プロンプトWindows PowerShellし、次のコマンドを実行します。 
 
@@ -56,7 +56,7 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   Windows PowerShell の起動の詳細については、「1 つの Windows PowerShell ウィンドウで[すべての Microsoft 365 または Office 365](https://technet.microsoft.com/library/dn568015.aspx)サービスに接続する」[](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)または「Windows PowerShell 用にコンピューターをセットアップする」を参照してください。
+   Windows PowerShell の起動の詳細については、「1 つの Windows PowerShell ウィンドウで[すべての Microsoft 365 または Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)サービスに接続する」[](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)または「Windows PowerShell 用にコンピューターをセットアップする」を参照してください。
       
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>会議中のファイル転送およびデスクトップ共有を禁止する
 
@@ -65,16 +65,16 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   [New-CsConferencingPolicy コマンドレットの詳細については、以下を参照](https://technet.microsoft.com/library/mt779148.aspx)してください。
+   [New-CsConferencingPolicy コマンドレットの詳細については、以下を参照](/powershell/module/skype/New-CsConferencingPolicy)してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与します。次を実行します。
    
    ```powershell
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
    ```
-   [Grant-CsConferencingPolicy コマンドレットの詳細については、以下を参照](https://technet.microsoft.com/library/mt779156.aspx)してください。
+   [Grant-CsConferencingPolicy コマンドレットの詳細については、以下を参照](/powershell/module/skype/Grant-CsConferencingPolicy)してください。
     
-  ポリシーを作成済みの場合は、[Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) コマンドレットを使用して設定をユーザーに適用します。
+  ポリシーを作成済みの場合は、[Set-CsConferencingPolicy](/powershell/module/skype/Set-CsConferencingPolicy) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsConferencingPolicy](/powershell/module/skype/Grant-CsConferencingPolicy) コマンドレットを使用して設定をユーザーに適用します。
   
 ### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>電話会議のレコーディングを禁止し、匿名ユーザーの会議参加者を防止する
 
@@ -83,16 +83,16 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   [New-CsConferencingPolicy コマンドレットの詳細については、以下を参照](https://technet.microsoft.com/library/mt779148.aspx)してください。
+   [New-CsConferencingPolicy コマンドレットの詳細については、以下を参照](/powershell/module/skype/New-CsConferencingPolicy)してください。
     
 - Amos Marble に作成した新しいポリシーを付与するには、次を実行します。
    
    ```powershell
     Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
    ```
-   [Grant-CsConferencingPolicy コマンドレットの詳細については、以下を参照](https://technet.microsoft.com/library/mt779156.aspx)してください。
+   [Grant-CsConferencingPolicy コマンドレットの詳細については、以下を参照](/powershell/module/skype/Grant-CsConferencingPolicy)してください。
     
-既にポリシーを作成している場合は [、Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) コマンドレットを使用して既存のポリシーを変更し [、Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) コマンドレットを使用して設定をユーザーに適用できます。
+既にポリシーを作成している場合は [、Set-CsConferencingPolicy](/powershell/module/skype/Set-CsConferencingPolicy) コマンドレットを使用して既存のポリシーを変更し [、Grant-CsConferencingPolicy](/powershell/module/skype/Grant-CsConferencingPolicy) コマンドレットを使用して設定をユーザーに適用できます。
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>匿名ユーザーの参加者による会議のレコーディングと、追加ユーザーによる会議の内容の保存を禁止する
 
@@ -101,7 +101,7 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   [New-CsConferencingPolicy コマンドレットの詳細については、以下を参照](https://technet.microsoft.com/library/mt779148.aspx)してください。
+   [New-CsConferencingPolicy コマンドレットの詳細については、以下を参照](/powershell/module/skype/New-CsConferencingPolicy)してください。
     
 - 作成した新しいポリシーを組織内のすべてのユーザーに付与するには、次を実行します。
     
@@ -110,25 +110,25 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
    ```
 
-[Grant-CsConferencingPolicy コマンドレットの詳細については、以下を参照](https://technet.microsoft.com/library/mt779156.aspx)してください。
+[Grant-CsConferencingPolicy コマンドレットの詳細については、以下を参照](/powershell/module/skype/Grant-CsConferencingPolicy)してください。
     
-ポリシーを作成済みの場合は、[Set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) コマンドレットを使用して設定をユーザーに適用します。
+ポリシーを作成済みの場合は、[Set-CsConferencingPolicy](/powershell/module/skype/Set-CsConferencingPolicy) コマンドレットを使用して、既存のポリシーに対する変更を行います。次に、[Grant-CsConferencingPolicy](/powershell/module/skype/Grant-CsConferencingPolicy) コマンドレットを使用して設定をユーザーに適用します。
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
 - Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell を使用すると、単一の管理ポイントを使用して Microsoft 365 または Office 365 と Skype for Business Online を管理できます。複数のタスクを実行する必要がある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Microsoft 365 または Windows PowerShell 365 の管理に使用する 6 Office理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 または Windows PowerShell 365 の管理に使用する 6 Office理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell多くのユーザーに対して同時に設定変更を行う場合など、Microsoft 365 管理センターのみを使用する場合と同様に、速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
+- Windows PowerShellは、多くのユーザーに対して同時に設定変更を行う場合など、Microsoft 365 管理センターを使用する場合に限って、速度、シンプルさ、生産性の点で多くの利点があります。 次のトピックでこれらの利点について説明します。
     
-  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Windows PowerShell による Skype for Business Online の管理](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="related-topics"></a>関連項目
 [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)
@@ -138,4 +138,3 @@ Skype for Business Online では、電話会議は電話会議ポリシーを使
 [組織のクライアント ポリシーをセットアップする](set-up-client-policies-for-your-organization.md)
 
   
- 

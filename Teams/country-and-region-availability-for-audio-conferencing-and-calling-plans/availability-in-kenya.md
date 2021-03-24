@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 次に、Microsoft 365 と、ケニアで利用可能な Skype for Business および Microsoft Teams 用の Office 365 サービスを示します。
-ms.openlocfilehash: 87d93c2de04730289272b99f34fa68c1cf7dbb14
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
+description: ここでは、ケニアで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを紹介します。
+ms.openlocfilehash: ef439f1808e99d83dbe0cc3b08c6484c8baa79e6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44231116"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101383"
 ---
 # <a name="availability-in-kenya"></a>ケニアでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-次に、Microsoft 365 と、ケニアで利用可能な Skype for Business および Microsoft Teams 用の Office 365 サービスを示します。
+ここでは、ケニアで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを紹介します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -51,7 +51,7 @@ ms.locfileid: "44231116"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話システムは購入できますか?  <br/> |はい  <br/> |
-| 自動応答 <br/> |連絡可能  <br/> |
+| 自動応答 <br/> |利用可能  <br/> |
 |通話キュー  <br/> |利用可能  <br/> |
 |ボイスメール  <br/> |連絡可能  <br/> |
    
@@ -63,17 +63,17 @@ ms.locfileid: "44231116"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、[電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
+通話プランを購入できない場合は、電話システム ダイレクト [ルーティングの使用を検討してください](../direct-routing-landing-page.md)。 直接ルーティングを使用すると、事実上すべてのテレフォニー通信事業者で電話システムを使用できます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |ナイロビ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
-|有料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |ナロブナ ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|有料電話番号は使用できますか?  <br/> |○ ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。
+ 電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)」をご覧ください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -85,10 +85,8 @@ ms.locfileid: "44231116"
   
 ## <a name="related-topics"></a>関連項目
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 
-

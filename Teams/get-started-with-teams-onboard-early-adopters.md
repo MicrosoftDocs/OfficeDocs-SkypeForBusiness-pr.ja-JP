@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8062b0f1ada28289b2a6c62dc6a29c3b6cf1f751
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0c85d22179887fa797bb91fedbc0e5ec40b08a03
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809497"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101193"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Microsoft Teams に早期導入者を参加させる
 
@@ -55,7 +55,7 @@ Teams には、デスクトップ用 (Windows および Mac)、Web 用、およ�
 
 ### <a name="desktop-client"></a>デスクトップ クライアント
 
-Teams のデスクトップ クライアントは Windows ユーザーと Mac ユーザーに、すべてにおいて最高のエクスペリエンスを提供します。 詳細については、「[Teams のクライアントを取得する (デスクトップ クライアント)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client)」および「[Microsoft Teams アプリのハードウェア要件](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app)」を参照してください。
+Teams のデスクトップ クライアントは Windows ユーザーと Mac ユーザーに、すべてにおいて最高のエクスペリエンスを提供します。 詳細については、「[Teams のクライアントを取得する (デスクトップ クライアント)](./get-clients.md#desktop-client)」および「[Microsoft Teams アプリのハードウェア要件](./hardware-requirements-for-the-teams-app.md)」を参照してください。
 
 > [!NOTE]
 > 管理者は、Microsoft Endpoint Configuration Manager (Windows) や Jamf Pro (macOS) など、インストール ファイルを組織内のコンピューターに配布する方法を選択できます。
@@ -84,7 +84,7 @@ Teams には、さまざまなブラウザーをサポートする、豊富な�
 
 ### <a name="mobile-client"></a>モバイル クライアント
 
-iOS および Android 用の Teams モバイル クライアントは、外出先でもユーザーとの接続性と生産性を維持します。 詳細については、「[Teams のクライアントを取得する (モバイル クライアント)](https://docs.microsoft.com/MicrosoftTeams/get-clients#mobile-clients)」を参照してください。
+iOS および Android 用の Teams モバイル クライアントは、外出先でもユーザーとの接続性と生産性を維持します。 詳細については、「[Teams のクライアントを取得する (モバイル クライアント)](./get-clients.md#mobile-clients)」を参照してください。
 
 #### <a name="teams-for-ios"></a>iOS 用 Teams 
 

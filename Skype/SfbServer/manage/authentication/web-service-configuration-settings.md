@@ -13,26 +13,26 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: '概要: Skype for Business Server で Web サービス構成設定を管理します。'
-ms.openlocfilehash: 68abe01614902d5e6f4c58040b30b6afbd475df8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d79e0567790f10dd86c68f64d7bde54d3540b44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806497"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099173"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server での Web サービス構成設定の管理
  
 **概要:** Skype for Business Server で Web サービス構成設定を管理します。
   
-[Web サービス] **ページを使用** して、Skype for Business Server 関連の Web サーバーおよび Web サービスにアクセスする認証方法を構成できます。
+Web サービス ページ **を使用して** 、Skype for Business Server 関連の Web サーバーおよび Web サービスにアクセスする認証方法を構成できます。
   
 以下の手順に従って新しい Web サービス ポリシーを作成します。
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>新しい Web サービス構成設定を作成するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**Web サービス**] をクリックします。
     
@@ -54,17 +54,17 @@ ms.locfileid: "49806497"
     
 7. [**確定**] をクリックします。
     
-## <a name="modify-existing-web-service-configuration-settings"></a>既存の Web サービス構成設定を変更する
+## <a name="modify-existing-web-service-configuration-settings"></a>既存の Web サービス構成設定の変更
 
-[Web サービス] **ページを使用** して、Skype for Business Server 関連の Web サーバーおよび Web サービスにアクセスする認証方法を構成できます。
+Web サービス ページ **を使用して** 、Skype for Business Server 関連の Web サーバーおよび Web サービスにアクセスする認証方法を構成できます。
   
 既存の Web サービス ポリシーを変更するには、次の手順を実行します。
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>既存の Web サービス構成設定を変更するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**Web サービス**] をクリックします。
     
@@ -82,15 +82,15 @@ ms.locfileid: "49806497"
     
 7. [**確定**] をクリックします。
     
-## <a name="delete-existing-web-service-configuration-settings"></a>既存の Web サービス構成設定を削除する
+## <a name="delete-existing-web-service-configuration-settings"></a>既存の Web サービス構成設定の削除
 
 Web サービス構成設定を削除するには、次の手順を実行します。
   
 ### <a name="to-delete-web-service-configuration-settings"></a>Web サービス構成設定を削除するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**Web サービス**] をクリックします。
     
@@ -128,6 +128,4 @@ Web サービス構成設定を削除するには、Windows PowerShell **Remove-
   Get-CsWebServiceConfiguration | Where-Object {$_.UseCertificateAuth -eq $True} | Remove-CsWebServiceConfiguration
   ```
 
-詳細については [、「Remove-CsWebServiceConfiguration」を参照してください](https://docs.microsoft.com/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps)。
-  
-
+詳細については [、「Remove-CsWebServiceConfiguration」を参照してください](/powershell/module/skype/remove-cswebserviceconfiguration?view=skype-ps)。

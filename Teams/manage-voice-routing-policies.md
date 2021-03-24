@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で音声ルーティング ポリシーを作成および管理する方法について説明します。
-ms.openlocfilehash: 00b70363f0034ebc8d99aa59e037658e406af2a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ac856ef05d425208af43307ebe12ff0c4776ca51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802557"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101073"
 ---
 # <a name="manage-voice-routing-policies-in-microsoft-teams"></a>Microsoft Teams で音声ルーティング ポリシーを管理する
 
@@ -30,9 +30,9 @@ ms.locfileid: "49802557"
 
 音声ルーティング ポリシーは、PSTN 使用状況レコードのコンテナーです。 音声ルーティング ポリシーを作成および管理するには、Microsoft Teams 管理センターで音声ルーティング ポリシーに移動するか、または  >  Windows PowerShell。
 
-グローバル (組織全体の既定) ポリシーを使用するか、カスタム ポリシーを作成して割り当てできます。 カスタム ポリシーを作成して割り当てない限り、ユーザーは自動的にグローバル ポリシーを取得します。 グローバル ポリシーの設定は編集できますが、名前の変更や削除はできないので、ご安心ください。
+グローバル (組織全体の既定) ポリシーを使用ことも、カスタム ポリシーを作成して割り当てることもできます。 カスタム ポリシーを作成して割り当てない限り、ユーザーは自動的にグローバル ポリシーを取得します。 グローバル ポリシーの設定は編集できますが、名前の変更や削除はできないので、ご安心ください。
 
-ユーザーに音声ルーティング ポリシーを割り当てると、Teams で PSTN 通話を発信できないという点を知る必要があります。 また、ユーザーが電話システムダイレクト ルーティングを有効にし、その他の構成手順を完了する必要があります。 詳細については、「ダイレクト ルーティングの [構成」を参照してください](direct-routing-configure.md)。
+ユーザーに音声ルーティング ポリシーを割り当てると、Teams で PSTN 通話を発信できないという点に気を付けすることが重要です。 また、ユーザーが電話システムダイレクト ルーティングを有効にし、その他の構成手順を完了する必要があります。 詳細については、「ダイレクト ルーティングの [構成」を参照してください](direct-routing-configure.md)。
 
 ## <a name="create-a-custom-voice-routing-policy"></a>カスタム音声ルーティング ポリシーを作成する
 
@@ -41,14 +41,14 @@ ms.locfileid: "49802557"
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[**音声** ルーティング ポリシー] に移動し、[追加] を  >  クリック **します**。<br>
     ![Microsoft Teams 管理センターの [音声ルーティング ポリシーの追加] ページのスクリーンショット ](media/manage-voice-routing-policies.png) 
 2. ポリシーの名前と説明を入力します。
-3. **[PSTN 使用状況レコード] で**、[PSTN 使用状況の追加]**をクリック** し、追加するレコードを選択します。 新しい PSTN 使用状況レコードを作成する必要がある場合は、[追加] を **クリックします**。
+3. **[PSTN 使用状況レコード] で****、[PSTN** 使用状況の追加] をクリックし、追加するレコードを選択します。 新しい PSTN 使用状況レコードを作成する必要がある場合は、[追加] をクリック **します**。
 4. 複数の PSTN 使用状況レコードを追加した場合は、必要な順序で配置します。
 5. 完了したら、[適用] を **クリックします**。
 6. **[保存]** をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[New-CsOnlineVoiceRoutingPolicy を参照してください](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)。
+[New-CsOnlineVoiceRoutingPolicy を参照してください](/powershell/module/skype/new-csonlinevoiceroutingpolicy)。
 
 ## <a name="edit-a-voice-routing-policy"></a>音声ルーティング ポリシーを編集する
 
@@ -62,13 +62,13 @@ ms.locfileid: "49802557"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[「Set-CsOnlineVoiceRoutingPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceroutingpolicy)。
+[「Set-CsOnlineVoiceRoutingPolicy」を参照してください](/powershell/module/skype/set-csonlinevoiceroutingpolicy)。
 
 ## <a name="assign-a-custom-voice-routing-policy-to-users"></a>カスタム音声ルーティング ポリシーをユーザーに割り当てる
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-[Grant-CsOnlineVoiceRoutingPolicy も参照してください](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。
+[Grant-CsOnlineVoiceRoutingPolicy も参照してください](/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。
 
 ## <a name="related-topics"></a>関連項目
 

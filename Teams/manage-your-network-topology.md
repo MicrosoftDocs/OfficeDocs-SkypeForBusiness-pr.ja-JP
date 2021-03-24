@@ -19,12 +19,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でクラウド音声機能のネットワーク設定を構成する方法について説明します。
-ms.openlocfilehash: 7d8bc7f06934134538fca59a3f19285d97756e2f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c77f1e6d31953ce529bff1fab6aa16e1d889e29f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802577"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101063"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams でクラウド音声機能のネットワーク トポロジを管理する
 
@@ -36,7 +36,7 @@ ms.locfileid: "49802577"
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-ネットワーク トポロジ ページの [ネットワーク サイト] タブで、ネットワーク領域、ネットワーク サイト、サブネット **を定義** します。 ここでは、ネットワーク サイトを作成または変更したり、サイトをネットワーク領域に関連付け、サブネットをサイトに関連付け、場所ベースのルーティングを有効にしたり、緊急ポリシーをサイトに割り当てすることができます。 また、すべてのサイトでグローバルに使用できるネットワーク領域を追加できます。
+ネットワーク トポロジ ページの [ネットワーク サイト] タブで、ネットワーク領域、ネットワーク サイト、サブネット **を定義** します。 ここでは、ネットワーク サイトを作成または変更したり、サイトをネットワーク領域に関連付け、サブネットをサイトに関連付け、場所に基づくルーティングを有効にしたり、緊急ポリシーをサイトに割り当てすることができます。 また、すべてのサイトでグローバルに使用できるネットワーク領域を追加できます。
 
 #### <a name="add-and-configure-a-network-site"></a>ネットワーク サイトを追加および構成する
 
@@ -67,7 +67,7 @@ ms.locfileid: "49802577"
 
 #### <a name="add-a-trusted-ip-address"></a>信頼できる IP アドレスを追加する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで **、Locations** Network トポロジに移動し、[信頼済み  >  **IPS] タブをクリック** します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで **、Locations** Network トポロジに移動し、[信頼できる  >  **IPs] タブをクリック** します。
 2. [**新規**] をクリックします。
 3. [信頼 **できる IP** アドレスの追加] ウィンドウで、IP バージョン、IP アドレス、ネットワーク範囲を指定し、説明を追加して、[適用] をクリック **します**。
 
@@ -75,7 +75,7 @@ ms.locfileid: "49802577"
 
 #### <a name="edit-a-trusted-ip-address"></a>信頼できる IP アドレスを編集する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで **、Locations** Network トポロジに移動し、[信頼済み  >  **IPS] タブをクリック** します。
+1. Microsoft Teams 管理センターの左側のナビゲーションで **、Locations** Network トポロジに移動し、[信頼できる  >  **IPs] タブをクリック** します。
 2. IP アドレスの左側をクリックして選び、[編集] をクリック **します**。
 3. [信頼 **できる IP アドレスの編集** ] ウィンドウで、必要な変更を行い、[適用] をクリック **します**。
 
@@ -85,28 +85,29 @@ ms.locfileid: "49802577"
 
 ### <a name="define-network-regions"></a>ネットワーク領域を定義する
 
- [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion)コマンドレットを使用して、ネットワーク領域を定義します。 RegionID パラメーターは地域の地理を表す論理名であり、依存関係や制限はありません。CentralSite サイト ID パラメーターは &lt; &gt; 省略可能です。
+ [New-CsTenantNetworkRegion](/powershell/module/skype/New-CsTenantNetworkRegion)コマンドレットを使用して、ネットワーク領域を定義します。 RegionID パラメーターは地域の地理を表す論理名であり、依存関係や制限はありません。CentralSite サイト ID パラメーターは &lt; &gt; 省略可能です。
 
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
 この例では、India という名前のネットワーク領域を作成します。
+
 ```PowerShell
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
 
-[「Set-CsTenantNetworkRegion」も参照してください](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworkregion)。
+[「Set-CsTenantNetworkRegion」も参照してください](/powershell/module/skype/set-cstenantnetworkregion)。
 
 ### <a name="define-network-sites"></a>ネットワーク サイトを定義する
 
-[New-CsTenantNetworkSite コマンドレットを使用](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps)して、ネットワーク サイトを定義します。 各ネットワーク サイトは、ネットワーク領域に関連付けられている必要があります。
+[New-CsTenantNetworkSite コマンドレットを使用](/powershell/module/skype/new-cstenantnetworksite?view=skype-ps)して、ネットワーク サイトを定義します。 各ネットワーク サイトは、ネットワーク領域に関連付けられている必要があります。
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
-この例では、インド地域に Delhi と 2 つの新しいネットワーク サイト (Delhi と領域) を作成します。
+この例では、インド地域に 2 つの新しいネットワーク サイト 、Delhi と領域を作成します。
 
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
@@ -120,11 +121,11 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 |サイト ID    |    サイト 1 (Delhi)     |  サイト 2 (一時使用数)       |
 |地域 ID  |     地域 1 (インド)    |   地域 1 (インド)      |
 
-[「Set-CsTenantNetworkRegion」も参照してください](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite)。
+[「Set-CsTenantNetworkRegion」も参照してください](/powershell/module/skype/set-cstenantnetworksite)。
 
 ### <a name="define-network-subnets"></a>ネットワーク サブネットを定義する
 
-[New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)コマンドレットを使用して、ネットワーク サブネットを定義し、ネットワーク サイトに関連付ける。 各ネットワーク サブネットは、1 つのサイトにのみ関連付けできます。
+[New-CsTenantNetworkSubnet](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)コマンドレットを使用して、ネットワーク サブネットを定義し、ネットワーク サイトに関連付ける。 各ネットワーク サブネットは、1 つのサイトにのみ関連付けできます。
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
@@ -151,7 +152,7 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
 
-この例では、CSV ファイルは次のようになります。 
+この例では、CSV ファイルは次のようになります。
 
 ```console
 Identity, Mask, SiteID
@@ -161,11 +162,13 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 
-[「Set-CsTenantNetworkSubnet」も参照してください](hhttps://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksubnet)。
+
+[「Set-CsTenantNetworkSubnet」も参照してください](/powershell/module/skype/set-cstenantnetworksubnet)。
+
 
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>外部サブネット (外部信頼済み IP アドレス) を定義する
 
-[New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps)コマンドレットを使用して、外部サブネットを定義し、テナントに割り当てる。 テナントに対して定義できる外部サブネットの数に制限はありません。
+[New-CsTenantTrustedIPAddress](/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps)コマンドレットを使用して、外部サブネットを定義し、テナントに割り当てる。 テナントに対して定義できる外部サブネットの数に制限はありません。
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
@@ -177,7 +180,7 @@ New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet 
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 
-[「Set-CsTenantTrustedIPAddress」も参照してください](https://docs.microsoft.com/powershell/module/skype/set-cstenanttrustedipaddress)。
+[「Set-CsTenantTrustedIPAddress」も参照してください](/powershell/module/skype/set-cstenanttrustedipaddress)。
 
 ## <a name="related-topics"></a>関連項目
 

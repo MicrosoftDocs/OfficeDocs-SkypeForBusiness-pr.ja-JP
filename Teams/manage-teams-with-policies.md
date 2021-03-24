@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f06e9aa87cc0c1af758bf0c8c9abad6641debbd
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460497"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101103"
 ---
 # <a name="manage-teams-with-policies"></a>ポリシーを使用して Teams を管理する
 
@@ -40,7 +40,7 @@ ms.locfileid: "50460497"
 
 ## <a name="how-to-manage-policies"></a>ポリシーを管理する方法
 
-ポリシーは、Microsoft Teams 管理センターまたは [PowerShell を使用して管理されます](https://docs.microsoft.com/microsoftteams/teams-powershell-managing-teams#manage-policies-via-powershell)。
+ポリシーは、Microsoft Teams 管理センターまたは [PowerShell を使用して管理されます](./teams-powershell-managing-teams.md#manage-policies-via-powershell)。
 
 たとえば、アプリセットアップ ポリシーを使用すると、ユーザーがカスタム アプリをアップロードし、ユーザーの代わりにアプリをインストールし、アプリを Teams アプリ バーにピン留めすることができます。 これらのポリシーは、Teams 管理センターで構成されます。
 
@@ -68,7 +68,7 @@ ms.locfileid: "50460497"
 [アプリ ポリシー](app-policies.md)| アプリ ポリシーは、Microsoft Teams でアプリケーションを制御するために使用されます。 管理者は、ユーザーがインストールできるアプリを許可またはブロックしたり、ユーザーの Teams アプリ バーにアプリケーションをピン留めしたり、ユーザーの代わりにアプリケーションをインストールすることができます。
 [メッセージング ポリシー](messaging-policies-in-teams.md)| メッセージング ポリシーは、チャットとチャネル機能の可用性を制御します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 * [Microsoft Teams でフィードバック ポリシーを管理する](manage-feedback-policies-in-teams.md)
 * [Microsoft Teams でチーム ポリシーを管理する](teams-policies.md)

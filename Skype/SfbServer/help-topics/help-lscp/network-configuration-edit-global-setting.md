@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 7c5205a7d09b48c3cca8daf9361b1c417e49f544
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6605f23a59106ed9ebba2f7c54b3ced471fc839f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803907"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099613"
 ---
 # <a name="network-configuration-edit-global-setting"></a>ネットワーク構成: グローバル設定の編集
 
 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [通話受付管理の有効化](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [通話受付管理の有効化](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-call-admission-control)
 
-- [メディア バイパスの有効化](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+- [メディア バイパスの有効化](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-network-media-bypass)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
-
+Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。

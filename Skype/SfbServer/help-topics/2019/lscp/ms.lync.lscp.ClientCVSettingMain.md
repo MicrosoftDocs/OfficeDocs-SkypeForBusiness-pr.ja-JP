@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 現在の環境でサポートするクライアントのバージョンのほか、バージョン ポリシーが定義されていないクライアントの既定のアクションも指定できます。これにより、現在の環境で使用するクライアント バージョンを制限し、複数のクライアント バージョンをサポートすることで発生するコストを制御できます。
-ms.openlocfilehash: d2d2a18928a31d136b52a90852836db93c01ffc4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 69d8c15688e6afce2f1e92cebc20ad8fb6bc7464
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812317"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100653"
 ---
 # <a name="client-version-configuration"></a>クライアント バージョンの構成
 
@@ -30,7 +30,7 @@ ms.locfileid: "49812317"
 
 [**クライアント バージョンの構成**] ページでは、次のタスクを実行できます。
 
-- 既定の (グローバル) **クライアント バージョン** の構成を編集します。
+- 既定の (グローバル) **クライアント** バージョンの構成を編集します。
 
 - 特定のサイトのクライアント バージョン構成を作成します。
 
@@ -43,17 +43,16 @@ ms.locfileid: "49812317"
 
 以下は、ページ上のメニュー、コマンド、フィールド、およびプロパティについての説明です。
 
-- **新規** 特定のサイトのクライアント バージョン構成を作成できます。
+- **New** 特定のサイトのクライアント バージョン構成を作成できます。
 
-- **編集** 任意のクライアント バージョン ポリシーのオプションを変更できます。 このオプションを使用すると、次の操作を実行できます。
+- **編集** クライアント バージョン ポリシーのオプションを変更できます。 このオプションを使用すると、次の操作を実行できます。
 
-  - **詳細の表示** このオプションを選択すると、クライアント バージョン構成のオプションを変更できるダイアログ ボックスが開きます。
+  - **詳細の表示** このオプションは、クライアント バージョン構成のオプションを変更できるダイアログ ボックスを開きます。
 
-  - **すべて選択** このオプションは、一覧内のすべてのクライアント バージョン構成を選択します。
+  - **[すべて選択]** このオプションは、リスト内のすべてのクライアント バージョン構成を選択します。
 
-  - **削除** このオプションでは、選択したクライアント バージョン構成はすべて削除されます。
+  - **削除** このオプションは、選択したクライアント バージョン構成をすべて削除します。
 
 - **更新** クライアント バージョン構成リストを更新して、すべてのクライアント バージョン構成のオプションの状態を確認できます。
 
-クライアントとクライアント バージョン間の相互運用性の詳細については、「計画」のドキュメントの「 [クライアント](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) の相互運用性」を参照してください。 クライアント バージョンの構成を扱う処理の詳細については、「操作」のドキュメントの「[Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx)」を参照してください。
-
+クライアントとクライアント バージョン間の相互運用性の詳細については、「計画」のドキュメントの [「クライアント相互](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 運用性」を参照してください。 クライアント バージョンの構成を扱う処理の詳細については、「操作」のドキュメントの「[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)」を参照してください。

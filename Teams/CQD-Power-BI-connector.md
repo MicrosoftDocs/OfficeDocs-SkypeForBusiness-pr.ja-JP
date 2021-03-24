@@ -14,13 +14,13 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 通話品質ダッシュボード (CQD) クエリ テンプレートを使用するために Power BI Connector をインストールする
-ms.openlocfilehash: 188e030d4f1ef6eaff21bef83a09c22d29bb51c5
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+description: Power BI Connector をインストールして通話品質ダッシュボード (CQD) クエリ テンプレートを使用する
+ms.openlocfilehash: 7af8da203eb6a69bf5db443444c0ca35eff9bb70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875037"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101523"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Power BI Connector をインストールして CQD クエリ テンプレートを使用する
 
@@ -28,20 +28,20 @@ Microsoft Teams 通話品質ダッシュボード (CQD) 用の Power BI クエ�
 
 これらの [テンプレートの詳細については、「Power BI を使用して Teams の CQD](CQD-Power-BI-query-templates.md) データを分析する」を参照してください。
 
-Power BI レポートにアクセスするには [、適切な CQD](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) アクセスロールを持っている必要があります。
+Power BI レポートにアクセスするには [、適切な CQD](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) アクセスロールを持っている必要があります。
 
 > [!NOTE]
 > CQD Power BI Connector は Power BI の DirectQuery のみをサポートします。インポート モードはサポートされていません。 
 
 ## <a name="installation"></a>インストール
 
-カスタム コネクタをインストールし、コネクタの使用を有効にするようにセキュリティを調整するプロセスについては [、Power BI ドキュメントで詳しく説明します](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)。 わかりやすくするために、簡単な説明を次に示します。
+カスタム コネクタをインストールし、コネクタの使用を有効にするようにセキュリティを調整するプロセスについては [、Power BI ドキュメントで詳しく説明します](/power-bi/desktop-connector-extensibility)。 わかりやすくするために、簡単な説明を次に示します。
 
-1. コンピューターに既に *\[ Documents \] \\ Power BI Desktop \\ Custom Connectors フォルダーが存在していないか確認* します。 表示されない場合は、このフォルダーを作成します。<sup>1</sup>
+1. コンピューターに既に *\[ Documents \] \\ Power BI Desktop \\ Custom Connectors フォルダーが存在していないか確認* します。 ない場合は、このフォルダーを作成します。<sup>1</sup>
 
 2. コネクタ ファイル *\* (.mez* または *\* .pグループ* ファイル) をダウンロードし、カスタム コネクタ ディレクトリ *に配置* します。
 
-3. **コネクタ ファイルが *\* .mez*** ファイルの場合は、カスタム コネクタセットアップ ドキュメントの説明に従ってセキュリティ設定 [を調整する必要があります](https://docs.microsoft.com/power-bi/desktop-connector-extensibility#data-extension-security)。
+3. **コネクタ ファイルが *\* .mez*** ファイルの場合は、カスタム コネクタセットアップドキュメントの説明に従ってセキュリティ設定 [を調整する必要があります](/power-bi/desktop-connector-extensibility#data-extension-security)。
 
 この Power BI Connector for Microsoft Teams の新しいバージョンがリリースされた場合は、 *カスタム* コネクタ ディレクトリの古いコネクタ ファイルを新しいファイルに置き換えるだけで済む。
 
@@ -59,13 +59,13 @@ Power BI レポートにアクセスするには [、適切な CQD](https://docs
 
 3. 次にサインインするように求めるメッセージが表示されます。 CQD に使用する資格情報と同じ資格情報を使用します。<sup>2</sup>
 
-4. 次のプロンプトでは、2 つのデータ接続モード *間のオプションが表示されます*。 *DirectQuery を選択し**、[OK] をクリックします*。
+4. 次のプロンプトでは、2 つのデータ接続モード *間のオプションが表示されます*。 DirectQuery *を選択し**、[OK] をクリックします*。
 
 5. 最後に、CQD のデータ モデル全体を示す最終的なプロンプトが表示されます。 この時点ではデータは表示されません。CQD のデータ モデルのみ表示されます。 [読 *み込み]* を選び、セットアップ プロセスを完了します。
 
 6. この時点で、Power BI はデータ モデルをウィンドウの右側に読み込む必要があります。 それ以外の場合、ページは空白のままで、既定ではクエリは読み込まれません。 クエリを **作成してデータを返** す場合は、以下のクエリの作成に進みます。
 
-このセットアップ プロセス中の手順が完全にクリアされていない場合は、「クイック スタート: Power BI Desktop でデータに接続する」でプロセスの詳細な説明を [確認できます](https://docs.microsoft.com/power-bi/desktop-quickstart-connect-to-data)。
+このセットアップ プロセス中の手順が完全にクリアされていない場合は、「クイック スタート: Power BI Desktop でデータに接続する」でプロセスの詳細な説明を [参照してください](/power-bi/desktop-quickstart-connect-to-data)。
 
 ## <a name="building-queries"></a>クエリの作成
 
@@ -82,7 +82,7 @@ Power BI レポートにアクセスするには [、適切な CQD](https://docs
     > [!IMPORTANT]
     > 通話品質ダッシュボードでは、クエリを実行するためのメジャーが必要です。 クエリにメジャーを追加できなかった場合、クエリは失敗します。
 
-3. 次に、フィルターを適用するディメンションを選択し、[フィルター]ウィンドウのこのビジュアル フィールドの [フィルター] に *ドラッグ* します。 現在、CQD Power BI Connector では、基本フィルター処理 (使用可能なディメンション値の一覧から値を選択する)、高度な *フィルター処理*(Advanced CQD と同様に、フィルター処理する値とオペランドを手動で指定)、および相対日付フィルター *(終了* 時刻と開始時刻のディメンションでのみ使用できます) がサポートされています。  上位 N 位に *従った* フィルター処理は、CQD ではサポートされていません。
+3. 次に、フィルターを適用するディメンションを選択し、[フィルター]ウィンドウのこのビジュアル フィールドの [フィルター] に *ドラッグ* します。 現在、CQD Power BI Connector では、基本的なフィルター処理 (可能なディメンション値の一覧から値を選択する)、高度な *フィルター処理*(Advanced CQD と同様に、フィルター処理する値とオペランドを手動で指定)、および相対日付フィルター *(終了* 時刻と開始時刻のディメンションでのみ使用できます) がサポートされています。  上位 N 位に *従った* フィルター処理は、CQD ではサポートされていません。
 
     ![スクリーンショット: Power BI Connector](media/CQD-power-bi-connector5-resize.png)
 
@@ -93,7 +93,7 @@ Power BI レポートにアクセスするには [、適切な CQD](https://docs
 
 ## <a name="creating-a-drillthrough-report"></a>ドリルスルー レポートを作成する
 
-[Power BI のドリル](https://docs.microsoft.com/power-bi/desktop-drillthrough) スルーを使用すると、他のレポートの値をコンテキストとして使用してすばやくフィルター処理できる、絞り込みレポートを作成できます。 CQD Connector を使用して最初のクエリを作成する方法を確認したら、ドリルスルーの作成はさらに簡単です。
+[Power BI のドリル](/power-bi/desktop-drillthrough) スルーを使用すると、他のレポートの値をコンテキストとして使用してすばやくフィルター処理できる、集中レポートを作成できます。 CQD Connector を使用して最初のクエリを作成する方法を確認したら、ドリルスルーの作成はさらに簡単です。
 
 1. フォーカスされたレポート用に別のページを作成し、そのページにクエリを追加します。
 
@@ -101,7 +101,7 @@ Power BI レポートにアクセスするには [、適切な CQD](https://docs
 
     ![スクリーンショット: Power BI Connector](media/CQD-power-bi-connector6-resize.png)
 
-3. **それです\!** そのディメンションを使用する別のページのクエリで、そのページにドリルスルーが実行され、フィルターとしてドリルスルー ディメンションの値が自動的に適用されます。
+3. **それです\!** そのディメンションを使用する別のページの他のクエリで、そのページにドリルスルーが実行され、フィルターとしてドリルスルー ディメンションの値が自動的に適用されます。
 
     ![スクリーンショット: Power BI Connector](media/CQD-power-bi-connector7-resize.png)
 
@@ -125,7 +125,7 @@ Power BI を使用しているにもかかわらず、CQD データ モデルま
 
 5. **相対データ フィルタリング –** CQD コネクタではサポートされますが、開始時刻と終了時刻のディメンション *でのみサポート* されます。 日付ディメンション *は* 、相対的な日付のフィルター処理には明らかな選択肢ですが、 *日付* は日付時刻オブジェクトとして保存されないので、Power BI での相対的な日付フィルターはサポートされません。
 
-6. **Government Community Cloud (GCC) のサポート –** GCC 環境のお客様の場合、CQD Power BI Connector は Power BI Desktop を使用するときに動作します。 CQD Power BI コネクタは、GCC ユーザー向け Power BI サービスと互換性があります。
+6. **Government Community Cloud (GCC) のサポート –** GCC 環境のお客様の場合、CQD Power BI Connector は Power BI Desktop を使用するときに動作します。 CQD Power BI コネクタは、GCC のお客様向け Power BI サービスと互換性があります。
 
 これらの問題の多くが、Power BI の DirectQuery コネクタ設計に対する制限か、CQD データ モデルの設計の基礎のいずれかです。
 
@@ -135,7 +135,7 @@ Power BI を使用しているにもかかわらず、CQD データ モデルま
 
 > **OLE** DB または ODBC エラーのデータを読み込む必要があります: [Expression.Error] データ ソースに式を折りたたむ必要があります。 簡単な式をお試しください。
 
-日付スライサーは、Power BI Connector ではサポートされていません。 日付範囲を指定するには、2 つのフィルターをレポートに適用し、日付より小さいフィルターと日付より大きいフィルターを指定します。
+日付スライサーは、Power BI Connector ではサポートされていません。 日付範囲を指定するには、2 つ以上のフィルターをレポートに適用します。
 
 または、表示する日付が新しい場合は、相対的な日付フィルターを適用して、最後の N 日間/週/月のデータのみを表示します。
 
@@ -149,13 +149,13 @@ CQD Power BI Connector は、作成できるクエリの種類に関してブラ
 
   - **ErrorType 5 - 実行タイムアウト:** クエリは、タイム アウトの前に可能な限り最大のランタイムに達しました。クエリの範囲を制限するために、クエリにさらにフィルターを追加してみてください。 多くの場合、データ範囲を絞り込むのが最も効果的な方法です。
 
-  - **ErrorType 7 - 寸法エラーなし:** CQD クエリを機能するには、メジャーが必要です。 クエリにメジャーが含まれるか確認します。 CQD Connector のメジャーは、名前の前に集計 (合計) 記号で示されます。
+  - **ErrorType 7 - 寸法エラーなし:** CQD クエリを機能するにはメジャーが必要です。 クエリにメジャーが含まれるか確認します。 CQD Connector のメジャーは、名前の前に集計 (合計) 記号で示されます。
 
 この範囲以外で追加のエラーが発生した場合は、問題のトラブルシューティングを行い、必要に応じてドキュメントを更新できるよう、CQD チームに通知してください。
 
 ## <a name="footnotes"></a>脚注
 
-**<sup>1</sup>** つの特定のプロセスとアプリ (OneDrive など) により、Documents ルート フォルダーが変更される場合があります。Power BI Desktop *\\ カスタム コネクタ* ディレクトリが、現在のルート フォルダーの [ドキュメント] フォルダー内に配置されている必要があります。
+**<sup>1</sup>** つの特定のプロセスとアプリ (OneDrive など) により、Documents ルート フォルダーが変更される場合があります。Power BI *Desktop \\ カスタム コネクタ* ディレクトリが、現在のルート フォルダーの [ドキュメント] フォルダー内に配置されている必要があります。
 
 **<sup>2</sup>** CQD に使用するログイン資格情報は、Power BI Desktop アプリ自体へのログインに使用する資格情報と同じにする必要はありません。
 
@@ -163,25 +163,25 @@ CQD Power BI Connector は、作成できるクエリの種類に関してブラ
 
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Power BI Connector が "ベータ版" の状態から更新されるのは、いつですか?
 
-ベータ タグにもかかわらず、Power BI 用の通話品質コネクタはコネクタのリリース バージョンであり、これを反映するために Power BI チームによって正式にセキュリティが署名されています。 そのベータ タグを削除する認定プロセスは広範なプロセスであり、コネクタに直接サポートを提供するために、Power BI チームからのコミットメントが必要です。 時間の制約により、Power BI チームは現在、そのサポートと幅広いサーティビティを提供できませんが、Microsoft 通話品質コネクタのセキュリティ、真正性、および一般的な機能を証明する準備は引き続き行っています。
+ベータ タグにもかかわらず、Power BI 用の通話品質コネクタはコネクタのリリース バージョンであり、これを反映するために Power BI チームによって正式にセキュリティが署名されています。 そのベータ タグを削除する認定プロセスは広範なプロセスであり、コネクタに直接サポートを提供するために Power BI チームからのコミットメントが必要です。 時間の制約により、Power BI チームは現在、そのサポートと幅広いサーティビティを提供できませんが、Microsoft 通話品質コネクタのセキュリティ、真正性、および一般的な機能を証明する準備は引き続き行っています。
 
 ### <a name="why-does-the-connector-seem-slower-compared-to-advanced-cqd-in-the-browser-what-can-i-do-to-improve-performance"></a>ブラウザーの Advanced CQD に比べてコネクタの速度が遅い理由 パフォーマンスを向上させるために何が可能か
 
-さまざまなテンプレートのクエリのパフォーマンスは、ブラウザーとコネクタの両方で実際には同じです。  他のスタンドアロン アプリと同様に、Power BI は認証とレンダリング時間をパフォーマンスに追加します。 さらに、この違いは、同時に実行されるクエリの数によって異なっています。 ブラウザー版の CQD では、あまりよく開発され情報が入り込む視覚エフェクト オプションが少なかったため、ほとんどのレポートでは、一度に 2 から 3 のクエリを読み込むのに制限されています。 一方、コネクタ テンプレートには 20 以上の同時実行クエリが表示される場合があります。 以前のレポートと同じ応答性のレポートを作成する場合は、タブごとにクエリが 2 ~ 3 つ以下のレポートを作成してみてください。
+さまざまなテンプレートのクエリのパフォーマンスは、ブラウザーとコネクタの両方で実際には同じです。  他のスタンドアロン アプリと同様に、Power BI は認証とレンダリング時間をパフォーマンスに追加します。 さらに、この違いは、同時に実行されるクエリの数によって異なっています。 ブラウザー版の CQD では、あまりよく開発され情報が入り込む視覚エフェクト オプションが少なかったため、ほとんどのレポートでは、一度に 2 から 3 のクエリを読み込むのに制限されています。 一方、コネクタ テンプレートには 20 以上の同時実行クエリが表示される場合があります。 以前のレポートと同じ応答性のレポートを作成する場合は、タブあたり 2 ~ 3 クエリ以下のレポートを作成してみてください。
 
 詳細については、次の記事を参照してください。
 
-- [Power BI の最適化ガイド](https://docs.microsoft.com/power-bi/guidance/power-bi-optimization)
-- [DirectQuery モデルのガイダンス](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance)
+- [Power BI の最適化ガイド](/power-bi/guidance/power-bi-optimization)
+- [DirectQuery モデルのガイダンス](/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>クエリを実行すると、日常的に 10,000 行の制限に達しています。 10,000 行を超える行を返すコネクタを取得する方法
 
 実際には API の最後に 10,000 行の制限が指定され、パフォーマンスを大幅に向上し、メモリ状態が低い場合に発生するクエリ実行エラーのリスクを軽減するように設計されています。
 
-結果の行数を増やす代わりに、コネクタのベスト プラクティスに従ってレポートを再構築します。 含まれているテンプレートは、これらのベスト プラクティスを示す目的で設計されています。 可能であれば、まず、月、年、日付、地域、国など、より大きく基数の小さいディメンションを使用して KPI を確認します。そこから、より高い基数のディメンションをドリルダウンできます。 ヘルプデスクとレポートLocation-Enhanced両方とも、このドリルダウン ワークフローの良い例を示します。
+結果の行数を増やす代わりに、コネクタのベスト プラクティスに従ってレポートを再構築します。 含まれているテンプレートは、これらのベスト プラクティスを示す目的で設計されています。 可能であれば、まず、月、年、日付、地域、国など、より大きく基数が小さいディメンションを使用して KPI を確認します。そこから、より高い基数のディメンションをドリルダウンできます。 ヘルプデスクとレポートLocation-Enhanced両方とも、このドリルダウン ワークフローの良い例を示します。
 
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Power BI を使用して Teams の CQD データを分析する](CQD-Power-BI-query-templates.md)

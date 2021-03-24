@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8144b830bec7f51bd97c59211d629aae7ffb3c9
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: e4614bc88ba65803ea5a8696af9e55a104912855
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726388"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101303"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>企業に Microsoft Teams をセットアップする
 
@@ -45,7 +45,7 @@ Teams の展開を開始する前に、計画プロセスが完了している�
 展開を支援するために、[Teams アドバイザー](https://admin.teams.microsoft.com/teams-deployment)を使用することを強くお勧めします。 Teams アドバイザー の機能の詳細については、「[Teams アドバイザーを使用して Microsoft Teams の展開を支援する](use-advisor-teams-roll-out.md)」を参照してください。
 
 > [!TIP]
-> Microsoft Learn の [Teams Advisor モジュールを使用してロールアウトを完了する](https://docs.microsoft.com/learn/modules/m365-teams-rollout-using-advisor/)ことにより、Teams Advisor を使用して Teams の展開を計画する方法を確認してください。
+> Microsoft Learn の [Teams Advisor モジュールを使用してロールアウトを完了する](/learn/modules/m365-teams-rollout-using-advisor/)ことにより、Teams Advisor を使用して Teams の展開を計画する方法を確認してください。
 
 Teams の計画については、「[Teams enterprise deployment overview](deploy-enterprise-overview.md) (Teams エンタープライズ展開の概要)」 を参照してください。
 
@@ -58,7 +58,7 @@ Teams をカスタマイズする方法はたくさんあります。 次のセ�
 チャット、チーム、およびチャネルは、Teams の基礎部分です。 **チャット** では、1 人または複数のユーザーと会話したり、ファイルを共有したり、非公開で会話したりすることができます。 **チーム** は、組織内のすべてのユーザーに表示することも、チームのメンバーだけに表示することもできます。チームを使えば、長期プロジェクトの実施から誕生日パーティーの計画まで、あらゆるタスクやイベントに関するコラボレーションを必要なユーザーの間で実現できます。 チーム内の **チャネル** は、トピック、プロジェクト、部門、またはチームに関連するその他の事項をセグメント化できます。 チャット、チーム、およびチャネルの詳細については、「[チームとチャネルの概要](teams-channels-overview.md)」を参照してください。
 
 > [!TIP]
-> Microsoft Learn の [[Microsoft Teams の管理]](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-teams/) モジュールを完了して、チームの役割、アクセス、およびメッセージング ポリシーを管理する方法を確認してください。
+> Microsoft Learn の [[Microsoft Teams の管理]](/learn/modules/m365-teams-collab-manage-teams/) モジュールを完了して、チームの役割、アクセス、およびメッセージング ポリシーを管理する方法を確認してください。
 
 ### <a name="administration-and-team-ownership"></a>管理とチームの所有権
 
@@ -88,7 +88,7 @@ Teams をカスタマイズする方法はたくさんあります。 次のセ�
 **電話会議** では、参加者は会議の電話番号に電話をかけ、会議 ID を入力することにより、通常の電話から会議に参加できます。 電話会議は、参加者のインターネット接続が良好でない場合、会議が音声のみである場合、またはその他の事情により Teams クライアントを使って参加できない場合に役立ちます。
 
 > [!TIP]
-> Microsoft Learn の Microsoft Teams モジュールを使用して、「[Microsoft Teams で会議とイベントを管理する](https://docs.microsoft.com/learn/modules/m365-teams-collab-manage-meetings)」完了することにより、会議およびイベントに精通します。
+> Microsoft Learn の Microsoft Teams モジュールを使用して、「[Microsoft Teams で会議とイベントを管理する](/learn/modules/m365-teams-collab-manage-meetings)」完了することにより、会議およびイベントに精通します。
 
 ### <a name="meetings"></a>会議
 
@@ -145,12 +145,12 @@ Teams と Microsoft 365 は、会社とユーザーがいる場所の規制要�
 | [通信コンプライアンス](communication-compliance.md)| 攻撃的、冒涜的、および嫌がらせの言葉、性的に際どい、あるいは残酷な画像および機密情報の共有を特定し、それに対して行動を起こすことにより、コミュニケーションのリスクを軽減するのに役立ちます。 |
 | [通話と会議のためのポリシー ベースの録音](teams-recording-policy.md)| 通話と会議を自動的に記録して保存し、後で処理、保持、または分析するかどうかを制御できます。|
 | [秘密度ラベル](sensitivity-labels.md)| 選択したプライバシー オプションを適用するラベルを作成することにより、機密情報へのアクセスを保護および規制するのに役立ちます。|
-| [データ損失防止](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=%2Fmicrosoftteams%2Ftoc.json&bc=%2Fmicrosoftteams%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide)| 社会保障番号、クレジットカード番号などの特定の情報をどのように処理するかを決定するルールを作成できます。 特定の情報の送信を防止したり、組織からの情報の送信を防止したりすることができます。|
+| [データ損失防止](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 社会保障番号、クレジットカード番号などの特定の情報をどのように処理するかを決定するルールを作成できます。 特定の情報の送信を防止したり、組織からの情報の送信を防止したりすることができます。|
 | [電子情報開示](eDiscovery-investigation.md)| 組織が法的手続きで証拠開示要求を受け取ったときに、組織内のコンテンツを検索および取得するのに役立ちます。 |
 | ["Legal Hold/法的情報保留"](legal-hold.md)| eDiscovery の調査中に情報を発見できるように、法的手続き中に必要な場合に、ユーザーが情報を削除した場合でも、組織内の情報を保持するのに役立ちます。 |
 | [コンテンツ検索](content-search.md)| Exchange、SharePoint Online、OneDrive for Business を含む Teams の情報について問い合わせを行うことのできる特別な検索手段です。|
 | [Auditing](audit-log-events.md)| アクションを実行したユーザー、アクションが実行された時刻、使用された IP アドレスなど、指定されたアクションに関する情報を表示できます。 アクションには、チームの作成または削除、チャネルの作成、Teams の設定の変更などが含まれます。|
-| [顧客キー](https://docs.microsoft.com/microsoft-365/compliance/customer-key-tenant-level?toc=%2Fmicrosoftteams%2Ftoc.json&bc=%2Fmicrosoftteams%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide)| 指定した暗号化キーを使用して、データ暗号化ポリシーを作成できます。|
+| [顧客キー](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 指定した暗号化キーを使用して、データ暗号化ポリシーを作成できます。|
 
 ## <a name="clients"></a>クライアント
 
@@ -159,7 +159,7 @@ Teams と Microsoft 365 は、会社とユーザーがいる場所の規制要�
 Teams を使用する予定のすべてのユーザーが Teams ライセンスを持っていることを確認してください。 Teams ライセンスの割り当ての詳細については、「[Teams へのユーザー アクセスを管理する](user-access.md#using-the-microsoft-365-admin-center)」を参照してください。
 
 > [!TIP]
-> Microsoft Learn の「[Microsoft Teams クライアントを展開する](https://docs.microsoft.com/learn/modules/m365-teams-collab-deploy-clients/)」モジュールを完了して、Teams クライアントの展開を計画する方法に関する推奨事項を確認してください。
+> Microsoft Learn の「[Microsoft Teams クライアントを展開する](/learn/modules/m365-teams-collab-deploy-clients/)」モジュールを完了して、Teams クライアントの展開を計画する方法に関する推奨事項を確認してください。
 
 組織で Microsoft Endpoint Configuration Manager、グループ ポリシー、またはサード パーティの配布メカニズムを使用してソフトウェアをユーザーのコンピューターに展開する場合は、「[Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする](msi-deployment.md)」を参照してください。
 

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: '概要: Skype for Business サーバーで会議ポリシーを割り当てる方法の説明。'
-ms.openlocfilehash: d13710d2cc4f6edf1cee16cbc9aa77799ceec8a4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 61082a9189b085c852e7593207fc86dcc6509139
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806477"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51099163"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Skype for Business サーバーで会議ポリシーを割り当てる
  
@@ -39,6 +39,4 @@ Grant-CsConferencingPolicy -identity "Ken Myer" -PolicyName SalesConferencingPol
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
 ```
 
-完全な構文とパラメーターの一覧を含む詳細については、「[Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps)」を参照してください。
-  
-
+完全な構文とパラメーターの一覧を含む詳細については、「[Grant-CsConferencingPolicy](/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps)」を参照してください。

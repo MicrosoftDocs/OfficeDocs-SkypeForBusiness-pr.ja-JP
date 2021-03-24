@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f226b60bfc3a054166eb48596c505ccd7fa5ac9
-ms.sourcegitcommit: df1eca90090c29eaaf7fd79bd8cc84c556f12b1e
-ms.translationtype: HT
+ms.openlocfilehash: e0fecf419f6fc3ac0ef15097fe54571d85018587
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "48424637"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101203"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>小売業の Teams テンプレートの使用を開始する
 
@@ -34,7 +34,7 @@ Teams テンプレートには、小売業者のニーズに基づいて設計�
 
 この記事では、各 Teams テンプレートを紹介し、それらの使用方法を推奨します。
 
-この記事は、小売業の組織全体で複数のチームを計画、展開し、管理する責任があるユーザーに役立ちます。 組織内に Teams サービスがすでに展開されています。 展開がまだの場合は、「[Microsoft Teams の展開方法](How-to-roll-out-teams.md)」をお読みになって展開を開始してください。
+この記事は、小売業の組織全体で複数のチームを計画、展開し、管理する責任があるユーザーに役立ちます。 組織内に Teams サービスがすでに展開されています。 展開がまだの場合は、「[Microsoft Teams の展開方法](./deploy-overview.md)」をお読みになって展開を開始してください。
 
 一般的なチーム テンプレートの詳細については、「[Teams テンプレートの使用を開始する](get-started-with-teams-templates.md)」をご参照ください。
 
@@ -68,7 +68,7 @@ Teams テンプレートには、小売業者のニーズに基づいて設計�
 
 ## <a name="how-to-use-first-party-templates"></a>ファースト パーティ テンプレートの使い方
 
-これらのテンプレートを使用するには、要求本文の「template@odata.bind」プロパティを「standard」から上記の TemplateID に変更します。  Teams テンプレートを展開する方法の詳細については、「[Teams の作成](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)方法に関する Microsoft Graph の記事」をご参照ください。
+これらのテンプレートを使用するには、要求本文の「template@odata.bind」プロパティを「standard」から上記の TemplateID に変更します。  Teams テンプレートを展開する方法の詳細については、「[Teams の作成](/graph/api/team-post?view=graph-rest-beta)方法に関する Microsoft Graph の記事」をご参照ください。
 
 > [!NOTE]
 > テンプレートのチャネルは自動的に [全般] タブに作成されます。

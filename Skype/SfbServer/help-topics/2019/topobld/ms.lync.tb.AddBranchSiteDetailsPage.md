@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: サイトのサイトの詳細を指定するには、次の手順を実行します。
-ms.openlocfilehash: 8efb8225e725dbadc3bb6e82f22a6845e58c0c4c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 15097700648634ad3865971e7e8e6742e101f561
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811937"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51100173"
 ---
 # <a name="add-branch-site-details"></a>ブランチ サイトの詳細の追加
 
@@ -32,6 +32,4 @@ ms.locfileid: "49811937"
 
 新しいブランチ サイトの国/地域コードを指定します。国/地域コードの値はオプションのエントリです。
 
-詳細については、「[Sites (サイト)](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)」を参照してください。
-
-
+詳細については、「[Sites (サイト)](/previous-versions/office/lync-server-2013/lync-server-2013-sites)」を参照してください。

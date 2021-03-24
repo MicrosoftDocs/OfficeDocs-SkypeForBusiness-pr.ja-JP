@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cc477b9589aeebb8dcd486e7f85ca04daf6ff4d
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 1688d4791c3d20ef28e9ff2a44349c87293acea3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909401"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51101153"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の Tasks アプリを管理する
 
@@ -81,7 +81,7 @@ Tasks は、組織内のすべての Teams ユーザーに対して既定で有�
 
 ### <a name="a-users-my-tasks-is-visible-if-the-user-is-licensed-for-exchange-online"></a>ユーザーが Exchange Online のライセンスを持っている場合、そのユーザーの [自分のタスク] が表示されます。
 
-ユーザーに **[自分のタスク]** を表示させたくない場合は、非表示にできます。 これを行うには、[ユーザーの Exchange Online ライセンスを削除します](https://docs.microsoft.com/microsoft-365/admin/manage/remove-licenses-from-users)。 Exchange Online ライセンスを削除すると、ユーザーはメールボックスにアクセスできなくなるので、注意してください。  メールボックス データは 30 日間保持されます。その後、データは削除され、メールボックスが [[インプレース ホールド] または [訴訟ホールド]](https://docs.microsoft.com/exchange/security-and-compliance/in-place-and-litigation-holds) に配置されない限り回復できません。
+ユーザーに **[自分のタスク]** を表示させたくない場合は、非表示にできます。 これを行うには、[ユーザーの Exchange Online ライセンスを削除します](/microsoft-365/admin/manage/remove-licenses-from-users)。 Exchange Online ライセンスを削除すると、ユーザーはメールボックスにアクセスできなくなるので、注意してください。  メールボックス データは 30 日間保持されます。その後、データは削除され、メールボックスが [[インプレース ホールド] または [訴訟ホールド]](/exchange/security-and-compliance/in-place-and-litigation-holds) に配置されない限り回復できません。
 
 インフォメーション ワーカーにはお勧めしませんが、メールに依存しない現場担当者など、いくつかのシナリオに当てはまる場合があります。
 
@@ -123,5 +123,5 @@ Contoso 本社および中間マネージャーは、各店舗および複数の
 
 Tasks は、To Do 用 Power Automate および Planner 用 Graph API をサポートしています。 詳細については、次を参照してください。
 
-- [Planner のタスクおよびプラン API の概要](https://docs.microsoft.com/graph/planner-concept-overview)
+- [Planner のタスクおよびプラン API の概要](/graph/planner-concept-overview)
 - [Power Automate で Microsoft To Do を使用する](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)
