@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a62952378debd0c2345533688dd8d84d171f0863
-ms.sourcegitcommit: d85425d9e6022d1bf84b877920640f9cbaf8bdce
+ms.openlocfilehash: 92ff8b256f203549541529336396fdd44f67b12c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "49530974"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093997"
 ---
 # <a name="security-and-microsoft-teams"></a>セキュリティと Microsoft Teams
 
@@ -100,7 +100,7 @@ SPIM は、スパムのようですが、インタンス メッセージ形式�
 
 - Azure Active Directory (Azure AD)、 ユーザーアカウントに対して、単一の信頼できるバックエンド リポジトリを提供します。 ユーザー プロフィール情報は、Microsoft Graph のアクションを通して Azure AD に保存されます。
   - ネットワーク トラフィックをトレースする場合に生じる可能性があるトークンの問題がいくつかあります。 これには、チャットや音声トラフィックを調べているときにトレースで示されることがある Skype トークンが含まれます。
-- トランスポート層セキュリティ (TLS)、および相互 TLS (MTLS)。インスタント メッセージ トラフィックを暗号化し、エンドポイント認証を有効にします。 ポイント間の音声、ビデオ、アプリケーション共有のストリームは、セキュア リアルタイム転送プロトコル (SRTP) で暗号化され、整合性がチェックされます。 また、Teams で [投稿] から [ファイル] に移動する場合などのようにタブを切り替えると、トレースで、OAuth トラッフィック、特にアクセス許可のネゴシエートに関連したトラフィックが表示されることがあります。 タブの OAuth フローの例については、[こちらのドキュメント](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab)を参照してください。
+- トランスポート層セキュリティ (TLS)、および相互 TLS (MTLS)。インスタント メッセージ トラフィックを暗号化し、エンドポイント認証を有効にします。 ポイント間の音声、ビデオ、アプリケーション共有のストリームは、セキュア リアルタイム転送プロトコル (SRTP) で暗号化され、整合性がチェックされます。 また、Teams で [投稿] から [ファイル] に移動する場合などのようにタブを切り替えると、トレースで、OAuth トラッフィック、特にアクセス許可のネゴシエートに関連したトラフィックが表示されることがあります。 タブの OAuth フローの例については、[こちらのドキュメント](/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab)を参照してください。
 - Teams ではユーザーの認証に業界標準のプロトコルができる限り使用されます。
 
 次のセクションでは、これらの主要なテクノロジについて説明します。
@@ -136,11 +136,11 @@ Teams では、TLS と MTLS を使用してインスタント メッセージを
 
 次の表に、Teams で使用されるプロトコルをまとめます。
 
-***トラフィック暗号化** _
+***トラフィック暗号化***
 
 |||
 |:-----|:-----|
-|_ *トラフィックの種類**|**暗号化方式**|
+|**トラフィックの種類**|**暗号化方式**|
 |サーバー間|MTLS|
 |クライアントからサーバー  (インスタント メッセージング、プレゼンスなど)|TLS|
 |メディア フロー  (メディアの音声とビデオの共有)|TLS|
@@ -156,7 +156,7 @@ Teams では、資格情報に基づくトークンを使用して、TURN によ
 
 #### <a name="fips"></a>FIPS
 
-Teams は、暗号キーの交換に FIPS (Federal Information Processing Standard) に準拠したアルゴリズムを使用します。 FIPS 実装の詳細については、「[連邦情報処理規格 (FIPS) 文書 140-2](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide)」をご覧ください。
+Teams は、暗号キーの交換に FIPS (Federal Information Processing Standard) に準拠したアルゴリズムを使用します。 FIPS 実装の詳細については、「[連邦情報処理規格 (FIPS) 文書 140-2](/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide)」をご覧ください。
 
 ### <a name="user-and-client-authentication"></a>ユーザー認証とクライアント認証
 
@@ -164,7 +164,7 @@ Teams は、暗号キーの交換に FIPS (Federal Information Processing Standa
 
 認証では、ユーザーの資格情報が信頼されたサーバーまたはサービスに渡されます。 Teams では、ユーザーの状態や場所に応じて、次の認証プロトコルを使用します。
 
-- **先進認証 (MA)** は、クライアントとサーバー間の通信用に Microsoft が OAUTH 2.0 を実装したものです。 多要素認証や条件付きアクセスなどのセキュリティ機能を有効にします。 MA を使用するには、オンライン テナントとクライアントの両方で MA を有効にする必要があります。 PC とモバイルの Teams クライアントと Web クライアントすべてが、[MA をサポート](https://docs.microsoft.com/microsoftteams/sign-in-teams)しています。
+- **先進認証 (MA)** は、クライアントとサーバー間の通信用に Microsoft が OAUTH 2.0 を実装したものです。 多要素認証や条件付きアクセスなどのセキュリティ機能を有効にします。 MA を使用するには、オンライン テナントとクライアントの両方で MA を有効にする必要があります。 PC とモバイルの Teams クライアントと Web クライアントすべてが、[MA をサポート](./sign-in-teams.md)しています。
 
 > [!NOTE]
 > Azure AD の認証および承認の方法について復習する必要がある場合は、この記事の概要セクションと「Azure AD での認証の基本」セクションを参照してください。
@@ -183,7 +183,7 @@ Teams では、IT 管理者は Microsoft 365 管理センターまたはテナ�
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>インターネット境界で Teams へのアクセスを設定する
 
-Teams が正しく機能するために (ユーザーが会議に参加できるなど)、顧客は Teams クラウド内のサービスへの発信 UDP および TCP トラフィックが許可されるようにインターネット アクセスを設定する必要があります。 詳しくは、「[Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。
+Teams が正しく機能するために (ユーザーが会議に参加できるなど)、顧客は Teams クラウド内のサービスへの発信 UDP および TCP トラフィックが許可されるようにインターネット アクセスを設定する必要があります。 詳しくは、「[Office 365 URL および IP アドレス範囲](/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478 から 3481 と TCP 443
 
@@ -240,7 +240,7 @@ Teams は、エンタープライズ ユーザーにリアルタイムな会議�
 また、ダイヤルイン発信者が会議の最初のユーザーになるための設定を開催者が構成することもできます。 この設定はユーザーの電話会議設定で構成し、対象ユーザーによってスケジュールされているすべての会議に適用されます。
 
 > [!NOTE]
-> Teams におけるゲスト アクセスと外部アクセスについて詳しくは、[こちらの記事](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations)を参照してください。 ゲスト ユーザーまたは外部ユーザーが Teams にログインするときに表示され、使用できる機能が取り上げられています。 <p> 会議を録画しているときに、コンテンツにアクセスするアクセス許可マトリックスを表示したい場合は、[こちらの記事](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)とそのマトリックスを参照してください。
+> Teams におけるゲスト アクセスと外部アクセスについて詳しくは、[こちらの記事](./communicate-with-users-from-other-organizations.md)を参照してください。 ゲスト ユーザーまたは外部ユーザーが Teams にログインするときに表示され、使用できる機能が取り上げられています。 <p> 会議を録画しているときに、コンテンツにアクセスするアクセス許可マトリックスを表示したい場合は、[こちらの記事](./tmr-meeting-recording-change.md)とそのマトリックスを参照してください。
 
 ### <a name="participant-roles"></a>参加者の役割
 
@@ -259,7 +259,7 @@ Teams は、エンタープライズ ユーザーにリアルタイムな会議�
 1. **テナントに属するユーザー** これらのユーザーは、テナントの Azure Active Directory に資格情報を持っています。
     a. *自分の組織内のユーザー* - これらのユーザーは、テナントの Azure Active Directory に資格情報を持っています。 *自分の組織内のユーザー* には、招待されたゲスト アカウントも含まれます。
     b. *リモート ユーザー* - これらのユーザーは企業ネットワークの外部から参加しています。 自宅や外出先で作業している従業員や、サービス規約に基づいて企業の資格情報を与えられている信頼できる仕入先の従業員などを含めることができます。 リモート ユーザーは会議を作成して参加し、発表者として行動できます。
-。
+.
 2. **テナントに属さないユーザー** これらのユーザーは、テナントの Azure AD に資格情報を持っていません。
     a. *フェデレーション ユーザー* - フェデレーション ユーザーはフェデレーション パートナーの有効な資格情報を持っているので Teams によって認証済みユーザーとして扱われますが、会議開催者のテナントに対しては依然匿名として扱われます。 フェデレーション ユーザーは会議に参加し、その後発表者になることができますが、フェデレーションされた企業では会議を作成することはできません。
     b. *匿名ユーザー* - 匿名ユーザーは、Active Directory ID を持たず、テナントとフェデレーションされません。
@@ -297,14 +297,14 @@ Teams では、匿名ユーザーはロビーと呼ばれる待機エリアに�
 
 ## <a name="related-topics"></a>関連項目
 
-[Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work) (在宅勤務をサポートするためにセキュリティ チームが行う 12 の主なタスク)
+[Top 12 tasks for security teams to support working from home](/microsoft-365/security/top-security-tasks-for-remote-work) (在宅勤務をサポートするためにセキュリティ チームが行う 12 の主なタスク)
 
 [Microsoft Trust Center](https://microsoft.com/trustcenter)
 
-[Microsoft Teams で会議の設定を管理する](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+[Microsoft Teams で会議の設定を管理する](./meeting-settings-in-teams.md)
 
-[VPN スプリット トンネリングを使用してリモート ユーザーの Microsoft 365 または Office 365 の接続を最適化する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+[VPN スプリット トンネリングを使用してリモート ユーザーの Microsoft 365 または Office 365 の接続を最適化する](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
-- [VPN の分割トンネリングを実装する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [VPN の分割トンネリングを実装する](/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
-[Teams での会議の録画、録画が保存されている場所、および録画にアクセスできるユーザー](https://docs.microsoft.com/microsoftteams/tmr-meeting-recording-change)
+[Teams での会議の録画、録画が保存されている場所、および録画にアクセスできるユーザー](./tmr-meeting-recording-change.md)

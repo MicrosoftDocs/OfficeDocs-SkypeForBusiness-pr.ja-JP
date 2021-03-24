@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6ba8545159f8b18ebe39e49356f64378f946b29
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: e5526a7a7d782b8a30edd5b5169c3ba78953cc7c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874807"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094157"
 ---
 # <a name="install-microsoft-teams-powershell"></a>Microsoft Teams PowerShell をインストールする
 
@@ -26,7 +26,7 @@ ms.locfileid: "50874807"
 
 ## <a name="requirements"></a>要件
 
-Teams PowerShell には、すべてのプラットフォームで PowerShell 5.1 以上が必要です。 オペレーティング システム [で利用可能な最新バージョンの PowerShell](/powershell/scripting/install/installing-powershell) をインストールします。
+Teams PowerShell には、すべてのプラットフォームで PowerShell 5.1 以上が必要です。 使用している [オペレーティング システムで利用可能な最新バージョンの PowerShell](/powershell/scripting/install/installing-powershell) をインストールします。
 
 > [!WARNING]
 > PowerShell 7 および Teams PowerShell には、既知の問題があります。 最適なエクスペリエンスを得る場合は、PowerShell 5.1 を使用することをお勧めします。
@@ -55,7 +55,7 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-[ **はい]** または **[はい] から [すべて] に回答** して、インストールを続行します。
+[ **はい]** または **[はい] から [すべて] に応答** して、インストールを続行します。
 
 
 ## <a name="install-teams-powershell-public-preview"></a>Teams PowerShell パブリック プレビューをインストールする
@@ -63,9 +63,9 @@ Are you sure you want to install the modules from 'PSGallery'?
 > [!NOTE]
 > Teams PowerShell のパブリック プレビュー 版を使用している場合は、最初に Skype for Business Online Connector をアンインストールすることを強く推奨します。
 
-システム上のすべてのユーザーに Teams PowerShell パブリック プレビュー モジュールをインストールするには、管理者特権が必要です。 Windows の [管理者として実行] を使用するか、macOS または Linux でコマンドを使用して `sudo` PowerShell セッションを開始します。
+システム上のすべてのユーザーに Teams PowerShell パブリック プレビュー モジュールをインストールするには、管理者特権が必要です。 Windows の管理者として実行を使用するか、macOS または Linux でコマンドを使用して `sudo` PowerShell セッションを開始します。
 
-PowerShell 5.1 を使用している場合は、事前に **PowerShellGet** モジュールを更新する必要があります。 **PowerShellGet を更新した** 後、昇格された PowerShell セッションを閉じてもう一度開き、最新の **PowerShellGet** が読み込まれるのを確認します。
+PowerShell 5.1 を使用している場合は、事前に **PowerShellGet モジュールを** 更新する必要があります。 **PowerShellGet を更新した** 後、昇格された PowerShell セッションを閉じてもう一度開き、最新の **PowerShellGet** が読み込まれるのを確認します。
 
 ```powershell
 Install-Module PowerShellGet -Force -AllowClobber
@@ -155,12 +155,12 @@ Uninstall-Module MicrosoftTeams
 
 Teams PowerShell を使用して Teams を管理する準備ができました。 使用 [を開始するには、「Teams PowerShell で Teams](teams-powershell-managing-teams.md) を管理する」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams PowerShell での Teams の管理](teams-powershell-managing-teams.md)
 
 [Teams PowerShell のリリース ノート](teams-powershell-release-notes.md)
 
-[Microsoft Teams コマンドレット リファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Microsoft Teams コマンドレット リファレンス](/powershell/teams/?view=teams-ps)
 
-[Skype for Business コマンドレット リファレンス](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Skype for Business コマンドレット リファレンス](/powershell/skype/intro?view=skype-ps)

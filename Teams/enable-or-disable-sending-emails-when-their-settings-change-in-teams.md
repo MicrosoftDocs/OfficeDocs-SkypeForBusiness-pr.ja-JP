@@ -1,5 +1,5 @@
 ---
-title: 電話会議の設定が変更されたときのメールオプション
+title: 電話会議の設定が変更された場合のメール オプション
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,44 +20,44 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Pin が変更された場合や、Microsoft Teams で既定の電話会議番号が変更された場合に、Skype が電子メールをユーザーに送信するのを有効または無効にする方法について説明します。 '
-ms.openlocfilehash: 36c7e9dce17de1e6f9bbf8b812d62ddd91bc6ffe
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 'ピン留めなどの設定や Microsoft Teams の既定の会議番号の変更時に、Skype がユーザーにメールを送信する機能を有効または無効にする方法について説明します。 '
+ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691603"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092705"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 
-電話会議が有効になっていると、ユーザーにメールで自動的に通知されます。 ただし、Microsoft Teams ユーザーに送信されるメールの数を少なくする必要がある場合もあります。 その場合は、メールの送信を無効にすることができます。
+電話会議が有効になると、ユーザーにメールで自動的に通知されます。 ただし、Microsoft Teams ユーザーに送信されるメールの数を減らしたい場合があります。 このような場合は、メールの送信を無効にできます。
   
-メールの送信を無効にすると、ユーザーが電話会議に対して有効または無効になっているときのメールや、PIN がリセットされたとき、会議 ID と既定の会議の電話番号が変更されたときのメールを含む、電話会議のメールはユーザーに送信されません。
+メールの送信を無効にした場合、ユーザーが電話会議で有効または無効になっている場合、PIN がリセットされた場合、会議 ID と既定の会議の電話番号が変更された場合のメールなど、電話会議のメールはユーザーに送信されません。
   
-次に示すのは、電話会議が有効になっているユーザーに送信されるメールの例です。
+電話会議が有効になっているユーザーに送信されるメールの例を次に示します。
   
-![電話会議のメールメッセージの例](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![電話会議のメール メッセージの例](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
-## <a name="when-are-emails-being-sent-to-your-users"></a>ユーザーにメールが送信されるのはいつですか?
+## <a name="when-are-emails-being-sent-to-your-users"></a>メールがユーザーに送信されるのは、いつですか?
 
-- 電話会議を有効にした後、組織内のユーザーに送信されるメールが複数あります。
+- 電話会議を有効にすると、組織内のユーザーに送信されるメールが複数あります。
     
   - **電話会議** のライセンスがユーザーに割り当てられた場合。
     
-  - ユーザーの電話会議の PIN を手動でリセットした場合。
+  - ユーザーの電話会議の PIN を手動でリセットする場合。
     
   - ユーザーの会議 ID を手動でリセットした場合。
     
-  - **電話会議**ライセンスが削除されたとき。
+  - 電話会議 **ライセンスが** 削除された場合。
     
-  - ユーザーの電話会議プロバイダーが Microsoft から別のプロバイダーまたは **[なし**] に変更された場合。
+  - ユーザーの電話会議プロバイダーが Microsoft から別のプロバイダーまたはなしに変更 **された場合**。
     
   - ユーザーの電話会議プロバイダーが Microsoft に変更された場合。
 
 
-## <a name="enable-or-disable-email-from-being-sent-to-users"></a>ユーザーへのメール送信を有効または無効にする
+## <a name="enable-or-disable-email-from-being-sent-to-users"></a>メールがユーザーに送信されるのを有効または無効にする
 
-Microsoft Teams または Windows PowerShell を使用して、ユーザーに送信されたメールを有効または無効にすることができます。
+Microsoft Teams またはメール アカウントをWindows PowerShell、ユーザーに送信されたメールを有効または無効にできます。
 
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
@@ -75,24 +75,22 @@ Microsoft Teams または Windows PowerShell を使用して、ユーザーに�
 
 **Windows PowerShell を使用する**
   
-詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
+詳細については、[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)をご覧ください。
 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常業務を簡素化することができます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell では、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する必要がある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](/previous-versions//dn568025(v=technet.10))
     
-Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)」をご覧ください。
     
   
 ## <a name="related-topics"></a>関連トピック
 
-[電話会議の設定が変更されたときにユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)
+[ユーザーの電話会議の設定が変更された場合にユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
 [電話会議の情報が記載されたメールをユーザーに送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)
-
-

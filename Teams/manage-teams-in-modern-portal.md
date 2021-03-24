@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c736cf17d263f097e97b32f856bc83cf2fe42a35
-ms.sourcegitcommit: 1a31ff16b8218d30059f15c787e157d06260666f
-ms.translationtype: HT
+ms.openlocfilehash: 6bf864fefd3ac60c7531bd339a5587c8f2f0dd72
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "47814556"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094237"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 ==========================================
@@ -38,7 +38,7 @@ ms.locfileid: "47814556"
 - グローバル管理者
 - Teams サービス管理者
 
-Teams での管理者の役割の詳細については、「[ Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)」をご覧ください。また、PowerShell コマンドレットを使用してチームを管理する方法の詳細については、「[Microsoft Teams コマンドレットのリファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)」をご覧ください。
+Teams での管理者の役割の詳細については、「[ Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)」をご覧ください。また、PowerShell コマンドレットを使用してチームを管理する方法の詳細については、「[Microsoft Teams コマンドレットのリファレンス](/powershell/teams/?view=teams-ps)」をご覧ください。
 
 
 
@@ -58,7 +58,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 - **プライバシー** - 基となる Microsoft 365 グループの可視性/AccessType。
 - **状態** - このチームの状態がアーカイブ済みかアクティブか。 チームのアーカイブに関する詳細については、「[チームをアーカイブまたは復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)」を参照してください。
 - **説明** - 基となる Microsoft 365 グループの説明。
-- **分類** - 基となる Microsoft 365 グループに割り当てられている分類 (組織内で使用されている場合)。 分類の詳細については、「[組織の Office グループに対する分類を作成する](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)」を参照してください。
+- **分類** - 基となる Microsoft 365 グループに割り当てられている分類 (組織内で使用されている場合)。 分類の詳細については、「[組織の Office グループに対する分類を作成する](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization)」を参照してください。
 - **GroupID** - 基となる Microsoft 365 グループの一意の GroupID。
 
 > [!NOTE]
@@ -81,7 +81,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 ### <a name="delete"></a>削除
 
-チームを削除すると、チームとそれに対応する Microsoft 365 グループが論理的に削除されます。 誤って削除したチームを復元するには、「[削除されたグループを復元する](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)」の手順に従ってください。
+チームを削除すると、チームとそれに対応する Microsoft 365 グループが論理的に削除されます。 誤って削除したチームを復元するには、「[削除されたグループを復元する](/microsoft-365/admin/create-groups/restore-deleted-group)」の手順に従ってください。
 
 ### <a name="search"></a>検索
 
@@ -122,7 +122,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 **解決方法: MS Graph でプロパティを適切な値に手動で設定します。**
 
-該当する GroupId に対するクエリで **{groupid}** を置き換えます。{groupid} は、Exchange Online powershell で "**ExternalDirectoryObjectId**" 属性として **"[Get-unifiedgroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** コマンドレットを使用して取得できます。　
+該当する GroupId に対するクエリで **{groupid}** を置き換えます。{groupid} は、Exchange Online powershell で "**ExternalDirectoryObjectId**" 属性として **"[Get-unifiedgroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** コマンドレットを使用して取得できます。　
 
 1. [Graph エクスプローラー](https://developer.microsoft.com/graph/graph-explorer)にアクセスします。
 
@@ -138,6 +138,6 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 ## <a name="learn-more"></a>詳細情報
 
-- [Teams コマンドレット リファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)  
+- [Teams コマンドレット リファレンス](/powershell/teams/?view=teams-ps)  
 - [Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)
 - [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)

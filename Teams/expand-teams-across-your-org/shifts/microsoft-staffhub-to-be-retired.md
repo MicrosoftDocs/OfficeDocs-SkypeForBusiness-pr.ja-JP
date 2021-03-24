@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1d91792eeda482ff396791325ee902ee54a59847
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 64416c08c7fa43883bfab060d63c7a7598ea3218
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909511"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092445"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub が廃止されました
 
-Microsoft StaffHub は 2020 年 6 月 30 日に廃止されました。 StaffHub の機能を Microsoft Teams に構築しています。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。
+2020 年 6 月 30 日をもって、Microsoft Staffhub は廃止されました。 Microsoft では、StaffHub の機能を Microsoft Teams に組み込む作業に取り組んでいます。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。
 
 これらの変更は、Microsoft 365 ですべての従業員を支援するための継続的な取り組みの一部です。 Teams の Frontline Worker の機能により、組織内のすべての従業員は Teams を使用して、仕事の効率化、同僚との共同作業、情報や専門知識へのアクセスを行い、最高の作業を行うのに役立ちます。
 
@@ -41,11 +41,11 @@ Microsoft StaffHub は、2020 年 6 月 30 日に廃止されました。
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>StaffHub が廃止された後は何が起こりますか?
 
-StaffHub は、2020 年 6 月 30 日にすべてのユーザーの作業を停止しました。 アプリを開しようとすると、Teams のダウンロードを指示するメッセージが表示されます。
+StaffHub は 2020 年 6 月 30 日をもって、すべてのユーザーがご利用できなくなりました。 アプリを開しようとすると、Teams のダウンロードを指示するメッセージが表示されます。
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>Teams は StaffHub で現在提供されているすべての機能を提供しますか?
 
-2019 年 1 月に、Teams は以前 Microsoft StaffHub で利用可能だったシフトの提供を開始しました。 この機能を使用すると、マネージャーはシフト スケジュールを計画して配布し、チーム メンバーは自分のスケジュールを確認し、モバイル デバイスからスケジュール変更要求を行う機会を得る機会を与えます。 詳細については、「Teams で組織 [の Shifts アプリを管理する」を参照してください](manage-the-shifts-app-for-your-organization-in-teams.md)。
+2019 年 1 月に、Teams は以前 Microsoft StaffHub で利用可能だったシフトの提供を開始しました。 この機能を使用すると、マネージャーはシフト スケジュールを計画して配布できます。チーム メンバーは、自分のモバイル デバイスからスケジュールを確認し、スケジュール変更要求を行う機会を与えます。 詳細については、「Teams で組織 [の Shifts アプリを管理する」を参照してください](manage-the-shifts-app-for-your-organization-in-teams.md)。
 
 弊社では、優れたユーザー エクスペリエンスを提供し、StaffHub の独自の機能を Teams に提供できるよう取り組みしています。
 
@@ -67,11 +67,11 @@ Teams の Shifts アプリは、Frontline Worker の接続と同期を維持す�
 
 #### <a name="which-plans-is-shifts-available-in"></a>Shifts はどのプランで利用できますか?
 
-シフトは、Teams が利用可能なすべてのエンタープライズ SKU で利用できます。
+シフトは、Teams が使用可能なすべてのエンタープライズ SKU で使用できます。
 
 #### <a name="how-do-i-get-shifts"></a>Shifts を取得する方法 
 
-既に Shifts を含むプランを使用している場合は、Teams の一部として今すぐ Shifts の使用を開始できます。 「シフト [で始める」をご確認ください](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)。
+Shifts を含むプランを既に使用している場合は、Teams の一部として今すぐ Shifts の使用を開始できます。 「シフト [で始める」をご確認ください](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)。
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Shifts はどのデバイスまたはプラットフォームで利用できますか?
 
@@ -92,7 +92,7 @@ Teams の Shifts アプリは、Frontline Worker の接続と同期を維持す�
 Shifts は、最新バージョンの Microsoft Edge、Internet Explorer、Google Chrome、Mozilla Firefox を含む Teams がサポートしているすべてのブラウザーで動作します。 詳細については、「Teams のクライアント [を取得する」を参照してください](../../get-clients.md)。
 
 > [!Note]
-> Microsoft 365 のアプリとサービスは、2021 年 8 月 17 日から Internet Explorer 11 をサポートしない予定です (Microsoft Teams は、2020 年 11 月 30 日から Internet Explorer 11 以前はサポートされていません)。 [詳細情報を参照してください](https://aka.ms/AA97tsw)。 Internet Explorer 11 は、サポート対象のブラウザーとして残ることに注意してください。 Internet Explorer 11 は Windows オペレーティング システムのコンポーネントであり[](https://docs.microsoft.com/lifecycle/faq/internet-explorer-microsoft-edge)、インストールされている製品のライフサイクル ポリシーに従います。 
+> Microsoft 365 のアプリとサービスは、2021 年 8 月 17 日から Internet Explorer 11 をサポートしない予定です (Microsoft Teams は、2020 年 11 月 30 日から Internet Explorer 11 以前はサポートされていません)。 [詳細情報を参照してください](https://aka.ms/AA97tsw)。 Internet Explorer 11 は、サポート対象のブラウザーとして残ることに注意してください。 Internet Explorer 11 は Windows オペレーティング システムのコンポーネントであり[](/lifecycle/faq/internet-explorer-microsoft-edge)、インストールされている製品のライフサイクル ポリシーに従います。 
 
 #### <a name="what-languages-does-shifts-support"></a>Shifts でサポートされる言語
 
@@ -122,7 +122,7 @@ Shifts は、最新バージョンの Microsoft Edge、Internet Explorer、Googl
 
 #### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>現在、組織で Skype for Business を有効にしているが、Teams では有効になっていない場合は、どうでしょうか。
 
-Teams は Skype for Business との共存をサポートしています。 詳細については[、「Teams](../../migration-interop-guidance-for-teams-with-skype.md)と[Skype for Business](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)の共存と相互運用性、および Skype for Business と共に Teams を使用する組織の移行と相互運用性に関するガイダンス」を参照してください。
+Teams は Skype for Business との共存をサポートしています。 詳細については[、「Teams](../../migration-interop-guidance-for-teams-with-skype.md)と[Skype for Business](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)の共存と相互運用性、および Teams と Skype for Business を組み合わせて使用する組織の移行と相互運用性に関するガイダンス」を参照してください。
 
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>各ユーザーには、Microsoft 365 アカウントまたは 365 アカウントOffice Azure Active Directory (Azure AD) アカウントが必要ですか?
 
@@ -148,7 +148,7 @@ Shifts デスクトップおよび Web アプリからシフト スケジュー�
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>組織内のユーザーが Shifts を使用できるかどうかを管理するために使用できる管理コントロール  
   
-組織内のすべてのユーザーに対して、組織全体の Shifts をオンまたはオフにできます。 Microsoft Teams 管理センターでは、Frontline Worker アプリのセットアップ ポリシーを使用して、Frontline Workforce 用に Teams をカスタマイズすることもできます。 ポリシーは、アクティビティ、シフト、チャット、通話アプリで構成されます。 ポリシーを割り当てると、これらのアプリは Teams のアプリ バーに固定され、ユーザーがすばやく簡単にアクセスできます。 
+組織内のすべてのユーザーに対して、組織全体の Shifts のオンとオフを切り替えます。 Microsoft Teams 管理センターでは、Frontline Worker アプリのセットアップ ポリシーを使用して、Frontline Workforce 用に Teams をカスタマイズすることもできます。 ポリシーは、アクティビティ、シフト、チャット、通話アプリで構成されます。 ポリシーを割り当てると、これらのアプリは Teams のアプリ バーに固定され、ユーザーがすばやく簡単にアクセスできます。 
 
 詳細については、「Teams で組織 [の Shifts アプリを管理する」を参照してください](manage-the-shifts-app-for-your-organization-in-teams.md)。
 
@@ -156,7 +156,7 @@ Shifts デスクトップおよび Web アプリからシフト スケジュー�
 
 Teams を管理するには、Microsoft Teams PowerShell モジュールと Skype for Business PowerShell モジュールを使用します。 詳細については [、「Teams PowerShell の概要」を参照してください](../../teams-powershell-overview.md)。 現時点では、Shifts を管理するために使用できる特定の PowerShell コマンドレットはありません。  
 
-関心がある場合は [、UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)の Teams フィードバック ポータルからリクエストを送信してください。
+これが関心のある場合は [、UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)の Teams フィードバック ポータルから要求を送信してください。
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>組織全体のシフトの使用状況を表示するには、レポートを使用できますか?
 
@@ -164,4 +164,4 @@ Shifts は Teams のアプリなので、Teams レポートで使用状況を表
 
 #### <a name="where-can-i-provide-feedback"></a>フィードバックを送信できる場所
   
-モバイル アプリで、画面の左上にある [詳細] をタップし、[設定] の [フィードバックの送信] または [問題の報告]  >  **に移動します**。 同様に、デスクトップアプリと Web アプリでは、画面の左下にある [アイデアの共有に関するヘルプ] または [問題の報告]  >  に **移動します**。
+モバイル アプリで、画面 **の左上** にある [詳細] をタップし、[設定] の [フィードバックの送信] または [  >  問題の報告]**に移動します**。 同様に、デスクトップアプリと Web アプリでは、画面の左下にある [アイデアの共有に関するヘルプ] または [問題の報告]  >  に **移動します**。

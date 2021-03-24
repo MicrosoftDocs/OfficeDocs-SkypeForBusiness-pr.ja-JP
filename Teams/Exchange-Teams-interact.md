@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9790cfb186e1745d7233bf23232ac4b4a69b00e0
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: aa192472da86850a580bc981291762386f15c434
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997325"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094639"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -37,7 +37,7 @@ Exchange Online または Exchange 専用 vNext でホストされているユ�
 Exchange Online 専用 (レガシ) にホストされるユーザーは、Microsoft 365 や Office 365 の Azure Active Directory と同期する必要があります。 チームやチャネルの作成およびそれらへの参加、タブ、ボットの追加と構成、チャットや通話機能の利用が可能です。 ただし、これらのユーザーは、プロフィール画像を変更したり、会議を管理したり、Outlook の連絡先にアクセスしたり、コネクタを管理したりできません。
 
 > [!IMPORTANT]
-> オンプレミスと統合するには、Exchange Server 2016 以降で Exchange の完全なクラシック ハイブリッド展開を行うことを強くお勧めします。 最新のハイブリッド サポートは空き時間情報に限定されており、たとえば、チームからオンプレミスのメールボックスへのカレンダー統合は提供されません。 ハイブリッド展開の設定の詳細については、「[Exchange Server Hybrid Deployments](https://docs.microsoft.com/exchange/exchange-hybrid)」を参照してください。
+> オンプレミスと統合するには、Exchange Server 2016 以降で Exchange の完全なクラシック ハイブリッド展開を行うことを強くお勧めします。 最新のハイブリッド サポートは空き時間情報に限定されており、たとえば、チームからオンプレミスのメールボックスへのカレンダー統合は提供されません。 ハイブリッド展開の設定の詳細については、「[Exchange Server Hybrid Deployments](/exchange/exchange-hybrid)」を参照してください。
 
 オンプレミスでホストされているメールボックスを使っているユーザーは、Azure Active Directory と同期する必要があります。 上記のシナリオのすべての機能を利用できますが、さらに、[オンプレミスでホストされるメールボックスの要件](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)のセクションに記載されている要件が満たされている場合は、会議を管理できます。
 
@@ -64,10 +64,10 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Micros
 
 <sup>6</sup> 既定の連絡先フォルダーは連絡先のみです。 他の連絡先フォルダーまたはサブフォルダーへのアクセスはサポートされていません。
 
-<sup>7</sup> Teams では、ユーザーがプロフィール画像を変更できるかどうかを制御するため、テナント管理者によって構成されている[Outlook on the web のメールボックス ポリシー](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)の設定を優先します。 **ポリシーで -SetPhotoEnabled** 設定がオフになっている場合、ユーザーはプロファイル画像を追加、変更、または削除できないので、管理者が写真を変更した場合、porfile 画像はチームに同期されません。
+<sup>7</sup> Teams では、ユーザーがプロフィール画像を変更できるかどうかを制御するため、テナント管理者によって構成されている[Outlook on the web のメールボックス ポリシー](/powershell/module/exchange/client-access/set-owamailboxpolicy)の設定を優先します。 **ポリシーで -SetPhotoEnabled** 設定がオフになっている場合、ユーザーはプロファイル画像を追加、変更、または削除できないので、管理者が写真を変更した場合、porfile 画像はチームに同期されません。
 <sup>8</sup> 「[オンプレミスでホストされているメールボックスの会議を作成および表示するための要件](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)」セクション記載されている要件を満たす必要があります。 
 
-<sup>9</sup> 最低でも Exchange Online プラン 1 のライセンスが必要です。 詳細については、「オンプレミス ユーザーの Teams チャット データを検索 [する」を参照してください](https://docs.microsoft.com/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+<sup>9</sup> 最低でも Exchange Online プラン 1 のライセンスが必要です。 詳細については、「オンプレミス ユーザーの Teams チャット データを検索 [する」を参照してください](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件
 
@@ -90,24 +90,24 @@ Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサー�
 
 - 必要な Teams ライセンスは、Azure Active Directory 同期ユーザーに割り当てる必要があります。
 
-- ユーザーは、Azure Active Directory と同期する必要があります。 Azure AD Connect を使用して Azure Active Directory と同期する方法については、「[ハイブリッド ID ドキュメント](https://docs.microsoft.com/azure/active-directory/hybrid/)」を参照してください。
+- ユーザーは、Azure Active Directory と同期する必要があります。 Azure AD Connect を使用して Azure Active Directory と同期する方法については、「[ハイブリッド ID ドキュメント](/azure/active-directory/hybrid/)」を参照してください。
 
 - メールボックスは、Exchange Server 2016 累積的更新プログラム 3 以降でホストされます。
 
 - 自動検出および Exchange Web サービスは外部に公開されています。
 
-- OAuth 認証は、完全なハイブリッド構成 (クラシックまたはモダン) を実行する Exchange ハイブリッド構成ウィザードを介して構成することが望ましいです。 ハイブリッド構成ウィザードを使用できない場合は、「[Exchange と Exchange Online 組織の間の OAuth 認証を構成する](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)」の説明に従ってOAuth を構成します。
+- OAuth 認証は、完全なハイブリッド構成 (クラシックまたはモダン) を実行する Exchange ハイブリッド構成ウィザードを介して構成することが望ましいです。 ハイブリッド構成ウィザードを使用できない場合は、「[Exchange と Exchange Online 組織の間の OAuth 認証を構成する](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)」の説明に従ってOAuth を構成します。
 
   > [!NOTE]
   > Exchange は、EvoSTS として知られる Teams サービスからの OAuth トークンを信頼します。 手順 1 で十分ですが、EvoSTS だけで、ACS はカレンダーの空き時間情報の検索に使用されます。
 
 - Azure AD Connect の Exchange ハイブリッド展開機能のチェックボックスが設定されています。
 
-- カレンダー アプリのサポートと Mac 用の Teams Outlook アドインの場合、Exchange Web サービスの URL を Exchange サービス プリンシパルのテナント Azure AD で SPN として構成する必要があります。 この手順は、ハイブリッド構成ウィザードを使用するか、[手動でのハイブリッド先進認証の手順](https://docs.microsoft.com/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)に従って実行します。
+- カレンダー アプリのサポートと Mac 用の Teams Outlook アドインの場合、Exchange Web サービスの URL を Exchange サービス プリンシパルのテナント Azure AD で SPN として構成する必要があります。 この手順は、ハイブリッド構成ウィザードを使用するか、[手動でのハイブリッド先進認証の手順](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)に従って実行します。
 
 これらのユーザーのカレンダー委任を有効にするには、
 
-- 「Skype for Business Online と Skype for Business Online 間の統合と OAuth の構成」の説明に従って、手順 [を完了Exchange Server。](https://docs.microsoft.com/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)次の手順では、Teams のスケジュール アプリケーションに、代理人のアクセス許可を確認するために必要なアクセス許可が提供されます。
+- 「Skype for Business Online と Skype for Business Online 間の統合と OAuth の構成」の説明に従って、手順 [を完了Exchange Server。](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)次の手順では、Teams のスケジュール アプリケーションに、代理人のアクセス許可を確認するために必要なアクセス許可が提供されます。
  
   > [!NOTE]
   > 手順 2 には、委任に必要のない ArchiveApplication の役割の割り当てが含まれています。
@@ -122,12 +122,12 @@ Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサー�
 
 - 条件付きアクセスを使用して、Teams や Exchange のコンプライアンス ポリシーの構成を制御および保護します。 詳細については、「[Teams に条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)」を参照してください
 
-- すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者に Exchange オンプレミス メールボックスがある場合は、プライベート会議を無効にする必要があります。 詳細については、「[プライベート ミーティングのスケジュールを許可する](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-scheduling-private-meetings)」をご覧ください。
+- すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者に Exchange オンプレミス メールボックスがある場合は、プライベート会議を無効にする必要があります。 詳細については、「[プライベート ミーティングのスケジュールを許可する](./meeting-policies-in-teams.md#allow-scheduling-private-meetings)」をご覧ください。
 
-- Exchange ハイブリッド展開では、チャット参加者が使用するメールボックスがクラウド ベースかオンプレミスかにかかわらず、チャット メッセージのコンテンツは検索可能です。 詳細については、「[オンプレミス ユーザーのクラウドベース メールボックスの検索](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)」を参照してください。 Teams でコンテンツを検索する方法については、「[Microsoft 365 コンプライアンス センターのコンテンツ検索](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)」を参照してください。
+- Exchange ハイブリッド展開では、チャット参加者が使用するメールボックスがクラウド ベースかオンプレミスかにかかわらず、チャット メッセージのコンテンツは検索可能です。 詳細については、「[オンプレミス ユーザーのクラウドベース メールボックスの検索](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)」を参照してください。 Teams でコンテンツを検索する方法については、「[Microsoft 365 コンプライアンス センターのコンテンツ検索](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)」を参照してください。
 
-- プレゼンス ステータスについては、Microsoft Teams はメールボックスが Exchange Online でホストされているかオンプレミスでホストされているかを確認する必要があります。 次に、サービスはメールボックスにアクセスする場所を決定します。 Teams サービスが Exchange Online サービスへの REST API 呼び出しを介してメールボックスの場所を確認できるようにするには、「[ハイブリッド構成ウィザードを使用したハイブリッド展開の作成](https://docs.microsoft.com/exchange/hybrid-deployment/deploy-hybrid)」で説明されているように、Exchange ハイブリッド構成ウィザードを実行してExchange ハイブリッド環境を展開する必要があります。
+- プレゼンス ステータスについては、Microsoft Teams はメールボックスが Exchange Online でホストされているかオンプレミスでホストされているかを確認する必要があります。 次に、サービスはメールボックスにアクセスする場所を決定します。 Teams サービスが Exchange Online サービスへの REST API 呼び出しを介してメールボックスの場所を確認できるようにするには、「[ハイブリッド構成ウィザードを使用したハイブリッド展開の作成](/exchange/hybrid-deployment/deploy-hybrid)」で説明されているように、Exchange ハイブリッド構成ウィザードを実行してExchange ハイブリッド環境を展開する必要があります。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
-このトピックに関する完全なトラブルシューティングガイドについては、「[Microsoft Teams と Exchange Server の相互作用の問題のトラブルシューティング](https://docs.microsoft.com/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue)」を確認してください。
+このトピックに関する完全なトラブルシューティングガイドについては、「[Microsoft Teams と Exchange Server の相互作用の問題のトラブルシューティング](/microsoftteams/troubleshoot/known-issues/teams-exchange-interaction-issue)」を確認してください。

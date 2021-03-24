@@ -16,19 +16,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8e7de4f3a91375aee8d58d2a5164f995fee54f22
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a813bef73bb58d9b61be33364c63387913398f9b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815707"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092515"
 ---
 # <a name="teams-for-healthcare"></a>医療関係向けのTeams
 
-Teams は、医療チームと医療従事者に、通信、患者治療の調整、運用効率の向上のための安全な方法を提供します。 ここでは、組織内の医療チームの Teams を管理するために必要な管理者リソースを確認できます。
+Teams は、医療チームと医療従事者に、通信、患者治療の調整、運用効率の向上のための安全な方法を提供します。 ここでは、組織内の医療チームの Teams を管理するために必要な管理者リソースを示します。
 
 |               |               |
 | ------------- | ------------- |
-| ![get-started-teams](../media/get-started-teams.svg)  |  [医療関係組織のためのTeamsを始めましょう](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc) |
-| ![walkthrough-map-teams](../media/walkthrough-map-teams.svg) | [医療関係組織向けテンプレートでTeamsを始めましょう](https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates) |
-| ![チャット](../media/chat.svg)  |  [医療組織向け Secure Messaging で Teams を始めましょう](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) |
+| ![矢印アイコンを指でポイントした手のスクリーンショット](../media/get-started-teams.svg)  |  [医療組織向けの Teams の使用を開始する](./healthcare/teams-in-hc.md) |
+| ![マップ アイコンのスクリーンショット](../media/walkthrough-map-teams.svg) | [医療関係組織向けテンプレートでTeamsを始めましょう](./healthcare/healthcare-templates-admin-console.md) |
+| ![ダイアログ の吹き出しアイコンのスクリーンショット](../media/chat.svg)  |  [医療組織向け Secure Messaging で Teams を始めましょう](./healthcare/messaging-policies-hc.md) |

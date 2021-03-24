@@ -26,12 +26,12 @@ description: Microsoft Teams 遠隔医療、EHR 統合、現場担当者のシ�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 3a33b3321d6809fd816f8c6f9a7534000ed18b94
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867036"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092685"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療機関向け Microsoft Teams の使用を開始する
 
@@ -43,14 +43,14 @@ Microsoft Teams では、病院やその他の医療機関で役立つさまざ�
 - Teams テンプレート
 - ケア コーディネーションとコラボレーション
 
-この機能は、Microsoft Cloud for Healthcare の一部です。 以下、Azure、Dynamics 365、Microsoft 365 の機能を [Microsoft Cloud for Healthcare](https://docs.microsoft.com/industry/healthcare) で統合するこのソリューションの使用方法について説明します。
+この機能は、Microsoft Cloud for Healthcare の一部です。 以下、Azure、Dynamics 365、Microsoft 365 の機能を [Microsoft Cloud for Healthcare](/industry/healthcare) で統合するこのソリューションの使用方法について説明します。
 
 次のビデオでは、Microsoft Teams で医療関連機能のコレクションを使って医療チームのコラボレーションを強化する方法を説明しています。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hqan]
 
 > [!NOTE]
-> このセクションの内容は、お客様の組織で Microsoft Teams が展開済みであることを前提に書かれています。 展開がまだの場合は、「[Microsoft Teams の展開方法](../../How-to-roll-out-teams.md)」をお読みになって展開を開始してください。
+> このセクションの内容は、お客様の組織で Microsoft Teams が展開済みであることを前提に書かれています。 展開がまだの場合は、「[Microsoft Teams の展開方法](../../deploy-overview.md)」をお読みになって展開を開始してください。
 
 以下のシナリオが医療機関に提供されています。
 
@@ -99,7 +99,7 @@ Teams ポリシー パッケージを適用することで、異なる役割に�
 
 ## <a name="teams-templates-for-healthcare-organizations"></a>医療機関向けの Teams テンプレート
 
-病院の環境に適用できる、新しいチーム作成用テンプレートが開発されました。まもなくより多くのテンプレートが利用可能になる予定です。 これにより、医療スタッフは、さまざまな部門や病棟における患者治療のコーディネーションに使用するチームをより簡単に作成できます。 詳細については、「[医療機関向け Teams テンプレートの使用を開始する](healthcare-templates.md)」を参照してください。 循環器科などの院内部門や治療棟のためのチームを作成できます。現在より多くのテンプレートを開発中です。
+病院の環境に適用できる、新しいチーム作成用テンプレートが開発されました。まもなくより多くのテンプレートが利用可能になる予定です。 これにより、医療スタッフは、さまざまな部門や病棟における患者治療のコーディネーションに使用するチームをより簡単に作成できます。 詳細については、「[医療機関向け Teams テンプレートの使用を開始する](./healthcare-templates-admin-console.md)」を参照してください。 循環器科などの院内部門や治療棟のためのチームを作成できます。現在より多くのテンプレートを開発中です。
 
 ## <a name="care-coordination-and-collaboration"></a>ケア コーディネーションとコラボレーション
 

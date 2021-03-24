@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0ad5716dbbe1925a93f4fbfadca7084e39a9599
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 6ceca08be6d69a10fe84daa64d0da4e31c61c67c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347808"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092195"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>Teams の前提条件と環境の依存関係
 
@@ -32,8 +32,8 @@ ms.locfileid: "50347808"
 この記事は、ユーザーの準備段階と並行して実行されるアクティビティである、アップグレードが行われる技術準備段階の一部です。 次の手順に進む前に、前のステージからこれらのアクティビティを完了したと確認します。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
-- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
-- [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
+- [プロジェクトの対象範囲を定義した](./upgrade-define-project-scope.md)
+- [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 Teams は複数の Microsoft 365 サービスと Office 365 サービスを組み合わせたため、これらのサービスの適切な実装と運用に依存します。 これらのサービスには、SharePoint Online、Exchange Online、OneDrive for Business が含まれますが、これらに限定される機能があります。
@@ -44,17 +44,17 @@ Teams は複数の Microsoft 365 サービスと Office 365 サービスを組�
 
 - 組織が Microsoft 365 または 365 ワークロードを展開Office場合は、「使用を開始する」を [参照してください](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)。
 
-- 組織で Microsoft 365 または Office 365 の確認済みドメインが追加または構成されていない場合は、「ドメインに関する [FAQ」](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)を参照してください。
+- 組織で Microsoft 365 または Office 365 の確認済みドメインを追加または構成されていない場合は、「ドメインに関する [FAQ」を参照してください](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)。
 
 - 組織が Azure Active Directory と ID を同期しない場合は、「Microsoft Teams の ID モデルと認証」 [を参照してください](identify-models-authentication.md)。
 
-- 組織に Exchange Online がインストールされていない場合は、「Exchange と Microsoft Teams のやり取り方法について理解する」を [参照してください](Exchange-Teams-interact.md)。
+- 組織で Exchange Online が導入されていない場合は、「[Exchange と Microsoft Teams の連携](Exchange-Teams-interact.md)」をご覧ください。
 
-- 組織に SharePoint Online がインストールされていない場合は [、「SharePoint Online](SharePoint-OneDrive-interact.md)と OneDrive for Business が Microsoft Teams とやり取りする方法について理解する」を参照してください。
+- 組織で SharePoint Online が導入されていない場合は、「[Microsoft Teams との SharePoint Online と OneDrive for Business の連携](SharePoint-OneDrive-interact.md)」をご覧ください。
 
 - [Microsoft 365 グループと Microsoft Teams の対話方法について説明します](Office-365-groups.md)。
 
-- 組織が教育機関で学生情報システムを使用している場合は、Microsoft Teams を展開する前に [、「Microsoft School Data Sync](https://docs.microsoft.com/schooldatasync) へようこそ」を参照してください。
+- 組織が教育機関で学生情報システムを使用している場合は、Microsoft Teams を展開する前に [、「Microsoft School Data Sync](/schooldatasync) へようこそ」を参照してください。
 
 - 組織で公衆交換電話網 (PSTN) 通話オプションを検討している場合は、「音声 - 電話システムと[](calling-plan-landing-page.md)[PSTN](cloud-voice-landing-page.md)接続、最適な通話プラン、[](direct-routing-landing-page.md)電話システムダイレクト ルーティング」を参照してください。
 

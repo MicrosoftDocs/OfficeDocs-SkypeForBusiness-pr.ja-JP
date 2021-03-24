@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で場所のポリシーを作成する
+title: Skype for Business Server で場所ポリシーを作成する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-description: このトピックでは、Skype for Business Server エンタープライズ VoIP で拡張緊急サービス (E9-1-1) の場所ポリシーを構成する方法について説明します。
-ms.openlocfilehash: 4230d6ac1a820cb9612d58b21a2e5b6ae36d8f77
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server エンタープライズ VoIP で拡張緊急サービス (E9-1-1) の場所ポリシーを構成する方法については、このトピックを参照エンタープライズ VoIP。
+ms.openlocfilehash: cee02204a9c5b3708a83e9433f6a88c70230fd64
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822547"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093145"
 ---
-# <a name="create-location-policies-in-skype-for-business-server"></a>Skype for Business Server で場所のポリシーを作成する
+# <a name="create-location-policies-in-skype-for-business-server"></a>Skype for Business Server で場所ポリシーを作成する
 
-このトピックでは、Skype for Business Server エンタープライズ VoIP で拡張緊急サービス (E9-1-1) の場所ポリシーを構成する方法について説明します。 
+Skype for Business Server エンタープライズ VoIP で拡張緊急サービス (E9-1-1) の場所ポリシーを構成する方法については、このトピックを参照エンタープライズ VoIP。 
 
-Skype for Business Server は、場所ポリシーを使用して、クライアント登録時に E9-1-1 の Skype for Business クライアントを有効にします。 場所のポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。 詳細については [、「Skype for Business Server の場所ポリシーを計画する」を参照してください](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。
+Skype for Business Server は、場所ポリシーを使用して、クライアント登録中に Skype for Business クライアントを E9-1-1 で有効にします。 場所のポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。 詳細については [、「Plan location policis for Skype for Business Server」を参照してください](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。
 
-場所ポリシーは、Skype for Business コントロール パネルまたは [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) コマンドレットを使用して定義します。
+場所ポリシーは、Skype for Business コントロール パネルを使用するか [、New-CsLocationPolicy コマンドレットを使用して定義](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) します。
 
 > [!NOTE]
 > Skype for Business Server では、クライアントの複数の緊急電話番号の構成がサポートされます。 複数の緊急電話番号を構成する場合は [、「Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) で複数の緊急電話番号を計画する」および「Skype for Business で複数の緊急電話番号を構成する」の情報に従う [必要があります](configure-multiple-emergency-numbers.md)。 
@@ -38,7 +38,7 @@ Skype for Business Server は、場所ポリシーを使用して、クライア
 
 場所のポリシーを作成するには、作成するユーザーが RTCUniversalServerAdmins グループまたは CsVoiceAdministrator 管理者役割のメンバーか、あるいは同等の管理者権限とアクセス許可を持つ必要があります。
 
-詳細については [、「Skype for Business Server の場所ポリシーを計画する」を参照してください](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。 この手順のコマンドレットでは、次の値を使用して定義された場所ポリシーを使用します。 コマンドレットのパラメーターと値の詳細については [、「New-CsLocationPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps)。
+詳細については [、「Plan location policis for Skype for Business Server」を参照してください](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。 この手順のコマンドレットでは、次の値を使用して定義された場所ポリシーを使用します。 コマンドレットのパラメーターと値の詳細については [、「New-CsLocationPolicy」を参照してください](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)。
 
 
 | **要素**                               | **値**                                                                                                                                                                          |
@@ -57,7 +57,7 @@ Skype for Business Server は、場所ポリシーを使用して、クライア
 
 ### <a name="to-create-location-policies"></a>場所のポリシーを作成するには
 
-1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
+1. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
 
     > [!NOTE]
     > **PstnUsage** の設定がグローバルの PstnUsages 一覧にあらかじめ存在していない場合、CsLocationPolicy は失敗します。

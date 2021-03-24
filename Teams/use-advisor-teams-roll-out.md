@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Teams のアドバイザーを使用して、Microsoft Teams の展開を計画および完了することを支援します。
-ms.openlocfilehash: e6c2fc2ee1eb08839817d3b8c1627582bb239bd8
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 865575bf030720fcd25ae029d4b552730f05a992
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731135"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093767"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -70,7 +70,7 @@ Teams のアドバイザーは現在、次のプランを提供しています�
     - 導入タスクを含む Planner プラン
     - Forms のユーザー アンケート
     - Teams のアドバイザー ボット
-    - Skype for Business のアップグレード プランは、現在 Skype for Business Online またはオンプレミス環境で Skype for Business をご利用のお客様向けに設計されており、アップグレードの行程を正確に把握できるようになっています。 このプランでは、Teams を使い始めたばかりのお客様、Skype for Business と併せて既に Teams を使用しているお客様、あるいはアップグレードの準備ができているお客様のすべてに、変更の実装に実績のあるフレームワークを利用してステップ バイ ステップでアップグレードのプロセスを案内します。 このプランではさらに、[オンライン ガイダンスとベスト プラクティス](https://aka.ms/SkypeToTeams)、[ダウンロード可能なリソース ファイル](https://aka.ms/UpgradeSuccessKit)、[ライブでの 1 対多のアップグレード計画ワークショップ](https://aka.ms/UpgradeWorkshops)の他、成功を支援するさまざまなリソースにアクセスできます。
+    - Skype for Business のアップグレード プランは、現在 Skype for Business Online またはオンプレミス環境で Skype for Business をご利用のお客様向けに設計されており、アップグレードの行程を正確に把握できるようになっています。 このプランでは、Teams を使い始めたばかりのお客様、Skype for Business と併せて既に Teams を使用しているお客様、あるいはアップグレードの準備ができているお客様のすべてに、変更の実装に実績のあるフレームワークを利用してステップ バイ ステップでアップグレードのプロセスを案内します。 このプランではさらに、[オンライン ガイダンスとベスト プラクティス](./upgrade-start-here.md)、[ダウンロード可能なリソース ファイル](https://aka.ms/UpgradeSuccessKit)、[ライブでの 1 対多のアップグレード計画ワークショップ](./upgrade-workshops-landing-page.yml)の他、成功を支援するさまざまなリソースにアクセスできます。
 
 チャット、チーム、チャネル、アプリ プランから始めることをお勧めします。 そのワークロードの展開が完了したら Teams のアドバイザーに戻り、[**チャネルの追加**] を選択して次のワークロードを開始します。
 
@@ -90,11 +90,11 @@ Teams のアドバイザーは現在、次のプランを提供しています�
 
 |アセスメント テスト  |確認できること  |
 |---------|---------|
-|構成済みのバニティ ドメイン     |テナント用に構成された @onmicrosoft.com 以外のドメイン (たとえば、@contoso.onmicrosoft.com) があるかどうか。 もちろん、@onmicrosoft.com ドメインを使用することも、バニティ ドメインを構成することもできます (任意)。 詳細については、「[Microsoft 365 にドメインを追加する](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)」をご覧ください。 |
-|Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが **必須です**。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。    |
+|構成済みのバニティ ドメイン     |テナント用に構成された @onmicrosoft.com 以外のドメイン (たとえば、@contoso.onmicrosoft.com) があるかどうか。 もちろん、@onmicrosoft.com ドメインを使用することも、バニティ ドメインを構成することもできます (任意)。 詳細については、「[Microsoft 365 にドメインを追加する](/microsoft-365/admin/setup/add-domain)」をご覧ください。 |
+|Teams のライセンス     |これは前提条件です。Teams を展開するには、Teams ライセンスが **必須です**。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Teams ライセンスがあるかどうかを確認します。 詳細については、「[Microsoft Teams サービスのサービスの説明](/office365/servicedescriptions/teams-service-description)」を参照してください。    |
 |Exchange Online ライセンス     |使用可能な Exchange Online のライセンスで有効なサブスクリプションを所有しているかどうか 基本的な Teams 機能には Exchange は必要ありませんが、Exchange との統合により、最適な Teams エクスペリエンスが可能になります。 Microsoft Graph 内を検索して、テナントに関連付けられているサブスクリプションを分析し、対象の (割り当て可能なライセンスが少なくとも 1 つはある) Exchange Online ライセンスのサブスクリプションがあるかどうかを検証します。 詳細については、「[Exchange と Teams の連携](exchange-teams-interact.md)」をご覧ください。    |
-|SharePoint Online のライセンス     |使用可能な SharePoint Online のライセンスで有効なサブスクリプションを所有しているかどうか チャットのファイル ストレージに OneDrive for Business を提供する場合、ユーザーごとに SharePoint Online ライセンスを所有することをお勧めします。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) SharePoint Online ライセンスがあるかどうかを確認します。 詳細については、[Teams との SharePoint Online と OneDrive for Business の連携](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)をご覧ください。    |
-|ゲスト アクセスの有効化     |[ゲスト アクセス](guest-access.md)が有効になっているかどうか。 ゲスト アクセスを使用すると、外部ユーザーをチームに招待できます。 「[チームでゲストと共同で作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」を参照して、Teams でゲスト アクセスを有効にします。チェックリストには、必要な Azure AD 構成が含まれています。 |
+|SharePoint Online のライセンス     |使用可能な SharePoint Online のライセンスで有効なサブスクリプションを所有しているかどうか チャットのファイル ストレージに OneDrive for Business を提供する場合、ユーザーごとに SharePoint Online ライセンスを所有することをお勧めします。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) SharePoint Online ライセンスがあるかどうかを確認します。 詳細については、[Teams との SharePoint Online と OneDrive for Business の連携](./sharepoint-onedrive-interact.md)をご覧ください。    |
+|ゲスト アクセスの有効化     |[ゲスト アクセス](guest-access.md)が有効になっているかどうか。 ゲスト アクセスを使用すると、外部ユーザーをチームに招待できます。 「[チームでゲストと共同で作業する](/microsoft-365/solutions/collaborate-as-team)」を参照して、Teams でゲスト アクセスを有効にします。チェックリストには、必要な Azure AD 構成が含まれています。 |
 |構成済み外部アクセス     |[外部アクセス](manage-external-access.md)が有効になっているかどうか。 規定では、オープン フェデレーションで有効になっています。 |
 
 ### <a name="assessments-for-chat-teams-channels-and-apps"></a>チャット、チーム、チャンネル、アプリのアセスメント
@@ -103,8 +103,8 @@ Teams のアドバイザーは現在、次のプランを提供しています�
 
 |アセスメント テスト  |確認できること  |
 |---------|---------|
-|構成済みの Microsoft 365 グループの名前付けポリシー     |名前付け基準が Microsoft 365 グループ用に構成されているかどうか。 Microsoft 365 グループの名前付けポリシーにより、組織はユーザーが作成したチームに対して一貫した名前付け戦略を適用でき、他のグループ ワークロード (Outlook、SharePoint、Planner、Yammer を含む) にも適用できます。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、Microsoft 365 グループに適用される名前付けポリシーの存在を確認します。 詳細については、「[グループの名前付けポリシー](https://docs.microsoft.com/microsoft-365/admin/create-groups/groups-naming-policy)」を参照してください。    |
-|構成済みの Microsoft 365 グループ有効期限ポリシー     |Microsoft 365 グループに対してグループ有効期限ポリシーが定義されているかどうか。 これにより、組織は非アクティブなチームを自動的に削除できます。 規定ではオフになっています。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、値が規定から変更されたかどうかを報告します。 詳細については、「[Microsoft 365 グループの有効期限ポリシー](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)」を参照してください。    |
+|構成済みの Microsoft 365 グループの名前付けポリシー     |名前付け基準が Microsoft 365 グループ用に構成されているかどうか。 Microsoft 365 グループの名前付けポリシーにより、組織はユーザーが作成したチームに対して一貫した名前付け戦略を適用でき、他のグループ ワークロード (Outlook、SharePoint、Planner、Yammer を含む) にも適用できます。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、Microsoft 365 グループに適用される名前付けポリシーの存在を確認します。 詳細については、「[グループの名前付けポリシー](/microsoft-365/admin/create-groups/groups-naming-policy)」を参照してください。    |
+|構成済みの Microsoft 365 グループ有効期限ポリシー     |Microsoft 365 グループに対してグループ有効期限ポリシーが定義されているかどうか。 これにより、組織は非アクティブなチームを自動的に削除できます。 規定ではオフになっています。 このテストでは、Microsoft Graph を介して Azure AD にクエリを実行し、値が規定から変更されたかどうかを報告します。 詳細については、「[Microsoft 365 グループの有効期限ポリシー](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)」を参照してください。    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>ミーティングと会議のアセスメント
 
@@ -112,7 +112,7 @@ Teams のアドバイザーは現在、次のプランを提供しています�
 
 |アセスメント テスト  |確認できること  |
 |---------|---------|
-|電話会議のライセンス    |電話会議のライセンスの有効なサブスクリプションを所有しているかどうか。 これは、電話会議ブリッジを展開する場合の前提条件です。 Microsoft Graph を照会して、(割り当て可能なライセンスが少なくとも 1 つはある) 音声会議ライセンスがあるかどうかを確認します。詳細については、「[Teams アドオンのライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。    |
+|電話会議のライセンス    |電話会議のライセンスの有効なサブスクリプションを所有しているかどうか。 これは、電話会議ブリッジを展開する場合の前提条件です。 Microsoft Graph を照会して、(割り当て可能なライセンスが少なくとも 1 つはある) 音声会議ライセンスがあるかどうかを確認します。詳細については、「[Teams アドオンのライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。    |
 |Stream のライセンス     |使用可能な Microsoft Stream のライセンスで有効なサブスクリプションを所有しているかどうか。 これは、会議の記録を有効にする場合の前提条件です。 Microsoft Graph 内を検索して、(割り当て可能なライセンスが少なくとも 1 つはある) Microsoft Stream ライセンスがあるかどうかを確認します。 Stream の詳細および有効化の方法については、「[Teams のクラウド会議の記録](cloud-recording.md)」をご覧ください。
 
 ### <a name="assessments-for-skype-for-business-upgrade"></a>Skype for Business のアップグレードのアセスメント
@@ -143,7 +143,7 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 
 ## <a name="advisor-for-teams-and-microsoft-365-learning-pathways"></a>Teams および Microsoft 365 学習経路のアドバイザー
 
-[Microsoft 365 学習経路](https://docs.microsoft.com/office365/customlearning/)は、ユーザーをトレーニングし、組織内のチームの使用と導入を増やすためにカスタマイズできるオンデマンド学習ソリューションです。 学習経路を Teams アドバイザーと一緒に使用して、ユーザーを迅速に稼働させ、導入を促進します。
+[Microsoft 365 学習経路](/office365/customlearning/)は、ユーザーをトレーニングし、組織内のチームの使用と導入を増やすためにカスタマイズできるオンデマンド学習ソリューションです。 学習経路を Teams アドバイザーと一緒に使用して、ユーザーを迅速に稼働させ、導入を促進します。
 
 学習経路は、SharePoint Online サイト テンプレートと、ユーザー向けの学習サイトを簡単に構築する機能を提供します。 学習経路トレーニング ポータルをカスタマイズして、ユーザーのニーズに応じたトレーニングおよびサポート コンテンツを含めることができます。 Microsoft オンライン カタログの Teams 再生リストを使用して、独自の再生リストを追加します。
 
@@ -155,9 +155,9 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 
 ### <a name="get-started-in-learning-pathways"></a>学習経路の使用を開始する
 
-学習経路の使用を開始する方法については、「[学習経路の使用を開始する](https://docs.microsoft.com/office365/customlearning/)」をご覧ください。
+学習経路の使用を開始する方法については、「[学習経路の使用を開始する](/office365/customlearning/)」をご覧ください。
 
-ご使用の環境で新しい学習経路ソリューションをセットアップするには、「[新しい学習経路ソリューションのプロビジョニング](https://docs.microsoft.com/office365/customlearning/custom_provision)」を参照してください。
+ご使用の環境で新しい学習経路ソリューションをセットアップするには、「[新しい学習経路ソリューションのプロビジョニング](/office365/customlearning/custom_provision)」を参照してください。
 
 ### <a name="create-a-learning-plan"></a>学習プランを作成する
 
@@ -165,13 +165,13 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 
 学習経路でサイトを構築する前に、時間をかけて利用可能な学習リソースと機能を確認して収集してください。 学習経路を使用すると、Microsoft 365 トレーニング ページのコンテンツを使用し、作成したコンテンツを追加して、独自のニーズに合わせてサイトを調整できます。
 
-詳細については、「[学習経路のコンテンツを計画する](https://docs.microsoft.com/office365/customlearning/custom_plancontent)」および「[リモート従業員をサポートするためのリソース](https://docs.microsoft.com/office365/customlearning/custom_plancontent_remoteresources)」を参照してください。
+詳細については、「[学習経路のコンテンツを計画する](/office365/customlearning/custom_plancontent)」および「[リモート従業員をサポートするためのリソース](/office365/customlearning/custom_plancontent_remoteresources)」を参照してください。
 
 #### <a name="explore-teams-content-in-learning-pathways"></a>学習経路で Teams のコンテンツを探索する
 
 学習経路は、SharePoint サイトにオンライン カタログに接続されたWebパーツを提供します。 Web パーツをホストする Microsoft 365 トレーニング ページには、学習経路で利用可能なすべてのトレーニングが表示されます。 何が利用可能で、コンテンツがどのように編成されているかを理解するために、ページ全体を概観してください。
 
-[学習経路サイトにアクセスし](https://docs.microsoft.com/office365/customlearning/custom_goto)、**[Microsoft 365 トレーニング]** を選択してから、**[Microsoft Teams]** を選択して、オンライン カタログ内のすべての Teams トレーニング 再生リストを表示します。 再生リストを選択し、**[次へ]** ボタンや **[前へ]** ボタンを選択して移動します。 下矢印をクリックして再生リストの内容を表示し、特定のトピックに移動することもできます。
+[学習経路サイトにアクセスし](/office365/customlearning/custom_goto)、**[Microsoft 365 トレーニング]** を選択してから、**[Microsoft Teams]** を選択して、オンライン カタログ内のすべての Teams トレーニング 再生リストを表示します。 再生リストを選択し、**[次へ]** ボタンや **[前へ]** ボタンを選択して移動します。 下矢印をクリックして再生リストの内容を表示し、特定のトピックに移動することもできます。
 
 #### <a name="take-an-inventory-of-teams-learning-resources-in-your-organization"></a>組織内の Teams 学習リソースのインベントリを作成します
 
@@ -179,7 +179,7 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 
 #### <a name="build-your-site-in-learning-pathways"></a>学習経路でサイトを構築する
 
-学習経路の[管理サクセス センター](https://docs.microsoft.com/office365/customlearning/custom_successcenter)は、組織内の学習経路の計画とカスタマイズに役立つガイダンスとリソースを提供します。 [サイトのカスタマイズ](https://docs.microsoft.com/office365/customlearning/custom_overview)、コンテンツの表示と非表示、カスタム再生リストの作成などの方法を確認してください。
+学習経路の[管理サクセス センター](/office365/customlearning/custom_successcenter)は、組織内の学習経路の計画とカスタマイズに役立つガイダンスとリソースを提供します。 [サイトのカスタマイズ](/office365/customlearning/custom_overview)、コンテンツの表示と非表示、カスタム再生リストの作成などの方法を確認してください。
 
 管理サクセス センターにアクセスするには、学習経路のホームページで、**[管理サクセス センター]** を選択します。
 
@@ -200,7 +200,7 @@ Teams のアドバイザーが展開チームを作成すると、アドバイ�
 
 Teamsのヘルプ デスクとチャンピオンの準備に関するガイダンスとリソースについては、「[組織のトレーニング](https://adoption.microsoft.com/microsoft-teams/#train-your-org)」および「[チャンピオンの構築](https://adoption.microsoft.com/microsoft-teams/#build-champions)」を参照してください。
 
-ユーザーの「ハウツー」の質問に答える、頼りになる連絡先として、学習経路サイトでユーザーをトレーニングし、サポートチケットを作成する代わりに、ヘルプデスクとチャンピオンを使用できます。 トレーニングとサポートのページを作成して、ヘルプデスクとチャンピオンに[学習経路サイトをカスタマイズする](https://docs.microsoft.com/office365/customlearning/)ように促し、その後ユーザーが自分で利用できるように、チーム内の[チャネルにタブとして追加](#add-your-site-to-teams)します。
+ユーザーの「ハウツー」の質問に答える、頼りになる連絡先として、学習経路サイトでユーザーをトレーニングし、サポートチケットを作成する代わりに、ヘルプデスクとチャンピオンを使用できます。 トレーニングとサポートのページを作成して、ヘルプデスクとチャンピオンに[学習経路サイトをカスタマイズする](/office365/customlearning/)ように促し、その後ユーザーが自分で利用できるように、チーム内の[チャネルにタブとして追加](#add-your-site-to-teams)します。
 
 ### <a name="drive-adoption"></a>導入の促進
 
@@ -212,7 +212,7 @@ Teamsのヘルプ デスクとチャンピオンの準備に関するガイダ�
 
 ガイダンス、導入キット、ベスト プラクティスなどを含むこれらのリソースを確認して、ロールアウトと導入計画を成功させるのに役立ててください。  
 
-- [学習経路の導入を促進する](https://docs.microsoft.com/office365/customlearning/driveadoption)
+- [学習経路の導入を促進する](/office365/customlearning/driveadoption)
 - [Microsoft Teams を導入する](adopt-microsoft-teams-landing-page.md)
 - [Teams の導入 リソース](https://adoption.microsoft.com/microsoft-teams/)
 
@@ -268,10 +268,10 @@ Teams のアドバイザーは、非 EUII (エンド ユーザー識別情報) �
 
 ## <a name="related-topics"></a>関連トピック
 
-[Teams アドバイザーをカスタマイズする](https://docs.microsoft.com/office365/customlearning/custom_teamsadvisor)
+[Teams アドバイザーをカスタマイズする](/office365/customlearning/custom_teamsadvisor)
 
-[Teams の展開方法](How-to-roll-out-teams.md)
+[Teams の展開方法](./deploy-overview.md)
 
 [Teams でチームを編成するためのベスト プラクティス](best-practices-organizing.md)
 
-[ライセンスのための製品名とサービス プラン識別子](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+[ライセンスのための製品名とサービス プラン識別子](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)

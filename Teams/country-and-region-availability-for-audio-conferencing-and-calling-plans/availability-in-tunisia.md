@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: チュニジアで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを以下に示します。
-ms.openlocfilehash: 69e3359a56367a14429953dadb50639e497673fc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: チュニジアで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスは次のとおりです。
+ms.openlocfilehash: c95a143b6f5f76c37d9e9578a2b676adb91a58eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825457"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094579"
 ---
 # <a name="availability-in-tunisia"></a>チュニジアの空き時間
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-チュニジアで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを以下に示します。
+チュニジアで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスは次のとおりです。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +72,7 @@ ms.locfileid: "49825457"
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は [、「Skype for Business](/microsoftteams/getting-service-phone-numbers)および Microsoft Teams のサービス電話番号を取得する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は [、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号を取得する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -84,7 +84,6 @@ ms.locfileid: "49825457"
   
 ## <a name="related-topics"></a>関連項目
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

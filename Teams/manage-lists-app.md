@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: e0fb125ede9300395e045a0c5640abd075547562
-ms.sourcegitcommit: 04eba352d9e203aa9cd1282c4f4c7158a0469678
-ms.translationtype: HT
+ms.openlocfilehash: aa26dd24fac90b023453e3834baf51da6f292082
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "49944612"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092255"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -70,7 +70,7 @@ Teams に移行する前であれば、郵便配達員は郵便局に戻り、Ex
 
 リストのデータは SharePoint Online のチーム サイトに保存されます。 SharePoint Online と Teams の相互作用については、「[Teams との SharePoint Online と OneDrive for Business の相互作用](SharePoint-OneDrive-interact.md)」を参照してください。
 
-SharePoint で設定したアクセス許可は、リスト アプリで作成したリストに適用されます。 既定では、リストは、ユーザーが所属するサイトから権限を継承します。 これらのアクセス許可は、ユーザーがリストの作成や編集をできるかどうかなど、ユーザーが実行可能なアクションの種類を管理します。 詳細については、「[SharePoint でのアクセス許可レベル](https://docs.microsoft.com/sharepoint/understanding-permission-levels)」と「[SharePoint Server でのユーザー アクセス許可とアクセス許可レベル](https://docs.microsoft.com/sharepoint/sites/user-permissions-and-permission-levels)」を参照してください。
+SharePoint で設定したアクセス許可は、リスト アプリで作成したリストに適用されます。 既定では、リストは、ユーザーが所属するサイトから権限を継承します。 これらのアクセス許可は、ユーザーがリストの作成や編集をできるかどうかなど、ユーザーが実行可能なアクションの種類を管理します。 詳細については、「[SharePoint でのアクセス許可レベル](/sharepoint/understanding-permission-levels)」と「[SharePoint Server でのユーザー アクセス許可とアクセス許可レベル](/sharepoint/sites/user-permissions-and-permission-levels)」を参照してください。
 
 特定のシナリオでは、ユーザーがリストで実行可能なアクションを制限する必要がある場合があります。 たとえば、あるチーム内のユーザーがすべてのチーム メンバーに変更が適用されるリスト ビューの編集を行う場合や、チームの所有者や特定のチーム メンバーにのみリスト ビューの編集を許可する必要がある場合などです。 詳細については、「[SharePoint リストまたはライブラリのアクセス許可をカスタマイズする方法](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)」を参照してください。
 
@@ -105,15 +105,15 @@ SharePoint で設定したアクセス許可は、リスト アプリで作成�
 
 ## <a name="search-the-audit-log-for-list-events"></a>Teams でリスト イベントの監査ログを検索する
 
-リストは、企業レベルの監査で有効になっているので、セキュリティ/コンプライアンス センターの監査ログでリストやリスト アイテムのイベントを検索できます。 詳細については、「[セキュリティ/コンプライアンス センターで監査ログを検索する](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」を参照してください。
+リストは、企業レベルの監査で有効になっているので、セキュリティ/コンプライアンス センターの監査ログでリストやリスト アイテムのイベントを検索できます。 詳細については、「[セキュリティ/コンプライアンス センターで監査ログを検索する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」を参照してください。
 
-Teams のリスト アプリに関連する監査イベントの一覧については、「[SharePoint リスト アクティビティ](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)」を参照してください。
+Teams のリスト アプリに関連する監査イベントの一覧については、「[SharePoint リスト アクティビティ](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)」を参照してください。
 
 監査ログを検索できるようになるには、最初に[セキュリティ/コンプライアンス センター](https://protection.office.com) で監査をオンにする必要があります。 利用できる監査データは、監査を有効にした時点以降のデータのみであることにご注意ください。
 
 ## <a name="power-automate-power-apps-and-graph-api"></a>Power Automate、Power Apps、Graph API
 
-リストはワークフローについては [Power Automate](https://docs.microsoft.com/power-automate/flow-types) を、リスト フォームについては [Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-list-form) をサポートしています。 開発者は[リスト API](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) を使用して、Microsoft Graph を介してリストのデータにソースとして接続することができます。
+リストはワークフローについては [Power Automate](/power-automate/flow-types) を、リスト フォームについては [Power Apps](/powerapps/maker/canvas-apps/customize-list-form) をサポートしています。 開発者は[リスト API](/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest) を使用して、Microsoft Graph を介してリストのデータにソースとして接続することができます。
 
 ## <a name="give-feedback-or-report-an-issue"></a>フィードバックの提供/問題の報告
   

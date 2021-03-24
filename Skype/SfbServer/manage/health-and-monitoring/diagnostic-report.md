@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: '概要: Skype for Business Server の診断レポートについて説明します。'
-ms.openlocfilehash: 89639c0c00081fa4dd01211cc33074585061ff57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816897"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095241"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server の診断レポート
  
 **概要:** Skype for Business Server の診断レポートについて説明します。
   
-診断レポートは、失敗したセッションの診断とトラブルシューティングの情報を提供します。 この情報には、セッションの失敗時に報告された診断 ID と診断ヘッダーの両方が含まれます。 診断 ID は SIP メッセージに添付される一意の識別子 (ms-diagnostics ヘッダーの形式) ですが、診断ヘッダーには診断 ID の説明が付随します。 レポートには、レポート コンポーネントで知られている、貴重なトラブルシューティングの詳細が含まれる場合があります。 例:
+診断レポートは、失敗したセッションの診断およびトラブルシューティング情報を提供します。 この情報には、セッションが失敗した場合に報告された診断 ID と診断ヘッダーの両方が含まれます。 診断 ID は SIP メッセージに接続される一意の識別子 (ms-diagnostics ヘッダーの形式) ですが、診断ヘッダーには診断 ID の説明が付属しています。 レポートには、レポート コンポーネントで知られている貴重なトラブルシューティングの詳細が含まれている場合があります。 例:
   
 - エラーを生成した PSTN ゲートウェイによって提供された原因コード。発信通話が PSTN ネットワークで失敗すると、ISDN User Part (ISUP) の原因コードが自動的に生成されます。たとえば、PSTN ゲートウェイは原因コード 34 を送信して、通話を完了するための使用可能な回線またはチャネルが存在しないことを示す場合があります。
     
@@ -33,7 +33,7 @@ ms.locfileid: "49816897"
     
 ## <a name="accessing-the-diagnostic-report"></a>診断レポートへのアクセス
 
-診断レポートにアクセスするには [、Skype for Business Server](peer-to-peer-session-detail-report.md) のピアツーピア セッション詳細レポートまたは電話会議詳細レポートの診断レポート (詳細) 指標をクリックします。
+診断レポートにアクセスするには [、Skype for Business Server](peer-to-peer-session-detail-report.md) のピアツーピア セッション詳細レポートまたは会議詳細レポートの診断レポート (詳細) メトリックをクリックします。
   
 ## <a name="filters"></a>フィルター
 
@@ -60,6 +60,4 @@ ms.locfileid: "49816897"
 |**会議参加時間 (ミリ秒)** <br/> |いいえ  <br/> |ユーザーが会議に参加するのにかかった時間 (ミリ秒)。  <br/> |
 |**診断ヘッダー** <br/> |いいえ  <br/> |診断 ID の説明。  <br/> |
    
-診断エラーの一覧は [、[Ms-Diagnostics Header] ページで確認できます](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx)。
-  
-
+診断エラーの一覧は [、[Ms-Diagnostics Header] ページに表示されます](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3)。

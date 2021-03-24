@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe8b9192c9d1b85e23f2d17daa067630cebd15f2
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: ddbdc84228011c4db3c0eab01bb1bab4f5d773c6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614933"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092605"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -121,7 +121,7 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 
 Teams の会議アドインは継続して機能が開発されていますので、次について認識しておいてください。
 
-- Teams 会議アドインには、会議をスケジュールするプライマリ ユーザーの Exchange メールボックスが必要です。 Outlook プロファイルに少なくとも 1 つの Exchange メールボックスが構成されていることを確認し、アドインを使用してTeams の会議をスケジュールします。 Exchange の要件の詳細については、「[Exchange とTeams の連携](https://docs.microsoft.com/microsoftteams/exchange-teams-interact)」を参照してください。
+- Teams 会議アドインには、会議をスケジュールするプライマリ ユーザーの Exchange メールボックスが必要です。 Outlook プロファイルに少なくとも 1 つの Exchange メールボックスが構成されていることを確認し、アドインを使用してTeams の会議をスケジュールします。 Exchange の要件の詳細については、「[Exchange とTeams の連携](./exchange-teams-interact.md)」を参照してください。
 - このアドインは、特定の参加者でスケジュール設定された会議向けで、チャネル内の会議向けではありません。 チャネル会議は Teams 内でスケジュール設定される必要があります。
 - 認証プロキシがユーザーの PC および Teams サービスのネットワーク パス内にある場合、アドインは機能しません。
 - ユーザーが Outlook 内でライブ イベントをスケジュールすることはできません。 Teams に移動し、ライブ イベントをスケジュールします。 詳細については、「[Microsoft Teams のライブ イベントについて](teams-live-events/what-are-teams-live-events.md)」を参照してください。
@@ -142,7 +142,7 @@ Outlook 用の Teams 会議アドインをインストールできない場合�
 
 - Windows 7 ユーザーは、Teams 会議アドインを機能させるために、[Windows ユニバーサル C ランタイム更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
 - ユーザーが Teams で会議をスケジュールできる Teams アップグレード ポリシーを持っていることを確認します。 詳細については、「[Skype for Business から Teams へのアップグレード](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
-- Outlook アドインを許可する Teams 会議ポリシーが設定されていることを確認します。 詳細については、「[Teams での会議ポリシーを管理する](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in)」を参照してください。
+- Outlook アドインを許可する Teams 会議ポリシーが設定されていることを確認します。 詳細については、「[Teams での会議ポリシーを管理する](./meeting-policies-in-teams.md#allow-the-outlook-add-in)」を参照してください。
 - ユーザーが Teams デスクトップ クライアントをインストールしていることを確認します。 Teams の Web クライアントのみを使用している場合には、会議アドインはインストールされません。
 - ユーザーが Outlook 2013 以降をインストールしていることを確認します。
 - ユーザーが regsvr32.exe の実行権限を持っていることを確認します。
@@ -175,11 +175,11 @@ Outlook 用の Teams 会議アドインをインストールできない場合�
 
 ### <a name="delegate-scheduling-does-not-work"></a>代理人によるスケジュール設定が機能しない
 
-管理者が、[Exchange Web Server (EWS) へのアクセスを制御する](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)ように Microsoft Exchange を構成している場合、代理人は上司の代わりに Teams 会議をスケジュールできません。 この構成のソリューションは開発中で、今後リリースされる予定です。 回避策として、管理者は次の文字列を EWS の許可リストに追加することができます: "*SchedulingService*"。 
+管理者が、[Exchange Web Server (EWS) へのアクセスを制御する](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)ように Microsoft Exchange を構成している場合、代理人は上司の代わりに Teams 会議をスケジュールできません。 この構成のソリューションは開発中で、今後リリースされる予定です。 回避策として、管理者は次の文字列を EWS の許可リストに追加することができます: "*SchedulingService*"。 
 
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)
 
 - [Outlook から Teams の会議のスケジュールを設定する](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)

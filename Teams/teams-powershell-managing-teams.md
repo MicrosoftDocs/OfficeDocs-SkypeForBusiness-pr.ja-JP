@@ -13,18 +13,18 @@ ms.collection:
 description: Teams PowerShell を使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4200c23f6320e67781353e62363d588c230fceb7
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: bd302e2e5572c98e3338f0803155876e1c7689fc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756160"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094147"
 ---
 # <a name="manage-teams-with-microsoft-teams-powershell"></a>Microsoft Teams PowerShell で Teams を管理する
 
 この記事では、Microsoft Teams PowerShell を使用して Teams と Skype for Business を管理する方法について説明します。 
 
-このガイダンスと Microsoft Teams コマンドレット リファレンスと [Skype](https://docs.microsoft.com/powershell/teams/?view=teams-ps) for Business コマンドレット リファレンス [を組み合わせて使用します](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)。
+このガイダンスと Microsoft Teams コマンドレット リファレンスと [Skype](/powershell/teams/?view=teams-ps) for Business コマンドレット リファレンス [を組み合わせて使用します](/powershell/skype/intro?view=skype-ps)。
 
 ## <a name="create-and-manage-teams-using-powershell"></a>PowerShell を使用してチームを作成および管理する
 
@@ -43,16 +43,16 @@ New-Team -Name "Contoso Marketing" -Description "Collaboration space for Contoso
 > [!NOTE]
 > - Skype for Business Online Connector は Teams PowerShell に統合されています。 現在、パブリック プレビューで利用できます。 Teams に適用される Skype for Business Online コマンドレットは、Teams PowerShell モジュールでネイティブで使用できます。 インストール手順は、Teams [PowerShell のインストールに関する記事を参照](teams-powershell-install.md) してください。
 >
-> - Skype for Business Online に接続すると、PowerShell セッションでコマンドレットを使用できるようになります。 詳細については、「[Office 365 PowerShell を使用して Skype for Business Online を管理する](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)」を参照してください。
+> - Skype for Business Online に接続すると、PowerShell セッションでコマンドレットを使用できるようになります。 詳細については、「[Office 365 PowerShell を使用して Skype for Business Online を管理する](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)」を参照してください。
 
-Skype for Business コマンドレット モジュールでポリシーを管理するための [コマンドレットを見つける](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)。
+Skype for Business コマンドレット モジュールでポリシーを管理するための [コマンドレットを見つける](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)。
 
 ポリシーは、個々のユーザーに細かく適用できる設定のまとまりです。 各ポリシーの種類にはポリシーそのものの作成、表示、削除、更新を行い、これらのポリシーをユーザーに割り当てるための独自のコマンドレットのセットがあります。 一般的な構成は次のとおりです。
 
 - **GET** コマンド (例: 組織内で割り当て可能なポリシー ドキュメント) を返します。このドキュメントには、ユーザーが使用できる Microsoft が作成したポリシーや、作成したカスタム ポリシーが含まれます。 ``Get-CsTeamsMeetingPolicy``
    - 組織で作成したカスタム ポリシーのみを検索するには、次を使用します ``-Filter "tag:*"`` 。
 
-- **新** しいコマンド (例: 組織のユーザーに割り当てる新しいポリシー ``New-CsTeamsMeetingPolicy`` を作成します)。 すべてのポリシーがカスタム ポリシーの作成をサポートするわけではありません。 多くの場合、組織で使用するポリシーに、サポート対象の設定の組み合わせがあることを確認するためです。
+- **新** しいコマンド (例: 組織のユーザーに割り当てる新 ``New-CsTeamsMeetingPolicy`` しいポリシーを作成します)。 すべてのポリシーがカスタム ポリシーの作成をサポートするわけではありません。 多くの場合、組織で使用するポリシーに、サポート対象の設定の組み合わせがあることを確認するためです。
 
 - **SET** コマンド (例: ``Set-CsTeamsMeetingPolicy`` 特定のポリシーに特定の値を設定します)。 一部のポリシーには、使用できない SET コマンドや、ポリシーでカスタマイズできないパラメーターが含まれています。 PowerShell の説明では、カスタマイズできないパラメーターが示されます。 
    - カスタム ポリシーが割り当てられていない組織内のユーザーに既定で割り当てられるポリシーを編集するには、``Set-Cs<PolicyName> -Identity Global`` を実行します。
@@ -64,7 +64,7 @@ Skype for Business コマンドレット モジュールでポリシーを管理
    - カスタム ポリシーの割り当てを削除し、組織の既定のポリシーにユーザーを戻すには、``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null`` を実行します。
 
 > [!TIP]
-> すべてのポリシーでカスタム ポリシーの作成が許可されているわけではなく、一部のポリシーにはカスタマイズできない設定が含まれています (そのため、設定は表示できますが、``set-`` と``new-`` の間にカスタム値を設定できません)。 各コマンドレットのドキュメントでは、パラメーターが顧客が使用できるかどうかが示されます。
+> すべてのポリシーでカスタム ポリシーの作成が許可されているわけではなく、一部のポリシーにはカスタマイズできない設定が含まれています (そのため、設定は表示できますが、``set-`` と``new-`` の間にカスタム値を設定できません)。 各コマンドレットのドキュメントでは、パラメーターがユーザーが使用できるかどうかが示されます。
 
 共通パラメーター:
 
@@ -72,7 +72,7 @@ Skype for Business コマンドレット モジュールでポリシーを管理
 
 ## <a name="manage-configurations-via-powershell"></a>PowerShell で構成を管理する
 
-Skype for Business コマンドレット モジュールで構成を管理するための [コマンドレットを見つける](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)。
+Skype for Business コマンドレット モジュールで構成を管理するための [コマンドレットを見つける](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)。
 
 構成は、サービスで維持される設定のバケットで、ユーザー レベルでは指定できない設定です。 設定は常に組織全体に適用されます。 グローバル構成は、組織で唯一の有効な構成です。 各構成の種類には、次の 2 つの主なコマンドレットが用意されています。
 
@@ -91,8 +91,8 @@ Skype for Business コマンドレット モジュールで構成を管理する
 
 [Teams PowerShell のリリース ノート](teams-powershell-release-notes.md)
 
-[Teams コマンドレット リファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Teams コマンドレット リファレンス](/powershell/teams/?view=teams-ps)
 
-[Skype for Business コマンドレット リファレンス](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Skype for Business コマンドレット リファレンス](/powershell/skype/intro?view=skype-ps)
 
 [Teams 管理者ロールを使用してTeams を管理します](using-admin-roles.md)

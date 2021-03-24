@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d1a6462d0cb1581142eb2f5076e6b2ebad2b9003
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 3022b1d1fbeff9713741955a0b40fd553028de0e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196521"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094393"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams のアプリ、ボット、およびコネクタ
 
@@ -37,15 +37,15 @@ Teams には、リスト、Tasks、称賛、承認などを含む一連の組み
 
 ## <a name="use-third-party-apps"></a>サードパーティ製アプリを使用する
 
-Microsoft 提供のアプリに加えて、Microsoft 認定のサードパーティ製アプリを使用できます。 Microsoft は、Microsoft 365 開発者パートナーと協力して、Teams アプリとアドインの使用に関する決定を迅速化するために必要な情報を提供します。詳細については、「[Microsoft Teams アプリのセキュリティとコンプライアンス](https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps)」を参照してください。
+Microsoft 提供のアプリに加えて、Microsoft 認定のサードパーティ製アプリを使用できます。 Microsoft は、Microsoft 365 開発者パートナーと協力して、Teams アプリとアドインの使用に関する決定を迅速化するために必要な情報を提供します。詳細については、「[Microsoft Teams アプリのセキュリティとコンプライアンス](/microsoft-365-app-certification/teams/teams-apps)」を参照してください。
 
 ## <a name="use-teams-templates"></a>Teams テンプレートを使用する
 
-また、Microsoft Teams 用の実稼働可能なアプリ、[Teams テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)を使用することもできます。コミュニティ主導型、オープン ソースで、GitHub で利用できます。
+また、Microsoft Teams 用の実稼働可能なアプリ、[Teams テンプレート](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)を使用することもできます。コミュニティ主導型、オープン ソースで、GitHub で利用できます。
 
 ## <a name="create-custom-apps"></a>カスタム アプリを作成する
 
-Teams の [Microsoft Power Platform](teams-power-platfom-integration.md) との統合を使用すると、カスタムのローコード (わずかなコードを記述するだけで使用できる) ソリューションをすばやく構築できます。 ビジネス ニーズに合わせて独自のカスタム アプリを作成することもできます。 詳細については、「[Microsoft Teams 用アプリを構築する](https://docs.microsoft.com/microsoftteams/platform/overview)」を参照してください。  
+Teams の [Microsoft Power Platform](teams-power-platfom-integration.md) との統合を使用すると、カスタムのローコード (わずかなコードを記述するだけで使用できる) ソリューションをすばやく構築できます。 ビジネス ニーズに合わせて独自のカスタム アプリを作成することもできます。 詳細については、「[Microsoft Teams 用アプリを構築する](/microsoftteams/platform/overview)」を参照してください。  
 
 
 ## <a name="apps-deployment-decisions"></a>アプリの展開に関する決定事項
@@ -58,7 +58,7 @@ Teams は、すぐに使用できる優れたコラボレーション エクス�
 
 ### <a name="app-availability-settings"></a>アプリの可用性の設定 
 
-Teams は、Microsoft とサード パーティによって発行された複数のアプリを提供します。それらのアプリは、ユーザー参加の促進、生産性のサポート、一般に使用されるビジネス サービスの Teams への統合に利用できます。 Teams Store からアプリを入手してください。 既定では、すべてのアプリ ([Teams Store 承認プロセス](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)で提出したカスタム アプリを含む) が、すべてのユーザーに対してオンにされています。 たとえば、ユーザーは Planner アプリを使用して Teams のチーム タスクを作成および管理できます。
+Teams は、Microsoft とサード パーティによって発行された複数のアプリを提供します。それらのアプリは、ユーザー参加の促進、生産性のサポート、一般に使用されるビジネス サービスの Teams への統合に利用できます。 Teams Store からアプリを入手してください。 既定では、すべてのアプリ ([Teams Store 承認プロセス](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)で提出したカスタム アプリを含む) が、すべてのユーザーに対してオンにされています。 たとえば、ユーザーは Planner アプリを使用して Teams のチーム タスクを作成および管理できます。
 
 既定では、すべての Microsoft 提供のアプリ、サード パーティ製、カスタム アプリが使用可能になっていて、個別のアプリをオンまたはオフにすることができます。 すべてのサード パーティ製および/またはカスタム アプリを組織全体でオンまたはオフにできる、組織全体の設定があります。
 
@@ -82,7 +82,7 @@ Teams は、Microsoft とサード パーティによって発行された複数
 
 | 確認事項 | アクション |
 |--------------|--------|
-|組織でカスタムのボットを許可しますか?|ボットの追加の詳細については、「[Microsoft Teams でプライベートのチャットやチャネルのボットを追加する](add-bots.md)」を参照してください。 カスタムのボットをオンまたはオフにする方法の詳細については、「[Microsoft Teams でのアプリの管理設定](admin-settings.md)」を参照してください。|
+|組織でカスタムのボットを許可しますか?|ボットの追加の詳細については、「[Microsoft Teams でプライベートのチャットやチャネルのボットを追加する](/microsoftteams/platform/bots/what-are-bots)」を参照してください。 カスタムのボットをオンまたはオフにする方法の詳細については、「[Microsoft Teams でのアプリの管理設定](admin-settings.md)」を参照してください。|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>組み込みタブとカスタム タブ
@@ -113,7 +113,7 @@ Teams は、Microsoft とサード パーティによって発行された複数
 
 | 確認事項 | アクション |
 |--------------|--------|
-| <br>誰がアクティビティ レポートの確認を必要としていて、レポートを表示するための適切なアクセス許可が割り当てられているか? |<ul><li>ユーザーに管理者の役割を割り当てたくない場合は、[レポート閲覧者の役割を割り当てる](teams-activity-reports.md#reports-reader-role)ことができます。</li><li>Azure Active Directory で管理者の役割を割り当てる方法の詳細については、「[役割とアクセス許可](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)」および「[役割の表示と割り当て](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。</li></ul> |
+| <br>誰がアクティビティ レポートの確認を必要としていて、レポートを表示するための適切なアクセス許可が割り当てられているか? |<ul><li>ユーザーに管理者の役割を割り当てたくない場合は、[レポート閲覧者の役割を割り当てる](teams-activity-reports.md#reports-reader-role)ことができます。</li><li>Azure Active Directory で管理者の役割を割り当てる方法の詳細については、「[役割とアクセス許可](/azure/active-directory/users-groups-roles/directory-assign-admin-roles)」および「[役割の表示と割り当て](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。</li></ul> |
 |||
 
 ### <a name="app-templates"></a>アプリ テンプレート
@@ -122,10 +122,5 @@ Teams は、Microsoft とサード パーティによって発行された複数
 
 | 確認事項 | 操作 |
 |--------------|--------|
-| アイスブレーカーなどの Teams アプリ テンプレートをインストールしますか? |詳細については、「[Microsoft Teams 用のアプリ テンプレート](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)」を参照してください。|
+| アイスブレーカーなどの Teams アプリ テンプレートをインストールしますか? |詳細については、「[Microsoft Teams 用のアプリ テンプレート](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json)」を参照してください。|
 |||
-
-
-
-
-

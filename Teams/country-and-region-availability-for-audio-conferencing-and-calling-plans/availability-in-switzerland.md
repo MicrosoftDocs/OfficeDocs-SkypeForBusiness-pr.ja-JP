@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをスイスで利用できるようにする方法について説明します。
-ms.openlocfilehash: 5b896ae2cc7d0e0e1581a269c654603df5f11c57
-ms.sourcegitcommit: c49698e03fa3bdd7c82496189b200ac6bb4e05a1
+description: スイスで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスは次のとおりです。
+ms.openlocfilehash: 8fbcbe1e241817729e70f311e0187182b43fd663
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48320752"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092675"
 ---
 # <a name="availability-in-switzerland"></a>スイスでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをスイスで利用できるようにする方法について説明します。
+スイスで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを以下に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい: <br/><ul><li> Zurich</ul>専用の電話番号が必要な場合は、「 [サービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい: <br/><ul><li> Zurich</ul>専用の電話番号が必要な場合は、「サービスの [電話番号を取得する」を参照してください](../getting-service-phone-numbers.md)。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -60,8 +60,8 @@ ms.locfileid: "48320752"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランの利用可能な時間 (分)。 |カレンダーの月ごとに、次の4つのプランオプションを利用できます。 <ul><li>120分国内通話プラン </li><li>240分国内通話プラン</li></li><li>1200分国内通話プラン </li></li><li>国内および国際通話プラン: 1200 分 (600 国内通話 (予定表の月の最初に到達した方)</li></li> |
-|有料番号への通話発信は可能ですか?  <br/> | この時点ではサポートされていません。 <br/> |
+|通話プランで利用できる分数。 |予定表の月ごとに 4 つのプラン オプションを利用できます。 <ul><li>120 分の国内通話プラン </li><li>240 分の国内通話プラン</li></li><li>1200 分の国内通話プラン </li></li><li>国内通話と国際通話プラン: 国内通話の 1200 分 (OR- 国際通話の 600 分)(カレンダー月の最初に到達した方)</li></li> |
+|プレミアム番号への発信通話はできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
@@ -72,7 +72,7 @@ ms.locfileid: "48320752"
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューの有料または無料の電話番号を取得する場合は、「 [サービスの電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「サービスの電話番号を取得する」を [参照してください](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -84,10 +84,8 @@ ms.locfileid: "48320752"
   
 ## <a name="related-topics"></a>関連項目
 
-[サービス電話番号を取得する](/microsoftteams/getting-service-phone-numbers)
+[サービス電話番号を取得する](../getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 
-

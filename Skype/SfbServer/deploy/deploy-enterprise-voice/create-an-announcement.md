@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: Skype for Business Server エンタープライズ VoIP でアナウンス アプリケーションのお知らせを作成または削除します。 これは、割り当てられていない番号への呼び出しの処理方法に影響します。
-ms.openlocfilehash: 9f2b4fcda8e98d4b939b6b443da875dbe153546c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server アプリケーションでアナウンス アプリケーションのお知らせを作成またはエンタープライズ VoIP。 これは、割り当てられていない番号の呼び出しの処理方法に影響します。
+ms.openlocfilehash: 571dce52366430c0e13f442de4917a2c51ed056f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824907"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093285"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Skype for Business Server でアナウンスを作成または削除する
 
-Skype for Business Server エンタープライズ VoIP でアナウンス アプリケーションのお知らせを作成または削除します。 これは、割り当てられていない番号への呼び出しの処理方法に影響します。
+Skype for Business Server アプリケーションでアナウンス アプリケーションのお知らせを作成またはエンタープライズ VoIP。 これは、割り当てられていない番号の呼び出しの処理方法に影響します。
 
-アナウンスを構成する場合、実際には、割り当てられていない番号への呼び出しの処理方法を構成します。 音声ファイルや音声合成 (TTS) ファイルなど、音声プロンプトを再生したり、音声プロンプトを再生せずに呼び出しを指定の宛先に転送することができます。
+お知らせを構成する場合、割り当てられていない番号への呼び出しの処理方法を実際に構成しています。 音声ファイルや音声合成 (TTS) ファイルなど、プロンプトを再生したり、プロンプトを再生せずに指定した宛先に通話を転送することができます。
 
-割り当てられていない番号の表を定義する前に、アナウンスを作成する必要があります。 音声プロンプト、TTS プロンプト、または音声案内を使用するアナウンスすべてについて、この手順を実行する必要があります。
+割り当てられていない番号テーブルを定義する前に、お知らせを作成する必要があります。 オーディオ プロンプト、TTS プロンプト、またはプロンプトを使用するアナウンスすべてについて、この手順を実行する必要があります。
 
-ここでは、アナウンスをインポートおよび作成する方法について説明します。 割り当てられていない番号の表にアナウンスを割り当てる方法の詳細については、「[Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx)」を参照してください。
+ここでは、アナウンスをインポートおよび作成する方法について説明します。 割り当てられていない番号の表にアナウンスを割り当てる方法の詳細については、「[Configure the Unassigned Number Table](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-unassigned-number-table)」を参照してください。
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>割り当てられていない番号の新しいアナウンスを作成する
 
@@ -52,9 +52,9 @@ Skype for Business Server エンタープライズ VoIP でアナウンス ア�
 
 1. 音声ガイダンスの場合は、オーディオ ファイルを作成します。
 
-2. Skype for Business Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「セットアップのアクセス許可の委任」で説明されている必要なユーザー権限を使用してログオン **します。**
+2. 「代理セットアップのアクセス許可」の説明に従って、Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限でインストールされているコンピューターにログオンします。
 
-3. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理シェル**] をクリックします。
+3. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
 
 4. 音声ガイダンスの場合は、次のように実行します。
 
@@ -62,7 +62,7 @@ Skype for Business Server エンタープライズ VoIP でアナウンス ア�
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. 次のコマンドを実行します。
+5. 次を実行します:  
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
@@ -84,15 +84,15 @@ Skype for Business Server エンタープライズ VoIP でアナウンス ア�
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   これらのコマンドレットの詳細と **、TextToSpeechPrompt** パラメーターで使用する言語コードの一覧については [、「New-CsAnnouncement」](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)を参照してください。
+   これらのコマンドレットの詳細、 **および TextToSpeechPrompt** パラメーターで使用する言語コードの一覧については [、「New-CsAnnouncement」を参照してください](/powershell/module/skype/new-csannouncement?view=skype-ps)。
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>割り当てられていない番号のアナウンスを削除する
 
 ### <a name="to-delete-an-announcement"></a>アナウンスを削除するには
 
-1. Skype for Business Server 管理シェルがインストールされているコンピューターに、RTCUniversalServerAdmins グループのメンバーとして、または「セットアップのアクセス許可の委任」で説明されている必要なユーザー権限を使用してログオン **します。**
+1. 「代理セットアップのアクセス許可」の説明に従って、Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限でインストールされているコンピューターにログオンします。
 
-2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理シェル**] をクリックします。
+2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
 
 3. 組織のすべてのアナウンスの一覧を取得します。コマンド ラインで次のコマンドを実行します。
 
@@ -113,17 +113,16 @@ Skype for Business Server エンタープライズ VoIP でアナウンス ア�
    ```
 
     > [!NOTE]
-    > その他のオプションの詳細については [、「Get-CsAnnouncement」](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) および [「Remove-CsAnnouncement」を参照してください](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)。
+    > その他のオプションの詳細については [、「Get-CsAnnouncement」](/powershell/module/skype/get-csannouncement?view=skype-ps) および [「Remove-CsAnnouncement」を参照してください](/powershell/module/skype/remove-csannouncement?view=skype-ps)。
 
 ## <a name="see-also"></a>関連項目
 
 [Skype for Business Server でアナウンスを作成または削除する](create-an-announcement.md)
 
-[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
+[Import-CsAnnouncementFile](/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps)
 
-[Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
+[Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
-[Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps)
-
+[Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps)

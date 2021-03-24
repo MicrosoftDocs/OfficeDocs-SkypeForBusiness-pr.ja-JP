@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c07e3e71d391123d34ae64ebf5806c090c29a29d
-ms.sourcegitcommit: e29e38bf00536400e5826fc55bc86dfd6ed761f3
+ms.openlocfilehash: 87f3577d34df6d2b0665a45b60b441d29cd0265b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "50558206"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092615"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービス品質 (QoS) を実装する
 
@@ -201,11 +201,11 @@ QoS を有効にするには、GPO によって設定された DSCP 値が、通
 
 Intune、Surface、iOS、Android、Mac の QoS の実装については、次のトピックを参照してください。
 
-- [Surface Hub 2S の QoS](https://docs.microsoft.com/surface-hub/surface-hub-2s-manage-intune)
+- [Surface Hub 2S の QoS](/surface-hub/surface-hub-2s-manage-intune)
 
-- [Surface Hub の QoS](https://docs.microsoft.com/surface-hub/surface-hub-qos)
+- [Surface Hub の QoS](/surface-hub/surface-hub-qos)
 
-- [iOS、Android、Mac の QoS](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
+- [iOS、Android、Mac の QoS](./meeting-settings-in-teams.md?WT.mc_id=TeamsAdminCenterCSH#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)
 
 ## <a name="related-topics"></a>関連トピック
 

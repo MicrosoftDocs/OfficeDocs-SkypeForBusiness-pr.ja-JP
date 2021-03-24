@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a188caf30f7d20ddff618884c2bbcca2b24fe5bb
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6146b6d4a7ca3d988c5dc1042a7f75848cf4fc7b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583916"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092665"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Office 365 E1 試用版を管理する
 ==============================
 
-2020 年 7 月 1 日をもって、Office 365 E1 試用版ライセンスは利用できなくなりました。 ユーザーに Microsoft Teams のライセンスを付与する必要がある場合は、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を読んで、Teams を含む有料サブスクリプションのリストを確認してください。 または、適格な組織は **[Teams の無料版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用でき、従業員は **[Teams Exploratory](teams-exploratory.md)** エクスペリエンスのライセンス認証を行います。
+2020 年 7 月 1 日をもって、Office 365 E1 試用版ライセンスは利用できなくなりました。 ユーザーに Microsoft Teams のライセンスを付与する必要がある場合は、「[Microsoft Teams サービスのサービスの説明](/office365/servicedescriptions/teams-service-description)」を読んで、Teams を含む有料サブスクリプションのリストを確認してください。 または、適格な組織は **[Teams の無料版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用でき、従業員は **[Teams Exploratory](teams-exploratory.md)** エクスペリエンスのライセンス認証を行います。
 
 
 Teams for Education のお客様は、無料版の [Office 365 A1 ライセンス](teams-edu-licensing.md)を確認してください。
@@ -53,16 +53,16 @@ E1 試用版のユーザーを有料サブスクリプションにアップグ�
 
 3. 新しく購入したライセンスを割り当てます。
 
-詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。
+詳細については、「[Microsoft Teams サービスのサービスの説明](/office365/servicedescriptions/teams-service-description)」を参照してください。
 
 > [!NOTE]
 > E1 試用版のライセンス期間が終了し、Teams を含むサブスクリプションにユーザーがすぐにアップグレードされない場合は、ユーザー データは削除されません。 ユーザーは引き続き Azure Active Directory に残り、Teams 内のすべてのデータが残されたままになります。 ユーザーに新しいライセンスが割り当てられると、Teams の機能は再び有効になり、すべてのコンテンツが残ります。 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>Office 365 E1 試用版ライセンスを削除する
 
-- Powershell を使用してこのライセンスを削除する場合は、次を参照してください :「[Office 365 PowerShell を使用してユーザー アカウントからライセンスを削除する](https://docs.microsoft.com/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)」
+- Powershell を使用してこのライセンスを削除する場合は、次を参照してください :「[Office 365 PowerShell を使用してユーザー アカウントからライセンスを削除する](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)」
 
-- 管理ポータルからこのライセンスを削除する場合は、「[組織からユーザーを削除する](https://docs.microsoft.com/microsoft-365/admin/add-users/delete-a-user)」を参照してください。
+- 管理ポータルからこのライセンスを削除する場合は、「[組織からユーザーを削除する](/microsoft-365/admin/add-users/delete-a-user)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

@@ -1,5 +1,5 @@
 ---
-title: Cloud Connector 展開の検証
+title: クラウド コネクタの展開の検証
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,30 +15,28 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
-description: Skype for Business Cloud Connector エディションの展開と構成の手順を完了したら、通話を発信および受信できることを確認します。
-ms.openlocfilehash: b0fcee31afef81fe4196b71236e782a75a53cd28
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+description: Skype for Business Cloud Connector Edition を展開および構成する手順を完了したら、通話を行って受信できると確認します。
+ms.openlocfilehash: fb46c9b48367760d2c29e4ed7330e28c92f20f09
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359163"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094815"
 ---
-# <a name="validate-your-cloud-connector-deployment"></a>Cloud Connector 展開の検証
+# <a name="validate-your-cloud-connector-deployment"></a>クラウド コネクタの展開の検証
 
 > [!Important]
-> Cloud Connector エディションは、2021年7月31日、Skype for Business Online と共に廃止されます。 組織が Teams にアップグレードされたら、 [直接ルーティング](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page)を使用してオンプレミスのテレフォニーネットワークを teams に接続する方法について説明します。
+> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
  
-Skype for Business Cloud Connector エディションの展開と構成の手順を完了したら、通話を発信および受信できることを確認します。
+Skype for Business Cloud Connector Edition を展開および構成する手順を完了したら、通話を行って受信できると確認します。
   
-## <a name="validate-the-deployment"></a>展開を検証する
+## <a name="validate-the-deployment"></a>展開の検証
 
-1. 設定したユーザーアカウントを使用して Skype for Business クライアントにログインします。
+1. セットアップしたユーザー アカウントを使用して、Skype for Business クライアントにログインします。
     
-2. クライアントから PSTN 番号を呼び出して、呼び出しが成功したことを確認します。
+2. クライアントから PSTN 番号を呼び出し、通話が成功したと確認します。
     
-3. PSTN 番号に関連付けられている電話またはその他のデバイスを使用して、Skype for Business クライアントを呼び出し、呼び出しが成功したことを確認します。
+3. PSTN 番号に関連付けられている電話または他のデバイスを使用して、Skype for Business クライアントを呼び出し、通話が成功したと確認します。
     
     > [!NOTE]
-    > サイトを追加した後、またはサイトを変換して HA サポートを有効にした後に、通話が正常に完了することを確認する必要があります。 
-  
-
+    > 追加のサイトを追加したり、サイトを変換して HA サポートを有効にした後で、正常に通話を行えるのを確認する必要があります。 

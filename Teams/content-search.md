@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Microsoft 365 コンプライアンス センターでコンテンツ検索を使用して、Exchange Online、SharePoint Online、OneDrive for Business、OneNote に保存されている Microsoft Teams のコンテンツを検索する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f91e630b6f0666def3e64e40e68a6a3f18097152
-ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
+ms.openlocfilehash: 3758f96dc4755303ce8ccf3cae4443deb2a5cd99
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980441"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094287"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Microsoft Teams でコンテンツ検索を使用する
 =====================================
@@ -32,7 +32,7 @@ ms.locfileid: "49980441"
 
 コンテンツ検索は、Exchange、SharePoint Online、OneDrive for Business に関する Microsoft Teams の情報を照会する方法を提供します。
 
-詳細については [、Microsoft 365 のコンテンツ検索を参照してください](https://docs.microsoft.com/microsoft-365/compliance/content-search)。
+詳細については [、Microsoft 365 のコンテンツ検索を参照してください](/microsoft-365/compliance/content-search)。
 
 たとえば、製造仕様メールボックスと製造仕様 SharePoint サイトに対してコンテンツ検索を使用すると、Exchange からの Teams の標準チャネルの会話、SharePoint Online からのファイルのアップロードと変更、OneNote の変更を検索できます。
 
@@ -53,7 +53,7 @@ Teams は 1 つのチャネルのコンテンツ検索をサポートしない�
 
 ### <a name="include-private-channel-files-in-a-content-search"></a>コンテンツ検索にプライベート チャネル ファイルを含める
 
-これらの手順を実行する前に、SharePoint Online 管理シェルをインストールし [、SharePoint Online に接続します](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。
+これらの手順を実行する前に、SharePoint Online 管理シェルをインストールし [、SharePoint Online に接続します](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。
 
 1. チーム内のプライベート チャネルに関連付けられているすべての SharePoint サイト コレクションの一覧を取得するには、次を実行します。
 
@@ -92,4 +92,4 @@ Teams は 1 つのチャネルのコンテンツ検索をサポートしない�
 
 ## <a name="related-topics"></a>関連項目
 
-- [Microsoft 365 コンプライアンス センターの電子情報開示ケース](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [Microsoft 365 コンプライアンス センターの電子情報開示ケース](/Office365/SecurityCompliance/ediscovery-cases)

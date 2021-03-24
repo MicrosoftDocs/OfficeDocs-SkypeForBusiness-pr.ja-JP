@@ -17,12 +17,12 @@ description: 法的手続きのために電子的に保存された情報を送�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: aa6b1212fda3983cc612885e41aa1131bb6f496d
-ms.sourcegitcommit: 0b584d40e95cbde33cee3691edadb12156d72fb5
+ms.openlocfilehash: 3990b96981a65bb4d706cc3141abee10102c0839
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "49980461"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094057"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -43,7 +43,7 @@ ms.locfileid: "49980461"
 |チャット リンク | はい | |
 |チャット メッセージ | はい |これには、Teams チャネルのコンテンツ、1 対 1 のチャット、1:N グループ チャット、ゲスト ユーザーの参加者とのチャットが含まれます。  |
 |コード スニペット | いいえ | |
-|編集したメッセージ | はい | ユーザーが保留にされている場合、以前のバージョンの編集されたメッセージも保持されます。 |
+|編集したメッセージ | はい | ユーザーが保留されている場合、以前のバージョンの編集されたメッセージも保持されます。 |
 |絵文字、GIF、ステッカー | はい | |
 |インライン画像 | はい | |
 |会議の IM 会話 | はい | |
@@ -59,7 +59,7 @@ ms.locfileid: "49980461"
 <sup>1 つの</sup> 会議 (および通話) メタデータには、次が含まれます。
 
 - 会議の開始時刻と終了時刻、および期間
-- 各参加者の会議への参加と退出のイベント
+- 各参加者の会議参加イベントと退出イベント
 - VOIP の参加/通話
 - 匿名参加
 - フェデレーション ユーザーの参加
@@ -77,11 +77,11 @@ ms.locfileid: "49980461"
 > [!div class="mx-imgBorder"]
 > ![電子情報開示検索結果の参加者間の会話。](media/MeetingImConversation2.png)
 
-電子情報開示調査の実施の詳細については、「コア電子情報開示の使用を開始する [」を参照してください](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery)。
+電子情報開示調査の実施の詳細については、「コア電子情報開示の使用を開始する [」を参照してください](/microsoft-365/compliance/get-started-core-ediscovery)。
 
 Microsoft Teams のデータは、Excel の電子情報開示エクスポート出力に IM またはスレッドとして表示されます。 Outlook でファイルを `.pst` 開き、エクスポート後にそれらのメッセージを表示できます。
 
-チームの .pst ファイルを表示すると、すべての会話は [会話履歴] の [チーム チャット] フォルダーに保持されます。 メッセージのタイトルには、チーム名とチャネル名が含まれている。 たとえば、次の画像は、製造仕様チームの Project 7 標準チャネルにメッセージを送信した Bob からのメッセージを示しています。
+チームの .pst ファイルを表示すると、すべての会話が [会話履歴] の [チーム チャット] フォルダーに保持されます。 メッセージのタイトルには、チーム名とチャネル名が含まれている。 たとえば、次の画像は、製造仕様チームの Project 7 標準チャネルにメッセージを送信した Bob からのメッセージを示しています。
 
 ![Outlook のユーザーのメールボックス内のチーム チャット フォルダーのスクリーンショット](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
@@ -95,11 +95,11 @@ Microsoft Teams のデータは、Excel の電子情報開示エクスポート�
 
 Teams は、チーム内の 1 つのチャネルの電子情報開示検索をサポートしないので、チーム全体を検索する必要があります。 プライベート チャネル内のコンテンツの電子情報開示検索を実行するには、チーム、プライベート チャネルに関連付けられているサイト コレクション (ファイルを含める)、プライベート チャネル メンバーのメールボックス (メッセージを含める) を検索します。
 
-次の手順を使用して、電子情報開示検索に含めるプライベート チャネル内のファイルとメッセージを識別します。
+次の手順を使用して、プライベート チャネル内のファイルとメッセージを識別し、電子情報開示検索に含めます。
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>電子情報開示検索にプライベート チャネル ファイルを含める
 
-これらの手順を実行する前に、SharePoint Online 管理シェルをインストールし [、SharePoint Online に接続します](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)。
+これらの手順を実行する前に、SharePoint Online 管理シェルをインストールし [、SharePoint Online に接続します](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)。
 
 1. チーム内のプライベート チャネルに関連付けられているすべての SharePoint サイト コレクションの一覧を取得するには、次を実行します。
 
@@ -114,7 +114,7 @@ Teams は、チーム内の 1 つのチャネルの電子情報開示検索を�
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. チームまたはグループ ID ごとに、次の PowerShell スクリプトを実行して、関連するすべてのプライベート チャネル サイトを特定します。$groupID はチームのグループ ID です。
+3. チームまたはグループ ID ごとに、次の PowerShell スクリプトを実行して、関連するすべてのプライベート チャネル サイトを特定します。$groupIDはチームのグループ ID です。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -138,7 +138,7 @@ Teams は、チーム内の 1 つのチャネルの電子情報開示検索を�
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. 電子情報開示検索クエリの一部として、チームの各プライベート チャネルのすべてのメンバーの [メールボックスを含める](https://docs.microsoft.com/microsoft-365/compliance/search-for-content-in-core-ediscovery)。
+3. 電子情報開示検索クエリの一部として、チームの各プライベート チャネルのすべてのメンバーの [メールボックスを含める](/microsoft-365/compliance/search-for-content-in-core-ediscovery)。
 
 ## <a name="search-for-content-for-guest-users"></a>ゲスト ユーザーのコンテンツを検索する
 
@@ -146,7 +146,7 @@ Teams は、チーム内の 1 つのチャネルの電子情報開示検索を�
 
 ゲスト ユーザーのコンテンツを検索するには:
 
-1. Azure AD PowerShell に接続します。 手順については、「PowerShell で Microsoft 365 に接続する」の「Azure Active Directory PowerShell で接続する [」セクションを参照してください](https://docs.microsoft.com/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。 前のトピックの手順 1 と手順 2 を必ず完了してください。
+1. Azure AD PowerShell に接続します。 手順については、「PowerShell で Microsoft 365 に接続する」の「Azure Active Directory PowerShell で接続する [」セクションを参照してください](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。 前のトピックの手順 1 と手順 2 を必ず完了してください。
 
 2. Azure AD PowerShell に正常に接続したら、次のコマンドを実行して、組織内のすべてのゲスト ユーザーのユーザー プリンシパル名 (UPN) を表示します。 手順 4 で検索を作成する場合は、ゲスト ユーザーの UPN を使用する必要があります。
 
@@ -157,7 +157,7 @@ Teams は、チーム内の 1 つのチャネルの電子情報開示検索を�
    > [!TIP]
    > コンピューター画面にユーザー プリンシパル名のリストを表示する代わりに、コマンドの出力をテキスト ファイルにリダイレクトできます。 この操作を行うには、前の `> filename.txt` コマンドに追加します。 ユーザー プリンシパル名を含むテキスト ファイルは、現在のフォルダーに保存されます。
 
-3. 別のウィンドウWindows PowerShell、セキュリティ/コンプライアンス センターの PowerShell &接続します。 手順については、「セキュリティ/コンプライアンス [センター PowerShell への&を参照してください](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell)。 多要素認証を使用するか、または使用せずに接続できます。
+3. 別のウィンドウWindows PowerShell、セキュリティ/コンプライアンス センターの PowerShell &接続します。 手順については、「セキュリティ/コンプライアンス [センター PowerShell への&を参照してください](/powershell/exchange/connect-to-scc-powershell)。 多要素認証を使用するか、または使用せずに接続できます。
 
 4. 指定したゲスト ユーザーが参加者だったすべてのコンテンツ (チャット メッセージやメール メッセージなど) を検索するコンテンツ検索を作成するには、次のコマンドを実行します。
 
@@ -171,7 +171,7 @@ Teams は、チーム内の 1 つのチャネルの電子情報開示検索を�
    New-ComplianceSearch "Sara Davis Guest User" -ExchangeLocation "sara.davis_hotmail.com#EXT#@contoso.onmicrosoft.com" -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
    ```
 
-    PowerShell を使用してコンテンツ検索を作成する方法の詳細については [、「New-ComplianceSearch」を参照してください](https://docs.microsoft.com/powershell/module/exchange/new-compliancesearch)。
+    PowerShell を使用してコンテンツ検索を作成する方法の詳細については [、「New-ComplianceSearch」を参照してください](/powershell/module/exchange/new-compliancesearch)。
 
 5. 次のコマンドを実行して、手順 4 で作成したコンテンツ検索を開始します。
 
@@ -193,7 +193,7 @@ Teams は、チーム内の 1 つのチャネルの電子情報開示検索を�
 
 ## <a name="search-for-card-content"></a>カードコンテンツを検索する
 
-Teams チャネルのアプリ、1 対 1 のチャット、1xN チャットによって生成されたカード コンテンツはメールボックスに保存され、検索できます。 カード *は* 、短いコンテンツの UI コンテナーです。 カードには複数のプロパティと添付ファイルを含め、カードの操作をトリガーできるボタンを含めることができます。 詳細については、「カード」を [参照してください。](https://docs.microsoft.com/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+Teams チャネルのアプリ、1 対 1 のチャット、1xN チャットによって生成されたカード コンテンツはメールボックスに保存され、検索できます。 カード *は* 、短いコンテンツの UI コンテナーです。 カードには複数のプロパティと添付ファイルを含め、カードの操作をトリガーできるボタンを含めることができます。 詳細については、「カード」を [参照してください。](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
 
 他の Teams コンテンツと同様に、カードコンテンツが保存される場所は、カードが使用された場所に基づいて行います。 Teams チャネルで使用されるカードのコンテンツは、Teams グループ メールボックスに保存されます。 1 対 1 および 1xN のチャットのカード コンテンツは、チャット参加者のメールボックスに保存されます。
 
@@ -214,13 +214,13 @@ Teams チャネルのアプリ、1 対 1 のチャット、1xN チャットに�
 
 ## <a name="advanced-ediscovery"></a>Advanced eDiscovery
 
-一部の Microsoft Teams コンテンツは、Advanced eDiscovery ワークフローを使用して検索 [および保持できます](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20)。 電子情報開示にはさまざまな検索、保留、エクスポート機能が含まれていますが、Advanced eDiscovery では、コンプライアンス管理者がデータ ソースを特定し、その内容を分析するためのより多くのツールを提供します。
+一部の Microsoft Teams コンテンツは、Advanced eDiscovery ワークフローを使用して検索 [および保持できます](/microsoft-365/compliance/overview-ediscovery-20)。 電子情報開示にはさまざまな検索、保留、およびエクスポート機能が含まれていますが、Advanced eDiscovery では、コンプライアンス管理者がデータ ソースを特定し、その内容を分析するためのツールを提供します。
 
 ### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Teams コンテンツの高度な電子情報開示カストディアン ワークフロー
 
-カストディアンは、さまざまなチームのメンバーである可能性があります。 これらのカストディアンに関連する Teams コンテンツをキャプチャできます。 カストディアン ワークフローの手順については、「Advanced eDiscovery ケースにカストディアンを追加する [」を参照してください](https://docs.microsoft.com/microsoft-365/compliance/add-custodians-to-case)。
+カストディアンは、さまざまなチームのメンバーである可能性があります。 これらのカストディアンに関連する Teams コンテンツをキャプチャできます。 カストディアン ワークフローの手順については、「Advanced eDiscovery ケースにカストディアンを追加する [」を参照してください](/microsoft-365/compliance/add-custodians-to-case)。
 
-カストディアンを追加したら、[次へ] ボタンを **クリック** し、[追加] ボタン **をクリック** します。 ウィンドウが表示され、追加の場所を選択するように求めるメッセージが表示されます。このウィンドウには、カストディアンのすべてのメンバーシップとそのデータに対応する SharePoint サイトの場所が表示されます。 これらのすべてのデータ ソースとチームから、電子情報開示に使用するコンテンツを選択し、そのユーザーと、特定したすべてのデータ ソースを保留にできます。
+カストディアンを追加したら、[次へ] ボタン **をクリック** し、[追加] ボタン **をクリック** します。 ウィンドウが表示され、追加の場所を選択するように求めるメッセージが表示されます。このウィンドウには、カストディアンのすべてのメンバーシップとそのデータに対応する SharePoint サイトの場所が表示されます。 これらのすべてのデータ ソースとチームから、電子情報開示に使用するコンテンツを選択し、そのユーザーと、特定したすべてのデータ ソースを保留にできます。
 
 Exchange コンテンツ、OneDrive コンテンツ、または両方を含めるかどうかを選択できます。 Exchange コンテンツには、ユーザーのメールボックス内のすべてのアプリケーション コンテンツ (メール、メールボックスに保存されている Teams コンテンツなど) が含まれます。 OneDrive のコンテンツには、ユーザーのコンテンツだけでなく、1 対 1 のチャット、1:N チャット、チャットで共有されているファイルなど、OneDrive に保存されている Teams のすべてのコンテンツも含まれます。
 
@@ -231,34 +231,34 @@ Exchange コンテンツ、OneDrive コンテンツ、または両方を含め�
 
 ### <a name="placing-a-data-source-on-hold"></a>データ ソースを保留する
 
-カストディアンとして指定する特定のユーザーがない場合は、データ ソース全体を保留にできます。 保留の詳細については、「Advanced eDiscovery で保留を管理する [」を参照してください](https://docs.microsoft.com/microsoft-365/compliance/managing-holds)。
+カストディアンとして指定する特定のユーザーがない場合は、データ ソース全体を保留にできます。 保留の詳細については、「Advanced eDiscovery で保留を管理する [」を参照してください](/microsoft-365/compliance/managing-holds)。
 
-Teams コンテンツの保留リストを作成する場合は、保留に含めるすべての場所を選択できます。 ユーザーがコンテンツを削除または変更している場合でも、保留すると、そのコンテンツのすべての以前のバージョンのコピーが保持されます。
+Teams コンテンツの保留リストを作成するときに、保留リストに含めるすべての場所を選択できます。 ユーザーがコンテンツを削除または変更している場合でも、保留すると、そのコンテンツのすべての以前のバージョンのコピーが保持されます。
 
 オプションのクエリを使用して、キーワード、日付範囲、作成者、その他の多くの条件に基づいて保留の条件を設定することもできます。 キーワードを指定しない場合、そのデータ ソースのすべての内容が保留の対象と見なされます。
 
 ### <a name="advanced-ediscovery-searches"></a>高度な電子情報開示検索
 
-Teams のコンテンツも検索できます。 検索の詳細については [、「Advanced eDiscovery でケースのデータを収集する」を参照してください](https://docs.microsoft.com/microsoft-365/compliance/collecting-data-for-ediscovery)。 1 つのメッセージが検索クエリと一致する場合でも、検索は会話全体を返します。
+Teams のコンテンツも検索できます。 検索の詳細については [、「Advanced eDiscovery でケースのデータを収集する」を参照してください](/microsoft-365/compliance/collecting-data-for-ediscovery)。 1 つのメッセージが検索クエリと一致する場合でも、検索は会話全体を返します。
 
 検索クエリを作成するときに、既に選択しているすべてのソースが検索されるカストディアンを選択できます。 また、ユーザーにマップされていない Teams サイトなど、管理者以外のソースを検索できます。 Teams コンテンツ内の検索を絞り込むには、オプションのクエリも使用できます。
 
 検索を作成して選択すると、ウィンドウが表示され、選択した検索に対して実行できる追加の詳細とアクションが表示されます。 [統計情報]ボタンをクリックすると、場所の種類、コンテンツの元のソースに応じて内訳が表示され、コンテンツがグループ メールボックス、個々のユーザー メールボックス、または SharePoint サイトにあるかどうかなど、検索に関する統計情報を表示できます。 したがって、どのソースが検索結果に貢献しているのかの内訳を確認できます。 また、クエリ ビュー **も** 利用できます。クエリ ビューでは、結果にどのキーワードが関連付けられているのか確認できます。
 
-検索を完了した後、[結果をレビュー セットに追加] ボタンをクリックし、レビュー セットに追加できます。 レビュー セットの詳細については、この記事の後半にある [「Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets) ワークフローと [レビュー](#review-sets-workflow) セット ワークフローでレビュー セットを管理する」を参照してください。
+検索を完了した後、[結果をレビュー セットに追加] ボタンをクリックし、レビュー セットに追加できます。 レビュー セットの詳細については、この記事の後半にある [「Advanced eDiscovery](/microsoft-365/compliance/managing-review-sets) ワークフローと [レビュー](#review-sets-workflow) セット ワークフローでレビュー セットを管理する」を参照してください。
 
 #### <a name="normal-review-sets-and-conversation-review-sets"></a>標準レビュー セットとスレッド レビュー セット
 
 レビュー セットに検索を追加する場合は、通常のレビュー セットまたは会話レビュー セットから選択できます。
 
-通常のレビュー セットはエクスポートに似ています。Teams コンテンツの `.msg` 個々のファイルが提供され、基本的なビューでコンテンツが表示されます。 通常、他のソフトウェア ツールを使用して後でファイルを再処理する場合は、通常のレビュー セットを使用します。
+通常のレビュー セットはエクスポートに似ています。Teams コンテンツの `.msg` 個々のファイルを提供し、基本的なビューでコンテンツを表示します。 通常、他のソフトウェア ツールを使用して後でファイルを再処理する場合は、通常のレビュー セットを使用します。
 
 会話レビュー セットは、会話のより直感的でスレッド化されたビューを提供します。関連するメッセージが適切な順序でまとめて表示されます。
 
 > [!div class="mx-imgBorder"]
 > ![会話レビュー セットのスクリーンショット](media/conversationOptions2.png)
 
-やり直しなどの機能は、両方の種類のレビュー セットで使用できます。 レビュー セットの詳細については、「Advanced eDiscovery での会話 [のレビュー」を参照してください](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets)。
+やり直しなどの機能は、両方の種類のレビュー セットで使用できます。 レビュー セットの詳細については、「Advanced eDiscovery での会話 [のレビュー」を参照してください](/microsoft-365/compliance/conversation-review-sets)。
 
 #### <a name="collection-options"></a>コレクション オプション
 
@@ -272,13 +272,13 @@ Teams のコンテンツも検索できます。 検索の詳細については 
 
 ### <a name="review-sets-workflow"></a>レビュー セットワークフロー
 
-既存のレビュー セットを表示したり、[レビュー セット] タブをクリックして新しい **レビュー セットを作成** することができます。レビュー セットの詳細については、「Advanced eDiscovery でレビュー セットを管理 [する」を参照してください](https://docs.microsoft.com/microsoft-365/compliance/managing-review-sets)。
+既存のレビュー セットを表示したり、[レビュー セット] タブをクリックして新しい **レビュー セットを作成** することができます。レビュー セットの詳細については、「Advanced eDiscovery でレビュー セットを管理 [する」を参照してください](/microsoft-365/compliance/managing-review-sets)。
 
 ドキュメントに加えて、メール、Teams メッセージ、Yammer、その他のコンテンツをレビュー セットに追加できます。 レビュー セット内では、コンテンツの検索やカスタム クエリの作成など、他のコンテキストで実行できる操作の多くを実行できます。 これらの操作は、レビュー セットに追加されたアイテムにのみ適用されます。
 
 [ **レビュー セットの管理** ] ボタンには、分析、サマリー レポート、追加されたロード セットの数などの追加オプションが表示されます。
 
-データの視覚エフェクトやグラフにアクセスするには、右上にある [個々の **結果** の \> 検索] プロファイル ビューをクリックします。 これらのグラフのくさび形をクリックすると、クエリを実行するコンテンツの種類を対話的に選択できます。 たとえば、Teams のコンテンツにのみクエリを実行できます。 手動で作成したクエリを保存するのと同じ方法で、これらのクエリを保存することもできます。
+データの視覚エフェクトやグラフにアクセスするには、右上にある [個々の **結果** の \> 検索] プロファイル ビューをクリックします。 これらのグラフのくさび形をクリックすると、クエリを実行するコンテンツの種類を対話的に選択できます。 たとえば、Teams コンテンツのみをクエリできます。 手動で作成したクエリを保存するのと同じ方法で、これらのクエリを保存することもできます。
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>概要ビュー、テキスト ビュー、注釈ビュー
 
@@ -288,9 +288,9 @@ PDF をダウンロードするには、概要ビューの右上にあるダウ�
 
 [テキスト **ビュー] タブを** クリックして、Teams の会話の抽出されたテキストのプレーン テキスト ビューを表示します。 このテキスト形式のコンテンツはエクスポートに適しています。他のソフトウェア ツールを使用して簡単に作業できます。
 
-コメント機能にアクセス **するには、[注釈ビュー** ] タブをクリックします。 このタブには、Teams の会話に似た形式でコンテンツが表示されますが、編集するためのその他のオプションがあります。 鉛筆ツールを使用して、メモを作成したり、メッセージに描画したり、やり直しのために細かいスクラッチを行う場合に使用できます。 また、 **領域を黒** くして "赤字" とマークする四角形を描画するために使用できる領域の再編集ツールもあります。
+コメント機能にアクセス **するには、[注釈ビュー** ] タブをクリックします。 このタブには、Teams の会話に似た形式でコンテンツが表示されますが、編集するための追加のオプションも用意されています。 鉛筆ツールを使用して、メモを作成したり、メッセージに描画したり、やり直しのために細かいスクラッチを行う場合に使用できます。 領域を黒くして "赤くながった" とマークする四角形を描画するために使用できる領域の再編集ツールもあります。
 
-次に、ユーザー間のスレッド化された会話に対して、ファイルが機能し直した例を示します。
+次に、ユーザー間のスレッド化された会話に対して、破損したファイルの例を示します。
 
 > [!div class="mx-imgBorder"]
 > ![破損したファイルのスクリーンショット](media/RedactedFileExample.png)
@@ -301,22 +301,22 @@ PDF をダウンロードするには、概要ビューの右上にあるダウ�
 
 [レビュー セット] ウィンドウ内で、[アクション エクスポート] をクリックしてコンテンツ **をエクスポート** \> **できます**。 エクスポート時には、多くのオプションを使用できます。
 
-すべての Teams メッセージのすべてのメタデータを含むファイルをエクスポートするには、[ファイルの読み込み] チェック ボックス **をオンにします** 。 コンテンツに適用したタグをファイルに含めるには、[タグ] チェック ボックスを **オン** にします。
+すべての Teams メッセージのすべてのメタデータを含むファイルをエクスポートするには、[ファイルの読み込み] チェック ボックス **をオン** にします。 コンテンツに適用したタグをファイルに含めるには、[タグ] チェック ボックスを **オン** にします。
 
 [ネイティブ ファイル **] オプションを** 使用して、ネイティブ形式でファイルをエクスポートします。 1 つの会話を 1 つのファイルとしてエクスポートするか、個別のファイル内のすべてのチャット メッセージとしてエクスポートすることができます。
 
 [ **テキスト ファイル]** オプションでは、テキスト形式のコンテンツを保存できます。 レビュー セットで Teams の会話のプレーン テキスト ビューを取得する方法の詳細については、上記の概要ビュー、テキスト ビュー、注釈 [ビューを参照](#summary-view-text-view-and-annotate-view) してください。
 
-上記の概要ビュー、テキスト ビュー、注釈ビューのセクションで[](#summary-view-text-view-and-annotate-view)説明したように、コンテンツにやり直しを適用した場合は、[変換された PDFで編集したネイティブを置き換える] オプションを選択して、ネイティブ ファイルを PDF の変換されたコピーに置き換えます。
+上の概要ビュー、テキスト ビュー、注釈ビューセクションで説明[](#summary-view-text-view-and-annotate-view)したように、コンテンツにやり直しを適用した場合は、[変換された PDFで編集したネイティブを置き換える] オプションを選択して、ネイティブ ファイルを PDF 内の変換されたコピーに置き換えます。
 
 Microsoft が提供する Azure BLOB ストレージ コンテナーにエクスポートするか、独自の Azure BLOB ストレージ コンテナーを提供することができます。
 
-エクスポート プロセスを開始する準備ができたら、[エクスポート] ボタン **をクリック** します。 エクスポート [が完了したら、Azure](https://docs.microsoft.com/microsoft-365/compliance/download-export-jobs) BLOB ストレージ コンテナーにアクセスし、エクスポートしたコンテンツをダウンロードする方法の詳細については、エクスポート ジョブのダウンロードに関するページを参照してください。
+エクスポート プロセスを開始する準備ができたら、[エクスポート] ボタン **をクリック** します。 エクスポート [が完了したら、Azure](/microsoft-365/compliance/download-export-jobs) BLOB ストレージ コンテナーにアクセスし、エクスポートしたコンテンツをダウンロードする方法の詳細については、エクスポート ジョブのダウンロードに関するページを参照してください。
 
 > [!NOTE]
 > エクスポートには、長い時間がかかる場合があります。 エクスポート プロセスの状態を追跡するには、[レビューセット] タブを終了し、[エクスポート] タブ **をクリック** します。
 
 ## <a name="related-topics"></a>関連項目
 
-- [Microsoft 365 の電子情報開示](https://docs.microsoft.com/microsoft-365/compliance/ediscovery)
+- [Microsoft 365 の電子情報開示](/microsoft-365/compliance/ediscovery)
 - [Teams PowerShell の概要](teams-powershell-overview.md)

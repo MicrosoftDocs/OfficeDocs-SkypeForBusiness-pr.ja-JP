@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Skype for Business Server 2015/2019 および Lync 2013 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細を取得し、更新プログラムをダウンロードします。
-ms.openlocfilehash: 2da3556286213498a2b14a6e4943b76641ecff4c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: ea4976954f7f31043e4cbd21e4744f85dc2088ff
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874937"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092855"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
@@ -234,7 +234,7 @@ KB 4470124 は Skype for Business Server 2019 のマスター KB で、発行さ
 パッケージ名/リンク|リリース日|
 |:--- |:--- |
 |[Lync Server 2010 ドキュメント ヘルプ ファイル](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|2012 年 3 月 |
-|[Lync Server 2010 [ようこそ] ページ](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|2012 年 10 月 |
+|[Lync Server 2010 [ようこそ] ページ](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|2012 年 10 月 |
 |[Microsoft Lync Server 2010 ドキュメントの IM an Expert](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|2012 年 3 月 |
 |[Lync 2010 リリース ノート](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|2011 年 1 月 |
 |[Lync Server 2010 リリース ノート](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|2011 年 1 月 |
@@ -268,6 +268,6 @@ Microsoft [Lync Server 2010 リソース](https://www.microsoft.com/download/en/
 
 ## <a name="related-topics"></a>関連項目
 
-- [Skype for Business Server 2015 のインストール](https://docs.microsoft.com/SkypeForBusiness/deploy/install/install)
-- [Skype for Business Server 2015 へのアップグレード](https://docs.microsoft.com/SkypeForBusiness/deploy/upgrade-to-skype-for-business-server)
+- [Skype for Business Server 2015 のインストール](./deploy/install/install.md)
+- [Skype for Business Server 2015 へのアップグレード](./deploy/upgrade-to-skype-for-business-server.md)
 - [Windows インストーラー (MSI) を使用しているバージョンの Skype for Business の最新の更新プログラム](sfb-client-updates.md)

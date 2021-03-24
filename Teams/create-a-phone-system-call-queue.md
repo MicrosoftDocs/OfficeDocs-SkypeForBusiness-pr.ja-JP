@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Microsoft Teams で通話キュー用の電話システムをセットアップする方法について説明します。応答メッセージの提供、音楽の保留、通話リダイレクト、その他の機能が提供されます。
-ms.openlocfilehash: cc0995a6355157de1b43a04caf7814e588232c48
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 9bb33e5590df1af6b70dffecba64eb313838b228
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196751"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092715"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -63,7 +63,7 @@ ms.locfileid: "50196751"
 
 発信者がキューに入った場合に発信者に応答メッセージを再生する場合に指定します。 再生する応答メッセージを含む MP3、WAV、または WMA ファイルをアップロードする必要があります。
 
-Teams は、キューで保留されている間、発信者に既定の音楽を提供します。 特定のオーディオ ファイルを再生する場合は、[オーディオ ファイルの再生] を選択し、MP3、WAV、または WMA ファイルをアップロードします。
+Teams は、キューで保留にしている間、発信者に既定の音楽を提供します。 特定のオーディオ ファイルを再生する場合は、[オーディオ ファイルの再生] を選択し、MP3、WAV、または WMA ファイルをアップロードします。
 
 > [!NOTE]
 > アップロードされた記録は 5 MB 以下にできます。
@@ -123,7 +123,7 @@ Teams は、キューで保留されている間、発信者に既定の音楽�
 
 - **会議モードから****自動へ**
 - **ラウンド ロビンまたは****最長アイドルへの****ルーティング方法**
-- **プレゼンス ベースの [オン]** **へのルーティング**
+- **プレゼンス ベースのルーティングを****オンに**
 - **エージェントの通知時間:** **20 秒**
 
 > [!NOTE]
@@ -148,7 +148,7 @@ Teams は、キューで保留されている間、発信者に既定の音楽�
 
 通話を切断するか、通話ルーティング先の 1 つにリダイレクトすることができます。 たとえば、発信者にキュー内のエージェントのボイスメールを残す場合があります。 外部転送については、「前提条件」と[](plan-auto-attendant-call-queue.md#prerequisites)「外部電話番号の転送[-](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)番号の書式設定の技術的な詳細」を参照してください。
 
-通話のタイムアウト オプションを選択した場合は、[保存] を **クリックします**。
+通話のタイムアウト オプションを選ぶと、[保存] をクリック **します**。
 
 ## <a name="caller-id-for-outbound-calls"></a>発信通話の発信者番号
 
@@ -175,15 +175,15 @@ Teams は、キューで保留されている間、発信者に既定の音楽�
 
 ## <a name="call-queue-cmdlets"></a>通話キューのコマンドレット
 
-Windows PowerShell を使用して通話キューを作成し、設定することもできます。 通話キューの管理に使用するコマンドレットを次に示します。
+Windows PowerShell を使用して通話キューを作成し、設定することもできます。 通話キューの管理に使用するコマンドレットは次のとおりです。
 
-- [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
 
-- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
 
-- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
 
-- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
 ## <a name="related-topics"></a>関連項目
 
@@ -193,6 +193,6 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance)
+[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
 
 [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

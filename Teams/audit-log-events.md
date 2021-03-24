@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54cdaf5e5d63b7067c51b8f8428ed609bf6dad28
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: HT
+ms.openlocfilehash: 26427bb7026c586c9493e023f127a43923325cfa
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803455"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092625"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -57,7 +57,7 @@ ms.locfileid: "48803455"
 > [!IMPORTANT]
 > 監査データは、監査がオンになっている場合に、監査ログでのみ見ることができます。
 
-監査ログで監査レコードが保持され検索可能な期間は、使用している Microsoft 365 または Office 365 サブスクリプション、特にユーザーに割り当てられているライセンスの種類によって異なります。 詳細については、「[セキュリティ/コンプライアンス センターのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)」を参照してください。
+監査ログで監査レコードが保持され検索可能な期間は、使用している Microsoft 365 または Office 365 サブスクリプション、特にユーザーに割り当てられているライセンスの種類によって異なります。 詳細については、「[セキュリティ/コンプライアンス センターのサービスの説明](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)」を参照してください。
 
 ## <a name="tips-for-searching-the-audit-log"></a>監査ログを検索するためのヒント
 
@@ -69,7 +69,7 @@ ms.locfileid: "48803455"
 
   ![監査ログ検索のスクリーンショット](media/audit-log-search.png)
 
-- cmdlets を使用して実行したアクティビティのイベントを表示するには、**[アクティビティ]** リストの **[すべてのアクティビティの結果を表示]** を選択します。 これらのアクティビティの操作の名前がわかっている場合は、すべてのアクティビティを検索し、**[アクティビティ]** 列に操作の名前を入力することで、結果をフィルター処理することができます。 詳細については、「[手順 3: 検索結果をフィルター処理する](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)」を参照してください。
+- cmdlets を使用して実行したアクティビティのイベントを表示するには、**[アクティビティ]** リストの **[すべてのアクティビティの結果を表示]** を選択します。 これらのアクティビティの操作の名前がわかっている場合は、すべてのアクティビティを検索し、**[アクティビティ]** 列に操作の名前を入力することで、結果をフィルター処理することができます。 詳細については、「[手順 3: 検索結果をフィルター処理する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)」を参照してください。
 
 - 現在の検索条件をクリアするには、**[クリア]** をクリックします。 日付の範囲が、過去 7 日間の既定値に戻ります。 **[すべてクリアして、すべてのアクティビティを表示する]** をクリックして、選択されているすべてのアクティビティをキャンセルすることもできます。
 
@@ -79,13 +79,13 @@ ms.locfileid: "48803455"
 
 ## <a name="use-cloud-app-security-to-set-activity-policies"></a>Cloud App Security を使用してアクティビティ ポリシーを設定する
 
-[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) の統合を使用し、[アクティビティ ポリシー](https://docs.microsoft.com/cloud-app-security/user-activity-policies) を設定して、アプリ プロバイダーの API を使用した幅広い自動処理を適用することができます。 これらのポリシーにより、さまざまなユーザーが行う特定のアクティビティを監視したり、予想外に高率で発生する特定のタイプのアクティビティをフォローしたりすることができます。
+[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) の統合を使用し、[アクティビティ ポリシー](/cloud-app-security/user-activity-policies) を設定して、アプリ プロバイダーの API を使用した幅広い自動処理を適用することができます。 これらのポリシーにより、さまざまなユーザーが行う特定のアクティビティを監視したり、予想外に高率で発生する特定のタイプのアクティビティをフォローしたりすることができます。
 
 アクティビティ検出ポリシーを設定すると、アラートの生成を開始します。 アラートは、ポリシーを作成した後に発生したアクティビティに対してのみ生成されます。 ここでは、Cloud App Security でアクティビティ ポリシーを使用して Teams アクティビティを監視する方法について、いくつかのシナリオ例を紹介します。
 
 ### <a name="external-user-scenario"></a>外部ユーザーのシナリオ
 
-ビジネスの観点から注意したいシナリオの一つに、Teams 環境に外部ユーザーを追加することがあります。 外部ユーザーが有効になっている場合は、そのプレゼンスを監視することをお勧めします。  [Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) を使用して、脅威の可能性を特定することができます。
+ビジネスの観点から注意したいシナリオの一つに、Teams 環境に外部ユーザーを追加することがあります。 外部ユーザーが有効になっている場合は、そのプレゼンスを監視することをお勧めします。  [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) を使用して、脅威の可能性を特定することができます。
 
 ![大量削除によって引き起こされるイベント一覧のスクリーンショット](media/TeamsExternalUserAddPolicy.png)
 
@@ -119,7 +119,7 @@ ms.locfileid: "48803455"
 
 ## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Cloud App Security を使用して異常検出ポリシーを設定する
 
-[Cloud App Security の異常検出ポリシー](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy)では、ユーザー/エンティティ行動分析 (UEBA) と機械学習 (ML) をすぐに利用できるので、クラウド環境全体で高度な脅威検出をすぐに実行することができます。 新しい異常検出ポリシーは自動的に有効化されているため、ユーザーやネットワークに接続されているマシンやデバイス全体の多数の動作異常をターゲットにして即時検出を行い、すぐに結果を出すことができます。 さらに、新しいポリシーでは、Cloud App Security の検出エンジンからより多くのデータが公開され、調査手順を加速して進行中の脅威の抑制に役立ちます。
+[Cloud App Security の異常検出ポリシー](/cloud-app-security/anomaly-detection-policy)では、ユーザー/エンティティ行動分析 (UEBA) と機械学習 (ML) をすぐに利用できるので、クラウド環境全体で高度な脅威検出をすぐに実行することができます。 新しい異常検出ポリシーは自動的に有効化されているため、ユーザーやネットワークに接続されているマシンやデバイス全体の多数の動作異常をターゲットにして即時検出を行い、すぐに結果を出すことができます。 さらに、新しいポリシーでは、Cloud App Security の検出エンジンからより多くのデータが公開され、調査手順を加速して進行中の脅威の抑制に役立ちます。
 
 Teams イベントを異常検出ポリシーに統合する作業を行っています。 現時点では、他の Office 製品の異常検出ポリシーを設定し、そのポリシーに合致するユーザーに対する実施項目を実行することができます。
 
@@ -195,12 +195,12 @@ Teams イベントを異常検出ポリシーに統合する作業を行って�
 
 ## <a name="office-365-management-activity-api"></a>Office 365 マネージメント アクティビティ API
 
-Office 365 マネージメント アクティビティ API を使用して、Teams のイベント情報を取得することができます。 マネージメント アクティビティ API の詳細については、「[Teams スキーマ](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)」を参照してください。
+Office 365 マネージメント アクティビティ API を使用して、Teams のイベント情報を取得することができます。 マネージメント アクティビティ API の詳細については、「[Teams スキーマ](/office/office-365-management-api/office-365-management-activity-api-schema#microsoft-teams-schema)」を参照してください。
 
 ## <a name="attribution-in-teams-audit-logs"></a>Teams の監査ログでの属性
 
-Azure Active Directory (Azure AD)、Microsoft 365 管理センター、または Microsoft 365 グループ グラフ API を通じて行われた Teams へのメンバー変更 (ユーザーの追加や削除など) は、Teams の監査メッセージと一般チャネルに、実際のアクションの開始者ではなく、チームの既存の所有者に対する属性を付けて表示されます。 これらのシナリオでは、Azure AD または[Microsoft 365 グループの監査ログ](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)にお問い合わせの上、関連情報を参照してください。
+Azure Active Directory (Azure AD)、Microsoft 365 管理センター、または Microsoft 365 グループ グラフ API を通じて行われた Teams へのメンバー変更 (ユーザーの追加や削除など) は、Teams の監査メッセージと一般チャネルに、実際のアクションの開始者ではなく、チームの既存の所有者に対する属性を付けて表示されます。 これらのシナリオでは、Azure AD または[Microsoft 365 グループの監査ログ](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)にお問い合わせの上、関連情報を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
-- [Microsoft 365 コンプライアンス センターで監査ログを検索する](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [Microsoft 365 コンプライアンス センターで監査ログを検索する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

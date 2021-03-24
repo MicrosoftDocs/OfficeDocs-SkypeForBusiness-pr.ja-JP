@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 437902136bf72685dabf5bd6359dd6221c7467de
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: c69f5678b2a3884f52dd3dc676fce21e2ee67f4f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909471"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092545"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Teams でフロントライン ワーカーのシフトベースのアクセスを管理する
 
 > [!IMPORTANT]
-> 2020 年 6 月 30 日から、Microsoft StaffHub は廃止されました。 Microsoft では、StaffHub の機能を Microsoft Teams に組み込む作業に取り組んでいます。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 StaffHub は、2020 年 6 月 30 日にすべてのユーザーの作業を停止しました。 StaffHub を開しようとすると、Teams のダウンロードを指示するメッセージが表示されます。 詳細については [、Microsoft StaffHub の廃止に関するページを参照してください](microsoft-staffhub-to-be-retired.md)。  
+> 2020 年 6 月 30 日をもって、Microsoft Staffhub は廃止されました。 Microsoft では、StaffHub の機能を Microsoft Teams に組み込む作業に取り組んでいます。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 StaffHub は 2020 年 6 月 30 日をもって、すべてのユーザーがご利用できなくなりました。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub は廃止されました](microsoft-staffhub-to-be-retired.md)」を参照してください。  
 
 ## <a name="overview"></a>概要
 
@@ -33,7 +33,7 @@ ms.locfileid: "49909471"
 
 Microsoft Teams のプレゼンスは、他のユーザーに対するユーザーの現在の状態を示します。 フロントライン ワーカーのプレゼンスは、通常、1 日の勤務時間が同じではならず、他のスタッフよりも予測が難しい場合があります。 管理者は、組織内の最前線の従業員がシフトのオンとオフを示すために、シフトベースのプレゼンス状態のセットを表示する Teams を構成できます。
 
-これらのシフトベースのプレゼンス状態は、緑色の単色のチェック マークで、シフト時のオンシフト &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ 、x ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; [](../../presence-admins.md)の灰色の円、オフシフトオフシフト、単色の赤い円、取り込み中が Teams の既定のプレゼンス状態のセットとは別の状態を示します。 これら 2 セットのプレゼンス状態では、その役割に基づいて組織内のユーザーに異なるエクスペリエンスを構成できます。
+これらのシフトベースのプレゼンス状態は、緑色の単色のチェック マーク、シフト時のオンシフト &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ 、x ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; [](../../presence-admins.md)を含む灰色の円、オフシフトオフシフト、単色の赤い円、取り込み中が Teams の既定のプレゼンス状態のセットとは別の状態を示します。 これら 2 セットのプレゼンス状態では、その役割に基づいて組織内のユーザーに異なるエクスペリエンスを構成できます。
 
 シフトベースのアクセスでは、Frontline Worker がシフトオフのときに Teams へのアクセスを管理できます。 たとえば、スケジュールされたシフトに参加していない場合に、フロントライン ワーカーが Teams を使用する前に認識する必要があるメッセージを表示する Teams を設定できます。  
 
@@ -41,7 +41,7 @@ Microsoft Teams のプレゼンスは、他のユーザーに対するユーザ�
 
 組織でシフトベースのアクセスを管理する方法の例を次に示します。
 
-組織内に Frontline Worker がいて、マネージャーがスケジュールして承認したシフトで作業する時間に対する支払いのみを行う必要があります。 Teams アプリの使用を含む、スケジュールされたシフトの外で作業に費やした時間に対する支払いを行う必要があります。 "オフ シフト時の Teams の時間は支払い時間にカウントされません" というカスタム メッセージを設定すると、Frontline Worker がシフト外のときに Teams にアクセスしようとするときに表示されます。 Teams の使用を選択した場合は、[この時間の支払いは行えなという理解で承諾する] をクリックします。
+組織内に Frontline Worker がいて、マネージャーがスケジュールして承認したシフトで作業する時間に対する支払いのみを行う必要があります。 Teams アプリの使用を含む、スケジュールされたシフトの外で作業に費やした時間に対する支払いを行う必要があります。 "オフシフト時の Teams の時間は支払い時間にカウントされません" というカスタム メッセージを設定すると、Frontline Worker がシフト外のときに Teams にアクセスしようとするときに表示されます。 Teams の使用を選択した場合、この時間の支払いは行えなという理解を得て [同意する] をクリックします。
 
 また、組織内に、サラリーマンやシフトを働かしない情報提供者もいます。 Teams で既定のプレゼンス状態を使用し、フロントライン ワーカーにシフトベースのプレゼンスを提供する情報ワーカーを構成します。
 
@@ -57,7 +57,7 @@ Microsoft Teams のプレゼンスは、他のユーザーに対するユーザ�
 
 ## <a name="off-shift-access-to-teams"></a>Teams へのシフトアクセスをオフにする
 
-この機能を使用すると、Frontline Worker がシフトオフのときに Teams へのアクセスを管理できます。 シフト外に Teams にアクセスする場合は、Frontline Worker にメッセージを表示する Teams を設定できます。 フロントライン ワーカーは、Teams を **使用する前に、[** 承諾] をクリックしてメッセージを確認する必要があります。
+この機能を使用すると、Frontline Worker がシフトオフのときに Teams へのアクセスを管理できます。 シフト外に Teams にアクセスする場合は、Frontline Worker にメッセージを表示する Teams を設定できます。 フロントライン ワーカーは、Teams を **使用する前に** 、[承諾] をクリックしてメッセージを確認する必要があります。
 
 既定のメッセージを使用したり、事前に定義されたメッセージのセットから選択したり、メッセージをカスタマイズして必要なテキストを表示することができます。 既定のメッセージを次に示します。
 
@@ -69,15 +69,15 @@ Microsoft Teams のプレゼンスは、他のユーザーに対するユーザ�
 
 管理者はポリシーを使用して、組織内のフロントライン ワーカーのシフトベースのプレゼンスを制御します。 これらのポリシーを管理するには、次の PowerShell コマンドレットを使用します。
 
-- [New-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)
-- [Get-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/get-csteamsshiftspolicy)
-- [Set-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/set-csteamsshiftspolicy)
-- [Grant-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/grant-csteamsshiftspolicy)
-- [Remove-CsTeamsShiftsPolicy](https://docs.microsoft.com/powershell/module/teams/remove-csteamsshiftspolicy)
+- [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)
+- [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy)
+- [Set-CsTeamsShiftsPolicy](/powershell/module/teams/set-csteamsshiftspolicy)
+- [Grant-CsTeamsShiftsPolicy](/powershell/module/teams/grant-csteamsshiftspolicy)
+- [Remove-CsTeamsShiftsPolicy](/powershell/module/teams/remove-csteamsshiftspolicy)
 
 New-CsTeamsShiftsPolicyコマンドレットを使用して新しいポリシーを作成し、必要なポリシー設定を設定し、Grant-CsTeamsShiftsPolicy コマンドレットを使用してユーザーにポリシーを割り当てる。
 
-次に例を示します。 選択できる定義済みのオフシフト メッセージの一覧など、各ポリシー設定とパラメーターの詳細については [、「New-CsTeamsShiftsPolicy」](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)を参照してください。
+次に例を示します。 選択できる定義済みのオフシフト メッセージの一覧など、各ポリシー設定とパラメーターの詳細については [、「New-CsTeamsShiftsPolicy」](/powershell/module/teams/new-csteamsshiftspolicy)を参照してください。
 
 ### <a name="example-1"></a>例 1
 
@@ -88,18 +88,18 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -En
 ```
 
 > [!NOTE]
-> **ShiftNoticeMessageType パラメーター** を使用して、表示するメッセージを設定します。 このパラメーターから選択できる定義済みメッセージの一覧を表示するには [、「New-CsTeamsShiftsPolicy」を参照してください](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)。
+> **ShiftNoticeMessageType パラメーター** を使用して、表示するメッセージを設定します。 このパラメーターから選択できる定義済みメッセージの一覧を表示するには [、「New-CsTeamsShiftsPolicy」を参照してください](/powershell/module/teams/new-csteamsshiftspolicy)。
 
 ### <a name="example-2"></a>例 2 
 
-この例では、"オフ Shift Teams Access カスタム メッセージ" という名前の新しいポリシーを作成します。 このポリシーでは、シフトベースのプレゼンスが有効になっていて、このポリシーが割り当てられているユーザーがシフト外のときに Teams にアクセスすると、毎回カスタム メッセージが表示されます。 ユーザーは、メッセージを受け入れる場合に Teams をオフシフトで使用し、最初のシフトの開始または最後のシフトの終了からアクセスが制限される時間が 15 分の猶予期間を使用できます。  
+この例では、"オフ Shift Teams Access カスタム メッセージ" という名前の新しいポリシーを作成します。 このポリシーでは、シフトベースのプレゼンスが有効になっていて、このポリシーが割り当てられているユーザーがシフト外のときに Teams にアクセスすると、毎回カスタム メッセージが表示されます。 ユーザーは、メッセージを受け入れる場合に Teams をオフシフトで使用し、最初のシフトの開始または最後のシフトの終了からアクセスが制限された時間が 15 分の猶予期間を使用できます。  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
 ```
 
 > [!NOTE]
-> **ShiftNoticeMessageType パラメーター** を使用して、表示するメッセージを設定します。 詳細については [、New-CsTeamsShiftsPolicy を参照してください](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)。
+> **ShiftNoticeMessageType パラメーター** を使用して、表示するメッセージを設定します。 詳細については [、New-CsTeamsShiftsPolicy を参照してください](/powershell/module/teams/new-csteamsshiftspolicy)。
 
 ### <a name="example-3"></a>例 3
 
@@ -114,11 +114,11 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 ```
 
 > [!NOTE]
-> **ShiftNoticeMessageType パラメーター** を使用して、表示するメッセージを設定します。 このパラメーターから選択できる定義済みメッセージの一覧を表示するには [、「New-CsTeamsShiftsPolicy」を参照してください](https://docs.microsoft.com/powershell/module/teams/new-csteamsshiftspolicy)。
+> **ShiftNoticeMessageType パラメーター** を使用して、表示するメッセージを設定します。 このパラメーターから選択できる定義済みメッセージの一覧を表示するには [、「New-CsTeamsShiftsPolicy」を参照してください](/powershell/module/teams/new-csteamsshiftspolicy)。
 
 ### <a name="example-4"></a>例 4
 
-この例では、"オフ Shift Teams Access カスタム メッセージ" という名前のポリシーを remy@contoso.com という名前のユーザーに割り当remy@contoso.com。
+この例では、"オフ Shift Teams Access カスタム メッセージ" という名前のポリシーを remy@contoso.com という名前のユーザーに割り当 remy@contoso.com。
 
 ```powershell
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"

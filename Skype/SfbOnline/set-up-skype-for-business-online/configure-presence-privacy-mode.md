@@ -19,32 +19,32 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
-description: 'ユーザーにプライバシーモードを設定する方法について説明します。ユーザーは、自分の空き時間情報の表示方法を制御しやすくすることができます。 '
-ms.openlocfilehash: a2b4ed11f1d56927a4bc7eed6ce36b5b04411509
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+description: 'ユーザーが自分の空き時間情報を表示する方法をより詳細に制御できるよう、ユーザーのプライバシー モードを設定する方法について説明します。 '
+ms.openlocfilehash: 0b708c86d2693228ad7a613755a181fff5b3743d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753442"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093471"
 ---
 # <a name="configure-presence-privacy-mode"></a>プレゼンス プライバシー モードを設定する
 
 > [!IMPORTANT]
-> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 Teams 管理センターで Skype for Business の機能を管理するには、グローバル管理者または Skype for Business 管理者の [AZURE AD 管理者の役割](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) が割り当てられている必要があります。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
+> Microsoft Teams 管理センターは、Skype for Business 管理センター (レガシ ポータル) に置き換えました。 Skype for Business を管理するためのすべての設定が Teams 管理センターに表示されます。 Teams 管理センターで Skype for Business [AD](/azure/active-directory/roles/permissions-reference) を管理するには、グローバル管理者または Skype for Business 管理者の Azure 管理者の役割が割り当てられている必要があります。 詳細については、「[Microsoft Teams 管理センターで Skype for Business の設定を管理する](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)」を参照してください。
 
-Skype for Business Online のプレゼンス設定を使用すると、ユーザーは連絡可能か、会議中か、または外出中かをより詳細に制御できます。 Skype for Business のプレゼンスとプライバシーの設定の詳細については、「 [skype For Business Online でプレゼンスを設定する](configure-presence-in-skype-for-business-online.md)」を参照してください。 
+Skype for Business Online のプレゼンス設定を使用すると、自分が出席可能か、会議中か、またはオフィスから出たかを誰が確認できるのかを、より詳細に制御できます。 Skype for Business のプレゼンスとプライバシーの設定の詳細については [、「Skype for Business Online でプレゼンスを構成する」を参照してください](configure-presence-in-skype-for-business-online.md)。 
   
-## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>組織内のすべてのユーザーに対して既定のオンラインプレゼンス設定を選択する
+## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>組織内のすべてのユーザーの既定のオンライン プレゼンス設定を選ぶ
 <a name="__top"> </a>
 
-1. [Skype for Business Online 管理センター > **組織 > 全般**] に移動します。
+1. Skype for Business Online 管理センターに移動し、[組織> **全般>します**。
     
-2. [ **プレゼンスプライバシーモード**] で設定を選択し、[ **保存**] をクリックします。
+2. プレゼンス **プライバシー モードで設定** を選び、[保存] をクリック **します**。
     
 |**設定**|**ユーザーのプレゼンスを表示できるユーザー**|
 |:-----|:-----|
 |**プレゼンス情報を自動的に表示する** <br/> |[ **外部** ] または [ **禁止済み** ] プライバシー グループに属していないすべての Skype for Business ユーザー。 <br/> |
-|**プレゼンス情報をユーザーの連絡先にのみ表示する** <br/> |ユーザーの連絡先リストに含まれる人のうち、[ **外部** ] または [ **禁止** 済み] プライバシーグループに属していない人 <br/> 個々のユーザーは、Skype for Business の [ **オプション** ] ダイアログボックスでこの設定を変更できます。 <br/> |
+|**ユーザーの連絡先にのみプレゼンス情報を表示する** <br/> |外部またはブロックされたプライバシー グループに属していないユーザーの連絡先リスト **内のすべての** ユーザー。 <br/> 個々のユーザーは、[Skype for **Business** のオプション] ダイアログ ボックスでこの設定を変更できます。 <br/> |
    
 ## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
@@ -52,4 +52,3 @@ Skype for Business Online のプレゼンス設定を使用すると、ユーザ
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

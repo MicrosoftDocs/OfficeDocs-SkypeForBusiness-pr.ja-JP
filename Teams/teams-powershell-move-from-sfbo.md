@@ -12,12 +12,12 @@ ms.collection:
 description: Skype for Business Online Connector から Teams PowerShell モジュールに移動して Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32029de1ec33ee89c8dba30d8368131b291fc3f8
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 5a2b502edc84c853a0a140a11f8c028b7c78aca6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569083"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094128"
 ---
 # <a name="move-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Skype for Business Online Connector から Teams PowerShell モジュールに移動する
 
@@ -51,6 +51,6 @@ Skype for Business Online Connector を使用して Teams PowerShell モジュ�
 
 [Teams PowerShell のリリース ノート](teams-powershell-release-notes.md)
 
-[Microsoft Teams コマンドレット リファレンス](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+[Microsoft Teams コマンドレット リファレンス](/powershell/teams/?view=teams-ps)
 
-[Skype for Business コマンドレット リファレンス](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+[Skype for Business コマンドレット リファレンス](/powershell/skype/intro?view=skype-ps)

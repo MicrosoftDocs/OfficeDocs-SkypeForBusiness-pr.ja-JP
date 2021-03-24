@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 組織内の Teams ユーザーと Skype (コンシューマー) ユーザー間の相互運用性機能について説明します。
 localization_priority: Normal
-ms.openlocfilehash: 8bb6a83eddc60ff680d1a08c7266e082dd8b0188
-ms.sourcegitcommit: 2639da2c9f903a9a82866be9db2b69a705c54200
+ms.openlocfilehash: e3203c03043dbcdb04370cf3aa26b435fad4a728
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50055649"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093957"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams と Skype の相互運用性
 
@@ -69,12 +69,12 @@ Teams ユーザーは、Skype ユーザーからの最初の会話要求を承�
 - Skype ID または電話番号を使用して Skype ユーザーを検索する機能はサポートされていません。
 - Skype ユーザーは、別のユーザーの番号、代理人の番号、または公衆交換電話網 (PSTN) 番号への転送を設定した Teams ユーザーに通話を発信できない。  ボイスメールだけがサポートされます。
 - 相互運用のエスカレーション、グループ通話、会議はサポートされません。
-- 代理人が Teams ユーザーの代理で Skype ユーザーを呼び出す機能はサポートされていません。
+- 代理人が Teams ユーザーの代わりに Skype ユーザーを呼び出す機能はサポートされていません。
 - チャットでの画面共有はサポートされていません。
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Teams ユーザーが Skype ユーザーと通信できるかどうかを設定する
 
-管理者は、Microsoft Teams 管理センターまたは PowerShell を使用して外部アクセス設定を設定し、組織内の Teams ユーザーが Skype ユーザーと通信できるかどうかを制御します。 既定では、この機能は新しいテナントに対して有効になっています。 ただし、ドメイン (_sipfederationtls.contoso.com など) で使用できない場合は、次の DNS SRV レコードを IT 管理者が構成する必要があります。  
+管理者は、Microsoft Teams 管理センターまたは PowerShell を使用して外部アクセス設定を設定し、組織内の Teams ユーザーが Skype ユーザーと通信できるかどうかを制御します。 既定では、この機能は新しいテナントに対して有効になっています。 ただし、ドメインでまだ使用できない場合は、次の DNS SRV レコードを IT 管理者が構成する必要があります (_sipfederationtls.contoso.com など)。  
 
 **サービス**: sipfederationtls<br/>
 **プロトコル**: TCP<br/>
@@ -87,14 +87,14 @@ Skype for Business から Teams にアップグレードした場合、Skype for
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで
 
-Microsoft Teams 管理センターで、組織全体の設定の [外部アクセス] に移動し、ユーザーが Skype ユーザーと通信できる  >  **機能を有効にします**。 この設定と他の外部アクセス設定を構成する方法の詳細なガイダンスについては、「Teams で外部アクセスを管理する」を [参照してください](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains)。
+Microsoft Teams 管理センターで、組織全体の設定の外部アクセスに移動し、ユーザーが Skype ユーザーと通信できる  >  **機能を有効にします**。 この設定と他の外部アクセス設定を構成する方法の詳細なガイダンスについては、「Teams で外部アクセスを管理する」を [参照してください](./manage-external-access.md#allow-or-block-domains)。
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
 以下の操作を行います。 
-1. パラメーターと [共に Set-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) コマンドレットを使用して、Teams ユーザーが Skype ユーザーと通信できるかどうか ```EnablePublicCloudAccess``` を制御します。 パラメーターを設定すると ```true``` 、Teams ユーザーは Skype ユーザーと通信できます。 パラメーターを使用して ```EnablePublicCloudAudioVideoAccess``` 、音声/ビデオ通話を有効/無効にできます。
+1. パラメーターと [共に Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) コマンドレットを使用して、Teams ユーザーが Skype ユーザーと通信できるかどうか ```EnablePublicCloudAccess``` を制御します。 パラメーターを設定すると ```true``` 、Teams ユーザーは Skype ユーザーと通信できます。 パラメーターを使用して ```EnablePublicCloudAudioVideoAccess``` 、音声/ビデオ通話を有効/無効にできます。
 
-2. パラメーターセット [と共に Set-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantPublicProvider) コマンドレットを使用して、Teams ユーザーが Skype ユーザーと ```Provider``` ```"WindowsLive"``` 通信できます。
+2. [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider)コマンドレットとパラメーターセットを組み合わせて使用すると、Teams ユーザーは Skype ユーザーと ```Provider``` ```"WindowsLive"``` 通信できます。
 
 ## <a name="related-topics"></a>関連項目
 

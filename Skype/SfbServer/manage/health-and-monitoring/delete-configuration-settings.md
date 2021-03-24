@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で CDR 構成設定の既存のコレクションを削除する
+title: Skype for Business Server の CDR 構成設定の既存のコレクションを削除する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: '概要: Skype for Business Server で CDR 構成設定を削除する方法について説明します。'
-ms.openlocfilehash: ca6691d6a1a19e0d9219a256986b683b719da885
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ac961df352f26891ece9c69b7d62b37c4c015d6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816967"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095311"
 ---
-# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で CDR 構成設定の既存のコレクションを削除する
+# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server の CDR 構成設定の既存のコレクションを削除する
  
 **概要:** Skype for Business Server で CDR 構成設定を削除する方法について説明します。
   
@@ -29,7 +29,7 @@ Skype for Business Server をインストールすると、CDR 構成設定の�
   
 グローバル設定を "削除" することもできます。 ただし、グローバル設定は実際に削除されるわけではありません。 代わりに、そのコレクションのすべてのプロパティが既定値にリセットされます。 たとえば、既定では CDR 構成設定のコレクションでパージが有効になります。 パージが無効になるようにグローバル コレクションを変更すると想定します。 後にグローバル設定を削除すると、すべてのプロパティは既定の値にリセットされます。 この場合、削除が再び有効になることを意味します。
   
-Skype for Business Server コントロール パネルまたは [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) コマンドレットを使用して、CDR 構成設定を削除できます。
+SKYPE for Business Server コントロール パネルまたは [Remove-CsCdrConfiguration コマンドレットを使用して、CDR 構成設定を削除](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) できます。
   
 ### <a name="to-remove-cdr-configuration-settings-with-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して CDR 構成設定を削除するには
 
@@ -41,9 +41,9 @@ Skype for Business Server コントロール パネルまたは [Remove-CsCdrCon
     
 4. [Skype for Business Server コントロール パネル] ダイアログ ボックスで **、[OK] をクリックします**。
     
-## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した CDR 構成設定Windows PowerShell削除する
+## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した CDR 構成設定Windows PowerShellする
 
-通話詳細記録の構成設定を削除するには、Windows PowerShell **Remove-CsCdrConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Skype for Business Server のリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 プロセスは Skype for Business Server でも同じです。
+通話詳細記録構成設定を削除するには、Windows PowerShell **Remove-CsCdrConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、Skype for Business Server でも同じです。
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>指定された CDR 構成設定のコレクションを削除するには
 
@@ -69,9 +69,8 @@ Skype for Business Server コントロール パネルまたは [Remove-CsCdrCon
   Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
   ```
 
-詳細については [、Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については [、Remove-CsCdrConfiguration コマンドレットのヘルプ トピックを参照](/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) してください。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server で通話詳細記録データベースと Quality of Experience データベースを手動で削除する](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
-
+[Skype for Business Server の通話詳細記録データベースと Quality of Experience データベースを手動で削除する](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)

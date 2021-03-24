@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で通話詳細記録を有効にする
+title: Skype for Business Server で通話の詳細記録を有効にする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '概要: Skype for Business Server で通話詳細記録 (CDR) レコードを有効にする方法について説明します。'
-ms.openlocfilehash: 48d21be6d377df24e859c3ffa6bb8b7858076d29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e2f652eeef77c336fb34be07c123f1ef026d458c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816887"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095231"
 ---
-# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Skype for Business Server で通話詳細記録を有効にする
+# <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Skype for Business Server で通話の詳細記録を有効にする
 
 **概要:** Skype for Business Server で通話詳細記録 (CDR) レコードを有効にする方法について説明します。
 
@@ -28,13 +28,13 @@ ms.locfileid: "49816887"
 組織全体または組織内の各サイトで CDR を有効にするには、次の手順を実行します。
 
 > [!NOTE]
-> CDR を有効にするには、監視および監視データベースを構成する必要があります。 詳細については、「[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)」を参照してください。
+> CDR を有効にするには、監視および監視データベースを構成する必要があります。 詳細については、「[Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)」を参照してください。
 
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルで CDR を有効にするには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
 
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
 
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**通話詳細記録**] をクリックします。
 
@@ -43,9 +43,9 @@ ms.locfileid: "49816887"
     > [!NOTE]
     > CDR は、既定では有効になっています。
 
-## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用して CDR をWindows PowerShellする
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>複数のコマンドレットを使用して CDR をWindows PowerShellする
 
-CDR を有効にするには、Windows PowerShell **Set-CsCdrConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Skype for Business Server のリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 プロセスは Skype for Business Server でも同じです。
+CDR を有効にするには、Windows PowerShell **Set-CsCdrConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、Skype for Business Server でも同じです。
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>1 つの場所の CDR を有効にするには
 
@@ -71,10 +71,10 @@ CDR を有効にするには、Windows PowerShell **Set-CsCdrConfiguration コ�
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-詳細については [、Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については [、Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
 
 ## <a name="see-also"></a>関連項目
 
-[監視の計画](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[監視の計画](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 
-[監視の展開](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[監視の展開](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

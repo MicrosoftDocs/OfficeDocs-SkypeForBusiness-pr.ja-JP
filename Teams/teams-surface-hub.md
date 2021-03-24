@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Surface Hub アプリの Teams をインストールして構成する方法について説明します。これにより、Teams が既定の通話および会議アプリケーションになります。
+description: Teams が既定の通話および会議アプリケーションになじむ、Teams for Surface Hub アプリをインストールして構成する方法について学習します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,19 +20,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 589bbfe75f0beea88066b5a6188b1d29c98ddd5f
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 38202fcbb4c2147baae3f745bc2455da6fdff3e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905649"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093937"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Microsoft Teams for Surface Hub を展開する
 ======================================
 
 Teams for Surface Hub をインストールする前に、次の操作を行います。
 
- □ ハードウェア、オペレーティング システム、その他の要件を満たしていることを確認する。 詳細については、[Microsoft Surface Hub の管理者ガイド](https://docs.microsoft.com/surface-hub/)を参照してください。<br>
+ □ ハードウェア、オペレーティング システム、その他の要件を満たしていることを確認する。 詳細については、[Microsoft Surface Hub の管理者ガイド](/surface-hub/)を参照してください。<br>
  □ Teams に必要な最小オペレーティング システムの更新プログラムがインストールされていることを確認する - [KB4343889](https://support.microsoft.com/help/4343889)。<br>
  □ Teams ライセンスを Hub デバイス アカウントに割り当てる。<br>
  □ Skype for Business Online から移行している場合は、Teams ライセンスがユーザーに割り当てられていることを確認する。
@@ -68,7 +68,7 @@ Microsoft Store から Teams for Surface Hub をインストールする手順�
 |2     | スタート画面で Teams が独占的アプリ (Skype アプリは利用不可)        |
  
 1. Surface Hub デバイスに USB キーを接続します。 
-2. Surface Hub デバイスで **[設定] **アプリを開きます。 
+2. Surface Hub デバイスで **[設定]** アプリを開きます。 
 3. **[Surface Hub Device Account Management]** (Surface Hub デバイス アカウントの管理) を開きます。
 4. **[デバイスの管理]** を開きます。 
 5. **[プロビジョニング パッケージを追加または削除する]** をクリックします。 
@@ -95,4 +95,3 @@ Microsoft Store から Teams for Surface Hub をインストールする手順�
 |操作| Get、Set        |
 
 Surface Hub デバイスを再起動します。 デバイスが再起動したら、スタート画面から Teams アプリを起動し、予定表から会議に参加できます。
-

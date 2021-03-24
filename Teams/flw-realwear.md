@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67f595e6b037eb6091d3b4e03e3258a13e12a4d1
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 222cb12e38061c81a860092f90bf42d5412fdb63
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909391"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092285"
 ---
 # <a name="microsoft-teams-for-realwear"></a>RealWear 用 Microsoft Teams
 
@@ -44,8 +44,8 @@ Microsoft Teams ライセンスは、Microsoft 365 サブスクリプション�
 
 Android デバイス管理者モードを使用して、RealWear デバイスを管理することができます。 Android Enterprise による管理のサポートには制限があり、現在、デバイスでは Google モバイル サービス (GMS) は利用できません。
 
-- Microsoft エンドポイント マネージャーによる RealWear デバイス管理の詳細については、「[Intune での Android デバイス管理者の登録](https://docs.microsoft.com/mem/intune/enrollment/android-enroll-device-administrator)」を参照してください。
-- ポリシーの詳細については、「[Google モバイル サービスを使用していない環境で Intune を使用する方法](https://docs.microsoft.com/mem/intune/apps/manage-without-gms)」を参照してください。
+- Microsoft エンドポイント マネージャーによる RealWear デバイス管理の詳細については、「[Intune での Android デバイス管理者の登録](/mem/intune/enrollment/android-enroll-device-administrator)」を参照してください。
+- ポリシーの詳細については、「[Google モバイル サービスを使用していない環境で Intune を使用する方法](/mem/intune/apps/manage-without-gms)」を参照してください。
 
 ### <a name="third-party-enterprise-mobility-managers-emms"></a>サードパーティ製 Enterprise Mobility マネージャー (EMM)
 

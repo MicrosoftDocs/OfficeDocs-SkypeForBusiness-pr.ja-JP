@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Microsoft 365 または Office 365 での Skype Room System アカウントのプロビジョニングについて説明します。
-ms.openlocfilehash: 8e44e648e12ec4db1e8acf9617c02937f9418c41
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 94390effb246a37745d797289c1146ed3d347604
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569379"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093521"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Microsoft 365 および Microsoft 365 および Office 365 での Skype ルーム システム アカウントのプロビジョニング
  
@@ -29,7 +29,7 @@ Microsoft 365 または Office 365 での Skype Room System アカウントの�
 
 オンライン テナントは、次の要件を満たしている必要があります。
   
-- Microsoft 365 または Office 365 プランには、Skype for Business Online プラン 2、または Office 365 E1、E3、E5 が含まれる必要があります。 <br/>Skype for Business Online プランの詳細については [、「Skype for Business Online Service Description」を参照してください](https://technet.microsoft.com/library/jj822172.aspx)。
+- Microsoft 365 または Office 365 プランには、Skype for Business Online プラン 2、または Office 365 E1、E3、E5 が含まれる必要があります。 <br/>Skype for Business Online プランの詳細については [、「Skype for Business Online Service Description」を参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
     
 - テナントで Skype for Business の会議機能が有効になっている必要があります。
     
@@ -69,7 +69,7 @@ Skype Room アカウントでは、次のライセンスが必要です。
     
 ## <a name="exchange-online-provisioning"></a>Exchange Online プロビジョニング
 
-最初に、「Exchange Online PowerShell に接続する」の手順に従って [Exchange Online PowerShell に接続します](https://go.microsoft.com/fwlink/p/?LinkId=396554)。
+最初に、「Exchange Online PowerShell に接続する」の手順に従って [Exchange Online PowerShell に接続します](/powershell/exchange/connect-to-exchange-online-powershell)。
   
 Skype Room System の既存のリソース ルーム メールボックス アカウントを設定するには、Exchange Online PowerShell で次のコマンドを実行します。
   
@@ -101,7 +101,7 @@ Skype for Business Online のライセンスを割り当てると、Skype for Bu
 
 前に示すようにリソース ルーム メールボックス アカウントを作成して有効にし、Skype For Business Online のアカウントをライセンスした後、アカウントは Windows Azure Active Directory フォレストを使用して Exchange Online フォレストから Skype for Business Online フォレストに同期します。 Skype for Business Online プールで Skype Room System アカウントをプロビジョニングするには、次の手順が必要です。 これらの手順は、既存のリソース メールボックス アカウントまたは新しく作成されたアカウント (confrm1 または confrm2) の両方で同じです。Exchange Online で有効にすると、両方のアカウントが同じ方法で Skype for Business Online に同期されます。
   
-1. リモート PowerShell セッションを作成します。 Teams [PowerShell](https://docs.microsoft.com/microsoftteams/teams-powershell-install)モジュールをダウンロードする必要があります。
+1. リモート PowerShell セッションを作成します。 Teams [PowerShell](/microsoftteams/teams-powershell-install)モジュールをダウンロードする必要があります。
     
   ```powershell
   # When using Teams PowerShell Module
@@ -143,9 +143,8 @@ Microsoft 365 または Office 365 では、異なるパスワード有効期限
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-詳細については、「コンピューターの[セットアップ」を参照Windows PowerShell。](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+詳細については、「コンピューターの[セットアップ」を参照Windows PowerShell。](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="validate"></a>検証
 
 検証のために、Skype for Business クライアントを使用して、作成したアカウントにサインインできる必要があります。
-

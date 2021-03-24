@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: Skype for Business Server の通話受付管理でエンタープライズ VoIPネットワーク地域リンクを作成または変更します。
-ms.openlocfilehash: 1b891a299e85836e4a69b4a6c6e9df9a52cb0cdc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server の通話受付管理で使用エンタープライズ VoIPネットワーク地域リンクを作成または変更します。
+ms.openlocfilehash: 5fd9657b3919e80552a82912550e7314297182cc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822467"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093105"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Skype for Business Server でネットワーク地域リンクを作成する
  
-Skype for Business Server の通話受付管理でエンタープライズ VoIPネットワーク地域リンクを作成または変更します。 
+Skype for Business Server の通話受付管理で使用エンタープライズ VoIPネットワーク地域リンクを作成または変更します。 
   
-ネットワーク内の地域は、物理的な WAN 接続でリンクされています。 ネットワーク地域リンクは、通話受付管理 (CAC) 用に構成された 2 つの地域間のリンクを作成し、これらの地域間の音声トラフィックとビデオ トラフィックの帯域幅制限を設定します。
+ネットワーク内の地域は、物理的な WAN 接続でリンクされています。 ネットワーク領域リンクは、通話受付管理 (CAC) 用に構成された 2 つの地域間のリンクを作成し、これらの地域間のオーディオおよびビデオ トラフィックの帯域幅制限を設定します。
   
-トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 「例: Skype for Business Server での通話受付管理の要件の収集」の地域リンクの帯域幅情報の表で説明するように、これらの各地域リンクは WAN 帯域幅によって [制限されます](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
+トポロジの例では、North America 地域と APAC 地域間のリンク、および EMEA 地域と APAC 地域間のリンクを含みます。 これらの各地域リンクは、 [例: Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)での通話受付制御の要件の収集の「地域リンク帯域幅情報」の表で説明されているとおり、WAN 帯域幅によって制限されます。
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してネットワーク地域リンクを作成するには
 
-1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
+1. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
     
 2. New-CsNetworkRegionLink コマンドレットを実行して、地域リンクを作成し、適切な帯域幅ポリシー プロファイルを適用します。 たとえば、以下を実行します。
     
@@ -72,10 +72,10 @@ Skype for Business Server の通話受付管理でエンタープライズ VoIP�
     
 ## <a name="see-also"></a>関連項目
 
-[New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
+[New-CsNetworkRegionLink](/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   
-[Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
+[Get-CsNetworkRegionLink](/powershell/module/skype/get-csnetworkregionlink?view=skype-ps)
   
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
+[Set-CsNetworkRegionLink](/powershell/module/skype/set-csnetworkregionlink?view=skype-ps)
   
-[Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)
+[Remove-CsNetworkRegionLink](/powershell/module/skype/remove-csnetworkregionlink?view=skype-ps)

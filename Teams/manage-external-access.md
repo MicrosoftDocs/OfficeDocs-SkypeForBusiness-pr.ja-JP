@@ -21,12 +21,12 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: c41b051f7c11d27417885c9ada22d9337d50dfdb
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711774"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092265"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 
@@ -50,7 +50,7 @@ ms.locfileid: "50711774"
 Teams では既定で外部アクセスが有効になっています。つまり、組織はすべての外部ドメインと通信できます。 禁止ドメインを追加すると、他のすべてのドメインが許可され、許可ドメインを追加すると、他のすべてのドメインが禁止されます。 この規則の例外は、匿名の参加者が会議に参加できる場合です。 Teams 管理センターで外部アクセスを設定するには、次の 3 つのシナリオがあります (**[組織全体の設定]**  >  **[外部アクセス]**)。
 
 > [!NOTE]
-> 組織で外部アクセスをオフにしても、外部ユーザーは匿名参加で会議に参加できます。 詳細については、「[Teams での会議設定を管理する](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)」を参照してください。
+> 組織で外部アクセスをオフにしても、外部ユーザーは匿名参加で会議に参加できます。 詳細については、「[Teams での会議設定を管理する](./meeting-settings-in-teams.md)」を参照してください。
 
 - **開いているフェデレーション**: これは Teams の既定の設定です。組織内のユーザーが任意のドメインの組織外ユーザーとの会議の検索、呼び出し、チャット、設定を行えるようにします。
 

@@ -30,12 +30,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abb88c42de7858a80ade93953f08a168feb533e2
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 9e24447b2e6d7a94e618611ec3fd9b54bda70a6a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110320"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093817"
 ---
 # <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Skype for Business から Microsoft Teams へのアップグレードを開始する
 
@@ -45,7 +45,7 @@ Skype for Business Online から Teams にアップグレードする場合で�
 
 | アイコン | 説明 |
 | --- | --- |
-|![チュートリアルの記号](https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.png) | **アップグレード** ハブ: Skype for Business から Teams へのアップグレードを正常に実装するために必要なすべてのガイダンス、トレーニング、リソースの概要については [、「Skype for Business](upgrade-skype-teams.yml)から Microsoft Teams へのアップグレードを計画する」を参照してください。|
+|![チュートリアルの記号](/office/media/icons/walkthrough-map-teams.png) | **アップグレード** ハブ: Skype for Business から Teams へのアップグレードを正常に実装するために必要なすべてのガイダンス、トレーニング、リソースの概要については [、「Skype for Business](upgrade-skype-teams.yml)から Microsoft Teams へのアップグレードを計画する」を参照してください。|
 
 アップグレードについてよく寄せられる質問については、読み続ける必要があります。
 
@@ -59,7 +59,7 @@ Skype for Business Online は 2021 年 7 月 31 日に廃止される予定で�
 
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>Teams の準備やアップグレードを実行しているときに、引き続き Skype for Business Online を使用することはできますか?
 
-はい。Microsoft では、Skype for Business Online と Teams を一緒に実行するためのオプションをいくつか用意しています。 現在、この共存モードを使用すると、Teams 単独へのアップグレードを加速させながら、ユーザーは Teams に慣れ親しむことができます。 詳細については、[https://aka.ms/SkypeToTeams-Coexist](https://aka.ms/SkypeToTeams-Coexist)を参照してください。
+はい。Microsoft では、Skype for Business Online と Teams を一緒に実行するためのオプションをいくつか用意しています。 現在、この共存モードを使用すると、Teams 単独へのアップグレードを加速させながら、ユーザーは Teams に慣れ親しむことができます。 詳細については、[https://aka.ms/SkypeToTeams-Coexist](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)を参照してください。
 
 ## <a name="is-phone-system-available-for-teams-users"></a>Teams ユーザーは電話システムを利用できますか?
 
@@ -73,7 +73,7 @@ Skype for Business Online は 2021 年 7 月 31 日に廃止される予定で�
 
 Microsoft は、お客様が Skype for Business から Teams へ問題なく移行できるよう、貢献することに努めています。 Microsoft は、評価されたエンド ツー エンドのアップグレード成功フレームワークに基づいて構築された堅牢なガイダンスを提供しています。これは、Teams へのアップグレードを計画して実行するのに役立ちます。 このガイダンスは、計画を開始したばかりの場合、Skype for Business と共に Teams を使用している場合、Teams にアップグレードする準備ができている場合など、アップグレードのあらゆる段階に合わせて作成されています。
 
-Microsoft では、アップグレードの計画と実装を容易にするために、無料の対話型アップグレード計画ワークショップを開催しています。これは、アップグレード フレームワークに慣れ親しみ、アップグレードの準備に関する洞察をユーザーと共有し、組織が Teams へ移行するまでの適切な行程を識別するために準備されたものです。 アップグレード計画の概要セッションに参加してください。[https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning)。
+Microsoft では、アップグレードの計画と実装を容易にするために、無料の対話型アップグレード計画ワークショップを開催しています。これは、アップグレード フレームワークに慣れ親しみ、アップグレードの準備に関する洞察をユーザーと共有し、組織が Teams へ移行するまでの適切な行程を識別するために準備されたものです。 アップグレード計画の概要セッションに参加してください。[https://aka.ms/SkypeToTeamsPlanning](./upgrade-workshops-landing-page.yml)。
  
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>アップグレード ガイダンスが必要な理由 単に Skype for Business を削除/使用停止させることはできますか? 
 
@@ -83,7 +83,7 @@ Skype for Business から Teams へのアップグレードは、技術的な移
 
 まず、アップグレードの成功フレームワークと関連リソースに精通してください。 このガイダンスは、Skype for Business から Teams へ移行するための基盤となります。
 
-[アップグレード フレームワークの詳細](upgrade-framework.md)を参照し、[ライブ アップグレード計画の概要](https://aka.ms/SkypeToTeamsPlanning)セッションに参加してください。
+[アップグレード フレームワークの詳細](upgrade-framework.md)を参照し、[ライブ アップグレード計画の概要](./upgrade-workshops-landing-page.yml)セッションに参加してください。
 
 > [!IMPORTANT]
 > アップグレードが成功すると、技術面およびユーザー両方の準備が整ったことになります。Microsoft Teams への移行を進める際には、必ずこのガイダンスを活用してください。

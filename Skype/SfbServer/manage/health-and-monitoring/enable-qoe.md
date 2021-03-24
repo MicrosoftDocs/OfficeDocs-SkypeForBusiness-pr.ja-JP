@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で Quality of Experience を有効にする
+title: Skype for Business Server でエクスペリエンスの品質を有効にする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,37 +12,37 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: '概要: Skype for Business Server で QoE (Quality of Experience) を有効にする方法について学習します。'
-ms.openlocfilehash: 67b752df3791d3ba0493a7e3575f25c58231ad26
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9f3e032506641cd22fbaa78054fcf6e40a72665e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816857"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095211"
 ---
-# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Skype for Business Server で Quality of Experience を有効にする
+# <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Skype for Business Server でエクスペリエンスの品質を有効にする
 
 **概要:** Skype for Business Server で QoE (Quality of Experience) を有効にする方法について学習します。
 
-QoE (Quality of Experience) は、メディアの品質と、通話およびセッションに関係する参加者、デバイス名、ドライバー、IP アドレス、およびエンドポイントの種類についての情報を示す数値データを記録します。 詳細については、「計画」のドキュメントの「[Planning for Monitoring](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)」を参照してください。
+QoE (Quality of Experience) は、メディアの品質と、通話およびセッションに関係する参加者、デバイス名、ドライバー、IP アドレス、およびエンドポイントの種類についての情報を示す数値データを記録します。 詳細については、「計画」のドキュメントの「[Planning for Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)」を参照してください。
 
 組織全体または組織内の各サイトで QoE を有効にするには、次の手順を実行します。
 
 > [!NOTE]
-> QoE を有効にするには、まず、監視を構成して、監視バック エンド データベースに接続する必要があります。 詳細については、「[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)」を参照してください。
+> QoE を有効にするには、まず、監視を構成して、監視バック エンド データベースに接続する必要があります。 詳細については、「[Deploying Monitoring](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)」を参照してください。
 
 ### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して QoE を有効にするには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
 
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
 
 3. 左側のナビゲーション バーで [**監視およびアーカイブ**] をクリックし、[**QoE データ**] をクリックします。
 
 4. [**QoE データ**] ページで、表から該当するコレクションをクリックして、[**操作**]、[**QoE を有効にする**] の順にクリックします。
 
-## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用して QoE Windows PowerShellする
+## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用して QoE をWindows PowerShellする
 
-QoE を有効にするには、Windows PowerShell **Set-CsQoEConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Skype for Business Server のリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 プロセスは Skype for Business Server でも同じです。
+QoE を有効にするには、Windows PowerShell **Set-CsQoEConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、Skype for Business Server でも同じです。
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>1 つの場所に対して QoE を有効にするには
 
@@ -68,11 +68,10 @@ QoE を有効にするには、Windows PowerShell **Set-CsQoEConfiguration コ�
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 
-詳細については [、「Set-CsQoEConfiguration」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)。
+詳細については [、「Set-CsQoEConfiguration」を参照してください](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)。
 
 ## <a name="see-also"></a>関連項目
 
-[監視の計画](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
+[監視の計画](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 
-[監視の展開](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
-
+[監視の展開](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Web Apps サーバーのOfficeウィザードでは、展開内の Web Apps サーバー Office新しいアプリケーションを定義します。 以下の情報を入力します。
-ms.openlocfilehash: dc82ea7b6b846940ab1975d93b70fbcb4dd9e983
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[Web Apps サーバー Officeの定義] ウィザードでは、展開で新Office Web Apps Server を定義します。 以下の情報を入力します。'
+ms.openlocfilehash: 84ebc3b3ca7a413d81b4a36e62cc33a4f3fd91f0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807727"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095781"
 ---
 # <a name="add-office-web-apps-server"></a>Office Web Apps サーバーの追加
 
-Web **Apps サーバーのOfficeウィザードでは** 、展開内の Web Apps サーバー Office新しいアプリケーションを定義します。 以下の情報を入力します。
+[Web **Apps サーバー Office定義** ] ウィザードでは、展開で Web Apps サーバー Office新しいアプリケーションを定義します。 以下の情報を入力します。
 
- **Office Web Apps サーバーの FQDN**: Web Apps サーバーをホストするサーバーの完全修飾ドメイン名Office入力します。
+ **Office Web Apps Server FQDN**: Web Apps Server をホストするサーバーの完全修飾ドメイン名Office入力します。
 
- **Office Web Apps サーバーの検出 URL**: Web Apps サーバーの完全な UNIFORM Resource Locator (URL) Office入力します。
+ **Office Web Apps サーバーの** 検出 URL : Web Apps Server の完全な統一リソース ロケーター (URL) をOfficeします。
 
 > [!TIP]
-> **Office Web Apps サーバー** 検出 URL の既定の動作では、次の形式で Office Web Apps サーバーの FQDN に基づいて URL を作成します `https://<FQDN of the Office Web Apps Server/hosting/discovery` 。 多くの場合、既定の形式を変更する必要はありません。 Web Apps サーバーと Office Web Apps サーバーの検出 URL が異なる必要Office場合は、既定の形式を変更する必要があります。 たとえば、Office Web Apps サーバーは境界ネットワークに配置され、その場所に基づいて異なる URL を持つ場合があります。
+> Web Apps Server Office **検出 URL** の既定の動作は、次の形式で Office Web Apps Server の FQDN に基づいて URL を作成することです `https://<FQDN of the Office Web Apps Server/hosting/discovery` 。 多くの場合、既定の形式を変更する必要はありません。 Web Apps Server と Web Apps Server の検出 URL が異なる必要がある場合Office Office既定の形式を変更する必要がある場合があります。 たとえば、Web Apps サーバー Office境界ネットワークに配置され、場所に基づいて別の URL が作成されます。
 
- Office Web Apps サーバーが外部ネットワーク **(境界ネットワーク/インターネット)** に展開されている場合: Office Web Apps サーバーが内部ファイアウォールの外側 (境界ネットワーク、外部ネットワーク、内部ネットワークと同じではないその他のネットワーク ゾーンなど) にある場合は、このチェック ボックスをオンにします。
+ **Office Web Apps Server** が外部ネットワーク (境界/インターネット) に展開されている場合: Office Web Apps Server が内部ファイアウォールの外部 (境界ネットワーク、外部ネットワーク、内部ネットワークと同じではない他のネットワーク 領域など) に配置されている場合は、チェック ボックスをオンにします。
 
 ## <a name="see-also"></a>関連項目
 
-[会議のコンポーネンツおよびトポロジ](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[会議のコンポーネンツおよびトポロジ](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

@@ -16,12 +16,12 @@ f1.keywords:
 description: 多国籍企業向け Teams 音声ケース スタディ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93f6d0877537a740dc867b44c3c4deb9bebb8441
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421292"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093727"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso のケース スタディ: Teams アップグレード プラン
 
@@ -47,7 +47,7 @@ Contoso は、Skype for Business から Teams へのパスを設計する Ignite
 
   - Teams クライアントでのコラボレーション機能の可用性 
 
-ハイブリッド接続を計画および構成するには、オンプレミス環境をクラウドに移行する最初の手順として、Contoso はハイブリッド[](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity)接続を計画し、[](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)次の方法を理解するためにハイブリッド接続を構成します。 
+ハイブリッド接続を計画および構成するには、オンプレミス環境をクラウドに移行する最初の手順として、Contoso はハイブリッド[](/SkypeForBusiness/hybrid/plan-hybrid-connectivity)接続を計画し、[](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)ハイブリッド接続を構成して次の方法を理解します。 
 
   - オンプレミス環境サービスを構成して、Office 365 とフェデレーションします。 
 
@@ -57,4 +57,4 @@ Contoso は、Skype for Business から Teams へのパスを設計する Ignite
 
   - テクニカル パイロット中は、諸島モードを使用します。
 
-  - ユーザーが電話システムに対して有効になると、ユーザーを TeamsOnly モードに切り替えます。 通話プランと直接ルーティングには TeamsOnly モードが必要です。 
+  - ユーザーが電話システムに対して有効になると、ユーザーを TeamsOnly モードに切り替えます。 通話プランと直接ルーティングには TeamsOnly モードが必要です。

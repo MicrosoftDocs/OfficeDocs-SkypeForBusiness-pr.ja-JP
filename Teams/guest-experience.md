@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: この記事では、ゲストが利用できる Microsoft Teams の機能性について説明します。
-ms.openlocfilehash: 25ea63de9bcdc85e0f7b81e382c2c9bcd057c629
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49661892"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092085"
 ---
 # <a name="guest-experience-in-teams"></a>Teams でのゲスト エクスペリエンス
 
@@ -105,8 +105,8 @@ Teams でのゲストエクスペリエンスに関する次のビデオをご�
 >  - **ゲストユーザーが、ディレクトリ オブジェクトのプロパティとメンバーシップに制限付きアクセスがある** 設定は、ユーザー、グループ、または Microsoft Graph を使用して他のディレクトリリソースを列挙するなど、特定のディレクトリタスクのアクセス許可がゲストに与えられていないことを意味します。
 >  - **Guest ユーザーのアクセスは、自分のディレクトリ オブジェクトのプロパティとメンバーシップ に制限がある (最も制限の厳しい)** 設定は、ゲスト自身のディレクトリ オブジェクトにのみアクセスできます。
 >
->詳細については、[「Azure Active Directory でのユーザーの既定のアクセス許可とは」](https://go.microsoft.com/fwlink/?linkid=2135493)を参照してください。
+>詳細については、[「Azure Active Directory でのユーザーの既定のアクセス許可とは」](/azure/active-directory/fundamentals/users-default-permissions)を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 
-[ゲスト ユーザーとして組織を脱退する](https://docs.microsoft.com/azure/active-directory/b2b/leave-the-organization)
+[ゲスト ユーザーとして組織を脱退する](/azure/active-directory/b2b/leave-the-organization)

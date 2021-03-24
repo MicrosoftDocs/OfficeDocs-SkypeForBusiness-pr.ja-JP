@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 管理センターで Teams テンプレートを管理する方法について説明します。
-ms.openlocfilehash: 27cf2d2d80f0e715e5ee9e9390ca86d81bd39d70
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875137"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51093927"
 ---
 # <a name="manage-teams-templates-in-the-admin-center"></a>管理センターで Teams テンプレートを管理する
 
@@ -44,7 +44,7 @@ ms.locfileid: "50875137"
 
     ![テンプレート ポリシーが選択され、[追加] が強調表示されている](media/template-policies-1.png)
 
-1. [テンプレート ポリシー **の設定] セクションで** 、次のフィールドに入力します。
+1. [テンプレート ポリシー **の設定] セクションで、** 次のフィールドに入力します。
 
     - テンプレート ポリシー名
 
@@ -90,7 +90,7 @@ ms.locfileid: "50875137"
 
 **Q: チーム テンプレート ポリシーにユーザーをバッチ割り当てできますか?**
   
-A: はい、PowerShell のテンプレート ポリシーのバッチ割り当てをサポートしています。 このアクションのポリシーの種類は、TeamsTemplatePermissionPolicy です。 [詳細情報](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+A: はい、PowerShell のテンプレート ポリシーのバッチ割り当てをサポートしています。 このアクションのポリシーの種類は、TeamsTemplatePermissionPolicy です。 [詳細情報](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **Q: グループはチーム テンプレート ポリシーに割り当てることができますか?**
 
@@ -112,7 +112,7 @@ A: はい。
 1. [ユーザー] リスト テーブルで、特定のテンプレート ポリシーに割り当てるユーザーを選択します。
 1. [設定の編集] を選択し、[テンプレート ポリシー] フィールドを変更します。
 1. [適用] を選択します。
-   Microsoft [Teams のユーザーへのポリシーの割り当てについて詳しくは、Microsoft Teams の Microsoft Docs \| をご覧ください](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-to-a-batch-of-users)。
+   Microsoft [Teams のユーザーへのポリシーの割り当てについて詳しくは、Microsoft Teams の Microsoft Docs \| をご覧ください](./assign-policies.md#assign-a-policy-to-a-batch-of-users)。
 
 **Q: 特定のポリシーに割り当てられているすべてのユーザーを表示する方法**
 
@@ -132,16 +132,16 @@ A: いいえ、PowerShell でのテンプレートの管理はサポートされ
 
 A: いいえ、EDU のテンプレート ポリシーはサポートされていません。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-- [管理センターでチーム テンプレートの使用を開始する](https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console)
+- [管理センターでチーム テンプレートの使用を開始する](./get-started-with-teams-templates-in-the-admin-console.md)
 
-- [カスタム チーム テンプレートを作成する](https://docs.microsoft.com/MicrosoftTeams/create-a-team-template)
+- [カスタム チーム テンプレートを作成する](./create-a-team-template.md)
 
-- [既存のチームからテンプレートを作成する](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-team)
+- [既存のチームからテンプレートを作成する](./create-template-from-existing-team.md)
 
-- [既存のチーム テンプレートからチーム テンプレートを作成する](https://docs.microsoft.com/MicrosoftTeams/create-template-from-existing-template)
+- [既存のチーム テンプレートからチーム テンプレートを作成する](./create-template-from-existing-template.md)
 
-- [Microsoft Teams でユーザーにポリシーを割り当てる - Microsoft Teams \| Microsoft Docs](https://docs.microsoft.com/microsoftteams/assign-policies)
+- [Microsoft Teams でユーザーにポリシーを割り当てる - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
 
-- [ポリシーにユーザーをバッチ割り当てる](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [ポリシーにユーザーをバッチ割り当てる](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

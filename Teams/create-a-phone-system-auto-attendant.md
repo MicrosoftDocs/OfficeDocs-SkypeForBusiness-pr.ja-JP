@@ -22,30 +22,30 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams の自動応答を設定してテストする方法について説明します。
-ms.openlocfilehash: 8aabdcdd8e5f58604e8b8d09524b6d096f62f7be
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 66bebbd381fb1997e2e8770debb24c7629525f1e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460887"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092755"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
 自動応答を使用すると、ユーザーは組織に電話をかけ、メニュー システムを操作して、適切な部門、通話キュー、ユーザー、またはオペレーターに話しかけたりすることができます。 Microsoft Teams 管理センターまたは PowerShell を使用して、組織の自動応答を作成できます。
 
-この記事の手順に従う前に[、「Teams の](plan-auto-attendant-call-queue.md)自動応答と通話キューの[](plan-auto-attendant-call-queue.md#getting-started)計画」を読み、開始手順に従ってください。
+この記事の手順に従う前に[、「Teams](plan-auto-attendant-call-queue.md)の自動応答と通話キューの[](plan-auto-attendant-call-queue.md#getting-started)計画」を読み、開始手順に従ってください。
 
 自動応答では、発信者の入力に基づいて、次のいずれかの発信先に通話を発信できます。 <a name="call-routing-options" ></a>
 
 - **オペレーター** - 自動応答に定義された演算子。 演算子の定義は省略可能です。 演算子は、このリストの他の宛先として定義できます。
-- **組織内のユーザー** - 音声通話を受信できる組織内のユーザー。 これは、オンライン ユーザーまたは Skype for Business Server を使用するオンプレミスでホストされるユーザーです。
+- **組織内のユーザー** - 音声通話を受信できる組織内のユーザー。 このユーザーは、オンライン ユーザーまたは Skype for Business Server を使用してオンプレミスでホストされているユーザーになります。
 - **音声アプリ** - 別の自動応答または通話キュー。 (この宛先を選ぶときに、自動応答または通話キューに関連付けられているリソース アカウントを選ぶ。
 - **ボイス** メール - 指定した Microsoft 365 グループに関連付けられているボイス メールボックス。
 - **外部電話番号** - 任意の電話番号。 (外部 [転送の技術的な詳細を参照してください](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details))。
-- **お知** らせ - オーディオ ファイルを再生します。 アップロードした録音されたアナウンス メッセージで、オーディオとして保存されます。WAV、.MP3、または .WMA 形式。 記録できるサイズは 5 MB 以下です。 システムがアナウンスを再生し、自動応答メニューに戻ります。
-- **お知** らせ - メッセージを入力します。 システムで読み取るテキスト。 最大 1000 文字を入力できます。 システムがアナウンスを再生し、自動応答メニューに戻ります。
+- **お知らせ (オーディオ ファイル)** - オーディオ ファイルを再生します。 アップロードした録音されたアナウンス メッセージで、オーディオとして保存されます。WAV、.MP3、または .WMA 形式。 記録できるサイズは 5 MB 以下です。 システムがアナウンスを再生し、自動応答メニューに戻ります。
+- **お知らせ (入力)** - メッセージを入力します。 システムで読み取るテキスト。 最大 1000 文字を入力できます。 システムがアナウンスを再生し、自動応答メニューに戻ります。
 
-自動応答を設定すると、さまざまな段階でこれらのオプションのいずれかを選択するように求めるメッセージが表示されます。
+自動応答を設定する場合、さまざまな段階でこれらのオプションのいずれかを選択するように求めるメッセージが表示されます。
 
 自動応答を設定するには、Teams 管理センターで [音声] を展開し、[**自動** 応答] を選択し、[追加] を選択 **します**。
 
@@ -55,13 +55,13 @@ ms.locfileid: "50460887"
 
 1. 上部のボックスに自動応答の名前を入力します。
 
-2. 演算子を指定する場合は、演算子の呼び出し先を指定します。 これは省略可能です (ただし、推奨)。 発信者 **がメニューから** 抜け出し、指定されたユーザーと話し合う場合にオペレーター オプションを設定できます。
+2. 演算子を指定するには、演算子の呼び出し先を指定します。 この指定は省略可能です (ただし、推奨)。 発信者が **メニュー** から抜け出し、指定されたユーザーと話し合う場合にオペレーター オプションを設定します。
 
-3. この自動応答のタイム ゾーンを指定します。 タイム ゾーンは、営業時間外の別のコール フローを作成する場合に、営業時間 [の計算に使用されます](#call-flow-for-after-hours)。
+3. この自動応答のタイム ゾーンを指定します。 タイム ゾーンは、営業時間外の別のコール フローを作成する場合に、営業時間の [計算に使用されます](#call-flow-for-after-hours)。
 
 4. この自動 [応答でサポートされる](create-a-phone-system-auto-attendant-languages.md) 言語を指定します。 これは、システム生成の音声プロンプトに使用される言語です。
 
-5. 音声入力を有効にする場合に選択します。 有効にすると、すべてのメニュー オプションの名前が音声認識キーワードになります。 たとえば、発信者は"1" と言ってキー 1 にマップされたメニュー オプションを選択したり、"営業" と言って "営業" という名前のメニュー オプションを選択したりします。
+5. 音声入力を有効にする場合に選択します。 有効にすると、すべてのメニュー オプションの名前が音声認識キーワードになります。 たとえば、発信者は"1" と言ってキー 1 に対応付けられたメニュー オプションを選択したり、"営業" と言って "営業" という名前のメニュー オプションを選択したりします。
 
 > [!NOTE]
 > 手順 4 で音声入力をサポートしない言語を選択した場合、このオプションは無効になります。
@@ -76,7 +76,7 @@ ms.locfileid: "50460887"
 
 [オーディオ ファイル **の再生] を選** ぶと、[ファイルのアップロード] ボタンを使用して、音声として保存された録音されたあいさつメッセージをアップロードできます。WAV、.MP3、または .WMA 形式。 記録できるサイズは 5 MB 以下です。
 
-[あいさつ文を入力する] を選択した場合、自動応答が通話に応答すると、入力したテキスト (最大 1000 文字) が読み上げされます。
+[あいさ **つ** 文を入力] を選択した場合、自動応答が通話に応答すると、入力したテキスト (最大 1000 文字) が読み上げされます。
 
 ![通話ルーティング設定のスクリーンショット](media/auto-attendant-call-flow-route-call-message.png)
 
@@ -92,17 +92,17 @@ ms.locfileid: "50460887"
 
 ![ダイヤル キー オプションのスクリーンショット](media/auto-attendant-call-flow-menu-options-complete.png)
 
-ダイヤル オプションの場合は、電話のキーパッドの 0 から 9 キーを通話ルーティング先の 1 つに割り当てできます。 (キー \* (Repeat) と (Back) はシステムによって予約され、再割り当 \# てはできません)。
+ダイヤル オプションの場合は、電話のキーパッドの 0 から 9 キーを通話ルーティング先の 1 つに割り当てる必要があります。 (キー \* (Repeat) と (Back) はシステムによって予約され、再割り当 \# てはできません)。
 
-キー マッピングは連続している必要はなかった。 たとえば、キー 0、1、3 がオプションにマップされたメニューを作成し、2 つのキーは使用されません。
+キー マッピングは連続している必要はなかった。 キー 0、1、3 がオプションにマップされたメニューを作成できる一方、番号 2 キーは使用されません。
 
-ゼロ キーを設定している場合は、オペレーターにマッピングすることをお勧めします。 オペレーターが任意のキーに設定されていない場合、音声コマンド "オペレーター" も無効になります。
+ゼロ キーを設定している場合は、オペレーターにマッピングすることをお勧めします。 オペレーターが任意のキーに設定されていない場合、音声コマンドの "オペレーター" も無効になります。
 
 メニュー オプションごとに、次の設定を指定します。
 
 - **ダイヤル キー** - このオプションにアクセスするには、電話機のキーパッドのキー。 音声入力が使用可能な場合は、発信者はオプションにアクセスするためにこの番号を音声で入力することもできます。
 
-- **音声コマンド** - 音声入力が有効になっている場合に、発信者がこのオプションにアクセスするために与える音声コマンドを定義します。 "カスタマー サービス" や "Operations and Grounds" のような複数の単語を含めることができます。 たとえば、発信者は 2 を押したり、"2" と言い、"営業" と言って 2 つのキーにマップされたオプションを選び出すことができます。 このテキストは、サービスの確認プロンプトの音声合成によってもレンダリングされます。これは、"通話を販売に転送する" のような場合があります。
+- **音声コマンド** - 音声入力が有効になっている場合に、発信者がこのオプションにアクセスするために与える音声コマンドを定義します。 "カスタマー サービス" や "Operations and Grounds" のような複数の単語を含めることができます。 たとえば、発信者は 2 を押したり、"2" と言い、"営業" と言って 2 つのキーにマップされたオプションを選択できます。 このテキストは、サービスの確認プロンプトの音声合成によってもレンダリングされます。これは、"通話を販売に転送する" のような場合があります。
 
 - **[リダイレクト先** ] - 発信者がこのオプションを選択するときに使用される通話ルーティング先。 自動応答または通話キューにリダイレクトする場合は、関連付けられているリソース アカウントを選択します。
 
@@ -116,7 +116,7 @@ ms.locfileid: "50460887"
 
 **内線番号で** ダイヤルする - このオプションを有効にすると、発信者は内線番号にダイヤルして組織内のユーザーと接続できます。 Skype for Business Server を使用するオンライン ユーザーまたはオンプレミスでホストされているユーザーは、対象ユーザーであり、内線で **ダイヤルで見つけることができます**。 (ダイヤル スコープ ページのディレクトリに含まれるユーザーと含まれていないユーザー [を設定](#dial-scope) できます)。
 
-ダイヤルバイ拡張機能を利用するには、Active Directory または Azure Active Directory で定義されている次のいずれかの電話機属性の一部として内線番号を指定する[](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)必要があります (詳細については、「ユーザーを個別または一括で追加する」を参照してください)。
+ダイヤルバイ拡張機能を利用するには、Active Directory または Azure Active Directory で定義されている次のいずれかの電話機属性の一部として、内線番号を指定[](/microsoft-365/admin/add-users/add-users)する必要があります (詳細については、「ユーザーを個別に、または一括で追加する」を参照してください)。
 
 - OfficePhone
 - HomePhone
@@ -124,7 +124,7 @@ ms.locfileid: "50460887"
 - TelephoneNumber/PhoneNumber
 - OtherTelephone
 
-ユーザーの電話番号フィールドに内線番号を入力するために必要な形式は次のいずれかです。
+ユーザーの電話番号フィールドに内線番号を入力するために必要な形式は、次のいずれかの形式です。
 
 - *+\<phone number>;ext=\<extension>*
 - *+\<phone number>x\<extension>*
@@ -137,7 +137,7 @@ ms.locfileid: "50460887"
 拡張機能は [、Microsoft 365](https://admin.microsoft.com/) 管理センターまたは Azure Active Directory 管理センター [で設定できます](https://aad.portal.azure.com)。 自動応答と通話キューで変更を利用するには、最大で 12 時間かかる場合があります。
 
 > [!NOTE]
-> 名前でダイヤル機能と内線番号でダイヤル機能の両方を使用する場合は、メインの自動応答にダイヤル キーを割り当て、名前でダイヤルが有効になっている自動応答にアクセス **できます**。 その自動応答内で、内線番号の自動応答でダイヤルに到達する 1 つのキー (関連付けられた文字がない) **を割り** 当てできます。
+> 名前でダイヤル機能と内線番号でダイヤル機能の両方を使用する場合は、メインの自動応答にダイヤル キーを割り当て、名前でダイヤルが有効になっている自動応答にアクセス **できます**。 その自動応答内で、内線番号自動応答でダイヤルに到達する 1 つのキー (関連付けられた文字がない) **を割り** 当てできます。
 
 ディレクトリ検索オプションを選択したら、[ **次へ** ] を選択 **します**。
 
@@ -145,11 +145,11 @@ ms.locfileid: "50460887"
 
 ![営業時間外の日と時刻の設定のスクリーンショット](media/auto-attendant-business-hours.png)
 
-各自動応答に営業時間を設定できます。 営業時間が設定されていない場合、既定では 24 時間 7 日のスケジュールが設定されている場合、その日のすべての日とすべての時間が営業時間と見なされます。 営業時間は、日中の時間内の休憩を使用して設定できます。営業時間として設定されていないすべての時間は、営業時間外と見なされます。 営業時間外の通話処理オプションと応答メッセージをさまざまな方法で設定できます。
+各自動応答に営業時間を設定できます。 営業時間が設定されていない場合、既定では 24 時間 7 日のスケジュールが設定されている場合、その日のすべての日とすべての時間が営業時間と見なされます。 営業時間は、日中の時間内の休憩を使用して設定できます。営業時間として設定されていないすべての時間は、営業時間外と見なされます。 さまざまな着信通話処理オプションと応答メッセージを営業時間外に設定できます。
 
 自動応答と通話キューの構成によっては、直接の電話番号を含む自動応答の営業時間外の通話ルーティングのみを指定する必要がある場合があります。
 
-営業時間外の発信者に対して個別の通話ルーティングが必要な場合は、各日の営業時間を指定します。 [ **新しい時間の** 追加] を選び、1 日に複数の時間セットを指定します (たとえば、昼休みなど)。
+営業時間外の発信者に対して個別の通話ルーティングが必要な場合は、各日の営業時間を指定します。 [ **新しい時間の追加** ] を選び、1 日に複数の時間セットを指定します (たとえば、昼休みなど)。
 
 営業時間を指定したら、営業時間外の通話ルーティング オプションを選択します。 上記で指定した営業時間内の通話ルーティングと同じオプションを使用できます。
 
@@ -185,7 +185,7 @@ ms.locfileid: "50460887"
 
 ## <a name="dial-scope"></a>ダイヤルスコープ
 
-![ダイヤル範囲の含めるオプションと除外オプションのスクリーンショット](media/auto-attendant-dial-scope.png)
+![ダイヤル範囲に含めるオプションと除外オプションのスクリーンショット](media/auto-attendant-dial-scope.png)
 
 ダイヤル *スコープは、* 発信者が名前でダイヤルバイネームまたはダイヤルバイ拡張機能を使用する場合にディレクトリ内で使用できるユーザーを定義します。 既定の **[すべてのオンライン ユーザー] には** 、オンライン ユーザーまたは Skype for Business Server を使用するオンプレミスの組織内のすべてのユーザーが含まれます。
 
@@ -198,7 +198,7 @@ ms.locfileid: "50460887"
 
 ## <a name="resource-accounts"></a>リソース アカウント
 
-すべての自動応答には、リソース アカウントが関連付けられている必要があります。  第 1 レベルの自動応答には、サービス番号が関連付けられているリソース アカウントが少なくとも 1 つ必要です。 必要な場合は、複数のリソース アカウントを自動応答に割り当て、それぞれに個別のサービス番号を割り当てできます。
+すべての自動応答には、リソース アカウントが関連付けられている必要があります。  第 1 レベルの自動応答には、サービス番号が関連付けられているリソース アカウントが少なくとも 1 つ必要です。 必要に合った場合は、複数のリソース アカウントを自動応答に割り当て、それぞれに個別のサービス番号を割り当てできます。
 
 ![リソース アカウントの [アカウントの追加] パネルのスクリーンショット](media/auto-attendant-add-resource-account.png)
 
@@ -214,45 +214,45 @@ ms.locfileid: "50460887"
 
 - 通話プラン ライセンスを持[](calling-plans-for-office-365.md)つリソース アカウントの場合、外部転送電話番号は E.164 形式 (+[国コード][市外コード][電話番号]) で入力する必要があります。
 
-- 電話システム ライセンスと直接ルーティング オンライン音声ルーティング ポリシーを使用するリソース アカウントの場合、外部転送電話番号の形式は、セッション ボーダー コントローラー [(SBC)](direct-routing-connect-the-sbc.md) の設定によって異なっています。
+- 電話システム ライセンスとダイレクト ルーティング オンライン音声ルーティング ポリシーを使用するリソース アカウントの場合、外部転送電話番号の形式は、セッション ボーダー コントローラー [(SBC)](direct-routing-connect-the-sbc.md) の設定によって異なっています。
 
 表示される発信電話番号は、次のように決定されます。
 
   - 通話プラン番号の場合、元の発信者の電話番号が表示されます。
-  - 直接ルーティング番号の場合、送信される番号は、SBC の P-Asserted-Identity (IDENTITY) 設定に基づいて、次のようになります。
+  - 直接ルーティング番号の場合、送信される数は、SBC の P-Asserted-Identity (IDENTITY) 設定に基づいて、次のように行われます。
     - [無効] に設定すると、元の発信者の電話番号が表示されます。 これは既定の推奨設定です。
     - [有効] に設定すると、リソース アカウントの電話番号が表示されます。
 
-Skype for Business ハイブリッド環境では、自動応答通話を PSTN に転送するには、PSTN 番号に設定された通話転送を使用して新しいオンプレミス ユーザーを作成します。 ユーザーは、音声ポリシーが割りエンタープライズ VoIP有効になっている必要があります。 詳細については、「PSTN への自動 [応答通話転送」を参照してください](https://docs.microsoft.com/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
+Skype for Business ハイブリッド環境では、自動応答通話を PSTN に転送するには、PSTN 番号に設定された通話転送を使用して新しいオンプレミス ユーザーを作成します。 ユーザーは音声ポリシーを有効にエンタープライズ VoIP音声ポリシーが割り当てられている必要があります。 詳細については、「PSTN への自動 [応答通話転送」を参照してください](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>PowerShell で自動応答を作成する
 
 また、PowerShell を使用して自動応答を作成および設定できます。 自動応答を管理するために必要なコマンドレットを次に示します。
 
-- [New-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant)
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csautoattendant)
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays)
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant)
-- [New-CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile)
-- [New-CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-csorganizationalautoattendantholidays)
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinetimerange)
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange)
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [New-CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
-- [Import-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays)
-- [New-CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+- [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
+- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
+- [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
+- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
+- [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
+- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsOnlineAudioFile](/powershell/module/skype/new-CsOnlineAudioFile)
+- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csorganizationalautoattendantholidays)
+- [New-CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
+- [New-CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
+- [New-CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+- [New-CsAutoAttendantCallHandlingAssociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
+- [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+[電話システムで利用できる機能](./here-s-what-you-get-with-phone-system.md)
 
-[サービス電話番号を取得する](/microsoftteams/getting-service-phone-numbers)
+[サービス電話番号を取得する](./getting-service-phone-numbers.md)
 
-[国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[国および地域ごとの電話会議および通話プランの利用可能性](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
 [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
