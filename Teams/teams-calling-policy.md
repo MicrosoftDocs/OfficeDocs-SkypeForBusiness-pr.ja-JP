@@ -20,17 +20,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cfa0043b4da6c3087c0e144bb0759ed5b87f01c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 5e3cc466d855f55f63f34e798443fb285dc36c9e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50465476"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51162672"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams の発信通話制限ポリシー
 ===================================
 
-Microsoft Teams では、ユーザーが使用できる通話と通話の転送機能を通話ポリシーで制御します。 通話ポリシーは、ユーザーがプライベート通話を行う、他のユーザーまたは外部の電話番号への着信の転送または同時呼び出しを使用できるかどうか、通話をボイスメールにルーティングする、通話グループに通話を送信する、着信通話と発信通話の委任を使用できるかどうかを決定します。
+Microsoft Teams では、ユーザーが使用できる通話と通話の転送機能を通話ポリシーで制御します。 通話ポリシーでは、ユーザーがプライベート通話を行う、他のユーザーまたは外部の電話番号に対して着信の転送または同時呼び出しを使用できるかどうか、通話をボイスメールにルーティングする、通話グループに通話を送信する、着信通話と発信通話の委任を使用できるかどうかを決定します。
 
 自動的に作成されるグローバル (組織全体の既定) ポリシーを使用するか、カスタム ポリシーを作成して割り当てできます。
 
@@ -92,7 +92,7 @@ Microsoft Teams では、ユーザーが使用できる通話と通話の転送�
 
 これをオンに **設定** すると、PSTN 経由で通話が送信され、ネットワーク経由で通話を送信して有料通話をバイパスするのではなく、料金が発生します。
 
-### <a name="busy-on-busy-is-available-while-in-a-call"></a>通話中に取り込み中の取り込み中
+### <a name="busy-on-busy-is-available-while-in-a-call"></a>取り込み中は通話中に利用できます
 
 取り込み中 (取り込み中オプション) は、ユーザーが既に通話または会議に参加している場合、または通話を保留にした場合の着信通話の処理方法を構成できる新しい設定です。 新しい通話または着信通話は、取り込み中の信号で拒否できます。 取り込み中オプションは、テナント レベルまたはユーザー レベルで有効にできます。 取り込み中のオプションの構成方法に関係なく、通話または会議のユーザー、または保留の通話を行っているユーザーは、新しい通話や会議を開始できない状態ではありません。 この設定は、既定では無効になっています。
 
@@ -104,8 +104,8 @@ Microsoft Teams では、ユーザーが使用できる通話と通話の転送�
 
 この設定では、PSTN 発信者が保留にされた場合に、保留音のオンとオフを切り替えます。 既定ではオンになっています。 この設定はコール パークや上司の代理人機能には適用されません。現在は PowerShell 経由でのみ使用できます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
 
 [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)

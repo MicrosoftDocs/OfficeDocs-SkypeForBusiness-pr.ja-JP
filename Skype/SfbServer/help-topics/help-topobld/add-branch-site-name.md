@@ -14,22 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
-description: 新しいブランチ サイトを定義するには、以下を指定します。
-ms.openlocfilehash: d8416006b80bff3c146dd6a694e04bd6df2f9c99
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 新しいブランチ サイトを定義するには、次の項目を指定します。
+ms.openlocfilehash: 80f82e329e936c10508f6f894245811aa5b7578e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810347"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115023"
 ---
 # <a name="add-branch-site-name"></a>ブランチ サイト名の追加
 
-新しいブランチ サイトを定義するには、以下を指定します。
+新しいブランチ サイトを定義するには、次の項目を指定します。
 
 新しいブランチ サイトの名前。定義する名前は、展開で一意である必要があります。決定した任意の命名規則を使用できます。通常、市区町村、場所の名前、ブランチ オフィスの名前が推奨されます。名前値は必須のエントリです。
 
 説明フィールド (オプション) に、インフラストラクチャ名には含まれないが、テキストでサイトをさらに説明する追加の説明を指定できます。
 
-詳細については、「[サイト](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx)」を参照してください。
-
-
+詳細については、「[サイト](/previous-versions/office/lync-server-2013/lync-server-2013-sites)」を参照してください。

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存の単一サーバー エッジ プールまたは複数サーバー エッジ プールの設定を編集するために、次のセクションが表示されます。
-ms.openlocfilehash: cc8e0094a601faaf89c6a932172d5b6cb3522f2d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c887ffaa16818e377035109632871b7bc7ed25d8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822437"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108803"
 ---
 # <a name="edge-settings-expander"></a>エッジ設定エキスパンダー
 
@@ -37,13 +37,13 @@ ms.locfileid: "49822437"
 
 エッジ サーバー プールの内部プールの完全修飾ドメイン名 (FQDN)。この設定を変更するには、プールの FQDN を編集します。
 
-Skype for Business Server 2015 サーバーとのフェデレーションを設定する場合は、[このエッジ プール (ポート **5061)** のフェデレーションを有効にする] チェック ボックスをオンにします。
+Skype for Business Server 2015 サーバーとのフェデレーションを設定する場合は、このエッジ プールのフェデレーションを有効にする (ポート **5061)** チェック ボックスをオンにします。
 
 [**内部構成レプリケーション ポート (HTTPS)**] に対してポート番号を指定します。
 
 ## <a name="next-hop-selection-settings"></a>次ホップ選択設定
 
-エッジ サーバーが内部インフラストラクチャとの通信に使用する次ホップ プールを設定または変更するには、ドロップダウン リスト ボックスからディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド サーバー プールを選択します。 トポロジ ビルダーで構成されているディレクターまたはフロントエンドだけが選択用に表示されます。
+エッジ サーバーが内部インフラストラクチャとの通信に使用する次ホップ プールを設定または変更するには、ドロップダウン リスト ボックスからディレクター、ディレクター プール、フロント エンド サーバー、またはフロント エンド サーバー プールを選択します。 トポロジ ビルダーで構成されているディレクターまたはフロントエンドだけが選択用に表示されます。
 
 ## <a name="edge-server-configuration"></a>エッジ サーバー構成
 
@@ -54,7 +54,7 @@ Skype for Business Server 2015 サーバーとのフェデレーションを設�
 各外部サービスについて、FQDN および関連付けられたポートを指定します。たとえば、**[SIP アクセス]** に sip.contoso.com および関連付けられたポート 5061 を使用します。
 
 > [!IMPORTANT]
-> 外部に提供される各サービスで別々の FQDN を使用する場合は、各サービスに固有のポート値を関連付ける必要があります。 既定では、SIP はポート 5061/TLS、Web 会議エッジ サービスはポート 444/TLS、音声ビデオ会議サーバーはポート 443/TLS です。 別々の FQDN と IP アドレス、またはポートを使用することを含め、これらの設定に変更を加える場合は、最初に構成された値に依存する他のすべてのサービスを更新する必要があります。
+> 外部に提供される各サービスで別々の FQDN を使用する場合は、各サービスに固有のポート値を関連付ける必要があります。 既定では、SIP はポート 5061/TLS、Web 会議エッジ サービスはポート 444/TLS、音声ビデオ会議サーバーはポート 443/TLS にあります。 別々の FQDN と IP アドレス、またはポートを使用することを含め、これらの設定に変更を加える場合は、最初に構成された値に依存する他のすべてのサービスを更新する必要があります。
 
 外部に提供されるサービスのために、組織では 1 つの FQDN と IP アドレスを使用することを決定した場合は、[**Web 会議と音声ビデオで別々の FQDN と IP アドレスを有効にする**] チェック ボックスをオフにします。必要に応じて、[**SIP アクセス**] のプールの FQDN とポート値を編集できます。
 
@@ -63,6 +63,4 @@ Skype for Business Server 2015 サーバーとのフェデレーションを設�
 
 ## <a name="see-also"></a>関連項目
 
-エッジ サービスの設定の定義および構成の詳細については、「[Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx)」を参照してください。
-
-
+エッジ サービスの設定の定義および構成の詳細については、「[Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)」を参照してください。

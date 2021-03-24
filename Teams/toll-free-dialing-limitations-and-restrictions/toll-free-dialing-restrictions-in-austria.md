@@ -21,13 +21,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、国または地域ごとに、無料電話番号にダイヤルするために必要なアクセス コードが表示されます。
-ms.openlocfilehash: 510792e131a89ac09a0de0c537f8a742d4ee9b5b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、各国または地域で無料電話番号にダイヤルするために必要なアクセス コードが表示されます。
+ms.openlocfilehash: 4d79653e92c52a19c0346a6fdd68044c36208511
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815617"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51110963"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>オーストリアの無料ダイヤル制限
 
@@ -49,4 +49,4 @@ ms.locfileid: "49815617"
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[サービス電話番号を取得する](/microsoftteams/getting-service-phone-numbers)
+[サービス電話番号を取得する](../getting-service-phone-numbers.md)

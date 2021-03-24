@@ -18,19 +18,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 特定のユーザーの SharePoint へのアクセスをブロックする方法について説明します
-ms.openlocfilehash: e3cda9d6443c41abc7dfa736be03555690a3b0f1
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: dce6581abe4fee70a6622817be7aefb0e3379e2f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615083"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51092895"
 ---
 # <a name="block-access-to-sharepoint-for-specific-users"></a>特定のユーザーの SharePoint へのアクセスをブロックする
 
 Microsoft 365 の SharePoint の条件付きアクセス （CA） ポリシーを Teams に適用することもできます。 ただし、組織によっては、SharePoint ファイルへのアクセス （アップロード、ダウンロード、表示、編集、作成） をブロックし、従業員が非管理対象デバイスで Teams デスクトップ、モバイル、Web クライアントを使用できるようにしたいと考えています。 CA ポリシー ルールでは、SharePoint をブロックすると、Teams もブロックされます。 この記事では、この制限を回避し、SharePoint に保存されているファイルへのアクセスを完全にブロックしながら、従業員が Teams を引き続き使用できるようにする方法について説明します。
 
 > [!Note]
-> 非管理対象デバイスでのアクセスのブロックまたは制限は、Azure AD 条件付きアクセス ポリシーに依存します。 [Azure AD ライセンス](https://azure.microsoft.com/pricing/details/active-directory/) について説明します。 Azure AD 条件付きアクセスの概要については、「[Azure Active Directory の条件付きアクセス](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)」をご覧ください。 推奨される SharePoint Online アクセス ポリシーの詳細については、「[SharePoint サイトとファイルをセキュリティで保護するためのポリシーの推奨事項](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)」を参照してください。 非管理対象デバイスでアクセスを制限すると、管理対象デバイス上のユーザーは [サポートされている OS とブラウザーの組み合わせ](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference#client-apps-condition) のいずれかを使用しなければならず、アクセスも制限されます。
+> 非管理対象デバイスでのアクセスのブロックまたは制限は、Azure AD 条件付きアクセス ポリシーに依存します。 [Azure AD ライセンス](https://azure.microsoft.com/pricing/details/active-directory/) について説明します。 Azure AD 条件付きアクセスの概要については、「[Azure Active Directory の条件付きアクセス](/azure/active-directory/conditional-access/overview)」をご覧ください。 推奨される SharePoint Online アクセス ポリシーの詳細については、「[SharePoint サイトとファイルをセキュリティで保護するためのポリシーの推奨事項](/microsoft-365/enterprise/sharepoint-file-access-policies)」を参照してください。 非管理対象デバイスでアクセスを制限すると、管理対象デバイス上のユーザーは [サポートされている OS とブラウザーの組み合わせ](/azure/active-directory/conditional-access/technical-reference#client-apps-condition) のいずれかを使用しなければならず、アクセスも制限されます。
 
 次のアクセスをブロックまたは制限することができます:
 
@@ -89,4 +89,4 @@ SharePoint では、アクセスが拒否されたというメッセージが表
 
 ## <a name="related-topics"></a>関連項目
 
-[SharePoint で非管理対象デバイスのアクセスを制御する](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)
+[SharePoint で非管理対象デバイスのアクセスを制御する](/sharepoint/control-access-from-unmanaged-devices)

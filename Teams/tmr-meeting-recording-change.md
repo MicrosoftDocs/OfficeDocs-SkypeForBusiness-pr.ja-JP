@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20c3b567fa17955df1fe621bb1cfddeae8423adc
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
-ms.translationtype: HT
+ms.openlocfilehash: 83688d6c4318aff9ef7a014a1792f52761145b4f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615073"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111033"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -37,7 +37,7 @@ ms.locfileid: "50615073"
 |2021 年 3 月 1 日からロールアウト開始 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High および DoDのみ**<br> お客様は Microsoft Teams で初めてクラウド会議の記録を有効にできるようになりました。 これらの録画は既定で OneDrive および SharePoint に保存され、再生されます。 |
 |2021 年 7 月 7 日から段階的に展開します &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**すべてのお客様 (エンタープライズ、教育、GCC)**<br>Microsoft Stream (クラシック) には、新しい会議の記録を保存できません。ユーザーがをチームの会議ポリシーを Stream に変更した場合でも、すべての顧客の会議記録は、OneDrive for Business と SharePoint に自動的に保存されます。<br><br> 組織の変化をより効果的に管理するために、変更が可能になるまで待つよりも、変更するのが都合が良いタイミングでオプト インすることをお薦めします。 |
 
-Microsoft Teams には、会議の記録を保存するための新しい方法があります。 従来の Microsoft Stream から[新しい Stream](https://docs.microsoft.com/stream/streamnew/new-stream) への移行の最初のフェーズとして、このメソッドは Microsoft 365 の Microsoft OneDrive for Business と SharePoint に記録を保存し、多くの利点を提供します。
+Microsoft Teams には、会議の記録を保存するための新しい方法があります。 従来の Microsoft Stream から[新しい Stream](/stream/streamnew/new-stream) への移行の最初のフェーズとして、このメソッドは Microsoft 365 の Microsoft OneDrive for Business と SharePoint に記録を保存し、多くの利点を提供します。
 
 記録の保存に OneDrive for Business と SharePoint を使用すると、次のような利点があります。
 
@@ -66,11 +66,11 @@ Microsoft Teams には、会議の記録を保存するための新しい方法�
 1. Teams PowerShell PowerShell をインストールします。
 
    > [!NOTE]
-   > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリック リリースをご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。 「[PowerShell を使用する Skype for Business Online を管理する](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?view=o365-worldwide&preserve-view=true)」を参照してください。
+   > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリック リリースをご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。 「[PowerShell を使用する Skype for Business Online を管理する](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide)」を参照してください。
 
 1. 管理者として Windows PowerShell を開きます。
 
-2. [Teams PowerShell モジュール](https://docs.microsoft.com/microsoftteams/teams-powershell-install)をインストールします。
+2. [Teams PowerShell モジュール](./teams-powershell-install.md)をインストールします。
 
 3. MicrosoftTeams モジュールをインポートし、Teams 管理者としてサインインします。
 
@@ -83,7 +83,7 @@ Microsoft Teams には、会議の記録を保存するための新しい方法�
    Connect-MicrosoftTeams -Credential $credential
 ```
 
-4. [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) を使用して、Teams 会議ポリシーを設定し、Stream ストレージから OneDrive for Business と SharePoint に切り替えます。
+4. [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) を使用して、Teams 会議ポリシーを設定し、Stream ストレージから OneDrive for Business と SharePoint に切り替えます。
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
@@ -156,9 +156,9 @@ Teams 会議の記録を元の場所から、OneDrive for Business または Sha
 
 **記憶域のクォータにどのような影響がありますか?**
 
-Teams 会議の記録ファイルは、OneDrive for Business と SharePoint の中にあり、これらのサービスのクォータに含まれています。 詳細については、「[SharePoint のクォータ](https://docs.microsoft.com/sharepoint/sites/plan-site-maintenance-and-management#quotas)」および「[OneDrive for Businessのクォータ](https://docs.microsoft.com/onedrive/set-default-storage-space)」を参照してください。
+Teams 会議の記録ファイルは、OneDrive for Business と SharePoint の中にあり、これらのサービスのクォータに含まれています。 詳細については、「[SharePoint のクォータ](/sharepoint/sites/plan-site-maintenance-and-management#quotas)」および「[OneDrive for Businessのクォータ](/onedrive/set-default-storage-space)」を参照してください。
 
-[OneDrive for Business](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)を使用すると、Stream よりも多くのストレージを使用できます。 SharePoint.を使うと代替可能なストレージをもっと入手できます。
+[OneDrive for Business](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)を使用すると、Stream よりも多くのストレージを使用できます。 SharePoint.を使うと代替可能なストレージをもっと入手できます。
 
 **会議の記録を再生するにはどうすればよいですか?**
 
@@ -166,12 +166,12 @@ Teams 会議の記録ファイルは、OneDrive for Business と SharePoint の�
 
 **もしStreamに追加することを避難するつもりなら、既存のビデオは今のままで利用できますか、いつまで使用できますか?**
 
-Stream は、近い将来プラットフォームとして廃止の予定はありません。 現在、Stream に存在するビデオは、移行を開始するまで残っています。 移行すると、これらのビデオも OneDrive for Business または SharePoint に移行されます。 詳細については、「[Stream クラシックの移行](https://docs.microsoft.com/stream/streamnew/classic-migration)」を参照してください。
+Stream は、近い将来プラットフォームとして廃止の予定はありません。 現在、Stream に存在するビデオは、移行を開始するまで残っています。 移行すると、これらのビデオも OneDrive for Business または SharePoint に移行されます。 詳細については、「[Stream クラシックの移行](/stream/streamnew/classic-migration)」を参照してください。
 
 **保持ラベルを適用するにはどうすれば良いですか?**
 
-「[保持ラベルを自動適用する方法](https://docs.microsoft.com/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)」を参照してください。
+「[保持ラベルを自動適用する方法](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)」を参照してください。
 
 **Microsoft Teams のユーザーにポリシーを割り当てるにはどうすればよいですか、どのポリシーを優先すべきですか?**
 
-「[どのポリシーが優先されますか?](https://docs.microsoft.com/MicrosoftTeams/assign-policies#which-policy-takes-precedence)」を参照してください。
+「[どのポリシーが優先されますか?](./assign-policies.md#which-policy-takes-precedence)」を参照してください。

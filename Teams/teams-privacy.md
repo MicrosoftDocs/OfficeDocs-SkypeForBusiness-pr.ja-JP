@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ea6fc3f27b5d97a2e890ec85e68a105acc44b42
-ms.sourcegitcommit: 60b859dcb8ac727a38bf28cdb63ff762e7338af8
+ms.openlocfilehash: ec3c035986d61dda78c6a940a7699fef7f4217a6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44938496"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51094047"
 ---
 # <a name="privacy-and-microsoft-teams"></a>プライバシーと Microsoft Teams
 
@@ -60,7 +60,7 @@ Microsoft は次の場合を除き、個人情報を開示しません。
 
 司法執行機関が Microsoft に問い合わせてくる場合、Microsoft は法的執行機関をリダイレクトして、ユーザーに個人情報を直接要求するよう試みます。 法的執行機関に個人データを開示せざるを得ない場合、Microsoft は法的にそうすることが禁止されていない限り、ユーザーに直ちに通知し、要求されているコピーを提供します。 法的執行機関およびその他の政府当局からの要求に応じて開示されるデータの詳細については、「[法執行機関要請レポート](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report)」を参照してください。
 
-「[Teams セキュリティ ガイド](https://docs.microsoft.com/microsoftteams/security-compliance-overview#compliance-standards)」には、法令遵守基準についての詳細情報があります。
+「[Teams セキュリティ ガイド](./security-compliance-overview.md#compliance-standards)」には、法令遵守基準についての詳細情報があります。
 
 ## <a name="where-does-teams-transfer-and-store-personal-data"></a>Teams は個人データをどこに送信し、保存しますか?
 

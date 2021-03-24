@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24f34ea2e65906c648081a019d6acf8a3f8a5cd5
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: b254bfb89a96efed65e2c1fdba1c345825d81dc2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034077"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111083"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>EDU 向けの Teams の低帯域幅状況を解決するためのヘルプ
 
@@ -62,13 +62,13 @@ IT 管理者として銘記しておくべき重要な点として、広範に�
 - ビデオを完全に無効にして、だれも有効にできないようにします。
 - メディア ビット レート (ユーザー単位で設定されます)。
 
-オプションの詳細、および会議とビデオに設定する必要があるポリシーの詳細については、「[会議ポリシーの設定 - オーディオとビデオ](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video)」でご確認ください。
+オプションの詳細、および会議とビデオに設定する必要があるポリシーの詳細については、「[会議ポリシーの設定 - オーディオとビデオ](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video)」でご確認ください。
 
 #### <a name="screen-sharing-policies"></a>画面共有ポリシー
 
 別の例では、教師が取り上げている学習内容に関連するアプリケーションにのみ共有を限定する必要があるにもかかわらず、学生に自分の画面全体を共有している場合があります。 この点は、教師が個別に選択するよりも適している場合には、ポリシーで設定できます。
 
-ポリシー設定を使用して画面共有を制限するうえで実行できる優れたアイデアについては、「[会議ポリシーの設定 - 画面共有](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#meeting-policy-settings---audio--video)」をご確認ください。
+ポリシー設定を使用して画面共有を制限するうえで実行できる優れたアイデアについては、「[会議ポリシーの設定 - 画面共有](./meeting-policies-in-teams.md#meeting-policy-settings---audio--video)」をご確認ください。
 
 #### <a name="dial-in-number-for-meetings"></a>会議用のダイヤルイン番号
 

@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Microsoft Teams 通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ) と回答をお読みください。
-ms.openlocfilehash: f622d197900faf632d94d659dae0a5b6eeaee2db
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 3b527b32e194b531be5003c5f8b180a00976cf8e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110260"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111533"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)
 
@@ -58,11 +58,11 @@ ms.locfileid: "50110260"
 - [CPU Insufficient Event Ratio] をチェックして、使用可能な検出された CPU リソースが不足し、低品質の原因になっているか確認します。 
 - スピーカーに近いマイクによるフィードバックを防ぐために、オーディオ デバイスは半両面モードでしたか? 
 - Device Half Duplex AEC Event Ratio を確認します。 ハブまたはドッキング ステーションに接続すると、USB オーディオ のドロップアウトが原因でノイズまたは静的なノイズが発生したデバイスまたはマイク gling でした。  
-- デバイスの不具合とマイクの不具合のイベント比率を確認します。 デバイス自体は正しく機能しましたか?  
+- デバイスの不具合とマイクの不具合のイベント比率を確認します。 デバイス自体は正常に機能しましたか?  
 - キャプチャ デバイスとレンダー デバイスが機能しないイベント 比を確認します。
 
 
-CQD テレメトリで利用できるディメンションとメジャーの詳細については、通話品質ダッシュボードで利用できるディメンションと測定値 [を参照してください](dimensions-and-measures-available-in-call-quality-dashboard.md)。
+CQD テレメトリで利用できるディメンションとメジャーの詳細については、「通話品質ダッシュボードで利用できるディメンションと測定値」 [を参照してください](dimensions-and-measures-available-in-call-quality-dashboard.md)。
 
 背景の雑音の場合は、ミュート イベントの比率を確認して、参加者がミュートにされた時間の長さを確認します。
  
@@ -71,17 +71,17 @@ CQD で詳細レポートを作成し、会議 ID をフィルター処理して
 テレメトリは必ずしも問題を呼び出すとは限りませんが、どこで決定を見て通知する必要があるのかをよりよく理解するのに役立ちます。 ネットワーク、デバイス、ドライバー、またはファームウェアの更新プログラム、使用状況、またはユーザーですか?
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>メジャーの呼び出しとユーザー 数の値に最大 0.2% の差が表示される理由と、最も正確なボリュームを取得する方法 
-呼び出し数とユーザー数のメジャーを計算するには、データ セット内の呼び出しまたはユーザー識別子に対して個別の countif 操作が実行されます。 大きなデータ セットの場合、個別の countif 操作に固有のエラーは最大 0.2% です。 最も正確なボリュームの場合は、この個別の countif 操作に依存しないので、ストリーム カウント メジャーに依存する必要があります。 データ ボリュームを減らすためにフィルター処理を行った場合、エラーが減る可能性がありますが、個別の呼び出しとユーザー数でこのエラーの原因が排除されない場合があります。 メジャーが [影響を受け取る通話品質ダッシュボードで使用](dimensions-and-measures-available-in-call-quality-dashboard.md) できるディメンションと寸法を参照してください。
+呼び出し数とユーザー数のメジャーを計算するには、データ セット内の呼び出しまたはユーザー識別子に対して個別の countif 操作が実行されます。 大きなデータ セットの場合、個別の countif 操作に固有のエラーは最大 0.2% です。 最も正確なボリュームの場合は、この個別の countif 操作に依存しないので、ストリーム カウント メジャーに依存する必要があります。 データ ボリュームを減らすためにフィルター処理を行った場合、エラーが減る可能性がありますが、個別の呼び出しとユーザー数でこのエラーの原因を排除できない場合があります。 メジャーが [影響を受け取る通話品質ダッシュボードで使用](dimensions-and-measures-available-in-call-quality-dashboard.md) できるディメンションと寸法を参照してください。
 
 
 ### <a name="why-is-cqd-data-from-skype-for-business-different-than-cqd-data-from-teams"></a>Skype for Business の CQD データが Teams の CQD データと異なる理由 
 
 
 > [!IMPORTANT]
-> 2020 年 7 月 1 日現在、古い CQD (CQD.lync.com) では最新の CQD (CQD) のデータが使用されます。Teams.microsoft.com)。 古い CQD データは使用できなくなったので、建物やレポートのデータをエクスポートできません。 CQD.lync.com (Skype for Business 管理センターから利用可能) を引き続き使用できますが、まもなく CQD.lync.com へのアクセスがオフになりますので、CQD に移動する必要があります。Teams.microsoft.comまだ行っていない場合は、この設定を行います。
+> 2020 年 7 月 1 日現在、古い CQD (CQD.lync.com) では最新の CQD (CQD) のデータが使用されます。Teams.microsoft.com)。 古い CQD データは使用できなくなったので、建物やレポートのデータをエクスポートできません。 CQD.lync.com (Skype for Business 管理センターから利用可能) を引き続き使用できますが、まもなく CQD.lync.com へのアクセスがオフになりますので、CQD に移動する必要があります。Teams.microsoft.com まだ行っていない場合は、この設定を行います。
 
 
-Skype for Business レガシ ポータル (cqd.lync.com) の古い CQD と Teams 管理センター (cqd.teams.microsoft.com) の最新の CQD の間でデータを比較しようとしている場合、データが一致しない場合があります。 これは、最新の CQD レポートで多くの追加の呼び出しシナリオが報告されるからです。 古い CQD のレポートを引き続き使用している場合は、この記事を使用して、これらのレポートを解釈するのに役立ちます [。Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)の通話品質ダッシュボード。
+Skype for Business レガシ ポータル (cqd.lync.com) の古い CQD と Teams 管理センター (cqd.teams.microsoft.com) の最新の CQD との間でデータを比較しようとしている場合、データが一致しないのがすぐに分かっています。 これは、最新の CQD レポートで多くの追加の呼び出しシナリオが報告されるからです。 古い CQD のレポートを引き続き使用している場合は、この記事を使用して、これらのレポートを解釈するのに役立ちます [。Skype for Business Server](/skypeforbusiness/management-tools/call-quality-dashboard/call-quality-dashboard)の通話品質ダッシュボード。
 
 
   
@@ -95,13 +95,13 @@ CQD にアクセスできるロール (EUII を含む) の詳細については 
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Teams のみをフィルター処理した場合に、CQD に Skype for Business の情報が表示される理由
 
-CQD レポート (isTeams = 1) でのみ Teams をフィルター処理する場合、第 1 のエンドポイントが Teams であるすべての呼び出しを *フィルター処理します* 。 第 *2 のエンドポイント* が Skype for Business の場合、その情報が CQD レポートに表示されます。
+CQD レポート (isTeams = 1) でのみ Teams をフィルター処理する場合、第 1 のエンドポイントが Teams であるすべての呼び出 *しをフィルター* 処理します。 第 *2 のエンドポイント* が Skype for Business の場合、その情報が CQD レポートに表示されます。
 
-CQDv2 と CQDv3 では CQDv2 にはない新しいシナリオが作成されるので、CQDv3 と CQDv3 の合計カウントは常に異なります。 これは、集計合計または集計された集計された集計値をフィルターを使用して比較すると、期待される違いがあります。  
+CQDv2 と CQDv3 では CQDv2 にはない新しいシナリオが作成されるので、CQDv2 と CQDv3 の合計カウントは常に異なります。 これは、集計合計または集計された集計された集計値をフィルターを使って比較すると、期待される違いが生じ得る理由です。  
 
-顧客のシナリオに応じて、CQDv3 には SFB 2019 オンプレミス通話 (SFB 2019 がデータ コネクタで使用されている場合)、Skype Bot 通話 (AA、CVI、VDI)、ライブ イベント、PSTN 通話が含まれます。 お客様が利用できるシナリオ/機能ですが、そのデータは CQD V2 に含められません。
+顧客のシナリオに応じて、CQDv3 には SFB 2019 オンプレミス通話 (SFB 2019 がデータ コネクタで使用されている場合)、Skype ボット通話 (AA、CVI、VDI)、ライブ イベント、PSTN 通話が含まれます。 お客様が利用できるシナリオ/機能ですが、そのデータは CQD V2 に含められません。
 
-たとえば、顧客と 200,000 のオーディオ ストリームが表示され、CQD V2 サマリー レポートで 5000 の失敗が発生すると想定されます。CQD V3 での 300,000 のオーディオ ストリームと 5500 失敗 (2019 のオンプレム通話、CVI 通話、PSTN 通話など) に対する。
+たとえば、顧客と 200,000 のオーディオ ストリームが表示され、CQD V2 サマリー レポートで 5000 の失敗が発生すると想定されます。CQD V3 での 300,000 のオーディオ ストリームと 5500 障害 (2019 のオンプレム通話、CVI 通話、PSTN 通話からのストリーム) に対する比較。
 
 予期しない違いがあるかどうかを判断するには、データ全体のさまざまな内訳を確認する必要があります。  目的に合った比較を行います。  ユーザー エージェント カテゴリ ペアによるデータのスライスは、最初に推奨される項目の 1 つです。  *First Product と* *Second Product も* 優れたスライサーです。  
 
@@ -129,4 +129,4 @@ CQD は集計されたデータ クエリ用に設計され、データ エク�
 
 [Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)
 
-[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

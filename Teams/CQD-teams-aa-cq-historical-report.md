@@ -1,5 +1,5 @@
 ---
-title: CQD Power BI レポートを使用して自動応答 & 通話キュー履歴レポートを表示する
+title: CQD Power BI レポートを使用して通話キュー自動応答 &レポートを表示する
 ms.author: colongma
 author: clyvr
 manager: roykuntz
@@ -22,70 +22,70 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: 通話品質ダッシュボードの Power BI レポートを使って、自動応答と通話キューの履歴データを表示する方法について説明します。
-ms.openlocfilehash: 16f8682e8f1bc444e2694a0586ff21cf442288cd
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: 通話品質ダッシュボード Power BI レポートを使用して、通話履歴データおよび通話自動応答を表示する方法について説明します。
+ms.openlocfilehash: cfd72d0397407205aef729188c630e99148f154c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130428"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111513"
 ---
-# <a name="what-are-the-requirements"></a>要件を教えてください。 
-Power BI デスクトップがインストールされている必要があります。 [Microsoft Windows ストア](https://aka.ms/pbidesktopstore)からインストールできます。
+# <a name="what-are-the-requirements"></a>要件は何ですか? 
+Power BI Desktop がインストールされている必要があります。 Microsoft Windows ストアから [インストールできます](https://aka.ms/pbidesktopstore)。
 
-無料バージョンの Power BI Desktop を使用できます。 互換性のある最小バージョンは 2.85.681.0 (2020 年9月) です。
+無料版の Power BI Desktop を使用できます。 互換性のある最小バージョンは 2.85.681.0 (2020 年 9 月) です。
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>CQD パイプラインへのアクセス許可
-AA & CQ Analytics の履歴レポートを表示するために使用するアカウントには、CQD データパイプラインへのアクセス許可が必要です。 詳細については、 [CQD アクセスロール](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) を参照してください。
+CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQD データ パイプラインへのアクセス許可が必要です。 詳細については [、CQD アクセスの役割](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) を参照してください。
 
 ## <a name="installation"></a>インストール 
-次の手順では、既にコンピューターに Power BI デスクトップがインストールされていて、CQD データパイプラインへのアクセスに必要なアクセス許可がアカウントにあることを前提としています。
+次の手順では、Power BI Desktop をコンピューターに既にインストール済みで、CQD データ パイプラインにアクセスするために必要なアクセス許可がアカウントに与えされていることを前提とします。
 
 次の手順を実行してください。
-- [CQD Teams の自動応答 & 通話キューの履歴レポートテンプレート](https://aka.ms/TAPAACQAnalytics)をダウンロードして、コンピューター上のディレクトリに保存します。
+- [CQD Teams 自動応答 &通話キューの履歴](./aa-cq-cqd-historical-reports.md)レポート テンプレートをダウンロードし、コンピューター上のディレクトリに保存します。
 
-- テンプレートをダブルクリックすると、Power BI デスクトップが起動します。
+- テンプレートをダブルクリックすると、Power BI Desktop が起動します。
 
-- CQD データパイプラインの地域を選択するように求められます。 テナントが配置されている地域を選択します。
+- CQD データ パイプライン領域を選択するように求めるメッセージが表示されます。 テナントがある地域を選択します。
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
 
- - Skype for Business Online PS コマンドレット (Get-CsTenant) を使って、地域を確認できます。ServiceInstance の出力。 
- 次の例のように、地域は次のように表示されます。 
+ - Skype for Business Online PS コマンドレット (Get-CsTenant) を使用して地域を確認できます。ServiceInstance 出力。 
+ この例の "/" の後に領域が表示されます。 
  
-   microsoftcommunicationsonline/noam-4a-地域が noam の s7 スマートを指定します。
+   地域が noam である microsoftcommunicationsonline/noam-4a-s7。
    
- - サンプルデータを使ってレポートが起動します。
+ - レポートが起動し、サンプル データが表示されます。
  
- - 自分のデータを表示するには、[ホーム] タブの [Power BI デスクトップのクエリ] で [ **更新** ] をクリックします。
+ - 独自のデータを表示するには、Power  BI Desktop の [クエリ] の [ホーム] タブで [更新] をクリックしてください。
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
 
-- サインインするように求められます。 [ **組織アカウント** ] を選択し、[ **サインイン**] を選択します。
+- サインインするように求めるメッセージが表示されます。 [組織 **アカウント] を選択** し、[サインイン **] を選択します**。
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
 
-- [ **接続** ] を選択して、データの更新を確認します。
+- [ **接続] を** 選び、データ更新を確認します。
 
-## <a name="data-latency-any-aa--cq-analytics"></a>データ遅延 & の AA CQ analytics
-データは、30分以内に CQD データパイプラインで利用可能になります。
+## <a name="data-latency-any-aa--cq-analytics"></a>データの待機時間 Any AA & CQ 分析
+データは、CQD データ パイプラインで 30 分以内に利用できます。
 
 新しい分析データを表示するには、データを更新する必要があります。 
 
-## <a name="customization"></a>カット 
-さまざまな視覚エフェクトに表示されるフィールドを追加または削除したり、グラフの種類を変更したりするなど、レポートの特定の視覚エフェクトをカスタマイズすることができます。
+## <a name="customization"></a>カスタマイズ 
+さまざまな視覚エフェクトに表示するフィールドの追加や削除、グラフの種類の変更など、レポートの特定の視覚エフェクトの側面をカスタマイズできます。
 
-レポートに提供されたもの以外のデータフィールドを追加することはできません。
+レポートに用意されているフィールド以外のデータ フィールドを追加することはできません。
 
 ### <a name="change-color-schema"></a>色のスキーマを変更する 
-次の手順では、既にインストール手順を完了していることを前提としています。
+次の手順では、インストール手順を既に完了している必要があります。
 
 次の手順を実行してください。
-- リボンの [ **表示] タブ** を選択します。
+- リボンの **[表示]** タブを選択します。
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
 
-- ドロップダウンリストから [color schema] を選びます。
+- ドロップダウン リストからカラー スキーマを選択します。
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Teams 管理センターの [通話品質ダッシュボード] ボタンのスクリーンショット":::
 
@@ -94,66 +94,66 @@ AA & CQ Analytics の履歴レポートを表示するために使用するア�
 
 |名前                                    |データ型                |説明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|自動応答の Id                 |型                   |AA に関連付けられているリソースアカウントの名前<br>例: aa_test@microsoft.com|
+|自動応答 ID                 |文字列                   |AA に接続されているリソース アカウントの名前<br>例: aa_test@microsoft.com|
 |自動応答チェーンの開始時刻         |datetime                 |AA チェーンの開始時刻                    |
-|自動応答ディレクトリの検索方法  |型                   |最後のアドレス帳検索方法        |
-|自動応答転送アクション          |型                   |通話転送のターゲットの種類<br>値の例は次のとおりです。<br>§不明-エンティティ型が指定されませんでした<br>§ユーザーとユーザーのエンティティ<br>§組織の自動応答のエンティティ<br>§ hunt_group 通話キューエンティティ<br>§アプリケーションの音声アプリケーションのエンティティ<br>§ external_pstn-外部 PSTN エンティティ<br>§ shared_voicemail-共有ボイスメールエンティティ|
-|自動応答の呼び出し結果              |型                   |通話の結果:<br>§不明<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|自動応答のコールフロー                |型                   |自動応答のさまざまな状態をカプセル化します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§お知らせ|
-|自動応答の関係              |Boolean                  |AA が通話に参加しているかどうかを示します。 |
-|自動応答の呼び出し元のアクションカウント      |int                      |呼び出し元によって使用された操作の数         |
-|自動応答チェーンの継続時間 (秒)   |int                      |AA の通話時間                 |
-|通話キューの呼び出し結果                  |文字列                   |通話キュー通話の最終状態<br>指定可能な値:<br>§エラー<br>§拒否<br>§飛んでいる<br>§失敗<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|通話キューの最終的な状態のアクション           |文字列                   |通話キューの最終的な操作<br>指定可能な値:<br>§ forward<br>§切断<br>§ボイスメール<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§その他|
-|通話キューの Id                     |文字列                   |CQ に関連付けられているリソースアカウントの名前<br>例: aa_test@microsoft.com|
-|通話キューは会議モードです           |Boolean                  |CQ で会議モードが有効になっている場合は1に設定します。 |
-|通話キューのターゲットの種類                  |文字列                   |期待される呼び出しのリダイレクトターゲットの種類     |
-|通話キュー Id から転送された    |Boolean                  |この通話が転送された CQ に関連付けられているリソースアカウントの名前<br>例: aa_test@microsoft.com|
-|通話キューエージェントのオプトインカウント           |int                      |通話中にこのキューで利用可能なエージェントの数 |
-|通話キューエージェントカウント                  |int                      |通話中にこのキューに割り当てられているエージェントの数 |
-|通話キューが含まれています                  |Boolean                  |通話キューがこの通話に関連する場合は、1 |
+|自動応答ディレクトリの検索方法  |文字列                   |最後のアドレス帳の検索方法        |
+|自動応答転送アクション          |文字列                   |通話転送ターゲットの種類<br>値の例は次のとおりです。<br>§ unknown - エンティティの種類が指定されていません<br>§ ユーザー - ユーザー エンティティ<br>§ orgaa - 組織自動応答エンティティ<br>§ hunt_group - 通話キュー エンティティ<br>§ アプリケーション - 音声アプリケーション エンティティ<br>§ external_pstn - 外部 PSTN エンティティ<br>§ shared_voicemail - 共有ボイスメール エンティティ|
+|自動応答結果を表示する              |文字列                   |呼び出し結果:<br>§ unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|自動応答 コール フロー                |文字列                   |通話の異なる状態をカプセル化自動応答します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ お知らせ|
+|関与自動応答か              |Boolean                  |AA が通話に関与したかどうかを示す |
+|自動応答呼び出し元のアクション カウント      |int                      |呼び出し元による使用されるアクションの数         |
+|自動応答チェーンデュレーション秒   |int                      |AA での通話の継続時間                 |
+|通話キューの呼び出し結果                  |文字列                   |通話キュー呼び出しの最終状態<br>使用できる値:<br>§ エラー<br>§ 拒否<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
+|通話キューの最終状態アクション           |文字列                   |通話キューの最終アクション<br>使用できる値:<br>§ forward<br>§ 切断<br>§ ボイスメール<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
+|通話キュー ID                     |文字列                   |CQ に関連付けられたリソース アカウントの名前<br>例: aa_test@microsoft.com|
+|通話キューが電話会議モードである           |Boolean                  |CQ で会議モードが有効になっている場合は 1 に設定 |
+|呼び出しキュー ターゲットの種類                  |文字列                   |想定される呼び出しリダイレクト ターゲットの種類     |
+|通話キュー ID から転送される    |Boolean                  |この呼び出しが転送された CQ に接続されているリソース アカウントの名前<br>例: aa_test@microsoft.com|
+|通話キュー エージェントオプトイン カウント           |int                      |通話の時点でこのキューで使用可能なエージェントの数 |
+|通話キュー エージェント数                  |int                      |通話の時点でこのキューに割り当てられたエージェントの数 |
+|Is Call Queue Involved                  |Boolean                  |呼び出しキューが 1 と等しいこの呼び出しに関与している場合 |
 
 
-### <a name="powerbi-data-model-dimensions"></a>PowerBI データモデルの寸法
+### <a name="powerbi-data-model-dimensions"></a>PowerBI データ モデルのディメンション
 
 |名前                                    |データ型                |説明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA 名                                   |型                   |自動応答 Id (リソースアカウント Id) |
-|AACallFlow                              |型                   |自動応答のさまざまな状態をカプセル化します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>発表 |
-|AACallResult                            |型                   |自動応答の呼び出しの結果:<br>§不明<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – AA 構成のエラー<br>§ service_terminated –内部 AA エラー<br>§ failed_to_establish_media<br> terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
-|Aachきかん                         |型                   |自動応答の通話時間 (秒)  |
-|AACount                                 |型                   |通話に含まれる自動応答の数         |
-|AADirectorySearchMethod                 |型                   |通話で使用される検索方法:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name|
-|AAStartTime                             |型                   |UTC の通話時間                            |
-|AATransferAction                        |型                   |通話の受信者:<br>§不明-エンティティ型が指定されませんでした<br>§ユーザーとユーザーのエンティティ<br>§ AA-組織の自動応答のエンティティ<br>§ CQ-通話キューエンティティ<br>§アプリケーションの音声アプリケーションのエンティティ<br>§ external_pstn-外部 PSTN エンティティ<br>§ shared_voicemail-共有ボイスメールエンティティ      |
-|PSTNMinutes                             |int                      |合計分使用量                          |
-|通話キューの呼び出し結果                  |型                   |通話キュー通話の最終状態<br>指定可能な値:<br>§エラー<br>§拒否<br>§飛んでいる<br>§失敗<br> timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
-|通話キューの Id                     |型                   |CQ に関連付けられているリソースアカウントの名前     |
-|通話キューのターゲットの種類                  |型                   |期待される呼び出しのリダイレクトターゲットの種類:<br>§ユーザー<br>§アプリケーションエンドポイント<br>§その他     |
-|通話キューの呼び出し結果                  |型                   |通話キュー通話の最終状態<br>指定可能な値:<br>§エラー<br>§拒否<br>§飛んでいる<br>§失敗<br> timed_out<br>§ transferred_to_agent<br>agent_joined_conference           |
-|通話キューの最終的な状態のアクション           |型                   |通話キューの最終的な操作<br>指定可能な値:<br>§ forward<br>§切断<br>§ボイスメール<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§その他             |
-|エージェント名                              |型                   |ユーザー UPN               |
+|AA 名                                   |文字列                   |自動応答 ID (リソース アカウント ID) |
+|AACallFlow                              |文字列                   |通話の異なる状態をカプセル化自動応答します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>お知らせ |
+|AACallResult                            |文字列                   |通話の自動応答結果:<br>§ unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – AA 構成のエラー<br>§ service_terminated – 内部 AA エラー<br>§ failed_to_establish_media<br> terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
+|AAChainDuration                         |文字列                   |通話の自動応答 (秒)  |
+|AACount                                 |文字列                   |通話に自動応答の数         |
+|AADirectorySearchMethod                 |文字列                   |呼び出しで使用される検索方法:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name|
+|AAStartTime                             |文字列                   |UTC での通話時間                            |
+|AATransferAction                        |文字列                   |通話の受け取り側:<br>§ unknown - エンティティの種類が指定されていません<br>§ ユーザー - ユーザー エンティティ<br>§ AA - 組織自動応答エンティティ<br>§ CQ - 通話キュー エンティティ<br>§ アプリケーション - 音声アプリケーション エンティティ<br>§ external_pstn - 外部 PSTN エンティティ<br>§ shared_voicemail - 共有ボイスメール エンティティ      |
+|PSTNMinutes                             |int                      |分の合計使用量                          |
+|通話キューの呼び出し結果                  |文字列                   |通話キュー呼び出しの最終状態<br>使用できる値:<br>§ エラー<br>§ 拒否<br>§ overflown<br>§ failed<br> timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
+|通話キュー ID                     |文字列                   |CQ に関連付けられたリソース アカウントの名前     |
+|呼び出しキュー ターゲットの種類                  |文字列                   |想定される呼び出しリダイレクト ターゲットの種類:<br>§ ユーザー<br>§ アプリケーション エンドポイント<br>§ その他     |
+|通話キューの呼び出し結果                  |文字列                   |通話キュー呼び出しの最終状態<br>使用できる値:<br>§ エラー<br>§ 拒否<br>§ overflown<br>§ failed<br> timed_out<br>§ transferred_to_agent<br>agent_joined_conference           |
+|通話キューの最終状態アクション           |文字列                   |通話キューの最終アクション<br>使用できる値:<br>§ forward<br>§ 切断<br>§ ボイスメール<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other             |
+|エージェント名                              |文字列                   |User UPN               |
 
 
 ### <a name="measures"></a>メジャー
 
 |名前                                      |種類                       |説明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AACallerActionCount                     |int                        |通話中に AA でユーザーによって選択されたアクションの数  |
-|PSTNMinutes                             |int                      |合計分使用量                                  |
-|TotalCallCount                          |int                      |通話の数                                          |
-|平均通話時間 (秒)         |int                      |通話キュー通話の合計時間 (秒単位)     |
+|AACallerActionCount                     |int                        |通話中に AA のユーザーによって選択されたアクションの数  |
+|PSTNMinutes                             |int                      |分の合計使用量                                  |
+|TotalCallCount                          |int                      |通話数                                          |
+|平均通話時間 (秒)         |int                      |通話キュー呼び出しの合計時間 (秒)     |
 
 
-### <a name="power-bi-graph-description-auto-attendant"></a>Power BI グラフの説明自動応答
+### <a name="power-bi-graph-description-auto-attendant"></a>Power BI Graph の説明自動応答
 
 |名前                                      |説明                            |
 |:---------------------------------------|:--------------------------------------|
-|着信通話ソース                    |内部/外部通話ソースによる通話の配布      |
-|ディレクトリ検索方法の合計          |検索の種類による通話の配布                         |
-|発信者番号操作                           |通話受信者による通話の配布                       |
-|通話の結果                             |最終呼び出しの状態による通話の配布                    |
-|発信者のアクション数                     |通話中に使用された番号による通話の配信アクション  |
+|着信通話ソース                    |内部/外部通話ソース別の通話の配布      |
+|ディレクトリ検索方法の合計          |検索の種類別の通話の分布                         |
+|呼び出し元の操作                           |通話受信者による通話の分布                       |
+|呼び出し結果                             |最終通話状態による通話の分布                    |
+|呼び出し元のアクション数                     |通話中に使用される番号アクションによる通話の配布  |
 
 
 ### <a name="call-queue"></a>通話キュー
@@ -161,12 +161,12 @@ AA & CQ Analytics の履歴レポートを表示するために使用するア�
 |名前                                      |説明                            |
 |:---------------------------------------|:--------------------------------------|
 |着信通話ソース                    |内部/外部通話ソースによる通話の配布         |
-|通話ボリューム                             |通話キューによる通話の配布                            |
-|発信者の結果                           |通話の結果による通話の配布                            |
-|タイムアウト/オーバーフロー呼び出しの合計アクション      |呼び出し結果によって転送されていない (中断された) 通話の分布   |
-|ターゲットの合計の転送/転送          |通話の転送結果                  |
-|中止した通話の比率                   |破棄される通話カウントの成功率                    |
-|平均セッション長 (秒)        |発信された通話の長さ (秒単位)、中断/成功した通話   |
+|通話ボリューム                             |通話キュー別の通話の配布                            |
+|呼び出し元の結果                           |呼び出し結果別の通話の分布                            |
+|タイムアウト/オーバーフロー呼び出し合計アクション      |呼び出し結果による NOT Forwarded(破棄) 呼び出しの分布   |
+|転送/転送先の合計          |呼び出し結果によって転送された通話の配布                  |
+|放棄された通話の比率                   |終了した通話数に対する成功率                    |
+|平均セッションの長さ (秒)        |通話の長さ (秒) を放棄/成功した通話でグループ化   |
 
 
 
@@ -174,13 +174,13 @@ AA & CQ Analytics の履歴レポートを表示するために使用するア�
 
 |名前                                                      |説明                            |
 |:-------------------------------------------------------|:--------------------------------------|
-|エージェントによる通話回数                                        |通話キューとエージェントによる通話の配布                 |
-|エージェントと通話キューによる合計通話時間 (秒)   |エージェントと通話キューによる通話の合計所要時間 (秒)     |
-|エージェント名による平均通話時間 (秒)            |エージェントによる通話の平均所要時間 (秒)                  |
+|エージェントによる # 通話                                        |通話キューとエージェント別の通話の配布                 |
+|エージェントと通話キュー別の通話時間 (秒) の合計   |エージェントと通話キュー別の通話の合計時間 (秒)     |
+|エージェント名による平均通話時間 (秒)            |エージェント別の通話の平均継続時間 (秒)                  |
 
 
 
 ## <a name="known-issues"></a>既知の問題
-- 現在、通話キューと自動応答には、通話キュー/自動応答の名前ではなく、リソースアカウント Id が表示されます。  自動応答または通話キューのトラフィックをすべて表示するには、自動応答または通話キューに割り当てられているすべてのリソースアカウントを選択する必要があります。
+- 現在、通話キューと自動応答には、通話キュー/自動応答名の代わりにリソース アカウント ID が表示されます。  自動応答または通話キューのすべてのトラフィックを表示するには、自動応答または通話キューに割り当てられているすべてのリソース アカウントを選択する必要があります。
 
-- 現在、通話キュー/自動応答データはエンドユーザーを特定できる情報であり、データのプライバシー保持ポリシーの適用対象となるため、ダッシュボードでは28日間の履歴しか使用できません。
+- 現在、通話キュー/自動応答データはエンド ユーザーを特定できる情報と見なされ、データ プライバシー保持ポリシーの対象になります。
