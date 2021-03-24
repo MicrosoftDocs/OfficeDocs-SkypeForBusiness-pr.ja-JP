@@ -16,36 +16,36 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Power BI を使用して、Microsoft Teams の CQD データを分析します。
-ms.openlocfilehash: a06a3cb76cd778c132b3e8745b279035e875f16e
-ms.sourcegitcommit: f122c078b6458754500f3cc68086d6ccfa62d183
+ms.openlocfilehash: 5ef98f75854cb4a255bf3f01aeb32de66c059b76
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49588330"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096523"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Power BI を使用して Microsoft Teams の CQD データを分析する
 
-2020年1月の新 [機能: POWER BI クエリテンプレートをダウンロードして CQD](https://www.microsoft.com/download/details.aspx?id=102291)します。 CQD データの分析と報告に使用できる、カスタマイズ可能な Power BI テンプレート。
+2020 年 1 月の新機能: [CQD 用の Power BI クエリ テンプレートをダウンロードします](https://www.microsoft.com/download/details.aspx?id=102291)。 カスタマイズ可能な Power BI テンプレートを使用して、CQD データを分析およびレポートできます。
 
-Teams の通話品質ダッシュボード (CQD) レポートの場合、Power BI を使ってデータのクエリやレポートを行う場合は、CQD Power BI テンプレートをダウンロードしてください。 Power BI でテンプレートを開くと、CQD 管理者の資格情報でサインインするように求められます。 これらのクエリテンプレートをカスタマイズして、Power BI ライセンスと CQD の管理者権限を持つ組織内のすべてのユーザーに配布することができます。
+Teams の通話品質ダッシュボード (CQD) レポートでは、Power BI を使用してデータのクエリとレポートを行う場合は、CQD Power BI テンプレートをダウンロードします。 Power BI でテンプレートを開いた場合は、CQD 管理者の資格情報でサインインするように求めるメッセージが表示されます。 これらのクエリ テンプレートをカスタマイズし、Power BI ライセンスと CQD 管理権限を持つ組織内のすべてのユーザーに配布できます。
 
-これらの PBIT ファイルを使用するには、その前に、[ダウンロード](https://www.microsoft.com/download/details.aspx?id=102291)に含まれている [Microsoft CQD の Power BI コネクタをインストール](CQD-Power-BI-connector.md)する必要があり *ます。* 
+これらの PBIT ファイルを使用する前に、ダウンロードに含まれる *MicrosoftCallQuality.pセキュリティ* ファイルを使用して、Microsoft [CQD](CQD-Power-BI-connector.md)用 Power BI Connector をインストールする必要 [があります](https://www.microsoft.com/download/details.aspx?id=102291)。 
 
-Power BI レポートにアクセスするための適切な [CQD アクセスロール](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) を持っていることを確認してください。 
+Power BI レポートにアクセスするには [、適切な CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) アクセスロールを持っている必要があります。 
 
 |  |  |
 |---------|---------|
-|<strong>(New!)</strong> CQD Teams の自動応答 & 通話キューの履歴レポート。 pbit     |  このテンプレートには、次の3つのレポートが用意されています。</p><li>自動応答-自動応答への通話の分析が表示されます。</li><li>通話キュー–通話キューに入ってくる通話の分析が表示されます。</li><li>[エージェント] タイムライン–通話キュー通話でアクティブになっているエージェントのタイムラインビューが表示されます。</li><br>詳細については、「 [自動応答 & 通話キューの履歴レポート](aa-cq-cqd-historical-reports.md)」を参照してください。        |
-|CQD ヘルプデスクレポート pbit     |このレポートは、ビルディングと EUII のデータを統合することを目的としています。このレポートは、1人のユーザーとの間で、そのユーザーの通話品質の低下 (たとえば、ネットワークの問題が発生している建物内にいるなど) を見つけることができるように設計されています。         |
-|CQD 位置拡張レポート pbit     | CQD SPD location レポートを再想像します。 9つのレポートが含まれており、通話品質の提供、WiFi、信頼性の構築、また、建物またはユーザーごとの追加のドリルダウン thrus での通話 (RMC) 情報の評価を行うことができます。  レポートの操作性を最大限に高めるために、建物のデータをアップロードしていることを確認してください。        |
-|CQD モバイルデバイスレポート pbit     | 通話品質、信頼性、通話料金などのモバイルデバイスユーザーに向けて、明確に調整された洞察を提供します。 モバイルネットワーク、WiFi ネットワーク、モバイルオペレーティングシステムレポート (Android、iOS) を表示します。        |
-|CQD PSTN ダイレクトルーティングレポート pbit     |直接ルーティングを経由する PSTN 通話に固有の洞察を提供します。 詳細については、「 [CQD PSTN ダイレクトルーティングレポートを使用](CQD-PSTN-report.md)する」を参照してください。         |
-|CQD Summary レポート pbit     |視覚エフェクトの向上、向上したプレゼンテーション、情報の密度の向上、日付のローリング。 これらのレポートを使用すると、値を簡単に識別することができます。 使いやすいインタラクティブな地図を使用して、場所別の通話品質を詳しく調べることができます。 9新しいレポート:</p>-全体的な品質<br>-信頼性全体<br>-RMC (通話の評価) 全体<br>-会議の品質<br>-P2P の品質<br>-会議の信頼性<br>-P2P の信頼性<br>-電話会議 RMC<br>-P2P RMC         |
-|<strong>(New!)</strong> CQD Teams の使用状況レポート pbit     | 組織内のユーザーが Teams をどのように使用しているかを示し、その量を示します。 レポートの操作性を最大限に高めるために、建物のデータをアップロードしていることを確認してください。 詳細については、「 [CQD POWER BI レポートを使用して Microsoft Teams の利用状況を表示](CQD-teams-utilization-report.md)する」を参照してください。        |
-|CQD ユーザーフィードバック (通話の評価) レポート pbit     | 組織への通話をサポートするために簡単に使用できる方法で、通話データの料金が表示されます。 Verbatims との相互参照により、エンドユーザーの教育機会を特定します。        |
+|<strong>(新機能)</strong> CQD Teams 自動応答 &通話キューの履歴レポート.pbit     |  このテンプレートには、次の 3 つのレポートが含まれます。</p><li>自動応答 – 自動応答に着信する通話の分析を表示します。</li><li>通話キュー – 通話キューに着信する通話の分析を示します。</li><li>エージェント タイムライン – 通話キューの呼び出しでアクティブなエージェントのタイムライン ビューを示します。</li><br>詳細については、「通話キューの [履歴自動応答 &を参照してください](aa-cq-cqd-historical-reports.md)。        |
+|CQD ヘルプデスク レポート.pbit     |建物と EUII データを統合するこのレポートは、1 人のユーザーからドリル アップして、そのユーザーの通話品質の低下の原因である(たとえば、ネットワークの問題が発生している建物にいます) 原因を見つけ出せするように設計されています。         |
+|CQD Location Enhanced Report.pbit     | CQD SPD 位置情報レポートを再想像します。 9 つのレポートを含み、通話品質、建物の WiFi、信頼性、通話の評価 (RMC) 情報を、建物別またはユーザー別に追加のドリルスルーで提供します。  レポート機能を最大限に活用するには、必ず建物データをアップロードしてください。        |
+|CQD モバイル デバイス レポート.pbit     | 通話品質、信頼性、通話の評価など、モバイル デバイス ユーザー向けに特に調整された分析情報を提供します。 モバイル ネットワーク、WiFi ネットワーク、モバイル オペレーティング システムレポート (Android、iOS) を表示します。        |
+|CQD PSTN ダイレクト ルーティング レポート.pbit     |直接ルーティングを経由する PSTN 通話に固有の分析情報を提供します。 詳細については [、「CQD PSTN](CQD-PSTN-report.md)ダイレクト ルーティング レポートの使用」を参照してください。         |
+|CQD Summary Report.pbit     |視覚エフェクトの向上、プレゼンテーションの改善、情報の密度の向上、および日付の回転。 これらのレポートを使用すると、異常値を簡単に識別できます。 使いやすい対話型マップを使用して、場所別に通話品質を詳細に表示します。 9 つの新しいレポート:</p>- 品質全体<br>- 信頼性全体<br>- RMC (通話の評価) 全体<br>- 会議品質<br>- P2P 品質<br>- 電話会議の信頼性<br>- P2P の信頼性<br>- 電話会議 RMC<br>- P2P RMC         |
+|<strong>(新機能)</strong> CQD Teams 使用率レポート.pbit     | 組織内のユーザーが Teams を使用している方法と量を示します。 レポート機能を最大限に活用するには、必ず建物データをアップロードしてください。 詳細については [、「CQD Power BI レポート](CQD-teams-utilization-report.md)を使用して Microsoft Teams の使用率を表示する」を参照してください。        |
+|CQD ユーザー フィードバック (通話の評価) Report.pbit     | 組織の通話をサポートするために簡単に使用できる方法で、通話の評価データを表示します。 エンドユーザー教育の機会を特定するための詳細な相互参照。        |
 
 > [!TIP]
-> Power BI レポートを CQD データ用に設定したら、それらをタブとしてチャネルに追加します。 チャネルでを選択した後 **+** 、[ **Power BI** ] を選択してから、レポートを検索します。 詳細については、「[ [POWER BI] タブで Teams の埋め込みレポート](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams)を閲覧する」を参照してください。 これらのレポートにアクセスできるのは、Power BI ライセンスと CQD 管理者の資格情報を持っているユーザーのみです。
+> CQD データの Power BI レポートを設定したら、それらをタブとしてチャネルに追加します。 チャネルで選択 **+** した後 **、Power BI を選択し** 、レポートを見つける。 詳細については、「Teams の [Power BI タブを使用してレポートを埋め込む」を参照してください](/power-bi/service-embed-report-microsoft-teams)。 Power BI ライセンスと CQD 管理者の資格情報を持つユーザーだけがこれらのレポートにアクセスできます。
 
 
 ## <a name="related-topics"></a>関連項目
@@ -58,5 +58,4 @@ Power BI レポートにアクセスするための適切な [CQD アクセス�
 
 [通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)
- 
+[通話分析および通話品質ダッシュボード](./monitor-call-quality-qos.md)

@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: 2b2c8637e1fa44d8852465b21d2cf494442978b4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 135072c7128ac14e4073e95297fa2b5e4e1a8e5a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830137"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097043"
 ---
 # <a name="unassigned-phone-number"></a>割り当てられていない電話番号
 
 > [!NOTE]
-> Skype for Business 2019 と Exchange 2013 または Exchange 2016 を統合する場合、Exchange UM は Skype for Business Server 2019 で引き続き使用できます。 Exchange 2019 のサポートが変更されたので、Exchange UM 統合はクラウド ボイスメール機能とクラウド ボイスメール機能の使用を重視自動応答されています。
+> Skype for Business Server 2019 を Exchange 2013 または Exchange 2016 に統合すると、Exchange UM は Skype for Business Server 2019 で引き続き使用できます。 Exchange 2019 でのサポートの変更により、Exchange UM の統合はクラウド ボイスメール機能とクラウド ボイスメール機能の機能を重視自動応答されています。
 
 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
 
@@ -52,18 +52,18 @@ ms.locfileid: "49830137"
 
 次の一覧に、このページのコマンドを示します。
 
-- **新規** 新しい割り当てられていない番号範囲を開始します。
+- **New** 割り当てられていない新しい番号範囲を開始します。
 
-- **編集** 選択した割り当てられていない番号範囲を編集用に開き、一覧内のすべての割り当てられていない番号範囲を選択するか、選択した割り当てられていない番号範囲を削除します。
+- **編集** 選択した割り当てられていない番号範囲を編集用に開き、リスト内のすべての割り当てられていない番号範囲を選択するか、選択した割り当てられていない番号範囲を削除します。
 
-- **上へ移動** 選択した割り当てられていない番号範囲を一覧内で上に移動し、Skype for Business Server が一覧内の他の範囲に指定されたアクションを適用する前に、指定されたアクションを適用します。
+- **上に移動する** 選択した割り当てられていない番号範囲をリスト内で上に移動して、Skype for Business Server が検索を早くし、指定したアクションを適用してから、リスト内の他の範囲に指定されたアクションを適用します。
 
     > [!NOTE]
-    > Skype for Business Server は、割り当てられていない番号の表を上から下に検索し、割り当てられていない番号に一致する最初の範囲を使用します。 たとえば、最後のアクションを指定している範囲がある場合は、その範囲が一覧の一番下にあることを確認します。
+    > Skype for Business Server は、割り当てられていない番号テーブルを上から下に検索し、割り当てられていない番号に一致する最初の範囲を使用します。 たとえば、最後のアクションを指定している範囲がある場合は、その範囲が一覧の一番下にあることを確認します。
 
-- **下へ移動** 選択した割り当てられていない番号範囲をリスト内で下に移動します。
+- **下に移動する** 選択した割り当てられていない番号範囲をリスト内で下に移動します。
 
-- **すべて確定** 割り当てられていない番号範囲に加えたすべての変更を保存します。
+- **すべてコミットする** 割り当てられていない番号範囲に加えたすべての変更を保存します。
 
     > [!IMPORTANT]
     > このコマンドは、[**新規 未使用の番号範囲**] ページと [**編集 未使用の番号範囲**] ページで行われたすべての変更を保存します。
@@ -74,16 +74,14 @@ ms.locfileid: "49830137"
 
 - **名前** 割り当てられていない番号範囲を識別する一意の名前。
 
-- **State** データベースに保存されている番号範囲と保存されていない番号範囲を示します。
+- **状態** データベースに保存されている番号範囲と保存されていない番号範囲を示します。
 
-- **開始範囲** 割り当てられていない番号範囲の開始番号を指定します。
+- **開始範囲** 割り当てられていない番号範囲の先頭番号。
 
-- **終了範囲** 割り当てられていない番号範囲の終了番号を指定します。
+- **終了範囲** 割り当てられていない番号範囲の終了番号。
 
-- **Destination** この割り当てられていない番号範囲への着信呼び出しを処理するアナウンス アプリケーションをホストするアプリケーション サービスのサービス ID。
+- **宛先** 割り当てられていないこの範囲の番号に対する着信呼び出しを処理するアナウンス アプリケーションをホストする Application サービスのサービス ID。
 
-- **アナウンス** この割り当てられていない番号の範囲で再生されるアナウンス。
+- **お知らせ** 割り当てられていないこの範囲の番号に対して再生されるアナウンス。
 
-アナウンスの機能の詳細については、「計画」のドキュメントの [「Plan for the Announcement application in Skype for Business」](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)」を参照してください。
-
-
+アナウンスの機能の詳細については、「計画」のドキュメントの「Plan for the [Announcement application in Skype for Business」](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。

@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91cea9183a85a804ca43464aab08f417ccaff1e8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ec53f1d4f9cd21d3b28c87c07c1bc91d48b9b58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827517"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098423"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>ダイレクト ルーティング用にリングバック ボットをセットアップする
 
@@ -36,11 +36,11 @@ ms.locfileid: "49827517"
 
 ## <a name="configure-the-ringback-bot"></a>リングバック ボットを構成する
 
-[Set-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway)コマンドレットを使用して、以前に定義されたセッション ボーダー コントローラー (SBC) 構成を変更するか [、New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)コマンドレットを使用して **、GenerateRingingWhileLocatingUser** パラメーターと共に新しい SBC 構成を作成し、リングバック ボットを構成します。
+[Set-CsOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway)コマンドレットを使用して、以前に定義されたセッション ボーダー コントローラー (SBC) 構成または [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway)コマンドレットを変更し **、GenerateRingingWhileLocatingUser** パラメーターと共に新しい SBC 構成を作成し、リングバック ボットを構成します。
 
-- リングバック ボットを有効にする場合は **、GenerateRingingWhileLocatingUser** パラメーターを **$True。** これが既定値です。 
+- リングバック ボットを有効にする場合は **、GenerateRingingWhileLocatingUser** パラメーターを次に **$True。** これが既定値です。 
 
-- リングバック ボットをオフにする場合は **、GenerateRingingWhileLocatingUser** パラメーターを次に **$False。** 
+- リングバック ボットをオフにする場合は **、GenerateRingingWhileLocatingUser** パラメーターを **$False。** 
 
 ## <a name="related-topics"></a>関連項目
 

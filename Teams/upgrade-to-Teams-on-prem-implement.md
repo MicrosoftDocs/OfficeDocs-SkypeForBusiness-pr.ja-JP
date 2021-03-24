@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb884f26862466dcd70c9efe81e5293d277adbde
-ms.sourcegitcommit: b0753baa55841a2c6c5dc006dcdd117704af3b42
+ms.openlocfilehash: 44c9559ca0576bb189b0934b9c487d5548de01bd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50401348"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096071"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>IT 管理者向けアップグレード戦略
 
@@ -44,7 +44,7 @@ ms.locfileid: "50401348"
 - [Teams の使用をまだ開始していない組織の選択機能のアップグレード](#a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams)
 - [既に Teams を諸島モードで使用している組織の選択機能のアップグレード](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode)
 
-オプションの詳細については [、「Skype for Business](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)から Teams へのアップグレードの手順を選択する」を既に参照してください。
+オプションに関する詳細が必要な場合は [、「Skype for Business](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)から Teams へのアップグレードの手順を選択する」を既に読んでおきます。
 
 ## <a name="overlapping-capabilities-upgrade-using-islands-mode"></a>重複する機能のアップグレード (諸島モードを使用)
 
@@ -145,13 +145,12 @@ Teams のアクティブなユーザーが 1 人もいない組織の場合、�
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を構成する](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を構成する](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[オンプレミスとクラウドの間でユーザーを移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[オンプレミスとクラウドの間でユーザーを移動する](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [共存およびアップグレードを設定する](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[会議移行サービス (MMS) を使用する](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
+[会議移行サービス (MMS) を使用する](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

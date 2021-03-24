@@ -12,56 +12,56 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: '概要: Skype for Business Server でダイヤルイン会議の PIN ポリシーを管理する方法について説明します。'
-ms.openlocfilehash: 6544586071f1107537232a117de196dfbffeb4aa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 34b006b54242c25fb9afcd3fc9fd6e6692e9cbd2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827957"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096749"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でのダイヤルイン会議の PIN ポリシーの管理
  
 **概要:** Skype for Business Server でダイヤルイン会議の PIN ポリシーを管理する方法について説明します。
   
-組織内の Active Directory ドメイン サービス (AD DS) 資格情報を持つ Skype for Business Server ユーザーは、暗証番号 (PIN) を使用して、認証されたユーザーとしてダイヤルイン会議に参加できます。 PIN ポリシーは、ダイヤルイン会議 PIN の動作に関するルールを定義します。
+組織内に Active Directory ドメイン サービス (AD DS) 資格情報を持つ Skype for Business Server ユーザーは、個人識別番号 (PIN) を使用して、認証されたユーザーとしてダイヤルイン会議に参加できます。 PIN ポリシーは、ダイヤルイン会議 PIN の動作に関するルールを定義します。
   
- 組織全体で同じ PIN ポリシーを使用する場合は、グローバル PIN ポリシーを使用して、必要に応じて変更できます。 グローバル PIN ポリシーは、ダイヤルイン会議 PIN のルールを、フォレスト レベルで定義します。 グローバル PIN ポリシーは変更できますが、削除することはできません。
+ 組織全体で同じ PIN ポリシーを使用する場合は、グローバル PIN ポリシーを使用し、必要に応じて変更できます。 グローバル PIN ポリシーは、ダイヤルイン会議 PIN のルールを、フォレスト レベルで定義します。 グローバル PIN ポリシーは変更できますが、削除することはできません。
   
 特定のポリシーをサイトまたは特定のユーザー グループに適用する場合は、新しい PIN ポリシーを作成できます。
   
-PIN ポリシーは、最も狭いスコープから最も広いスコープまでユーザーに適用されます。 ユーザーレベルの PIN ポリシーをユーザーに割り当てると、これらの設定が優先されます。 ユーザー ポリシーを割り当てない場合は、サイト レベルの PIN ポリシーが適用されます (存在する場合)。 ユーザーポリシーまたはサイト ポリシーが適用されない場合、グローバル PIN ポリシーは既定の設定を提供します。
+PIN ポリシーは、最も狭い範囲から最も広い範囲のユーザーに適用されます。 ユーザー レベルの PIN ポリシーをユーザーに割り当てる場合、これらの設定が優先されます。 ユーザー ポリシーを割り当てない場合は、サイト レベルの PIN ポリシーが適用されます (存在する場合)。 ユーザーポリシーまたはサイト ポリシーが適用されない場合、グローバル PIN ポリシーは既定の設定を提供します。
   
 ## <a name="view-information-about-pin-policies"></a>PIN ポリシーに関する情報を表示する
 
-PIN ポリシーに関する情報は、Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して表示できます。
+PIN ポリシーに関する情報は、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して表示できます。
   
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して PIN ポリシーに関する情報を表示する
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
 2.  Skype for Business Server コントロール パネルを開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
-4. [PIN **ポリシー] ページ** で、表示する PIN ポリシーをクリックし、[編集] をクリックして、[詳細の表示]**をクリックします**。
+4. [PIN ポリシー **] ページで**、表示する PIN ポリシーをクリックし、[編集] をクリックし、[詳細の表示]**をクリックします**。
     
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して PIN ポリシーに関する情報を表示する
 
-PIN ポリシーに関する情報を表示するには **、Get-CsPinPolicy コマンドレットを使用** します。 たとえば、次のコマンドを実行すると、site:Redmond という IDENTITY を持つ 1 つの PIN ポリシーに関する情報が戻されます。
+PIN ポリシーに関する情報を表示するには **、Get-CsPinPolicy コマンドレットを使用** します。 たとえば、次のコマンドは、Identity サイト:Redmond を持つ 1 つの PIN ポリシーに関する情報を返します。
   
 ```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
-完全な構文の説明やパラメーターの一覧など、詳細については [、Get-CsPinPolicy を参照してください](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps)。
+完全な構文の説明とパラメーターの一覧を含む詳細については [、「Get-CsPinPolicy」を参照してください](/powershell/module/skype/get-cspinpolicy?view=skype-ps)。
   
-## <a name="modify-the-global-pin-policy"></a>グローバル PIN ポリシーを変更する
+## <a name="modify-the-global-pin-policy"></a>グローバル PIN ポリシーの変更
 
-グローバル PIN ポリシーは、Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して変更できます。
+グローバル PIN ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して変更できます。
   
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してグローバル ダイヤルイン会議 PIN ポリシーを変更する
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
 2.  Skype for Business Server コントロール パネルを開きます。
     
@@ -84,29 +84,29 @@ Get-CsPinPolicy -Identity "site:Redmond"
 11. PIN に、連続番号や同じ数字の繰り返しなどよくあるパターンの番号を許可するには、[**共通のパターンの許可**] チェック ボックスをオンにします。 このオプションをオンにしない場合は、複雑な数字パターンのみが許可されます。 既定では、複雑なパターンの数字のみが許可されます。
     
     > [!IMPORTANT]
-    > セキュリティ上の理由から、一般的なパターンは許可しないでお勧めします。 
+    > セキュリティ上の理由から、一般的なパターンを許可しない方法をお勧めします。 
   
 12. [**確定**] をクリックします。
     
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してグローバル ダイヤルイン会議 PIN ポリシーを変更する
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してグローバルダイヤルイン会議 PIN ポリシーを変更する
 
 グローバル ダイヤルイン会議 PIN ポリシーを変更するには **、Set-CsPinPolicy コマンドレットを使用** します。
   
-次のコマンドは、組織で使用するように構成されている PIN ポリシーすべてについて MinPasswordLength の値を変更します。 これを行うには、まずパラメーターを指定せずに **Get-CsPinPolicy** コマンドレットを呼び出して、すべての既存の PIN ポリシーのコレクションを取得します。 次に、このコレクションを **Set-CsPinPolicy** コマンドレットにパイプ処理し、コレクション内の各ポリシーの MinPasswordLength プロパティの値を変更します。
+次のコマンドは、組織内で使用するように構成されているすべての PIN ポリシーの MinPasswordLength の値を変更します。 これを行うには、すべての既存の PIN ポリシーのコレクションを取得するために、パラメーターを指定せずに **Get-CsPinPolicy** コマンドレットを最初に呼び出します。 そのコレクションは **Set-CsPinPolicy** コマンドレットにパイプ処理され、コレクション内の各ポリシーの MinPasswordLength プロパティの値を変更します。
   
 ```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
-完全な構文の説明やパラメーターの一覧など、詳細については [、「Set-CsPinPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
+完全な構文の説明とパラメーターの一覧を含む詳細については [、「Set-CsPinPolicy」を参照してください](/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
   
 ## <a name="create-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを作成する
 
-ユーザーまたはサイトの PIN ポリシーは、Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して作成できます。
+ユーザーまたはサイトの PIN ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して作成できます。
   
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してユーザーまたはサイトの PIN ポリシーを作成する
 
-1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
 2.  Skype for Business Server コントロール パネルを開きます。
     
@@ -135,7 +135,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 12. PIN に、連続番号や同じ数字の繰り返しなどよくあるパターンの番号を許可するには、[**共通のパターンの許可**] チェック ボックスをオンにします。 このオプションをオンにしない場合は、複雑な数字パターンのみが許可されます。 既定では、複雑なパターンの数字のみが許可されます。
     
     > [!IMPORTANT]
-    > セキュリティ上の理由から、一般的なパターンは許可しないでお勧めします。 
+    > セキュリティ上の理由から、一般的なパターンを許可しない方法をお勧めします。 
   
 13. [**確定**] をクリックします。
     
@@ -143,21 +143,21 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 
 ユーザーまたはサイトの PIN ポリシーを作成するには **、New-CsPinPolicy コマンドレットを使用** します。
   
-次のコマンドは、site:Redmond という ID を持つ新しい PIN ポリシーを作成します。 このコマンドには、オプションのパラメーター MinPasswordLength が 1 つ含まれています。MinPasswordLength プロパティを 7 に設定するために使用されます。 残りのすべてのポリシー プロパティは、既定値を使用して構成されます。
+次のコマンドは、Identity サイト:Redmond を使用して新しい PIN ポリシーを作成します。 このコマンドには、MinPasswordLength プロパティを 7 に設定するために使用される 1 つのオプション パラメーター MinPasswordLength が含まれています。 残りのすべてのポリシー プロパティは、既定値を使用して構成されます。
   
 ```PowerShell
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- 完全な構文の説明やパラメーターの一覧など、詳細については [、「New-CsPinPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/new-cspinpolicy?view=skype-ps)。
+ 完全な構文の説明とパラメーターの一覧を含む詳細については [、「New-CsPinPolicy」を参照してください](/powershell/module/skype/new-cspinpolicy?view=skype-ps)。
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを変更する
 
-ユーザーまたはサイトの PIN ポリシーは、Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して変更できます。
+ユーザーまたはサイトの PIN ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して変更できます。
   
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してユーザーまたはサイトの PIN ポリシーを変更する
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
 2.  Skype for Business Server コントロール パネルを開きます。
     
@@ -173,38 +173,36 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 
 ダイヤルイン会議 PIN ポリシーを変更するには **、Set-CsPinPolicy コマンドレットを使用** します。
   
-次のコマンドは、Redmond サイトに割り当てられている PIN ポリシーを変更します。 この場合、このコマンドは MinPasswordLength プロパティの値を 10 に変更します。つまり、新しい PIN には少なくとも 10 桁の数字が必要です。
+次のコマンドは、Redmond サイトに割り当てられた PIN ポリシーを変更します。 この場合、コマンドは MinPasswordLength プロパティの値を 10 に変更します。つまり、新しい PIN には少なくとも 10 桁の数字が含まれている必要があります。
   
 ```PowerShell
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
-完全な構文の説明やパラメーターの一覧など、詳細については [、「Set-CsPinPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
+完全な構文の説明とパラメーターの一覧を含む詳細については [、「Set-CsPinPolicy」を参照してください](/powershell/module/skype/set-cspinpolicy?view=skype-ps)。
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを削除する
 
-ユーザーまたはサイトの PIN ポリシーは、Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して削除できます。
+ユーザーまたはサイトの PIN ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して削除できます。
   
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してユーザーまたはサイトの PIN ポリシーを削除する
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
 2.  Skype for Business Server コントロール パネルを開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
-4. [PIN **ポリシー] ページ** で、変更する PIN ポリシーをクリックし、[編集] をクリックして、[削除] をクリック **します**。
+4. [PIN ポリシー **] ページで**、変更する PIN ポリシーをクリックし、[編集] をクリックし、[削除] を **クリックします**。
     
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してユーザーまたはサイトの PIN ポリシーを削除する
 
 ユーザーまたはサイトの PIN ポリシーを削除するには **、Remove-CsPinPolicy コマンドレットを使用** します。
   
-次のコマンドは、サイト スコープで構成されている PIN ポリシーを削除します。 これを行うには **、Get-CsPinPolicy** コマンドレットを Filter パラメーターと共に使用して、Identity が文字 "site:" で始まるすべてのポリシーのコレクションを戻します。 次に、このコレクションを **Remove-CsPinPolicy** コマンドレットにパイプ処理し、コレクション内の各ポリシーを削除します。
+次のコマンドは、サイト スコープで構成されているすべての PIN ポリシーを削除します。 これを行うには **、Get-CsPinPolicy** コマンドレットと Filter パラメーターを使用して、"site:" という文字で始まる Identity を持つすべてのポリシーのコレクションを返します。 このコレクションは **Remove-CsPinPolicy** コマンドレットにパイプ処理され、コレクション内の各ポリシーが削除されます。
   
 ```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-完全な構文の説明やパラメーターの一覧など、詳細については [、「Remove-CsPinPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/remove-cspinpolicy?view=skype-ps)。
-  
-
+完全な構文の説明とパラメーターの一覧を含む詳細については [、「Remove-CsPinPolicy」を参照してください](/powershell/module/skype/remove-cspinpolicy?view=skype-ps)。

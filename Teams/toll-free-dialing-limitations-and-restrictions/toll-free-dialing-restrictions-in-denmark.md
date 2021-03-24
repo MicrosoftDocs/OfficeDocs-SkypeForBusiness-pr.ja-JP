@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
-ms.openlocfilehash: 4164bdbd16b40442789f801c4e84686fad1ba8e8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fbc6933c24ef119f4bb63a0c7f976034f831780b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815607"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098163"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>デンマークでのフリーダイヤル制限
 
@@ -48,7 +48,6 @@ ms.locfileid: "49815607"
 ## <a name="related-topics"></a>関連項目
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[サービス電話番号を取得する](/microsoftteams/getting-service-phone-numbers)
+[サービス電話番号を取得する](../getting-service-phone-numbers.md)
 
   
- 

@@ -17,12 +17,12 @@ f1.keywords:
 description: 多国籍企業向け Teams 音声ケース スタディ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a964075dfae514759309a81a7d7140cddd10220
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701225"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097493"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Contoso のケース スタディ: Teams 音声移行の概要
 
@@ -30,7 +30,7 @@ ms.locfileid: "49701225"
 
 Contoso は Microsoft 365 Enterprise を展開し、ネットワーク、ID、Windows 10 Enterprise、Office 365 ProPlus、モバイル デバイス管理、情報保護、セキュリティ、Skype for Business から Teams、電話システム、電話会議にアップグレードする主な設計決定と実装の詳細に対応しました。  
 
-この記事では、Contoso が統合コミュニケーション、コラボレーション、音声のためにオンプレミス ユーザーを Teams に移行した方法について説明します。 Microsoft のクラウド サービスを使用して Contoso がデジタル変換を高速化した方法に関する背景情報については、Contoso のケース スタディの概要から始まる主要なすべての記事 [を参照してください](https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)。
+この記事では、Contoso が統合コミュニケーション、コラボレーション、音声のためにオンプレミス ユーザーを Teams に移行した方法について説明します。 Microsoft のクラウド サービスを使用して Contoso がデジタル変換を高速化した方法に関する背景情報については、Contoso のケース スタディの概要から始まる主要なすべての記事 [を参照してください](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)。
 
 https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
 
@@ -63,7 +63,7 @@ https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365
 
 - 電話システム  
 
-  エンタープライズ ボイス付き Skype for Business は、Contoso 内に広く展開されました。 仲介サーバーの次のホップである従来のシステムから移行する必要がある場合、Contoso は Skype for Business エンタープライズ 音声ユーザーを電話システムに移行しました。 Contoso サイトでは、Microsoft 通話プラン、電話システム ダイレクト ルーティング、または両方の組み合わせを使用しました。 詳細については、「Contoso のケース [スタディ: 電話システム」を参照してください](voice-case-study-phone-system.md)。
+  エンタープライズ ボイス付き Skype for Business は、Contoso 内に広く展開されました。 仲介サーバーの次のホップである従来のシステムから移行する必要がある場合、Contoso は Skype for Business エンタープライズ 音声ユーザーを電話システムに移行しました。 Contoso サイトでは、Microsoft 通話プラン、電話システムダイレクト ルーティング、または両方の組み合わせを使用しました。 詳細については、「Contoso のケース [スタディ: 電話システム」を参照してください](voice-case-study-phone-system.md)。
 
 - 場所に基づくルーティング 
 
@@ -83,6 +83,4 @@ https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365
 
 - 自動応答と通話キュー
 
-  Covid-19 の結果として、Contoso はスタッフがリモートで作業している間、受付のサポートを提供する必要があります。 Contoso は、受付係の電話番号への着信通話を管理するために、自動応答と通話キューを使用しました。 詳細については、「Contoso のケース [スタディ: 自動応答と通話キュー」を参照してください](voice-case-study-call-queues.md)。  
-
-
+  Covid-19 の結果として、Contoso はスタッフがリモートで作業している間、受付のサポートを提供する必要があります。 Contoso は、受付係の電話番号への着信通話を管理するために、自動応答と通話キューを使用しました。 詳細については、「Contoso のケース [スタディ: 自動応答と通話キュー」を参照してください](voice-case-study-call-queues.md)。

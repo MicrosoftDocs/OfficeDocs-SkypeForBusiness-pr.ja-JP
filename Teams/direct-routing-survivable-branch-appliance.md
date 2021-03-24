@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fb8812fd025317eb9c6e3c67ce1f5fcea094978
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: edf2c2a97bec2b167f1218d983d3c9f7fa4bd667
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196491"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096427"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>ダイレクト ルーティング用の分岐電気機器 (SBA)
 
@@ -43,7 +43,7 @@ SBA は、Microsoft が SBC ベンダーに提供するコードを配布可能�
 
 埋め込まれたEdvedable Branch Controller を使用して最新のセッション ボーダー コントローラーファームウェアを取得するには、SBC ベンダーにお問い合わせください。 さらに、次の情報が必要です。
 
-- ブランチ サイトの Microsoft Teams クライアントが SBC で直接流れるメディアを使用するには、メディア バイパス用に SBC を構成する必要があります。 
+- ブランチ サイトの Microsoft Teams クライアントが SBC を使用して直接メディアを流し込むには、メディア バイパス用に SBC を構成する必要があります。 
 
 - SBA VM OS で TLS1.2 を有効にする必要があります。
 
@@ -69,7 +69,7 @@ Microsoft Teams クライアントがオフライン モードの場合、次の
 
 ## <a name="configuration"></a>構成
 
-SBA 機能を機能するには、Teams クライアントは、各ブランチ サイトで利用できる SBA と、そのサイト内のユーザーに割り当てられている SBA を知る必要があります。 構成手順は次のとおりです。
+SBA 機能を機能するには、Teams クライアントは、各ブランチ サイトで使用できる SBA と、そのサイト内のユーザーに割り当てられている SBA を知る必要があります。 構成手順は次のとおりです。
 
 1. SA を作成します。
 2. Teams ブランチのアクセス可能性ポリシーを作成します。
@@ -151,13 +151,13 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Azure Active Directory で SBA のアプリケーションを登録する
 
-テナント内で使用されている異なる SBA が Microsoft 365 から必要なデータを読み取り込むには、Azure Active Directory で SBA のアプリケーションを登録する必要があります。 
+テナント内で使用されている異なる SBA が Microsoft 365 から必要なデータを読み取り込むには、Azure Active Directory で SBA 用のアプリケーションを登録する必要があります。 
 
 アプリケーションの登録の詳細については、次を参照してください。
 
-- [Azure Active Directory 用の業務用アプリを開発する](https://docs.microsoft.com/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [Azure Active Directory 用の業務用アプリを開発する](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Microsoft ID プラットフォームでアプリケーションを登録します](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)。  
+- [Microsoft ID プラットフォームでアプリケーションを登録します](/azure/active-directory/develop/quickstart-register-app)。  
 
 テナント内のすべての SA で使用するために 1 つのアプリケーションのみを登録する必要があります。 
 
@@ -207,7 +207,7 @@ SBA アプリケーションの場合は、次の注意が必要です。
 
 - ユーザーに変更可能な分岐ポリシーを割り当てると、SBA が Get-CsOnlineUser の出力に表示されるまで時間がかかる場合があります。 
 
-- Azure の連絡先に対する逆AD参照は実行されません。 
+- Azure の連絡先に対する逆ADの参照は実行されません。 
 
 - SBA では、通話の転送設定はサポートされていません。 
 

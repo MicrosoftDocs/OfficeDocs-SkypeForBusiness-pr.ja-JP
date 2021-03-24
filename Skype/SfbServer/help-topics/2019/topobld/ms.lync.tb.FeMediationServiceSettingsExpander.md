@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[仲介サーバー] では、次の情報を指定できます。'
-ms.openlocfilehash: b3b22cfbe4b85a237dfffbce1c22da3abde75f57
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e3593fd98c9207b6dd7033e5aac26170988ae956
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819507"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096903"
 ---
 # <a name="mediation-service-settings-expander"></a>仲介サービス設定エキスパンダー
 
 [**仲介サーバー**] では、次の情報を指定できます。
 
-仲介サーバーをフロントエンド プールまたは Standard Edition サーバーに共置する場合は、[仲介サーバーの一覧を有効にする] チェック **ボックスをオンにします**。 仲介サーバーを併置しない場合、このセクションで定義可能な設定はありません。
+仲介サーバーをフロント エンド プールまたは Standard Edition サーバーに照合する場合は、[仲介サーバーを有効にする] チェック **ボックスをオンにします**。 仲介サーバーを併置しない場合、このセクションで定義可能な設定はありません。
 
 仲介サーバーの併置を有効にした場合は、サーバーでのトランスポート層セキュリティ (TLS) のリッスン ポートの範囲を定義する必要があります。既定のポートは 5067 です。[**TCP ポートを有効にする**] を選択した場合は、併置される仲介サーバーの 伝送制御プロトコル (TCP) ポートを定義する必要があります。これは省略可能な設定です。この設定が必要かどうかは、ゲートウェイまたは公衆交換電話網 (PSTN) の要件を参照して判断してください。既定では、TCP ポートの値は 5068 です。
 
@@ -34,6 +34,4 @@ ms.locfileid: "49819507"
 
 仲介サーバーに複数のゲートウェイを関連付けている場合は、関連付けた最初のゲートウェイが既定のゲートウェイとなります。既定のゲートウェイとして別のゲートウェイを選択する必要がある場合は、既定にするゲートウェイを選択して、[**既定にする**] をクリックします。既定のゲートウェイとしての選択を解除するには、[**既定値の解除**] をクリックします。
 
-Enterprise Edition フロントエンド プールまたは Standard Edition サーバーの設定の定義と構成の詳細については [、「Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx) and [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx)」を参照してください。
-
-
+Enterprise Edition フロントエンド プールまたは Standard Edition サーバーの設定の定義と構成の詳細については[](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)、「トポロジの定義と構成」および「[](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)仲介サーバーの展開」および「ピアの定義」を参照してください。

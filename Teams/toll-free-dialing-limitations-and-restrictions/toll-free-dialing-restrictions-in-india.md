@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: インドでの無料電話番号のダイヤル方法について説明します。これには、利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限が含まれます。
-ms.openlocfilehash: e95d00a0bc601780eca63369e0af76d6a4786016
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: インドでの無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+ms.openlocfilehash: 3e8dc705b5a8f762899433e0fbd2cc4bfe3aba94
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140386"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098083"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>インドでのフリーダイヤル制限
 
@@ -50,7 +50,6 @@ ms.locfileid: "43140386"
 ## <a name="related-topics"></a>関連項目
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
   
- 

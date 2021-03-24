@@ -19,19 +19,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ec03bd5ca416bd0780225529dad2a6254580396d
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: e8e9a7776058803f49364887cabd6b54a9040cb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726248"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097563"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
 |               |               |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[管理者トレーニング](/microsoftteams/itadmin-readiness)** </br> これらのチュートリアル、ビデオ、およびその他のトレーニング リソースを使用して、Teams について学習し、組織内での使用を促進します。 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams のライブ トレーニング](/microsoftteams/instructor-led-training-teams-landing-page)** </br> Teams を使いこなすための、Microsoft が主催する無料のライブ オンライン トレーニング クラス。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 
+| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[管理者トレーニング](./itadmin-readiness.md)** </br> これらのチュートリアル、ビデオ、およびその他のトレーニング リソースを使用して、Teams について学習し、組織内での使用を促進します。 
+| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams のライブ トレーニング](./instructor-led-training-teams-landing-page.yml)** </br> Teams を使いこなすための、Microsoft が主催する無料のライブ オンライン トレーニング クラス。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 
 | <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Teams のオンライン トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 自分のペースで学習できるこれらのトレーニング リソースを使用して、ユーザーが Teams を最大限に活用できるようにします。 |
 
 ## <a name="dont-miss-these-key-training-offerings"></a>これらの主要なトレーニングサービスをお見逃しなく
@@ -40,7 +40,7 @@ ms.locfileid: "50726248"
 
 :::row:::
    :::column:::
-   **[リモート ワーカーをサポートする](https://aka.ms/TeamsForRemoteWork)** </br>
+   **[リモート ワーカーをサポートする](./support-remote-work-with-teams.md)** </br>
    トレーニングへのリンクなど、自宅で作業しているユーザーをサポートするのに必要なガイダンスが得られます。
 
    :::column-end:::
@@ -52,7 +52,7 @@ ms.locfileid: "50726248"
    :::column-end:::
 
    :::column:::
-   **[チームワーク](https://docs.microsoft.com/learn/paths/m365-manage-team-collaboration)** </br>
+   **[チームワーク](/learn/paths/m365-manage-team-collaboration)** </br>
    コース: Teams でチームワークを有効にする
 
    :::column-end:::
@@ -61,13 +61,13 @@ ms.locfileid: "50726248"
 
 :::row:::
    :::column:::
-   **[導入スペシャリストの認定](https://aka.ms/AdoptionCert)** </br>
+   **[導入スペシャリストの認定](/learn/paths/m365-service-adoption/)** </br>
    Microsoft サービス導入スペシャリスト認定コースには、Teams が含まれています。 組織に Microsoft サービスの導入を推進する方法について説明します。
 
    :::column-end:::
 
    :::column:::
-   **[Microsoft 365 のチームワークの概要](https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index)** </br>
+   **[Microsoft 365 のチームワークの概要](/learn/modules/intro-to-teamwork-in-m365/index)** </br>
    所在地や組織への接続方法に関係なく、すべての従業員のチームワークを容易にする Microsoft 365 ツールについて説明します。
 
    :::column-end:::

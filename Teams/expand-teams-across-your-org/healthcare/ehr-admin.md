@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Microsoft Teams を使用して仮想アクセス システムをセットアップする
-ms.openlocfilehash: 6daa61ea44db02d48873a6fc494974c99573d0e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875177"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096281"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams での仮想アクセス - EHR への統合
 
@@ -57,7 +57,7 @@ EHR コネクタを統合する前に、次の前提条件があることを確�
 
 - 組織は、 Epic の 2018 年 11 月以降のバージョンを持っている必要があります。
 
-- システムは、すべての[ソフトウェアとブラウザーの前提条件](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)を満たす必要があります。
+- システムは、すべての[ソフトウェアとブラウザーの前提条件](../../hardware-requirements-for-the-teams-app.md)を満たす必要があります。
 
 また、組織内の次のユーザーからの情報も必要になります。
 
@@ -130,7 +130,7 @@ EHR コネクタの手順と Epic 構成を完了すると、組織は Microsoft
 
 ### <a name="virtual-visit-prerequisites"></a>仮想アクセスの前提条件
 
-- システムは、すべての[ソフトウェアとブラウザーの前提条件](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app)を満たす必要があります。
+- システムは、すべての[ソフトウェアとブラウザーの前提条件](../../hardware-requirements-for-the-teams-app.md)を満たす必要があります。
 
 - ヘルスケア組織は、Epic 組織と Microsoft 365 組織の間のセットアップを完了している必要があります。
 
@@ -175,4 +175,4 @@ EHR コネクタの手順と Epic 構成を完了すると、組織は Microsoft
 
 Teams の EHR システムへの統合により、統合および仮想アクセス フロー中に使用および保存されるデータの量が最適化されます。 このソリューションは、Teams のプライバシーとデータ管理の原則、および Teams のプライバシーで概説されているガイドラインに従います。
 
-Microsoft Teams EHR コネクタは、EHR システムから、識別可能な個人データや患者または医療提供者の健康記録を保存または転送しません。 EHR コネクタによって保存される唯一のデータは、EHR ユーザーの一意の ID であり、Teams 会議のセットアップ中に使用されます。 EHR ユーザーの一意の ID は、「[Microsoft 365 の顧客データの保存場所](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)」で説明されている 3 つの地理的地域のいずれかに保存されます。 会議の参加者が Teams に入力したすべてのチャット、録音、およびその他のデータは、既存の保存ポリシーに従って保存されます。 Microsoft Teams のデータの場所の詳細については、「[Teams のデータの場所](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams)」にアクセスしてください。
+Microsoft Teams EHR コネクタは、EHR システムから、識別可能な個人データや患者または医療提供者の健康記録を保存または転送しません。 EHR コネクタによって保存される唯一のデータは、EHR ユーザーの一意の ID であり、Teams 会議のセットアップ中に使用されます。 EHR ユーザーの一意の ID は、「[Microsoft 365 の顧客データの保存場所](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-geographies)」で説明されている 3 つの地理的地域のいずれかに保存されます。 会議の参加者が Teams に入力したすべてのチャット、録音、およびその他のデータは、既存の保存ポリシーに従って保存されます。 Microsoft Teams のデータの場所の詳細については、「[Teams のデータの場所](../../location-of-data-in-teams.md)」にアクセスしてください。

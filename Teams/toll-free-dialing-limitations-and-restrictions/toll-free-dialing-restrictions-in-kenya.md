@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限など、ケニアの無料電話番号へのダイヤル方法について説明します。
-ms.openlocfilehash: 16e9e2746074e8d4b5a9dee280ec0dbae27d9725
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、ケニアでの無料電話番号のダイヤルについて学習します。
+ms.openlocfilehash: 5a503270b2ed9ad1943492c498a9a605e47356cc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140346"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097963"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>ケニアでのフリーダイヤル制限
 
@@ -51,7 +51,6 @@ ms.locfileid: "43140346"
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
   
- 

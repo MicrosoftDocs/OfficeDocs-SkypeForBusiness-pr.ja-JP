@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 現在の Skype for Business 展開に基づいて、Microsoft Teams への最適なアップグレードパスを決定します。
+description: 現在の Skype for Business 展開に基づいて、Microsoft Teams への最適なアップグレード パスを決定します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,44 +20,44 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0db2e752bb163f806c5dcba7aa56fc36bae7c2ef
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 3eb6c65d414217810c795aa72701a8e546f30643
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578360"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096031"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>アップグレードの実装の概要
 
 ![「展開と実装」段階が強調表示された、アップグレード行程の各段階](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
-この記事は、アップグレード過程の展開と実装の段階に含まれています。 
+この記事は、アップグレードの手順の展開と実装のステージの一部です。 
 
 
 
-## <a name="prerequisite-planning-activities"></a>前提条件の計画アクティビティ
+## <a name="prerequisite-planning-activities"></a>前提条件となる計画アクティビティ
 
 > [!IMPORTANT]
-> アップグレードの実装を進める前に、「 [アップグレードの計画](upgrade-plan-journey.md) 」を参照して、前提条件の計画をすべて完了していることを確認してください。
+> アップグレードの実装を進める前に、すべての前提条件となる計画の有効化を完了するために、[](upgrade-plan-journey.md)アップグレードの計画から始まる計画コンテンツを確認してください。
 
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
-- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
-- [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
+- [プロジェクトの対象範囲を定義した](./upgrade-define-project-scope.md)
+- [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [ユーザーパイロットの計画](pilot-essentials.md)
-- [環境を準備した](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
+- [ユーザー パイロットを計画しました](pilot-essentials.md)
+- [環境を準備した](./upgrade-prepare-environment.md)
+- [組織を準備した](./upgrade-prepare-organization.md)
 
-## <a name="choose-your-upgrade-starting-point"></a>アップグレードの出発点を選ぶ
+## <a name="choose-your-upgrade-starting-point"></a>アップグレードの開始点を選択する
 
-チームにアップグレードを実行するための手順は、Skype for Business の現在の展開によって異なります。
+Teams へのアップグレードを実行する手順は、Skype for Business の現在の展開によって異なります。
 
-現在の環境に基づいて、出発地点を選択します。  
+現在の環境に基づいて、開始点を選択します。  
 
-- **Skype For Business online から teams にアップグレードする場合** は、「 [Skype for Business online から teams にアップグレード](https://aka.ms/SkypeToTeams-UpgradeOnline)する」の手順に従ってください。
+- **Skype for Business Online** から Teams にアップグレードする場合は、「Skype for Business Online から Teams にアップグレードする [」の手順に従います](./upgrade-to-teams-execute-skypeforbusinessonline.md)。
 
--  **Skype For business のオンプレミス環境からアップグレードする場合** は、ユーザーをチームに移行する前に、オンプレミスとオンラインの環境間の接続を設定するための追加の手順を実行する必要があります。 詳細については、「 [Skype For business をオンプレミスから Teams にアップグレードする](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)」を参照してください。
+-  **Skype for Business** オンプレミス環境からアップグレードする場合は、ユーザーを Teams に移動する前に、オンプレミス環境とオンライン環境間の接続をセットアップするための追加の手順を実行する必要があります。 詳細については [、「Skype for Business オンプレミスを Teams にアップグレードする」を参照してください](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)。
 
 
 

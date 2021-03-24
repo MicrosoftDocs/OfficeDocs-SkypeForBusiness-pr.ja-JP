@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限など、エジプトの無料電話番号へのダイヤル方法について説明します。
-ms.openlocfilehash: f2bd76c221b23fa1df5956115a8c6035378c8380
-ms.sourcegitcommit: 7966991c398cd80f6bd0bb21e57a6b2a97c09ea9
+description: エジプトでの無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+ms.openlocfilehash: a324691f3dbda9c594afceea726dd25a08613bb6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49130668"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098143"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>エジプトでのフリーダイヤル制限
 
@@ -51,7 +51,6 @@ ms.locfileid: "49130668"
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
   
- 

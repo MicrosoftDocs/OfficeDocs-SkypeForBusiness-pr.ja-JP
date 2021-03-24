@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: ポート注文の依頼を手動で送信する方法について学習します。
-ms.openlocfilehash: 20596f740be99c32917e56c050cc4cc48281cff8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 92b5754a78cb0949b2788b33000ecbfa5d1f2e53
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802527"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098263"
 ---
 # <a name="manually-submit-a-port-order"></a>手動で番号移行注文を送信する
 
@@ -41,7 +41,7 @@ ms.locfileid: "49802527"
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>番号の移植に関するその他の情報
 
-- 通話プランを使用するには、ライセンスを購入してユーザーに割り当てる必要があります。 [Teams アドオン のライセンスを参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+- 通話プランを使用するには、ライセンスを購入してユーザーに割り当てる必要があります。 [Teams アドオン のライセンスを参照してください](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 - 各ユーザーに、利用可能な新しい電話番号を割り当てる必要があります。 「[ユーザーの電話番号の割り当て、変更、削除を行う](../assign-change-or-remove-a-phone-number-for-a-user.md)」を参照してください。
 

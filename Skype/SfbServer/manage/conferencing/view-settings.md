@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: '概要: Skype for Business Server で会議の構成設定を表示する方法について説明します。'
-ms.openlocfilehash: e30543c566775d38e20e2103c4cc0f41278c1020
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: Skype for Business Server で会議構成設定を表示する方法について説明します。'
+ms.openlocfilehash: 81f5ef1bc0ce28c7741aa99529e7ba107ff4127f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827927"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096703"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で会議の構成設定を表示する
  
-**概要:** Skype for Business Server で会議の構成設定を表示する方法について説明します。
+**概要:** Skype for Business Server で会議構成設定を表示する方法について説明します。
   
-会議の構成設定は、Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して表示できます。
+会議の構成設定は、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して表示できます。
   
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議の構成設定を表示する
 <a name="BKMK_ViewJoinSettings"> </a>
@@ -36,11 +36,11 @@ ms.locfileid: "49827927"
     
 4. [**会議の構成**] ページで、表示する会議構成をクリックします。
     
-5. [ **ファイル フィルターの編集] で**、[詳細の表示 **] チェック ボックス** をオンにします。
+5. [ **ファイル フィルターの編集] で**、[詳細の **表示] チェック ボックス** をオンにします。
     
     **会議の構成の \<policy\> 編集 -** が開き、選択したポリシーの設定が表示されます。
     
-    設定の構成の詳細については、「Skype for Business Server で会議の構成設定を作成する [」を参照してください](create-settings.md)。
+    設定の構成の詳細については [、「Create meeting configuration settings in Skype for Business Server」を参照してください](create-settings.md)。
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議の構成設定を表示する
 <a name="BKMK_ViewJoinSettings"> </a>
@@ -68,6 +68,4 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-パラメーターの完全な一覧を含む詳細については [、「Get-CsMeetingConfiguration」を参照してください](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。
-  
-
+パラメーターの完全な一覧を含む詳細については [、「Get-CsMeetingConfiguration」を参照してください](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)。

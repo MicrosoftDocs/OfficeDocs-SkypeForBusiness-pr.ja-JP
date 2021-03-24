@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cde5b2f04936afdd16eb7d0ff13a03840e6fa49
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
-ms.translationtype: HT
+ms.openlocfilehash: b31ffca29891a903c68614239bacedabc6729d39
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50614953"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098113"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -47,9 +47,9 @@ MSI ファイルへのリンクを次に示します。
 
 - お客様のテナントが GCCH または DoD クラウド上にある場合、お客様は、レジストリの **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** キーに **CloudType** 値を追加して、レジストリの初期エンドポイントを設定する必要があります。 **CloudType** の種類は **DWORD** で、値は (0 = 未設定、1 = 商用、2 = GCC、3 = GCCH、4 = DOD) です。 レジストリ キーを使用してエンドポイントを設定すると、Teams は、Teams との事前サインイン接続のため、正しいクラウド エンドポイントに接続するように制限されます。
 
-- Teams は、Microsoft 365 Apps for enterprise の展開に含まれる場合があります。 詳細については、「[Microsoft 365 Apps for enterprise で Microsoft Teams を展開する](https://docs.microsoft.com/deployoffice/teams-install)」をご覧ください。
+- Teams は、Microsoft 365 Apps for enterprise の展開に含まれる場合があります。 詳細については、「[Microsoft 365 Apps for enterprise で Microsoft Teams を展開する](/deployoffice/teams-install)」をご覧ください。
 
-- Microsoft Endpoint Configuration Manager について詳しくは、「[Configuration Manager とは](https://docs.microsoft.com/configmgr/core/understand/introduction)」を参照してください。
+- Microsoft Endpoint Configuration Manager について詳しくは、「[Configuration Manager とは](/configmgr/core/understand/introduction)」を参照してください。
 
 ## <a name="deployment-procedure-recommended"></a>展開の手順 (推奨)
 
@@ -105,7 +105,7 @@ MSI の既定の動作では、ユーザーがサインインするとすぐに 
 
 Teams がインストールされる前にこのポリシー設定を有効にしていると、ユーザーが Windows にログインしても Teams は自動起動しません。 ユーザーが初めて Teams にサインインすると、次にユーザーがログインしたときに Teams が自動起動するようになります。
 
-詳細については、「[グループ ポリシーを使用してインストール後に Microsoft Teams の自動起動を回避する](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)」を参照してください。
+詳細については、「[グループ ポリシーを使用してインストール後に Microsoft Teams の自動起動を回避する](/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)」を参照してください。
 
 > [!CAUTION]
 > Teams を展開済みで、このポリシー設定で Teams の自動起動を無効にするには、最初にグループ ポリシー設定を必要な値に設定してから、ユーザーごとに [Teams 自動起動リセット スクリプト](scripts/powershell-script-teams-reset-autostart.md)を実行します。

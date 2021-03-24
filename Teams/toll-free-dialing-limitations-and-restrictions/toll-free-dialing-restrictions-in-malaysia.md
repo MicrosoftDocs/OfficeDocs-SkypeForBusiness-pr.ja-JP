@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限など、マレーシアの無料電話番号へのダイヤル方法について説明します。
-ms.openlocfilehash: de80bcf4d33f8aa715584ec7922b97ab3d476eda
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: マレーシアでの無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+ms.openlocfilehash: a3aa7b9c99b42a5a04bb1fc63fcaa83a6f36679e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140336"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097893"
 ---
 # <a name="toll-free-dialing-restrictions-in-malaysia"></a>マレーシアでのフリーダイヤル制限
 
@@ -44,14 +44,13 @@ ms.locfileid: "43140336"
 |対象となる島/地域  <br/> | マレー半島と東マレーシア <br/> |
 |対象外の島/地域  <br/> |該当なし  <br/> |
 |有線/固定回線の状態  <br/> |はい  <br/> |
-|携帯電話ネットワークの状態  <br/> |はい  <br/> |
+|携帯電話ネットワークの状態  <br/> |あり  <br/> |
 |コメント、制限、アクセスの問題など  <br/> |携帯電話アクセス: 通話時間が課金される。  <br/> |
    
 ## <a name="related-topics"></a>関連項目
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
   
- 

@@ -21,12 +21,12 @@ description: Microsoft Teams で緊急通話ルーティング ポリシーを�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: f2e7ce7ee2557745f3819efc84dada77b4a70635
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0fb3a80bf5c1a064435754c4f999f6a62214b021
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804677"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096181"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ルーティング ポリシーを管理する
 
@@ -36,7 +36,7 @@ ms.locfileid: "49804677"
 
 ユーザーの場合は、グローバル (組織全体の既定) ポリシーを使用するか、カスタム ポリシーを作成して割り当てできます。 カスタム ポリシーを作成して割り当てない限り、ユーザーは自動的にグローバル ポリシーを取得します。 グローバル ポリシーの設定は編集できますが、名前の変更や削除はできないので、ご安心ください。 ネットワーク サイトの場合は、カスタム ポリシーを作成して割り当てる必要があります。
 
-ネットワーク サイトとユーザーに緊急通話ルーティング ポリシーを割り当てた場合、そのユーザーがネットワーク サイトに割り当てられている場合、ネットワーク サイトに割り当てられているポリシーは、ユーザーに割り当てられているポリシーを上書きします。
+ネットワーク サイトとユーザーに緊急通話ルーティング ポリシーを割り当てた場合、そのユーザーがネットワーク サイトに割り当てられている場合、ネットワーク サイトに割り当てられたポリシーは、ユーザーに割り当てられているポリシーを上書きします。
 
 ## <a name="create-a-custom-emergency-call-routing-policy"></a>カスタム緊急通話ルーティング ポリシーを作成する
 
@@ -60,7 +60,7 @@ ms.locfileid: "49804677"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[New-CsTeamsEmergencyCallRoutingPolicy を参照してください](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallroutingpolicy)。
+[New-CsTeamsEmergencyCallRoutingPolicy を参照してください](/powershell/module/skype/new-csteamsemergencycallroutingpolicy)。
 
 ## <a name="edit-an-emergency-call-routing-policy"></a>緊急通話ルーティング ポリシーを編集する
 
@@ -74,17 +74,17 @@ ms.locfileid: "49804677"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[「Set-CsTeamsEmergencyCallRoutingPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallroutingpolicy)。
+[「Set-CsTeamsEmergencyCallRoutingPolicy」を参照してください](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)。
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>カスタム緊急通話ルーティング ポリシーをユーザーに割り当てる
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-[Grant-CsTeamsEmergencyCallRoutingPolicy も参照してください](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)。
+[Grant-CsTeamsEmergencyCallRoutingPolicy も参照してください](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)。
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>ネットワーク サイトにカスタム緊急通話ルーティング ポリシーを割り当てる
 
-[Set-CsTenantNetworkSite コマンドレット](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite)を使用して、ネットワーク サイトに緊急通話ルーティング ポリシーを割り当てる。
+[Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite)コマンドレットを使用して、ネットワーク サイトに緊急通話ルーティング ポリシーを割り当てる。
 
 この例では、緊急通話ルーティング ポリシー 1 と呼ばれるポリシーを Site1 サイトに割り当てる方法を示します。
 

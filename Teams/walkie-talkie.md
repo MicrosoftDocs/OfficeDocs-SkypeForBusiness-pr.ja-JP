@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb00501a0c795f754c927dd9ed3bd5114f61fab7
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 90d5135196de9ecf62085e88053d80299b6e5a58
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875047"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097463"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
@@ -88,7 +88,7 @@ Teams のトランシーバーにはインターネット接続が必要であ�
 
 ### <a name="license-requirements"></a>ライセンス要件
 
-トランシーバー アプリは、[Office 365 サブスクリプション](https://docs.microsoft.com/MicrosoftTeams/office-365-licensing)の Teams のすべての有料ライセンスに含まれています。 Teams の入手方法の詳細については、「 [Microsoft Teams へのアクセス方法](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)」を参照してください。
+トランシーバー アプリは、[Office 365 サブスクリプション](/office365/servicedescriptions/teams-service-description)の Teams のすべての有料ライセンスに含まれています。 Teams の入手方法の詳細については、「 [Microsoft Teams へのアクセス方法](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)」を参照してください。
 
 > [!NOTE]
 > 特定の高度な機能には、追加のライセンスが必要な場合があります。 たとえば、Samsung Galaxy XCover Pro との統合には Knox ライセンスが必要です。

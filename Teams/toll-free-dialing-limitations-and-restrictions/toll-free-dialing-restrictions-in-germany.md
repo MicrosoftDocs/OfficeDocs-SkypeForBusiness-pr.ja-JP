@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限を含む、ドイツのフリーダイヤル番号をダイヤルする方法について説明します。
-ms.openlocfilehash: cd1d1f18b15987047dd255616b54620090a405b1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: ドイツでの無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+ms.openlocfilehash: 46ccab7c8172f0b94a7a69d88db5aca7f9fafe87
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140416"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098103"
 ---
 # <a name="toll-free-dialing-restrictions-in-germany"></a>ドイツでのフリーダイヤル制限
 
@@ -51,7 +51,6 @@ ms.locfileid: "43140416"
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
   
- 

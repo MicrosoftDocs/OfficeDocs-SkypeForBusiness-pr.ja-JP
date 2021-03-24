@@ -15,23 +15,21 @@ localization_priority: Normal
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 888367fa7037199baa3567b18213b8e4097e117c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 61aeabe7852395123dbac9bbaa559ae463d301ef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833747"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51095841"
 ---
 # <a name="external-access-policy"></a>外部アクセス ポリシー
 
 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [リモート ユーザー アクセスの管理](https://technet.microsoft.com/library/8f556849-692b-44a0-9514-4468fc9a39d0.aspx)
+- [リモート ユーザー アクセスの管理](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-remote-user-access)
 
-- [フェデレーション ユーザー アクセスを制御するポリシーを構成する](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [フェデレーション ユーザー アクセスを制御するポリシーの構成](/previous-versions/office/lync-server-2013/lync-server-2013-configure-policies-to-control-federated-user-access)
 
-- [IM サービス プロバイダーのユーザーによるアクセスを制御するポリシーを構成する](https://technet.microsoft.com/library/5321598c-1ab1-40e3-b739-4b2e6d0a3a3b.aspx)
+- [IM サービス プロバイダーのユーザーによるアクセスを制御するポリシーの構成](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-public-sip-federated-providers)
 
-- [外部ユーザー アクセス ポリシーのリセットまたは削除](https://technet.microsoft.com/library/5f9b4528-f4f1-4d52-816d-156c3c7298ad.aspx)
-
-
+- [外部ユーザー アクセス ポリシーのリセットまたは削除](/previous-versions/office/lync-server-2013/lync-server-2013-resetting-or-deleting-external-user-access-policies)

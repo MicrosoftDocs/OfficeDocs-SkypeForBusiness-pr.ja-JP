@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Skype for Business から Microsoft Teams へのアップグレードを計画する
-summary: Microsoft Teams は、ユーザーの接続を維持し、シームレスに共同作業を行い、安全で準拠した方法で作業を簡素化するために設計されています。すべて 1 か所で行います。 ここでは、Skype for Business から Teams へのアップグレードを正常に実装するためのガイダンス、トレーニング、リソースを示します。
+summary: Microsoft Teams は、ユーザーの接続を維持し、シームレスに共同作業を行い、安全で準拠した方法で作業を簡素化するために設計されています。すべて 1 か所で行います。 ここでは、Skype for Business から Teams へのアップグレードを成功に導くガイダンス、トレーニング、リソースを示します。
 brand: teams
 metadata:
   title: Skype for Business から Microsoft Teams へのアップグレードを計画する
-  description: Microsoft Teams は、ユーザーの接続を維持し、シームレスに共同作業を行い、安全で準拠した方法で作業を簡素化するために設計されています。すべて 1 か所で行います。 ここでは、Skype for Business から Teams へのアップグレードを正常に実装するためのガイダンス、トレーニング、リソースを示します。
+  description: Microsoft Teams は、ユーザーの接続を維持し、シームレスに共同作業を行い、安全で準拠した方法で作業を簡素化するために設計されています。すべて 1 か所で行います。 ここでは、Skype for Business から Teams へのアップグレードを成功に導くガイダンス、トレーニング、リソースを示します。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -22,20 +22,20 @@ metadata:
   search.appverid: MET150
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 74cc8ce21951f3ec6aaca032f92cd1280392e992
-  ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+  ms.openlocfilehash: ffcafd40419de2c467370fed311ff94bd71bf04d
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/12/2021
-  ms.locfileid: "50196201"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51096061"
 highlightedContent:
   items:
-  - title: 実績のあるガイダンスを活用してアップグレードを成功に導く
+  - title: アップグレードを成功に導く実績のあるガイダンスを活用する
     itemType: how-to-guide
-    url: https://docs.microsoft.com/microsoftteams/upgrade-framework
+    url: ./upgrade-framework.md
   - title: 無料のアップグレード計画ワークショップに登録する
     itemType: learn
-    url: https://aka.ms/upgradeworkshops
+    url: ./upgrade-workshops-landing-page.yml
   - title: Black & Veatch が 8 週間で Teams に移行する方法について学習する
     itemType: video
     url: https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk
@@ -69,19 +69,19 @@ productDirectory:
   - title: Teams 管理者ドキュメント
     imageSrc: https://docs.microsoft.com/office/media/icons/document-teams.svg
     summary: Teams を展開して管理する方法と、新しいコミュニケーションと共同作業のエクスペリエンスのためにユーザーを準備する方法について学習します。
-    url: https://docs.microsoft.com/MicrosoftTeams/
+    url: ./index.yml
   - title: インストラクター主導の Teams のトレーニング
     imageSrc: https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg
     summary: Teams を使い始め、実行するために設計された無料のライブ オンライン トレーニング クラス。
-    url: https://docs.microsoft.com/microsoftteams/instructor-led-training-teams-landing-page
+    url: ./instructor-led-training-teams-landing-page.yml
   - title: Teams のシナリオを展開する
     imageSrc: https://docs.microsoft.com/office/media/icons/best-practices-teams.svg
     summary: Teams のスプレイグ トーク オンライン ワークショップは、IT のプロが Teams を最も利用するのに役立ちます。
-    url: http://aka.ms/TeamsChalkTalks
+    url: ./chalk-talks-landing-page.yml
   - title: Skype for Business Online のサポート終了
     imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
     summary: 2021 年 7 月 31 日に Skype for Business Online サービスが終了する準備をし、Teams への移行を成功に向けて計画する方法について学習します。
-    url: https://docs.microsoft.com/microsoftteams/skype-for-business-online-retirement
+    url: ./skype-for-business-online-retirement.md
   - title: Microsoft Teams のブログ
     imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
     summary: Microsoft Teams の背後にあるチームから、ベスト プラクティス、ニュース、傾向について直接学習します。

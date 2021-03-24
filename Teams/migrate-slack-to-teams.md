@@ -18,12 +18,12 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Slack から Microsoft Teams への移行に関する詳細なガイダンス。
-ms.openlocfilehash: 8b4fc90cde4bb438eee421459cf2c26672555b09
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: b1e04a0dc8c829ed938b925e498e2716529356f9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49030643"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098363"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack から Microsoft Teams に移行する
 
@@ -89,7 +89,7 @@ Slack で使用してきた ID スキームは、Microsoft 365 または Office 
 
 有料版 Slack のサービス プランを使用している場合は、*<your Slack workspace>.slack.com/admin/stats#members* にアクセスして各ユーザーのメール アドレスやアカウントの種類 (例: シングル チャンネル ゲスト、マルチ チャンネル ゲスト) などのメンバーの詳細情報を取得できます。
 
-下に示すスクリプトは、Slack のエクスポートからのメール アドレスを Azure AD と比較することで名前のあいまいさを解消するために使用できます。 このスクリプトでは、ユーザーが Teams に対して有効化されているかどうかも報告されます。 PowerShell のサポートが必要な場合は、「[Azure PowerShell コマンドレットを使う](https://docs.microsoft.com/powershell/azure/get-started-azureps)」を参照してください。
+下に示すスクリプトは、Slack のエクスポートからのメール アドレスを Azure AD と比較することで名前のあいまいさを解消するために使用できます。 このスクリプトでは、ユーザーが Teams に対して有効化されているかどうかも報告されます。 PowerShell のサポートが必要な場合は、「[Azure PowerShell コマンドレットを使う](/powershell/azure/get-started-azureps)」を参照してください。
 
 ```azurepowershell
 Connect-AzureAD
@@ -212,7 +212,7 @@ Slack ワークスペースは、1 つのチーム、複数のチーム、また
 
 Slack に保存されているファイルの場合、チームおよびチャネルのセットアップを Teams で完了すると、プログラムを使用してこれらのファイルを Slack からターゲットの Teams のチャネルにコピーできます。
 
-次のスクリプトでは、Slack からファイルを取得します。 コンピューター上の指定された Slack のエクスポートが検索され、各ターゲット チャネルにフォルダーが作成され、すべてのファイルがその場所にダウンロードされます。 データを抽出できるサードパーティのソリューションがあります。 PowerShell のサポートが必要な場合は、「[Azure PowerShell コマンドレットを使う](https://docs.microsoft.com/powershell/azure/get-started-azureps)」を参照してください。
+次のスクリプトでは、Slack からファイルを取得します。 コンピューター上の指定された Slack のエクスポートが検索され、各ターゲット チャネルにフォルダーが作成され、すべてのファイルがその場所にダウンロードされます。 データを抽出できるサードパーティのソリューションがあります。 PowerShell のサポートが必要な場合は、「[Azure PowerShell コマンドレットを使う](/powershell/azure/get-started-azureps)」を参照してください。
 
 
 
@@ -361,7 +361,7 @@ Teams に追加するアプリを特定するには、アプリの使用状況�
 
 チームとチャネルを作成したら、Slack チャンネルから Teams へのファイルのコピーとアプリの構成を開始します。 履歴を保持するソリューションを使用する場合、それもこの段階で構成できます。 これで、ユーザーへのライセンスの付与 (まだライセンスを付与していない場合) と正しいチームへのユーザーの追加を開始する準備ができました。 追加のエクスポートやファイルのコピーをせずに済むよう、あらかじめ決められた日に、各ユーザーをチームへ追加するのと同時に Slack へのアクセスを削除することを検討してください。 これにより、ファイルや履歴の差分変更の再エクスポートとインポートが不要になります。
 
-下の図の手順に従って、組織で Teams を展開します。 詳細については、「[Teams の展開方法](How-to-roll-out-teams.md)」を参照してください。
+下の図の手順に従って、組織で Teams を展開します。 詳細については、「[Teams の展開方法](./deploy-overview.md)」を参照してください。
 
 
 :::image type="content" source="media/migrate-slack-to-teams-image4.png" alt-text="Slack から Teams への移行手順を示す図":::

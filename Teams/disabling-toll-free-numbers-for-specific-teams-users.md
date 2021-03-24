@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 電話会議のブリッジ会議で、開催者が無料電話番号を使用する方法を制御する方法について説明します。
-ms.openlocfilehash: 517ffea6a15cd625320f33e3eb4911f4a250d51d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+description: 開催者が電話会議ブリッジ会議で無料電話番号を使用する方法を制御する方法について説明します。
+ms.openlocfilehash: f9ab09396778b221ad7f5c016dbf7db76fcba030
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904572"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096347"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>特定の Teams ユーザーの無料電話番号を無効にする
 
@@ -47,7 +47,7 @@ ms.locfileid: "43904572"
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーの無料電話番号を無効にする 
 
-**Microsoft Teams 管理センター**から次の操作を行います。
+**Microsoft Teams 管理センター** から次の操作を行います。
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -63,4 +63,4 @@ ms.locfileid: "43904572"
  
 **PowerShell を使用する場合**  
 
-詳細については、[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)をご覧ください。
+詳細については、[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)をご覧ください。

@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 利用可能時間、有線/固定回線、携帯電話ネットワークの可用性、制限など、台湾の無料電話番号へのダイヤル方法について説明します。
-ms.openlocfilehash: c1033f405931435e16d0e8a54ddedf95e201cce8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 台湾での無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+ms.openlocfilehash: 81a5afeb80316454b816f2803c2beb440d80a301
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139786"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097663"
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>台湾でのフリーダイヤル制限
 
@@ -40,18 +40,17 @@ ms.locfileid: "43139786"
 |:-----|:-----|
 |フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> |00 801 XXX XXX  <br/> |
-|国/地域の ISO コード  <br/> |MS  <br/> |
+|国/地域の ISO コード  <br/> |TW  <br/> |
 |対象となる島/地域  <br/> |該当なし  <br/> |
 |対象外の島/地域  <br/> |該当なし  <br/> |
-|有線/固定回線の状態  <br/> | ITFS: KG 通信 = いいえ <br/> |
+|有線/固定回線の状態  <br/> | ITFS:KG Telecom = NO <br/> |
 |携帯電話ネットワークの状態  <br/> |部分的。コメント参照。  <br/> |
-|コメント、制限、アクセスの問題など  <br/> |KG 通信から携帯にアクセスすることはできません。 携帯電話アクセス: 通話時間は課金されない。 モバイルアクセスの場合: KG 通信以外のすべてのモバイルネットワークからのアクセス。  <br/> |
+|コメント、制限、アクセスの問題など  <br/> |KG Telecom からのワイヤーライン アクセスはありません。 携帯電話アクセス: 通話時間は課金されない。 モバイル アクセスの場合: KG Telecom を除くすべてのモバイル ネットワークからのアクセス。  <br/> |
    
 ## <a name="related-topics"></a>関連項目
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
   
- 

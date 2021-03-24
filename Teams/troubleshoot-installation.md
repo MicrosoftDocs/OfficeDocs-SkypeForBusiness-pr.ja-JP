@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Windows の Teams デスクトップ クライアント アプリのインストールと更新に関する問題をトラブルシューティングする方法について説明します。
-ms.openlocfilehash: 4183a04458147e63f8168f703bf16682b3bea9e0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 283b1818789624428aa772a4d71360a07eed6f00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804557"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51097553"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows での Microsoft Teams のインストールと更新に関する問題のトラブルシューティング
 
@@ -67,7 +67,7 @@ SquirrelTemp.log または Logs.txt には、根本的な原因を特定する�
 
 ## <a name="collect-and-analyze-application-and-system-logs"></a>アプリケーションおよびシステム ログの収集と分析
 
-このセクションでは、アプリケーションとシステムのログを収集して分析し、問題のトラブルシューティングを行うためのより包括的な情報を取得する方法について説明します。 Sysinternals ツールを使用して、これらの手順を完了します。 詳細については、「[Windows Sysinternals](https://docs.microsoft.com/sysinternals/)」を参照してください。
+このセクションでは、アプリケーションとシステムのログを収集して分析し、問題のトラブルシューティングを行うためのより包括的な情報を取得する方法について説明します。 Sysinternals ツールを使用して、これらの手順を完了します。 詳細については、「[Windows Sysinternals](/sysinternals/)」を参照してください。
 
 ### <a name="collect-logs"></a>ログを収集する
 
@@ -123,7 +123,7 @@ Teams は自身を新しいバージョンに更新する必要があると判�
 - これが発生している問題であることを確認するために、Teams を終了します (タスクバーの [Teams] を右クリックし、[**終了**] をクリックします)。 次に、Windows のタスク マネージャーを開いて、Teams インスタンスがまだ実行中であるかどうかを確認します。  
 - この問題が発生しているコンピューターを使用していない場合は、この問題が発生しているコンピューターから収集された SquirrelTemp.log を調べ、"Program: Unable to terminate the process in the log" というエントリを探します。
 - Teams.exe の終了を妨げている原因を特定するには、Dlls.txt および Handles.txt ログを確認します。 これらは、Teams の終了を妨げたプロセスを示しています。
-- Teams の終了を妨げる可能性のあるもう 1 つの原因は、カーネル モードのファイル システム フィルター ドライバーです。 SysInternals ツールの [ProcDump](https://docs.microsoft.com/sysinternals/downloads/procdump) を使用して、```procdump -mk <pid>``` を実行して、カーネル モード プロセス ダンプを収集します。ここで、<pid> はタスク マネージャーから取得したプロセス ID です。 Driverquery.txt ログファイルを調べて、Teams に干渉する可能性のあるアクティブなフィルター ドライバーを確認することもできます。
+- Teams の終了を妨げる可能性のあるもう 1 つの原因は、カーネル モードのファイル システム フィルター ドライバーです。 SysInternals ツールの [ProcDump](/sysinternals/downloads/procdump) を使用して、```procdump -mk <pid>``` を実行して、カーネル モード プロセス ダンプを収集します。ここで、<pid> はタスク マネージャーから取得したプロセス ID です。 Driverquery.txt ログファイルを調べて、Teams に干渉する可能性のあるアクティブなフィルター ドライバーを確認することもできます。
 - この状態から回復するには、コンピューターを再起動します。
 
 #### <a name="file-permissions"></a>ファイルのアクセス許可
@@ -141,17 +141,17 @@ Teams がファイルに書き込めないため、アクセスが拒否され�
 トラブルシューティングのヒント:
 
 - SquirrelTemp.log または Logs.txt で「アクセスが拒否されました」の証拠を探します。 これらのファイルを確認して、失敗したファイルへの書き込みが試みられているかどうかを確認します。
-- Icacls.txt を開き、管理者以外のユーザーによる書き込み操作をブロックする効果的なアクセス制御エントリ (ACE) を探します。通常は、DACL エントリのいずれかになります。 詳細については、[icacls のドキュメント](https://docs.microsoft.com/windows-server/administration/windows-commands/icacls)を参照してください。
+- Icacls.txt を開き、管理者以外のユーザーによる書き込み操作をブロックする効果的なアクセス制御エントリ (ACE) を探します。通常は、DACL エントリのいずれかになります。 詳細については、[icacls のドキュメント](/windows-server/administration/windows-commands/icacls)を参照してください。
 
 #### <a name="file-corrupted"></a>ファイルの破損
 
 場合によっては、暗号化ソフトウェアが %LocalAppData%\Microsoft\Teams フォルダー内のファイルを変更する可能性があり、これにより Teams が起動できなくなる可能性があります。 アプリが更新されていないときでも、いつでも発生する可能性があります。 残念ながら、ファイルが破損している場合、この状態から回復する唯一の方法は、Teams をアンインストールして再インストールすることです。
 
 > [!NOTE]
-> これらの手順のいずれかを使用しても問題の根本的な原因を特定できない場合は、[プロセス モニター](https://docs.microsoft.com/sysinternals/downloads/procmon) セッションを試すことをお勧めします。 プロセス モニターは、レジストリやファイルシステムへのアクセスを記録する Sysinternals ツールです。
+> これらの手順のいずれかを使用しても問題の根本的な原因を特定できない場合は、[プロセス モニター](/sysinternals/downloads/procmon) セッションを試すことをお勧めします。 プロセス モニターは、レジストリやファイルシステムへのアクセスを記録する Sysinternals ツールです。
 
 ## <a name="related-topics"></a>関連項目
 
 - [Teams のクライアントを取得する](get-clients.md)
 - [Teams クライアントの更新プログラム](teams-client-update.md)
-- [Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+- [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

@@ -22,16 +22,16 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Teams の自動応答と通話キューのダイヤルと音声認識のオプションについて説明します。
-ms.openlocfilehash: 1cb8da2d2e6625de5a1471d1051c1ca51f11bbae
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: f62a04735d386637489d52956e6a064a2eba1e4e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918963"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098443"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自動応答と通話キューのダイヤルと音声認識リファレンス
 
-名前でダイヤルは、ディレクトリ検索とも呼ばれる自動応答の機能です。 これにより、自動応答を呼び出すユーザーは、音声 (音声認識) または電話機のキーパッド (DTMF) 応答を使用して、会社のディレクトリを検索し、その人を特定し、通話を転送することができます。 自動応答でコール フロー設定を構成する場合 [は、名前でダイヤルを設定します](create-a-phone-system-auto-attendant.md#call-flow)。
+名前でダイヤルは、ディレクトリ検索とも呼ばれる自動応答の機能です。 これにより、自動応答を呼び出すユーザーは、音声 (音声認識) または電話機のキーパッド (DTMF) 応答を使用して、会社のディレクトリを検索し、その人を見つけ、通話を転送する完全または部分的な名前を入力できます。 自動応答でコール フロー設定を構成する場合 [は、名前でダイヤルを設定します](create-a-phone-system-auto-attendant.md#call-flow)。
 
 ## <a name="searching-for-users"></a>ユーザーの検索
 
@@ -52,7 +52,7 @@ ms.locfileid: "49918963"
 > 音声認識で名前でダイヤルを使用しているが、組織の Active Directory が 80,000 を超えるユーザーであり、ダイヤルスコープ機能を使用して名前でダイヤルの範囲を制限していない場合、名前でダイヤルは電話機のキーパッドを使用する発信者に対して引き続き機能し、音声入力は他のすべてのシナリオで使用できます。 ダイヤル範囲機能を使用して、名前でダイヤル機能の範囲を変更することによってアクセスできる名前を、特定の自動応答に絞り込むことができます。
   
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>名前でダイヤル - キーパッド (DTMF) 入力
-発信元のユーザーは、名前でダイヤルを使用して、到達しようとしているユーザーの氏名または一部を指定して、ユーザーに到達できます。 名前を入力するときに使用できるさまざまな形式があります。
+発信元のユーザーは、名前でダイヤルを使用して、到達しようとしているユーザーの完全な名前または一部を指定して、ユーザーに到達できます。 名前を入力するときに使用できるさまざまな形式があります。
 
 組織のディレクトリを検索するときに、ユーザーは '0' (ゼロ) キーを使用して、名と名または名の間と名の間のスペースを示します。 名前を入力すると、キーパッドのエントリを # キーで終了する必要があります。 たとえば、"到達しようとしているユーザーの名前を入力した後、#キーを押します"。 複数の名前が見つかった場合、通話相手には選択する名前の一覧が表示されます。
   
@@ -115,7 +115,7 @@ ms.locfileid: "49918963"
 |英語 (CA)  |イタリア語 (IT) |スペイン語 (MX)|
 |英語 (IN)  |日本語 (JP) |スウェーデン語 (SV)|
 
-自動応答の音声認識入力は、次の言語で使用できます。
+自動応答の音声認識入力は、次の言語で利用できます。
   
 |-|-|
 |:-----|:-----|
@@ -131,7 +131,7 @@ ms.locfileid: "49918963"
   
 |音声コマンド| 対応 |
 |:-----|:-----|
-|はい | [はい] の場合は 1 を押します。 |
+|はい | 1 キーを押すとはい。 |
 |いいえ | [いいえ] の場合は 2 キーを押します。 |
 |繰り返し |オプションの一覧を繰り返します。 キーパッドの * キーを押して、オプションの一覧を繰り返します。 |
 |オペレーター | "演算子" の場合は 0 キーを押す |
@@ -151,6 +151,6 @@ ms.locfileid: "49918963"
 
 [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](./getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

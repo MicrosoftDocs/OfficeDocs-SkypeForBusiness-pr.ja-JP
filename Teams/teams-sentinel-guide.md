@@ -19,26 +19,26 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f13cdd1d62a31178f7aed922b3bc55b87cd59db
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701235"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51098183"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel および Microsoft Teams
 
 Teams は、Microsoft 365 クラウドでの通信とデータ共有の両方の中心的な役割を担います。 Teams サービスはクラウド内の多くの基になっているテクノロジを使用しているので、*ログの捜索* を行う場合だけではなく *会議をリアルタイムで監視* する場合も手動分析および自動分析を利用することができます。 Azure Sentinel は、管理者に次のようなソリューションを提案します。
 
 > [!NOTE]
-> Azure Sentinel の概要 [この記事](https://docs.microsoft.com/azure/sentinel/overview) は、まさにその通りです。
+> Azure Sentinel の概要 [この記事](/azure/sentinel/overview) は、まさにその通りです。
 
 ## <a name="sentinel-and-microsoft-teams-activity-logs"></a>Sentinel および Microsoft Teams のアクティビティ ログ
 
 この記事では、Azure Sentinel でチーム アクティビティ ログを収集する方法について説明します。 管理者は、Sentinel のワークブックおよびランブックがセキュリティ監視を体系的に行うことで、セキュリティ管理を一枚のガラスの下に置くことができます （選択したサード パーティ製のデバイス、Microsoft Threat Protection、およびその他の Microsoft 365ワークロードを含む）。 このプロセスの最初の手順として、分析に必要なログを収集します。
 
 > [!NOTE]
-> 複数の Microsoft 365 サブスクリプションは、Azure Sentinel の同じインスタンスに表示できます。 これにより、[リアルタイム監視](https://docs.microsoft.com/azure/sentinel/livestream) および履歴ログ ファイルでの脅威の検索ができるようになります。 管理者は、1つのリソース グループ内もしくはリソース グループ間、または別のサブスクリプションで、[クロス リソース クエリ](https://docs.microsoft.com/azure/azure-monitor/log-query/cross-workspace-query) を使用して検索できます。
+> 複数の Microsoft 365 サブスクリプションは、Azure Sentinel の同じインスタンスに表示できます。 これにより、[リアルタイム監視](/azure/sentinel/livestream) および履歴ログ ファイルでの脅威の検索ができるようになります。 管理者は、1つのリソース グループ内もしくはリソース グループ間、または別のサブスクリプションで、[クロス リソース クエリ](/azure/azure-monitor/log-query/cross-workspace-query) を使用して検索できます。
 
 ## <a name="step-1-collect-teams-logs"></a>ステップ 1: チームログを収集する
 
@@ -50,7 +50,7 @@ Teams は、Microsoft 365 クラウドでの通信とデータ共有の両方の
 
 ### <a name="enable-audit-logs-in-m365"></a>M365 で監査ログを有効にする
 
-Teams は M365 経由でアクティビティを記録するため、監査ログは既定では収集されません。 この機能を有効にするには、[次の手順](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0) を経由します。 Teams のデータは、*Audit.General* 下の M365 audit に収集されます。
+Teams は M365 経由でアクティビティを記録するため、監査ログは既定では収集されません。 この機能を有効にするには、[次の手順](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0) を経由します。 Teams のデータは、*Audit.General* 下の M365 audit に収集されます。
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>ログ収集用 Microsoft Azure にアプリを登録する
 
@@ -201,7 +201,7 @@ TeamsData
 ```
 
 > [!TIP]
-> Teams における外部アクセスおよびゲスト アクセスの種類の詳細については、[この記事](https://docs.microsoft.com/microsoftteams/communicate-with-users-from-other-organizations) または [Teams セキュリティ ガイド](https://docs.microsoft.com/microsoftteams/teams-security-guide) の *参加者の種類* セクションを参照してください。
+> Teams における外部アクセスおよびゲスト アクセスの種類の詳細については、[この記事](./communicate-with-users-from-other-organizations.md) または [Teams セキュリティ ガイド](./teams-security-guide.md) の *参加者の種類* セクションを参照してください。
 
 #### <a name="who-recently-joined--whose-role-changed"></a>最近参加した、または役割を変更したユーザー
 
@@ -437,8 +437,8 @@ SigninLogs
 
 **Pete Bryan、Nicholas DiCola、および Matthew Lowe によるコンテンツの共同作業に感謝します。** Pete Bryan や共同作業を行っているユーザーは、チームの検出や検索のクエリを引き続き開発します。そのため、この [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) リポジトリで更新プログラムをチェックできます。  この記事で使用している [パーサー](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt) および [ロジック アプリ](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data) の更新プログラムを監視します。 [Azure Sentinel コミュニティ](https://github.com/Azure/Azure-Sentinel/wiki) に参加して投稿することもできます。 ご協力ありがとうございます。 良い検索を。
 
-[Azure AD でアプリケーションを登録する](https://docs.microsoft.com/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[Azure AD でアプリケーションを登録する](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[監査ログ検索を有効または無効にする](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%C2%A0)
+[監査ログ検索を有効または無効にする](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0)
 
-[Azure Sentinel とは](https://docs.microsoft.com/azure/sentinel/overview)
+[Azure Sentinel とは](/azure/sentinel/overview)

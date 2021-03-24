@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: '概要: Skype for Business Server でダイヤルイン会議をテストする方法について説明します。'
-ms.openlocfilehash: 214ec05c49072825e6a8744cb92db66d864e3d34
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: be1cf5bba5a5bec2076f78880343582be19eda70
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827937"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51096733"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でのダイヤルイン会議のテスト
  
 **概要:** Skype for Business Server でダイヤルイン会議をテストする方法について説明します。
   
-ダイヤルイン会議構成の最後の確認作業として、どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランやダイヤルイン会議の地域が指定されていないアクセス番号を検索します。 また、ダイヤルイン会議の設定 Web ページとダイヤルイン アクセス番号が正しく機能する必要があります。
+ダイヤルイン会議構成の最後の確認作業として、どのアクセス番号も使用しないダイヤルイン会議の地域があるダイヤル プランやダイヤルイン会議の地域が指定されていないアクセス番号を検索します。 また、ダイヤルイン会議の設定 Web ページとダイヤルイン アクセス番号が正しく機能するように確認する必要があります。
   
 ## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>アクセス番号で使用されないダイヤルイン会議地域のダイヤル プランを検索する
 
 1. RTCUniversalServerAdmins グループのメンバーか、Cs-ServerAdministrator または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。
     
-2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理シェル**] をクリックします。
+2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
@@ -39,13 +39,13 @@ ms.locfileid: "49827937"
 
     このコマンドレットは、どのアクセス番号も使用していないダイヤルイン会議の地域がある、すべてのダイヤル プランを返します。
     
-詳細については [、「Get-CsDialInConferencingAccessNumber」を参照してください](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+詳細については [、「Get-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>地域が割り当てられていないアクセス番号を検索する
 
 1. RTCUniversalServerAdmins グループのメンバーか、Cs-ServerAdministrator または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。
     
-2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理シェル**] をクリックします。
+2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
@@ -55,9 +55,9 @@ ms.locfileid: "49827937"
 
     このコマンドレットは、地域に関連付けられていないダイヤルイン会議のアクセス番号をすべて返します。
     
-詳細については [、「Get-CsDialInConferencingAccessNumber」を参照してください](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
+詳細については [、「Get-CsDialInConferencingAccessNumber」を参照してください](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps)。
   
-## <a name="test-webpage-and-access-numbers"></a>Web ページとアクセス番号をテストする
+## <a name="test-webpage-and-access-numbers"></a>Web ページとアクセス番号のテスト
 
 ダイヤルイン会議の設定の Web ページとダイヤルイン アクセス番号が正しく動作していることを確認するには、以下を実行する必要があります。
   
@@ -69,7 +69,7 @@ ms.locfileid: "49827937"
 
 1. RTCUniversalServerAdmins グループのメンバーか、Cs-ServerAdministrator または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。
     
-2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理シェル**] をクリックします。
+2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
     
 3. コマンド プロンプトで次のコマンドを実行します。
     
@@ -80,8 +80,6 @@ ms.locfileid: "49827937"
    Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
    ```
 
-    結果レポートに、コマンドの成否と特定の診断情報が表示されます。 -Verbose フラグは、検出されたアクセス番号の数と、その詳細に関する詳細情報を提供します。
+    結果レポートに、コマンドの成否と特定の診断情報が表示されます。 Verbose フラグは、検出されたアクセス番号の数とアクセス番号に関する詳細な情報を提供します。
     
-詳細については [、「Test-CsDialInConferencing」を参照してください](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。
-  
-
+詳細については [、「Test-CsDialInConferencing」を参照してください](/powershell/module/skype/test-csdialinconferencing?view=skype-ps)。
