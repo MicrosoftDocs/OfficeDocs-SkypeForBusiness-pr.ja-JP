@@ -1,19 +1,19 @@
 ### YamlMime:Hub
-title: Microsoft 365 ビジネスボイスドキュメント
+title: Microsoft 365 Business Voice ドキュメント
 summary: 組織で Microsoft 365 企業向け音声を計画、セットアップ、使用する方法について説明します。 企業向け音声により、中小規模の組織では、社内ソリューションの費用負担と複雑性なく、パワフルで柔軟性の高い電話システムを簡単にセットアップすることができます。
 metadata:
-  title: Microsoft 365 ビジネスボイスドキュメント
+  title: Microsoft 365 Business Voice ドキュメント
   description: Microsoft 365 企業向け音声を計画、展開、使用する方法について説明します。
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
   ms.date: 06/17/2020
-  ms.openlocfilehash: f810d9249b979b7059811d54161d8d65641f14e3
-  ms.sourcegitcommit: 27fb021e46d775652a99d862b19d94f3fc020594
+  ms.openlocfilehash: 6cf78bac0d7fafee768641120116f8397b8566c8
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 08/17/2020
-  ms.locfileid: "46778115"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51102953"
 productDirectory:
   items:
   - title: 確認
@@ -22,13 +22,13 @@ productDirectory:
     - url: whats-business-voice.md
       text: 企業向け音声とは
     - url: https://www.microsoft.com/microsoft-365/business-voice
-      text: Microsoft 365 企業向け音声
-    - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description
+      text: Microsoft 365 Business Voice
+    - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
       text: サービスの説明
   - title: セットアップ
     imageSrc: https://docs.microsoft.com/office/media/icons/deploy-blue.svg
     links:
-    - url: https://docs.microsoft.com/microsoftteams/business-voice/what-to-buy
+    - url: ./what-to-buy.md
       text: 企業向け音声を取得する方法
     - url: get-ready-internet.md
       text: インターネット接続を確認する
@@ -41,11 +41,11 @@ productDirectory:
     links:
     - url: port-phone-numbers.md
       text: 既存の電話番号をポートする
-    - url: set-up-auto-attendants.md
+    - url: ./create-a-phone-system-auto-attendant-smb.md
       text: 自動応答をセットアップする
     - url: set-up-policies.md
       text: ポリシーを設定する
-    - url: set-up-call-queues.md
+    - url: ./create-a-phone-system-call-queue-smb.md
       text: 通話キューを設定する
   - title: 使用
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
@@ -61,7 +61,7 @@ productDirectory:
   - title: パートナー向けリソース
     imageSrc: https://docs.microsoft.com/office/media/icons/success-blue.svg
     links:
-    - url: https://docs.microsoft.com/partner-center/
+    - url: /partner-center/
       text: パートナー センターから Microsoft 365 Business を取得する
     - url: https://www.microsoft.com/microsoft-365/partners/businessvoice
       text: パートナー用の Microsoft 365 企業向け音声
@@ -77,11 +77,11 @@ productDirectory:
   - title: ヘルプ ドキュメント
     imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
     links:
-    - url: /microsoftteams/cloud-voice-landing-page
+    - url: ../cloud-voice-landing-page.md
       text: Microsoft Teams 管理者向けドキュメント
     - url: https://microsoftteams.uservoice.com/
       text: Microsoft Teams UserVoice のフィードバック
     - url: https://support.office.com/teams
       text: Microsoft Teams クライアント向けドキュメント
-    - url: https://docs.microsoft.com/office365/admin/
+    - url: /office365/admin/
       text: Microsoft 365 および Office 365 の管理者向けドキュメント
