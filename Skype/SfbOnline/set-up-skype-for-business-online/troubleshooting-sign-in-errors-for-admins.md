@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Skype for Business Online のサインイン エラーの一般的な原因およびこれらの問題を解決する方法について説明します。 '
-ms.openlocfilehash: ae5c2e5eb85ea7afb3033e7e6b769a607ab86601
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164326"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51103843"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Skype for Business Online サインイン エラーのトラブルシューティング (管理者用)
 
@@ -61,7 +61,7 @@ Skype for Business Online のサインイン エラーのトラブルシュー�
 
 | **考えられる原因**                                                                                                                                                    | **解決策**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| サインイン時に、次のメッセージを含むダイアログ ボックスが表示される: "** はサインイン アドレスに対してサーバーが信頼されているかどうかを検証できません。接続しますか?**" <br/> | ダイアログ ボックスに示されたドメイン名が、 **domainName.contoso.com** などのように自分の組織の信頼できるサーバーであることを確認します。 [**このサーバーを常に信頼する**] チェック ボックスをオンにしてから [**接続**] をクリックするようにユーザーに依頼します。 <br/> エンタープライズのお客様は、ユーザーの各コンピューターで Windows のレジストリを変更すると、ユーザーが最初にサインインするときにこのメッセージが表示されないようにできます。 詳細については、「[TrustModelData レジストリ キーを変更する](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) 」を参照してください。<br/> |
+| サインイン時に、次のメッセージを含むダイアログ ボックスが表示される: "**はサインイン アドレスに対してサーバーが信頼されているかどうかを検証できません。接続しますか?**" <br/> | ダイアログ ボックスに示されたドメイン名が、 **domainName.contoso.com** などのように自分の組織の信頼できるサーバーであることを確認します。 [**このサーバーを常に信頼する**] チェック ボックスをオンにしてから [**接続**] をクリックするようにユーザーに依頼します。 <br/> エンタープライズのお客様は、ユーザーの各コンピューターで Windows のレジストリを変更すると、ユーザーが最初にサインインするときにこのメッセージが表示されないようにできます。 詳細については、「[TrustModelData レジストリ キーを変更する](troubleshooting-sign-in-errors-for-admins.md#modify-trustmodeldata-registry) 」を参照してください。<br/> |
 | サインイン アドレス、ユーザー名、またはパスワードの誤入力  <br/>                                                                                                               | ユーザーのサインイン名とパスワードが正しいことを確認します。 <br/>  ユーザーのサインイン名が次のような形式になっていることを確認します: <strong>bobk@contoso.com</strong>。 これは、組織のネットワークにサインインする際に使用する形式とは異なる場合があります。  <br/>  もう一度サインインするようユーザーに依頼します。 <br/>                                                                                                                                                                                                                             |
 | パスワードを忘れた場合  <br/>                                                                                                                                             | ユーザーのパスワードをリセットし、新しい一時的なパスワードをユーザーに通知します。  <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Skype for Business Online を使用するためのライセンスが割り当てられていない  <br/>                                                                                                                  | ユーザーが Skype for Business Online ユーザーとして登録されていることを確認します。 登録されていない場合は、ユーザーを登録し、もう一度サインインするようユーザーに依頼します。  <br/>                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -170,19 +170,19 @@ Active Domain Federation Services (ADFS) サーバーにサード パーティ�
 
 2. 必要に応じて、フォルダーの表示オプション [**非表示のファイルを表示する**] を有効にします。
 
-3. エクスプローラーのアドレス バーに次のように入力します。 **C:\\Documents and Settings\\<ユーザー名>\\Application Data\\Microsoft\\Crypto\\RSA**。***<ユーザー名>*** は Windows のサインイン名です。
+3. エクスプローラーのアドレス バーに次のように入力します。**C:\\Documents and Settings\\<ユーザー名>\\Application Data\\Microsoft\\Crypto\\RSA**。**_<ユーザー名>_** は Windows のサインイン名です。
 
-4. **S-1-5-21- **という名前で始まり、後ろに数字のストリングが続くフォルダーを削除します。
+4. **S-1-5-21-** という名前で始まり、後ろに数字のストリングが続くフォルダーを削除します。
 
 ### <a name="modify-trustmodeldata-registry-keys"></a>TrustModelData レジストリ キーを変更する
 <a name="modify-trustmodeldata-registry"> </a>
 
-ユーザーが最初にサインインしたとき、次のようなメッセージを含むダイアログ ボックスが表示される場合があります: "** はサインイン アドレスに対してサーバーが信頼されているかどうかを検証できません。接続しますか?**" これはセキュリティ機能であり、エラーではありません。 ただし、ユーザーが初めてサインインする前にグループ ポリシー オブジェクト (GPO) を使用してユーザーのコンピューターのドメイン名を更新すると、このダイアログ ボックスが表示されないようにすることができます。 これを実行するには、次の操作を行います。
+ユーザーが最初にサインインしたとき、次のようなメッセージを含むダイアログ ボックスが表示される場合があります: "**はサインイン アドレスに対してサーバーが信頼されているかどうかを検証できません。接続しますか?**" これはセキュリティ機能であり、エラーではありません。 ただし、ユーザーが初めてサインインする前にグループ ポリシー オブジェクト (GPO) を使用してユーザーのコンピューターのドメイン名を更新すると、このダイアログ ボックスが表示されないようにすることができます。 これを実行するには、次の操作を行います。
 
 - Skype for Business のドメイン名 (例: domainName.contoso.com) を HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Communicator\\TrustModelData の現在の値に付加する GPO を作成し、展開します。
 
 > [!IMPORTANT]
->  既存の値を単に置き換えるのではなく、既存の値にドメイン名を*追加*する必要があります。
+>  既存の値を単に置き換えるのではなく、既存の値にドメイン名を *追加* する必要があります。
 
 詳細については、Microsoft サポート技術情報の記事 2531068「[Skype for Business (Lync) Lync はサインイン アドレスに対してサーバーが信頼されているかどうかを検証できません](https://go.microsoft.com/fwlink/?linkid=3052&amp;kbid=2531068)」を参照してください。
 
@@ -195,7 +195,7 @@ Active Domain Federation Services (ADFS) サーバーにサード パーティ�
 
 1. 関係するすべてのユーザーの **msRTCSIP-UserEnabled** 属性を **TRUE** に更新します。
 
-2. Microsoft Online Services ディレクトリ同期ツール (DirSync) を再実行します。 詳細については、「[オンプレミスのディレクトリと Azure Active Directory の統合](https://technet.microsoft.com/library/hh967642.aspx)」を参照してください。
+2. Microsoft Online Services ディレクトリ同期ツール (DirSync) を再実行します。 詳細については、「[オンプレミスのディレクトリと Azure Active Directory の統合](/azure/active-directory/hybrid/whatis-hybrid-identity)」を参照してください。
 
 Skype for Business Online のサインイン エラーのトラブルシューティングは、サインインの失敗を引き起こす最も一般的な原因を取り除くことから始めます。 必要に応じて、エラーのタイプに応じて特定の解決手順に従うことができます。 それでもサインインできない場合は、追加の情報を収集してサポートを受けるようにします。
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Microsoft サポートのトラブルシューティング ガイドを使う
@@ -220,5 +220,3 @@ Skype for Business Online のサインイン エラーのトラブルシュー�
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
-
-
