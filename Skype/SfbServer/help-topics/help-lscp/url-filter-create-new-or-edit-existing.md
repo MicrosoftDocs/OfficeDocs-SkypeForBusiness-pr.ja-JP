@@ -1,5 +1,5 @@
 ---
-title: URL フィルターの作成 (新規) または [既存の編集]
+title: URL フィルター [新規の作成] または [既存の編集]
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: c5f3ea148e220aaa86010e30047e5777443105f8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: deaa2d6ac12172ea4ea31a65ca9398073a02ed73
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826817"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116175"
 ---
-# <a name="url-filter-create-new-or-edit-existing"></a><span data-ttu-id="d6e18-104">URL フィルター: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="d6e18-104">URL Filter: Create New or Edit Existing</span></span>
+# <a name="url-filter-create-new-or-edit-existing"></a><span data-ttu-id="24186-104">URL フィルター: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="24186-104">URL Filter: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="d6e18-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="d6e18-105">What do you want to do?</span></span> <span data-ttu-id="d6e18-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="d6e18-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="24186-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="24186-105">What do you want to do?</span></span> <span data-ttu-id="24186-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="24186-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d6e18-107">既定の URL フィルターの変更</span><span class="sxs-lookup"><span data-stu-id="d6e18-107">Modify the Default URL Filter</span></span>](https://technet.microsoft.com/library/80a472b3-054e-45a6-80fc-9ee2bda28ee6.aspx)
+- [<span data-ttu-id="24186-107">既定の URL フィルターの変更</span><span class="sxs-lookup"><span data-stu-id="24186-107">Modify the Default URL Filter</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-url-filter)
 
-- [<span data-ttu-id="d6e18-108">IM 会話でのハイパーリンクの処理のための新しい URL フィルターの作成</span><span class="sxs-lookup"><span data-stu-id="d6e18-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](https://technet.microsoft.com/library/d0ee01e5-f039-4a34-ac9d-659fe4e9e879.aspx)
+- [<span data-ttu-id="24186-108">IM 会話でのハイパーリンクの処理のための新しい URL フィルターの作成</span><span class="sxs-lookup"><span data-stu-id="24186-108">Create a New URL Filter to Handle Hyperlinks in IM Conversations</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations)
 
-<span data-ttu-id="d6e18-109">Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d6e18-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="24186-109">Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。</span><span class="sxs-lookup"><span data-stu-id="24186-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>

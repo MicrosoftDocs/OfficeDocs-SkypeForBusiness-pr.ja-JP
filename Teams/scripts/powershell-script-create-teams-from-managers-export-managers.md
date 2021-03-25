@@ -1,5 +1,5 @@
 ---
-title: PowerShell スクリプトのサンプル-エクスポートマネージャーとその指示
+title: PowerShell スクリプトのサンプル - エクスポート マネージャーとその担当者
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、組織の管理者とその指示の一覧を、チームメンバーとしての各マネージャーのチーム作成の準備としてエクスポートします。
+description: この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとしてマネージャーごとにチームを作成する準備をします。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a7f2217bc39ead0abec48dafb75ff3f846681f20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583124"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117315"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="b3a28-103">PowerShell スクリプトのサンプル-エクスポートマネージャーとその指示</span><span class="sxs-lookup"><span data-stu-id="b3a28-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="909db-103">PowerShell スクリプトのサンプル - エクスポート マネージャーとその担当者</span><span class="sxs-lookup"><span data-stu-id="909db-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="b3a28-104">この PowerShell スクリプトを使用して、組織の管理者とその指示の一覧を、チームメンバーとしての各管理者に対して作成する準備を行います。</span><span class="sxs-lookup"><span data-stu-id="b3a28-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="909db-104">この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとしてマネージャーごとに人のマネージャー チームを作成する準備をします。</span><span class="sxs-lookup"><span data-stu-id="909db-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="b3a28-105">この PowerShell スクリプトの詳細については、「 [people manager teams を作成](../create-manager-directs-teams.md)する」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="b3a28-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="909db-105">この PowerShell スクリプトの詳細については、「People Manager チームを作成 [する」を参照してください](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="909db-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="b3a28-106">PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="b3a28-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="909db-106">PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="909db-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="b3a28-107">エクスポートマネージャースクリプト</span><span class="sxs-lookup"><span data-stu-id="b3a28-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="909db-107">Export-Managers スクリプト</span><span class="sxs-lookup"><span data-stu-id="909db-107">Export-Managers script</span></span>
 
 ```powershell
 <# 
@@ -142,5 +142,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited outpu
 
 
 ```
-
-

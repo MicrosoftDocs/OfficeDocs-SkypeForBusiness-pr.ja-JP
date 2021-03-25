@@ -13,28 +13,28 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams サービスが正常であることと、Exchange、SharePoint、OneDrive for Business などの他の Microsoft 365 または Office 365 コンポーネントを確認することをお勧めします。
+description: Teams サービスと、Exchange、SharePoint、OneDrive for Business などの他の Microsoft 365 または Office 365 コンポーネントが正常に機能する場合は、確認を行うのが良い方法です。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 600bf8802dfb76dc1e96534be0ee303354267661
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 53184bbdc25cc96e667cd8c0ddff9eae5bfdfe8c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581838"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107513"
 ---
-<a name="verify-service-health-for-microsoft-teams"></a><span data-ttu-id="5e8c1-103">Microsoft Teams のサービス正常性を確認する</span><span class="sxs-lookup"><span data-stu-id="5e8c1-103">Verify service health for Microsoft Teams</span></span>
+<a name="verify-service-health-for-microsoft-teams"></a><span data-ttu-id="6979c-103">Microsoft Teams のサービス正常性を確認する</span><span class="sxs-lookup"><span data-stu-id="6979c-103">Verify service health for Microsoft Teams</span></span>
 ===========================================
 
-<span data-ttu-id="5e8c1-104">Microsoft Teams のサービス正常性は、Microsoft 365 管理センターに表示されます。</span><span class="sxs-lookup"><span data-stu-id="5e8c1-104">Service health for Microsoft Teams is displayed on the Microsoft 365 admin center.</span></span> <span data-ttu-id="5e8c1-105">問題のトラブルシューティングを行う前に、Teams サービスが正常に実行されていることを確認することをお勧めします。</span><span class="sxs-lookup"><span data-stu-id="5e8c1-105">Before troubleshooting issues, it's a good practice to verify that the Teams service is healthy.</span></span> <span data-ttu-id="5e8c1-106"><a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Teams サービス正常性</a>コンソールに移動して、サービス正常性を確認します。</span><span class="sxs-lookup"><span data-stu-id="5e8c1-106">Go to the <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Teams Service Health</a> console to review the service health.</span></span>
+<span data-ttu-id="6979c-104">Microsoft Teams のサービス正常性は、Microsoft 365 管理センターに表示されます。</span><span class="sxs-lookup"><span data-stu-id="6979c-104">Service health for Microsoft Teams is displayed on the Microsoft 365 admin center.</span></span> <span data-ttu-id="6979c-105">問題のトラブルシューティングを行う前に、Teams サービスが正常に機能しているのを確認することをお使いください。</span><span class="sxs-lookup"><span data-stu-id="6979c-105">Before troubleshooting issues, it's a good practice to verify that the Teams service is healthy.</span></span> <span data-ttu-id="6979c-106">Teams サービス正常性コンソール <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">に移動して</a> 、サービスの正常性を確認します。</span><span class="sxs-lookup"><span data-stu-id="6979c-106">Go to the <a href=" https://admin.microsoft.com/adminportal/home?ref=servicehealth" target="_blank">Teams Service Health</a> console to review the service health.</span></span>
 
-<span data-ttu-id="5e8c1-107">また、microsoft Teams は、他の Microsoft 365 または Office 365 サービスの上に構築されているため、サービスの正常性を確認するときには、Exchange、SharePoint、OneDrive for Business の状態も確認する必要があることに注意してください。</span><span class="sxs-lookup"><span data-stu-id="5e8c1-107">Also, keep in mind that, Microsoft Teams is built on top of additional Microsoft 365 or Office 365 services, so when looking at Service Health, remember to also check the status of Exchange, SharePoint, and OneDrive for Business.</span></span> <span data-ttu-id="5e8c1-108">その他のサービスのサービス正常性の問題により、チームが影響を受けることはありません (Exchange でのアドレス帳のダウンロードは利用できません)。ただし、Microsoft Teams への影響があるかどうかを判断するために、影響を受けるサービスのアドバイザリを確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5e8c1-108">Service Health issues for these other services does not automatically mean that Teams is impacted (e.g. Address Book downloads in Exchange are unavailable), but that you should review the advisories for those affected services to determine if there is an impact to Microsoft Teams.</span></span>
+<span data-ttu-id="6979c-107">また、Microsoft Teams は追加の Microsoft 365 または Office 365 サービスの上に構築されている点に注意してください。サービス正常性を確認する場合は、Exchange、SharePoint、OneDrive for Business の状態も忘確認してください。</span><span class="sxs-lookup"><span data-stu-id="6979c-107">Also, keep in mind that, Microsoft Teams is built on top of additional Microsoft 365 or Office 365 services, so when looking at Service Health, remember to also check the status of Exchange, SharePoint, and OneDrive for Business.</span></span> <span data-ttu-id="6979c-108">これらの他のサービスのサービス正常性の問題は、Teams が自動的に影響を受けるという意味ではありません (Exchange でのアドレス帳のダウンロードは利用できません)。ただし、影響を受けるサービスの勧告を確認して、Microsoft Teams に影響を与えるかどうかを判断する必要があります。</span><span class="sxs-lookup"><span data-stu-id="6979c-108">Service Health issues for these other services does not automatically mean that Teams is impacted (e.g. Address Book downloads in Exchange are unavailable), but that you should review the advisories for those affected services to determine if there is an impact to Microsoft Teams.</span></span>
 
 ![[サービス正常性] ページのスクリーンショット。](media/Verify_service_health_for_Microsoft_Teams_image1.png)
 
 ![Microsoft Teams サービスが正常であることを示すスクリーンショット。](media/Verify_service_health_for_Microsoft_Teams_image2.png)
 
 
-## <a name="related-topics"></a><span data-ttu-id="5e8c1-111">関連トピック</span><span class="sxs-lookup"><span data-stu-id="5e8c1-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6979c-111">関連項目</span><span class="sxs-lookup"><span data-stu-id="6979c-111">Related topics</span></span>
 
-[<span data-ttu-id="5e8c1-112">Teams のトラブルシューティング</span><span class="sxs-lookup"><span data-stu-id="5e8c1-112">Teams Troubleshooting</span></span>](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[<span data-ttu-id="6979c-112">Teams のトラブルシューティング</span><span class="sxs-lookup"><span data-stu-id="6979c-112">Teams Troubleshooting</span></span>](/MicrosoftTeams/troubleshoot/teams)

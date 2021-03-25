@@ -15,36 +15,34 @@ localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存のサイトのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: 30e11a6b580b80719ffd6f745c7c37edf2cf358e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4bcf07ef1b550fb96ce503f31b4026ccc4ae6960
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805567"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115377"
 ---
-# <a name="lync-server-site-settings-expander"></a><span data-ttu-id="193bf-103">Lync Server サイト設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="193bf-103">Lync Server Site Settings Expander</span></span>
+# <a name="lync-server-site-settings-expander"></a><span data-ttu-id="a605b-103">Lync Server サイト設定エキスパンダー</span><span class="sxs-lookup"><span data-stu-id="a605b-103">Lync Server Site Settings Expander</span></span>
 
-<span data-ttu-id="193bf-104">既存のサイトのプロパティを編集するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="193bf-104">To edit the properties of an existing site, do the following:</span></span>
+<span data-ttu-id="a605b-104">既存のサイトのプロパティを編集するには、次の操作を行います。</span><span class="sxs-lookup"><span data-stu-id="a605b-104">To edit the properties of an existing site, do the following:</span></span>
 
 
 
-## <a name="site-properties"></a><span data-ttu-id="193bf-105">サイトのプロパティ</span><span class="sxs-lookup"><span data-stu-id="193bf-105">Site properties</span></span>
+## <a name="site-properties"></a><span data-ttu-id="a605b-105">サイトのプロパティ</span><span class="sxs-lookup"><span data-stu-id="a605b-105">Site properties</span></span>
 
-<span data-ttu-id="193bf-106">サイトのプロパティでは、サイト名 (必須)、説明 (省略可能)、市区町村 (省略可能)、都道府県 (省略可能)、および 国/地域コード (省略可能) を変更または修正できます。</span><span class="sxs-lookup"><span data-stu-id="193bf-106">In site properties, you can change or modify the site Name (required), Description (optional), City (optional), State/Province (optional), and the Country/Region Code (optional).</span></span>
+<span data-ttu-id="a605b-106">サイトのプロパティでは、サイト名 (必須)、説明 (省略可能)、市区町村 (省略可能)、都道府県 (省略可能)、および 国/地域コード (省略可能) を変更または修正できます。</span><span class="sxs-lookup"><span data-stu-id="a605b-106">In site properties, you can change or modify the site Name (required), Description (optional), City (optional), State/Province (optional), and the Country/Region Code (optional).</span></span>
 
-<span data-ttu-id="193bf-107">サイトのプロパティの詳細については、「[Add Branch Sites to Your Topology](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="193bf-107">For details about site properties, see [Add Branch Sites to Your Topology](https://technet.microsoft.com/library/b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335.aspx).</span></span>
+<span data-ttu-id="a605b-107">サイトのプロパティの詳細については、「[Add Branch Sites to Your Topology](/previous-versions/office/lync-server-2013/lync-server-2013-add-branch-sites-to-your-topology)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a605b-107">For details about site properties, see [Add Branch Sites to Your Topology](/previous-versions/office/lync-server-2013/lync-server-2013-add-branch-sites-to-your-topology).</span></span>
 
-## <a name="federation-route-properties"></a><span data-ttu-id="193bf-108">フェデレーション ルートのプロパティ</span><span class="sxs-lookup"><span data-stu-id="193bf-108">Federation Route properties</span></span>
+## <a name="federation-route-properties"></a><span data-ttu-id="a605b-108">フェデレーション ルートのプロパティ</span><span class="sxs-lookup"><span data-stu-id="a605b-108">Federation Route properties</span></span>
 
-<span data-ttu-id="193bf-109">サイトのフェデレーション ルートの割り当てを設定するには、最初にエッジ サーバーまたはエッジ サーバー プールでフェデレーションを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="193bf-109">To set a site federation route assignment, you must first have federation enabled on an Edge Server or an Edge Server pool.</span></span> <span data-ttu-id="193bf-110">エッジ サーバーまたはプールでフェデレーションが有効になっていない場合、サイトのフェデレーション ルートの割り当てを変更できません。</span><span class="sxs-lookup"><span data-stu-id="193bf-110">If federation is not enabled on an Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
+<span data-ttu-id="a605b-109">サイト フェデレーション ルートの割り当てを設定するには、まずエッジ サーバーまたはエッジ サーバー プールでフェデレーションを有効にする必要があります。</span><span class="sxs-lookup"><span data-stu-id="a605b-109">To set a site federation route assignment, you must first have federation enabled on an Edge Server or an Edge Server pool.</span></span> <span data-ttu-id="a605b-110">エッジ サーバーまたはプールでフェデレーションが有効になっていない場合、サイトのフェデレーション ルートの割り当てを変更できません。</span><span class="sxs-lookup"><span data-stu-id="a605b-110">If federation is not enabled on an Edge Server or pool, the federation route assignment settings for the site will not be available for modification.</span></span>
 
-<span data-ttu-id="193bf-111">エッジ サーバーまたはプールのフェデレーション設定が構成されている場合は、サイトレベルで [有効にする] を選択します。</span><span class="sxs-lookup"><span data-stu-id="193bf-111">If the federation setting at the Edge Server or pool has been configured, select **Enable** at the site level.</span></span> <span data-ttu-id="193bf-112">次に、ドロップダウン リストからエッジまたはディレクターを選択し、フェデレーション ルートとして設定します。</span><span class="sxs-lookup"><span data-stu-id="193bf-112">Then select an Edge or a Director from the drop-down list to set as the federation route.</span></span>
+<span data-ttu-id="a605b-111">エッジ サーバーまたはプールのフェデレーション設定が構成されている場合は、[サイト レベルで **有効にする** ] を選択します。</span><span class="sxs-lookup"><span data-stu-id="a605b-111">If the federation setting at the Edge Server or pool has been configured, select **Enable** at the site level.</span></span> <span data-ttu-id="a605b-112">次に、ドロップダウン リストからエッジまたはディレクターを選択し、フェデレーション ルートとして設定します。</span><span class="sxs-lookup"><span data-stu-id="a605b-112">Then select an Edge or a Director from the drop-down list to set as the federation route.</span></span>
 
 > [!CAUTION]
-> <span data-ttu-id="193bf-113">この設定はすべてのサイトに影響します。</span><span class="sxs-lookup"><span data-stu-id="193bf-113">This setting will affect all sites.</span></span> <span data-ttu-id="193bf-114">このサイトで構成している設定がすべてのサイトに適切であることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="193bf-114">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span>
+> <span data-ttu-id="a605b-113">この設定はすべてのサイトに影響します。</span><span class="sxs-lookup"><span data-stu-id="a605b-113">This setting will affect all sites.</span></span> <span data-ttu-id="a605b-114">このサイトで構成している設定がすべてのサイトに適切であることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="a605b-114">Be sure that the setting that you are configuring at this site is appropriate for all sites.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="193bf-115">関連項目</span><span class="sxs-lookup"><span data-stu-id="193bf-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a605b-115">関連項目</span><span class="sxs-lookup"><span data-stu-id="a605b-115">See also</span></span>
 
-<span data-ttu-id="193bf-116">詳細については、「[Topologies for External User Access](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="193bf-116">For details, see [Topologies for External User Access](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).</span></span>
-
-
+<span data-ttu-id="a605b-116">詳細については、「[Topologies for External User Access](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-external-user-access)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="a605b-116">For details, see [Topologies for External User Access](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-external-user-access).</span></span>

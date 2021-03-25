@@ -24,33 +24,32 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
-ms.openlocfilehash: 217bc34eb99f7d2f120e5bc1cd872d65630fdd97
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6adfcba7d369cde4ddb45c211eb1a59b2c701873
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140496"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116845"
 ---
-# <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a><span data-ttu-id="97797-105">ボスニア・ヘルツェゴビナでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="97797-105">Toll-free dialing restrictions in Bosnia and Herzegovina</span></span>
+# <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a><span data-ttu-id="aa114-105">ボスニア・ヘルツェゴビナでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="aa114-105">Toll-free dialing restrictions in Bosnia and Herzegovina</span></span>
 
-<span data-ttu-id="97797-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="97797-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="aa114-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="aa114-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="97797-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="97797-107">**Details**</span></span>|<span data-ttu-id="97797-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="97797-108">**Description**</span></span>|
+|<span data-ttu-id="aa114-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="aa114-107">**Details**</span></span>|<span data-ttu-id="aa114-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="aa114-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="97797-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="97797-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="97797-110">はい</span><span class="sxs-lookup"><span data-stu-id="97797-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="97797-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="97797-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="97797-112">0800 XXXXX</span><span class="sxs-lookup"><span data-stu-id="97797-112">0800 XXXXX</span></span> <br/> |
-|<span data-ttu-id="97797-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="97797-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="97797-114">BA</span><span class="sxs-lookup"><span data-stu-id="97797-114">BA</span></span>  <br/> |
-|<span data-ttu-id="97797-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="97797-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="97797-116">該当なし</span><span class="sxs-lookup"><span data-stu-id="97797-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="97797-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="97797-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="97797-118">該当なし</span><span class="sxs-lookup"><span data-stu-id="97797-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="97797-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="97797-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="97797-p102">部分的。コメント参照。</span><span class="sxs-lookup"><span data-stu-id="97797-p102">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="97797-122">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="97797-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="97797-p103">部分的。コメント参照。</span><span class="sxs-lookup"><span data-stu-id="97797-p103">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="97797-125">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="97797-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="97797-126">HT Eronet/Mostar、Telekom Srpske/MTEL、BHT 固定回線および携帯電話ネットワークからアクセス可能。</span><span class="sxs-lookup"><span data-stu-id="97797-126">Accessible from HT Eronet/Mostar, Telekom Srpske/MTEL, and BHT fixed and mobile networks.</span></span>  <br/> |
+|<span data-ttu-id="aa114-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="aa114-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="aa114-110">はい</span><span class="sxs-lookup"><span data-stu-id="aa114-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="aa114-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="aa114-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="aa114-112">0800 XXXXX</span><span class="sxs-lookup"><span data-stu-id="aa114-112">0800 XXXXX</span></span> <br/> |
+|<span data-ttu-id="aa114-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="aa114-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="aa114-114">BA</span><span class="sxs-lookup"><span data-stu-id="aa114-114">BA</span></span>  <br/> |
+|<span data-ttu-id="aa114-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="aa114-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="aa114-116">該当なし</span><span class="sxs-lookup"><span data-stu-id="aa114-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="aa114-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="aa114-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="aa114-118">該当なし</span><span class="sxs-lookup"><span data-stu-id="aa114-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="aa114-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="aa114-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="aa114-p102">部分的。コメント参照。</span><span class="sxs-lookup"><span data-stu-id="aa114-p102">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="aa114-122">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="aa114-122">Mobile network availability</span></span>  <br/> |<span data-ttu-id="aa114-p103">部分的。コメント参照。</span><span class="sxs-lookup"><span data-stu-id="aa114-p103">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="aa114-125">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="aa114-125">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="aa114-126">HT Eronet/Mostar、Telekom Srpske/MTEL、BHT 固定回線および携帯電話ネットワークからアクセス可能。</span><span class="sxs-lookup"><span data-stu-id="aa114-126">Accessible from HT Eronet/Mostar, Telekom Srpske/MTEL, and BHT fixed and mobile networks.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="97797-127">関連項目</span><span class="sxs-lookup"><span data-stu-id="97797-127">Related topics</span></span>
-[<span data-ttu-id="97797-128">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="97797-128">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="aa114-127">関連項目</span><span class="sxs-lookup"><span data-stu-id="aa114-127">Related topics</span></span>
+[<span data-ttu-id="aa114-128">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="aa114-128">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="97797-129">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="97797-129">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="aa114-129">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="aa114-129">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
- 

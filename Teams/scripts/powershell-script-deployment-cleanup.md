@@ -17,19 +17,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4b0bac09e18a9c6378623066889d6b1a891a4a2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 95b7f12f9d7b531de2c50ba2de197f2f799916a2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809487"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117295"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="f63e0-103">PowerShell スクリプトのサンプル - Teams の展開のクリーンアップ</span><span class="sxs-lookup"><span data-stu-id="f63e0-103">PowerShell script sample - Teams deployment clean up</span></span>
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a><span data-ttu-id="6fbdd-103">PowerShell スクリプトのサンプル - Teams の展開のクリーンアップ</span><span class="sxs-lookup"><span data-stu-id="6fbdd-103">PowerShell script sample - Teams deployment clean up</span></span>
 
-<span data-ttu-id="f63e0-104">Teams を削除するには、このスクリプトを使用します。</span><span class="sxs-lookup"><span data-stu-id="f63e0-104">Use this script to remove Teams.</span></span> <span data-ttu-id="f63e0-105">このスクリプトは Teams をアンインストールし、ユーザーの Teams フォルダーを削除します。</span><span class="sxs-lookup"><span data-stu-id="f63e0-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="f63e0-106">Teams がコンピューターにインストールされた各ユーザー プロファイルに対して、このスクリプトを実行します。</span><span class="sxs-lookup"><span data-stu-id="f63e0-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
+<span data-ttu-id="6fbdd-104">Teams を削除するには、このスクリプトを使用します。</span><span class="sxs-lookup"><span data-stu-id="6fbdd-104">Use this script to remove Teams.</span></span> <span data-ttu-id="6fbdd-105">このスクリプトは Teams をアンインストールし、ユーザーの Teams フォルダーを削除します。</span><span class="sxs-lookup"><span data-stu-id="6fbdd-105">This script uninstalls Teams and removes the Teams folder for a user.</span></span> <span data-ttu-id="6fbdd-106">Teams がコンピューターにインストールされた各ユーザー プロファイルに対して、このスクリプトを実行します。</span><span class="sxs-lookup"><span data-stu-id="6fbdd-106">Run this script for each user profile in which Teams was installed on a computer.</span></span>
 
 
-## <a name="sample-script"></a><span data-ttu-id="f63e0-107">サンプル スクリプト</span><span class="sxs-lookup"><span data-stu-id="f63e0-107">Sample script</span></span>
+## <a name="sample-script"></a><span data-ttu-id="6fbdd-107">サンプル スクリプト</span><span class="sxs-lookup"><span data-stu-id="6fbdd-107">Sample script</span></span>
 
 ````powershell
 <#
@@ -62,7 +62,7 @@ catch
 
 ````
 
-## <a name="related-topics"></a><span data-ttu-id="f63e0-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="f63e0-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6fbdd-108">関連項目</span><span class="sxs-lookup"><span data-stu-id="6fbdd-108">Related topics</span></span>
 
-- [<span data-ttu-id="f63e0-109">Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする</span><span class="sxs-lookup"><span data-stu-id="f63e0-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
-- [<span data-ttu-id="f63e0-110">Microsoft 365 アプリで Teams を展開する</span><span class="sxs-lookup"><span data-stu-id="f63e0-110">Deploy Teams with Microsoft 365 Apps</span></span>](https://docs.microsoft.com/deployoffice/teams-install)
+- [<span data-ttu-id="6fbdd-109">Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする</span><span class="sxs-lookup"><span data-stu-id="6fbdd-109">Install Microsoft Teams using Microsoft Endpoint Configuration Manager</span></span>](../msi-deployment.md)
+- [<span data-ttu-id="6fbdd-110">Microsoft 365 アプリで Teams を展開する</span><span class="sxs-lookup"><span data-stu-id="6fbdd-110">Deploy Teams with Microsoft 365 Apps</span></span>](/deployoffice/teams-install)

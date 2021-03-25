@@ -15,68 +15,66 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 会議ポリシーにより、会議 (ミーティングとも呼ばれます) でユーザーが使用できる機能が定義されます。
-ms.openlocfilehash: a7b85fc8aa4365f3431e9aa3a7a9849c5d9e22c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d69c463a9aa8a1e151b0787dfbfebf4e24fb693
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807397"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115367"
 ---
-# <a name="conferencing-policy"></a><span data-ttu-id="d9719-103">会議ポリシー</span><span class="sxs-lookup"><span data-stu-id="d9719-103">Conferencing Policy</span></span>
+# <a name="conferencing-policy"></a><span data-ttu-id="48641-103">会議ポリシー</span><span class="sxs-lookup"><span data-stu-id="48641-103">Conferencing Policy</span></span>
 
-<span data-ttu-id="d9719-104">電話会議ポリシーにより、電話会議 (ミーティングとも呼ばれます) でユーザーが使用できる機能が定義されます。</span><span class="sxs-lookup"><span data-stu-id="d9719-104">Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting).</span></span>
+<span data-ttu-id="48641-104">電話会議ポリシーにより、電話会議 (ミーティングとも呼ばれます) でユーザーが使用できる機能が定義されます。</span><span class="sxs-lookup"><span data-stu-id="48641-104">Conferencing policy defines the features and capabilities that users have available during a conference (also known as a meeting).</span></span>
 
-<span data-ttu-id="d9719-105">電話会議ポリシーには、グローバル ポリシーと、オプションで 1 つ以上のサイト ポリシーおよびユーザー ポリシーが含まれます。</span><span class="sxs-lookup"><span data-stu-id="d9719-105">Conferencing policies include the global policy and, optionally, one or more site and user policies:</span></span>
+<span data-ttu-id="48641-105">電話会議ポリシーには、グローバル ポリシーと、オプションで 1 つ以上のサイト ポリシーおよびユーザー ポリシーが含まれます。</span><span class="sxs-lookup"><span data-stu-id="48641-105">Conferencing policies include the global policy and, optionally, one or more site and user policies:</span></span>
 
-- <span data-ttu-id="d9719-106">**グローバル ポリシー:** グローバル ポリシーは既定で作成されます。</span><span class="sxs-lookup"><span data-stu-id="d9719-106">**Global policy:** The global policy is created by default.</span></span> <span data-ttu-id="d9719-107">グローバル ポリシーは編集できますが、削除することはできません。</span><span class="sxs-lookup"><span data-stu-id="d9719-107">You can edit the global policy, but you cannot delete it.</span></span> <span data-ttu-id="d9719-108">グローバル ポリシーの削除を試みると、設定がすべて既定値にリセットされます。</span><span class="sxs-lookup"><span data-stu-id="d9719-108">If you try to remove the global policy, all the settings are reset to the default values.</span></span>
+- <span data-ttu-id="48641-106">**グローバル ポリシー:** グローバル ポリシーは既定で作成されます。</span><span class="sxs-lookup"><span data-stu-id="48641-106">**Global policy:** The global policy is created by default.</span></span> <span data-ttu-id="48641-107">グローバル ポリシーは編集できますが、削除することはできません。</span><span class="sxs-lookup"><span data-stu-id="48641-107">You can edit the global policy, but you cannot delete it.</span></span> <span data-ttu-id="48641-108">グローバル ポリシーの削除を試みると、設定がすべて既定値にリセットされます。</span><span class="sxs-lookup"><span data-stu-id="48641-108">If you try to remove the global policy, all the settings are reset to the default values.</span></span>
 
-- <span data-ttu-id="d9719-109">**サイト ポリシー (オプション):** 1 つ以上のサイト会議ポリシーを作成し、それぞれのポリシーを特定のサイトに適用できます。</span><span class="sxs-lookup"><span data-stu-id="d9719-109">**Site policies (optional):** You can create one or more site conferencing policies, each of which applies to a specific site.</span></span> <span data-ttu-id="d9719-110">サイト ポリシーはグローバル ポリシーより優先されます。</span><span class="sxs-lookup"><span data-stu-id="d9719-110">Site policies override the global policy.</span></span>
+- <span data-ttu-id="48641-109">**サイト ポリシー (オプション):** 1 つ以上のサイト会議ポリシーを作成できます。それぞれのポリシーは、特定のサイトに適用されます。</span><span class="sxs-lookup"><span data-stu-id="48641-109">**Site policies (optional):** You can create one or more site conferencing policies, each of which applies to a specific site.</span></span> <span data-ttu-id="48641-110">サイト ポリシーは、グローバル ポリシーを上書きします。</span><span class="sxs-lookup"><span data-stu-id="48641-110">Site policies override the global policy.</span></span>
 
-- <span data-ttu-id="d9719-111">**ユーザー ポリシー (オプション):** 1 つ以上のユーザー会議ポリシーを作成できます。各ポリシーは、特定のユーザーまたはユーザー グループに適用されます。</span><span class="sxs-lookup"><span data-stu-id="d9719-111">**User policies (optional):** You can create one or more user conferencing policies, each of which applies to a specific user or group of users.</span></span> <span data-ttu-id="d9719-112">ユーザー ポリシーは、グローバル ポリシーとサイト ポリシーより優先されます。</span><span class="sxs-lookup"><span data-stu-id="d9719-112">User policies override the global policy and site policies.</span></span>
+- <span data-ttu-id="48641-111">**ユーザー ポリシー (オプション):** 1 つ以上のユーザー会議ポリシーを作成できます。それぞれのポリシーは、特定のユーザーまたはユーザー グループに適用されます。</span><span class="sxs-lookup"><span data-stu-id="48641-111">**User policies (optional):** You can create one or more user conferencing policies, each of which applies to a specific user or group of users.</span></span> <span data-ttu-id="48641-112">ユーザー ポリシーは、グローバル ポリシーとサイト ポリシーを上書きします。</span><span class="sxs-lookup"><span data-stu-id="48641-112">User policies override the global policy and site policies.</span></span>
 
-<span data-ttu-id="d9719-113">[**電話会議ポリシー**] ページには、組織で定義されているすべての電話場所ポリシーが一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="d9719-113">The **Conferencing Policy** page displays a list of all the conferencing policies that are defined for your organization.</span></span>
+<span data-ttu-id="48641-113">[**電話会議ポリシー**] ページには、組織で定義されているすべての電話場所ポリシーが一覧表示されます。</span><span class="sxs-lookup"><span data-stu-id="48641-113">The **Conferencing Policy** page displays a list of all the conferencing policies that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="d9719-114">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="d9719-114">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="48641-114">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="48641-114">Tasks you can perform</span></span>
 
-<span data-ttu-id="d9719-115">[**電話会議ポリシー**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="d9719-115">You can perform the following tasks from the **Location Policy** page:</span></span>
+<span data-ttu-id="48641-115">[**電話会議ポリシー**] ページでは次のタスクを実行できます。</span><span class="sxs-lookup"><span data-stu-id="48641-115">You can perform the following tasks from the **Location Policy** page:</span></span>
 
-- <span data-ttu-id="d9719-116">新しいサイトの電話会議ポリシーまたはユーザーの電話会議ポリシーを作成する</span><span class="sxs-lookup"><span data-stu-id="d9719-116">Create a new site conferencing policy or user conferencing policy</span></span>
+- <span data-ttu-id="48641-116">新しいサイトの電話会議ポリシーまたはユーザーの電話会議ポリシーを作成する</span><span class="sxs-lookup"><span data-stu-id="48641-116">Create a new site conferencing policy or user conferencing policy</span></span>
 
-- <span data-ttu-id="d9719-117">グローバル ポリシーまたは既存のサイト ポリシーやユーザー ポリシーを変更する</span><span class="sxs-lookup"><span data-stu-id="d9719-117">Change the global policy or an existing site policy or user policy</span></span>
+- <span data-ttu-id="48641-117">グローバル ポリシーまたは既存のサイト ポリシーやユーザー ポリシーを変更する</span><span class="sxs-lookup"><span data-stu-id="48641-117">Change the global policy or an existing site policy or user policy</span></span>
 
-- <span data-ttu-id="d9719-118">サイト ポリシーやユーザー ポリシーを削除する</span><span class="sxs-lookup"><span data-stu-id="d9719-118">Delete a site policy or user policy</span></span>
+- <span data-ttu-id="48641-118">サイト ポリシーやユーザー ポリシーを削除する</span><span class="sxs-lookup"><span data-stu-id="48641-118">Delete a site policy or user policy</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="d9719-119">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="d9719-119">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="48641-119">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="48641-119">UI Reference</span></span>
 
-<span data-ttu-id="d9719-120">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="d9719-120">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="48641-120">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="48641-120">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="d9719-121">**新規** 新しいサイト会議ポリシーまたはユーザー会議ポリシーを開始します。</span><span class="sxs-lookup"><span data-stu-id="d9719-121">**New** Starts a new site conferencing policy or user conferencing policy.</span></span>
+- <span data-ttu-id="48641-121">**New** 新しいサイト会議ポリシーまたはユーザー会議ポリシーを開始します。</span><span class="sxs-lookup"><span data-stu-id="48641-121">**New** Starts a new site conferencing policy or user conferencing policy.</span></span>
 
-- <span data-ttu-id="d9719-122">**編集** 選択した会議ポリシーを開き、編集するか、一覧内のすべての会議ポリシーを選択するか、選択したサイト ポリシーまたはユーザー ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="d9719-122">**Edit** Opens the selected conferencing policy to edit it, selects all conferencing policies in the list, or deletes the selected site policy or user policy.</span></span>
+- <span data-ttu-id="48641-122">**編集** 選択した会議ポリシーを開き、編集するか、リスト内のすべての会議ポリシーを選択するか、選択したサイト ポリシーまたはユーザー ポリシーを削除します。</span><span class="sxs-lookup"><span data-stu-id="48641-122">**Edit** Opens the selected conferencing policy to edit it, selects all conferencing policies in the list, or deletes the selected site policy or user policy.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="d9719-123">グローバル ポリシーに対して [**削除**] を使用すると、設定が既定値にリセットされます。</span><span class="sxs-lookup"><span data-stu-id="d9719-123">For the global policy, **Delete** resets the settings to the default values.</span></span>
+    > <span data-ttu-id="48641-123">グローバル ポリシーに対して [**削除**] を使用すると、設定が既定値にリセットされます。</span><span class="sxs-lookup"><span data-stu-id="48641-123">For the global policy, **Delete** resets the settings to the default values.</span></span>
 
-- <span data-ttu-id="d9719-124">**更新** 会議ポリシーの一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="d9719-124">**Refresh** Refreshes the list of conferencing policies.</span></span>
+- <span data-ttu-id="48641-124">**更新** 会議ポリシーの一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="48641-124">**Refresh** Refreshes the list of conferencing policies.</span></span>
 
-<span data-ttu-id="d9719-125">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="d9719-125">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="48641-125">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="48641-125">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="d9719-126">**名前** 会議ポリシーを識別します。</span><span class="sxs-lookup"><span data-stu-id="d9719-126">**Name** Identifies the conferencing policy.</span></span>
+- <span data-ttu-id="48641-126">**名前** 会議ポリシーを識別します。</span><span class="sxs-lookup"><span data-stu-id="48641-126">**Name** Identifies the conferencing policy.</span></span>
 
-- <span data-ttu-id="d9719-127">**スコープ** 会議ポリシーのスコープ (グローバル、サイト、またはユーザー) を識別します。</span><span class="sxs-lookup"><span data-stu-id="d9719-127">**Scope** Identifies the scope of the conferencing policy: global, site, or user.</span></span>
+- <span data-ttu-id="48641-127">**スコープ** 会議ポリシーのスコープ (グローバル、サイト、またはユーザー) を識別します。</span><span class="sxs-lookup"><span data-stu-id="48641-127">**Scope** Identifies the scope of the conferencing policy: global, site, or user.</span></span>
 
-- <span data-ttu-id="d9719-128">**データ コラボレーション** 電話会議ポリシーで、電話会議でのデータコラボレーションが許可されている場合にオンにします。</span><span class="sxs-lookup"><span data-stu-id="d9719-128">**Data collaboration** Checked if the conferencing policy specifies that data collaboration is allowed in conferences.</span></span>
+- <span data-ttu-id="48641-128">**データの共同作業** 電話会議ポリシーで、電話会議でデータの共同作業が許可される場合にチェックされます。</span><span class="sxs-lookup"><span data-stu-id="48641-128">**Data collaboration** Checked if the conferencing policy specifies that data collaboration is allowed in conferences.</span></span>
 
-- <span data-ttu-id="d9719-129">**アプリケーション共有** 会議ポリシーで、会議でアプリケーション共有を許可する場合にオンにします。</span><span class="sxs-lookup"><span data-stu-id="d9719-129">**Application sharing** Checked if the conferencing policy specifies that application sharing is allowed in conferences.</span></span>
+- <span data-ttu-id="48641-129">**アプリケーション共有** 会議ポリシーで、会議でアプリケーション共有が許可されている場合にチェックされます。</span><span class="sxs-lookup"><span data-stu-id="48641-129">**Application sharing** Checked if the conferencing policy specifies that application sharing is allowed in conferences.</span></span>
 
-- <span data-ttu-id="d9719-130">**オーディオ** 電話会議ポリシーで電話会議で音声を許可する場合にオンにします。</span><span class="sxs-lookup"><span data-stu-id="d9719-130">**Audio** Checked if the conferencing policy specifies that audio is allowed in conferences.</span></span>
+- <span data-ttu-id="48641-130">**オーディオ** 電話会議ポリシーが電話会議で許可される音声を指定した場合にチェックされます。</span><span class="sxs-lookup"><span data-stu-id="48641-130">**Audio** Checked if the conferencing policy specifies that audio is allowed in conferences.</span></span>
 
-- <span data-ttu-id="d9719-131">**ビデオ** 会議ポリシーで、会議でビデオを許可する場合にオンにします。</span><span class="sxs-lookup"><span data-stu-id="d9719-131">**Video** Checked if the conferencing policy specifies that video is allowed in conferences.</span></span>
+- <span data-ttu-id="48641-131">**ビデオ** 電話会議ポリシーで、会議でビデオが許可されている場合に確認します。</span><span class="sxs-lookup"><span data-stu-id="48641-131">**Video** Checked if the conferencing policy specifies that video is allowed in conferences.</span></span>
 
-- <span data-ttu-id="d9719-132">**PSTN** 会議ポリシーで PSTN ダイヤルイン会議を許可する場合にオンにします。</span><span class="sxs-lookup"><span data-stu-id="d9719-132">**PSTN** Checked if the conferencing policy specifies that PSTN dial-in conferencing is allowed.</span></span>
+- <span data-ttu-id="48641-132">**PSTN** PSTN ダイヤルイン会議を許可する会議ポリシーが指定されている場合にチェックされます。</span><span class="sxs-lookup"><span data-stu-id="48641-132">**PSTN** Checked if the conferencing policy specifies that PSTN dial-in conferencing is allowed.</span></span>
 
-- <span data-ttu-id="d9719-133">**レコーディング** 会議ポリシーで会議でのレコーディングが許可されている場合にオンにします。</span><span class="sxs-lookup"><span data-stu-id="d9719-133">**Recording** Checked if the conferencing policy specifies that recording is allowed in conferences.</span></span>
+- <span data-ttu-id="48641-133">**レコーディング** 電話会議ポリシーで、会議で録音が許可されている場合に確認します。</span><span class="sxs-lookup"><span data-stu-id="48641-133">**Recording** Checked if the conferencing policy specifies that recording is allowed in conferences.</span></span>
 
-<span data-ttu-id="d9719-134">会議の機能の詳細については、「計画」のドキュメントの「[Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d9719-134">For details about conferencing features and capabilities, see [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) in the Planning documentation.</span></span> <span data-ttu-id="d9719-135">会議ポリシーの使用の詳細については、「操作」のドキュメントの「[Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d9719-135">For details about working with conferencing policies, see [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) in the Operations documentation.</span></span>
-
-
+<span data-ttu-id="48641-134">会議の機能の詳細については、「計画」のドキュメントの「[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="48641-134">For details about conferencing features and capabilities, see [Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) in the Planning documentation.</span></span> <span data-ttu-id="48641-135">会議ポリシーの使用の詳細については、「操作」のドキュメントの「[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="48641-135">For details about working with conferencing policies, see [Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) in the Operations documentation.</span></span>

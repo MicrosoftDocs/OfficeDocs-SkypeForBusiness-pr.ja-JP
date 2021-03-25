@@ -22,34 +22,33 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 33b36983653744d236dfea3f3a0c28c29ca8911c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
+ms.openlocfilehash: 6f4c27ed9794a24c2038a97f5ae10545035ba1e0
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708003"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116815"
 ---
-# <a name="toll-free-dialing-restrictions-in-bulgaria"></a><span data-ttu-id="5bf0b-105">ブルガリアでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="5bf0b-105">Toll-free dialing restrictions in Bulgaria</span></span>
+# <a name="toll-free-dialing-restrictions-in-bulgaria"></a><span data-ttu-id="34981-105">ブルガリアでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="34981-105">Toll-free dialing restrictions in Bulgaria</span></span>
 
-<span data-ttu-id="5bf0b-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。</span><span class="sxs-lookup"><span data-stu-id="5bf0b-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="34981-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="34981-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="5bf0b-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="5bf0b-107">**Details**</span></span>|<span data-ttu-id="5bf0b-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="5bf0b-108">**Description**</span></span>|
+|<span data-ttu-id="34981-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="34981-107">**Details**</span></span>|<span data-ttu-id="34981-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="34981-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="5bf0b-109">無料通話を利用できますか?</span><span class="sxs-lookup"><span data-stu-id="5bf0b-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="5bf0b-110">はい</span><span class="sxs-lookup"><span data-stu-id="5bf0b-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="5bf0b-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="5bf0b-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="5bf0b-112">00800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="5bf0b-112">00800 XXX XXXX</span></span>  <br/> |
-|<span data-ttu-id="5bf0b-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="5bf0b-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="5bf0b-114">BG</span><span class="sxs-lookup"><span data-stu-id="5bf0b-114">BG</span></span>  <br/> |
-|<span data-ttu-id="5bf0b-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="5bf0b-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="5bf0b-116">該当しない</span><span class="sxs-lookup"><span data-stu-id="5bf0b-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="5bf0b-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="5bf0b-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="5bf0b-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="5bf0b-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="5bf0b-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="5bf0b-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="5bf0b-120">あり</span><span class="sxs-lookup"><span data-stu-id="5bf0b-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="5bf0b-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="5bf0b-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="5bf0b-p102">部分的。コメント参照。</span><span class="sxs-lookup"><span data-stu-id="5bf0b-p102">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="5bf0b-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="5bf0b-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="5bf0b-125">Vivacom &amp; Globul Mobile から携帯電話アクセス。</span><span class="sxs-lookup"><span data-stu-id="5bf0b-125">Mobile access from Vivacom &amp; Globul Mobile.</span></span>  <br/> |
+|<span data-ttu-id="34981-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="34981-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="34981-110">はい</span><span class="sxs-lookup"><span data-stu-id="34981-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="34981-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="34981-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="34981-112">00800 XXX XXXX</span><span class="sxs-lookup"><span data-stu-id="34981-112">00800 XXX XXXX</span></span>  <br/> |
+|<span data-ttu-id="34981-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="34981-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="34981-114">BG</span><span class="sxs-lookup"><span data-stu-id="34981-114">BG</span></span>  <br/> |
+|<span data-ttu-id="34981-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="34981-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="34981-116">該当なし</span><span class="sxs-lookup"><span data-stu-id="34981-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="34981-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="34981-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="34981-118">該当なし</span><span class="sxs-lookup"><span data-stu-id="34981-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="34981-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="34981-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="34981-120">はい</span><span class="sxs-lookup"><span data-stu-id="34981-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="34981-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="34981-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="34981-p102">部分的。コメント参照。</span><span class="sxs-lookup"><span data-stu-id="34981-p102">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="34981-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="34981-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="34981-125">Vivacom &amp; Globul Mobile から携帯電話アクセス。</span><span class="sxs-lookup"><span data-stu-id="34981-125">Mobile access from Vivacom &amp; Globul Mobile.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="5bf0b-126">関連トピック</span><span class="sxs-lookup"><span data-stu-id="5bf0b-126">Related topics</span></span>
-[<span data-ttu-id="5bf0b-127">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="5bf0b-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+## <a name="related-topics"></a><span data-ttu-id="34981-126">関連項目</span><span class="sxs-lookup"><span data-stu-id="34981-126">Related topics</span></span>
+[<span data-ttu-id="34981-127">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="34981-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="5bf0b-128">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="5bf0b-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="34981-128">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="34981-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
- 

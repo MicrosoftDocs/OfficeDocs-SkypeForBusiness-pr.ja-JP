@@ -1,5 +1,5 @@
 ---
-title: Mobility (Planning Tool)
+title: モビリティ (計画ツール)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,18 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
-description: Skype for Business Server のモビリティ機能は、モバイル デバイスで Skype for Business 機能をサポートします。
-ms.openlocfilehash: dd28a768137f4f035c657f582c6ead5b3288a9a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server のモビリティ機能は、モバイル デバイス上の Skype for Business 機能をサポートします。
+ms.openlocfilehash: 9f446891cece9d0689ea2925c05fa9a1f7acfdef
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819707"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116495"
 ---
-# <a name="mobility-planning-tool"></a><span data-ttu-id="c3201-103">Mobility (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="c3201-103">Mobility (Planning Tool)</span></span>
+# <a name="mobility-planning-tool"></a><span data-ttu-id="d5750-103">モビリティ (計画ツール)</span><span class="sxs-lookup"><span data-stu-id="d5750-103">Mobility (Planning Tool)</span></span>
  
-<span data-ttu-id="c3201-104">Skype for Business Server のモビリティ機能は、モバイル デバイスで Skype for Business 機能をサポートします。</span><span class="sxs-lookup"><span data-stu-id="c3201-104">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span>
+<span data-ttu-id="d5750-104">Skype for Business Server のモビリティ機能は、モバイル デバイス上の Skype for Business 機能をサポートします。</span><span class="sxs-lookup"><span data-stu-id="d5750-104">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span>
   
-<span data-ttu-id="c3201-105">モビリティ機能は、Skype for Business Server と Lync Server 2013 の場合と同じです。</span><span class="sxs-lookup"><span data-stu-id="c3201-105">Mobility functionality is the same in Skype for Business Server as in Lync Server 2013.</span></span> <span data-ttu-id="c3201-106">モビリティの環境の準備の詳細については [、「Lync Server 2013](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx)でのモビリティの計画」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="c3201-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](https://technet.microsoft.com/library/hh689981%28v=ocs.15%29.aspx).</span></span>
-  
-
+<span data-ttu-id="d5750-105">モビリティ機能は、Skype for Business Server の Lync Server 2013 と同じです。</span><span class="sxs-lookup"><span data-stu-id="d5750-105">Mobility functionality is the same in Skype for Business Server as in Lync Server 2013.</span></span> <span data-ttu-id="d5750-106">モビリティのための環境の準備の詳細については [、「Lync Server 2013 での](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)モビリティの計画」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="d5750-106">For more details about preparing your environment for mobility, see [Planning for mobility in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility).</span></span>

@@ -22,35 +22,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: これは、国/地域ごとに無料電話番号をダイヤルする方法を確認するのに役立ちます。 国または地域を選択すると、無料サービスの利用可能な無料サービスの利用に関する具体的な詳細、制限、制限が記載された国固有のページに移動します。 ダイヤル形式または形式では、無料番号をダイヤルするために、各国または地域で必要なアクセスコードが表示されます。
-ms.openlocfilehash: 773f8daacbd81f8d46137dcc2c668ab5183c8a4e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
+ms.openlocfilehash: 818c796b45f5207b074bb94d2a533702c3a8a25e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693712"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116565"
 ---
-# <a name="toll-free-dialing-restrictions-in-uruguay"></a><span data-ttu-id="7f26c-105">ウルグアイでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="7f26c-105">Toll-free dialing restrictions in Uruguay</span></span>
+# <a name="toll-free-dialing-restrictions-in-uruguay"></a><span data-ttu-id="3b343-105">ウルグアイでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="3b343-105">Toll-free dialing restrictions in Uruguay</span></span>
 
-<span data-ttu-id="7f26c-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)するか、無料ダイヤルの制限事項と制限についてご確認ください。</span><span class="sxs-lookup"><span data-stu-id="7f26c-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="3b343-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="3b343-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="7f26c-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="7f26c-107">**Details**</span></span>|<span data-ttu-id="7f26c-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="7f26c-108">**Description**</span></span>|
+|<span data-ttu-id="3b343-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="3b343-107">**Details**</span></span>|<span data-ttu-id="3b343-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="3b343-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="7f26c-109">無料通話を利用できますか?</span><span class="sxs-lookup"><span data-stu-id="7f26c-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="7f26c-110">あり</span><span class="sxs-lookup"><span data-stu-id="7f26c-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="7f26c-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="7f26c-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="7f26c-112">0004 019 XXXX</span><span class="sxs-lookup"><span data-stu-id="7f26c-112">0004 019 XXXX</span></span>  <br/> |
-|<span data-ttu-id="7f26c-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="7f26c-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="7f26c-114">UY</span><span class="sxs-lookup"><span data-stu-id="7f26c-114">UY</span></span>  <br/> |
-|<span data-ttu-id="7f26c-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="7f26c-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="7f26c-116">該当しない</span><span class="sxs-lookup"><span data-stu-id="7f26c-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="7f26c-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="7f26c-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="7f26c-118">該当しない</span><span class="sxs-lookup"><span data-stu-id="7f26c-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="7f26c-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="7f26c-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="7f26c-120">あり。クラロからの場合を除きます。</span><span class="sxs-lookup"><span data-stu-id="7f26c-120">Yes, except from Claro.</span></span>  <br/> |
-|<span data-ttu-id="7f26c-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="7f26c-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="7f26c-p102">部分的。コメント参照。</span><span class="sxs-lookup"><span data-stu-id="7f26c-p102">Partial. See comments.</span></span>  <br/> |
-|<span data-ttu-id="7f26c-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="7f26c-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="7f26c-125">携帯電話アクセス: 通話時間が課金される。</span><span class="sxs-lookup"><span data-stu-id="7f26c-125">Mobile access: Airtime is charged.</span></span> <span data-ttu-id="7f26c-126">携帯電話アクセス: Movistar から入手できます。</span><span class="sxs-lookup"><span data-stu-id="7f26c-126">Mobile access: Available from Ancel and Movistar.</span></span>  <br/> |
+|<span data-ttu-id="3b343-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="3b343-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="3b343-110">はい</span><span class="sxs-lookup"><span data-stu-id="3b343-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="3b343-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="3b343-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="3b343-112">0004 019 XXXX</span><span class="sxs-lookup"><span data-stu-id="3b343-112">0004 019 XXXX</span></span>  <br/> |
+|<span data-ttu-id="3b343-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="3b343-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="3b343-114">UY</span><span class="sxs-lookup"><span data-stu-id="3b343-114">UY</span></span>  <br/> |
+|<span data-ttu-id="3b343-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="3b343-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="3b343-116">該当なし</span><span class="sxs-lookup"><span data-stu-id="3b343-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="3b343-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="3b343-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="3b343-118">該当なし</span><span class="sxs-lookup"><span data-stu-id="3b343-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="3b343-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="3b343-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="3b343-120">○ (Claro を除く)。</span><span class="sxs-lookup"><span data-stu-id="3b343-120">Yes, except from Claro.</span></span>  <br/> |
+|<span data-ttu-id="3b343-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="3b343-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="3b343-p102">部分的。コメント参照。</span><span class="sxs-lookup"><span data-stu-id="3b343-p102">Partial. See comments.</span></span>  <br/> |
+|<span data-ttu-id="3b343-124">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="3b343-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="3b343-125">携帯電話アクセス: 通話時間が課金される。</span><span class="sxs-lookup"><span data-stu-id="3b343-125">Mobile access: Airtime is charged.</span></span> <span data-ttu-id="3b343-126">モバイル アクセス: Ancel と Movistar から利用できます。</span><span class="sxs-lookup"><span data-stu-id="3b343-126">Mobile access: Available from Ancel and Movistar.</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="7f26c-127">関連トピック</span><span class="sxs-lookup"><span data-stu-id="7f26c-127">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="3b343-127">関連項目</span><span class="sxs-lookup"><span data-stu-id="3b343-127">Related topics</span></span>
 
-[<span data-ttu-id="7f26c-128">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="7f26c-128">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="3b343-128">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="3b343-128">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="7f26c-129">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="7f26c-129">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="3b343-129">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="3b343-129">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
- 
