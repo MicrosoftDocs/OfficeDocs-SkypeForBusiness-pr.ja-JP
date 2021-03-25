@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で会議の構成設定を作成する
+title: Skype for Business Server で会議構成設定を作成する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: '概要: Skype for Business Server で会議の構成設定を作成する方法について説明します。'
-ms.openlocfilehash: edc498ed3847618b17970fb2270c21fd3f4ec025
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: Skype for Business Server で会議構成設定を作成する方法について説明します。'
+ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828207"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119516"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で会議の構成設定を作成する
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で会議構成設定を作成する
  
-**概要:** Skype for Business Server で会議の構成設定を作成する方法について説明します。
+**概要:** Skype for Business Server で会議構成設定を作成する方法について説明します。
   
-会議の構成設定は、Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して作成できます。
+会議の構成設定は、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して作成できます。
   
 ## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議の構成設定を作成する
 
@@ -67,7 +67,7 @@ ms.locfileid: "49828207"
     
 ## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議の構成設定を作成する
 
-会議の構成設定を作成するには **、New-CsMeetingConfiguration コマンドレットを使用** します。
+会議構成設定を作成するには **、New-CsMeetingConfiguration コマンドレットを使用** します。
   
 次のコマンドは、Redmond サイトの会議構成設定の新しいセットを作成します。
   
@@ -83,12 +83,10 @@ New-CsMeetingConfiguration -Identity "site:Redmond"
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 
-複数のパラメーターを含めて、複数のプロパティ値を設定できます。 たとえば、次のコマンドは、全員が発表者として会議に参加するのを許可し、PSTN ユーザーが会議に正式に参加を許可されるまでロビーで待機する必要があります。
+複数のパラメーターを含めて、複数のプロパティ値を設定できます。 たとえば、次のコマンドは、全員が発表者として会議に参加し、PSTN ユーザーが会議に正式に出席するまでロビーで待機する必要があります。
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-パラメーターの完全な一覧を含む詳細については [、「New-CsMeetingConfiguration」を参照してください](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)。
-  
-
+パラメーターの完全なリストを含む詳細については [、「New-CsMeetingConfiguration」を参照してください](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)。

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この記事では、Teams と Skype for Business のクラウド統合の一環としてハイブリッドを無効にする詳細な手順について説明します。
-ms.openlocfilehash: 90ec73246007542ad0215007b0da91f4fe9405e8
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 36ec3cba2d821cc8554e0fba95108756c83b7b3d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874697"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120356"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud-overview"></a>ハイブリッドを無効にしてクラウドへの移行を完了する: 概要
 
@@ -99,7 +99,7 @@ ms.locfileid: "50874697"
 
   ![Active Directory ユーザーとコンピューター ツール](../media/disable-hybrid-1.png)
   
--  ユーザーが移動前にオンプレミスの値を持っていなかった場合は、Skype for Business Online PowerShell モジュールの `msRTCSIP-Line` `onpremLineUri` [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) コマンドレットの - パラメーターを使用して電話番号を変更できます。
+-  ユーザーが移動前にオンプレミスの値を持っていなかった場合は、Skype for Business Online PowerShell モジュールの `msRTCSIP-Line` `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) コマンドレットの - パラメーターを使用して電話番号を変更できます。
 
 これらの手順は、ハイブリッドを無効にした後に作成された新しいユーザーには必要ありません。また、それらのユーザーはクラウドで直接管理できます。 これらのメソッドを組み合わせ、msRTCSIP 属性をオンプレミスの Active Directory に置き去りにする場合は、オンプレミスの Skype for Business サーバーを簡単に再イメージできます。 ただし、すべての msRTCSIP 属性をクリアし、Skype for Business Server の従来のアンインストールを行う場合は、方法 2 を使用します。
 

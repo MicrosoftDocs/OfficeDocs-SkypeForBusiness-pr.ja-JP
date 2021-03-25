@@ -1,5 +1,5 @@
 ---
-title: ユーザーの新しい Lync Server ユーザー
+title: ユーザー 新しい Lync Server ユーザー
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,41 +15,37 @@ localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 527e183b6e4f571a3732f46ea77290e0dbbfba1b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c5b35d54147b3858e48b9e76dee30ab41f29ae65
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820197"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120066"
 ---
 # <a name="users-new-user"></a>ユーザー: 新しいユーザー
 
 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
 
-- [新しいユーザーを追加する](https://technet.microsoft.com/library/1edd1c1c-307d-450b-abea-33aaf56bdf13.aspx)
+- [新しいユーザーの追加](/previous-versions/office/lync-server-2013/lync-server-2013-add-and-enable-user-account-for-lync-server)
 
-- [ユーザーを有効または無効にする](https://technet.microsoft.com/library/12497d00-f665-4a97-be68-854c5a8be4fc.aspx)
+- [ユーザーを有効または無効にする](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)
 
-- [会議ポリシーを割り当て、ユーザーの既定の会議エクスペリエンスを変更する](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [会議ポリシーを割り当て、ユーザーの既定の会議エクスペリエンスを変更する](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-conferencing-policy)
 
-- [ユーザーによるサインインでサポートされるクライアント バージョンを指定する](https://technet.microsoft.com/library/f7e8ba2f-62dc-4e7d-8b63-682986f10240.aspx)
+- [ユーザーによるサインインでサポートされるクライアント バージョンの指定](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [Skype for Business Server でユーザー単位の PIN ポリシーを割り当てる](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [Skype for Business Server でユーザーごとの PIN ポリシーを割り当てる](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続の構成](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成する](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
-- [ユーザーの通信のアーカイブを構成する](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
+- [ユーザーの通信のアーカイブを構成する](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-archiving-policy)
 
-- [ユーザーに場所ポリシーを割り当てる](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
+- [ユーザーに場所ポリシーを割り当てる](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [Skype for Business Server でエンタープライズ VoIPを有効にする](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [Skype for Business Server でエンタープライズ VoIPユーザーを有効にする](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続の構成](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成する](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
-- [ユーザーのテレフォニーの構成](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [ユーザーのテレフォニーの構成](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
-- [ユーザー単位のモビリティ ポリシーの割り当て](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
-
-
-
-
+- [ユーザー単位のモビリティ ポリシーの割り当て](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-mobility-policy)

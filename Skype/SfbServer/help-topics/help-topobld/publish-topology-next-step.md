@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: トポロジの公開が完了すると、[公開ウィザードの完了] ページが表示されます。
-ms.openlocfilehash: 1974ac4e9c2e6d6f617e85af7743a620f3cb6c07
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 318eec747fd812bc411a9d900e917bce0fc4a7d4
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823687"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119616"
 ---
 # <a name="publish-topology-next-step"></a>トポロジの公開の次の手順
 
@@ -31,10 +31,8 @@ ms.locfileid: "49823687"
 > [!NOTE]
 > トポロジの公開プロセス中のすべての手順にログ ファイルが関連付けられているわけではありません。手順を選択したときに [**ログの表示**] が操作可能になれば、その手順のログ ファイルが作成されています。[**ログの表示**] ボタンが操作可能にならない (灰色表示されている) 場合、その手順のログ ファイルは作成されていません。
 
-トポロジを完了するのに必要な次の手順を確認するには、[**TO-DO リストを開くには、ここをクリックします**] リンクをクリックします。 このリンクをクリックすると開くテキスト ファイルには、ローカル セットアップを実行する必要があるサーバーと、展開を完了するために実行する必要のある追加手順が示されています。 一覧にあるタスクごとに、「展開」のドキュメントの該当するセクションを参照してください。 詳細については、「[Deploying Lync Server 2013 Preview](https://technet.microsoft.com/library/b76795a4-4e71-4c70-a5c0-d1197fa8028c.aspx)」と、TO-DO リストに記載されているサーバー役割ごとの関連セクションを参照してください。
+トポロジを完了するのに必要な次の手順を確認するには、[**TO-DO リストを開くには、ここをクリックします**] リンクをクリックします。 このリンクをクリックすると開くテキスト ファイルには、ローカル セットアップを実行する必要があるサーバーと、展開を完了するために実行する必要のある追加手順が示されています。 一覧にあるタスクごとに、「展開」のドキュメントの該当するセクションを参照してください。 詳細については、「[Deploying Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-lync-server)」と、TO-DO リストに記載されているサーバー役割ごとの関連セクションを参照してください。
 
 [**完了**] をクリックします。
 
-詳細については、「[Publish the Topology](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx)」を参照してください。
-
-
+詳細については、「[Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology)」を参照してください。

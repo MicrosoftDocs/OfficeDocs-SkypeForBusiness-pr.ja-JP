@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
-description: '概要: コントロール パネルまたは管理シェルを使用して、Skype for Business Server でダイヤルイン会議を有効または無効にする方法について説明します。'
-ms.openlocfilehash: 99691540306ba0cccf9c63af2e2188e839367bc6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: コントロール パネルまたは管理シェルを使用して Skype for Business Server でダイヤルイン会議を有効または無効にする方法について説明します。'
+ms.openlocfilehash: ade7753f480856d68535daadda40eac6296a5d6e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828127"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119466"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でダイヤルイン会議を有効または無効にする
  
-**概要:** コントロール パネルまたは管理シェルを使用して、Skype for Business Server でダイヤルイン会議を有効または無効にする方法について説明します。
+**概要:** コントロール パネルまたは管理シェルを使用して Skype for Business Server でダイヤルイン会議を有効または無効にする方法について説明します。
   
-ダイヤルイン会議は、Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して有効にできます。
+ダイヤルイン会議は、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して有効にできます。
   
 ## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してダイヤルイン会議を有効または無効にする
 
@@ -41,12 +41,10 @@ ms.locfileid: "49828127"
     
 ## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してダイヤルイン会議を有効または無効にする
 
-ダイヤルイン会議を有効または無効にするには、次のように **Set-CsConferencingPolicy** コマンドレットを EnableDialInConferencing パラメーターと一緒に使用します。
+ダイヤルイン会議を有効または無効にするには、次のように EnableDialInConferencing パラメーターを使用して **Set-CsConferencingPolicy** コマンドレットを使用します。
   
 ```PowerShell
 Set-CsConferencingPolicy  [-EnableDialInConferencing <$true | $false>] 
 ```
 
-詳細については [、「Set-CsConferencingPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
-  
-
+詳細については [、「Set-CsConferencingPolicy」を参照してください](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。

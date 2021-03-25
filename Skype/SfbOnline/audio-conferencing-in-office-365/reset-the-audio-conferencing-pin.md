@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online で電話会議の PIN をリセットする
+title: Skype for Business Online の電話会議 PIN をリセットする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,65 +20,65 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Pin について知っておくべきことと、Skype for Business Online で Pin をリセットする方法について説明します。 '
-ms.openlocfilehash: 21e2742653e72919df0647c0539fdb335585cc84
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 'PIN について知るべきことを確認し、Skype for Business Online で PIN をリセットする方法について確認します。 '
+ms.openlocfilehash: 4b042775a5a0525099c0116d7d55d0092f560cdf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164696"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51114203"
 ---
-# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Skype for Business Online で電話会議の PIN をリセットする
+# <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Skype for Business Online の電話会議 PIN をリセットする
 
 > [!Note]
-> Microsoft Teams で電話会議の pin をリセットする方法については、「 [Microsoft teams で電話会議の pin をリセットする](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams)」を参照してください。
+> Microsoft Teams で電話会議 PIN をリセットする方法については、「Microsoft Teams で電話会議 PIN をリセットする」 [を参照してください](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams)。
 
-PIN は、電話会議用に有効になっている各 Skype for Business ユーザー用に作成された番号で構成されるコードです。 電話会議の Pin は、会議の開催者が会議の開催者であり、電話で会議を開始できることを示すために使用されます。 Skype for Business アプリを使用して会議を開始する場合、PIN は必要ありません。 ユーザーが PIN を忘れた場合、電話会議用に有効にしたときに送信されたメールでその PIN が見つからない場合は、管理者が自分の pin をリセットするか、自分の pin をリセットすることができます。
+PIN は、電話会議が有効になっている各 Skype for Business ユーザーに対して作成される番号で構成されるコードです。 電話会議 PIN は、会議の開催者が自分が会議の開催者であり、電話で会議を開始するために使用されます。 Skype for Business アプリを使用して会議を開始する場合、PIN は必要ありません。 ユーザーが自分の PIN を忘れて、電話会議で有効になっていたときに送信されたメールで PIN を見つからなかった場合、管理者は自分の PIN をリセットするか、自分の PIN をリセットできます。
   
-認証されたユーザーが Skype for Business アプリを使用して参加している場合、または開催者が電話を介して自分の PIN を使って参加している場合、会議を開始できます。 会議の開始に PIN が必要な場合、電話で参加するユーザーはロビーで待機し、会議が開始するまで保留音を聞くことになります。 会議の開催者が、電話で会議を開始するための PIN を要求しない場合、発信者は会議に参加しようとするときに PIN の提示を求められません。
+認証されたユーザーが Skype for Business アプリを使用して参加する場合、または開催者が自分の PIN で電話で参加すると、会議を開始できます。 会議の開始に PIN が必要な場合、電話で参加するユーザーはロビーで待機し、会議が開始するまで保留音を聞くことになります。 会議の開催者が、電話で会議を開始するための PIN を要求しない場合、発信者は会議に参加しようとするときに PIN の提示を求められません。
   
 ## <a name="reset-a-users-pin"></a>ユーザーの PIN をリセットする
 
-1. 職場または学校のアカウントを使用してサインインします。
+1. 仕事用または学校用のアカウントでサインインします。
     
-2. **Skype For business**> 管理センターに移動し、左側のナビゲーションで [**電話会議**] をクリックします。
+2. **Skype for Business** の管理センター>移動し、左側のナビゲーションで [電話会議]**をクリックします**。
     
-3. [**ユーザー**] をクリックし、PIN をリセットするユーザーを選びます。
+3. [ユーザー **] を** クリックし、PIN をリセットするユーザーを選択します。
     
-4. PIN をリセットした後、PIN が表示されるのは 1 回だけです。********
+4. PIN をリセットした後、PIN が表示されるのは 1 回だけです。
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
    
-## <a name="have-a-user-reset-his-or-her-own-pin"></a>ユーザーが自分の PIN をリセットする
+## <a name="have-a-user-reset-his-or-her-own-pin"></a>ユーザーに自分の PIN をリセットする
 
-ユーザーは、**ダイヤルイン会議**ページの [ **pin のリセット**] オプションを使用して pin をリセットできます。 このページにアクセスするには、次の3つの方法があります。
+ユーザーは、[ダイヤルイン会議] ページの **[PIN** のリセット] オプションを使用して PIN **をリセット** できます。 このページには、次の 3 つの方法のいずれかを使用してアクセスできます。
 
-* ブラウザーで、に[https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling)アクセスします。
-* Skype for business で、[**オプション**] の横にある [**メニューを表示する]** 矢印をクリックし、[**ツール** > ] の [**ダイヤルイン会議の設定**] をクリックします。
-* Skype for Business で、[**オプション**] をクリックし、左側のメニューの [**着信の転送**] をクリックします。次に、[**通話の詳細設定**] セクションで、[**オンラインで設定を編集**する] をクリックします。 
+* ブラウザーで、 [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling)
+* Skype for Business で、[オプション] の横にある [メニューの表示] 矢印をクリックし、[ツール] の [ダイヤルイン会議の設定]  >  **をクリックします**。
+* Skype for Businessで、[オプション] をクリックし、左側のメニューで[通話の転送] をクリックし、[その他の通話設定] セクションで [オンラインで設定の編集] をクリック **します**。  
 
 ## <a name="what-else-should-you-know-about-pins"></a>PIN について知っておくべきその他のこと
 
-- セキュリティ保護のため、PIN のリセット時に PIN は 1 回だけ管理者に表示されます。 PIN が管理者によってリセットされた後は、Windows PowerShell で CsCsOnlineDialInConfencingUser を使用すると、 **Skype For business 管理センター**と結果に pin が * * * * * * * * * * * * * と表示されます。
+- セキュリティ保護のため、PIN のリセット時に PIN は 1 回だけ管理者に表示されます。 管理者によって PIN がリセットされた後 **、SKYPE for Business** 管理センターと、管理者が Windows PowerShell で Get-CsCsOnlineDialInConfencingUser を使用すると、PIN が *********** として表示されます。
     
-- ユーザーにメールを自動的に送信する機能は既定で有効になっています。電話会議が有効になっているか、PIN がリセットされると、ユーザーは PIN を含むメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN のリセットメールはユーザーに送信されず、ユーザーに PIN 情報を手動で送信する必要があります。
+- ユーザーへのメールの自動送信は既定で有効になっています。ユーザーが電話会議で有効になっている場合、または PIN がリセットされた場合、ユーザーは自分の PIN が記載されたメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN リセット メールはユーザーに送信されません。PIN 情報を手動でユーザーに送信する必要があります。
     
 - 会議が始まると、ロビー内のすべてのユーザーは自動的にその会議に参加します。 たとえば、会議が始まる前に 2 人の参加者が会議に参加しようとすると、ロビーで待って保留音を聞くことになります。会議の開催者が自分の PIN を使用して電話で参加すると、会議が始まり、ロビーにいる参加者が会議に参加します。
     
-- 既定の設定では、匿名の発信者が会議を開始することは許可されていません。
+- 既定の設定では、匿名の発信者による会議の開始を許可しません。
     
-- 電話会議のユーザーを有効にすると、既定では、会議の情報とその PIN を含むメールが送信されます。 PIN がリセットされると、ユーザーに対して設定されているプライマリ SMTP アドレス (エイリアス) に新しい PIN がメールのユーザーに送信されるため、Microsoft 365 または Office 365 メールボックスが必要です。
+- ユーザーを電話会議用に有効にした場合、既定では、ユーザーは会議情報と PIN を含むメールを送信します。 PIN がリセットされた場合、ユーザーに設定されているプライマリ SMTP アドレス (エイリアス) に新しい PIN がメールで送信されるので、ユーザーは Microsoft 365 または Office 365 メールボックスを持っている必要があります。
     
-- 電話会議をセットアップするときには、組織内の Pin に必要な数字を設定します。 Pin は 4 ~ 12 桁にすることができます。既定値は5です。 PIN の長さの設定を変更した場合、設定は新しく生成された Pin にのみ適用され、電話会議用に有効になっている既存のユーザーの PIN の設定には適用されません。 「[電話会議の PIN の長さを設定](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)する」を参照してください。
+- 電話会議をセットアップするときに、組織内の PIN に必要な数字を設定します。 PIN は 4 ~ 12 桁で指定できます。既定値は 5 です。 PIN の長さの設定を変更した場合、この設定は新しく生成された PIN にのみ適用され、電話会議で有効になっている既存のユーザーの PIN 設定には適用されません。 「 [電話会議の PIN の長さを設定する」を参照してください](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)。
     
-- 既定では、メールはユーザーの Microsoft 365 または Office 365 プライマリ SMTP アドレスに設定されます。 メールは、Microsoft 以外の365または Office 以外の365アドレス (Hotmail または MSN のメールアドレスなど) に送信できます。 Windows PowerShell を使用して、既定のメールアドレスを上書きできます。 これは、ユーザーが Microsoft 365 または Office 365 で Exchange メールボックスを持っていない場合に便利です。
+- 既定では、メールはユーザーの Microsoft 365 Office 365 プライマリ SMTP アドレスに設定されます。 Microsoft 365 以外のアドレスまたは Office 365 以外のアドレス (Hotmail や MSN のメール アドレスなど) にメールを送信できます。 既定のメール アドレスを上書きするには、既定のメール Windows PowerShell。 これは、ユーザーが Microsoft 365 または 365 に Exchange メールボックスを持Office便利です。
     
-- メールを送信する既定のユーザーアドレスを上書きするには、テナント管理者が次のコマンドレットを使用できます: Get-csonlinedialinconferencinguser-amos-SendEmail-SendEmailToAddress "u@hotmail.com" ユーザーのメールアドレスを上書きするには、SendEmail パラメーターが必要です。
+- メールが送信される既定のユーザー アドレスを上書きするには、テナント管理者は次のコマンドレットを使用できます: Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com。 ユーザーのメール アドレスを上書きするには、SendEmail パラメーターが必要です。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
-- 時間を節約したり、自動化したりするには、[Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ) コマンドレットを使用できます。
+- 時間を節約したり、自動化したりするには、[Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) コマンドレットを使用できます。
     
 - 次のコマンドレットを実行すると、Amos Marble の PIN を設定できます。
     
@@ -86,19 +86,19 @@ PIN は、電話会議用に有効になっている各 Skype for Business ユ�
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- Windows PowerShell では、ユーザーの管理と、許可または許可されていないユーザーの操作について説明します。 Windows PowerShell を使用すると、複数のタスクがある場合に、1つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、日常業務を簡素化することができます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell を使用すると、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する必要があるときに日常業務を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Windows PowerShell を使用して Microsoft 365 または Office 365 を管理するのに最適な方法](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 または Office 365 を管理するための最適Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - 多くのユーザーの設定を同時に変更するときなどは、Microsoft 365 管理センターのみを使用するよりも、Windows PowerShell を使用した方が、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。
     
-  - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-    [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [Windows PowerShell による Skype for Business Online の管理](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
     > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。

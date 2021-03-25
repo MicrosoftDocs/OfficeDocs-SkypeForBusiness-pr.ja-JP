@@ -14,26 +14,24 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
-description: Standard Edition サーバーの展開では、必要な Microsoft SQL Server Express データベース ソフトウェアと SQL Serverインストールされます。 したがって、すべてのオプションが事前に設定され、既定の構成を変更できない。
-ms.openlocfilehash: 939f12fa02951074e487066337c8bb76af59143a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Standard Edition サーバーの展開では、Express データベース ソフトウェアとデータベースに必要Microsoft SQL Serverが自動的にSQL Serverされます。 したがって、すべてのオプションが事前設定され、既定の構成を変更できない。
+ms.openlocfilehash: e369f58afd015953cf0b58ca9788965a4829fd16
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824077"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119736"
 ---
 # <a name="add-front-end-sql-server-store"></a>フロント エンド SQL Server ストアの追加
 
-Standard Edition サーバーの展開では、Express データベース ソフトウェアと Microsoft SQL Serverデータベースに必要なSQL Serverインストールされます。 したがって、すべてのオプションが事前に設定され、既定の構成を変更できない。
+Standard Edition サーバーの展開では、Express データベース ソフトウェアとデータベースに必要Microsoft SQL Serverが自動的にSQL Serverされます。 したがって、すべてのオプションが事前設定され、既定の構成を変更できない。
 
-Enterprise Edition サーバー展開のフロントエンド プールには、サポートされている 64 ビット版の SQL Server データベース ソフトウェアが必要です。 バック エンド データベースに使用する定義済みの SQL Server データベースを選択するか、または SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) と、新しい SQL Server データベースに使用する SQL Server のインスタンス (既定のインスタンス) を指定して、新しい SQL Server データベースを定義できます。、または指定した名前付きインスタンス)。 また、SQL Server ストアでミラーリングを有効にし、自動フェールオーバーのミラーリング監視を指定できます。
+Enterprise Edition サーバー展開のフロントエンド プールには、サポートされている 64 ビット 版の SQL Server データベース ソフトウェアが必要です。 以前に定義した SQL Server データベースを選択するか、SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) と、新しい SQL Server データベースに使用する SQL Server のインスタンス (既定のインスタンスを指定できる) を指定して、新しい SQL Server データベースを定義できます。、または指定した名前付きインスタンス)。 また、サーバー ストアでミラーリングを有効にし、SQL Serverミラーリング監視を指定して自動フェールオーバーを行う方法も選択できます。
 
-サポートの詳細SQL Serverサポート」のドキュメントの「 [データベース](https://technet.microsoft.com/library/e05d0032-bbea-4e61-987d-d07b1c045fd5.aspx) ソフトウェアとクラスタリングのサポート」を参照してください。 バックエンド データベース用の SQL Server の設定の詳細については、「展開」のドキュメントの「[Lync Server 2010 用 SQL Server の構成](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)」を参照してください。
-
-> [!NOTE]
-> トポロジの公開に使用するアカウントに適切なユーザー権限とアクセス許可がある場合は、トポロジを公開するときに、バック エンド データベース (リアルタイム通信 (RTC)) を作成できます。 インストール手順の一部を含め、データベースを後で作成することもできます。
+サポートの詳細SQL Serverサポートのドキュメントの「 [データベース ソフトウェア](/previous-versions/office/lync-server-2013/lync-server-2013-database-software-support) とクラスタリング サポート」を参照してください。 バックエンド データベース用の SQL Server の設定の詳細については、「展開」のドキュメントの「[Lync Server 2010 用 SQL Server の構成](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)」を参照してください。
 
 > [!NOTE]
-> Enterprise Edition 展開用に SQL Server ベースのサーバーにデータベースをインストールして展開するには、データベース ファイルをインストールする SQL Server ベースのサーバーの SQL Server sysadmins グループのメンバーである必要があります。 SQL Server sysadmins グループのメンバーではない場合は、データベース ファイルが展開されるまでグループへの追加を要求する必要があります。 sysadmins グループのメンバーにできない場合は、データベースを構成および展開するスクリプトを SQL Server データベース管理者に提供する必要があります。 手順を実行するために必要なユーザー権限とアクセス許可の詳細については、「展開のアクセス許可」 [を](https://technet.microsoft.com/library/56ea0c02-bcf5-4d45-aa13-570531c29074.aspx)参照SQL Server。
+> トポロジの公開に使用されるアカウントに適切なユーザー権限とアクセス許可がある場合は、トポロジを公開するときに、バック エンド データベース (リアルタイム通信 (RTC)) を作成できます。 インストール手順の一部を含め、データベースを後で作成することもできます。
 
-
+> [!NOTE]
+> エンタープライズ エディション展開用の SQL Server ベースのサーバーにデータベースをインストールして展開するには、データベース ファイルをインストールする SQL Server ベースのサーバーの SQL Server sysadmins グループのメンバーである必要があります。 SQL Server sysadmins グループのメンバーではない場合は、データベース ファイルが展開されるまでグループへの追加を要求する必要があります。 sysadmins グループのメンバーにできない場合は、データベースを構成および展開するためのスクリプトを SQL Server データベース管理者に提供する必要があります。 手順を実行するために必要なユーザー権限とアクセス許可の詳細については、「展開アクセス許可 for SQL Server」 [を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-permissions-for-sql-server)。

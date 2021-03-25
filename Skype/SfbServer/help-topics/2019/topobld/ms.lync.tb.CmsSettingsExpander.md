@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: 中央管理サーバーを、ある定義済みのフロントエンドのプールから別の定義済みのフロントエンドのプールに変更できます。 中央管理サーバーの場所を変更するには、[中央管理サーバーをインストールするフロントエンド サーバー] の下のドロップダウン リストからフロントエンド プールを選択します。 フロントエンド サーバーは、Enterprise Edition フロントエンドのプールまたは Standard Edition フロントエンド サーバーのいずれかにできます。
-ms.openlocfilehash: db6bec4665da0e885a37ddcdac9c43ded1ee0da1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f0a2539496f10660195790b1168fd08c28ba5263
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811147"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120014"
 ---
 # <a name="cms-settings-expander"></a>CMS 設定エキスパンダー
  
@@ -29,6 +29,4 @@ ms.locfileid: "49811147"
 > [!IMPORTANT]
 > インフラストラクチャに中央管理ストアを定義、公開、および展開している場合は、外部処理によって中央管理ストアを別のフロントエンドに再配置しないと、中央管理ストアの場所を変更することはできません。 
   
-中央管理サーバー ストアの移動の詳細については、次のコマンドレット リファレンスの [「Move-CsManagementServer」Windows PowerShell](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) 参照してください。
-  
-
+中央管理サーバー ストアの移動の詳細については [、「Move-CsManagementServer」](/powershell/module/skype/move-csmanagementserver?view=skype-ps) の「サーバー全体のコマンドレットリファレンスWindows PowerShell参照してください。

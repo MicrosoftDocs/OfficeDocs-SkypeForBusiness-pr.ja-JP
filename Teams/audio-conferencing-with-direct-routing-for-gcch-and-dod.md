@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 管理者は、GCCH および DoD 環境での直接ルーティングで電話会議を使用する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84f2789c6d4f4e9c5446ad39d6f2d50d842b92a6
-ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
+ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50716933"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119336"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High および DoD のダイレクト ルーティングを使用する電話会議
 
@@ -43,7 +43,7 @@ GCC High または DoD で電話会議を使用するには、組織と組織内
 
 - DoD: 電話会議 - 組織の DoD テナント ライセンスと電話会議 - ユーザーの DoD ライセンス。
 
-サービスを有効にするには、テナント ライセンスと少なくとも 1 つのユーザー ライセンスが必要です。 テナント ライセンスのみを使用するか、ユーザー ライセンスのみを使用してサービスを有効にできません。 テナントと組織内のユーザーのサービス ライセンスを取得するには、アカウント チームにお問い合わせください。
+サービスを有効にするには、テナント ライセンスと少なくとも 1 つのユーザー ライセンスが必要です。 テナント ライセンスのみ、またはユーザー ライセンスのみを使用してサービスを有効にできません。 テナントと組織内のユーザーのサービス ライセンスを取得するには、アカウント チームにお問い合わせください。
 
 > [!IMPORTANT]
 > ダイヤルイン電話番号が設定され、ユーザーが Teams クライアントで動作するダイヤル パッドを使用するまで、ユーザーは直接ルーティングを使用して電話会議を有効にすることはできません。 この記事で説明するダイヤルイン電話番号を設定するまで、GCC High ライセンスまたは DoD ライセンスのダイレクト ルーティングを使用する電話会議をユーザーに割り当てないでお勧めします。
@@ -94,14 +94,14 @@ Get-CsOnlineDialInConferencingBridge を使用して、電話会議ブリッジ�
 
 ### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>手順 4: グローバル音声ルーティング ポリシーを定義して、会議からの送信通話のルーティングを有効にする
 
-組織内のユーザーが開催した会議から PSTN に対して行われた発信通話のルーティングは、組織のグローバル音声ルーティング ポリシーによって定義されます。 組織でグローバル音声ルーティング ポリシーが定義されている場合は、グローバル音声ルーティング ポリシーで、組織内のユーザーが開催する会議から開始される予定の PSTN への発信通話が許可されていないことを確認してください。 組織にグローバル音声ルーティング ポリシーが定義されていない場合は、組織内のユーザーが開催する会議から PSTN への発信通話のルーティングを有効にするグローバル 音声ルーティング ポリシーを定義する必要があります。 組織のグローバル音声ルーティング ポリシーは、組織内のユーザーが PSTN に対して行った 1 対 1 の通話にも適用されます。 PSTN への 1 対 1 の通話が組織内のユーザーに対して有効になっている場合は、グローバル音声ルーティング ポリシーが両方の種類の通話に対する組織のニーズを満たしているか確認します。 
+組織内のユーザーによって開催された会議から PSTN に対して行われた発信通話のルーティングは、組織のグローバル音声ルーティング ポリシーによって定義されます。 組織でグローバル音声ルーティング ポリシーが定義されている場合は、グローバル音声ルーティング ポリシーで、組織内のユーザーが開催する会議から開始される予定の PSTN への発信通話が許可されていないことを確認してください。 組織にグローバル音声ルーティング ポリシーが定義されていない場合は、組織内のユーザーが開催する会議から PSTN への発信通話のルーティングを有効にするグローバル音声ルーティング ポリシーを定義する必要があります。 組織のグローバル音声ルーティング ポリシーは、組織内のユーザーが PSTN に対して行った 1 対 1 の通話にも適用されます。 PSTN への 1 対 1 の通話が組織内のユーザーに対して有効になっている場合は、グローバル音声ルーティング ポリシーが両方の種類の通話に対する組織のニーズを満たしているか確認します。 
 
 > [!NOTE]
-> Location-Basedルーティングは、Microsoft 365 Government Community Cloud (GCC) High または DoD 展開では利用できません。 電話会議を有効にする場合は、GCC High または DoD 環境の電話会議ユーザーが会議ルーティングに対して有効になっていないことをLocation-Basedしてください。
+> Location-Basedルーティングは、Microsoft 365 Government Community Cloud (GCC) High または DoD 展開では利用できません。 電話会議を有効にする場合は、GCC High または DoD 環境の電話会議ユーザーが電話会議ルーティングに対して有効になっていないことをLocation-Basedしてください。
 
 #### <a name="defining-a-global-voice-routing-policy"></a>グローバル 音声ルーティング ポリシーの定義
 
-グローバル音声ルーティング ポリシーは、PSTN の使用状況、音声ルート、音声ルーティング ポリシーを定義し、新しい音声ルーティング ポリシーを組織のグローバル音声ルーティング ポリシーとして割り当てると定義できます。
+グローバル音声ルーティング ポリシーは、PSTN の使用状況、音声ルート、音声ルーティング ポリシーを定義し、新しい音声ルーティング ポリシーを組織のグローバル 音声ルーティング ポリシーとして割り当てると定義できます。
 
 次の手順では、組織に新しいグローバル音声ルーティング ポリシーを定義する方法について説明します。 組織で音声ルーティング ポリシーが既に定義されている場合は、次の構成が組織の既存の音声ルーティング ポリシーと競合しなされていないことを確認します。
 
@@ -111,7 +111,7 @@ Skype for Business Online のリモート PowerShell セッションで新しい
   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
   ```
 
-詳細については [、「Set-CsOnlinePstnUsage」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage)。
+詳細については [、「Set-CsOnlinePstnUsage」を参照してください](/powershell/module/skype/set-csonlinepstnusage)。
 
 新しい音声ルートを作成するには、次のコマンドを使用します。
 
@@ -123,7 +123,7 @@ Skype for Business Online のリモート PowerShell セッションで新しい
 
 番号パターンは、呼び出し先の電話番号に基づいて、指定されたゲートウェイのリストを介してルーティングされる通話を指定します。 上記の例では、世界中の任意の宛先への呼び出しが音声ルートと一致します。 組織内のユーザーの会議からダイヤルできる電話番号を制限する場合は、音声ルートが許可されている発信先の番号パターンにのみ一致する番号パターンを変更できます。 特定の通話の宛先電話番号の番号パターンに一致する音声ルートがない場合、通話はルーティングされません。
 
-詳細については [、「New-CsOnlineVoiceRoute」を参照してください](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroute)。
+詳細については [、「New-CsOnlineVoiceRoute」を参照してください](/powershell/module/skype/new-csonlinevoiceroute)。
 
 新しい音声ルーティング ポリシーを作成するには、次のコマンドを使用します。
 
@@ -131,9 +131,9 @@ Skype for Business Online のリモート PowerShell セッションで新しい
   New-CsOnlineVoiceRoutingPolicy "InternationalVoiceRoutingPolicy" -OnlinePstnUsages "International"
   ```
 
-音声ルーティング ポリシーで複数の PSTN 使用状況が定義されている場合、それらは定義された順序で評価されます。 PSTN の使用状況は、PSTN 使用状況に関連付けられている音声ルートの番号パターンに関して、より一般的な順に定義されるのが推奨されます。 たとえば、PSTN 使用状況が通話を米国にルーティングするために定義され、別の PSTN 使用状況が通話を世界の他の場所にルーティングするために定義されている場合、通話を世界の他の場所にルーティングするには、PSTN の使用の前に、米国への通話の PSTN 使用状況を音声ルーティング ポリシーに一覧表示する必要があります。
+音声ルーティング ポリシーで複数の PSTN 使用状況が定義されている場合、それらは定義された順序で評価されます。 PSTN の使用状況は、PSTN 使用状況に関連付けられている音声ルートの番号パターンに関して、より一般的な順に定義されるのが推奨されます。 たとえば、通話を米国にルーティングするために PSTN 使用状況が定義され、別の PSTN 使用状況が通話を世界の他の場所にルーティングするために定義されている場合、通話を世界の他の場所にルーティングするには、PSTN の使用の前に、米国への通話の PSTN 使用状況を音声ルーティング ポリシーに一覧表示する必要があります。
 
-詳細については [、「New-CsOnlineVoiceRoutingPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy)。
+詳細については [、「New-CsOnlineVoiceRoutingPolicy」を参照してください](/powershell/module/skype/new-csonlinevoiceroutingpolicy)。
 
 新しい音声ルートを組織のグローバル音声ルーティング ポリシーに割り当てるには、次のコマンドを使用します。
 
@@ -141,13 +141,13 @@ Skype for Business Online のリモート PowerShell セッションで新しい
   Grant-CsOnlineVoiceRoutingPolicy -PolicyName "InternationalVoiceRoutingPolicy" -Global
   ```
 
-詳細については [、「Grant-CsOnlineVoiceRoutingPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。
+詳細については [、「Grant-CsOnlineVoiceRoutingPolicy」を参照してください](/powershell/module/skype/grant-csonlinevoiceroutingpolicy)。
 
 グローバル音声ルーティング ポリシーを定義すると、組織内のユーザーによって開催された会議から発信された通話は、グローバル音声ルーティング ポリシーの PSTN 使用状況に関連付けられている音声ルートに対して評価されます。 発信通話は、ダイヤルされた電話番号の番号パターンに一致する最初の音声ルートに従ってルーティングされます。
 
 ### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>手順 5: GCC High または DoD ライセンスの直接ルーティングを使用した電話会議をユーザーに割り当てる
 
-GCC High ライセンスまたは DoD ライセンスのダイレクト ルーティングを使用した電話会議をユーザーに割り当てるには、「ライセンスをユーザーに割り当てる [」を参照してください](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+GCC High ライセンスまたは DoD ライセンスのダイレクト ルーティングを使用した電話会議をユーザーに割り当てるには、「ライセンスをユーザーに割り当てる [」を参照してください](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 ### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>手順 6: (オプション) Teams の電話会議番号の一覧を表示する
 
@@ -167,7 +167,7 @@ GCC High ライセンスまたは DoD ライセンスのダイレクト ルー�
 
 ## <a name="audio-conferencing-capabilities-not-supported-in-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High および DoD の直接ルーティングを使用した電話会議でサポートされていない電話会議機能
 
-GCC High および DoD の直接ルーティングを使用した電話会議ではサポートされない電話会議機能を次に示します。
+GCC High および DoD の直接ルーティングを使用した電話会議ではサポートされていない電話会議機能を次に示します。
 
 - 名前の記録を使用して通知を開始および終了します。 直接ルーティングを使用した電話会議の場合、入退出通知はトーンとして会議で再生されます。
 

@@ -14,16 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 ROBOTS: NOINDEX, NOFOLLOW
-description: 従来の展開と Skype for Business Server とのマージを開始するには、[次へ] をクリックします。 トポロジ ビルダー結合ウィザードの実行の詳細については、「移行」のドキュメントの「Merge Using Topology Builder Merge Wizard」を参照してください。
-ms.openlocfilehash: f3a7daf233c01fd3afbabdab2778a047807244fe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 従来の展開と Skype for Business Server のマージを開始するには、[次へ] をクリックします。 トポロジ ビルダー結合ウィザードの実行の詳細については、「移行」のドキュメントの「Merge Using Topology Builder Merge Wizard」を参照してください。
+ms.openlocfilehash: 1547ef69b09cc72c0841732385ceabf3c20af113
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833417"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119986"
 ---
 # <a name="legacy-merge-results"></a>従来版のマージの結果
 
-従来の展開と Skype for Business Server とのマージを開始するには、[次へ] を **クリックします**。 トポロジ ビルダー結合ウィザードの実行の詳細については、「移行」のドキュメントの「[Merge Using Topology Builder Merge Wizard](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)」を参照してください。
-
-
+従来の展開と Skype for Business Server のマージを開始するには、[次へ] を **クリックします**。 トポロジ ビルダー結合ウィザードの実行の詳細については、「移行」のドキュメントの「[Merge Using Topology Builder Merge Wizard](/previous-versions/office/lync-server-2013/merge-using-topology-builder-merge-wizard)」を参照してください。

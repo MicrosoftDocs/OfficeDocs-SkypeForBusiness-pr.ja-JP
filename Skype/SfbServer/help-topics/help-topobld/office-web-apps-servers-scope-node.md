@@ -14,24 +14,24 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: '[Web Apps サーバー Office右クリックし、[Web Apps サーバーのOfficeを選択してウィザードを開きます。'
-ms.openlocfilehash: c070432d5cc9136293c3e6c454275b6d632ee9bc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[Web Apps サーバー] Office右クリックし、[新しい Web アプリ サーバー] Officeを選択してウィザードを開きます。'
+ms.openlocfilehash: 38aee5489caaf6d7eea2b0b0e76d3febabe9b78e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823897"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119626"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps サーバーのスコープ ノード
 
-[Web Apps サーバー Office **右クリックし、[Web Apps** サーバーのOffice **を** 選択してウィザードを開きます。
+[Web Apps サーバー] **Office右** クリックし、[新しい Web アプリ サーバー] Office **を** 選択してウィザードを開きます。
 
-![OfficeWebApps サーバー スコープ ノード](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![OfficeWebApps サーバースコープ ノード](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
-- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンのコンポーネントの結合、または展開の削除を行います。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンのコンポーネントのマージ、展開の削除を行います。
 
 - **Help**. このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
 
 ## <a name="see-also"></a>関連項目
 
-[Lync Server 2013 と Office Web Apps サーバーの統合の構成](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)
+[Lync Server 2013 と Office Web Apps サーバーの統合の構成](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

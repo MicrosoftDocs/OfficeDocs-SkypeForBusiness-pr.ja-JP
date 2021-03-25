@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: Skype for Business Server 代理トランザクションのテスト ユーザー アカウントと監視ノードの設定を構成します。'
-ms.openlocfilehash: 6edce666345e4691d8850e5806eedbebc98e3743
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fc581b5f9624d28e8cbeb906832dfcfba3fd19dd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812767"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120366"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>監視ノードのテスト ユーザーと設定を構成する
  
@@ -26,16 +26,16 @@ ms.locfileid: "49812767"
   
 監視ノードとして機能するコンピューターを構成したら、次の手順を実行する必要があります。
   
-1. [これらの監視ノードで使用](test-users-and-settings-2019.md#testuser) するテスト ユーザー アカウントを構成します。 ネゴシエート認証方法を使用している場合は **、Set-CsTestUserCredential** コマンドレットを使用して、監視ノードで使用するためにこれらのテスト アカウントを有効にする必要があります。
+1. [これらの監視ノードで](test-users-and-settings-2019.md#testuser) 使用するテスト ユーザー アカウントを構成します。 ネゴシエート認証方法を使用している場合は **、Set-CsTestUserCredential** コマンドレットを使用して、監視ノードでこれらのテスト アカウントを使用する必要があります。
     
 2. 監視ノードの構成設定を更新します。
     
-## <a name="configure-test-user-accounts"></a>テスト ユーザー アカウントを構成する
+## <a name="configure-test-user-accounts"></a>テスト ユーザー アカウントの構成
 <a name="testuser"> </a>
 
-テスト アカウントは、実際のユーザーを表す必要はありません。ただし、有効な Active Directory アカウントである必要があります。 さらに、これらのアカウントは Skype for Business Server に対して有効にし、有効な SIP アドレスを持っている必要があります。また、エンタープライズ VoIP に対して有効にする必要があります (Test-CsPstnPeerToPeerCall 代理トランザクションを使用する場合)。 
+テスト アカウントは実際のユーザーを表す必要はありません。ただし、有効な Active Directory アカウントである必要があります。 さらに、これらのアカウントは Skype for Business Server で有効にする必要があります。有効な SIP アドレスを持っている必要があります。エンタープライズ VoIP (代理トランザクションを使用するには) Test-CsPstnPeerToPeerCall に対して有効にする必要があります。 
   
-TrustedServer 認証方法を使用している場合は、これらのアカウントが存在し、これらのアカウントを構成する必要があります。 テストするプールごとに、少なくとも 3 人のテスト ユーザーを割り当てる必要があります。 ネゴシエート認証方法を使用している場合は、Set-CsTestUserCredential コマンドレットと Skype for Business Server 管理シェルも使用して、これらのテスト アカウントが代理トランザクションで機能する必要があります。 これを行うには、次のようなコマンドを実行します (これらのコマンドは、3 つの Active Directory ユーザー アカウントが作成され、これらのアカウントが Skype for Business Server に対して有効になっていると想定しています)。
+TrustedServer 認証方法を使用している場合は、これらのアカウントが存在し、これらのアカウントを構成する必要があります。 テストするプールごとに、少なくとも 3 人のテスト ユーザーを割り当てる必要があります。 ネゴシエート認証方法を使用している場合は、Set-CsTestUserCredential コマンドレットと Skype for Business Server 管理シェルを使用して、これらのテスト アカウントが代理トランザクションで動作する必要があります。 これを行うには、次のようなコマンドを実行します (これらのコマンドは、3 つの Active Directory ユーザー アカウントが作成され、これらのアカウントが Skype for Business Server で有効になっていると仮定します)。
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -43,9 +43,9 @@ Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "li
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
-SIP アドレスだけでなく、ユーザー名とパスワードも含める必要があります。 パスワードを含めない場合は、Set-CsTestUserCredentialを入力するように求められます。 ユーザー名は、前のコード ブロックに示したドメイン名\ユーザー名の形式を使用して指定できます。
+SIP アドレスだけでなく、ユーザー名とパスワードも含める必要があります。 パスワードを含めない場合は、Set-CsTestUserCredentialを入力するように求められます。 ユーザー名は、前のコード ブロックに示されているドメイン名\ユーザー名形式を使用して指定できます。
   
-テスト ユーザーの資格情報が作成されたのを確認するには、Skype for Business Server 管理シェルから次のコマンドを実行します。
+テスト ユーザー資格情報が作成されたと確認するには、Skype for Business Server 管理シェルから次のコマンドを実行します。
   
 ```PowerShell
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
@@ -53,7 +53,7 @@ Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 ```
 
-次のような情報は、ユーザーごとに返されます。
+このような情報は、ユーザーごとに返されます。
   
 |**UserName**|**Password**|
 |:-----|:-----|
@@ -61,15 +61,15 @@ Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
    
 ### <a name="configure-a-basic-watcher-node-with-the-default-synthetic-transactions"></a>既定の代理トランザクションを使用して基本監視ノードを構成する
 
-テスト ユーザーを作成したら、次のようなコマンドを使用して監視ノードを作成できます。
+テスト ユーザーが作成された後、次のようなコマンドを使用して監視ノードを作成できます。
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
 ```
 
-このコマンドは、既定の設定を使用する新しい監視ノードを作成し、代理トランザクションの既定のセットを実行します。 新しい監視ノードでは、テスト ユーザーがwatcher1@litwareinc.com、watcher2@litwareinc.com、およびwatcher3@litwareinc.com。 監視ノードで TrustedServer 認証を使用する場合、3 つのテスト アカウントには、Active Directory と Skype for Business Server に対して有効な任意の有効なユーザー アカウントを指定できます。 監視ノードでネゴシエート認証方法を使用する場合は、これらのユーザー アカウントも監視ノードに対して有効にし、Set-CsTestUserCredentialがあります。
+このコマンドは、既定の設定を使用し、代理トランザクションの既定のセットを実行する新しい監視ノードを作成します。 新しい監視ノードでは、テスト ユーザーが watcher1@litwareinc.com、watcher2@litwareinc.com、および watcher3@litwareinc.com。 監視ノードが TrustedServer 認証を使用する場合、3 つのテスト アカウントには、Active Directory および Skype for Business Server で有効な任意の有効なユーザー アカウントを指定できます。 監視ノードでネゴシエート認証方法を使用する場合は、監視ノードに対してこれらのユーザー アカウントも有効にするSet-CsTestUserCredentialがあります。
   
-プールを直接対象にするのではなく、サインインするターゲット プールの自動検出が正しく構成されていることを検証するには、代わりに次の手順を使用します。
+プールを直接対象とするのではなく、サインインするターゲット プールの自動検出が正しく構成されていることを検証するには、代わりに次の手順を使用します。
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
@@ -77,7 +77,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### <a name="configuring-extended-tests"></a>拡張テストの構成
 
-公衆交換電話網との接続を確認する PSTN テストを有効にする場合は、監視ノードを設定するときに追加の構成を行う必要があります。 まず、Skype for Business Server 管理シェルから次のようなコマンドを実行して、テスト ユーザーを PSTN テストの種類に関連付ける必要があります。
+公衆交換電話網との接続を確認する PSTN テストを有効にする場合は、監視ノードをセットアップするときに追加の構成を行う必要があります。 最初に、Skype for Business Server 管理シェルから次のようなコマンドを実行して、テスト ユーザーを PSTN テストの種類に関連付ける必要があります。
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
@@ -86,29 +86,29 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > このコマンドの結果は変数に格納する必要があります。 この例では、変数の名前は $pstnTest。 
   
-次に **、New-CsWatcherNodeConfiguration** コマンドレットを使用して、テストの種類 (変数 $pstnTest に格納) を Skype for Business Server プールに関連付けできます。 たとえば、次のコマンドを実行すると、プール atl-cs-001.litwareinc.com の新しい監視ノード構成が作成され、前に作成した 3 人のテスト ユーザーが追加され、PSTN テストの種類が追加されます。
+次に **、New-CsWatcherNodeConfiguration** コマンドレットを使用して、テストの種類 (変数 $pstnTest に格納されている) を Skype for Business Server プールに関連付けできます。 たとえば、次のコマンドは、プール atl-cs-001.litwareinc.com の新しい監視ノード構成を作成し、前に作成した 3 人のテスト ユーザーを追加し、PSTN テストの種類を追加します。
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
-監視ノード コンピューターに Skype for Business Server のコア ファイルと RTCLocal データベースをインストールしていない場合、上記のコマンドは失敗します。 
+監視ノード コンピューターに Skype for Business Server コア ファイルと RTCLocal データベースをインストールしていない場合、上記のコマンドは失敗します。 
   
-複数の音声ポリシーをテストするには **、New-CsExtendedTest** コマンドレットを使用して、ポリシーごとに拡張テストを作成できます。 提供されたユーザーは、目的の音声ポリシーで構成する必要があります。 拡張テストは、次のようなコンマ区切り文字を使用して **New-CsWatcherNodeConfiguration** コマンドレットに渡されます。
+複数の音声ポリシーをテストするには **、New-CsExtendedTest** コマンドレットを使用して、ポリシーごとに拡張テストを作成できます。 提供されるユーザーは、目的の音声ポリシーで構成する必要があります。 拡張テストは、次のようなコンマ区切り文字を使用して **New-CsWatcherNodeConfiguration** コマンドレットに渡されます。
   
 -ExtendedTests @{Add=$pstnTest 1,$pstnTest 2,$pstnTest 3}
   
-**New-CsWatcherNodeConfiguration** コマンドレットは Tests パラメーターを使用せずに呼び出されたため、新しい監視ノードでは既定の代理トランザクション (および指定された拡張代理トランザクション) だけが有効になります。 したがって、監視ノードは次のコンポーネントをテストします。
+**New-CsWatcherNodeConfiguration** コマンドレットは Tests パラメーターを使用せずに呼び出されたため、新しい監視ノードでは既定の代理トランザクション (および指定した拡張代理トランザクション) だけが有効になります。 したがって、監視ノードは次のコンポーネントをテストします。
   
-- Registration
+- 登録
     
 - IM
     
 - GroupIM
     
-- P2PAV (ピアツーピア音声/ビデオ セッション)
+- P2PAV (ピアツーピアのオーディオ/ビデオ セッション)
     
-- AvConference (電話会議)
+- AvConference (電話/会議)
     
 - プレゼンス
     
@@ -136,7 +136,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
     
 - PersistentChatMessage
     
-- PSTN (拡張テストとして指定された PSTN ゲートウェイ通話)
+- PSTN (PSTN ゲートウェイ呼び出し、拡張テストとして指定)
     
 - UcwaConference
     
@@ -146,41 +146,41 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
     
 ### <a name="adding-and-removing-synthetic-transactions"></a>代理トランザクションの追加と削除
 
-監視ノードを構成した後、Set-CsWatcherNodeConfiguration コマンドレットを使用して、ノードに代理トランザクションを追加または削除できます。 たとえば、PersistentChatMessage テストを監視ノードに追加するには、Add メソッドと次のようなコマンドを使用します。
+監視ノードが構成された後、Set-CsWatcherNodeConfiguration コマンドレットを使用して、ノードに代理トランザクションを追加または削除できます。 たとえば、PersistentChatMessage テストを監視ノードに追加するには、Add メソッドと次のようなコマンドを使用します。
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
-テスト名をコンマで区切って、複数のテストを追加できます。 例:
+複数のテストを追加するには、コンマを使用してテスト名を区切ります。 例:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
-これらのテスト (DataConference など) の 1 つ以上が監視ノードで既に有効になっている場合は、エラーが発生します。 この場合、次のようなエラー メッセージが表示されます。
+これらのテストの 1 つ以上 (DataConference など) が監視ノードで既に有効になっている場合、エラーが発生します。 この場合、次のようなエラー メッセージが表示されます。
   
-Set-CsWatcherNodeConfiguration : 'urn:schema:Microsoft.Rtc.Management.Settings.WatcherNode.2010:TestName' キーまたは一意の ID 制約に重複するキー シーケンス 'DataConference' があります。
+Set-CsWatcherNodeConfiguration : 'urn:schema:Microsoft.Rtc.Management.Settings.WatcherNode.2010:TestName' キーまたは一意の ID 制約の重複キー シーケンス 'DataConference' があります。
   
-このエラーが発生した場合、変更は適用されません。 重複するテストを削除して、コマンドを再実行する必要があります。
+このエラーが発生すると、変更は適用されません。 このコマンドは、重複するテストを削除して再実行する必要があります。
   
-代理トランザクションを監視ノードから削除するには、Remove メソッドを使用します。 たとえば、次のコマンドは監視ノードから ABWQ テストを削除します。
+監視ノードから代理トランザクションを削除するには、Remove メソッドを使用します。 たとえば、このコマンドは監視ノードから ABWQ テストを削除します。
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 ```
 
-Replace メソッドを使用すると、現在有効になっているすべてのテストを 1 つ以上の新しいテストに置き換できます。 たとえば、監視ノードで IM テストのみを実行する場合は、次のコマンドを使用して構成できます。
+Replace メソッドを使用すると、現在有効なすべてのテストを 1 つ以上の新しいテストに置き換できます。 たとえば、監視ノードで IM テストのみを実行する場合は、次のコマンドを使用して構成できます。
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
 ```
 
-このコマンドを実行すると、指定した監視ノード上のすべての代理トランザクションが IM を除いて無効になります。
+このコマンドを実行すると、指定された監視ノード上のすべての代理トランザクションは、IM を除いて無効になります。
   
 ### <a name="viewing-and-testing-the-watcher-node-configuration"></a>監視ノード構成の表示とテスト
 
-監視ノードに割り当てられているテストを表示するには、次のようなコマンドを使用します。
+監視ノードに割り当てられているテストを表示する場合は、次のようなコマンドを使用します。
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
@@ -190,33 +190,33 @@ Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Ob
   
 登録 IM GroupIM P2PAV AvConference Presence PersistentChatMessage DataConference
 > [!TIP]
-> 代理トランザクションをアルファベット順で表示するには、代わりに次のコマンドを使用します。 
+> 代理トランザクションをアルファベット順に表示するには、代わりに次のコマンドを使用します。 
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests | Sort-Object
 ```
 
-監視ノードが作成されたのを確認するには、Skype for Business Server 管理シェルから次のコマンドを入力します。
+監視ノードが作成されたと確認するには、Skype for Business Server 管理シェルから次のコマンドを入力します。
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
-次のような情報が返されます。
+次のような情報を取得します。
   
-Identity : atl-cs-001.litwareinc.com TestUsers : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com ...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test;Te...} TargetFqdn : atl-cs-001.litwareinc.com PortNumber : 5061 監視ノードが正しく構成されていることを確認するには、Skype for Business Server 管理シェルから次のコマンドを入力します。
+Id : atl-cs-001.litwareinc.com TestUsers : {sip:watcher1@litwareinc.com、sip:watcher2@litwareinc.com ...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test;Te...} TargetFqdn : atl-cs-001.litwareinc.com PortNumber : 5061 監視ノードが正しく構成されていることを確認するには、Skype for Business Server 管理シェルから次のコマンドを入力します。
   
 ```PowerShell
 Test-CsWatcherNodeConfiguration
 ```
 
-このコマンドは、展開内の各監視ノードをテストし、次の操作が完了したかどうかを確認します。
+このコマンドは、展開内の各監視ノードをテストし、次のアクションが完了したかどうかを確認します。
   
 - 必要なレジストラーの役割がインストールされている
     
-- 必要なレジストリ キーが作成されます (このコマンドレットを実行するとSet-CsWatcherNodeConfigurationされます)
+- 必要なレジストリ キーが作成されます (このコマンドレットを実行Set-CsWatcherNodeConfiguration完了)
     
-- サーバーで正しいバージョンの Skype for Business Server を実行している
+- サーバーが正しいバージョンの Skype for Business Server を実行している
     
 - ポートが正しく構成されている
     
@@ -225,15 +225,15 @@ Test-CsWatcherNodeConfiguration
 ## <a name="managing-watcher-nodes"></a>監視ノードの管理
 <a name="testuser"> </a>
 
-監視ノードで実行される代理トランザクションの変更に加えて **、Set-CsWatcherNodeConfiguration** コマンドレットを使用して、監視ノードの有効化と無効化、およびテストの実行中に内部 Web URL または外部 Web URL を使用する監視ノードの構成という 2 つの重要なタスクを実行することもできます。
+監視ノードで実行される代理トランザクションの変更に加えて **、Set-CsWatcherNodeConfiguration** コマンドレットを使用して、監視ノードの有効化と無効化、テストの実行中に内部 Web URL または外部 Web URL を使用する監視ノードの構成という 2 つの重要なタスクを実行することもできます。
   
-既定では、監視ノードは、すべての有効な代理トランザクションを定期的に実行するように設計されています。 ただし、これらのトランザクションを中断する必要がある場合があります。 たとえば、監視ノードを一時的にネットワークから切り離す場合は、代理トランザクションを実行する理由がありません。 ネットワーク接続がない場合、これらのトランザクションは失敗します。 監視ノードを一時的に無効にするには、Skype for Business Server 管理シェルから次のようなコマンドを実行します。
+既定では、監視ノードは、すべての有効な代理トランザクションを定期的に実行するように設計されています。 ただし、これらのトランザクションを中断する場合があります。 たとえば、監視ノードを一時的にネットワークから切り離す場合は、代理トランザクションを実行する理由がありません。 ネットワーク接続がない場合、これらのトランザクションは失敗します。 監視ノードを一時的に無効にするには、Skype for Business Server 管理シェルから次のようなコマンドを実行します。
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 ```
 
-このコマンドは、監視ノード atl ウォッチャー サーバー上での代理トランザクションの実行を001.litwareinc.com。 代理トランザクションの実行を再開するには、Enabled プロパティを True ($True) に戻します。
+このコマンドを実行すると、監視ノード atl 監視ノードでの代理トランザクションの実行が 001.litwareinc.com。 代理トランザクションの実行を再開するには、Enabled プロパティを True ($True) に戻します。
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
@@ -246,15 +246,15 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-このコマンドを実行すると、指定したコンピューターからすべての監視ノード構成設定が削除され、そのコンピューターは代理トランザクションを自動的に実行できません。 ただし、このコマンドを実行しても、System Center エージェント ファイルや Skype for Business Server システム ファイルはアンインストールされません。
+このコマンドを実行すると、指定したコンピューターから監視ノード構成設定すべてが削除され、そのコンピューターが代理トランザクションを自動的に実行できません。 ただし、このコマンドは System Center エージェント ファイルや Skype for Business Server システム ファイルをアンインストールしません。
   
-既定では、監視ノードはテストを実行するときに組織の外部 Web URL を使用します。 ただし、監視ノードは、組織の内部 Web URL を使用するように構成することもできます。 これにより、管理者は、境界ネットワーク内に配置されたユーザーの URL アクセスを検証できます。 外部 URL ではなく内部 URL を使用する監視ノードを構成するには、UseInternalWebURls プロパティを True ($True) に設定します。
+既定では、監視ノードはテストを実行するときに組織の外部 Web URL を使用します。 ただし、監視ノードは、組織の内部 Web URL を使用するように構成することもできます。 これにより、管理者は、境界ネットワーク内に配置されたユーザーの URL アクセスを検証できます。 外部 URL の代わりに内部 URL を使用する監視ノードを構成するには、UseInternalWebURls プロパティを True ($True) に設定します。
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 ```
 
-このプロパティを既定値の False ($False) にリセットすると、ウォッチャーはもう一度外部 URL を使用します。
+このプロパティを既定値の False ($False) にリセットすると、ウォッチャーは再び外部 URL を使用します。
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
@@ -263,13 +263,13 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
 ## <a name="special-setup-instructions-for-synthetic-transactions"></a>代理トランザクションの特別なセットアップ指示
 <a name="special_synthetictrans"> </a>
 
-ほとんどの代理トランザクションは、監視ノードで同じ方法で実行できます。 ほとんどの場合、代理トランザクションが監視ノード構成設定に追加されたとすぐに、監視ノードはテスト パス中に代理トランザクションの使用を開始できます。 ただし、以下のセクションで説明したように、特別なセットアップ手順を必要とする代理トランザクションがあります。
+ほとんどの代理トランザクションは監視ノードで実行できます。 ほとんどの場合、代理トランザクションが監視ノード構成設定に追加されたとすぐに、監視ノードはテスト パス中に代理トランザクションの使用を開始できます。 ただし、次のセクションで説明したように、特別なセットアップ手順が必要な代理トランザクションがあります。
   
 ### <a name="data-conferencing-synthetic-transaction"></a>データ会議代理トランザクション
 
-監視ノード コンピューターが境界ネットワークの外側にある場合は、次の手順を実行してネットワーク サービス アカウントの Windows Internet Explorer® インターネット ブラウザー プロキシ設定を最初に無効にしない限り、データ会議代理トランザクションを実行できません。
+監視ノード コンピューターが境界ネットワークの外側にある場合、次の手順を実行してネットワーク サービス アカウントの Windows Internet Explorer® インターネット ブラウザー プロキシ設定を最初に無効にしない限り、データ会議代理トランザクションを実行できない可能性があります。
   
-1. 監視ノード コンピューターで、[スタート]ボタン、[すべてのプログラム]、[アクセサリ] の順にクリックし、コマンド プロンプトを右クリックして、[管理者として実行] をクリック **します**。 
+1. 監視ノード コンピューターで、[**スタート**] をクリックし、[すべてのプログラム] をクリックし、[アクセサリ] をクリックし、[コマンド プロンプト] を右クリックし、[管理者として実行]**をクリックします**。 
     
 2. コンソール ウィンドウで、次のコマンドを入力し、Enter キーを押します。 
     
@@ -279,25 +279,25 @@ bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 
 コマンド ウィンドウに次のメッセージが表示されます。
   
-BITSAdmin は廃止され、将来のバージョンの Windows で使用できるとは保証されません。 BITS サービスの管理ツールは、BITS PowerShell コマンドレットによって提供されます。
+BITSAdmin は非推奨であり、将来のバージョンの Windows で使用できるとは保証されません。 BITS サービスの管理ツールは、BITS PowerShell コマンドレットによって提供されます。
   
-NetworkService アカウントのインターネット プロキシ設定が NO_PROXY。 
+アカウント NetworkService のインターネット プロキシ設定が [ネットワーク サービス] にNO_PROXY。 
   
 (connection = default)
   
-このメッセージは、ネットワーク サービス アカウントのプロキシInternet Explorer無効にしたかどうかを示します。
+このメッセージは、ネットワーク サービス アカウントInternet Explorerプロキシ設定を無効にしたかどうかを示します。
   
 ### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange ユニファイド メッセージング代理トランザクション
 
-Exchange ユニファイド メッセージング (UM) 代理トランザクションは、テスト ユーザーが Exchange にホームのボイスメール アカウントに接続できるのを確認します。
+Exchange ユニファイド メッセージング (UM) 代理トランザクションは、Exchange に含むボイスメール アカウントにテスト ユーザーが接続できると確認します。
   
 テスト ユーザーは、ボイスメール アカウントで事前構成する必要があります。 
   
 ### <a name="persistent-chat-synthetic-transaction"></a>常設チャット代理トランザクション
 
-常設チャット代理トランザクションを使用するには、まずチャネルを作成し、テスト ユーザーにチャネルを使用するアクセス許可を付与する必要があります。
+常設チャット代理トランザクションを使用するには、まずチャネルを作成し、テスト ユーザーに使用許可を与える必要があります。
   
-常設チャット代理トランザクションを使用して、このチャネルを構成できます。 
+常設チャット代理トランザクションを使用して、次のチャネルを構成できます。 
   
 ```PowerShell
 $cred1 = Get-Credential "contoso\testUser1"
@@ -308,13 +308,13 @@ Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip
 
 このセットアップ タスクは、エンタープライズ内から実行する必要があります。
   
-- サーバー以外のコンピューターから実行する場合、コマンドレットを実行するユーザーは、サーバー アクセス制御 (RBAC) の CsPersistentChatAdministrators 役割のメンバーRole-Based必要があります。
+- サーバー以外のコンピューターから実行する場合、コマンドレットを実行するユーザーは、Role-Based アクセス制御 (RBAC) の CsPersistentChatAdministrators 役割のメンバーである必要があります。
     
 - サーバー自体から実行する場合、コマンドレットを実行するユーザーは RTCUniversalServerAdmins グループのメンバーである必要があります。
     
 ### <a name="pstn-peer-to-peer-call-synthetic-transaction"></a>PSTN ピアツーピア通話代理トランザクション
 
-代理Test-CsPstnPeerToPeerCallは、公衆交換電話網 (PSTN) 経由で通話を発信および受信する機能を確認します。
+代理Test-CsPstnPeerToPeerCallは、公衆交換電話網 (PSTN) を介して通話を発信および受信する機能を確認します。
   
 この代理トランザクションを実行するには、以下を構成する必要があります。
   
@@ -322,9 +322,9 @@ Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip
     
 - 各ユーザー アカウントのダイレクト インワード ダイヤリング (DID) 番号。
     
-- 受信者の番号への通話が PSTN ゲートウェイに到達できる VoIP ポリシーとボイス ルート。
+- VoIP ポリシーと音声ルートにより、受信者の番号への通話が PSTN ゲートウェイに到達できます。
     
-- 通話を受け付け、ダイヤルされた番号に基づいて受信者のホーム プールに通話を戻すメディアを受け入れる PSTN ゲートウェイ。
+- ダイヤルされた番号に基づいて、通話を受信者のホーム プールにルーティングする通話とメディアを受け入れる PSTN ゲートウェイ。
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>統合連絡先ストア代理トランザクション
 
@@ -332,17 +332,17 @@ Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip
   
 この代理トランザクションを使用するには、次の条件を満たす必要があります。
   
-- Lyss-Exchange対サーバー認証を構成する必要があります。
+- Lyss-Exchangeサーバー間認証を構成する必要があります。
     
-- テスト ユーザーは有効な Exchange メールボックスを持っている必要があります。
+- テスト ユーザーは、有効な Exchange メールボックスを持っている必要があります。
     
-これらの条件が満たされた後、次のコマンドレットWindows PowerShell実行して、テスト ユーザーの連絡先リストを Exchange に移行できます。
+これらの条件が満たされた後、次のコマンドレットをWindows PowerShellして、テスト ユーザーの連絡先リストを Exchange に移行できます。
   
 ```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
-テスト ユーザーの連絡先リストが Exchange に移行するには、時間がかかる場合があります。 移行の進行状況を監視するには、-Setup フラグを指定せずに同じコマンド ラインを実行できます。
+テスト ユーザー連絡先リストが Exchange に移行するには、時間がかかる場合があります。 移行の進行状況を監視するには、-Setup フラグなしで同じコマンド ラインを実行できます。
   
 ```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
@@ -352,54 +352,54 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
   
 ### <a name="xmpp-synthetic-transaction"></a>XMPP 代理トランザクション
 
-XMPP (Extensible Messaging and Presence Protocol) IM 代理トランザクションでは、1 つ以上のフェデレーション ドメインで XMPP 機能を構成する必要があります。
+拡張メッセージングとプレゼンス プロトコル (XMPP) IM 代理トランザクションでは、1 つ以上のフェデレーション ドメインを使用して XMPP 機能を構成する必要があります。
   
-XMPP 代理トランザクションを有効にするには、XmppTestReceiverMailAddress パラメーターに、ログアウト可能な XMPP ドメインのユーザー アカウントを指定する必要があります。 例:
+XMPP 代理トランザクションを有効にするには、ROUTABLE XMPP ドメインのユーザー アカウントに XmppTestReceiverMailAddress パラメーターを指定する必要があります。 例:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-この例では、XMPP ゲートウェイにメッセージをルーティングするために Skype for Business Server litwareinc.com存在する必要があります。
+この例では、Skype for Business litwareinc.com Server ルールが存在する必要があります。
 
 > [!NOTE]
 > XMPP ゲートウェイとプロキシは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 詳細 [については、「XMPP フェデレーションの移行](../migration/migrating-xmpp-federation.md) 」を参照してください。
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>ビデオ相互運用サーバー (VIS) 代理トランザクション
 
-ビデオ相互運用サーバー (VIS) 代理トランザクションでは、代理トランザクション サポート ファイル (VISSTSupportPackage.msi) をダウンロードしてインストール[ する必要があります ](https://www.microsoft.com/download/details.aspx?id=46921)。 
+ビデオ相互運用サーバー (VIS) 代理トランザクションでは、代理トランザクション サポート ファイル (VISSTSupportPackage.msi) をダウンロードして[ インストールする必要があります ](https://www.microsoft.com/download/details.aspx?id=46921)。 
   
-インストールするにはVISSTSupportPackage.msi msi の依存関係 ([システム要件] の下) が既にインストールされていることを確認します。 簡単VISSTSupportPackage.msiを実行するには、次のコマンドを実行します。 .msi は、"%ProgramFiles%\VIS Synthetic Transaction Support Package" というパスのすべてのファイルをインストールします。
+インストールするにはVISSTSupportPackage.msi msi の依存関係 ([システム要件] の下) が既にインストールされていることを確認します。 簡単VISSTSupportPackage.msiを実行するには、次の手順を実行します。 .msi は、"%ProgramFiles%\VIS 代理トランザクション サポート パッケージ" というパス内のすべてのファイルをインストールします。
   
-VIS 代理トランザクションの実行方法の詳細については [、Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) コマンドレットのドキュメントを参照してください。
+VIS 代理トランザクションを実行する方法の詳細については [、Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) コマンドレットのドキュメントを参照してください。
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>代理トランザクションの実行頻度の変更
 <a name="special_synthetictrans"> </a>
 
-既定では、代理トランザクションは構成済みのユーザーと 15 分ごとに実行されます。 代理トランザクションは、2 つの代理トランザクションが互いに競合しないように、一連のユーザー内で順番に実行されます。 すべての代理トランザクションが完了する時間を提供するには、より長い間隔が必要です。
+既定では、代理トランザクションは構成済みのユーザーと 15 分ごとに実行されます。 代理トランザクションは、2 つの代理トランザクションが互いに競合しないように、一連のユーザー内で順次実行されます。 すべての代理トランザクションが完了する時間を提供するには、より長い間隔が必要です。
   
-代理トランザクションの実行頻度を高くすることが望ましい場合は、特定のユーザー のセットで実行される代理トランザクションの数を減らして、ネットワーク遅延が発生する可能性のあるバッファーを使用して目的の時間範囲内でテストを完了する必要があります。 より多くの代理トランザクションを実行することが望ましい場合は、追加の代理トランザクションを実行するユーザー セットを作成します。
+代理トランザクションを頻繁に実行することが望ましい場合は、特定の一連のユーザーと一緒に実行される代理トランザクションの数を減らして、ネットワークの遅延が発生する可能性のあるバッファーを使用して、目的の時間範囲でテストを完了できる必要があります。 より多くの代理トランザクションを実行することが望ましい場合は、追加の代理トランザクションを実行するために、より多くのユーザー セットを作成します。
   
 代理トランザクションを実行する頻度を変更するには、次の手順を実行します。
   
 1. System Center Operations Manager を開きます。 [作成] セクションをクリックします。 [ルール] セクション ([作成] の下) をクリックします。
     
-2. [Rules] セクションで、"Main Synthetic Transaction Runner Performance Collection Rule" という名前のルールを見つける
+2. [ルール] セクションで、"Main Synthetic Transaction Runner Performance Collection Rule" という名前のルールを見つける
     
-3. ルールを右クリックし、[上書き] を選択し、[ルールの上書き] を選択して、[クラスのすべてのオブジェクトの場合: プール ウォッチャー] を選択します。
+3. ルールを右クリックし、[上書き] を選択し、[ルールの上書き] を選択し、[クラスのすべてのオブジェクト: プール ウォッチャー] を選択します。
     
-4. [プロパティの上書き] ウィンドウで、パラメーター名 "Frequency" を選択し、優先値を目的の値に設定します。
+4. [プロパティの上書き] ウィンドウで、[パラメーター名] "Frequency" を選択し、[上書き値] を目的の値に設定します。
     
-5. 同じウィンドウで、このオーバーライドを適用する必要がある管理パックを選択します。
+5. 同じウィンドウで、この上書きを適用する必要がある管理パックを選択します。
     
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>代理トランザクションのリッチ ログの使用
 <a name="special_synthetictrans"> </a>
 
-代理トランザクションは、システムの問題を特定するのに非常に役立ちます。 たとえば、Test-CsRegistrationコマンドレットを使用すると、ユーザーが Skype for Business Server への登録で問題が発生したという事実を管理者に警告できます。 ただし、エラーの実際の原因を特定するには、追加の詳細が必要になる場合があります。
+代理トランザクションは、システムの問題を特定するのに非常に役立ちます。 たとえば、このコマンドレットTest-CsRegistration、ユーザーが Skype for Business Server への登録が困難であるという事実を管理者に通知できます。 ただし、エラーの実際の原因を特定するために、追加の詳細が必要になる場合があります。
   
-このため、代理トランザクションは豊富なログを提供します。 リッチ ログでは、代理トランザクションが実行するアクティビティごとに、次の情報が記録されます。
+このため、代理トランザクションは豊富なログを提供します。 リッチ ログでは、代理トランザクションが実行する各アクティビティに対して、次の情報が記録されます。
   
-- アクティビティが開始された時刻。
+- アクティビティが開始した時刻。
     
 - アクティビティが終了した時刻。
     
@@ -409,11 +409,11 @@ VIS 代理トランザクションの実行方法の詳細については [、Te
     
 - SIP 登録メッセージ。
     
-- アクティビティの実行時に生成された例外レコードまたは診断コード。
+- アクティビティの実行時に生成される例外レコードまたは診断コード。
     
-- アクティビティを実行した結果の結果。
+- アクティビティを実行した結果。
     
-この情報は代理トランザクションが実行されるたび自動的に生成されますが、ログ ファイルに自動的に表示または保存されるのではありません。 代理トランザクションを手動で実行している場合は、OutLoggerVariable パラメーターを使用して、情報が格納される Windows PowerShell 変数を指定できます。 そこから、2 つの方法のいずれかを使用して、エラー メッセージを XML 形式または HTML 形式でリッチ ログに保存または表示することができます。 
+この情報は、代理トランザクションが実行されるごとに自動的に生成されますが、ログ ファイルに自動的に表示または保存されません。 代理トランザクションを手動で実行している場合は、OutLoggerVariable パラメーターを使用して、情報が格納される Windows PowerShell変数を指定できます。 そこから、2 つの方法のいずれかを使用して、XML 形式または HTML 形式のリッチ ログにエラー メッセージを保存または表示できます。 
   
 トラブルシューティング情報を取得するには、OutLoggerVariable パラメーターを指定し、その後に変数名を指定します。
   
@@ -422,11 +422,11 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> : 変数名の前に $ 文字を付けない。 RegistrationTest などの変数名を使用します ($RegistrationTest)。 
+> : 変数名の前に $文字を付け込む必要があります。 RegistrationTest などの変数名を使用します ($RegistrationTest)。 
   
 このコマンドを実行すると、次のような出力が表示されます。
   
-ターゲット Fqdn : atl-cs-001.litwareinc.com Result : Failure Latency : 00:00:00 Error Message : This machine does not have any assigned certificates. 診断 :このエラーに関する詳細な情報には、ここに示すエラー メッセージに加え、より詳細な情報にアクセスできます。 この情報に HTML 形式でアクセスするには、次のようなコマンドを使用して、変数 RegistrationTest に格納されている情報を HTML ファイルに保存します。
+ターゲット Fqdn : atl-cs-001.litwareinc.com 結果 : エラー待機時間 : 00:00:00 エラー メッセージ : このコンピューターには、割り当てられた証明書が存在しない。 診断 :このエラーに関する詳細情報は、ここに示すエラー メッセージに比してはるかに詳細な情報にアクセスできます。 この情報に HTML 形式でアクセスするには、次のようなコマンドを使用して、変数 RegistrationTest に格納されている情報を HTML ファイルに保存します。
   
 ```PowerShell
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
@@ -440,7 +440,7 @@ $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
 これらのファイルは、Windows Internet Explorer、Microsoft Visual Studio、または HTML/XML ファイルを開くことができる他のアプリケーションを使用して表示できます。
   
-System Center Operations Manager の内部から実行される代理トランザクションは、障害が発生した場合にこれらのログ ファイルを自動的に生成します。 これらのログは、Skype for Business Server PowerShell が代理トランザクションを読み込み、実行する前に実行が失敗した場合は生成されません。 
+System Center Operations Manager の内部から実行される代理トランザクションは、エラーに対してこれらのログ ファイルを自動的に生成します。 これらのログは、Skype for Business Server PowerShell が代理トランザクションを読み込み、実行できる前に実行が失敗した場合は生成されません。 
   
 > [!IMPORTANT]
-> 既定では、Skype for Business Server はログ ファイルを共有されていないフォルダーに保存します。 これらのログに簡単にアクセスするには、このフォルダーを共有する必要があります。 例: \\ atl-watcher-001.litwareinc.com\WatcherNode。 
+> 既定では、Skype for Business Server はログ ファイルを共有されていないフォルダーに保存します。 これらのログに簡単にアクセスするには、このフォルダーを共有する必要があります。 例: \\ atl-watcher-001.litwareinc.com\WatcherNode。

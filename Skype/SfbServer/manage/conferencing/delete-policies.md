@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: '概要: Skype for Business Server で会議ポリシーを削除する方法について説明します。'
-ms.openlocfilehash: eedb0b3676f0cc046e6096dca2cb1ec5ced5d6ec
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9aadaf82aea7f057cf1969f06d4257992b64a86a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828197"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119506"
 ---
-# <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Skype for Business Server で会議ポリシーを削除する
+# <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Skype for Business Server での会議ポリシーの削除
  
 **概要:** Skype for Business Server で会議ポリシーを削除する方法について説明します。
   
-会議ポリシーは、Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して削除できます。
+会議ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して削除できます。
   
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議ポリシーを削除する
 
@@ -33,7 +33,7 @@ ms.locfileid: "49828197"
     
 3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー] **をクリックします**。
     
-4. 電話会議ポリシーの一覧で、削除するサイトポリシーまたはユーザー ポリシーをクリックし、[編集]をクリックして、[削除] をクリック **します**。
+4. 会議ポリシーの一覧で、削除するサイトまたはユーザー ポリシーをクリックし、[編集] をクリックし、[削除] を **クリックします**。
     
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議ポリシーを削除する
 
@@ -51,6 +51,4 @@ Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 
-完全な構文やパラメーターの一覧など、詳細については [、「Remove-CsConferencingPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps)。
-  
-
+完全な構文とパラメーターの一覧を含む詳細については [、「Remove-CsConferencingPolicy」を参照してください](/powershell/module/skype/remove-csconferencingpolicy?view=skype-ps)。
