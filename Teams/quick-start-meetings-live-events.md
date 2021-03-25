@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58f871e8e741856253667649484ac429bb68dd2c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: cafd88594935565595a48a55c6a6b8f07d254345
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460827"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117675"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
 
@@ -50,7 +50,7 @@ Microsoft Teams での会議には、会議とライブ イベントの 2 つの
 >
 > <sup>2</sup>  会議で [**連絡先電話** 番号](set-up-the-call-me-feature-for-your-users.md)にダイヤルアウトするには、主催者は E5 または [電話会議アドイン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)を必要とします。また、[ダイヤル プラン](what-are-dial-plans.md)も必要になる場合があります。
 
-ライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」をお読みください。
+ライセンスの詳細については、「[Microsoft Teams サービスのサービスの説明](/office365/servicedescriptions/teams-service-description)」をお読みください。
 
 ## <a name="make-sure-your-networks-ready"></a>ネットワークの準備ができていることを確認する
 
@@ -66,7 +66,7 @@ Microsoft 365 または Office 365 を展開したときに、既にネットワ
 
 - 会議オプションの管理については、「[Teams会議の参加者設定を変更する](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)」をお読みください。
 
-- [ユーザーのデバイス (電話、ヘッドセット、カメラ) の管理](device-management.md)を忘れないでください。Teams 認定デバイスに関する最新の情報を入手するには、[Teamsデバイス](https://office.com/teamsdevices) にアクセスしてください。
+- [ユーザーのデバイス (電話、ヘッドセット、カメラ) の管理](./devices/device-management.md)を忘れないでください。Teams 認定デバイスに関する最新の情報を入手するには、[Teamsデバイス](https://office.com/teamsdevices) にアクセスしてください。
 
 ## <a name="live-events"></a>ライブ イベント
 

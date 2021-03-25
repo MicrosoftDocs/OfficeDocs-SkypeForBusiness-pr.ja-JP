@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38e51b85e7ecf8efc61c6ca78ca16e4366372885
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: ab70daffa91b534f15b032cd0c137efe89abb438
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756233"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117815"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
@@ -43,7 +43,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 |<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|次の手順|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
 > [!NOTE]
-> 事前に計画を立てやすくなるために、[これらのポリシーの設定について、およびどのライセンスが必要とされるかについて確認してください](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
+> 事前に計画を立てやすくなるために、[これらのポリシーの設定について、およびどのライセンスが必要とされるかについて確認してください](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
 > 多くの Microsoft 365 および Office 365 サービスでは、サービスを機能するためにグループを作成する必要があるため、グループとチームの作成を制限すると、ユーザーの生産性が低下する可能性があります。 詳細については [、Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)グループを作成するユーザーを制御する理由に移動して展開します。
@@ -53,15 +53,15 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 要件の決定後、Azure AD のコントロールを使用してその要件を実装できます。これらの設定を実装する方法に関する技術面のガイダンスは、次をご覧ください。
 
-- [グループ設定を構成するための Azure Active Directory コマンドレット](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [グループ設定を構成するための Azure Active Directory コマンドレット](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Azure Active Directory で Microsoft 365 グループに名前付けポリシーを適用する](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [Azure Active Directory で Microsoft 365 グループに名前付けポリシーを適用する](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
 - [Microsoft 365 グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
-- [Microsoft Teams、Microsoft 365 グループ、SharePoint サイトのコンテンツを保護するために感度ラベルを使用する](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [Microsoft Teams、Microsoft 365 グループ、SharePoint サイトのコンテンツを保護するために感度ラベルを使用する](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
-- [グループ、チーム、およびグループのライフサイクルのYammer](https://docs.microsoft.com/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
+- [グループ、チーム、およびグループのライフサイクルのYammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>グループとチームの有効期限、保持、およびアーカイブ化
 
@@ -88,7 +88,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 これらの設定を実装する方法についての技術面のガイダンスは、次をご覧ください。
 
-- [Microsoft 365 グループの有効期限を設定します](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)。
+- [Microsoft 365 グループの有効期限を設定します](/azure/active-directory/users-groups-roles/groups-lifecycle)。
 
 - [Teams の保持ポリシーをセットアップする](retention-policies.md).
 
@@ -98,7 +98,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 迅速なオンボーディングとオフボーディングが必要なチーム、またはユーザーとゲストには、プロジェクト ベースのグループまたは制限付きグループのメンバーを一貫して管理する必要があります。 また、組織では、現在のすべてのメンバーがチーム内に業務上の正当な理由を持っている必要がある場合があります。 メンバーの管理は、チーム所有者が離れ、通常、プロジェクトが終了したり役割を変更したりするときに、ユーザーが自らグループを離れないので、難しい場合があります。 必要に応じてユーザーがアクセスできるが、グループに不適切なアクセスのリスクが生じなかったグループ メンバーシップを管理する最適な方法は、資格管理とアクセスレビューの 2 つの地区プロセスを通じて行う方法です。
 
-[資格管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) を使用すると、プロジェクト マネージャーなどの誰かに委任して、チームのメンバーシップを含む必要なすべてのリソースを 1 つのパッケージに収集できます。 また、要求を行えるユーザー (テナント内のユーザーまたは他の接続されている組織からのユーザー) を定義できます。 プロジェクト マネージャーは、メールでアクセス要求を受信し、MyAccess ポータルで要求を承認または拒否します。 管理者は、アクセスが更新されていない限り、ユーザーまたはゲストがチームから削除される期限の日付または期間を含めるアクセスの条件を構成できます。 管理者は、チームに関連付けられているグループを設定して、アクセスレビューに参加することもできます。 アクセス [のレビューでは、](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)グループの所有者は、チームのメンバーをレビューする定期的なアラームを受け取る予定です。 Access のレビューには推奨事項が含まれるので、グループ所有者は通常の構成証明プロセスを簡単に実行できます。
+[資格管理](/azure/active-directory/governance/entitlement-management-overview) を使用すると、プロジェクト マネージャーなどの誰かに委任して、チームのメンバーシップを含む必要なすべてのリソースを 1 つのパッケージに収集できます。 また、要求を行えるユーザー (テナント内のユーザーまたは他の接続されている組織からのユーザー) を定義できます。 プロジェクト マネージャーは、メールでアクセス要求を受信し、MyAccess ポータルで要求を承認または拒否します。 管理者は、アクセスが更新されていない限り、ユーザーまたはゲストがチームから削除される期限の日付または期間を含めるアクセスの条件を構成できます。 管理者は、チームに関連付けられているグループを設定して、アクセスレビューに参加することもできます。 アクセス [のレビューでは、](/azure/active-directory/governance/access-reviews-overview)グループの所有者は定期的にアラームを受け取り、チームのメンバーを確認します。 Access のレビューには推奨事項が含まれるので、グループ所有者は通常の構成証明プロセスを簡単に実行できます。
 
 |-|-|-|
 |:-|:-|:-|
@@ -120,8 +120,8 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 これらの設定を実装する方法についての技術面のガイダンスは、次をご覧ください。
 
-- [資格管理](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
-- [Access のレビュー](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
+- [資格管理](/azure/active-directory/governance/entitlement-management-overview)
+- [Access のレビュー](/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Teams 機能の管理
 
@@ -143,10 +143,10 @@ Teams にはポリシーを介して、メッセージング、会議、通話�
 - [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 - [Microsoft Teams のプライベート チャネル](private-channels.md)
 - [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
-- [Teams のメッセージング ポリシーを管理する](messaging-policies-in-teams.md)
+- [Teams でメッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 - [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)
 
-また、チャネルのモデレートを設定し、特定のユーザーにモデレーター機能を与え、チャネル投稿を作成してそれに応答できるユーザーを制御できます。 詳細 [については、「Microsoft Teams でのチャネル](manage-channel-moderation-in-teams.md) モデレートの設定と管理」を参照してください。
+また、チャンネルのモデレートを設定し、特定のユーザーにモデレーター機能を与え、誰がチャネル投稿を作成してそれに応答できるのか制御できます。 詳細 [については、「Microsoft Teams でのチャネル](manage-channel-moderation-in-teams.md) モデレートの設定と管理」を参照してください。
 
 ## <a name="security-and-compliance"></a>セキュリティとコンプライアンス
 

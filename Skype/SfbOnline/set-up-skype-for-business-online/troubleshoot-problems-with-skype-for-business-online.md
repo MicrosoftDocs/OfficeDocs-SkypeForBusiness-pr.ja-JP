@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Microsoft 365 および Office 365 での Skype for Business の管理者とユーザー向けの問題を解決する方法について説明します。
-ms.openlocfilehash: 79f4f9f2ac8d1cd2e6b65486089b212c076d272d
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: Microsoft 365 および Office 365 の Skype for Business の管理者とユーザーの問題を解決する方法について説明します。
+ms.openlocfilehash: b9186064cab1932d34c49c2ed0d48bde2ce88787
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164316"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109903"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Skype for Business Online に関する問題のトラブルシューティング
 
@@ -32,19 +32,19 @@ ms.locfileid: "44164316"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Skype for Business Online に関する管理者の問題のトラブルシューティング
 
-Skype for Business online のほとんどの質問に対する回答は、「 [skype For Business online サインインエラーの一般的な原因を確認](troubleshooting-sign-in-errors-for-admins.md#toc323194094)する」を参照してください。 次のサポート技術情報の記事には、多くのトラブルシューティングリソースとエラーコードの参照が含まれています。 [Skype For Business Online サインインエラーのトラブルシューティングを行う](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)こともできます。
+「Skype for Business Online サインイン エラーの一般的な原因を確認する」の記事で、Skype for Business Online に関するほとんどの質問に対する回答 [を確認できます](troubleshooting-sign-in-errors-for-admins.md#toc323194094)。 次のサポート技術情報の記事には、多くのトラブルシューティング リソースとエラー コードリファレンスも含まれています。管理者向け [Skype for Business Online](./troubleshooting-sign-in-errors-for-admins.md)サインイン エラーのトラブルシューティング。
 
 ダイヤルイン会議の問題については、「[電話会議のトラブルシューティングと既知の問題](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)」を参照してください。
 
 ## <a name="additional-help-for-skype-for-business-online-admin-issues"></a>Skype for Business Online の管理者の問題に対する追加サポート
 
-- [Skype for Business Online DNS 構成に関する問題のトラブルシューティング](https://go.microsoft.com/fwlink/p/?LinkId=786985)
+- [Skype for Business Online DNS 構成に関する問題のトラブルシューティング](/SkypeForBusiness/troubleshoot/online-configuration/dns-configuration-issue)
 
-- [Skype for Business Online で外部の連絡先との通信が機能しない](https://go.microsoft.com/fwlink/p/?LinkId=786984)
+- [Skype for Business Online で外部の連絡先との通信が機能しない](/SkypeForBusiness/troubleshoot/online-im-presence/cannot-communicate-with-external-contacts)
 
 - [Skype for Business と Lync のトラブルシューティング ガイド (ダウンロード可能な PDF) (英語)](https://gallery.technet.microsoft.com/office/Skype-for-Business-and-7857597d/view/Discussions)
 
-- [Skype for Business Online との接続の問題の診断と解決](https://go.microsoft.com/fwlink/p/?LinkId=786983)
+- [Skype for Business Online との接続の問題の診断と解決](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="help-your-skype-for-business-online-users"></a>Skype for Business Online ユーザーのヘルプ
 
@@ -72,17 +72,17 @@ Skype for Business Online ユーザーが直面する問題の多くはパスワ
 
 - [Skype for Business (Lync) のエラー ログを有効にする](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)
 
-## <a name="still-need-help-contact-support"></a>さらにヘルプが必要な場合 サポートにお問い合わせください。
+## <a name="still-need-help-contact-support"></a>それでもサポートが必要な場合 サポートにお問い合わせください。
 <a name="BK_SupportBridge_1"> </a>
 
-一般法人向け Microsoft 365 アプリの管理者として、事前販売、アカウント、課金のサポート、および技術的な問題の解決のための知識のあるサポートエージェントに無料でアクセスできます。 組織内の Microsoft 365 および Office 365 ユーザーの代わりに[サポートに連絡](https://go.microsoft.com/fwlink/p/?LinkID=518322)することもできます。
+ビジネス向け Microsoft 365 アプリの管理者は、知識の豊富なサポート 担当者に無料でアクセスして、販売前、アカウント、課金のサポートを受け、技術的な問題の解決に役立ちます。 Microsoft 365 の代わりにサポートに問い合わせ、組織内Office 365 人のユーザーに連絡することもできます。 [](/microsoft-365/Admin/contact-support-for-business-products)
 
-- [Microsoft 365 および Office 365 コミュニティフォーラムからヘルプを取得する](https://go.microsoft.com/fwlink/p/?LinkId=518605)
+- [Microsoft 365 および Office 365 コミュニティ フォーラムのヘルプ](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
-- [管理者向け: 電話サポート](https://go.microsoft.com/fwlink/p/?LinkID=518322)
+- [管理者向け: 電話サポート](/microsoft-365/Admin/contact-support-for-business-products)
 
 > [!NOTE]
-> 中国で 21Vianet が運営する Office 365 を使用している場合は、[21Vianet のサポート チームにお問い合わせください](https://go.microsoft.com/fwlink/p/?linkid=847978)。
+> 中国で 21Vianet が運営する Office 365 を使用している場合は、[21Vianet のサポート チームにお問い合わせください](/microsoft-365/Admin/contact-support-for-business-products)。
 
 ## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)

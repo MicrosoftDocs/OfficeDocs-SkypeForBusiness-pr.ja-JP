@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bcb5edea00066c861b2288791f3ff3e0ee58431
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e5f19aa6cfee7d4cce19ef5a0936a5a72e954648
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461017"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119346"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -55,7 +55,7 @@ Microsoft Teams 管理センターでこの設定を簡単にできます。 左
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-詳細については、[CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。
+詳細については、[CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。
 ## <a name="configure-a-third-party-video-distribution-provider"></a>サード パーティ製のビデオ配信プロバイダーを設定する 
 
 Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネットワーク (SDN) ソリューションまたはエンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを購入してセット アップした場合は、Teams でライブ イベント プロバイダーを構成します。 
@@ -88,15 +88,15 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName riverbed -SdnApiTemplateUrl "{API template URL provided by Riverbed}" -SdnApiToken {API token GUID provided by Riverbed}
 ```
 
-詳細については、[CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。
+詳細については、[CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。
 
 > [!NOTE]
-> 外部アプリまたはデバイスを使用してライブ イベントを作成する場合は、Microsoft Stream で [eCDN](https://docs.microsoft.com/stream/network-caching)プロバイダーを構成する必要があります。 
+> 外部アプリまたはデバイスを使用してライブ イベントを作成する場合は、Microsoft Stream で [eCDN](/stream/network-caching)プロバイダーを構成する必要があります。 
 
 >[!Note]
 > Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams のライブ イベントをセットアップする](set-up-for-teams-live-events.md)

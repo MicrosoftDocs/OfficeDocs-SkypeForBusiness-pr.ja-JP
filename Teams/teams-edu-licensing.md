@@ -17,24 +17,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7d5ebd0552aafffe2eb2330e6945f99dd788b2f
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 83448f32ddfc96800a14b5a599ef9cb7af52bb9b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858632"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119236"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>教育機関向け Microsoft Teams ライセンスを割り当てる
 
 Microsoft Teams は、会話、コンテンツ、アプリが 1 か所にまとめられたデジタル ハブです。 Microsoft Teams は Office 365 に組み込まれています。使い慣れている Office アプリおよびサービスと統合されているということは、学校にとって大きなメリットです。 教師は Microsoft Teams を使用することで、クラスでの共同作業環境の構築、教師仲間が集まる学習コミュニティへの参加、学校スタッフとのやり取りをすべて、Office 365 for Education の単一のエクスペリエンスで実現することができます。
 
-使用を開始するには、IT 管理者は、Microsoft 365 管理センターを使用して[学校向けに Microsoft Teams を有効にする](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)必要があります。
+使用を開始するには、IT 管理者は、Microsoft 365 管理センターを使用して[学校向けに Microsoft Teams を有効にする](/microsoft-365/education/intune-edu-trial/enable-microsoft-teams)必要があります。
 この操作を完了したら、教職員と生徒が Microsoft Teams などの Office 365 サービスにアクセスできるよう、ユーザー アカウントにライセンスを割り当てる必要があります。
 
 ユーザー アカウントへのライセンスの割り当ては、個別に行うことも、グループ メンバーシップを使用して自動的に行うこともできます。 この記事では、Microsoft 365 管理センターで Office 365 のライセンスを個々のユーザー アカウントまたは少数のユーザー アカウントに割り当てる手順を説明します。 グループ メンバーシップを使用してライセンスを自動的に割り当てるには、次のサポート記事を参照してください。
 
-- [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
-- [Active Directory でのグループベースのライセンス認証](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)
+- [Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Active Directory でのグループベースのライセンス認証](/azure/active-directory/users-groups-roles/licensing-groups-assign)
 
 ユーザーへのライセンスの割り当ては、[**ライセンス**] ページまたは [**アクティブなユーザー**] ページで行えます。 どちらの方法を使用するかは、製品ライセンスを特定のユーザーに割り当てるのか、またはユーザー ライセンスを特定の製品に割り当てるのかによって決まります。
 
@@ -44,7 +44,7 @@ Microsoft Teams は、会話、コンテンツ、アプリが 1 か所にまと�
 ## <a name="assign-licenses-to-users-on-the-licenses-page"></a>ライセンス ページでユーザーにライセンスを割り当てる
 
 > [!NOTE]
-> グローバル管理者、課金管理者、ライセンス管理者、またはユーザー管理の管理者のいずれかである必要があります。詳細については、「[Office 365 の管理者ロールについて](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)」を参照してください。
+> グローバル管理者、課金管理者、ライセンス管理者、またはユーザー管理の管理者のいずれかである必要があります。詳細については、「[Office 365 の管理者ロールについて](/microsoft-365/admin/add-users/about-admin-roles)」を参照してください。
 
 [**ライセンス**] ページを使用してライセンスを割り当てる場合、特定の製品のライセンスを最大 20 人のユーザーに割り当てることができます。 [**ライセンス**] ページには、サブスクリプションを所有するすべての製品のリストが表示されます。各製品のライセンスの総数、割り当て済みのライセンスの数、および使用可能なライセンスの数も表示されます。
 

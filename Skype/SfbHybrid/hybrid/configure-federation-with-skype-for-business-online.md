@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: オンプレミス展開と Skype for Business Online の間の相互運用性を構成する方法について説明します。'
-ms.openlocfilehash: a97072c9c4b65b4cc13d29a733b8ddc840529363
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: e2af514ef1a10d652abae7bdd39a923dc52e1c4a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569219"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118946"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Skype for Business ハイブリッドの構成
 
@@ -33,7 +33,7 @@ Skype for Business ハイブリッドを構成するには、次のことを実�
 - [Microsoft 365 または Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365)を信頼し、共有 SIP アドレス空間を有効にOfficeオンプレミス環境を構成します。
 - [Microsoft 365 または 365](#enable-shared-sip-address-space-in-your-organization)組織で共有 SIP Officeを有効にします。
 
-Exchange がオンプレミスの場合は、Exchange オンプレミス環境と Skype for Business Online 環境の間で OAuth を構成できます。 詳細については  [、「Manage server-to-server authentication in Skype for Business Server」および「Plan to](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) [integrate Skype for Business and Exchange」を参照してください](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support)。 
+Exchange がオンプレミスの場合は、Exchange オンプレミス環境と Skype for Business Online 環境の間で OAuth を構成できます。 詳細については  [、「Manage server-to-server authentication in Skype for Business Server」および「Plan to](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) [integrate Skype for Business and Exchange」を参照してください](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 とのフェデレーションを行うオンプレミスエッジ サービスを構成する
 
@@ -46,7 +46,7 @@ Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $Tru
 '-EnablePartnerDiscovery' の値が $True に設定されている場合、Skype for Business Server は DNS レコードを使用して、AllowedDomains リストに記載されていないパートナー ドメインを試して検出します。 値が [ドメイン] に$False場合、Skype for Business Server は AllowedDomains リストにあるドメインとのみフェデレーションします。 DNS のサービス ルーティングを使用する場合、このパラメーターは必須です。
 
 > [!NOTE]
-> オンプレミスの Skype for Business 展開のユーザーと Skype for Business Online 組織のユーザー間のフェデレーションを有効にする方法の詳細については、「Skype for Business Server での [Skype for Business Online](https://docs.microsoft.com/skypeforbusiness/manage/federation-and-external-access/federation-support/configuring-federation-support)顧客のフェデレーション サポートの構成」を参照してください。
+> オンプレミスの Skype for Business 展開のユーザーと Skype for Business Online 組織のユーザー間のフェデレーションを有効にする方法の詳細については、「Skype for Business Server での [Skype for Business Online](../../SfbServer/manage/federation-and-external-access/federation-support/configuring-federation-support.md)顧客のフェデレーション サポートの構成」を参照してください。
 
 
 ## <a name="configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-microsoft-365-or-office-365"></a>Microsoft 365 または Microsoft 365 または 365 で共有 SIP アドレス空間を有効にOfficeする
@@ -78,7 +78,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > SharedSipAddressSpace 属性は、オンラインに移行するまで "True" に維持する必要があります。ユーザーはオンプレミスのままではありません。 
   
-Teams または Skype for Business Online とのリモート PowerShell セッションを確立するには、まず [Teams PowerShell モジュールをインストールする必要があります](https://docs.microsoft.com/microsoftteams/teams-powershell-install)。
+Teams または Skype for Business Online とのリモート PowerShell セッションを確立するには、まず [Teams PowerShell モジュールをインストールする必要があります](/microsoftteams/teams-powershell-install)。
   
 モジュールをインストールした後、次のコマンドレットを使用してリモート セッションを確立できます。
    ```powershell
@@ -89,10 +89,10 @@ Teams または Skype for Business Online とのリモート PowerShell セッ�
    Connect-MicrosoftTeams -Credential $credential
    ```
 
-Skype for Business Online でリモート PowerShell セッションを確立する方法、および Skype for Business Online Connector モジュールを使用する方法の詳細については、「Set up your computer for Windows PowerShell」を参照 [してください](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。
+Skype for Business Online でリモート PowerShell セッションを確立する方法、および Skype for Business Online Connector モジュールを使用する方法の詳細については、「Set up your computer for Windows PowerShell」を参照 [してください](../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 
 
 ## <a name="see-also"></a>関連項目
 
-[New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/new-cshostingprovider?view=skype-ps)
+[New-CsHostingProvider](/powershell/module/skype/new-cshostingprovider?view=skype-ps)

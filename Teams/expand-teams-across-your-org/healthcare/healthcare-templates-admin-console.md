@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 管理センターまたは Microsoft Graph で Microsoft Teams テンプレートを使用すると、設定、チャネル、およびアプリの定義済みのテンプレートを使用することで、チームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b45c949b70aa2a299f2aafe54d81cdd8a1a6c0b5
-ms.sourcegitcommit: 774c2fdc71df430674493c33b609523af3cbda4c
-ms.translationtype: HT
+ms.openlocfilehash: 13b85818101e1c3d42ae6dc715274ac23453e178
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/16/2021
-ms.locfileid: "50260309"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117875"
 ---
 # <a name="create-a-team-using-teams-healthcare-templates"></a>Teams ヘルスケア テンプレートを使用してチームを作成する
 
@@ -67,7 +67,7 @@ Microsoft Teams 管理者は、Teams 管理センターで、Teams テンプレ�
 
 ## <a name="use-the-teams-templates-with-the-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
 
-開発者は、Microsoft Graph を使用して、Teams テンプレートでチームを作成できます。 現在、ファースト パーティの医療テンプレートが 2 つ提供されています。このテンプレートはさまざまな状況で使用できます。 一般的なチーム テンプレートの詳細については、「[Teams テンプレートの使用を開始する](../../get-started-with-teams-templates.md)」をご参照ください。 また、Teams テンプレートと Microsoft Graph については、「[Microsoft Teams API の概要 ](https://docs.microsoft.com/graph/teams-concept-overview?view=graph-rest-1.0)」 および 「[Teams テンプレート リソース タイプ](https://docs.microsoft.com/graph/api/resources/teamstemplate?view=graph-rest-1.0)」をご参照ください。
+開発者は、Microsoft Graph を使用して、Teams テンプレートでチームを作成できます。 現在、ファースト パーティの医療テンプレートが 2 つ提供されています。このテンプレートはさまざまな状況で使用できます。 一般的なチーム テンプレートの詳細については、「[Teams テンプレートの使用を開始する](../../get-started-with-teams-templates.md)」をご参照ください。 また、Teams テンプレートと Microsoft Graph については、「[Microsoft Teams API の概要 ](/graph/teams-concept-overview?view=graph-rest-1.0)」 および 「[Teams テンプレート リソース タイプ](/graph/api/resources/teamstemplate?view=graph-rest-1.0)」をご参照ください。
 
 ### <a name="ward-template"></a>病棟用テンプレート
 
@@ -93,7 +93,7 @@ Microsoft Teams 管理者は、Teams 管理センターで、Teams テンプレ�
 
 ### <a name="how-to-use-first-party-templates"></a>ファースト パーティ テンプレートの使い方
 
-これらのテンプレートを使用するには、要求本文の 'template@odata.bind' プロパティを '標準' から TemplateIDs に変更します。  Teams テンプレートを展開する方法の詳細については、「[チームの作成](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)方法に関する Microsoft Graph の記事」をご参照ください。
+これらのテンプレートを使用するには、要求本文の 'template@odata.bind' プロパティを '標準' から TemplateIDs に変更します。  Teams テンプレートを展開する方法の詳細については、「[チームの作成](/graph/api/team-post?view=graph-rest-beta)方法に関する Microsoft Graph の記事」をご参照ください。
 
 > [!NOTE]
 > テンプレートのチャネルは自動的に [全般] タブに作成されます。

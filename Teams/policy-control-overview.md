@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3665f386f43d8e9b8c49a024663265c25ae96214
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136045"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117785"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams のポリシー制御の概要
 
@@ -30,12 +30,12 @@ Microsoft では、Microsoft 365 の一部である Microsoft Teams を使用す
 この記事は、次の領域のプライバシー制御に関する情報を提供することを目的としています。
 
 - **診断データ** は、組織内で Windows を実行しているコンピューターで使用されている Teams と Office ソフトウェアについての診断データを収集し、Microsoft に送信します。
-- **接続エクスペリエンス**は、クラウドベースの機能を使用し、強化された Teams と Office 機能をユーザーに提供します。
+- **接続エクスペリエンス** は、クラウドベースの機能を使用し、強化された Teams と Office 機能をユーザーに提供します。
 
 これらの変更の一部として、新規および更新されたユーザー インターフェイス (UI) 要素とポリシーの設定があります。
 
 > [!IMPORTANT]
-> 詳細については、M365 の「[ポリシー管理の概要](https://docs.microsoft.com/deployoffice/privacy/overview-privacy-controls)」のコンテンツをご覧ください。
+> 詳細については、M365 の「[ポリシー管理の概要](/deployoffice/privacy/overview-privacy-controls)」のコンテンツをご覧ください。
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>Microsoft 365 Apps for enterprise から Microsoft に送信される診断データ
 
@@ -91,10 +91,10 @@ Teams ソフトウェアには、選択可能な 3 つのレベルの診断デ�
 - **機能データ**。アプリの構成情報など、接続エクスペリエンスがタスクを実行するために必要な情報を含みます。
 - **サービス診断データ**。サービスをセキュリティで保護し、最新の状態に保ち、期待どおりに実行するために必要なデータ。 このデータは接続エクスペリエンスに厳密に関連しているため、必須またはオプションの診断データ レベルとは別になります。
 
-この機能をユーザーに提供しないことを選択できます。その場合、この情報は、接続されたエクスペリエンスの機能をサポートするために Microsoft に提供されません。 [必要なサービス データ](https://docs.microsoft.com/deployoffice/privacy/required-service-data)の詳細を確認できます。
+この機能をユーザーに提供しないことを選択できます。その場合、この情報は、接続されたエクスペリエンスの機能をサポートするために Microsoft に提供されません。 [必要なサービス データ](/deployoffice/privacy/required-service-data)の詳細を確認できます。
 
 ## <a name="essential-services-for-microsoft-teams"></a>Microsoft Teams の重要なサービス
 
 Microsoft 365 Apps for enterprise の機能に不可欠な一連のサービスもあります。これらを無効にすることはできません。 たとえば、Microsoft 365 Apps for enterprise を使用するためのライセンスを正しく取得しているかどうかを確認するライセンス サービスです。 これらのサービスに関する必要なサービス データは、設定済みの他のポリシー設定に関係なく、収集されて Microsoft に送信されます。
 
-詳細については、 [Office の不可欠なサービス](https://docs.microsoft.com/deployoffice/privacy/essential-services)を参照してください。
+詳細については、 [Office の不可欠なサービス](/deployoffice/privacy/essential-services)を参照してください。

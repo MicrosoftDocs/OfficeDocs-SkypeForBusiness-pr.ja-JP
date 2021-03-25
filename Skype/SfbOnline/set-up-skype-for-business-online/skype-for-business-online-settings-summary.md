@@ -19,20 +19,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Skype for Business の組織とユーザーの設定の概要は、パブリック IM 接続、会議出席依頼、通話や会議のレコーディングなどの詳細情報を確認するのに役立ちます。  '
-ms.openlocfilehash: a7c627620bba6d1249dcc6ce14bbaf25796b7173
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 'この Skype for Business の組織とユーザー設定の概要は、パブリック IM 接続、会議出席依頼、通話や会議のレコーディングなどについて詳しい情報を得るのに役立ちます。  '
+ms.openlocfilehash: d48da549a48cf3326cc55a44d68ca36048fae439
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164126"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109923"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online の設定の概要
 
-**Skype For business 管理センター**には、組織全体と個々のユーザーの設定が含まれています。 
+**Skype for Business 管理センターには、** 組織全体と個々のユーザーの設定が含まれます。 
   
 > [!NOTE]
->  選んだ地域によっては、Skype for Business Online の一部の機能にアクセスできない場合があります。 詳細については、「 [Microsoft 365 および Office 365 のライセンスの制限](https://go.microsoft.com/fwlink/?LinkId=529483)」を参照してください。 
+>  選んだ地域によっては、Skype for Business Online の一部の機能にアクセスできない場合があります。 詳細については [、「Microsoft 365 および Office 365](/microsoft-365/commerce/)のライセンスの制限」を参照してください。 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Skype for Business Online の組織の設定
 <a name="__top"> </a>
@@ -53,7 +53,7 @@ ms.locfileid: "44164126"
 |音声およびビデオ  <br/> |Skype for Business Online を使用してオーディオおよびビデオによる通話を実行する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |レコーディング  <br/> |通話と会議を記録する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |匿名の出席者のダイヤルアウト  <br/> |電話会議プロバイダーに電話をかけてもらうことにより、匿名の Skype for Business Online 会議出席者の接続を許可する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|アーカイブされていない機能を無効にする  <br/> | 組織で「ケースにコンテンツを追加する」を設定し、Exchange 管理センターの[電子情報開示センターでソースを保留](https://go.microsoft.com/fwlink/?LinkId=529482)にすると、キャプチャされていない機能がオフになります。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/>  電子的に保存した情報の保管を法律で要請されている場合は、このオプションを選んでください。 <br/> |無効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|アーカイブされていない機能を無効にする  <br/> | 組織がケースにコンテンツを追加し、Exchange 管理センターの電子情報開示[](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)センターでソースを保留にしている場合、キャプチャされない機能をオフにします。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/>  電子的に保存した情報の保管を法律で要請されている場合は、このオプションを選んでください。 <br/> |無効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
@@ -61,4 +61,3 @@ ms.locfileid: "44164126"
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)
 
   
- 

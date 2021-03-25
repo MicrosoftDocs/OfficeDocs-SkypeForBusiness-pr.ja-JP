@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Microsoft Teams でユーザーの電話会議 PIN をリセットする方法と、PIN に関する重要な事実について説明します。
-ms.openlocfilehash: 1ee3360668084bf6bf99b3ede25584ce9800dd5b
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+description: Microsoft Teams でユーザーの電話会議 PIN をリセットする方法と PIN に関する重要な事実について説明します。
+ms.openlocfilehash: 7ea380fbeb722337eaec598823b12dbe18f49918
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861441"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117635"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
@@ -62,7 +62,7 @@ PIN は、電話会議に対応している Microsoft Teams ユーザーごと�
 
 - セキュリティ上の目的で、PIN がリセットされた場合、PIN は管理者に 1 回だけ表示されます。 管理者が PIN をリセットすると、PIN は *********** として表示されます。
     
-- 既定では、ユーザーにメールを自動的に送信する機能は有効になっています。ユーザーが電話会議で有効になっている場合、または PIN がリセットされた場合、ユーザーは自分の PIN が記載されたメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN リセット メールはユーザーに送信されません。PIN 情報を手動でユーザーに送信する必要があります。
+- ユーザーへのメールの自動送信は既定で有効になっています。ユーザーが電話会議で有効になっている場合、または PIN がリセットされた場合、ユーザーは自分の PIN が記載されたメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN リセット メールはユーザーに送信されません。PIN 情報を手動でユーザーに送信する必要があります。
     
 - 会議が始まると、ロビー内のすべてのユーザーが自動的に会議に参加します。 たとえば、開始前に 2 人の参加者が会議に参加しようとする場合、参加者はロビーに置かれ、保留音を聞き、会議の開催者が自分の PIN を使って電話で参加すると、会議が開始され、ロビーの参加者が会議に参加します。
     
@@ -70,9 +70,9 @@ PIN は、電話会議に対応している Microsoft Teams ユーザーごと�
     
 - ユーザーを電話会議用に有効にした場合、既定では、ユーザーは会議情報と PIN を含むメールを送信します。 PIN がリセットされた場合、ユーザーに設定されているプライマリ SMTP アドレス (エイリアス) に新しい PIN がメールで送信されるので、ユーザーは Microsoft 365 または Office 365 メールボックスを持っている必要があります。
     
-- 電話会議をセットアップするときに、組織内の PIN に必要な数字を設定します。 PIN は 4 ~ 12 桁の数字で指定できます。既定値は 5 です。 PIN の長さの設定を変更した場合、この設定は新しく生成された PIN にのみ適用され、電話会議で有効になっている既存のユーザーの PIN 設定には適用されません。 「 [電話会議の PIN の長さを設定する」を参照してください](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
+- 電話会議をセットアップするときに、組織内の PIN に必要な数字を設定します。 PIN は 4 ~ 12 桁で指定できます。既定値は 5 です。 PIN の長さの設定を変更した場合、この設定は新しく生成された PIN にのみ適用され、電話会議で有効になっている既存のユーザーの PIN 設定には適用されません。 「 [電話会議の PIN の長さを設定する」を参照してください](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
     
-- 既定では、メールはユーザーの Microsoft 365 Office 365 プライマリ SMTP アドレスに設定されます。 Microsoft 365 以外のアドレスまたは Office 365 以外のアドレス (Hotmail または MSN のメール アドレスなど) にメールを送信できます。 既定のメール アドレスを上書きするには、既定のメール Windows PowerShell。 これは、ユーザーが Microsoft 365 または 365 に Exchange メールボックスを持Office便利です。
+- 既定では、メールはユーザーの Microsoft 365 Office 365 プライマリ SMTP アドレスに設定されます。 Microsoft 365 以外のアドレスまたは Office 365 以外のアドレス (Hotmail または MSN のメール アドレスなど) にメールを送信できます。 既定のメール アドレスを上書きするには、既定のメール Windows PowerShell。 これは、ユーザーが Microsoft 365 または 365 で Exchange メールボックスを持Office便利です。
 
     
 
@@ -80,11 +80,11 @@ PIN は、電話会議に対応している Microsoft Teams ユーザーごと�
 
 Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell では、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する必要がある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Microsoft 365 または Office 365 を管理するための最適Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」をご覧ください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)」をご覧ください。
   
 ## <a name="related-topics"></a>関連トピック
 

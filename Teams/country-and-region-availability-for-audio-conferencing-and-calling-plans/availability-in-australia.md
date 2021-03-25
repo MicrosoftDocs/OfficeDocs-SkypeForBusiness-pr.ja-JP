@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをオーストラリアで利用できるようにする方法について説明します。
-ms.openlocfilehash: 8bb5d0cffc5cef59dd6a62f81973e6e96dae9fa9
-ms.sourcegitcommit: 273f231098799975dc4cf609a68c9944b8072ce1
+description: オーストラリアで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを以下に示します。
+ms.openlocfilehash: afe7f5cf0cdb3758f107cee2801ccf07779c747f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "48818767"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118426"
 ---
 # <a name="availability-in-australia"></a>オーストラリアでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスをオーストラリアで利用できるようにする方法について説明します。
+オーストラリアで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを以下に示します。
 
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -59,26 +59,26 @@ ms.locfileid: "48818767"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |はい。「 [Telstra 通話](https://aka.ms/TelstraVoicePlan)」をご覧ください。  <br/> |
-|通話プランで使用できる時間数  <br/> |「 [Telstra 通話](https://aka.ms/TelstraVoicePlan)」をご覧ください。 <br/> |
-|発信できる相手先  <br/> |「 [Telstra 通話](https://aka.ms/TelstraVoicePlan)」をご覧ください。 <br/> |
+|通話プランは購入できますか?  <br/> |はい [、Telstra 通話を参照してください](https://aka.ms/TelstraVoicePlan)。  <br/> |
+|通話プランで使用できる時間数  <br/> |Telstra [通話を参照してください](https://aka.ms/TelstraVoicePlan)。 <br/> |
+|発信できる相手先  <br/> |Telstra [通話を参照してください](https://aka.ms/TelstraVoicePlan)。 <br/> |
 
 > [!IMPORTANT]
-> (Telstra によって提供される) オーストラリアの加入者番号を削除するには、Telstra に直接お問い合わせください。
-> Telstra によって提供されるオーストラリアの加入者番号の緊急対応の住所情報を更新するには、Telstra に直接お問い合わせください。
-> 詳細については、「 [Telstra 通話](https://aka.ms/TelstraVoicePlan)」を参照してください。
+> (Telstra が提供する) オーストラリアのサブスクライバー番号を削除するには、Telstra に直接連絡してください。
+> オーストラリアの加入者番号 (Telstra が提供) の緊急対応の住所情報を更新するには、Telstra に直接お問い合わせください。
+> 詳細については [、「Telstra 通話」を参照してください](https://aka.ms/TelstraVoicePlan)。
 
-### <a name="if-your-tenant-is-located-outside-australia"></a>テナントがオーストラリアの外部にある場合
+### <a name="if-your-tenant-is-located-outside-australia"></a>テナントがオーストラリア以外にある場合
 
-2019年9月1日以降、テナントがオーストラリア以外の場所にいる場合は、オーストラリアにあるユーザーのために通話プランを購入することができます。 この機能は、次の国と地域で利用できます。
+2019 年 9 月 1 日から、テナントがオーストラリア以外にある場合は、オーストラリアに位置するユーザーの通話プランを購入できます。 これは、次の国と地域で利用できます。
 
 |**機能**|**詳細**|
 |---------|---------|
-|南北アメリカ    |米国、米領諸島      |
-|APAC     |バングラデシュ、ブータン、ブルネイ、カンボジア、香港、インドネシア、ラオス、ティモール、マレーシア、シンガポール、ミャンマー、ネパール、フィリピン、シンガポール、スリランカ、タイ、ティモール、、ベトナム|
-|EMEA    |オーランド諸島、アンドラ、オーストリア、ベルギー、ブーベ島、ブルガリア、クロアチア、キプロス、チェコ共和国、デンマーク、エストニア、フェロー諸島、フィンランド、フランス、ドイツ、ジブラルタル、ギリシャ、グリーンランド、ガーンジー島、ハンガリー、アイスランド、アイルランド、ポーランド、イタリア、ルクセンブルク、ポーランド、ポーランド、フランス、スペイン、イタリア、ポーランド、ポルトガル、ルーマニア、サンリノ、スロバキア、スロベニア、スペイン、ポーランド、スウェーデン、フランス、フランス、ハンガリー、スイス、英国、フランス、イギリス、フランス、バチカン  |
+|南北アメリカ    |米国、米国離島      |
+|APAC     |バングラデシュ、ブータン、ブルネイ、カンボジア、香港、インドネシア、ラオス、マカオ、マレーシア、モルディブ、ミャンマー、ネパール、フィリピン、シンガポール、スリランカ、タイ、ティモール レステ、ベトナム|
+|EMEA    |Åland Islands, Andorra, Austria, Belgium, Bouvet Island, Bulgaria, クロアチア、キプロス、チェコ共和国、デンマーク、エストニア、フェロー諸島、フィンランド、フランス、ドイツ、ジブラルタル、ギリシャ、グリーンランド、ガーンジー、ハンガリー、アイスランド、アイルランド、マン島、イタリア、Jan Mayen、ジャージー、ラトビア、リヒテンシュタイン、リトアニア、ルクセンブルク、マルタ、モナコ、オランダ、ノルウェー、ポーランド、ポルトガル、ルーマニア、サンマリノ、スロバキア、スロベニア、スペイン、スバールバル諸島、スウェーデン、スイス、英国、バチカン  |
 
-Telstra 通話は、オーストラリアにあるユーザーと、上に記載されている国と地域で、Telstra によってプロビジョニングされたユーザーに対してのみ、アドオンとして表示されます。 他の地域のユーザーは、引き続き Microsoft の通話プランまたはダイレクトルーティングを適用します。 詳細については、「 [Telstra 通話](https://aka.ms/TelstraVoicePlan)」を参照してください。
+Telstra 通話は、Telstra によってプロビジョニングされた後、オーストラリアに位置するユーザーと上記の国と地域に対するアドオンとしてのみ表示されます。 他の地域のユーザーの場合、必要に応じ、引き続き Microsoft 通話プランまたは直接ルーティングを添付します。 詳細については [、「Telstra 通話」を参照してください](https://aka.ms/TelstraVoicePlan)。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -88,7 +88,7 @@ Telstra 通話は、オーストラリアにあるユーザーと、上に記載
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
 
-自動応答の有料または無料の電話番号を取得する必要がある場合は、通話キューまたは電話会議サービス番号に [お問い合わせください](mailto:ptnapac@microsoft.com)。
+自動応答、通話キュー、電話会議サービス番号の有料電話番号と無料電話番号を取得する場合は、お問い合 [わせください](mailto:ptnapac@microsoft.com)。
 
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -100,6 +100,6 @@ Telstra 通話は、オーストラリアにあるユーザーと、上に記載
   
 ## <a name="related-topics"></a>関連項目
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

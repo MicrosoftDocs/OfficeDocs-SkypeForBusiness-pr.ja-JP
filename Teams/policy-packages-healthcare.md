@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 医療組織用の Teams ポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: af6f5923d5c97fc03c77585ba94292264aacc027
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812857"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117765"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>ヘルスケア向けの Teams ポリシー パッケージ
 
@@ -106,7 +106,7 @@ Microsoft Teams には現在、次のヘルスケア ポリシー パッケー�
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>ポリシー パッケージを多数 (一群) のユーザー セットに割り当てる
 
-バッチ ポリシーパッケージの割り当てを使用して、多数のユーザー セットに同時にポリシーパッケージを割り当てることができます。 [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) コマンドレットを使用して、割り当てたい一群のユーザーおよびポリシー パッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチの操作 ID が生成されます。
+バッチ ポリシーパッケージの割り当てを使用して、多数のユーザー セットに同時にポリシーパッケージを割り当てることができます。 [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) コマンドレットを使用して、割り当てたい一群のユーザーおよびポリシー パッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチの操作 ID が生成されます。
 
 バッチには最大 5,000 のユーザーを含めることができます。 ユーザーをオブジェクト ID、UPN、SIP アドレス、またはメール アドレスで指定できます。 詳細については、[「一群のユーザーにポリシー パッケージを割り当てる」](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)を参照してください。
 

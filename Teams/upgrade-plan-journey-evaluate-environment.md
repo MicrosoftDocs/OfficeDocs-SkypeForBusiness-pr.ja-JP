@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: チームにアップグレードするために現在の環境を適切に評価するための要件について説明します。
+description: Teams にアップグレードするための現在の環境を適切に評価するための要件について説明します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,55 +18,55 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c783934128e2c1d3f971948c41e3481839ff0aa1
-ms.sourcegitcommit: 1e16c6c7112bdde03209c12468b5705ddd116a62
+ms.openlocfilehash: 119a80f5a25b4a2d8599df3df6a573a1f5554c1a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "49578240"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119106"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Teams にアップグレードする前に環境を評価する
 
 ![技術準備段階が協調表示されたアップグレード行程図](media/upgrade-banner-tech-readiness.png "技術準備段階が強調表示された、アップグレード行程の各段階")
 
-この記事は、ユーザーの準備段階と並行して実行されるアクティビティである、アップグレードが行われる技術準備段階の一部です。 続行する前に、以前のステージでこれらのアクティビティが完了していることを確認してください。
+この記事は、ユーザーの準備段階と並行して実行されるアクティビティである、アップグレードが行われる技術準備段階の一部です。 次の手順に進む前に、前のステージからこれらのアクティビティを完了したと確認します。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
-- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
-- [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
+- [プロジェクトの対象範囲を定義した](./upgrade-define-project-scope.md)
+- [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-この記事では、オペレーティングチーム向けに現在の環境を適切に評価するための要件の概要を示します。 環境を評価することで、全体的な展開に影響を与えるリスクと要件を特定することができます。 これらの項目を事前に特定することで、計画を調整して成功を収めることができます。
+この記事では、Teams を操作するための現在の環境を適切に評価するための要件の概要を示します。 環境を評価することで、全体的な展開に影響するリスクと要件を特定します。 これらの項目を事前に特定することで、計画を調整して成功を後で追い出します。
 
 ## <a name="introduction-to-the-discovery-questionnaire"></a>探索アンケートの概要
 
-目標のキーの結果 (OKRs) を実現するには、以前に主要サービスの決定を行いました。 次の手順では、環境の検出を実行して、組織がソリューションを実装する準備ができていることを確認するために、IT インフラストラクチャ、ネットワーク、操作に関するすべての側面を評価します。 探索は、チームへの旅を計画するときに実行する主要な手順の1つです。 ネットワークが Teams へのアップグレードをサポートできるように、環境の検出にはネットワーク準備評価が含まれている必要があります。 環境の詳細な検出を行って、現在の状態の理解を深め、問題が発生した場合や、チームのロールアウトの実行に発生する可能性が高いブロックを明らかにすることができます。
+目標キーの結果 (OKRs) を達成するために、以前に主要なサービス決定を行いました。 次の手順では、環境検出を実行して、IT インフラストラクチャ、ネットワーク、運用に関連するすべての側面を評価し、組織がソリューションを実装する準備ができていることを確認します。 検出は、Teams への旅を計画する際に行う最初の重要な手順の 1 つです。 環境検出には、ネットワークが Teams へのアップグレードをサポートするためにネットワークの準備評価を含める必要があります。 環境の詳細な検出を実行して、現在の状態をよりよく理解し、問題を明らかにしたり、さらに重要なこととして、Teams のロールアウトの実行をブロックする可能性があります。
 
-技術的なリスクは、環境の評価と導入の準備評価の一部として特定し、特定された各リスクの軽減計画を作成します。 この情報は、リスク登録に組み込む必要があります。
+環境評価と導入準備評価の一環として技術的なリスクを特定し、特定された各リスクの緩和計画を作成します。 この情報は、リスク レジスタに組み込む必要があります。
 
-既存のコラボレーションインフラストラクチャと、Microsoft 365 または Office 365 の組織、ネットワーキング、エンドポイント、操作、導入と準備に関連するすべての事項は、環境検出アンケートの一部として含まれています。 プロジェクトチームと協力して、要求された情報をできるだけ詳しく入力して、計画作業を容易にします。
+既存のコラボレーション インフラストラクチャと Microsoft 365 または Office 365 組織、ネットワーク、エンドポイント、運用、導入と準備に関連する事項はすべて、環境調査アンケートの一部として含まれています。 プロジェクト チームと一緒に、必要な情報を可能な限り詳細に提供し、計画作業を容易に行います。
 
-[アンケート](upgrade-plan-journey-discovery-questionnaire.md) は、次のセクションに分かれており、組織のチーム展開に対する準備が、次のいくつかの主要領域で確認されます。
+[アンケートは](upgrade-plan-journey-discovery-questionnaire.md) 次のセクションに分かれ、いくつかの主要な領域での Teams 展開に対する組織の準備を確認します。
 
 - Microsoft 365 または Office 365 組織の詳細
-- 既存のコラボレーションプラットフォームの概要
-- コラボレーションプラットフォームの展開の詳細
+- 既存のコラボレーション プラットフォームの概要
+- コラボレーション プラットフォームの展開の詳細
 - Microsoft 365 または Office 365 サービスへのネットワークとアクセス
 - エンドポイント
 - 操作
 - 導入と準備
 
 > [!TIP]
-> 最初に、アンケートを Microsoft Word 文書にコピーすることができます。 すべての質問に答えて、移動の際にすべての詳細情報を把握してみてください。
+> 最初に、質問票を Microsoft Word 文書にコピーします。 すべての質問に回答し、移動に合わせすべての詳細を取り込もうとします。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>環境評価の完了責任者は誰ですか?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>環境の評価を完了する責任は誰ですか?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>次の手順</td><td><ul><li>環境評価の結果を文書化します。</li></ul></td></tr>
 </table>
 
 
-## <a name="project-team"></a>プロジェクトチーム
+## <a name="project-team"></a>プロジェクト チーム
 
-プロジェクトチームに適切なユーザーが参加していることを確認します。 手順が完了したことを確認して、 [プロジェクトの関係者を登録](upgrade-enlist-stakeholders.md)します。
+プロジェクト チームに適切なメンバーを関与したとします。 「プロジェクト関係者を参加する」で [完了した手順を確認します](upgrade-enlist-stakeholders.md)。
 
-環境の評価が完了したら、次の手順「 [サービスを準備](upgrade-prepare-environment-prepare-service.md)する」に進みます。
+環境を評価した後、次の手順に進みます。サービス [を準備します](upgrade-prepare-environment-prepare-service.md)。

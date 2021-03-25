@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 9cec7abc4af736a72b83bc978709dacf4e7c18e8
-ms.sourcegitcommit: 68dffc3aca46992448bc2be0689bfd352e016316
-ms.translationtype: HT
+ms.openlocfilehash: 463f081151761d4c587c893672e7bbee093cc844
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "49601691"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117735"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -125,4 +125,4 @@ Teams は、プライベート チャネル サイトのライフ サイクル�
 
 [Teams での PowerShell の概要](teams-powershell-overview.md)
 
-[Microsoft Graph API を使用して Teams で作業する](https://docs.microsoft.com/graph/api/resources/teams-api-overview)
+[Microsoft Graph API を使用して Teams で作業する](/graph/api/resources/teams-api-overview)

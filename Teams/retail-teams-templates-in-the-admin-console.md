@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b40da8fd1cc8182d0e5ad80c30f5a459f17d26f
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
-ms.translationtype: HT
+ms.openlocfilehash: a63602f07e0c248b4decbc733e41b16fdafc3911
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662642"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117615"
 ---
 # <a name="use-teams-retail-templates-in-the-admin-center"></a>管理センターで小売業向けの Teams テンプレートを使用する
 
@@ -34,7 +34,7 @@ Teams テンプレートには、小売業者のニーズに基づいて設計�
 
 この記事では、各 Teams テンプレートと、それらの使用を推奨する方法について説明します。
 
-この記事は、小売業の組織全体で複数のチームを計画、展開し、管理する責任があるユーザーに役立ちます。 組織内に Teams サービスがすでに展開されていることを前提としています。 展開がまだの場合は、「[Microsoft Teams の展開方法](How-to-roll-out-teams.md)」をお読みになって展開を開始してください。
+この記事は、小売業の組織全体で複数のチームを計画、展開し、管理する責任があるユーザーに役立ちます。 組織内に Teams サービスがすでに展開されていることを前提としています。 展開がまだの場合は、「[Microsoft Teams の展開方法](./deploy-overview.md)」をお読みになって展開を開始してください。
 
 一般的なチーム テンプレートの詳細については、「[Teams テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)」をご参照ください。
 

@@ -20,21 +20,21 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: a6d52b656726d793649f4c6fadc117ec9e052816
-ms.sourcegitcommit: 654199b413d1c0ab3feffbb9b7d7ddfa021ec273
+ms.openlocfilehash: 1acde038bc2df64d7cf35828bf0b08273bf1f095
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50032366"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51108353"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>Microsoft Teams でチームを作成するときに Microsoft 365 グループを計画する
 ==========================================================
 
-Microsoft 365 グループの使用を検討する場合、またはチームを作成する場合は、チームの使用目的、アクセス権を持つユーザー、チームが達成すると予想される結果について検討します。 コンテンツが細すぎる (チャネル数が多すぎる) コンテンツによってすぐにオーバーランする可能性がある場合は、作成するチャネルの数に特に注意してください。
+Microsoft 365 グループの使用を検討する場合、またはチームを作成する場合は、チームの使用目的、アクセス権を持つユーザー、チームが達成すると予想される結果について検討します。 ユーザーがコンテンツが細すぎる (チャネルが多すぎる) ほどオーバーランする可能性がある場合は、作成するチャネルの数に特に注意してください。
 
-Microsoft 365 グループの計画と Microsoft Teams への影響 (または Microsoft Teams による) について、次の 2 つのシナリオについて議論する必要があります。
+Microsoft 365 グループの計画と Microsoft Teams への影響 (または Microsoft Teams による) に関する議論が必要なシナリオは 2 つ考えられます。
 
--   まず、お客様はグループに既存の投資を行う可能性があります。現在、パブリック グループとプライベート グループの両方がサポートされています。現在サポートされているメンバー数については [、Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams)の制限と仕様を参照してください。 前に説明したように、Microsoft 365 管理センターではなく、Teams クライアントを使用してチームへのユーザーのメンバーシップを管理する必要があります。 このシナリオを考えると、ユーザーが Microsoft 365 グループでスレッド化された会話に慣れる場合、グループの会話は本質的にメールであり、Teams チャネルのチャット メッセージとは異なっている点に気を付け取る価値があります。 この違いについてユーザーを教育し、より柔軟なチャット メッセージ形式を Teams で採用し、Outlook または OWA を使用してグループにメールを送信するよりも望ましいことを提案します。
+-   最初に、お客様はグループに既存の投資を行う可能性があります。現在、パブリック グループとプライベート グループの両方がサポートされています。現在サポートされているメンバー数については [、Microsoft Teams](./limits-specifications-teams.md)の制限と仕様を参照してください。 前に説明したように、Microsoft 365 管理センターではなく、Teams クライアントを使用してチームへのユーザーのメンバーシップを管理する必要があります。 このシナリオを考えると、ユーザーが Microsoft 365 グループでスレッド化された会話に慣れる場合、グループの会話は本質的にメールであり、Teams チャネルのチャット メッセージとは異なっている点に気を付け価値があります。 この違いについてユーザーを教育し、より柔軟なチャット メッセージ形式を Teams で採用し、Outlook または OWA を使用してグループにメールを送信するよりも望ましいことを提案します。
 
 -   次に、Microsoft 365 で定義されている既存のグループをお持ちではないお客様は、Microsoft 365 管理センター、Teams Web、またはデスクトップ クライアントを使用してグループを作成できます。 前述のように、Teams クライアントを使用して、Microsoft 365 グループの今後のすべてのメンバーシップを管理します。 チームのメンバーシップは Microsoft 365 グループのメンバーシップも定義していますので、この変更に備える必要があります。
 
@@ -53,4 +53,4 @@ Microsoft 365 グループの計画と Microsoft Teams への影響 (または M
 
 -   [Microsoft 365 管理センターを使用して Microsoft 365 グループのメンバーを追加または削除する](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
--   [削除したグループを復元する](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)
+-   [削除したグループを復元する](/microsoft-365/admin/create-groups/restore-deleted-group)

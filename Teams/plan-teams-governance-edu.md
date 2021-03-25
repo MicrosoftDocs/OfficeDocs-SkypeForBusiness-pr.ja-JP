@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f8f8593d598901c71590cc395eb45b0bac7cf4f9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7e64fad26d65eb1b7c96388a5f7d9a2f9c6655e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812907"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117825"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
 
@@ -34,7 +34,7 @@ ms.locfileid: "49812907"
 不適切な名前や誤解を招く名前を避けるため、またはチームの名前の構造を高くするために、Microsoft 365 グループの名前付けポリシー (現在プレビュー中) を使用できます。
 
 -   **プレフィックス/サフィックスの名前付けポリシー** プレフィックスまたはサフィックスを使用して、チーム (グループ) の名前付け規則を定義できます (例: **GRP_US_My Group_Engineering**) プレフィックスとサフィックスには、固定文字列や、チームを作成しているユーザーに基づいて名前に追加されるユーザー属性 **([Department]** など) を使用できます。
--   **カスタムのブロックする単語** 特定の組織のユーザーが作成したチームの名前で使用をブロックする単語のセットをアップロードできます。 たとえば、CEO、Payroll、HR という用語を、適用しないグループのチーム名で使用されるのをブロックできます。 
+-   **カスタムのブロックする単語** 特定の組織のユーザーが作成したチームの名前で使用をブロックする単語のセットをアップロードできます。 たとえば、CEO、Payroll、HR という用語が、適用しないグループのチーム名で使用されるのをブロックできます。 
 -   **分類** 組織内のユーザーが Microsoft 365 グループを作成するときに設定できる分類を作成できます。 
 
 > [!IMPORTANT]
@@ -61,9 +61,9 @@ ms.locfileid: "49812907"
 
 各学期または四半期の始めには、新しいチームが必要です。 これらのチームを自動的に作成し、適切なユーザーを選択し、適切な権限を設定するという自動化されたアプローチは適切かもしれません。
 
--   School Data Sync では、Exchange Online および SharePoint Online 用の Microsoft 365 グループ、Microsoft Teams および OneNote Class ノートブックのクラス チーム、Intune for Education の学校グループ、その他の多くのサード パーティ アプリケーションの名簿とシングル サインオン (SSO) 統合を作成できます。 詳細については、「[School Data Sync の概要](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync)」を参照してください。
--   PowerShell を使用すると、チームやチャネルを作成して、設定を自動的に構成できます。 詳細については、「[Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」を参照してください。
--   Microsoft Graph API (現在ベータ版) を使用して、チームの作成、構成、複製、アーカイブを行うことができます。 詳細については、「[Microsoft Graph API を使用して Microsoft Teams で作業する](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)」を参照してください。
+-   School Data Sync では、Exchange Online および SharePoint Online 用の Microsoft 365 グループ、Microsoft Teams および OneNote Class ノートブックのクラス チーム、Intune for Education の学校グループ、その他の多くのサード パーティ アプリケーションの名簿とシングル サインオン (SSO) 統合を作成できます。 詳細については、「[School Data Sync の概要](/schooldatasync/overview-of-school-data-sync)」を参照してください。
+-   PowerShell を使用すると、チームやチャネルを作成して、設定を自動的に構成できます。 詳細については、「[Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)」を参照してください。
+-   Microsoft Graph API (現在ベータ版) を使用して、チームの作成、構成、複製、アーカイブを行うことができます。 詳細については、「[Microsoft Graph API を使用して Microsoft Teams で作業する](/graph/api/resources/teams-api-overview)」を参照してください。
 
 > [!TIP]
 > School Data Sync では、同期されたクラスごとに Microsoft 365 グループが作成され、非表示のグループ メンバーシップが有効になります。これにより、クラス内の教師と学生だけがそのクラスのメンバーを表示できます。 [](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945) 別のプロセスを使用してクラス グループを作成している場合は、New-UnifiedGroup コマンドレットの HiddenGroupMembershipEnabled パラメーターを使用して、同じプライバシー要件を満たすことができます。
@@ -75,18 +75,18 @@ ms.locfileid: "49812907"
 -   **アイテム保持ポリシー:** 指定した期間を経過したすべての古いデータが削除されます。古いデータがチャット (すべてまたは一部のユーザー用) およびチャンネルから削除されます。 また、コンテンツを削除できないコンテンツを保持する Teams を構成できます。 詳細については、「[Microsoft Teams の保持ポリシー](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)」を参照してください。
 -   **有効期限ポリシー:** 特定の日数が経過した後に、期限切れになるようにチームを構成します。 有効期限の 30 日前に、チームのすべての所有者に、チームの更新が必要であることが通知されます。それ以外の場合は、削除されます (管理者は、削除されたチームをさらに 30 日間復元できます)。 この設定は、未使用のチームが使用されていない状況を確認するのに非常に便利です。 詳細については [、Microsoft 365 グループの有効期限ポリシーを参照してください](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)。
 
--   **チームをアーカイブする:** この設定で、チームは読み取り専用モードになります。 参照して検索することはできますが、新しい投稿を追加することはできません。 「[チームをアーカイブする、または復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)」は、チームの所有者がチームをアーカイブする方法を説明します。チームの所有者は、 「[Graph API (ベータ)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)」を使用してチームをアーカイブまたは復元することもできます。
+-   **チームをアーカイブする:** この設定で、チームは読み取り専用モードになります。 参照して検索することはできますが、新しい投稿を追加することはできません。 「[チームをアーカイブする、または復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)」は、チームの所有者がチームをアーカイブする方法を説明します。チームの所有者は、 「[Graph API (ベータ)](/graph/api/resources/teams-api-overview)」を使用してチームをアーカイブまたは復元することもできます。
  
 > [!IMPORTANT]
 > Microsoft 365 グループの有効期限ポリシーを使用するには、1 つ以上の Microsoft 365 グループのメンバーである一意のユーザーごとに Azure Active Directory Premium P1 ライセンスが必要です。
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>チームを作成するときに教職員用に使用できるチームのテンプレートはありますか?
 
-はい。 ユーザーは新しいチームを作成するときに **既存のテンプレートからチームを作成する** ことを選択でき、Teams の所有者も使用可能なテンプレートから [Graph API (ベータ版)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) を使用して新しいチームを作成することができます。
+はい。 ユーザーは新しいチームを作成するときに **既存のテンプレートからチームを作成する** ことを選択でき、Teams の所有者も使用可能なテンプレートから [Graph API (ベータ版)](/graph/api/resources/teams-api-overview) を使用して新しいチームを作成することができます。
 
 ## <a name="what-tasks-can-i-automate-via-powershell-or-graph"></a>PowerShell や Graph を介して自動化できるタスクは何がありますか?
 
-[Microsoft Graph API (ベータ版)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) で、次の操作を実行できます。
+[Microsoft Graph API (ベータ版)](/graph/api/resources/teams-api-overview) で、次の操作を実行できます。
 
 -   チームの作成。
 -   メンバーおよび所有者の追加。
@@ -99,7 +99,7 @@ ms.locfileid: "49812907"
 -   チームの削除。
 -   チャネル スレッドの作成
 
-[PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) では、次の操作を実行できます。
+[PowerShell](/powershell/module/teams/?view=teams-ps) では、次の操作を実行できます。
 
 -   チームの作成。
 -   メンバーおよび所有者の追加。
@@ -108,7 +108,7 @@ ms.locfileid: "49812907"
 -   チームの削除。
 
 > [!TIP]
-> Graph API と PowerShell コマンドレットで継続的に機能を追加。 機能拡張については、「[Microsoft Graph API (ベータ版)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview)」および 「[PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)」の記事をよく確認してください。  
+> Graph API と PowerShell コマンドレットで継続的に機能を追加。 機能拡張については、「[Microsoft Graph API (ベータ版)](/graph/api/resources/teams-api-overview)」および 「[PowerShell](/powershell/module/teams/?view=teams-ps)」の記事をよく確認してください。  
 
 
 ## <a name="can-i-control-what-teams-features-my-faculty-and-students-have-access-to"></a>教職員と学生がどの Teams の機能にアクセスできるかを制御できますか?

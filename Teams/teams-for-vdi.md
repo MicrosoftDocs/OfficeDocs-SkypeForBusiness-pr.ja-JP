@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8022e6b1c4d6ebcaeb70ec7cc23e1f4cad5d929a
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
-ms.translationtype: HT
+ms.openlocfilehash: 020ed67b695c10e54d43891d78a77783ab61ee81
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110290"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119196"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -66,13 +66,13 @@ Teams デスクトップ アプリは、主要な仮想化ソリューション 
 
 |プラットフォーム|ソリューション|
 |----|---|
-|![Microsoft を表すロゴ](media/microsoft-logo.png)| <a href="https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
+|![Microsoft を表すロゴ](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
 |![Citrix を表すロゴ](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
 |![VMware を表すロゴ](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="windows-virtual-desktop"></a>Windows Virtual Desktop
 
-Windows Virtual Desktop は、VDI 上の Teams に AV 最適化を提供します。 詳細、要件およびインストールについては、「[Windows Virtual Desktop で Microsoft Teams を使用する](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)」を参照してください。
+Windows Virtual Desktop は、VDI 上の Teams に AV 最適化を提供します。 詳細、要件およびインストールについては、「[Windows Virtual Desktop で Microsoft Teams を使用する](/azure/virtual-desktop/teams-on-wvd)」を参照してください。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps and Desktops の要件
 
@@ -80,7 +80,7 @@ Citrix Virtual Apps and Desktops (以前の XenApp および XenDesktop) は、V
 
 Citrix Virtual Apps and Desktops の最新バージョンは、[Citrix ダウンロード サイト](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)からダウンロードできます。 (最初にサインインする必要があります。) 必要なコンポーネントは、デフォルトで [Citrix Workspace アプリ (CWA)](https://www.citrix.com/downloads/workspace-app/) および Virtual Delivery Agent (VDA) にバンドルされています。 CWA や VDA に追加のコンポーネントやプラグインをインストールする必要はありません。
 
-サーバーおよびクライアントの最新の要件については、[この Citrix Web サイト](https://docs.citrix.com/ja-JP/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
+サーバーおよびクライアントの最新の要件については、[この Citrix Web サイト](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)を参照してください。
 
 ### <a name="vmware-horizon-workspace-and-desktop-requirements"></a>VMware Horizon Workspace and Desktop の要件
 
@@ -127,7 +127,7 @@ VDI 環境での Teams AV の最適化が適切に機能するには、シン �
 > [!NOTE]
 > Teams アプリがアプリケーションの実行に必要なランタイム データとファイルを確実に取得するには、ローミング フォルダー (またはフォルダー リダイレクトを使用している場合はキャッシュ マネージャー) が必要です。 これは、ネットワーク遅延の問題やネットワークの不具合を軽減するために必要です。それを行わない場合、データやファイルが利用できないことにより、アプリケーション エラーが発生し、動作が遅くなります。
 
-さまざまなキャッシュ マネージャー ソリューションが利用可能です。 たとえば、[FSLogix](https://docs.microsoft.com/fslogix/overview) があります。 具体的な構成手順については、キャッシュ マネージャー プロバイダーに問い合わせてください。
+さまざまなキャッシュ マネージャー ソリューションが利用可能です。 たとえば、[FSLogix](/fslogix/overview) があります。 具体的な構成手順については、キャッシュ マネージャー プロバイダーに問い合わせてください。
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Teams は、非永続的なセットアップ用のコンテンツ除外リストをキャッシュしました
 
@@ -157,7 +157,7 @@ Microsoft 365 Apps for enterprise は、Teams のマシンごとのインスト�
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps for enterprise を介した Teams の展開を除外する方法
 
-Teams と Microsoft 365 Apps for enterprise の詳細については、「[Microsoft 365 Apps for enterprise の新規インストールから Teams を除外する方法](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)」と「[グループ ポリシーを使用して Teams のインストールを制御する](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)」を参照してください。
+Teams と Microsoft 365 Apps for enterprise の詳細については、「[Microsoft 365 Apps for enterprise の新規インストールから Teams を除外する方法](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)」と「[グループ ポリシーを使用して Teams のインストールを制御する](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)」を参照してください。
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Teams デスクトップ アプリを VM に展開する
 
@@ -289,21 +289,21 @@ DisallowCalling 通話ポリシーと AllOff 会議ポリシーをユーザー�
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell を使用してポリシーを割り当てる
 
-次の例は、[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) を使用して、DisallowCalling 通話ポリシーをユーザーに割り当てる方法を示しています。
+次の例は、[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) を使用して、DisallowCalling 通話ポリシーをユーザーに割り当てる方法を示しています。
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-PowerShell を使用して通話ポリシーを管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。
+PowerShell を使用して通話ポリシーを管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。
 
-次の例は、[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) を使用して、AllOff 会議ポリシーをユーザーに割り当てる方法を示しています。
+次の例は、[Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) を使用して、AllOff 会議ポリシーをユーザーに割り当てる方法を示しています。
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-PowerShell を使用して会議ポリシーを管理する方法の詳細については、「[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
+PowerShell を使用して会議ポリシーを管理する方法の詳細については、「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-optimize-teams-with-calling-and-meetings"></a>チャットと共同作業を備えた VDI 上の Teams を移行して、通話と会議を備えた Teams を最適化する
 
@@ -345,21 +345,21 @@ AllowCalling 通話ポリシーと AllOn 会議ポリシーをユーザーに割
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell を使用してポリシーを割り当てる
 
-次の例は、[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) を使用して、AllowCalling 通話ポリシーをユーザーに割り当てる方法を示しています。
+次の例は、[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) を使用して、AllowCalling 通話ポリシーをユーザーに割り当てる方法を示しています。
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
-PowerShell を使用して通話ポリシーを管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。
+PowerShell を使用して通話ポリシーを管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。
 
-次の例は、[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) を使用して、AllOn 会議ポリシーをユーザーに割り当てる方法を示しています。
+次の例は、[Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) を使用して、AllOn 会議ポリシーをユーザーに割り当てる方法を示しています。
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
-PowerShell を使用して会議ポリシーを管理する方法の詳細については、「[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
+PowerShell を使用して会議ポリシーを管理する方法の詳細については、「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
 ## <a name="control-fallback-mode-in-teams"></a>Teams でフォールバック モードを制御する
 
@@ -416,7 +416,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
     - マルチモニター設定での画面共有の場合、メイン モニターのみ共有されます。
     - CWA での高 DPI スケーリングはサポートされていません。
 
-VDI に関連しない Teams の既知の問題については、「[組織で Teams をサポートする](Known-issues.md)」を参照してください。
+VDI に関連しない Teams の既知の問題については、「[組織で Teams をサポートする](/MicrosoftTeams/troubleshoot/teams-welcome)」を参照してください。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
@@ -434,4 +434,4 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 - [MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [Windows Virtual Desktop で Microsoft Teams を使用する](https://docs.microsoft.com/azure/virtual-desktop/teams-on-wvd)
+- [Windows Virtual Desktop で Microsoft Teams を使用する](/azure/virtual-desktop/teams-on-wvd)

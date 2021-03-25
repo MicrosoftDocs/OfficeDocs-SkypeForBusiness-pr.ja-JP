@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: a0c0e40be84a1b947b5924f97c0c64556a92e249
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711764"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117895"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -39,7 +39,7 @@ ms.locfileid: "50711764"
 
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
-これらの変更を行うには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](https://docs.microsoft.com/microsoftteams/using-admin-roles)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
+これらの変更を行うには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
 1. 管理センターにアクセスします。
 
@@ -61,7 +61,7 @@ ms.locfileid: "50711764"
 
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
 
-この設定にアクセスするには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](https://docs.microsoft.com/microsoftteams/using-admin-roles)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
+この設定にアクセスするには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
 1. 管理センターにアクセスします。
 

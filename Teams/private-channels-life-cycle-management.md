@@ -18,16 +18,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Graph API を使用して組織内のプライベート チャネルを管理する方法について説明します。
-ms.openlocfilehash: 854e8721dac7d49e258db42845b84480955bfec7
-ms.sourcegitcommit: 44bd56f67b1ad85ef8c21bb30d5b0d47e5a80339
+ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49772040"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117745"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネルのライフ サイクルを管理する
 
-ここでは、Graph API を使用して組織内の [Teams](https://docs.microsoft.com/microsoftteams/private-channels) のプライベート チャネルを管理するために管理する必要があるガイダンスを示します。
+ここでは、Graph API を使用して組織内の [Teams](./private-channels.md) のプライベート チャネルを管理するために管理する必要があるガイダンスを示します。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>チーム メンバーがプライベート チャネルを作成できるかどうかを設定する
 
@@ -211,14 +211,14 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="related-topics"></a>関連項目
 
-[Microsoft Graph API を使用して Teams で作業する](https://docs.microsoft.com/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
+[Microsoft Graph API を使用して Teams で作業する](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)
 
-[チャネルを一覧表示する](https://docs.microsoft.com/graph/api/channel-list)
+[チャネルを一覧表示する](/graph/api/channel-list)
 
-[チャネルを作成する](https://docs.microsoft.com/graph/api/channel-post)
+[チャネルを作成する](/graph/api/channel-post)
 
-[チャネルにメンバーを追加する](https://docs.microsoft.com/graph/api/conversationmember-add)
+[チャネルにメンバーを追加する](/graph/api/conversationmember-add)
 
-[チャネルでメンバーを更新する](https://docs.microsoft.com/graph/api/conversationmember-update)
+[チャネルでメンバーを更新する](/graph/api/conversationmember-update)
 
-[チャネルからメンバーを削除する](https://docs.microsoft.com/graph/api/conversationmember-delete)
+[チャネルからメンバーを削除する](/graph/api/conversationmember-delete)

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20d1ff52fa59f31b796d2580a0e2819c80caaf42
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e07d33b8aa1b379823ffa3aaa605dc26c31604c5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821027"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119256"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams のクライアント エクスペリエンスおよび共存モードへの準拠
 
@@ -89,8 +89,4 @@ PowerShell を使用する場合、`Grant-CsTeamsUpgradePolicy` コマンドレ�
 
 ## <a name="related-topics"></a>関連項目
 
-[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)
-
-
-
-
+[Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](./migration-interop-guidance-for-teams-with-skype.md)

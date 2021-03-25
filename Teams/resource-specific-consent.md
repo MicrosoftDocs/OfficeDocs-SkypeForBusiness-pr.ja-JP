@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6267f4b42890716ca31fd1b44de435af50ad6ae
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f7b9379db7760fa8ef03440c24b93cb0223b4bee
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815677"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117625"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Microsoft Teams でのリソース固有の同意
 
@@ -26,7 +26,7 @@ ms.locfileid: "49815677"
 
 Microsoft Teams のリソース固有の同意により、チーム所有者はアプリに対してチーム データへのアクセスに同意できます。 そのようなアクセスの例としては、チャネル メッセージの読み取り、チャネルの作成と削除、チャネル タブの作成と削除を行う機能があります。
 
-管理者は、Azure Active Directory (Azure AD) PowerShell モジュールまたは Azure ポータルと Microsoft Teams 管理センターを使用して構成した設定を使用して、組織内のチーム所有者が同意できるかどうかを制御します。  
+管理者は、Azure Active Directory (Azure AD) PowerShell モジュールまたは Azure ポータルと Microsoft Teams 管理センターを使用して構成した設定を通じて、組織内のチーム所有者が同意できるかどうかを制御します。  
 
 ## <a name="set-whether-team-owners-can-give-consent-to-apps"></a>チーム所有者がアプリに同意できるかどうかを設定する
 
@@ -37,27 +37,27 @@ Microsoft Teams のリソース固有の同意により、チーム所有者は�
 次の 2 つの設定は、チーム所有者がアプリに同意できるかどうかを決定します。
 
 > [!IMPORTANT]
-> これらの設定を変更しても、既に同意が付与されているアプリのデータ アクセスには影響しません。 たとえば、チーム所有者が同意を許可しない設定を構成した場合、これらの変更によって既に付与されているデータ アクセスは削除されません。
+> これらの設定を変更しても、既に同意を得たアプリのデータ アクセスには影響しません。 たとえば、チーム所有者が同意を許可しない設定を構成した場合、これらの変更によって既に付与されているデータ アクセスは削除されません。
 
-#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>[ユーザーは自分の代わりに会社のデータにアクセスするアプリに同意できます] 設定
+#### <a name="the-users-can-consent-to-apps-accessing-company-data-on-their-behalf-setting"></a>[ユーザーは、自分の代わりに会社のデータにアクセスするアプリに同意できます] 設定
 
 この設定は、組織内のユーザーが代わりにアプリに同意できるかどうかを制御します。 チーム所有者が同意を提供するには、この設定を [はい] に設定する必要 **があります**。 この設定を管理するには、次の操作を行います。
 
 1. Azure Portal で、Enterprise アプリケーション **のユーザー設定に**  >  **移動します**。
 2. [**エンタープライズ アプリケーション] で、[** いいえ] または **[は** い] に代わって会社のデータにアクセスするアプリにユーザーが同意 **できます。**
 
-PowerShell を使用してこの設定を管理できます。 詳細については、「アプリケーションにユーザー [コンテンツを構成する」を参照してください](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)。
+PowerShell を使用してこの設定を管理できます。 詳細については、「アプリケーションにユーザー [コンテンツを構成する」を参照してください](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications)。
 
 #### <a name="the-enablegroupspecificconsent-setting"></a>"EnableGroupGroupGroupConsent" 設定
 
-この設定では、組織内のユーザーが、所有するグループの会社データにアクセスするアプリに同意できるかどうかを制御します。 チーム所有者が同意するには、この設定を有効にする必要があります。 PowerShell を使用してこの設定を管理する手順については、「グループ データにアクセスするアプリに対するグループ所有者の同意を構成する [」を参照してください](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data)。
+この設定は、組織内のユーザーが、所有するグループの会社データにアクセスするアプリに同意できるかどうかを制御します。 チーム所有者が同意するには、この設定を有効にする必要があります。 PowerShell を使用してこの設定を管理する手順については、「グループ データにアクセスするアプリに対するグループ所有者の同意を構成する [」を参照してください](/azure/active-directory/manage-apps/configure-user-consent#configure-group-owner-consent-to-apps-accessing-group-data)。
 
 ### <a name="settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの設定
 
 Azure AD の設定に加えて、[アプリ[](manage-apps.md#manage-org-wide-app-settings)の管理] ページの組織[](manage-apps.md)全体のアプリ設定、[アプリの管理] ページでアプリがブロックまたは許可されるかどうか、チーム所有者[](teams-app-permission-policies.md)に割り当てられたアプリのアクセス許可ポリシーによって、チーム所有者が同意できるかどうかが決定されます。 [](manage-apps.md#allow-and-block-apps)
 
 > [!IMPORTANT]
-> これらの設定を変更しても、既に同意が付与されているアプリのデータ アクセスには影響しません。 たとえば、サードパーティ製アプリを組織全体で無効にした場合や、特定のアプリをブロックしてチーム所有者が同意を得るのを防ぐ場合、これらの変更により、既に付与されているデータ アクセスは削除されません。  
+> これらの設定を変更しても、既に同意を得たアプリのデータ アクセスには影響しません。 たとえば、サードパーティ製アプリを組織全体で無効にした場合や、特定のアプリをブロックしてチーム所有者が同意を得るのを防ぐ場合、これらの変更により、既に付与されているデータ アクセスは削除されません。  
 
 #### <a name="the-allow-third-party-apps-setting-in-org-wide-app-settings"></a>組織全体のアプリ設定の [サード パーティ製アプリを許可する] 設定
 
@@ -74,7 +74,7 @@ Azure AD の設定に加えて、[アプリ[](manage-apps.md#manage-org-wide-app
 
 [アプリの管理] ページでアプリ[](manage-apps.md#allow-and-block-apps)をブロックまたは許可すると、そのアプリは組織内のすべてのユーザーに対してブロックまたは許可されます。 チームの所有者は、アプリが許可されている場合にのみ、アプリに同意できます。 組織レベルでアプリを許可またはブロックするには、次の操作を行います。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、Teams アプリの [アプリの **管理]**  >  **に移動します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
 2. [アプリの管理] ページでアプリを選び、[ブロック] をクリックしてブロックするか、[許可] をクリックしてアプリを許可します。
 
     ![組織全体の設定でブロックされたアプリのスクリーンショット](media/resource-specific-consent-allow-block-apps.png)
@@ -85,7 +85,7 @@ Azure AD の設定に加えて、[アプリ[](manage-apps.md#manage-org-wide-app
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動します。
 2. チーム所有者の表示名をダブルクリックし、[ポリシー] を **クリックします**。
-3. チーム所有者に割り当てられたポリシーは、[アプリのアクセス許可ポリシー] **の下に表示されます**。
+3. チーム所有者に割り当てられたポリシーは、[アプリのアクセス許可ポリシー **] の下に表示されます**。
     - 別のポリシーを割り当てるには、[編集] **をクリック** し、割り当てるポリシーを選択します。
     - チーム所有者に割り当てられているポリシーの設定を編集するには、ポリシー名をクリックし、必要な変更を行います。  
 
@@ -95,7 +95,7 @@ Azure AD の設定に加えて、[アプリ[](manage-apps.md#manage-org-wide-app
 
 ## <a name="related-topics"></a>関連項目
 
-- [利用可能な RSC アクセス許可](https://aka.ms/teams-rsc)
+- [利用可能な RSC アクセス許可](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 - [Microsoft Graph](https://developer.microsoft.com/graph)
 - [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)
 - [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)

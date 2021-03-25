@@ -20,12 +20,12 @@ description: Teams でライブ イベントをセットアップします。こ
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 108c6ba6730751c9858a3c4a45c8060c231be4a1
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: HT
+ms.openlocfilehash: cc9f50e2f6a0b2433bbff07e674453a63854bf51
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461007"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119136"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -33,7 +33,7 @@ ms.locfileid: "50461007"
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>手順 1: Teams でのライブ イベント用にネットワークを設定する
 
-Teams で作成したライブ イベントを配信するには、[Teams 用に組織のネットワークを準備する](https://docs.microsoft.com/microsoftteams/prepare-network)必要があります。  
+Teams で作成したライブ イベントを配信するには、[Teams 用に組織のネットワークを準備する](../prepare-network.md)必要があります。  
 
 ## <a name="step-2-get-and-assign-licenses"></a>手順 2: ライセンスを取得して割り当てる
 
@@ -80,14 +80,14 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 
 ユーザーが外部アプリまたはデバイスで作成されたイベントをスケジュールできるようにするには、次の手順も行う必要があります。
 
-1. 組織内のユーザーに対して Microsoft Stream を有効にします。 Stream は、対象となる Microsoft 365 または Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして使用できます。 Stream は Business Essentials プランや Business Premium プランには含まれません。 詳細については、「[Microsoft Stream ライセンスの概要](https://docs.microsoft.com/stream/license-overview)」を参照してください。
+1. 組織内のユーザーに対して Microsoft Stream を有効にします。 Stream は、対象となる Microsoft 365 または Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして使用できます。 Stream は Business Essentials プランや Business Premium プランには含まれません。 詳細については、「[Microsoft Stream ライセンスの概要](/stream/license-overview)」を参照してください。
 
    >[!Note]
-   > Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。 ユーザーが Stream にアクセスできるよう、[**ユーザーにライセンスを割り当てる方法**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)をご確認ください。 Stream がそのユーザーに対してブロックされていないことを、[**この記事**](https://docs.microsoft.com/stream/disable-user-organization)の定義に従って確認します。
+   > Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。 ユーザーが Stream にアクセスできるよう、[**ユーザーにライセンスを割り当てる方法**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)をご確認ください。 Stream がそのユーザーに対してブロックされていないことを、[**この記事**](/stream/disable-user-organization)の定義に従って確認します。
 
-2. Stream で、ユーザーにライブ イベント作成の許可が割り当てられるようにします。 既定では、管理者は外部アプリまたはデバイスでイベントを作成できます。 Stream 管理者は、Stream で[ライブ イベントの作成を許可する他のユーザーを追加](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating)できます。
+2. Stream で、ユーザーにライブ イベント作成の許可が割り当てられるようにします。 既定では、管理者は外部アプリまたはデバイスでイベントを作成できます。 Stream 管理者は、Stream で[ライブ イベントの作成を許可する他のユーザーを追加](/stream/live-event-administration#enabling-and-restricting-users-to-creating)できます。
 
-3. Stream 管理者によって設定されている会社のポリシーにライブ イベントの開催者が同意していることを確認します。Stream 管理者が[会社のガイドライン ポリシーを設定](https://docs.microsoft.com/stream/company-policy-and-consent)し、そのポリシーに同意してからでなければ従業員がコンテンツを保存できないようにしている場合、ユーザーは Teams で (外部アプリまたはデバイスを使用して) ライブ イベントを作成する前に、ポリシーに同意する必要があります。 組織でライブ イベント機能を展開する前に、このようなライブ イベントを作成するユーザーがポリシーに同意していることを確認してください。
+3. Stream 管理者によって設定されている会社のポリシーにライブ イベントの開催者が同意していることを確認します。Stream 管理者が[会社のガイドライン ポリシーを設定](/stream/company-policy-and-consent)し、そのポリシーに同意してからでなければ従業員がコンテンツを保存できないようにしている場合、ユーザーは Teams で (外部アプリまたはデバイスを使用して) ライブ イベントを作成する前に、ポリシーに同意する必要があります。 組織でライブ イベント機能を展開する前に、このようなライブ イベントを作成するユーザーがポリシーに同意していることを確認してください。
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>手順 4: Teams でライブ イベント用のビデオ配信ソリューションを設定する
 

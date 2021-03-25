@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '概要: Skype for Business でサポートされているクライアントとアプリのレビュー。'
-ms.openlocfilehash: 1c88786680699c81c9dd06dc8156bff333ae98ce
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 24434271d33584c76c732d688f7222b73b34fc2d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802757"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51109313"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントとデバイスを計画する
 
@@ -84,7 +84,7 @@ Microsoft Teams Rooms は、使い慣れたインターフェイスを使用し�
 
 ### <a name="skype-for-business-on-surface-hub"></a>Surface Hub 版 Skype for Business
 
-Microsoft Surface Hub は、ブレーンストーミング、共同作業、プレゼンテーションを目的としたオールインワンの生産性向上デバイスです。 Skype for Business クライアントの独自のバージョンがあり、「[Microsoft Surface Hub 管理ガイド](https://docs.microsoft.com/surface-hub/)」に記載されています。
+Microsoft Surface Hub は、ブレーンストーミング、共同作業、プレゼンテーションを目的としたオールインワンの生産性向上デバイスです。 Skype for Business クライアントの独自のバージョンがあり、「[Microsoft Surface Hub 管理ガイド](/surface-hub/)」に記載されています。
 
 ## <a name="choosing-your-organizations-preferred-client"></a>組織の優先クライアントを選択する
 <a name="BK_client_choose"> </a>
@@ -93,7 +93,7 @@ Microsoft Surface Hub は、ブレーンストーミング、共同作業、プ�
 
 ユーザーは、「[すべてのデバイスで Skype for Business をダウンロード](https://products.office.com/skype-for-business/download-app?tab=tabs-3)」からクライアントを自分でインストールできます。 クライアントは、ユーザーが Windows に Microsoft 365 または Office 365 をインストールするときにもインストールされます。 一部のユーザーが Mac を持っている場合、それらのユーザーは前のセクションで説明したように異なる機能セットを使用します。
 
-Skype for Business Server 2015 で利用できる一部の機能は、Skype for Business Online または Skype for Business Server 2019 では利用できません。詳細は、「[2015 のオンラインまたはハイブリッド ユーザー アカウントの制限](desktop-feature-comparison.md#Online-Hybrid)」または「[2019 のオンラインまたはハイブリッド ユーザー アカウントの制限](desktop-feature-comparison.md#Online-Hybrid)」をご覧ください。 Skype for Business Online 管理者は、利用可能なさまざまなプランについて、「[Skype for Business Online サービスの説明](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx)」を参照することをお勧めします。
+Skype for Business Server 2015 で利用できる一部の機能は、Skype for Business Online または Skype for Business Server 2019 では利用できません。詳細は、「[2015 のオンラインまたはハイブリッド ユーザー アカウントの制限](desktop-feature-comparison.md#Online-Hybrid)」または「[2019 のオンラインまたはハイブリッド ユーザー アカウントの制限](desktop-feature-comparison.md#Online-Hybrid)」をご覧ください。 Skype for Business Online 管理者は、利用可能なさまざまなプランについて、「[Skype for Business Online サービスの説明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)」を参照することをお勧めします。
 
  Skype for Business を展開またはアップグレードする前に、組織で既に使用されているクライアントを確認してください。 「[Skype for Business のデスクトップ クライアント機能の比較](desktop-feature-comparison.md)」を使用して、それらのクライアントに対する機能サポートの影響を理解してください。 これは、ユーザーへの変更の伝達、ロールアウト プロセスのペース調整、および最新のクライアントへのアップグレードの利点の完全な理解に役立ちます。
 
@@ -139,7 +139,7 @@ MSI は、Skype for Business 2015 および 2016 クライアントで使用さ�
 
 Skype for Business Server 2019 および Skype for Business Online は、以前にリリースされた次のクライアントをサポートしています: Skype for Business 2016、Skype for Business 2015、Lync 2013。
 
-Skype for Business Server 2015 は、以前にリリースされた次のクライアントをサポートしています: Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition、および Lync 2010 Attendant。 これらのクライアントを他のサーバーで使用する場合の詳細については、「[Lync Server 2013 のクライアント比較表](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx)」および「[Lync Server 2010 のクライアント比較表](https://technet.microsoft.com/library/gg425836%28v=ocs.14%29.aspx)」を参照してください。
+Skype for Business Server 2015 は、以前にリリースされた次のクライアントをサポートしています: Lync 2013、Lync 2010、Lync 2010 Mobile、Lync Phone Edition、および Lync 2010 Attendant。 これらのクライアントを他のサーバーで使用する場合の詳細については、「[Lync Server 2013 のクライアント比較表](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables)」および「[Lync Server 2010 のクライアント比較表](/previous-versions/office/skype-server-2010/gg425836(v=ocs.14))」を参照してください。
 
 
 ## <a name="client-system-requirements"></a>クライアントのシステム要件
@@ -165,7 +165,7 @@ Skype for Business クライアントに必要なサポートされている機�
 
 - [Mac 版 Skype for Business クライアントの要件](mac-requirements.md)
 
-- [Microsoft Teams Rooms を計画する](skype-room-systems-v2-0.md)
+- [Microsoft Teams Rooms を計画する](/MicrosoftTeams/rooms/rooms-plan)
 
 - [VDI 環境での Skype for Business の計画](vdi-environments.md)
 

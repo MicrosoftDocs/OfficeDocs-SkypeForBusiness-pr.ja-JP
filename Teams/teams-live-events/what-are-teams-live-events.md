@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 78e2fdb6b205316dfd8a715c12613be1486302f5
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
-ms.translationtype: HT
+ms.openlocfilehash: b93a3b5ecbe7b9edcc54034635721ee3b6db610b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918993"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119126"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -82,8 +82,8 @@ Teams では、主催者は適切な参加者アクセス許可でイベント�
 
 ライブ イベントのストリーミング プラットフォームは、次の要素で構成されます。
 
-- **Azure Media Services**: [Azure Media Services](https://docs.microsoft.com/azure/media-services/previous/) は、現在最も人気のあるモバイル デバイスでより多くの視聴者に提供する放送品質のビデオ ストリーミング サービスを提供しています。 メディア サービスを使用すると、アクセス性、配信性、スケーラビリティが向上し、コンテンツを保護しながら、ローカルまたは世界中の視聴者にコンテンツを簡単かつコスト効率に優れた方法でストリーミングできます。
-- **Azure コンテンツ配信ネットワーク (CDN)**: ストリームがアクティブになると、[Azure コンテンツ配信ネットワーク (CDN)](https://docs.microsoft.com/azure/cdn/) を介して配信されます。 Azure Media Services は、ストリーミング エンドポイントに統合 CDN を提供します。 これにより、バッファリングなしで世界中でストリームを見ることができます。
+- **Azure Media Services**: [Azure Media Services](/azure/media-services/previous/) は、現在最も人気のあるモバイル デバイスでより多くの視聴者に提供する放送品質のビデオ ストリーミング サービスを提供しています。 メディア サービスを使用すると、アクセス性、配信性、スケーラビリティが向上し、コンテンツを保護しながら、ローカルまたは世界中の視聴者にコンテンツを簡単かつコスト効率に優れた方法でストリーミングできます。
+- **Azure コンテンツ配信ネットワーク (CDN)**: ストリームがアクティブになると、[Azure コンテンツ配信ネットワーク (CDN)](/azure/cdn/) を介して配信されます。 Azure Media Services は、ストリーミング エンドポイントに統合 CDN を提供します。 これにより、バッファリングなしで世界中でストリームを見ることができます。
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Enterprise コンテンツ配信ネットワーク (eCDN)
 
@@ -110,7 +110,7 @@ eCDN の目的は、インターネットからビデオ コンテンツを取�
 
 ### <a name="related-topics"></a>関連トピック
 
-- [Yammer のMicrosoft 365、Microsoft Teams、および Microsoft Stream 全体のライブ イベント](https://docs.microsoft.com/stream/live-event-m365)
+- [Yammer のMicrosoft 365、Microsoft Teams、および Microsoft Stream 全体のライブ イベント](/stream/live-event-m365)
 - [Microsoft Teams ライブ イベントの使用を開始する](https://support.office.com/article/d077fec2-a058-483e-9ab5-1494afda578a)
 - [Yammer のライブ イベント](https://support.office.com/article/live-events-in-yammer-4ece0ee2-c268-4636-bf2a-16e454befe57)
-- [Microsoft Stream でのライブ イベント](https://docs.microsoft.com/stream/live-event-overview)
+- [Microsoft Stream でのライブ イベント](/stream/live-event-overview)

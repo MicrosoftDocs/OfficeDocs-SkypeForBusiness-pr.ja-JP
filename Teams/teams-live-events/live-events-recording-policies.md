@@ -17,28 +17,28 @@ description: ライブ イベント記録ポリシーについて説明します
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd67ce67d31effdba0d152a3d5920bb17f23b25
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615176"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119166"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams のライブ イベント記録ポリシー
 
 Microsoft Teams ライブ イベントを記録するためのオプションは複数あります。 記録オプションは、記録ポリシーを使用して設定します。 この記事では、さまざまな設定について説明します。
 
-記録オプションは、PowerShell コマンド [Set-CsTeamsMeetingBroadcastPolicy を使用して設定されます。](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+記録オプションは、PowerShell コマンド [Set-CsTeamsMeetingBroadcastPolicy を使用して設定されます。](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 ## <a name="scheduling-and-option-behaviors"></a>スケジュールとオプションの動作
 
-ライブ イベントの記録をスケジュールする場合、開催者のオプションは 2 つがあります。
+ライブ イベントの記録をスケジュールする場合、開催者の 2 つのオプションがあります。
 
 - プロデューサーと発表者が利用できるレコーディング
 
   - レコーディング ファイル: プロデューサーと発表者がイベントの終了後にダウンロードできるレコーディング ファイルを提供します。
 
-- 出席者が利用できるレコーディング
+- 出席者が使用できるレコーディング
 
   - DVR: デジタル ビデオレコーダー (DVR) を使用すると、出席者はイベント中に巻き戻しや一時停止を行える
 
@@ -48,7 +48,7 @@ Microsoft Teams ライブ イベントを記録するためのオプションは
 
 ブロードキャスト ポリシーの一部として、ライブ イベントのレコーディングをオンまたはオフに切り替える設定があります。
 
-|                                 | プロデューサーと発表者が利用できるレコーディング | 出席者が利用できるレコーディング |
+|                                 | プロデューサーと発表者が利用できるレコーディング | 出席者が使用できるレコーディング |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | 常に記録する               | 無効と選択                                | 無効と選択         |
 | 開催者は記録可能または記録しない | 既定で有効で選択されていない                  | 既定で有効で選択されていない   |
@@ -70,7 +70,7 @@ Microsoft Teams ライブ イベントを記録するためのオプションは
 
 ### <a name="related-topics"></a>関連項目
 
-- [Teams ライブ イベントとは](what-are-teams-live-events.md)
+- [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams でライブ イベント設定を構成する](configure-teams-live-events.md)
 - [Teams クラウド会議の記録](../cloud-recording.md)

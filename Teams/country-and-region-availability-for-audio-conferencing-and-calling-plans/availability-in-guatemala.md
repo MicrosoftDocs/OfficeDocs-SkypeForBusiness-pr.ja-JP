@@ -1,5 +1,5 @@
 ---
-title: グアテマラの利用可能時間
+title: グアテマラの空き時間情報
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,25 +23,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、グアテマラで利用できます。
-ms.openlocfilehash: 1963d5e2df5f9e75dc1ba520293e6965f6ee5197
-ms.sourcegitcommit: 03c9b13416ca173f30ed496fb786520147246e15
+description: ここでは、グアテマラで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを紹介します。
+ms.openlocfilehash: 5f94fe5ac3dc347b550f804a001e6c967f41b066
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "49349143"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118035"
 ---
-# <a name="availability-in-guatemala"></a>グアテマラの利用可能時間
+# <a name="availability-in-guatemala"></a>グアテマラの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Skype for Business および Microsoft Teams 用の Microsoft 365 および Office 365 サービスを、グアテマラで利用できます。
+ここでは、グアテマラで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを紹介します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|電話会議は購入できますか?  <br/> |はい。 1分あたりの料金のみ。  <br/> |
+|電話会議は購入できますか?  <br/> |はい。 分単位支払いのみ。  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> | いいえ |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> | 通信クレジットが必要 <br/> |
 
@@ -62,17 +62,17 @@ ms.locfileid: "49349143"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、 [電話システムのダイレクトルーティング](../direct-routing-landing-page.md)を使用することを検討してください。 直接ルーティングを使用すると、ほぼすべてのテレフォニーキャリアで電話システムを使うことができます。
+通話プランを購入できない場合は、電話システム ダイレクト [ルーティングの使用を検討してください](../direct-routing-landing-page.md)。 直接ルーティングを使用すると、事実上すべてのテレフォニー通信事業者で電話システムを使用できます。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?   | Cuidad de グアテマラ<br/> |
-|有料電話番号は使用できますか?  <br/> |○ ([要求時](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> 有料電話番号には、国内からでもアクセスできます。|
+|有料電話番号を取得できる首都または主要都市はどこですか?   | キュイダード・デ・グアテマラ<br/> |
+|有料電話番号は使用できますか?  <br/> |○ ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> 有料電話番号には、国内からのみアクセスできます。|
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
 
- 電話会議、自動応答、通話キューの有料または無料の電話番号を取得する場合は、「 [Skype For business および Microsoft Teams のサービス電話番号を取得](/microsoftteams/getting-service-phone-numbers)する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は [、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号を取得する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -84,6 +84,6 @@ ms.locfileid: "49349143"
   
 ## <a name="related-topics"></a>関連項目
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

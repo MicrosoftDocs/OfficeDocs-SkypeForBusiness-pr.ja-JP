@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7d73cc376d0dbf09f6e6a72817b27eeff59e8dd
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: 020875ca5e0938fce322654be0e4a7b3e032ebf6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395318"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118486"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
@@ -35,13 +35,13 @@ ms.locfileid: "50395318"
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
-| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="clock" width="40 px" height="40 px"> | [クイック スタート](/MicrosoftTeams/teams-adoption-quick-start-checklist) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="chat bubbles" width="40 px" height="40 px"> | [チームとチャネルの概要](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" width="40 px" height="40 px"> | [最初のチームを計画する](/MicrosoftTeams/teams-adoption-your-first-teams) |
-| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="best practices" width="40 px" height="40 px"> | [チャンピオンを強化する](/MicrosoftTeams/teams-adoption-create-champions-program) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="prize ribbon" width="40 px" height="40 px"> | [トレーニング](https://docs.microsoft.com/MicrosoftTeams/training-microsoft-teams-landing-page) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="wrench" width="40 px" height="40 px"> | [ツールとダウンロード](/microsoftteams/adopt-tools-and-downloads) |
+| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="clock" width="40 px" height="40 px"> | [クイック スタート](./teams-adoption-quick-start-checklist.md) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="chat bubbles" width="40 px" height="40 px"> | [チームとチャネルの概要](./teams-adoption-understand-teams-and-channels.md) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" width="40 px" height="40 px"> | [最初のチームを計画する](./teams-adoption-your-first-teams.md) |
+| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="best practices" width="40 px" height="40 px"> | [チャンピオンを強化する](./teams-adoption-create-champions-program.md) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="prize ribbon" width="40 px" height="40 px"> | [トレーニング](./training-microsoft-teams-landing-page.md) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="wrench" width="40 px" height="40 px"> | [ツールとダウンロード](./adopt-tools-and-downloads.md) |
 
 ### <a name="deeper-adoption-guidance"></a>[より深い導入ガイダンス](#deeper-adoption-guidance)
 
-導入計画は、環境に応じて、簡単に複雑な場合があります。 大規模な展開の場合は、次のガイダンスに従って、組織が Teams にスムーズに移行することを確認します。
+導入計画は、環境に応じて、簡単に複雑にできます。 大規模な展開の場合は、次のガイダンスに従って、組織が Teams にスムーズに移行することを確認します。
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
-| <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" alt="circle number one" width="40 px" height="40 px"> | **[開始](/MicrosoftTeams/teams-adoption-phase1)** <br/> [使用を開始する](/MicrosoftTeams/teams-adoption-get-started) <br/><br/> [チームとチャネルについて理解する](/MicrosoftTeams/teams-adoption-understand-teams-and-channels) <br/><br/> [最初のチームを作成する](/MicrosoftTeams/teams-adoption-your-first-teams) <br/><br/> [文化的および組織的な準備を評価する](/MicrosoftTeams/teams-adoption-assess-readiness) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" alt="circle number 2" width="40 px" height="40 px"> | **[試用](/MicrosoftTeams/teams-adoption-phase2-experiment)** <br/> [主導者プログラムを作成する](/MicrosoftTeams/teams-adoption-create-champions-program) <br/><br/> [クイック スタートのガバナンス](/MicrosoftTeams/teams-adoption-governance-quick-start)<br/><br/> [使用例を定義する](/MicrosoftTeams/teams-adoption-define-usage-scenarios) <br/><br/> [アーリー アダプターに関与してフィードバックを収集する](/MicrosoftTeams/teams-adoption-onboard-early-adopters) <br/><br/> [参加サポート](/MicrosoftTeams/teams-adoption-onboard-support) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" alt="circle number 3" width="40 px" height="40 px"> | **[スケール](/MicrosoftTeams/teams-adoption-phase3-enable)** <br/> [結果と成功を定義する](/MicrosoftTeams/teams-adoption-define-outcomes) <br/><br/> [フィードバックとレポートを最適化する](/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting) <br/><br/> [啓発とトレーニングの実施](/MicrosoftTeams/teams-adoption-drive-awareness) <br/><br/> [サービス正常性のレビューをスケジュールする](/MicrosoftTeams/teams-adoption-schedule-service-health-reviews) |
+| <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" alt="circle number one" width="40 px" height="40 px"> | **[開始](./teams-adoption-phase1.md)** <br/> [使用を開始する](./teams-adoption-get-started.md) <br/><br/> [チームとチャネルについて理解する](./teams-adoption-understand-teams-and-channels.md) <br/><br/> [最初のチームを作成する](./teams-adoption-your-first-teams.md) <br/><br/> [文化的および組織的な準備を評価する](./teams-adoption-assess-readiness.md) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" alt="circle number 2" width="40 px" height="40 px"> | **[試用](./teams-adoption-phase2-experiment.md)** <br/> [主導者プログラムを作成する](./teams-adoption-create-champions-program.md) <br/><br/> [クイック スタートのガバナンス](./teams-adoption-governance-quick-start.md)<br/><br/> [使用例を定義する](./teams-adoption-define-usage-scenarios.md) <br/><br/> [アーリー アダプターに関与してフィードバックを収集する](./teams-adoption-onboard-early-adopters.md) <br/><br/> [参加サポート](./teams-adoption-onboard-support.md) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" alt="circle number 3" width="40 px" height="40 px"> | **[スケール](./teams-adoption-phase3-enable.md)** <br/> [結果と成功を定義する](./teams-adoption-define-outcomes.md) <br/><br/> [フィードバックとレポートを最適化する](./teams-adoption-optimize-feedback-and-reporting.md) <br/><br/> [啓発とトレーニングの実施](./teams-adoption-drive-awareness.md) <br/><br/> [サービス正常性のレビューをスケジュールする](./teams-adoption-schedule-service-health-reviews.md) |

@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 政府機関向け Teams ポリシー パッケージを使用して管理する方法について学習します。
-ms.openlocfilehash: 2841fbf523f49c5784045cc6cf960e846b45aa9b
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909081"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117775"
 ---
 # <a name="teams-policy-packages-for-government"></a>政府機関向け Teams ポリシー パッケージ
 
@@ -31,11 +31,11 @@ ms.locfileid: "49909081"
 
 ## <a name="overview"></a>概要
 
-Microsoft Teams [の](manage-policy-packages.md) ポリシー パッケージは、組織内で同様の役割を持つユーザーに割り当て可能な定義済みのポリシーとポリシー設定のコレクションです。 ポリシー パッケージにより、ポリシー管理を簡素化し、合理化し、一貫性を高めることができます。 ユーザーのニーズに合わせて、パッケージ内のポリシーの設定をカスタマイズできます。 ポリシー パッケージのポリシーの設定を変更すると、そのパッケージに割り当てられているすべてのユーザーに更新された設定が適用されます。 Microsoft Teams 管理センターまたは PowerShell を使用して、ポリシー パッケージを管理できます。
+Microsoft Teams の[ポリシー パッケージ](manage-policy-packages.md)は、組織内で類似の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 ポリシー パッケージにより、ポリシー管理を簡素化し、合理化し、一貫性を高めることができます。 ユーザーのニーズに合わせて、パッケージのポリシーの設定をカスタマイズできます。 ポリシー パッケージ内のポリシーの設定を変更すると、そのパッケージに割り当てられているすべてのユーザーが更新された設定を取得します。 Microsoft Teams 管理センターまたは PowerShell を使用して、ポリシー パッケージを管理できます。
 
-ポリシー パッケージは、パッケージに応じて、次のポリシーを事前に定義します。
+ポリシー パッケージは、以下に対するポリシーを事前に定義しており、内容はパッケージごとに異なります。
 
-- Messaging
+- メッセージング
 - 会議
 - 通話
 - アプリのセットアップ
@@ -49,11 +49,11 @@ Teams には現在、政府機関向け次のポリシー パッケージが含�
 |Frontline Manager  |政府機関のフロントライン マネージャー |一連のポリシーを作成し、それらの設定を組織内の Frontline Managers に適用します。|
 |最前線の従業員  |政府機関の最前線の従業員 |一連のポリシーを作成し、それらの設定を組織内の Frontline Worker に適用します。|
 
-![医療ポリシー パッケージのスクリーンショット](media/policy-packages-gov.png)
+![ヘルスケア ポリシー パッケージのスクリーンショット](media/policy-packages-gov.png)
 
-ポリシー パッケージにリンクされているポリシーを簡単に識別できるよう、個々のポリシーにはポリシー パッケージの名前が付けされます。 たとえば、パブリック セーフティ責任者のポリシー パッケージを組織内のユーザーに割り当てると、パッケージ内のポリシーごとに PublicSafety_Officer という名前のポリシーが作成されます。
+ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、パブリック セーフティ責任者のポリシー パッケージを組織内のユーザーに割り当てると、パッケージ内のポリシーごとに PublicSafety_Officer という名前のポリシーが作成されます。
 
-![医療クリニカル ワーカー パッケージのポリシーのスクリーンショット](media/policy-packages-public-safety-officer.png)
+![医療職員パッケージのポリシーのスクリーンショット](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>ポリシー パッケージを管理する
 
@@ -93,7 +93,7 @@ Teams には現在、政府機関向け次のポリシー パッケージが含�
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>ポリシー パッケージを多数 (一群) のユーザー セットに割り当てる
 
-バッチ ポリシーパッケージの割り当てを使用して、多数のユーザー セットに同時にポリシーパッケージを割り当てることができます。 [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) コマンドレットを使用して、割り当てたい一群のユーザーおよびポリシー パッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチの操作 ID が生成されます。
+バッチ ポリシーパッケージの割り当てを使用して、多数のユーザー セットに同時にポリシーパッケージを割り当てることができます。 [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) コマンドレットを使用して、割り当てたい一群のユーザーおよびポリシー パッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチの操作 ID が生成されます。
 
 バッチには最大 5,000 のユーザーを含めることができます。 ユーザーをオブジェクト ID、UPN、SIP アドレス、またはメール アドレスで指定できます。 詳細については、[「一群のユーザーにポリシー パッケージを割り当てる」](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)を参照してください。
 
@@ -101,4 +101,4 @@ Teams には現在、政府機関向け次のポリシー パッケージが含�
 
 [Teams でポリシー パッケージを管理する](manage-policy-packages.md)
 
-[ Teams でユーザーにポリシーを割り当てる](assign-policies.md) 
+[ Teams でユーザーにポリシーを割り当てる](assign-policies.md)

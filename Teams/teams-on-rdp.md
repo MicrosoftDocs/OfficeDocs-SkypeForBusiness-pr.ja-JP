@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbf8be686029aa995ac0fb8a9977d129746b0c78
-ms.sourcegitcommit: e72599d5437773322ae6ef985f804a19101ed84f
+ms.openlocfilehash: 7090aac3c5e7ff724a079e7f9d9ffe9d712cd447
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/26/2021
-ms.locfileid: "50347878"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119096"
 ---
 # <a name="teams-in-remote-desktop-services"></a>リモート デスクトップ サービスの Teams
 
@@ -37,13 +37,13 @@ RDS は、展開の柔軟性、コスト効率、拡張性を提供します。 
 
 現在、リモート デスクトップ サービス環境の Teams は、共同作業とチャット機能をサポートして利用できます。 最適なユーザー エクスペリエンスを確保するには、この記事のガイダンスに従ってください。
 
-## <a name="teams-on-rds-with-chat-and-collaboration"></a>チャットとコラボレーションを使用した RDS 上のチーム
+## <a name="teams-on-rds-with-chat-and-collaboration"></a>チャットと共同作業を使用した RDS 上のチーム
 
 組織で Teams のチャットおよび共同作業機能のみを使用する場合は、ユーザーレベル ポリシーを設定して、Teams の通話および会議機能を無効にすることができます。
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>通話および会議機能を無効にするポリシーを設定する
 
-Microsoft Teams 管理センターまたは PowerShell を使用してポリシーを設定できます。 ポリシーの変更が反映されるには、時間 (数時間) かかる場合があります。 指定したアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。
+Microsoft Teams 管理センターまたは PowerShell を使用してポリシーを設定できます。 ポリシーの変更が反映されるまでに時間がかかる場合があります (数時間)。 指定したアカウントの変更がすぐに表示されない場合は、数時間後にもう一度お試しください。
 
 [**通話ポリシー**](teams-calling-policy.md): Teams には、すべての通話機能が無効になっている組み込みの DisallowCalling 通話ポリシーが含まれています。 DisallowCalling ポリシーを、仮想化環境で Teams を使用する組織内のすべてのユーザーに割り当てます。
 
@@ -51,15 +51,15 @@ Microsoft Teams 管理センターまたは PowerShell を使用してポリシ�
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用してポリシーを割り当てる
 
-ユーザーに DisallowCalling 呼び出しポリシーと AllOff 会議ポリシーを割り当てるには、
+DisallowCalling 通話ポリシーと AllOff 会議ポリシーをユーザーに割り当てるには、以下を実行します。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動します。
 2. ユーザー名の左側を選択してユーザーを選択し、[設定の編集] **を選択します**。
 3. 次の手順を実行します。
 
-    a.  [通話 **ポリシー] の**[ **通話禁止] を選択します**。
+    a.  [通話 **ポリシー] で**、[ **通話を禁止する] を選択します**。
 
-    b.  [会議 **ポリシー] で**[ **すべてオフ] を選択します**。
+    b.  [会議 **ポリシー] で [** すべてオフ] **を選択します**。
 
 4. **[適用]** を選択します。
 
@@ -82,18 +82,18 @@ Microsoft Teams 管理センターまたは PowerShell を使用してポリシ�
 
 #### <a name="assign-policies-using-powershell"></a>PowerShell を使用してポリシーを割り当てる
 
-次の例は、[Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) を使用して、DisallowCalling 通話ポリシーをユーザーに割り当てる方法を示しています。
+次の例は、[Grant-CsTeamsCallingPolicy](/powershell/module/skype/grant-csteamscallingpolicy) を使用して、DisallowCalling 通話ポリシーをユーザーに割り当てる方法を示しています。
 
 ```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
-PowerShell を使用して通話ポリシーを管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。
+PowerShell を使用して通話ポリシーを管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。
 
-次の例は、[Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) を使用して、AllOff 会議ポリシーをユーザーに割り当てる方法を示しています。
+次の例は、[Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) を使用して、AllOff 会議ポリシーをユーザーに割り当てる方法を示しています。
 
 ```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
-PowerShell を使用して会議ポリシーを管理する方法の詳細については、「[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
+PowerShell を使用して会議ポリシーを管理する方法の詳細については、「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。

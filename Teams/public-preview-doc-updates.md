@@ -18,12 +18,12 @@ description: Microsoft Teams のパブリック プレビューについて説�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 60ed1c821389fb56d6e6bfb4ab4a37e562be726a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: cc3dca351924daa368658a8f0c110099768e9986
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196221"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117705"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams パブリック プレビュー
 
@@ -32,7 +32,7 @@ ms.locfileid: "50196221"
 
 Microsoft Teams のパブリック プレビューを使用すると、Teams の未公開機能にいち早くアクセスできます。プレビューでは、今後加えられる機能を探したり、テストしたりできます。パブリック プレビューのあらゆる機能に関するフィードバックをお待ちしております。パブリック プレビューは、それぞれのチーム ユーザーごとに有効になっているので、組織全体への影響を心配する必要はありません。
 
-Teams のパブリック プレビューで利用可能な機能の一覧については、「[Release Notes for Office Current Channel (Preview) (Office 最新チャネル (プレビュー版) のリリース ノート)](https://docs.microsoft.com/officeupdates/current-channel-preview)」を参照してください。
+Teams のパブリック プレビューで利用可能な機能の一覧については、「[Release Notes for Office Current Channel (Preview) (Office 最新チャネル (プレビュー版) のリリース ノート)](/officeupdates/current-channel-preview)」を参照してください。
 
 ## <a name="set-the-update-policy"></a>更新ポリシーを設定する
 
@@ -58,5 +58,4 @@ Teams のパブリック プレビューで利用可能な機能の一覧につ�
 
 ## <a name="related-topics"></a>関連項目
 
-[開発者向けパブリック プレビュー](https://docs.microsoft.com/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
-
+[開発者向けパブリック プレビュー](/microsoftteams/platform/resources/dev-preview/developer-preview-intro)
