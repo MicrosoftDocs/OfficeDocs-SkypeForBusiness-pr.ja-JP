@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5647969ccbb19599efea062d94d88b79c2d8a6f4
-ms.sourcegitcommit: c6b630f9193d7f82f0416bd567a1de390d4b260f
+ms.openlocfilehash: 678cad1b71c9f3e8d1e79a50f5ae46aba4456b5a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50819486"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120668"
 ---
 # <a name="implement-your-move-to-microsoft-teams"></a>Microsoft Teams への移行を実装する
 
@@ -37,7 +37,7 @@ ms.locfileid: "50819486"
 - パイロットされた Microsoft Teams 
 - 組織を準備した 
 
-既に **Microsoft Teams** を展開済みで、ライセンスを取得したユーザーを Kaizala から Microsoft Teams に移行する場合は、この記事のガイダンスに従います。 
+既に Microsoft Teams を展開済みで **、Kaizala** から Microsoft Teams にライセンスを取得したユーザーを移動する場合は、この記事のガイダンスに従います。 
    
 移行には、次のフレームワークをお勧めします。  
    
@@ -45,7 +45,7 @@ ms.locfileid: "50819486"
    
 1. 最初に、チャット グループを Microsoft Teams に移動します。
 1. 次に、Teams のアプリを使用して Kaizala アクション カードを置き換える。
-1. 最前線の従業員が確実に機能するには、Teams Frontline Worker の機能にアップグレードします。 Teams のフロントライン ワーカーのクイック スタート ガイドについては [、Frontline Worker クイック スタート ガイドを参照してください](https://docs.microsoft.com/microsoftteams/flw-quickstart)。
+1. 最前線の従業員が確実に機能するには、Teams Frontline Worker の機能にアップグレードします。 Teams Frontline Worker のクイック スタート ガイドについては [、Frontline Worker クイック スタート ガイドを参照してください](./flw-quickstart.yml)。
 1. Teams でゲストとして招待するサプライヤーとパートナーのオンボーディングを検討してください。  
   
 **変更を管理する**  
@@ -72,7 +72,7 @@ Kaizala を使用し、Kaizala から Microsoft Teams にユーザーを移動�
    
 - **組織のチームワークを構想する** 
    
-   Kaizala が使用されている現在のシナリオを一覧表示します。 次に、Microsoft Teams を使って、シナリオを上から先に描き出しましょう。  
+   Kaizala が使用されている現在のシナリオを一覧表示します。 次に、Microsoft Teams を使って、上から先のシナリオを想像します。  
 
 - **Teams をパイロットする**
 
@@ -96,4 +96,4 @@ Kaizala を使用し、Kaizala から Microsoft Teams にユーザーを移動�
      
 - **組織を Teams に移動する** 
 
-    CEO から最前線の従業員まで、効率的にコミュニケーションを取るツールを使って組織を強化しましょう。 
+    CEO から最前線の従業員まで、効率的にコミュニケーションを取るツールを使って組織を強化しましょう。

@@ -14,24 +14,24 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
-description: 展開用に作成するデータベースを選択します。 既定では、データベースは定義済みのサイトの定義済みの SQL Server に作成され、データベースを配置する SQL Server に基づいてデータベース ファイルを自動的に展開および構成します。
-ms.openlocfilehash: 36912e468b0618925b3fbeb20db829d8d19249fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 展開用に作成するデータベースを選択します。 既定では、データベースは定義されたサイトの定義済みの SQL Server に作成され、データベースを配置する SQL Server に基づいてデータベース ファイルを自動的に展開および構成します。
+ms.openlocfilehash: 3e7e2e0aaec55c595a4f538238c431feb9173152
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806937"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120929"
 ---
 # <a name="install-and-create-databases"></a>データベースのインストールと作成
 
-展開用に作成するデータベースを選択します。 既定では、データベースは定義済みのサイトの定義済みの SQL Server に作成され、データベースを配置する SQL Server に基づいてデータベース ファイルを自動的に展開および構成します。
+展開用に作成するデータベースを選択します。 既定では、データベースは定義されたサイトの定義済みの SQL Server に作成され、データベースを配置する SQL Server に基づいてデータベース ファイルを自動的に展開および構成します。
 
  [**作成するデータベースを選択**]: 展開および構成を行う任意のデータベースのチェックボックスをオンにします。展開を行う一部または全部のデータベースのチェック ボックスをオンにします。
 
 > [!CAUTION]
-> データベースSQL Serverインスタンス用に構成されている必要があります (存在する場合)、データベースを展開するインスタンスに合わせてファイアウォール ポートを開く必要があります。 詳細については[、「Configure SQL Server for Lync Server 2013 Preview」を参照してください](https://technet.microsoft.com/library/375e5cc4-e436-46dc-9b02-5063f35cdcc1.aspx)。
+> データベースSQL Serverに対応するために、インスタンス用に構成されている必要があります (存在する場合)、ファイアウォール ポートを開いて、データベースを展開するインスタンスに合わせて開く必要があります。 詳細については [、「Configure SQL Server for Lync Server 2013 Preview」を参照してください。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)
 
- **[詳細設定**] : [SQL Server] をクリックし、[詳細設定] ボタンをクリックして、データベース上のデータベース ファイルの場所のオプションをSQL Server。 高度なデータベース ファイル配置の詳細については、「[Database Installation Using Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx)」を参照してください。
+ **Advanced**: [詳細] ボタンをSQL Serverし、[詳細設定] ボタンをクリックして、データベース 上のデータベース ファイルの場所のオプションを選択SQL Server。 高度なデータベース ファイル配置の詳細については、「[Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)」を参照してください。
 
  [**戻る**]: このボタンをクリックすると、前画面に戻ります (このダイアログへの到達方法によっては、必ずしも利用できない場合があります)。
 
@@ -40,5 +40,3 @@ ms.locfileid: "49806937"
  [**キャンセル**]: このボタンをクリックすると、構成を終了し、変更を破棄します。 終了し、変更を破棄する場合、確認メッセージが表示されることがあります (すべての構成画面で表示されるわけではありません)。 [はい **] を** 選択すると、現在の構成が閉じ、現在の構成が閉じ、トポロジ ビルダーに戻されます。 [**いいえ**] を選択すると、現在の構成ダイアログに戻り、構成を続行できます。
 
  [**ヘルプ**]: [**ヘルプ**] をクリックすると、現在の構成ダイアログに関連付けられた、このヘルプ情報を表示します。
-
-

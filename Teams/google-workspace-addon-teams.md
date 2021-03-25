@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c86d707a4298d88d3ae0cff389bda73490390e4
-ms.sourcegitcommit: 380cd74c08cd34e1c3f73f5c0f51da4ae2674f6f
+ms.openlocfilehash: 6e1b7024190ac51b89e09fafced86ffea13f5961
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "49880878"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120698"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace の Microsoft Teams 会議アドオンをセットアップする
 
-Microsoft Teams 会議アドオンを使用すると、Google カレンダー ユーザーは Google Workspace から直接 Microsoft Teams 会議をスケジュールし、参加することができます。 ユーザーは、ビデオ会議、電話会議、画面共有、会議チャット、デジタル ホワイトボードなどの Teams 会議機能にアクセスできます。 仕事、学校、生活の全体で、より多くのことを一緒に行う場合は、接続と整理を行います。
+Microsoft Teams 会議アドオンを使用すると、Google カレンダー ユーザーが Google Workspace から直接 Microsoft Teams 会議をスケジュールおよび参加できます。 ユーザーは、ビデオ会議、電話会議、画面共有、会議チャット、デジタル ホワイトボードなどの Teams 会議機能にアクセスできます。 仕事、学校、生活の全体で、より多くのことを一緒に行う場合は、接続と整理を行います。
 
 テナント ユーザーがアプリにアクセスするには、Google Workspace 用の Microsoft Teams 会議アドオンを Teams 管理者が有効にする必要があります。
 
@@ -49,7 +49,7 @@ Microsoft Teams 会議アドオンを使用すると、Google カレンダー �
 
    ![Google ワークスペースのプロパティを表示する Azure Portal](media/google-workspace-properties.png)
 
-5. (省略可能)アドオンを無効にするには、手順 4 で [ **は** い] ではなく **[いいえ]** を選択します。
+5. (省略可能)アドオンを無効にするには、手順 4 で [はい] の代わりに **[いいえ]** を選択します。 
 
 ## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>PowerShell を使用して Google Workspace の Microsoft Teams 会議アドオンを無効にする
 
@@ -73,7 +73,7 @@ if ($servicePrincipal) {
 }
 ```
 
-詳細については [、「Azure PowerShell で Azure サービス プリンシパルを作成する」を参照してください](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)。
+詳細については [、「Azure PowerShell で Azure サービス プリンシパルを作成する」を参照してください](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)。
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace の Microsoft Teams 会議アドオンを削除する
 

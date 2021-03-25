@@ -16,27 +16,27 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Skype for Business Online および Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。
-ms.openlocfilehash: 11bf4ffe7e5e0f1c2fb177531c2eba36d081bf47
-ms.sourcegitcommit: b424ab14683ab5080ebfd085adff7c0dbe1be84c
+ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47359423"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122201"
 ---
 # <a name="migrate-to-direct-routing"></a>ダイレクト ルーティングに移行する
 
 この記事では、Skype for Business Online および Microsoft Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。 この記事では、次の環境からの移行について説明します。 
  
-- 通話プラン (Teams および Skype for Business Online 向け) を含む電話システム 
-- Skype for Business Server のオンプレミスの PSTN 接続を備えた電話システム (Skype for Business Online)  
-- Cloud Connector エディションを使用したオンプレミスの PSTN 接続を使用した電話システム (Skype for Business Online 向け)
+- 通話プラン付き電話システム (Teams および Skype for Business Online 用) 
+- Skype for Business Server のオンプレミス PSTN 接続を使用した電話システム (Skype for Business Online 用)  
+- Cloud Connector エディション (Skype for Business Online 用) を使用したオンプレミス PSTN 接続を使用した電話システム
 
 
 これらの構成手順に加えて、通話を新しいルートへルーティングするために、セッション ボーダー コントローラー (SBC) 上での構成も必要です。 これは、このドキュメントの範囲外です。 詳細については、SBC 業者の資料を参照してください。  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>さまざまな PSTN 接続オプションのユーザー プロビジョニングの最終状態 
 
-次の表では、選択した PSTN 接続オプション用にプロビジョニングされたユーザーのエンド状態を電話システムで示します。 音声に関連する属性だけが表示されています。
+次の表に、電話システムで選択した PSTN 接続オプション用にプロビジョニングされたユーザーの終了状態を示します。 音声に関連する属性だけが表示されています。
 
 |ユーザー オブジェクトの属性 |通話プランが設定された電話システム|Skype for Business Server 経由のオンプレミス PSTN 接続による電話システム|クラウド コネクタ経由のオンプレミス PSTN 接続による電話システム|ダイレクト ルーティング経由のオンプレミス PSTN 接続による電話システム|
 |---|---|---|---|---|
@@ -65,9 +65,9 @@ Microsoft では、この取り組みとは別に、共存モードに基づく�
 
 通話プランから移行の詳細については、次を参照してください。
 
-- [通話プランの設定](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
-- [Set-CsOnlineVoice ユーザー](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
-- [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
+- [通話プランの設定](/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Set-CsOnlineVoice ユーザー](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
+- [Get-CsOnlineLisLocation](/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
 次を実行し、以前に構成したライセンス プラン情報を削除することをお勧めします。
@@ -83,8 +83,8 @@ Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2
 
 Skype for Business Server のオンプレミス PSTN 接続による電話システムからの移行の詳細については、次を参照してください。
 
-- [計画](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [展開](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [計画](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [展開](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
 次を実行し、以前に構成した音声ルーティング情報を削除することをお勧めします。
 
@@ -92,18 +92,18 @@ Skype for Business Server のオンプレミス PSTN 接続による電話シス
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > [!NOTE]
-> グローバル CsVoiceRoutingPolicy が構成されている場合は、このグローバルポリシーに関連付けられている PSTN 使用状況を削除することをお勧めします。 
+> グローバル CsVoiceRoutingPolicy が構成されている場合は、このグローバル ポリシーに関連付けられている PSTN 使用状況を削除するようにお勧めします。 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>クラウド コネクタ エディション経由のオンプレミス PSTN 接続による Office 365 電話システムからの移行 
 
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に2021年7月31日に廃止されます。 組織が Teams にアップグレードされると、 [ダイレクトルーティング](direct-routing-landing-page.md)を使用してオンプレミスのテレフォニーネットワークを teams に接続する方法について説明します。
+> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](direct-routing-landing-page.md)。
 
 クラウド コネクタ エディション経由のオンプレミス PSTN 接続による電話システムからの移行の詳細については、次を参照してください。
 
-- [計画](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
-- [展開](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
-- [ユーザー構成](https://docs.microsoft.com/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
+- [計画](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
+- [展開](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
+- [ユーザー構成](/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
 次を実行し、以前に構成した音声ルーティング情報を削除することをお勧めします。
  
@@ -117,17 +117,16 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)
 
-[Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradePolicy)
+[Get-CsTeamsUpgradePolicy](/powershell/module/skype/Get-CsTeamsUpgradePolicy)
 
-[New-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsUpgradePolicy)
+[New-CsTeamsUpgradePolicy](/powershell/module/skype/New-CsTeamsUpgradePolicy)
 
-[Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
+[Remove-CsTeamsUpgradePolicy](/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
 
-[Set-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradePolicy)
+[Set-CsTeamsUpgradePolicy](/powershell/module/skype/Set-CsTeamsUpgradePolicy)
 
-[Get-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
+[Get-CsTeamsUpgradeConfiguration](/powershell/module/skype/Get-CsTeamsUpgradeConfiguration)
 
-[Set-CsTeamsUpgradeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)
-
+[Set-CsTeamsUpgradeConfiguration](/powershell/module/skype/Set-CsTeamsUpgradeConfiguration)

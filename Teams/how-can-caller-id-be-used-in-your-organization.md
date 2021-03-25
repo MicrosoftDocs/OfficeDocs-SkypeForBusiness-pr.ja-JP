@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: cd2074fec3027f1172b6ea681013f53994963cb5
-ms.sourcegitcommit: 2874aec7768bb46ed4506c1a2d431841f47190bf
+ms.openlocfilehash: e723311b2780dd1d43bad4874b72133e09ff4fc3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "47255450"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120678"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>組織での発信者番号の利用方法
 
 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
   
-発信者番号機能は、PSTN 接続にかかわらず、すべての電話システムユーザーが利用できます。
+発信者番号機能は、PSTN 接続に関係なく、すべての電話システム ユーザーが使用できます。
 
 - Microsoft 通話プラン 
 
@@ -50,31 +50,31 @@ ms.locfileid: "47255450"
   
 ## <a name="outbound-caller-id"></a>発信側の発信者番号通知
 
-送信 PSTN の発信者番号認識には、次の3つのオプションがあります。
+発信 PSTN 発信者番号には、次の 3 つのオプションがあります。
   
 - ユーザーに割り当てられた電話番号。既定です。
     
-- 通話プランの電話番号のインベントリで*service* 、サービス*と無料の番号と*して分類される電話番号。 これは通常、組織の自動応答またはコール キューに割り当てられます。
+- 通話プランの電話番号インベントリで、サービスとして分類される電話番号とフリーダイヤル番号。 これは通常、組織の自動応答またはコール キューに割り当てられます。
     
 - 非通知に設定。
     
 ただし、以下の種類の電話番号を発信側の発信者番号通知に割り当てることはできません。
   
-- 通話プランの電話番号インベントリで*ユーザー*として分類されているすべての電話番号。
+- 通話プランの電話番号インベントリで *ユーザー* として分類されているすべての電話番号。
     
 - Skype for Business Server のオンプレミスの電話番号
     
-発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](/microsoftteams/set-the-caller-id-for-a-user)」を参照してください。
+発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](./set-the-caller-id-for-a-user.md)」を参照してください。
   
-### <a name="end-user-control-of-outbound-caller-id"></a>発信の発信者番号のエンドユーザーによる制御
+### <a name="end-user-control-of-outbound-caller-id"></a>送信発信者番号のエンド ユーザーによる制御
 
-EnableUserOverride 属性を使うと、1人または複数のユーザーがその発信者番号設定を **匿名**に変更できます。 これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。 EnableUserOverride の既定値は False です。
+EnableUserOverride 属性を使用すると、1 人または複数のユーザーが発信者番号の設定を匿名に変更 **できます**。 これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。 EnableUserOverride の既定値は False です。
   
-エンドユーザーは、Skype for Business デスクトップクライアントの [**設定**] タブを使用して、発信者番号を**匿名**に設定することができます。 [**エンドユーザーに通話**を発信する (管理者によって有効になっている場合)] を選び、[**すべての通話に対して電話番号とプロファイル情報を非表示に**する] を選択します。 Teams では、ユーザーは右上隅にある自分のプロファイル画像に移動して、[**設定**の呼び出し] を選び、[  >  **Calls****発信者**番号認識] で [**すべての通話に対して電話番号とプロファイル情報を非表示に**する] を選択します。
+エンド ユーザーは、Skype for  Business デスクトップ クライアントの [設定] タブを使用して発信者番号を匿名に設定し、[エンド ユーザーの呼び出し] **(管理者** によって有効になっている場合)、[すべての通話で電話番号とプロファイル情報を非表示にする] を選択できます。  Teams では、ユーザーは右上隅にあるプロフィール画像に移動し、[通話の設定]を選択し、[発信者番号] の [すべての通話で電話番号とプロフィール情報を非表示にする] を選択します  >  。  
   
 ||||
 |:-----|:-----|:-----|
-|**Windows** <br/> |**バージョン** <br/> |**サポートされ** <br/> |
+|**Windows** <br/> |**バージョン** <br/> |**サポートされています** <br/> |
 |クイック実行  <br/> |2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル  <br/> |はい  <br/> |
 |クイック実行  <br/> |2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース  <br/> |はい  <br/> |
 |クイック実行  <br/> |2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル  <br/> |はい  <br/> |
@@ -83,22 +83,21 @@ EnableUserOverride 属性を使うと、1人または複数のユーザーがそ
    
 ## <a name="inbound-caller-id"></a>着信の発信者番号
 
-電話システムでは、番号が Azure AD のユーザーに関連付けられている場合は、外部電話番号の [ID] と表示されます。 電話番号が Azure AD にない場合は、電話会社が指定した表示名が表示されます (利用可能な場合)。
+電話番号が Azure アカウントのユーザーに関連付けられている場合、電話システムは外部の電話番号の呼び出し ID AD。 電話番号が Azure ADに含されていない場合は、電話会社から提供された表示名が表示されます。
 
 BlockIncomingCallerID 属性を使用すると、着信した PSTN 通話の発信者番号通知をブロックできます。 この属性を設定することはできますが、ユーザー設定ページではエンド ユーザーには使用できません。 また、現在はオンラインの PSTN 接続のみで使用可能です。
   
-発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](/microsoftteams/set-the-caller-id-for-a-user)」を参照してください。
+発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](./set-the-caller-id-for-a-user.md)」を参照してください。
   
-## <a name="related-topics"></a>関連トピック
-[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a>関連項目
+[電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
-[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[通話プランで使用されるさまざまな種類の電話番号](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
+[緊急通話の利用条件](./emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
- 

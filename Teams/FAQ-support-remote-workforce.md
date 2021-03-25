@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1d2f627dd3373fcb4475fba2f7f4c90f6d9003e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583476"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121565"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -51,15 +51,15 @@ Microsoft 365 担当コーポレート バイス プレジデントの Jared Spa
 
 中国での現在のニーズは特殊であるため、特別な操作が必要な場合があります。
 
-- [中国内ユーザー向けの Office 365 グローバル テナントのパフォーマンスの最適化](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
+- [中国内ユーザー向けの Office 365 グローバル テナントのパフォーマンスの最適化](/office365/enterprise/office-365-networking-china)
 
-- [Microsoft 365 が使用されているすべてのネットワーク向けの一般的なガイドライン](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)
+- [Microsoft 365 が使用されているすべてのネットワーク向けの一般的なガイドライン](/Office365/Enterprise/assessing-network-connectivity)
 
 - [Teams 用に組織のネットワークを準備する](prepare-network.md)
 
 ### <a name="my-users-are-reporting-bad-calls-or-their-calls-are-not-connecting-what-should-i-do-to-get-help"></a>組織のユーザーから、通話の不具合の報告や通話が接続できないという報告を受けています。 サポートを受けるにはどうすればよいですか?
 
-Microsoft がサポートさせていただきます。 [サポートに問い合わせる](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)前に、Microsoft の[ネットワークに関する推奨事項](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network)に従っていることを確認してください。 通話品質のトラブルシューティングをしやすくするために、[通話分析および通話品質ダッシュボード](difference-between-call-analytics-and-call-quality-dashboard.md)を使用してください。 Microsoft サービスに関する最新のアドバイザリまたは問題については、Microsoft 365 管理センターの[サービス正常性ダッシュボード](https://docs.microsoft.com/office365/enterprise/view-service-health)で確認することをお勧めします。
+Microsoft がサポートさせていただきます。 [サポートに問い合わせる](/microsoft-365/admin/contact-support-for-business-products)前に、Microsoft の[ネットワークに関する推奨事項](#what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network)に従っていることを確認してください。 通話品質のトラブルシューティングをしやすくするために、[通話分析および通話品質ダッシュボード](./monitor-call-quality-qos.md)を使用してください。 Microsoft サービスに関する最新のアドバイザリまたは問題については、Microsoft 365 管理センターの[サービス正常性ダッシュボード](/office365/enterprise/view-service-health)で確認することをお勧めします。
 
 ### <a name="what-other-actions-can-i-take-to-have-a-better-experience"></a>操作性を向上させるための方法は他にもありますか?
 
@@ -87,11 +87,11 @@ Microsoft 365 をお持ちの場合は、既に Teams をお持ちです。 す�
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Teams の使用を開始するためのサポートの受け方や展開が成功したかどうかの確認方法について教えてください。
 
-Microsoft では、計画、展開、利用促進、ベスト プラクティスの導入に役立つ、[Office 365 用 FastTrack Center 特典](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365)を提供しています。 このサービスは、ユーザーが 150 人以上いる場合は無料で提供されています。 詳細については、「[簡単になった、Microsoft 365 用 FastTrack アシスタントの申請](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)」をお読みください。 Microsoft 365 用 FastTrack セットアップ ガイダンスは、すべての Office 365 組織の管理者に提供されています。 このガイダンスにアクセスするには、管理者の資格情報を使用して [https://aka.ms/setupguidance](https://aka.ms/setupguidance) にサインインします。
+Microsoft では、計画、展開、利用促進、ベスト プラクティスの導入に役立つ、[Office 365 用 FastTrack Center 特典](/fasttrack/o365-fasttrack-benefit-for-office-365)を提供しています。 このサービスは、ユーザーが 150 人以上いる場合は無料で提供されています。 詳細については、「[簡単になった、Microsoft 365 用 FastTrack アシスタントの申請](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#)」をお読みください。 Microsoft 365 用 FastTrack セットアップ ガイダンスは、すべての Office 365 組織の管理者に提供されています。 このガイダンスにアクセスするには、管理者の資格情報を使用して [https://aka.ms/setupguidance](https://aka.ms/setupguidance) にサインインします。
 
-ご自身で使用を開始する場合は、「[Teams の展開方法](How-to-roll-out-teams.md)」をお読みになり、Teams をわずか 30 日で運用開始させるための方法を学べるウェビナー シリーズ「[Teams in 30](https://aka.ms/Teamsin30)」をご覧になってください。
+ご自身で使用を開始する場合は、「[Teams の展開方法](./deploy-overview.md)」をお読みになり、Teams をわずか 30 日で運用開始させるための方法を学べるウェビナー シリーズ「[Teams in 30](./teams-in-30-workshops.md)」をご覧になってください。
 
-Microsoft では、Education (EDU) テナントに対して、学校の生徒情報システム (SIS) からの情報を同期するのに役立つ、[School Data Sync](https://docs.microsoft.com/schooldatasync/) を提供しています。 Microsoft 365 の展開に関するサポートについては、「[Microsoft 365 Education の展開の概要](https://docs.microsoft.com/microsoft-365/education/deploy/)」を参照してください。 詳細については、最新記事「[遠隔学習に Teams を使用する](remote-learning-edu.md)」をぜひご覧ください。
+Microsoft では、Education (EDU) テナントに対して、学校の生徒情報システム (SIS) からの情報を同期するのに役立つ、[School Data Sync](/schooldatasync/) を提供しています。 Microsoft 365 の展開に関するサポートについては、「[Microsoft 365 Education の展開の概要](/microsoft-365/education/deploy/)」を参照してください。 詳細については、最新記事「[遠隔学習に Teams を使用する](remote-learning-edu.md)」をぜひご覧ください。
 
 ### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>今回の危機的状況が続く間は社員が自宅で作業できるようにしたいのですが、会社で Teams の使用を開始するためのサポート情報はどこで入手できますか?
 
@@ -99,7 +99,7 @@ Microsoft では、Education (EDU) テナントに対して、学校の生徒情
 
 ### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Microsoft 365 を使い始めたので、Teams を使用してリモート ワーカーや学生をサポートできます。 サービスにサインアップしましたが、ユーザーが Teams を使用しようとすると、次のエラーが表示されます: "使い損ねていますよ。 管理者に Microsoft Teams を有効にするよう依頼しましょう。" どうすればよいですか?
 
-無料の Teams オファーの 1 つをアクティブにした後でも、ユーザーに対して有効にしておく必要があります。 「[Teams へのユーザー アクセスを管理する](user-access.md)」と「[ユーザーを個別に、またはまとめて追加する](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)」をお読みください。
+無料の Teams オファーの 1 つをアクティブにした後でも、ユーザーに対して有効にしておく必要があります。 「[Teams へのユーザー アクセスを管理する](user-access.md)」と「[ユーザーを個別に、またはまとめて追加する](/microsoft-365/admin/add-users/add-users)」をお読みください。
 
 初めてユーザーにライセンスを付与する、または有効にするが、Microsoft 365 はしばらく使用してきたという場合は、組織の [Teams を有効にする](Office-365-set-up.md)必要がある場合があります。 この記事上で、「[Microsoft 365 を持っていますが、Teams を使っていません。Teams の試用版ライセンスは提供されていますか?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses)」をご確認ください。
 

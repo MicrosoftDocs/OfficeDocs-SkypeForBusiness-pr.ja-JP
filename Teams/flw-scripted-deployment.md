@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4a6f59223103527b9a2ad95101a2a8ab5044caf
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: ed657590e024104e773b7a96b785b3b3db0ccbfc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909371"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120748"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>現場担当者のために大規模に Teams をプロビジョニングする方法
 
@@ -190,7 +190,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 #### <a name="steps-to-create-teams-message-policies"></a>チームのメッセージング ポリシーを作成する手順
 
 1. リポジトリの [scripts] フォルダーで、**TeamsMessagingPolicies.csv** ファイルを見つけます。
-1. 組織固有の情報を使用して、**TeamsMessagingPolicies.csv** ファイルを更新します。 さまざまなオプションのいくつかの詳細については、[こちら](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams#messaging-policy-settings)をご覧ください。
+1. 組織固有の情報を使用して、**TeamsMessagingPolicies.csv** ファイルを更新します。 さまざまなオプションのいくつかの詳細については、[こちら](./messaging-policies-in-teams.md#messaging-policy-settings)をご覧ください。
 1. リポジトリの [scripts] フォルダーで、**CreateTeamsMessagePolicies.ps1** スクリプトを見つけます。
 1. PowerShell から **CreateTeamsMessagePolicies.ps1** スクリプトを実行します。
 
@@ -211,7 +211,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>現場マネージャー アプリのセットアップ ポリシーを作成する
 
-ビジネス ニーズに合わせて、次の設定をカスタマイズすることができます。 ベスト プラクティスに基づいて、大規模な新規ユーザーの登録を容易にするために、いくつかの推奨オプションを選択しました。 詳細については、[こちら](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)をクリックしてください。
+ビジネス ニーズに合わせて、次の設定をカスタマイズすることができます。 ベスト プラクティスに基づいて、大規模な新規ユーザーの登録を容易にするために、いくつかの推奨オプションを選択しました。 詳細については、[こちら](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)をクリックしてください。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[ポリシーの設定]** の順に移動します。
 2.  **[追加]** をクリックします。  
@@ -235,7 +235,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>現場担当者アプリのセットアップ ポリシーを作成する
 
-ビジネス ニーズに合わせて、次の設定をカスタマイズすることができます。 ベスト プラクティスに基づいて、大規模な新規ユーザーの登録を容易にするために、いくつかの推奨オプションを選択しました。 詳細については、[こちら](https://docs.microsoft.com/MicrosoftTeams/teams-app-setup-policies#create-a-custom-app-setup-policy)をクリックしてください。
+ビジネス ニーズに合わせて、次の設定をカスタマイズすることができます。 ベスト プラクティスに基づいて、大規模な新規ユーザーの登録を容易にするために、いくつかの推奨オプションを選択しました。 詳細については、[こちら](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)をクリックしてください。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[ポリシーの設定]** の順に移動します。
 2.  **[追加]** をクリックします。
@@ -297,8 +297,8 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 Teams で大量のユーザーと共同作業するには、最初に Azure AD でユーザーを作成する必要があります。 多数のユーザーをプロビジョニングする方法はたくさんありますが、以下を強調しておきます。
 
 - これらのユーザーが、次の人事システムのいずれかに既に存在している場合は、次のリンクを使用してユーザーのプロビジョニングを設定します。
-  - SAP SuccessFactors - [チュートリアル: SAP SuccessFactors を Active Directory ユーザー プロビジョニングに構成します](https://docs.microsoft.com/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial)。
-  - Workday - [チュートリアル: Workday を自動ユーザー プロビジョニング用に構成します](https://docs.microsoft.com/azure/active-directory/saas-apps/workday-inbound-tutorial)。
+  - SAP SuccessFactors - [チュートリアル: SAP SuccessFactors を Active Directory ユーザー プロビジョニングに構成します](/azure/active-directory/saas-apps/sap-successfactors-inbound-provisioning-tutorial)。
+  - Workday - [チュートリアル: Workday を自動ユーザー プロビジョニング用に構成します](/azure/active-directory/saas-apps/workday-inbound-tutorial)。
 - 他のシステムにユーザー情報がある場合は、次の手順に進みます。
 
 これらのユーザーをより効果的に大規模に管理するには、現場担当者と現場マネージャーの 2 つのセキュリティ グループを作成し、次の手順に従って、これらのユーザーをセキュリティ グループに直接プロビジョニングする必要があります。
@@ -310,7 +310,7 @@ Teams で大量のユーザーと共同作業するには、最初に Azure AD �
 1. リポジトリの [scripts] フォルダーで、**SecurityGroups.csv** ファイルを見つけます。
 1. 組織固有のセキュリティ グループ情報を使用して、**SecurityGroups.csv** ファイルを更新します。
     1. **MessagePolicy**、**AppPermissionPolicy**、**AppSetupPolicy** フィールドを更新して、前に作成した適切なポリシーにマップしてください。
-    1. **LicensePlan** フィールドを更新して、これらのユーザーに付与する予定のライセンスを反映してください。 製品名とサービス プラン識別子の詳細については、[こちら](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)のドキュメントをご覧ください。
+    1. **LicensePlan** フィールドを更新して、これらのユーザーに付与する予定のライセンスを反映してください。 製品名とサービス プラン識別子の詳細については、[こちら](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)のドキュメントをご覧ください。
 1. PowerShell から、資産の **CreateUsers.ps1** スクリプトを実行します。
 
 ### <a name="assign-licensing-to-users-via-group-based-licensing"></a>グループベースのライセンスを通じてユーザーにライセンスを割り当てる
@@ -379,7 +379,7 @@ Azure AD P1 以上のライセンスを取得した場合、割り当て済み�
 
 ## <a name="further-reading"></a>参考資料
 
-- [新しいチーム チャネル (Powershell)](https://docs.microsoft.com/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [新しい Teams メッセージング ポリシー (Powershell)](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [新しいチーム チャネル (Powershell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [新しい Teams メッセージング ポリシー (Powershell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
 - [Microsoft Teams でユーザーにライセンスを割り当てる](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
-- [Office 365 PowerShell を使用してライセンスやユーザー アカウントを割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+- [Office 365 PowerShell を使用してライセンスやユーザー アカウントを割り当てる](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

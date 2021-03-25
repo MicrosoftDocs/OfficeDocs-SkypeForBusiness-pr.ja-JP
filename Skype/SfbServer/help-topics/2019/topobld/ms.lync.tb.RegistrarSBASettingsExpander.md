@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[復元] の設定を編集し、以下のプロパティを構成します。'
-ms.openlocfilehash: 277f1b78db9a756ea3a31bcae060d59ab3e69bcd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c53aa49771a7e2c1a239319901059dc5d22b7eaf
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822127"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121030"
 ---
 # <a name="registrar-sba-settings-expander"></a>レジストラー SBA 設定エキスパンダー
 
@@ -43,4 +43,4 @@ ms.locfileid: "49822127"
 
 ## <a name="see-also"></a>関連項目
 
-[エンタープライズ VoIP の復旧の計画](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
+[エンタープライズ VoIP の復旧の計画](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)

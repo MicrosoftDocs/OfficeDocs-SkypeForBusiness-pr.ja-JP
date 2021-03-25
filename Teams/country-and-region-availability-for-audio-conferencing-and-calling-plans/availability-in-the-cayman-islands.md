@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Cayman 諸島で利用できる Skype for Business Office Microsoft Teams 用の Microsoft 365 および 365 のサービスを以下に示します。
-ms.openlocfilehash: 8394e4f211b71ae9664896e759b697399fcbe9fa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4f05b0df8b86f6b19d5f14ca93b2a34472f0a50a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822977"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121455"
 ---
 # <a name="availability-in-the-cayman-islands"></a>ケイマン諸島の空き時間
 
@@ -62,7 +62,7 @@ Cayman 諸島で利用できる Skype for Business Office Microsoft Teams 用の
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、電話システム ダイレクト ルーティング [の使用を検討してください](../direct-routing-landing-page.md)。 直接ルーティングを使用すると、事実上すべてのテレフォニー通信事業者で電話システムを使用できます。
+通話プランを購入できない場合は、電話システム ダイレクト [ルーティングの使用を検討してください](../direct-routing-landing-page.md)。 直接ルーティングを使用すると、事実上すべてのテレフォニー通信事業者で電話システムを使用できます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -72,7 +72,7 @@ Cayman 諸島で利用できる Skype for Business Office Microsoft Teams 用の
 |有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
 |無料電話番号は利用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は [、「Skype for Business](/microsoftteams/getting-service-phone-numbers)および Microsoft Teams のサービス電話番号を取得する」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は [、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号を取得する」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -84,7 +84,6 @@ Cayman 諸島で利用できる Skype for Business Office Microsoft Teams 用の
   
 ## <a name="related-topics"></a>関連項目
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

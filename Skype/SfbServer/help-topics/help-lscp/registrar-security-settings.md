@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 2bac87964339e8da2dcc3f60da11f073e513992c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2fb232fb8171f8887bf7a1756123cf6fb282cf26
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819197"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120979"
 ---
 # <a name="registrar-security-settings"></a>レジストラーのセキュリティ設定
 
@@ -28,9 +28,8 @@ ms.locfileid: "49819197"
 
 - [Skype for Business Server 2015 でのレジストラー構成設定の管理](../../manage/authentication/registrar-configuration-settings.md)
 
-- [既存のレジストラーを変更する](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
+- [既存のレジストラーの変更](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-registrar-configuration-settings)
 
-- [レジストラーを削除する](https://technet.microsoft.com/library/ae43cd75-cae4-4f78-b037-779a2cdb583b.aspx)
+- [レジストラーの削除](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-registrar-configuration-settings)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
-
+Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。

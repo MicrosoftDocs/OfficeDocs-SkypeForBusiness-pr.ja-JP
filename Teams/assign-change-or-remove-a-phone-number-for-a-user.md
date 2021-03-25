@@ -19,26 +19,26 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 外部の企業やクライアントがコールインできるよう、Teams ユーザーの作業用電話番号を割り当て、変更、または削除する方法について学習します。
-ms.openlocfilehash: e606885aee1e87dfdfc9b36a5247eedba225a185
-ms.sourcegitcommit: 91fbc7c9cd43c2a5b7e6dfedf2388939f2f77d57
+description: Teams ユーザーの作業用電話番号を割り当て、変更、または削除して、社外の企業やクライアントがコールインする方法について学習します。
+ms.openlocfilehash: 4f40049b3856f24d3ae5ddd3999be7213817bcdc
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50589621"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120819"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>ユーザーの電話番号を割り当て、変更、または削除する (通話プラン)
 
-通話プランを設定する場合は、ユーザーに電話番号を割り当てる必要があります。 Microsoft Teams では、ユーザーが [通話] をクリックすると、割り当てる電話番号が一覧表示 **されます**。 ダイレクト ルーティングのシナリオでユーザーの電話番号を割り当て、変更、または削除する手順については、「ユーザーが直接ルーティング、音声、ボイスメールを使用できる」を参照 [してください](https://docs.microsoft.com/microsoftteams/direct-routing-enable-users)。
+通話プランを設定する場合は、ユーザーに電話番号を割り当てる必要があります。 Microsoft Teams では、ユーザーが [通話] をクリックすると、割り当てる電話番号が一覧表示 **されます**。 ダイレクト ルーティングのシナリオでユーザーの電話番号を割り当て、変更、または削除する手順については、「ユーザーに直接ルーティング、音声、ボイスメールを許可する」を参照 [してください](./direct-routing-enable-users.md)。
 
 ![Teams に表示されるユーザーの電話番号。](media/teams-phone-number.png)
 
 ユーザーが通話を送受信できるようユーザーを設定する場合は、まず Microsoft Teams 管理センターを使用して電話番号を割り当てる必要があります。 必要に応じて、電話番号を変更または削除できます。
   
-Teams で通話プランを取得する方法と料金については、「Teams アドオン ライセンス [」を参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+Teams で通話プランを取得する方法と料金については、「Teams アドオン ライセンス [」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 > [!NOTE]
-> ユーザーにライセンスが割り当てられているかどうかを確認する 1 つの方法は、Microsoft Teams 管理センターの [ユーザー] > **します**。 ライセンスが割り当てられている場合は、ページに表示されます。  Microsoft 365 管理センターを使用する方法もあります。
+> ユーザーにライセンスが割り当てられているかどうかを確認するには、Microsoft Teams 管理センターの [ユーザー] > **します**。 ライセンスが割り当てられている場合は、ページに表示されます。  Microsoft 365 管理センターを使用する方法もあります。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>ユーザーに電話番号を割り当てる
  
@@ -51,10 +51,10 @@ Teams で通話プランを取得する方法と料金については、「Teams
 5. 電話番号情報を含むメールをユーザーに送信するかどうかに応じて、電話番号情報を含むメール ユーザーをオフまたは **オンにします**。 既定では、オンになっています。 
 6. **[保存]** をクリックします。
 
-PowerShell の例については [、「Set-CsOnlineVoiceUser」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)。
+PowerShell の例については [、「Set-CsOnlineVoiceUser」を参照してください](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)。
 
     > [!NOTE]
-    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更する
@@ -71,7 +71,7 @@ PowerShell の例については [、「Set-CsOnlineVoiceUser」を参照して�
 8. 関連する緊急対応の場所を割り当てる、または変更するには、[緊急対応の場所] で場所を検索して選択します。
 9. **[保存]** をクリックします。
 
-PowerShell の例については [、「Set-CsOnlineVoiceUser」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)。
+PowerShell の例については [、「Set-CsOnlineVoiceUser」を参照してください](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)。
 
 ## <a name="remove-a-phone-number-from-a-user"></a>ユーザーの電話番号を削除する
  
@@ -80,10 +80,10 @@ PowerShell の例については [、「Set-CsOnlineVoiceUser」を参照して�
 1. 左側のナビゲーションで [ユーザー] をクリックし、目的のユーザーを見つけてダブルクリックし、[アカウント]をクリックし、[全般情報] で、ユーザーに割り当てられている電話番号をメモします。 
 2. 左側のナビゲーションで、[音声電話番号 **]**  >  **をクリックします**。
 3. [電話番号 **] ページで** 、手順 2 で識別した番号を選び、[編集] をクリック **します**。  
-4. [編集]**ウィンドウの**[割り当 **て済み] で****、[X]** をクリックしてユーザーを削除します。
+4. [編集]**ウィンドウの**[割 **り当て済み] で****、[X]** をクリックしてユーザーを削除します。
 5. **[保存]** をクリックします。
 
-PowerShell の例については [、「Set-CsOnlineVoiceUser」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)。
+PowerShell の例については [、「Set-CsOnlineVoiceUser」を参照してください](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)。
 
 ## <a name="related-topics"></a>関連項目
 
@@ -91,10 +91,10 @@ PowerShell の例については [、「Set-CsOnlineVoiceUser」を参照して�
 
 [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
+[緊急通話の利用条件](./emergency-calling-terms-and-conditions.md)
 
 [緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
-[Microsoft 365 の通話プラン](https://docs.microsoft.com/MicrosoftTeams/calling-plans-for-office-365)
+[Microsoft 365 の通話プラン](./calling-plans-for-office-365.md)

@@ -16,12 +16,12 @@ metadata:
   ms.collection:
   - M365-collaboration
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: 20ecaa02743b4de8664287d41118761e1da00b74
-  ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
-  ms.translationtype: HT
+  ms.openlocfilehash: 58a51e7b0bd132a1e0e65c304d0d96bdff119732
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 10/16/2020
-  ms.locfileid: "48531734"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51121325"
 items:
 - durationInMinutes: 2
   content: "ネットワーク プランナーは、Teams 管理センターで利用できる新しいツールです。 ネットワーク プランナーでは組織全体で Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。 このシナリオ例は、ツールを使用して、Contoso という会社のサイト、ペルソナ、および実行レポートを作成する方法を示しています。 \n\n## <a name=\"before-you-begin\"></a>開始する前に\n\nTeams 管理センターの使い方をすでに知っており、Teams 用にネットワークを準備するために必要なことを理解していることを前提としています。 これがネットワーク プランナー関連で読む記事の場合は、まず次の記事を読むことをお勧めします。\n\n- [Teams 用に組織のネットワークを準備する](prepare-network.md)\n- [Microsoft Teams で ネットワーク プランナー を使用する](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Contoso ネットワークの概要\n\nContoso には 3 つの場所があります。\n\n- **シアトル本社:** Contoso の主要な場所です。 1000 人の従業員がいて、そのうち 25 人が通話専門の従業員です。 このサイトはインターネットに接続されており、市内電話接続 (PSTN) があります。 Contoso には、Teams とのローカル電話接続を使用できるように設定されたダイレクト ルーティングがあります。 \n- **カークランド オフィス:** この支社には 400人 の従業員がいて、10人が通話専門の従業員です。 このサイトは、本社への接続をインターネットと電話 (PSTN) の両方のトラフィックに使用します。 このオフィスは、WAN 接続を使用してシアトル本社に接続されています。\n- **デンバー オフィス:** この支社には 250人 の従業員がいて、50人が通話専門の従業員です。 このサイトには独自のローカル インターネット接続がありますが、直接電話接続 (PSTN) はありません。\n\nでは、始めましょう。\n"
@@ -47,4 +47,4 @@ items:
 
      - [Microsoft Teams 用に組織のネットワークを準備する](prepare-network.md)
      - [Teams の通話品質の向上と監視](monitor-call-quality-qos.md)
-     - [Office 365 URL および IP アドレス範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+     - [Office 365 URL および IP アドレス範囲](/office365/enterprise/urls-and-ip-address-ranges)

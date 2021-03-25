@@ -20,12 +20,12 @@ description: Microsoft Teams で緊急通話ポリシーを使用して管理し
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: e58f428fbaa25b03534ce9f168ecf347b183eda3
-ms.sourcegitcommit: d6e97621b1bfe9c3fbd8bc41b30a94bafd17b28f
+ms.openlocfilehash: 34f6e901049dd080ee070e7858f24b70535ee189
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "49973141"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120568"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Microsoft Teams で緊急通話ポリシーを管理する
 
@@ -54,7 +54,7 @@ ms.locfileid: "49973141"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[New-CsTeamsEmergencyCallingPolicy を参照してください](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallingpolicy)。
+[New-CsTeamsEmergencyCallingPolicy を参照してください](/powershell/module/skype/new-csteamsemergencycallingpolicy)。
 
 ## <a name="edit-an-emergency-calling-policy"></a>緊急通話ポリシーを編集する
 
@@ -68,17 +68,17 @@ ms.locfileid: "49973141"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[「Set-CsTeamsEmergencyCallingPolicy」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallingpolicy)。
+[「Set-CsTeamsEmergencyCallingPolicy」を参照してください](/powershell/module/skype/set-csteamsemergencycallingpolicy)。
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-users"></a>カスタム緊急通話ポリシーをユーザーに割り当てる
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-[Grant-CsTeamsEmergencyCallingPolicy も参照してください](https://docs.microsoft.com/powershell/module/skype/grant-csteamsemergencycallingpolicy)。
+[Grant-CsTeamsEmergencyCallingPolicy も参照してください](/powershell/module/skype/grant-csteamsemergencycallingpolicy)。
 
 ## <a name="assign-a-custom-emergency-calling-policy-to-a-network-site"></a>ネットワーク サイトにカスタム緊急通話ポリシーを割り当てる
 
-[Set-CsTenantNetworkSite コマンドレット](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite)を使用して、ネットワーク サイトに緊急通話ポリシーを割り当てる。
+[Set-CsTenantNetworkSite コマンドレット](/powershell/module/skype/set-cstenantnetworksite)を使用して、ネットワーク サイトに緊急通話ポリシーを割り当てる。
 
 次の例では、Contoso 緊急通話ポリシー 1 というポリシーを Site1 サイトに割り当てる方法を示します。
 

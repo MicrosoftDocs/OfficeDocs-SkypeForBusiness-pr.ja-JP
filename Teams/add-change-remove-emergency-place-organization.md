@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Microsoft Teams 管理センターで、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d390113b30558b94fadab695731b8c08b4c01ace
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 50343fbd1d16694e46afafe53114f2dde4b7b150
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806277"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121505"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>組織の緊急対応の場所の位置情報を追加、変更、削除する
 
@@ -44,7 +44,7 @@ ms.locfileid: "49806277"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[New-CsOnlineLisLocation を参照してください](https://docs.microsoft.com/powershell/module/skype/new-csonlinelislocation)。
+[New-CsOnlineLisLocation を参照してください](/powershell/module/skype/new-csonlinelislocation)。
     
 ## <a name="change-a-place-for-an-emergency-location"></a>緊急対応の場所を変更する
 
@@ -57,7 +57,7 @@ ms.locfileid: "49806277"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[「Set-CsOnlineLisLocation」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation)。
+[「Set-CsOnlineLisLocation」を参照してください](/powershell/module/skype/set-csonlinelislocation)。
     
 ## <a name="remove-a-place-from-an-emergency-location"></a>緊急対応の場所から場所を削除する
 
@@ -69,10 +69,10 @@ ms.locfileid: "49806277"
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-[Remove-CsOnlineLisLocation を参照してください](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelislocation)。
+[Remove-CsOnlineLisLocation を参照してください](/powershell/module/skype/remove-csonlinelislocation)。
     
 ## <a name="related-topics"></a>関連項目
 
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 - [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
+- [緊急通話の利用条件](./emergency-calling-terms-and-conditions.md)

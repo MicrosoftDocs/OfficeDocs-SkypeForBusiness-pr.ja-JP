@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーに対して緊急対応の場所を割り当てる方法または場所を変更する方法について学習します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 385855c456d3a4e5c2de53fb2605e4d5d30d84a4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ff328f07a69676a4dbaf1c1370d9e225e9d67810
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809527"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120829"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てる、または変更する
 
@@ -43,7 +43,7 @@ Microsoft Teams 管理センターで、または PowerShell を使用して、�
 
     - 場所を割り当てるには、場所または場所を検索し、検索結果で場所を選択します。
 
-    - ユーザーに既に割り当てられている場所を変更するには **、[X]** をクリックして既存の場所を削除し、検索して割り当てる場所を選択します。
+    - ユーザーに既に割り当てられている場所を変更するには **、[X]** をクリックして既存の場所を削除し、割り当てる場所を検索して選択します。
 
 4. 電話番号情報を含むメールをユーザーに送信するかどうかに応じて、電話番号情報を含むメール ユーザーをオフまたは **オンにします**。 既定では、オンになっています。
 
@@ -51,7 +51,7 @@ Microsoft Teams 管理センターで、または PowerShell を使用して、�
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
-[「Set-CsOnlineLisLocation」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csonlinelislocation)。
+[「Set-CsOnlineLisLocation」を参照してください](/powershell/module/skype/set-csonlinelislocation)。
     
 ## <a name="related-topics"></a>関連項目
 
@@ -60,4 +60,4 @@ Microsoft Teams 管理センターで、または PowerShell を使用して、�
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 - [ユーザーの緊急対応の場所を割り当てたり変更したりする](assign-change-emergency-location-user.md)
 - [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
+- [緊急通話の利用条件](./emergency-calling-terms-and-conditions.md)

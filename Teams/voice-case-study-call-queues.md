@@ -16,12 +16,12 @@ f1.keywords:
 description: 多国籍企業向け Teams 音声ケース スタディ
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ee08fa7bdeb1ded6bda384115a08048021cb67
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: 0cb8029a8f4e979a76afe069ee9b22e7be897913
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918733"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121295"
 ---
 # <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso のケース スタディ: 自動応答と通話キュー
 
@@ -33,7 +33,7 @@ Contoso は、オンプレミスの Skype for Business 展開からの自動応�
 
 - サイトの種類 A: 従来のレガシ テレフォニー システム 
 
-  受付係と同じ電話番号を自動応答の番号と関連付けるのに必要なサイトタイプ A。 これらの各サイトの主要な部門には、チーム メンバーにルーティングされる独自の通話キューがあります。 直接ルーティングを使用した電話システムと通話プラン付き電話システムを使用するサイトが混同されています。  
+  受付係に関連付けられているのと同じ電話番号を自動応答の番号として保持するために必要なサイトタイプ A。 これらの各サイトの主要な部門には、チーム メンバーにルーティングされる独自の通話キューがあります。 直接ルーティングを使用した電話システムと通話プラン付き電話システムを使用するサイトが混同されています。  
 
 - サイトの種類 B: Skype for Business エンタープライズ VoIP 
 
@@ -64,11 +64,11 @@ Contoso は、オンプレミスの Skype for Business 展開からの自動応�
 
 1. サービス番号を取得します。 
 
-2. 無料の電話システム - 仮想ユーザー ライセンスまたは有料電話システム ライセンスを取得して、リソース アカウントまたは電話システム ライセンスで使用します。
+2. 無料の電話システム - 仮想ユーザー ライセンスまたは有料の電話システム ライセンスを取得して、リソース アカウントまたは電話システム ライセンスで使用します。
 
 3. リソース アカウントを作成します。 自動応答または通話キューは、関連付けられたリソース アカウントを持っている必要があります。 
 
-4. 電話システムまたは電話システム - 仮想ユーザー ライセンスをリソース アカウントに割り当てる。 詳細については [、「Microsoft 365 電話システム - 仮想ユーザー ライセンス」を参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/virtual-user)。
+4. 電話システムまたは電話システム - 仮想ユーザー ライセンスをリソース アカウントに割り当てる。 詳細については [、「Microsoft 365 電話システム - 仮想ユーザー ライセンス」を参照してください](./teams-add-on-licensing/virtual-user.md)。
 
 5. ライセンスを割り当てたリソース アカウントにサービス電話番号を割り当てる。 
 
@@ -92,10 +92,9 @@ Contoso は、365 年 365 日にローカルの通信事業者から提供され
 
 Contoso は、Skype for Business の自動応答に使用された電話番号を 365 エンタープライズ VoIP 365 電話システムOffice移行する必要があります。 これにより、自動応答として使用するサービス番号として同じ番号を割り当てる必要がありました。 
 
-- 電話番号を移行するために、Contoso は [「電話番号](https://docs.microsoft.com/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) を Teams に移行する」の手順に従い、組織の電話番号の管理に関する追加のガイダンス [を取得しました](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)。
+- 電話番号を移行するために、Contoso は [「電話番号](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) を Teams に移行する」の手順に従い、組織の電話番号の管理に関する追加のガイダンス [を取得しました](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-- クラウド自動応答を構成するには、「クラウド自動応答を設定する」で説明されている手順 [に従います](create-a-phone-system-auto-attendant.md)。
+- クラウド自動応答を構成するには、「クラウド自動応答を設定する」で説明されている [手順に従います](create-a-phone-system-auto-attendant.md)。
 
 -  クラウド通話キューを設定するには、「クラウド通話キューを作成する」で説明されている手順 [に従います](create-a-phone-system-call-queue.md)。  
 
- 

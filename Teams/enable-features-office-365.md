@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5eb43301dc86fce6ef4e1f383c54d5c6902e871
-ms.sourcegitcommit: 4e648c3dd71d9c38cbcb81fab9e8cb9d241fe79c
+ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "49871088"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122191"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -42,7 +42,7 @@ Microsoft Teams 管理センターで、組織全体のユーザー設定を制�
 
 ### <a name="external-access"></a>外部アクセス
 
-**外部アクセス** では、Teams および Skype for Business のユーザーが、組織やドメインの外部ユーザーと通信するように設定することができます。 外部アクセスを構成するには、「[Teams のユーザーが別の Teams 組織のユーザーとチャットおよび通信できるようにする](let-your-teams-users-communicate-with-other-people.md)」を参照してください。
+**外部アクセス** では、Teams および Skype for Business のユーザーが、組織やドメインの外部ユーザーと通信するように設定することができます。 外部アクセスを構成するには、「[Teams のユーザーが別の Teams 組織のユーザーとチャットおよび通信できるようにする](./manage-external-access.md)」を参照してください。
 
 ドメインを追加またはブロックします。
 
@@ -69,7 +69,7 @@ Microsoft Teams での **ゲスト アクセス** により、組織内のチー
 
 #### <a name="email-integration"></a>電子メールの統合
 
-この機能をオンにすると、ユーザーはチャネル電子メール アドレスを使用して、Teams のチャネルにメールを送信できるようなります。 この操作は、ユーザーが所有するチームに属しているどのチャネルに対しても行えます。 ユーザーのメールは、チーム メンバーに対してオンになっている追加のコネクタがあるチーム内の任意のチャネルにも送信できます。 メールの統合をオンにするには、**[ユーザーにチャネルの電子メール アドレスへの電子メールの送信を許可します]** が **[オン]** であることを確認します。 次に、送信者のメール アドレスのドメインが、[Teams 管理センター]、[組織全体の設定]、[Teams の設定]、[電子メール統合]、**[これらの SMTP ドメインからのチャネルのメールを許可します]** でブロックされていないことを確認します。 空白にするか、メールの受信を期待するすべてのドメインを含める必要があります。 次に、[Teams チャネルのメール アドレスへのメールがブロックされないようにする](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies)ために必要なルールが設定されていることを確認する必要があります。
+この機能をオンにすると、ユーザーはチャネル電子メール アドレスを使用して、Teams のチャネルにメールを送信できるようなります。 この操作は、ユーザーが所有するチームに属しているどのチャネルに対しても行えます。 ユーザーのメールは、チーム メンバーに対してオンになっている追加のコネクタがあるチーム内の任意のチャネルにも送信できます。 メールの統合をオンにするには、**[ユーザーにチャネルの電子メール アドレスへの電子メールの送信を許可します]** が **[オン]** であることを確認します。 次に、送信者のメール アドレスのドメインが、[Teams 管理センター]、[組織全体の設定]、[Teams の設定]、[電子メール統合]、**[これらの SMTP ドメインからのチャネルのメールを許可します]** でブロックされていないことを確認します。 空白にするか、メールの受信を期待するすべてのドメインを含める必要があります。 次に、[Teams チャネルのメール アドレスへのメールがブロックされないようにする](/office365/servicedescriptions/exchange-online-protection-service-description/anti-spam-and-anti-malware-protection-eop#customize-anti-spam-policies)ために必要なルールが設定されていることを確認する必要があります。
 
 #### <a name="files"></a>ファイル
 
@@ -124,7 +124,7 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 
 #### <a name="network-planner"></a>ネットワーク プランナー
 
-ネットワーク プランナーでは組織全体で Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。  [Microsoft Teams でネットワーク プランナーを使用する方法](https://docs.microsoft.com/microsoftteams/network-planner)について説明します。
+ネットワーク プランナーでは組織全体で Teams ユーザーに接続するためのネットワーク要件を決定し、整理できます。  [Microsoft Teams でネットワーク プランナーを使用する方法](./network-planner.md)について説明します。
 
 [Skype for Business 向けにバックグラウンドで Teams アプリをダウンロードする] オプションも選択できます。  既定では、この設定は [オン] に設定されています。 この設定を有効にすると、Windows PC で Skype for Business アプリを実行しているユーザー向けに、バックグラウンドで Teams アプリがダウンロードされます。 この問題が発生するのは、ユーザーの [共存モード] が [チームのみ] になっているか、[保留中のアップグレード通知] が Skype for Business アプリで有効になっている場合です。
 

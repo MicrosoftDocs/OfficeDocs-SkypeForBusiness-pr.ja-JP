@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: この記事では、Microsoft Teams でチームをアーカイブする、または完全に削除する方法について説明します。
+description: この記事では、Microsoft Teams でチームをアーカイブまたは完全に削除する方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 334ecfdc387f1b3dd6d7f1312b90d81aee320df0
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: da2d330986ca2fd924df75e0fcae6fc4388c5d48
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46582764"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120839"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 ===========================================
@@ -40,22 +40,22 @@ ms.locfileid: "46582764"
 
 ## <a name="archive-a-team"></a>チームをアーカイブする
 
-チームをアーカイブするには、次の手順に従います。 これらの変更を行うには、Teams サービス管理者である必要があります。 「[チーム管理者ロールを使用してチームを管理する](https://docs.microsoft.com/microsoftteams/using-admin-roles)」を参照して、「管理者ロールと権限の取得」を参照してください。
+チームをアーカイブするには、次の手順に従います。 これらの変更を行うには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
-1. 管理センターで、[**チーム**] を選択します。
+1. 管理センターで **、[Teams] を選択します**。
 2. チーム名をクリックして、チームを選びます。
 3. [**アーカイブ**] を選びます。 次のメッセージが表示されます。
 
     ![Teams のアーカイブ メッセージのスクリーンショット](media/teams-archive-message.png)
 
-4. チームに関連付けられている SharePoint サイトと Wiki タブのコンテンツをユーザーが編集できないようにするには、[**チームメンバーに対して sharepoint サイトを読み取り**専用にする] を選択します。 (チームの所有者は、このコンテンツを引き続き編集できます)。
+4. ユーザーがチームに関連付けられている SharePoint サイトと Wiki タブのコンテンツを編集するのを防ぐには、[チーム メンバーに対して SharePoint サイトを読み取り専用にする] を **選択します**。 (Teams の所有者は、引き続きこのコンテンツを編集できます)。
 5. [**アーカイブ**] を選択して、チームをアーカイブします。 チームの状態が [**アーカイブ済み**] に変わります。
 
 ## <a name="make-an-archived-team-active"></a>アーカイブしたチームをアクティブにする
 
 次の手順に従って、アーカイブされているチームを再度アクティブにします。
 
-1. 管理センターで、[**チーム**] を選択します。
+1. 管理センターで **、[Teams] を選択します**。
 2. チーム名をクリックして、チームを選びます。
 3. [**アーカイブ解除**] を選択します。 チームの状態が [**アクティブ**] に変わります。
 
@@ -63,16 +63,16 @@ ms.locfileid: "46582764"
 
 今後チームが必要にならない場合、アーカイブではなく、削除することができます。 チームを削除するには、次の手順に従います。
 
-1.  管理センターで、[**チーム**] を選択します。
+1.  管理センターで **、[Teams] を選択します**。
 2.  チーム名をクリックして、チームを選びます。
 3.  [**削除**] を選びます。 確認メッセージが表示されます。
 4.  チームを完全に削除するには、[**削除**] を選択します。
 
 ## <a name="restore-a-deleted-team"></a>削除したチームを復元する
 
-チームに関連付けられている Microsoft 365 グループを復元して、削除されたチームを復元するには、次の手順を実行します。 チームの Microsoft 365 グループを復元すると、タブ、標準チャネル、プライベートチャネル、関連付けられたサイトコレクションなどのチームコンテンツが復元されます。
+チームに関連付けられている Microsoft 365 グループを復元して、削除されたチームを復元するには、次の手順を実行します。 チームの Microsoft 365 グループを復元すると、タブ、標準チャネル、プライベート チャネル、関連するサイト コレクションなどのチーム コンテンツが復元されます。
 
-既定では、削除された Microsoft 365 グループは30日間保持されます。 この 30 日の期間は、グループを復元できるため、「ソフト削除」と呼ばれます。 詳細については、「[削除したグループを復元](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group)する」を参照してください。
+既定では、削除された Microsoft 365 グループは 30 日間保持されます。 この 30 日の期間は、グループを復元できるため、「ソフト削除」と呼ばれます。 詳細については、「削除したグループ [を復元する」を参照してください](/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>AzureADPreview モジュールをインストールする
 
@@ -92,14 +92,14 @@ ms.locfileid: "46582764"
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>削除された Microsoft 365 グループを復元する
+### <a name="restore-the-deleted-microsoft-365-group"></a>削除した Microsoft 365 グループを復元する
 
 1. Azure AD に接続するには、次の操作を実行します。
     ```PowerShell
     Connect-AzureAD
     ```
     メッセージが表示されたら、管理者アカウントとパスワードを使用してサイン インします。  
-2. 次を実行して、30日の保持期間内のすべてのソフト削除された Microsoft 365 グループの一覧を表示します。 多数のグループがある場合は、**-All $True** パラメーターを使用します。
+2. 次の手順を実行して、回復可能な削除によって削除された Microsoft 365 グループの一覧を表示し、30 日間の保持期間を維持します。 多数のグループがある場合は、**-All $True** パラメーターを使用します。
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```

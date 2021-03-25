@@ -21,17 +21,17 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 通話品質ダッシュボード Power BI レポートを使用して、通話履歴データと通話自動応答を表示する方法について説明します。
-ms.openlocfilehash: ee54941150a5ba4ade64d6a54cb066f50df2e0a8
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+description: 通話品質ダッシュボード Power BI レポートを使用して、通話品質ダッシュボードの履歴データ自動応答を表示する方法について説明します。
+ms.openlocfilehash: d3c8bd7181bab9ee7c199aedbac8a6fcc4c78d75
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196241"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121545"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動応答 & キューの履歴レポート
 
-CQD Teams 自動応答 &通話キューの履歴レポート Power BI テンプレートには、次の 3 つのレポートが含まれます。
+CQD Teams 自動応答 &通話キューの履歴レポート Power BI テンプレートには、次の 3 つのレポートがあります。
 
 - 自動応答 – 自動応答に着信する通話の分析を表示します。
 - 通話キュー – 通話キューに着信する通話の分析を示します。
@@ -47,7 +47,7 @@ Power BI Desktop がインストールされている必要があります。 Mi
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>CQD パイプラインへのアクセス許可
 
-CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQD データ パイプラインへのアクセス許可が必要です。 詳細については [、CQD アクセスの役割](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) を参照してください。
+CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQD データ パイプラインへのアクセス許可が必要です。 詳細については [、CQD アクセスの役割](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) を参照してください。
 
 ## <a name="installation"></a>インストール 
 
@@ -96,7 +96,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 
 ### <a name="change-color-schema"></a>色のスキーマを変更する 
 
-次の手順では、インストール手順を既に完了している必要があります。
+次の手順は、インストール手順を既に完了しているユーザーを想定しています。
 
 次の手順を実行してください。
 - リボンの **[表示]** タブを選択します。
@@ -116,9 +116,9 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |自動応答ディレクトリの検索方法  |文字列                   |最後のアドレス帳の検索方法        |
 |自動応答転送アクション          |文字列                   |通話転送ターゲットの種類<br>使用できる値:<br>§ unknown - エンティティの種類が指定されていません<br>§ ユーザー - ユーザー エンティティ<br>§ orgaa - 組織自動応答エンティティ<br>§ hunt_group - 通話キュー エンティティ<br>§ アプリケーション - 音声アプリケーション エンティティ<br>§ external_pstn - 外部 PSTN エンティティ<br>§ shared_voicemail - 共有ボイスメール エンティティ|
 |自動応答結果を表示する              |文字列                   |呼び出し結果:<br>§ unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|自動応答 コール フロー                |文字列                   |通話の異なる状態をカプセル化自動応答します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ お知らせ|
+|自動応答コール フロー                |文字列                   |通話の異なる状態をカプセル化自動応答します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ お知らせ|
 |関与自動応答か              |Boolean                  |AA が通話に関与したかどうかを示す |
-|自動応答呼び出し元のアクション カウント      |int                      |呼び出し元による使用されるアクションの数         |
+|自動応答呼び出し元のアクション数      |int                      |呼び出し元による使用されるアクションの数         |
 |自動応答チェーンデュレーション秒   |int                      |AA での通話の継続時間                 |
 |通話キューの呼び出し結果                  |文字列                   |通話キュー呼び出しの最終状態<br>使用できる値:<br>§ エラー<br>§ 拒否<br>§ overflown<br>§ failed<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
 |通話キューの最終状態アクション           |文字列                   |通話キューの最終アクション<br>使用できる値:<br>§ forward<br>§ 切断<br>§ ボイスメール<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ other|
@@ -168,8 +168,8 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |:---------------------------------------|:--------------------------------------|
 |着信通話ソース                    |内部/外部通話ソース別の通話<sup>の配布 1</sup>|
 |ディレクトリ検索方法の合計          |検索の種類別の通話の分布                         |
-|呼び出し元の操作                           |通話受信者による通話の分布                       |
-|呼び出し結果                             |最終通話状態による通話の分布                    |
+|呼び出し元の操作                           |通話受信者別の通話の分布                       |
+|呼び出しの結果                             |最終通話状態による通話の分布                    |
 |呼び出し元のアクション数                     |通話中に使用される番号アクションによる通話の配布  |
 
 
@@ -183,7 +183,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |タイムアウト/オーバーフロー呼び出し合計アクション      |呼び出し結果による NOT Forwarded(破棄) 呼び出しの分布   |
 |転送/転送先の合計          |呼び出し結果によって転送された通話の配布                  |
 |放棄された通話の比率                   |終了した通話数に対する成功率                    |
-|平均セッションの長さ (秒)        |通話の長さ (秒) を放棄/成功した通話でグループ化   |
+|平均セッションの長さ (秒)        |呼び出しの長さ (秒) を放棄/成功した通話でグループ化   |
 
 
 

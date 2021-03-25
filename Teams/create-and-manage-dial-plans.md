@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Microsoft Teams 管理センターまたはサービス プロバイダーを使用して、Windows PowerShell (PSTN 通話ダイヤル プラン) を作成および管理する方法について説明します。
-ms.openlocfilehash: 8e1d3a102d762bef29ecd3af7998646239b5f0c2
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: Microsoft Teams 管理センターまたはサービス プロバイダーを使用して、ダイヤル Windows PowerShell (PSTN 通話ダイヤル プラン) を作成および管理する方法について説明します。
+ms.openlocfilehash: 0b2c8c64d1e4e01843c6565d43a07e0ebdb24d71
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569259"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120809"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -36,7 +36,7 @@ ms.locfileid: "50569259"
 
 ### <a name="create-a-dial-plan"></a>ダイヤル プランを作成する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[Voice Dial プラン **] に**  >  **移動します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、Voice Dial プラン **に**  >  **移動します**。
 2. [ **追加]** をクリックし、ダイヤル プランの名前と説明を入力します。
     ![ダイヤル プランを作成するための [追加] ページを示すスクリーンショット](media/create-dial-plan.png)
 3. ユーザー **が 1** つ以上の追加の先頭の数字 (9 など) をダイヤルして外部回線を取得する必要がある場合は、[ダイヤル プランの詳細] で、外部ダイヤル プレフィックスを指定します。 その手順は次のとおりです。
@@ -56,7 +56,7 @@ ms.locfileid: "50569259"
 
 ### <a name="edit-a-dial-plan"></a>ダイヤル プランを編集する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[Voice Dial プラン **] に**  >  **移動します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、Voice Dial プラン **に**  >  **移動します**。
 2. ダイヤル プラン名の左側をクリックしてダイヤル プランを選び、[編集] をクリック **します**。
 3. 必要な変更を行い、[保存] をクリック **します**。
 
@@ -89,7 +89,7 @@ ms.locfileid: "50569259"
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    その他の例とパラメーターについては、「[New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan)」をご覧ください。
+    その他の例とパラメーターについては、「[New-CsTenantDialPlan](/powershell/module/skype/new-cstenantdialplan)」をご覧ください。
     
 - 既存のダイヤル プランの設定を編集するには、次を実行します。
     
@@ -98,7 +98,7 @@ ms.locfileid: "50569259"
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    その他の例とパラメータについては、「[Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan)」をご覧ください。
+    その他の例とパラメータについては、「[Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan)」をご覧ください。
     
 - ユーザーをダイヤル プランに追加するには、次を実行します。
     
@@ -106,7 +106,7 @@ ms.locfileid: "50569259"
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    その他の例とパラメータについては、「[Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan)」をご覧ください。
+    その他の例とパラメータについては、「[Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan)」をご覧ください。
     
 - ダイヤル プランの設定を表示するには、次を実行します。
     
@@ -114,7 +114,7 @@ ms.locfileid: "50569259"
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    その他の例とパラメータについては、「[Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps)」をご覧ください。
+    その他の例とパラメータについては、「[Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan?view=skype-ps)」をご覧ください。
     
 - ダイヤル プランを削除するには、次を実行します。
     
@@ -122,7 +122,7 @@ ms.locfileid: "50569259"
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    その他の例とパラメータについては、「[Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)」をご覧ください。
+    その他の例とパラメータについては、「[Remove-CsTenantDialPlan](/powershell/module/skype/remove-cstenantdialplan?view=skype-ps)」をご覧ください。
     
 - 有効なダイヤル プランの設定を表示するには、次を実行します。
     
@@ -130,7 +130,7 @@ ms.locfileid: "50569259"
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    その他の例とパラメータについては、「[Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan)」をご覧ください。
+    その他の例とパラメータについては、「[Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan)」をご覧ください。
     
 - ダイヤル プランの有効な設定をテストするには、次を実行します。
     
@@ -138,7 +138,7 @@ ms.locfileid: "50569259"
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    その他の例とパラメータについては、「[Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)」をご覧ください。
+    その他の例とパラメータについては、「[Test-CsEffectiveTenantDialPlan](/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps)」をご覧ください。
     
 #### <a name="using-a-powershell-script"></a>PowerShell スクリプトの使用
 
@@ -187,7 +187,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-このコマンドを実行して、HostingProvider を持つすべてのユーザーから割り当てられている TenantDialPlan を削除sipfed.online.lync.com。
+このコマンドを実行して、割り当てられている TenantDialPlan を、他のユーザーの HostingProvider を持つすべてのユーザーから削除 sipfed.online.lync.com。
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```
@@ -220,7 +220,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
 ## <a name="related-topics"></a>関連項目
 
 - [ダイヤル プランについて](what-are-dial-plans.md)
-- [電話番号の移行に関するよくある質問](transferring-phone-numbers-common-questions.md)
+- [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話の利用条件](emergency-calling-terms-and-conditions.md)

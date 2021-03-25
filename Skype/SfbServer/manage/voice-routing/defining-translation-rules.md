@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype for Business Server エンタープライズ VoIP E.164 形式に正規化された電話番号に基づいて通話をルーティングします。 つまり、逆引き番号検索 (RNL) を実行して対応する SIP URI に変換するために、すべてのダイヤルされた文字列を E.164 形式に正規化する必要があります。 Skype for Business Server は、呼び出された ID と発信者番号のプレゼンテーションを操作する機能を提供します。
-ms.openlocfilehash: f4d0ab4fc30507fb5d247e072b3fdff8904f2ff3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server エンタープライズ VoIP E.164 形式に正規化された電話番号に基づいて通話をルーティングします。 つまり、逆引き番号参照 (RNL) を実行するために、ダイヤルされた文字列はすべて E.164 形式に正規化する必要があります。そのため、一致する SIP URI に変換できます。 Skype for Business Server は、呼び出された ID と発信者 ID プレゼンテーションを操作する機能を提供します。
+ms.openlocfilehash: f3a37a48ec2e4497d644e2051a6e6d37ccef9707
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823367"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120909"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Skype for Business Server での変換ルールの定義
 
-Skype for Business Server エンタープライズ VoIP E.164 形式に正規化された電話番号に基づいて通話をルーティングします。 つまり、逆引き番号検索 (RNL) を実行して対応する SIP URI に変換するために、すべてのダイヤルされた文字列を E.164 形式に正規化する必要があります。 Skype for Business Server は、呼び出された ID と発信者番号のプレゼンテーションを操作する機能を提供します。
+Skype for Business Server エンタープライズ VoIP E.164 形式に正規化された電話番号に基づいて通話をルーティングします。 つまり、逆引き番号参照 (RNL) を実行するために、ダイヤルされた文字列はすべて E.164 形式に正規化する必要があります。そのため、一致する SIP URI に変換できます。 Skype for Business Server は、呼び出された ID と発信者 ID プレゼンテーションを操作する機能を提供します。
 
-Skype for Business Server では、呼び出し側の電話番号 (つまり、呼び出された電話番号) を E.164 形式から、トランク ピア (つまり、関連付けられたゲートウェイ、PBX (PBX)、または SIP トランク) で必要なローカルダイヤル形式に変換できます。 これを行うためには、トランク ピアへのルーティングの前に要求 URI を変換する変換ルールを 1 つ以上定義する必要があります。
+Skype for Business Server では、呼び出し側の電話番号 (つまり、呼び出された電話番号) を E.164 形式から、トランク ピア (関連付けられたゲートウェイ、プライベート ブランチ 交換 (PBX)、または SIP トランク) で必要なローカル ダイヤル形式に変換できます。 これを行うためには、トランク ピアへのルーティングの前に要求 URI を変換する変換ルールを 1 つ以上定義する必要があります。
 
 ## <a name="caller-id-presentation"></a>発信者番号のプレゼンテーション
 
-Skype for Business Server には、発信者の電話番号 (発信者が発信元の電話番号) を E.164 形式からトランク ピアで必要なローカルダイヤル形式に変換するオプションも用意されています。 たとえば、ダイヤル文字列の冒頭から +44 を取り除いて 0114 に置き換える変換ルールを記述できます。
+Skype for Business Server には、発信者の電話番号 (発信者が呼び出している電話番号) を E.164 形式からトランク ピアで必要なローカル ダイヤル形式に変換するオプションも用意されています。 たとえば、ダイヤル文字列の冒頭から +44 を取り除いて 0114 に置き換える変換ルールを記述できます。
 
-**Skype for Business Server コントロール パネルを使用して発信者番号を構成するには**
+**Skype for Business Server コントロール パネルを使用して発信者 ID を構成するには**
 
-1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「セットアップの [アクセス許可の委任」を参照してください](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx)。
-2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 Skype for Business コントロール パネルを起動するために使用できるさまざまな方法の詳細については、「管理ツールをインストールして開く [」を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
+1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「セットアップの [アクセス許可を委任する」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
+2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 Skype for Business コントロール パネルを起動するために使用できるさまざまな方法の詳細については、「管理ツールのインストールと開く [」を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
 3. 左側のナビゲーション バーで [**音声ルーティング**] をクリックし、[**トランク構成**] をクリックします。
 4. [トランク構成] ページで、既存のトランク (たとえば [**グローバル**] トランク) をダブルクリックして [**編集トランク構成**] ダイアログ ボックスを表示します。
 5. 発信者番号のプレゼンテーションを構成するには、次のようにします。
     - エンタープライズ VoIP 展開で利用できるすべての変換ルールの一覧から 1 つ以上のルールを選択するには、**[選択]** をクリックします。 [**発信者番号の変換ルール**] で、トランクに関連付けるルールをクリックし、[**OK**] をクリックします。
     - 新しい変換ルールを定義してトランクに関連付ける場合は、[**新規**] をクリックします。 
     - 既にトランクに関連付けられている変換ルールを編集するには、ルールの名前をクリックして、[**詳細の表示**] をクリックします。
-    - 新しいルールを定義するための開始点として使用する既存の変換ルールをコピーするには、ルール名をクリックし、[コピー]をクリックして、[貼り付け] をクリック **します**。
+    - 新しいルールを定義するための開始点として使用する既存の変換ルールをコピーするには、ルール名をクリックし、[コピー]をクリックし、[貼り付け] を **クリックします**。
     - トランクから変換ルールを削除するには、ルールの名前を選択状態にし、[**削除**] をクリックします。
 
 > [!Warning] 
@@ -51,30 +51,30 @@ Skype for Business Server には、発信者の電話番号 (発信者が発信�
 
 次のいずれかの方法を使用して、変換ルールを作成または変更できます。
 
-- [](#create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool)変換ルールの作成ツールを使用して、開始番号、長さ、削除する数字、追加する数字の値を指定し、Skype for Business Server コントロール パネルで対応する一致パターンと変換ルールを生成します。
-- [正規表現を手動で記述して](#create-or-modify-a-translation-rule-manually) 、一致パターンと変換ルールを定義します。
+- [](#create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool) [変換ルールの作成] ツールを使用して、削除する開始数字、長さ、数字、追加する数字の値を指定し、Skype for Business Server コントロール パネルで対応する一致パターンと変換ルールを生成します。
+- [正規表現を手動で記述して](#create-or-modify-a-translation-rule-manually) 、一致するパターンと変換ルールを定義します。
 
 > [!Note]
-> 正規表現を記述する方法の詳細については [、「.NET Framework の正規表現」を参照してください](https://go.microsoft.com/fwlink/p/?linkId=140927)。 
+> 正規表現の記述方法については、「正規表現」を参照 [.NET Frameworkしてください](/dotnet/standard/base-types/regular-expressions)。 
 
-### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>変換ルールの作成ツールを使用して変換ルールを作成または変更する
+### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>[翻訳ルールの作成] ツールを使用して翻訳ルールを作成または変更する
 
-変換ルールの作成ツールで値のセットを入力し、Skype for Business Server コントロール パネルを有効にし、対応する一致パターンと変換ルールを生成することで、変換ルールを定義する場合は、次の手順を実行します。 
+変換ルールを定義する場合は、次の手順に従って、[変換ルールの作成] ツールに値のセットを入力し、Skype for Business Server コントロール パネルで対応する一致パターンと変換ルールを生成できます。 
 
 **変換ルールの構築ツールを使用してルールを定義するには**
 
-1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「セットアップの [アクセス許可の委任」を参照してください](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx)。
-2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 Skype for Business コントロール パネルを起動するために使用できるさまざまな方法の詳細については、「管理ツールをインストールして開く [」を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
-3. 変換ルールの定義を開始するには、「Configure a [trunk with media bypass](GET LINK AFTER MIGRATION)through step 10」または [「Configure a trunk without media bypass through](GET LINK AFTER MIGRATION) step 9」の手順に従います。
+1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「セットアップの [アクセス許可を委任する」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
+2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 Skype for Business コントロール パネルを起動するために使用できるさまざまな方法の詳細については、「管理ツールのインストールと開く [」を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
+3. 変換ルールの定義を開始するには、「手順 10 でメディア バイパスを使用してトランクを構成[](GET LINK AFTER MIGRATION)する」または「手順 9 でメディア バイパスなしでトランクを構成する」の手順に従います。 [](GET LINK AFTER MIGRATION)
 4. [**新しい変換ルール**] ページまたは [**変換ルールの編集**] ページの [**名前**] に、変換対象の番号パターンを説明する名前を入力します。
-5. (省略可能)[**説明]** に、変換ルールの説明を入力します (例:**米国国際長距離ダイヤル)。**
+5. (省略可能)[ **説明]** に、翻訳ルールの説明を入力します。たとえば、 **米国の国際** 長距離ダイヤルです。
 6. ダイアログ ボックスの [**変換ルールの構築**] セクションの次のフィールドに値を入力します。
     - [**開始番号**]: (オプション) パターンに一致させる番号の先頭の番号を入力します。 たとえば、+ で開始される E.164 形式の番号に一致させるには、このフィールドに「+」を入力します。
     - [**長さ**]: 一致パターンの桁数を指定し、パターンをこの長さと同じ桁数の番号に一致させるか、この長さ以上の番号に一致させるか、どの長さの番号にも一致させるかを選択します。 たとえば、**[11]** と入力してドロップダウン リストで **[最少]** を選択すると、最低でも 11 桁の長さの番号に一致されます。
     - [**削除する番号**]: (オプション) 開始番号から削除する桁数を指定します。 たとえば、「**1**」と入力すると、番号の先頭から + が削除されます。
     - [**追加する番号**]: (オプション) 変換済みの番号の先頭に追加する番号を指定します。 たとえば、ルール適用時、変換済みの番号の先頭に 011 を追加したい場合は、「**011**」と入力します。
     
-    これらのフィールドに入力した値は、[一致するパターン] フィールドと [変換ルール **]** フィールド **に** 反映されます。 たとえば、前の例の値を指定した場合 **、Pattern to matc** h フィールドの結果の正規表現は次のようになります。
+    これらのフィールドに入力した値は、[一致するパターン] フィールドと [変換ルール] フィールド **に** 反映されます。 たとえば、前の例の値を指定すると、[パターンから **matc** へ] h フィールドの結果の正規表現は次のようになります。
     
     **^\+(\d {9} \d+)$** 
 
@@ -87,31 +87,31 @@ Skype for Business Server には、発信者の電話番号 (発信者が発信�
     この変換ルールを適用すると、+441235551010 が 011441235551010 になります。
 7. [**OK**] をクリックして変換ルールを保存します。
 8. [**OK**] をクリックしてトランク構成を保存します。
-9. [トランク **構成] ページで、[** コミット] **をクリックし**、[すべて確定] **をクリックします**。 
+9. [トランク **の構成] n** ページで、[コミット] をクリックし、[すべてコミット]**をクリックします**。 
 
 > [!Note]
-> 変換ルールを作成または変更したときは必ず、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「音声ルーティング [構成に保留中の変更を公開する」を参照してください](https://technet.microsoft.com/library/gg413088(v=ocs.15).aspx)。 
+> 変換ルールを作成または変更したときは必ず、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「音声ルーティング [構成に保留中の変更を発行する」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration)。 
 
-### <a name="create-or-modify-a-translation-rule-manually"></a>変換ルールを手動で作成または変更する
+### <a name="create-or-modify-a-translation-rule-manually"></a>翻訳ルールを手動で作成または変更する
 
 一致するパターンおよび変換ルールの正規表現を書いて変換ルールを定義する場合は、次の手順を実行します。 
 
 **変換ルールを手動で定義するには**
 
-1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「セットアップの [アクセス許可の委任」を参照してください](https://technet.microsoft.com/library/gg412735(v=ocs.15).aspx)。
-2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 Skype for Business コントロール パネルを起動するために使用できるさまざまな方法の詳細については、「管理ツールをインストールして開く [」を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
-3. 変換ルールの定義を開始するには、「Configure a [trunk with media bypass](GET LINK AFTER MIGRATION)through step 10」または [「Configure a trunk without media bypass through](GET LINK AFTER MIGRATION) step 9」の手順に従います。
+1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。 詳細については、「セットアップの [アクセス許可を委任する」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
+2. ブラウザー ウィンドウを開き、管理 URL を入力してコントロール パネルを開きます。 Skype for Business コントロール パネルを起動するために使用できるさまざまな方法の詳細については、「管理ツールのインストールと開く [」を参照してください](../../management-tools/install-and-open-administrative-tools.md)。
+3. 変換ルールの定義を開始するには、「手順 10 でメディア バイパスを使用してトランクを構成[](GET LINK AFTER MIGRATION)する」または「手順 9 でメディア バイパスなしでトランクを構成する」の手順に従います。 [](GET LINK AFTER MIGRATION)
 4. [**新しい変換ルール**] ページまたは [**変換ルールの編集**] ページの [**名前**] フィールドに、変換対象の番号パターンを説明する名前を入力します。
-5. (省略可能)[ **説明]** に変換ルールの説明を入力します。たとえば、 **米国国際長距離ダイヤルです**。
+5. (省略可能)[ **説明]** に、翻訳ルールの説明を入力します。たとえば、 **米国の国際長距離ダイヤル** です。
 6. [**変換ルールの構築**] セクションの一番下にある [**編集**] をクリックします。
-7. [正規表現の入力] に次を **入力します**。
+7. [正規表現の入力] に次の **値を入力します**。
     - [**このパターンと一致**] に、変換する番号を照合するために使用するパターンを指定します。
     - [**変換ルール**] に、変換される番号の形式のパターンを指定します。
 
-    たとえば、このパターンと一致するパターンに **^ \+ (\d {9} \d+)$** を入力し、変換ルールに **011$1** を入力すると、ルールは +441235551010 を 011441235551010 に変換します。
+    たとえば、[このパターンの一致] に **^ \+ (\d {9} \d+)$** と入力し、変換ルールに **011$1** を入力すると、ルールは +441235551010 から 011441235551010 に変換されます。
 8. [**OK**] をクリックして変換ルールを保存します。
 9. [**OK**] をクリックしてトランク構成を保存します。
 10. [**トランク構成**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。 
 
 > [!Note] 
-> 変換ルールを作成または変更したときは必ず、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「音声ルーティング [構成に保留中の変更を公開する」を参照してください](https://technet.microsoft.com/library/gg413088(v=ocs.15).aspx)。 
+> 変換ルールを作成または変更したときは必ず、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「音声ルーティング [構成に保留中の変更を発行する」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration)。

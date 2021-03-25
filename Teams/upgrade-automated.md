@@ -1,5 +1,5 @@
 ---
-title: 自動アップグレード |Skype Business から Teams へのアップグレード
+title: 自動アップグレード|Skype Business から Teams へのアップグレード
 author: serdarsoysal
 ms.author: billkau
 manager: serdars
@@ -18,54 +18,53 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b42785d4f8d765e7d9600c2e195e48d7ec60d8ba
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: cb3fef455e4031c61b6769e114d9cbd1d8bd3805
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780656"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120545"
 ---
 # <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Skype for Business Online から Microsoft Teams への自動アップグレード
 
-Microsoft は、小規模企業が2021年7月31日までに Skype for Business Online からの移行を成功させるために、チームの自動化されたアップグレードを提供しています。 自動アップグレードでは、ユーザーが必要とする技術タスクの数が減り、組織の準備、ユーザーの意識、チームのトレーニングに重点を置くことができます。
+Microsoft では、2021 年 7 月 31 日のサービス終了前に小規模企業が Skype for Business Online から移行を成功させるのに役立つ、Teams への自動アップグレードを提供しています。 自動アップグレードにより、顧客に必要な技術的なタスクの数が減り、組織の準備、ユーザーの認識、および Teams のトレーニングに集中できます。
 
-Skype for Business から Microsoft Teams へのアップグレードを成功させるには、技術とユーザーの準備を計画する必要があります。 始める準備ができたら、Skype for Business から Teams への正常な移行を実現するために、主要な推奨アクティビティと関連リソースを備えた[アップグレードアクションプラン](upgrade-basic.md)が提供されます。
+Skype for Business から Microsoft Teams にアップグレードするには、技術的な準備とユーザーの準備を計画する必要があります。 使用を開始する準備ができたら、Microsoft は、Skype [](upgrade-basic.md) for Business から Teams への移行を正常に実装するための主要な推奨アクティビティと関連リソースを扱うアップグレード アクション プランを提供します。
 
-## <a name="notifications-for-scheduled-customers"></a>スケジュールされているお客様への通知
+## <a name="notifications-for-scheduled-customers"></a>スケジュール済み顧客への通知
 
-Teams への自動アップグレードの対象となる Skype for Business Online のお客様は、スケジュールされたアップグレード日の30日前に、一連のアップグレード通知を受け取ります。 これらの通知は、管理メッセージセンターの投稿を*変更する計画*、グローバル管理者にメールをアップグレードする計画、およびアプリ内フラグをエンドユーザーにアップグレードする計画として提供されます。
+Teams への自動アップグレードの対象となる Skype for Business Online のお客様は、スケジュールされているアップグレード日の 30 日前から一連のアップグレード通知を受け取ります。 これらの通知は、管理メッセージセンターでの変更計画の投稿として配信され、メールをグローバル管理者にアップグレードし、アプリ内フラグをエンド ユーザーにアップグレードします。
 
-これらの通知は、自動アップグレードのスケジュールされた日付を伝達し、チームの導入と使用に役立つようにアップグレードのリソースとトレーニングにリンクします。また、スケジュールされた日付でアップグレードの準備ができていない場合は、自動的にアップグレードを延期するオプションをユーザーに提供します。
+これらの通知は、自動アップグレードのスケジュールされた日付を通知し、Teams の導入と使用を促進するためにリソースとトレーニングをアップグレードするためのリンクを提供し、スケジュールされた日付までにアップグレードする準備ができていない場合に、自動アップグレードを 30 日延期するオプションをユーザーに提供します。
 
-## <a name="the-automated-upgrade-experience"></a>自動アップグレード操作
+## <a name="the-automated-upgrade-experience"></a>自動アップグレードエクスペリエンス
 
-自動アップグレードは、通知メール、メッセージセンター、および Teams 管理ポータルで伝達される、スケジュールされたアップグレード日に実行されます。 アップグレードには約15分かかります。これにより、エンドユーザーは引き続き Skype for Business Online の機能にアクセスできます。 アップグレードが完了して、ユーザーが Skype for Business Online をログアウトした場合、ユーザーは、メッセージング、会議、通話にチームを使用できます。
+自動アップグレードは、通知メール、メッセージ センター、Teams 管理ポータルで通知される、スケジュールされたアップグレード日に実行されます。 アップグレードには約 15 分かかりますが、エンド ユーザーは Skype for Business Online の機能に引き続きアクセスできます。 アップグレードが完了し、ユーザーが Skype for Business Online をログアウトすると、ユーザーはメッセージング、会議、通話にのみ Teams を使用できます。
 
-## <a name="the-post-upgrade-experience"></a>アップグレード後の操作
+## <a name="the-post-upgrade-experience"></a>アップグレード後のエクスペリエンス
 
-自動アップグレードが完了すると、[**共存] モード**は [Teams のみ] に設定され、Microsoft が別の共存モードに変更することのみができます。 管理者は、アップグレード前に[チーム専用モードの考慮事項](teams-only-mode-considerations.md)を確認する必要があります。 次の表は、Teams のみのユーザーエクスペリエンスの概要を示しています。
+自動アップグレードが完了すると、共存モードはTeams のみに設定され、Microsoft によって異なる共存モードにしか変更できません。 管理者は、アップグレード前 [に Teams のみモードに関する考慮事項](teams-only-mode-considerations.md) を確認する必要があります。 次の表は、Teams のユーザー エクスペリエンスの概要を示しています。
 
 
 |  |  |
 |---------|---------|
-|**チャットと通話**     | <UL><LI>すべての通話とチャットは、Teams で開始および受信されます。<LI>ユーザーは、任意の Skype for Business ユーザーとの相互運用 (チャット/通話) を行うことができます<LI>ユーザーが Skype for Consumer を使用しているユーザーと通信できない<LI>ユーザーが Skype for Business にサインインしようとすると、Teams にリダイレクトされます。      </UL>  |
-|**会議**     |  <UL><LI>ユーザーが Teams ですべての新しい会議をスケジュールする (プラグインは置き換えられる)    </UL>   |
-|**移行されたデータ**     |<UL><LI>フェデレーションを含む、Skype for Business からの既存の連絡先 (ただし、配布リストはありません)<LI>既存の Skype for Business 会議 (オンプレミスとオンラインの両方) が Teams 会議に変換されます</UL>         |
+|**チャットと通話**     | <UL><LI>すべての通話とチャットが Teams で開始および受信される<LI>ユーザーは Skype for Business ユーザーと相互運用 (チャット/通話) できます<LI>ユーザーが Skype for Consumer を使用しているユーザーと通信できない<LI>ユーザーが Skype for Business にサインインしようとして Teams にリダイレクトされる      </UL>  |
+|**会議**     |  <UL><LI>ユーザーが Teams ですべての新しい会議をスケジュールする (プラグインが置き換えられる)    </UL>   |
+|**移行されたデータ**     |<UL><LI>フェデレーションを含む Skype for Business の既存の連絡先 (配布リストは含め)<LI>既存の Skype for Business 会議 (オンプレムとオンラインの両方) が Teams 会議に変換される</UL>         |
 
-## <a name="postponing-your-automated-upgrade"></a>自動アップグレードの延期
+## <a name="postponing-your-automated-upgrade"></a>自動アップグレードを延期する
 
-Skype for Business Online から Microsoft Teams への正常な移行には、チームの拡張された機能とパフォーマンスを活用できるように、組織での計画とユーザーの準備が必要です。 ただし、アップグレードを計画しているときに、現時点で組織が Teams にアップグレードする準備がまだ整っていない可能性があります。
+Skype for Business Online から Microsoft Teams への移行に成功するには、組織が Teams の拡張された機能とパフォーマンスを利用するための準備が完了するために、技術的な計画とユーザーの準備が必要です。 ただし、アップグレードを計画する場合、現時点では組織が Teams にアップグレードする準備ができていない場合があります。
 
-チームへのスケジュールされた自動アップグレードに関する通知を受け取ったときに、後日延期したい場合は、グローバル管理者が Teams 管理ポータルにログインし、[*延期*] ボタンをクリックします。 これにより、自動アップグレード日が30日後に表示されます。 延期後に Teams 管理ポータルを更新すると、新しい自動アップグレードの日付を含む通知が表示されます。
+Teams への自動アップグレードのスケジュールに関する通知を受け取り、後日に延期したい場合、グローバル管理者は Teams 管理ポータルにログインし、[延期]ボタンをクリックできます。 これにより、自動アップグレードの日付が 30 日後にプッシュされます。 延期後に Teams 管理ポータルを更新すると、新しい自動アップグレード日を含む通知が表示されます。
 
 ## <a name="requests-to-downgrade-to-skype-for-business"></a>Skype for Business へのダウングレード要求
 
-Teams から SfBO への1回限りのダウングレードを許可し、テナントが Teams へのアップグレードを準備できるようにします。 ダウングレードされたテナントは、ダウングレード日から自動的にアップグレードされた60日間に再参加することになります。
+Teams から SfBO への 1 回のダウングレードを許可し、テナントが Teams へのアップグレードの準備をさらに行うのを許可します。 ダウングレードされたテナントは、ダウングレード日から 60 日後に自動アップグレードに再び参加します。
 
 ## <a name="related-content"></a>関連コンテンツ
 
 - [Microsoft Teams へのアップグレードを開始する](upgrade-start-here.md)
 - [Skype for Business Online のサポート終了](skype-for-business-online-retirement.md)
-- [Get-CsTeamsUpgradeStatus](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradestatus?view=skype-ps)
+- [Get-CsTeamsUpgradeStatus](/powershell/module/skype/get-csteamsupgradestatus?view=skype-ps)
 - [Teams Only モードの考慮事項](teams-only-mode-considerations.md)
-

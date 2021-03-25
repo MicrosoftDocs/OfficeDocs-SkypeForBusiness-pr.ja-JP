@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d51aba578de4dc5245a8d9459b160e5743b786a5
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: 60fabc107ba684afdf32c4eeeb0351f12dec883e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867116"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120638"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft Teams と統合された Moodle のインストール
 
@@ -41,7 +41,7 @@ IT 管​​理者がこの統合を簡単に設定できるように、オー�
 * 同期された各チームへの Moodle タブと Moodle アシスタント ボットの自動インストール。 (近日公開予定)
 * Moodle アプリをプライベート Teams App Store にワンクリックで公開します。 (近日公開予定)
 
-この統合で提供される機能の詳細については、「Moodle と Microsoft Teams との統合のインストール」 [を参照してください](https://docs.microsoft.com/microsoftteams/platform/resources/moodleinstructions)。
+この統合で提供される機能の詳細については、「Moodle と Microsoft Teams との統合のインストール」 [を参照してください](/microsoftteams/platform/resources/moodleinstructions)。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -176,7 +176,7 @@ Microsoft Teams 用の無料の Moodle アシスタント ボットは、教師�
 
 ボットを Azure に展開し、Moodle サーバーと通信するように構成したので、Microsoft Teams アプリを展開します。 これを行うには、前の手順で Moodle プラグインの [Teams 設定] ページからダウンロードしたマニフェスト ファイルを読み込みます。
 
-アプリをインストールする前に、外部アプリとアプリのサイドロードが有効になっていることを確認する必要があります。 これを行うには、[これらの手順](https://docs.microsoft.com/MicrosoftTeams/admin-settings)に従います。 外部アプリが有効になっていることを確認したら、以下の手順に従ってアプリを展開できます。
+アプリをインストールする前に、外部アプリとアプリのサイドロードが有効になっていることを確認する必要があります。 これを行うには、[これらの手順](./admin-settings.md)に従います。 外部アプリが有効になっていることを確認したら、以下の手順に従ってアプリを展開できます。
 
 1. Microsoft Teams を開きます。
 2. ナビゲーション バー **の** 左下にある [ストア] アイコンをクリックします。

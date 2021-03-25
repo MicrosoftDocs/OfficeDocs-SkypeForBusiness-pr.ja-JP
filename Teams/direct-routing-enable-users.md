@@ -16,14 +16,14 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft Phone System Direct Routing を有効にする方法について説明します。
-ms.openlocfilehash: 972bd8d5e01a050a67978560b8de272439fda40d
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 858b9073106945d414c2dbe56a16e6cecd104ee7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421312"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122221"
 ---
-# <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>ユーザーに直接ルーティング、音声、ボイスメールを有効にする
+# <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>直接ルーティング、音声、ボイスメールのユーザーを有効にする
 
 この記事では、ユーザーが電話システムダイレクト ルーティングを有効にする方法について説明します。  これは、ダイレクト ルーティングを構成するための次の手順の手順 2 です。
 
@@ -46,7 +46,7 @@ ms.locfileid: "50421312"
 
 Microsoft 365 または Office 365 で新しいユーザーを作成するには、2 つのOfficeがあります。 ただし、ルーティングの問題を回避するには、組織で 1 つのオプションを選択する必要があります。 
 
-- オンプレミスの Active Directory でユーザーを作成し、ユーザーをクラウドと同期します。 「 [オンプレミスのディレクトリを Azure Active Directory と統合する」を参照してください](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect)。
+- オンプレミスの Active Directory でユーザーを作成し、ユーザーをクラウドと同期します。 「 [オンプレミスのディレクトリを Azure Active Directory と統合する」を参照してください](/azure/active-directory/connect/active-directory-aadconnect)。
 - Microsoft 365 管理センターでユーザーを直接作成します。 「Microsoft [365 または Office 365](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)にユーザーを個別または一括で追加する - 管理者向けヘルプ」を参照してください。 
 
 Skype for Business Online 展開が Skype for Business 2015 または Lync 2010 または 2013 オンプレミスと共存している場合、サポートされる唯一のオプションは、オンプレミスの Active Directory でユーザーを作成し、ユーザーをクラウドと同期することだけです (オプション 1)。 
@@ -55,7 +55,7 @@ Skype for Business Online 展開が Skype for Business 2015 または Lync 2010 
 
 ## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>ユーザーがオンラインで自宅にいて、電話番号がオンプレミスから同期されていない (Skype for Business Server エンタープライズ VoIP でユーザーを Teams ダイレクト ルーティングに移行できる)
 
-直接ルーティングを使用するには、ユーザーをオンラインで使用する必要があります。 RegistrarPool パラメーター (ドメイン内に値が必要) を調infra.lync.comできます。 OnPremLineUriManuallySet パラメーターも True に設定する必要があります。 これは、電話番号を構成し、Skype for Business Online PowerShell を使用してエンタープライズボイスメールとボイスメールを有効にすることで実現されます。
+直接ルーティングを使用するには、ユーザーをオンラインで使用する必要があります。 RegistrarPool パラメーター (ドメイン内に値が必要) を調 infra.lync.com できます。 OnPremLineUriManuallySet パラメーターも True に設定する必要があります。 これは、電話番号を構成し、Skype for Business Online PowerShell を使用してエンタープライズボイスメールとボイスメールを有効にすることで実現されます。
 
 1. Skype for Business Online PowerShell セッションに接続します。
 
@@ -82,7 +82,7 @@ Skype for Business Online 展開が Skype for Business 2015 または Lync 2010 
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>電話番号を構成し、エンタープライズボイスメールとボイスメールを有効にする 
 
-ユーザーを作成し、ライセンスを割り当てしたら、次の手順では、ユーザーの電話番号とボイスメールを構成します。 
+ユーザーを作成し、ライセンスを割り当てた後、次の手順では、ユーザーの電話番号とボイスメールを構成します。 
 
 電話番号を追加してボイスメールを有効にするには:
  

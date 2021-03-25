@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b751ccebfd553f59b6144ea6b6f28db515e9c1d
-ms.sourcegitcommit: 6785d7f1ef5d2010ab334ec8cc46884327a53662
+ms.openlocfilehash: bd3e60fafecd3cf025187935a9dc28b492c39d1b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/01/2021
-ms.locfileid: "50395429"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121415"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams エンタープライズ展開の概要
 
@@ -75,7 +75,7 @@ Teams ネットワークの要件を理解するには、次の記事を参照�
 Teams アドバイザーは、チーム、チャネル、ファイル共有、および Planner を統合して、組織の展開プロジェクトを作成する Teams 内のソリューションです。 Teams Advisor は、選択したワークロード (チャット、チーム、チャネルなど) に固有のプロジェクト計画を作成します。これには、展開中に実行する必要のある推奨タスクが含まれます。 各タスクには、プロセスをガイドするための指示、提案、および関連記事へのリンクが含まれています。 1 人以上の個人にタスクを簡単に割り当て、各タスクの開始日と終了日を指定できます。
 
 > [!TIP]
-> Microsoft Learn の [Teams Advisor モジュールを使用してロールアウトを完了する](https://docs.microsoft.com/learn/modules/m365-teams-rollout-using-advisor/)ことにより、Teams Advisor を使用して Teams の展開を計画する方法を確認してください。
+> Microsoft Learn の [Teams Advisor モジュールを使用してロールアウトを完了する](/learn/modules/m365-teams-rollout-using-advisor/)ことにより、Teams Advisor を使用して Teams の展開を計画する方法を確認してください。
 
 > [!div class="nextstepaction"]
 > [Teams アドバイザーに移動する](https://admin.teams.microsoft.com/teams-deployment)

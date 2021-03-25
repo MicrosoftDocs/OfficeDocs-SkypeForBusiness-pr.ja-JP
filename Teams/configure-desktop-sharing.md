@@ -11,18 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: チームのチャットまたは会議でユーザーがデスクトップを共有できるように会議ポリシーを構成する方法について説明します。
+description: ユーザーが Teams のチャットまたは会議で自分のデスクトップを共有できる会議ポリシーを構成する方法について学習します。
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d75e540de7e40206f0b1dd15e26adc62d6f6baa7
-ms.sourcegitcommit: d27b97f012d0cb3f1690d3673d50bbaa0caae16f
+ms.openlocfilehash: 56ee2c83827c25da5b16cc3f7c2725a3daf815c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "47652476"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51121515"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 ============================================
@@ -40,11 +40,11 @@ ms.locfileid: "47652476"
 
 1. **[会議]** > **[会議ポリシー]** の順に選択します。
 
-    ![選択された会議のポリシー](media/configure-desktop-sharing-image1.png)
+    ![選択された会議ポリシー](media/configure-desktop-sharing-image1.png)
 
-2. [ **会議のポリシー** ] ページで、[ **追加**] を選びます。
+2. [会議ポリシー **] ページで、[** 追加] を **選択します**。
 
-    ![会議ポリシーのメッセージ](media/addMeeting.png)
+    ![会議ポリシー のメッセージ](media/addMeeting.png)
 
 3. ポリシーに一意のタイトルを指定し、簡単な説明を入力します。
 
@@ -57,12 +57,12 @@ ms.locfileid: "47652476"
     ![共有モードのオプション](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
-  > ユーザーがチャットから画面共有を使用するために、通話ポリシーを有効にする必要はありません。 ただし、音声をミュートにしない限り、オーディオはオフになります。 さらに、画面を共有するユーザーは [ **オーディオの追加** ] をクリックしてオーディオを有効にすることもできます。 通話ポリシーが無効になっている場合、ユーザーはチャットセッションから音声を画面共有に追加することはできません。
+  > ユーザーがチャットから画面共有を使用するには、通話ポリシーを有効にする必要があります。 ただし、ミュートを解除するまで、音声はオフになります。 さらに、画面を共有しているユーザーは、[オーディオの追加] をクリック **して** 音声を有効にできます。 通話ポリシーが無効になっている場合、ユーザーはチャット セッションから画面共有に音声を追加できません。
 
 5. 次の設定をオンまたはオフにします。
 
-    - **参加者による制御の付与または要求を許可する** –チームのメンバーが、発表者のデスクトップまたはアプリケーションの制御を付与または要求できるようにします。
-    - **外部参加者による制御の付与または要求を許可する** –これはユーザーごとのポリシーです。 組織がユーザーに対してこのセットを持っているかどうかは、会議の開催者によって設定されているかどうかに関係なく、外部の参加者が実行できる操作を制御しません。 このパラメーターは、外部の参加者が、組織の会議のポリシーに設定されている内容に応じて、共有元の画面の制御を付与できるか、制御を要求するかを制御します。
+    - **参加者に制御の提供** または要求を許可する - チームのメンバーは、発表者のデスクトップまたはアプリケーションの制御を与える、または要求することができます。
+    - **外部参加者に制御の許可または要求を許可** する - これはユーザーごとのポリシーです。 組織がユーザーに対してこの設定を行ったかどうかは、会議の開催者が設定した内容に関係なく、外部の参加者ができることを制御するものではありません。 このパラメーターは、組織の会議ポリシー内において、共有先が設定した内容に応じて、外部の参加者に共有スクリーンの制御または制御の依頼を許可するかどうかを制御します。
     - **[PowerPoint 共有を許可する]**: ユーザーによる、PowerPoint プレゼンテーションのアップロードや共有ができる会議の作成を許可します。
     - **[ホワイトボードを許可する]**: ユーザーによるホワイトボードの共有を許可します。
     - **[共有メモを許可する]**: ユーザーが共有メモを取ることを許可します。
@@ -71,7 +71,7 @@ ms.locfileid: "47652476"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>PowerShell を使用して共有デスクトップを構成する
 
-[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、デスクトップ共有を制御することもできます。 次のパラメーターを設定します。
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、デスクトップ共有を制御することもできます。 次のパラメーターを設定します。
 
 - Description
 - ScreenSharingMode
@@ -82,4 +82,4 @@ ms.locfileid: "47652476"
 - AllowWhiteboard
 - AllowSharedNotes
 
-[csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。
+[csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。

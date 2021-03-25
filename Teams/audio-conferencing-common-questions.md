@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 電話会議を使用したいお客様から得た最も多い質問の一部を次に示します。
-ms.openlocfilehash: 7bc540969222badd245180361405c58ed0ebf9b1
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 9b059a7af53c1360da28bcbaef7bbae29485a668
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50110270"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120789"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
@@ -81,15 +81,15 @@ ms.locfileid: "50110270"
 |:-----|:-----|
 |ユーザーが Skype for Business または Microsoft Teams アプリを使用して参加している、または会議にダイヤルインしている。  <br/> |24 時間後に出席者リストに変更がない場合、会議は終了します。  <br/> |
 |すべてのユーザーが会議にダイヤルインされますが、他のユーザーが PIN を使用して会議に参加しました。  <br/> |会議は 24 時間後に終了します。  <br/> |
-|すべてのユーザーが会議にダイヤルインされますが、PIN を使用して会議に参加したユーザーはいません。  <br/> | 匿名ユーザーが会議を開始できる場合、会議は 4 時間後に終了します。 匿名ユーザーが会議の開始を許可されていない場合、認証された参加者全員が会議を終了した場合、会議は最後に認証された参加者が残った 90 分後に終了します。 <br/> |
+|すべてのユーザーが会議にダイヤルインされますが、PIN を使用して会議に参加したユーザーはいません。  <br/> | 匿名ユーザーが会議を開始できる場合、会議は 4 時間後に終了します。 匿名ユーザーが会議の開始を許可されていない場合、認証された参加者全員が会議を終了した場合、最後に認証された参加者が残った 90 分後に会議が終了します。 <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>会議に参加できる電話参加者の総数は何人ですか?
 
 会議 [で許可される出席者](limits-specifications-teams.md) の総数の制限と仕様を参照してください。
   
-会議の制限については、「Skype for Business Online の制限 [」を参照してください](https://technet.microsoft.com/library/skype-for-business-online-limits.aspx#bkmk_Meeting_LyncOnlineLimits)。
+会議の制限については、「Skype for Business Online の制限 [」を参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-limits#bkmk_Meeting_LyncOnlineLimits)。
   
-## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>ユーザーが電話会議情報を含むメールを受信し始める理由
+## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>ユーザーが電話会議情報を含むメールの受信を開始した理由
 
 管理者は、電話会議情報と PIN を[](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)メールで送信および更新できる新機能を追加しました。 無効にする方法など、詳細については [、「Microsoft Teams](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) で電話会議の設定が変更された場合のメールの送信を有効または無効にする」または [「Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change)で電話会議の設定が変更された場合のメールの送信を有効または無効にする」を参照してください。
   
@@ -120,12 +120,12 @@ Skype for Business または Microsoft Teams のユーザーは、Outlook と Ou
   
 ## <a name="how-do-users-access-or-change-their-pin"></a>ユーザーが PIN にアクセスまたは変更する方法
 
-Skype for Business または Microsoft Teams のユーザーは、セットアップ後に送信されるメールで PIN を見つけ出します。
+Skype for Business または Microsoft Teams のユーザーは、セットアップ後に送信されるメールで PIN を検索できます。
   
 > [!NOTE]
 > Teams ユーザーはピンを変更できます。 会議出席招待の下部に、ピンをリセットするリンクがあります。 
   
-ユーザーが組織の管理者の支援を受けずに PIN にアクセスしてリセットできるソリューションに取り組み中です。
+現在、ユーザーが組織の管理者の支援を受けずに PIN にアクセスしてリセットできるソリューションに取り組み中です。
   
 ## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>どの会議内ダイヤル パッド コマンドがサポートされていますか?
 
@@ -135,7 +135,7 @@ Skype for Business または Microsoft Teams のユーザーは、セットア�
     
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>Skype for Business または Microsoft Teams 会議に参加している出席者は、国際電話番号にダイヤルアウトできますか?
 
-はい、出席者は国際ダイヤルアウトして、他の発信者を Skype for Business 会議または Microsoft Teams 会議に招待できます。 他[のユーザーが参加したり](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)[、Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)会議からダイヤルアウトして他のユーザーが参加したりできるよう、Microsoft Teams 会議からダイヤルアウトする方法をご覧ください。
+はい、出席者は国際ダイヤルアウトして、他の発信者を Skype for Business 会議または Microsoft Teams 会議に招待できます。 [他のユーザーが参加したり](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)[、Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)会議からダイヤルアウトして他のユーザーが参加したりできるよう、Microsoft Teams 会議からダイヤルアウトする方法をご覧ください。
   
 ## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>Skype for Business または Microsoft Teams ユーザーが電話会議の詳細を含む会議をスケジュールする方法
 
@@ -145,7 +145,7 @@ Skype for Business または Microsoft Teams のユーザーは、セットア�
 
 電話を使ってダイヤルインする出席者全員が参加する会議のスケジュールは、通常のオンライン会議のスケジュール方法とは異なります。 ただし、すべての参加者が電話を使ってダイヤルインする会議を開始するには、次の 2 つの方法があります。
 
-- **オプション #1:** 既定では、会議の開催者とすべての参加者が電話を使って会議に参加している場合、会議の開催者は電話会議の PIN を入力して会議を開始する必要があります。 発信者は、オンライン会議の電話番号をダイヤルするときに、指定された会議の開催者として認証を受け取る必要があるという質問を受け取ります。 開催者が開始する前にダイヤルインで会議に参加しているすべての参加者はロビーに配置され、保留の音楽を聴きます。 Skype for Business 会議の場合、開催者が自分の電話会議 PIN を入力して会議を開始すると、ロビー内のすべての参加者が自動的に会議に参加します。 Microsoft Teams 会議の場合、参加者は開催者の会議ポリシーでユーザー設定を自動的に認める値に従って会議に参加します。
+- **オプション #1:** 既定では、会議の開催者とすべての参加者が電話を使って会議に参加している場合、会議の開催者は電話会議の PIN を入力して会議を開始する必要があります。 発信者は、オンライン会議の電話番号をダイヤルするときに、指定された会議の開催者として認証を行う必要がある場合に、求めを受け取ります。 開催者が開始する前にダイヤルインで会議に参加しているすべての参加者はロビーに配置され、保留の音楽を聴きます。 Skype for Business 会議の場合、開催者が自分の電話会議 PIN を入力して会議を開始すると、ロビー内のすべての参加者が自動的に会議に参加します。 Microsoft Teams 会議の場合、参加者は開催者の会議ポリシーでユーザー設定を自動的に認める値に従って会議に参加します。
 
 - **オプション #2:** 既定では、[認証されていない発信者を会議の最初のユーザーに設定する] 設定は無効になっています。 設定が指定の開催者に対して有効になっている場合、開催者が電話会議 PIN を入力する前に、その開催者によってスケジュールされた会議を開始できます。 この設定を有効にすると、最初の参加者がダイヤルイン電話番号で会議に参加するとすぐに会議が開始され、最初の参加者はロビーに置かれなされます。 詳細については [、「Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) でユーザーの電話会議設定を管理する」または [「Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)でユーザーの電話会議設定を管理する」を参照してください。
    
@@ -156,4 +156,3 @@ Skype for Business または Microsoft Teams のユーザーは、セットア�
 [Microsoft Teams での電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md) 
 
 [Skype for Business Online での電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
-  

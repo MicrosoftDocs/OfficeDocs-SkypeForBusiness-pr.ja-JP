@@ -14,13 +14,13 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Android での Microsoft Teams の会議室の展開については、この記事をお読みください。
-ms.openlocfilehash: bb02ff59eb473d0db276fd773e9f1ff3f1ae0007
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+description: この記事では、Android に Microsoft Teams Rooms を展開する方法について説明します。
+ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875007"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120799"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Android に Microsoft Teams の会議室を展開する
 
@@ -62,11 +62,11 @@ Teams 会議室を展開する前に、それらのユーザーが Microsoft 365
 
 ### <a name="using-a-resource-account"></a>リソース アカウントを使用する
 
-Microsoft 365 リソース アカウントを設定する場合は、その会議室ライセンスを購入する必要があります。 会議室ライセンスには、組織内のユーザーが Outlook または Teams を介して会議室を予約できるリソース メールボックスが含まれています。 このライセンスでは、会議参加者間のビデオ会議や電話会議、画面共有も有効にできます。
+Microsoft 365 リソース アカウントをセットアップする場合は、その会議室のライセンスを購入する必要があります。 会議室ライセンスには、組織内のユーザーが Outlook または Teams を介して会議室を予約できるリソース メールボックスが含まれています。 また、このライセンスでは、会議の参加者間でビデオ会議、電話会議、画面共有も有効にできます。
 
-外部の電話番号との間で通話を受信または発信する必要がある場合は、通話プランまたは Microsoft 365 Business Voice アドオン ライセンス [が必要な場合があります](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)。 組織で直接ルーティングを有効にしている場合は、会議室 SKU だけが必要です。
+外部の電話番号との間で通話を受信または発信する必要がある場合は、通話プランまたは Microsoft 365 Business Voice アドオン ライセンス [が必要な場合があります](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)。 組織で直接ルーティングを有効にしている場合は、会議室 SKU だけが必要です。
 
-リソース アカウントを作成するときに、アカウントで会議出席依頼を自動的に承諾するか辞退するか、定期的な会議を許可するか、ユーザーがリソースを予約できる事前の時間を指定するか、などと選択できます。
+リソース アカウントを作成するときに、アカウントで会議出席依頼を自動的に承諾するか辞退するか、定期的な会議を許可するか、ユーザーがリソースを予約できる事前の数を指定するかなど、選択できます。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
@@ -89,12 +89,12 @@ Microsoft 365 リソース アカウントの詳細については [、「Micros
 
 ### <a name="account-provisioning"></a>アカウントのプロビジョニング
 
-Microsoft 365 リソース アカウントを使用してユーザーがコラボレーション バーを予約する場合は [、「Microsoft 365](resource-account-ui.md) 管理センターを使用してリソース アカウントを作成する」の手順に従って、必要なコラボレーション バーごとに Microsoft 365 リソース アカウントを作成します。 また、この場所では、リソース アカウントに会議室のライセンスを追加する必要があります。また、組織が直接ルーティングを使用していない場合に、外部の電話番号との間で通話を発信または受信する場合は、通話プランまたは Business Voice ライセンスを使用する必要があります。
+Microsoft 365 リソース アカウントを使用してユーザーがコラボレーション バーを予約する場合は [、「Microsoft 365](resource-account-ui.md) 管理センターを使用してリソース アカウントを作成する」の手順に従って、必要なコラボレーション バーごとに Microsoft 365 リソース アカウントを作成します。 また、この場所では、リソース アカウントに会議室ライセンスを追加する必要があります。また、組織が直接ルーティングを使用していない場合に、外部の電話番号との間で通話を発信または受信する場合は、通話プランまたは Business Voice ライセンスを追加する必要があります。
 
 個人使用のために Teams 会議室を個々のユーザーに割り当てる場合は、追加のアカウントを設定する必要はありません。 ユーザーは、個人用アカウントを使用してコラボレーション バーにサインインできます。
 
 > [!TIP]
-> Microsoft 365 リソース アカウントの表示名をわかりやすいわかりやすい名前にします。 Teams 会議室を検索して会議に追加するときに表示される名前は次のとおりです。 *たとえば*、ロンドンの 4 人の会議室である Curie には、"サイト ルーム名 " (最大会議室の最大容量) のような規則を使用できます。たとえば - 、LON-CURIE(4)という表示名を付けます。
+> Microsoft 365 リソース アカウントの表示名をわかりやすいわかりやすい名前にします。 Teams 会議室を検索して会議に追加するときに表示される名前は次のとおりです。 サイト ルーム名 (最大会議室容量) などの規則を使用できます。たとえば、ロンドンの 4 人用会議室である Curie には - 、LON-CURIE(4)という表示名を付けます。
 
 |    |     |
 |-----------|------------|
@@ -114,13 +114,13 @@ Microsoft 365 リソース アカウントを使用してユーザーがコラ�
 
 Teams 会議室を展開した後は、それらをテストする必要があります。 Teams の会議室にサインインし、期待される機能が機能しているのを確認します。 Microsoft Teams 管理センターの [デバイス] タブの [コラボレーションバー] セクションに表示されるのを確認することを強くお勧めします。 また、品質とパフォーマンスをチェックするために、テスト通話や会議を多数行う必要があります。
 
-Microsoft Teams の一般的なロールアウトの一環として、通話品質ダッシュボード (CQD) のファイルの構築、品質の傾向の監視、品質レビュー プロセスへの参加を行う必要があります。 詳細については、「エクスペリエンスの品質 [レビュー ガイド」を参照してください](https://aka.ms/qerguide)。
+Microsoft Teams の一般的なロールアウトの一環として、通話品質ダッシュボード (CQD) のファイルの作成、品質の傾向の監視、品質レビュー プロセスへの参加を行う必要があります。 詳細については、「エクスペリエンスの品質 [レビュー ガイド」を参照してください](../quality-of-experience-review-guide.md)。
 
 ### <a name="asset-management"></a>資産管理
 
 展開の一環として、ルーム名、サインイン済みリソース アカウント、および割り当てられた周辺機器を使用して資産登録を更新する必要があります。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams 管理センターを使用して Microsoft Teams 会議室のアカウントを構成する](resource-account-ui.md)
 

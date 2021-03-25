@@ -1,5 +1,5 @@
 ---
-title: AppLocker の制御ポリシー
+title: AppLocker コントロール ポリシー
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -12,36 +12,36 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: AppLocker アプリケーション制御ポリシーを使って Teams デスクトップクライアントアプリケーションを有効にする方法について説明します。
+description: AppLocker アプリケーション制御ポリシーを使用して Teams デスクトップ クライアント アプリケーションを有効にする方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4e70fc4502851137494c316db9eff7faefc140d1
-ms.sourcegitcommit: c573b0be535fcf927ae01d60a7eb8fbf1aec271d
+ms.openlocfilehash: d6e6040956ba5e5469076b4fbbab337f58268c68
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "46526693"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120849"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Microsoft Teams の AppLocker アプリケーション制御ポリシー
 
-この記事では、AppLocker アプリケーション制御ポリシーを使って Teams デスクトップクライアントアプリを有効にする方法について説明します。 AppLocker の使用は、管理者以外のユーザーによるプログラムとスクリプトの実行を制限するように設計されています。 AppLocker の詳細とガイダンスについては、「 [applocker とは](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)」をご覧ください。
+この記事では、AppLocker アプリケーション制御ポリシーを使用して Teams デスクトップ クライアント アプリを有効にする方法について説明します。 AppLocker の使用は、管理者以外のユーザーによるプログラムとスクリプトの実行を制限するように設計されています。 AppLocker の詳細とガイダンスについては [、「AppLocker とは何ですか?」を参照してください](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker)。
 
-AppLocker を使用してチームを有効化するプロセスでは、AppLocker ベースの許可一覧のポリシーを作成する必要があります。 ポリシーは、グループポリシー管理ソフトウェアまたは AppLocker の Windows PowerShell コマンドレットを使用して作成されます (詳細については、「 [applocker のテクニカルリファレンス](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)」を参照してください)。 AppLocker ポリシーは XML 形式で保存され、任意のテキストエディターまたは XML エディターで編集できます。
+AppLocker で Teams を有効にするプロセスには、AppLocker ベースの許可リスト ポリシーの作成が必要です。 ポリシーは、グループ ポリシー管理ソフトウェア、および AppLocker の Windows PowerShell コマンドレットの使用 (詳細については [AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) のテクニカル リファレンスを参照) で作成されます。 AppLocker ポリシーは XML 形式で保存され、任意のテキストまたは XML エディターで編集できます。
 
-## <a name="teams-allow-list-with-applocker"></a>AppLocker を使ったチームの許可リスト
+## <a name="teams-allow-list-with-applocker"></a>AppLocker を使用した Teams の許可リスト
 
-AppLocker ルールは、ルールのコレクションに整理されます。 AppLocker の規則はターゲットアプリに適用され、AppLocker ポリシーを構成するコンポーネントです。  
+AppLocker ルールは、ルールのコレクションに編成されます。 AppLocker ルールは対象のアプリに適用され、これらは AppLocker ポリシーを構成するコンポーネントです。  
 
-チームを許可するには、すべての Teams アプリファイルがデジタル署名されているため、 [publisher の条件ルール](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)を使用することをお勧めします。
+Teams を許可するには、すべての Teams[](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)アプリ ファイルがデジタル署名された状態で発行元の条件ルールを使用することをお勧めします。
   
-Teams のインストールディレクトリはユーザーが書き込み可能であるため、パスルールを使用することはお勧めしません。 また、ルールは Teams クライアントアプリが更新されるたびに更新される必要があるため、ハッシュ規則を使用することはお勧めしません。
+Teams のインストール ディレクトリはユーザーが書き込み可能なので、パス ルールの使用はお勧めしません。 また、Teams クライアント アプリが更新されるごとにルールを更新する必要があるため、ハッシュ ルールの使用はお勧めしません。
 
-Teams のデスクトップの実行可能ファイルにはデジタル署名が行われるため、発行元の条件では、デジタル署名と埋め込みバージョンの属性に基づいてアプリファイルが識別されます。 デジタル署名には、アプリファイル (発行元) を作成した会社に関する情報が含まれています。 バイナリリソースから取得されるバージョン情報には、ファイルが含まれている製品の名前と、アプリケーションファイルのバージョン番号が含まれています。
+Teams デスクトップ実行可能ファイルはデジタル署名付きであるから、発行元の条件は、デジタル署名と埋め込みバージョン属性に基づいてアプリ ファイルを識別します。 デジタル署名には、アプリ ファイル (発行元) を作成した会社に関する情報が含まれている。 バイナリ リソースから取得されるバージョン情報には、ファイルが含まれる製品の名前とアプリケーション ファイルのバージョン番号が含まれます。
 
-### <a name="example-of-publisher-condition-rules"></a>Publisher の条件ルールの例
+### <a name="example-of-publisher-condition-rules"></a>発行元の条件ルールの例
 
-Teams クライアントアプリ (すべてのファイル、すべてのバージョン) については、次を実行可能ファイルの規則 & DLL の規則に追加します。
+Teams クライアント アプリ (すべてのファイル、すべてのバージョン) の場合は、DLL ルールの実行可能ルールに次&追加します。
 
 ```console
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
@@ -50,5 +50,5 @@ Product name: MICROSOFT TEAMS UPDATE
 ```
 
 ## <a name="related-topics"></a>関連項目
-[AppLocker とは何ですか?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker) 
-[AppLocker のテクニカルリファレンス](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
+[AppLocker とは](/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker) 
+[AppLocker のテクニカル リファレンス](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
