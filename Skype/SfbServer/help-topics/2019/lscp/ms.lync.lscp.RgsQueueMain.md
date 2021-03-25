@@ -14,48 +14,46 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
-description: 応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 応答グループ キューは、エージェントが通話に応答するまで、応答グループへの通話を保持します。
-ms.openlocfilehash: 2b36ad0884f03853639297d86057429b6ba15902
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 応答グループ キューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。
+ms.openlocfilehash: a59cab44df89a6091f463d677a5771983166a42b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824677"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118796"
 ---
-# <a name="response-groups-queue"></a><span data-ttu-id="6eaa8-104">応答グループのキュー</span><span class="sxs-lookup"><span data-stu-id="6eaa8-104">Response Groups Queue</span></span>
+# <a name="response-groups-queue"></a><span data-ttu-id="00ed4-104">応答グループのキュー</span><span class="sxs-lookup"><span data-stu-id="00ed4-104">Response Groups Queue</span></span>
 
-<span data-ttu-id="6eaa8-105">応答グループは、エージェント グループ、キュー、ワークフローで構成されます。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="6eaa8-106">応答グループ キューは、エージェントが応答するまで応答グループへの通話を保持します。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-106">Response Group queues hold calls to a response group until an agent answers the call.</span></span>
+<span data-ttu-id="00ed4-105">応答グループは、エージェント グループ、キュー、ワークフローで構成されます。</span><span class="sxs-lookup"><span data-stu-id="00ed4-105">Response groups consist of agent groups, queues, and workflows.</span></span> <span data-ttu-id="00ed4-106">応答グループ キューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。</span><span class="sxs-lookup"><span data-stu-id="00ed4-106">Response Group queues hold calls to a response group until an agent answers the call.</span></span>
 
-<span data-ttu-id="6eaa8-107">[**応答グループ**  -  **キュー]** ページには、組織に定義されている応答グループ キューの一覧が表示されます。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-107">The **Response Groups** - **Queue** page displays a list of all the Response Group queues that are defined for your organization.</span></span>
+<span data-ttu-id="00ed4-107">[**応答グループ キュー**] ページには、組織に対して定義されているすべての応答グループ  -  キューの一覧が表示されます。</span><span class="sxs-lookup"><span data-stu-id="00ed4-107">The **Response Groups** - **Queue** page displays a list of all the Response Group queues that are defined for your organization.</span></span>
 
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="6eaa8-108">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="6eaa8-108">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="00ed4-108">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="00ed4-108">Tasks you can perform</span></span>
 
-<span data-ttu-id="6eaa8-109">[応答グループ キュー] ページから次の **タスクを**  -  **実行** できます。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-109">You can perform the following tasks from the **Response Groups** - **Queue** page:</span></span>
+<span data-ttu-id="00ed4-109">[応答グループ キュー] ページから次の **タスク**  -  **を実行** できます。</span><span class="sxs-lookup"><span data-stu-id="00ed4-109">You can perform the following tasks from the **Response Groups** - **Queue** page:</span></span>
 
-- <span data-ttu-id="6eaa8-110">新しいキューを作成する</span><span class="sxs-lookup"><span data-stu-id="6eaa8-110">Create a new queue</span></span>
+- <span data-ttu-id="00ed4-110">新しいキューを作成する</span><span class="sxs-lookup"><span data-stu-id="00ed4-110">Create a new queue</span></span>
 
-- <span data-ttu-id="6eaa8-111">既存のキューを変更する</span><span class="sxs-lookup"><span data-stu-id="6eaa8-111">Change an existing queue</span></span>
+- <span data-ttu-id="00ed4-111">既存のキューを変更する</span><span class="sxs-lookup"><span data-stu-id="00ed4-111">Change an existing queue</span></span>
 
-- <span data-ttu-id="6eaa8-112">キューを削除する</span><span class="sxs-lookup"><span data-stu-id="6eaa8-112">Delete a queue</span></span>
+- <span data-ttu-id="00ed4-112">キューを削除する</span><span class="sxs-lookup"><span data-stu-id="00ed4-112">Delete a queue</span></span>
 
-## <a name="ui-reference"></a><span data-ttu-id="6eaa8-113">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="6eaa8-113">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="00ed4-113">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="00ed4-113">UI Reference</span></span>
 
-<span data-ttu-id="6eaa8-114">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-114">The following list describes the commands on the page.</span></span>
+<span data-ttu-id="00ed4-114">次の一覧に、このページのコマンドを示します。</span><span class="sxs-lookup"><span data-stu-id="00ed4-114">The following list describes the commands on the page.</span></span>
 
-- <span data-ttu-id="6eaa8-115">**新規** 新しいキューを開始します。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-115">**New** Starts a new queue.</span></span>
+- <span data-ttu-id="00ed4-115">**New** 新しいキューを開始します。</span><span class="sxs-lookup"><span data-stu-id="00ed4-115">**New** Starts a new queue.</span></span>
 
-- <span data-ttu-id="6eaa8-116">**編集** 選択したキューを開き、そのキューを編集するか、一覧内のすべてのキューを選択するか、選択したキューを削除します。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-116">**Edit** Opens the selected queue to edit it, selects all queue in the list, or deletes the selected queue.</span></span>
+- <span data-ttu-id="00ed4-116">**編集** 選択したキューを開き、それを編集するか、リスト内のすべてのキューを選択するか、選択したキューを削除します。</span><span class="sxs-lookup"><span data-stu-id="00ed4-116">**Edit** Opens the selected queue to edit it, selects all queue in the list, or deletes the selected queue.</span></span>
 
-- <span data-ttu-id="6eaa8-117">**更新** キューの一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-117">**Refresh** Refreshes the list of queues.</span></span>
+- <span data-ttu-id="00ed4-117">**更新** キューの一覧を更新します。</span><span class="sxs-lookup"><span data-stu-id="00ed4-117">**Refresh** Refreshes the list of queues.</span></span>
 
-<span data-ttu-id="6eaa8-118">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-118">The following list describes the fields on the page.</span></span>
+<span data-ttu-id="00ed4-118">次の一覧に、このページのフィールドを示します。</span><span class="sxs-lookup"><span data-stu-id="00ed4-118">The following list describes the fields on the page.</span></span>
 
-- <span data-ttu-id="6eaa8-119">**名前** キューを識別する一意の名前。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-119">**Name** The unique name that identifies the queue.</span></span>
+- <span data-ttu-id="00ed4-119">**名前** キューを識別する一意の名前。</span><span class="sxs-lookup"><span data-stu-id="00ed4-119">**Name** The unique name that identifies the queue.</span></span>
 
-- <span data-ttu-id="6eaa8-120">**サービス** キュー **をホストする ApplicationServer** サービス。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-120">**Service** The **ApplicationServer** service that hosts the queue.</span></span>
+- <span data-ttu-id="00ed4-120">**サービス** キュー **をホストする ApplicationServer** サービス。</span><span class="sxs-lookup"><span data-stu-id="00ed4-120">**Service** The **ApplicationServer** service that hosts the queue.</span></span>
 
-- <span data-ttu-id="6eaa8-121">**説明** キューの説明。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-121">**Description** The description for the queue.</span></span>
+- <span data-ttu-id="00ed4-121">**説明** キューの説明。</span><span class="sxs-lookup"><span data-stu-id="00ed4-121">**Description** The description for the queue.</span></span>
 
-<span data-ttu-id="6eaa8-122">応答グループの機能の詳細については、「計画」のドキュメントの [「Plan for the Response Group application in Skype for Business Server」](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="6eaa8-123">応答グループ キューの操作の詳細については、「操作」のドキュメントの [「Managing Response Group Queues」](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="6eaa8-123">For details about working with Response Group queues, see [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) in the Operations documentation.</span></span>
-
-
+<span data-ttu-id="00ed4-122">応答グループの機能の詳細については、「計画」のドキュメントの「Plan for the [Response Group application in Skype for Business Server」](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="00ed4-122">For details about Response Group features and capabilities, see [Plan for the Response Group application in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) in the Planning documentation.</span></span> <span data-ttu-id="00ed4-123">応答グループ キューの操作の詳細については、「操作」のドキュメントの「 [応答グループ キューの管理](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="00ed4-123">For details about working with Response Group queues, see [Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) in the Operations documentation.</span></span>

@@ -12,25 +12,25 @@ metadata:
   ms.author: samanro
   ms.date: 07/03/2019
   localization_priority: Priority
-  ms.openlocfilehash: bfae335402888736c47ebe38c98cc2d30654d8af
-  ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+  ms.openlocfilehash: 4fddbad88364a26bee8c8217175080b80380ed60
+  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 02/11/2020
-  ms.locfileid: "44805548"
+  ms.lasthandoff: 03/23/2021
+  ms.locfileid: "51119036"
 additionalContent:
   sections:
   - title: IT 担当者向け
     items:
     - title: Skype for Business Online
       summary: Office 365 環境で Skype for Business Online を管理するためのリソースが見つかります。
-      url: /SkypeForBusiness/skype-for-business-online
+      url: ../SfbOnline/skype-for-business-online.yml
     - title: ハイブリッド ソリューション
       summary: Skype for Business によるハイブリッド展開の計画については、こちらを参照してください。
-      url: /SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json
+      url: ../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json
     - title: Skype for Business Server
       summary: 組織に対して Skype for Business Server を展開および管理します。
-      url: /SkypeForBusiness/skype-for-business-server-2019
+      url: ../SfBServer2019/skype-for-business-server-2019.yml
     - title: Skype for Business の PowerShell のリファレンス
       summary: Skype for business と Skype for business Online を管理するために必要な PowerShell コマンドレットについて説明します。
       url: /powershell/skype/intro
@@ -45,7 +45,7 @@ additionalContent:
       url: /SkypeForBusiness/room-systems/
     - title: Skype for Business 認定プログラム
       summary: 認定ソリューションおよびデバイスについて説明します。
-      url: /SkypeForBusiness/certification/overview
+      url: ../SfbPartnerCertification/certification/overview.md
     - title: トラブルシューティング
       summary: IT 担当者および管理者向けのトラブルシューティングおよびサポート リソースをご利用ください。
       url: /office/troubleshoot

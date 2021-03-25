@@ -15,18 +15,15 @@ localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: dad01c43d3c535930240b942e9f5bf233503a007
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f52e660125b040c67d93ebfc52aee4c52baa08f1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808487"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51118956"
 ---
-# <a name="configure-a-network-site"></a><span data-ttu-id="56ed7-104">ネットワーク サイトの構成</span><span class="sxs-lookup"><span data-stu-id="56ed7-104">Configure a Network Site</span></span>
+# <a name="configure-a-network-site"></a><span data-ttu-id="da66c-104">ネットワーク サイトの構成</span><span class="sxs-lookup"><span data-stu-id="da66c-104">Configure a Network Site</span></span>
 
-<span data-ttu-id="56ed7-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="56ed7-105">What do you want to do?</span></span> <span data-ttu-id="56ed7-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="56ed7-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="da66c-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="da66c-105">What do you want to do?</span></span> <span data-ttu-id="da66c-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="da66c-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="56ed7-107">ネットワーク サイトの構成</span><span class="sxs-lookup"><span data-stu-id="56ed7-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
-
-
-
+- [<span data-ttu-id="da66c-107">ネットワーク サイトの構成</span><span class="sxs-lookup"><span data-stu-id="da66c-107">Configuring Network Sites</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)
