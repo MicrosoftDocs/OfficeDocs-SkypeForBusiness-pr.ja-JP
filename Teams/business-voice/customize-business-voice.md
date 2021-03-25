@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac33cd0c815aec39855351dbd1abf16ce4f52b7f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824825"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116005"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>Microsoft 365 企業向け音声をカスタマイズする
 
@@ -33,7 +33,7 @@ ms.locfileid: "41824825"
 | タスク                                                          | 説明                                                                                          |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [電話番号を企業向け音声に移行する](port-phone-numbers.md) | 既存の電話番号を企業向け音声に移行します。                                                 |
-| [自動応答をセットアップする](set-up-auto-attendants.md)           | 通話メニューを追加して、メインの電話番号に電話をかけた発信者向けのオプションを拡張します。        |
+| [自動応答をセットアップする](./create-a-phone-system-auto-attendant-smb.md)           | 通話メニューを追加して、メインの電話番号に電話をかけた発信者向けのオプションを拡張します。        |
 | [通話ポリシーの設定](set-up-policies.md)                 | ユーザーがプライベート通話、自動転送、通話の委任などを実行できるようにするかどうかを制御します。        |
 | [追加のユーザーを作成する](create-users.md)                    | ユーザーを追加し、新しいまたは既存の電話番号を割り当てます。                                     |
-| [通話キューを設定する](set-up-call-queues.md)                   | 発信者が次の使用可能なエージェントを待つことができるキューを作成します。                                  |
+| [通話キューを設定する](./create-a-phone-system-call-queue-smb.md)                   | 発信者が次の使用可能なエージェントを待つことができるキューを作成します。                                  |

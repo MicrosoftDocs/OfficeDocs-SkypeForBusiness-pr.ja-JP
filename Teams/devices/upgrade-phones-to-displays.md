@@ -15,13 +15,13 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 localization_priority: Normal
-description: Microsoft Teams 管理センターで Teams 電話機を Teams ディスプレイにアップグレードする方法について説明します。
-ms.openlocfilehash: ff28aab3e8bea493b5d11f4e42fb07b6e8fc84c5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Microsoft Teams 管理センターで Teams の電話を Teams ディスプレイにアップグレードする方法について説明します。
+ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825357"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115585"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Teams の電話を Teams ディスプレイにアップグレードする
 
@@ -30,7 +30,7 @@ ms.locfileid: "49825357"
 
 この記事では、Microsoft Teams 管理センターで Teams の電話を Teams ディスプレイ デバイスにアップグレードする方法の概要を説明します。 これにより、デバイスは Teams の表示デバイスとしてユーザーに豊富なエクスペリエンスを提供できます。
 
-Teams のディスプレイは、周囲のタッチスクリーンと Cortana を利用したハンズフリーエクスペリエンスを備える、1 つの専用 Teams デバイスのカテゴリです。 Teams のディスプレイは、Teams スマートフォンの進化です。 Teams のスマートフォンでサポートされる機能に加えて [、Teams](phones-for-teams.md#features-supported-by-teams-phones)の表示には、Teams のすべてのアクティビティと共同作業のオプションを常に使用できる常時表示などの機能が含まれます。 Teams の表示に固有の機能の詳細については [、Microsoft Teams の表示を参照してください](teams-displays.md)。
+Teams のディスプレイは、周囲のタッチスクリーンと Cortana を利用したハンズフリーエクスペリエンスを備える、1 つの専用 Teams デバイスのカテゴリです。 Teams のディスプレイは、Teams スマートフォンの進化です。 Teams の携帯電話でサポートされる機能に加えて [、Teams](phones-for-teams.md#features-supported-by-teams-phones)の表示には、Teams のすべてのアクティビティとコラボレーションのオプションを常に使用できる常時表示などの機能が含まれます。 Teams の表示に固有の機能の詳細については [、Microsoft Teams の表示を参照してください](teams-displays.md)。
 
 ## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>Teams の表示へのアップグレードについて知る必要がある情報
 
@@ -42,7 +42,7 @@ Lenovo ThinkSmart View デバイスは Teams ディスプレイにアップグ�
 
 ユーザーを準備するには [、Teams](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6) ディスプレイの使用を開始する機能をユーザーと共有して、Teams ディスプレイの使い方を理解します。 アップグレードの前に、この操作を実行することをお勧めします。
 
-アップグレード後にデータや環境設定に変更が加えらならなかった場合は、そのユーザーに知らせたとします。 たとえば、ユーザーは Teams の表示で、すべての会議、通話にアクセスし、ボイスメールにアクセスできます。 
+アップグレード後にデータや環境設定に変更が加えらならなかった場合は、そのユーザーに知らせたとします。 たとえば、ユーザーは Teams の会議、通話の着信、ボイスメールの表示にすべてアクセスできます。 
 
 ### <a name="what-happens-after-the-upgrade"></a>アップグレード後は何が起こりますか?
 
@@ -57,7 +57,7 @@ Teams スマートフォンを Teams のディスプレイ デバイスにアッ
 
     :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Teams ディスプレイへのアップグレード用に選択された Teams 電話機を示すスクリーンショット":::
 
-3. [Teams への **アップグレード] の [表示**] ダイアログ ボックスで、[アップグレードのスケジュール] を選び、アップグレードの日時を設定するか、[今すぐアップグレード]**を設定します**。
+3. [Teams への **アップグレード] の [表示]** ダイアログ ボックスで、[アップグレードのスケジュール] を選び、アップグレードの日時を設定するか、[今すぐアップグレード] を **設定します**。 
 
     :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="[Teams にアップグレード] の [表示] ダイアログ ボックスを示すスクリーンショット":::
 
@@ -70,9 +70,9 @@ Teams スマートフォンを Teams のディスプレイ デバイスにアッ
 
 ## <a name="known-issues"></a>既知の問題
 
-### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>Teams の表示には、濃色テーマの代わりに既定のテーマが設定されている
+### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>Teams のディスプレイには、濃色テーマの代わりに既定のテーマが設定されている
 
-Teams ディスプレイでのダーク テーマのサポートは、今後の更新プログラムで利用できる予定です。 ダーク テーマを使用する Teams スマートフォンは、Teams にアップグレードした後に表示される既定のテーマを取得します。
+Teams ディスプレイでのダーク テーマのサポートは、今後の更新プログラムで利用できる予定です。 ダーク テーマを使用する Teams のスマートフォンでは、Teams にアップグレードした後に既定のテーマが表示されます。
 
 ### <a name="some-apps-are-missing-from-the-home-screen"></a>一部のアプリがホーム画面に表示される
 
@@ -90,4 +90,4 @@ Teams ディスプレイでのダーク テーマのサポートは、今後の�
 
 [Microsoft Teams 認定 IP 電話](teams-ip-phones.md)
 
-[Teams での Cortana の音声アシスタンス](https://docs.microsoft.com/MicrosoftTeams/cortana-in-teams)
+[Teams での Cortana の音声アシスタンス](../cortana-in-teams.md)

@@ -20,28 +20,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90542f680c1d3992f5f318bfedad8a12470d282b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0585f0ad829f19334d5a970461f1f3248a107e9d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820947"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115555"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>Skype for Business オンプレミス展開から Teams にアップグレードする
 
 ![「展開と実装」段階が強調表示された、アップグレード行程の各段階](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
-この記事は、アップグレードの手順の展開と実装のステージの一部です。 続く前に、次のアクティビティを完了したと確認します。
+この記事は、アップグレードの手順の展開と実装のステージの一部です。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
-- [プロジェクトの対象範囲を定義した](https://aka.ms/SkypetoTeams-Scope)
-- [Skype for Business と Teams の共存と相互運用を理解した](https://aka.ms/SkypeToTeams-Coexist)
+- [プロジェクトの対象範囲を定義した](./upgrade-define-project-scope.md)
+- [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [環境を準備した](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [組織を準備した](https://aka.ms/SkypeToTeams-UserReadiness)
-- [パイロットを実施した](https://aka.ms/SkypeToTeams-Pilot)
+- [環境を準備した](./upgrade-prepare-environment.md)
+- [組織を準備した](./upgrade-prepare-organization.md)
+- [パイロットを実施した](./pilot-essentials.md)
 
-Skype for Business または Microsoft Lync をオンプレミスに展開し、組織が複数の共存モードを使用して Microsoft Teams にアップグレードする場合、またはすべてのモードを使用する場合は、この記事のガイダンスに従います。 
+Skype for Business または Microsoft Lync をオンプレミスに展開し、組織が複数の共存モードを使用して Microsoft Teams にアップグレードする場合、またはすべての機能を使用する場合は、この記事のガイダンスに従います。 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -68,4 +68,4 @@ Skype for Business または Microsoft Lync をオンプレミスに展開し、
 
 通話プランを使用していない場合は、Teams へのアップグレードの一環として、エンタープライズ 音声展開を電話システム ダイレクト ルーティングに移行する必要があります。
 
-詳細については、電話システム ダイレクト [ルーティングに関するその他の考慮事項を参照してください](https://docs.microsoft.com/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing)。 通話プランを使用する予定の場合は、電話番号を Teams に移行する方法のガイダンス [を参照してください](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+詳細については、電話システム ダイレクト [ルーティングに関するその他の考慮事項を参照してください](./direct-routing-landing-page.md)。 通話プランを使用する予定の場合は、電話番号を Teams に移行する場合のガイダンス [を参照してください](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。

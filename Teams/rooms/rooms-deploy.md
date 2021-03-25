@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 展開フェーズを含む、Microsoft Teams Rooms の展開方法の詳細については、この記事を参照してください。
-ms.openlocfilehash: 87ded33b464d6f5248fe1fb71d579d5f191bb6b6
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 3ac6ceabd1d421551ab3b9404688bd4a9302e3d6
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726308"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117465"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -140,9 +140,9 @@ Microsoft Teams Rooms の展開を計画する場合、必要なソフトウェ�
 
 **Pro のヒント** - 各Microsoft Teams Rooms は、ネットワーク上で有効な一意のコンピューター名が必要です。 多くの監視および警告システムでは、キー識別子としてコンピューター名が表示されるため、アクションが必要であるとフラグが付けられた Microsoft Teams Rooms をサポート担当者が簡単に見つけられるように、Microsoft Teams Rooms の展開用の命名規則を作成することが重要です。 例としては、MTR-*サイト*-*部屋の名前* (MTR-LON-CURIE) などのパターンが使用されることがあります。 
 
-また、展開の一環として、Microsoft Teams Rooms のアプリケーションインストーラーによって作成される[ローカル アカウント](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)を管理および構成するための戦略についても考慮する必要があります。
+また、展開の一環として、Microsoft Teams Rooms のアプリケーションインストーラーによって作成される[ローカル アカウント](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)を管理および構成するための戦略についても考慮する必要があります。
 
-[Microsoft Azure Monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) を使用して、Microsoft Teams Rooms の展開を監視し、可用性、ハードウェア/ソフトウェアのエラー、Microsoft Teams Roomsのアプリケーション バージョンなどの情報を報告する方法についてのガイダンスを提供します。 Microsoft Operations Management Suite を使用する場合は、ソフトウェアのインストール プロセスの一環として Operations Management Suite エージェントをインストールし、ワークスペースに対してワークスペース接続情報を構成する必要があります。 
+[Microsoft Azure Monitor](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) を使用して、Microsoft Teams Rooms の展開を監視し、可用性、ハードウェア/ソフトウェアのエラー、Microsoft Teams Roomsのアプリケーション バージョンなどの情報を報告する方法についてのガイダンスを提供します。 Microsoft Operations Management Suite を使用する場合は、ソフトウェアのインストール プロセスの一環として Operations Management Suite エージェントをインストールし、ワークスペースに対してワークスペース接続情報を構成する必要があります。 
 
 また、Microsoft Teams Rooms をドメインに参加させるかどうかも検討してください。 ドメイン参加の利点については、「[Skype Room System のドメイン参加に関する考慮事項](domain-joining-considerations.md)」を参照してください。 
 
@@ -200,5 +200,3 @@ _サンプル: 資産テーブル_
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | ロンドン HQ | Curie         | 中        |                                          |                                          |                                          |                                            |                   |
 | シドニー HQ | Hill          | 大         |                                          |                                          |                                          |                                            |                   |
-
-

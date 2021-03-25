@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: ポリシー名に特殊文字が含まれている問題と、その問題を修正する際の対処方法を確認します。
-ms.openlocfilehash: bc5a2fbb28e37602b21e6c519ea3b3b7cb9a0325
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 15df8b64f423d1ee20df6e230e4a9cdbebcb56db
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569409"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116985"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams のポリシーでの特殊文字の制限について
 
@@ -59,7 +59,7 @@ PowerShell を使用して Teams での会議とメッセージング用に作�
 **手順 2 - 以前のポリシーの設定を取得し、出力をキャプチャします。**
 
 > [!NOTE]
-> この例は、[メッセージング](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) ポリシー向けです。  他のポリシーの種類でも同じ手順になりますが、適切なコマンドレットを使用する必要があります。 
+> この例は、[メッセージング](/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) ポリシー向けです。  他のポリシーの種類でも同じ手順になりますが、適切なコマンドレットを使用する必要があります。 
 
   ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
@@ -70,7 +70,7 @@ PowerShell を使用して Teams での会議とメッセージング用に作�
 
 Microsoft Teams 管理センターまたは PowerShell を使用して同じ設定で、新しいポリシーを作成できます。
 
-これを実行すると、新しいポリシーが作成されますが、[Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) を確認し、次の手順を実行して、正しい設定を追加する必要があります。
+これを実行すると、新しいポリシーが作成されますが、[Set-CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) を確認し、次の手順を実行して、正しい設定を追加する必要があります。
 
   ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
@@ -79,7 +79,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用して同じ設�
  ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
-このコマンドレットの詳細については、[Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) を参照してください。
+このコマンドレットの詳細については、[Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) を参照してください。
 
 **手順 5 - 以前のポリシーを削除します。**
 
@@ -87,7 +87,7 @@ Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
   ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
-このコマンドレットの詳細については、[Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) を参照してください。
+このコマンドレットの詳細については、[Remove-CsTeamsMessagingPolicy](/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) を参照してください。
 
 このコマンドが成功した場合は完了です。 上記のコマンドがエラーを返す場合、ユーザーに以前のポリシーが割り当てられているため、ポリシーから割り当てられているすべてのユーザーを削除する必要があります。
 
@@ -98,19 +98,17 @@ Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 
 Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell では、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する必要がある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Windows PowerShell で Office 365 を管理するための最善の方法](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - 多くのユーザーの設定を同時に変更するときなどは、Microsoft 365 管理センターのみを使用するよりも、Windows PowerShell を使用した方が、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。
     
-  - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-    [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
+    [Windows PowerShell による Skype for Business Online の管理](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
     > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online と Microsoft Teams に接続できます。 このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「[Skype for Business Online 用 Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。
-  
-

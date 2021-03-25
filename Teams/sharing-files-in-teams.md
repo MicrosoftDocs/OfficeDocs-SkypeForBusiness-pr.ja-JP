@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams のファイルとフォルダー共有機能について説明します。
-ms.openlocfilehash: 5b6847c42f13701e289b2efaad4a5489351f339b
-ms.sourcegitcommit: b68a7b5100fc2b47ae81f465d48d1ac2348c1744
-ms.translationtype: HT
+ms.openlocfilehash: 53997f4493a0217e980427ab0d1f85d64095b9c9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "49795779"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117025"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Microsoft Teams でのファイル共有
 
@@ -48,6 +48,6 @@ Microsoft Teams では、組織内外の他の Teamsユーザーとコンテン�
 
 [Microsoft Teams との SharePoint Online と OneDrive for Business の連携](sharepoint-onedrive-interact.md)
 
-[サイトの既定のリンクの種類を変更する](https://docs.microsoft.com/sharepoint/change-default-sharing-link)
+[サイトの既定のリンクの種類を変更する](/sharepoint/change-default-sharing-link)
 
-[チームでゲストと共同で作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)
+[チームでゲストと共同で作業する](/microsoft-365/solutions/collaborate-as-team)

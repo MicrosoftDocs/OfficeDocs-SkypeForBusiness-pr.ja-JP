@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: このトピックでは、Skype Room Systems の後継である Microsoft Teams Roomsの管理について説明します。
-ms.openlocfilehash: 56468ad85b20b25d6e9310a20638ae35e941db73
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 52234f72c380c4f5af8f47fff51998fa8c3d1459
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875147"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117435"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用 
  
@@ -81,7 +81,7 @@ Microsoft Teams Roomsが正常に動作していない場合は、出荷時の�
 |電源管理 -\> AC で、10 分後に画面をオフにする  <br/> 電源管理 -\> AC で、システムをスリープさせない  <br/> |接続されているディスプレイをオフにし、自動的にウェイク アップさせるように Microsoft Teams Rooms を有効化する  <br/> |
 |net accounts /maxpwage:unlimited  <br/> これは、ローカル アカウントでパスワードの有効期限を無効にすることに相当します。 この操作を行わないと、最終的に Skype アカウントがログオンできなくなり、パスワードの有効期限が切れているという通知が発生します。 これは、コンピューター上のすべてのローカル アカウントに影響を与えるため、設定に失敗すると、ボックスの管理者アカウントも最終的に有効期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
-グループ ポリシーを使用してファイルを転送する方法については、「[ファイルの項目を構成する](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)」で説明しています。
+グループ ポリシーを使用してファイルを転送する方法については、「[ファイルの項目を構成する](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))」で説明しています。
 
 > [!NOTE]
 > Microsoft Teams Rooms のデバイスが Windows 10 OS の次回のバージョンと互換性がある場合、Windows Update により、デバイスは次回のバージョンに自動的に更新されます。 Microsoft Teams Rooms のデバイスでは、Windows 10 の次回のリリースに手動でアップグレードしたり、GPO を介して Windows Update for Business (WUFB) グループ ポリシーの [受信する更新プログラムの Windows 準備レベルを選択する] と [プレビュー ビルドと機能更新プログラムを受信するタイミングを選択する] を有効にしたりしないでください。 これらのグループ ポリシーが有効になっているデバイスでは、Microsoft Teams Rooms アプリによる Windows 10 OS 更新プログラムの問題が発生することがわかっています。
@@ -99,7 +99,7 @@ PowerShell を使用して、次の管理操作をリモートで実行できま
 - ファイルの転送 (ドメインに参加済み Microsoft Teams Rooms が必要)
     
 > [!NOTE]
-> この機能は既定でオフになっています。 次に示す操作を実行するには、Microsoft Teams Rooms システムの環境でリモート PowerShell を有効にする必要があります。 リモート PowerShell を有効にする方法の詳細については、**[Enable-PSRemoting](https://technet.microsoft.com/library/hh849694.aspx)** のドキュメントを参照してください。
+> この機能は既定でオフになっています。 次に示す操作を実行するには、Microsoft Teams Rooms システムの環境でリモート PowerShell を有効にする必要があります。 リモート PowerShell を有効にする方法の詳細については、**[Enable-PSRemoting](/powershell/module/microsoft.powershell.core/enable-psremoting)** のドキュメントを参照してください。
   
 たとえば、次のようにしてリモート PowerShell を有効にすることができます。
   
@@ -169,7 +169,7 @@ Copy-Item $movefile $targetDevice
   
 既定では、Microsoft Teams Rooms は Windows Update に接続してオペレーティング システムと USB 周辺機器のファームウェアの更新プログラムを取得し、設定された業務時間外にインストールします。 管理者アカウントにサインインし、設定アプリを実行して、業務時間を設定することができます。
   
-更新を手動で管理するときに、[オフライン アプリの配布](https://docs.microsoft.com/microsoft-store/distribute-offline-apps)を行うために、[ビジネス向け Microsoft Store](https://businessstore.microsoft.com/store) の通常の手順を実行できない場合は、[デプロイメント キット](https://go.microsoft.com/fwlink/?linkid=851168) ([Microsoft Teams Rooms コンソールの構成](console.md)を行うための操作指示に含まれる) から、Configuration Manager で使用できる適切な APPX ファイルと依存関係を取得できます。 デプロイメント キットのリリースは、ストアのリリースよりも後になるため、最新の入手可能な最新ビルドに必ずしも一致しない可能性があります。
+更新を手動で管理するときに、[オフライン アプリの配布](/microsoft-store/distribute-offline-apps)を行うために、[ビジネス向け Microsoft Store](https://businessstore.microsoft.com/store) の通常の手順を実行できない場合は、[デプロイメント キット](https://go.microsoft.com/fwlink/?linkid=851168) ([Microsoft Teams Rooms コンソールの構成](console.md)を行うための操作指示に含まれる) から、Configuration Manager で使用できる適切な APPX ファイルと依存関係を取得できます。 デプロイメント キットのリリースは、ストアのリリースよりも後になるため、最新の入手可能な最新ビルドに必ずしも一致しない可能性があります。
   
 ### <a name="to-update-using-powershell"></a>PowerShell を使用して更新する場合
 
@@ -223,4 +223,3 @@ Copy-Item $movefile $targetDevice
 - ルームのプレビューにミラー イメージが表示される場合、IT 管理者はカメラの電源をいったんオフにして再びオンにするか、カメラのリモート制御を使用してイメージの向きを反転させることでミラー イメージを修正できます。
 - コンソールのタッチスクリーンへのアクセスが機能しなくなる問題が発生することが知られています。 このような場合は、Microsoft Teams Rooms システムを再起動することで問題を解決できる場合があります。
 - 有線取り込みを介して PC をコンソールに接続すると、ローカルの音声が消失する問題が発生することが知られています。 このような場合は、PC を再起動することでローカルの音声再生の問題を解決できます。
-    

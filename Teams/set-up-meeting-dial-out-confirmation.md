@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37d68eb90e42b57ff76d352ea2c856e6904a9308
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4bfa15bdb0e58066d085aa852f671c6d89ff1b90
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806147"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117095"
 ---
 # <a name="set-up-meeting-dial-out-confirmation-for-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーの会議のダイヤルアウト確認を設定する
 
@@ -28,7 +28,7 @@ ms.locfileid: "49806147"
 
 この機能を有効にすると、ダイヤルアウトまたは電話で通話を受けるユーザーは、従来の携帯電話または携帯電話で 1 を押して会議に参加する必要があります。
 
-組織内のすべての会議でこの機能を有効にするには ```EnableDialOutJoinConfirmation``` [、Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) コマンドレットのパラメーターを次に設定します ```true``` 。 これを行うには、次のコマンドを実行します。
+組織内のすべての会議でこの機能を有効にするには ```EnableDialOutJoinConfirmation``` [、Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) コマンドレットのパラメーターを次に設定します ```true``` 。 これを行うには、次のコマンドを実行します。
 
 ```
 Set-CsOnlineDialInConferencingTenantSettings -EnableDialOutJoinConfirmation $true

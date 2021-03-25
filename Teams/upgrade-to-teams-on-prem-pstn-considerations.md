@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9887eec2a99fec9a6f4964899c6e631046b28897
-ms.sourcegitcommit: 54140f6f8f2279a0eaf2e9c79699d6cff306791c
+ms.openlocfilehash: 72a12cf1dbcb69af7b71bf259568e4a53d1a3a33
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "50410574"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115545"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>オンプレミスの Skype for Business から Teams にアップグレードする場合の PSTN に関する考慮事項
 
@@ -60,7 +60,7 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
 これは、音声が関係する最も簡単なアップグレード シナリオです。 
 
-1. ユーザーに Teams ライセンスが割り当てられていることを確認します。 既定では、Microsoft 365 または Office 365 ライセンスを割り当てると、Teams は有効になっているので、Teams ライセンスを以前に無効にしない限り、アクションは必要ありません。
+1. ユーザーに Teams ライセンスが割り当てられていることを確認します。 既定では、Microsoft 365 または Office 365 ライセンスを割り当てると、Teams は有効になっているので、Teams のライセンスを以前に無効にしない限り、何もする必要はありません。
 
 2.  ユーザーが既に電話番号を指定して Microsoft 通話プランを使用している場合に必要な変更は、そのユーザーに TeamsUpgradePolicy で TeamsOnly モードを割り当てることのみです。  TeamsOnly モードを割り当てる前は、着信 PSTN 通話はユーザーの Skype for Business クライアントに配信されます。 TeamsOnly モードにアップグレードすると、着信 PSTN 通話はユーザーの Teams クライアントに配信されます。  
 
@@ -94,7 +94,7 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
 1. テナント全体のポリシーを Skype for Business のモードの 1 つに設定する予定の場合は、前述のように既存のアイランド ユーザーにアイランド モードを明示的に割り当てることにより、それらのユーザーを必ず grandfather 化してください。
 
-2. まだ構成していない場合は、[Skype for Business Hybrid 用に組織を構成](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)します。
+2. まだ構成していない場合は、[Skype for Business Hybrid 用に組織を構成](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)します。
 
 3. ダイレクト ルーティング用にテナントを構成します。 「[ダイレクト ルーティングのテナントごとの構成の概要](#summary-of-per-tenant-configuration-of-direct-routing)」を参照してください。
 
@@ -119,13 +119,13 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
 1. テナント全体のポリシーを Skype for Business のモードの 1 つに設定する予定の場合は、前述のように既存のアイランド ユーザーにアイランド モードを明示的に割り当てることにより、それらのユーザーを必ず grandfather 化してください。 
 
-2. まだ構成していない場合は、[Skype for Business Hybrid 用に組織を構成](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)します。 
+2. まだ構成していない場合は、[Skype for Business Hybrid 用に組織を構成](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)します。 
 
 3. 必要に応じて、これらのユーザーに対してさまざまな Teams ポリシーを構成します (TeamsMessagingPolicy や TeamsMeetingPolicy など)。 この操作はいつでも行えますが、ユーザーをアップグレードした時にユーザーが確実に正しく構成されているようにするには、ユーザーを TeamsOnly アップグレードする前にこれを行なっておくのが最善です。 
 
 4. 必要に応じて、Microsoft 365 または Office 365 ライセンスを割り当てる。ユーザーは、電話システムに加えて、Teams と Skype for Business Online プラン 2 の両方が必要です。 Skype for Business Online プラン 2 が無効になっている場合は、もう一度有効にします。  
 
-5. ユーザーの電話番号を取得します。 (詳細については、「[組織の電話番号を管理する](https://docs.microsoft.com/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)」を参照してください)。
+5. ユーザーの電話番号を取得します。 (詳細については、「[組織の電話番号を管理する](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください)。
 
    - 番号を再利用する場合は、通信事業者に移植要求を提出します。  
    - または、直接 Microsoft から新しい番号を取得することもできます。 
@@ -163,17 +163,16 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
 ## <a name="related-links"></a>関連リンク
 
-[Teams 音声ソリューションを計画する](cloud-voice-landing-page.md)
+[Teams の音声ソリューションを計画する](cloud-voice-landing-page.md)
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md) 
 
-[Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を構成する](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+[Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を構成する](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
-[オンプレミスとクラウドの間でユーザーを移動する](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+[オンプレミスとクラウドの間でユーザーを移動する](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
 
 [共存およびアップグレードを設定する](setting-your-coexistence-and-upgrade-settings.md)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
+[Grant-CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)
 
-[会議移行サービス (MMS) を使用する](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
-
+[会議移行サービス (MMS) を使用する](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)

@@ -19,48 +19,48 @@ f1.keywords:
 - CSH
 ms.custom:
 - Reporting
-description: Microsoft Teams の通話品質の問題を特定してトラブルシューティングするために、ユーザーごとの通話分析をセットアップします。
-ms.openlocfilehash: f1ea46f275dfbbe5ea7f6cd40d8c06fba2b5e00f
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+description: Microsoft Teams の通話品質の問題を特定してトラブルシューティングするために、ユーザーごとの通話分析を設定します。
+ms.openlocfilehash: 209fcad851f5ba7b0183a9988372e249f99cc4fd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581108"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117135"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>Microsoft Teams の通話分析を設定する
 
-Microsoft Teams の管理者は、ユーザーごとの通話分析を使用して、**個々のユーザー**に対するチームの通話品質と接続の問題のトラブルシューティングを行うことができます。 通話分析を最大限に活用するには、次のように設定します。
+Microsoft Teams 管理者は、ユーザーごとの通話分析を使用して、個々のユーザーの Teams の通話品質と接続の問題を **トラブルシューティングできます**。 通話分析をフルに活用するには、次の設定を行います。
   
-- 特別なサポートロールを、ヘルプデスクエージェントなどのユーザーに割り当てて、ユーザーに対して通話分析を表示できるようにします。 これらのサポートロールは、Teams 管理センターの残りの部分にはアクセスできません。 
+- ヘルプデスク エージェントなどの特殊なサポート ロールをユーザーに割り当て、ユーザーの通話分析を表示します。 これらのサポート ロールは、Teams 管理センターの他の部分にはアクセスできない。 
     
-- .Tsv または .csv データファイルをアップロードして、建物、サイト、テナントの情報をユーザーごとの通話分析に追加します。
+- .tsv または .csv データ ファイルをアップロードして、ユーザーごとの通話分析に建物、サイト、テナントの情報を追加します。
     
-ユーザーごとの通話分析の使用を開始する準備ができたら、「[ユーザーごとの通話分析を使用して通話品質の低下を解決する」を](use-call-analytics-to-troubleshoot-poor-call-quality.md)参照してください。
+ユーザーごとの通話分析の使用を開始する準備ができたら、「ユーザーごとの通話分析を使用して低品質の通話のトラブルシューティングを行う」を参照 [してください](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
   
-## <a name="give-permission-to-support-and-helpdesk-staff"></a>サポートおよびヘルプデスクスタッフへのアクセス許可を付与する
+## <a name="give-permission-to-support-and-helpdesk-staff"></a>サポートおよびヘルプデスク スタッフにアクセス許可を付与する
 
-Teams の管理者は、すべてのユーザーについて分析情報を取得するための完全なアクセス権を持っています。 ユーザーがユーザーごとの通話分析にアクセスできるように、チーム管理センターの他の部分にはアクセスできないようにするために、ユーザーが1人ずつの通話分析にも割り当てることができる特別な Azure Active Directory ロールを作成しました。 ユーザーごとの通話分析 (Tier 1 サポート) の制限されたビューが必要なユーザーに**チーム通信のサポートスペシャリスト**の役割を割り当てます。 ユーザー単位の通話分析 (Tier 2 サポート) へのフルアクセスが必要なユーザーに、 **Teams 通信サポートエンジニア**の役割を割り当てます。 どちらのロールでも、Teams 管理センターの残りの部分にはアクセスできません。
+Teams 管理者は、すべてのユーザーの通話分析情報にフル アクセスできます。 サポート スタッフとヘルプデスク エージェントに割り当て、(Teams 管理センターの他の部分にアクセスすることなく) ユーザーごとの通話分析にアクセスできるよう、いくつかの特殊な Azure Active Directory ロールを作成しました。 ユーザーごとの **通話分析 (** 階層 1 のサポート) のビューを限定する必要があるユーザーに、Teams 通信サポートの専門の役割を割り当てる。 ユーザーごとの **通話分析 (** 階層 2 のサポート) へのフル アクセスが必要なユーザーに、Teams コミュニケーション サポート エンジニアの役割を割り当てる。 どちらの役割も、Teams 管理センターの他の部分にアクセス権を持つ必要があります。
 
-これらの各ロールの概要については、「[各チームでサポート](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)される役割」を参照してください。
+これらの各役割の機能については、「Teams の各サポートの役割について [」を参照してください](use-call-analytics-to-troubleshoot-poor-call-quality.md#what-does-each-teams-support-role-do)。
 
-Teams の管理者ロールの詳細については、「チーム管理[者ロールを使用してチームを管理する](using-admin-roles.md)」を参照してください。 Azure Active Directory に管理者ロールを割り当てる方法については、「 [Azure Active directory でロールを表示して割り当てる](https://docs.microsoft.com/Azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。
+Teams の管理者ロールの詳細については、「Teams 管理者ロールを使用して Teams を [管理する」を参照してください](using-admin-roles.md)。 Azure Active Directory で管理者ロールを割り当てる方法については、「Azure Active Directory でロールを表示して割り当てる [」を参照してください](/Azure/active-directory/users-groups-roles/directory-manage-roles-portal)。
 
-Azure Active Directory に管理者ロールを割り当てる方法については、「 [Azure Active directory での役割の表示と割り当て](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)」を参照してください。
+Azure Active Directory で管理ロールを割り当てる方法については、「Azure Active Directory でロールを表示および割り当てる [」を参照してください](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)。
 
-## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>.Tsv または .csv ファイルをアップロードして、建物、サイト、テナントの情報を追加する
+## <a name="upload-a-tsv-or-csv-file-to-add-building-site-and-tenant-information"></a>.tsv または .csv ファイルをアップロードして、建物、サイト、テナント情報を追加する
 
-.Csv または .tsv ファイルをアップロードすることによって、建物、サイト、テナントの情報をユーザーごとの呼び出し分析に追加することができます。 すべての情報を使って、通話分析で IP アドレスを物理的な場所に対応付けることができます。 管理者およびヘルプデスクエージェントは、この情報を使って、通話の問題に関する傾向を見つけることができます。 たとえば、同じ建物のユーザーが同様の通話品質の問題を抱えているのはなぜですか? 
+.csv ファイルまたは .tsv ファイルをアップロードすると、ユーザーごとの通話分析に建物、サイト、テナントの情報を追加できます。 これらの情報はすべて、通話分析によって IP アドレスを物理的な場所にマップできます。 管理者とヘルプデスク エージェントは、この情報を使用して通話の問題の傾向を把握できます。 たとえば、同じ建物内のユーザーが同様の通話品質の問題を抱えている理由は何ですか? 
 
-チームまたは Skype for business の管理者である場合は、Teams または Skype for Business 通話品質ダッシュボード (CQD) から既存のテナントと建物データファイルを使用できます。 まず、CQD からファイルをダウンロードしてから、通話分析にアップロードします。 
+Teams または Skype for Business 管理者の場合は、既存のテナントを使用して、Teams または Skype for Business 通話品質ダッシュボード (CQD) からデータ ファイルを作成できます。 まず、CQD からファイルをダウンロードし、それを通話分析にアップロードします。 
 
-- 既存のデータファイルをダウンロードするには、 **Microsoft Teams 管理センター**の  >  **通話品質ダッシュボード**  >  **で今すぐアップロード**します。 [**マイアップロード**] ボックスの一覧で、目的のファイルの横にある [**ダウンロード**] をクリックします。 
+- 既存のデータ ファイルをダウンロードするには **、Microsoft Teams** 管理センターの [通話品質ダッシュボードのアップロード]  >    >  **に移動します**。 [マイ **アップロード] リストで、** 必要なファイル **の** 横にある [ダウンロード] をクリックします。 
 
-- 新しいファイルをアップロードするには、 **Microsoft Teams 管理センター**の場所に移動し、  >  **Locations**[**場所データのアップロード**] または [**場所のデータの置き換え**] を選択します。
+- 新しいファイルをアップロードするには **、Microsoft Teams** 管理センターの [場所] に移動し、[場所データのアップロード] または [場所データの置き換  >  え]**を選択します**。 
   
-.Tsv または .csv ファイルを最初から作成する場合は、「[テナントと建物データをアップロード](CQD-upload-tenant-building-data.md)する」を参照してください。
+.tsv または .csv ファイルを最初から作成する場合は、「テナントをアップロードしてデータを作成する [」を参照してください](CQD-upload-tenant-building-data.md)。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[ユーザーごとの通話分析を使用して、低品質の通話品質をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[低品質の通話のトラブルシューティングにユーザーごとの通話分析を使用する](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

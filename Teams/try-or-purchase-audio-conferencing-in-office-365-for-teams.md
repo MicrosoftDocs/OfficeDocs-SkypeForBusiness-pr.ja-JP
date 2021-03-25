@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 または Office 365 の電話会議 (PSTN 会議) ライセンスを試用または購入して、ユーザーがダイヤルインできる電話会議を設定する方法について説明します。 '
-ms.openlocfilehash: f93ce6306dfa4ab7b5eb198363a698a352763d93
-ms.sourcegitcommit: 71b9b5ec80014bd25758493bc06d633c4eac735c
+ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50867026"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116535"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 365 for Microsoft Teams で電話会議を試用または購入する
 
@@ -51,11 +51,11 @@ ms.locfileid: "50867026"
 
    - **購入前** にお試しください。電話会議を含む Office 365 Enterprise E5 の無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
 
-   - **購入する**: [Microsoft Teams アドオン ライセンスを参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+   - **購入する**: [Microsoft Teams アドオン ライセンスを参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-3. [会議をスケジュールまたは開催](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) する組織内のユーザーにライセンスを割り当てる。
+3. [会議をスケジュールまたは開催](/microsoft-365/admin/manage/assign-licenses-to-users) する組織内のユーザーにライセンスを割り当てる。
 
-4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「Microsoft Teams アドオン ライセンスを割り当てる [」を参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「Microsoft Teams アドオン ライセンスを割り当てる [」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分単位支払い電話会議ライセンスを購入して割り当てるには
 
@@ -70,7 +70,7 @@ ms.locfileid: "50867026"
     > [!IMPORTANT]
     > コミュニケーション クレジットが設定されていない場合、電話会議が分数ごと従量課金ライセンスを持つすべてのユーザーに対して機能しません。
 
-4. [会議をスケジュールまたは開催](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users) する組織内のユーザーにライセンスを割り当てる。
+4. [会議をスケジュールまたは開催](/microsoft-365/admin/manage/assign-licenses-to-users) する組織内のユーザーにライセンスを割り当てる。
 
     > [!NOTE]
     > 電話会議の分単位支払いライセンスがある場合は、各ユーザーに通信クレジット ライセンスを個別に割り当てる必要があります。
@@ -79,7 +79,7 @@ ms.locfileid: "50867026"
 
 Skype for  Business がサードパーティの電話会議プロバイダーと統合されていない組織内のユーザーに電話会議ライセンスを割り当てると、すべてのライセンスがセットアップされ、準備が整います。 (電話会議プロバイダーを設定する必要はありません。)
 
-サードパーティの電話会議プロバイダーでユーザーを有効にしている場合は、そのユーザーのプロバイダーを Microsoft に変更する必要があります。 ユーザーのプロバイダーを変更するには、「Microsoft を電話会議プロバイダーとして割り当てる [」を参照してください](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+サードパーティの電話会議プロバイダーでユーザーを有効にしている場合は、そのユーザーのプロバイダーを Microsoft に変更する必要があります。 ユーザーのプロバイダーを変更するには、「Microsoft を電話会議プロバイダーとして割り当てる [」を参照してください](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 ## <a name="step-3-other-admin-tasks"></a>手順 3: その他の管理タスク
 
@@ -96,7 +96,7 @@ Skype for  Business がサードパーティの電話会議プロバイダーと
 > [!NOTE]
 > この機能は、21Vianet が運営する Office 365 を中国で使用しているお客様にはまだご利用いただけません。詳細については、「 [21Vianet が運営する Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [組織内の Teams を有効にする](office-365-set-up.md)
 

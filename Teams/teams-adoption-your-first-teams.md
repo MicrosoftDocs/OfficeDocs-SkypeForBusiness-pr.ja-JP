@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft 365 または Office 365 の展開を Teams で管理して Teams の導入を推進する方法について説明します。また、重要なリソースを適切なチャネルのタブとしてピン留めする方法も含まれています。
+description: Microsoft 365 または Office 365 の展開を Teams で管理して、Teams の導入を推進する方法について説明します。また、重要なリソースを適切なチャネルのタブとしてピン留めする方法も含まれています。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,24 +21,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27a54501ff05c85c675987e68240ddd58ce91ab6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5514e550bb8ba259779f390b1a87d74dcb7e3e3f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806087"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116875"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft Teams で最初のチームを作成する
 
-Teams の導入を推進する最適な方法は、製品を使用する方法です。 Teams を使用して Microsoft 365 または Office 365 展開を管理することをお勧めします。 また、チームワークと生産性に重点を置いた従業員のコミュニティを作成する必要があります。 (これらの初期チームは時間の間に変化する可能性があります)。いくつかの推奨されるチームは次のとおりです。
+Teams の導入を推進する最適な方法は、製品を使用する方法です。 Teams を使用して Microsoft 365 または Office 365 展開を管理することをお勧めします。 また、チームワークと生産性に重点を置く従業員のコミュニティを作成する必要があります。 (これらの初期チームは時間の間に変化する可能性があります)。いくつかの推奨されるチームは次のとおりです。
 
 | チーム名 | 提案されたチャネル名 |
 | --------- | ---------------------- |
-| Teams を知る | General</br> Say hi</br> 方法</br>Feedback </br> Ideas for future teams </br> Support |
-| Microsoft Teams の実装 | General <br/> 認識と導入 <br/> ビジネス予約 <br/> 早期導入者プログラム <br/> フィードバックと分析 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービス正常性とインシデント <br/> トレーニング <br/> Watercooler チャット |
-| チームワーク チャンピオン | General <br/> ベスト プラクティス、トレーニング、および方法 <br/> チャンピオン コーナー <br/> フィードバックとサポート <br/> プログラム のリード <br/> ソーシャル ハブ |
+| Teams を知る | 全般</br> Say hi</br> 方法</br>Feedback </br> Ideas for future teams </br> Support |
+| Microsoft Teams の実装 | 全般 <br/> 認識と導入 <br/> ビジネス予約 <br/> 早期導入者プログラム <br/> フィードバックと分析 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービス正常性とインシデント <br/> トレーニング <br/> Watercooler チャット |
+| チームワーク チャンピオン | 全般 <br/> ベスト プラクティス、トレーニング、および方法 <br/> チャンピオン コーナー <br/> フィードバックとサポート <br/> プログラム のリード <br/> ソーシャル ハブ |
 
-Microsoft Teams 内[](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview)のタブ ギャラリーでは、管理者が有効にしているすべての Microsoft 365 または Office 365 およびサード パーティ製アプリにアクセスできます。 製品の価値を最も高くするために、主要なリソースを各チャネルのタブとしてピン留めする方法をお勧めしています。 次の例を参照してください。
+Microsoft Teams 内[](/microsoftteams/platform/concepts/tabs/tabs-overview)のタブ ギャラリーでは、管理者によって有効にされているすべての Microsoft 365 または Office 365 およびサード パーティ製アプリにアクセスできます。 製品の価値を最も高くするために、主要なリソースを各適切なチャネルのタブとして固定する方法をお勧めしています。 次の例を参照してください。
 
 ![既定のタブとカスタム タブを示すスクリーン ショット](media/teams-adoption-tab-example.png)
 
@@ -47,19 +47,19 @@ Microsoft Teams 内[](https://docs.microsoft.com/microsoftteams/platform/concept
 |チーム/チャネル名 | [固定] タブ |
 |----------------- | ---------- |
 | **Microsoft Teams の展開** ||
-| General | [Web] タブ: [Teams のドキュメント](https://aka.ms/SuccessWithTeams) |
+| 全般 | [Web] タブ: [Teams のドキュメント](./index.yml) |
 | 認識と導入 | [Teams の導入ハブ](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)|
 | ビジネス契約 | Wiki – 契約のガイダンス<br/>フォーム – Teams の相談を依頼する<br/>リスト – 契約要求 |
-|早期導入者 | 固定されたフィードバック コミュニティ <br/> OneNote でよく寄せられる質問と一般的なテーマ |
+|早期導入者 | 固定されたフィードバック コミュニティ <br/> よく寄せられる質問と一般的なテーマの OneNote |
 | フィードバックとレポート | 固定された Microsoft 365 または Office 365 利用状況レポート (Microsoft 365 または Office 365 管理者のみ) |
-| セキュリティとコンプライアンス | Microsoft Trust Portal <br/> [セキュリティとコンプライアンスのドキュメント](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [ロードマップ](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| セキュリティとコンプライアンス | Microsoft Trust Portal <br/> [セキュリティとコンプライアンスのドキュメント](/office365/securitycompliance/index)<br/> [ロードマップ](/office365/securitycompliance/security-roadmap) |
 | 戦略と計画 | コラボレーション ノース スター PowerPoint <br/> サービス導入プロジェクト計画 |
 | トレーニング | カスタム学習トレーニング ポータル <br/> [Teams のオンライン トレーニング](https://aka.ms/TeamsTraining) |
 | **チームワーク チャンピオン**|  |
-| General | プログラムのお知らせに使用する <br/> ピン チャンピオン プログラムの概要 |
+| 全般 | プログラムのお知らせに使用する <br/> ピン チャンピオン プログラムの概要 |
 | ベスト プラクティス | PowerPoint のチーム、チャネル、チャットのベスト プラクティス <br/> チームのライフサイクル |
 | チャンピオン コーナー | 会議のメモとプレゼンテーション |
-| ソーシャル ハブ | RSS コネクタ: Teams ブログと導入の推進ブログ |
+| ソーシャル ハブ | RSS コネクタ: Teams ブログと導入の推進に関するブログ |
 | トレーニングと使い方 | トレーニング ポータルのリンク |
 
 ## <a name="making-the-switch-to-microsoft-teams"></a>Microsoft Teams に切り替える

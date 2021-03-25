@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca3c7b430469887d4ebbee3e12836e72d1204eef
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 77b40518379fd0334bce54362b07d129efe6f1a9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875097"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116945"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -31,7 +31,7 @@ ms.locfileid: "50875097"
 
 ## <a name="it-admin-guidance"></a>IT 管理者用ガイダンス
 
-- [Teams を含む有料サブスクリプション](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)で、全員が Teams にアクセスできることを確認します。 または、適格な組織は **[Teams の無料版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用でき、従業員は **[Teams Exploratory](teams-exploratory.md)** エクスペリエンスのアクティブ認証を行えます。
+- [Teams を含む有料サブスクリプション](/office365/servicedescriptions/teams-service-description)で、全員が Teams にアクセスできることを確認します。 または、適格な組織は **[Teams の無料版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)** を使用でき、従業員は **[Teams Exploratory](teams-exploratory.md)** エクスペリエンスのアクティブ認証を行えます。
 
 -  Teams が含まれているサブスクリプションが既にある場合は、**[Teams をすべてのユーザーに対して有効にします](user-access.md)**。
     
@@ -90,7 +90,7 @@ Teams をユーザーに展開するための準備として、 **[カスタマ�
 
    - 2020 年 3 月 26 日のブログ: [VPN で実行: Microsoft がリモート従業員をどのように接続させているか](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/)
    
-   - 中国にお住まいの場合は、「[中国内ユーザー向けの Microsoft 365 または Office 365 のグローバル テナントのパフォーマンスの最適化](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china)」をご確認ください。
+   - 中国にお住まいの場合は、「[中国内ユーザー向けの Microsoft 365 または Office 365 のグローバル テナントのパフォーマンスの最適化](/Office365/Enterprise/office-365-networking-china)」をご確認ください。
 
    - 通話や会議の品質に関する問題のトラブルシューティングや解決のサポートが必要な場合は、この記事の下部にある「[既知の問題 - 中国: Skype for Business/Teams 会議 ID へのダイヤルイン](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids)」のガイダンスに従ってください。
 
@@ -102,9 +102,9 @@ Teams をユーザーに展開するための準備として、 **[カスタマ�
 
    - [リモート ワークで、セキュリティを維持する: CISO のためのガイダンス](https://www.microsoft.com/security/blog/?p=90736)
 
-   - [Top 12 tasks for security teams to support working from home](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work) (在宅勤務をサポートするためにセキュリティ チームが行う 12 の主なタスク)
+   - [Top 12 tasks for security teams to support working from home](/microsoft-365/security/top-security-tasks-for-remote-work) (在宅勤務をサポートするためにセキュリティ チームが行う 12 の主なタスク)
    
-   - [VPN スプリット トンネリングを使用してリモート ユーザーの Microsoft 365 または Office 365 の接続を最適化する](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+   - [VPN スプリット トンネリングを使用してリモート ユーザーの Microsoft 365 または Office 365 の接続を最適化する](/Office365/Enterprise/office-365-vpn-split-tunnel)
 
    - 「[セキュリティと Teams](teams-security-guide.md)」では、Microsoft 365 のエンタープライズ レベルのセキュリティのベスト プラクティスと手順の一環として、Teams のセキュリティのすべての技術的な詳細について説明しています。
 
@@ -119,7 +119,7 @@ Teams をユーザーに展開するための準備として、 **[カスタマ�
 
    - 詳細を知りたいユーザーと[詳細なトレーニング ビデオ](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk)を共有してください。
 
-   - Teams を使用するための準備と Teams の管理の方法については、「[Teams の展開方法](How-to-roll-out-teams.md)」を参照してください。
+   - Teams を使用するための準備と Teams の管理の方法については、「[Teams の展開方法](./deploy-overview.md)」を参照してください。
 
     
 3. リモートでの作業に関する Microsoft の新しいコンテンツを確認して、ユーザーと共有してください。
@@ -146,7 +146,7 @@ Teams をユーザーに展開するための準備として、 **[カスタマ�
 
 8. Teams を使用して、従業員と連絡を取り合います。
 
-   - [組織全体のチーム](create-an-org-wide-team.md)、および[社内コミュニケーター](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) アプリのテンプレート。
+   - [組織全体のチーム](create-an-org-wide-team.md)、および[社内コミュニケーター](/microsoftteams/platform/samples/app-templates#company-communicator) アプリのテンプレート。
     
    - 組織の在宅勤務および健康と安全に関するポリシーに関する情報を送信します。
     

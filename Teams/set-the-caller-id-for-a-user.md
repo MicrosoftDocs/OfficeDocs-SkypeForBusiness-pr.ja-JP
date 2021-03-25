@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Microsoft 365 および Office 365 の既定の発信者番号 (ユーザーに割り当てられた電話番号) (通話回線 ID とも呼ばれる) について説明します。 ユーザーの発信者番号を変更またはブロックすることができます。
-ms.openlocfilehash: 1cc6221c0f4ca1642cc9422ed81e0e07ae1bfc91
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: 41883e00955cf5f39f4420fb10ead1be2e131a77
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569419"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117155"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>ユーザーに発信者番号を設定する
 Microsoft 365 および Office 365 の電話システムは、ユーザーに割り当てられた電話番号である既定の発信者番号を提供します。 ユーザーのために発信者番号 (通話回線番号) を変更または禁止することができます。 組織での発信者番号の使用方法の詳細については、[組織内での発信者番号の使用方法](how-can-caller-id-be-used-in-your-organization.md)をご覧ください。
@@ -80,7 +80,7 @@ Microsoft 365 および Office 365 の電話システムは、ユーザーに割
   ```PowerShell
   Get-CsCallingLineIdentity |fl
   ```
-  [Get-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793856.aspx) のその他の例と詳細について確認してください。
+  [Get-CsCallingLineIdentity](/powershell/module/skype/Get-CsCallingLineIdentity) のその他の例と詳細について確認してください。
     
 ### <a name="create-a-new-caller-id-policy-for-your-organization"></a>組織の新しい発信者番号ポリシーを作成します
 
@@ -93,16 +93,16 @@ Microsoft 365 および Office 365 の電話システムは、ユーザーに割
   > [!NOTE]  
   > すべての場合において、「サービス番号」フィールドに "+" を含めることはできません。
 
-  [New-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793855.aspx) のその他の例と詳細について確認してください。
+  [New-CsCallingLineIdentity](/powershell/module/skype/New-CsCallingLineIdentity) のその他の例と詳細について確認してください。
     
 - Amos Marble に作成した新しいポリシーを適用するには、次を実行します。
     
   ```PowerShell
    Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
   ```
-  詳細については、[Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) コマンドレットをご覧ください。
+  詳細については、[Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) コマンドレットをご覧ください。
     
-既にポリシーを作成している場合は [、Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) コマンドレットを使用して既存のポリシーを変更し [、Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) コマンドレットを使用して設定をユーザーに適用できます。
+既にポリシーを作成している場合は [、Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) コマンドレットを使用して既存のポリシーを変更し [、Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) コマンドレットを使用して設定をユーザーに適用できます。
   
 ### <a name="set-it-so-the-incoming-caller-id-is-blocked"></a>着信する発信者番号を禁止するように設定する
 
@@ -111,14 +111,14 @@ Microsoft 365 および Office 365 の電話システムは、ユーザーに割
   ```PowerShell
   Set-CsCallingLineIdentity  -Identity "Block Incoming" -BlockIncomingPstnCallerID $true -EnableUserOverride $true
   ```
-  [Set-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793854.aspx) のその他の例と詳細について確認してください。
+  [Set-CsCallingLineIdentity](/powershell/module/skype/Set-CsCallingLineIdentity) のその他の例と詳細について確認してください。
     
 - 作成したポリシー設定を組織内のユーザーに適用するには、次を実行します。
     
   ```PowerShell
   Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Block Incoming"
   ```
-    詳細については、[Grant-CsCallingLineIdentity](https://technet.microsoft.com/library/mt793857.aspx) コマンドレットをご覧ください。
+    詳細については、[Grant-CsCallingLineIdentity](/powershell/module/skype/Grant-CsCallingLineIdentity) コマンドレットをご覧ください。
     
 ### <a name="remove-a-caller-id-policy"></a>発信者番号ポリシーを削除する
 
@@ -136,29 +136,28 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 
 - Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell を使用すると、単一の管理ポイントを使用して Microsoft 365 または Office 365 と Skype for Business Online を管理できます。複数のタスクを実行する必要がある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Windows PowerShell と Skype for Business Online の概要](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Microsoft 365 または Windows PowerShell 365 の管理に使用する 6 Office理由](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Microsoft 365 または Windows PowerShell 365 の管理に使用する 6 Office理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell多くのユーザーに対して同時に設定変更を行う場合など、Microsoft 365 管理センターのみを使用する場合と同様に、速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
+- Windows PowerShellは、多くのユーザーに対して同時に設定変更を行う場合など、Microsoft 365 管理センターを使用する場合に限って、速度、シンプルさ、生産性の点で多くの利点があります。 次のトピックでこれらの利点について説明します。
     
-  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-  - [Windows PowerShell による Skype for Business Online の管理](https://go.microsoft.com/fwlink/?LinkId=525453)
+  - [Windows PowerShell による Skype for Business Online の管理](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](https://go.microsoft.com/fwlink/?LinkId=525038)
+  - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
   
  ## <a name="related-topics"></a>関連項目
-[電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
+[電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
-[通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[通話プランで使用されるさまざまな種類の電話番号](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [発信回線 ID と発信者名の詳細](/skypeforbusiness/what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 
-[緊急通話の利用条件](/microsoftteams/emergency-calling-terms-and-conditions)
+[緊急通話の利用条件](./emergency-calling-terms-and-conditions.md)
 
 [Skype for Business Online: 緊急通話の免責事項ラベル](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 

@@ -18,17 +18,17 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2dbeb4d93273aab848f1b4436b46e6b22e08e53
-ms.sourcegitcommit: 79b19b326ef40bf04af03021a7c6506fdd9417ba
+ms.openlocfilehash: 52e035f3940237309a1a8bab0211ccaad243b004
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/02/2021
-ms.locfileid: "50397572"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117075"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードの設定
 
 
-Teams を使用するように Skype for Business ユーザーをアップグレードする場合、ユーザーにとってシームレスなプロセスにするためのオプションがいくつかあります。 組織内のすべてのユーザーの共存とアップグレードの設定を一度に行うオプションがあります。また、組織内の 1 人または複数のユーザーの設定を変更することもできます。 以前のバージョンの Skype for Business クライアントでは、これらの設定が優先されないことがあります。 Skype for Business クライアント バージョンの詳細については、「[Skype for Business のダウンロードと更新プログラム](https://docs.microsoft.com/skypeforbusiness/software-updates)」ページ を参照してください。 
+Teams を使用するように Skype for Business ユーザーをアップグレードする場合、ユーザーにとってシームレスなプロセスにするためのオプションがいくつかあります。 組織内のすべてのユーザーの共存とアップグレードの設定を一度に行うオプションがあります。また、組織内の 1 人または複数のユーザーの設定を変更することもできます。 以前のバージョンの Skype for Business クライアントでは、これらの設定が優先されないことがあります。 Skype for Business クライアント バージョンの詳細については、「[Skype for Business のダウンロードと更新プログラム](/skypeforbusiness/software-updates)」ページ を参照してください。 
 
 「Microsoft Teams と [Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md) の共存と相互運用性、または Skype for Business との共存について理解する」を参照すると、利用できるモードをより深 [く理解できます](coexistence-chat-calls-presence.md)。  
 

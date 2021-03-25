@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams Rooms の通話と会議機能の種類に応じて使用できるライセンスについて説明します。
-ms.openlocfilehash: c01fafd6820b1ae62afccbfc2eab89c46c9d1598
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875157"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117455"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams ミーティング ルームのライセンスの更新
 
@@ -47,7 +47,7 @@ Microsoft には、会議室デバイスのライセンス会議と通話をデ�
 |管理対象サービス | | &#x2714; &sup3;|
 | | | |
 
-&sup1; 可用性と含まれる分数は、地域によって異なる場合があります。 サービスの可用性を確認するには、「[国および地域ごとの電話会議および通話プランの利用可能性](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)」を参照してください。 追加のサービス (国内プランの無料の国際通話時間など) に対しては従量課金が発生する場合があります。ユーザーは、これらの機能を無効にして、追加の課金が発生しないようにできます。  
+&sup1; 可用性と含まれる分数は、地域によって異なる場合があります。 サービスの可用性を確認するには、「[国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)」を参照してください。 追加のサービス (国内プランの無料の国際通話時間など) に対しては従量課金が発生する場合があります。ユーザーは、これらの機能を無効にして、追加の課金が発生しないようにできます。  
 
 &sup2; ソブリン クラウドでは使用不可  
 
@@ -70,13 +70,13 @@ Microsoft には、会議室デバイスのライセンス会議と通話をデ�
 |アドホック会議の開始 | Microsoft Teams Rooms Standard または Premium  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |アドホック会議を開始し、会議から電話番号にダイヤル アウト |  Microsoft Teams Rooms Standard または Premium |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |会議室に電話番号を付け、その部屋から電話を受ける、または電話番号を使って音声会議に参加する  | 直接ルーティングの場合: Microsoft Teams Rooms Standard または Premium<br/>ダイレクト ルーティングなし: 国内通話プランまたは国際通話プラン<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Microsoft Intune を使用した会議室デバイスの管理 |Microsoft Teams Rooms Standard または Premium  |[オンプレミス MDM](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) を含む Microsoft Intune サブスクリプション |
+|Microsoft Intune を使用した会議室デバイスの管理 |Microsoft Teams Rooms Standard または Premium  |[オンプレミス MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) を含む Microsoft Intune サブスクリプション |
 |Microsoft Teams の会議室管理サービス | Microsoft Teams Rooms Premium ||
 | |||
 
 > [!NOTE]
 > 既存のライセンスが会議室システムに割り当てられている場合、これらは中断されることなく機能します。 既存のライセンスの有効期限が切れた時点で、新しいミーティング ルーム SKU を使用するように移行する必要があります。  
 
- **正しいバージョンの Windows 10 を使用する**。Windows 10 イメージをデバイスに展開する場合は、「[Microsoft Teams Rooms コンソールを構成する](https://docs.microsoft.com/microsoftteams/room-systems/console)」を参照してください。 [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを入手できます。 
+ **正しいバージョンの Windows 10 を使用する**。Windows 10 イメージをデバイスに展開する場合は、「[Microsoft Teams Rooms コンソールを構成する](./console.md)」を参照してください。 [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを入手できます。 
  
  「会議室での [優れたエクスペリエンス:新しい Microsoft Teams Rooms Standard](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)と Premium をご利用ください。」をご覧ください。

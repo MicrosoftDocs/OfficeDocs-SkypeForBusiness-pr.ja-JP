@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7adc2d1cf040c778251784b19c92b1f79d7071fe
-ms.sourcegitcommit: c477aa1a7da0b6b9bea1f5d10f1395eef418bfdb
+ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50711644"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107303"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams にサイン インする
 ==========================
@@ -109,9 +109,9 @@ MDM プロバイダーでアカウント セットアップ構成が構成され
 
 アカウント セットアップ構成が設定されると、Teams はサインイン機能を制限し、登録されたデバイス上の許可されたアカウントのみにアクセスを許可します。
 
-管理対象の iOS/iPadOS デバイスのアプリ構成ポリシーを作成するには、「[管理対象の iOS/iPadOS デバイスのアプリ構成ポリシーの追加](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)」を参照してください。
+管理対象の iOS/iPadOS デバイスのアプリ構成ポリシーを作成するには、「[管理対象の iOS/iPadOS デバイスのアプリ構成ポリシーの追加](/mem/intune/apps/app-configuration-policies-use-ios)」を参照してください。
 
-管理対象の Android デバイスのアプリ構成ポリシーを作成するには、「[管理対象の Android デバイスのアプリ構成ポリシーの追加](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)」を参照してください。
+管理対象の Android デバイスのアプリ構成ポリシーを作成するには、「[管理対象の Android デバイスのアプリ構成ポリシーの追加](/mem/intune/apps/app-configuration-policies-use-android)」を参照してください。
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>デスクトップ デバイスでのサイン インを制限する方法
 Windows および MacOS の Teams アプリは、組織へのサイン インを制限するデバイス ポリシーのサポートを受けています。 ポリシーは、MDM (モバイル デバイス管理) や GPO (グループ ポリシー オブジェクト) などの通常のデバイス管理ソリューションで設定できます。 
@@ -150,7 +150,7 @@ MacOS に管理されているデバイス用の **MacOS のポリシー** は�
 
 ### <a name="global-sign-in-and-sign-out"></a>グローバルなサイン インとサイン アウト
 
-Teams Android アプリは、グローバルなサインインとサインアウトをサポートするようになり、現場担当者は手間なしでサインインとサインアウトができるようになりました。 従業員は、共有デバイスプールからデバイスを選択し、1回サインインするだけで、シフト中は"自分のものにする" ということができます。 これらのユーザーは、シフトの最後に、サインアウトすると、デバイスに対してグローバルにサイン アウトできます。 これにより、デバイスから個人情報と会社情報がすべて削除され、デバイスがデバイスプールに返されます。 この機能を利用するには、デバイスを shared モードにする必要があります。 共有デバイスをセットアップする方法の詳細については、「[Androidで共有デバイスモードを使用する方法](https://docs.microsoft.com/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode) 」を参照してください。
+Teams Android アプリは、グローバルなサインインとサインアウトをサポートするようになり、現場担当者は手間なしでサインインとサインアウトができるようになりました。 従業員は、共有デバイスプールからデバイスを選択し、1回サインインするだけで、シフト中は"自分のものにする" ということができます。 これらのユーザーは、シフトの最後に、サインアウトすると、デバイスに対してグローバルにサイン アウトできます。 これにより、デバイスから個人情報と会社情報がすべて削除され、デバイスがデバイスプールに返されます。 この機能を利用するには、デバイスを shared モードにする必要があります。 共有デバイスをセットアップする方法の詳細については、「[Androidで共有デバイスモードを使用する方法](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode) 」を参照してください。
 
 サインイン エクスペリエンスは、Teams の標準的なサインイン操作と似ていますが、サイン アウトは次の2つの画像のようなイメージです。
 
@@ -158,11 +158,11 @@ Teams Android アプリは、グローバルなサインインとサインアウ
 
 ## <a name="urls-and-ip-address-ranges"></a>URL と IP アドレスの範囲
 
-Teams を使用するには、インターネットへの接続が必要です。 Office 365 の各プラン、政府機関向けまたはその他のクラウドを使用するユーザーが到達する必要があるエンドポイントについては、「[Office 365 の URL と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。
+Teams を使用するには、インターネットへの接続が必要です。 Office 365 の各プラン、政府機関向けまたはその他のクラウドを使用するユーザーが到達する必要があるエンドポイントについては、「[Office 365 の URL と IP アドレスの範囲](/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。
 
 > [!IMPORTANT]
 > Teams では現在、すべてのユーザーについて、Google の ssl.gstatic.com サービスへの接続 (TCP ポート 443) が要求されています。Gstatic を使用していない場合であってもこれは要求されます。 Teams では間もなく (2020 年前半) この要件が削除される予定になっており、そのタイミングに合わせてこの記事も更新されます。
 
 ## <a name="related-topics"></a>関連項目
 
-[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

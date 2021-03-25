@@ -1,5 +1,5 @@
 ---
-title: PowerShell スクリプトのサンプル-新しい people manager teams を作成する
+title: PowerShell スクリプトのサンプル - 新しい People Manager チームを作成する
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、チームメンバーとしての指示を持つ、各マネージャーのチームを作成します。
+description: この PowerShell スクリプトを使用して、各マネージャーのチームをチーム メンバーとして直接作成します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f17ccf2372b10d8b0a14e4259faf9db22fc72ce
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 8343348816c1dfeb4b10f67001e3ecb3698983b7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583114"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117305"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell スクリプトのサンプル-新しい people manager teams を作成する
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell スクリプトのサンプル - 新しい People Manager チームを作成する
 
-この PowerShell スクリプトを使用して、チームメンバーとしての指示を持つ、各マネージャーのチームを作成します。 このスクリプトを実行する前に、エクスポート[マネージャー](powershell-script-create-teams-from-managers-export-managers.md)スクリプトを実行して (Active Directory から)、組織の管理者とその指示のリストをエクスポートします。
+この PowerShell スクリプトを使用して、各マネージャーのチームをチーム メンバーとして直接作成します。 このスクリプトを実行する前に、[](powershell-script-create-teams-from-managers-export-managers.md)エクスポート マネージャー スクリプトを実行して(Active Directory から) 組織のマネージャーと担当者の一覧をエクスポートします。
 
-この PowerShell スクリプトの詳細については、「 [people manager teams を作成](../create-manager-directs-teams.md)する」を参照してください。
+この PowerShell スクリプトの詳細については、「People Manager チームを作成 [する」を参照してください](../create-manager-directs-teams.md)。
 
-PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。
+PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。
 
 
-## <a name="create-new-people-manager-teams"></a>新しい people manager teams を作成する 
+## <a name="create-new-people-manager-teams"></a>新しい People Manager チームを作成する 
 
 ```powershell
 <# 
@@ -213,5 +213,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Info: Exiting.."
 #endregion
 
 ```
-
-

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16827d1b90ea07fcd84be286e03f3d3b22a55bd1
-ms.sourcegitcommit: 6a4bd155e73ab21944dd5f4f0c776e4cd0508147
+ms.openlocfilehash: 4e3a4f440230dad7c9841f31e1b2ea03c5a50b81
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "44868634"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116015"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Business Voice ユーザーの作成と割り当てを行い、電話番号を割り当てる
 
@@ -30,7 +30,7 @@ ms.locfileid: "44868634"
 
 ## <a name="create-and-license-users"></a>ユーザーの作成とユーザーへのライセンスの割り当て
 
-「[ユーザーを個別または一括で追加する](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)」および「[ユーザーにライセンスを割り当てる](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)」の手順に従います。
+「[ユーザーを個別または一括で追加する](/microsoft-365/admin/add-users/add-users)」および「[ユーザーにライセンスを割り当てる](/microsoft-365/admin/manage/assign-licenses-to-users)」の手順に従います。
 
 > [!NOTE]
 > **[製品ライセンスの割り当て]** ウィンドウで、**:::no-loc text="Microsoft 365 Business Voice":::** を選択します。

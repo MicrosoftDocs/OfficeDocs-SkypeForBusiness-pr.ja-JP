@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
-description: 管理者は、Skype Room System の機器 PC を Active Directory ドメインに参加する方法と、その方法に関する考慮事項について説明します。
+description: 管理者は、Skype Room System の機器 PC を Active Directory ドメインに参加する方法と、参加に関する考慮事項について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 806dcac8f73f555227c03f7612f30fe4a598812f
-ms.sourcegitcommit: 2eaf80bca6dfad367283e57662d81a809c9437e8
+ms.openlocfilehash: c322819fb765e05cead793c95b5e3b6af2d2a180
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50997415"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117555"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -57,7 +57,7 @@ $myCred = New-Object System.Management.Automation.PSCredential $username, $passw
 Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomSystem,OU=Resources,DC=CONTOSO,DC=LOCAL"
 ```
 
-別の OU を作成して継承をブロックしても、上位レベルで問題を引き起こす可能性があるポリシーもあります。 No Override を設定したグループ ポリシーは、Block Policy Inheritance を設定した OU より優先されます。 詳細については、グループ ポリシードキュメントの [「ポリシー](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) の継承をブロックする場合に比べて上書きなし」を参照してください。
+個別の OU を作成して継承をブロックしても、上位レベルで問題を引き起こす可能性があるポリシーもあります。 No Override を設定したグループ ポリシーは、Block Policy Inheritance を設定した OU より優先されます。 詳細については、グループ ポリシードキュメントの [「ポリシー](/previous-versions/windows/it-pro/windows-2000-server/cc978255(v=technet.10)) の継承をブロックする場合に比べて上書きなし」を参照してください。
   
 これらの問題を解決する手段は、1 つではないかもしれません。 Active Directory の専門家に相談して、適切な GPO 設定を持つ OU または前に説明したポリシーが存在しない OU 以上が提供される必要があります。 Skype Room System デバイスでサービス品質 (QoS) を有効に設定する方法をお知らせします。
 

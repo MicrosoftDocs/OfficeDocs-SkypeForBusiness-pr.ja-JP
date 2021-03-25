@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボードを有効にし、使用する方法と、通話の品質に関する概要レポートを取得する方法について学習します。
-ms.openlocfilehash: 60363ed86e4e073b7ca5a752261ac806188900b1
-ms.sourcegitcommit: ac73536f790f83a61eeb2eb8c6b71662f7bd26fc
+ms.openlocfilehash: 2d671de0e2ddc5d4c2a4e321cf90e2e2f0dbe770
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50112838"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51162692"
 ---
 # <a name="set-up-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) を設定する
 
@@ -41,12 +41,12 @@ Microsoft 通話品質ダッシュボード (CQD) を開 [https://cqd.teams.micr
 CQD では、Microsoft Teams、Skype for Business Online、Skype for Business Server 2019 の通話と会議の品質が組織全体レベルで表示されます。 
 
 > [!IMPORTANT]
-> Skype for Business Server 2019 で CQD を使用するには、通話データ コネクタを [構成する必要があります](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector)。 開始 [する前に、「通話データ コネクタを](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) 計画する」を参照してください。
+> Skype for Business Server 2019 で CQD を使用するには、通話データ コネクタを [構成する必要があります](/skypeforbusiness/hybrid/configure-call-data-connector)。 開始 [する前に、「通話データ コネクタを](/skypeforbusiness/hybrid/plan-call-data-connector) 計画する」を参照してください。
 
 
 ## <a name="assign-admin-roles-for-access-to-cqd"></a>CQD へのアクセスに管理者ロールを割り当てる
 
-[CQD](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles)にアクセスするロールを、CQD を使用する必要があるユーザーに割り当てます。
+[CQD](/microsoft-365/admin/add-users/about-admin-roles)にアクセスするロールを、CQD を使用する必要があるユーザーに割り当てます。
 
 管理者以外のユーザー (サポート エンジニアやヘルプデスク エージェントなど) に通話品質ダッシュボードを使用する場合は、これらのユーザーに次のいずれかの役割を割り当て、CQD にアクセスできます。 
 
@@ -62,10 +62,10 @@ CQD では、Microsoft Teams、Skype for Business Online、Skype for Business Se
 |グローバル リーダー |はい         |はい         |はい         |いいえ         |
 |レポート リーダー<sup>1</sup>     |はい         |いいえ         |はい         |いいえ         |
 
-<sup>1</sup>レポート リーダーは、CQD レポートの閲覧に加えて[](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)、管理センターのすべてのアクティビティ レポートと[、Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)導入コンテンツ パックのレポートを表示できます。
+<sup>1</sup>レポート リーダーは、CQD レポートを読むだけでなく、[](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)管理センターのすべてのアクティビティ レポートと[、Microsoft 365 導入](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)コンテンツ パックのレポートも表示できます。
 
 > [!NOTE]
-> [EUII (](CQD-data-and-reports.md#euii-data)エンド ユーザーを特定できる情報) が表示されない場合、この情報の表示が許可されているロールの 1 つがある場合は、CQD では 28 日間のみ EUII が保持されます。 28 日より前のデータは削除されます。
+> [EUII (](CQD-data-and-reports.md#euii-data)エンド ユーザーを特定できる情報) が表示されない場合、この情報の表示が許可されているロールの 1 つを持っている場合は、CQD は 28 日間のみ EUII を保持します。 28 日より前のデータは削除されます。
 
 これらの役割の詳細については [、「365 管理者ロールの概要Officeを参照してください](/office365/admin/add-users/about-admin-roles)。
 

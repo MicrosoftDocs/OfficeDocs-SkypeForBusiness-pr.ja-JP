@@ -19,34 +19,33 @@ f1.keywords:
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
-description: Skype 会議ブロードキャストを有効にして、会議の設定とポリシーを変更することができます。
-ms.openlocfilehash: 88f074838ff1d03153441beb624bc5d9b7ad157c
-ms.sourcegitcommit: a5bc64abb02201cb5c2ff6696f6ef99064e1cae7
+description: Skype 会議ブロードキャストを有効にして、それらの会議の設定とポリシーを変更できます。
+ms.openlocfilehash: 75b1894f486d6448662c459b0d77d4f5d3057a2f
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "48753412"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51106553"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>組織の Skype 会議ブロードキャストの設定を変更する
 
 > [!IMPORTANT]
-> Microsoft Teams 管理センターは、Skype for Business 管理センター (従来のポータル) に代わるものです。 Skype for Business を管理するためのすべての設定が Teams 管理センターになりました。 Teams 管理センターで Skype for Business の機能を管理するには、グローバル管理者または Skype for Business 管理者の [AZURE AD 管理者の役割](https://docs.microsoft.com/azure/active-directory/roles/permissions-reference) が割り当てられている必要があります。 詳細については、「 [Microsoft Teams 管理センターで Skype For business の設定を管理](https://docs.microsoft.com/MicrosoftTeams/skype-for-business-settings?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)する」を参照してください。
+> Microsoft Teams 管理センターは、Skype for Business 管理センター (レガシ ポータル) に置き換えました。 Skype for Business を管理するためのすべての設定が Teams 管理センターに表示されます。 Teams 管理センターで Skype for Business [AD](/azure/active-directory/roles/permissions-reference) を管理するには、グローバル管理者または Skype for Business 管理者の Azure 管理者ロールが割り当てられている必要があります。 詳細については、「[Microsoft Teams 管理センターで Skype for Business の設定を管理する](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)」を参照してください。
 
-Skype 会議ブロードキャストを有効にして、会議の設定とポリシーを変更することができます。
+Skype 会議ブロードキャストを有効にして、それらの会議の設定とポリシーを変更できます。
   
-- **Skype 会議ブロードキャストを有効にする** Skype 会議ブロードキャストを有効にします。 Skype 会議ブロードキャストを有効にしたら、 [Skype 会議ブロードキャスト用にネットワークを設定](set-up-your-network-for-skype-meeting-broadcast.md)する必要があります。 社外の人に対して、ウェビナーやその他のブロードキャストを保留にする場合は、この手順を実行します。 
+- **Skype 会議ブロードキャストを有効にする** Skype 会議ブロードキャストを有効にする。 Skype 会議ブロードキャストを有効にした後、Skype 会議ブロードキャスト用にネットワーク [をセットアップする必要があります](set-up-your-network-for-skype-meeting-broadcast.md)。 社外のユーザーのためにウェビナーや他のブロードキャストを開催する場合は、この手順を実行します。 
     
-- **組織で Skype 会議ブロードキャストのプレビュー機能を有効にする** Skype for Business の顧客プログラムを使用すると、新しい製品や機能にいち早くアクセスできます。 これにより、組織は、現在の環境の新機能をテストし、製品ビルドを一般公開する前にフィードバックを提供することができます。<br/>[Skype for Business のプレビュー](https://www.skypepreview.com/)
+- **組織で Skype 会議ブロードキャストプレビュー機能を有効にする** Skype for Business のお客様プログラムでは、新しい製品や機能に早期にアクセスできます。 これにより、製品ビルドを一般ユーザーにリリースする前に、今後の機能と、お客様の環境で新機能をテストし、フィードバックを提供する機会を組織に詳細に確認することができます。<br/>[Skype for Business プレビュー](https://www.skypepreview.com/)
     
-- **開催者による匿名会議のスケジュールを許可する** これにより、開催者は、サインインの必要性なく組織外のすべてのユーザーが参加できるようにするブロードキャストイベントを作成できます。
+- **開催者が匿名の会議をスケジュールできる** これにより、開催者は、組織外のユーザーがサインインする必要なく参加できるブロードキャスト イベントを作成できます。
     
-- **ブロードキャスト会議を記録できるように** するこれにより、発表者または開催者によって記録されるすべての会議を有効にすることができます。
+- **ブロードキャスト会議の記録を許可する** これにより、発表者または開催者が記録する必要がある会議を作成できます。
     
-- **出席者のヘルプデスクサポート URL** ブロードキャスト会議への接続または参加に関するヘルプが必要な場合に使用する、会議ブロードキャストの出席者のためのリンクを入力します。
+- **出席者向けヘルプデスク サポートの URL** ブロードキャスト会議の接続または出席に関するヘルプが必要な場合に使用する会議ブロードキャスト出席者のリンクを入力します。
     
 ## <a name="related-topics"></a>関連項目
 
 [Skype 会議ブロードキャスト用にネットワークをセットアップする](set-up-your-network-for-skype-meeting-broadcast.md)
 
   
- 

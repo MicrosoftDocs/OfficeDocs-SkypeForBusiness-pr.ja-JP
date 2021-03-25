@@ -1,5 +1,5 @@
 ---
-title: 中国の無料ダイヤル制限-北
+title: 中国 - 北部の無料ダイヤル制限
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 中国北部でフリーダイヤル番号をダイヤルする方法について説明します。これには、可用性、有線/固定回線、携帯ネットワークの可用性、制限が含まれます。
-ms.openlocfilehash: fd535751d235914b7f33e5e22afb726f5bfbdcec
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 中国北部での無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+ms.openlocfilehash: 8aa0a330e51a99dc53ebdacd94e53691dc165367
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140466"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116795"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>中国北部でのフリーダイヤル制限 (10 800 714 XXXX の範囲)
 
@@ -50,7 +50,6 @@ ms.locfileid: "43140466"
 ## <a name="related-topics"></a>関連項目
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
   
- 

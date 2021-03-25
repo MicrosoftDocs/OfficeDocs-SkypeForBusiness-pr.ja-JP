@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: このトピックでは、 Lync Room システムデバイスを移行して、Microsoft Teams Rooms のソフトウェアを使用する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d8da14f2d5f3ec75c6a9fb9c03a33d7e83cd1aed
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 7e850b5f5f0f210abf7defc2e53cc510c5c0b0c2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662622"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117525"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Microsoft Teams Rooms にLync Room System (LRS) デバイスを移行する
 
@@ -58,7 +58,7 @@ SMART LRS のお客様のために、Crestron hardware の下取りプログラ�
 
 ## <a name="what-should-you-do"></a>どうすればよいですか?
 
-以前に説明したアップグレードオプションを使用して、TLS 1.0/1.1 が廃止される前に、Lync Room Systemデバイスを Microsoft Teams Rooms に更新することをお勧めします。 また、既存のデバイスを、Microsoft Teams Rooms 用の新しい承認済デバイスに置き換えることもできます。 詳細については、「[ミーティングの デバイス](https://aka.ms/roomdevices) 」を参照してください。また、「[Microsoft Teams Rooms の要件](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)」 を参照してください。  
+以前に説明したアップグレードオプションを使用して、TLS 1.0/1.1 が廃止される前に、Lync Room Systemデバイスを Microsoft Teams Rooms に更新することをお勧めします。 また、既存のデバイスを、Microsoft Teams Rooms 用の新しい承認済デバイスに置き換えることもできます。 詳細については、「[ミーティングの デバイス](https://aka.ms/roomdevices) 」を参照してください。また、「[Microsoft Teams Rooms の要件](/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)」 を参照してください。  
 
 
 > [!NOTE]

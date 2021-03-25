@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の会議室デバイスを手動で更新する
+title: Microsoft Teams Rooms デバイスを手動で更新する
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms デバイスを特定のバージョンに手動で更新する方法について説明します。
-ms.openlocfilehash: fc5602aad6ffdb52ddd9f58c458b0fd6d2a625fd
-ms.sourcegitcommit: 67782296062528bbeade5cb9074143fee0536646
+ms.openlocfilehash: 3353758fa36534994336fc81e0a759c8b9f3c678
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/24/2020
-ms.locfileid: "49731395"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117515"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Microsoft Teams の会議室デバイスを手動で更新する
 
@@ -29,7 +29,7 @@ Microsoft Teams Rooms アプリは、Microsoft Store を通じて配布されま
 Microsoft Store から更新プログラムを取得できない場合は、オフライン アプリの更新 PowerShell スクリプトを使用して、Teams Rooms デバイスを新しいバージョンの Teams Rooms アプリに手動で更新できます。 Teams Rooms デバイスを手動で更新するには、この記事の手順に従います。
 
 > [!NOTE]
-> このプロセスでは、Teams Rooms アプリが既にインストールされている Teams Rooms デバイスのみを更新できます。 新しいインストールを実行するために使用できません。 また、アプリを以前のバージョンにダウングレードするためにも使用できません。 Teams Rooms アプリの新しいインストールを実行するには、デバイスの製造元に問い合わせ、固有のメディアを確認するか、「インストール メディアを準備する [」を参照してください](console.md#prepare-the-installation-media)。
+> このプロセスでは、Teams Rooms アプリが既にインストールされている Teams Rooms デバイスのみを更新できます。 新しいインストールを実行するために使用できません。 また、アプリを以前のバージョンにダウングレードするためにも使用できません。 Teams Rooms アプリの新しいインストールを実行するには、デバイスの製造元に問い合わせ、固有のメディアを確認するか、「インストール メディアを [準備する」を参照してください](console.md#prepare-the-installation-media)。
 
 ## <a name="step-1-download-the-offline-app-update-script"></a>手順 1: オフライン アプリの更新スクリプトをダウンロードする
 
@@ -42,7 +42,7 @@ Microsoft Store から更新プログラムを取得できない場合は、オ�
 3. [ブロック **解除] を選択する**
 4. [OK] を **クリックする**
 
-PowerShell を使用してスクリプトのブロックを解除するには、「ファイルのブロック [を解除する」を参照してください](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1)。
+PowerShell を使用してスクリプトのブロックを解除するには、「ファイルのブロック [を解除する」を参照してください](/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1)。
 
 オフライン アプリの更新スクリプトがダウンロードされた後、ファイルを Teams Rooms デバイスに転送します。 デバイスの管理モードで、USB ドライブを使用するか、ネットワーク ファイル共有からファイルにアクセスして、デバイスにファイルを転送できます。 デバイスでファイルを保存する場所をメモしてください。
 
@@ -60,7 +60,7 @@ PowerShell を使用してスクリプトのブロックを解除するには、
     PowerShell -ExecutionPolicy Unrestricted "<path to script>"
     ```
 
-たとえば、スクリプト ファイルが場所にあり、スクリプト ファイル名が次の `C:\Users\Admin\Downloads` `MTR-Update-4.5.6.7.ps1` 場合は、次のコマンドを実行します。
+たとえば、スクリプト ファイルが場所にあり、スクリプト ファイル名が次の場合は、 `C:\Users\Admin\Downloads` `MTR-Update-4.5.6.7.ps1` 次のコマンドを実行します。
 
 ```console
 PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.5.6.7.ps1"

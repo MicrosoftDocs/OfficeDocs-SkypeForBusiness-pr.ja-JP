@@ -17,17 +17,17 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ce7744aa18fe8ffe3fc83ca40649672f521bbba
-ms.sourcegitcommit: 43e5a4aac11c20dd5a4c35b59695f309e1559e82
+ms.openlocfilehash: afa30ad1b264088294f775bd69d52e29c5bb423d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/03/2020
-ms.locfileid: "48346358"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116545"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams のゲスト アクセスに関する問題のトラブルシューティング
 
-- 問題がわかっているかどうかを確認するには、「 [組織内のサポートチーム](Known-issues.md)」を参照してください。
-- Teams でのゲスト アクセスに関する最新のサポートの問題を確認するには、[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)に関するページに移動します。
+- 問題がわかっているかどうかを確認するには、組織内のサポート [チームを確認してください](/MicrosoftTeams/troubleshoot/teams-welcome)。
+- Teams でのゲスト アクセスに関する最新のサポートの問題を確認するには、[Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/)に関するページに移動します。
 - ゲストは組織外のユーザーです。 ユーザーが組織内にいる場合 (社内の従業員、オンサイトの請負業者、オンサイトの代理業者など) は、ゲストとして追加することはできません。 これは、関連会社についても同じです。
 - 今後実装される新機能や更新されたゲスト アクセス機能については、「[Teams のロードマップ](https://aka.ms/teamsroadmap)」で見つけてください。
 - ご要望については、「[Teams UserVoice](https://aka.ms/TeamsUserVoice)」でお知らせください。
@@ -37,19 +37,19 @@ ms.locfileid: "48346358"
 Teams のゲスト アクセスでは Azure Active Directory (Azure AD) ビジネス ツー ビジネス (B2B) およびそのライセンス モデルを使用しています。 ゲスト アクセスは、Microsoft 365 Business Standard、Office 365 Enterprise、Office 365 Education のすべてのサブスクリプションに含まれています。 追加の Microsoft 365 または Office 365 ライセンスは不要です。
 
 > [!NOTE]
-> ゲストのゲストのホームテナントで teams を有効にしておく必要があるのは、ゲストが別の (リソース) テナントでゲストとしてチームにサインインして使用できるようにするためです。
+> ゲストがサインインして別の (リソース) テナントのゲストとして Teams を使用するには、ゲストのホーム テナントで Teams を有効にする必要があります。
 
-ライセンスエラーが表示される場合は、組織でのゲストアクセスのニーズに合わせて、ライセンス要件を特定するために、 [AZURE AD の外部 id の課金モデル](https://docs.microsoft.com/azure/active-directory/external-identities/external-identities-pricing) をお読みください。
+ライセンス エラーが表示される場合は [、Azure AD の](/azure/active-directory/external-identities/external-identities-pricing) 外部 ID の課金モデルを読んで、組織内のゲスト アクセスのニーズを満たすライセンス要件を確認してください。
 
 - ゲスト ライセンスは、招待する組織に対してカウントされます。 必要なライセンスの数を算出するときは、このことを考慮に入れます。
-- 招待されたゲストが別の Microsoft 365 組織から提供されているか、または個人用メールアドレスを使用しているかにかかわらず、ライセンスは組織によってカウントされます。
+- 招待されたゲストが別の Microsoft 365 組織から送信された場合でも、個人用メール アドレスを使用している場合でも、ライセンスは組織に対してカウントされます。
 
 ## <a name="support-for-b2b-user-types"></a>B2B ユーザーの種類のサポート
 
-現在、Teams Only は、[Azure B2B で定義](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)されている状態 1 および状態 2 のゲスト ユーザーをサポートします。
+現在、Teams Only は、[Azure B2B で定義](/azure/active-directory/b2b/user-properties)されている状態 1 および状態 2 のゲスト ユーザーをサポートします。
 
 ## <a name="related-topics"></a>関連項目
 
 [Teams でのゲスト アクセス](guest-access.md)
 
-[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

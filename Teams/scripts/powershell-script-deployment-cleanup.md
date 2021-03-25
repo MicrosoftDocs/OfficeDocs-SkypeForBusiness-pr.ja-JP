@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4b0bac09e18a9c6378623066889d6b1a891a4a2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 95b7f12f9d7b531de2c50ba2de197f2f799916a2
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809487"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117295"
 ---
 # <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell スクリプトのサンプル - Teams の展開のクリーンアップ
 
@@ -65,4 +65,4 @@ catch
 ## <a name="related-topics"></a>関連項目
 
 - [Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする](../msi-deployment.md)
-- [Microsoft 365 アプリで Teams を展開する](https://docs.microsoft.com/deployoffice/teams-install)
+- [Microsoft 365 アプリで Teams を展開する](/deployoffice/teams-install)

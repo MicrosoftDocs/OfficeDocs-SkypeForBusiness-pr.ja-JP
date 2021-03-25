@@ -18,19 +18,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ff18a0645f81d1892e246ee7432d58a1c728f3ad
-ms.sourcegitcommit: 7575fb476a594d70084c603e508dd311ef1d7edb
-ms.translationtype: HT
+ms.openlocfilehash: b69b156e5cea0ff63925e91f5e3c077c794b3425
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757782"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117035"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint Online と OneDrive for Business の連携
 
 > [!Tip]
 > Teams が Azure Active Directory (AAD)、Microsoft 365 グループ、Exchange、SharePoint、および OneDrive for Business とどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teams の基礎](https://aka.ms/teams-foundations)。
 
-Microsoft Teams の各チームには、SharePoint Online のチーム サイトがあります。チームの各標準チャネルには、既定のチーム サイトのドキュメント ライブラリ内のフォルダーが用意されています。 会話内で共有されているファイルはドキュメント ライブラリに自動的に追加され、SharePoint で設定されているアクセス許可とファイルのセキュリティ オプションは、Teams 内に自動的に反映されます。 SharePoint でサイト アドレスを変更した場合の影響の詳細については、「[サイト アドレスを変更する](https://docs.microsoft.com/sharepoint/change-site-address)」を参照してください。
+Microsoft Teams の各チームには、SharePoint Online のチーム サイトがあります。チームの各標準チャネルには、既定のチーム サイトのドキュメント ライブラリ内のフォルダーが用意されています。 会話内で共有されているファイルはドキュメント ライブラリに自動的に追加され、SharePoint で設定されているアクセス許可とファイルのセキュリティ オプションは、Teams 内に自動的に反映されます。 SharePoint でサイト アドレスを変更した場合の影響の詳細については、「[サイト アドレスを変更する](/sharepoint/change-site-address)」を参照してください。
 
 > [!NOTE]
 > この記事は、標準チャネルにのみ適用されます。 プライベート チャネルのアーキテクチャは、標準チャネルとは異なります。 各プライベート チャネルには、親チームのサイトとは別個の SharePoint サイト コレクションがあります。 詳しくは、「[Microsoft Teams のプライベート チャネル](private-channels.md)」を参照してください。
@@ -85,11 +85,10 @@ Teams の **[ファイル]** タブは、SharePoint ドキュメント ビュー
 
 ## <a name="default-link-type-setting"></a>既定のリンクの種類の設定
 
-SharePoint と OneDrive には、ファイル用に作成されたリンクについて既定のリンクの種類を指定するための管理者設定があります。 Teams では、SharePoint と OneDrive の管理者による設定を再利用して、同じアプローチを採用します。 このアプローチについてさらに詳しくは、「[ユーザーが共有のリンクを取得するときの既定のリンクの種類を変更する](https://docs.microsoft.com/sharepoint/change-default-sharing-link)」で説明されています。 
+SharePoint と OneDrive には、ファイル用に作成されたリンクについて既定のリンクの種類を指定するための管理者設定があります。 Teams では、SharePoint と OneDrive の管理者による設定を再利用して、同じアプローチを採用します。 このアプローチについてさらに詳しくは、「[ユーザーが共有のリンクを取得するときの既定のリンクの種類を変更する](/sharepoint/change-default-sharing-link)」で説明されています。 
 
 ## <a name="more-information"></a>詳細情報
 
 SharePointがTeams とどのように連携するかの詳細については、[SharePoint and Teams: better together](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)を参照してください。
 
 Teams でのゲストのエクスペリエンス詳細については、[What the guest experience is like](guest-experience.md)を参照してください。
-

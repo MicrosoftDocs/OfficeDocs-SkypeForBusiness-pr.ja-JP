@@ -1,5 +1,5 @@
 ---
-title: PowerShell スクリプトのサンプル-エクスポートマネージャーとその指示
+title: PowerShell スクリプトのサンプル - エクスポート マネージャーとその担当者
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、組織の管理者とその指示の一覧を、チームメンバーとしての各マネージャーのチーム作成の準備としてエクスポートします。
+description: この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとしてマネージャーごとにチームを作成する準備をします。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e7b35710811438f1435306ce08b487b490d472
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: a7f2217bc39ead0abec48dafb75ff3f846681f20
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46583124"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117315"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell スクリプトのサンプル-エクスポートマネージャーとその指示
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell スクリプトのサンプル - エクスポート マネージャーとその担当者
 
-この PowerShell スクリプトを使用して、組織の管理者とその指示の一覧を、チームメンバーとしての各管理者に対して作成する準備を行います。
+この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとしてマネージャーごとに人のマネージャー チームを作成する準備をします。
 
-この PowerShell スクリプトの詳細については、「 [people manager teams を作成](../create-manager-directs-teams.md)する」を参照してください。
+この PowerShell スクリプトの詳細については、「People Manager チームを作成 [する」を参照してください](../create-manager-directs-teams.md)。
 
-PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。
+PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。
 
 
-## <a name="export-managers-script"></a>エクスポートマネージャースクリプト
+## <a name="export-managers-script"></a>Export-Managers スクリプト
 
 ```powershell
 <# 
@@ -142,5 +142,3 @@ Write-Host -ForegroundColor Green "$(Get-Timestamp) Exported tab delimited outpu
 
 
 ```
-
-

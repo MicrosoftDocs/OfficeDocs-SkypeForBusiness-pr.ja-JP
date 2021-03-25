@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cb76e2f67664ae5cabde54774186248c48b40c57
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+ms.openlocfilehash: 938c2e549cea153b2a6b42991ae65df5d07a4c4d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756203"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117285"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell スクリプトのサンプル - 学校の教育者と学生用のセキュリティ グループを作成する
 
-この PowerShell スクリプトを使用して、学校で Microsoft Teams ポリシーを管理するために必要なセキュリティ グループを作成します。 Teams [のグループ機能に](../assign-policies.md#assign-a-policy-to-a-group) ポリシーを割り当てると、セキュリティ グループなどのユーザーのグループにポリシーを割り当てできます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
+この PowerShell スクリプトを使用して、学校で Microsoft Teams ポリシーを管理するために必要なセキュリティ グループを作成します。 Teams [のグループ機能にポリシー](../assign-policies.md#assign-a-policy-to-a-group) を割り当てると、セキュリティ グループなどのユーザーのグループにポリシーを割り当てできます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
 
-この PowerShell スクリプトは、2 つのセキュリティ グループを作成します。1 つはスタッフと教育者用、もう 1 つはライセンスの種類に基づいて学校の学生用です。 作成したセキュリティ グループにポリシーを割り当てできます。 このスクリプトの使用の詳細については、「学校の多数のユーザーにポリシーを割り当てる」 [を参照してください](../batch-group-policy-assignment-edu.md)。
+この PowerShell スクリプトでは、2 つのセキュリティ グループが作成されます。1 つはスタッフと教育者用、もう 1 つはライセンスの種類に基づいて学校の学生用です。 作成したセキュリティ グループにポリシーを割り当てできます。 このスクリプトの使用の詳細については、「学校の多数のユーザーにポリシーを割り当てる」 [を参照してください](../batch-group-policy-assignment-edu.md)。
 
 このスクリプトは、次の手順を実行します。
 
@@ -43,9 +43,9 @@ ms.locfileid: "50756203"
 
 ## <a name="before-you-start"></a>始める前に
 
-Skype for [Business Online PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)モジュールをダウンロードしてインストールし、メッセージが表示されたらコンピューターを再起動します。
+Skype for [Business Online PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)モジュールをダウンロードしてインストールし、メッセージが表示されたらコンピューターを再起動します。
 
-さらに詳しくは [、「365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) と Teams PowerShell を使用Office Skype for Business Online を管理する方法 [をご覧ください](../teams-powershell-overview.md)。
+さらに詳しくは [、「365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) と Teams PowerShell を使用Office Skype for Business Online を管理する方法 [をご覧ください](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>サンプル スクリプト
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ Teams でユーザーにポリシーを割り当てる](../assign-policies.md)

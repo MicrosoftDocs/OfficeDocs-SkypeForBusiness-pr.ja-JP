@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 外部アクセス (フェデレーション) とゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
-ms.openlocfilehash: 10ce0e7f89872a7fda842871d17f8bd06481193f
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461047"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51115995"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする
 
@@ -53,7 +53,7 @@ Teams、Skype for Business (オンラインまたはオンプレミス)、Skype 
 
 ゲストは組織の Azure Active Directory に B2B ユーザーとして追加され、ゲスト アカウントを使用して Teams にサインインする必要があります。 つまり、ゲストがお客様の組織にサインインするには、ゲスト自身の組織からサインアウトする必要がある場合があります。
 
-Teams のゲスト アクセスを構成する方法については、「[チームでゲストと共同作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」を参照してください。
+Teams のゲスト アクセスを構成する方法については、「[チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。
 
 ## <a name="compare-external-and-guest-access"></a>外部アクセスとゲスト アクセスの比較
 
@@ -105,4 +105,3 @@ Teams のゲスト アクセスを構成する方法については、「[チー
 [Teams での外部アクセス](manage-external-access.md)
 
 [Teams でのゲスト アクセス](guest-access.md)
-

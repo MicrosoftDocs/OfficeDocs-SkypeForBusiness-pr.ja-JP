@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams Rooms を展開する方法について説明します。Teams または Skype for Business と Exchange はどちらもオンラインです。
-ms.openlocfilehash: 7a25fb17e4b9fce4a51c6e2be5828ecafff59894
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+ms.openlocfilehash: b5cfaab64840fe72dc989f00ed41760058afc765
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569123"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117335"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
 
@@ -42,11 +42,11 @@ Skype for Business を有効にするには、次のものが必要です。
 
 - Microsoft Teams Rooms のアカウントでは、少なくとも Skype for Business Online (プラン 2) のライセンスが必要ですが、Exchange Online のライセンスは必要ありません。 詳細については、「[Microsoft Teams Rooms ライセンス](rooms-licensing.md)」を参照してください。
 
-Skype for Business Online プランの詳細については、「[Skype for Business Online サービスの説明](https://technet.microsoft.com/library/jj822172.aspx)」を参照してください。
+Skype for Business Online プランの詳細については、「[Skype for Business Online サービスの説明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)」を参照してください。
 
 ### <a name="add-a-device-account"></a>デバイス アカウントを追加する
 
-1. Exchange Online PowerShell に接続します。 手順については、「[Exchange Online PowerShell に接続する](https://go.microsoft.com/fwlink/p/?linkid=396554)」を参照してください。
+1. Exchange Online PowerShell に接続します。 手順については、「[Exchange Online PowerShell に接続する](/powershell/exchange/connect-to-exchange-online-powershell)」を参照してください。
 
 2. Exchange Online PowerShell で、新しい会議室メールボックスを作成するか、既存の会議室メールボックスを変更します。 既定では、会議室メールボックスには関連付けられたアカウントが含まれていないため、会議室メールボックスを作成または変更するときにアカウントを追加する必要があります。これにより、Skype ミーティング システム v2 で認証を行うことができます。
 
@@ -82,7 +82,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
      Set-Mailbox -Identity Rigel2 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   構文とパラメーターの詳細については、「[New-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-mailbox)」と「[Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)」を参照してください。
+   構文とパラメーターの詳細については、「[New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox)」と「[Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox)」を参照してください。
 
 3. Exchange Online PowerShell で、会議の操作性を向上させるために、次のように会議室メールボックスの設定を構成します。
 
@@ -106,12 +106,12 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   構文とパラメーターの詳細については、「[Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
+   構文とパラメーターの詳細については、「[Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
-4. POWERShell コマンドレットを実行して、MS Online PowerShell に接続して Active Directory `Connect-MsolService -Credential $cred` の設定を行います。 Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。
+4. POWERShell コマンドレットを実行して、MS Online PowerShell に接続して Active Directory `Connect-MsolService -Credential $cred` の設定を行います。 Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。
 
 5. パスワードの有効期限が切れないようにするには、次の構文を使用します。
 
@@ -173,7 +173,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
    ```   -->
 
-   詳細な手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
+   詳細な手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
 
    このアカウントには電話システムの機能を追加することもできますが、最初に設定する必要があります。 詳細 [については、「電話システムとは?」](../what-is-phone-system-in-office-365.md) を参照してください。 この例では、PSTN 国内通話プランと国際通話プランを追加します。
 

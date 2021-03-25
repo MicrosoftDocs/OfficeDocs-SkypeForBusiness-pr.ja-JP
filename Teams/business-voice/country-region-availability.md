@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e5c64b8ff26ae91263925a23151cdc6619b29b3
-ms.sourcegitcommit: b4b2c7e79679cce6cf5f863ddf708e50164f9a9d
+ms.openlocfilehash: c991c038e40d988de596d10ca0e868cfd911175d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "50861421"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116025"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>国および地域ごとの Business Voice の利用可能性
 
@@ -46,7 +46,7 @@ Microsoft 365 Business Voice は 70 以上の国と地域で利用できます�
 
 テナントが通話プランや作業の開始ウィザードをサポートしていない国または地域にある場合は、「[Microsoft 販売店または Microsoft パートナーからサポートを受ける](reseller-partner-support.md)」をご覧ください。
 
-通話プラン付き、および通話プランなしの Business Voice にそれぞれ何が含まれるかについては、「[Microsoft 365 Business Voice サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-voice-service-description)」を参照してください。
+通話プラン付き、および通話プランなしの Business Voice にそれぞれ何が含まれるかについては、「[Microsoft 365 Business Voice サービスの説明](/office365/servicedescriptions/microsoft-365-business-voice-service-description)」を参照してください。
 
 
 | 国または地域    | 通話プラン付き<br> Business Voice | 通話プランなし<br> Business Voice<br>(ダイレクト ルーティング) | 作業の開始ウィザード |

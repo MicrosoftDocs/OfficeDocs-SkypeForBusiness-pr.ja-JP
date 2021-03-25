@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: d1596a650507938e8dc3e87fb02dec68e415f6d6
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
-ms.translationtype: HT
+ms.openlocfilehash: ba022bd8af5a8b1eb2e445e6034b4d318dec72b5
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031423"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117145"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
 
@@ -48,7 +48,7 @@ ms.locfileid: "49031423"
  
 ## <a name="step-2-get-and-assign-licenses"></a>手順 2: ライセンスを取得して割り当てる
  
-1. 電話会議では、ダイヤルイン会議をセットアップするユーザーごとにライセンスが必要です。 電話会議のために購入する必要のあるライセンスの種類と必要コストについては、「[Microsoft Teams のアドオン ライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)」を参照してください。
+1. 電話会議では、ダイヤルイン会議をセットアップするユーザーごとにライセンスが必要です。 電話会議のために購入する必要のあるライセンスの種類と必要コストについては、「[Microsoft Teams のアドオン ライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
 
     >[!NOTE] 
     > 電話会議は Office 365 Enterprise E5 ライセンスにアドオンとして含まれています。
@@ -65,7 +65,7 @@ ms.locfileid: "49031423"
 
 電話会議では、ユーザーの電話番号を使うことはできません。サービス番号を取得する必要があります。 会議ブリッジ用に、有料または無料のサービス番号のいずれかを取得することができます。 有料サービス番号と無料サービス番号を取得する方法は 3 通りあります。 
   
-- **Microsoft Teams 管理センターを使用** する。 いくつかの国/地域では、Microsoft Teams 管理センターを使用して、会議ブリッジ用にサービス番号を取得できます。 「[サービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」を参照してください。
+- **Microsoft Teams 管理センターを使用** する。 いくつかの国/地域では、Microsoft Teams 管理センターを使用して、会議ブリッジ用にサービス番号を取得できます。 「[サービス電話番号の取得](./getting-service-phone-numbers.md)」を参照してください。
     
 - **既存のサービス番号を移行する**。 既存の番号を現在のサービス プロバイダーまたは電話会社から Microsoft 365 または Office 365 に移行または転送します。 この方法の詳細については、「[Teams に電話番号を移行する](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。  
   

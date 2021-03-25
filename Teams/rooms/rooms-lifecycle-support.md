@@ -14,12 +14,12 @@ f1.keywords:
 localization_priority: Normal
 description: ダイナミック サポートの構造とそのフェーズを含めた Microsoft Teams Rooms のライフサイクル サポートの詳細について。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 584f4661a39d21f916b2097c242f71b996c568e6
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: e22bf9759920a5b4233fab9a6f6169f3a1153f0d
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662452"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117445"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams Rooms アプリ バージョンのサポート
  
@@ -44,7 +44,7 @@ Microsoft Teams Rooms には、半期のチャネル サービス オプショ�
 - Windows 10 Internet of Things (IoT) Enterprise LTSB/LTSC エディション
 - Windows 10 Pro エディションや Windows 10 Home エディションなどの、その他の Windows エディション
 
-Microsoft Teams Rooms デバイスでは、Windows 10 機能更新プログラムが即座には提供または更新されません。 [Windows 10 リリース情報](https://docs.microsoft.com/windows/release-information/)ページで公開される一般提供日から最大 6 か月間の意図的な遅延。 遅延時間は、Windows 10 リリースの互換性を検証するために、Microsoft Teams Rooms アプリケーション、デバイス ハードウェア、および認定オーディオ ビデオ周辺機器に使用されます。 Windows 10 のメジャー リリースの各開発期間に検証が開始され、継続されます。 すべてのデバイス メーカーが自分たちのデバイス用の最新イメージを構築したことを検証し、Microsoft Teams でそれらのイメージを認定してテストするための余分な時間が必要です。 検証期間中に、Microsoft Teams Room アプリが、[Windows Update for Business グループ ポリシー](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)を使用して、Windows 10 の機能更新プログラムを遅延させます。 互換性の問題が発見され、解決されると、Microsoft Store での新しいアプリ リリースを通して、グループ ポリシーを更新することにより、ブロックが解除されます。 Microsoft Teams Rooms アプリを実行するデバイスは、夜間のメンテナンス再起動中に、適切な Windows 10 リリースに自動的に更新されます。 手動で更新プログラムを管理する必要があるお客様は、MSI バージョンを使用できます。  
+Microsoft Teams Rooms デバイスでは、Windows 10 機能更新プログラムが即座には提供または更新されません。 [Windows 10 リリース情報](/windows/release-information/)ページで公開される一般提供日から最大 6 か月間の意図的な遅延。 遅延時間は、Windows 10 リリースの互換性を検証するために、Microsoft Teams Rooms アプリケーション、デバイス ハードウェア、および認定オーディオ ビデオ周辺機器に使用されます。 Windows 10 のメジャー リリースの各開発期間に検証が開始され、継続されます。 すべてのデバイス メーカーが自分たちのデバイス用の最新イメージを構築したことを検証し、Microsoft Teams でそれらのイメージを認定してテストするための余分な時間が必要です。 検証期間中に、Microsoft Teams Room アプリが、[Windows Update for Business グループ ポリシー](/windows/deployment/update/waas-manage-updates-wufb)を使用して、Windows 10 の機能更新プログラムを遅延させます。 互換性の問題が発見され、解決されると、Microsoft Store での新しいアプリ リリースを通して、グループ ポリシーを更新することにより、ブロックが解除されます。 Microsoft Teams Rooms アプリを実行するデバイスは、夜間のメンテナンス再起動中に、適切な Windows 10 リリースに自動的に更新されます。 手動で更新プログラムを管理する必要があるお客様は、MSI バージョンを使用できます。  
 
 > [!IMPORTANT]
 > 検証期間中は、Microsoft Teams Rooms デバイスが、何らかの方法で、次の Windows 10 のリリースに更新 **されない** ようにする必要があります。 これには、グループ ポリシーの施行の無効化または System Center やその他のサードパーティ製デバイス管理サービスの使用が含まれます。 これらのいずれかが原因で Microsoft Teams Room アプリケーションの問題が発生したり、デバイスが使用できなくなったりすることがあります。  

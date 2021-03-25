@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定および構成方法を説明します。
-ms.openlocfilehash: 7a36ed93f370c0aeb302da246b223732383719fb
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 4caa2677eea01ecc96e426692b536aec8563c473
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662062"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117575"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams Rooms のコンソールを構成する
 
@@ -97,7 +97,7 @@ CreateSrsMedia.ps1 スクリプトを実行すると、次のタスクが自動�
 システムがシャット ダウンしたら、USB セットアップ ディスクを安全に取り外すことができます。 これで、ターゲット デバイスをドックに設置して (ドックベースの製品を使用している場合)、会議室に必要な周辺機器を取り付け、ネットワークに接続することができます。 製造元の手順を参照してください。
 
 > [!NOTE]
-> Microsoft Teams Rooms のソフトウェア更新プログラムは、ビジネス向け Microsoft Store から自動的にダウンロードされます。 会議室コンソールがストアにアクセスして自己更新できるかどうかを確認するには、「[ビジネスおよび教育機関向け Microsoft Store の前提条件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business)」を参照してください。  
+> Microsoft Teams Rooms のソフトウェア更新プログラムは、ビジネス向け Microsoft Store から自動的にダウンロードされます。 会議室コンソールがストアにアクセスして自己更新できるかどうかを確認するには、「[ビジネスおよび教育機関向け Microsoft Store の前提条件](/microsoft-store/prerequisites-microsoft-store-for-business)」を参照してください。  
 
 ### <a name="selecting-a-language"></a>言語の選択 
 

@@ -11,29 +11,29 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: チームの有効期限と更新、および Microsoft 365 グループの有効期限ポリシーを使用して、Microsoft Teams で未使用のチームを自動的にクリーンアップする方法について説明します。
+description: チームの有効期限と更新、および Microsoft 365 グループの有効期限ポリシーを使用して、Microsoft Teams で使用されていないチームを自動的にクリーンアップする方法について説明します。
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b111ddd6b874fef22a7d221f6eb932c4c14c7b70
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 606d957b703725d631beec38237f4d9b4272433e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809407"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116955"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Microsoft Teams でのチームの有効期限と更新
 
 チームの数が多い組織は、実際には使用しないチームを持つ場合が多い。 これは、製品の実験、チームの短期間の共同作業、または組織を離れるチーム所有者など、いくつかの理由が原因で発生する可能性があります。 時間が経過すると、このようなチームは蓄積し、テナント リソースに負担をかける可能性があります。  
 
-使用されていないチームの数を抑制するには、管理者として [Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) グループの有効期限ポリシーを使用して、使用されていないチームを自動的にクリーンアップできます。 チームはグループに基いので、グループの有効期限ポリシーはチームにも自動的に適用されます。
+使用されていないチームの数を抑制するには、管理者として [Microsoft 365](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) グループの有効期限ポリシーを使用して、使用されていないチームを自動的にクリーンアップできます。 チームはグループに基いので、グループの有効期限ポリシーはチームにも自動的に適用されます。
 
-有効期限ポリシーをチームに適用すると、チームの所有者は、チームの有効期限の 30 日前、15 日前、1 日前にチーム更新の通知を受け取ります。 チームの所有者が通知を受け取った場合、チームの設定で [今すぐ更新] をクリックしてチームを更新できます。
+有効期限ポリシーをチームに適用すると、チーム所有者はチームの有効期限の 30 日前、15 日前、1 日前にチームの更新通知を受け取ります。 通知を受け取ったチーム所有者は、チーム設定で [今すぐ更新] をクリックしてチームを更新できます。
 
 ![チーム設定でチームを更新する [今すぐ更新] ボタンのスクリーンショット](media/team-expiration.png "チーム設定でチームを更新する [今すぐ更新] ボタンのスクリーンショット")
 
-チームの所有者がチームを更新しない場合、有効期限ポリシーが終了するまでチームでそれ以上のアクティビティがない場合、チームは "回復可能な削除" 状態になります。つまり、30 日以内に復元できます。
+チームの所有者がチームを更新しない場合、有効期限ポリシーが終了するまでチームでそれ以上のアクティビティがない場合、チームは "回復可能な削除済み" 状態になります。つまり、30 日以内に復元できます。
 
 ## <a name="team-auto-renewal"></a>チームの自動更新
 

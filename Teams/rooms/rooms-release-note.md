@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 274a83925a47519dba174a75bd92582670dab1d6
-ms.sourcegitcommit: d9b95da1f4a2b7460fc67daf4011382ffa40c05e
-ms.translationtype: HT
+ms.openlocfilehash: cfb7742cb1f25db0dec7e777bdb9a891ca009867
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50150883"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117415"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -86,7 +86,7 @@ ms.locfileid: "50150883"
 - Teams ミーティングのコンソールからユーザーのビデオにスポットライトを設定し、スポットライト設定したビデオをルームのディスプレイで表示する
 
 > [!NOTE]
-> Cortana 音声スキルは、米国内にあるテナントの特定のオーディオ周辺機器で利用できます。 今後、その他の国または地域が追加される予定です。 詳細については、「[Teams での Cortana の音声アシスタンス](https://docs.microsoft.com/microsoftteams/cortana-in-teams)」を参照してください。
+> Cortana 音声スキルは、米国内にあるテナントの特定のオーディオ周辺機器で利用できます。 今後、その他の国または地域が追加される予定です。 詳細については、「[Teams での Cortana の音声アシスタンス](../cortana-in-teams.md)」を参照してください。
 
 ### <a name="46230-10192020"></a>4.6.23.0 (10/19/2020)
 
@@ -125,7 +125,7 @@ ms.locfileid: "50150883"
 - Teams ミーティングからフェデレーション ユーザー (テナント) を検索して呼び出す
 
 > [!IMPORTANT]
-> バージョン4.5 は、Windows 10 バージョン 1803 をサポートする最後のリリースです。将来のリリースは、Windows 10 バージョン 1803 のシステムには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](https://docs.microsoft.com/microsoftteams/rooms/rooms-lifecycle-support#windows-10-release-support)」を参照してください。
+> バージョン4.5 は、Windows 10 バージョン 1803 をサポートする最後のリリースです。将来のリリースは、Windows 10 バージョン 1803 のシステムには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](./rooms-lifecycle-support.md#windows-10-release-support)」を参照してください。
 
 ### <a name="44630-06252020"></a>4.4.63.0 (06/25/2020)
 
@@ -260,7 +260,7 @@ ms.locfileid: "50150883"
 
 - 今後の Windows 10 バージョン 1803 アップグレード用に Microsoft Teams Rooms アプリを準備するために必要なコードの変更
 - EULA OOBE セットアップ ウィンドウの先に進まないようにする、ローカライズされた EULA (具体的にはノルウェー語) に伴う書式設定の問題の修正
-- Microsoft Teams Rooms アプリケーションをレガシ Lync Room System で実行するために必要なコードの変更。 詳細については、[こちら](https://aka.ms/lrsupgrade)を参照してください。
+- Microsoft Teams Rooms アプリケーションをレガシ Lync Room System で実行するために必要なコードの変更。 詳細については、[こちら](./lrs-migration.md)を参照してください。
 
 ### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
 

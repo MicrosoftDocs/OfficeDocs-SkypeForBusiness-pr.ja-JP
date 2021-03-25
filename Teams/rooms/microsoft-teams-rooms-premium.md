@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: a70a07d4f17e4eb956c005ff4296a8f1b69f4d37
-ms.sourcegitcommit: 6262deaede6f25b17624d7468eff7a2863eeacf7
+ms.openlocfilehash: b174f0d3f608502d74d4dfbc33aa9bac66b684d1
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50043951"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117505"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 
@@ -64,7 +64,7 @@ Microsoft Teams Rooms の管理サービスの概要を以下に示します。
 
 ## <a name="service-prerequisites"></a>サービスの前提条件
 
-Microsoft Teams Rooms の管理サービスのサービス品質を維持するには、登録された会議室が [Microsoft Teams Roomsのサポート デバイス](requirements.md#hardware-requirements)である必要があり、会議室のデバイスからアクセスできるように、[必須 Office 365 URL と IP アドレスの範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252fen-us%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)を使用して環境を準備する必要があります。 詳細については、Microsoft Teams Rooms のマニュアルの「[環境の準備](rooms-prep.md)」を参照してください。
+Microsoft Teams Rooms の管理サービスのサービス品質を維持するには、登録された会議室が [Microsoft Teams Roomsのサポート デバイス](requirements.md#hardware-requirements)である必要があり、会議室のデバイスからアクセスできるように、[必須 Office 365 URL と IP アドレスの範囲](/office365/enterprise/urls-and-ip-address-ranges)を使用して環境を準備する必要があります。 詳細については、Microsoft Teams Rooms のマニュアルの「[環境の準備](rooms-prep.md)」を参照してください。
 
 管理サービスのプロバイダーとして、Microsoft は、会議室を健全に保ち、問題を解決するために、お客様の組織内の会議室に対する責任ある関係者と協力する必要があります。 お客様は、会議室で使用される未認証のデバイス、会議室での展開を選択したサードパーティ製またはカスタム ソフトウェア、および Microsoft が推奨する変更管理方法に従う必要があります。
 

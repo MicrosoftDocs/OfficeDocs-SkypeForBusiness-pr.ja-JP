@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Office 365 の管理者として Microsoft Teams のゲスト アクセス機能を有効または無効にする方法について説明します。
-ms.openlocfilehash: c82172eb4d0c9fe50832d45ce2146c89d7e6d7d8
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 34759e601f5c0cd232bcd6227ff5c7d1fef1d3fe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884521"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51107403"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 
@@ -38,7 +38,7 @@ ms.locfileid: "50884521"
 > **2021 年 2 月** 以降、この設定を構成していない新規のお客様と既存のお客様へは、Microsoft Teams のゲスト アクセスが既定で有効になります。 この変更を実装すると、Microsoft Teams でゲスト アクセス機能をまだ構成していない場合、その機能はテナントで有効になります。 組織でゲスト アクセスを無効にしたままにする場合は、ゲスト アクセスの設定が **既定のサービス** ではなく **オフ** に設定されていることを確認する必要があります。
 
 > [!IMPORTANT]
-> ゲスト アクセスをオンにする方法は、Azure Active Directory、Office 365、SharePoint Online、Teams の設定により異なります。 詳細については、「[チームでゲストと共同作業を行う](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」を参照してください。
+> ゲスト アクセスをオンにする方法は、Azure Active Directory、Office 365、SharePoint Online、Teams の設定により異なります。 詳細については、「[チームでゲストと共同作業を行う](/microsoft-365/solutions/collaborate-as-team)」を参照してください。
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Teams 管理センターでゲスト アクセスを構成する
 
@@ -80,8 +80,8 @@ ms.locfileid: "50884521"
 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft 365 とセキュリティで保護された共同作業を設定する](https://docs.microsoft.com/microsoft-365/solutions/setup-secure-collaboration-with-teams)
+[Microsoft 365 とセキュリティで保護された共同作業を設定する](/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 
-[特定のチームにゲストが入れないようブロックする](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[特定のチームにゲストが入れないようブロックする](/microsoft-365/solutions/per-group-guest-access)
 
-[Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration)
+[Set-CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)

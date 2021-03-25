@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: このトピックでは、オンプレミスの Exchange が搭載されたハイブリッド環境に Microsoft Teams Rooms を展開する方法について説明します。
-ms.openlocfilehash: fcf7216a4fcadee1e81ef11b5310b9d0a88e378a
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 3931ba89dd4ad0dfd994fdf27a3f209275850116
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460517"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117355"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>オンプレミスで Exchange を使用し Microsoft Teams Rooms を展開する
 
@@ -49,6 +49,8 @@ Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、�
   - Microsoft 365 または Office 365 プランの Skype for Business Online (プラン 2) 以降を使用する必要があります。 プランは会議機能をサポートする必要があります。
   
   - Microsoft Teams Rooms 向けテレフォニーサービスプロバイダーを使用して、エンタープライズ ボイス(PSTN テレフォニー) が必要な場合は、Skype for Business Online (プラン 3) が必要です。
+
+  - Microsoft Teams または Skype for Business Online でルーム アカウントを構成する場合、そのアカウントをルーム アカウントとして有効にする前に、電話番号を割り当てる必要があります。
   
   - テナントユーザーには Exchange メールボックスが必要です。
   
@@ -71,7 +73,7 @@ Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、�
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>リモートメールボックスを有効にしてプロパティを設定する
 
-1. [Exchange 管理シェルを開く](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) または、[リモート PowerShellを使用して Exchange サーバーに接続し ます](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)。
+1. [Exchange 管理シェルを開く](/powershell/exchange/exchange-server/open-the-exchange-management-shell) または、[リモート PowerShellを使用して Exchange サーバーに接続し ます](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)。
 
 2. Exchange PowerShell で次のコマンドを実行して、アカウントのメールボックスを作成します （アカウントのメールボックス有効化）アカウントを有効にします）。
 
@@ -79,7 +81,7 @@ Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、�
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
-   構文およびパラメーターの詳細については、「[Enable-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/enable-mailbox)」を参照してください。
+   構文およびパラメーターの詳細については、「[Enable-Mailbox](/powershell/module/exchange/mailboxes/enable-mailbox)」を参照してください。
 
 3. Exchange Online PowerShell で、会議機能を向上させるために、会議室メールボックスの次の設定を構成します。
 
@@ -103,14 +105,14 @@ Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、�
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 
-   構文とパラメーターの詳細情報については、[Set-CalendarProcessing](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
+   構文とパラメーターの詳細情報については、[Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Microsoft 365 または Office 365 ライセンスを割り当てる
 
-1. Azure Active Directoryに接続する Active Directory の詳細については、[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)を参照してください。 
+1. Azure Active Directoryに接続する Active Directory の詳細については、[Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)を参照してください。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。 
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。 
 
 2. デバイスアカウントには、Microsoft 365 または Office 365 の有効なライセンスが必要です。さもないと Exchange および Microsoft Teams は機能しません。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。 `Get-MsolAccountSku`を使用して <!-- Get-AzureADSubscribedSku --> 使用可能な SKUの一覧を取得できます。
 
@@ -132,7 +134,7 @@ Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、�
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
 
-   手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
+   手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
 
 ### <a name="enable-the-device-account"></a>デバイスアカウントを有効にする
 
@@ -145,9 +147,11 @@ Skype for Business Online PowerShell は、Microsoft Teams および Skype for B
 > 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)をご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
 
    ``` Powershell
-   Import-Module -Name MicrosoftTeams  
-   $cssess=New-CsOnlineSession -Credential $cred  
-   Import-PSSession $cssess -AllowClobber
+   # When using Teams PowerShell Module
+
+   Import-Module MicrosoftTeams
+   $credential = Get-Credential
+   Connect-MicrosoftTeams -Credential $credential
    ```
 
 2. アカウントの SIP アドレスを取得します。
@@ -156,7 +160,18 @@ Skype for Business Online PowerShell は、Microsoft Teams および Skype for B
     $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
     ```
 
-3. Microsoft Teams Rooms を使用するには、次のコマンドを実行します。
+3. **オプション。** アカウントに電話番号を割り当てる場合は、この時点で操作を実行する必要があります。 ダイレクト ルーティングの電話番号を割り当てる場合:
+
+   ``` Powershell
+    Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255550012
+    ```
+    Microsoft 提供の電話番号を割り当てる場合は、通話プラン ライセンスでユーザーをプロビジョニングした後、次のコマンドレットを使用します。
+    
+    ``` Powershell
+    Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255550011 -LocationID xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    ```
+    
+4. Microsoft Teams Rooms を使用するには、次のコマンドを実行します。
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: このトピックでは、Exchange OnlineとSkype for Business Serverオンプレミス を使用して Microsoft Teams Rooms を展開する方法について説明します。
-ms.openlocfilehash: 82fa0b1b521c7dd2feadcca2030869b746a444aa
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 5e3446349be8aaef666c02c73370758027736181
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662312"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117345"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams Rooms を展開
 
@@ -37,7 +37,7 @@ Microsoft Teams Rooms を Exchange Onlineで展開する前に、要件を満た
 Exchange Online を使用して Microsoft Teams Rooms を展開するには、次の手順に従います。 関連するコマンドレットを実行する適切なアクセス許可があることを確認します。 
 
    > [!NOTE]
-   >  このセクションで説明されている [「Windows PowerShell コマンドレット用の Azure Active Directory モジュール](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)」 (たとえば  Set-MsolUser)  は、Microsoft Teams Rooms デバイスのアカウントを設定するためにテストされました。 他のコマンドレットでも機能することがありますが、この特定のシナリオではテストされていません。
+   >  このセクションで説明されている [「Windows PowerShell コマンドレット用の Azure Active Directory モジュール](/powershell/azure/active-directory/overview?view=azureadps-1.0)」 (たとえば  Set-MsolUser)  は、Microsoft Teams Rooms デバイスのアカウントを設定するためにテストされました。 他のコマンドレットでも機能することがありますが、この特定のシナリオではテストされていません。
 
 Active Directory フェデレーションサービス (AD FS) を展開した場合は、次の手順を実行する前に、ユーザーアカウントを管理されているユーザーに変換し、この手順を実行した後にユーザーをフェデレーションユーザーに戻す必要があります。
   
@@ -84,14 +84,14 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
     > [**パスワードを無期限にする**] を選択すること は、Microsoft Teams Rooms 上で Skype for Business Serverを使用する要件です。  有効期限が切れないパスワードは、ドメインのルールで禁止されるかもしれません。 その場合は、Microsoft Teams Rooms のユーザーアカウントごとに例外を作成する必要があります。
   
 4. [ **完了**] をクリックしてアカウントを作成します。
-5. アカウントを作成したら、ディレクトリの同期を実行します。 これを行うには、PowerShell で[Set-MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0)を使用します。 それが完了したら、[ユーザー] ページに移動し、前の手順で作成した 2 つのアカウントがマージされていることを確認します。
+5. アカウントを作成したら、ディレクトリの同期を実行します。 これを行うには、PowerShell で[Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0)を使用します。 それが完了したら、[ユーザー] ページに移動し、前の手順で作成した 2 つのアカウントがマージされていることを確認します。
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Microsoft 365 または Office 365 ライセンスを割り当てる
 
-1. 最初にAzure AD に接続して、アカウント設定をいくつか適用する必要があります。 このコマンドレットを実行して接続できます。 Active Directory の詳細については、[Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0)を参照してください。
+1. 最初にAzure AD に接続して、アカウント設定をいくつか適用する必要があります。 このコマンドレットを実行して接続できます。 Active Directory の詳細については、[Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)を参照してください。
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。
 
     ``` PowerShell
    Connect-MsolService -Credential $cred
@@ -106,8 +106,8 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
 
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
-     Get-MsolAccountSku
-     Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
+    Get-MsolAccountSku
+    Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
     ```
   <!--   ``` Powershell
      Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
@@ -120,15 +120,15 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
 1. PC からリモートの Windows PowerShell セッションを作成するには、次のようにします。
 
 > [!NOTE]
-> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールの一部です。
+> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
 >
-> 最新の [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリースを使用している場合は、Skype for Business Online Connector をインストールする必要があります。
+> 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)をご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
 
     ``` Powershell
-    Import-Module -Name MicrosoftTeams
-    $cred = Get-Credential
-    $cssess = New-CsOnlineSession -Credential $cred  
-    Import-PSSession $cssess -AllowClobber
+    # When using Teams PowerShell Module
+    Import-Module MicrosoftTeams
+    $credential = Get-Credential
+    Connect-MicrosoftTeams -Credential $credential
     ```
 
 2. Skype for Business Serverに対して Microsoft Teams Rooms を有効にするには、次のコマンドを実行します。

@@ -13,28 +13,28 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: 電話会議、電話システム、通話プランのような機能について、Teams アドオン ライセンスをユーザーに割り当てる方法について説明します。
+description: Teams アドオン ライセンスをユーザーに割り当て、電話会議、電話システム、通話プランのような機能をユーザーに割り当てる方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0b7a997525759741e35fa5450c9b8777519c6c7
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196931"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116935"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Teams アドオン ライセンスをユーザーに割り当てる
 
 アドオン ライセンスは、電話会議、電話システム、通話プランなどの特定の Teams 機能のライセンスです。 この記事では、アドオン ライセンスを個々のユーザーと多数のユーザーに一括で割り当てる方法について説明します。
 
 > [!NOTE]
-> アドオン [ライセンスで利用できる](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing) Teams 機能の Teams アドオン ライセンスを参照してください。 また、購入する必要があるライセンスと購入方法 (プランに応じて異なります) に関する情報も表示され、ユーザーは電話会議、無料電話番号、組織外の電話番号に電話する機能などの機能を利用できます。 ユーザーに必要な機能を決めたら、ユーザーにライセンスを割り当てる必要があります。
+> アドオン [ライセンスで利用できる](./microsoft-teams-add-on-licensing.md) Teams 機能の Teams アドオン ライセンスを参照してください。 また、購入する必要があるライセンスと購入方法 (プランに応じて異なります) に関する情報も表示され、ユーザーは電話会議、無料電話番号、組織外の電話番号に電話する機能などの機能を利用できます。 ユーザーに必要な機能を決めたら、ライセンスを割り当てる必要があります。
 
 Microsoft 365 管理センターまたは PowerShell を使用して、組織内のユーザーにライセンスを割り当てできます。 ライセンスを管理するには、グローバル管理者またはユーザー管理管理者である必要があります。
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>電話システム、通話プラン、および通信クレジットのライセンスを割り当てる前に知る必要がある情報
 
-始める前に、次の要件を確認します。
+始める前に、次の要件を確認してください。
 
 - ハイブリッド ユーザーにオンプレミスの公衆交換電話網 (PSTN) 接続を使用している場合は、電話システム ライセンスのみを割り当てる必要があります。 通話プランライセンスを割り当てない。
 
@@ -48,21 +48,21 @@ Microsoft 365 管理センターまたは PowerShell を使用して、組織内
 
 ## <a name="using-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターを使用する
 
-Microsoft 365 管理センターを使用して、一度に個別のユーザーまたは小規模なユーザー セットにライセンスを割り当てる。 ライセンスの割り当ては、[ **ライセンス]** ページ (一度に最大 20 人のユーザー) または **[アクティブ** なユーザー] ページで行います。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
+Microsoft 365 管理センターを使用して、一度に個別のユーザーまたは小規模なユーザー セットにライセンスを割り当てる。 ライセンスの割り当ては、[ **ライセンス]** ページ (一度に最大 20 人のユーザー) または [アクティブなユーザー] **ページで行** います。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
 
-詳しい手順については、「ライセンスをユーザーに割り当てる [」を参照してください](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+詳しい手順については、「ライセンスをユーザーに割り当てる [」を参照してください](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
-数百から数千のユーザーなど、多数のユーザーにライセンスを割り当てる必要がある場合は [、Azure Active Directory (Azure AD)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-groups-assign)で PowerShell またはグループベースのライセンスを使用します。  
+数百から数千のユーザーなど、多数のユーザーにライセンスを割り当てる必要がある場合は [、Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign)で PowerShell またはグループベースのライセンスを使用します。  
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
-PowerShell を使用して、ライセンスをユーザーに一括で割り当てる。  詳細については、「PowerShell でライセンスを [ユーザー アカウントに割り当てる」を参照してください](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)。
+PowerShell を使用して、ライセンスをユーザーに一括で割り当てる。  詳細については、「PowerShell でライセンスを [ユーザー アカウントに割り当てる」を参照してください](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)。
 
 ### <a name="example-script"></a>スクリプトの例
 
 スクリプトを使用してユーザーにライセンスを割り当てる方法の例を次に示します。
 
-1. IT プロフェッショナル向けサインイン アシスタント RTW Microsoft Online Services [64 ビット版をインストールします](https://docs.microsoft.com/collaborate/connect-redirect?DownloadID=59185)。
+1. IT プロフェッショナル向けサインイン アシスタント RTW Microsoft Online Services [64 ビット版をインストールします](/collaborate/connect-redirect?DownloadID=59185)。
 2. 次の手順に合った Microsoft Azure Active Directory モジュールをWindows PowerShell。
     1. 管理者特権のコマンド プロンプトWindows PowerShell開きます (管理者としてWindows PowerShell実行します)。
     2. 次のコマンドを実行します。
@@ -127,7 +127,7 @@ PowerShell を使用して、ライセンスをユーザーに一括で割り当
 
 ここでは、PowerShell を使用して Teams でライセンスを管理するときに参照として使用できる製品名とそれに対応する SKU パーツ名の一覧の一部を示します。
 
-詳細については[、「PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)でライセンスとサービスを表示する[](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)」、ライセンスの製品名とサービス プラン識別子[、Education SKU](../sku-reference-edu.md)リファレンスを参照してください。
+詳細については[、「PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)でライセンスとサービスを表示する[](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)」、ライセンスの製品名とサービス プラン識別子[、Education SKU](../sku-reference-edu.md)リファレンスを参照してください。
 
 | 製品名| SKU 部品名 |
 |--------------|---------------|
@@ -155,8 +155,8 @@ PowerShell を使用して、ライセンスをユーザーに一括で割り当
 
 ## <a name="related-topics"></a>関連項目
 
-- [Teams アドオンのライセンス](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+- [Teams アドオンのライセンス](./microsoft-teams-add-on-licensing.md)
 - [Teams へのユーザー アクセスを管理する](../user-access.md)
-- [PowerShell でライセンスとサービスを表示する](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
-- [ライセンスのための製品名とサービス プラン識別子](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
+- [PowerShell でライセンスとサービスを表示する](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
+- [ライセンスのための製品名とサービス プラン識別子](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [Education SKU リファレンス](../sku-reference-edu.md)

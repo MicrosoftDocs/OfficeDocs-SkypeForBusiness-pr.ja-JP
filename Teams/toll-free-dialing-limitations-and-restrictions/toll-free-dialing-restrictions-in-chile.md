@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 可用性、有線/固定回線、モバイルネットワークの可用性、制限など、チリのフリーダイヤル番号をダイヤルする方法について説明します。
-ms.openlocfilehash: 00aec8e288ca1424eec9754e1f74f9cec9a5e579
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: チリでの無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+ms.openlocfilehash: 3b3affb2168c821e11d8aa526815384776c7971c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140476"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116805"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>チリでのフリーダイヤル制限
 
@@ -50,7 +50,6 @@ ms.locfileid: "43140476"
 ## <a name="related-topics"></a>関連項目
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
   
- 

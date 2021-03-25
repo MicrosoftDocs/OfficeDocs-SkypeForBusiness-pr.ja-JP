@@ -1,5 +1,5 @@
 ---
-title: 中国での無料ダイヤルの制限-サウス
+title: 中国 - 南部の無料ダイヤル制限
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 中国では、可用性、有線/固定回線、携帯ネットワークの可用性、制限を含む、無料の電話番号にダイヤルする方法について説明します。
-ms.openlocfilehash: 0ac72f51546d8655e4472d6392206867247a1900
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: 中国南部での無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+ms.openlocfilehash: ea2b2e535f491f57e5aad41244e56afff3490ebb
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140456"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51116785"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>中国南部でのフリーダイヤル制限 (10 800 140 XXXX の範囲)
 
@@ -51,7 +51,6 @@ ms.locfileid: "43140456"
 
 [無料電話ダイヤルの制限事項](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
   
- 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms を展開するためのインフラストラクチャを準備して、すべての機能を利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 181599e6b5181f50548621e4895b400f442646a6
-ms.sourcegitcommit: 0fddd05334e37b0086ccc0aebe17a26f8e6e8e6c
+ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50884571"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117425"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -66,7 +66,7 @@ ms.locfileid: "50884571"
 > 有線の 1 Gbps ネットワーク接続を使用して、必要な帯域幅を確保してください。
 
 > [!NOTE]
-> Microsoft Teams Rooms のソフトウェア更新プログラムは、ビジネス向け Microsoft Store から自動的にダウンロードされます。 会議室コンソールがストアにアクセスして自己更新できるかどうかを確認するには、「[ビジネスおよび教育機関向け Microsoft Store の前提条件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business)」を参照してください。
+> Microsoft Teams Rooms のソフトウェア更新プログラムは、ビジネス向け Microsoft Store から自動的にダウンロードされます。 会議室コンソールがストアにアクセスして自己更新できるかどうかを確認するには、「[ビジネスおよび教育機関向け Microsoft Store の前提条件](/microsoft-store/prerequisites-microsoft-store-for-business)」を参照してください。
   
 ### <a name="certificates"></a>証明書
 
@@ -117,7 +117,7 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
     
 11. サインイン画面に戻り、**Skype** ユーザーを選択します。 上記のすべての手順を正常に完了した場合は、Microsoft Teams Rooms デバイスのサインインに成功します。
     
-Microsoft Teams [の会議室に必要](https://docs.microsoft.com/microsoftteams/rooms/security#network-security) な FQDN、ポート、IP アドレス範囲の詳細については、ネットワーク セキュリティに関する記事を参照してください。
+Microsoft Teams [の会議室に必要](./security.md#network-security) な FQDN、ポート、IP アドレス範囲の詳細については、ネットワーク セキュリティに関する記事を参照してください。
   
   
 ### <a name="create-provisioning-packages"></a>プロビジョニング パッケージを作成する
@@ -166,4 +166,4 @@ Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます
   
 [Microsoft Teams Rooms の管理](rooms-manage.md)
 
-[ビジネスおよび教育機関向け Microsoft Store の前提条件](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 
+[ビジネスおよび教育機関向け Microsoft Store の前提条件](/microsoft-store/prerequisites-microsoft-store-for-business)

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: このトピックでは、Exchange と Skype for Business で Microsoft Teams Rooms のアカウントを構成する方法について説明します。
-ms.openlocfilehash: e171ef22dd1733c06b03a4a9483f591d73d70cb9
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: 26879b2c07b859e65255ed84bedd4897b75d5caa
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662522"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117475"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft Teams Rooms のアカウントを構成する
  
@@ -82,7 +82,7 @@ Microsoft Teams Rooms をインストールするミーティング スペース
    
 デバイス アカウントをセットアップする最も簡単な方法は、リモート Windows PowerShell を使用して構成することです。 Microsoft では、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) を提供しています。これは、新しいデバイス アカウントを作成するか、既存のリソース アカウントを検証するスクリプトであり、それらのアカウントを互換性のある Microsoft Teams Rooms のデバイス アカウントに変換する助けとなります。
   
-Windows PowerShell コマンドレットよりも Microsoft 365 または Office 365 UI を使用することを望む場合は、一部の手順を手動で実行できます。 「[Microsoft 365 または Office 365 を使用してデバイス アカウントを作成する](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365)」を参照してください。
+Windows PowerShell コマンドレットよりも Microsoft 365 または Office 365 UI を使用することを望む場合は、一部の手順を手動で実行できます。 「[Microsoft 365 または Office 365 を使用してデバイス アカウントを作成する](/surface-hub/create-a-device-account-using-office-365)」を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
@@ -91,4 +91,3 @@ Windows PowerShell コマンドレットよりも Microsoft 365 または Office
 [Microsoft Teams Rooms のコンソールを構成する](console.md)
   
 [Microsoft Teams Rooms を管理する](rooms-manage.md)
-
