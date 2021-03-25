@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Microsoft Teams を Microsoft 365 または Office 365 組織向けに有効にする方法、ユーザーライセンスを割り当てて個別のアクセスを制御する方法、コンテンツソースを許可またはブロックする方法について説明します。
+description: Microsoft 365 または Office 365 組織で Microsoft Teams を有効にする方法、個々のアクセスを制御するユーザー ライセンスを割り当てる方法、コンテンツ ソースを許可またはブロックする方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb314a64fdc6027195fe6c79ecff27b5cc8db46e
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 78dbd966abec7b2b5c1c398b497f20e65d4fb8e8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581808"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51113683"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>組織で Teams を有効にする
 
@@ -35,13 +35,13 @@ ms.locfileid: "46581808"
 既定では、Teams はすべての組織でオンになります。 プレビュー期間において Teams を使用した場合、Teams プレビューの間に設定したものと同じ設定がそのまま維持されます。 
 
 
-組織の管理者として、チームへの個々のアクセスを制御するためのユーザーライセンスを割り当てることができます。また、Teams で使用できるコンテンツソースを許可またはブロックすることができます。 詳細については、「microsoft teams[でのアプリの](admin-settings.md)[設定を管理](enable-features-office-365.md)する」または「管理設定」を参照してください。 
+組織の管理者は、Teams への個々のアクセスを制御するユーザー ライセンスを割り当て、Teams で使用できるコンテンツ ソースを許可またはブロックすることができます。 詳細 [については、「Microsoft Teams のアプリ](enable-features-office-365.md) の組織または管理者の設定を [管理する」](admin-settings.md) を参照してください。 
 
 
  
-個々のライセンスの管理の詳細については、「 [Microsoft Teams サービスの説明](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)」を参照してください。 
+個々のライセンスの管理の詳細については、Microsoft Teams サービスの [説明を参照してください](/office365/servicedescriptions/teams-service-description)。 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>組織全体に対して Teams をオンまたはオフにする 
  
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)] 
+[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

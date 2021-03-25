@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0db359fee9089a52b8d3e7a728542dba21952db7
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 98f462044fba566ecea491bc55bf8df055973701
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874527"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112293"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -49,7 +49,7 @@ ms.locfileid: "50874527"
 |チームに変換できる Office 365 グループのメンバーの最大数    |10,000<sup>6</sup>     |
 |チャネル会話の投稿サイズ | 投稿ごとに約 28 KB<sup>5</sup> |
 
-<sup>1</sup> Azure Active Directory のすべてのディレクトリ オブジェクトはこの制限にカウントされます。グローバル管理者は、[アプリケーションのアクセス許可](https://docs.microsoft.com/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
+<sup>1</sup> Azure Active Directory のすべてのディレクトリ オブジェクトはこの制限にカウントされます。グローバル管理者は、[アプリケーションのアクセス許可](/graph/permissions-reference)を使用して Microsoft Graph を呼び出すアプリと同様に、この制限から除外されます。
 
 <sup>2</sup> この制限には、アーカイブ済みのチームが含まれます。 
 
@@ -78,7 +78,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 <sup>1</sup> チャットに 20 人以上いる場合、Outlook の自動応答と Teams 状態メッセージ、入力インジケーター、ビデオおよび音声通話、共有、開封確認などのチャット機能は無効になります。プライベート グループのチャットに 20 を超えるメンバーが含まれている場合は、「配信オプションの設定」 (!) ボタンも削除されます。
 
-<sup>2</sup> グループチャットには一度に 200 人のメンバーのみを追加できます。 [詳細については、こちらの記事を参照してください](https://docs.microsoft.com/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)。
+<sup>2</sup> グループチャットには一度に 200 人のメンバーのみを追加できます。 [詳細については、こちらの記事を参照してください](/microsoftteams/troubleshoot/teams-administration/unable-send-message-group-chat)。
 
 <sup>3</sup> 添付ファイルの数がこの制限を超えると、エラー メッセージが表示されます。
 
@@ -99,7 +99,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 <sup>2</sup> 添付ファイルまたは画像の数がこの制限を超えると、エラー メッセージが表示されます。
 
-詳細については、「[Exchange Online の制限](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)」をご覧ください。
+詳細については、「[Exchange Online の制限](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)」をご覧ください。
 
 > [!NOTE]
 > メッセージ サイズ、添付ファイル、およびインライン イメージの制限は、すべての Microsoft 365 および Office 365 ライセンスで同じです。メッセージ サイズ、添付ファイル、およびインライン イメージの制限は、すべての Microsoft 365 および Office 365 ライセンスで同じです。
@@ -181,7 +181,7 @@ Outlook での Teams のプレゼンスは、Outlook 2013 デスクトップ版�
 Microsoft Teams の各チームには SharePoint Online にチーム サイトがあり、チーム内の各チャネルには既定のチーム サイト ドキュメント ライブラリが作成されます。会話内で共有したファイルはドキュメント ライブラリに自動的に格納されます。SharePoint で設定した権限やファイル セキュリティ オプションは Teams 内で自動的に反映されます。
 
 > [!NOTE]
-> 各[プライベート チャネル](https://docs.microsoft.com/microsoftteams/private-channels)には、独自の SharePoint サイトがあります。
+> 各[プライベート チャネル](./private-channels.md)には、独自の SharePoint サイトがあります。
 
 テナントで有効な SharePoint Online をお持ちでない場合は、Microsoft Teams ユーザーがチーム内のファイルを共有することはできません。プライベート チャット内のユーザーもファイルを共有できません。これは OneDrive for Business (SharePoint のライセンスに関連付けられています) がその機能に必要だからです。
 

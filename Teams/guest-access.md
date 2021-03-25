@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: bf1e5083b160bf79c1abe06bffd2a68bf4c0aaab
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: 59e0fd09721e488a1806cc7a4ffcf527d34b029a
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421192"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112423"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
@@ -42,7 +42,7 @@ Teams のゲストは、Microsoft 365 と同様のコンプライアンスと監
 > [!IMPORTANT]
 > ゲストは、共存アップグレード モードの Teams の組織全体の設定に従います。 これは変更できません。
 
-ゲスト アクセスを設定する方法については、「[チームでゲストと共同作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」を参照してください。 
+ゲスト アクセスを設定する方法については、「[チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。 
 
 外部アクセス (フェデレーション) とゲスト アクセスを比較する (および使用するアクセスを決定する) には、「[Teams の他の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)」をご覧ください。
 
@@ -50,17 +50,17 @@ Teams のゲストは、Microsoft 365 と同様のコンプライアンスと監
 
 Teams でのゲスト アクセスには、Azure AD、Microsoft 365 グループ、SharePoint の設定など、Microsoft 365 の他の設定を構成する必要があります。 ゲストを Teams に招待する準備ができている場合は、次のいずれかをお読みください。
 
-- 一般的な使用のためにチームのゲスト アクセスを構成する方法については、「 [チームでゲストと共同作業する](https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team)」を参照してください。
-- Azure Active Directory を使用するパートナー組織とコラボレーションし、ゲストがチーム アクセスに自己登録できるようにするには、「[管理されたゲストで B2B エクストラネットを作成する](https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet)」を参照してください。
+- 一般的な使用のためにチームのゲスト アクセスを構成する方法については、「 [チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。
+- Azure Active Directory を使用するパートナー組織とコラボレーションし、ゲストがチーム アクセスに自己登録できるようにするには、「[管理されたゲストで B2B エクストラネットを作成する](/microsoft-365/solutions/b2b-extranet)」を参照してください。
 
-Teams でのゲスト アクセスは組織全体の設定であり、既定ではオフになっています。 [機密ラベル](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)を使用して、個々のチームへのゲスト アクセスを制御できます。
+Teams でのゲスト アクセスは組織全体の設定であり、既定ではオフになっています。 [機密ラベル](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)を使用して、個々のチームへのゲスト アクセスを制御できます。
 
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>ゲストをチームのメンバーにする方法
 
 1. チーム所有者または Microsoft 365 管理者は[チームにゲストを追加](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)します。
 2. ゲストが、チームに関する情報と、チームのメンバーとして要求される事項が記載されたようこそメールを、チーム所有者から受信します。
 3. ゲストが招待を承諾します。
-  Azure Active Directory の職場や学校のアカウントを持っているゲストは、招待を承諾して、直接認証を受けることができます。 他のユーザーには、ID を検証するためのワンタイム パスコードが送信されます ([ワンタイム パスコード認証](https://docs.microsoft.com/azure/active-directory/external-identities/one-time-passcode)が必要です)。
+  Azure Active Directory の職場や学校のアカウントを持っているゲストは、招待を承諾して、直接認証を受けることができます。 他のユーザーには、ID を検証するためのワンタイム パスコードが送信されます ([ワンタイム パスコード認証](/azure/active-directory/external-identities/one-time-passcode)が必要です)。
 4. 招待を承諾すると、ゲストは [チームやチャネルへの参加](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499)、チャネル メッセージに対する受信や応答、[チャネル内のファイルへのアクセス](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e)、チャットへの参加、会議への参加、ドキュメントでの共同作業などを行うことができるようになります。 
 
 Teams では、ゲストは明確に特定されます。 ゲスト の名前にはラベル **(ゲスト)** が含まれていて、チャネルにはチームにゲストがいることを示すアイコンが含まれています。 詳しくは、「[ゲストのエクスペリエンスについて](guest-experience.md)」をご覧ください。
@@ -72,7 +72,7 @@ Teams では、ゲストは明確に特定されます。 ゲスト の名前に
 
 ## <a name="licensing-for-guest-access"></a>ゲスト アクセスのライセンス
 
-ゲスト アクセスは、Microsoft 365 Business Standard、Microsoft 365 Enterprise、Microsoft 365 Education のすべてのサブスクリプションに含まれています。 追加の Microsoft 365 ライセンスは不要です。 Teams では追加することができるゲストの数に制限はありません。 ただし、テナントに追加できるゲストの総数は、Azure AD の有料機能によって制限される場合があります。 詳細については、「[Azure AD External Identities の課金モデル](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)」をご覧ください。
+ゲスト アクセスは、Microsoft 365 Business Standard、Microsoft 365 Enterprise、Microsoft 365 Education のすべてのサブスクリプションに含まれています。 追加の Microsoft 365 ライセンスは不要です。 Teams では追加することができるゲストの数に制限はありません。 ただし、テナントに追加できるゲストの総数は、Azure AD の有料機能によって制限される場合があります。 詳細については、「[Azure AD External Identities の課金モデル](/azure/active-directory/b2b/licensing-guidance)」をご覧ください。
 
 > [!NOTE]
 > Exchange Online プラン 2 などのスタンドアロンの Microsoft 365 サブスクリプション プランのみを持っている組織内のユーザーは、Teams によって組織に属しているものと見なされるため、その同じ組織へのゲストとして招待されることはできません。 これらのユーザーが Teams を使用する場合は、Microsoft 365 Business Standard、Office 365 Enterprise、または Office 365 Education サブスクリプションが割り当てられる必要があります。 
@@ -81,16 +81,16 @@ Teams では、ゲストは明確に特定されます。 ゲスト の名前に
 
 Azure AD を使用してアプリケーションに割り当てられたグループ メンバーまたはユーザーに対するアクセス レビューを作成することができます。 反復的なアクセス レビューを作成することで、時間を節約できます。 アプリケーションやチームにアクセスできるユーザー、またはメンバーのグループであるユーザーを定期的にレビューする必要がある場合は、それらのレビューの頻度を定義することができます。 
 
-ゲスト アクセスのレビューを自分自身で実行したり、ゲストにメンバーシップのレビューを求めたり、アプリケーション所有者またはビジネス意思決定者に対してアクセス レビューを実行するよう求めたりすることができます。 ゲスト アクセス レビューを実行するために、Azure ポータルを使用します。 詳細については、「[Azure AD アクセス レビューでゲスト アクセスを管理する](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)」をご覧ください。
+ゲスト アクセスのレビューを自分自身で実行したり、ゲストにメンバーシップのレビューを求めたり、アプリケーション所有者またはビジネス意思決定者に対してアクセス レビューを実行するよう求めたりすることができます。 ゲスト アクセス レビューを実行するために、Azure ポータルを使用します。 詳細については、「[Azure AD アクセス レビューでゲスト アクセスを管理する](/azure/active-directory/governance/manage-guest-access-with-access-reviews)」をご覧ください。
 
 ## <a name="related-topics"></a>関連項目
 
-[組織外部のユーザーとの共有](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
+[組織外部のユーザーとの共有](/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 
-[特定の Microsoft 365 グループまたは Microsoft Teams チームにゲストが追加されないようにする](https://docs.microsoft.com/microsoft-365/solutions/per-group-guest-access)
+[特定の Microsoft 365 グループまたは Microsoft Teams チームにゲストが追加されないようにする](/microsoft-365/solutions/per-group-guest-access)
 
-[セキュリティで保護されたゲスト共有環境を作成する](https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment)
+[セキュリティで保護されたゲスト共有環境を作成する](/microsoft-365/solutions/create-secure-guest-sharing-environment)
 
-[ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
+[ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ](/microsoft-365/admin/contact-support-for-business-products)
 
-[3 層の保護を使って Teams を構成する](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)
+[3 層の保護を使って Teams を構成する](/microsoft-365/solutions/configure-teams-three-tiers-protection)

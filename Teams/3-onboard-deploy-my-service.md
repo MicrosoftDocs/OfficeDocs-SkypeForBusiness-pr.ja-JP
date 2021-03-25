@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: サイト有効化のプレイブックをダウンロードして、チームのロールアウトを計画し、ユーザーの採用、品質、および満足度を向上させることができます。
+description: サイトの有効化プレイブックをダウンロードして、Teams のロールアウトを計画し、ユーザーの導入を加速および最適化し、品質と満足度を認識します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -20,41 +20,41 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae9a1e6abf7dbf97e625be4eb69a0ef95b1910da
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+ms.openlocfilehash: 3c3f0105a04484efcabd5ab6c55d1269c3627895
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48532574"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112633"
 ---
 # <a name="deploy-my-service"></a>サービスを展開する
 
-この記事では、クラウド音声サービスを適切に展開するための要件の概要を示します。 クラウド音声サービスを展開するための規範となるガイダンスに従うと、すべての要件を適切に考慮して、反復可能な結果を得ることができます。
+この記事では、クラウド 音声サービスを適切に展開する場合の要件の概要を説明します。 クラウド 音声サービスの展開に関する事前のガイダンスに従って、すべての要件を正しく考慮し、繰り返し可能な結果を提供することができます。
 
-## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Microsoft Teams の音声ワークロードのためのサイトの有効化のプレイブック
+## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Microsoft Teams 音声ワークロード用のサイト有効化プレイブック
 
-このプレイブックを使用して、組織がサイトごとに Microsoft Teams の音声機能のロールアウトを正常に計画して実行できるようにします。
+このプレイブックを使用して、組織が Microsoft Teams 音声機能のロールアウトをサイト単位で正常に計画および実行するのに役立ちます。
 
-このプレイには、必要なすべてのアクティビティ、推奨されるタイムライン、および各アクティビティの対応するガイダンスへのリンクが含まれています。このプレイには、ユーザーにとって重要な要素に焦点を当てた、特定のサイトに対するチームの音声展開を成功させるためのエンドツーエンドのガイダンスが含まれています。
+必要なすべてのアクティビティ、推奨されるタイムライン、各アクティビティに対応するガイダンスへのリンクなど、このプレイブックでは、ユーザーにとって重要な要素に重点を置き、特定のサイトで Teams の音声展開を成功に導く、エンドツーエンドのガイダンスについて説明します。
 
-このプレイブックのアクティビティを完了することで、組織は次のことができます。
+このプレイブックのアクティビティを完了すると、組織は次の作業を行います。
 
--   チームのロールアウトを効果的に計画してスケジュールします。
+-   Teams のロールアウトを効果的に計画し、スケジュールします。
 
--   ユーザー導入を迅速化し、最適化します。
+-   ユーザーの導入を加速し、最適化します。
 
--   サポートニーズを減らし、ユーザーの満足度を高める。
+-   サポートのニーズを減らし、ユーザーの満足度を高めます。
 
 > [!NOTE]
-> この記事と関連するプレイブックは、サービスの有効化または特定のサイトへのダイヤルトーンの提供に必要なすべての技術的構成手順を説明することを目的としていません。 代わりに、ユーザーが簡単にオンボードで作業するために推奨されるアクティビティとタスクに重点を置いています。また、サポート要件を最小限に抑えながら、迅速かつスムーズな移行によってチームのボイスワークロードを使い始めることができます。 チームボイス向けに環境を最適に構成する方法についての技術ガイダンスについては、「チームの[音声ワークロードを構成](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)する」、 [「teams の](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)[コア機能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)」、「チーム[のネットワーク](prepare-network.md)、 [Microsoft 365 または Office 365 を有効](onboarding-checklist-enable-office-365.md)にする」のオンボードチェックリストを参照してください。
+> この記事と関連するプレイブックは、サービスの有効化や特定のサイトへのダイヤル トーンの提供に必要な技術的な構成手順について説明するためのものではありません。 代わりに、ユーザーを簡単にオンボードするために推奨されるアクティビティとタスクに重点を置き、サポート要件を最小限に抑えながら、迅速かつスムーズな移行を通じて Teams 音声ワークロードの消費を開始します。 Teams 音声用に環境を最適に構成する方法に関する技術的なガイダンスについては [、Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)音声ワークロードの構成 [、Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)での直接ルーティングの構成 [、Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)のコア機能 [、Teams](prepare-network.md)のネットワーク、 [および Microsoft 365 または Office 365](onboarding-checklist-enable-office-365.md)の有効化に関するオンボーディング チェックリストを参照してください。
 
 <!--ENDOFSECTION-->
 
-## <a name="playbook-focus-areas"></a>フォーカス領域
+## <a name="playbook-focus-areas"></a>プレイブックのフォーカス領域
 
-このプレイブックの焦点は、チームの音声展開に対するユーザーの認識に影響を与える要因に対処することです。 アクティビティとタスクは、次のフォーカス領域にグループ化されます。
+プレイブックの焦点は、Teams の音声展開に対するユーザーの認識に影響する要因に対処します。 アクティビティとタスクは、次のフォーカス領域にグループ化されます。
 
--   サービス準備の検証
+-   サービスの準備の検証
     - 電話会議
     - 通話プラン
     - ダイレクト ルーティング
@@ -67,49 +67,49 @@ ms.locfileid: "48532574"
 
 -   導入
 
-[音声 (プレイブック) のサイト有効化のプレイ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)ブックは Microsoft Excel ブックです。 これら5つの各フォーカス領域は、ブック内の個別のシートであり、展開タスクとアクティビティはそれぞれ次のいずれかのシートにまとめられています。
+音声 [用サイト有効化プレイブック (Playbook) は](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 、Microsoft Excel ブックです。 これら 5 つのフォーカス領域は、それぞれブック内の個別のシートであり、各展開タスクとアクティビティは、これらのシートの 1 つにグループ化されます。
 
-![サイトの有効化のプレイブックのスクリーンショット](media/deploy-my-service-image1.png "プレイブックのスクリーンショット")
+![サイト有効化プレイブックのスクリーンショット](media/deploy-my-service-image1.png "プレイブックのスクリーンショット")
 
 > [!NOTE]
-> チームのロールアウトの対象となる範囲内の各サイトについて、個別のプレイブックのインスタンスを作成します。
+> Teams のロールアウトの範囲で、サイトごとにプレイブックの個別のインスタンスを作成します。
 
 <!--ENDOFSECTION-->
 
 ## <a name="how-to-use-the-playbook"></a>プレイブックの使い方
 
-場所のサイズと複雑さに関係なく、各サイトを有効にするには、実際のサービスのロールアウトの前、前後、または後で、タスクとアクティビティを適切な順序で実行する必要があります。 Microsoft Teams voice の計画を立てて実行する場合は、次の手順に従うことをお勧めします。
+場所の規模や複雑さにかかわらず、各サイトを有効にする場合は、タスクとアクティビティを十分な早い段階で計画し、実際のサービス ロールアウトの前、中、後に最適な順序で実行する必要があります。 Microsoft Teams 音声への独自の手順を計画して実行する場合は、次の手順に従ってください。
 
-1. Microsoft Teams Voice 用の [音声 (プレイブック) 用のサイト有効化のプレイブック](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) をダウンロードします。
+1. Microsoft Teams [Voice 用の Voice 用サイト有効化プレイブック (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) をダウンロードします。
 
-2. 各サイトのプレイブックのコピーを別途作成します。
+2. サイトごとにプレイブックのコピーを個別に作成します。
 
-3. **{Sitename-code} 用の "プレイブック**" というシートのタブで、 **{sitename-code}** を関連するサイト名やサイトコードに置き換えます。
+3. **{SiteName-Code}** の Playbook という名前のシートのタブで **、{SiteName-Code}** を関連するサイト名またはサイト コードに置き換えます。
 
-4. 次に示すように、 **サイト名、サイトコード**、計画された **開始日**を入力します。 これは、プレイブック内のすべてのアクティビティについて推奨される期限を調整するため、重要なステップです。
+4. 次に **示すサイト名、サイト** コード、および開始予定日を入力します。 これは重要な手順です。プレイブック内のすべてのアクティビティの推奨期限が調整されます。
 
-   ![サイト名、サイトコード、計画された開始日の例](media/deploy-my-service-image2.png "ニューヨークのサイト名、サイトコードの NY01、予定されている開始日: 3 月18日の例")
+   ![サイト名、サイト コード、および開始予定日の例](media/deploy-my-service-image2.png "ニューヨークのサイト名、サイト コード NY01、および 20-Mar-18 の開始予定日の例")
 
-5. 各アクティビティを確認し、必要なアクションを実行して、タイムラインを通して状態を更新します。 次に示すように、状態はグラフィカルに表示されます。
+5. 各アクティビティを確認し、必要なアクションを実行し、タイムラインを移動すると状態を更新します。 状態は、以下で説明するようにグラフィックで表されます。
   
-   - ![緑のチェックマークが ](media/deploy-my-service-image3.png) **[はい] または [該当しない] (緑)** の場合: アクティビティが完了しているか、このサイトには適用されず、これ以上の操作は必要ありません。</li>
-   - ![まだアクティビティが完了していないことを示す黄色の感嘆符 ](media/deploy-my-service-image4.png) <strong>(黄):</strong> アクティビティはまだ完了していません。また、スケジュールされている場合は、[はい] または [いいえ] に更新する必要があります。</li>
-   - !["いいえ" (赤) が表示されていないことを示す赤色の X の例 ](media/deploy-my-service-image5.png) <strong>:</strong> 問題が発生したため、アクティビティは完了できません。また、プロジェクトの進捗会議に参加している必要があります。</li></ul>
+   - ![緑のチェック マーク [はい]、または該当しない (緑色) の図: アクティビティが完了したか、このサイトに適用できないので、それ以上のアクションは ](media/deploy-my-service-image3.png) 必要はありません。</li>
+   - ![黄色の感嘆符の図。アクティビティがまだ完了していません (黄色): アクティビティはまだ完了していません。スケジュールに合って [はい] または [いいえ] に更新する必要があります。 ](media/deploy-my-service-image4.png) <strong></strong></li>
+   - ![[いいえ] (赤) を示す赤い X の図: 問題が原因でアクティビティを完了できないので、プロジェクトの状況会議に持ち ](media/deploy-my-service-image5.png) <strong></strong>込む必要があります。</li></ul>
 
-6. ステータスは各セクション内でロールアップされ、セクション見出しは次のいずれかのステータスインジケーターで表示されます。 **週単位のステータス** も自動的に更新されます。
+6. 状態は各セクション内でロールアップされ、セクション見出しは次のいずれかのステータス インジケーターで書式設定されます。 **週単位の** 状態も自動的に更新されます。
 
-![プレイブックの毎週のステータスロールアップのスクリーンショット](media/deploy-my-service-image6.png "プレイブックの毎週のステータスロールアップのスクリーンショット")
+![プレイブックの週次ステータスロールアップのスクリーンショット](media/deploy-my-service-image6.png "プレイブックの週次ステータス ロールアップのスクリーンショット")
 
 > [!TIP]
-> 使用しているすべての場所について、上記の手順を繰り返します。
+> すべての場所について、上記の手順を繰り返します。
 
 > [!IMPORTANT]
-> 一部の手順は、すべての場所やサイトに適用されないことがあります。 特定のアクティビティがサイトに関連していない場合は、このアクティビティに **適用しない** ことを選択する必要があります。 プレイブック内の行を削除しないで**ください**。この操作を行うと、ステータスロールアップ数式が機能しなくなります。<br/><br/>
-電話番号の移植や調達など、計画した時間よりも時間がかかる可能性があるアクティビティには注意してください。 これらのアクティビティは、サイト展開のタイムラインに悪影響を与える可能性があります。 アクティビティリストと関連するタイムラインの週を確認して更新して、関係者が各サイトのステータスと展開スケジュールの誤差を [確実に認識](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) できるようにしてください。
+> 一部の手順は、一部の場所とサイトに適用できない場合があります。 特定のアクティビティがサイトに関連しない場合は、[このアクティビティに該当しない] を **選択する必要** があります。 **プレイブック内** の行を削除しない。この操作を行った場合、状態のロールアップ数式は機能しません。<br/><br/>
+番号の移植や調達活動など、計画よりも時間がかかる可能性があるアクティビティに注意してください。 これらのアクティビティは、サイト展開タイムラインに悪影響を与える可能性があります。 アクティビティ リストと関連するタイムラインを毎週確認して更新し、運営委員会の会議で[](./envision-steering-committee-complete-guide.md)発表して、関係者が各サイトの状態と展開スケジュールからの偏差の可能性を確実に認識します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>展開にサイトの有効化のプレイブックが必要かどうかを決定します。</li><li>展開するすべてのサイトについて、Microsoft Teams のサイト有効化のプレイブックをカスタマイズする責任者を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイト有効化のプレイブックをダウンロード</a>します。</li><li>初めてのサイト向けのサイト有効化のプレイブックをカスタマイズします。</li><li>必要に応じて、他のサイトにも同じ手順を繰り返します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>展開にサイト有効化プレイブックが必要かを決定します。</li><li>展開するサイトごとに、Microsoft Teams のサイト有効化プレイブックをカスタマイズする責任者を決定します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">サイトの有効化プレイブックをダウンロードします</a>。</li><li>最初のサイト用にサイトの有効化プレイブックをカスタマイズします。</li><li>必要に応じて、追加のサイトで同じ操作を繰り返します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

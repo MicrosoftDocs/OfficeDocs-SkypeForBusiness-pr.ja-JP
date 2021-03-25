@@ -1,5 +1,5 @@
 ---
-title: Skype for Business でコール パーク設定を構成する
+title: Skype for Business で通話パークの設定を構成する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Skype for Business Server のコール パーク設定を変更エンタープライズ VoIP。
-ms.openlocfilehash: 2380c9b505ceef6ac5f4bbe04996bfdf611de39c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server の通話パークの設定を変更エンタープライズ VoIP。
+ms.openlocfilehash: c1eecd55dac398752915ccb63886bbf85858fe47
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804117"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51111913"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>Skype for Business でコール パーク設定を構成する
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Skype for Business で通話パークの設定を構成する
 
-Skype for Business Server のコール パーク設定を変更エンタープライズ VoIP。
+Skype for Business Server の通話パークの設定を変更エンタープライズ VoIP。
 
-既定のコール パーク設定を使用しない場合は、カスタマイズできます。 コール パーク アプリケーションをインストールすると、グローバル設定が既定で構成されます。 グローバル設定を変更したり、サイト固有の設定を指定することもできます。 **New-CsCpsConfiguration** コマンドレットを使用して、新しいサイト固有の設定を作成します。 **Set-CsCpsConfiguration** コマンドレットを使用して、既存の設定を変更します。
+既定の通話パーク設定を使用しない場合は、カスタマイズできます。 Call Park アプリケーションをインストールすると、既定でグローバル設定が構成されます。 グローバル設定を変更したり、サイト固有の設定を指定することもできます。 **New-CsCpsConfiguration** コマンドレットを使用して、新しいサイト固有の設定を作成します。 **Set-CsCpsConfiguration** コマンドレットを使用して、既存の設定を変更します。
 
 > [!NOTE]
 > 少なくとも、保留された通話が時間切れになりリングバックが失敗した場合に使用する代替宛先の [**OnTimeoutURI**] オプションは構成することをお勧めします。
@@ -42,18 +42,18 @@ Skype for Business Server のコール パーク設定を変更エンタープ�
 | **MaxCallPickupAttempts** <br/>      | 保留された通話が [**OnTimeoutURI**] で指定した代替 URI (Uniform Resource Identifier) に転送される前に、応答電話にかけ直される回数。既定値は 1 です。<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | **MaxCallPickupAttempts** を超過した場合に、応答のない保留通話のルーティング先となるユーザーまたは応答グループの SIP アドレス。 <br/> 値は、文字列 sip: で始まる SIP URI にする必要があります。 たとえば、sip:bob@contoso.com などです。既定値は転送アドレスではありません。<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>コール パーク設定を構成するには
+### <a name="to-configure-call-park-settings"></a>通話パークの設定を構成するには
 
-1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
+1. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
 
-2. 次のコマンドを実行します。
+2. 次を実行します:  
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
    > [!TIP]
-   > サイトを識別するには、**Get-CsSite** コマンドレットを使用します。 詳細については、Skype for Business Server 管理シェルのドキュメントを参照してください。
+   > サイトを識別するには、**Get-CsSite** コマンドレットを使用します。 詳細については、「Skype for Business Server Management Shell」のドキュメントを参照してください。
 
     例:
 
@@ -63,10 +63,10 @@ Skype for Business Server のコール パーク設定を変更エンタープ�
 
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business 2015 でコール パーク保留音をカスタマイズする](customize-call-park-music-on-hold.md)
+[Skype for Business 2015 で通話パークの音楽を保留にカスタマイズする](customize-call-park-music-on-hold.md)
 
-[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[New-CsCpsConfiguration](/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
-[Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
+[Set-CsCpsConfiguration](/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 
-[Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps)
+[Get-CsSite](/powershell/module/skype/get-cssite?view=skype-ps)

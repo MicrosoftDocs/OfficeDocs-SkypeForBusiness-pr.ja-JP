@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 295886e7a5c50107672d17dcfa06067ba1b0ac9b
-ms.sourcegitcommit: 48b8801b86a6c900c224853590daa3cb3c8d4ded
+ms.openlocfilehash: e3e2c4d42d511e2a33a797099132ac42c0475d36
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "49761095"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51112193"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 =================================================
@@ -37,9 +37,9 @@ ms.locfileid: "49761095"
 Microsoft サポートでサポート要求を作成する場合、サポート エンジニアはデバッグ ログを必要とします。 サポート要求を作成する前にデバッグ ログを用意すると、Microsoft は問題のトラブルシューティングをすばやく開始できます。 **メディア** ログ **またはデスクトップ** ログは、Microsoft から要求された場合にのみ必要です。
 
 > [!NOTE]
-> この記事では、デバッグ ログ **という用語は** 、トラブルシューティングに使用されるログを参照しています。 ただし、これらのログに対して生成されるファイルには、名前に診断 **ログという** 用語が含まれます。  
+> この記事では、デバッグ ログ **という用語は** 、トラブルシューティングに使用されるログを指します。 ただし、これらのログに対して生成されるファイルには、名前に診断 **ログという** 用語が含まれます。  
 
-次の表では、さまざまなクライアントとその関連ログの概要を示します。 ログ ファイルは、クライアントとオペレーティング システムに固有の場所に保存されます。
+次の表は、さまざまなクライアントとその関連ログの概要を示しています。 ログ ファイルは、クライアントとオペレーティング システムに固有の場所に保存されます。
 
 
 |クライアント |デバッグ|デスクトップ|メディア|
@@ -143,6 +143,6 @@ Linux:
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[Teams のトラブルシューティング](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams)
+[Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)
