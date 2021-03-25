@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
-description: 応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 応答グループ ワークフローは、応答グループ アプリケーションが電話を受信するときに実行されるアクションを定義します。
-ms.openlocfilehash: 7f35fc32670e6374be69430a72c506a0bf9fae5e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 応答グループ のワークフローは、応答グループ アプリケーションが電話を受け取った場合に実行されるアクションを定義します。
+ms.openlocfilehash: d5ab0f197817a5905df54e236db10a3d526685bd
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829287"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122531"
 ---
 # <a name="response-groups-workflow"></a>応答グループのワークフロー
 
-応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 応答グループ ワークフローは、応答グループ アプリケーションが電話を受信するときに実行されるアクションを定義します。
+応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 応答グループ のワークフローは、応答グループ アプリケーションが電話を受け取った場合に実行されるアクションを定義します。
 
-[**応答グループ**  -  **のワークフロー]** ページには、組織に対して定義されている応答グループ ワークフローの一覧が表示されます。
+[**応答グループのワークフロー**] ページには、組織に対して定義されているすべての応答グループ  -  ワークフローの一覧が表示されます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -46,7 +46,7 @@ ms.locfileid: "49829287"
 
 次の一覧に、このページのフィールドを示します。
 
-- **名前** ワークフローに割り当てられる一意の名前。
+- **名前** ワークフローに割り当てられている一意の名前。
 
 - **サービス** ワークフロー **をホストする ApplicationServer** サービス。
 
@@ -54,12 +54,10 @@ ms.locfileid: "49829287"
 
 - **電話** この応答グループに到達するために呼び出される電話番号。
 
-- **言語** 音声認識と音声合成に使用する言語。
+- **言語** 音声認識と音声合成に使用される言語。
 
 - **IVR** ワークフローがハント グループか対話型ワークフローかを示します。
 
-- **有効** ワークフローが呼び出しを受信するためにアクティブ化されているかどうかを示します。
+- **有効** ワークフローがアクティブ化され、呼び出しを受信するかどうかを示します。
 
-応答グループの機能の詳細については、「計画」のドキュメントの [「Plan for the Response Group application in Skype for Business Server 2015」](../../plan-your-deployment/enterprise-voice-solution/response-group.md) を参照してください。 応答グループ ワークフローの操作の詳細については、「操作」のドキュメントの [「Managing Response Group Workflows」](https://technet.microsoft.com/library/42cfccdd-2844-4875-b4e3-813e1df15f08.aspx) を参照してください。
-
-
+応答グループの機能の詳細については、「計画」のドキュメントの「Plan for the Response Group application [in Skype for Business Server 2015」](../../plan-your-deployment/enterprise-voice-solution/response-group.md) を参照してください。 応答グループ ワークフローの操作の詳細については、「操作」のドキュメントの「 [応答グループ ワークフロー](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) の管理」を参照してください。

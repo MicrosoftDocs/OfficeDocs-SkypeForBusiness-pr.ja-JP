@@ -18,18 +18,18 @@ description: Microsoft 通話プランと電話システムダイレクト ル�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca2fb94ff67f2efa874e670926330f8f3630cbe2
-ms.sourcegitcommit: 74f12ed15e1aa1106fa47b95597bde451b0b37f4
+ms.openlocfilehash: 73b894b0eb02b8f860a3486251dab002832f4d46
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50741888"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122331"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
 Microsoft 通話プランと電話システムダイレクト ルーティングの動的緊急通話は、Teams クライアントの現在の場所に基づいて緊急通話を構成およびルーティングし、セキュリティ担当者に通知する機能を提供します。  
 
-テナント管理者が定義するネットワーク トポロジに基づいて、Teams クライアントは Location Information Service (LIS) への要求でネットワーク接続情報を提供します。 一致する値がある場合、LIS はクライアントに場所を返します。 この場所のデータは、クライアントに送信されます。  
+テナント管理者が定義するネットワーク トポロジに基づいて、Teams クライアントは Location Information Service (LIS) への要求でネットワーク接続情報を提供します。 一致する値がある場合、LIS はクライアントに場所を返します。 この場所データはクライアントに送信されます。  
 
 Teams クライアントには、緊急通話の一部として場所データが含まれます。 このデータは、緊急サービス プロバイダーによって適切なパブリック セーフティ応答ポイント (PSAP) を決定し、その PSAP に通話をルーティングするために使用されます。これにより、PSAP ディスパッチャーは呼び出し元の場所を取得できます。  
 
@@ -41,7 +41,7 @@ Teams クライアントには、緊急通話の一部として場所データ�
 
 2. 起動中および定期的に、またはネットワーク接続が変更された場合、Teams クライアントはネットワーク接続情報を含む場所要求をネットワーク設定と LIS に送信します。
 
-   - ネットワーク設定サイトが一致する場合–緊急通話ポリシーは、そのサイトから Teams クライアントに返されます。 (ポリシーの詳細については、「緊急ポリシーを構成する [」を参照してください](#configure-emergency-policies))。
+   - ネットワーク設定サイトが一致する場合–緊急通話ポリシーは、そのサイトから Teams クライアントに返されます。 (ポリシーの詳細については、「緊急ポリシーを構成 [する」を参照してください](#configure-emergency-policies))。
 
    - LIS が一致する場合は、Teams クライアントが接続されているネットワーク要素からの緊急対応の場所が Teams クライアントに返されます。 一致は次の順序で実行され、最初に一致した結果が返されます。
        - (1)
@@ -53,7 +53,7 @@ Teams クライアントには、緊急通話の一部として場所データ�
 
    直接ルーティングの場合、管理者は緊急通話を ERS プロバイダーに送信するか、SBC ELIN アプリケーションを構成するために SBC を構成する必要があります。
 
-この記事では、次のセクションについて説明します。
+この記事には、次のセクションが含まれます。
 
 - [緊急対応の住所を構成する](#assign-emergency-addresses)
 - [ネットワーク設定を構成する](#configure-network-settings)
@@ -85,7 +85,7 @@ Teams クライアントには、緊急通話の一部として場所データ�
 - Teams Rooms バージョン 4.4.25.0 以上
 
 > [!NOTE]
-> セキュリティ デスク通知を含む動的緊急通話は、Teams Web クライアントではサポートされていません。 ユーザーが Teams Web クライアントを使用して PSTN 番号を呼び出すのを防ぐために、Teams 通話ポリシーを設定し、[Web PSTN 通話を許可する] **設定をオフ** にします。 詳細については [、「Teams](teams-calling-policy.md) および [Set-CsTeamsCallingPolicy の通話ポリシー」を参照してください](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。
+> セキュリティ デスク通知を含む動的緊急通話は、Teams Web クライアントではサポートされていません。 ユーザーが Teams Web クライアントを使用して PSTN 番号を呼び出すのを防ぐために、Teams 通話ポリシーを設定し、[Web PSTN 通話を許可する] **設定をオフ** にします。 詳細については [、「Teams](teams-calling-policy.md) および [Set-CsTeamsCallingPolicy の通話ポリシー」を参照してください](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。
 
 ## <a name="assign-emergency-addresses"></a>緊急対応の住所を割り当てる
 
@@ -95,13 +95,13 @@ Teams クライアントには、緊急通話の一部として場所データ�
 
 Azure Maps は、場所ベースのサービスに使用されます。  Microsoft Teams 管理センターを使用して緊急対応の住所を入力すると、Teams は Azure Maps で住所を確認します。
 
-- 一致が見つかると、地理コードが自動的に含まれます。
+- 一致が見つかると、地域コードが自動的に含まれます。
 
 - 一致が見つからない場合は、緊急対応の住所を手動で作成することができます。 PIN ドロップ機能を使って、この操作を行います。 
 
 つまり、通話プランのユーザーに割り当てのために作成された既存の緊急対応の場所が動的な場所を対象としている場合、地域コードを含めるには、同じ住所を再作成する必要があります。 2 つの場所を区別するには、別の説明を含める必要があります。 新しい緊急対応の場所は、古い場所を持つユーザーに割り当てることができます。 完全に移行すると、古い場所を削除できます。
 
-Microsoft Teams 管理センターで緊急対応の住所を追加して割り当てるには、PowerShell を使用します。 詳細については、「組織の緊急対応の場所を追加 [する」](add-change-remove-emergency-location-organization.md) および「ユーザーに緊急対応の場所を割り当てる [」を参照してください](assign-change-emergency-location-user.md)。
+Microsoft Teams 管理センターで緊急対応の住所を追加して割り当てるには、PowerShell を使用します。 詳細については、「組織の緊急対応の場所を追加する [」](add-change-remove-emergency-location-organization.md) および「ユーザーに緊急対応の場所を割り当てる [」を参照してください](assign-change-emergency-location-user.md)。
 
 ## <a name="configure-network-settings"></a>ネットワーク設定を構成する
 
@@ -159,10 +159,10 @@ Teams クライアントは、異なるネットワーク識別子に関連付�
 
 次のコマンドレットを使用して、ポート、スイッチ、サブネット、WAP を LIS に追加します。
 
-- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、[設定、](https://docs.microsoft.com/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)[削除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps)-CsOnlineLisSubnet
-- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisport?view=skype-ps)、[設定、](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisport?view=skype-ps)[削除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisport?view=skype-ps)-CsOnlineLisPort
-- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、[設定、](https://docs.microsoft.com/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)[削除](https://docs.microsoft.com/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps)-CsOnlineLisWirelessAccessPoint
-- [取得](https://docs.microsoft.com/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、[設定、](https://docs.microsoft.com/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)[削除](https://docs.microsoft.com/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps)-CsOnlineLisSwitch
+- [取得](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、[設定、](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)[削除](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps)-CsOnlineLisSubnet
+- [取得](/powershell/module/skype/get-csonlinelisport?view=skype-ps)、[設定、](/powershell/module/skype/set-csonlinelisport?view=skype-ps)[削除](/powershell/module/skype/remove-csonlinelisport?view=skype-ps)-CsOnlineLisPort
+- [取得](/powershell/module/skype/get-csonlineliswirelessaccesspoint?view=skype-ps)、[設定、](/powershell/module/skype/set-csonlineliswirelessaccesspoint?view=skype-ps)[削除](/powershell/module/skype/remove-csonlineliswirelessaccesspoint?view=skype-ps)-CsOnlineLisWirelessAccessPoint
+- [取得](/powershell/module/skype/get-csonlinelisswitch?view=skype-ps)、[設定、](/powershell/module/skype/set-csonlinelisswitch?view=skype-ps)[削除](/powershell/module/skype/remove-csonlinelisswitch?view=skype-ps)-CsOnlineLisSwitch
 
 >[!Important]
 >サブネットがネットワーク サイトの一部として使用されている場合、動的な場所を表示するには、Location Information Service でサブネットを再定義する必要があります。

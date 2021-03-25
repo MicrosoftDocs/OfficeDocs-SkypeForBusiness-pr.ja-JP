@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC を構成して電話システム ダイレクト ルーティングに接続する方法について説明します。
-ms.openlocfilehash: 72075e7a7aed0196ac883d5f81069f2517c9fd9c
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 697f426b9c9dc3215d653520658282fab1787001
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50875067"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122251"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>セッション ボーダー コントローラー (SBC) を直接ルーティングに接続する
 
@@ -49,7 +49,7 @@ ms.locfileid: "50875067"
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
-SBC をダイレクト ルーティングに接続するには、次の手順を実行する必要があります。
+SBC を直接ルーティングに接続するには、次の手順を実行する必要があります。
 
 1. [PowerShell を使用して Skype for Business Online に接続します](#connect-to-skype-for-business-online-by-using-powershell)。
 2. [SBC をテナントに接続します](#connect-the-sbc-to-the-tenant)。
@@ -57,7 +57,7 @@ SBC をダイレクト ルーティングに接続するには、次の手順を
 
 ### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>PowerShell を使用して Skype for Business Online に接続する
 
-テナントに接続されている PowerShell セッションを使用して、SBC をダイレクト ルーティング インターフェイスにペアリングできます。 PowerShell セッションを開く場合は、「PowerShell セッション用にコンピューターをセットアップする」で説明されている手順 [に従](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)Windows PowerShell。
+テナントに接続されている PowerShell セッションを使用して、SBC をダイレクト ルーティング インターフェイスにペアリングできます。 PowerShell セッションを開く場合は、「PowerShell セッション用にコンピューターをセットアップする」で説明されている手順 [に従](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)Windows PowerShell。
  
 リモート PowerShell セッションを確立した後、SBC を管理するためのコマンドが表示されるのを確認します。 コマンドを確認するには、PowerShell セッションで次のコマンドを入力するか、コピーして貼り付け、Enter キーを押します。 
 
@@ -78,7 +78,7 @@ Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 
 ### <a name="connect-the-sbc-to-the-tenant"></a>SBC をテナントに接続する
 
-[New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)コマンドレットを使用して、SBC をテナントに接続します。 PowerShell セッションで、次を入力し、Enter キーを押します。
+[New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway)コマンドレットを使用して、SBC をテナントに接続します。 PowerShell セッションで、次を入力し、Enter キーを押します。
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true
@@ -111,7 +111,7 @@ Enabled               : True
 </pre>
 
 > [!NOTE]
-> この例では、必要最小限のパラメーターのみを示します。 接続プロセス中に [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) コマンドレットで設定できる追加のパラメーターがあります。 詳細については [、SBC の設定を参照してください](#sbc-settings)。
+> この例では、必要最小限のパラメーターのみを示します。 接続プロセス中に [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) コマンドレットで設定できる追加のパラメーターがあります。 詳細については [、SBC の設定を参照してください](#sbc-settings)。
  
 ### <a name="verify-the-sbc-connection"></a>SBC 接続を確認する
 
@@ -122,7 +122,7 @@ Enabled               : True
  
 #### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>SBC がペアリングされた SBC のリストにあるかどうかを確認する
 
-SBC を接続した後 [、Get-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/get-csonlinepstngateway) コマンドレットを使用して、SBC がペアリングされた SBC のリストに存在しているか確認します。 リモート PowerShell セッションで次を入力し、Enter キーを押します。
+SBC を接続した後 [、Get-CsOnlinePSTNGateway](/powershell/module/skype/get-csonlinepstngateway) コマンドレットを使用して、SBC がペアリングされた SBC のリストに存在しているか確認します。 リモート PowerShell セッションで次を入力し、Enter キーを押します。
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -156,7 +156,7 @@ Enabled               : True
 
 ## <a name="sbc-settings"></a>SBC の設定
 
-次の表は、Microsoft Teams 管理センターと [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) コマンドレットを使用して SBC に設定できるオプションの一覧です。
+次の表は、Microsoft Teams 管理センターと [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) コマンドレットを使用して SBC に設定できるオプションの一覧です。
 
 |必須。|Microsoft Teams 管理センターの設定|PowerShell パラメーター|説明|既定値|可能な値|種類と制限|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -166,11 +166,11 @@ Enabled               : True
 |いいえ|**SIP の送信オプション**|SendSIPOptions |SBC が SIP オプション メッセージを送信するかどうかを定義します。 この設定を有効にすることを強くお勧めします。 この設定をオフにすると、SBC は監視および通知システムから除外されます。|True|True<br/>False|Boolean|
 |いいえ|**通話履歴を転送する**|ForwardCallHistory |通話履歴情報がトランク経由で転送されるかどうかを示します。 これを有効にした場合、Microsoft 365 または Office 365 プロキシは履歴情報と参照者ヘッダーを送信します。 |False|True<br/>False|Boolean|
 |いいえ|**FORWARD P アサート ID (HEADER) ヘッダー**|ForwardPAI|呼び出しと共に、この HEADER ヘッダーが転送されるかどうかを示します。 PAI ヘッダーがあれば、発信者 ID を確認できます。 この設定がオンの場合は、Privacy:ID ヘッダーも送信されます。|False|True<br/>False|Boolean|
-|いいえ|**同時通話容量**|MaxConcurrentSessions |値を設定すると、同時セッションの数がこの値より 90% 以上多い場合、通知システムによって通知されます。 値を設定しない場合、通知は生成されません。 ただし、監視システムは 24 時間ごとに同時セッションの数を報告します。 |Null|Null<br/>1 ~ 100,000 ||
-|いいえ|**フェールオーバー応答コード**|FailoverResponseCodes<br>|ダイレクト ルーティングが送信の招待に応答して 4xx または 6xx SIP エラー コードを受け取った場合、通話は既定で完了したと見なされます。 送信とは、トラフィック フローを含む Teams クライアントから PSTN への通話を意味します。Teams クライアント -> ダイレクト ルーティング -> SBC -> テレフォニー ネットワーク)。 フェールオーバー応答コードを指定すると、ネットワークまたは他の問題のために SBC が呼び出しを行えなかった場合、指定されたコードを受け取った場合、ダイレクト ルーティングは別の SBC を強制的に試します (ユーザーの音声ルーティング ポリシーに別の SBC が存在する場合)。 詳細については、セッション ボーダー コントローラー (SBC) から受信した特定の SIP コードの [フェールオーバーを参照してください](direct-routing-trunk-failover-on-outbound-call.md)。|408, 503, 504||Int|
+|いいえ|**同時呼び出しキャパシティ**|MaxConcurrentSessions |値を設定すると、同時セッションの数が 90% 以上の場合に通知システムが通知します。 値を設定しない場合、通知は生成されません。 ただし、監視システムは 24 時間ごとに同時セッションの数を報告します。 |Null|Null<br/>1 ~ 100,000 ||
+|いいえ|**フェールオーバー応答コード**|FailoverResponseCodes<br>|ダイレクト ルーティングが送信の招待に応答して 4xx または 6xx SIP エラー コードを受け取った場合、通話は既定で完了したと見なされます。 送信とは、トラフィック フローを含む Teams クライアントから PSTN への通話を意味します。Teams クライアント -> ダイレクト ルーティング -> SBC -> テレフォニー ネットワーク)。 フェールオーバー応答コードを指定すると、ネットワークまたは他の問題のために SBC が呼び出しを行えなかった場合、指定されたコードを受け取った場合、ダイレクト ルーティングは別の SBC を強制的に試します (ユーザーの音声ルーティング ポリシーに別の SBC が存在する場合)。 詳細については、「セッション ボーダー コントローラー (SBC) から受信した特定の SIP コードのフェールオーバー [」を参照してください](direct-routing-trunk-failover-on-outbound-call.md)。|408, 503, 504||Int|
 |いいえ|**フェールオーバー時間 (秒)**|FailoverTimeSeconds |値を設定すると、設定した時間内にゲートウェイによって応答されない発信通話は、次に使用可能なトランクにルーティングされます。 追加のトランクがない場合、通話は自動的にドロップされます。 既定値は 10 秒です。 ネットワークとゲートウェイの応答が遅い組織では、これにより、通話が不必要に削除される可能性があります。|10|数値|Int|
 |いいえ|**メディア トラフィックに推奨される国または地域**|MediaRelayRoutingLocationOverride |メディア トラフィックに優先する国または地域を手動で設定するために使用します。 これは、通話ログがメディア パスに対するデータセンターの既定の割り当てが SBC データセンターに最も近いパスを使用しない場合にのみ設定することをお勧めします。 既定では、ダイレクト ルーティングは SBC のパブリック IP アドレスに基づいてデータセンターを割り当て、常に SBC データセンターに最も近いパスを選択します。 ただし、場合によっては、既定のパスが最適なパスではない可能性があります。 このパラメーターを使用すると、メディア トラフィックの優先領域を手動で設定できます。 |なし|ISO 形式の国コード||
-|いいえ|**SBC が緊急通話に PIDF/LO をサポート**|PidfloSupported|SBC で緊急通話のプレゼンス情報データ形式の場所オブジェクト (PIDF/LO) をサポートするかどうかを指定します。||||
+|いいえ|**SBC は緊急通話に PIDF/LO をサポートします**|PidfloSupported|SBC で緊急通話のプレゼンス情報データ形式の場所オブジェクト (PIDF/LO) をサポートするかどうかを指定します。||||
 |いいえ| - |MediaBypass|この設定は、SBC がメディア バイパスをサポートするかどうか、およびこの SBC に使用するかどうかを示します。 |なし|True<br/>False|Boolean|
 
 ## <a name="see-also"></a>関連項目

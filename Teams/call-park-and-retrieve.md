@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Microsoft Teams でコール パークを使用して通話を保留する方法について説明します。
-ms.openlocfilehash: efc36a2bc90b64abf2e886c5e768a26704bd6550
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102803"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197582"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -49,7 +49,7 @@ ms.locfileid: "51102803"
 
 コール パーク ポリシーを有効にするには
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**音声** 通話パークのポリシー  >  **に移動します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**音声** 通話パークの  >  **ポリシーに移動します**。
 2. [ポリシーの **管理] タブの [** 追加] を **クリックします**。
 3. ポリシーに名前を付け、[通話パークの許可] を [オン]**に****切り替えます**。
 
@@ -61,7 +61,7 @@ ms.locfileid: "51102803"
 
 ポリシーを機能するには、ポリシーをユーザーに割り当てる必要があります。 ポリシーを [ユーザーに個別に割り当てるか](assign-policies.md) 、グループに割り当てできます。
 
-グループに通話パーツ ポリシーを割り当てるには
+コール パーク ポリシーをグループに割り当てるには
 
 1. [コール **パーク ポリシー] ページの [** グループ ポリシーの割り当 **て** ] タブで、[グループの **追加] をクリックします**。
 2. 使用するグループを検索し、[追加] をクリック **します**。
@@ -72,7 +72,7 @@ ms.locfileid: "51102803"
 
 5. **[適用]** を選択します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams で通話をパークする](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 

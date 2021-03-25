@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: 4b736aef028421bca6c4945095f9d293d18f3550
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: aeb81aef1b2dba23dc3daaa6ec8a788c0b232529
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826887"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122521"
 ---
 # <a name="unassigned-phone-number"></a>割り当てられていない電話番号
 
@@ -49,18 +49,18 @@ ms.locfileid: "49826887"
 
 次の一覧に、このページのコマンドを示します。
 
-- **新規** 新しい割り当てられていない番号範囲を開始します。
+- **New** 割り当てられていない新しい番号範囲を開始します。
 
-- **編集** 選択した割り当てられていない番号範囲を編集用に開き、一覧内のすべての割り当てられていない番号範囲を選択するか、選択した割り当てられていない番号範囲を削除します。
+- **編集** 選択した割り当てられていない番号範囲を編集用に開き、リスト内のすべての割り当てられていない番号範囲を選択するか、選択した割り当てられていない番号範囲を削除します。
 
-- **上へ移動** 選択した割り当てられていない番号範囲を一覧内で上に移動し、Skype for Business Server が一覧内の他の範囲に指定されたアクションを適用する前に、指定されたアクションを適用します。
+- **上に移動する** 選択した割り当てられていない番号範囲をリスト内で上に移動して、Skype for Business Server が検索を早くし、指定したアクションを適用してから、リスト内の他の範囲に指定されたアクションを適用します。
 
     > [!NOTE]
-    > Skype for Business Server は、割り当てられていない番号の表を上から下に検索し、割り当てられていない番号に一致する最初の範囲を使用します。 たとえば、最後のアクションを指定している範囲がある場合は、その範囲が一覧の一番下にあることを確認します。
+    > Skype for Business Server は、割り当てられていない番号テーブルを上から下に検索し、割り当てられていない番号に一致する最初の範囲を使用します。 たとえば、最後のアクションを指定している範囲がある場合は、その範囲が一覧の一番下にあることを確認します。
 
-- **下へ移動** 選択した割り当てられていない番号範囲をリスト内で下に移動します。
+- **下に移動する** 選択した割り当てられていない番号範囲をリスト内で下に移動します。
 
-- **すべて確定** 割り当てられていない番号範囲に加えたすべての変更を保存します。
+- **すべてコミットする** 割り当てられていない番号範囲に加えたすべての変更を保存します。
 
     > [!IMPORTANT]
     > このコマンドは、[**新規 未使用の番号範囲**] ページと [**編集 未使用の番号範囲**] ページで行われたすべての変更を保存します。
@@ -71,16 +71,14 @@ ms.locfileid: "49826887"
 
 - **名前** 割り当てられていない番号範囲を識別する一意の名前。
 
-- **State** データベースに保存されている番号範囲と保存されていない番号範囲を示します。
+- **状態** データベースに保存されている番号範囲と保存されていない番号範囲を示します。
 
-- **開始範囲** 割り当てられていない番号範囲の開始番号を指定します。
+- **開始範囲** 割り当てられていない番号範囲の先頭番号。
 
-- **終了範囲** 割り当てられていない番号範囲の終了番号を指定します。
+- **終了範囲** 割り当てられていない番号範囲の終了番号。
 
-- **Destination** この割り当てられていない番号範囲への着信呼び出しを処理するアナウンス アプリケーションをホストするアプリケーション サービスのサービス ID。
+- **宛先** 割り当てられていないこの範囲の番号に対する着信呼び出しを処理するアナウンス アプリケーションをホストする Application サービスのサービス ID。
 
-- **アナウンス** この割り当てられていない番号の範囲で再生されるアナウンス。
+- **お知らせ** 割り当てられていないこの範囲の番号に対して再生されるアナウンス。
 
-アナウンスの機能の詳細については、「計画」のドキュメントの [「Plan for the Announcement application in Skype for Business 2015」](../../plan-your-deployment/enterprise-voice-solution/announcement.md) を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx)」を参照してください。
-
-
+お知らせの機能の詳細については、「計画」のドキュメントの「Plan for the [Announcement application in Skype for Business 2015」](../../plan-your-deployment/enterprise-voice-solution/announcement.md) を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。

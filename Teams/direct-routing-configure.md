@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: オンプレミスのテレフォニー インフラストラクチャを Microsoft Teams に接続するために Microsoft Phone System Direct Routing を構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5388c93e741323d3dc9eda0fc51968b8b344d2cb
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: ecd8579ccd092e6b82deb06aa670901cdfc3b023
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701295"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122241"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -34,9 +34,9 @@ Microsoft Phone System Direct Routing を使用すると、オンプレミスの
 直接ルーティングが組織に適切なソリューションであるかどうかを確認する方法については、「電話システム ダイレクト ルーティング」 [を参照してください](direct-routing-landing-page.md)。 前提条件と展開の計画については、「直接ルーティングを計画する [」を参照してください](direct-routing-plan.md)。
 
 > [!Tip]
-> また、次のセッションを見て、直接ルーティングの利点、その計画方法、展開方法について学習できます [。Microsoft Teams](https://aka.ms/teams-direct-routing)での直接ルーティング。
+> また、次のセッションを見て、直接ルーティングの利点、プランの方法、展開方法について説明します [。Microsoft Teams](https://aka.ms/teams-direct-routing)での直接ルーティング。
 
-この記事で説明する手順を完了するには、管理者は PowerShell コマンドレットに精通している必要があります。 PowerShell の使用の詳細については、「PowerShell を使用するコンピューター [をセットアップする」を](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)Windows PowerShell。 
+この記事で説明する手順を完了するには、管理者は PowerShell コマンドレットに精通している必要があります。 PowerShell の使用の詳細については、「PowerShell を使用するコンピューター [をセットアップする」を](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)Windows PowerShell。 
 
 これらの記事の手順を実行する前に、Microsoft では、SBC ベンダーが推奨するように SBC が既に構成されていることを確認するようにお勧めします。 
 
@@ -55,7 +55,7 @@ Microsoft Phone System を構成し、ユーザーが直接ルーティングを
 - **手順 3.** [音声ルーティングを構成する](direct-routing-voice-routing.md)
 - **手順 4.** [数値を別の形式に翻訳する](direct-routing-translate-numbers.md) 
 
-複数のテナントに対して SBC を構成する場合は、「複数のテナントに対して SBC を構成する」 [も参照してください](direct-routing-sbc-multiple-tenants.md)。
+複数のテナントに対して SBC を構成する場合は、「複数のテナントに対して SBC を構成する」も [参照する必要があります](direct-routing-sbc-multiple-tenants.md)。
 
 
 ## <a name="related-topics"></a>関連項目
@@ -63,4 +63,3 @@ Microsoft Phone System を構成し、ユーザーが直接ルーティングを
 [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 
 [ダイレクト ルーティングを計画する](direct-routing-plan.md)
-

@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ネットワーク インターフェイス情報は、このコマンドレットと Windows PowerShell使用してGet-CsNetworkInterfaceできます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
-ms.openlocfilehash: 26876fe6f7d8ac6989c88e8247d28a72e78ff903
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: ネットワーク インターフェイスの情報を表示するには、Windows PowerShellコマンドレットをGet-CsNetworkInterfaceします。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。
+ms.openlocfilehash: 0e72b2550413004038b110292b693dda25affaf8
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815137"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122421"
 ---
 # <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク インターフェイス情報の表示
 
-ネットワーク インターフェイス情報を表示するには、Windows PowerShell **Get-CsNetworkInterface コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 
+ネットワーク インターフェイスの情報を表示するには、Windows PowerShell **Get-CsNetworkInterface コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 
 
 ## <a name="to-view-network-interface-information"></a>ネットワーク インターフェイス情報を表示するには
 
-  - ネットワーク インターフェイス情報を表示するには、Skype for Business Server 管理シェルで次のコマンドを入力し、Enter キーを押します。
+  - ネットワーク インターフェイス情報を表示するには、Skype for Business Server 管理シェルに次のコマンドを入力し、Enter キーを押します。
     
         Get-CsNetworkInterface
     
@@ -40,6 +40,4 @@ ms.locfileid: "49815137"
         ConfiguredIPAddress   :
         ConfiguredIPv6Address :
     
-    詳細については、「 [Get-CsNetworkInterface](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterface)」を参照してください。
-
-
+    詳細については、「 [Get-CsNetworkInterface](/powershell/module/skype/Get-CsNetworkInterface)」を参照してください。

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 日本で利用できる Skype for Business と Microsoft Teams の Microsoft 365 と Office 365 サービスは次のとおりです。
-ms.openlocfilehash: e198f4b13ddbeddcd7a20814812148b9016125af
-ms.sourcegitcommit: 1c2359f10ad5f5ec10dc52508ef4774c04b631ab
-ms.translationtype: HT
+ms.openlocfilehash: 07163f6aa252bb0ec3e8976a8ed54bba914f4ae9
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "44229231"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122311"
 ---
 # <a name="availability-in-japan"></a>日本での利用可能性
 
@@ -43,7 +43,7 @@ ms.locfileid: "44229231"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li> 東京</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li> 東京</ul> 専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)」をご覧ください。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -78,7 +78,7 @@ ms.locfileid: "44229231"
 |有料電話番号は使用できますか?  <br/> |はい <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」をご覧ください。
+ 電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)」をご覧ください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -88,11 +88,10 @@ ms.locfileid: "44229231"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
+[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
- 

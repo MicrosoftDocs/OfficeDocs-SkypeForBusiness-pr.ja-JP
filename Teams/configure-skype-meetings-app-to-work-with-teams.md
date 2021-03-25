@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a1b4f05be530e57d11d618ae0489187b65f9e56
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 40b1e0b95eeac06a0a92264305e0bf20e222d72e
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581668"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51122321"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Teams と連動するように Skype 会議アプリを構成する
 ===================================================
@@ -46,4 +46,4 @@ Teams と Skype 会議アプリを使うユーザーには、次の制限があ�
 ## <a name="more-information"></a>詳細情報
 
 - [Skype 会議アプリ (Skype for Business Web アプリ) とは](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
-- [Skype 会議アプリの最小ネットワーク要件](https://technet.microsoft.com/library/mt845808.aspx)
+- [Skype 会議アプリの最小ネットワーク要件](/previous-versions/office/communications/mt845808(v=ocs.16))
