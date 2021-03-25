@@ -1,5 +1,5 @@
 ---
-title: サブネットの関連付け新規追加または既存の編集
+title: サブネットの関連付け 新規追加または既存の編集
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: b131fbabb19836097ff85c3f7d371a218361c497
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 96fd5dbca91fc6f03c45dba74ddc841f6f1c9b05
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826917"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119976"
 ---
-# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="27e08-104">サブネットの関連付け: 新規追加または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="27e08-104">Associate a Subnet: Add New or Edit Existing</span></span>
+# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="2b93a-104">サブネットの関連付け: 新規追加または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="2b93a-104">Associate a Subnet: Add New or Edit Existing</span></span>
 
-<span data-ttu-id="27e08-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="27e08-105">What do you want to do?</span></span> <span data-ttu-id="27e08-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="27e08-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="2b93a-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="2b93a-105">What do you want to do?</span></span> <span data-ttu-id="2b93a-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="2b93a-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="27e08-107">ネットワーク サブネットの構成</span><span class="sxs-lookup"><span data-stu-id="27e08-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="2b93a-107">ネットワーク サブネットの構成</span><span class="sxs-lookup"><span data-stu-id="2b93a-107">Configuring Network Subnets</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-network-subnets)
 
-<span data-ttu-id="27e08-108">Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="27e08-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
-
+<span data-ttu-id="2b93a-108">Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。</span><span class="sxs-lookup"><span data-stu-id="2b93a-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>

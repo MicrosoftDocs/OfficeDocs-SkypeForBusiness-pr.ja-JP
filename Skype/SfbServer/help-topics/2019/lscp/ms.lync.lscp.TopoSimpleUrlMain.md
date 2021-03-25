@@ -1,5 +1,5 @@
 ---
-title: トポロジ ビューの簡易 URL
+title: トポロジ ビューの単純な URL
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,17 @@ localization_priority: Normal
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 23c65a72dd4591609a2f6ea7bf25e9ad616eff21
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 87184abc39a290f977d704f2053916ddd08fc837
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836187"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51120166"
 ---
-# <a name="topology-view-simple-url"></a><span data-ttu-id="d080b-104">トポロジ: 簡単な URL の表示</span><span class="sxs-lookup"><span data-stu-id="d080b-104">Topology: View Simple URL</span></span>
+# <a name="topology-view-simple-url"></a><span data-ttu-id="cef2f-104">トポロジ: 簡単な URL の表示</span><span class="sxs-lookup"><span data-stu-id="cef2f-104">Topology: View Simple URL</span></span>
 
-<span data-ttu-id="d080b-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="d080b-105">What do you want to do?</span></span> <span data-ttu-id="d080b-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="d080b-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="cef2f-105">目的に合ったトピックをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="cef2f-105">What do you want to do?</span></span> <span data-ttu-id="cef2f-106">実行するタスクへのリンクをクリックしてください。</span><span class="sxs-lookup"><span data-stu-id="cef2f-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="d080b-107">簡単な URL の編集または構成</span><span class="sxs-lookup"><span data-stu-id="d080b-107">Edit or Configure Simple URLs</span></span>](https://technet.microsoft.com/library/0008aeea-4ae9-4e36-83cd-ef7ff7b6e128.aspx)
+- [<span data-ttu-id="cef2f-107">簡単な URL の編集または構成</span><span class="sxs-lookup"><span data-stu-id="cef2f-107">Edit or Configure Simple URLs</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-edit-or-configure-simple-urls)
 
-- [<span data-ttu-id="d080b-108">簡易  URL の管理</span><span class="sxs-lookup"><span data-stu-id="d080b-108">Managing Simple URLs</span></span>](https://technet.microsoft.com/library/97ad8230-f422-462a-9ce4-6061fa7f2617.aspx)
-
-
-
+- [<span data-ttu-id="cef2f-108">簡易  URL の管理</span><span class="sxs-lookup"><span data-stu-id="cef2f-108">Managing Simple URLs</span></span>](/previous-versions/office/lync-server-2013/lync-server-2013-managing-simple-urls)

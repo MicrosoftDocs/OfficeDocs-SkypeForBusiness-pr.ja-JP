@@ -14,48 +14,48 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: デバイス構成は、Skype for Business Phone Edition デバイスをグローバルに、またはサイト内で管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
-ms.openlocfilehash: 4c5ce8858e957d84215f4e62f1571a8455b7ebdc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: デバイス構成は、Skype for Business Phone Edition デバイスをグローバルまたはサイト内で管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
+ms.openlocfilehash: 23bedeba6b1ab2bf8a620818e6b77bb8c8b2eebe
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807327"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51119916"
 ---
-# <a name="device-configuration"></a><span data-ttu-id="adbf9-104">デバイス構成</span><span class="sxs-lookup"><span data-stu-id="adbf9-104">Device Configuration</span></span>
+# <a name="device-configuration"></a><span data-ttu-id="a0640-104">デバイス構成</span><span class="sxs-lookup"><span data-stu-id="a0640-104">Device Configuration</span></span>
  
-<span data-ttu-id="adbf9-105">デバイス構成は、Skype for Business Phone Edition デバイスをグローバルに、またはサイト内で管理するために使用される設定のコレクションです。</span><span class="sxs-lookup"><span data-stu-id="adbf9-105">A device configuration is a collection of settings used to manage Skype for Business Phone Edition devices, either globally or within a site.</span></span> <span data-ttu-id="adbf9-106">これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。</span><span class="sxs-lookup"><span data-stu-id="adbf9-106">These settings enable you to configure such things as the required security mode, device logging level, Voice Quality of Service (QoS) settings, and whether or not phones should automatically lock after a specified period of inactivity.</span></span> 
+<span data-ttu-id="a0640-105">デバイス構成は、Skype for Business Phone Edition デバイスをグローバルまたはサイト内で管理するために使用される設定のコレクションです。</span><span class="sxs-lookup"><span data-stu-id="a0640-105">A device configuration is a collection of settings used to manage Skype for Business Phone Edition devices, either globally or within a site.</span></span> <span data-ttu-id="a0640-106">これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。</span><span class="sxs-lookup"><span data-stu-id="a0640-106">These settings enable you to configure such things as the required security mode, device logging level, Voice Quality of Service (QoS) settings, and whether or not phones should automatically lock after a specified period of inactivity.</span></span> 
   
-## <a name="tasks-you-can-perform"></a><span data-ttu-id="adbf9-107">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="adbf9-107">Tasks you can perform</span></span>
+## <a name="tasks-you-can-perform"></a><span data-ttu-id="a0640-107">実行できるタスク</span><span class="sxs-lookup"><span data-stu-id="a0640-107">Tasks you can perform</span></span>
 
-<span data-ttu-id="adbf9-108">[デバイス構成] ページでは、次の **タスクを実行** できます。</span><span class="sxs-lookup"><span data-stu-id="adbf9-108">You can perform the following tasks on the **Device Configuration** page:</span></span>
+<span data-ttu-id="a0640-108">[デバイス構成] ページで次の **タスクを実行** できます。</span><span class="sxs-lookup"><span data-stu-id="a0640-108">You can perform the following tasks on the **Device Configuration** page:</span></span>
   
-- <span data-ttu-id="adbf9-109">デバイス構成をグローバルに、または特定のサイトに追加します。</span><span class="sxs-lookup"><span data-stu-id="adbf9-109">Add a device configuration globally or for a particular site.</span></span>
+- <span data-ttu-id="a0640-109">デバイス構成をグローバルまたは特定のサイトに追加します。</span><span class="sxs-lookup"><span data-stu-id="a0640-109">Add a device configuration globally or for a particular site.</span></span>
     
-- <span data-ttu-id="adbf9-110">既存のデバイス構成のオプションを変更します。</span><span class="sxs-lookup"><span data-stu-id="adbf9-110">Modify the options for an existing device configuration.</span></span>
+- <span data-ttu-id="a0640-110">既存のデバイス構成のオプションを変更します。</span><span class="sxs-lookup"><span data-stu-id="a0640-110">Modify the options for an existing device configuration.</span></span>
     
-## <a name="ui-reference"></a><span data-ttu-id="adbf9-111">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="adbf9-111">UI Reference</span></span>
+## <a name="ui-reference"></a><span data-ttu-id="a0640-111">UI リファレンス</span><span class="sxs-lookup"><span data-stu-id="a0640-111">UI Reference</span></span>
 
-<span data-ttu-id="adbf9-112">次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。</span><span class="sxs-lookup"><span data-stu-id="adbf9-112">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
+<span data-ttu-id="a0640-112">次の一覧に、このページのメニュー、コマンド、フィールド、およびプロパティを示します。</span><span class="sxs-lookup"><span data-stu-id="a0640-112">The following lists describe the menus, commands, fields, and properties on the page.</span></span>
   
-- <span data-ttu-id="adbf9-113">**新規** 新しいデバイス構成は、次のスコープで追加できます。</span><span class="sxs-lookup"><span data-stu-id="adbf9-113">**New** You can add a new device configuration with the following scope:</span></span>
+- <span data-ttu-id="a0640-113">**New** 次のスコープで新しいデバイス構成を追加できます。</span><span class="sxs-lookup"><span data-stu-id="a0640-113">**New** You can add a new device configuration with the following scope:</span></span>
     
-  - <span data-ttu-id="adbf9-114">グローバル</span><span class="sxs-lookup"><span data-stu-id="adbf9-114">Global</span></span>
+  - <span data-ttu-id="a0640-114">グローバル</span><span class="sxs-lookup"><span data-stu-id="a0640-114">Global</span></span>
     
-  - <span data-ttu-id="adbf9-115">Site</span><span class="sxs-lookup"><span data-stu-id="adbf9-115">Site</span></span>
+  - <span data-ttu-id="a0640-115">サイト</span><span class="sxs-lookup"><span data-stu-id="a0640-115">Site</span></span>
     
-- <span data-ttu-id="adbf9-116">**編集** 一覧のデバイス構成のオプションを変更できます。</span><span class="sxs-lookup"><span data-stu-id="adbf9-116">**Edit** You can change the options of a device configuration in the list.</span></span> <span data-ttu-id="adbf9-117">このオプションを使用すると、次の操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="adbf9-117">Using this option, you can do the following:</span></span>
+- <span data-ttu-id="a0640-116">**編集** 一覧でデバイス構成のオプションを変更できます。</span><span class="sxs-lookup"><span data-stu-id="a0640-116">**Edit** You can change the options of a device configuration in the list.</span></span> <span data-ttu-id="a0640-117">このオプションを使用すると、次の操作を実行できます。</span><span class="sxs-lookup"><span data-stu-id="a0640-117">Using this option, you can do the following:</span></span>
     
-  - <span data-ttu-id="adbf9-118">**詳細の表示** このオプションを選択すると、デバイス構成のオプションを変更できるダイアログ ボックスが開きます。</span><span class="sxs-lookup"><span data-stu-id="adbf9-118">**Show details** This option opens a dialog box in which you can change the options for a device configuration.</span></span>
+  - <span data-ttu-id="a0640-118">**詳細の表示** このオプションは、デバイス構成のオプションを変更できるダイアログ ボックスを開きます。</span><span class="sxs-lookup"><span data-stu-id="a0640-118">**Show details** This option opens a dialog box in which you can change the options for a device configuration.</span></span>
     
-  - <span data-ttu-id="adbf9-119">**すべて選択** このオプションは、一覧内のすべてのデバイス構成を選択します。</span><span class="sxs-lookup"><span data-stu-id="adbf9-119">**Select All** This option selects all device configurations in the list.</span></span>
+  - <span data-ttu-id="a0640-119">**[すべて選択]** このオプションは、リスト内のすべてのデバイス構成を選択します。</span><span class="sxs-lookup"><span data-stu-id="a0640-119">**Select All** This option selects all device configurations in the list.</span></span>
     
-  - <span data-ttu-id="adbf9-120">**削除** このオプションは、選択したデバイス構成をすべて削除します。</span><span class="sxs-lookup"><span data-stu-id="adbf9-120">**Delete** This option deletes all selected device configurations.</span></span>
+  - <span data-ttu-id="a0640-120">**削除** このオプションは、選択したデバイス構成をすべて削除します。</span><span class="sxs-lookup"><span data-stu-id="a0640-120">**Delete** This option deletes all selected device configurations.</span></span>
     
-- <span data-ttu-id="adbf9-121">**更新** デバイス構成リストを更新して、すべてのデバイス構成のオプションの状態を確認できます。</span><span class="sxs-lookup"><span data-stu-id="adbf9-121">**Refresh** You can refresh the device configuration list to verify the status of the options of all device configurations.</span></span>
+- <span data-ttu-id="a0640-121">**更新** デバイス構成リストを更新して、すべてのデバイス構成のオプションの状態を確認できます。</span><span class="sxs-lookup"><span data-stu-id="a0640-121">**Refresh** You can refresh the device configuration list to verify the status of the options of all device configurations.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="adbf9-122">関連項目</span><span class="sxs-lookup"><span data-stu-id="adbf9-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a0640-122">関連項目</span><span class="sxs-lookup"><span data-stu-id="a0640-122">See also</span></span>
 
-[<span data-ttu-id="adbf9-123">デバイス構成: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="adbf9-123">Device Configuration: Create New or Edit Existing</span></span>](device-configuration-create-new-or-edit-existing.md)
+[<span data-ttu-id="a0640-123">デバイス構成: 新規作成または現在の形式のままで編集</span><span class="sxs-lookup"><span data-stu-id="a0640-123">Device Configuration: Create New or Edit Existing</span></span>](device-configuration-create-new-or-edit-existing.md)
 
-[<span data-ttu-id="adbf9-124">Set-CsUCPhoneConfiguration</span><span class="sxs-lookup"><span data-stu-id="adbf9-124">Set-CsUCPhoneConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
+[<span data-ttu-id="a0640-124">Set-CsUCPhoneConfiguration</span><span class="sxs-lookup"><span data-stu-id="a0640-124">Set-CsUCPhoneConfiguration</span></span>](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)
