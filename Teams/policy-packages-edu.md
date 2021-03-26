@@ -21,21 +21,23 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Priority
 search.appverid: MET150
 description: 教育機関におけるポリシーや EDU 設定、および Microsoft Teams でポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: f580d8c41fe629a1c705f650a2aef84302128c20
-ms.sourcegitcommit: ee217e1d7188842c7becd19387fd421b485c3575
+ms.openlocfilehash: 10b87a804523758df69a68ff9c5812a6ea5b448c
+ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48908616"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51117795"
 ---
-# <a name="teams-policies-and-policy-packages-for-education"></a>境域機関向け Teams ポリシーおよびポリシー パッケージ
+# <a name="teams-policies-and-policy-packages-for-education"></a>教育機関向け Teams ポリシーおよびポリシー パッケージ
+
+[!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
 > Microsoft Teams のポリシーの大規模な事例については、「[Microsoft Teams でユーザーにポリシーを割り当てる](assign-policies.md)」をご確認ください。
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>管理者: Microsoft Teams のポリシー管理の概要
 
-Microsoft Teams を使用すると、ユーザーはオンライン会議やライブ イベントへの参加、チャット、通話、アプリの使用などを行うことができます。 適切な Microsoft Teams 管理ポリシーを設定することは、Teams が学生にとって安全な学習環境であることを保証するための重要なステップです。 管理者は、ポリシーを使用して、教育機関のユーザーが利用できる Teams 機能を制御できます。  ほとんどの場合、環境を安全に保つために、学生と教師の両方のポリシーを調整する必要があります。  
+Microsoft Teams を使用すると、ユーザーはオンライン会議やライブ イベントへの参加、チャット、通話、アプリの使用などを行うことができます。 適切な Microsoft Teams 管理ポリシーを設定することは、Teams が学生にとって安全な学習環境であることを保証するための重要なステップです。 管理者は、ポリシーを使用して、教育機関のユーザーが利用できる Teams 機能を制御できます。 ほとんどの場合、環境を安全に保つために、学生と教師の両方のポリシーを調整する必要があります。  
 
 Microsoft Teams 内の主なポリシー領域の一覧は次のとおりです。 各領域のポリシーとそれらが制御する機能の詳細については、以下のリンクを使用してください:
 
@@ -74,7 +76,7 @@ Teams 管理センターにログインすると、Teams 管理センターの�
 1. グローバル （組織全体の既定） ポリシー定義は、他のポリシー定義が割り当てられていない限り、学生に適用されます。
 
 
-ポリシー定義を作成または編集するには、作業するポリシー機能領域 (メッセージング ポリシーなど) に移動します。 **[追加]** を選択して、新しいカスタム ポリシー定義を作成します。 既存のポリシー定義を変更するには、 **[編集]** を選択します。
+ポリシー定義を作成または編集するには、作業するポリシー機能領域 (メッセージング ポリシーなど) に移動します。 **[追加]** を選択して、新しいカスタム ポリシー定義を作成します。 既存のポリシー定義を変更するには、**[編集]** を選択します。
 
 :::image type="content" source="media/edu-messaging-policies-add-closeup.png" alt-text="[追加] ボタンを表示した状態での [メッセージング ポリシー] セクションのクローズアップ。":::
 
@@ -83,7 +85,7 @@ Teams 管理センターにログインすると、Teams 管理センターの�
 ![選んだポリシー領域に関連付けられているポリシー オプションを含むページ。](media/edu-global-policy-definition.png)
 
 > [!IMPORTANT]
-> ページから移動する前に、 **[保存]** を必ず選択してください。
+> ページから移動する前に、**[保存]** を必ず選択してください。
 
 ### <a name="assigning-policy-definitions"></a>ポリシー定義の割り当て 
 ポリシー定義をユーザーに割り当てるために使用できる方法は複数あります。 各方法には、独自の利点と欠点があります。これは、お客様の機関のニーズによって異なります。  
@@ -107,7 +109,7 @@ Teams 管理センターにログインすると、Teams 管理センターの�
 
 ![[メッセージング ポリシー] ページの上部の右側にあるユーザー パネルを管理します。](media/edu-manage-users-pane.png)
 
-また、 **[ユーザー]** に移動し、ポリシーを更新するユーザーを選択し、 **[ポリシー]** を選択してから **[編集]** を選択することにより、ユーザーにポリシーを割り当てることができます。 ここから、各機能領域に対してユーザーに割り当てるポリシー定義を選択できます。
+また、**[ユーザー]** に移動し、ポリシーを更新するユーザーを選択し、**[ポリシー]** を選択してから **[編集]** を選択することにより、ユーザーにポリシーを割り当てることができます。 ここから、各機能領域に対してユーザーに割り当てるポリシー定義を選択できます。
 
 ![[割り当てられているポリシー] ページの右側にある [ユーザー ポリシーの編集] ウィンドウ。](media/edu-edit-user-policies-pane.png)
 
@@ -155,13 +157,13 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 
 ### <a name="view"></a>表示
 
-パッケージを割り当てる前に、ポリシー パッケージ内の各ポリシーの設定を表示します。 Microsoft Teams 管理センターの左側のナビゲーションで、[ **ポリシーパッケージ** ] を選択し、パッケージ名を選択して、ポリシー名を選択します。
+パッケージを割り当てる前に、ポリシー パッケージ内の各ポリシーの設定を表示します。 Microsoft Teams 管理センターの左側のナビゲーションで、[**ポリシーパッケージ**] を選択し、パッケージ名を選択して、ポリシー名を選択します。
 
 事前に定義された値が組織に適しているかどうか、または組織のニーズに基づいてより厳しくあるいは緩めにユーザーをカスタマイズする必要があるかどうかを判断します。
 
 ### <a name="customize"></a>カスタマイズ
 
-組織のニーズに合わせてポリシー パッケージのポリシーの設定をカスタマイズします。 ポリシー設定の変更は、パッケージが割り当てられているユーザーに自動的に適用されます。 ポリシー パッケージ内のポリシーの設定を編集するには、Microsoft Teams 管理センターでポリシー パッケージを選び、編集するポリシーの名前を選択して、[ **編集** ] を選択します。
+組織のニーズに合わせてポリシー パッケージのポリシーの設定をカスタマイズします。 ポリシー設定の変更は、パッケージが割り当てられているユーザーに自動的に適用されます。 ポリシー パッケージ内のポリシーの設定を編集するには、Microsoft Teams 管理センターでポリシー パッケージを選び、編集するポリシーの名前を選択して、[**編集**] を選択します。
 
 ポリシー パッケージを割り当てると、パッケージ内のポリシーの設定を変更することもできます。 詳細については、[「ポリシー パッケージのポリシーをカスタマイズする」](manage-policy-packages.md#customize-policies-in-a-policy-package)を参照してください。 
 
@@ -171,7 +173,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>1 人または複数のユーザーにポリシー パッケージを割り当てる
 
-1 人または複数のユーザーにポリシー パッケージを割り当てるには、Microsoft Teams 管理センターの左側のナビゲーションから、[ **ポリシー パッケージ** ] に移動し、[ **ユーザーの管理** ] を選択します。  
+1 人または複数のユーザーにポリシー パッケージを割り当てるには、Microsoft Teams 管理センターの左側のナビゲーションから、[**ポリシー パッケージ**] に移動し、[**ユーザーの管理**] を選択します。  
 
 ![管理センターでポリシー パッケージを割り当てる方法のスクリーンショット](media/policy-packages-healthcare-assign.png)
 
@@ -189,7 +191,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>ポリシー パッケージを多数 (一群) のユーザー セットに割り当てる
 
-バッチ ポリシーパッケージの割り当てを使用して、多数のユーザー セットに同時にポリシーパッケージを割り当てることができます。 [New-CsBatchPolicyPackageAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) コマンドレットを使用して、割り当てたい一群のユーザーおよびポリシー パッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチの操作 ID が生成されます。
+バッチ ポリシーパッケージの割り当てを使用して、多数のユーザー セットに同時にポリシーパッケージを割り当てることができます。 [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) コマンドレットを使用して、割り当てたい一群のユーザーおよびポリシー パッケージを送信します。 割り当てはバックグラウンド操作として処理され、各バッチの操作 ID が生成されます。
 
 バッチには最大 5,000 のユーザーを含めることができます。 ユーザーをオブジェクト ID、UPN、SIP アドレス、またはメール アドレスで指定できます。 詳細については、[「一群のユーザーにポリシー パッケージを割り当てる」](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)を参照してください。
 
