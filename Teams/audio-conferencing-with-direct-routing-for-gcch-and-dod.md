@@ -20,18 +20,18 @@ f1.keywords:
 localization_priority: Normal
 description: 管理者は、GCCH および DoD 環境での直接ルーティングで電話会議を使用する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef20f340ec0c1fb225505ece273373e40d9d5c44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119336"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262622"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High および DoD のダイレクト ルーティングを使用する電話会議
 
 GCC High および DoD の直接ルーティングを使用した電話会議では、参加者は電話デバイスを使用して GCC High または DoD 組織の Teams 会議に参加できます。 会議の参加者は、インターネット接続が制限されている場合や、ユーザーが道を行き、Teams にアクセスできない場合などのシナリオで、電話デバイスを使用して Teams 会議に参加することを好む場合があります。 参加者は、組織のダイヤルイン電話番号にダイヤルインするか、会議を自分の電話デバイスにダイヤルアウトすることで、会議に参加することができます。
 
-GCC High および DoD の直接ルーティングを使用した電話会議では、組織はダイヤルイン電話番号として独自の番号を使用し、電話デバイスへの会議のすべてのダイヤルアウトは直接ルーティングを介してルーティングされます。 サービスを有効にするには、組織はダイレクト ルーティングを設定し、ダイヤルイン電話番号として使用できる電話番号を構成する必要があります。 ダイレクト ルーティングを使用する要件は、ダイヤルイン電話番号が Microsoft によって提供される GCC High 以外の組織および非 DoD 組織に提供される電話会議サービスとは異なります。
+GCC High および DoD の直接ルーティングを使用した電話会議では、組織はダイヤルイン電話番号として独自の番号を使用し、電話デバイスへの会議のすべてのダイヤルアウトは直接ルーティングを介してルーティングされます。 サービスを有効にするには、組織はダイレクト ルーティングを設定し、ダイヤルイン電話番号として使用できる電話番号を構成する必要があります。 直接ルーティングを使用する要件は、ダイヤルイン電話番号が Microsoft によって提供される GCC High 以外の組織および DoD 以外の組織に提供される電話会議サービスとは異なります。
 
 ## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High および DoD の直接ルーティングを使用して電話会議を展開する
 
@@ -46,7 +46,7 @@ GCC High または DoD で電話会議を使用するには、組織と組織内
 サービスを有効にするには、テナント ライセンスと少なくとも 1 つのユーザー ライセンスが必要です。 テナント ライセンスのみ、またはユーザー ライセンスのみを使用してサービスを有効にできません。 テナントと組織内のユーザーのサービス ライセンスを取得するには、アカウント チームにお問い合わせください。
 
 > [!IMPORTANT]
-> ダイヤルイン電話番号が設定され、ユーザーが Teams クライアントで動作するダイヤル パッドを使用するまで、ユーザーは直接ルーティングを使用して電話会議を有効にすることはできません。 この記事で説明するダイヤルイン電話番号を設定するまで、GCC High ライセンスまたは DoD ライセンスのダイレクト ルーティングを使用する電話会議をユーザーに割り当てないでお勧めします。
+> ダイヤルイン電話番号が設定されるまで、ユーザーは直接ルーティングを使用して電話会議を有効にすることはできません。 この記事で説明するダイヤルイン電話番号を設定するまで、GCC High ライセンスまたは DoD ライセンスのダイレクト ルーティングを使用する電話会議をユーザーに割り当てないでお勧めします。  このガイダンスに従う必要が生じ、Teams クライアントでダイヤル パッドが完全に見つからない可能性があります。
 
 ### <a name="step-2-set-up-direct-routing"></a>手順 2: ダイレクト ルーティングを設定する
 
@@ -65,7 +65,7 @@ GCC High または DoD で電話会議を使用するには、組織と組織内
 
 #### <a name="define-service-phone-numbers-in-your-tenant"></a>テナントでサービス電話番号を定義する
 
-New-csHybridTelephoneNumber PowerShell コマンドレットを使用して、直接ルーティングを使用して通話を電話会議サービスにルーティングするために使用できる、テナントのサービス電話番号を定義できます。 
+New-csHybridTelephoneNumber PowerShell コマンドレットを使用して、直接ルーティングを使用して電話会議サービスに通話をルーティングするために使用できる、テナントのサービス電話番号を定義できます。 
 
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
@@ -97,7 +97,7 @@ Get-CsOnlineDialInConferencingBridge を使用して、電話会議ブリッジ�
 組織内のユーザーによって開催された会議から PSTN に対して行われた発信通話のルーティングは、組織のグローバル音声ルーティング ポリシーによって定義されます。 組織でグローバル音声ルーティング ポリシーが定義されている場合は、グローバル音声ルーティング ポリシーで、組織内のユーザーが開催する会議から開始される予定の PSTN への発信通話が許可されていないことを確認してください。 組織にグローバル音声ルーティング ポリシーが定義されていない場合は、組織内のユーザーが開催する会議から PSTN への発信通話のルーティングを有効にするグローバル音声ルーティング ポリシーを定義する必要があります。 組織のグローバル音声ルーティング ポリシーは、組織内のユーザーが PSTN に対して行った 1 対 1 の通話にも適用されます。 PSTN への 1 対 1 の通話が組織内のユーザーに対して有効になっている場合は、グローバル音声ルーティング ポリシーが両方の種類の通話に対する組織のニーズを満たしているか確認します。 
 
 > [!NOTE]
-> Location-Basedルーティングは、Microsoft 365 Government Community Cloud (GCC) High または DoD 展開では利用できません。 電話会議を有効にする場合は、GCC High または DoD 環境の電話会議ユーザーが電話会議ルーティングに対して有効になっていないことをLocation-Basedしてください。
+> Location-Basedルーティングは、Microsoft 365 Government Community Cloud (GCC) の High または DoD 展開では利用できません。 電話会議を有効にする場合は、GCC High または DoD 環境の電話会議ユーザーが電話会議ルーティングに対して有効になっていないことをLocation-Basedしてください。
 
 #### <a name="defining-a-global-voice-routing-policy"></a>グローバル 音声ルーティング ポリシーの定義
 
@@ -161,7 +161,7 @@ GCC High ライセンスまたは DoD ライセンスのダイレクト ルー�
 
 組織の電話会議ブリッジの設定を変更するには、「電話会議ブリッジの設定を変更する」 [を参照してください](change-the-settings-for-an-audio-conferencing-bridge.md)。
 
-### <a name="step-9-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>手順 9: (省略可能) 組織内のユーザーの会議出席招待に含まれる電話番号を設定する
+### <a name="step-9-optional-set-the-phone-numbers-included-in-the-meeting-invites-of-the-users-in-your-organization"></a>手順 9: (オプション) 組織内のユーザーの会議出席招待に含まれる電話番号を設定する
 
 ユーザーの会議出席招待に含まれる電話番号のセットを変更するには [、「Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md)の招待に含まれる電話番号を設定する」を参照してください。
 
@@ -175,4 +175,4 @@ GCC High および DoD の直接ルーティングを使用した電話会議で
 
 - 会議特定の開催者の無料電話番号の使用を無効にします。 組織の会議に参加するために無料電話番号の使用を制限するユーザー レベルのコントロールは、直接ルーティングを介してルーティングされる通話には適用されません。
 
-- 設定が変更された場合にユーザーに通知メールを送信する。 GCC High および DoD の直接ルーティングを使用した電話会議では、電話会議の通知メールはサポートされません。
+- 設定が変更されたユーザーに通知メールを送信する。 GCC High および DoD の直接ルーティングを使用した電話会議では、電話会議の通知メールはサポートされません。

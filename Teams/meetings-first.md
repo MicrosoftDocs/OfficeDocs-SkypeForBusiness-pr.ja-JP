@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b691a9d722a82e68384f8937479c5f71d3f4c11d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b75f9bf5328b25a1ce1fd695a90163f63a61f823
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096171"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262584"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -111,7 +111,7 @@ Meetings First のすべての機能とユーザー エクスペリエンス (Te
 
 ![Meetings First を有効にする管理設定のスクリーンショット](media/teams-meeting-admin-settings.png)
 
-必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションにあるチームとチャネル アプリケーションを非表示して、エクスペリエンスを会議に集中させます。これは、[アプリのアクセス許可ポリシー](teams-app-permission-policies.md)を使用して実現できます。
+必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションから Teams とチャネル アプリケーションを非表示にし、アプリセットアップ ポリシーを使用して、会議に対するエクスペリエンスをさらに焦点を当てる必要[があります。](teams-app-setup-policies.md)
 
 ## <a name="reporting-and-call-analytics"></a>レポート作成と通話分析
 

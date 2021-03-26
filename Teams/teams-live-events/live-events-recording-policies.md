@@ -17,16 +17,16 @@ description: ライブ イベント記録ポリシーについて説明します
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7a5f793230798c68f0a39e2d9a3500eab9791065
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
+ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119166"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "51262659"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams のライブ イベント記録ポリシー
 
-Microsoft Teams ライブ イベントを記録するためのオプションは複数あります。 記録オプションは、記録ポリシーを使用して設定します。 この記事では、さまざまな設定について説明します。
+Microsoft Teams ライブ イベントを記録するには、いくつかのオプションがあります。 記録オプションは、記録ポリシーを使用して設定されます。 この記事では、さまざまな設定について説明します。
 
 記録オプションは、PowerShell コマンド [Set-CsTeamsMeetingBroadcastPolicy を使用して設定されます。](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
@@ -44,15 +44,15 @@ Microsoft Teams ライブ イベントを記録するためのオプションは
 
   - VOD: ビデオ オンデマンド (VOD) を使用すると、イベントが終わった後に出席者が視聴できます。
 
-## <a name="broadcast-recording-policy-setting"></a>ブロードキャスト録画ポリシーの設定
+## <a name="broadcast-recording-policy-setting"></a>ブロードキャスト記録ポリシーの設定
 
 ブロードキャスト ポリシーの一部として、ライブ イベントのレコーディングをオンまたはオフに切り替える設定があります。
 
 |                                 | プロデューサーと発表者が利用できるレコーディング | 出席者が使用できるレコーディング |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| 常に記録する               | 無効と選択                                | 無効と選択         |
-| 開催者は記録可能または記録しない | 既定で有効で選択されていない                  | 既定で有効で選択されていない   |
-| 記録しない               | 無効で選択されていない                            | 無効で選択されていない      |
+| 常に記録する               | 無効と選択                                | 有効および選択         |
+| 開催者は記録可能または記録しない | 既定で有効および選択されている                  | 既定で有効および選択されている   |
+| 記録しない               | 無効で選択されていない                            | 有効で選択されていない      |
 
 ポリシーが [常に記録] **に設定されている場合**、ポリシー ページには次のオプションが選択されています。
 

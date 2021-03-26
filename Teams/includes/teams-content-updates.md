@@ -9,8 +9,7 @@
 | 公開日 |トピックのタイトル | 変更 |
 |------|------------|--------|
 | 3/15/2021 | [Microsoft Teams デバイスの監視と通知](../alerts/device-health-status.md) | 追加済 |
-| 3/15/2021 | [Microsoft Teams の監視と警告](../alerts/teams-admin-alerts.md) | 追加済 |
-| 3/15/2021 | [Microsoft Teams への移行を実装する](../implement-your-move.md) | 追加済 |
+| 3/15/2021 | [Microsoft Teams の監視と通知](../alerts/teams-admin-alerts.md) | 追加済 |
 | 3/15/2021 | [Teams と Outlook のメールの統合](../teams-outlook-email-integration.md) | 更新日時 |
 | 3/15/2021 | [Teams と共有する](../teams-outlook-share-teams.md) | 追加済 |
 | 3/16/2021 | [Microsoft Teams でカスタム チーム テンプレートを作成する](../create-a-team-template.md) | 更新日時 |
@@ -88,7 +87,7 @@
 | 2/17/2021 | [セッション ボーダー コントローラー (SBC) を直接ルーティングに接続する](../direct-routing-connect-the-sbc.md) | 更新日時 |
 | 2/17/2021 | [電話システムのダイレクト ルーティング](../direct-routing-protocols-sip.md) | 更新日時 |
 | 2/17/2021 | 医療組織向けテンプレート | 削除されました |
-| 2/17/2021 | [標準以外のユーザーに対する Teams アプリの動作](../non-standard-users.md) | 更新日時 |
+| 2/17/2021 | [標準以外のユーザーの Teams アプリの動作](../non-standard-users.md) | 更新日時 |
 | 2/17/2021 | [Microsoft Teams でのライブ イベントの計画](../teams-live-events/plan-for-teams-live-events.md) | 更新日時 |
 | 2/17/2021 | [OneDrive for Business と SharePoint を使用して会議の記録を行う](../tmr-meeting-recording-change.md) | 更新日時 |
 | 2/17/2021 | リモート デスクトップ用 Teams | 削除されました |
