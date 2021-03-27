@@ -18,19 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 368c4dace7a7ba14cb13f3a027b9d04ee63dc17b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff84b1dc161aa5b8ab99a74509fa7a93a1a9b270
+ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119206"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51399144"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 
 Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure Active Directory (Azure AD) を持ち、Teams のライセンスを取得していない組織内のユーザーは、Teams の Exploratory エクスペリエンスを開始できます。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 以前の [Microsoft の商用クラウド試用版]()は、 Teams Exploratory エクスペリエンスに変更になりました。
-
-> [!NOTE]
-> テナントごとに 100 の Microsoft Teams Exploratory ライセンスの制限があります。
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory エクスペリエンスの内容
 
