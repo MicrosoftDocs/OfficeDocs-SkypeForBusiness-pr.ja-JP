@@ -15,20 +15,20 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Microsoft Teams で認定されている USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) を確認します。
-ms.openlocfilehash: 651f4c19e83c7a20bcf0126034064330f151eeaa
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: 61ebda3e8ef41678e6e9ca7e0c34a293ef86b81e
+ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197592"
+ms.lasthandoff: 03/27/2021
+ms.locfileid: "51399154"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Microsoft Teams の認定 USB オーディオ デバイスとビデオ デバイス
 
-周辺機器認定プログラムは、USB 周辺機器 (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) が豊富なオーディオ品質またはビデオ品質を提供します。 認定デバイスは、追加&構成を必要としない(プラグイン プレイ)、Microsoft Teams および Skype for Business での通話制御を提供します。 この製品は、エンド ユーザーと管理者に最適なエクスペリエンスを提供します。
+周辺機器認定プログラムは、USB 周辺機器 (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) が豊富なオーディオ品質またはビデオ品質を提供します。 認定デバイスは、特別な&構成を必要としません。また、Microsoft Teams および Skype for Business を使用して通話制御を提供することもできます。 この製品は、エンド ユーザーと管理者に最適なエクスペリエンスを提供します。
 
-Microsoft Teams でテストおよび認定されたデバイスを探す場合は [、Teams](https://products.office.com/microsoft-teams/across-devices/devices)ストアにアクセスします。
+Microsoft Teams 用にテストおよび認定されたデバイスを探す場合は、Teams ストアに [アクセスします](https://products.office.com/microsoft-teams/across-devices/devices)。
 
-Teams での通話制御のサポートの詳細については、Teams のヘッドセットを [使用した通話の制御に関するページを参照してください](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)。
+Teams での通話制御のサポートの詳細については、Teams のヘッドセットを使用 [した通話の制御に関するページを参照してください](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)。
 
 > [!TIP]
 > Skype for Business の認定デバイスをお探しの場合 [Skype for Business の認定を受けた USB オーディオ デバイスとビデオ デバイスにアクセスします](/skypeforbusiness/certification/devices-usb-devices)。
@@ -37,12 +37,12 @@ Teams での通話制御のサポートの詳細については、Teams のヘ�
 
 ユーザーは、Skype for Business から Teams にアップグレードするときに、以前に認定されたデバイスを置き換える必要があります。  認定済みデバイスはすべて、Microsoft Teams と Skype for Business ユーザーに対してサポートされ、いくつかの違いがあります。  認定では、特定のデバイス カテゴリに対してさらに指定することもできます。
 
-- **Teams のアップグレードで認定された Skype for Business** このレベルで認定されたデバイスは、最初は Skype for Business の認定を受けています。 Microsoft は、デバイスの製造元と連携して、元のハードウェアを変更することなく、可能な限り最高の Teams 統合エクスペリエンスを提供しています。 フック *スイッチ ボタンは* 、通話に参加していないときに Teams ボタンとして機能し、時間のと一度に多くの機能が含まれる場合があります。  このカテゴリのデバイスは、マーケティング資料に Teams 認定バッジを持つ場合があります。
+- **Teams のアップグレードで認定された Skype for Business** このレベルで認定されたデバイスは、最初は Skype for Business の認定を受けています。 Microsoft は、デバイスの製造元と連携して、元のハードウェアを変更することなく、可能な限り最高の Teams 統合エクスペリエンスを提供しています。 フック *スイッチ ボタンは* 、通話に参加していない場合は Teams ボタンとして機能し、時間のと一度に多くの機能が含まれる場合があります。  このカテゴリのデバイスは、マーケティング資料に Teams 認定バッジを持つ場合があります。
 - **Microsoft Teams の認定** このレベルで認定されたデバイスは、侵害のない Teams エクスペリエンスのために認定された最新のデバイスを示します。 これらのデバイスは、事前の認定のすべての利点を提供し、LED インジケーター付き専用の Teams ボタンも含まれます。 ほとんどのフォーム要素では、Teams ボタンは Teams ロゴが付いた簡単に見つけることができるボタンです。 Microsoft は、デバイスの製造元と引き続き取り組み、ファームウェアの更新を通じて新しい価値を提供します。
 
 ### <a name="special-usage-designations"></a>特殊な使用の指定
 
-- **Open Office 用 Premium マイク** すべてのヘッドセットは、明確なオーディオを提供するためにテストされますが、開いているオフィスや他のノイズの多い環境は、より大きな課題を引き起こします。 この指定を受け取ったヘッドセットは、ヘッドセット ユーザーの音声を受け取りますが、隣接するユーザーの音声は送信しない。
+- **Open Office 用 Premium マイク** すべてのヘッドセットは、明確なオーディオを提供するためにテストされますが、開いているオフィスや他のノイズの多い環境は、より大きな課題を引き起こします。 この指定を受け取ったヘッドセットは、ヘッドセット ユーザーの音声を受け取りますが、隣接するユーザーのサウンドは送信しない。
 - **会議室のサイズ** スピーカーフォンやカメラなどの共有デバイスは、使用距離がサポートされています。 推奨される距離は、製造元によって異なる場合があります。 お客様に明確なガイダンスを提供するために、すべての共有デバイスは、明確に定義された会議室のサイズとノイズ環境に対して認定でテストされます。
 
 [Microsoft Teams の認定デバイスを参照します](https://products.office.com/microsoft-teams/across-devices/devices)。
@@ -79,7 +79,6 @@ Teams での通話制御のサポートの詳細については、Teams のヘ�
 | [製造元]        | モデル                                                     | 認定      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |EPOS/Sennheiser      |200 シリーズ ヘッドセットを適応する                                  |3/19/2021       |Microsoft Teams の認定                           |
-|Poly                 |Voyager Focus 2 Headset                                    |3/11/2021       |Microsoft Teams の認定                           |
 |Jabra                |Evolve2 30 Headset                                         |3/1/2021        |Microsoft Teams の認定                           |
 |Poly                 |Studio P15 ビデオ バー                                       |2/1/2021        |Microsoft Teams の認定                           |
 |Poly                 |40 台のスピーカーフォンを同期する                                       |1/19/2021       |Microsoft Teams の認定                           |
@@ -136,7 +135,7 @@ Teams での通話制御のサポートの詳細については、Teams のヘ�
 | Poly                | Blackwire 5210 Headset                                    | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
 | Poly                | Blackwire 5220 Headset                                    | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
 | Poly                | Blackwire 7225 Headset                                    | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
-| Poly                | エジボラー フォーカス UC                                          | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | エボリージャー フォーカス UC                                          | 4/20/2020      | Microsoft Teams にアップグレードした Skype for Business     |
 | Yealink             | CP700                                                     | 4/13/2020      | Microsoft Teams の認定                          |
 | Jabra               | Evolve2 65 Headset                                        | 4/13/2020      | Microsoft Teams の認定                          |
 | EPOS/Sennheiser     | Impact SC 30                                              | 4/9/2020       | Microsoft Teams にアップグレードした Skype for Business     |
@@ -160,7 +159,7 @@ Teams での通話制御のサポートの詳細については、Teams のヘ�
 | Poly                | Blackwire 8225 Headset                                    | 3/23/2020      | Microsoft Teams の認定                          |
 | Poly                | Calisto 5300-M                                            | 03/05/2020     | Microsoft Teams の認定                          |
 | Poly                | Voyager 4210 Office                                       | 03/05/2020     | Microsoft Teams の認定                          |
-| Poly                | エジボラー 4210 UC                                           | 03/05/2020     | Microsoft Teams にアップグレードした Skype for Business     |
+| Poly                | エボラー 4210 UC                                           | 03/05/2020     | Microsoft Teams にアップグレードした Skype for Business     |
 | Poly                | Voyager 4220 Office                                       | 03/05/2020     | Microsoft Teams の認定                          |
 | Poly                | エボラー 4220 UC                                           | 03/05/2020     | Microsoft Teams にアップグレードした Skype for Business     |
 | Poly                | エボラー 5200 Office                                       | 03/05/2020     | Microsoft Teams の認定                          |

@@ -17,22 +17,22 @@ description: ライブ イベント記録ポリシーについて説明します
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd54bc123b852ff34da9353dd7e250924931420d
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 9c808e4ae4e27e48c14c45711ef80ffd1c812125
+ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262659"
+ms.locfileid: "51383971"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>Microsoft Teams のライブ イベント記録ポリシー
 
-Microsoft Teams ライブ イベントを記録するには、いくつかのオプションがあります。 記録オプションは、記録ポリシーを使用して設定されます。 この記事では、さまざまな設定について説明します。
+Microsoft Teams ライブ イベントを記録するには、いくつかのオプションがあります。 記録オプションは、記録ポリシーを使用して設定します。 この記事では、さまざまな設定について説明します。
 
-記録オプションは、PowerShell コマンド [Set-CsTeamsMeetingBroadcastPolicy を使用して設定されます。](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
+記録オプションは、PowerShell コマンド [Set-CsTeamsMeetingBroadcastPolicy を使用して設定します](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)。
 
 ## <a name="scheduling-and-option-behaviors"></a>スケジュールとオプションの動作
 
-ライブ イベントの記録をスケジュールする場合、開催者の 2 つのオプションがあります。
+ライブ イベントの記録をスケジュールする場合、開催者のオプションは 2 つがあります。
 
 - プロデューサーと発表者が利用できるレコーディング
 
@@ -44,7 +44,7 @@ Microsoft Teams ライブ イベントを記録するには、いくつかのオ
 
   - VOD: ビデオ オンデマンド (VOD) を使用すると、イベントが終わった後に出席者が視聴できます。
 
-## <a name="broadcast-recording-policy-setting"></a>ブロードキャスト記録ポリシーの設定
+## <a name="broadcast-recording-policy-setting"></a>ブロードキャスト録画ポリシーの設定
 
 ブロードキャスト ポリシーの一部として、ライブ イベントのレコーディングをオンまたはオフに切り替える設定があります。
 
