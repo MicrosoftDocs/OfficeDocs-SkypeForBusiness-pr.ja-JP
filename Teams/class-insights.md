@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d8acd2e8f8c7360f9f83a478cfcf928f2939d54
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 68bb46beb40fdb4e5a0814a659df6af092903fc4
+ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102623"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51215322"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -85,7 +85,7 @@ Insights では、クラスチーム内のすべてのチャネルのアクテ�
 クラス レベルでは、教職員がクラス チームを所有している場合、IT管理者が他のアクションを実行しなくてもInsightsを利用できます。
 
 ### <a name="education-leaders"></a>教育リーダー
-教育リーダーは、Teams の左側のアプリ バーから利用できる個人用アプリとして Insights を使用できます。
+教育リーダーは、Teams の左側のアプリ バーから利用できる[個人用アプリ](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)として Insights を使用できます。
 
 組織レベルでは、IT 管理者は学生情報システムに接続し、各役割に関連する学校または部門にアクセスするためのアクセス許可を割り当てる必要があります。
 
@@ -131,6 +131,7 @@ Insights は、教職員に関するデータを表示 *しません*。 デー�
 | **割り当て** | 課題の開始、提出、採点。|
 | **チャネル エンゲージメント** |  チャネルに移動して投稿を作成したり、(チャット コンテンツを含まない) 投稿に返信したり、高く評価したりできます。|
 | **ファイル** |   ファイル (ファイル コンテンツを含まない) のアップロード、ダウンロード、アクセス、変更、コメント添付、共有。|
+| **OneNote Class Notebook** |  ノートブックのページまたはセクションの編集 (ページ コンテンツは含まれません)。|
 | **会議** |    出席 (会議コンテンツを含まない)。|
 
 > [!NOTE]
@@ -205,7 +206,8 @@ Insights にアクセスするには、ユーザーは Microsoft 365 の A1、A3
 *   Microsoft 教師センターの[無料の Insights コース](https://aka.ms/insights/course) を使って、ご自身でトレーニングできます。
 *   そして最後に、Insights 専用の[このブログ](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091)をチェックしてください。
 
-**教育リーダー** 向けの資料はまもなく公開されます。
+**教育リーダー** 向けの資料:
+*   [教育機関向けの分析情報サポート ページ](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)。
 
 ## <a name="turn-insights-off-or-on"></a>Insights をオフまたはオンにする
 既定では、Education Analytics と Insights はオンになっています。 オプトアウトすると、Insights 用に収集された *すべてのデータが削除されます*。 Insights をオンに戻すと、データが再度有効になった時点からデータの収集が開始されます。
