@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73aa2312b1467e2298b4ebaa14e22744a73730e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
+ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107303"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51197522"
 ---
 <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams にサイン インする
 ==========================
@@ -114,15 +114,15 @@ MDM プロバイダーでアカウント セットアップ構成が構成され
 管理対象の Android デバイスのアプリ構成ポリシーを作成するには、「[管理対象の Android デバイスのアプリ構成ポリシーの追加](/mem/intune/apps/app-configuration-policies-use-android)」を参照してください。
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>デスクトップ デバイスでのサイン インを制限する方法
-Windows および MacOS の Teams アプリは、組織へのサイン インを制限するデバイス ポリシーのサポートを受けています。 ポリシーは、MDM (モバイル デバイス管理) や GPO (グループ ポリシー オブジェクト) などの通常のデバイス管理ソリューションで設定できます。 
+Windows および MacOS の Teams アプリは、組織へのサインインを制限するデバイス ポリシーのサポートを受けています。 ポリシーは、MDM (モバイル デバイス管理) や GPO (グループ ポリシー オブジェクト) などの通常のデバイス管理ソリューションで設定できます。 
 
 このポリシーがデバイスに構成されている場合、ユーザーは、ポリシーで定義されている "テナントの許可リスト" に含まれている Azure AD テナントを使用しているアカウントでのみサインインできます。 ポリシーは、最初のアカウントと追加のアカウントを含むすべてのサイン インに適用されます。 組織が複数の Azure AD テナントにまたがる場合、許可リストに複数のテナント ID を含めることができます。 別のアカウントを追加するためのリンクは、引き続き Teams アプリに表示される場合がありますが、操作はできません。
 
 > [!NOTE]
 >1. ポリシーによって制限されるのは、サインインのみです。他の Azure AD テナントでは、ユーザーがゲストとして招待される機能やほかのテナントへの切り替えが制限されることはありません。
->2. このポリシーには Windows  バージョン 1.3.00.30866 以降の Teams および MacOS バージョン 1.3.00.30882(2020 年 11 月半ばにリリースされました) の Teams が必要です。
+>2. このポリシーには Windows バージョン 1.3.00.30866 以降の Teams および MacOS バージョン 1.3.00.30882 (2020 年 11 月半ばにリリースされました) の Teams が必要です。
 
-**Windows** 管理用テンプレート ファイル (ADMX/ADML) のポリシーについては、 「[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=49030)」を参照してください。 Windows レジストリに手動でキーを設定することもできます。
+**Windows** 管理用テンプレート ファイル (ADMX/ADML) のポリシーは、[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=49030)から利用できます (管理テンプレート ファイルを説明する名前は、「特定のテナントのアカウントの Teams へのサインインを制限する」です)。 Windows レジストリに手動でキーを設定することもできます。
 
 - 値の名前: RestrictTeamsSignInToAccountsFromTenantList
 - 値の種類: 文字列
@@ -133,7 +133,7 @@ Windows および MacOS の Teams アプリは、組織へのサイン インを
 
 例: ソフトウェア\ポリシー\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = テナント ID またはソフトウェア\ポリシー\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAccountsFromTenantList = テナント ID 1、テナント ID 2、テナント ID 3
 
-MacOS に管理されているデバイス用の **MacOS のポリシー** は、.plist を使用して、サインイン制限を展開します。 構成プロファイルは、(優先順位の名前を示す) キーによって識別されたエントリで構成される .plist ファイルです。その後に、基本設定の性質に応じて、値が表示されます。 値には、単純 (数値など) または複合のいずれかを指定できます。たとえば、基本設定の入れ子リストがあります。
+**MacOS のポリシー** MacOS に管理されているデバイスは、.plist を使用して、サインイン制限を展開します。 構成プロファイルは、(優先順位の名前を示す) キーによって識別されたエントリで構成される .plist ファイルです。その後に、基本設定の性質に応じて、値が表示されます。 値には、単純 (数値など) または複合のいずれかを指定できます。たとえば、基本設定の入れ子リストがあります。
 
 - ドメイン: com.microsoft.teams
 - キー: RestrictTeamsSignInToAccountsFromTenantList
