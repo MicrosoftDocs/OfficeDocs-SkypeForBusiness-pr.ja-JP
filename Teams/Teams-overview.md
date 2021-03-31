@@ -33,7 +33,7 @@ ms.locfileid: "51094403"
 
 <span data-ttu-id="ee619-108">Teams の管理者向けビデオの「Teams へようこそ」をお見逃しなく (3 分強):</span><span class="sxs-lookup"><span data-stu-id="ee619-108">Don't miss our Welcome to Teams for the Teams admin video (just over 3 minutes):</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxWd]
 
 <span data-ttu-id="ee619-109">エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、[Microsoft Teams ヘルプ センター](https://support.office.com/teams)に移動します。</span><span class="sxs-lookup"><span data-stu-id="ee619-109">If you're looking for end user Teams Help, click **Help** on the left side of the app, or go to the [Microsoft Teams help center](https://support.office.com/teams).</span></span> <span data-ttu-id="ee619-110">トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="ee619-110">For training, go to [Microsoft Teams Training](training-microsoft-teams-landing-page.md).</span></span> 
 
