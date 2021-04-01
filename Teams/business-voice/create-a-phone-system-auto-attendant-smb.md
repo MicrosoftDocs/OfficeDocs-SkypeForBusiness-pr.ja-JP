@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 365 Business Voice の自動応答を設定してテストする方法について説明します。
-ms.openlocfilehash: fef89971ad99dff15332905d6f9b98a343af6ffd
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: d320c100937619960011cc378936c6954a00512a
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439722"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478377"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>自動応答を設定する - 小規模ビジネス向けチュートリアル
 
@@ -56,7 +56,7 @@ Teams 管理センターでリソース アカウントを作成できます。
 
 2. **[追加]** をクリックします。
 
-3. [リソース アカウント **の追加]** ウィンドウで、[表示名]、[**ユーザー** 名]、および [リソース アカウントの種類の自動応答] の入力を **行います。**
+3. [リソース アカウント **の追加]** ウィンドウで、[表示名]、[**ユーザー** 名] の入力を行い、[リソース アカウントの種類] の [**自動** 応答 **] を選ぶ**
 
     ![リソース アカウントのユーザー インターフェイスの追加のスクリーンショット](../media/resource-account-add.png)
 
@@ -82,7 +82,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
 この自動応答に電話番号でアクセスする必要がある場合は、その番号をリソース アカウントに割り当てる必要があります。
 
-1. Teams 管理センターの [リソースアカウント] ページで、サービス番号を割り当てるリソース アカウントを選び、[割り当て/割り当て解除] を **クリックします**。
+1. Teams 管理センターの [リソースアカウント] ページで、サービス番号を割り当てるリソース アカウントを選択し、[割り当て/割り当て解除] を **クリックします**。
 
 2. [電話番号 **の種類] ドロップダウン** で、使用する番号の種類を選びます。
 
@@ -93,7 +93,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 4. **[保存]** をクリックします。
 
 > [!div class="nextstepaction"]
-> [手順 2 - 自動応答の一般的な>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=general-info#steps)
+> [手順 2 - 自動応答の一般的な>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=general-info#steps)
 
 # <a name="step-2brattendant-general-info"></a>[手順 2 <br> Attendant の一般的な情報](#tab/general-info)
 
@@ -109,14 +109,14 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
 5. この自動応答の言語を指定します。 システム生成の音声プロンプトに使用される言語です。
 
-6. 音声入力を有効にする場合に選択します。 有効にすると、すべてのメニュー オプションの名前が音声認識キーワードになります。 たとえば、発信者は"1" と言ってキー 1 にマップされたメニュー オプションを選択したり、"営業" と言って "営業" という名前のメニュー オプションを選択したりします。
+6. 音声入力を有効にする場合に選択します。 有効にすると、すべてのメニュー オプションの名前が音声認識キーワードになります。 たとえば、発信者は"1" と言ってキー 1 に対応付けられたメニュー オプションを選択したり、"営業" と言って "営業" という名前のメニュー オプションを選択したりします。
 
     ![名前、オペレーター、タイム ゾーン、言語、音声入力の自動応答設定のスクリーンショット](../media/auto-attendant-general-info-page-new.png)
 
 7. **[次へ]** をクリックします。
 
 > [!div class="nextstepaction"]
-> [手順 3 - コール フロー >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=call-flow#steps)
+> [手順 3 - コール フロー >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=call-flow#steps)
 
 # <a name="step-3brcall-flow"></a>[手順 3 <br> コール フロー](#tab/call-flow)
 
@@ -124,7 +124,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
 1. 自動応答が通話に応答するときに応答メッセージを再生する場合に選択します。
 
-    [オーディオ ファイルの **再生] を選** ぶと、[ファイルのアップロード] ボタンを使用して、音声として保存された録音されたあいさつメッセージをアップロードできます。WAV、.MP3、または .WMA 形式。 記録できるサイズは 5 MB 以下です。
+    [オーディオ ファイル **の再生] を選** ぶと、[ファイルのアップロード] ボタンを使用して、音声として保存された録音されたあいさつメッセージをアップロードできます。WAV、.MP3、または .WMA 形式。 記録できるサイズは 5 MB 以下です。
 
     [あいさつ文を入力する] を選択した場合、自動応答が通話に応答すると、入力したテキスト (最大 1000 文字) が読み上げされます。
 
@@ -140,7 +140,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
     ![通話ルーティング設定のスクリーンショット](../media/auto-attendant-call-flow-route-call-message.png)
 
-3. 発信者がダイヤル キーを使用して移動する場合は、[メニューオプションの設定] で、発信者がダイヤル キーを押した場合に行う操作を選びます。 (この自動応答を会社のディレクトリとして作成する場合は、ダイヤル キー オプションを空白のままにします)。
+3. 発信者がダイヤル キーを使用して移動する場合は、[メニューオプションの設定] で、発信者がダイヤル キーを押した場合に実行する操作を選びます。 (この自動応答を会社のディレクトリとして作成する場合は、ダイヤル キー オプションを空白のままにします)。
 
     ダイヤル キーは、次の宛先に設定できます。
 
@@ -169,11 +169,11 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 5. ディレクトリ検索オプションを選択したら、[ **次へ** ] をクリック **します**。
 
 > [!div class="nextstepaction"]
-> [手順 4 - 営業時間外のコール フロー>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=after-hours#steps)
+> [手順 4 - 営業時間外のコール フロー>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
 
 # <a name="step-4brafter-hours"></a>[手順 4 営業時間 <br> 外](#tab/after-hours)
 
-各自動応答に営業時間を設定できます。 営業時間が設定されていない場合、既定では 24 時間 7 日のスケジュールが設定されている場合、その日のすべての日とすべての時間が営業時間と見なされます。 営業時間は、日中の時間内の休憩を使用して設定できます。営業時間として設定されていないすべての時間は、営業時間外と見なされます。 さまざまな着信通話処理オプションと応答メッセージを営業時間外に設定できます。
+各自動応答に営業時間を設定できます。 営業時間が設定されていない場合、既定では 24 時間 7 日のスケジュールが設定されている場合、その日のすべての日とすべての時間が営業時間と見なされます。 営業時間は、日中の時間内の休憩を使用して設定できます。営業時間として設定されていないすべての時間は、営業時間外と見なされます。 営業時間外の通話処理オプションと応答メッセージをさまざまな方法で設定できます。
 
 自動応答と通話キューの構成によっては、直接の電話番号を含む自動応答の営業時間外の通話ルーティングのみを指定する必要がある場合があります。
 
@@ -186,7 +186,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 完了 **したら、[** 次へ] をクリックします。
 
 > [!div class="nextstepaction"]
-> [手順 5 - 休日のコール フロー >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=holidays#steps)
+> [手順 5 - 祝日用コール フロー >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=holidays#steps)
 
 # <a name="step-5brholidays"></a>[手順 5 <br> 祝日](#tab/holidays)
 
@@ -218,10 +218,10 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
 ![祝日が一覧表示された祝日設定のスクリーンショット](../media/auto-attendant-holiday-call-settings.png)
 
-すべての休日を追加した後、[次へ] をクリック **します**。
+すべての休日を追加した後、[次へ] を **クリックします**。
 
 > [!div class="nextstepaction"]
-> [手順 6 - ディレクトリ 内のユーザーを選択>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=dial-scope#steps)
+> [手順 6 - ディレクトリ 内のユーザーを選択>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[手順 6 <br> ディレクトリ メンバー](#tab/dial-scope)
 
@@ -237,9 +237,9 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 ダイヤルスコープの設定が完了したら、[次へ] を **クリックします**。
 
 > [!div class="nextstepaction"]
-> [手順 7 - リソース アカウントを割り当>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?branch=mikeplum-smb-voice&tabs=resource-accounts#steps)
+> [手順 7 - リソース アカウントを割り当>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=resource-accounts#steps)
 
-# <a name="step-7brresource-accounts"></a>[手順 7 <br> リソース アカウント](#tab/resource-accounts)
+# <a name="step-7brresource-accounts"></a>[手順 7 リソース <br> アカウント](#tab/resource-accounts)
 
 すべての自動応答には、リソース アカウントが関連付けられている必要があります。  第 1 レベルの自動応答には、サービス番号が関連付けられているリソース アカウントが少なくとも 1 つ必要です。 必要な場合は、複数のリソース アカウントを自動応答に割り当て、それぞれに個別のサービス番号を割り当てできます。
 

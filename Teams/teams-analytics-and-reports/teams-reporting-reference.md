@@ -18,12 +18,12 @@ description: この記事では、Microsoft Teams 管理センターで利用で
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 684afe6e001ecb7b897a8574813eaed42108bb82
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 6d195c90dc7e959146546dde1a75fedf0764c24a
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196831"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478347"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
@@ -49,10 +49,23 @@ Microsoft では、Teams のレポート エクスペリエンスの継続的な
 |[Teams の使用状況レポート](teams-usage-report.md)  |  アクティブなユーザー<br/>チーム内およびチャネル内のアクティブ ユーザー<br/>アクティブ チャネル<br/>メッセージ<br/>チームのプライバシー設定<br/>チームのゲスト   |
 |[Teams ユーザー アクティビティ レポート](user-activity-report.md)  | チーム チャットにユーザーが投稿したメッセージ<br/>プライベート チャットにユーザーが投稿したメッセージ<br/>  ユーザーが参加する 1 対 1 の通話<br/> 開催された会議ユーザーの数 <br/>参加した会議ユーザーの数<br/>会議の音声、ビデオ、画面の共有時間<br/>   ユーザーの最後のアクティビティの日付     |
 |[Teams のデバイス使用状況レポート](device-usage-report.md)   |  Windows ユーザー:<br/>Mac ユーザー<br/>iOS ユーザー<br/>Android スマートフォン ユーザー     |
-|[Teams のライブ イベントの使用状況レポート](teams-live-event-usage-report.md)   |  合計ビュー数<br>[開始時刻]<br>イベントの状態<br>開催者<br>発表者<br>プロデューサー<br>録画設定<br>実稼働の種類    |
+|[Teams のライブ イベントの使用状況レポート](teams-live-event-usage-report.md)   |  合計ビュー<br>[開始時刻]<br>イベントの状態<br>開催者<br>発表者<br>プロデューサー<br>録画設定<br>実稼働の種類    |
 |[Teams PSTN ブロックユーザー レポート](pstn-blocked-users-report.md)   |  表示名<br>電話番号<br>理由<br>アクションの種類<br>アクションの日付と時刻   |
 |[Teams PSTN 分プール レポート](pstn-minute-pools-report.md) |  国または地域<br>機能 (ライセンス) <br>合計分数<br>使用分数<br>利用可能な分数|
 |[Teams PSTN 使用状況レポート - 通話プラン](pstn-usage-report.md#calling-plans)|  タイム スタンプ<br>ユーザー名<br>電話番号<br>通話の種類 <br>呼び出し<br>国または地域 <br>呼び出しの次の名前 <br>国または地域から<br>請求<br>通貨<br>[時間]<br>国内/国際<br>通話 ID<br>数値の種類<br>国または地域<br>会議 ID<br>機能 (ライセンス)|
-|[Teams PSTN 使用状況レポート - ダイレクト ルーティング](pstn-usage-report.md#direct-routing)  |  タイム スタンプ<br>表示名<br>SIP アドレス<br>電話番号 <br>通話の種類<br>呼び出し<br>[開始時刻]<br>[招待時間]<br>障害時間<br>[終了時刻]<br>[時間]<br>数値の種類<br>メディア バイパス<br>SBC FQDN<br>Azure 地域<br>イベントの種類<br>最終的な SIP コード<br>最終的な Microsoft サブコード<br>最終的な SIP 語句<br>関連付け ID  |
+|[Teams PSTN 使用状況レポート - ダイレクト ルーティング](pstn-usage-report.md#direct-routing)  |  タイム スタンプ<br>表示名<br>SIP アドレス<br>電話番号 <br>通話の種類<br>呼び出し<br>[開始時刻]<br>[招待時間]<br>障害時間<br>[終了時刻]<br>[時間]<br>数値の種類<br>メディア バイパス<br>SBC FQDN<br>Azure 地域<br>イベントの種類<br>最終的な SIP コード<br>最終的な Microsoft サブコード<br>最後の SIP 語句<br>関連付け ID  |
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
+
+## <a name="make-the-user-specific-data-anonymous"></a>ユーザー固有のデータを匿名にする
+
+Teams ユーザー アクティビティと Teams デバイス使用状況レポートのデータを匿名化するには、グローバル管理者である必要があります。 これにより、レポートの表示名、メール、AAD ID などの識別可能な情報とそのエクスポートが非表示になります。
+
+1. Microsoft 365 管理センターで、[設定] の [組織の設定] に移動し、[サービス] タブで [レポート] \> を選択 **します**。 
+    
+2. [レポート **] を** 選択し、[匿名識別子 **を表示する] を選択します**。 この設定は、Microsoft 365 管理センターの利用状況レポートと Teams 管理センターの両方に適用されます。
+  
+3. [変更を **保存] を選択します**。
+
+> [!NOTE]
+> この設定を有効にすると [、Teams](user-activity-report.md) のユーザー アクティビティ レポートと Teams デバイス使用状況レポート [レポートの情報が識別されな](device-usage-report.md) されます。 Teams 管理センターで利用できるその他の使用状況レポートには影響を与えられません。

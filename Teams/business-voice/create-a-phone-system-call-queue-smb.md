@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Microsoft 365 Business Voice で通話キューを設定する方法について説明します。
-ms.openlocfilehash: f4dcd38331812053df9d08c7e8417b6d8156d5af
-ms.sourcegitcommit: f22e050213798a8ff69c6d502a2fc142104ab213
+ms.openlocfilehash: 3e75dbb75d9edffedbf25d42f197d8723e3ef9a4
+ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51439732"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "51478367"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>通話キューを作成する - 小規模ビジネス向けチュートリアル
 
@@ -55,7 +55,7 @@ ms.locfileid: "51439732"
 
 # <a name="step-1brcreate-a-team"></a>[手順 1 <br> チームを作成する](#tab/create-team)
 
-通話キューを作成する場合は、個々のユーザーをキューに追加するか、既存のセキュリティ グループ、Microsoft 365 グループ、または Microsoft Teams チームを使用できます。 チーム チャネル [を使用することをお勧めします](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 これにより、キューのメンバーは互いにチャットしたり、アイデアを共有したり、顧客を支援するドキュメントや他のリソースを作成することができます。 また、チームは、発信者が数時間後にメッセージを残したり、キューが最大容量に達したりするためにボイス メールボックスを提供します。
+通話キューを作成するときに、個々のユーザーをキューに追加するか、既存のセキュリティ グループ、Microsoft 365 グループ、または Microsoft Teams チームを使用できます。 チーム チャネル [を使用することをお勧めします](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 これにより、キューのメンバーは互いにチャットしたり、アイデアを共有したり、顧客を支援するドキュメントや他のリソースを作成することができます。 また、チームは、発信者が数時間後にメッセージを残したり、キューが最大容量に達したりするためにボイス メールボックスを提供します。
 
 チームを作成するには
 
@@ -84,7 +84,7 @@ ms.locfileid: "51439732"
 2. チャネルの名前と説明を入力し、[追加] をクリック **します**。
 
 > [!div class="nextstepaction"]
-> [手順 2 - リソース アカウントの>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=resource-account#steps)
+> [手順 2 - リソース アカウントの>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # <a name="step-2brresource-accounts"></a>[手順 2 <br> リソース アカウント](#tab/resource-account)
 
@@ -98,7 +98,7 @@ Teams 管理センターでリソース アカウントを作成できます。
 
 2. **[追加]** をクリックします。
 
-3. [リソース アカウント **の追加]** ウィンドウで、表示 **名**、ユーザー名を入力し、[リソース アカウントの種類] の **[** 通話キュー **] を選択します**。
+3. [リソース アカウント **の追加]** ウィンドウで、[表示名] に[**ユーザー** 名] を入力し、[リソース アカウントの種類] の [通話キュー **] を選択します**。
 
     ![リソース アカウントのユーザー インターフェイスの追加のスクリーンショット](../media/resource-account-add-cq.png)
 
@@ -136,14 +136,14 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
 4. 発信者がキューに入った場合に発信者に応答メッセージを再生する場合に指定します。 再生する応答メッセージを含む MP3、WAV、または WMA ファイルをアップロードする必要があります。
 
-5. Teams は、キューで保留されている間、発信者に既定の音楽を提供します。 特定のオーディオ ファイルを再生する場合は、[オーディオ ファイルの再生] を選択し、MP3、WAV、または WMA ファイルをアップロードします。
+5. Teams は、キューで保留にしている間、発信者に既定の音楽を提供します。 特定のオーディオ ファイルを再生する場合は、[オーディオ ファイルの再生] を選択し、MP3、WAV、または WMA ファイルをアップロードします。
 
 > [!NOTE]
 > アップロードされた記録は 5 MB 以下にできます。
 > Teams の通話キューで提供される既定の音楽には、組織が支払う料金は無料です。 
 
 > [!div class="nextstepaction"]
-> [手順 3 - コール エージェントが>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-agents#steps)
+> [手順 3 - コール エージェントが>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[手順 3 コール <br> エージェント](#tab/call-agents)
 
@@ -160,7 +160,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 > 新しいユーザーがチームに追加された場合、最初の通話が到着するには最大 8 時間かかる場合があります。
 
 > [!div class="nextstepaction"]
-> [手順 4 - リソース アカウント>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-routing#steps)
+> [手順 4 - リソース アカウントの>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # <a name="step-4brcall-routing"></a>[手順 4 通話 <br> ルーティング](#tab/call-routing)
 
@@ -174,7 +174,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
     - **シリアル ルーティングは** 、すべてのコール エージェントを 1 つ 1 つリングします。 エージェントが通話を却下するか、通話を受け取らない場合、通話は次のエージェントを呼び出し、エージェントが受け取されるか、または時間が切れるまですべてのエージェントを試します。
 
-    - **ラウンド ロビンは** 、着信通話のルーティングのバランスを取り、各通話エージェントがキューから同じ数の通話を受け取ります。 これは、すべての通話エージェント間で同じ機会を確保するために、受信販売環境で望ましい場合があります。
+    - **ラウンド ロビンは** 、着信通話のルーティングのバランスを取り、各通話エージェントがキューから同じ数の通話を受け取ります。 受信販売環境では、すべてのコール エージェント間で機会が均等に確保されるのが望ましい場合があります。
 
     - **アイドル時間が** 最も長いエージェントに各呼び出しがルーティングされます。 (プレゼンス状態が 10 分以上離れたエージェントは含まれません)。
 
@@ -189,7 +189,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
     ![ルーティング、オプトアウト、通知時間の設定のスクリーンショット](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [手順 5 - 呼び出しオーバーフロー >](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-overflow#steps)
+> [手順 5 - 呼び出しオーバーフロー >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # <a name="step-5brcall-overflow"></a>[手順 5 通話 <br> オーバーフロー](#tab/call-overflow)
 
@@ -206,11 +206,11 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
     ![呼び出しオーバーフロー設定のスクリーンショット](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [手順 6 - 通話のタイムアウト>](https://review.docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?branch=mikeplum-smb-voice&tabs=call-timeout#steps)
+> [手順 6 - 通話のタイムアウト>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # <a name="step-6brcall-timeout"></a>[手順 6 通話 <br> タイムアウト](#tab/call-timeout)
 
-通話がキュー内で待ち時間が長すぎる場合に実行する処理を選択します。
+通話がキュー内で長い間待機している場合に実行する処理を選択します。
 
 1. 通話タイムアウト **を設定する: 最大待ち時間**。
 
