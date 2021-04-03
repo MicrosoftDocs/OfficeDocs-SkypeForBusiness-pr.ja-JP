@@ -325,7 +325,7 @@ items:
             href: manage-feedback-policies-in-teams.md
           - name: Teams でポリシー パッケージを管理する
             href: manage-policy-packages.md
-      - name: 外部ユーザーと通信する
+      - name: 組織外部のユーザーと作業する
         items:
           - name: 別の組織のユーザーと通信する
             href: communicate-with-users-from-other-organizations.md
@@ -333,7 +333,7 @@ items:
             items:
               - name: 外部アクセスを管理する
                 href: manage-external-access.md
-              - name: 外部ユーザー向けのネイティブ Teams チャット
+              - name: ネイティブ Teams チャット
                 href: native-chat-for-external-users.md
               - name: Teams と Skype の相互運用性
                 href: teams-skype-interop.md
@@ -345,13 +345,11 @@ items:
                 href: /microsoft-365/solutions/collaborate-as-team
               - name: ゲスト エクスペリエンス
                 href: guest-experience.md
-              - name: ゲスト アクセスを承認する
-                href: teams-dependencies.md
               - name: ゲスト アクセスをオンまたはオフにする
                 href: set-up-guests.md
               - name: チームにゲストを追加する
                 href: view-guests.md
-              - name: ゲスト ユーザー情報の編集
+              - name: ゲスト情報を編集する
                 href: edit-guests-information.md
               - name: ゲスト アクセスのトラブルシューティング
                 href: troubleshoot-guest-access.md
@@ -505,7 +503,7 @@ items:
             href: manufacturing-teams-templates-in-the-admin-console.md
           - name: Teams テンプレートのポリシーを管理する
             href: templates-policies.md
-      - name: 外部ユーザーと通信する
+      - name: 組織外部のユーザーと作業する
         items:
           - name: 別の組織のユーザーと通信する
             href: communicate-with-users-from-other-organizations.md
@@ -513,7 +511,7 @@ items:
             items:
               - name: 外部アクセスを管理する
                 href: manage-external-access.md
-              - name: 外部ユーザー向けのネイティブ Teams チャット
+              - name: ネイティブ Teams チャット
                 href: native-chat-for-external-users.md
               - name: Teams と Skype の相互運用性
                 href: teams-skype-interop.md
@@ -531,9 +529,9 @@ items:
                 href: set-up-guests.md
               - name: チームにゲストを追加する
                 href: add-guests.md
-              - name: チームのゲスト ユーザーを表示する
+              - name: チームのゲストを表示する
                 href: view-guests.md
-              - name: ゲスト ユーザー情報の編集
+              - name: ゲスト情報を編集する
                 href: edit-guests-information.md
               - name: ゲスト アクセスのトラブルシューティング
                 href: troubleshoot-guest-access.md
@@ -1209,8 +1207,6 @@ items:
             href: business-voice/prepare-users.md
       - name: 作業の開始ウィザードを実行する
         href: business-voice/use-getting-started-wizard.md
-      - name: 試すべきこと
-        href: business-voice/things-to-try.md
       - name: 設定をカスタマイズする
         items:
           - name: カスタマイズのオプション
@@ -1491,6 +1487,8 @@ items:
         items:
           - name: Teams でのデバイスの管理
             href: devices/device-management.md
+          - name: リモート プロビジョニングとサインイン
+            href: devices/remote-provision-remote-login.md
           - name: デバイスをリモートで更新する
             href: devices/remote-update.md
           - name: Teams デバイス タグを管理する
