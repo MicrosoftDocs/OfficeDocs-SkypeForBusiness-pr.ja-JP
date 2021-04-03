@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b54c64c637d44132ac0f978561267ef34f720e67
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101103"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574186"
 ---
 # <a name="manage-teams-with-policies"></a>ポリシーを使用して Teams を管理する
 
@@ -36,7 +36,7 @@ ms.locfileid: "51101103"
 
 ![グループ ポリシーの割り当てのスクリーンショット。](media/group-policy-assignment.png)
 
-ポリシーの割り当てに関する詳細については、こちらを参照 [してください](assign-policies.md)。
+ポリシーの割り当てに関する詳細については、こちらを参照 [してください](policy-assignment-overview.md)。
 
 ## <a name="how-to-manage-policies"></a>ポリシーを管理する方法
 
@@ -70,8 +70,8 @@ ms.locfileid: "51101103"
 
 ## <a name="related-topics"></a>関連項目
 
+* [Teams でポリシーを割り当てる - 使用を開始する](policy-assignment-overview.md)
 * [Microsoft Teams でフィードバック ポリシーを管理する](manage-feedback-policies-in-teams.md)
 * [Microsoft Teams でチーム ポリシーを管理する](teams-policies.md)
-* [アクティビティ ログでポリシー割り当てを表示する](activity-log.md)
 * [Microsoft Teams でのライブ イベントのセットアップ](teams-live-events/set-up-for-teams-live-events.md)
 * [Teams for Education ポリシーとポリシー パッケージ](policy-packages-edu.md)

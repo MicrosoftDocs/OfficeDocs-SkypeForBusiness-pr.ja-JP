@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Microsoft 365 Business Voice で通話キューを設定する方法について説明します。
-ms.openlocfilehash: 3e75dbb75d9edffedbf25d42f197d8723e3ef9a4
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: f60919dccd25231dbdb7e9c2991251bcb3f96700
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478367"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506644"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>通話キューを作成する - 小規模ビジネス向けチュートリアル
 
@@ -84,7 +84,7 @@ ms.locfileid: "51478367"
 2. チャネルの名前と説明を入力し、[追加] をクリック **します**。
 
 > [!div class="nextstepaction"]
-> [手順 2 - リソース アカウントの>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
+> [手順 2 - リソース アカウントの>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
 
 # <a name="step-2brresource-accounts"></a>[手順 2 <br> リソース アカウント](#tab/resource-account)
 
@@ -143,7 +143,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 > Teams の通話キューで提供される既定の音楽には、組織が支払う料金は無料です。 
 
 > [!div class="nextstepaction"]
-> [手順 3 - コール エージェントが>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
+> [手順 3 - コール エージェントが>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[手順 3 コール <br> エージェント](#tab/call-agents)
 
@@ -160,7 +160,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 > 新しいユーザーがチームに追加された場合、最初の通話が到着するには最大 8 時間かかる場合があります。
 
 > [!div class="nextstepaction"]
-> [手順 4 - リソース アカウントの>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
+> [手順 4 - リソース アカウントの>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-routing#steps)
 
 # <a name="step-4brcall-routing"></a>[手順 4 通話 <br> ルーティング](#tab/call-routing)
 
@@ -189,7 +189,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
     ![ルーティング、オプトアウト、通知時間の設定のスクリーンショット](../media/call-queue-presence-agents-time.png)
 
 > [!div class="nextstepaction"]
-> [手順 5 - 呼び出しオーバーフロー >](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
+> [手順 5 - 呼び出しオーバーフロー >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-overflow#steps)
 
 # <a name="step-5brcall-overflow"></a>[手順 5 通話 <br> オーバーフロー](#tab/call-overflow)
 
@@ -206,7 +206,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
     ![呼び出しオーバーフロー設定のスクリーンショット](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [手順 6 - 通話のタイムアウト>](https://docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
+> [手順 6 - 通話のタイムアウト>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # <a name="step-6brcall-timeout"></a>[手順 6 通話 <br> タイムアウト](#tab/call-timeout)
 

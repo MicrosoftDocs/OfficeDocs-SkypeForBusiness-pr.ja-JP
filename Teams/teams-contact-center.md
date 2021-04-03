@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fd86bd7aae0e925580067c668e0e50eb8112efb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 733abd0fce55858d890e190f5af466a7cfa71156
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119226"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51574126"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
@@ -47,22 +47,23 @@ API を使用すると、ソリューション プロバイダーは、Teams 用
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `Enghouse Interactive` | http://www.enghouseteams.com/         |
+| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
-### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>認定プロセス中のコネクテッド コンタクト センター ソリューション
+### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>認定プロセス中の接続されたコンタクト センター ソリューション
 
 |  ソリューション プロバイダー                                                                                                                               |  ソリューションの Web サイト                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
-| `Enghouse Interactive` | http://www.enghouseteams.com/                                                       |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
-| `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+| `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
@@ -126,7 +127,7 @@ Connect および拡張ベースのソリューションを使用すると、エ
 
 Azure に直接構築することで、ソリューション プロバイダーは、すべての Teams の地域と地域にソリューションを迅速に展開してプロビジョニングすることができます。Azure のストレージ、計算、分析 & の認知サービスを利用しながら、共有のグローバル通信ネットワークのメリットを受けることができます。
 
-拡張および Power 統合モデルを使用すると、ソリューション プロバイダーは、参加者 (または他のサービス) が Microsoft Graph で [Cloud Communications API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を適用する呼び出しに従事する方法と時間をカスタマイズするために人工知能を組み込む一方で、コンタクト センター エージェントに複数チャネルの通信エクスペリエンスを提供できます。
+拡張および Power 統合モデルを使用すると、ソリューション プロバイダーは、参加者 (または他のサービス) が Microsoft Graph で [Cloud Communications API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を適用する呼び出しに従事する方法と時間をカスタマイズするために人工知能を組み込む一方で、コンタクト センター エージェントにコンタクト センターエージェントにチャネル通信エクスペリエンスを提供できます。
 
 **主要な機能**
 

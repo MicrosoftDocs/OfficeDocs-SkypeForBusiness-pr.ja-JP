@@ -17,25 +17,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '概要: Skype for Business Server を実装する前に、ポートの使用状況に関する考慮事項を確認してください。'
-ms.openlocfilehash: 70caf72231797c4e245ac3117ec7fcc9241185f0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f56b8545f8c60578321354bebbe5a118bf895348
+ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094951"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51573986"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>サーバーのポートとプロトコルの要件
  
 **概要:** Skype for Business Server を実装する前に、ポートの使用状況に関する考慮事項を確認してください。
   
-Skype for Business Server では、外部ファイアウォールと内部ファイアウォールの特定のポートを開く必要があります。 さらに、組織でインターネット プロトコル セキュリティ (IPsec) が展開されている場合は、音声、ビデオ、およびパノラマ ビデオの配信に使用するポートの範囲に対して IPsec を無効にする必要があります。 
+Skype for Business Server では、外部ファイアウォールと内部ファイアウォールの特定のポートが開いている必要があります。 さらに、組織でインターネット プロトコル セキュリティ (IPsec) が展開されている場合は、音声、ビデオ、およびパノラマ ビデオの配信に使用するポートの範囲に対して IPsec を無効にする必要があります。 
   
-これは最初は少し気が重いように見える場合があります。これを計画する場合は [、Skype for Business Server 2015 Planning Tool](https://go.microsoft.com/fwlink/p/?LinkID=282725)を使用して行います。 使用する予定の機能に関するウィザードの質問を確認したら、定義するサイトごとに、エッジ管理レポート内のファイアウォール レポートを表示し、そこに記載されている情報を使用してファイアウォール ルールを作成できます。 使用される名前と IP アドレスの多くを調整することもできます。詳細については [、「Review the Firewall Report」を参照してください](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 エッジ管理レポートを Excel スプレッドシートにエクスポートし、ファイアウォール レポートをファイル内のワークシートの 1 つとしてエクスポートできます。 
+これは少し気が重いように見えるかもしれないが、これを計画する重い持ち上げは [、Skype for Business Server 2015 Planning Tool](https://go.microsoft.com/fwlink/p/?LinkID=282725)を使用して実行できます。 使用する予定の機能に関するウィザードの質問を確認したら、定義するサイトごとに、エッジ管理レポート内のファイアウォール レポートを表示し、そこに記載されている情報を使用してファイアウォール ルールを作成できます。 使用される名前と IP アドレスの多くを調整することもできます。詳細については [、「Review the Firewall Report」を参照してください](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report)。 エッジ管理レポートを Excel スプレッドシートにエクスポートし、ファイアウォール レポートをファイル内のワークシートの 1 つとしてエクスポートできます。 
   
-これらの表の情報は [、Skype for Business Server 2015](../../technical-diagrams.md) の技術図の記事の「プロトコル ワークロード」ポスターを参照して、ダイアグラム 形式で確認することもできます。
+これらの表の情報は [、Skype for Business Server 2015](../../technical-diagrams.md) の技術図の記事の「プロトコル ワークロード」ポスターを参照して、ダイアグラム 形式で確認できます。
+
 > [!NOTE]
-> - Skype for Business Online (Microsoft 365 または Office 365) を実装する場合は [、Microsoft 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)および Office 365 URL および IP アドレス範囲を参照してください。 ハイブリッド環境では、このトピックを参照し、ハイブリッド接続を [計画する必要があります](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
-> - ハードウェアまたはソフトウェアのファイアウォールを使用できます。特定のモデルやバージョンは必要とします。 重要なのは、ファイアウォールが Skype for Business Server の機能を損なわないポートがホワイトリストに登録されている点です。
+> - Skype for Business Online (Microsoft 365 または Office 365) を実装する場合は [、Microsoft 365](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)および Office 365 URL および IP アドレス範囲を参照してください。 ハイブリッド環境では、このトピックを参照し、ハイブリッド接続を [計画する必要があります](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2floc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
+> - ハードウェアファイアウォールまたはソフトウェア ファイアウォールを使用できます。 特定のモデルやバージョンは不要です。 重要なのは、ファイアウォールが Skype for Business Server の機能を損なわないポートを許可リストに追加する点です。
   
 ## <a name="port-and-protocol-details"></a>ポートとプロトコルの詳細
 
@@ -53,7 +54,7 @@ Skype for Business Server では、外部ファイアウォールと内部ファ
 |サーバーの役割|サービス名|ポート|プロトコル|メモ|
 |:-----|:-----|:-----|:-----|:-----|
 |すべてのサーバー  |SQL ブラウザー  |1434  |UDP  |SQLサーバーの全体管理ストア データベースのローカルレプリケート コピーのブラウザーを選択します。  |
-|フロント エンド サーバー  |Skype for Business Server Front-End サービス  |5060  |TCP  |リモート通話コントロール サーバーなどの Standard Edition サーバーとフロント エンド サーバーで、信頼されたサービスへの静的ルートの場合にオプションとして使用。  |
+|Front-End サーバー  |Skype for Business Server Front-End サービス  |5060  |TCP  |リモート通話コントロール サーバーなどの Standard Edition サーバーとフロント エンド サーバーで、信頼されたサービスへの静的ルートの場合にオプションとして使用。  |
 |フロント エンド サーバー  |Skype for Business Server Front-End サービス  |5061  | TCP (TLS) |サーバー間のすべての内部 SIP 通信 (MTLS)、サーバーとクライアントの間の SIP 通信 (TLS)、およびフロント エンド サーバーと仲介サーバーの間の SIP 通信 (MTLS) において、Standard Edition サーバーとフロント エンド プールで使用。 監視サーバーとの通信にも使用されます。  |
 | フロント エンド サーバー |Skype for Business Server Front-End サービス  |444  | HTTPS <br/> TCP  |フォーカス (会議の状態を管理する Skype for Business Server コンポーネント) と個々のサーバー間の HTTPS 通信に使用されます。  <br/> このポートは、存続可能ブランチ アプライアンスとフロントエンド サーバー間の TCP 通信にも使用されます。  |
 |フロント エンド サーバー  |Skype for Business Server Front-End サービス  |135  |DCOM およびリモート プロシージャ コール (RPC)  |ユーザーの移行、ユーザー レプリケーター同期、およびアドレス帳同期などの DCOM ベースの操作で使用。  |
