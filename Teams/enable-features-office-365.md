@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc61e47a8c5c86f2591026ef8cc9d502cc43604e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
+ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122191"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51506670"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -47,7 +47,7 @@ Microsoft Teams 管理センターで、組織全体のユーザー設定を制�
 ドメインを追加またはブロックします。
 
 1. [**ドメインの追加**] を選択します。
-2. [ドメインの追加] ウィンドウで、ドメイン名を入力し、スペース バーをクリックして名前を保存します。
+2. [ドメインの追加] ウィンドウで、ドメイン名を入力し、スペース バーを選択して名前を保存します。
 3. [**許可**] または [**禁止**]を選択します。
 4. [**完了**] を選んで変更内容を保存します。 
 
@@ -94,9 +94,13 @@ Microsoft Teams での **ゲスト アクセス** により、組織内のチー
 Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳ポリシー (APB) を使用して、組織がどのように組織内のユーザーを検索するか、およびそれらのユーザーと通信するかを制御するために、仮想の境界を作成することができます。範囲指定ディレクトリ検索を使用することが考えられる状況は次のとおりです。
 
 - 所属する組織において、テナント内に複数の会社があり、それらを切り離された状態で維持する場合。 
-- 所属する学校において、教職員と学生との間のチャットを制限する必要がある場合。 
+- 所属する学校において、教職員と学生との間のチャットを制限する必要がある場合。
 
 範囲指定ディレクトリ検索をオンにするには、この設定を [**オン**] に切り替えます。
+
+#### <a name="safety-and-communications"></a>安全性とコミュニケーション
+
+監視付きチャットを使用すると、組織や学校は役割ベースのアクセス許可を使用してチャット機能を制限できます。 これらのアクセス許可は、ユーザーが他のユーザーとチャットするときに必要な監視の量を制御します。 [監視付きチャット](supervise-chats-edu.md)の詳細をご覧ください。
 
 ### <a name="skype-for-business"></a>Skype for Business
 
