@@ -317,10 +317,12 @@ items:
         items:
           - name: 概要
             href: manage-teams-with-policies.md
-          - name: ユーザーにポリシーを割り当てる
-            href: assign-policies.md
-          - name: アクティビティ ログでポリシーの割り当てを表示する
-            href: activity-log.md
+          - name: Teams でポリシーを割り当てる - はじめに
+            href: policy-assignment-overview.md
+          - name: ポリシーをユーザーおよびグループに割り当てる
+            href: assign-policies-users-and-groups.md
+          - name: ポリシー パッケージを割り当てる
+            href: assign-policy-packages.md
           - name: Teams でフィードバック ポリシーを管理する
             href: manage-feedback-policies-in-teams.md
           - name: Teams でポリシー パッケージを管理する
