@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de3ef5f7fdd594fbc4471d3d7af4b2c3f3c683c1
-ms.sourcegitcommit: 6505dd1fb891ab27fcc9f36423fda67aae6fcfd7
+ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "51418755"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593775"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -39,7 +39,7 @@ Teams の会議アドインは、Microsoft Teams と Office 2013、Office 2016 �
 
 > [!NOTE]
 > - Teams アドインにリンクする **ダイレクト URL はありません**。
-> - 組織で Teams と Skype for Business の両方を使用している場合、その他にも考慮事項があります。 状況によっては、Teams アドインは Outlook では使用できません。 詳細については、「[Skype for Business から Teams へのアップグレード](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview)」を参照してください。
+> - 組織で Teams と Skype for Business の両方を使用している場合、その他にも考慮事項があります。 状況によっては、Teams アドインは Outlook では使用できません。 詳細については、「[Skype for Business から Teams へのアップグレード](upgrade-to-Teams-on-prem-tools.md)」を参照してください。
 > - Regsvr32.exe ファイルを実行するユーザーのアクセス許可は、コンピューターに Teams 会議アドインをインストールするための最小要件です。
 > - Teams の会議アドインが表示されないユーザーに対しては、Outlook と Teams を閉じて、先に Teams クライアントを再起動してから Teams にサインインし、次に Outlook クライアントを再起動する操作を順に行うよう指示します。
 > - Microsoft ストアから Office Outlook のインストールを使用している場合、Teams 会議アドインはサポートされていません。 このアドインが必要なユーザーは、「[S モードでの Windows 10 の Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)」の記事で説明されているとおり、Office のクイック実行バージョンをインストールすることをお勧めします。

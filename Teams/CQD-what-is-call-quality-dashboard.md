@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) と、それを使用して Microsoft Teams の会議および通話品質に関するレポートを表示する方法について説明します。
-ms.openlocfilehash: c78e427ef87f7485932fac207c10add71c8bf269
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d262449394d9ad880d13897988e40e26dd98578c
+ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094941"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51593835"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) とは
 
@@ -45,18 +45,18 @@ CQD は、Teams 管理者、Skype for Business 管理者、ネットワーク �
   
 ![通話品質ダッシュボードのスクリーンショット。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-CQD では、建物とエンドポイントの情報をアップロードして、Location-Enhanced レポートを使用して、ユーザーの建物内の通話品質と信頼性を分析することができます。 データを評価して、問題が 1 人のユーザーに分離されているのか、ユーザーの大きなセグメントに影響を与えるのか判断できます。 CQD で作成またはエンドポイント固有のビューを有効にする場合、管理者 [](CQD-upload-tenant-building-data.md)は CQD テナント データアップロード ページで建物またはエンドポイントの情報を **アップロードする必要** があります。
+CQD では、建物とエンドポイントの情報をアップロードして、Location-Enhanced レポートを使用して、ユーザーの建物内の通話品質と信頼性を分析することができます。 データを評価して、問題が 1 人のユーザーに分離されているのか、それともユーザーの大きなセグメントに影響を与えるのか判断できます。 CQD で作成またはエンドポイント固有のビューを有効にする場合、管理者 [](CQD-upload-tenant-building-data.md)は CQD テナント データアップロード ページで建物またはエンドポイントの情報を **アップロードする必要** があります。
 
 ![通話品質ダッシュボードの通話品質レポートLocation-Enhancedスクリーンショット。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 Teams のサービス品質[](quality-of-experience-review-guide.md)の管理を担当する Teams 管理者またはサポート エンジニアに詳細なガイダンスを提供する、通話と会議の品質の管理に関する記事をお見逃しなく。
 
-## <a name="older-version-of-cqd-cqdlynccom"></a>以前のバージョンの CQD (CQD.lync.com)
+## <a name="legacy-version-of-cqd-cqdlynccom"></a>従来のバージョンの CQD (CQD.lync.com)
 
-現在のバージョンの CQD ( https://CQD.Teams.microsoft.com) は古いバージョンの CQD ( https://CQD.lync.com) . CQD.lync.com (Skype for Business 管理センターから利用できます) は引き続き使用できますが、2020 年 7 月 1 日現在、CQD からのデータが使用されています。Teams.microsoft.com。 このサイトへのアクセスは間もなく CQD.lync.com されますので、CQD に移動する必要があります。Teams.microsoft.com まだ行っていない場合は、この設定を行います。
+現在のバージョンの CQD ( https://CQD.Teams.microsoft.com) は従来のバージョンの CQD ( https://CQD.lync.com) . CQD.lync.com (Skype for Business 管理センターから利用できます) は引き続き使用できますが、2020 年 7 月 1 日現在、CQD からのデータが使用されています。Teams.microsoft.com、古い CQD (CQD.lync.com) の建物やクエリ のデータを表示または変更 CQD.lync.com。 このデータを引き続き移行していない CQD.lync.com 場合は、サポート チケットを記録します。
 
 > [!IMPORTANT]
-> 2020 年 7 月 1 日の現在、古い CQD (CQD.lync.com) の建物やクエリ のデータは表示または変更できなくなりました。 このデータを引き続き移行していない CQD.lync.com 場合は、サポート チケットを記録します。
+> 2021 年 7 月 31 日より、従来のバージョンの CQD (CQD.lync.com。 この日付を終えた後、CQD に自動的にリダイレクトされます。Teams.microsoft.com データにアクセスしようと CQD.lync.com、未読の建物やクエリ データは失われます。
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Power BI を使用して CQD データを分析する
 

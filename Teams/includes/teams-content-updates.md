@@ -3,6 +3,57 @@
 
 
 
+## <a name="week-of-march-29-2021"></a>2021 年 3 月 29 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 3/29/2021 | [Teams Android デバイスのリモート プロビジョニングとサインイン](/MicrosoftTeams/devices/remote-provision-remote-login) | 追加済 |
+| 3/29/2021 | [Microsoft Endpoint Configuration Manager を使用して Microsoft Teams Rooms を展開する](/MicrosoftTeams/rooms/rooms-scale) | 更新日時 |
+| 3/29/2021 | [Outlook で Microsoft Teams 会議アドインを使用する](/MicrosoftTeams/teams-add-in-for-outlook) | 更新日時 |
+| 3/29/2021 | Microsoft Teams でのゲスト アクセスを承認する | 削除されました |
+| 3/29/2021 | [Teams のアイテム保持ポリシーを管理する](/MicrosoftTeams/retention-policies) | 更新日時 |
+| 3/30/2021 | [Microsoft Teams の自動応答を設定する - 小規模ビジネス向けチュートリアル](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 更新日時 |
+| 3/30/2021 | [Microsoft Teams で通話キューを作成する - 小規模ビジネス向けチュートリアル](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 更新日時 |
+| 3/30/2021 | [Microsoft Teams で通話キューを作成する](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 3/30/2021 | [会議を呼び出す Teams ポリシーベースの記録&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 3/30/2021 | [Teams で Microsoft アプリをカスタマイズする](/MicrosoftTeams/customize-apps) | 追加済 |
+| 3/30/2021 | [企業に Microsoft Teams をセットアップする](/MicrosoftTeams/deploy-enterprise-setup) | 更新日時 |
+| 3/30/2021 | [Microsoft Teams 管理センターでアプリを管理する](/MicrosoftTeams/manage-apps) | 更新日時 |
+| 3/30/2021 | [Teams で Microsoft アプリをカスタマイズする](/MicrosoftTeams/customize-apps) | 更新日時 |
+| 3/30/2021 | [Microsoft Teams ルーム](/MicrosoftTeams/rooms/index) | 更新日時 |
+| 3/31/2021 | [Microsoft Teams の自動応答を設定する - 小規模ビジネス向けチュートリアル](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 更新日時 |
+| 3/31/2021 | [Microsoft Teams で通話キューを作成する - 小規模ビジネス向けチュートリアル](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 更新日時 |
+| 3/31/2021 | [Microsoft Teams のデバイス使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/device-usage-report) | 更新日時 |
+| 3/31/2021 | [Microsoft Teams の分析とレポート](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 更新日時 |
+| 3/31/2021 | [Microsoft Teams ユーザー アクティビティ レポート](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 更新日時 |
+| 3/31/2021 | [Microsoft Teams のリリース ノート](/MicrosoftTeams/release-notes/release-notes) | 更新日時 |
+| 3/31/2021 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
+| 4/1/2021 | [Power BI Connector をインストールして CQD クエリ テンプレートを使用する](/MicrosoftTeams/cqd-power-bi-connector) | 更新日時 |
+| 4/1/2021 | [Microsoft Teams のリリース ノート](/MicrosoftTeams/release-notes/release-notes) | 更新日時 |
+| 4/1/2021 | [監督付きチャットを使用する](/MicrosoftTeams/supervise-chats-edu) | 更新日時 |
+| 4/1/2021 | [OneDrive for Business と SharePoint を使用して会議の記録を行う](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
+| 4/2/2021 | [Microsoft Teams の自動応答を設定する - 小規模ビジネス向けチュートリアル](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 更新日時 |
+| 4/2/2021 | [Microsoft Teams で通話キューを作成する - 小規模ビジネス向けチュートリアル](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 更新日時 |
+| 4/2/2021 | [Microsoft Teams でカスタム チーム テンプレートを作成する](/MicrosoftTeams/create-a-team-template) | 更新日時 |
+| 4/2/2021 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
+| 4/2/2021 | [組織の設定を管理する](/MicrosoftTeams/enable-features-office-365) | 更新日時 |
+| 4/2/2021 | [Teams のメッセージング ポリシーを管理する](/MicrosoftTeams/messaging-policies-in-teams) | 更新日時 |
+| 4/2/2021 | [Microsoft Teams のライブ イベントについて](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | 更新日時 |
+| 4/2/2021 | [Microsoft Teams PowerShell のリリース ノート](/MicrosoftTeams/teams-powershell-release-notes) | 更新日時 |
+| 4/2/2021 | [ユーザーとグループにポリシーを割り当てる](/MicrosoftTeams/assign-policies-users-and-groups) | 追加済 |
+| 4/2/2021 | [ユーザーとグループにポリシー パッケージを割り当てる](/MicrosoftTeams/assign-policy-packages) | 追加済 |
+| 4/2/2021 | [Teams でポリシーを割り当てる](/MicrosoftTeams/policy-assignment-overview) | 追加済 |
+| 4/2/2021 | [Teams で Microsoft アプリをカスタマイズする](/MicrosoftTeams/customize-apps) | 更新日時 |
+| 4/2/2021 | [Microsoft Teams 管理センターでアプリを管理する](/MicrosoftTeams/manage-apps) | 更新日時 |
+| 4/2/2021 | [ベルギーでの電話番号の管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium) | 更新日時 |
+| 4/2/2021 | [Microsoft Teams でポリシー パッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
+| 4/2/2021 | [ポリシーを使用して Teams を管理する](/MicrosoftTeams/manage-teams-with-policies) | 更新日時 |
+| 4/2/2021 | [CQD を使用して Microsoft Teams で通話と会議の品質を管理する](/MicrosoftTeams/quality-of-experience-review-guide) | 更新日時 |
+| 4/2/2021 | [Microsoft Teams のリリース ノート](/MicrosoftTeams/release-notes/release-notes) | 更新日時 |
+| 4/2/2021 | [Teams コンタクト センター](/MicrosoftTeams/teams-contact-center) | 更新日時 |
+
+
 ## <a name="week-of-march-22-2021"></a>2021 年 3 月 22 日の週
 
 
