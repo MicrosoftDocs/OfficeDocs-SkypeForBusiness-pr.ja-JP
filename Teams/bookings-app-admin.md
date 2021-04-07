@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams と、Bookings アプリを使用した仮想訪問
-ms.openlocfilehash: 5b10c7f320d4162b57dae18c736e26e1935a4107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7cb948e020d27ccee396aebb8d1b36b022160a75
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092785"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598606"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams と Bookings アプリを使用した仮想訪問
 
@@ -57,7 +57,7 @@ Bookings アプリにアクセスできるユーザーとアプリの特定の�
 
 ## <a name="recommended-meeting-policy-settings"></a>推奨される会議ポリシーの設定
 
-Bookings で最高のエクスペリエンスを実現するには、スタッフ会議ポリシーを作成して、**組織内のすべてのユーザー** を自動的に承認するようにします。 これにより、スタッフは予定に自動的に参加できるようになり、外部出席者のロビー エクスペリエンスを有効にすることができます。 詳細については、「[会議へのユーザーの参加を自動的に許可する](meeting-policies-in-teams.md#automatically-admit-people)」を参照してください。
+Bookings で最高のエクスペリエンスを実現するには、スタッフ会議ポリシーを作成して、**組織内のすべてのユーザー** を自動的に承認するようにします。 これにより、スタッフは予定に自動的に参加できるようになり、外部出席者のロビー エクスペリエンスを有効にすることができます。 詳細については、「[会議へのユーザーの参加を自動的に許可する](meeting-policies-participants-and-guests.md#automatically-admit-people)」を参照してください。
 
 ### <a name="optional-staff-approvals-setting"></a>オプションのスタッフ承認設定
 

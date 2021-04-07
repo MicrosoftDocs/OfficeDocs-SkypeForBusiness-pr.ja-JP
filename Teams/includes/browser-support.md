@@ -12,7 +12,7 @@ Teams では、通話および会議に対する記載の通りの例外を除�
 |Firefox の最新バージョンと、その前の 2 バージョン     |非サポート         |会議は、PSTN 座標が含まれている場合にのみサポートされます。 PSTN 座標を使用せずに Firefox で会議に出席するには、Teams のデスクトップ クライアントをダウンロードしてください。<br><br>ビデオ: サポート対象外<br><br>共有: 受信共有のみ (送信なし)     |
 |13 より前の Safari バージョン     | 非サポート        |会議は、PSTN 座標が含まれている場合にのみサポートされます。 PSTN 座標を使用せずに Safari で会議に出席するには、Teams のデスクトップ クライアントをダウンロードしてください。<br><br>ビデオ: サポート対象外<br><br>共有: 受信共有のみ (送信なし)<br><br>Safari はプレビューで 11.1 よりも上位バージョンで有効になります。 プレビューでは、Safari のインテリジェントトラッキング防止を使った[既知の問題](https://support.office.com/article/safari-browser-support-1aac0a7c-35a8-42c1-a7df-f674afe234df) があります。      |
 
-<sup>1</sup> [共有中に共有コンテンツを提供および制御する](../meeting-policies-in-teams.md#allow-a-participant-to-give-or-request-control)には、両者が Teams デスクトップ クライアントを使用している必要があります。 いずれかの当事者がブラウザーで Teams を実行している場合、制御はサポートされません。 これは、修正する予定の技術的制限によるものです。
+<sup>1</sup> [共有中に共有コンテンツを提供および制御する](../meeting-policies-content-sharing.md#allow-a-participant-to-give-or-request-control)には、両者が Teams デスクトップ クライアントを使用している必要があります。 いずれかの当事者がブラウザーで Teams を実行している場合、制御はサポートされません。 これは、修正する予定の技術的制限によるものです。
 
 <sup>2</sup> ブラウザーで Teams を実行している場合、背景をぼかすことはできません。 この機能を使用できるのは、Teams のデスクトップ クライアントのみです。
 

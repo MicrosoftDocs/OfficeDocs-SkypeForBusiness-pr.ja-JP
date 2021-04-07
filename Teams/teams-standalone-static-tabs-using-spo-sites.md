@@ -14,12 +14,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 既存の SharePoint Online サイトまたはページを取得し、組織のイントラネット ポータルとして使用できるスタンドアロンの個人用タブを作成します。
 localization_priority: Priority
-ms.openlocfilehash: 7989478bf7fb81abdbd6ad9e553845302953c8cd
-ms.sourcegitcommit: 5473b9fcd2bfe8adeb05a4a8d23e4350c7970fb6
+ms.openlocfilehash: c6d138b1bf95edb619de6563f644e76ec123e3c6
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937509"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607543"
 ---
 # <a name="create-a-teams-intranet-portal-app-from-a-sharepoint-online-site-or-page"></a>SharePoint Online サイトまたはページから Terms の「イントラネット ポータル アプリ」を作成する
 
@@ -126,9 +126,9 @@ Teams デスクトップで新しいタブを表示するには、アプリ バ�
 ```json
 {
 
-    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
 
-    "manifestVersion": "1.5",
+    "manifestVersion": "1.9",
 
     "version": "1.0.0",
 
@@ -138,7 +138,7 @@ Teams デスクトップで新しいタブを表示するには、アプリ バ�
 
     "developer": {
 
-        "name": "Contoso", ''
+        "name": "Contoso",
 
         "websiteUrl": "https://www.contoso.com",
 
@@ -158,13 +158,13 @@ Teams デスクトップで新しいタブを表示するには、アプリ バ�
 
     "name": {
 
-        "short": "Contoso Intranet", '
+        "short": "Contoso Intranet",
 
         "full": "Intranet Portal for Contoso"
 
     },
 
-    "des    ription": {
+    "description": {
 
         "short": "Intranet portal for Contoso",
 
@@ -178,7 +178,7 @@ Teams デスクトップで新しいタブを表示するには、アプリ バ�
 
         {
 
-                     "       nti        Id":       "com    unicat    onSi    eTab",
+            "entityId": "communicationSiteTab",
 
             "name": "Contoso Net",
 

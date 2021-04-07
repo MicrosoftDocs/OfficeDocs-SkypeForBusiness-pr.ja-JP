@@ -23,16 +23,16 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft ボリューム ライセンスを使用している組織で電話会議機能を有効にする分単位支払いオプションについて説明します。
-ms.openlocfilehash: 28b0ecba5cf18741bca572e4de178fc4388f4f83
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9dd44436a557ea2685d4f6fb582bf41067d5c081
+ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102973"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51607529"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
-ボリューム およびライセンスの組織では、標準的な電話会議のユーザーごとのライセンスに加えて、分単位支払いサービスを選択して、組織の電話会議機能を有効にできます。
+ボリューム/ライセンス組織では、標準的な電話会議のユーザーごとのライセンスに加えて、分単位支払いサービスを選択して、組織の電話会議機能を有効にできます。
   
 
 お客様の国/地域 [が電話会議](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) でサポートされていないか確認できます。
@@ -43,7 +43,7 @@ ms.locfileid: "51102973"
   
 ## <a name="need-some-details"></a>詳細が必要な場合
 
-電話会議のユーザーごとのライセンス プランにはダイヤルインの使用状況と一部のダイヤルアウトの使用状況が含まれますが、電話会議の分単位支払いでは、ユーザーごとの月次ライセンスの支払いを行わずに、分単位ですべての電話会議の使用状況を支払う必要があります。 これにより、すべてのダイヤルイン通話とダイヤルアウト通話が分単位で請求されます。これには次の情報が含まれる必要があります。
+電話会議のユーザーごとのライセンス プランにはダイヤルインの使用状況と一部のダイヤルアウトの使用状況が含まれますが、電話会議の分単位支払いでは、ユーザーごとの月次ライセンスの支払いを行わずに、分単位ですべての電話会議の使用状況を支払います。 これにより、すべてのダイヤルイン通話とダイヤルアウト通話が分単位で請求されます。これには次の情報が含まれる必要があります。
   
 - 組織の有料電話会議番号への着信通話。
     
@@ -54,7 +54,9 @@ ms.locfileid: "51102973"
 > [!NOTE]
 > これらの種類の通話に関連付けられているダイヤルインとダイヤルアウトの料金を確認するには、[電話会議]の [通話先の料金を確認する] セクション[を確認します](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)。
   
-分単位支払いを行うには、組織でコミュニケーション クレジット [を設定する](what-are-communications-credits.md) 必要があります。 また、電話会議を機能するには、分単位支払いライセンスと通信クレジットライセンスの両方を各ユーザーに割り当てる必要があります。 詳細については、組織および Microsoft [](set-up-communications-credits-for-your-organization.md) Teams アドオン ライセンスのコミュニケーション クレジットの[セットアップに関するページを参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+  
+分単位支払いを行うには、組織でコミュニケーション クレジット [を設定する](what-are-communications-credits.md) 必要があります。 詳細については、組織および Microsoft [](set-up-communications-credits-for-your-organization.md) Teams アドオン ライセンスのコミュニケーション クレジットの[セットアップに関するページを参照してください](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+
   
 組織内のユーザーに対して電話会議の分単位支払いを有効にするには [、「Microsoft Office 365 または Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)で電話会議を試用または購入する」を参照してください。
 

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08444efa4a8fa96b64dd92d9be66b0f324010c14
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117655"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598576"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -189,20 +189,20 @@ SDS は2つのステップでチームを作成します。 最初のステッ�
 
 SDS メソッドではまず、[学校データ同期（SDS）](/SchoolDataSync)に移動し、[https://aka.ms/sdssupport](https://aka.ms/sdssupport)導入アシスタンスにご連絡ください。 
 
-Graph API メソッドの利用方法は、「[Graph API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0)」および「[クラスチームを作成する](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta)」を参照してください。  
+Graph API メソッドの利用方法は、「[Graph API](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-1.0&preserve-view=true)」および「[クラスチームを作成する](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)」を参照してください。  
 
 > [!NOTE]
 > SDS でこの方法を使用するには、SDS プロファイルで自動チーム作成トグルをオフにしなければなりません。 2 つの SDS プロファイルを使用して、必須およびオプションのクラスチームに対して、自動作成と教師主導のチーム作成を組み合わせて使用することもできます。
 
 #### <a name="powershell-script-using-graph-apis"></a>Graph API を使用した PowerShell スクリプト
 
-PowerShell では、チームやチャネルを作成するためにスクリプトを書いたり、、設定を自動的に構成することができます。 管理者は、まずグループを作成し、教職員と生徒を追加してから、[こちら](/graph/teams-create-group-and-team)で説明されているようにチームを作成しなければなりません。 Microsoft Graph API では、チームを作成、構成、複製、アーカイブすることもできます。 詳細については、「[Microsoft Graph APIを使用してMicrosoft Teamsで作業する](/graph/api/resources/teams-api-overview)」、「[ Microsoft Teams PowerShell](/powershell/module/teams)」および「[クラスチームを作成する](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type)」を参照してください。 グラフAPI は管理と柔軟性を高めますが、高度な技術的専門知識が必要であり、初期設定に時間がかかります。
+PowerShell では、チームやチャネルを作成するためにスクリプトを書いたり、、設定を自動的に構成することができます。 管理者は、まずグループを作成し、教職員と生徒を追加してから、[こちら](/graph/teams-create-group-and-team)で説明されているようにチームを作成しなければなりません。 Microsoft Graph API では、チームを作成、構成、複製、アーカイブすることもできます。 詳細については、「[Microsoft Graph APIを使用してMicrosoft Teamsで作業する](/graph/api/resources/teams-api-overview)」、「[ Microsoft Teams PowerShell](/powershell/module/teams)」および「[クラスチームを作成する](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-6-create-a-team-with-a-non-standard-base-template-type&preserve-view=true)」を参照してください。 グラフAPI は管理と柔軟性を高めますが、高度な技術的専門知識が必要であり、初期設定に時間がかかります。
 
 ##### <a name="benefits"></a>利点
 
 - 追加の柔軟性と管理。
 - 教職員への早期アクセスチームを作成するか、生徒へのチームへの即時アクセスを作成するオプション。  
-- [グループからチームを作成](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group)すると、教職員は早期アクセスが可能になり、Azure AD グループの学生メンバーシップの変更が同期されます。
+- [グループからチームを作成](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)すると、教職員は早期アクセスが可能になり、Azure AD グループの学生メンバーシップの変更が同期されます。
 
 ##### <a name="considerations"></a>考慮事項
 
@@ -211,7 +211,7 @@ PowerShell では、チームやチャネルを作成するためにスクリプ
 - メンバーシップの変更は SIS と同期されません。 
 
 > [!NOTE]
-> クラスチームには非表示のグループメンバーシップが必要ですので、クラス内の教職員と生徒だけがそのクラスのメンバーを見ることができます。 Office 365 クラスグループを作成するには、「[クラスチームを作成する](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta)」を参照して、同じプライバシー要件を満たします。
+> クラスチームには非表示のグループメンバーシップが必要ですので、クラス内の教職員と生徒だけがそのクラスのメンバーを見ることができます。 Office 365 クラスグループを作成するには、「[クラスチームを作成する](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)」を参照して、同じプライバシー要件を満たします。
 
 #### <a name="manual-team-creation"></a>チームの手動作成
 
@@ -241,15 +241,15 @@ PowerShell では、チームやチャネルを作成するためにスクリプ
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>学生にアクセス許可を付与する前に、教職員が早期アクセスしてクラス チームを作成するにはどうすればいいですか?
 
-グループから作成されるチーム (SDS、教職員主導、または Graph API) では、既定で自動的に早期アクセス チームを作成します。 Graph API を使用して自身の早期アクセス チームを作成するには、[クラスを作成](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta)して、[グループからチームを作成](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group)する必要があります。
+グループから作成されるチーム (SDS、教職員主導、または Graph API) では、既定で自動的に早期アクセス チームを作成します。 Graph API を使用して自身の早期アクセス チームを作成するには、[クラスを作成](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)して、[グループからチームを作成](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)する必要があります。
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>クラスがアクティブ化されているか確認するにはどうすればいいですか?
 
-[[チーム リソースの種類](/graph/api/resources/team?view=graph-rest-beta)] で、新しいプロパティ [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties) を追加して、クラスがアクティブ化しているか判断します。 [Team API を取得](/graph/api/team-get?tabs=http&view=graph-rest-beta) を使用して、特定のクラス用の```isMembershipLimitedToOwners```プロパティをクエリします。 チームがアクティブ化されると、False の値が返されます。 チームの所有者によってアクティブ化されていない場合は、True の値が返されます。
+[[チーム リソースの種類](/graph/api/resources/team?view=graph-rest-beta&preserve-view=true)] で、新しいプロパティ [isMembershipLimitedToOwners](/graph/api/resources/team?view=graph-rest-beta#properties&preserve-view=true) を追加して、クラスがアクティブ化しているか判断します。 [Team API を取得](/graph/api/team-get?tabs=http&view=graph-rest-beta&preserve-view=true) を使用して、特定のクラス用の```isMembershipLimitedToOwners```プロパティをクエリします。 チームがアクティブ化されると、False の値が返されます。 チームの所有者によってアクティブ化されていない場合は、True の値が返されます。
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>教職員用のクラスをアクティブ化するにはどうすればいいですか?
 
-[Team API の更新](/graph/api/team-update?tabs=http&view=graph-rest-beta) を使用して、```isMembershipLimitedToOwners```プロパティを False に設定すると、教職員の代わりにチームがアクティブ化します。 チームをアクティブ化すると、元に戻すことができないことに注意してください。
+[Team API の更新](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) を使用して、```isMembershipLimitedToOwners```プロパティを False に設定すると、教職員の代わりにチームがアクティブ化します。 チームをアクティブ化すると、元に戻すことができないことに注意してください。
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>職員の通信と共同作業用にスタッフ チームを作成する
 

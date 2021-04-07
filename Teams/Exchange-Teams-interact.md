@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aa192472da86850a580bc981291762386f15c434
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 31f468e6e3fea0915322e632ad27f2213d5d63c7
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094639"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598366"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -122,7 +122,7 @@ Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサー�
 
 - 条件付きアクセスを使用して、Teams や Exchange のコンプライアンス ポリシーの構成を制御および保護します。 詳細については、「[Teams に条件付きアクセス ポリシーはどのように機能しますか?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)」を参照してください
 
-- すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者に Exchange オンプレミス メールボックスがある場合は、プライベート会議を無効にする必要があります。 詳細については、「[プライベート ミーティングのスケジュールを許可する](./meeting-policies-in-teams.md#allow-scheduling-private-meetings)」をご覧ください。
+- すべての会議のディスカッションを確実に検出できるというコンプライアンス要件が組織にある場合、開催者に Exchange オンプレミス メールボックスがある場合は、プライベート会議を無効にする必要があります。 詳細については、「[プライベート ミーティングのスケジュールを許可する](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)」をご覧ください。
 
 - Exchange ハイブリッド展開では、チャット参加者が使用するメールボックスがクラウド ベースかオンプレミスかにかかわらず、チャット メッセージのコンテンツは検索可能です。 詳細については、「[オンプレミス ユーザーのクラウドベース メールボックスの検索](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)」を参照してください。 Teams でコンテンツを検索する方法については、「[Microsoft 365 コンプライアンス センターのコンテンツ検索](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)」を参照してください。
 
