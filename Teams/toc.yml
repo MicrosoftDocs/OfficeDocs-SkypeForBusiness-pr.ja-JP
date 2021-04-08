@@ -550,9 +550,25 @@ items:
       - name: 会議
         items:
           - name: 会議ポリシーを管理する
-            href: meeting-policies-in-teams.md
-          - name: ユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する
-            href: meeting-policies-restricted-anonymous-access.md
+            items:
+              - name: 概要
+                href: meeting-policies-overview.md
+              - name: 一般的なポリシー
+                href: meeting-policies-in-teams-general.md
+              - name: 音声とビデオのポリシー
+                href: meeting-policies-audio-and-video.md
+              - name: コンテンツと画面共有ポリシー
+                items:
+                  - name: コンテンツの共有
+                    href: meeting-policies-content-sharing.md
+                  - name: デスクトップ共有を構成する
+                    href: configure-desktop-sharing.md
+              - name: 参加者、ゲスト、およびアクセス ポリシー
+                items:
+                  - name: 参加者およびゲスト ポリシー
+                    href: meeting-policies-participants-and-guests.md
+                  - name: ユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する
+                    href: meeting-policies-restricted-anonymous-access.md
           - name: 会議の設定を管理する
             href: meeting-settings-in-teams.md
           - name: ユーザーの設定を変更したときに送信されるメール
