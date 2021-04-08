@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2922f22ec0ea7db095c63ce05f9d37752ba134a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f5015317fb2aff22cdc53fb30f62e6d4ea8c2237
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094569"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617800"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニングの使用を開始する
 
@@ -33,13 +33,13 @@ ms.locfileid: "51094569"
 |               |               |               |               |
 | :------------ | :------------ | :------------ | :------------ |
 | ![手と上向き矢印を表すアイコン](/office/media/icons/get-started-teams.png) | [一部のチームとチャンネルですばやく始めましょう](./get-started-with-teams-quick-start.md) | ![2 人のユーザーを表すアイコン](/office/media/icons/users-people.png) | [ユーザー向けのトレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) |
-| ![チェック マークを示すアイコン](/office/media/icons/success-teams.png) | [YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![タスククリップボードの記号](/office/media/icons/task-checklist-planning-teams.png) | [Teams の言葉による講演: 一般的な Teams シナリオに関するベスト プラクティスと実践的なガイダンスを学ぶ](./chalk-talks-landing-page.yml) |
+| ![チェック マークを示すアイコン](/office/media/icons/success-teams.png) | [YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | ![タスククリップボードの記号](/office/media/icons/task-checklist-planning-teams.png) | [Teams の言葉による講演: 一般的な Teams シナリオに関するベスト プラクティスと実用的なガイダンスを学ぶ](./chalk-talks-landing-page.yml) |
 
 <h2>テクニカルなトレーニング</h2>
 
 | モジュール | ビデオ | PowerPoint デッキ  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft Mechanics - Teams Essentials for IT YouTube チャネル](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: IT 向け Teams Essentials](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 分)<br>[ビデオ: Teams &を展開する - 導入](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4) (12:42 分)<br>[ビデオ: セキュリティとコンプライアンスの Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 分)||
+| [Microsoft Mechanics - TEAMS Essentials for IT YouTube チャネル](https://aka.ms/MicrosoftTeamsforIT) | [ビデオ: IT 向け Teams Essentials](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 分)<br>[ビデオ: Teams &を展開する - 導入](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 分)  <br>[ビデオ: セキュリティとコンプライアンス](https://youtu.be/91lHNKVVvQ4) (12:42 分)<br>[ビデオ: セキュリティとコンプライアンスの Teams コントロール](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 分)||
 | コア コンポーネントの基礎 | [ビデオ](https://aka.ms/teams-foundations) | [デッキ](https://aka.ms/teams-foundations-deck) |
 | Windows デスクトップ クライアント | [ビデオ](https://aka.ms/teams-clients) | [デッキ](https://aka.ms/teams-clients-deck) |
 | ガバナンス、管理とライフサイクル | [ビデオ](https://aka.ms/teams-governance) | [デッキ](https://aka.ms/teams-governance-deck) |
@@ -74,7 +74,8 @@ ms.locfileid: "51094569"
 
 | タイトル                                                                       | 概要                                                                                                                                                                                                               |  ガイドへのリンク                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| Teams の ID、アクセス管理&脅威保護                   | Microsoft 管理センターと PowerShell を使用してアクセスと ID ポリシーを構成し、Teams 用 Office 365 Advanced Threat Protection を有効にする方法について説明します。                                                            | [Teams のセキュリティ ガイド](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Teams の ID、アクセス&脅威の保護                   | Microsoft 管理センターと PowerShell を使用してアクセスと ID ポリシーを構成し、Teams 用 Office 365 Advanced Threat Protection を有効にする方法について説明します。                                                            | [Teams のセキュリティ ガイド](https://aka.ms/teamsesecurityinteractiveguide)         |
+| Microsoft Teams のデータ損失防止 (DLP) ポリシー                     | Microsoft Teams を既存の DLP ポリシーに追加する方法と、テンプレートに基づくか、組織のデータ保護のニーズに合わせて完全にカスタマイズした場合でも、新しいポリシーを作成する方法について説明します。                        | [Teams DLP ガイド](https://aka.ms/teamsdlpguide)         |
 | Teams でのコンプライアンスの管理                                                | Microsoft 365 セキュリティ、Microsoft 365 コンプライアンス、Microsoft Teams 管理センター、および Windows PowerShell を使用して、Office 365 組織の Microsoft Teams のポリシーと設定を管理および構成します。 | [Teams のコンプライアンス管理ガイド](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams アドバイザー: Microsoft Teams でのチャット、チーム、チャネル、アプリの展開 | Teams アドバイザーを活用して環境を評価し、チャット、チーム、チャネル、アプリを展開するための計画を立てる方法について学習します。                                                                                         |  [Teams アドバイザー ガイド](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | PowerShell と動的グループを使用した Teams 管理の合理化        | Office 365 グループを静的メンバーシップから動的に変換し、Windows PowerShell を使用してすべてのメンバーに新しいアプリのアクセス許可ポリシーを割り当てる。                                                                         |  [Teams 管理ガイドの合理化](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -85,6 +86,7 @@ ms.locfileid: "51094569"
 | Microsoft Teams 会議の構成と展開                          | Microsoft Teams の会議ワークロードを展開するプロセスを実行します。                                                                                                                                       |  [Microsoft Teams 会議ガイドの構成と展開](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
 | Microsoft Teams の電話会議を構成する                            | Teams の電話会議の機能を確認し、会議ブリッジとダイヤルイン電話番号を割り当てる方法について説明します。                                                                                          |  [Microsoft Teams の電話会議ガイドの構成](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Firstline Worker 用の Microsoft Teams の構成                           | Firstline Workforce に適切な Microsoft Teams 環境を構成して展開する方法について説明します。                                                                                                                  | [Microsoft Teams for Firstline Workers ガイドの構成](https://aka.ms/ConfigFLWInteractiveGuide)              |
+| 最前線の従業員の ID: IT、マネージャー、最前線の従業員を支援する                    | Microsoft Teams を既存の人事システムと統合し、軽量の代理 ID 管理を構成し、共有デバイスを使用するユーザーのためにシンプルなサインインとシームレスな移行を構成する方法について説明します。                                                                                                                  | [最前線の従業員 ID ガイド](https://aka.ms/FLWIdentityIG)              |
 | Microsoft Teams 会議室の展開                           | Microsoft Teams ルームで使用するアカウントを作成して構成し、Microsoft Teams 管理センターでデバイスを管理する方法について説明します。                                                                                                                  | [Microsoft Teams の会議室を展開する](https://aka.ms/teamsroomslab)              |
 
 <h2>クイック スタート ガイド</h2>

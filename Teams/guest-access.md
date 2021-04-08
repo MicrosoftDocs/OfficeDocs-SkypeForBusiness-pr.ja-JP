@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: 59e0fd09721e488a1806cc7a4ffcf527d34b029a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d927c601380223b3381a65e09549a632ed32903e
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112423"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598536"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
-ゲストアクセスを使用すると、企業データの管理を維持しながら、チーム、チャネル内のドキュメント、リソース、チャット、およびアプリケーションへのアクセスを組織外の人々に提供できます。
+ゲストアクセスを使用すると、企業データの管理を維持しながら、チーム、チャネル内のドキュメント、リソース、チャット、およびアプリケーションへのアクセスを組織外の人々に提供できます。 「[Microsoft 365 と Microsoft Teams を使用してセキュリティで保護された共同作業を設定する](/microsoft-365/solutions/setup-secure-collaboration-with-teams)」を参照してください。
 
 > [!NOTE]
 > ただ他の組織の人々を見つけ、電話をかけ、チャットし、会議を設定する場合は、[外部アクセス](manage-external-access.md) を使用します。

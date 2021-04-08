@@ -1,5 +1,5 @@
 ---
-title: 標準以外のユーザーの Teams アプリの動作
+title: 標準以外のユーザーに対する Teams アプリの動作
 author: cichur
 ms.author: v-cichur
 ms.reviewer: joglocke
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc4f4f53262127355afa573b0fc2abec6b05e64
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: fb4b5dfebabfcd0bc86006d93272c3901e7dcfc7
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607519"
+ms.locfileid: "51617850"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>標準以外のユーザーに対する Microsoft Teams アプリの動作
 
@@ -32,10 +32,10 @@ ms.locfileid: "51607519"
 
 - 外部 **(フェデレーション) ユーザー** は別のドメインに属し、組織のチームまたはチーム リソースにアクセス権はありません。
 
->[!Note]
-> ゲストと外部ユーザーの詳細な比較については、「他の組織のユーザーとの通信」を [参照してください](./communicate-with-users-from-other-organizations.md)。
+  > [!Note]
+  > ゲストと外部ユーザーの詳細な比較については、「他の組織のユーザーとの通信」を [参照してください](./communicate-with-users-from-other-organizations.md)。
 
-- 匿名 **ユーザーは、** ユーザーがリンクを介して会議に参加した Teams 会議の概念です。 ユーザーが Microsoft または組織のアカウントでログインしていない。
+- 匿名 **ユーザーは、** ユーザーがリンク経由で会議に参加した Teams 会議の概念です。 ユーザーが Microsoft または組織のアカウントでログインしていない。
 
 ## <a name="guest-user-access"></a>ゲスト ユーザー アクセス
 
@@ -63,7 +63,7 @@ ms.locfileid: "51607519"
 
 外部ユーザーは Teams アプリを使用できません。また、外部ユーザーがネイティブ ユーザーとのコンテキストに追加された場合、すべてのユーザー (ネイティブユーザーと外部ユーザー) はアプリを使用できなくなりました。
 
-外部ユーザーは Teams アプリを使用できないので、アプリ ポリシーの影響を受け取らない。
+外部ユーザーは Teams アプリを使用できないので、アプリ ポリシーの影響を受け取る必要はありません。
 
 ## <a name="anonymous-user-in-meetings-access"></a>会議アクセスの匿名ユーザー
 
@@ -75,4 +75,4 @@ ms.locfileid: "51607519"
 
 匿名ユーザーは、会議でアプリを直接使用することはできません。 匿名ユーザーが存在する場合、ネイティブ ユーザーは会議アプリを引き続き使用できます。 アプリがチャットでアダプティブ カードを送信する場合、匿名ユーザーはカードを操作できます。詳細については、「匿名ユーザーに会議への参加を許可する」を [参照してください](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)。
 
-匿名ユーザーは、ユーザー レベルのグローバル既定のアクセス許可ポリシーを継承します。 ユーザー レベルのアクセス許可ポリシーでアプリが有効になっている場合は、Teams 会議でアプリを操作できます。 匿名ユーザーは、会議で既に利用可能であり、これらのアプリを取得および管理できないアプリのみを操作できます。
+匿名ユーザーは、ユーザー レベルのグローバル既定のアクセス許可ポリシーを継承します。 ユーザー レベルのアクセス許可ポリシーでアプリが有効になっている場合、Teams 会議でアプリを操作できます。 匿名ユーザーは、会議で既に利用可能で、これらのアプリを取得および管理できないアプリのみを操作できます。

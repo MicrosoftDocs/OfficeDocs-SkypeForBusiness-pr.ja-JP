@@ -23,16 +23,16 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft ボリューム ライセンスを使用している組織で電話会議機能を有効にする分単位支払いオプションについて説明します。
-ms.openlocfilehash: 9dd44436a557ea2685d4f6fb582bf41067d5c081
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: 93f0b6ef257e7190aa2d2f45e3ad8ead78c67b84
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607529"
+ms.locfileid: "51617789"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
-ボリューム/ライセンス組織では、標準的な電話会議のユーザーごとのライセンスに加えて、分単位支払いサービスを選択して、組織の電話会議機能を有効にできます。
+ボリューム およびライセンスの組織では、標準的な電話会議のユーザーごとのライセンスに加えて、分単位支払いサービスを選択して、組織の電話会議機能を有効にできます。
   
 
 お客様の国/地域 [が電話会議](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) でサポートされていないか確認できます。
@@ -43,7 +43,7 @@ ms.locfileid: "51607529"
   
 ## <a name="need-some-details"></a>詳細が必要な場合
 
-電話会議のユーザーごとのライセンス プランにはダイヤルインの使用状況と一部のダイヤルアウトの使用状況が含まれますが、電話会議の分単位支払いでは、ユーザーごとの月次ライセンスの支払いを行わずに、分単位ですべての電話会議の使用状況を支払います。 これにより、すべてのダイヤルイン通話とダイヤルアウト通話が分単位で請求されます。これには次の情報が含まれる必要があります。
+電話会議のユーザーごとのライセンス プランにはダイヤルインの使用状況と一部のダイヤルアウトの使用状況が含まれますが、電話会議の分単位支払いでは、ユーザーごとの月次ライセンスの支払いを行わずに、分単位ですべての電話会議の使用状況を支払う必要があります。 これにより、すべてのダイヤルイン通話とダイヤルアウト通話が分単位で請求されます。これには次の情報が含まれる必要があります。
   
 - 組織の有料電話会議番号への着信通話。
     
@@ -77,12 +77,12 @@ ms.locfileid: "51607529"
 ## <a name="want-to-find-out-more-about-pricing"></a>価格の詳細については、次のリンクを参照してください。
 
  **価格を見る** 次を参照してください。
-  
-- [電話会議の価格](https://go.microsoft.com/fwlink/?linkid=799762&clcid=0x409)
+
+- [電話会議の価格](https://www.microsoft.com/microsoft-teams/audio-conferencing)
     
-- [電話システムの価格](https://go.microsoft.com/fwlink/?linkid=799761&clcid=0x409)
+- [電話システムの価格](https://www.microsoft.com/microsoft-teams/voice-calling )
     
-- [通話プランの価格](https://go.microsoft.com/fwlink/?linkid=799763)
+- [通話プランの価格](https://www.microsoft.com/microsoft-teams/voice-calling)
     
 ## <a name="related-topics"></a>関連項目
   
