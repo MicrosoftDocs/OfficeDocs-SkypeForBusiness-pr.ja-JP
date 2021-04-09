@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25cd674e5f93e4f52f0a2cecd2acff97e4844834
-ms.sourcegitcommit: f4393657584666842e874d526a08cfa1137b911d
+ms.openlocfilehash: 4822628288ea6e1727a68e551a725f278e4dcc6e
+ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51215332"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "51637869"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示限定の会議エクスペリエンス
 
@@ -40,11 +40,11 @@ Microsoft Teams では、最大 10,000 人の参加者がTeams 会議に参加�
 出席者は、デスクトップ、Web、Teams モバイル (Android および iOS) を通じて表示専用のエクスペリエンスに参加できます。
 
 > [!Note]
-> "メイン会議" の現在の制限容量、つまり、完全に対話可能なユーザーの数は、WW では 300 人、GCC、GCC High、DoD では 250 人です。
+> "メイン会議" (つまり、完全に対話可能なユーザーの数) の現在の制限容量は、WW では 300 人、GCC、GCC High、DoD では 250 人です。
 
 ## <a name="teams-view-only-experience-controls"></a>Teams の表示専用エクスペリエンス コントロール
 
-PowerShell を使用して、表示専用のエクスペリエンスを有効にできます。
+PowerShell を使用して表示専用のエクスペリエンスを有効にできます。
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
@@ -102,12 +102,9 @@ Teams の表示限定エクスペリエンスでは、参加者は次の機能�
 
 - 設定したロビー ポリシーまたはオプションに基づく、ロビーをバイパスするアクセス許可を持っていてない場合は、会議に参加すること。
 - オーディオ会議を使用して、表示限定の部屋に参加すること。
-- Microsoft Teams Rooms システムを使用するか、クラウド ビデオ相互運用 (CVI) サービスを使用して、表示専用ルームに参加します。
+- Microsoft Teams Rooms システムを使用するか、クラウド ビデオ相互運用 (CVI) サービスを使用して、ビュー専用ルームに参加します。
 - オーディオまたはビデオを共有すること。
 - 会議チャットを参照または参加すること。
-  - 会議に招待された最初の 1000 人 (または、メインの会議の制限に応じて 300 人) がチャットに追加されます。
-  - 表示専用ユーザーは会議でチャットを表示しない一方で、招待された最初の 350 人のユーザーである場合は、メイン アプリでチャットを行える場合があります。
-  - 逆に、対話型ユーザーが会議に招待された最初の 350 人のユーザーの一部ではない場合、メインの Teams アプリと会議の両方で会議チャットにアクセスする必要があります。
 - 参加者がアクティブな発表者でない場合は、会議参加者のビデオ フィードを参照すること。
 - PowerPoint Live 機能または個々のアプリケーション共有 (デスクトップまたは画面共有以外) を使用して共有されている PowerPoint ファイルを参照してください。
 - 会議で手を上げる。

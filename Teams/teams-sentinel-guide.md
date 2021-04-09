@@ -19,14 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 320accf1e0588024e72d69dcbb4af45c0a6765eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1075a2c345bd866266b175a4b62432e9f819b330
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098183"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "51598526"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel および Microsoft Teams
+
+> [!IMPORTANT]
+> Azure Sentinel に統合コネクタが追加されました。 詳細については、「[Connect Office 365 Logs to Azure Sentinel (Office 365 のログを Azure Sentinel に接続する)](/azure/sentinel/connect-office-365)」を参照してください。 これは、これらのログを収集するための推奨ルートであり、以下で説明する収集方法よりも優先されます。
 
 Teams は、Microsoft 365 クラウドでの通信とデータ共有の両方の中心的な役割を担います。 Teams サービスはクラウド内の多くの基になっているテクノロジを使用しているので、*ログの捜索* を行う場合だけではなく *会議をリアルタイムで監視* する場合も手動分析および自動分析を利用することができます。 Azure Sentinel は、管理者に次のようなソリューションを提案します。
 
@@ -44,13 +47,13 @@ Teams は、Microsoft 365 クラウドでの通信とデータ共有の両方の
 
 このセクションには、3つの部分があります。
 
-1. **Microsoft 365** (M365) で監査ログを有効にします。
-2. **Microsoft Azure** にアプリを登録して、認証とログ収集の承認を許可します。
-3. **PowerShell** 経由で、M365 API を使用してログ収集を許可する API サブスクリプションを登録します。
+1. **Microsoft 365** で監査ログを有効にします。
+2. **Microsoft Azure** にアプリを登録して、ログ収集のための認証および承認を許可します。
+3. **PowerShell** 経由で、Microsoft 365 API を使用したログ収集を許可する API サブスクリプションを登録します。
 
-### <a name="enable-audit-logs-in-m365"></a>M365 で監査ログを有効にする
+### <a name="enable-audit-logs-in-microsoft-365"></a>Microsoft 365 で監査ログを有効にする
 
-Teams は M365 経由でアクティビティを記録するため、監査ログは既定では収集されません。 この機能を有効にするには、[次の手順](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0) を経由します。 Teams のデータは、*Audit.General* 下の M365 audit に収集されます。
+Teams は Microsoft 365 経由でアクティビティを記録するため、監査ログは既定では収集されません。 この機能を有効にするには、[次の手順](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&viewFallbackFrom=o365-worldwide%c2%a0) を実行します。 Teams のデータは、*Audit.General* 下にある Microsoft 365 監査で収集されます。
 
 ### <a name="register-an-app-in-microsoft-azure-for-log-collection"></a>ログ収集用 Microsoft Azure にアプリを登録する
 
@@ -76,7 +79,7 @@ Azure Active Directory (Azure AD) アプリを認証し、API からログ デ�
 
 ### <a name="register-the-api-with-powershell-to-collect-teams-logs"></a>PowerShell で API を登録してチーム ログを収集する
 
-セットアップの最後の手順では、ログ データを収集するために、API サブスクリプションを収集して登録します。 これを行うには、PowerShell REST を M365 管理アクティビティ API に呼び出します。
+セットアップの最後の手順では、ログ データを収集するために、API サブスクリプションを収集して登録します。 これは、Microsoft 365 管理アクティビティ API へのPowerShell REST 呼び出しによって行われます。
 
 **アプリケーション (クライアント) ID**、新しい **クライアント シークレット**、**M365用の URL ドメイン**、および以下の PowerShell コマンドレットの **ディレクトリ (テナント) ID** 値を提供できるようにします。
 

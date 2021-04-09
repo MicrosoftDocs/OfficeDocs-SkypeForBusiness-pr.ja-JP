@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1def8b943070fc5c7ed1bf2fb3279e0e61a477b6
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
+ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593775"
+ms.locfileid: "51598386"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 =======================================
@@ -115,7 +115,7 @@ Teams クライアントはユーザーが必要としているのが 32 ビッ�
 
 管理者として、組織の Teams 会議ポリシー設定を構成して、*アイランド モードのユーザー* がどの Outlook 会議アドインを使用するかを制御できます。 Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールできます。
 
-このポリシーは、アイランドモードで、Teams の会議ポリシーで **AllowOutlookAddIn** パラメーターが **True** に設定されているユーザーにのみ適用できます。 このポリシーの設定方法の詳細については、「[アイランド モードのユーザーの会議プロバイダーを設定する](meeting-policies-in-teams.md#meeting-policy-settings---meeting-provider-for-islands-mode)」を参照してください。
+このポリシーは、アイランドモードで、Teams の会議ポリシーで **AllowOutlookAddIn** パラメーターが **True** に設定されているユーザーにのみ適用できます。 このポリシーを設定する手順については、「[会議ポリシーの設定 - 全般](meeting-policies-in-teams-general.md#meeting-provider-for-islands-mode)」を参照してください。
 
 ## <a name="other-considerations"></a>その他の考慮事項
 
@@ -142,7 +142,7 @@ Outlook 用の Teams 会議アドインをインストールできない場合�
 
 - Windows 7 ユーザーは、Teams 会議アドインを機能させるために、[Windows ユニバーサル C ランタイム更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
 - ユーザーが Teams で会議をスケジュールできる Teams アップグレード ポリシーを持っていることを確認します。 詳細については、「[Skype for Business から Teams へのアップグレード](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
-- Outlook アドインを許可する Teams 会議ポリシーが設定されていることを確認します。 詳細については、「[Teams での会議ポリシーを管理する](./meeting-policies-in-teams.md#allow-the-outlook-add-in)」を参照してください。
+- Outlook アドインを許可する Teams 会議ポリシーが設定されていることを確認します。 詳細については、「[会議ポリシーの設定 - 全般](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in)」を参照してください。
 - ユーザーが Teams デスクトップ クライアントをインストールしていることを確認します。 Teams の Web クライアントのみを使用している場合には、会議アドインはインストールされません。
 - ユーザーが Outlook 2013 以降をインストールしていることを確認します。
 - ユーザーが regsvr32.exe の実行権限を持っていることを確認します。

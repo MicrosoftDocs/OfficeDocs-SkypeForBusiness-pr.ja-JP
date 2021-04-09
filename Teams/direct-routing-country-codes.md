@@ -1,5 +1,5 @@
 ---
-title: 国コードを直接ルーティングする
+title: 直接ルーティング国コード
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,175 +15,178 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: この記事では、ダイレクトルーティング用のメディアパスの国コードを特定して、最適なメディアパスを選択できるようにする方法について説明します。
+description: この記事では、最適なメディア パスを選択できるよう、ダイレクト ルーティングのメディア パスの国コードを見つける方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
+ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904809"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51648126"
 ---
-# <a name="direct-routing-media-path-country-codes"></a>ダイレクトルーティングメディアパスの国コード
+# <a name="direct-routing-media-path-country-codes"></a>ダイレクト ルーティング メディア パスの国コード
 
-メディアのルーティングパスを選ぶ際には、既定では、セッション境界コントローラー (SBC) のパブリック IP アドレスに基づいて、常にデータセンターが割り当てられ、SBC データセンターに最も近いパスが選択されます。
+メディアのルーティング パスを選択する場合、既定では、ダイレクト ルーティングは常にセッション ボーダー コントローラー (SBC) のパブリック IP アドレスに基づいてデータセンターを割り当て、常に SBC データセンターに最も近いパスを選択します。
 
-ただし、場合によっては、既定のメディアパスが最適なメディアパスでない可能性があります。たとえば、米国の範囲からのパブリック IP は、ヨーロッパの SBC に割り当てられている場合があります。 
+ただし、場合によっては、既定のメディア パスが最適なメディア パスではない可能性があります。たとえば、米国の範囲のパブリック IP をヨーロッパにある SBC に割り当てることができます。 
 
--MediaRelayRoutingLocationOverride パラメーターと共に CsOnlinePSTNGateway と CsOnlinePSTNGateway コマンドレットを使用することで、メディアトラフィックの優先領域を指定できます。 たとえば、次のコマンドは、優先領域がドイツであることを示します。
+New-CsOnlinePSTNGateway コマンドレットと Set-CsOnlinePSTNGateway コマンドレットで -MediaRelayRoutingLocationOverride パラメーターを使用すると、メディア トラフィックの優先領域を指定できます。 たとえば、次のコマンドは、優先する地域がドイツを指定します。
 
-Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationOverride DE 
+Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
-このパラメーターを設定することは、メディアパスに対するデータセンターの既定の割り当てでは、SBC データセンターに最も近いパスを使わないことを明示的に示していることに注意してください。 
+Microsoft では、通話ログがメディア パスのデータセンターの既定の割り当てで SBC データセンターに最も近いパスを使用していないと明確に示されている場合にのみ、このパラメーターの設定をお勧めします。 
+
+> [!NOTE]
+> -MediaRelayRoutingLocationOverride - このコマンドは、直接ルーティングシナリオでは使用できません。
  
 ## <a name="country-code-reference-table"></a>国コード参照テーブル
 
-次の表では、-MediaRelayRoutingLocationOverride パラメーターの国コード値を示します。
+次の表は、-MediaRelayRoutingLocationOverride パラメーターの国コードの値を示しています。
 
-| 居住         | プログラム 
+| 国         | コード 
 |-----------------|--------------------|
 | アフガニスタン     | AF |
-| オーランド諸島   | AX4 |
+| アランド諸島   | AX |
 | アルバニア         | AL |
 | アルジェリア         | DZ |
-| 米領サモア  | も |
+| 米領サモア  | AS |
 | アンドラ         | AD |
 | アンゴラ          | AO |
 | アンギラ        | AI |
 | 南極      | AQ | 
 | アンティグア バーブーダ | AG |
 | アルゼンチン       | AR |
-| アルメニア         | 私 |
+| アルメニア         | AM |
 | アルバ           | AW |
 | オーストラリア       | AU |
-| オーストリア         | 自宅 |
+| オーストリア         | AT |
 | アゼルバイジャン      | AZ |
 | バハマ         | BS |
 | バーレーン         | BH |
 | バングラデシュ      | BD |
 | バルバドス        | BB |
 | ベラルーシ         | BY |
-| ベルギー         | ば |
+| ベルギー         | BE |
 | ベリーズ          | BZ |
 | ベナン           | BJ |
 | バミューダ         | BM |
 | ブータン          | BT |
 | ボリビア         | BO |
-| ボネール         | BQ |
+| ボネール島         | BQ |
 | ボスニア ヘルツェゴビナ | BA |
 | ボツワナ        | BW |
 | ブーベ島   | BV |
 | ブラジル          | BR |
-| 英領インド洋地域 | IRQ |
-| 英領バージン諸島 | VG |
+| 英領インド洋地域 | IO |
+| 英領ヴァージン諸島 | VG |
 | ブルネイ          | BN |
 | ブルガリア        | BG |
 | ブルキナファソ    | BF |
-| ブルンジ         | 両 |
-| カーボベルデ      | [CV] |
-| カンボジア        | HTTPS://C2RSETUP.OFFICEAPPS.LIVE.COM/C2R/DOWNLOAD.ASPX?PRODUCTRELEASEID=LANGUAGEPACK&LANGUAGE=KM-KH&PLATFORM=X64&SOURCE=O16LAP&VERSION=O16GA |
-| カメルーン        | ILM-CM |
-| カナダ          | FR-CA |
-| ケイマン諸島  | アヒル |
-| 中央アフリカ共和国 | 接続料金 |
-| チャド            | 来 |
+| ブルンジ         | BI |
+| カーボベルデ      | CV |
+| カンボジア        | KH |
+| カメルーン        | CM |
+| カナダ          | CA |
+| ケイマン諸島  | KY |
+| 中央アフリカ共和国 | CF |
+| チャド            | TD |
 | チリ           | CL |
 | 中国           | CN |
 | クリスマス島 | CX |
-| ココス諸島 | 送付 |
+| ココス (キーリング) 諸島 | CC |
 | コロンビア        | CO |
 | コモロ         | KM |
-| 民主           | 重心 |
-| コンゴ民主共和国     | 再生 |
-| クック諸島    | 皿 |
-| コスタリカ      | 改行 |
-| コートジボワール   | 項目 |
+| コンゴ共和国           | CG |
+| コンゴ民主共和国     | CD |
+| クック諸島    | CK |
+| コスタリカ      | CR |
+| コート・ディボワール   | CI |
 | クロアチア         | 人事 |
 | キューバ            | CU |
-| キュラソー島 (         | 貫 |
+| Curacao         | CW |
 | キプロス          | CY |
-| Czechia         | CZ |
+| チェコ語         | CZ |
 | デンマーク         | DK |
 | ジブチ        | DJ |
-| ドミニカ        | ダイレクト |
-| ドミニカ共和国 | 作業 |
+| ドミニカ        | DM |
+| ドミニカ共和国 | DO |
 | エクアドル         | EC |
 | エジプト           | EG |
 | エルサルバドル     | SV |
 | 赤道ギニア | GQ |
-| エリトリア         | ユーザ |
+| エリトリア         | ER |
 | エストニア         | EE |
 | Eswatini        | SZ |
-| エチオピア        | サーブ |
+| エチオピア        | ET |
 | フォークランド諸島 | FK |
-| フェロー諸島   | ライブラリの |
+| フェロー諸島   | FO |
 | フィジー            | FJ |
 | フィンランド         | FI |
 | フランス          | FR |
 | 仏領ギアナ   | GF |
-| 仏領ポリネシア | いい |
-| フランス領南極地方 | TF |
+| 仏領ポリネシア | PF |
+| フランス領南地域 | TF |
 | ガボン           | GA |
-| ガンビア          | 利益 |
+| ガンビア          | GM |
 | ジョージア         | GE |
 | ドイツ         | DE |
 | ガーナ           | GH |
 | ジブラルタル       | GI |
 | ギリシャ          | GR |
-| グリーンランド       | OPENGL |
-| グレナダ         | GD-GB&PLATFORM |
+| グリーンランド       | GL |
+| グレナダ         | GD |
 | グアドループ      | GP |
-| グアム            | GU-IN&PLATFORM |
-| グアテマラ       | GT GROUP |
-| ガーンジー島        | ブログ |
-| ギニア          | おける |
-| ギニア   | GW |
+| グアム            | GU |
+| グアテマラ       | GT |
+| ガーンジー        | GG |
+| ギニア          | GN |
+| Guinea-Bissau   | GW |
 | ガイアナ          | GY |
 | ハイチ           | こんにちは |
-| [聞こえる島とマクドナルド諸島] | HM |
+| 聞こえの島とマクドナルド諸島 | HM |
 | ホンジュラス        | HN |
 | 香港特別行政区   | HK |
 | ハンガリー         | HU |
-| アイスランド         | い |
-| インド           | チェックイン |
+| アイスランド         | IS |
+| インド           | IN |
 | インドネシア       | ID |
-| イラン            | 赤外線 |
+| イラン            | IR |
 | イラク            | IQ |
 | アイルランド         | IE |
 | マン島     | インスタント メッセージ |
 | イスラエル          | IL |
-| イタリア           | て |
+| イタリア           | IT |
 | ジャマイカ         | JM |
-| ヤンマイエンヤンマイエン       | XJ |
+| Jan Mayen       | XJ |
 | 日本           | JP |
-| 島          | JE |
+| ジャージー          | JE |
 | ヨルダン          | JO |
-| カザフスタン      | HTTPS://C2RSETUP.OFFICEAPPS.LIVE.COM/C2R/DOWNLOAD.ASPX?PRODUCTRELEASEID=LANGUAGEPACK&LANGUAGE=KK-KZ&PLATFORM=X64&SOURCE=O16LAP&VERSION=O16GA |
+| カザフスタン      | KZ |
 | ケニア           | KE |
 | キリバス        | KI |
 | 韓国           | KR |
-| ・・ Vo          | XK |
-| クウェート          | ワーカ |
+| コソボ          | XK |
+| クウェート          | KW |
 | キルギス      | KG |
-| ラオス            | 中南米 |
+| ラオス            | LA |
 | ラトビア          | LV |
-| レバノン         | 1000 |
-| レソト         | 通話 |
+| レバノン         | LB |
+| レソト         | LS |
 | リベリア         | LR |
-| リビア           | 強制的 |
-| リヒテンシュタイン   | リスト |
-| リトアニア       | 会社 |
+| リビア           | LY |
+| リヒテンシュタイン   | LI |
+| リトアニア       | LT |
 | ルクセンブルク      | LU |
-| マカオ       | 月 |
+| マカオ       | MO |
 | マダガスカル      | MG |
-| マラウイ          | さん |
+| マラウイ          | [][][ |
 | マレーシア        | MY |
-| モルジブ        | MIRRORVIEW |
+| モルディブ        | MV |
 | マリ            | ML |
-| マルタ           | スレッド |
+| マルタ           | MT |
 | マーシャル諸島 | MH |
-| マルティニーク      | TRIGGERS |
-| モーリタニア      | クーパー |
+| マルティニーク      | B/B0 |
+| モーリタニア      | MR |
 | モーリシャス       | MU |
 | マヨット         | YT |
 | メキシコ          | MX |
@@ -191,54 +194,54 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | モルドバ         | MD |
 | モナコ          | MC |
 | モンゴル        | MN |
-| モンテネグロ      | 自分 |
-| モントセラト      | VERDANA |
-| モロッコ         | 100 |
+| モンテネグロ      | ME |
+| モントセラト      | MS |
+| モロッコ         | MA |
 | モザンビーク      | MZ |
-| ミャンマー         | TU |
+| ミャンマー         | MM |
 | ナミビア         | NA |
 | ナウル           | NR |
-| ネパール           | 受信 |
+| ネパール           | NP |
 | オランダ     | NL |
-| ニューカレドニア   | INSIDE |
-| ニュージーランド     | ニュージーランド |
-| ニカラグア       | SYSTEM.NI.DLL |
-| ニジェール           | ケース |
-| ナイジェリア         | プロファイリング |
-| ニウエ            | ニュー |
-| ノーフォーク島  | ユーティリティー |
-| 北朝鮮     | KP |
-| 北マケドニア | MK-MK&PLATFORM |
-| 北マリアナ諸島 | 受信 |
+| ニューカレドニア   | NC |
+| ニュージーランド     | NZ |
+| ニカラグア       | NI |
+| ニジェール           | NE |
+| ナイジェリア         | NG |
+| ニウエ            | NU |
+| ノーフォーク島  | NF |
+| 韓国     | KP |
+| 北マケドニア | MK |
+| 北マリアナ諸島 | NP |
 | ノルウェー          | 違います |
-| オマーン            | 原則 |
-| パキスタン        | 主 |
+| オマーン            | OM |
+| パキスタン        | PK |
 | パラオ           | PW |
-| パレスチナ自治政府 | .PS |
+| パレスチナ自治政府 | PS |
 | パナマ          | PA |
 | パプアニューギニア | PG |
 | パラグアイ        | PY |
 | ペルー            | PE |
 | フィリピン     | PH |
-| ピトケアン島 | 量 |
+| ピトケアン諸島 | PN |
 | ポーランド          | PL |
 | ポルトガル        | PT |
-| プエルトリコ     | 広報 |
+| プエルトリコ     | PR |
 | カタール           | QA |
-| レユニオン         | リエンジニアリング |
+| レユニオン         | RE |
 | ルーマニア         | RO |
-| ロシア          | ル |
+| ロシア          | RU |
 | ルワンダ          | RW |
-| サバ島            | DMX |
-| サン Barthelemy | BL |
+| サバ島            | XS |
+| サン・バルテミー | BL |
 | セントクリストファー・ネーヴィス | KN |
 | セントルシア     | LC |
-| サン Martin    | メイン |
-| サンピエール・ミクロン | PM |
-| セントビンセント及びグレナディーン諸島 | VC-1 |
-| サモア           | WS-METADATA |
-| サンマリノ      | MANAGER |
-| サンサントメとプリンシペ | 短期 |
+| サンマルタン    | MF |
+| サンピエール島・ミクロン島 | PM |
+| セントビンセント及びグレナディーン諸島 | VC |
+| サモア           | WS |
+| サンマリノ      | SM |
+| サントメ・プリンシペ | ST |
 | サウジアラビア    | SA |
 | セネガル         | SN |
 | セルビア          | RS |
@@ -246,52 +249,52 @@ Set-CSOnlinePSTNGateway-Identity sbc1.contoso.com – MediaRelayRoutingLocationO
 | シエラレオネ    | SL | 
 | シンガポール       | SG |
 | シント・ユースタティウス島  | XE |
-| シントマルタン島    | SX |
+| シント・マールテン    | SX |
 | スロバキア        | SK |
 | スロベニア        | SL |
 | ソロモン諸島 | SB |
 | ソマリア         | だから |
-| 南アフリカ    | TN-ZA |
+| 南アフリカ    | ZA |
 | サウスジョージア・サウスサンドウィッチ諸島 | GS |
-| 南スーダン     | 変動 |
-| スペイン           | 可 |
-| スリランカ       | HTTPS://C2RSETUP.OFFICEAPPS.LIVE.COM/C2R/DOWNLOAD.ASPX?PRODUCTRELEASEID=LANGUAGEPACK&LANGUAGE=SI-LK&PLATFORM=X64&SOURCE=O16LAP&VERSION=O16GA |
-| セントヘレナ、アセンション、トリスタンダクーニャ | 悪夢 |
+| 南スーダン     | SS |
+| スペイン           | ES |
+| スリランカ       | LK |
+| セントヘレナ、アセンション、トリスタンダクーニャ | SH |
 | スーダン           | SD |
 | スリナム        | SR |
-| 諸島        | SJ |
+| スバールバル        | SJ |
 | スウェーデン          | SE |
-| スイス     | チャンネル |
+| スイス     | CH |
 | シリア           | SY |
-| 台湾          | MS |
+| 台湾          | TW |
 | タジキスタン      | TJ |
-| タンザニア        | ロシア |
-| タイ        | パー |
-| ティモール・ティモール     | TL |
+| タンザニア        | TZ |
+| タイ        | TH |
+| Timor-Leste     | TL |
 | トーゴ            | TG |
 | トケラウ         | TK |
 | トンガ           | 宛先 |
-| トリニダード・トバゴ | 必ず |
+| トリニダード・トバゴ | TT |
 | チュニジア         | TN |
 | トルコ          | TR |
 | トルクメニスタン    | TM |
 | タークス・カイコス諸島 | TC |
-| ツバル          | チューナー |
-| 米領諸島 | UM |
-| 米領バージン諸島 | 第 |
-| ウガンダ          | UG-CN&PLATFORM |
-| ウクライナ         | ウクライナ |
+| ツバル          | テレビ |
+| 米国離島 | UM |
+| 米領ヴァージン諸島 | VI |
+| ウガンダ          | UG |
+| ウクライナ         | UA |
 | アラブ首長国連邦 | AE |
-| 英国  | 以上 |
-| 米国   | プロセッサー |
+| 英国  | GB |
+| 米国   | 米国 |
 | ウルグアイ         | UY |
 | ウズベキスタン      | UZ |
 | バヌアツ         | VU |
-| バチカンの市区町村    | VA |
-| ベネズエラ       | わかり |
-| ベトナム         | HTTPS://C2RSETUP.OFFICEAPPS.LIVE.COM/C2R/DOWNLOAD.ASPX?PRODUCTRELEASEID=LANGUAGEPACK&LANGUAGE=VI-VN&PLATFORM=X64&SOURCE=O16LAP&VERSION=O16GA |
-| ワリス・フテュナ諸島 | ワークフロー |
-| イエメン           | すぎる |
+| バチカン市国    | VA |
+| ベネズエラ       | VE |
+| ベトナム         | VN |
+| ワリス・フトゥーナ | WF |
+| イエメン           | YE |
 | ザンビア          | ZM |
 | ジンバブエ        | ZW |
 
