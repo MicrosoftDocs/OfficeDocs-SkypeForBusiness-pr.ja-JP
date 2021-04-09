@@ -225,8 +225,16 @@ items:
                 href: /SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises
               - name: 会議の移行を管理する
                 href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2fhybrid%2fhybrid%2fmove-users-from-on-premises-to-skype-for-business-online%2ftoc.json
-          - name: ハイブリッドを無効にしてクラウドへの移行を完了する
-            href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+          - name: オンプレミスの Skype for Business 環境を廃止する
+            items:
+              - name: 概要
+                href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
+              - name: ユーザーとエンドポイントをクラウドに移動する
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
+              - name: ハイブリッドを無効にしてクラウドへの移行を完了する
+                href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+              - name: Skype for Business 展開を削除する
+                href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: リソース フォレスト トポロジの展開
             href: /SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid
           - name: Teams および Skype for Business Online のクラウド統合
