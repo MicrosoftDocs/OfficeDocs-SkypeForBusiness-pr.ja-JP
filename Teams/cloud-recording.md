@@ -12,18 +12,19 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
+localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Teams にクラウド音声機能を展開して、音声、ビデオ、画面共有活動をキャプチャして、Teams 会議やグループ通話を記録するための実践的なガイダンスです。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4e3c8bcf40a17d8b03a51c471201554d33e0ce1
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
-ms.translationtype: MT
+ms.openlocfilehash: e5c23c362d9d425c163a46dde93c6daa3c593a92
+ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598456"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "51617779"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -32,10 +33,10 @@ Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記
 関連: [Teams 会議のレコーディングに関するエンド ユーザー向けドキュメント](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Microsoft Stream の使用から 会議の記録用の OneDrive for Business および SharePoint への変更は段階的なアプローチになります。 各フェーズの詳細については、「会議のレコーディングに [OneDrive for Business と SharePoint](tmr-meeting-recording-change.md)または Stream を使用する」を参照してください。
+> Microsoft Stream の使用から 会議の記録用の OneDrive for Business および SharePoint への変更は段階的なアプローチになります。 各フェーズの詳細については、「[OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う](tmr-meeting-recording-change.md)」を参照してください。
 
 > [!NOTE]
-> Teams 会議でロールを使用する方法、およびユーザーのロールを変更する方法の詳細については、「[Teams 会議での役割](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)」を参照してください。 ライブ イベントの記録オプションについては [、Teams のライブ イベント記録ポリシーを参照してください](teams-live-events/live-events-recording-policies.md)。
+> Teams 会議でロールを使用する方法、およびユーザーのロールを変更する方法の詳細については、「[Teams 会議での役割](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)」を参照してください。 ライブ イベントのレコーディング オプションについては、「[Teams のライブ イベント記録ポリシー](teams-live-events/live-events-recording-policies.md)」を参照してください。
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams クラウド会議のレコーディングのための前提条件
 
@@ -44,17 +45,26 @@ Teams ユーザーの会議を記録するには、そのテナントに対し�
 - Office 365 E1、E3、E5、A1、A3、A5、Microsoft 365 Business Premium または Business Standard または Business Basic<sup>1</sup> を所有している
 - 会社のガイドラインが管理者によって設定されている場合、そのガイドラインに同意している
 - レコーディングを保存するのに十分なストレージを Microsoft Stream に確保している
-- ユーザーが CsTeamsMeetingPolicy -AllowCloudRecording 設定を true に設定して会議やグループ通話を記録する
-- ユーザーが 1 対 1 の呼び出しを記録するために CsTeamsCallingPolicy -AllowCloudRecordingForCalls の設定が true に設定されている
+- ユーザーは、会議とグループ通話を記録するために CsTeamsMeetingPolicy -AllowCloudRecording 設定を true に設定しています
+- ユーザーは、一対一の通話を記録するために CsTeamsCallingPolicy -AllowCloudRecordingForCalls 設定を true に設定しています
 - その会議の匿名ユーザー、ゲスト ユーザー、フェデレーション ユーザーではない
 - ユーザーの会議の議事録作成を有効にするには、割り当てられている Teams の会議ポリシーで-AllowTranscription 設定が「正」に設定されている必要があります。
 
 <sup>1</sup> 2020 年 8 月 20 日以降、A1 を使用しているユーザーの場合、会議記録ファイルへのアクセスは 21 日後に有効期限が切れます。 詳細については、「[Microsoft Teams 会議の記録を Stream にアップロードする](/stream/portal-upload-teams-meeting-recording)」を参照してください。
 
-<sup>2</sup> 会議を Microsoft Stream に/からアップロードおよび/またはダウンロードするライセンスは必要ですが、会議を記録するライセンスは必要ありません。 あるユーザーが Microsoft Teams の会議をレコーディングできないようにするには、AllowCloudRecording が $False に設定されている TeamsMeetingPolicy を付与する必要があります。
-
-> [!IMPORTANT]
-> ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 つまり、録音は Microsoft Stream に保存されず、削除されるまでの 21 日間の制限付きで Azure Media Services (AMS) に保存されるということです。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
+> [!IMPORTANT] 
+>
+> ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 つまり、録音は Microsoft Stream に保存されず、削除されるまでの 21 日間の制限付きで Teams Async Media Services (AMS) に保存されるということです。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
+>
+> また、AMS 上のレコーディングの場合、レコーディングの保持はチャット メッセージ自体の影響を受けるので注意してください。 そのため、元の AMS レコーディング チャット メッセージを削除すると、ユーザーはレコーディングにアクセスできなくなります。 これに影響を及ぼす可能性のあるシナリオには、次の 2 つがあります。
+> 
+> - ユーザーがチャット メッセージを手動で削除した場合
+> 
+>   このシナリオでは、元のメッセージが無くなってしまったため、ユーザーはレコーディングにアクセスできなくなり、それ以上ダウンロードができなくなります。 ただし、レコーディング自体はしばらくの間 (元の 21 日間を超えない期間) Microsoft の内部システム内で保持される場合があります。
+> 
+> - チャット メッセージのレコーディングが、チャット保持ポリシーによって削除される場合
+> 
+>   AMS レコーディングは、チャットのアイテム保持ポリシーに直接関連付けされます。 そのため、AMS でのレコーディングは既定では 21 日間保持されてから削除されますが、チャット メッセージ保持ポリシーにより、チャット メッセージが 21 日前に削除された場合、レコーディングも削除されます。 その後にレコーディングを回復することはできません。
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>組織内のユーザーに対して Teams のクラウド会議のレコーディングを設定する
 
@@ -68,7 +78,7 @@ Microsoft Stream は、対象となる Microsoft 365 または Office 365 サブ
 
 ### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>ユーザーが Microsoft Stream でビデオをアップロードするアクセス許可を持っていることを確認する
 
-既定では、Stream が有効になっており、ユーザーにライセンスが割り当てられていれば、社内のすべてのユーザーが Stream でコンテンツを作成できます。 Microsoft Stream の管理者は、Stream で[コンテンツを作成できる従業員を制限する](/stream/restrict-uploaders)ことができます。 この制限リストに記載されているユーザーは、会議を記録できません。
+既定では、Stream が有効になっており、ユーザーにライセンスが割り当てられていれば、社内のすべてのユーザーが Stream でコンテンツを作成できます。 Microsoft Stream の管理者は、Stream で[コンテンツを作成できる従業員を制限する](https://docs.microsoft.com/stream/restrict-uploaders)ことができます。 この制限付きリストに含まれるユーザーは引き続き会議を記録できますが、記録は Stream に送信されません。 これらの記録は、代わりに 21 日間 AMS に一時的に保存されます。 その間、 21 日後に削除される前に、記録をダウンロードする必要があります。
 
 ### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>Microsoft Stream で会社のガイドラインに同意するよう従業員に通知する
 
@@ -78,7 +88,7 @@ Microsoft Stream の管理者が[会社のガイドライン ポリシーを設�
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、Teams の会議ポリシーを設定すると、ユーザーの会議を記録できるかどうかを制御できます。
 
-Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow cloud recording](クラウド レコーディングを許可する)** 設定をオンまたはオフにします。 詳細については、オーディオ ビデオとビデオ [の会議ポリシー&参照してください](meeting-policies-audio-and-video.md#allow-cloud-recording)。
+Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow cloud recording](クラウド レコーディングを許可する)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオの会議ポリシー設定](meeting-policies-audio-and-video.md#allow-cloud-recording)」を参照してください。
 
 PowerShell を使用する場合は、TeamsMeetingPolicy で AllowCloudRecording 設定を構成します。 詳細については、「[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)」および「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
@@ -113,11 +123,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 #### <a name="where-your-meeting-recordings-are-stored"></a>会議のレコーディングの保存場所
 
-会議のレコーディングは、Microsoft Stream クラウド ストレージに保存されます。 現在は、データが保存される国内のデータ所在地では Microsoft Stream が利用できない場合、Teams のデータが国内に保存されるお客様の会議のレコーディング機能は無効になっています。 Microsoft Stream が国内のデータ常駐地域で利用できない場合でも、データが国内に保存されるはずの顧客に対して、会議の記録機能を有効にできます。 これは、記録を Microsoft Stream の最も近い地理的地域に保存できるようにして行います。 
+会議のレコーディングは、Microsoft Stream クラウド ストレージに保存されます。 現在は、データが保存される国内のデータ所在地では Microsoft Stream が利用できない場合、Teams のデータが国内に保存されるお客様の会議のレコーディング機能は無効になっています。 Microsoft Stream がその国内のデータ所在地では利用できない場合でも、データが国内に保存されるお客様は Teams 会議のレコーディング機能を利用することができます。 これは、Microsoft Stream の最も近い地理的な地域においてレコーディングを保存することで実現できます。 
 
 Teams のデータが国内に保存されており、会議のレコーディングを国内に保存することをご希望の場合は、この機能を無効にし、Microsoft Stream がお客様の国内のデータ所在地のリージョンに展開されてから有効にすることをお勧めします。 組織内のすべてのユーザーに対してこの機能を無効にするには、Microsoft Teams 管理センターで、グローバルな Teams 会議ポリシーの **クラウドの記録を許可する** 設定をオフにします。 ただし、記録を Microsoft Stream の最も近い地理的地域に保存できるようにしたい場合は、この変更を実行する前に、「**クラウドの記録を許可する**」 と 「**外部の領域の保存を許可**」の両方を有効にする必要があります。
 
-グローバル ポリシーで領域内のレコーディングを有効にするには、次のコマンドレットを使用します。
+グローバル ポリシーの地域でのレコーディングを有効にするには、次のコマンドレットを使用します。
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
@@ -145,7 +155,7 @@ Office 365 または Office 365 のサービス全体のデータの保存場所
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、Teams の会議ポリシーを設定すると、レコーディングを開始するユーザーが会議のレコーディングを文字起こしする機能を選択できるかどうかを制御できます。
 
-Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow transcription](議事録作成を許可する)** 設定をオンまたはオフにします。 詳細については、オーディオ ビデオとビデオ [の会議ポリシー&参照してください](meeting-policies-audio-and-video.md#allow-transcription)。
+Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow transcription](議事録作成を許可する)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオの会議ポリシー設定](meeting-policies-audio-and-video.md#allow-transcription)」を参照してください。
 
 PowerShell を使用する場合は、TeamsMeetingPolicy で AllowTranscription 設定を構成します。 詳細については、「[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)」および「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
