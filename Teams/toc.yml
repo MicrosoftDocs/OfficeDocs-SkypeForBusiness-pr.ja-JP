@@ -229,10 +229,12 @@ items:
             items:
               - name: 概要
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
-              - name: ユーザーとエンドポイントをクラウドに移動する
+              - name: ユーザーをクラウドに移動する
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
               - name: ハイブリッドを無効にしてクラウドへの移行を完了する
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+              - name: アプリケーション エンドポイントをクラウドに移動する
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
               - name: Skype for Business 展開を削除する
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: リソース フォレスト トポロジの展開
