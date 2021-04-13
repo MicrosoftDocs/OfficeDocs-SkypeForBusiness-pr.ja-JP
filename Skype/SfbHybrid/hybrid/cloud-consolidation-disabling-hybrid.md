@@ -21,22 +21,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この記事では、Teams と Skype for Business のクラウド統合の一環としてハイブリッドを無効にする詳細な手順について説明します。
-ms.openlocfilehash: 5528172c6a9309a0884c9417a64da589f0f0d4a4
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593855"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656703"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>ハイブリッド構成を無効にしてクラウドへの移行を完了する
 
 この記事では、オンプレミスの Skype for Business 環境を使用停止する前にハイブリッド構成を無効にする方法について説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 2 です。
 
-- 手順 1. [必要なすべてのユーザーとアプリケーション エンドポイントをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。
+- 手順 1. [必要なすべてのユーザーをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。
 
 - **手順 2.ハイブリッド構成を無効にします。** (この記事)
 
-- 手順 3. [オンプレミスの Skype for Business 展開を削除します](decommission-remove-on-prem.md)。
+- 手順 3. [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動します](decommission-move-on-prem-endpoints.md)。
+
+- 手順 4. [オンプレミスの Skype for Business 展開を削除します](decommission-remove-on-prem.md)。
 
 
 ## <a name="overview"></a>概要
@@ -243,11 +245,12 @@ ms.locfileid: "51593855"
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. 方法 2 のすべての手順を完了したら、「 [オンプレミスの Skype for Business Server](decommission-remove-on-prem.md) を削除する」を参照して、Skype for Business Server のオンプレミス展開を削除する追加の手順を参照してください。
+12. 方法 2 のすべての手順を完了したら、「ハイブリッド[](decommission-move-on-prem-endpoints.md)アプリケーション エンドポイントをオンプレミスからオンラインに移動する」および「[オンプレミスの Skype for Business Server](decommission-remove-on-prem.md)を削除する」を参照して、Skype for Business Server のオンプレミス展開を削除する追加の手順を参照してください。
 
 
 ## <a name="see-also"></a>関連項目
 
 - [Teams と Skype for Business のクラウド統合](cloud-consolidation.md)
 
-- [オンプレミスの Skype for Business 環境を使用停止する](decommission-on-prem-overview.md)
+- [オンプレミスの Skype for Business 環境を廃止する](decommission-on-prem-overview.md)
+

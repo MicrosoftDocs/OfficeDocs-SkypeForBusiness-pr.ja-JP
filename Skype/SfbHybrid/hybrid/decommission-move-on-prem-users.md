@@ -1,5 +1,5 @@
 ---
-title: ユーザーとエンドポイントをクラウドに移動する
+title: ユーザーをクラウドに移動する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,23 +16,25 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Skype for Business オンプレミス環境を使用停止する前に、ユーザーとエンドポイントを移動します。
-ms.openlocfilehash: 130f276d07dd33be33d3c038c2ead20c7a887e6b
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+description: Skype for Business オンプレミス環境を使用停止する前にユーザーを移動します。
+ms.openlocfilehash: f04ebeec51b739faa89f907de6c363f0ef70a78e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593910"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656673"
 ---
-# <a name="move-required-users-and-endpoints-before-decommissioning-your-on-premises-environment"></a>オンプレミス環境を使用停止する前に、必要なユーザーとエンドポイントを移動する
+# <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>オンプレミス環境を使用停止する前に必要なユーザーを移動する
 
-この記事では、オンプレミスの Skype for Business 環境を使用停止する前に、必要なユーザーとアプリケーション エンドポイントを Microsoft クラウドに移動する方法について説明します。 これは、オンプレミス環境を使用停止にするための次の手順 1 です。
+この記事では、オンプレミスの Skype for Business 環境を使用停止する前に、必要なユーザーを Microsoft クラウドに移動する方法について説明します。 これは、オンプレミス環境を使用停止にするための次の手順 1 です。
 
-- **手順 1.必要なすべてのユーザーとアプリケーション エンドポイントをオンプレミスからオンラインに移動します。** (この記事)
+- **手順 1.必要なすべてのユーザーをオンプレミスからオンラインに移動します。** (この記事)
 
 - 手順 2. [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
 
-- 手順 3. [オンプレミスの Skype for Business 展開を削除します](decommission-remove-on-prem.md)。
+- 手順 3. [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動します](decommission-move-on-prem-endpoints.md)。
+
+- 手順 4. [オンプレミスの Skype for Business 展開を削除します](decommission-remove-on-prem.md)。
 
 
 ## <a name="move-all-required-users-from-on-premises-to-the-cloud"></a>必要なすべてのユーザーをオンプレミスからクラウドに移動する
@@ -56,53 +58,18 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 > [!NOTE]
 > このDisable-CsUserすると、フィルター条件を満たすすべてのユーザーのすべての Skype for Business 属性が削除されます。 先に進む前に、これらのアカウントが今後必要でなくなったか確認してください。
 
-## <a name="move-on-premises-hybrid-application-endpoints-to-microsoft-365"></a>オンプレミスのハイブリッド アプリケーション エンドポイントを Microsoft 365 に移動する
 
-1. 次のオンプレミス Skype for Business Server PowerShell コマンドを実行して、オンプレミスのハイブリッド アプリケーション エンドポイント設定を取得およびエクスポートします。
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
-   ```
-2. Microsoft 365 で新しい [リソース アカウント](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) を作成してライセンスを取得し、既存のオンプレミスハイブリッド アプリケーション エンドポイントを置き換える。
-
-3. 新しいリソース アカウントを既存のハイブリッド アプリケーション エンドポイントに関連付ける。
-
-4. 次のオンプレミス Skype for Business Server PowerShell コマンドを実行して、オンプレミスハイブリッド アプリケーション エンドポイントで定義されている電話番号を削除します。
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
-   ```
-5. これらのアカウントの電話番号は、オンプレミスではなく Microsoft 365 で管理されている可能性があります。Skype for Business Online PowerShell で次のコマンドを実行します。
-
-   ```PowerShell
-   $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
-   foreach ($endpoint in $endpoints)
-   {
-   if($endpoint.LineUri)
-       {
-           $upn = $endpoint.SipAddress.Replace("sip:","")
-           $ra=Get-CsOnlineApplicationInstance | where UserPrincipalName -eq $upn 
-           Set-CsOnlineApplicationInstance -Identity $ra.Objectid -OnpremPhoneNumber ""
-       }
-   }
-   ```
-
-6. 手順 2 で作成した新しいリソース アカウントに電話番号を割り当てる。 電話番号をリソース アカウントに割り当てる方法の詳細については、「サービス番号を割り当てる」 [を参照してください](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)。
-
-7. 次のオンプレミス Skype for Business Server PowerShell コマンドを実行して、オンプレミスのエンドポイントを削除します。
-
-   ```PowerShell
-   Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
-   ```
 これで、ハイブリッド構成を [無効にする準備ができました](cloud-consolidation-disabling-hybrid.md)。
 
 ## <a name="see-also"></a>関連項目
 
-- [オンプレミスの Skype for Business 環境を使用停止する](decommission-on-prem-overview.md)
+- [オンプレミスの Skype for Business 環境を廃止する](decommission-on-prem-overview.md)
 
 - [ハイブリッド構成を無効にする](cloud-consolidation-disabling-hybrid.md)
 
-- [オンプレミスの Skype for Business 展開を削除する](decommission-remove-on-prem.md)
+- [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動する](decommission-move-on-prem-endpoints.md)
+
+- [オンプレミスの Skype for Business の展開を削除する](decommission-remove-on-prem.md)
 
 
 

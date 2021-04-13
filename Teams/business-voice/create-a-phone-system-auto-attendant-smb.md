@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft 365 Business Voice の自動応答を設定してテストする方法について説明します。
-ms.openlocfilehash: 7ee7dad833119778ceb64bd1e52bd30da4529ba8
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 7fb9a9509354f5f6e3a17b2323eeaf2b5872e96e
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506654"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656743"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>自動応答を設定する - 小規模ビジネス向けチュートリアル
 
@@ -62,9 +62,9 @@ Teams 管理センターでリソース アカウントを作成できます。
 
 4. **[保存]** をクリックします。
 
-新しいアカウントがアカウントの一覧に表示されます。
+    新しいアカウントがアカウントの一覧に表示されます。
 
-![リソース アカウントの一覧のスクリーンショット](../media/resource-accounts-page.png)
+    ![リソース アカウントの一覧のスクリーンショット](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>ライセンスを割り当てる
 
@@ -107,7 +107,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
 4. この自動応答のタイム ゾーンを指定します。 タイム ゾーンは、営業時間外の別のコール フローを作成する場合に、営業時間の計算に使用されます。
 
-5. この自動応答の言語を指定します。 システム生成の音声プロンプトに使用される言語です。
+5. この自動応答の言語を指定します。 これは、システム生成の音声プロンプトに使用される言語です。
 
 6. 音声入力を有効にする場合に選択します。 有効にすると、すべてのメニュー オプションの名前が音声認識キーワードになります。 たとえば、発信者は"1" と言ってキー 1 にマップされたメニュー オプションを選択したり、"営業" と言って "営業" という名前のメニュー オプションを選択したりします。
 
@@ -166,7 +166,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
     ([内線番号 **でダイヤル]** を選択することもできますが、Azure Active Directory で拡張機能を構成する必要があります)。
 
-5. ディレクトリ検索オプションを選択したら、[ **次へ** ] をクリック **します**。
+5. ディレクトリ検索オプションを選択したら、[ **次へ** ] を **クリックします**。
 
 > [!div class="nextstepaction"]
 > [手順 4 - 営業時間外のコール フロー>](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=after-hours#steps)
@@ -214,11 +214,11 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
 7. **[保存]** をクリックします。
 
-追加の祝日ごとに、必要に応じて手順を繰り返します。
-
-![祝日が一覧表示された祝日設定のスクリーンショット](../media/auto-attendant-holiday-call-settings.png)
-
-すべての休日を追加した後、[次へ] をクリック **します**。
+    追加の祝日ごとに、必要に応じて手順を繰り返します。
+    
+    ![祝日が一覧表示された祝日設定のスクリーンショット](../media/auto-attendant-holiday-call-settings.png)
+    
+    すべての休日を追加した後、[次へ] を **クリックします**。
 
 > [!div class="nextstepaction"]
 > [手順 6 - ディレクトリ 内のユーザーを選択>](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=dial-scope#steps)
@@ -245,7 +245,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
 リソース アカウントを追加するには
 
-1. [ **アカウントの追加]** をクリックし、追加するアカウントを検索します。 [追加 **] をクリック** し、[追加] を **クリックします**。
+1. [ **追加]** をクリックし、追加するアカウントを検索します。 [追加 **] をクリック** し、[追加] を **クリックします**。
 
     ![リソース アカウントの [アカウントの追加] パネルのスクリーンショット](../media/auto-attendant-add-resource-account.png)
 
@@ -253,7 +253,7 @@ Microsoft *365* 電話システム - 仮想ユーザー ライセンスをリソ
 
     ![サービス番号が割り当てられているリソース アカウントを示すリソース アカウント リストのスクリーンショット](../media/auto-attendant-resource-account-assigned.png)
 
-これで自動応答の構成が完了します。
+    これで自動応答の構成が完了します。
 
 ---
 

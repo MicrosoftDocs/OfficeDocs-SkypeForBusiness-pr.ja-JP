@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 733abd0fce55858d890e190f5af466a7cfa71156
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 632fbacd9cd1ba8face3571597bc17e5e5a8a70b
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574126"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656753"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
@@ -47,6 +47,7 @@ API を使用すると、ソリューション プロバイダーは、Teams 用
 | `8x8` | https://www.8x8.com/8/8x8-contact-center-for-microsoft-teams                                                    |
 | `Anywhere365` | https://anywhere365.io/direct-routing-contact-center-for-microsoft-teams/                                      |
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
+| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
@@ -56,7 +57,6 @@ API を使用すると、ソリューション プロバイダーは、Teams 用
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
-| `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
@@ -93,7 +93,7 @@ Connect モデルに構築されたソリューションを使用するエージ
 
   - Microsoft 認定セッション ボーダー コントローラー [ <span class="underline">(SBC)</span>を使用するソリューション プロバイダー](./direct-routing-border-controllers.md) 
 
-### <a name="connect-and-extend"></a>接続と拡張
+### <a name="extend"></a>拡張
 
 このモデルでは、 [Teams クライアントプラットフォーム](/microsoftteams/platform/overview)、[Teams Graph API](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)、[Microsoft Graph のクラウド通信 API ](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を使用して Teams クライアントと統合し、コンタクト センターの担当者とエージェントの操作を拡張します。このモデルでは、すべてのコンタクト センターの通話と通話コントロールの操作に Teams 電話システムを使用します。 このモデルでは、連絡先センター ソリューション プロバイダーは、Microsoft 365 と並んでテレフォニー通信事業者として機能します。
 
@@ -121,7 +121,7 @@ Connect および拡張ベースのソリューションを使用すると、エ
 
   - すべてのアプリでの Teams クライアント操作のパフォーマンスと品質の維持  
 
-### <a name="extend-and-power"></a>拡張とパワー
+### <a name="power"></a>電源
 
 このモデルを使用すると、ソリューション プロバイダーは、Teams の呼び出しインフラストラクチャとクライアント プラットフォームを使用してネイティブの Azure ベースの音声アプリケーションを作成し、顧客とエージェントの共同作業を行う最新のインテリジェントなソリューションを提供できます。 拡張とパワーモデルの目標は、開発者の創造性を刺激し、顧客の生産性を高めることです。
 

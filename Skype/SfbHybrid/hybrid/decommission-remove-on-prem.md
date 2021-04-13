@@ -17,22 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Skype for Business Server を使用停止する手順。
-ms.openlocfilehash: 668e3d5ebf5dfa03fcfb883adcc3e08fc5924bae
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593907"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656693"
 ---
-# <a name="remove-your-on-premises-skype-for-business-deployment"></a>オンプレミスの Skype for Business 展開を削除する
+# <a name="remove-your-on-premises-skype-for-business-deployment"></a>オンプレミスの Skype for Business の展開を削除する
 
-この記事では、オンプレミスの Skype for Business 展開を削除する方法について説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 3 です。
+この記事では、オンプレミスの Skype for Business 展開を削除する方法について説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 4 です。
 
-- 手順 1. [必要なすべてのユーザーとアプリケーション エンドポイントをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。 
+- 手順 1. [必要なすべてのユーザーをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。 
 
 - 手順 2. [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
 
-- **手順 3.オンプレミスの Skype for Business 展開を削除します。** (この記事)
+- 手順 3. [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動する](decommission-move-on-prem-endpoints.md)
+
+- **手順 4.オンプレミスの Skype for Business 展開を削除します。** (この記事)
 
 
 > [!IMPORTANT] 
@@ -77,7 +79,7 @@ ms.locfileid: "51593907"
    Get-CsCallParkOrbit | Remove-CsCallParkOrbit -Force
    Get-CsVoiceRoute | Remove-CsVoiceRoute -Force
    ```
-## <a name="remove-your-on-premises-skype-for-business-deployment"></a>オンプレミスの Skype for Business 展開を削除する
+## <a name="remove-your-on-premises-skype-for-business-deployment"></a>オンプレミスの Skype for Business の展開を削除する
 
 すべての予備的な手順を完了した後、次の手順に従って Skype for Business の展開を削除できます。
 
@@ -127,14 +129,13 @@ ms.locfileid: "51593907"
 
 ## <a name="see-also"></a>関連項目
 
-- [オンプレミスの Skype for Business 環境を使用停止する](decommission-on-prem-overview.md)
+- [オンプレミスの Skype for Business 環境を廃止する](decommission-on-prem-overview.md)
 
-- [ユーザーとエンドポイントをクラウドに移動する](decommission-move-on-prem-users.md)
+- [必要なすべてのユーザーをオンプレミスからオンラインに移動する](decommission-move-on-prem-users.md)
 
 - [ハイブリッド構成を無効にする](cloud-consolidation-disabling-hybrid.md)
 
-
-
+- [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動する](decommission-move-on-prem-endpoints.md)
 
 
 

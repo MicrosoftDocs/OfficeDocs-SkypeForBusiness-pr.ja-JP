@@ -1,5 +1,5 @@
 ---
-title: オンプレミスの Skype for Business 環境を使用停止する
+title: オンプレミスの Skype for Business 環境を廃止する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,14 +17,14 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: オンプレミスの Skype for Business 環境を使用停止する方法について説明します。
-ms.openlocfilehash: 7f5109661fc7d29d83172489dd987b96cb7e87fd
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+ms.openlocfilehash: 46848c6730d37f549a8d5ee16f066fa67c789873
+ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593900"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "51656683"
 ---
-# <a name="decommission-your-on-premises-skype-for-business-environment"></a>オンプレミスの Skype for Business 環境を使用停止する
+# <a name="decommission-your-on-premises-skype-for-business-environment"></a>オンプレミスの Skype for Business 環境を廃止する
 
 組織で Skype for Business Server のオンプレミス展開で Teams または Skype for Business Online を使用している場合は、これらの環境をクラウドに完全に移行し、Skype for Business Server のオンプレミス展開を廃止できます。 
 
@@ -33,9 +33,11 @@ ms.locfileid: "51593900"
 
 オンプレミスからクラウドへの移行を完了し、オンプレミスの Skype for Business Server 環境を使用停止するには、次の順序で次の手順を実行する必要があります。
 
-- **手順 1.** [必要なすべてのユーザーとアプリケーション エンドポイントをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。
+- **手順 1.** [必要なすべてのユーザーをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。
 
 - **手順 2.** [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
 
-- **手順 3.** [オンプレミスの Skype for Business 展開を削除します](decommission-remove-on-prem.md)。
+- **手順 3.** [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動します](decommission-move-on-prem-endpoints.md)。
+
+- **手順 4.** [オンプレミスの Skype for Business 展開を削除します](decommission-remove-on-prem.md)。
 
