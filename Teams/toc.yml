@@ -117,18 +117,18 @@ items:
                 href: teams-client-update.md
               - name: インストールと更新に関する問題のトラブルシューティング
                 href: troubleshoot-installation.md
-          - name: Teams のトレーニング
-            items:
-              - name: 概要
-                href: training-microsoft-teams-landing-page.md
-              - name: Teams の管理者トレーニング
-                href: itadmin-readiness.md
-              - name: Ignite 2020 の Teams セッション
-                href: ignite-2020-landing-page.md
-              - name: Teams のライブ トレーニング
-                href: instructor-led-training-teams-landing-page.yml
-              - name: Teams のオンライン トレーニング
-                href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      - name: Teams のトレーニング
+        items:
+          - name: 概要
+            href: training-microsoft-teams-landing-page.md
+          - name: Teams の管理者トレーニング
+            href: itadmin-readiness.md
+          - name: Ignite 2020 の Teams セッション
+            href: ignite-2020-landing-page.md
+          - name: Teams のライブ トレーニング
+            href: instructor-led-training-teams-landing-page.yml
+          - name: Teams のオンライン トレーニング
+            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Skype for Business からアップグレード
     items:
       - name: 開始する
@@ -1325,6 +1325,8 @@ items:
             href: teams-app-setup-policies.md
           - name: Teams のカスタム アプリのポリシーと設定を管理する
             href: teams-custom-app-policies-and-settings.md
+          - name: Teams でアプリをカスタマイズする
+            href: customize-apps.md
   - name: 業界および政府機関向けのガイダンス
     items:
       - name: 概要
