@@ -16,20 +16,20 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SPC) を確認できます。
+description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SBC) を確認できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 87c2dc7a2c3061101517ff72e7674ccc78293680
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 36228b1c8d9e563670bfff2d1d3cebfcc9652023
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637849"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697702"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
 マイクロソフトは、選択したセッション ボーダー コントローラー (SBC) ベンダーと提携して、SBC がダイレクト ルーティングと連携していることを保証しています。 
 
-Microsoft は、各ベンダーと次の取り合いを行っています。
+Microsoft は、各ベンダーと次の仕事をしています。
 
 - SIP 相互接続プロトコルで共同で作業します。
 - サードパーティラボを使用して、テストを行います。 テストに合格したデバイスだけが認定されます。 
@@ -38,7 +38,7 @@ Microsoft は、各ベンダーと次の取り合いを行っています。
 
 
   > [!NOTE]
-  > Microsoft は、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ電話システムをサポートします。 Microsoft は、認定されていないデバイスが直接ルーティングを通じて電話システムに接続されているサポート ケースを拒否する権利を持っています。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを提供する必要があります。
+  > Microsoft は、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ電話システムをサポートします。 Microsoft は、認定されていないデバイスが直接ルーティングを通じて電話システムに接続されているサポート ケースを拒否する権利を持っています。 Microsoft が顧客のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると判断した場合、顧客は SBC ベンダーにサポートを提供する必要があります。
 
 以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディア最適化をサポートしている SBC ベンダーについては、「直接ルーティング用にローカル メディアの最適化 [を構成する」を参照してください](direct-routing-media-optimization-configure.md))。
 
@@ -46,7 +46,7 @@ Microsoft は、各ベンダーと次の取り合いを行っています。
 <br/>
 <br/>
 
-|                                                       仕入先                                                        |       Product       | メディア以外のバイパス | メディア バイパス | ソフトウェアバージョン | E911 プロバイダーで検証済み | ELIN 対応
+|                                                       仕入先                                                        |       Product       | メディア以外のバイパス | メディア バイパス | ソフトウェア バージョン | E911 プロバイダーで検証済み | ELIN 対応
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  サポートされている 7.20A.250 (推奨 7.20A.258)   | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul> |  &#10004;  |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  サポートされている 7.20A.250 (推奨 7.20A.258)   | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |
@@ -78,7 +78,7 @@ Microsoft は、各ベンダーと次の取り合いを行っています。
 |                                   |     1000V シリーズ クラウド サービス ルーター用の Cisco Unified Border 要素 (CUBE)       |     &#10004;   | &#10004; |      サポートされる IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
 |                                 |     1000 シリーズ集計サービス ルーター用の Cisco Unified Border 要素 (CUBE)      |     &#10004;   | &#10004; |      サポートされる IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                                 |     Cisco Unified Border Element (CUBE) for Edge 8000 Edge プラットフォーム      |     &#10004;   | &#10004; |      IOS XE アムステルダム 17.3.2      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |           |       リリース 8.1.1       |     |    | 
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       リリース 8.1.1 (メディア バイパスの場合は 8.1.2)      |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 |                     |    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       20.8       |      <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       サポートされている 5.0 (推奨 5.1)     |     |    | 
@@ -88,7 +88,7 @@ Microsoft は、各ベンダーと次の取り合いを行っています。
 |                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape セッション ボーダー コントローラー   |     &#10004;     |          |      V10R1.2       |     |    | 
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
-|                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |     &#10004;     |      3.19.x      |     |    |
+|                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 
 <br/>
 <br/>
@@ -110,4 +110,4 @@ Microsoft は、各ベンダーと次の取り合いを行っています。
   | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Multiplatform アナログ電話アダプター |     &#10004;     |
   
 新機能のアイデアなど、Teams に関する製品フィードバックを提供する場合は [、Uservoice を参照してください](https://microsoftteams.uservoice.com)。
-メジャー バージョンに付与された証明書に注意してください。 つまり、メジャー バージョンに続く SBC ファームウェアの任意の番号のファームウェアがサポートされます。
+メジャー バージョンに付与された証明書に注意してください。 つまり、メジャー バージョンに続く SBC ファームウェアの任意の番号のファームウェアがサポートされています。

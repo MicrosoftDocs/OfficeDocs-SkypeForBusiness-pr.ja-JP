@@ -19,18 +19,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でアプリをカスタマイズする方法について説明します。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a87ce5f7dd63a78af4a7a1ea5f56aed1cad7263a
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 9e9c7d250f60c3cc100f7d95b26f662ca8af6305
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574156"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697792"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Microsoft Teams でアプリをカスタマイズする
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
- Microsoft Teams は、Teams のエクスペリエンスを向上させるアプリのカスタマイズを提供します。 一部のアプリ開発者は、Teams 管理者がアプリをカスタマイズできます。管理者は、Teams 管理センターの [アプリの管理] ページを使用して、組織のニーズに基づいてアプリのプロパティをカスタマイズまたは **ブランド変更** できます。 カスタマイズできる詳細は次のとおりです。
+ Microsoft Teams は、Teams のエクスペリエンスを向上させるアプリのカスタマイズを提供します。 一部のアプリ開発者は、Teams 管理者によるアプリのカスタマイズを許可しています。管理者は、Teams 管理センターの [アプリの管理] ページを使用して、組織のニーズに基づいてアプリのプロパティをカスタマイズまたは **ブランド変更** できます。 カスタマイズできる詳細は次のとおりです。
 
 - 短い名前
 - 簡単な説明
@@ -39,10 +39,12 @@ ms.locfileid: "51574156"
 - Web サイトの URL
 - 使用条件の URL
 - [色] アイコン
-- アウトライン アイコン
+- [アウトライン] アイコン
 - アクセント カラー
 
 カスタマイズできる [フィールドの詳細については](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema) 、Teams マニフェスト スキーマを参照してください。
+
+> [!注: 現時点では、Government Community Cloud High (GCCH) または国防総省 (DoD) では、アプリのカスタマイズはサポートされていません。
 
 ## <a name="customize-the-apps-details"></a>アプリの詳細をカスタマイズする
 
@@ -139,7 +141,7 @@ Teams のエンド ユーザーは Teams クライアントを開き、カスタ
 
 3. アプリ名を選択します。
 
-4. [アクション **] ドロップダウンから [リセット]** を選び、既定値 **を設定** します。
+4. [アクション **] ドロップダウンから [リセットして** 既定 **に戻す] を選択** します。
 
    ![[リセットして既定に戻す] が強調表示されている状態を選択する](media/select-reset.png)
 
@@ -149,7 +151,7 @@ Teams のエンド ユーザーは Teams クライアントを開き、カスタ
 
 管理者は Teams 管理センターで変更をすぐに確認することができますが、エンド ユーザーが変更を確認するには最大で 24 時間かかる場合があります。  
 
-**アプリ プロバイダーは顧客のためにアプリをカスタマイズできますか?**
+**アプリ プロバイダーは、顧客のためにアプリをカスタマイズできますか?**
 
  いいえ、テナントの管理者は、Teams 管理センターを使用して、テナント用にアプリをカスタマイズする必要があります。
 

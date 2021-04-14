@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aa11b21405079ab26bf1fa9572eb203560c4e461
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
-ms.translationtype: HT
+ms.openlocfilehash: 73b583493a57141fef3c120fa2eb134cbaa8a500
+ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802497"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51697742"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
@@ -45,14 +45,14 @@ ms.locfileid: "49802497"
 たとえば、すべてのサードパーティ アプリをブロックし、組織内のHR チームに Microsoft の特定のアプリを許可するとします。 まず、[[アプリの管理]](manage-apps.md) ページに移動し、HR チームに許可するアプリが組織レベルで許可されていることを確認します。 次に、HR App Permission Policy という名前のカスタムポリシーを作成し、必要なアプリをブロックして許可するように設定し、HR チームのユーザーに割り当てます。
 
 > [!NOTE]
-> Teams を Microsoft 365 Government Community Cloud (GCC) 環境に展開した場合は、「[Microsoft 365 Government の組織全体のアプリ設定の管理](#manage-org-wide-app-settings-for-microsoft-365-government)」を参照して、GCC に固有のサードパーティ アプリ設定の詳細を確認してください。
+> Microsoft 365 Government Community Cloud High (GCCH) および Department of Defense (DoD) 環境に Teams を展開した場合は [、「Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government) の組織全体のアプリ設定を管理する」を参照して、GCCH および DoD 固有のサード パーティ製アプリ設定の詳細を確認してください。
 
 ## <a name="create-a-custom-app-permission-policy"></a>カスタムアプリのアクセス許可ポリシーを作成する
 
 組織内のユーザー グループごとに利用できるアプリを制御する場合は、1 つ以上のカスタムアプリ権限ポリシーを作成して割り当てます。 アプリが Microsoft、サードパーティ、または組織のうちどこで公開されているかに基づいて、個別のカスタム ポリシーを作成し、割り当てることができます。 カスタムポリシーを作成した後、組織全体のアプリ設定でサード パーティのアプリが無効になっている場合、ポリシーを変更できないのでご注意ください。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アクセス許可ポリシー]** の順に移動します。
-2. **[追加]** をクリックします。 <br>
+2. **[追加]** をクリックします。<br>
     ![新しいアプリのアクセス許可ポリシーのスクリーン ショット](media/app-permission-policies-new-policy.png)
 3. ポリシーの名前と説明を入力します。
 4. **[Microsoft アプリ]**、**[サードパーティアプリ]**、および **[カスタムアプリ]** で、次のいずれかを選択します。
@@ -86,11 +86,11 @@ Microsoft Teams 管理センターを使用して、作成したグローバル 
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Microsoft 365 Government の組織全体のアプリ設定を管理する  
 
-Microsoft 365 Government - Teams の GCC 展開では、GCC に固有のサードパーティ アプリ設定について次のことを知っておくことが重要です。
+Microsoft 365 Government - GCCH と DoD による Teams の展開では、GCCH と DoD に固有のサードパーティ製アプリの設定について、次の点を知る必要があります。
 
-GCC では、すべてのサードパーティ アプリが既定でブロックされています。 さらに、Microsoft Teams 管理センターのアプリのアクセス許可ポリシー ページに、サードパーティ アプリの管理に関する次の注意事項が表示されます。
+GCCH および DoD では、既定では、すべてのサード パーティ製アプリがブロックされます。 さらに、Microsoft Teams 管理センターのアプリのアクセス許可ポリシー ページに、サードパーティ アプリの管理に関する次の注意事項が表示されます。
 
-![GCC 内のアプリのアクセス許可ポリシーのスクリーンショット](media/app-permission-policies-gcc.png)
+![GCCH および DoD のアプリのアクセス許可ポリシーのスクリーンショット](media/app-permission-policies-gcc.png)
 
 組織全体のアプリ設定を使用して、ユーザーがサード パーティのアプリをインストールできるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。 それらを使用して、悪意のあるアプリや問題のあるアプリを制御できます。
 
@@ -100,10 +100,10 @@ GCC では、すべてのサードパーティ アプリが既定でブロック
     
 2. **[サードパーティ アプリ]** で、次の設定をオフまたはオンにして、サードパーティ アプリへのアクセスを制御します。
 
-    - **[サードパーティ アプリを許可する]**: ここで、ユーザーがサードパーティ アプリを使用できるかどうかを制御します。 この設定をオフにすると、ユーザーはサードパーティ アプリをインストールしたり使用したりできなくなります。 Microsoft 365 Governmentの場合 - Teams の GCC 展開では、この設定は既定でオフになっています。
+    - **[サードパーティ アプリを許可する]**: ここで、ユーザーがサードパーティ アプリを使用できるかどうかを制御します。 この設定をオフにすると、ユーザーはサードパーティ アプリをインストールしたり使用したりできなくなります。 Microsoft 365 Government - GCCH および DoD による Teams の展開では、この設定は既定ではオフになっています。
     - **ストアに公開された新しいサードパーティ アプリを既定で許可する**: ここでは、Teams アプリ ストアに公開された新しいサードパーティ アプリを Teams で自動的に利用可能にするかどうかを制御します。 このオプションは、サードパーティのアプリを許可する場合にのみ設定できます。
 
-3. **[ブロック済みのアプリ]** で、組織全体でブロックするアプリを追加します。 Microsoft 365 Government の場合 - Teams の GCC 展開では、すべてのサードパーティ アプリが既定でこのリストに追加されます。 組織で許可するサードパーティのアプリについては、このブロック済みのアプリのリストからアプリを削除します。 組織全体でアプリをブロックすると、アプリのアクセス許可ポリシーで許可されているかどうかに関係なく、アプリはすべてのユーザーに対して自動的にブロックされます
+3. **[ブロック済みのアプリ]** で、組織全体でブロックするアプリを追加します。 Microsoft 365 Government - GCCH および DoD による Teams の展開では、既定では、すべてのサード パーティ製アプリがこのリストに追加されます。 組織で許可するサードパーティのアプリについては、このブロック済みのアプリのリストからアプリを削除します。 組織全体でアプリをブロックすると、アプリのアクセス許可ポリシーで許可されているかどうかに関係なく、アプリはすべてのユーザーに対して自動的にブロックされます
 4. 組織全体のアプリ設定を有効にするには、**[保存]** をクリックします。
 
 前述のように、サードパーティのアプリを許可するには、グローバル (組織全体の既定) ポリシーを編集して使用するか、カスタム ポリシーを作成して割り当てることができます。

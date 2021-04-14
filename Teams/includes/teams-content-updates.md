@@ -3,6 +3,75 @@
 
 
 
+## <a name="week-of-april-05-2021"></a>2021 年 4 月 5 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 4/5/2021 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新日時 |
+| 4/5/2021 | [ユーザー用の電話番号を取得する](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 更新日時 |
+| 4/5/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 4/5/2021 | [Microsoft Teams PowerShell をインストールする](/MicrosoftTeams/teams-powershell-install) | 更新日時 |
+| 4/5/2021 | [通話品質ダッシュボード (CQD) とは](/MicrosoftTeams/cqd-what-is-call-quality-dashboard) | 更新日時 |
+| 4/5/2021 | [Outlook で Microsoft Teams 会議アドインを使用する](/MicrosoftTeams/teams-add-in-for-outlook) | 更新日時 |
+| 4/5/2021 | [Microsoft Teams でポリシー パッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
+| 4/5/2021 | [Microsoft Teams の感度ラベル](/MicrosoftTeams/sensitivity-labels) | 更新日時 |
+| 4/6/2021 | [音声とビデオの会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-audio-and-video) | 追加済 |
+| 4/6/2021 | [コンテンツ共有の会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-content-sharing) | 追加済 |
+| 4/6/2021 | [全般会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams-general) | 追加済 |
+| 4/6/2021 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-overview) | 追加済 |
+| 4/6/2021 | [参加者とゲストの会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-participants-and-guests) | 追加済 |
+| 4/6/2021 | [Microsoft Teams で通話キューを作成する - 小規模ビジネス向けチュートリアル](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 更新日時 |
+| 4/6/2021 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 更新日時 |
+| 4/6/2021 | [EDU 向けの Microsoft Teams 低帯域幅ガイダンス](/MicrosoftTeams/edu-remote-low-bandwidth) | 更新日時 |
+| 4/6/2021 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
+| 4/6/2021 | [Microsoft Teams の会議ポリシーと会議の有効期限](/MicrosoftTeams/meeting-expiration) | 更新日時 |
+| 4/6/2021 | [Microsoft Teams のリリース ノート](/MicrosoftTeams/release-notes/release-notes) | 更新日時 |
+| 4/6/2021 | [教育機関管理者向けの Microsoft Teams のリソース](/MicrosoftTeams/remote-learning-edu) | 更新日時 |
+| 4/6/2021 | [Microsoft Teams 会議出席レポート](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | 更新日時 |
+| 4/6/2021 | [Azure Sentinel および Microsoft Teams](/MicrosoftTeams/teams-sentinel-guide) | 更新日時 |
+| 4/6/2021 | [Skype for Business から Microsoft Teams にアップグレードする方法を選択する](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 更新日時 |
+| 4/6/2021 | [Microsoft Teams で NDI を使用する](/MicrosoftTeams/use-ndi-in-meetings) | 更新日時 |
+| 4/6/2021 | [分数ごと従量課金制電話会議](/MicrosoftTeams/audio-conferencing-pay-per-minute) | 更新日時 |
+| 4/6/2021 | [Microsoft Teams でポリシー パッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
+| 4/6/2021 | [非標準ユーザーに対する Teams アプリの動作](/MicrosoftTeams/non-standard-users) | 更新日時 |
+| 4/6/2021 | [リリース ノート](/MicrosoftTeams/rooms/rooms-release-note) | 更新日時 |
+| 4/6/2021 | [SharePoint Online サイトまたはページから Terms の「イントラネット ポータル アプリ」を作成する](/MicrosoftTeams/teams-standalone-static-tabs-using-spo-sites) | 更新日時 |
+| 4/7/2021 | [管理者トレーニング リソース - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 更新日時 |
+| 4/7/2021 | [分数ごと従量課金制電話会議](/MicrosoftTeams/audio-conferencing-pay-per-minute) | 更新日時 |
+| 4/7/2021 | [電話会議のダイヤルアウト/通話 (分)](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | 更新日時 |
+| 4/7/2021 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 更新日時 |
+| 4/7/2021 | [Microsoft Teams でポリシー パッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
+| 4/7/2021 | [会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
+| 4/7/2021 | [非標準ユーザーに対する Teams アプリの動作](/MicrosoftTeams/non-standard-users) | 更新日時 |
+| 4/7/2021 | [Teams のアイテム保持ポリシーを管理する](/MicrosoftTeams/retention-policies) | 更新日時 |
+| 4/7/2021 | [Microsoft Teams PowerShell で Teams を管理する](/MicrosoftTeams/teams-powershell-managing-teams) | 更新日時 |
+| 4/7/2021 | [ユーザーの [電話する] 機能をセットアップする](/MicrosoftTeams/set-up-the-call-me-feature-for-your-users) | 更新日時 |
+| 4/8/2021 | [電話会議のオンネットワーク会議](/MicrosoftTeams/audio-conferencing-on-network) | 更新日時 |
+| 4/8/2021 | [通話の共有およびグループ通話ピックアップ](/MicrosoftTeams/call-sharing-and-group-call-pickup) | 更新日時 |
+| 4/8/2021 | [直接ルーティングの認定を受けたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 4/8/2021 | [Microsoft Teams でライブ イベント設定を構成する](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 更新日時 |
+| 4/8/2021 | [Microsoft Teams でのライブ イベントの計画](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 更新日時 |
+| 4/8/2021 | [OneDrive for Business と SharePoint を使用して会議の記録を行う](/MicrosoftTeams/tmr-meeting-recording-change) | 更新日時 |
+| 4/8/2021 | [Microsoft Teams へのユーザー アクセスを管理する](/MicrosoftTeams/user-access) | 更新日時 |
+| 4/8/2021 | [表示限定の会議エクスペリエンス](/MicrosoftTeams/view-only-meeting-experience) | 更新日時 |
+| 4/8/2021 | [直接ルーティング国コード](/MicrosoftTeams/direct-routing-country-codes) | 更新日時 |
+| 4/8/2021 | [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新日時 |
+| 4/8/2021 | [Microsoft Teams の発信通話制限ポリシー](/MicrosoftTeams/teams-calling-policy) | 更新日時 |
+| 4/8/2021 | [Microsoft Teams の管理者トレーニング](/MicrosoftTeams/training-microsoft-teams-landing-page) | 更新日時 |
+| 4/9/2021 | [Microsoft Teams の自動応答を設定する - 小規模ビジネス向けチュートリアル](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 更新日時 |
+| 4/9/2021 | [Microsoft Teams でフィードバック ポリシーを管理する](/MicrosoftTeams/manage-feedback-policies-in-teams) | 更新日時 |
+| 4/9/2021 | [Teams コンタクト センター](/MicrosoftTeams/teams-contact-center) | 更新日時 |
+| 4/9/2021 | [Teams で Microsoft アプリをカスタマイズする](/MicrosoftTeams/customize-apps) | 更新日時 |
+| 4/9/2021 | [直接ルーティングの認定を受けたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 4/9/2021 | [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新日時 |
+| 4/9/2021 | [Microsoft Teams 管理センターでアプリを管理する](/MicrosoftTeams/manage-apps) | 更新日時 |
+| 4/9/2021 | [Microsoft Teams のアプリのアクセス許可ポリシーを管理する](/MicrosoftTeams/teams-app-permission-policies) | 更新日時 |
+| 4/9/2021 | [表示限定の会議エクスペリエンス](/MicrosoftTeams/view-only-meeting-experience) | 更新日時 |
+| 4/9/2021 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
+| 4/9/2021 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
+
+
 ## <a name="week-of-march-29-2021"></a>2021 年 3 月 29 日の週
 
 
@@ -102,7 +171,7 @@
 | 公開日 |トピックのタイトル | 変更 |
 |------|------------|--------|
 | 3/15/2021 | [Microsoft Teams デバイスの監視と通知](/MicrosoftTeams/alerts/device-health-status) | 追加済 |
-| 3/15/2021 | [Microsoft Teams の監視と警告](/MicrosoftTeams/alerts/teams-admin-alerts) | 追加済 |
+| 3/15/2021 | [Microsoft Teams の監視と通知](/MicrosoftTeams/alerts/teams-admin-alerts) | 追加済 |
 | 3/15/2021 | [Microsoft Teams への移行を実装する](/MicrosoftTeams/implement-your-move) | 追加済 |
 | 3/15/2021 | [Teams と Outlook のメールの統合](/MicrosoftTeams/teams-outlook-email-integration) | 更新日時 |
 | 3/15/2021 | [Teams と共有する](/MicrosoftTeams/teams-outlook-share-teams) | 追加済 |
