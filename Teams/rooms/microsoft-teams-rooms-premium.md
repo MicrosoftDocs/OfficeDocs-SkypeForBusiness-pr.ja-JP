@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: b174f0d3f608502d74d4dfbc33aa9bac66b684d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9fdfa4a3fdb6c9058f5feada655a88abcd136b3e
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117505"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768436"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 
@@ -91,86 +91,7 @@ Microsoft Teams Rooms の管理サービスのサポート対象の詳細につ�
 
 ## <a name="supported-regions"></a>サポートされる地域
 
-Microsoft Teams Rooms の管理サービスは、次の国と地域で利用できます。 
-
-- アンドラ
-- オーストラリア
-- オーストリア
-- ベルギー
-- ブーベ島
-- ブラジル
-- ブルガリア
-- カナダ
-- クリスマス島
-- ココス (キーリング) 諸島
-- クック諸島
-- クロアチア
-- キプロス
-- チェコ共和国
-- デンマーク
-- エストニア
-- Faroe Islands
-- フィジー
-- フランス
-- ドイツ
-- ジブラルタル
-- ギリシャ
-- グリーンランド
-- 聞こえの島とマクドナルド諸島
-- 香港特別行政区
-- ハンガリー
-- アイスランド
-- インド
-- アイルランド
-- イタリア
-- 日本
-- キリバス
-- ラトビア
-- レソト
-- リヒテンシュタイン
-- リトアニア
-- ルクセンブルク
-- マカオ
-- マルタ
-- マーシャル諸島
-- メキシコ
-- ミクロネシア
-- モナコ
-- ナウル
-- オランダ
-- ニュージーランド
-- ニウエ
-- ノーフォーク島
-- 北マリアナ諸島
-- ノルウェー
-- パラオ
-- パプアニューギニア
-- ピトケアン諸島
-- ポーランド
-- ポルトガル
-- ルーマニア
-- ロシア
-- サンピエール島・ミクロン島
-- サモア
-- サンマリノ
-- シンガポール
-- スロバキア
-- スロベニア
-- ソロモン諸島
-- 南アフリカ
-- スペイン
-- スワジランド
-- スウェーデン
-- スイス
-- 台湾
-- トケラウ
-- トンガ
-- ツバル
-- 英国
-- 米国
-- バヌアツ
-- バチカン市国
-- ワリス・フトゥーナ
+Microsoft Teams Rooms が管理するサービスは、Microsoft 365 が利用可能なすべての国と地域で利用できます。 国と地域の完全な一覧については [、Microsoft 365](https://www.microsoft.com/microsoft-365/business/international-availability)の国際利用可能時間を参照してください。
 
 ## <a name="support-inclusions-and-exclusions"></a>サポート内容と除外事項
 

@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d191d4d1dbb9c3d3d2f206bce76e9d3ddd7d78d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 448658fb844052815e14b85e0c70a33cb737b72d
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094117"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768356"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell の概要
 
@@ -48,7 +48,7 @@ Teams PowerShell モジュールを使用して、Teams を完全に管理しま
 - [Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/): Teams PowerShell モジュールには、チーム、チャット、およびチャネルを管理するためのコマンドレットが含まれています。
 
 > [!NOTE]
-> [Teams PowerShell の](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリース バージョン 1.1.6 以降は、Skype for Business Online Connector と統合され、Teams PowerShell 管理用の 1 つのモジュールが提供されます。
+> [Teams PowerShell のパブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)バージョン 2.0 以上には、すべての Skype for Business Online Connector コマンドレットが含まれるので、Teams PowerShell 管理用の 1 つのモジュールが提供されます。
 
 - [Skype for Business PowerShell コネクタ](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): Skype for Business PowerShell コネクタは、Teams PowerShell モジュールの一部になりました。
 

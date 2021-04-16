@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
 description: ネットワーク要件、ネットワーク最適化、帯域幅要件など、Microsoft Teams 用に組織のネットワークを準備する方法について説明します。
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 1c84a753146899011fa34be56e0746cc0c600b31
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117755"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768386"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 

@@ -1470,6 +1470,14 @@ items:
     items:
       - name: Teams の制限と仕様
         href: limits-specifications-teams.md
+      - name: Kaizala から Microsoft Teams に移行する
+        items:
+          - name: Kaizala と Microsoft Teams
+            items:
+              - name: Teams へのパス
+                href: prepare-for-teams.md
+                items:
+                  - name: Teams 機能への移動
       - name: ライセンス
         items:
           - name: Teams へのユーザー アクセスを管理する

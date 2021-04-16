@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a922f3fead6c33f70e7393dd536b856934ddb390
-ms.sourcegitcommit: 3861d661d32f507bd8479509ed09b1cfcf0b214f
+ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51607548"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768372"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -75,10 +75,10 @@ ms.locfileid: "51607548"
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 この更新プログラムで導入されるもの:
-- Teams 会議室の Government Community Cloud High (GCCH) のサポート。 既存の Teams Rooms デバイスを使用している GCCH のお客様は、Microsoft Teams Rooms デバイスを手動で更新してバージョン 4.8.18.0[をダウンロードできます](manual-update.md)。
+- Teams 会議室の Government Community Cloud High (GCCH) のサポート。 既存の Teams Rooms デバイスを使用している GCCH のお客様は、Microsoft Teams Rooms デバイスを手動で更新してバージョン 4.8.19.0[をダウンロードできます](manual-update.md)。
 - ビデオ品質の向上 (720p サポート) でズーム会議に参加し、参加者のビデオ ギャラリーを受け取る
 - Teams の既定モードで Skype for Business サインインエラー バナーが削除されました。 この変更は、Skype for Business インフラストラクチャを削除する組織をサポートしています
-- Teams 会議への参加リンク解析で Microsoft Defender Advanced Thread Protection Safe Links が処理され、外部の Teams にシームレスに参加できる
+- Teams 会議の参加リンク解析で Microsoft Defender Advanced Thread Protection Safe Links が処理され、外部の Teams にシームレスに参加できる
 - 共有者の PC に Windows でカスタム DPI が設定されている場合の Skype for Business 会議での共有コンテンツのスケーリングの問題を修正しました
 - 品質と信頼性の修正
 

@@ -26,12 +26,12 @@ description: Microsoft Teams 遠隔医療、EHR 統合、現場担当者のシ�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 00dbf546166dbc1fd40d633516ac77ffaff3774c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6048d2413ea92e377358af43c7348abbbe00be1
+ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092685"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "51760600"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療機関向け Microsoft Teams の使用を開始する
 
@@ -140,7 +140,7 @@ Microsoft Teams の Lists アプリは、チームが情報を追跡し、作業
 
 ### <a name="track-and-monitor-tasks-with-the-tasks-app"></a>Tasks アプリを使用してタスクの追跡と監視を行う。
 
-Teams の [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) を使用すると、医療チーム全体の To Do アイテムを追跡することができます。 医療チームは、Teams を実行しているどのデバイスからでも、タスクの作成、割り当て、タスクのスケジュール設定、タスクの分類、および状態の更新をいつでも行うことができます。
+Teams の [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) を使用すると、医療チーム全体の To Do アイテムを追跡することができます。 医療チームは、Teams を実行しているどのデバイスからでも、タスクの作成、割り当て、タスクのスケジュール設定、タスクの分類、および状態の更新をいつでも行うことができます。 IT 管理者は、組織の特定のチームにタスクを発行することもできます。 たとえば、新しいセーフティ プロトコルのタスクセットや、病院全体で使用する新しい取り込み手順を発行できます。
 
 詳細については、「[Microsoft Teams で組織の Tasks アプリを管理する](../../manage-tasks-app.md)」参照してください。
 
