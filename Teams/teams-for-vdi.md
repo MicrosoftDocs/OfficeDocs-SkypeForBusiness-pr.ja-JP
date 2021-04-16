@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020ed67b695c10e54d43891d78a77783ab61ee81
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9688b700d900720aa9af1c0f68cadee99d7de858
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119196"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858050"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -377,10 +377,9 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 ### <a name="client-deployment-installation-and-setup"></a>クライアントの展開、インストール、およびセットアップ
 
 - マシンごとのインストールでは、VDI 上の Teams は、非 VDI Teams のクライアントと同様に自動的に更新されません。 [VDI で Teams デスクトップ アプリをインストールまたは更新する](#install-or-update-the-teams-desktop-app-on-vdi)セクションの説明に従って新しい MSI をインストールし、VM イメージを更新する必要があります。 現在のバージョンをアンインストールして新しいバージョンに更新する必要があります。
+- Citrix 環境では、Teams の実行中にユーザーが仮想マシンから切断した場合、Teams の更新により、再接続時にユーザーが AV 用に最適化されていない状態になる可能性があります。 このシナリオを回避するには、ユーザーが Citrix Virtual Machine から切断する前に Teams を終了することをお勧めします。
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
 - 現時点では、Windows Virtual Desktop と VMware は、MacOS と Linux ベースのクライアントをサポートしていません。
-- 現時点では、Citrix は MacOs クライアントをサポートしていません。
-- Citrix は、エンドポイントに定義された明示的な HTTP プロキシの使用をサポートしていません。
 
 ### <a name="calling-and-meetings"></a>通話と会議
 
@@ -396,6 +395,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 - コール キュー
 - 共有システムのオーディオ/コンピューターのサウンド
 - ダイレクト ルーティングのメディア バイパス
+- 共有コンテンツを拡大する
 
 > [!NOTE]
 > 現在は非 VDI 環境でのみ利用可能な通話および会議機能の追加に取り組んでいます。 これらには、品質についての管理者制御の強化、画面共有シナリオの追加、および最近 Teams に追加された高度な機能が含まれる可能性があります。 今後の機能の詳細については、Teams の担当者にお問い合わせください。

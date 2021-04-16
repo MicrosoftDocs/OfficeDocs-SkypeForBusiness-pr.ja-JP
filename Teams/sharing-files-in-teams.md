@@ -16,7 +16,7 @@ appliesto:
 description: Microsoft Teams のファイルとフォルダー共有機能について説明します。
 ms.openlocfilehash: 53997f4493a0217e980427ab0d1f85d64095b9c9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117025"

@@ -18,18 +18,18 @@ description: Microsoft 通話プランと電話システムダイレクト ル�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73b894b0eb02b8f860a3486251dab002832f4d46
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2531add2b43b7061b81a23676c54fbc557929c0f
+ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122331"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "51858010"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
 Microsoft 通話プランと電話システムダイレクト ルーティングの動的緊急通話は、Teams クライアントの現在の場所に基づいて緊急通話を構成およびルーティングし、セキュリティ担当者に通知する機能を提供します。  
 
-テナント管理者が定義するネットワーク トポロジに基づいて、Teams クライアントは Location Information Service (LIS) への要求でネットワーク接続情報を提供します。 一致する値がある場合、LIS はクライアントに場所を返します。 この場所データはクライアントに送信されます。  
+テナント管理者が定義するネットワーク トポロジに基づいて、Teams クライアントは Location Information Service (LIS) への要求でネットワーク接続情報を提供します。 一致する値がある場合、LIS はクライアントに場所を返します。 この場所のデータは、クライアントに送信されます。  
 
 Teams クライアントには、緊急通話の一部として場所データが含まれます。 このデータは、緊急サービス プロバイダーによって適切なパブリック セーフティ応答ポイント (PSAP) を決定し、その PSAP に通話をルーティングするために使用されます。これにより、PSAP ディスパッチャーは呼び出し元の場所を取得できます。  
 
@@ -41,7 +41,7 @@ Teams クライアントには、緊急通話の一部として場所データ�
 
 2. 起動中および定期的に、またはネットワーク接続が変更された場合、Teams クライアントはネットワーク接続情報を含む場所要求をネットワーク設定と LIS に送信します。
 
-   - ネットワーク設定サイトが一致する場合–緊急通話ポリシーは、そのサイトから Teams クライアントに返されます。 (ポリシーの詳細については、「緊急ポリシーを構成 [する」を参照してください](#configure-emergency-policies))。
+   - ネットワーク設定サイトが一致する場合–緊急通話ポリシーは、そのサイトから Teams クライアントに返されます。 (ポリシーの詳細については、「緊急ポリシーを構成する [」を参照してください](#configure-emergency-policies))。
 
    - LIS が一致する場合は、Teams クライアントが接続されているネットワーク要素からの緊急対応の場所が Teams クライアントに返されます。 一致は次の順序で実行され、最初に一致した結果が返されます。
        - (1)
@@ -53,7 +53,7 @@ Teams クライアントには、緊急通話の一部として場所データ�
 
    直接ルーティングの場合、管理者は緊急通話を ERS プロバイダーに送信するか、SBC ELIN アプリケーションを構成するために SBC を構成する必要があります。
 
-この記事には、次のセクションが含まれます。
+この記事では、次のセクションについて説明します。
 
 - [緊急対応の住所を構成する](#assign-emergency-addresses)
 - [ネットワーク設定を構成する](#configure-network-settings)
@@ -95,13 +95,13 @@ Teams クライアントには、緊急通話の一部として場所データ�
 
 Azure Maps は、場所ベースのサービスに使用されます。  Microsoft Teams 管理センターを使用して緊急対応の住所を入力すると、Teams は Azure Maps で住所を確認します。
 
-- 一致が見つかると、地域コードが自動的に含まれます。
+- 一致が見つかると、地理コードが自動的に含まれます。
 
 - 一致が見つからない場合は、緊急対応の住所を手動で作成することができます。 PIN ドロップ機能を使って、この操作を行います。 
 
 つまり、通話プランのユーザーに割り当てのために作成された既存の緊急対応の場所が動的な場所を対象としている場合、地域コードを含めるには、同じ住所を再作成する必要があります。 2 つの場所を区別するには、別の説明を含める必要があります。 新しい緊急対応の場所は、古い場所を持つユーザーに割り当てることができます。 完全に移行すると、古い場所を削除できます。
 
-Microsoft Teams 管理センターで緊急対応の住所を追加して割り当てるには、PowerShell を使用します。 詳細については、「組織の緊急対応の場所を追加する [」](add-change-remove-emergency-location-organization.md) および「ユーザーに緊急対応の場所を割り当てる [」を参照してください](assign-change-emergency-location-user.md)。
+Microsoft Teams 管理センターで緊急対応の住所を追加して割り当てるには、PowerShell を使用します。 詳細については、「組織の緊急対応の場所を追加 [する」](add-change-remove-emergency-location-organization.md) および「ユーザーに緊急対応の場所を割り当てる [」を参照してください](assign-change-emergency-location-user.md)。
 
 ## <a name="configure-network-settings"></a>ネットワーク設定を構成する
 
@@ -226,9 +226,9 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 | クラウド | 使用するための条件 |
 | :------------|:-------|
-| World Wide Multi Tenant | 完全に利用可能 |
-| GCC | Teams IP 電話機を除くすべてのクライアントで使用可能 |
-| GCCH | Pending |
+| World Wide Multi Tenant | すべての Teams クライアントで利用可能 |
+| GCC | すべての Teams クライアントで利用可能 |
+| GCCH | Teams デスクトップで利用可能 |
 | DoD | Pending |
 
  ## <a name="related-topics"></a>関連項目

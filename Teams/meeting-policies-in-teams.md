@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議のポリシー設定を管理する方法について説明します。 ポリシーの設定を使用して、ユーザーによってスケジュールされた会議への参加者が利用できる機能を制御します。
-ms.openlocfilehash: c13c4222b1c6d6fc9e0c6fcdf73e614999f874e5
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 43ea3be7c8c8f99fdc762030ac526b4b068a4214
+ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617870"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "51712779"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -451,6 +451,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 - [匿名ユーザーが会議を開始できるようにする](#let-anonymous-people-start-a-meeting)
 - [ユーザーの参加を自動的に許可する](#automatically-admit-people)
 - [ダイヤルイン ユーザーによるロビーのバイパスを許可する](#allow-dial-in-users-to-bypass-the-lobby)
+- [チーム メンバーによるロビーのバイパスを許可する](#allow-team-members-to-bypass-the-lobby)
 - [ライブ キャプションを有効にする](#enable-live-captions)
 - [会議でチャットを許可する](#allow-chat-in-meetings)
 
@@ -478,9 +479,10 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 |値を設定する  |参加動作 |
 |---------|---------|
 |**すべてのユーザー**   |すべての会議参加者は、ロビーで待たずに会議に直接参加します。 これには、認証されたユーザー、信頼された組織の外部ユーザー (フェデレーション)、ゲスト、匿名ユーザーが含まれます。     |
-|**組織内およびフェデレーション組織のすべてのユーザー**     |ゲスト ユーザーや信頼された組織のユーザーなど、組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。  匿名ユーザーは、ロビーで待機します。   |
-|**組織内のすべてのユーザー**    |ゲスト ユーザーを含む組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。  信頼された組織および匿名ユーザーのユーザーが、ロビーで待機します。 これは、既定の設定です。           |
+|**自分の組織、信頼できる組織、およびゲストのユーザー**     |ゲスト ユーザーや信頼された組織のユーザーなど、組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。 匿名ユーザーは、ロビーで待機します。   |
+|**自分とゲストの組織のユーザー**    |ゲスト ユーザーを含む組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。 信頼された組織および匿名ユーザーのユーザーが、ロビーで待機します。 これは、既定の設定です。           |
 |**開催者のみ**    |会議の開催者のみが、ロビーで待たずに会議に直接参加します。 組織内の認証されたユーザー、ゲストユーザー、信頼された組織からのユーザーと匿名ユーザーを含むそれ以外のすべてのユーザーは、ロビーで待機する必要があります。           |
+|**自分の組織のユーザー**  |ゲスト ユーザーを除く組織内の認証ユーザーは、ロビーで待たずに会議に直接参加します。 信頼された組織および匿名ユーザーのゲストとユーザーが、ロビーで待機します。|
 
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>ダイヤルイン ユーザーによるロビーのバイパスを許可する
 
@@ -488,6 +490,10 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 > [!NOTE]
 > 組織のユーザーが会議に参加する前に、ダイヤルイン ユーザーが会議に参加すると、組織のユーザーがチームのクライアントと共に会議に参加して、そのユーザーを入室させるまで、ダイヤルインユーザーはロビーに入ります。 ユーザーの既定の設定を変更すると、そのユーザーによって開催されたすべての新しい会議に適用され、ユーザーが会議のオプションを変更していない以前の会議にも適用されます。
+
+### <a name="allow-team-members-to-bypass-the-lobby"></a>チーム メンバーによるロビーのバイパスを許可する
+
+会議ポリシーには、チーム メンバーが会議ロビーをバイパスできる設定があります。 組織内のユーザーがロビーをバイパスしても、ゲスト ユーザーはロビーをバイパスできない [EveryoneInCompanyExcludingGuests (ゲストを除く会社の全員)] オプションが追加されました。
 
 ### <a name="enable-live-captions"></a>ライブ キャプションを有効にする
 
@@ -516,7 +522,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
-Teams の **誰がプレゼンをするか?** 設定の既定値を指定するには、**DesignatedPresenterRoleMode** パラメーターを次のいずれかに設定します。
+Teams の **誰がプレゼンをするか?** 設定の既定値を指定するには、**DesignatedPresenterRoleMode** パラメーターを次の設定いずれかに設定します。
 
 - **EveryoneUserOverride**: すべての会議参加者は発表者になることができます。 これが既定値です。 このパラメーターは、 Teams 内の **すべてのユーザー** の設定 に呼応します。
 - **EveryoneInCompanyUserOverride**: 組織内の認証済みユーザー (ゲスト ユーザーを含む) は、発表者になることができます。 このパラメーターは、Teams の **組織内の人たち** 設定に呼応します。
