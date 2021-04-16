@@ -14,51 +14,53 @@ metadata:
   ms.reviewer: nsuter
   audience: admin
   f1.keywords:
-  - NOCSH
+    - NOCSH
   localization_priority: Normal
-  ROBOTS: NOINDEX, NOFOLLOW
+  ROBOTS: 'NOINDEX, NOFOLLOW'
   ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+    - Teams_ITAdmin_JourneyFromSfB
+    - M365-collaboration
   ms.custom:
-  - seo-marvel-apr2020
+    - seo-marvel-apr2020
   search.appverid: MET150
   appliesto:
-  - Microsoft Teams
-  ms.openlocfilehash: 2cd84e6eeb43816d86424f2e63919efb750cdaa5
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51102703"
+    - Microsoft Teams
 productDirectory:
   summary: 登録するワークショップのタイトルをクリックします。
   items:
-  - title: だから。。。Teams で通話を行いますか?
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: Teams 展開に PSTN 通話機能を追加する方法の詳細については、ご参加ください。 一緒に、呼び出し用語、主要な概念、構成について説明します。
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksCalling
-  - title: Teams でオーディオ/ビデオ品質を担当する
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: ユーザーが会議や音声機能で最適なエクスペリエンスを得る方法をご確認ください。 積極的な戦略の確立から一般的な問題の解決まで、サービス品質の管理に役立つツール、レポート、ベスト プラクティスについて説明します。
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksQuality
-  - title: Teams の基礎のアプリ
-    imageSrc: https://docs.microsoft.com/office/media/icons/cloud-devtest-teams.svg
-    summary: この基本セッションでは、アプリの管理やセキュリティなどの基本的な機能について説明します。 ワークフロー、生産性アプリ、および毎日使用するサービスを 1 つの統一されたエクスペリエンスに統合する方法について説明します。
-    url: https://microsoftteams.eventbuilder.com/ChalkTalksApps
-  - title: Teams のアプリを使用して重要なワークフローをスーパーチャージする
-    imageSrc: https://docs.microsoft.com/office/media/icons/layout-navigation-teams.svg
-    summary: 組織が依存するアプリを Teams に組み込み、システムを接続し、自動化を強化し、ユーザーに改善されたエクスペリエンスを提供します。
-    url: https://aka.ms/ChalkTalkKeyApps
+    - title: Teams でオーディオ/ビデオ品質を担当する
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
+      summary: ユーザーが会議や音声機能で最適なエクスペリエンスを得る方法をご確認ください。 積極的な戦略の確立から一般的な問題の解決まで、サービス品質の管理に役立つツール、レポート、ベスト プラクティスについて説明します。
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksQuality'
+    - title: だから。。。Teams で通話を行いますか?
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
+      summary: Teams 展開に PSTN 通話機能を追加する方法の詳細については、ご参加ください。 一緒に、呼び出し用語、主要な概念、構成について説明します。
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksCalling'
+    - title: Microsoft Teams でライブ イベントを活用する
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
+      summary: Microsoft Teams を使用して、大規模なオンライン仮想イベントで対象ユーザーを引き付け、活用します。 イベントが成功するためのベスト プラクティスについて説明します。
+      url: 'https://aka.ms/ChalkTalksVirtualEvents'
+    - title: Teams の基礎のアプリ
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
+      summary: この基本セッションでは、アプリの管理やセキュリティなどの基本的な機能について説明します。 ワークフロー、生産性アプリ、および毎日使用するサービスを 1 つの統一されたエクスペリエンスに統合する方法について説明します。
+      url: 'https://microsoftteams.eventbuilder.com/ChalkTalksApps'
+    - title: Teams のアプリを使用して重要なワークフローをスーパーチャージする
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
+      summary: 組織が依存するアプリを Teams に組み込み、システムを接続し、自動化を強化し、ユーザーに改善されたエクスペリエンスを提供します。
+      url: 'https://aka.ms/ChalkTalkKeyApps'
+    - title: Teams を使用して、最前線の従業員がさらに多くのことを行う権限を与える
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
+      summary: 効率的なエクスペリエンスを計画して実装するためのベスト プラクティスを確認し、生産性の高い会話、情報共有、および Frontline ワーカーのスケジュール管理を行います。
+      url: 'https://aka.ms/TeamsFLW'
 additionalContent:
   sections:
-  - items:
-    - title: Skype for Business をまだお使いですか?
-      summary: アップグレード ワークショップ シリーズをご覧ください。
-      url: upgrade-workshops-landing-page.yml
-    - title: ユーザーを準備する
-      summary: Teams Live トレーニングを使用してユーザーを立ち上げ、実行します。
-      url: ./instructor-led-training-teams-landing-page.yml
-    - title: Teams は初めてですか?
-      summary: Teams の使用を開始する方法について詳しくは、次のリンクを参照してください。
-      url: ./teams-overview.md
+    - items:
+        - title: Skype for Business をまだお使いですか?
+          summary: アップグレード ワークショップ シリーズをご覧ください。
+          url: upgrade-workshops-landing-page.yml
+        - title: ユーザーを準備する
+          summary: Teams Live トレーニングを使用してユーザーを立ち上げ、実行します。
+          url: ./instructor-led-training-teams-landing-page.yml
+        - title: Teams は初めてですか?
+          summary: Teams の使用を開始する方法について詳しくは、次のリンクを参照してください。
+          url: ./teams-overview.md
