@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
 ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/08/2021
 ms.locfileid: "51637819"
@@ -34,15 +34,15 @@ ms.locfileid: "51637819"
 |2020 年 10 月 5 日<br> *Complete* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| [Teams ミーティング ポリシー] を有効にすると、Microsoft Stream (クラシック) の代わりに OneDrive for Business と SharePoint に会議の記録を保存するこします|
 |2021 年 1 月 7 日より開始<br> *Complete* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|組織の Teams 会議ポリシーを変更し、それを明示的に **Stream** に設定することで、この変更を後回しにしない限り、すべての新しい Teams 会議の記録を OneDrive for Business と SharePoint に保存します。 Stream をポリシーで報告するだけでは十分ではありません。 ポリシー値を明示的に **Stream** に設定する必要があります。|
 |2021年 1 月 11 日より開始<br> *Complete* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC のみ**<br> GCC をご利用のお客様は、10 月 5 日からオプトアウトすることはできますが、オプト インすることはできません。 この機能は、(オプトアウト) を使用していない場合、2021 年 1 月 11 日以降のすべての GCC ユーザーにロールアウトされます。<br>  <br>2021 年 1 月 11 日から、GCC をご利用のお客様は、組織の Teams 会議ポリシーを変更し、それを明示的に **Stream** に設定することによって、この変更を遅らせない限りは、Teams の会議記録はすべて OneDrive for Business と SharePoint に保存されます。 <br><br>オプトアウトしても、この機能を有効にする準備ができたら、Teams の会議ポリシーを明示的に **OneDrive for Business** に設定することで、この機能を有効にすることができます。 |
-|2021 年 3 月 1 日からロールアウト開始 <br> *(完了)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High および DoDのみ**<br> お客様は Microsoft Teams で初めてクラウド会議の記録を有効にできるようになりました。 これらの録画は既定で OneDrive および SharePoint に保存され、再生されます。 |
+|2021 年 3 月 1 日からロールアウト開始<br> *(完了)* 　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High および DoDのみ**<br> お客様は Microsoft Teams で初めてクラウド会議の記録を有効にできるようになりました。 これらの録画は既定で OneDrive および SharePoint に保存され、再生されます。 |
 |2021 年 7 月 7 日から段階的に展開します &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**すべてのお客様 (エンタープライズ、教育、GCC)**<br>Microsoft Stream (クラシック) には、新しい会議の記録を保存できません。ユーザーがをチームの会議ポリシーを Stream に変更した場合でも、すべての顧客の会議記録は、OneDrive for Business と SharePoint に自動的に保存されます。<br><br> 組織の変化をより効果的に管理するために、変更が可能になるまで待つよりも、変更するのが都合が良いタイミングでオプト インすることをお薦めします。 |
 
 Microsoft Teams には、会議の記録を保存するための新しい方法があります。 従来の Microsoft Stream から[新しい Stream](/stream/streamnew/new-stream) への移行の最初のフェーズとして、このメソッドは Microsoft 365 の Microsoft OneDrive for Business と SharePoint に記録を保存し、多くの利点を提供します。
 
 > [!NOTE]
-> Teams 会議のレコーディングが OneDrive/SharePoint に正常にアップロードできない場合、記録は代わりに Azure Media Services (AMS) に一時的に保存されます。 AMS に保存すると、記録を OneDrive/SharePoint または Stream に自動的にアップロードする再試行は行われます。
+> Teams 会議の記録を OneDrive/SharePoint に正常にアップロードできない場合、記録は Azure Media Services (AMS) に一時的に保存されます。 AMS に保存すると、記録を OneDrive/SharePoint または Stream に自動的にアップロードするための再試行は行われなくなります。
 
-AMS に保存されている会議の記録は、自動的に削除される前の 21 日間利用できます。 ユーザーは、コピーを保持する必要がある場合、AMS からビデオをダウンロードできます。
+AMS に保存されている会議の記録は、自動的に削除される前に 21 日間使用できます。 コピーを保持する必要がある場合、ユーザーは AMS からビデオをダウンロードできます。
 
 記録の保存に OneDrive for Business と SharePoint を使用すると、次のような利点があります。
 
@@ -57,9 +57,9 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 - 複数地域のサポート – 記録はそのユーザーに固有の地域に格納されます。
 - 独自のキー (BYOK) サポートを利用する
 
-現在利用可能な機能の [完全な一覧と、今後の予想を確認してください](https://docs.microsoft.com/stream/streamnew/features-new-version-stream)。 
+「[現在使用可能な機能と今後期待される機能](https://docs.microsoft.com/stream/streamnew/features-new-version-stream)」 の全リストをご覧ください。 
 
-詳細については、「Microsoft Teams 会議レコーディングの新機能」を参照してください。
+詳細については、「Microsoft Teams 会議の記録の新機能」を参照してください。
 
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
@@ -68,7 +68,7 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 [会議の記録] オプションは、チーム ポリシー レベルの設定です。 次の例では、グローバル ポリシーの設定方法を示しています。 ユーザーに割り当てたポリシーに対して、[会議の記録] オプションが設定されていることを確認します。
 
 > [!Note]
-> Teams 会議ポリシーの変更が反映されるには、しばらく時間がかかる。 数時間の設定後にもう一度確認し、サインアウトして Teams デスクトップ アプリにもう一度サインインするか、コンピューターを再起動します。
+> Teams の会議ポリシー変更の反映にはしばらく時間がかかります。 設定してから数時間後に再び確認し、サインアウトしてから、Teams デスクトップ アプリにもう一度サインインするか、コンピューターを再起動します。
 
 1. Teams PowerShell PowerShell をインストールします。
 
@@ -152,7 +152,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 - チャネル会議の場合、アクセス許可はチャネルの所有者とメンバーの一覧から継承されます。
 
 > [!NOTE]
-> 記録の保存が完了しても、メールは送信されません。完了したレコーディングは、会議のチャットに表示されます。 これは、以前の Stream よりもはるかに速く発生します。
+> 記録の保存が完了しても、メールは送信されません。完了したレコーディングは、会議のチャットに表示されます。 以前の Stream と比べてはるかに早くなります。
 > 記録を共有するユーザーを制御することはできますが、共有アクセス権を持つユーザーが記録をダウンロードできないようにすることはできません。  
 
 **キャプションを管理する方法**
@@ -166,7 +166,7 @@ Teams 会議記録のクローズド キャプションは、会議が記録さ�
 Teams 会議の記録を元の場所から、OneDrive for Business または SharePoint 上に移動またはコピーした場合、クローズド キャプションは完全にサポートされません。
 
 > [!NOTE]
-> 英語専用のクローズド キャプションが表示されます (会議の議事書きは GCC ではまだ利用できません)。
+> 英語専用のクローズド キャプションがあります (会議の書き起こしは GCC ではまだ利用できません)。
 
 **記憶域のクォータにどのような影響がありますか?**
 
