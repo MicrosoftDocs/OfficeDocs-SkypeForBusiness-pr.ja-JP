@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: cc1ce6eec084dfe2f4bb736f018352e0eb0e2c88
 ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/27/2021
 ms.locfileid: "51397560"
@@ -46,4 +46,4 @@ Microsoft Teams には、組織内のユーザーが Outlook のメールと Tea
 
 [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) コマンドレットと **SmtpActionableMessagesEnabled** パラメーターを使用して、操作可能なメールをオフにできます。 既定では、**smtpActionableMessagesEnabled** パラメーターは、**true** に設定されます。 パラメーターを **false** に設定すると、Office 365 全体で操作可能なメール メッセージがオフになります。  Teams ユーザーの場合、Outlook で直接 **返信** するオプションは、見落としがあったアクティビティ メールには利用できません。 その代わりに、見落としがあったアクティビティ メールには、[**Teams で返信する**] オプションが含まれ、ユーザーは Teams から返信することができます。
 
-Outlook および Office [365 グループのアクション可能なメッセージも参照してください](https://docs.microsoft.com/outlook/actionable-messages/)。
+詳細については、「[Outlook および Office 365 グループの操作可能なメッセージ](https://docs.microsoft.com/outlook/actionable-messages/)」を参照してください。
