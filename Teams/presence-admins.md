@@ -9,7 +9,7 @@ audience: admin
 ms.reviewer: rakayala
 description: チームのプレゼンス状態とプレゼンス機能の管理設定について学習します。
 ms.custom: seo-marvel-apr2020
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5263880e049eb779c01f95ea58c6866bc1f3aa3c
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
-ms.translationtype: MT
+ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460557"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768416"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -52,7 +52,7 @@ ms.locfileid: "50460557"
 || ![矢印付き紫色の丸、外出中を示す](media/Presence_OOF.png) 外出中。 自動応答が設定されている場合、外出中が使用されます。 (Outlook でのみ利用可能です。) |
 |||
  > [!Note]
- > メールボックスがオンプレムでホストされているユーザーの場合、プレゼンスの遅延時間は最大 1 時間と予想されます。
+ > メールボックスが onprem でホストされているユーザーの場合、プレゼンスは最大 1 時間遅延する可能性があります。
 アプリで構成されたプレゼンス状態は、ユーザーのアクティビティ (連絡可能、退席中)、Outlook カレンダーの状態 (会議中)、Teams アプリの状態 (通話中、発表中) などに基づいています。 カレンダーに基づいてフォーカス モードになっている場合、**フォーカ** スは Teams で表示される状態になります。 フォーカス モードは、他の製品では **応答不可** と表示されます。
 
 コンピューターをロックするか、コンピューターがアイドル モードまたはスリープ モードに入ると、現在のプレゼンス状態が [退席中] に変わります。 モバイル端末では、Teams アプリがバックグラウンドにあるときはいつでも、プレゼンス状態が [退席中] に変わります。

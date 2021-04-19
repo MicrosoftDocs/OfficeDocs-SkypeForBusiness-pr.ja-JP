@@ -10,7 +10,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: この記事では、Microsoft Teams をインストールして実行するために必要なハードウェア要件について説明します。
 f1.keywords:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5e6668229ef481d0b6c30683540c060495e0f21
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
-ms.translationtype: MT
+ms.openlocfilehash: fe6e1daa0092fdffb92b9a800acd17365e3ffffc
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262354"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768216"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -35,12 +35,12 @@ ms.locfileid: "51262354"
 
 | コンポーネント | 要件 |
 |---------|---------|
-|コンピューターとプロセッサ    | 最小 1.6 GHz 以上、2コア<br><br>注: Intel プロセッサの場合、Intel Intel の Intel Intel Boost Technology (Max Frequency) を使用して実現される最大速度を考慮する必要があります。         |
+|コンピューターとプロセッサ    | 最小 1.6 GHz 以上、2コア<br><br>注: Intel プロセッサの場合、Intel Turbo Boost Technology を使用して実現される最大速度 (Max Turbo Frequency) を考慮する必要があります。         |
 |メモリ     |    4.0 GB RAM     |
 |ハード ディスク    | 3.0 GB の空きディスク容量        |
 |ディスプレイ    |   1024 x 768 の画面解像度 |
 |グラフィックス ハードウェア |  Windows OS: グラフィック ハードウェア アクセラレータを使用するには、Windows 10 用の WDDM 2.0以降 (または Windows 10 Fall Creators Update 用の WDDM 1.3 以降) と共にDirectX 9 以降をインストールする必要があります。
-|オペレーティング システム  |    ARM、Windows 8.1、Windows Server 2019、Windows Server 201 Windows Server 2012 6、R2 の Windows 10、Windows 10|
+|オペレーティング システム  |    Windows 10、ARM 上の Windows 10、Windows 8.1、Windows Server 2019、Windows Server 2016、Windows Server 2012 R2|
 |.NET のバージョン    |  NET 4.5 CLR 以降が必要       |
 |ビデオ    |  USB 2.0 ビデオ カメラ       |
 |デバイス    |   標準ラップトップ カメラ、マイク、スピーカー    |
@@ -55,7 +55,7 @@ ms.locfileid: "51262354"
 |メモリ     |   4.0 GB RAM      |
 |ハード ディスク    |   1.5 GB の空きディスク容量      |
 |ディスプレイ    | 1280 x 800 以上の解像度のモニター    |
-|オペレーティング システム  |    MacOS の 3 つの最新バージョンのいずれか。 最新の MacOS バージョンについての詳細とMacOS バージョンをアップグレードする方法については、[こちら](https://support.apple.com/en-us/HT201260)を参照 してください。 たとえば、新しいバージョンの MacOS がリリースされたときに、新しいバージョンとそのすぐ前にある 2つのバージョンがサポートされています。      |
+|オペレーティング システム  |    MacOS の 3 つの最新バージョンのいずれか。 最新の MacOS バージョンについての詳細とMacOS バージョンをアップグレードする方法については、[こちら](https://support.apple.com/ja-JP/HT201260)を参照 してください。 たとえば、新しいバージョンの MacOS がリリースされたときに、新しいバージョンとそのすぐ前にある 2つのバージョンがサポートされています。      |
 |ビデオ  |    互換性のある Web カメラ     |
 |音声    |  互換性のあるマイクとスピーカー、マイク付きヘッドセット、または同等のデバイス       |
 |ビデオ通話と会議 | <ul><li>これには、2 コア プロセッサが必要です。 ビデオ/画面共有の解像度とフレーム レートを高くするには、4 コア プロセッサまたはそれ以上のものをお勧めします。 </li><li>Microsoft Teams Room の類似性検出を使用して会議に参加する機能は、MacOS では利用できません。</li></ul>

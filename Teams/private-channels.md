@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 51768d35f70f0008d5d8a2ad7cccb213de9dcc3c
-ms.sourcegitcommit: e55d1623e686db2b183e02052bfe10a0269abb5d
-ms.translationtype: MT
+ms.openlocfilehash: e95277fab2c0813d94cf93aa4c1b207e3b06b46a
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51397570"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768396"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 

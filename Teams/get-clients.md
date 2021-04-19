@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
 ms.reviewer: harij, rafarhi
-localization_priority: Normal
+localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams で利用できる Web、デスクトップ (Windows、Mac)、およびモバイル (Android、iOS) などのさまざまなクライアントを使用する方法を知る。
 f1.keywords:
@@ -19,24 +19,23 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff9e407edeab7d14e0d495c5f30a85abfb9ce02f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.openlocfilehash: 8385e6721a24c3ad1bd320dd2f6e5e14091181b0
+ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112443"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "51768226"
 ---
-# <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する 
+# <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する
 
-Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モバイル (Android および iOS) で利用できるクライアントがあります。 これらのクライアントすべてにアクティブなインターネット接続が必要で、オフライン モードはサポートされていません。 
-
-> [!Note]
-> 別のプラットフォームでの機能についての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
+Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モバイル (Android および iOS) で利用できるクライアントがあります。 これらのクライアントすべてにアクティブなインターネット接続が必要で、オフライン モードはサポートされていません。
 
 > [!NOTE]
-> 2018 年 11 月 29 日付で、Microsoft Store から入手可能な Microsoft Teams の Windows 10 S (プレビュー) アプリが使用できなくなります。 代わりに、Windows 10 S モードを実行しているデバイスに、Teams デスクトップ クライアントをダウンロードしてインストールできるようになりました。 デスクトップ クライアントをダウンロードするには、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) にアクセスしてください。 Teams デスクトップ クライアントの MSI ビルドは、Windows 10 S モードを実行しているデバイスではまだ利用できません。
+> 別のプラットフォームでの機能についての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
 >
-> Windows 10 S モードの詳細については、「[Windows 10 (S モード) について](https://www.microsoft.com/windows/s-mode)」を参照してください。 
+> 2018 年 11 月 29 日付で、Microsoft Store から入手可能な Microsoft Teams の Windows 10 S (プレビュー) アプリが使用できなくなります。 代わりに、Windows 10 S モードを実行しているデバイスに、Teams デスクトップ クライアントをダウンロードしてインストールできるようになりました。 デスクトップ クライアントをダウンロードするには、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=855754) にアクセスしてください。 Teams デスクトップ クライアントの MSI ビルドは、Windows 10 S モードを実行しているデバイスではまだ利用できません。
+>
+> Windows 10 S モードの詳細については、「[Windows 10 (S モード) について](https://www.microsoft.com/windows/s-mode)」を参照してください。
 
 ## <a name="desktop-client"></a>デスクトップ クライアント
 
@@ -52,7 +51,7 @@ Microsoft Teams デスクトップ クライアントはスタンドアロン �
 > [!NOTE]
 > Chromebook に Teams をインストールする方法についての詳細情報については、「[Chromebook に Microsoft Office をインストールして実行する方法](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad)」を参照してください。
 
-IT 管理者は、組織内のコンピューターにインストール ファイルを配布する方法を選択できます。 Microsoft Endpoint Configuration Manager (Windows) や Jamf Pro (macOS) などを選択できます。 Windows ディストリビューションの MSI パッケージを取得するには、[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)を参照ください。  
+IT 管理者は、組織内のコンピューターにインストール ファイルを配布する方法を選択できます。 Microsoft Endpoint Configuration Manager (Windows) や Jamf Pro (macOS) などを選択できます。 Windows ディストリビューションの MSI パッケージを取得するには、[MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)を参照ください。
 
 > [!NOTE]
 > これらのメカニズムによるクライアントの配布は、Microsoft Teams クライアントの初回インストール時にのみ利用でき、それ以降の更新では利用できません。
@@ -81,7 +80,7 @@ Windows クライアントは、ユーザーのプロファイルの AppData フ
 > [!NOTE]
 > Windows ファイアウォールの設定は、[キャンセル] を選択してプロンプトを閉じた場合でも変更されます。 TCP プロトコルと UDP プロトコルの両方の許可アクションで、teams.exe の 2 つの受信ルールが作成されます。 
 
-ユーザーが Teams で最初の通話を行うときに、ファイアウォール ルールの作成が要求されないようにする場合は、下に示す「[PowerShell のサンプル スクリプト - 受信ファイアウォール ルール](#sample-powershell-script---inbound-firewall-rule)」を使用します。 
+ユーザーが Teams で最初の通話を行うときに、ファイアウォール ルールの作成が要求されないようにする場合は、下に示す「[PowerShell のサンプル スクリプト - 受信ファイアウォール ルール](#sample-powershell-script---inbound-firewall-rule)」を使用します。
 
 ### <a name="mac"></a>Mac
 
@@ -110,12 +109,12 @@ IT 管理者は、Teams の管理の展開を使用して、Jamf Pro などの�
 
 ### <a name="linux"></a>Linux
 
-ユーザーは、ネイティブの Linux パッケージを `.deb` 形式と `.rpm` 形式でインストールできます。
-DEB パッケージか RPM パッケージをインストールすると、パッケージ リポジトリが自動的にインストールされます。
-- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
-- RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
+ユーザーは、ネイティブの Linux パッケージを `.deb` 形式と `.rpm` 形式でインストールできます。 DEB パッケージか RPM パッケージをインストールすると、パッケージ リポジトリが自動的にインストールされます。
 
-システムのパッケージ マネージャーを使用して自動更新を有効にするための署名キーが自動的にインストールされます。 ただし、これは (https://packages.microsoft.com/keys/microsoft.asc) にもあります。 Microsoft Teams は毎月更新されており、リポジトリが正常にインストールされていれば、システム上の他のパッケージと同様に、システム パッケージ マネージャーによって自動更新が処理されます。
+- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
+- RPM `https://packages.microsoft.com/yumrepos/ms-teams`
+
+システムのパッケージ マネージャーを使用して自動更新を有効にするための署名キーが自動的にインストールされます。 ただし、これは <https://packages.microsoft.com/keys/microsoft.asc> にもあります。 Microsoft Teams は毎月更新されており、リポジトリが正常にインストールされていれば、システム上の他のパッケージと同様に、システム パッケージ マネージャーによって自動更新が処理されます。
 
 > [!NOTE] 
 > バグが見つかった場合は、クライアント内から `Report a Problem` を使用してご報告ください。 既知の問題については、「[組織で Teams をサポートする](/MicrosoftTeams/troubleshoot/teams-welcome)」を参照してください。
@@ -123,16 +122,16 @@ DEB パッケージか RPM パッケージをインストールすると、パ�
 
 #### <a name="install-teams-using-deb-package"></a>DEB パッケージを使用して Teams をインストールする
 
-1. https://aka.ms/getteams からパッケージをダウンロードします。
-2. 次のいずれかの方法でインストールします。  
+1. <https://aka.ms/getteams> からパッケージをダウンロードします。
+2. 次のいずれかの方法でインストールします。
     - 適切なパッケージ管理ツールを開き、Linux アプリのセルフガイド インストール プロセスを実行します。
     - ターミナルから実行する場合は、「`sudo dpkg -i **teams download file**`」と入力します。
 
-Teams は、アクティビティから起動することも、ターミナルから「`teams`」と入力して起動することもできます。 
+Teams は、アクティビティから起動することも、ターミナルから「`teams`」と入力して起動することもできます。
 
 #### <a name="install-teams-using-rpm-package"></a>RPM パッケージを使用して Teams をインストールする
 
-1. https://aka.ms/getteams からパッケージをダウンロードします。
+1. <https://aka.ms/getteams> からパッケージをダウンロードします。
 2. 次のいずれかの方法でインストールします。
     - 適切なパッケージ管理ツールを開き、Linux アプリのセルフガイド インストール プロセスを実行します。
     - ターミナルから実行する場合は、「`sudo yum install **teams download file**`」と入力します。
@@ -145,9 +144,9 @@ Debian や Ubuntu のディストリビューションには、次のように�
 
 ```bash
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
- 
+
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
- 
+
 sudo apt update
 sudo apt install teams
 ```
@@ -156,9 +155,9 @@ RHEL、Fedora、CentOS ベースのディストリビューションには、次
 
 ```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
- 
+
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
- 
+
 sudo dnf check-update
 sudo dnf install teams
 ```
@@ -174,16 +173,16 @@ openSUSE ベースのディストリビューションには、次のように�
 
 ```bash
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
- 
+
 sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
- 
+
 sudo zypper refresh
 sudo zypper install teams
 ```
 
-## <a name="web-client"></a>Web クライアント 
+## <a name="web-client"></a>Web クライアント
 
-Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、さまざまなブラウザーから使用できる、完全な機能クライアントです。 Web クライアントは WebRTC を使用することによって通話と会議をサポートするため、Web ブラウザーで Teams を実行するためのプラグインやダウンロードの必要がありません。 ブラウザーはサードパーティの Cookie を許可するように設定する必要があります。 
+Web クライアント ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) は、さまざまなブラウザーから使用できる、完全な機能クライアントです。 Web クライアントは WebRTC を使用することによって通話と会議をサポートするため、Web ブラウザーで Teams を実行するためのプラグインやダウンロードの必要がありません。 ブラウザーはサードパーティの Cookie を許可するように設定する必要があります。
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
@@ -191,26 +190,26 @@ Web クライアントは[https://teams.microsoft.com](https://go.microsoft.com/
 
 ## <a name="mobile-clients"></a>モバイル クライアント
 
-Microsoft Teams モバイル アプリは Android および iOS で利用可能で、外出先でチャット会話に参加しているユーザーを対象とし、ピア ツー ピアの音声通話を許可します。 モバイル アプリを使用する場合は、Google Play と Apple App Store の関連モバイル ストアに移動します。 Windows Phone App は 2018 年 7 月 20 日に廃止された為、動作しなくなる可能性があります。 
+Microsoft Teams モバイル アプリは Android および iOS で利用可能で、外出先でチャット会話に参加しているユーザーを対象とし、ピア ツー ピアの音声通話を許可します。 モバイル アプリを使用する場合は、Google Play と Apple App Store の関連モバイル ストアに移動します。 Windows Phone App は 2018 年 7 月 20 日に廃止された為、動作しなくなる可能性があります。
 
-中国で Android 用 Teams を取得する方法については、[こちら](get-teams-android-in-china.md)を参照してください。 
+中国で Android 用 Teams を取得する方法については、[こちら](get-teams-android-in-china.md)を参照してください。
 
 Microsoft Teams モバイル アプリをサポートしているモバイル プラットフォームは次のとおりです。
 
--   **Android**: サポート対象は、最新の 4 つのメジャー バージョンの Android に限られています。 新しいメジャー バージョンの Android がリリースされると、その新しいバージョンと、その前の 3 つのバージョンが正式にサポートされます。
+- **Android**: サポート対象は、最新の 4 つのメジャー バージョンの Android に限られています。 新しいメジャー バージョンの Android がリリースされると、その新しいバージョンと、その前の 3 つのバージョンが正式にサポートされます。
 
--   **iOS**: サポート対象は、最新の 2 つのメジャー バージョンの iOS に限られています。 新しいメジャー バージョンの iOS がリリースされると、その新しいバージョンの iOS と、その 1 つ前のバージョンが正式にサポートされます。
+- **iOS**: サポート対象は、最新の 2 つのメジャー バージョンの iOS に限られています。 新しいメジャー バージョンの iOS がリリースされると、その新しいバージョンの iOS と、その 1 つ前のバージョンが正式にサポートされます。
 
 > [!NOTE]
 > Teams が正常に動作するには、そのモバイル バージョンが公開されている必要があります。
 
 モバイル アプリは、それぞれのモバイル プラットフォームのアプリ ストアからのみ配布および更新されます。 MDM やサイド ロードからモバイル アプリを配布することは、Microsoft ではサポートしていません。 サポートされているモバイル プラットフォームにモバイル アプリがインストールされると、Teams モバイル アプリ自体、そのバージョンが現在のリリースから 3 か月以内であればサポートされます。
 
-
 | | | |
-|---------|---------|---------|
-|![判断ポイントを表すアイコン](media/Get_clients_for_Microsoft_Teams_image4.png)      |判断ポイント         |ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?         |
-|![次のステップを表すアイコン](media/Get_clients_for_Microsoft_Teams_image5.png)     |次のステップ         |組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。         |
+|---|---|---|
+|![判断ポイントを表すアイコン](media/Get_clients_for_Microsoft_Teams_image4.png)|判断ポイント|ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?|
+|![次のステップを表すアイコン](media/Get_clients_for_Microsoft_Teams_image5.png)|次のステップ|組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。|
+|
 
 ## <a name="client-update-management"></a>クライアントの更新管理
 
@@ -228,7 +227,7 @@ Microsoft Teams モバイル アプリをサポートしているモバイル �
 
 ## <a name="sample-powershell-script---inbound-firewall-rule"></a>PowerShell のサンプル スクリプト - 受信ファイアウォール ルール
 
-このサンプル スクリプトは、管理者アカウントのコンテキスト内のクライアント コンピューターで実行する必要があり、c:\users にある各ユーザーのフォルダーの新しい受信ファイアウォール ルールを作成します。 Teams がこのルールを検出すると、ユーザーが Teams からの最初の呼び出しを行うときに、ファイアウォール ルールを作成する為の Teams アプリケーションからユーザーへの指示ができなくなります。 
+このサンプル スクリプトは、管理者アカウントのコンテキスト内のクライアント コンピューターで実行する必要があり、c:\users にある各ユーザーのフォルダーの新しい受信ファイアウォール ルールを作成します。 Teams がこのルールを検出すると、ユーザーが Teams からの最初の呼び出しを行うときに、ファイアウォール ルールを作成する為の Teams アプリケーションからユーザーへの指示ができなくなります。
 
 ```powershell
 <#
@@ -236,8 +235,8 @@ Microsoft Teams モバイル アプリをサポートしているモバイル �
    Creates firewall rules for Teams.
 .DESCRIPTION
    (c) Microsoft Corporation 2018. All rights reserved. Script provided as-is without any warranty of any kind. Use it freely at your own risks.
-   Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions. 
-   The script will create a new inbound firewall rule for each user folder found in c:\users. 
+   Must be run with elevated permissions. Can be run as a GPO Computer Startup script, or as a Scheduled Task with elevated permissions.
+   The script will create a new inbound firewall rule for each user folder found in c:\users.
    Requires PowerShell 3.0.
 #>
 
