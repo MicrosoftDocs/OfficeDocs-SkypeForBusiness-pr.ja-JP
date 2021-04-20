@@ -21,22 +21,22 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を得る Microsoft Teams の認定を受けたデスク電話と電話会議について説明します。
-ms.openlocfilehash: 758907a284afc7ab4ec4f172eee10c82ce456d61
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 7d0c0812776fd9ae1820732b2d67e8e4ed0cfc12
+ms.sourcegitcommit: b782ca2ef946ae25e847c2d1847a89993a8edef8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768446"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "51886716"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 認定デバイス
 
 Microsoft Teams 認定プログラムでは、認定されたデスクフォンと電話会議を使用するユーザーに、高品質の音声通話と会議のエクスペリエンスが提供されます。
 
-Microsoft Teams 認定プログラムでは、高いパフォーマンス ターゲットとオーディオ品質メトリックを備え、高品質のバーを確保します。 パートナーは、この上位のバーを満たすために積極的に取り組み、認定要件に対する対象デバイスです。 また、パートナーの中には、Teams 電話機と同じハードウェアでの Skype for Business サービスのサポートを提供する取り組みも行っています。 Microsoft Teams 認定デバイスの利点は次のとおりです。
+Microsoft Teams の認定プログラムでは、高いパフォーマンス ターゲットとオーディオ品質メトリックを備え、高品質のバーを確保します。 パートナーは、この上位のバーを満たすために積極的に取り組み、認定要件に対する対象デバイスです。 また、パートナーの中には、Teams 電話機と同じハードウェアでの Skype for Business サービスのサポートを提供する取り組みも行っています。 Microsoft Teams 認定デバイスの利点は次のとおりです。
 
 - ハードウェア ボタンの統合と LED 通知に関するネイティブな Teams 体験
 - 予定表の統合とワンタッチ会議参加
-- Intune 統合を使用して Teams 管理センターを介して展開および管理する
+- Intune 統合を使用した Teams 管理センターによる展開と管理
 
 ## <a name="currently-certified-teams-phones"></a>現在認定されている Teams スマートフォン
 
@@ -44,9 +44,10 @@ Microsoft Teams 認定プログラムでは、高いパフォーマンス ター
 
 |デバイス モデル                         | ファームウェアのバージョン                                                                                                                                                                                                                           | リリース日
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| Audiocodes C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
-| Audiocodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
-| オーディオ コード C448HD (CAP モードのみ)      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
+| AudioCodes C435HD                      | 1.12.33                                                  | 2021 年 4 月                 |
+| AudioCodes C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
+| AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
+| AudioCodes C448HD (CAP モードのみ)      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 |クレットロン UC-2                           |1.0.1.46                                                  | 2020 年 7 月                    |
 | Crestron M100                          | この製品は廃止されました。 詳細については、カドロンの Web サイトで、クナロン [M100](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) を参照してください。 | 廃止 (2020/5/11) |
 | Crestron Flex UC-P100-T & UC-P110-T    | この製品は廃止されました。 詳細については、 [クデロンの Web](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS) サイトにある UC Phone を参照してください。                  | 廃止 (2020/5/11) |
@@ -67,7 +68,7 @@ Microsoft Teams 認定プログラムでは、高いパフォーマンス ター
 
 ## <a name="currently-certified-teams-rooms-on-android"></a>Android で現在認定されている Teams の会議室
 
-次のデバイスは、Android 上の Microsoft Teams Rooms 認定プログラムの認定を受けています。
+次のデバイスは、Android 上の Microsoft Teams Rooms 認定プログラムで認定されています。
 
 | デバイス モデル | ファームウェアのバージョン | リリース日  | 部屋のサイズ                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
@@ -79,7 +80,7 @@ Microsoft Teams 認定プログラムでは、高いパフォーマンス ター
 | Poly TC8                | 3.3.2.210441     | 2021 年 3 月    | Poly Studio X30 および Poly Studio X50 と互換性がある |
 | Yealink VC210           | 118.15.0.14      | 2020 年 2 月 | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
 
-## <a name="currently-certified-teams-displays"></a>現在認定されている Teams ディスプレイ
+## <a name="currently-certified-teams-displays"></a>現在認定されている Teams のディスプレイ
 
 次のデバイスは、Microsoft Teams ディスプレイ Android 認定プログラムの認定を受けています。
 
@@ -149,7 +150,6 @@ Microsoft Teams 認定プログラムでは、高いパフォーマンス ター
 
 | 製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイトのバージョン | 管理エージェントのバージョン |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-| 2021 更新プログラム#1  |2021 年 4 月 7 日  |1449/1.0.96.2021020902(Yealink VC210)  |5.0.4927.0     |1.0.0.202010121132.product バージョン コード: 223 |
 | 2021 更新プログラム#1  |2021 年 4 月 5 日  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product バージョン コード: 223 |
 | 2020 更新プログラム#3  |2020 年 11 月 24 日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product バージョン コード: 216 |
 | 2020 更新プログラム#2  | 2020 年 8 月 24 日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product バージョン コード: 212|
@@ -182,7 +182,7 @@ Microsoft Teams 認定プログラムでは、高いパフォーマンス ター
 
 #### <a name="firmware-versions"></a>ファームウェアのバージョン
 
-デバイスに新しいファームウェア バージョンをインストールする場合、対応する Microsoft Teams アプリ、ポータル サイト、管理エージェント (含まれる製品リリース列で製品リリースを見つけることによってインストールされるバージョン) を **特定できます。** 次に、上記の App **versions テーブルで製品リリースを確認** します。
+デバイスに新しいファームウェア バージョンをインストールすると、対応する Microsoft Teams アプリ、ポータル サイト、管理エージェント (含まれる製品リリース列で製品リリースを見つけることによってインストールされるバージョン) を **特定できます。** 次に、上記の App **versions テーブルで製品リリースを確認** します。
 
 | デバイス モデル  | ファームウェアのバージョン | 含まれる製品リリース|
 |:--------------|:-----------------|:-------------------------|
@@ -195,7 +195,7 @@ Microsoft Teams 認定プログラムでは、高いパフォーマンス ター
 
 ご利用のモバイル デバイスのファームウェア バージョンを確認するには、「[Finding the Firmware version on a mobile device (モバイルデバイスのファームウェアバージョンの検索)](phones-for-teams.md)」を参照してください。
 
-Microsoft Teams ライセンスは [、Microsoft 365 または 365 サブスクリプションの一](/office365/servicedescriptions/teams-service-description)部としてOffice購入できます。 電話で Microsoft Teams を使用するために必要なライセンスの詳細については、利用可能な[電話システムライセンス](https://products.office.com/microsoft-teams/voice-calling)を参照してください。
+Microsoft Teams ライセンスは [、Microsoft 365 または 365](/office365/servicedescriptions/teams-service-description)サブスクリプションの一部としてOffice購入できます。 電話で Microsoft Teams を使用するために必要なライセンスの詳細については、利用可能な[電話システムライセンス](https://products.office.com/microsoft-teams/voice-calling)を参照してください。
 
 Teams の入手方法については[Microsoft Teams へのアクセス権を取得するにはどうしたらよいですか?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)を参照してください。
 
