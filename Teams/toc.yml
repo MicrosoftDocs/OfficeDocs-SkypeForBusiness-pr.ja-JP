@@ -297,8 +297,6 @@ items:
         items:
           - name: プライバシーと Microsoft Teams
             href: teams-privacy.md
-          - name: データ収集方法
-            href: data-collection-practices.md
           - name: Teams のデータの場所
             href: location-of-data-in-teams.md
           - name: 特定のユーザーの Sharepoint Online へのアクセスをブロックする
@@ -851,8 +849,6 @@ items:
                 href: aa-cq-cqd-historical-reports.md
               - name: ダイヤルおよび音声参照
                 href: dial-voice-reference.md
-              - name: Reporting
-                href: aa-cq-cqd-historical-reports.md
           - name: 受信通話をブロックする
             href: block-inbound-calls.md
           - name: コール パークおよび取得
@@ -1545,10 +1541,6 @@ items:
             href: devices/teams-ip-phones.md
           - name: Skype for Business Online 対応の電話機
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Teams の警告と監視
-            href: alerts/teams-admin-alerts.md
-          - name: Teams のサービス正常性の監視
-            href: alerts/device-health-status.md
       - name: Teams PowerShell
         items:
           - name: 概要
