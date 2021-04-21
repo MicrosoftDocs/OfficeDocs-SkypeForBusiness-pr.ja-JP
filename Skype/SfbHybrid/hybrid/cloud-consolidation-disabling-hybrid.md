@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この記事では、Teams と Skype for Business のクラウド統合の一環としてハイブリッドを無効にする詳細な手順について説明します。
-ms.openlocfilehash: 18bda898563e10dbf964ba149f27202372fbcceb
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 08d305fa2650cffbadb0ec3122458f4a57e052a4
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656703"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899108"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>ハイブリッド構成を無効にしてクラウドへの移行を完了する
 
@@ -106,7 +106,10 @@ ms.locfileid: "51656703"
 
 管理者は、オンプレミスの展開が使用停止された後でも、オンプレミスの Skype for Business Server からクラウドに以前に移動されたユーザーを管理できます。 ユーザーの SIP アドレスまたはユーザーの電話番号 (および sip アドレスまたは電話番号に既にオンプレミスの Active Directory に値が含まれる) を変更する場合は、オンプレミスの Active Directory でこれを行い、値を Azure AD に流す必要があります。 これは、オンプレミスの Skype for Business Server を必要としません。 代わりに、Active Directory ユーザーとコンピューター MMC スナップイン (以下に示す) を使用するか、PowerShell を使用して、オンプレミスの Active Directory でこれらの属性を直接変更できます。 MMC スナップインを使用している場合は、ユーザーの [プロパティ] ページを開き、[属性エディター] タブをクリックして、変更する適切な属性を探します。
 
-- ユーザーの sip アドレスを変更するには、 を変更します `msRTCSIP-PrimaryUserAddress` 。 属性に sip `ProxyAddresses` アドレスが含まれている場合は、その値もベスト プラクティスとして更新してください。 入力されている場合、SIP アドレスは O365 によって無視されます。ただし、他のオンプレミス コンポーネント `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` で使用される場合があります。
+- ユーザーの sip アドレスを変更するには、 を変更します `msRTCSIP-PrimaryUserAddress` 。
+
+    > [!NOTE]
+    > 属性に `ProxyAddresses` sip アドレスが含まれている場合は、その値もベスト プラクティスとして更新します。 入力されている場合、SIP アドレスは O365 によって無視されます。ただし、他のオンプレミス コンポーネント `ProxyAddresses` `msRTCSIP-PrimaryUserAddress` で使用される場合があります。
 
 - ユーザーの電話番号を変更するには、値 `msRTCSIP-Line` *が既に設定されている場合に変更します*。
 
@@ -172,7 +175,7 @@ ms.locfileid: "51656703"
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. 次のオンプレミスの Skype for Business PowerShell コマンドレットを実行して、オンプレミスの Active Directory proxyAddresses に sip アドレス値を追加します。 これにより、この属性に依存する相互運用性の問題が防止されます。 
+5. オンプレミスの Active Directory proxyAddresses に sip アドレス値をWindows PowerShellする場合は、次のオンプレミス Active Directory モジュールを実行します。 これにより、この属性に依存する相互運用性の問題が防止されます。 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"

@@ -2,7 +2,7 @@
 title: Teams における承認アプリケーションの利用の可否
 author: cichur
 ms.author: v-cichur
-ms.reviewer: aravin
+ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4235232a9d74b4583ecaed19b68ff87de982085c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
+ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103013"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51902571"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 
@@ -40,6 +40,9 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 
 この記事では、承認アプリの要件と役割について説明します。
 
+> [!NOTE]
+> この機能は、Government Community Cloud (GCC)、Government Community Cloud High (GCCH)、国防総省 (DOD) ユーザーにはまだリリースされていません。
+
 ## <a name="required-permissions-and-licenses"></a>必要なアクセス許可とライセンス
 
 承認アプリを使用するには、次のアイテムに対する権限が必要です。
@@ -54,7 +57,7 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 
 ## <a name="storage-with-cds"></a>CDS を使用するストレージ
 
-共通データ モデル (CDM) は、CDS のビジネス アプリケーションや分析アプリケーションで使用される共有データ言語です。 これは、Microsoft とそのパートナーによって公開された、一連の標準化された拡張可能なデータ スキーマで構成されており、アプリケーションとビジネス プロセス全体でデータとその意味の一貫性を実現します。 [Microsoft Power Platform の共通データ モデル](/power-automate/get-started-approvals)の詳細については、以下をご覧ください。
+共通データ モデル (CDM) は、CDS のビジネス アプリケーションや分析アプリケーションで使用される共有データ言語です。 これは、Microsoft とパートナーによって発行された標準化された拡張可能なデータ スキーマのセットで構成され、アプリケーションとビジネス プロセス全体でデータとその意味の一貫性を実現します。 [Microsoft Power Platform の共通データ モデル](/power-automate/get-started-approvals)の詳細については、以下をご覧ください。
 
 [承認ワークフロー](/power-automate/modern-approvals)の詳細。
 
