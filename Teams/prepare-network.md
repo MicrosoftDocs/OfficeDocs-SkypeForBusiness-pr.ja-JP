@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: ff6959319a55183f33c8998adc4a4a46c640bca4
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
+ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768386"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "51899088"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
@@ -40,12 +40,11 @@ ms.locfileid: "51768386"
     |[IP アドレス](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>、<strong>52.112.0.0/14</strong>、および <strong>52.120.0.0/14</strong>         |
 
     > [!IMPORTANT]
-    > オンプレミスまたはオンラインのいずれかで Skype for Business と連携する必要がある場合は、いくつかの追加の DNS レコードを構成する必要があります。
+    > オンプレミスまたはオンラインのいずれかで Skype for Business と連携する必要がある場合は、追加の DNS レコードを構成する必要があります。
     >
-    >|CNAME レコード / ホスト名  |TTL  |ポイント先のアドレスまたは値  |
-    >|---------|---------|---------|
-    >|sip     |    3600     |    sipdir.online.lync.com     |
-    >|lyncdiscover     |   3600      |    webdir.online.lync.com     |
+    >|DNS レコード  |サービス  |Protocol  |Priority  |Weight  |Port  |Target  |
+    >|---------|---------|---------|---------|---------|---------|---------|
+    >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
     
 2.  Microsoft 365 または Office 365 の検証済みドメイン (たとえば、contoso.com) はありますか?
     
@@ -85,8 +84,8 @@ ms.locfileid: "51768386"
 <table>
 <thead>
 <tr class="header">
-<th><strong>ネットワーク最適化のタスク</strong></th>
-<th><strong>詳細</strong></th>
+<th>ネットワークの最適化タスク</th>
+<th>詳細</th>
 </tr>
 </thead>
 <tbody>
