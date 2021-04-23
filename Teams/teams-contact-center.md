@@ -13,16 +13,16 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 632fbacd9cd1ba8face3571597bc17e5e5a8a70b
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+ms.openlocfilehash: 14d83255644d3f748fdc81144b944ec4b62f5fbd
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656753"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948693"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合
 
-人気のあるコンタクト センター ソリューションを Microsoft Teams と統合することは、Teams の通話機能を展開するユーザーの一般的なニーズです。  この記事では、連絡先センター ソリューションを Microsoft Teams と統合する方法の概要と、Microsoft Teams 接続コンタクト センター認定プログラムに参加しているソリューション プロバイダーに関する追加情報について説明します。
+人気のあるコンタクト センター ソリューションを Microsoft Teams と統合することは、Teams の通話機能を展開するユーザーの一般的なニーズです。  この記事では、コンタクト センター ソリューションを Microsoft Teams と統合する方法の概要と、Microsoft Teams Connected Contact Center 認定プログラムに参加しているソリューション プロバイダーに関する追加情報について説明します。
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams のコンタクト センターの統合とは
 
@@ -38,7 +38,7 @@ Microsoft Teams は、チャット、ビデオ会議、通話などの通信モ�
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams Certification プログラム用のコネクテッド コンタクト センター
 
-API を使用すると、ソリューション プロバイダーは、Teams 用の CCaaS ソリューションを開発して統合できます。 さらに、Microsoft Teams 認定プログラム用の接続コンタクト センターを開発し、Microsoft ソリューションから期待される品質、互換性、信頼性を提供するために、各参加プロバイダーのソリューションがテストおよび検証されていることを保証する保証を顧客に提供しています。
+API を使用すると、ソリューション プロバイダーは、Teams 用の CCaaS ソリューションを開発および統合できます。 さらに、Microsoft Teams 認定プログラム用のコネクテッド コンタクト センターを開発し、Microsoft ソリューションから期待される品質、互換性、信頼性を提供するために、各参加プロバイダーのソリューションがテストされ、検証されていることをお客様に保証します。
 
 ![認定バッジ。](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
@@ -51,7 +51,7 @@ API を使用すると、ソリューション プロバイダーは、Teams 用
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
-### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>認定プロセス中の接続されたコンタクト センター ソリューション
+### <a name="connected-contact-center-solutions-currently-in-the-certification-process"></a>現在認定プロセス中のコネクテッド コンタクト センター ソリューション
 
 |  ソリューション プロバイダー                                                                                                                               |  ソリューションの Web サイト                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -65,15 +65,16 @@ API を使用すると、ソリューション プロバイダーは、Teams 用
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
-このリストは、より多くのソリューション プロバイダーが参加し、認定条件を満たすと更新されます。
+この一覧は、より多くのソリューション プロバイダーが参加し、認定基準を満たすと更新されます。
 
 ### <a name="connect"></a>接続
 
-このモデルは、CCaaS ソリューション プロバイダーと Microsoft Teams の電話システム インフラストラクチャを接続し、ルーティング、構成、システムインサイトを強化します。 
+このモデルは、CCaaS ソリューション プロバイダーと Microsoft Teams 電話システム インフラストラクチャを接続し、ルーティング、構成、およびシステムの洞察を強化します。 
 
-Connect モデルに構築されたソリューションを使用するエージェントは、情報 & インサイトを収集し、必要に応じて、Teams での SME のプレゼンスを使用して、問題の専門家に直接転送することができます。
+Connect モデルで構築されたソリューションを使用するエージェントは、情報 & 分析情報を収集し、必要に応じて主題の専門家に直接呼び出しを転送することができます。その可用性を確保するために Teams での SME のプレゼンスを使用します。
 
 組織は、自動化された仮想アシスタントやスキル ベースのルーティング キューを設定することで、最適なエージェントへの通話を確実に行うことができます。
 
@@ -89,15 +90,15 @@ Connect モデルに構築されたソリューションを使用するエージ
 
   - Teams との統合のための Teams Graph API とクラウド通信 API 
 
-  - マルチテナント SIP トランキングをサポートして、ソリューション プロバイダーの SBC に関する複数のお客様をサポートできます。  
+  - ソリューション プロバイダーの SBC で複数の顧客をサポートするマルチテナント SIP トランキングをサポートできます。  
 
-  - Microsoft 認定セッション ボーダー コントローラー [ <span class="underline">(SBC)</span>を使用するソリューション プロバイダー](./direct-routing-border-controllers.md) 
+  - Microsoft 認定セッション ボーダー コントローラー [ <span class="underline">(SBC) を使用するソリューション プロバイダー</span>](./direct-routing-border-controllers.md) 
 
-### <a name="extend"></a>拡張
+### <a name="extend"></a>延長する
 
-このモデルでは、 [Teams クライアントプラットフォーム](/microsoftteams/platform/overview)、[Teams Graph API](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)、[Microsoft Graph のクラウド通信 API ](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を使用して Teams クライアントと統合し、コンタクト センターの担当者とエージェントの操作を拡張します。このモデルでは、すべてのコンタクト センターの通話と通話コントロールの操作に Teams 電話システムを使用します。 このモデルでは、連絡先センター ソリューション プロバイダーは、Microsoft 365 と並んでテレフォニー通信事業者として機能します。
+このモデルでは、 [Teams クライアントプラットフォーム](/microsoftteams/platform/overview)、[Teams Graph API](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)、[Microsoft Graph のクラウド通信 API ](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を使用して Teams クライアントと統合し、コンタクト センターの担当者とエージェントの操作を拡張します。このモデルでは、すべてのコンタクト センターの通話と通話コントロールの操作に Teams 電話システムを使用します。 このモデルでは、コンタクト センター ソリューション プロバイダーは、Microsoft 365 と並んでテレフォニー キャリアとして機能します。
 
-Connect および拡張ベースのソリューションを使用すると、エージェントは、契約を開始する前に、複数のシステムからのデータを動的に関連付けるコンテキスト ノートを利用し、内部コラボレーションと外部通信の両方のために Teams 内でネイティブに作業することでコストの高いコンテキストの切り替えを回避できます。
+Connect と Extend ベースのソリューションを使用することで、エージェントは、エンゲージメントを開始する前に複数のシステムのデータを関連付ける動的なコンテキスト ノートの恩恵を受け、内部コラボレーションと外部通信の両方で Teams 内でネイティブに作業することで、コストの高いコンテキスト切り替えを回避できます。
 
 組織では、個人に向けてワークフローや高度なルーティング構成を設計し、システムとやり取りの品質を測定できます。
 
@@ -107,7 +108,7 @@ Connect および拡張ベースのソリューションを使用すると、エ
 
   - Teams との統合のための Teams Graph API とクラウド通信 API 
 
-  - エージェントエクスペリエンス用の Teams ベースのアプリ 
+  - エージェント エクスペリエンス用の Teams ベースのアプリ 
 
   - エージェントのプライマリ通話エンドポイントとしての Teams 
 
@@ -125,9 +126,9 @@ Connect および拡張ベースのソリューションを使用すると、エ
 
 このモデルを使用すると、ソリューション プロバイダーは、Teams の呼び出しインフラストラクチャとクライアント プラットフォームを使用してネイティブの Azure ベースの音声アプリケーションを作成し、顧客とエージェントの共同作業を行う最新のインテリジェントなソリューションを提供できます。 拡張とパワーモデルの目標は、開発者の創造性を刺激し、顧客の生産性を高めることです。
 
-Azure に直接構築することで、ソリューション プロバイダーは、すべての Teams の地域と地域にソリューションを迅速に展開してプロビジョニングすることができます。Azure のストレージ、計算、分析 & の認知サービスを利用しながら、共有のグローバル通信ネットワークのメリットを受けることができます。
+Azure に直接構築することで、ソリューション プロバイダーは、Azure のストレージ、コンピューティング、分析、& コグニティブ サービスを活用しながら、共有のグローバル通信ネットワークの恩恵を受けながら、すべての Teams リージョンと地域にソリューションを迅速にデプロイおよびプロビジョニングできます。
 
-拡張および Power 統合モデルを使用すると、ソリューション プロバイダーは、参加者 (または他のサービス) が Microsoft Graph で [Cloud Communications API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を適用する呼び出しに従事する方法と時間をカスタマイズするために人工知能を組み込む一方で、コンタクト センター エージェントにコンタクト センターエージェントにチャネル通信エクスペリエンスを提供できます。
+Extend and Power 統合モデルを使用すると、ソリューション プロバイダーは、コンタクト センター エージェントにオムニチャネル通信エクスペリエンスを提供しながら、人工知能を組み込み、参加者 (または他のサービス) が Microsoft Graph で Cloud [Communications API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)を適用する呼び出しに従事する方法と時間をカスタマイズできます。
 
 **主要な機能**
 
@@ -135,7 +136,7 @@ Azure に直接構築することで、ソリューション プロバイダー�
 
   - 正式なエージェントでは、Teams SDK を介してオムニチャネル通信がネイティブで有効になります 
 
-  - Teams コラボレーション サービスを使用してエージェントの共同作業と顧客とのやり取りを行う  
+  - エージェントの共同作業と顧客とのやり取りに Teams コラボレーション サービスを使用する  
 
   - クラウド サービスの迅速なプロビジョニング、どこからでも展開 
 
@@ -143,7 +144,7 @@ Azure に直接構築することで、ソリューション プロバイダー�
 
 ### <a name="comparing-connected-contact-center-integration-models"></a>コネクテッド コンタクト センターの統合モデルを比較する
 
-Microsoft Teams がサポートする統合モデルの概要については、次の表を参照してください。
+Microsoft Teams でサポートされる統合モデルの概要については、次の表を参照してください。
 
 <table>
 <thead>
@@ -151,7 +152,7 @@ Microsoft Teams がサポートする統合モデルの概要については、�
 <th></th>
 <th>Teams の音声アプリ</th>
 <th>接続</th>
-<th>拡張</th>
+<th>延長する</th>
 <th>電源</th>
 </tr>
 </thead>

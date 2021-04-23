@@ -2,7 +2,7 @@
 title: OneDrive for Business と SharePoint を使用して会議の記録を行う
 author: cichur
 ms.author: v-cichur
-ms.reviewer: hao.moy
+ms.reviewer: debhag
 manager: serdars
 ms.topic: article
 audience: admin
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23be0069ffe862bcd5295493c8a6fc6acaa5f55d
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
-ms.translationtype: HT
+ms.openlocfilehash: d0de88cd3295e1e04681cf6ff63bccab80e4b4a8
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637819"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948663"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -189,3 +189,8 @@ Stream は、近い将来プラットフォームとして廃止の予定はあ�
 **Microsoft Teams のユーザーにポリシーを割り当てるにはどうすればよいですか、どのポリシーを優先すべきですか?**
 
 「[どのポリシーが優先されますか?](./assign-policies.md#which-policy-takes-precedence)」を参照してください。
+
+**ユーザーが OneDrive for Business または SharePoint を持ってない場合、記録はどこに行くのですか?**
+
+記録は、21 日間保持される一時的な保存場所に保存されます。 その間、オーガナイザーは録音をダウンロードする必要があります。 21 日以内にダウンロードされない場合、記録は削除されます。
+

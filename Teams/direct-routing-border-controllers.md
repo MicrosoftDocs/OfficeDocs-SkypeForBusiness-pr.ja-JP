@@ -1,5 +1,5 @@
 ---
-title: 直接ルーティングの認定を受けたセッション ボーダー コントローラー
+title: ダイレクト ルーティングの認定を受けたセッション ボーダー コントローラー
 ms.author: crowe
 ms.reviewer: FilippSe
 author: CarolynRowe
@@ -16,44 +16,44 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SBC) を確認できます。
+description: 管理者は、ダイレクト ルーティングの認定を受けたセッション ボーダー コントローラー (SBC) について学習できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36228b1c8d9e563670bfff2d1d3cebfcc9652023
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 99684ef9e3a86fed267d57a2d5482f45dabfe176
+ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697702"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "51948673"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
 マイクロソフトは、選択したセッション ボーダー コントローラー (SBC) ベンダーと提携して、SBC がダイレクト ルーティングと連携していることを保証しています。 
 
-Microsoft は、各ベンダーと次の仕事をしています。
+Microsoft は、各ベンダーと次の機能を使用します。
 
 - SIP 相互接続プロトコルで共同で作業します。
-- サードパーティラボを使用して、テストを行います。 テストに合格したデバイスだけが認定されます。 
-- 実稼働環境とプリプロダクション環境で、認定済みのすべてのデバイスで毎日のテストを実行します。 実稼働前環境でデバイスを検証することにより、クラウド内の新しいバージョンのダイレクト ルーディング コードが認定済み SBC で機能することが保証されます。 
+- サード パーティのラボを使用して、激しいテストを実行します。 テストに合格したデバイスだけが認定されます。 
+- 実稼働環境と実稼働前の環境で、すべての認定デバイスで毎日テストを実行します。 実稼働前環境でデバイスを検証することにより、クラウド内の新しいバージョンのダイレクト ルーディング コードが認定済み SBC で機能することが保証されます。 
 - SBC ベンダーとの共同サポート プロセスを確立します。
 
 
   > [!NOTE]
-  > Microsoft は、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ電話システムをサポートします。 Microsoft は、認定されていないデバイスが直接ルーティングを通じて電話システムに接続されているサポート ケースを拒否する権利を持っています。 Microsoft が顧客のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると判断した場合、顧客は SBC ベンダーにサポートを提供する必要があります。
+  > Microsoft では、認定されたデバイスまたはデバイスがダイレクト ルーティングを介して接続されている場合にのみ、電話システムがサポートされます。 Microsoft は、認定されていないデバイスがダイレクト ルーティングを介して電話システムに接続されているサポート ケースを拒否する権利を持っています。 顧客のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、顧客は SBC ベンダーにサポートを提供する必要があります。
 
-以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディア最適化をサポートしている SBC ベンダーについては、「直接ルーティング用にローカル メディアの最適化 [を構成する」を参照してください](direct-routing-media-optimization-configure.md))。
+以下の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディアの最適化をサポートする SBC ベンダーの詳細については、「ダイレクト ルーティング用のローカル メディア最適化の構成」 [を参照](direct-routing-media-optimization-configure.md)してください)。
 
-[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認定プログラムについて質問がある場合は、以下の drsbccertification@microsoft.com。
+[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。 ダイレクト ルーティングの SBC 認定プログラムについて質問がある場合は、次のページ drsbccertification@microsoft.com。
 <br/>
 <br/>
 
-|                                                       仕入先                                                        |       Product       | メディア以外のバイパス | メディア バイパス | ソフトウェア バージョン | E911 プロバイダーで検証済み | ELIN 対応
+|                                                       仕入先                                                        |       Product       | メディア以外のバイパス | メディアのバイパス | ソフトウェアのバージョン | E911 プロバイダーで検証済み | ELIN 対応
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  サポートされている 7.20A.250 (推奨 7.20A.258)   | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li> [イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul> |  &#10004;  |
 |                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  サポートされている 7.20A.250 (推奨 7.20A.258)   | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |
 |                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  サポートされている 7.20A.250 (推奨 7.20A.258)   |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>  |  &#10004;  |    
 |                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  サポートされている 7.20A.250 (推奨 7.20A.258)   |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>  |  &#10004;  |    
 |                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   Pending     |  サポートされている 7.20A.250 (推奨 7.20A.258)  |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>  |  &#10004;  |    
-|                                                                                                                     | Mediant 9000 SBC  |     &#10004;     |   &#10004;     |  サポートされている 7.20A.250 (推奨 7.20A.258)   | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>    |  &#10004;  |                                                                       
+|                                                                                                                     | 中央値 9000 SBC  |     &#10004;     |   &#10004;     |  サポートされている 7.20A.250 (推奨 7.20A.258)   | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>    |  &#10004;  |                                                                       
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  サポートされている 7.20A.250 (推奨 7.20A.258) |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li> </ul>   |  &#10004;  |    
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       サポートされている 8.2 と 7.2 (推奨 9.2)       | <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul> |    |    
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       サポートされている 8.2 と 7.2 (推奨 9.2)       |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li></ul> |    |    
@@ -72,42 +72,46 @@ Microsoft は、各ベンダーと次の仕事をしています。
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>  |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      サポートされている 3.20 (推奨 4.0)        |  <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>   |  &#10004;   |    
-|                     [メタスイッチ](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 シリーズ統合サービス ルーター用の Cisco Unified Border 要素 (CUBE)        |     &#10004;   | &#10004; |      サポートされる IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
-|                                   |     4000 シリーズ統合サービス ルーター用の Cisco Unified Border 要素 (CUBE)        |     &#10004;   | &#10004; |   サポートされる IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
-|                                   |     1000V シリーズ クラウド サービス ルーター用の Cisco Unified Border 要素 (CUBE)       |     &#10004;   | &#10004; |      サポートされる IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
-|                                 |     1000 シリーズ集計サービス ルーター用の Cisco Unified Border 要素 (CUBE)      |     &#10004;   | &#10004; |      サポートされる IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
-|                                 |     Cisco Unified Border Element (CUBE) for Edge 8000 Edge プラットフォーム      |     &#10004;   | &#10004; |      IOS XE アムステルダム 17.3.2      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 シリーズサービス統合型ルーター用の Cisco Unified Border 要素 (CUBE)        |     &#10004;   | &#10004; |      サポートされている IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |   |  
+|                                   |     4000 シリーズサービス統合型ルーター用の Cisco Unified Border 要素 (CUBE)        |     &#10004;   | &#10004; |   サポートされている IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |   <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>     |    |  
+|                                   |     1000V シリーズ クラウド サービス ルーター用の Cisco Unified Border 要素 (CUBE)       |     &#10004;   | &#10004; |      サポートされている IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |  
+|                                 |     1000 シリーズ アグリゲーション サービス ルーター用の Cisco Unified Border 要素 (CUBE)      |     &#10004;   | &#10004; |      サポートされている IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
+|                                 |     Catalyst 8000 Edge プラットフォーム用の Cisco Unified Border 要素 (CUBE)      |     &#10004;   | &#10004; |      IOS XE アムステルダム 17.3.2      |    <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>    |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       リリース 8.1.1 (メディア バイパスの場合は 8.1.2)      |     |    | 
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       19.5 (1908)       |     |    | 
 |                     |    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       20.8       |      <ul> <li> [帯域幅の動的な場所ルーティング](https://www.bandwidth.com/partners/microsoft-teams-direct-routing) </li> <li>[イントラド 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/) </li> <li>[Intrado Emergency Gateway (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)</li>  </ul>       |    | 
-|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       サポートされている 5.0 (推奨 5.1)     |     |    | 
+|                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |           |       サポートされている 5.0 (推奨される 5.1)     |     |    | 
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    | 
-|                     [Cataleya](https://cataleya.com/orchidplatforms/)|    リンクリンク    |     &#10004;     |           |      3.1        |     |    | 
+|                     [Cataleya](https://cataleya.com/orchidplatforms/)|    オーキッド リンク    |     &#10004;     |           |      3.1        |     |    | 
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    | 
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape セッション ボーダー コントローラー   |     &#10004;     |          |      V10R1.2       |     |    | 
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape セッションボーダー コントローラー   |     &#10004;     |          |      V10R1.2       |     |    | 
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 
 <br/>
 <br/>
-次の表に、ダイレクト ルーティングとアナログ デバイス間の相互運用性を検証するデバイスの一覧を示します。
+次の表は、ダイレクト ルーティングとアナログ デバイスの間の相互運用性を検証するデバイスの一覧です。
 
-|                                                       仕入先                                                        |       Product       | 認証済み
+|                                                       仕入先                                                        |       Product       | 確認済み
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-2](https://www.audiocodes.com/media/2399/mediapack-20x-mp-20x-analog-telephone-adapters-datasheet.pdf)   |     &#10004;     |
-| [リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000。ソフトウェア バージョン: 8.1.1 (ビルド 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
-| [リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000。ソフトウェア バージョン: 8.1.1 (ビルド 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+| [リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 1000。ソフトウェア のバージョン: 8.1.1 (ビルド 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
+| [リボン](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [SBC 2000。ソフトウェア のバージョン: 8.1.1 (ビルド 527)](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)   |     &#10004;     |
 | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |   AP1100 ソフトウェア バージョン 8.3.0.1.2 |     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP3900 ソフトウェア バージョン 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP4600 ソフトウェア バージョン 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6300 ソフトウェア バージョン 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  AP6350 ソフトウェア バージョン 8.3.0.1.2|     &#10004;     |
   | [Oracle](https://www.oracle.com/technical-resources/documentation/acme-packet.html) |  VME ソフトウェア バージョン 8.3.0.1.2 |     &#10004;     |
-  | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode と Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
-  | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 Multiplatform アナログ電話アダプター |     &#10004;     |
+  | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode with Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
+  | [Cisco](https://www.cisco.com/c/en/us/products/collateral/unified-communications/ata-190-series-analog-telephone-adapters/datasheet-c78-740013.html) |  ATA 191 マルチプラットフォーム アナログ電話アダプター |     &#10004;     |
   
-新機能のアイデアなど、Teams に関する製品フィードバックを提供する場合は [、Uservoice を参照してください](https://microsoftteams.uservoice.com)。
-メジャー バージョンに付与された証明書に注意してください。 つまり、メジャー バージョンに続く SBC ファームウェアの任意の番号のファームウェアがサポートされています。
+新機能のアイデアなど、Teams に関する製品フィードバックを提供するには [、Uservoice に関するページを参照してください](https://microsoftteams.uservoice.com)。
+
+
+[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
+
+メジャー バージョンに付与された証明書に注意してください。 つまり、メジャー バージョンに続く SBC ファームウェア内の任意の数のファームウェアがサポートされます。
