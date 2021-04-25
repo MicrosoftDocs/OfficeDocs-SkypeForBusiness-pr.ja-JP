@@ -187,6 +187,8 @@ items:
         href: continue-journey.md
       - name: Skype for Business Online のサポート終了
         href: skype-for-business-online-retirement.md
+      - name: Skype for Business Online によるアップグレード
+        href: upgrade-assisted.md
       - name: よくあるご質問 (FAQ)
         href: FAQ-journey.yml
       - name: 参照
@@ -1422,8 +1424,6 @@ items:
       - name: 小売店向けの Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: 管理コンソールで小売店向け Teams テンプレートの使用を開始する
-            href: retail-teams-templates-in-the-admin-console.md
           - name: 小売店向けテンプレートで Teams の使用を開始する
             href: get-started-with-retail-teams-templates.md
       - name: 政府機関用 Teams
