@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d178e751a3601aa552c524385d32c3d7a51668f1
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 609f477ef91c75cae47e6bbfd13b59cb804211c8
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768372"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995295"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -29,6 +29,7 @@ ms.locfileid: "51768372"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
 |4.7.15.0 |12/11/2020 |
@@ -72,14 +73,23 @@ ms.locfileid: "51768372"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
+### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
+
+この更新プログラムで導入されるもの:
+- Teams Rooms 本体の会議室情報が、グローバル アドレス一覧 (GAL) から非表示の会議室アカウントに表示される問題を修正しました。
+
+> [!NOTE]
+> GCCH のお客様は、Microsoft Teams Rooms デバイスを手動で更新 [するからアップグレード パッケージをダウンロードできます](manual-update.md)
+
+
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 この更新プログラムで導入されるもの:
-- Teams 会議室の Government Community Cloud High (GCCH) のサポート。 既存の Teams Rooms デバイスを使用している GCCH のお客様は、Microsoft Teams Rooms デバイスを手動で更新してバージョン 4.8.19.0[をダウンロードできます](manual-update.md)。
-- ビデオ品質の向上 (720p サポート) でズーム会議に参加し、参加者のビデオ ギャラリーを受け取る
-- Teams の既定モードで Skype for Business サインインエラー バナーが削除されました。 この変更は、Skype for Business インフラストラクチャを削除する組織をサポートしています
-- Teams 会議の参加リンク解析で Microsoft Defender Advanced Thread Protection Safe Links が処理され、外部の Teams にシームレスに参加できる
-- 共有者の PC に Windows でカスタム DPI が設定されている場合の Skype for Business 会議での共有コンテンツのスケーリングの問題を修正しました
+- Teams Rooms の Government Community Cloud High (GCCH) のサポート。 既存の Teams Rooms デバイスを使用している GCCH のお客様は、Microsoft Teams Rooms デバイスを手動で更新してバージョン 4.8.19.0[をダウンロードできます](manual-update.md)。
+- より優れたビデオ品質 (720p サポート) で Zoom 会議に参加し、参加者のビデオ ギャラリーを受け取る
+- Teams の既定のモードでは、Skype for Business サインインエラー バナーが削除されました。 この変更は、Skype for Business インフラストラクチャを削除する組織をサポートします。
+- Teams 会議参加リンク解析で Microsoft Defender Advanced Thread Protection Safe Links が処理され、外部 Teams へのシームレスな参加が可能に
+- 共有者の PC に Windows でカスタム DPI が設定されている場合に、Skype for Business 会議で共有コンテンツのスケーリングに関する問題を修正しました
 - 品質と信頼性の修正
 
 ### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
@@ -215,7 +225,7 @@ ms.locfileid: "51768372"
 - テーマの更新: コンソールの背景を中間色にしてコンソール UI コントロールがはっきり見えるようにしながら、常にカスタム背景画像をフロント オブ ルーム ディスプレイ上に表示する - アクセシビリティ要件
 - Teams 通話/会議で Microsoft Teams PC、Web、モバイル クライアントに一貫性のあるエクスペリエンスを提供するための会議中通話制御用のユニバーサル バー<sup>1</sup>
 - Teams 通話/会議後の通話品質フィードバックの評価<sup>1</sup>
-- PC/Web/Mobile Teams クライアント<sup>1</sup> 2 から共有された場合に、会議室の表示の前にある Microsoft Teams Rooms で Microsoft Whiteboard を受信/ <sup>レンダリングする</sup>
+- PC/Web/Mobile Teams クライアント<sup>1</sup> <sup>2</sup>から共有された場合に、Microsoft Teams Rooms の会議室前面に表示される Microsoft Whiteboard を受信/レンダリングする
 - Microsoft Teams Rooms クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。 Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます
 
 <sup>1</sup> Microsoft Teams サービスが Teams リングを使用して提供されます。 この機能は 4.0.105.0 クライアントの更新の前後に使用可能になります

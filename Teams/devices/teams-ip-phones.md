@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出す Microsoft Teams の認定を受けた机と会議の電話について説明します。
-ms.openlocfilehash: 6b56485287c5375657995736eda31f0d50fcd446
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: b82e6e90b5be3f3a6a86dc598a4c0e0a91a58f52
+ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948653"
+ms.lasthandoff: 04/24/2021
+ms.locfileid: "51995165"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 認定デバイス
 
@@ -162,6 +162,9 @@ Android アプリとファームウェアの最新バージョンの Teams Rooms
 
 | デバイス モデル  | ファームウェアのバージョン | 付属の製品リリース |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.3.2.286154          | 2021 更新プログラム#1    |
+| Poly Studio X50 | 3.3.2.286154          | 2021 更新プログラム#1    |
+| Poly TC8 | 3.3.2.286154                 | 2021 更新プログラム#1    |
 | Yealink VC210 |118.15.0.47     | 2021 更新プログラム#1    |
 | Yealink MeetingBar A20 | 133.15.0.54     | 2021 更新プログラム#1    |
 | Yealink MeetingBar A30 | 133.15.0.54     | 2021 更新プログラム#1    |
