@@ -13,7 +13,7 @@
         - name: サーバーの更新プログラム
           href: ../sfb-server-updates.md
     - name: Microsoft テレフォニー ソリューション
-      href: ../../sfbhybrid/hybrid/msft-telephony-solutions.md
+      href: /MicrosoftTeams/cloud-voice-landing-page.md
       items:
         - name: Skype for Business Server でオンプレミス PSTN 接続を使用して電話システムを計画する
           href: ../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md
