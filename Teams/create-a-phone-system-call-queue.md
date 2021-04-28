@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Microsoft Teams を使用して通話キュー用の電話システムを設定する方法について説明します。これは、案内メッセージ、保留音楽、通話リダイレクト、その他の機能を提供します。
-ms.openlocfilehash: f60714bc1c4868496209f414583c925da527460a
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995285"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064803"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -48,6 +48,12 @@ ms.locfileid: "51995285"
 この記事の手順に従う前に[、「Teams](plan-auto-attendant-call-queue.md)の自動応答と通話キューの[](plan-auto-attendant-call-queue.md#getting-started)計画」を読み、開始手順に従ってください。
 
 通話キューを設定するには、Teams 管理センターで [Voice] を展開し、[通話キュー] をクリックし、[追加] を **クリックします**。 
+
+## <a name="video-demonstration"></a>ビデオのデモンストレーション
+
+このビデオでは、Teams で通話キューを作成する方法の基本的な例を示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="resource-account-and-language"></a>リソース アカウントと言語
 

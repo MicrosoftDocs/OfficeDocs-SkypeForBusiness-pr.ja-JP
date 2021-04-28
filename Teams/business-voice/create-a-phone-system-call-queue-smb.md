@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Microsoft 365 Business Voice で通話キューを設定する方法について説明します。
-ms.openlocfilehash: ded780f0793a503e4f4089c7a201e659008e9eb7
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: c7533227796fb9ae9357590993a9065dc01d5030
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030127"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064823"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>通話キューの作成 - 小規模ビジネス向けチュートリアル
 
@@ -42,6 +42,12 @@ ms.locfileid: "52030127"
 - 通話ルーティング - *First In、First Out* (FIFO) の順序でエージェントに送信します。
 
 - キュー オーバーフローとタイムアウトの処理オプション。
+
+#### <a name="video-demonstration"></a>ビデオのデモンストレーション
+
+このビデオでは、Teams で呼び出しキューを作成する方法を示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 #### <a name="before-you-begin"></a>はじめに
 

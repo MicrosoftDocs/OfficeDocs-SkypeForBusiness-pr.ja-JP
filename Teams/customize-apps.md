@@ -3,7 +3,7 @@ title: Teams で Microsoft アプリをカスタマイズする
 author: cichur
 ms.author: v-cichur
 manager: serdars
-ms.reviewer: vaagarw
+ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,17 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でアプリをカスタマイズする方法について説明します。
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 0f61cd0d56c1c050508e9a716ba9846d99d422ad
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: 100a01c541c79ab62f10f3e11f086cdef5a11996
+ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030143"
+ms.locfileid: "52059181"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Microsoft Teams でアプリをカスタマイズする
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
  Microsoft Teams では、Teams のエクスペリエンスを向上させるアプリのカスタマイズが提供されます。 一部のアプリ開発者は、Teams 管理者によってアプリをカスタマイズできます。管理者は、Teams 管理センターの [アプリの管理] ページを使用して、組織のニーズに基づいてアプリのプロパティをカスタマイズまたは再 **ブランド** 化できます。 カスタマイズできる詳細は次のとおりです。
 

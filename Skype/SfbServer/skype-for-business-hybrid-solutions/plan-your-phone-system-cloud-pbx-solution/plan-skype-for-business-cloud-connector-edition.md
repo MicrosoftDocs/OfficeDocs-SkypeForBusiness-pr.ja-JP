@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 電話システム (クラウド PBX) とのオンプレミス PSTN 接続を実装するパッケージ化された仮想マシン (VM) のセットである Skype for Business Cloud Connector Edition に関する情報を参照してください。
-ms.openlocfilehash: 33d0cc6262aa0d4c7a1f984534782a9fae93ab05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 75abeba6c97b59b4795fc3399ff6a983db57bbff
+ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113713"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52064713"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Skype for Business Cloud Connector Edition の計画
 
@@ -34,7 +34,7 @@ ms.locfileid: "51113713"
 
 電話システム (クラウド PBX) とのオンプレミス PSTN 接続を実装するパッケージ化された仮想マシン (VM) のセットである Skype for Business Cloud Connector Edition に関する情報を参照してください。
 
-既存の Lync Server または Skype for Business Server 展開がない場合は、クラウド コネクタエディションが組織に適切なソリューションになる可能性があります。 ビジネスに最適な電話システム ソリューションをまだ調査している場合は、「Microsoft テレフォニー ソリューション [」を参照してください](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)。
+既存の Lync Server または Skype for Business Server 展開がない場合は、クラウド コネクタエディションが組織に適切なソリューションになる可能性があります。 ビジネスに最適な電話システム ソリューションをまだ調査している場合は、「Microsoft テレフォニー ソリューション [」を参照してください](/microsoftteams/cloud-voice-landing-page)。
 
 このドキュメントでは、Cloud Connector Edition の要件とサポートされるトポロジについて説明し、クラウド コネクタ エディションの展開を計画するのに役立ちます。 クラウド コネクタ環境を構成する前に、必ずこのトピックをお読みください。 クラウド コネクタ エディションを展開して構成する準備ができたら [、「Skype for Business Cloud Connector Edition の構成と管理」を参照してください](configure-skype-for-business-cloud-connector-edition.md)。
 
@@ -61,7 +61,7 @@ ms.locfileid: "51113713"
 
 - クラウド コネクタは、オンプレミスの Skype for Business Server の完全な展開を必要としません。
 
-    現在、クラウド コネクタは Lync または Skype for Business のオンプレミス サーバーと共に存在できません。 既存の Lync または Skype for Business ユーザーを Microsoft 365 に移動し、ユーザーにオンプレミステレフォニーを提供し続ける場合は、既存の Skype for Business Server 展開を使用したオンプレミス接続の電話システムを検討してください。 詳細については、「電話システム [(クラウド PBX)](/skypeforbusiness/hybrid/msft-telephony-solutions/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) ソリューションを計画する」および「Skype for Business Server でオンプレミス PSTN 接続を使用して電話システムを [計画する」を参照してください](plan-phone-system-with-on-premises-pstn-connectivity.md)。
+    現在、クラウド コネクタは Lync または Skype for Business のオンプレミス サーバーと共に存在できません。 既存の Lync または Skype for Business ユーザーを Microsoft 365 に移動し、ユーザーにオンプレミステレフォニーを提供し続ける場合は、既存の Skype for Business Server 展開を使用したオンプレミス接続の電話システムを検討してください。 詳細については、「電話システム [(クラウド PBX)](/microsoftteams/cloud-voice-landing-page.md) ソリューションを計画する」および「Skype for Business Server でオンプレミス PSTN 接続を使用して電話システムを [計画する」を参照してください](plan-phone-system-with-on-premises-pstn-connectivity.md)。
 
 - 以前の Skype for Business または Lync Server の展開を行い、スキーマを拡張した場合は、環境からすべての Skype for Business または Lync Server コンポーネントを削除している限り、クラウド コネクタ展開のスキーマをクリーンアップする必要があります。
 
@@ -428,7 +428,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |送信  <br/> |クラウド コネクタ ホスト IP  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |証明書失効リスト (CRL)  <br/> |
 |送信  <br/> |クラウド コネクタ ホスト IP  <br/> |any  <br/> |any  <br/> |80, 443  <br/> |TCP  <br/> |クラウド コネクタの更新  <br/> Skype for Business Online  <br/> Admin PowerShell  <br/> Windows Update  <br/> |
 
-より制限の厳しいルールが必要な場合は、次のホワイトリスト URL を参照してください。
+より制限の厳しいルールが必要な場合は、次の allowlist URL を参照してください。
 
 - [365 URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) および [IP アドレス範囲Office証明書失効リスト URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
@@ -711,7 +711,7 @@ SIP ドメインごとに sip.sipdomain.com を追加し、ドメインごとに
 
 詳細については、次のトピックを参照してください。
 
-- [Microsoft テレフォニー ソリューション](../../../SfbHybrid/hybrid/msft-telephony-solutions.md)
+- [Microsoft テレフォニー ソリューション](/microsoftteams/cloud-voice-landing-page)
 
 - [Skype for Business Cloud Connector Edition の構成と管理](configure-skype-for-business-cloud-connector-edition.md)
 
