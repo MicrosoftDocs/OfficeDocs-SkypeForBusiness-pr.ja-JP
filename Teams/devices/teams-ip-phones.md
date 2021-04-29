@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出す Microsoft Teams の認定を受けた机と会議の電話について説明します。
-ms.openlocfilehash: b82e6e90b5be3f3a6a86dc598a4c0e0a91a58f52
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: dec58efccef8b247ebf970c4196fd38d87dc1437
+ms.sourcegitcommit: 347246d725b3058e4c5e770513c0c386bfb586bc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995165"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "52077377"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams 認定デバイス
 
@@ -44,7 +44,8 @@ Microsoft Teams 認定プログラムは、パフォーマンス目標とオー�
 
 |デバイス モデル                         | ファームウェアのバージョン                                                                                                                                                                                                                           | リリース日
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| AudioCodes C435HD                      | 1.12.33                                                  | 2021 年 4 月                 |
+| Yealink MP52                           | 145.15.0.6                                               |   2021 年 4 月                 |
+| AudioCodes C435HD                      | 1.12.33                                                  | 2021 年 4 月                   |
 | AudioCodes C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 | AudioCodes C448HD (CAP モードのみ)      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
