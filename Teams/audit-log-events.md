@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26427bb7026c586c9493e023f127a43923325cfa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b4398ed1c89b1ece93bf2e1ca31947f6fadf7afa
+ms.sourcegitcommit: ea2ccf77ba86c3cc10184a2c8a2eceafc6842d1b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092625"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52091674"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -143,6 +143,7 @@ Teams イベントを異常検出ポリシーに統合する作業を行って�
 |削除されたアプリ |AppDeletedFromCatalog           |カタログからアプリが削除されました。     |
 |チャネルの削除     |ChannelDeleted         |ユーザーがチームからチャネルを削除しました。         |
 |チームの削除  |TeamDeleted            |チーム所有者がチームを削除しました。      |
+|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、そのメッセージに URL リンクを追加Teams。         |
 |インストールされたアプリ |AppInstalled         |アプリがインストールされました。   |
 |カードに対して実行されたアクション|PerformedCardAction|ユーザーがチャット内のアダプティブ カードでアクションを起こしました。 アダプティブ カードは通常ボットで使用し、チャットで情報を豊富に表示して、相互作用することを可能にします。 <br/><br/>**注:** チャット内のアダプティブ カードでのインライン入力アクションだけが監査ログで利用可能になります。 たとえば、チャネルでの会話の中で、ユーザーがポーリング ボットによって生成されたアダプティブ カード上でポーリング応答を送信した場合。 ダイアログを開く「結果を表示」などのユーザー アクションや、ダイアログ内のユーザー アクションは、監査ログには表示されません。|
 |公開済みのアプリ |AppPublishedToCatalog           |アプリがカタログに追加されました。     |
@@ -150,6 +151,7 @@ Teams イベントを異常検出ポリシーに統合する作業を行って�
 |コネクタの削除     |ConnectorRemoved         |ユーザーがチャネルからコネクタを削除しました。         |
 |メンバーの削除    |MemberRemoved        |チームの所有者が、チーム、チャネル、またはグループ チャットからメンバーを削除しました。         |
 |タブの削除    |TabRemoved         |ユーザーがチャネルからタブを削除しました。         |
+|URL リンクを含むメッセージを送信Teams |MessageCreatedHasLink|ユーザーは、URL リンクを含むメッセージを送信Teams。|
 |削除されたアプリ |AppUninstalled           |アプリがアンインストールされました。     |
 |更新されたアプリ |AppUpdatedInCatalog           |アプリがカタログで更新されました。     |
 |コネクタの更新    |ConnectorUpdated         |ユーザーがチャネルのコネクタを変更しました。         |
