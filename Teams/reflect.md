@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2594b39fed7d7194aabacd5df1a977a9d1262d70
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
+ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064866"
+ms.locfileid: "52070653"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams の Reflect への IT 管理者ガイド
 
@@ -56,21 +56,23 @@ Reflect では学生からデータを収集しますが、ゲスト データ�
 
 各アプリに許可が必要となるように事前に定義している場合には、[アプリの管理] ページから Reflect を "許可" してください。 **アプリをブロックすると、組織内のすべてユーザーに対してそのアプリが Teams に表示されなくなります。**
 
+> [!NOTE]
+> Reflect アプリにアクセスするには、Microsoft 365 の A1、A3、A5 ライセンスが必要です。
+
 > [!TIP]
 > 詳細については、「[How to allow an app or to add it to a class team (アプリを許可するか、クラスのチームに追加する方法)](manage-apps.md#allow-and-block-apps)」を参照してください。
-
 
 ## <a name="where-do-educators-find-reflect"></a>Reflect はどこから利用できますか?
 Reflect を有効にしたら教師はクラスに移動し、**[新しい会話]** を選択します。 そして、**[...]** を選択してメッセージング拡張機能を表示し、検索バーに 「**Reflect**」と入力します。 ダイアログ ボックスでは、質問や、誰が何を表示できるかに関する定義をガイドします。
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="クラス チームに Reflect を追加する":::
 
-また、[Reflect] アイコンを右クリックして **[固定]** を選択することにより、アクセスが簡単になります。
+[Reflect] アイコンを右クリックして **[固定]** を選択することにより、アクセスが簡単になります。
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="Insights アプリを固定する":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="Reflect アプリを固定する":::
 
 > [!TIP]
-> 次のリンクから Reflect アプリを見つけることもできます。[https://aka.ms/getReflect](https://aka.ms/getReflect)
+> このリンクから Reflect アプリを見つけることもできます。[https://aka.ms/getReflect](https://aka.ms/getReflect)
 
 > [!TIP]
 > 詳細については、「[Reflect support page (Reflect のサポート ページ)](https://support.microsoft.com/topic/e9198f62-7860-4532-821f-53ef14afa79a)」を参照してください。 このページでは、教師と学生の両方にガイドラインを提供し、初めての Reflect チェックインを作成する方法について説明しています。
