@@ -25,7 +25,7 @@ ms.reviewer: ''
 description: Microsoft Teams を使用して仮想アクセス システムをセットアップする
 ms.openlocfilehash: 37b93533aeff6b519b1f5a65cf49211464b41388
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096281"
@@ -66,7 +66,7 @@ EHR コネクタを統合する前に、次の前提条件があることを確�
 - Epic 顧客アナリスト
 
 > [!Note]
-> 壮大な [技術専門家と、壮大な Microsoft Teams Telehealth Integration Guide](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357) をご覧ください。 すべての前提条件が完了している必要があります。 
+> 「[Epic-Microsoft Teams Telehealth Integration ガイド](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)」を Epic の技術専門家と一緒にご確認ください。 前提条件がすべて完了している必要があります。 
 
 ## <a name="connector-setup"></a>コネクタの設定
 
@@ -144,7 +144,7 @@ EHR コネクタの手順と Epic 構成を完了すると、組織は Microsoft
 
 - プロバイダーは、仮想アクセスに初めて参加するときに、Microsoft 365 アカウントで 1 回サインインする必要があります。
 
-- 1 回のサインイン後、プロバイダーは Microsoft Teams の仮想予定に直接移動します。 (プロバイダーは Microsoft Teams にサインインする必要があります)。
+- 1 回のサインイン後、プロバイダーは Microsoft Teams の仮想予定に直接移動します。(プロバイダーは Microsoft Teams にサインインする必要があります)。
 
 - プロバイダーは、与えられた予定に対し、参加者の接続と切断のリアルタイム更新を確認できます。 プロバイダーは、患者が仮想アクセスに接続されていることを確認できます。
 

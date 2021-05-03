@@ -121,7 +121,7 @@ Contoso 本社および中間マネージャーは、各店舗および複数の
 
 ## <a name="power-automate-and-graph-api"></a>Power Automate および Graph API
 
-Tasks は、To Do 用 Power Automate および Planner 用 Graph API をサポートしています。 詳細については、次を参照してください。
+Tasks は、To Do 用 Power Automate および Planner 用 Graph API をサポートしています。詳細については、次を参照してください。
 
 - [Planner のタスクおよびプラン API の概要](/graph/planner-concept-overview)
 - [Power Automate で Microsoft To Do を使用する](https://support.office.com/article/using-microsoft-to-do-with-power-automate-526e8f75-217b-46e0-9e06-44780b72c295)

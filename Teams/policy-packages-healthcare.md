@@ -23,7 +23,7 @@ searchScope:
 description: 医療組織用の Teams ポリシー パッケージを使用および管理する方法について説明します。
 ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117765"
@@ -84,7 +84,7 @@ Microsoft Teams には現在、次のヘルスケア ポリシー パッケー�
 
 ### <a name="assign"></a>割り当て
 
-ユーザーにポリシー パッケージを割り当てる。 ユーザーにポリシーが割り当てられている場合は、別のポリシーを割り当てると、最新の割り当てが優先されます。
+ポリシー パッケージをユーザーに割り当てます。ユーザーにポリシーが割り当てられている場合は、別のポリシーを割り当てると、最新の割り当てが優先されます。
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>1 人または複数のユーザーにポリシー パッケージを割り当てる
 
