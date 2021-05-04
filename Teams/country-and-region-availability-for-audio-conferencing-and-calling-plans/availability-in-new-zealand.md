@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、ニュージーランドで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを紹介します。
-ms.openlocfilehash: cfd453fa1a0a7379a2ca35ce4de08d608f24bee6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: ニュージーランドで利用可能Microsoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
+ms.openlocfilehash: f7654d1b7b4920e327d7a7db7c9970bc54e4575d
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102423"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130276"
 ---
 # <a name="availability-in-new-zealand"></a>ニュージーランドでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、ニュージーランドで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを紹介します。
+ニュージーランドで利用可能Microsoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -59,11 +59,10 @@ ms.locfileid: "51102423"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|通話プランは購入できますか?  <br/> |いいえ  <br/> |
-|通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
-|発信通話を行うことができますか?  <br/> |該当しない  <br/> |
-
-通話プランを購入できない場合は、電話システム ダイレクト [ルーティングの使用を検討してください](../direct-routing-landing-page.md)。 直接ルーティングを使用すると、事実上すべてのテレフォニー通信事業者で電話システムを使用できます。
+|通話プランは購入できますか?  <br/> |はい  <br/> |
+|プランの呼び出しに使用できる分数。 |予定表の月ごとに 4 つのプラン オプションを使用できます。 <ul><li>120 分の国内通話プラン </li><li>240 分の国内通話プラン</li></li><li>1200 分の国内通話プラン </li></li><li>国内通話プランと国際通話プラン: 国内通話の 1200 分 -OR- 国際通話の 600 分 (予定表の月に最初に到達した方)</li></li></ul>|
+|Premium 番号への発信呼び出しはできますか?  <br/> | 現時点ではサポートされていません。 <br/> |
+|発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

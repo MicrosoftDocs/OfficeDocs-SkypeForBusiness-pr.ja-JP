@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e03ad5c562f7fd31599bbb86f08e411dfa4b415
-ms.sourcegitcommit: fb87d64c6f98041a1da50cf4ef6ff54cdc8d1d29
+ms.openlocfilehash: c71f08840ffa9c41622d07376933c14a7ae6b493
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51902571"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129796"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 
@@ -41,7 +41,7 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 この記事では、承認アプリの要件と役割について説明します。
 
 > [!NOTE]
-> この機能は、Government Community Cloud (GCC)、Government Community Cloud High (GCCH)、国防総省 (DOD) ユーザーにはまだリリースされていません。
+> この機能は、Government Community Cloud (GCC)、Government Community Cloud (GCCH)、国防総省 (DOD) ユーザーにはまだリリースされていません。
 
 ## <a name="required-permissions-and-licenses"></a>必要なアクセス許可とライセンス
 
@@ -57,7 +57,7 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 
 ## <a name="storage-with-cds"></a>CDS を使用するストレージ
 
-共通データ モデル (CDM) は、CDS のビジネス アプリケーションや分析アプリケーションで使用される共有データ言語です。 これは、Microsoft とパートナーによって発行された標準化された拡張可能なデータ スキーマのセットで構成され、アプリケーションとビジネス プロセス全体でデータとその意味の一貫性を実現します。 [Microsoft Power Platform の共通データ モデル](/power-automate/get-started-approvals)の詳細については、以下をご覧ください。
+共通データ モデル (CDM) は、CDS のビジネス アプリケーションや分析アプリケーションで使用される共有データ言語です。 これは、Microsoft とそのパートナーによって公開された、一連の標準化された拡張可能なデータ スキーマで構成されており、アプリケーションとビジネス プロセス全体でデータとその意味の一貫性を実現します。 [Microsoft Power Platform の共通データ モデル](/power-automate/get-started-approvals)の詳細については、以下をご覧ください。
 
 [承認ワークフロー](/power-automate/modern-approvals)の詳細。
 
@@ -94,13 +94,13 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
   3. 承認アプリを検索します。
 
-![強調表示されている [Teams アプリ] > [アプリの管理] を使用して、管理センター ナビゲーションを表示する](media/manage-approval-apps.png)
+     ![強調表示されている [Teams アプリ] > [アプリの管理] を使用して、管理センター ナビゲーションを表示する](media/manage-approval-apps.png)
 
   4. [承認] を選択します。
 
   5. 切り替えを選択して、組織のアプリを無効にします。
 
-![承認アプリの詳細を表示する](media/approvals-details.png)
+     ![承認アプリの詳細を表示する](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>アイテム保持ポリシー
 
@@ -136,6 +136,12 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
 - 電子署名が追加された承認要求
 
+- 表示された電子署名要求の詳細
+
+- レビューされた電子署名要求
+
+- 取り消された電子署名要求
+
 フロー内の他の監査承認にアクセスするには、プライマリ承認エンティティの承認、承認要求、承認応答の既定の環境において、監査を有効にして構成します。 作成、更新、および削除の操作は、承認レコードにて監査可能なイベントです。 詳細については、「[セキュリティとコンプライアンスのための監査データとユーザー アクティビティ - Power Platform \|Microsoft Docs](/power-platform/admin/audit-data-user-activity)」をご覧ください。
 
 監査は、「[Microsoft 365 セキュリティとコンプライアンス センター](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)」にてさらにカスタマイズできます。
@@ -154,3 +160,19 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
 > [!Note]
 > ユーザーが、承認の作成されたチャットまたはチャネルの一部である場合、要求の閲覧者の役割が与えられます。 承認が作成された際に、その役割が与えられなかった場合は、要求に対してアクションを実行することはできません。
+
+## <a name="approvals-e-signature-integration"></a>承認の電子署名の統合
+
+承認アプリから作成された電子署名の承認は、選択したプロバイダーのクラウド環境に格納されます。 電子署名契約に関するストレージの詳細については、選択したプロバイダーのストレージ ドキュメントを参照してください。
+
+Approvals アプリの電子署名機能を使用するには、次の項目が必要です。
+
+- 使用する特定の電子署名プロバイダーのライセンス。 組織のライセンスを取得するには、プロバイダーのサイトに移動する必要があります。
+
+承認の電子署名機能の場合、既定ではサード パーティの署名パートナーが Teams承認アプリに表示されます。 管理者センターのアプリ設定にアクセスして、特定の電子署名プロバイダー Teamsできます。
+
+1. 管理センター Teams [アプリの管理]**で**[承認] アプリを選択し、[承認]**を** 選択設定。
+
+2. 各電子署名プロバイダーには、既定でオンの位置 (右) にあるトグルが横に表示されます。 トグルを左にスライドして、特定の電子署名プロバイダーを無効にします。 管理者がTeamsプロバイダーを無効にした場合、エンド ユーザーは承認を作成するときにプロバイダーを表示しない。 エンド ユーザーは、そのプロバイダーで行われた電子署名要求も表示できません。
+
+承認アプリから作成された電子署名承認は、選択したプロバイダーのクラウドに格納されます。 そのため、電子署名に関するデータをエクスポートするには、プロバイダーのサイトに移動する必要があります。 これらの契約のエクスポートと保持に関するプロバイダーのドキュメントを参照してください。

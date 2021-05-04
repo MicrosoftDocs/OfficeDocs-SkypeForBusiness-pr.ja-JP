@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: この記事では、ゲストが利用できる Microsoft Teams の機能性について説明します。
-ms.openlocfilehash: 8eda5d3cabf497d105c0fd4a4610ba59db128bfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e0efaaf036816980f5e104efebda253411827258
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092085"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129726"
 ---
 # <a name="guest-experience-in-teams"></a>Teams でのゲスト エクスペリエンス
 
@@ -52,7 +52,7 @@ Teams でのゲストエクスペリエンスに関する次のビデオをご�
 |メッセージを投稿、削除、編集する  <br/> |&#x2713;|&#x2713;|
 |チャネル ファイルを共有する  <br/> |&#x2713;|&#x2713;|
 |SharePoint ファイルにアクセスする<br/> |&#x2713;|&#x2713;|
-|ファイルの添付<br/> |&#x2713;|Teams チャットのみ|
+|ファイルの添付<br/> |&#x2713;|チャネルの投稿のみ|
 |プライベート チャットファイルをダウンロードする<br/> |&#x2713;|&#x2713;|
 |ファイル内で検索する<br/> |&#x2713;||
 |チャット ファイルを共有する  <br/> |&#x2713;||

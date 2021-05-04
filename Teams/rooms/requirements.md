@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bf1bf7f076a75fb9ce504d62391e93d0e6d65a6f
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 7d213aba9a74d1ddcbe2215ed7930484aca40865
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995175"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130156"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
-Microsoft Teams の会議室は、さまざまな部屋のサイズに合わせてスケーリングされます。 Teams Rooms では、部屋のサイズと使用に基づいて、さまざまな認定オーディオおよびビデオ 周辺機器を使用します。 スペースに適したマイク、スピーカー、カメラ、ディスプレイと組み合わせて、適切なコア デバイスと本体を選択することで、小さなハドルスペースから大規模な会議スペースや会議室まで、任意のサイズのスペースに Microsoft Teams Rooms をデプロイできます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
+Microsoft Teams ミーティング部屋のサイズに合わせてスケーリングできます。 Teams ミーティングのサイズと使用に基づいて、さまざまな認定オーディオおよびビデオ 周辺機器を使用できます。 スペースに適したマイク、スピーカー、カメラ、ディスプレイと組み合わせて、適切なコア デバイスと本体を選択することで、Microsoft Teams ミーティング を小さなハドル スペースから大きな会議スペースや会議室まで、任意のサイズのスペースにデプロイできます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
 
 この記事では、Microsoft Teams Rooms をサポートするためのデバイスの展開と構成に関する要件をまとめます。
 
@@ -38,7 +38,7 @@ Microsoft Teams の会議室は、さまざまな部屋のサイズに合わせ�
 > [!NOTE]
 > Microsoft Teams Rooms では、Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015、または Skype for Business Online にサインインし、これらのサービスでホストされている会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Rooms は、Microsoft 365 または 21Vianet または DoD 環境Office 365 ではサポートされていません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams ミーティング 21Vianet または DoD Microsoft 365または DoD Office 365操作されている場合はサポートされません。
 >
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
@@ -66,13 +66,14 @@ Microsoft Teams の会議室は、さまざまな部屋のサイズに合わせ�
    |[ASUS PC を使用したクレストロン Flex UC-MX50-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5|8 GB |128 GB |
    |[ASUS PC を使用したクレストロン Flex UC-MX70-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5|8 GB |128 GB |
   |[クレストロン マーキュリー ミニ UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
-  |[Logitech TAP を使用した Dell OptiPlex 7080](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i5 & i7 |8 GB |128 GB|
+  |[Logitech TAP を使用した Dell OptiPlex 7080](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 Audio Ready + Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
-  |[Logicool TAP を備えた HP スライス パートナー対応]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB|
+  |[Logicool TAP を備えた HP スライス パートナー対応]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |[Logicool Tap と Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
+  |Logitech Tap と Intel Tiger Canyon NUC PC |Core i5|8 GB|128 GB|
   |[Logitech Tap と Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Lenovo ThinkSmart Tiny を使用した Poly G10-T](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |[Yealink MVC300 と Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
@@ -110,7 +111,7 @@ Microsoft Teams の会議室は、さまざまな部屋のサイズに合わせ�
 
 |Microsoft Teams Rooms の周辺機器|認定ファームウェア バージョン | コンテンツ カメラとして使用できるカメラ|
 |:--- |:--- | :--- |
-|[Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
+|[Aver VC520 Pro + スピーカーフォン](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VB342+ Camera Soundbar](https://www.averusa.com/products/conference-camera/vb342plus) | Soundbar: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
