@@ -14,19 +14,19 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: 組織の特定のニーズに合わせて Microsoft 365 Business Voice をカスタマイズする方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa77f33e82752446337bc05f33e733717fbb16f7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9f72aac2f14e68022a673ee45585e9184814418f
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116005"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130226"
 ---
-# <a name="customize-microsoft-365-business-voice"></a>Microsoft 365 企業向け音声をカスタマイズする
+# <a name="customize-microsoft-365-business-voice"></a>Microsoft 365 Business Voice をカスタマイズする
 
-[作業の開始] ウィザードでは、すぐに使用できるように、基本オプションを使用して Business Voice をセットアップします。 事業を始めたばかりの小規模企業や、大規模な組織でパイロットを実施している場合には、これらのオプションは十分です。 新しい電話番号、通話メニューなどが表示されます。 
+[Business Voice 設定ガイド](set-up-overview.md)は、Business Voice に基本的なオプションを設定して、すぐに使用できるようにします。 事業を始めたばかりの小規模企業や、大規模な組織でパイロットを実施している場合には、これらのオプションは十分です。 新しい電話番号、通話メニューなどが表示されます。
 
 しかし、ビジネス ニーズに合わせて Business Voice をカスタマイズしたいと思われることでしょう。 たとえば、既存の電話番号を企業向け音声に移行することができます (番号ポータビリティ)。
 

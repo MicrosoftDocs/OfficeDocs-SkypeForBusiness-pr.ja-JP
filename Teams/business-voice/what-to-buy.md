@@ -15,7 +15,7 @@ MS.collection:
 - Teams_Business_Voice
 - m365initiative-voice
 search.appverid: MET150
-description: ''
+description: Microsoft 365 Business Voice をセットアップするために購入する必要のあるライセンスやその他のアドオンについて説明します。
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -25,12 +25,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 7175bc47cc3e9db1dde3d92c1b3024dcdcfd3e41
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de844a68d29e0bcb1bc7144fb3101d69a13f2966
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102823"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129866"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>Microsoft 365 Business Voice を使用するために購入する必要があるもの
 
@@ -38,7 +38,7 @@ ms.locfileid: "51102823"
 
 Microsoft Teams で *外部* 電話番号の着信または発信を行うには、ユーザーに Microsoft 365 Business Voice のライセンスが付与されている必要があります。 ライセンスが付与されているユーザーは、通話の発着信や音声会議のホストなどを行うために必要なすべての機能を利用できます。
 
-外部電話番号の受信または発信を行う必要のないユーザーの場合、Teams があれば十分です。 Microsoft 365 Business Voice ライセンスは必要ありません。
+外部の電話番号を使用して通話の発信と受信を行う必要のないユーザーは Teams があれば十分です。Microsoft 365 Business Voice ライセンスは必要ありません。
 
 たとえば、工場に 10 人、オフィスに 5 人の従業員がいるとします。 工場従業員が電話をかける必要があるのは企業内の他の従業員に対してのみだとします。 オフィス内の従業員は、他の従業員への電話に加え、仕入先、パートナー、顧客との間でも通話の発着信を行う必要があるとします。 この場合、Microsoft 365 Business Voice のライセンスが必要なのはオフィスにいる 5 人の従業員のみです。
 
@@ -46,7 +46,7 @@ Microsoft Teams で *外部* 電話番号の着信または発信を行うには
 
 2 種類の Business Voice ライセンスがあります。通話プラン **付き** Business Voice と、通話プラン **なし** Business Voice です。 使用できる Business Voice ライセンスの種類は、Microsoft 365 テナントの場所によって異なります。 ライセンスの種類によって、Business Voice を自分で設定できるか、または電話番号の管理などを行う Microsoft パートナーや販売店のサポートが必要かどうかが決まります。
 
-- **通話プラン付き Business Voice** Microsoft から Business Voice を購入し、作業の開始ウィザードを使用して Business Voice を設定し、既存の電話番号を設定または Microsoft に転送することできます。 「[作業の開始ウィザードを使用して Business Voice を設定する](use-getting-started-wizard.md)」の記事で、テナント用に Business Voice を設定する方法を説明しています。
+- **通話プラン付き Business Voice** Business Voice は Microsoft から購入し、自分で設定してから、既存の電話番号を設定するか、Microsoft に転送することができます。 記事「[Microsoft 365 Business Voice を設定する](set-up-overview.md)」では、テナント用にBusinessVoiceをセットアップする方法を説明しています。
 
   通話プラン付き Business Voice のライセンスの購入方法の詳細については、この記事の後半の「[通話プラン付き Business Voice](#business-voice-with-calling-plan)」を参照してください。
 - **通話プランなし Business Voice** Business Voice の設定を支援する Microsoft パートナーや販売店から Business Voice を購入する必要があります。 既存の電話番号は、現在のサード パーティの電話プロバイダーに残ります。 「[Microsoft 販売店または Microsoft パートナーからサポートを受ける](reseller-partner-support.md)」の記事では、テナントで Business Voice を設定するのに必要なプロセスの概要を示します。
@@ -96,7 +96,7 @@ Business Voice の機能の詳細については、「[Microsoft 365 Business Vo
 
 ### <a name="communications-credits"></a>コミュニケーション クレジット
 
-コミュニケーション クレジットは、組織の電話システムの外部の電話番号の発着信に使用されるデジタル ウォレットのようなものです。 コミュニケーション クレジットは、次のような場面で使用できます。
+コミュニケーション クレジットは、組織の電話システムの外部の電話番号の発着信に使用されるデジタル ウォレットのようなものです。コミュニケーションクレジットは、いくつかの状況で使用されます。
 
 - **ユーザーが国内通話プランまたは国際通話プランの分数を使い切った場合:** ユーザーが国際通話プランを持っていない場合、コミュニケーション クレジット の残高が Business Voice で使用され始めます。
 - **国際通話プランを持っていないユーザーが国際通話をかけた場合:** コミュニケーション クレジット の残高が Business Voice で使用され始めます。

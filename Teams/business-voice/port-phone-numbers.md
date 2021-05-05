@@ -14,15 +14,15 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: 既存の電話番号を現在のプロバイダーから Microsoft 365 Business Voice に移動する方法を学びます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8959b335d695630f991017c789916bfd2fcf697c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e950e9e3bf18664a6a877c31e253ce66753a6076
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102913"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52130266"
 ---
 # <a name="move-port-phone-numbers-to-business-voice"></a>電話番号を Business Voice に移行 (ポート) する
 
@@ -31,7 +31,7 @@ ms.locfileid: "51102913"
 >
 > テナントが通話プラン付き Business Voice をサポートしていない国または地域にある場合は、「[Microsoft 販売店またはパートナーからヘルプを取得する](reseller-partner-support.md)」をご覧ください。
 
-[作業の開始] ウィザードで Business Voice をセットアップすると、メインの会社の回線と、Business Voice ライセンスを割り当てたユーザーに電話番号が割り当てられます。 Business Voice に移行するときに保持したい電話番号が既にある場合は、電話番号ポータビリティと呼ばれるプロセスを使用して、それらを Business Voice に引き継ぎ、移行することができます。 電話番号を Business Voice にポートした後、ユーザーとサービスに割り当てます。 以前の番号は、[作業の開始] ウィザードが割り当てた一時的な数字と置き換えられます。
+Business Voice を最初に設定するときに、主要な会社の回線と、Business Voice ライセンスを割り当てたすべてのユーザーの電話番号を取得します。 Business Voice に移行するときに保持したい電話番号が既にある場合は、電話番号ポータビリティと呼ばれるプロセスを使用して、それらを Business Voice に引き継ぎ、移行することができます。 電話番号を Business Voice にポートした後、ユーザーとサービスに割り当てます。 以前の番号は、Business Voice の設定時に取得した一時的な番号に置き換わるものです。
 
 番号を Business Voice に移動する前に、「[電話番号の移行に関するよくある質問](../phone-number-calling-plans/port-order-overview.md)」をご覧ください。 この記事には、サポートされている国や地域、転送できる番号と転送できない番号、必要な情報を含む質問への回答が含まれています。
 
@@ -40,6 +40,7 @@ ms.locfileid: "51102913"
 電話番号を Business Voice に移動した後、それらをユーザーに割り当てる必要があります。 これを行うには、「[ユーザーの電話番号を変更する](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user)」の手順に従います。 これらの手順を実行すると、ユーザーに一時的に割り当てられた電話番号がポートした元の電話番号に置き換えられます。
 
 サポートが必要な場合は、お知らせください。 電話番号をできるだけ簡単に Business Voice に移行できるようにお手伝いします。 以下の情報が含まれていることを確認します。
+
 - 組織の ID (例えば、***contoso***.onmicrosoft.com)
 - ヘルプが必要なデータの種類と数
 - アカウントで承認を行うユーザー

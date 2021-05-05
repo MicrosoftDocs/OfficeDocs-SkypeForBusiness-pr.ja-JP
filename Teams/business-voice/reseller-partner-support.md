@@ -14,7 +14,7 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: Microsoft 販売店またはパートナーからサポートを受けて、通話プランなしで Microsoft 365 Business Voice を設定する方法を学びます。
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,19 +24,19 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 4dd06a36fca100dd74cb49e1920cd2e3d2a31ca2
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 4f48219fab34c668e16b28f781594218e9f8b3c9
+ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096927"
+ms.lasthandoff: 05/03/2021
+ms.locfileid: "52129736"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>Microsoft 販売店または Microsoft パートナーからサポートを受ける
 
 > [!IMPORTANT]
-> この記事の情報は、通話プラン**なし** Business Voice のみに適用されます。 この記事を読む前に、「[Business Voice を利用できる国と地域](country-region-availability.md)」で、お住まいの国または地域が通話プラン付き Business Voice をサポートしているかどうかを確認してください。
+> この記事の情報は、通話プラン **なし** Business Voice のみに適用されます。 この記事を読む前に、「[Business Voice を利用できる国と地域](country-region-availability.md)」で、お住まいの国または地域が通話プラン付き Business Voice をサポートしているかどうかを確認してください。
 >
-> テナントが、通話プラン付き Business Voice がサポートされている国や地域に存在する場合は、「[作業の開始ウィザードを使用して Business Voice を設定する](use-getting-started-wizard.md)」をご確認ください。
+> テナントが、通話プラン付き Business Voice がサポートされている国や地域に存在する場合は、「[Microsoft 365 Business Voice を設定する](set-up-overview.md)」をご確認ください。
 
 通話プランなし Business Voice を設定するには、電話システムのダイレクト ルーティングの構成が必要です。 ダイレクト ルーティングを使用すると、オンプレミスの電話ハードウェア、Business Voice のコア機能である Microsoft 電話システム、サード パーティの公衆交換電話網 (PSTN) プロバイダーの間で相互運用性が実現します。 ダイレクト ルーティングには、Microsoft 電話システム、PSTN 接続、ネットワーク、その他の技術的スキルについて深く理解する必要があるため、Microsoft パートナーまたは販売店に設定を依頼することをお勧めします。 また、通話プランなし Business Voice ライセンスは、Microsoft パートナーおよび販売店からのみ入手できます。
 
@@ -56,4 +56,3 @@ Microsoft パートナーや販売店には次のことができます。
 - インターネット接続
 - 組織に関する独自の設計上の考慮事項。たとえば、コール センター、電話システムの通話メニュー (例: 営業は 1 を押す、テクニカル サポートは 2 を押す)、会議室、公衆電話室をサポートする必要があるなど。
 - 既存の電話システムがサポートしている場所の数と、それらの間の接続の設定方法
-
