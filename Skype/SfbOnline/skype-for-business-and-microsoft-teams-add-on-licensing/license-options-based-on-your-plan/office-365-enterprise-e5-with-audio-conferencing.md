@@ -20,21 +20,23 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'アドオンライセンス、機能、Office 365 Enterprise プランの購入方法について説明します。 '
-ms.openlocfilehash: 5181136bc95d2f74840af36ed6b4a29484485ed4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'アドオン のライセンス、機能、およびプランの購入方法についてOffice 365 Enterpriseします。 '
+ms.openlocfilehash: caa062e78fff49750c85e5db180081a96cae9f34
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010580"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238430"
 ---
-# <a name="office-365-enterprise-e5"></a><span data-ttu-id="bc66e-103">Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="bc66e-103">Office 365 Enterprise E5</span></span>
+# <a name="office-365-enterprise-e5"></a><span data-ttu-id="85b57-103">Office 365 Enterprise E5</span><span class="sxs-lookup"><span data-stu-id="85b57-103">Office 365 Enterprise E5</span></span>
 
-<span data-ttu-id="bc66e-104">[Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software)プランには、ほとんどの Skype for business 機能が含まれています。</span><span class="sxs-lookup"><span data-stu-id="bc66e-104">The [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) plan includes most Skype for Business features.</span></span> <span data-ttu-id="bc66e-105">追加のオプションがいくつか用意されています。</span><span class="sxs-lookup"><span data-stu-id="bc66e-105">There are just a few additional options.</span></span>
+[!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
+
+<span data-ttu-id="85b57-104">E5 [Office 365 Enterpriseには、](https://products.office.com/business/office-365-enterprise-e5-business-software)ほとんどの機能がSkype for Businessされています。</span><span class="sxs-lookup"><span data-stu-id="85b57-104">The [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) plan includes most Skype for Business features.</span></span> <span data-ttu-id="85b57-105">追加のオプションがいくつか用意されています。</span><span class="sxs-lookup"><span data-stu-id="85b57-105">There are just a few additional options.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bc66e-106">**この機能を追加するには**</span><span class="sxs-lookup"><span data-stu-id="bc66e-106">**To add this feature**</span></span> <br/> |<span data-ttu-id="bc66e-107">**購入する必要のあるもの**</span><span class="sxs-lookup"><span data-stu-id="bc66e-107">**Here's what you need to buy**</span></span> <br/> |
-|<span data-ttu-id="bc66e-108">**電話会議は含まれています。**</span><span class="sxs-lookup"><span data-stu-id="bc66e-108">**Audio Conferencing is included!**</span></span> <br/> |<span data-ttu-id="bc66e-109">ライセンスを購入すると、Microsoft が電話会議プロバイダーになります。</span><span class="sxs-lookup"><span data-stu-id="bc66e-109">Once you buy the license, Microsoft will be your audio conferencing provider.</span></span>  <br/> |
-|<span data-ttu-id="bc66e-110">**電話会議へのダイヤルインアクセスのための無料電話番号や、世界中の電話番号に発信して誰かを追加するために会議からダイヤルアウトする機能。**</span><span class="sxs-lookup"><span data-stu-id="bc66e-110">**Toll-free numbers for dial-in access to your meetings, and the ability to dial out from a meeting to add someone by calling any telephone number in the world.**</span></span> <br/> |[<span data-ttu-id="bc66e-111">コミュニケーション クレジット</span><span class="sxs-lookup"><span data-stu-id="bc66e-111">Communications Credits</span></span>](/microsoftteams/set-up-communications-credits-for-your-organization)|
-|<span data-ttu-id="bc66e-112">**電話システムおよびボイスメールは含まれています。**</span><span class="sxs-lookup"><span data-stu-id="bc66e-112">**Phone System and voicemail is included!**</span></span> <br/> |<span data-ttu-id="bc66e-113">通話プラン: Office 365 から [通話プラン](/MicrosoftTeams/calling-plans-for-office-365) を購入します。</span><span class="sxs-lookup"><span data-stu-id="bc66e-113">Calling Plans: buy a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365) from Office 365.</span></span> <br/>  <span data-ttu-id="bc66e-114">または、 [現在お使いのプロバイダーから提供された電話サービス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)を使用します。</span><span class="sxs-lookup"><span data-stu-id="bc66e-114">Or, use the [telephone service from your existing provider](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).</span></span> |
+|<span data-ttu-id="85b57-106">**この機能を追加するには**</span><span class="sxs-lookup"><span data-stu-id="85b57-106">**To add this feature**</span></span> <br/> |<span data-ttu-id="85b57-107">**購入する必要のあるもの**</span><span class="sxs-lookup"><span data-stu-id="85b57-107">**Here's what you need to buy**</span></span> <br/> |
+|<span data-ttu-id="85b57-108">**電話会議は含まれています。**</span><span class="sxs-lookup"><span data-stu-id="85b57-108">**Audio Conferencing is included!**</span></span> <br/> |<span data-ttu-id="85b57-109">ライセンスを購入すると、Microsoft が電話会議プロバイダーになります。</span><span class="sxs-lookup"><span data-stu-id="85b57-109">Once you buy the license, Microsoft will be your audio conferencing provider.</span></span>  <br/> |
+|<span data-ttu-id="85b57-110">**会議へのダイヤルイン アクセスのための無料電話番号と、世界中の任意の電話番号に電話して他のユーザーを追加する会議からダイヤルアウトする機能。**</span><span class="sxs-lookup"><span data-stu-id="85b57-110">**Toll-free numbers for dial-in access to your meetings, and the ability to dial out from a meeting to add someone by calling any telephone number in the world.**</span></span> <br/> |[<span data-ttu-id="85b57-111">コミュニケーション クレジット</span><span class="sxs-lookup"><span data-stu-id="85b57-111">Communications Credits</span></span>](/microsoftteams/set-up-communications-credits-for-your-organization)|
+|<span data-ttu-id="85b57-112">**電話システムおよびボイスメールは含まれています。**</span><span class="sxs-lookup"><span data-stu-id="85b57-112">**Phone System and voicemail is included!**</span></span> <br/> |<span data-ttu-id="85b57-113">通話プラン: Office 365 から [通話プラン](/MicrosoftTeams/calling-plans-for-office-365) を購入します。</span><span class="sxs-lookup"><span data-stu-id="85b57-113">Calling Plans: buy a [Calling Plan](/MicrosoftTeams/calling-plans-for-office-365) from Office 365.</span></span> <br/>  <span data-ttu-id="85b57-114">または、[既存のプロバイダーの電話サービス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)を使用します。</span><span class="sxs-lookup"><span data-stu-id="85b57-114">Or, use the [telephone service from your existing provider](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).</span></span> |
