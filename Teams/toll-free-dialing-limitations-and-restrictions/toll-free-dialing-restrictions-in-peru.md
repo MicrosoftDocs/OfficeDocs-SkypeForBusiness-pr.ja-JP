@@ -30,26 +30,26 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116665"
 ---
-# <a name="toll-free-dialing-restrictions-in-peru"></a><span data-ttu-id="45280-105">ペルーでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="45280-105">Toll-free dialing restrictions in Peru</span></span>
+# <a name="toll-free-dialing-restrictions-in-peru"></a><span data-ttu-id="39197-105">ペルーでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="39197-105">Toll-free dialing restrictions in Peru</span></span>
 
-<span data-ttu-id="45280-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="45280-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="39197-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="39197-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="45280-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="45280-107">**Details**</span></span>|<span data-ttu-id="45280-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="45280-108">**Description**</span></span>|
+|<span data-ttu-id="39197-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="39197-107">**Details**</span></span>|<span data-ttu-id="39197-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="39197-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="45280-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="45280-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="45280-110">はい</span><span class="sxs-lookup"><span data-stu-id="45280-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="45280-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="45280-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="45280-112">0 800 XX XXX</span><span class="sxs-lookup"><span data-stu-id="45280-112">0 800 XX XXX</span></span>  <br/> |
-|<span data-ttu-id="45280-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="45280-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="45280-114">PE</span><span class="sxs-lookup"><span data-stu-id="45280-114">PE</span></span>  <br/> |
-|<span data-ttu-id="45280-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="45280-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="45280-116">該当なし</span><span class="sxs-lookup"><span data-stu-id="45280-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="45280-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="45280-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="45280-118">該当なし</span><span class="sxs-lookup"><span data-stu-id="45280-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="45280-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="45280-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="45280-120">はい</span><span class="sxs-lookup"><span data-stu-id="45280-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="45280-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="45280-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="45280-122">なし</span><span class="sxs-lookup"><span data-stu-id="45280-122">No</span></span>  <br/> |
-|<span data-ttu-id="45280-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="45280-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="45280-124">なし</span><span class="sxs-lookup"><span data-stu-id="45280-124">None</span></span>  <br/> |
+|<span data-ttu-id="39197-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="39197-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="39197-110">はい</span><span class="sxs-lookup"><span data-stu-id="39197-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="39197-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="39197-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="39197-112">0 800 XX XXX</span><span class="sxs-lookup"><span data-stu-id="39197-112">0 800 XX XXX</span></span>  <br/> |
+|<span data-ttu-id="39197-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="39197-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="39197-114">PE</span><span class="sxs-lookup"><span data-stu-id="39197-114">PE</span></span>  <br/> |
+|<span data-ttu-id="39197-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="39197-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="39197-116">該当なし</span><span class="sxs-lookup"><span data-stu-id="39197-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="39197-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="39197-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="39197-118">該当なし</span><span class="sxs-lookup"><span data-stu-id="39197-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="39197-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="39197-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="39197-120">はい</span><span class="sxs-lookup"><span data-stu-id="39197-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="39197-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="39197-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="39197-122">なし</span><span class="sxs-lookup"><span data-stu-id="39197-122">No</span></span>  <br/> |
+|<span data-ttu-id="39197-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="39197-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="39197-124">なし</span><span class="sxs-lookup"><span data-stu-id="39197-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="45280-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="45280-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="39197-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="39197-125">Related topics</span></span>
 
-[<span data-ttu-id="45280-126">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="45280-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="39197-126">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="39197-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="45280-127">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="45280-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
+[<span data-ttu-id="39197-127">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="39197-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   

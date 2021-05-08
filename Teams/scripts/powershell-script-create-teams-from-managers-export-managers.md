@@ -1,5 +1,5 @@
 ---
-title: PowerShell スクリプトのサンプル - エクスポート マネージャーとその担当者
+title: PowerShell スクリプト サンプル - エクスポート マネージャーとその担当者
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとしてマネージャーごとにチームを作成する準備をします。
+description: この PowerShell スクリプトを使用して、各マネージャーのチームをチーム メンバーとして作成する準備として、組織のマネージャーとその担当者のリストをエクスポートします。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,16 +23,16 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117315"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="909db-103">PowerShell スクリプトのサンプル - エクスポート マネージャーとその担当者</span><span class="sxs-lookup"><span data-stu-id="909db-103">PowerShell script sample - Export managers and their directs</span></span>
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a><span data-ttu-id="485dd-103">PowerShell スクリプト サンプル - エクスポート マネージャーとその担当者</span><span class="sxs-lookup"><span data-stu-id="485dd-103">PowerShell script sample - Export managers and their directs</span></span>
 
-<span data-ttu-id="909db-104">この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとしてマネージャーごとに人のマネージャー チームを作成する準備をします。</span><span class="sxs-lookup"><span data-stu-id="909db-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
+<span data-ttu-id="485dd-104">この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとして各マネージャーの People Manager チームを作成する準備をします。</span><span class="sxs-lookup"><span data-stu-id="485dd-104">Use this PowerShell script to export a list of managers and their directs for your organization, in preparation for creating a people manager team for each manager with their directs as team members.</span></span>
 
-<span data-ttu-id="909db-105">この PowerShell スクリプトの詳細については、「People Manager チームを作成 [する」を参照してください](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="909db-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="485dd-105">この PowerShell スクリプトの詳細については、「People Manager チームを作成 [する」を参照してください](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="485dd-105">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="909db-106">PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="909db-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="485dd-106">PowerShell をこれまでに使用したことがなく、使用開始のためのヘルプが必要な場合は、「[Azure PowerShell の概要](/powershell/azure/overview?view=azurermps-5.1.1)」をご覧ください。</span><span class="sxs-lookup"><span data-stu-id="485dd-106">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="export-managers-script"></a><span data-ttu-id="909db-107">Export-Managers スクリプト</span><span class="sxs-lookup"><span data-stu-id="909db-107">Export-Managers script</span></span>
+## <a name="export-managers-script"></a><span data-ttu-id="485dd-107">Export-Managers スクリプト</span><span class="sxs-lookup"><span data-stu-id="485dd-107">Export-Managers script</span></span>
 
 ```powershell
 <# 

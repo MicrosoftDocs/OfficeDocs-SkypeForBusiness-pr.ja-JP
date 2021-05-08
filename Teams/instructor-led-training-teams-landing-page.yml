@@ -9,58 +9,52 @@ metadata:
   author: SerdarSoysal
   ms.author: serdars
   ms.date: 06/16/2020
-  ms.openlocfilehash: 3e702f300e6d2b53319b694b3d536f539ad1ff56
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51120618"
 highlightedContent:
   items:
-  - title: Microsoft Teams の概要
-    itemType: overview
-    url: https://aka.ms/SayhelloTeams
-  - title: オンデマンドのエンドユーザー トレーニング
-    itemType: video
-    url: https://aka.ms/TeamsOnDemand
-  - title: Microsoft 365 導入ツール
-    itemType: deploy
-    url: https://adoption.microsoft.com
+    - title: Microsoft Teams の概要
+      itemType: overview
+      url: 'https://aka.ms/SayhelloTeams'
+    - title: オンデマンドのエンドユーザー トレーニング
+      itemType: video
+      url: 'https://aka.ms/TeamsOnDemand'
+    - title: Microsoft 365 導入ツール
+      itemType: deploy
+      url: 'https://adoption.microsoft.com'
 productDirectory:
   items:
-  - title: Teams の使用を開始する
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: 'チャットや会議からチームやチャネルの使用まで、ユーザーが Teams を安心して使用するための基礎をこのセッションで学びます。 (対象ユーザー: すべてのユーザー)'
-    url: https://aka.ms/GetstartedwithMSTeams
-  - title: Teams でチャットと通話を使用する
-    imageSrc: https://docs.microsoft.com/office/media/icons/chat.svg
-    summary: 'すべての会話を 1 つのプラットフォームから集中的に管理する方法について説明します。 (対象ユーザー: すべてのユーザー)'
-    url: https://aka.ms/ChatCallingInTeams
-  - title: Teams で効率的な会議を開く
-    imageSrc: https://docs.microsoft.com/office/media/icons/calendar-teams.svg
-    summary: '会議をより魅力的で生産性の高い、意味のあるものにする方法について説明します。 (対象ユーザー: すべてのユーザー)'
-    url: https://aka.ms/RunmeetingsTeams
-  - title: Teams でチームとチャネルを確認する
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-group.svg
-    summary: 'プロジェクトとワークグループの共同作業を合理化する方法を説明します。 (対象ユーザー: すべてのユーザー)'
-    url: https://aka.ms/TeamsandchannelsinTeams
-  - title: Teams で共同作業用ワークスペースを構築する
-    imageSrc: https://docs.microsoft.com/office/media/icons/structure-teams.svg
-    summary: 'プロジェクトやワークグループのためのワーク スペースを作成するために最適なアプローチを決定する方法を探ります。 (対象ユーザー: すべてのユーザー)'
-    url: https://aka.ms/CollaborateInTeams
-  - title: Teams でプロによるヒントを活用する
-    imageSrc: https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg
-    summary: 'Teams を活用して仕事を整理し、同僚とのつながりを保つ方法について説明します。 (対象ユーザー: すべてのユーザー)'
-    url: https://aka.ms/TeamsProTips
-  - title: Teams を使用して自宅で仕事する方法をマスターする
-    imageSrc: https://docs.microsoft.com/office/media/icons/headset-teams.svg
-    summary: 'チームと常につながり、生産性を維持するためのベスト プラクティスを紹介します。 (対象ユーザー: すべてのユーザー)'
-    url: https://aka.ms/WFHTeams
-  - title: Teams for Education - ウェビナー
-    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg
-    summary: '高等教育機関で Teams を使用する方法について説明します。 (対象ユーザー: スタッフ、学生、教育関係者、研究教員、IT プロフェッショナル)'
-    url: https://aka.ms/TeamsEduWebinars
-  - title: アップグレード計画のワークショップ
-    imageSrc: https://docs.microsoft.com/office/media/icons/migration-teams.svg
-    summary: 'Teams への正常なアップグレードを計画および実装します。 (対象ユーザー: IT プロフェッショナル、導入変更マネージャー)'
-    url: ./upgrade-workshops-landing-page.yml
+    - title: Teams の使用を開始する
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
+      summary: 'チャットや会議からチームやチャネルの使用まで、ユーザーが Teams を安心して使用するための基礎をこのセッションで学びます。 (対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/GetstartedwithMSTeams'
+    - title: Teams でチャットと通話を使用する
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
+      summary: 'すべての会話を 1 つのプラットフォームから集中的に管理する方法について説明します。 (対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/ChatCallingInTeams'
+    - title: Teams で効率的な会議を開く
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
+      summary: '会議をより魅力的で生産性の高い、意味のあるものにする方法について説明します。 (対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/RunmeetingsTeams'
+    - title: Teams でチームとチャネルを確認する
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
+      summary: 'プロジェクトとワークグループの共同作業を合理化する方法を説明します。 (対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/TeamsandchannelsinTeams'
+    - title: Teams で共同作業用ワークスペースを構築する
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
+      summary: 'プロジェクトやワークグループのためのワーク スペースを作成するために最適なアプローチを決定する方法を探ります。 (対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/CollaborateInTeams'
+    - title: Teams でプロによるヒントを活用する
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
+      summary: 'Teams を活用して仕事を整理し、同僚とのつながりを保つ方法について説明します。 (対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/TeamsProTips'
+    - title: Teams を使用して自宅で仕事する方法をマスターする
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
+      summary: 'チームと常につながり、生産性を維持するためのベスト プラクティスを紹介します。 (対象ユーザー: すべてのユーザー)'
+      url: 'https://aka.ms/WFHTeams'
+    - title: Teams for Education - ウェビナー
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
+      summary: '高等教育機関で Teams を使用する方法について説明します。 (対象ユーザー: スタッフ、学生、教育関係者、研究教員、IT プロフェッショナル)'
+      url: 'https://aka.ms/TeamsEduWebinars'
+    - title: アップグレード計画のワークショップ
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
+      summary: 'Teams への正常なアップグレードを計画および実装します。 (対象ユーザー: IT プロフェッショナル、導入変更マネージャー)'
+      url: ./upgrade-workshops-landing-page.yml

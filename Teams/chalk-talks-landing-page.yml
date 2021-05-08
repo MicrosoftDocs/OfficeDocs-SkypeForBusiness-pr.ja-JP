@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft Teams の取り分け講演
-summary: IT プロフェッショナルや意思決定者向けに設計された Teams のスロペンド 講演は、Teams で最も人気があり説得力のあるシナリオのいくつかについて、ベスト プラクティスと実践的なガイダンスを学ぶ独自の機会を提供します。
+title: Microsoft Teams取り込み講演
+summary: IT プロフェッショナルや意思決定者向けに設計された Teams ストークは、Teams で最も人気のある説得力のあるシナリオに関するベスト プラクティスと実践的なガイダンスを学ぶ独自の機会を提供します。
 brand: teams
 metadata:
-  title: Microsoft Teams での講演
-  description: IT プロフェッショナルや意思決定者向けに設計された Teams のスロペンド 講演は、Teams で最も人気があり説得力のあるシナリオのいくつかについて、ベスト プラクティスと実践的なガイダンスを学ぶ独自の機会を提供します。 主題の専門家によって促進される、これらのオンライン 対話型ワークショップは、Teams の実装を強化し、エンド ユーザーに追加の価値を提供するための洞察を提供します。 以下のワークショップのタイトルをクリックして、利用可能な日時を確認し、今すぐサインアップしてください。
+  title: Microsoft Teams講演
+  description: IT プロフェッショナルや意思決定者向けに設計された Teams ストークは、Teams で最も人気のある説得力のあるシナリオに関するベスト プラクティスと実践的なガイダンスを学ぶ独自の機会を提供します。 これらのオンライン対話型ワークショップは、主題の専門家によって促進され、Teams 実装を強化し、エンド ユーザーに追加の価値を提供するための洞察を提供します。 以下のワークショップタイトルをクリックすると、利用可能な日付と時刻が表示され、今すぐサインアップできます。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -26,41 +26,41 @@ metadata:
   appliesto:
     - Microsoft Teams
 productDirectory:
-  summary: 登録するワークショップのタイトルをクリックします。
+  summary: 登録するには、ワークショップのタイトルをクリックします。
   items:
-    - title: Teams でオーディオ/ビデオ品質を担当する
+    - title: オーディオ/ビデオの品質をビデオでTeams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
-      summary: ユーザーが会議や音声機能で最適なエクスペリエンスを得る方法をご確認ください。 積極的な戦略の確立から一般的な問題の解決まで、サービス品質の管理に役立つツール、レポート、ベスト プラクティスについて説明します。
+      summary: ユーザーが会議や音声機能で最適なエクスペリエンスを得る方法を確認するには、 プロアクティブな戦略の確立から一般的な問題の解決まで、サービス品質の管理に役立つツール、レポート、ベスト プラクティスについて説明します。
       url: 'https://microsoftteams.eventbuilder.com/ChalkTalksQuality'
-    - title: だから。。。Teams で通話を行いますか?
+    - title: だから。。。を使用して通話を行Teams?
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: Teams 展開に PSTN 通話機能を追加する方法の詳細については、ご参加ください。 一緒に、呼び出し用語、主要な概念、構成について説明します。
+      summary: PSTN 通話機能をデプロイに追加する方法の詳細については、Teamsしてください。 用語、主要な概念、構成の呼び出しについて説明します。
       url: 'https://microsoftteams.eventbuilder.com/ChalkTalksCalling'
-    - title: Microsoft Teams でライブ イベントを活用する
+    - title: ライブ イベントをライブ イベントのMicrosoft Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
-      summary: Microsoft Teams を使用して、大規模なオンライン仮想イベントで対象ユーザーを引き付け、活用します。 イベントが成功するためのベスト プラクティスについて説明します。
+      summary: 大規模なオンライン仮想イベントを使用して、対象ユーザーを引き付け、Microsoft Teams。 イベントが成功するためのベスト プラクティスについて説明します。
       url: 'https://aka.ms/ChalkTalksVirtualEvents'
-    - title: Teams の基礎のアプリ
+    - title: Teams のアプリ
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
-      summary: この基本セッションでは、アプリの管理やセキュリティなどの基本的な機能について説明します。 ワークフロー、生産性アプリ、および毎日使用するサービスを 1 つの統一されたエクスペリエンスに統合する方法について説明します。
+      summary: この基本セッションでは、アプリの管理やセキュリティなどの基本的な機能について説明します。 ワークフロー、生産性アプリ、毎日使用するサービスを 1 つの統一されたエクスペリエンスに統合する方法について説明します。
       url: 'https://microsoftteams.eventbuilder.com/ChalkTalksApps'
-    - title: Teams のアプリを使用して重要なワークフローをスーパーチャージする
+    - title: アプリを使用して主要なワークフローをTeams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
-      summary: 組織が依存するアプリを Teams に組み込み、システムを接続し、自動化を強化し、ユーザーに改善されたエクスペリエンスを提供します。
+      summary: Connectに依存するアプリをユーザーに提供することで、システムの開発、自動化の向上、ユーザーのエクスペリエンスの向上Teams。
       url: 'https://aka.ms/ChalkTalkKeyApps'
-    - title: Teams を使用して、最前線の従業員がさらに多くのことを行う権限を与える
+    - title: フロントラインの従業員が他の従業員とより多くのことを行Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
-      summary: 効率的なエクスペリエンスを計画して実装するためのベスト プラクティスを確認し、生産性の高い会話、情報共有、および Frontline ワーカーのスケジュール管理を行います。
+      summary: フロントエンドワーカーの生産的な会話、情報共有、スケジュール管理のための効率的なエクスペリエンスを計画して実装するためのベスト プラクティスについて説明します。
       url: 'https://aka.ms/TeamsFLW'
 additionalContent:
   sections:
     - items:
-        - title: Skype for Business をまだお使いですか?
+        - title: 引き続き Skype for Business?
           summary: アップグレード ワークショップ シリーズをご覧ください。
           url: upgrade-workshops-landing-page.yml
         - title: ユーザーを準備する
-          summary: Teams Live トレーニングを使用してユーザーを立ち上げ、実行します。
+          summary: ライブ トレーニングを使用してユーザー Teamsを開始します。
           url: ./instructor-led-training-teams-landing-page.yml
         - title: Teams は初めてですか?
-          summary: Teams の使用を開始する方法について詳しくは、次のリンクを参照してください。
+          summary: 詳細については、Teams の概要に関するTeams。
           url: ./teams-overview.md

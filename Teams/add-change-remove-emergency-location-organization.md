@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 'Microsoft Teams 管理センターで、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。 '
+description: '管理センターで組織の緊急対応の場所を追加、変更、または削除Microsoft Teamsします。 '
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: b918cbcbebf8edb2cd54d08e0e4a3177867fa623
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -25,65 +25,65 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51121525"
 ---
-# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="3476e-103">組織の緊急対応の場所を追加、変更、削除する</span><span class="sxs-lookup"><span data-stu-id="3476e-103">Add, change, or remove an emergency location for your organization</span></span>
+# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="ed7db-103">組織の緊急対応の場所を追加、変更、削除する</span><span class="sxs-lookup"><span data-stu-id="ed7db-103">Add, change, or remove an emergency location for your organization</span></span>
 
-<span data-ttu-id="3476e-104">緊急対応の場所は電話番号に関連付けられている必要がありますが、この場合、国や地域によって異なる場合があります。</span><span class="sxs-lookup"><span data-stu-id="3476e-104">An emergency location must be associated with a phone number, but when this happens can vary between countries and regions.</span></span> <span data-ttu-id="3476e-105">たとえば、米国では、電話番号をユーザーに割り当てるときに緊急対応の場所を関連付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="3476e-105">For example, in the United States, you need to associate an emergency location when you assign the phone number to the user.</span></span> <span data-ttu-id="3476e-106">英国では、Microsoft 365 または Office 365 から電話番号を取得したり、現在のサービス プロバイダーから電話番号を転送したりするときに、緊急対応の場所を電話番号に関連付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="3476e-106">In the United Kingdom, you need to associate an emergency location to the phone number when you get the phone numbers from Microsoft 365 or Office 365 or transfer phone numbers from your current service provider.</span></span>
+<span data-ttu-id="ed7db-104">緊急対応の場所は電話番号に関連付けられている必要がありますが、この場合、国や地域によって異なる場合があります。</span><span class="sxs-lookup"><span data-stu-id="ed7db-104">An emergency location must be associated with a phone number, but when this happens can vary between countries and regions.</span></span> <span data-ttu-id="ed7db-105">たとえば、米国では、電話番号をユーザーに割り当てるときに緊急対応の場所を関連付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="ed7db-105">For example, in the United States, you need to associate an emergency location when you assign the phone number to the user.</span></span> <span data-ttu-id="ed7db-106">英国では、Microsoft 365 または Office 365 から電話番号を取得したり、現在のサービス プロバイダーから電話番号を転送したりするときに、緊急対応の場所を電話番号に関連付ける必要があります。</span><span class="sxs-lookup"><span data-stu-id="ed7db-106">In the United Kingdom, you need to associate an emergency location to the phone number when you get the phone numbers from Microsoft 365 or Office 365 or transfer phone numbers from your current service provider.</span></span>
 
-<span data-ttu-id="3476e-107">どの国や地域にいても、緊急対応の場所に場所や場所を追加して、緊急対応の場所を削除できます。</span><span class="sxs-lookup"><span data-stu-id="3476e-107">No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location.</span></span> <span data-ttu-id="3476e-108">組織の物理的な場所の数に応じて、ビル、フロア、オフィスの場所を作成できます。</span><span class="sxs-lookup"><span data-stu-id="3476e-108">Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices.</span></span> <span data-ttu-id="3476e-109">「緊急 [通話を管理する」を参照してください](what-are-emergency-locations-addresses-and-call-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="3476e-109">See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).</span></span>
+<span data-ttu-id="ed7db-107">どの国や地域に関係なく、緊急対応の場所に場所や場所を追加し、緊急対応の場所を削除できます。</span><span class="sxs-lookup"><span data-stu-id="ed7db-107">No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location.</span></span> <span data-ttu-id="ed7db-108">組織の物理的な場所の数に応じて、ビル、フロア、オフィスの場所を作成できます。</span><span class="sxs-lookup"><span data-stu-id="ed7db-108">Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices.</span></span> <span data-ttu-id="ed7db-109">「緊急 [通話の管理」を参照してください](what-are-emergency-locations-addresses-and-call-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="ed7db-109">See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).</span></span>
   
-<span data-ttu-id="3476e-110">通話プランを取得する方法と料金については、「Teams のアドオン ライセンス [」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="3476e-110">To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
+<span data-ttu-id="ed7db-110">通話プランを取得する方法と料金については、アドオン ライセンスのTeams[を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="ed7db-110">To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
 
-<span data-ttu-id="3476e-111">組織の緊急対応の場所は、Microsoft Teams 管理センターまたは PowerShell を使用して管理します。</span><span class="sxs-lookup"><span data-stu-id="3476e-111">You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.</span></span>
+<span data-ttu-id="ed7db-111">組織の緊急対応の場所は、Microsoft Teamsまたは PowerShell を使用して管理します。</span><span class="sxs-lookup"><span data-stu-id="ed7db-111">You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.</span></span>
   
-## <a name="add-an-emergency-location"></a><span data-ttu-id="3476e-112">緊急対応の場所を追加する</span><span class="sxs-lookup"><span data-stu-id="3476e-112">Add an emergency location</span></span>
+## <a name="add-an-emergency-location"></a><span data-ttu-id="ed7db-112">緊急対応の場所を追加する</span><span class="sxs-lookup"><span data-stu-id="ed7db-112">Add an emergency location</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="3476e-113">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="3476e-113">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="ed7db-113">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="ed7db-113">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="3476e-114">Microsoft Teams 管理センターの左側のナビゲーションで、[場所の緊急対応の住所 **]**  >  **をクリックします**。</span><span class="sxs-lookup"><span data-stu-id="3476e-114">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
-2. <span data-ttu-id="3476e-115">**[追加]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3476e-115">Click **Add**.</span></span>
-3. <span data-ttu-id="3476e-116">場所の名前と説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="3476e-116">Enter a name and description for the location.</span></span>
-4. <span data-ttu-id="3476e-117">国または地域を選択し、住所を入力します。</span><span class="sxs-lookup"><span data-stu-id="3476e-117">Select the country or region, and then enter the address.</span></span>
+1. <span data-ttu-id="ed7db-114">管理センターの左側のナビゲーションで、[場所Microsoft Teams緊急対応の住所 **]**  >  **をクリックします**。</span><span class="sxs-lookup"><span data-stu-id="ed7db-114">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
+2. <span data-ttu-id="ed7db-115">**[追加]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed7db-115">Click **Add**.</span></span>
+3. <span data-ttu-id="ed7db-116">場所の名前と説明を入力します。</span><span class="sxs-lookup"><span data-stu-id="ed7db-116">Enter a name and description for the location.</span></span>
+4. <span data-ttu-id="ed7db-117">国または地域を選択し、アドレスを入力します。</span><span class="sxs-lookup"><span data-stu-id="ed7db-117">Select the country or region, and then enter the address.</span></span>
 
    > [!NOTE]
-   > <span data-ttu-id="3476e-118">ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Microsoft 365 または Office 365 で電話番号を正常にアクティブ化するには、緊急対応の場所に設定された住所 (番号の取得に使用される) が電話番号の市局番と一致している必要があります。</span><span class="sxs-lookup"><span data-stu-id="3476e-118">In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that to successfully activate a phone number in Microsoft 365 or Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.</span></span>
+   > <span data-ttu-id="ed7db-118">ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Microsoft 365 または Office 365 で電話番号を正常にアクティブ化するには、緊急対応の場所に設定された住所 (番号の取得に使用) が電話番号の市番と一致する必要があります。</span><span class="sxs-lookup"><span data-stu-id="ed7db-118">In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that to successfully activate a phone number in Microsoft 365 or Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.</span></span>
 
-5. <span data-ttu-id="3476e-119">住所が見つからない場合に、手動で住所を編集する場合は、[アドレスを手動で編集する] **をオンにしてください**。</span><span class="sxs-lookup"><span data-stu-id="3476e-119">If the address isn't found and you want to manually edit the address, turn on **Edit the address manually**.</span></span>
-6. <span data-ttu-id="3476e-120">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3476e-120">Click **Save**.</span></span>
+5. <span data-ttu-id="ed7db-119">住所が見つからない場合に、アドレスを手動で編集する場合は、[アドレスを手動で編集する **] をオンにしてください**。</span><span class="sxs-lookup"><span data-stu-id="ed7db-119">If the address isn't found and you want to manually edit the address, turn on **Edit the address manually**.</span></span>
+6. <span data-ttu-id="ed7db-120">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed7db-120">Click **Save**.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="3476e-121">PowerShell の使用</span><span class="sxs-lookup"><span data-stu-id="3476e-121">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="ed7db-121">PowerShell の使用</span><span class="sxs-lookup"><span data-stu-id="ed7db-121">Using PowerShell</span></span>
 
-<span data-ttu-id="3476e-122">[New-CsOnlineLisSkyicAddress を参照してください](/powershell/module/skype/new-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="3476e-122">See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress).</span></span>
+<span data-ttu-id="ed7db-122">[New-CsOnlineLisSkyicAddress を参照してください](/powershell/module/skype/new-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="ed7db-122">See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress).</span></span>
     
-## <a name="change-an-emergency-location"></a><span data-ttu-id="3476e-123">緊急対応の場所を変更する</span><span class="sxs-lookup"><span data-stu-id="3476e-123">Change an emergency location</span></span>
+## <a name="change-an-emergency-location"></a><span data-ttu-id="ed7db-123">緊急対応の場所を変更する</span><span class="sxs-lookup"><span data-stu-id="ed7db-123">Change an emergency location</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="3476e-124">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="3476e-124">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="ed7db-124">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="ed7db-124">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="3476e-125">Microsoft Teams 管理センターの左側のナビゲーションで、[場所の緊急対応の住所 **]**  >  **をクリックします**。</span><span class="sxs-lookup"><span data-stu-id="3476e-125">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
-2. <span data-ttu-id="3476e-126">一覧で、変更する場所を選び、[編集] をクリック **します**。</span><span class="sxs-lookup"><span data-stu-id="3476e-126">In the list, select the location that you want to change, and then click **Edit**.</span></span>
-3. <span data-ttu-id="3476e-127">必要な変更を行います。</span><span class="sxs-lookup"><span data-stu-id="3476e-127">Make the changes you want.</span></span>
-4. <span data-ttu-id="3476e-128">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="3476e-128">Click **Save**.</span></span>
+1. <span data-ttu-id="ed7db-125">管理センターの左側のナビゲーションで、[場所Microsoft Teams緊急対応の住所 **]**  >  **をクリックします**。</span><span class="sxs-lookup"><span data-stu-id="ed7db-125">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
+2. <span data-ttu-id="ed7db-126">一覧で、変更する場所を選択し、[編集] をクリック **します**。</span><span class="sxs-lookup"><span data-stu-id="ed7db-126">In the list, select the location that you want to change, and then click **Edit**.</span></span>
+3. <span data-ttu-id="ed7db-127">必要な変更を行います。</span><span class="sxs-lookup"><span data-stu-id="ed7db-127">Make the changes you want.</span></span>
+4. <span data-ttu-id="ed7db-128">**[保存]** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ed7db-128">Click **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="3476e-129">住所が検証されていない場合にのみ、場所の住所情報を変更できます。</span><span class="sxs-lookup"><span data-stu-id="3476e-129">You can change the address information for a location only if the address isn't validated.</span></span> <span data-ttu-id="3476e-130">住所が既に検証済みで、住所を変更する必要がある場合は、場所を削除し、正しい住所で新しい場所を作成します。</span><span class="sxs-lookup"><span data-stu-id="3476e-130">If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.</span></span>
+> <span data-ttu-id="ed7db-129">住所の住所情報は、住所が検証されていない場合にのみ変更できます。</span><span class="sxs-lookup"><span data-stu-id="ed7db-129">You can change the address information for a location only if the address isn't validated.</span></span> <span data-ttu-id="ed7db-130">住所が既に検証済みで、住所を変更する必要がある場合は、場所を削除し、正しい住所で新しい場所を作成します。</span><span class="sxs-lookup"><span data-stu-id="ed7db-130">If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="3476e-131">PowerShell の使用</span><span class="sxs-lookup"><span data-stu-id="3476e-131">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="ed7db-131">PowerShell の使用</span><span class="sxs-lookup"><span data-stu-id="ed7db-131">Using PowerShell</span></span>
 
-<span data-ttu-id="3476e-132">[「Set-CsOnlineLisSkyicAddress」を参照してください](/powershell/module/skype/set-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="3476e-132">See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).</span></span>
+<span data-ttu-id="ed7db-132">[「Set-CsOnlineLisSkycAddress」を参照してください](/powershell/module/skype/set-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="ed7db-132">See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).</span></span>
     
-## <a name="remove-an-emergency-location"></a><span data-ttu-id="3476e-133">緊急対応の場所を削除する</span><span class="sxs-lookup"><span data-stu-id="3476e-133">Remove an emergency location</span></span>
+## <a name="remove-an-emergency-location"></a><span data-ttu-id="ed7db-133">緊急対応の場所を削除する</span><span class="sxs-lookup"><span data-stu-id="ed7db-133">Remove an emergency location</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="3476e-134">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="3476e-134">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="ed7db-134">Microsoft Teams 管理センターの使用</span><span class="sxs-lookup"><span data-stu-id="ed7db-134">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="3476e-135">Microsoft Teams 管理センターの左側のナビゲーションで、[場所の緊急対応の住所 **]**  >  **をクリックします**。</span><span class="sxs-lookup"><span data-stu-id="3476e-135">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
-2. <span data-ttu-id="3476e-136">一覧で、削除する場所を選び、[削除] をクリック **します**。</span><span class="sxs-lookup"><span data-stu-id="3476e-136">In the list, select the location that you want to remove, and then click **Delete**.</span></span>
+1. <span data-ttu-id="ed7db-135">管理センターの左側のナビゲーションで、[場所Microsoft Teams緊急対応の住所 **]**  >  **をクリックします**。</span><span class="sxs-lookup"><span data-stu-id="ed7db-135">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
+2. <span data-ttu-id="ed7db-136">一覧で、削除する場所を選択し、[削除] をクリック **します**。</span><span class="sxs-lookup"><span data-stu-id="ed7db-136">In the list, select the location that you want to remove, and then click **Delete**.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="3476e-137">PowerShell の使用</span><span class="sxs-lookup"><span data-stu-id="3476e-137">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="ed7db-137">PowerShell の使用</span><span class="sxs-lookup"><span data-stu-id="ed7db-137">Using PowerShell</span></span>
 
-<span data-ttu-id="3476e-138">[Remove-CsOnlineLisSkyicAddress を参照してください](/powershell/module/skype/remove-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="3476e-138">See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).</span></span>
+<span data-ttu-id="ed7db-138">[Remove-CsOnlineLisSkyicAddress に関するページを参照してください](/powershell/module/skype/remove-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="ed7db-138">See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="3476e-139">関連項目</span><span class="sxs-lookup"><span data-stu-id="3476e-139">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="ed7db-139">関連トピック</span><span class="sxs-lookup"><span data-stu-id="ed7db-139">Related topics</span></span>
 
-- [<span data-ttu-id="3476e-140">緊急通話を管理する</span><span class="sxs-lookup"><span data-stu-id="3476e-140">Manage emergency calling</span></span>](what-are-emergency-locations-addresses-and-call-routing.md)
-- [<span data-ttu-id="3476e-141">組織の緊急対応の場所の位置情報を追加、変更、削除する</span><span class="sxs-lookup"><span data-stu-id="3476e-141">Add, change, or remove a place for an emergency location in your organization</span></span>](add-change-remove-emergency-place-organization.md)
-- [<span data-ttu-id="3476e-142">組織の電話番号を管理する</span><span class="sxs-lookup"><span data-stu-id="3476e-142">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [<span data-ttu-id="3476e-143">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="3476e-143">Emergency calling terms and conditions</span></span>](./emergency-calling-terms-and-conditions.md)
+- [<span data-ttu-id="ed7db-140">緊急通話を管理する</span><span class="sxs-lookup"><span data-stu-id="ed7db-140">Manage emergency calling</span></span>](what-are-emergency-locations-addresses-and-call-routing.md)
+- [<span data-ttu-id="ed7db-141">組織の緊急対応の場所の位置情報を追加、変更、削除する</span><span class="sxs-lookup"><span data-stu-id="ed7db-141">Add, change, or remove a place for an emergency location in your organization</span></span>](add-change-remove-emergency-place-organization.md)
+- [<span data-ttu-id="ed7db-142">組織の電話番号を管理する</span><span class="sxs-lookup"><span data-stu-id="ed7db-142">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+- [<span data-ttu-id="ed7db-143">緊急通話の利用条件</span><span class="sxs-lookup"><span data-stu-id="ed7db-143">Emergency calling terms and conditions</span></span>](./emergency-calling-terms-and-conditions.md)

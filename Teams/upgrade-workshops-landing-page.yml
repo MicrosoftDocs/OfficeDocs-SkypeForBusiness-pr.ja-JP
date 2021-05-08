@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Teams のアップグレード計画のワークショップ
-summary: Teams へのアップグレードの計画と実施に役立つように設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、一連のライブの対話型アップグレード計画ワークショップにご参加ください。 最適なエクスペリエンスのために、以下の「アップグレードを計画する」セッションから始めてください。 登録するワークショップのタイトルをクリックします。
+summary: Teams へのアップグレードの計画と実施に役立つように設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、一連のライブの対話型アップグレード計画ワークショップにご参加ください。 最適なエクスペリエンスのために、以下の「アップグレードを計画する」セッションから始めてください。 登録するには、ワークショップのタイトルをクリックします。
 brand: teams
 metadata:
   title: Teams のアップグレード計画のワークショップ
-  description: Teams へのアップグレードの計画と実施に役立つように設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、一連のライブの対話型アップグレード計画ワークショップにご参加ください。 最適なエクスペリエンスのために、以下の「アップグレードを計画する」セッションから始めてください。 登録するワークショップのタイトルをクリックします。
+  description: Teams へのアップグレードの計画と実施に役立つように設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、一連のライブの対話型アップグレード計画ワークショップにご参加ください。 最適なエクスペリエンスのために、以下の「アップグレードを計画する」セッションから始めてください。 登録するには、ワークショップのタイトルをクリックします。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -14,41 +14,35 @@ metadata:
   ms.reviewer: landerl
   audience: admin
   f1.keywords:
-  - NOCSH
+    - NOCSH
   localization_priority: Priority
   ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+    - Teams_ITAdmin_JourneyFromSfB
+    - M365-collaboration
   ms.custom:
-  - seo-marvel-apr2020
+    - seo-marvel-apr2020
   search.appverid: MET150
   appliesto:
-  - Microsoft Teams
-  ms.openlocfilehash: 1fea5f1d806058d8b7ff6d37414543347ba6adf8
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: MT
-  ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51093747"
+    - Microsoft Teams
 productDirectory:
   items:
-  - title: アップグレードを計画する (ここから開始!)
-    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-teams.svg
-    summary: Skype for Business Online のサポート終了 (2021 年 7 月 31 日) に先立って Teams にアップグレードする場合でも、Skype for Business オンプレミス環境から Teams にシナリオを移行する場合でも、移行が成功すると、技術的な準備とユーザーの準備の両方に対応できます。 実績のあるフレームワーク、ベスト プラクティス、および Skype for Business Online、Skype for Business Server、またはハイブリッド環境から Teams への移行を成功に向け支援するように設計されたリソースについて説明します。 対象ユーザー – すべて (ビジネス スポンサー、IT 管理者、ユーザー準備/変更マネージャー、プロジェクト リード)
-    url: https://microsoftteams.eventbuilder.com/PlanYourUpgrade
-  - title: Teams のアップグレードを実装する
-    imageSrc: https://docs.microsoft.com/office/media/icons/hybrid-teams.svg
-    summary: お客様の目標と現在の Skype for Business 環境に基づいて、すべてのワークロードを Teams に移行するための最適な技術的アプローチを特定し、実行するための準備を行います。 移行が成功したほとんどのお客様は、現在の Skype for Business Online、Skype for Business Server、またはハイブリッド実装と共に Teams を有効にしています。 このセッションでは、組織に最適な移行戦略を定義するのに役立つ重要な考慮事項と貴重なリソースを共有します。 対象ユーザー - IT 管理者
-    url: https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade
+    - title: アップグレードを計画する (ここから開始!)
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
+      summary: Skype for Business Online (2021 年 7 月 31 日) の提供終了に先立って Teams にアップグレードする場合でも、Skype for Business オンプレミス環境から Teams にシナリオを移行する場合でも、移行が成功すると、技術的な準備とユーザーの準備の両方に対応できます。 Skype for Business Teams Online、Skype for Business Server、またはハイブリッド環境から Teams への移行を成功に役立て、実証済みのフレームワーク、ベスト プラクティス、リソースを発見します。 対象ユーザー – すべて (ビジネス スポンサー、IT 管理者、ユーザー準備/変更マネージャー、プロジェクト リード)
+      url: 'https://microsoftteams.eventbuilder.com/PlanYourUpgrade'
+    - title: アップグレードを実装Teamsする
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
+      summary: お客様の目標と現在の環境に基づいて、すべてのワークロードを Teams に移行するための最適な技術アプローチを特定してSkype for Business準備してください。 移行が成功したほとんどのお客様は、現在の Teams Online、Skype for Business、またはハイブリッド実装とSkype for Business Serverを有効にしています。 このセッションでは、組織に最適な移行戦略を定義するのに役立つ重要な考慮事項と貴重なリソースを共有します。 対象ユーザー - IT 管理者
+      url: 'https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade'
 additionalContent:
   sections:
-  - items:
-    - title: これらのワークショップを自分の時間で表示する
-      summary: YouTube の Microsoft Teams へのアップグレードにアクセスします。
-      url: https://aka.ms/UpgradeOnDemand
-    - title: Teams のシナリオを拡大する
-      summary: IT プロ向け Teams のストーク Talk ワークショップをご覧ください。
-      url: ./chalk-talks-landing-page.yml
-    - title: Teams は初めてですか?
-      summary: Teams の使用を開始する方法について詳しくは、次のリンクを参照してください。
-      url: ./teams-overview.md
+    - items:
+        - title: 自分の時間にこれらのワークショップを表示する
+          summary: 'YouTube の [アップグレード] Microsoft Teamsにアクセスします。'
+          url: 'https://aka.ms/UpgradeOnDemand'
+        - title: 新しいシナリオTeams展開しますか?
+          summary: IT プロ向Teamsワークショップをご覧ください。
+          url: ./chalk-talks-landing-page.yml
+        - title: Teams は初めてですか?
+          summary: 詳細については、Teams の概要に関するTeams。
+          url: ./teams-overview.md

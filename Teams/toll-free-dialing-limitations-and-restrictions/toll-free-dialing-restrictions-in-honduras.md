@@ -30,26 +30,26 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116715"
 ---
-# <a name="toll-free-dialing-restrictions-in-honduras"></a><span data-ttu-id="10522-105">ホンジュラスでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="10522-105">Toll-free dialing restrictions in Honduras</span></span>
+# <a name="toll-free-dialing-restrictions-in-honduras"></a><span data-ttu-id="c84b6-105">ホンジュラスでのフリーダイヤル制限</span><span class="sxs-lookup"><span data-stu-id="c84b6-105">Toll-free dialing restrictions in Honduras</span></span>
 
-<span data-ttu-id="10522-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="10522-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="c84b6-106">[別の国または地域を検索](../toll-free-dialing-limitations-and-restrictions.md)、またはフリーダイヤルの制限について詳しく説明します。</span><span class="sxs-lookup"><span data-stu-id="c84b6-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="10522-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="10522-107">**Details**</span></span>|<span data-ttu-id="10522-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="10522-108">**Description**</span></span>|
+|<span data-ttu-id="c84b6-107">**詳細**</span><span class="sxs-lookup"><span data-stu-id="c84b6-107">**Details**</span></span>|<span data-ttu-id="c84b6-108">**説明**</span><span class="sxs-lookup"><span data-stu-id="c84b6-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="10522-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="10522-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="10522-110">はい</span><span class="sxs-lookup"><span data-stu-id="10522-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="10522-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="10522-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="10522-112">800 XXXX XXXX</span><span class="sxs-lookup"><span data-stu-id="10522-112">800 XXXX XXXX</span></span>  <br/> |
-|<span data-ttu-id="10522-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="10522-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="10522-114">HN</span><span class="sxs-lookup"><span data-stu-id="10522-114">HN</span></span>  <br/> |
-|<span data-ttu-id="10522-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="10522-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="10522-116">該当なし</span><span class="sxs-lookup"><span data-stu-id="10522-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="10522-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="10522-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="10522-118">該当なし</span><span class="sxs-lookup"><span data-stu-id="10522-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="10522-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="10522-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="10522-120">Hondutel からのみ。</span><span class="sxs-lookup"><span data-stu-id="10522-120">From Hondutel only.</span></span>  <br/> |
-|<span data-ttu-id="10522-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="10522-121">Mobile network availability</span></span>  <br/> | <span data-ttu-id="10522-122">Tigo からのみ。</span><span class="sxs-lookup"><span data-stu-id="10522-122">From Tigo only.</span></span> <br/> |
-|<span data-ttu-id="10522-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="10522-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="10522-124">なし</span><span class="sxs-lookup"><span data-stu-id="10522-124">None</span></span>  <br/> |
+|<span data-ttu-id="c84b6-109">フリーダイヤルを利用できますか?</span><span class="sxs-lookup"><span data-stu-id="c84b6-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="c84b6-110">はい</span><span class="sxs-lookup"><span data-stu-id="c84b6-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="c84b6-111">ダイヤル形式</span><span class="sxs-lookup"><span data-stu-id="c84b6-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="c84b6-112">800 XXXX XXXX</span><span class="sxs-lookup"><span data-stu-id="c84b6-112">800 XXXX XXXX</span></span>  <br/> |
+|<span data-ttu-id="c84b6-113">国/地域の ISO コード</span><span class="sxs-lookup"><span data-stu-id="c84b6-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="c84b6-114">HN</span><span class="sxs-lookup"><span data-stu-id="c84b6-114">HN</span></span>  <br/> |
+|<span data-ttu-id="c84b6-115">対象となる島/地域</span><span class="sxs-lookup"><span data-stu-id="c84b6-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="c84b6-116">該当なし</span><span class="sxs-lookup"><span data-stu-id="c84b6-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="c84b6-117">対象外の島/地域</span><span class="sxs-lookup"><span data-stu-id="c84b6-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="c84b6-118">該当なし</span><span class="sxs-lookup"><span data-stu-id="c84b6-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="c84b6-119">有線/固定回線の状態</span><span class="sxs-lookup"><span data-stu-id="c84b6-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="c84b6-120">Hondutel からのみ。</span><span class="sxs-lookup"><span data-stu-id="c84b6-120">From Hondutel only.</span></span>  <br/> |
+|<span data-ttu-id="c84b6-121">携帯電話ネットワークの状態</span><span class="sxs-lookup"><span data-stu-id="c84b6-121">Mobile network availability</span></span>  <br/> | <span data-ttu-id="c84b6-122">Tigo からのみ。</span><span class="sxs-lookup"><span data-stu-id="c84b6-122">From Tigo only.</span></span> <br/> |
+|<span data-ttu-id="c84b6-123">コメント、制限、アクセスの問題など</span><span class="sxs-lookup"><span data-stu-id="c84b6-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="c84b6-124">なし</span><span class="sxs-lookup"><span data-stu-id="c84b6-124">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="10522-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="10522-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c84b6-125">関連項目</span><span class="sxs-lookup"><span data-stu-id="c84b6-125">Related topics</span></span>
 
-[<span data-ttu-id="10522-126">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="10522-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="c84b6-126">無料電話ダイヤルの制限事項</span><span class="sxs-lookup"><span data-stu-id="c84b6-126">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="10522-127">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="10522-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
+[<span data-ttu-id="c84b6-127">Skype for Business および Microsoft Teams のサービス電話番号の取得</span><span class="sxs-lookup"><span data-stu-id="c84b6-127">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
