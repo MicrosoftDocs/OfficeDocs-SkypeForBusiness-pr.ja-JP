@@ -151,7 +151,7 @@ Teams イベントを異常検出ポリシーに統合する作業を行って�
 |コネクタの削除     |ConnectorRemoved         |ユーザーがチャネルからコネクタを削除しました。         |
 |メンバーの削除    |MemberRemoved        |チームの所有者が、チーム、チャネル、またはグループ チャットからメンバーを削除しました。         |
 |タブの削除    |TabRemoved         |ユーザーがチャネルからタブを削除しました。         |
-|URL リンクを含むメッセージを送信Teams |MessageCreatedHasLink|ユーザーは、URL リンクを含むメッセージを送信Teams。|
+|URL リンクを含むメッセージを送信しました Teams |MessageCreatedHasLink|ユーザーは、URL リンクを含むメッセージを Teams。|
 |削除されたアプリ |AppUninstalled           |アプリがアンインストールされました。     |
 |更新されたアプリ |AppUpdatedInCatalog           |アプリがカタログで更新されました。     |
 |コネクタの更新    |ConnectorUpdated         |ユーザーがチャネルのコネクタを変更しました。         |

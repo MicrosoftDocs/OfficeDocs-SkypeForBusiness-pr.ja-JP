@@ -15,18 +15,18 @@ ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 830caffbbb0256e64198e84876a4067337e90266
-ms.sourcegitcommit: c537b1cf03e7ac5d07f2fbf4ba73d73c510f3d96
+ms.openlocfilehash: deb538c8b249faddf16096f052bca4020da6f6c0
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49848839"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237983"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
-組織内に Microsoft Teams Rooms 認定デバイスがある場合は、柔軟な管理オプションを利用できます。  すべての Teams ソリューション、Microsoft Teams 管理センターを管理するのと同じ中央の場所でデバイスを自分で管理するか [、Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com)を使用して管理責任を専用の専門家に転送することができます。  いずれかのオプションについて、選択したパートナーに管理アクセスを委任することもできます。
+組織内にMicrosoft Teams ミーティング認定デバイスがある場合は、柔軟な管理オプションがあります。  すべての Teams ソリューション、Microsoft Teams 管理センターを管理する同じ中央の場所でデバイスを自分で管理できます。また、Microsoft Teams ミーティング[Managed Services](https://portal.rooms.microsoft.com)を使用して、管理責任を専用の専門家に譲渡することもできます。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
 
-Microsoft Teams 管理センターでは、次の方法を実行できます。
+管理Microsoft Teamsを使用すると、次の方法を実行できます。
 
 - デバイスの再起動やブロック、デバイスログのダウンロードなどのデバイス管理を実行する
 - Teams 固有の設定を適用する
@@ -39,7 +39,7 @@ Teams ミーティング デバイスを管理するには、[Microsoft Teams管
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams 管理センターにある Teams ミーティングの概要ページ":::
 
 > [!IMPORTANT]
-> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、Teams サービス管理者、または Teams デバイス管理者の役割が割り当てられている必要があります。
+> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、管理者、または Teams管理者Teams割り当てられている必要があります。
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Teams ミーティング デバイスに変更を加える
 

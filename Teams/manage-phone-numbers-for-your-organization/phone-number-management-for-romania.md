@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、ルーマニアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+description: この表を使用して、ルーマニアの電話番号の取得と管理に関する情報をMicrosoft Teams。
 ms.openlocfilehash: 4a1420ff3e0ff9ea8ac00e5e154c68412a8cd4df
 ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
 ms.translationtype: MT
@@ -31,19 +31,19 @@ ms.locfileid: "52130462"
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-この表を使用して、ルーマニアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+この表を使用して、ルーマニアの電話番号の取得と管理に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 <br/> |ルーマニアでは、管理者センターを使用して組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして送信することで、新しい電話番号要求を [送信できます](mailto:ptneu@microsoft.com)。<br/><br/>[ルーマニア (v.1.0) (rm-rm) の新しい電話番号要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)。 <br/><br/> 電話番号を割り当てる前に、[顧客を知る] フォームをダウンロードし、完全に入力して送信する必要があります。<br/><br/>新しい注文は、この市場を埋めるのに 2 ~ 3 週間かかる場合があります。 |
-|電話番号を受け取り、転送します。<br/> | このフォームをダウンロードします。 <br/>[ルーマニアの承認書 (LOA) (すべての番号) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。<br/><br/>この市場で数字を転送するには、完了まで 4 ~ 5 週間かかる場合があります。 <br/><br/>これらの番号は、現時点では会議に使用できません。  <br/> |
-|国の電話ディレクトリで電話番号を発行/公開解除します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 <br/> |ルーマニアでは、管理センターで組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして送信することで、新しい電話番号の要求 [を送信できます](mailto:ptneu@microsoft.com)。<br/><br/>[ルーマニア (v.1.0) (rm-rm)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力して、送信する必要があります。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。 |
+|転送された電話番号を取得します。<br/> | このフォームをダウンロードします。 <br/>[ルーマニアの承認状 (LOA) (すべての番号) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。<br/><br/>この市場では、移行に 4 ~ 5 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。  <br/> |
+|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
-|呼び出しキューまたは自動応答番号にディレクトリ サービスの更新を行う|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

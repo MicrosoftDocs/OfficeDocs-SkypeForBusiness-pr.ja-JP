@@ -400,7 +400,7 @@ Login-AzureRmAccount
 > 2020 年 7 月 1 日の現在、従来のバージョンの CQD (cqd.lync.com) は新しい CQD ( からデータにアクセスし、建物データとレポート データをエクスポートできなくなりました。 https://CQD.teams.microsoft.com) Skype for Business Online の提供終了に合った 2021 年 7 月 31 日より、従来の CQD は無効になります。この機能にはアクセスできなくなりました。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams の通話品質の向上と監視](monitor-call-quality-qos.md)
 

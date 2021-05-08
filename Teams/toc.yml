@@ -617,8 +617,6 @@ items:
             href: google-workspace-addon-teams.md
           - name: クラウド ビデオ相互運用性
             href: cloud-video-interop.md
-          - name: Microsoft Teams でのウェビナーのセットアップ
-            href: set-up-webinars.md
       - name: 電話会議
         items:
           - name: 展開の計画
@@ -1461,6 +1459,8 @@ items:
             href: flw-realwear.md
           - name: トランシーバー
             href: walkie-talkie.md
+          - name: SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する
+            href: teams-standalone-static-tabs-using-spo-sites.md
       - name: 小売店向けの Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
