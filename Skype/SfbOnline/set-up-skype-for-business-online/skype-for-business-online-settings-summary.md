@@ -19,20 +19,22 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'この Skype for Business の組織とユーザー設定の概要は、パブリック IM 接続、会議出席依頼、通話や会議のレコーディングなどについて詳しい情報を得るのに役立ちます。  '
-ms.openlocfilehash: d48da549a48cf3326cc55a44d68ca36048fae439
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'この組織とSkype for Business設定の概要は、パブリック IM 接続、会議出席依頼、通話や会議の記録などについて詳しい情報を得るのに役立ちます。  '
+ms.openlocfilehash: deb1ed7df753377d97c23793278b317a633559b6
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109923"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239720"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online の設定の概要
 
-**Skype for Business 管理センターには、** 組織全体と個々のユーザーの設定が含まれます。 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+管理 **Skype for Businessには、** 組織全体と個々のユーザーの設定が含まれます。 
   
 > [!NOTE]
->  選んだ地域によっては、Skype for Business Online の一部の機能にアクセスできない場合があります。 詳細については [、「Microsoft 365 および Office 365](/microsoft-365/commerce/)のライセンスの制限」を参照してください。 
+>  選んだ地域によっては、Skype for Business Online の一部の機能にアクセスできない場合があります。 詳細については、「ライセンスの制限[」および「Microsoft 365」をOffice 365。](/microsoft-365/commerce/) 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Skype for Business Online の組織の設定
 <a name="__top"> </a>
@@ -53,9 +55,9 @@ ms.locfileid: "51109923"
 |音声およびビデオ  <br/> |Skype for Business Online を使用してオーディオおよびビデオによる通話を実行する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |レコーディング  <br/> |通話と会議を記録する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |匿名の出席者のダイヤルアウト  <br/> |電話会議プロバイダーに電話をかけてもらうことにより、匿名の Skype for Business Online 会議出席者の接続を許可する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|アーカイブされていない機能を無効にする  <br/> | 組織がケースにコンテンツを追加し、Exchange 管理センターの電子情報開示[](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)センターでソースを保留にしている場合、キャプチャされない機能をオフにします。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/>  電子的に保存した情報の保管を法律で要請されている場合は、このオプションを選んでください。 <br/> |無効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|アーカイブされていない機能を無効にする  <br/> | 組織がケースにコンテンツを追加し、Exchange 管理センターの電子情報開示[](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)センターでソースを保留にするときにキャプチャされない機能をオフにします。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/>  電子的に保存した情報の保管を法律で要請されている場合は、このオプションを選んでください。 <br/> |無効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

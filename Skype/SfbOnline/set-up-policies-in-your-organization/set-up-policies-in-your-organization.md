@@ -1,5 +1,5 @@
 ---
-title: 組織内のポリシーをセットアップする
+title: 組織内のポリシーを設定する
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,18 +18,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
-ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
+ms.openlocfilehash: 20da0e58c2f8b47f2c1d84959eb3ae3f69ba377c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48376560"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240022"
 ---
-# <a name="set-up-policies-in-your-organization"></a>組織内のポリシーをセットアップする
+# <a name="set-up-policies-in-your-organization"></a>組織内のポリシーを設定する
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 ポリシーは、ユーザーが利用できる Skype for Business Online の機能を決定するのに役立ちます。 詳細については、次の記事を参照してください。
 
-- [ポイントツーポイントファイル転送をブロックする](block-point-to-point-file-transfers.md)
+- [ポイント対ポイントファイル転送をブロックする](block-point-to-point-file-transfers.md)
 - [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)
 - [会議に添付された大きいファイルを保持する](retaining-large-files-attached-to-a-meeting.md)
 - [組織の電話会議ポリシーをセットアップする](set-up-conferencing-policies-for-your-organization.md)

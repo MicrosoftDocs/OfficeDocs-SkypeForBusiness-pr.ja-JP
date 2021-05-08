@@ -1,5 +1,5 @@
 ---
-title: 携帯電話の通信事業者がソースキャリアとして表示されない場合はどうすればよいですか?
+title: 携帯電話会社が送信元の運送業者として表示されていない場合は、どうしますか。
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,23 +21,25 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
-description: 'お使いの携帯電話会社が Skype for Business に表示されていない場合の対処方法について説明します。 '
-ms.openlocfilehash: a8349e1bedbfbb43310debbd0fdec8414b43fbdd
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: '運送業者が一覧に表示されていない場合の操作についてSkype for Business。 '
+ms.openlocfilehash: 4354cb05aa28b09931f8f2524de2f01c6ef57f3f
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769290"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237973"
 ---
-# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>携帯電話の通信事業者がソースキャリアとして表示されない場合はどうすればよいですか?
+# <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>携帯電話会社が送信元の運送業者として表示されていない場合は、どうしますか。
 
-お使いの携帯電話会社の名前が一覧に表示されていないことがわかります。 ほとんどの場合、サービスプロバイダーまたは携帯電話会社が異なる場合は、転送先の電話番号が別のサービスプロバイダーまたは携帯電話会社によって所有されている可能性があります。 現在のサービスプロバイダーがサードパーティのサービスプロバイダーと連携している可能性があるため、記載されているサービスプロバイダーまたは電話会社が、現在のサービスプロバイダーとは異なる場合があります。 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+運送業者の名前が表示されていない場合は、少しわかりにくいです。 ほとんどの場合、サービス プロバイダーまたは通信事業者が異なる場合、転送先の電話番号が別のサービス プロバイダーまたは通信事業者によって所有されている可能性があります。 現在のサービス プロバイダーがサード パーティのサービス プロバイダーと動作している可能性が高いので、表示されているサービス プロバイダーまたは通信事業者が現在のサービス プロバイダーと異なる場合があります。 
   
 例:
   
-- Skype for Business から電話会社に番号を移行している場合は、Level3 が表示されることがあります。
+- 電話番号を運送業者としてSkype for Business場合は、Level3 が表示される場合があります。
     
-  **詳細な手順については、「[チームに電話番号を転送する](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)」を参照してください。**
+  **詳しい手順については、「電話番号を電話番号に転送する」を [参照Teams。](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
 
     > [!NOTE]
     > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

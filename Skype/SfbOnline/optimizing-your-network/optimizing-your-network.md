@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 組織のために設定しているすべての Skype for Business Online の機能を長期間にわたり健全で正常に使用するには、次の要件に従うことが重要です。このドキュメントは技術的な専門性に長けているユーザー向けですが、専門的な知識がないユーザーにとっても参考になります。Skype for Business Online の設定でサポートが必要な場合は、このドキュメントをお読みの上、検討する必要がある事項についてよく理解するようにしてください。このドキュメントは、Microsoft FastTrack Center、お客様の Microsoft Services とアカウント チーム、または Microsoft パートナーと連携してこれらの要件に適合できる方法を見つけ出すときに検討が必要な内容も記載しています。
-ms.openlocfilehash: ece99899400d8fca063f9b28c868ba94d4f72b99
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a32e7864a15945fc9bad64c12466aa376cb924f9
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100683"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240227"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Skype for Business Online 向けのネットワークの最適化
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 [] 組織のために設定しているすべての Skype for Business Online の機能を長期間にわたり健全で正常に使用するには、次の要件に従うことが重要です。このドキュメントは技術的な専門性に長けているユーザー向けですが、専門的な知識がないユーザーにとっても参考になります。Skype for Business Online の設定でサポートが必要な場合は、このドキュメントをお読みの上、検討する必要がある事項についてよく理解するようにしてください。このドキュメントは、[Microsoft FastTrack Center](https://fasttrack.microsoft.com/office)、お客様の Microsoft Services とアカウント チーム、または [Microsoft パートナー](https://partnercenter.microsoft.com/pcv/search)と連携してこれらの要件に適合できる方法を見つけ出すときに検討が必要な内容も記載しています。
 
@@ -52,7 +54,7 @@ Skype for Business では次のことができます。
 
 IP 上のリアルタイム メディア (オーディオ、ビデオ、アプリケーション共有など) の品質は、エンド ツー エンドのネットワーク接続の品質に大きく影響されます。Skype for Business Online メディアの最適な品質を得るために、会社のネットワークと Skype for Business Online 間の接続が高品質であることを確認することが重要です。これを達成するためには、内部ネットワークとクラウド接続を、接続全体にわたって Skype for Business Online のピーク時のトラフィック量を処理するネットワークのキャパシティに基づいて設定することが最善の方法になります。
 
-[Microsoft](https://partnercenter.microsoft.com/pcv/search)パートナーと一緒に作業すると、クラウド内の Skype for Business Online を含むさまざまな Microsoft 365 または Office 365 アプリケーションをネットワークに接続し、Skype for Business のリアルタイム音声/ビデオ通信機能を使用するには、Microsoft 365 と Office 365 のリアルタイムワークロードをサポートするようにネットワーク サービスを特別に構成する必要があります。 これには、必要な量のトラフィックを運ぶのに十分な帯域幅を持ち、ユーザーにビジネス クラスのエクスペリエンスを提供するためにサービス品質 (QoS) をサポートできるネットワークが含まれます。
+[Microsoft](https://partnercenter.microsoft.com/pcv/search)パートナーと一緒に作業すると、クラウドの Skype for Business Online を含むさまざまな Microsoft 365 または Office 365 アプリケーションをネットワークに接続できます。また、Skype for Business のリアルタイム音声およびビデオ通信機能では、これらの Microsoft 365 と Office 365 のリアルタイム ワークロードをサポートするようにネットワーク サービスを特別に構成する必要があります。 これには、必要な量のトラフィックを運ぶのに十分な帯域幅を持ち、ユーザーにビジネス クラスのエクスペリエンスを提供するためにサービス品質 (QoS) をサポートできるネットワークが含まれます。
 
 ここで記載されている情報に加えて、次のリソースが Skype for Business Online のサービスと機能を正しく計画、展開することや、お使いのネットワーク サービスが要件と満たしているかを確認するのに役立ちます。
 
@@ -64,11 +66,11 @@ IP 上のリアルタイム メディア (オーディオ、ビデオ、アプ�
 
 ## <a name="implement-quality-of-service-qos-for-skype-for-business"></a>Skype for Business のサービスの品質 (QoS) の実装
 
-Skype for Business Online に移行する前に、音声、ビデオ、セッションのトラフィックの共有を処理するためのネットワークに目を向ける必要があります。 他の Microsoft 365 および Office 365 サービスと同様に、Microsoft は、会社の各サイトに必要なネットワーク トラフィックを決定するために使用される [Skype for Business Bandwidth Calculator](https://www.microsoft.com/download/details.aspx?id=19011) をダウンロードできます。 会社のサイト別のリアルタイムの通信トラフィック メディア フローと Skype for Business トラフィックの量のモデリングを含む、使用状況のモデリングと、トラフィック量の計算と、トラフィックによるネットワーク全体への影響の分析を実行する必要があります。 これを完了すると、このデータの分析によりお使いのネットワークで改善が必要な点についての推奨事項が提示され、優れたエンド ユーザー エクスペリエンスを実現するためのキュー サイズも提案されます。
+Skype for Business Online に移行する前に、音声、ビデオ、セッションのトラフィックの共有を処理するためのネットワークに目を向ける必要があります。 他の Microsoft 365 および Office 365 サービスと同様に、Microsoft は、会社の各サイトに必要なネットワーク トラフィックを決定するために使用される[Skype for Business Bandwidth Calculator](https://www.microsoft.com/download/details.aspx?id=19011)をダウンロードできます。 会社のサイト別のリアルタイムの通信トラフィック メディア フローと Skype for Business トラフィックの量のモデリングを含む、使用状況のモデリングと、トラフィック量の計算と、トラフィックによるネットワーク全体への影響の分析を実行する必要があります。 これを完了すると、このデータの分析によりお使いのネットワークで改善が必要な点についての推奨事項が提示され、優れたエンド ユーザー エクスペリエンスを実現するためのキュー サイズも提案されます。
 
 Skype for Business のリアルタイム トラフィックは、混雑したネットワークで頻繁に発生するパケット損失、遅延、ジッターの影響を受けやすいです。サービスの品質 (QoS) は、サービス クラスと呼ばれることもありますが、管理対象の外部 WAN、管理対象の内部 LAN、およびエンタープライズ ベースの WiFi ネットワークでも展開する必要があります。これにより、ローカル ネットワーク上や WAN を経由する非リアルタイム トラフィックよりも、音声やビデオなどの Skype for Business のリアルタイム トラフィックを正しく優先させることができます。
 
-Skype for Business の音声は EF (Expedied Forwarding - DSCP 46) キューに展開する必要があります。Skype for Business ビデオは AF41 (Assured Forwarding - DSCP 34) キューに展開する必要があります。 これは、Microsoft 365 または Office 365 の電話システム、または他のテレフォニー機能が展開されているかどうかに関係なく、ピアツーピアおよび会議トラフィックでも当てはまる。
+Skype for Business EF (Expedied Forwarding - DSCP 46) キューにオーディオをデプロイする必要があります。また、Skype for Business ビデオは AF41 (Assured Forwarding - DSCP 34) キューにデプロイする必要があります。 これは、Microsoft 365 または Office 365 の 電話システム や他のテレフォニー機能がデプロイされているかどうかに関係なく、ピアツーピアおよび会議トラフィックの場合でも当てはまる場合です。
 
 既存の QoS ポリシーが、その他の IP テレフォニー製品での LAN または WAN 上で確立している中で、Skype for Business ではユーザーがサービスを使用中でもモバイルでの利用に切り替えたり、場所を移動したりすることが可能になります。このため、すべての Skype for Business トラフィックに対して管理対象ネットワーク全体にわたり必ず優先順位が付けられるようにするために、QoS ポリシーは LAN、WAN、およびワイヤレスネットワークでマーク付けされる必要があります。
 
@@ -80,30 +82,30 @@ QoS の設定と管理の詳細については、「[サービスの品質の管
 
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>プロキシと WAN 最適化デバイスをバイパスする
 
-Skype for Business Online を含Office Microsoft 365 または Office 365 はすべて暗号化され、通常はプロキシ デバイスで検査できません。 このような理由から、ユーザーが Office 365 URL と IP アドレス範囲に対して行う接続として定義された、すべての Microsoft [365 および Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)ネットワーク トラフィックのプロキシ デバイスをバイパスすることをお勧めします。 プロキシ デバイスはリアルタイムの Skype for Business Online メディア ストリームでは遅延を引き起こす可能性があるため、それらのトラフィックではプロキシ デバイスを可能な限りバイパスすることをお勧めします。
+Microsoft 365 Online をOffice 365、Skype for Businessすべてのデバイスは暗号化され、通常はプロキシ デバイスで検査できません。 これらの理由から、ユーザーが Office 365 URL と IP アドレス範囲 に対して行う接続として定義されている、すべての Microsoft 365 および Office 365 ネットワーク トラフィックに対してプロキシ デバイスをバイパスすることをお[勧めします](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 プロキシ デバイスはリアルタイムの Skype for Business Online メディア ストリームでは遅延を引き起こす可能性があるため、それらのトラフィックではプロキシ デバイスを可能な限りバイパスすることをお勧めします。
 
-Microsoft は、PAC ファイルを使用して Microsoft 365 および Office 365 の URL を除外して、Microsoft 365 および Office 365 トラフィックをファイアウォールに送信Office推奨します。
+PAC ファイルを使用Microsoft 365、Office 365を使用してトラフィックをファイアウォールに送信Microsoft 365、Office 365 URL を除外Office 365推奨しています。
 
 次のいくつかのリソースに記載されている情報もご覧ください。
 
-- [ベースラインとパフォーマンス履歴を使用Office Microsoft 365 または 365 のパフォーマンスチューニング](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
+- [Microsoft 365およびパフォーマンス履歴Office 365使用してパフォーマンスチューニングを行う](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
 
-- [Microsoft 365 または Office 365 のネットワークと移行の計画](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
+- [ネットワークと移行の計画 (Microsoft 365または移行Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
 
 - [Office 365 プロキシ PAC ジェネレータ](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
 
-- [Microsoft 365 または Office 365 で WAN 最適化コントローラーまたはトラフィック/検査デバイスを使用する](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
+- [WAN 最適化コントローラーまたはトラフィック/検査デバイスを使用して、Microsoft 365またはOffice 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
 
-- [Microsoft 365 または Office 365 向け ExpressRoute でのルーティング](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
+- [ExpressRoute を使用したルーティング (Microsoft 365 または Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
 
 ## <a name="bypass-double-encryption"></a>二重暗号化をバイパスする
 
-ユーザーに可能な限り最高のオーディオとビデオのエクスペリエンスを提供するには、Skype for Business メディア (オーディオとビデオ) が仮想プライベート ネットワーク (VPN) トンネルをトラバースするのを防止するソリューションを実装する必要があります。 すべての Skype for Business トラフィックはトランスポート層セキュリティ (TLS) で暗号化され、メディアのワークロードは Secure Real Time Protocol (SRTP) で暗号化されます。 シグナリングは TLS で暗号化され、メディアワークロードは SRTP で暗号化されます。 VPN トンネルを使用してこのトラフィックを送信すると、暗号化の層が追加され、クライアントと Microsoft 365 または Office 365 の間に追加のネットワーク ホップが追加され、ジッター、パケット損失、待機時間が増加してセッションが低下する可能性があります。
+ユーザーに可能な限り最高のオーディオとビデオのエクスペリエンスを提供するには、Skype for Business メディア (オーディオとビデオ) が仮想プライベート ネットワーク (VPN) トンネルを通過するのを防ぐソリューションを実装する必要があります。 すべてのSkype for Businessトランスポート層セキュリティ (TLS) で暗号化され、メディア ワークロードは Secure Real Time Protocol (SRTP) で暗号化されます。 シグナルは TLS で暗号化され、メディア ワークロードは SRTP で暗号化されます。 VPN トンネルを使用してこのトラフィックを送信すると、暗号化のレイヤーが追加され、クライアントと Microsoft 365 または Office 365 の間にネットワーク ホップが追加されます。この両方で、ジッター、パケット損失、待機時間が増加するためにセッションが低下する可能性があります。
 
 Skype for Business トラフィックが VPN トンネルを使用しないようにするための 1 つのオプションが分割トンネリングです。分割トンネリングを実装する場合は、お客様がお使いのソフトウェアでのその方法の詳細について、ご自身の VPN ベンダーに問い合わせる必要があります。
 
 > [!NOTE]
-> これは Skype for Business メディアワークロードでのみ必要であり、他の Microsoft 365 または Office 365 サービスには適用できません。
+> これは、Skype for Business メディア ワークロードにのみ必要であり、他のサービスやMicrosoft 365サービスOffice 365できません。
 
 追加情報:
 
@@ -115,7 +117,7 @@ Skype for Business トラフィックが VPN トンネルを使用しないよ�
 
 ## <a name="ensure-the-right-ports-and-protocols-are-open"></a>正しいポートとプロトコルが開いていることを確認する
 
-お客様は、Microsoft 365 または Office 365 サービスに必要な URL と IP アドレスの到達可能性を確保する必要があります。 Skype for Business Online のすべての IP アドレスと URL のリストについては、「[Office 365 URL および IP アドレス範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)」をご覧ください。
+お客様は、サービスに必要な URL と IP アドレスの到達可能性Microsoft 365必要Office 365があります。 Skype for Business Online のすべての IP アドレスと URL のリストについては、「[Office 365 URL および IP アドレス範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)」をご覧ください。
 
 Skype for Business クライアントは、さまざまなポートとプロトコルを使用します。 Skype for Business セッションのネットワーク トラフィックの向きと流れは、相互作用の種類 (ピアツーピア、マルチパーティ) によって、およびコンテンツ共有と音声/ビデオの使用に応じて、異なります。 接続元と接続先のポートについて特に注意しながら、ポートとプロトコルのリストを確認して開く必要があります。 たとえば、音声トラフィックは 20 個のポート (50000 から 50019 までの TCP/UDP) をクライアント側で使用しますが、送信先のポートがサービス側で 10000 個のポートの範囲内 (50000 から 59999 までの TCP/UDP) にある可能性があります。送信先のポートには、ファイアウォール上の開いている TCP 443 と UDP 3478 も含まれます。
 
@@ -124,7 +126,7 @@ Skype for Business Online をサポートするために追加のネットワー
 
 ## <a name="use-phones-and-devices-optimized-for-skype-for-business"></a>Skype for Business 用に最適化された電話機およびデバイスを使用する
 
-リアルタイム メディア セッションでは、ヘッドセットや Web カメラなどの参加者全員が使用するメディア デバイスは、オーディオとビデオの全体的な品質に大きく影響します。 低品質のデバイスまたはデバイス ドライバーが正しくないデバイスでは、オーディオの全体的な音質が下がり、ビデオの画質が低下します。 一方、認定デバイスまたは高品質なデバイスは、エコー キャンセル、ノイズ フィルタリング、ビデオ解像度、遅延低減に役立ちます。
+リアルタイム メディア セッションでは、ヘッドセットや Web カメラなどの参加者全員が使用するメディア デバイスは、オーディオとビデオの全体的な品質に大きく影響します。 デバイス ドライバーが正しくない低品質のデバイスやデバイスでは、オーディオの全体的な音質が低下し、ビデオの画質が低下します。 一方、認定デバイスまたは高品質なデバイスは、エコー キャンセル、ノイズ フィルタリング、ビデオ解像度、遅延低減に役立ちます。
 
 電話機とデバイスによって、エンド ユーザーの音声とビデオの品質に大きな違いが生じます。Skype for Business 認定プログラムは「Lync 互換」プログラムが発展したもので、デバイスが音声とビデオに関する Microsoft 標準に適合しているかを検証します。数多くの IP 電話、USB オーディオとビデオ デバイス、PC、および会議室が Microsoft によりテストされ、認定されています。お客様は Skype for Business 用に最適化されたデバイスのリストを確認して、ご自身および組織のエンド ユーザーのさまざまなニーズと個人設定に合わせて異なるデバイスを用意するよう努める必要があります。
 
@@ -140,10 +142,10 @@ Skype for Business Online をサポートするために追加のネットワー
 
 ユーザーが会議を行い、オーディオ デバイスとビデオ デバイスを使用する環境と周辺領域は、オーディオとビデオの品質のもう 1 つの要因です。ノイズのある環境から通話しているユーザーのオーディオは、エコーがかかり、こもっていて、不明瞭です。暗くて照明が不十分な環境にいるユーザーは、ビデオで明るくクリアな画質を実現することができません。会議室の設定で、マイクとビデオ デバイスの場所は、参加者が受信する音声と画像の品質に直接影響します。
 
-ユーザーのオーディオとビデオのエクスペリエンスをより明確に表示するには、Skype for Business アプリの[ツール] オプションのオーディオ デバイスまたはビデオ デバイスを使用して、使用しているデバイスを変更し、設定をカスタマイズします。  >    >    通話の音声品質を確認するには、[通話品質の確認] を **クリックします**。 If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
+ユーザーのオーディオとビデオのエクスペリエンスのより明確な画像を取得するには、Skype for Business アプリのツールオプション オーディオ デバイスまたはビデオ デバイスを使用して、使用されているデバイスを変更し、設定をカスタマイズします。  >    >    [通話品質の確認] をクリックして、通話の音声 **品質を確認できます**。 If they click **Check Call Quality**, they can then report the quality and issues found with the test call.
 
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online の ExpressRoute および QoS](expressroute-and-qos-in-skype-for-business-online.md)

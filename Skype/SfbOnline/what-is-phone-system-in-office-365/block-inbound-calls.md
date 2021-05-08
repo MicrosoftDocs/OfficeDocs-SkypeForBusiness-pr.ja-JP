@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online で着信通話をブロックする
+title: Skype for Business Online で受信呼び出しをブロックする
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -13,23 +13,25 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 7848aff5f5b4dbb56be713b9241f2ace1ee6e6b3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dae0d585df2f67904712e9220f16213a2f925369
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102073"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238033"
 ---
 # <a name="block-inbound-calls"></a>受信通話をブロックする
 
-Skype for Business Online 通話プランでは、公衆交換電話網 (PSTN) からの着信通話のブロックがサポートされます。 この機能を使用すると、番号パターンのテナント グローバル リストを定義できるため、テナントへのすべての着信 PSTN コールの発信者 ID をリストと照合して、一致するかどうかを確認できます。 一致した場合、着信は拒否されます。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+Skype for Businessオンライン通話プランでは、公衆交換電話網 (PSTN) からの着信通話のブロックがサポートされます。 この機能を使用すると、番号パターンのテナント グローバル リストを定義できるため、テナントへのすべての着信 PSTN コールの発信者 ID をリストと照合して、一致するかどうかを確認できます。 一致した場合、着信は拒否されます。
 
 この受信通話ブロッキング機能は、PSTN から発信された受信通話でのみ機能し、テナント グローバル ベースでのみ機能します。 ユーザーごとには利用できません。  
 
 この機能は、直接ルーティングではまだ使用できません。
 
 >[!NOTE]
-> ブロックされた呼び出し元は、ブロックされた場合、動作が若干異なる場合があります。 この動作は、ブロックされた発信者の通信事業者が、通話を正常に完了できないという通知をどのように処理するかに基づいています。 例としては、ダイヤルされたとおりに通話を完了できないことを案内するキャリアのメッセージや、通話の切断などが含まれます。
+> ブロックされた呼び出し元は、ブロックされている場合、動作が若干異なる場合があります。 この動作は、ブロックされた発信者の通信事業者が、通話を正常に完了できないという通知をどのように処理するかに基づいています。 例としては、ダイヤルされたとおりに通話を完了できないことを案内するキャリアのメッセージや、通話の切断などが含まれます。
 
 ## <a name="call-blocking-admin-controls-and-information"></a>通話ブロックの管理コントロールおよび情報
 
@@ -37,13 +39,13 @@ Skype for Business Online 通話プランでは、公衆交換電話網 (PSTN) �
 
 ## <a name="call-blocking-powershell-commands"></a>ブロッキング PowerShell コマンドの呼び出し
 
-番号パターンは、コマンド、、および ```CsInboundBlockedNumberPattern``` ```New``` ```Get``` ```Set``` ```Remove``` . これらのコマンドレットを使用して、アクティブ化を切り替える機能などを含む、指定されたパターンを管理できます。
+番号パターンは、、、および ```CsInboundBlockedNumberPattern``` コマンド ```New``` ```Get``` を使用 ```Set``` して管理されます ```Remove``` 。 これらのコマンドレットを使用して、アクティブ化を切り替える機能などを含む、指定されたパターンを管理できます。
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) それぞれの名前、説明、Enabled (True/False)、およびパターンを含む、テナント リストに追加されたすべてのブロックされた番号パターンのリストを返します。
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) ブロックされた番号パターンをテナント リストに追加します。
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) ブロックされた番号パターンをテナント リストから削除します。
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) テナント リスト内のブロックされた番号パターンの 1 つ以上のパラメーターを変更します。
 
-通話ブロック機能全体の表示とアクティブ化は、コマンドで ```CsTenantBlockingCallingNumbers``` 管理 ```Get``` されます ```Set``` 。
+呼び出しブロック機能全体の表示とアクティブ化は、 コマンドと を ```CsTenantBlockingCallingNumbers``` 使用して管理 ```Get``` されます ```Set``` 。
 
 - [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) Enabled (True/False) を含むグローバル ブロック番号リストのパラメーターを返します。 機能をオンまたはオフにする以外に、手動で変更できない単一のグローバル テナント ポリシーがあります。
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) グローバル テナントのブロックされたコールを変更して、テナント レベルでオンとオフを切り替えることができます。
@@ -52,7 +54,7 @@ Skype for Business Online 通話プランでは、公衆交換電話網 (PSTN) �
 
 #### <a name="block-a-number"></a>番号をブロックする
 
-この例では、パラメーター ```-Enabled``` は ```-Description``` 省略可能です。
+この例では、 パラメーター ```-Enabled``` と パラメーター ```-Description``` は省略可能です。
 
 ```powershell
 New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description “<description>” -Pattern “^[+]?13125550000”
@@ -66,13 +68,13 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 #### <a name="allow-a-number"></a>番号を許可する
 
-この例では、パラメーター ```-Identity``` が必要です。
+この例では、 パラメーター ```-Identity``` が必要です。
 
 ```powershell
 Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
 ```
  
-ID が既知ではない場合は、まずコマンドレットを使用して適切なパターンを見つけ ```Get-CsInboundBlockedNumberPattern``` 、ID をメモします。 次に、コマンドレットを ```Remove-CsTenantBlockedNumberPattern``` 実行し、適切な ID 値を渡します。
+ID が知られていない場合は、 コマンドレットを使用して最初に適切なパターンを見つけ ```Get-CsInboundBlockedNumberPattern``` 、ID をメモします。 次に、 コマンドレット ```Remove-CsTenantBlockedNumberPattern``` を実行し、適切な ID 値を渡します。
 
 テストと検証を行う前に、レプリケーションの時間を確保してください。
 
@@ -88,7 +90,7 @@ Get-CsInboundBlockedNumberPattern
 
 ## <a name="add-number-exceptions"></a>番号の例外を追加する
 
-コマンド、、、および . ```CsTenantBlockNumberExceptionPattern``` ```New``` ```Get``` ```Set``` ```Remove```
+コマンド、、、および を使用して、ブロックされた番号パターンに ```CsTenantBlockNumberExceptionPattern``` ```New``` ```Get``` 例外 ```Set``` を追加できます ```Remove``` 。
 
 - [New-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/new-cstenantblockednumberexceptionpattern) テナント リストに番号例外パターンを追加します。 
 - [Get-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/get-cstenantblockednumberexceptionpattern) テナント リストに追加されたすべての番号例外パターンのリストを返します。
@@ -99,7 +101,7 @@ Get-CsInboundBlockedNumberPattern
 
 #### <a name="add-a-number-exception"></a>番号の例外を追加する
 
-この例では、新しい番号例外パターンが作成され、既定で有効として追加されます。 パラメーター ```-Enabled``` は ```-Description``` 省略可能です。
+この例では、新しい番号例外パターンが作成され、既定で有効として追加されます。 パラメーター ```-Enabled``` と ```-Description``` パラメーターは省略可能です。
 
 ```powershell
 New-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Pattern <String> -Enabled <bool> -Description <string>
@@ -111,7 +113,7 @@ New-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="view-all-number-exceptions"></a>番号の例外をすべて表示する
 
-この例では、-Identity パラメーターは省略可能です。 パラメーターを指定しない場合、このコマンドレットはテナントに対して入力された例外パターンの一 ```-Identity``` 覧を返します。
+この例では、-Identity パラメーターは省略可能です。 パラメーターが指定されていない場合、このコマンドレットは、テナントに入力された例外パターンの一覧 ```-Identity``` を返します。
  
 ```powershell
 Get-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -123,7 +125,7 @@ Get-CsTenantBlockedNumberExceptionPattern -Tenant daacb588-18ef-4f77-8c83-955af9
 
 #### <a name="modify-a-number-exception"></a>番号の例外を変更する
 
-この例では、-Identity パラメーターは必須です。 コマンドレット ```Set-CsTenantBlockedNumberExceptionPattern``` を使用すると、指定された番号パターン ID の 1 つ以上のパラメーターを変更できます。
+この例では、-Identity パラメーターは必須です。 コマンドレット ```Set-CsTenantBlockedNumberExceptionPattern``` を使用すると、特定の数値パターン ID の 1 つ以上のパラメーターを変更できます。
  
 ```powershell
 Set-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID> -Enabled <bool> -Description <string> -Pattern <string> 
@@ -135,7 +137,7 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="remove-a-number-exception"></a>番号の例外を削除する
 
-この例では、パラメーター ```-Identity``` が必要です。 このコマンドレットは、指定された番号パターンをテナント リストから削除します。  ID が既知ではない場合は、まずコマンドレットを使用して適切なパターンを見つけ ```Get-CsInboundBlockedNumberPattern``` 、ID をメモします。 次に、コマンドレットを ```Remove-CsTenantBlockedNumberExceptionPattern``` 実行し、適切な ID 値を渡します。テストと検証を行う前に、レプリケーションの時間を確保してください。  
+この例では、 パラメーター ```-Identity``` が必要です。 このコマンドレットは、指定された番号パターンをテナント リストから削除します。  ID が知られていない場合は、 コマンドレットを使用して最初に適切なパターンを見つけ ```Get-CsInboundBlockedNumberPattern``` 、ID をメモします。 次に、 コマンドレット ```Remove-CsTenantBlockedNumberExceptionPattern``` を実行し、適切な ID 値を渡します。テストと検証を行う前に、レプリケーションの時間を確保してください。  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -147,9 +149,9 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 ### <a name="test-whether-a-number-is-blocked"></a>番号がブロックされているかどうかをテストする
 
-テナントで ```Test-CsInboundBlockedNumberPattern``` 番号がブロックされているかどうかを確認するには、コマンドレットを使用します。
+テナントで ```Test-CsInboundBlockedNumberPattern``` 番号がブロックされているかどうかを確認するには、 コマンドレットを使用します。
  
-この例では、パラメーター ```-Phonenumber``` が ```-Tenant``` 必要です。 パラメーターは、+ や -などの追加の文字を含めずに数値 ```-PhoneNumber``` 文字列である必要があります。 TRPS では、省略 ```-Tenant parameter``` 可能です。 結果のパラメーターは、テナントで数値がブロックされている場合は True、ブロックされていない場合は ```isNumberBlocked``` False の値を返します。
+この例では、 パラメーター ```-Phonenumber``` と パラメーター ```-Tenant``` が必要です。 パラメーターは、+ や - などの追加の文字を含めず ```-PhoneNumber``` に数値文字列である必要があります。 TRPS では、 ```-Tenant parameter``` は省略可能です。 結果のパラメーターは、テナントで数値がブロックされている場合は True、ブロックされていない場合は False の値 ```isNumberBlocked``` を返します。
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>
@@ -175,6 +177,6 @@ Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 
 
 前述のように、発信者をブロックするためのパターン マッチングは、RegEx を使用して行われます。 RegEx パターンの一致を検証するのに役立つ複数のツールがオンラインで利用できます。 RegEx パターンに慣れていない場合は、時間をとって基本を理解することをお勧めします。 期待どおりの結果が得られるようにするには、ブロックされた新しい番号の一致をテナントに追加する前に、パターンの一致を検証するためのツールを使用してください。 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [Skype for Business Online を管理するためにコンピューターをセットアップするには、次のWindows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- [コンピューターをセットアップして、Skype for Business Online を管理Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)

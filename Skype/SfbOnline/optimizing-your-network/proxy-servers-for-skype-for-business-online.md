@@ -19,23 +19,25 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: この記事では、Skype for Business でのプロキシサーバーの使用について説明します。
-ms.openlocfilehash: a154b36fc03dc84916d5cb4bd383ff80bef901cd
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: この記事では、プロキシ サーバーとプロキシ サーバーの使用に関する情報をSkype for Business。
+ms.openlocfilehash: 09ed98c5f69d6e244a5f87125e4ad607e4d16226
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863754"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240416"
 ---
-# <a name="proxy-servers-for-skype-for-business-online"></a>Skype for Business Online のプロキシサーバー
+# <a name="proxy-servers-for-skype-for-business-online"></a>Skype for Business Online のプロキシ サーバー
 
-この記事では、Skype for Business でのプロキシサーバーの使用に関するガイダンスを提供します。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+この記事では、プロキシ サーバーとプロキシ サーバーの使用に関するガイダンスをSkype for Business。
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>プロキシ サーバーの使用はお勧めしません。
 
-プロキシ経由の Skype for Business トラフィックについては、Microsoft はプロキシをバイパスすることをお勧めします。 プロキシでは、トラフィックが既に暗号化されているため、Skype for Business のセキュリティを強化することはできません。
+プロキシ経由の Skype for Business トラフィックについては、Microsoft はプロキシをバイパスすることをお勧めします。 トラフィックは既に暗号化Skype for Businessプロキシによってセキュリティが保護されません。
   
-また、プロキシを使用すると問題が発生する可能性があります。 パフォーマンスに関連する問題は、待ち時間とパケット損失によって環境に導入される可能性があります。 このような問題が発生した場合、そのようなチームまたは Skype for Business のシナリオでは、リアルタイムのストリームが不可欠であるため、オーディオとビデオとして、否定的な経験が発生する可能性があります。
+プロキシを使用すると、問題が発生する可能性があります。 パフォーマンス関連の問題は、待機時間とパケット損失によって環境に発生する可能性があります。 このような問題は、リアルタイム ストリームが不可欠なオーディオやビデオなどの Teams や Skype for Business のシナリオで悪影響を及ぶ可能性があります。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>プロキシ サーバーを使用する必要がある場合
 
@@ -49,7 +51,7 @@ Microsoft は次を実行することもお勧めします。
     
 - UDP トラフィックを許可する
     
-- ネットワークガイドラインのその他の推奨事項に従ってください。
+- ネットワーク ガイドラインの他の推奨事項に従います。
     
   - [Skype for Business Online におけるメディアの品質とネットワーク接続性のパフォーマンス](media-quality-and-network-connectivity-performance.md)
     

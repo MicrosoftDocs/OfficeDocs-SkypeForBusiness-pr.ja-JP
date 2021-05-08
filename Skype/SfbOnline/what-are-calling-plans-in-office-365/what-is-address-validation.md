@@ -20,18 +20,20 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: '住所検証がどういうものであるか、なぜ重要であるか、緊急対応の住所とサービスにどのように関連しているかについて説明します。 '
-ms.openlocfilehash: 9cde4246cf449e1259fb7b46264f20d65d3a7849
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+ms.openlocfilehash: dfd582236289e7a7891b52d34c758f78a95a89f7
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220697"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237953"
 ---
 # <a name="what-is-address-validation"></a>住所検証とは何ですか?
 
-通話プランを設定するときには、各ユーザーに電話番号と緊急対応の住所を割り当てる必要があります。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
+
+通話プランを設定する場合は、電話番号と緊急対応の住所を各ユーザーに割り当てる必要があります。
   
-住所または公的アドレスの検証では、住所が正規の住所で、形式が正しいことが確認されます。 市区町村の間違った名前など、部分的に正しい緊急対応の住所を入力しても、引き続き検証に合格する可能性があります。 検証プロセスでは、提供された住所に適切な緊急サービス センターに通話をルーティングするために十分な情報が含まれているか判断するために、そのすべての部分を使用します。 十分な情報が含まれていれば、その住所は検証済みとして返され、電話番号に割り当てられます。
+住所または公的アドレスの検証では、住所が正規の住所で、形式が正しいことが確認されます。 都市名の誤入力など、部分的に正しい緊急対応の住所がまだ検証に合格する可能性があります。 検証プロセスでは、提供された住所に適切な緊急サービス センターに通話をルーティングするために十分な情報が含まれているか判断するために、そのすべての部分を使用します。 十分な情報が含まれていれば、その住所は検証済みとして返され、電話番号に割り当てられます。
 
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

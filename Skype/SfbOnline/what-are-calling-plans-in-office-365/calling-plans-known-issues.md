@@ -18,28 +18,30 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: PSTN 通話の通話プランの既知の問題とその対処方法について説明します。
-ms.openlocfilehash: 3a97057f61c154ded83b85becbfcf53dc2b4bc78
-ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
+description: PSTN 通話の通話プランに関する既知の問題と、その方法について説明します。
+ms.openlocfilehash: 9c660ee3b173f104e26816460db45c5bcf400837
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "44220737"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238023"
 ---
 # <a name="calling-plans-known-issues"></a>通話プランの既知の問題
 
-通話プランは、Skype for Business Online の新機能です。 次のような現在の問題が追跡され、積極的に調査されています。 今後のビルドで機能が更新されると、それらのメンバーは解決される可能性があります。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+通話プランは、Skype for Business Online の新機能です。 現在追跡され、積極的に調査されている問題を次に示します。 将来のビルドで機能が更新された場合に解決される可能性があります。
   
 ## <a name="calling-plans-known-issues"></a>通話プランの既知の問題
 
 |**既知の問題**|**注釈**|
 |:-----|:-----|
-|技術プレビューのライセンスを、通話プランの運用ライセンスに移行しても、ライセンスが自動的に更新されることはありません。  <br/> |最初に新しいライセンスを購入して、ユーザーに割り当てる準備ができたことを確認します。 ユーザーからプロモーション (Tech Preview) ライセンスを削除し、新しい**国内通話プラン**または**国内および国際通話プラン**のライセンスをユーザーに**直ち**に割り当てます。 <br/> 複数のユーザーのライセンスを削除して追加する場合は、Windows PowerShell を使用しているすべてのユーザーからライセンスを削除し、Windows PowerShell を使用してすべてのユーザーのライセンスを**直ち**に割り当てることが非常に重要です。 こうすることで、大量のユーザーライセンスの割り当てを処理する際にサービスが中断されることがなくなります。 PowerShell スクリプトの例については、「 [Skype For business および Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」を参照してください。  <br/> **注:** ハイブリッドユーザー用にオンプレミスの PSTN 接続を使用している場合は、**電話システム**のライセンスを*割り当てる必要が*あります。 音声通話プランを割り当てることはでき**ません**。 ただし、microsoft 365 365 または office 365 の通話プランを有効にし365ている場合は、そのユーザーの**国内通話プラン**または**国内および国際通話プラン**のライセンスを割り当てる必要があります。 [Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。
+|Tech Preview ライセンスから通話プランの実稼働ライセンスへの移行では、ライセンスは自動的に更新されません。  <br/> |新しいライセンスを最初に購入して、ユーザーに割り当てる準備が整います。 ユーザーからプロモーション (Tech Preview) ライセンスを削除し、直ちに新しい国内通話プランまたは国内通話プランまたは国内通話プランと国際通話プランのライセンスをユーザーに割り当てる。  <br/> 複数のユーザーのライセンスを削除して追加する場合は、Windows PowerShell を使用してすべてのユーザーからライセンスを削除し、Windows PowerShell を使用してすべてのユーザーのライセンスを直ちに割り当てる必要があります。 これにより、大量のユーザー ライセンス割り当てを処理するときにサービスの中断が発生しなくします。 PowerShell スクリプトのサンプルについては、「ライセンスの割り当[てとSkype for Business割りMicrosoft Teams参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。  <br/> **注:** ハイブリッド ユーザーにオンプレミス PSTN 接続を使用している場合は、ライセンスを割り当てる **電話システムがあります。** 音声通話 **プラン** も割り当てない。 ただし、Microsoft 365 または Office 365 内のユーザーに対して Microsoft 365 または Office 365 で通話プランを有効にする場合は、それらのユーザーに国内通話プランまたは国内通話プランまたは国内通話プランと国際通話プラン ライセンスを割り当てる必要があります。 [Skype for Business と Microsoft Teams のライセンスを割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)を参照してください。
 
 > [!NOTE]
-> その他の電話番号を取得する必要がある場合は、[ビジネス製品のサポートにお問い合わせください。管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
+> これより多くの電話番号を取得する必要がある場合は、ビジネス製品のサポートにお問い合わせください [- 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話プランで使用されるさまざまな種類の電話番号](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)

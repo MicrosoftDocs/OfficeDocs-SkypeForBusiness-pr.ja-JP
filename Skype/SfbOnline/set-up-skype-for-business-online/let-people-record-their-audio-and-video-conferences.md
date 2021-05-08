@@ -20,24 +20,26 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: '電話会議およびビデオ会議の記録を有効にし、対処方法を説明する方法は、レコーディングには含まれていません。 '
-ms.openlocfilehash: 956d1eb4e3ad57e2d801a8f08842d646be742a97
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4740c3d090115934f6bb493eec3be74b67ff6754
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010820"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239863"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>音声やビデオ会議をレコーディングする
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>組織で単一のユーザーまたはすべてのユーザーの設定を記録する既定値を選択します
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
-1. [ **Skype For business**] > 管理センターに移動して、[**ユーザー**] をクリックします。
+1. [管理センター] に移動 **> Skype for Business、[** ユーザー] を **クリックします**。
     
 2. [ **ユーザー** ] ページで、ボックスの一覧から一人のユーザーまたは複数のユーザーを選択し、[ **編集**] をクリックします。
     
-3. [ **オプション] ページ**で、[ **会話や会議を記録する**]をクリックし、[ **保存**] をクリックします。
+3. [ **オプション] ページ** で、[ **会話や会議を記録する**]をクリックし、[ **保存**] をクリックします。
     
 記録がオンになっている場合、開催者または発表者は、Skype for Business Online 会議または電話会議を記録できます。 記録をオンまたはオフにすると、組織内のすべてのユーザーに影響します。
   
