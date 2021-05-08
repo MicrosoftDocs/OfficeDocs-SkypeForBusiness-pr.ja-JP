@@ -18,40 +18,42 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: カナダ用の IP リレーアカウントを sigh する方法を説明します。
-ms.openlocfilehash: f4aedc3f90aeaf8888ef24609cdc31068e2ad030
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: カナダの IP Relay アカウントにため息をつく方法。
+ms.openlocfilehash: 1d1a5f4c493c29ceaa0c0ac885dfb8f4aea81523
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778753"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237143"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>カナダでの IP 中継 - サインアップ
 
-カナダ向けの IP リレーアカウントを取得するには、下の表の情報を入力して、メールで[ptn@microsoft.com](mailto:ptn@microsoft.com)に送信してください。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+カナダ用に設定された IP Relay アカウントを取得するには、次の表の情報を入力し、電子メールで[ptn@microsoft.com。](mailto:ptn@microsoft.com)
 
 |||
 |:-----|:-----|
-|名 & 姓:||
-|Microsoft 365 または Office 365 組織のドメイン名: <br/>(例: Contoso.com)||
-|Microsoft 365 または Office 365 のユーザー電話番号: <br/>例: + 1 XXX XXX XXXX) ||
+|名&名:||
+|Microsoft 365またはOffice 365組織のドメイン名: <br/>(例: Contoso.com)||
+|Microsoft 365またはOffice 365ユーザーの電話番号: <br/>例: +1 XXX XXX XXXX) ||
 |パスワード (8 ~ 16 文字): ||
-|通常の物理アドレス <br/>緊急時:||
-|番地 & 名:||
-|アパートメント/スイート:||
-|都市||
-|都道府県/州:||
+|ほとんどの場合、物理アドレス <br/>緊急対応時:||
+|番&名:||
+|Apartment / Suite:||
+|City:||
+|州/州:||
 |郵便番号:||
-|電話番号:||
-|Microsoft 365 または Office 365 のメールアドレス:||
+|電話数値:||
+|Microsoft 365またはOffice 365メール アドレス:||
 |||
 
 > [!NOTE]
-> このメールアドレスは、着信者が IP Relay 経由で通話を発信した場合に、メッセージを受信します。 
+> IP Relay 経由で他のユーザーから電話がかかからない場合、上記のメール アドレスは、オンラインではない場合に残されたメッセージを受信します。 
 
-アカウントの準備ができたら (24 稼働時間内)、ユーザー名とパスワードでメールが送信されます。 
+アカウントの準備ができたら (24 時間以内に)、ユーザー名とパスワードをメールで返送します。 
 
 
-次に、[[カナダでの IP リレー-ユーザーガイド](ip-relay-canada-user-guide.md)] を参照してください。 
+次に、カナダ [の IP Relay - 使用を開始するユーザー ガイド](ip-relay-canada-user-guide.md) を参照してください。 
 
 

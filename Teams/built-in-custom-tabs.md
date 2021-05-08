@@ -33,7 +33,7 @@ ms.locfileid: "48203720"
 ![タブにある色々なコンテンツの 3 つのスクリーンショット](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
 >[!Note]
-> [会議の記録用](tmr-meeting-recording-change.md)に Microsoft Stream を使用して OneDrive for Business と SharePoint を使用するように変更した場合は、段階的なアプローチとなります。 起動時には、この機能を有効にすることができます。11月2021以降、Stream の使用を継続する場合は、すべてのユーザーが OneDrive for Business と SharePoint を使用して新しい会議のレコーディングを使用する必要があります。
+> Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 ## <a name="work-with-tabs"></a>タブを操作する
 
@@ -52,7 +52,7 @@ ms.locfileid: "48203720"
 
 - Web サイトを追加するには、URLの先頭に **https** 接頭辞を付けて、交換される情報のセキュリティを確保する必要があります。
 
-- チーム メンバーがチャネルまたはチャットにカスタム タブを追加しようとすると、詳細な手順が提供されます。 チャネルにカスタム タブを追加すると、**タブの会話**が作成され、チーム メンバーはそこでコンテンツに関する集中的なディスカッションを行うことができます。
+- チーム メンバーがチャネルまたはチャットにカスタム タブを追加しようとすると、詳細な手順が提供されます。 チャネルにカスタム タブを追加すると、**タブの会話** が作成され、チーム メンバーはそこでコンテンツに関する集中的なディスカッションを行うことができます。
 
     ![右側にあるタブの会話が含まれているカスタム タブのスクリーンショット。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 

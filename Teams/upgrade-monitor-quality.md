@@ -1,5 +1,5 @@
 ---
-title: ユーザー エクスペリエンスの品質 |Microsoft Teams |QoS |通話品質
+title: ユーザー エクスペリエンスの|Microsoft Teams |QoS |通話品質
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 管理者は、Microsoft Teams の品質と使用状況を監視するために必要なタスクとアクティビティについて学習できます。
+description: 管理者は、サービスの品質と使用状況を監視するために必要なタスクとアクティビティについてMicrosoft Teams。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -29,17 +29,17 @@ ms.locfileid: "49808997"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
-![アップグレードの優れた運用段階を強調表示した図](media/upgrade-banner-op-excellence.png "アップグレードのプロセスのステージ。"オペレーショナル・アペレーショナル" ステージに重点を置いた")
+![アップグレード体験の Operational Excellence ステージを強調表示した図](media/upgrade-banner-op-excellence.png "Operational Excellence ステージに重点を置いたアップグレード体験のステージ")
 
-この記事は、Skype for Business から Teams へのアップグレードが完了するとすぐに開始される、アップグレードの旅の"オペレーショナル・ディカリスト" ステージの一部です。
+この記事は、アップグレード体験の Operational Excellence ステージの一部です。これは、Skype for Business から Teams へのアップグレードが完了するとすぐに開始されます。
 
 ## <a name="improve-and-monitor-call-quality"></a>通話品質の向上と監視
 
-[Teams の](monitor-call-quality-qos.md) 通話品質の向上と監視には、以下に示す、ユーザー エクスペリエンスの向上に最も大きな影響を与える主要な領域の修復ガイダンスを評価して提供する一連のアクティビティが含まれています。
+[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視には、次に示すユーザー エクスペリエンスの向上に最大の影響を与える主要な領域で修復ガイダンスを評価して提供する一連のアクティビティが含まれています。
 
-![レビュー中に調べる重要な領域の図。](media/plan-my-service-management-image2.png "エクスペリエンスの品質レビュー中に調べる重要な領域は、音声、信頼性、ユーザーアンケートの結果です。")
+![レビュー中に調べる主な領域の図。](media/plan-my-service-management-image2.png "品質レビュー中に確認する主な領域は、音声、信頼性、およびユーザーアンケートの結果です。")
 
-ガイドに記載されている領域を継続的に評価して修復することで、ユーザー エクスペリエンスに悪影響を与える可能性を減らします。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
+ガイドで説明されている領域を継続的に評価して修復することで、ユーザー エクスペリエンスに悪影響を与える可能性を減らします。 展開で生じる多くのユーザー エクスペリエンスに関する問題は、次のカテゴリにグループ化されます。
 
 - 不完全なファイアウォールまたはプロキシの構成
 
@@ -53,8 +53,8 @@ ms.locfileid: "49808997"
 
 - 問題のあるサブネットまたはネットワーク デバイス
 
-[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためにオーディオに重点を置いて、説明された各領域を報告および調査するための主要ツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
+[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためにオーディオに重点を置いて、説明されている各領域をレポートおよび調査するための主要なツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
-早い段階で品質チャンピオンを指名することを強くお勧めします。 指名を受け、Teams の通話品質の向上と監視のコンテンツに慣れ [始める必要があります](monitor-call-quality-qos.md)。
+早い段階で品質チャンピオンをノミネートすることを強くお勧めします。 ノミネートされた後は、「通話品質の向上と監視」の内容に慣れ始める必要[Teams。](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->

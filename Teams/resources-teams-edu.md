@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
-description: 教育管理者は、リモート学習を有効にするために Microsoft Teams で利用可能なリソースについて学習できます。
+description: 教育管理者は、リモート学習を有効にMicrosoft Teamsリソースについて学習できます。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -27,44 +27,44 @@ ms.locfileid: "49815717"
 <a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向け Microsoft Teams のリソース
 ==============================================
 
-## <a name="resources-for-remote-learning"></a>リモート学習のリソース
+## <a name="resources-for-remote-learning"></a>リモート学習のためのリソース
 
-学校や大学で Microsoft Teams をリモート学習を有効にする必要がありますか? 1 ページの [開始] と以下の導入資料を [使用](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) して、簡単に起動して実行できます。
+学校または大学では、リモート学習のためのMicrosoft Teamsを有効にする必要がありますか? [「Getting Started one-pager](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) and any below adoption materials(1 ページの使用を開始する」と以下のいずれかの導入資料) を使用して、すぐに起動して実行できます。
 
 ## <a name="adoption-content"></a>導入向けコンテンツ
 
-メール、ポスター、資料など、今すぐ無料で使用できるリソースを使用して、学校で Microsoft Teams に関する最新情報を得ます。 バナー、GIF、ビデオで満たされた新しいデジタル ツールキットを使用して、オンラインや学内の学生にアクセスできます。 今すぐ始めましょう。
+メール、ポスター、Microsoft Teams、今すぐ使用できるその他のリソースを使って、学校の最新情報を知ってみしましょう。 バナー、GIF、ビデオで満たされた新しいデジタル ツールキットを使用して、オンラインとキャンパスをまたがって学生にアクセスできます。 今すぐ始めましょう。
 
-これらの資料を [使用する前に、ご契約条件](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) をお読みください。
+これらの資料を [使用する前に、使用](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) 条件をお読みください。
 
 ### <a name="physical-assets"></a>物理資産
 
 | |  |
 |---------|---------|
-|ポスター - [カスタマイズ可能](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) で [印刷可能](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![ポスターのスクリーンショット](media/edu-adoption-posters.png)     |[資料](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![資料のスクリーンショット](media/edu-adoption-handouts.png)|
+|ポスター -[カスタマイズ可能で](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true)[印刷可能](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![ポスターのスクリーンショット](media/edu-adoption-posters.png)     |[資料](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![資料のスクリーンショット](media/edu-adoption-handouts.png)|
 |[チラシ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![チラシのスクリーンショット](media/edu-adoption-flyers.png)   |[書籍の広告](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![本の広告のスクリーンショット](media/edu-adoption-book-adverts.png)         |
 |[ヒントとテクニックの小冊子](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![スクリーンショット](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>デジタル資産
 
-Teams の起動を最大化するために [、Toolkitガイダンス](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true) を確認してください。 
+起動を最大化するために[、デジタルToolkitガイダンス](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)をTeamsしてください。 
 
 |  |  |
 |---------|---------|
 |[メール テンプレート](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![スクリーンショット](media/edu-adoption-email-templates.png)    |[GIF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![GIF からのスクリーンショット](media/edu-adoption-gifs.png)      |
 |[Web バナー](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Web バナーのスクリーンショット](media/edu-adoption-web-banners.png)    |[ビデオ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![スクリーンショット](media/edu-adoption-videos.png)          |
-|[デジタルスクリーン広告](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![デジタルスクリーン広告のスクリーンショット](media/edu-adoption-digital-screen-adverts.png)   |      |
+|[デジタル画面の広告](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![デジタルスクリーン 広告のスクリーンショット](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>実施すべき内容
 
-- トレーニング、 [ビデオ、対話型デモについては、Teams for Education](https://www.microsoft.com/en-us/education/products/teams/default.aspx) のページにアクセスしてください
-- [Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)管理センターで Teams を有効にする (Office 365 管理者としてサインインする)
+- トレーニング、[ビデオTeams対話型デモについては](https://www.microsoft.com/en-us/education/products/teams/default.aspx)、「Teams for Education」ページを参照してください。
+- 管理センター TeamsでMicrosoft 365[を有効にする](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)(管理者としてOffice 365する)
 - Teams クライアントをダウンロードする: [すべてのデバイスで Teams をオンにする](https://teams.microsoft.com/downloads)
 - [Education ヘルプ センター](https://support.office.com/education)で Office 365 for Education について学ぶ
 
 ## <a name="additional-resources"></a>その他のリソース
 
-- [Teams のロードマップ](https://aka.ms/teamsroadmap)
+- [Teamsロードマップ](https://aka.ms/teamsroadmap)
 - [Tech Community Blog ](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog) で最新情報を入手する
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
 - [提案を送信する](https://aka.ms/eduuservoice)

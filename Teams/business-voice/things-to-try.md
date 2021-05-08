@@ -1,5 +1,5 @@
 ---
-title: ビジネス音声を設定した後に試すべきこと
+title: Business Voice を設定した後の試し内容
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -25,6 +25,6 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41827365"
 ---
-# <a name="things-to-try-after-setting-up-business-voice"></a>ビジネス音声を設定した後に試すべきこと
+# <a name="things-to-try-after-setting-up-business-voice"></a>Business Voice を設定した後の試し内容
 
 <!-- This topic will be populated in the future. Intentionally left out of the TOC>

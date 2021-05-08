@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c898d8b0d79eae6fb7042ab087e94a0fff5d275f
-ms.sourcegitcommit: 6c1b051c4e29a74bc15cdfd0716893a25ba18719
+ms.openlocfilehash: 56577639e62c954d430d2745f5b105e97f5c56ff
+ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52207955"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "52264897"
 ---
 # <a name="get-started-with-teams-templates-in-the-admin-center"></a>管理センターでTeamsテンプレートの使用を開始する
 
@@ -111,7 +111,17 @@ Teamsテンプレートは、ビジネスの必要性やプロジェクトを中
 
 詳細[については、「Teamsの](limits-specifications-teams.md)制限と仕様」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="manage-templates-in-powershell"></a>PowerShell でテンプレートを管理する
+
+PowerShell でテンプレートを管理するには、次のコマンドを使用します。
+
+- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+
+## <a name="related-topics"></a>関連トピック
 
 - [カスタム チーム テンプレートを作成する](create-a-team-template.md)
 - [既存のチーム テンプレートからチーム テンプレートを作成する](create-template-from-existing-template.md)

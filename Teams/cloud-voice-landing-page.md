@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams で音声ソリューションを計画する
+title: 音声ソリューションの計画を立Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,7 +21,7 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-may2020
 search.appverid: MET150
-description: Microsoft Teams クラウド音声機能と、組織に対して行う展開決定の詳細について説明します。
+description: クラウド音声機能のMicrosoft Teams、および組織に対して行うデプロイの決定について説明します。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5d77e0b1ec6277bfeffd85d6657d14fe810aae96
@@ -31,92 +31,92 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51102573"
 ---
-# <a name="plan-your-teams-voice-solution"></a>Teams 音声ソリューションを計画する 
+# <a name="plan-your-teams-voice-solution"></a>音声ソリューションTeams計画する 
 
-この記事では、組織に最適な Microsoft 音声ソリューションを決定する方法について説明します。 決定したら、この記事では、選択したソリューションを実装できるコンテンツのロードマップを提供します。
+この記事は、組織に最適な Microsoft 音声ソリューションを決定するのに役立ちます。 決定したら、この記事では、選択したソリューションを実装できるコンテンツのロードマップを提供します。
 
 > [!NOTE]
-> Skype for Business Server から Teams にアップグレードする全体的な計画の一部として Teams 音声ソリューションを計画する方法については、オンプレミスの [Skype for Business](upgrade-to-teams-on-prem-pstn-considerations.md)から Teams にアップグレードする場合の PSTN に関する考慮事項を参照してください。
+> Skype for Business Server から Teams にアップグレードする全体的な計画の一部として Teams 音声ソリューションを計画する方法のガイダンスについては、「Teams から Skype for Business オンプレミス へのアップグレードに関する[PSTN](upgrade-to-teams-on-prem-pstn-considerations.md)の考慮事項」を参照してください。
 
-最も簡単なソリューションの電話システム &mdash; と通話プランが必要な場合があります。 これは、次の図に示すように、プライベート ブランチ交換 (PBX) 機能と公衆交換電話網 (PSTN) への通話を提供する Microsoft のクラウド内すべてソリューションです。 このソリューションを使用すると、Microsoft が PSTN 通信事業者になります。
+最も簡単なソリューションを通話 &mdash; プラン電話システム必要な場合があります。 これは、次の図に示すように、プライベート ブランチ Exchange (PBX) 機能と公衆交換電話網 (PSTN) への呼び出しを提供する Microsoft のクラウド内すべてソリューションです。 このソリューションでは、Microsoft は PSTN 通信事業者です。
 
-![図 1 は、通話プランを使用した電話システムを示しています](media/voice-solutions-simple.png)
+![図 1 は、通話プラン電話システムを示しています](media/voice-solutions-simple.png)
 
-「はい」と答える場合は、通話プラン付き電話システムが適切なソリューションです。
+次に対して 「はい」と答える場合は、電話システムプランを使用する方法が適切なソリューションです。
 
-- 通話プランは、お客様の地域で利用できます。
+- 通話プランは、お客様のリージョンで利用できます。
 - 現在の PSTN 通信事業者を保持する必要はない。
 - PSTN への Microsoft が管理するアクセスを使用する場合。
 
-ただし、状況は複雑になる可能性があります。 たとえば、通話プランが利用できない場所にオフィスがある場合などです。 または、地理的な場所ごとに要件が異なる複雑な多国籍展開をサポートする複合ソリューションが必要な場合があります。 Microsoft では、次のソリューションの組み合わせをサポートしています。 
+ただし、状況は複雑になる可能性があります。 たとえば、通話プランが利用できない場所にオフィスがある場合があります。 または、地理的な場所ごとに異なる要件を持つ、複雑で多国籍のデプロイをサポートする組み合わせソリューションが必要な場合があります。 Microsoft では、次のソリューションの組み合わせをサポートしています。 
 
-- 通話プラン付き電話システム
-- 直接ルーティングを使用する独自の PSTN 通信事業者を使用した電話システム
-- 通話プラン付き電話システムと直接ルーティングを使用する電話システムの両方を使用する組み合わせソリューション
+- 電話システムプランの使用
+- 電話システムルーティングを使用して独自の PSTN 通信業者と通信する
+- 通話プランと通話プランの両方の電話システム直接ルーティング電話システムを使用する組み合わせソリューション
 
 ## <a name="what-do-you-need-to-read"></a>何を読む必要がありますか?
 
-**すべてのユーザーに必要です。** この記事の一部のセクションは、すべての組織に関係します。 たとえば、すべてのユーザーが電話システムについて理解し、公衆交換電話網 (PSTN) に接続するためのオプションについて理解する必要があります。 
+**すべてのユーザーに必須です。** この記事のセクションの一部は、すべての組織に関連します。 たとえば、すべてのユーザーは、電話システムについて読み、公衆交換電話網 (PSTN) に接続するためのオプションを理解する必要があります。 
 
 
 | すべてのユーザーに必須 | 説明 |
 | :------------|:-------|
-| [**電話システム**](#phone-system) | Microsoft Teams を使用して Microsoft 365 クラウドで通話制御とプライベート ブランチ交換 (PBX) 機能を有効にする Microsoft のテクノロジ。 |
-| [**公衆交換電話網 (PSTN) 接続オプション**](#public-switched-telephone-network-connectivity-options) | Microsoft をテレフォニーキャリアとして使用するか、ダイレクト ルーティングを使用して独自のテレフォニーキャリアを Microsoft Teams に接続するかの選択肢です。 電話システムと組み合わせると、PSTN 接続オプションにより、ユーザーは世界中に電話を発信できます。|
+| [**電話システム**](#phone-system) | クラウドとクラウドの通話制御とプライベート ブランチ Exchange (PBX) 機能を有効にするための Microsoft Microsoft 365テクノロジMicrosoft Teams。 |
+| [**公衆交換電話網 (PSTN) 接続オプション**](#public-switched-telephone-network-connectivity-options) | Microsoft をテレフォニー キャリアとして使用するか、直接ルーティングを使用して独自のテレフォニー Microsoft Teams接続するかの選択。 PSTN 接続電話システムと組み合わせると、ユーザーは世界中で電話を発信できます。|
 
-**要件に応じて異なる。** この記事の一部のセクションは、既存の展開と要件に応じて関連します。 たとえば、ルートLocation-Basedは、有料バイパスを許可していない地理的な場所にあるダイレクト ルーティングのお客様にのみ必要です。
+**要件に応じて異なる。** この記事のセクションの一部は、既存のデプロイと要件に応じて関連します。 たとえば、Location-Basedルーティングは、有料バイパスを許可しない地理的な場所のダイレクト ルーティングのお客様にのみ必要です。
 
-次の追加構成が必要な場合は、次の点を考慮してください。
+次の追加構成の中から、必要な構成を検討してください。
 
-![図 2 は、Microsoft の電話番号、ダイヤル プラン、通話ルーティングなど、追加の音声コンポーネントを示しています。](media/voice-consider-additional-components.png)
+![図 2 は、Microsoft からの電話番号、ダイヤル プラン電話通話ルーティングなど、追加の音声コンポーネントを示しています。](media/voice-consider-additional-components.png)
 
 | 要件に応じて | 説明 |
 | :------------|:-------|
-| [**Microsoft からの電話番号**](#phone-numbers-from-microsoft) | Microsoft から電話番号を取得して管理する方法と、既存の番号を Microsoft に転送する方法について説明します。 Microsoft 通話プランの電話番号の取得、既存の番号の転送、サービス番号の取得が必要な場合は、この記事をお読みください。 |
-| [**ダイヤル プランと通話ルーティング**](#dial-plans-and-call-routing) | ダイヤルされた電話番号を通話承認および通話ルーティング用の別の形式 (通常は E.164 形式) に変換するダイヤル プランを構成および管理する方法。 ダイヤル プランの詳細と、組織のダイヤル プランを指定する必要があるかどうかを理解する必要がある場合は、この記事を参照してください。|
+| [**Microsoft からの電話番号**](#phone-numbers-from-microsoft) | Microsoft から電話番号を取得および管理する方法と、既存の番号を Microsoft に転送する方法。 Microsoft 通話プランの電話番号を取得したり、既存の番号を転送したり、サービス番号を取得したりする必要がある場合は、この記事をお読みください。 |
+| [**ダイヤル プランと通話ルーティング**](#dial-plans-and-call-routing) | ダイヤルされた電話番号を別の形式 (通常は E.164 形式) に変換して通話承認と通話ルーティングを行うダイヤル プランを構成および管理する方法。 ダイヤル プランの詳細と、組織のダイヤル プランを指定する必要があるかどうかを理解する必要がある場合は、この記事を参照してください。|
 | [**緊急通話**](#emergency-calling) | PSTN 接続オプションに応じて緊急 &mdash; 通話を管理および構成する方法。 Microsoft 通話プランまたは直接ルーティングを使用し、組織の緊急通話を管理する方法を理解する必要がある場合は、このセクションをお読みください。 |
-| [**直接ルーティングの場所に基づくルーティング**](#location-based-routing-for-direct-routing) |LBR (Location-Basedルーティング) を使用して、地理的な場所に基づいて Microsoft Teams ユーザーの有料バイパスを制限する方法。 組織が有料バイパスを許可していない場所で直接ルーティングを使用している場合は、このセクションをお読みください。
-| [**クラウド音声機能のネットワーク トポロジ**](#network-topology-for-voice-features) | 組織が直接ルーティングまたは動的緊急通話用の Location-Based ルーティング (LBR) を展開している場合は、Microsoft Teams でこれらの機能で使用するネットワーク設定を構成する必要があります。 直接ルーティング用の LBR を実装している場合、または通話プランまたはダイレクト ルーティングを使用して動的緊急通話を実装している場合は、このセクションを参照してください。 |
-| [**既存の音声ソリューションを移行する**](#migrate-your-existing-voice-solution-to-teams) | 音声ソリューションを Teams に移行するときに考える必要があるもの。  既存の音声ソリューションから Teams に移行する場合は、このセクションをお読みください。 
+| [**直接ルーティングのための場所ベースのルーティング**](#location-based-routing-for-direct-routing) |ローカル ルーティング (LBR) Location-Basedを使用して、地理的な場所に基づいてユーザーのMicrosoft Teamsバイパスを制限する方法。 組織が有料バイパスを許可しない場所で直接ルーティングを使用している場合は、このセクションをお読みください。
+| [**クラウド音声機能のネットワーク トポロジ**](#network-topology-for-voice-features) | 組織が直接ルーティングまたは動的緊急通話用に Location-Based ルーティング (LBR) をデプロイしている場合は、Microsoft Teams でこれらの機能で使用するネットワーク設定を構成する必要があります。 直接ルーティング用に LBR を実装している場合、または通話プランまたは直接ルーティングを使用して動的緊急通話を実装している場合は、このセクションを参照してください。 |
+| [**既存の音声ソリューションを移行する**](#migrate-your-existing-voice-solution-to-teams) | 音声ソリューションを音声ソリューションに移行するときに考える必要があるTeams。  既存の音声ソリューションから既存の音声ソリューションに移行する場合は、このセクションをTeams。 
 
 
 
 > [!Important]
-> この記事では、Microsoft Teams の音声ソリューションについて説明します。 Skype for Business Online のソリューションは引き続き利用できます [(Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions)テレフォニー ソリューションの説明に従って)、Skype for Business Online は 2021 年 7 月 31 日に廃止される予定です。  この日付を終了すると、Skype for Business Online サービスにアクセスできなくなりました。 さらに、Skype for Business Server または Cloud Connector Edition と Skype for Business Online を介したオンプレミス環境間の PSTN 接続は &mdash; &mdash; サポートされなくなりました。 この記事では、Teams 音声ソリューションと、必要に応じて直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法について説明します。
+> この記事では、音声ソリューションと音声ソリューションについてMicrosoft Teams。 Skype for Business Online のソリューションは引き続き利用できます[(「Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions)テレフォニー ソリューション」で説明)、Skype for Business Online は 2021 年 7 月 31 日に廃止される予定です。  その日付が終了するとSkype for Businessオンライン サービスにアクセスできなくなりました。 さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間では &mdash; &mdash; サポートされなくなりました。 この記事ではTeams音声ソリューションと、必要に応じてオンプレミスのテレフォニー ネットワークを直接ルーティングを使用してTeams接続する方法について説明します。
 
 
 ## <a name="phone-system"></a>電話システム
 
-電話システムは、Microsoft Teams を使用して Microsoft 365 または Office 365 クラウドの通話制御とプライベート ブランチ交換 (PBX) 機能を有効にする Microsoft のテクノロジです。
+電話システムは、通話制御とプライベート ブランチ Exchange (PBX) の機能を、Microsoft 365 または Office 365 クラウドと Microsoft Teams で有効にするための Microsoft のテクノロジです。
 
-電話システムは、Teams または Skype for Business クライアントおよび認定デバイスで動作します。 電話システムでは、既存の PBX システムを、Microsoft 365 または Office 365 から直接提供される一連の機能に置き換える機能を使用できます。 
+電話システムは、TeamsクライアントSkype for Business認定デバイスで動作します。 電話システムでは、既存の PBX システムを、既存の PBX システムから直接配信された一連の機能にMicrosoft 365またはOffice 365。 
 
 組織内のユーザー間の通話は電話システムの内部で処理され、公衆交換電話網 (PSTN) に流れることは決してありません。 これは、地理的にさまざまな場所にいる組織内のユーザー間の通話にも当てはまるため、このような長距離の社内通話にかかるコストが解消されます。
 
-この記事では、次の電話システムの主な機能と、検討する必要がある展開決定について説明します。
+この記事では、次電話システムの主な機能と、考慮する必要があるデプロイの決定について説明します。
 
 - [自動応答と呼び出しキュー](#auto-attendants-and-call-queues)
 - [クラウド ボイスメール](#cloud-voicemail)
 - [通話 ID](#calling-identity)
 
-![図 3 に示す電話システムには、自動応答と通話クエリ、クラウド ボイスメール、通話 ID が含まれている](media/phone-system-contains.png)
+![図 3 は、電話応答と通話クエリ、クラウド ボイスメール、通話 ID が含まれているシステムを示しています](media/phone-system-contains.png)
 
-電話システムのすべての機能と電話システムのセットアップ方法については、次の記事を参照してください。
+すべての機能と電話システム設定方法については、次電話システム記事を参照してください。
 
 - [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 - [組織内の電話システムの設定](setting-up-your-phone-system.md)<br>
-  電話システム ライセンスの購入と割り当て、電話番号の管理、無料電話番号のコミュニケーション クレジットの設定方法について説明します。 
+  無料電話番号のライセンスの購入電話システム割り当て、電話番号の管理、およびコミュニケーション クレジットの設定を行う方法について説明します。 
 
-サポートされているデバイスの管理の詳細については [、「Microsoft Teams](devices/device-management.md) と Teams Marketplace でデバイスを管理する」 [を参照してください](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
+サポートされているデバイスの管理については、「Manage your devices [in Microsoft Teams](devices/device-management.md) and Teams Marketplace 」[を参照してください](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
 
 
 ### <a name="auto-attendants-and-call-queues"></a>自動応答と通話キュー
 
-自動応答では、発信者の入力に基づいて通話をルーティングするメニュー オプションを設定できます。 通話キューは、呼び出し元の待機領域です。 自動応答と通話キューを組み合わせて使用すると、発信者を組織内の適切な人物または部門に簡単にルーティングできます。
+自動応答を使用すると、呼び出し元の入力に基づいて呼び出しをルーティングするメニュー オプションを設定できます。 呼び出しキューは、呼び出し元の待機領域です。 自動応答と通話キューを組み合わせて使用すると、組織内の適切なユーザーまたは部署に発信者を簡単にルーティングできます。
 
 自動応答と通話キューの詳細については、次の記事を参照してください。
 
-- [Teams の自動応答と通話キューを計画する](plan-auto-attendant-call-queue.md)
+- [自動応答Teamsキューの計画](plan-auto-attendant-call-queue.md)
 - [自動応答を設定する](create-a-phone-system-auto-attendant.md)
 - [呼び出しキューを作成する](create-a-phone-system-call-queue.md) 
 - [Contoso のケース スタディ: 自動応答と通話キュー](voice-case-study-call-queues.md)<br>
@@ -124,13 +124,13 @@ ms.locfileid: "51102573"
 
 ### <a name="cloud-voicemail"></a>クラウド ボイスメール
 
-Azure ボイスメール サービスを利用したクラウド ボイスメールは、Exchange メールボックスへのボイスメール の入金のみをサポートします。 サードパーティのメール システムはサポートされていません。 
+クラウド ボイスメール Azure ボイスメール サービスを利用する場合、メールボックスへのボイスメールの入金Exchangeサポートしています。 サード パーティのメール システムはサポートされていません。 
 
 クラウド ボイスメールでは、組織内のすべてのユーザーに対してボイスメールの文字起こしが既定で有効になっています。 会社のニーズに応じて、特定のユーザーまたは組織全体の全ユーザーに対してボイスメールの文字起こしを無効にすることができます。
 
-オンラインユーザーの場合、ユーザーに電話システム ライセンスが割り当てられると、クラウド ボイスメールが自動的にセットアップされ、プロビジョニングされます。 Exchange メールボックスを持つ電話システム ユーザーの場合は、追加の構成手順を実行する必要があります。 
+オンライン ユーザーの場合、ユーザークラウド ボイスメールライセンスが割り当てられた後、ユーザーに対して自動的に設定およびプロビジョニング電話システムされます。 メールボックス電話システムユーザー Exchange場合は、追加の構成手順を実行する必要があります。 
 
-クラウド ボイスメールとその構成の詳細については、次の記事を参照してください。
+構成とその構成のクラウド ボイスメール、次の記事を参照してください。
 
 - [クラウド ボイスメールのセットアップ](set-up-phone-system-voicemail.md)
 - [組織内のボイスメール ポリシーを設定する](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)
@@ -138,39 +138,39 @@ Azure ボイスメール サービスを利用したクラウド ボイスメー
 
 ### <a name="calling-identity"></a>通話 ID
 
-既定で、すべての発信通話は、割り当てられた電話番号を通話 ID (発信者 ID) として使用します。 通話の受信者は、発信者をすばやく特定して、通話を承諾または拒否するかどうかを決定できます。 発信者番号の設定、または発信者番号の変更またはブロックについては、「ユーザーの発信者番号を設定する」 [を参照してください](set-the-caller-id-for-a-user.md)。 
+既定で、すべての発信通話は、割り当てられた電話番号を通話 ID (発信者 ID) として使用します。 通話の受信者は、発信者をすばやく特定して、通話を承諾または拒否するかどうかを決定できます。 発信者番号の構成または発信者番号の変更またはブロックについては、「ユーザーの発信者番号を設定する」 [を参照してください](set-the-caller-id-for-a-user.md)。 
 
 ## <a name="public-switched-telephone-network-connectivity-options"></a>公衆交換電話網接続オプション
 
-電話システムは、組織に完全な PBX 機能を提供します。 ただし、ユーザーが組織外に通話を発信するには、電話システムを公衆交換電話網 (PSTN) に接続する必要があります。 電話システムを PSTN に接続するには、次のいずれかのオプションを選択できます。
+電話システムは、組織に完全な PBX 機能を提供します。 ただし、ユーザーが組織外で通話を発信するには、PSTN (Public Switched Telephone Network) 電話システムに接続する必要があります。 PSTN 電話システム接続するには、次のいずれかのオプションを選択できます。
 
-- [**通話プランが設定された電話システム**](#phone-system-with-calling-plan)。 MICROSOFT を PSTN 通信事業者として使用するクラウド内のソリューションです。
+- [**電話システム プラン を使用して行います**](#phone-system-with-calling-plan)。 MICROSOFT を PSTN 通信事業者として使用する、クラウド内のすべてソリューション。
 
-- [**直接ルーティングを使用してオンプレミス環境**](#phone-system-with-own-pstn-carrier-with-direct-routing) を Teams に接続することで、独自の PSTN キャリアを備える電話システム。
+- [**電話システム直接ルーティングを**](#phone-system-with-own-pstn-carrier-with-direct-routing)使用してオンプレミス環境をオンプレミス環境に接続することで、独自の PSTN 通信業者Teams。
 
-オプションの組み合わせを選ぶと、複雑な環境のソリューションを設計したり、複数ステップの移行を管理したりすることもできます (後で移行する方法の詳細)。
+オプションの組み合わせを選択することもできます。これにより、複雑な環境向けソリューションを設計したり、複数ステップの移行を管理したりすることもできます (移行の詳細については後で説明します)。
 
-### <a name="phone-system-with-calling-plan"></a>通話プラン付き電話システム 
+### <a name="phone-system-with-calling-plan"></a>電話システムプランの使用 
 
-この記事で前述したように、通話プラン付き電話システムは、Teams ユーザー向け Microsoft のクラウド内音声ソリューションです。 これは、Microsoft 電話システムを公衆交換電話網 (PSTN) に接続して、世界中の固定電話や携帯電話への通話を有効にする最も簡単なオプションです。 このオプションを使用すると、Microsoft は組織にプライベート ブランチ交換 (PBX) 機能を提供し、次の図に示すように PSTN キャリアとして機能します。
+この記事で前述したように、電話システムプランを使用する方法は、ユーザーが利用できる Microsoft のクラウド内音声Teamsです。 これは、世界中の固定電話Microsoft 電話携帯電話への通話を有効にするための、Microsoft 電話 System を公衆交換電話網 (PSTN) に接続する最も簡単なオプションです。 このオプションを使用すると、Microsoft は組織Exchange (PBX) 機能を提供し、次の図に示すように PSTN 通信事業者として機能します。
 
-![図 4 は、自動応答、通話キュー、発信者番号などの電話システム、PSTN 通信事業者としての Microsoft を示しています。](media/voice-solution-microsoft-complete.png)
+![図 4 は、電話システム、通話キュー、発信者番号など、PSTN 通信事業者としての Microsoft の機能を示しています。](media/voice-solution-microsoft-complete.png)
 
-「はい」と答える場合は、通話プラン付き電話システムが適切なソリューションです。
+次に対して 「はい」と答える場合は、電話システムプランを使用する方法が適切なソリューションです。
 
-- 通話プランは、お客様の地域で利用できます。
+- 通話プランは、お客様のリージョンで利用できます。
 - 現在の PSTN 通信事業者を保持する必要はない。
 - PSTN への Microsoft が管理するアクセスを使用する場合。
 
-このオプションを使用する場合: 
+このオプションでは、次のオプションを使用します。 
 
-- Microsoft Phone System に国内通話プランまたは国際通話プランが追加され、世界中の電話への通話が可能になります (ライセンスされるサービスのレベルに応じて異なる)。
+- (ライセンスMicrosoft 電話に応じて) 世界中の電話への通話を可能にする国内通話プランまたは国際通話プランが追加された新しいシステムを利用できます。
 
-- 通話プランは Microsoft 365 または Office 365 から運用されます。 &mdash;
+- 通話プランは、オンプレミスのデプロイやメンテナンスを行う必要はないので、Microsoft 365 &mdash; またはOffice 365。
 
-- 注: 必要に応じて、サードパーティ PBX、アナログ デバイス、SBC でサポートされているその他のサードパーティテレフォニー機器との相互運用性を確保するために、サポートされているセッション ボーダー コントローラー (SBC) をダイレクト ルーティングを通じて接続することができます。
+- 注: 必要に応じて、サード パーティの PBX、アナログ デバイス、SBC でサポートされているその他のサードパーティのテレフォニー機器との相互運用性を確保するために、サポートされているセッション ボーダー コントローラー (SBC) を直接ルーティング経由で接続できます。
 
-このオプションを使用するには、Microsoft 365 または Office 365 への接続が必要です。
+このオプションを使用するには、接続または接続に中断Microsoft 365接続Office 365。
 
 通話プランの詳細については、次の記事を参照してください。
 
@@ -180,38 +180,38 @@ Azure ボイスメール サービスを利用したクラウド ボイスメー
 - [通話プランを設定する](set-up-calling-plans.md)
 
 
-### <a name="phone-system-with-own-pstn-carrier-with-direct-routing"></a>ダイレクト ルーティングを使用した独自の PSTN 通信事業者を使用した電話システム
+### <a name="phone-system-with-own-pstn-carrier-with-direct-routing"></a>電話システムルーティングを使用して PSTN 通信業者を使用する
 
-このオプションは、次の図に示すように、直接ルーティングを使用して Microsoft Phone System をテレフォニー ネットワークに接続します。 
+このオプションは、Microsoft 電話に示すように、ダイレクト ルーティングを使用して、システムをテレフォニー ネットワークに接続します。 
 
-![図 5 は、ダイレクト ルーティングを使用した電話システムを示しています](media/voice-solution-with-direct-routing.png)
+![図 5 は、直接ルーティング電話システムを示しています](media/voice-solution-with-direct-routing.png)
 
-次の質問に対して「はい」と回答した場合、直接ルーティング機能を備えた電話システムが適切なソリューションになります。
+次の質問に対して 「はい」と回答した場合は、電話システム ルーティングを使用する方法が適切なソリューションです。
 
-- 電話システムで Teams を使用する場合。
+- このコマンドを使用してTeamsを電話システム。
 - 現在の PSTN 通信事業者を保持する必要があります。
-- 一部の通話は通話プランを経由し、一部は通信事業者を経由して、ルーティングを混在する必要があります。
+- 通話プランを経由する通話と、運送業者を介した通話を組み合わせ、ルーティングを混在したい場合。
 - サードパーティの PBX や、オーバーヘッド ページ、アナログ デバイスなどの機器と相互運用する必要があります。
 
-このオプションを使用すると、次のオプションが使用されます。
+このオプションでは、次のオプションを使用します。
 
-- 追加のオンプレミス ソフトウェアを必要とせずに、サポートされている独自の SBC を Microsoft Phone System に接続します。
+- 追加のオンプレミス ソフトウェアを必要とせずに、Microsoft 電話 SBC をシステムに接続します。
 
-- Microsoft Phone System では、事実上すべてのテレフォニー通信事業者を使用できます。
+- Microsoft 電話 System では、事実上任意のテレフォニー キャリアを使用できます。
 
-- このオプションを構成および管理するか、または通信事業者またはパートナーが構成および管理することができます (通信事業者またはパートナーにこのオプションが提供されていないか確認してください)。
+- このオプションの構成と管理を選択するか、通信事業者またはパートナーが構成および管理できます (運送業者またはパートナーにこのオプションが提供されていないか確認してください)。
 
-- サードパーティ製 PBX やアナログ デバイスなどのテレフォニー機器と Microsoft Phone System 間の相互運用性 &mdash; &mdash; を構成できます。
+- サード パーティ製 PBX やアナログ デバイスなどのテレフォニー機器と、その他のシステムとの間に相互 &mdash; &mdash; 運用性Microsoft 電話できます。
 
 
-このオプションには、次の情報が必要です。
+このオプションには、次が必要です。
 
-- Microsoft 365 または Office 365 への接続。
+- 接続または接続Microsoft 365接続Office 365。
 
-- サポートされている SBC の展開と保守。
+- サポートされている SBC のデプロイと保守。
 
-- サードパーティの通信事業者との契約。
-  (サードパーティ製 PBX、アナログ デバイス、その他のテレフォニー機器への接続を、通話プランを使用して電話システムを使用しているユーザーに提供するオプションとして展開されていない場合)。
+- サード パーティの運送業者との契約。
+  (サード パーティ製 PBX、アナログ デバイス、その他のテレフォニー機器への接続を提供するオプションとして、通話プランを利用しているユーザーに電話システムしない限り)。
 
 ダイレクト ルーティングの詳細については、次の記事を参照してください。
 
@@ -224,7 +224,7 @@ Azure ボイスメール サービスを利用したクラウド ボイスメー
 
 ## <a name="phone-numbers-from-microsoft"></a>Microsoft からの電話番号
 
-Microsoft には、組織内のユーザーに割り当て可能なサブスクライバー *(ユーザー* ) 番号と、有料および無料のサービス番号として利用できるサービス番号という 2 種類の電話番号があります。 サービス番号は、サブスクライバー番号よりも高い同時通話容量を持ち、電話会議、自動応答、通話キューなどのサービスに割り当てることができます。
+Microsoft には、組織内のユーザーに割り当て可能なサブスクライバー *(ユーザー* ) 番号と、有料サービス番号と無料サービス番号として利用できるサービス番号の 2 種類があります。 サービス番号は、サブスクライバー番号よりも高い同時通話容量を持ち、電話会議、自動応答、通話キューなどのサービスに割り当てることができます。
 
 次の条件を決定する必要があります。
 
@@ -232,22 +232,22 @@ Microsoft には、組織内のユーザーに割り当て可能なサブスク�
 - どの種類の電話番号が必要ですか (サブスクライバーまたはサービス)? 
 - どんな方法で既存の電話番号を Teams に移植しますか?
 
-新しい番号の取得や退出番号の移行など、組織内の電話番号の管理の詳細については、次の記事を参照してください。
+新しい番号の取得や終了番号の転送など、組織内の電話番号の管理の詳細については、次の記事を参照してください。
 
 - [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
 - [通話プランに使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [ユーザー用の電話番号を取得する](getting-phone-numbers-for-your-users.md)
-- [Microsoft Teams に電話番号を転送する](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+- [電話番号を別の電話番号にMicrosoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
 ## <a name="dial-plans-and-call-routing"></a>ダイヤル プランと通話ルーティング
 
-ダイヤル プランは、ダイヤルされた電話番号を通話承認および通話ルーティング用の別の形式 (通常は E.164 形式) に変換する正規化ルールのセットです。
+ダイヤル プランは、ダイヤルされた電話番号を通話承認と通話ルーティングの代替形式 (通常は E.164 形式) に変換する正規化ルールのセットです。
 
-次を決定する必要があります。 
+次の条件を決定する必要があります。 
 
 - 組織はダイヤル プランのカスタマイズを必要としているか?
 - カスタマイズされたダイヤル プランが必要なユーザー
-- 各ユーザーに割り当てるテナント ダイヤル プラン
+- どのテナント ダイヤル プランを各ユーザーに割り当てる必要がありますか。
 
 詳細については、次の記事を参照してください。 
 
@@ -257,33 +257,33 @@ Microsoft には、組織内のユーザーに割り当て可能なサブスク�
 
 ## <a name="emergency-calling"></a>緊急通話
 
-緊急通話の構成方法は、PSTN 接続オプション (Microsoft 通話プランまたは直接ルーティング) によって異なります。 Microsoft 通話プランと電話システムダイレクト ルーティングの動的緊急通話は、Teams クライアントの現在の場所に基づいて緊急通話を構成およびルーティングし、セキュリティ担当者に通知する機能を提供します。 緊急通話の概念と用語、および動的緊急通話を構成する方法の詳細については、次の記事を参照してください。
+緊急通話の構成方法は、PSTN 接続オプション (Microsoft 通話プランまたは直接ルーティング) によって異なります。 Microsoft 通話プランと 電話システム ダイレクト ルーティングの動的緊急通話は、緊急通話を構成してルーティングし、Teams クライアントの現在の場所に基づいてセキュリティ担当者に通知する機能を提供します。 緊急通話の概念と用語、および動的緊急通話を構成する方法の詳細については、次の記事を参照してください。
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [動的な緊急通話を計画して構成する](configure-dynamic-emergency-calling.md)
 - [Contoso のケース スタディ: 緊急通話](voice-case-study-emergency-calling.md)<br>
-  架空の多国籍企業 Contoso 社が、組織の緊急通話を実装した方法について説明します。
+  架空の多国籍企業 Contoso が組織の緊急呼び出しを実装した方法について説明します。
 
 ## <a name="location-based-routing-for-direct-routing"></a>Location-Based ルーティングの詳細
 
-国や地域によっては、公衆交換電話網 (PSTN) プロバイダーをバイパスして、長距離通話コストを削減する方法は違法です。 Location-Basedルーティングを使用すると、地理的な場所に基づいて、Microsoft Teams ユーザーの有料バイパスを制限できます。 ルーティング (LBR) を計画および構成するLocation-Based詳細については、次の記事を参照してください。
+国や地域によっては、公衆交換電話網 (PSTN) プロバイダーをバイパスして、遠距離通話コストを削減する方法は違法です。 Location-Based ルーティングを使用すると、地理的な場所に基づいて、Microsoft Teamsユーザーの有料バイパスを制限できます。 ルーティング (LBR) を計画および構成する方法のLocation-Based、次の記事を参照してください。
 
 - [ダイレクト ルーティングの場所に基づくルーティングを計画する](location-based-routing-plan.md)
 - [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 - [Contoso のケース スタディ: Location-Based ルーティング](voice-case-study-location-based-routing.md)<br>
-  架空の多国籍企業 Contoso が組織のルーティングを実装Location-Basedについて説明します。
+  架空の多国籍企業 Contoso が、組織に対して Location-Based ルーティングを実装した方法について説明します。
 
 ## <a name="network-topology-for-voice-features"></a>音声機能のネットワーク トポロジ
 
-動的緊急通話または直接ルーティング用の Location-Based を展開する場合は、Microsoft Teams のこれらの機能で使用するネットワーク設定を構成する必要があります。 ネットワーク領域、ネットワーク サイト、ネットワーク サブネット、信頼済み IP アドレスのネットワーク設定を構成する方法については、次の記事を参照してください。
+動的緊急通話または直接ルーティング用の Location-Based ルーティングをデプロイする場合は、これらの機能で使用するネットワーク設定を構成する必要Microsoft Teams。 ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネット、信頼済み IP アドレスのネットワーク設定を構成する方法については、次の記事を参照してください。
 
 - [Microsoft Teams のクラウド音声機能のネットワーク設定 - 概念と用語](cloud-voice-network-settings.md)
-- [Microsoft Teams でクラウド音声機能のネットワーク トポロジを管理する](manage-your-network-topology.md)
+- [クラウド音声機能のネットワーク トポロジを管理する Microsoft Teams](manage-your-network-topology.md)
 
-## <a name="migrate-your-existing-voice-solution-to-teams"></a>既存の音声ソリューションを Teams に移行する
+## <a name="migrate-your-existing-voice-solution-to-teams"></a>既存の音声ソリューションを既存の音声ソリューションに移行Teams
 
-Teams にアップグレードする組織の最終的な目標は、すべてのユーザーを TeamsOnly モードに移行する方法です。 Teams での電話システムの使用は、ユーザーが TeamsOnly モードの場合にのみサポートされます。 Teams へのアップグレードに関する基本的な情報が必要な場合は、次の操作を開始します。
+アプリケーションにアップグレードする組織Teams最終的な目標は、すべてのユーザーを TeamsOnly モードに移行する方法です。 ユーザー電話システムでのTeamsは、ユーザーが TeamsOnly モードの場合にのみサポートされます。 アプリケーションへのアップグレードに関する基本的な情報が必要なTeams開始します。
 
 - [Microsoft Teams へのアップグレードを開始する](upgrade-start-here.md)
 - [アップグレードのフレームワークについて](upgrade-framework.md)
@@ -291,23 +291,23 @@ Teams にアップグレードする組織の最終的な目標は、すべて�
 
 音声ソリューションを移行する場合、TeamsOnly モードに移行するときに、次の 4 つの呼び出しシナリオが考えられます。
 
-- [**Microsoft 通話プランを使用した Skype for Business Online のユーザー**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)。 アップグレード後も、このユーザーは引き続き Microsoft 通話プランを利用できます。
+- [**Microsoft 通話プラン をSkype for Business Online のユーザー**](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-microsoft-calling-plans)。 アップグレード後も、このユーザーは引き続き Microsoft 通話プランを利用できます。
 
-- **[Skype for Business Online のユーザー](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)**。オンプレミスの Skype for Business または Cloud Connector エディションを介して、オンプレミスの音声機能を使用します。 このユーザーの Teams へのアップグレードは、その TeamsOnly ユーザーが確実に PSTN 機能を持てるようにするため、ユーザーのダイレクト ルーティングへの移行に合わせた調整が必要になります。
+- Skype for Business Online のユーザー。オンプレミスまたは Cloud Connector Edition を介してSkype for Business音声 **[](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)機能を使用します**。 このユーザーの Teams へのアップグレードは、その TeamsOnly ユーザーが確実に PSTN 機能を持てるようにするため、ユーザーのダイレクト ルーティングへの移行に合わせた調整が必要になります。
 
-- **[オンプレミスの Skype for Business](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)** でオンラインに移行し、エンタープライズ VoIP PSTN 接続を維持するユーザー。 このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行をそのユーザーのダイレクト ルーティングへの移行に合わせて調整する必要があります。 
+- **[を使用Skype for Business](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)** オンプレミスのユーザーエンタープライズ VoIP、オンラインに移行し、オンプレミスの PSTN 接続を維持します。 このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行をそのユーザーのダイレクト ルーティングへの移行に合わせて調整する必要があります。 
 
-- **[Skype for Business オンプレミス](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)** に エンタープライズ VoIP を持つユーザー。オンラインに移行し、Microsoft 通話プランを使用します。  このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行を A) Microsoft 通話プランへのユーザーの電話番号のポートに合わせて調整するか、B) 利用可能な地域から新しいサブスクライバー番号を割り当てる必要があります。
+- **[を使用Skype for Business](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)** オンプレミスのユーザーエンタープライズ VoIP、オンラインに移行し、Microsoft 通話プラン を使用します。  このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行を A) Microsoft 通話プランへのユーザーの電話番号のポートに合わせて調整するか、B) 利用可能な地域から新しいサブスクライバー番号を割り当てる必要があります。
 
-ハイブリッド接続をセットアップする必要がある場合や、オンプレミスの音声機能を持つユーザーを直接ルーティングに移行する方法など、これらのシナリオごとに音声移行を実装する方法の詳細については、次の記事を &mdash; &mdash; 参照してください。
+ハイブリッド接続を設定する必要がある状況や、オンプレミスの音声機能を持つユーザーを直接ルーティングに移行する方法に関する情報など、これらのシナリオごとに音声移行を実装する方法の詳細については、次の記事 &mdash; &mdash; を参照してください。
 
-- [TEAMS にアップグレードする場合の PSTN に関する考慮事項 ( IT 管理者向け)](upgrade-to-teams-on-prem-pstn-considerations.md)
+- [IT 管理者向け Teamsアップグレード時の PSTN に関する考慮事項](upgrade-to-teams-on-prem-pstn-considerations.md)
 
 - [Contoso 音声移行のケース スタディ](voice-case-study-overview.md)<br>
-  このケース スタディでは、架空の多国籍企業 Contoso が、組織に Teams 音声ソリューションを実装した方法について説明します。 次の記事が含まれます。
+  このケース スタディでは、架空の多国籍企業 Contoso が、組織に対してTeamsソリューションを実装した方法について説明します。 次の記事が含まれます。
 
-  - [Teams アップグレード プラン](voice-case-study-migration-plan.md)
-  - [電話システムと PSTN 接続オプション](voice-case-study-phone-system.md)
+  - [Teamsアップグレード プラン](voice-case-study-migration-plan.md)
+  - [電話システム PSTN 接続オプション](voice-case-study-phone-system.md)
   - [場所ベースのルーティングの実装](voice-case-study-location-based-routing.md)
   - [緊急通話](voice-case-study-emergency-calling.md)
   - [自動応答と呼び出しキュー](voice-case-study-call-queues.md)

@@ -1,5 +1,5 @@
 ---
-title: チームボイスの Contoso のケーススタディ
+title: Teams Contoso のケース スタディ
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 多国籍企業向けの Teams の音声のケーススタディ
+description: Teams企業向け音声ケース スタディ
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e4503576df8d8e9f3d332cda45eb235d8162cf53
@@ -23,92 +23,92 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "44786101"
 ---
-# <a name="contoso-case-study-emergency-calling"></a>Contoso のケーススタディ: 緊急通話
+# <a name="contoso-case-study-emergency-calling"></a>Contoso のケース スタディ: 緊急通話
 
-緊急通話の利用可否、緊急通報の &mdash; 緊急対応の住所、場所、緊急対応の場所、および登録済みの住所については、「緊急通話の管理」と「緊急 &mdash; 通報の[計画と設定](configure-dynamic-emergency-calling.md)」を確認してください。 [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md)
+緊急通話の可用性と緊急通話に関連する用語を理解するために、緊急対応の住所、場所、緊急対応の場所、および登録済み住所 Contoso は、「緊急通話の管理と動的緊急通話の計画と構成」を確認 &mdash; &mdash; [しました](configure-dynamic-emergency-calling.md)。 [](what-are-emergency-locations-addresses-and-call-routing.md)
 
-Office 365 では、通話プランのユーザーは緊急通話に対して自動的に有効になります。 ただし、アメリカ国内の通話プランのユーザーのみが、緊急通話のルーティングに動的な場所を使用できます。 
+このOffice 365プランのユーザーは、緊急通話に対して自動的に有効になります。 ただし、緊急通話のルーティングに動的な場所を使用できるのは、米国の通話プラン ユーザーのみです。 
 
-直接ルーティングの場合、Contoso は緊急通話をルーティングするために追加の構成が必要であるということを伝えましたが、パートナー接続の場合もあります。 管理者は、緊急ルーティングサービスプロバイダ (ERSP) (米国) への接続を構成するか、緊急対応の位置情報識別番号 (ELIN) アプリケーションのセッションボーダーコントローラー (SBC) を構成する必要があります。
+直接ルーティングの場合、Contoso は、緊急通話をルーティングするために、および場合によってはパートナーの接続に追加の構成が必要なことを学習しました。 管理者は、緊急ルーティング サービス プロバイダー (ERSP) (米国) への接続を構成するか、緊急位置情報識別番号 (ELIN) アプリケーションのセッション ボーダー コントローラー (SBC) を構成する必要があります。
 
-Contoso には米国と米国外の支社があります。
+Contoso は、米国および米国外にオフィスを持っています。
 
 - 米国では、Contoso 通話プランのユーザーは、緊急通話のルーティングに動的な場所を使用できます。 
 
-- 米国外では、Contoso には、通話プランと、電話システムに接続されたいくつかのサイトを、直接ルーティング経由で使用しているサイトがあります。
+- 米国外では、Contoso は通話プランを使用する一部のサイトと、直接ルーティングを介して電話システムに接続されている一部のサイトを持っています。
 
 ## <a name="emergency-calling-use-cases"></a>緊急通話の使用例
 
-Contoso が電話システムに接続する方法を決定したら、Contoso は次の緊急通話のユースケースを特定しました。 
+Contoso がシステムに接続する方法を決定電話、Contoso は次の緊急通話の使用例を特定しました。 
 
-- [米国の通話プランユーザー](#calling-plan-user-in-the-united-states) 
+- [米国の通話プラン ユーザー](#calling-plan-user-in-the-united-states) 
 
-- [米国外への通話プランユーザー](#calling-plan-user-outside-of-the-united-states)
+- [米国外の通話プラン ユーザー](#calling-plan-user-outside-of-the-united-states)
 
-- [直接ルーティングを介して電話システムに接続しているユーザー](#user-who-connects-to-phone-system-through-direct-routing )
+- [ダイレクト ルーティングを介して電話システムに接続するユーザー](#user-who-connects-to-phone-system-through-direct-routing )
 
 
-### <a name="calling-plan-user-in-the-united-states"></a>米国の通話プランユーザー  
+### <a name="calling-plan-user-in-the-united-states"></a>米国の通話プラン ユーザー  
 
-緊急対応の場所に電話番号を関連付ける必要がある場合は、条件があります。 これらの要件について理解するために、Contoso は[通話プランの考慮事項について](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans)検討しています。 
+電話番号を緊急対応の場所に関連付けする必要がある場合の要件があります。 これらの要件を理解するために、Contoso は「プランの呼び出し [に関する考慮事項」を確認しました](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans)。 
 
-これらの要件に基づき、Contoso は、米国のユーザーに番号が割り当てられたときに、その場所を電話番号に関連付けます。
+Contoso は、これらの要件に基づいて、米国内のユーザーに番号が割り当てられると、場所を電話番号に関連付けすることを決定しました。
 
-### <a name="calling-plan-user-outside-of-the-united-states"></a>米国外への通話プランユーザー 
+### <a name="calling-plan-user-outside-of-the-united-states"></a>米国外の通話プラン ユーザー 
 
-緊急対応の場所に電話番号が関連付けられている必要があるタイミングを理解するために、Contoso は[通話プランの考慮事項につい](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans)て検討しています。 Contoso は要件に基づいて、次のことを決定しました。  
+緊急対応の場所に電話番号を関連付けする必要がある場合を理解するために、Contoso は「通話プランに関する考慮事項  [」を確認しました](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans)。 Contoso は要件に基づいて、次の条件を決定しました。  
 
--  Contoso は、カナダのユーザーに番号が割り当てられたときに、その場所を電話番号に関連付けます。 
+-  カナダのユーザーに番号が割り当てられると、その場所と電話番号が関連付けされます。 
 
-- Contoso は、電話番号が Office 365 から取得された場合、または別のサービスプロバイダーまたは携帯電話会社から電話番号が移行された場合に、緊急対応の場所を割り当てます。 
+- Contoso が緊急対応の場所を割り当てるのは、電話番号が Office 365 から取得された場合、または別のサービス プロバイダーまたは運送業者から番号が転送された場合です。 
 
-### <a name="user-who-connects-to-phone-system-through-direct-routing"></a>直接ルーティングを介して電話システムに接続しているユーザー 
+### <a name="user-who-connects-to-phone-system-through-direct-routing"></a>ダイレクト ルーティングを介して電話システムに接続するユーザー 
 
-このユースケースで緊急ルーティングを計画するには、Contoso が[直接ルーティングの考慮事項](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing)を確認します。 直接ルーティングユーザーは、プランのユーザーと同じ方法で緊急電話を受けることはできないため、Contoso は緊急通話の提供方法を決定する必要がありました。 ダイレクトルーティングは、緊急ルーティングサービスプロバイダ (ERSP) に接続できます。 直接ルーティングには、緊急対応の場所識別番号 (ELIN) を含む SBC も含まれています。   
+この使用例の緊急ルーティングを計画するために、Contoso は直接ルーティングに関 [する考慮事項を確認しました](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing)。 直接ルーティングユーザーは通話プランのユーザーと同じ方法で緊急通話を受信しないので、Contoso は緊急通話を提供する方法を決定する必要があります。 ダイレクト ルーティングは、緊急ルーティング サービス プロバイダー (ERSP) に接続できます。 直接ルーティングには、緊急位置情報識別番号 (ELIN) を含む SBC を含め、SBC を設定できます。   
 
-#### <a name="emergency-routing-service-provider-ersp-considerations"></a>緊急ルーティングサービスプロバイダ (ERSP) に関する考慮事項
+#### <a name="emergency-routing-service-provider-ersp-considerations"></a>緊急ルーティング サービス プロバイダー (ERSP) に関する考慮事項
 
-緊急ルーティングサービスプロバイダ (ERSPs) では、発信者の場所に基づいて緊急通話が自動的にルーティングされます。  
+緊急ルーティング サービス プロバイダー (ERSP) は、発信者の場所に基づいて緊急通話を自動的にルーティングできます。  
 
-- 緊急ルーティングサービスプロバイダーが、ダイレクトルーティングの展開に統合されている場合は、動的に取得した場所での緊急通話は、その場所を提供する公共の安全な応答ポイント (PSAP) に自動的にルーティングされます。 
+- 緊急ルーティング サービス プロバイダーが直接ルーティング展開に統合されている場合、動的に取得された場所を持つ緊急通話は、その場所を提供するパブリック セーフティ応答ポイント (PSAP) に自動的にルーティングされます。 
 
-- 動的に取得した場所のない緊急通話は、更新された場所に基づいて適切なディスパッチセンターに通話を接続する前に、ユーザーの現在の位置を特定するために最初にスクリーニングされます。 
+- 動的に取得された場所がない緊急通話は、最初に、更新された場所に基づいて適切なディスパッチ センターに通話を接続する前に、ユーザーの現在の場所を決定するために画面が表示されます。 
 
 
 #### <a name="elin-considerations"></a>ELIN に関する考慮事項
 
-SBC ELIN アプリケーションがダイレクトルーティング展開に統合されている場合は、緊急対応の住所を電話番号に関連付けるために、追加の構成手順を実行する必要があります。  
+SBC ELIN アプリケーションが直接ルーティング展開に統合されている場合は、緊急対応の住所を電話番号に関連付ける追加の構成手順を実行する必要があります。  
 
-Contoso は、緊急対応の場所識別番号 (ELIN) アプリケーションを含むセッション境界コントローラーの使用を決定しました。  
+Contoso は、緊急位置情報識別番号 (ELIN) アプリケーションを含むセッション ボーダー コントローラーを使用することを決定しました。  
 
-## <a name="security-desk-notification"></a>セキュリティデスクの通知
+## <a name="security-desk-notification"></a>セキュリティ デスクの通知
 
-緊急通話が行われたときに、セキュリティデスクに通知する機能は、Microsoft の通話プランと電話システムによる直接ルーティングの両方で利用できます。 Contoso はセキュリティデスク通知の詳細を確認して、オフィスでこれを構成する必要があるかどうかを判断しました。  
+緊急通話が発信された場合にセキュリティ デスクに通知する機能は、Microsoft 通話プランと直接ルーティングの両方電話システム使用できます。 Contoso は、セキュリティ デスク通知の詳細を確認して、これがオフィスで構成される必要かどうかを判断しました  
 
-Contoso はセキュリティデスクの通知を使用することを決定しました。
+Contoso は、セキュリティ デスク通知を使用することを決定しました。
 
 ## <a name="configuration"></a>構成 
 
-Contoso は以下の手順に従って、[[動的な緊急通話の構成](configure-dynamic-emergency-calling.md): 
+Contoso は、「動的緊急通話を構成 [する」の手順に従って、次の手順を実行](configure-dynamic-emergency-calling.md) しました。 
 
 - 緊急対応の住所を割り当てる 
 
 - ネットワーク設定を構成する 
 
-- 位置情報サービスを構成する 
+- Location Information Service の構成 
 
 - 緊急ポリシーを構成する 
 
 - ユーザーとサイトを有効にする 
 
-- 緊急通話のテスト 
+- 緊急通話をテストする 
 
-動的な緊急通話が構成されると、Contoso はその場所を適切なユーザーに割り当てる必要がありました。  
+動的緊急通話が構成された後、Contoso は適切なユーザーに場所を割り当てる必要がありました。  
 
-- 組織の緊急対応の場所を追加、変更、または削除するには、「[組織の緊急対応の場所を追加、変更、または削除](add-change-remove-emergency-location-organization.md)する」の手順に従います。
+- 組織の緊急対応の場所を追加、変更、または削除するには、「組織の緊急対応の場所を追加、変更、または削除する」の手順 [に従いました。](add-change-remove-emergency-location-organization.md)
 
-- 建物、床、オフィスの場所を作成するために、Contoso は[緊急対応の場所を追加、変更、または削除](add-change-remove-emergency-place-organization.md)する手順に従います。 
+- 建物、フロア、オフィスの場所を作成するために、Contoso は「緊急対応の場所を追加、変更、または削除する」の手順 [に従いました](add-change-remove-emergency-place-organization.md) 。 
 
-- 緊急対応の場所を割り当てるには、「[ユーザーの緊急対応の場所を割り当てまたは変更](assign-change-emergency-location-user.md)する」の手順に従ってください。 
+- 緊急対応の場所を割り当てるには、「ユーザーの緊急対応の場所を割り当てるまたは変更する」 [の手順に従いました](assign-change-emergency-location-user.md)。 
 
  

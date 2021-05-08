@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Microsoft Teams でチームとチャネルを構成する方法と、Teams を使用して組織間のコラボレーションを推進する方法について説明します。
+description: Microsoft Teams でのチームとチャネルの構築と、Teamsを使用して組織間のコラボレーションを推進する方法について学習します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -30,13 +30,13 @@ ms.locfileid: "49831207"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要を理解する
 
-チームとチャネルの概念は、Microsoft Teams の正常で生産的な実装の基礎になります。 
+チームとチャネルの概念は、アプリケーションの正常で生産的な実装の基礎Microsoft Teams。 
 
-- チームとは、企業のビジネス成果を生み出す、ユーザー、コンテンツ、ツールの集大集です。 Teams は、Microsoft 365 グループを基にして構築されていて、Microsoft 365 グループ メンバーシップに対する変更はチームに同期されます。
+- チームは、会社のビジネス成果を生み出す、人、コンテンツ、ツールのコレクションです。 Teams は、Microsoft 365 グループを基にして構築されていて、Microsoft 365 グループ メンバーシップに対する変更はチームに同期されます。
 
 - チャネルは、実際の作業が行われるチーム内のコラボレーション スペースです。 
 
-チームとチャネルの詳細については、Microsoft Teams のチームとチャネル [の概要を参照してください](teams-channels-overview.md)。 包括的な Teams の導入ガイダンスについては [、Teams 導入ガイドを参照してください](https://aka.ms/teamstoolkit)。 Teams と Microsoft 365 グループの詳細については [、Microsoft 365](office-365-groups.md) グループと Microsoft Teams と [Microsoft 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)グループの詳細を参照してください。
+チームとチャネルの詳細については、「チームとチャネルの概要[」](teams-channels-overview.md)を参照Microsoft Teams。 包括的な導入Teamsについては、「導入ガイド」のTeams[を参照してください](https://aka.ms/teamstoolkit)。 グループとグループのTeamsとMicrosoft 365については、「グループとグループMicrosoft 365」および[](office-365-groups.md)「Microsoft Teams グループの詳細」[をMicrosoft 365してください](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 |  |  |
@@ -45,20 +45,20 @@ ms.locfileid: "49831207"
 
 
 
-チーム アクセスの種類は、チームに参加できるユーザーを決定します。
+チームアクセスの種類によって、チームに参加できるユーザーが決されます。
 
 - *プライベート* チームは、チーム所有者によって承認されたチーム メンバーに制限されます。 これは大規模な組織内のプロジェクト チームおよび仮想チームでの標準的な設定です。
 
-- *パブリック* チームは組織内のすべてのユーザーが参加できます。ユーザーは直接参加できます。 パブリック チームは、部署が異なるユーザーや、さまざまなプロジェクトに取り組むユーザーに対して、一般的に関心のあるトピックで共同作業を行う場合に便利です。 これは、より小規模な組織向けの既定の設定です。
+- *パブリック* チームは組織内のすべてのユーザーに公開され、ユーザーは直接参加できます。 パブリック チームは、さまざまな部署のユーザーや、さまざまなプロジェクトに取り組むユーザーにとって一般的な関心のあるトピックでの共同作業に役立ちます。 これは、より小規模な組織向けの既定の設定です。
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Teams を使用して組織間の共同作業を推進する
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>組織Teamsコラボレーションを推進する
 
-チームを使用して組織間の共同作業を改善すると、多くのプロジェクトがこのモデルに役立ちます。 さらに、組織内のリーダーまたは部門は、専用のチームを自分のメンバーに与える必要がある場合があります。 次の図に示す組織モデルとプロジェクト モデルを検討してください。
+チームを使用して組織間のコラボレーションを向上させるのがベスト プラクティスであり、多くのプロジェクトがこのモデルに役立ちます。 さらに、組織内のリーダーまたは部門は、自分のメンバー専用のチームを望む場合があります。 次の図に示す組織モデルとプロジェクト モデルを検討してください。
 
 ![組織モデルとプロジェクト モデル](media/teams-adoption-organization-project.png)
 
-組織のチーム (左側に表示) では、組織がビジネスを運営する方法、チーム イベント、主要戦略、その他の運用情報 (ビジネス レビューなど) に関する重要な情報が共有される場合があります。 右側に表示されるチームの場合、学区の情報は、そのチームが達成している作業のカテゴリを表すチャネルに分割されます。 このチームのメンバーは、同じ人物に報告する場合と報告しない場合がありますが、全員が地区の結果を推進しています。
+組織チーム (左側に表示) では、組織がビジネスを実行する方法、チーム イベント、コア戦略、ビジネス レビューなどのその他の運用情報に関する重要な情報が共有される場合があります。 右側に表示されるチームの場合、学区の情報は、そのチームによって達成される作業のカテゴリを表すチャネルに分割されます。 このチームのメンバーは、同じ人物に報告する場合と報告しない場合がありますが、全員が地区の結果を推進する取り組みです。
   
-実装のフェーズ [2](teams-adoption-phase2-experiment.md) で、チームの構造についてより多くの作業を行います。
+実装のフェーズ [2](teams-adoption-phase2-experiment.md) では、チームの構造についてさらに作業します。
 
-![次のステップの次のステップを表 ](media/teams-adoption-next-icon.png) すアイコン:最初 [のチームを作成する](teams-adoption-your-first-teams.md)
+![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) 次: 最初 [のチームを作成する](teams-adoption-your-first-teams.md)

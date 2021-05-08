@@ -1,5 +1,5 @@
 ---
-title: サポート PIN を調べるにはどうすればよいですか?
+title: サポート PIN を参照する方法
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: mikedav
 search.appverid: MET150
-description: サポート PIN を調べる方法について説明します。
+description: サポート PIN を確認する方法について学習します。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8d9fbc7805adb2bec12625daea4d0745ffd80472
@@ -22,13 +22,13 @@ ms.locfileid: "44221641"
 ---
 # <a name="how-to-look-up-your-support-pin"></a>サポート PIN を確認する方法
 
-電話で Microsoft カスタマサポートを有効にするには、サポート PIN を参照してください。次の手順に従ってください。 
+電話で Microsoft カスタマー サポートを有効にするサポート PIN を確認するには、次の手順に従ってください。 
 
-1. [Office 管理センター](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage)にログインします。 
+1. 管理センター に[ログインOfficeします](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage)。 
 
 2. 歯車アイコンをクリックします。
 
-3. サポート PIN が右下のウィンドウに表示されます。 必要に応じて、PIN を再生成することもできます。  
+3. サポート PIN が右下のウィンドウに表示されます。 必要に応じて、PIN の再生成を選択できます。  
 
    ![サポート PIN を示す図](media/support-pin.png)
 

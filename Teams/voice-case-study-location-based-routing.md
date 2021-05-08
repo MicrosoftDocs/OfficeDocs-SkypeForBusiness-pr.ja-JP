@@ -1,5 +1,5 @@
 ---
-title: チームボイスの Contoso のケーススタディ
+title: Teams Contoso のケース スタディ
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 多国籍企業向けの Teams の音声のケーススタディ
+description: Teams企業向け音声ケース スタディ
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f1ba92794b2ba17cc23e1bca55800c9307707636
@@ -23,46 +23,46 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "44786076"
 ---
-# <a name="contoso-case-study-location-based-routing"></a>Contoso のケーススタディ: 場所に基づくルーティング
+# <a name="contoso-case-study-location-based-routing"></a>Contoso のケース スタディ: Location-Based ルーティング
 
-位置情報に基づくルーティング (LBR) は、通話を発信または受信するときに、ポリシーとユーザーの物理的な場所に基づいて、有料でのバイパスを制限する機能です。  
+Location-Based ルーティング (LBR) は、通話の設置時または受信時のポリシーとユーザーの物理的な場所に基づいて、有料バイパスを制限する機能です。  
 
 ## <a name="overview"></a>概要
 
-Contoso には、公衆交換電話網 (PSTN) プロバイダーをバイパスして長距離通話料金を削減することができない2つの支社が含まれています。 メインの office には、本社と2番目の office で使用されるインターネット接続があります。 各 office には、PSTN キャリアに接続された独自のセッションボーダーコントローラー (SBC) があります。  
+Contoso は、公衆交換電話網 (PSTN) プロバイダーをバイパスして、遠距離通話コストを削減する違法な国に 2 つのオフィスを持っています。 メイン オフィスには、メイン オフィスと 2 つ目のオフィスで使用されるインターネット接続があります。 各オフィスには、PSTN 通信事業者に接続された独自のセッション ボーダー コントローラー (SBC) があります。  
  
-この国では、Contoso は Skype for Business 展開用に LBR が構成されています。 Teams 用に LBR を構成する方法を決定するために、Contoso は[ダイレクトルーティング用の位置情報に基づくルーティングを](location-based-routing-plan.md)参照します。 Contoso は、Skype for Business が通話の発信元として、着信可能なときには、PSTN 通話を Teams ユーザーに転送でき、別の Teams ユーザーを PSTN 通話に移行できるようになったときに、同じシナリオに従っていることを確認しました。  
+この国では、Contoso は LBR を新しいデプロイ用にSkype for Businessしました。 ルーティング用に LBR を構成する方法を確認Teams Contoso は、「直接ルーティングの[ルーティングの計画Location-Based」を参照してください](location-based-routing-plan.md)。 contoso は、Teams と Skype for Business は、通話を発信できる状況、通話を受信できる時間、PSTN 通話を Teams ユーザーに転送できる場合、および別の Teams ユーザーを PSTN 通話に転送できる場合に、同じシナリオに従う必要があります。  
 
-Skype for Business については、「セッションボーダーコントローラー (SBC) SIP トランクで PSTN キャリアに接続する」を使用して LBR を構成しました。 この SBC では、Contoso は認定された[SBCs のリスト](direct-routing-border-controllers.md)を確認しました。 SBC は、ダイレクトルーティングが認定されているが、メディアのバイパスは認められていないことがわかりました。 LBR をサポートするには、直接ルーティングが SBC オンサイトに設定されている必要があります。そのためには、ローカルのインターネット出口が必要であり、SBC はメディアバイパス用に構成されている必要があります。 この情報に基づいて、Contoso は以下を決定しました。
+たとえばSkype for Business、PSTN 通信事業者に接続するセッション ボーダー コントローラー (SBC) SIP トランクを使用して LBR が構成されています。 この SBC について、Contoso は認定された [SBC](direct-routing-border-controllers.md) の一覧を確認し、デプロイされた SBC がダイレクト ルーティングの認定を受けたが、メディア バイパスの認定を受け取っていないと判断しました。 LBR をサポートするには、直接ルーティングをオンサイトの SBC に構成し、ローカルインターネットエグレスが必要であり、SBC をメディア バイパス用に構成する必要があります。 この情報に基づいて、Contoso は次の決定を行いました。
 
-- 既存の SBC がメディアバイパスに対して認定されるまで、Teams の有効化を延期します。   
+- 既存の SBC がメディア バイパスの認定Teams LBR の有効化を遅らせた場合。   
 
-- Contoso は、Office 365 への直接ルートとして、メインサイト SBC の使用を決定しました。  メインサイトの SBC は、リモートサイト用のプロキシとして使用されます。  
+- Contoso は、メイン サイト SBC を使用して直接ルートを使用Office 365。  メイン サイト SBC は、リモート サイトのプロキシ SBC です。  
 
-- Contoso は、インドに基づくサードパーティコンサルタントを使用して、国内のテレフォニー会社での LBR 構成の認定を支援しました。  
+- Contoso は、インドに拠点を置くサード パーティのコンサルタントを使用して、国のテレフォニー会社との LBR 構成の認定を支援しました。  
 
-- Office の外部で PSTN 通話を行うことができるようにするため、会社が発行した携帯電話は従業員に提供されました。 
+- PSTN 通話を発信するためにオフィスの外部から作業しているユーザーをサポートするために、会社が発行した携帯電話が従業員に提供されました。 
 
-次の図は、場所に基づくルーティングが必要なテレフォニーの規則を使用している国の前と後の展開を示しています。
+次の図は、ルーティングを必要とするテレフォニー規制が適用された国の展開の前と後Location-Based示しています。
 
-**元の展開**
+**元のデプロイ**
 
-![以前の状態を示す図](media/voice-case-study-5.png)
+![状態の前を示す図](media/voice-case-study-5.png)
 
-**ダイレクトルーティングを使用した展開**
+**直接ルーティングを使用したデプロイ**
 
-![以前の状態を示す図](media/voice-case-study-6.png)
+![状態の前を示す図](media/voice-case-study-6.png)
 
 
-## <a name="configuration"></a>構成 
+## <a name="configuration"></a>構成: 
 
-Teams のネットワークコンポーネントを構成するには、「[クラウド音声機能のネットワークトポロジを管理](manage-your-network-topology.md)する」の手順に従ってください。 Contoso は、次の手順を完了して、位置情報に基づくルーティングを構成しました。 
+Teams でネットワーク コンポーネントを構成するために、Contoso は「クラウド音声機能のネットワーク トポロジを管理する」の[手順に従いました](manage-your-network-topology.md)。 Contoso は、次の手順を完了して、ルーティングをLocation-Basedしました。 
 
-- ネットワーク領域の定義-1 つのネットワークリージョンが定義されました。 
+- [ネットワーク リージョンの定義] - 1 つのネットワーク リージョンが定義されています。 
 
-- ネットワークサイトを定義します。2つのネットワークサイトが定義されています。 地域内のオフィスの場所ごとに1つのサイト。
+- ネットワーク サイトの定義 - 2 つのネットワーク サイトが定義されています。 地域内のオフィスの場所ごとに 1 つのサイト。
 
-- ネットワークサブネットを定義する-オフィス内の各フロアには、有線およびワイヤレスネットワーク用の独自のサブネットがあります。 この構成により、Contoso に20個のサブネットが生まれました。 
+- ネットワーク サブネットの定義 - オフィスの場所内の各フロアには、有線ネットワークとワイヤレス ネットワーク用の独自のサブネットがあります。 この構成により、Contoso のサブネットは 20 になります。 
 
-- 信頼できる IP アドレスを定義する-SBC の外部の IP アドレスが、信頼できる IP アドレスに追加されました。  
+- 信頼できる IP アドレスの定義 - SBC の外部に接続する IP アドレスが信頼済み IP アドレスに追加されました。  
 

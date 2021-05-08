@@ -1,5 +1,5 @@
 ---
-title: オンライン電話システムのロールアウト用のユーザー通知メール テンプレート
+title: オンライン電話システムロールアウト用のユーザー通知メール テンプレート
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Teams または Skype for Business でクラウド音声機能を実装する場合は、テンプレートを使用してユーザーにメールを送信します。
+description: テンプレートを使用して、クラウドの音声機能を Teams または Skype for Business に実装する場合に、ユーザーにメールを送信します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -25,9 +25,9 @@ ms.locfileid: "49812647"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>新しいオンライン電話システムのユーザー導入を促進する
 
-電話はユーザーのライフラインです。 従来の電話システムからオンライン電話システムへの切り替えは、ユーザーの作業方法の大きな変化を表し、生産性に悪影響を与える可能性があります。 この変更を通じてユーザーへの情報提供、ガイド、サポートに時間を割いて取り組むのは、ユーザー エクスペリエンスの向上と投資収益の最大化に役立ちます。
+電話はユーザーのライフラインです。 従来の電話システムからオンライン電話システムへの切り替えは、ユーザーの作業方法の大きな変化を表し、生産性に悪影響を及ぼす可能性があります。 この変更を通じてユーザーに通知、ガイド、サポートを行う時間を取って、ユーザー エクスペリエンスを肯定的にし、投資収益を最大化するのに役立ちます。
 
-この記事には、新しい電話システムについてユーザーに知らせるのに役立つカスタマイズ可能なメール テンプレートが含まれている。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 個人用設定を簡単にするセクションを示すために角かっこを使用しましたが、お知らせをユーザーに最も関連性の高いものにするために、組織固有のメッセージングを追加することをお勧めします。 展開に該当する場合は、"Teams" へのすべての参照を "Skype for Business" に置き換えます。
+この記事には、新しい電話システムについてユーザーに知らせるのに役立つカスタマイズ可能なメール テンプレートが含まれている。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 個人用設定を簡単に行うセクションを示すために角かっこを使用しましたが、お知らせをユーザーに最も関連性の高いものにするために、組織固有のメッセージングを追加することをお勧めします。 デプロイに該当する場合は、すべての参照を "Teams" に置き換Skype for Business。
 
 ## <a name="email-number-1-send-three-weeks-before-launch"></a>メール番号 1: 起動の 3 週間前に送信する
 
@@ -138,7 +138,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER>
 ```
 
-## <a name="email-number-3-send-on-launch-day"></a>メール番号 3: 開始日に送信する
+## <a name="email-number-3-send-on-launch-day"></a>メール番号 3: 発売日に送信する
 
 件名行: 
 
@@ -175,7 +175,7 @@ Regards,
 <INSERT NAME OF DEPARTMENT MANAGER OR EXECUTIVE SPONSOR>
 ```
 
-## <a name="email-number-4-send-two-weeks-after-launch"></a>メール番号 4: 起動から 2 週間後に送信する
+## <a name="email-number-4-send-two-weeks-after-launch"></a>電子メール番号 4: 起動後 2 週間後に送信する
 
 件名行: 
 

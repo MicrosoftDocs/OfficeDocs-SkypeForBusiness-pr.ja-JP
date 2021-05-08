@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Microsoft 365 または Office 365 で通話プランを使用している場合は、これらのラベルをダウンロードして、緊急通話のために印刷することができます。
+description: これらのラベルは、通話プランを使用している場合に、緊急通話用にダウンロードして印刷Microsoft 365またはOffice 365。
 ms.openlocfilehash: 30286acb1d1b91f52287d50eab7a72d7efe94915
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT

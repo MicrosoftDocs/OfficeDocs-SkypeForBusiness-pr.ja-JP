@@ -1,13 +1,13 @@
 ---
-title: Skype for Business から Teams にアップグレードする場合の PSTN に関する考慮事項
-author: msdmaguire
-ms.author: dmaguire
+title: PSTN にアップグレードする際の考慮事項 TeamsからSkype for Business
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Skype for Business から Teams にアップグレードする場合の音声に関する考慮事項
+description: Skype for Business から Teams へのアップグレードに関する音声Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,17 +17,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72a12cf1dbcb69af7b71bf259568e4a53d1a3a33
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c9a454b3c23074a1ab7a750e8d282e9a562257eb
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115545"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282354"
 ---
-# <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>オンプレミスの Skype for Business から Teams にアップグレードする場合の PSTN に関する考慮事項
+# <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>オンプレミスからオンプレミスへのアップグレードにTeams PSTN Skype for Business関する考慮事項
 
-この記事では、Teams にアップグレードする際の公衆交換電話網 (PSTN) に関する考慮事項について説明します。   
+この記事では、PSTN (公衆交換電話網) にアップグレードする際の考慮事項について説明Teams。
 
+[!INCLUDE [sfbo-retirement-skype](../Skype/Hub/includes/sfbo-retirement.md)]
 
 さらに、次の記事では、アップグレードの重要な概念と共存動作について説明します。
 
@@ -37,20 +38,20 @@ ms.locfileid: "51115545"
 
 
  > [!NOTE]
- > - Teams での電話システムの使用は、ユーザーが TeamsOnly モードの場合にのみサポートされます。  ユーザーがアイランド モードの場合、電話システムは Skype for Business でのみサポートされます。 
- > - Skype for Business からの呼び出しの転送、チーム呼び出しグループ、委任の設定は移行されないので、Teams 用に再作成する必要があります。
- > - Microsoft Teams クラウド音声機能の概要と、組織に最適な Microsoft 音声ソリューションの決定に役立つ情報については [、「Teams](cloud-voice-landing-page.md)音声ソリューションを計画する」を参照してください。
+ > - ユーザー電話システムでのTeamsは、ユーザーが TeamsOnly モードの場合にのみサポートされます。  ユーザーがアイランド モードの場合、電話システムは Skype for Business でのみサポートされます。 
+ > - Skype for Business からの呼び出しの転送、チーム呼び出しグループ、委任の設定は移行されません。また、Teams 用に再作成する必要があります。
+ > - クラウド音声機能のMicrosoft Teams概要と、組織に最適な Microsoft 音声ソリューションの決定に役立つ情報については、「音声ソリューションを計画する」をTeams[してください](cloud-voice-landing-page.md)。
 
 
-## <a name="pstn-calling-scenarios"></a>PSTN 通話のシナリオ
+## <a name="pstn-calling-scenarios"></a>PSTN 通話シナリオ
 
 TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリオが考えられます。
 
 - [Microsoft 通話プランを使用している Skype for Business Online のユーザー](#from-skype-for-business-online-with-microsoft-calling-plans)。 アップグレードすると、このユーザーは Microsoft 通話プランを引き続き使用します。
 
-- [Skype for Business Online のユーザー](#from-skype-for-business-online-with-on-premises-voice) で、オンプレミスの Skype for Business または Cloud Connector Edition を介して、オンプレミスの音声機能を使用します。 このユーザーの Teams へのアップグレードは、その TeamsOnly ユーザーが確実に PSTN 機能を持てるようにするため、ユーザーのダイレクト ルーティングへの移行に合わせた調整が必要になります。
+- [Skype for Business Online のユーザー](#from-skype-for-business-online-with-on-premises-voice) 。オンプレミスまたは Cloud Connector Edition Skype for Business音声機能を使用します。 このユーザーの Teams へのアップグレードは、その TeamsOnly ユーザーが確実に PSTN 機能を持てるようにするため、ユーザーのダイレクト ルーティングへの移行に合わせた調整が必要になります。
 
-- [オンプレミスの Skype for Business](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)でオンラインに移行しエンタープライズ VoIPオンプレミス PSTN 接続を維持するユーザー。  このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行をそのユーザーのダイレクト ルーティングへの移行に合わせて調整する必要があります。 
+- [オンプレミスで Skype for Business](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)を使用するユーザーエンタープライズ VoIPオンラインに移行し、オンプレミスの PSTN 接続を維持します。  このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行をそのユーザーのダイレクト ルーティングへの移行に合わせて調整する必要があります。 
 
 - [エンタープライズ VoIP を使用している Skype for Business オンプレミスのユーザー](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)のうち、オンラインに移行して、Microsoft 通話プランを使用するユーザー。  このユーザーを Teams に移行するには、そのユーザーのオンプレミスの Skype for Business アカウントをクラウドに移行し、移行を A) Microsoft 通話プランへのユーザーの電話番号のポートに合わせて調整するか、B) 利用可能な地域から新しいサブスクライバー番号を割り当てる必要があります。
 
@@ -60,7 +61,7 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
 これは、音声が関係する最も簡単なアップグレード シナリオです。 
 
-1. ユーザーに Teams ライセンスが割り当てられていることを確認します。 既定では、Microsoft 365 または Office 365 ライセンスを割り当てると、Teams は有効になっているので、Teams のライセンスを以前に無効にしない限り、何もする必要はありません。
+1. ユーザーに Teams ライセンスが割り当てられていることを確認します。 既定では、Microsoft 365 または Office 365 ライセンスを割り当てると、Teams が有効になります。そのため、以前に Teams ライセンスを無効にしない限り、アクションは必要ありません。
 
 2.  ユーザーが既に電話番号を指定して Microsoft 通話プランを使用している場合に必要な変更は、そのユーザーに TeamsUpgradePolicy で TeamsOnly モードを割り当てることのみです。  TeamsOnly モードを割り当てる前は、着信 PSTN 通話はユーザーの Skype for Business クライアントに配信されます。 TeamsOnly モードにアップグレードすると、着信 PSTN 通話はユーザーの Teams クライアントに配信されます。  
 
@@ -82,7 +83,7 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
 5. これらのステップは相互に合うように調整する必要があります。 
 
-   - Microsoft 365 または Office 365 では、ユーザーを TeamsOnly モード (Grant-CsTeamsUpgradePolicy) にアップグレードします。
+   - このMicrosoft 365またはOffice 365、ユーザーを TeamsOnly モード (Grant-CsTeamsUpgradePolicy) にアップグレードします。
    - SBC で、通話をオンプレミスの仲介サーバーではなくダイレクト ルーティングに送信することにより、音声ルーティングが着信通話を許可するように構成します。
 
 
@@ -100,7 +101,7 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
 4. 必要に応じて、これらのユーザーに対してさまざまな Teams ポリシーを構成します (TeamsMessagingPolicy や TeamsMeetingPolicy など)。 この操作はいつでも行えますが、ユーザーをアップグレードした時にユーザーが確実に正しく構成されているようにするには、ユーザーを TeamsOnly アップグレードする前にこれを行なっておくのが最善です。
 
-5. 必要に応じて、Microsoft 365 または Office 365 ライセンスを割り当てる。  ユーザーは、電話システムに加えて、Teams と Skype for Business Online プラン 2 の両方が必要です。 Skype for Business Online プラン 2 が無効になっている場合は、もう一度有効にします。  
+5. 必要に応じてMicrosoft 365またはOffice 365ライセンスを割り当てる。  ユーザーは、電話システムに加えて、Teams と Skype for Business Online プラン 2 の両方が必要です。 Skype for Business Online プラン 2 が無効になっている場合は、もう一度有効にします。  
 
 6. これらのステップは相互に合うように調整する必要があります。 
 
@@ -108,7 +109,7 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
    - SBC で、通話をオンプレミスの仲介サーバーではなくダイレクト ルーティングに送信することにより、音声ルーティングが着信通話を許可するように構成します。 
 
-   - Microsoft 365 または Office 365 の場合: 関連する OnlineVoiceRoutingPolicy を割り当て、発信通話を有効にする。 
+   - [Microsoft 365またはOffice 365: 関連する OnlineVoiceRoutingPolicy を割り当て、発信呼び出しを有効にする。 
 
 
 ## <a name="from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan"></a>エンタープライズ VoIP を使用している Skype for Business Server オンプレミスから Microsoft 通話プランに移行する場合
@@ -123,7 +124,7 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
 3. 必要に応じて、これらのユーザーに対してさまざまな Teams ポリシーを構成します (TeamsMessagingPolicy や TeamsMeetingPolicy など)。 この操作はいつでも行えますが、ユーザーをアップグレードした時にユーザーが確実に正しく構成されているようにするには、ユーザーを TeamsOnly アップグレードする前にこれを行なっておくのが最善です。 
 
-4. 必要に応じて、Microsoft 365 または Office 365 ライセンスを割り当てる。ユーザーは、電話システムに加えて、Teams と Skype for Business Online プラン 2 の両方が必要です。 Skype for Business Online プラン 2 が無効になっている場合は、もう一度有効にします。  
+4. 必要に応じてMicrosoft 365またはOffice 365ライセンスを割り当てる。ユーザーは、電話システムに加えて、Teams と Skype for Business Online プラン 2 の両方が必要です。 Skype for Business Online プラン 2 が無効になっている場合は、もう一度有効にします。  
 
 5. ユーザーの電話番号を取得します。 (詳細については、「[組織の電話番号を管理する](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください)。
 
@@ -134,7 +135,7 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
     - 番号を Microsoft に移植する場合は、この操作のタイミングを調整して、ポートが発生するときに発生するようにする必要があります。 
 
-    - Microsoft から新しい番号を取得して使用する場合は、そのユーザーの LineUri を変更することが必要になります。 これは、ユーザーが Set-CsOnlineVoiceUser を使用してオンラインに移動した後に実行する必要があります。  
+    - Microsoft から新しい番号を取得して使用する場合は、そのユーザーの LineUri を変更することが必要になります。 これは、ユーザーが Set-CsOnlineVoiceUser を使用してオンラインに移動された後に行う必要があります。  
 
 ## <a name="summary-of-per-tenant-configuration-of-direct-routing"></a>ダイレクト ルーティングのテナントごとの構成の概要 
 
@@ -163,7 +164,7 @@ TeamsOnly モードに移行する場合、次の 4 つの呼び出しシナリ�
 
 ## <a name="related-links"></a>関連リンク
 
-[Teams の音声ソリューションを計画する](cloud-voice-landing-page.md)
+[音声ソリューションTeams計画する](cloud-voice-landing-page.md)
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md) 
 

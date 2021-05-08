@@ -20,42 +20,44 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'ユーザーにダイヤルイン会議ライセンスと会議 ID を割り当てる手順については、Skype for Business Online の手順と、その他の多くのダイヤルイン会議設定を参照してください。 '
-ms.openlocfilehash: eb0212bcd7c03fac619efa2749a8308097f75505
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '「Skype for Businessオンラインの手順」を参照して、ダイヤルイン会議ライセンスと会議 ID をユーザーに割り当て、その他の多くのダイヤルイン会議設定を割り当てる必要があります。 '
+ms.openlocfilehash: 3a0f6d37612c345c8561fbd2a64b4c90fdb27957
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114233"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52237249"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Skype for Business Online で組織の電話会議の設定を管理する
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 > Teams でこれらの設定を管理する場合は、[Microsoft Teams で組織の電話会議の設定を管理する](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) を参照してください。
 
-Skype for Business のすべての電話会議設定を 1 か所で表示する方が簡単な場合があります。
+すべての電話会議の設定を 1 か所でSkype for Business表示する方が簡単な場合があります。
 
 
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> To assign a license for a user Microsoft 365 管理センターを使用する必要があります。 「Skype [for Business ライセンスを割り当てる」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+> To assign a license for a user 管理センターで Microsoft 365する必要があります。 「ライセンスを[割りSkype for Businessする」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
  **ユーザーにライセンスを割り当てる**
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. 管理センターの左側のナビゲーションで、[アクティブなユーザー ] に移動し、使用可能なユーザーの一覧からユーザー  >  を選択します。
+2. 管理センターの左側のナビゲーションで、[ユーザーのアクティブなユーザー] に移動し、使用可能なユーザーの一覧からユーザー  >  またはユーザーを選択します。
 
     > [!NOTE]
-    > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。 また、Windows PowerShell を使用して複数のユーザーにライセンスを割り当てできます。 手順とサンプルの PowerShell スクリプトについては、「Skype for Business ライセンスを割り当 [てる」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+    > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 操作ウィンドウの [ **製品ライセンス**] で [ **編集**] をクリックします。 PowerShell で複数のユーザーにライセンスを割り当Windowsできます。 PowerShell スクリプトの手順とサンプルについては、ライセンスの割り当て[に関するSkype for Business参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
 3. [操作] ウィンドウの [**製品ライセンス**] で [**編集**] をクリックします。
 
-4. [製品ライセンス **] ページで** 電話会議を **有効** にし、[保存] をクリック **します**。 ライセンスの詳細については、「Skype for Business アドオン のライセンス [」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+4. [製品ライセンス **] ページで** 、[電話会議] **をオンにし** 、[保存] を **クリックします**。 ライセンスの詳細については[、「Skype for Business」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
 > [!NOTE]
-> ライセンスを割り当てると、Microsoft が電話会議プロバイダーとして最初にリストに表示されない場合があります。 この場合は、管理センターからログアウトするか、Ctrl キーを押しながら F5 キーを押してブラウザー ウィンドウを更新します。
+> ライセンスを割り当てると、最初に Microsoft が電話会議プロバイダーとしてリストに表示されない場合があります。 この場合は、管理センターからログアウトするか、Ctrl キーを押しながら F5 キーを押してブラウザー ウィンドウを更新します。
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>電話会議ユーザーに送信されたメールを有効または無効にする
 
@@ -63,7 +65,7 @@ Skype for Business のすべての電話会議設定を 1 か所で表示する�
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. **Skype for Business** の管理センター>移動し、左側のナビゲーションで [電話会議]**をクリックします**。
+2. 管理センターに移動し **> Skype for Business** のナビゲーションで、[電話会議]**をクリックします**。
 
 3. 電話会議の設定を使用してユーザーにメールを送信することもできます。これには、ユーザーの電話会議プロパティに移動して、[ **電話会議情報をメールで送信**] をクリックします。
 
@@ -88,7 +90,7 @@ Skype for Business のすべての電話会議設定を 1 か所で表示する�
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>You can also use the Windows PowerShell and run:
 
-実際のメール アドレスや送信者の連絡先情報の表示名など、ユーザーに自動的に送信されるメールを変更できます。 既定では、メールの送信者は Microsoft 365 または Office 365 ですが、Windows PowerShell と [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) コマンドレットを使用してメール アドレスと表示名を変更できます。 ユーザーにメールを送信するメール アドレスを変更するには、次の必要があります。
+実際のメール アドレスや送信者の連絡先情報の表示名など、ユーザーに自動的に送信されるメールを変更できます。 既定では、メールの送信者は Microsoft 365 または Office 365 ですが、Windows PowerShell コマンドレットと[Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps)コマンドレットを使用して、メール アドレスと表示名を変更できます。 ユーザーにメールを送信するメール アドレスを変更するには、次の条件を実行する必要があります。
 
 - Enter the email display name in the  _SendEmailFromDisplayName_ parameter.
 
@@ -112,7 +114,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. Skype for Business の管理> **に移動します**。
+2. [管理センター] に移動 **> Skype for Business。**
 
 3. In the ** Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID if sending email to your users is enabled. It's enabled by default.
 
@@ -125,12 +127,12 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="reset-a-conference-organizers-pin"></a>会議通話の開催者の PIN をリセットする
 
-ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。 会議通話 ID は自動的に作成されユーザーに割り当てられますが、ユーザーは使わないため特定の番号に設定しようと考える場合や、ユーザーが会議通話 ID を覚えられない、または紛失してしまう場合があります。 Skype for Business 管理センターを使用して、Windows PowerShell ID の表示、変更、リセットを行えます。
+ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。 会議通話 ID は自動的に作成されユーザーに割り当てられますが、ユーザーは使わないため特定の番号に設定しようと考える場合や、ユーザーが会議通話 ID を覚えられない、または紛失してしまう場合があります。 管理者センターと Skype for Businessを使用してWindows PowerShell ID の表示、変更、リセットを行えます。
 
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. **Skype for Business** の管理センター>移動し、左側のナビゲーションで [電話会議]**をクリックします**。
+2. 管理センターに移動し **> Skype for Business** のナビゲーションで、[電話会議]**をクリックします**。
 
 3. 管理者は、ユーザーに PIN を手動で送信する必要があります。
 
@@ -144,7 +146,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. **Skype for Business** の管理センター>移動し、左側のナビゲーションで [電話会議]**をクリックします**。
+2. 管理センターに移動し **> Skype for Business** のナビゲーションで、[電話会議]**をクリックします**。
 
 3. Go to the Office 365 admin centerSkype for Business and in the left navigation click Dial-in conferencing
 
@@ -159,9 +161,9 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. Skype for Business の管理> **に移動します**。
+2. [管理センター] に移動 **> Skype for Business。**
 
-3. 左側のナビゲーションで、[電話会議ユーザー **] に移動**  >  **します**。 電話会議を有効にするユーザーを選択します。
+3. 左側のナビゲーションで、[電話会議ユーザー **] に移動**  >  **します**。 電話会議で有効にするユーザーを選択します。
 
 4. [操作] ウィンドウで、[**有料番号**] を、また許可されている場合は [**無料番号**] も設定することができます。
 
@@ -177,7 +179,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. Skype for Business の管理> **に移動します**。
+2. [管理センター] に移動 **> Skype for Business。**
 
 3. Go to the **Office 365 admin center** > .
 
@@ -185,7 +187,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
    - **Enable meeting entry and exit notifications to be turned on** This is selected by default. However if you uncheck it, users that have already joined the meeting by default won't be notified when someone enters or leaves the meeting.
 
-     これは、ユーザーが Skype for Business アプリを使用して会議に参加し、ユーザーが会議の [Skype 会議オプション] メニューの [入退出時にアナウンス] 設定を変更するときに、会議単位で設定できます。
+     これは、ユーザーが Skype for Business アプリを使用して会議に参加し、ユーザーが会議の [Skype 会議オプション] メニューの[入退出時に発表する] 設定を変更するときに、会議単位で設定できます。
 
    - 「**電話会議ブリッジの設定を変更する**」をご覧ください。
 
@@ -197,7 +199,7 @@ Go to the Office 365 admin centerSkype for Business.[](/MicrosoftTeams/change-th
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. Skype for Business の管理> **に移動します**。
+2. [管理センター] に移動 **> Skype for Business。**
 
 3. 既定値は 5 です。 > 
 
@@ -211,7 +213,7 @@ Go to the Office 365 admin centerSkype for Business.[](/MicrosoftTeams/change-th
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. **Skype for Business** の管理センター>移動し、左側のナビゲーションで [電話会議]**をクリックします**。
+2. 管理センターに移動し **> Skype for Business** のナビゲーションで、[電話会議]**をクリックします**。
 
 3. 電話会議の設定を使用してユーザーにメールを送信することもできます。これには、ユーザーの電話会議プロパティに移動して、[ **電話会議情報をメールで送信**] をクリックします。
 
@@ -228,7 +230,7 @@ Go to the Office 365 admin centerSkype for Business.[](/MicrosoftTeams/change-th
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. Skype for Business の管理> **に移動します**。
+2. [管理センター] に移動 **> Skype for Business。**
 
 3. Go to the **Office 365 admin center****Skype for Business**.
 
@@ -242,11 +244,11 @@ You can also set the primary and secondary languages that are supported when you
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. Skype for Business の管理> **に移動します**。
+2. [管理センター] に移動 **> Skype for Business。**
  
-3. Skype **for Business 管理センターの** 左側のナビゲーションで、電話会議 Microsoft Bridge **に**  >  **移動します**。 ここでは、
+3. 職場または学校のアカウントを使用して、Office 365 にサインインします。 > 
 
-   - 電話会議に使用する Microsoft 365 または Office 365 によって設定された電話番号を表示します。
+   - 電話会議に使用する電話番号またはMicrosoft 365またはOffice 365電話番号を表示します。
 
    - 場所を表示したり、電話会議の自動応答で使用する第 1 言語と第 2 言語を表示したりする。
 
@@ -260,7 +262,7 @@ You can select the dial-in conferencing default phone number that will be given 
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. Skype for Business の管理> **に移動します**。
+2. [管理センター] に移動 **> Skype for Business。**
 
 3. 職場または学校のアカウントを使用して、Office 365 にサインインします。
 
@@ -315,13 +317,13 @@ Windows PowerShell を使用して組織レベルで管理できる複数の設�
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell を使い始めるには、次のトピックを参照してください。
-- Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell を使用すると、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する必要があるときに日常業務を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365またはOffice 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
-  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell で使用する必要があるMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [Microsoft 365 または Office 365 を管理するための最適Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-- Windows PowerShellは、一度に多くのユーザーに設定を変更する場合など、管理センターのみを使用する場合と同様に、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。
+- Windows PowerShell、多くのユーザーに対して一度に設定を変更する場合など、管理センターを使用する場合に限り、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。
 
   - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 

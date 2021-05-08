@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: このトピックでは、Teams からセッションボーダーコントローラー (SBC) への発信通話に対するトランクのフェイルオーバーを処理する方法について説明します。
+description: このトピックでは、セッション ボーダー コントローラー (SBC) への Teamsのトランク フェールオーバーを処理する方法について説明します。
 ms.openlocfilehash: c88394cba0a98316ac272901a6ab2972e9eaf3c8
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
@@ -25,34 +25,34 @@ ms.locfileid: "41836179"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>発信通話でのトランクのフェイルオーバー
 
-このトピックでは、チームからセッションボーダーコントローラー (SBC) への、トランクのフェイルオーバーを回避する方法について説明します。
+このトピックでは、発信呼び出し (セッション ボーダー コントローラー (SBC) Teamsのトランク フェールオーバーを回避する方法について説明します。
 
-## <a name="failover-on-network-errors"></a>ネットワークエラーへのフェールオーバー
+## <a name="failover-on-network-errors"></a>ネットワーク エラーでのフェールオーバー
 
-何らかの理由でトランクが接続できない場合、同じトランクへの接続は、別の Microsoft データセンターから試みられます。 接続が拒否された場合や、TLS タイムアウトがある場合、または他のネットワークレベルの問題が発生した場合など、トランクが接続されていない可能性があります。
-たとえば、管理者が、既知の IP アドレスからの SBC のみへのアクセスを制限したが、SBC のアクセス制御リスト (ACL) にすべての Microsoft ダイレクトルーティングデータセンターの IP アドレスを指定していない場合、接続が失敗する可能性があります。 
+何らかの理由でトランクを接続できない場合、同じトランクへの接続は別の Microsoft データセンターから試されます。 たとえば、接続が拒否された場合、TLS タイムアウトがある場合、その他のネットワーク レベルの問題がある場合など、トランクが接続されていない可能性があります。
+たとえば、管理者が既知の IP アドレスからのみ SBC へのアクセスを制限し、すべての Microsoft ダイレクト ルーティング データセンターの IP アドレスを SBC のアクセス制御リスト (ACL) に配置することを忘れた場合、接続が失敗することがあります。 
 
-## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>セッションボーダーコントローラー (SBC) から受信した特定の SIP コードのフェイルオーバー
+## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>セッション ボーダー コントローラー (SBC) から受信した特定の SIP コードのフェールオーバー
 
-直接ルーティングが、発信した招待に応答して4xx または 6xx SIP のエラーコードを受信した場合、通話は既定で完了したと見なされます。 [発信] は、チームクライアントから公衆交換電話網 (PSTN) への通話であり、次のトラフィックフローが含まれます。 Teams クライアント-> ダイレクトルーティング-> SBC-> テレフォニーネットワーク。
+ダイレクト ルーティングが送信招待に応答して 4xx または 6xx の SIP エラー コードを受信した場合、呼び出しは既定で完了したと見なされます。 送信とは、Teams クライアントから公衆交換電話網 (PSTN) への通話を意味し、トラフィック フローは Teams Client -> Direct Routing -> SBC -> Telephoney ネットワークです。
 
-SIP コードの一覧は、[セッション開始プロトコル (SIP) RFC](https://tools.ietf.org/html/rfc3261)に記載されています。
+SIP コードの一覧は、セッション開始プロトコル [(SIP) RFC に記載されています](https://tools.ietf.org/html/rfc3261)。
 
-"408 要求がタイムアウトしました。" というコードの着信招待に対して SBC が返信した場合、サーバーはユーザーの場所を特定できなかったなど、適切な時間内に応答を作成できませんでした。 クライアントは、後で変更せずに要求を繰り返すことがあります。 "
+SBC が"408 Request Timeout: The server could not produce a response within a suitable of time, if it not determine the location of the user in time. (408 要求タイムアウト: サーバーが適切な時間内に応答を生成できない場合など)、受信した招待に対して SBC が応答した場合を想定します。 クライアントは、後で変更なしで要求を繰り返す場合があります。"
 
-この特定の SBC は、呼び出し元への接続で問題が発生している可能性があります。これは、ネットワークの構成の誤りやエラーなどが原因です。 ただし、ルートにはもう1つの SBC があります。これは、呼び出し元に連絡できる可能性があります。
+この特定の SBC では、ネットワークの構成ミスや他のエラーが原因で、呼び出し先への接続に問題がある可能性があります。 ただし、呼び出し先に到達できる可能性がある SBC がルートに 1 つ追加されます。
 
-次の図では、ユーザーが電話番号に通話を発信すると、そのルートに2つの SBCs が含まれていて、この通話が行われる可能性があります。 最初に、通話に SBC1.contoso.com が選択されていますが、ネットワークの問題のため、SBC1.contoso.com は PTSN ネットワークに接続できません。
-既定では、通話は現在完了しています。 
+次の図では、ユーザーが電話番号に通話を行った場合、この通話を配信できる可能性のある 2 つの SBC がルートに含まれます。 最初に SBC1.contoso.com が選択されますが、SBC1.contoso.com の問題により、PTSN ネットワークに到達できない場合があります。
+既定では、この時点で呼び出しが完了します。 
  
-![ネットワークの問題のため、SBC に接続できないことを示す図](media/direct-routing-failover-response-codes1.png)
+![ネットワークの問題が原因で SBC が PSTN に到達できない状態を示す図](media/direct-routing-failover-response-codes1.png)
 
-ただし、ルートにはさらに、通話を発信できる SBC が1つ追加されています。
-パラメーター `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`を構成する場合、2つ目の SBC は次の図の SBC2.contoso.com で試行されます。
+ただし、ルートには、呼び出しを配信できる SBC がもう 1 つある可能性があります。
+パラメーター を構成すると、2 つ目の SBC が試み `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"` SBC2.contoso.com 図のようになります。
 
-![第2の SBC へのルーティングを示す図](media/direct-routing-failover-response-codes2.png)
+![第 2 の SBC へのルーティングを示す図](media/direct-routing-failover-response-codes2.png)
 
-FailoverResponseCodes を設定してコードを指定すると、ネットワークやその他の問題が原因で、SBC が通話を発信できない場合に、ルーティングを微調整し、潜在的な問題を回避することができます。
+-FailoverResponseCodes パラメーターを設定し、コードを指定すると、ルーティングを微調整し、SBC がネットワークなどの問題のために呼び出しを行えなくなる場合の潜在的な問題を回避するのに役立ちます。
 
 既定値: 408、503、504
 

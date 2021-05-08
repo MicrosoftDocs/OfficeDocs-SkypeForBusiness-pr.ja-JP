@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 ビジネスボイスと Microsoft Teams のパートナーリソース
+title: Microsoft 365 Business VoiceリソースMicrosoft Teamsとリソースの管理
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -24,19 +24,19 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 02/08/2020
 ms.locfileid: "41862847"
 ---
-# <a name="microsoft-365-business-voice-partner-resources"></a>Microsoft 365 ビジネスボイスパートナーリソース
+# <a name="microsoft-365-business-voice-partner-resources"></a>Microsoft 365 Business Voice リソースを追加する
 
-Microsoft 365 ビジネスボイスの展開とサポートについては、この記事を参照してください。 この記事では、ビジネスの音声と通話に重点を置いています。
+この記事を使用して、デプロイとサポートを行Microsoft 365 Business Voice。 この記事では、Business Voice と通話について重点的に取り上っています。
 
-ビジネス Voip を展開する前に、Microsoft Teams の展開とサポートの基礎を持っている必要があります。
+Business Voice をデプロイする前に、デプロイとサポートの基盤が必要Microsoft Teams。
 
-この記事では、ビジネス用のボイスを初めて利用する技術のデリバリとサポート担当者向けの簡潔なリソースを紹介します。 これらのリソースを使って、展開とサポートの基礎など、ビジネス用ボイスの知識をさらに広げます。
+この記事は、Business Voice を初めから使用する技術配信およびサポート担当者向け簡潔なリソースです。 これらのリソースを使用して、デプロイとサポートの基礎など、Business Voice に関する知識を拡張します。
 
-- [チームの実践的なガイダンス](../cloud-voice-landing-page.md)
+- [Teamsガイダンス](../cloud-voice-landing-page.md)
 - [事前評価と計画](../3-envision-evaluate-my-environment.md)
 - [展開](../3-onboard-deploy-my-service.md)
-- [操縦](../1-drive-value-operate-my-service.md)
+- [操作](../1-drive-value-operate-my-service.md)
 - [Support](../prepare-network.md)
 - [トラブルシューティング](../connectivity-issues.md)
-- [パートナーサポートプラン](https://partner.microsoft.com/support/partnersupport)
-- [Teams サービスプロバイダガイド](https://aka.ms/teamsserviceproviderguide)
+- [パートナー サポート プラン](https://partner.microsoft.com/support/partnersupport)
+- [Teams プロバイダー ガイド](https://aka.ms/teamsserviceproviderguide)

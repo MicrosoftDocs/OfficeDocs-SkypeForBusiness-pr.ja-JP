@@ -14,7 +14,7 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Teams の Cloud Voice で組織に最適なサービスを提供する Microsoft 電話システム通話プランを決定します。
+description: 組織が Microsoft 電話 Cloud Voice で最適なサービスを提供するシステム呼び出しプランを決定Teams。
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
@@ -36,8 +36,8 @@ ms.locfileid: "51102733"
 
 Microsoft 通話プランの展開と使用の詳細については、次の記事をご覧ください。
 
-- [Microsoft 365 または Office 365 の電話システム](what-is-phone-system-in-office-365.md)
-- [Microsoft 365 または Office 365 の通話プラン](calling-plans-for-office-365.md)
+- [電話システム または Microsoft 365 でOffice 365](what-is-phone-system-in-office-365.md)
+- [通話プラン (Microsoft 365 または Office 365](calling-plans-for-office-365.md)
 - [通話プランの設定](set-up-calling-plans.md)
 
 
@@ -53,19 +53,19 @@ Microsoft をテレフォニー通信事業者として使用するには、通�
 |確認事項|Action |
 |------------|-------|
 |自分の住んでいる地域で通話プランを利用できますか? 通話プラン サービスを利用できるのはどのユーザーの場所ですか? | 詳細については、「[国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。 | 
-ユーザーは国際電話を利用する必要がありますか? | 詳細については [、「Microsoft 365 または Office 365](calling-plans-for-office-365.md)の通話プラン」を参照してください。 |
+ユーザーは国際電話を利用する必要がありますか? | 詳細については、「通話プランの呼び[出し」または「Microsoft 365」をOffice 365。](calling-plans-for-office-365.md) |
 ユーザーは通話プランのライセンスを持っていますか? | ライセンスを購入して割り当てるには、「[手順 2: ライセンスを購入して割り当てる](set-up-calling-plans.md#step-2-buy-and-assign-licenses)」を参照してください。 |
 ユーザーはそれぞれ直通社内通話 (DID) 電話番号がありますか? | 電話番号を取得するには、「[手順 3: 電話番号を取得する](set-up-calling-plans.md#step-3-get-phone-numbers)」を参照してください。 |
 |||
 
-### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>電話番号を Microsoft 365 または Office 365 に転送する
+### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>電話番号を電話番号にMicrosoft 365またはOffice 365
 
 電話番号を現在のサービス プロバイダーから Teams に簡単に移行できます。 電話番号を Teams に移行した後、Microsoft がサービス プロバイダーになり、それらの電話番号に対する請求を行います。 詳細については、「[電話番号を Teams に転送する](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」を参照してください。
 
 
 ### <a name="phone-numbers-and-emergency-locations"></a>電話番号と緊急対応の場所
 
-Microsoft 365 または Office 365 の通話プランでは、組織内のすべてのユーザーに固有の直接ダイヤル (DID) 電話番号と、対応する検証済み緊急対応の住所が必要です。 緊急対応の住所に、緊急対応の場所 (たとえば、部屋番号や階数) を指定することもできます。 
+Microsoft 365 または Office 365 の通話プランでは、組織内のすべてのユーザーが一意の内向きダイヤル (DID) 電話番号と、対応する検証済み緊急対応の住所を持っている必要があります。 緊急対応の住所に、緊急対応の場所 (たとえば、部屋番号や階数) を指定することもできます。 
 
 |確認事項|Action |
 |:------------|:-------|

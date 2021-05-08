@@ -1,5 +1,5 @@
 ---
-title: 既存の Microsoft 365 グループを強化する
+title: 既存のグループをMicrosoft 365する
 ms.reviewer: ''
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: チームに配布リストを招待し、メールが有効なセキュリティ グループを追加して、Microsoft Teams で Microsoft 365 グループを強化する方法について説明します。
+description: 配布リストをチームに招待Microsoft 365、メールが有効なセキュリティ グループMicrosoft Teamsを追加して、グループを強化する方法について学習します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -25,28 +25,28 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 01/05/2021
 ms.locfileid: "49757692"
 ---
-<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Microsoft Teams を使用して既存の Microsoft 365 グループを強化する
+<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>既存のグループをMicrosoft 365を強化Microsoft Teams
 =======================================================
 
-Microsoft Teams ユーザーは、Teams 機能を使用して既存の Microsoft 365 グループを強化できます。 一般向け Microsoft 365 グループの強化を見ている場合、ユーザーはメンバー数が 5,000 以下の場合にこれを行います。
+Microsoft Teamsユーザーは、既存のグループを拡張Microsoft 365機能を使用Teamsできます。 パブリック Microsoft 365 グループの強化を見ている場合、ユーザーはメンバーの数が 5,000 以下の場合にこれを行います。
 
-これを行うには、Microsoft Teams クライアントから新しいチームを作成する手順に進む必要があります。 [Microsoft   >  **365 グループ** から作成] を選択し、Teams で強化する既存のグループを選択します。 既存のグループ メンバーは、自動的にメンバーとしてチームに追加されます。
+これを行うには、ユーザーはクライアントから新しいチームを作成するフロー Microsoft Teamsがあります。 [**グループからMicrosoft 365]** を選択し、新しいグループで拡張する既存のグループ  >  をTeams。 既存のグループ メンバーは、自動的にメンバーとしてチームに追加されます。
 
 > [!IMPORTANT]
-> Teams で既存のグループを拡張する権限を持っているのは Microsoft 365 グループの所有者だけで、そのグループには 5,000 人未満のユーザーを含める必要があります。 既に強化されているチームは、一覧に表示されません。
+> グループMicrosoft 365所有者だけが、Teams を使用して既存のグループを強化する権限を持ち、そのグループに含めるユーザー数が 5,000 人未満である必要があります。 Teamsが強化されている場合は、一覧に表示されません。
 >
->Microsoft 365 グループからチームを作成するオプションは、これらの条件を満たしていない限り使用できません。
+>これらの条件を満たしていない限り、Microsoft 365グループからチームを作成するオプションは使用できません。
 
-ユーザーは配布リストをチームに招待し、その配布リストのメンバーがチームに追加されます。 これは 1 回の追加であり、配布リストのグループ メンバーシップの後の変更は、Teams に複製または同期されません。
+ユーザーは配布リストをチームに招待し、その配布リストのメンバーがチームに追加されます。 これは 1 回の追加であり、配布リストのグループ メンバーシップの後の変更は、レプリケートまたは同期Teams。
 
-![Microsoft 365 グループからチームを作成するオプションのスクリーンショット。](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
+![グループからチームを作成するオプションMicrosoft 365スクリーンショット。](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
 チームのメンバーとして、メール対応のセキュリティ グループを追加することもできます。ただし、後でセキュリティ グループにさらに多くのメンバーを追加しても、それらのメンバーはチームに自動追加されません。新しいメンバーをチームに個別に追加するか、セキュリティ グループをチームに再追加する必要があります。(セキュリティ グループを再追加する場合は、重複を削除してメンバーが一度だけ追加されるようにします。)
 
-Microsoft 365 グループのプライバシー設定には、パブリックとプライベートの 2 **種類があります**。 Teams で両方のグループの種類を有効にできるのに対し、セルフサービスに関しては若干の違いがあります。
+グループには、パブリック とプライベートの 2 種類Microsoft 365 **プライバシー設定があります**。 両方のグループの種類を有効にTeams、セルフサービスに関しては若干の違いがあります。
 
 -   ユーザーはパブリック グループを検索し、チーム所有者の承認を必要とせずに自分で参加できます。
 
 -   プライベート グループは検索できません。ユーザーはチーム所有者からメンバーとして追加されない限り参加することはできません。
 
-Teams で新しいチームを作成する場合、既存のプライベート Microsoft 365 グループの所有者には、Microsoft 365 グループのメンバーシップを使用してチームを作成するオプションがあります。 ユーザーは、SharePoint のタブを追加し、OneNote ファイルを結合することで、既存の SharePoint ファイルと OneNote ファイルを追加できます。
+Teams で新しいチームを作成する場合、既存のプライベート Microsoft 365 グループの所有者には、Microsoft 365 グループのメンバーシップを使用してチームを作成するオプションがあります。 ユーザーは、既存のファイルを追加SharePointファイルOneNoteを追加し、SharePointファイルをマージOneNoteできます。

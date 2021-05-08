@@ -1,10 +1,10 @@
 ---
-title: Microsoft 365 管理センターを使用してリソースアカウントを作成する
-description: グラフィカルユーザーインターフェイスを使用する場合は、microsoft 365 管理センターを使用して、microsoft teams の会議室とコラボレーションバーのリソースアカウントを作成することができます。
+title: 管理センターでリソース アカウントをMicrosoft 365する
+description: グラフィカル ユーザー インターフェイスを使用する場合は、Microsoft Teams ミーティング 管理センターを使用して、Microsoft Teams ミーティング とコラボレーション バーのリソース Microsoft Teams作成Microsoft 365できます。
 ms.reviewer: payurevi
 manager: serdars
 audience: ITPro
-keywords: デバイスアカウントの作成、Microsoft 365 UI、Microsoft 365 管理センター
+keywords: デバイス アカウントの作成、MICROSOFT 365 UI、Microsoft 365管理センター
 ms.sitesec: library
 ms.service: msteams
 author: flinchbot
@@ -18,9 +18,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/16/2020
 ms.locfileid: "44268037"
 ---
-# <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Microsoft 365 管理センターを使用して Microsoft 365 リソースアカウントを作成する
+# <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>管理センター Microsoft 365使用してリソース アカウントMicrosoft 365作成する
 
-Microsoft 365 リソースアカウントは、会議室、プロジェクターなどの特定のリソース専用のメールボックスおよび Teams アカウントです。 これらのリソースアカウントは、作成時に定義したルールを使って、会議出席依頼に自動的に応答できます。 たとえば、会議室などの共通のリソースがある場合は、その会議室のリソースアカウントを設定して、会議の出席依頼を自動的に承諾または拒否することができます。
+Microsoft 365アカウントは、会議室Teamsプロジェクターなど、特定のリソース専用のメールボックス アカウントとリソース アカウントです。 これらのリソース アカウントは、作成時に定義したルールを使用して、会議出席招待に自動的に応答できます。 たとえば、会議室などの一般的なリソースがある場合は、予定表の空き時間に応じて会議出席招待を自動的に承諾または拒否する、その会議室のリソース アカウントを設定できます。
 
 <!-- The steps in this article show you how to set up a resource account using the Microsoft 365 admin center. If you'd rather use PowerShell to create resource accounts, [Create a resource account using the PowerShell](resource-account-ps.md). -->
 
@@ -28,43 +28,43 @@ Microsoft 365 リソースアカウントは、会議室、プロジェクター
 
 ## <a name="licensing"></a>ライセンス
 
-Microsoft 365 リソースアカウントを作成する前に、必要なライセンスの種類を確認してください。 リソースアカウントを使用してリソースを予約する場合 (つまり、会議にリソースを招待し、招待を自動的に承諾または辞退した場合)、リソースアカウントにライセンスを割り当てる必要はありません。 次のような場合は、リソースアカウントにライセンスを割り当てる必要があります。
+リソース アカウントを作成Microsoft 365、必要なライセンスの種類を確認してください。 リソース アカウントを使用してリソースを予約する場合 (つまり、リソースを会議に招待し、招待を自動的に承諾または拒否する) 場合は、リソース アカウントにライセンスを割り当てる必要があります。 次の状況では、リソース アカウントにライセンスを割り当てる必要があります。
 
-- **Teams 会議** リソース (Microsoft Teams のルーム本体、コラボレーションバーなど) を Teams 会議に参加させて、参加者がビデオや音声を使ってビデオや音声を表示できるようにするには、会議室のライセンスが必要です。 
-- **PSTN 通話** リソースが外部電話番号 (公衆交換電話網または PSTN 通話と呼ばれます) に対して通話を発信または受信できるようにするには、Microsoft 365 電話システムまたは Microsoft 365 Business Voice license が必要です。
+- **Teams会議** リソース (Microsoft Teams ミーティング 本体、コラボレーション バーなど) を Teams 会議に参加して、出席者がそれを使用してビデオやオーディオを表示するには、ミーティング ルーム ライセンスが必要です。 
+- **PSTN 通話** リソースが外部の電話番号 (公衆交換電話網または PSTN 通話と呼ばれる) との間で通話を発信または受信するには、Microsoft 365 電話システム または Microsoft 365 Business Voice ライセンスが必要です。
 
-会議室、電話システム、ビジネス用ボイスライセンスの詳細については、「 [Microsoft Teams のアドオンライセンス](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
+ミーティング ルーム、電話システム、Business Voice のライセンスの詳細については、「Microsoft Teams アドオン ライセンス[」を参照してください。](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-## <a name="create-a-resource-account-in-the-microsoft-365-admin-center"></a><a href="" id="create-device-acct-m365-admin-ctr"></a>Microsoft 365 管理センターでリソースアカウントを作成する
+## <a name="create-a-resource-account-in-the-microsoft-365-admin-center"></a><a href="" id="create-device-acct-m365-admin-ctr"></a>管理センターでリソース アカウントをMicrosoft 365する
 
-1. アクセスして、Microsoft 365 にサインインします。 https://admin.microsoft.com
-2. Microsoft 365 テナントの管理者資格情報を入力します。 この操作を行うと、Microsoft 365 管理センターに移動します。
+1. にアクセスして Microsoft 365 にサインインします。https://admin.microsoft.com
+2. テナントの管理者資格情報をMicrosoft 365します。 これにより、管理センターにMicrosoft 365されます。
 
 :::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Microsoft 365 管理センター":::
-3. 管理センターで、左側のパネルの [ **リソース** ] に移動し ([ **すべて表示** ] を選択します)、[ **会議室] & [備品**] を選択します。
+3. 管理センターで、左側のパネルの **[リソース**] に移動し (最初に [すべて表示] を選択する必要がある場合があります)、[会議室] を選択&**します**。
 
-:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365 管理センター-リソース":::
-4. [ **リソースメールボックスの追加** ] を選択して、新しい会議室アカウントを作成します。 アカウントの表示名とメールアドレスを入力し、[ **追加**]、[ **閉じる**] の順に選択します。 すべてのリソースアカウントの命名規則を標準化することをお勧めします。
+:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365管理センター - リソース":::
+4. [ **リソース メールボックスの追加] を選択** して、新しいルーム アカウントを作成します。 アカウントの表示名とメール アドレスを入力し、[追加] を選択して、[閉じる] を **選択します**。 すべてのリソース アカウントの名前付け規則を標準化することをお勧めします。
 
 > [!NOTE]
-> 既定では、リソースアカウントは次の設定で設定されます。 設定を変更する場合は、[**閉じる**] を選択する前に、[**スケジュールオプションの設定**] を選択します。 後で変更する場合は、[**リソース**  >  **ルーム & 備品**] に移動してリソースアカウントを選択し、[**予約オプション**] の [**編集**] を選択します。
+> 既定では、リソース アカウントは次の設定で設定されます。 それらを変更する場合は、[閉じる] を選択 **する前** に [スケジュール オプションの設定] を **選択します**。 後で変更する場合は、[リソース ルーム] &機器] に移動し、リソース アカウントを選択し、[予約オプション] の [編集]  >  **を選択します**。 
 >
-> - 会議の繰り返しを許可する
-> - 次の制限を超えて会議を自動的に辞退する
->   - 予約ウィンドウ (日数): 180
->   - 最大期間 (時間):24
+> - 繰り返し会議を許可する
+> - 次の制限を超え、会議を自動的に拒否する
+>   - 予約期間 (日): 180
+>   - 最大期間 (時間): 24
 > - 会議出席依頼を自動承諾する
 
-:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Microsoft 365 管理センター-リソースを追加する":::
-5. 管理センターの [ **ユーザー** ] セクションに移動し、[ **アクティブなユーザー** ] の一覧に、作成した会議室が表示されます。
+:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Microsoft 365 - リソースの追加":::
+5. 管理センターの **[ユーザー** ] セクションに移動し、[アクティブなユーザー] の一覧に、作成したルームが表示されます。
 
-:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Microsoft 365 管理センター-アクティブなユーザーを表示する":::
-6. 会議室の名前を選択すると、アカウントのプロパティパネルが右側に表示されます。
+:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Microsoft 365 - アクティブなユーザーを表示する":::
+6. ルームの名前を選択すると、アカウントのプロパティ パネルが右側に表示されます。
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Microsoft 365 管理センター-ユーザープロパティ":::
-7. 次に、リソースアカウントにパスワードを割り当てる必要があります。 パネルでは、アカウントのプロパティといくつかのオプションの操作を確認できます。 [パスワードを変更するには、ユーザー名] の下にあるパスワードキーの **リセット** アイコンを選択します。 **[ユーザーが最初にサインインしたときに、このユーザーにパスワードの変更を要求する**(オフ)。 デバイスのサインイン処理を使用してパスワードを変更することはできません。 [ **リセット**] を選びます。
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Microsoft 365 管理センター - ユーザー プロパティ":::
+7. 次に、リソース アカウントにパスワードを割り当てる必要があります。 パネルには、アカウントのプロパティといくつかのオプションアクションが表示されます。 ユーザー名の **下にある** [パスワード キーのリセット] アイコンを選択して、パスワードを変更します。 [このユーザー **が初めてサインインするときにパスワードを変更する] を選択解除します**。 デバイスのサインイン プロセスを使用してパスワードを変更することはできません。 [リセット] **を選択します**。
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 管理センター-パスワードの再設定":::
-8. [ **ライセンスとアプリ** ] セクションで、デバイスのインストール先の国または地域を **[場所]** に設定します。 下にスクロールし、会議室など、割り当てるライセンスの隣にあるチェックボックスをオンにして、[ **変更の保存**] を選択します。 ライセンスは、組織によって異なる場合があります。
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 管理センター - パスワードのリセット":::
+8. [ライセンス **とアプリ] セクション** で **、[場所の** 選択] をデバイスがインストールされる国または地域に設定します。 下にスクロールし、割り当てるライセンスの横にあるチェック ボックス ([変更の保存] ミーティング ルーム など)**をオンにします**。 ライセンスは組織によって異なる場合があります。
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 管理センター-ライセンスの割り当て":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 管理センター - ライセンスの割り当て":::

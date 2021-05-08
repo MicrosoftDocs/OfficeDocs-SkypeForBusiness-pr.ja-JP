@@ -1,5 +1,5 @@
 ---
-title: 英国の苦情処理コード -Microsoft 365 通話プラン
+title: 英国の苦情処理コード - Microsoft 365通話プラン
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Skype for business 通話サービス (英国の PSTN 通話) に関する苦情、返信のタイムライン、未解決の苦情の紛争の解決などを行います。
+description: ビジネス通話サービス (SKYPE PSTN 通話)、返信のタイムライン、未解決の苦情に対する紛争の解決に関する苦情を申し立て。
 ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43780276"
 ---
-# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Microsoft 365 の通話プラン-英国 (英国) の苦情処理コード
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Microsoft 365での通話プラン - 英国 (英国) の苦情処理コード
 
-このコードは、英国内の小規模企業のお客様 (英国) において、英国の通信規制に準拠した Microsoft 365 の通話プランサービス (以下、"サービス") に関連しています。 その他の Skype for Business サービスは、Microsoft とのサービス規約、および特定のサービスの使用に適用されるその他の規約によって管理されます。
+このコードは、英国の通信規制に従って Microsoft 365 通話プラン サービス ("サービス") に関して、英国 (英国) の小規模企業のお客様 (従業員数が 10 人以下の組織) に適用されます。 その他の Skype for Business サービスは、Microsoft とのサービス規約、および特定のサービスの使用に適用されるその他の規約によって管理されます。
 
 ## <a name="how-to-make-a-complaint"></a>苦情申し立ての方法
 
@@ -40,7 +40,7 @@ Skype for Business では、顧客満足を最優先にしています。 ただ
 
 - 無料電話番号: 0800 032 6417
 
-- オンライン: Microsoft 365 管理センターにサインインし、[**サポート**] の [**新しいサービスリクエスト**] を選び、サービスリクエストを送信します。
+- オンライン: 管理センターにMicrosoft 365し、[サポート] の [新しいサービス要求] を選択して **サービス** 要求を **送信します**。
 
 ## <a name="timelines"></a>タイムライン
 
@@ -52,7 +52,7 @@ Skype for Business の担当者が問題をただちに解決できない場合�
 
 Skype for Business では、サービスに関連するすべての苦情を、受け取ってから 7 営業日以内に解決することを目標としています。
 
-お客様が本サービスに関する苦情を管理していない場合は、Skype for Business の担当者に、電話またはメールで苦情を処理するよう依頼して、お客様のサービス規約に従って苦情を報告することができます。 Microsoft では、苦情を受け取ってから 7 日以内に評価します。
+サービスに関する苦情の管理方法に不満がある場合は、苦情を処理する Skype for Business の担当者に電話または電子メールで問い合わせて、サービス契約に従って苦情をエスカレートすることができます。 Microsoft では、苦情を受け取ってから 7 日以内に評価します。
 
 ## <a name="alternative-dispute-resolution"></a>代わりの争議解決方法
 
@@ -64,7 +64,7 @@ Skype for Business では、サービスに関連するすべての苦情を、�
 
 オンブズマン サービスに苦情を持ち込むための手順は、オンブズマン サービスの [Web サイト](https://go.microsoft.com/fwlink/?LinkID=820708&amp;clcid=0x809)に記載されています。
 
-オンブズマン Services の web サイトまたは電話、レター、またはメールで連絡先フォームに入力することで、オンブズマンサービスにアクセスすることができます。
+Ombudsman Services の Web サイトまたは電話、手紙、または電子メールで連絡先フォームに入力すると、Ombudsman Services にアクセスできます。
 
 - 連絡フォーム: [https://www.ombudsman-services.org/about-us/contact-us](https://www.ombudsman-services.org/about-us/contact-us)
 

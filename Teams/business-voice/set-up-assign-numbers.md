@@ -14,35 +14,38 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 組織のユーザーに電話番号Microsoft 365 Business Voiceを割り当てる方法について学習します。
+description: 組織内のユーザーに電話番号Microsoft 365 Business Voiceを割り当てる方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f035ddaf67f5241cfbe6cf79dcd4e1946d212eec
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: d380fe3b3f5524f756a85f7b51037a07cd8cfc45
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130130"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282574"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>手順 5: Business Voice の電話番号をユーザーに割り当てる
 
-ユーザーが通常の電話回線Teams通話を行う、または受信する前に、ユーザーに電話番号を割り当てる必要があります。 このMicrosoft Teamsユーザーが [通話] をクリックすると、割り当てる電話番号が一 **覧表示されます**。 電話番号が必要なユーザーごとに、次の操作を行います。
+ユーザーが通常の電話回線Teams通話を送受信するには、ユーザーに電話番号を割り当てる必要があります。 このMicrosoft Teamsユーザーに割り当てる電話番号は、ユーザーが [通話] をクリックするとダイヤル パッドに表示 **されます**。 電話番号が必要なユーザーごとに、次の操作を行います。
 
-![[ユーザーの電話番号] が [Teams] に表示されます。](../media/teams-phone-number.png)
-
-> [!NOTE]
-> 電話番号が表示しない場合は、お待ちください。 新しい電話番号が新しい電話番号で使用できるまで数時間かかるTeams。
-
-1. 左側のナビゲーションで、[Voice   >  **電話] をクリックします**。
-2. [番号 **電話] ページ** で、一覧で割り当てられていない番号を選択し、[編集] を **クリックします**。  
-3. [編集] **ウィンドウの** [ **割** り当て] で、表示名またはユーザー名でユーザーを検索し、[割り当て] を **クリックします**。
-4. [**緊急の場所**] で、[緊急の場所の設定] 手順 [](set-up-emergency-locations.md)で追加した緊急の場所を選択するか、別のオフィスまたはホーム オフィス用に新しい場所を作成する必要がある場合は、[場所の追加] をクリックします。
-5. ユーザーが **新しい電話番号を** 含むウェルカム メールを受信するために、電話番号情報を含むメール ユーザーが選択されている必要があります。
-6. **[保存]** をクリックします。
-7. 電話番号を割り当てる各ユーザーについて、上記の手順を繰り返します。
+![ユーザーの電話番号が [Teams] に表示されます。](../media/teams-phone-number.png)
 
 > [!NOTE]
-> Microsoft 365 または Office 365 と Teams の間の待機時間のため、ユーザーが有効になるには最大 24 時間かかる場合があります。 電話番号が 24 時間後に正しく割り当てられていない場合は、ビジネス製品のサポートに問い合[わせください。](/microsoft-365/admin/contact-support-for-business-products) お手伝いします。
+> 電話番号が表示しない場合は、お待ちください。 新しい電話番号が新しい電話番号で利用可能になるには、数時間かかるTeams。
+
+1. Microsoft Teams 管理センターを開き、グローバル管理者であるユーザー (通常は、管理者のサインアップに使用したアカウント) でログインMicrosoft 365。
+1. 左側のナビゲーション ウィンドウで、[Voice 電話 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">  >  **に移動します**</a>。
+1. [番号 **電話ページで**、一覧で未割り当て番号を選択し、[編集] を **クリックします**。  
+1. [編集] **ウィンドウの** [割 **り** 当て] で、表示名またはユーザー名でユーザーを検索し、[割り当て] を **クリックします**。
+1. [**緊急対応** の場所] で、[緊急対応の場所の設定][](set-up-emergency-locations.md)手順で追加した緊急対応の場所を選択するか、別のオフィスまたはホーム オフィス用に新しい場所を作成する必要がある場合は、[場所の追加] を **クリックします**。
+1. 電話番号情報が記載されたウェルカム メールをユーザーに送信するかどうかを決定します。 以下を希望する場合:
+    - **既存の電話番号を** Business Voice (電話番号の移植と呼ばれる)に持ち込み、電話番号情報を含むメール ユーザー **の選択を解除します**。
+    - Business Voice **で選択した新しい** 電話番号を使用し、[電話番号情報を **含むメール ユーザー] を選択します**。
+1. **[保存]** をクリックします。
+1. 電話番号を割り当てる各ユーザーについて、上記の手順を繰り返します。
+
+> [!NOTE]
+> Microsoft 365 または Office 365 と Teams の間の待機時間のため、ユーザーが有効になるのに最大 24 時間かかる場合があります。 電話番号が 24 時間後に正しく割り当てられていない場合は、ビジネス製品のサポートに問い [合わせ - 管理者](/microsoft-365/admin/contact-support-for-business-products)向けヘルプ を参照してください。 お手伝いします。
 
 > [!div class="nextstepaction"]
 > [次の手順: 自動応答を設定する](set-up-auto-attendant.md?tabs=general-info#steps)

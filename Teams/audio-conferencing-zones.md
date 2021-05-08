@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - seo-marvel-mar2020
-description: 電話会議のゾーンと、各ゾーンの国と地域が一覧表示されます。
+description: 電話会議のゾーンと、各ゾーンの国と地域を一覧表示します。
 ms.openlocfilehash: 046888646644b819ec7950e0eaada2398cb09f42
 ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
 ms.translationtype: MT
@@ -80,10 +80,10 @@ ms.locfileid: "49821277"
 |英国  <br/> |
 |米国  <br/> |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [音声会議の無料ダイヤル アウト期間](complimentary-dial-out-period.md)
-- [電話会議サブスクリプションの "ダイヤルアウト"/"コール アウト" (分) 特典](audio-conferencing-subscription-dial-out.md)
+- [電話会議サブスクリプションの "ダイヤルアウト"/"通話場所" 分の特典](audio-conferencing-subscription-dial-out.md)
 - [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](outbound-calling-restriction-policies.md)
 - [コミュニケーション クレジットについて](what-are-communications-credits.md)

@@ -21,7 +21,7 @@ ms.custom:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-description: この記事では、管理者が Microsoft Teams のゲストユーザーに関する情報を表示する方法について説明します。
+description: この記事では、管理者がゲスト ユーザーに関する情報を表示する方法についてMicrosoft Teams。
 ms.openlocfilehash: 6e079a142fa6b3efcace3d4b246dbbbd16e736dd
 ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
 ms.translationtype: MT
@@ -31,12 +31,12 @@ ms.locfileid: "49031043"
 ---
 # <a name="view-guest-users-in-a-team"></a>チームのゲスト ユーザーを表示する
 
-チーム内のユーザーは誰でも、Microsoft Teams の **[チームの管理]** から、ゲストを含むチームのすべてのメンバーを見ることができます。 詳細について [は、「チームまたはチャネルで誰がいるかを確認する」](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) を参照してください。
+チーム内のユーザーは誰でも、Microsoft Teams の **[チームの管理]** から、ゲストを含むチームのすべてのメンバーを見ることができます。 詳細については [、「チームまたはチャネルのメンバーを確認する」](https://support.office.com/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7) を参照してください。
 
 ゲスト ユーザーを識別する方法は次のとおりです。
 
-1.  [Microsoft 365 管理センター](https://admin.microsoft.com)にサインインします。
-2.  [ **管理センター** チーム] を選択し  >  **Teams** ます。
-3.  Teams 管理センターで、[ **ユーザー** ] を選択します。 " **ゲスト** " という表記が、ゲスト ユーザーの表示名の後に追加されています。
+1.  管理センター[にMicrosoft 365します](https://admin.microsoft.com)。
+2.  [**管理センター] を**  >  **Teams。**
+3.  管理センター Teams、[ユーザー] を **選択します**。 "**ゲスト**" という表記が、ゲスト ユーザーの表示名の後に追加されています。
   
 所有するチーム内からゲスト ユーザーを識別することもできます。  

@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: このクイック スタート チェックリストを使用して、組織が Microsoft Teams の導入を開始する際に成功を確実に行います。
+description: このクイック スタート チェックリストを使用して、組織がアプリケーションの導入を開始する際に成功Microsoft Teams。
 f1.keywords:
 - CSH
 ms.custom:
@@ -40,7 +40,7 @@ ms.locfileid: "49809317"
 
 - [チームとチャネルについて理解する](teams-adoption-understand-teams-and-channels.md)
 - [最初のチームを作成する](teams-adoption-your-first-teams.md)
-- [Teams の準備はできましたか?](teams-adoption-assess-readiness.md)
+- [使用する準備はTeams?](teams-adoption-assess-readiness.md)
 - [関係者と会う](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [早期導入者を特定する](teams-adoption-assess-readiness.md#identify-early-adopters)
 
@@ -56,14 +56,14 @@ ms.locfileid: "49809317"
 
 ## <a name="phase-3---scale"></a>フェーズ 3: スケール
 
-- [結果と成功のメジャーを定義する](teams-adoption-define-outcomes.md)
+- [結果と成功の対策を定義する](teams-adoption-define-outcomes.md)
 - [サービスの有効化戦略を選択する](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
-- [関係者を関与する](teams-adoption-define-outcomes.md#engage-stakeholders)
+- [関係者の関与](teams-adoption-define-outcomes.md#engage-stakeholders)
 - [実装チームを拡大する](teams-adoption-define-outcomes.md#expand-your-implementation-team)
-- [ガバナンスと情報管理ポリシーを展開する](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
+- [ガバナンスと情報管理ポリシーを拡張する](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
 - [フィードバックとレポートを最適化する](teams-adoption-optimize-feedback-and-reporting.md)
 - [啓発とトレーニングの実施](teams-adoption-drive-awareness.md)
-- [サービス レビューをスケジュールする](teams-adoption-schedule-service-health-reviews.md)
+- [サービス レビューのスケジュールを設定する](teams-adoption-schedule-service-health-reviews.md)
 
 
 
