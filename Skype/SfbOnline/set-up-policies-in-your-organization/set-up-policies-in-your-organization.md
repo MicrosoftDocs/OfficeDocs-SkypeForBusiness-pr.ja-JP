@@ -1,5 +1,5 @@
 ---
-title: 組織内のポリシーをセットアップする
+title: 組織内のポリシーを設定する
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,20 +18,22 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: a6a00dc43e578753796cf7a9b03ff7cedfa46ed4
-ms.sourcegitcommit: 80b66127b3415c99f9468625add6a8f2c36bca74
+ms.openlocfilehash: 20da0e58c2f8b47f2c1d84959eb3ae3f69ba377c
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "48376560"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52240022"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="67104-102">組織内のポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="67104-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="474ac-102">組織内のポリシーを設定する</span><span class="sxs-lookup"><span data-stu-id="474ac-102">Set up policies in your organization</span></span>
 
-<span data-ttu-id="67104-103">ポリシーは、ユーザーが利用できる Skype for Business Online の機能を決定するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="67104-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="67104-104">詳細については、次の記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="67104-104">See the following articles for complete details.</span></span>
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-- [<span data-ttu-id="67104-105">ポイントツーポイントファイル転送をブロックする</span><span class="sxs-lookup"><span data-stu-id="67104-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
-- [<span data-ttu-id="67104-106">カスタム外部アクセス ポリシーを作成する</span><span class="sxs-lookup"><span data-stu-id="67104-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
-- [<span data-ttu-id="67104-107">会議に添付された大きいファイルを保持する</span><span class="sxs-lookup"><span data-stu-id="67104-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
-- [<span data-ttu-id="67104-108">組織の電話会議ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="67104-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
-- [<span data-ttu-id="67104-109">組織のモバイル ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="67104-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
-- [<span data-ttu-id="67104-110">組織のクライアント ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="67104-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
+<span data-ttu-id="474ac-103">ポリシーは、ユーザーが利用できる Skype for Business Online の機能を決定するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="474ac-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="474ac-104">詳細については、次の記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="474ac-104">See the following articles for complete details.</span></span>
+
+- [<span data-ttu-id="474ac-105">ポイント対ポイントファイル転送をブロックする</span><span class="sxs-lookup"><span data-stu-id="474ac-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="474ac-106">カスタム外部アクセス ポリシーを作成する</span><span class="sxs-lookup"><span data-stu-id="474ac-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="474ac-107">会議に添付された大きいファイルを保持する</span><span class="sxs-lookup"><span data-stu-id="474ac-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="474ac-108">組織の電話会議ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="474ac-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="474ac-109">組織のモバイル ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="474ac-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="474ac-110">組織のクライアント ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="474ac-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
