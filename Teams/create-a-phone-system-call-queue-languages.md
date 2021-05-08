@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の通話キューでサポートされている言語
+title: Microsoft Teamsキューでサポートされている言語
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams の通話キューでサポートされている言語
+description: Microsoft Teamsキューでサポートされている言語
 ms.openlocfilehash: 0d5e587c8a90c11a2b6b3234a98510101e2cb94c
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,15 +29,15 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197085"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams の通話キューでサポートされている言語
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teamsキューでサポートされている言語
 
-通話キューは、音声合成 (TTS) に対して次の言語をサポートしています。
+呼び出しキューは、テキスト読み上げ (TTS) に対して次の言語をサポートしています。
 
 |言語                                |
 |:---------------------------------------|
 |アラビア語 (エジプト)                          |
-|カタラン語 (カタラン)                       |
-|中国語 (簡体字、中国)               |
+|カトラン語 (カトラン)                       |
+|中国語 (簡体字、PRC)               |
 |中国語 (繁体字、香港)        |
 |中国語 (繁体字、台湾)           |
 |クロアチア語 (クロアチア)                      |
@@ -59,7 +59,7 @@ ms.locfileid: "50197085"
 |イタリア語 (イタリア)                         |
 |日本語 (日本)                        |
 |韓国語 (韓国)                          |
-|ノルウェー語ブークアル語 (ノルウェー)               |
+|ノルウェー語 (ノルウェー)               |
 |ポーランド語 (ポーランド)                         |
 |ポルトガル語 (ブラジル)                     |
 |ポルトガル語 (ポルトガル)                   |
@@ -68,11 +68,11 @@ ms.locfileid: "50197085"
 |スロバキア語 (スロバキア)                       |
 |スロベニア語 (スロベニア)                    |
 |スペイン語 (メキシコ)                        |
-|スペイン語 (スペイン、インターナショナル)          |
+|スペイン語 (スペイン、国際)          |
 |スウェーデン語 (スウェーデン)                        |
 |タイ語 (タイ)                         |
 |トルコ語 (トルコ)                        |
 |ベトナム語 (ベトナム)                    |
 
 > [!NOTE]
-> テキスト読み上げを使用する場合は、システムが翻訳を実行しなく、選択した言語でテキストを入力する必要があります。
+> テキスト読み上げを使用する場合、システムは翻訳を実行しなく、選択した言語でテキストを入力する必要があります。

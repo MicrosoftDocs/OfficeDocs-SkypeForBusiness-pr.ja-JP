@@ -1,7 +1,7 @@
 ---
 title: 共存およびアップグレードの設定
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,19 +18,19 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52e035f3940237309a1a8bab0211ccaad243b004
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e7559b5376f6b386132e7814b88b6fcce3f5b378
+ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117075"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "52282724"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードの設定
 
 
 Teams を使用するように Skype for Business ユーザーをアップグレードする場合、ユーザーにとってシームレスなプロセスにするためのオプションがいくつかあります。 組織内のすべてのユーザーの共存とアップグレードの設定を一度に行うオプションがあります。また、組織内の 1 人または複数のユーザーの設定を変更することもできます。 以前のバージョンの Skype for Business クライアントでは、これらの設定が優先されないことがあります。 Skype for Business クライアント バージョンの詳細については、「[Skype for Business のダウンロードと更新プログラム](/skypeforbusiness/software-updates)」ページ を参照してください。 
 
-「Microsoft Teams と [Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md) の共存と相互運用性、または Skype for Business との共存について理解する」を参照すると、利用できるモードをより深 [く理解できます](coexistence-chat-calls-presence.md)。  
+「Understanding Microsoft Teams and [Skype for Business coexistence](teams-and-skypeforbusiness-coexistence-and-interoperability.md) and interoperability or Coexistence with Skype for Business 」を参照して、使用できるモードについて理解[を深Skype for Business。](coexistence-chat-calls-presence.md)  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -40,15 +40,15 @@ Teams を使用するように Skype for Business ユーザーをアップグレ
 
 ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
-1. Microsoft [Teams 管理センターの](https://admin.teams.microsoft.com/)左側のナビゲーションで、組織全体の設定 Teams **のアップグレードに**  >  **移動します**。 
+1. [Microsoft Teams [管理センター]](https://admin.teams.microsoft.com/)の左側のナビゲーションで、[アップグレード] の [**組織** 全体の設定  >  **] にTeamsします**。 
 
-2. Teams のアップグレード ページの上部 **で** 、必要に応じて次のオプションを変更します。
+2. [アップグレード] ページの **Teams、** 必要に応じて次のオプションを変更します。
     - [**共存**] モードを設定します。
         - **アイランド** - ユーザーが Skype for Business と Teams の両方を同時に使用できるようにする場合は、この設定を使用します。
         - **Skype for Business のみ** - ユーザーが Skype for Business のみを使用する場合は、この設定を使用します。
         - **Skype for Business と Teams のコラボレーション** - グループ コラボレーション (チャネル) に Teams を使用するだけでなく、Skype for Business も使用する場合は、この設定を使用します。
         - **Skype for Business と Teams のコラボレーションと会議** - グループ コラボレーション (チャネル) と会議に Teams を使用するだけでなく、Skype for Business も使用する場合は、この設定を使用します。
-        - **Teams のみ** - ユーザーが Teams のみを使用する場合は、この設定を使用します。 この設定を使用しても、Skype for Business でホストされている会議に参加できます。
+        - **Teamsのみ**- この設定は、ユーザーが他のユーザーのみを使用する場合Teams。 この設定を使用しても、Skype for Business でホストされている会議に参加できます。
         
     - [**Skype for Business ユーザーに Teams へのアップグレードが利用できることを通知します**] を設定します。 このオプションをオンにすると、Skype for Business ユーザーに間もなく Teams アプリにアップグレードされることが通知されます。
     - [**Skype for Business 会議に参加するユーザー向けの優先アプリ**] を設定します。 この設定では、Skype for Business 会議に参加するために使用されるアプリが決定され、共存モードの値に関係なく、適用されます。

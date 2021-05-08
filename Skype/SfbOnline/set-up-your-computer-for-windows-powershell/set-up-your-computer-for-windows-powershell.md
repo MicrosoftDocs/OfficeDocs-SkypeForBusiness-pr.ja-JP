@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Find out requirements for remote management of Skype for Business Online via Windows PowerShell, including supported operating systems.
-ms.openlocfilehash: 35b6589e8452bdee46eda626a321e0c75b9f9775
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: df3c9da68b27a235460515e9f27f88fa15c182e0
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113143"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238713"
 ---
 # <a name="set-up-your-computer-for-windows-powershell"></a>Windows PowerShell 用にコンピューターをセットアップする
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 [] Skype for Business Online を使用した Microsoft PowerShell のリモート管理は、次のいずれかのオペレーティング システムを実行する 64 ビット コンピュータでのみサポートされます。
 
@@ -50,17 +52,17 @@ ms.locfileid: "51113143"
   
 - PowerShell
     
-- Teams PowerShell モジュール 
+- TeamsPowerShell モジュール 
     
 これらのダウンロードとインストールに関する情報は次のトピックでご覧いただけます。
   
-- [Teams PowerShell モジュールをダウンロードしてインストールする](/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
+- [PowerShell モジュールをダウンロードTeamsインストールする](/MicrosoftTeams/teams-powershell-install#install-the-teams-powershell-module)
     
 - [Windows PowerShell 5.1 をダウンロードしてインストールする](download-and-install-windows-powershell-5-1.md)
 
-- [Office 365 PowerShell で Skype for Business Online を管理する](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+- [PowerShell Skype for Businessを使用して Office 365 Online を管理する](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business オンライン コネクタの接続に関する問題を診断する](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の自動応答でサポートされている言語
+title: Microsoft Teamsでサポートされている言語
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams の自動応答でサポートされている言語
+description: Microsoft Teamsでサポートされている言語
 ms.openlocfilehash: 8a55b1613aaf1c14989d1626966ca6051d7015d9
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,15 +29,15 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197088"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams の自動応答でサポートされている言語
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teamsでサポートされている言語
 
-自動応答では、音声合成 (TTS) と音声認識で次の言語がサポートされます。
+自動応答は、テキスト読み上げ (TTS) と音声認識に対して次の言語をサポートしています。
 
-|言語                                |テキスト音声変換 (TTS)     |音声認識                     |
+|言語                                |テキスト読み上げ (TTS)     |音声認識                     |
 |:---------------------------------------|:-----------------------:|:-------------------------------------:|
 |アラビア語 (エジプト)                          |Y                        |                                       |
-|カタラン語 (カタラン)                       |Y                        |Y                                      |
-|中国語 (簡体字、中国)               |Y                        |Y                                      |
+|カトラン語 (カトラン)                       |Y                        |Y                                      |
+|中国語 (簡体字、PRC)               |Y                        |Y                                      |
 |中国語 (繁体字、香港)        |Y                        |                                       |
 |中国語 (繁体字、台湾)           |Y                        |                                       |    
 |クロアチア語 (クロアチア)                      |Y                        |                                       |    
@@ -59,7 +59,7 @@ ms.locfileid: "50197088"
 |イタリア語 (イタリア)                         |Y                        |Y                                      |
 |日本語 (日本)                        |Y                        |Y                                      |
 |韓国語 (韓国)                          |Y                        |                                       |    
-|ノルウェー語ブークアル語 (ノルウェー)               |Y                        |                                       |    
+|ノルウェー語 (ノルウェー)               |Y                        |                                       |    
 |ポーランド語 (ポーランド)                         |Y                        |                                       |    
 |ポルトガル語 (ブラジル)                     |Y                        |Y                                      |
 |ポルトガル語 (ポルトガル)                   |Y                        |                                       |    
@@ -68,14 +68,14 @@ ms.locfileid: "50197088"
 |スロバキア語 (スロバキア)                       |Y                        |                                       |    
 |スロベニア語 (スロベニア)                    |Y                        |                                       |    
 |スペイン語 (メキシコ)                        |Y                        |Y                                      |
-|スペイン語 (スペイン、インターナショナル)          |Y                        |Y                                      |
+|スペイン語 (スペイン、国際)          |Y                        |Y                                      |
 |スウェーデン語 (スウェーデン)                        |Y                        |                                       |    
 |タイ語 (タイ)                         |Y                        |                                       |    
 |トルコ語 (トルコ)                        |Y                        |                                       |    
 |ベトナム語 (ベトナム)                    |Y                        |                                       |    
 
 > [!NOTE]
-> 音声認識をサポートしていない言語を選択すると、メニュー内の音声入力オプションが無効になります。名前でダイヤルする場合、キーパッド (DTMF) 入力のみを使用する必要があります。 詳細については [、「名前でダイヤル - キーパッド (DTMF) エントリ」](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) を参照してください。
+> 音声認識をサポートしていない言語を選択すると、メニュー内の音声入力オプションが無効になります。名前によるダイヤルは、キーパッド (DTMF) エントリの使用にのみ制限されます。 詳細については、「 [名前によるダイヤル - キーパッド (DTMF) エントリ」](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) を参照してください。
 
 > [!NOTE]
-> テキスト読み上げを使用する場合は、システムが翻訳を実行しなく、選択した言語でテキストを入力する必要があります。
+> テキスト読み上げを使用する場合、システムは翻訳を実行しなく、選択した言語でテキストを入力する必要があります。

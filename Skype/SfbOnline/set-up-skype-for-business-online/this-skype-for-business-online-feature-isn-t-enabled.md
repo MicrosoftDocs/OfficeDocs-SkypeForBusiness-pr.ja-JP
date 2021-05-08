@@ -1,5 +1,5 @@
 ---
-title: この Skype for Business Online の機能は有効ではありません
+title: このSkype for Businessオンライン機能が有効になっていません
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,23 +20,25 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.FeatureNotEnabled
-description: 'Skype for Business Online 機能が有効ではないというエラーが発生したときに、考えられる原因と解決策を見つけることができます。 '
-ms.openlocfilehash: 7084af14acf32beb102ff7767d3825b1e41a3e20
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'オンライン機能が有効になっていないというエラーが表示Skype for Business考えられる原因とアクションの提案を見つける。 '
+ms.openlocfilehash: ffe80aa252eecf88a5ef8c3e5b4bc7a294b463d7
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769560"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239426"
 ---
-# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>この Skype for Business Online の機能は有効ではありません
+# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>このSkype for Businessオンライン機能が有効になっていません
 
-申し訳ございませんが、この機能のライセンスがユーザーにないようです。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+申し訳ございません。ユーザーは、この機能のライセンスを取得されていないように見えます。
   
-|**考えられる原因**|**推奨される操作**|
+|**考えられる原因**|**推奨されるアクション**|
 |:-----|:-----|
-|使用可能なライセンスはありますが、このユーザーの機能が有効になっていません。  <br/> |このユーザーにライセンスを付与するには、 **Microsoft 365 管理センター** > の**アクティブなユーザー**に移動します。 <br/> |
-|この機能が使用できない場所にユーザーがいます。  <br/> |可能であれば、 **Microsoft 365 管理センター** > の [**アクティブなユーザー** ] に移動し、その機能が利用できる場所にこのユーザーを割り当てます。 <br/> |
-|この機能は、組織では有効になっていません。  <br/> |**Microsoft 365 管理センター** > **Skype for business**に移動して、組織全体でこの機能を有効にします。 <br/> |
+|使用可能なライセンスを持っているが、このユーザーの機能を有効にしていない。  <br/> |[管理センター] **Microsoft 365アクティブ ユーザー] に**  >  **移動して**、このユーザーのライセンスを取得します。 <br/> |
+|ユーザーは、この機能を利用できない場所にいます。  <br/> |可能であれば、[管理センター] **Microsoft 365アクティブ** ユーザー] に移動し、このユーザーを機能が利用可能な場所  >  に割り当てします。 <br/> |
+|この機能は組織で有効にされていない。  <br/> |管理センター **Microsoft 365に移動Skype for Business**  >  組織全体の機能を有効にします。 <br/> |
    
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)

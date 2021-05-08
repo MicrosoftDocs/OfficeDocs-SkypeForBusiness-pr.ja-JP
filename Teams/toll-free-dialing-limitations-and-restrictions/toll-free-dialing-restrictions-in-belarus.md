@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、ベラルーシでの無料電話番号のダイヤルについて学習します。
+description: ベラルーシの無料電話番号 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) のダイヤルについて学習します。
 ms.openlocfilehash: 2b5d8266aa914cfd65553d5b943bb5c1ad1c04b5
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

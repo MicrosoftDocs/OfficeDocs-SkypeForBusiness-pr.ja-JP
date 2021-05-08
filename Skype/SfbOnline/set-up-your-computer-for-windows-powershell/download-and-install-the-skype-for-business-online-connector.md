@@ -19,21 +19,23 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Download, install, and then use the Skype for Business Online Connector to create a remote Windows PowerShell session that connects to Skype for Business Online.
-ms.openlocfilehash: 0e00b9dd18b04deaf3d2123de1fa9609040c4e2f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e9429b385f83f6b76e211614f953f7d439df524e
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097203"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238868"
 ---
-# <a name="download-and-install-the-teams-powershell-module"></a>Teams PowerShell モジュールをダウンロードしてインストールする
+# <a name="download-and-install-the-teams-powershell-module"></a>PowerShell モジュールをダウンロードTeamsインストールする
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
 
-> 最新の [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/) パブリック リリースは、Skype for Business Online Connector と統合され、Teams と Skype for Business オンライン PowerShell 管理用の 1 つのモジュールを提供します。
+> 最新の[powerShell Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)リリースは Skype for Business Online Connector と統合され、Teams および Skype for Business PowerShell 管理用の 1 つのモジュールが提供されます。
 
 
-1. Teams [PowerShell モジュールをインストールします](/microsoftteams/teams-powershell-install)。
+1. [PowerShell モジュール Teamsインストールします](/microsoftteams/teams-powershell-install)。
     
 2. コマンド プロンプトWindows PowerShellし、次のコマンドを実行します。 
 
@@ -43,7 +45,7 @@ ms.locfileid: "51097203"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   Windows PowerShell の起動の詳細については、「1 つの Windows PowerShell ウィンドウで[すべての Microsoft 365 または Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)サービスに接続する」[](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)または「Windows PowerShell 用にコンピューターをセットアップする」を参照してください。
+   Windows PowerShell の起動の詳細については、「Connect を 1 つの Windows PowerShell ウィンドウですべての Microsoft 365 または[Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)サービスに接続する」または「Windows PowerShell 用にコンピューターをセットアップする」[を参照](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)してください。
   
-## <a name="related-topics"></a>関連項目
-[Skype for Business Online 管理用にコンピューターをセットアップするには、次のWindows PowerShell](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a>関連トピック
+[Skype for Business Online 管理用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

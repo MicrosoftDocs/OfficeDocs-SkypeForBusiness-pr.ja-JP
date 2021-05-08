@@ -1,5 +1,5 @@
 ---
-title: ワークショップ&ツール - Teams を計画、配信、導入&する
+title: ツール&ワークショップ - 計画、配信、導入を&するTeams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -29,24 +29,24 @@ ms.locfileid: "51108253"
 
 - [Microsoft Teams カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)
 
-    このキットには、さまざまなプレゼンテーション、メール テンプレート、ヒント & のテクニック、および組織内での Teams の導入を推進するために使用できるポスターが含まれています。 管理者とチーム リーダー向け 2 つのクイック スタート ガイドと、各部門の使用例が含まれています。 マーケティング、営業、財務、人事、IT、エンジニアリング、プロジェクト管理など、組織内のさまざまな機能の Teams を活用するには、次のリソースを使用します。
+    このキットには、さまざまなプレゼンテーション、電子メール テンプレート、ヒント & のテクニック、組織内での Teams の導入を推進するために使用できるポスターが含まれています。 これには、管理者とチーム リーダー向け 2 つのクイック スタート ガイドと、すべての部門の使用例が含まれています。 これらのリソースを使用 Teamsして、マーケティング、営業、財務、人事、IT、エンジニアリング、Project Management など、組織内のさまざまな機能のリソースを活用します。
 
 - [Teams の展開方法](./deploy-overview.md)
 
-    Teams を展開するには、推奨されるパスに従います。
+    推奨されるパスに従って、Teams。
 
 
-- [Teams のテクニカル トレーニングを受け取る](itadmin-readiness.md)
+- [技術Teamsを取得する](itadmin-readiness.md)
 
-    これらの技術トレーニング リソースを使用して、自分自身を教育したり、他のユーザーに教えたり、ワークショップを開催したりします。
+    これらの技術トレーニング リソースを使用して、自分自身を教育したり、他のユーザーに教えたり、ワークショップを実行したりします。
 
-- [Office 365 政府機関のお客様](plan-for-government-gcc.md)
+- [Office 365 Government顧客](plan-for-government-gcc.md)
 
-   Teams への旅は、企業のお客様のエクスペリエンスと同じ機能です。 Teams がテナントで一般に利用できる状態になると [、Microsoft 365 Government 向](plan-for-government-gcc.md) けプラン ( GCC 展開に関する記事と管理者クイック スタート ガイド) から始めるのが推奨 [されます](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)。 セキュリティ [とコンプライアンスの概要は](security-compliance-overview.md) 、お客様が環境内の Teams に自信を持って取り組むのに役立ちます。
+   お客様のTeamsは、エンタープライズのお客様のエクスペリエンスに似たものになります。 テナントTeams一般提供される予定の場合は[、Microsoft 365 Government の](plan-for-government-gcc.md)計画 - GCC デプロイに関する記事と管理者クイック スタート ガイド から開始[してください。](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) セキュリティ[とコンプライアンスの概要](security-compliance-overview.md)は、お客様が環境内のTeamsに役立ちます。
 
 - [Teams for Education - 管理者向けクイック スタート](./teams-quick-start-edu.yml)
 
-    このチュートリアルでは、教育組織向け Teams のロールアウトについて説明します。
+    このチュートリアルでは、教育組織向Teamsのロールアウトについて説明します。
 
 ### <a name="see-also"></a>関連項目
 
@@ -54,9 +54,9 @@ ms.locfileid: "51108253"
 
 [Teams のための IT 管理者の準備状況のリソース](ITAdmin-readiness.md)
 
-[導入用のツール](adopt-tools-and-downloads.md)
+[導入のためのツール](adopt-tools-and-downloads.md)
 
-[Skype for Business から Teams へのアップグレード計画ワークショップ](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+[Skype for Businessアップグレード計画Teamsワークショップへの参加](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
 [オンプレミスから Teams にユーザーを移動する](/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 

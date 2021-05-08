@@ -19,22 +19,24 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+ms.openlocfilehash: 378fe1ad980de5c28c9175cf7e1e918b580c257a
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164296"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239518"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Skype for Business Online インストールをテストする
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 [] インストールした Skype for Business Online を、組織のすべてのユーザー用にセットアップする前にテストすることで、時間を節約し、サポートへの電話を減らして、ユーザーの満足度を向上させることができます。
 
 必要なものは以下のとおりです。
 
-- Microsoft 365 または Office 365 の少なくとも3つのアカウント (自分のアカウントと、他に少なくとも2つのアカウント)
+- 少なくとも 3 Microsoft 365またはOffice 365アカウント (自分と他の少なくとも 2 つ) です。
 
-- テスト アカウントごとに 1 台のコンピューター。 組織内の通常のコンピューターと同様にセットアップします。
+- テスト アカウントごとに 1 台のコンピューター。組織内の通常のコンピューターと同様にセットアップします。
 
 - Skype for Business Online の電話会議プロバイダーがセットアップされたアカウント。
 
@@ -51,7 +53,7 @@ ms.locfileid: "44164296"
 ## <a name="set-up-test-accounts"></a>テスト アカウントをセットアップする
 <a name="__toc328126910"> </a>
 
-1. [**管理者** > **Microsoft 365**また**は Office 365** > の**ユーザーとグループ**] に移動![し](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 、[追加] を選択して、必要な情報を入力します。
+1. [管理者] **Microsoft 365** または [ユーザー Office 365 グループ] に移動し、[追加] を選択し  >    >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 、必要な情報を入力します。
 
 2. 手順 4 (メール) まで進んだら、自分のメール アドレスを入力します。次に、新しいユーザーの名前とパスワードを記録します。
 
@@ -62,7 +64,7 @@ ms.locfileid: "44164296"
 
 各テスト コンピューター上で、次の手順を実行します。
 
-1. Microsoft 365 または Office 365 のホームページに移動して、いずれかのテストアカウントの資格情報でサインインします。
+1. ホーム ページMicrosoft 365またはOffice 365に移動し、テスト アカウントのいずれかの資格情報でサインインします。
 
 2. [ **設定**] ![設定: プロファイルを更新し、ソフトウェアをインストールして、クラウドに接続する](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) に移動し、[ **ソフトウェアをインストールしてクラウドに接続する**] をクリックします。
 
@@ -79,7 +81,7 @@ Skype for Business Online 会議に電話でアクセスできるようにする
 
  **テスト ユーザーのアカウントに電話会議情報を追加するには**
 
-1. [**電話会議** > **ユーザー**] をクリックします。
+1. [**電話会議ユーザー] を**  >  **クリックします**。
 
 2. ダイヤルイン会議向けにセットアップするユーザーの名前をクリックして、[ **編集**] ![編集](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)をクリックします。
 
@@ -114,7 +116,7 @@ Skype for Business Online 会議に電話でアクセスできるようにする
 |[Skype for Business で IM を送信する](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Skype for Business 会話ウィンドウが開きます。何かを入力すると、会話相手から返信されます。  <br/> |
 |[Skype for Business で IM を送信する](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Skype for Business 会話ウィンドウが開きます。何かを入力すると、会話に参加している全員から返信されます。  <br/> |
 |[連絡先を名または姓で検索する](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |入力するとすぐに検索結果が表示され始めます。  <br/> |
-|[Lync for Microsoft 365 についてよく寄せられる質問 (FAQ)](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |選択した連絡先グループに、追加した連絡先が表示されます。  <br/> |
+|[Lync for Microsoft 365 に関する FAQ](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |選択した連絡先グループに、追加した連絡先が表示されます。  <br/> |
 |[Skype for Business (Lync) でプレゼンス状態を変更する](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |新しいプレゼンス状態が他のユーザーの連絡先リストに反映されます。  <br/> |
 |[連絡先カードの使用](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |個人の連絡先カードが、個人の名前の近くに表示されます。  <br/> |
 
@@ -137,7 +139,7 @@ Skype for Business Online 会議に電話でアクセスできるようにする
 |[Skype for Business (Lync) 会議で PowerPoint のスライドをプレゼンテーションする](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |PowerPoint プレゼンテーションは、全員のコンピューターの Skype for Business 会議ステージ ウィンドウに表示されます。  <br/> |
 |[Skype for Business (Lync) 会議でファイルを転送する](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |アップロードすると、他の会議参加者が添付ファイルを表示し、ダウンロードできるようになります。  <br/> |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

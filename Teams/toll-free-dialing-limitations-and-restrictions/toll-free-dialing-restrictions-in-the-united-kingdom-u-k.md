@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 英国での無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、英国の無料電話番号にダイヤルする方法について学習します。
 ms.openlocfilehash: 6e27a73724fc272ff2b870cf32d2b97fb2a2c156
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -41,7 +41,7 @@ ms.locfileid: "51116575"
 |フリーダイヤルを利用できますか?  <br/> |はい  <br/> |
 |ダイヤル形式  <br/> | 0 800 XXX XXXX <br/>  0 808 XXX XXXX <br/> |
 |国/地域の ISO コード  <br/> |GB  <br/> |
-|対象となる島/地域  <br/> |イングランド、ガーンジー島、マン島、北アイルランド、スコットランド、ウェールズ、チャネル諸島  <br/> |
+|対象となる島/地域  <br/> |英国、ガーンジー島、マン島、北アイルランド、スコットランド、ウェールズ、チャネル諸島  <br/> |
 |対象外の島/地域  <br/> |該当なし  <br/> |
 |有線/固定回線の状態  <br/> |はい  <br/> |
 |携帯電話ネットワークの状態  <br/> |あり  <br/> |

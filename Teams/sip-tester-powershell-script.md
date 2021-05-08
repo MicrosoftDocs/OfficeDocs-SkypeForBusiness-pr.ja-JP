@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトサンプルを使用して、Microsoft Teams で直接ルーティング セッション ボーダー コントローラー接続をテストします。
+description: この PowerShell スクリプト サンプルを使用して、直接ルーティング セッション ボーダー コントローラー接続をテストMicrosoft Teams。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -25,20 +25,20 @@ ms.locfileid: "49834277"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>直接ルーティング セッション ボーダー コントローラー接続をテストする PowerShell スクリプト
 
-SIP テスター クライアントは、Microsoft Teams で直接ルーティング セッション ボーダー コントローラー (SBC) 接続をテストするために使用できる PowerShell スクリプトのサンプルです。 このスクリプトは、顧客がペアリングしたセッション開始プロトコル (SIP) トランクとダイレクト ルーティングの基本的な機能をテストします。
+SIP Tester クライアントは、直接ルーティング セッション ボーダー コントローラー (SBC) 接続をテストするために使用できる PowerShell スクリプトのサンプルMicrosoft Teams。 このスクリプトでは、顧客ペアのセッション開始プロトコル (SIP) トランクの基本的な機能を直接ルーティングでテストします。
 
-スクリプトは SIP テストをテスト の実行者に送信し、結果を待ち、人間が読み取り可能な形式で表示します。 このスクリプトを使用して、次のシナリオをテストできます。
+このスクリプトは、SIP テストをテスト ランナーに送信し、結果を待機してから、人間が判読できる形式で表示します。 このスクリプトを使用して、次のシナリオをテストできます。
 
-- 発信通話と着信通話
+- 発信呼び出しと着信呼び出し
 - 同時呼び出し
 - メディアのエスカレーション
-- コンサルティングの譲渡
+- コンサルティング転送
 
 ## <a name="download-the-script-and-documentation"></a>スクリプトとドキュメントをダウンロードする
 
-SIP [Tester クライアント スクリプトとドキュメントをダウンロードします](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)。
+SIP [Tester クライアント スクリプトとドキュメント をダウンロードします](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)。
 
   > [!NOTE]
-  > SIP Tester クライアント スクリプトは、adal.ps 3.19.8.1 のみをサポートします。 新しいバージョンのアプリケーションを使用すると、エラー adal.psされます。
+  > SIP Tester クライアント スクリプトは、adal.ps 3.19.8.1 のみをサポートします。 新しいバージョンのアプリケーションが使用されている場合、adal.ps 返されます。
   
   

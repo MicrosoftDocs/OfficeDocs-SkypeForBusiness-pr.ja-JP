@@ -1,5 +1,5 @@
 ---
-title: 今すぐ Skype for Business Online 管理センターを使用できないのはなぜですか?
+title: 現在、Skype for Business Online 管理センターを使用できない理由
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,53 +20,55 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
-description: 'Skype for Business 管理センターで使用できる機能とできない機能、およびサービスが別の Microsoft データセンターに移行される場合のその他の機能について説明します。 '
-ms.openlocfilehash: 7258467929663c42bfb6088202511a04613db383
-ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
+description: 'サービスを別の Microsoft データ センターに移行するときに、Skype for Business 管理センターで使用できる機能と使用できない機能について説明します。 '
+ms.openlocfilehash: 725a60be96a2d61bcec6367e1a0a33f2bc5dcee6
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44164496"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52238918"
 ---
-# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>今すぐ Skype for Business Online 管理センターを使用できないのはなぜですか?
+# <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>現在、Skype for Business Online 管理センターを使用できない理由
 
-作業を完了できないことがわかっているため、ここでは何が起こっているのかを説明します。 
-  
-まず、次の技術的な説明について説明します。
-  
-Skype for Business Online サービス (ユーザーと組織の設定) を別の Microsoft データセンターに移行しています。 これにより、サービスが向上し、待機時間が短縮されます。 
-  
-技術的な詳細については、「[データの移動中および移行後]( https://go.microsoft.com/fwlink/?LinkId=526418)」を参照してください。
-  
-## <a name="ok-so-what-does-that-mean"></a>これはどういう意味ですか?
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-まず、いくつかの用語について説明します。
+作業を終えられないと、いら立ちを感じさせられないので、ここで何が起こっているのか、なぜ待つ価値があるのかを説明します。 
   
-- **データセンター**これは、ファイルやメールメッセージなど、Microsoft 365 または Office 365 からの情報が保存されている物理的な場所です。 Microsoft 365 と Office 365 のデータセンターについて詳しく調べたい場合は、こちらの[記事](https://www.microsoft.com/online/legal/v2/?docid=25)を参照してください。
+まず、技術的な説明を次に示します。
+  
+お客様の Skype for Business Online サービス (つまり、ユーザーと組織の設定) を、お客様に近い別の Microsoft データセンターに移行します。 これにより、サービスが改善され、待ち時間が短縮されます。 
+  
+技術的な詳細については、「データ移動中と [移動後」を参照してください]( https://go.microsoft.com/fwlink/?LinkId=526418)。
+  
+## <a name="ok-so-what-does-that-mean"></a>では、これはどういう意味でしょうか。
+
+最初に、いくつかの用語を分けとしましょう。
+  
+- **データ センター** これは、ファイルやメール メッセージなど、Microsoft 365またはOffice 365の情報が格納される物理的な場所です。 データ センターとデータ センターのMicrosoft 365をOffice 365する場合は、この記事を[参照してください](https://www.microsoft.com/online/legal/v2/?docid=25)。
     
-- **移行**これは、"移動" とほぼ同じです。 この場合、お客様の Skype for Business Online のユーザーと設定を、あるデータセンターから別のデータセンターに移動し、サービスの向上に向けてより近いものにしていることを意味します。
+- **移行** これは "移動" とほとんど同じです。 この場合、Skype for Business Online のユーザーと設定を、お客様のサービス向上に近い別のデータセンターに移動します。
     
-- **待機時間**これは、Microsoft 365 管理センターにアクセスし、設定を変更して、それらの変更を保存するために必要な時間の長さです。
+- **待機時間** この時間は、管理センターから管理センターにアクセスしMicrosoft 365設定を変更してから、それらの変更を保存するのにかかる時間です。
     
-- **関連付け ID**これは、先ほど送信したメッセージの一覧に表示されていた可能性があります。 この情報は、Microsoft サポートエンジニアがエラーのトラブルシューティングを行うために使用されます。 Microsoft サポートに連絡する場合は、関連付け ID の確認を求められる場合があります。
+- **関連付け ID** 先日のメッセージにこのメッセージが一覧表示されている可能性があります。 この情報は、エラーのトラブルシューティングに役立つ Microsoft サポート エンジニアによって使用されます。 Microsoft サポートにお問い合わせの場合は、関連付け ID の入力を求めされる場合があります。
     
-これまでの意味では、Skype for Business Online のすべてのユーザーとサービス設定を、お客様により近い場所に移動するプロセスを進めています。 もっとうまくいきます。 この短時間の間、Skype for Business Online サービスの品質が向上します。
+つまり、すべての Skype for Business Online ユーザーとサービス設定を、より近い別の場所に移動しています。 近いほど良くなります。 この短い期間を過ごした後は、オンライン サービスSkype for Business向上します。
   
 ![Microsoft 365 または Office 365 でのサービスの移行](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
-## <a name="what-skype-for-business-online-features-will-still-work"></a>Skype for Business Online の機能について教えてください。
+## <a name="what-skype-for-business-online-features-will-still-work"></a>オンラインSkype for Business機能は引き続き動作しますか?
 
-Skype for Business Online 管理センターにアクセスすることはできませんが、移行中に次の Skype for Business Online の機能は引き続き機能します。
+Skype for Business Online 管理センターにアクセスできない場合でも、移行中Skype for Businessオンライン機能は引き続き機能します。
   
 - オンライン会議
     
 - プレゼンス情報
     
-## <a name="can-i-get-other-work-done"></a>他の作業を行うことはできますか?
+## <a name="can-i-get-other-work-done"></a>他の作業はできますか?
 
-もちろん。 Skype for Business Online サービスを移行している間も、Microsoft 365 の他の管理センター (たとえば、Microsoft 365 と Exchange 管理センター) を使用できます。 ただし、Skype for Business Online 管理センターと共に、移行中に Skype for Business Online リモート PowerShell コマンドレットを使用することはできません。 
+もちろん。 Skype for Business Online サービスの移行中でも、Microsoft 365 の他の管理センター (Microsoft 365 管理センターや Exchange 管理センターなど) を引き続き使用できます。 ただし、Skype for Business Online 管理センターと共に、移行中に Skype for Business Online リモート PowerShell コマンドレットを使用することはできません。 
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

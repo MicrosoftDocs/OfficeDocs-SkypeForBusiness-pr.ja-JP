@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 または Office 365 で Teams を有効にする
+title: 自分のTeamsまたはアカウントでMicrosoft 365を有効Office 365
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Microsoft 365 または Office 365 組織で Microsoft Teams を有効にする方法、個々のアクセスを制御するユーザー ライセンスを割り当てる方法、コンテンツ ソースを許可またはブロックする方法について説明します。
+description: Microsoft 365 または Office 365 組織の Microsoft Teams を有効にする方法、個々のアクセスを制御するユーザー ライセンスを割り当てる方法、コンテンツ ソースを許可またはブロックする方法について学習します。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -35,11 +35,11 @@ ms.locfileid: "51113683"
 既定では、Teams はすべての組織でオンになります。 プレビュー期間において Teams を使用した場合、Teams プレビューの間に設定したものと同じ設定がそのまま維持されます。 
 
 
-組織の管理者は、Teams への個々のアクセスを制御するユーザー ライセンスを割り当て、Teams で使用できるコンテンツ ソースを許可またはブロックすることができます。 詳細 [については、「Microsoft Teams のアプリ](enable-features-office-365.md) の組織または管理者の設定を [管理する」](admin-settings.md) を参照してください。 
+組織の管理者は、Teams への個々のアクセスを制御するユーザー ライセンスを割り当て、Teams で使用できるコンテンツ ソースを許可またはブロックできます。 詳細[については、「Microsoft Teams設定の](enable-features-office-365.md)管理」または「組織のアプリの管理[Microsoft Teams」を](admin-settings.md)参照してください。 
 
 
  
-個々のライセンスの管理の詳細については、Microsoft Teams サービスの [説明を参照してください](/office365/servicedescriptions/teams-service-description)。 
+個々のライセンスの管理の詳細については、「サービスの説明[」をMicrosoft Teams参照してください](/office365/servicedescriptions/teams-service-description)。 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>組織全体に対して Teams をオンまたはオフにする 

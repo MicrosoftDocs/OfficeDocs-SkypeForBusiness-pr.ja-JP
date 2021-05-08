@@ -1,5 +1,5 @@
 ---
-title: PowerShell を使用して Microsoft Teams のコラボレーション バーの Microsoft Teams リソース アカウントを作成する
+title: PowerShell Microsoft Teams使用したコラボレーション バーのリソース アカウントMicrosoft Teams作成
 ms.author: mitressl
 author: flinchbot
 manager: ericwe
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: Microsoft Teams のコラボレーション バーを展開する方法については、このトピックを参照してください。
+description: このトピックでは、グループのコラボレーション バーをデプロイする方法についてMicrosoft Teams。
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -23,21 +23,21 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51115605"
 ---
-# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>PowerShell を使用して Microsoft 365 リソース アカウントを作成する
+# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>PowerShell をMicrosoft 365リソース アカウントを作成する
 
-PowerShell を使用して Microsoft Teams のコラボレーション バーのリソース アカウントを作成する方法については、このトピックを参照してください。
+PowerShell を使用してコラボレーション バーのリソース アカウントを作成する方法については、このMicrosoft Teams参照してください。
 
-リソース アカウントを作成する最も簡単な方法は、Microsoft 365 管理センターを使用する方法です。 [この方法については、この記事を参照してください](resource-account-ui.md)。
+リソース アカウントを作成する最も簡単な方法は、管理センターで Microsoft 365使用する方法です。 [これを行う方法については、この記事を参照してください](resource-account-ui.md)。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## <a name="requirements"></a>要件
 
-Office 365 で Microsoft Teams Rooms を展開する前に、要件を満たしていることを確認してください。 詳細については、「Microsoft Teams のコラボレーション [バーを展開する」を参照してください](collab-bar-deploy.md)。
+アプリケーションを使用Microsoft Teams ミーティングデプロイOffice 365、要件を満たしていることを確認してください。 詳細については、「コラボレーション バーを[デプロイする」を参照Microsoft Teams。](collab-bar-deploy.md)
 
-- コラボレーション バーに PSTN 機能が必要な場合は、電話システム ライセンスが必要です。
+- コラボレーション バーに PSTN 機能が必要な場合は、ライセンスを電話システムがあります。
 
-- リソース アカウントに Exchange メールボックスが必要です。 これらはリソース アカウントです。Exchange ライセンスは必要ありません。 リソース アカウントの会議室ライセンスの使用をお勧めします。
+- リソース アカウントには、リソース メールボックスExchange必要があります。 これらはリソース アカウントです。ライセンスExchange必要はありません。 リソース アカウントの会議室ライセンスを使用することをお勧めします。
 
 
 ### <a name="add-a-resource-account"></a>リソース アカウントを追加する
@@ -60,7 +60,7 @@ Office 365 で Microsoft Teams Rooms を展開する前に、要件を満たし�
 
      - アカウント: huddleroom01@contoso.onmicrosoft.com
 
-     - アカウントパスワード: P@$$W 0rd242
+     - アカウント パスワード: P@$$W 0rd242
 
      ``` PowerShell
      New-Mailbox -Name "Huddle-Room-01" -Alias HuddleRoom01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID HuddleRoom01@contoso.onmicrosoft.com -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd242' -AsPlainText -Force)
@@ -72,7 +72,7 @@ Office 365 で Microsoft Teams Rooms を展開する前に、要件を満たし�
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     この例では、エイリアス値 HuddleRoom02 を持つ既存のルーム メールボックスのアカウントを有効にし、パスワードを 808P@$$W 0rd に設定します。 既存のエイリアス値が HuddleRoom02@contoso.onmicrosoft.com アカウントは削除される点に注意してください。
+     この例では、エイリアス値 HuddleRoom02 を持つ既存のルーム メールボックスのアカウントを有効にし、パスワードを 808P@$$W 0rd に設定します。 既存のエイリアス値が HuddleRoom02@contoso.onmicrosoft.com アカウントが削除される点に注意してください。
 
      ``` PowerShell
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
@@ -95,7 +95,7 @@ Office 365 で Microsoft Teams Rooms を展開する前に、要件を満たし�
 
    - AddAdditionalResponse: $true (AdditionalResponse パラメーターで指定されたテキストが会議出席依頼に追加されます。)
 
-   - AdditionalResponse: "このルームには Microsoft Teams のコラボレーション バーがあります" (会議出席依頼に追加するテキスト)。
+   - AdditionalResponse: "This room has a collaboration bar for Microsoft Teams!" (会議出席依頼に追加するテキスト)。
 
    この例では、Huddle-Room-01 という名前のルーム メールボックスでこれらの設定を構成します。
 
@@ -110,13 +110,13 @@ Office 365 で Microsoft Teams Rooms を展開する前に、要件を満たし�
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。 
 
-5. 次の構文を使用して huddleroom01@contoso.onmicrosoft.com パスワードを期限切れにしない設定します。
+5. 次の構文を使用 huddleroom01@contoso.onmicrosoft.com パスワードを期限切れにしないに設定します。
 
       ``` Powershell
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. リソース アカウントには、365 ライセンスの有効なOffice (できれば会議室 SKU) が必要です。 また、使用場所をデバイス アカウントに割り当てる必要もあります。これにより、アカウントで使用できるライセンス SKU が決定されます。 365 テナントで使用可能な SKU の一覧Office `Get-MsolAccountSku` 取得できます。
+6. リソース アカウントには有効なライセンスが必要です (Office 365 SKU がミーティング ルームです。 また、使用場所をデバイス アカウントに割り当てる必要があります。これにより、アカウントで使用できるライセンス SKU が決されます。 を使用 `Get-MsolAccountSku` して、テナントに対して使用可能な SKU の一Office 365できます。
 
       ``` Powershell
       Get-MsolAccountSku
@@ -133,8 +133,8 @@ Office 365 で Microsoft Teams Rooms を展開する前に、要件を満たし�
 
 
 
-[PowerShell を使用して Microsoft Teams のコラボレーション バーのアカウントを構成する](resource-account-ps.md)
+[PowerShell を使用してコラボレーション バーのアカウントMicrosoft Teams構成する](resource-account-ps.md)
 
-[Microsoft Teams のコラボレーション バーを展開する](collab-bar-deploy.md)
+[グループのコラボレーション バーをデプロイMicrosoft Teams](collab-bar-deploy.md)
 
 [Microsoft Teams ライセンスのコラボレーション バー](../rooms/rooms-licensing.md)

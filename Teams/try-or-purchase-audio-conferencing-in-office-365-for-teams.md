@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 for Teams で電話会議を試用または購入する
+title: Microsoft 365 で電話会議を試用または購入Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -31,11 +31,11 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116535"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 365 for Microsoft Teams で電話会議を試用または購入する
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 365 で電話会議を試用または購入Microsoft Teams
 
-組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams には、このような状況専用の電話会議機能が含まれています。 ユーザーは、モバイル デバイスや PC で Microsoft Teams アプリを使用する代わりに、電話を使って Microsoft Teams 会議にコールインできます。
+組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams、この状況に合った電話会議機能が含まれています。 ユーザーは、モバイル デバイスまたは PC Microsoft Teamsアプリを使用する代わりに、電話を使用してMicrosoft Teams会議にコールインできます。
 
-必要なのは、会議をスケジュールまたは開催する予定のユーザーのために電話会議を設定する場合のみです。 会議の出席者にミーティングへのライセンスが割り当てられている必要はなく、その他のセットアップも必要ありません。
+会議をスケジュールまたは開催する予定のユーザーに対して電話会議を設定する必要があります。 会議の出席者にミーティングへのライセンスが割り当てられている必要はなく、その他のセットアップも必要ありません。
 
 価格情報については、「[電話会議の価格](https://www.microsoft.com/microsoft-teams/audio-conferencing?rtc=3)」を参照してください。
 
@@ -45,27 +45,27 @@ ms.locfileid: "51116535"
 
 ### <a name="to-buy-and-assign-user-audio-conferencing-licenses"></a>ユーザーの電話会議ライセンスを購入して割り当てるには
 
-1. お客様の **国/地域で電話** 会議を利用できる場所を確認します。 [電話会議と通話プランの利用が可能な国と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+1. 電話会議 **が国** /地域で利用できるのか確認します。 [電話会議と通話プランの国と地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
 2. **電話会議** のライセンスを取得します。 以下を希望する場合:
 
-   - **購入前** にお試しください。電話会議を含む Office 365 Enterprise E5 の無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
+   - **購入する** 前に試してください。電話会議を含む Office 365 Enterprise E5 無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
 
-   - **購入する**: [Microsoft Teams アドオン ライセンスを参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+   - **購入:**「Microsoft Teams [ライセンス」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 3. [会議をスケジュールまたは開催](/microsoft-365/admin/manage/assign-licenses-to-users) する組織内のユーザーにライセンスを割り当てる。
 
-4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「Microsoft Teams アドオン ライセンスを割り当てる [」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「アドオン ライセンスの[割りMicrosoft Teams割り当て」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分単位支払い電話会議ライセンスを購入して割り当てるには
+### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分単位の電話会議ライセンスを購入して割り当てるには
 
 ライセンス供与されている大口の顧客の場合、分数ごと従量課金制電話会議のライセンスを取得できます。 分数ごと従量課金制電話会議のライセンスの詳細については、 [分数ごと従量課金制電話会議](audio-conferencing-pay-per-minute.md)を参照してください。
   
-1. お客様の **国/地域で電話** 会議を利用できる場所を確認します。 [電話会議と通話プランの国と地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+1. 電話会議 **が国** /地域で利用できるのか確認します。 [電話会議と通話プランの国と地域の可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
 
 2. **電話会議** のライセンスを取得します。 分数ごと従量課金ライセンスを取得するには、アカウントの担当者にお問い合わせください。
 
-3. [組織のコミュニケーション クレジット](set-up-communications-credits-for-your-organization.md) を設定します。 コミュニケーション クレジットの設定については、「[コミュニケーション クレジットとは](what-are-communications-credits.md)」を参照してください 。
+3. [組織のコミュニケーション クレジットを設定](set-up-communications-credits-for-your-organization.md) します。 コミュニケーション クレジットの設定については、「[コミュニケーション クレジットとは](what-are-communications-credits.md)」を参照してください 。
 
     > [!IMPORTANT]
     > コミュニケーション クレジットが設定されていない場合、電話会議が分数ごと従量課金ライセンスを持つすべてのユーザーに対して機能しません。
@@ -77,9 +77,9 @@ ms.locfileid: "51116535"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>手順 2: 会議の主催者または計画者のために電話会議プロバイダーを設定する
 
-Skype for  Business がサードパーティの電話会議プロバイダーと統合されていない組織内のユーザーに電話会議ライセンスを割り当てると、すべてのライセンスがセットアップされ、準備が整います。 (電話会議プロバイダーを設定する必要はありません。)
+Skype for Business がサードパーティの電話会議プロバイダーと統合されていない組織内のユーザーに電話会議ライセンスを割り当てると、すべてがセットアップされ、準備が整います。 (電話会議プロバイダーを設定する必要はありません。)
 
-サードパーティの電話会議プロバイダーでユーザーを有効にしている場合は、そのユーザーのプロバイダーを Microsoft に変更する必要があります。 ユーザーのプロバイダーを変更するには、「Microsoft を電話会議プロバイダーとして割り当てる [」を参照してください](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+サードパーティの電話会議プロバイダーでユーザーを有効にしている場合は、そのユーザーのプロバイダーを Microsoft に変更する必要があります。 ユーザーのプロバイダーを変更するには、「電話会議プロバイダーとして Microsoft を割り当 [てる」を参照してください](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 ## <a name="step-3-other-admin-tasks"></a>手順 3: その他の管理タスク
 
@@ -89,16 +89,16 @@ Skype for  Business がサードパーティの電話会議プロバイダーと
 
 2. [招待に含まれる電話番号を設定します](set-the-phone-numbers-included-on-invites-in-teams.md)。 これは、ユーザーが参加を予定している会議で表示される電話番号です。
 
-3. [電話会議の自動応答](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) が電話会議の電話番号にダイヤルインするときに発信者に挨拶メッセージを表示するために使用する電話会議の自動応答言語を設定します。 この手順は、Microsoft を電話会議プロバイダーとして使用している場合にのみ適用されます。
+3. [電話会議の自動応答](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) が電話会議の電話番号にダイヤルインするときに発信者にあいさつするために使用する電話会議の自動応答言語を設定します。 この手順は、電話会議プロバイダーとして Microsoft を使用している場合にのみ適用されます。
 
-4. [電話会議の PIN の長さを設定します](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
+4. [電話会議会議の PIN の長さを設定します](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
 
 > [!NOTE]
 > この機能は、21Vianet が運営する Office 365 を中国で使用しているお客様にはまだご利用いただけません。詳細については、「 [21Vianet が運営する Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[組織内の Teams を有効にする](office-365-set-up.md)
+[組織Teamsを有効にする](office-365-set-up.md)
 
 [電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)
 

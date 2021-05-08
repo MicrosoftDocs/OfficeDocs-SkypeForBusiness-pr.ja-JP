@@ -1,5 +1,5 @@
 ---
-title: ユーザーの Skype for Business Online サービスプランが有効ではありません
+title: ユーザーの Skype for Business Online サービス プランが無効です
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -20,19 +20,21 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
-description: 'Skype for Business Online サービスプランが有効でないというエラーが発生した後、ユーザーに対して有効なサービスプランを割り当てる場所を確認します。 '
-ms.openlocfilehash: a3f7ac1a0816845b24d8580f63165b73ea9c99e9
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Skype for Business Online サービス プランが無効なエラーの後に、ユーザーに有効なサービス プランを割り当てる場所を確認します。 '
+ms.openlocfilehash: 3545d0341e7e094ca1152d37a145e3c52640ae50
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769580"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239473"
 ---
-# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>ユーザーの Skype for Business Online サービスプランが有効ではありません
+# <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>ユーザーの Skype for Business Online サービス プランが無効です
 
-申し訳ございませんが、このユーザーに割り当てられている Skype for Business Online サービスプランが認識されないか、無効です。
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+申し訳ございません。Skype for Businessに割り当てられているオンライン サービス プランが認識されないか、無効です。
   
-*Microsoft 365 管理センター** に移動し、**アクティブなユーザー** > して、有効なサービスプランをこのユーザーに割り当てます。
+[アクティブなユーザー] *Microsoft 365管理* センター * >**に移動** し、有効なサービス プランをこのユーザーに割り当てる。
 
 ## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)

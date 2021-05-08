@@ -28,9 +28,9 @@ ms.locfileid: "50196681"
 ---
 # <a name="phone-number-management-for-japan"></a>日本での電話番号の管理
 
-日本では、Microsoft は SoftBank と提携して、日本の請求先住所をお持ちのお客様のための通話プランを購入してプロビジョニングしています。 SoftBank は通話プランを販売し、日本のユーザー番号を提供し、電話番号管理のサポートを提供します。 ただし、電話会議、自動応答、通話キューのサービス番号とライセンスは、引き続き Microsoft 365 および Office 365 によって販売および管理されます。
+日本では、Microsoft は SoftBank と提携して、日本の請求先住所をお持ちのお客様のための通話プランを購入してプロビジョニングしています。 SoftBank は通話プランを販売し、日本のユーザー番号を提供し、電話番号管理のサポートを提供します。 ただし、電話会議、自動応答、通話キューのサービス番号とライセンスは、引き続き販売され、Microsoft 365およびOffice 365。
 
-SoftBank 通話 [の詳細については、以下を参照してください](https://aka.ms/SoftBankVoicePlan)。
+SoftBank 通話の [詳細については、 を参照してください](https://aka.ms/SoftBankVoicePlan)。
 
 この表で、日本での Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
 
@@ -38,15 +38,15 @@ SoftBank 通話 [の詳細については、以下を参照してください](h
   
 |**実行する操作**|**これらの手順を実行して正しいフォームをダウンロードする**|
 |:-----|:-----|
-|日本で通話プランの新しいユーザー電話番号を取得する。|ユーザーの [新しい電話番号については、SoftBank Calling](https://aka.ms/SoftBankVoicePlan) にお問い合わせください。 ユーザーに割り当てることができるように、同社によりそれらの番号が組織に追加されます。 <br/>
+|日本で通話プランの新しいユーザー電話番号を取得する。|ユーザーの [新しい電話番号については、SoftBank 通話](https://aka.ms/SoftBankVoicePlan) にお問い合わせください。 ユーザーに割り当てることができるように、同社によりそれらの番号が組織に追加されます。 <br/>
 |日本の電話会議、自動応答、通話キューの新しいサービス電話番号を取得します。|[お問い合わせください](mailto:ptnapac@microsoft.com)。|
-|日本のユーザーの電話番号を Microsoft 365 または Office 365 **に** 移行します。|ユーザーの [電話番号を転送するには、SoftBank Calling](https://aka.ms/SoftBankVoicePlan) にお問い合わせください。 次に、これらの番号を組織に追加します。  <br/> |
-|日本の通話キューで Microsoft 365 または Office 365 に転送される電話番号 **を** 取得します。|サービス電話番号 [の転送については、SoftBank Calling](https://aka.ms/SoftBankVoicePlan) にお問い合わせください。 次に、これらの番号を組織に追加します。|
-|通話プランの電話番号を持つユーザーに割り当てられている緊急対応の住所を変更します。|緊急対応 [の住所を変更するには、SoftBank Calling](https://aka.ms/SoftBankVoicePlan) にお問い合わせください。 同社がこの情報を更新できます。|
-|ユーザー番号をサービス番号に変更する。 |現在、SoftBank Calling を使用する場合はサポートされていません。|
-|通話キューまたは自動応答番号に対するディレクトリ サービスの更新を行う|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|日本のユーザーの電話番号をMicrosoft 365またはOffice 365 **電話番号を** 取得します。|ユーザーの [電話番号を転送するには、SoftBank Calling](https://aka.ms/SoftBankVoicePlan) にお問い合わせください。 次に、これらの番号を組織に追加します。  <br/> |
+|日本の通話キューのMicrosoft 365またはOffice 365 **に転送される電話番号を** 取得します。|サービス電話番号 [を転送するには、SoftBank Calling](https://aka.ms/SoftBankVoicePlan) にお問い合わせください。 次に、これらの番号を組織に追加します。|
+|通話プランの電話番号を持つユーザーに割り当てられている緊急対応の住所を変更します。|緊急対応の [住所を変更するには、SoftBank Calling](https://aka.ms/SoftBankVoicePlan) にお問い合わせください。 同社がこの情報を更新できます。|
+|ユーザー番号をサービス番号に変更する。 |SoftBank Calling を使用する場合、現時点ではサポートされていません。|
+|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

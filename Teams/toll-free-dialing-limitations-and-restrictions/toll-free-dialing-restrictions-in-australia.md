@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、オーストラリアでの無料電話番号のダイヤルについて学習します。
+description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、オーストラリアの無料電話番号のダイヤルについて学習します。
 ms.openlocfilehash: e33bf97747b220eb847ee1141a4cf55415cdd6e9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
