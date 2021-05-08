@@ -1,5 +1,5 @@
 ---
-title: PowerShell スクリプトのサンプル - エクスポート マネージャーとその担当者
+title: PowerShell スクリプト サンプル - エクスポート マネージャーとその担当者
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとしてマネージャーごとにチームを作成する準備をします。
+description: この PowerShell スクリプトを使用して、各マネージャーのチームをチーム メンバーとして作成する準備として、組織のマネージャーとその担当者のリストをエクスポートします。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,9 +23,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117315"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell スクリプトのサンプル - エクスポート マネージャーとその担当者
+# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell スクリプト サンプル - エクスポート マネージャーとその担当者
 
-この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとしてマネージャーごとに人のマネージャー チームを作成する準備をします。
+この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとして各マネージャーの People Manager チームを作成する準備をします。
 
 この PowerShell スクリプトの詳細については、「People Manager チームを作成 [する」を参照してください](../create-manager-directs-teams.md)。
 

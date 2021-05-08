@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: チリでの無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、チリの無料電話番号のダイヤルについて学習します。
 ms.openlocfilehash: 3b3affb2168c821e11d8aa526815384776c7971c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 開催者が電話会議ブリッジ会議で無料電話番号を使用する方法を制御する方法について説明します。
+description: 開催者が電話会議ブリッジ会議に無料電話番号を使用する方法を制御する方法について説明します。
 ms.openlocfilehash: f9ab09396778b221ad7f5c016dbf7db76fcba030
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

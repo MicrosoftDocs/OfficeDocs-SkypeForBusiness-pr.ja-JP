@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: オンプレミスのテレフォニー インフラストラクチャを Microsoft Teams に接続するために Microsoft Phone System Direct Routing を構成する方法について説明します。
+description: オンプレミスのテレフォニー インフラストラクチャをMicrosoft 電話システム ダイレクト ルーティングを構成する方法について説明Microsoft Teams。
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: ecd8579ccd092e6b82deb06aa670901cdfc3b023
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -29,36 +29,36 @@ ms.locfileid: "51122241"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
-Microsoft Phone System Direct Routing を使用すると、オンプレミスのテレフォニー インフラストラクチャを Microsoft Teams に接続できます。 この記事では、サポートされているオンプレミス セッション ボーダー コントローラー (SBC) を直接ルーティングに接続するために必要な高レベルの手順と、パブリック交換電話ネットワーク (PSTN) に接続するために直接ルーティングを使用する Teams ユーザーを構成する方法について説明します。 この記事では、詳細について関連記事にリンクしています。  
+Microsoft 電話システム ダイレクト ルーティングを使用すると、オンプレミスのテレフォニー インフラストラクチャをネットワークにMicrosoft Teams。 この記事では、サポートされているオンプレミスのセッション ボーダー コントローラー (SBC) を直接ルーティングに接続するために必要な大きな手順と、直接ルーティングを使用して公衆交換電話網 (PSTN) に接続するために Teams ユーザーを構成する方法を示します。 この記事では、関連する記事にリンクして詳細を確認します。  
 
-直接ルーティングが組織に適切なソリューションであるかどうかを確認する方法については、「電話システム ダイレクト ルーティング」 [を参照してください](direct-routing-landing-page.md)。 前提条件と展開の計画については、「直接ルーティングを計画する [」を参照してください](direct-routing-plan.md)。
+ダイレクト ルーティングが組織に適切なソリューションであるかどうかを確認するには、「ダイレクト ルーティング」を電話システム[参照してください](direct-routing-landing-page.md)。 前提条件とデプロイの計画については、「直接ルーティングを計画 [する」を参照してください](direct-routing-plan.md)。
 
 > [!Tip]
-> また、次のセッションを見て、直接ルーティングの利点、プランの方法、展開方法について説明します [。Microsoft Teams](https://aka.ms/teams-direct-routing)での直接ルーティング。
+> ダイレクト ルーティングの利点、その計画方法、デプロイ方法については、次のセッションをご[Microsoft Teams覧](https://aka.ms/teams-direct-routing)ください。
 
-この記事で説明する手順を完了するには、管理者は PowerShell コマンドレットに精通している必要があります。 PowerShell の使用の詳細については、「PowerShell を使用するコンピューター [をセットアップする」を](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)Windows PowerShell。 
+この記事で説明する手順を完了するには、管理者が PowerShell コマンドレットに精通している必要があります。 PowerShell の使用の詳細については、「コンピューターをセットアップする」[を](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)参照Windows PowerShell。 
 
-これらの記事の手順を実行する前に、Microsoft では、SBC ベンダーが推奨するように SBC が既に構成されていることを確認するようにお勧めします。 
+これらの記事の手順を実行する前に、SBC ベンダーによって推奨される SBC が既に構成されていることを確認するようにお勧めします。 
 
-- [AudioCodes 展開ドキュメント](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
-- [Oracle の展開に関するドキュメント](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [AudioCodes デプロイのドキュメント](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Oracle デプロイのドキュメント](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [リボンコミュニケーションの展開に関するドキュメント](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [TE-Systems (anynode) 展開ドキュメント](https://www.anynode.de/anynode-and-microsoft-teams/)
-- [メタスイッチの展開に関するドキュメント](https://www.metaswitch.com/products/core-network/perimeta-sbc)
+- [TE-Systems (anynode) のデプロイに関するドキュメント](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [Metaswitch のデプロイに関するドキュメント](https://www.metaswitch.com/products/core-network/perimeta-sbc)
 
-サポートされている SPC の完全なリストについては、「ダイレクト ルーティング用に認定されたセッション ボーダー コントローラーのリスト [」を参照してください](direct-routing-border-controllers.md)。
+サポートされている SBC の完全な一覧については、「ダイレクト ルーティングの認定を受けたセッション ボーダー コントローラーの一覧 [」を参照してください](direct-routing-border-controllers.md)。
 
-Microsoft Phone System を構成し、ユーザーが直接ルーティングを使用するには、次の手順を実行します。 
+Microsoft 電話 システムを構成し、ユーザーが直接ルーティングを使用するには、次の手順に従います。 
 
-- **手順 1.** [SBC を Microsoft Phone System に接続し、接続を検証する](direct-routing-connect-the-sbc.md)
-- **手順 2.** [直接ルーティング、音声、ボイスメールのユーザーを有効にする](direct-routing-enable-users.md)
+- **手順 1.** [Connect システムを使用して SBC Microsoft 電話し、接続を検証する](direct-routing-connect-the-sbc.md)
+- **手順 2.** [ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする](direct-routing-enable-users.md)
 - **手順 3.** [音声ルーティングを構成する](direct-routing-voice-routing.md)
-- **手順 4.** [数値を別の形式に翻訳する](direct-routing-translate-numbers.md) 
+- **手順 4.** [数値を別の形式に変換する](direct-routing-translate-numbers.md) 
 
-複数のテナントに対して SBC を構成する場合は、「複数のテナントに対して SBC を構成する」も [参照する必要があります](direct-routing-sbc-multiple-tenants.md)。
+複数のテナントに対して SBC を構成する場合は、複数のテナントの SBC の構成に関する記事 [も参照してください](direct-routing-sbc-multiple-tenants.md)。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 

@@ -22,7 +22,7 @@ ms.locfileid: "51768356"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell の概要
 
-Microsoft Teams PowerShell は、PowerShell コマンド ラインから直接 Teams を管理するための一連のコマンドレットです。 .NET Standard で記述された Teams PowerShell は、Azure Cloud Shell を含むすべてのプラットフォームで、Windows、PowerShell 6.x 以上の PowerShell 5.1 で動作します。
+Microsoft Teams PowerShell は、PowerShell コマンド ラインから直接 Teams を管理するための一連のコマンドレットです。 .NET Standard で記述された Teams PowerShell は、Azure Cloud Shell を含むすべてのプラットフォームで Windows、PowerShell 6.x 以上の PowerShell 5.1 で動作します。
 
 PowerShell の使用を開始する前に、[それをインストール](teams-powershell-install.md)する必要があります。 
 
@@ -48,7 +48,7 @@ Teams PowerShell モジュールを使用して、Teams を完全に管理しま
 - [Microsoft Teams PowerShell モジュール](https://www.powershellgallery.com/packages/MicrosoftTeams/): Teams PowerShell モジュールには、チーム、チャット、およびチャネルを管理するためのコマンドレットが含まれています。
 
 > [!NOTE]
-> [Teams PowerShell のパブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)バージョン 2.0 以上には、すべての Skype for Business Online Connector コマンドレットが含まれるので、Teams PowerShell 管理用の 1 つのモジュールが提供されます。
+> PowerShell Teamsバージョン 2.0 以上には、すべての Skype for Business Online Connector コマンドレットが含まれています。このコマンドレットは[、PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)管理用の 1 Teamsを提供します。
 
 - [Skype for Business PowerShell コネクタ](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell): Skype for Business PowerShell コネクタは、Teams PowerShell モジュールの一部になりました。
 

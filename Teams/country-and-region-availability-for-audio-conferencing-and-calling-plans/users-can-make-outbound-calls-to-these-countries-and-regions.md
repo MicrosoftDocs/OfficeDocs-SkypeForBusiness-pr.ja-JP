@@ -1,5 +1,5 @@
 ---
-title: これらの国/地域に発信通話を発信する
+title: これらの国/地域への発信呼び出しを行う
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

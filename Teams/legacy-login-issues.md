@@ -1,5 +1,5 @@
 ---
-title: Teams で従来のシステムでメッセージと通話を受信する問題
+title: レガシ システムでのメッセージと呼び出しの受信に関するTeams
 ms.reviewer: ''
 author: cichur
 ms.author: v-cichur
@@ -13,7 +13,7 @@ ms.collection:
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 従来のシステムでのメッセージと通話の受信に関する問題のトラブルシューティング
+description: レガシ システムでのメッセージと呼び出しの受信に関する問題のトラブルシューティング
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -24,10 +24,10 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51120608"
 ---
-<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>従来のシステムでのメッセージと通話の受信に関する問題
+<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>レガシ システムでのメッセージと呼び出しの受信に関する問題
 ==============================================================
 
-以前のバージョンの Teams を使用している場合、または他のアプリケーションでログインしている場合、ユーザーはメッセージまたは通話を受信する問題が発生する可能性があります。
+以前のバージョンのアプリケーションを使用している場合、または他のアプリケーションでログインしている場合、Teamsまたは呼び出しの受信に問題がある可能性があります。
 
 ## <a name="legacy-adu-setups"></a>従来の ADU セットアップ
 
@@ -40,13 +40,13 @@ ms.locfileid: "51120608"
 > [!NOTE]
 > 「.local」 または 「.corp」 で終わるユーザー名については、ユーザー名の事前入力のスキップは既定でオンになっているため、レジストリ キーを設定してオフにする必要はありません。
 
-詳細 [については、「最新の認証を使用して Microsoft Teams](sign-in-teams.md) にサインインする」を参照してください。
+詳細については[、「最新の認証をMicrosoft Teamsサインインする」](sign-in-teams.md)を参照してください。
 
-## <a name="skype-token-revocation"></a>Skype トークン失効
+## <a name="skype-token-revocation"></a>Skypeトークンの失効
 
-パスワードを変更またはリセットすると、古いクライアントは最大 1 時間、メッセージと通話を受信しません。 この問題を解決するには、アプリを再起動するか、新しいクライアントに移動します。
+パスワードを変更/リセットすると、古いクライアントは最大 1 時間メッセージと呼び出しを受信しません。 この問題を解決するには、アプリを再起動するか、新しいクライアントに移動します。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

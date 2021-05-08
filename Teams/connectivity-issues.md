@@ -1,5 +1,5 @@
 ---
-title: Teams クライアントとの接続の問題のトラブルシューティング
+title: クライアントの接続に関する問題Teamsトラブルシューティング
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -26,7 +26,7 @@ ms.locfileid: "51101163"
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Microsoft Teams クライアントとの接続に関するトラブルシューティングを行う
 ==============================================================
 
-Microsoft Teams クライアントで発生する問題のほとんどは、ファイアウォールやプロキシ接続に原因があります。 必要な URL、IP アドレス、ポートがファイアウォールやプロキシで開かれていることを確認することにより、不要なトラブルシューティングを最小限に抑えることができます。 Microsoft Teams に必要な URL と IP の詳細については [、Microsoft 365 および Office 365 の URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) と IP アドレスのサポート記事を参照してください。 次のシナリオでは、ファイアウォールで特定の URL とポートを開く必要があります。
+Microsoft Teams クライアントで発生する問題のほとんどは、ファイアウォールやプロキシ接続に原因があります。 必要な URL、IP アドレス、ポートがファイアウォールやプロキシで開かれていることを確認することにより、不要なトラブルシューティングを最小限に抑えることができます。 Microsoft Teams に必要な URL と IP の詳細については、Microsoft 365 URL と IP アドレスのOffice 365に関する記事[を](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)参照してください。 次のシナリオでは、ファイアウォールで特定の URL とポートを開く必要があります。
 
 - 認証
 
@@ -44,10 +44,10 @@ Microsoft Teams クライアントで発生する問題のほとんどは、フ�
 
 - Skype for Business クライアントの相互運用
 
-## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>Teams がオフラインまたは低帯域幅の状態の場合
+## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>オフラインTeamsまたは低帯域幅の状態の場合
 
-良いニュースは、オフラインの場合や低帯域幅の状況でも Teams が実行を続けているという状況です。 Teams では、既存のチャットの未送信メッセージはすべて (最大 24 時間) 保存され、オンラインに戻るとすぐに送信されます。 オフライン状態が 24 時間を超える場合、Teams では未送信メッセージの再送信または削除を選択できます。 この機能を新しいチャットに追加する作業を行っています。利用可能な場合は、このドキュメントを更新します。
+オフラインまたは低帯域幅のTeamsでも、この機能は実行し続けるのが良いニュースです。 Teamsチャットのすべての未送信メッセージを保存し (最大 24 時間)、オンラインに戻るとすぐに送信します。 オフライン状態が 24 時間を超える場合は、Teamsメッセージの再送信または削除を選択できます。 この機能を新しいチャットに追加する作業を行っています。利用可能な場合は、このドキュメントを更新します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

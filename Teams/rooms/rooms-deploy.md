@@ -37,7 +37,7 @@ Microsoft Teams Rooms の展開は、基本的に次のフェーズに分けら�
 
 ## <a name="site-readiness"></a>サイトの準備 
 
-注文したデバイスが組織に配送されている間に、ネットワーク、設備、AV チームと協力して、展開の依存関係が満たされ、各サイトと部屋の電力、ネットワーク、ディスプレイの準備ができていることを確認します。 また、物理的なインストール要件を満たしていることを確認します。 物理的なインストールに関する考慮事項については、ベンダーのサイトにアクセスし、スクリーンのインストールとマウント、ケーブルの実行時に AV チームのエクスペリエンスを活用してください。
+注文したデバイスが組織に配送されている間に、ネットワーク、設備、AV チームと協力して、展開の依存関係が満たされ、各サイトと部屋の電力、ネットワーク、ディスプレイの準備ができていることを確認します。 また、物理的なインストール要件を満たしていることを確認します。 物理的なインストールに関する考慮事項については、ベンダーのサイトにアクセスし、画面のインストールとマウント、ケーブル配線の実行時に AV チームのエクスペリエンスを活用してください。
 
 これらの依存関係の詳細については、以下の計画ガイダンスのリンクを参照してください。
 
@@ -45,12 +45,12 @@ Microsoft Teams Rooms の展開は、基本的に次のフェーズに分けら�
 -   [証明書](rooms-prep.md#certificates)
 -   [プロキシ](rooms-prep.md#proxy)
 
-**プロのヒント** - プロキシ サーバーを使用して Teams または Skype for Business Online へのアクセスを提供する場合は、まず、[この記事](../proxy-servers-for-skype-for-business-online.md)を参照してください。 プロキシ サーバー経由の Skype for Business トラフィックの場合は、プロキシ サーバーを完全にバイパスすることをお勧めします。 Skype for Business トラフィックは既に暗号化されているため、プロキシ サーバーによってセキュリティが強化されることはありません。 広範囲の展開の一環として、「[Teams 用にネットワークを準備する](../prepare-network.md)」のガイダンスに従って、帯域幅の計画を行い、実際のトラフィックに対するネットワークの適合性を評価することをお勧めします。
+**プロのヒント** - プロキシ サーバーを使用して Teams または Skype for Business Online へのアクセスを提供する場合は、まず、[この記事](../proxy-servers-for-skype-for-business-online.md)を参照してください。 プロキシ サーバーを通Skype for Businessトラフィックを送信する場合は、プロキシ サーバーを完全にバイパスすることをお勧めします。 Skype for Business トラフィックは既に暗号化されているため、プロキシ サーバーによってセキュリティが強化されることはありません。 広範囲の展開の一環として、「[Teams 用にネットワークを準備する](../prepare-network.md)」のガイダンスに従って、帯域幅の計画を行い、実際のトラフィックに対するネットワークの適合性を評価することをお勧めします。
 
 |    |     |
 |-----------|------------|
 | ![サイトの確認](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトが Microsoft Teams Rooms の重要な要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅があることを確認します。</li></ul>| 
-| ![デバイスの展開を計画する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開と構成の計画を開始します。</li></ul>| 
+| ![デバイスのデプロイを計画する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開と構成の計画を開始します。</li></ul>| 
 
 ## <a name="service-readiness"></a>サービスの準備
 
@@ -99,9 +99,9 @@ Microsoft Teams Rooms のコンピューター アカウントが含まれてい
 
 -   [電源とローカル アカウントの設定](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)を行います。
 -   Windows Update を有効にします。
--   PowerShell のリモート処理を有効にします。 スクリプトを実行する起動スクリプトを構成できます。Enable-PSRemoting -Force
+-   PowerShell のリモート処理を有効にします。 スクリプトを実行する起動スクリプトを構成できます:Enable-PSRemoting -Force
 
-PowerShell を使用すると、構成情報の取得や設定など、複数のリモート管理アクティビティを実行できます。 Powershell のリモート処理は、PowerShell リモート管理を実施する *前に* 有効にしておく必要があり、展開プロセスの一部として見なすか、グループポリシーを使用して構成する必要があります。 これらの機能と有効化の詳細については、「[保守と運用](rooms-operations.md#remote-management-using-powershell)」を参照してください。 
+PowerShell を使用して、構成情報の取得や設定など、複数のリモート管理アクティビティを実行できます。 Powershell のリモート処理は、PowerShell リモート管理を実施する *前に* 有効にしておく必要があり、展開プロセスの一部として見なすか、グループポリシーを使用して構成する必要があります。 これらの機能と有効化の詳細については、「[保守と運用](rooms-operations.md#remote-management-using-powershell)」を参照してください。 
 
 
 ## <a name="configuration-and-deployment"></a>構成と展開 
@@ -129,11 +129,11 @@ Microsoft Teams Rooms の各デバイスには、固有の一意のリソース 
 
 ### <a name="device-software-installation"></a>デバイス ソフトウェアのインストール 
 
-Microsoft Teams Rooms の展開を計画する場合、必要なソフトウェアのインストールを検討する多くのオプションがあります。 一般的なシナリオと手法を次の表に示します。 
+アプリケーションをデプロイするMicrosoft Teams ミーティング、必要なソフトウェアのインストールを検討する多くのオプションがあります。 一般的なシナリオと手法を次の表に示します。 
 
 | **シナリオ**            | **手法**         |
 |-------------------------|-----------------------|   
-|いくつかの Microsoft Teams Rooms デバイスを展開する (<10)。 | Surface Pro ベースの Microsoft Teams Rooms を使用している場合は、「[デバイスごとのインストールのインストール手順l](console.md)」に従います。 [このプロセスを紹介する動画を参照してください。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 統合ソリューションを使用している場合は、ベンダーのイメージを使用して展開し、必要に応じて設定を構成します。 |
+|いくつかのデバイスをデプロイMicrosoft Teams ミーティング (<10)。 | Surface Pro ベースの Microsoft Teams Rooms を使用している場合は、「[デバイスごとのインストールのインストール手順l](console.md)」に従います。 [このプロセスを紹介する動画を参照してください。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 統合ソリューションを使用している場合は、ベンダーのイメージを使用して展開し、必要に応じて設定を構成します。 |
 | 1 つのベンダーから 10 台以上 50 台以下のデバイスを展開する。     | WIM ベースのイメージを作成し、[ガイダンスの手順 6 ](console.md)の後に一時停止して、複製配布技術で使用する配布イメージをキャプチャします。    |
 | 50 台を超える Microsoft Teams Rooms デバイスを展開する。複数のベンダーからデバイスを展開する。または、展開の一部として組織固有のエージェントを要求する。 | [Microsoft Endpoint Configuration Manager](rooms-scale.md) などのタスク シーケンサー ベースのソフトウェアのビルドおよび配布プラットフォームを使用します。  |
 
@@ -148,8 +148,8 @@ Microsoft Teams Rooms の展開を計画する場合、必要なソフトウェ�
 
 |    |     |
 |-----------|------------|
-| ![意思決定ポイントのデバイスの命名](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>展開中に使用する Microsoft Teams Rooms のデバイス命名規則を決定します。</li><li>Microsoft Teams Rooms デバイスをドメインに追加するかどうか、およびローカル アカウントを管理および構成する方法を決定します。 </li><li>Operations Management Suite を使って Microsoft Teams Rooms の展開を監視するかどうかを決定します。</li><li>デバイスの展開の準備として、Microsoft Teams Rooms システムにソフトウェアとエージェントを展開するために使用する方法を決定します。 </li></ul>| 
-| ![次のステッププラン デバイス](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開手法の計画を開始します。</li></ul>| 
+| ![decision points device naming](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>展開中に使用する Microsoft Teams Rooms のデバイス命名規則を決定します。</li><li>Microsoft Teams Rooms デバイスをドメインに追加するかどうか、およびローカル アカウントを管理および構成する方法を決定します。 </li><li>Operations Management Suite を使って Microsoft Teams Rooms の展開を監視するかどうかを決定します。</li><li>デバイスの展開の準備として、Microsoft Teams Rooms システムにソフトウェアとエージェントを展開するために使用する方法を決定します。 </li></ul>| 
+| ![次のステップでデバイスを計画する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開手法の計画を開始します。</li></ul>| 
 
 
 ### <a name="device-deployment"></a>デバイスの展開
@@ -159,7 +159,7 @@ Microsoft Teams Rooms ユニットにソフトウェアを展開した後、デ�
 
 |    |     |
 |-----------|------------|
-| ![サイトの展開を管理する](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> サイトに Microsoft Teams Rooms デバイスをインストールし、構成とテストに着手するリソースを特定します。</li></ul>| 
+| ![サイト別のデプロイを管理する](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> サイトに Microsoft Teams Rooms デバイスをインストールし、構成とテストに着手するリソースを特定します。</li></ul>| 
 | ![デバイスのテストを開始する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>| 
 
 _サンプル: 展開テーブル_

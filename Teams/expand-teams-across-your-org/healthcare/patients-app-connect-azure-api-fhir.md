@@ -16,7 +16,7 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams の患者アプリを FHIR 用 Azure API (ファースト 医療相互運用性リソース) に接続する方法について説明します。
+description: Azure API for FHIR (Fast Healthcare Interoperability Resources) Microsoft Teamsで Patients アプリを Azure API に接続する方法について説明します。
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: e06e422765c1d1d633414d24dff48e2801067f15
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -32,45 +32,45 @@ ms.locfileid: "51096269"
 >
 >リストを使用すると、医療機関のケア チームは、ラウンドや学際的なチーム会議から一般的な患者の監視に至るまでのシナリオで患者リストを作成できます。 開始するには、リストの患者テンプレートを確認してください。 組織でリスト アプリを管理する方法の詳細については、「[リスト アプリの管理](../../manage-lists-app.md)」を参照してください。
 
-Microsoft Teams の患者アプリが FHIR インスタンスの Azure API にアクセスするには、次の手順に従います。 この記事では、テナントで [FHIR](https://azure.microsoft.com/services/azure-api-for-fhir/) インスタンスの Azure API がセットアップされ、構成されていることを前提とします。  テナントに FHIR インスタンスの Azure API をまだ作成していない場合は、「クイック スタート: Azure portal を使用して FHIR 用 Azure API を展開する」を [参照してください](/azure/healthcare-apis/fhir-paas-portal-quickstart)。
+次の手順に従って、Azure API for FHIR Microsoft Teamsにアクセスできる、Azure の Patients アプリを許可します。 この記事では、テナントに [Azure API for FHIR インスタンス](https://azure.microsoft.com/services/azure-api-for-fhir/) が設定され、構成されていることを前提とします。  テナントに Azure API for FHIR インスタンスをまだ作成していない場合は、「クイック スタート: Azure portal を使用して Azure API for FHIR をデプロイする」 [を参照してください](/azure/healthcare-apis/fhir-paas-portal-quickstart)。
 
-1. ここを [クリックして](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) 、患者アプリに対する管理者の同意を付与します。 メッセージが表示されたら、テナント管理者またはグローバル管理者の資格情報を使用してサインインし、[承諾] をクリックして必要なアクセス許可を付与します。
+1. ここを [クリックして](https://login.microsoftonline.com/common/adminConsent?client_id=4aee3506-b263-43e0-ba31-1468fa7b2806) 、Patients アプリの管理者の同意を付与します。 メッセージが表示されたら、テナント管理者またはグローバル管理者の資格情報を使用してサインインし、[同意] をクリックして必要なアクセス許可を付与します。
 
-    ![患者アプリのアクセス許可要求のスクリーンショット](../../media/patients-app-permissions-request.png)
+    ![Patients アプリのアクセス許可要求のスクリーンショット](../../media/patients-app-permissions-request.png)
 
-    承諾した後、ウィンドウを閉じます。 次のようなページが表示されます。 ページ上のエラー メッセージは無視できます。 これは害を及ぼしません。同意が付与されたと示します。 (この URL のよりユーザー向けのページを作成中です。 お楽しみください)
+    承諾した後、ウィンドウを閉じます。 次のようなページが表示されます。 ページのエラー メッセージは無視できます。 これは無害であり、同意が与えらたかどうかを示します。 (この URL のより使い分け的なページに取り組み中です。 ご期待ください。
 
-    ![患者アプリのアクセス許可要求のスクリーンショット](../../media/patients-app-permissions-request-granted.png)
+    ![Patients アプリのアクセス許可要求のスクリーンショット](../../media/patients-app-permissions-request-granted.png)
 
-2. 管理者の資格情報 [で Azure Portal](https://portal.azure.com) にサインインします。
+2. 管理者の資格情報 [を使用して Azure Portal](https://portal.azure.com) にサインインします。
 
-3. 左側のナビゲーションで **、[Azure Active Directory] を選択** し、[エンタープライズ アプリケーション **] を選択します**。
+3. 左側のナビゲーションで 、[アプリケーション]**をAzure Active Directory** し、[アプリケーション] **Enterprise選択します**。
 
-    患者 (開発 **) という** 名前の行を探し、オブジェクト **ID** 列の値をクリップボードにコピーします。
+    **Patients (dev) という名前の** 行を探し、[オブジェクト **ID]** 列の値をクリップボードにコピーします。
 
-    ![Azure Portal の患者 (開発) 行のスクリーンショット](../../media/patients-app-azure-portal-object-id.png)
+    ![Azure portal の患者 (開発) 行のスクリーンショット](../../media/patients-app-azure-portal-object-id.png)
 
-4. (患者アプリを検索するか、リソースを参照して) 患者アプリを接続する FHIR リソース インスタンスの Azure API に移動し、そのインスタンスの設定を開きます。
+4. (検索するか、リソースを参照して) Patients アプリを接続する Azure API for FHIR リソース インスタンスに移動し、そのインスタンスの設定を開きます。
 
-    ![Azure portal の FHIR インスタンス設定の Azure API のスクリーンショット](../../media/patients-app-azure-portal-instance-settings.png)
+    ![Azure portal での Azure API for FHIR インスタンス設定のスクリーンショット](../../media/patients-app-azure-portal-instance-settings.png)
 
-5. [ **認証]** をクリックし、手順 3 でコピーしたオブジェクト ID を [許可されたオブジェクト ID] ボックスに **貼り付** けます。 これにより、患者アプリは FHIR サーバーにアクセスできます。 オブジェクト ID を貼り付けると、Azure Active Directory によって検証され、その横に緑色のチェック マークが表示されます。
+5. [ **認証]** をクリックし、手順 3 でコピーしたオブジェクト ID を [許可された **オブジェクト ID] ボックスに貼り付** けます。 これにより、Patients アプリは FHIR サーバーにアクセスできます。 オブジェクト ID を貼り付Azure Active Directory検証すると、その横に緑色のチェック マークが表示されます。
 
     ![Azure portal の認証設定のスクリーンショット](../../media/patients-app-azure-portal-authentication.png)
 
-6. **[保存]** をクリックします。 これにより、インスタンスが再配置されます。これには数分かかる場合があります。
+6. **[保存]** をクリックします。 これにより、インスタンスが再デプロイされます。これには数分かかる場合があります。
 
-7. [ **概要]** をクリックし、FHIR メタデータ エンドポイントから URL **をコピーします**。 メタデータ タグを削除して FHIR サーバー URL を取得します。 たとえば `https://test02-teamshealth.azurehealthcareapis.com/` 、.
+7. [ **概要]** をクリックし、FHIR メタデータ エンドポイント **から URL をコピーします**。 メタデータ タグを削除して、FHIR サーバーの URL を取得します。 たとえば、 `https://test02-teamshealth.azurehealthcareapis.com/` です。
 
-    ![Azure Portal のメタデータ エンドポイント](../../media/patients-app-azure-portal-metadata-endpoint.png)
+    ![Azure portal のメタデータ エンドポイント](../../media/patients-app-azure-portal-metadata-endpoint.png)
 
-8. Teams で、チームに読み込まれている患者アプリ インスタンスに移動し、[設定] をクリックし、[リンク] ボックスに FHIR サーバー エンドポイントの URL を入力します。 次に、[接続 **] をクリック** して接続を確立し、患者を検索し、リストに追加します。  
+8. このTeams、チームに読み込まれている Patients アプリ インスタンスに移動し **、[設定]** をクリックし、[リンク] ボックスに FHIR サーバー エンドポイント URL を入力します。 次に **、[Connect]** をクリックして接続を確立し、患者を検索してリストに追加します。  
 
-    ![ Teams の患者アプリの設定](../../media/patients-app-teams.png)
+    ![ 患者アプリの設定 (Teams](../../media/patients-app-teams.png)
 
-    この手順で Teams に接続するときにエラーが発生した場合は、エラーの詳細なスクリーンショット [、Fiddler](https://www.telerik.com/download/fiddler) からのログ、その他の再現手順をメールに送信し、件名行に "患者アプリ – EMR モードトラブルシューティング" を [teamsforhealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com)に送信します。
+    この手順で Teams に接続するときにエラーが発生した場合は、エラーの詳細なスクリーンショット[、Fiddler](https://www.telerik.com/download/fiddler)からのログ、その他の再現手順を電子メールに送信し、件名行に "Patients App – EMR mode troubleshooting" を teamsforhealthcare@service.microsoft.com に送信[します。](mailto:teamsforhealthcare@service.microsoft.com)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [患者アプリの概要](patients-app-overview.md)
 - [電子医療記録を Microsoft Teams に統合する](patients-app.md)

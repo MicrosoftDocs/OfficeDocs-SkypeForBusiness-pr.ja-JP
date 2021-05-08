@@ -108,7 +108,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    構文とパラメーターの詳細については、「[Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
-4. POWERShell コマンドレットを実行して、MS Online PowerShell に接続して Active Directory `Connect-MsolService -Credential $cred` の設定を行います。 Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。
+4. Connect MS Online PowerShell に移動し、PowerShell コマンドレットを実行して Active Directory `Connect-MsolService -Credential $cred` の設定を行います。 Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。
@@ -147,7 +147,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    ```  -->
 
 > [!NOTE]
-> パスワードが [有効期限なし] に設定されていない場合、アカウントの有効期限が切れると、アカウントはデバイスにサインインしなくなりました。 その後、アカウントのパスワードを変更する必要があります。また、ローカルの場合は、このパスワードも、ローカルの(または)、ローカルの(または)、(または)、()、パスワードを変更する必要があります。また
+> パスワードが [有効期限なし] に設定されていない場合、アカウントが有効期限に達すると、アカウントはデバイスにサインインしなくなりました。 その後、アカウントのパスワードを変更する必要があります。また、ローカルの場合は、そのアカウントのパスワードを変更する必要があります。また、このパスワードは、そのアカウントのローカルで更新する必要があります。
 
 6. デバイス アカウントには、有効な Microsoft 365 または Office 365 ライセンスが必要です。ライセンスがない場合は Exchange と Microsoft Teams または Skype for Business が動作しません。 ライセンスを所有している場合は、使用場所をデバイス アカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。 `Get-MsolAccountSku` を使用して、 <!-- Get-AzureADSubscribedSku --> 次のように、Microsoft 365 または Office 365 組織で使用できる SKU の一覧を取得できます。
 
@@ -160,7 +160,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   次に、`Set-MsolUserLicense` コマンドレットを使用してライセンスを追加  <!--Set-AzureADUserLicense --> することができます。 この例では、会議室のライセンスをアカウントに追加します。
+   次に、`Set-MsolUserLicense` コマンドレットを使用してライセンスを追加  <!--Set-AzureADUserLicense --> することができます。 この例では、アカウントミーティング ルームライセンスを追加します。
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
@@ -175,7 +175,7 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    詳細な手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
 
-   このアカウントには電話システムの機能を追加することもできますが、最初に設定する必要があります。 詳細 [については、「電話システムとは?」](../what-is-phone-system-in-office-365.md) を参照してください。 この例では、PSTN 国内通話プランと国際通話プランを追加します。
+   このアカウントには電話システム機能を追加することもできますが、最初に構成する必要があります。 詳細については[、「電話システムとは](../what-is-phone-system-in-office-365.md)」を参照してください。 この例では、PSTN 国内通話プランと国際通話プランを追加します。
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"

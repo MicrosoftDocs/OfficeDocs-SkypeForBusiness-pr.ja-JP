@@ -1,6 +1,6 @@
 ---
 title: '政府機関用の Teams '
-description: Microsoft 365 Government 環境で Teams を計画して展開する方法について説明します。
+description: Teams Government 環境でアプリケーションを計画Microsoft 365する方法について学習します。
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -22,11 +22,11 @@ ms.locfileid: "51092405"
 ---
 # <a name="teams-for-government"></a>政府機関用の Teams 
 
-以下のリソースを使用して、Microsoft 365 Government 環境での Teams の展開に関する特定の考慮事項について説明します。 準備ができたら、「Microsoft Teams を展開する方法」で説明されているのと同じ、Teams の推奨 [される展開パスに従います](../deploy-overview.md)。
+これらのリソースを使用して、政府機関の環境にデプロイする際のTeamsについてMicrosoft 365説明します。 準備ができたら、「Teams をロールアウトする方法」で説明されているのと同じ推奨されるデプロイ[パスに従Microsoft Teams。](../deploy-overview.md)
 
 |               |               |
 | ------------- | ------------- |
-| ![番号付きリスト アイコンのスクリーンショット](../media/list-123-teams.svg)  |  [Microsoft 365 Government の計画 - GCC 展開](../plan-for-government-gcc.md) |
-| ![タスク アイコンの一覧が表示されたクリップボードのスクリーンショット](../media/tasks-teams.svg) | [Microsoft 365 Government の計画: GCC High](../plan-for-government-gcc-high.md) |
-| ![箇条書き項目アイコンのスクリーンショット](../media/task-list-planning-teams.svg)  |  [Microsoft 365 Government の計画 - DOD 展開](../plan-for-government-dod.md) |
+| ![番号付きリスト アイコンのスクリーンショット](../media/list-123-teams.svg)  |  [Microsoft 365 Government の計画 - GCCデプロイ](../plan-for-government-gcc.md) |
+| ![タスクアイコンの一覧が表示されたクリップボードのスクリーンショット](../media/tasks-teams.svg) | [Microsoft 365 Government の計画: GCC High](../plan-for-government-gcc-high.md) |
+| ![箇条書き項目アイコンのスクリーンショット](../media/task-list-planning-teams.svg)  |  [政府機関向Microsoft 365 - DOD デプロイの計画](../plan-for-government-dod.md) |
 | ![右矢印アイコンのスクリーンショット](../media/arrow-right-2-teams.svg)  |  [GCC High および DoD のダイレクト ルーティングを使用する電話会議](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

@@ -33,9 +33,9 @@ ms.locfileid: "51117455"
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共有コミュニケーション デバイスのライセンス ソリューション
 
-Microsoft には、会議室デバイスのライセンス会議と通話をデバイス単位で行う専用 SKU が 2 つあります (Microsoft Teams 会議室、Microsoft Surface Hub、Microsoft Teams のコラボレーション バーなど)。
+Microsoft には、会議のライセンスを取得し、会議室デバイス (Microsoft Teams ミーティング、Microsoft Surface Hub、Microsoft Teams のコラボレーション バーなど) をデバイスごとに呼び出す専用 SKU が 2 つあります。
 
-||Microsoft Teams Rooms Standard |Microsoft Teams Rooms Premium |
+||Microsoft Teams ミーティングStandard |Microsoft Teams ミーティング プレミアム |
 |:--- |:---: |:---: |
 |Skype for Business |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -44,14 +44,14 @@ Microsoft には、会議室デバイスのライセンス会議と通話をデ�
 |Microsoft Intune|&#x2714;|&#x2714;|  
 |世界的な可用性 | &#x2714; &sup2;| &#x2714; &sup2;|
 |チャネルの可用性 | EA、EAS、CSP、 <br/>Web ダイレクト | EA、EAS、CSP、 <br/>Web ダイレクト |
-|管理対象サービス | | &#x2714; &sup3;|
+|マネージド サービス | | &#x2714; &sup3;|
 | | | |
 
 &sup1; 可用性と含まれる分数は、地域によって異なる場合があります。 サービスの可用性を確認するには、「[国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans)」を参照してください。 追加のサービス (国内プランの無料の国際通話時間など) に対しては従量課金が発生する場合があります。ユーザーは、これらの機能を無効にして、追加の課金が発生しないようにできます。  
 
 &sup2; ソブリン クラウドでは使用不可  
 
-&sup3;詳細と空き時間情報については [、Microsoft Teams の会議室管理サービスを参照してください](microsoft-teams-rooms-premium.md)。
+&sup3;詳細と可用性については、「マネージド サービスのMicrosoft Teams ミーティング[を参照してください](microsoft-teams-rooms-premium.md)。
 
 > [!NOTE]
 > 電話会議が含まれる Skype for Business プラン 2、または Office 365 電話システムと通話プランで、E1、E3、E4、E5 SKU を現在お使いの場合、これらは引き続き機能します。 ただし、現在のライセンスの有効期限が切れた後は、上の表に示した、よりシンプルなライセンス モデルへの移行をご検討いただく必要があります。
@@ -66,12 +66,12 @@ Microsoft には、会議室デバイスのライセンス会議と通話をデ�
 
 |  | Microsoft Teams または Skype for Business Online を所有。 <br/> 購入が必要なもの:   |Skype for Business Server 2015/2019 (オンプレミスまたはハイブリッド) を所有。 <br/> 購入が必要なもの:|
 |:-----|:-----|:-----|
-|スケジュールされた会議への参加  | Microsoft Teams Rooms Standard または Premium  |Skype for Business Server Standard CAL  |
-|アドホック会議の開始 | Microsoft Teams Rooms Standard または Premium  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|アドホック会議を開始し、会議から電話番号にダイヤル アウト |  Microsoft Teams Rooms Standard または Premium |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|会議室に電話番号を付け、その部屋から電話を受ける、または電話番号を使って音声会議に参加する  | 直接ルーティングの場合: Microsoft Teams Rooms Standard または Premium<br/>ダイレクト ルーティングなし: 国内通話プランまたは国際通話プラン<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Microsoft Intune を使用した会議室デバイスの管理 |Microsoft Teams Rooms Standard または Premium  |[オンプレミス MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) を含む Microsoft Intune サブスクリプション |
-|Microsoft Teams の会議室管理サービス | Microsoft Teams Rooms Premium ||
+|スケジュールされた会議への参加  | Microsoft Teams ミーティングStandard または プレミアム  |Skype for Business Server Standard CAL  |
+|アドホック会議の開始 | Microsoft Teams ミーティングStandard または プレミアム  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|アドホック会議を開始し、会議から電話番号にダイヤル アウト |  Microsoft Teams ミーティングStandard または プレミアム |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|会議室に電話番号を付け、会議室から通話を送受信したり、電話番号を使って音声会議に参加したりします。  | ダイレクト ルーティングの場合: Microsoft Teams ミーティング Standard または プレミアム<br/>ダイレクト ルーティングなし: 国内通話プランまたは国際通話プラン<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Microsoft Intune を使用した会議室デバイスの管理 |Microsoft Teams ミーティングStandard または プレミアム  |[オンプレミス MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) を含む Microsoft Intune サブスクリプション |
+|Microsoft Teams ミーティングマネージド サービス | Microsoft Teams ミーティング プレミアム ||
 | |||
 
 > [!NOTE]
@@ -79,4 +79,4 @@ Microsoft には、会議室デバイスのライセンス会議と通話をデ�
 
  **正しいバージョンの Windows 10 を使用する**。Windows 10 イメージをデバイスに展開する場合は、「[Microsoft Teams Rooms コンソールを構成する](./console.md)」を参照してください。 [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを入手できます。 
  
- 「会議室での [優れたエクスペリエンス:新しい Microsoft Teams Rooms Standard](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)と Premium をご利用ください。」をご覧ください。
+ 「会議室[の素晴らしいエクスペリエンス: Standard と新しい会議をMicrosoft Teams ミーティング」もプレミアム。](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)

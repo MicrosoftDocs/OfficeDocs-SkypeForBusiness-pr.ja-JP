@@ -1,5 +1,5 @@
 ---
-title: 中国 - 南部の無料ダイヤル制限
+title: 中国の無料ダイヤル制限 - 南部
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 中国南部での無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、中国南部での無料電話番号のダイヤルについて学習します。
 ms.openlocfilehash: ea2b2e535f491f57e5aad41244e56afff3490ebb
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

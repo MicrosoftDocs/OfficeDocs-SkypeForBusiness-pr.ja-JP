@@ -27,16 +27,16 @@ ms.locfileid: "51122201"
 
 この記事では、Skype for Business Online および Microsoft Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。 この記事では、次の環境からの移行について説明します。 
  
-- 通話プラン付き電話システム (Teams および Skype for Business Online 用) 
-- Skype for Business Server のオンプレミス PSTN 接続を使用した電話システム (Skype for Business Online 用)  
-- Cloud Connector エディション (Skype for Business Online 用) を使用したオンプレミス PSTN 接続を使用した電話システム
+- 電話システムプランの使用 (Teams および Skype for Business Online の場合) 
+- 電話システムのオンプレミス PSTN 接続を使用したSkype for Business Server (Skype for Business Online の場合)  
+- 電話システム Cloud Connector Edition を使用したオンプレミス PSTN 接続の使用 (Skype for Business Online の場合)
 
 
 これらの構成手順に加えて、通話を新しいルートへルーティングするために、セッション ボーダー コントローラー (SBC) 上での構成も必要です。 これは、このドキュメントの範囲外です。 詳細については、SBC 業者の資料を参照してください。  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>さまざまな PSTN 接続オプションのユーザー プロビジョニングの最終状態 
 
-次の表に、電話システムで選択した PSTN 接続オプション用にプロビジョニングされたユーザーの終了状態を示します。 音声に関連する属性だけが表示されています。
+次の表は、選択した PSTN 接続オプションに対してプロビジョニングされたユーザーの終了状態を示電話システム。 音声に関連する属性だけが表示されています。
 
 |ユーザー オブジェクトの属性 |通話プランが設定された電話システム|Skype for Business Server 経由のオンプレミス PSTN 接続による電話システム|クラウド コネクタ経由のオンプレミス PSTN 接続による電話システム|ダイレクト ルーティング経由のオンプレミス PSTN 接続による電話システム|
 |---|---|---|---|---|
@@ -92,12 +92,12 @@ Skype for Business Server のオンプレミス PSTN 接続による電話シス
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > [!NOTE]
-> グローバル CsVoiceRoutingPolicy が構成されている場合は、このグローバル ポリシーに関連付けられている PSTN 使用状況を削除するようにお勧めします。 
+> グローバル CsVoiceRoutingPolicy が構成されている場合は、このグローバル ポリシーに関連付けられている PSTN 使用法をすべて削除してください。 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>クラウド コネクタ エディション経由のオンプレミス PSTN 接続による Office 365 電話システムからの移行 
 
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](direct-routing-landing-page.md)。
+> Cloud Connector Edition は、2021 年 7 月 31 日に Skype for Businessされます。 組織が Teams にアップグレードしたら、直接ルーティング を使用してオンプレミスのテレフォニー ネットワークを Teams接続する方法[について説明します](direct-routing-landing-page.md)。
 
 クラウド コネクタ エディション経由のオンプレミス PSTN 接続による電話システムからの移行の詳細については、次を参照してください。
 

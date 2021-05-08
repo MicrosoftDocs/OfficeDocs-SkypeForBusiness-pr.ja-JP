@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams を組織全体で展開する
-description: 特定の組織の種類の Teams を活用するために役立つ、標準的な Teams 展開を構築するために利用可能なリソースについて説明します。
+description: 特定の組織の種類のリソースを活用するためにTeamsデプロイで構築するために使用できるリソースTeams説明します。
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -24,9 +24,9 @@ ms.locfileid: "51121365"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Microsoft Teams を組織全体で展開する
 
-これらのリソースは、標準的な Teams の展開ガイダンスを基に構築され、特定の組織の種類の Teams を活用するのに役立ちます。 Teams をまだ展開していない場合は、「Microsoft Teams を展開する方法」で Teams への推奨 [パスを参照してください](../deploy-overview.md)。
+これらのリソースは、標準のデプロイ ガイダンスTeams基に構築され、特定の組織の種類のリソースをTeamsを得るのに役立ちます。 まだデプロイしていない場合Teamsを展開する方法に関するページTeamsを参照[Microsoft Teams。](../deploy-overview.md)
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | ![task-checklist-planning-teams](../media/clock-teams-small.svg)  |  [Shifts for Teams](./shifts-for-teams-landing-page.md) |![health-teams](../media/health-teams-small.svg)  | [医療関係組織向けのTeams](./teams-for-healthcare-landing-page.md) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [教育機関向けの Teams ](./teams-for-education-landing-page.md) 
-|![小規模ビジネス チーム](../media/small-business-teams-small.svg)  | [小売店向けの Teams](./teams-for-retail-landing-page.md) |![blocks-teams](../media/blocks-teams-small.svg)  | [政府機関用の Teams ](./teams-for-government-landing-page.md) |               |               |
+|![small-business-teams](../media/small-business-teams-small.svg)  | [小売店向けの Teams](./teams-for-retail-landing-page.md) |![blocks-teams](../media/blocks-teams-small.svg)  | [政府機関用の Teams ](./teams-for-government-landing-page.md) |               |               |

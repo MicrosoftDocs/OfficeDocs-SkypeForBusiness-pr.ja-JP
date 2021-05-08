@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Teams が既定の通話および会議アプリケーションになじむ、Teams for Surface Hub アプリをインストールして構成する方法について学習します。
+description: 既定の通話および会議アプリケーションTeams、Surface HubアプリのTeams構成する方法について学習します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:

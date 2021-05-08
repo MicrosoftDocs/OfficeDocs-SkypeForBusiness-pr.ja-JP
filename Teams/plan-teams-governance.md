@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: この記事では、Teams でのガバナンス機能の実装を計画する方法について説明します。
+description: この記事では、ガバナンス機能の実装を計画する方法について説明Teams。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -46,20 +46,20 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 > 事前に計画を立てやすくなるために、[これらのポリシーの設定について、およびどのライセンスが必要とされるかについて確認してください](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> 多くの Microsoft 365 および Office 365 サービスでは、サービスを機能するためにグループを作成する必要があるため、グループとチームの作成を制限すると、ユーザーの生産性が低下する可能性があります。 詳細については [、Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)グループを作成するユーザーを制御する理由に移動して展開します。
+> グループとチームの作成を制限すると、ユーザーの生産性が低下する可能性があります。多くの Microsoft 365 サービスと Office 365 サービスを機能するには、グループを作成する必要があります。 詳細については、グループを作成するユーザーを制御する[理由に](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)移動して展開Microsoft 365します。
 
 
 #### <a name="additional-information"></a>追加情報
 
 要件の決定後、Azure AD のコントロールを使用してその要件を実装できます。これらの設定を実装する方法に関する技術面のガイダンスは、次をご覧ください。
 
-- [グループ設定を構成するための Azure Active Directory コマンドレット](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [Azure Active Directory設定を構成するための新しいコマンドレット](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
-- [Azure Active Directory で Microsoft 365 グループに名前付けポリシーを適用する](/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [グループに名前付けポリシーを適用Microsoft 365グループAzure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
-- [Microsoft 365 グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
+- [Microsoft 365グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
-- [Microsoft Teams、Microsoft 365 グループ、SharePoint サイトのコンテンツを保護するために感度ラベルを使用する](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [感度ラベルを使用して、Microsoft Teams、Microsoft 365、サイトのコンテンツをSharePointする](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
 - [グループ、チーム、およびグループのライフサイクルのYammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
@@ -77,8 +77,8 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 |機能 |詳細 |Azure AD Premium ライセンスが必要 |Decision |
 |---------|---------|---------|---------|
-|有効期限ポリシー |有効期限ポリシーを設定して、Microsoft 365 グループのライフサイクルを管理します。 |P1 |TBD|
-|アイテム保持ポリシー |セキュリティ/コンプライアンス センター内で Teams の保持ポリシーを設定することによって特定の期間におけるデータを保持または削除します。 **注**: この機能を使用するには、Microsoft 365 または Office 365 Enterprise E3 以上のライセンスが必要です。 |いいえ |TBD |
+|有効期限ポリシー |有効期限ポリシーを設定Microsoft 365グループのライフサイクルを管理します。 |P1 |TBD|
+|アイテム保持ポリシー |セキュリティ/コンプライアンス センター内で Teams の保持ポリシーを設定することによって特定の期間におけるデータを保持または削除します。 **注**: この機能を使用するには、E3 以上Microsoft 365またはOffice 365 Enterpriseライセンスが必要です。 |いいえ |TBD |
 |アーカイブと復元 |チームがアクティブでなくなったときにチームをアーカイブして、参照用または将来再アクティブ化するために保持します。 |いいえ |TBD |
 
 > [!Note]
@@ -88,7 +88,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 これらの設定を実装する方法についての技術面のガイダンスは、次をご覧ください。
 
-- [Microsoft 365 グループの有効期限を設定します](/azure/active-directory/users-groups-roles/groups-lifecycle)。
+- [グループの有効期限Microsoft 365設定します](/azure/active-directory/users-groups-roles/groups-lifecycle)。
 
 - [Teams の保持ポリシーをセットアップする](retention-policies.md).
 
@@ -96,36 +96,36 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 ## <a name="group-and-team-membership-management"></a>グループとチームのメンバーシップ管理
 
-迅速なオンボーディングとオフボーディングが必要なチーム、またはユーザーとゲストには、プロジェクト ベースのグループまたは制限付きグループのメンバーを一貫して管理する必要があります。 また、組織では、現在のすべてのメンバーがチーム内に業務上の正当な理由を持っている必要がある場合があります。 メンバーの管理は、チーム所有者が離れ、通常、プロジェクトが終了したり役割を変更したりするときに、ユーザーが自らグループを離れないので、難しい場合があります。 必要に応じてユーザーがアクセスできるが、グループに不適切なアクセスのリスクが生じなかったグループ メンバーシップを管理する最適な方法は、資格管理とアクセスレビューの 2 つの地区プロセスを通じて行う方法です。
+迅速なオンボーディングとオフボード、またはユーザーとゲストを必要とするチームでは、プロジェクト ベースまたは制限付きグループのメンバーを一貫して管理する必要があります。 また、組織は、現在のすべてのメンバーがチーム内に入るビジネス上の正当な理由を持っている必要がある場合があります。 メンバーの管理は、チーム所有者が離れる可能性が高く、通常、プロジェクトが終了したりロールを変更したりするときに、ユーザーが自分でグループを離れないので、難しい場合があります。 必要に応じてユーザーがアクセスできるが、グループが不適切なアクセスのリスクを持たなかったグループ メンバーシップを管理する最善の方法は、資格管理とアクセス レビューの 2 つの地区プロセスを通じて行う方法です。
 
-[資格管理](/azure/active-directory/governance/entitlement-management-overview) を使用すると、プロジェクト マネージャーなどの誰かに委任して、チームのメンバーシップを含む必要なすべてのリソースを 1 つのパッケージに収集できます。 また、要求を行えるユーザー (テナント内のユーザーまたは他の接続されている組織からのユーザー) を定義できます。 プロジェクト マネージャーは、メールでアクセス要求を受信し、MyAccess ポータルで要求を承認または拒否します。 管理者は、アクセスが更新されていない限り、ユーザーまたはゲストがチームから削除される期限の日付または期間を含めるアクセスの条件を構成できます。 管理者は、チームに関連付けられているグループを設定して、アクセスレビューに参加することもできます。 アクセス [のレビューでは、](/azure/active-directory/governance/access-reviews-overview)グループの所有者は定期的にアラームを受け取り、チームのメンバーを確認します。 Access のレビューには推奨事項が含まれるので、グループ所有者は通常の構成証明プロセスを簡単に実行できます。
+[資格管理](/azure/active-directory/governance/entitlement-management-overview) を使用すると、プロジェクト マネージャーなどのユーザーに委任して、チーム メンバーシップを含む必要なすべてのリソースを 1 つのパッケージに収集できます。 また、要求を行えるユーザー (テナント内のユーザー、または他の接続された組織からのユーザー) を定義できます。 プロジェクト マネージャーは、メールでアクセス要求を受信し、MyAccess ポータルで要求を承認または拒否します。 管理者は、アクセスが更新されていない限り、ユーザーまたはゲストがチームから削除される有効期限または期間を含めるアクセス条件を構成できます。 管理者は、アクセス レビューに参加するチームに関連付けられているグループを設定することもできます。 アクセス [レビューの場合、](/azure/active-directory/governance/access-reviews-overview)グループ所有者は定期的にアラームを受け取り、チームのメンバーを確認します。 アクセス レビューには推奨事項が含まれるので、グループ所有者は通常の構成証明プロセスを簡単に実行できます。
 
 |-|-|-|
 |:-|:-|:-|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 判断ポイント | 組織では、1 つ以上のチームのメンバーシップを管理するための一貫したプロセスが必要ですか? <br> 組織では、定期的に 1 つ以上のチームの継続的なメンバーシップを正当化するために、所有者またはメンバー自身が必要ですか? <br> 組織では、チーム、グループ、SharePoint サイト、アプリなどのリソースへのアクセスを要求するために、ユーザーとゲストの承認が必要ですか? |
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 次の手順 | 各チームまたは特定のチームのメンバーシップの有効期限が切れている組織の要件を文書化します。<br>チーム、グループ、SharePoint サイト、アプリをアクセス パッケージにまとめてバンドルする方法を計画します。<br>要求者のマネージャー、プロジェクト マネージャー、接続されている組織のスポンサー、組織内のセキュリティ責任者など、アクセス要求を承認または拒否する必要があるユーザーを計画します。 |
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 判断ポイント | 組織では、1 つ以上のチームのメンバーシップを管理するための一貫したプロセスが必要ですか? <br> 組織では、定期的に 1 つ以上のチームの継続的なメンバーシップを正当化するために、所有者またはメンバー自身が必要ですか。 <br> 組織では、チーム、グループ、サイト、アプリなどのリソースへのアクセスを要求するために、ユーザーとゲストSharePoint必要ですか。 |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 次の手順 | メンバーシップの有効期限について、各チームまたは特定のチームの組織の要件を文書化します。<br>アクセス パッケージにチーム、グループ、SharePointアプリをまとめてバンドルする方法を計画します。<br>要求者のマネージャー、プロジェクト マネージャー、接続されている組織のスポンサー、組織内のセキュリティ責任者などのユーザーがアクセス要求を承認または拒否する必要があるユーザーを計画します。 |
 
 > [!TIP]
 > 次の表を使用して、組織の要件を把握します。
 
 | 機能 | 詳細 | Azure AD Premium ライセンスが必要 | Decision |
 |:-|:-|:-|:-|
-| Access のレビュー | アクセスレビューを設定して一定の間隔で特定のチームのメンバーシップを再認定する | P2 | TBD |
-| 資格管理 | ユーザーとゲストがチームへのアクセスを要求できるアクセス パッケージをセットアップする | P2 | TBD |
+| アクセス レビュー | アクセス レビューを設定して、一定の間隔で特定のチームのメンバーシップを再認定する | P2 | TBD |
+| 権利管理 | ユーザーとゲストがチームへのアクセスを要求できるアクセス パッケージを設定する | P2 | TBD |
 
 > [!NOTE]
-> 前もって計画を立てるには、 [必要なライセンスの詳細を確認してください](https://azure.microsoft.com/pricing/details/active-directory/)。
+> 前もって計画を立てるには、必要 [なライセンスの詳細を確認してください](https://azure.microsoft.com/pricing/details/active-directory/)。
 
 ### <a name="additional-information"></a>追加情報
 
 これらの設定を実装する方法についての技術面のガイダンスは、次をご覧ください。
 
-- [資格管理](/azure/active-directory/governance/entitlement-management-overview)
-- [Access のレビュー](/azure/active-directory/governance/access-reviews-overview)
+- [権利管理](/azure/active-directory/governance/entitlement-management-overview)
+- [アクセス レビュー](/azure/active-directory/governance/access-reviews-overview)
 
 ## <a name="teams-feature-management"></a>Teams 機能の管理
 
-Teams でのガバナンスおよびライフサイクル管理のもう 1 つの重要な側面として、自分たちのユーザーがどの機能にアクセスするかを制御する機能があります。 メッセージング、会議、通話の機能は、Microsoft 365 または Office 365 組織レベルまたはユーザーごとに管理できます。
+Teams でのガバナンスおよびライフサイクル管理のもう 1 つの重要な側面として、自分たちのユーザーがどの機能にアクセスするかを制御する機能があります。 メッセージング、会議、通話機能は、組織レベルまたはMicrosoft 365レベルOffice 365ユーザーごとに管理できます。
 
 
 |-        |-        |
@@ -144,13 +144,13 @@ Teams にはポリシーを介して、メッセージング、会議、通話�
 - [Microsoft Teams のプライベート チャネル](private-channels.md)
 - [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
 - [Teams でメッセージング ポリシーを管理する](messaging-policies-in-teams.md)
-- [Microsoft Teams 管理センターでアプリを管理する](manage-apps.md)
+- [管理センターでアプリMicrosoft Teams管理する](manage-apps.md)
 
-また、チャンネルのモデレートを設定し、特定のユーザーにモデレーター機能を与え、誰がチャネル投稿を作成してそれに応答できるのか制御できます。 詳細 [については、「Microsoft Teams でのチャネル](manage-channel-moderation-in-teams.md) モデレートの設定と管理」を参照してください。
+さらに、チャネルのモデレーションを設定し、特定のユーザーにモデレーター機能を提供して、チャネル投稿を作成してそれに応答できるユーザーを制御できます。 詳細[については、「Microsoft Teams でのチャネル モデレーションの設定](manage-channel-moderation-in-teams.md)と管理」を参照してください。
 
 ## <a name="security-and-compliance"></a>セキュリティとコンプライアンス
 
-Teams は、Microsoft 365 および Office 365 の高度なセキュリティとコンプライアンス機能の上に構築され、監査とレポート、コンプライアンス コンテンツ検索、電子検出、法的保持、アイテム保持ポリシーをサポートします。
+Teamsは、Microsoft 365 と Office 365 の高度なセキュリティとコンプライアンスの機能を基に構築され、監査とレポート、コンプライアンス コンテンツ検索、電子検出、法的保持、保持ポリシーをサポートします。
 
 > [!Important]
 > 自分の組織でコンプライアンスおよびセキュリティに関する要件がある場合は、「[Microsoft Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」の記事で、このトピックについての掘り下げた内容を確認してください。
@@ -159,7 +159,7 @@ Teams は、Microsoft 365 および Office 365 の高度なセキュリティと
 
 [Teams のガバナンスのクイック スタート](teams-adoption-governance-quick-start.md)
 
-[セキュリティとコンプライアンスに関する Microsoft 365 &ガイダンス](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+[Microsoft 365コンプライアンスに関する&ガイダンス](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 <!--
 ## Teams lifecycle management

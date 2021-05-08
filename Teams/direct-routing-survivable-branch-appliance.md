@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 構成、必要な主要な展開決定、音声ルーティングに関する考慮事項など、ダイレクト ルーティングの詳細について説明します。
+description: 構成、必要なコア デプロイの決定、音声ルーティングに関する考慮事項など、ダイレクト ルーティングの詳細について説明します。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
@@ -28,28 +28,28 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096427"
 ---
-# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>ダイレクト ルーティング用の分岐電気機器 (SBA)
+# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>ダイレクト ルーティングのための存続可能ブランチ アプライアンス (SBA)
 
 
-場合によっては、Microsoft Phone System に接続するためにダイレクト ルーティングを使用しているお客様のサイトで、インターネットが停止することがあります。
+場合によっては、ダイレクト ルーティングを使用してシステムに接続する顧客サイトMicrosoft 電話インターネットが停止することがあります。
 
-ブランチと呼ばれるお客様のサイトが、直接ルーティングを通じて Microsoft クラウドに一時的に接続できないことを想定します。 ただし、ブランチ内のイントラネットは引き続き完全に機能し、ユーザーは PSTN 接続を提供しているセッション ボーダー コントローラー (SBC) に接続できます。
+ブランチと呼ばれるお客様のサイトが、直接ルーティングを介して一時的に Microsoft クラウドに接続できないとします。 ただし、ブランチ内のイントラネットは引き続き完全に機能し、ユーザーは PSTN 接続を提供するセッション ボーダー コントローラー (SBC) に接続できます。
 
-この記事では、停止した場合に Microsoft Phone System が公衆交換電話網 (PSTN) 通話を発信および受信し続け、発信および受信を行う場合に、SBA (不可不可) の分岐電気機器 (SBA) を使用する方法について説明します。
+この記事では、存続可能ブランチ アプライアンス (SBA) を使用して、障害が発生した場合に Microsoft 電話 System が引き続き公衆交換電話網 (PSTN) 通話を発信および受信できる方法について説明します。
 
 ## <a name="prerequisites"></a>前提条件
 
-SBA は、Microsoft が SBC ベンダーに提供するコードを配布可能なコードで、その後、ファームウェアにコードを埋め込むか、別の VM またはハードウェアで SBA を実行するために個別に配布します。 
+SBA は、Microsoft が SBC ベンダーに提供する再配布可能なコードです。その後、コードをファームウェアに埋め込むか、別の VM またはハードウェアで SBA を実行するために個別に配布します。 
 
-埋め込まれたEdvedable Branch Controller を使用して最新のセッション ボーダー コントローラーファームウェアを取得するには、SBC ベンダーにお問い合わせください。 さらに、次の情報が必要です。
+組み込みの存続可能ブランチ アプライアンスを使用して最新のセッション ボーダー コントローラー ファームウェアを取得するには、SBC ベンダーにお問い合わせください。 さらに、次の情報が必要です。
 
-- ブランチ サイトの Microsoft Teams クライアントが SBC を使用して直接メディアを流し込むには、メディア バイパス用に SBC を構成する必要があります。 
+- ブランチ サイト内の Microsoft Teams クライアントが SBC と直接流れるメディアを確保するには、メディア バイパス用に SBC を構成する必要があります。 
 
 - SBA VM OS で TLS1.2 を有効にする必要があります。
 
-## <a name="supported-teams-clients"></a>サポートされている Teams クライアント
+## <a name="supported-teams-clients"></a>サポートされているTeams クライアント
 
-SBA 機能は、次の Microsoft Teams クライアントでサポートされています。 
+SBA 機能は、次のクライアントでMicrosoft Teamsされます。 
 
 - Microsoft Teams Windows デスクトップ 
 
@@ -57,30 +57,30 @@ SBA 機能は、次の Microsoft Teams クライアントでサポートされ�
 
 ## <a name="how-it-works"></a>メカニズム
 
-インターネットの停止中、Teams クライアントは自動的に SBA に切り替える必要があります。継続的な通話は中断することなく継続する必要があります。 ユーザーからの操作は必要ありません。 Teams クライアントがインターネットが正常に動作し、すべての発信通話が完了すると、クライアントは通常の操作モードに戻り、他の Teams サービスに接続します。 SBA は収集された通話データ レコードをクラウドにアップロードし、この情報をテナント管理者が確認するために通話履歴が更新されます。 
+インターネットの停止中、クライアントTeams自動的に SBA に切り替える必要があります。また、継続的な呼び出しは中断することなく続行する必要があります。 ユーザーからのアクションは必要ありません。 Teams クライアントがインターネットが稼働し、すべての発信呼び出しが完了するとすぐに、クライアントは通常の操作モードに戻り、他の Teams サービスに接続します。 SBA は収集された通話データ レコードをクラウドにアップロードし、通話履歴が更新され、テナント管理者がこの情報を確認できます。 
 
-Microsoft Teams クライアントがオフライン モードの場合、次の呼び出し関連機能を使用できます。 
+クライアントがMicrosoft Teamsモードの場合、次の呼び出し関連機能を使用できます。 
 
-- SBC を経由するメディアを使用して、ローカル SBA/SBC を介して PSTN 通話を行う。
+- ローカル SBA/SBC 経由で PSTN 通話を行い、SBC を通過するメディアを使用します。
 
-- SBC を経由するメディアを使用して、ローカル SBA/SBC 経由で PSTN 通話を受信する。 
+- SBC を通過するメディアを使用してローカル SBA/SBC 経由で PSTN 通話を受信する。 
 
 - PSTN 通話の保留と再開。
 
 ## <a name="configuration"></a>構成
 
-SBA 機能を機能するには、Teams クライアントは、各ブランチ サイトで使用できる SBA と、そのサイト内のユーザーに割り当てられている SBA を知る必要があります。 構成手順は次のとおりです。
+SBA 機能を機能するには、Teams クライアントは、各ブランチ サイトで使用できる SBA と、そのサイト内のユーザーに割り当てられている SBA を知っている必要があります。 構成手順は次のとおりです。
 
-1. SA を作成します。
-2. Teams ブランチのアクセス可能性ポリシーを作成します。
-3. ユーザーにポリシーを割り当てる。
-4. Azure Active Directory で SBA のアプリケーションを登録します。
+1. SBA を作成します。
+2. ブランチの存続Teamsポリシーを作成します。
+3. ポリシーをユーザーに割り当てる。
+4. SBA のアプリケーションをアプリケーションに登録Azure Active Directory。
 
-すべての構成は、Skype for Business Online PowerShell コマンドレットを使用して行います。 (Teams 管理センターは、ダイレクト ルーティング SBA 機能をまだサポートしていません)。 
+すべての構成は、オンライン PowerShell コマンドレットSkype for Business使用して行われます。 (Teams センターでは、直接ルーティング SBA 機能はまだサポートされていません)。 
 
-(SBC ベンダーのドキュメントへのリンクを含む SBC の構成については、この記事の最後にあるセッション ボーダー コントローラーの構成を参照してください)。
+(SBC ベンダーのドキュメントへのリンクを含む SBC の構成については、この記事の最後にある「セッション ボーダー コントローラーの構成」を参照してください)。
 
-### <a name="create-the-sbas"></a>SA を作成する
+### <a name="create-the-sbas"></a>SBA を作成する
 
 SA を作成するには、次のコマンドレットNew-CsTeamsSurvivableBranchApplianceします。 このコマンドレットには、次のパラメーターがあります。
 
@@ -88,8 +88,8 @@ SA を作成するには、次のコマンドレットNew-CsTeamsSurvivableBranc
 | :------------|:-------|
 | Identity  | SBA の ID  |
 | Fqdn | SBA の FQDN |
-| サイト | SBA が保存されている TenantNetworkSite |
-| 説明 | 無料の書式テキスト |
+| サイト | SBA がある TenantNetworkSite |
+| 説明 | 自由形式のテキスト |
 |||
 
 次に例を示します。
@@ -102,9 +102,9 @@ Site        :
 Description : SBA 1 
 ```
 
-### <a name="create-the-teams-branch-survivability-policy"></a>Teams ブランチの分けやすさに関するポリシーを作成する 
+### <a name="create-the-teams-branch-survivability-policy"></a>ブランチの存続Teamsポリシーを作成する 
 
-ポリシーを作成するには、次のコマンドレットNew-CsTeamsSurvivableBranchAppliancePolicyします。 このコマンドレットには、次のパラメーターがあります。 ポリシーには、1 つ以上の SA を含めできます。
+ポリシーを作成するには、次のコマンドレットNew-CsTeamsSurvivableBranchAppliancePolicyします。 このコマンドレットには、次のパラメーターがあります。 ポリシーには、1 つ以上の SBA を含め得る点に注意してください。
 
 | パラメーター| 説明 |
 | :------------|:-------|
@@ -120,7 +120,7 @@ Identity             : Tag:CPH
 BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
-このコマンドレットを使用して、ポリシーの SA を追加またはSet-CsTeamsSurvivableBranchAppliancePolicyできます。 次に例を示します。 
+次のコマンドレットを使用して、ポリシーの SBA を追加Set-CsTeamsSurvivableBranchAppliancePolicyできます。 次に例を示します。 
 
 ``` powershell
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"} 
@@ -143,23 +143,23 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
-次の例に示すように、ポリシー$Nullユーザーからポリシーを削除できます。
+ユーザーからポリシーを削除するには、次の例に$Nullポリシーを付与します。
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
 ```
 
-### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>Azure Active Directory で SBA のアプリケーションを登録する
+### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>SBA のアプリケーションをアプリケーションに登録Azure Active Directory
 
-テナント内で使用されている異なる SBA が Microsoft 365 から必要なデータを読み取り込むには、Azure Active Directory で SBA 用のアプリケーションを登録する必要があります。 
+テナント内で使用される異なる SBA が Microsoft 365 から必要なデータを読み取るのを許可するには、SBA のアプリケーションを Azure Active Directory に登録する必要があります。 
 
 アプリケーションの登録の詳細については、次を参照してください。
 
-- [Azure Active Directory 用の業務用アプリを開発する](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
+- [新しいビジネス アプリを開発Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [Microsoft ID プラットフォームでアプリケーションを登録します](/azure/active-directory/develop/quickstart-register-app)。  
+- [アプリケーションを Microsoft ID プラットフォーム に登録します](/azure/active-directory/develop/quickstart-register-app)。  
 
-テナント内のすべての SA で使用するために 1 つのアプリケーションのみを登録する必要があります。 
+登録する必要があるアプリケーションは、テナント内のすべての SBA で使用するために 1 つのみです。 
 
 SBA 登録には、登録によって作成された次の値が必要です。 
 
@@ -168,16 +168,16 @@ SBA 登録には、登録によって作成された次の値が必要です。
 
 SBA アプリケーションの場合は、次の注意が必要です。 
 
-- 名前は、ユーザーが決めたものにできます。  
-- サポートされているアカウントの種類 = この組織のディレクトリのアカウントのみ。 
-- Web Redirect Uri = https://login.microsoftonline.com/common/oauth2/nativeclient .
-- 暗黙的な付与トークン = Access トークンと ID トークン。 
-- API のアクセス許可 = Skype と Teams テナント管理者アクセス -> アプリケーションのアクセス許可 -> application_access_custom_sba_appliance。
+- 名前は、ユーザーが決定した名前にできます。  
+- サポートされているアカウントの種類 = この組織のディレクトリ内のアカウントのみ。 
+- Web リダイレクト URI = https://login.microsoftonline.com/common/oauth2/nativeclient 。
+- 暗黙的な付与トークン = アクセス トークンと ID トークン。 
+- API のアクセス許可 = SkypeテナントTeamsアクセス -> アプリケーションのアクセス許可 -> application_access_custom_sba_appliance。
 - クライアント シークレット: 任意の説明と有効期限を使用できます。 
 - クライアント シークレットは、作成後すぐにコピーしてください。 
 - アプリケーション (クライアント) ID が [概要] タブに表示されます。
 
-次の手順に従います。
+その後、次の手順に従います。
 
 1. アプリケーションを登録します。
 2. 暗黙的な付与トークンを設定します。
@@ -187,7 +187,7 @@ SBA アプリケーションの場合は、次の注意が必要です。
 
 ## <a name="session-border-controller-configuration"></a>セッション ボーダー コントローラーの構成 
 
-埋め込まれたEdEdしおり分岐電気機器を使用してセッション ボーダー コントローラーを構成する方法の詳細なガイダンスについては、SBC ベンダーが提供するドキュメントを参照してください。 
+組み込みの Survivable Branch Appliance を使用してセッション ボーダー コントローラーを構成する方法の詳細なガイダンスについては、SBC ベンダーが提供するドキュメントを参照してください。 
 
 - [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-survivable-branch-appliances)
 
@@ -199,18 +199,18 @@ SBA アプリケーションの場合は、次の注意が必要です。
 
 ## <a name="reporting-issues"></a>問題の報告
 
-問題がある場合は、SBC ベンダーのサポート組織に報告してください。 問題を報告する場合は、変更可能なブランチ 電気機器が構成されていることを示します。
+SBC ベンダーのサポート組織に問題を報告します。 問題を報告する場合は、存続可能ブランチ アプライアンスが構成されていることを示します。
 
 ## <a name="known-issues"></a>既知の問題
 
-- 新しい変更可能な分岐機器を追加する場合、そのブランチ の分岐の分岐の利用に関するポリシーでそれらを使用するには、時間がかかる場合があります。
+- 新しい存続可能ブランチ アプライアンスを追加する場合は、存続可能ブランチ アプライアンス ポリシーで使用できるまで時間がかかる場合があります。
 
-- ユーザーに変更可能な分岐ポリシーを割り当てると、SBA が Get-CsOnlineUser の出力に表示されるまで時間がかかる場合があります。 
+- ユーザーに存続可能ブランチ アプライアンス ポリシーを割り当てると、Get-CsOnlineUser の出力に SBA が表示されるまで時間がかかる場合があります。 
 
-- Azure の連絡先に対する逆ADの参照は実行されません。 
+- Azure ADに対する逆引き番号参照は実行されません。 
 
 - SBA では、通話の転送設定はサポートされていません。 
 
-- 動的緊急通話 (E911) 用に構成された緊急電話番号への緊急通話の発信はサポートされていません。
+- 動的緊急通話 (E911) 用に構成された緊急電話番号への緊急通話はサポートされていません。
 
-- この値の出力Get-CsOnlineUser TeamsBranchSurvivabilityPolicy が表示されます。
+- このコマンドの出力Get-CsOnlineUser TeamsBranchSurvivabilityPolicy が表示されます。

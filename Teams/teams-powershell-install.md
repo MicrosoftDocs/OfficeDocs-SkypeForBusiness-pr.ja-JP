@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams PowerShell をインストールする
+title: PowerShell Microsoft Teamsインストールする
 ms.reviewer: brandber
 author: brandber
 ms.author: brandber
@@ -20,30 +20,30 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/15/2021
 ms.locfileid: "51768343"
 ---
-# <a name="install-microsoft-teams-powershell"></a>Microsoft Teams PowerShell をインストールする
+# <a name="install-microsoft-teams-powershell"></a>PowerShell Microsoft Teamsインストールする
 
-この記事では [、PowerShellGet](/powershell/scripting/gallery/installing-psget)を使用して Microsoft Teams PowerShell モジュールをインストールする方法について説明します。 これらの手順は [、Azure Cloud Shell、Linux、macOS、Windows](/azure/cloud-shell/overview)プラットフォームで動作します。
+この記事では、PowerShellGet を使用して PowerShell Microsoft Teamsをインストールする[方法について説明します](/powershell/scripting/gallery/installing-psget)。 これらの手順は[、Azure Cloud](/azure/cloud-shell/overview)Shell、Linux、macOS、および Windowsで動作します。
 
 ## <a name="requirements"></a>要件
 
-Teams PowerShell には、すべてのプラットフォームで PowerShell 5.1 以上が必要です。 使用している [オペレーティング システムで利用可能な最新バージョンの PowerShell](/powershell/scripting/install/installing-powershell) をインストールします。
+TeamsPowerShell には、すべてのプラットフォームで PowerShell 5.1 以上が必要です。 オペレーティング システム [で使用できる最新バージョンの PowerShell](/powershell/scripting/install/installing-powershell) をインストールします。
 
 > [!NOTE]
 > 最適なエクスペリエンスを得る場合は、PowerShell 5.1 を使用することをお勧めします。
 
-## <a name="install-the-teams-powershell-module"></a>Teams PowerShell モジュールをインストールする
+## <a name="install-the-teams-powershell-module"></a>PowerShell モジュールTeamsインストールする
 
 > [!NOTE]
-> 最適なエクスペリエンスを得る場合は、両方ではなく、一般提供 (GA) モジュールまたはパブリック プレビュー モジュールのいずれかを使用します。 これらは、一緒に作業するつもりではありません。
+> 最適なエクスペリエンスを得る場合は、一般公開 (GA) モジュールまたはパブリック プレビュー モジュール (両方ではなく) を使用してください。 これらは、一緒に作業することを目的としません。
 
 
-**PowerShellGet コマンドレットを** 使用して、Teams PowerShell モジュールをインストールします。 システム上のすべてのユーザーにモジュールをインストールするには、管理者特権が必要です。 Windows の [管理者として実行] を使用するか、macOS または Linux でコマンドを使用して `sudo` PowerShell セッションを開始します。
+**PowerShellGet コマンドレットを** 使用して、PowerShell モジュールTeamsインストールします。 システム上のすべてのユーザーに対してモジュールをインストールするには、昇格された特権が必要です。 [管理者として実行]**を使用** して PowerShell Windowsを開始するか、macOS または Linux で `sudo` コマンドを使用します。
 
 ```powershell
 Install-Module MicrosoftTeams
 ```
 
-既定では、PowerShell ギャラリー (PSGallery) は PowerShellGet の信頼できるリポジトリ **として構成されていません**。 PSGallery を初めて使用すると、次のメッセージが表示されます。
+既定では、PowerShell ギャラリー (PSGallery) は **、PowerShellGet** の信頼できるリポジトリとして構成されていません。 PSGallery を初めて使用すると、次のメッセージが表示されます。
 
 ```console
 Untrusted repository
@@ -55,14 +55,14 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-[ **はい]** または **[はい] から [すべて] に応答** して、インストールを続行します。
+[ **はい]** または **[はい] を [すべて** ] に回答して、インストールを続行します。
 
 ## <a name="sign-in"></a>サインイン
 
-Teams PowerShell の使用を開始するには、Azure の資格情報でサインインします。
+PowerShell のTeamsするには、Azure 資格情報でサインインします。
 
 > [!NOTE]
-> 最新の [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック プレビュー リリースを使用している場合は、Skype for Business Online Connector をインストールする必要があります。
+> [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック プレビュー リリースTeams最新バージョンを使用している場合は、Skype for Business Online Connector をインストールする必要があります。
 
 ```powershell
 $credential = Get-Credential
@@ -73,62 +73,62 @@ Connect-MicrosoftTeams -Credential $credential
 
 ## <a name="sign-in-using-mfa-and-modern-authentication"></a>MFA と最新の認証を使用してサインインする
 
- アカウントで多要素認証を使用している場合は、このセクションの手順を使用します。
+ アカウントで多要素認証を使用する場合は、このセクションの手順を使用します。
 
 ```powershell
 #Connect to Microsoft Teams
 Connect-MicrosoftTeams -AccountId <UPN>
 ```
 
-## <a name="update-teams-powershell"></a>Teams PowerShell を更新する
+## <a name="update-teams-powershell"></a>PowerShell Teams更新
 
-Teams PowerShell を更新するには、新しい管理者特権の PowerShell コマンド プロンプトを開き、次を実行します。
+PowerShell をTeamsするには、新しい管理者特権の PowerShell コマンド プロンプトを開き、次のコマンドを実行します。
 
 ```powershell
 Update-Module MicrosoftTeams
 ```
 
 > [!WARNING]
-> Teams PowerShell が既に PowerShell セッションにインポートされている場合、モジュールの更新は失敗します。 PowerShell を閉じて、新しい管理者特権の PowerShell セッションを再び開きます。
+> PowerShell Teams PowerShell セッションにインポートされている場合、モジュールの更新は失敗します。 PowerShell を閉じて、新しい管理者特権の PowerShell セッションを再び開きます。
 
 
-## <a name="uninstall-teams-powershell"></a>Teams PowerShell をアンインストールする
+## <a name="uninstall-teams-powershell"></a>PowerShell Teamsアンインストールする
 
-Teams PowerShell をアンインストールするには、新しい管理者特権の PowerShell コマンド プロンプトを開き、次を実行します。
+PowerShell をTeamsするには、新しい管理者特権の PowerShell コマンド プロンプトを開き、次のコマンドを実行します。
 
 ```powershell
 Uninstall-Module MicrosoftTeams
 ```
 > [!WARNING]
-> Teams PowerShell が既に PowerShell セッションにインポートされている場合、モジュールのアンインストールは失敗します。 PowerShell を閉じて、新しい管理者特権の PowerShell セッションを再び開きます。
+> PowerShell Teams PowerShell セッションにインポートされている場合、モジュールのアンインストールは失敗します。 PowerShell を閉じて、新しい管理者特権の PowerShell セッションを再び開きます。
 
-## <a name="install-teams-powershell-public-preview"></a>Teams PowerShell パブリック プレビューをインストールする
+## <a name="install-teams-powershell-public-preview"></a>PowerShell Teams プレビューをインストールする
 
 > [!NOTE]
-> Teams PowerShell のパブリック プレビュー 版を使用している場合は、最初に Skype for Business Online Connector をアンインストールすることを強く推奨します。
+> PowerShell のパブリック プレビュー バージョンを使用している場合は、Teams Online Connector をアンインストールすることを強Skype for Business勧めします。
 
-システム上のすべてのユーザーに Teams PowerShell パブリック プレビュー モジュールをインストールするには、管理者特権が必要です。 Windows の [管理者として実行] を使用するか、macOS または Linux でコマンドを使用して `sudo` PowerShell セッションを開始します。
+システム上のすべてのTeams PowerShell パブリック プレビュー モジュールをインストールするには、昇格された特権が必要です。 [管理者として実行]**を使用** して PowerShell セッションをWindows、macOS または Linux で `sudo` コマンドを使用します。
 
-PowerShell 5.1 を使用している場合は、事前に **PowerShellGet** モジュールを更新する必要があります。 **PowerShellGet を更新した** 後、昇格された PowerShell セッションを閉じてもう一度開き、最新の **PowerShellGet** が読み込まれるのを確認します。
+PowerShell 5.1 を使用している場合は、事前に **PowerShellGet モジュールを更新する** 必要があります。 **PowerShellGet を更新した** 後、管理者特権の PowerShell セッションを閉じてもう一度開き、最新の **PowerShellGet** が読み込まれるのを確認します。
 
 ```powershell
 Install-Module PowerShellGet -Force -AllowClobber
 ```
 
-Teams PowerShell パブリック プレビューをインストールするには、以下の PowerShell コマンドを実行します。
+PowerShell パブリック Teamsインストールするには、次の PowerShell コマンドを実行します。
 
 > [!NOTE]
-> PowerShell ギャラリーまたは [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) で最新のプレビュー バージョンを見つけるには、"Find-Module MicrosoftTeams -AllowPrerelease -AllVersions" を実行します。
+> 最新のプレビュー バージョンは [、PowerShell ギャラリー](https://www.powershellgallery.com/packages/MicrosoftTeams) または PowerShell で見つけることができます。"Find-Module MicrosoftTeams -AllowPrerelease -AllVersions" を実行します。
 
 ```powershell
 Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 ```
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
-Teams PowerShell を使用して Teams を管理する準備ができました。 使用 [を開始するには、「Teams PowerShell で Teams](teams-powershell-managing-teams.md) を管理する」を参照してください。
+これで、PowerShell を使用してTeams管理Teams準備が整いました。 使用[を開始するにはTeams PowerShell Teamsの管理に関](teams-powershell-managing-teams.md)するページを参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams PowerShell での Teams の管理](teams-powershell-managing-teams.md)
 

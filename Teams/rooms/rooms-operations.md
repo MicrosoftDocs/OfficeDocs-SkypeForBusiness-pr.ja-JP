@@ -63,11 +63,11 @@ Microsoft Teams Roomsが正常に動作していない場合は、出荷時の�
 
 |ワークグループ|ドメインに参加していない場合|ドメインに参加している場合|
 |:-----|:-----|:-----|
-|再起動  <br/> |Teams 管理センター  <br/> リモート デスクトップ  <br/> リモート Powershell  <br/> | <br/>リモート デスクトップ (詳細な設定が必要)  <br/> リモート PowerShell (詳細な設定が必要)  <br/> Configuration Manager  <br/> |
+|再起動  <br/> |Teams管理センター  <br/> リモート デスクトップ  <br/> リモート Powershell  <br/> | <br/>リモート デスクトップ (詳細な設定が必要)  <br/> リモート PowerShell (詳細な設定が必要)  <br/> Configuration Manager  <br/> |
 |OS の更新  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |アプリの更新  <br/> |Windows ストア  <br/> |Windows ストア  <br/> Configuration Manager  <br/> |
-|アカウント構成  <br/> |Teams 管理センター  <br/> |Teams 管理センター  <br/> |
-|ログへのアクセス  <br/> |Teams 管理センター  <br/> |Teams 管理センター <br/> |
+|アカウント構成  <br/> |Teams管理センター  <br/> |Teams管理センター  <br/> |
+|ログへのアクセス  <br/> |Teams管理センター  <br/> |Teams管理センター <br/> |
    
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>Microsoft Teams Rooms のグループ ポリシーを構成する
 <a name="GroupPolicy"> </a>
@@ -79,7 +79,7 @@ Microsoft Teams Roomsが正常に動作していない場合は、出荷時の�
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Microsoft Teams Rooms の起動を有効にする  <br/> |
 |電源管理 -\> AC で、10 分後に画面をオフにする  <br/> 電源管理 -\> AC で、システムをスリープさせない  <br/> |接続されているディスプレイをオフにし、自動的にウェイク アップさせるように Microsoft Teams Rooms を有効化する  <br/> |
-|net accounts /maxpwage:unlimited  <br/> これは、ローカル アカウントでパスワードの有効期限を無効にすることに相当します。 この操作を行わないと、最終的に Skype アカウントがログオンできなくなり、パスワードの有効期限が切れているという通知が発生します。 これは、コンピューター上のすべてのローカル アカウントに影響を与えるため、設定に失敗すると、ボックスの管理者アカウントも最終的に有効期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
+|net accounts /maxpwage:unlimited  <br/> または、ローカル アカウントでパスワードの期限切れを無効にする同等の手段。この設定に失敗すると、パスワードの期限が切れていることが通知され、Skype アカウントのログオンが失敗する原因になります。この影響はマシン上のすべてのローカル アカウントに及びます。したがって、この設定に失敗すると、ボックスの管理アカウントも最終的には期限切れになります。  <br/> |常にログインするように Skype アカウントを有効にする  <br/> |
    
 グループ ポリシーを使用してファイルを転送する方法については、「[ファイルの項目を構成する](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772536(v=ws.11))」で説明しています。
 
@@ -205,7 +205,7 @@ Copy-Item $movefile $targetDevice
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>管理者モードに切り替え、Microsoft Teams Rooms アプリがクラッシュしたら元に戻す
 
-1. Windows キーを 5 回連続で、素早く押します。 これによって、Windows のログオン画面が開きます。 
+1. Windows キーを 5 回連続で、素早く押します。これによって、Windows のログオン画面が開きます。 
 2. 管理者の資格情報を使用してデスクトップにログインします。
 3. 必要な管理上のタスクを実行します。
 4. 終了したら、コンピューターを再起動します。

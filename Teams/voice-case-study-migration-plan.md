@@ -1,5 +1,5 @@
 ---
-title: Teams の音声 Contoso のケース スタディ
+title: Teams Contoso のケース スタディ
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 多国籍企業向け Teams 音声ケース スタディ
+description: Teams企業向け音声ケース スタディ
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
@@ -25,15 +25,15 @@ ms.locfileid: "51093727"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso のケース スタディ: Teams アップグレード プラン
 
-Skype for Business から Teams に移行する決定で、Contoso はエンド ユーザーに簡単な移行エクスペリエンスを提供する必要があります。 全員を同時に Teams に切り替える代わりに、ハイブリッド接続をセットアップし、重複する機能の方法を使用してユーザーを Teams に移動することを決定しました。 これにより、Teams と Skype for Business オンプレミスのユーザーはプレゼンスを共有し、通信を行う必要がありました。 ユーザーが電話システムのパイロットに参加すると、ユーザーは Teams のみモードに移動されました。
+Contoso は、Skype for Business から Teams に移行する決定で、エンド ユーザーに簡単な移行エクスペリエンスを提供したいと思いました。 全員を同時に Teams に切り替える代わりに、ハイブリッド接続を設定し、オーバーラップ機能方式を使用してユーザーを Teams に移動しました。 これにより、オンプレミスのユーザー Teams、Skype for Businessと通信を共有できます。 ユーザーがパイロット モードに入電話システム、ユーザーは [のみ] Teamsに移動されました。
 
-アップグレード、メソッド、モードに関する基本的な概念を理解するために、Contoso は次の記事を読んで説明します。
+アップグレード、方法、およびモードに関する基本的な概念を理解するために、Contoso は次の記事を読んで説明します。
 
 - [Microsoft Teams へのアップグレードを開始する](upgrade-start-here.md)
 - [IT 管理者向けアップグレード戦略](upgrade-to-teams-on-prem-implement.md) 
 - 詳細については、「[移行と相互運用に関するガイドライン](migration-interop-guidance-for-teams-with-skype.md)」を参照してください。
  
-Contoso は、Skype for Business から Teams へのパスを設計する Ignite 2019 [セッションにも参加しました](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions)。 Contoso は次の情報を学習しました。
+Contoso は Ignite 2019 セッションに参加しました。このセッションでは、Skype for Business[から Teams。](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso は次の情報を学習しました。
 
 - 相互運用性、フェデレーション、アップグレード動作などの基本的な概念 
 
@@ -45,16 +45,16 @@ Contoso は、Skype for Business から Teams へのパスを設計する Ignite
 
   - 会議のスケジュール 
 
-  - Teams クライアントでのコラボレーション機能の可用性 
+  - 新しいクライアントでのコラボレーション機能Teams可能 
 
-ハイブリッド接続を計画および構成するには、オンプレミス環境をクラウドに移行する最初の手順として、Contoso はハイブリッド[](/SkypeForBusiness/hybrid/plan-hybrid-connectivity)接続を計画し、[](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)ハイブリッド接続を構成して次の方法を理解します。 
+ハイブリッド接続を計画して構成するには、オンプレミス環境をクラウドに移行する最初の手順として、「ハイブリッド接続の計画[](/SkypeForBusiness/hybrid/plan-hybrid-connectivity)」と「ハイブリッド接続[](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)の構成」を参照して、次の方法を理解します。 
 
-  - オンプレミス環境サービスを構成して、Office 365 とフェデレーションします。 
+  - オンプレミス環境サービスを構成して、オンプレミスの環境サービスとOffice 365。 
 
-  - オンプレミス環境を構成して Office 365 を信頼し、Office 365 で共有 SIP アドレス空間を有効にする 
+  - オンプレミス環境を構成して、Office 365を信頼し、共有 SIP アドレス空間を有効Office 365 
 
-  - Office 365 テナントで共有 SIP アドレス空間を有効にします。
+  - 自分のテナントで共有 SIP アドレス空間Office 365します。
 
-  - テクニカル パイロット中は、諸島モードを使用します。
+  - テクニカル パイロット中は、Islands モードを使用します。
 
-  - ユーザーが電話システムに対して有効になると、ユーザーを TeamsOnly モードに切り替えます。 通話プランと直接ルーティングには TeamsOnly モードが必要です。
+  - ユーザーが TeamsOnly モードに切り替える場合は、ユーザーが有効になっていると電話システム。 通話プランと直接ルーティングには TeamsOnly モードが必要です。

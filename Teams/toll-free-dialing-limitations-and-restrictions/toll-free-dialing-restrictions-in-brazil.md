@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: ブラジルでの無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+description: ブラジルの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
 ms.openlocfilehash: 689be527186f51ebe24178eb11e015c01bc5ab1e
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

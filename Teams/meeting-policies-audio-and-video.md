@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
-description: 音声とビデオの Teams で会議ポリシー設定を管理する方法について学習します。
+description: 音声とビデオの会議ポリシー設定Teamsを管理する方法について学習します。
 ms.openlocfilehash: 3f7a557555d6846c4ada792ceb05da43ce91ed0f
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
@@ -26,7 +26,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51598777"
 ---
-# <a name="meeting-policy-settings-for-audio--video"></a>オーディオ ビデオビデオの会議&設定
+# <a name="meeting-policy-settings-for-audio--video"></a>音声ビデオの会議ポリシー&設定
 
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
@@ -106,7 +106,7 @@ Daniela が開催する会議は記録されず、ポリシー設定が有効に
 
 ### <a name="allow-ip-video"></a>IP ビデオを許可する
 
-これは、開催者単位とユーザーごとのポリシーの組み合わせです。 ビデオは、会議の重要な構成要素です。 一部の組織では、管理者はどのユーザーの会議でビデオを使用するかについてより詳細に制御したい場合があります。 この設定は、ユーザーがホストする会議、およびユーザーが開始する 1 対 1 の通話やグループ通話でビデオを有効にできるかどうかを制御します。 Teams モバイル クライアントでは、この設定は、ユーザーが会議で写真やビデオを共有できるかどうかを制御します。 
+これは、開催者単位とユーザーごとのポリシーの組み合わせです。 ビデオは、会議の重要な構成要素です。 一部の組織では、管理者はどのユーザーの会議でビデオを使用するかについてより詳細に制御したい場合があります。 この設定は、ユーザーがホストする会議、およびユーザーが開始する 1 対 1 の通話やグループ通話でビデオを有効にできるかどうかを制御します。 モバイル Teamsでは、この設定は、ユーザーが会議で写真やビデオを共有できるかどうかを制御します。 
 
 このポリシー設定を有効にしたユーザーが開催する会議では、会議の参加者もポリシー設定を有効にしている場合に、会議の参加者による会議でのビデオ共有が許可されます。 いずれのポリシーも割り当てられていない会議参加者 (匿名参加者やフェデレーション参加者など) は、会議開催者のポリシーを継承します。
 
@@ -132,7 +132,7 @@ Daniela がビデオを有効にして Amanda に電話した場合でも、Aman
 
 詳細については、「[会議の参加者のオーディオ/ビデオ管理](#manage-audiovideo-for-meeting-participants)」を参照してください。
 
-#### <a name="which-ip-video-policy-setting-takes-precedence"></a>どの IP ビデオ ポリシー設定が優先されますか?
+#### <a name="which-ip-video-policy-setting-takes-precedence"></a>どの IP ビデオ ポリシー設定が優先されますか。
 
 ユーザーの場合、ビデオの設定が最も制限の厳しいポリシーが優先されます。 次に例を示します。
 

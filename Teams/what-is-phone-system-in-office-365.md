@@ -1,5 +1,5 @@
 ---
-title: 電話システムとは
+title: データの電話システム?
 ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: この記事では、Microsoft 365 および Office 365 の電話システム テクノロジについて説明します。
+description: この記事では、アプリケーションとサービスの電話システムについてMicrosoft 365についてOffice 365。
 ms.openlocfilehash: 0c750a4abe92b9fee83a3d152db92c767147d295
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -29,15 +29,15 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51100923"
 ---
-# <a name="what-is-phone-system"></a>電話システムとは
+# <a name="what-is-phone-system"></a>データの電話システム?
 
-構内交換機 (PBX) は、社内の電話システムです。 電話システムは PBX 機能を提供しますが、複雑で高価な機器はありません。 
+構内交換機 (PBX) は、社内の電話システムです。 電話システム PBX 機能が提供されますが、複雑で高価な機器はありません。 
 
-電話システムを使用すると、既存のオンプレミス PBX システムを、Microsoft 365 または Office 365 から提供される一連の機能に置き換え、クラウドエクスペリエンスに緊密に統合することができます。 機能の詳細については、「電話システムで利用する機能 [について」を参照してください](here-s-what-you-get-with-phone-system.md)。
+電話システムでは、既存のオンプレミス PBX システムを、クラウド エクスペリエンスに緊密に統合された Microsoft 365 または Office 365 から提供される一連の機能に置き換える必要があります。 機能の詳細については、「次の機能を使用して取得する機能[」を電話システム。](here-s-what-you-get-with-phone-system.md)
 
 ## <a name="phone-system-technology"></a>電話システム テクノロジ
 
-電話システムは、Microsoft Teams と Skype for Business Online を使用してクラウドの通話制御と PBX 機能を有効にします。 
+電話システム、クラウドでクラウドの通話制御と PBX 機能を有効にし、Microsoft Teamsおよび Skype for Businessできます。 
   
 電話システムを使うと、ユーザーは Teams や Skype for Business Online を使用して、通話の発信と着信、通話の転送、ミュートの設定や解除を行うことができます。 電話システム ユーザーがアドレス帳の名前をクリックすると、Teams や Skype for Business Online によってその連絡先に通話が発信されます。 電話システムのユーザーは、Teams や Skype for Business Online で利用できるモバイル デバイス、ノート PC や PC のヘッドセット、さまざまな IP 電話を使って、通話の発信と受信を行うことができます。 電話システムの管理者は、メッセージや共同作業などで使用されるのと同じコンソールから通話オプションと設定を管理できます。
   
@@ -68,7 +68,7 @@ Microsoft では、組織外との通話のために、電話システムを公�
 
 - **ボイスメール** -  ユーザーのために電話システムのライセンスを取得すると、そのユーザーは、発信者が残したボイスメールを受信できます。 クラウド ボイスメールが自動的にセットアップされ、ユーザーに電話システム ライセンスと電話番号を割り当てるとプロビジョニングされます。 「[クラウド ボイスメールのセットアップ](set-up-phone-system-voicemail.md)」を参照してください。
 
-機能の詳細については、「電話システムで利用する機能 [について」を参照してください](here-s-what-you-get-with-phone-system.md)。 作業を開始する準備ができたら、「[組織で電話システムをセットアップする](setting-up-your-phone-system.md)」を参照してください。
+機能の詳細については、次[のページ](here-s-what-you-get-with-phone-system.md)を参照電話システム。 作業を開始する準備ができたら、「[組織で電話システムをセットアップする](setting-up-your-phone-system.md)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

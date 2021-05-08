@@ -76,20 +76,20 @@ ms.locfileid: "51995295"
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
 この更新プログラムで導入されるもの:
-- Teams Rooms 本体の会議室情報が、グローバル アドレス一覧 (GAL) から非表示の会議室アカウントに表示される問題を修正しました。
+- グローバル アドレス一覧 (GAL) に表示Teams ミーティングのルーム アカウントに関するルーム情報が表示される問題を修正しました
 
 > [!NOTE]
-> GCCH のお客様は、Microsoft Teams Rooms デバイスを手動で更新 [するからアップグレード パッケージをダウンロードできます](manual-update.md)
+> GCCH のお客様は、デバイスを手動で更新[するからアップグレード パッケージMicrosoft Teams ミーティングできます。](manual-update.md)
 
 
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 この更新プログラムで導入されるもの:
-- Teams Rooms の Government Community Cloud High (GCCH) のサポート。 既存の Teams Rooms デバイスを使用している GCCH のお客様は、Microsoft Teams Rooms デバイスを手動で更新してバージョン 4.8.19.0[をダウンロードできます](manual-update.md)。
-- より優れたビデオ品質 (720p サポート) で Zoom 会議に参加し、参加者のビデオ ギャラリーを受け取る
-- Teams の既定のモードでは、Skype for Business サインインエラー バナーが削除されました。 この変更は、Skype for Business インフラストラクチャを削除する組織をサポートします。
-- Teams 会議参加リンク解析で Microsoft Defender Advanced Thread Protection Safe Links が処理され、外部 Teams へのシームレスな参加が可能に
-- 共有者の PC に Windows でカスタム DPI が設定されている場合に、Skype for Business 会議で共有コンテンツのスケーリングに関する問題を修正しました
+- Government Community Cloudアプリケーションの高 (GCCH) Teams ミーティング。 既存の Teams ミーティング デバイスを使用している GCCH のお客様は、バージョン 4.8.19.0 を手動でデバイスを更新してMicrosoft Teams ミーティング[できます](manual-update.md)。
+- ビデオ品質の向上 (720p サポート) で Zoom 会議に参加し、参加者のビデオ ギャラリーを受け取る
+- Skype for Business モードでは、サインインエラー バナーがTeams削除されました。 この変更は、インフラストラクチャを削除するSkype for Businessサポートします
+- Teamsの参加リンク解析で Microsoft Defender Advanced Thread Protection セーフ リンクを処理し、外部ユーザーとシームレスにTeamsする
+- 共有者の PC にカスタム DPI Skype for Business設定されている場合の会議での共有コンテンツのスケーリングの問題を修正Windows
 - 品質と信頼性の修正
 
 ### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
@@ -225,7 +225,7 @@ ms.locfileid: "51995295"
 - テーマの更新: コンソールの背景を中間色にしてコンソール UI コントロールがはっきり見えるようにしながら、常にカスタム背景画像をフロント オブ ルーム ディスプレイ上に表示する - アクセシビリティ要件
 - Teams 通話/会議で Microsoft Teams PC、Web、モバイル クライアントに一貫性のあるエクスペリエンスを提供するための会議中通話制御用のユニバーサル バー<sup>1</sup>
 - Teams 通話/会議後の通話品質フィードバックの評価<sup>1</sup>
-- PC/Web/Mobile Teams クライアント<sup>1</sup> <sup>2</sup>から共有された場合に、Microsoft Teams Rooms の会議室前面に表示される Microsoft Whiteboard を受信/レンダリングする
+- PC/Web/Mobile Microsoft Whiteboardクライアント<sup>1</sup> <sup>2</sup> Microsoft Teams ミーティング共有時に、ルームの前面に表示される受信/レンダリングTeams表示
 - Microsoft Teams Rooms クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。 Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます
 
 <sup>1</sup> Microsoft Teams サービスが Teams リングを使用して提供されます。 この機能は 4.0.105.0 クライアントの更新の前後に使用可能になります

@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: アルゼンチンでの無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+description: アルゼンチンの無料電話番号 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) のダイヤルについて学習します。
 ms.openlocfilehash: ebbf946832c04793454bbc3d4ed01be5ecc7f5a5
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

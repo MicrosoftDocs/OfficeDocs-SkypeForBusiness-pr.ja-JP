@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 台湾での無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+description: 台湾の無料電話番号 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) のダイヤルについて学習します。
 ms.openlocfilehash: 81a5afeb80316454b816f2803c2beb440d80a301
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -45,7 +45,7 @@ ms.locfileid: "51097663"
 |対象外の島/地域  <br/> |該当なし  <br/> |
 |有線/固定回線の状態  <br/> | ITFS:KG Telecom = NO <br/> |
 |携帯電話ネットワークの状態  <br/> |部分的。コメント参照。  <br/> |
-|コメント、制限、アクセスの問題など  <br/> |KG Telecom からのワイヤーライン アクセスはありません。 携帯電話アクセス: 通話時間は課金されない。 モバイル アクセスの場合: KG Telecom を除くすべてのモバイル ネットワークからのアクセス。  <br/> |
+|コメント、制限、アクセスの問題など  <br/> |KG Telecom からのワイヤライン アクセスはありません。 携帯電話アクセス: 通話時間は課金されない。 モバイル アクセスの場合: KG Telecom を除くすべてのモバイル ネットワークからのアクセス。  <br/> |
    
 ## <a name="related-topics"></a>関連項目
 

@@ -1,6 +1,6 @@
 ---
 title: 教育機関用 Teams
-description: 学校や組織で Teams を正常に展開、導入、管理するために利用できる管理者リソースについて学習します。
+description: 学校や組織で管理リソースを正常にデプロイ、導入、および管理するために使用できるTeamsについて学習します。
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -28,13 +28,13 @@ ms.locfileid: "51092505"
 ---
 # <a name="teams-for-education"></a>教育機関用 Teams
 
-Teams を使用すると、教師と教職員は共同作業を行う教室を作成し、専門職の学習コミュニティに接続し、学生や教師とコミュニケーションを取り合います。 ここで管理者リソースを使用して、学校や組織で Teams を正常に展開、採用、管理するのに役立ちます。 
+教師Teams教職員は、共同作業を行う教室を作成し、専門の学習コミュニティに接続し、学生や教師とコミュニケーションを取る方法を説明します。 ここで管理リソースを使用すると、学校や組織で組織のTeams、導入、管理を行うのに役立ちます。 
 
 
 |               |               |
 | ------------- | ------------- |
 | ![右矢印アイコンのスクリーンショット](../media/arrow-right-2-teams.svg)  |  [クイック スタート - 教育用 Teams の管理者](../teams-quick-start-edu.yml) |
-| ![紙と鉛筆アイコンのスクリーンショット](../media/sign-up-teams.svg) | [教育機関向けの Teams の課題 ](./assignments-in-teams.md) |
-| ![インサイト アイコンのスクリーンショット](../media/insights-teams.svg) | [Teams for Education の分析情報](../class-insights.md) |
-| ![ツールボックス アイコンのスクリーンショット](../media/toolbox.svg)  |  [Teams for Education 管理者向けリソース](../resources-teams-edu.md) |
-| ![チェックリスト アイコンのスクリーンショット](../media/task-checklist-planning-teams.svg)  |  [Teams for Education 管理者向けガバナンスに関する FAQ](../plan-teams-governance-edu.md) |
+| ![用紙と鉛筆アイコンのスクリーンショット](../media/sign-up-teams.svg) | [教育機関向けの Teams の課題 ](./assignments-in-teams.md) |
+| ![分析情報アイコンのスクリーンショット](../media/insights-teams.svg) | [Teams for Education の分析情報](../class-insights.md) |
+| ![ツールボックス アイコンのスクリーンショット](../media/toolbox.svg)  |  [Education 管理者向Teamsリソース](../resources-teams-edu.md) |
+| ![チェックリスト アイコンのスクリーンショット](../media/task-checklist-planning-teams.svg)  |  [Education 管理者向Teamsガバナンスに関する FAQ](../plan-teams-governance-edu.md) |

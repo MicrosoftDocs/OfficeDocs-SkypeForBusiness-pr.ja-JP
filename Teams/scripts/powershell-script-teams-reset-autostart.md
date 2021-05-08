@@ -1,5 +1,5 @@
 ---
-title: PowerShell スクリプトのサンプル - Teams の自動開始設定をリセットする
+title: PowerShell のサンプル スクリプト - 自動開始設定をリセットする Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、Teams の自動開始設定をユーザー単位でリセットします。
+description: この PowerShell スクリプトを使用して、ユーザーごとに Teams設定をリセットします。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -23,13 +23,13 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117265"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell スクリプトのサンプル - Teams の自動開始設定をリセットする
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell のサンプル スクリプト - 自動開始設定をリセットする Teams
 
-このスクリプトを使用して、Teams の自動開始設定をユーザー単位でリセットします。 これには、ユーザーまたは Teams アプリによって設定された値が含まれます。 既定では、インストール後にユーザーが自分のコンピューターにログインすると、Teams が自動的に開始されます。
+このスクリプトを使用して、Teamsに基づいて自動開始設定をリセットします。 これには、ユーザーまたはアプリによって設定された値Teams含まれます。 既定では、ユーザー Teamsがインストールされた後にコンピューターにログインすると、自動的に起動されます。
 
-既に Teams を展開し、インストール後に [Microsoft Teams](../msi-deployment.md#use-group-policy-recommended) が自動的に開始されるのを防ぐグループ ポリシー設定を設定して Teams の自動開始を無効にする場合は、最初にグループ ポリシー設定を必要な値に設定してから、このスクリプトを実行する必要があります。
+Teams を既にデプロイ済みで、[グループ ポリシーのインストール後[](../msi-deployment.md#use-group-policy-recommended)に Microsoft Teams が自動的に開始されるのを防ぐ] 設定を設定して、Teams の自動開始を無効にする場合は、最初にグループ ポリシー設定を必要な値に設定してから、このスクリプトを実行する必要があります。
 
-Teams がユーザーに対して開始された後は、グループ ポリシーを使用して自動開始設定を無効にすることはできません。
+ユーザー Teams開始した後は、グループ ポリシーを使用して自動開始設定を無効にすることはできません。
 
 ## <a name="sample-script"></a>サンプル スクリプト
 
@@ -147,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [MSI を使用した Teams のインストール](../msi-deployment.md)
-- [エンタープライズ向け Microsoft 365 アプリで Teams を展開する](/deployoffice/teams-install)
+- [新しいTeamsをデプロイMicrosoft 365 Apps for enterprise](/deployoffice/teams-install)

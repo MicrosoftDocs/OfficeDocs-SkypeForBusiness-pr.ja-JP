@@ -26,7 +26,7 @@ ms.locfileid: "51948684"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams のゲスト アクセスに関する問題のトラブルシューティング
 
-- 問題がわかっているかどうかを確認するには、組織内のサポート [チームを参照してください](/MicrosoftTeams/troubleshoot/teams-welcome)。
+- お客様の問題について知っているかどうかを確認するには、「組織のサポート[Teams」を参照してください](/MicrosoftTeams/troubleshoot/teams-welcome)。
 - Teams でのゲスト アクセスに関する最新のサポートの問題を確認するには、[Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/)に関するページに移動します。
 - ゲストは組織外のユーザーです。 ユーザーが組織内にいる場合 (社内の従業員、オンサイトの請負業者、オンサイトの代理業者など) は、ゲストとして追加することはできません。 これは、関連会社についても同じです。
 - 今後実装される新機能や更新されたゲスト アクセス機能については、「[Teams のロードマップ](https://aka.ms/teamsroadmap)」で見つけてください。
@@ -39,12 +39,12 @@ ms.locfileid: "51948684"
 Teams のゲスト アクセスでは Azure Active Directory (Azure AD) ビジネス ツー ビジネス (B2B) およびそのライセンス モデルを使用しています。 ゲスト アクセスは、Microsoft 365 Business Standard、Office 365 Enterprise、Office 365 Education のすべてのサブスクリプションに含まれています。 追加の Microsoft 365 または Office 365 ライセンスは不要です。
 
 > [!NOTE]
-> ゲストがサインインし、別の (リソース) テナントで Teams をゲストとして使用するには、ゲストのホーム テナントで Teams を有効にする必要があります。
+> Teamsゲストがサインインし、別の (リソース) テナントのゲストとして Teams を使用するには、ゲストのホーム テナントで有効にする必要があります。
 
-ライセンス エラーが表示される場合は [、Azure AD](/azure/active-directory/external-identities/external-identities-pricing) 外部 ID の課金モデルを参照して、組織内のゲスト アクセスのニーズを満たすライセンス要件を決定してください。
+ライセンス エラーが発生する場合は [、Azure AD 外部](/azure/active-directory/external-identities/external-identities-pricing) ID の課金モデルを読んで、組織内のゲスト アクセスのニーズを満たすライセンス要件を決定してください。
 
 - ゲスト ライセンスは、招待する組織に対してカウントされます。 必要なライセンスの数を算出するときは、このことを考慮に入れます。
-- ライセンスは、招待されたゲストが別の Microsoft 365 組織から来た場合でも、個人のメール アドレスを使用している場合でも、組織に対してカウントされます。
+- ライセンスは、招待されたゲストが別の組織から送信された場合でも、Microsoft 365メール アドレスを使用している場合でも、組織に対してカウントされます。
 
 ## <a name="support-for-b2b-user-types"></a>B2B ユーザーの種類のサポート
 

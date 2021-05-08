@@ -32,7 +32,7 @@ ms.locfileid: "51262584"
 
 ## <a name="what-is-meetings-first"></a>Meetings First とは
 
-Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づいています。 会議 First は製品や機能で、Teams と Skype for Business の機能を使用して独自にカスタマイズされた共存エクスペリエンスを提供する構成です。
+Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づいています。 会議 First は製品や機能ではない。Teams と Skype for Business の機能と機能を使用して、独自にカスタマイズされた共存エクスペリエンスを提供する構成です。
 
 Meetings First では、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成します。 Teams と Skype for Business の間にモダリティの重複はありません。 チャット、通話、プレゼンスは、Skype for Business ではオンになり、Teams ではオフになります。 これにより、Skype for Business と Teams の間で、共存中のユーザーの操作環境を向上する独自の "優れた連携" シナリオだけでなく、**Teams のみ** のユーザーを対象とした相互運用性のシナリオも実現します。
 
@@ -111,7 +111,7 @@ Meetings First のすべての機能とユーザー エクスペリエンス (Te
 
 ![Meetings First を有効にする管理設定のスクリーンショット](media/teams-meeting-admin-settings.png)
 
-必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションから Teams とチャネル アプリケーションを非表示にし、アプリセットアップ ポリシーを使用して、会議に対するエクスペリエンスをさらに焦点を当てる必要[があります。](teams-app-setup-policies.md)
+必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションから Teams アプリケーションとチャネル アプリケーションを非表示にし、アプリ設定ポリシー を使用して実現できる会議にさらに集中する必要[があります。](teams-app-setup-policies.md)
 
 ## <a name="reporting-and-call-analytics"></a>レポート作成と通話分析
 

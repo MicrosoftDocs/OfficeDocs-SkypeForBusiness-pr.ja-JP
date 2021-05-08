@@ -1,5 +1,5 @@
 ---
-title: PowerShell スクリプトのサンプル - 学校の教育者と学生用のセキュリティ グループを作成する
+title: PowerShell スクリプト サンプル - 学校の教師と学生用のセキュリティ グループを作成する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、学校の教師と学生の Teams ポリシーを管理するために必要なセキュリティ グループを作成します。
+description: この PowerShell スクリプトを使用して、学校の教師と学生のTeamsポリシーを管理するために必要なセキュリティ グループを作成します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -24,28 +24,28 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117285"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell スクリプトのサンプル - 学校の教育者と学生用のセキュリティ グループを作成する
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell スクリプト サンプル - 学校の教師と学生用のセキュリティ グループを作成する
 
-この PowerShell スクリプトを使用して、学校で Microsoft Teams ポリシーを管理するために必要なセキュリティ グループを作成します。 Teams [のグループ機能にポリシー](../assign-policies.md#assign-a-policy-to-a-group) を割り当てると、セキュリティ グループなどのユーザーのグループにポリシーを割り当てできます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
+この PowerShell スクリプトを使用して、学校でポリシーを管理するために必要Microsoft Teamsグループを作成します。 グループ[へのポリシーの](../assign-policies.md#assign-a-policy-to-a-group)割り当Teamsグループなどのユーザー グループにポリシーを割り当てできます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
 
-この PowerShell スクリプトでは、2 つのセキュリティ グループが作成されます。1 つはスタッフと教育者用、もう 1 つはライセンスの種類に基づいて学校の学生用です。 作成したセキュリティ グループにポリシーを割り当てできます。 このスクリプトの使用の詳細については、「学校の多数のユーザーにポリシーを割り当てる」 [を参照してください](../batch-group-policy-assignment-edu.md)。
+この PowerShell スクリプトは、2 つのセキュリティ グループを作成します。1 つはスタッフと教育者用、もう 1 つはライセンスの種類に基づいて学校の学生用です。 その後、作成したセキュリティ グループにポリシーを割り当てできます。 このスクリプトの使用の詳細については、「学校の大規模なユーザーにポリシーを割り当てる」 [を参照してください](../batch-group-policy-assignment-edu.md)。
 
-このスクリプトは、次の手順を実行します。
+このスクリプトでは、次の手順を実行します。
 
-- Faculty SKU が割り当てられているスタッフと教師を識別し、セキュリティ グループを作成し、グループにスタッフと教師を追加します。
-- Student SKU が割り当てられている学生を識別し、セキュリティ グループを作成し、その学生をグループに追加します。
-- 各セキュリティ グループのメンバーシップを更新し、ライセンスを持っているかどうかに基づいて、スタッフ、教育者、学生を追加または削除します。
+- Faculty SKU が割り当てられているスタッフと教師を識別し、セキュリティ グループを作成し、そのグループにスタッフと教師を追加します。
+- Student SKU が割り当てられている学生を識別し、セキュリティ グループを作成して、その学生をグループに追加します。
+- ライセンスを持っているかどうかに基づいて、各セキュリティ グループのメンバーシップを更新して、スタッフ、教育者、学生を追加または削除します。
 
 セキュリティ グループを最新の状態に保つには、このスクリプトを定期的に実行する必要があります。
 
 > [!IMPORTANT]
-> ポリシーをグループに割り当 [てる場合は、優先順位ルール](../assign-policies.md#precedence-rules) とグループ [割](../assign-policies.md#group-assignment-ranking) り当てのランク付けについて理解することが重要です。 グループへのポリシー割り当てについて知る必要がある概念を読んで [理解してください](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。
+> ポリシーをグループに割り当[てる場合は、](../assign-policies.md#precedence-rules)[優先順位ルールと](../assign-policies.md#group-assignment-ranking)グループ割り当てのランク付けについて理解することが重要です。 グループへのポリシー割り当てについて知る必要がある概念を必ず読んで [理解してください](../assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
-## <a name="before-you-start"></a>始める前に
+## <a name="before-you-start"></a>開始する前に
 
-Skype for [Business Online PowerShell](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)モジュールをダウンロードしてインストールし、メッセージが表示されたらコンピューターを再起動します。
+Skype for Business Online PowerShell モジュール をダウンロード[してインストールし](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)、メッセージが表示されたらコンピューターを再起動します。
 
-さらに詳しくは [、「365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) と Teams PowerShell を使用Office Skype for Business Online を管理する方法 [をご覧ください](../teams-powershell-overview.md)。
+さらに詳しくは、「PowerShell を使用して Skype for Business Online を[管理するOffice 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) [Teams」をご覧ください](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>サンプル スクリプト
@@ -273,6 +273,6 @@ else {
 Stop-Transcript
 ```
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [ Teams でユーザーにポリシーを割り当てる](../assign-policies.md)

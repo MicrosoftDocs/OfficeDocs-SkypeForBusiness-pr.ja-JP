@@ -33,7 +33,7 @@ ms.locfileid: "51094207"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams でチーム ポリシーを管理する
 
-管理者は、Microsoft Teams でチーム ポリシーを使用して、チームやチャネルで組織のユーザーが実行できる操作を制御できます。 たとえば、ユーザーにプライベート チャネルの作成を許可するかどうかを設定できます。
+管理者は、Microsoft Teams でチーム ポリシーを使用して、チームやチャネルで組織のユーザーが実行できる操作を制御できます。 たとえば、ユーザーがプライベート チャネルを作成できるかどうかを設定できます。
 
 チーム ポリシーを管理するには、Microsoft Teams 管理センターで **[Teams]** > **[チーム ポリシー]** の順に移動します。 グローバル (組織全体の既定) ポリシーを使用ことも、カスタム ポリシーを作成して割り当てることもできます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。
 
@@ -46,7 +46,7 @@ ms.locfileid: "51094207"
 3. ポリシーの名前と説明を入力します。
 
     ![チーム ポリシー設定のスクリーンショット](media/teams-policies.png)
-4. ユーザーにプライベート チャネル<a name="createchannels"></a>の作成を許可するかどうかに応じて、プライベート チャネルの作成をオンまたはオフにします。
+4. ユーザーにプライベート チャネルの **作成**<a name="createchannels"></a>を許可するかどうかに応じて、[プライベート チャネルの作成] をオンまたはオフにします。
 
 5. **[保存]** をクリックします。
 
@@ -62,10 +62,10 @@ ms.locfileid: "51094207"
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams のプライベート チャネル](private-channels.md)
 
-[Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+[ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
 
 [New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)

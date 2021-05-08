@@ -26,7 +26,7 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/24/2021
 ms.locfileid: "51995145"
 ---
-# <a name="create-a-team-using-teams-retail-templates"></a>Teams リテール テンプレートを使用してチームを作成する
+# <a name="create-a-team-using-teams-retail-templates"></a>リテール テンプレートを使用してTeamsを作成する
 
 Microsoft Teams テンプレートでは、設定、チャネル、事前にインストールされたアプリの定義済みテンプレートを使用することで、チームをすばやく簡単に作成できます。
 
@@ -40,8 +40,8 @@ Teams テンプレートには、小売業者のニーズに基づいて設計�
 
 | 名前 | 使用する方法: |
 | ---- | --------- |
-| 管理者と IT プロフェッショナル | [Teams 管理センターを使用して](#use-the-teams-templates-in-the-teams-admin-center) 、リテール Teams テンプレートに基づいてチームを作成します。|
-| 開発者およびシステム インテグレーター | [Microsoft Graph を使用して](#use-the-teams-templates-with-the-microsoft-graph) 、リテール Teams テンプレートに基づいてチームを作成します。 |
+| 管理者と IT プロフェッショナル | [Teams管理センターを使用して](#use-the-teams-templates-in-the-teams-admin-center)、リテール版のテンプレートに基づいてチームTeamsします。|
+| 開発者およびシステム インテグレーター | [Microsoft Graphを使用](#use-the-teams-templates-with-the-microsoft-graph)して、リテール版のテンプレートに基づいてチームTeamsします。 |
 
 ## <a name="use-the-teams-templates-in-the-teams-admin-center"></a>Teams 管理センターで Teams テンプレートを使用する
 
@@ -56,7 +56,7 @@ Teams テンプレートには、小売業者のニーズに基づいて設計�
 
 ### <a name="manager-collaboration"></a>マネージャー コラボレーション
 
-Manager コラボレーション テンプレートは、一連のマネージャーが複数の店舗/地域間で共同作業を行うチームを作成する場合などに最適です。たとえば、組織にリージョンがある場合は、カリフォルニアリージョンの Manager Collaboration チームを作成し、そのリージョンのすべてのストア マネージャーと、そのリージョンのリージョン マネージャーを含める場合があります。
+マネージャー コラボレーション テンプレートは、複数のマネージャーが複数の店舗/地域間で共同作業を行うチームを作成する場合に最適です。たとえば、組織にリージョンがある場合は、カリフォルニア地域のマネージャー コラボレーション チームを作成し、その地域のすべてのストア マネージャーをその地域の地域マネージャーと共に含める場合があります。
 
 | 基本テンプレートの種類| baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------|- |----------------------------------------------------- |

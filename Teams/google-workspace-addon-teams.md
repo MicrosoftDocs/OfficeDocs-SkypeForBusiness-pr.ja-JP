@@ -1,5 +1,5 @@
 ---
-title: Google Workspace の Microsoft Teams 会議アドオンをセットアップする
+title: Google Workspace Microsoft Teamsの会議アドオンをセットアップする
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aravin
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Google Workspace 用に Microsoft Teams 会議アドオンをセットアップする方法について説明します。
+description: Google Workspace の会議アドオンMicrosoft Teamsを設定する方法について説明します。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -25,33 +25,33 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51120698"
 ---
-# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace の Microsoft Teams 会議アドオンをセットアップする
+# <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace Microsoft Teamsの会議アドオンをセットアップする
 
-Microsoft Teams 会議アドオンを使用すると、Google カレンダー ユーザーが Google Workspace から直接 Microsoft Teams 会議をスケジュールおよび参加できます。 ユーザーは、ビデオ会議、電話会議、画面共有、会議チャット、デジタル ホワイトボードなどの Teams 会議機能にアクセスできます。 仕事、学校、生活の全体で、より多くのことを一緒に行う場合は、接続と整理を行います。
+新しい会議Microsoft Teamsを使用すると、Google カレンダー ユーザーは Google ワークスペースから直接会議Microsoft Teamsスケジュールを設定し、会議に参加できます。 ユーザーは、ビデオTeams会議、画面共有、会議チャット、デジタル ホワイトボードなど、さまざまな会議機能にアクセスできます。 仕事、学校、生活をまたがってより多くの作業を行う場合は、つながって整理します。
 
-テナント ユーザーがアプリにアクセスするには、Google Workspace 用の Microsoft Teams 会議アドオンを Teams 管理者が有効にする必要があります。
+テナント Microsoft Teamsユーザーがアプリにアクセスするには、Google ワークスペースの会議アドオンを管理者Teams有効にする必要があります。
 
-## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Azure Portal で Google Workspace の Microsoft Teams 会議アドオンを有効または無効にする
+## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Azure portal Microsoft Teams Google Workspace の会議アドオンを有効または無効にする
 
-テナント管理者は、Azure Portal を使用して、組織の管理者アカウントから Google Workspace の Microsoft Teams 会議アドオンを有効または無効にできます。
+テナント管理者は、Azure portal を使用して、組織の管理者アカウントから google Workspace の Microsoft Teams 会議アドオンを有効または無効にできます。
 
-既定では、アドオンは有効になっています。
+アドオンは既定で有効になっています。
 
 1. Azure Portal にサインインします。
 
-2. [エンタープライズ **アプリケーション] の [**  >  **すべてのアプリケーション] を選択します**。
+2. [**アプリケーションEnterprise すべてのアプリケーション**  >  **] を選択します**。
 
-3. Google **Workspace の Microsoft Teams 会議アドオンを検索します**。
+3. Google Workspace **Microsoft Teamsの会議アドオンを検索します**。
 
    ![すべてのアプリケーションを表示する Azure Portal](media/aad-add-google-workspace.png)
 
-4. [はい **] を選択します**。
+4. [ **はい] を選択します**。
 
-   ![Google ワークスペースのプロパティを表示する Azure Portal](media/google-workspace-properties.png)
+   ![Google ワークスペースのプロパティを示す Azure Portal](media/google-workspace-properties.png)
 
-5. (省略可能)アドオンを無効にするには、手順 4 で [はい] の代わりに **[いいえ]** を選択します。 
+5. (省略可能)アドオンを無効にするには、手順 4 で **[は** い] ではなく [ **いいえ** ] を選択します。
 
-## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>PowerShell を使用して Google Workspace の Microsoft Teams 会議アドオンを無効にする
+## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>PowerShell Microsoft Teams Google Workspace の会議アドオンを無効にする
 
 ```powershell
 Connect-AzureAD
@@ -73,8 +73,8 @@ if ($servicePrincipal) {
 }
 ```
 
-詳細については [、「Azure PowerShell で Azure サービス プリンシパルを作成する」を参照してください](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)。
+詳細については、 を使用した[Azure サービス プリンシパルの作成に関するページAzure PowerShell。](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
 
-## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace の Microsoft Teams 会議アドオンを削除する
+## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace Microsoft Teamsの会議アドオンを削除する
 
-手順については、Google のドキュメント [「Google Workspace Marketplace アプリを削除する」](https://support.google.com/a/answer/6216211?hl=en) を参照してください。
+手順については、Google のドキュメント [「Google Workspace Marketplace アプリを削除する](https://support.google.com/a/answer/6216211?hl=en) 」を参照してください。

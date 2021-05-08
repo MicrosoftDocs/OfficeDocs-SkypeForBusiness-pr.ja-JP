@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: フランスでの無料電話番号のダイヤルについて、空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限などについて学習します。
+description: フランスの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
 ms.openlocfilehash: 738f513adb66f1cf73c0acf9279defd4aeb00db0
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

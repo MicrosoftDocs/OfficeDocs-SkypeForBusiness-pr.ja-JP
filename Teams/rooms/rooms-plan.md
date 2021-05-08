@@ -58,17 +58,17 @@ Microsoft Teams、Skype for Business Online、または Skype for Business ハ�
 
 |    |     |
 |-----------|------------|
-|![展開を決定する](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms を組織に展開しますか? </li><li>別のコンポーネントとしてバンドルされている、または統合されたユニットとして Microsoft Teams Rooms システムを購入するにはどうすればよいですか?</li></ul> |
-| ![アクティビティを特定する](../media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>展開全体を通して、主要な作業を引き受けるユーザーを特定します。</li><li>所有している (およびセットアップを計画している) 会議室を確認し、Microsoft Teams Rooms を展開する場所と、会議室の規模に適した周辺機器を把握します。</li></ul> |
+|![デプロイを決定する](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms を組織に展開しますか? </li><li>別のコンポーネントとしてバンドルされている、または統合されたユニットとして Microsoft Teams Rooms システムを購入するにはどうすればよいですか?</li></ul> |
+| ![アクティビティを識別する](../media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>展開全体を通して、主要な作業を引き受けるユーザーを特定します。</li><li>所有している (およびセットアップを計画している) 会議室を確認し、Microsoft Teams Rooms を展開する場所と、会議室の規模に適した周辺機器を把握します。</li></ul> |
 | | |
 
-## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>展開全体を通して、主要な作業を引き受けるユーザーを特定する
+## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment&quot;></a>展開全体を通して、主要な作業を引き受けるユーザーを特定する
 
 次に示すアプローチを使用して、展開を行い、組織のニーズに応じてこれらの記事全体で提供されているサンプル出力をカスタマイズします。
 
 まず、どのような会議室があるかを把握し、将来的にどのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。
 
-![まず、どのようなものがあるかを把握し、どのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。](../media/room-systems-image2.png "まず、どのようなものがあるかを把握し、どのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。")
+![まず、どのようなものがあるかを把握し、どのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。](../media/room-systems-image2.png &quot;まず、どのようなものがあるかを把握し、どのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。")
 
 これらの作業は、複数のチームで調整する必要がある場合があります。 ここでは、実行すべき主な作業の概要を示します。また、会議室システムの展開と管理に通常携わるチームに対する提案も提供します。これにより、一緒に作業する相手を決定できます。
 
@@ -117,8 +117,8 @@ _会議のサンプルのリスト_
 
 |    |     |
 |-----------|------------|
-| ![範囲内の会議室](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>リストから、どの種類の会議室が展開対象ですか?</li><li>各会議室の種類ごとにどのシステムを導入しますか?</li></ul>|
-| ![資料を収集する](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>選んだシステムの重要な運用材料を収集し、調達チームと連携します。</li></ul>|
+| ![スコープ内の会議室](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>リストから、どの種類の会議室が展開対象ですか?</li><li>各会議室の種類ごとにどのシステムを導入しますか?</li></ul>|
+| ![素材を収集する](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>選んだシステムの重要な運用材料を収集し、調達チームと連携します。</li></ul>|
 
 _お客様の組織に適した Microsoft Teams Rooms の展開テンプレートの例_
 
@@ -142,7 +142,7 @@ _お客様の組織に適した Microsoft Teams Rooms の展開テンプレー�
 |    |     |
 |-----------|------------|
 | ![出荷コンポーネント](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>コンポーネントをサイトまたはステージング施設に直接発送しますか?</li><li>ステージング施設を管理するのは誰ですか (1 つを使用する場合)?</li></ul>|
-| ![プランの操作](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>運用計画を立てます。</li><li>導入および変更管理を計画します。</li></ul>|
+| ![プラン操作](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>運用計画を立てます。</li><li>導入および変更管理を計画します。</li></ul>|
 
 ## <a name="plan-for-operations"></a>運用計画 
 
@@ -154,7 +154,7 @@ Microsoft Teams Rooms関連の連絡を転送するヘルプデスク キュー�
 
 |    |     |
 |-----------|------------|
-| ![[マネージャー] を選ぶ](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms の管理者を決めます。</li><li>Microsoft Teams Rooms 関連の連絡を転送するヘルプデスク キューを決めます。</li></ul>|
+| ![[マネージャー] を選択する](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms の管理者を決めます。</li><li>Microsoft Teams Rooms 関連の連絡を転送するヘルプデスク キューを決めます。</li></ul>|
 | ![ホスト アカウントを準備する](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アカウントのホストを準備します。 </li></ul>|
 
 

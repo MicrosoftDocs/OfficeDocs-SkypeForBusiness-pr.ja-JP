@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、中国で利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを紹介します。
+description: 中国で利用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
 ms.openlocfilehash: 76feb7bba530b766e8d00880963058d770a1bd49
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118246"
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、中国で利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを紹介します。
+中国で利用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -44,7 +44,7 @@ ms.locfileid: "51118246"
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい。中国以外のユーザーが使用します。 詳細については、アカウント チームにお問い合わせください。  <br/> |
 |電話番号は自動的に電話会議に割り当てられますか?  <br/> | 地理的ではない。 電話番号が特定の都市や地域に関連していません。 <br/>  専用の電話番号が必要な場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)」をご覧ください。  <br/> |
-|折り返し通話機能を使用するダイヤルアウト機能  <br/> | はい。中国からサービスを購入したお客様を除く。 中国からサービスを購入したお客様のダイヤルアウト機能は無効になっています。   <br/> |
+|折り返し通話機能を使用するダイヤルアウト機能  <br/> | はい(中国からサービスを購入した顧客を除く)。 中国からサービスを購入したお客様のダイヤルアウト機能は無効になります。   <br/> |
    
 ## <a name="phone-system"></a>電話システム
 
@@ -63,7 +63,7 @@ ms.locfileid: "51118246"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、電話システム ダイレクト ルーティング [の使用を検討してください](../direct-routing-landing-page.md)。 直接ルーティングを使用すると、事実上すべてのテレフォニー通信事業者で電話システムを使用できます。
+通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -71,7 +71,7 @@ ms.locfileid: "51118246"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |北京  <br/> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|無料電話番号は使用できますか?  <br/> |はい ([要求あり)、](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)中国からサービスを購入したお客様を除く。 無料電話番号は、中国からサービスを購入したお客様は利用できません。 <br/> |
+|無料電話番号は使用できますか?  <br/> |はい ([要求あり)。](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)中国からサービスを購入した顧客を除く。 無料電話番号は、中国からサービスを購入したお客様は利用できません。 <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)」をご覧ください。
   

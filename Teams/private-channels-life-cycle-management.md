@@ -1,5 +1,5 @@
 ---
-title: Graph API を使用して Microsoft Teams のプライベート チャネルを管理する
+title: Graph API を使用してMicrosoft Teamsプライベート チャネルを管理する
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -27,7 +27,7 @@ ms.locfileid: "51117745"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネルのライフ サイクルを管理する
 
-ここでは、Graph API を使用して組織内の [Teams](./private-channels.md) のプライベート チャネルを管理するために管理する必要があるガイダンスを示します。
+ここでは、Graph API を使用して組織内のプライベート チャネルTeams管理するために必要[な](./private-channels.md)ガイダンスを確認できます。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>チーム メンバーがプライベート チャネルを作成できるかどうかを設定する
 
@@ -44,7 +44,7 @@ PATCH /teams/<team_id>
 
 ## <a name="create-a-private-channel-on-behalf-of-a-team-owner"></a>チーム所有者に代わってプライベート チャネルを作成する
 
-管理者は、Graph API を使用して、チーム所有者の代わりにプライベート チャネルを作成できます。 たとえば、組織がプライベート チャネルの作成を一元化する場合は、これを実行できます。
+管理者は、Graph API を使用して、チーム所有者に代わってプライベート チャネルを作成できます。 たとえば、組織がプライベート チャネルの作成を一元化する場合は、これを実行できます。
 
 ```Graph API
 POST /teams/{id}/channels
@@ -70,7 +70,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 プライベート チャネル内のファイルに対して電子情報開示または法的保留を実行する場合でも、特定のプライベート チャネルにファイルを配置するカスタム アプリを構築する場合でも、それぞれのプライベート チャネルに対して作成された一意の SharePoint サイト コレクションをクエリする方法が必要になります。
 
-管理者は、Graph API コマンドを使用してこれらの URL に対してクエリを実行できます。
+管理者は、API コマンドGraph使用して、これらの URL を照会できます。
 
 これらのコマンドは、[Graph エクスプローラー](https://developer.microsoft.com/graph/graph-explorer)から試すことができます。
 

@@ -35,7 +35,7 @@ Teams のライブ イベント設定を使用して、組織で保持されて�
 
 Microsoft Teams 管理センターでこの設定を簡単にできます。 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 
-![Teams のライブ イベント設定のスクリーン ショット](../media/teams-live-events-settings.png "Microsoft Teams 管理センターで構成できる Teams ライブ イベント設定のスクリーン ショット")
+![ライブ イベント設定Teamsスクリーン ショット](../media/teams-live-events-settings.png "管理センター Teamsで構成できるライブ イベント設定のスクリーン Microsoft Teamsショット")
 
 ## <a name="set-up-event-support-url"></a>イベントのサポート URL を設定する
 
@@ -46,7 +46,7 @@ Microsoft Teams 管理センターでこの設定を簡単にできます。 左
 1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 2. [**サポート URL**] で組織のサポート URL を入力します。
 
-    ![管理センターでのライブ イベントのサポート URL 設定](../media/teams-live-events-settings-supporturl.png "Teams ライブ イベントのサポート URL 設定のスクリーン ショット")
+    ![管理センターでのライブ イベントのサポート URL 設定](../media/teams-live-events-settings-supporturl.png "ライブ イベントのサポート URL 設定Teamsスクリーン ショット")
 
 ### <a name="using-windows-powershell"></a>Windows PowerShell の使用
 
@@ -65,7 +65,7 @@ Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネ�
 1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 2. [**サード パーティ製ビデオ配信プロバイダー**] で次を実行します。 
 
-    ![管理センターのサードパーティビデオ配布プロバイダーの設定](../media/teams-live-events-settings-distribution-provider.png "ライブ イベントのサードパーティビデオ配信プロバイダーの設定のスクリーン ショット")
+    ![管理センターのサード パーティのビデオ配信プロバイダーの設定](../media/teams-live-events-settings-distribution-provider.png "ライブ イベントのサード パーティのビデオ配信プロバイダー設定のスクリーン ショット")
 
     - **サード パーティ製配信プロバイダーを使用する** これを選択してサード パーティ製ビデオ配信プロバイダーを有効にします。
     - **SDN プロバイダー名** お使いのプロバイダーを選択します。
@@ -95,15 +95,15 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 詳細については、[CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。
 
 > [!NOTE]
-> 外部アプリまたはデバイスを使用してライブ イベントを作成する場合は、Microsoft Stream で [eCDN](/stream/network-caching)プロバイダーを構成する必要があります。 
+> 外部アプリまたはデバイスを使用してライブ イベントを作成する場合は、Microsoft Stream を使用して [eCDN](/stream/network-caching)プロバイダーを構成する必要があります。 
 
 >[!Note]
 > Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
 
 >[!Note]
-> 選択した eCDN ソリューションは、選択したサードパーティ プロバイダーのサービス利用規約とプライバシー ポリシーに従います。このポリシーは、eCDN プロバイダーのソリューションの使用を管理します。 eCDN プロバイダーのソリューションの使用には、Microsoft ボリューム ライセンス条項またはオンライン サービス規約の適用対象となんらなものとします。 サードパーティ プロバイダーの条項に同意しない場合は、Microsoft Teams で eCDN ソリューションを有効にしない。
+> 選択した eCDN ソリューションには、選択したサードパーティ プロバイダーのサービス利用規約とプライバシー ポリシーが適用されます。このポリシーによって、eCDN プロバイダーのソリューションの使用が管理されます。 eCDN プロバイダーのソリューションの使用には、Microsoft ボリューム ライセンス条項またはオンライン サービス条件の適用対象となんら適用されないものとします。 サードパーティ プロバイダーの条項に同意しない場合は、Microsoft Teams で eCDN ソリューションを有効にMicrosoft Teams。
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams のライブ イベントをセットアップする](set-up-for-teams-live-events.md)

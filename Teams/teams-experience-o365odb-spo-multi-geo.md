@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Multi-Geo 対応環境での Teams のエクスペリエンス
+title: Teams Geo 対応環境Microsoft 365環境でのエクスペリエンスの向上
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -17,7 +17,7 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-description: この記事では、Microsoft 365 Multi-Geo 対応環境での Teams の使用について説明します。
+description: この記事では、複数の geo 対応環境でTeamsをMicrosoft 365について学習します。
 ms.openlocfilehash: a1b86cf83a0eabde81331e5311561aa1600d3c7e
 ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
 ms.translationtype: MT
@@ -25,18 +25,18 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 04/14/2021
 ms.locfileid: "51760540"
 ---
-# <a name="teams-experience-in-a-microsoft-365-multi-geo-enabled-tenancy"></a>Microsoft 365 Multi-Geo 対応テナントでの Teams のエクスペリエンス
+# <a name="teams-experience-in-a-microsoft-365-multi-geo-enabled-tenancy"></a>Teams Geo 対応テナントMicrosoft 365でのエクスペリエンスの向上
 
-Microsoft Teams は、Microsoft 365 および Office 365 のチームワークのハブです。 Microsoft 365 Groups サービスを利用し、SharePoint Online や OneDrive for Business でファイルを使用できます。 テナントが北米、ヨーロッパ、オーストラリアなどの多くの地理的な場所に拡張される OneDrive for Business/SharePoint Online Multi-Geo テナントでは、基になるファイル エクスペリエンスはマルチジオ対応なので、Teams でのファイルの共同作業のエクスペリエンスもマルチジオ対応です。 この機能は、Teams がネイティブ ファイル エクスペリエンスで複数の地域でホストされているファイルを表示するための主要な最先端機能です。 これには、OneNote ファイルと Wiki ファイルも含まれます。
+Microsoft Teamsは、グループ チャット ソフトウェアであり、チームワークのハブであり、Microsoft 365およびOffice 365。 Microsoft 365 Groups サービスを利用し、SharePoint Online とOneDrive for Businessファイルエクスペリエンスを提供します。 テナントが北米、ヨーロッパ、オーストラリアなどの多くの地理的な場所に拡張される OneDrive for Business/SharePoint Online Multi-Geo テナントでは、基になるファイル エクスペリエンスはマルチ geo 対応なので、Teams でのファイルコラボレーションのエクスペリエンスもマルチ geo 対応です。 この機能は、ネイティブ ファイル エクスペリエンスでTeams Geo でホストされているファイルを表示するための主要な最先端の機能です。 これには、他のOneNote Wiki ファイルも含まれます。
 
-たとえば、Contoso テナントでは、ヨーロッパを衛星地域として、北米を中心地域として使用している場合、ヨーロッパの衛星ユーザーには、左側のウィンドウの [ファイル] タブの下に OneDrive ファイルが表示されます。ただし、ファイルはヨーロッパのデータの場所でホストされ、米国はテナントの中心的な場所です。 また、ユーザーは [最近使ったビュー] ブレードの下で、最近使用した **ファイルに** アクセスできます。 最近使用したファイルには、他の地域のユーザーから共有されたファイルが含まれる場合があります。 
+たとえば、ヨーロッパを衛星 geo として、北米を中央 Geo として使用する Contoso テナントでは、ヨーロッパの衛星ユーザーは左側のウィンドウの [ファイル] タブに OneDrive ファイルを表示しますが、ファイルはヨーロッパのデータの場所でホストされ、米国はテナントの中央の場所です。 また、ユーザーは [最近使用したビュー] ブレードで、最近使用した **ファイルに** アクセスできます。 最近使用したファイルには、他の地理的な場所のユーザーから共有されたファイルが含まれる場合があります。 
 
-特定のチームの SharePoint サイトも、複数の地域を認識しています。 つまり、ヨーロッパの衛星ユーザーがチームを作成している場合、対応する SharePoint サイトがヨーロッパの場所に作成されます。 そのチームに関連付けられているファイルは、その場所に保存されます。 新しいファイルのアップロードやファイルの編集など、その後のエクスペリエンスはヨーロッパの場所に保存され、それらのファイルに対するデータ常駐の約束が保たれるでしょう。
+特定のチームのSharePointサイトもマルチ geo 対応です。 つまり、ヨーロッパの衛星ユーザーがチームを作成している場合、対応するSharePointサイトがヨーロッパの場所に作成されます。 そのチームに関連付けられているファイルは、その場所に保存されます。 新しいファイルのアップロードやファイルの編集などの後続のエクスペリエンスは、ヨーロッパの場所に保存され、それらのファイルのデータ常駐が約束されます。
 
-複数地域テナントは 1 つのグローバル テナントなので、@ メンションの間、衛星ユーザーは、場所に関係なく、世界中の同僚を見る可能性があります。
+Multi-Geo テナントは 1 つのグローバル テナントなので、@ メンション中は、衛星ユーザーは、場所に関係なく、世界中から同僚を表示できます。
 
-Teams エクスペリエンス内のチャット、チャネル メッセージ、会議 IM ノート/チャット内の会話は、マルチジオ対応ではなんらテナントの中心的な場所にのみ保存されます。 通常、チャットの会話はデータ常駐のニーズには適用されません。 詳細については [、「Microsoft Teams のデータの場所」を参照してください](location-of-data-in-teams.md)。
+Teams エクスペリエンス内のチャット、チャネル メッセージ、会議 IM ノート/チャットの会話は、マルチ geo 対応ではなんらテナントの中央の場所内にのみ保持されます。 通常、チャット会話はデータ常駐のニーズには適用されません。 詳細については、「データの場所[」を参照Microsoft Teams。](location-of-data-in-teams.md)
 
-Teams の複数地域のサポートは [、Microsoft 365 ロードマップに含まれています](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70783)。
+複数地域でのサポートは、Teamsロードマップ[Microsoft 365されています](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70783)。
 
-Multi-Geo の詳細については [、Microsoft Multi-Geo](https://aka.ms/multi-geo)の機能ページを参照してください。
+Multi-Geo の詳細については [、Microsoft Multi-Geo の機能に関するページを参照してください](https://aka.ms/multi-geo)。

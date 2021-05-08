@@ -31,7 +31,7 @@ ms.locfileid: "51098513"
 ---
 # <a name="audio-conferencing-supported-languages"></a>電話会議でサポートされている言語
 
-Microsoft 365 または Office 365 で電話会議を設定および構成する場合、発信者が Skype for Business または Microsoft Teams 会議にダイヤルインするときに使用される第 1 言語と第 2 言語 (最大 4 言語) を選択できます。 電話会議でサポートされている言語の一覧を示します。 
+Microsoft 365 または Office 365 で電話会議を設定および構成する場合は、発信者が Skype for Business または Microsoft Teams 会議にダイヤルインするときに使用されるプライマリ言語とセカンダリ言語 (最大 4 つ) を選択できます。 電話会議でサポートされている言語の一覧を示します。 
   
 > [!IMPORTANT]
 > プライマリとセカンダリの言語は、専用の電話会議の電話番号でのみ変更できます。 
@@ -93,11 +93,11 @@ Microsoft 365 または Office 365 で電話会議を設定および構成する
 
 - [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) または [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) コマンドレットを使って、時間の節約や自動化が可能です。
     
-- Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell では、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する必要がある場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Microsoft 365 または Office 365 を管理するための最適Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - 多くのユーザーの設定を同時に変更するときなどは、Microsoft 365 管理センターのみを使用するよりも、Windows PowerShell を使用した方が、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。 
     
@@ -110,6 +110,6 @@ Microsoft 365 または Office 365 で電話会議を設定および構成する
     > [!NOTE]
     > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[Microsoft 365 または Office 365 で電話会議を試用または購入する](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[電話会議を試用または購入するには、Microsoft 365またはOffice 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

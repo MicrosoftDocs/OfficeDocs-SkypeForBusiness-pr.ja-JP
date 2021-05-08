@@ -1,5 +1,5 @@
 ---
-title: 全般会議ポリシーを管理する
+title: 一般会議ポリシーを管理する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,7 +18,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
-description: Teams で一般的な会議ポリシー設定を管理する方法について学習します。
+description: 会議の全般ポリシー設定を管理する方法については、Teams。
 ms.openlocfilehash: fb5f537e5cc96ba363fb4aa68bbfff2af513db6b
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
 ms.translationtype: MT
@@ -30,7 +30,7 @@ ms.locfileid: "51598766"
 
 <a name="bkgeneral"> </a>
 
-この記事では、Teams 会議の次の一般的なポリシー設定について説明します。
+この記事では、会議の一般的なポリシー設定についてTeamsします。
 
 - [チャネルで "今すぐ会議" を許可する](#allow-meet-now-in-channels)
 - [Outlook アドインを許可する](#allow-the-outlook-add-in)
@@ -43,7 +43,7 @@ ms.locfileid: "51598766"
 
 ## <a name="allow-meet-now-in-channels"></a>チャネルで "今すぐ会議" を許可する
 
-これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルでアドホック会議を開始できるかどうかを制御します。 この設定をオンにした場合、ユーザーは[会議] ボタンをクリックして臨時の会議を開始したり、チャネルで会議をスケジュールできます。 既定値は True です。
+これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルでアドホック会議を開始できるかどうかを制御します。 これを有効にした場合、ユーザーは [会議] ボタンをクリックして、臨時の会議を開始したり、チャネルで会議をスケジュールすることができます。 既定値は True です。
 
 [![メッセージの下に [今すぐ会う] アイコンを示すスクリーンショット ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -59,7 +59,7 @@ ms.locfileid: "51598766"
 
 既存の[AllowChannelMeetingScheduling] ポリシーを使用して、チームのチャネルの予定表で作成できるイベントの種類を制御します。 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルで会議をスケジュールできるかどうかを制御します。 既定では、この設定は[オン] に設定されています。 
 
-このポリシーをオフにすると、ユーザーは新しいチャネル会議を作成できます。 ただし、既存のチャネル会議は、イベントの開催者が編集できます。
+このポリシーがオフになっている場合、ユーザーは新しいチャネル会議を作成できます。 ただし、既存のチャネル会議は、イベントの開催者が編集できます。
 
 会議のスケジュールは無効になります。
 
@@ -67,7 +67,7 @@ ms.locfileid: "51598766"
 
 チャネルの選択が無効になっています。
 
-[![会議をスケジュールするチャネルを選択する予定表オプションを示すスクリーンショット。 ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[![会議のスケジュールを設定するチャネルを選択する予定表オプションを示すスクリーンショット。 ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 チャネルの投稿ページで、次の機能が無効になります。
 
@@ -82,15 +82,15 @@ ms.locfileid: "51598766"
 - チャンネル予定表ヘッダーの[**新しいイベントの追加**] ボタンは、無効になります。
   ![会議のスケジュールを設定できるチャネルを選択する予定表オプションを示すスクリーンショット。](media/add-new-event-disabled.png)
 
-- ユーザーは、チャネル予定表の時間ブロックをドラッグして選択して、チャネル会議を作成できない。
+- ユーザーは、チャネル予定表で時間ブロックをドラッグして選択して、チャネル会議を作成できない。
 
-- ユーザーは、キーボード ショートカットを使用して、チャネル予定表に会議を作成することはできません。
+- ユーザーは、キーボード ショートカットを使用して、チャネルの予定表に会議を作成することはできません。
 
 管理センターにて
 
 [アプリのアクセス許可ポリシー] ページの [**Microsoft アプリ**] セクションに、チャネル カレンダー アプリが表示されます。
 
-![Teams 管理センターのアプリのアクセス許可ポリシーを示すスクリーンショット。](media/manage-microsoft-apps-policy.png)
+![管理センターのアプリのアクセス許可ポリシー Teamsスクリーンショット。](media/manage-microsoft-apps-policy.png)
 
 ## <a name="allow-scheduling-private-meetings"></a>プライベート会議のスケジュールを許可する
 
@@ -145,9 +145,9 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 ## <a name="meeting-reactions"></a>会議の反応
 
-AllowMeetingReactions の設定は、PowerShell を使用する場合にのみ適用できます。 Teams 管理センターから AllowMeetingReactions のオンとオフを切り替えるオプションはありません。
+AllowMeetingReactions 設定は、PowerShell を使用してのみ適用できます。 Teams 管理センターから AllowMeetingReactions のオンまたはオフを切り替えるオプションはありません。
 
-会議の反応は、既定ではオフになっています。 ユーザーに対する反応をオフにしても、ユーザーがスケジュールした会議でリアクションを使用できないという意味ではない。 会議の開催者は、既定の設定に関係なく、会議オプション ページからリアクションを有効にできます。
+会議の反応は、既定ではオフになっています。 ユーザーに対して反応をオフにしても、ユーザーがスケジュールする会議で反応を利用できないという意味ではありません。 既定の設定に関係なく、会議の開催者は [会議のオプション] ページで反応をオンにできます。
 
 
 ## <a name="related-topics"></a>関連項目

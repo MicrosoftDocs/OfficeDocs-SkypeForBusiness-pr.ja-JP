@@ -11,7 +11,7 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 一連のユーザーを起動して実行できるよう、Microsoft Teams で通話プランを構成するためのクイック スタート ガイド。
+description: 一連のユーザーを起動して実行Microsoft Teamsで通話プランを構成するためのクイック スタート ガイド。
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -36,7 +36,7 @@ Teams の通話プランに関する 2017 年 12 月 12 日付けの発表「[In
 > [!NOTE]
 > 展開を成功させるため、このクイック スタート ガイドとともに、「[通話プランが設定された電話システム](calling-plan-landing-page.md)」と「[FastTrack](https://aka.ms/cloudvoice)」をご覧になることをお勧めします。
 
-Skype for Business を利用した Microsoft 365 および Office 365 の機能である通話プランを追加すると、Teams を使用して、公衆交換電話網 (PSTN) を介して、固定電話と携帯電話の間で通話を発信および受信できます。
+Skype for Business を利用した通話プラン (Microsoft 365 および Office 365 機能) を追加することで、Teams を使用して、公衆交換電話網 (PSTN) を介して、固定電話や携帯電話の間で通話を発信および受信できます。
 
 ![Teams の [連絡先] ページを示すスクリーンショット](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams の [**通話**] タブを有効にするための前提条件

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 管理センターがテナントに表示されていない場合の Microsoft Teams へのアップグレードの停止について説明します。
+description: 管理センターがテナントで点灯しない場合Microsoft Teamsアップグレードの停止方法について学習します。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:

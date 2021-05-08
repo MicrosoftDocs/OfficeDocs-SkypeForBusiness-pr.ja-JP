@@ -1,5 +1,5 @@
 ---
-title: 政府機関向け Teams ポリシー パッケージ
+title: Teamsのポリシー パッケージを作成する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,7 +16,7 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: 政府機関向け Teams ポリシー パッケージを使用して管理する方法について学習します。
+description: 政府機関のポリシー パッケージを使用Teams管理する方法について学習します。
 ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -24,10 +24,10 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117775"
 ---
-# <a name="teams-policy-packages-for-government"></a>政府機関向け Teams ポリシー パッケージ
+# <a name="teams-policy-packages-for-government"></a>Teamsのポリシー パッケージを作成する
 
 > [!NOTE]
-> 現在、ポリシー パッケージは Microsoft 365 Government GCC High または DoD 展開では利用できません。
+> 現在、ポリシー パッケージは、Government Microsoft 365 High または DoD GCCでは使用できません。
 
 ## <a name="overview"></a>概要
 
@@ -41,17 +41,17 @@ Microsoft Teams の[ポリシー パッケージ](manage-policy-packages.md)は�
 - アプリのセットアップ
 - ライブ イベント
 
-Teams には現在、政府機関向け次のポリシー パッケージが含まれています。
+Teams、政府機関向け次のポリシー パッケージが含まれています。
 
 |Microsoft Teams 管理センターのパッケージ名|以下の目的での使用に最適です|説明 |
 |---------|---------|---------|
-|公安責任者  |政府機関の公安責任者  |組織の公安責任者に適用される一連のポリシーとポリシー設定を作成します。 |
+|公安責任者  |政府機関の公安責任者  |組織内の公安責任者に適用される一連のポリシーとポリシー設定を作成します。 |
 |Frontline Manager  |政府機関のフロントライン マネージャー |一連のポリシーを作成し、それらの設定を組織内の Frontline Managers に適用します。|
-|最前線の従業員  |政府機関の最前線の従業員 |一連のポリシーを作成し、それらの設定を組織内の Frontline Worker に適用します。|
+|Frontline worker  |政府機関のフロントライン ワーカー |一連のポリシーを作成し、それらの設定を組織内の Frontline Worker に適用します。|
 
 ![ヘルスケア ポリシー パッケージのスクリーンショット](media/policy-packages-gov.png)
 
-ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、パブリック セーフティ責任者のポリシー パッケージを組織内のユーザーに割り当てると、パッケージ内のポリシーごとに PublicSafety_Officer という名前のポリシーが作成されます。
+ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、組織内のユーザーに Public safety officer ポリシー パッケージを割り当てると、パッケージ内のポリシーごとに PublicSafety_Officer という名前のポリシーが作成されます。
 
 ![医療職員パッケージのポリシーのスクリーンショット](media/policy-packages-public-safety-officer.png)
 
@@ -71,7 +71,7 @@ Teams には現在、政府機関向け次のポリシー パッケージが含�
 
 ### <a name="assign"></a>割り当て
 
-ユーザーにポリシー パッケージを割り当てる。 ユーザーにポリシーが割り当てられている場合は、別のポリシーを割り当てると、最新の割り当てが優先されます。
+ポリシー パッケージをユーザーに割り当てます。ユーザーにポリシーが割り当てられている場合は、別のポリシーを割り当てると、最新の割り当てが優先されます。
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>1 人または複数のユーザーにポリシー パッケージを割り当てる
 

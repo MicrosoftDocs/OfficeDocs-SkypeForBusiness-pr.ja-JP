@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: フランスで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを以下に示します。
+description: フランスで使用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
 ms.openlocfilehash: 3e12854b3c8ab3725b9d61b240b7c395aca35a0d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118125"
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-フランスで利用できる Skype for Business Office Microsoft Teams の Microsoft 365 および 365 のサービスを以下に示します。
+フランスで使用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -60,8 +60,8 @@ ms.locfileid: "51118125"
 |**機能**|**詳細**|
 |:-----|:-----|
 |通話プランは購入できますか?  <br/> |はい  <br/> |
-|通話プランで利用できる分数。 |予定表の月ごとに 4 つのプラン オプションを利用できます。 <ul><li>120 分の国内通話プラン </li><li>240 分の国内通話プラン</li></li><li>1200 分の国内通話プラン </li></li><li>国内通話と国際通話プラン: 国内通話の 1200 分 -OR- 600 分の国際通話 (予定表の月の最初に到達した方)</li></li> |
-|フランスのプレミアム番号への発信通話はできますか? <br/> | はい。通信クレジットを使用して分単位で支払う場合は完全にサポートされます。 <br/> |
+|通話プランで利用できる分数。 |予定表の月ごとに使用できるプラン オプションは 4 種類です。 <ul><li>120 分国内通話プラン </li><li>240 分国内通話プラン</li></li><li>1200 分国内通話プラン </li></li><li>国内通話プランと国際通話プラン: 国内通話の 1200 分 -OR - 600 分の国際通話 (カレンダー月の最初に到達した方)</li></li> |
+|フランスのプレミアム番号への発信呼び出しはできますか? <br/> | はい。通信クレジットを使用して 1 分あたりの支払いを行う場合は、完全にサポートされます。 <br/> |
 |発信通話を行うことができますか?  <br/> | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
@@ -82,7 +82,7 @@ ms.locfileid: "51118125"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

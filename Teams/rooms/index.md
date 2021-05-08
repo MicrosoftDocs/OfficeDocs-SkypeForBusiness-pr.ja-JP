@@ -14,7 +14,7 @@ localization_priority: Normal
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: 理想的な仮想会議室を作成するためのシステムの計画、展開、管理など、Microsoft Teams の会議室を設定する方法について説明します。
+description: 理想的な仮想会議室をMicrosoft Teams ミーティング、システムの計画、デプロイ、管理など、さまざまな方法を設定する方法について説明します。
 ms.custom: seo-marvel-may2020
 ms.openlocfilehash: a809b2a0e66b391a001956dabddc2763915be14f
 ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
@@ -33,10 +33,10 @@ ms.locfileid: "51471481"
 
        Microsoft のパートナー (Yealink、Logitech、Crestron、Polycom、Lenovo、HP) から、適切なシステムやオーディオ ビデオ周辺機器を選択してください。
 
-       Teams の会議室の簡単な概要については、右側のビデオをクリックしてください。
+       ビデオの概要Teams ミーティング、右側のビデオをクリックします。
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams Rooms の Microsoft Mechanics ビデオ":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams ミーティングMicrosoft Mechanics のビデオ":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 

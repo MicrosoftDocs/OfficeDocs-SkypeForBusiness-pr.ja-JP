@@ -50,7 +50,7 @@ Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、�
   
   - Microsoft Teams Rooms 向けテレフォニーサービスプロバイダーを使用して、エンタープライズ ボイス(PSTN テレフォニー) が必要な場合は、Skype for Business Online (プラン 3) が必要です。
 
-  - Microsoft Teams または Skype for Business Online でルーム アカウントを構成する場合、そのアカウントをルーム アカウントとして有効にする前に、電話番号を割り当てる必要があります。
+  - Microsoft Teams または Skype for Business Online でルーム アカウントを構成する場合は、アカウントがルーム アカウントとして有効になる前に電話番号を割り当てる必要があります。
   
   - テナントユーザーには Exchange メールボックスが必要です。
   
@@ -160,12 +160,12 @@ Skype for Business Online PowerShell は、Microsoft Teams および Skype for B
     $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
     ```
 
-3. **オプション。** アカウントに電話番号を割り当てる場合は、この時点で操作を実行する必要があります。 ダイレクト ルーティングの電話番号を割り当てる場合:
+3. **オプション。** 電話番号をアカウントに割り当てる場合は、この時点で操作を実行する必要があります。 直接ルーティングの電話番号を割り当てる場合:
 
    ``` Powershell
     Set-CsUser -Identity $rm -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:+14255550012
     ```
-    Microsoft 提供の電話番号を割り当てる場合は、通話プラン ライセンスでユーザーをプロビジョニングした後、次のコマンドレットを使用します。
+    Microsoft が提供する電話番号を割り当てる場合は、通話プラン ライセンスでユーザーをプロビジョニングした後、次のコマンドレットを使用します。
     
     ``` Powershell
     Set-CsOnlineVoiceUser -Identity $rm -TelephoneNumber +14255550011 -LocationID xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx

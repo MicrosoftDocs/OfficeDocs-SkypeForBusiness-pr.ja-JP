@@ -1,6 +1,6 @@
 ---
 title: 医療関係向けのTeams
-description: 組織内の医療チームの Teams を管理するために利用可能な管理者リソースについて学習します。
+description: 組織内の医療チームの管理に使用Teams管理できる管理者リソースについて学習します。
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -25,10 +25,10 @@ ms.locfileid: "51092515"
 ---
 # <a name="teams-for-healthcare"></a>医療関係向けのTeams
 
-Teams は、医療チームと医療従事者に、通信、患者治療の調整、運用効率の向上のための安全な方法を提供します。 ここでは、組織内の医療チームの Teams を管理するために必要な管理者リソースを示します。
+Teamsチームと医療従事者は、通信、患者ケアの調整、運用効率の向上を行う安全な方法を提供します。 ここでは、組織の医療チームの管理に必要Teamsリソースを確認できます。
 
 |               |               |
 | ------------- | ------------- |
-| ![矢印アイコンを指でポイントした手のスクリーンショット](../media/get-started-teams.svg)  |  [医療組織向けの Teams の使用を開始する](./healthcare/teams-in-hc.md) |
+| ![矢印アイコンを指す手のスクリーンショット](../media/get-started-teams.svg)  |  [医療組織向けの Teams の使用を開始する](./healthcare/teams-in-hc.md) |
 | ![マップ アイコンのスクリーンショット](../media/walkthrough-map-teams.svg) | [医療関係組織向けテンプレートでTeamsを始めましょう](./healthcare/healthcare-templates-admin-console.md) |
-| ![ダイアログ の吹き出しアイコンのスクリーンショット](../media/chat.svg)  |  [医療組織向け Secure Messaging で Teams を始めましょう](./healthcare/messaging-policies-hc.md) |
+| ![ダイアログ のバブル アイコンのスクリーンショット](../media/chat.svg)  |  [医療組織向け Secure Messaging で Teams を始めましょう](./healthcare/messaging-policies-hc.md) |

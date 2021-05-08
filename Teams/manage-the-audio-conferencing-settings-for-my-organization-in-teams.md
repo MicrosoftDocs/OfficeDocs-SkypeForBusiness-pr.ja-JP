@@ -40,13 +40,13 @@ ms.locfileid: "51101093"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> Teams を使用してライセンスを割り当てることはできません。 Microsoft 365 管理センターを使用する必要があります。 「Microsoft [Teams アドオン ライセンスを割り当てる」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+> Teams を使用してライセンスを割り当てることはできません。 管理センターで Microsoft 365する必要があります。 「[アドオン ライセンスMicrosoft Teams割り当てる」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
   
  **ユーザーにライセンスを割り当てる**
   
 1. 職場または学校のアカウントを使用して、Microsoft 365 にサインインします。
     
-2. **Microsoft 365** 管理センターの左側のナビゲーションで、[アクティブなユーザー] に移動し、使用可能なユーザーの一覧からユーザーを  >  選択します。
+2. Microsoft 365 **管理** センターの左側のナビゲーションで、[ユーザーのアクティブなユーザー ] に移動し、使用可能なユーザーの一覧からユーザー  >  またはユーザーを選択します。
     
     > [!NOTE]
     > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 次に [**編集**]、[**次へ**] を 2 回クリックしてからライセンスを選択し、[**送信**] をクリックします。  
@@ -56,7 +56,7 @@ ms.locfileid: "51101093"
 4. [**製品ライセンス**] ページで、[**電話会議**] を有効にし、[**保存**] をクリックします。ライセンスの詳細については、「[Microsoft Teams アドオン ライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」を参照してください。
     
    > [!NOTE]
-   > ライセンスを割り当てると、Microsoft が電話会議プロバイダーとして最初にリストに表示されない場合があります。 この場合は、管理センターからログアウトするか、Ctrl キーを押しながら F5 キーを押してブラウザー ウィンドウを更新します。 
+   > ライセンスを割り当てると、最初に Microsoft が電話会議プロバイダーとしてリストに表示されない場合があります。 この場合は、管理センターからログアウトするか、Ctrl キーを押しながら F5 キーを押してブラウザー ウィンドウを更新します。 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>電話会議ユーザーに送信されたメールを有効または無効にする
 
@@ -77,7 +77,7 @@ ms.locfileid: "51101093"
   
 ## <a name="reset-the-meeting-conference-id"></a>会議通話 ID をリセットする
 
-![Microsoft Teams 管理センターを使用する ](media/teams-logo-30x30.png) **Teams ロゴを示すアイコン**
+![管理センターを使用Teams ](media/teams-logo-30x30.png) **ロゴをMicrosoft Teamsアイコン**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -147,7 +147,7 @@ ms.locfileid: "51101093"
 
     [**名前または電話番号**] を選ぶと、[**発信者に会議に参加する前に自分の名前を記録するように要求する**] を有効または無効にすることもできます。 
     > [!NOTE]
-    > 既定では、外部参加者はダイヤルイン参加者の電話番号を表示されません。 これらの電話番号のプライバシーを維持したい場合は、**開始/終了のお知らせの種類** の **トーン** を選びます (これにより、数字が Teams によって読み上げられません)。
+    > 既定では、外部参加者はダイヤルインされた参加者の電話番号を表示されません。 これらの電話番号のプライバシーを維持したい場合は、**開始/終了のお知らせの種類** の **トーン** を選びます (これにより、数字が Teams によって読み上げられません)。
 
 
 5. [**保存**] をクリックします。
@@ -217,11 +217,11 @@ ms.locfileid: "51101093"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーに許可する操作と許可しない操作の管理に使います。 Windows PowerShell を使用すると、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する必要があるときに日常業務を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365またはOffice 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell で使用する必要があるMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [Microsoft 365 または Office 365 を他のユーザーとWindows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)」をご覧ください。
   

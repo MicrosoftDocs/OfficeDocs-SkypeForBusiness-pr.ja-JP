@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 香港の無料電話番号へのダイヤルについて、空き時間情報、有線/固定電話、モバイル ネットワークの可用性、制限などについて学習します。
+description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、香港での無料電話番号のダイヤルについて学習します。
 ms.openlocfilehash: 459fbe7d8f98a5196973cf24ad797cad42778bb1
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

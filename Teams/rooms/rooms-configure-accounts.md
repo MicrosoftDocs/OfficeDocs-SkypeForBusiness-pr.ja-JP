@@ -54,7 +54,7 @@ Microsoft Teams Rooms には、Active Directory、Exchange、Skype for Business 
 > [!IMPORTANT]
 > ハードウェアを実際に設置するよりも十分に前もってアカウントを作成しておくことを、強くお勧めします。 設置の 2 週間から 3 週間前にアカウントの準備を開始するのが理想的です。 
 
-Microsoft Teams Rooms 認証には Microsoft 365 または Office 365 認証が必要なので、ハイブリッド環境では、Microsoft Teams Rooms で使用されるアカウントで、Azure Active Directory (AAD) 同期でパスワード同期が有効になっている必要があります。 アカウントをセットアップするときに、アカウントの SIP アドレスが AAD のユーザー プリンシパル名 (UPN) と一致する必要があります。 
+ハイブリッド環境では、Microsoft Teams ミーティング に使用されるアカウントで、Azure Active Directory (AAD) 同期でパスワード同期が有効になっている必要があります。Microsoft Teams ミーティング 認証には、Microsoft 365 または Office 365 認証が必要です。 アカウントを設定するときに、アカウントの SIP アドレスが AAD のユーザー プリンシパル名 (UPN) と一致する必要があります。 
   
 デバイス アカウントは、会議室やミーティング スペースのアカウントとして認識されるリソース アカウントと見なすことができます。 その会議室を使って会議をスケジュールするときは、アカウントをその会議に招待します。 Microsoft Teams Rooms を最も効果的に利用するには、各会議室に割り当てられているデバイス アカウントで同じ操作を行います。
   
