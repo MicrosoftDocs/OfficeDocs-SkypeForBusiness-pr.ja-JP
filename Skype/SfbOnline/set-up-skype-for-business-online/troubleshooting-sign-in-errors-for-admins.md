@@ -19,14 +19,16 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Skype for Business Online のサインイン エラーの一般的な原因およびこれらの問題を解決する方法について説明します。 '
-ms.openlocfilehash: ec441528fb6805f4c2c1c47c50f2debd62675a8a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
+ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103843"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52239405"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Skype for Business Online サインイン エラーのトラブルシューティング (管理者用)
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Skype for Business Online のサインイン エラーのトラブルシューティングは、サインインの失敗を引き起こす最も一般的な原因を取り除くことから始めます。 必要に応じて、エラーのタイプに応じて特定の解決手順に従うことができます。 それでもサインインできない場合は、追加の情報を収集してサポートを受けるようにします。
 
@@ -144,7 +146,7 @@ Active Domain Federation Services (ADFS) サーバーにサード パーティ�
 
 これは、次のエラー メッセージに対して有効な場合がある解決方法の手順です: "**サインインに必要な個人証明書を取得する際に問題があります**"。
 
-考えられる証明書または資格情報に関する問題を解決、まず Windows 証明書マネージャーでユーザーの証明書を更新します。 これを行うには、次の手順を実行します。
+考えられる証明書または資格情報に関する問題を排除するには、まず Windows 証明書マネージャーでユーザーの証明書を更新します。これを行うには、次の手順を実行します。
 
 1. Windows 証明書マネージャーを開きます。 これを行うには、[**スタート**] をクリックし、[**ファイル名を指定して実行**] をクリックして **certmgr.msc** と入力し、[**OK**] をクリックします。
 
@@ -154,7 +156,7 @@ Active Domain Federation Services (ADFS) サーバーにサード パーティ�
 
 4. 証明書を右クリックし、[**削除**] をクリックします。
 
-次に、ユーザーが Windows 7 を実行している場合は、Windows 資格情報マネージャーで、格納されているユーザーの資格情報を削除します。 これを行うには、次の手順を実行します。
+次に、ユーザーが Windows 7 を実行している場合は、Windows 資格情報マネージャーで、格納されているユーザーの資格情報を削除します。これを行うには、次の手順を実行します。
 
 1. [**スタート**] をクリックし、[**コントロール パネル**] をクリックします。次に、[**資格情報マネージャー**] をクリックします。
 
@@ -206,7 +208,7 @@ Skype for Business Online のサインイン エラーのトラブルシュー�
 ## <a name="collect-more-information-and-seek-additional-help"></a>詳細情報を収集し、サポートを受ける
 <a name="collect-more-information"> </a>
 
-上記のガイダンスを実行してもサインインの問題を解決できない場合、追加の情報を収集し、テクニカル サポートに問い合わせる必要があります。 これを行うには、次の手順を実行します。
+上記のガイダンスを実行してもサインインの問題を解決できない場合、追加の情報を収集し、テクニカル サポートに問い合わせる必要があります。これを行うには、次の手順を実行します。
 
 1. ユーザーのコンピューターからログ ファイルおよび Windows のイベント ログを取得します。 手順ごとの操作については、エンド ユーザー向けヘルプ トピックの「[Lync のログインの詳細](https://support.office.com/article/eaf6602b-95e0-4c27-869f-36017475806c)」を参照してください。
 
