@@ -617,6 +617,8 @@ items:
             href: google-workspace-addon-teams.md
           - name: クラウド ビデオ相互運用性
             href: cloud-video-interop.md
+          - name: Microsoft Teams でのウェビナーのセットアップ
+            href: set-up-webinars.md
       - name: 電話会議
         items:
           - name: 展開の計画
@@ -1267,14 +1269,14 @@ items:
             href: business-voice/set-up-assign-numbers.md
           - name: '手順 6: 自動応答を設定する'
             href: business-voice/set-up-auto-attendant.md
+          - name: '手順 7: ポートの電話番号 (省略可能)'
+            href: business-voice/port-phone-numbers.md
           - name: 設定後の参考資料
             href: business-voice/set-up-finish.md
       - name: 設定をカスタマイズする
         items:
           - name: カスタマイズのオプション
             href: business-voice/customize-business-voice.md
-          - name: 電話番号のポート
-            href: business-voice/port-phone-numbers.md
           - name: 通話ポリシーの設定
             href: business-voice/set-up-policies.md
           - name: ポリシー パッケージを管理する
@@ -1459,8 +1461,6 @@ items:
             href: flw-realwear.md
           - name: トランシーバー
             href: walkie-talkie.md
-          - name: SPO サイトまたはページから Teams のイントラネット ポータル アプリを作成する
-            href: teams-standalone-static-tabs-using-spo-sites.md
       - name: 小売店向けの Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
