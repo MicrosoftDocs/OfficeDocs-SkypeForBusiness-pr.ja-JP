@@ -1,9 +1,9 @@
 ---
 title: Microsoft Teams で発信者番号ポリシーを管理する
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: jastark
+ms.reviewer: roykuntz; jens
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,20 +18,21 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号を変更またはブロックする方法について説明します。
-ms.openlocfilehash: cd15245523cdc3f5fb3625a2b4cfdae4deebb7d3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cd928af5213a1e6fa927662adaba0fefecb687d5
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102783"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308376"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号ポリシーを管理する
 
->[!INCLUDE [new-feature-teams-admin-center](includes/new-feature-teams-admin-center.md)]
+> [!NOTE]
+> 呼び出し元 ID をリソース アカウントの電話番号に設定し、発信者名を設定するには、Teams PowerShell モジュール 2.3.1 以降の PowerShell コマンドレット New-CsCallingLineIdentity または Set-CsCallingLineIdentity を使用します。 (これらのオプションは現在、管理センター Microsoft Teams使用できません)。 
 
-管理者は、Microsoft Teams で発信者番号ポリシーを使用して、発信者番号 (発信回線 ID とも呼ばれます) を変更またはブロックできます。 既定では、Teams ユーザーが PSTN 電話に電話をかけると、Teams ユーザーの電話番号が表示され、PSTN 発信者が Teams ユーザーに電話をかけると、PSTN 発信者の電話番号が表示されます。 発信者番号ポリシーを使用すると、組織内の Teams ユーザーの代替電話番号を表示したり、着信番号が表示されないようにブロックしたりできます。
+既定では、ユーザーが PSTN Teams通話を行った場合、ユーザーの電話番号Teams表示されます。 同様に、PSTN 発信者がユーザーに通話を発信Teams PSTN 発信者の電話番号が表示されます。
 
-たとえば、ユーザーが電話をかけるときに、ユーザーの電話番号の代わりに組織の代表電話番号が表示されるように発信者番号を変更できます。
+管理者は、発信者番号ポリシーを使用して、発信者番号 (通話回線 ID とも呼ばれる) を変更またはブロックできます。 発信者番号ポリシーを使用して、組織内の Teams ユーザーの代替電話番号を表示したり、発信電話番号をブロックしたり、着信番号の表示をブロックしたり、発信者名 (CNAM) を設定したりすることができます。 たとえば、ユーザーが通話を行う場合、発信者番号を変更して、ユーザーの電話番号の代わりに組織のメイン電話番号と会社名を表示できます。
 
 発信者番号ポリシーを管理するには、Microsoft Teams 管理センターで **[音声]** > **[発信者番号ポリシー]** の順に移動します。 グローバル (組織全体の既定) ポリシーを使用ことも、カスタム ポリシーを作成して割り当てることもできます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。
 
@@ -70,5 +71,7 @@ ms.locfileid: "51102783"
 ## <a name="related-topics"></a>関連項目
 
 [New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
 
 [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)

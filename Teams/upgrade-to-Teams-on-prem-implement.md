@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d01dc44b626cc2c09a92dabff7649a5e9fddc3c6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 7e4bfb5594b64eb06041e7f761eb0d85cec8c3e5
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282504"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306041"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>IT 管理者向けアップグレード戦略
 
@@ -88,6 +88,10 @@ Teams のアクティブなユーザーが 1 人もいない組織の場合、�
 - テナント全体のポリシーを SfbWithTeamsCollab に設定する代わりに、SfbWithTeamsCollabAndMeetings に設定することもできます。 そのようにすると、すべてのユーザーが新しい会議すべてを Teams でスケジュールするようになります。
 - `Move-CsUser` は、オンプレミスのツールのコマンドレットです。 この `MoveToTeams` スイッチには、CU8 以降Skype for Business Server 2019 Skype for Business Server 2015 以降が必要です。 以前のバージョンを使用している場合は、最初にユーザーを Skype for Business Online に移行してから、そのユーザーに TeamsOnly モードを付与できます。
 - 既定で、TeamsOnly モードへのアップグレードや SfbWithTeamsCollabAndMeetings モードの割り当てを実行すると、Skype for Business 会議は Teams に移行されます。  
+
+> [!NOTE]
+> Skype for Business Online の提供が近日提供される予定で、Microsoft は近い将来、組織が Teamsに移行する方法を簡略化する予定です。 ユーザーをオンプレミスから Teams に移行する場合、ユーザーをオンプレミスから `-MoveToTeams` TeamsOnly に直接移動する切り替えの指定は間もなく `Move-CsUser` 不要になります。 現在、このスイッチが指定されていない場合、ユーザーはオンプレミスの Skype for Business Server にホームから Skype for Business Online に移行し、モードは変更されません。 提供終了後に、 を使用してユーザーをオンプレミスからクラウドに移動すると、ユーザーには TeamsOnly モードが自動的に割り当てられます。また、スイッチが実際に指定されているかどうかに関係なく、オンプレミスからの会議は Teams 会議に自動的に変換されます。 `Move-CsUser` `-MoveToTeams switch had been specified` この機能は、2021 年 7 月 31 日の実際の提供が解除される前にリリースされる予定です。
+
 
 次の図は、組織の選択機能のアップグレードの概念的なフェーズを示しています。以前に使用Teams。 バーの高さは、ユーザー数を表します。 アップグレードのどのフェーズでも、すべてのユーザーが相互に通信できます。  Skype for Business ユーザーは TeamsOnly ユーザーと相互運用を使用して通信します。逆の場合も同様です。 Islands モードのユーザーは、両方のクライアントを実行する必要があります。
 

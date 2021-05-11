@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8afb7738d05fd61122ac2188d049419ef41054ea
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 809de40e8c97eefbd3fc1a938e53328c3be0020f
+ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282764"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52306031"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams と Skype for Business の共存と相互運用性を理解する
 
@@ -54,7 +54,7 @@ ms.locfileid: "52282764"
 どのパスが組織に一番適しているかを判断するために、以下の共存モードを確認することをお勧めします。
 
 > [!Important]
-> 新たな優れたビジネス上のメリットを提供しつつ、新しいテクノロジを導入したり、既存の馴染みのある Skype for Business 環境を変更したりする場合、ユーザーが混乱する場合があります。 この記事で説明する変更を実行する前に、時間をかけてユーザーの準備状況を評価し、コミュニケーションおよびトレーニングの計画を実施するようにしてください。 また、計画は、組織全体に実装する前に、選択したユーザーのグループで実験運用することを強くお勧めします。
+> 共存モードは、2021 年 7 月 31 日に Skype for Business Online が提供を開始した後も引き続き存在しますが、Skype for Business Server のオンプレミス デプロイを持つ組織にのみ関連します。 提供終了の直前に、オンプレミスデプロイに参加しているユーザーには、TeamsOnly 以外の任意のモードを割り当てることができます。 ただし、Skype for Business Online の提供を取りやめ、クラウドにホームしているユーザーは TeamsOnly に限定されます。
 
 ### <a name="islands-mode"></a>アイランド モード
 
@@ -334,7 +334,7 @@ Teams と Skype for Business は、連絡先の別個のリストを保持しま
 
 - Skype for Business Online ユーザーが初めて Teams にログオンすると、Skype for Business の連絡先が Teams にコピーされます。  この動作は、Skype for Business Server のオンプレミス アカウントを持つユーザーには利用できません。  
 
-- ユーザーが TeamsOnly にアップグレードされ (TeamsUpgradePolicy を割り当てるか Move-CsUser -MoveToTeams で) た後に、次にユーザーが Teams にログインすると、Skype for Business の既存の連絡先が Teams の既存の連絡先とマージされます。 この動作は、ユーザーの Skype for Business アカウントがオンプレミスかオンラインである場合に発生します。 
+- ユーザーが TeamsOnly にアップグレードされ (TeamsUpgradePolicy を割り当てるか Move-CsUser -MoveToTeams で) た後に、次にユーザーが Teams にログインすると、Skype for Business の既存の連絡先が Teams の既存の連絡先とマージされます。 この動作は、ユーザーがオンプレミスまたはオンラインから TeamsOnly に移動されたかどうかによって発生します。 
 
 どちらの場合も、Skype for Business から Teams への連絡先の転送は非同期なので、連絡先が Teams に表示されるまでに数分かかることがあります。 上述の 2 つのイベントがコピーをトリガーします。  
 

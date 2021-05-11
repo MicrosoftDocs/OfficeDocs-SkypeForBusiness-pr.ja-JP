@@ -1,16 +1,16 @@
 ---
 title: 組織での発信者番号の利用方法
-ms.author: mikeplum
-author: MikePlumleyMSFT
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz
+ms.reviewer: jens, roykuntz
 ms.topic: article
 ms.assetid: 5a0bd8ba-3334-46ee-becf-1025597737f6
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
 - M365-voice
+ms.service: msteams
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,72 +22,89 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: e723311b2780dd1d43bad4874b72133e09ff4fc3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
+ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120678"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "52308346"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>組織での発信者番号の利用方法
 
-発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
+呼び出し元 ID は、次の 2 つのユーザー向け識別可能な情報で構成されます。
+
+- 電話番号 (通常は CLID または通話回線 ID と呼ばれます)。 これは、発信者の識別として表示される公衆交換電話番号 (PSTN) です。
+
+- 呼び出し元の名前 (通常は CNAM と呼ばれます)。 
   
-発信者番号機能は、PSTN 接続電話システム、すべてのユーザーが使用できます。
+発信者番号機能は、PSTN 接続オプション電話システム、すべてのユーザーが使用できます。
 
 - Microsoft 通話プラン 
 
 - 電話システムのダイレクト ルーティング 
   
-- オンラインの PSTN 接続
-    
-- Skype for Business Cloud Connector Edition を使用したオンプレミスの PSTN 接続 (Cloud Connector Edition 1.4.2 以降が必要です)
-    
-- Skype for Business Server を使用したオンプレミスの SPTN 接続 (Skype for Business Server 2015 CU5 以降が必要です）
-    
-> [!NOTE]
-> このポリシーは、Skype for Business 2015 Server では使用できません。 
-  
-## <a name="outbound-caller-id"></a>発信側の発信者番号通知
+CallingLineIdentity というポリシーを使用して、着信呼び出しと送信呼び出しの両方の呼び出し元 ID を制御できます。 詳細については、「通話回線 [ID」と「通話相手名」を参照してください](more-about-calling-line-id-and-calling-party-name.md)。
 
-発信 PSTN 発信者番号には、次の 3 つのオプションがあります。
+  
+## <a name="outbound-pstn-caller-id"></a>発信 PSTN 発信者番号
+
+発信 PSTN 発信者番号については、次のオプションを使用できます。 
+
+> [!NOTE]
+> 以下に示す一部のオプションは、プレビュー リリースです。
   
 - ユーザーに割り当てられた電話番号。既定です。
+
+- 匿名。ユーザーの PSTN 番号のプレゼンテーションを削除することで使用できます。 
+
+- 代わりの電話番号。次の場合があります。
+
+  - 通話プランの電話番号インベントリでサービスとして分類される電話番号と無料電話番号。 通常は、通話キューまたは通話キュー Teams 自動応答割り当てられます。
+
+  - **プレビュー リリース。** 直接ルーティングを介したオンプレミスの電話番号。この電話番号は、Teams 自動応答 または通話キューによって使用されるリソース アカウントに割り当てられます。 
+
+- **プレビュー リリース。** 発信 PSTN 通話で設定された発信側名または CNAM。  
     
-- 通話プランの電話番号インベントリでサービスとして分類される電話番号と無料電話番号。 これは通常、組織の自動応答またはコール キューに割り当てられます。
-    
-- 非通知に設定。
-    
-ただし、以下の種類の電話番号を発信側の発信者番号通知に割り当てることはできません。
-  
-- 通話プランの電話番号インベントリで *ユーザー* として分類されているすべての電話番号。
-    
-- Skype for Business Server のオンプレミスの電話番号
-    
-発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](./set-the-caller-id-for-a-user.md)」を参照してください。
+詳細については、「ユーザーの発信者 [番号を設定する」を参照してください](./set-the-caller-id-for-a-user.md)。
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>送信呼び出し元 ID のエンド ユーザー制御
 
-EnableUserOverride 属性を使用すると、1 人または複数のユーザーが発信者番号の設定を Anonymous に **変更できます**。 これが適用されるのは、CallingLineIdentity のポリシーが LineURI または Substitute のいずれかの CallingIDSubstitute パラメーターで構成されている場合のみです。 EnableUserOverride の既定値は False です。
-  
-エンド ユーザーは、Skype for Business デスクトップクライアントの **設定** タブを使用して発信者番号を匿名に設定し、[エンド ユーザーの呼び出し] **(管理者** が有効になっている場合) を選択し、[すべての通話で電話番号とプロファイル情報を非表示にする] を選択 **します。** このTeams、ユーザーは右上隅にある自分のプロフィール画像に移動し **、[設定** 通話] を選択し、[発信者番号] で [すべての通話の電話番号とプロファイル情報を非表示にする] を選択します  >  。  
-  
-||||
-|:-----|:-----|:-----|
-|**Windows** <br/> |**バージョン** <br/> |**サポートされています** <br/> |
-|クイック実行  <br/> |2016 年 12 月 6 日 - バージョン 1611 (ビルド 7571.2072) でリリースされた現在のチャネル  <br/> |はい  <br/> |
-|クイック実行  <br/> |2017 年 2 月 22日 - バージョン 1701 (ビルド 7766.2060) でリリースされた段階的提供チャネルの最初のリリース  <br/> |はい  <br/> |
-|クイック実行  <br/> |2017年 6 月 13日 - バージョン 1701 (ビルド 7766.2092) でリリースされた段階的提供チャネル  <br/> |はい  <br/> |
-|MSI  <br/> |Skype for Business  <br/> |いいえ  <br/> |
-|Mac  <br/> |Skype for Business  <br/> |いいえ  <br/> |
+ユーザーは、EnableUserOverride 属性を **設定することで** 、発信者番号の設定を Anonymous に変更できます。 
+
+発信呼び出し元 ID が Anonymous に設定されている場合、EnableUserOverride は効果を持たず、呼び出し元 ID は常に Anonymous に設定されます。 EnableUserOverride の既定値は False です。
+
+エンド ユーザーは **、[設定 >** 通話] に進み、[発信者番号] で [すべての通話の電話番号とプロファイル情報を非表示にする] を選択して、発信者番号を匿名に **設定できます**。
+
+### <a name="notes"></a>備考
+
+以下の点について留意してください。
+
+- 発信発信者番号には、次の種類の電話番号を割り当てできません。
+
+  - 通話プランの電話番号インベントリでユーザーとして分類される電話番号。
+
+  - ユーザーに割り当てられている直接ルーティングによるオンプレミスの電話番号。
+
+  - オンプレミスSkype for Business Server電話番号を入力します。
+
+- リソース アカウントの電話番号の置き換えの使用は、ユーザーがTeamsします。 サービス電話番号の置き換えは、オンラインとユーザー Skype for Business両方Teams機能します。
+
+- 発信者名は、発信者 ID が LineUri、サービスまたはリソース アカウントの電話番号に置き換わり、発信者が Teams ユーザーである場合にのみ送信されます。
+
+- 通話パーティー名の最大文字数は 200 文字ですが、ダウンストリーム システムではサポートされる文字が少ない場合があります。
+
+- ダイレクト ルーティングの場合、電話番号の置き換えと通話相手名は FROM SIP ヘッダーで送信されます。 対応する OnlinePstnGateway が ForwardPai = True で構成されている場合、P-ASSERTED-IDENTITY SIP ヘッダーには実際の呼び出し元ユーザーが含まれます。
+
+- EnableUserOverride は、置換が Anonymous に設定されていない限り、ポリシー内の他の設定よりも優先されます。 たとえば、ポリシー インスタンスがリソース アカウントを使用して置き換え、EnableUserOverride がユーザーによって設定および有効になっているとします。 この場合、発信呼び出し元 ID はブロックされ、Anonymous が使用されます。 ポリシー インスタンスで置換が Anonymous に設定され、EnableUserOverride が設定されている場合、送信呼び出し元 ID はエンド ユーザーの設定に関係なく常に Anonymous になります。
+
    
 ## <a name="inbound-caller-id"></a>受信呼び出し元 ID
 
-電話システムは、その番号が Azure AD のユーザーに関連付けられている場合、外部電話番号の呼び出し ID を表示します。 電話番号が Azure ADではない場合は、電話会社が指定した表示名が表示されます (使用可能な場合)。
+電話システム、着信した外部電話番号が発信者番号として表示されます。 番号が Azure AD または個人の連絡先のユーザーまたは連絡先に関連付けられている場合、Skype for Business クライアントと Teams クライアントには、その情報に基づいて発信者番号が表示されます。 電話番号が Azure AD または個人の連絡先に含されていない場合は、電話会社が提供する表示名が表示されます (使用可能な場合)。
 
-BlockIncomingCallerID 属性を使用すると、着信した PSTN 通話の発信者番号通知をブロックできます。 この属性を設定することはできますが、ユーザー設定ページではエンド ユーザーには使用できません。 また、現在はオンラインの PSTN 接続のみで使用可能です。
+BlockIncomingCallerID 属性を使用すると、着信した PSTN 通話の発信者番号通知をブロックできます。 この属性を設定することはできますが、ユーザー設定ページではエンド ユーザーには使用できません。 この設定を有効にすると、着信 PSTN 発信者は匿名からの発信元として表示されます。
   
-発信側の発信者番号通知を設定するには、「[ユーザーの発信者番号通知を設定する](./set-the-caller-id-for-a-user.md)」を参照してください。
+受信呼び出し元 ID をブロックするには、「 [ユーザーの発信者番号を設定する」を参照してください](./set-the-caller-id-for-a-user.md)。
   
 ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
