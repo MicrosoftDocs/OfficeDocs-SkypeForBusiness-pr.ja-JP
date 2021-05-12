@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すMicrosoft Teams電話と電話について学習します。
-ms.openlocfilehash: dec58efccef8b247ebf970c4196fd38d87dc1437
-ms.sourcegitcommit: 347246d725b3058e4c5e770513c0c386bfb586bc
+ms.openlocfilehash: 90651f5e88544f86022d65842f760f5ff47e9d6c
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52077377"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328549"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認定デバイス
 
@@ -73,6 +73,7 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 
 | デバイス モデル | ファームウェアのバージョン | リリース日  | 部屋のサイズ                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| AudioCodes RXV80 | 1.9.155        |   2021 年 5 月  | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
 | EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | 2021 年 4 月 | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
 | Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 中規模の部屋 (4.5m x 6m) |
 | Yealink CTP18 タッチ コンソール  | 137.15.0.28    | 2021 年 3 月 | Yealink MeetingBar A20 および Yealink MeetingBar A30 と互換性があります |
