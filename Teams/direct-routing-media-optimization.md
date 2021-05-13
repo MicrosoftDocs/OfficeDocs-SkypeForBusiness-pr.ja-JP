@@ -16,12 +16,12 @@ f1.keywords:
 description: 直接ルーティングのためのローカル メディアの最適化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a85ed89eef42abca78cfdec16a9eee398ce118c
-ms.sourcegitcommit: b431fc1a1802a8177109741b7c8e91bacb8c50c3
+ms.openlocfilehash: aab38cb7f844764faac0e9c19bc03110adac9c10
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "50999819"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469669"
 ---
 # <a name="local-media-optimization-for-direct-routing"></a>直接ルーティングのためのローカル メディアの最適化
 
@@ -334,5 +334,4 @@ TDM トランクの集中化がオプションではない APAC リージョン�
 | Teamsパブリック IP が顧客の信頼済み IP リストと一致Teams、クライアントは内部として識別されません。 | ローカル メディアの最適化では、クライアント サブネットTeamsテナントで構成されたネットワーク サブネットと一致[する必要があります。](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps)|
 | 呼び出しエスカレーションでは、クライアントが内部としてTeams呼び出しが破棄されます。| ダイレクト ルーティング SBC でローカル メディアの最適化を無効にします。|
 | 内部顧客間で 1 から 1 回の呼び出しから外部の顧客/リソースとのマルチパーティ通話への呼び出しのエスカレーションにより、呼び出しが破棄される | 修正プログラムの進行中。 または、ダイレクト ルーティング SBC でローカル メディアの最適化を無効にします。|
-
-
+| Teamsユーザーが通話を保留にしました。 PSTN エンドで音楽が再生され、ローカル メディアの最適化が機能しています。 ユーザー Teams呼び出しを再開します。 PSTN の呼び出しは再開されますが、ローカル メディアの最適化が機能していません。通話はセントラル (プロキシ) SBC 経由で続行されます | ユーザーが保留音 (MoH) を開始する呼び出しをパークすると、MoH が保留されたユーザーに到達するメディア コントローラーとメディア プロセッサ (AVMCU ミキサーとして機能) を呼び出す呼び出しコントローラーによるマルチパーティ呼び出しに 1 対 1 からエスカレートされます。 呼び出しが再開された後の 1 対 1 の呼び出しへのエスカレーションは、設計上決して発生しない。 ダイレクト ルーティング SBC でローカル メディアの最適化を無効にします。|

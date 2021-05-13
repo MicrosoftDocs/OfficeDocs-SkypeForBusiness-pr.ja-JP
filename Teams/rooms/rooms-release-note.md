@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 609f477ef91c75cae47e6bbfd13b59cb804211c8
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: e9911061cd3b461c014a184a0ffb1df4d0f49e02
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995295"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469549"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -29,6 +29,7 @@ ms.locfileid: "51995295"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
 |4.7.19.0 |02/03/2021 |
@@ -73,6 +74,14 @@ ms.locfileid: "51995295"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
+### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
+
+この更新プログラムで導入されるもの:
+- Windows 10 20H2 のサポート 
+
+> [!NOTE]
+> HP Elite Slice とクUC-Engine ("KYSKLi" を含む BIOS バージョンの日付) Teams ミーティング には互換性の問題があります。更新されたドライバーは、近い将来、システム OEM によって提供される予定です。 Windows 10 20H2 は、これらのデバイスには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](./rooms-lifecycle-support.md#windows-10-release-support)」を参照してください。
+
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
 この更新プログラムで導入されるもの:
@@ -80,7 +89,6 @@ ms.locfileid: "51995295"
 
 > [!NOTE]
 > GCCH のお客様は、デバイスを手動で更新[するからアップグレード パッケージMicrosoft Teams ミーティングできます。](manual-update.md)
-
 
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 

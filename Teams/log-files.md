@@ -1,10 +1,10 @@
 ---
 title: Microsoft Teams のトラブルシューティングでログ ファイルを使用する
 ms.reviewer: tejeshs
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 05/06/2021
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
@@ -13,26 +13,29 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Microsoft Teams によって生成されるデバッグ ログ、メディア ログ、デスクトップ ログ、これらのログの場所、トラブルシューティングでのログの活用について説明します。
+description: Microsoft Teams によって生成されたデバッグ ログ、メディア ログ、デスクトップ ログ、ログが見つかる場所、および監視とトラブルシューティングに役立つ方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f816830f24a3d1180cb33a91a3f02d30d360cfef
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 58460390d9562d77ed6a4e3dfcbb3948cbe2749e
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264877"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337744"
 ---
-<a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Microsoft Teams のトラブルシューティングでログ ファイルを使用する
-=================================================
+# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>ログ ファイルを使用して、ログの監視とトラブルシューティングを行Microsoft Teams
 
-クライアントによって自動的に生成される 3 種類のログ ファイルがあります。このファイルは、クライアントのトラブルシューティングに役立Microsoft Teams。
+クライアントによって自動的に生成される 3 種類のログ ファイルがあります。このファイルは、クライアントの監視とトラブルシューティングに役立Teams。
 
--   デバッグ ログ
+-   [デバッグ ログ](#debug-logs)
 
--   メディア ログ
+-   [メディア ログ](#media-logs)
 
--   デスクトップ ログ
+-   [デスクトップ ログ](#desktop-logs)
+
+この記事では、3 つのログと、その使い方について説明します。 
+
+特定の問題のトラブルシューティングについては、「トラブルシューティング」を参照[Teamsしてください](/MicrosoftTeams/troubleshoot/teams)。 サポートに連絡する方法については、「サポートを受け取る [」を参照してください](/microsoft-365/business-video/get-help-support)。
 
 Microsoft サポートでサポート要求を作成する場合、サポート エンジニアはデバッグ ログを必要とします。 サポート要求を作成する前にデバッグ ログを用意すると、Microsoft が問題のトラブルシューティングをすぐに開始できます。 **メディア** ログまたは **デスクトップ ログ** は、Microsoft から要求された場合にのみ必要です。
 
@@ -53,8 +56,7 @@ Microsoft サポートでサポート要求を作成する場合、サポート 
 
 サポートされるオペレーティング システムとブラウザーの完全なリストについては、「[Microsoft Teams のクライアントを取得する](get-clients.md)」をご覧ください。
 
-<a name="debug-logs"></a>デバッグ ログ
----------------------------
+## <a name="debug-logs"></a>デバッグ ログ
 
 これらは最も一般的なログであり、すべての Microsoft サポート ケースで必要です。 デバッグ ログは、Windows Mac デスクトップ クライアントとブラウザー ベースのクライアントによって生成されます。 ログはテキスト ベースであり、ボトムアップから読み取されます。 任意のテキスト ベースのエディターを使用して読み取り、クライアントにログインするときに新しいログが作成されます。
 
@@ -90,8 +92,7 @@ Microsoft サポートでサポート要求を作成する場合、サポート 
 
 -   ブラウザー: 既定の保存場所にデバッグ ログを保存するように求められます
 
-<a name="media-logs"></a>メディア ログ
----------------------------
+## <a name="media-logs"></a>メディア ログ
 
 メディア ログには、音声、ビデオ、画面の共有に関する診断データがTeamsされます。 これらは、通話関連の問題にリンクされているサポート ケースに必要です。
 
@@ -119,8 +120,7 @@ Microsoft サポートでサポート要求を作成する場合、サポート 
 |Debug-0-s2790420889.blog    | レンダリング品質など、メディア エージェントに関連する情報が含まれる。          |
 |tscalling-0-2061129496.blog   |ts 呼び出し API のイベントを記録します。       |
 
-<a name="desktop-logs"></a>デスクトップ ログ
----------------------
+## <a name="desktop-logs"></a>デスクトップ ログ
 
 デスクトップ ログ (ブートストラップ ログとも呼ばれる) には、デスクトップ クライアントとブラウザーの間で発生するログ データが含まれます。 メディア ログと同様に、これらのログは Microsoft から要求された場合にのみ必要です。 ログはテキスト ベースであり、トップダウン形式の任意のテキスト ベースのエディターを使用して読み取り可能です。
 
@@ -143,8 +143,7 @@ Linux:
 |Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
 
 
-<a name="browser-trace"></a>ブラウザートレース
----------------------------
+## <a name="browser-trace"></a>ブラウザートレース
 
 一部のカテゴリのエラーについては、Microsoft サポートでブラウザー トレースの収集が必要になる場合があります。 この情報は、エラーが発生した場合のクライアントの状態Teams詳細を提供できます。
 

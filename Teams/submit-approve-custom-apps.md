@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Teams App Submission API を使用して送信されるカスタム アプリを承認する方法についてMicrosoft Teams。
-ms.openlocfilehash: 8c12d93a0b4420fd248064c69308e8049dc6326f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e544fdc12e17fc8917a2d3b9ce01dfc5985261de
+ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116975"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "52337794"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Teams App Submission API を使用して送信されたカスタム アプリを発行する
 
@@ -133,24 +133,6 @@ Graph API を使用して発行の状態を確認する **方法** の詳細に�
 - 開発者がアプリを送信し、要求が保留中の場合、同じ開発者だけがアプリに更新を送信できます。 他の開発者は、アプリが承認された後にのみ更新を送信できます。
 
 Graph API を使用してアプリを更新する方法の詳細については、こちらを参照<a href="/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">してください</a>。
-
-### <a name="update-experience-for-users"></a>ユーザーのエクスペリエンスを更新する
-
-ほとんどの場合、アプリの更新プログラムを発行すると、ユーザーの新しいバージョンが自動的に表示されます。 ただし、完了するためにユーザーの受け入れを<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">必要Microsoft Teamsマニフェスト</a>にはいくつかの更新があります。
-
-* ボットが追加または削除されました
-* 既存のボットの "botId" プロパティが変更されました
-* 既存のボットの "isNotificationOnly" プロパティが変更されました
-* ボットの "supportsFiles" プロパティが変更されました
-* メッセージング拡張機能が追加または削除されました
-* 新しいコネクタが追加されました
-* 新しい静的タブが追加されました
-* 新しい構成可能なタブが追加されました
-* "webApplicationInfo" 内のプロパティが変更されました
-
-![利用可能な新しいバージョン](media/manage-your-custom-apps-update1.png)
-
-![アプリのアップグレード オプション](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-topics"></a>関連トピック
 

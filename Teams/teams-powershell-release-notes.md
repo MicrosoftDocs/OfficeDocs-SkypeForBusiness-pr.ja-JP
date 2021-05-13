@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell の最新の変更点Teamsします。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 382d11ba8a2a388b70df5675275f21faae5db37c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 601783d5c0b3b84470e79abbc705c4c22244581b
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130306"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469639"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft TeamsPowerShell リリース ノート
 
@@ -31,7 +31,7 @@ ms.locfileid: "52130306"
 
 | 日付 | バージョン | 更新プログラム |
 |------- | -------------------- | ------------------------------ |
-| 2021 年 4 月 | [2.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.0) | <li>ユーザーとグループの複数の geo リージョンを取得するコマンドレットを追加しました</li><li>-AccountId と一緒に使用する統合 Windows 認証のConnect-MicrosoftTeams</li><li>TeamsCallHoldPolicy コマンドレットが利用可能に</li><li>多くのコマンドの入力パラメーターと出力形式の更新</li><li>リモート処理コマンド中の大きな待機時間の問題を修正しました</li><li>GA カスタム パッケージ機能</li>|
+| 2021 年 5 月 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>から更新します。NETCore 2.1 から 3.1</li><li>ユーザーとグループの複数の geo リージョンを取得するコマンドレットを追加しました</li><li>-AccountId と一緒に使用する統合 Windows 認証のConnect-MicrosoftTeams</li><li>TeamsCallHoldPolicy コマンドレットが利用可能に</li><li>多くのコマンドの入力パラメーターと出力形式の更新</li><li>リモート処理コマンド中の大きな待機時間の問題を修正しました</li><li>GA カスタム パッケージ機能</li>|
 | 2021 年 4 月 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>-AccountId を Windows-MicrosoftTeams と組み合Connect統合認証を修正しました。</li><li>ユーザーに送信できる変更通知イベントの合計の詳細を取得するコマンドレットを追加しました。</li><li>ユーザーとグループのマルチ geo リージョンを取得するコマンドレットを追加しました。</li><li>TeamsEnvironment 名に渡される値の処理では、大文字と小文字が区別されます。 これは修正されました。</li><li>単体テストを容易にするためのモジュール内のリモート セッション管理の主なリファクタリング。 テナント管理者の機能の変更は行う必要はありません。</li>|
 | 2021 年 4 月 | [2.1.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.1.0-preview) | <li>既存のコマンドレット (Get-CsTeamsNetworkRoamingPolicy、Get-CsTeamsMeetingPolicy、Get-CsTeamsMessagingPolicy など) の書式設定を修正しました。</li><li>ポリシー管理コマンドレットのパラメーター 一覧を更新しました。</li>|
 | 2021 年 3 月 | [2.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.0.0) | <li>認証と承認に MSAL を&する</li> <li>Connect-MicrosoftTeamsは、すべてのコマンドレットのエントリ ポイントです。</li><li>New-csOnlineSession は使用できなくなりました。 Connect-MicrosoftTeams に置き換えました。</li><li>Enable-csonlinesessionforreconnection は不要です。 この機能は、PowerShell モジュールでTeams実装されています。</li> <li>リファクタリングされたポリシー パッケージ コマンドレットとグループ パッケージの割り当ての追加</li><li>このコマンドレットの大幅なパフォーマンスGet-Team強化</li> <li>既存のコマンドレットのログ記録とデバッグ オプションの改善 </li> <li>テンプレート管理コマンドレットを追加しました</li> <li>非推奨のNew-CsOnlineSession</li>|
