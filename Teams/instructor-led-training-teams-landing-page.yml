@@ -1,10 +1,10 @@
 ### YamlMime:Hub
-title: Microsoft Teams の講師主導のトレーニング
-summary: Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 参加して実行中の Teams を表示し、質問の回答を得たり、講師とライブでやり取りしたりしましょう。 自分の時間にトレーニング クラスを表示するには、オンデマンドのエンドユーザー トレーニングをご覧ください。 以下のセッションをクリックしてサインアップしてください。
+title: ユーザー向けエンド ユーザー トレーニングMicrosoft Teams
+summary: Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 参加して、実際Microsoft Teams、質問に回答し、ライブ講師とやり取りします。 自分の時間にトレーニング クラスを表示するには、オンデマンドのエンド ユーザー トレーニングにアクセスしてください。 以下のセッションをクリックしてサインアップしてください。
 brand: teams
 metadata:
-  title: Microsoft Teams のインストラクターによるトレーニング
-  description: 講師主導の無料のライブ トレーニング クラスにサインアップし、Microsoft Teams に関するあらゆる事柄を学習する方法について説明します。
+  title: ユーザー向けエンド ユーザー トレーニングMicrosoft Teams
+  description: Microsoft では、お客様をサポートするために設計された無料のライブ仮想トレーニング クラスを提供Teams。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 参加して、実際Microsoft Teams、質問に回答し、ライブ講師とやり取りします。 以下のセッションをクリックしてサインアップし、以下の他のコースを確認してください。
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: serdars
@@ -16,7 +16,7 @@ highlightedContent:
       url: 'https://aka.ms/SayhelloTeams'
     - title: オンデマンドのエンドユーザー トレーニング
       itemType: video
-      url: 'https://aka.ms/TeamsOnDemand'
+      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
     - title: Microsoft 365 導入ツール
       itemType: deploy
       url: 'https://adoption.microsoft.com'
@@ -42,7 +42,7 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
       summary: 'プロジェクトやワークグループのためのワーク スペースを作成するために最適なアプローチを決定する方法を探ります。 (対象ユーザー: すべてのユーザー)'
       url: 'https://aka.ms/CollaborateInTeams'
-    - title: Teams でプロによるヒントを活用する
+    - title: アプリケーションでプロのヒントを使用Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 'Teams を活用して仕事を整理し、同僚とのつながりを保つ方法について説明します。 (対象ユーザー: すべてのユーザー)'
       url: 'https://aka.ms/TeamsProTips'
@@ -58,3 +58,13 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: 'Teams への正常なアップグレードを計画および実装します。 (対象ユーザー: IT プロフェッショナル、導入変更マネージャー)'
       url: ./upgrade-workshops-landing-page.yml
+additionalContent:
+  sections:
+    - title: コース
+      items:
+        - title: Teamwork Specialist の認定
+          summary: コラボレーションは、今日の作業能力にとって不可欠なスキルです。 Microsoft Teams内の堅牢な機能を使用して、チームとの接続を高め、より効率的に作業する方法について学習します。
+          url: /learn/paths/teamwork-specialist
+        - title: サービス導入スペシャリスト認定
+          summary: Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織で組織のクラウド サービスの導入Microsoft サービスする方法について学習する
+          url: /learn/paths/m365-service-adoption
