@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 60ee9246df70f3f91bd5624ec9fece879b622896
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 5fbf2efa3ad1d77300138a57336b4254ea788e84
+ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697632"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52328509"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -131,7 +131,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 |機能     | 上限 |
 |------------|---------------|
-|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 300。**表示専用** では、開催者が E3/E5/A3/A5 SKU および Government (GCC、GCC High、DoD) のライセンスを持っている会議に、最大 1 万人の聴取のみの参加者が参加できます。 [表示専用エクスペリエンス](view-only-meeting-experience.md)に関する詳細。|
+|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 1000。GCC は含まれますが、GCCH と DoD は未対応です。 **表示専用** では、開催者が E3/E5/A3/A5 SKU および Government (GCC、GCC High、DoD) のライセンスを持っている会議に、最大 2 万人の聴取のみの参加者が参加できます。 [表示専用エクスペリエンス](view-only-meeting-experience.md)に関する詳細。|
 |チャットから開始されるビデオまたは音声通話に参加できるユーザー数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
@@ -139,7 +139,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 ### <a name="meeting-expiration"></a>会議の有効期限
 
 > [!NOTE]
-> 会議の URL は機能を停止しません。 有効期限は、任意の PSTN のダイヤルイン番号および/または基となる会議ポリシーおよび設定にのみ関係します。
+> 会議の URL は機能を停止しません。有効期限は、任意の PSTN のダイヤルイン番号または基となる会議ポリシーと設定 (あるいはその両方) にのみ関係します。
 
 |会議の種類  |この時間が経過すると、会議は期限切れになります  |会議を開始または更新するたびに、有効期限はこの時間だけ延長されます  |
 |---------|---------|---------|
