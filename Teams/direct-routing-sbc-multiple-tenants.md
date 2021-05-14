@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 1 つのセッション ボーダー コントローラー (SBC) を構成して、Microsoft パートナーや PSTN 通信事業者に複数のテナントを提供する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 742b02709585e9a25b170bc99aab3d1939d63f10
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
+ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096533"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52486381"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -243,6 +243,8 @@ SBC では、接続を認証するための証明書が必要です。 SBC ホ�
 -    オプションは、通信事業者のトランク FQDN にのみ送信されます。 キャリア トランクの正常性状態は、すべての派生トランクに適用され、ルーティングの決定に使用されます。 ダイレクト ルーティング オプションの [詳細については、 を参照してください](./direct-routing-monitor-and-troubleshoot.md)。
 -    キャリアは、キャリアトランクをドレインできます。また、派生したトランクもすべてドレインされます。 
  
+> [!NOTE]
+> キャリア トランクに適用される番号変換ルールは、派生トランクには適用されません。 これは既知の問題です。 別のソリューションとして、顧客のテナントごとに数値変換ルールを作成する必要があります。
 
 **前のモデルからキャリア トランクへの移行**
  

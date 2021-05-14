@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90d5135196de9ecf62085e88053d80299b6e5a58
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9f86d40772eb067a561708c6170ef2354bae521b
+ms.sourcegitcommit: 05411575d07d3eadc79d872d1cf81b36aae25621
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097463"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52479074"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
@@ -35,9 +35,7 @@ Teams の Walkie Talkie を使用すると、フロントライン の作業員�
 
 ### <a name="deploying-walkie-talkie"></a>トランシーバーの展開
 
-現在、トランシーバーはプリインストールされていません。 組織内のユーザーに対してこの機能を有効にするには、[[Teams 管理センター]](https://admin.teams.microsoft.com/) からユーザーに割り当てられた [アプリ セットアップ ポリシー](teams-app-setup-policies.md) にトランシーバーを追加する必要があります。
-
-有効にすると、トランシーバーは 48 時間以内に Android アプリで利用できるようになります。
+現在、Walkie Talkie は Google Mobile Services (GMS) を搭載した Android デバイスで使用できます。また、事前にインストールされていません。 組織内のユーザーに対してこの機能を有効にするには、[[Teams 管理センター]](https://admin.teams.microsoft.com/) からユーザーに割り当てられた [アプリ セットアップ ポリシー](teams-app-setup-policies.md) にトランシーバーを追加する必要があります。 有効にすると、トランシーバーは 48 時間以内に Android アプリで利用できるようになります。
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>トランシーバーをアプリ リストに追加する
 
@@ -66,22 +64,24 @@ Teams のトランシーバーにはインターネット接続が必要であ�
 上記のように、IP ネットワークを介したリアルタイム メディアの品質は、ネットワーク接続の品質、特に次の量によって大きく影響されます。
 
 - **遅延** - これは、IP パケットがネットワーク上のポイント A からポイント B に到達するまでにかかる時間です。 このネットワーク伝達遅延は、基本的に、2 つのポイント間の物理的な距離と光の速度に関連付けられます。これには、その間のさまざまなルーターによって発生するオーバーヘッドが多く含まれています。 遅延は往復時間 (RTT) として測定されます。
+- **到着間ジッター** - 連続するパケット間の遅延の平均変化です。
 - **パケット損失** - これは、指定した時間帯に失ったパケットの割合として定義されることがよくあります。 パケット損失は、オーディオの品質に直接影響を与えます。ほとんど影響を及ぼすことのない小規模のパケット損失から、音声が完全に途切れる原因となる連続したバースト損失まで存在します。
-- **ジッタ** - これは、連続するパケット間の遅延の平均変動です。
 
-トランシーバーからの予想データ使用量は、オーディオの送受信時に約 20KB/秒です。 アイドル状態の場合、トランシーバーからの予想されるデータ使用量はごくわずかです。
+Walkie Talkie からの予想されるデータ使用量は、音声の送受信時に約 20 Kb/s です。 アイドル状態の場合、トランシーバーからの予想されるデータ使用量はごくわずかです。
 
 ### <a name="walkie-talkie-devices"></a>トランシーバー デバイス
 
 多くの場合、フロントラインワーカーは、携帯電話がロックされている場合でも、Walkie Talkie の通話を話して受信する必要があります。 この体験は、専用の PTT ボタンを備えた専用デバイスを介して可能です。
 
-- ヘッドセット
-  - 有線ヘッドセット ([Klein Electronics](https://www.kleinelectronics.com/poc-accessories/mtwt/))
-  - ワイヤレス ヘッドセット ([Jabra BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie))
-- 頑丈な電話
-  - Samsung Galaxy XCover Pro
-    - [詳細情報](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)。
-    - [セットアップ ガイド](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)。
+- **ヘッドセット**
+  - ワイヤレス ヘッドセット 
+    - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
+  - 有線ヘッドセット 
+    - [クライン電子](https://www.kleinelectronics.com/poc-accessories/mtwt/)
+- **頑丈な電話**
+  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/) [、Galaxy XCover 5、Galaxy](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)Tab Active [3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+    -  手動セットアップ - インストールTeams、XCover/Active キー設定 >高度>に移動します。 [アプリで XCover キーを制御する] をオンにし、[Teams] を選択します。
+    -  [MDM のセットアップ](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 
 > [!NOTE]
 > これらのデバイスは Teams 認定を受けていません。 Teams トランシーバーで動作することが検証されています。
