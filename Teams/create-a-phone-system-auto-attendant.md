@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: アプリの自動応答を設定してテストする方法Microsoft Teams。
-ms.openlocfilehash: 9efd30eb91e9760f800dd24935724d2a3cdd97c2
-ms.sourcegitcommit: c56c87e912a4b3729c7c52d8de78fd4d24448a8d
+ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "51926053"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498792"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -53,6 +53,12 @@ ms.locfileid: "51926053"
 > - **あいさつ** メッセージを表示しません (既定値: オフ) - 有効にすると、標準のシステム メッセージ "トーンの後にメッセージを残してください。 完了したら、その他のオプションを表示するには、電話を切るか、ハッシュ キーを押してください。" は抑制されます。
 
 自動応答を設定するには、Teams 管理センターで、[音声] を展開し、[自動応答] を選択し、[追加] を **選択します**。
+
+## <a name="video-demonstration"></a>ビデオデモ
+
+このビデオでは、自動応答を作成する方法の基本的な例をTeams。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
 
 ## <a name="general-info"></a>一般的な情報
 

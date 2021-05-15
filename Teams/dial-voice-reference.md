@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 自動応答と通話キューのダイヤルと音声認識のオプションについては、Teams。
-ms.openlocfilehash: f62a04735d386637489d52956e6a064a2eba1e4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ee79f5024ee15fc1b8f00ecd5026f2eb5a9b4b22
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098443"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491814"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>自動応答と通話キューのダイヤルと音声認識のリファレンス
 
@@ -101,33 +101,9 @@ ms.locfileid: "51098443"
   
 ## <a name="language-support"></a>言語のサポート
 
-送信プロンプトで使用されるテキスト読み上げでは、次の言語を使用できます。
-  
-|-|-|-|
-|:-----|:-----|:-----|
-|アラビア語 (EG)  |英語 (U.K.)  |韓国語 (KO)  |
-|中国語 (HK)  |英語 (U.K.) |ノルウェー語 (NO)  |
-|中国語 (TW) |英語 (米国) |ポーランド語 (PL)  |
-|中国語 (ZH) |フィンランド語 (FI) |ポルトガル語 (BR) |
-|デンマーク語 (DA)  |フランス語 (CA)  |ポルトガル語 (PT) |
-|オランダ語 (NL)   |フランス語 (FR)  |ロシア語 (RU) |
-|英語 (AU)  |ドイツ語 (DE) |スペイン語 (ES)  |
-|英語 (CA)  |イタリア語 (IT) |スペイン語 (MX)|
-|英語 (IN)  |日本語 (JP) |スウェーデン語 (SV)|
+テキスト読み上げと音声認識の言語サポートは、これらのサポートされている言語 [で利用できます](create-a-phone-system-auto-attendant-languages.md)。
 
-自動応答の音声認識入力は、次の言語で使用できます。
-  
-|-|-|
-|:-----|:-----|
-|中国語 (ZH)  |フランス語 (FR)  |
-|英語 (AU)  |ドイツ語 (DE)  |
-|英語 (CA)  |イタリア語 (IT)  |
-|英語 (IN)  |日本語 (JP)  |
-|英語 (U.K.)  |ポルトガル語 (BR)  |
-|英語 (米国)  |スペイン語 (ES)  |
-|フランス語 (CA)   |スペイン語 (MX)  |
-
-音声認識でサポートされている 14 の言語では、次の音声コマンドを使用できます。
+音声認識には、次の音声コマンドを使用できます。 
   
 |音声コマンド| 対応 |
 |:-----|:-----|

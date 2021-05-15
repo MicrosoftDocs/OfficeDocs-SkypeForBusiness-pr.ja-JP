@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '機能、可用性、およびビジネス向け Microsoft 電話を計画および設定する方法について学習します。 '
-ms.openlocfilehash: eba13d07c41af8b449d0164542c4d241b1b54f66
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: 2d4f4bada45242ddd5a3aa48308d2acaad495a23
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486361"
+ms.locfileid: "52491780"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>電話システムで利用できる機能
 
@@ -52,7 +52,7 @@ ms.locfileid: "52486361"
 |応答/開始を呼び出す (名前と番号で)  <br/> |ユーザーがタッチで着信通話に応答し、完全な電話番号をダイヤルするか、クライアントの名前をクリックして発信通話を発信できます。  <br/> |
 |[通話の転送オプションと同時呼び出し](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |ユーザーが転送ルールを設定して、通話をどこからでも移動したり、通話を同僚やボイスメールに転送したりすることができます。  <br/> |
 |[グループ通話の集荷とグループへの転送](call-sharing-and-group-call-pickup.md) <br/> | ユーザーが利用できない間に発生した通話に同僚が応答できるよう、ユーザーが同僚と着信通話を共有できます。 他の形式の通話共有 (着信の転送や同時呼び出しなど) よりも受信者の混乱を少なくします。ユーザーは、着信共有通話の通知方法を構成できます。 |
-|[通話とコンサルティング転送を転送する](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |ユーザーが通話を別のユーザーに転送できます。 または、オフィスを離れる必要があるが、会話を続ける場合は、PC または IP 電話から携帯電話に通話を転送できます。  <br/> 別のユーザー *から転送された* 通話を受信するには、ユーザーが音声を有効にする必要があります。 |
+|[通話とコンサルティング転送を転送する](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |ユーザーが通話を別のユーザーに転送できます。 または、オフィスを離れる必要があるが、会話を続ける場合は、PC または IP 電話から携帯電話に通話を転送できます。  <br/> 別のユーザー *から転送された* 通話を受信するために、ユーザーが音声を有効にする必要はない点に注意してください。 |
 |[通話中にボイスメールに転送する*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | ユーザーが通話中にボイスメールに転送できます。 |
 |[コール パークおよび取得](call-park-and-retrieve.md)  <br/> | ユーザーがクラウド内のクラウド サービスでTeamsを保留にできます。 通話の保留を実行すると、Teams サービスにより通話解除のための固有のコードが生成されます。 通話を保留したユーザーまたは他のユーザーは、そのコードとサポートされているアプリやデバイスを使用して、通話を再開できます。 <br/> |
 |検索から電話番号を呼び出す  <br/> | /call コマンドを使用し、名前または番号を指定することで、ユーザーが検索ボックスから通話を行います。 <br/> |

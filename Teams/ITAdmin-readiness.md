@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4d75ce28d6c9e23c9fdf0c24ee284a9ba0a4902
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469569"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498722"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>管理者向けトレーニングのMicrosoft Teams
 
@@ -78,6 +78,14 @@ ms.locfileid: "52469569"
 | モジュール 8: Microsoft Teams ミーティング--ヒント、テクニック、トラブルシューティング (18:14 分)|[ビデオ](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | ワンタッチ結合の手順 |  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
+<h2>TeamsAndroid デバイス</h2>
+
+<p>次の表には、Teams ディスプレイ、Teams Phones、Teams ミーティング for Android、Teams Panels を含む Microsoft Teams Android デバイスに付属する PowerPoint デッキ (PDF 形式) を含む包括的なビデオ トレーニングへのリンクが含まれています。  
+
+| モジュール | ビデオ | PowerPoint デッキ (PDF)  |
+| ------------ | -------------------- | -------------------- |
+| モジュール 1: Android デバイスMicrosoft Teamsの概要  | |[デッキ](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
+| モジュール 2: Android デバイスMicrosoft Teams計画する|| [デッキ](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 <h2>対話型ガイド</h2>
 
 | タイトル                                                                       | 要約                                                                                                                                                                                                               |  ガイドへのリンク                             |
@@ -107,4 +115,5 @@ ms.locfileid: "52469569"
 - [チュートリアル: Teams での会議](tutorial-meetings-in-teams.yml)
 - [チュートリアル: Teams での電話会議](tutorial-audio-conferencing.yml)
 - [チュートリアル: Teams での通話の理解](tutorial-calling-in-teams.yml)
+
 

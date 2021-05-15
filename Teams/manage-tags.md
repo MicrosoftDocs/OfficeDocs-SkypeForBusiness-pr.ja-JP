@@ -16,18 +16,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 組織でタグを使用する方法を管理する方法についてMicrosoft Teams。
-ms.openlocfilehash: c63817f5b3ee9c736311982b54dbc9a220564229
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: ab57fe5a0528ad5e33b20929bd224cb33273197e
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030107"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498782"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
 ## <a name="overview"></a>概要
 
-タグをMicrosoft Teams、ユーザーがチームの一部のユーザーとすばやく簡単に接続できます。 カスタム タグを作成して割り当て、ロール、プロジェクト、スキル、場所などの属性に基づいてユーザーを分類できます。 または、シフト アプリのスケジュールやシフト情報に基づいて、タグをユーザーに自動的に割り当てることができます [(近](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts) 日公開予定)。 タグを 1 人または複数のチーム メンバーに追加した後は、チャネル投稿でチームの誰でも @mentions で使用したり、そのタグが割り当てられているユーザーのみと会話を開始したりすることができます。
+タグをMicrosoft Teams、ユーザーがチームの一部のユーザーとすばやく簡単に接続できます。 カスタム タグを作成して割り当て、ロール、プロジェクト、スキル、場所などの属性に基づいてユーザーを分類できます。 または、Shifts アプリ のスケジュールとシフト情報に基づいて、タグをユーザーに自動的 [に割り当てることができます](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts)。 タグを 1 人または複数のチーム メンバーに追加した後は、チャネル投稿でチームの誰でも @mentions で使用したり、そのタグが割り当てられているユーザーのみと会話を開始したりすることができます。
 
 前述のように、2 種類のタグがTeams。
 
@@ -99,13 +99,13 @@ Microsoft Teams 管理センターで[チーム所有者がタグを管理でき
 
 ### <a name="set-up-tagging-by-shift"></a>シフトによるタグ付けを設定する
 
+シフトによるタグ付けにより、ユーザーはリアルタイムでシフト上のユーザーにアクセスできます。 Teams、スケジュールとシフト グループ名に一致するタグを持つユーザーを Shifts アプリから自動的に割り当て、動的なロールベースのメッセージングを有効にできます。 通知は、タグがチャットの開始またはチャネルの投稿に使用された時点でシフト中のユーザーにのみ送信されます。 
+
 1. このTeams、Shifts アプリ[に移動します](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)。
 2. シフト [グループを作成](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) し、ロールなどの属性の後に名前を付えます。 たとえば、EngineerOnCall です。 シフト グループ名はタグの名前です。
 3. [チームのメンバーにシフト](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea) を割り当て、スケジュールを入力します。 完了したら、Shifts アプリの右上隅にある [チームと共有] **を選択します**。
 4. スケジュールされたシフトがタグ付けサービスに設定されるのを 15 分待ちます。
 5. タグは、タグを使用する場所Teams。
-
-シフトによるタグ付けにより、ユーザーはリアルタイムでシフト上のユーザーに到達できます。 通知は、タグがチャットの開始またはチャネルの投稿に使用された時点でシフト中のユーザーにのみ送信されます。
 
 ## <a name="related-topics"></a>関連トピック
 

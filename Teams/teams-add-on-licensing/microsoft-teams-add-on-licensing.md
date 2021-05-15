@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 各ライセンスで取得する機能Microsoft Teamsのアドオン ライセンスについて説明します。
-ms.openlocfilehash: 3925cd7b388ec884990cfb2310e8d53b537e7a64
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff5c9ca199a017406b46061daea99658157318e5
+ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116915"
+ms.lasthandoff: 05/14/2021
+ms.locfileid: "52491781"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams アドオン ライセンス
 
@@ -103,7 +103,7 @@ Microsoft 365 Business Standard Microsoft 365 Business Premium</td>
 <td>電話会議の通信クレジット</td>
 </tr>
 <tr class="odd">
-<td>Microsoft 365 EnterpriseE1/E3<br>Office 365 EnterpriseE1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Office 365 F1</td>
+<td>Microsoft 365 EnterpriseE1/E3<br>Office 365 EnterpriseE1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1</td>
 <td>Microsoft 365 Business Voice<br>国際通話プラン <br />(省略可能)コミュニケーション クレジット </td><td>または</td>
 <td>Microsoft 365 Business Voiceプランを使用せずに通話を行う</td><td>または</td>
 <td>電話会議<br> 電話システム<br>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
@@ -150,7 +150,7 @@ Microsoft 365 Business Standard Microsoft 365 Business Premium</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>Microsoft 365 EnterpriseE1/E3<br>Office 365 EnterpriseE1/E3<br>Microsoft 365 F3<br>Office 365 F3</td><td>電話会議<br>電話システム<br>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
+<td>Microsoft 365 EnterpriseE1/E3<br>Office 365 EnterpriseE1/E3<br>Microsoft 365 F3<br>Office 365 F3<br>Microsoft 365 F1<br></td><td>電話会議<br>電話システム<br>国内通話プラン<br>国内通話プランと国際通話プラン (オプション)<br>通信クレジット</td>
 <td></td>
 </tr>
 <tr class="odd">
