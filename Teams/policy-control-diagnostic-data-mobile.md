@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c54a38a547708b78f652096cdad577088283c5b
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
+ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469649"
+ms.lasthandoff: 05/15/2021
+ms.locfileid: "52498772"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須モバイル診断データ
 
@@ -385,6 +385,20 @@ ms.locfileid: "52469649"
 - **copyLink** - チャネル投稿へのリンクをコピーします。
 - **contactActivity** - ユーザーのアクティビティを連絡先カードから表示するボタンが選択されたとき。
 - **conversation** - ユーザーが [**チャット**] または [**投稿**] タブに移動したとき。
+- **cortanaClose** - ユーザーが手動で Cortana キャンバスを閉じたとき。
+- **cortanaEduCategorySelect** - ユーザーが教育のヒントのカテゴリ項目をクリックしたとき。
+- **cortanaEduOpen** - 教育ページが Cortana キャンバスに表示されるとき。
+- **cortanaInvoke** - Cortana がリスニングを開始したとき。
+- **cortanaKWSSwitchToggle** - ユーザーが Cortana 設定ページで KWS 切り替えをタップしたとき。
+- **cortanaMicPermissionDialogButtonClick** - ユーザーが Cortana キャンバスでマイク権限を付与または拒否したとき。
+- **cortanaOpen** - ユーザーが Cortana キャンバスを開いたとき。
+- **cortanaOptionsOpen** - ユーザーが Cortana キャンバスのオプション ボタンをタップしたとき。
+- **cortanaSafetyFirstActions** - ユーザーが安全第一宣言を受け入れたとき。
+- **cortanaSafetyFirstLaunch** - FRE が終了した後、ユーザーが初めて Cortana を開いたとき。
+- **cortanaSettingsOpen** - ユーザーが Cortana キャンバスの Cortana 設定ボタンをクリックして Cortana 設定ページを開いたとき。
+- **cortanaStopResponding** - ユーザーが Cortana キャンバスのキャンセル ボタンをクリックしたとき。
+- **cortanaUserSettingsLaunch** - ユーザーが Teams 設定で Cortana 設定を開いたとき。
+- **cortanaVoiceSelect** - ユーザーが Cortana 設定ページで Cortana 音声フォントを選択したとき。
 - **createChannel** - 新しいチャネル作成のために、以下のような場合に、正常な作成または破棄の操作に関する成功データを提供します。
   - [**完了**] ボタンが[**チャネルの作成**] ページで選択される。
   - [**キャンセル**] ボタンが[**チャネルの作成**] ページで選択される。
@@ -655,6 +669,9 @@ ms.locfileid: "52469649"
 - **messageBookmarkMessage** - コネクタ カードの保存。 アプリ固有のデータで既存のテレメトリを使用します。 またはボット メッセージを保存します。
 - **markAsLastUnread** - コネクタ カードのコンテキスト メニュー。
 - **maskCallerId** - ユーザーが発信者番号のマスクのために呼び出し設定を有効または無効にします。
+- **meetingAttachmentFileClick** - 会議の添付ファイル アイテムがクリックされます。
+- **meetingAttachmentFileOptions** - 会議の添付ファイル アイテムのオプションがクリックされます。
+- **meetingAttachmentSeeMoreClick** - 会議の添付ファイルの詳細ボタンがクリックされます。
 - **meetingDetailCalendarList** - カレンダー リストで [会議の詳細] ページを選択し、[会議の詳細] ページの [**詳細**] タブを選択します。
 - **meetingDetailChatWithParticipants** - [会議の詳細] ページで参加者とチャットします。
 - **meetingDetailDeleteMeetingforSelf** - 自分用に [会議の詳細] ページから会議を削除します。
@@ -662,6 +679,10 @@ ms.locfileid: "52469649"
 - **meetingDetailParticipants** - [会議の詳細] ページですべての参加者を表示します。
 - **meetingDetailScheduledMeeting** - スケジュール済み会議オブジェクト （**…**）から [会議の詳細] ページを選択、または、スケジュール済み会議の [**詳細**] タブを選択します。
 - **MeetingDetailSearchParticipants** - 会議スケジュールの会議参加者で [**検索**] が選択された。　
+- **meetingInsightFileClick** - 会議関連のファイル アイテムがクリックされます。
+- **meetingInsightFileLocatorClick** - 会議関連コンテンツ ロケーターのヒント ボタンがクリックされます。
+- **meetingInsightFileOptions** - 会議関連のファイル アイテム オプションがクリックされます。
+- **meetingInsightSeeMoreClick** - 会議関連コンテンツの [詳細] ボタンがクリックされます。
 - **meetingJoinLeave** - [**参加**] ボタンをタップした後、タップを止めて [**x**] をタップします。
 - **meetingJoinNow** - [**VOP に今すぐ参加**] が選択されました。
 - **meetingJoinNowWithCallMe** - ユーザーが [**通話する**] で会議に参加します。
@@ -1172,6 +1193,24 @@ ms.locfileid: "52469649"
 > [!NOTE]
 > パネルアクション イベントのプロパティに関する情報については、[シナリオ イベントで送信されるプロパティ](#properties-sent-with-scenario-events)を参照してください。
 
+- **cortanaError** Cortana エラーが発生するのを監視します。
+- **cortanaView** - Cortana キャンバスの表示を監視します。
+- **cortanaRestart** Cortana の再起動を監視します。
+- **cortanaSetNewConversation** Cortana が新しい会話を設定するのを監視します。
+- **cortanaSpeechRecognization** Cortana 音声認識の遅延を監視します。
+- **cortanaStart** Cortana バックエンドの開始を監視します。
+- **cortanaStartListening** Cortana がリスニングを開始するのを監視します。
+- **cortanaStopListening** Cortana がリスニングを停止するのを監視します。
+- **cortanaThinking** Cortana の状態の思考への変化を監視します (サービスの応答を待機します)。
+- **cortanaTokenRefresh** フォアグラウンドでの Cortana トークンの更新を監視します。
+- **cortanaWarmingUp** Cortana のウォーミングアップ開始を監視します (Cortana は開いていますが、トークンはまだ取得中です)。
+- **cortana_admin_policy_refresh** - Cortana 管理ポリシーの更新を監視します。
+- **cortana_background_token_refresh** - Cortana トークンの更新を監視します。
+- **cortana_initialization** - Cortana の初期化手順を監視します。
+- **cortana_sdk_events** - Cortana ターン関連のイベントを監視します。
+- **cortana_skill_action_execution** - Cortana アクションの実行を監視します。
+- **cortana_skill_action_delay** - 遅延アクションの開始を確認します。
+- **cortana_watchdog** - Cortana ウォッチドッグの回復プロセスを監視します。
 - **create_default_plan_and_nav_to_view** - 既定の共有タスク リストを正常に作成したこと、ユーザーが操作後に結果のビューに到達するまでにかかった時間を確認します。
 - **create_personal_plan_and_nav_to_view** - 既定の個人タスク リストを正常に作成したこと、ユーザーが操作後に結果のビューに到達するまでにかかった時間を確認します。
 - **create_personal_task** - 正常に個人タスク アイテムの作成が完了したことを確認します。
@@ -1187,6 +1226,11 @@ ms.locfileid: "52469649"
 - **load_personal_task_list** - タスク リスト ビューで個人タスク リストにあるタスクの正常な取得を確認します。
 - **load_shared_task_list** - タスク リスト ビューで共有タスク リストにあるタスクの正常な取得を確認します。
 - **load_smart_task_list** - タスク リスト ビューでスマート タスク リストにあるタスクの正常な取得を確認します。
+- **meetingAttachmentRender** - 会議の添付ファイルのレンダリングを確認します。
+- **meetingInsightFetch** - 会議関連コンテンツの取得を確認します。
+- **meetingInsightLocatorRender** - 会議関連コンテンツ ロケーターのヒントのレンダリングを確認します。
+- **meetingInsightRender** - 会議関連コンテンツのレンダリングを確認します。
+- **meetingInsightVisible** - 会議関連コンテンツの可視性を確認します。
 - **rename_personal_plan** - 個人タスク リストの名前の変更を確認します。
 - **rename_planner_plan** - 共有タスク リストの名前変更が成功したことを確認します。
 - **smart_reply_enabled** - 現在のユーザーに対してスマート返信が有効になっていることを確認します。

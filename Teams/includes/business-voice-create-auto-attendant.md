@@ -1,3 +1,9 @@
+#### <a name="video-demonstration"></a>ビデオデモ
+
+このビデオでは、自動応答を作成する方法の基本的な例をTeams。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEnCG?autoplay=false]
+
 #### <a name="before-you-begin"></a>はじめに
 
 組織外から直接ダイヤルしてアクセスする自動応答に必要なサービス番号 (サービス番号は、自動応答で使用される特殊な種類の電話番号) を取得します。 これには、別 [のプロバイダーから番号を転送](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) したり、新 [しいサービス番号を要求したりする場合があります](../getting-service-phone-numbers.md)。
