@@ -119,16 +119,12 @@ items:
                 href: troubleshoot-installation.md
       - name: Teams のトレーニング
         items:
-          - name: 概要
-            href: training-microsoft-teams-landing-page.md
           - name: Teams の管理者トレーニング
             href: itadmin-readiness.md
-          - name: Ignite 2020 の Teams セッション
+          - name: Ignite の Teams セッション
             href: ignite-2020-landing-page.md
-          - name: Teams のライブ トレーニング
+          - name: Teams のエンド ユーザー トレーニング
             href: instructor-led-training-teams-landing-page.yml
-          - name: Teams のオンライン トレーニング
-            href: 'https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
   - name: Skype for Business からアップグレード
     items:
       - name: 開始する
@@ -345,7 +341,7 @@ items:
             items:
               - name: 外部アクセスを管理する
                 href: manage-external-access.md
-              - name: ネイティブ Teams チャット
+              - name: ネイティブ Teams のチャット
                 href: native-chat-for-external-users.md
               - name: Teams と Skype の相互運用性
                 href: teams-skype-interop.md
@@ -531,7 +527,7 @@ items:
             items:
               - name: 外部アクセスを管理する
                 href: manage-external-access.md
-              - name: ネイティブ Teams チャット
+              - name: ネイティブ Teams のチャット
                 href: native-chat-for-external-users.md
               - name: Teams と Skype の相互運用性
                 href: teams-skype-interop.md
@@ -1289,7 +1285,7 @@ items:
             href: business-voice/set-up-policies.md
           - name: ポリシー パッケージを管理する
             href: business-voice/policy-packages.md
-          - name: 追加のユーザーを作成する
+          - name: さらにユーザーを作成する
             href: business-voice/create-users.md
           - name: 通話キューを設定する
             href: business-voice/create-a-phone-system-call-queue-smb.md
@@ -1495,23 +1491,6 @@ items:
             href: audio-conferencing-with-direct-routing-for-gcch-and-dod.md
           - name: 政府機関向けの Teams ポリシー パッケージ
             href: policy-packages-gov.md
-  - name: トラブルシューティング
-    href: /MicrosoftTeams/troubleshoot/teams
-    items:
-      - name: インストールと更新に関する問題のトラブルシューティング
-        href: troubleshoot-installation.md
-      - name: Teams クライアントの接続性の問題をトラブルシューティングする
-        href: connectivity-issues.md
-      - name: 従来のシステムでメッセージおよび通話を受信するときの問題
-        href: legacy-login-issues.md
-      - name: Teams のトラブルシューティングでログ ファイルを使用する
-        href: log-files.md
-      - name: Teams のサービス正常性を確認する
-        href: service-health.md
-      - name: ビジネス製品についてサポートに問い合わせる - 管理者ヘルプ
-        href: /microsoft-365/admin/contact-support-for-business-products
-      - name: サポート PIN を確認する方法
-        href: support-pin.md
   - name: 参照
     items:
       - name: Teams の制限と仕様

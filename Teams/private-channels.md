@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 77ebc7abc73163bfdc9804d22efa12ade510d925
-ms.sourcegitcommit: 234c928b9ac127716e3d5a92ee2bcdda1a415a38
+ms.openlocfilehash: 543060371a42c3b0c514828779be14676fda8a25
+ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "51959484"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "52469619"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -36,7 +36,7 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 - チーム内のユーザーのグループが、別のチームを作成せずにコラボレーションするための集中スペースを必要としている。
 - チームの一部のユーザーが、予算、リソース、戦略的ポジショニングなどの機密情報について話し合うためのプライベート チャネルを必要としている。
 
-ロック アイコンは、プライベート チャネルを示しています。 プライベート チャネルのメンバーのみが、自身が追加されたプライベート チャネルを表示して参加できます。
+ロックのアイコンはプライベート チャネルであることを示しています。プライベート チャネルのメンバーのみが、自身が追加されたプライベート チャネルを表示して参加できます。
 
 プライベート チャネルは作成されると親チームにリンクされ、別のチームに移動させることはできません。 また、プライベート チャネルを標準チャネルに変換することはできません。
 
@@ -120,6 +120,8 @@ Teams は、プライベート チャネル サイトのライフ サイクル�
 既存のチームからチームを作成する場合、既存のチームのプライベートチャネルは上書きされません。
 
 現時点では、プライベート チャネルからの通知は、見逃したアクティビティ メールには含まれません。
+
+プライベート チャネルのメッセージに対して、保持ポリシーはサポートされていません。
 
 ## <a name="related-topics"></a>関連項目
 
