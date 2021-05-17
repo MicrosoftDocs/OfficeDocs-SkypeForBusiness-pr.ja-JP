@@ -447,6 +447,14 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Teams のライブ イベントの使用状況レポート
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
+      - name: ログ ファイル、サービス正常性、サポート
+        items:
+          - name: ログ ファイルを使用して Teams の監視とトラブルシューティングを行う
+            href: log-files.md
+          - name: Teams のサービス正常性を確認する
+            href: service-health.md
+          - name: サポート PIN を確認する方法
+            href: support-pin.md
   - name: 会話、チーム、チャネル
     items:
       - name: 展開の計画
@@ -1363,6 +1371,8 @@ items:
             href: teams-custom-app-policies-and-settings.md
           - name: Teams でアプリをカスタマイズする
             href: customize-apps.md
+          - name: アプリのエクスペリエンスを更新する
+            href: apps-update-experience.md
   - name: 業界および政府機関向けのガイダンス
     items:
       - name: 概要
