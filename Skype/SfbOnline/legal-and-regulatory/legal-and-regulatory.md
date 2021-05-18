@@ -27,6 +27,6 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52238659"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="db807-103">法律および規制</span><span class="sxs-lookup"><span data-stu-id="db807-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="a92a2-103">法律および規制</span><span class="sxs-lookup"><span data-stu-id="a92a2-103">Legal and regulatory</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]

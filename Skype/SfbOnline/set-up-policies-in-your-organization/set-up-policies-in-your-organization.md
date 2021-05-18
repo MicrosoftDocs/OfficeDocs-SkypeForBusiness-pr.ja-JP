@@ -25,15 +25,15 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52240022"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="474ac-102">組織内のポリシーを設定する</span><span class="sxs-lookup"><span data-stu-id="474ac-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="8c390-102">組織内のポリシーを設定する</span><span class="sxs-lookup"><span data-stu-id="8c390-102">Set up policies in your organization</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-<span data-ttu-id="474ac-103">ポリシーは、ユーザーが利用できる Skype for Business Online の機能を決定するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="474ac-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="474ac-104">詳細については、次の記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="474ac-104">See the following articles for complete details.</span></span>
+<span data-ttu-id="8c390-103">ポリシーは、ユーザーが利用できる Skype for Business Online の機能を決定するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="8c390-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="8c390-104">詳細については、次の記事を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8c390-104">See the following articles for complete details.</span></span>
 
-- [<span data-ttu-id="474ac-105">ポイント対ポイントファイル転送をブロックする</span><span class="sxs-lookup"><span data-stu-id="474ac-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
-- [<span data-ttu-id="474ac-106">カスタム外部アクセス ポリシーを作成する</span><span class="sxs-lookup"><span data-stu-id="474ac-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
-- [<span data-ttu-id="474ac-107">会議に添付された大きいファイルを保持する</span><span class="sxs-lookup"><span data-stu-id="474ac-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
-- [<span data-ttu-id="474ac-108">組織の電話会議ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="474ac-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
-- [<span data-ttu-id="474ac-109">組織のモバイル ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="474ac-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
-- [<span data-ttu-id="474ac-110">組織のクライアント ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="474ac-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
+- [<span data-ttu-id="8c390-105">ポイント対ポイントファイル転送をブロックする</span><span class="sxs-lookup"><span data-stu-id="8c390-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="8c390-106">カスタム外部アクセス ポリシーを作成する</span><span class="sxs-lookup"><span data-stu-id="8c390-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="8c390-107">会議に添付された大きいファイルを保持する</span><span class="sxs-lookup"><span data-stu-id="8c390-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="8c390-108">組織の電話会議ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="8c390-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="8c390-109">組織のモバイル ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="8c390-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="8c390-110">組織のクライアント ポリシーをセットアップする</span><span class="sxs-lookup"><span data-stu-id="8c390-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
