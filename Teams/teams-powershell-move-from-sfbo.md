@@ -12,12 +12,12 @@ ms.collection:
 description: Skype for Business Online Connector から Teams PowerShell モジュールに移動して、Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e788fc8cd31bd6e8754e410132e02829eaa2cad8
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 0b08505ca97672d5285c8ff46b0e5d3cf58e9f84
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469719"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513870"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Skype for Business Online Connector から PowerShell モジュールへのTeams移行
 
@@ -36,7 +36,9 @@ TeamsPowerShell モジュールには、PowerShell コマンド ラインから�
 Skype for Business Online Connector を使用して PowerShell モジュールTeamsに移行するのは簡単で簡単です。 次の手順では、これを行う方法について説明します。
 
 1. 最新の PowerShell モジュールTeamsインストールします。 手順については[、「PowerShell のインストール」Microsoft Teams参照してください](teams-powershell-install.md)。
+
 2. For Business Online コネクタSkypeをアンインストールします。 これを行うには、コントロール パネルで [プログラムと機能]**に移動** し、[オンライン] **Skype for Business、[** モジュール] の順Windows PowerShell選択し、[アンインストール] を **選択します**。
+
 3. PowerShell スクリプトで、 で参照されているモジュール名を ```Import-Module```
 
     `SkypeOnlineConnector` または `LyncOnlineConnector` `MicrosoftTeams` に設定します。
@@ -47,39 +49,48 @@ Skype for Business Online Connector を使用して PowerShell モジュールTe
 
     ```powershell
        # When using the Skype for Business online connector
-         Import-Module SkypeForBusinessConnector [LyncOnlineConnector]
+         
+         # Establishing a session
+         Import-Module SkypeOnlineConnector [LyncOnlineConnector]
          $credential = Get-Credential
          $SkypeSession = New-CsOnlineSession -Credential $credential
          Import-Session $SkypeSession
     
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
+         
+         # Disconnecting and closing the Session 
+         Get-PsSession $SkypeSession | Remove-PsSession
     
        # When using Teams PowerShell Module 2.0 or later
+       
+         # Establishing a session
          Import-Module MicrosoftTeams
          $credential = Get-Credential
          Connect-MicrosoftTeams -Credential $credential
        
-       # Example getting tenant details
+         # Example getting tenant details
          Get-csTenant
-    
-       # Closing the Session when using the Skype for Business online connector
-         Get-PsSession $SkypeSession | Remove-PsSession
-    
-       # Disconnecting from Teams PowerShell Module 
+         
+         # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
 
 ## <a name="online-support"></a>オンライン サポート
 
 サービス要求をオンラインで開始することで時間を節約できます。 ソリューションの検索やテクニカル サポートへの接続をお手伝いします。
+
 1.  [https://admin.microsoft.com](https://admin.microsoft.com) で管理センターにアクセスします。 このページにアクセスしたり、この操作を実行したりするためのアクセス許可が付与されていないというメッセージが表示された場合は、管理者ではない場合があります。Whoは、私のビジネスで管理者アクセス許可を持っていますか?
+
 2.  [ヘルプが **必要ですか?] を選択します**。ボタンをクリックします。
+
 3.  「ヘルプ **が必要ですか?」を参照してください**。ウィンドウで、ヘルプが必要な情報を入力し、Enter キーを押します。
+
 4.  結果が問題ない場合は、[サポートに問い合わせ **] を選択します**。
+
 5.  問題の説明を入力し、連絡先番号とメール アドレスを確認し、希望する連絡方法を選び、[連絡してください] **を選択します**。 予想される待機時間は、「ヘルプが必要ですか?」に示されています。ウィンドウに移動します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [PowerShell Microsoft Teamsインストールする](teams-powershell-install.md)
 

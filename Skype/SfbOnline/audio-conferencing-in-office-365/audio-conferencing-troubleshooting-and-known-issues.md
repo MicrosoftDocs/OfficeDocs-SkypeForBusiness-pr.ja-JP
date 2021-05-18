@@ -48,6 +48,6 @@ Microsoft を電話会議プロバイダーとして使用する電話会議に�
 |Skype for Business ユーザーが会議をロックした後で、発信者が会議ブリッジにダイヤルインしても、ユーザーがロビーで待っていることを知らせる通知がSkype for Business アプリにない。  <br/> |これは現在の設計上の仕様ですが、今後のサービス更新でこの機能のサポートに関するフィードバックを採用しています。  <br/> |回避策なし。  <br/> |8/30/2017  <br/> |
 |2019 年 3 月 1 日より前に電話会議ライセンスを割り当てられた Skype for Business Server (オンプレム) ユーザーは、会議の招待にダイヤルが調整されていない可能性があります。  <br/> |電話Skype for Business Server会議Teamsユーザーのプロビジョニングは、その日までサポートされていませんでした。 現在はサポートされ、会議の最初の [コンポーネントです](/microsoftteams/meetings-first)。 ユーザーは、ライセンスを持Teamsがあります。  <br/> |プロビジョニング パイプラインを再アクティブ化する必要があります。 ユーザーの電話会議ライセンスを削除し、数時間待ってライセンスを再割り当てします。  <br/> |2019/3/1  <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

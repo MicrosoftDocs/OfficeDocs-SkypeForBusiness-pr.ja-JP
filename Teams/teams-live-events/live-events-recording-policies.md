@@ -17,12 +17,12 @@ description: ライブ イベント記録ポリシーについて説明します
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c808e4ae4e27e48c14c45711ef80ffd1c812125
-ms.sourcegitcommit: 3fc6fb528806f967bdc80671761cd45c32db6516
+ms.openlocfilehash: f9654c139433ffa764767e0a2140896eab52204b
+ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51383971"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52513850"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>ライブ イベント記録ポリシー (Microsoft Teams
 
@@ -52,11 +52,7 @@ ms.locfileid: "51383971"
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | 常に記録する               | 無効で選択されている                                | 有効で選択されている         |
 | オーガナイザーは記録可能か記録しないか | 既定で有効および選択されている                  | 既定で有効および選択されている   |
-| 記録しない               | 無効で選択されていない                            | 有効で、選択されていない      |
-
-ポリシーが Always record に **設定されている場合**、ポリシー ページには次のオプションが選択されています。
-
-![ライブ イベント ポリシーの設定](../media/live-event-recording-policy.png "Microsoft Teams 管理センターのライブ イベント ポリシーの設定を示すスクリーン ショット")
+| 記録しない               | 無効で選択されていない                            | 無効で選択されていない      |
 
 ## <a name="storage-and-persistence-behavior"></a>Storageと永続化の動作
 

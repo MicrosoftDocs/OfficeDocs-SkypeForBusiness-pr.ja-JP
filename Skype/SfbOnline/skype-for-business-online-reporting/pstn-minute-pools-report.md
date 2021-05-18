@@ -95,7 +95,7 @@ ms.locfileid: "52238181"
 
 - [Skype for Business詳細レポート](session-details-report.md)個々のユーザーの通話エクスペリエンスに関する詳細を確認できます。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

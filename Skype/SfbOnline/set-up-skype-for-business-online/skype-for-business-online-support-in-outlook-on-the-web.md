@@ -47,7 +47,7 @@ Outlook Outlook Web App または Office 365 の web (Outlook Web App Microsoft 
 |Pure on prem  <br/> |はい  <br/> |Lync の Web エクスペリエンス  <br/> |
    
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

@@ -39,7 +39,7 @@ ms.locfileid: "52240109"
   
 保留ではないメールボックスには、会議データは保存されません。 たとえば、2 人の参加者のメールボックスが保持のためにマークされている 3 人の会議では、会議データは 2 人の参加者のメールボックスに保存されますが、メールボックスが保留されていない 3 人目の参加者のメールボックスには保存されません。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)
 
 [ポイント対ポイントファイル転送をブロックする](block-point-to-point-file-transfers.md)

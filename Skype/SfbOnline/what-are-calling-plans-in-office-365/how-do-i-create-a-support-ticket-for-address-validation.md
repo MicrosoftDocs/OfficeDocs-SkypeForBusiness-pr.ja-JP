@@ -102,7 +102,7 @@ ms.locfileid: "52238013"
 > [!TIP]
 > 参照番号は、管理センターの [**サービス要求**] ページMicrosoft 365されます。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

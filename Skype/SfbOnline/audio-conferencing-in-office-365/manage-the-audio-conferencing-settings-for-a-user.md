@@ -65,7 +65,7 @@ Microsoft 365 または Office 365 管理者は、組織内の個々のユーザ
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [組織の電話会議の設定を管理する](manage-the-audio-conferencing-settings-for-my-organization.md)
 

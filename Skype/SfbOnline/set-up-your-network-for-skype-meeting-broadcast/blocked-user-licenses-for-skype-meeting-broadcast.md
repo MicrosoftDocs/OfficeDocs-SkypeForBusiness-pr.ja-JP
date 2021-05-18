@@ -64,7 +64,7 @@ ms.locfileid: "52237043"
 - Microsoft 365 A1 を学生が使用するメリット
 
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   

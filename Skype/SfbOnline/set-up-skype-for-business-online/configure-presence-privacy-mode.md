@@ -48,7 +48,7 @@ ms.locfileid: "52239954"
 |**プレゼンス情報を自動的に表示する** <br/> |[ **外部** ] または [ **禁止済み** ] プライバシー グループに属していないすべての Skype for Business ユーザー。 <br/> |
 |**ユーザーの連絡先にのみプレゼンス情報を表示する** <br/> |外部またはブロックされたプライバシー グループに属していないユーザーの連絡先リスト **内のすべての** ユーザー。 <br/> 個々のユーザーは、[オプション] ダイアログ ボックスでSkype for Business **設定** を変更できます。 <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

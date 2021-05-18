@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Skype for Business Online の管理
-summary: Skype for Business Online は 2021 年 7 月 31 日に廃止され、サービスへのアクセスが終了します。 Microsoft 365 のチームワークのハブである Microsoft Teams へのアップグレードを開始してください。
+summary: Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その時点でサービスへのアクセスが終了します。 お客様には、チームワークのハブである Microsoft Teams へのアップグレードを開始Microsoft 365。
 metadata:
   title: Skype for Business Online の管理
   description: 組織のために Skype for Business Online を管理する方法を理解します。
@@ -28,7 +28,7 @@ landingContent:
   linkLists:
   - linkListType: whats-new
     links:
-    - text: Skype for Business Online が 2021 年に廃止される
+    - text: Skype for Business2021 年に廃止されるオンライン
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:
@@ -108,7 +108,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: 電話システムとは
+    - text: データの電話システム?
       url: /MicrosoftTeams/what-is-phone-system-in-office-365
     - text: 電話システムで利用できる機能
       url: /MicrosoftTeams/here-s-what-you-get-with-phone-system

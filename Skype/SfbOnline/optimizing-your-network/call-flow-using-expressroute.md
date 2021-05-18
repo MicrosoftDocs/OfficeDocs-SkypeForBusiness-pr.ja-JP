@@ -234,6 +234,6 @@ Cloud Connector に接続するユーザーはすべて自宅オンラインで�
 |PSTN 通話  <br/> |Cloud Connector エディションを使用したネットワーク上のオンライン ユーザー。  <br/> |ローカル  <br/> |ローカル  <br/> |[Skype for Business Cloud Connector エディションを使用した PSTN 通話](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |PSTN 通話  <br/> |Cloud Connector エディションを使用したインターネットを使用したオンライン ユーザー。  <br/> |インターネット  <br/> |インターネット  <br/> |オンプレミスの[Edge サーバーと](call-flow-using-expressroute.md#bk_Figure5)、Microsoft 365 または Office 365 を使用した[PSTN](call-flow-using-expressroute.md#bk_Figure6)通話の組み合わせSkype for Business クラウド コネクタ エディション。  <br/> |インターネット ユーザーは Cloud Connector に含まれているエッジサーバー経由で接続し、Cloud Connector は PSTN ネットワークに接続します。  <br/> |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ExpressRoute のドキュメント](/azure/expressroute/)

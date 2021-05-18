@@ -36,7 +36,7 @@ ms.locfileid: "52239473"
   
 [アクティブなユーザー] *Microsoft 365管理* センター * >**に移動** し、有効なサービス プランをこのユーザーに割り当てる。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

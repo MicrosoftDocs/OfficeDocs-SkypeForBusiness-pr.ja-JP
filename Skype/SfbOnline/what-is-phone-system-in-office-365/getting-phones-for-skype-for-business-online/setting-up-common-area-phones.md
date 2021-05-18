@@ -143,7 +143,7 @@ ms.locfileid: "52237353"
 > CAP 事前設定サイトには、CAP アカウントのパスワードがランダムなパスワードにリセットされると記載されています。 CAP が参照しているアカウントが Azure Active Directory（AAD）アカウントであることに注意してください。 AAD でアカウントを作成した場合は、そのプロセスは簡単です。 オンプレミスの Active Directory を AAD に同期し、サード パーティの IDP または ADFS を使用している場合、CAP プロビジョニングは失敗します。 この場合、CAP プロビジョニングを機能するには、Microsoft 365 または Office 365/Azure Active Directory アカウント **(onmicrosoft.com** ドメインを持つアカウントなど) のみを使用する必要があります。
 
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 
 - 利用可能な電話の詳細については  「[Skype for Business Online 電話の導入](deploying-skype-for-business-online-phones.md)」をご覧ください。
 - [Skype for Business Online を利用できる電話機の取得](getting-phones-for-skype-for-business-online.md)

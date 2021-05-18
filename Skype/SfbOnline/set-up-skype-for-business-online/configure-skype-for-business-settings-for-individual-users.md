@@ -113,7 +113,7 @@ ms.locfileid: "52237533"
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
   
    
-## <a name="related-topics"></a>関連トピック 
+## <a name="related-topics"></a>関連項目 
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 

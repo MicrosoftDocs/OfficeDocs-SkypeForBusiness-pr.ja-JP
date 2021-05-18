@@ -18,7 +18,7 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 ms.custom: None
-description: 詳細については、クラウド ボイスメール。
+description: クラウド ボイスメールについて学習します。
 ms.openlocfilehash: ffee6d4dbde77c33acb24dfb969df40fed3e5c91
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT

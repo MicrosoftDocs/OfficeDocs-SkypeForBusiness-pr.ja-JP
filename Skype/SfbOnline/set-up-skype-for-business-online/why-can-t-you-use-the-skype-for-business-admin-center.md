@@ -68,7 +68,7 @@ Skype for Business Online 管理センターにアクセスできない場合で
 
 もちろん。 Skype for Business Online サービスの移行中でも、Microsoft 365 の他の管理センター (Microsoft 365 管理センターや Exchange 管理センターなど) を引き続き使用できます。 ただし、Skype for Business Online 管理センターと共に、移行中に Skype for Business Online リモート PowerShell コマンドレットを使用することはできません。 
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

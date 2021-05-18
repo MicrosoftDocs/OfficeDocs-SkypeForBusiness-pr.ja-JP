@@ -49,7 +49,7 @@ ms.locfileid: "52239863"
    
 詳細については、 [[Lync の記録を保存して公開](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) ]および[ [Lync の記録マネージャー](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b)]を参照してください。 
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

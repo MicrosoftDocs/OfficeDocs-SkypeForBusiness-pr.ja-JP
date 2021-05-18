@@ -34,7 +34,7 @@ ms.locfileid: "52237503"
 
 顧客Skype for Businessプログラムを使用すると、新しい製品や機能に早期にアクセスできます。 これにより、組織は今後の予定を確認し、独自の環境で新機能をテストし、製品ビルドを一般にリリースする前にフィードバックを提供することができます。 詳細については、「プレビュー」[をSkype for Businessしてください](https://www.skypepreview.com/)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 [Skype for Business Online のセットアップ](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)

@@ -40,7 +40,7 @@ ms.locfileid: "52239426"
 |ユーザーは、この機能を利用できない場所にいます。  <br/> |可能であれば、[管理センター] **Microsoft 365アクティブ** ユーザー] に移動し、このユーザーを機能が利用可能な場所  >  に割り当てします。 <br/> |
 |この機能は組織で有効にされていない。  <br/> |管理センター **Microsoft 365に移動Skype for Business**  >  組織全体の機能を有効にします。 <br/> |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

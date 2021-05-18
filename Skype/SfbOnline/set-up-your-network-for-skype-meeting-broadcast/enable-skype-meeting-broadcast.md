@@ -97,7 +97,7 @@ ms.locfileid: "52237013"
   
 この手順をスキップし、代わりに別のビジネスをフェデレーションに追加するには、「ユーザーが外部ユーザーに連絡することを許可する」を[Skype for Businessしてください](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)。 
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   

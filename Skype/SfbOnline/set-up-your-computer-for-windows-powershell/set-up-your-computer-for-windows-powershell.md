@@ -62,7 +62,7 @@ ms.locfileid: "52238713"
 
 - [PowerShell Skype for Businessを使用して Office 365 Online を管理する](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business オンライン コネクタの接続に関する問題を診断する](diagnose-problems-with-the-skype-for-business-online-connector.md)
 
   

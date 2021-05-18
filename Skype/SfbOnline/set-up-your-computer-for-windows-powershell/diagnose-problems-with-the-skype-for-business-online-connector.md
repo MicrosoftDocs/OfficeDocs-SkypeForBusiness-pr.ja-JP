@@ -166,7 +166,7 @@ PowerShell を使用して Skype for Business Online を管理するには、テ
 
 - **解決策**: この問題を解決する唯一の方法は、前の 1 つ以上の接続を閉じる方法です。 Skype for Business Online セッションが終了したら、 **Remove-PSSession** コマンドレットを使用してそのセッションを切断することをお勧めします。 そうすることにより、この問題が発生することを防ぐことができます。  
  
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online 管理用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

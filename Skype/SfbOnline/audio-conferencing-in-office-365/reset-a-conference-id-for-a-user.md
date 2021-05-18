@@ -86,6 +86,6 @@ ms.locfileid: "52237773"
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話会議の PIN をリセットする](reset-the-audio-conferencing-pin.md)

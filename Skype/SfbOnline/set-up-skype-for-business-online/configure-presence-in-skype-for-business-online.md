@@ -59,7 +59,7 @@ ms.locfileid: "52239968"
 
 - [[状態] オプションを設定Skype for Business](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 

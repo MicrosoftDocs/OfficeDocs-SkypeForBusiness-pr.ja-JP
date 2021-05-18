@@ -101,7 +101,7 @@ ms.locfileid: "52237553"
 
 Skype for Business Online 組織と Lync Server 2010、Microsoft Lync Server 2013、および Skype for Business Server 2015 のオンプレミス展開を使用し、オンラインとオンプレミスの両方のユーザーを持っている場合は、オンプレミスの組織が Skype for Business Online と通信し、すべてのユーザーが Skype 会議ブロードキャストに参加するために、上記の手順に加えて必要なセットアップ手順もあります。 これらの要件を確認するには、「会議ブロードキャスト用にオンプレミスデプロイを構成[するSkype参照してください](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype 会議ブロードキャストを有効にする](enable-skype-meeting-broadcast.md)
 

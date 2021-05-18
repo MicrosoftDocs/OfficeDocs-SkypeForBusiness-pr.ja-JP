@@ -126,7 +126,7 @@ ms.locfileid: "52240069"
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)
 
 [ポイント対ポイントファイル転送をブロックする](block-point-to-point-file-transfers.md)

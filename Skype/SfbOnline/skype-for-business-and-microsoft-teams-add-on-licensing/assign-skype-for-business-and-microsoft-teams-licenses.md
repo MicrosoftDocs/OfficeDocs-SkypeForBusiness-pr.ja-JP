@@ -202,7 +202,7 @@ ms.locfileid: "52237493"
 
 **電話会議** ライセンスを割り当てるサンプル スクリプトを確認します。その情報を、 **通信クレジット** のライセンスを割り当てるための情報で更新します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
   
 [通話プランの設定](/microsoftteams/set-up-calling-plans)
   

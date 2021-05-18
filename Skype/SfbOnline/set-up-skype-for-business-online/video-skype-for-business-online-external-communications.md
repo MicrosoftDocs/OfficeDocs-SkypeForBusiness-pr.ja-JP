@@ -39,7 +39,7 @@ ms.locfileid: "52238983"
 
 ***
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online の外部通信を設定する](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications)(ガイド付きチュートリアル)
 
 [外部の Skype for Business ユーザーに連絡できるようにする](allow-users-to-contact-external-skype-for-business-users.md)

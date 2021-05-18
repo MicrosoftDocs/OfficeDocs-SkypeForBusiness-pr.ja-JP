@@ -19,7 +19,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: この記事では、プロキシ サーバーとプロキシ サーバーの使用に関する情報をSkype for Business。
+description: この記事では、Skype for Business でのプロキシ サーバーの使用に関する情報を提供します。
 ms.openlocfilehash: 09ed98c5f69d6e244a5f87125e4ad607e4d16226
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -31,13 +31,13 @@ ms.locfileid: "52240416"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-この記事では、プロキシ サーバーとプロキシ サーバーの使用に関するガイダンスをSkype for Business。
+この記事では、Skype for Business でのプロキシ サーバーの使用に関するガイダンスを提供します。
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>プロキシ サーバーの使用はお勧めしません。
 
-プロキシ経由の Skype for Business トラフィックについては、Microsoft はプロキシをバイパスすることをお勧めします。 トラフィックは既に暗号化Skype for Businessプロキシによってセキュリティが保護されません。
+プロキシ経由の Skype for Business トラフィックについては、Microsoft はプロキシをバイパスすることをお勧めします。 プロキシは、トラフィックが既に暗号化されているので、Skype for Business の安全性を高めしません。
   
-プロキシを使用すると、問題が発生する可能性があります。 パフォーマンス関連の問題は、待機時間とパケット損失によって環境に発生する可能性があります。 このような問題は、リアルタイム ストリームが不可欠なオーディオやビデオなどの Teams や Skype for Business のシナリオで悪影響を及ぶ可能性があります。
+プロキシを使用すると、問題が発生する可能性があります。 パフォーマンス関連の問題は、待機時間とパケット損失によって環境に発生する可能性があります。 このような問題は、リアルタイム ストリームが不可欠なオーディオやビデオなどの Teams や Skype for Business のシナリオで悪影響を及ぶ結果になります。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>プロキシ サーバーを使用する必要がある場合
 
@@ -59,7 +59,7 @@ Microsoft は次を実行することもお勧めします。
     
 このガイダンスに従うことで、問題が生じる可能性が最小になります。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online 向けのネットワークの最適化](optimizing-your-network.md)
  

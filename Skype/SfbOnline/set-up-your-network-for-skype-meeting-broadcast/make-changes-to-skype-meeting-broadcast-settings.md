@@ -46,7 +46,7 @@ ms.locfileid: "52238649"
     
 - **出席者向けヘルプデスク サポート URL** ブロードキャスト会議への接続または出席に関するヘルプが必要な場合に使用する会議ブロードキャスト出席者のリンクを入力します。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype 会議ブロードキャスト用にネットワークをセットアップする](set-up-your-network-for-skype-meeting-broadcast.md)
 

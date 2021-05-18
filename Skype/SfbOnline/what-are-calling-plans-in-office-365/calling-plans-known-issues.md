@@ -41,7 +41,7 @@ ms.locfileid: "52238023"
 > [!NOTE]
 > これより多くの電話番号を取得する必要がある場合は、ビジネス製品のサポートにお問い合わせください [- 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話プランで使用されるさまざまな種類の電話番号](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans)

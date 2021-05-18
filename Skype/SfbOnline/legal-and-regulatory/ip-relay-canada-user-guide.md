@@ -83,7 +83,7 @@ IP Message Relay オペレーターは、911 に連絡し、住所を確認し�
 > [!IMPORTANT]
 > Northern911 は、Microsoft に代わって IP リレー サービスを管理します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [カナダでの IP 中継 - サインアップ](ip-relay-canada-email-signup.md)
 

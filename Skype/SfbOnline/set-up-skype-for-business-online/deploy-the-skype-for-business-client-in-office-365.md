@@ -152,7 +152,7 @@ Office 365 ソフトウェアに対する更新プログラムの動作の詳細
   
 Office 展開ツールまたはグループ ポリシーを使用して更新チャネルを構成することで、機能の更新プログラムを取得する頻度を制御できます。 月次チャネルでは機能の更新プログラムが毎月提供されますが、半期チャネルではおよそ 6 か月ごとに機能の更新プログラムが提供されます。 チャネルの詳細については、 の更新プログラム チャネルの概要[に関するページを](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4)Microsoft 365 Apps for enterprise。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
   

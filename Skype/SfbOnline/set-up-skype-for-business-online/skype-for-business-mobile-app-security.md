@@ -43,7 +43,7 @@ ms.locfileid: "52239634"
    
 **注:** 上記の [各モバイル プラットフォームで使用可能](/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) なデバイス ピンの適用については、このパブリック ドキュメントを参照してください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

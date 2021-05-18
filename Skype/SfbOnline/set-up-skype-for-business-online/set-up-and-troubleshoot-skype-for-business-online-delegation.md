@@ -146,7 +146,7 @@ ms.locfileid: "52239826"
     
 - メールボックスExchange OnlineクライアントからアクセスSkype for Businessできません。 この場合は、接続テストOutlook[を実行して](https://testconnectivity.microsoft.com/)、接続テストに合格した必要があります。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

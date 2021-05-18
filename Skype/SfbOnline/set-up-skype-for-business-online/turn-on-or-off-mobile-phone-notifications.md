@@ -62,7 +62,7 @@ Android と Windows Phone の Skype for Business では、通知はリアル タ
 > [!IMPORTANT]
 >  マイクロソフトは、他の企業を使用して Windows Phone、iPhone、iPad のユーザー向けにリアルタイムな Skype for Business モバイル通知を提供しています。 「 [Microsoft Skype for Business 製品のプライバシーに関する声明](https://go.microsoft.com/fwlink/p/?linkid=247732)」を参照してください。 
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 

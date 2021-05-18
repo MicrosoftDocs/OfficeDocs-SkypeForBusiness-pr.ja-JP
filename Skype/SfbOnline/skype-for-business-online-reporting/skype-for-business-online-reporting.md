@@ -60,7 +60,7 @@ Skype for Business Online レポートにアクセスするには、ユーザー
 |[Skype for BusinessPSTN 分プール レポート](pstn-minute-pools-report.md) <br/> | 機能は、呼び出しに使用されるライセンス/サービス プランです。 <br/> ライセンスの種類 <br/> 機能の説明 <br/> Country Minute Pool  <br/> 使用分数 <br/> 合計分数 <br/> 月に使用された分数の割合 <br/> |
 |[Skype for Business詳細レポート](session-details-report.md) <br/> | ユーザー エイリアス <br/> ダイアログ ID  <br/> メディアの種類  <br/> 開始時間と終了時間 <br/> URI の間で行き取りを行う <br/> 会議 URL <br/> 電話番号 <br/> |
  
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

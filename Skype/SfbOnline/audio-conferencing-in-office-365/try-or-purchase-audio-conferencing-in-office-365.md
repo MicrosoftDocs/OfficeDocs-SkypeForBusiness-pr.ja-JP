@@ -96,7 +96,7 @@ ms.locfileid: "52237583"
 > [!NOTE]
 > この機能は、中国の 21Vianet Microsoft 365またはOffice 365を使用しているお客様は、まだ利用できません。 詳細については[、「21Vianet によってMicrosoft 365またはOffice 365について」を参照してください](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online をセットアップする](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 
