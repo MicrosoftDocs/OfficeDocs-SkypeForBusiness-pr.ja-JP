@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 自動応答と通話キューについて説明し、発信者がメニュー システム内を移動して組織内のユーザーまたは部門に到達するのに役立つ方法について説明します。
-ms.openlocfilehash: 2e81f1d40c73cb8bcdf0a5ebd48f05c015732afe
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
+ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262642"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52517750"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>自動応答Teamsキューの計画
 
@@ -83,8 +83,8 @@ ms.locfileid: "51262642"
 
 外部の電話番号に通話を転送する場合、転送を実行するリソース アカウント (つまり、自動応答または通話キューに関連付けられているリソース アカウント) には、Microsoft 365 電話システム 仮想ユーザー ライセンスが割り当てられている必要があります。
 
-- 通話[プランライセンス](calling-plans-for-office-365.md)
-- オンライン [音声ルーティング ポリシー](manage-voice-routing-policies.md)
+- 通話 [プランのライセンス](calling-plans-for-office-365.md) と割り当てられた電話番号
+- オンライン [音声ルーティング ポリシー](manage-voice-routing-policies.md) (直接ルーティングを使用する場合、電話番号の割り当ては省略可能)
 
 > [!NOTE]
 > 自動応答と通話キューのダイレクト ルーティング サービス番号は、Microsoft Teamsおよび通話エージェントでのみサポートされます。<br>
@@ -220,7 +220,7 @@ ms.locfileid: "51262642"
 
 ワークフロー、ボット、ワークフローとの統合など、より広範な機能が必要な場合携帯ショートメール Azure Communication Services を[検討してください](/azure/communication-services/overview)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ダイレクト ルーティングを計画する](direct-routing-plan.md)
 

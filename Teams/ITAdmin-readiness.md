@@ -19,28 +19,30 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b4aa047177e44f5ee922ece2ec327fc4d211c12
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498722"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526670"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>管理者向けトレーニングのMicrosoft Teams
 
 トレーニング リソースを使用してTeams について学び、他のユーザーに教えたりワーク ショップを行います。 頻繁にここをチェックし、新しいコンテンツを確認してください。
 
-|       アイコン        | 説明               |    アイコン           |説明               |
-| :------------ | :------------ | :------------ | :------------ |
-| [ここからロールアウトを開始する](./get-started-with-teams-quick-start.md) | [プラットフォームTeams機能を表示する](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3) |
-| [YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos) | [Teams講演: 一般的なシナリオに関するベスト プラクティスと実践的なガイダンスTeamsします](./chalk-talks-landing-page.yml) |
+
+|  |  |
+|---------|---------|
+|[ここからロールアウトを開始する](./get-started-with-teams-quick-start.md)     |[プラットフォームTeams機能を表示する](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)         |
+|[YouTube のCoffee in the Cloudのチャネルでベスト プラクティスやハウツーのビデオを視聴します。](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg/videos)     |[Teams講演: 一般的なシナリオに関するベスト プラクティスと実践的なガイダンスTeamsします](./chalk-talks-landing-page.yml)         |
+
 
 <h2>主要なトレーニングオファリングとコース</h2>
 
-|   アイコン            | 説明              |  アイコン             |    説明           |
-| :------------ | :------------ | :------------ | :------------ |
-| [Microsoft Teams を使用してリモート ワーカーをサポートする](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) | [Teams IT の重要な要素](https://aka.ms/MicrosoftTeamsforIT) | [IT チームの共同作業を管理する](/learn/paths/m365-manage-team-collaboration) | [サービス導入スペシャリスト認定](/learn/paths/m365-service-adoption) |
-| [Microsoft 365 のチームワークの概要](/learn/modules/intro-to-teamwork-in-m365/index) | [Microsoft 365 認定: チームワーク管理者の関連付け](/learning/m365-teamwork-administrator.aspx) |
+| | |  |
+|---------|---------|---------|
+|[**Teams IT**](https://aka.ms/MicrosoftTeamsforIT)の重要な要素 - Microsoft Mechanics の 「Teams for IT」ビデオ シリーズでは、管理者がロールアウト、構成、管理を行う方法を示Teams。     |[**Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams)を使用してリモートワーカーをサポートする - 自宅で作業しているユーザーをサポートするために、必要なガイダンス (トレーニングへのリンクを含む) を取得します。         |[**IT チームコラボレーションの管理**](/learn/paths/m365-manage-team-collaboration)- アプリケーションやデバイスをまたがって組織Teamsチームワークとコミュニケーションを容易にする方法について学習します。         |
+|[**サービス導入スペシャリスト認定**](/learn/paths/m365-service-adoption)- Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織に Microsoft サービスの導入を推進する方法について説明します。     |[**Microsoft 365 でのチームワークの**](/learn/modules/intro-to-teamwork-in-m365/index)概要 - Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織に Microsoft サービスの導入を推進する方法について説明します。        |[**Microsoft 365 認定: Teamwork 管理者**](/learning/m365-teamwork-administrator.aspx)アソシエイト - Microsoft 365 Teamwork 管理者は、SharePoint (オンライン、オンプレミス、ハイブリッド)、OneDrive、Teams などの Microsoft 365 または Office 365 ワークロードを構成、デプロイ、管理します。        |
 
 
 <h2>テクニカルなトレーニング</h2>
@@ -80,7 +82,7 @@ ms.locfileid: "52498722"
 
 <h2>TeamsAndroid デバイス</h2>
 
-<p>次の表には、Teams ディスプレイ、Teams Phones、Teams ミーティング for Android、Teams Panels を含む Microsoft Teams Android デバイスに付属する PowerPoint デッキ (PDF 形式) を含む包括的なビデオ トレーニングへのリンクが含まれています。  
+<p>次の表には、Teams ディスプレイ、Teams Phone、android 用 Teams ミーティング、Teams パネルを含む Microsoft Teams Android デバイス上の PowerPoint デッキ (PDF 形式) を含む包括的なビデオ トレーニングへのリンクが含まれています。  
 
 | モジュール | ビデオ | PowerPoint デッキ (PDF)  |
 | ------------ | -------------------- | -------------------- |

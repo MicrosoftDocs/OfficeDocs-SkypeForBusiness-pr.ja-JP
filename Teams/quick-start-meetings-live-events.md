@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cafd88594935565595a48a55c6a6b8f07d254345
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
+ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117675"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "52517740"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>管理クイック スタート - Microsoft Teams での会議とライブ イベント
 
@@ -34,9 +34,9 @@ Microsoft Teams での会議には、会議とライブ イベントの 2 つの
 > [!Note]
 > 別のプラットフォームで Teams の会議とイベントをすばやく構成する方法についての詳細は、 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。
 
- - Teams の **会議** では、最大で 300 人の音声、ビデオ、画面を共有できます。これは Teams で共同作業を行うための重要な方法の 1 つです。また、Teams 会議に参加するために組織のメンバーである必要はありません (または Teams アカウントさえ持っている必要はありません)。コールインの手順については、出席依頼に記載されています。
+ - Teams の **会議** では、最大で 1,000 人の音声、ビデオ、画面を共有できます。これは Teams で共同作業を行うための重要な方法の 1 つです。また、Teams 会議に参加するために組織のメンバーである必要はありません (または Teams アカウントさえ持っている必要はありません)。コールインの手順については、出席依頼に記載されています。
 
- - **ライブ イベント** は Teams 会議の拡張機能であり、これを使用すると、多くのオンライン視聴者 (最大 10,000 人) にストリーミングするイベントのスケジュールと作成を行うことができます。300 人を超える会議が必要な場合は、ライブ イベントを使用してください。
+ - **ライブ イベント** は Teams 会議の拡張機能であり、これを使用すると、多くのオンライン視聴者 (最大 10,000 人) にストリーミングするイベントのスケジュールと作成を行うことができます。1,000 人を超える会議が必要な場合は、ライブ イベントを使用してください。
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>会議やライブ イベントのライセンスを取得する
 

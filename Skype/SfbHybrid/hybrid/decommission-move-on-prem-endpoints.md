@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Skype for Business オンプレミス環境を使用停止する前に、hyrid アプリケーション エンドポイントを移動します。
-ms.openlocfilehash: af8b521eaaf4a1e86027936f3d4d3600ab4bfa7b
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+description: hyrid アプリケーション エンドポイントを移動してから、オンプレミス環境Skype for Business使用を停止します。
+ms.openlocfilehash: 562da9e8e83684ab3ff532be68190161ffc412b5
+ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656881"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52526720"
 ---
-# <a name="move-hyrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>オンプレミス環境を使用停止する前に、hyrid アプリケーション エンドポイントを移動する
+# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>オンプレミス環境を使用停止する前にハイブリッド アプリケーション エンドポイントを移動する
 
-この記事では、オンプレミスの Skype for Business 環境を使用停止する前に、必要なハイブリッド アプリケーション エンドポイントを Microsoft クラウドに移動する方法について説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 3 です。
+この記事では、オンプレミスのアプリケーション 環境を使用停止する前に、必要なハイブリッド アプリケーション エンドポイントを Microsoft クラウドに移動するSkype for Business説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 3 です。
 
 - 手順 1. [必要なすべてのユーザーをオンプレミスからオンラインに移動する](decommission-move-on-prem-users.md)
 
@@ -34,28 +34,28 @@ ms.locfileid: "51656881"
 
 - **手順 3.ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動します。** (この記事)
 
-- 手順 4. [オンプレミスの Skype for Business 展開を削除します](decommission-remove-on-prem.md)。
+- 手順 4. [オンプレミスの展開を削除Skype for Businessします](decommission-remove-on-prem.md)。
 
 
 ## <a name="move-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>必要なすべてのハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動する
 
-これらのエンドポイントをオンラインに移動する前に、エンドポイントで使用されるすべての sip ドメインについて、Microsoft 365 をポイントする DNS レコードを更新している必要があります。 DNS レコードがオンプレミスを指している場合、オンライン リソース アカウントを作成することはできません。 詳細については、「ハイブリッド構成を [無効にする」を参照してください](cloud-consolidation-disabling-hybrid.md)。
+これらのエンドポイントをオンラインに移動する前に、エンドポイントで使用されるすべての sip ドメインの Microsoft 365 をポイントする DNS レコードを更新している必要があります。 DNS レコードがオンプレミスを指している場合、オンライン リソース アカウントを作成することはできません。 詳細については、「ハイブリッド構成を [無効にする」を参照してください](cloud-consolidation-disabling-hybrid.md)。
 
-1. 次のオンプレミス Skype for Business Server PowerShell コマンドを実行して、オンプレミスのハイブリッド アプリケーション エンドポイント設定を取得およびエクスポートします。
+1. PowerShell コマンドで次のオンプレミスアプリケーションを実行して、オンプレミスのハイブリッド アプリケーション エンドポイントSkype for Business Serverエクスポートします。
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint|select Sipaddress, DisplayName, ApplicationID, LineUri |Export-Csv -Path "c:\backup\HybridEndpoints.csv"
    ```
-2. Microsoft 365 で新しい [リソース アカウント](https://docs.microsoft.com/microsoftteams/manage-resource-accounts) を作成してライセンスを取得し、既存のオンプレミスハイブリッド アプリケーション エンドポイントを置き換える。
+2. 既存の[オンプレミスハイブリッド](https://docs.microsoft.com/microsoftteams/manage-resource-accounts)アプリケーション エンドポイントMicrosoft 365置き換える新しいリソース アカウントを作成し、ライセンスします。
 
 3. 新しいリソース アカウントを既存のハイブリッド アプリケーション エンドポイントに関連付ける。
 
-4. 次のオンプレミス Skype for Business Server PowerShell コマンドを実行して、オンプレミスハイブリッド アプリケーション エンドポイントで定義されている電話番号を削除します。
+4. PowerShell コマンドを実行して、オンプレミスハイブリッド アプリケーション エンドポイントで定義されている電話番号Skype for Business Server削除します。
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. これらのアカウントの電話番号は、オンプレミスではなく Microsoft 365 で管理されている可能性があります。Skype for Business Online PowerShell で次のコマンドを実行します。
+5. これらのアカウントの電話番号は、オンプレミスではなく Microsoft 365 で管理されている可能性があります。オンライン PowerShell で次のコマンドSkype for Businessします。
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
@@ -72,12 +72,12 @@ ms.locfileid: "51656881"
 
 6. 手順 2 で作成した新しいリソース アカウントに電話番号を割り当てる。 電話番号をリソース アカウントに割り当てる方法の詳細については、「サービス番号を割り当てる」 [を参照してください](https://docs.microsoft.com/microsoftteams/manage-resource-accounts#assign-a-service-number)。
 
-7. 次のオンプレミス Skype for Business Server PowerShell コマンドを実行して、オンプレミスのエンドポイントを削除します。
+7. PowerShell コマンドで次のオンプレミス エンドポイントを実行して、オンプレミスSkype for Business Server削除します。
 
    ```PowerShell
    Get-CsHybridApplicationEndpoint | Remove-CsHybridApplicationEndpoint
    ```
-これで、オンプレミスの [Skype for Business 展開を削除する準備ができました](decommission-remove-on-prem.md)。
+これで、オンプレミスの展開[を削除するSkype for Business準備ができました](decommission-remove-on-prem.md)。
 
 ## <a name="see-also"></a>関連項目
 
