@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83c1693125140fcb78d2267ad3955f67d5c5d9a9
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
+ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498772"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52569235"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須モバイル診断データ
 
@@ -1188,11 +1188,43 @@ ms.locfileid: "52498772"
 - **whiteboardUsed** - ユーザーがホワイトボードに注釈をつけます (webview のアクション)。
 - **wiki - No AS assigned** - Wiki 用途テレメトリ。
 
+### <a name="panelview"></a>PanelView
+
+> [!NOTE]
+> Panelview イベントのプロパティの詳細については、「[Panelviewイベントで送信されるプロパティ](#properties-sent-with-panelview-events)」を参照してください。
+
+- **fileDeleteFailed** - ファイルの削除操作が失敗した場合に発生します。
+- **fileDeleteFailed** - ファイルの削除操作が成功した場合に発生します。
+- **filePreview** - 以下のシナリオで発生します。
+  - ファイル プレビュー画面で共有オプションをタップした場合。
+  - ファイル プレビュー画面でコピー オプションをタップした場合。
+  - ファイル プレビュー画面でダウンロード オプションをタップした場合。
+  - ファイル プレビューの読み込みに成功した場合。
+- **files** - 以下のシナリオで発生します。
+  - Teams アプリ内でファイルがプレビューされた場合。
+  - OneDrive ファイル画面で、ファイル アップロード オプションをタップした場合。
+  - ファイル プレビュー画面で "リンクをコピー" オプションをタップした場合。
+  - ファイル共有画面が解除された場合。
+  - ファイル オプション メニューを開いたり、そのメニューのオプションをタップしたりした場合。
+  - "呼び出し中" ファイル画面を開いた場合。
+  - ファイルをタップして開いた場合。
+- **filesChannel** - チャネル ファイル画面を開いた場合に発生します。
+- **fileSources** - ファイル オプション メニューを開いたり、そのメニューのオプションをタップしたりした場合に発生します。
+- **filesPersonal** - OneDrive や最近のファイル画面でファイルを一括して読み込んだ場合に発生します。
+- **fileUploadDeleteTriggered** - 添付ファイルが削除されたり、メッセージ エリアから切り離されたりした場合に発生します。
+- **fileUploadFailed** - ファイルのアップロード操作が失敗した場合に発生します。
+- **fileUploadIndividualNotification** - ファイル アップロード通知の内容が変更されたり、通知が対話されたりした場合に発生します。 この対話式操作には、スワイプして通知を解除したり、通知をタップするなどのジェスチャーも含まれます。
+- **fileUploadSuccess** - ファイルのアップロード操作が成功した場合に発生します。
+- **fileUploadSummaryNotification** - ファイル アップロードの概要通知の内容が変更されたり、通知が対話されたりした場合に発生します。 この対話式操作には、スワイプして通知を解除したり、通知をタップするなどのジェスチャーも含まれます。
+- **meetingFiles** - 会議ファイル画面を開いた場合に発生します。
+- **navPersonalFiles** - ファイル画面へのナビゲーションが行われた場合に発生します。
+
 ### <a name="scenario"></a>シナリオ
 
 > [!NOTE]
 > パネルアクション イベントのプロパティに関する情報については、[シナリオ イベントで送信されるプロパティ](#properties-sent-with-scenario-events)を参照してください。
 
+- **chat_add_giphy** - Giphy GIF レンダリング アクションが成功したか失敗したかを確認します。
 - **cortanaError** Cortana エラーが発生するのを監視します。
 - **cortanaView** - Cortana キャンバスの表示を監視します。
 - **cortanaRestart** Cortana の再起動を監視します。
@@ -1216,6 +1248,7 @@ ms.locfileid: "52498772"
 - **create_personal_task** - 正常に個人タスク アイテムの作成が完了したことを確認します。
 - **create_planner_plan_and_nav_to_view** - 共有タスク リストを正常に作成したこと、ユーザーが操作後に結果のビューに到達するまでにかかった時間を確認します。
 - **create_planner_task** - 共有タスク アイテムの正常な作成を確認します。
+- **forwardExistingAmsObject** メディア転送アクションが成功したか失敗したかを確認します。
 - **delete_personal_plan** - 個人タスク リストの正常な削除を確認します。
 - **delete_personal_task** - 個人タスク項目の正常な削除を確認します。
 - **delete_planner_plan** - 共有タスク リストの正常な削除を確認します。
@@ -1231,13 +1264,20 @@ ms.locfileid: "52498772"
 - **meetingInsightLocatorRender** - 会議関連コンテンツ ロケーターのヒントのレンダリングを確認します。
 - **meetingInsightRender** - 会議関連コンテンツのレンダリングを確認します。
 - **meetingInsightVisible** - 会議関連コンテンツの可視性を確認します。
+- **open_image** 全画面画像レンダリングが成功したか失敗したかを確認します。
 - **rename_personal_plan** - 個人タスク リストの名前の変更を確認します。
 - **rename_planner_plan** - 共有タスク リストの名前変更が成功したことを確認します。
+- **save_image** 画像保存操作が成功したか失敗したかを確認します。
+- **share_image** 画像共有操作が成功したか失敗したかを確認します。
 - **smart_reply_enabled** - 現在のユーザーに対してスマート返信が有効になっていることを確認します。
 - **smart_reply_received** - スマート返信の提案が受信されたことを確認します。
 - **smart_reply_banned** - 現在のユーザーにスマート返信を表示できないことを確認します。
 - **update_planner_task_and_nav_to_view** - 共有タスク アイテムの正常な更新と、ユーザーが操作後に結果のビューに到達するまでにかかった時間を確認します。
-- **update_personal_task_and_nav_to_view** - 個人タスク アイテムの正常な更新、および [**Planner タスクと更新**] 後の結果のビューをユーザーが表示するのにかかる時間を確認します。ユーザーが共有タスク リストのタスクを正常に更新したことを確認します。
+- **update_personal_task_and_nav_to_view** - 個人用タスク アイテムの正常な更新と、ユーザーが後に結果のビューに到達するまでにかかった時間を確認します 
+- **updatePlannerTask** - ユーザーが共有タスク リストのタスクを正常に更新したことを確認します。
+- **upload_images** 画像アップロード操作が成功したか失敗したかを確認します。
+- **upload_voice_messages** 音声メッセージのアップロード操作が成功したか失敗したかを確認します。
+- **voiceMessageUpload** 音声メッセージのアップロード操作が成功したか失敗したかを確認します。
 
 ## <a name="property-lists"></a>プロパティ リスト
 
