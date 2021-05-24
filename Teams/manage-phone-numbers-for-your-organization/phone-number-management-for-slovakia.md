@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、スロバキアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 39ff9e216edf6699934574874efed18ae8d342ea
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: c97fc50522b9102ac5ea34ab6babc4ef982fd5b0
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130454"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589251"
 ---
 # <a name="phone-number-management-for-slovakia"></a>電話の番号管理
 
@@ -38,12 +38,12 @@ ms.locfileid: "52130454"
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
 |管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 |スロバキアでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして送信することで、新しい電話番号の要求 [を送信できます](mailto:ptneu@microsoft.com)。<br/><br/>[スロバキア (v.1.0) (en-sk)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力して、送信する必要があります。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
-|転送された電話番号を取得します。   | このフォームをダウンロードします。 <br/>[スロバキアの承認状 (LOA) (すべての数値) (v.1.0) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.0)-(en-sk).pdf) <br/> <br/>[スロバキアの承認状 (LOA) (すべての数値) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.0)-(sk-sk)(2).pdf) <br/><br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/><br/>この市場では、移行に 4 ~ 5 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。 |
+|転送された電話番号を取得します。   | このフォームをダウンロードします。 <br/>[スロバキアの承認状 (LOA) (すべての数値) (v.1.0) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.0)-(en-sk).pdf) <br/> <br/>[スロバキアの承認状 (LOA) (すべての数値) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.0)-(sk-sk)%20(2).pdf) <br/><br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/><br/>この市場では、移行に 4 ~ 5 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。 |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

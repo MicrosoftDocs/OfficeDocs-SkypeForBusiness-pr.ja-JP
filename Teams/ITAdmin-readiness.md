@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44f89bc41f8c4f8a866e2c08837f37b282fbe2cb
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: 901a6bd2f6eb2c120af45aef8d4ca9eb4bea45e5
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526670"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589191"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>管理者向けトレーニングのMicrosoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "52526670"
 | | |  |
 |---------|---------|---------|
 |[**Teams IT**](https://aka.ms/MicrosoftTeamsforIT)の重要な要素 - Microsoft Mechanics の 「Teams for IT」ビデオ シリーズでは、管理者がロールアウト、構成、管理を行う方法を示Teams。     |[**Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams)を使用してリモートワーカーをサポートする - 自宅で作業しているユーザーをサポートするために、必要なガイダンス (トレーニングへのリンクを含む) を取得します。         |[**IT チームコラボレーションの管理**](/learn/paths/m365-manage-team-collaboration)- アプリケーションやデバイスをまたがって組織Teamsチームワークとコミュニケーションを容易にする方法について学習します。         |
-|[**サービス導入スペシャリスト認定**](/learn/paths/m365-service-adoption)- Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織に Microsoft サービスの導入を推進する方法について説明します。     |[**Microsoft 365 でのチームワークの**](/learn/modules/intro-to-teamwork-in-m365/index)概要 - Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織に Microsoft サービスの導入を推進する方法について説明します。        |[**Microsoft 365 認定: Teamwork 管理者**](/learning/m365-teamwork-administrator.aspx)アソシエイト - Microsoft 365 Teamwork 管理者は、SharePoint (オンライン、オンプレミス、ハイブリッド)、OneDrive、Teams などの Microsoft 365 または Office 365 ワークロードを構成、デプロイ、管理します。        |
+|[**サービス導入スペシャリスト認定**](/learn/paths/m365-service-adoption)- Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織に Microsoft サービスの導入を推進する方法について説明します。     |[**Microsoft 365 でのチームワークの**](/learn/modules/intro-to-teamwork-in-m365/index)概要 - Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織に Microsoft サービスの導入を推進する方法について説明します。        |[**Microsoft 365 認定: Teamwork 管理者**](/learn/certifications/m365-teamwork-administrator)アソシエイト - Microsoft 365 Teamwork 管理者は、SharePoint (オンライン、オンプレミス、ハイブリッド)、OneDrive、Teams などの Microsoft 365 または Office 365 ワークロードを構成、デプロイ、管理します。        |
 
 
 <h2>テクニカルなトレーニング</h2>

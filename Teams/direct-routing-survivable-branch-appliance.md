@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edf2c2a97bec2b167f1218d983d3c9f7fa4bd667
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6d6342f41b3cd4bfad690794c0b6474ca45e78c8
+ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096427"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589241"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>ダイレクト ルーティングのための存続可能ブランチ アプライアンス (SBA)
 
@@ -212,5 +212,3 @@ SBC ベンダーのサポート組織に問題を報告します。 問題を報
 - SBA では、通話の転送設定はサポートされていません。 
 
 - 動的緊急通話 (E911) 用に構成された緊急電話番号への緊急通話はサポートされていません。
-
-- このコマンドの出力Get-CsOnlineUser TeamsBranchSurvivabilityPolicy が表示されます。
