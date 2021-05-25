@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9911f880ba817afff10acb2a347a5c8c776d059c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130029"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628906"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>キャリア コーチを購入、構成、有効化Microsoft Teams
 
@@ -194,13 +194,6 @@ LinkedIn 構成は、キャリア コーチと LinkedIn の一般の同窓生デ
 > [!NOTE]
 > 開始するには、 [サンプル コース カタログ]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) ドキュメントから開始します。
 
-##### <a name="sample-csv-file"></a>サンプル .CSV ファイル
-
-```
-courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAltText,educationLevel,topics
-"AA-501","Analytics Foundations","https://example.com/course-id","This course equips the student with the knowledge and skills needed to conduct and present large-scale studies based on advanced analytics.","en-us","In-person","https://via.placeholder.com/360x200","Undergraduate","Alt text for the thumbnail","analytics, data science, data analysis, linear regression"
-```
-
 次の表は、コース カタログに含める項目を示しています。
 
 
@@ -260,6 +253,10 @@ courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAlt
   
 3. **[適用]** を選択します。
 
+## <a name="making-career-coach-available-to-your-organization"></a>組織でキャリア コーチを利用できる
+
+これで、組織に対してキャリア コーチが構成されます。 次の手順に従って、キャリア コーチが組織内の組織で使用Microsoft Teams。
+
 ### <a name="enable-the-app"></a>アプリを有効にする
 
 構成が完了したら、学生とライセンスを取得したユーザーがキャリア コーチにアクセスできるアプリを有効にしてください。  
@@ -276,21 +273,37 @@ courseId,title,sourceLink,description,language,format,thumbnailLink,thumbnailAlt
   > [!NOTE]
   > 許可とは、教育機関のユーザーがアプリを利用できるという意味です。 ブロックとは、アプリを学生が利用できないという意味です。
 
-#### <a name="pin-the-app"></a>アプリをピン留めする
+### <a name="add-career-coach-as-an-installed-app"></a>インストールされているアプリとしてキャリア コーチを追加する
+
+> [!NOTE]
+> この手順により、1) 学生がキャリア コーチを見つける 1) 自分の組織に対してキャリア コーチが適切に構成されていることを確認します。
+
+1. 管理センター **にTeamsします**。
+
+2. [アプリ **Teams** &gt; **ポリシーの設定]** &gt; *を選択します*。 
+
+3. [インストール済みアプリ] で、[アプリの追加] を選択します。
+
+4. [インストール済みアプリの追加] ウィンドウで、ユーザーがアプリを起動するときに自動的にインストールするアプリTeams。 アプリのアクセス許可ポリシーでアプリをフィルター処理することもできます。 アプリの一覧を選択したら、[追加] を選択します。
+
+### <a name="pin-the-app"></a>アプリをピン留めする
 
 キャリア コーチをピン留めすると、アプリのアクセスがしやすく、学生に表示されます。
 
 1. 管理センター **にTeamsします**。
 
-1. [アプリ **Teams** &gt; **ポリシーの設定]** &gt; *を選択します*。 
+2. [アプリ **Teams** &gt; **ポリシーの設定]** &gt; *を選択します*。 
 
-2. [ピン **留めされたアプリ] で**、[アプリの **追加] を選択します**。
+3. [ピン **留めされたアプリ] で**、[アプリの **追加] を選択します**。
 
-1. [キャリア コーチ **] を検索** し、[追加] を **選択します**。
+4. [キャリア コーチ **] を検索** し、[追加] を **選択します**。
 
-1. アプリを表示する順序を選択し、[保存] を **選択します**。
+5. アプリを表示する順序を選択し、[保存] を **選択します**。
 
-   キャリア コーチがピン留めMicrosoft Teams学生に通知されます。  
+> [!NOTE]
+> キャリア コーチがピン留めMicrosoft Teams学生に通知されます。
+
+詳細については [、「Microsoft でアプリセットアップ ポリシーを管理](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) する」を参照してください。
 
 ## <a name="resources"></a>リソース
 

@@ -23,17 +23,20 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Microsoft Teams を使用して通話キューの 電話システム を設定する方法について説明します。この機能では、あいさつメッセージ、保留音、通話リダイレクトなどの機能が提供されます。
-ms.openlocfilehash: 8b4fe4283ac9734c1dc29bf33759039098578744
-ms.sourcegitcommit: 03ff569a0b7a8e04d7b0ab32f370a9a537fa7fe7
+description: Microsoft Teams で大規模な組織の通話キューを設定する方法について説明します。この機能は、あいさつメッセージ、保留音楽、通話リダイレクト、その他の機能を提供します。
+ms.openlocfilehash: 926e3903f0ee59271d0b4806cf61ad02a6f52088
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52064803"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628936"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
 通話キューは、特定の問題や質問に役立つ組織内のユーザーに発信者をルーティングする方法を提供します。 呼び出しは、キュー内のユーザー (エージェントと呼ばれる) に一度に 1 回 *配布されます*。 
+
+> [!TIP]
+> この記事は大規模な組織です。 組織が小規模企業の場合は、「通話キューの作成 - 代わりに小規模ビジネス向け [チュートリアル」を](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) 参照してください。
 
 呼び出しキューには、次の機能があります。
 
@@ -47,15 +50,17 @@ ms.locfileid: "52064803"
 
 この記事の手順に従う前に[、「Teams](plan-auto-attendant-call-queue.md)自動応答と通話キューの計画」を[](plan-auto-attendant-call-queue.md#getting-started)読み、概要の手順に従ってください。
 
-通話キューを設定するには、Teams 管理センターで、[音声] を展開し、[通話キュー] をクリックし、[追加] を **クリックします**。
-
 ## <a name="video-demonstration"></a>ビデオデモ
 
 このビデオでは、通話キューを作成する方法の基本的な例をTeams。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
-## <a name="resource-account-and-language"></a>リソース アカウントと言語
+## <a name="create-the-call-queue"></a>呼び出しキューを作成する
+
+通話キューを設定するには、Teams 管理センターで、[音声] を展開し、[通話キュー] をクリックし、[追加] を **クリックします**。
+
+### <a name="resource-account-and-language"></a>リソース アカウントと言語
 
 ![リソース アカウントと言語設定のスクリーンショット](media/call-queue-name-language.png)
 
@@ -65,7 +70,7 @@ ms.locfileid: "52064803"
 
 3. サポートされている [言語を選択します](create-a-phone-system-call-queue-languages.md)。 この言語は、システムで生成された音声プロンプトとボイスメールのトランスクリプション (有効にした場合) に使用されます。
 
-## <a name="greetings-and-music-on-hold-in-queue"></a>キュー内の応答メッセージと保留音
+### <a name="greetings-and-music-on-hold-in-queue"></a>キュー内の応答メッセージと保留音
 
 発信者がキューに到着するときに、発信者にあいさつメッセージを再生する場合に指定します。 再生するあいさつメッセージを含む MP3、WAV、または WMA ファイルをアップロードする必要があります。
 
@@ -75,7 +80,7 @@ Teamsキュー内で保留されている間、呼び出し元に既定の音楽
 > アップロードされた記録は 5 MB 以下にできます。
 > 通話キューで提供される既定Teamsは、組織が支払う使用料金は無料です。 
 
-## <a name="call-agents"></a>エージェントの呼び出し
+### <a name="call-agents"></a>エージェントの呼び出し
 
 エージェントを [呼び出しキューに追加するための前提条件を確認します](plan-auto-attendant-call-queue.md#prerequisites)。
 
@@ -105,7 +110,7 @@ Teamsキュー内で保留されている間、呼び出し元に既定の音楽
 > [!NOTE]
 > グループに追加された新しいユーザーは、最初の呼び出しが到着するために最大 8 時間かかる場合があります。
 
-## <a name="call-routing"></a>通話ルーティング
+### <a name="call-routing"></a>通話ルーティング
 
 ![電話会議モードとルーティング方法の設定のスクリーンショット](media/call-queue-conference-mode-routing-method.png)
 
@@ -153,7 +158,7 @@ Teamsキュー内で保留されている間、呼び出し元に既定の音楽
 > [!NOTE]
 > プレゼンス ベースのルーティングが有効ではなく、キュー内に複数の呼び出しがある場合、システムは、プレゼンス状態に関係なく、これらの呼び出しをエージェントに同時に表示します。 これにより、エージェントに対する複数の呼び出し通知が発生します。特に、一部のエージェントがエージェントに提示された最初の呼び出しに応答しない場合。
 
-## <a name="call-overflow-handling"></a>呼び出しオーバーフロー処理
+### <a name="call-overflow-handling"></a>呼び出しオーバーフロー処理
 
 ![呼び出しオーバーフロー設定のスクリーンショット](media/call-queue-overflow-handling.png)
 
@@ -164,7 +169,7 @@ Teamsキュー内で保留されている間、呼び出し元に既定の音楽
 > [!NOTE]
 > 呼び出しの最大数が 0 に設定されている場合、あいさつメッセージは再生されません。
 
-## <a name="call-timeout-handling"></a>呼び出しタイムアウト処理
+### <a name="call-timeout-handling"></a>呼び出しタイムアウト処理
 
 ![通話タイムアウト設定のスクリーンショット](media/call-queue-timeout-handling.png)
 
@@ -210,7 +215,7 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 

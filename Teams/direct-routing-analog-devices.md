@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: この記事では、システム ダイレクト ルーティングでアナログ デバイスを使用するMicrosoft 電話説明します。
-ms.openlocfilehash: 855bf0dd21659c43037b6171f523983d67c4e755
-ms.sourcegitcommit: 1889ca28b9cb952b13c84efa3588957a327f9702
+ms.openlocfilehash: dc49c22dceffda6905d1f57652fd14d584d02cf6
+ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "49841488"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52642097"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>ダイレクト ルーティングでアナログ デバイスを使用電話システム方法
 
@@ -82,7 +82,7 @@ PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"}
 このコマンドは、番号範囲 +1425 XXX XX XX の ID "analog-interop" を持つ新しいオンライン音声ルートを作成します。  音声ルートは、オンライン PSTN 使用法 "Interop" sbc.contoso.com 関連付けるオンライン ゲートウェイの一覧に適用できます。 音声ルートには、特定の音声ルートを介してルーティングされる電話番号を識別する正規表現が含まれています。
 
 ```powershell
-PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7}])$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
+PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7})$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>手順 4: PSTN 使用法に音声ルートを割り当てる:
@@ -114,7 +114,7 @@ PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -Po
 このコマンドは、オンライン ゲートウェイ sbc.contoso.com の一覧に適用できる番号範囲 +1425 4XX XX XX の ID "analog-interop" を持つオンライン音声ルートを作成し、オンライン PSTN 使用法 "Interop" に関連付ける。  このコマンドは、適切な電話番号パターンを持つアナログ デバイスごとに実行する必要があります。 または、前のいずれかの手順でオンライン音声ルートを構成する際に、アナログ デバイスの適切な番号パターンを使用できます。
 
 ```powershell
-PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6}])$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
+PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6})$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="considerations"></a>考慮事項

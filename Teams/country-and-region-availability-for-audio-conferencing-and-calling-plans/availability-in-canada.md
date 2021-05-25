@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: カナダで利用できるMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 12b16d75b793c3d406aae8c510400f07dfce2cec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ebd49f2a15467504863e113f1eb06db6ba881f64
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118266"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629016"
 ---
 # <a name="availability-in-canada"></a>カナダでの利用可能性
 
@@ -77,8 +77,8 @@ ms.locfileid: "51118266"
 
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)」をご覧ください。
 
-> [!Note] 
-> 米国の通話プラン (国内または国内および国際) ユーザーがカナダの電話番号にダイヤルすると、国内通話として扱います。 これは、カナダのユーザーが米国の番号に通話を行う場合にも当たっています。
+> [!Note]
+> 米国の通話プラン (国内または国内および国際) ユーザーがカナダの電話番号にダイヤルすると、国内通話として扱います。 これは、カナダのユーザーが米国内の電話番号にダイヤルする場合にも当たっています。ただし、通話プラン ポリシーを使用してユーザーのダイヤルアウトを "国内" にのみ制限する場合、米国のユーザーはカナダに電話を発信することはできません。同様に、カナダのユーザーは米国のユーザーに電話をかけることができます。
 
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -88,7 +88,7 @@ ms.locfileid: "51118266"
 
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

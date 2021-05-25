@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すMicrosoft Teams電話と電話について学習します。
-ms.openlocfilehash: 140c823fcbb1e8bd227e68eee7c5e5e2b66f854c
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: bbc596f0e0e3d973b170b6631941020437bdb778
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513860"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629026"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認定デバイス
 
@@ -156,6 +156,7 @@ Android アプリとファームウェアのTeams ミーティング最新バー
 
 | 製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイト バージョン | 管理エージェントのバージョン |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #1A  |2021 年 5 月 12 日  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product バージョン コード: 223 |
 | 2021 Update #1  |2021 年 4 月 5 日  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product バージョン コード: 223 |
 | 2020 Update #3  |2020 年 11 月 24 日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product バージョン コード: 216 |
 | 2020 Update #2  | 2020 年 8 月 24 日| 1449/1.0.94.2020062501    | 5.0.4771.0    | 1.0.0.202005060552.product バージョン コード: 212|

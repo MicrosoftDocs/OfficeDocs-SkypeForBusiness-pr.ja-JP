@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ハイブリッドに対して有効になっている Skype for Business Server のオンプレミス展開では、ユーザーをオンプレミス環境とクラウドの間で移動できます (Microsoft Teams または Skype for Business Online に移行した後)。'
-ms.openlocfilehash: 8fce1799ba3e10f2e96b8beab0fbde7805c7c229
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
+ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305960"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "52642087"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>オンプレミスとクラウドの間でユーザーを移動する
 
@@ -40,7 +40,7 @@ ms.locfileid: "52305960"
 
 - 組織では、「Configure Azure AD Connect」の説明に従って、Azure リソースを適切に構成し、ユーザーに関連するすべての属性を同期している[必要AD Connect。](configure-azure-ad-connect.md)
 - Skype for Businessハイブリッドの構成」の説明に従って、ハイブリッド[Skype for Businessする必要があります](configure-federation-with-skype-for-business-online.md)。
-- ユーザーには、オンライン (プラン 2) TeamsおよびSkype for Businessライセンスが割り当てられている必要があります。 オンラインの退職後も、Skype for Businessオンライン Skype for Businessが必要です。  さらに、
+- ユーザーには、オンライン (プラン 2) TeamsおよびSkype for Businessライセンスが割り当てられている必要があります。 オンラインの使用をSkype for Business後も、Skype for Businessオンライン ライセンスが必要です。  さらに、
     - ユーザーがオンプレミスでダイヤルイン会議を有効にしている場合は、ユーザーをオンラインに移動する前に、既定で Teams で電話会議ライセンスも割り当てられている必要があります。 クラウドへの移行後、ユーザーはクラウドの電話会議に対してプロビジョニングされます。 何らかの理由でユーザーをクラウドに移動するが、電話会議機能を使用しない場合は、パラメーターをで指定してこのチェックを `BypassAudioConferencingCheck` 上書きできます `Move-CsUser` 。
     - ユーザーがオンプレミスの エンタープライズ VoIPに対して有効になっている場合、ユーザーをオンラインに移動する前に、既定で 電話システム ライセンスが Teams に割り当てられている必要があります。 クラウドへの移行後、ユーザーはクラウドの電話システムに対してプロビジョニングされます。 何らかの理由でユーザーをクラウドに移動するが、電話システム 機能を使用しない場合は、 でパラメーターを指定してこのチェックを `BypassEnterpriseVoiceCheck` オーバーライドできます `Move-CsUser` 。
 
@@ -68,7 +68,7 @@ ms.locfileid: "52305960"
 
 オンプレミスとクラウドの間でユーザーを移動するには、オンプレミスの Skype for Business Server 環境と Teams 組織の両方で十分な権限を持つアカウントを使用する必要があります。 必要なすべての特権を持つ 1 つのアカウントを使用するか、2 つのアカウントを使用できます。その場合は、オンプレミスの資格情報を使用してオンプレミス のツールにアクセスし、それらのツールで Teams 管理アカウントに追加の資格情報を提供します。  
 
-- オンプレミスの環境では、移動を実行するユーザーに Skype for Business Server の CSServerAdminstrator ロールが割り当てられている必要があります。
+- オンプレミス環境では、移動を実行するユーザーには、CSServerAdministrator の役割が必要Skype for Business Server。
 - このTeams、移動を実行するユーザーは、次のいずれかの条件を満たしている必要があります。
   - ユーザーは、グローバル管理者ロールのメンバーです。
   - ユーザーは、管理者ロールとユーザー管理者ロールTeamsメンバーです。

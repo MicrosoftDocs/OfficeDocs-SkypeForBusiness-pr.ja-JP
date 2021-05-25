@@ -12,31 +12,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
-description: このトピックでは、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 Skype for Business Server 2015 リソース キットは、Skype for Business Server 2015 を展開および管理する IT 管理者が日常的なタスクを容易にするのに役立ちます。 たとえば、Web Conf Data ツールを使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 SEFAUtil ツールを使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、これらのツールを使用して Skype for Business Server 2015 のより効果的な管理を行います。
-ms.openlocfilehash: c09aa7c21e90a1783c0819a0877ecb87ff250d16
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: この記事では、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 2015 Skype for Business Server 2015 リソース キットは、2015 年に展開および管理する IT 管理者が日常的なタスクSkype for Business Serverします。 たとえば、Web Conf Data ツールを使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 SEFAUtil ツールを使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、2015 年にこれらのツールを使用して、より効果的に管理Skype for Business Server推奨します。
+ms.openlocfilehash: 6c68a94d331f2ad5f9ffaa169228aa9d64e41293
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114083"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629046"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
-このトピックでは、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 Skype for Business Server 2015 リソース キットは、Skype for Business Server 2015 を展開および管理する IT 管理者が日常的なタスクを容易にするのに役立ちます。 たとえば **、Web Conf Data ツール** を使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 **SEFAUtil ツールを** 使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、これらのツールを使用して Skype for Business Server 2015 のより効果的な管理を行います。
+この記事では、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 2015 Skype for Business Server 2015 リソース キットは、2015 年に展開および管理する IT 管理者が日常的なタスクSkype for Business Serverします。 たとえば **、Web Conf Data ツール** を使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 **SEFAUtil ツールを** 使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、2015 年にこれらのツールを使用して、より効果的に管理Skype for Business Server推奨します。
 
 ## <a name="installation-of-the-resource-kit-tools"></a>リソース キット ツールのインストール
 
-Skype for Business Server 2015 リソース キットをインストールするには、ダウンロード [ センター ](https://www.microsoft.com/download/details.aspx?id=52631)OCSReskit.msiをダウンロードします。
+2015 リソース Skype for Business Serverをインストールするには、ダウンロード[センターから](https://www.microsoft.com/download/details.aspx?id=52631)OCSReskit.msiをダウンロードします。
 
-簡単 **OCSResKit.msi** を実行するには、次の手順を実行します。 .msi は **、%Program Files%\Skype for Business Server 2015\ResKit** のすべてのツールをインストールします。 自己格納型の実行可能ファイルであるツールは、このフォルダーにあります。 サポート ファイルも含むツールは、独自のサブフォルダーに含まれています。
+簡単 **OCSResKit.msi** を実行するには、次の手順を実行します。 この.msiは **、%Program Files%\Skype for Business Server 2015\ResKit** というパス内のすべてのツールをインストールします。 自己格納型の実行可能ファイルであるツールは、このフォルダーにあります。 サポート ファイルも含むツールは、独自のサブフォルダーに含まれています。
 
 ## <a name="supported-environments"></a>サポートされている環境
 
-Skype for Business Server 2015 リソース キットは、Skype for Business Server 2015 に必要な仕様を満たすサーバー (通常は Skype for Business Server 2015 の実行に使用される) にインストールする必要があります。
+Skype for Business Server 2015 リソース キットは、Skype for Business Server 2015 に必要な仕様を満たすサーバーにインストールする必要があります。通常は 2015 の実行に使用Skype for Business Server。
 
 ## <a name="resource-kit-tools-overview"></a>リソース キット ツールの概要
 
-Skype for Business Server 2015 リソース キットで提供されるツールの一覧を次に示します。 要件と使用例を含む各ツールの説明については、次のセクションで説明します。
+次に、2015 リソース キットのページで提供Skype for Business Server一覧を示します。 要件と使用例を含む各ツールの説明については、次のセクションで説明します。
 
 - [ABSConfig](resource-kit-tools.md#ABSConfig)
 
@@ -48,7 +48,7 @@ Skype for Business Server 2015 リソース キットで提供されるツール
 
 - [DBAnalyze](resource-kit-tools.md#dba)
 
-- [ストレージ サービス データのインポート](resource-kit-tools.md#Issd)
+- [サービス Storageのインポート](resource-kit-tools.md#Issd)
 
 - [LCSSync](resource-kit-tools.md#LCSSync)
 
@@ -71,7 +71,7 @@ Skype for Business Server 2015 リソース キットで提供されるツール
 ## <a name="absconfig"></a>ABSConfig
 <a name="ABSConfig"> </a>
 
-アドレス帳サービス構成ツール (ABSConfig) は、管理者が Skype for Business Server 2015 のアドレス帳サービス構成をカスタマイズするのに役立つ管理ツールです。 また、このツールを使用すると、Skype for Business Server 2015 管理者は既定のアドレス帳サービス設定を復元できます。
+アドレス帳サービス構成ツール (ABSConfig) は、管理者が 2015 年にアドレス帳サービス構成をカスタマイズするのに役立Skype for Business Serverです。 また、このツールを使用Skype for Business Server 2015 管理者は、既定のアドレス帳サービス設定を復元できます。
 
 ### <a name="description"></a>説明
 
@@ -79,13 +79,13 @@ ABSConfig は、管理者がアドレス帳サービスに関連する Active Di
 
 ツールの主なシナリオは次のとおりです。
 
-- 管理者が Active Directory ドメイン サービスの属性を Skype for Business Server 2015 の属性にマップできる。
+- 管理者が Active Directory ドメイン サービスの属性を 2015 年の属性にマップSkype for Business Serverします。
 
 - 管理者が、アドレス帳サービス ファイルに含めるか除外する Active Directory ドメイン サービス属性を指定できます。
 
-- 管理者が既定のアドレス帳サービス設定を復元するには。
+- 管理者が復元を有効にするには、既定のアドレス帳サービス設定を使用します。
 
-ABSConfig ツールは、このファイルを使用してABSConfig.exeできます。 ツールが開き、[属性の構成 **] タブが開** きます。この表には、Active Directory ドメイン サービス属性を Skype for Business Server 2015 の属性フィールドにマップし、特定の属性フィルターに基づいてアドレス帳サービス ファイルに含めるか除外するユーザーを指定するオプションがあります。 また、アドレス帳ファイルに含める電話番号の値をカスタマイズするオプションも用意されています。 [ **既定値の復元]** オプションを使用すると、管理者はアドレス帳サービスの設定を既定値に復元できます。
+ABSConfig ツールは、このファイルを使用してABSConfig.exeできます。 ツールが開き、[属性の構成 **] タブが開** きます。この表には、Active Directory Domain Services 属性を Skype for Business Server 2015 の属性フィールドにマップし、特定の属性フィルターに基づいてアドレス帳サービス ファイルに含めるユーザーまたは除外するユーザーを指定するオプションがあります。 また、アドレス帳ファイルに含める電話番号の値をカスタマイズするオプションも用意されています。 [ **既定値の復元]** オプションを使用すると、管理者はアドレス帳サービスの設定を既定値に復元できます。
 
 > [!NOTE]
 > 異なる OC フィールドAD属性の再マッピングは、アドレス帳ファイルのダウンロードでのみ機能し、アドレス帳 Web クエリではサポートされません。
@@ -100,17 +100,17 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 ### <a name="purpose"></a>用途
 
-ABSConfig は、Skype for Business Server 2015 アドレス帳サービスを迅速かつ簡単にカスタマイズする方法を提供します。
+ABSConfig は、2015 アドレス帳サービスのSkype for Business Server簡単な方法を提供します。
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
 #### <a name="computer"></a>コンピューター
 
-ABSConfig は、Skype for Business Server 2015 がインストールされているドメインに参加しているコンピューターからのみ実行できます。 Skype for Business Server 2015 Enterprise Edition の場合、このツールは、セットアップ中にアドレス帳サービスが有効になっているフロントエンド サーバーで実行できます。
+ABSConfig は、2015 年にインストールされているドメインに参加Skype for Business Server実行できます。 2015 年 Skype for Business Server Enterprise Edition の場合、このツールは、セットアップ中にアドレス帳サービスが有効になっている Front-End サーバーで実行できます。
 
 #### <a name="network"></a>ネットワーク
 
-コンピューターがフロントエンド プールとバック エンド データベースに接続できる必要があります。
+コンピューターは、プールとFront-Endに接続できる必要があります。
 
 #### <a name="software"></a>ソフトウェア
 
@@ -120,7 +120,7 @@ ABSConfig ツールを実行する前に、次のソフトウェア コンポー
 
 #### <a name="users"></a>ユーザー
 
-Skype for Business Server 2015 展開を更新するために必要なアクセス許可を持つ管理者。
+2015 年の展開を更新するために必要Skype for Business Server管理者。
 
 ### <a name="examples"></a>例
 
@@ -130,14 +130,14 @@ ABSConfig は、コマンド **プロンプトにABSConfig.exe** 入力して開
 
 ### <a name="summary"></a>概要
 
-ABSConfig ツールは、管理者が Skype for Business Server 2015 アドレス帳サービスをカスタマイズするための迅速かつ簡単なツールを提供します。
+ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サービスのSkype for Business Server簡単に使用できます。
 
 ## <a name="bandwidth-policy-service-monitor"></a>帯域幅ポリシー サービス モニター
 <a name="bpsm"> </a>
 
 帯域幅ポリシー サービス モニター ツールは、管理者が次のリストを表示することを目的とします。
 
-1. トポロジで構成されている Skype for Business Server 2015 帯域幅ポリシー サービス (認証とコア)
+1. トポロジで構成Skype for Business Server 2015 帯域幅ポリシー サービス (認証とコア)
 
 2. 各サービスが他の帯域幅ポリシー サービスおよびエッジ サーバーに対して行う接続
 
@@ -170,9 +170,9 @@ ABSConfig ツールは、管理者が Skype for Business Server 2015 アドレ�
 
 帯域幅ポリシー サービス モニター ツールの目的は、管理者がトポロジで定義されている各帯域幅ポリシー サービスの状態を表示できる目的です。 さらに、管理者は、ネットワーク構成ドキュメントで定義されているリンクすべてについて、リアルタイムの帯域幅の使用状況を確認できます。
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
-帯域幅ポリシー サービス モニター ツールは、Skype for Business Server トポロジの一部であるコンピューターで実行する必要があります。
+帯域幅ポリシー サービス モニター ツールは、ネットワーク トポロジの一部であるコンピューターでSkype for Business Server必要があります。
 
 ### <a name="summary"></a>概要
 
@@ -221,7 +221,7 @@ ABSConfig ツールは、管理者が Skype for Business Server 2015 アドレ�
 
 - **WanLinkLogCollector.exe** このツールを使用すると、ユーザーは必要な情報を入力できます。
 
-- **BandwidthUtilizationAnalyzer.xlsm** Microsoft Excel スプレッドシート ソフトウェア レポートは、ユーザーが自動的にWanLinkLogCollector.exe。 このアプリケーションを使用すると、この記事の後半で示すように、ユーザーはレポートにフィルターを適用できます。
+- **BandwidthUtilizationAnalyzer.xlsm** スプレッドシート Microsoft Excelレポートは、ユーザーが自動的に起動WanLinkLogCollector.exe。 このアプリケーションを使用すると、この記事の後半で示すように、ユーザーはレポートにフィルターを適用できます。
 
 #### <a name="phases-of-using-bandwidth-utilization-analyzer"></a>帯域幅使用率アナライザーの使用のフェーズ
 
@@ -236,7 +236,7 @@ ABSConfig ツールは、管理者が Skype for Business Server 2015 アドレ�
 
 #### <a name="starting-bandwidth-utilization-analyzer"></a>帯域幅使用率アナライザーの開始
 
-コマンド プロンプトWanLinkLogCollector.exe Windows エクスプローラーを使用して、コマンド を開始します。
+コマンド プロンプトWanLinkLogCollector.exeエクスプローラーを使用して、コマンド をWindowsします。
 
  **ユーザー設定WanLinkLogCollector.exe**
 
@@ -281,7 +281,7 @@ ABSConfig ツールは、管理者が Skype for Business Server 2015 アドレ�
 
 ![帯域幅 Utili で収集された通知のログ](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
-**[OK]** をクリックします。 BandwidthUtilizationAnalyzer.xlsm が自動的に開始されます。 メッセージ ボックスの指示に従います。 詳細については、次の **セクションBandwidthUtilizationAnalyzer.xlsm** を使用するを参照してください。
+[**OK**] をクリックします。 BandwidthUtilizationAnalyzer.xlsm が自動的に開始されます。 メッセージ ボックスの指示に従います。 詳細については、次の **セクションBandwidthUtilizationAnalyzer.xlsm** を使用するを参照してください。
 
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>m のBandwidthUtilizationAnalyzer.xls使用
@@ -306,7 +306,7 @@ ABSConfig ツールは、管理者が Skype for Business Server 2015 アドレ�
 
 ![レポート ビューでフィルターを適用する。](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
 
-1. **名前** WAN リンクによるフィルター (フィルターはグラフの右側にあります)。プレフィックスは、次のリンクの種類を示します。垂直 (青) ボックスを参照してください。
+1. **名前** WAN リンクによるフィルター (フィルターはグラフの右側にあります)。 プレフィックスは、次のリンクの種類を示します。垂直 (青) ボックスを参照してください。
 
    - **S サイト** ネットワーク サイトからネットワーク地域への WAN リンク
 
@@ -356,11 +356,11 @@ ABSConfig ツールは、管理者が Skype for Business Server 2015 アドレ�
 
 ![地域によるフィルター処理。](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
 - 3.5 .NET Framework 3.5
 
-- Microsoft Excel 2010 または Excel 2007
+- Microsoft Excel 2010またはExcel 2007
 
 ### <a name="summary"></a>概要
 
@@ -373,7 +373,7 @@ Call Parkometer は、コール パーク オービット データベースに�
 
 ### <a name="description"></a>説明
 
-Call Parkometer は、現在パークされている通話を追跡するツールです。 また、オービットとコール パーク サーバー (CPS) の使用状況に関する統計情報も収集します。 このコマンド ライン ツールは、ローカルまたはリモート接続されたコンピューターから、CPS オービット SQL Serverに読み取りおよび書き込みアクセスの両方を提供します。
+Call Parkometer は、現在パークされている通話を追跡するツールです。 また、オービットとコール パーク サーバー (CPS) の使用状況に関する統計情報も収集します。 このコマンド ライン ツールは、ローカルまたはリモート接続されたコンピューターから CPS オービット SQL Serverに読み取りおよび書き込みアクセスの両方を提供します。
 
 すべてのオプションは相互に排他的です。 コマンド ライン構文は次のとおりです。
 
@@ -419,9 +419,9 @@ Call Parkometer は、現在パークされている通話を追跡するツー�
 
 CPS ツールの目的は、CPS データベースへのコマンド ライン アクセスを提供します。 管理者は、CPS 使用状況を表示し、プールに割り当てられたオービットの数を決定できます。
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
-このツールが CPS を実行しているのと同じコンピューターで実行される場合、要件はありません。 このツールをリモート コンピューターで実行する場合は、Skype for Business Server 2015 で使用SQL Serverデータベースをリモート アクセスを許可するように構成する必要があります。 Call Parkometer は、プールのSQL Server接続するために、データベース接続文字列を使用して構成する必要SQL Server。 このSQL Serverデータベース接続文字列は、構成ファイルで定義されます。parkometer.exe.config。 **** このディレクトリは、そのディレクトリと同じディレクトリparkometer.exe必要があります。 次の XML ファイルは、次の XML ファイルの例parkometer.exe.config。構成する必要があるパラメーターは、ユーザー名 (mydomain\Administrator など)、パスワード (mypassword など)、ホスト名 (myserver など) です。
+このツールが CPS を実行しているのと同じコンピューターで実行される場合、要件はありません。 このツールをリモート コンピューターで実行する場合は、SQL Server 2015 で使用される Skype for Business Server データベースをリモート アクセスを許可するように構成する必要があります。 Call Parkometer は、プールのSQL Server接続するために、データベース接続文字列を使用して構成する必要SQL Server。 このSQL Serverデータベース接続文字列は、構成ファイルで定義 **されます。parkometer.exe.config。** このディレクトリは、そのディレクトリと同じディレクトリparkometer.exe必要があります。 次の XML ファイルは、次の XML ファイルの例parkometer.exe.config。構成する必要があるパラメーターは、ユーザー名 (mydomain\Administrator など)、パスワード (mypassword など)、ホスト名 (myserver など) です。
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -467,9 +467,9 @@ Call Parkometer は、コール パーク サーバーに関する詳細情報�
 
 ### <a name="description"></a>説明
 
-DBAnalyze は、管理者が Skype for Business Server 2015 データベースに関する分析レポートを収集するのに役立つコマンド ライン ツールです。 DBAnalyze には、診断モード、ユーザー データモード、会議モード、MCUs モード、ディスク断片化モードがあります。
+DBAnalyze は、管理者が 2015 年のデータベースに関する分析レポートを収集するのに役立Skype for Business Serverツールです。 DBAnalyze には、診断モード、ユーザー データモード、会議モード、MCUs モード、ディスク断片化モードがあります。
 
-- **診断モード** テーブルに関する情報を含むレポートを作成します (レコード数、 断片化、データ サイズ、ログ ファイル サイズ、データ ファイルサイズ、最後のバックアップ時間、Microsoft Office Communications Server を実行しているサーバー間の連絡先配布、アクセス許可の平均数、連絡先、コンテナー、サブスクリプション、パブリケーション、ユーザーごとのエンドポイント、不適切にホームユーザー、ルーティングできないユーザー、ユーザーごとの組織化された会議の平均数、スケジュールされた会議、アクティブな会議、およびデータベース バージョン。
+- **診断モード** テーブルに関する情報を含むレポートを作成します (レコード数、 断片化、データ サイズ、データ サイズ、ログ ファイルサイズ、最後のバックアップ時間、Microsoft Office Communications Server を実行しているサーバー間の連絡先配布、アクセス許可の平均数、連絡先、コンテナー、サブスクリプション、パブリケーション、ユーザーごとのエンドポイント、不適切にホームユーザー、ルーティングできないユーザー、ユーザーごとの組織化された会議の平均数、スケジュールされた会議、アクティブな会議、およびデータベース バージョン。
 
     > [!NOTE]
     > 診断モードを実行すると、サーバーのパフォーマンスに影響を与える可能性があります。
@@ -490,7 +490,7 @@ DBAnalyze は、管理者が Skype for Business Server 2015 データベース�
 
 ### <a name="output"></a>出力
 
-このツールは、Skype for Business Server 2015 データベースに関する定義済みのレポートを出力します。 **パス**: %ProgramFiles%\Skype for Business Server 2015\Reskit
+このツールは、2015 データベースに関する定義済Skype for Business Server出力します。 **パス**: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 ### <a name="purpose"></a>用途
 
@@ -498,15 +498,15 @@ DBAnalyze は、管理者が Skype for Business Server 2015 データベース�
 
 ![コマンド ライン オプションを使用Dbanalyze.exe。](../media/Reskit_2012_Tools_Documentation_Image35.JPG)
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
- **コンピューター** DBAnalyze は、Skype for Business Server 2015 がインストールされているドメインに参加しているコンピューターからのみ実行できます。
+ **コンピューター** DBAnalyze は、2015 年にインストールされているドメインに参加Skype for Business Server実行できます。
 
  **ネットワーク** コンピューターは、バック エンド データベースに接続できる必要があります。
 
- **ソフトウェア** DBAnalyze を実行する前に、Skype for Business Server 2015 ソフトウェア コンポーネントをインストールする必要があります。
+ **DBAnalyze** Skype for Business Server前に、2015 ソフトウェア コンポーネントのソフトウェア コンポーネントをインストールする必要があります。
 
- **ユーザー** 次の表に、Skype for Business Server 2015 データベースにアクセスするために必要なアクセス許可を持つ管理者を示します。
+ **ユーザー** 次の表に、2015 データベースにアクセスするために必要なアクセス許可を持Skype for Business Server示します。
 
 ![ユーザーのアクセス許可Dbanalyze.exe。](../media/Reskit_2012_Tools_Documentation_Image36.JPG)
 
@@ -528,30 +528,30 @@ dbanalyze.exe /report:disk
 
 ### <a name="summary"></a>概要
 
-DBAnalyzer は、管理者が Skype for Business Server 2015 データベースを迅速かつ簡単に分析できます。
+DBAnalyzer は、管理者が 2015 年のデータベースを迅速かつ簡単にSkype for Business Server提供します。
 
-## <a name="import-storage-service-data"></a>ストレージ サービス データのインポート
+## <a name="import-storage-service-data"></a>サービス Storageのインポート
 <a name="Issd"> </a>
 
-ImportStorageServiceData リソース キット ツールを使用すると、記憶域サービス (LYSS) からフラッシュされたキューデータとエンドポイント データをストレージ サービスに再インポートできます。
+ImportStorageServiceData リソース キット ツールを使用すると、Storage サービス (LYSS) から Storage サービスにフラッシュされたキューおよびエンドポイント データを再インポートできます。
 
 ### <a name="description"></a>説明
 
-記憶域サービスからフラッシュされたデータは、キュー アイテムの状態またはデータベース サイズに基づいて自動 (定期的) に実行されている可能性があります。 これは、プール フェールオーバー コマンドレットの手動呼び出し、または StorageServiceFullFlush コマンドレット (プール フェールオーバー コマンドレットが呼び出す) が原因で発生した可能性があります。 フロントエンドのストレージ サービス (LYSS) データベース サイズが通常のレベルを超える場合は、データを再インポートしない方が理想的です。さらに、記憶域サービス キューの拡大を引き起こしたエラーの原因となる可能性がある問題は、最初に解決する必要があります (Exchange エンドポイントのエラー、ネットワークの問題、その他の問題など)。
+キュー アイテムの状態またはデータベース Storageに基づいて、サービスからフラッシュされたデータが自動 (定期的) に実行されている可能性があります。 これは、プール フェールオーバー コマンドレットの手動呼び出し、または StorageServiceFullFlush コマンドレット (プール フェールオーバー コマンドレットが呼び出す) が原因で発生した可能性があります。 フロントエンドの Storage Service (LYSS) データベース サイズが通常のレベルを超える場合は、データを再インポートする必要があります。そのため、データをエクスポートしなおす必要があります。さらに、Storage サービス キューの拡大を引き起こしたエラーの原因となる可能性のある問題は、まず解決する必要があります (Exchange エンドポイント エラー、ネットワークの問題、その他の問題など)。
 
- **シナリオ 1:** プールのフェールオーバー中に、ファイルが各フロントエンドのストレージ サービスからフラッシュアウトされる可能性があります。 フェールオーバーが完了したら、ツールを実行してデータを再インポートする必要があります。
+ **シナリオ 1:** プールのフェールオーバー中に、ファイルが各フロントエンドのストレージ サービスからフラッシュアウトされる可能性があります。 フェールオーバーが完了したら、ツールを実行してデータを再importする必要があります。
 
- **シナリオ 2:** データが毎日自動的にフラッシュされる、または特定のサイズのしきい値を超える記憶域サービス データベースに応答します (たとえば、60%、80%、90% 満値)。 この自動的にフラッシュされたデータは、管理者が定期的に再インポートする必要があります。 上記の状況では、監視 SCOM パックが展開されていない場合、ストレージ サービスからフラッシュされるデータに関連する Skype for Business Server Storage Service のイベントがあります。 32075 のイベント ID (フル フラッシュ操作が開始されました)、32076 (フル フラッシュが完了しました)、32082 (メンテナンス レベルフラッシュが開始されました)、32083 (メンテナンス レベルフラッシュが完了)、32089 (データベースの満たされた原因でフラッシュが発生しました)。 これらのイベント Id は RTM リリースに対応しています。 管理者がこれらのイベントを見た場合は、フラッシュされたファイルがあるという意味です。このデータは、このツールを使用して定期的にインポートバックする必要があります (たとえば、週に 1 回)。
+ **シナリオ 2:** データが毎日自動的にフラッシュされる、または特定のサイズのしきい値を超える Storage Service データベースへの応答 (たとえば、60%、80%、90% full)。 この自動的にフラッシュされたデータは、管理者が定期的に再報告する必要があります。 上記の状況では、監視 SCOM パックが展開されていない場合、Skype for Business Server Storage サービスからフラッシュされるデータに関連する Storage Skype for Business Server Storage Service のイベントがあります。 32075 のイベント ID (フル フラッシュ操作が開始されました)、32076 (フル フラッシュが完了しました)、32082 (メンテナンス レベルフラッシュが開始されました)、32083 (メンテナンス レベルフラッシュが完了)、32089 (データベースの満たされた原因でフラッシュが発生しました)。 これらのイベント Id は RTM リリースに対応しています。 管理者がこれらのイベントを見た場合は、フラッシュされたファイルがあるという意味です。このデータは、このツールを使用して定期的にインポートバックする必要があります (たとえば、週に 1 回)。
 
-Online Service リリースの場合、Skype for Business Server 用の正常性監視 SCOM パックが展開されている場合、新しいアラートが発生し、管理者はフラッシュされたデータをストレージ サービスに再インポートする必要があります。 フロント エンド サーバーのイベント ログに対応するイベントが発生し、アラートがトリガーされます。 イベントでは、フラッシュされたデータ ファイルが置かれる親パスと、アラート条件を満たすファイルの数について説明します。 警告の条件は、特定の親パスの下に、少なくとも Y 日前の X 以上のファイルが含まれます (ここで、X と Y は StorageService 内で事前に設定されますが、APPCONFIG ファイルを変更することで上書きできます)。正常性アラートをトリガーできるイベントの 2 つの例を以下に示します。その違いは親パスです。 1 つの可能性は Web サービス ファイル共有の下にありますが、もう 1 つの可能性は、各フロントエンドのローカル アプリケーション データ ディレクトリです。 ( c:\ProgramData\Microsoft\Skype for Business Server 2015\StorageService など)。 管理者は、この reskit ツールを実行します。
+オンライン サービス リリースの場合、Skype for Business Server の正常性監視 SCOM パックが展開されている場合は、フラッシュされたデータを Storage サービスに再び読み込む必要がある新しいアラートが発生する可能性があります。 アラートをトリガーしたサーバー上のイベント ログにFront-Endイベントが発生します。 イベントでは、フラッシュされたデータ ファイルが置かれる親パスと、アラート条件を満たすファイルの数について説明します。 アラートの条件は、少なくとも Y 日前の特定の親パスの下に X 以上のファイルが含まれます (ここで、X と Y は StorageService 内で事前設定されますが、APPCONFIG ファイルを変更することで上書きできます)。正常性アラートをトリガーできるイベントの 2 つの例を以下に示します。その違いは親パスです。 1 つの可能性は Web サービス ファイル共有の下にありますが、もう 1 つの可能性は、各フロントエンドのローカル アプリケーション データ ディレクトリです。 (たとえば、c:\ProgramData\Microsoft\Skype for Business Server 2015\StorageService)。 管理者は、この reskit ツールを実行します。
 
-このツールは、ツールが実行されるフロントエンドによってデータが所有されていない場合に、実行中のフロントエンドと他のフロントエンドの CPU と IO 負荷を増加します。 フロント エンドが CPU と IO の負荷が高い (ピーク時外など) 場合は、このツールを実行することをお勧めします。 次に、このツールは 2 ~ 3 分で 1 つのデータ ファイルをインポートできます。 ツールの実行時間を見積もる場合は、この問題に気を付ける必要があります。 ツールによって生成された詳細ログ ファイルは、既定でファイル ストアに表示されます。 ログ ファイルには数十 MB 以上のエラーが報告されていない場合は削除します。
+このツールは、実行中のフロントエンドと他のフロントエンドで、ツールが実行されるフロントエンドによってデータが所有されていない場合に CPU と IO の負荷を増加します。 このツールは、フロントエンドが CPU 負荷と IO 負荷の負荷が高い場合 (ピーク時以外など) に実行することをお勧めします。 次に、このツールは 2 ~ 3 分で 1 つのデータ ファイルをインポートできます。 ツールの実行時間を見積もる場合は、この問題に気を付ける必要があります。 ツールによって生成された詳細ログ ファイルは、既定でファイル ストアに表示されます。 ログ ファイルには数十 MB 以上のエラーが報告されていない場合は削除します。
 
-![ストレージ サーバーのイベント ログ イベントのサンプル。](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
+![サーバー Storageログ イベントのサンプル。](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
-Skype for Business Server 2015 リソース キット ツールをインストールします。 このツールは、Skype for Business Server と Skype for Business Server 管理シェルがインストールされているドメインに参加しているコンピューターで実行されます。 このツールは、管理シェルのコマンドレットを使用して、プール内のすべてのフロントエンド サーバーを識別します。 次に **、RtcLocal** データベースがインストールされているプール内のコンピューターからツールを実行する必要があります。 このデータベースは、プールの WEBSERVICE ファイル共有の場所を取得するためにツールによって使用されます。 さらに、ツールを使用する前に、各フロントエンド サーバーで、各フロントエンド サーバーで **Enable-PSRemoting** を使用して Windows PowerShell リモート処理を有効にする必要があります。また、ツールが実行されるコンピューターも有効にする必要があります。 それ以外の場合、Windows PowerShellリモート コマンドは失敗します。 Windows PowerShell後、プール内のすべてのフロントエンド サーバーでリモート処理をオフにできます。 最後に、ツールを呼び出すアカウントまたは資格情報に、このツールを実行しているプールの Web サービス ファイル共有に対する読み取り/書き込みアクセス許可が必要です。 それ以外の場合、ツールは IO アクセス許可エラーで失敗します。
+2015 Skype for Business Server キット ツールをインストールします。 このツールは、管理シェルがインストールされているドメインSkype for Business Serverコンピューター Skype for Business Server実行されます。 このツールは、管理シェルのコマンドレットを使用して、プール内Front-Endサーバーを識別します。 次に **、RtcLocal** データベースがインストールされているプール内のコンピューターからツールを実行する必要があります。 このデータベースは、プールの WEBSERVICE ファイル共有の場所を取得するためにツールによって使用されます。 さらに、ツールを使用する前に、各 Front-End サーバーは、まず各 Front-End サーバーで **Enable-PSRemoting** を使用して Windows PowerShell リモート処理を有効にし、ツールが実行されるコンピューターを有効にする必要があります。 それ以外の場合、Windows PowerShellリモート コマンドは失敗します。 Windows PowerShellリモート処理は、プール内Front-Endサーバーでオフにできます。 最後に、ツールを呼び出すアカウントまたは資格情報に、このツールを実行しているプールの Web サービス ファイル共有に対する読み取り/書き込みアクセス許可が必要です。 それ以外の場合、ツールは IO アクセス許可エラーで失敗します。
 
 > [!NOTE]
 > このWindows Server 2012、Windows PowerShellリモート処理は既定で有効になっていますが、Windows Server 2008 オペレーティング システムでは有効になっていません。
@@ -719,28 +719,28 @@ Tool has finished execution.
 ## <a name="lcssync"></a>LCSSync
 <a name="LCSSync"> </a>
 
-LCSSync ツールは、Skype for Business Server 2015 コミュニケーション ソフトウェアを複数フォレスト環境に展開するのに役立ちます。 このツールは、異なるユーザー フォレストのユーザーとグループを Active Directory ドメイン サービス連絡先オブジェクトとして、Skype for Business Server 2015 がインストールされている中央フォレストに同期するために使用されます。
+LCSSync ツールは、複数フォレストSkype for Business Server 2015 年の通信ソフトウェアを展開するのに役立ちます。 このツールは、Active Directory Domain Services 連絡先オブジェクトとして異なるユーザー フォレストのユーザーとグループを、2015 年にインストールされている中央フォレストに同期Skype for Business Server使用します。
 
 ### <a name="description"></a>説明
 
- LCSSync は、中央フォレスト内の同期された Active Directory ドメイン サービス連絡先オブジェクトを使用して、Skype for Business Server のユーザーを有効にします。 シングル サインインを提供するには、プライマリ ユーザー アカウントを、Skype for Business Server 2015 の中央フォレストの Active Directory ドメイン サービス連絡先オブジェクトにマップする必要があります。 このツールは、そのマッピングを実行するのに役立ちます。 このツールは、Microsoft Identity Integration Server で管理エージェントを作成するためのテンプレートを提供します。
+ LCSSync は、中央フォレスト内の同期された Active Directory ドメイン サービス連絡先オブジェクトを使用して、ユーザーがユーザーのアクセスをSkype for Business Server。 シングル サインインを提供するには、プライマリ ユーザー アカウントを 2015 年の中央フォレストの Active Directory ドメイン サービス連絡先オブジェクトSkype for Business Server必要があります。 このツールは、そのマッピングを実行するのに役立ちます。 このツールは、Microsoft Identity Integration Server で管理エージェントを作成するためのテンプレートを提供します。
 
 ### <a name="summary"></a>概要
 
-LCSSync ツールは、複数フォレスト環境に Skype for Business Server 2015 を展開するのに役立ちます。
+LCSSync ツールは、複数フォレストSkype for Business Server 2015 を展開するのに役立ちます。
 
 ## <a name="lookup-user-console"></a>ユーザー コンソールの参照
 <a name="LUC"> </a>
 
-LookupUserConsole ツールは、特定のユーザーに関する内部 Skype for Business Server ルーティング情報を表示します。 この情報は、展開とルーティングの問題を診断する際に Microsoft が個人をサポートする場合に役立つ場合があります。
+LookupUserConsole ツールは、特定のユーザー Skype for Business Serverルーティング情報を表示します。 この情報は、展開とルーティングの問題を診断する際に Microsoft が個人をサポートする場合に役立つ場合があります。
 
 ### <a name="description"></a>説明
 
- このLookupUserConsole.exeを実行すると、SIP アドレスを受け入れ、内部 Skype for Business Server ルーティング情報を表示しようとするコマンド プロンプトが開きます。 Exit **と入力** して LookupUserConsole ツールを終了します。
+ このコマンドLookupUserConsole.exeを実行すると、SIP アドレスを受け入れるコマンド プロンプトが開き、SIP アドレスに関連するルーティング情報Skype for Business Server表示されます。 Exit **と入力** して LookupUserConsole ツールを終了します。
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
-Skype for Business Server 2015 リソース キットをインストールします。 このツールは、Skype for Business Server がインストールされているドメインに参加しているコンピューターで実行されます。
+2015 Skype for Business Server キットをインストールします。 このツールは、ドメインに参加しているコンピューターで実行され、Skype for Business Serverインストールされます。
 
 ### <a name="examples"></a>例
 
@@ -787,25 +787,25 @@ C:\Program Files\Skype for Business Server 2015\ResKit \>LookupUserConsole.exe
 ## <a name="msturnping"></a>MsTurnPing
 <a name="MsTurnPing"> </a>
 
-MSTurnPing ツールを使用すると、Skype for Business Server 2015 コミュニケーション ソフトウェアの管理者は、オーディオ/ビデオ エッジおよびオーディオ/ビデオ認証サービスを実行しているサーバーと、トポロジで帯域幅ポリシー サービスを実行しているサーバーの状態を確認できます。
+MSTurnPing ツールを使用すると、Skype for Business Server 2015 通信ソフトウェアの管理者は、オーディオ/ビデオ エッジ、オーディオ/ビデオ認証サービス、およびトポロジで帯域幅ポリシー サービスを実行しているサーバーの状態を確認できます。
 
 ### <a name="description"></a>説明
 
-MSTurnPing ツールを使用すると、Skype for Business Server 2015 コミュニケーション ソフトウェアの管理者は、オーディオ/ビデオ エッジおよびオーディオ/ビデオ認証サービスを実行しているサーバーと、トポロジで帯域幅ポリシー サービスを実行しているサーバーの状態を確認できます。
+MSTurnPing ツールを使用すると、Skype for Business Server 2015 通信ソフトウェアの管理者は、オーディオ/ビデオ エッジ、オーディオ/ビデオ認証サービス、およびトポロジで帯域幅ポリシー サービスを実行しているサーバーの状態を確認できます。
 
 このツールを使用すると、管理者は次のテストを実行できます。
 
 1. A/V エッジ サーバー テスト: このツールは、トポロジ内のすべての A/V エッジ サーバーに対して、次の操作を実行してテストを実行します。
 
-   - Skype for Business Server オーディオ/ビデオ認証サービスが開始され、適切な資格情報を発行できると確認します。
+   - 音声/ビデオSkype for Business Serverサービスが開始され、適切な資格情報を発行できると確認します。
 
-   - Skype for Business Server Audio/Video Edge サービスが開始され、外部エッジにリソースを正常に割り当て可能な場合の確認。
+   - オーディオ/ビデオ エッジ Skype for Business Serverが開始され、外部エッジにリソースを正常に割り当て可能な環境を確認します。
 
 2. 帯域幅ポリシー サービス テスト: このツールは、トポロジで帯域幅ポリシー サービスを実行しているすべてのサーバーに対して、次の操作を実行してテストを実行します。
 
-   - Skype for Business Server 帯域幅ポリシー サービス (認証) が開始され、適切な資格情報を発行できるのを確認します。
+   - 帯域幅ポリシー サービス (Skype for Business Server) が開始され、適切な資格情報を発行できると確認します。
 
-   - Skype for Business Server 帯域幅ポリシー サービス (Core) が開始され、帯域幅チェックが正常に実行されたことを確認します。
+   - 帯域幅ポリシー サービス (Skype for Business Server) が開始され、帯域幅チェックが正常に実行されたことを確認します。
 
 このツールは、トポロジの一部であり、ローカル ストアがインストールされているコンピューターから実行する必要があります。
 
@@ -815,17 +815,17 @@ MSTurnPing ツールを使用すると、Skype for Business Server 2015 コミ�
 
 - **AudioVideoEdgeServer テストを実行** すると、ツールの出力は次のようになります。
 
-  - トポロジで Skype for Business Server 2015 オーディオ/ビデオ認証サービスを提供するコンピューターのテスト結果
+  - トポロジで 2015 Audio/Video Authentication サービスSkype for Business Server提供するコンピューターのテスト結果
 
-  - トポロジで Skype for Business Server 2015 Audio/Video Edge サービスを提供するコンピューターのテスト結果
+  - トポロジで 2015 Audio/Video Edge サービスSkype for Business Server提供するコンピューターのテスト結果
 
 - **BandwidthPolicyServer テストを実行** すると、ツールの出力は次のようになります。
 
-  - トポロジで Skype for Business Server 2015 帯域幅ポリシー サービス (認証) を提供するコンピューターのテスト結果
+  - トポロジで 2015 帯域幅ポリシー Skype for Business Server (認証) を提供するコンピューターのテスト結果
 
-  - トポロジで Skype for Business Server 2015 帯域幅ポリシー サービス (Core) を提供するコンピューターのテスト結果
+  - トポロジで 2015 帯域幅ポリシー Skype for Business Server (Core) を提供するコンピューターのテスト結果
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
 - このツールは、トポロジ内でローカル ストアを持つコンピューターから実行する必要があります。
 
@@ -843,18 +843,18 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 ### <a name="summary"></a>概要
 
-このツールは、オーディオ/ビデオおよび帯域幅ポリシー サービスを実行しているサーバーの状態を確認する Skype for Business Server 2015 管理者にとって貴重なリソースになります。
+このツールは、オーディオ/ビデオおよび帯域幅ポリシー サービスを実行しているサーバーの状態を確認Skype for Business Server 2015 管理者にとって貴重なリソースになります。
 
 ## <a name="network-configuration-viewer"></a>ネットワーク構成ビューアー
 <a name="NCV"> </a>
 
-ネットワーク構成ビューアーは、Skype for Business Server 2015 コミュニケーション ソフトウェア管理者が、指定された帯域幅容量に基づく音声通話やビデオ通話などのリアルタイム通信セッションを許可するために準備されている企業の通話受付制御 (CAC) ネットワーク トポロジを表示するために使用できます。 Skype for Business Server 2015 管理者は CAC ポリシーを定義します。これは、Skype for Business Server 2015 にインストールされている帯域幅ポリシー サービスによって適用されます。
+ネットワーク構成ビューアーは、Skype for Business Server 2015 通信ソフトウェア管理者が、指定された帯域幅容量に基づく音声通話やビデオ通話などのリアルタイム通信セッションを許可するためにプロビジョニングされた企業の通話受付制御 (CAC) ネットワーク トポロジを表示するために使用できます。 Skype for Business Server 2015 管理者は CAC ポリシーを定義します。これは、2015 年にインストールされている帯域幅ポリシー サービスSkype for Business Serverします。
 
 ### <a name="description"></a>説明
 
 ネットワーク構成ビューアー (NetworkConfigurationViewer.exe) を使用すると、管理者は次のタスクを実行できます。
 
-- Skype for Business Server 2015 展開から CAC ネットワーク トポロジをグラフィカル形式で読み込み、表示します。
+- 2015 年の展開から CAC ネットワーク トポロジSkype for Business Serverグラフィカル形式で読み込み、表示します。
 
 - 帯域幅ポリシー サーバー ログ ファイルから CAC ネットワーク トポロジをグラフィカルな形式で読み込み、表示します。
 
@@ -876,11 +876,11 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 ### <a name="examples"></a>例
 
- **Skype for Business Server 2015** の展開から CAC ネットワーク トポロジをグラフィカルな形式で読み込み、表示します。Skype for Business Server 2015 管理者は、下の図に示すように、[ネットワーク構成のダウンロード] オプションを使用して、すべての Skype for Business Server 2015 コンピューターで CAC ネットワーク トポロジ構成を読み込み、表示できます。 Skype for Business Server 2015 構成ストアに接続していないコンピューターに展開すると、このツールはこのような構成をダウンロードまたは表示できません。
+ **Skype for Business Server 2015** の展開から CAC ネットワーク トポロジをグラフィカルな形式で読み込み、表示します:Skype for Business Server 2015 管理者は、下の図に示すように、[ネットワーク構成のダウンロード] オプションを使用して、任意の Skype for Business Server 2015 コンピューターで CAC ネットワーク トポロジ構成を読み込み、表示できます。 このツールは、2015 年 2015 年の構成ストアに接続していないコンピューターに展開された場合、このような構成をダウンロードまたは表示Skype for Business Serverされません。
 
 ![ネットワーク構成のダウンロード。](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
- 帯域幅ポリシー サーバー ログ ファイルから CAC ネットワーク トポロジをグラフィカル形式 **で読み込み、表示します。** Skype for Business Server 2015 帯域幅ポリシー サーバーは、SKYPE for Business Server 2015 ファイル共有場所の下のログメカニズムの一部として CAC ネットワーク トポロジを保存します。 Skype for Business Server 2015 管理者は、次に示すように [ネットワーク構成を開く] オプションを使用して、このようなファイルをグラフィカル形式で表示できます。
+ 帯域幅ポリシー サーバー ログ ファイルから **CAC** ネットワーク トポロジをグラフィカルな形式で読み込み、表示します。Skype for Business Server 2015 帯域幅ポリシー サーバーは、Skype for Business Server 2015 ファイル共有場所の下のログ メカニズムの一部として CAC ネットワーク トポロジを保存します。 Skype for Business Server 2015 管理者は、次に示すように [**ネットワーク** 構成を開く] オプションを使用して、このようなファイルをグラフィック形式で表示できます。
 
 ![帯域幅ポリシー サーバー ログ ファイルを開く。](../media/Reskit_2012_Tools_Documentation_Image24.jpg)
 
@@ -888,38 +888,38 @@ CAC ネットワーク トポロジをディスクに XML 形式で保存して�
 
 ![ネットワーク構成を XML ファイルとして保存します。](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
-CAC ネットワーク トポロジ図を JPG または BMP 形式で保存および保存する: Skype for Business Server 2015 管理者は、以下に示すように [ネットワーク構成の保存] 図をピクチャ オプションとして使用して、CAC ネットワーク トポロジ構成をグラフィカル形式 (JPG および BMP ファイル形式) で保存できます。
+CAC ネットワーク トポロジ図を JPG または BMP 形式で保存および保存する: Skype for Business Server 2015 管理者は、以下に示すように [ネットワーク構成図をピクチャとして保存]オプションを使用して、CAC ネットワーク トポロジ構成をグラフィカル形式 (JPG および BMP ファイル形式) で保存できます。
 
 ![ネットワーク構成を図として保存します。](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- <strong>CAC ネットワーク トポロジ構成データの表示:</strong>Skype for Business Server 2015 管理者は、以下に示す [ネットワーク構成データの表示] オプションを使用して、ネットワーク領域、ネットワーク サイト、帯域幅プロファイル、サイト サブネット IP アドレスなどの関連するネットワーク構成データをテキスト形式で表示できます。
+ CAC ネットワーク トポロジ構成データの表示<strong>:</strong>Skype for Business Server 2015 管理者は、ネットワーク地域、ネットワーク サイト、帯域幅プロファイル、サイト サブネット IP アドレスなどの関連するネットワーク構成データを、以下に示すように [ネットワーク構成データの表示] オプションを使用してテキスト形式で表示できます。
 
 ![ネットワーク構成データの表示。](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
- **ツリー ビュー スタイルで CAC ネットワーク トポロジを表示する:** Skype for Business Server 2015 管理者は、以下に示すように、ツール ウィンドウの左側にあるコントロール パネルを使用して、関連するネットワーク構成データをグラフィカル ツリー ビュー スタイルで表示できます。
+ ツリー ビュー スタイルで CAC ネットワーク トポロジを表示する **:** Skype for Business Server 2015 管理者は、次に示すように、ツール ウィンドウの左側にあるコントロール パネルを使用して、関連するネットワーク構成データをグラフィカル ツリー ビュー スタイルで表示できます。
 
 ![ツリー ビューでのネットワーク構成データの表示。](../media/Reskit_2012_Tools_Documentation_Image28.jpg)
 
- CAC ネットワーク トポロジ リンクのカスタム コネクタ (サイト間、地域間リンク、サイト間リンクなど **) を定義します。** Skype for Business Server 2015 管理者は、以下に示すように [設定] オプションを使用して、CAC ネットワーク構成 WAN リンクのカスタム グラフィカル コネクタを定義できます。 これにより、ネットワーク構成でプロビジョニングされたさまざまな種類のネットワーク リンクを区別できます。
+ CAC ネットワーク トポロジ リンク **(** サイト間、地域間リンク、サイト間リンクなど) のカスタム コネクタを定義します。Skype for Business Server 2015 管理者は、以下に示す 設定 オプションを使用して、CAC ネットワーク構成 WAN リンクのカスタム グラフィカル コネクタを定義できます。 これにより、ネットワーク構成でプロビジョニングされたさまざまな種類のネットワーク リンクを区別できます。
 
 ![ツール](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
- **CAC ネットワーク トポロジ サイト情報、地域情報、およびプロビジョニングされた帯域幅ポリシーを表示します。** Skype for Business Server 2015 管理者は、以下に示すオプションを使用して、関連する CAC ネットワーク地域情報、サイト情報、CAC 帯域幅プロビジョニング情報を表示できます。 (たとえば、ネットワーク領域 **またはネットワーク** サイト オブジェクトの [情報] をクリックします)。
+ CAC ネットワーク **トポロジ** サイト情報、地域情報、およびプロビジョニングされた帯域幅ポリシーを表示します。Skype for Business Server 2015 管理者は、以下に示すオプションを使用して、関連する CAC ネットワーク地域情報、サイト情報、CAC 帯域幅プロビジョニング情報を表示できます。 (たとえば、ネットワーク領域 **またはネットワーク** サイト オブジェクトの [情報] をクリックします)。
 
 ![ネットワークのカスタム コネクタを定義する。](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
 
 ### <a name="summary"></a>概要
 
-このツールは、展開の CAC ネットワーク トポロジをグラフィカルな形式で表示する Skype for Business Server 2015 管理者にとって貴重なリソースになります。
+このツールは、展開Skype for Business Server CAC ネットワーク トポロジを表示する 2015 管理者にとって貴重なリソースになります。
 
 ## <a name="response-group-agent-live"></a>応答グループ エージェント Live
 <a name="RGAL"> </a>
 
-応答グループ アプリケーションを使用すると、エージェントは組み込みの Web サービスを使用して有用なリアルタイム情報にアクセスできます。 残念ながら、このデータのグラフィカル ビューはアプリケーションの外部で使用できません。 Response Group Agent Live Resource Kit ツールは、他のエージェントの存在などのリアルタイムの Skype for Business 通信ソフトウェア情報で強化された、この情報にアクセスするための簡単でグラフィカルな方法を提供することで、この問題を解決します。
+応答グループ アプリケーションを使用すると、エージェントは組み込みの Web サービスを使用して有用なリアルタイム情報にアクセスできます。 残念ながら、このデータのグラフィカル ビューはアプリケーションの外部で使用できません。 Response Group Agent Live Resource Kit ツールは、この情報にアクセスするための簡単でグラフィカルな方法を提供し、他のエージェントの存在などのリアルタイム Skype for Business 通信ソフトウェア情報で強化することで、この問題を解決します。
 
 ### <a name="description"></a>説明
 
-応答グループ エージェント Live は、サインインおよびサインアウト機能と、応答グループ エージェントに対してリアルタイムの情報 (グループ メンバーシップや現在の通話数など) を提供する Windows アプリケーションです。 これは、エージェント グループ ページの拡張バージョン (Skype for Business からアクセス可能) を意図しています。
+応答グループ エージェント Live は、Windows アプリケーションであり、応答グループ エージェントにサインインおよびサインアウト機能と、リアルタイムの情報 (グループ メンバーシップや現在の通話数など) を提供します。 これは、エージェント グループ ページの拡張バージョンを意図しています (このページからアクセスSkype for Business。
 
 ### <a name="purpose"></a>用途
 
@@ -927,7 +927,7 @@ CAC ネットワーク トポロジ図を JPG または BMP 形式で保存お�
 
 #### <a name="features"></a>機能
 
-応答グループ エージェント のライブ ツールは、応答グループ サービスと Skype for Business Server 2015 SDK に構築されています。 応答グループ エージェントは、応答グループ サービスから利用できる情報と機能 (グループ メンバーシップ、他のエージェントの存在、待機中の通話数など) を提供します。
+応答グループ エージェント Live ツールは、応答グループ サービスと 2015 SDK Skype for Business Server基になります。 応答グループ エージェントは、応答グループ サービスから利用できる情報と機能 (グループ メンバーシップ、他のエージェントの存在、待機中の通話数など) を提供します。
 
 次の図は、応答グループ エージェント Live のメイン インターフェイスを示しています。
 
@@ -935,7 +935,7 @@ CAC ネットワーク トポロジ図を JPG または BMP 形式で保存お�
 
 次の 3 つの主な機能は、応答グループ エージェント Live のエージェントで使用できます。
 
-- **サインイン/サインアウト:** [エージェント グループ] ページ (Skype for Business Server 2015 からアクセス可能) とは異なって、応答グループ エージェント Live では、エージェントだけがすべてのエージェント グループに一度にサインインまたはサインアウトできます。 このアプリケーションは、エージェントがサインインまたはサインアウトするための 3 つの簡単な方法を提供します。
+- **サインイン/サインアウト:**[エージェント グループ] ページ (Skype for Business Server 2015 からアクセス可能) とは異なって、Response Group Agent Live では、エージェントだけがすべてのエージェント グループに一度にサインインまたはサインアウトできます。 このアプリケーションは、エージェントがサインインまたはサインアウトするための 3 つの簡単な方法を提供します。
 
   - アプリケーション内の [サインイン/アウト] (緑と赤) ボタンをクリックします。
 
@@ -943,13 +943,13 @@ CAC ネットワーク トポロジ図を JPG または BMP 形式で保存お�
 
   - 構成可能なキーボード ショートカットの使用。
 
-- **グループ メンバーシップ:** エージェント グループが選択されている場合、応答グループ エージェント Live は、このグループ内のエージェントの一覧を右側のウィンドウに表示します。 Skype for Business Server 2015 が、このアプリケーションと同じコンピューターで実行されている場合、プレゼンス情報と連絡先カードが応答グループ エージェント Live に表示されます。 エージェントは、IM を送信したり、そこから他のエージェントを直接呼び出したりできます。
+- **グループ メンバーシップ:** エージェント グループが選択されている場合、応答グループ エージェント Live は、このグループ内のエージェントの一覧を右側のウィンドウに表示します。 2015 Skype for Business Serverアプリケーションと同じコンピューターで実行されている場合、プレゼンス情報と連絡先カードが応答グループ エージェント Live に表示されます。 エージェントは、IM を送信したり、そこから他のエージェントを直接呼び出したりできます。
 
 - **リアルタイム統計:** 応答グループ エージェント Live は、すべてのエージェント グループのリアルタイム統計を提供します。 更新頻度は 1 分です。 応答グループから通話に応答すると、現在のキューに入っている呼び出し数を持つグループ名の横に視覚的インジケーターが追加されます。 ポインターをグループの上に一時停止すると、最も長い待機時間も表示されます。
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
-応答グループ エージェント Live には、.NET Framework 4.0 が必要です。 さらに、プレゼンス カード機能と連絡先カード機能を利用するには、Skype for Business をローカルにインストール (および実行中) する必要があります。
+応答グループ エージェント Live には、.NET Framework 4.0 が必要です。 さらに、プレゼンス カードと連絡先カード機能を利用するには、ローカルSkype for Business (および実行中) にインストールする必要があります。
 
 #### <a name="configuration"></a>構成
 
@@ -965,7 +965,7 @@ CAC ネットワーク トポロジ図を JPG または BMP 形式で保存お�
 
 - ショートカット: サインイン/サインアウトの正確なショートカットをカスタマイズできます。 唯一の制限は、両方のショートカットに "Windows ロゴ" キー (少なくとも別のキーに加えて) が含まれている必要がある場合です。
 
-- Windows から開始: アプリケーションは、Windows で自動的に開始するように構成できます。
+- [スタート] Windows: アプリケーションは、アプリケーションを使用して自動的に開始するようにWindows。
 
 ### <a name="examples"></a>例
 
@@ -979,14 +979,14 @@ CAC ネットワーク トポロジ図を JPG または BMP 形式で保存お�
 
 ### <a name="summary"></a>概要
 
-高速サインインとサインアウト、グループ メンバーシップ、および基本的なリアルタイム統計は、応答グループ サービスからアプリケーションの外部でのみ利用できる興味深い応答グループ エージェント機能です。 応答グループ エージェント のライブ リソース キット ツールを使用すると、Skype for Business Server 2015 管理者は、エージェントに Windows アプリケーションを提供して、より迅速かつグラフィカルな方法でタスクを実行できます。
+高速サインインとサインアウト、グループ メンバーシップ、および基本的なリアルタイム統計は、応答グループ サービスからアプリケーションの外部でのみ使用できる興味深い応答グループ エージェント機能です。 応答グループ エージェント Live Resource Kit ツールを使用すると、Skype for Business Server 2015 管理者はエージェントに Windows アプリケーションを提供し、より迅速かつグラフィカルな方法でタスクを実行できます。
 
 ## <a name="sefautil"></a>SEFAUtil
 <a name="SEFAUtil"> </a>
 
-SEFAUtil (セカンダリ拡張機能機能のアクティブ化) は、Skype for Business Server 2015 コミュニケーション ソフトウェア管理者およびヘルプデスク エージェントが、Skype for Business Server 2015 ユーザーに代わって代理呼び出し、通話転送、同時呼び出し、チーム通話設定、およびグループ通話ピックアップを構成できるコマンド ライン ツールです。 また、このツールを使用すると、管理者は特定のユーザーに対して発行された通話ルーティング設定を照会できます。SEFAUtil ツールを使用すると、管理者はユーザーの代わりに通話転送または同時呼び出しを有効/無効/変更できます。 管理者は、(SIP URI の形式で) ターゲットを指定するか、ユーザーによって既に公開されているターゲットを使用できます。 また、このツールを使用すると、管理者はユーザーの代わりに代理人またはチーム通話グループ メンバーを追加または削除できます。このツールは、Microsoft Unified Communications Managed API (UCMA) 3.0 上に構築され、管理者が SEFAUtil の中央管理ストアで信頼できるアプリケーションを作成する必要があります。
+SEFAUtil (セカンダリ拡張機能機能のアクティブ化) は、Skype for Business Server 2015 通信ソフトウェア管理者およびヘルプデスク エージェントが、Skype for Business Server 2015 ユーザーに代わって代理人呼び出し、通話転送、同時呼び出し、チーム通話設定、グループ通話ピックアップを構成できるコマンド ライン ツールです。 また、このツールを使用すると、管理者は特定のユーザーに対して発行された通話ルーティング設定を照会できます。 SEFAUtil ツールを使用すると、管理者はユーザーの代わりに通話転送または同時呼び出しを有効/無効/変更できます。 管理者は、(SIP URI の形式で) ターゲットを指定するか、ユーザーによって既に公開されているターゲットを使用できます。 また、このツールを使用すると、管理者はユーザーの代わりに代理人またはチーム通話グループ メンバーを追加または削除できます。 このツールは、Microsoft Unified Communications Managed API (UCMA) 3.0 上に構築され、管理者が SEFAUtil の中央管理ストアで信頼できるアプリケーションを作成する必要があります。
 
-SEFAUtil (セカンダリ拡張機能機能のアクティブ化) を使用すると、Skype for Business Server 2015 管理者およびヘルプデスク エージェントは、Skype for Business Server 2015 ユーザーに代わって、代理人呼び出し、通話転送、同時呼び出し、チーム通話の設定、グループ通話ピックアップを構成できます。 また、このツールを使用すると、管理者は特定のユーザーに対して発行された通話ルーティング設定を照会できます。
+SEFAUtil (セカンダリ拡張機能機能のアクティブ化) を使用すると、Skype for Business Server 2015 管理者とヘルプデスク エージェントは、Skype for Business Server 2015 ユーザーに代わって代理人呼び出し、通話転送、同時呼び出し、チーム通話の設定、グループ通話ピックアップを構成できます。 また、このツールを使用すると、管理者は特定のユーザーに対して発行された通話ルーティング設定を照会できます。
 
 ### <a name="description"></a>説明
 
@@ -1003,21 +1003,21 @@ SEFAUtil (セカンダリ拡張機能機能のアクティブ化) を使用す�
 - チーム通話グループの設定を有効/無効/変更する
 
     > [!NOTE]
-    > Skype for Business Server 2015 SEFAUtil ツールの新機能
+    > 2015 年 2015 Skype for Business Server SEFAUtil ツールの新機能
 
 - 同時呼び出し設定の有効化/無効化/変更 (宛先を含む)
 
     > [!NOTE]
-    > Skype for Business Server 2015 SEFAUtil ツールの新機能
+    > 2015 年 2015 Skype for Business Server SEFAUtil ツールの新機能
 
 - グループ通話ピックアップの設定を有効/無効/変更する
 
     > [!CAUTION]
-    > Skype for Business Server 2015 SEFAUtil ツールの新機能
+    > 2015 年 2015 Skype for Business Server SEFAUtil ツールの新機能
 
 このツールには、次の制限があります。
 
-- Skype for Business Server プールに含むユーザーにのみサポート
+- 共有プールに含むユーザー Skype for Business Serverサポート
 
 - 複数のユーザーの通話ルーティング設定の一括編集はサポートされていません
 
@@ -1029,23 +1029,23 @@ SEFAUtil (セカンダリ拡張機能機能のアクティブ化) を使用す�
 
 このツールを使用できる主なシナリオの一部を次に示します。
 
-- Bob はエグゼクティブであり、Skype for Business Server テレフォニーに移動されました。 彼は既存の PBX システムに委任を持っています。 Skype for Business Server 2015 への移行の一環として、管理者は、既存の委任構成を反映するように Bob のルーティングを構成できます。
+- Bob はエグゼクティブであり、テレフォニーにSkype for Business Serverされました。 彼は既存の PBX システムに委任を持っています。 2015 年 2015 年の移行の一環としてSkype for Business Server管理者は、既存の委任構成を反映するように Bob のルーティングを構成できます。
 
-- Alice は旅行中で、顧客の 1 人からの重要な呼び出しを期待しているという認識を持っています。 ただし、彼女はホテルにいて、コンピューターにアクセスできません。 ヘルプデスクを呼び出し、自分の携帯電話番号に転送し、自分の電話番号に対して行われたすべての呼び出しを要求します。 ヘルプデスク担当者は、自分の代わりに構成を実行できます。
+- Alice は旅行中で、顧客の 1 人から重要な電話を受け取る必要があるという認識を持っています。 ただし、彼女はホテルにいて、コンピューターにアクセスできません。 ヘルプデスクを呼び出し、自分の携帯電話番号に転送し、自分の電話番号に対して行われたすべての呼び出しを要求します。 ヘルプデスク担当者は、自分の代わりに構成を実行できます。
 
 - 仕事の番号に対する Joe の呼び出しは、仕事中にモバイル ボイスメールに送信されます。ただし、他のほとんどの場所では正常に動作している場合があります。 ヘルプデスクの技術者は、Joe のルーティング構成を表示し、Joe が携帯電話に同時呼び出しを構成しているのを検出できます。 技術者は、Joe に自分のオフィスでのモバイル カバレッジについて尋ね、同時呼び出しルールが原因で、ネットワークのカバレッジが悪いときに Joe のモバイル ボイスメールに通話が送信される原因と判断できます。
 
-- マイクは Contoso の新入社員で、すべてのメンバーがチーム通話用に構成されている新しいチームに参加しています。Skype for Business Server 2015 が有効になっている場合、管理者はチーム通話グループ設定を設定して、新しいチーム メンバー全員を含め、さらに、管理者はチーム内の各メンバーのチーム通話グループ メンバーとしてマイクを追加します。
+- マイクは Contoso の新入社員であり、Skype for Business Server 2015 で有効になっている場合、管理者はチーム通話グループの設定を設定して新しいチーム メンバー全員を含める新しいチームに参加しています。さらに、管理者はチーム内の各メンバーのチーム通話グループ メンバーとしてマイクを追加します。
 
-- Contoso の人事部門のカスタマー サービスプラクティスは、最初の呼び出し以降のすべての発信者に対して個人サービスを提供する方法です。 部門のすべてのメンバーが互いに非常に近い場所に座っているので、チーム通話と同時にすべての電話が鳴り出すのは、チームの非常に破壊的です。 チーム メンバーを中断することなく最高のサービスを提供するために、Skype for Business Server 2015 管理者はグループ通話ピックアップ機能を利用します。 管理者は、すべての部署メンバーをピックアップ グループに追加し、ピックアップ グループ番号を部署に伝達します。 サマンサが机から不在の場合、ジョーは自分の電話が鳴っているのに気づき、机から電話に出る。
+- Contoso の人事部門のカスタマー サービスプラクティスは、最初の呼び出し以降のすべての発信者に対して個人サービスを提供する方法です。 部門のすべてのメンバーが互いに非常に近い場所に座っているので、チーム通話と同時にすべての電話が鳴り出すのは、チームの混乱です。 チーム メンバーを中断することなく最高のサービスを提供するために、Skype for Business Server 2015 管理者はグループ通話ピックアップ機能を利用します。 管理者は、すべての部署メンバーをピックアップ グループに追加し、ピックアップ グループ番号を部署に伝達します。 サマンサが机から不在の場合、ジョーは自分の電話が鳴っているのに気づき、机から電話に出る。
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
 SEFAUtil ツールは、信頼されたアプリケーション プールの一部であるコンピューターでのみ実行できます。 UCMA 3.0 は、そのコンピューターにインストールする必要があります。 このツールを実行するには、SEFAUtil アプリケーション ID を持つ新しい信頼済みアプリケーションをそのプールに作成する必要があります。
 
 ### <a name="creating-a-new-trusted-application-for-the-sefautil-tool"></a>SEFAUtil ツール用の新しい信頼済みアプリケーションの作成
 
-1. SEFAUTil ツールは、信頼できるアプリケーション プールの一部であるコンピューターでのみ実行できます。 必要に応じて、新しい信頼できるアプリケーション プールとしてプールを追加するには、次のコマンドレットを使用して Skype for Business Server 管理シェルを使用します。
+1. SEFAUTil ツールは、信頼できるアプリケーション プールの一部であるコンピューターでのみ実行できます。 必要に応じて、新しい信頼できるアプリケーション プールとしてプールを追加するには、次のコマンドレットを使用して、Skype for Business Server管理シェルを使用します。
 
    ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
@@ -1054,7 +1054,7 @@ SEFAUtil ツールは、信頼されたアプリケーション プールの一�
     > [!NOTE]
     > UCMA 3.0 は、SEFAUtil ツールの実行に使用するコンピューターにインストールする必要があります。
 
-2. 信頼できるアプリケーションは、SEFAUtil ツールのトポロジで定義する必要があります。 SEFAUtil を新しい信頼済みアプリケーションとして定義するには、Skype for Business Server 管理シェルを使用し、次のコマンドレットを実行します。
+2. 信頼できるアプリケーションは、SEFAUtil ツールのトポロジで定義する必要があります。 SEFAUtil を新しい信頼済みアプリケーションとして定義するには、Skype for Business Server管理シェルを使用して、次のコマンドレットを実行します。
 
    ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
@@ -1064,17 +1064,17 @@ SEFAUtil ツールは、信頼されたアプリケーション プールの一�
     > 必要に応じて、別のポートを使用できます。
     
     > [!NOTE]
-    > プール FQDN: SEFAUtil アプリケーションをホストするサーバーまたはプールの FQDN (通常は Skype for Business フロントエンド サーバーまたはプール>です)。
-    > プール レジストラー FQDN: このアプリケーション プールに関連付けられている Skype for Business フロントエンド サーバーまたはプールの FQDN。
+    > プール FQDN: SEFAUtil アプリケーションをホストするサーバーまたはプールの FQDN (通常は、Skype for Businessフロントエンド サーバー>またはプール)。
+    > プール レジストラー FQDN: このアプリケーション プールにSkype for Businessフロントエンド サーバーまたはプールの FQDN。
     > プール サイト: このプールがホームであるサイトのサイト ID。
 
-3. トポロジの変更を有効にする必要があります。 トポロジの変更を有効にするには、次のコマンドレットを実行して Skype for Business Server 管理シェルを使用します。
+3. トポロジの変更を有効にする必要があります。 トポロジの変更を有効にするには、次のコマンドレットを実行Skype for Business Server管理シェルを使用します。
 
    ```powershell
    Enable-CsToplogy
    ```
 
-4. 必要に応じて、SEFAUtil ツールの実行に使用するサーバーに Skype for Business Server 2015 リソース キット ツールをインストールします (サーバーは信頼できるアプリケーション プールの一部である必要があります)。
+4. 必要に応じて、SEFAUtil ツールの実行に使用する Skype for Business Server 2015 リソース キット ツールをサーバーにインストールします (サーバーは信頼できるアプリケーション プールの一部である必要があります)。
 
 5. SEFAUtil が正しく実行されていることを確認します。 これを行うには、管理者特権を持つ Windows コマンド プロンプトからツールを実行して、展開でユーザーの通話転送設定を表示します。 既定では、ツールは "...\Program Files\Skype for Business Server 2015\Reskit" にあります。 ユーザーの通話転送設定を表示するには、次のコマンドを使用します。
 
@@ -1086,16 +1086,16 @@ SEFAUtil ツールは、信頼されたアプリケーション プールの一�
 
 #### <a name="group-call-pickup"></a>グループ通話ピックアップ
 
-グループ通話ピックアップでは、機能を完全に有効にするためには、Skype for Business Server 2015 で追加の構成が必要です。 ピックアップ グループをユーザーに割り当てる前に、この機能の計画と展開の手順については、グループ通話ピックアップ製品のドキュメントを参照してください。
+グループ通話ピックアップでは、機能を完全に有効Skype for Business Server 2015 年に追加の構成が必要です。 ピックアップ グループをユーザーに割り当てる前に、この機能の計画と展開の手順については、グループ通話ピックアップ製品のドキュメントを参照してください。
 
 ### <a name="examples"></a>例
 
-#### <a name="display-current-call-handling-settings"></a>現在の通話処理の設定を表示する
+#### <a name="display-current-call-handling-settings"></a>現在の呼び出し処理の設定
 
 次のコマンドは、ユーザーの呼び出し処理を表示します。  `SEFAUtil.exe /server:SfBS2015server.contoso.com katarina@contoso.com`
 
 > [!NOTE]
-> この例では **、/server スイッチを** 使用して、接続する Skype for Business Server を指定します。
+> この例では **、/server** スイッチを使用して、接続するSkype for Business Serverを指定します。
 
  **出力**
 
@@ -1110,7 +1110,7 @@ Call Forward No Answer to: voicemail
 
 #### <a name="set-the-call-forwardno-answer-destination"></a>[転送/ 応答なし] の宛先を設定する
 
-次の使用例は、通話転送/応答先なしと呼び出し遅延を設定します。 ここでは、/server スイッチは提供されません。SEFAUtil は、Skype for Business Server 2015 の自動検出を試行します。
+次の使用例は、通話転送/応答先なしと呼び出し遅延を設定します。 ここでは、/server スイッチは提供されません。SEFAUtil は、2015 年にSkype for Business Server試行します。
 
 ```console
 SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdnoanswer /callanswerwaittime:30 /setfwddestination:+14255550126@contoso.com;user=phone
@@ -1287,7 +1287,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 ```
 
 > [!NOTE]
-> ユーザーのチーム通話グループにメンバーを追加すると、ユーザーの同時呼び出し設定が自動的に切り替えて、チーム通話グループを同一化します。
+> ユーザーのチーム通話グループにメンバーを追加すると、ユーザーの同時呼び出し設定が自動的に切り替えて、チーム通話グループを同時に呼び出します。
 
  **出力**
 
@@ -1406,13 +1406,13 @@ UM Enabled: True
 
 ### <a name="description"></a>説明
 
-SYSPrep.ps1は、次Windows PowerShell Skype for Business Server 2015 の前提条件を Windows Server 2008 オペレーティング システム コンピューターにインストールするスクリプトです。
+SYSPrep.ps1は、Windows PowerShell Server 2008 オペレーティング システム コンピューターに次の Skype for Business Server 2015 の前提条件をインストールするWindowsスクリプトです。
 
-- Microsoft .Net Framework 4.5
+- Microsoft .NET Framework 4.5
 
 - Microsoft SQL Server Express
 
-- Windows Powershell バージョン 3.0
+- Windows PowerShellバージョン 3.0
 
 - Visual C++ 2010 再頒布可能
 
@@ -1420,24 +1420,24 @@ SYSPrep.ps1は、次Windows PowerShell Skype for Business Server 2015 の前提�
 
 - Windows Identity Foundation
 
-- Skype for Business Server 2015 Core ファイル
+- Skype for Business Server 2015 コア ファイル
 
-  スクリプト名は Microsoft Windows オペレーティング システムのシステム準備ツールに似ていますが、異なります。 このスクリプトは、Skype for Business Server 2015 に必要な前提条件のみをインストールします。 これらの前提条件がインストールされた後、Windows SYSPrep ツールを使用してサーバーのイメージを作成できます。
+  スクリプト名は Microsoft オペレーティング システムのシステム準備ツールと似ていますが、Windows異なります。 このスクリプトは、2015 年に必要な前提条件Skype for Business Serverします。 これらの前提条件がインストールされた後Windows SYSPrep ツールを使用して、サーバーのイメージを作成できます。
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
-SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを Windows Server 2008 オペレーティング システム コンピューターのローカル フォルダー **(D:\Setup など) にコピーする必要があります**。 このフォルダーには、Skype for Business Server 2015 ファイルのコピーも含 **める必要Setup.exe。** 前提条件ファイルは、次の場所からダウンロードできます。
+SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを Windows Server 2008 オペレーティング システム コンピューターのローカル フォルダー **(D:\Setup など)** にコピーする必要があります。 このフォルダーには、2015 ファイルのコピー Skype for Business Server含める必要があります(特に 2015 **Setup.exe。** 前提条件ファイルは、次の場所からダウンロードできます。
 
 
 | **前提条件**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
-| Microsoft .Net Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
+| Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
-| Windows Powershell バージョン 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
+| Windows PowerShellバージョン 3.0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
 | Visual C++ 2010 再頒布可能  <br/>          | <https://www.microsoft.com/download/details.aspx?id=5555>  <br/>  |
 | インターネット インフォメーション サーバーの更新  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
 | Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
-| Skype for Business Server 2015 Setup.exe  <br/> | Skype for Business Server 2015 メディアからのコピー  <br/>                   |
+| Skype for Business Server 2015 Setup.exe  <br/> | 2015 Skype for Business Serverからのコピー  <br/>                   |
 
 ### <a name="parameter"></a>パラメーター
 
@@ -1445,7 +1445,7 @@ SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを W
 
 ### <a name="examples"></a>例
 
-このスクリプトをSYSPrep.ps1し、Skype for Business Server 2015 の前提条件をインストールするには、管理者特権でコマンド プロンプトから次のコマンドを実行します。
+2015 SYSPrep.ps1スクリプトを実行し、Skype for Business Server 2015 の前提条件をインストールするには、管理者特権でコマンド プロンプトから次のコマンドを実行します。
 
 ```console
 ./SysPrep.PS1 -SetupFolder D:\Setup
@@ -1454,7 +1454,7 @@ SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを W
 ## <a name="unassigned-number-announcements-migration"></a>割り当てられていない番号のお知らせの移行
 <a name="UNAM"> </a>
 
-[割り当てられていない番号のお知らせの移行] ツールを使用すると、Skype for Business Server 2015 管理者は、アナウンス アプリケーションによってサービスされる割り当てられていない番号構成を、送信元の Skype for Business Server または Pool から宛先 Skype for Business Server または Pool に移動できます。
+[割り当てられていない番号のお知らせの移行] ツールを使用すると、Skype for Business Server 2015 管理者は、アナウンス アプリケーションによってサービスされる割り当てられていない番号構成を、ソース Skype for Business Server または Pool から宛先 Skype for Business Server またはプールに移動できます。
 
 ### <a name="description"></a>説明
 
@@ -1483,19 +1483,19 @@ SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを W
 
 [割り当てられていない番号のお知らせ] 移行スクリプトは、次の 3 つのシナリオで使用できます。
 
-- **Skype for Business Server の新しいバージョンへの構成設定の移行:** Contoso は Skype for Business Server 2015 に移行中であり、移行プロセスの一環として、Skype for Business Server 管理者はアナウンス アプリケーションによってサービスされる割り当てられていない番号構成を Lync Server 2013 展開から新しい Skype for Business Server 2015 展開に移動します。 構成設定を移動するには、Skype for Business Server 管理者が割り当てられていない番号アナウンス移行ツールを使用します。
+- **構成設定を新しいバージョンのサーバーに移行Skype for Business Server。** Contoso は Skype for Business Server 2015 に移行中であり、移行プロセスの一環として、Skype for Business Server 管理者はアナウンス アプリケーションによってサービスされる割り当てられていない番号の構成を Lync Server 2013 展開から新しい Skype for Business Server 2015 展開に移動します。 構成設定を移動するには、管理者Skype for Business Server[割り当てられていない番号のお知らせの移行] ツールを使用します。
 
-- **Skype for Business Server 2015 から Lync Server 2013** への展開のロールバック:予期しない要因により、Contoso 社は新しい Skype for Business Server 2015 展開への移行をロールバックする必要があります。 サービスの中断を最小限に抑えるために、Skype for Business Server 管理者は、割り当てられていない番号アナウンス移行ツールを使用して、構成を Skype for Business Server 2015 展開から Lync Server 2013 展開にロールバックします。
+- **展開を 2015 Skype for Business Server Lync Server 2013** にロールバックします。予期しない要因により、Contoso は 2015 年の新しい展開に移行をロールバックSkype for Business Server必要があります。 サービスの中断を最小限に抑えるために、Skype for Business Server 管理者は割り当てられていない番号アナウンス移行ツールを使用して、Skype for Business Server 2015 展開から Lync Server 2013 展開に構成をロールバックします。
 
-- **展開間でのデータの移動:** Contoso は、1 つのプールのすべてのサーバーを新しいサーバーに置き換える過程にいます。 その戦略は、新しい Skype for Business Server 2015 プールを展開し、すべてのデータを古いプールから新しいプールに移動してから、古いプールを非推奨にすることです。 新しいプールを展開すると、[割り当てられていない番号のお知らせの移行] ツールを使用して、構成を古いプールから新しいプールに移動します。
+- **展開間でのデータの移動:** Contoso は、1 つのプールのすべてのサーバーを新しいサーバーに置き換える過程にいます。 Skype for Business Server 2015 年 2015 年の新しいプールを展開し、すべてのデータを古いプールから新しいプールに移動し、古いプールを非推奨にすることです。 新しいプールを展開すると、[割り当てられていない番号のお知らせの移行] ツールを使用して、構成を古いプールから新しいプールに移動します。
 
-#### <a name="requirements"></a>要件
+#### <a name="requirements"></a>Requirements
 
 ツールを正常に実行するために必要な主な要件は次のとおりです。
 
-1. このスクリプトは、Skype for Business Server 管理シェルがインストールされているコンピューターから実行する必要があります。
+1. このスクリプトは、管理シェルがインストールされているコンピューター Skype for Business Server実行する必要があります。
 
-2. アナウンス アプリケーションは、送信元と送信先の Skype for Business Servers またはプールに正常に展開する必要があります。
+2. アナウンス アプリケーションは、サーバーまたはプールの送信元と宛先に正常に展開Skype for Business必要があります。
 
 #### <a name="move-csannouncementconfiguration-script"></a>Move-CsAnnouncementConfiguration スクリプト
 
@@ -1505,15 +1505,15 @@ SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを W
 
 ### <a name="examples"></a>例
 
-#### <a name="moving-the-unassigned-number-announcements-configuration-from-a-lync-server-2013-pool-to-a-skype-for-business-server-2015-pool"></a>割り当てられていない番号アナウンス構成を Lync Server 2013 プールから Skype for Business Server 2015 プールに移動する
+#### <a name="moving-the-unassigned-number-announcements-configuration-from-a-lync-server-2013-pool-to-a-skype-for-business-server-2015-pool"></a>[割り当てられていない番号のお知らせ] 構成を Lync Server 2013 プールから 2015 プールSkype for Business Serverする
 
-次の使用例は、割り当てられていない番号アナウンスをソース プール (Lync Server 2013) から宛先プール (Skype for Business Server 2015) に移動します。
+次の使用例は、割り当てられていない番号アナウンスをソース プール (Lync Server 2013) から宛先プール (2015 Skype for Business Server) に移動します。
 
 ```powershell
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
 ```
 
-#### <a name="moving-the-unassigned-number-announcements-configuration-from-a-skype-for-business-server-2015-pool-to-a-lync-server-2013-pool"></a>割り当てられていない番号アナウンス構成を Skype for Business Server 2015 プールから Lync Server 2013 プールに移動する
+#### <a name="moving-the-unassigned-number-announcements-configuration-from-a-skype-for-business-server-2015-pool-to-a-lync-server-2013-pool"></a>割り当てられていない番号のお知らせの構成を 2015 Skype for Business Serverから Lync Server 2013 プールに移動する
 
 次の使用例は、割り当てられていない番号アナウンスをソース プール (Skype for Business Server 2015) から宛先プール (Lync Server 2013) に移動します。
 
@@ -1524,7 +1524,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 ## <a name="web-conf-data"></a>Web Conf データ
 <a name="WebConfData"> </a>
 
-Web Conf Data Tool を使用すると、Skype for Business Server 2015 コミュニケーション ソフトウェアの管理者は、オーガナイザーの Web 会議に関連付けられたデータを詳細に制御できます。 シナリオには、タイム スタンプ条件に基づいて特定のユーザーの会議データを削除する機能が含まれます。
+Web Conf Data Tool を使用すると、Skype for Business Server 2015 コミュニケーション ソフトウェアの管理者は、開催者の Web 会議に関連付けられたデータを詳細に制御できます。 シナリオには、タイム スタンプ条件に基づいて特定のユーザーの会議データを削除する機能が含まれます。
 
 ### <a name="description"></a>説明
 
@@ -1539,7 +1539,7 @@ Web Conf Data Tool を使用すると、Skype for Business Server 2015 コミュ
 4. 1 人のユーザーに関連付けられているすべての Web 会議データを、そのユーザーがプール間で移動するときに移動します。
 
     > [!NOTE]
-    > Lync Server 2010 のリソース キット ツールでは、そのユーザーがプール間で移動するときに、1 人のユーザーに関連付けられているすべての Web 会議データの移動がサポートされました。 この機能は **、MoveConferenceData** パラメーターを優先して、このツールから廃止されました。 このパラメーターの詳細については [、Move-CsUser コマンドレットを参照](/powershell/module/skype/move-csuser.md?view=skype-ps) してください。
+    > Lync Server 2010 のリソース キット ツールでは、そのユーザーがプール間で移動するときに、1 人のユーザーに関連付けられているすべての Web 会議データの移動がサポートされました。 この機能は **、MoveConferenceData** パラメーターを優先して、このツールから廃止されました。 このパラメーターの詳細については [、Move-CsUser コマンドレットを参照](/powershell/module/skype/move-csuser?) してください。
 
 ツールは、非アクティブな会議の会議データのみを削除します。 アクティブな会議 (またはセッション内の会議) は削除できません。
 
@@ -1553,7 +1553,7 @@ Web Conf Data Tool を使用すると、Skype for Business Server 2015 コミュ
 
 - 削除が実行された場合、ツールは、データが削除されるすべての会議データ フォルダーの一覧を出力します。
 
-### <a name="requirements"></a>要件
+### <a name="requirements"></a>Requirements
 
 このツールは、現在開催者が参加している同じプールで実行する必要があります。
 

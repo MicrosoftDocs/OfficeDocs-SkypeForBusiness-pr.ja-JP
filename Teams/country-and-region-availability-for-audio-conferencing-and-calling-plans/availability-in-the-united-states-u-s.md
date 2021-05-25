@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 米国でMicrosoft 365およびOffice 365サービスSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 65cd883ef6cffc295f8559bbb4b1779cae020946
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b3503c3a8c5421c7a2059019d3798bf23823960d
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094649"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629036"
 ---
 # <a name="availability-in-the-united-states-us"></a>米国での利用可能性
 
@@ -64,9 +64,9 @@ ms.locfileid: "51094649"
 | Premium 番号への発信呼び出しはできますか? <br/> | 現時点ではサポートされていません。 <br/>                                                                                                                                                                                                                                                                                               |
 | 発信通話を行うことができますか?  <br/>                | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> カナダへの通話は国内通話として扱います。
+> 米国の通話プラン (国内または国内および国際) ユーザーがカナダの電話番号にダイヤルすると、国内通話として扱います。 これは、カナダのユーザーが米国内の電話番号にダイヤルする場合にも当たっています。ただし、通話プラン ポリシーを使用してユーザーのダイヤルアウトを "国内" にのみ制限する場合、米国のユーザーはカナダに電話を発信することはできません。同様に、カナダのユーザーは米国のユーザーに電話をかけることができます。
 
->[!Note] 
+>[!Note]
 > 米国での国内通話に該当するのは、米国の 50 州すべてとプエルトリコへの通話です。 割り当てられたライセンスの利用場所が米国および/またはプエルトリコであるユーザーは、同じ利用時間量を共有します。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
@@ -87,7 +87,7 @@ ms.locfileid: "51094649"
 
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

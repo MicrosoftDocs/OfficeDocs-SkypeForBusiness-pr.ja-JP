@@ -21,17 +21,20 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: アプリの自動応答を設定してテストする方法Microsoft Teams。
-ms.openlocfilehash: 2aef87d1a7885df01b02a5708ac1079ea8021add
-ms.sourcegitcommit: 745b37921a878f1b524a274bfb2fd0732716a5c8
+description: 大規模な組織の自動応答を設定してテストする方法についてMicrosoft Teams。
+ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
+ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/15/2021
-ms.locfileid: "52498792"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52628946"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
 自動応答を使用すると、ユーザーが組織に電話をかけ、メニュー システム内を移動して、適切な部署、通話キュー、ユーザー、またはオペレーターと話し合います。 組織の自動応答は、管理者センターまたは PowerShell Microsoft Teamsして作成できます。
+
+> [!TIP]
+> この記事は大規模な組織です。 組織が小規模な企業の場合は、「自動応答の設定 - 代わりに小規模ビジネス向けチュートリアル [」を](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 参照してください。
 
 この記事の手順に従う前に[、「Teams](plan-auto-attendant-call-queue.md)自動応答と通話キューの計画」を[](plan-auto-attendant-call-queue.md#getting-started)読み、概要の手順に従ってください。
 
@@ -258,7 +261,7 @@ PowerShell を使用して自動応答を作成および設定できます。 �
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話システムで利用できる機能](./here-s-what-you-get-with-phone-system.md)
 
