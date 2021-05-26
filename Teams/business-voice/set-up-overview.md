@@ -17,14 +17,20 @@ search.appverid: MET150
 description: 中小企業または組織でMicrosoft 365 Business Voiceを設定する方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 534005df5161a69fd64ac94c444046508b9d7fd1
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 892b093003accf782b7fb6c0a6234bf1f8beb952
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130486"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656040"
 ---
 # <a name="set-up-microsoft-365-business-voice"></a>設定Microsoft 365 Business Voice
+
+</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEu8R]  
+
+</br>
 
 Business Voice は、既存のテレフォニー プロバイダーを置き換える完全な電話システムです。 新しい会社で初めて電話番号を設定する場合でも、従来のオンプレミステレフォニー プロバイダーから移行する確立されたビジネスの場合でも、これらの記事の手順は Business Voice を使い始めて実行するのに役立ちます。 Business Voice の設定が完了したら、
 

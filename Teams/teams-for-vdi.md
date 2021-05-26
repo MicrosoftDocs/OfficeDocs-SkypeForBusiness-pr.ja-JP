@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30f5dc38b713e59b49a166694d5c760accc639be
-ms.sourcegitcommit: 326aa6375cb830cdb0f82ea791b84d570758853a
+ms.openlocfilehash: a24de985b601b1d84250863e06fed90a77699483
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2021
-ms.locfileid: "52221810"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656080"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -402,8 +402,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 通話と会議に関する既知の問題と制限事項を次に示します。
 
 - Skype for Business との相互運用性は、音声通話に限定されます。ビデオ モダリティはありません。
-- 会議またはグループ通話では、単一の着信ビデオ ストリームのみがサポートされます。 複数のユーザーがビデオを送信する場合、常に主要な発表者のビデオのみが表示されます。
-- 受信および送信ビデオ ストリームの解像度は、720p に制限されています。 これは WebRTC の制限です。
+- 受信および送信ビデオ ストリームの解像度は、720p に制限されています。
 - 受信カメラまたは画面共有ストリームからの 1 つのビデオ ストリームのみがサポートされます。 受信画面共有がある場合、主要な発表者のビデオではなく、その画面共有が表示されます。
 - デバイスが切断されて再接続された場合、ユーザーが最後に選択したオーディオ デバイスが使用されるように切り替えられません。
 - 送信画面の共有:

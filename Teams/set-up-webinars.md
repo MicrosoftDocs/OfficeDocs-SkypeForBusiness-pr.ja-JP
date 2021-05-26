@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 会議のウェビナー ポリシーを管理するTeamsします。
-ms.openlocfilehash: 739c0b5494b0ecc5b9a20fd8db4756313848325b
-ms.sourcegitcommit: e5d6a2c3ad45c1285016b93ec4c7afea907d71a1
+ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52275521"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656050"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams でのウェビナーのMicrosoft Teams
 
@@ -58,10 +58,10 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>ウェビナーに登録できるユーザーを構成する
 
-登録を組織内のユーザーにのみ制限したり、テナントの内部と外部の両方のすべてのユーザーに登録を開くことができます。 既定では **、WhoCanRegister は** 有効であり、[すべてのユーザー] に **設定されています**。 会議の登録をオフにする場合は **、[WhoCanRegister]** を False に **設定します**。
+登録を組織内のユーザーにのみ制限したり、テナントの内部と外部の両方のすべてのユーザーに登録を開くことができます。 既定では **、WhoCanRegister は** 有効であり、[すべてのユーザー] に **設定されています**。 会議の登録をオフにする場合は **、AllowMeetingRegistration** を False に **設定します**。
 
 > [!IMPORTANT]
-> **WhoCanRegister** を機能するには **、AllowPrivateMeetingScheduling** を **True** に設定する必要があります。 また、Microsoft リストは、SharePoint で設定する必要SharePoint。 詳細については、「Microsoft リストの [コントロール設定」を参照してください](/sharepoint/control-lists)。
+> **AllowMeetingRegistration** を機能するには **、AllowPrivateMeetingScheduling** を **True** に設定する必要があります。 また、Microsoft リストは、SharePoint で設定する必要SharePoint。 詳細については、「Microsoft リストの [コントロール設定」を参照してください](/sharepoint/control-lists)。
 
 **組織内の *ユーザーにのみ* ウェビナーへの登録を許可するには、次のコマンドを実行します。**
 
@@ -102,7 +102,7 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 
 ウェビナー用に環境を有効にした後は、それ以上の管理者管理は必要ありません。 ポリシーは、ウェビナー開催者に表示されるオプションを制御します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の会議ポリシー - 全般](meeting-policies-in-teams-general.md)
 - [Set-CsTeamsMeetingPolicy のドキュメント](/powershell/module/skype/set-csteamsmeetingpolicy)

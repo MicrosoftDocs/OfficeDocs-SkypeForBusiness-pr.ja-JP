@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03ea21de9f8cb64b1221044babeeae335a52d8ea
-ms.sourcegitcommit: 900f28c4ac12d65ccbd996028205ba183b4afb03
+ms.openlocfilehash: 2e445fd6c5d26a64005ff1c285d8e9d843ca0211
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/24/2021
-ms.locfileid: "51995198"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656060"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Skype for Business Online から Microsoft Teams への支援付きMicrosoft Teams
 
-Microsoft では、サービスが 2021 年 7 月 31 日に終了するSkype for Business Online から組織が移行を成功させるのに役立つ、Teams への支援付きアップグレードを提供しています。 アップグレードの支援により、実行する必要がある技術タスクの数が減り、組織の準備、ユーザーの認識、トレーニングへの集中Teamsできます。
+Microsoft では、サービスが 2021 年 7 月 31 日に終了するSkype for Business Online から組織が移行を成功させるのに役立つ、Teams への支援付きアップグレードを提供しています。 組織がハイブリッド (Skype for Business Online と Skype for Business Server の両方のユーザー) 環境で *Skype for Business Online* または *Skype for Business* Onlineからアップグレードする場合でも、支援付きアップグレードでは、必要な技術タスクの数を減らし、組織の準備、ユーザー認識、Teams トレーニングに集中できます。
 
 アップグレードの前に、アップグレードガイダンス [を確認](https://aka.ms/SkypeToTeams) することをお勧めします。 アップグレード ガイダンスには、Skype for Business Online から Teams へのアップグレードを完了するための推奨アクティビティと役に立つリソースが含まれています。 このガイダンスは、アップグレードのすべての側面を管理するか、支援されたプロセスを使用Teams、Teams へのアップグレードを計画しているすべての組織に適用されます。
 
@@ -46,11 +46,25 @@ Skype for Businessオンライン のお客様は、サービスへのアップ�
 
 支援付きアップグレードは 2021 年 8 月に開始され、上記のスケジュール通知でテナント固有の日付が共有されます。
 
-アップグレードの期間は、ユーザーの量とデプロイの特性によって異なります。 ただし、ほとんどの場合、テナント内のユーザーは、アップグレードの開始から 24 時間以内にアップグレードされます。 この期間中、エンド ユーザーは引き続きオンライン機能Skype for Businessアクセスできます。 アップグレードが完了し、ユーザーが Skype for Business Online からサインアウトすると、メッセージング、会議、通話に Teams の使用が開始されます。
+アップグレードの支援は、ハイブリッド環境を使用する Skype for Business Online と Skype for Business Online のどちらの環境を使用しているかによって少し異なります。
+
+- **Skype for Businessオンラインのみ** 支援されたアップグレード プロセスによって、組織 `TeamsUpgradeOverridePolicy` にポリシーが適用されます。 このポリシーを適用すると、すべての Skype for Business Online ユーザーが [のみ] Teamsされます。
+- **Skype for Business Online とハイブリッド** ハイブリッド環境には、次のいずれかのカテゴリに分類されるユーザーが含まれます。
+
+  - オンプレミスのユーザーがクラウドにSkype for Business Server
+  - Skype for Businessオンライン ユーザー (Teamsのみ)
+  - Skype for Businessオンライン モードではない **オンライン** ユーザー Teamsのみ
+
+  上記の各カテゴリにユーザーが複数存在する場合、サポートされるアップグレード プロセスでは、そのモードにまだユーザーが存在しない場合にのみ、Skype for Business Online ユーザーが Teams のみモードに切り替わります。 オンプレミスのSkype for Businessは、支援されたアップグレード プロセスの影響を受け取る必要はありません。
+
+> [!NOTE]
+> 2021 年 7 月 31 日より後の日付にアップグレードの支援が予定されている場合でも心配はいりません。 アップグレードが完了するまで、組織は Skype for Business Online を使用できます。
+
+アップグレードの期間は、ユーザーの量とデプロイの特性によって異なります。 ほとんどの場合、テナント内のユーザーは、アップグレードの開始から 24 時間以内にアップグレードされます。 この期間中、エンド ユーザーは引き続きオンライン機能Skype for Businessアクセスできます。 アップグレードが完了し、ユーザーが Skype for Business Online からサインアウトすると、メッセージング、会議、通話に Teams の使用が開始されます。
 
 ## <a name="the-post-upgrade-experience"></a>アップグレード後のエクスペリエンス
 
-支援付きアップグレードが完了すると、アップグレードされたユーザーの共存モードは Teams のみに設定され、Microsoft によって異なる共存モードにのみ変更できます。 アップグレードの前に、Teams[モードに関する考慮事項を確認](teams-only-mode-considerations.md)することをお勧めします。 次の表は、「ユーザー エクスペリエンスのみ」の概要Teamsを示しています。
+支援付きアップグレードが完了すると、アップグレードされたユーザーの **共存** モードが [共存モード] Teamsされます。 アップグレードの前に、Teams[モードに関する考慮事項を確認](teams-only-mode-considerations.md)することをお勧めします。 次の表は、「ユーザー エクスペリエンスのみ」の概要Teamsを示しています。
 
 :::row:::
     :::column span="1":::
@@ -77,9 +91,16 @@ Skype for Businessオンライン のお客様は、サービスへのアップ�
     :::column-end:::
     :::column span="3":::
         - フェデレーションを含む Skype for Business Online の既存の連絡先 (ただし、配布リストは含め)
+        - 連絡先は、ユーザーが初めてログインTeamsに移行されます。
+            > [!IMPORTANT]
+            >連絡先は、アップグレードが完了した後 90 日以内に移行する必要があります。
         - 既存の Skype for Business Online 会議は、オンライン会議にTeamsされます
+            > [!IMPORTANT]
+            > 純粋な Skype for Business Online 構成をお持ちのお客様は、Meeting Migration Service (MMS) を使用して、既存の Skype for Business Online 会議を他の会議Teams必要があります。 アップグレードの支援日より前に MMS を使用することをお勧めします。 MMS の詳細については [、「Meeting Migration Service (MMS) の使用」を参照してください。](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
     :::column-end:::
 :::row-end:::
+
+アップグレードが完了すると、ハイブリッド 展開を使用している組織は、ユーザーをオンプレミスから Teams に移動したり、Teamsからオンプレミスに移動したりする場合があります。  
 
 ## <a name="related-content"></a>関連コンテンツ
 

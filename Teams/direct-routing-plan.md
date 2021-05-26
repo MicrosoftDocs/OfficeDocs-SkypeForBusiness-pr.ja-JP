@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: システム ダイレクト ルーティングMicrosoft 電話、サポートされている顧客提供のセッション ボーダー コントローラー (SBC) をシステムに接続する方法Microsoft 電話します。
-ms.openlocfilehash: 90ed1fe51c3b6e3ee6c498fd586e54a05ab533e3
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 531b1f22a6a59a9ef72bf97be92ab15596736b80
+ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130286"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52656070"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -245,7 +245,10 @@ FQDN (sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.micr
 これらのすべての IP アドレスのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。  ファイアウォールで DNS 名がサポートされている場合 **、FQDN** sip-all.pstnhub.microsoft.com すべての IP アドレスに解決されます。 
 
 > [!IMPORTANT]
->  ダイレクト ルーティングの拡張Teamsサービスの改善の一環として、オーストラリアに直接ルーティング インフラストラクチャの新しいインスタンスをデプロイしました。 これは、オーストラリアのお客様 (sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.microsoft.com の 2 つの追加 IP アドレス (52.114.16.74 と 52.114.20.29) に反映されます。 これらの 2 つの IP アドレス (52.114.16.74 と 52.114.20.29) を IP アクセス制御リスト (ACL) に追加し、これらのすべての IP アドレスのポートを開いて、信号を送信するためにアドレス間の着信トラフィックを許可する必要があります。
+> ダイレクト ルーティングの拡張Teamsの一環として、2020 年 11 月にオーストラリアに直接ルーティング インフラストラクチャの新しいインスタンスをデプロイしました。 これは、オーストラリアのお客様 (sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.microsoft.com の 2 つの追加の IP アドレス (52.114.16.74 と 52.114.20.29) に反映されます。 これらの 2 つの IP アドレス (52.114.16.74 と 52.114.20.29) を IP アクセス制御リスト (ACL) に追加し、ファイアウォール内のすべての IP アドレスのポートを開いて、通知用のアドレス間の着信トラフィックと発信トラフィックを許可する必要があります。
+
+> [!IMPORTANT]
+> ダイレクト ルーティングの拡張Teamsの一環として、2021 年 5 月に日本に直接ルーティング インフラストラクチャの新しいインスタンスをデプロイしました。 これは、sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.microsoft.com という 2 つの追加 IP アドレス (52.114.36.156 と 52.114.32.169) に反映されます。 これらの 2 つの IP アドレス (52.114.36.156 と 52.114.32.169) を IP アクセス制御リスト (ACL) に追加し、これらのすべての IP アドレスのポートを開いて、通知用のアドレス間の着信トラフィックと発信トラフィックを許可する必要があります。
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365GCCH および DoD 環境
 
@@ -341,13 +344,8 @@ SIP プロキシコンポーネントとメディア プロセッサ コンポ�
 - 米国 (米国西部と米国東部のデータセンターに 2 つ)
 - ヨーロッパ (アムステルダムとダブリンのデータセンター)
 - アジア (シンガポールと香港のデータセンター)
-
-メディア プロセッサだけがデプロイされている場所 (上記の最も近いデータセンターを介した SIP フロー):
 - 日本 (JP 東部と西部のデータセンター)
 - オーストラリア (オーストラリア東部および南東部のデータセンター)
-
-
-
 
 ## <a name="media-traffic-codecs"></a>メディア トラフィック: コーデック
 
