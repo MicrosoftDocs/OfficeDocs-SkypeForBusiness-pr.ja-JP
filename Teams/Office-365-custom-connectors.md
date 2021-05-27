@@ -17,15 +17,14 @@ description: コネクタにより、頻繁に使用するサービスからコ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 908469913944aea2a27feb8a35b0e5e5620aae3f
-ms.sourcegitcommit: 44de1da5617f57f8c37780ad3451c0128f60b1f8
+ms.openlocfilehash: 62406da5e9feff7286023b955bd031bddda110b1
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50076419"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669149"
 ---
-<a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 365コネクタとカスタム コネクタを使用Microsoft Teams
-=======================================================
+# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 365コネクタとカスタム コネクタを使用Microsoft Teams
 
 コネクタは、頻繁に使用されるコンテンツとサービスの更新をチャネルに直接配信することで、チームを最新の状態に保つ。 コネクタを使用すると、Microsoft Teams ユーザーは、チームのチャット ストリーム内で Trello、Wunderlist、GitHub、Azure DevOps Services などの一般的なサービスから更新プログラムを受信できます。
 
@@ -33,8 +32,9 @@ ms.locfileid: "50076419"
 
 Microsoft 365コネクタは、Microsoft Teams グループと Microsoft 365 グループの両方で使用することができるので、すべてのメンバーが同期を取り合い、関連する情報をすばやく受け取りやすくなります。 両方Microsoft TeamsとExchange同じコネクタ モデルを使用します。これにより、両方のプラットフォーム内で同じコネクタを使用できます。 ただし、チームが依存している Microsoft 365 グループのコネクタを無効にすると、そのチーム用のコネクタを作成する機能も無効にされます。
 
-<a name="add-a-connector-to-a-channel"></a>コネクタをチャネルに追加する
-----------------------------
+> [注]Government Cloud Community (GCC) 環境では、コネクタは既定で無効になります。 有効にする必要がある場合は、ConnectorsEnabled または ConnectorsEnabledForTeams パラメーターを [SetOrganizationConfig](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) コマンドレット$trueに設定します。 以前は、PowerShell に接続するExchange Online[必要がありました](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)。
+
+## <a name="add-a-connector-to-a-channel"></a>コネクタをチャネルに追加する
 
 現時点では、デスクトップクライアントと Web クライアントを使用Microsoft Teamsコネクタを追加できます。 ただし、これらのコネクタによって投稿された情報は、モバイルを含むすべての **クライアントで** 表示できます。
 
@@ -72,7 +72,7 @@ Microsoft 365コネクタは、Microsoft Teams グループと Microsoft 365 グ
 > !["URL is up-to-date" メッセージのスクリーンショット。](media/Teams_URL_up_to_date.png)
 
 
-<a name="develop-custom-connectors"></a>カスタム コネクタを開発する
-----------------------------
+## <a name="develop-custom-connectors"></a>カスタム コネクタを開発する
+
 
 受信および送信 Webhook だけでなく、カスタム コネクタを構築することもできます。 詳細については、「[開発者向けドキュメント](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)」を参照してください:

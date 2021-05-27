@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: カナダで利用できるMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: ebd49f2a15467504863e113f1eb06db6ba881f64
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 29bced17ee6b0dd9c5240651728f390b2f014ac3
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629016"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669219"
 ---
 # <a name="availability-in-canada"></a>カナダでの利用可能性
 
@@ -65,6 +65,9 @@ ms.locfileid: "52629016"
 | 発信通話を行うことができますか?  <br/>                 | [これらの国を含む](users-can-make-outbound-calls-to-these-countries-and-regions.md) 196 の国に通話を発信できます。<br/>                                                                                                                                                                  |
 
 > [!Note]
+> 米国の通話プラン (国内または国内および国際) ユーザーがカナダの電話番号にダイヤルすると、国内通話として扱います。 これは、カナダのユーザーが米国内の電話番号にダイヤルする場合にも当たっています。ただし、通話プラン ポリシーを使用してユーザーのダイヤルアウトを "国内" にのみ制限する場合、米国のユーザーはカナダに電話を発信することはできません。同様に、カナダのユーザーは米国のユーザーに電話をかけることができます。
+
+> [!Note]
 > 米国への呼び出しは国内通話として扱います。
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
@@ -76,9 +79,6 @@ ms.locfileid: "52629016"
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
 
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)」をご覧ください。
-
-> [!Note]
-> 米国の通話プラン (国内または国内および国際) ユーザーがカナダの電話番号にダイヤルすると、国内通話として扱います。 これは、カナダのユーザーが米国内の電話番号にダイヤルする場合にも当たっています。ただし、通話プラン ポリシーを使用してユーザーのダイヤルアウトを "国内" にのみ制限する場合、米国のユーザーはカナダに電話を発信することはできません。同様に、カナダのユーザーは米国のユーザーに電話をかけることができます。
 
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

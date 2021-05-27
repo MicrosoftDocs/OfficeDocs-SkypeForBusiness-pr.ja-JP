@@ -17,12 +17,12 @@ description: 管理センターの [Teams アプリの管理] ページでアプ
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: d42c9609014e4609e74f3cf5022b350d9890ef58
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 16b139750e5a227cc6702e0f8d57cd2f4625f983
+ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129666"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "52669229"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>管理センターでアプリMicrosoft Teams管理する
 
@@ -149,6 +149,10 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[Team
 
         > [!NOTE]
         > [ **サード パーティ製アプリを** 許可する] がオフの場合、送信 [Webhook](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) は無効になります。つまり、ユーザーは作成できません。 この設定をオンにすると、すべてのユーザーに対して送信 Webhook が有効になります。また、アプリのアクセス許可ポリシー を使用して送信 Webhook アプリを許可またはブロックすることで、ユーザー レベルで制御[できます。](teams-app-permission-policies.md) <br><br>[特定のアプリを許可し [](teams-app-permission-policies.md)、他のすべてのアプリをブロックする] 設定を使用する **Microsoft** アプリの既存のアプリアクセス許可ポリシーがある場合、ユーザーの送信 Webhook を有効にする場合は、送信 Webhook アプリを一覧に追加します。
+
+        > [!NOTE]
+        > Teamsユーザーは、他の組織のユーザーと会議やチャットをホストするときにアプリを追加できます。 また、他の組織のユーザーが共有するアプリを、それらの組織がホストする会議やチャットに参加するときに使用することもできます。 ホスティング ユーザーの組織のデータ ポリシーと、そのユーザーの組織によって共有されているサード パーティ製アプリのデータ共有プラクティスが適用されます。
+
     - **ストアに公開された新しいサードパーティ アプリを既定で許可する**: ここでは、Teams アプリ ストアに公開された新しいサードパーティ アプリを Teams で自動的に利用可能にするかどうかを制御します。 このオプションは、サードパーティのアプリを許可する場合にのみ設定できます。
 
 3. [ **カスタム アプリ] で**、カスタム アプリとの対話を許可 **するをオフまたはオンにします**。 この設定は、ユーザーがカスタム アプリを操作できるかどうかを制御します。 詳細については、「[Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)」をご覧ください。

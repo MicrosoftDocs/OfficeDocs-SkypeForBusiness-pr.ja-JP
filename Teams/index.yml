@@ -13,140 +13,134 @@ metadata:
   ms.date: 02/12/2020
   localization_priority: Priority
   ms.custom: seo-marvel-apr2020
-  ms.openlocfilehash: dca85173b5241e7e4e6c586a4d1970ef28947872
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-  ms.translationtype: HT
-  ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51120658"
 highlightedContent:
   items:
-  - title: Teams を使用してリモート ワーカーをサポートする
-    itemType: overview
-    url: /microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
-  - title: Skype for Business から Teams へのアップグレード
-    itemType: how-to-guide
-    url: ./upgrade-skype-teams.yml
-  - title: Teams のアドバイザーを使用して、Teams の展開を支援する
-    itemType: get-started
-    url: ./use-advisor-teams-roll-out.md
+    - title: Teams を使用してリモート ワーカーをサポートする
+      itemType: overview
+      url: /microsoft-365/solutions/empower-people-to-work-remotely?view=o365-worldwide
+    - title: Skype for Business から Teams へのアップグレード
+      itemType: how-to-guide
+      url: ./upgrade-skype-teams.yml
+    - title: Teams のアドバイザーを使用して、Teams の展開を支援する
+      itemType: get-started
+      url: ./use-advisor-teams-roll-out.md
 productDirectory:
   title: IT プロフェッショナル – Microsoft Teams の使用を開始する
   items:
-  - title: パイロット
-    imageSrc: https://docs.microsoft.com/office/media/icons/list-123-teams.svg
-    summary: 展開を計画し、ソリューションを試験的に導入することにより、スムーズなエクスペリエンスを得ることができます。
-    url: ./get-started-with-teams-quick-start.md
-  - title: エンド ユーザーの導入を準備する 
-    imageSrc: https://docs.microsoft.com/office/media/icons/users-people.svg
-    summary: ユーザーに参加を促し、成功へのシナリオを共有しましょう。
-    url: ./adopt-microsoft-teams-landing-page.md
-  - title: エンタープライズ展開の計画
-    imageSrc: https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg
-    summary: 環境とインフラストラクチャを展開可能な状態にします。
-    url: ./deploy-enterprise-overview.md
-  - title: 展開
-    imageSrc: https://docs.microsoft.com/office/media/icons/deploy-teams.svg
-    summary: Microsoft Teams を組織全体で展開します。
-    url: ./deploy-overview.md
-  - title: セキュリテイ保護
-    imageSrc: https://docs.microsoft.com/office/media/icons/security-teams.svg
-    summary: Microsoft Teams でデータ、ファイル、ID をセキュリティで保護するには、以下のベスト プラクティスに従います。
-    url: ./security-compliance-overview.md
-  - title: 管理
-    imageSrc: https://docs.microsoft.com/office/media/icons/settings-teams.svg
-    summary: Microsoft Teams の日常的な管理タスクを実行します。
-    url: ./manage-teams-overview.md
+    - title: パイロット
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/list-123-teams.svg'
+      summary: 展開を計画し、ソリューションを試験的に導入することにより、スムーズなエクスペリエンスを得ることができます。
+      url: ./get-started-with-teams-quick-start.md
+    - title: "エンド ユーザーの導入を準備する\_"
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
+      summary: ユーザーに参加を促し、成功へのシナリオを共有しましょう。
+      url: ./adopt-microsoft-teams-landing-page.md
+    - title: エンタープライズ展開の計画
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg'
+      summary: 環境とインフラストラクチャを展開可能な状態にします。
+      url: ./deploy-enterprise-overview.md
+    - title: 展開
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-teams.svg'
+      summary: Microsoft Teams を組織全体で展開します。
+      url: ./deploy-overview.md
+    - title: セキュリテイ保護
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/security-teams.svg'
+      summary: Microsoft Teams でデータ、ファイル、ID をセキュリティで保護するには、以下のベスト プラクティスに従います。
+      url: ./security-compliance-overview.md
+    - title: 管理
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/settings-teams.svg'
+      summary: Microsoft Teams の日常的な管理タスクを実行します。
+      url: ./manage-teams-overview.md
 tools:
   title: すべての対象ユーザーのリソース
   items:
-  - title: IT 担当者と管理者向けの詳細情報
-    imageSrc: https://docs.microsoft.com/office/media/icons/administrator.svg
-    url: /learn/teams/
-  - title: Microsoft Teams と Microsoft 365 開発者プラットフォーム
-    imageSrc: https://docs.microsoft.com/office/media/icons/developer-teams.svg
-    url: ./deploy-apps-microsoft-teams-landing-page.md
-  - title: エンド ユーザーのヘルプとラーニング
-    imageSrc: https://docs.microsoft.com/office/media/icons/help.svg
-    url: https://support.office.com/Teams
-  - title: Teams のブログと技術コミュニティ
-    imageSrc: https://docs.microsoft.com/office/media/icons/blog-site-teams.svg
-    url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-  - title: Teams 製品のフィードバック
-    imageSrc: https://docs.microsoft.com/office/media/icons/user.svg
-    url: https://microsoftteams.uservoice.com/
-  - title: Microsoft Teams のダウンロード
-    imageSrc: https://docs.microsoft.com/office/media/icons/download-teams.svg
-    url: https://www.microsoft.com/microsoft-teams/download-app
+    - title: IT 担当者と管理者向けの詳細情報
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/administrator.svg'
+      url: /learn/teams/
+    - title: Microsoft Teams と Microsoft 365 開発者プラットフォーム
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/developer-teams.svg'
+      url: /microsoftteams/platform/
+    - title: エンド ユーザーのヘルプとラーニング
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/help.svg'
+      url: 'https://support.office.com/Teams'
+    - title: Teams のブログと技術コミュニティ
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blog-site-teams.svg'
+      url: 'https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams'
+    - title: Teams 製品のフィードバック
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/user.svg'
+      url: 'https://microsoftteams.uservoice.com/'
+    - title: Microsoft Teams のダウンロード
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/download-teams.svg'
+      url: 'https://www.microsoft.com/microsoft-teams/download-app'
 additionalContent:
   sections:
-  - title: 主なソリューション
-    items:
-    - title: チャット、チーム、チャネル
-      links:
-      - text: チャット、チーム、チャネルおよびアプリ
-        url: ./deploy-chat-teams-channels-microsoft-teams-landing-page.md
-      - text: チームとチャネルの概要
-        url: ./teams-channels-overview.md
-      - text: 別の組織のユーザーと通話およびチャットをする (ゲスト/外部アクセス)
-        url: ./communicate-with-users-from-other-organizations.md
-      - text: 共同作業のガバナンスとは?
-        url: /microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
-      - text: ファイル共有セキュリティの 3 つの階層を使用して Teams を構成する
-        url: /microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
-    - title: ミーティングと会議
-      links:
-      - text: ミーティングと会議の概要
-        url: ./deploy-meetings-microsoft-teams-landing-page.md
-      - text: Microsoft Teams のライブ イベントとは
-        url: ./teams-live-events/what-are-teams-live-events.md
-      - text: 電話会議を展開する
-        url: ./deploy-audio-conferencing-teams-landing-page.md
-      - text: Microsoft Teams Rooms
-        url: ./rooms/index.md
-    - title: 音声通話
-      links:
-      - text: Teams の音声ソリューションを計画する
-        url: ./cloud-voice-landing-page.md
-      - text: Microsoft 365 Business Voice とは
-        url: ./business-voice/whats-business-voice.md
-      - text: 電話システムをセットアップする
-        url: ./setting-up-your-phone-system.md
-      - text: 'Contoso 社のケース スタディ: Teams 音声への移行'
-        url: ./voice-case-study-overview.md
-    - title: Teams の機能を拡張する
-      links:
-      - text: Microsoft Teams のアプリ、ボット、およびコネクタ
-        url: ./deploy-apps-microsoft-teams-landing-page.md
-      - text: Microsoft Teams のアプリを作成する
-        url: /MicrosoftTeams/platform/overview
-      - text: Microsoft Power Platform との統合
-        url: ./teams-power-platfom-integration.md
-      - text: Microsoft Teams アプリのセキュリティとコンプライアンス
-        url: /microsoft-365-app-certification/teams/teams-apps
-      - text: Microsoft Viva - 従業員エクスペリエンスとエンゲージメント
-        url: https://www.microsoft.com/microsoft-viva/
-    - title: 教育と産業
-      links:
-      - text: 遠隔学習で Teams を使用している間、学生の安全を確保する
-        url: https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8
-      - text: Microsoft Teams for Education
-        url: ./expand-teams-across-your-org/teams-for-education-landing-page.md
-      - text: 医療
-        url: ./expand-teams-across-your-org/healthcare/teams-in-hc.md
-      - text: 現場担当者
-        url: ./flw-quickstart.yml
-      - text: 小売
-        url: ./expand-teams-across-your-org/teams-for-retail-landing-page.md
-    - title: 政府機関
-      links:
-      - text: 政府機関用 Teams
-        url: ./expand-teams-across-your-org/teams-for-government-landing-page.md
-      - text: 政府機関 - GCC の展開
-        url: ./plan-for-government-gcc.md
-      - text: 政府機関 - GCC High の展開
-        url: ./plan-for-government-gcc-high.md
-      - text: 政府機関 - DoD の展開
-        url: ./plan-for-government-dod.md
-      - text: 政府機関向けのポリシー パッケージ
-        url: ./policy-packages-gov.md
+    - title: 主なソリューション
+      items:
+        - title: チャット、チーム、チャネル
+          links:
+            - text: チャット、チーム、チャネルおよびアプリ
+              url: ./deploy-chat-teams-channels-microsoft-teams-landing-page.md
+            - text: チームとチャネルの概要
+              url: ./teams-channels-overview.md
+            - text: 別の組織のユーザーと通話およびチャットをする (ゲスト/外部アクセス)
+              url: ./communicate-with-users-from-other-organizations.md
+            - text: 共同作業のガバナンスとは?
+              url: /microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
+            - text: ファイル共有セキュリティの 3 つの階層を使用して Teams を構成する
+              url: /microsoft-365/solutions/configure-teams-three-tiers-protection?view=o365-worldwide
+        - title: ミーティングと会議
+          links:
+            - text: ミーティングと会議の概要
+              url: ./deploy-meetings-microsoft-teams-landing-page.md
+            - text: Microsoft Teams のライブ イベントとは
+              url: ./teams-live-events/what-are-teams-live-events.md
+            - text: 電話会議を展開する
+              url: ./deploy-audio-conferencing-teams-landing-page.md
+            - text: Microsoft Teams Rooms
+              url: ./rooms/index.md
+        - title: 音声通話
+          links:
+            - text: Teams の音声ソリューションを計画する
+              url: ./cloud-voice-landing-page.md
+            - text: Microsoft 365 Business Voice とは
+              url: ./business-voice/whats-business-voice.md
+            - text: 電話システムをセットアップする
+              url: ./setting-up-your-phone-system.md
+            - text: 'Contoso 社のケース スタディ: Teams 音声への移行'
+              url: ./voice-case-study-overview.md
+        - title: Teams の機能を拡張する
+          links:
+            - text: Microsoft Teams のアプリ、ボット、およびコネクタ
+              url: ./deploy-apps-microsoft-teams-landing-page.md
+            - text: Microsoft Teams のアプリを作成する
+              url: /MicrosoftTeams/platform/overview
+            - text: Microsoft Power Platform との統合
+              url: ./teams-power-platfom-integration.md
+            - text: Microsoft Teams アプリのセキュリティとコンプライアンス
+              url: /microsoft-365-app-certification/teams/teams-apps
+            - text: Microsoft Viva - 従業員エクスペリエンスとエンゲージメント
+              url: 'https://www.microsoft.com/microsoft-viva/'
+        - title: 教育と産業
+          links:
+            - text: 遠隔学習で Teams を使用している間、学生の安全を確保する
+              url: 'https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8'
+            - text: Microsoft Teams for Education
+              url: ./expand-teams-across-your-org/teams-for-education-landing-page.md
+            - text: 医療
+              url: ./expand-teams-across-your-org/healthcare/teams-in-hc.md
+            - text: 現場担当者
+              url: ./flw-quickstart.yml
+            - text: 小売
+              url: ./expand-teams-across-your-org/teams-for-retail-landing-page.md
+        - title: 政府機関
+          links:
+            - text: 政府機関用 Teams
+              url: ./expand-teams-across-your-org/teams-for-government-landing-page.md
+            - text: 政府機関 - GCC の展開
+              url: ./plan-for-government-gcc.md
+            - text: 政府機関 - GCC High の展開
+              url: ./plan-for-government-gcc-high.md
+            - text: 政府機関 - DoD の展開
+              url: ./plan-for-government-dod.md
+            - text: 政府機関向けのポリシー パッケージ
+              url: ./policy-packages-gov.md
