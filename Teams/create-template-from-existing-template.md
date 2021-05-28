@@ -16,16 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8a86794c6517904c2e1329c6c5eab5b55c5c116
-ms.sourcegitcommit: 45064a0020a1231e17967c74f082106c68213ea0
+ms.openlocfilehash: 75702152f073ffe94bb9712840b97bc31eaa394a
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "48308100"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684364"
 ---
-# <a name="create-a-new-template-from-an-existing-team-template-in-microsoft-teams"></a>既存のチーム テンプレートから新しいテンプレートを作成Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+# <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>既存のチーム テンプレートから新しいチーム テンプレートを作成Microsoft Teams
 
 **カスタム テンプレートは、EDU のお客様にはまだサポートされていません。**
 
@@ -35,7 +33,7 @@ Microsoft Teamsは、特定の組織のニーズに合わせて保存および�
 
 2. 左側のナビゲーションで、[チーム テンプレート **] Teams**  >  **展開します**。
 
-3. [ **チーム テンプレート] セクション** で、複製するテンプレートの横にある を選択して強調表示します。
+3. [ **チーム テンプレート] セクション** で、複製するチーム テンプレートの横にある を選択して強調表示します。
 
 4. [複製] **を選択します**。
 

@@ -1,5 +1,5 @@
 ---
-title: 管理Teamsテンプレートを使用する
+title: 管理センターでチーム テンプレートを使用する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -11,28 +11,28 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: インストール済みのテンプレートを使用Teamsを使用して、さまざまなトピックのチャネルを含むコラボレーション スペースを作成する方法について説明します。
+description: チーム テンプレートを使用して、プレインストールされているテンプレートを使用して、さまざまなトピックのチャネルを含むコラボレーション スペースを作成する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56577639e62c954d430d2745f5b105e97f5c56ff
-ms.sourcegitcommit: 2c2176b9d32b8f7218e8d11e82c0ae01318bfdc5
+ms.openlocfilehash: 773b97197a4f233dea9a404d87e669239b3969f6
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2021
-ms.locfileid: "52264897"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684454"
 ---
-# <a name="get-started-with-teams-templates-in-the-admin-center"></a>管理センターでTeamsテンプレートの使用を開始する
+# <a name="get-started-with-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートの使用を開始する
 
 **カスタム テンプレートを作成する機能は、EDU のお客様ではまだサポートされていません。**
 
 > [!NOTE]
-> プライベート チャネルと感度ラベルは、現在、一部のテンプレートTeamsされていません。 プライベート チャネルの作成は、テンプレート定義には含まれません。 [テンプレート フローからチームを作成 **する** ] の [感度ラベル] オプションは、チームには適用されません。
+> プライベート チャネルと感度ラベルは、チーム テンプレートでは現在サポートされていません。 プライベート チャネルの作成は、テンプレート定義には含まれません。 [テンプレート フローからチームを作成 **する** ] の [感度ラベル] オプションは、チームには適用されません。
 
-Teamsテンプレートは、ビジネスの必要性やプロジェクトを中心に設計されたチームの構造を事前に構築した定義です。 事前構築済みのテンプレートを使用するか、独自のテンプレートを作成します。 Teamsテンプレートを使用すると、さまざまなトピックのチャネルを含む豊富なコラボレーション スペースをすばやく作成し、ミッション クリティカルなコンテンツとサービスを取り込むアプリをプレインストールできます。 Teamsテンプレートは、組織全体で一貫性のあるチームを簡単に作成するのに役立つ定義済みのチーム構造を提供します。 現時点では、テンプレートからチームを作成するか、または Microsoft Teams を使用[Graph。](get-started-with-teams-templates.md)
+チーム テンプレートは、ビジネス の必要性やプロジェクトを中心に設計されたチームの構造を事前に構築した定義です。 事前構築済みのテンプレートを使用するか、独自のテンプレートを作成します。 チーム テンプレートを使用すると、さまざまなトピックのチャネルを含む豊富なコラボレーション スペースをすばやく作成し、ミッション クリティカルなコンテンツとサービスを取り込むアプリをプレインストールできます。 チーム テンプレートは、組織全体で一貫性のあるチームを簡単に作成するのに役立つ定義済みのチーム構造を提供します。 現時点では、テンプレートからチームを作成するか、または Microsoft Teams を使用[Graph。](get-started-with-teams-templates.md)
 
 この記事では、次の機能について説明します。
 
@@ -42,11 +42,11 @@ Teamsテンプレートは、ビジネスの必要性やプロジェクトを中
 
 この記事は、組織全体で複数のチームを計画、デプロイ、管理する責任がある場合に役立ちます。
 
-## <a name="teams-template-capabilities"></a>Teamsテンプレートの機能
+## <a name="team-template-capabilities"></a>チーム テンプレートの機能
 
-チーム内のほとんどのプロパティは、テンプレートに含まれてサポートされています。 ただし、現在サポートされていないいくつかのプロパティと機能があります。 次の表は、テンプレートに含まれるものと、テンプレートに含まれていないものについて簡単にTeamsします。
+チーム内のほとんどのプロパティは、テンプレートに含まれてサポートされています。 ただし、現在サポートされていないいくつかのプロパティと機能があります。 次の表は、チーム テンプレートに含まれているものと含まれていないものについて簡単に説明しています。
 
-| **新しいテンプレートでサポートされるチームTeamsプロパティ** | **チームのプロパティは、テンプレートでまだTeamsされていません** |
+| **チーム テンプレートでサポートされるチームのプロパティ** | **チーム テンプレートでまだサポートされていないチームプロパティ** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | 基本テンプレートの種類 | チーム メンバーシップ |
 | チーム名 | チームの画像 |
@@ -115,13 +115,13 @@ Teamsテンプレートは、ビジネスの必要性やプロジェクトを中
 
 PowerShell でテンプレートを管理するには、次のコマンドを使用します。
 
-- [Get-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
-- [Get-CsTeamTemplateList](https://docs.microsoft.com/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
-- [Update-CsTeamTemplate](https://docs.microsoft.com/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [カスタム チーム テンプレートを作成する](create-a-team-template.md)
 - [既存のチーム テンプレートからチーム テンプレートを作成する](create-template-from-existing-template.md)

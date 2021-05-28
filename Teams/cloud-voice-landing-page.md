@@ -24,12 +24,12 @@ search.appverid: MET150
 description: クラウド音声機能のMicrosoft Teams、および組織に対して行うデプロイの決定について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d77e0b1ec6277bfeffd85d6657d14fe810aae96
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 92b28a00e1737b533c17cf3f1f670bc23561620d
+ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102573"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689795"
 ---
 # <a name="plan-your-teams-voice-solution"></a>音声ソリューションTeams計画する 
 
@@ -51,8 +51,10 @@ ms.locfileid: "51102573"
 ただし、状況は複雑になる可能性があります。 たとえば、通話プランが利用できない場所にオフィスがある場合があります。 または、地理的な場所ごとに異なる要件を持つ、複雑で多国籍のデプロイをサポートする組み合わせソリューションが必要な場合があります。 Microsoft では、次のソリューションの組み合わせをサポートしています。 
 
 - 電話システムプランの使用
+- 電話システムオペレーター サービスを使用して、独自の PSTN Connect (現在パブリック プレビュー **でのみ利用可能**)
 - 電話システムルーティングを使用して独自の PSTN 通信業者と通信する
-- 通話プランと通話プランの両方の電話システム直接ルーティング電話システムを使用する組み合わせソリューション
+- 通話プランで電話システムを使用する組み合わせ電話システムオペレーター Connect、直接ルーティング電話システムを使用する
+
 
 ## <a name="what-do-you-need-to-read"></a>何を読む必要がありますか?
 
@@ -62,7 +64,7 @@ ms.locfileid: "51102573"
 | すべてのユーザーに必須 | 説明 |
 | :------------|:-------|
 | [**電話システム**](#phone-system) | クラウドとクラウドの通話制御とプライベート ブランチ Exchange (PBX) 機能を有効にするための Microsoft Microsoft 365テクノロジMicrosoft Teams。 |
-| [**公衆交換電話網 (PSTN) 接続オプション**](#public-switched-telephone-network-connectivity-options) | Microsoft をテレフォニー キャリアとして使用するか、直接ルーティングを使用して独自のテレフォニー Microsoft Teams接続するかの選択。 PSTN 接続電話システムと組み合わせると、ユーザーは世界中で電話を発信できます。|
+| [**公衆交換電話網 (PSTN) 接続オプション**](#public-switched-telephone-network-connectivity-options) | Microsoft をテレフォニー キャリアとして使用するか、直接ルーティングまたはオペレーター サービスを使用して、Microsoft Teams に独自のテレフォニー キャリアを接続Connect。 PSTN 接続電話システムと組み合わせると、ユーザーは世界中で電話を発信できます。|
 
 **要件に応じて異なる。** この記事のセクションの一部は、既存のデプロイと要件に応じて関連します。 たとえば、Location-Basedルーティングは、有料バイパスを許可しない地理的な場所のダイレクト ルーティングのお客様にのみ必要です。
 
@@ -82,7 +84,7 @@ ms.locfileid: "51102573"
 
 
 > [!Important]
-> この記事では、音声ソリューションと音声ソリューションについてMicrosoft Teams。 Skype for Business Online のソリューションは引き続き利用できます[(「Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions)テレフォニー ソリューション」で説明)、Skype for Business Online は 2021 年 7 月 31 日に廃止される予定です。  その日付が終了するとSkype for Businessオンライン サービスにアクセスできなくなりました。 さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間では &mdash; &mdash; サポートされなくなりました。 この記事ではTeams音声ソリューションと、必要に応じてオンプレミスのテレフォニー ネットワークを直接ルーティングを使用してTeams接続する方法について説明します。
+> この記事では、音声ソリューションと音声ソリューションについてMicrosoft Teams。 Skype for Business Online のソリューションは引き続き利用できます[(「Microsoft](/SkypeForBusiness/hybrid/msft-telephony-solutions)テレフォニー ソリューション」で説明)、Skype for Business Online は 2021 年 7 月 31 日に廃止される予定です。  その日付が終了するとSkype for Businessオンライン サービスにアクセスできなくなりました。 さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間では &mdash; &mdash; サポートされなくなりました。 この記事では、Teams 音声ソリューションと、必要に応じて直接ルーティングまたはオペレーター Connect を使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法について説明します。
 
 
 ## <a name="phone-system"></a>電話システム
@@ -146,7 +148,9 @@ ms.locfileid: "51102573"
 
 - [**電話システム プラン を使用して行います**](#phone-system-with-calling-plan)。 MICROSOFT を PSTN 通信事業者として使用する、クラウド内のすべてソリューション。
 
-- [**電話システム直接ルーティングを**](#phone-system-with-own-pstn-carrier-with-direct-routing)使用してオンプレミス環境をオンプレミス環境に接続することで、独自の PSTN 通信業者Teams。
+- [**電話システム直接ルーティングを**](#phone-system-with-own-pstn-carrier-with-direct-routing)使用してオンプレミス環境をオンプレミスの PSTN 通信業者に接続Teams。
+
+- [**電話システム、現在**](operator-connect-plan.md)パブリック プレビューでのみ使用できるオペレーター Connect を使用して、独自の PSTN 通信事業者 **と通信できます。**  オペレーター Connectを使用すると、既存のオペレーターが Microsoft Operator Connect プログラムに参加している場合、PSTN 通話を Teams に持ち込むサービスを管理できます。 Operator Connect の利点と要件、およびこのプログラムに参加しているオペレーターの一覧については、「Plan [Operator Connect」を参照してください](operator-connect-plan.md)。
 
 オプションの組み合わせを選択することもできます。これにより、複雑な環境向けソリューションを設計したり、複数ステップの移行を管理したりすることもできます (移行の詳細については後で説明します)。
 

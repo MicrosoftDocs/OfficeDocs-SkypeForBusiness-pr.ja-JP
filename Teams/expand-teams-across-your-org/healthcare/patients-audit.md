@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: 管理者向け Patients アプリの監査についてTeamsする
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3cf850b8ae7312fa6c43f879baefb617f48d30b3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a2c5b006384d113dde82f702dee68a82b99685f6
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096191"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697834"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者アプリの監査ログ
 
@@ -45,7 +45,7 @@ HIPAA ガイドラインに従って、医療プロバイダーは、変更を�
 
 監査は、いくつかの以前の構成に依存します。
 
-1. 管理者は、Patients アプリで使用される形式で EMR を使用するには、FHIR サービス プロバイダーと作業する必要があります。 「[電子医療記録を統合する」を参照Microsoft Teams。](patients-app.md)
+1. 管理者は、Patients アプリで使用される形式で EMR を使用するには、FHIR サービス プロバイダーと作業する必要があります。 
 2. 医療プロバイダーの管理者は、管理センターで患者アプリを有効Teams必要があります。 詳細[については、「アプリセットアップ ポリシーの管理」Microsoft Teams](../../teams-app-setup-policies.md)関連記事を参照してください。
 3. 管理者は、「開始する前に」および「監査ログ検索を有効または無効にする」で説明したように、[](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)アクティビティ ログ監査を有効にするのと同じ方法で、アクティビティ監査を有効[にする必要があります](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)。 監査ログが既に有効な場合は、Patients アプリに特別な情報は必要とされません。 医療プロバイダーがチーム内でアプリをインストールして実行すると、監査ログに PHI アクティビティが記録されます。
 4. その後、管理者は Patients アプリの可用性を発表する必要があります。また、医療従事者は監査に含めるアクティビティの生成を開始する必要があります。
@@ -60,7 +60,7 @@ HIPAA ガイドラインに従って、医療プロバイダーは、変更を�
 
 Patients アプリには、次の表に示すログに記録された独自のアクティビティがあります。
 
-|フレンドリ名 |操作​​|説明|
+|フレンドリ名 | 操作​​ | 説明|
 |:---|:---|:---|
 | 患者リストの表示 | PatientListView | ユーザーが患者リストを表示しました。|
 | 削除された患者リスト | PatientListDelete | ユーザーが患者のリストを削除しました。|
@@ -78,14 +78,11 @@ Patients アプリには、次の表に示すログに記録された独自の�
 | 患者の詳細を表示しました | PatientView | ユーザーが患者レコードを表示しました。|
 | 患者の詳細を編集しました | PatientDetailsEdit | 患者レコードの詳細が編集されました。 |
 | EHR 接続を設定する | EHRConnectionSet | EHR FHIR サービス接続への接続に使用する URL を設定します。 例:<span>https:// api-v8-dstu2.hspconsortium.org/ContosoHospital/open</span>  |
-||||
 
 必要に応じて監査をカスタマイズして、ログに記録されたアクティビティを検索またはフィルター処理できます。
 
 ログに記録されるアクティビティについてはMicrosoft Teamsアクティビティに関するページ[Microsoft Teamsされています](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [監査ログを検索する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
-
-[電子医療記録を Microsoft Teams に統合する](patients-app.md)

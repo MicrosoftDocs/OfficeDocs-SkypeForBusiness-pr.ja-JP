@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されたデバッグ ログ、メディア ログ、デスクトップ ログ、ログが見つかる場所、および監視とトラブルシューティングに役立つ方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58460390d9562d77ed6a4e3dfcbb3948cbe2749e
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: a18dbef0441055c1202c2b77ce4f8af87040e561
+ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337744"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52689695"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>ログ ファイルを使用して、ログの監視とトラブルシューティングを行Microsoft Teams
 
@@ -33,14 +33,29 @@ ms.locfileid: "52337744"
 
 -   [デスクトップ ログ](#desktop-logs)
 
-この記事では、3 つのログと、その使い方について説明します。 
-
-特定の問題のトラブルシューティングについては、「トラブルシューティング」を参照[Teamsしてください](/MicrosoftTeams/troubleshoot/teams)。 サポートに連絡する方法については、「サポートを受け取る [」を参照してください](/microsoft-365/business-video/get-help-support)。
-
-Microsoft サポートでサポート要求を作成する場合、サポート エンジニアはデバッグ ログを必要とします。 サポート要求を作成する前にデバッグ ログを用意すると、Microsoft が問題のトラブルシューティングをすぐに開始できます。 **メディア** ログまたは **デスクトップ ログ** は、Microsoft から要求された場合にのみ必要です。
+この記事では、これらのログとログの使い方について説明します。 特定の問題のトラブルシューティングについては、「トラブルシューティング」を参照[Teamsしてください](/MicrosoftTeams/troubleshoot/teams)。 サポートに連絡する方法については、「サポートを受け取る [」を参照してください](/microsoft-365/business-video/get-help-support)。 Microsoft サポートでサポート要求を作成する場合、サポート エンジニアはデバッグ ログを必要とします。 サポート要求を作成する前にデバッグ ログを用意すると、Microsoft が問題のトラブルシューティングをすぐに開始できます。 **メディア** ログまたは **デスクトップ ログ** は、Microsoft から要求された場合にのみ必要です。
 
 > [!NOTE]
 > この記事では、デバッグ ログ **という用語は** 、トラブルシューティングに使用されるログを指します。 ただし、これらのログに対して生成されるファイルには、診断ログという用語 **が** 名前に含まれます。  
+
+## <a name="collect-and-enable-logging"></a>ログを収集して有効にする
+
+問題が発生するとすぐにログを収集することが重要です。 ログは、2 回のクリックだけで収集できます。
+
+Windows: システム トレイの [Teams] アイコンを右クリックし、[サポート ファイルの収集 **] を選択します**。 
+
+Mac: [ヘルプ] メニューを選択し、[サポート ファイルの収集 **] を選択します**。
+
+デバッグ ログ、デスクトップ ログ、およびメディア ログは、MSTeams Diagnostics Log という名前の 1 つのフォルダーに収集されます <local data and time> 。 このフォルダーは、Microsoft サポートでサポート要求を開く際に圧縮および共有できます。 フォルダーには、デスクトップ、会議 (メディア)、デバッグ (Web) のフォルダーが含まれます。 次のキーボード ショートカットを使用して、ファイルを収集できます。
+
+Windows: Crtl + Alt + Shift + 1
+
+Mac: Option + Command + Shift + 1
+
+メディア ログは既定でオフになっています。 メディア ログを有効にするには、ユーザーはクライアントでオプションを有効Teamsがあります。 [全般]**設定**  >  **に移動** し、[会議の診断のログ記録を有効にする **] を選択します (Teams)。** ログTeamsを開始するには、クライアントを再起動する必要があります。
+
+> [!NOTE]
+> メディア のログ記録が有効になっている場合は、オーディオとビデオの問題を調査するために必要な追加のファイルが [会議] フォルダーに含まれます。 メディア ログが有効になっていない場合、使用できるログの数は限られています。
 
 次の表は、さまざまなクライアントとその関連ログの概要を示しています。 ログ ファイルは、クライアントとオペレーティング システムに固有の場所に格納されます。
 
@@ -58,7 +73,7 @@ Microsoft サポートでサポート要求を作成する場合、サポート 
 
 ## <a name="debug-logs"></a>デバッグ ログ
 
-これらは最も一般的なログであり、すべての Microsoft サポート ケースで必要です。 デバッグ ログは、Windows Mac デスクトップ クライアントとブラウザー ベースのクライアントによって生成されます。 ログはテキスト ベースであり、ボトムアップから読み取されます。 任意のテキスト ベースのエディターを使用して読み取り、クライアントにログインするときに新しいログが作成されます。
+詳細については _、「ログ記録の収集と有効化_」セクションWindows Mac の手順を参照してください。 デバッグ ログは、Windows Mac デスクトップ クライアントとブラウザー ベースのクライアントによって生成されます。 ログはテキスト ベースであり、ボトムアップから読み取りされます。 任意のテキスト ベースのエディターを使用して読み取り、クライアントにログインするときに新しいログが作成されます。
 
 デバッグ ログには次のデータ フローが表示されます。
 
@@ -68,47 +83,19 @@ Microsoft サポートでサポート要求を作成する場合、サポート 
 
 -   通話/会話
 
-デバッグ ログは、次の OS 固有の方法を使用して生成されます。
+Linux のログを収集するには:キーボード ショートカット: Ctrl + Alt + Shift + 1 ファイルは ~/Downloads で使用できます
 
--   Windows:
-
-      キーボード ショートカット: Ctrl + Alt + Shift + 1
-
--   Mac OSX:
-
-      キーボード ショートカット: Option + Command + Shift + 1
-
--   Linux:
-
-      キーボード ショートカット: Ctrl + Alt + Shift + 1
-
-デバッグ ログは、次のフォルダーに自動的にダウンロードされます。
-
--   Windows: %userprofile%\\Downloads
-
--   Mac OSX: ~/Downloads
-
--   Linux: ~/Downloads
-
--   ブラウザー: 既定の保存場所にデバッグ ログを保存するように求められます
+ブラウザーのログを収集するには:キーボード ショートカット: Crtl + Alt + Shift + 1 ファイルは %userprofile%\Downloads で使用できます。
 
 ## <a name="media-logs"></a>メディア ログ
 
-メディア ログには、音声、ビデオ、画面の共有に関する診断データがTeamsされます。 これらは、通話関連の問題にリンクされているサポート ケースに必要です。
+詳細については _、「ログ記録の収集と有効化_」セクションWindows Mac の手順を参照してください。 メディア ログには、音声、ビデオ、画面の共有に関する診断データがTeamsされます。 これらは、通話関連の問題にリンクされているサポート ケースに必要です。
 
 メディア ログは既定でオフになっています。 会議の診断データをTeamsするには、ユーザーがクライアントでオプションを有効Teamsがあります。 [全般 **設定** に移動し、[会議の診断のログ記録を有効にする (Teams を再起動する必要があります) チェック ボックスをオンにし、Teams を再起動して、問題を  >  再現します。 
 
-次の表に、メディア ログの場所の概要を示します。 ログ ファイルを Microsoft サポートに送信する場合は、ログ ファイルのタイムスタンプを確認して、問題を再現した時間をログで確実にカバーしてください。
+ログ ファイルを Microsoft サポートに送信する場合は、ログ ファイルのタイムスタンプを確認して、問題を再現した時間をログで確実にカバーしてください。
 
-|クライアント |場所 |
-|---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack \\ *.blog         |
-|            |%appdata%\Microsoft\Teams\skylib \\ *.blog
-|            |%appdata%\Microsoft\Teams\media-stack \\ *.etl         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack/*.blog         |
-|            |~/Library/Application Support/Microsoft/Teams/skylib/*.blog         |
-|Linux       |~/.config/Microsoft/Microsoft Teams/media-stack/*.blog         |
-|            |~/.config/Microsoft/Microsoft Teams/skylib/*.blog         |
+Linux のログを収集するには:ファイルは ~/.config/Microsoft/Microsoft Teams/media-stack/ .blog および *~/.config/Microsoft/Microsoft Teams/skylib/*.blog で使用できます。
 
 生成されるログ ファイルとログ ファイルに含まれる情報の一覧を次に示します。
 
@@ -122,25 +109,10 @@ Microsoft サポートでサポート要求を作成する場合、サポート 
 
 ## <a name="desktop-logs"></a>デスクトップ ログ
 
-デスクトップ ログ (ブートストラップ ログとも呼ばれる) には、デスクトップ クライアントとブラウザーの間で発生するログ データが含まれます。 メディア ログと同様に、これらのログは Microsoft から要求された場合にのみ必要です。 ログはテキスト ベースであり、トップダウン形式の任意のテキスト ベースのエディターを使用して読み取り可能です。
+詳細については _、「ログ記録の収集と有効化_」セクションWindows Mac の手順を参照してください。 デスクトップ ログ (ブートストラップ ログとも呼ばれる) には、デスクトップ クライアントとブラウザーの間で発生するログ データが含まれます。 メディア ログと同様に、これらのログは Microsoft から要求された場合にのみ必要です。 ログはテキスト ベースであり、トップダウン形式の任意のテキスト ベースのエディターを使用して読み取り可能です。
 
-Windows:
-
- - システム トレイの **[Microsoft Teams]** アイコンを右クリックし、[ログの取得]**を選択します**。
-
-Mac OsX:
-
- - [ヘルプ **] プルダウン メニュー** から **[ログの** 取得] を選択します。
-
-Linux:
-
- - システム トレイの **[Microsoft Teams]** アイコンをクリックし、[ログの取得]**を選択します**。
-
-|クライアント |場所 |
-|---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |
-|Linux       |~/.config/Microsoft/Microsoft Teams/logs.txt         |
+Linux のログを収集するには:システム トレイの [Microsoft Teams] アイコンをクリックし、[ログの取得]**を選択します**。
+ファイルは ~/.config/Microsoft/Microsoft Teams/logs.txt で使用logs.txt。  
 
 
 ## <a name="browser-trace"></a>ブラウザートレース
@@ -162,6 +134,6 @@ Linux:
 > [!NOTE]
 > この手順では、Azure portal へのすべての参照を、新しいクライアントTeamsします。 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

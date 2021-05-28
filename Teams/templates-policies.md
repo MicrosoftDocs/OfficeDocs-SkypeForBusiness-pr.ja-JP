@@ -1,5 +1,5 @@
 ---
-title: 管理Teamsテンプレートを管理する
+title: 管理センターでチーム テンプレートを管理する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 管理センターでTeamsテンプレートを管理する方法について説明します
-ms.openlocfilehash: db28d1fa3c84210c3f1e2d80e74a59252f922258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 管理センターでチーム テンプレートを管理する方法について説明します
+ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093927"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684584"
 ---
-# <a name="manage-teams-templates-in-the-admin-center"></a>管理Teamsテンプレートを管理する
+# <a name="manage-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートを管理する
 
-管理センター Teamsポリシーを作成して、エンド ユーザーに表示されるテンプレートを管理します。 各テンプレート ポリシー内で、どのテンプレートを表示または非表示にするか指定できます。
-異なるユーザーを異なるテンプレート ポリシーに割り当てると、指定したテンプレートのサブセットTeams表示されます。
+管理センターでテンプレート ポリシーを作成して、エンド ユーザーに表示されるチーム テンプレートを管理します。 各テンプレート ポリシー内で、どのテンプレートを表示または非表示にするか指定できます。
+ユーザーが指定したチーム テンプレートのサブセットのみを表示するために、異なるユーザーを異なるテンプレート ポリシーに割り当てる。
 
 テンプレート ポリシーを管理する方法については、この短いビデオをご覧ください。
 
@@ -119,7 +119,7 @@ A: はい。
 A: 管理センターで、次の方法を実行します。
 
 1. [ユーザー] **セクションに移動** します。
-2. [ユーザー] リスト テーブルでフィルターを選択し、Teams テンプレート ポリシーをフィルター処理します。
+2. [ユーザー] リスト テーブルでフィルターを選択し、チーム テンプレート ポリシーをフィルター処理します。
 3. **[適用]** を選択します。
 
 ![選択したテンプレート ポリシーとユーザーの表示](media/template-policies-5.png)
@@ -132,7 +132,7 @@ A: いいえ、PowerShell でのテンプレートの管理はサポートされ
 
 A: いいえ、EDU のテンプレート ポリシーはサポートされていません。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [管理センターでチーム テンプレートの使用を開始する](./get-started-with-teams-templates-in-the-admin-console.md)
 

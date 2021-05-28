@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Teams 管理者向けの患者アプリの詳細
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 92bc7581610abf1dc8baab17d2e9d23abb6c6fd3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
-ms.translationtype: HT
+ms.openlocfilehash: 2302f117564e1dd00a6f238ca23a8e36c63ae554
+ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803505"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52697844"
 ---
 # <a name="patients-app-overview"></a>患者アプリの概要
 
@@ -45,7 +45,7 @@ ms.locfileid: "48803505"
 
 ## <a name="configure-patients-app"></a>患者アプリを構成する
 
-EMR モードの患者アプリを使用するために環境を準備する方法については、「[電子医療記録を Microsoft Teams に統合する](patients-app.md)」を参照してください。 また、組織で患者アプリを有効にするには、「[Microsoft Teams のアプリのセットアップ ポリシーを管理する](../../teams-app-setup-policies.md)」を参照する必要があります。
+組織[で Patients アプリを有効にするには、「Microsoft Teams](../../teams-app-setup-policies.md)のアプリ セットアップ ポリシーの管理」を参照してください。
 
 エンド ユーザーが患者アプリにアクセスして、所有または管理するチームにインストールする方法については、「[Microsoft Teams 患者アプリの使用を開始する](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)」を参照してください。
 
@@ -74,6 +74,3 @@ EMR モードの患者アプリを使用するために環境を準備する方�
 
 はい、あります。 Microsoft Teams ユーザーが患者アプリで実行するすべての UI アクションは監査され、セキュリティ/コンプライアンス センターで利用できます。 詳細は、「[患者アプリの監査ログ](patients-audit.md)」で説明されています。
 
-## <a name="related-topics"></a>関連項目
-
-[電子医療記録を Microsoft Teams に統合する](patients-app.md)

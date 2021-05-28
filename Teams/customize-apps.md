@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: アプリをカスタマイズする方法については、Microsoft Teams。
-ms.openlocfilehash: a43272c19c00079b5a0f0299a5630ca6e6ec78e5
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337804"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684594"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>アプリをカスタマイズMicrosoft Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "52337804"
 - アウトライン アイコン
 - アクセント カラー
 
-カスタマイズできる[Teamsの詳細については](https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema)、マニフェスト スキーマに関するページを参照してください。
+カスタマイズできる[Teamsの詳細については](/microsoftteams/platform/resources/schema/manifest-schema)、マニフェスト スキーマに関するページを参照してください。
 
 > [!NOTE]
 > 現時点では、Government Community Cloud High (GCCH) または国防総省 (DoD) では、アプリのカスタマイズはサポートされていません。
@@ -173,3 +173,4 @@ ms.locfileid: "52337804"
 
 - [アプリを管理する](manage-apps.md)
 - [アプリ ストアをカスタマイズする](customize-your-app-store.md)
+- [アプリのブランドを変更する](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)

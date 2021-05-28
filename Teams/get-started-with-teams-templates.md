@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams を使用してテンプレートの使用を開始Graph
+title: Microsoft Graph を使用してチーム テンプレートの使用を開始する
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Microsoft Graph の Teams テンプレートを使用して、さまざまなトピックのチャネルを含むコラボレーション スペースを作成し、コンテンツとサービスを提供するアプリをプレインストールする方法について説明します。
+description: Microsoft Graph でチーム テンプレートを使用して、さまざまなトピックのチャネルを含むコラボレーション スペースを作成し、コンテンツとサービスを提供するアプリをプレインストールする方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,19 +19,19 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 898adc4b67124fb6244afde2ecc156996e5a38c4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fdee4dc55d0922796e66ece87b535b953ecf1580
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120708"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684544"
 ---
-# <a name="get-started-with-teams-templates-using-microsoft-graph"></a>Microsoft Teams を使用してテンプレートの使用を開始Graph
+# <a name="get-started-with-team-templates-using-microsoft-graph"></a>Microsoft Graph を使用してチーム テンプレートの使用を開始する
 
 > [!NOTE]
-> Teamsテンプレートでは、現在、プライベート チャネルの作成はサポートされていません。 プライベート チャネルの作成は、テンプレート定義には含まれません。
+> チーム テンプレートは現在、プライベート チャネルの作成をサポートされていません。 プライベート チャネルの作成は、テンプレート定義には含まれません。
 
-Teamsテンプレートは、ビジネスの必要性やプロジェクトを中心に設計されたチームの構造を事前に構築した定義です。 管理コンソール [で独自のテンプレートを作成できます](get-started-with-teams-templates-in-the-admin-console.md)。 Microsoft Graphでは、事前構築済みのテンプレート を使用します。 Teams テンプレートを使用すると、さまざまなトピックのチャネルを含む豊富なコラボレーション スペースをすばやく作成し、ミッション クリティカルなコンテンツとサービスを取り込むアプリをプレインストールできます。 Teamsテンプレートは、組織全体で一貫性のあるチームを簡単に作成するのに役立つ定義済みのチーム構造を提供します。
+チーム テンプレートは、ビジネス の必要性やプロジェクトを中心に設計されたチームの構造を事前に構築した定義です。 管理コンソール [で独自のテンプレートを作成できます](get-started-with-teams-templates-in-the-admin-console.md)。 Microsoft Graphでは、事前構築済みのテンプレート を使用します。 チーム テンプレートを使用すると、さまざまなトピックのチャネルを含む豊富なコラボレーション スペースをすばやく作成し、ミッション クリティカルなコンテンツとサービスを取り込むアプリをプレインストールできます。 チーム テンプレートは、組織全体で一貫性のあるチームを簡単に作成するのに役立つ定義済みのチーム構造を提供します。
 
 この記事では、テンプレートで定義できるプロパティ、基本テンプレートの種類、いくつかのサンプル要求を使用してテンプレートからチームを作成する方法について説明します。
 
@@ -40,11 +40,11 @@ Teamsテンプレートは、ビジネスの必要性やプロジェクトを中
 - 組織全体で複数のチームの計画、デプロイ、管理を担当する<br>
 - 定義済みのチャネルとアプリを含むチームをプログラムで作成する必要のある開発者
 
-## <a name="teams-template-capabilities"></a>Teamsテンプレートの機能
+## <a name="team-template-capabilities"></a>チーム テンプレートの機能
 
-チーム内のほとんどのプロパティは、テンプレートに含まれてサポートされています。 ただし、現在サポートされていないいくつかのプロパティと機能があります。 次の表は、テンプレートに含まれるものと、テンプレートに含まれていないものについて簡単にTeamsします。
+チーム内のほとんどのプロパティは、テンプレートに含まれてサポートされています。 ただし、現在サポートされていないいくつかのプロパティと機能があります。 次の表は、チーム テンプレートに含まれているものと含まれていないものについて簡単に説明しています。
 
-| **新しいテンプレートでサポートされるチームTeamsプロパティ** | **チームのプロパティは、テンプレートでまだTeamsされていません** |
+| **チーム テンプレートでサポートされるチームのプロパティ** | **チーム テンプレートでまだサポートされていないチームプロパティ** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | 基本テンプレートの種類 | チーム メンバーシップ |
 | チーム名 | チームの画像 |
@@ -60,7 +60,7 @@ Teamsテンプレートは、ビジネスの必要性やプロジェクトを中
 
 ## <a name="what-are-base-template-types"></a>基本テンプレートの種類
 
-基本テンプレートの種類は、Microsoft が特定の業界向けに作成した特別なテンプレートです。 これらの基本テンプレートには、多くの場合、ストアで使用できない独自のアプリが含まれている場合があります。 さらに、基本テンプレートには、多くの場合、チーム のプロパティが含まれているが、これらのテンプレートで個別にサポートTeams。 Microsoft Graph で[チーム テンプレートを使用する方法について説明します](get-started-with-teams-templates.md)。
+基本テンプレートの種類は、Microsoft が特定の業界向けに作成した特別なテンプレートです。 これらの基本テンプレートには、多くの場合、ストアで使用できない独自のアプリが含まれている場合があります。 さらに、ベース テンプレートには、チーム テンプレートで個別にサポートされていないチーム プロパティが含まれる場合があります。 Microsoft Graph で[チーム テンプレートを使用する方法について説明します](get-started-with-teams-templates.md)。
 
 基本テンプレートの種類を定義したら、指定する追加のプロパティを使用して、これらの特別なテンプレートを拡張またはオーバーライドできます。 一部の基本テンプレートの種類には、オーバーライドできないプロパティが含まれている場合があります。
 
@@ -99,11 +99,11 @@ Teamsテンプレートは、ビジネスの必要性やプロジェクトを中
 |小売業 - マネージャー コラボレーション| `retailManagerCollaboration` |チャネル: <ul><li>全般<li>操作</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li></ul>|
 ||||
 
-詳細[については、「管理センター Teamsテンプレートの使用](get-started-with-teams-templates-in-the-admin-console.md)」を参照してください。
+詳細 [については、「管理センターでチーム テンプレートの使用を開始する」](get-started-with-teams-templates-in-the-admin-console.md) を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-- [管理コンソールでTeamsテンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
+- [管理コンソールでチーム テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
 - [チームを作成](/graph/api/team-post?view=graph-rest-beta) する (プレビュー中)
 - [New-Team](/powershell/module/teams/New-Team?view=teams-ps)
 - [Microsoft Teams の管理者トレーニング](itadmin-readiness.md)

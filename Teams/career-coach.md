@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2a5bc0f459bb9e7dac8878a5ad75911ba4b1b82
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
+ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628906"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "52684574"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>キャリア コーチを購入、構成、有効化Microsoft Teams
 
@@ -69,7 +69,7 @@ ms.locfileid: "52628906"
 
 ### <a name="assign-app-licenses-to-users"></a>ユーザーにアプリ ライセンスを割り当てる
 
-詳細な手順については、「ユーザーにライセンスを割り当 [てる」を参照してください](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)。
+詳細な手順については、「ユーザーにライセンスを割り当 [てる」を参照してください](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 ### <a name="turn-on-linkedin-account-connections"></a>LinkedIn アカウント接続を有効にする
 
@@ -303,7 +303,7 @@ LinkedIn 構成は、キャリア コーチと LinkedIn の一般の同窓生デ
 > [!NOTE]
 > キャリア コーチがピン留めMicrosoft Teams学生に通知されます。
 
-詳細については [、「Microsoft でアプリセットアップ ポリシーを管理](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies) する」を参照してください。
+詳細については [、「Microsoft でアプリセットアップ ポリシーを管理](/microsoftteams/teams-app-setup-policies) する」を参照してください。
 
 ## <a name="resources"></a>リソース
 
