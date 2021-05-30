@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) が認定を受けたMicrosoft Teams。
-ms.openlocfilehash: 5aef6dd4179724c6964efeacbd03b9ec4c1b4456
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: 6ff7a0678f7b68796f5236b44760ba92d2612a37
+ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569224"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705231"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB オーディオ デバイスとビデオ デバイスは、Microsoft Teams
 
@@ -78,6 +78,7 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|NEC                  |WD551 Windows コラボレーション ディスプレイ                        |5/21/2021       |認定Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |認定Microsoft Teams                           |
 |Poly                 |Studio P5 Webcam                                           |4/22/2021       |認定Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype for Businessへのアップグレードを使用Microsoft Teams      |

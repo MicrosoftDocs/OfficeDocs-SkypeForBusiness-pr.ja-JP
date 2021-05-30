@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684574"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699358"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>キャリア コーチを購入、構成、有効化Microsoft Teams
 
@@ -184,9 +184,6 @@ LinkedIn 構成は、キャリア コーチと LinkedIn の一般の同窓生デ
 
 コース カタログを作成するには、教育機関で教えられたすべてのコースの一覧をまとめ、CSV ファイルとしてアップロードします。 アプリは、トランスクリプトから学生のスキルを識別し、受講するコースを提案するために、コース カタログから描画します。 
 
-> [!NOTE]
-> 学生[情報の保護については、「Teams](location-of-data-in-teams.md)[のデータ](security-compliance-overview.md)の場所」と「セキュリティとコンプライアンス」を参照してください。 
-
 ##### <a name="course-catalog-documents-formatting-and-schema"></a>コース カタログ ドキュメントの書式設定とスキーマ
 
 ドキュメントは、最大サイズが 18 MB の CSV 形式である必要があります。 ドキュメントには、必須フィールドのコース **タイトル**、 **コース ID、** およびコース URL が **含まれている必要があります**。 推奨されるフィールドを含め、より良い検索結果とスキルの識別を返して、学生のエクスペリエンスを向上します。
@@ -317,13 +314,9 @@ LinkedIn 構成は、キャリア コーチと LinkedIn の一般の同窓生デ
 
 - [管理センターでのMicrosoft Teamsの管理](manage-apps.md)
 
-- [セキュリティ、プライバシー、コンプライアンスに関するMicrosoft Teams](security-compliance-overview.md)
-
 - [オンライン仮想向きキット](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
 
 - [チャネルの制限Teams仕様](limits-specifications-teams.md)
-
-- [Microsoft Teams のデータの場所](location-of-data-in-teams.md)
 
 - [管理者向けトレーニングのMicrosoft Teams](ITAdmin-readiness.md)
 
