@@ -20,12 +20,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: fbacbc4e17d08ae8e5e3a86338f764976ac34b4d
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637859"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699338"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -85,7 +85,7 @@ Teams ライブ イベントを整理、作成または発表するために割�
 2. ユーザーにゲストの招待を承諾してチームに参加してもらいます。
 3. [ライブイベントをスケジュールし、ゲストをイベントグループに追加します](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-ベストプラクティスとして、ライブイベントのプロデューサーと発表者がイベントの前にチャットして情報を共有できるように、チャネルを作成することをお勧めします。 Microsoft 365 の資格情報を持たないゲストには、Teams の予定表は表示されません。 簡単にイベントに参加できるように、プロデューサーはイベントリンクをチャネルに投稿できます。 発表者は、Teams を開いてチャネルに移動し、リンクを選択してイベントに参加できます。
+ベスト プラクティスとして、ライブ イベントのプロデューサーと発表者がイベントの前にチャットして情報を共有できるように、チャネルを作成することをお勧めします。Microsoft 365 の資格情報を持たないゲストには、Teams の予定表は表示されません。簡単にイベントに参加できるように、プロデューサーはイベント リンクをチャネルに投稿できます。発表者は、Teams を開いてチャネルに移動し、リンクを選択してイベントに参加できます。
 
 ## <a name="who-can-watch-live-events"></a>ライブ イベントは誰が視聴できるか
 
@@ -106,7 +106,7 @@ Teams ライブ イベントを整理、作成または発表するために割�
 > [!IMPORTANT]
 > **Microsoft 365 ライブ イベントの上限の引き上げ**
 >
-> **お客様のニーズを引き続きサポートするため、2021年6月30日まで、** などのライブ イベントへの一時的な制約を増やします。
+> **お客様のニーズを引き続きサポートするため、2022 年 1 月まで、** などのライブ イベントへの一時的な制約を増やします。
 >
 >- イベントでは、最大2万の出席者をサポートします
 >- テナント全体で 50 のイベントを同時にホストできます

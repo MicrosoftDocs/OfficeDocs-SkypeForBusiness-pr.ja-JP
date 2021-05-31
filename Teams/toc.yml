@@ -307,6 +307,8 @@ items:
             href: policy-control-diagnostic-data-desktop.md
           - name: オプションの接続エクスペリエンス
             href: teams-privacy-oce-overview.md
+          - name: オペレーター 接続 データ 転送
+            href: operator-connect-data-transfer.md
   - name: Teams を管理および監視する
     items:
       - name: 概要
@@ -957,6 +959,12 @@ items:
                 href: manage-voice-routing-policies.md
               - name: 存続可能ダイレクト ルーティングの接続
                 href: direct-routing-survivable-branch-appliance.md
+      - name: オペレーター 接続
+        items:
+          - name: オペレーター 接続 プラン
+            href: operator-connect-plan.md
+          - name: オペレーター 接続を構成する
+            href: operator-connect-configure.md
       - name: 電話番号
         items:
           - name: 組織のために電話番号を管理する
@@ -1390,6 +1398,8 @@ items:
             items:
               - name: Teamsでの仮想アクセス - EHR への統合
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: EHR 管理者レポート
+                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: 予約と Teams による仮想訪問
                 href: bookings-app-admin.md
           - name: ポリシー パッケージの表示と割り当て
