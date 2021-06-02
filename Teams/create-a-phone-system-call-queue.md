@@ -24,19 +24,19 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Microsoft Teams で大規模な組織の通話キューを設定する方法について説明します。この機能は、あいさつメッセージ、保留音楽、通話リダイレクト、その他の機能を提供します。
-ms.openlocfilehash: 926e3903f0ee59271d0b4806cf61ad02a6f52088
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 73b0e0c6c73b86e544ade5a43756e2e80c60c25a
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628936"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717878"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
 通話キューは、特定の問題や質問に役立つ組織内のユーザーに発信者をルーティングする方法を提供します。 呼び出しは、キュー内のユーザー (エージェントと呼ばれる) に一度に 1 回 *配布されます*。 
 
 > [!TIP]
-> この記事は大規模な組織です。 組織が小規模企業の場合は、「通話キューの作成 - 代わりに小規模ビジネス向け [チュートリアル」を](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) 参照してください。
+> この記事は大規模な組織向けです。 組織が小規模企業の場合は、「通話キューの作成 - 代わりに小規模ビジネス向け [チュートリアル」を](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb) 参照してください。
 
 呼び出しキューには、次の機能があります。
 

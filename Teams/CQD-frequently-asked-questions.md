@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) に関してよく寄せられる質問 (FAQ) Microsoft Teams回答を参照してください。
-ms.openlocfilehash: 3b527b32e194b531be5003c5f8b180a00976cf8e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad718df893b69b333dd63d224663238879fda8c7
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111533"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718008"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)
 
@@ -44,6 +44,8 @@ ms.locfileid: "51111533"
 
 [追加のエントリが必要とわかっているのに、カスタム レポートで返される行数が最大 10,000 行になる理由](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
+[WiFi VPN 接続が WiFi ではなく有線として表示される理由](#why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi)
+
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>1 人または複数の会議参加者の経験が低い場合、CQD が通話を "良好" とマークする理由
 
 CQD がストリーム分類に使用する規則 [を確認してください](stream-classification-in-call-quality-dashboard.md)。
@@ -57,7 +59,7 @@ CQD がストリーム分類に使用する規則 [を確認してください](
 ネットワーク メトリックが平均値と最大値で良好に見える場合は、他のテレメトリ データを確認します。 
 - [CPU Insufficient Event Ratio]をオンにし、検出された使用可能な CPU リソースが不十分で、低品質の原因になっているか確認します。 
 - スピーカーに近いマイクによるフィードバックを防ぐために、オーディオ デバイスは半二重モードでしたか? 
-- デバイスの半分の両面 AEC イベントの比率を確認します。 ハブまたはドッキング ステーションに接続すると、USB オーディオドロップアウトが原因で、デバイスのグリンクまたはマイクのグリンクによってノイズまたは静的が発生しました。  
+- デバイスの半分の両面 AEC イベントの比率を確認します。 ハブまたはドッキング ステーションに接続すると、USB オーディオドロップアウトが原因で、デバイスのグリンクまたはマイクのグリンクによってノイズや静的が発生しましたか?  
 - デバイスの不具合とマイクの不具合イベントの比率を確認します。 デバイス自体が正しく機能していますか?  
 - Capture デバイスと Render Device Not Functioning Event Ratios を確認します。
 
@@ -101,7 +103,7 @@ CQDv2 と CQDv3 の合計カウントは常に異なります。CQDv3 には、C
 
 顧客のシナリオに応じて、CQDv3 には SFB 2019 オンプレミス呼び出し (SFB 2019 がデータ コネクタで使用されている場合)、Skype ボット呼び出し (AA、CVI、VDI)、ライブ イベント、PSTN 通話が含まれます。 顧客が利用できるが、データが CQD V2 内にはないシナリオ/機能。
 
-たとえば、顧客と 200,000 のオーディオ ストリームが表示され、CQD V2 サマリー レポートで 5000 エラーが発生すると想定されます。CQD V3 では、300,000 オーディオ ストリームに対して 5,500 エラー (2019 年のオンプレム通話、CVI 呼び出し、PSTN 通話などから発生) が発生します。
+たとえば、顧客と 200,000 のオーディオ ストリームが表示され、CQD V2 サマリー レポートで 5000 エラーが発生すると想定されます。CQD V3 では、300,000 のオーディオ ストリームと 5500 の障害 (2019 年のオンプレム通話、CVI 呼び出し、PSTN 通話など) が発生します。
 
 予期しない違いがある場合は、データ全体のさまざまな内訳を確認する必要があります。  意図と比較します。  ユーザー エージェント カテゴリ ペアによるデータのスライスは、最初に推奨される項目の 1 つです。  *First Product と* *Second Product* も優れたスライサーです。  
 
@@ -109,7 +111,11 @@ CQDv2 と CQDv3 の合計カウントは常に異なります。CQDv3 には、C
 
 CQD は集計されたデータ クエリ用に設計され、データエクスポート用には設計されません。 可能であれば、10,000 行の制限を超えないように、レポートを再構築することをお勧めします。 まず、月、年、日付、地域、国など、より広範なカーディナリティディメンションを使用して KPI を確認します。そこから、より高いカーディナリティ ディメンションにドリルダウンできます。 ヘルプデスクレポートとLocation-Enhancedレポートはどちらも、このドリルダウン ワークフローの優れた例を提供します。
 
-## <a name="related-topics"></a>関連トピック
+### <a name="why-do-wifi-vpn-connections-show-as-wired-instead-of-wifi"></a>WiFi VPN 接続が WiFi ではなく有線として表示される理由
+
+これは予期されることです。 VPN ベンダーは、有線接続として扱われる仮想イーサネット アダプターを作成しました。 正しくラベル付けされていないので、オペレーティング システムは WiFi 接続を知らないので、有線として報告します。
+
+## <a name="related-topics"></a>関連項目
 
 [Teams の通話品質の向上と監視](monitor-call-quality-qos.md)
 

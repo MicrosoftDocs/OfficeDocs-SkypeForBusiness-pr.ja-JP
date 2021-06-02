@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a24de985b601b1d84250863e06fed90a77699483
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 39150cc5ff6a64c17bad660b4df4b74610399cd1
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656080"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717738"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -182,6 +182,11 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
         このプロセスは既定のインストールで、Teams は %AppData% ユーザー フォルダーにインストールされます。 この時点で、ゴールデン イメージのセットアップは完了です。 非永続的なセットアップでのユーザーごとのインストールでは、Teams は適切に動作しません。
 
     - マシンごとのインストール
+
+        ```console
+        reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
+        ```
+        このプロセスにより、必要なレジストリ キーがマシンに追加され、Teams VDI インスタンスがマシンに表示されます。  インストールしない場合、インストーラーは次のエラーを返します。"インストールに失敗しました。  VDI 環境が検出されない場合は、すべてのユーザーにインストールできません。"
 
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1

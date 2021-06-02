@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 013cd992619264f875841b1b6bb13aca3943d14e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f2e7ccaac78cd7e96581dc1d9371fc9eef096265
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092451"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717978"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams Export API を使用してコンテンツをエクスポートする
 
@@ -73,8 +73,9 @@ Teamsエクスポート API を使用すると、1 対 1、グループ チャ�
 - Microsoft Teams機密データにアクセスGraphする Microsoft Graph API は、保護された API と見なされます。 エクスポート API を使用するには、アクセス許可と同意以外の追加の検証が必要です。 これらの保護された API へのアクセスを要求するには、要求フォーム に [入力します](https://aka.ms/teamsgraph/requestaccess)。
 - アプリケーションのアクセス許可は、サインインしているユーザーが存在しない場合に実行されるアプリで使用されます。アプリケーションのアクセス許可は、管理者だけが同意できます。 次のアクセス許可が必要です。
 
-    - *Chat.Read.All*: すべての 1:1 およびグループ チャット メッセージへのアクセスを有効にする 
-    - *User.Read.All*: テナントのユーザーの一覧へのアクセスを有効にします。 
+    - *Chat.Read.All*: すべての 1:1、グループ チャット、および会議チャット メッセージへのアクセスを有効にする 
+    - *ChannelMessage.Read.All*: すべてのチャネル メッセージへのアクセスを有効にする  
+    - *User.Read.All*: テナントのユーザーの一覧へのアクセスを有効にします。
 
 ## <a name="json-representation"></a>JSON 表現
 

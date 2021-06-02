@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 最適なメディア パスを選択できるよう、ダイレクト ルーティングのメディア パス国コードを見つけるには、この記事を参照してください。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648126"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717998"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>ダイレクト ルーティング メディア パスの国コード
 
@@ -37,7 +37,7 @@ Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com –MediaRelayRoutingLocationO
 Microsoft では、通話ログがメディア パスに対するデータセンターの既定の割り当てが SBC データセンターに最も近いパスを使用していないと明確に示している場合にのみ、このパラメーターの設定をお勧めします。 
 
 > [!NOTE]
-> -MediaRelayRoutingLocationOverride - このコマンドは、直接ルーティング シナリオでは使用できません。
+> MediaRelayRoutingLocationOverride パラメーターは、管理対象の通信事業者で使用するために予約されています。
  
 ## <a name="country-code-reference-table"></a>国コードリファレンス テーブル
 
@@ -297,4 +297,3 @@ Microsoft では、通話ログがメディア パスに対するデータセン
 | イエメン           | YE |
 | ザンビア          | ZM |
 | ジンバブエ        | ZW |
-

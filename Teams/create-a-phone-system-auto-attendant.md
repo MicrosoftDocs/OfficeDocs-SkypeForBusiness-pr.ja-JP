@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 大規模な組織の自動応答を設定してテストする方法についてMicrosoft Teams。
-ms.openlocfilehash: 270a2e613e387b797cb70914ad400da80b15b1ca
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 52a9636a6a92656293e90d00563be16b500ee4ce
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628946"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717868"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
 自動応答を使用すると、ユーザーが組織に電話をかけ、メニュー システム内を移動して、適切な部署、通話キュー、ユーザー、またはオペレーターと話し合います。 組織の自動応答は、管理者センターまたは PowerShell Microsoft Teamsして作成できます。
 
 > [!TIP]
-> この記事は大規模な組織です。 組織が小規模な企業の場合は、「自動応答の設定 - 代わりに小規模ビジネス向けチュートリアル [」を](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 参照してください。
+> この記事は大規模な組織向けです。 組織が小規模企業の場合は、「自動応答の設定 - 代わりに小規模ビジネス向け [チュートリアル」を](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 参照してください。
 
 この記事の手順に従う前に[、「Teams](plan-auto-attendant-call-queue.md)自動応答と通話キューの計画」を[](plan-auto-attendant-call-queue.md#getting-started)読み、概要の手順に従ってください。
 
@@ -77,8 +77,8 @@ ms.locfileid: "52628946"
 
 5. 音声入力を有効にする場合に選択します。 有効にすると、すべてのメニュー オプションの名前が音声認識キーワードになります。 たとえば、発信者が "One" と言ってキー 1 にマップされているメニュー オプションを選択したり、"Sales" と言って "Sales" という名前のメニュー オプションを選択したりします。
 
-> [!NOTE]
-> 手順 4 で音声入力をサポートしない言語を選択した場合、このオプションは無効になります。
+   > [!NOTE]
+   > 手順 4 で音声入力をサポートしない言語を選択した場合、このオプションは無効になります。
 
 6. [**次へ**] を選択します。
 

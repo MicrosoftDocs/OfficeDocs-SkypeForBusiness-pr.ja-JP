@@ -17,12 +17,12 @@ description: コネクタにより、頻繁に使用するサービスからコ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e6e65c3462242b82691a292770de684b6c4404b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: df9cdc8bb53ae55acae10b0146655f5e5f3e0346
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684244"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717608"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 365コネクタとカスタム コネクタを使用Microsoft Teams
 
@@ -30,7 +30,10 @@ ms.locfileid: "52684244"
 
 チームのメンバーは誰でも、チームのアクセス許可が許可されている場合に、人気のあるクラウド サービスにコネクタを接続できます。また、すべてのチーム メンバーには、そのサービスからのアクティビティが通知されます。 コネクタは、コネクタを最初にセットアップしたメンバーが離した後でも引き続き機能します。 add\remove アクセス許可を持つチーム メンバーは、他のメンバーによるコネクタのセットアップを変更できます。
 
-Microsoft 365コネクタは、Microsoft Teams グループと Microsoft 365 グループの両方で使用することができるので、すべてのメンバーが同期を取り合い、関連する情報をすばやく受け取りやすくなります。 両方Microsoft TeamsとExchange同じコネクタ モデルを使用します。これにより、両方のプラットフォーム内で同じコネクタを使用できます。 ただし、チームが依存している Microsoft 365 グループのコネクタを無効にすると、そのチーム用のコネクタを作成する機能も無効にされます。
+Microsoft 365コネクタは、Microsoft Teams グループと Microsoft 365 グループの両方で使用することができるので、すべてのメンバーが同期を取り合い、関連する情報をすばやく受信しやすくなります。 両方Microsoft TeamsとExchange同じコネクタ モデルを使用します。これにより、両方のプラットフォーム内で同じコネクタを使用できます。 ただし、チームが依存している Microsoft 365 グループのコネクタを無効にすると、そのチーム用のコネクタを作成する機能も無効にされます。
+
+> [!NOTE]
+> コネクタは、既定では、一部の環境GCC無効になっています。 有効にする必要がある場合は、ConnectorsEnabled または ConnectorsEnabledForTeams パラメーターを [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) コマンドレットを使用$true に設定します。 以前は[、PowerShell に接続Exchange Online必要があります](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)。
 
 > [!NOTE]
 > Government Cloud Community (GCC) 環境では、コネクタは既定で無効になっています。 有効にする必要がある場合は、ConnectorsEnabled または ConnectorsEnabledForTeams パラメーターを [SetOrganizationConfig](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) コマンドレット$trueに設定します。 以前は、PowerShell に接続するExchange Online[必要がありました](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)。

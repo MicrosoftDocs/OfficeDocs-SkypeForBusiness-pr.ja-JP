@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Teams & Skype for Business 間の共存動作 (ルーティング パラメーター、チャット & 呼び出しルーティング、既存のスレッドからの&の呼び出し、& プレゼンスなど)。
-ms.openlocfilehash: 603356df5e6f5006ea67f6a84141acf1347c1235
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f85843e4f6209731ac6146ef757f5f3dc4a88644
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122341"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718028"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -80,7 +80,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 
 | <br/><br/> モード | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 |<br/><br/>Route-->| 受信者 <br/><br/> アイランド  |
 |--- |--- |--- |--- |--- |
-| アイランド | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| オンライン<br/> オンライン<br/> オンプレミス<br/>オンプレミス| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business|
+| アイランド | Teams <br/> Skype for Business<br/> Teams<br/> Skype for Business| オンライン<br/> オンライン<br/> オンプレミス<br/>オンプレミス| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Teams <br/> Skype for Business<br/> **不可**<br/> Skype for Business|
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> オンプレミス<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Teams| オンライン<br/>|&boxv;<br/>|Teams|
 | | | | | |
@@ -98,7 +98,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 
 | <br/><br/> モード   | 発信者 <br/><br/> クライアント | <br/><br/> SfB&nbsp;の所属 |<br/><br/>Route-->|   受信者 <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| アイランド   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| アイランド   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|オンライン<br/> オンライン<br/> オンプレミス<br/> オンプレミス<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>**不可** <br/>*Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | オンライン<br/> オンプレミス<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | オンライン |  &boxv; |Teams   |
 |  |  |  | | |

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5533b6d5c2e08cb79ec8dd2052d761d86546b05
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e5f8df087ca7ad999a9756467925be68c60e96f
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117845"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718058"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Office 365 Government - GCC High デプロイの計画
 
@@ -91,6 +91,3 @@ Office 365 Government - GCC High 環境は、クラウド サービスに関す�
 Office 365 Government – GCC High にオンボードした後は、「Microsoft Teams のロールアウト方法」で説明されている推奨されるデプロイ[パスに従Microsoft Teams。](./deploy-overview.md) 必ず、導入および変更管理チームと新しいTeamsしてください。
 
 [また、FastTrack または選択したパートナーと](https://www.microsoft.com/fasttrack)一緒にサービスをオンボードできます。
-
-> [!NOTE]
-> GCCH Teams Mac クライアントはまだサポートされていません。

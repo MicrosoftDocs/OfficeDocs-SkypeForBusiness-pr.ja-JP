@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 通話の共有とグループ通話の集荷を使用すると、ユーザーが利用できないときに通話をキャプチャできるよう、ユーザーは同僚と着信通話を共有できます。
-ms.openlocfilehash: 88c8d41eb0cf58413df995274bb9accd50b897c9
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: 98094ff0b4b5d7b037915273b2c2730d42517c22
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637829"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717838"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 
@@ -57,7 +57,7 @@ Microsoft Teams の通話共有機能とグループ通話集荷機能を使用�
 
 ## <a name="limitations"></a>制限事項
 
-テナントには、最大 32,768 の呼び出しグループを含めできます。 各呼び出しグループには最大 25 人のユーザーを含めできます。 
+構成された各呼び出しグループには、最大 25 人のユーザーまたは 32,768 文字を含めることができます。 
 
 ## <a name="more-information"></a>詳細情報
 

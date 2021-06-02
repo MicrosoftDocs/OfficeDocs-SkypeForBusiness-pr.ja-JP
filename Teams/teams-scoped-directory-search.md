@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ede4b60878dbdd44edf369b0a3c1bb861ffe366
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1048b6451163cd7b0cdbcd3f52e48c6b0f4811d1
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094027"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717798"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Microsoft Teams の範囲指定ディレクトリ検索を使用する
 
@@ -34,6 +34,8 @@ Microsoft Teams、組織はディレクトリのカスタム ビューをユー�
 
 > [!NOTE]
 > ハイブリッドExchange場合、この機能はオンプレミスのメールボックスではなく、Exchange Online メールボックスでのみ機能します。
+
+「アドレス帳[ポリシー」も参照Exchange Online。](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies)
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>スコープ指定されたディレクトリ検索を使用する必要が生じ
 

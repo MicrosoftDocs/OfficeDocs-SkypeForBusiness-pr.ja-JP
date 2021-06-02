@@ -18,12 +18,12 @@ description: Microsoft 通話プランと直接ルーティングの動的緊急
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2531add2b43b7061b81a23676c54fbc557929c0f
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: 8de3dcbff637a80b871b0f758c8afcd6c7432212
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858010"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718018"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -85,7 +85,7 @@ Microsoft 通話プランと 電話システム ダイレクト ルーティン�
 - Teams ミーティングバージョン 4.4.25.0 以上
 
 > [!NOTE]
-> セキュリティ デスク通知を含む動的緊急通話は、Web クライアントTeamsサポートされていません。 ユーザーが Teams Web クライアントを使用して PSTN 番号を呼び出すのを防ぐには、Teams 通話ポリシーを設定し、[Web PSTN 通話を許可する] 設定 **をオフ** にします。 詳細については、「Teams でのポリシーの呼び出し」[と](teams-calling-policy.md)[「Set-CsTeamsCallingPolicy」を参照してください](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。
+> セキュリティ デスク通知を含む動的緊急通話は、Web クライアントTeamsサポートされていません。 ユーザーが Teams Web クライアントを使用して PSTN 番号を呼び出すのを防ぐには、Teams 通話ポリシーを設定し、[Web PSTN 通話を許可する] 設定 **をオフ** にします。 詳細については、「Teams でのポリシーの呼び出し」[と](teams-calling-policy.md)[「Set-CsTeamsCallingPolicy」を参照してください](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 サブネットと WiFi AP がサポートされています。 イーサネット スイッチ/ポートは、現時点Windows 8.1以降でサポートされています。 
 
 ## <a name="assign-emergency-addresses"></a>緊急対応の住所を割り当てる
 
@@ -231,7 +231,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 | GCCH | デスクトップでTeams可能 |
 | DoD | Pending |
 
- ## <a name="related-topics"></a>関連トピック
+ ## <a name="related-topics"></a>関連項目
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [緊急通話ポリシーを管理する](manage-emergency-calling-policies.md)

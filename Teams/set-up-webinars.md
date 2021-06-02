@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 会議のウェビナー ポリシーを管理するTeamsします。
-ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656050"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718048"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams でのウェビナーのMicrosoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "52656050"
 組織内のユーザーがウェビナーのスケジュールを設定するには、次のコマンドを実行します。
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>ウェビナーに登録できるユーザーを構成する
 
@@ -66,7 +66,7 @@ Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
 **組織内の *ユーザーにのみ* ウェビナーへの登録を許可するには、次のコマンドを実行します。**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 次に、次のコマンドを実行します。
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **匿名ユーザーを含むすべてのユーザーがウェビナーに登録するには、次のコマンドを実行します。**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 次に、次のコマンドを実行します。
