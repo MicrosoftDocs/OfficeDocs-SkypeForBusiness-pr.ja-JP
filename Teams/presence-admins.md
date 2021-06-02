@@ -17,20 +17,22 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 82d9f152dbba345f876ac166bcf6833e53bab799
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768416"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718038"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
 プレゼンスは、Microsoft Teams (および Microsoft 365 または Office 365 全体) のユーザー プロフィールの一部です。 プレゼンスは、ユーザーが現在の連絡可能かどうか、またそのユーザーの状態を他のユーザーに示します。 既定では、組織内で Teams を使用しているすべてのユーザーは、他のユーザーがオンラインの場合、(ほぼリアルタイムで) 確認できます。 モバイルでページを更新すると、Web バージョンとデスクトップ バージョンでプレゼンスがリアルタイムで更新されます。
 
- > [!Note]
+ > [!NOTE]
  > 別のプラットフォームでの Teams のユーザー プロフィールについての詳細は、 [プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)を参照してください。
 
+ > [!NOTE]
+ > Teams はプライバシー設定を尊重しますので、プライバシー モードを有効にしている場合は、あなたの存在が外部のユーザーには表示されません。
 ## <a name="presence-states-in-teams"></a>Teams でのプレゼンス状態
 
 |ユーザーが設定|アプリが設定|
@@ -43,16 +45,17 @@ ms.locfileid: "51768416"
 || ![赤枠の丸は、取り込み中を示す](media/Presence_Busy_OOF.png) 通話中、外出中|
 |  ![白線の入った赤い丸は、応答不可を示す](media/Presence_DND.png) 応答不可 ||
 || ![白線の入った赤い丸は、発表中を示す](media/Presence_DND.png) 発表中|
-|| ![白線の入った赤い丸は、フォーカスを示す](media/Presence_DND.png) フォーカス中。 フォーカスは、ユーザーがカレンダーの MyAnalytics / Insights でフォーカス時間をスケジュールしたときに表示されます。|
+|| ![白線の入った赤い丸は、フォーカスを示す](media/Presence_DND.png) フォーカスは、ユーザーがカレンダーの MyAnalytics / Insights でフォーカス時間をスケジュールしたときに表示されます。|
 | ![黄色の時計アイコンは、退席中を示す](media/Presence_Away.png) 退席中| ![黄色の時計アイコンは、退席中を示す](media/Presence_Away.png) 退席中|
 || ![黄色の時計アイコンは、退席中を示す *前回の退席中表示](media/Presence_Away.png)時刻*|
 |![黄色の時計アイコンは、一時退席中を示す](media/Presence_Away.png) 一時退席中| |
-|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン表示|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン。  ユーザーがどのデバイスにも数分間ログインしていない場合、ユーザーはオフラインとして表示されます。 | |
+|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン表示|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン。ユーザーがどのデバイスにも数分間ログインしていない場合、ユーザーはオフラインとして表示されます。 | |
 || ![灰色枠の丸は、状態不明を示す](media/Presence_Unknown.png) 状態不明|
-|| ![矢印付き紫色の丸、外出中を示す](media/Presence_OOF.png) 外出中。 自動応答が設定されている場合、外出中が使用されます。 (Outlook でのみ利用可能です。) |
+|| ![矢印付き紫色の丸、外出中を示す](media/Presence_OOF.png) 外出中。自動応答が設定されている場合、外出中が使用されます。 |
 |||
- > [!Note]
- > メールボックスが onprem でホストされているユーザーの場合、プレゼンスは最大 1 時間遅延する可能性があります。
+ > [!NOTE]
+ > メールボックスをオンプレミスで運用しているユーザーの場合、プレゼンスは最大 1 時間程度の遅延が予想されます。
+
 アプリで構成されたプレゼンス状態は、ユーザーのアクティビティ (連絡可能、退席中)、Outlook カレンダーの状態 (会議中)、Teams アプリの状態 (通話中、発表中) などに基づいています。 カレンダーに基づいてフォーカス モードになっている場合、**フォーカ** スは Teams で表示される状態になります。 フォーカス モードは、他の製品では **応答不可** と表示されます。
 
 コンピューターをロックするか、コンピューターがアイドル モードまたはスリープ モードに入ると、現在のプレゼンス状態が [退席中] に変わります。 モバイル端末では、Teams アプリがバックグラウンドにあるときはいつでも、プレゼンス状態が [退席中] に変わります。

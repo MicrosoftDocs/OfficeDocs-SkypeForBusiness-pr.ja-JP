@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569235"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717988"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須モバイル診断データ
 
@@ -109,10 +109,6 @@ ms.locfileid: "52569235"
   - [設定] の番号。
 - **blockChat** - チャット ボットをブロックします。 これによりチャットの既存のテレメトリが強化され、アプリケーション情報のみが追加されます。
 - **botClickCardAction** - コネクタ カードの用途。
-- **brbFeedback** - BRB フィードバック フォームのパフォーマンスに関連。
-- **brbFormCancelled** - フィードバック フォームが取り消され、ユーザーがアプリに戻るときに送信されるイベント。
-- **brbFormOpened** - BRB フォームが開かれたときに送信されるイベント。
-- **brbFormSubmit** - ユーザーがフィードバック フォームで [**送信**] を選択したときに送信されるイベント。
 - **breakStartEndClicked** - 画面の時計で、[**開始**] または [**休憩終了**] が選択されています。
 - **breakStartEndTriggered** - ユーザーが休憩の開始と終了を選択すると登録。
 - **bucketSelected** - バケットの選択が完了したことを確認します。
@@ -1187,6 +1183,8 @@ ms.locfileid: "52569235"
 - **voicemail - No AS Assigned** - 発表者がボイス メール アイテムをタップします。
 - **whiteboardUsed** - ユーザーがホワイトボードに注釈をつけます (webview のアクション)。
 - **wiki - No AS assigned** - Wiki 用途テレメトリ。
+- **poorNetworkBanner** - 低品質のネットワーク バナーが表示されます。
+- **badNetworkBanner** - 無効な品質のネットワーク バナーが表示されます。
 
 ### <a name="panelview"></a>PanelView
 
@@ -1224,6 +1222,11 @@ ms.locfileid: "52569235"
 > [!NOTE]
 > パネルアクション イベントのプロパティに関する情報については、[シナリオ イベントで送信されるプロパティ](#properties-sent-with-scenario-events)を参照してください。
 
+- **app_incremental_sync_launch** コールド起動のために、ピル数が正常に更新されたことを確認します。
+- **app_incremental_sync_resume** ウォーム/ホット起動のために、ピル数が正常に更新されたことを確認します。
+- **app_start_cold** アプリのコールド起動を監視するため (Android のみ)。
+- **app_start_hot** アプリのホット起動を監視するため (Android のみ)。
+- **app_start_warm** アプリのウォーム起動を監視するため (Android のみ)。
 - **chat_add_giphy** - Giphy GIF レンダリング アクションが成功したか失敗したかを確認します。
 - **cortanaError** Cortana エラーが発生するのを監視します。
 - **cortanaView** - Cortana キャンバスの表示を監視します。
@@ -1278,6 +1281,18 @@ ms.locfileid: "52569235"
 - **upload_images** 画像アップロード操作が成功したか失敗したかを確認します。
 - **upload_voice_messages** 音声メッセージのアップロード操作が成功したか失敗したかを確認します。
 - **voiceMessageUpload** 音声メッセージのアップロード操作が成功したか失敗したかを確認します。
+- **cancel_channel_meeting** チャネル会議の取り消しが成功したか失敗したかを確認します。
+- **cancel_meeting** 会議の取り消しが成功したか失敗したかを確認します。
+- **cancel_private_meeting** プライベート会議の取り消しが成功したか失敗したかを確認します。
+- **editl_channel_meeting** チャネル会議の編集操作が成功したか失敗したかを確認します。
+- **edit_meeting** 会議の編集操作が成功したか失敗したかを確認します。
+- **server_fetch_agenda_view** 中間層 API を使用した予定表イベントの同期が成功したか失敗したかを確認します。
+- **server_fetch_date_picker_view** Outlook REST API を使用した予定表イベントの同期が成功したか失敗したかを確認します。
+- **server_fetch_agenda_view_group** TFL グループの中間層 API を使用した予定表イベントの同期が成功したか失敗したかを確認します。
+- **server_fetch_date_picker_view_incremental** Outlook REST API を使用した予定表イベントの増分同期が成功したか失敗したかを確認します。
+- **meeting_details** 会議の詳細の同期が成功したか失敗したかを確認します。
+- **show_meeting_participants** 会議参加者リストの表示が成功または失敗したことを確認します。
+
 
 ## <a name="property-lists"></a>プロパティ リスト
 

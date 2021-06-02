@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 3f15b2ad9fce413602ed531067ed7e2b280ed122
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628886"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717728"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -118,17 +118,6 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 ## <a name="meetings-and-calls"></a>会議と通話
 
-> [!IMPORTANT]
-> **Microsoft 365 ライブ イベントの上限の引き上げ**
->
-> **お客様のニーズを引き続きサポートするため、2021年6月30日まで、** などのライブ イベントへの一時的な制約を増やします。
->
->- イベントでは、最大2万の出席者をサポートします
->- テナント全体で 50 のイベントを同時にホストできます
->- ブロードキャストあたり16時間のイベント期間
->
-> さらに、Microsoft 365 支援プログラムを通じて、最大 10 万人が参加するライブ イベントを計画できます。チームは各要求を評価し、お客様と協力して利用可能なオプションを決定します。[詳細情報を参照してください](https://aka.ms/Stream/Blog/LiveEventOptions)。
-
 |機能     | 上限 |
 |------------|---------------|
 |会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 1000。GCC は含まれますが、GCCH、DoD、または A1 (300) は含まれません。 **表示専用** では、開催者が E3/E5/A3/A5 SKU および Government (GCC、GCC High、DoD) のライセンスを持っている会議に、最大 2 万人の聴取のみの参加者が参加できます。 [表示専用エクスペリエンス](view-only-meeting-experience.md)に関する詳細。|
@@ -139,7 +128,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 ### <a name="meeting-expiration"></a>会議の有効期限
 
 > [!NOTE]
-> 会議の URL は機能を停止しません。有効期限は、任意の PSTN のダイヤルイン番号または基となる会議ポリシーと設定 (あるいはその両方) にのみ関係します。
+> 会議の URL は機能を停止しません。有効期限は、任意の PSTN のダイヤルイン番号、CVI 調整、または基となる会議ポリシーと設定 (あるいはその両方) にのみ関係します。
 
 |会議の種類  |この時間が経過すると、会議は期限切れになります  |会議を開始または更新するたびに、有効期限はこの時間だけ延長されます  |
 |---------|---------|---------|
@@ -216,10 +205,10 @@ Microsoft Teams for Education には、教室での授業など、独自の教�
 |機能  |上限  |
 |---------|---------|
 |チームのメンバーの数    | この記事の「[チームとチャネル](#teams-and-channels)」のセクションを参照してください        |
-|クラスチームで課題を使用するメンバーの数    | 200        |
-|クラスチームで OneNote Class Notebook を使用するためのメンバー数     |200         |
+|クラスチームで課題を使用するメンバーの数    | 300        |
+|クラスチームで OneNote Class Notebook を使用するためのメンバー数     |300         |
 
-クラス チームは、200 を超えるメンバーをサポートできます。ただし、チーム内で課題アプリまたは Class Notebook アプリのいずれかを使用する場合は、メンバー数を上記の上限未満に保つ必要があります。
+クラス チームは、300 を超えるメンバーをサポートできます。ただし、チーム内で課題アプリまたは Class Notebook アプリのいずれかを使用する場合は、メンバー数を上記の上限未満に保つ必要があります。
 
 ## <a name="tags"></a>タグ
 
