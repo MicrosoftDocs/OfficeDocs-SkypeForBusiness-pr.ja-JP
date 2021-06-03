@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: 2a104679be84dfdaa4574353ccc79142d8a82284
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 43d3d6633ca46485aa111a7d97b9bd37b0547818
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308346"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723548"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>組織での発信者番号の利用方法
 
@@ -49,9 +49,6 @@ CallingLineIdentity というポリシーを使用して、着信呼び出しと
 ## <a name="outbound-pstn-caller-id"></a>発信 PSTN 発信者番号
 
 発信 PSTN 発信者番号については、次のオプションを使用できます。 
-
-> [!NOTE]
-> 以下に示す一部のオプションは、プレビュー リリースです。
   
 - ユーザーに割り当てられた電話番号。既定です。
 
@@ -61,9 +58,9 @@ CallingLineIdentity というポリシーを使用して、着信呼び出しと
 
   - 通話プランの電話番号インベントリでサービスとして分類される電話番号と無料電話番号。 通常は、通話キューまたは通話キュー Teams 自動応答割り当てられます。
 
-  - **プレビュー リリース。** 直接ルーティングを介したオンプレミスの電話番号。この電話番号は、Teams 自動応答 または通話キューによって使用されるリソース アカウントに割り当てられます。 
+  - 直接ルーティングを介したオンプレミスの電話番号。この電話番号は、Teams 自動応答 または通話キューによって使用されるリソース アカウントに割り当てられます。 
 
-- **プレビュー リリース。** 発信 PSTN 通話で設定された発信側名または CNAM。  
+- 発信 PSTN 通話で設定された発信側名または CNAM。  
     
 詳細については、「ユーザーの発信者 [番号を設定する」を参照してください](./set-the-caller-id-for-a-user.md)。
   
@@ -106,7 +103,7 @@ BlockIncomingCallerID 属性を使用すると、着信した PSTN 通話の発�
   
 受信呼び出し元 ID をブロックするには、「 [ユーザーの発信者番号を設定する」を参照してください](./set-the-caller-id-for-a-user.md)。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](./different-kinds-of-phone-numbers-used-for-calling-plans.md)

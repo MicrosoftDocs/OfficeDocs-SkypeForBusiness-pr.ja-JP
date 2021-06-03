@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6aa1224982dce5bad2d2a46cb2100bac283ef3ef
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628786"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52723425"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>管理者向けトレーニングのMicrosoft Teams
 
@@ -81,7 +81,7 @@ ms.locfileid: "52628786"
 
 <h2>TeamsAndroid デバイス</h2>
 
-<p>次の表には、Teams ディスプレイ、Teams Phone、android 用 Teams ミーティング、Teams パネルを含む Microsoft Teams Android デバイス上の PowerPoint デッキ (PDF 形式) を含む包括的なビデオ トレーニングへのリンクが含まれています。  
+<p>次の表には、Teams ディスプレイ、Teams Phones、Teams ミーティング for Android、Teams Panels を含む Microsoft Teams Android デバイス上の PowerPoint デッキ (PDF 形式) を使用した包括的なトレーニングへのリンクが含まれています。  
 
 | モジュール | PowerPoint デッキ (PDF)  |
 | ------------| -------------------- |

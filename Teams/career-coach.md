@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
+ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699358"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729790"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>キャリア コーチを購入、構成、有効化Microsoft Teams
 
@@ -110,7 +110,7 @@ Microsoft Teams 管理センターの管理者設定を使用して、教育機�
 
 4. [**キャリア コーチ] を** 選択し、[キャリア コーチ]**設定。**  
 
-    ![は、[キャリア コーチ] アプリが選択され、設定表示されます。](media/app-settings.png)
+    ![は、[キャリア コーチ] アプリが選択され、設定表示されます。](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>キャリア コーチ アプリの設定を構成する
 
@@ -133,7 +133,7 @@ Microsoft Teams 管理センターの管理者設定を使用して、教育機�
 
 ブランドと環境設定の設定ページで、教育機関の名前、ロゴ、既定の言語を設定します。
 
-![管理センターの [キャリア コーチ] ブランドセクション](media/brand-preferences.png)
+![管理センターの [キャリア コーチ] ブランドセクション](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>教育機関のアイコン
 
@@ -172,7 +172,7 @@ LinkedIn 構成は、キャリア コーチと LinkedIn の一般の同窓生デ
 
 4. 確認 URL をコピーし、教育機関の LinkedIn ページ管理者 [LinkedIn ページ管理者ドキュメント と共有します](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en)。 確認リンクは 30 日後に期限切れになります。  
 
-   ![キャリア コーチの linkedin 設定](media/linkedin.png)  
+   ![キャリア コーチの linkedin 設定](media/career-coach-linked-in.png)  
 
 #### <a name="course-catalog"></a>コース カタログ
 
