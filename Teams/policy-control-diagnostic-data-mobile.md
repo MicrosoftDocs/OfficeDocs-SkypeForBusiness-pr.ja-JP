@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717988"
+ms.locfileid: "52723568"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須モバイル診断データ
 
@@ -344,6 +344,7 @@ ms.locfileid: "52717988"
 - **companionDismissProximity** - コンパニオン バナーを閉じます。
 - **companionJoin** - シートで [コンパニオン オプションとして参加] が選択されています。
 - **companionJoinProximity** - コンパニオン バナーから参加しました。
+- **completeVaultFRE** - ユーザーがセーフ データの暗号化に使用するマスター キーを生成する手順を完了します。
 - **completionStateChange** - タスク リストの [フィルター表示] で [完了済みフィルター] または [未完了フィルター] の切り替えが行われるとトリガーされます。
 - **composeExpandComposer** - [**フォーマット**] ボタンがタップされました。
 - **composeFilePick** - [ネイティブ ファイル ピッカー] が起動しました。
@@ -432,6 +433,7 @@ ms.locfileid: "52717988"
 - **deleteMeeting** - [会議の詳細] ページで [**削除**] ボタンを選択します。
 - **deletePersonalTask** - 個人タスクが正常に削除されたことを確認します。
 - **deletePersonalSubtask** - 個人サブタスクが正常に削除されたことを確認します。
+- **deletePersonalVaultItem** - ユーザーが個人用セーフの削除を要求します。
 - **deletePlannerTask** - 共有タスクの削除操作が正常に完了したことを確認します。
 - **deleteShift** - シフトを削除します。
 - **duration_picker_dismissed** - [期間の選択] を終了します。
@@ -571,6 +573,8 @@ ms.locfileid: "52717988"
 - **funSelectItem** -Giphy の画像が選択されました。 Teams の giphy 添付ファイル機能の成功データ。
 - **galleryImage** - 画像がアップロードされました - ギャラリー。
 - **get_directions_clicked** - [**ルート案内を使用する**] が選択されています。
+- **giphyUserDisabled** - ユーザーが Giphy の使用条件を拒否することを選択します。
+- **giphyUserEnabled** - ユーザーが Giphy の使用条件を承諾することを選択します。
 - **goToNotificationSettings** - [**通知設定を更新しました**] のダイアログから [通知設定] ページに移動します。
 - **GPSPromptClicked** - [**許可**] または [**許可しない**] が OS のプロンプトで選択されています。GPS を許可するかどうか。
 - **group_map_closed** - ユーザーがチャットからマップを開きます。
@@ -617,6 +621,7 @@ ms.locfileid: "52717988"
 - **labelSelected** - ラベルの選択が完了したことを確認します。
 - **labelUnselected** - ラベルと選択解除が完了したことを確認します。
 - **launchLinksGallery** - ユーザーがダッシュボードからリンク ギャラリーに入ります。
+- **launchSlideshow** - ユーザーが 3 つの可能なアプリ機能の場所のいずれかで Slideshow 全画面イメージ ビューアーを起動します。 
 - **Launch source such as direct, link, appShortcut** - 直接またはリンクを介して起動します (アクティブなユーザーのデータを収集するために、アプリ起動時にモバイル アプリケーション管理 (MAM) またはモバイル デバイス管理 (MDM) テレメトリを記録します)。
 - **leaveChat** - チャット終了を確認します。
 - **legacyChatLink** - レガシ チャットにリンクが選択されています。
@@ -656,7 +661,9 @@ ms.locfileid: "52717988"
 - **location_sharing_stop** - ユーザーがチャットでライブ位置情報の共有を停止します。
 - **loginFailed** - ユーザーがログインできませんでした。
 - **loginSuccess** - ユーザーがログインできました。
+- **logoutVault** - ユーザーがアプリをログアウトして、同様にセーフからログアウトします。 
 - **manageBlockedNumbers** - 設定でブロックされた回数にアクセスします。
+- **manageVaultKey** - ユーザーが自分のセーフ キー管理の選択を変更します (MSA 対自己追跡)。
 - **manualSendMessage** - メッセージは手動で送信されます。
 - **mapAppPicker** - ユーザーが位置カードのタップ時に使用するマッピング アプリを選択したとき。
 - **markAsRead** - 開封済みにします。
@@ -708,6 +715,7 @@ ms.locfileid: "52717988"
 - **meetingUserFreemium** -　フリーミアム ユーザーが会議に参加しました。
 - **meetingUserGuest** - ゲスト ユーザーが会議に参加しました。
 - **meetingUserTenant** - テナント内ユーザーが会議に参加しました。
+- **memeGenerated** - イメージとテキスト データのユーザー入力が付与されたミームが生成された場合。 
 - **messageCopyMessage** - メッセージをコピーします。
 - **メッセージ削除** - メッセージの削除。
 - **messageEditMessage** - メッセージを編集します。
@@ -940,6 +948,7 @@ ms.locfileid: "52717988"
 - **Requestto結合の** - チームに参加するよう要求します (公開またはプライベート)。
 - **requestToJoinTeamError** - 参加要求のエラー。
 - **requestTypeClicked** - ユーザーが [要求選択] から選択する要求の種類を決定します。
+- **resetLocalVault** - ユーザーがデバイスからすべてのセーフ データをリセットしてクリアします。
 - **resolveIssue** - 通知のトラブルシューティング ツール ポップアップで [**解決する**] が選択されて、ブロック アプリに移動します。
 - **responseClicked** - 応答ページをユーザーが選択します。
 - **retryButtonClicked** - [**もう一度試す**] ボタンが選択されています。
@@ -1003,6 +1012,7 @@ ms.locfileid: "52717988"
 - **Setting/Dismiss** - デバイスの連絡先設定。
 - **settingsNavReadReceiptNotice** -　ユーザーが [機能の通知] から [設定] に移動しました。
 - **settingsOpened** - これは、ユーザーのデバイスのタイム ゾーンがチームのタイム ゾーンと一致せず、ユーザーが [設定] に移動するとトリガーされます。
+- **setupPinVault** - ユーザーがセーフ PIN を自分のアカウントに保存します。 
 - **shareFile** - [**ファイルの共有**] が選択されるとトリガーされます。 また、以下の確認も手助けします。
   - ユーザーがファイル共有操作を開始できたかどうか。
   - ユーザーがファイルを正常に共有できるかどうか。
