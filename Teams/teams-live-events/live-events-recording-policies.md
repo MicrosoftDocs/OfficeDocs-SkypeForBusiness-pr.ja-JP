@@ -17,12 +17,12 @@ description: ライブ イベント記録ポリシーについて説明します
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9654c139433ffa764767e0a2140896eab52204b
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 8d25f37f94a514b83bd37e44d1b022bac064a839
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513850"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739657"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>ライブ イベント記録ポリシー (Microsoft Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "52513850"
 
 | オプション                                       | 都道府県   | DVR                                                   | VOD                                                     | 記録                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| プロデューサーと発表者が使用できるレコーディング | 選択済み     | DVR が使用可能で、Azure Media Services (AMS) 資産は 180 日間保存されます。 | 出席者はイベントにアクセスして視聴できます。                     |                              |
+| 出席者が利用できる記録 | 選択済み     | DVR が使用可能で、Azure Media Services (AMS) 資産は 180 日間保存されます。 | 出席者はイベントにアクセスして視聴できます。                     |                              |
 |                                                  | 選択されていない | DVR が使用可能で、AMS 資産が 180 日間保存される | イベントが終わった後、出席者はイベントにアクセスできない |                              |
 ||無効 (選択されていない)|DVR が使用可能で、イベントの後に AMS 資産が削除される|イベントが終わった後、出席者はイベントにアクセスできない||
 | プロデューサーと発表者が使用できるレコーディング | 選択済み     |                                                           |                                                             | MP4 が作成され、保存される |

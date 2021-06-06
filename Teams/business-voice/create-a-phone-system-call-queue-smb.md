@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 小規模企業向け通話キューを設定する方法については、Microsoft 365 Business Voice。
-ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629056"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739687"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>通話キューを作成する - 小規模ビジネス向けチュートリアル
 
@@ -136,9 +136,13 @@ ms.locfileid: "52629056"
 
 2. [**アカウントの追加]** をクリックし、この呼び出しキューで使用するリソースアカウントを検索し、[追加] をクリックして、[追加] を **クリックします**。
 
+3. (省略可能)[**通話 ID の割** り当て] で、[追加] をクリックし、自動応答用に作成したリソース アカウントを検索し、[追加] をクリックし、[追加] を **クリックします**。 これにより、通話エージェントがコールアウトするときに、メイン ラインの発信者番号が提供されます。
+
+    ![呼び出し元 ID 設定のスクリーンショット](../media/call-queue-assign-calling-id.png)
+
 3. 言語を選択します。 この言語は、システムで生成された音声プロンプトとボイスメールのトランスクリプション (有効にした場合) に使用されます。
 
-    ![リソース アカウントと言語設定のスクリーンショット](../media/call-queue-name-language.png)
+    ![リソース アカウント設定のスクリーンショット](../media/call-queue-name-language.png)
 
 4. 発信者がキューに到着するときに、発信者にあいさつメッセージを再生する場合に指定します。 再生するあいさつメッセージを含む MP3、WAV、または WMA ファイルをアップロードする必要があります。
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 自動応答と通話キューについて説明し、発信者がメニュー システム内を移動して組織内のユーザーまたは部門に到達するのに役立つ方法について説明します。
-ms.openlocfilehash: 1ccce8205afcf019fea539823c21e3a29a2fa206
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 51ab11603a957dad9748def3a1508de6e42577f5
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517750"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739637"
 ---
 # <a name="plan-for-teams-auto-attendants-and-call-queues"></a>自動応答Teamsキューの計画
 
@@ -152,7 +152,7 @@ ms.locfileid: "52517750"
 - **組織内のユーザー** - 音声通話を受信できる組織内のユーザー。 これは、オンライン ユーザーまたはオンプレミスでホストされているユーザーが、Skype for Business Server。
 - **音声アプリ** - 別の自動応答または通話キュー。 宛先に関連付けられているリソース アカウントを選択します。
 - **外部電話番号** - 任意の電話番号。 (「 [外部転送の技術的な詳細」を参照してください](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details))。
-- **ボイス** メール - 指定したグループに関連Microsoft 365ボイス メールボックス。
+- **ボイス** メール - 指定したグループに関連Microsoft 365ボイス メールボックス。 ボイスメールの文字起こしと "トーンの後にメッセージを残してください" を選択できます。 システム プロンプト。
 - **演算子** (自動応答のみ) - 自動応答用に定義された演算子。 演算子の定義は省略可能です。 演算子は、この一覧内の他の任意の宛先にできます。
 
 自動応答は、営業時間外および休日に受信した通話に対して個別の通話ルーティング オプションを提供します。 時間外通話ルーティングでは上記のすべてのオプションを使用できますが、休日の通話ルーティングでは、通話のリダイレクトまたは切断のみを許可しますが、ダイヤル キー オプションはありません。

@@ -29,7 +29,7 @@ highlightedContent:
       url: ./upgrade-framework.md
     - title: 無料のアップグレード計画ワークショップに登録する
       itemType: learn
-      url: ./upgrade-workshops-landing-page.yml
+      url: 'https://aka.ms/upgradeworkshops'
     - title: Black & Veatch が 8 週間で Teamsに移行する方法について学習します
       itemType: video
       url: 'https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk'

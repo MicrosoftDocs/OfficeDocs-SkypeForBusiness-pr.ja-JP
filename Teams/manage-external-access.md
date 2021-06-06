@@ -21,12 +21,12 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f472ef2a009a3a0b9b87222d951ef34b65da15a
+ms.sourcegitcommit: f5b6a0fe055e42e06eee21ce311813b5127474ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092265"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52741076"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 
@@ -36,7 +36,7 @@ ms.locfileid: "51092265"
 
 以下のような場合に外部アクセスを使用します。
   
-- 別ドメインに共同作業が必要なユーザーがいる場合。 たとえば、Rob@contoso.com と Ann@northwindtraders.com が、contoso.com ドメインおよび northwindtraders.com ドメインの他のユーザーと一緒にプロジェクトの共同作業を行う場合です。
+- 共同作業を必要とするさまざまなドメインのユーザーがいます。たとえば、Rob@contoso.com と Ann@northwindtraders.com が、contoso.com ドメインおよび northwindtraders.com ドメインの他のユーザーと一緒にプロジェクトの共同作業を行う場合です。
 
 - 組織内のユーザーが、Teams を使用して組織外の特定の会社のユーザーに連絡する必要場ある場合。
 
@@ -48,6 +48,9 @@ ms.locfileid: "51092265"
 ## <a name="plan-for-external-access"></a>外部アクセスの計画
 
 Teams では既定で外部アクセスが有効になっています。つまり、組織はすべての外部ドメインと通信できます。 禁止ドメインを追加すると、他のすべてのドメインが許可され、許可ドメインを追加すると、他のすべてのドメインが禁止されます。 この規則の例外は、匿名の参加者が会議に参加できる場合です。 Teams 管理センターで外部アクセスを設定するには、次の 3 つのシナリオがあります (**[組織全体の設定]**  >  **[外部アクセス]**)。
+
+> [!NOTE]
+> Teams ユーザーは、他の組織のユーザーとの会議やチャットをホストするときにアプリを追加できます。 他の組織がホストする会議やチャットに参加するときに、他の組織のユーザーが共有するアプリを使用することもできます。 ホストしているユーザーの組織のデータ ポリシーと、そのユーザーの組織が共有するサードパーティ アプリのデータ共有の慣行が適用されます。
 
 > [!NOTE]
 > 組織で外部アクセスをオフにしても、外部ユーザーは匿名参加で会議に参加できます。 詳細については、「[Teams での会議設定を管理する](./meeting-settings-in-teams.md)」を参照してください。
@@ -124,7 +127,7 @@ Teams ユーザーと Skype ユーザーが通信できるようにする方法�
 
 組織内のユーザーが別の組織のユーザーと通信できるようにするには、両方の組織でフェデレーションを有効にする必要があります。 特定の組織とのフェデレーションを有効にする手順は、組織が純粋なオンライン、ハイブリッド、または純粋なオンプレミスのうちどれかによって異なります。
 
-|**もしあなたの組織が** |**次のようにフェデレーションを有効にします**  |
+| もしあなたの組織が | 次のようにフェデレーションを有効にします |
 |:---------|:-----------------------|
 |オンプレミスに Skype for Business がないオンライン。 これには、TeamsOnly ユーザーや Skype for Business Online ユーザーがいる組織が含まれます。| Teams 管理センターを使用している場合： <br>- **ユーザーが他の Skype for Business と通信できること** を確認し、外部アクセスでユーザー設定が有効になっていることを確認します。<br>- オープン フェデレーション (他のドメインとのフェデレーションを許可する) を使用していない場合は、外部ドメインを [許可] リストに追加します。<br><br>PowerShell を使用している場合:<br>- テナントがフェデレーションに対して有効になっていることを確認します: `Get-CsTenantFederationConfiguration` が `AllowFederatedUsers=true` を表示する必要があります。 <br>- `CsExternalAccessPolicy` のユーザーの実効値が `EnableFederationAccess=true` を持っていることを確認します。<br>- オープン フェデレーションを使用していない場合は、ターゲット ドメインが`AllowedDomains`の`CsTenantFederationConfiguration`にリストされていることを確認してください。 |
 |純粋なオンプレミス | オンプレミス ツールの場合: <br>- `CsAccessEdgeConfiguration` でフェデレーションが有効になっていることを確認します。<br>- ユーザーのフェデレーションが `ExternalAccessPolicy` を介して (グローバルポリシー、サイトポリシー、またはユーザー割り当てポリシーのいずれかを介して) 有効になっていることを確認します。 <br> - オープン フェデレーションを使用していない場合は、ターゲット ドメインが`AllowedDomains`にリストされていることを確認してください。 |
@@ -134,7 +137,7 @@ Teams ユーザーと Skype ユーザーが通信できるようにする方法�
 
 フェデレーション組織からの着信チャットと通話は、TeamsUpgradePolicy の受信者ユーザーのモードに応じて、ユーザーの Teams または Skype for Business クライアントに送信されます。
 
-|**目的** |**操作**  |
+| 目的 | 操作 |
 |:---------|:-----------------------|
 | 着信するフェデレーション チャットと通話がユーザーの Teams クライアントに確実に届くようにします。 | ユーザーを TeamsOnly に構成します。
 | 着信するフェデレーション チャットと通話がユーザーの Skype fo Business クライアントに確実に届くようにする | ユーザーを TeamsOnly 以外のモードになるように構成します。 |
@@ -144,7 +147,7 @@ Teams ユーザーと Skype ユーザーが通信できるようにする方法�
 
 組織内のユーザーと Skype のコンシューマー ユーザー間のフェデレーションを有効にするには:
 
-|**もしあなたの組織が** |**次のようにコンシューマーのフェデレーションを有効にします**  |
+| もしあなたの組織が | 次のようにコンシューマーのフェデレーションを有効にします |
 |:---------|:-----------------------|
 | オンプレミスに Skype for Business がない純粋なオンライン。  これには、TeamsOnly ユーザーや Skype for Business Online ユーザーがいる組織が含まれます。 | Teams 管理センターを使用している場合： <br>- **[ユーザーは Skype ユーザーと通信できます]** 設定が外部アクセスで有効になっていることを確認します。<br><br>PowerShell を使用している場合: <br>- テナントがフェデレーションに対して有効になっていることを確認します: `Get-CsTenantFederationConfiguration` には `AllowPublicUsers=true` 表示する必要があります。 <br> - `CsExternalAccessPolicy` のユーザーの実効値が `EnablePublicCloudAccess=true` を持っていることを確認します。 |
 | 純粋なオンプレミス | オンプレミス ツールの場合: <br> - Skype がフェデレーション パートナーとして有効になっていることを確認します。 <br> - `ExternalAccessPolicy` を介して (グローバルポリシー、サイトポリシー、またはユーザーが割り当てたポリシーを介して) ユーザーの`EnablePublicCloudAccess=true`を確認します。|

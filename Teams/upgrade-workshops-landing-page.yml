@@ -37,9 +37,6 @@ productDirectory:
 additionalContent:
   sections:
     - items:
-        - title: 自分の時間にこれらのワークショップを表示する
-          summary: 'YouTube の [アップグレード] Microsoft Teamsにアクセスします。'
-          url: 'https://aka.ms/UpgradeOnDemand'
         - title: 新しいシナリオTeams展開しますか?
           summary: IT プロ向Teamsワークショップをご覧ください。
           url: ./chalk-talks-landing-page.yml
