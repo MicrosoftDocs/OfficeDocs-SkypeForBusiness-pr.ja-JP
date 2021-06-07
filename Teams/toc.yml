@@ -1572,7 +1572,7 @@ items:
             href: devices/phones-displays-deploy.md
           - name: USB オーディオ デバイスおよびビデオ デバイス
             href: devices/usb-devices.md
-          - name: Microsoft Teams の共同作業バーを展開する
+          - name: Android に Microsoft Teams ミーティングを展開する
             href: devices/collab-bar-deploy.md
           - name: 会議室のデバイスとソリューション
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json

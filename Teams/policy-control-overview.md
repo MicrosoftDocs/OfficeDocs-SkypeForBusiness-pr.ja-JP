@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117785"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777905"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams のポリシー制御の概要
 
@@ -35,7 +35,7 @@ Microsoft では、Microsoft 365 の一部である Microsoft Teams を使用す
 これらの変更の一部として、新規および更新されたユーザー インターフェイス (UI) 要素とポリシーの設定があります。
 
 > [!IMPORTANT]
-> 詳細については、M365 の「[ポリシー管理の概要](/deployoffice/privacy/overview-privacy-controls)」のコンテンツをご覧ください。
+> 詳細については、Microsoft 365 の「[ポリシー管理の概要](/deployoffice/privacy/overview-privacy-controls)」のコンテンツをご覧ください。
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>Microsoft 365 Apps for enterprise から Microsoft に送信される診断データ
 
@@ -59,9 +59,10 @@ Microsoft では、Microsoft 365 の一部である Microsoft Teams を使用す
 - Android
 - デスクトップ (win32 API を使用しているコンポーネントのみ)
 
-必要なモバイル データ診断については、「[モバイルのポリシー制御診断データ](policy-control-diagnostic-data-mobile.md)」をご覧ください。
+必須の診断データ イベントとプロパティの一覧を表示するには、次の記事をご覧ください。
 
-必要なデスクトップ データ診断については、「[デスクトップのポリシー制御診断データ](policy-control-diagnostic-data-desktop.md)」をご覧ください。
+- [Microsoft Teams 必須モバイル診断データ](policy-control-diagnostic-data-mobile.md)
+- [Microsoft Teams 必須デスクトップ診断データ](policy-control-diagnostic-data-desktop.md)
 
 ## <a name="diagnostic-data-sent-from-the-teams-app-to-microsoft"></a>Teams アプリから Microsoft に送信された診断データ
 
@@ -77,21 +78,22 @@ Teams ソフトウェアには、選択可能な 3 つのレベルの診断デ�
 
 オプションの診断データを送信するよう選択した場合は、必須の診断データも含まれています。
 
-組織の管理者は、ポリシー設定を使用して Microsoft に送信する診断データのレベルを選択できます。 設定を変更しない限り、オプションの診断データが Microsoft に送信されます。 オプションの診断データを提供することで、Microsoft の Office エンジニアリング チームは問題を検出、診断、および軽減し、組織への影響を少なくすることができます。
+組織の管理者は、ポリシー設定を使用して Microsoft に送信する診断データのレベルを選択できます。 設定を変更しない限り、オプションの診断データが Microsoft に送信されます。 オプションの診断データを提供することで、Microsoft の Office エンジニアリング チームは問題を検出、診断、および軽減し、組織への影響を少なくすることができます。 
+
+送信される診断データのレベルを選択するには、[Office クラウド ポリシー サービス](/deployoffice/overview-office-cloud-policy-service)を使用して、*Office から Microsoft に送信されるクライアント ソフトウェア診断データのレベルを設定する* ポリシー設定を構成します。 これは、Microsoft 365 Apps for Enterprise に付属するその他の Office アプリ (Word、Excel、PowerPoint など) で、どのレベルの診断データを送信するかを構成するために使用されるポリシー設定と同じものです。
 
 組織の資格情報 (仕事用アカウントまたは学校用アカウントと呼ばれることもあります) を使用して Teams にサインインした場合、ユーザーは自分のデバイスの診断データのレベルを変更できません。
 
 この診断データには、ユーザーの名前、ユーザーの電子メール アドレス、または Office ファイルのコンテンツは含まれません。 Microsoft のシステムでは、ユーザーの診断データに関連付ける一意の ID を作成しています。 Teams アプリが 100 回クラッシュしたことを示す診断データを受信すると、この一意の ID によって、1 人のユーザーが 100 回クラッシュしたのか、100 人の異なるユーザーが 1 回ずつクラッシュしたかを判断できます。 この一意の ID を特定のユーザーの識別に使用することはありません。
 
+どの診断データがMicrosoftに送信されているかを確認するには、Diagnostic Data Viewerを使用できます。このビューアは、Microsoft Store から無料でダウンロードしてインストールできます。 詳細については、「[Office で診断データ ビューアーを使用する](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)」を参照してください。
+
+> [!NOTE]
+> 診断データ ビューアーのサポートは、Android を実行するデバイスの Teams で利用可能です。 Windows、macOS、iOS を搭載したデバイスでの Teams のサポートは処理中です。
+
 ## <a name="required-service-data-for-connected-experiences"></a>接続エクスペリエンスに必要なサービス データ
 
-必要なサービス データとは、ユーザーがクラウドベースの接続エクスペリエンスを提供できるようにし、エクスペリエンスをセキュリティで保護し、期待どおりに機能するようにするためのデータです。 次の 3 つの種類の情報が、必要なサービス データを構成します。
-
-- **お客様のコンテンツ**。Word 文書に入力したテキストなど、Office を使用して作成したコンテンツ。
-- **機能データ**。アプリの構成情報など、接続エクスペリエンスがタスクを実行するために必要な情報を含みます。
-- **サービス診断データ**。サービスをセキュリティで保護し、最新の状態に保ち、期待どおりに実行するために必要なデータ。 このデータは接続エクスペリエンスに厳密に関連しているため、必須またはオプションの診断データ レベルとは別になります。
-
-この機能をユーザーに提供しないことを選択できます。その場合、この情報は、接続されたエクスペリエンスの機能をサポートするために Microsoft に提供されません。 [必要なサービス データ](/deployoffice/privacy/required-service-data)の詳細を確認できます。
+必要なサービス データとは、ユーザーがクラウドベースの接続エクスペリエンスを提供できるようにし、エクスペリエンスをセキュリティで保護し、期待どおりに機能するようにするためのデータです。 この機能をユーザーに提供しないことを選択できます。その場合、この情報は、接続されたエクスペリエンスの機能をサポートするために Microsoft に提供されません。 [必要なサービス データ](/deployoffice/privacy/required-service-data)の詳細を確認できます。
 
 ## <a name="essential-services-for-microsoft-teams"></a>Microsoft Teams の重要なサービス
 
