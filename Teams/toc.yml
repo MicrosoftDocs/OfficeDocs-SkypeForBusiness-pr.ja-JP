@@ -832,7 +832,7 @@ items:
               - name: ボイスメールのデフォルト言語を変更する
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: ボイスメールの応答メッセージとメッセージで使用する言語
-                href: languages-for-voicemail-greetings-and-messages-teams.md
+                href: languages-for-voicemail-greetings-and-messages.md
           - name: 発信者番号
             items:
               - name: 組織での発信者番号の利用方法
