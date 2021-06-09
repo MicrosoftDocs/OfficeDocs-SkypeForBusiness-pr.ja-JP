@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: アプリをカスタマイズする方法については、Microsoft Teams。
-ms.openlocfilehash: dbf92ec3899599f732f2898f042f51f30f91f15b
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684594"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796861"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>アプリをカスタマイズMicrosoft Teams
 
@@ -111,6 +111,7 @@ ms.locfileid: "52684594"
 > - 管理者が提供するカスタマイズ データは、最も近いリージョンに格納されます。
 > - 使用条件またはプライバシー ポリシーへのリンクが有効な場合は、お客様が責任を負います。
 > - アプリの発行元がフィールドのカスタマイズを許可しなくなった場合は、アプリの詳細ページに、カスタマイズできないフィールドについて管理者に通知するメッセージが表示されます。 そのフィールドに加えた変更はすべて、元の値に戻されます。
+> - これらの変更を実稼働環境で行う前に、Teamsテナントでアプリのカスタマイズの変更をテストすることをお勧めします。
 > - ユーザーが変更を確認するには、ブランドの変更に最大 24 時間が必要になる場合があります。
 
 ## <a name="review-app-details"></a>アプリの詳細を確認する

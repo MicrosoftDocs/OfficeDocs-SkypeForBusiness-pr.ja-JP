@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a454b3c23074a1ab7a750e8d282e9a562257eb
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: f4024e62c90ef99f3280d5aec15cd718b3d2b6de
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282354"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796821"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>オンプレミスからオンプレミスへのアップグレードにTeams PSTN Skype for Business関する考慮事項
 
@@ -38,7 +38,9 @@ ms.locfileid: "52282354"
 
 
  > [!NOTE]
- > - ユーザー電話システムでのTeamsは、ユーザーが TeamsOnly モードの場合にのみサポートされます。  ユーザーがアイランド モードの場合、電話システムは Skype for Business でのみサポートされます。 
+ > - アカウント電話システムをTeamsは、ユーザーのアカウントに [Teams のみ] モードのアップグレード ポリシーが割り当Teams場合にのみサポートされます。  
+ > - アプリケーション電話システムをSkype for Businessは、ユーザーのアカウントに SfB モードの Teams アップグレード ポリシーが割り当てられている場合にのみサポートされます。 
+ > - 電話システムアカウントに Islands モードのアップグレード ポリシーが割り当てられている場合Teamsはサポートされません。
  > - Skype for Business からの呼び出しの転送、チーム呼び出しグループ、委任の設定は移行されません。また、Teams 用に再作成する必要があります。
  > - クラウド音声機能のMicrosoft Teams概要と、組織に最適な Microsoft 音声ソリューションの決定に役立つ情報については、「音声ソリューションを計画する」をTeams[してください](cloud-voice-landing-page.md)。
 

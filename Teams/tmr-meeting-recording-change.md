@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c92f4d0bf3e72f79687fa151567052934b49ba55
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: f204869bf068350bdc49801654f84856f32a44a0
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491794"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796631"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -153,7 +153,6 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 > [!NOTE]
 > 記録の保存が完了しても、メールは送信されません。完了したレコーディングは、会議のチャットに表示されます。 以前の Stream と比べてはるかに早くなります。
-> 記録を共有するユーザーを制御することはできますが、共有アクセス権を持つユーザーが記録をダウンロードできないようにすることはできません。  
 
 **キャプションを管理する方法**
 

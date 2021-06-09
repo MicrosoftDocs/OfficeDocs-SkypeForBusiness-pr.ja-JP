@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 政府機関のポリシー パッケージを使用Teams管理する方法について学習します。
-ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117775"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796871"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teamsのポリシー パッケージを作成する
 
@@ -73,6 +73,9 @@ Teams、政府機関向け次のポリシー パッケージが含まれてい�
 
 ポリシー パッケージをユーザーに割り当てます。ユーザーにポリシーが割り当てられている場合は、別のポリシーを割り当てると、最新の割り当てが優先されます。
 
+> [!NOTE]
+> カスタム ポリシー パッケージの割り当てを受け取るには、各ユーザーに Advanced Communications アドオンが必要です。 詳細については、「Advanced [Communications add-on for Microsoft Teams」を参照してください](/microsoftteams/teams-add-on-licensing/advanced-communications)。
+
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>1 人または複数のユーザーにポリシー パッケージを割り当てる
 
 1 人または複数のユーザーにポリシー パッケージを割り当てるには、Microsoft Teams 管理センターの左側のナビゲーションから、[**ポリシー パッケージ**] に移動し、[**ユーザーの管理**] を選択します。  
@@ -101,4 +104,4 @@ Teams、政府機関向け次のポリシー パッケージが含まれてい�
 
 [Teams でポリシー パッケージを管理する](manage-policy-packages.md)
 
-[ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+[ユーザーとグループにポリシー パッケージを割り当てる](assign-policy-packages.md)

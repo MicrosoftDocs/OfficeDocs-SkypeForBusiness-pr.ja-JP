@@ -1,5 +1,5 @@
 ---
-title: リリース ノート
+title: Microsoft Teams ミーティング のリリース ノート
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9911061cd3b461c014a184a0ffb1df4d0f49e02
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469549"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796851"
 ---
-# <a name="release-notes"></a>リリース ノート
+# <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams ミーティング のリリース ノート
 
 この記事では、Microsoft Teams Rooms の累積的な改善点について説明します。
 

@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: この記事では、Cisco WebEx と Zoom へのサードパーティの会議参加をサポートTeams ミーティングデバイスを構成する方法について説明します。
-ms.openlocfilehash: c8f6bda7680ccd3107c313c87001902e442518c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ef14d1f342c6f2b34ad7c948a2688fa39a09801d
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117375"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796691"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>ルーム Teamsサード パーティ会議への参加を有効にする
 
@@ -112,4 +112,4 @@ Zoom 会議を有効にするには、 `ZoomMeetingsEnabled` 次のように XML
 ```
 
 > [!NOTE]
-> Teams ミーティング デバイスから Cisco WebEx 会議に参加するには、Cisco WebEx Web アプリケーション バージョン WBS 40.7 以降を使用して Cisco 会議をホストする必要があります。
+> Teams ミーティング デバイスから Cisco WebEx 会議に参加するには、Cisco WebEx Web アプリケーション バージョン WBS 40.7 以降を使用して、WebEx Meetings Pro で Cisco 会議をホストする必要があります。 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: デバイスをセキュリティで保護する方法Microsoft Teams ミーティングします。
-ms.openlocfilehash: 77c7d71cfb41318b123fb262ee4a57b9aaeba493
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24faadb4e139bdbddd8ed315faba7fd8c8257b83
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117395"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796701"
 ---
 # <a name="microsoft-teams-rooms-security"></a>Microsoft Teams ミーティングセキュリティ
 
@@ -28,6 +28,7 @@ Microsoft はパートナーと協力して、セキュリティで保護され�
 
 > [!NOTE]
 > Microsoft Teams ミーティング、一般的なエンド ユーザー ワークステーションのように扱う必要があります。 使用例が大幅に異なるだけでなく、既定のセキュリティ プロファイルも大きく異なります。
+> この記事は、Microsoft Teams ミーティングで実行されているデバイスに適用Windows。
 
 制限付きエンド ユーザー データは、Teams ミーティング。 エンド ユーザー データは、トラブルシューティングとサポートのみを行うログ ファイルに格納できます。 会議の出席者は、ファイルをハード ドライブTeams ミーティングコピーしたり、自分でサインインしたりする必要はありません。 エンド ユーザー データは、デバイスに転送またはアクセスMicrosoft Teams ミーティングされません。
 

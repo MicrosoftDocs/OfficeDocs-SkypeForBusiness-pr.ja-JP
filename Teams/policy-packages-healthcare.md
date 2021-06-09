@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 医療組織用の Teams ポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: 830b8fc5f6938f84f188f5f5d732a3ecfd6eb5b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.openlocfilehash: 19c0fee14138b248c4e25d88a9103df4a5618598
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117765"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796811"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>ヘルスケア向けの Teams ポリシー パッケージ
 
@@ -86,6 +86,9 @@ Microsoft Teams には現在、次のヘルスケア ポリシー パッケー�
 
 ポリシー パッケージをユーザーに割り当てます。ユーザーにポリシーが割り当てられている場合は、別のポリシーを割り当てると、最新の割り当てが優先されます。
 
+> [!NOTE]
+> カスタム ポリシー パッケージの割り当てを受け取るには、各ユーザーに Advanced Communications アドオンが必要です。 詳細については、「Advanced [Communications add-on for Microsoft Teams」を参照してください](/microsoftteams/teams-add-on-licensing/advanced-communications)。
+
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>1 人または複数のユーザーにポリシー パッケージを割り当てる
 
 1 人または複数のユーザーにポリシー パッケージを割り当てるには、Microsoft Teams 管理センターの左側のナビゲーションから、[**ポリシー パッケージ**] に移動し、[**ユーザーの管理**] を選択します。  
@@ -114,4 +117,4 @@ Microsoft Teams には現在、次のヘルスケア ポリシー パッケー�
 
 [Teams でポリシー パッケージを管理する](manage-policy-packages.md)
 
-[ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+[ユーザーとグループにポリシー パッケージを割り当てる](assign-policy-packages.md)

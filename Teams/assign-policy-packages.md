@@ -18,16 +18,19 @@ description: ポリシー パッケージをユーザーとグループに割り
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 0266cb5c34a13df0dac62be2258134e553a357d8
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: e70d5e2bf0db6cb7dfd93e35a8207fce61fa75fd
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574348"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796831"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>ユーザーとグループにポリシー パッケージを割り当てる
 
 この記事では、ユーザーとグループにポリシー パッケージを割り当てるさまざまな方法についてMicrosoft Teams。 この記事を読む前に、「ポリシーの割り当て - [Teams」を参照してください](policy-assignment-overview.md)。
+
+> [!NOTE]
+> カスタム ポリシー パッケージの割り当てを受け取るには、各ユーザーに Advanced Communications アドオンが必要です。 詳細については、「Advanced [Communications add-on for Microsoft Teams」を参照してください](/microsoftteams/teams-add-on-licensing/advanced-communications)。
 
 ## <a name="assign-a-policy-package-to-users"></a>ポリシー パッケージをユーザーに割り当てる
 

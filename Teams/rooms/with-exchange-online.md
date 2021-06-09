@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: このトピックでは、Exchange OnlineとSkype for Business Serverオンプレミス を使用して Microsoft Teams Rooms を展開する方法について説明します。
-ms.openlocfilehash: 5e3446349be8aaef666c02c73370758027736181
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2f92f85ddf39c5e1a813492b3092eeeef9b77e4c
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117345"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796681"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams Rooms を展開
 
@@ -117,6 +117,9 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
 
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>Skype for Business Server でユーザー アカウントを有効にする
 
+> [!NOTE]
+> 会議にのみ参加Teams ミーティング設定Microsoft Teams場合は、次の手順を実行する必要があります。 次の手順は、アプリケーションのサポートを有効にする場合にのみSkype for Business。
+
 1. PC からリモートの Windows PowerShell セッションを作成するには、次のようにします。
 
 > [!NOTE]
@@ -144,6 +147,9 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
    ```
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Microsoft Teams Rooms のアカウントに Skype for Business Server のライセンスを割り当てる
+
+> [!NOTE]
+> 会議にのみ参加Teams ミーティング設定Microsoft Teams場合は、次の手順を実行する必要があります。 次の手順は、アプリケーションのサポートを有効にする場合にのみSkype for Business。
 
 1. テナント管理者としてログインし、Microsoft 365 管理センターを開き、Admin アプリをクリックします。
 2. [ **ユーザーとグループ**] をクリックし [ **ユーザーの追加]、[パスワードのリセット]、およびその他の** をクリックします。

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50ab15d188f2f8a198f59446a0bd5fd8015d0c74
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656030"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796650"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>非標準ユーザーに対する Microsoft Teams アプリの動作
 
@@ -63,13 +63,13 @@ ms.locfileid: "52656030"
 
 ### <a name="install-update-and-delete-for-external-users"></a>外部ユーザーのインストール、更新、および削除
 
-外部ユーザーは、個人、チャット、チャネル、会議などのコンテキストにアプリをインストール、更新、または削除することはできません。 外部ユーザーは Teams アプリ ストアにアクセスできません。
+外部ユーザーは、個人、チャット、チャネル、会議などのコンテキストにアプリをインストール、更新、または削除することはできません。 ホスティング組織のアプリ ストアTeamsアクセス権を持つユーザーはいます。
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部ユーザーの使用行動とポリシー
 
-- 他の組織のユーザーは、ホスティング組織の既定のユーザーアクセス許可ポリシーと組織全体の設定に従います。
-- ホスティング組織のユーザーは、他の組織のユーザーと会議チャットにアプリを追加できます。 他の組織のユーザーは、会議チャットにアプリを追加することはできませんが、チャットに追加するとボットやタブを操作できます。
-- ボットは、チャットにインストールされた後、そのチャット内の他の組織のユーザーと事前に通信し、それらのユーザーはボットと通信できます。
+- 他の組織のユーザーは、ホスティング組織のグローバル (組織全体の既定) ポリシーに従います
+- ホスティング組織のユーザーは、他の組織のユーザーと会議チャットにアプリを追加できます。 他の組織のユーザーは、会議チャットにアプリを追加することはできませんが、チャットに追加するとボット、タブ、メッセージ拡張機能を操作できます。
+- ボットは、会議チャットにインストールされた後、そのチャット内の他の組織のユーザーと事前に通信し、それらのユーザーはボットと通信できます。
 - ホスティング組織のデータ ポリシーと、そのユーザーの組織によって共有されているサード パーティ製アプリのデータ共有プラクティスが適用されます。
 
 ## <a name="anonymous-users"></a>匿名ユーザー
