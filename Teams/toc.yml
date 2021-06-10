@@ -481,8 +481,6 @@ items:
         href: teams-policies.md
       - name: Teams でチャネルのモデレートを設定する
         href: manage-channel-moderation-in-teams.md
-      - name: Teams でファイルを共有する
-        href: sharing-files-in-teams.md
       - name: Teams と Outlook のメールの統合
         href: teams-outlook-email-integration.md
       - name: Outlook から Teams に共有する
