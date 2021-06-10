@@ -19,15 +19,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cca068ab1194a48eb775550e4bf3f99826d82d2a
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 3e1656af8ee457cb4c112d229c2dee03d2590ece
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874667"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856376"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
-===========================================================
+# <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 
 Teams ユーザーは、クラウドの自動応答および通話キューを Teams クライアントから直接受信および応答できます。
 

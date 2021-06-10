@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 773b97197a4f233dea9a404d87e669239b3969f6
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: bf5a601cfe373f1afa995b1dcd8b1f9adff05877
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684454"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856296"
 ---
 # <a name="get-started-with-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートの使用を開始する
 
@@ -71,7 +71,7 @@ ms.locfileid: "52684454"
 
 | 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 導入Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  チャネル <ul><li>全般</li> <li>お知らせ</li> <li>チャンピオン コーナー</li> <li>チーム フォーム</li></ul> アプリ: <ul><li>Wiki</li>  <li>カレンダー</li> |
+| 導入Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  チャネル <ul><li>全般</li> <li>お知らせ</li> <li>チャンピオン コーナー</li> <li>チーム フォーム</li><li>カレンダー</li></ul> アプリ: <ul><li>Wiki</li>  <li>チャネルカレンダー</li> |
 | プロジェクトを管理する |`com.microsoft.teams.template.ManageAProject`| チャネル <ul><li>全般</li> <li>お知らせ</li> <li>リソース</li> <li>計画</li></ul> アプリ:<ul><li>Wiki</li><li>OneNote</li><li>プランナー</li><li>リスト</li>  </ul> |
 | イベントを管理する|`com.microsoft.teams.template.ManageAnEvent` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ:<ul><li>Wiki</li><li>Web サイト</li> <li>YouTube</li> <li>プランナー</li> <li>OneNote</li> <li>従業員のアイデア</li> <li>問題レポーター</li></ul> |
 |従業員のオンボード|`com.microsoft.teams.template.OnboardEmployees` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>従業員チャット</li> <li>トレーニング</li></ul>アプリ:<ul><li>Wiki</li><li>コミュニティ</li><li>プランナー</li><li>従業員のアイデア</li></ul>|

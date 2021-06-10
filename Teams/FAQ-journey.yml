@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1f23be9a2324bc3fe51f19440562cdcc31df8ad0
-  ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+  ms.openlocfilehash: a753374ec71014352b04721f2019f5e9a6425acd
+  ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 05/08/2021
-  ms.locfileid: "52282704"
+  ms.lasthandoff: 06/09/2021
+  ms.locfileid: "52856276"
 title: よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 summary: ''
 sections:
@@ -35,16 +35,20 @@ sections:
   - question: カスタマーとして Skype for Business Online から Teams に移行しなければならない具体的な期限はありますか?
     answer: >
       はい。 [Skype for Business Online は](skype-for-business-online-retirement.md)2021 年 7 月 31 日に廃止され、その時点でアクセスできなくなりました。 Skype for Business Online を使用しているお客様には、終了日までにアップグレードを完了する十分な時間を確保するために、今すぐ Teams の使用とアップグレードの計画を開始することをお勧めします。
+  - question: オンプレミスのユーザーは、Skype for Business Server Online の提供終了時にMicrosoft TeamsアップグレードSkype for Business必要がありますか。
+    answer: "いいえ。 Skype for Business Online の提供を取りやめ、オンプレミスにホームを持つユーザーには影響はありません。 すべてのお客様に、拡張された機能とパフォーマンス Microsoft Teams オファーを利用してください。一部の Skype for Business Server のお客様は、製品をスタンドアロンで使用するか、Microsoft Teams とのハイブリッド構成の一部として使用する必要があります。 Microsoft ライフサイクル ポリシー[のバージョンのサポート](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server)日については、Microsoft ライフサイクル ポリシー のサイトをSkype for Business Server。 \n"
   - question: オンラインSkype会議ブロードキャストは、会議ブロードキャストと同時にSkype for Businessしますか?
     answer: "はい。 Teamsライブ イベントは、会議ブロードキャストを開始Skypeソリューションです。    \n"
   - question: 自分の組織を Teams にアップグレードするのにどのくらい時間がかかりますか?
     answer: >
-      組織においての Skype for Business から Teams への移行は、お客様によって定義することができます。 Microsoft では、お客様の計画と実行を支援するために、変更の技術的要素と組織要素の移動に役立つ実証済みのフレームワークに基づいた包括的なアップグレード ガイダンスを開発しました。 Skype for Business から Teams への移行をナビゲートするための基礎となる、[アップグレード成功のフレームワーク](upgrade-framework.md)と関連リソースに精通して、計画を開始してください。
+      Skype for Business から Teams への道のりは、技術的な複雑さ、変更の適性、カスタム アプリケーションとワークフローの統合など、組織の特性によって異なります。 Microsoft では、お客様の計画と実行を支援するために、変更の技術的要素と組織要素の移動に役立つ実証済みのフレームワークに基づいた包括的なアップグレード ガイダンスを開発しました。 Skype for Business から Teams への移行をナビゲートするための基礎となる、[アップグレード成功のフレームワーク](upgrade-framework.md)と関連リソースに精通して、計画を開始してください。
   - question: Skype for Business Online の推奨されるアップグレード パスはありますか?
     answer: "お客様には、[aka.ms/SkypetoTeams](upgrade-start-here.md)にあるガイダンスとリソースを活用して、Skype for Business から Teamsへの移行し、無料の[アップグレード計画のワークショップ](upgrade-workshops-landing-page.yml)に参加して、組織のニーズに最も適したアップグレードパスを特定して実装することをお勧めします。   \n"
   - question: Microsoft Teams 管理センターの共存モードの詳細はどこで確認できますか?
+    answer: "Microsoft Teams 管理センター内で、組織に適した Skype for Business から Teams への移行を組織で管理することができるようになる、共存モードのオプションが表示されています。 [共存モードとアップグレード モード](teams-and-skypeforbusiness-coexistence-and-interoperability.md)の詳細については、こちらを参照してください。\n      \n"
+  - question: Microsoft はアップグレードの支援を計画していますか?
     answer: >
-      Microsoft Teams 管理センター内で、組織に適した Skype for Business から Teams への移行を組織で管理することができるようになる、共存モードのオプションが表示されています。 [共存モードとアップグレード モード](teams-and-skypeforbusiness-coexistence-and-interoperability.md)の詳細については、こちらを参照してください。
+      はい。 Skype for Businessオンラインのお客様は、オンライン サービスへのアップグレードを支援Microsoft Teams。 このプログラムは、Skype for Business Online テナントをアップグレードする技術的な要素をお客様がサポートTeamsしました。 アップグレードの支援を予定しているお客様は、アップグレード日の 90 日前に Teams 管理センターと Microsoft 365 メッセージ センターの両方で通知を受け取り、技術的な準備とユーザーの準備を整えます。  詳細については、「オンラインからオンラインへの支援されたアップグレード[Skype for Business」をMicrosoft Teams。](upgrade-assisted.md)
   - question: アップグレードに対する準備として何を行うべきですか?
     answer: >
       正常に完了するアップグレードには、ユーザー側の受け入態勢が整っていることに加えて、技術面の準備状況の検証が含まれています。 所属する組織で Teams にアップグレードする準備が整っていないと判断される場合でも、計画のプロセスは今すぐ始めることができます。 さらに、Teams を Skype for Business と共存する形で有効にすることによって、Teams の価値を実感し始めることができます。 今すぐ [Skype から Teams への移行](./upgrade-start-here.md)を開始しましょう。
@@ -78,8 +82,6 @@ sections:
   - question: ライセンスの観点から、これをどのように理解すればよいですか? 電話会議や通話などの機能に対する支払いは、お客様Teams。
     answer: >
       Teams は Microsoft 365 および Office 365 スイートで利用することができます。 現在 Skype for Business Online に含まれるプレミアム ワークロードの機能は Teams のプレミアム ワークロードとしても継続的に利用できます。 お客様によって投資された既存のライセンスは Teams に移転されます。 たとえば、Skype for Business で 電話会議スタンドアロンまたは E5 をご購入いただいているお客様は、Teams での電話会議が有効になり、すぐにご利用いただけます。
-  - question: Microsoft はアップグレードの支援を計画していますか?
-    answer: "Skype for Business Online サービスの 2021 年 7 月 31 日の提供終了を見て、Microsoft はアップグレード ガイダンス、オンライン ワークショップ、およびユーザーと管理者のトレーニングを提供することで、お客様が Teams への移行を成功に導く支援に専念しています。 \n\nSkype for Businessオンラインのお客様は、オンライン サービスへのアップグレードを支援Microsoft Teams。 このプログラムは、Skype for Business Online テナントをアップグレードする技術的な要素をお客様がサポートTeamsしました。 アップグレードの支援を予定しているお客様は、アップグレード日の 90 日前に Teams 管理センターと Microsoft 365 メッセージ センターの両方で通知を受け取り、技術的な準備とユーザーの準備を整えます。  詳細については、「オンラインからオンラインへの支援されたアップグレード[Skype for Business」をMicrosoft Teams。](upgrade-assisted.md)\n"
   - question: Teams のバックエンド インフラストラクチャの利点を教えてください。
     answer: >
       Teams は、効率性の高い帯域幅消費、堅牢なテレメトリの提供、中断を最小限に抑えた保守とアップグレードを実現する拡張性の高いマイクロサービス アーキテクチャ上にクラウド向けに構築されています。 そのため、ユーザーはプラグインをダウンロードすることなく、速やかな会議への参加や、ブラウザ エクスペリエンスの向上を体感できます。この近代的なインフラストラクチャにより、議事録作成、翻訳、音声認識、機械学習などを備えている Microsoft Cognitive Services をより簡単に利用できるようになり、コミュニケーションとコラボレーションをより簡便で効率の良いものにする能力を発揮できます。

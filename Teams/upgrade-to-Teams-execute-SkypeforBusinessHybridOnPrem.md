@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d323760d4187730b0ae83d45021df44230a982cd
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: dd1d519f8be0c82a202417b6271878b9e70e3ae3
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52306051"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856396"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Skype for Business オンプレミスから Teams にアップグレードする
 
@@ -70,9 +70,7 @@ Teams に移行する組織にとって、最終的にはすべてのユーザ�
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>手順 3: ユーザーを Skype for Business オンプレミスから TeamsOnly に移動する
 
-最終的には、ユーザーを TeamsOnly モードに移動します。 これには、オンプレミス環境に応じて 1 ~ 2 つの手順が必要になる場合があります。  
-
-詳細については、「 [オンプレミスとクラウドの間でユーザーを移動する](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)」と「[オンプレミスから Teams にユーザーを移動する](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)」を参照してください。 
+Microsoft は最近、TeamsOnly にユーザーを移行するプロセスを簡素化しました。現在は、使用している Skype for Business Server または Lync Server 2013 のバージョンに関係なく、これは 1 つの手順です。  詳細については、「 [オンプレミスとクラウドの間でユーザーを移動する](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)」と「[オンプレミスから Teams にユーザーを移動する](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)」を参照してください。 
 
 ## <a name="step-4-disable-hybrid-to-complete-your-migration-to-the-cloud"></a>手順 4: ハイブリッドを無効にしてクラウドへの移行を完了する
 
@@ -101,7 +99,7 @@ Teams に移行する組織にとって、最終的にはすべてのユーザ�
 
 - Skype for Business Hybrid のセットアップは、TeamsOnly モードへの移行の前提条件です。 オンプレミスの Skype for Business Server ユーザーがハイブリッドなしで Teams を使用できる一方で、ハイブリッド接続が必要な[Move-CsUser](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)を使用してユーザーをクラウドに移動しない限り、TeamsOnly モードへの切り替えは実行できません。 詳細については、「[ハイブリッド接続を構成する](/skypeforbusiness/hybrid/configure-hybrid-connectivity)」を参照してください。 また、Skype for Business Online の提供が近日提供される予定で、この要件は変更されません。 組織が Skype for Business Server から Teams に移行するには、引き続き同じツールセットを使用してハイブリッドをセットアップして構成する必要があります。この設定は、提供が開始される前とまったく同 *じです*。
 
-- オンプレミス ユーザーをクラウドに移動するには、オンプレミスの管理 `Move-CsUser` ツールで を使用します。 現在、このスイッチが指定されていない場合、ユーザーはオンプレミスの Skype for Business Server にホームから Skype for Business Online に移行し、モードは変更されず、Skype for Business Server で開催された会議は Skype for Business Online に移行されます。 Skype for Business Online が提供終了される予定のため、ユーザーをオンプレミスから `-MoveToTeams` TeamsOnly に直接移動する切り替えの指定は間もなく不要になります `Move-CsUser` 。  提供終了後に、 を使用してユーザーをオンプレミスからクラウドに移動すると、ユーザーには TeamsOnly モードが自動的に割り当てられます。また、オンプレミスからの会議は、スイッチが実際に指定されているかどうかに関係なく、 と同様に、自動的に Teams 会議に変換されます。 `Move-CsUser` `-MoveToTeams switch had been specified` この機能は、2021 年 7 月 31 日の実際の提供が解除される前にリリースされる予定です。
+- オンプレミス ユーザーをクラウドに移動するには、オンプレミスの管理 `Move-CsUser` ツールで を使用します。 オンプレミスから TeamsOnly にユーザーを直接移動するスイッチを指定 `-MoveToTeams` する必要はなくなりました。 を使用してユーザーをオンプレミスからクラウドに移動すると、切り替えが実際に指定されたかどうかに関係なく、ユーザーには TeamsOnly モードが自動的に割り当てられるので、オンプレミスの会議は Teams 会議に自動的に変換されます。 `Move-CsUser` `-MoveToTeams switch had been specified`
 
 - 組織に Skype for Business Server が存在し、ハイブリッド接続を構成していないが、引き続き Teams を使用する場合は、Teams 機能を管理するには、.onmicrosoft.com ドメインを持つ管理アカウントを使用する必要があります。 ハイブリッド接続を使用しない場合、管理ツールはオンプレミス ドメインを認識します。 
 

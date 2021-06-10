@@ -17,15 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9dfecde14e47992588fa13e04aa652a069f7108b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fff84bd660eb19f01c6a7e3388f5289b09896401
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092885"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856346"
 ---
-<a name="manage-large-teams-in-microsoft-teams---best-practices"></a>大規模なチームを管理する Microsoft Teams - ベスト プラクティス
-======================================================
+# <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>大規模なチームを管理する Microsoft Teams - ベスト プラクティス
 
 Microsoft Teams数十人のメンバーを含む小さなグループと、何千人ものメンバーを持つ大規模なグループとの間の通信を促進する場合にも同様に効果的です。 チーム[サイズの更新プログラムについては、「Teams](limits-specifications-teams.md)の制限と仕様」を参照してください。 チーム サイズを増やすと、独自の管理と運用上の課題が生じします。 この記事では、数千人のメンバーで構成される大規模なチームを作成および管理するためのベスト プラクティスについて説明します。
 
@@ -89,7 +88,7 @@ Azure Portal を使用すると、ユーザーはグループ内のメンバー�
 
 チーム所有者はチャネルのモデレーションを有効にして、対象チャネルで新しい投稿を開始できるユーザーと、投稿に返信できるユーザーを制御できます。 モデレーションを設定する場合、1 人以上のチーム メンバーをモデレーターにすることができます。 チーム所有者は、既定でモデレーターです。 詳細については、チャネル モデレーションの [設定と管理に関するページを参照してください](manage-channel-moderation-in-teams.md)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [データを整理するためのベスト プラクティスTeams](best-practices-organizing.md)
 - [組織全体のチームを作成する](create-an-org-wide-team.md)

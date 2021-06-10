@@ -17,12 +17,12 @@ description: コネクタにより、頻繁に使用するサービスからコ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: df9cdc8bb53ae55acae10b0146655f5e5f3e0346
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 77b1c99847ca35de51af5e062593a29c18e98999
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717608"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855796"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Microsoft 365コネクタとカスタム コネクタを使用Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "52717608"
 Microsoft 365コネクタは、Microsoft Teams グループと Microsoft 365 グループの両方で使用することができるので、すべてのメンバーが同期を取り合い、関連する情報をすばやく受信しやすくなります。 両方Microsoft TeamsとExchange同じコネクタ モデルを使用します。これにより、両方のプラットフォーム内で同じコネクタを使用できます。 ただし、チームが依存している Microsoft 365 グループのコネクタを無効にすると、そのチーム用のコネクタを作成する機能も無効にされます。
 
 > [!NOTE]
-> コネクタは、既定では、一部の環境GCC無効になっています。 有効にする必要がある場合は、ConnectorsEnabled または ConnectorsEnabledForTeams パラメーターを [Set-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/set-organizationconfig) コマンドレットを使用$true に設定します。 以前は[、PowerShell に接続Exchange Online必要があります](https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell)。
+> コネクタは、既定では、一部の環境GCC無効になっています。 有効にする必要がある場合は、ConnectorsEnabled または ConnectorsEnabledForTeams パラメーターを [Set-OrganizationConfig](/powershell/module/exchange/set-organizationconfig) コマンドレットを使用$true に設定します。 以前は[、PowerShell に接続Exchange Online必要があります](/powershell/exchange/connect-to-exchange-online-powershell)。
 
 > [!NOTE]
 > Government Cloud Community (GCC) 環境では、コネクタは既定で無効になっています。 有効にする必要がある場合は、ConnectorsEnabled または ConnectorsEnabledForTeams パラメーターを [SetOrganizationConfig](/powershell/module/exchange/set-organizationconfig?view=exchange-ps) コマンドレット$trueに設定します。 以前は、PowerShell に接続するExchange Online[必要がありました](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)。

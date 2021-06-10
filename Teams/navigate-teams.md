@@ -13,21 +13,23 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 73989cf13fee1fff5a41b6569e07f37d55c9136d
-ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
+ms.openlocfilehash: edf8c342ced18245e6dd56fe3916cebea3fa9f9e
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760635"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856256"
 ---
 # <a name="navigate-microsoft-teams"></a>ナビゲーションMicrosoft Teams
 
 組織固有のパスとニーズを明確に理解し、強力なコラボレーションを開始しましょう。 以下のセクションを使用して、Kaziala の機能を各セクション内でTeams。
 
 ## <a name="getting-started"></a>はじめに
+
 作業の開始ガイドでは、KaizalaからTeamsの移行をこれまで以上に簡単に開始できます。 新しい体験の開始の詳細については、「Microsoft Teamsの概要[」をTeams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
 
 ## <a name="starting-new-chats-11-audio-and-video-calls"></a>新しいチャットの開始、1 対 1 の音声通話とビデオ通話
+
 1 対 1 またはグループ チャットを作成して、小規模なグループと共同作業したり、グループ内でプライベートTeams。 チャットをピン留めし、メッセージを保存してすばやくアクセスできます。 リッチ テキストの書式設定、絵文字、GIF を使ったチャットを開始するには[、「Chats in Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)」を参照してください。
 
 組織内のすべてのユーザーと 1 対 1 またはグループ通話を開始して、効率的に通信できます。 このTeams、音声通話とビデオ通話の両方を柔軟に実行できます。  開始するには、「通話を行 [う」を参照してください](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)。
@@ -46,7 +48,7 @@ ms.locfileid: "51760635"
 
 [スマート Teamsを使用して、注釈付きの画像をキャプチャし、チームと共有します。 正確に位置情報を簡単に共有して、チームを常に知ることができます。 機能が他の機能にマップされる方法を伝Kaizala情報が必要Teams。 スライド デッキの情報は、ドキュメントにできる限り多くの情報を含む必要があります。
 
-[スタッフ チェックイン アプリ](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#staff-check-ins)テンプレートを使用して、フロント ラインスタッフがスケジュールされた情報や状況の更新を、スケジュール済みまたは臨時に、Teams から直接簡単に提供できます。 このアプリは、リアルタイムの場所、写真、メモ、アラーム通知、自動ワークフローをサポートします。
+[スタッフ チェックイン アプリ](/microsoftteams/platform/samples/app-templates#staff-check-ins)テンプレートを使用して、フロント ラインスタッフがスケジュールされた情報や状況の更新を、スケジュール済みまたは臨時に、Teams から直接簡単に提供できます。 このアプリは、リアルタイムの場所、写真、メモ、アラーム通知、自動ワークフローをサポートします。
 
 ### <a name="training"></a>トレーニング
 
@@ -62,7 +64,7 @@ ms.locfileid: "51760635"
 
 管理センターに移動するには、[管理[センター] Microsoft Teamsにアクセスします](https://admin.teams.microsoft.com/)。
 
-コンプライアンス センターと Security Center を使用して、Microsoft 365組織Microsoft 365[コンプライアンス](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center)[を監視できます](https://docs.microsoft.com/microsoft-365/security/defender/overview-security-center)。
+コンプライアンス センターと Security Center を使用して、Microsoft 365組織Microsoft 365[コンプライアンス](/microsoft-365/compliance/microsoft-365-compliance-center)[を監視できます](/microsoft-365/security/defender/overview-security-center)。
 
 組織全体でグループ[、ID、ライセンス、](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)アクセスを確認できる Azure Active Directory 管理センターで、ビジネスを保護し、ユーザーを強化Microsoft 365。
 
@@ -74,11 +76,12 @@ ms.locfileid: "51760635"
 
 組み込みのレポートとダウンロード 可能なデータ[](https://www.office.com/launch/forms?auth=2)を使用して[](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)、投票、アンケート、チェックリストの支援を受け、豊富な分析を利用できます。 Planner の [タスク] を使用してジョブ [を割り当](https://support.microsoft.com/office/manage-tasks-in-planner-ee61ecb0-a0bb-4c39-8682-f47fe7674f05) てすることもできます。
 
-チーム内 [で拡張機能](https://docs.microsoft.com/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) を有効にするには、コネクタが必要なチャネルのメニュー (...) の [コネクタ] オプションを使用します。
+チーム内 [で拡張機能](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) を有効にするには、コネクタが必要なチャネルのメニュー (...) の [コネクタ] オプションを使用します。
 
 使用状況、アクティビティ、全体的な導入レポートを表示するために、チーム所有者はメニュー (...) から移動してチームのレポートにアクセスし、チームの分析>できます。
 
 ## <a name="kaizala-group-dissolution"></a>Kaizalaグループの選択
+
 チャネルとチャットTeams移行する際に、組織がコミュニケーションの 1 つの中心的な場所Kaizalaグループへの集中を検討できます。  グループを削除Kaizala、そのグループは [チャット] リストから削除されます。 グループ内の唯一の管理者である場合は、削除する前に、グループ内の少なくとも 1 人のユーザーに管理者ロールを割り当てる必要があります。
 
 グループを削除するには:
@@ -88,7 +91,8 @@ ms.locfileid: "51760635"
  • [グループの削除] をタップします。
 
 ## <a name="kaizala-tenant-data-export"></a>Kaizalaテナント データのエクスポート
-この機能Teams、引き続き社内データの管理を管理Kaizala。 詳細については、「管理ポータルから [テナント データをエクスポートする」を参照してください](https://docs.microsoft.com/office365/kaizala/export-or-delete-your-data)。
+
+この機能Teams、引き続き社内データの管理を管理Kaizala。 詳細については、「管理ポータルから [テナント データをエクスポートする」を参照してください](/office365/kaizala/export-or-delete-your-data)。
 
 ## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>外部ユーザーとの共同作業 (ベンダー/サプライヤー/パートナー)
 
@@ -96,16 +100,17 @@ ms.locfileid: "51760635"
 
 ## <a name="what-is-external-access-in-teams"></a>外部アクセスとは何Teams?
 
-既定では、外部アクセスは Teamsで有効になっています。つまり、組織は、すべての外部ドメインと通信できます。 外部アクセスとは、ドメイン全体における Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスの詳細については、「外部アクセスの管理 [」を参照してください](https://docs.microsoft.com/microsoftteams/manage-external-access)。
+既定では、外部アクセスは Teamsで有効になっています。つまり、組織は、すべての外部ドメインと通信できます。 外部アクセスとは、ドメイン全体における Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスの詳細については、「外部アクセスの管理 [」を参照してください](/microsoftteams/manage-external-access)。
 
 ## <a name="what-is-guest-access-in-teams"></a>ゲスト アクセスとは何Teams?
 
-ゲスト [アクセス を](https://docs.microsoft.com/MicrosoftTeams/guest-access)使用すると、組織外のユーザーにチーム、チャネル内のドキュメント、リソース、チャット、アプリケーションへのアクセスを提供しながら、企業データの制御を維持できます。 ゲストをゲスト に追加するために、追加のライセンスはTeams。
+ゲスト [アクセス を](/MicrosoftTeams/guest-access)使用すると、組織外のユーザーにチーム、チャネル内のドキュメント、リソース、チャット、アプリケーションへのアクセスを提供しながら、企業データの制御を維持できます。 ゲストをゲスト に追加するために、追加のライセンスはTeams。
 
 ## <a name="who-can-be-a-guest-in-teams"></a>WhoゲストになTeams?
+
 ゲストとは、従業員または組織のメンバーではないユーザーです。 組織の仕事用アカウントを持つユーザーはいます。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。
 
-組織の一部ではないユーザーは、 でゲスト[として追加Teams。](https://docs.microsoft.com/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team) つまり、ビジネス アカウント (つまり、Azure Active Directory アカウント) またはコンシューマーメール アカウント (outlook.com、gmail.com など) を持つすべてのユーザーが、チームやチャネルエクスペリエンスにアクセスできる Teams のゲストとして参加できます。
+組織の一部ではないユーザーは、 でゲスト[として追加Teams。](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team) つまり、ビジネス アカウント (つまり、Azure Active Directory アカウント) またはコンシューマーメール アカウント (outlook.com、gmail.com など) を持つすべてのユーザーが、チームやチャネルエクスペリエンスにアクセスできる Teams のゲストとして参加できます。
 
 >[!NOTE]
 > ゲストがチームに参加するには、ゲスト アクセスを管理者が有効にする必要Teams。

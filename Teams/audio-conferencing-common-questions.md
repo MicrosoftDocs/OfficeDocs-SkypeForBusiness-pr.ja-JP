@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 電話会議を使用したいお客様からよく聞く質問を次に示します。
-ms.openlocfilehash: 48450dad380294503fdffc9210e225777ad60bb3
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282750"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856416"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
@@ -129,12 +129,21 @@ Skype for BusinessまたはMicrosoft Teamsユーザーは、セットアップ�
   
 ## <a name="what-in-meeting-dial-pad-commands-are-supported"></a>どのような会議中のダイヤルパッド コマンドがサポートされていますか。
 
-- *6 (ミュート/ミュート解除)
-    
-- *1 (使用可能なダイヤルパッド コマンドの説明を再生します) 
+会議の参加者と開催者の場合:
 
-- *2、*21、*22 (ロビーとエントリの通知)
-    
+| コマンド名 | コマンド キー | 説明                                                     |
+|--------------|--------------|-----------------------------------------------------------------|
+| コマンド メニュー | \*1          | \*1 キーを押して、使用可能なダイヤルパッド コマンドの説明を再生します。 |
+| ミュート/ミュート解除  | \*6          | \*6 キーを押して、自分自身をミュートまたはミュート解除します。                         |
+
+会議開催者の場合のみ:
+
+| コマンド名                   | コマンド キー | 説明                                                 |
+|--------------------------------|--------------|-------------------------------------------------------------|
+| [すべて認める]                      | \*21         | \*ロビーで待機しているすべての参加者を認めるには、21 キーを押します。  |
+| すべてミュートする                       | \*22         | \*(開催者を除く) すべての参加者をミュートするには、21 キーを押します。 |
+| Enter/Exit Announcement を切り替える | \*23         | \*23 キーを押して、Enter/Exit Announcement を有効または無効にします。    |
+
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>出席者が会議中または会議中に国際電話番号Skype for BusinessダイヤルMicrosoft Teamsできますか?
 
 はい。出席者は国際ダイヤルアウトしたり、他の発信者を会議や会議Skype for Business招待Microsoft Teamsできます。 「[他のユーザー](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)が参加できるよう Microsoft Teams 会議からダイヤルアウトする」または「Skype for Business Online 会議からダイヤルアウトして他のユーザーが参加できるようする」[を参照してください](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)。
@@ -150,8 +159,8 @@ Skype for BusinessまたはMicrosoft Teamsユーザーは、セットアップ�
 - **オプション #1:** 既定では、会議の開催者とすべての参加者が電話を使って会議に参加している場合、会議の開催者は電話会議 PIN を入力して開始する必要があります。 発信者は、オンライン会議の電話番号にダイヤルするときに、特定の会議の開催者として認証を受け取る必要がある場合に尋ねされます。 開催者が開始する前にダイヤルインを使用して会議に参加しているすべての参加者はロビーに配置され、保留の音楽を聴きます。 会議Skype for Business、開催者が電話会議 PIN を入力して会議を開始すると、ロビー内のすべての参加者が自動的に会議に参加します。 会議Microsoft Teams、参加者は、開催者の会議ポリシーの [自動的に参加を認める] 設定の値に従って会議に参加します。
 
 - **オプション #2:**[認証されていない発信者を会議の最初のユーザーに許可する] 設定は、既定で無効になっています。 設定が特定の開催者に対して有効になっている場合は、開催者が電話会議 PIN を入力する前に、その開催者によってスケジュールされている会議を開始できます。 この設定を有効にすると、最初の参加者がダイヤルイン電話番号を介して参加するとすぐに会議が開始され、最初の参加者はロビーに置かれなされます。 詳細については、「Microsoft Teams でユーザーの電話会議設定を管理する」または[「Skype for Business](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) Online でユーザーの電話会議[設定を管理する」を参照してください](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)。
-   
-## <a name="related-topics"></a>関連トピック
+  
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
   

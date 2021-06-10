@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e445fd6c5d26a64005ff1c285d8e9d843ca0211
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: 9c19a0569fe56e9bf8c822b1418ac2fe0685532b
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656060"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855936"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Skype for Business Online から Microsoft Teams への支援付きMicrosoft Teams
 
@@ -96,11 +96,11 @@ Skype for Businessオンライン のお客様は、サービスへのアップ�
             >連絡先は、アップグレードが完了した後 90 日以内に移行する必要があります。
         - 既存の Skype for Business Online 会議は、オンライン会議にTeamsされます
             > [!IMPORTANT]
-            > 純粋な Skype for Business Online 構成をお持ちのお客様は、Meeting Migration Service (MMS) を使用して、既存の Skype for Business Online 会議を他の会議Teams必要があります。 アップグレードの支援日より前に MMS を使用することをお勧めします。 MMS の詳細については [、「Meeting Migration Service (MMS) の使用」を参照してください。](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+            > 純粋な Skype for Business Online 構成をお持ちのお客様は、Meeting Migration Service (MMS) を使用して、既存の Skype for Business Online 会議を他の会議Teams必要があります。 アップグレードの支援日より前に MMS を使用することをお勧めします。 MMS の詳細については [、「Meeting Migration Service (MMS) の使用」を参照してください](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
     :::column-end:::
 :::row-end:::
 
-アップグレードが完了すると、ハイブリッド 展開を使用している組織は、ユーザーをオンプレミスから Teams に移動したり、Teamsからオンプレミスに移動したりする場合があります。  
+ハイブリッド デプロイをSkype for Business Serverして Teams にアップグレードする場合は、アップグレードが完了した後、Skype for Business Server と Teams の間でユーザーを移動できます。
 
 ## <a name="related-content"></a>関連コンテンツ
 

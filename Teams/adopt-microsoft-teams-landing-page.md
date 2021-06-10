@@ -19,17 +19,17 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020875ca5e0938fce322654be0e4a7b3e032ebf6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4083c0cf50062e69554218dd090a14812b29a6c0
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118486"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856386"
 ---
 # <a name="adopt-microsoft-teams"></a>Microsoft Teams を導入する
 
 > [!NOTE]
-> リモート学習への移行の概要と開始に役立つリソースについては、「[Remote Learning home page (リモート学習のホーム ページ)](https://www.microsoft.com/education/remote-learning)」を参照してください。
+> リモート学習への移行の概要と開始に役立つリソースについては、「[Remote Learning home page (リモート学習のホーム ページ)](/education/remote-learning)」を参照してください。
 
 チャット、チーム & チャネル、会議から始めて Teams を展開する場合は、ユーザーを迅速に起動して実行するように設計された「Get [started](get-started-with-teams-quick-start.md)ガイダンス」を使用します。 ハイブリッドまたはオンプレミスの Skype for Business 構成を持つ大規模な組織の場合、または音声機能 (Microsoft 365 または Office 365 通話プランや電話システムなど) を展開する場合は、開始ガイダンスから開始できますが、以下の「導入の詳細ガイダンス」で追加のガイダンスが必要[です。](#deeper-adoption-guidance)
 
