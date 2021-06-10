@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ハイブリッドに対して有効になっている Skype for Business Server のオンプレミス展開では、ユーザーをオンプレミス環境とクラウドの間で移動できます (Microsoft Teams または Skype for Business Online に移行した後)。'
-ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
-ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
+ms.openlocfilehash: 998adf068dbfd360cb5a3e279320d1fee96f761f
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52642087"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855946"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>オンプレミスとクラウドの間でユーザーを移動する
 
@@ -32,7 +32,7 @@ ms.locfileid: "52642087"
 - オンプレミスのユーザーは、オンプレミスのサーバーとSkype for Businessします。
 - ホームがオンラインのユーザーは、Skype for Business Online サービスとやり取りします。
 
-*Teamsユーザーは、Skype for Business使用するかどうかに関Skype for Business持っています。* オンプレミスのユーザーがSkype for Business (並べて) Teamsしている場合、それらのユーザーはオンプレミスに設定されます。 Teams Skype for Business を使用しているユーザーは、Teams クライアントから Skype for Business ユーザーと相互運用したり、フェデレーション組織のユーザーと Teams から通信したりする機能もありません。 このような機能は、ユーザーがオンプレミスからオンラインに移動Skype for Business TeamsOnly にした後にのみ完全に利用できます。 ユーザーをオンラインに移動すると、そのユーザーに Skype for Business Online (および、必要に応じて Teams) を使用することを許可するか、ユーザーを TeamsOnly にするかのいずれかを行えます。 ユーザーを Teams のみモードに移動し、すべての着信チャットと通話のルーティングが Teams クライアントに確実に送信されるのを強く推奨します。 詳細については、「Teamsと[](/microsoftteams/coexistence-chat-calls-presence)Teamsを使用する組織Skype for Business移行と相互運用性のガイダンス」を参照Teams[をSkype for Business。](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
+*Teams のユーザーは、Skype for Business を使用しているかどうかに関わらず、Skype for Business ホームを最初から持っています。* オンプレミスのユーザーがSkype for Business (並べて) Teamsしている場合、それらのユーザーはオンプレミスに設定されます。 Teams Skype for Business を使用しているユーザーは、Teams クライアントから Skype for Business ユーザーと相互運用したり、フェデレーション組織のユーザーと Teams から通信したりする機能もありません。 このような機能は、ユーザーがオンプレミスからオンラインに移動Skype for Business TeamsOnly にした後にのみ完全に利用できます。 ユーザーをオンラインに移動すると、そのユーザーに Skype for Business Online (および、必要に応じて Teams) を使用することを許可するか、ユーザーを TeamsOnly にするかのいずれかを行えます。 ユーザーを Teams のみモードに移動し、すべての着信チャットと通話のルーティングが Teams クライアントに確実に送信されるのを強く推奨します。 詳細については、「Teamsと[](/microsoftteams/coexistence-chat-calls-presence)Teamsを使用する組織Skype for Business移行と相互運用性のガイダンス」を参照Teams[をSkype for Business。](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -56,13 +56,13 @@ ms.locfileid: "52642087"
 
 オンプレミスとクラウドの間でユーザーを移動するには (Teams または Skype for Business Online に関係ありません)、Move-CsUser コマンドレットまたは Skype for Business 管理コントロール パネルのいずれかを使用します。どちらもオンプレミス ツールです。 これらのツールでは、3 種類の移動パスがサポートされています。
 
-- [(Skype for Business Server) から直接](move-users-from-on-premises-to-teams.md)(オンプレミス) から [Teamsのみ] に移動します (また、Skype for Business Online に移動します)。  オンプレミスから Teams のみに直接移動するオプションは、Skype for Business Server  2019 および 2015 年の累積的な更新プログラム 8 で現在Skype for Business Serverできます。 以前のバージョンの Skype for Business Server を使用している組織では、最初にユーザーを Skype for Business Online に移動し、次に、これらのユーザーがオンライン状態になったら TeamsOnly モードを適用することによりユーザーを TeamsOnly に移動できます。 
+- [(Skype for Business Server) から直接](move-users-from-on-premises-to-teams.md)(オンプレミス) から [Teamsのみ] に移動します (また、Skype for Business Online に移動します)。  オンプレミスからオンプレミスに直接移動するTeamsのみ、使用するサーバーまたは Lync Server のバージョンに関係なく、Skype for Business Serverが自動的に実行されます。 この動作を取得するためにスイッチを指定 `-MoveToTeams` する必要がなくなりました。  
+- [(オンプレミスSkype for Business Server) から [オンライン] Skype for Businessします](move-users-from-on-premises-to-skype-for-business-online.md)。 TeamsOnly にならずにユーザーを Skype for Business Online に移動する必要があるお客様は、まず TeamsOnly モードでユーザーをクラウドに移動し、次にユーザーモードを TeamsOnly 以外のユーザーモードに更新して、どちらかまたは Teams 管理センターを使用してこれを実現できます。 `Grant-CsTeamsUpgradePolicy` このオプションは、オンラインが廃止されたSkype for Business使用できなくなりました。
+- [オンラインから (Teamsかどうかに関Teams)、オンプレミスに展開します](move-users-from-the-cloud-to-on-premises.md)。
 
 > [!NOTE] 
-> ユーザーをオンプレミスから TeamsOnly に直接移動するために、Move-CsUserで -MoveToTeams スイッチを指定する必要がなくなりました。 現在、このスイッチを指定しない場合、ユーザーはオンプレミスの Skype for Business Server にホームから Skype for Business に移行し、モードは変更されません。 退職後、Move-CsUser を使用してユーザーをオンプレミスからクラウドに移動すると、ユーザーには自動的に TeamsOnly モードが割り当てされ、スイッチが実際に指定されたかどうかに関係なく、-MoveToTeams スイッチが指定された場合と同様に、オンプレミスからの会議は自動的に Teams 会議に変換されます。 この機能は、2021 年 7 月 31 日の実際の使用が解除される前にリリースされる予定です。
-
-- [(オンプレミスSkype for Business Server) から [オンライン] Skype for Businessします](move-users-from-on-premises-to-skype-for-business-online.md)。 このオプションは、すぐに使用できなくなりました。
-- [オンラインから (Teamsかどうかに関Teams)、オンプレミスに展開します](move-users-from-the-cloud-to-on-premises.md)。
+> オンプレミスから TeamsOnly にユーザーを直接移動するために、Move-CsUser -MoveToTeams スイッチを指定する必要がなくなりました。 以前は、このスイッチが指定されていない場合、ユーザーは Skype for Business Server オンプレミスのホームから Skype for Business Online に移行し、モードは変更されません。 Move-CsUser を使用してユーザーをオンプレミスからクラウドに移動すると、ユーザーは自動的に TeamsOnly モードに割り当て、スイッチが実際に指定されたかどうかに関係なく、スイッチが指定された場合と同様に、オンプレミスからの会議が自動的に Teams 会議に変換されます。 `-MoveToTeams` 
+> 
 
 ## <a name="required-administrative-credentials"></a>必要な管理者の資格情報
 
