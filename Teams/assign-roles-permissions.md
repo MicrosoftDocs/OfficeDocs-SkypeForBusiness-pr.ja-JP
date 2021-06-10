@@ -16,18 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc85b682ee24b466514e297532dc9ac0deb56924
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
-ms.translationtype: HT
+ms.openlocfilehash: 5f7c4e9a827aad18593ee530272bedc8595bc9db
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739285"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856086"
 ---
-<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams でチーム所有者とメンバーを割り当てます
-=================================================
-
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Microsoft Teams でチーム所有者とメンバーを割り当てます
 
 Microsoft Teams には、**所有者** と **メンバー** という 2 つのユーザー ロールがあります。 既定では、新しいチームを作成したユーザーには所有者ステータスが付与されます。 また、チームの所有者とメンバーには、チャネルに対するモデレーターの機能を割り当てることができます (モデレートが設定されている場合)。 既存の Microsoft 365 グループからチームを作成した場合は、アクセス許可が継承されます。
 
@@ -36,16 +32,16 @@ Microsoft Teams には、**所有者** と **メンバー** という 2 つの�
 
 |    タスク                               | チーム所有者 | チーム メンバー |
 |-----------------------------------|------------|-------------|
-|          **チームを作成する**          |    はい<sup>1</sup>     |     いいえ      |
+|          **チームを作成する**          |    Yes<sup>1</sup>     |     いいえ      |
 |          **チームを抜ける**           |    はい     |     はい     |
 |  **チーム名/説明の編集**   |    はい     |     いいえ      |
 |          **チームを削除する**          |    はい     |     いいえ      |
 |          **標準チャネルの追加**          |    はい     |    はい<sup>2</sup>|
 | **標準チャネル名/説明の編集** |    はい     |    はい<sup>2</sup>|
 |        **標準チャネルの削除**         |    はい     |    はい<sup>2</sup>|
-|          **_プライベート チャネルの追加_*          |    はい     |    はい<sup>2</sup>|
-| **_プライベート チャネル名/説明の編集_* |    いいえ     |    該当なし|
-|        **_プライベート チャネルの削除_*         |    はい     |    いいえ|
+|          ***プライベート チャネルの追加**          |    必要     |    はい<sup>2</sup>|
+| ***プライベート チャネル名/説明の編集** |    不要     |    該当なし|
+|        ***プライベート チャネルの削除**         |    必要     |    いいえ|
 |          **メンバーの追加**          |  はい<sup>3</sup>   |     いいえ<sup>4</sup>    |
 |          **メンバーを追加する要求**          |  該当なし   |     はい<sup>5</sup>     |
 |           **アプリの追加**            |    はい     |    はい<sup>2</sup>|
@@ -76,9 +72,3 @@ Microsoft Teams には、**所有者** と **メンバー** という 2 つの�
 ## <a name="permissions-to-create-teams"></a>チームを作成するためのアクセス許可
 
 デフォルト設定では、Exchange Online にメールボックスを持つすべてのユーザーは Microsoft 365 グループ作成権限があり、すなわち Microsoft Teams でチームを作成する権限があります。 グループの作成と管理に関する権限を特定のユーザーに委任することで、新しいチームおよび Microsoft 365 のグループの作成をより厳重に管理し制限することができます。 手順については、[Microsoft 365 グループを作成できるユーザーを管理する](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)を参照してください。
-
-
-|アイコン|タイトル|説明|
-|---------|---------|---------|
-| ![判断ポイントを表すアイコン](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |判断ポイント         |Microsoft Teams のすべてのユーザーがチームを作成できますか (作成できることを推奨)?         |
-| ![次の手順を示すアイコン](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |次の手順         |チームを作成できるユーザーを制限する場合は、Microsoft 365 グループの既定の作成権限を変更します。         |

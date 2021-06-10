@@ -16,15 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40b1e0b95eeac06a0a92264305e0bf20e222d72e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 29887ee89c8db36e6d5116118e0ec4fbc2a3e0ff
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122321"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856446"
 ---
-<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Teams と連動するように Skype 会議アプリを構成する
-===================================================
+# <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Teams と連動するように Skype 会議アプリを構成する
 
 ユーザーが Microsoft Teams にアップグレードされた後、管理者は、Microsoft Teams 管理センターを使用して、ユーザーが Skype for Business 会議に参加するために使用する優先アプリを指定できます。
 

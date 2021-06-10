@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、更新プログラム、ユーザー インターフェイス、ハードウェア、制限事項や想定される動作を含む、Microsoft Teams Rooms の既知の問題のリストについて知ることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02e7d2411fa1d8a86fe20dcab3013be758f22a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cec5cac544d3935c2c8be0f4dd9d7a57e68d35ec
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117535"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856436"
 ---
 # <a name="known-issues"></a>既知の問題 
  
