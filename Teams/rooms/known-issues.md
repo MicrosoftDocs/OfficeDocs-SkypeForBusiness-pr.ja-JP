@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、更新プログラム、ユーザー インターフェイス、ハードウェア、制限事項や想定される動作を含む、Microsoft Teams Rooms の既知の問題のリストについて知ることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cec5cac544d3935c2c8be0f4dd9d7a57e68d35ec
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: d601db3c028c7c93a97131db48de81bdcab314e4
+ms.sourcegitcommit: bd7b4986044f7921b25506488dfed405fc2e7ca3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856436"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877489"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -32,7 +32,7 @@ ms.locfileid: "52856436"
 | 問題のタイトル |  動作 \/ 症状 | 既知の回避策 | サポート技術情報記事 |
 |  ---        |      ---             |   ---            | --- |
 | アプリケーションが起動しない |  アプリケーション バージョン 4.4.41.0 に更新すると、システムが黒い画面を表示するか、数分後にログオン画面に移動します。 | この問題を修正するには、[バージョン 4.4.41.0 に更新後に Microsoft Teams Rooms が起動しない](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) の手順に従います。  | なし |
-|  SfB 会議コンテンツ共有が全画面表示されない         |    Skype for Business の会議で、高解像度の設定を使用して正面表示にした会議室では、コンテンツが会議に共有されている場合にウィンドウの正面に全画面が表示されない問題が発生することがあります。 これは、Windows 10 Remote Desktop Protocol (RDP) API の根底にある問題が原因で発生します。 | この問題を解決するには、`<WinRTRdpEnabled>` XML 設定を使用して、Windows 10 RDP API を無効にします。 無効にするには、値を `false` として指定する必要があります。 詳細については、「[XML 構成ファイルを使用してコンソールの設定を管理する](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file)」を参照してください。 | なし |
+|  コンテンツ共有後の会議の量が少ない         |   Microsoft Teams ミーティング 20H2 のデバイスではWindows 10 HDMI 経由でコンテンツを共有した後、メディアと会議の音量が低下します。 これは、20H2 のオーディオの問題Windows 10発生します。 | 現在、この問題の回避策はありません。 音声ボリューム (参加者の音声など) への影響を軽減するために、すべてのデバイスで HDMI オーディオTeams ミーティングしました。 チームWindows 10問題を調査中であり、顧客の勧告は解決が見つかるまで有効なままです。 | なし |
 |  旧版のアプリ         |    Microsoft Teams Rooms のコンソールには、「システム構成が古くなっています」というエラーが表示されます。                |   [Microsoft Teams Rooms の回復ツールを使用する](recovery-tool.md)             |  なし |
 |  デバイスを Windows 10 でサポートされていないバージョンに更新した   |    Windows 10 デバイスはバージョン 1803 からバージョン 1809 に更新されましたが、これはサポートされていないバージョンです。 サポートされているバージョンは 1903 です。 |   これは、[DeferFeatureUpdatesPeriodinDays 向けグループ ポリシーまたは MDM 設定](/windows/deployment/update/waas-configure-wufb)で、機能の更新を指定した日数 (最大 365 日) 保留にした場合に発生することがあります。 <br><br> Windows 10 バージョン 1903 は Microsoft Teams Rooms でサポートされていますが、バージョン 1809 はサポートされていません。 ただし、2020 年 3 月 27 日時点で、バージョン 1809 はリリースから 365 日以上経過しています。 この設定が変更されていない場合は、Windows は バージョン 1809 のインストールを試行します。これにより、Microsoft Teams Rooms で問題が発生する可能性があります。<br><br>このような状況を回避するには、更新を保留しているグループ ポリシーまたは MDM 設定のいずれかを **削除** します。 これにより、Windows はサポートされている最新の OS バージョンに更新されます。 <br><br>**重要** グループ ポリシーまたは MDM 設定は、**削除済み** (構成しないままにする) および **0 に設定しない** 必要があります。 ポリシーが 0 に設定された場合、Windows はサポートされていない可能性がある使用可能な最新バージョンを選択します。 |  なし |
 

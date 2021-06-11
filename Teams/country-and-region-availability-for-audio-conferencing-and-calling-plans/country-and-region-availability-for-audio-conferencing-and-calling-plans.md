@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 電話会議、電話システム、通話プラン、通信クレジット、有料および無料電話番号が国または地域で利用できる場合について説明します。
-ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3890fa79173dd6327830cc995bf41d79a0b2dde0
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122271"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873824"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -157,7 +157,7 @@ ms.locfileid: "51122271"
 > - [ベネズエラ](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-すべての国と地域を含むスプレッドシートを探している場合は、クラウド音声機能の国/地域の可用性スプレッドシート を **[ダウンロードして保存します](https://www.microsoft.com/download/details.aspx?id=102271)**。
+すべての国と地域を含むスプレッドシートを探している場合は、クラウド音声機能の国/地域の可用性スプレッドシート を **[ダウンロードして保存します](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-05252021)-(en-us).xlsx)**。
 
 ***
 
@@ -229,6 +229,6 @@ Skype for Business または Microsoft Teams サービスのいずれかを使�
   
 コミュニケーション クレジットを設定してユーザーにライセンスを割り当てない場合、(通話プランまたは電話会議プラン、または国/地域によっては) 組織の分数が使い切れた場合、通話を発信したり、会議からダイヤルアウトしたりできない場合があります。 推奨される利用可能残高などの詳細については、「[コミュニケーション クレジットについて](../what-are-communications-credits.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
