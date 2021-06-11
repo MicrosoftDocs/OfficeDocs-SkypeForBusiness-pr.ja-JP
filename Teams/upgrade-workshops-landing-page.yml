@@ -29,11 +29,11 @@ productDirectory:
     - title: アップグレードを計画する (ここから開始!)
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
       summary: Skype for Business Online (2021 年 7 月 31 日) の提供終了に先立って Teams にアップグレードする場合でも、Skype for Business オンプレミス環境から Teams にシナリオを移行する場合でも、移行が成功すると、技術的な準備とユーザーの準備の両方に対応できます。 Skype for Business Teams Online、Skype for Business Server、またはハイブリッド環境から Teams への移行を成功に役立て、実証済みのフレームワーク、ベスト プラクティス、リソースを発見します。 対象ユーザー – すべて (ビジネス スポンサー、IT 管理者、ユーザー準備/変更マネージャー、プロジェクト リード)
-      url: 'https://microsoftteams.eventbuilder.com/PlanYourUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsPlan'
     - title: アップグレードを実装Teamsする
       imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
       summary: お客様の目標と現在の環境に基づいて、すべてのワークロードを Teams に移行するための最適な技術アプローチを特定してSkype for Business準備してください。 移行が成功したほとんどのお客様は、現在の Teams Online、Skype for Business、またはハイブリッド実装とSkype for Business Serverを有効にしています。 このセッションでは、組織に最適な移行戦略を定義するのに役立つ重要な考慮事項と貴重なリソースを共有します。 対象ユーザー - IT 管理者
-      url: 'https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade'
+      url: 'https://aka.ms/SfBtoTeamsImplement'
 additionalContent:
   sections:
     - items:
