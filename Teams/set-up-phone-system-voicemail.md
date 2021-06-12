@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'ユーザーのアカウントをクラウド ボイスメールする方法について学習します。 '
-ms.openlocfilehash: 4ed61a825ce4e583c71f052020692e4478324003
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c6fbd02e30c5be0280b05088a1cec281c2534039
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117065"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901914"
 ---
 # <a name="set-up-cloud-voicemail"></a>クラウド ボイスメールのセットアップ
 
@@ -78,96 +78,6 @@ Online 電話システムの場合、クラウド ボイスメールにユーザ
     > - [Azure Information Protection のテンプレートの構成と管理](/information-protection/deploy-use/configure-policy-templates)
     > - [メールの [転送しない] オプション](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
-## <a name="setting-voicemail-policies-in-your-organization"></a>組織内のボイスメール ポリシーの設定
-
-> [!WARNING]
-> 顧客Skype for Business、通話ポリシーを通じてボイスメールを無効Microsoft Teams、ユーザーのボイスメール サービスを無効Skype for Businessがあります。
-
-既定では、すべての組織とユーザーに対して、ボイスメール トランスクリプションは有効に、トランスクリプション不適切表現マスキングは無効になっています。ただし、[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) と [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) コマンドレットを使用してそれらを制御することができます。
-
-組織内のユーザーが受信したボイスメール メッセージは、組織がホストされているMicrosoft 365またはOffice 365に書き起こされます。 テナントがホストされているリージョンは、ボイスメール メッセージを受信するユーザーが保存されているリージョンと同じではない可能性があります。 テナントがホストされているリージョンを表示するには、[組織プロファイル][](https://go.microsoft.com/fwlink/p/?linkid=2067339)ページに移動し、[データの場所] の横にある [詳細の **表示]****をクリックします**。
-
-> [!IMPORTANT]
-> **New-CsOnlineVoiceMailPolicy** コマンドレットを使用して、トランスクリプションおよびトランスクリプション不適切な文字起こしマスク用の新しいポリシー インスタンスを作成したり **、Remove-CsOnlineVoiceMailPolicy** コマンドレットを使用して既存のポリシー インスタンスを削除したりできない。
-
-ボイスメール ポリシーを使用してユーザーのトランスクリプション設定を管理することができます。 使用可能なすべてのボイスメール ポリシー インスタンスを表示するには [、Get-CsOnlineVoicemailPolicy コマンドレットを使用](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) できます。
-
-```PowerShell
-PS C:\> Get-CsOnlineVoicemailPolicy
-
-
-Identity                            : Global
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:Default
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:TranscriptionProfanityMaskingEnabled
-EnableTranscription                 : True
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : True
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-
-Identity                            : Tag:TranscriptionDisabled
-EnableTranscription                 : False
-ShareData                           : Defer
-EnableTranscriptionProfanityMasking : False
-EnableEditingCallAnswerRulesSetting : True
-MaximumRecordingLength              : 00:05:00
-EnableTranscriptionTranslation      : True
-```
-  
-### <a name="turning-off-transcription-for-your-organization"></a>組織のトランスクリプションをオフにする
-
-組織のトランスクリプションに関する既定の設定はオンになっており、[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) を使用して無効にすることができます。これを行う場合は、次を実行します。
-
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscription $false
-```
-
-### <a name="turning-on-transcription-profanity-masking-for-your-organization"></a>組織のトランスクリプション不適切表現マスキングをオンにする。
-
-組織では、トランスクリプション不適切表現マスキングは既定で無効になっています。 マスキングを有効にしなければならないビジネス上の要件がある場合は、[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) を使用してトランスクリプション不適切表現マスキングを有効にすることができます。 これを行う場合は、次を実行します。
-
-```PowerShell
-Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
-```
-
-### <a name="turning-off-transcription-for-a-user"></a>ユーザーのトランスクリプションをオフにする
-
-ユーザー ポリシーは組織の既定の設定より前に評価されます。 たとえば、すべてのユーザーに対してボイスメールトランスクリプションが有効になっている場合 [、Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) コマンドレットを使用して、特定のユーザーのトランスクリプションを無効にするポリシーを割り当てできます。
-
-単一ユーザーに対するトランスクリプションを無効にするには、次を実行します。
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
-```
-
-### <a name="turning-on-transcription-profanity-masking-for-a-user"></a>ユーザーのトランスクリプション不適切表現マスキングをオンにします。
-
-特定のユーザーに対してトランスクリプション不適切表現マスキングを有効にするには、ポリシーを割り当てて、[Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) コマンドレットを使用して特定のユーザーに対するトランスクリプション不適切表現マスキングを有効にすることができます。
-
-単一ユーザーに対するトランスクリプション不適切表現マスキングを有効にするには、次を実行します。
-
-```PowerShell
-Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -Identity sip:amosmar@contoso.com
-```
-
-> [!IMPORTANT]
-> Microsoft 365 および Office 365ボイスメール サービスは、ボイスメール ポリシーをキャッシュし、4 時間ごとにキャッシュを更新します。 このため、ポリシーを変更した場合、変更が適用されるまでに最長で 4 時間かかる場合があります。
-
 ## <a name="help-your-users-learn-teams-voicemail-features"></a>ユーザーがボイスメール機能Teams学習する
 
 ボイスメール設定の管理に関するユーザー向け情報と、その他の通話機能については、以下の情報Teams。
@@ -182,7 +92,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 - [Skype for Business 2016 トレーニング](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)

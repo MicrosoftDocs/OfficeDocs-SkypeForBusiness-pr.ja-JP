@@ -24,12 +24,12 @@ search.appverid: MET150
 description: クラウド音声機能のMicrosoft Teams、および組織に対して行うデプロイの決定について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b28a00e1737b533c17cf3f1f670bc23561620d
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: 391b8e2f30aa5e64fcb4b9e418af49341c2b9042
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689795"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901934"
 ---
 # <a name="plan-your-teams-voice-solution"></a>音声ソリューションTeams計画する 
 
@@ -135,7 +135,7 @@ ms.locfileid: "52689795"
 構成とその構成のクラウド ボイスメール、次の記事を参照してください。
 
 - [クラウド ボイスメールのセットアップ](set-up-phone-system-voicemail.md)
-- [組織内のボイスメール ポリシーを設定する](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization)
+- [組織内のボイスメール ポリシーを設定する](manage-voicemail-policies.md)
 
 
 ### <a name="calling-identity"></a>通話 ID

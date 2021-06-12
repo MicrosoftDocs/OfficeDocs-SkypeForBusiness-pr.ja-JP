@@ -17,18 +17,22 @@ search.appverid: MET150
 description: 緊急対応の場所を設定する方法についてMicrosoft 365 Business Voice。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fab5fead952837e2fb272819a600381252bcbf8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: e8f740034a67e1f2199b5a18aa34d67e16df43e2
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282534"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52907763"
 ---
 # <a name="step-1-set-up-a-business-voice-emergency-location"></a>手順 1: Business Voice の緊急対応の場所を設定する
 
 緊急対応の場所は、組織内の誰かが火災、警察、または緊急対応のサービスを呼び出す場合に使用されます。 ユーザーが緊急サービスに電話すると、組織の緊急対応の住所として構成された住所がサービスに送信されます。 この手順では、組織の主要な緊急対応の場所を設定します。 この場所は、後の手順で会社のメイン電話番号に関連付けられる予定です。
 
 ホーム オフィスや他の都市のオフィスなど、複数の場所にユーザーがある場合は、追加の緊急対応の場所を構成できます。 また、場所内の特定の場所を構成できます。 場所には、異なる建物、フロア、オフィス、またはユーザーが場所にある可能性があるその他の場所を指定できます。 Business Voice の初期セットアップを完了すると、追加の場所と場所を追加できます。
+
+次のビデオでは、管理センターでこれらの手順を完了Teams示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEZGE]
 
 ## <a name="add-an-emergency-location"></a>緊急対応の場所を追加する
 

@@ -16,16 +16,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
-ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
+ms.openlocfilehash: 93223a9d8077241cf8a36c3d216fcc78b5db3dc7
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52729790"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910069"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>キャリア コーチを購入、構成、有効化Microsoft Teams
 
 キャリア コーチは、Microsoft Teamsをナビゲートするパーソナライズされたガイダンスを提供する LinkedIn を搭載した教育アプリの一部です。 キャリア コーチは、学生がキャリア パスを発見し、現実世界のスキルを高め、ネットワークを 1 か所で構築するための統一されたキャリア ソリューションを教育機関に提供します。
+
+## <a name="supported-languages"></a>サポートされている言語
+キャリア コーチは、次の言語にローカライズされています。
+
+  - 中国語 (簡体字、中国大陸)
+  - 中国語 (繁体字、台湾)
+  - 英語 (米国)
+  - 英語 (U.K.)
+  - フランス語 (カナダ)
+  - フランス語 (フランス)
+  - ドイツ語 (ドイツ)
+  - 日本語 (日本)
+  - ポルトガル語 (ブラジル)
+  - スペイン語 (スペイン)
+  - スペイン語 (メキシコ)
 
 キャリア コーチの [詳細については、 を参照してください](https://aka.ms/career-coach)。
 

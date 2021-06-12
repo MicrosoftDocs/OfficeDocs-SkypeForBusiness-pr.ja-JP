@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 組織内のユーザーとサービスMicrosoft 365 Business Voice電話番号を設定する方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dcf582593cf09977f4992d6b78035a9726c12b8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 89cb3764e30fa0bf4fcfa9d6a18d29ca69786cef
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282544"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910039"
 ---
 # <a name="step-2-set-up-business-voice-phone-numbers"></a>手順 2: Business Voice の電話番号を設定する
 
@@ -36,6 +36,10 @@ ms.locfileid: "52282544"
 
 > [!NOTE]
 > 新しい電話番号が新しい電話番号で利用可能になるには、数時間かかるTeams。
+
+次のビデオでは、管理センターでこれらの手順を完了Teams示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENzQ]
 
 ## <a name="set-up-a-service-number"></a>サービス番号を設定する
 
