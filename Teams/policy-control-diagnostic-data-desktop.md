@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbac20caa3f1eff0ead7ef0bf7f11d55b7718903
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136052"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863228"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須デスクトップ診断データ
 
 次の記事では、Microsoft Teams デスクトップ イベントの一覧と、各イベントが収集するプロパティの一覧について説明します。
+
+Microsoft に送信される診断データを制御する方法を含め、診断データに関する詳細については、「[Teams アプリから Microsoft に送信される診断データ](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft)」を参照してください。 [診断データ ビューアー](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)を使用すると、Microsoft に送信されている診断データを表示できます。
 
 ## <a name="events"></a>イベント
 
@@ -92,7 +94,7 @@ ms.locfileid: "48136052"
 > [!NOTE]
 > トラッキング イベントのプロパティについては、[トラッキング イベントで送信されるプロパティ](#properties-sent-with-tracking-events)を参照してください。
 
-- **deeplink_scenario_missing** - Teams はディープリンクから起動されましたが、テレメトリ/診断がありません。
+- **deeplink_scenario_missing** - Teams がディープ リンクから起動しましたが、テレメトリ/診断がありません。
 - **desktop_app_initialized** - デスクトップ アプリケーションの初期化時にアプリケーションが正常に起動したかどうかを判断するために必要な情報を記録します。
 - **desktop_app_quit_exception** - アプリケーションを閉じようとしたときにクラッシュしました。
 - **desktop_blankScreenDetected** - デスクトップ アプリケーションが空白の画面をレンダリングするときにエラーを特定するために必要な情報を記録します。
@@ -205,7 +207,7 @@ ms.locfileid: "48136052"
 | Session_DesktopId                 | 一意のセッション ID                                                                  |
 | machineLocked                     | マシンがロックされているかどうかをキャプチャします                                          |
 | windowIsVisible                   | アプリ ウィンドウが使用可能であるかどうかをキャプチャします                                      |
-| appStates/webAppStates            | アプリが通過したアプリの状態の一覧を記録します。 アプリの状態を確認できるため、クラッシュ調査に役立ちます |
+| appStates/webAppStates            | アプリが通過したアプリの状態の一覧を記録します。これによりアプリの状態について確認できるため、クラッシュの原因調査に役立ちます |
 | crashDesktopSession               | クラッシュしたセッションの ID をキャプチャします                                                 |
 | appRuntime                        | アプリのランタイムをキャプチャします                                                        |
 | diagnosticEvents                  | アプリがクラッシュする前の過去50件のウェブ アプリ診断イベント                                 |
@@ -309,7 +311,7 @@ ms.locfileid: "48136052"
 
 | プロパティ           | 説明                                              |
 |--------------------|----------------------------------------------------------|
-| Panel_Uri          | ユーザーに配信されたパネルの URI                   |
+| Panel_Uri          | ユーザーに配信されるパネルの URI                   |
 | Panel_Type         | ユーザーがアクセスするパネルの種類                          |
 | Team_Id            | ユーザーがアクションを実行したチームの ID |
 | Thread_Id          | ユーザーがアクセスしたスレッドの ID               |
@@ -327,13 +329,13 @@ ms.locfileid: "48136052"
 | プロパティ名         | 説明                                                        |
 |-----------------------|--------------------------------------------------------------------|
 | Action_DestinationUri | ユーザー アクションによってアクセスされているリソースの URI                  |
-| Panel_Uri             | ユーザーに配信されたパネルの URI                             |
-| Action_Gesture        | アプリでユーザーが実行するジェスチャーの種類                       |
+| Panel_Uri             | ユーザーに配信されるパネルの URI                             |
+| Action_Gesture        | アプリでユーザーが実行するジェスチャの種類                       |
 | Action_ScenarioType   | 機能のビジネス メトリックに関連する機能のグループ化       |
 | Panel_Type            | ユーザーがアクセスするパネルの種類                                    |
 | Action_Outcome        | ユーザーが実行したアクションの結果                            |
 | Team_Id               | ユーザーがアクションを実行したチームの ID           |
-| Module_Type           | ユーザー アクションをホストしたモジュールの種類                        |
+| Module_Type           | ユーザーのアクションをホストしたモジュールの種類                        |
 | Module_Name           | ユーザー アクションをホストしたモジュールの名前                        |
 | Module_Summary        | ユーザー アクションをホースしたモジュールのまとめ                       |
 | Thread_Id             | ユーザーがアクセスしたスレッドの ID                         |

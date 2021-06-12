@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777905"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863218"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams のポリシー制御の概要
 
@@ -84,7 +84,7 @@ Teams ソフトウェアには、選択可能な 3 つのレベルの診断デ�
 
 組織の資格情報 (仕事用アカウントまたは学校用アカウントと呼ばれることもあります) を使用して Teams にサインインした場合、ユーザーは自分のデバイスの診断データのレベルを変更できません。
 
-この診断データには、ユーザーの名前、ユーザーの電子メール アドレス、または Office ファイルのコンテンツは含まれません。 Microsoft のシステムでは、ユーザーの診断データに関連付ける一意の ID を作成しています。 Teams アプリが 100 回クラッシュしたことを示す診断データを受信すると、この一意の ID によって、1 人のユーザーが 100 回クラッシュしたのか、100 人の異なるユーザーが 1 回ずつクラッシュしたかを判断できます。 この一意の ID を特定のユーザーの識別に使用することはありません。
+この診断データには、ユーザーの名前、メール アドレス、その他のユーザー コンテンツ (Teams で共有された Office ファイル、Teams 内で送信されたチャット メッセージ、Teams 内のチャネルで公開された投稿文など) は含まれません。 Microsoft のシステムでは、ユーザーの診断データに関連付ける一意の ID を作成しています。 Teams アプリが 100 回クラッシュしたことを示す診断データを受信すると、この一意の ID によって、1 人のユーザーが 100 回クラッシュしたのか、100 人の異なるユーザーが 1 回ずつクラッシュしたかを判断できます。 この一意の ID を特定のユーザーの識別に使用することはありません。
 
 どの診断データがMicrosoftに送信されているかを確認するには、Diagnostic Data Viewerを使用できます。このビューアは、Microsoft Store から無料でダウンロードしてインストールできます。 詳細については、「[Office で診断データ ビューアーを使用する](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)」を参照してください。
 

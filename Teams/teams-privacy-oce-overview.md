@@ -14,12 +14,12 @@ search.appverid: MET150
 description: この記事では、Microsoft Teams に表示されるオプションの接続エクスペリエンスについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b2cf94f660b7935ae61aadf21bdb9a7a78fb21
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 588dd904794ce79cfdcdbfa7fb9e17275f1d3661
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777888"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863238"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Microsoft Teamsでのオプションの接続エクスペリエンスについての概要
 
@@ -28,7 +28,7 @@ ms.locfileid: "52777888"
 管理者が Teams でオプションの接続エクスペリエンスを使用する機能を付与している場合は、Teams の **[設定]** > **[プライバシー]** に移動して、オプションの接続エクスペリエンスを使用するかどうかを選択できます。
 
 > [!NOTE]
-> 管理者の場合、ユーザーがオプションの接続エクスペリエンスを使用できるようにしたり、制限したりできます。 これを行うには、[Office クラウド ポリシー サービス](/deployoffice/overview-office-cloud-policy-service)を使用し、*Office での追加オプションである接続エクスペリエンスの使用を許可する* ポリシー設定を構成します。 
+> 管理者の場合、ユーザーがオプションの接続エクスペリエンスを使用できるようにしたり、制限したりできます。 これを行うには、[Office クラウド ポリシー サービス](/deployoffice/overview-office-cloud-policy-service)を使用し、*Office での追加オプションである接続エクスペリエンスの使用を許可する* ポリシー設定を構成します。 これは、Microsoft 365 Apps for enterprise に付属する Office アプリ (Word、Excel、PowerPoint など) でユーザーのオプションの接続環境を有効化するかを制御する同様のポリシー設定です。
 
 ## <a name="giphy"></a>GIPHY
 
