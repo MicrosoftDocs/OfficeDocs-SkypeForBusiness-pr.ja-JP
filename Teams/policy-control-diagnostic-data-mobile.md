@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723568"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863248"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須モバイル診断データ
 
 次の記事では、Microsoft Teams モバイル イベントの一覧と、各イベントが収集するプロパティの一覧について説明します。
+
+Microsoft に送信される診断データを制御する方法を含め、診断データに関する詳細については、「[Teams アプリから Microsoft に送信される診断データ](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft)」を参照してください。 [診断データ ビューアー](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)を使用すると、Microsoft に送信されている診断データを表示できます。
 
 ## <a name="events"></a>イベント
 
@@ -109,6 +111,8 @@ ms.locfileid: "52723568"
   - [設定] の番号。
 - **blockChat** - チャット ボットをブロックします。 これによりチャットの既存のテレメトリが強化され、アプリケーション情報のみが追加されます。
 - **botClickCardAction** - コネクタ カードの用途。
+- **brbFormOpened** - ユーザーによるフィードバックの送信要求。
+- **brbFormSubmit** - ユーザーがフィードバックを送信。
 - **breakStartEndClicked** - 画面の時計で、[**開始**] または [**休憩終了**] が選択されています。
 - **breakStartEndTriggered** - ユーザーが休憩の開始と終了を選択すると登録。
 - **bucketSelected** - バケットの選択が完了したことを確認します。
@@ -461,6 +465,7 @@ ms.locfileid: "52723568"
 - **dialOutDialog** - [**新しい番号**] がをアクション シートで選択されています。
 - **dialOutFailRetry** - [**再試行**] がエラー バナーで選択されています。
 - **DialPad** - 通話リストから [**DialPad**] ボタンが選択されています。
+- **directShare** - SMS/Email ネイティブ アプリへの招待リンクを共有しました。
 - **disableCategory** - 通知の種類を無効にするか、または着信呼び出し通知を無効にします。
 - **disabled** - [最初の実行エクスペリエンス] で [**通知をスキップする**] が選択されています。 これにより、[最初の実行エクスペリエンス] フローで通知をスキップするための重要な成功データが提供されます。
 - **disableQuietDays** - [通知オフ日] が無効です。 通知オフ日についての機能の成功テレメトリ。
@@ -625,6 +630,7 @@ ms.locfileid: "52723568"
 - **Launch source such as direct, link, appShortcut** - 直接またはリンクを介して起動します (アクティブなユーザーのデータを収集するために、アプリ起動時にモバイル アプリケーション管理 (MAM) またはモバイル デバイス管理 (MDM) テレメトリを記録します)。
 - **leaveChat** - チャット終了を確認します。
 - **legacyChatLink** - レガシ チャットにリンクが選択されています。
+- **link** - ユーザーが Teams アプリケーションを使うことによって、招待リンクを開きました。
 - **likeAppDismiss** - ユーザーがアプリを気に入ったかどうかを尋ねるプロンプトが表示され、応答がなければ終了します。
 - **likeAppNo** - ユーザーがアプリを気に入ったかどうかお尋ねるプロンプトにより、「いいえ」の応答を受信しました。
 - **likeAppYes** -ユーザーがアプリを気に入ったかどうかお尋ねるプロンプトにより、「はい」の応答を受信しました。
@@ -650,12 +656,13 @@ ms.locfileid: "52723568"
 - **location_active_tracking** - ユーザーのデバイスが [アクティブな追進捗管理] に切り替えられます。
 - **locationCard** - 位置カードを選択します。
 - **location_family_sync** - MSA ファミリ アプリで作成されたファミリ グループのメンバーが表示されています。 同意を得ることの可能なファミリの全メンバーが表示されることを確認します。
+- **location_data_use_privacy_denied** - ユーザーがプライバシー条件への同意を拒否しました。
 - **location_group_map_sync** - マップ ビューが開きます。
 - **location_map_load** - マップビューを読み込みます。
 - **location_map_markers_load** - マップ ビューを読み込みます。マップ ビューに、アクティブに共有中のすべてのユーザーの位置マーカーが正しく表示されることを確認します。
 - **location_message_send** - ユーザーが位置共有セッションを開始します。
 - **location_data_use_privacy_denied** - ユーザーが TFL による位置データの使用を説明するポップアップで [**今はしない**] を無視する、または選択します。
-- **location_data_use_privacy_granted** - ユーザーがTFL による位置データの使用を説明するポップアップで [**許可**] を無視する、または選択します。
+- **location_data_use_privacy_granted** - ユーザーが TFL による位置データの使用について説明するポップアップで [**許可**] を選択します。
 - **location_settings_open** - ユーザーが位置情報の設定を開きます。
 - **location_sharing_start** - ユーザーがチャットでライブ位置情報を共有します。
 - **location_sharing_stop** - ユーザーがチャットでライブ位置情報の共有を停止します。
@@ -855,6 +862,9 @@ ms.locfileid: "52723568"
 - **pinChannel** - チャネルをピン留めして、チームとチャネル リストの上に表示します。
 - **Pin セルフ** - アクション シートで自分自身をピン留めします。
 - **pinUser** - アクションシートでユーザーをピン留めします。
+- **place_created** - ユーザーが共有の場所を作成しました。
+- **place_deleted** - ユーザーが共有の場所を削除しました。
+- **place_edited** - ユーザーが共有の場所を編集しました。
 - **play** - レコーディングを再生します。
 - **playVoicemail** - ボイスメール アイテムで [**再生**] がタップされました。
 - **plusButtonClicked** - **プラス記号ボタン** (**+**) を選択します。
@@ -918,6 +928,7 @@ ms.locfileid: "52723568"
 - **reactRemoved_HB** - ユーザーが [リアクション サマリー] ページのエクスペリエンスにより、リアクションを削除した場合。
 - **readReceipts** - ユーザーが昨日有効化しました。
 - **redeemInvite** - アプリ内引き換え。
+- **redeemLinkInAppStart** - ユーザーが Teams アプリケーション内から招待リンクを開きました。
 - **refreshCalendarList** - プル ダウンで予定一覧ビューを更新します。
 - **refreshLinksGallery** - ユーザーが下方向にスワイプして、リンク ギャラリーを更新します。
 - **removeAssignee** - 担当者が割り当て選択ビューから削除されたことを確認します (割り当て選択ビューの外側にある [**x**] を選択したときにトリガーされる *assignmentRemoved* とは対照)。
@@ -958,6 +969,8 @@ ms.locfileid: "52723568"
 - **saveEditMeeting** - 会議の更新を行った後、 [会議のスケジューラー] ページで [**保存**] ボタンを選択します。
 - **saveNewMeeting** - [会議のスケジューラー] ページで [**保存**] ボタンを選択します。 正常に保存された会議と、クライアント側またはサービス エラーのために作成に失敗した会議の割合をログします。
 - **savePlanClicked** - [**作成**] がアプリの既定の起動により新しいプラン クリエータで選択されるとトリガーされます。
+- **scenarioChannelDashboard** - ユーザーのダッシュボードのタイルへの移動。
+- **scenarioDashboardNav** - ユーザーの会話内のダッシュボード タブ (チャット タブの一種) への移動。
 - **scheduledMeetingJoin** - スケジュール済みの会議オブジェクトから [**会議参加**] ボタンが選択されています。
 - **scrollCalendarList** - [カレンダー] でのスクロール測定。
 - **scrollDatePicker** - カレンダーの日付選択コントロールをスクロールします。
@@ -1013,6 +1026,8 @@ ms.locfileid: "52723568"
 - **settingsNavReadReceiptNotice** -　ユーザーが [機能の通知] から [設定] に移動しました。
 - **settingsOpened** - これは、ユーザーのデバイスのタイム ゾーンがチームのタイム ゾーンと一致せず、ユーザーが [設定] に移動するとトリガーされます。
 - **setupPinVault** - ユーザーがセーフ PIN を自分のアカウントに保存します。 
+- **shareCharmCompleted** - ユーザーがアプリケーション共有チャーム経由で招待リンクの共有を完了しました。
+- **shareCharmOpened** - ユーザーがアプリケーション共有チャームを介して招待リンクの共有を開始しました。 
 - **shareFile** - [**ファイルの共有**] が選択されるとトリガーされます。 また、以下の確認も手助けします。
   - ユーザーがファイル共有操作を開始できたかどうか。
   - ユーザーがファイルを正常に共有できるかどうか。
@@ -1127,6 +1142,8 @@ ms.locfileid: "52723568"
   - 転送先がをユーザーに設定されます。
   - 転送先がを電話番号に設定されます。
 - **translateFailed** - 翻訳に失敗しました (オフラインを除く)。 メッセージの翻訳機能についての機能の成功指標。
+- **trigger_created** - ユーザーがジオフェンスを作成しました。
+- **trigger_deleted** - ユーザーがジオフェンスを削除しました。
 - **unansweredCallForward** - 不在着信の転送先が設定されます。 不在着信通話の転送も有効になります ([通話を自分に着信する] が有効になっており、[不在着信] が有効な場合)。
 - **unblockCaller** - 以下のブロックを解除します。
   - アクション シートの連絡先または番号。
@@ -1225,6 +1242,7 @@ ms.locfileid: "52723568"
 - **fileUploadSuccess** - ファイルのアップロード操作が成功した場合に発生します。
 - **fileUploadSummaryNotification** - ファイル アップロードの概要通知の内容が変更されたり、通知が対話されたりした場合に発生します。 この対話式操作には、スワイプして通知を解除したり、通知をタップするなどのジェスチャーも含まれます。
 - **meetingFiles** - 会議ファイル画面を開いた場合に発生します。
+- **meetNowActionSheet** - ユーザーが Meet Now 会議を作成したときにトリガーされます。
 - **navPersonalFiles** - ファイル画面へのナビゲーションが行われた場合に発生します。
 
 ### <a name="scenario"></a>シナリオ
@@ -1238,7 +1256,7 @@ ms.locfileid: "52723568"
 - **app_start_hot** アプリのホット起動を監視するため (Android のみ)。
 - **app_start_warm** アプリのウォーム起動を監視するため (Android のみ)。
 - **chat_add_giphy** - Giphy GIF レンダリング アクションが成功したか失敗したかを確認します。
-- **cortanaError** Cortana エラーが発生するのを監視します。
+- **cortanaError** Cortana エラーの発生を監視します。
 - **cortanaView** - Cortana キャンバスの表示を監視します。
 - **cortanaRestart** Cortana の再起動を監視します。
 - **cortanaSetNewConversation** Cortana が新しい会話を設定するのを監視します。
@@ -1287,7 +1305,7 @@ ms.locfileid: "52723568"
 - **smart_reply_banned** - 現在のユーザーにスマート返信を表示できないことを確認します。
 - **update_planner_task_and_nav_to_view** - 共有タスク アイテムの正常な更新と、ユーザーが操作後に結果のビューに到達するまでにかかった時間を確認します。
 - **update_personal_task_and_nav_to_view** - 個人用タスク アイテムの正常な更新と、ユーザーが後に結果のビューに到達するまでにかかった時間を確認します 
-- **updatePlannerTask** - ユーザーが共有タスク リストのタスクを正常に更新したことを確認します。
+- **updatePlannerTask** - ユーザーが共有タスク リストにあるタスクを正常に更新したことを確認します。
 - **upload_images** 画像アップロード操作が成功したか失敗したかを確認します。
 - **upload_voice_messages** 音声メッセージのアップロード操作が成功したか失敗したかを確認します。
 - **voiceMessageUpload** 音声メッセージのアップロード操作が成功したか失敗したかを確認します。
