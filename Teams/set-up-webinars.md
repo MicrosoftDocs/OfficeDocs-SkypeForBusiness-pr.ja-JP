@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 会議のウェビナー ポリシーを管理するTeamsします。
-ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 14452b0caeee33f90b59f6581b6fccf4d5e0311b
+ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718048"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926749"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams でのウェビナーのMicrosoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "52718048"
 
 ## <a name="what-are-webinars"></a>ウェビナーとは
 
-ウェビナーは、講師と参加者が明確な役割を持つ構造化された会議です。多くの場合、トレーニング目的や販売およびマーケティングリード生成シナリオに使用されます。
+ウェビナーは、発表者と参加者が明確な役割を持つ構造化された会議です。多くの場合、トレーニング目的や販売およびマーケティングリード生成シナリオに使用されます。
 
 組織内でウェビナーを設定した後、ユーザーはウェビナーのスケジュールを設定し、出席者に登録を開きます。 多くのディスカッションやタスクの割り当てを含む従来の会議とは異なり、ウェビナーは対話型のプレゼンテーション用であり、出席者分析用のツールを提供します。
 
@@ -47,29 +47,30 @@ ms.locfileid: "52718048"
 コマンドレット [の詳細については、「Set-CsTeamsMeetingPolicy」](/powershell/module/skype/set-csteamsmeetingpolicy) を参照してください。
 
 > [!NOTE]
-> これらのコマンドレットを実行する前に、オンライン PowerShell Skype for Business接続する必要があります。 詳細については、「Manage Skype for Business Online with Microsoft 365 または Office 365 [PowerShell 」を参照してください](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+> これらのコマンドレットを実行する前に、PowerShell を使用して Microsoft Teamsする必要があります。 詳細については[、「PowerShell を使用してTeams管理Microsoft Teams参照してください](/microsoftteams/teams-powershell-managing-teams)。
 
 ### <a name="allow-users-to-schedule-webinars"></a>ユーザーにウェビナーのスケジュールを設定する
-
-組織内のユーザーがウェビナーのスケジュールを設定するには、次のコマンドを実行します。
-
-```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
-```
-### <a name="configure-who-can-register-for-webinars"></a>ウェビナーに登録できるユーザーを構成する
 
 登録を組織内のユーザーにのみ制限したり、テナントの内部と外部の両方のすべてのユーザーに登録を開くことができます。 既定では **、WhoCanRegister は** 有効であり、[すべてのユーザー] に **設定されています**。 会議の登録をオフにする場合は **、AllowMeetingRegistration** を False に **設定します**。
 
 > [!IMPORTANT]
-> **AllowMeetingRegistration** を機能するには **、AllowPrivateMeetingScheduling** を **True** に設定する必要があります。 また、Microsoft リストは、SharePoint で設定する必要SharePoint。 詳細については、「Microsoft リストの [コントロール設定」を参照してください](/sharepoint/control-lists)。
+> **AllowMeetingRegistration を機能するには、AllowPrivateMeetingScheduling** を **True** に設定 **する** 必要があります。 また、Microsoft リストは、SharePoint で設定する必要SharePoint。 詳細については、「Microsoft リストの [コントロール設定」を参照してください](/sharepoint/control-lists)。
 
-**組織内の *ユーザーにのみ* ウェビナーへの登録を許可するには、次のコマンドを実行します。**
+1. 会議の登録を有効にする
+
+```powershell
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
+```
+
+2. プライベート会議のスケジュールを有効にする
 
 ```powershell
 Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
-次に、次のコマンドを実行します。
+3. ウェビナーに登録できるユーザーを構成する
+
+**組織内 *の* ユーザーにのみウェビナーへの登録を許可する**
 
 ```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
@@ -78,16 +79,10 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **匿名ユーザーを含むすべてのユーザーがウェビナーに登録するには、次のコマンドを実行します。**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
-```
-
-次に、次のコマンドを実行します。
-
-```powershell
 Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
-> [!IMPORTANT]
+> [!CAUTION]
 > 会議の設定で匿名参加がオフになっている場合、匿名ユーザーはウェビナーに参加できます。 詳細とこの設定を有効にするには、「会議の設定」を参照[Teams。](meeting-settings-in-teams.md)
 
 ### <a name="collect-meeting-attendance"></a>会議出席を収集する

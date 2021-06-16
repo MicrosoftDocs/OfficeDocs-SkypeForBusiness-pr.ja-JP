@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: システム ダイレクト ルーティングMicrosoft 電話、サポートされている顧客提供のセッション ボーダー コントローラー (SBC) をシステムに接続する方法Microsoft 電話します。
-ms.openlocfilehash: 531b1f22a6a59a9ef72bf97be92ab15596736b80
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: b7d065cd8e89e07203d50e4e21a4ac5eb2ccd843
+ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656070"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52926759"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -229,26 +229,18 @@ Microsoft は、顧客からの要求に基づいて証明機関を追加する�
 - 最適なエクスペリエンスを提供します (読み込み量が少なく、最初の FQDN を照会することで割り当てられた SBC データセンターに最も近い)。
 - 一時的な問題が発生しているデータセンターへの SBC からの接続が確立された場合は、フェールオーバーを提供します。 詳細については、以下の「フェールオーバー メカニズム [」を参照](#failover-mechanism-for-sip-signaling) してください。  
 
-FQDN (sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.microsoft.com) は、次のいずれかの IP アドレスに解決されます。
+FQDN (sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.microsoft.com) は、次のサブネットの IP アドレスに解決されます。
 
-- 52.114.148.0
-- 52.114.132.46 
-- 52.114.75.24 
-- 52.114.76.76 
-- 52.114.7.24 
-- 52.114.14.70
-- 52.114.16.74
-- 52.114.20.29
-- 52.114.36.156 
-- 52.114.32.169
+- 52.112.0.0/14
+- 52.120.0.0/14
 
-これらのすべての IP アドレスのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。  ファイアウォールで DNS 名がサポートされている場合 **、FQDN** sip-all.pstnhub.microsoft.com すべての IP アドレスに解決されます。 
+これらのすべての IP アドレス範囲のポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。  ファイアウォールで DNS 名がサポートされている場合 **、FQDN** sip-all.pstnhub.microsoft.com IP サブネットすべてに解決されます。 
 
 > [!IMPORTANT]
-> ダイレクト ルーティングの拡張Teamsの一環として、2020 年 11 月にオーストラリアに直接ルーティング インフラストラクチャの新しいインスタンスをデプロイしました。 これは、オーストラリアのお客様 (sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.microsoft.com の 2 つの追加の IP アドレス (52.114.16.74 と 52.114.20.29) に反映されます。 これらの 2 つの IP アドレス (52.114.16.74 と 52.114.20.29) を IP アクセス制御リスト (ACL) に追加し、ファイアウォール内のすべての IP アドレスのポートを開いて、通知用のアドレス間の着信トラフィックと発信トラフィックを許可する必要があります。
+> ダイレクト ルーティングの拡張Teamsの一環として、2020 年 11 月にオーストラリアに直接ルーティング インフラストラクチャの新しいインスタンスをデプロイしました。 これは、オーストラリアのお客様 (sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.microsoft.com の 2 つの追加の IP アドレス (52.114.16.74 と 52.114.20.29) に反映されます。 これらの 2 つの IP アドレス (52.114.16.74 と 52.114.20.29) が IP アクセス制御リスト (ACL) で許可され、ファイアウォール内のすべての IP アドレスに対してポートが開放され、通知のためにアドレス間の着信トラフィックと発信トラフィックを許可する必要があります。
 
 > [!IMPORTANT]
-> ダイレクト ルーティングの拡張Teamsの一環として、2021 年 5 月に日本に直接ルーティング インフラストラクチャの新しいインスタンスをデプロイしました。 これは、sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.microsoft.com という 2 つの追加 IP アドレス (52.114.36.156 と 52.114.32.169) に反映されます。 これらの 2 つの IP アドレス (52.114.36.156 と 52.114.32.169) を IP アクセス制御リスト (ACL) に追加し、これらのすべての IP アドレスのポートを開いて、通知用のアドレス間の着信トラフィックと発信トラフィックを許可する必要があります。
+> ダイレクト ルーティングの拡張Teamsの一環として、2021 年 5 月に日本に直接ルーティング インフラストラクチャの新しいインスタンスをデプロイしました。 これは、sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.microsoft.com という 2 つの追加 IP アドレス (52.114.36.156 と 52.114.32.169) に反映されます。 これらの 2 つの IP アドレス (52.114.36.156 と 52.114.32.169) が IP アクセス制御リスト (ACL) で許可され、ファイアウォール内のすべての IP アドレスに対してポートが開放され、通知のためにアドレス間の着信および発信トラフィックを許可する必要があります。
 
 ### <a name="office-365-gcch-and-dod-environment"></a>Office 365GCCH および DoD 環境
 
@@ -256,10 +248,9 @@ FQDN (sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、sip3.pstnhub.micr
 
 **sip.pstnhub.dod.teams.microsoft.us** – グローバル FQDN。 DoD 環境Office 365米国のデータ センターにのみ存在する場合、第 2 および第 3 の FQDN はありません。
 
-FQDN sip.pstnhub.dod.teams.microsoft.us は、次のいずれかの IP アドレスに解決されます。
+FQDN sip.pstnhub.dod.teams.microsoft.us は、次のサブネットの IP アドレスに解決されます。
 
-- 52.127.64.33
-- 52.127.68.34
+- 52.127.64.0/21
 
 これらのすべての IP アドレスのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。
 
@@ -269,10 +260,9 @@ FQDN sip.pstnhub.dod.teams.microsoft.us は、次のいずれかの IP アドレ
 
 **sip.pstnhub.gov.teams.microsoft.us** – グローバル FQDN。 High 環境GCC米国のデータ センターにのみ存在する場合、第 2 および第 3 の FQDN はありません。
 
-FQDN sip.pstnhub.gov.teams.microsoft.us は、次のいずれかの IP アドレスに解決されます。
+FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アドレスに解決されます。
 
-- 52.127.88.59
-- 52.127.92.64
+- 52.127.64.0/21
 
 これらのすべての IP アドレスのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。 ファイアウォールで DNS 名がサポートされている場合 **、FQDN** sip-all.pstnhub.gov.teams.microsoft.us これらの IP アドレスすべてに解決されます。 この FQDN は、着信呼び出しの分類にフェデレーション FQDN として使用できます。
 

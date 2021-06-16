@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863248"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901944"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須モバイル診断データ
 
@@ -979,18 +979,11 @@ Microsoft に送信される診断データを制御する方法を含め、診�
   - 検索が正常に行われたか、またはユーザーが検索を中止したか。
   - 検索クエリが正常に実行されたか。
 - **searchContacts** - 通話リストから検索します。
-- **searchIcon** - 以下を判断します。
-  - 検索をトリガーできた場合。
-  - 検索トリガーのソース。
-  - 関連する結果が正常に検出された場合。
 - **[searchInitiated**] - 検索をトリガーの可否と検索トリガーのソースを決定します。
 - **searchMeetingParticipants** - 参加者を検索してスケジューラー フォーム内に追加します。 作成された予定の数と作成された会議の数を区別します。
 - **searchResultsClicked** - 以下を判断します。
   - 関連性がある結果が正常に検出されたかどうか。
   - 検索結果が、個々のドメインとは異なる [すべて] のタブからのものか。
-- **searchTab** - 以下を判断します。
-  - 検索結果のドメイン情報 - ユーザー、チャット、メッセージ、およびファイル。
-  - 検索結果が [すべて] のタブのものか、個々のドメインのものか。
 - **searchTabClicked** - 以下を判断します。
   - 検索結果のドメイン情報 - ユーザー、チャット、メッセージ、およびファイル。
   - 関連性がある結果が正常に検出されたかどうか。
@@ -1303,6 +1296,8 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **smart_reply_enabled** - 現在のユーザーに対してスマート返信が有効になっていることを確認します。
 - **smart_reply_received** - スマート返信の提案が受信されたことを確認します。
 - **smart_reply_banned** - 現在のユーザーにスマート返信を表示できないことを確認します。
+- **park_call_for_hold_v2** - コール パークを使用して通話の保留が成功したか失敗したかを確認します。
+- **unpark_call_for_hold_v2** - コール パーク解除を使用して通話の再開が成功したか失敗したかを確認します。 
 - **update_planner_task_and_nav_to_view** - 共有タスク アイテムの正常な更新と、ユーザーが操作後に結果のビューに到達するまでにかかった時間を確認します。
 - **update_personal_task_and_nav_to_view** - 個人用タスク アイテムの正常な更新と、ユーザーが後に結果のビューに到達するまでにかかった時間を確認します 
 - **updatePlannerTask** - ユーザーが共有タスク リストにあるタスクを正常に更新したことを確認します。
@@ -1320,7 +1315,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **server_fetch_date_picker_view_incremental** Outlook REST API を使用した予定表イベントの増分同期が成功したか失敗したかを確認します。
 - **meeting_details** 会議の詳細の同期が成功したか失敗したかを確認します。
 - **show_meeting_participants** 会議参加者リストの表示が成功または失敗したことを確認します。
-
+- **search** 検索セッション全体が成功したか失敗したかを確認します。
 
 ## <a name="property-lists"></a>プロパティ リスト
 

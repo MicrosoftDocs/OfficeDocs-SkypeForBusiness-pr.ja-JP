@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b2bae63b2a37b5c5739a988cfe69f23b7609e63b
-ms.sourcegitcommit: cfef9dd41cac0df83bd02b35036d8f8f1b472feb
+ms.openlocfilehash: 7946d6c098979d478f91d8ef67a3214c11823d7d
+ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51697822"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929323"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報バリア
 
@@ -29,7 +29,7 @@ ms.locfileid: "51697822"
 
 >[!NOTE]
 >- テナント間で情報バリア (IB) グループを作成することはできません。
->- ボット、Azure Active Directory (Azure AD) アプリ、およびユーザーを追加する一部の API の使用は、バージョン 1 ではサポートされていません。
+>- ボット、Azure Active Directory (Azure AD) アプリ、アクティビティ フィード通知を送信する API、およびユーザーを追加する一部の API の使用は、バージョン 1 ではサポートされていません。
 >- プライベート チャネルは、構成する IB ポリシーに準拠しています。
 >- 新機能: SharePoint に接続されているサイトのバリアのサポートについては、「Teams サイトに関連付けられているセグメント」[をMicrosoft Teamsしてください](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
