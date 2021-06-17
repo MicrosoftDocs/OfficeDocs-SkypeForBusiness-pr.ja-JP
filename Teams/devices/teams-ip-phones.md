@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すMicrosoft Teams電話と電話について学習します。
-ms.openlocfilehash: f0bd721dd11c81cb294ce3fc5694798867bc3526
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 594470affe3de69d2190fadcdbbae96aaa9bc3c7
+ms.sourcegitcommit: a188b3457a923744ffdc35f8efe3e5440af83256
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910079"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "52957686"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認定デバイス
 
@@ -44,7 +44,8 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 
 |デバイス モデル                         | ファームウェアのバージョン                                                                                                                                                                                                                           | リリース日
 |:---------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|
-| クレスロン UC-P10-T (ハンドセット付き/ハンドセットなし)    | 1.0.0.80                                                 | 2021 年 5 月                     |
+| クレスロン UC-P10-T (ハンドセット付き/ハンドセットなし)    | 1.0.0.80                                                 | 2021 年 5 月             |
+| クレスロン UC-P8-T (ハンドセット付き/ハンドセットなし)     | 1.0.0.56                                                 | 2021 年 2 月        
 | クセロン UC-P10-C-T (ハンドセット付き/ハンドセットなし)  | 1.0.0.80                                                 | 2021 年 5 月                     |
 | クセロン UC-P8-C-T (ハンドセット付き/ハンドセットなし)   | 1.0.0.80                                                 | 2021 年 5 月                     |
 | Yealink MP52                           | 145.15.0.6                                               | 2021 年 4 月                   |
@@ -52,7 +53,7 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 | AudioCodes C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 | AudioCodes C448HD (CAP モードのみ)      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
-|クレスロン UC-2                           |1.0.1.46                                                  | 2020 年 7 月                    |
+| クレスロン UC-2                          |1.0.1.46                                                  | 2020 年 7 月                    |
 | Crestron M100                          | この製品は廃止されました。 詳細については、クノドロンの Web サイトの「クノドロン [M100」](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) を参照してください。 | 廃止 (2020 年 5 月 11 日) |
 | Crestron Flex UC-P100-T & UC-P110-T    | この製品は廃止されました。 詳細については、Uc[電話の](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)Web サイトを参照してください。                  | 廃止 (2020 年 5 月 11 日) |
 | Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | 2020 年 4 月                   |
@@ -101,6 +102,7 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 |:------------------------|:-----------------|:--------------|
 |クレスロン TSS-770 | 1.003.0082 |2021 年 2 月 |
 |クレスロン TSS-1070 | 1.003.0082 |2021 年 2 月 |
+|Yealink RoomPanel | 147.15.0.2 |2021 年 5 月 |
 
 ### <a name="product-release-information-for-teams-phones"></a>携帯電話の製品Teams情報
 

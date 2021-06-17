@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 管理機能のMicrosoft Teamsノート。
-ms.openlocfilehash: 6d634d89c5b810b0df149385e020ab0944def475
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: 94213748d55e91022f19e29a48dab7f4fe6e5199
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705261"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947609"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>管理機能のMicrosoft Teamsノート
 
@@ -31,13 +31,13 @@ ms.locfileid: "52705261"
 
 ### <a name="career-coach"></a>キャリア コーチ
 
-キャリア コーチは、Microsoft Teamsをナビゲートするパーソナライズされたガイダンスを提供する LinkedIn を搭載した教育アプリの一部です。 キャリア コーチは、学生がキャリア パスを発見し、現実世界のスキルを高め、ネットワークを 1 か所で構築するための統一されたキャリア ソリューションを教育機関に提供します。 [詳細情報を参照してください](../career-coach.md)。
+キャリア コーチは、Microsoft Teams for Educationの学生がキャリア体験をナビゲートするパーソナライズされたガイダンスを提供する LinkedIn を搭載したアプリです。 キャリア コーチは、学生がキャリア パスを発見し、現実世界のスキルを高め、ネットワークを 1 か所で構築するための統一されたキャリア ソリューションを教育機関に提供します。 [詳細情報を参照してください](../career-coach.md)。
 
 ## <a name="march-31-2021"></a>2021 年 3 月 31 日
 
 ### <a name="share-to-teams-from-outlook"></a>共有してTeamsからOutlook
 
-[共有] Teams Outlookメール メッセージまたは会話のコピー (添付ファイルを含む) を他のチャットやチャネルTeams送信できます。 メールの **[共有] Teams** リボンまたはOutlookメニューで[共有する] オプションを探します。 Share to Teamsでは、web Outlook、Outlook、Windows、新しいOutlook for Mac Preview。 [詳細情報を参照してください](../teams-outlook-share-teams.md)。
+[共有] Teams Outlookメール メッセージまたは会話のコピー (添付ファイルを含む) を他のチャットやチャネルTeams送信できます。 メールの **[共有] Teams** リボンまたはOutlookメニューで[共有する] オプションを探します。 Share to Teamsでは、Outlook on the web、Outlook、Windows の新しいOutlook for Mac Preview。 [詳細情報を参照してください](../teams-outlook-share-teams.md)。
 
 ## <a name="march-30-2021"></a>2021 年 3 月 30 日
 
@@ -146,7 +146,7 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 
 ## <a name="december-9-2020"></a>2020 年 12 月 9 日
 
-### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>学習経路TeamsのMicrosoft 365アドバイザー
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>Teams Pathways を使用Microsoft 365 ラーニングアドバイザー
 
 Microsoft 365 学習経路は、ユーザーをトレーニングし、組織内のチームの使用と導入を増やすためにカスタマイズできるオンデマンド学習ソリューションです。 学習経路を Teams アドバイザーと一緒に使用して、ユーザーを迅速に稼働させ、導入を促進します。
 
@@ -154,9 +154,9 @@ Microsoft 365 学習経路は、ユーザーをトレーニングし、組織内
 
 ## <a name="october-28-2020"></a>2020 年 10 月 28 日
 
-### <a name="get-started-with-teams-in-healthcare"></a>医療のTeamsを開始する
+### <a name="get-started-with-teams-in-healthcare"></a>医療で Teams の使用を開始する
 
-Microsoft Teamsには、病院や他の医療組織に役立つ次の機能が多数用意されています。
+Microsoft Teams には、病院や他の医療組織に役立つ次の機能が多数用意されています。
 
 - バーチャル受診と電子健康記録 (EHR) 統合
 - Teams ポリシー パッケージ
@@ -168,25 +168,25 @@ Microsoft Teamsには、病院や他の医療組織に役立つ次の機能が�
 
 ## <a name="october-27-2020"></a>2020 年 10 月 27 日
 
-### <a name="teams-displays"></a>Teams表示
+### <a name="teams-displays"></a>Teams の表示
 
-Microsoft Teamsディスプレイは、周囲のタッチスクリーンと Cortana を利用したハンズフリーエクスペリエンスを備Teamsデバイスの 1 つの専用デバイスのカテゴリです。 [詳細情報を参照してください](../devices/teams-displays.md)。
+Microsoft Teams のディスプレイは、周囲のタッチスクリーンと Cortana を利用したハンズフリーエクスペリエンスを備える、1 つの専用 Teams デバイスのカテゴリです。 [詳細情報を参照してください](../devices/teams-displays.md)。
 
 ## <a name="october-22-2020"></a>2020 年 10 月 22 日
 
-### <a name="manage-skype-for-business-settings-for-your-users"></a>ユーザー Skype for Business設定を管理する
+### <a name="manage-skype-for-business-settings-for-your-users"></a>ユーザーの Skype for Business 設定を管理する
 
-管理センターでSkype for Business組織内Skype for Businessユーザーの設定Microsoft Teams管理できます。  ユーザーの詳細ページSkype for Businessタブに移動します。 ここから、個々のユーザーの外部アクセスと会議の設定を管理できます。 [詳細情報を参照してください](../skype-for-business-settings.md)。
+組織内の Skype for Business ユーザーの Skype for Business 設定は、Microsoft Teams 管理センターで管理できます。  ユーザーの詳細ページの [Skype for Business] タブに移動します。 ここから、個々のユーザーの外部アクセスと会議の設定を管理できます。 [詳細情報を参照してください](../skype-for-business-settings.md)。
 
-### <a name="manage-skype-for-business-settings-for-your-organization"></a>組織Skype for Business設定を管理する
+### <a name="manage-skype-for-business-settings-for-your-organization"></a>組織の Skype for Business 設定を管理する
 
-組織のユーザー Skype for Business管理センター Skype for Businessユーザーの機能Microsoft Teams管理できます。 [組織全体 **の設定] に移動**  >  **Skype for Business。** ここから、会議ブロードキャスト、プレゼンスSkype通知を管理できます。 [詳細情報を参照してください](../skype-for-business-settings.md)。
+組織内の Skype for Business ユーザー向け Skype for Business 機能は、Microsoft Teams 管理センターで管理できます。 [組織全体 **の設定]**  >  **Skype for Business に移動します**。 ここから、Skype 会議ブロードキャスト、プレゼンス、モバイル通知を管理できます。 [詳細情報を参照してください](../skype-for-business-settings.md)。
 
 ## <a name="october-16-2020"></a>2020 年 10 月 16 日
 
 ### <a name="manage-shift-based-access-for-frontline-workers"></a>Frontline Worker のシフトベースのアクセスを管理する
 
-管理者は、組織内の Frontline Worker のシフトベースのプレゼンス状態のセットを表示して、シフトのオンとオフを示す Teams を構成できます。 シフトベースのアクセスでは、Frontline Worker がシフト外のTeamsへのアクセスを管理できます。 たとえば、スケジュールされたシフトに移動していない場合に Teams を使用する前に、Frontline Worker が確認する必要があるメッセージを表示する Teams を設定できます。 [詳細情報を参照してください](../expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)。
+管理者は、組織内の Frontline Worker のシフトベースのプレゼンス状態のセットを表示して、シフトのオンとオフを示す一連の Teams を構成できます。 シフトベースのアクセスでは、Frontline Worker がシフト外のときに Teams へのアクセスを管理できます。 たとえば、スケジュールされたシフトに移動していない場合に、Frontline Worker が Teams を使用する前に確認する必要があるメッセージを表示する Teams を設定できます。 [詳細情報を参照してください](../expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md)。
 
 ## <a name="october-15-2020"></a>2020 年 10 月 15 日
 
@@ -196,7 +196,7 @@ Microsoft Teamsディスプレイは、周囲のタッチスクリーンと Cort
 
 カスタム ポリシー パッケージを使用すると、組織内で同様のロールを持つユーザーに対して独自のポリシー セットをバンドルできます。 必要なポリシーの種類とポリシーを追加して、独自のポリシー パッケージを作成します。 [詳細情報を参照してください](../manage-policy-packages.md#custom-policy-packages)。
 
-### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>管理センターでチームにアプリをMicrosoft Teamsする
+### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームにアプリを追加する
 
 Microsoft Teams 管理センターの [アプリの管理] ページで、[チームに追加] ボタンを使用して、アプリをチームにインストールできます。 [詳細情報を参照してください](../manage-apps.md)。
 
@@ -210,9 +210,9 @@ Microsoft Teams には、会議の記録を保存するための新しい方法�
 
 最大 300 人のユーザーを含む中小企業で、現在電話会議ライセンスを持ってない場合は、電話会議を 1 年間無料で利用できます。 この無料オファーは、2020 年 10 月 1 日から利用できます。 [詳細情報を参照してください](../audio-conferencing-smb.md)。
 
-### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>アプリのアクセス許可を表示し、管理センターで管理者Microsoft Teams付与する
+### <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでアプリのアクセス許可を表示し、管理者の同意を付与する
 
-Teams 管理センターのグローバル管理者は、Azure Active Directory に登録されている Graph API のアクセス許可を確認し、同意を付与できます。これは、アプリが要求しているアクセス許可 (チームに格納されている情報の読み取り、ユーザーの代理での電子メールの送信など) に対してテナント全体に代わって行うことができます。 IT 管理者は、管理センター内のアプリに対するリソース固有の同意 (RSC) アクセス許可Teams確認できます。 管理者は、既に組織で使用を確認し、承認したサードパーティ製アプリのユーザーのブロックを解除できます。 [詳細情報を参照してください](../app-permissions-admin-center.md)。
+Teams 管理センターでは、グローバル管理者は、Azure Active Directory に登録されている Graph API のアクセス許可を確認し、同意を付与できます。これは、アプリが要求しているアクセス許可 (チームに保存されている情報の読み取り、ユーザーに代わって電子メールを送信するなど) に対してテナント全体に代わって行うことができます。 IT 管理者は、Teams 管理センター内のアプリに対するリソース固有の同意 (RSC) アクセス許可を確認できます。 管理者は、既に組織で使用を確認し、承認したサードパーティ製アプリのユーザーのブロックを解除できます。 [詳細情報を参照してください](../app-permissions-admin-center.md)。
 
 ### <a name="calling-plans-support-for-austria-denmark-italy-portugal-sweden-and-switzerland"></a>オーストリア、デンマーク、イタリア、ポルトガル、スウェーデン、スイスの通話プランのサポート
 
@@ -222,7 +222,7 @@ Teams 管理センターのグローバル管理者は、Azure Active Directory 
 
 ### <a name="meeting-policy-settings"></a>会議ポリシーの設定
 
-IP オーディオと IP ビデオの 2 つのポリシー設定を Teams会議ポリシーに追加する: IP オーディオのモードと IP ビデオのモード。 これで、会議ポリシーの受信および発信 IP オーディオと IP Teams設定できます。 [詳細情報を参照してください](../meeting-policies-audio-and-video.md)。
+Teams 会議ポリシーに IP オーディオと IP ビデオの 2 つのポリシー設定を追加する: IP オーディオのモードと IP ビデオのモード。 Teams 会議ポリシーで、受信および送信 IP オーディオと IP ビデオを設定できます。 [詳細情報を参照してください](../meeting-policies-audio-and-video.md)。
 
 ## <a name="september-27-2020"></a>2020 年 9 月 27 日
 
@@ -232,15 +232,15 @@ IP オーディオと IP ビデオの 2 つのポリシー設定を Teams会議�
 
 ## <a name="september-24-2020"></a>2020 年 9 月 24 日
 
-### <a name="teams-integration-with-android-contacts"></a>Teams Android 連絡先との統合
+### <a name="teams-integration-with-android-contacts"></a>Teams と Android 連絡先の統合
 
-Android Phonebook をTeamsを使用して通話を直接行います。
+Android Phonebook から Teams を使用して直接通話します。
 
 ## <a name="september-21-2020"></a>2020 年 9 月 21 日
 
 ### <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターで Microsoft Power Platform アプリを管理する
 
-管理者は、Teams の [アプリ] ページで、ユーザーが [Built by your colleagues] で Microsoft Power Platform アプリを表示およびインストールできるかどうかを制御できます。 Power Apps で作成されたアプリまたは Power Virtual Agents で作成されたアプリはすべて、[アプリの管理] ページの組織レベルで、またはアプリの[](../manage-apps.md)アクセス許可ポリシーを使用して特定のユーザーに対して、まとめてブロックまたは許可[できます](../teams-app-permission-policies.md)。 [詳細情報を参照してください](../manage-power-platform-apps.md)。
+管理者は、Teams の [アプリ] ページで、ユーザーが [Built by your colleagues] で Microsoft Power Platform アプリを表示およびインストールできるかどうかを制御できます。 Power Apps で作成されたアプリ、または Power Virtual Agents で作成されたアプリはすべて、[アプリの管理][](../manage-apps.md)ページの組織レベルで、またはアプリのアクセス許可ポリシーを使用して特定のユーザーに対して、まとめてブロックまたは許可[できます](../teams-app-permission-policies.md)。 [詳細情報を参照してください](../manage-power-platform-apps.md)。
 
 ## <a name="september-19-2020"></a>2020 年 9 月 19 日
 
@@ -256,9 +256,9 @@ Teams のライブ イベント設定を使用して、組織で保持されて�
 
 ## <a name="september-15-2020"></a>2020 年 9 月 15 日
 
-### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>Skype for BusinessPowerShell モジュールに統合Teamsオンライン コネクタ
+### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>Teams PowerShell モジュールに統合された Skype for Business Online Connector
 
-最新の Teams PowerShell パブリック リリースは Skype for Business Online コネクタと統合され、Teams PowerShell 管理用の単一モジュールを提供します。 [詳細情報を参照してください](../teams-powershell-overview.md#manage-teams-with-powershell)。
+最新の Teams PowerShell パブリック リリースは Skype for Business Online コネクタと統合され、Teams PowerShell 管理用の単一モジュールを提供します。  [詳細情報を参照してください](../teams-powershell-overview.md)。
 
 ## <a name="september-8-2020"></a>2020 年 9 月 8 日
 
@@ -298,11 +298,11 @@ Teams のライブ イベント設定を使用して、組織で保持されて�
 
 ## <a name="august-14-2020"></a>2020 年 8 月 14 日
 
-### <a name="cortana-voice-skills-in-teams"></a>Cortana の音声スキル (Teams
+### <a name="cortana-voice-skills-in-teams"></a>Cortanaでの音声スキルのTeams
 
-Teams アプリの Cortana 音声スキルは、ユーザーが話し言葉の自然言語を使用するだけで会議、コミュニケーション、コラボレーションのタスクを実行するのに役立ちます。 ユーザーは、Teams アプリのマイク ボタンをクリックして Cortana と話し、家事を調整したり、犬を歩いている間、または一般的に移動中に他のユーザーと接続する必要がある場合は、"通話 Megan" や "次の会議にメッセージを送信する" のような要求を行います。 ユーザーは、"次の会議に参加" と言って会議に参加したり、"今朝は何を持っていますか" と尋ねるだけで予定表を確認できます。 会議または通話に参加すると、会議ステージのオーバーフロー メニューから Cortana を呼び出し、名前または番号でユーザーを追加 ("通話にメーガンを追加")、デッキ プレゼンテーション ("四半期レビュー デッキを表示") やスライドの移動 ("付録 スライドに移動") などの一般的な会議中タスクを実行できます。 この機能でサポートされているその他の機能は、ファイルの検索と共有、検索、Teams アプリ内の移動です (「John とチャットを開く、未読のアクティビティに移動する、メンションに移動する」など)。
+Cortana アプリで音声スキルをTeamsは、ユーザーが話し言葉の自然言語を使用するだけで、会議、コミュニケーション、コラボレーションのタスクを実行するのに役立ちます。 ユーザーは、Teams アプリのマイク ボタンをクリックして Cortana と話し、家事を取り合っている間に、または犬を歩いている間、または一般的に移動中に他のユーザーと接続する必要がある場合は、"通話 Megan" や "次の会議にメッセージを送信する" のような要求を行います。 ユーザーは、"次の会議に参加" と言って会議に参加したり、"今朝は何を持っていますか" と尋ねるだけで予定表を確認できます。 会議または通話に参加すると、会議ステージのオーバーフロー メニューから Cortana を呼び出し、名前または番号でユーザーを追加 ("通話にメーガンを追加")、デッキ プレゼンテーション ("四半期レビュー デッキを表示") やスライドの移動 ("付録 スライドに移動") などの一般的な会議中タスクを実行できます。 この機能でサポートされているその他の機能は、ファイルの検索と共有、検索、Teams アプリ内の移動です (「John とチャットを開く、未読のアクティビティに移動する、メンションに移動する」など)。
 
-Teams Cortana は、Online Services Terms (OST) に反映されている Cortana エンタープライズ サービスと同じエンタープライズ レベルのプライバシー、セキュリティ、コンプライアンスの約束を[満たしています](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)。 [詳細情報を参照してください](../cortana-in-teams.md)。
+Cortana Teams は、Online Services Terms (OST) に反映されている Cortana エンタープライズ サービスと同じエンタープライズ レベルのプライバシー、セキュリティ、およびコンプライアンスの約束を[満たしています](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)。 [詳細情報を参照してください](../cortana-in-teams.md)。
 
 ### <a name="teams-devices-administrator"></a>Teamsデバイス管理者
 
