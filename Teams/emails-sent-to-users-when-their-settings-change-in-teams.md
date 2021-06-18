@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'ユーザーのダイヤルイン会議の設定が変更された場合に、ユーザーにメールで自動的に送信される情報Microsoft Teams。 '
-ms.openlocfilehash: a9ca30e7e701afca2e42eccfaef4f3d45660cd3a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 590d2b9431950464aab051b73a70a1c30e6a55ad
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120758"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004209"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft Teams で設定を変更したときにユーザーに送信されるメール
 
@@ -101,8 +101,15 @@ ms.locfileid: "51120758"
 
 **Windows PowerShell を使用する**
 
-詳細については、[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)をご覧ください。
+PowerShell モジュールの Microsoft Teams使用して、次のコマンドを実行できます。
 
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
+```
+
+Windows PowerShell を使用して、次を実行することもできます。[](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings)
+
+詳細については、[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)をご覧ください。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 

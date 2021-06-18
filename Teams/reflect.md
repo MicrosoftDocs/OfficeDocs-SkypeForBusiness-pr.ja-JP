@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
-ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
+ms.openlocfilehash: 981061e4892f679dac2a4e4f47fdcc929e6a02fb
+ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52070653"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52997706"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Microsoft Teams の Reflect への IT 管理者ガイド
 
@@ -45,7 +45,7 @@ Reflect で収集、表示される情報は、学生、子供、その他同様
 
 データは Education Insights に保存されます。 既定では、Education Insights はオンになっています。 オプトアウトすると、Reflect 用に収集された **すべてのデータが削除されます**。 Education Insights をオンに戻すと、データが再度有効になった時点からデータの収集が開始されます。
 
-「[Education Insights への IT 管理者ガイド](class-insights.md)」では、Education Insights の仕組み (保存場所など) や、データを削除したり、サービスを有効にしたりする際に [Education Insights をオフまたはオンにする方法](class-insights.md#turn-insights-off-or-on)について説明しています。
+「[Education Insights への IT 管理者ガイド](class-insights.md)」では、Education Insights の仕組み (保存場所など) や、データを削除したり、サービスを有効にしたりする際に [Education Insights をオフまたはオンにする方法](class-insights.md#turn-insights-on-or-off)について説明しています。
 
 Reflect では学生からデータを収集しますが、ゲスト データは収集されません。 **学生がゲストとして定義されている場合には、そのユーザーのデータは収集されません。** 
 

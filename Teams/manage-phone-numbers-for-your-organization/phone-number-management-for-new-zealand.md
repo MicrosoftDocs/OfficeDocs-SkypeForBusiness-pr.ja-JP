@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ニュージーランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 61e21dfba5c91105f99cacca4a51cf340a7187ec
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 930b2068071fe6a0d99019e136eb50179e60cae9
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130477"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993900"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>電話の番号管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "52130477"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。|ニュージーランドでは、管理センターから組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして送信することで、新しい電話番号の要求 [を送信できます](mailto:ptneu@microsoft.com)。<br/><br/>[ニュージーランドの新しい電話番号要求 (v.1.0) (en-nz)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力して、送信する必要があります。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。|ニュージーランドでは、管理センターから組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして送信することで、新しい電話番号の要求 [を送信できます](mailto:ptneu@microsoft.com)。<br/><br/>[ニュージーランド (v.1.0) (mi-nz)](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf)の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力して、送信する必要があります。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
 |転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[ニュージーランドの承認状 (LOA) (すべての数値) (v.1.0) (en-nz)](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/><br>この市場では、ポートの複雑さによっては、移行に 1 ~ 6 週間かかる場合があります。<br/><br/>現時点では、これらの番号を会議に使用できません。  |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |

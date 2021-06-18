@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 543060371a42c3b0c514828779be14676fda8a25
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 8dd0120f0a92591b3417d01c7a86c396161215a1
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469619"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004159"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -89,7 +89,11 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 
 ## <a name="private-channel-sharepoint-sites"></a>プライベート チャネル SharePoint サイト
 
-各プライベート チャネルには、独自の SharePoint サイトがあります。 個別のサイトは、プライベート チャネル ファイルへのアクセスがプライベート チャネルのメンバーのみに制限されることを確保するためにあります。 これらのサイトは規定でドキュメント ライブラリを使用して作成され、[サイト管理インターフェイス](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)を介してフル機能のサイトへと簡単に拡張できます。 各サイトは、親チームのサイトと同じ地理的な場所に作成されます。 これらの軽量サイトは、PowerShell および Graph API による管理を容易にするためのカスタム テンプレート ID "TEAMCHANNEL#0" を持っています。 注意: プライベート チャネルの SharePoint サイトは、新しい SharePoint 管理センターのアクティブ サイト ページには含まれていません。
+各プライベート チャネルには、独自の SharePoint サイトがあります。 個別のサイトは、プライベート チャネル ファイルへのアクセスがプライベート チャネルのメンバーのみに制限されることを確保するためにあります。 これらのサイトは規定でドキュメント ライブラリを使用して作成され、[サイト管理インターフェイス](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)を介してフル機能のサイトへと簡単に拡張できます。 各サイトは、親チームのサイトと同じ地理的な場所に作成されます。 これらの軽量サイトは、PowerShell および Graph API による管理を容易にするためのカスタム テンプレート ID "TEAMCHANNEL#0" を持っています。 
+
+>[!NOTE]
+>プライベート チャネルの SharePoint サイトは、新しい SharePoint 管理センターのアクティブ サイト ページには含まれていません。
+>2021 年 6 月 28 日以降に作成されたプライベート チャネル SharePoint サイトには、カスタム テンプレート ID TEAMCHANNEL#1 が含まれます。
 
 プライベート チャネル サイトはデータ分類を同期し、親チームのサイトからゲスト アクセス許可を継承します。 サイトの所有者およびメンバー グループのメンバーシップは、Teams 内のプライベート チャネルのメンバーシップと同期します。 SharePoint 内の所有者またはメンバー グループのメンバーシップに対する変更は、4 時間以内にプライベート チャネル メンバーシップに自動的に戻されます。 特定のユーザーがプライベート チャネル メッセージにアクセスせずにドキュメントにアクセスする必要があるシナリオでは、そのユーザーをサイトのビジター グループに追加するか、所有者およびメンバーとは別の新しいグループに追加します。
 

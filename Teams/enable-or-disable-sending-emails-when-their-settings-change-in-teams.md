@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'ピン留め変更や既定の電話会議番号の変更などの設定Skypeを有効または無効にして、ユーザーにメールを送信する方法について説明Microsoft Teams。 '
-ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 17c2864703eafa2c70709da0381f870abba58ad0
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092705"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004169"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 
@@ -75,6 +75,14 @@ ms.locfileid: "51092705"
 
 **Windows PowerShell を使用する**
   
+PowerShell モジュールの Microsoft Teams使用して、次のコマンドを実行できます。
+
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
+```
+
+Windows PowerShell を使用して、次を実行することもできます。[](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings)
+
 詳細については、[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)をご覧ください。
 
     
