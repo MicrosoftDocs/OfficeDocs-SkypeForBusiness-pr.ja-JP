@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: 8ede7588f0de085c41eeecd1e8e2e0f496772b11
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901944"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993870"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須モバイル診断データ
 
@@ -595,6 +595,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **hide** - チャットを非表示にします。
 - **hideChannel** - チームとチャネル リストからチャネルを非表示にします。
 - **image** - 画像。
+- **inAppNotification** - ユーザーがアプリでアクティブである間に通知をタップするとトリガーされます。
 - **immediateCallForward** - 即時通話転送先が設定されている、または即時通話転送が有効 ([通話を自分に着信する] は無効) になっている場合。
 - **importanceToggleClicked** - [**!**] フィールドが タスク アイテムの詳細内に切り替えられるとトリガーされます。
 - **importantMessage_select** - ユーザーが重要なメッセージを優先コンテキスト メニューから選択します。
@@ -791,6 +792,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **notBlockedDevice** - ユーザーが 30 日間の背景アクティビティのエラーのしきい値に達していません。
 - **notNow** - [**今はしない**] がリマインダーで選択されています。
 - **notNowUpdate** - 更新保留。
+- **notification/ notification_clicked** – 通知をタップするとトリガーされます。
 - **notificationNavChannelConversation** - チャネルの会話の通知を使用してアプリを起動します。
 - **notificationNavChannelThreadConversation** - チャネルの会話の特定のメッセージの通知を使用してアプリを起動します。
 - **notificationSettingTurnedOff** - Teams Android アプリのプッシュ通知を無効にします。
@@ -1044,14 +1046,17 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **showCard** - カード ボタンをタップします。カードは主要なプラットフォーム コンストラクトで、その用途とパターンを測定することは、プラットフォームの用途を理解し、クライアント側の潜在的な問題を探し出すのに必要となります。
 - **shownReadReceiptNotice** - ユーザーに [設定] オプションのある機能通知が示されます。
 - **signIn** - [**サインイン**] がウェルカム ページで選択されている、または[**サインイン**] ボタンがタップされています。
+- **SignInWithOTP** - ユーザーがワンタイム パスコード (OTP) を持つゲストとしてサインインするオプションを選択します。 
 - **signUp** - [**無料アカウントを作成する**] または [**無料でサインアップ**] が選択されています。
+- **SignUpFromSignIn** - ユーザーがサインインで **[新しいアカウントを作成する]** オプションをタップします。
 - **simultaneousCallForward** - 以下の場合にトリガーされます。
   - 同時通話転送先が設定されている。
   - 同時通話転送が有効になっている ([通話を自分に着信する] が有効になっており、着信も設定されている)。
-- **skipVerificationForLink** - ユーザーが確認をスキップしました。
+- **skipVerificationForLink** - ユーザーが確認のスキップを選択しました。
 - **smartReply** - スマート返信トグル ボタンがクリックされます。
 - **SMSSendMessage** - ユーザーが SMS メッセージを送信します。
 - **sortChanged** - ユーザーがタスク リストの表示中に並べ替え順序を変更するとトリガーされます。
+- **SSOAccountListItem**: ユーザーが SSO アカウントをタップしてサインインした場合にトリガーされます。
 - **startEditing** - [**編集**] ボタンが選択されています。
 - **startPresentPhoto** - 写真の提示を開始します。
 - **startPresentVideo** - ビデオの提示を開始します。
@@ -1079,6 +1084,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **OnConnectingDialInSelected** - [**もう一度試す**] がドロワーで選択されています。
 - **stuckOnConnectingShownDismissed** - ユーザーがドロワーを終了しました。
 - **suggested_place_selected** - ユーザーがおすすめの場所を選択して、静的位置情報を共有します。
+- **Switching** - アプリでテナントまたはアカウントを切り替えます。 この機能は、アカウントとテナントの切り替えの問題を予防的に測定し、アカウントとテナントの円滑な切り替え環境を提供するために必要です。
 - **switchTeamAction** - ユーザーが業務時間記録内にチームを切り替えます。 これは、ユーザーが切り替え先のチームを選択すると始動します。
 - **switchTeamsDialogTriggered** - ユーザーが [**シフト**] タブを表示。
 - **tabActionCopyLink** - ユーザーがモバイルのタブ コピー リンクを検出して使用する方法。
@@ -1211,6 +1217,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 > [!NOTE]
 > Panelview イベントのプロパティの詳細については、「[Panelviewイベントで送信されるプロパティ](#properties-sent-with-panelview-events)」を参照してください。
 
+- **appInstall**: ユーザーがアプリのインストール後、初めてそれを開いた場合にトリガーされます。
 - **fileDeleteFailed** - ファイルの削除操作が失敗した場合に発生します。
 - **fileDeleteFailed** - ファイルの削除操作が成功した場合に発生します。
 - **filePreview** - 以下のシナリオで発生します。
@@ -1237,21 +1244,31 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **meetingFiles** - 会議ファイル画面を開いた場合に発生します。
 - **meetNowActionSheet** - ユーザーが Meet Now 会議を作成したときにトリガーされます。
 - **navPersonalFiles** - ファイル画面へのナビゲーションが行われた場合に発生します。
+- **signInSSOPage**: ユーザーがサインインした状態でシングル サインオン ページを表示したときにトリガーされます。
+-- **signInError**: サインイン中のユーザーにエラーが発生した場合にトリガーされます。 これは、ユーザーがサインイン時に直面する問題を予防的に特定し、修正するために必要です。 
+-- **TfLSignInSuccessful**: ユーザーが個人用 Microsoft アカウントへのサインインに成功した場合にトリガーされます。 これは、サインインとサインアップの信頼性を理解し、問題を予防的に特定して修正するために必要です。
+-- **TfWFreemiumSignInSuccessful**: ユーザーがフリーミアム アカウントへのサインインに成功した場合にトリガーされます。 これは、サインインとサインアップの信頼性を理解し、問題を予防的に特定して修正するために必要です。
+-- **TfWSignInSuccessful**: ユーザーが職場アカウントや学校アカウントへのサインインに成功した場合にトリガーされます。 これは、サインインとサインアップの信頼性を理解し、問題を予防的に特定して修正するために必要です。
 
 ### <a name="scenario"></a>シナリオ
 
 > [!NOTE]
 > パネルアクション イベントのプロパティに関する情報については、[シナリオ イベントで送信されるプロパティ](#properties-sent-with-scenario-events)を参照してください。
-
-- **app_incremental_sync_launch** コールド起動のために、ピル数が正常に更新されたことを確認します。
-- **app_incremental_sync_resume** ウォーム/ホット起動のために、ピル数が正常に更新されたことを確認します。
-- **app_start_cold** アプリのコールド起動を監視するため (Android のみ)。
-- **app_start_hot** アプリのホット起動を監視するため (Android のみ)。
-- **app_start_warm** アプリのウォーム起動を監視するため (Android のみ)。
+> 
+- **acquire_resource_token_interactive** - 対話型サインインで認証トークンを取得する場合に発生する必須のサービス呼び出し。 
+- **acquire_resource_token_silent** - サイレント サインインで認証トークンを取得する場合に発生する必須のサービス呼び出し。
+- **app_crash2** – アプリが不意にクラッシュした場合にトリガーされます。 Teams アプリがクラッシュする頻度に関する情報を提供します。 
+- **app_incremental_sync_launch** - コールド起動のために、ピル数が正常に更新されたことを確認します。
+- **app_incremental_sync_resume** - ウォーム/ホット起動のために、ピル数が正常に更新されたことを確認します。
+- **app_start_cold** - アプリのコールド起動を監視するため (Android のみ)。
+- **app_start_hot** - アプリのホット起動を監視するため (Android のみ)。
+- **app_start_warm** - アプリのウォーム起動を監視するため (Android のみ)。
+- **auth_adal_tokens** - サイレント認証を行うために必要なサービス呼び出し。 ユーザーがアプリを起動したとき、または期限切れでトークンが更新されたときにトリガーされます。
 - **chat_add_giphy** - Giphy GIF レンダリング アクションが成功したか失敗したかを確認します。
-- **cortanaError** Cortana エラーの発生を監視します。
+- **chat_send_message_sfc** - SfC 相互運用チャットでチャット メッセージが送信された場合にトリガーされます。
+- **cortanaError** - Cortana エラーの発生を監視します。
 - **cortanaView** - Cortana キャンバスの表示を監視します。
-- **cortanaRestart** Cortana の再起動を監視します。
+- **cortanaRestart** - Cortana の再起動を監視します。
 - **cortanaSetNewConversation** Cortana が新しい会話を設定するのを監視します。
 - **cortanaSpeechRecognization** Cortana 音声認識の遅延を監視します。
 - **cortanaStart** Cortana バックエンドの開始を監視します。
@@ -1268,6 +1285,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **cortana_skill_action_delay** - 遅延アクションの開始を確認します。
 - **cortana_watchdog** - Cortana ウォッチドッグの回復プロセスを監視します。
 - **create_default_plan_and_nav_to_view** - 既定の共有タスク リストを正常に作成したこと、ユーザーが操作後に結果のビューに到達するまでにかかった時間を確認します。
+- **create_new_chat_thread_sfc** - SfC 相互運用チャットに新しいチャット　スレッドが作成された場合にトリガーされます。
 - **create_personal_plan_and_nav_to_view** - 既定の個人タスク リストを正常に作成したこと、ユーザーが操作後に結果のビューに到達するまでにかかった時間を確認します。
 - **create_personal_task** - 正常に個人タスク アイテムの作成が完了したことを確認します。
 - **create_planner_plan_and_nav_to_view** - 共有タスク リストを正常に作成したこと、ユーザーが操作後に結果のビューに到達するまでにかかった時間を確認します。
@@ -1277,7 +1295,12 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **delete_personal_task** - 個人タスク項目の正常な削除を確認します。
 - **delete_planner_plan** - 共有タスク リストの正常な削除を確認します。
 - **create_planner_task** - 共有タスク アイテムの正常な削除を確認します。
+- **json_parse_failure** - JSON のパース問題の発生頻度に関する情報を提供します。
+- **getProfilePicture** - ユーザーのプロフィール画像を取得するために必要なサービス呼び出し。 
+- **get_resource_token_async**: Azure Active Directory リソースのトークンを非同期に取得するために必要なサービス呼び出し。
+- **get_resource_token_sync**: Azure Active Directory リソースのトークンを同期的に取得するために必要なサービス呼び出し。
 - **get_sender_sub_scenario** - アクティビティの送信者サブシナリオを取得します。
+- **interactiveAuthNopa2** – 対話型認証を行うために、パスワードを所有しないユーザーが割り込んできた場合にトリガーされます。
 - **load_chat_plans_list** - チャット プラン ビューの Planner プランの正常な取得を確認します。
 - **load_home_page** - 主なホーム ビューの個人および共有のタスク リスト両方の正常な取得を確認します。
 - **load_personal_task_list** - タスク リスト ビューで個人タスク リストにあるタスクの正常な取得を確認します。
@@ -1292,7 +1315,8 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **rename_personal_plan** - 個人タスク リストの名前の変更を確認します。
 - **rename_planner_plan** - 共有タスク リストの名前変更が成功したことを確認します。
 - **save_image** 画像保存操作が成功したか失敗したかを確認します。
-- **share_image** 画像共有操作が成功したか失敗したかを確認します。
+- **saveMeProfile** - ユーザーがプロフィールを保存した場合に発生する必須のサービス呼び出し
+- **share_image** - 画像共有操作が成功したか失敗したかを確認します。
 - **smart_reply_enabled** - 現在のユーザーに対してスマート返信が有効になっていることを確認します。
 - **smart_reply_received** - スマート返信の提案が受信されたことを確認します。
 - **smart_reply_banned** - 現在のユーザーにスマート返信を表示できないことを確認します。
@@ -1313,9 +1337,10 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **server_fetch_date_picker_view** Outlook REST API を使用した予定表イベントの同期が成功したか失敗したかを確認します。
 - **server_fetch_agenda_view_group** TFL グループの中間層 API を使用した予定表イベントの同期が成功したか失敗したかを確認します。
 - **server_fetch_date_picker_view_incremental** Outlook REST API を使用した予定表イベントの増分同期が成功したか失敗したかを確認します。
-- **meeting_details** 会議の詳細の同期が成功したか失敗したかを確認します。
-- **show_meeting_participants** 会議参加者リストの表示が成功または失敗したことを確認します。
-- **search** 検索セッション全体が成功したか失敗したかを確認します。
+- **meeting_details** - 会議の詳細の同期が成功したか失敗したかを確認します。
+- **show_meeting_participants** - 会議参加者リストの表示が成功または失敗したことを確認します。
+- **search** - 検索セッション全体が成功したか失敗したかを確認します。
+- **time_based_retention_shared_channel** – データベースを排除するためのパフォーマンス データをキャプチャします。
 
 ## <a name="property-lists"></a>プロパティ リスト
 
