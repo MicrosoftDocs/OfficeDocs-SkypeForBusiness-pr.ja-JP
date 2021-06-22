@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
 description: 'ダイヤル通話プラン (PSTN 通話ダイヤル プラン) の種類と、Teamsに選択する方法について説明します。  '
-ms.openlocfilehash: 86ec311a7abec9b9268555884db3ff8de7ee256b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 010065c32135d893b15bcc692e84a1b59269650d
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100983"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046224"
 ---
 # <a name="what-are-dial-plans"></a>ダイヤル プランについて
 
@@ -60,7 +60,7 @@ ms.locfileid: "51100983"
 テナントのダイヤル プランを作成する場合は「[ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)」をご覧ください。
 
 > [!NOTE]
-> ダイヤル プランの正規化ルールがダイヤル番号に適用されないシナリオでは、ダイヤルされた文字列は"+CC" の前に付加するために正規化されます。CC はダイヤル ユーザーの使用場所の国コードです。 これは、通話プラン、直接ルーティング、PSTN 電話会議のダイヤルアウトシナリオに適用されます。
+> ダイヤル プランの正規化ルールがダイヤル番号に適用されないシナリオでは、ダイヤルされた文字列は"+CC" の前に付加するために正規化されます。CC はダイヤル ユーザーの使用場所の国コードです。 これは、通話プラン、直接ルーティング、PSTN 電話会議のダイヤルアウトシナリオに適用されます。 さらに、テナント ダイヤル プラン正規化ルールの結果が "+" で始まる番号ではない場合、呼び出し元サービスは、リージョン ダイヤル プランで、テナント ダイヤル プランに基づいて Teams クライアントから受信した番号を正規化します (一致しない場合)。 二重正規化を回避するために、ダイレクト ルーティングのお客様は数字を正規化して + を含め、+ を使用したトランク変換ルールを削除してください。 
 
 ## <a name="planning-for-tenant-dial-plans"></a>テナント ダイヤル プランの計画
 
@@ -153,7 +153,7 @@ ms.locfileid: "51100983"
 > [!NOTE]
 > 前の表に示す正規化ルール名にはスペースは含めることはできませんが、これは選択の問題です。 たとえば、表に最初に示されている名前は、「5 digit extension」と「5-digit Extension」のどちらの形式で記述しても有効になります。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ダイヤル プランを作成および管理する](create-and-manage-dial-plans.md)
 

@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Microsoft Teams 管理センターまたは Windows PowerShellを使用して、ダイヤル プラン (PSTN 通話ダイヤル プラン) を作成および管理する方法について説明します。
-ms.openlocfilehash: f94c847f5c75e793856c0975678e2806629e2dcd
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 59867dfe49436635f690ff9f5d56a2be36e553ec
+ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282364"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "53046234"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -49,7 +49,7 @@ ms.locfileid: "52282364"
 5. 正規化ルールを必要な順序で配置します。 [ **上へ移動]** **または [下** へ移動] をクリックして、リスト内のルールの位置を変更します。
 
     > [!NOTE]
-    > Teams上から下へ正規化ルールの一覧を走査し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤルされた番号が複数の正規化ルールと一致できるようダイヤル プランを設定する場合は、制限の厳しいルールを制限の少ないルールよりも上に並べ替える必要があります。
+    > Teams上から下へ正規化ルールの一覧を走査し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤルされた番号が複数の正規化ルールと一致できるようダイヤル プランを設定する場合は、制限の厳しいルールを制限の少ないルールよりも上に並べ替える必要があります。 "+" なしでダイヤルされた番号を正規化するダイヤル プランを設定すると、呼び出し元サービスは、テナントと地域のダイヤル プラン ルールを使用して、もう一度番号の正規化を試みます。 二重正規化を回避するために、すべての正規化ルールで数値が "+" で始まる結果に設定されます。 ダイレクト ルーティングのお客様は、トランク [変換ルールを使用](direct-routing-translate-numbers.md) して、必要に応じて "+" を削除できます。 
 
 6. **[保存]** をクリックします。
 7. ダイヤル プランをテストする場合は、[ダイヤル **プランの** テスト] で電話番号を入力し、[テスト] を **クリックします**。
@@ -217,7 +217,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [ダイヤル プランについて](what-are-dial-plans.md)
 - [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
