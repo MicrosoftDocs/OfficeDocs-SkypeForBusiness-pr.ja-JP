@@ -1,5 +1,5 @@
 ---
-title: データSharePoint操作OneDrive方法Microsoft Teams
+title: Microsoft Teams との SharePoint と OneDrive の連携
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: SharePoint & OneDriveと対話Teams。プライベート チャット ファイル ストレージ&、標準チャネル、およびドキュメント ライブラリ&操作できます。
+description: Teams を使用した SharePoint と OneDrive の相互作用、プライベート チャット ファイル ストレージ とチームとの相互作用、標準チャネルとドキュメント ライブラリ。
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -20,36 +20,36 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
 ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/09/2021
 ms.locfileid: "52855956"
 ---
-# <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>データSharePoint操作OneDrive方法Microsoft Teams
+# <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint と OneDrive の連携
 
 > [!Tip]
-> Azure Active Directory (A Microsoft 365 AD)、Azure Active Directory グループ、Exchange、Exchange、SharePoint、OneDrive: Microsoft Teams の基礎と対話する方法については、次のセッションをご[覧ください](https://aka.ms/teams-foundations)Microsoft Teams Teams
+> Teams が Azure Active Directory (AAD)、Microsoft 365 グループ、Exchange、SharePoint、および OneDrive とどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teams の基礎](https://aka.ms/teams-foundations)。
 
-Microsoft Teams内の各チームは SharePoint にチーム サイトを持ち、チーム内の各標準チャネルは既定のチーム サイト ドキュメント ライブラリ内のフォルダーを取得します。 各[プライベート チャネルは](private-channels.md)、サイトごとに個別のSharePointされます。
+Microsoft Teams の各チームには、SharePoint のチーム サイトがあります。チームの各標準チャネルには、既定のチーム サイトのドキュメント ライブラリ内のフォルダーが用意されています。 各[プライベート チャネル](private-channels.md)には、独自の分離した SharePoint サイトがあります。
 
 会話内で共有されているファイルはドキュメント ライブラリに自動的に追加され、SharePoint で設定されているアクセス許可とファイルのセキュリティ オプションは、Teams 内に自動的に反映されます。 SharePoint でサイト アドレスを変更した場合の影響の詳細については、「[サイト アドレスを変更する](/sharepoint/change-site-address)」を参照してください。
 
-プライベート チャット ファイルは送信者の OneDrive フォルダーに保存され、ファイル共有プロセスの一環としてすべての参加者にアクセス許可が自動的に付与されます。
+プライベート チャット ファイルは送信者の OneDrive フォルダーに格納され、権限はファイル共有プロセスの一環としてすべての参加者に付与されます。
 
-ユーザーにライセンスが割り当SharePoint場合、ユーザーはユーザーにOneDriveストレージをMicrosoft 365。 ファイル共有は標準チャネルで機能しますが、ユーザーはチャット内のストレージを使用せずにチャットOneDriveファイルを共有Microsoft 365。
+ユーザーに SharePoint のライセンスが割り当てられていない場合は、Microsoft 365 に OneDrive のストレージがありません。 ファイル共有は標準チャネル内で動作しますが、Microsoft 365 に OneDrive ストレージがないと、ユーザーはチャットでファイルを共有することができません。
 
-ドキュメント ライブラリとドキュメント ライブラリにファイルSharePoint保存OneDrive、組織レベルで構成されたコンプライアンス規則はすべて従います。 
+SharePoint ドキュメント ライブラリと OneDrive にファイルを格納することで、組織レベルで構成されるすべてのコンプライアンス ルールが順守されます。 
 
 > [!NOTE]
-> SharePoint Server との統合は、Teams。
+> SharePoint Server との統合は、Teams ではサポートされていません。
 
 チーム、標準チャネル、ドキュメント ライブラリの関係の例を次に示します。
 
 すべてのチームに対して SharePoint サイトが作成され、**[共有ドキュメント]** フォルダーがチーム用の既定のフォルダーとして作成されます。 **一般** チャネルを含め各標準チャネル (各チームの既定のチャネル) には、**共有ドキュメント** にフォルダーがあります。
 
-![共有ドキュメント フォルダーの図 SharePoint。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
+![SharePoint の共有ドキュメント フォルダーの図。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
-既定のSharePointとドキュメント ライブラリは、別のライブラリに置き換えできません。
+既定の SharePoint サイトやドキュメント ライブラリを別のものに置き換えることはできません。
 
 各ユーザーについては、他のユーザー (1 対 1 または 1 対多数 ) とのプライベート チャットで共有したすべてのファイルは OneDrive フォルダーの **Microsoft Teams Chat Files** に格納されます。このフォルダーには、指定したユーザーのみにアクセスを制限する権限が自動的に設定されます。
 
@@ -75,10 +75,10 @@ Teams の **[ファイル]** タブは、SharePoint ドキュメント ビュー
 
 ## <a name="default-link-type-setting"></a>既定のリンクの種類の設定
 
-ユーザーがファイルを共有した場合に既定で表示される共有リンクの種類は、SharePointされます。 詳細については [、「ユーザーが共有用のリンクを取得するときに既定のリンクの種類を変更する」](/sharepoint/change-default-sharing-link) を参照してください。
+ユーザーがファイルを共有したときに既定で表示される共有リンクの種類は、SharePoint 管理センターで設定されます。 詳細については、「[ユーザーが共有のリンクを取得するときの既定のリンクの種類を変更する](/sharepoint/change-default-sharing-link)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[SharePointとTeams: より優れた一緒に](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
+[SharePoint とTeams: 共同作業の効率化](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
 
 [ゲストのエクスペリエンスについて](guest-experience.md)
