@@ -57,7 +57,7 @@ productDirectory:
     - title: アップグレード計画のワークショップ
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: 'Teams への正常なアップグレードを計画および実装します。 (対象ユーザー: IT プロフェッショナル、導入変更マネージャー)'
-      url: ./upgrade-workshops-landing-page.yml
+      url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
     - title: コース

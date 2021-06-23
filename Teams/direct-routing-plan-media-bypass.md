@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: ダイレクト ルーティングを使用してメディア バイパス電話システムを計画する方法について説明します。これにより、メディア トラフィックのパスを短縮し、パフォーマンスを向上させることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4978c7ce2a69f23164a3869dd69368b3aaad2c4e
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 8d60513dbcf1128d303102f494600a67335b366d
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469629"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075400"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
@@ -197,19 +197,11 @@ SIP シグナルの場合、FQDN とファイアウォールの要件はバイ�
 - 一時的な問題が発生しているデータセンターへの SBC からの接続が確立された場合は、フェールオーバーを提供します。 詳細については、以下の「フェールオーバー メカニズム」を参照してください。
 
 
-FQDN  **sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、****および** sip3.pstnhub.microsoft.com は、次のいずれかの IP アドレスに解決されます。
-- 52.114.148.0
-- 52.114.132.46 
-- 52.114.75.24 
-- 52.114.76.76 
-- 52.114.7.24 
-- 52.114.14.70
-- 52.114.16.74
-- 52.114.20.29
-- 52.114.36.156 
-- 52.114.32.169
+FQDN sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、およびsip3.pstnhub.microsoft.com は、次のサブネットの IP アドレスに解決されます。
+- 52.112.0.0/14
+- 52.120.0.0/14
 
-これらのすべての IP アドレスのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。 ファイアウォールで DNS 名がサポートされている場合 **、FQDN** sip-all.pstnhub.microsoft.com すべての IP アドレスに解決されます。 
+これらの IP 範囲のすべてのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。 ファイアウォールで DNS 名がサポートされている場合 **、FQDN** sip-all.pstnhub.microsoft.com IP サブネットすべてに解決されます。 
 
 ### <a name="office-365-gcc-dod-environment"></a>Office 365 GCC DoD 環境
 
@@ -217,12 +209,11 @@ FQDN  **sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、****および**
 
 **sip.pstnhub.dod.teams.microsoft.us** – グローバル FQDN。 DoD 環境Office 365米国のデータ センターにのみ存在する場合、第 2 および第 3 の FQDN はありません。
 
-FQDN – sip.pstnhub.dod.teams.microsoft.us 次のいずれかの IP アドレスに解決されます。
+FQDN sip.pstnhub.dod.teams.microsoft.us は、次のサブネットの IP アドレスに解決されます。
 
-- 52.127.64.33
-- 52.127.68.34
+- 52.127.64.0/21
 
-これらのすべての IP アドレスのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.dod.teams.microsoft.us これらの IP アドレスすべてに解決されます。 
+これらの IP 範囲のすべてのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.dod.teams.microsoft.us IP サブネットすべてに解決されます。 
 
 ### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High Environment
 
@@ -230,12 +221,11 @@ FQDN – sip.pstnhub.dod.teams.microsoft.us 次のいずれかの IP アドレ�
 
 **sip.pstnhub.gov.teams.microsoft.us** – グローバル FQDN。 High 環境GCC米国のデータ センターにのみ存在する場合、第 2 および第 3 の FQDN はありません。
 
-FQDN – sip.pstnhub.gov.teams.microsoft.us 次のいずれかの IP アドレスに解決されます。
+FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アドレスに解決されます。
 
-- 52.127.88.59
-- 52.127.92.64
+- 52.127.64.0/21
 
-これらのすべての IP アドレスのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.gov.teams.microsoft.us これらの IP アドレスすべてに解決されます。 
+これらの IP 範囲のすべてのポートをファイアウォールで開いて、アドレス間の着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.gov.teams.microsoft.us IP サブネットすべてに解決されます。 
 
 ## <a name="sip-signaling-ports"></a>SIP シグナル: ポート
 

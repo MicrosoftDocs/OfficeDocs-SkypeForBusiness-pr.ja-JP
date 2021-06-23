@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39150cc5ff6a64c17bad660b4df4b74610399cd1
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: a6eba4f1da849a2cf8e355454fd1ba794a3496db
+ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717738"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53075390"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -396,9 +396,10 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 - 背景のぼかしと効果
 - ブロードキャストとライブ イベントのプロデューサーと発表者の役割
 - 場所に基づくルーティング (LBR)
-- コール パーク
+- PSTN 通話呼び出しの呼び出し音
 - 共有システムのオーディオ/コンピューターのサウンド
 - ダイレクト ルーティングのメディア バイパス
+- コール パーク
 - ズーム コントロール 
 
 > [!NOTE]
