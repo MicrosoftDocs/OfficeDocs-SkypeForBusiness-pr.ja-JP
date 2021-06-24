@@ -21,13 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: 8f196e1539085966c22a775a784913ced417c9cb
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+localization_priority: Priority
+ms.openlocfilehash: 0d1d453e0d9d6575ec108b4bc17cdce1f4dac839
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506724"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096331"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
