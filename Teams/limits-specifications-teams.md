@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3f15b2ad9fce413602ed531067ed7e2b280ed122
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 7bc57372526e231e4f2111c0dd2cc00783598cf3
+ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717728"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53069305"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -156,7 +156,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 > [!IMPORTANT]
 > **Microsoft 365 ライブ イベントの上限の引き上げ**
 >
-> **お客様のニーズを引き続きサポートするため、2021年6月30日まで、** などのライブ イベントへの一時的な制約を増やします。
+> **お客様のニーズを引き続きサポートするため、2021 年 12 月 31 日まで、** などのライブ イベントへの一時的な制約を増やします。
 >
 >- イベントでは、最大2万の出席者をサポートします
 >- テナント全体で 50 のイベントを同時にホストできます
