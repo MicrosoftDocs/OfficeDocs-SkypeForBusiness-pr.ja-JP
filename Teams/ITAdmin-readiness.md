@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723425"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105029"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>管理者向けトレーニングのMicrosoft Teams
 
@@ -87,7 +87,8 @@ ms.locfileid: "52723425"
 | ------------| -------------------- |
 | モジュール 1: Android デバイスMicrosoft Teamsの概要  |[デッキ](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
 | モジュール 2: Android デバイスMicrosoft Teams計画する|[デッキ](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|モジュール 3: Android デバイスMicrosoft Teams機能 |[デッキ](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+|モジュール 3: Android デバイスMicrosoft Teams機能 |[デッキ](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|モジュール 4: Android デバイスMicrosoft Teams管理する|[デッキ](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
 
 <h2>対話型ガイド</h2>
 
@@ -107,6 +108,7 @@ ms.locfileid: "52723425"
 | Firstline worker のMicrosoft Teamsの構成                           | Firstline Workforce に適切な環境を構成Microsoft Teamsデプロイする方法について学習します。                                                                                                                  | [Firstline workers Microsoft Teamsの構成に関するガイド](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 最前線の従業員の ID: IT、マネージャー、およびフロントライン ワーカーを支援する                    | Microsoft Teams を既存の人事システムと統合し、軽量の委任 ID 管理を構成し、共有デバイスを使用するユーザーに対して簡単なサインインとシームレスな移行を構成する方法について説明します。                                                                                                                  | [Frontline worker ID ガイド](https://aka.ms/FLWIdentityIG)              |
 | デプロイMicrosoft Teams ミーティング                           | 管理センターでデバイスを管理Microsoft Teams ミーティングアカウントを作成および構成するMicrosoft Teams説明します。                                                                                                                  | [デプロイMicrosoft Teams ミーティング](https://aka.ms/teamsroomslab)              |
+|認定 Android デバイスTeams操作する|電話、ディスプレイ、Microsoft Teams、Microsoft Teams パネルの管理とMicrosoft Teams ミーティングアップグレードMicrosoft Teamsします。|[認定 Android Microsoft Teamsの操作](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>クイック スタート ガイド</h2>
 

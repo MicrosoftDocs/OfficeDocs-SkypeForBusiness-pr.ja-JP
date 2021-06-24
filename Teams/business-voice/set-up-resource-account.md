@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 自動応答で使用Microsoft 365 Business Voiceリソース アカウントを設定する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618f26394f2b4acc44d56b814bd31c20ffe1a370
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: df5001b6f757b407e96a473d302c79d837af957c
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282779"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105169"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>手順 4: Business Voice リソース アカウントを設定する
 
@@ -31,6 +31,10 @@ ms.locfileid: "52282779"
 リソース アカウントを自動応答と通話キューに関連付け、1 つ以上の有料電話番号または無料電話番号を追加できます。 たとえば、あるリソース アカウントを有料電話番号に関連付け、ローカル発信者の自動応答に関連付けできます。 遠距離通話の場合は、別のリソース アカウントを無料電話番号と同じ自動応答に関連付けます。
 
 この記事のセクションでは、リソース アカウントを設定し、そのアカウントに電話番号を割り当てる方法について説明します。 後で、リソース アカウントを自動応答に関連付ける予定です。
+
+次のビデオでは、管理センターでこれらの手順を完了Teams示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYG]
 
 ## <a name="obtain-virtual-user-licenses"></a>仮想ユーザー ライセンスの取得
 
@@ -41,7 +45,7 @@ ms.locfileid: "52282779"
 >
 > 仮想ライセンスが既にある場合は、グローバル管理者アクセス許可Microsoft 365アカウントを使用してログインします。 次に、[製品の課金> [に移動します](https://admin.microsoft.com/Adminportal/Home#/subscriptions)。 仮想ライセンスがある場合は、[仮想ユーザー] **Microsoft 365 電話システム として表示されます**。
 
-1. Microsoft 365 管理センターを開き、グローバル管理者のユーザー (通常は、このアカウントを使用してアカウントにサインアップしたアカウント) でログインMicrosoft 365。
+1. [Microsoft 365 管理センターを開き、グローバル管理者のユーザー (通常は、アカウントのサインアップに使用したアカウント) でログインMicrosoft 365。
 2. 左側のナビゲーション ウィンドウで、[課金 <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank">  >  購入サービス</a>アドオン] に移動します。すべてのアドオン  >    >  **製品を表示します**。
 3. 最後までスクロールして、仮想ユーザー ライセンス **Microsoft 365 電話システムを見** つける。 [詳細 **] を選択** し、[購入] **を選択します**。
 4. ライセンス購入ページで、必要な仮想ユーザー ライセンスの数を選択します。 設定する予定の自動応答と通話キューごとに 1 つの仮想ライセンスが必要です。 少なくとも 5 つのライセンスを選択することをお勧めします。今後、より多くの自動応答と通話キューを簡単にセットアップできます。ライセンスを今すぐ追加購入する必要はありません。
@@ -71,9 +75,9 @@ ms.locfileid: "52282779"
 
 リソース アカウントを作成したら、仮想ユーザー ライセンスまたは仮想ユーザー ライセンスMicrosoft 365 電話システム *割* り当てる *電話システム* があります。
 
-![管理センターでのライセンスの割り当てユーザー インターフェイスMicrosoft 365スクリーンショット](../media/resource-account-assign-virtual-user-license.png)
+![[ライセンスの割り当て] ユーザー インターフェイスのスクリーンショットMicrosoft 365 管理センター](../media/resource-account-assign-virtual-user-license.png)
 
-1. Microsoft 365 管理センターを開き、グローバル管理者のユーザー (通常は、このアカウントを使用してアカウントにサインアップしたアカウント) でログインMicrosoft 365。
+1. [Microsoft 365 管理センターを開き、グローバル管理者のユーザー (通常は、アカウントのサインアップに使用したアカウント) でログインMicrosoft 365。
 1. 左側のナビゲーション ウィンドウで、[ユーザーアクティブ ユーザー]<a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank">  >  **に移動します**</a>。
 1. リソース アカウントを選択します。
 1. [ライセンスと **アプリ] タブの**[ライセンス]**で**、[仮想Microsoft 365 電話システム **- 仮想ユーザー] を選択します**。

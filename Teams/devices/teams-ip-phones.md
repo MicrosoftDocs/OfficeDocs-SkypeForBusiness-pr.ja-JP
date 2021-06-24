@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すMicrosoft Teams電話と電話について学習します。
-ms.openlocfilehash: 594470affe3de69d2190fadcdbbae96aaa9bc3c7
-ms.sourcegitcommit: a188b3457a923744ffdc35f8efe3e5440af83256
+ms.openlocfilehash: db6240e972ac346c38961d94aa1a408e20f3cd4b
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "52957686"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105149"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認定デバイス
 
@@ -77,6 +77,7 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 
 | デバイス モデル | ファームウェアのバージョン | リリース日  | 部屋のサイズ                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Logitech Rally Bar      | 1.2.788     |       2021 年 6 月    |    中規模の部屋 (4.5m x 6m)       |
 | AudioCodes RXV80 | 1.9.155        |   2021 年 5 月  | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
 | EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | 2021 年 4 月 | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
 | Yealink MeetingBar A30       | 133.15.0.52    | 2021 年 3 月 | 中規模の部屋 (4.5m x 6m) |

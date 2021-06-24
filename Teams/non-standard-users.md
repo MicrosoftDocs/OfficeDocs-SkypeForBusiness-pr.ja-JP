@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 23551c102ec8fc0684a979bf85717a02d82e5142
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796650"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096271"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>非標準ユーザーに対する Microsoft Teams アプリの動作
 
@@ -80,6 +80,6 @@ ms.locfileid: "52796650"
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>匿名ユーザーの使用行動とポリシー
 
-匿名ユーザーは、会議でアプリを直接使用することはできません。 匿名ユーザーがいる場合、ネイティブ ユーザーは引き続き会議アプリを使用できます。  アプリがチャットでアダプティブ カードを送信した場合、匿名ユーザーはカードを操作できます。 詳細については、「匿名ユーザーに [会議への参加を許可する」を参照してください](/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)。
+匿名ユーザーは、会議でアプリを直接使用することはできません。 匿名ユーザーがいる場合、ネイティブ ユーザーは引き続き会議アプリを使用できます。  アプリがチャットでアダプティブ カードを送信した場合、匿名ユーザーはカードを操作できます。 詳細については、「匿名ユーザーに [会議への参加を許可する」を参照してください](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
 匿名ユーザーは、ユーザー レベルのグローバル既定権限ポリシーを継承します。 ユーザー レベルのアクセス許可ポリシーでアプリが有効になっている場合は、Teams 会議でアプリを操作できます。 匿名ユーザーは、会議ですでに利用可能なアプリのみを操作でき、これらのアプリを取得または管理できないことに注意してください。

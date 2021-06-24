@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 組織内のユーザーに電話番号Microsoft 365 Business Voiceを割り当てる方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d380fe3b3f5524f756a85f7b51037a07cd8cfc45
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 0792b644c97194867c448ed67fb574bfb7735325
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282574"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105159"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>手順 5: Business Voice の電話番号をユーザーに割り当てる
 
@@ -32,6 +32,10 @@ ms.locfileid: "52282574"
 
 > [!NOTE]
 > 電話番号が表示しない場合は、お待ちください。 新しい電話番号が新しい電話番号で利用可能になるには、数時間かかるTeams。
+
+次のビデオでは、管理センターでこれらの手順を完了Teams示します。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYO]
 
 1. Microsoft Teams 管理センターを開き、グローバル管理者であるユーザー (通常は、管理者のサインアップに使用したアカウント) でログインMicrosoft 365。
 1. 左側のナビゲーション ウィンドウで、[Voice 電話 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">  >  **に移動します**</a>。

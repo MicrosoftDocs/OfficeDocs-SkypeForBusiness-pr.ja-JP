@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 電話会議、通話プランTeams機能について、ユーザーにアドオン ライセンスを割り当てる電話システム説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b30df309412d159b878b4b57655787c9b4b292a8
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116935"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53095581"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>ユーザー Teamsアドオン ライセンスを割り当てる
 
@@ -30,7 +30,7 @@ ms.locfileid: "51116935"
 > [!NOTE]
 > 追加[Teamsライセンスで使用できる](./microsoft-teams-add-on-licensing.md)Teams機能については、「追加のアドオン ライセンス」を参照してください。 また、購入する必要があるライセンスと購入方法に関する情報も表示されます。そのため、ユーザーは電話会議、無料電話番号、組織外の電話番号に通話する機能などの機能を利用できます。 ユーザーに必要な機能を決定した後、ユーザーにライセンスを割り当てる。
 
-管理センターまたは PowerShell Microsoft 365を使用して、組織内のユーザーにライセンスを割り当てできます。 ライセンスを管理するには、グローバル管理者またはユーザー管理管理者である必要があります。
+Microsoft 365 管理センター または PowerShell を使用して、組織内のユーザーにライセンスを割り当てできます。 ライセンスを管理するには、グローバル管理者またはユーザー管理管理者である必要があります。
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>通話プラン、通信クレジットのライセンスを割り電話システム前に知る必要がある情報
 
@@ -46,9 +46,9 @@ ms.locfileid: "51116935"
 
 - 通話プランまたはコミュニケーション クレジットライセンスをユーザーに割り当てると、組織の電話番号を取得し、その番号をユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](../set-up-calling-plans.md)」をご覧ください。
 
-## <a name="using-the-microsoft-365-admin-center"></a>管理センター Microsoft 365使用する
+## <a name="using-the-microsoft-365-admin-center"></a>コマンドを使用Microsoft 365 管理センター
 
-管理センター Microsoft 365を使用して、一度に個別のユーザーまたは小規模なユーザー セットにライセンスを割り当てる。 ライセンスの割り当ては **、[ライセンス]** ページ (一度に最大 20 人のユーザー) または [アクティブなユーザー] **ページで行** います。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
+一度Microsoft 365 管理センターユーザーまたは小規模なユーザーにライセンスを割り当てるには、次のコマンドを使用します。 ライセンスを割り当てる **には、[ライセンス**] ページ (一度に最大 20 人のユーザー) または [アクティブ なユーザー] ページ (最大 40 人のユーザー) を割り当てる必要があります。  選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
 
 詳細な手順については、「ユーザーにライセンスを割り当 [てる」を参照してください](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
@@ -153,7 +153,7 @@ PowerShell を使用して Teams でライセンスを管理するときに参�
 | 国内通話プラン (国ごとにユーザー/月あたり 240 分) </br>*このプランは米国では利用できません。* | MCOPSTN6 |
 | コミュニケーション クレジット | MCOPSTNPP |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams アドオンのライセンス](./microsoft-teams-add-on-licensing.md)
 - [Teams へのユーザー アクセスを管理する](../user-access.md)

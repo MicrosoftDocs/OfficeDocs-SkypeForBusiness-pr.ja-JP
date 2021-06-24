@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) が認定を受けたMicrosoft Teams。
-ms.openlocfilehash: 6ff7a0678f7b68796f5236b44760ba92d2612a37
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: f8caa5a2d4ef374ce834e801f80370e5cb4251ac
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705231"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105129"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB オーディオ デバイスとビデオ デバイスは、Microsoft Teams
 
@@ -47,7 +47,7 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 
 の[認定を受けたデバイスをMicrosoft Teams。](https://products.office.com/microsoft-teams/across-devices/devices)
 
-## <a name="end-user-experience"></a>エンド ユーザー エクスペリエンス
+## <a name="end-user-experience"></a>エンドユーザーのエクスペリエンス
 
 ### <a name="new-teams-certification-benefits"></a>新Teams認定特典
 
@@ -74,10 +74,11 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 
 ## <a name="certified-devices"></a>認定デバイス
 
-*テーブルの更新日: 2021 年 5 月*
+*テーブルの更新日: 2021 年 6 月*
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |認定Microsoft Teams                           |
 |NEC                  |WD551 Windows コラボレーション ディスプレイ                        |5/21/2021       |認定Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |認定Microsoft Teams                           |
 |Poly                 |Studio P5 Webcam                                           |4/22/2021       |認定Microsoft Teams                           |

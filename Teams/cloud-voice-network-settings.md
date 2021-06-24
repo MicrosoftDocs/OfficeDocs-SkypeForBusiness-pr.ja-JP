@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 10547a99b0e63585ae39cc90a5b0cf573a9c94e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e97ddf7f6b7410e83a5e2257d7df6ae2ad27cb7f
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834337"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096284"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams のクラウド音声機能のネットワーク設定
 
@@ -61,3 +61,6 @@ ms.locfileid: "49834337"
 ユーザーの外部 IP アドレスが信頼済み IP アドレス一覧にある IP アドレスと一致する場合、クラウド音声機能は、ユーザーのエンドポイントが位置する内部サブネットを確認します。 IPv4 または IPv6 の IP アドレスに対して一致を行い、ネットワーク設定に送信される IP パケットの形式に依存します。 (パブリック IP アドレスに IPv4 と IPv6 の両方がある場合は、両方を信頼済み IP アドレスとして追加する必要があります)。
 
 ユーザーの外部 IP アドレスが信頼済み IP アドレス一覧にある IP アドレスと一致しない場合、エンドポイントは不明な場所にあると分類されます。
+
+> [!Important]
+> ネットワーク構成設定の参照は、クラウド プロキシ サービスのデプロイではサポートされていません。このデプロイでは、クライアントからソース IP アドレスTeamsされます。

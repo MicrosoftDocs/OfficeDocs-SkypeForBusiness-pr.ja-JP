@@ -18,12 +18,12 @@ description: Microsoft 通話プランと直接ルーティングの動的緊急
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee730c737d105572c9c34c6f329b04de4f8f8472
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 5454eff6e09e923a6db8de1ba8c9e9fe47c3f0f2
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910049"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096311"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -113,8 +113,11 @@ Azure マップは、場所ベースのサービスに使用されます。  管
 
 ネットワーク設定には、サブネットのコレクションを含むサイトが含まれます。これらは、ユーザーへの動的ポリシーの割り当て専用に使用されます。 たとえば、緊急通話ポリシーと緊急通話ルーティング ポリシーを "Redmond サイト" に割り当て、自宅または別の Microsoft の場所からローミングするユーザーが、Redmond に固有の緊急電話番号、ルーティング、セキュリティ デスクで構成されます。  
 
->[!Note]
->サブネットは LIS で定義し、緊急対応の場所に関連付けできます。  LIS サブネットは、クライアントに割り当てられたサブネット IP 範囲と一致するネットワーク ID で定義する必要があります。 たとえば、10.10.10.150/25 のクライアント IP/マスクのネットワーク ID は **10.10.10.128** です。 詳細については [、TCP/IP アドレス指定とサブネット化の基本に関するページを参照してください](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)。
+> [!Note]
+> サブネットは LIS で定義し、緊急対応の場所に関連付けできます。  LIS サブネットは、クライアントに割り当てられたサブネット IP 範囲と一致するネットワーク ID で定義する必要があります。 たとえば、10.10.10.150/25 のクライアント IP/マスクのネットワーク ID は **10.10.10.128** です。 詳細については [、TCP/IP アドレス指定とサブネット化の基本に関するページを参照してください](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)。
+
+> [!Important]
+> ネットワーク構成設定の参照は、クラウド プロキシ サービスのデプロイではサポートされていません。このデプロイでは、クライアントからソース IP アドレスTeamsされます。
 
 次の定義を念頭に置きます。 詳細については、「クラウド音声機能 [のネットワーク設定」を参照してください](cloud-voice-network-settings.md)。
 
