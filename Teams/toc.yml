@@ -445,6 +445,8 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Teams のライブ イベントの使用状況レポート
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
+              - name: Teams 情報保護ライセンス レポート
+                href: teams-analytics-and-reports/information-protection-license-report.md
       - name: ログ ファイル、サービス正常性、サポート
         items:
           - name: ログ ファイルを使用して Teams の監視とトラブルシューティングを行う
