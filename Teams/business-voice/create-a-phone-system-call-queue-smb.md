@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 小規模企業向け通話キューを設定する方法については、Microsoft 365 Business Voice。
-ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739687"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126923"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>通話キューを作成する - 小規模ビジネス向けチュートリアル
 
@@ -118,13 +118,13 @@ ms.locfileid: "52739687"
 
 リソース アカウントに Microsoft 365 電話システム *- 仮想ユーザー ライセンスを* 割り当てる必要があります。
 
-1. 管理センター Microsoft 365の [アクティブなユーザー]の一覧で、ライセンスを割り当てるリソース アカウントをクリックします。
+1. [アクティブMicrosoft 365 管理センターの一覧で、ライセンスを割り当てるリソース アカウントをクリックします。
 
 2. [ライセンスと **アプリ] タブの**[ライセンス]**で**、[仮想Microsoft 365 電話システム **- 仮想ユーザー] を選択します**。
 
 3. [変更の **保存] をクリックします**。
 
-    ![管理センターでのライセンスの割り当てユーザー インターフェイスMicrosoft 365スクリーンショット](../media/resource-account-assign-virtual-user-license.png)
+    ![[ライセンスの割り当て] ユーザー インターフェイスのスクリーンショットMicrosoft 365 管理センター](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -157,7 +157,7 @@ ms.locfileid: "52739687"
 
 # <a name="step-3brcall-agents"></a>[手順 3 エージェント <br> を呼び出す](#tab/call-agents)
 
-エージェントを呼び出しキューに追加するには、前に作成したチームとチャネルにエージェントを追加します。
+エージェントを呼び出しキューに追加するには、前に作成したチームとチャネルにエージェントを追加します。 これを行うには、チームのメンバーである必要があります。
 
 1. [チームの **選択] オプションを選択し** 、[チャネルの **追加] をクリックします**。
 2. 作成したチームの名前を入力して選択し、[追加] を **クリックします**。

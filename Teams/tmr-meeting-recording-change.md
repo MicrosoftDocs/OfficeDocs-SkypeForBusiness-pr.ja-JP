@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4824e24eb1e648d2ffc2d52fbdc1fa8593bbe9d9
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096301"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114016"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -57,7 +57,7 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 - 複数地域のサポート – 記録はそのユーザーに固有の地域に格納されます。
 - 独自のキー (BYOK) サポートを利用する
 
-「[現在使用可能な機能と今後期待される機能](https://docs.microsoft.com/stream/streamnew/features-new-version-stream)」 の全リストをご覧ください。 
+「[現在使用可能な機能と今後期待される機能](/stream/streamnew/features-new-version-stream)」 の全リストをご覧ください。 
 
 詳細については、「Microsoft Teams 会議の記録の新機能」を参照してください。
 
@@ -142,7 +142,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **元従業員の記録を処理するにはどうすればよいですか?**
 
-ビデオは、OneDrive for Business と SharePoint の他のファイルと同じであるため、従業員が退職した後の所有権と保持は、通常の「[OneDrive for business および SharePoint プロセス]( https://docs.microsoft.com/onedrive/retention-and-deletion#the-onedrive-deletion-process)」に従います。
+ビデオは、OneDrive for Business と SharePoint の他のファイルと同じであるため、従業員が退職した後の所有権と保持は、通常の「[OneDrive for business および SharePoint プロセス](/onedrive/retention-and-deletion#the-onedrive-deletion-process)」に従います。
 
 **会議の記録を表示するためのアクセス許可を持つユーザーは誰ですか?**
 
@@ -155,7 +155,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **キャプションを管理する方法**
 
-Teams 会議の録音のクローズド キャプションは、ユーザーが記録時に書き起こしをオンにしている場合にのみ、再生中に利用できます。 管理者は、[ポリシーを介して文字起こしの記録をオン]( https://docs.microsoft.com/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription)にして、ユーザーが文字起こしを使用して会議を記録できるようにする必要があります。
+Teams 会議の録音のクローズド キャプションは、ユーザーが記録時に書き起こしをオンにしている場合にのみ、再生中に利用できます。 管理者は、[ポリシーを介して文字起こしの記録をオン](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription)にして、ユーザーが文字起こしを使用して会議を記録できるようにする必要があります。
 
 キャプションを使用すると、障碍者も健常者も含めすべての視聴者に対して包括的コンテンツを作成できます。 所有者は、会議記録のキャプションを非表示にできます。ただし、会議のトランスクリプトは、削除しない限り Teams で引き続き利用できます。 
 

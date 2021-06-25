@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Microsoft Teams で大規模な組織の通話キューを設定する方法について説明します。この機能は、あいさつメッセージ、保留音楽、通話リダイレクト、その他の機能を提供します。
-ms.openlocfilehash: fe0c2863c627f728f5418cfeb9b7b17c91d246fa
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: c07c5a42241a62f9ecfe90340cab473800469ca9
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777928"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126893"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -106,7 +106,7 @@ Teamsキュー内で保留されている間、呼び出し元に既定の音楽
 
 1 つのチャネルを介して最大 200 のエージェントTeamsできます。
 
-キューを管理するために [Teamsを使用する](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)場合は、[チームの選択] オプションを選択し、[チャネルの追加 **] をクリックします**。 使用するチームを検索して選択し、[追加] を **クリックします**。 使用するチャネルを選択し、[適用] を **クリックします**。
+キューを管理するために [Teamsを使用する](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)場合は、[チームの選択] オプションを選択し、[チャネルの追加 **] をクリックします**。 使用するチームを検索して選択し、[追加] を **クリックします**。 使用するチャネルを選択し、[適用] を **クリックします**。 チームのメンバー、またはチャネルの作成者、またはチャネルの所有者である必要があります。
 
 次のクライアントは、呼び出しキューにTeamsチャネルを使用する場合にサポートされます。 
 
@@ -229,7 +229,7 @@ Windows PowerShell を使用して通話キューを作成し、設定するこ�
 
 - [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [電話システムで利用できる機能](here-s-what-you-get-with-phone-system.md)
 

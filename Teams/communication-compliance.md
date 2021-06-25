@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: コミュニケーション コンプライアンス (insider リスク ソリューション セットの一部) について、Microsoft Teams の観点から学習します (これは M365 通信コンプライアンス機能の一部です)。
+description: ラーニング(これは M365 通信コンプライアンス機能の一部) の観点から、insider リスク ソリューション セットの一部である通信コンプライアンスについて説明します (Microsoft Teams)。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf032669edc7255571e2501774ac0d0ee0df47d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5957e8900a9b3d9915a88e3ad8bf5e18c7a08b3
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121535"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126903"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>ユーザーとの通信Microsoft Teams
 
 コミュニケーション コンプライアンスは、組織内の不適切なメッセージの検出、キャプチャ、および操作を支援することで、通信リスクを最小限に抑えるために役立つ Microsoft 365 の Insider リスク ソリューションです。
 
-通信Microsoft Teams、コミュニケーション コンプライアンスは、Teams チャネル[](/microsoft-365/compliance/communication-compliance-feature-reference)または 1:1 およびグループ チャットで次の種類の不適切なコンテンツを識別するのに役立ちます。
+通信Microsoft Teams、Teams チャネル、プライベート Teams[](/microsoft-365/compliance/communication-compliance-feature-reference)チャネル、または 1:1 およびグループ チャットで、次の種類の不適切なコンテンツを識別するのに役立ちます。
 
 - 不快な言葉、不適切な言葉、嫌がらせをする言葉
 - 成人向け、人種差別的な画像、およびゴリー 画像
@@ -46,7 +46,7 @@ Microsoft Teams でのコミュニケーション コンプライアンスの開
 Teams管理者は、次のレベルで通信コンプライアンス ポリシーを構成できます。
 
 - **ユーザー レベル**: このレベルのポリシーは、個々のユーザー Teams適用するか、組織内のすべてのユーザー Teamsに適用できます。 これらのポリシーは、これらのユーザーが 1 対 1 またはグループ チャットで送信できるメッセージをカバーします。 ユーザーのチャット通信は、ユーザーがメンバーであるすべてのMicrosoft Teams自動的に監視されます。
-- **Teams レベル**: このレベルのポリシーは、Microsoft チーム チャネルに適用されます。 これらのポリシーは、チャネル内で送信されたTeamsのみをカバーします。
+- **Teams レベル**: このレベルのポリシーは、プライベート チャネルを含む Microsoft チーム チャネルに適用されます。 これらのポリシーは、チャネル内で送信されたTeamsのみをカバーします。
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>メッセージ内の不適切なメッセージにMicrosoft Teams
 

@@ -21,45 +21,46 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 通話品質ダッシュボード Power BI レポートを使用して、通話履歴データと通話自動応答を表示する方法について説明します。
-ms.openlocfilehash: 77b74eb48a16992f7f601bd6cccf3c61b421fc30
-ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
+description: 通話品質ダッシュボード レポートを使用して、通話Power BI履歴データ自動応答を表示する方法について説明します。
+ms.openlocfilehash: 994e135cfd579d473da02879adde0d3603ab0ed2
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53023248"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129337"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動応答 &キュー履歴レポート
 
-CQD Teams 自動応答 &キュー履歴レポート Power BI テンプレートでは、次の 3 つのレポートが提供されます。
+CQD Teams 自動応答 & Call Queue Historical Report Power BI テンプレートには、次の 3 つのレポートが表示されます。
 
-- 自動応答 – 自動応答に着信する通話の分析を表示します。
-- 通話キュー – 通話キューに着信する通話の分析を示します。
-- エージェント タイムライン – 通話キュー呼び出しでアクティブなエージェントのタイムライン ビューを示します。
+- [自動応答](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – 自動応答に着信する通話の分析を表示します。
+- [通話キュー](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – 通話キューに着信する通話の分析を示します。
+- [エージェント タイムライン](media/cqd-teams-aa-cq-historical-report-sample-at.png) – 通話キュー呼び出しでアクティブなエージェントのタイムライン ビューを示します。
 
 これらのレポートでは、通話品質ダッシュボード [データ ストアのデータを](CQD-Power-BI-query-templates.md) 使用します。 組織は、自動応答と通話キューによって処理されている呼び出しの数を報告できます。  また、呼び出しキューでのエージェントのパフォーマンスに関する洞察も提供します。
 
-## <a name="what-are-the-requirements"></a>要件は何ですか? 
+## <a name="prerequisites"></a>前提条件
 
-Power BI Desktop がインストールされている必要があります。 Microsoft Windows ストア [からインストールできます](https://aka.ms/pbidesktopstore)。
+### <a name="power-bi-desktop"></a>Power BI Desktop
+インストールする必要Power BI Desktopがあります。 Microsoft Windows Store[からインストールできます](https://aka.ms/pbidesktopstore)。
 
-無料版の Power BI Desktop を使用できます。 互換性のある最小バージョンは 2.85.681.0 (2020 年 9 月) です。
+無料バージョンの Power BI Desktop。 互換性のある最小バージョンは 2.85.681.0 (2020 年 9 月) です。
 
-## <a name="permissions-to-access-the-cqd-pipeline"></a>CQD パイプラインにアクセスするためのアクセス許可
+### <a name="permissions-to-access-the-cqd-pipeline"></a>CQD パイプラインにアクセスするためのアクセス許可
 
 CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQD データ パイプラインにアクセスするためのアクセス許可が必要です。 詳細については [、「CQD アクセス ロール」を参照してください](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
 
 ## <a name="installation"></a>インストール 
 
-次の手順では、コンピューターに Power BI Desktop が既にインストールされ、アカウントに CQD データ パイプラインにアクセスするために必要なアクセス許可が付与されていることを前提とします。
+次の手順では、コンピューターに Power BI Desktop を既にインストールし、アカウントに CQD データ パイプラインにアクセスするために必要なアクセス許可を持っている必要があります。
 
 次の手順を実行します。
 
-- [CQD Power BI クエリ テンプレートをダウンロード](https://www.microsoft.com/download/details.aspx?id=102291)し、zip ファイルをコンピューター上のディレクトリに保存します。
+- [CQD クエリ テンプレートPower BIダウンロード](https://www.microsoft.com/download/details.aspx?id=102291)し、zip ファイルをコンピューター上のディレクトリに保存します。
 
 - zip ファイルをダブルクリックして開きます。
 
-- "CQ and AA combined Analytics 20201105.pbit" テンプレート ファイルをダブルクリックすると、Power BI Desktop が起動します。
+- "CQ and AA combined Analytics 20201105.pbit" テンプレート ファイルをダブルクリックすると、Power BI Desktop表示されます。
 
 - CQD データ パイプライン リージョンを選択するように求めるメッセージが表示されます。 テナントがあるリージョンを選択します。
 
@@ -78,7 +79,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 
  - レポートが起動し、サンプル データが表示されます。
  
- - 独自のデータを表示するには、[Power BI Desktop の **クエリ** ] の [ホーム] タブで [最新の情報に更新] を選択します。
+ - 独自のデータを表示するには、[ホーム] タブの [クエリ] で [更新] Power BI Desktop。
 
    :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="更新オプションを選択したスクリーンショット":::
 
@@ -86,7 +87,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="ログインを示すスクリーンショット":::
 
-- [ **接続] を** 選択し、データの更新を確認します。
+- [Connect]**を** 選択し、データの更新を確認します。
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>データの待機時間と AA & CQ 分析
 

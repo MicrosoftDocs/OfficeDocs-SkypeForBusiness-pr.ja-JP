@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: MICROSOFT TEAMS でユーザーの電話会議 PIN をリセットする方法と、PIN に関する重要な事実について説明します。
-ms.openlocfilehash: ece69ec231408cc860f2fad803d92d22feaca781
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 6470085fed25a83c1a8dc46ab45e8c6ea57b5603
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075380"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114026"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
@@ -64,7 +64,7 @@ PIN は、電話会議を有効にしているユーザーごとにMicrosoft Tea
     
 - ユーザーへのメールの自動送信は既定で有効になっています。ユーザーが電話会議を有効にした場合、または PIN がリセットされた場合、ユーザーは PIN を含むメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN リセット メールはユーザーに送信されません。PIN 情報をユーザーに手動で送信する必要があります。
     
-- 会議が開始されると、ロビーのすべてのユーザーが自動的に会議に参加します。 たとえば、2 人の参加者が開始される前に会議に参加しようとする場合、その参加者はロビーに配置され、保留音を聞き、会議の開催者が電話で PIN を使用して参加すると、会議が開始され、ロビーの参加者が会議に参加します。
+- 会議が開始されると、開催者はロビー内のすべての PSTN ユーザーが会議に参加を許可する必要があります。 たとえば、PSTN 参加者が開始する前に 2 人の PSTN 参加者が会議に参加しようとする場合、その参加者はロビーに配置され、保留音を聞き、会議の開催者が電話で PIN を使用して参加すると、会議が開始され、開催者は会議中コマンド (*21 キー) を使用してロビー内のすべての PSTN ユーザーを許可できます。
     
 - 既定の設定では、匿名の発信者による会議の開始を許可しません。
     

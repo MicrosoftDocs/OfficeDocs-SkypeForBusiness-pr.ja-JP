@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: システム ダイレクト ルーティングを使用してユーザー Microsoft 電話する方法について説明します。
-ms.openlocfilehash: 7d2b7c4b5d6268d1498a47537e0edbbf892198aa
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075370"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129327"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする
 
@@ -42,7 +42,7 @@ ms.locfileid: "53075370"
 3. 電話番号を構成し、エンタープライズ音声とボイスメールを有効にする。 
 4. ユーザーにTeamsのみモードを割り当てる。
 
-## <a name="create-a-user-and-assign-the-license"></a>ユーザーを作成してライセンスを割り当てる 
+## <a name="create-a-user-and-assign-the-license"></a>ユーザーを作成してライセンスを割り当てる
 
 新しいユーザーを作成するには、2 つのオプションMicrosoft 365またはOffice 365。 ただし、ルーティングの問題を回避するために、組織で 1 つのオプションを選択する必要があります。 
 
@@ -53,9 +53,9 @@ Skype for Business Online の展開がオンプレミスの Skype for Business 2
 
 ライセンス要件の詳細については、「直接ルーティングの計画」の「ライセンスと[他の](direct-routing-plan.md#licensing-and-other-requirements)[要件」を参照してください](direct-routing-plan.md)。
 
-## <a name="ensure-that-the-user-is-homed-online-and-phone-number-is-not-being-synced-from-on-premises-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>ユーザーがオンラインで自宅にいて、電話番号がオンプレミスから同期されていない (Skype for Business Server エンタープライズ VoIP が有効なユーザーが Teams 直接ルーティングに移行される場合に適用されます)
+## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>ユーザーがオンラインで自宅にいる (直接ルーティングに移行Skype for Business Server エンタープライズ VoIP有効なユーザーにTeams適用されます)
 
-ダイレクト ルーティングでは、ユーザーをオンラインでホームに設定する必要があります。 RegistrarPool パラメーターを確認すると確認できます。このパラメーターには、infra.lync.com があります。 OnPremLineUriManuallySet パラメーターも True に設定する必要があります。 これは、電話番号を構成し、オンライン PowerShell を使用してエンタープライズ音声とボイスメールSkype for Businessすることで実現されます。
+ダイレクト ルーティングでは、ユーザーをオンラインでホームに設定する必要があります。 RegistrarPool パラメーターを確認すると確認できます。このパラメーターには、infra.lync.com があります。 また、ユーザーを直接ルーティングに移行するときに、LineURI の管理をオンプレミスからオンラインに変更Teamsです。 
 
 1. Connect Online PowerShell Skype for Businessセッションを作成します。
 
@@ -64,13 +64,16 @@ Skype for Business Online の展開がオンプレミスの Skype for Business 2
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    OnPremLineUriManuallySet が False に設定され、LineUri に <E.164 電話番号> が設定されている場合は、Skype for Business Online PowerShell を使用して電話番号を構成する前に、オンプレミスの Skype for Business Management Shell を使用してパラメーターをクリーンアップしてください。 
+    OnPremLineUriManuallySet が False に設定され、LineUri に <E.164 電話番号> が設定されている場合、電話番号はオンプレミスに割り当て済みであり、O365 に同期されます。 電話番号をオンラインで管理する場合は、Skype for Business Online PowerShell を使用して電話番号を構成する前に、オンプレミスの Skype for Business Management Shell を使用してパラメーターをクリーンアップし、O365 と同期します。 
 
 1. 管理Skype for Businessコマンドを発行します。 
 
    ```PowerShell
-   Set-CsUser -Identity "<User name>" -LineUri $null -EnterpriseVoiceEnabled $False -HostedVoiceMail $False
+   Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
+ > [!NOTE]
+ > EnterpriseVoiceEnabled を False に設定する必要はありません。レガシ Skype for Business 電話が使用され、テナント ハイブリッド構成が UseOnPremDialPlan $True で設定されている場合、ダイヤル プランの正規化の問題が発生する可能性があります。 
+    
    変更が同期された後、 のOffice 365の出力は `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` 次の結果です。
 
    ```console
@@ -79,16 +82,22 @@ Skype for Business Online の展開がオンプレミスの Skype for Business 2
    OnPremLineURI                        : 
    LineURI                              : 
    ```
+ > [!NOTE]
+ > オンプレミスの電話属性を削除する前に、すべてのユーザーの電話属性をオンライン[で管理Skype for Businessがあります](/skypeforbusiness/hybrid/decommission-on-prem-overview)。 
 
-## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>電話番号を構成し、エンタープライズ音声とボイスメールを有効にする 
+## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>電話番号を構成し、エンタープライズ音声とボイスメールをオンラインで有効にする 
 
-ユーザーを作成し、ライセンスを割り当てた後、次の手順では、ユーザーの電話番号とボイスメールを構成します。 
+ユーザーを作成し、ライセンスを割り当てた後、次の手順では、ユーザーのオンライン電話設定を構成します。 
 
-電話番号を追加してボイスメールを有効にするには:
  
 1. Connect Online PowerShell Skype for Businessセッションを作成します。 
 
-2. コマンドを発行します。 
+2. ユーザーの電話番号をオンプレミスで管理する場合は、次のコマンドを発行します。 
+
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
+3. ユーザーの電話番号をオンラインで管理する場合は、次のコマンドを発行します。 
  
     ```PowerShell
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<phone number>

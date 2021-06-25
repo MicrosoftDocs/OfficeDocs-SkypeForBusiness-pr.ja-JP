@@ -17,12 +17,12 @@ description: 自分の組織での Teams のアクティビティの概要を把
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 993c1b124737a0f335e9c9b1e720af72fcc88a8e
-ms.sourcegitcommit: 93d84e172cb4b19acde4b8bae9b77efe96c44c00
+ms.openlocfilehash: 37f0a69a5e6a6a3e2c54ae7c60effc0f1639bbef
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50122257"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114040"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
 
@@ -33,7 +33,7 @@ Microsoft Teams 管理センターにある Teams の使用状況レポートは
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 **[レポートの表示]** タブの **[レポート]** で、**[Teams ユーザーの利用状況]** を選択します。
 2. **[日付の範囲]** で範囲を選択し、**[レポートの実行]** をクリックします。
 
-    ![Teams 管理センターの Teams ユーザー アクティビティ レポートのスクリーンショット](../media/teams-reports-teams-usage-with-callouts.png "Teams 管理センターの Teams 使用状況レポートの吹き出しつきスクリーンショット")
+    ![Teams 管理センターの Teams ユーザー アクティビティ レポートのスクリーンショット](../media/teams-reports-teams-usage-with-callouts1.png "Teams 管理センターの Teams 使用状況レポートの吹き出しつきスクリーンショット")
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
@@ -46,9 +46,11 @@ Microsoft Teams 管理センターにある Teams の使用状況レポートは
 |**5**   |表によって、チームごとの使用状況の内訳が表示されます。 <ul><li>**チーム名** はチームの表示名です。 チーム名をクリックして、Microsoft Teams 管理センターのチームの設定ページに移動できます。 </li> <li>**プライバシー** では、チームがプライベートなチームであるかパブリックなチームであるかが示されます。</li> <li>**アクティブ ユーザー** は指定された期間でのチーム内のアクティブなユーザーの数です。</li><li>**ゲスト** は指定された期間でのチーム内のゲストの数です。</li> <li>**アクティブ チャネル** は、指定された期間内にアクティブなユーザーが少なくとも 1 人いるチャネルの数です。</li> <li>**[メッセージの** 投稿] は、指定した期間のチャネル内のすべての投稿メッセージの数です。</li> <li>**[返信メッセージ** ] は、指定した期間のチャネル内のすべての応答メッセージの数です。</li> <li>[**開催された会議数**] は、指定された期間内にユーザーが開催したスケジュール済みおよびアドホックな会議の数です。 </li><li>**緊急メッセージ** は、指定した期間のすべての緊急メッセージの数です。</li><li>**リアクション** は、指定された期間内のメッセージに対するリアクションの総数です。</li><li>**メンション** は、指定された期間内のメンションの総数です。</li><li>**チャネル メッセージ** は、チームのユーザーが指定した期間中にチーム チャットに投稿した一意のメッセージの数です。</li> </li> </ul>ユーザー アカウントが Azure AD に存在しなくなった場合は、ユーザー名がテーブルに "--" として表示されます。 <br><br>表に希望する情報を表示するには、表に列を追加する必要があります。 |
 |**6**   |[**列の編集**] を選択して表で列を追加または削除します。|
 |**7**   |レポートを CSV ファイルにエクスポートすると、オフラインで分析できます。 **[Excel にエクスポート]** をクリックしてから、**[ダウンロード]** タブの **[ダウンロード]** をクリックして、準備のできたレポートをダウンロードします。<br><br>![ダウンロードするエクスポート済みのレポートが表示された [ダウンロード] タブのスクリーンショット](../media/teams-reports-export-to-csv.png)|
+|**8** |グラフ内の時系列データ ポイントには、テナントで集計されたさまざまな使用状況メトリックが表示されます。|
+|**9** |表形式データは、チームごとに集計されたさまざまな使用状況メトリックを表しました|
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

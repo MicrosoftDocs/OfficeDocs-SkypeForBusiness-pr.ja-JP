@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: dfb21be79f22628d7b30b2328ef18248cd35864e
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105029"
+ms.locfileid: "53113966"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>管理者向けトレーニングのMicrosoft Teams
 
@@ -42,7 +42,6 @@ ms.locfileid: "53105029"
 |---------|---------|---------|
 |[**Teams IT**](https://aka.ms/MicrosoftTeamsforIT)の重要な要素 - Microsoft Mechanics の 「Teams for IT」ビデオ シリーズでは、管理者がロールアウト、構成、管理を行う方法を示Teams。     |[**Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams)を使用してリモートワーカーをサポートする - 自宅で作業しているユーザーをサポートするために、必要なガイダンス (トレーニングへのリンクを含む) を取得します。         |[**IT チームコラボレーションの管理**](/learn/paths/m365-manage-team-collaboration)- アプリケーションやデバイスをまたがって組織Teamsチームワークとコミュニケーションを容易にする方法について学習します。         |
 |[**サービス導入スペシャリスト認定**](/learn/paths/m365-service-adoption)- Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織に Microsoft サービスの導入を推進する方法について説明します。     |[**Microsoft 365 でのチームワークの**](/learn/modules/intro-to-teamwork-in-m365/index)概要 - Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織に Microsoft サービスの導入を推進する方法について説明します。        |[**Microsoft 365 認定: Teamwork 管理者**](/learn/certifications/m365-teamwork-administrator)アソシエイト - Microsoft 365 Teamwork 管理者は、SharePoint (オンライン、オンプレミス、ハイブリッド)、OneDrive、Teams などの Microsoft 365 または Office 365 ワークロードを構成、デプロイ、管理します。        |
-
 
 <h2>テクニカルなトレーニング</h2>
 
@@ -89,6 +88,7 @@ ms.locfileid: "53105029"
 | モジュール 2: Android デバイスMicrosoft Teams計画する|[デッキ](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 |モジュール 3: Android デバイスMicrosoft Teams機能 |[デッキ](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
 |モジュール 4: Android デバイスMicrosoft Teams管理する|[デッキ](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|モジュール 5: Microsoft Teams Android デバイス - トラブルシューティング |[デッキ](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
 
 <h2>対話型ガイド</h2>
 
@@ -120,5 +120,3 @@ ms.locfileid: "53105029"
 - [チュートリアル: Teams での会議](tutorial-meetings-in-teams.yml)
 - [チュートリアル: Teams での電話会議](tutorial-audio-conferencing.yml)
 - [チュートリアル: Teams での通話の理解](tutorial-calling-in-teams.yml)
-
-
