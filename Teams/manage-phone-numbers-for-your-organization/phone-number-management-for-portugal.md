@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ポルトガルの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: a7df7688e4d2f7178d794158506560944923e265
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: db9c80bd36e6fbceede52beafc8787513ea5c7e2
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461037"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147135"
 ---
 # <a name="phone-number-management-for-portugal"></a>電話の番号管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "50461037"
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
 |管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [ポルトガルの新しい電話番号要求 (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [ポルトガル (v.5.0) の新しい電話番号要求 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。<br/><br/> また、三者契約に記入して署名し、送信する [必要があります](mailto:ptneu@microsoft.com)。 このフォームは、新しい電話番号を取得する注文を行った後、PSTN サービス デスク チームから送信されます。 <br/><br/>|
-|転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[ポルトガルの承認状 (LOA) (すべての数値) (v.5.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.5.0)-(pt-pt).pdf) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/><br/> また、三者契約に記入して署名し、送信する [必要があります](mailto:ptneu@microsoft.com)。 このフォームは、電話番号の転送を注文した後、PSTN サービス デスク チームから送信されます。<br/><br/>|
+|転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[ポルトガルの承認状 (LOA) (すべての数値) (v.6.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/><br/> また、三者契約に記入して署名し、送信する [必要があります](mailto:ptneu@microsoft.com)。 このフォームは、電話番号の転送を注文した後、PSTN サービス デスク チームから送信されます。<br/><br/>|
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。      <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |

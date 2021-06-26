@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、フィンランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 2778fb49ab47cc8ec8a5932019753e0ff5c8ca7e
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: bd595fa4787dd5cea225ea3b4c6725b671f6d5fe
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993930"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147165"
 ---
 # <a name="phone-number-management-for-finland"></a>電話の番号管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "52993930"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。<br/> |フィンランドでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして送信することで、新しい電話番号の要求 [を送信できます](mailto:ptneu@microsoft.com)。<br/><br/>[フィンランド (v.1.0) (en-fi)](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf)の新しい電話番号要求。<br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力して、送信する必要があります。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。   |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。<br/> |フィンランドでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして送信することで、新しい電話番号の要求 [を送信できます](mailto:ptneu@microsoft.com)。<br/><br/>フィンランド (v.1.0) (en-fi) の新しい電話番号要求。<br/><br/> 電話番号を割り当てる前に、Know your [customer for Finland (v.1.0) (fi-FI)](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf) Know your customer form をダウンロードし、完全に入力して、送信する必要があります。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。   |
 |転送された電話番号を取得します。| このフォームをダウンロードします。 <br/>[フィンランドの承認状 (LOA) (すべての番号) (v.1.0) (en-fi)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/><br/>この市場では、移行に 2 ~ 3 週間かかる場合があります。 <br/><br/> 現時点では、これらの番号を会議に使用できません。   |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
