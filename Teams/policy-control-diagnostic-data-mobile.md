@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ede7588f0de085c41eeecd1e8e2e0f496772b11
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: ab0ae8fe2e1e3fee37a01de178c62fd45558b1d0
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993870"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114126"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 必須モバイル診断データ
 
@@ -1249,6 +1249,9 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 -- **TfLSignInSuccessful**: ユーザーが個人用 Microsoft アカウントへのサインインに成功した場合にトリガーされます。 これは、サインインとサインアップの信頼性を理解し、問題を予防的に特定して修正するために必要です。
 -- **TfWFreemiumSignInSuccessful**: ユーザーがフリーミアム アカウントへのサインインに成功した場合にトリガーされます。 これは、サインインとサインアップの信頼性を理解し、問題を予防的に特定して修正するために必要です。
 -- **TfWSignInSuccessful**: ユーザーが職場アカウントや学校アカウントへのサインインに成功した場合にトリガーされます。 これは、サインインとサインアップの信頼性を理解し、問題を予防的に特定して修正するために必要です。
+- **appDrawer** - アプリ ドロワーが正常に開かれたときにトリガーされます。
+- **appPolicyChange** - ユーザーがリセットし、新しいタブの順序をローカルに保存したときにトリガーされます。
+- **app_stageview** - ステージ ビューが正常にレンダリングされたときにトリガーされます。
 
 ### <a name="scenario"></a>シナリオ
 
@@ -1341,6 +1344,40 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **show_meeting_participants** - 会議参加者リストの表示が成功または失敗したことを確認します。
 - **search** - 検索セッション全体が成功したか失敗したかを確認します。
 - **time_based_retention_shared_channel** – データベースを排除するためのパフォーマンス データをキャプチャします。
+- **sync_user_entitlements_and_app_definitions** - aggregatedEntitlements をフェッチするために必要なサービス呼び出し。
+- **bots_load_mediacards** - コネクタ カードがチャットとチャネルで構成されている場合の、インスタンス化されたキャプチャ。
+- **bots_load_one_card** - ボットとチャットするときに少なくとも 1 つのカードが存在し、読み込まれた場合にキャプチャします。
+- **load_assignments** - 割当てアプリを読み込む際の例外処理をキャプチャします。
+- **load_channel_tab** - チャネル タブの読み込みをキャプチャします。 (Android のみ)
+- **load_messaging_extension_results** - メッセージング拡張機能の検索/クエリ結果の読み込みをキャプチャします。 (Android のみ )
+- **load_channel_tab** - 静的タブの読み込みをキャプチャします。 (Android のみ )
+- **app_authenticated** - 認証が成功し、トークンがフェッチされたことを確認します。 (Android のみ )
+- **blocked_by_conditional_access** - 認証において、条件付きアクセスの遮断によるエラー コードを受信した場合。 (その場合は、プライマリ トークンを強制的に更新しようとします)。 (Android のみ )
+- **get_resource_token_sync** - アプリ リソースのトークンのフェッチを試行したときに、同期してトリガーされます。 (Android のみ )
+- **get_resource_token_async** - アプリ リソースのトークンのフェッチを試行したときに、非同期にトリガーされます。 (Android のみ )
+
+## <a name="oneplayer-events"></a>OnePlayer イベント
+> [!NOTE]
+> OnePlayer イベントの場合、こちら[ OnePlayer イベントのためのプロパティ リスト](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events) に一覧表示されたプロパティのみ適用します。
+### <a name="oneplayer-user-action-events"></a>OnePlayer ユーザー アクション イベント
+- **PlayerPlay** - ユーザーが OnePlayer ビューの再生ボタンをタップするかどうかを確認します。
+- **PlayerPause** - ユーザーが OnePlayer ビューの一時停止ボタンをタップするかどうかを確認します。
+- **PlayerSeek** - ユーザーが OnePlayer ビューのシーク バーまたは前進/後進ボタンを使用してビデオを探索するかどうかを確認します (iOS のみ)。
+- **VideoPlayerSeekForward** - ユーザーが OnePlayer ビューのシーク バーまたは前進ボタンを使用してビデオを探索するかどうかを確認します (Android のみ)。
+- **VideoPlayerSeekBackward** - ユーザーが OnePlayer ビューのシーク バーまたは後進ボタンを使用してビデオを探索するかどうかを確認します (Android のみ)。
+- **ChangePlaybackSpeed** - ユーザーが新たに再生速度を選択したかどうかを確認します。
+- **changePlaybackQuality** - ユーザーが再生用の新たなビデオ品質を選択したかどうかを確認します。
+- **ShareVideo** - ユーザーが共有アイコンをタップしたかどうかを確認します。
+- **PlayerClose** - ユーザーが閉じるアイコンをタップしたかどうかを確認します。
+- **VideoCaptionsOn** - ユーザーがキャプションをオンにしたかどうかを確認します。
+- **VideoCaptionsOff** - ユーザーがキャプションをオフにしたかどうかを確認します。
+- **ChangePlayerOrientation** - ユーザーがデバイスの向きを変更したかどうかを確認します。
+- **OpenPlayerSettingsMenu** - ユーザーが設定メニューを開いたかどうかを確認します。
+- **OpenPlaybackSpeedMenu** - ユーザーが再生速度メニューを開いたかどうかを確認します。
+- **PlayerAction** - ホスト アプリによって提供されるカスタム アクション。
+
+### <a name="oneplayer-playback-events"></a>OnePlayer 再生イベント
+- **PlayerHeartbeat** - これは、プレイヤーの現在の状態を送信しログに記録する、周期的なイベントです。
 
 ## <a name="property-lists"></a>プロパティ リスト
 
@@ -1439,3 +1476,101 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 | プロパティ名 | 説明                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | Trace_message | エラーが発生した理由についてのエラー文字列と詳細情報が含まれています |
+
+## <a name="property-lists-for-oneplayer-events"></a>OnePlayer イベントのプロパティ リスト
+
+### <a name="1-properties-sent-with-all-oneplayer-events"></a>1. すべての OnePlayer イベントに伴い送信されるプロパティ
+##### <a name="11-standard-properties"></a>1.1 標準のプロパティ
+| プロパティ名 | 説明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| eventType | イベントの種類 ( AppLogic、 ErrorAlert、 Performance、 UserAction ) |
+| AccountType   | ユーザー アカウントの種類 (ビジネスなど) |
+| コンポーネント     | OnePlayer |
+| 言語      | アプリのロケール/言語 |
+| プラットフォーム      | OnePlayerのプラットフォーム ( iOS/Android ) |
+| tenantId      | テナント ID|
+| バージョン       | 使用されている OnePlayer のバージョン |
+| aadUserId     | ユーザー ID |                                
+
+##### <a name="12-player-properties"></a>1.2 プレイヤーのプロパティ
+| プロパティ名 | 説明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| engineName    | 基になるプレイヤー名 ( Android 用 iOS/ExoPlayer の AVFoundation ) |
+| engineVersion | オペレーティング システムのバージョン |
+| loadMode      | プレイヤーの読み込みモード |
+| PlaybackSessionId | 再生のセッション ID |
+
+##### <a name="13-host-properties"></a>1.3 ホストのプロパティ 
+| プロパティ名 | 説明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| hostIntegrationType | ホスト統合の種類 ( 例えば、パッケージ、OneUp など ) |
+| hostPlatform  | ホスト アプリのプラットフォーム |
+| HostProperties| ホスト プロパティ ( 存在する場合 ) (iOS のみ) |
+| hostApp       | ホスト アプリの名称 |
+| hostVersion   | ホスト アプリのバージョン |
+
+##### <a name="14-experimentation-properties"></a>1.4 試験のプロパティ
+| プロパティ名 | 説明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| 電話をかける          | ユーザーの所属に電話をかける |
+| hostSettings  | ホスト アプリによる属性の組 (moreOptionsEnabled、shareFeatureEnabled、playbackQualityFeatureEnabled、playbackSpeedFeatureEnabled) |
+| flightFilters | 説明 |
+| flightsOverridden | オーバー ライドされた、またはされなかったフライトのブール値 |
+
+##### <a name="15-service-properties"></a>1.5 サービスのプロパティ
+| プロパティ名 | 説明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| contentType   | 提供されているコンテンツの種類 |
+| 環境   | 環境名  |
+| mediaService  | どのメディア サービスが使用されているか (SPO、ODB、ODC、IC3-AMS、不明) |
+| MediaType     | 再生されているメディアの種類  |
+| playbackTech  | メディアの再生技術  |
+| correlationId | メディアの相関 ID ( 存在する場合 ) |
+
+### <a name="2-properties-sent-with-all-oneplayer-user-action-events"></a>2. すべての OnePlayer ユーザー アクション イベントに伴い送信されたプロパティ 
+| プロパティ名 | 説明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| actionType    | タップ、ドラッグ、そしてフリックのような、実行されるアクションの種類 (iOS のみ)|
+| isIntentional | アクションが意図的か否かを示すブール値 (iOS のみ) |
+
+#### <a name="21-properties-sent-with-changeplaybackquality-event"></a>2.1 changePlaybackQuality イベントで送信されたプロパティ
+| プロパティ名 | 説明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| currentPlaybackQuality | 現在の再生品質 |
+
+#### <a name="22-properties-sent-with-changeplaybackspeed-event"></a>2.2 changePlaybackSpeed イベントで送信されたプロパティ
+| プロパティ名 | 説明 |
+|---------------|------------------------------------------------------------------------------------------------|
+| previousPlaybackRate  | 前回のビデオ再生速度 (iOS のみ) |
+| currentPlaybackRate   | 現在のビデオ再生速度 |
+
+#### <a name="23-properties-sent-with-playerseek-event-ios-only"></a>2.3 PlayerSeek イベントと共に送信されるプロパティ (iOS のみ)
+| プロパティ名 | 説明 |
+|---------------|------------------------------------------------------------------------------------------------|
+| seekSource    | シークのソース (seekbar、forwardButton、backwardButton) |
+| seekValue     | シークの位置 |
+
+### <a name="3-properties-sent-with-oneplayer-heartbeat-event"></a>3. OnePlayer ハートビート イベントと共に送信されるプロパティ
+| プロパティ名 | 説明 |
+|---------------|------------------------------------------------------------------------------------------------|
+| mediaCurrentTime | 現在のメディア再生時間 (iOS のみ)|
+| IsLoaded | メディアが読み込まれていますか |
+| loadTimeMs | 読み込み時間 (ミリ秒) |
+| numberOfStalls | 再生中のストール数 (iOS のみ) |
+| bufferingCount | 再生中のストール数 (Android のみ) |
+| observedBitrate | 再生中に測定されたビットレート (iOS のみ) |
+| avgBitrateBitsPerSecond | 再生中に測定されたビットレート (Android のみ) |
+| playedSeconds | イベントに至るまでの再生秒数 |
+| rebufferingSeconds | 再生中の再バッファー秒数 |
+| timeSinceSourceSetMs | ソースが設定されてからの時間 (ミリ秒) |
+| triggerType | トリガーの種類 (バッファリング、エラー、errorLog、canPlayThrough、intervalHeartbeat、sourceset、unload) |
+| errorId | 障害のエラー ID (存在する場合) |
+| errorCorrelationId | 障害のエラー相関 ID (存在する場合) |
+| errorLog | 障害のエラーログ (存在する場合) |
+| errorType | 障害のエラー種別 (存在する場合) |
+| errorMessage | 障害のエラー メッセージ (存在する場合) |
+| errorStack | 障害の拡張エラー情報 (存在する場合) |
+| metaUrl | メディアのメタ URL |
+| odspDocId | メディアの ODSP ドキュメント ID |
+| siteId | メディアのサイト ID |
+| teamsCallId | メディアの Teams 通話 ID (存在する場合) |
