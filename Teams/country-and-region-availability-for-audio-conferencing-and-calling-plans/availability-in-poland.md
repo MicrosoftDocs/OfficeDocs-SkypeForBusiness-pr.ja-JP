@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ポーランドで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: bb60f6f100ec118349f39ac45371ff593013111c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 30cfa3fcc7d417402c0a5cb478c78b183f4492ee
+ms.sourcegitcommit: d7a4707192d73b718b23abc32beb6f1684c2f928
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129646"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177693"
 ---
 # <a name="availability-in-poland"></a>ポーランドでの利用可能性
 
@@ -56,6 +56,9 @@ ms.locfileid: "52129646"
 |ボイスメール  <br/> |連絡可能  <br/> |
    
 ## <a name="calling-plans"></a>通話プラン
+
+> [!IMPORTANT]
+> 現在、ポーランドでは、新しい電話番号の注文や移植注文の処理に予期しない遅延が発生しています。 引き続き注文できますが、この遅延は 9 月までに解決される予定です。この時点で、保留中のすべての注文が満たされます。
 
 |**機能**|**詳細**|
 |:-----|:-----|

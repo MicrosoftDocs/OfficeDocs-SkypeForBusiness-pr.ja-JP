@@ -20,14 +20,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ポーランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 5cd3bf4add3b2c58a50a84fc869d22633746bd5b
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: 1df4a766c5b45c45f7eac83edced16463592f849
+ms.sourcegitcommit: fc1177a5080a18ddc1429848dd9352923107b647
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993940"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "53166543"
 ---
 # <a name="phone-number-management-for-poland"></a>電話の番号管理
+
+> [!IMPORTANT]
+> 現在、ポーランドでは、新しい電話番号の注文や移植注文の処理に予期しない遅延が発生しています。 引き続き注文できますが、この遅延は 9 月までに解決される予定です。この時点で、保留中のすべての注文が満たされます。
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
