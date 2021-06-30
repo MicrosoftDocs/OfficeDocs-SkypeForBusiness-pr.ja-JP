@@ -3,8 +3,8 @@ title: Microsoft Teams の管理者トレーニング
 ms.reviewer: ''
 description: これらのエンド ユーザー、管理者、および講師による指導付きトレーニングのリソースとチュートリアル ビデオを使用して、組織内の Microsoft Teams を最大限に活用してください。
 ms.topic: overview
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648116"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186906"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
@@ -61,8 +61,7 @@ ms.locfileid: "51648116"
 
 :::row:::
    :::column:::
-   **[導入スペシャリストの認定](/learn/paths/m365-service-adoption/)** </br>
-   Microsoft サービス導入スペシャリスト認定コースには、Teams が含まれています。 組織に Microsoft サービスの導入を推進する方法について説明します。
+   **[導入スペシャリストの認定](/learn/paths/m365-service-adoption/)** </br> Microsoft サービス導入スペシャリスト認定コースでは、Teams を詳細に説明しています。組織での Microsoft サービスの導入を促進する方法を学ぶことができます。
 
    :::column-end:::
 
