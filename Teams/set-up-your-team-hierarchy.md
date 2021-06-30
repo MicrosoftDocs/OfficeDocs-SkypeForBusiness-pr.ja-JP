@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63a9cf6cab1bfb50c17c8546a65ad50e41759edc
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
+ms.openlocfilehash: a801ae905ac7c384399aea5ccdf3bcf6f4e4200f
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891284"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203616"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>チーム対象の階層を設定する
 
@@ -149,6 +149,12 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 ```
 
 ## <a name="apply-your-hierarchy"></a>階層を適用する
+
+> [!NOTE] 
+> この手順を実行するには、PowerShell ギャラリー Teams PowerShell パブリック プレビュー モジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、「PowerShell をインストールするTeams参照してください。
+
+> [!NOTE]
+> Government Community Cloud (GCC) のお客様は、パブリック クラウド環境ではなく GCC 環境にデータがルーティングされるのを確認するために、コマンドレット プレビュー バージョン[2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview)以降を使用する必要があります。
 
 スキーマ CSV ファイルで階層を定義した後は、その階層をスキーマ CSV ファイルにアップロードTeams。 これを行うには、次のコマンドを実行します。 この手順を実行するには、グローバル管理者Teamsまたはサービス管理者である必要があります。
 

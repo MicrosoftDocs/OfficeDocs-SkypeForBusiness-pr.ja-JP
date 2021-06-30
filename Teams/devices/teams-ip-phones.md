@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すMicrosoft Teams電話と電話について学習します。
-ms.openlocfilehash: db6240e972ac346c38961d94aa1a408e20f3cd4b
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: 52a3930db5dfed90b28b98a8bfc2a87dd57dabb5
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105149"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203636"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認定デバイス
 
@@ -169,6 +169,7 @@ Android アプリとファームウェアのTeams ミーティング最新バー
 
 | 製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイト バージョン | 管理エージェントのバージョン |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #2 | 2021 年 6 月 28 日  |1449/1.0.96.2021051904|  5.0.5088.0 |   1.0.0.202104280345.product バージョン コード: 262 |
 | 2021 Update #1A  |2021 年 5 月 12 日  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product バージョン コード: 223 |
 | 2021 Update #1  |2021 年 4 月 5 日  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product バージョン コード: 223 |
 | 2020 Update #3  |2020 年 11 月 24 日  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product バージョン コード: 216 |
@@ -181,6 +182,9 @@ Android アプリとファームウェアのTeams ミーティング最新バー
 
 | デバイス モデル  | ファームウェアのバージョン | 含まれる製品リリース |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | 3.5.0.344025          | 2021 Update #2    |
+| Poly Studio X50 | 3.5.0.344025        | 2021 Update #2    |
+| Poly TC8 | 3.5.0.210489                 | 2021 Update #2    |
 | Poly Studio X30 | 3.3.2.286154          | 2021 Update #1    |
 | Poly Studio X50 | 3.3.2.286154          | 2021 Update #1    |
 | Poly TC8 | 3.3.2.286154                 | 2021 Update #1    |

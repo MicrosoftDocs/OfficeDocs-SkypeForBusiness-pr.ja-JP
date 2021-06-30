@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4a8a5d0b866a3eb278ffdba575966f97c549d6
-ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
+ms.openlocfilehash: 96f82b398ff75cdaf651eb841c412c502c5108d4
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52997770"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203586"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>インテリジェント スピーカーの音声認識テクノロジ コントロールを管理する
 
@@ -83,7 +83,7 @@ ms.locfileid: "52997770"
 |-|-|-|
 |enrollUserOverride|を使用して、テナントの音声プロファイルキャプチャまたは登録Teams設定を行います。 |**無効**<br><ul><li> 登録したことがないユーザーは、表示、登録、または再登録を行う必要があります。<li>登録フローへのエントリ ポイントは非表示になります。<li>ユーザーが登録ページへのリンクを選択すると、組織でこの機能が有効になっていないというメッセージが表示されます。  <li>登録したユーザーは、ユーザー設定で自分の音声プロファイルを表示およびTeamsできます。 音声プロファイルを削除すると、登録フローを表示、アクセス、または完了する機能は使用できます。</li></ul><br>**有効**<br><ul><li> ユーザーは登録フローを表示、アクセス、完了できます。<li>エントリ ポイントは、[認識] タブTeams設定ページに **表示** されます。</li></ul>|
 |roomAttributeUserOverride|会議室で音声ベースのユーザー ID を制御します。 この設定は、アカウントのTeams ミーティングです。| **オフ**<br><ul><li>デバイスTeams ミーティング、部屋からオーディオ ストリームを節約する帯域幅を送信しない。 <li>会議室のユーザーは属性付けも区別もされません。また、音声署名を取得したり使用したりすることはできません。<li>会議室のユーザーは不明です。</li></ul> <br>**属性**<br><ul><li>ルームユーザーは、登録状態に基づいて属性付けされます。<li>登録されているユーザーは、文字起こしに自分の名前で表示されます。  <li>登録されていないユーザーは、Speaker n として表示されます。<li>デバイスTeams ミーティング、部屋から 7 つのオーディオ ストリームを送信します。</ul> <br>**識別**<br> *この設定は、後日使用できます。*|
-|enabletranscription|ユーザー アカウントと会議室アカウントTeams必要です。|**True** と **False**|
+|AllowTranscription|ユーザー アカウントと会議室アカウントTeams必要です。|**True** と **False**|
 ||||
 
 [Teamsセンターで、[文字起こしを許可する **] ポリシーを設定** します。 設定既定 **ではオフ** になっています。

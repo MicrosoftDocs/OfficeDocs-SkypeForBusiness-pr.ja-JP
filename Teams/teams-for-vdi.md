@@ -1,7 +1,7 @@
 ---
 title: 仮想デスクトップ インフラストラクチャ用の Teams
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6eba4f1da849a2cf8e355454fd1ba794a3496db
-ms.sourcegitcommit: cae94cd5761baafde51aea1137e6d164722eead9
+ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53075390"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203626"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -121,6 +121,7 @@ VDI 環境での Teams AV の最適化が適切に機能するには、シン �
 非永続的なセットアップの場合、Teams デスクトップ アプリは、ゴールデン イメージに対してマシンごとにインストールする必要があります。 (詳細に関しては、[VDI での Teams デスクトップ アプリのインストールまたは更新](#install-or-update-the-teams-desktop-app-on-vdi)セクションを参照してください) これにより、Teams アプリがユーザー セッション中でも効率的に起動できるようになります。
 
 非永続的なセットアップで Teams を使用するには、効率的なTeamsランタイムデータ同期のために、プロファイル キャッシュ マネージャーも必要です。 効率的なデータ同期により、適切なユーザー固有の情報 (ユーザーのデータ、プロファイル、設定など) がユーザーのセッション中にキャッシュされます。 以下の 2 つのフォルダーのデータが同期されていることを確認してください。<br>
+
 - C:\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache)
 - C:\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams)
 
@@ -186,6 +187,7 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
         ```console
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
+
         このプロセスにより、必要なレジストリ キーがマシンに追加され、Teams VDI インスタンスがマシンに表示されます。  インストールしない場合、インストーラーは次のエラーを返します。"インストールに失敗しました。  VDI 環境が検出されない場合は、すべてのユーザーにインストールできません。"
 
         ```console
@@ -256,7 +258,7 @@ Chrome ブラウザーの Teams は、AV 最適化を備えた VDI 用の Teams 
 
 ## <a name="teams-on-vdi-with-chat-and-collaboration"></a>チャットと共同作業を備えた VDI 上の Teams
 
-組織で Teams のチャットおよび共同作業機能のみを使用する場合は、ユーザーレベル ポリシーを設定して、Teams の通話および会議機能を無効にすることができます。 
+組織で Teams のチャットおよび共同作業機能のみを使用する場合は、ユーザーレベル ポリシーを設定して、Teams の通話および会議機能を無効にすることができます。
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>通話および会議機能を無効にするポリシーを設定する
 
@@ -273,8 +275,8 @@ DisallowCalling 通話ポリシーと AllOff 会議ポリシーをユーザー�
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動します。
 2. ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。
 3. 以下の操作を行います。
-    1.  [**通話ポリシー**] で、[**DisallowCalling**] をクリックします。
-    2.  [**会議ポリシー**] で、[**AllOff**] をクリックします。
+    1. [**通話ポリシー**] で、[**DisallowCalling**] をクリックします。
+    2. [**会議ポリシー**] で、[**AllOff**] をクリックします。
 4. [**適用**] をクリックします。
 
 複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
@@ -318,7 +320,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、通話および会議ポリシーを設定し、ユーザーに割り当てることができます。 ポリシーの変更が反映されるまでに時間がかかる場合があります (数時間)。 指定したアカウントの変更がすぐに表示されない場合は、数時間が経過した後にもう一度お試しください。
 
-[**通話ポリシー**](teams-calling-policy.md): Teams の通話ポリシーは、ユーザーが使用できる通話機能を制御します。 Teams には、すべての通話機能が有効になっている組み込みの AallowCalling 通話ポリシーが含まれています。 すべての通話機能を有効にするには、AllowCalling ポリシーを割り当てます。 または、カスタム通話ポリシーを作成して、必要な通話機能を有効にし、ユーザーに割り当てます。 
+[**通話ポリシー**](teams-calling-policy.md): Teams の通話ポリシーは、ユーザーが使用できる通話機能を制御します。 Teams には、すべての通話機能が有効になっている組み込みの AallowCalling 通話ポリシーが含まれています。 すべての通話機能を有効にするには、AllowCalling ポリシーを割り当てます。 または、カスタム通話ポリシーを作成して、必要な通話機能を有効にし、ユーザーに割り当てます。
 
 [**会議ポリシー**](meeting-policies-in-teams.md): Teams の会議ポリシーは、ユーザーが作成できる会議の種類と、組織内のユーザーによってスケジュールされた会議参加者が利用できる機能を制御します。 Teams には、すべての会議機能が有効になっている組み込みの AllOn 会議ポリシーが含まれています。 すべての会議機能を有効にするには、AllOn ポリシーを割り当てます。 または、カスタム会議ポリシーを作成して、必要な会議機能を有効にし、ユーザーに割り当てます。
 
@@ -329,8 +331,8 @@ AllowCalling 通話ポリシーと AllOn 会議ポリシーをユーザーに割
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[**ユーザー**] に移動します。
 2. ユーザー名の左側をクリックしてユーザーを選択し、[**編集を設定する**] をクリックします。
 3. 以下の操作を行います。
-    1.  [**通話ポリシー**] で、[**AllowCalling**] をクリックします。
-    2.  [**会議ポリシー**] で、[**AllOn**] をクリックします。
+    1. [**通話ポリシー**] で、[**AllowCalling**] をクリックします。
+    2. [**会議ポリシー**] で、[**AllOn**] をクリックします。
 4. [**適用**] をクリックします。
 
 複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
@@ -377,6 +379,90 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 
 この機能は、バージョン 1.3.00.13565 以降の Teams で使用できます。
 
+## <a name="disable-audio-and-video-settings-for-vdi"></a>VDI のオーディオとビデオの設定を無効にする
+
+TeamsVDI ポリシーは、Microsoft Teamsできます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
+
+- New-CsTeamsVdiPolicy  
+- Grant-CsTeamsVdiPolicy
+- Remove-CsTeamsVdiPolicy
+- Set-CsTeamsVdiPolicy
+
+> [!NOTE]
+> これは、最適化されていない環境にのみ使用されます。
+
+### <a name="update-a-module-name"></a>モジュール名を更新する
+
+update-Module -Name MicrosoftTeams -AllowPrerelease
+
+```PowerShell
+<# Import and connect to online (CSOnline runs the policies) #>
+Import-Module microsoftTeams
+if( -not $sess){
+    $session = New-CsOnlineSession
+    $pss = Import-PSSession $session
+}
+<# Check out the commands #>
+Get-Command -Noun *VDI*
+<#
+```
+
+### <a name="set-policies-to-limit-calling-features"></a>呼び出し機能を制限するポリシーを設定する
+
+この VDI ポリシー設定 -DisableCallsAndMeetings $true を使用して VDI の Teams にサインインするユーザーは、次の機能を実行できない必要があります。
+
+- 通話を行います。
+- 会議に参加します。
+- チャットから画面共有を行います。
+
+すべての種類の呼び出しを無効にする必要があります。
+
+> [!NOTE]
+> これは、最適化されていない環境にのみ使用されます。
+
+```PowerShell
+#>
+New-CsTeamsVdiPolicy -Identity DisableCallsAndMeetingsTrue -DisableCallsAndMeetings $true -DisableAudioVideoInCallsAndMeetings $false
+<# Assign Policy #>
+$user = 'meganb@jvteams.xyz'
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName DisableCallsAndMeetingsTrue
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<#
+Show all Policies  
+#>
+Get-CsTeamsVdiPolicy | FT Iden*, Disable*
+<#
+```
+
+VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true が VDI 上の Teams にサインインすると、次の機能を使用できます。
+
+- チャットから画面共有を行います。
+- 会議に参加して画面を共有する。 音声を電話に移動します。
+- ユーザーは、VDI からユーザー間の音声通話とビデオ通話を実行できない必要があります。
+
+> [!NOTE]
+> これは、最適化されていない環境にのみ使用されます。
+
+```powershell
+#>
+$PolName = "DisableCallsAndMeetingsAV"
+New-CsTeamsVdiPolicy -Identity $PolName -DisableCallsAndMeetings $false -DisableAudioVideoInCallsAndMeetings $true
+Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $PolName
+<# wait for some time until the policy is applied #>
+get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+<# ## Cleanup afterwards #>
+$cleanup = $false
+if($cleanup){
+    "Doing cleanup"
+    # de-assign policy from user  
+    Grant-CsTeamsVdiPolicy -Identity $user -PolicyName $null
+    get-CSOnlineUser -identity $user | FL UserPrincipalName, *vdi*
+    # remove Policies
+    Get-CsTeamsVdiPolicy | ?{$_.identity -ne 'Global'} | remove-csTeamsVdiPolicy
+}
+```
+
 ## <a name="known-issues-and-limitations"></a>既知の問題と制限事項
 
 ### <a name="client-deployment-installation-and-setup"></a>クライアントの展開、インストール、およびセットアップ
@@ -400,7 +486,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 - 共有システムのオーディオ/コンピューターのサウンド
 - ダイレクト ルーティングのメディア バイパス
 - コール パーク
-- ズーム コントロール 
+- ズーム コントロール
 
 > [!NOTE]
 > 現在は非 VDI 環境でのみ利用可能な通話および会議機能の追加に取り組んでいます。 これらには、品質についての管理者制御の強化、画面共有シナリオの追加、および最近 Teams に追加された高度な機能が含まれる可能性があります。 今後の機能の詳細については、Teams の担当者にお問い合わせください。
