@@ -18,12 +18,12 @@ description: Microsoft Teams のパブリック プレビューについて説�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b0719e68dcbf1c73c15ee58e8c7d6be08f359aa5
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: e2724901a2a1b534053e2145da442e989aed4e6c
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863258"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230544"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams パブリック プレビュー
 
@@ -46,7 +46,7 @@ Teams のパブリック プレビューで利用可能な機能の一覧につ�
 3. **[追加]** を選択します。
 4. 更新ポリシーに名前を付け、説明を追加し **[プレビュー機能の表示]** をオンにします。
 
-`CsTeamsUpdateManagementPolicy` コマンドレットを使用しながら、PowerShell を使用してポリシーを設定することもできます。
+また、`-AllowPreview` ブール型パラメーターを指定して `Set-CsTeamsUpdateManagementPolicy` コマンドレットを使用すると、PowerShell を使用してポリシーを設定することもできます。
 
 ## <a name="enable-public-preview"></a>パブリック プレビューを有効にする
 
