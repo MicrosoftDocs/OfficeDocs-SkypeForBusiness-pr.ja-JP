@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理者は、直接ルーティングの認定を受けたセッション ボーダー コントローラー (SBC) について学習できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b15ff9956e988047b0246e7a965fcd58b1d9d74b
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: e06b3eeeec6f5e383f6fd4aaafcb1f034dd43338
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526740"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230574"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -73,7 +73,7 @@ Microsoft は、各ベンダーと以下を行っています。
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |                                            
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      サポートされている 3.20 (推奨 4.0)        |  &#10004;    |  &#10004;   |    
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (メディア バイパスの場合は 4.9)      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 シリーズ統合サービス ルーター用の Cisco Unified Border Element (CUBE)        |     &#10004;   | &#10004; |      サポートされている IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |    &#10004;     |   |  
 |                                   |     4000 シリーズ統合サービス ルーター用の Cisco Unified Border Element (CUBE)        |     &#10004;   | &#10004; |   サポートされている IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |   &#10004;      |    |  
 |                                   |     1000V シリーズ Cloud Services ルーター用の Cisco Unified Border Element (CUBE)       |     &#10004;   | &#10004; |      サポートされている IOS XE アムステルダム 17.2.1r (推奨 17.3.2)         |    &#10004;     |    |  

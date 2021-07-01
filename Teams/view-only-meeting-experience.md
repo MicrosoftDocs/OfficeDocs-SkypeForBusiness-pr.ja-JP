@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca53c75d12964de2d4d458b240878b14fd2ad04b
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 4f3546983c3d783c8eb08e0fc371cb9a9feb84f8
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699348"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219114"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示限定の会議エクスペリエンス
 
@@ -44,7 +44,16 @@ Microsoft Teams では、最大 10,000 人の参加者がTeams 会議に参加�
 
 ## <a name="teams-view-only-experience-controls"></a>Teamsのエクスペリエンス コントロール
 
-PowerShell を使用して、表示専用エクスペリエンスを有効にできます。
+表示専用エクスペリエンスを有効にするには [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) [、SkypeForBusiness PowerShell](/powershell/module/skype/?view=skype-ps) モジュールまたは [MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams)モジュール のバージョン 2.0.0 以上のコマンドレットを使用します。
+
+推奨されるモジュールを使用 `MicrosoftTeams` するには:
+
+```PowerShell
+Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
+Connect-MicrosoftTeams
+```
+
+表示専用のエクスペリエンスを有効にするには、次の PowerShell スニペットを使用できます。
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled

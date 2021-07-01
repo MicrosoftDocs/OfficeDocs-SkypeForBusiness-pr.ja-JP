@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 通話回線 ID Microsoft 365既定Office 365 (ユーザーに割り当てられた電話番号) の呼び出し元 ID と呼ばれる番号について学習します。 ユーザーの発信者番号を変更またはブロックできます。
-ms.openlocfilehash: dbbb48952264d82ca24bdd82dbb45538b0428368
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308336"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230604"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>ユーザーに発信者番号を設定する
 
@@ -39,6 +39,7 @@ ms.locfileid: "52308336"
     
   > [!NOTE]
   > Service パラメーターを *使用する場合* は、有効なサービス番号を指定する必要があります。
+  > ドロップダウンに表示されない場合は、リソース アカウント番号に PowerShell コマンドレットを使用する必要があります。
   
 - **発信呼び出し元 ID をブロックします。** 発信発信者 ID がユーザーの発信 PSTN 通話で送信されるのをブロックできます。 このようにすると、呼び出し中の電話に電話番号が表示されるのを禁止することができます。
     
@@ -138,7 +139,7 @@ Windows PowerShellは、ユーザーの管理と、ユーザーが許可また�
     
 - [アプリを使用して管理する 6 Windows PowerShell理由Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センターを使用する場合に限って、速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
+- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター の使用に対する速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
     
 - [アプリを使用してMicrosoft 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -147,7 +148,7 @@ Windows PowerShellは、ユーザーの管理と、ユーザーが許可また�
 - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
   
- ## <a name="related-topics"></a>関連トピック
+ ## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](./different-kinds-of-phone-numbers-used-for-calling-plans.md)

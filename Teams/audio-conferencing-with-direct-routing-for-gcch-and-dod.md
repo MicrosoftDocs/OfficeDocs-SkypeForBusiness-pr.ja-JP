@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 description: 管理者は、GCCH および DoD 環境で直接ルーティングを使用して電話会議を使用する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 577a9fe106cb5dae23049404b54433288e350b78
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: 4daea8636ce99ed711d7fd982cd42eb9aa8c6b93
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262622"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230584"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>GCC High および DoD のダイレクト ルーティングを使用する電話会議
 
@@ -170,8 +170,6 @@ GCC High または DoD ライセンスの直接ルーティングによる電話
 [高] と [DoD] の直接ルーティングを使用した電話会議ではサポートされていない電話会議GCC次に示します。
 
 - 名前の記録を使用して通知を開始および終了します。 直接ルーティングを使用した電話会議の場合、入退出通知は会議でトーンとして再生されます。
-
-- 電話会議の発信通話制限ポリシー。 発信通話を制限するユーザー レベルの制御は、ダイレクト ルーティングを介してルーティングされたダイヤルアウト通話の会議には適用されません。
 
 - 会議固有の開催者の無料電話番号の使用を無効にします。 組織の会議に参加するために無料電話番号の使用を制限するユーザー レベルの制御は、ダイレクト ルーティングを介してルーティングされた通話には適用されません。
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: システム ダイレクト ルーティングMicrosoft 電話、サポートされている顧客提供のセッション ボーダー コントローラー (SBC) をシステムに接続する方法Microsoft 電話します。
-ms.openlocfilehash: b7d065cd8e89e07203d50e4e21a4ac5eb2ccd843
-ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
+ms.openlocfilehash: 6474d9a4d7d4dfd3b970fdd9b189ecbfa85a00a9
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926759"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230614"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -333,7 +333,7 @@ SBC は、DNS クエリを実行して問題を解決 sip.pstnhub.microsoft.com�
 SIP プロキシコンポーネントとメディア プロセッサ コンポーネントの両方がデプロイされた場所:
 - 米国 (米国西部と米国東部のデータセンターに 2 つ)
 - ヨーロッパ (アムステルダムとダブリンのデータセンター)
-- アジア (シンガポールと香港のデータセンター)
+- アジア (シンガポール データセンター)
 - 日本 (JP 東部と西部のデータセンター)
 - オーストラリア (オーストラリア東部および南東部のデータセンター)
 

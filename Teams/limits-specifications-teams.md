@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bc57372526e231e4f2111c0dd2cc00783598cf3
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: e35ad06e8123bc2525439dd81334a8600fd0a555
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069305"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203606"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -124,6 +124,9 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |チャットから開始されるビデオまたは音声通話に参加できるユーザー数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
+  
+> [!NOTE]
+> ブレークアウト ルームは、出席者が300人未満の会議でのみ作成できます。 さらに、会議でブレークアウト ルームを作成すると、会議の出席者数が自動的に 300 人に制限されます。 300 人を超える参加者を予定している会議で、ブレークアウト ルームを初期設定しないように、エンドユーザーにアドバイスしてください。 大規模なチーム会議の詳細情報については、ガイダンス[大規模な Teams 会議のベスト プラクティス](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)をエンドユーザーと共有してください。 
 
 ### <a name="meeting-expiration"></a>会議の有効期限
 
@@ -185,7 +188,7 @@ Team は、SharePoint Online のバックエンドのファイル共有で実行
 |------------------------|---------|---------|---------|---------|---------|---------|
 |ストレージ                 |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB   |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB |1 組織につき 1 TB、さらに購入したライセンスごとに 10 GB  |1 組織につき 1 TB           |
 |Teams ファイル用のストレージ |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |サイト コレクションまたはグループあたり最大 25 TB。 |
-|ファイル アップロードの上限 (ファイルあたり)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|ファイル アップロードの上限 (ファイルあたり)    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |
 
 チャネルは、チーム用に作成された SharePoint Online サイト内のフォルダーによってバックアップされるため、チャネル内のファイル タブは、所属するチームのストレージ制限を共有します。
 

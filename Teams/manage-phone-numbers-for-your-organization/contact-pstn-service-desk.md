@@ -23,16 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 組織の電話番号またはポート (転送) 番号を取得する場合は、PSTN サービス デスクでヘルプとサポートを受ける必要がある場合があります。
-ms.openlocfilehash: 226a3c5926aa77e5bf1c73f3195fe50b73456b1f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afbf6c9beed27f907c28743937053bb08ae5dee6
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121355"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219154"
 ---
 # <a name="pstn-service-desk-contact-information"></a>PSTN サービス デスクの連絡先情報
 
 PSTN Service Desk チームに連絡するには、次の表に示す適切なエイリアスにメールを送信します。
+
+> [!NOTE]
+> 近日、PSTN サービス デスクと対話する新しいプロセスが予定されています。 その時点で、現在のメール システムは廃止されます。 新しいプロセスでは、Teams 管理センターと統合された 1 つの場所で、チケットを開き、コミュニケーションを追跡し、会社のチケットを表示できます。 今後数週間は、さらに多くの更新プログラムが適用されます。
+<br>
 
 | **既存の番号を転送/ポートする**  | **新しい番号を注文する** |
 |:-----:|:------:|
@@ -62,7 +66,7 @@ PSTN Service Desk チームに連絡するには、次の表に示す適切な�
 - 組織に適した電話番号の種類を選択するのに役立つ情報については、「通話プランに使用されるさまざまな種類の電話番号」 [を参照してください](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
 - 組織の電話番号を設定する方法については、「ビジネス向け製品のサポート連絡先 - 管理者向けヘルプ」 [を参照してください](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

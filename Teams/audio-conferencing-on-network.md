@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 次に、電話会議用のオンネットワークのオープン プレビュー機能について説明します。
-ms.openlocfilehash: d6df81cc077c69fdeb4246d682797d2ebb26b875
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+description: 次に、電話会議のオンネットワークについて説明します。
+ms.openlocfilehash: b7851bd2457debe8ee0de3144e24a15edb521222
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637839"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230564"
 ---
-# <a name="open-preview-of-on-network-conferencing-for-audio-conferencing"></a>電話会議用のオンネットワーク会議のプレビューを開く
+# <a name="on-network-conferencing-for-audio-conferencing"></a>電話会議用のネットワーク上会議
 
-オンネットワーク会議のオープン プレビューは、すべてのお客様が利用できます。 ネットワーク上の会議を使用すると、組織は直接ルーティングを通じて、着信および発信の電話会議通話を Microsoft ダイヤルイン番号に送信できます。 この機能は、電話会議のサポートをサード パーティのダイヤルイン番号に拡張する目的ではありません。 サード パーティのダイヤルイン電話番号または Microsoft 電話会議ブリッジから PSTN への発信通話を介して電話会議サービスへの着信通話をルーティングするために使用される場合、ネットワーク会議はサポートされません。 
+ネットワーク上の会議を使用すると、組織は直接ルーティングを通じて、着信および発信の電話会議通話を Microsoft ダイヤルイン番号に送信できます。 この機能は、電話会議のサポートをサード パーティのダイヤルイン番号に拡張する目的ではありません。 サード パーティのダイヤルイン電話番号または Microsoft 電話会議ブリッジから PSTN への発信通話を介して電話会議サービスへの着信通話をルーティングするために使用される場合、ネットワーク会議はサポートされません。 
 
 この記事では、組織のネットワーク上会議を有効にするために必要な前提条件と構成手順について説明します。
 
@@ -152,19 +152,6 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 ネットワーク上の会議を通じて内線番号ベースのダイヤルを有効にする場合は、組織の電話番号の電話番号範囲に合わせて、内線番号のダイヤル パターンに合わせてダイヤル プランを設定できます。 ダイヤル プランを設定するには、「ダイヤル プランを作成 [して管理する」を参照してください](create-and-manage-dial-plans.md)。
 
-
-## <a name="known-issues-in-open-preview"></a>Open Preview の既知の問題
-
-オンネットワーク会議のオープン プレビュー リリースに現在存在する既知の問題の一覧を次に示します。 Microsoft は、これらの問題に対処する作業を行っています。
-
-| 問題 | 回避策 |
-| :--- | :--- |
-| オンネットワーク会議を介してルーティングされる匿名/非表示の発信者 ID を使用したダイヤルイン通話は、会議に接続できません。 | 可能であれば、PBX または SBC の構成を設定して、オンネットワーク会議を介してルーティングされた通話の発信者番号を常に送信します。|
-| 場合によっては、ユーザーがサービスにダイヤルインするときに再生されるウェルカム メッセージ ("電話会議サービスへようこそ...") が切り捨てられ、ユーザーに "ようこそ" という単語が聞こえない場合があります。| 現時点では、この問題の回避策はありません。 |
-
-
-
-
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 

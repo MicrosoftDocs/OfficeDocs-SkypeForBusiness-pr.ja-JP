@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72c65de4892a25889fb456c73406126d34335f9a
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
+ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114016"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219124"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -35,6 +35,7 @@ ms.locfileid: "53114016"
 |2021 年 1 月 7 日より開始<br> *Complete* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|組織の Teams 会議ポリシーを変更し、それを明示的に **Stream** に設定することで、この変更を後回しにしない限り、すべての新しい Teams 会議の記録を OneDrive for Business と SharePoint に保存します。 Stream をポリシーで報告するだけでは十分ではありません。 ポリシー値を明示的に **Stream** に設定する必要があります。|
 |2021年 1 月 11 日より開始<br> *Complete* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC のみ**<br> GCC をご利用のお客様は、10 月 5 日からオプトアウトすることはできますが、オプト インすることはできません。 この機能は、(オプトアウト) を使用していない場合、2021 年 1 月 11 日以降のすべての GCC ユーザーにロールアウトされます。<br>  <br>2021 年 1 月 11 日から、GCC をご利用のお客様は、組織の Teams 会議ポリシーを変更し、それを明示的に **Stream** に設定することによって、この変更を遅らせない限りは、Teams の会議記録はすべて OneDrive for Business と SharePoint に保存されます。 <br><br>オプトアウトしても、この機能を有効にする準備ができたら、Teams の会議ポリシーを明示的に **OneDrive for Business** に設定することで、この機能を有効にすることができます。 |
 |2021 年 3 月 1 日からロールアウト開始<br> *(完了)* 　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC High および DoDのみ**<br> お客様は Microsoft Teams で初めてクラウド会議の記録を有効にできるようになりました。 これらの録画は既定で OneDrive および SharePoint に保存され、再生されます。 |
+|2021 年 7 月 7 日よりロール アウト開始 <br> *(完了)* 　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**すべてのお客様 (エンタープライズ、教育、GCC)**<br> OneDrive と SharePoint に記録され、会議中にライブで文字起こしされた Teams 会議の場合は、Microsoft Search で検索して、トランスクリプトに基づいて会議記録ファイルを検索できます。 |
 |2021 年 8 月 16 日から段階的に展開する &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**すべてのお客様 (エンタープライズ、教育、GCC)**<br>Microsoft Stream (クラシック) には、新しい会議の記録を保存できません。ユーザーがをチームの会議ポリシーを Stream に変更した場合でも、すべての顧客の会議記録は、OneDrive for Business と SharePoint に自動的に保存されます。<br><br> 組織の変化をより効果的に管理するために、変更が可能になるまで待つよりも、変更するのが都合が良いタイミングでオプト インすることをお薦めします。 |
 
 Microsoft Teams には、会議の記録を保存するための新しい方法があります。 従来の Microsoft Stream から[新しい Stream](/stream/streamnew/new-stream) への移行の最初のフェーズとして、このメソッドは Microsoft 365 の Microsoft OneDrive for Business と SharePoint に記録を保存し、多くの利点を提供します。
@@ -53,6 +54,7 @@ AMS に保存されている会議の記録は、自動的に削除される前�
 - アクセス フローを要求する
 - OneDrive for Business と SharePoint 共有リンクを提供する
 - 会議の記録をより早く使用できるようにする
+- 会議に記録された検索ベースのトランスクリプト
 - **ローカルにする** テナントへのサポート
 - 複数地域のサポート – 記録はそのユーザーに固有の地域に格納されます。
 - 独自のキー (BYOK) サポートを利用する
