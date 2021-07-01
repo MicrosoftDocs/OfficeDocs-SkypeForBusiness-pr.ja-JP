@@ -557,6 +557,8 @@ items:
         href: cortana-in-teams.md
       - name: チーム対象の階層を設定する
         href: set-up-your-team-hierarchy.md
+      - name: 教育以外のテナント向け監視付きチャット
+        href: supervised-chat-non-edu.md
   - name: 会議、会議、ライブ イベント
     items:
       - name: クイック スタート - 会議とライブ イベント
