@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e2cecf24d9bbd9e8c510ce722b059d2e00837d5
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 83b95032e89accca311eb66933a9991d4f0ca195
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186806"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252642"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 
@@ -47,9 +47,9 @@ ms.locfileid: "53186806"
     
 チームとチャネルの使用に関するヘルプについては、「[チームとチャネル](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)」をご覧ください。
 
-チームとチャネルを作成するためのベストプラクティスの詳細について、この短いビデオをご覧ください。
+チームとチャネルを作成するためのベスト プラクティスの詳細については、次の短いビデオをご覧ください。
 
-   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+- [技術ヒント: Teams &プライベート](https://youtu.be/WkAVgNKn0hs)チャネルを含む Microsoft Teams チャネルを作成するためのガイダンス (21:08 分)
 
 ## <a name="membership-roles-and-settings"></a>メンバーシップ、ロール、および設定
 
