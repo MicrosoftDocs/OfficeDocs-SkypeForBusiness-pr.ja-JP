@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff84b1dc161aa5b8ab99a74509fa7a93a1a9b270
-ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
+ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51399144"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230554"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 
-Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure Active Directory (Azure AD) を持ち、Teams のライセンスを取得していない組織内のユーザーは、Teams の Exploratory エクスペリエンスを開始できます。 管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。 以前の [Microsoft の商用クラウド試用版]()は、 Teams Exploratory エクスペリエンスに変更になりました。
+Microsoft Teams Exploratory エクスペリエンスを使用すると、Azure Active Directory (Azure AD) を持ち、Teams のライセンスを取得していない組織内のユーザーは、Teams の Exploratory エクスペリエンスを開始できます。管理者は組織内のユーザーに対して、この機能をオンまたはオフに切り替えることができます。
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Teams Exploratory エクスペリエンスの内容
 
@@ -119,7 +119,7 @@ Teams へのアクセスをオフにするには:
 
 ### <a name="manage-teams-availability-for-users-who-are-already-using-the-teams-exploratory-experience"></a>Teams Exploratory エクスペリエンスをすでに使用しているユーザーの Teams の可用性を管理する
 
-ユーザーが Teams Exploratory エクスペリエンスを実行している場合は、ライセンスまたはサービス プランを削除することでそれをオフにできます。 管理者権限が必要です。
+ユーザーが Teams Exploratory エクスペリエンスを実行している場合は、ライセンスまたはサービス プランを削除することでそれをオフにできます。管理者権限が必要です。
 
 Teams Exploratory エクスペリエンスのライセンスをオフにするには:
 
@@ -138,26 +138,12 @@ Teams Exploratory エクスペリエンスのライセンスをオフにする�
 
 Teams Exploratory ライセンスを持つユーザーは、通常の有料ライセンスを持つユーザーと同じように管理できます。 詳細については、「[組織の Teams 設定を管理する](enable-features-office-365.md)」を参照してください。
 
-### <a name="upgrade-users-from-the-teams-exploratory-license"></a>Teams Exploratory ライセンスからユーザーをアップグレードする
+### <a name="upgrade-users-from-teams-exploratory"></a>Teams Exploratory ライセンスからユーザーをアップグレードする
 
-Teams Exploratory ライセンスからユーザーをアップグレードするには(管理者権限が必要です)、次のタスクを実行します。
-
-1. Teams が含まれているサブスクリプションを購入します。
-
-2. ユーザーから Teams Exploratory のサブスクリプションを削除します。
-
-3. 新しく購入したライセンスを割り当てます。
-
-詳細については、「[Microsoft Teams サービスのサービスの説明](/office365/servicedescriptions/teams-service-description)」を参照してください。
+Teams Exploratory ライセンスからユーザーをアップグレードするには管理者権限が必要です。 詳細については、「[Teams Exploratory 試用版からユーザーをアップグレードする](upgrade-from-teams-exploratory.md)」を参照してください。
 
 > [!NOTE]
-> Teams Exploratory ライセンスが終了し、ユーザーが Teams を含むサブスクリプションにすぐにアップグレードされない場合は、30 日間の猶予期間が設定され、30 日経過後にデータが削除されます。 ユーザーは引き続き Azure Active Directory に残ります。 ユーザーに新しいライセンスが割り当てられると、Teams の機能は再び有効になり、猶予期間のタイムフレーム内にユーザーが追加された場合はすべてのコンテンツが残ります。
-
-## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>従来の Microsoft Teams の商用クラウドの試用版のライセンスはどうなりますか
-
-2020 年 2 月から、対象ユーザーは最新の Microsoft Teams Exploratory エクスペリエンスの使用を開始できます。 従来の Teams の商用クラウドの試用版のライセンスはすべて、試用版の有効期限が切れる前に自動的に新しいサービスに変換されます。
-
-ユーザーが初めて、有効期限が切れた Teams の商用クラウドの試用版にサインインすると、そのユーザーに Teams Exploratory ライセンスが自動的に割り当てられます。 ユーザーがサインインするまで、変換されません。
+> Teams Exploratory ライセンスが終了し、ユーザーが Teams を含むサブスクリプションにすぐにアップグレードされない場合、30 日間の猶予期間が過ぎると、Teams にアクセスできなくなります。 さらに 30 日後、データは削除されます。 ユーザーは引き続き Azure Active Directory に残ります。 ユーザーに新しいライセンスが割り当てられると、Teams の機能は再び有効になり、猶予期間のタイムフレーム内にユーザーが追加された場合はすべてのコンテンツが残ります。
 
 ### <a name="remove-a-teams-exploratory-license"></a>Teams Exploratory ライセンスを削除する
 
@@ -184,4 +170,4 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 > [!NOTE]
 > お客様は、以前の Exploratory 試用版ライセンスの有効期限が終了してから 3 か月間、新しい Exploratory 試用版ライセンスは無効になり、起動がブロックされます。
 
-詳細については、この記事の上記の「[Teams Exploratory ライセンスからユーザーをアップグレードする](#upgrade-users-from-the-teams-exploratory-license))」を参照してください。
+詳細については、この記事の上記の「[Teams Exploratory からユーザーをアップグレードする](#upgrade-users-from-teams-exploratory)」を参照してください。
