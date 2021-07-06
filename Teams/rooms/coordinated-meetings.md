@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: デバイスTeams ミーティングを構成しSurface Hubデバイスまたは他のデバイスが会議に参加するときに会議に参加する必要があります。
-ms.openlocfilehash: 57dc91e4a7d923e218cd1f8f6f0ce22679d550e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b81d6fca5c263bb8ba1dcd07e80167425bd42fc0
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117565"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278680"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>会議や会議を使って調整Microsoft Teams ミーティング設定Surface Hub
 
@@ -46,9 +46,9 @@ Teams ミーティング デバイスと Surface Hubs が会議を自動的に�
 
 ## <a name="step-2-get-your-devices-upns"></a>手順 2: デバイスの UPN を取得する
 
-会議室で調整された会議エクスペリエンスを設定する場合は、その会議室内の Teams ミーティング デバイスと Surface Hubs に、どのデバイスを調整する必要かを伝える必要があります。 これは、調整する必要があるデバイスのユーザー プリンシパル名 (UPN) を構成に追加することで行われます。 調整された会議に設定する各デバイスの UPN が分からない場合は、Microsoft 365管理センターを使用して検索できます。 
+会議室で調整された会議エクスペリエンスを設定する場合は、その会議室内の Teams ミーティング デバイスと Surface Hubs に、どのデバイスを調整する必要かを伝える必要があります。 これは、調整する必要があるデバイスのユーザー プリンシパル名 (UPN) を構成に追加することで行われます。 調整された会議用に設定する各デバイスの UPN が分からない場合は、次のコマンドを使用Microsoft 365 管理センター。 
 
-管理者センターにアクセスするには、管理者ロールMicrosoft 365必要があります。 詳細については、「管理者ロールについて [」を参照してください](/microsoft-365/admin/add-users/about-admin-roles)。
+管理者ロールを割り当て、管理者ロールにアクセスするMicrosoft 365 管理センター。 詳細については、「管理者ロールについて [」を参照してください](/microsoft-365/admin/add-users/about-admin-roles)。
 
 デバイスと Surface Hubs Teams ミーティングの UPN を取得するには、次の操作を行います。
 

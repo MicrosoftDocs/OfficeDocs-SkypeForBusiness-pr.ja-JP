@@ -16,18 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08dba2975886b117fcc45058c98d33aa7cde4565
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 5e4fc9b8ace3cec2161008cffe61a8b312e61f39
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506737"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278460"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>カスタム チーム テンプレートを作成する Microsoft Teams
 
 **カスタム テンプレートは、EDU のお客様にはまだサポートされていません。**
 
 カスタム チーム テンプレートは、チャネル、タブ、アプリのセットを含む定義済みのチーム構造です。 適切なコラボレーション スペースをすばやく作成するのに役立つテンプレートを開発できます。 カスタム チーム テンプレートでは、お好みの設定を使用します。  
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4P5rx]
+
 
 使用を開始するには:
 
@@ -64,7 +69,7 @@ ms.locfileid: "51506737"
 新しいテンプレートが [チーム テンプレート] **の一覧に表示** されます。 テンプレートを使用して、チームを作成し、Teams。
 
 > [!Note]
-> チーム ユーザーがギャラリーにカスタム テンプレートを表示するには、最大で 24 時間かかる場合があります。
+> チーム ユーザーがギャラリーでカスタム テンプレートの変更を確認するには、最大で 24 時間かかる場合があります。
 
 ## <a name="customizing-website-tab-apps"></a>Web サイト タブ アプリのカスタマイズ
 

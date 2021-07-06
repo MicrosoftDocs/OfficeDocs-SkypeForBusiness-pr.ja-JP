@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: ポート注文の概要と、サービス プロバイダーからサービス プロバイダーに電話番号を転送する方法Teams。
-ms.openlocfilehash: d7ca4769dcd1f320a7d0b8a8ed18fdba5b06abbd
-ms.sourcegitcommit: 31a585cc0fe6350efacf3a7771d1e590d5e4233c
+ms.openlocfilehash: f30bdc825caf7feadbb09bd4bbe65a4d5771a6a6
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50615053"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278650"
 ---
 # <a name="whats-a-port-order"></a>番号移行注文について
 

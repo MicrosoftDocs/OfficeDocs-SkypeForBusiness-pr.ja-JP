@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Graph API を使用して組織内のプライベート チャネルを管理する方法について説明します。
-ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 263c490156a3dc02ddc8f81233a049ff020c72f8
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117745"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278530"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネルのライフ サイクルを管理する
 
@@ -149,7 +149,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
-    
+
     **応答**
 
     ```Graph API
@@ -177,7 +177,8 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
               }
           ]
     }
-    ```    
+    ```
+
 2. 以下を使用して、メンバーを所有者に昇格させます。ここで、&lt;group_id&gt;、&lt;channel_id&gt;、&lt;id&gt; は前の呼び出しから返されます。 前の呼び出しから返された &lt;id&gt; と &lt;userId&gt; は同じではなく、互換性がないことに注意してください。 必ず &lt;id&gt; を使用してください。
 
     **要求**

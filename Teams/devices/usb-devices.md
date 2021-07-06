@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) が認定を受けたMicrosoft Teams。
-ms.openlocfilehash: f8caa5a2d4ef374ce834e801f80370e5cb4251ac
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: e3225490e52b527e02449796d614107221853554
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105129"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278510"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB オーディオ デバイスとビデオ デバイスは、Microsoft Teams
 
@@ -74,10 +74,11 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 
 ## <a name="certified-devices"></a>認定デバイス
 
-*テーブルの更新日: 2021 年 6 月*
+*テーブルの更新日: 2021 年 7 月*
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS/Sennheiser      |160T ANC を適応する                                             |6/24/2021       |認定Microsoft Teams                           |
 |Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |認定Microsoft Teams                           |
 |NEC                  |WD551 Windows コラボレーション ディスプレイ                        |5/21/2021       |認定Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |認定Microsoft Teams                           |

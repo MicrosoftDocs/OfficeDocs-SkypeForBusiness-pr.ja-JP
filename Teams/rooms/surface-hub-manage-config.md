@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 構成Microsoft Teamsを使用してSurface HubのMicrosoft Intune設定Windows管理する
-ms.openlocfilehash: 9c16fa4875febd3c9e0a8457626db5e09bf90545
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d368bed6db1d86e9c97d849d462edd1ff0a21c6d
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117385"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278470"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>アカウントMicrosoft Teams設定を管理Surface Hub
 
@@ -91,7 +91,7 @@ Windows 構成デザイナーを使用してプロビジョニング パッケ�
 
 1. 上記で作成したプロビジョニング パッケージを USB ドライブに保存する
 2. USB ドライブをデバイスに挿入Surface Hub
-3. 自分のSurface Hub、[スタート] メニューを開き、[すべてのアプリ] を選択して、[アプリ] を **選択設定**
+3. 自分のSurface Hubアプリを開きスタート メニューすべてのアプリ] を選択し、[アプリ] を **選択設定**
 4. 管理者のユーザー名とパスワードを入力し、[はい] を **選択します。**
 5. [デバイス管理 **Surface Hub****に移動****し、プロビジョニング** パッケージを追加または削除し、[パッケージの追加 **] を選択します。**
 6. [**パッケージの選択] で**、プロビジョニング パッケージ **の** 横にある [追加] を選択し、アプリケーションを再起動Surface Hub
@@ -130,7 +130,7 @@ Teams 構成デザイナーまたは Surface Hub を使用して、Windowsの構
 
 Windows 構成デザイナーによって作成されたプロビジョニング パッケージを使用して Surface Hub に設定を適用した場合は、次の手順に従ってパッケージとその設定を削除します。 Teams
 
-1. 自分のSurface Hub、[スタート] メニューを開き、[すべてのアプリ] を選択して、[アプリ] を **選択設定**
+1. 自分のSurface Hubアプリを開きスタート メニューすべてのアプリ] を選択し、[アプリ] を **選択設定**
 2. 管理者のユーザー名とパスワードを入力し、[はい] を **選択します。**
 3. [デバイス管理 **Surface Hub****に移動** し、プロビジョニング **パッケージを追加または削除します。**
 4. 削除するプロビジョニング パッケージの横にある [削除] を選択 **します。**
@@ -150,7 +150,7 @@ Microsoft Endpoint Management Teams Surface Hub を使用して Microsoft Intune
 
 Surface Hub の調整された会議設定を含む構成プロファイルを削除した後、次の手順に従って、Teams アプリを Surface Hub。
 
-1. 自分のSurface Hub、[スタート] メニューを開き、[すべてのアプリ] を選択して、[アプリ] を **選択設定**
+1. 自分のSurface Hubアプリを開きスタート メニューすべてのアプリ] を選択し、[アプリ] を **選択設定**
 2. 管理者のユーザー名とパスワードを入力し、[はい] を **選択します。**
 3. [アプリ] **Surface Hub、[** アプリ] の **順に&します。**
 4. [詳細 **Microsoft TeamsをSurface Hub** し、[詳細オプション]**を選択します。**

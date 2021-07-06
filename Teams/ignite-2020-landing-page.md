@@ -8,12 +8,12 @@ ms.service: msteams
 ms.author: v-cichur
 audience: admin
 manager: serdars
-ms.openlocfilehash: 8426438b0fe4d10d4a4d68406709bc7cb344c062
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
+ms.openlocfilehash: 3c9e23d8072adf9f64a83821300819bbe0455b80
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909141"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278480"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Teams Ignite 2020 でのセッションの作成
 
@@ -27,7 +27,7 @@ ms.locfileid: "49909141"
 |[会議を使って、よりスマートに会議を行い、集中し、より多Microsoft Teamsします](https://aka.ms/DB151)  |会議は、作業の実行方法の基です。 新しいTeamsに適応しながら、組織の生産性を高め、会議を行う方法について学習します。  |カヤズ クパラ|
 |[Microsoft Teams単純な呼び出し](https://aka.ms/DB149)  |EnterpriseデプロイとTeamsの呼び出しは簡単です。 新しい通話エクスペリエンスやTeams通話など、通話の最新情報を確認しながら、通話の基本について説明します。 |Paul大島、Laura Kramer、バーバラ 金|
 |[管理者が管理する 1 つの場所Microsoft Teams: 管理のしやすさTeams新機能](https://aka.ms/DB144) |Teams管理者は、柔軟できめ細かい管理機能を持っています。 この機能を使用すると、ビジネスのニーズに最適なカスタム エクスペリエンスを組織に提供できます。 このセッションでは、チーム管理センター ポータルを中心に最新の機能と最大の機能を紹介し、ポリシー、アプリ管理、デバイス管理、レポート、分析とトラブルシューティング、PowerShell の新機能について説明します。 |インティット Ben-Sheffer、Jamie Stark|
-|[仮想会議とイベントをスケールおよびカスタマイズするには、Microsoft Teams](https://aka.ms/DB138) |会議には、すべての図形とサイズが用意されています。次の大規模なイベントをTeamsを使用して管理する方法について説明します。 Teams、組織のニーズに合わせてシームレスにスケーリングし、さまざまな規模のイベントに最適な出席者エクスペリエンスをカスタマイズして提供する方法を提供できます。  |Christina Torok、Ashwin Appiah|
+|[仮想会議とイベントをスケールおよびカスタマイズするには、Microsoft Teams](https://aka.ms/DB138)|会議には、すべての図形とサイズが用意されています。次の大規模なイベントをTeamsを使用して管理する方法について説明します。 Teams、組織のニーズに合わせてシームレスにスケーリングし、さまざまな規模のイベントに最適な出席者エクスペリエンスをカスタマイズして提供する方法を提供できます。  |Christina Torok、Ashwin Appiah|
 |[複数のデバイスを使用してハイブリッド ワークプレース全体で最新の会議Microsoft Teamsする](https://aka.ms/DB147) |デバイスのMicrosoft Teams概要。 Teamsデバイスは、ユーザーがデバイスの機能を最大限に活用し、Teamsワークスペースと共有ワークスペースの間のギャップを埋めるのに役立ちます。 ユーザー中心の会議室エクスペリエンスと再考された個人用ワークスペースを提供するように設計されたデバイスについて説明します。これらのデバイスを使用して、より包括的で共同作業的なエクスペリエンスMicrosoft Teamsします。  |Kendra Baker、Greg Baribault|
 |[新しいプラットフォームを使用した最新のMicrosoft Teams変換](https://aka.ms/DB157) |新しいプラットフォーム内のすべての新規および既存の機能拡張ポイントTeamsします。 ビジネス ニーズを解決するための強力なアプリとソリューションを作成する方法を確認します。|Archana Saseetharan、Michal Lesiczka|
 |[Microsoft 365 プラットフォームの再Microsoft 365する](https://aka.ms/DB146)|このMicrosoft 365プラットフォームを使用すると、組織は環境のすべての側面を調整して、ユーザーの作業と共同作業の向上に役立ちます。 Microsoft Graph から分析情報や関連データを追加して、すべてのアプリがどのように進むのGraph。 すべてのアプリを、アプリ全体の作業フローと統合する方法について学習します (Microsoft Teams。 アプリがデバイス間で独自の魅力的なエクスペリエンスを提供する方法を参照してください。 アプリの作成を高速化できる重要な構成要素を活用します。|Yina Arenas、Mike Ammerlaan|
@@ -95,12 +95,12 @@ ms.locfileid: "49909141"
 
 | タイトル | 要約            | レベル| スピーカー |
 |---|----------|---|---|---|
-|[Teams for Education のデプロイとガバナンス](https://aka.ms/PR103) |教育機関の包括的なガバナンスを理解します。 このセッションでは、チャット ポリシー、会議ポリシー、アプリ ポリシー、グループを通じた課題、学生の安全を構成する方法、チーム クラスの作成を自動化する方法について説明します。 |300|Jethro Seghers|
+|[アプリケーションのデプロイとガバナンスMicrosoft Teams for Education](https://aka.ms/PR103) |教育機関の包括的なガバナンスを理解します。 このセッションでは、チャット ポリシー、会議ポリシー、アプリ ポリシー、グループを通じた課題、学生の安全を構成する方法、チーム クラスの作成を自動化する方法について説明します。 |300|Jethro Seghers|
 |[仮想正常性と医療分野のMicrosoft Teamsコラボレーション](https://aka.ms/PR116)|医療組織は、医療チームを強化Microsoft Teamsを使用できます。 このセッションでは、仮想正常性チームと正常性チームの共同作業に重点を置きます。 医療、仮想訪問、顧客事例など、Teamsのお知らせなどの領域について詳しくは、ご覧ください。 また、現在の多くの医療シナリオにMicrosoft Teamsプラットフォームとしてアプリケーションを使用する方法も説明します。|200|Evan Westenberger、Tom Mc、Kristina Behr、Daniel Canning|
 |[業界Microsoft Teamsを調整する](https://aka.ms/PR117)|テンプレートを使用してコラボレーション エクスペリエンスをブートストラップする方法の詳細を共有します。 業界ギャラリーを使用します。 これらのテンプレートを組織のニーズに合わせてカスタマイズします。 組織のさまざまな部分にテンプレートをデプロイします。 ポリシー パッケージを使用して管理します。|200|プレムクチ、Aaron Glick|
 |[Government でのコラボレーションとMicrosoft Teamsを使用する](https://aka.ms/PR118) |州、地方自治体、および連邦機関は、Microsoft Teamsを使用して、応答時間と市民の関与を改善します。 既存の機能を最大限に活用する方法について学習します。 今後の予定と、政府でのビジネスに関する将来Microsoft Teamsをご覧ください。 |200|Rima Reyes、Karuana Gatimu、Roxy Ndebebdu、Sarah Gibert|
-|[Microsoft Teams for Education App Platform との統合](https://aka.ms/PR120)|Teamsは、教育機関がアプリを統合し、カスタム ワークフローを作成するオープン プラットフォームです。 IT ヘルプ デスクと統合するためにTeamsアプリ ストアをクラスルームの教育全体で使用する方法について説明します。 サード パーティ製のアプリ ガバナンス、オープン ソース アプリ テンプレートについて説明します。 App Studio の実践的な例を見て、教育機関向けクイック カスタム Web サイト アプリを作成します。|300|ドミニク・Williamson|
-|[Teams for Education を使用したリモート学習とハイブリッド学習](https://aka.ms/PR139)|リモート学習とハイブリッド学習で知る必要があるすべての情報について詳しい説明を行います。 適切な会議オプションとポリシーを使用してオンライン会議を作成する方法が含まれます。 自動化を通じてクラス チームを作成する方法を参照してください。 コラボレーション教室環境をサポートする方法について説明します。|200|Juliano Menegazzo Souza|
+|[アプリ プラットフォームMicrosoft Teams for Education統合する](https://aka.ms/PR120)|Teamsは、教育機関がアプリを統合し、カスタム ワークフローを作成するオープン プラットフォームです。 IT ヘルプ デスクと統合するためにTeamsアプリ ストアをクラスルームの教育全体で使用する方法について説明します。 サード パーティ製のアプリ ガバナンス、オープン ソース アプリ テンプレートについて説明します。 App Studio の実践的な例を見て、教育機関向けクイック カスタム Web サイト アプリを作成します。|300|ドミニク・Williamson|
+|[リモート学習とハイブリッド学習 (Microsoft Teams for Education](https://aka.ms/PR139)|リモート学習とハイブリッド学習で知る必要があるすべての情報について詳しい説明を行います。 適切な会議オプションとポリシーを使用してオンライン会議を作成する方法が含まれます。 自動化を通じてクラス チームを作成する方法を参照してください。 コラボレーション教室環境をサポートする方法について説明します。|200|Juliano Menegazzo Souza|
 ||||||
 
 ### <a name="frontline-worker"></a>Frontline Worker
@@ -109,5 +109,5 @@ ms.locfileid: "49909141"
 |---|----------|---|---|---|
 |[フロントエンド ワークフォースのビジネス継続性を有効にするには、Microsoft Teams](https://aka.ms/OD258)|組織がビジネス継続性を維持するために運用と従業員を調整し続ける中で、Microsoft Teams の新機能は、フロントライン ワーカーが顧客のニーズを満たすのに集中し続けるのに役立ちます。このセッションでは、時間とコストを節約するセキュリティで保護された一元化されたユーザー エクスペリエンスを作成するための Walkie Talkie 機能と共に、シフト、タスク、コア 通信に重点を置きます。|200|Scott Morrison、Zoe Hawtof|
 |[フロントライン 従業員Teams多様なニーズに合わせて、有効なデバイスをデプロイおよび管理する](https://aka.ms/PR114)|ワーカーが前のジョブに集中するための新しい方法を可能にする Frontline 固有のデバイスをデプロイする方法について説明します。  このチュートリアルには、Walkie Talkie のTeamsハンズフリーコラボレーションのシナリオが含まれます。 |200|Abid Ellidhry、James Ellis|
-|[管理センターで機能を使用して分散フロントライン Microsoft 365を管理する](https://aka.ms/PR115)|Frontline Worker の一般的な IT デプロイと管理シナリオに関するベスト プラクティスとMicrosoft 365ガイダンスを確認します。 フロントラインの従業員をサポートするソリューションをMicrosoft Teams適切なエクスペリエンスを構築し、ソリューションを正常にロールアウトする方法について説明します。 |300|Irina Parsina、Zoe Hawtof|  
+|[管理センターで機能を使用して分散フロントライン Microsoft 365を管理する](https://aka.ms/PR115)|Frontline Worker の一般的な IT デプロイと管理シナリオに関するベスト プラクティスとMicrosoft 365ガイダンスを確認します。 フロントラインの従業員をサポートするソリューションをMicrosoft Teams適切なエクスペリエンスを構築し、ソリューションを正常にロールアウトする方法について説明します。|300|Irina Parsina、Zoe Hawtof|  
 |||||

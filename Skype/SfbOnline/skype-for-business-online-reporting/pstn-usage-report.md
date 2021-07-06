@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新しい Skype for Business 管理センター レポートの領域に、組織内の通話および電話会議のアクティビティが示されます。ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。たとえば、 Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。通話料金を含む、電話会議 PSTN 使用状況の詳細を表示することができるため、使用状況と通話請求の詳細を把握して、組織内の使用状況を見極めることができます。
-ms.openlocfilehash: b806c0b3a471f862de6d69c6ed9b5220441c4257
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
-ms.translationtype: HT
+ms.openlocfilehash: 2c6a0410611919662f5eaf37a03bfcca11b543be
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238205"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278450"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
 
