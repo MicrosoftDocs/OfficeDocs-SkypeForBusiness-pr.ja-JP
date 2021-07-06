@@ -1525,6 +1525,8 @@ items:
             href: g1-trial-license.md
           - name: Teams Exploratory エクスペリエンスを管理する
             href: teams-exploratory.md
+          - name: Teams Exploratory ライセンスからユーザーをアップグレードする
+            href: upgrade-from-teams-exploratory.md
           - name: Teams の無料版を管理する
             href: manage-freemium.md
           - name: Teams を無料で月額プラン バージョンにアップグレードする
