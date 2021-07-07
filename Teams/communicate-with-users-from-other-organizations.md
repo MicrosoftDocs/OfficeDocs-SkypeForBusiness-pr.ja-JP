@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 外部アクセス (フェデレーション) とゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
-ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bda5652aedd8d071984334a3851e50ba52400943
+ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53302002"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする
 
@@ -77,7 +77,7 @@ Teams のゲスト アクセスを構成する方法については、「[チー
 | 組織外のユーザーは、次のことを実行できます | 外部アクセス ユーザー | ゲスト |
 |---------|-----------------------|--------------------|
 | Teams のリソースにアクセスする | いいえ | はい |
-| グループ チャットに追加される | いいえ | はい |
+| グループ チャットに追加される | はい | はい |
 | 会議に招待される | はい | はい |
 | プライベート通話をする | はい | はい<sup>5</sup> |
 | ダイヤルイン会議の参加者の電話番号を表示する | いいえ<sup>4</sup> | はい |

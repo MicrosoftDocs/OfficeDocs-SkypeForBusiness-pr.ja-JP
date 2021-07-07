@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 53eeff9791ac07939756f56a7ebce635ac7cd819
-ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
+ms.openlocfilehash: 10734ef748d5e3ec0327c1cae3a3e6defec0e9af
+ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53023238"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53301992"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -124,8 +124,6 @@ Teams は、プライベート チャネル サイトのライフ サイクル�
 既存のチームからチームを作成する場合、既存のチームのプライベートチャネルは上書きされません。
 
 現時点では、プライベート チャネルからの通知は、見逃したアクティビティ メールには含まれません。
-
-プライベート チャネルのメッセージに対して、保持ポリシーはサポートされていません。
 
 ## <a name="related-topics"></a>関連項目
 
