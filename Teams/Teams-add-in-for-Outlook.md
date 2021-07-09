@@ -19,15 +19,14 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5242d4b836f159484caf5575d23937ddaba97816
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: c37a87ba5ec1d06b6bc2441292989e52a3076ca5
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278540"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337826"
 ---
-<a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
-=======================================
+# <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 
 Teams 会議アドインを使用すると、ユーザーは Outlook から Teams 会議をスケジュールできます。 このアドインは、Outlook for Windows、Mac、Web、モバイルで使用できます。
 
@@ -141,7 +140,7 @@ Outlook 用の Teams 会議アドインをインストールできない場合�
 または、次の手順を手動で実行します。
 
 - Windows 7 ユーザーは、Teams 会議アドインを機能させるために、[Windows ユニバーサル C ランタイム更新プログラム](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)をインストールする必要があります。
-- ユーザーが Teams で会議をスケジュールできる Teams アップグレード ポリシーを持っていることを確認します。 詳細については、「[Skype for Business から Teams へのアップグレード](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
+- ユーザーが Teams で会議をスケジュールできる Teams アップグレード ポリシーを持っていることを確認します。 詳細については、「[Skype for Business から Teams へのアップグレード](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings)」を参照してください。
 - Outlook アドインを許可する Teams 会議ポリシーが設定されていることを確認します。 詳細については、「[会議ポリシーの設定 - 全般](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in)」を参照してください。
 - ユーザーが Teams デスクトップ クライアントをインストールしていることを確認します。 Teams の Web クライアントのみを使用している場合には、会議アドインはインストールされません。
 - ユーザーが Outlook 2013 以降をインストールしていることを確認します。

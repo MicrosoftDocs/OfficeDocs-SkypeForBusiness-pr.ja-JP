@@ -18,12 +18,12 @@ description: Microsoft 通話プランと直接ルーティングの動的緊急
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5454eff6e09e923a6db8de1ba8c9e9fe47c3f0f2
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 5e399c5e18bc90f99ebe59f3f4e603da5f7cbfe9
+ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096311"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53337836"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -83,6 +83,9 @@ Microsoft 通話プランと 電話システム ダイレクト ルーティン�
 - Teams Android クライアントおよび Google Play ストア バージョン 1416/1.0.0.2019121201 以上のモバイル クライアント
 - Teamsバージョン 1449/1.0.94.2019110802 以上
 - Teams ミーティングバージョン 4.4.25.0 以上
+
+> [!NOTE]
+> 3PIP 電話では、動的緊急通話はサポートされていません。 
 
 > [!NOTE]
 > セキュリティ デスク通知を含む動的緊急通話は、Web クライアントTeamsサポートされていません。 ユーザーが Teams Web クライアントを使用して PSTN 番号を呼び出すのを防ぐには、Teams 通話ポリシーを設定し、[Web PSTN 通話を許可する] 設定 **をオフ** にします。 詳細については、「Teams でのポリシーの呼び出し」[と](teams-calling-policy.md)[「Set-CsTeamsCallingPolicy」を参照してください](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 

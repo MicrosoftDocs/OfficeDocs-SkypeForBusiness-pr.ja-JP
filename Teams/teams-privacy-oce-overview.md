@@ -28,7 +28,7 @@ ms.locfileid: "52863238"
 管理者が Teams でオプションの接続エクスペリエンスを使用する機能を付与している場合は、Teams の **[設定]** > **[プライバシー]** に移動して、オプションの接続エクスペリエンスを使用するかどうかを選択できます。
 
 > [!NOTE]
-> 管理者の場合、ユーザーがオプションの接続エクスペリエンスを使用できるようにしたり、制限したりできます。 これを行うには、[Office クラウド ポリシー サービス](/deployoffice/overview-office-cloud-policy-service)を使用し、*Office での追加オプションである接続エクスペリエンスの使用を許可する* ポリシー設定を構成します。 これは、Microsoft 365 Apps for enterprise に付属する Office アプリ (Word、Excel、PowerPoint など) でユーザーのオプションの接続環境を有効化するかを制御する同様のポリシー設定です。
+> 管理者の場合、ユーザーがオプションの接続エクスペリエンスを使用できるようにしたり、制限したりできます。 これを行うには、[Office クラウド ポリシー サービス](/deployoffice/overview-office-cloud-policy-service)を使用し、*Office での追加オプションである接続エクスペリエンスの使用を許可する* ポリシー設定を構成します。 これは、Microsoft 365 Apps for enterprise に含まれる Office アプリ (Word、Excel、PowerPoint など) でユーザーがオプションの接続エクスペリエンスを利用できるかどうかを制御するのと同じポリシー設定です。
 
 ## <a name="giphy"></a>GIPHY
 

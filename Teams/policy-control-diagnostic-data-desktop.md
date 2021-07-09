@@ -43,7 +43,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **adalAnonymousUtil.ts:loggingService.getInstance** - アプリが匿名ユーザー認証を起動できなかったことをログに記録するエラー ステートメントを記録します。
 - **adal-anonymous-windows.ts:this.logger.logError** - Windows デバイスに匿名でログインするときに一般的な sso エラーが発生したことを記録します。
 - **adalBase.ts:this.loggingService.logError** - ユーザー プロファイルが null または空であることを確認するために必要な情報を記録します。
-- **adal-impl-mac.ts:this.loggingService.logError** - 認証中に受信したテレメトリの解析時に発生した問題、またはMac デバイスへのログイン時に発生した genaric sso エラーが発生したことを記録します。
+- **adal-impl-mac.ts:this.loggingService.logError** - 認証中に受信したテレメトリの解析時に発生した問題、またはMac デバイスへのログイン時に発生した一般的な sso エラーが発生したことを記録します。
 - **adal-rigel-windows.ts:this.logger.logError** - ミーティング ルーム デバイスにログインするときに一般的な sso エラーが発生したことを示す一般的なログステートメント。
 - **adal-sso-windows.ts:this.loggingService.logError** - Windows デバイスへのログイン時に一般的な sso エラーが発生したこと、チャット サービスの開始エラー、またはログイン失敗情報を記録します。
 - **appOnlineService.ts:loggingService.getInstance** - 起動時に解析できなかった設定、または事前ユーザー認証、事前承認された設定のダウンロードでエラーが発生したことを記録します。
@@ -56,7 +56,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 - **localStorageService.ts:loggingService.getInstance** - アプリケーションを実行するために重要なブート データが適切にロードされない場合のエラーの発生を記録します。
 - **logProviders \ pageDumpProvider.ts:loggingService.getInstance** - アプリケーションがクラッシュしたときにエラー情報を記録します。
 - **multiWindowManager.ts:this.logError** - アプリケーションを実行するために重要なブート データが適切にロードされない場合のエラーの発生を記録します。
-- **nativeElectronNotifications \ osNotificationService.ts:this.loggingService.logError** - このイベントは、失敗に関する通知を起動しようとしたときにエラーの発生を記録します。
+- **nativeElectronNotifications\osNotificationService.ts:this.loggingService.logError** - このイベントは、失敗に関する通知を起動しようとしたときにエラーの発生を記録します。
 - **OutlookMeetingAddinHelper.ts:loggingService.getInstance** - Outlook ミーティング アドインを使用してミーティングに接続しようとしたときのエラーの発生を記録します。
 - **recoveryManager.ts:loggingService.getInstance** - 更新のロールバック中に発生したエラーを記録します。
 - **renderer \ startPage \ startPage.ts:this.logger.logError** - アプリケーションの開始ページでのエラーの発生を記録します。
@@ -94,7 +94,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 > [!NOTE]
 > トラッキング イベントのプロパティについては、[トラッキング イベントで送信されるプロパティ](#properties-sent-with-tracking-events)を参照してください。
 
-- **deeplink_scenario_missing** - Teams がディープ リンクから起動しましたが、テレメトリ/診断がありません。
+- **deeplink_scenario_missing** - Teams はディープリンクから起動されましたが、テレメトリ/診断がありません。
 - **desktop_app_initialized** - デスクトップ アプリケーションの初期化時にアプリケーションが正常に起動したかどうかを判断するために必要な情報を記録します。
 - **desktop_app_quit_exception** - アプリケーションを閉じようとしたときにクラッシュしました。
 - **desktop_blankScreenDetected** - デスクトップ アプリケーションが空白の画面をレンダリングするときにエラーを特定するために必要な情報を記録します。
@@ -207,7 +207,7 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 | Session_DesktopId                 | 一意のセッション ID                                                                  |
 | machineLocked                     | マシンがロックされているかどうかをキャプチャします                                          |
 | windowIsVisible                   | アプリ ウィンドウが使用可能であるかどうかをキャプチャします                                      |
-| appStates/webAppStates            | アプリが通過したアプリの状態の一覧を記録します。これによりアプリの状態について確認できるため、クラッシュの原因調査に役立ちます |
+| appStates/webAppStates            | アプリが通過したアプリの状態の一覧を記録します。これは、アプリの状態について確認できるため、クラッシュの調査に役立ちます |
 | crashDesktopSession               | クラッシュしたセッションの ID をキャプチャします                                                 |
 | appRuntime                        | アプリのランタイムをキャプチャします                                                        |
 | diagnosticEvents                  | アプリがクラッシュする前の過去50件のウェブ アプリ診断イベント                                 |
@@ -399,6 +399,6 @@ Microsoft に送信される診断データを制御する方法を含め、診�
 | TeamsRing                       | Teams クライアントにログインしている現在のユーザーのリング                            |
 | TeamsVersion                    | Teams アプリのバージョンをキャプチャします                                            |
 | TelemetrySetupCompletedTime     | テレメトリーのセットアップが完了した時刻                                   |
-| UpnMismatch                     | Outlook とTeams の間にミスマッチがあるかどうか                  |
+| UpnMismatch                     | Outlook と Teams の間にミスマッチがあるかどうか                  |
 | UserDomain                      | ユーザーのドメイン                                                       |
 | ViewUpdatedTime                 | ビューが更新された時刻                                           |

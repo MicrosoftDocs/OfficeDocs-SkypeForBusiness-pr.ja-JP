@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: システム ダイレクト ルーティングを使用してユーザー Microsoft 電話する方法について説明します。
-ms.openlocfilehash: 7c1ed58369892ee947bb3d8c29a24628d39d41ea
-ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
+ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53129327"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345713"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする
 
@@ -53,7 +53,9 @@ Skype for Business Online の展開がオンプレミスの Skype for Business 2
 
 ライセンス要件の詳細については、「直接ルーティングの計画」の「ライセンスと[他の](direct-routing-plan.md#licensing-and-other-requirements)[要件」を参照してください](direct-routing-plan.md)。
 
-## <a name="ensure-that-the-user-is-homed-online-applicable-for-skype-for-business-server-enterprise-voice-enabled-users-being-migrated-to-teams-direct-routing"></a>ユーザーがオンラインで自宅にいる (直接ルーティングに移行Skype for Business Server エンタープライズ VoIP有効なユーザーにTeams適用されます)
+## <a name="ensure-that-the-user-is-homed-online"></a>ユーザーがオンラインでホームに設定されている 
+
+この手順は、有効なユーザー Skype for Business Server エンタープライズ VoIP直接ルーティングに移行Teams適用されます。
 
 ダイレクト ルーティングでは、ユーザーをオンラインでホームに設定する必要があります。 RegistrarPool パラメーターを確認すると確認できます。このパラメーターには、infra.lync.com があります。 また、ユーザーを直接ルーティングに移行するときに、LineURI の管理をオンプレミスからオンラインに変更Teamsです。 
 
