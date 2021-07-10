@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: システム ダイレクト ルーティングを使用してユーザー Microsoft 電話する方法について説明します。
-ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: 6dab88312634a0dc3c595fec109905b308acbdaa
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345713"
+ms.locfileid: "53354297"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする
 
@@ -126,7 +126,7 @@ Skype for Business Online の展開がオンプレミスの Skype for Business 2
     > ユーザーの電話番号がオンプレミスで管理されている場合は、オンプレミスの Skype for Business Management Shell またはコントロール パネルを使用して、ユーザーの電話番号を構成します。 
 
 
-## <a name="configuring-sending-calls-directly-to-voicemail"></a>ボイスメールへの通話の直接送信の構成
+## <a name="configure-sending-calls-directly-to-voicemail"></a>ボイスメールへの通話の直接送信を構成する
 
 ダイレクト ルーティングを使用すると、ユーザーへの呼び出しを終了し、ユーザーのボイスメールに直接送信できます。 通話をボイスメールに直接送信する場合は、opaque=app:voicemail を Request URI ヘッダーにアタッチします。 たとえば、"sip:user@yourdomain.com;opaque=app:voicemail" などです。 この場合、ユーザー Teams通知を受信しない場合、通話はユーザーのボイスメールに直接接続されます。
 

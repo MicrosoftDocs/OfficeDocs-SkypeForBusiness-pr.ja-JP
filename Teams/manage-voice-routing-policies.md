@@ -1,7 +1,7 @@
 ---
-title: 音声ルーティング ポリシーを管理する Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: ダイレクト ルーティングの音声ルーティング ポリシーを管理する
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 音声ルーティング ポリシーを作成して管理する方法については、Microsoft Teams。
-ms.openlocfilehash: ac856ef05d425208af43307ebe12ff0c4776ca51
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7023100850eb34d6adf61c99de5f3568afed6aeb
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101073"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354287"
 ---
-# <a name="manage-voice-routing-policies-in-microsoft-teams"></a>音声ルーティング ポリシーを管理する Microsoft Teams
+# <a name="manage-voice-routing-policies-for-direct-routing"></a>ダイレクト ルーティングの音声ルーティング ポリシーを管理する
 
 組織内に[電話システム](direct-routing-landing-page.md)ダイレクト ルーティングを展開している場合は、音声ルーティング ポリシーを使用して、Teams と Skype for Business Online のユーザーがオンプレミスのテレフォニー インフラストラクチャを使用して公衆交換電話網 (PSTN) を受信および発信できます。
 

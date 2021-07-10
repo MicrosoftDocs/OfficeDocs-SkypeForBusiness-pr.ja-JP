@@ -1,7 +1,7 @@
 ---
-title: 緊急通話のルーティング ポリシーを管理する
-author: cichur
-ms.author: v-cichur
+title: ダイレクト ルーティングの緊急通話ルーティング ポリシーを管理する
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -21,14 +21,14 @@ description: Microsoft Teams で緊急通話ルーティング ポリシーを�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 0fb3a80bf5c1a064435754c4f999f6a62214b021
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86f73bed2e086efee666e5592ca3f42e9756096c
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096181"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354307"
 ---
-# <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>緊急通話ルーティング ポリシーを管理Microsoft Teams
+# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>ダイレクト ルーティングの緊急通話ルーティング ポリシーを管理する
 
 組織内に[電話システム ダイレクト](direct-routing-landing-page.md)ルーティングをデプロイしている場合は、Microsoft Teams の緊急通話ルーティング ポリシーを使用して緊急電話番号を設定し、緊急通話のルーティング方法を指定できます。 緊急通話ルーティング ポリシーは、ポリシーが割り当てられているユーザーに対して強化された緊急サービスを有効にするかどうか、緊急サービスの呼び出しに使用される番号 (米国では 911 など)、緊急サービスへの呼び出しのルーティング方法を決定します。
 
@@ -92,7 +92,7 @@ ms.locfileid: "51096181"
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Emergency Call Routing Policy 1"
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [緊急通話ポリシーを管理Teams](manage-emergency-calling-policies.md)
 
