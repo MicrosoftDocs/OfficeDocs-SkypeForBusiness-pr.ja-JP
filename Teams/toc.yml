@@ -587,6 +587,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: ユーザーから RestrictedAnonymousAccess 会議ポリシーを削除する
                     href: meeting-policies-restricted-anonymous-access.md
+          - name: 会議ポリシーと会議の有効期限
+            href: meeting-expiration.md
           - name: 会議の設定を管理する
             href: meeting-settings-in-teams.md
           - name: ユーザーの設定を変更したときに送信されるメール
