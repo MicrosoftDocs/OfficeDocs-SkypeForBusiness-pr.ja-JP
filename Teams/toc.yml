@@ -817,8 +817,6 @@ items:
     items:
       - name: Teams の音声ソリューションを計画する
         href: cloud-voice-landing-page.md
-      - name: Teams で音声および通話のポリシーを管理する
-        href: voice-and-calling-policies.md
       - name: 電話システム
         items:
           - name: 電話システムとは
@@ -879,100 +877,102 @@ items:
             href: shared-line-appearance.md
           - name: ダイヤルパッドの構成
             href: dial-pad-configuration.md
-      - name: 通話プラン
-        items:
-          - name: どの通話プランが適していますか?
-            href: calling-plan-landing-page.md
-          - name: 通話プランを購入する方法
-            href: calling-plans-for-office-365.md
-          - name: 組織の通話プランをセットアップする
-            href: set-up-calling-plans.md
-          - name: 'クイック スタート ガイド: 通話プランの構成'
-            href: configuring-teams-calling-quickstartguide.md
-          - name: 国および地域ごとの通話プランの利用可能性
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-      - name: 電話システムのダイレクト ルーティング
+      - name: PSTN 接続のオプション
         items:
           - name: 概要
-            href: direct-routing-landing-page.md
-          - name: ダイレクト ルーティングを計画する
-            href: direct-routing-plan.md
-          - name: ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
-            href: direct-routing-border-controllers.md
-          - name: ダイレクト ルーティングを構成する
+            href: pstn-connectivity.md
+          - name: 通話プラン
+            items:
+              - name: どの通話プランが適していますか?
+                href: calling-plan-landing-page.md
+              - name: 組織の通話プランをセットアップする
+                href: set-up-calling-plans.md
+              - name: 'クイック スタート ガイド: 通話プランの構成'
+                href: configuring-teams-calling-quickstartguide.md
+              - name: 国および地域ごとの通話プランの利用可能性
+                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: 電話システムのダイレクト ルーティング
             items:
               - name: 概要
-                href: direct-routing-configure.md
-              - name: '手順 1: SBC を接続する'
-                href: direct-routing-connect-the-sbc.md
-              - name: '手順 2: ユーザーを有効にする'
-                href: direct-routing-enable-users.md
-              - name: '手順 3: 音声ルーティングを構成する'
-                href: direct-routing-voice-routing.md
-              - name: '手順 4: 電話番号を変換する'
-                href: direct-routing-translate-numbers.md
-              - name: 複数のテナントの SBC を構成する
-                href: direct-routing-sbc-multiple-tenants.md
-              - name: ダイレクト ルーティングを使用してアナログ デバイスを使用する方法
-                href: direct-routing-analog-devices.md
-          - name: 場所に基づくルーティング
-            items:
-              - name: ダイレクト ルーティングの場所に基づくルーティングを計画する
-                href: location-based-routing-plan.md
-              - name: 場所に基づくルーティングのネットワーク設定を構成する
-                href: location-based-routing-configure-network-settings.md
-              - name: ダイレクト ルーティングの場所に基づくルーティングを有効にする
-                href: location-based-routing-enable.md
-          - name: ダイレクト ルーティングのメディア バイパス
-            items:
-              - name: ダイレクト ルーティングでメディア バイパスを計画する
-                href: direct-routing-plan-media-bypass.md
-              - name: ダイレクト ルーティングでメディア バイパスを構成する
-                href: direct-routing-configure-media-bypass.md
-          - name: ダイレクト ルーティングのローカル メディアの最適化
-            items:
-              - name: ローカル メディアの最適化を計画する
-                href: direct-routing-media-optimization.md
-              - name: ローカル メディアの最適化を構成する
-                href: direct-routing-media-optimization-configure.md
-          - name: PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
-            href: direct-routing-user-accounts-in-a-hybrid-environment.md
-          - name: ダイレクト ルーティングに移行する
-            href: direct-routing-migrating.md
-          - name: ダイレクト ルーティングの監視とトラブルシューティング
-            items:
-              - name: 概要
-                href: direct-routing-monitor-and-troubleshoot.md
-              - name: 正常性ダッシュボード
-                href: direct-routing-health-dashboard.md
-          - name: ダイレクト ルーティングのテクニカル リファレンス
-            items:
-              - name: 発信通話でのトランクのフェイルオーバー
-                href: direct-routing-trunk-failover-on-outbound-call.md
-              - name: メディア パスの国コード
-                href: direct-routing-country-codes.md
-              - name: セッション ボーダー コントローラーの接続をテストする PowerShell スクリプト
-                href: sip-tester-powershell-script.md
-              - name: 着信通知の管理
-                href: direct-routing-call-notifications.md
-              - name: プロトコル
+                href: direct-routing-landing-page.md
+              - name: ダイレクト ルーティングを計画する
+                href: direct-routing-plan.md
+              - name: ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
+                href: direct-routing-border-controllers.md
+              - name: ダイレクト ルーティングを構成する
                 items:
-                  - name: 定義と RFC 標準
-                    href: direct-routing-protocols.md
-                  - name: SIP プロトコル
-                    href: direct-routing-protocols-SIP.md
-                  - name: メディア プロトコル
-                    href: direct-routing-protocols-media.md
-              - name: 音声ルーティング ポリシーを管理する
-                href: manage-voice-routing-policies.md
-              - name: 存続可能ダイレクト ルーティングの接続
-                href: direct-routing-survivable-branch-appliance.md
-      - name: オペレーター 接続
-        items:
-          - name: オペレーター 接続 プラン
-            href: operator-connect-plan.md
-          - name: オペレーター 接続を構成する
-            href: operator-connect-configure.md
+                  - name: 概要
+                    href: direct-routing-configure.md
+                  - name: '手順 1: SBC を接続する'
+                    href: direct-routing-connect-the-sbc.md
+                  - name: '手順 2: ユーザーを有効にする'
+                    href: direct-routing-enable-users.md
+                  - name: '手順 3: 音声ルーティングを構成する'
+                    href: direct-routing-voice-routing.md
+                  - name: '手順 4: 電話番号を変換する'
+                    href: direct-routing-translate-numbers.md
+                  - name: 複数のテナントの SBC を構成する
+                    href: direct-routing-sbc-multiple-tenants.md
+                  - name: ダイレクト ルーティングを使用してアナログ デバイスを使用する方法
+                    href: direct-routing-analog-devices.md
+                  - name: 音声ルーティング ポリシーを管理する
+                    href: manage-voice-routing-policies.md
+                  - name: 着信通知の管理
+                    href: direct-routing-call-notifications.md
+              - name: 場所に基づくルーティング
+                items:
+                  - name: ダイレクト ルーティングの場所に基づくルーティングを計画する
+                    href: location-based-routing-plan.md
+                  - name: 場所に基づくルーティングのネットワーク設定を構成する
+                    href: location-based-routing-configure-network-settings.md
+                  - name: ダイレクト ルーティングの場所に基づくルーティングを有効にする
+                    href: location-based-routing-enable.md
+              - name: ダイレクト ルーティングのメディア バイパス
+                items:
+                  - name: ダイレクト ルーティングでメディア バイパスを計画する
+                    href: direct-routing-plan-media-bypass.md
+                  - name: ダイレクト ルーティングでメディア バイパスを構成する
+                    href: direct-routing-configure-media-bypass.md
+              - name: ダイレクト ルーティングのローカル メディアの最適化
+                items:
+                  - name: ローカル メディアの最適化を計画する
+                    href: direct-routing-media-optimization.md
+                  - name: ローカル メディアの最適化を構成する
+                    href: direct-routing-media-optimization-configure.md
+              - name: PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
+                href: direct-routing-user-accounts-in-a-hybrid-environment.md
+              - name: ダイレクト ルーティングに移行する
+                href: direct-routing-migrating.md
+              - name: ダイレクト ルーティングの監視とトラブルシューティング
+                items:
+                  - name: 概要
+                    href: direct-routing-monitor-and-troubleshoot.md
+                  - name: 正常性ダッシュボード
+                    href: direct-routing-health-dashboard.md
+              - name: ダイレクト ルーティングのテクニカル リファレンス
+                items:
+                  - name: 発信通話でのトランクのフェイルオーバー
+                    href: direct-routing-trunk-failover-on-outbound-call.md
+                  - name: メディア パスの国コード
+                    href: direct-routing-country-codes.md
+                  - name: セッション ボーダー コントローラーの接続をテストする PowerShell スクリプト
+                    href: sip-tester-powershell-script.md
+                  - name: プロトコル
+                    items:
+                      - name: 定義と RFC 標準
+                        href: direct-routing-protocols.md
+                      - name: SIP プロトコル
+                        href: direct-routing-protocols-SIP.md
+                      - name: メディア プロトコル
+                        href: direct-routing-protocols-media.md
+                  - name: 存続可能ダイレクト ルーティングの接続
+                    href: direct-routing-survivable-branch-appliance.md
+          - name: オペレーター 接続
+            items:
+              - name: オペレーター 接続 プラン
+                href: operator-connect-plan.md
+              - name: オペレーター 接続を構成する
+                href: operator-connect-configure.md
       - name: 電話番号
         items:
           - name: 組織のために電話番号を管理する
@@ -1037,8 +1037,10 @@ items:
                 href: emergency-calling-labels.md
           - name: 緊急通話ポリシーを管理する
             href: manage-emergency-calling-policies.md
-          - name: 緊急通話のルーティング ポリシーを管理する
+          - name: ダイレクト ルーティングの緊急通話のルーティング ポリシーを管理する
             href: manage-emergency-call-routing-policies.md
+      - name: Teams で音声および通話のポリシーを管理する
+        href: voice-and-calling-policies.md
       - name: 音声の移行についての Contoso 社のケース スタディ
         items:
           - name: 概要
@@ -1556,8 +1558,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Teams との SharePoint Online と OneDrive for Business の連携
             href: sharepoint-onedrive-interact.md
-          - name: Microsoft 365 または Office 365 複数地域対応テナントでの Teams のエクスペリエンス
-            href: teams-experience-o365odb-spo-multi-geo.md
       - name: サポート対象のデバイス
         items:
           - name: Teams でのデバイスの管理
