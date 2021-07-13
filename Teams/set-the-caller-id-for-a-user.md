@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 通話回線 ID Microsoft 365既定Office 365 (ユーザーに割り当てられた電話番号) の呼び出し元 ID と呼ばれる番号について学習します。 ユーザーの発信者番号を変更またはブロックできます。
-ms.openlocfilehash: 20b80bbc96f46d6b1a2766eea367132b9e0b1418
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
+ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230604"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53388652"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>ユーザーに発信者番号を設定する
 
@@ -35,11 +35,11 @@ ms.locfileid: "53230604"
   
 既定では、次の発信者番号の設定は **オフになっています**。 つまり、ユーザー Teams PSTN 電話に通話を発信すると、そのユーザーの電話番号が表示されます。 これらの設定は次のように変更できます。
   
-- **発信元 ID** ユーザーの発信者番号 (既定では電話番号) を別の電話番号に置き換え可能です。 たとえば、ユーザーの発信者番号を個人電話番号から会社の代表電話番号に変更したり、ユーザーの通話回線番号を個人電話番号から法務部の代表電話番号に変更したりできます。 通話 ID 番号は、任意のオンライン サービス番号 (有料または無料) に変更できます。 また、通話 ID 番号をオンプレミスの電話番号に変更するには、自動応答 または通話キューで使用されるリソース アカウントに割り当てられている直接ルーティングを使用します。
+- **発信元 ID** ユーザーの発信者番号 (既定では電話番号) を別の電話番号に置き換え可能です。 たとえば、ユーザーの発信者番号を自分の電話番号からビジネスのメイン電話番号に、または法務部門のメイン電話番号に変更できます。 さらに、自動応答 または通話キューで使用されるリソース アカウントに割り当てられている直接ルーティングを通じて、通話 ID 番号を任意のオンライン サービス番号 (有料または無料) またはオンプレミスの電話番号に設定できます。
     
   > [!NOTE]
   > Service パラメーターを *使用する場合* は、有効なサービス番号を指定する必要があります。
-  > ドロップダウンに表示されない場合は、リソース アカウント番号に PowerShell コマンドレットを使用する必要があります。
+  > リソース アカウント番号がドロップダウンリストに表示されない場合は、Teams PowerShell モジュール 2.3.1 以降の PowerShell コマンドレット New-CsCallingLineIdentity または Set-CsCallingLineIdentity を使用する必要があります。
   
 - **発信呼び出し元 ID をブロックします。** 発信発信者 ID がユーザーの発信 PSTN 通話で送信されるのをブロックできます。 このようにすると、呼び出し中の電話に電話番号が表示されるのを禁止することができます。
     
@@ -90,7 +90,7 @@ Connect-MicrosoftTeams -Credential $credential
 3. 次のコマンドレットを使用して作成した新しいポリシーGrant-CsCallingIdentityします。 たとえば、次の例では、ユーザー Amos Marble に新しいポリシーを適用します。
     
      ```PowerShell
-      Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
+     Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
      ```
    詳細については [、「Grant-CsCallingLineIdentity コマンドレット」を参照](/powershell/module/skype/Grant-CsCallingLineIdentity) してください。
     
