@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: アプリをカスタマイズする方法については、Microsoft Teams。
-ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2a217648abbcec4075e942b303542621f7d317a
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796861"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408746"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>アプリをカスタマイズMicrosoft Teams
 
@@ -43,6 +43,7 @@ ms.locfileid: "52796861"
 
 > [!NOTE]
 > 現時点では、Government Community Cloud High (GCCH) または国防総省 (DoD) では、アプリのカスタマイズはサポートされていません。
+> 現時点では、この機能はサイドロードされたアプリMicrosoft Teamsできません。
 
 ## <a name="customize-the-apps-details"></a>アプリの詳細をカスタマイズする
 
