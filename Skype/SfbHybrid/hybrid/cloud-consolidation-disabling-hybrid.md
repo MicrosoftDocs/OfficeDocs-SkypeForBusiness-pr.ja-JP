@@ -1,5 +1,5 @@
 ---
-title: ハイブリッドを無効にしてクラウドへの移行を完了する
+title: ハイブリッドを無効にして移行を完了Teamsのみ
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -20,57 +20,61 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-description: この記事では、Teams と Skype for Business のクラウド統合の一環としてハイブリッドを無効にする詳細な手順について説明します。
-ms.openlocfilehash: 08d305fa2650cffbadb0ec3122458f4a57e052a4
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+description: この記事では、クラウド統合の一環としてハイブリッドを無効にするための詳細な手順について説明TeamsおよびSkype for Business。
+ms.openlocfilehash: 97681f4e9306336874ba4d9428a273b1d31519db
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899108"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420842"
 ---
-# <a name="disable-your-hybrid-configuration-to-complete-migration-to-the-cloud"></a>ハイブリッド構成を無効にしてクラウドへの移行を完了する
+# <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>ハイブリッド構成を無効にして、ハイブリッド構成への移行Teamsのみ 
 
-この記事では、オンプレミスの Skype for Business 環境を使用停止する前にハイブリッド構成を無効にする方法について説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 2 です。
+この記事では、オンプレミス環境を使用停止する前にハイブリッド構成を無効にするSkype for Business説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 2 です。
 
 - 手順 1. [必要なすべてのユーザーをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。
 
 - **手順 2.ハイブリッド構成を無効にします。** (この記事)
 
-- 手順 3. [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動します](decommission-move-on-prem-endpoints.md)。
+- 手順 3. [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移行します](decommission-move-on-prem-endpoints.md)。
 
-- 手順 4. [オンプレミスの Skype for Business 展開を削除します](decommission-remove-on-prem.md)。
+- 手順 4. [オンプレミスの展開を削除Skype for Businessします](decommission-remove-on-prem.md)。
 
+> [!NOTE]
+> 手順 2 と手順 3 は、手順 2 と手順 3 の完了の間に既存のハイブリッド アプリケーション エンドポイントを検出できないので、同じメンテナンス ウィンドウで実行する必要があります。
 
 ## <a name="overview"></a>概要
 
-すべてのユーザーを Skype for Business オンプレミスから Microsoft 365 の Teams Only にアップグレードした後、オンプレミスの Skype for Business 展開を使用停止できます。 オンプレミスの Skype for Business 展開を使用停止し、ハードウェアを削除する前に、ハイブリッドを無効にして、オンプレミス展開と Microsoft 365 を論理的に分離する必要があります。 ハイブリッドの無効化は、次の 3 つの手順で構成されます。
+すべてのユーザーを Skype for Business オンプレミスから Teams のみ Microsoft 365 にアップグレードした後、オンプレミスの展開をSkype for Businessできます。 オンプレミスの Skype for Business 展開を使用停止し、ハードウェアを削除する前に、ハイブリッドを無効にして、オンプレミス展開と Microsoft 365を論理的に分離する必要があります。 ハイブリッドの無効化は、次の 4 つの手順で構成されます。
 
 1. Microsoft 365 を指すように DNS レコードを更新する。
 
-2. Microsoft 365 組織で共有 SIP アドレス空間 ("分割ドメイン" とも呼ばれる) を無効にします。
+2. 組織の共存モードを [のみ] にTeamsします。
 
-3. オンプレミスで Microsoft 365 と通信する機能を無効にします。
+3. 組織で共有 SIP アドレス空間 ("分割ドメイン" とも呼ばれる) を無効Microsoft 365します。
 
-次の手順では、Skype for Business Server のオンプレミス展開と Microsoft 365 を論理的に分離し、1 つの単位として一緒に実行する必要があります。 各手順の詳細については、この記事で説明します。 完了したら、以下で参照する 2 つの方法のいずれかを使用して、オンプレミスの Skype for Business 展開を使用停止できます。
+4. オンプレミスでユーザーと通信する機能を無効Microsoft 365。
+
+次の手順では、オンプレミスの展開と Skype for Business Serverを論理的にMicrosoft 365、組織が完全にTeamsします。 各手順の詳細については、この記事で説明します。 完了したら、以下で参照する 2 つのSkype for Businessを使用して、オンプレミスの展開を停止できます。
 
 > [!Important] 
-> この論理的な分離が完了すると、オンプレミス Active Directory の msRTCSIP 属性には値が残り、Azure AD Connect を介して Azure AD に同期されます。 オンプレミス環境を使用停止する方法は、これらの属性をそのままにするか、最初にオンプレミスの Active Directory から削除するかによって異なります。 オンプレミスから移行した後にオンプレミスの msRTCSIP 属性をクリアすると、ユーザーのサービスが失われる可能性があります。 2 つの使用停止アプローチの詳細とトレードオフについては、後で説明します。
+> この論理的な分離が完了すると、オンプレミスの Active Directory の msRTCSIP 属性には値が残り、Azure AD Connect を介して Azure AD に同期されます。 オンプレミス環境を使用停止する方法は、これらの属性をそのままにするか、最初にオンプレミスの Active Directory から削除するかによって異なります。 オンプレミスから移行した後にオンプレミスの msRTCSIP 属性をクリアすると、ユーザーのサービスが失われる可能性があります。 2 つの使用停止アプローチの詳細とトレードオフについては、後で説明します。
 
 ## <a name="detailed-steps"></a>詳細な手順
 
-1. *Microsoft 365 をポイントする DNS を更新します。* オンプレミス組織の組織の外部 DNS を更新して、Skype for Business レコードがオンプレミス展開ではなく Microsoft 365 を指す必要があります。 具体的には次のとおりです。
+1. *DNS を更新して、DNS をポイントMicrosoft 365。* オンプレミス組織の組織の外部 DNS を更新して、Skype for Business レコードがオンプレミス展開ではなく Microsoft 365 を指す必要があります。 具体的には次のとおりです。
 
-    |レコードの種類|名前|TTL|Value|
-    |---|---|---|---|
-    |SRV|_sipfederationtls._tcp|3600|100 1 5061 sipfed.online.lync。 <span>com|
-    |SRV|_sip._tls|3600|100 1 443 sipdir.online.lync。 <span>com|
-    |CNAME| lyncdiscover|   3600|   webdir.online.lync。 <span>com|
-    |CNAME| sip|    3600|   sipdir.online.lync。 <span>com|
+    |レコードの種類|名前|TTL|優先度|太さ|ポート|Value|
+    |---|---|---|---|---|---|---|
+    |SRV|_sipfederationtls._tcp|3600|100|1|5061|sipfed.online.lync。 <span>com|
+    |SRV|_sip._tls|3600|100|1|443|sipdir.online.lync。 <span>com|
+    |CNAME| lyncdiscover|   3600| | | |webdir.online.lync。 <span>com|
+    |CNAME| sip|    3600| | | | sipdir.online.lync。 <span>com|
 
-    さらに、会議またはダイヤルインの CNAME レコード (存在する場合) を削除できます。 最後に、内部ネットワーク内の Skype for Business の DNS レコードを削除する必要があります。
+    さらに、会議またはダイヤルインの CNAME レコード (存在する場合) を削除できます。 最後に、内部ネットワーク内Skype for Business DNS レコードを削除する必要があります。
 
     > [!Note] 
-    > まれに、組織内で DNS をオンプレミスのポイントから Microsoft 365 に変更すると、他の組織がフェデレーション構成を更新するまで、他の組織とのフェデレーションが停止する可能性があります。
+    > まれに、組織の DNS をオンプレミスのポイントから Microsoft 365 に変更すると、他の組織がフェデレーション構成を更新するまで、他の組織とのフェデレーションが停止する可能性があります。
     >
     > - 以前のダイレクト フェデレーション モデル (許可パートナー サーバーとも呼ばれる) を使用しているフェデレーション組織は、プロキシ FQDN を削除するために、組織の許可されたドメイン エントリを更新する必要があります。 この従来のフェデレーション モデルは DNS SRV レコードに基づいていないので、組織がクラウドに移行すると、このような構成は古くなる。
     > 
@@ -78,14 +82,20 @@ ms.locfileid: "51899108"
     >
     > フェデレーション パートナーが直接フェデレーションを使用している可能性がある、またはオンラインまたはハイブリッド組織とフェデレーションしていないと疑われる場合は、クラウドへの移行を完了する準備をしている間に、この情報に関する通信を送信してください。
 
+2.  *組織の共存モードを [のみ] にTeamsします。* これにより、組織内のすべての新しいユーザーが常に [ユーザーのみ] Teams作成されます。 さらに、テナント モードを Teams のみに変更しようとすると、手順 1 で見つからない可能性のあるオンプレミス DNS レコードが自動的に存在することを確認し、出力でこれらのレコードを識別します。  テナント モードを [Teamsのみ] に変更すると、組織用のすべての DNS レコードが更新されるまで成功しません。 テナント モードを [テナント モード] にTeams PowerShell ウィンドウから次のコマンドTeams実行します。
 
-2.  *Microsoft 365 組織で共有 SIP アドレス空間を無効にします。* 次のコマンドは、Skype for Business Online PowerShell ウィンドウから実行する必要があります。
+     ```PowerShell
+     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global
+     ```
+または、Teams 管理センターを使用して、[組織全体の設定] -> "Teams アップグレード" の下で、テナント共存モードを TeamsOnly に変更できます。    
+    
+3.  *組織で共有 SIP アドレス空間をMicrosoft 365します。* 次のコマンドは、PowerShell ウィンドウから実行Teams必要があります。
 
      ```PowerShell
      Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
      ```
  
-3.  *オンプレミスで Microsoft 365 と通信する機能を無効にします。* 以下のコマンドは、オンプレミスの PowerShell ウィンドウから実行する必要があります。
+4.  *オンプレミスでユーザーと通信する機能を無効Microsoft 365。* 以下のコマンドは、オンプレミスの PowerShell ウィンドウから実行する必要があります。
 
      ```PowerShell
      Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
@@ -93,18 +103,18 @@ ms.locfileid: "51899108"
 
 ## <a name="managing-attributes-after-moving-users-from-on-premises-to-the-cloud"></a>オンプレミスからクラウドにユーザーを移動した後の属性の管理
 
-既定では、Skype for Business Server で以前に有効にされ、その後クラウドに移動されたすべてのユーザーに、オンプレミスの Active Directory で msRTCSIP 属性が構成されています。 これらの属性、特に sip アドレス (msRTCSIP-PrimaryUserAddress) と電話番号 (msRTCSIP-Line) は、引き続き Azure AD に同期されます。 msRTCSIP 属性に対して変更が必要な場合は、オンプレミスの Active Directory でこれらの変更を行い、Azure AD に同期する必要があります。 ただし、Skype for Business Server 展開が削除されると、Skype for Business Server ツールを使用してこれらの属性を管理することはできません。
+既定では、以前に Skype for Business Server に対して有効にされ、その後クラウドに移動されたすべてのユーザーに、オンプレミスの Active Directory で msRTCSIP 属性が構成されています。 これらの属性、特に sip アドレス (msRTCSIP-PrimaryUserAddress) と電話番号 (msRTCSIP-Line) は、引き続き Azure AD に同期されます。 msRTCSIP 属性に対して変更が必要な場合は、オンプレミスの Active Directory でこれらの変更を行い、Azure AD に同期する必要があります。 ただし、Skype for Business Server展開が削除されると、これらの属性Skype for Business Serverツールを使用できません。
 
 この状況を処理するには、次の 2 つのオプションがあります。
 
-1. Skype for Business サーバー アカウントで有効にされたユーザーはそのままにし、Active Directory ツールを使用して msRTCSIP 属性を管理します。 これにより、移行されたユーザーのサービスが失われるのを防ぐので、完全な使用停止なしでサーバーを削除 (ワイプなど) することで、Skype for Business Server の展開を簡単に削除できます。 ただし、新しくライセンスを取得したユーザーは、オンプレミスの Active Directory にこれらの属性を設定し、オンラインで管理する必要があります。
+1. サーバー アカウントに対して有効Skype for Businessユーザーはそのままにし、Active Directory ツールを使用して msRTCSIP 属性を管理します。 これにより、移行されたユーザーのサービスが失われるのを防ぐので、完全な使用停止なしでサーバーを削除 (ワイプなど) することで、Skype for Business Server 展開を簡単に削除できます。 ただし、新しくライセンスを取得したユーザーは、オンプレミスの Active Directory にこれらの属性を設定し、オンラインで管理する必要があります。
 
 2.  オンプレミスの Active Directory で移行されたユーザーからすべての msRTCSIP 属性をクリアし、オンライン ツールを使用してこれらの属性を管理します。 このメソッドを使用すると、既存のユーザーと新しいユーザーに対して一貫した管理アプローチが可能になりますが、オンプレミスの使用停止プロセス中に一時的にサービスが失われる可能性があります。
 
 
 ### <a name="method-1---manage-sip-addresses-and-phone-numbers-for-users-in-active-directory"></a>方法 1 - Active Directory でユーザーの SIP アドレスと電話番号を管理する
 
-管理者は、オンプレミスの展開が使用停止された後でも、オンプレミスの Skype for Business Server からクラウドに以前に移動されたユーザーを管理できます。 ユーザーの SIP アドレスまたはユーザーの電話番号 (および sip アドレスまたは電話番号に既にオンプレミスの Active Directory に値が含まれる) を変更する場合は、オンプレミスの Active Directory でこれを行い、値を Azure AD に流す必要があります。 これは、オンプレミスの Skype for Business Server を必要としません。 代わりに、Active Directory ユーザーとコンピューター MMC スナップイン (以下に示す) を使用するか、PowerShell を使用して、オンプレミスの Active Directory でこれらの属性を直接変更できます。 MMC スナップインを使用している場合は、ユーザーの [プロパティ] ページを開き、[属性エディター] タブをクリックして、変更する適切な属性を探します。
+管理者は、オンプレミス展開が使用停止された後でも、Skype for Business Serverからクラウドに移動されたユーザーを管理できます。 ユーザーの SIP アドレスまたはユーザーの電話番号 (および sip アドレスまたは電話番号に既にオンプレミスの Active Directory に値が含まれる) を変更する場合は、オンプレミスの Active Directory でこれを行い、値を Azure AD に流す必要があります。 これは、オンプレミスのデータを必要とSkype for Business Server。 代わりに、Active Directory ユーザーとコンピューター MMC スナップイン (以下に示す) を使用するか、PowerShell を使用して、オンプレミスの Active Directory でこれらの属性を直接変更できます。 MMC スナップインを使用している場合は、ユーザーの [プロパティ] ページを開き、[属性エディター] タブをクリックして、変更する適切な属性を探します。
 
 - ユーザーの sip アドレスを変更するには、 を変更します `msRTCSIP-PrimaryUserAddress` 。
 
@@ -115,23 +125,23 @@ ms.locfileid: "51899108"
 
   ![Active Directory ユーザーとコンピューター ツール](../media/disable-hybrid-1.png)
   
--  ユーザーが移動前にオンプレミスの値を持っていなかった場合は、Skype for Business Online PowerShell モジュールの `msRTCSIP-Line` `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) コマンドレットの - パラメーターを使用して電話番号を変更できます。
+-  ユーザーが移動前にオンプレミスの値を持っていなかった場合は、Skype for Business Online PowerShell モジュールの `msRTCSIP-Line` `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps)コマンドレットの - パラメーターを使用して電話番号を変更できます。
 
-これらの手順は、ハイブリッドを無効にした後に作成された新しいユーザーには必要ありません。また、それらのユーザーはクラウドで直接管理できます。 これらのメソッドを組み合わせ、msRTCSIP 属性をオンプレミスの Active Directory に置き去りにする場合は、オンプレミスの Skype for Business サーバーを簡単に再イメージできます。 ただし、すべての msRTCSIP 属性をクリアし、Skype for Business Server の従来のアンインストールを行う場合は、方法 2 を使用します。
+これらの手順は、ハイブリッドを無効にした後に作成された新しいユーザーには必要ありません。また、それらのユーザーはクラウドで直接管理できます。 これらのメソッドを組み合わせ、msRTCSIP 属性をオンプレミスの Active Directory に配置した状態にした方が快適な場合は、オンプレミスの Skype for Business サーバーをイメージしSkype for Businessできます。 ただし、すべての msRTCSIP 属性をクリアし、従来のアンインストールを実行する場合は、Skype for Business Server 2 を使用します。
 
 
-### <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>方法 2 - Active Directory のすべてのオンプレミス ユーザーの Skype for Business 属性をクリアする
+### <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>方法 2 - Active Directory Skype for Businessオンプレミス ユーザーの属性をクリアする
 
-このオプションでは、以前にオンプレミスの Skype for Business Server からクラウドに移動したユーザーを再プロビジョニングする必要があるため、追加の作業と適切な計画が必要です。 これらのユーザーは、電話システムのないユーザーと電話システムを持つユーザーの 2 つの異なるカテゴリに分類できます。 電話システムを使用しているユーザーは、オンプレミスの Active Directory で管理されている電話番号からクラウドへの移行の一環として、電話サービスが一時的に失われる可能性があります。 **一括ユーザー操作を開始する前に、電話システムを使用するユーザーの数が少ないパイロットを実行してください。** 大規模な展開では、ユーザーは異なるタイム ウィンドウ内の小さなグループで処理できます。 
+このオプションでは、以前にオンプレミスのユーザーからクラウドに移動されたユーザー Skype for Business Server再プロビジョニングが必要なので、追加の作業と適切な計画が必要です。 これらのユーザーは、2 つの異なるカテゴリに分類できます 電話システム 電話システム。 ユーザーが電話システム、オンプレミスの Active Directory で管理される電話番号をクラウドに移行する一環として、電話サービスが一時的に失われる可能性があります。 **一括ユーザー操作を開始する前に、ユーザー数の少ないユーザーを含むパイロットを電話システムをお勧めします。** 大規模な展開では、ユーザーは異なるタイム ウィンドウ内の小さなグループで処理できます。 
 
 > [!NOTE] 
 > このプロセスは、一致する sip アドレスと UserPrincipalName を持つユーザーに対して最も簡単です。 これら 2 つの属性で一致しない値を持つユーザーを持つ組織では、スムーズな移行を行う場合は、以下の点に注意する必要があります。
 
 > [!NOTE]
-> 自動応答または通話キュー用にオンプレミスハイブリッド アプリケーション エンドポイントを構成している場合は、Skype for Business Server を使用停止する前に、必ずこれらのエンドポイントを Microsoft 365 に移動してください。
+> 自動応答または通話キュー用にオンプレミスハイブリッド アプリケーション エンドポイントを構成している場合は、これらのエンドポイントを Microsoft 365 に移動してから、Skype for Business Server。
 
 
-1. 次のオンプレミスの Skype for Business PowerShell コマンドレットが空の結果を返します。 空の結果は、ユーザーがオンプレミスにいて、Microsoft 365 に移動されていないか、無効になっているのを意味します。
+1. PowerShell コマンドレットが空の結果をSkype for Business次のオンプレミスのコマンドレットを確認します。 空の結果は、ユーザーがオンプレミスにいて、ユーザーに移動された、または無効になっているMicrosoft 365意味します。
 
    ```PowerShell
    Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Select-Object Identity, SipAddress, UserPrincipalName, RegistrarPool
@@ -155,10 +165,10 @@ ms.locfileid: "51899108"
    > [!Important] 
    > ファイルを開いてSfbUsers.csv、ユーザー データが正常にエクスポートされたことを確認する前に。 後の手順で、このファイルから LineUri (電話番号)、UserPrincipalName、SamAccountName、SipAddress が必要になります。
 
-4. 更新する準備ができている一連のユーザーのアクティブ ディレクトリから Skype for Business Server に関連する属性情報を削除します。  以下に示すように、このプロセスには 2 つの手順があります。
+4. 更新する準備ができている一連のユーザー Skype for Business Server Active Directory から、ユーザーに関連する属性情報を削除します。  以下に示すように、このプロセスには 2 つの手順があります。
 
    > [!Important] 
-   > この手順を実行した後の次の AAD 同期サイクルの後、以前にオンプレミスの Skype for Business Server からクラウドに移動された電話システムを持つユーザーは、手順 8 が正常に完了して手順 9 で確認されるまで、通話を送受信する機能を失います。 また、手順 2 に基いてユーザーの電話番号と関連情報を保存済みである必要があります。
+   > この手順を実行した後の次の AAD Sync サイクルの後、以前にオンプレミス Skype for Business Server からクラウドに移動された 電話システム を持つユーザーは、手順 8 が正常に完了して手順 9 で確認されるまで、通話を送受信する機能を失います。 また、手順 2 に基いてユーザーの電話番号と関連情報を保存済みである必要があります。
 
  
    ```PowerShell
@@ -175,7 +185,7 @@ ms.locfileid: "51899108"
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. オンプレミスの Active Directory proxyAddresses に sip アドレス値をWindows PowerShellする場合は、次のオンプレミス Active Directory モジュールを実行します。 これにより、この属性に依存する相互運用性の問題が防止されます。 
+5. 次のオンプレミス Active Directory モジュールを実行して、Windows PowerShell コマンドレットを実行して、オンプレミスの Active Directory proxyAddresses に sip アドレス値を追加します。 これにより、この属性に依存する相互運用性の問題が防止されます。 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -190,19 +200,19 @@ ms.locfileid: "51899108"
    }
    ```
 
-6. Azure AD同期を実行する
+6. 実行Azure AD Sync
 
    ```PowerShell
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. ユーザー プロビジョニングが完了するのを待ちます。 次の Skype for Business Online PowerShell コマンドを実行して、ユーザー プロビジョニングの進行状況を監視できます。 次の Skype for Business Online PowerShell コマンドは、プロセスが完了すると、空の結果を返します。
+7. ユーザー プロビジョニングが完了するのを待ちます。 ユーザー プロビジョニングの進行状況を監視するには、次の [オンライン PowerShell] コマンドSkype for Business実行します。 次の手順Skype for Business Online PowerShell コマンドは、プロセスが完了すると、空の結果を返します。
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. 次の Skype for Business Online PowerShell コマンドを実行して電話番号を割り当て、電話システムのユーザーを有効にする。
+8. [オンライン PowerShell] Skype for Businessを実行して電話番号を割り当て、ユーザーに電話番号を割り当電話システム。
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -215,9 +225,9 @@ ms.locfileid: "51899108"
     ```
 
    > [!Note]
-   >  Skype for Business エンドポイント (Skype クライアントまたはサードパーティ製電話) がまだ存在する場合は、-HostedVoiceMail を $true に設定します。 組織で音声が有効なユーザーに Teams エンドポイントのみを使用している場合、この設定はユーザーには適用されません。 
+   >  引き続き Skype for Businessエンドポイント (Skype クライアントまたはサードパーティの電話) がある場合は、-HostedVoiceMail を $true に設定します。 組織が音声が有効なユーザー Teamsエンドポイントのみを使用している場合、この設定はユーザーには適用されません。 
 
-9. 電話システム機能を持つユーザーが正しくプロビジョニングされていることを確認します。 次の Skype for Business Online PowerShell コマンドは、プロセスが完了すると、空の結果を返します。
+9. 機能が正電話システムユーザーを確認します。 次の手順Skype for Business Online PowerShell コマンドは、プロセスが完了すると、空の結果を返します。
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -238,22 +248,22 @@ ms.locfileid: "51899108"
 
 11. 次の 2 つの PowerShell コマンドを実行して、すべてのユーザーが正常に処理されたことを確認します。
 
-    オンプレミスの Skype for Business Server オンプレミス PowerShell コマンド:
+    オンプレミスの PowerShell Skype for Business Serverを使用します。
 
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-    Skype for Business Online PowerShell コマンド:
+    Skype for Businessオンライン PowerShell コマンド:
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-12. 方法 2 のすべての手順を完了したら、「ハイブリッド[](decommission-move-on-prem-endpoints.md)アプリケーション エンドポイントをオンプレミスからオンラインに移動する」および「[オンプレミスの Skype for Business Server](decommission-remove-on-prem.md)を削除する」を参照して、Skype for Business Server のオンプレミス展開を削除する追加の手順を参照してください。
+12. 方法 2 のすべての手順を完了したら、「ハイブリッド[](decommission-move-on-prem-endpoints.md)アプリケーション エンドポイントをオンプレミスからオンラインに移動する」および「オンプレミス[Skype for Business Server](decommission-remove-on-prem.md)を削除する」を参照して、Skype for Business Server オンプレミス展開を削除する追加の手順を参照してください。
 
 
 ## <a name="see-also"></a>関連項目
 
-- [Teams と Skype for Business のクラウド統合](cloud-consolidation.md)
+- [クラウドの統合 :TeamsとSkype for Business](cloud-consolidation.md)
 
 - [オンプレミスの Skype for Business 環境を廃止する](decommission-on-prem-overview.md)
 

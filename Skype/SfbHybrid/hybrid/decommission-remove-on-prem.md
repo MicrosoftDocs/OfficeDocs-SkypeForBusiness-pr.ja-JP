@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の使用停止
+title: 使用停止Skype for Business Server
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,40 +16,40 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: Skype for Business Server を使用停止する手順。
-ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+description: 使用停止の手順Skype for Business Server。
+ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656693"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420792"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>オンプレミスの Skype for Business の展開を削除する
 
-この記事では、オンプレミスの Skype for Business 展開を削除する方法について説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 4 です。
+この記事では、オンプレミスの展開を削除するSkype for Business説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 4 です。
 
 - 手順 1. [必要なすべてのユーザーをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。 
 
 - 手順 2. [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
 
-- 手順 3. [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動する](decommission-move-on-prem-endpoints.md)
+- 手順 3. [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移行する](decommission-move-on-prem-endpoints.md)
 
-- **手順 4.オンプレミスの Skype for Business 展開を削除します。** (この記事)
+- **手順 4.オンプレミスの展開をSkype for Businessします。** (この記事)
 
 
 > [!IMPORTANT] 
-> この記事の手順は、ここで説明するように、ユーザー属性の管理に方法 2 を使用している場合にのみ適用 [されます](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory)。 方法 1 を使用している場合は、この記事で説明されている手順を使用して Skype for Business サーバーを削除しません。 代わりに、サーバーを再イメージできます。
+> この記事の手順は、ここで説明するように、ユーザー属性の管理に方法 2 を使用している場合にのみ適用 [されます](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory)。 方法 1 を使用している場合は、この記事で説明されている手順を使用してサーバーを削除Skype for Businessしてください。 代わりに、サーバーを再イメージできます。
 
-この記事の手順を完了するには、Schema Admins グループと Enterprise Admin グループの両方に対する特権が必要です。 これらの特権は、Skype for Business Server スキーマを元に戻し、Active Directory ドメイン サービスに対するフォレスト レベルの変更を元に戻す必要があります。 RTCUniversalServerAdmins グループのメンバーである必要があります。
+この記事の手順を完了するには、スキーマ管理者グループと管理者グループのEnterprise必要です。 Active Directory ドメイン サービスに対するスキーマSkype for Business Serverフォレスト レベルの変更を元に戻すには、これらの特権が必要です。 RTCUniversalServerAdmins グループのメンバーである必要があります。
 
 
-## <a name="prepare-to-remove-the-skype-for-business-deployment"></a>Skype for Business 展開を削除する準備
+## <a name="prepare-to-remove-the-skype-for-business-deployment"></a>展開を削除するSkype for Businessする
 
 必要なすべてのユーザー アカウントをクラウドに移動した後も、クリーンアップが必要な連絡先やアプリケーションなどのオンプレミス オブジェクトが残っている場合があります。
 
-以下の手順を使用して、これらのオブジェクトをクリーンアップし、ローカル管理者グループと RTCUniversalServerAdmins グループの両方のメンバーである必要があります。 ExUmContacts と PersistantChatEndPoints は Skype for Business Server 2019 では使用できません。 Skype for Business Server 2019 を使用している場合は、以下の手順で対応するコマンドレットを省略する必要があります。
+以下の手順を使用して、これらのオブジェクトをクリーンアップし、ローカル管理者グループと RTCUniversalServerAdmins グループの両方のメンバーである必要があります。 ExUmContacts と PersistantChatEndPoints は、2019 年にSkype for Business Serverしてください。 2019 Skype for Business Server場合は、以下の手順で対応するコマンドレットを省略する必要があります。
 
-1. Skype for Business Server のオンプレミス展開に関連付けられている連絡先またはアプリケーションが何かあるか確認するには、次の Skype for Business Server PowerShell コマンドレットを実行します。
+1. オンプレミスの展開に関連付けられている連絡先またはアプリケーションSkype for Business Server確認するには、次の PowerShell コマンドレットSkype for Business Server実行します。
 
    ```PowerShell
    Get-CsMeetingRoom
@@ -64,7 +64,7 @@ ms.locfileid: "51656693"
    Get-CsAudioTestServiceApplication
    Get-CsCallParkOrbit
    ```
-2. 手順 1 のコマンドレットからの出力リストを確認します。 次に、オブジェクトを削除できる場合は、次の Skype for Business Server PowerShell コマンドレットを実行します。
+2. 手順 1 のコマンドレットからの出力リストを確認します。 次に、オブジェクトを削除できる場合は、PowerShell コマンドレットSkype for Business Server実行します。
 
    ```PowerShell
    Get-CsMeetingRoom | Disable-CsMeetingRoom
@@ -81,28 +81,28 @@ ms.locfileid: "51656693"
    ```
 ## <a name="remove-your-on-premises-skype-for-business-deployment"></a>オンプレミスの Skype for Business の展開を削除する
 
-すべての予備的な手順を完了した後、次の手順に従って Skype for Business の展開を削除できます。
+すべての予備的な手順を完了した後、次の手順に従ってSkype for Business展開を削除できます。
 
-1. 次のように、1 つのフロントエンドを除き、Skype for Business Server 展開を論理的に削除します。
+1. 次のように、1 Skype for Business Serverを除き、展開の論理的な削除を行います。
 
-   a. Skype for Business Server トポロジを更新して、1 つのフロントエンド プールを使用します。
+   1. 1 つのフロントエンド Skype for Business Serverを持つトポロジを更新します。
 
-     - トポロジ ビルダーで、新しいコピーをダウンロードし、Frontend プールに移動します。
-     - プールを右クリックし、[**プロパティの編集**] をクリックします。
-     - [ **関連付け] で**、[ **エッジ プールの関連付け** ] (メディア コンポーネントの場合) のチェックを外し **、[OK] をクリックします**。
-     - 複数のフロントエンド プールがある場合は、残りのすべてのプールの関連付けを削除します。
-     - [アクション **] を選択>展開の削除] を選択します**。
-     - [アクション **] を>トポロジの発行] を選択します**。
+      1. トポロジ ビルダーで、新しいコピーをダウンロードし、Frontend プールに移動します。
+      1. プールを右クリックし、[**プロパティの編集**] をクリックします。
+      1. [ **関連付け] で**、[ **エッジ プールの関連付け** ] (メディア コンポーネントの場合) のチェックを外し **、[OK] をクリックします**。
+      1. 複数のフロントエンド プールがある場合は、残りのすべてのプールの関連付けを削除します。
+      1. [アクション **] を選択>展開の削除] を選択します**。
+      1. [アクション **] を>トポロジの発行] を選択します**。
 
-    b. トポロジを公開したら、ウィザードで説明されている追加の手順を実行します。
+    1. トポロジを公開したら、ウィザードで説明されている追加の手順を実行します。
 
-2. 次の Skype for Business Server PowerShell コマンドレットを実行して、Skype for Business Server 会議ディレクトリを削除します。
+2. 次Skype for Business Server PowerShell コマンドレットを実行して、会議ディレクトリSkype for Business Server削除します。
 
    ```PowerShell
    Get-CsConferenceDirectory | Remove-CsConferenceDirectory -Force
    ```
 
-3. 次の Skype for Business Server PowerShell コマンドレットを実行して、Skype for Business Server 展開のアンインストールを完了します。
+3. PowerShell コマンドレットを実行して、Skype for Business Server展開のアンインストールをSkype for Business Serverします。
 
    ```PowerShell
    Publish-CsTopology -FinalizeUninstall
@@ -110,18 +110,18 @@ ms.locfileid: "51656693"
    > [!NOTE]
    > この手順でエラーが返される場合は、Microsoft サポート チケットを開き、残りの古いオブジェクトの削除に関するヘルプを受け取ります。
 
-4. 次の Skype for Business Server PowerShell コマンドレットを実行して、サーバーの全体管理ストア サービスコントロール ポイントを削除します。
+4. PowerShell コマンドレットで次のコマンドを実行して、サーバーの全体管理ストア サービスSkype for Business Server削除します。
 
    ```PowerShell
    Remove-CsConfigurationStoreLocation
    ``` 
 
-5. 次の Skype for Business Server PowerShell コマンドレットを実行して、Skype for Business Server Active Directory ドメインフォレスト レベルの変更を元に戻します。
+5. 次Skype for Business Server PowerShell コマンドレットを実行して、Active Directory ドメイン レベルのSkype for Business Server元に戻します。
 
    ```PowerShell
    Disable-CsAdDomain
    ```
-6. 次の Skype for Business Server PowerShell コマンドレットを実行して、Skype for Business Server Active Directory ドメイン スキーマの変更を元に戻します。
+6. 次Skype for Business Server PowerShell コマンドレットを実行して、Active Directory フォレスト レベルの変更Skype for Business Server取り消します。
 
    ```PowerShell
    Disable-CsAdForest
@@ -136,14 +136,4 @@ ms.locfileid: "51656693"
 - [ハイブリッド構成を無効にする](cloud-consolidation-disabling-hybrid.md)
 
 - [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動する](decommission-move-on-prem-endpoints.md)
-
-
-
-
-
-
-
-
-
-
 

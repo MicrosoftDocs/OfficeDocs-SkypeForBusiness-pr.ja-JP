@@ -1,5 +1,5 @@
 ---
-title: ハイブリッド アプリケーション エンドポイントをクラウドに移動する
+title: ハイブリッド アプリケーション エンドポイントをクラウドに移行する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,15 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: hyrid アプリケーション エンドポイントを移動してから、オンプレミス環境Skype for Business使用を停止します。
-ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+description: hyrid アプリケーション エンドポイントを移行してから、オンプレミス環境Skype for Business使用を停止します。
+ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684384"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420802"
 ---
-# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>オンプレミス環境を使用停止する前にハイブリッド アプリケーション エンドポイントを移動する
+# <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>オンプレミス環境を使用停止する前にハイブリッド アプリケーション エンドポイントを移行する
 
 この記事では、オンプレミスのアプリケーション 環境を使用停止する前に、必要なハイブリッド アプリケーション エンドポイントを Microsoft クラウドに移動するSkype for Business説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 3 です。
 
@@ -32,14 +32,14 @@ ms.locfileid: "52684384"
 
 - 手順 2. [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
 
-- **手順 3.ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動します。** (この記事)
+- **手順 3.ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移行します。** (この記事)
 
 - 手順 4. [オンプレミスの展開を削除Skype for Businessします](decommission-remove-on-prem.md)。
 
 
-## <a name="move-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>必要なすべてのハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移動する
+## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>必要なすべてのハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移行する
 
-これらのエンドポイントをオンラインに移動する前に、エンドポイントで使用されるすべての sip ドメインの Microsoft 365 をポイントする DNS レコードを更新している必要があります。 DNS レコードがオンプレミスを指している場合、オンライン リソース アカウントを作成することはできません。 詳細については、「ハイブリッド構成を [無効にする」を参照してください](cloud-consolidation-disabling-hybrid.md)。
+これらのエンドポイントをオンラインに移動する前に、エンドポイントで使用されるすべての sip ドメインの Microsoft 365 をポイントする DNS レコードを更新している必要があります。 DNS を更新して Microsoft 365 をポイントすると、この手順を完了するまで、既存のハイブリッド アプリケーション エンドポイントは検出できなくなりました。 DNS レコードがオンプレミスを指している場合、この手順 (オンライン リソース アカウントの作成) は実行できないので、同じメンテナンス ウィンドウで手順 2 と 3 の両方を実行する必要があります。 詳細については、「ハイブリッド構成を [無効にする」を参照してください](cloud-consolidation-disabling-hybrid.md)。
 
 1. PowerShell コマンドで次のオンプレミスアプリケーションを実行して、オンプレミスのハイブリッド アプリケーション エンドポイントSkype for Business Serverエクスポートします。
 

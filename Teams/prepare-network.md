@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899088"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420832"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Microsoft Teams 用に組織のネットワークを準備する 
 
@@ -32,12 +32,7 @@ ms.locfileid: "51899088"
 
 既に[ネットワークを Microsoft 365 または Office 365 用に最適化](/Office365/Enterprise/assessing-network-connectivity)している場合は、Microsoft Teams の準備ができている可能性があります。 いずれの場合でも、特に **リモート ワーカー** をサポートする最初の Microsoft 365 または Office 365 ワークロードとして Teams を迅速に展開する場合は、Teams の展開を開始する前に次のことを確認してください。
 
-1.  (Microsoft 365 または Office 365 に接続できるように) すべての場所にインターネット アクセスがありますか? 少なくとも、通常の Web トラフィックに加えて、すべての場所で、Teams のメディア用に以下を開いていることを確認してください。
-
-    |  |  |
-    |---------|---------|
-    |ポート     |UDP ポート <strong>3478</strong> から <strong>3481</strong>        |
-    |[IP アドレス](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>、<strong>52.112.0.0/14</strong>、および <strong>52.120.0.0/14</strong>         |
+1.  (Microsoft 365 または Office 365 に接続できるように) すべての場所にインターネット アクセスがありますか? 通常の Web トラフィックに加えて、[Office 365 の URL と IP アドレスの範囲](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)に記載されている Teams 用の TCP ポートと IP アドレスを開いていることを確認してください。
 
     > [!IMPORTANT]
     > オンプレミスまたはオンラインのいずれかで Skype for Business と連携する必要がある場合は、追加の DNS レコードを構成する必要があります。
@@ -149,10 +144,173 @@ ms.locfileid: "51899088"
 
 Teams は、ネットワークの状態に関係なく、最高のオーディオ、ビデオ、およびコンテンツ共有エクスペリエンスを提供するように設計されています。 とはいえ、帯域幅が不十分な場合、Teams はビデオ品質よりもオーディオ品質を優先します。
 
-帯域幅が制限されて *いない* 場合、Teams は、最大 1080p のビデオ解像度、最大 30fps のビデオと 15fps のコンテンツ、およびハイファイ オーディオなど、メディア品質を最適化します。 
+帯域幅が制限されていない場合、Teams は、ハイファイ オーディオ、最大 1080p のビデオ解像度、最大 30fps (フレーム/秒) のビデオとコンテンツなど、メディア品質を最適化します。
 
-[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
+この表では、Teams がどのように帯域幅を使用するかについて説明しています。 Teams は常に帯域幅の使用率を控えめにし、1.5 Mbps 以下で HD ビデオ品質を提供できます。 各オーディオ/ビデオ通話または会議の実際の帯域幅の消費量は、ビデオレイアウト、ビデオ解像度、1 秒あたりのビデオ フレームなどのいくつかの要因によって異なります。 より多くの帯域幅が利用可能になると、最高のエクスペリエンスを提供するために品質と使用率を増加させるようになっています。
 
+:::row:::
+   :::column span="":::
+      **モダリティ**
+   :::column-end:::
+   :::column span="3":::
+      **帯域幅の要件 (ビットレート KB/秒 上昇/下降)**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+      **Minimum**
+   :::column-end:::
+   :::column span="":::
+      **推奨**
+   :::column-end:::
+   :::column span="":::
+      **最高のパフォーマンス**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Audio**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一対一
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        会議
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **ビデオ**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一対一
+   :::column-end:::
+   :::column span="":::
+        150/150
+   :::column-end:::
+   :::column span="":::
+        1,500/1,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        会議
+   :::column-end:::
+   :::column span="":::
+        150/200
+   :::column-end:::
+   :::column span="":::
+        2,500/4,000
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **画面共有**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一対一
+   :::column-end:::
+   :::column span="":::
+        200/200
+   :::column-end:::
+   :::column span="":::
+        1,500/1,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        会議
+   :::column-end:::
+   :::column span="":::
+        250/250
+   :::column-end:::
+   :::column span="":::
+        2,500/2,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **Together モード**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一対一
+   :::column-end:::
+   :::column span="":::
+        該当なし
+   :::column-end:::
+   :::column span="":::
+        該当なし
+   :::column-end:::
+   :::column span="":::
+        該当なし
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        会議
+   :::column-end:::
+   :::column span="":::
+        1,000/1,500
+   :::column-end:::
+   :::column span="":::
+        1,500/2,500
+   :::column-end:::
+   :::column span="":::
+        2,500/4,000
+   :::column-end:::
+:::row-end:::
+
+**最小**、**推奨**、および **最高のパフォーマンス** の帯域幅の要件は、エンドポイントごとの使用状況に基づきます。 一般には、コンピューター デバイスやモバイル デバイスなどのユーザーごとに 1 つのエンドポイントがあります。 ただし、ユーザーがコンピューター *と* モバイル デバイスの *両方* で Teams 会議に参加した場合は、2 つのエンドポイントがそのユーザーに関連付けられます。
+
+- ビデオ通話の **最小** 帯域幅要件は、最大 240p の解像度で、画面共通コンテンツのフレーム レートは Adaptive 1.875 から 7.5fps で、Together モードのギャラリー ビデオは最大 540p 解像度です。  
+
+- ビデオ通話の **推奨** 帯域幅要件は、最大 1080p の解像度<sup>\*</sup>で、画面共通コンテンツのフレーム レートは Adaptive 7.5 から 30fps で、Together モードのギャラリー ビデオは最大 1080p 解像度<sup>\*</sup>です。  
+
+- **最高のパフォーマンス** ガイダンスでは、大規模な出席者の会議向けのハイファイ ビデオ、高損失環境で、かつ画面共有フレーム レートが Adaptive 15 から 30fps の高モーション コンテンツを使用することができます。
+
+<sup>\*</sup>最大 1080p の画質を想定していても、ネットワーク状態に応じて、ビデオ解像度や品質が適宜最適化されます。  
 
 ## <a name="related-topics"></a>関連トピック
 
