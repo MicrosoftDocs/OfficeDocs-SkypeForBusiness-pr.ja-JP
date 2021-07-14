@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 946847793ea90e549a555cd9d100cd1ae2809fa3
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230554"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408756"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 
@@ -69,7 +69,7 @@ Teams Exploratory エクスペリエンスの抽出条件を満たすユーザ�
 
 抽出条件を満たさないユーザーは、次のとおりです。
 
-- 現在までに有料版、無料版、試用版ライセンスでの Teams を所有していたことがある
+- 現在、有料ライセンスまたは試用版ライセンスの Teams を持っているか、以前に試用版ライセンスを持っていた
 - 特別 COVID プランを 1 回以上利用した/受け取ったテナントに所属している。
 
 シンジケート パートナー顧客である場合、または GCC、GCC High、DoD、または教育機関の顧客である場合、組織は試用版の対象ではありません。
