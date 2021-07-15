@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b343a3f69d2b0f97f9d7d3054951719da2e9e43
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: 3d0f31c8841a5a357034cc083f1a62d0d6704805
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219144"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53428213"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortanaでの音声アシスタンスのTeams
 
@@ -35,10 +35,6 @@ ms.locfileid: "53219144"
 > Cortanaでの音声アシスタンスMicrosoft Teams ミーティングプレビューの下でリリースされます。 プレビュー リリースではCortana Rally マイクを接続しているデバイスでは、言語 EN-US を使用する米国でのみサポートされています。
 
 Cortana Teams モバイル アプリ、Windows の Microsoft Teams ミーティング、Microsoft Teams ディスプレイ デバイスで音声アシスタンスを使用すると、Microsoft 365 Enterprise ユーザーは話し言葉の自然言語を使用して、コミュニケーション、コラボレーション、会議関連のタスクを効率化できます。 ユーザーは、Teams モバイル アプリの右上にあるマイク ボタンを選択するか、Microsoft Teams Room で &#8220;Cortana&#8221; と言うか、Microsoft Teams ディスプレイを使用するときに、Cortana と話し合います。 チームにハンズフリーですばやく接続し、移動中に、ユーザーは &#8220;通話 Megan&#8221; や &#8220;などのクエリを言って、次の会議&#8221; にメッセージを送信できます。 ユーザーは、次の会議に参加&#8220;、音声&#8221;を使ってファイルの共有、予定表の確認などと言って会議に参加することもできます。 これらの音声アシスタンス エクスペリエンスは[、Office 365](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide)のプライバシー、セキュリティ、およびコンプライアンスの約束に完全に準拠する Cortana エンタープライズ レベルのサービスを使用して提供されます 。これは[、Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)に反映されます。
-
-この画像は、モバイル デバイス上のCortanaを使用してチャットを送信する場合を示しています。
-
-![一連のモバイル画面で、チャット セッションCortana表示](media/cortana-on-teams-mobile.png)
 
 ## <a name="admin-control-and-limitations"></a>管理者の制御と制限事項
 
@@ -94,22 +90,6 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 デバイスの設定をCortanaをTeamsデバイスで有効にするかどうかを制御できます。
 
-### <a name="teams-mobile-app-or-the-microsoft-teams-display"></a>TeamsアプリまたはディスプレイMicrosoft Teams表示
-
-  1. モバイル アプリTeams開きます。
-
-  2. [設定 **Cortana]**  >  **を選択します**。
-
-  3. トグルを [オン] **または [オフ]** に **移動します**。
-
-### <a name="microsoft-teams-display"></a>Microsoft Teams表示
-
-  1. 画面の周囲 (ホーム) 画面に移動Microsoft Teamsします。
-
-  2. ユーザーのアバターを選択し、[] を **設定。** 有効Cortana場合は、"Cortana に移動設定。
-
-  3. トグルを [オン] **または [オフ]** に **移動します**。
-  
 ### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams ミーティングのWindows
 
 デバイス レベルで変更を行う方法は、テナント Cortanaで有効になっている場合に使用できます。 Cortanaは既定でオフにリリースされます。

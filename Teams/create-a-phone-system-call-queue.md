@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Microsoft Teams で大規模な組織の通話キューを設定する方法について説明します。この機能は、あいさつメッセージ、保留音楽、通話リダイレクト、その他の機能を提供します。
-ms.openlocfilehash: b3a17343b21f0dcb35ba2f2d6bb99178bdafffd0
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420852"
+ms.locfileid: "53428203"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -111,6 +111,9 @@ Teamsキュー内で保留されている間、呼び出し元に既定の音楽
 
   - Microsoft Teams Windows クライアント
   - Microsoft Teams Mac クライアント
+
+> [!NOTE]
+> このオプションを使用する場合、通話キューが完全に動作するには最大 24 時間かかる場合があります。
 
 ##### <a name="users-and-groups"></a>ユーザーとグループ
 

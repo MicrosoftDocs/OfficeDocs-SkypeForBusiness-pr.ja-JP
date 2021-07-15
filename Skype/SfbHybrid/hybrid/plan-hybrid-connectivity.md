@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsオンラインSkype for Businessハイブリッド接続を実装Skype for Business計画します。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 7d886016495d194997ebf99361916c9c387e5d1f
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 277e592df24a03f50d09ebca21bad0211e6c8c57
+ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856336"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53437654"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>ハイブリッド接続を計画して、Skype for Business ServerとTeams
 
@@ -56,11 +56,13 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
 
 組織が Skype for Business Server または Lync Server 2013 から Teams に移行するには、引き続き同じツールセットを使用してハイブリッドをセットアップおよび構成する必要があります。引き続き、退職前とまったく同じです。 変更されたのは、ユーザーをオンプレミスから Teams に移動するときに、ユーザーをオンプレミスから `-MoveToTeams` TeamsOnly に直接移動するスイッチを指定する必要がなくなりました `Move-CsUser` 。 以前は、このスイッチが指定されていない場合、ユーザーは Skype for Business Server オンプレミスのホームから Skype for Business Online に移行し、モードは変更されません。 退職に備えて、ユーザーをオンプレミスからクラウドに移動するときに、ユーザーは TeamsOnly モードに自動的に割り当てられると、スイッチが実際に指定されたかどうかに関係なく、スイッチが指定された場合と同じ方法で、オンプレミスから会議が自動的に Teams 会議に変換されます。 `Move-CsUser` `-MoveToTeams` (これには、切り替え前の Lync Server 2013 からの移行が含 `MoveToTeams` まれます)。 
 
+同様に、新しいユーザーがオンプレミスではなく Microsoft 365 で直接作成された場合、そのユーザーはテナントのモードに関係なく自動的に Teams のみモードになります。 (この動作は、近い将来、退職後に展開されます。ハイブリッド組織では、オンプレミスのユーザーが新しいユーザーにルーティングできるよう、Microsoft 365 でユーザーを直接作成するのではなく、オンプレミスの Active Directory で新しいユーザーを作成し (Microsoft 365 に同期する) 必要があります。
+
 オンラインの使用が取り除かSkype for Businessされます。 以前と同様に、オンプレミスにSkype for Business Serverアカウントを持つユーザーには、TeamsOnly を除くすべての共存モードを割り当てることができます。 ただし、退職後、オンラインに住むユーザーは TeamsOnly にしか使用できません (オンライン ユーザーが任意のモードSkype for Business現在とは対照的です)。  
 
 > [!Important]
-> TeamsOnly 以外の Skype for Business Online にユーザーが参加している既存のハイブリッド組織では、これらのユーザーをできるだけ早く Teams Only モードにアップグレードする必要がありますが、2021 年 7 月 31 日に終了する予定です。 組織に TeamsOnly ではない Skype for Business Online にユーザーがまだ所属している場合は、これらのユーザーを TeamsOnly に移行する Microsoft 支援アップグレードをスケジュールできます。 これは、オンプレミスのユーザーにSkype for Business Server影響を与える可能性はありません。 スケジュール通知は、これらのオンラインの TeamsOnly 以外のユーザーが Teams にアップグレードされる前に、Skype for Business Online にユーザーが参加しているハイブリッド顧客に事前に送信されます。
-
+> - TeamsOnly 以外の Skype for Business Online にユーザーが参加している既存のハイブリッド組織では、これらのユーザーをできるだけ早く Teams Only モードにアップグレードする必要がありますが、2021 年 7 月 31 日に終了する予定です。 組織に TeamsOnly ではない Skype for Business Online にユーザーがまだ所属している場合は、これらのユーザーを TeamsOnly に移行する Microsoft 支援アップグレードをスケジュールできます。 これは、オンプレミスのユーザーにSkype for Business Server影響を与える可能性はありません。 スケジュール通知は、これらのオンラインの TeamsOnly 以外のユーザーが Teams にアップグレードされる前に、Skype for Business Online にユーザーが参加しているハイブリッド顧客に事前に送信されます。
+> - Skype for Business Online の終了に備えて、すぐに TeamsOnly 以外のモードをオンラインに設定されているユーザーに割り当てなくなりました。
 
 ## <a name="about-shared-sip-address-space-functionality"></a>共有 SIP アドレス空間の機能について
 
