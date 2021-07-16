@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 使用停止の手順Skype for Business Server。
-ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420792"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454340"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>オンプレミスの Skype for Business の展開を削除する
 
@@ -38,7 +38,7 @@ ms.locfileid: "53420792"
 
 
 > [!IMPORTANT] 
-> この記事の手順は、ここで説明するように、ユーザー属性の管理に方法 2 を使用している場合にのみ適用 [されます](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory)。 方法 1 を使用している場合は、この記事で説明されている手順を使用してサーバーを削除Skype for Businessしてください。 代わりに、サーバーを再イメージできます。
+> この記事の手順は、ここで説明するように、ユーザー属性の管理に方法 2 を使用している場合にのみ適用 [されます](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory)。 方法 1 を使用している場合は、この記事で説明されている手順を使用してサーバーを削除Skype for Businessしてください。 代わりに、サーバーを再イメージできます。
 
 この記事の手順を完了するには、スキーマ管理者グループと管理者グループのEnterprise必要です。 Active Directory ドメイン サービスに対するスキーマSkype for Business Serverフォレスト レベルの変更を元に戻すには、これらの特権が必要です。 RTCUniversalServerAdmins グループのメンバーである必要があります。
 
