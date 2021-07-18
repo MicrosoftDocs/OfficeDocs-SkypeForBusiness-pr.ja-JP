@@ -26,8 +26,14 @@
           href: ../hybrid/decommission-on-prem-overview.md
         - name: ユーザーをクラウドに移動する
           href: ../hybrid/decommission-move-on-prem-users.md
-        - name: ハイブリッドを無効にしてクラウドへの移行を完了する
-          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: ハイブリッドを無効にして Teams のみの移行を完了する
+          items:
+            - name: ハイブリッドを無効にして Teams のみの移行を完了する
+              href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+            - name: DNS エントリの更新
+              href: ../hybrid/decommission-manage-dns-entries.md
+            - name: 使用停止後に属性を管理する方法を決定する
+              href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: アプリケーション エンドポイントをクラウドに移動する
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: オンプレミスの Skype for Business の展開を削除する
