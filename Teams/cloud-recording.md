@@ -19,76 +19,67 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e5c23c362d9d425c163a46dde93c6daa3c593a92
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617779"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486147"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
-Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記録して、音声、ビデオ、および画面共有のアクティビティをキャプチャできます。 自動的に文字起こしする記録のオプションもあるため、ユーザーはミーティングの記録を字幕付きで再生して、会議内容の重要な議題を検索できます。 レコーディングはクラウドで実行され、[Microsoft Stream](/stream/) に保存されるため、ユーザーは組織全体で安全にそのレコーディングを共有できます。
+Microsoft Teams では、ユーザーは Teams 会議やグループ通話を記録して、音声、ビデオ、および画面共有のアクティビティをキャプチャできます。 レコーディングから自動的に文字起こしするオプションもあるため、ユーザーは会議のレコーディングを字幕付きで再生して、重要な論点を振り返ることができます。 レコーディングはクラウドで実行され、Microsoft OneDrive for Business と Microsoft SharePoint Online に保存されるため、ユーザーは組織全体に渡って安全にそのレコーディングを共有できます。
 
-関連: [Teams 会議のレコーディングに関するエンド ユーザー向けドキュメント](https://aka.ms/recordmeeting)
+会議がレコーディングされると、自動的に次の処理が行われます:
+
+- OneDrive for Business または SharePoint Online にアップロードされます。
+- 会議に招待された人々に対して参加承認しました
+- 会議のためのチャット内でリンクされています
+- Teams 予定表の会議の [レコーディングとトランスクリプト] タブに表示されます
+- Microsoft 365 のさまざまなファイル リストに追加されました: 共有アイテム、office.com、おすすめ、最近使用したファイルなどです。
+- Microsoft 365 検索用にインデックスが作成されました
+
+関連: [Teams 会議レコーディングのエンド ユーザー向けドキュメント](https://aka.ms/recordmeeting)
 
 >[!Note]
-> Microsoft Stream の使用から 会議の記録用の OneDrive for Business および SharePoint への変更は段階的なアプローチになります。 各フェーズの詳細については、「[OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う](tmr-meeting-recording-change.md)」を参照してください。
+> 会議のレコーディングについて、Microsoft Stream (クラシック) から OneDrive for Business および SharePoint Online へ移行することは、2021年8月に自動的に発生します。 詳細については、「[OneDrive for Business と SharePoint Online または Stream を使用して会議のレコーディングを行う](tmr-meeting-recording-change.md)」を参照してください。
 
 > [!NOTE]
 > Teams 会議でロールを使用する方法、およびユーザーのロールを変更する方法の詳細については、「[Teams 会議での役割](https://support.microsoft.com/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019?ui=en-us&rs=en-us&ad=us)」を参照してください。 ライブ イベントのレコーディング オプションについては、「[Teams のライブ イベント記録ポリシー](teams-live-events/live-events-recording-policies.md)」を参照してください。
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Teams クラウド会議のレコーディングのための前提条件
 
-Teams ユーザーの会議を記録するには、そのテナントに対して Microsoft Stream を有効にする必要があります。 また、会議の開催者とレコーディングを開始するユーザーの双方は、次の前提条件を満たす必要があります。
+Teams ユーザーの会議をレコーディングするには、テナントにおいて OneDrive for Business と SharePoint Online を有効にする必要があります。 加えて、会議の開催者とレコーディングを開始するユーザーの双方は、次の前提条件を満たす必要があります:
 
-- Office 365 E1、E3、E5、A1、A3、A5、Microsoft 365 Business Premium または Business Standard または Business Basic<sup>1</sup> を所有している
-- 会社のガイドラインが管理者によって設定されている場合、そのガイドラインに同意している
-- レコーディングを保存するのに十分なストレージを Microsoft Stream に確保している
-- ユーザーは、会議とグループ通話を記録するために CsTeamsMeetingPolicy -AllowCloudRecording 設定を true に設定しています
-- ユーザーは、一対一の通話を記録するために CsTeamsCallingPolicy -AllowCloudRecordingForCalls 設定を true に設定しています
-- その会議の匿名ユーザー、ゲスト ユーザー、フェデレーション ユーザーではない
-- ユーザーの会議の議事録作成を有効にするには、割り当てられている Teams の会議ポリシーで-AllowTranscription 設定が「正」に設定されている必要があります。
+- ユーザーは、非チャネル会議のレコーディングを保存する十分なストレージを OneDrive for Business に持っています。
 
-<sup>1</sup> 2020 年 8 月 20 日以降、A1 を使用しているユーザーの場合、会議記録ファイルへのアクセスは 21 日後に有効期限が切れます。 詳細については、「[Microsoft Teams 会議の記録を Stream にアップロードする](/stream/portal-upload-teams-meeting-recording)」を参照してください。
+- Teams のチャネルは、チャネル会議のレコーディングを保存する十分なストレージを SharePoint Online に持っています。
 
-> [!IMPORTANT] 
+- ユーザーは、会議やグループ通話をレコーディングするために、`CsTeamsMeetingPolicy -AllowCloudRecording` 設定を「はい」に設定しています。
+
+- ユーザーは、1 対 1 の通話をレコーディングするために、`CsTeamsCallingPolicy -AllowCloudRecordingForCalls` 設定を「はい」に設定しています。
+
+- ユーザーは、会議において匿名ユーザー、ゲスト ユーザー、またはフェデレーション ユーザーではありません。
+
+- ユーザーの会議の文字起こしを有効にするには、割り当てされている Teams 会議ポリシーで `-AllowTranscription` 設定が「はい」に設定されている必要があります。
+
+- チャネル会議のレコーディングを有効化して保存されるためには、チャネル メンバーがレコーディングを編集またはダウンロードできないように `CSTeamsMeetingPolicy -ChannelRecordingDownload` 設定を 「ブロック」 に設定する必要があります。
+
+> [!IMPORTANT]
 >
-> ユーザーに録音とそれのダウンロードのみを許可する場合は、Microsoft Stream のライセンスを割り当てる必要はありません。 つまり、録音は Microsoft Stream に保存されず、削除されるまでの 21 日間の制限付きで Teams Async Media Services (AMS) に保存されるということです。 現時点では、削除機能を含め、管理者が制御または管理できるものではありません。
+> ユーザーにレコーディングと、そのダウンロードのみを望む場合、ユーザーは OneDrive for Business または SharePoint Online を有効化する必要はありません。 つまり、レコーディングは OneDrive for Business または SharePoint Online に保存されず、削除されるまで 21 日間との制限付きで、一時的な Teams storage に保存されるということです。 現時点では、管理者が制御し、管理し、または削除できる様なものではありません。
 >
-> また、AMS 上のレコーディングの場合、レコーディングの保持はチャット メッセージ自体の影響を受けるので注意してください。 そのため、元の AMS レコーディング チャット メッセージを削除すると、ユーザーはレコーディングにアクセスできなくなります。 これに影響を及ぼす可能性のあるシナリオには、次の 2 つがあります。
-> 
-> - ユーザーがチャット メッセージを手動で削除した場合
-> 
->   このシナリオでは、元のメッセージが無くなってしまったため、ユーザーはレコーディングにアクセスできなくなり、それ以上ダウンロードができなくなります。 ただし、レコーディング自体はしばらくの間 (元の 21 日間を超えない期間) Microsoft の内部システム内で保持される場合があります。
-> 
-> - チャット メッセージのレコーディングが、チャット保持ポリシーによって削除される場合
-> 
->   AMS レコーディングは、チャットのアイテム保持ポリシーに直接関連付けされます。 そのため、AMS でのレコーディングは既定では 21 日間保持されてから削除されますが、チャット メッセージ保持ポリシーにより、チャット メッセージが 21 日前に削除された場合、レコーディングも削除されます。 その後にレコーディングを回復することはできません。
+> [一時的な会議レコーディング用ストレージのしくみ](#temp-storage)の詳細については、以下を参照してください。  
 
-## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>組織内のユーザーに対して Teams のクラウド会議のレコーディングを設定する
+## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>組織内のユーザーに対して Teams クラウド会議のレコーディングを設定する
 
-このセクションでは、Teams 会議をレコーディングするための設定方法と計画方法について説明します。
-
-### <a name="turn-on-microsoft-stream-for-users-in-the-organization"></a>組織内のユーザーに対して Microsoft Stream を有効にする
-
-Microsoft Stream は、対象となる Microsoft 365 または Office 365 サブスクリプションの一部として、またはスタンドアロン サービスとして使用できます。  詳細については、「[Microsoft Stream ライセンスの概要](/stream/license-overview)」を参照してください。  Microsoft Stream は、現在、Microsoft 365 Business、Microsoft 365 Business Standard、 および Microsoft 365 Business Basic に含まれています。
-
-ユーザーが Microsoft Stream にアクセスできるように 「[Microsoft 365 またはOffice 365 でユーザーにライセンスを割り当てる](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)」を参照してください。 Microsoft Stream がそのユーザーに対してブロックされていないことを、「[Microsoft Stream へのサインアップをブロックする](/stream/disable-user-organization)」の定義に従って確認します。
-
-### <a name="make-sure-users-have-upload-video-permissions-in-microsoft-stream"></a>ユーザーが Microsoft Stream でビデオをアップロードするアクセス許可を持っていることを確認する
-
-既定では、Stream が有効になっており、ユーザーにライセンスが割り当てられていれば、社内のすべてのユーザーが Stream でコンテンツを作成できます。 Microsoft Stream の管理者は、Stream で[コンテンツを作成できる従業員を制限する](https://docs.microsoft.com/stream/restrict-uploaders)ことができます。 この制限付きリストに含まれるユーザーは引き続き会議を記録できますが、記録は Stream に送信されません。 これらの記録は、代わりに 21 日間 AMS に一時的に保存されます。 その間、 21 日後に削除される前に、記録をダウンロードする必要があります。
-
-### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>Microsoft Stream で会社のガイドラインに同意するよう従業員に通知する
-
-Microsoft Stream の管理者が[会社のガイドライン ポリシーを設定](/stream/company-policy-and-consent)しており、コンテンツを保存する前にこのポリシーを承諾することを従業員に求めている場合、ユーザーは Microsoft Teams でレコーディングする前にポリシーを承諾する必要があります。 その組織のレコーディング機能を展開する前に、ユーザーがポリシーに同意していることを確認してください。
+このセクションでは、「[ Teams 会議ポリシー](./assign-policies.md)」を通して、Teams 会議をレコーディングするための計画と設定について説明します。
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>クラウド レコーディングを開始または停止する
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、Teams の会議ポリシーを設定すると、ユーザーの会議を記録できるかどうかを制御できます。
 
-Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow cloud recording](クラウド レコーディングを許可する)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオの会議ポリシー設定](meeting-policies-audio-and-video.md#allow-cloud-recording)」を参照してください。
+Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow cloud recording](クラウド レコーディングを許可する)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオについての会議ポリシーの設定](meeting-policies-audio-and-video.md#allow-cloud-recording)」を参照してください。
 
 PowerShell を使用する場合は、TeamsMeetingPolicy で AllowCloudRecording 設定を構成します。 詳細については、「[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)」および「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
@@ -106,56 +97,61 @@ Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 グローバル ポリシーの AllowCloudRecording の値を変更するには、次のコマンドレットを使用します。
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
+Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 ```
 
-</br>
-</br>
+|シナリオ|手順|
+|--|--|
+| 社内のすべてのユーザーが、自身の会議をレコーディングできるようにしたい。 | <ol><li>Global CsTeamsMeetingPolicy は、 AllowCloudRecording = True に設定されていることを確認する。<li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定されていることを確認する。</ol> |
+| ユーザーの大半に会議をレコーディングできるようにしたいが、レコーディングを許可されていない特定のユーザーについては、選択的に記録できないようにしたい。 | <ol><li>GlobalCsTeamsMeetingPolicy が AllowCloudRecording = True に設定されていることを確認する。<li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定されていることを確認する。<li>その他のすべてのユーザーは、CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。</ol> |
+| レコーディングを 100% 無効化する。 | <ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。<li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False に設定され、承認されている。 |
+| ユーザーの大半に対してはレコーディングを不可とし、特定のユーザーについてレコーディングすることを選択的に許可したい。 | <ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。<li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。<li>その他のすべてのユーザーには、 CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定され、承認されている。 <ol> |
 
 
-|                                                                 シナリオ                                                                 |                                                                                                                                                                         手順                                                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                    社内のすべてのユーザーが会議を記録できるようにする                                    |                                                                     <ol><li>グローバルな CsTeamsMeetingPolicy が AllowCloudRecording = True に設定されていることを確認する<li>すべてのユーザーについて、グローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定されていることを確認する </ol>                                                                     |
-| ユーザーの大半に会議の記録を許可し、記録を許可されていない特定のユーザーについては選択的に記録できないようにする |        <ol><li>GlobalCsTeamsMeetingPolicy が AllowCloudRecording = True に設定されていることを確認する<li>大半のユーザーについて、グローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定されていることを確認する<li>その他のすべてのユーザーには、AllowCloudRecording = False に設定された CsTeamsMeetingPolicy ポリシーの 1 つが付与されている</ol>         |
-|                                                   レコーディングを完全に無効にする                                                   |                                                                <ol><li>グローバルな CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する<li>すべてのユーザーについて、AllowCloudRecording = False に設定されたグローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが付与されている                                                                 |
-|      ユーザーの大半に対してはレコーディングを無効にし、特定のユーザーにのみ、記録することを許可しレコーディングを選択的に許可したい       | <ol><li>グローバルな CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する<li>大半のユーザーについて、AllowCloudRecording = False に設定されたグローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが付与されている<li>その他のすべてのユーザーには、AllowCloudRecording = True に設定された CsTeamsMeetingPolicy ポリシーの 1 つが付与されている <ol> |
-|                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                  |
+<a name="bd-channel"></a>
+### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>チャネル会議のレコーディングのダウンロードを禁止または許可する
 
-#### <a name="where-your-meeting-recordings-are-stored"></a>会議のレコーディングの保存場所
+この設定は、チャネル会議をチャネルにある "Recordings" フォルダーに保存するか、それとも "Recordings\View only" フォルダーに保存するかどうか制御します。
 
-会議のレコーディングは、Microsoft Stream クラウド ストレージに保存されます。 現在は、データが保存される国内のデータ所在地では Microsoft Stream が利用できない場合、Teams のデータが国内に保存されるお客様の会議のレコーディング機能は無効になっています。 Microsoft Stream がその国内のデータ所在地では利用できない場合でも、データが国内に保存されるお客様は Teams 会議のレコーディング機能を利用することができます。 これは、Microsoft Stream の最も近い地理的な地域においてレコーディングを保存することで実現できます。 
+この設定のための 2 つの値は次のとおり:
 
-Teams のデータが国内に保存されており、会議のレコーディングを国内に保存することをご希望の場合は、この機能を無効にし、Microsoft Stream がお客様の国内のデータ所在地のリージョンに展開されてから有効にすることをお勧めします。 組織内のすべてのユーザーに対してこの機能を無効にするには、Microsoft Teams 管理センターで、グローバルな Teams 会議ポリシーの **クラウドの記録を許可する** 設定をオフにします。 ただし、記録を Microsoft Stream の最も近い地理的地域に保存できるようにしたい場合は、この変更を実行する前に、「**クラウドの記録を許可する**」 と 「**外部の領域の保存を許可**」の両方を有効にする必要があります。
+- [**許可する**] (既定) - チャネル会議のレコーディングを、チャネル内の "Recordings" フォルダーに保存します。 レコーディング ファイルについてのアクセス許可は、チャネルの SharePoint Online のアクセス許可とは関わりなく設定されます。 これは、チャネル用にアップロードされた他のファイルと同じです。
 
-グローバル ポリシーの地域でのレコーディングを有効にするには、次のコマンドレットを使用します。
+- [**禁止**] - チャネル会議のレコーディングを、チャネル内の "Recordings\View only" フォルダーに保存します。 チャネルの所有者は、このフォルダー内のレコーディングに対する完全な権限を持ちますが、チャネル メンバーは読み取りアクセスが可能で、ダウンロードはできません。
+
+PowerShell を使用して、TeamsMeetingPolicy の ChannelRecordingDownload 設定を構成します。 詳細については、「[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)」および「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
+
+管理者がユーザーにカスタム ポリシーを割り当てていない限り、ユーザーはグローバル ポリシーを取得します。グローバル ポリシーでは、ChannelRecordingDownload が既定でAllow (許可) になっています。
+
+ユーザーが元のグローバル ポリシーに戻るには、次のコマンドレットを使用してユーザーに対する特定ポリシーの割り当てを削除します:
 
 ```powershell
-Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true -AllowRecordingStorageOutsideRegion $true
+Grant-CsTeamsMeetingPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
-この変更が有効になると、会議のレコーディングを開始した場合の動作は次のようになります。
+グローバル ポリシーの ChannelRecordingDownload の値を変更するには、次のコマンドレットを使用します:
 
-|会議のレコーディングを開始した場合...|会議のレコーディングの保存先... |
-|---|---|
-|Microsoft Stream がお客様の国内のデータ所在地のリージョンで利用できるようになる前 |最も近い Microsoft Stream のリージョン|
-|Microsoft Stream がお客様の国内のデータ所在地のリージョンで利用できるようになった後 |お客様の国内のデータ所在地のリージョン|
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
+```
 
-会議のレコーディングが開始していない新規および既存のテナントの場合、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになると、新しいレコーディングは国内に保存されます。 ただし、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになる前に会議のレコーディングが有効になっているすべてのテナントでは、Microsoft Stream がその国内のデータ所在地のリージョンで利用できるようになった後でも、既存および新規のレコーディングに引き続き Microsoft Stream ストレージが使用されます。
-
-お客様の Microsoft Stream データが保存されるリージョンを確認するには、Microsoft Stream で、右上隅にある **[?]** をクリックし、 **[About Microsoft Stream](Microsoft Stream について)** をクリックして、**[Your data is stored in](データの保存場所)** をクリックします。  Microsoft Stream でデータが保存されるリージョンについて詳しくは、「[Microsoft Stream FAQ](/stream/faq#which-regions-does-microsoft-stream-host-my-data-in)」を参照してください。
-
-Office 365 または Office 365 のサービス全体のデータの保存場所について詳しくは、「[データの保管場所](https://products.office.com/where-is-your-data-located?rtc=1)」を参照してください。
+> [!NOTE]
+> ChannelRecordingDownload 設定は、Teams PowerShell module version 2.4.1-preview 以降でのみ使用できます。 モジュールの最新プレビュー バージョンをダウンロードするには、次のコマンドを使用します:
+>
+>```powershell
+>Install-Module -Name MicrosoftTeams -Force -AllowClobber -AllowPrerelease
+>```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>記録の文字起こしを有効または無効にする
 
 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 これをオフにすると、会議の記録の再生中に [**検索**] および [**CC**] オプションを使用できなくなります。 記録を開始したユーザーは、記録に文字起こしも含まれるように、この設定を有効にする必要があります。
 
 > [!NOTE]
-> 記録された会議の文字起こしは、現在 Teams の言語が英語に設定されているユーザー、および会議で英語が話されている場合のみサポートされていることに注意してください。 これらは、Microsoft Stream クラウド ストレージに会議のレコーディングと共に保存されます。
+> 記録された会議の文字起こしは、現在 Teams の言語が英語に設定されているユーザー、および会議で英語が話されている場合のみサポートされていることに注意してください。 これらは、OneDrive for Business および SharePoint Online クラウド ストレージに会議のレコーディングと共に保存されます。
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、Teams の会議ポリシーを設定すると、レコーディングを開始するユーザーが会議のレコーディングを文字起こしする機能を選択できるかどうかを制御できます。
 
-Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow transcription](議事録作成を許可する)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオの会議ポリシー設定](meeting-policies-audio-and-video.md#allow-transcription)」を参照してください。
+Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow transcription](議事録作成を許可する)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオについての会議ポリシーの設定](meeting-policies-audio-and-video.md#allow-transcription)」を参照してください。
 
 PowerShell を使用する場合は、TeamsMeetingPolicy で AllowTranscription 設定を構成します。 詳細については、「[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)」および「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
@@ -178,26 +174,125 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 |シナリオ|手順 |
 |---|---|
-|社内のすべてのユーザーが会議のレコーディングを開始するときに文字起こしできるようにしたい |<ol><li>グローバルな CsTeamsMeetingPolicy が AllowTranscription = True に設定されていることを確認する <li>すべてのユーザーについて、グローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = True に設定されていることを確認する </ol>|
-|ユーザーの大半に会議のレコーディングの文字起こしを許可し、文字起こしを許可されていない特定のユーザーについては選択的に文字起こしできないようにする |<ol><li>グローバルな CsTeamsMeetingPolicy が AllowTranscription = True に設定されていることを確認する <li>大半のユーザーについて、グローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = True に設定されていることを確認する <li>その他のすべてのユーザーには、AllowTranscription = False に設定された CsTeamsMeetingPolicy ポリシーの 1 つが付与されている </ol>|
-|レコーディングの文字起こしを完全に無効にする |<ol><li>グローバルな CsTeamsMeetingPolicy が AllowTranscription = False に設定されていることを確認する <li>すべてのユーザーについて、AllowTranscription = False に設定されたグローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが付与されている </ol>|
-|ユーザーの大半の文字起こしを無効にし、文字起こしを許可されている特定のユーザーについては文字起こしを選択的に許可する |<ol><li>グローバルな CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する <li>大半のユーザーについて、AllowCloudRecording = False に設定されたグローバルな CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが付与されている <li>その他のすべてのユーザーには、AllowCloudRecording = True に設定された CsTeamsMeetingPolicy ポリシーの 1 つが付与されている </ol>|
-|||
+|会議のレコーディングを始めるにあたって、社内のすべてのユーザーが文字起こしをできるようにしたい。 |<ol><li>Global CsTeamsMeetingPolicy が AllowTranscription = True に設定されていることを確認する。 <li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = True に設定されていることを確認する。 </ol>|
+|ユーザーの大半に会議のレコーディングの文字起こしを可能とするが、一方で文字起こしを許可されていない特定のユーザーについては、不可とする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowTranscription = True に設定されていることを確認する。 <li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = True に設定されていることを確認する。 <li>その他のすべてのユーザーには、CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = False に設定され、承認されている。 </ol>|
+|レコーディングの文字起こしを100% 無効にする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowTranscription = False に設定されていることを確認する。 <li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = False に設定され、承認されている。 </ol>|
+|ユーザーの大半について、文字起こしを無効にし、一方で文字起こしを許可されている特定のユーザーについては選択的に可能とする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。 <li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。 <li>その他のすべてのユーザーには、 CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定され、承認されている。 </ol>|
+
+
+## <a name="permissions-and-storage"></a>アクセス許可とストレージ
+
+会議のレコーディングは、OneDrive for Business および SharePoint Online クラウド ストレージに保存されます。 保管場所とアクセス許可は、会議の種類と会議におけるユーザーの役割に依存しています。 レコーディングに適用された既定のアクセス許可は以下にリストアップされます。ビデオ レコーディング ファイルに対する完全な編集権限を持つユーザーは、アクセス許可を変更し、後で必要に応じて他のユーザーと共有できます。
+
+### <a name="non-channel-meetings"></a>非チャネル会議
+
+- レコーディングは、その開始ボタンをクリックしたユーザーの OneDrive for Business の 「**Recordings**」という名前のフォルダーに格納されます。 
+
+  例: <i>レコーディングしたユーザーの OneDrive for Business</i>/**Recordings**
+
+- 外部ユーザーを除き、会議に招集された人々は、レコーディング ファイルに対して、ダウンロード権限が与えられておらず、かつ閲覧のみのアクセスが自動的に許可され、承認されます。
+
+- 会議の所有者とレコーディングを開始した人は、他者への共有とアクセス許可の変更を含む、すべての編集アクセス許可が与えられます。
+
+### <a name="channel-meetings"></a>チャネル会議
+
+`Set-CsTeamsMeetingPolicy -ChannelRecordingDownload`が [許可] (既定) の場合:
+
+- レコーディングは、Teams サイトのドキュメント ライブラリの **Recordings** という名前のフォルダーに格納されます。 
+
+  例: <i>Teams 名 - チャネル名</i>/**Documents**/**Recordings**
+
+- [録画] をクリックしたメンバーには、レコーディングの編集権限があります。
+
+- 他のすべてのメンバーのアクセス許可は、チャネルの SharePoint Online のアクセス許可に基づきます。
+
+`Set-CsTeamsMeetingPolicy -ChannelRecordingDownload` が禁止の場合:
+
+- レコーディングは、Teams サイトのドキュメント ライブラリにある **Recordings/View only** という名前のフォルダーに格納されます。 
+
+  例: <i>Teams 名 - チャネル名</i>/**Documents/Recordings/View only**
+
+- チャネルの所有者には、このフォルダー内のレコーディングに対する完全な編集とダウンロードの権限があります。
+
+- チャネルのメンバーは、閲覧のみのアクセスが可能で、ダウンロードはできません。
+
+特定の会議種別の詳細については、次の表を参照してください:
+
+| 会議の種類  | レコードをクリックしたのは誰ですか?| 記録はどこにありますか? | 誰にアクセス権が与えられるか? R/W、R、または共有  |
+|-------------|-----------------------|------------------------|------------------------|
+|社内関係者との １ 対 １ の通話             |発信者                 |発信者の OneDrive for Business アカウントです。                        |発信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />(同じテナント内の) 受信者には、読み取り専用アクセス権が与えられます。アクセス許可を共有させることはできません。 <br /><br /> (別のテナントの場合) 受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
+|社内関係者との １ 対 １ の通話             |受信者                 |受信者の OneDrive for Business アカウントです。                        |受信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />発信者 (同じテナントの場合) は読み取り専用アクセス許可を与えられます。アクセス許可を共有させることはできません。 <br /><br />(別のテナントの場合) 発信者はアクセス権を持っていません。 発信者に共有する必要があります。|
+|外部通話を使用した １ 対 １ の通話             |発信者                 |発信者の OneDrive for Business アカウントです。                        |発信者は所有者であり、完全なアクセス権限を持っています。<br /> <br />受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
+|外部通話を使用した １ 対 １ の通話             |受信者                 |受信者の OneDrive for Business アカウントです。                        |受信者は所有者であり、完全なアクセス権限を持っています。<br /><br />発信者にはアクセス権がありません。 受信者は発信者に共有する必要があります。|
+|グループ通話                                 |通話のいずれかのメンバー |レコードの OneDrive for Business アカウントをクリックしたグループ メンバー  |レコードをクリックしたメンバーは完全な権限を持っています。 <br /><br /> 同じテナントの他のメンバーには読み取り権限があります。 <br /><br /> 別テナントに所属するグループ メンバーには、何も権限がありません。|
+|アドホック/スケジュールされた会議                    |開催者              |開催者の OneDrive for Business アカウントです。                     |開催者は記録に対して完全な権限を持ちます。 <br /><br /> 会議の他のメンバー全員が読み取りアクセスは可能で、かつダウンロードはできません。|
+|アドホック/スケジュールされた会議                    |その他の会議メンバー   |レコードをクリックした会議メンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 <br /><br />開催者は編集の権利を持ち、共有できます。<br /><br /> その他の全ての会議メンバーは読み取りアクセスが可能で、ダウンロードはできません。|
+|外部ユーザーとのアドホック/予定された会議|開催者              |開催者の OneDrive for Business アカウントです。                     |開催者は記録に対して完全な権限を持ちます。<br /> <br /> 開催者と同じテナントに属するすべての会議メンバーは、読み取りアクセスが可能で、ダウンロードはできません。 <br /><br /> 他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
+|外部ユーザーとのアドホック/予定された会議|その他の会議メンバー   |レコードをクリックしたメンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 開催者は編集の権利を持ち、共有できます。 <br /><br /> 開催者と同じテナントに属するすべての会議メンバーは、読み取りアクセスが可能で、ダウンロードはできません。 <br /><br />他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
+|チャネル会議                            |チャネル メンバー         |Teams における対象チャネルの SharePoint Onine における保管場所                   |Set-CsTeamsMeetingPolicy -ChannelRecordingDownload が Allow (既定) に設定されている場合、[レコード] をクリックしたメンバーにはレコーディングに対する編集権限があります。 他のすべてのメンバーのアクセス許可は、チャネルの SharePoint Online のアクセス許可に基づきます。<Br><Br>Set-CsTeamsMeetingPolicy -ChannelRecordingDownload が Block に設定されている場合、チャネル所有者はレコーディングに対するすべての編集権限があります。しかしチャネル メンバーは読み取りアクセスが可能で、ダウンロードはできません。|
+
+<a name="temp-storage"></a>
+### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>OneDrive for Business および SharePoint Online にアップロードできない時の一時的なストレージ
+
+会議のレコーディングを OneDrive for Business および SharePoint Online にアップロードできない場合は、削除されるまでの 21 日間、Teams から一時的にダウンロードできます。 現時点では、これは削除することを含めて管理者が制御または管理する対象ではありません。
+
+会議のレコーディングは、この一時保管用ストレージ内で、次の理由により終了するかもしれません:
+
+- 非チャネル会議において、ユーザーによるレコーディングが OneDrive for Business セットアップが済んでいないか、または OneDrive for Business が、そのストレージ クオータに到達した場合
+- チャンネル会議において、SharePoint Online サイトが、そのストレージ クオータに到達した場合、またはサイトがまだ提供されていない場合
+- 特定の OneDrive for Business ポリシーと SharePoint Online ポリシーが、既定の IP 範囲外からアップロードすること、などを制限しながら有効である場合
+
+この一時的なストレージによるレコーディングの保持は、チャット メッセージそれ自身から影響を受けます。 そのため、レコーディングにおける任意のオリジナルのチャット メッセージを削除すると、当該ユーザーがそのレコーディングにアクセスし続けることを防ぐことができます。 これに影響を及ぼしうるシナリオには、次の 2 つがあります:
+
+- **ユーザーは手動でチャット メッセージを削除する** - このシナリオでは、オリジナルのメッセージが削除された時、当該ユーザーはもはやレコーディングにアクセスできず、将来に渡ってダウンロードもできなくなります。 しかしながら、レコーディング自体はしばらくの間 (元の 21 日間を超えない期間) Microsoft の内部システム内で保持される場合があります。
+
+- **チャット メッセージのレコーディングがチャット保持ポリシーに基づき削除される** - 一時的なストレージによるレコーディングは、チャット保持ポリシーと直接結び付けられています。 そのため、Teams の一時的ストレージにあるレコーディングは、その既定値において、削除されるまで 21 日間保存され、チャット メッセージが その期限前に自らのポリシーに基づき削除された場合は、レコーディングは同じく削除されます。 その後は、レコーディングを回復する方法は存在しません。
 
 ### <a name="planning-for-storage"></a>ストレージの計画
 
-1 時間のレコーディングのサイズは 400 MB です。 記録されたファイルに必要な容量を理解していること、および Microsoft Stream で使用できる十分なストレージがあることを確認します。  サブスクリプションに含まれている基本ストレージ、および追加のストレージの購入方法については「[Microsoft Stream ライセンスの概要](/stream/license-overview)」をお読みください。
+1 時間のレコーディングのサイズは 400 MB です。 レコーディング ファイルに要求される容量を理解していること、及び OneDrive for Business と SharePoint Online に十分な記憶域が確保されていることを確かめて下さい。  サブスクリプションに含まれる基本のストレージを理解し、追加の記憶域の注文方法を知るために、[OneDrive for Business に既定の記憶域を設定する](/onedrive/set-default-storage-space) そして [SharePoint Online サイトの記憶域の制限を管理する](/sharepoint/manage-site-collection-storage-limits) をご覧ください。
 
 ## <a name="manage-meeting-recordings"></a>会議のレコーディングを管理する
 
-会議のレコーディングは、テナントで所有されるコンテンツとみなされます。 レコーディングの所有者が退職する場合、管理者は、管理者モードで Microsoft Stream のレコーディング ビデオ URL を開くことができます。 管理者は、そのレコーディングの削除、任意のレコーディング メタデータの更新、レコーディング ビデオに対するアクセス許可の変更を実行できます。 [Stream での管理機能](/stream/manage-content-permissions)の詳細をご確認ください。
+会議のレコーディングは、OneDrive for Business および SharePoint Online にビデオ ファイルとして保存され、これらのプラットフォームで利用できる管理とガバナンスのオプションに従います。 詳細については、[SharePoint Online ガバナンスの概要](/sharepoint/governance-overview)、[大企業向け OneDrive for Business ガイド](/onedrive/plan-onedrive-enterprise)、または[中小企業向け OneDrive for Business ガイド](/onedrive/one-drive-quickstart-small-business)を参照してください。
+
+非チャネル会議においては、レコーディングはその開始者の OneDrive for Business に保存され、このためその所有についての取り扱いと、従業員が離職したあとのアイテム保持ポリシーについては、通常通りです [OneDrive for Business と SharePoint Online プロセス](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
+
+## <a name="closed-captions-for-recordings"></a>レコーディングのクローズド キャプション
+
+Teams 会議の録音のクローズド キャプションは、ユーザーが記録時に書き起こしをオンにしている場合にのみ、再生中に利用できます。 管理者は、[ポリシーを介して文字起こしの記録をオン](#turn-on-or-turn-off-recording-transcription)にして、ユーザーが文字起こしを使用して会議を記録できるようにする必要があります。
+
+キャプションは、様々な言語的対応力の視聴者を全て包含するコンテンツを制作することを支援してくれます。所有者として、会議のレコーディングにおいてキャプションを隠すこともできます、けれども会議の文字起こしは、削除しない限り Teams で引き続き利用可能となります。
+
+今日においては、レコーディング ビデオ ファイルのクローズド キャプションは、Teams 会議の文字起こしにリンクされています。 このリンクは、ほとんどの場合、ファイルの有効期間にわたって残りますが、ビデオ ファイルが同じ OneDrive for Business または SharePoint Online サイト内にコピーされた場合に、リンクが壊れる可能性があります。これにより、コピーされたビデオ ファイルでキャプションが使用できなくなります。
+
+Teams の文字起こしとレコーディングの間のリンクに対する今後のいかなる変更も、ここ、およびメッセージ センターの通知で明らかにされます。 今後変更を行うとすれば、作成後 60 日以内のレコーディング ファイルには、会議からの文字起こしをキャプションとして確実に表示させる予定です。
 
 > [!NOTE]
-> レコーディングとユーザー アクセスを管理する方法の詳細については、「[Microsoft Stream でユーザー データを管理する](/stream/managing-user-data)」と「[Microsoft Stream でのアクセス許可とプライバシー](/stream/portal-permissions)」を参照してください。
+> 英語専用のクローズド キャプションがあります (会議の文字起こしは GCC ではまだ利用できません)。
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会議のレコーディングのコンプライアンスと電子情報開示
 
-会議のレコーディングは、Microsoft 365 と Office 365 の C レベルに準拠している Microsoft Stream に保存されます。 Microsoft Streams の会議や通話のレコーディングに関心があるコンプライアンス管理者の電子情報開示要求をサポートするため、Microsoft Teams のコンプライアンス コンテンツ検索機能ではレコーディング完了メッセージを利用できます。 コンプライアンス管理者は、コンプライアンス コンテンツ検索プレビューのアイテムの件名で "レコーディング" をキーワード検索して、組織内の会議や通話のレコーディングを見つけることができます。 コンプライアンス管理者がすべてのレコーディングを表示するための前提条件として、コンプライアンス管理者は Microsoft Stream の設定で管理アクセスを付与されている必要があります。 詳細については、「[Assign Microsoft Stream admins](/stream/assign-administrator-user-role)」(Microsoft Stream で管理者を割り当てる) を参照してください。
+### <a name="ediscovery"></a>電子情報開示
+
+会議のレコーディングは OneDrive for Business と SharePoint Online に保存されます。これは、Microsoft 365 と Office 365 の Tier-D コンプライアンスに準拠しています。 会議や通話のレコーディングに専門的関心を持つコンプライアンス管理者における電子情報開示要求への対応をサポートするため、レコーディングの完了メッセージは Microsoft Teams のコンプライアンス コンテンツ検索機能の中で提供されています。 コンプライアンス管理者は、コンプライアンス コンテンツ検索プレビューのアイテムの件名で "レコーディング" をキーワード検索して、組織内の会議や通話のレコーディングを見つけることができます。
+
+加えて、会議のレコーディング ビデオ ファイルは、SharePoint Online および OneDrive for Business についての電子情報開示検索機能を介してファイルを見つけることができます。
+
+電子情報開示の詳細については、[Microsoft 365 の電子情報開示ソリューション](/microsoft-365/compliance/ediscovery) の記事を参照してください
+
+### <a name="retention-policies"></a>アイテム保持ポリシー
+
+アイテム保持ポリシー 自動化ラベルを適用し、ProgID プロパティを使用して Teams 会議レコーディング ビデオ ファイルだけを抽出ターゲットにできます。 詳細については、「 [Teams 会議レコーディングにアイテム保持ポリシー ラベルを自動的に適用する方法](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)」を参照してください。
+
+### <a name="data-loss-prevention-dlp-policies"></a>データ損失防止 (DLP) ポリシー
+
+DLP ポリシーの会議のレコーディング ファイルへの適用は、ProgID プロパティを利用することでも可能となります。 SharePoint Online と OneDrive for Business のファイルのための DLP ルールにおいて、条件を次のように設定します:
+
+- Document property = *ProgID*
+- Value = *Media.Meeting*
+
+DLP の詳細については、「[データ損失防止についての解説](/microsoft-365/compliance/dlp-learn-about-dlp)」を参照してください。
 
 ## <a name="related-topics"></a>関連項目
 

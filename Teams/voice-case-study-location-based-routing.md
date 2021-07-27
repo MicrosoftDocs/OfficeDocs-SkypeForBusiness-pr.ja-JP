@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso のケース スタディ
+title: 'Teams音声 Contoso のケース スタディ: 場所ベースのルーティング'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams企業向け音声ケース スタディ
+description: 'Teams企業向け音声ケース スタディ: 場所ベースのルーティング'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1ba92794b2ba17cc23e1bca55800c9307707636
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: b9c63cfc4df61303ce5181c09e7e8b949ffb51b1
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786076"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587156"
 ---
 # <a name="contoso-case-study-location-based-routing"></a>Contoso のケース スタディ: Location-Based ルーティング
 
@@ -47,11 +47,11 @@ Contoso は、公衆交換電話網 (PSTN) プロバイダーをバイパスし�
 
 **元のデプロイ**
 
-![状態の前を示す図](media/voice-case-study-5.png)
+![状態の前を示す図。](media/voice-case-study-5.png)
 
 **直接ルーティングを使用したデプロイ**
 
-![状態の前を示す図](media/voice-case-study-6.png)
+![状態の前を示す図 2。](media/voice-case-study-6.png)
 
 
 ## <a name="configuration"></a>構成: 

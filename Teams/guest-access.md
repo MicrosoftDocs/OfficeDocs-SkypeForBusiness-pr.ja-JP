@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: d927c601380223b3381a65e09549a632ed32903e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598536"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536833"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
@@ -40,7 +40,7 @@ Teams のゲストは、Microsoft 365 と同様のコンプライアンスと監
 ゲストのエクスペリエンスには、仕様上の制限があります。 ゲストが Teams でできることとできないことの完全なリストについては、「[チーム メンバーとゲスト機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)」をご覧ください。
 
 > [!IMPORTANT]
-> ゲストは、共存アップグレード モードの Teams の組織全体の設定に従います。 これは変更できません。
+> ゲストは、共存アップグレード モードの Teams の組織全体の設定に従います。これは変更できません。
 
 ゲスト アクセスを設定する方法については、「[チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。 
 
@@ -72,10 +72,7 @@ Teams では、ゲストは明確に特定されます。 ゲスト の名前に
 
 ## <a name="licensing-for-guest-access"></a>ゲスト アクセスのライセンス
 
-ゲスト アクセスは、Microsoft 365 Business Standard、Microsoft 365 Enterprise、Microsoft 365 Education のすべてのサブスクリプションに含まれています。 追加の Microsoft 365 ライセンスは不要です。 Teams では追加することができるゲストの数に制限はありません。 ただし、テナントに追加できるゲストの総数は、Azure AD の有料機能によって制限される場合があります。 詳細については、「[Azure AD External Identities の課金モデル](/azure/active-directory/b2b/licensing-guidance)」をご覧ください。
-
-> [!NOTE]
-> Exchange Online プラン 2 などのスタンドアロンの Microsoft 365 サブスクリプション プランのみを持っている組織内のユーザーは、Teams によって組織に属しているものと見なされるため、その同じ組織へのゲストとして招待されることはできません。 これらのユーザーが Teams を使用する場合は、Microsoft 365 Business Standard、Office 365 Enterprise、または Office 365 Education サブスクリプションが割り当てられる必要があります。 
+ゲスト アクセスは、Microsoft 365 Business Standard、Microsoft 365 Enterprise、Microsoft 365 Education のすべてのサブスクリプションで使用できます。 追加の Microsoft 365 ライセンスは不要です。 [Azure Active Directory for External Identities の課金モデル](/azure/active-directory/b2b/licensing-guidance) は、Microsoft 365 のゲストに適用されます。 ゲストとして招待できるのは、組織外の人だけです。
 
 ## <a name="guest-access-reviews"></a>ゲスト アクセス レビュー
 

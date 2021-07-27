@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボードを有効にし、使用する方法と、通話品質の概要レポートを取得する方法について学習します。
-ms.openlocfilehash: c71cb25732a99f207467a988ad0db54c959d15f4
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8c720a9ef99537be517f29a8b558db8912ea6a75
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52254465"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596600"
 ---
-# <a name="set-up-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) を設定する
+# <a name="how-to-set-up-call-quality-dashboard"></a>通話品質ダッシュボードを設定する方法
 
 で Microsoft 通話品質ダッシュボード (CQD) を開 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) きます (管理者の資格情報でサインインします)。 または、管理センターの [Teamsに移動し、[通話品質ダッシュボード **] を選択します**。 
 
@@ -51,7 +51,7 @@ CQD では、Microsoft Teams、Skype for Business Online、および 2019 年の
 管理者以外のユーザー (サポート エンジニアやヘルプデスク エージェントなど) に通話品質ダッシュボードを使用する場合は、これらのユーザーに次のいずれかのロールを割り当てることができます。これにより、CQD にアクセスできます。 
 
 
-|  |レポートを表示する  |EUII フィールドを表示する  |レポートを作成する  |アップロードの作成  |
+|&nbsp;  |レポートを表示する  |EUII フィールドを表示する  |レポートを作成する  |アップロードの作成  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |グローバル管理者     |はい         |はい         |はい         |はい         |
 |Teams 管理者     |はい         |はい         |はい         |はい         |
@@ -87,7 +87,7 @@ CQD では、Microsoft Teams、Skype for Business Online、および 2019 年の
 詳細[については、「Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)」を参照してください。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams の通話品質の向上と監視](monitor-call-quality-qos.md)
 

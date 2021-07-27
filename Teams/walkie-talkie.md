@@ -18,18 +18,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f86d40772eb067a561708c6170ef2354bae521b
-ms.sourcegitcommit: 05411575d07d3eadc79d872d1cf81b36aae25621
+ms.openlocfilehash: c1e7391163ec41d385b99cab4ae6d135892284e2
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52479074"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536733"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
 Teams のトランシーバー アプリは、Teams にインスタント プッシュツートーク (PTT) 通信を提供し、Android で利用できるようになりました。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルでトランシーバーに接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ相互に通信できます。
 
-Teams の Walkie Talkie を使用すると、フロントライン の作業員は、バルクラジオを持ち歩く必要なく、使い慣れた PTT エクスペリエンスと安全に通信できます。また、Walkie Talkie は WiFi や携帯電話のインターネット接続でどこからでも動作します。
+Teams で Walkie Talkie を使用すると、フロントライン ワーカーは、バルク ラジオを持ち歩く必要なく、使い慣れた PTT エクスペリエンスと安全に通信できます。また、Walkie Talkie は WiFi または携帯電話のインターネット接続とどこでも動作します。
 
 ## <a name="getting-started"></a>はじめに
 
@@ -96,7 +96,7 @@ Walkie Talkie からの予想されるデータ使用量は、音声の送受信
 ## <a name="further-information"></a>詳細情報
 
 - ITAdmins は、アプリ ポリシーを通じてトランシーバーを使用しているユーザーの制御を維持できます。
-- Frontline worker がモバイル データを使用して Teams 経由で通信している場合、Walkie Talkie は同じ方法を使用します。
+- フロントライン ワーカーがモバイル データを使用して Teams 経由で通信している場合、Walkie Talkie は同じ方法を使用します。
 - トランシーバーは、低帯域幅の状況、またはスマートフォンが接続されて機能している状況でうまく機能するはずです。 接続がまったくない場合、トランシーバーは機能しません。
 
 エンドユーザー エクスペリエンスの詳細については、以下を参照してください。

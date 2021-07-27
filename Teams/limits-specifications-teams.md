@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の制限事項と仕様
-author: SerdarSoysal
-ms.author: serdars
+author: microsoftheidi
+ms.author: heidip
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: abff04e9fd51f0d7e399b8619442dbf9e3070c43
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: f28e9f1b0fcc4d8855b0c053dbd71ee30cf58747
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345723"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506346"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -120,14 +120,14 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 
 |機能     | 上限 |
 |------------|---------------|
-|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 1000。GCC、GCCH、DoD は含まれますが、A1 (300) は含まれません。 **表示専用** では、開催者が E3/E5/A3/A5 SKU および Government (GCC、GCC High、DoD) のライセンスを持っている会議に、最大 2 万人の聴取のみの参加者が参加できます。 「[表示専用エクスペリエンス](view-only-meeting-experience.md)」の詳細情報。<sup>1,2</sup>|
+|会議に参加できるユーザー数 (チャットして電話をかけることができる)  | 1000。GCC、GCCH、DoD は含まれますが、A1 (300) は含まれません。 **表示専用** では、開催者が E3/E5/A3/A5 SKU および Government (GCC、GCC High、DoD) のライセンスを持っている会議に、最大 2 万人の聴取のみの参加者が参加できます。 閲覧限定のエクスペリエンスは、ウェビナーでも間もなく利用できるようになります。 「[表示専用エクスペリエンス](view-only-meeting-experience.md)」の詳細情報。<sup>1,2</sup>|
 |チャットから開始されるビデオまたは音声通話に参加できるユーザー数 | 20 |
 |PowerPoint ファイルの最大サイズ | 2GB|
 |Teams は[会議の記録](cloud-recording.md)を保持しますが、これは Microsoft Stream にはアップロードされず、ローカルのダウンロード用です | 20 日間 |
   
-<sup>1</sup> 大規模な会議で最高のエクスペリエンスを実現するには、Teams デスクトップ クライアントまたは Teams モバイル クライアントを使用することをお勧めします。
+<sup>1</sup> 大規模な会議、ウェビナー、ライブ イベントで最適なエクスペリエンスを実現するために、Microsoft では Teams デスクトップ クライアントまたは Teams モバイル クライアントの使用をお勧めします。
   
-<sup>2</sup> 大規模な会議では、発表者が Teams デスクトップ クライアントを使用することをお勧めします。 大規模な会議の開催に関するその他のヒントについては、「[大規模なTeams 会議のベスト プラクティス](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)」を参照してください。
+<sup>2</sup> 大規模な会議、ウェビナー、ライブ イベントの発表者は、Teams デスクトップ クライアントを使用する必要があります。 大規模な会議の開催に関するその他のヒントについては、「[大規模なTeams 会議のベスト プラクティス](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)」を参照してください。
   
 > [!NOTE]
 > ブレークアウト ルームは、出席者が300人未満の会議でのみ作成できます。 さらに、会議でブレークアウト ルームを作成すると、会議の出席者数が自動的に 300 人に制限されます。 300 人を超える参加者を予定している会議で、ブレークアウト ルームを初期設定しないように、エンドユーザーにアドバイスしてください。 大規模なチーム会議の詳細情報については、ガイダンス[大規模な Teams 会議のベスト プラクティス](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)をエンドユーザーと共有してください。 

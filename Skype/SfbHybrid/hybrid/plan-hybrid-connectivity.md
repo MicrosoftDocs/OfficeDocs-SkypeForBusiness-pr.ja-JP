@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsオンラインSkype for Businessハイブリッド接続を実装Skype for Business計画します。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 277e592df24a03f50d09ebca21bad0211e6c8c57
-ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
+ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53437654"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509828"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>ハイブリッド接続を計画して、Skype for Business ServerとTeams
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 このトピックを参照して、Skype for Business Server と Teams (または Skype for Business Online から 2021 年 7 月 31 日までのハイブリッド接続を計画する方法について説明します。 オンプレミス環境をクラウドに移動するための最初のステップは、ハイブリッド接続のセットアップです。
 

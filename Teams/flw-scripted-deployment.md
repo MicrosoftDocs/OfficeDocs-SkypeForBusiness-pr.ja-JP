@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed657590e024104e773b7a96b785b3b3db0ccbfc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 384c7d98dbbae5fa1c471130f8699c9c570c79ac
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120748"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536823"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>現場担当者のために大規模に Teams をプロビジョニングする方法
 
@@ -59,7 +59,7 @@ Microsoft Teams に多数のユーザーをすばやく登録し、作業を効�
 1. **環境を設定する**
     1. サンプルの PowerShell スクリプトとドキュメントが含まれている GitHub レポジトリからダウンロードする
     1. ローカル環境を構成する
-    1. 資格情報を設定する
+    1. 資格情報のセットアップ
     1. PowerShell モジュールと環境変数を構成する
 1. **チームを作成して設定する**
     1. チームを作成する
@@ -99,7 +99,7 @@ Microsoft Teams に多数のユーザーをすばやく登録し、作業を効�
 
 例: .\SetConfig.ps1 -tenantName contoso.onmicrosoft.com -rootPath "C:\data\source\FLWTeamsScale"
 
-### <a name="setup-credentials"></a>資格情報を設定する
+### <a name="set-up-credentials"></a>資格情報のセットアップ
 
 > [!IMPORTANT]
 > これらのスクリプトでの資格情報の管理方法は、使用環境に適していない場合があります。要件を満たすために簡単に変更することができます。 会社の基準と慣行に常に準拠して、サービス アカウントと管理されている ID をセキュリティで保護します。
@@ -138,7 +138,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 チームは、組織内のユーザー、コンテンツ、ツールの集合です。 ほとんどの現場担当者中心の組織では、チームを実際の場所に固定することを推奨します。 たとえば、次の各チームがあります。
 
-- ストア
+- 店舗
 - 配布センター
 - 製造工場
 - 病院
@@ -177,17 +177,17 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 ## <a name="create-teams-policies"></a>チーム ポリシーを作成する
 
-管理者は、Microsoft Teams でチーム ポリシーを使用して、組織内のユーザーが閲覧できる内容や実行できる操作を制御できます。 たとえば、多数のユーザーを登録するとき、エンド ユーザー エクスペリエンスを簡素化するために、デスクトップまたは Web ブラウザーの左のレールにピン留めするアプリケーション、またはモバイル デバイスの下部バーにピン留めするアプリケーションを制御できます。 これらのポリシーには PowerShell で作成できるものと、Teams 管理コンソールで手動で作成する必要があるものがあります。
+管理者は、Microsoft Teams でチーム ポリシーを使用して、組織内のユーザーが閲覧できる内容や実行できる操作を制御できます。 たとえば、多数のユーザーを登録するとき、エンド ユーザー エクスペリエンスを簡素化するために、デスクトップまたは Web ブラウザーの左のレールにピン留めするアプリケーション、またはモバイル デバイスの下部バーにピン留めするアプリケーションを制御できます。 これらのポリシーには PowerShell で作成できるものと、Teams 管理センターで手動で作成する必要があるものがあります。
 
 *ベスト プラクティス ディスカッション*: 次の各ポリシーについて、実際には 2 つのポリシーを作成することを選択しています。1 つは現場担当者用で、もう 1 つは 現場マネージャー用です。 必要な数だけ作成できます。 ほとんどのお客様にとって、最初に各グループに同じ設定を適用した場合でも、2 つから開始することをお勧めします。 Teams での経験が増えるにつれて、彼らの経験をさらに差別化することを選択できます。すでに作成されている 2 つの個別のポリシーがあると、それがさらに簡単になります。
 
-### <a name="create-teams-message-policies"></a>チームのメッセージング ポリシーを作成する
+### <a name="create-teams-messaging-policies"></a>Teams のメッセージング ポリシーを作成する
 
 メッセージング ポリシーを使用して、Microsoft Teams のユーザーが、チャットおよびチャネルのどのメッセージング機能を使用できるかを制御します。
 
 *ベスト プラクティス ディスカッション*: 自動的に作成される既定のグローバル ポリシーを使用できますが、現場マネージャーと現場担当者にロックダウンされたシンプルで差別化されたエクスペリエンスを提供するために、以下の手順を使用してカスタム ポリシーを作成することを選択しました。
 
-#### <a name="steps-to-create-teams-message-policies"></a>チームのメッセージング ポリシーを作成する手順
+#### <a name="steps-to-create-teams-messaging-policies"></a>Teams のメッセージング ポリシーを作成する手順
 
 1. リポジトリの [scripts] フォルダーで、**TeamsMessagingPolicies.csv** ファイルを見つけます。
 1. 組織固有の情報を使用して、**TeamsMessagingPolicies.csv** ファイルを更新します。 さまざまなオプションのいくつかの詳細については、[こちら](./messaging-policies-in-teams.md#messaging-policy-settings)をご覧ください。
@@ -201,11 +201,11 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 - Teams をカスタマイズして、ユーザーにとって最も重要なアプリを強調表示します。 ピン留めするアプリを選択し、表示する順序を設定します。 アプリをピン留めすると、サード パーティ製のアプリや組織内の開発者が作成したアプリなど、組織内のユーザーが必要とするアプリを提示できます。
 - ユーザーがアプリを Teams にピン留めできるかどうかを制御します。
 
-アプリは、アプリ バーにピン留めされます。 このバーは、Teams デスクトップ クライアントの横側および Teams モバイル クライアント (iOS および Android) の下側に表示されます。
+アプリは、アプリ バーにピン留めされます。このバーは、Teams デスクトップ クライアントの横および Teams モバイル クライアント (iOS および Android) の下側に表示されます。
 
 |Teams デスクトップ クライアント  |         |Teams モバイル クライアント  |
 |---------|---------|---------|
-|![*アプリ* バーにアプリがピン留めされた Teams デスクトップ クライアントのスクリーンショット。](media/FLW-Teams-Desktop-Client.png)         |         |![*下部の* バーにアプリがピン留めされた Teams デスクトップ クライアントのスクリーンショット。](media/FLW-Teams-Mobile-Client.png) |
+|![アプリ バーにアプリがピン留めされた Teams デスクトップ クライアントのスクリーンショット。](media/flw-teams-desktop-client.png)         |         |![下部の バーにアプリがピン留めされた Teams モバイル クライアントのスクリーンショット。](media/flw-teams-mobile-client.png) |
 
 *ベスト プラクティス ディスカッション*: アプリの設定ポリシーは、Microsoft Teams 管理センターで管理します。 PowerShell を使用して作成することはできません。 グローバル (組織全体の既定) ポリシーを使用することも、カスタム ポリシーを作成してユーザーに割り当てることもできます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に割り当てられます。 ここでは、現場担当者と現場マネージャーに 2 つの新しいポリシーを作成し、多数のユーザーの同時登録を容易にする、よりシンプルで合理的なエクスペリエンスを提供します。 ビジネスニーズに合わせて、エクスペリエンスをカスタマイズすることができます。
 
@@ -215,23 +215,26 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[ポリシーの設定]** の順に移動します。
 2.  **[追加]** をクリックします。  
-3. ポリシーの名前と説明を入力します。 例: **現場マネージャー アプリのセットアップ ポリシー**。
-![現場マネージャー アプリのセットアップ ポリシーの画像。](media/FLW-FLM-App-Setup-Policy.png)
+3. ポリシーの名前と説明を入力します。 たとえば、現場マネージャー アプリのセットアップ ポリシーです。
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="現場マネージャー アプリのセットアップ ポリシーの名前と説明の例のスクリーンショット":::
 
 4. **[カスタム アプリのアップロード]** をオフにします。
 5. **[ユーザーのピン留めを許可]** をオフにします。
-![ユーザーのピン留めを許可の切り替えの画像。](media/FLW-Allow-User-Pinning.png)
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="[ユーザーのピン留めを許可] 設定のスクリーンショット":::
 
-6. 一覧表示されていない場合は、**Shifts** アプリを追加します。 **Shifts** の詳細については、[ここ](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)をクリックしてください。
-![[追加] ボタンの横に Shifts アプリが表示されているピン留めされたアプリ画面を追加します。](media/FLW-Add-Pinned-Apps.png)
+6. 一覧表示されていない場合は、**Shifts** アプリを追加します。 Shifts の詳細については、[ここ](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)をクリックしてください。
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Shifts アプリの追加ボタンを表示する、[ピン留めされたアプリを追加] 画面のスクリーンショット":::
 
-7. 通話が表示されている場合は削除します。 注: この機能を削除しても、ユーザーに対して無効になることはありませんが、アプリ バーに表示されないので、エンド ユーザー エクスペリエンスが簡素化されます。
+7. 通話が表示されている場合は削除します。この機能を削除しても、ユーザーに対して無効になることはありませんが、アプリ バーに表示されないので、エンド ユーザー エクスペリエンスが簡素化されます。
 8. アプリを次の順序で配置して、Teams アプリ バーでの順序を指定し、 **[保存]** をクリックします。
-    1. アクティビティ
-    1. チャット
-    1. Teams
-    1. カレンダー
-    1. ![マネージャー アプリ リストのスクリーンショットを順番に](media/FLW-Manager-Pinned-Apps.png)シフトします。
+
+    - アクティビティ
+    - チャット
+    - Teams
+    - カレンダー
+    - Shifts
+
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="現場マネージャーが順番に表示されたアプリのスクリーンショット":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>現場担当者アプリのセットアップ ポリシーを作成する
 
@@ -239,22 +242,25 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[ポリシーの設定]** の順に移動します。
 2.  **[追加]** をクリックします。
-3. ポリシーの名前と説明を入力します。 例: **現場担当者アプリのセットアップ ポリシー**。
-![現場担当者アプリのセットアップ ポリシーの画像。](media/FLW-FLW-App-Setup-Policy.png)
+3. ポリシーの名前と説明を入力します。 たとえば、現場担当者アプリのセットアップ ポリシーです。
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="現場担当者アプリのセットアップ ポリシーの名前と説明の例のスクリーンショット":::
 
 4. **[カスタム アプリのアップロード]** をオフにします。
 5. **[ユーザーのピン留めを許可]** をオフにします。
-![ユーザーのピン留めを許可の切り替えの画像。](media/FLW-Allow-User-Pinning.png)
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="[ユーザーのピン留めを許可] 設定のスクリーンショット":::
 
-6. 一覧表示されていない場合は、**Shifts** アプリを追加します。 **Shifts** の詳細については、ここをクリックしてください。
-![[追加] ボタンの横に Shifts アプリが表示されているピン留めされたアプリ画面を追加します。](media/FLW-Add-Pinned-Apps.png)
+6. 一覧表示されていない場合は、**Shifts** アプリを追加します。 Shifts の詳細については、[ここ](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)をクリックしてください。
 
-7. 会議と通話が表示されている場合は削除します。 注: これらの機能を削除しても、ユーザーに対して無効になることはありませんが、アプリ バーに表示されないので、エンド ユーザー エクスペリエンスが簡素化されます。
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Shifts アプリの追加ボタンを表示する、[ピン留めされたアプリを追加] 画面のスクリーンショット":::
+
+7. 会議と通話が表示されている場合は削除します。これらの機能を削除しても、ユーザーに対して無効になることはありませんが、アプリ バーに表示されないので、エンド ユーザー エクスペリエンスが簡素化されます。
 8. アプリを次の順序で配置して、Teams アプリ バーでの順序を指定し、 **[保存]** をクリックします。
-    1. アクティビティ
-    1. チャット
-    1. Teams
-    1. ![ワーカー アプリ リストのスクリーンショットを順番に](media/FLW-Worker-Pinned-Apps.png)シフトします。
+    - アクティビティ
+    - チャット
+    - Teams
+    - Shifts
+
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="現場担当者が順番に表示されたアプリのスクリーンショット":::
 
 ### <a name="create-teams-app-permission-policies"></a>Teams アプリのアクセス許可ポリシーを作成する
 
@@ -268,12 +274,13 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[アクセス許可ポリシー]** の順に移動します。
 2.  **[追加]** をクリックします。
-![Microsoft、サード パーティ、テナントのアプリのセクションを含む、[アプリのアクセス許可ポリシーの追加] ページを示します。](media/FLW-add-app-permission-policy.png)
 
-3. ポリシーの名前と説明を入力します。 例: 現場マネージャー アプリのアクセス許可ポリシー。
-4. [Microsoft アプリ] の下で、**[すべてのアプリを許可]** を選択します。
-5. [サード パーティ製のアプリ] の下で、[**すべてのアプリを許可**] を選択します。
-6. [テナント アプリ] の下で、**[すべてのアプリを許可]** を選択します。
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="アプリのアクセス許可ポリシーの追加ページのスクリーンショット":::
+
+3. ポリシーの名前と説明を入力します。 たとえば、現場マネージャー アプリのアクセス許可ポリシーです。
+4.  **[Microsoft アプリ]** の下で、**[すべてのアプリを許可]** を選択します。
+5.  **[サード パーティ製のアプリ]** の下で、**[すべてのアプリを許可]** を選択します。
+6. **[カスタム アプリ]** の下で、**[すべてのアプリを許可]** を選択します。
 7.  **[保存]** をクリックします。
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>現場担当者アプリのアクセス許可ポリシーを作成する
@@ -282,12 +289,13 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[アクセス許可ポリシー]** の順に移動します。
 2.  **[追加]** をクリックします。
-![Microsoft、サード パーティ、テナントのアプリのセクションを含む、[アプリのアクセス許可ポリシーの追加] ページを示します。](media/FLW-add-app-permission-policy.png)
 
-3. ポリシーの名前と説明を入力します。 例: 現場担当者アプリのアクセス許可ポリシー。
-4. [Microsoft アプリ] の下で、**[すべてのアプリを許可]** を選択します。
-5. [サード パーティ製のアプリ] の下で、**[すべてのアプリをブロック]** を選択します。
-6. [テナント アプリ] の下で、**[すべてのアプリを許可]** を選択します。
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="アプリのアクセス許可ポリシーの追加ページのスクリーンショット":::
+
+3. ポリシーの名前と説明を入力します。 たとえば、現場担当者アプリのアクセス許可ポリシーです。
+4.  **[Microsoft アプリ]** の下で、**[すべてのアプリを許可]** を選択します。
+5.  **[サード パーティ製のアプリ]** の下で、**[すべてのアプリをブロック]** を選択します。
+6. **[カスタム アプリ]** の下で、**[すべてのアプリを許可]** を選択します。
 7.  **[保存]** をクリックします。
 
 ## <a name="users-and-security-groups"></a>ユーザーとセキュリティ グループ
@@ -305,7 +313,7 @@ Teams で大量のユーザーと共同作業するには、最初に Azure AD �
 
 1. リポジトリの [scripts] フォルダーで、**Users.csv** ファイルを見つけます。
 1. 組織固有の情報を使用して、**Users.csv** ファイルを更新します。
-    1. 既定で、提供されるスクリプトは、初回ログイン時に変更する必要のある一時的なパスワードを持つユーザーを作成します。 既定のパスワードを使用しない場合は、**CreateUsers.ps1** スクリプトを編集して要件に合わせます。
+    1. 既定で、提供されるスクリプトは、初回サインイン時に変更する必要のある一時的なパスワードを持つユーザーを作成します。 既定のパスワードを使用しない場合は、**CreateUsers.ps1** スクリプトを編集して要件に合わせます。
     1. SecurityGroup フィールドを更新して、前に作成した適切な名前を反映させます。
 1. リポジトリの [scripts] フォルダーで、**SecurityGroups.csv** ファイルを見つけます。
 1. 組織固有のセキュリティ グループ情報を使用して、**SecurityGroups.csv** ファイルを更新します。
@@ -354,11 +362,11 @@ Azure AD P1 以上のライセンスを取得した場合、割り当て済み�
 
 ## <a name="test-and-validate"></a>テストと検証
 
-### <a name="login-to-teams-with-a-test-user"></a>テスト ユーザーで Teams にログインする
+### <a name="sign-in-to-teams-with-a-test-user"></a>テスト ユーザーで Teams にログインする
 
 すべての手順を完了したので、完了した作業を確認します。
 
-1. 作成されたユーザーには、CreateUsers.ps1 内の初期パスワードが設定されます。これは、最初のログイン時に変更する必要があります。
+1. 作成されたユーザーには、CreateUsers.ps1 内の初期パスワードが設定されます。これは、最初のサインイン時に変更する必要があります。
 1. Teams のルックアンドフィールが期待どおりであることを確認します。 そうでない場合、**[チームポリシーを作成する]** と **[ユーザーにチーム ポリシーを割り当てる]** のセクションを確認してください。
 1. ユーザーが正しいチームに属していることを確認します。 そうでない場合、**[ユーザーを作成し設定する]** と **[チームにユーザーを割り当てる]** のセクションを確認してください。
 
@@ -379,7 +387,7 @@ Azure AD P1 以上のライセンスを取得した場合、割り当て済み�
 
 ## <a name="further-reading"></a>参考資料
 
-- [新しいチーム チャネル (Powershell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [新しい Teams メッセージング ポリシー (Powershell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
+- [新しいチーム チャネル (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
+- [新しい Teams メッセージング ポリシー (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
 - [Microsoft Teams でユーザーにライセンスを割り当てる](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
 - [Office 365 PowerShell を使用してライセンスやユーザー アカウントを割り当てる](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

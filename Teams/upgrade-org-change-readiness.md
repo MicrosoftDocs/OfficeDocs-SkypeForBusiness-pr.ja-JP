@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6131883d4d3711b99006b3b54d51dd50ee37daa
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 3e18ecaf8d4149542008d2e1bba719d2ddaf7da6
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282324"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587276"
 ---
 # <a name="assess-organizational-change-readiness"></a>組織的な変更の準備状況を評価する
 
@@ -46,7 +46,7 @@ ms.locfileid: "52282324"
 > [!Note]
 > 以下に示す評価アクティビティは、組織内の変更イニシアティブに適応できます。 プロジェクトの範囲に基づいて質問に答えるだけです。 次の説明では、"新しいソリューション" を音声通話、電話会議、または電話会議からSkype for BusinessにTeams。
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>組織が変わると、組織の文化は何ですか?</li><li>新しいテクノロジでユーザーの作業方法を最適化する方法</li><li>作業方法を変更するために特別な注意が必要なユーザーはいますか?</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>次のガイダンスと関連するアクティビティを使用して、組織のユーザー準備プロファイルをキャプチャします。</li></ul>|
@@ -106,7 +106,7 @@ Microsoft Teamsは、包括的なコミュニケーションとコラボレー�
 
 アプリケーションを使い切Teams、両方のシナリオを含むチームワーク戦略を構築し、ユーザーがチームワークTeams理解を支援します。
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>ユーザーによるチームワークの導入を加速し、Teamsからのアップグレードを容易にするために、どのような関連するチームワーク シナリオを採用Skype for Business。</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>以下のサンプルを使用して、独自のチームワーク シナリオを作成します。 アップグレード ブックに [ドキュメントを作成します](https://aka.ms/upgradesuccesskit)。</li><li>その他のシナリオと例については、「生産性向上ライブラリ」を [参照してください。](https://www.microsoft.com/microsoft-365/success/)</li></ul>|

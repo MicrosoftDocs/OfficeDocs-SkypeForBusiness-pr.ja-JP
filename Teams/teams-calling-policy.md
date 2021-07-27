@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の発信通話制限ポリシー
+title: 'Microsoft Teamsの呼び出しポリシー: 通話と転送機能'
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -20,15 +20,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e469cc183134bab35855e83257126029ce78a8cc
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51653949"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53596595"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams の発信通話制限ポリシー
-===================================
+#  <a name="calling-and-call-forwarding-in-teams"></a>Teams での通話と転送
 
 このMicrosoft Teams呼び出しポリシーは、ユーザーが使用できる通話と呼び出しの転送機能を制御します。 通話ポリシーは、ユーザーがプライベート通話の発信、他のユーザーまたは外部電話番号への着信の転送または同時呼び出しの使用、ボイスメールへの通話のルーティング、通話グループへの呼び出しの送信、着信および発信通話に委任を使用できるかどうかを決定します。
 
@@ -104,8 +103,8 @@ ms.locfileid: "51653949"
 
 この設定により、PSTN 発信者が保留にされた場合に、保留音をオンまたはオフにできます。 既定ではオンになっています。 この設定は、コール パークと上司の代理人機能には適用されません。現在は PowerShell 経由でのみ使用できます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)
+[Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
 [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)

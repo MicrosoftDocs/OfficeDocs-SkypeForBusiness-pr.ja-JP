@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81a20980530f28f20fb48fa06a2068088dc1a305
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 8fc726dbe05358844c23a3ee90a8885e8b97f54d
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282524"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586966"
 ---
 # <a name="enlist-your-project-stakeholders"></a>プロジェクト関係者に協力を求める
 
@@ -40,7 +40,7 @@ ms.locfileid: "52282524"
 
 必要に応じて、運営委員会を作成できます。 大規模なプロジェクトや複雑なプロジェクトでは、"料理人が多すぎる" 結果として関係者グループ間が切断される場合があります。 これらのプロジェクトでは、運営委員会を作成できます。 運営委員会は、意思決定を推進し、戦略的な監督を提供し、プロジェクトのイニシアティブをサポートし、必要に応じてブロックを削除する責任を負います。 運営委員会の実装の詳細については、運営委員会ガイド [を参照してください](./envision-steering-committee-complete-guide.md)。
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント | <ul><li>Whoプロジェクトの利害関係者チームとして適切な人はいますか?</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>プロジェクトの範囲を検討し、関連する利害関係者を割り当てる。</li><li>次の表をガイドラインとして使用しますが、この一覧がすべて含まれるという点に注意してください。<br><strong>ヒント</strong><br>責任ある責任を負う情報に基づいた [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) マトリックスを作成して、責任を負うユーザーと、単にプロジェクトの特定の領域で情報を得る必要があるユーザーをさらに区別します。</li> |
@@ -63,7 +63,7 @@ ms.locfileid: "52282524"
 | テレフォニー リード | テレフォニーの設計と実装に関する分析情報を提供します |
 | サービス所有者/品質チャンピオン | ユーザー エクスペリエンスの品質Teams、すべてのユーザーの操作を所有します。 |
 | デスクトップとデバイスのリード | クライアント、デバイス、デスクトップ アプリへの入力を提供します |
-| IT Pro/テナント管理者 | 管理センターの構成がMicrosoft 365準備と準備が完了します。 |
+| IT Pro/テナント管理者 | ネットワークの準備と構成Microsoft 365 管理センターを確保します。 |
 | サポート/ヘルプ デスク リード | サポート デスクの準備を管理します |
 | Change Management Lead | ユーザー変更管理と導入プログラムを監視する |
 | マーケティング リード | コミュニケーション キャンペーンの設計と実装 |

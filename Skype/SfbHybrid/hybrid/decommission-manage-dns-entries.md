@@ -17,20 +17,47 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: オンプレミス環境を使用停止する際に DNS エントリを管理するSkype for Business手順。
-ms.openlocfilehash: bd8f3873ab28ef8e0b7ade86ffc95b4d5bb4e4cb
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 77011f0680c0a47e28b5cd44c2be2ff6bb62f1a8
+ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53458996"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53482400"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>DNS エントリを更新して、組織がすべてのユーザーのみTeamsする
 
-以前にオンプレミスの展開が Skype for Business Server または Lync Server に存在していた組織には、オンプレミスの展開を指す DNS エントリSkype for Businessがあります。 これらのレコードは、組織にオンプレミスのユーザーが含まれる場合Skype for Businessです。 ただし、組織にオンプレミスのユーザーまたは Lync Server ユーザー Skype for Businessがなくなったら、これらのレコードは不要になります。 実際、オンプレミスから Teams への移行を完了する一環として、これらのレコードを更新して、Microsoft 365または削除する必要があります。 Microsoft は、この手順を実行できません。
+以前にオンプレミスの展開が Skype for Business Server または Lync Server に存在していた組織には、オンプレミスの展開を指す DNS エントリSkype for Businessがあります。 これらのレコードは、組織にオンプレミスのユーザーが含まれる場合Skype for Businessです。 ただし、組織にオンプレミスの Skype for Business または Lync Server ユーザーが存在しなくなった場合、これらの元のレコードはオンプレミス展開では不要になったので、これらの DNS エントリを更新して、オンプレミスから Teams への移行の一環として **Microsoft 365 (** または場合によっては削除) をポイントする必要があります *。Microsoft* はこの手順を実行できません。
 
-TeamsOnly をテナント全体に付与しようとすると、Teamsは DNS をチェックして、組織にこれらの DNS レコードが存在するかどうかを確認します。 レコードが見つかり、Microsoft 365 以外を指している場合は、テナント共存モードを TeamsOnly に変更しようとすると、設計上失敗します。 この設計は、オンプレミスユーザーを持つハイブリッド組織が、誤って TeamsOnly モードをテナントに適用するのを防ぐためです。これは、オンプレミスの Skype for Business ユーザー (Teams または Skype for Business を使用するかどうか) のフェデレーションを壊す可能性があります。
+テナント全体に TeamsOnly を付与しようとすると、Teams は DNS をチェックして、組織内の Microsoft 365 検証済みドメインに対してこれらの DNS レコードが存在Microsoft 365判断します。 レコードが見つかり、Microsoft 365 以外を指している場合は、テナント共存モードを TeamsOnly に変更しようとすると、設計上失敗します。 これにより、オンプレミスユーザーを持つハイブリッド組織が TeamsOnly モードをテナントに誤って適用するのを防ぐのは、組織内のすべてのオンプレミス Skype for Business ユーザー (Teams または Skype for Business を使用するかどうか) のフェデレーションが壊れるためです。
 
-さらに、これらのレコードを更新して、テナント全体に TeamsOnly を付与する必要があります。
+
+## <a name="how-to-identify-stale-dns-records"></a>古い DNS レコードを識別する方法
+
+組織がすべての Teams のみになるのを妨げる DNS レコードを識別するには、Teams 管理センターを使用して共存モードを TeamsOnly に変更できます。 [アップグレード]**の [組織全体の**  ->  **設定Teams移動します**。 組織が [のみ] になTeams DNS レコードは、エラー メッセージに含まれます。  DNS レコードが見つからない場合、組織の共存モードは TeamsOnly に変更されます。   または、PowerShell を使用Teams同じ操作を実行できます。
+
+   ```PowerShell
+   Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global
+   ```
+
+## <a name="dns-records-to-be-updated"></a>更新する DNS レコード
+
+組織でオンプレミス または Lync Server でホストされているユーザーが存在しなくなったSkype for Business Server、次の操作を行う必要があります。
+
+- 以下のSkype for Business DNS レコードの一覧を更新して、Microsoft 365展開ではなく、 をポイントします。 複数の SIP ドメインがある場合は、認証済みドメインである SIP ドメインごとにMicrosoft 365必要があります。
+
+- SIP Skype for Business使用されなくなった場合は、DNS レコードを削除します。 
+
+次のレコードを見つける各ドメインで、次のように更新します。
+
+| レコードの種類 | Name | TTL | 優先度 | 太さ | ポート | Value |
+| :-----| :-----| :---- | :-----| :-----| :-----| :-----|
+| SRV | _sipfederationtls.tcp | 3600 |  100 | 1 | 5061  | sipfed.online.lync.com |
+| SRV | _sip.tls | 3600  | 100 |    1   | 443   | sipdir.online.lync.com |
+| CNAME | lyncdiscover |    3600 |  該当なし |   該当なし |   該当なし |   webdir.online.lync.com |
+| CNAME |   sip | 3600 |    該当なし |   該当なし  | 該当なし |    sipdir.online.lync.com |
+|||||||
+
+さらに、会議またはダイヤルインの CNAME レコード (存在する場合) を削除できます。 最後に、内部ネットワーク内Skype for Business DNS レコードを削除する必要があります。
 
 > [!Note] 
 > まれに、組織の DNS をオンプレミスのポイントから Microsoft 365 に変更すると、他の組織がフェデレーション構成を更新するまで、他の組織とのフェデレーションが停止する可能性があります。
@@ -40,28 +67,7 @@ TeamsOnly をテナント全体に付与しようとすると、Teamsは DNS を
 > - sipfed.online.lync のホスティング プロバイダーが有効になっていないフェデレーション組織。 <span>com は構成を更新して有効にする必要があります。 この状況は、フェデレーション組織が純粋にオンプレミスであり、ハイブリッドテナントまたはオンライン テナントとフェデレーションしたことがない場合にのみ可能です。 このような場合、ホスティング プロバイダーを有効にするまで、これらの組織とのフェデレーションは機能しません。
 >
 > フェデレーション パートナーが直接フェデレーションを使用している可能性がある、またはオンラインまたはハイブリッド組織とフェデレーションしていないと疑われる場合は、クラウドへの移行を完了する準備をしている間に、この情報に関する通信を送信してください。
-
-## <a name="how-to-identify-stale-dns-records"></a>古い DNS レコードを識別する方法
-
-組織がすべての Teams のみになるのを妨げる DNS レコードを識別するには、Teams 管理センターを使用して共存モードを TeamsOnly に変更できます。 [アップグレード]**の [組織全体の**  ->  **設定Teams移動します**。 組織が [のみ] になTeams DNS レコードは、エラー メッセージに含まれます。  DNS レコードが見つからない場合、組織の共存モードは TeamsOnly に変更されます。 
-
-## <a name="how-to-remove-stale-dns-records"></a>古い DNS レコードを削除する方法
-
-組織にオンプレミスのユーザーまたは Lync Server Skype for Business Serverが存在しない場合は、次の操作を行う必要があります。
-
-- DNS Skype for Businessを更新して、(オンプレミスMicrosoft 365ではなく) DNS レコードをポイントします。
-
-- SIP Skype for Business使用されなくなった場合は、DNS レコードを削除します。 
-
-次のレコードを見つける各ドメインで、次のように更新します。
-
-| レコードの種類 | 名前 | TTL | 優先度 | 太さ | ポート | Value |
-| :-----| :-----| :---- | :-----| :-----| :-----| :-----|
-| SRV | _sipfederationtls.tcp | 3600 |  100 | 1 | 5061  | sipfed.online.lync.com |
-| SRV | _sip.tls | 3600  | 100 |    1   | 443   | sipdir.online.lync.com |
-| CNAME | lyncdiscover |    3600 |  該当なし |   該当なし |   該当なし |   webdir.online.lync.com |
-| CNAME |   sip | 3600 |    該当なし |   該当なし  | 該当なし |    sipdir.online.lync.com |
-|||||||
+  
 
 
 

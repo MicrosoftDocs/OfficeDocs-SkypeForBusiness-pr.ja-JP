@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: Teams で組織の現場担当者向けにシフト アプリを設定および管理する方法を説明します。
+description: 組織内のフロントライン ワーカー向け Teams Shifts アプリを設定および管理する方法について学習します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 218b041d83cde91a23201ab864160ce3b8b7cb6e
-ms.sourcegitcommit: fdef9b52247097e5cae64f01b6b2b710c5b203cf
-ms.translationtype: HT
+ms.openlocfilehash: 7af23cf4586074420f7f95b916ababaf797cdb4b
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "49909091"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536763"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -36,12 +36,12 @@ ms.locfileid: "49909091"
 
 ## <a name="overview-of-shifts"></a>シフトの概要
 
-Microsoft Teams のシフト アプリでは、現場担当者との連絡と同期を常に行えます。このアプリは、チームが迅速で効果的な時間管理とコミュニケーションを行えるようにモバイル ファーストで構築されています。 シフトを使用すると、現場担当者とそのマネージャーは自分のモバイル デバイスを使用して、スケジュールを管理し、連絡を取ることができます。
+Shifts アプリは、Microsoft Teamsワーカーを接続し、同期したままにします。チームの時間管理とコミュニケーションを迅速かつ効果的に行うモバイルを最初に構築します。 シフトを使用すると、フロントラインの従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合えます。
 
-- マネージャーは、チームのシフト スケジュールを作成、更新、および管理します。 マネージャーは、メッセージを 1 人のユーザーに送ることも ("床が汚れています" など)、チーム全体に送ることもできます ("地区本部長があと 20 分で到着します" など)。 マネージャーは、ポリシー ドキュメント、ニュース速報、およびビデオを送信することもできます。 
-- 従業員は、自分の今後のシフトの確認、自分の他にその日にスケジュールが入っている従業員の表示、シフトの入れ替えや申し出のリクエスト、および休暇のリクエストを行います。 
+- マネージャーは、チームのシフト スケジュールを作成、更新、および管理します。 マネージャーは、メッセージを 1 人のユーザーに送ることも ("床が汚れています" など)、チーム全体に送ることもできます ("地区本部長があと 20 分で到着します" など)。 マネージャーは、ポリシー ドキュメント、ニュース速報、およびビデオを送信することもできます。
+- 従業員は、自分の今後のシフトの確認、自分の他にその日にスケジュールが入っている従業員の表示、シフトの入れ替えや申し出のリクエスト、および休暇のリクエストを行います。
 
-シフトでは現在、ゲスト ユーザーはサポートされていませんのでご注意ください。 つまり、Teams でゲスト アクセスがオンになっていると、チームのゲストをシフト スケジュールに追加することも、チームのゲストがシフト スケジュールを使用することもできません。 
+現在、Shifts ではゲストがサポートされていません。 つまり、Teams でゲスト アクセスがオンになっていると、チームのゲストをシフト スケジュールに追加することも、チームのゲストがシフト スケジュールを使用することもできません。 
 
 > [!Note]
 > さまざまなプラットフォームでの Shifts 機能の詳細については、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
@@ -68,19 +68,19 @@ Microsoft Teams のシフト アプリでは、現場担当者との連絡と同
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>組織内の特定のユーザーのシフトを有効または無効にする
 
-組織内の特定のユーザーによるシフトの使用を許可またはブロックするには、[[アプリの管理]](../../manage-apps.md) ページで組織のシフトがオンになっていることを確認してからカスタムのアプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てます。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](../../teams-app-permission-policies.md)」を参照してください。
+組織内の特定のユーザーによる Shifts の使用を許可またはブロックするには、[アプリの管理] ページで組織の Shifts が有効 [になっていることを確認](../../manage-apps.md) します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てる必要があります。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](../../teams-app-permission-policies.md)」を参照してください。
 
-### <a name="use-the-frontlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>現場担当者のアプリ セットアップ ポリシーを使用してシフトを Teams にピン留めする
+### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>FirstLineWorker のアプリ セットアップ ポリシーを使用してシフトを Teams にピン留めする
 
 アプリ セットアップ ポリシーを使用すると、組織内のユーザーにとって最も重要なアプリを強調表示するように Teams をカスタマイズできます。 ポリシーに設定されたアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
  
-Teams には組み込みの現場担当者アプリ セットアップ ポリシーが含まれており、これを組織内の現場担当者に割り当てることができます。 既定では、ポリシーにはアクティビティ、シフト、チャット、および通話の各アプリが含まれています。 
+Teamsには、組織内のフロントライン ワーカーに割り当て可能な組み込みの FirstLineWorker アプリセットアップ ポリシーが含まれています。 既定では、ポリシーにはアクティビティ、シフト、チャット、および通話の各アプリが含まれています。
 
-現場担当者ポリシーを表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリ セットアップ ポリシー]** の順に移動します。
+FirstLineWorker ポリシーを表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]**  >  **[アプリ セットアップ ポリシー]** の順に移動します。
 
-![現場担当者アプリのセットアップ ポリシーのスクリーンショット](../../media/firstline-worker-app-setup-policy.png "Microsoft Teams 管理センターの現場担当者アプリのセットアップ ポリシーのスクリーンショット")
+![FirstLineWorker アプリのセットアップ ポリシーのスクリーンショット](../../media/firstline-worker-app-setup-policy.png "管理センターの FirstLineWorker アプリセットアップ ポリシー Microsoft Teamsスクリーンショット")
 
-#### <a name="assign-the-frontlineworker-app-setup-policy-to-users"></a>現場担当者アプリのセットアップ ポリシーをユーザーに割り当てる
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>FirstLineWorker アプリセットアップ ポリシーをユーザーに割り当てる
 
 [!INCLUDE [assign-policy](../../includes/assign-policy.md)]
 
@@ -94,5 +94,5 @@ Teams には組み込みの現場担当者アプリ セットアップ ポリシ
 
 ## <a name="related-topics"></a>関連トピック
 
-- [現場担当者向けのシフトのヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Teams でユーザーにポリシーを割り当てる](../../assign-policies.md)
+- [フロントライン ワーカー向けシフト ヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [ Teams でユーザーにポリシーを割り当てる](../../assign-policies.md)

@@ -21,22 +21,22 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 889c3f4149489f6bcea44acde93d897a7f2e50e1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d4901258f7e0422b373553beba509bdfa0673d96
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092555"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536713"
 ---
 # <a name="shifts-for-teams"></a>Shifts for Teams
 
-Teams、組織内の Frontline Worker に、効果的にコミュニケーションと共同作業を行う必要があるツールを提供します。 この記事では、設定と管理の方法について示します。 シフトして、スケジュール管理ツールを使用Teams。
+Teams、組織内の最前線の従業員に、効果的にコミュニケーションと共同作業を行う必要があるツールを提供します。 次のリソースを参照して、スケジュール管理ツールである Shifts を設定および管理する方法の詳細を確認Teams。
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>組織のシフトを設定して管理する
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[組織内のシフトを管理する](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![デザイン](../media/Help-small.svg)  | **[現場担当者向けのシフトのヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![task-checklist-planning-teams](../media/task-checklist-planning-teams-small.svg) | **[組織内のシフトを管理する](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![デザイン](../media/Help-small.svg)  | **[フロントライン ワーカー向けシフト ヘルプ](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
 ### <a name="shifts-extensions"></a>拡張機能をシフトする
 

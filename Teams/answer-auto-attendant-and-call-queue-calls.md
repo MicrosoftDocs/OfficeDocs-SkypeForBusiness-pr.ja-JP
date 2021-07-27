@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e1656af8ee457cb4c112d229c2dee03d2590ece
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6e7f20bc34b22449a115b0742a7cfdac88792f4c
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856376"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506396"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 
@@ -59,6 +59,8 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 -    Microsoft Teams Mac クライアント
 -    Microsoft Teams iPhone アプリ
 -    Microsoft Teams Android アプリ
+
+クライアントTeamsは、 の共同存在モードでのみサポートTeams[されます](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft Teams の自動応答と通話キューのサポートを構成する
 

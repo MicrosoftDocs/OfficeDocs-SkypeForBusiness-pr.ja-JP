@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso のケース スタディ
+title: 'Teams Contoso のケース スタディ: 電話会議'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams企業向け音声ケース スタディ
+description: 'Teams企業向け音声ケース スタディ: 電話会議'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 085c9994bc2522d1ab56abc1670113e22d35f642
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e9f4dd4781a8ea6a60528aaa3e4b208efc1a8f5e
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121305"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587306"
 ---
 # <a name="contoso-case-study-audio-conferencing"></a>Contoso のケース スタディ: 電話会議
 

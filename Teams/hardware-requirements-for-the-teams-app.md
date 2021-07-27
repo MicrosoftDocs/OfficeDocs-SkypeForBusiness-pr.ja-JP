@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed6ad995cd0a1624171396b68bec3355fc05f559
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 2fbc1e3c26cfa6afa4835fc2da1a0aae55a21b17
+ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52909949"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53482340"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -40,7 +40,7 @@ ms.locfileid: "52909949"
 |ハード ディスク    | 3.0 GB の空きディスク容量        |
 |ディスプレイ    |   1024 x 768 の画面解像度 |
 |グラフィックス ハードウェア |  Windows OS: グラフィック ハードウェア アクセラレータを使用するには、Windows 10 用の WDDM 2.0以降 (または Windows 10 Fall Creators Update 用の WDDM 1.3 以降) と共にDirectX 9 以降をインストールする必要があります。
-|オペレーティング システム  |    Windows 10、ARM 上の Windows 10、Windows 8.1、Windows Server 2019、Windows Server 2016、Windows Server 2012 R2。 注: 利用可能な最新の Windows バージョンとセキュリティ パッチを使用することをお勧めします。|
+|オペレーティング システム  |    Windows 10 （Windows 10 LTSCを除く）、ARM 上の Windows 10、Windows 8.1、Windows Server 2019、Windows Server 2016、Windows Server 2012 R2。 注: 利用可能な最新の Windows バージョンとセキュリティ パッチを使用することをお勧めします。|
 |.NET のバージョン    |  NET 4.5 CLR 以降が必要       |
 |ビデオ    |  USB 2.0 ビデオ カメラ       |
 |デバイス    |   標準ラップトップ カメラ、マイク、スピーカー    |

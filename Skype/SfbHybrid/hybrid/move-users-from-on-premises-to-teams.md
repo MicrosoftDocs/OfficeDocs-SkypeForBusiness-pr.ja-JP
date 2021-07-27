@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ユーザー設定を移行し、ユーザーをユーザーに移動する方法についてTeams。'
-ms.openlocfilehash: b9b21dafc2290dfff5522f5d54c0872121294dd9
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 1df8c617d40b88813074319d7eb041995ff71ca5
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856306"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509778"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>オンプレミスから Teams にユーザーを移動する
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 ユーザーをオンプレミスから Teams のみに移動すると、ユーザーの Skype for Business ホームはオンプレミスからオンラインに移動され、ユーザーには mode=TeamsOnly で TeamsUpgradePolicy が割り当てられます。  ユーザーをオンプレミスから TeamsOnly モードに移動した後は、次の方法を実行します。
 

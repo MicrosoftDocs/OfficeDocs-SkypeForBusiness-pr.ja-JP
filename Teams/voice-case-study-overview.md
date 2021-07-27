@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso のケース スタディ
+title: Teams音声 Contoso のケース スタディの概要
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams企業向け音声ケース スタディ
+description: 'Teams企業向け音声ケース スタディ: 音声移行の概要'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19200ec5ab1556b0f2b4fda2f389e60bc236015b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ae8a09ab48215b1915c06e46b3d6a3a693958621
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097493"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587176"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Contoso のケース スタディ: Teams移行の概要
 
@@ -30,9 +30,9 @@ ms.locfileid: "51097493"
 
 Contoso は Microsoft 365 Enterprise を展開し、ネットワーク、ID、Windows 10 Enterprise、Office 365 ProPlus、モバイル デバイス管理、情報保護、セキュリティ、Skype for Business から Teams、電話システム、電話会議へのアップグレードに関する主要な設計上の決定と実装の詳細に対処しました。  
 
-この記事では、Contoso がオンプレミスのユーザーを統合コミュニケーション、コラボレーション、音声Teamsに移行した方法について説明します。 Contoso が Microsoft のクラウド サービスを使用してデジタル変革を加速した背景情報については、Contoso のケース スタディの概要から始まるすべての主要な記事 [を参照してください](/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide)。
+この記事では、Contoso がオンプレミスのユーザーを統合コミュニケーション、コラボレーション、音声Teamsに移行した方法について説明します。 Contoso が Microsoft のクラウド サービスを使用してデジタル変革を加速した背景情報については、Contoso のケース スタディの概要から始まるすべての主要な記事 [を参照してください](/microsoft-365/enterprise/contoso-case-study)。
 
-https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study?view=o365-worldwide 
+[https://docs.microsoft.com/microsoft-365/enterprise/contoso-case-study](/microsoft-365/enterprise/contoso-case-study) 
 
 主要な記事では、次の情報を確認できます。  
 

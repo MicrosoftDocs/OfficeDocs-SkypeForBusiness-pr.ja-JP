@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すMicrosoft Teams電話と電話について学習します。
-ms.openlocfilehash: 76a4d88cc82379911f6f4716f199bb2424328959
-ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
+ms.openlocfilehash: b531f6bb3a6a097f1480b3bcbfc938cdf20a8ec4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53408766"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510348"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認定デバイス
 
@@ -169,6 +169,7 @@ Android アプリとファームウェアのTeams ミーティング最新バー
 
 | 製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイト バージョン | 管理エージェントのバージョン |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 Update #2A | 2021 年 7 月 15 日  |1449/1.0.96.2021070803|  5.0.5088.0 |   1.0.0.202104280345.product バージョン コード: 262 |
 | 2021 Update #2 | 2021 年 6 月 28 日  |1449/1.0.96.2021051904|  5.0.5088.0 |   1.0.0.202104280345.product バージョン コード: 262 |
 | 2021 Update #1A  |2021 年 5 月 12 日  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product バージョン コード: 223 |
 | 2021 Update #1  |2021 年 4 月 5 日  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product バージョン コード: 223 |
@@ -182,6 +183,7 @@ Android アプリとファームウェアのTeams ミーティング最新バー
 
 | デバイス モデル  | ファームウェアのバージョン | 含まれる製品リリース |
 |:--------------|:-----------------|:-------------------------|
+| AudioCodes RXV80 |1.13.356   | 2021 Update #2 |
 | Yealink VC210 |118.15.0.54   | 2021 Update #2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | 2021 Update #2    |
 | Yealink MeetingBar A30 | 133.15.0.60    | 2021 Update #2    |

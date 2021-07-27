@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2b805f4cfddce18f1fa055b7de96a4afcaa47fb
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: c68965bb658328646b5308ad85092ce23bc0ab02
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684564"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574052"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>管理センターで一般的なチーム テンプレートを使用する
 
@@ -34,7 +34,7 @@ ms.locfileid: "52684564"
 
 この記事では、各チーム テンプレートを紹介し、その使い方をお勧めします。
 
-この記事は、財務組織全体で複数のチームを計画、デプロイ、管理する責任がある場合に役立ちます。 組織内に Teams サービスがすでに展開されています。 ロールアウトしていない場合は、Teamsを展開する方法に関する記事[を](./deploy-overview.md)読Microsoft Teams。
+この記事は、組織全体で複数のチームを計画、デプロイ、管理する責任がある場合に役立ちます。 組織内に Teams サービスがすでに展開されています。 ロールアウトしていない場合は、Teamsを展開する方法に関する記事[を](./deploy-overview.md)読Microsoft Teams。
 
 チーム テンプレート全般の詳細については、「チーム テンプレートの概要 [」を参照してください](get-started-with-teams-templates-in-the-admin-console.md)。
 

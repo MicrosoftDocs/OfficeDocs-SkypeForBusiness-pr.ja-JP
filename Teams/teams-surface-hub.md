@@ -20,15 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38202fcbb4c2147baae3f745bc2455da6fdff3e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d65f94b3f1e71a59ac2debc04828c5fa25f000f7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093937"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587006"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>Microsoft Teams for Surface Hub を展開する
-======================================
+# <a name="deploy-microsoft-teams-for-surface-hub"></a>Microsoft Teams for Surface Hub を展開する
 
 Teams for Surface Hub をインストールする前に、次の操作を行います。
 

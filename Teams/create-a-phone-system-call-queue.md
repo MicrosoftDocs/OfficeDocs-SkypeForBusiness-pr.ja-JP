@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Microsoft Teams で大規模な組織の通話キューを設定する方法について説明します。この機能は、あいさつメッセージ、保留音楽、通話リダイレクト、その他の機能を提供します。
-ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
-ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
+ms.openlocfilehash: 17e6113b19a09500fba1050b7f8f33efd110ef44
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53428203"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506376"
 ---
 # <a name="create-a-call-queue"></a>呼び出しキューを作成する
 
@@ -229,7 +229,7 @@ Teamsキュー内で保留されている間、呼び出し元に既定の音楽
   - Microsoft Teams Android アプリ
 
     > [!NOTE]
-    > 直接ルーティング番号が割り当てられた通話キューは、クライアント、Lync クライアント、Skype for Business IP Phone をエージェントSkype for Businessサポートしません。
+    > 直接ルーティング番号が割り当てられた通話キューは、クライアント、Lync クライアント、Skype for Business IP Phone をエージェントSkype for Businessサポートしません。 クライアントTeamsは、 の共同存在モードでのみサポートTeams[されます](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
 ## <a name="call-queue-cmdlets"></a>通話キューのコマンドレット
 

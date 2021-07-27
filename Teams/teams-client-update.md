@@ -14,15 +14,16 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: この記事では、Microsoft Teams デスクトップ クライアントの更新のプロセスについて説明します。
+localization_priority: Priority
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 004c615d2b624f4e5942562e6abfed6e1aebf7cd
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
-ms.translationtype: MT
+ms.openlocfilehash: 136cca899b0c79b549ee9ae890e90f1e84c04eaa
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717898"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506386"
 ---
 # <a name="teams-update-process"></a>Teams の更新プロセス
 
@@ -30,7 +31,7 @@ Teams Web アプリは毎週更新されます。
 
 Teams デスクトップ クライアントの更新プログラムは、TAP (Technology Adoption Program) を使用した厳格な内部テストと検証の後、2 週間ごとにリリースされます。 このアップデートは、通常火曜日にリリースされます。 緊急更新プログラムが必要な場合、Teams ではこのスケジュールをバイパスし、利用可能になり次第更新プログラムをリリースします。
 
-デスクトップ クライアントは自動的に更新されます。 Teams は、数時間ごとにバックグラウンドで更新プログラムを確認します。更新プログラムをダウンロードすると、コンピューターがアイドル状態になるまで待機してから、更新プログラムをサイレント インストールします。
+デスクトップ クライアントは自動的に更新されます。Teams は、数時間ごとにバックグラウンドで更新プログラムを確認します。更新プログラムをダウンロードすると、コンピューターがアイドル状態になるまで待機してから、更新プログラムをサイレント インストールします。
 
 ユーザーは、アプリの右上にある **[プロファイル]** ドロップダウン メニューの **[アップデートの確認]** を選択して、更新プログラムを手動でダウンロードすることもできます。 更新プログラムが入手可能であれば、ダウンロードが実行されて、コンピューターがアイドル状態のときにサイレント インストールされます。
 
@@ -42,7 +43,7 @@ Teams デスクトップ クライアントの更新プログラムは、TAP (Te
 
 「[Microsoft 365 Apps と同時に Microsoft Teams を展開する](/DeployOffice/teams-install)」で説明されているように、Teams のインストールは既定で、Microsoft 365 Apps for enterprise の新しいインストールと一緒に行われます。
 
-Teams は、上記で説明した独自の更新プロセスに従います。 Teams は、Word や Excel などの他のオフィス アプリの更新プロセスには追従しません。 詳細については、「[Microsoft 365 Apps for enterprise の更新プログラム チャネルの概要](/DeployOffice/overview-of-update-channels-for-office-365-proplus)」を参照してください
+Teams は、上記で説明した独自の更新プロセスに従います。 Teams は、Word や Excel などの他のオフィス アプリの更新プロセスには追従しません。 詳細については、「[Microsoft 365 Apps for enterprise の更新プログラム チャネルの概要](/DeployOffice/overview-of-update-channels-for-office-365-proplus)」を参照してください。
 
 ## <a name="what-about-updates-to-teams-on-vdi"></a>VDI 上の Teams の更新について
 

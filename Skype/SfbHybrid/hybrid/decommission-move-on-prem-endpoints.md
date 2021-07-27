@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: hyrid アプリケーション エンドポイントを移行してから、オンプレミス環境Skype for Business使用を停止します。
-ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: ee437f7f6c35ee67168c81e8e8ad440b1b0ba824
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420802"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574242"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>オンプレミス環境を使用停止する前にハイブリッド アプリケーション エンドポイントを移行する
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 この記事では、オンプレミスのアプリケーション 環境を使用停止する前に、必要なハイブリッド アプリケーション エンドポイントを Microsoft クラウドに移動するSkype for Business説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 3 です。
 
@@ -55,7 +57,7 @@ ms.locfileid: "53420802"
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. これらのアカウントの電話番号は、オンプレミスではなく Microsoft 365 で管理されている可能性があります。オンライン PowerShell で次のコマンドSkype for Businessします。
+5. これらのアカウントの電話番号は、オンプレミスではなく Microsoft 365 で管理されている可能性があります。PowerShell で次のコマンドTeamsします。
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"

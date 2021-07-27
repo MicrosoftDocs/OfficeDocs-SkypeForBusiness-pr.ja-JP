@@ -24,12 +24,12 @@ search.appverid: MET150
 description: クラウド音声機能のMicrosoft Teams、および組織に対して行うデプロイの決定について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95b8f60f9d664432fbb68c48ee61d6f26902eeae
-ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
+ms.openlocfilehash: ad80bbdaa5a51540d8444ca97fa72c087f2f1763
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53354383"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486127"
 ---
 # <a name="plan-your-teams-voice-solution"></a>音声ソリューションTeams計画する 
 
@@ -61,7 +61,7 @@ ms.locfileid: "53354383"
 | すべてのユーザーに必須 | 説明 |
 | :------------|:-------|
 | [**電話システム**](#phone-system) | クラウドとクラウドの通話制御とプライベート ブランチ Exchange (PBX) 機能を有効にするための Microsoft Microsoft 365テクノロジMicrosoft Teams。 |
-| [**公衆交換電話網 (PSTN) 接続オプション**](#public-switched-telephone-network-connectivity-options) | Microsoft をテレフォニー キャリアとして使用するか、直接ルーティングまたはオペレーター サービスを使用して、Microsoft Teams に独自のテレフォニー キャリアを接続Connect。 PSTN 接続電話システムと組み合わせると、ユーザーは世界中で電話を発信できます。|
+| [**公衆交換電話網 (PSTN) 接続オプション**](#public-switched-telephone-network-connectivity-options) | テレフォニー キャリアとして Microsoft を使用するか、オペレーター Microsoft Teams またはダイレクト ルーティングを使用して、Microsoft Teams Connectに接続するかの選択。 PSTN 接続電話システムと組み合わせると、ユーザーは世界中で電話を発信できます。|
 
 **要件に応じて異なる。** この記事と関連記事の一部のセクションは、既存のデプロイと要件に応じて関連します。 たとえば、Location-Basedルーティングは、有料バイパスを許可しない地理的な場所のダイレクト ルーティングのお客様にのみ必要です。
 
@@ -143,9 +143,9 @@ ms.locfileid: "53354383"
 
 - [**電話システム プラン を使用して行います**](pstn-connectivity.md#phone-system-with-calling-plan)。 MICROSOFT を PSTN 通信事業者として使用する、クラウド内のすべてソリューション。
 
-- [**電話システム直接ルーティングを**](pstn-connectivity.md#phone-system-with-direct-routing)使用してオンプレミス環境をオンプレミスの PSTN 通信業者に接続Teams。
-
 - [**電話システム、現在**](operator-connect-plan.md)パブリック プレビューでのみ使用できるオペレーター Connect を使用して、独自の PSTN 通信事業者 **と通信できます。**  オペレーター Connectを使用すると、既存のオペレーターが Microsoft Operator Connect プログラムに参加している場合、PSTN 通話を Teams に持ち込むサービスを管理できます。 Operator Connect の利点と要件、およびこのプログラムに参加しているオペレーターの一覧については、「Plan [Operator Connect」を参照してください](operator-connect-plan.md)。
+
+- [**電話システム直接ルーティングを**](pstn-connectivity.md#phone-system-with-direct-routing)使用してオンプレミス環境をオンプレミスの PSTN 通信業者に接続Teams。
 
 オプションの組み合わせを選択することもできます。これにより、複雑な環境向けソリューションを設計したり、複数ステップの移行を管理したりすることもできます (移行の詳細については後で説明します)。
 

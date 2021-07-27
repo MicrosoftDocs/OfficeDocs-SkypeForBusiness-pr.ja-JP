@@ -15,12 +15,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) が認定を受けたMicrosoft Teams。
-ms.openlocfilehash: e3225490e52b527e02449796d614107221853554
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 476d61d2e2465dd1791b950d2922299073b5e210
+ms.sourcegitcommit: 05b46fc512678f39c345f15f3369e05d9c2efb3d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278510"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53495187"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB オーディオ デバイスとビデオ デバイスは、Microsoft Teams
 
@@ -81,6 +81,13 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 |EPOS/Sennheiser      |160T ANC を適応する                                             |6/24/2021       |認定Microsoft Teams                           |
 |Dell                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |認定Microsoft Teams                           |
 |NEC                  |WD551 Windows コラボレーション ディスプレイ                        |5/21/2021       |認定Microsoft Teams                           |
+|Poly                 |EncorePro 520 および DA85-M                                   |4/26/2021       |認定Microsoft Teams                           |
+|Poly                 |EncorePro 510 および DA85-M                                   |4/26/2021       |認定Microsoft Teams                           |
+|Poly                 |EncorePro 525-M                                            |4/26/2021       |認定Microsoft Teams                           |
+|Poly                 |EncorePro 515-M                                            |4/26/2021       |認定Microsoft Teams                           |
+|Dell                 |WL7022 Premier Wireless ANC Headset                        |4/22/2021       |認定Microsoft Teams                           |
+|Dell                 |WL5022 Pro ワイヤレス ヘッドセット                                |4/22/2021       |認定Microsoft Teams                           |
+|Dell                 |WH3022 Pro有線ヘッドセット                                   |4/22/2021       |認定Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |認定Microsoft Teams                           |
 |Poly                 |Studio P5 Webcam                                           |4/22/2021       |認定Microsoft Teams                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |Skype for Businessへのアップグレードを使用Microsoft Teams      |

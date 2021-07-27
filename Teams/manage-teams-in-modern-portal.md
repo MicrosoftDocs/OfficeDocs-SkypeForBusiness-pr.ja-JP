@@ -9,7 +9,7 @@ audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
 description: Microsoft Teams 管理センターで、組織が共同作業用に設定したチームを表示または更新する方法について説明します。
-localization_priority: Normal
+localization_priority: Priority
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,15 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea81ad854224e08142f9c87725d25176dcc60d44
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
-ms.translationtype: MT
+ms.openlocfilehash: c856763cc642b3790a159b404ba27cd3d16fc727
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237543"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506316"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
-==========================================
+# <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 
 ## <a name="overview"></a>概要
 
@@ -122,7 +121,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 **解決方法: MS Graph でプロパティを適切な値に手動で設定します。**
 
-該当する GroupId に対するクエリで **{groupid}** を置き換えます。{groupid} は、Exchange Online powershell で "**ExternalDirectoryObjectId**" 属性として **"[Get-unifiedgroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** コマンドレットを使用して取得できます。　
+該当する GroupId に対するクエリで **{groupid}** を置き換えます。{groupid} は、Exchange Online PowerShell で "**ExternalDirectoryObjectId**" 属性として **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** コマンドレットを使用して取得できます。
 
 1. [Graph エクスプローラー](https://developer.microsoft.com/graph/graph-explorer)にアクセスします。
 

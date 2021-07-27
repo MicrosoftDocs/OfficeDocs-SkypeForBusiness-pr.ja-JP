@@ -19,20 +19,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 6e715786a6cf139da303a73b7f076f3f30e8e004
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186906"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587196"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams のトレーニング
 
-|               |               |
+| &nbsp; | &nbsp; |
 | ------------- | ------------- |
-| <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[管理者トレーニング](./itadmin-readiness.md)** </br> これらのチュートリアル、ビデオ、およびその他のトレーニング リソースを使用して、Teams について学習し、組織内での使用を促進します。 
-| <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams のライブ トレーニング](./instructor-led-training-teams-landing-page.yml)** </br> Teams を使いこなすための、Microsoft が主催する無料のライブ オンライン トレーニング クラス。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 
-| <img src="https://docs.microsoft.com/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Teams のオンライン トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 自分のペースで学習できるこれらのトレーニング リソースを使用して、ユーザーが Teams を最大限に活用できるようにします。 |
+| <img src="/office/media/icons/walkthrough-map-teams.svg" width="40 px" height="40 px" alt="admin training"> | **[管理者トレーニング](./itadmin-readiness.md)** </br> これらのチュートリアル、ビデオ、およびその他のトレーニング リソースを使用して、Teams について学習し、組織内での使用を促進します。 
+| <img src="/office/media/icons/education-tutorial-teams.svg" width="40 px" height="40 px" alt="live training"> | **[Teams のライブ トレーニング](./instructor-led-training-teams-landing-page.yml)** </br> Teams を使いこなすための、Microsoft が主催する無料のライブ オンライン トレーニング クラス。 参加して実行中の Teams を表示します。質問の回答を得たり、講師とライブでやり取りしたりできます。 
+| <img src="/office/media/icons/user.svg" width="40 px" height="40 px" alt="online training" > | **[Teams のオンライン トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)** </br> 自分のペースで学習できるこれらのトレーニング リソースを使用して、ユーザーが Teams を最大限に活用できるようにします。 |
 
 ## <a name="dont-miss-these-key-training-offerings"></a>これらの主要なトレーニングサービスをお見逃しなく
 

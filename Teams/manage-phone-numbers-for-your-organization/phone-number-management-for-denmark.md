@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、デンマークで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: eab60f791e112adced20bd38d87a918934c31a3b
-ms.sourcegitcommit: 0a7c1f52484452f66f678b0feca1455bade4fcf3
+ms.openlocfilehash: fc9864ea8e5f74fdc29848f8e9bbbfaf38f7809d
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50716941"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510178"
 ---
 # <a name="phone-number-management-for-denmark"></a>電話の番号管理
 
@@ -34,13 +34,13 @@ ms.locfileid: "50716941"
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーとサービスの電話番号Microsoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [デンマークの新しい電話番号要求 (v.5.0) (da-dk)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[デンマークの新しい電話番号要求 (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。
-|転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[デンマークの承認状 (LOA) (すべての番号) (v.5.0) (da-dk)](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/> |
-|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。      <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
+|管理センターに表示されていない新しいユーザーとサービスの電話番号Microsoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [デンマークの新しい電話番号要求 (v.5.0) (da-dk)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf?raw=true) <br/>[デンマークの新しい電話番号要求 (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>  入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。
+|転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[デンマークの承認状 (LOA) (すべての番号) (v.5.0) (da-dk)](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 <br/> |
+|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。      <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
 |ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

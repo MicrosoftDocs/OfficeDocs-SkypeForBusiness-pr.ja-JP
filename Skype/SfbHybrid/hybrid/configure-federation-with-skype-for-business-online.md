@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: オンプレミスの展開と組織間の相互運用性を構成する方法について説明Teams。'
-ms.openlocfilehash: 2c6fda43b939a616071009be2b8d28e636036101
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 5593dce3bef26e2b3f528618d88e4f87e1996596
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305971"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574132"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Skype for Business ハイブリッドの構成
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 Skype for Business ハイブリッドを構成するには、次のことを実行する必要があります。
 
@@ -33,11 +35,11 @@ Skype for Business ハイブリッドを構成するには、次のことを実�
 - [共有 SIP アドレス空間を信頼して有効にTeamsオンプレミス環境を構成します](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams)。
 - [組織で共有 SIP アドレス空間をTeamsします](#enable-shared-sip-address-space-in-your-organization)。
 
-オンプレミス環境Exchange場合は、オンプレミス環境とオンライン環境の間Exchange OAuth を構成Skype for Business場合があります。 詳細については、「Manage [server-to-server authentication](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) in Skype for Business Server」および「Plan to integrate Skype for Business and Exchange」 を[参照してください](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。 
+オンプレミス環境Exchange場合は、オンプレミス環境とオンライン環境の間Exchange OAuth を構成できます。 詳細については、「Manage [server-to-server authentication](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md) in Skype for Business Server」および「Plan to integrate Skype for Business and Exchange」 を[参照してください](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-teams"></a>オンプレミスのエッジ サービスを構成して、サーバーとフェデレーションTeams
 
-フェデレーションを使用すると、オンプレミス展開のユーザーは、組織内Teamsオンライン Skype for Businessと通信できます。 フェデレーションを構成するには、管理シェルで次のコマンドレットSkype for Business Server実行します。
+フェデレーションを使用すると、オンプレミス展開のユーザーは、組織内Teamsユーザーと通信できます。 フェデレーションを構成するには、管理シェルで次のコマンドレットSkype for Business Server実行します。
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -78,7 +80,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > SharedSipAddressSpace 属性は、オンラインに移行するまで "True" に維持する必要があります。ユーザーはオンプレミスのままではありません。 
   
-リモート PowerShell セッションを Teams (Skype for Business Online) で確立するには、まず PowerShell モジュールをインストールTeams[必要があります](/microsoftteams/teams-powershell-install)。 PowerShell Teamsモジュールは、廃止Skypeされた Busines Online Connector モジュールのモジュールを置き換えるものです。
+サーバーを使用してリモート PowerShell セッションを確立Teams、まず PowerShell モジュールをインストールTeams[必要があります](/microsoftteams/teams-powershell-install)。 PowerShell Teamsモジュールは、廃止Skypeされた Busines Online Connector モジュールのモジュールを置き換えるものです。
   
 モジュールをインストールした後、次のコマンドレットを使用してリモート セッションを確立できます。
    ```powershell

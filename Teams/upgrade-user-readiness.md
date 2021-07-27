@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dfc2be330f0890a73bdfa34077c910e7cfc3e84
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 705ad7ab9dbfccf12f269636e8c38312c3b8a3c7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282714"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587226"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>ユーザーの研修計画を準備する
 
@@ -43,7 +43,7 @@ ms.locfileid: "52282714"
 > [!Tip]
 > アップグレード プロジェクト [のサンプル 計画](https://aka.ms/UpgradeSuccessKit) とパイロット テスト計画に加えて、コミュニケーションやユーザーアンケートなどのテンプレート ユーザー対応資料用のアップグレード成功キットをダウンロードします。
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>新しいソリューションのユーザー導入を促進し、促進するための準備計画を作成する方法</li><li>変更に対処するユーザーの能力と、定義したユーザーのペルサナに合った適切な認識、トレーニング、およびサポート リソースはありますか。</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>準備計画のアイデアを生成するには、次の一覧を使用します。 最も関連性の高いアクティビティを選択するか、独自のアクティビティを追加して、組織に最適化された準備計画を設計します。 最大限の結果を得る場合は、広範なキャンペーン (組織全体) とターゲット キャンペーン (ラグガードまたは特定のペルサ) の組み合わせを使用してください。</li></ul>|

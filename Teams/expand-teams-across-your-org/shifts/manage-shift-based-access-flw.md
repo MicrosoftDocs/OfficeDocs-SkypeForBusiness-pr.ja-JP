@@ -1,5 +1,5 @@
 ---
-title: Teams で Frontline Worker のシフトベースのアクセスを管理する
+title: フロントライン ワーカーのシフトベースのアクセスを管理Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaku
@@ -15,14 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c69f5678b2a3884f52dd3dc676fce21e2ee67f4f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9c1d8ed8e964d1ffeda8e862992335560c9a6aab
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092545"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536843"
 ---
-# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>Teams で Frontline Worker のシフトベースのアクセスを管理する
+# <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>フロントライン ワーカーのシフトベースのアクセスを管理Teams
 
 > [!IMPORTANT]
 > 2020 年 6 月 30 日をもって、Microsoft Staffhub は廃止されました。 Microsoft では、StaffHub の機能を Microsoft Teams に組み込む作業に取り組んでいます。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 StaffHub は 2020 年 6 月 30 日をもって、すべてのユーザーがご利用できなくなりました。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub は廃止されました](microsoft-staffhub-to-be-retired.md)」を参照してください。  
@@ -31,19 +31,19 @@ ms.locfileid: "51092545"
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-[プレゼンス] Microsoft Teamsユーザーの現在の可用性と他のユーザーへの状態を示します。 フロントライン ワーカーの存在は、通常は毎日同じではならず、他のスタッフよりも予測が難しい場合があります。 管理者は、組織内の Frontline Worker のシフトベースのプレゼンス状態のセットを表示して、シフトのオンとオフを示す Teams を構成できます。
+[プレゼンス] Microsoft Teamsユーザーの現在の可用性と他のユーザーへの状態を示します。 フロントライン ワーカーの存在は、通常は毎日同じではならず、他のスタッフよりも予測が難しい場合があります。 管理者は、Teams を構成して、組織内のフロントライン ワーカーがシフトのオンとオフを示す一連のシフトベースのプレゼンス状態を表示できます。
 
 これらのシフトベースのプレゼンス状態緑色のチェック マークは、シフト時、灰色の円 x を示し、オフシフトオフシフト、実線の赤い円を示し、取り込み中が &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; Teams[](../../presence-admins.md)の既定のプレゼンス状態のセットとは別の状態を示します。 これら 2 つのプレゼンス状態のセットでは、その役割に基づいて組織内のユーザーに対して異なるエクスペリエンスを構成できます。
 
-シフトベースのアクセスでは、Frontline Worker がシフト外のTeamsへのアクセスを管理できます。 たとえば、スケジュールされたシフトに移動していない場合に Teams を使用する前に、Frontline Worker が確認する必要があるメッセージを表示する Teams を設定できます。  
+シフトベースのアクセスを使用すると、フロントラインワーカーがシフトTeamsのアクセスを管理できます。 たとえば、スケジュールされたシフトに移動していない場合に、Teams を使用する前に、フロントラインワーカーが確認する必要があるメッセージを表示する Teams を設定できます。  
 
 ## <a name="scenario"></a>シナリオ
 
 組織でシフトベースのアクセスを管理する方法の例を次に示します。
 
-組織内に Frontline Worker がいて、マネージャーがスケジュールして承認したシフトで作業する時間に対してのみ支払う必要があります。 スケジュールされたシフトの外で作業に費やされた時間に対して支払いを受けてはならない。これには、スケジュールされたアプリの使用Teamsがあります。 "シフトオフ時の Teams の時間は未払い時間にカウントされません" というカスタム メッセージを設定すると、Frontline Worker がシフトをオフにするときに Teams にアクセスしようとするときに表示されます。 ユーザーがアプリを使用Teams、この時間の支払いを受け取らないという理解を得て [同意する] をクリックします。
+組織内のフロントライン ワーカーは、マネージャーがスケジュールおよび承認したシフトで作業する時間に対してのみ支払う必要があります。 スケジュールされたシフトの外で作業に費やされた時間に対して支払いを受けてはならない。これには、スケジュールされたアプリの使用Teamsがあります。 「シフトをオフにした場合の Teams の時間は未払い時間にカウントされません」というカスタム メッセージを設定します。このメッセージは、シフトをオフにした場合にフロントラインワーカーが Teams にアクセスしようとするときに表示されます。 ユーザーがアプリを使用Teams、この時間の支払いを受け取らないという理解を得て [同意する] をクリックします。
 
-また、組織内に、サラリーマンであり、シフトを使用しない情報ワーカーもいます。 フロントライン ワーカーにシフトベースのプレゼンスを提供しながら、Teams の既定のプレゼンス状態を使用する情報ワーカーを構成します。
+また、組織内に、サラリーマンであり、シフトを使用しない情報ワーカーもいます。 フロント ライン ワーカーにシフトベースのプレゼンスを提供しながら、Teams の既定のプレゼンス状態を使用する情報ワーカーを構成します。
 
 ## <a name="shift-based-presence-states"></a>シフトベースのプレゼンス状態
 
@@ -53,11 +53,11 @@ ms.locfileid: "51092545"
 |---------|---------|---------|
 |![緑色の単色のチェック マーク、シフト時を示します。](../../media/flw-presence-on-shift.png) シフト時     |         |シフトの開始時に自動的に設定する         |
 |![x を含む灰色の円、オフ シフトを示します。](../../media/flw-presence-off-shift.png) シフトをオフにする     |         |シフトの最後に自動的に設定する         |
-|![塗りつぶした赤い丸は、取り込み中を示す](../../media/flw-presence-busy.png) 取り込み中      | ![塗りつぶした赤い丸は、取り込み中を示す](../../media/flw-presence-busy.png) 取り込み中         |自動的に設定されます。 Frontline Worker がシフト時に手動で設定することもできます。|
+|![塗りつぶした赤い丸は、取り込み中を示す](../../media/flw-presence-busy.png) 取り込み中      | ![塗りつぶした赤い丸は、取り込み中を示す](../../media/flw-presence-busy.png) 取り込み中         |自動的に設定されます。 また、フロントライン ワーカーがシフト中のときに手動で設定することもできます。|
 
 ## <a name="off-shift-access-to-teams"></a>シフトをオフにし、Teams
 
-この機能を使用すると、Frontline worker がシフトTeamsにアクセスするユーザーを管理できます。 シフトをオフにTeamsにアクセスする場合は、Frontline Worker にメッセージを表示Teamsを設定できます。 Frontline Worker は、[同意 **する] を** クリックしてメッセージを確認してから、そのメッセージを使用Teams。
+この機能を使用すると、フロントライン ワーカーがシフトTeamsにアクセスする権限を管理できます。 シフトをオフにTeamsにアクセスする場合、フロントライン worker にメッセージを表示Teamsを設定できます。 フロントライン ワーカーは、メッセージを **使用する前** に [同意する] をクリックしてメッセージを確認するTeams。
 
 既定のメッセージを使用したり、一連の定義済みメッセージから選択したり、メッセージをカスタマイズして必要なテキストを表示することができます。 既定のメッセージを次に示します。
 
@@ -67,7 +67,7 @@ ms.locfileid: "51092545"
 
 ## <a name="manage-shift-based-access"></a>シフトベースのアクセスを管理する
 
-管理者は、ポリシーを使用して、組織内の Frontline Worker のシフトベースのプレゼンスを制御します。 これらのポリシーは、次の PowerShell コマンドレットを使用して管理します。
+管理者は、ポリシーを使用して、組織内のフロントライン ワーカーのシフトベースのプレゼンスを制御します。 これらのポリシーは、次の PowerShell コマンドレットを使用して管理します。
 
 - [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy)
@@ -124,7 +124,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-- [Teams で組織の Shifts アプリを管理する](manage-the-shifts-app-for-your-organization-in-teams.md)
+- [Teams で組織のシフト アプリを管理する](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams での PowerShell の概要](../../teams-powershell-overview.md)

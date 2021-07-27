@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6ad3c5062a96a4becff32136c551a3247aa660f
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 949c3189b80e9843b4b256f8d3f65cc3b52e2d1a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282585"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586976"
 ---
 # <a name="define-your-project-scope"></a>プロジェクトの対象範囲を定義する
 
@@ -37,7 +37,7 @@ ms.locfileid: "52282585"
 
 プロジェクトのビジョン、範囲、目標、ガバナンスを定義する時間を取って、すべてのプロジェクト関係者が同じ結果に向かって調整され、取り組むのに役立ちます。 これは、技術準備チームとユーザー準備チームが個別に作業し、それぞれの部分をまとめる場合に特に重要です。 このセクションを完了したら、プロジェクト全体を通じて参照して、目的の終了状態を確実に達成するための状態を確認します。 以下に示す目標を使用して、結果を測定し、必要に応じて軽減します。
 
-| | |
+| &nbsp;| &nbsp;|
 |---|---|
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>このプロジェクトで何を行う必要がありますか (つまり、なぜ実行しているのですか)。</li><li>成功の外観</li><li>リスクとは何ですか。また、これらのリスクを軽減するための計画は何ですか。</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>プロジェクト チームとスポンサーと次のセクションについて話し合います。</li><li>このプロジェクトのビジョン、範囲、目標、リスクを文書化します。</li><li>プロジェクト チームにもう一度アクセスして、適切なチームに関与したと検証します。</li></ul>|

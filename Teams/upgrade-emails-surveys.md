@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809077"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586986"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>アップグレードの基本手順についてコミュニケーションするためのサンプル メールとアンケート
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Teams での次のアクティビティを実行するのにどの程度熟練しているか、また、詳しく知りたいと思うアクティビティがあるかどうかを回答してください。
 
-| &nbsp; | 非常に熟練している | やや熟練している | 全く熟練していない | 詳しく知りたい | 該当なし | よくわからない | | | | |
+| &nbsp; | 非常に熟練している | やや熟練している | 全く熟練していない | 詳しく知りたい | 該当なし | よくわからない |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | IM や他のユーザーとのチャットに Teams を使用する | | | | | | | | | | |
 | オンライン会議に Teams を使用する | | | | | | | | | | |

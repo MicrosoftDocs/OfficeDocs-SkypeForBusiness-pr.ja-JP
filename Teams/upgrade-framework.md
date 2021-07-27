@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78215457177689b549112a19a9477fdd01c91de2
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: d0184198d7e419642a582f8642b312238900f1f8
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282514"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586996"
 ---
 # <a name="about-the-upgrade-framework"></a>アップグレードのフレームワークについて
 
@@ -55,7 +55,7 @@ ms.locfileid: "52282514"
 
 ### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>計画: 組織が長期的な成功を収めるのに役立つアップグレード 計画を作成する
 
-| ステップ |  | 概要 | リソース |
+| ステップ |&nbsp;| 概要 | リソース |
 |------|--|---------|----------|
 | **1** | **関係者を定義する** | アップグレードの成功を推進する責任をプロジェクト チーム メンバーに割り当てる。 | [関係者を参加する](upgrade-enlist-stakeholders.md) |
 | **2** | **プロジェクトのビジョンと範囲を定義する** | "大きな画像" のビジョンと現在のプロジェクト スコープを設計して、アップグレード体験のブループリントを作成します。 | [Projectビジョン](upgrade-define-project-scope.md#project-vision) <br> <br>[Project スコープ](upgrade-define-project-scope.md#project-scope) |
@@ -67,7 +67,7 @@ ms.locfileid: "52282514"
 
 ### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>準備: 組織の準備を評価Teams
 
-| ステップ |  | 概要 | リソース |
+| ステップ |&nbsp;  | 概要 | リソース |
 |------|--|---------|----------|
 | **1** | **環境を評価し、技術的なオンボードTeams完了する** | ユーザー エクスペリエンスを最適化し、Teamsアップグレードを容易にするのに役立つ、環境の準備ができていることを確認します。 | [にアップグレードする前に環境をTeams。](upgrade-plan-journey-evaluate-environment.md)<br><br> [サービスをアップグレードする準備をTeams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **リアルタイム メディア シナリオTeamsネットワークを最適化する** | 音声、ビデオ、または会議を展開する場合は、これらの追加の手順を実行して、その機能に合ったネットワークを最適化します。 | [Teams にアップグレードするためにネットワークを準備する](prepare-network.md) |
@@ -78,7 +78,7 @@ ms.locfileid: "52282514"
 
 ### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>パイロット: パイロットを実行して、組織の準備ができていることを確認し、最適な体験を通知Teams
 
-| ステップ |  | 概要 | リソース |
+| ステップ | &nbsp; | 概要 | リソース |
 |------|--|---------|----------|
 | **1** | **パイロット ロジスティックの概要** | 正式なパイロット ロジスティックを定義して、アップグレードまたは共存する組織の準備を検証します。 | [パイロット ロジスティックの概要](pilot-essentials.md#1-outline-pilot-logistics) |
 | **2** | **パイロット参加者を選択し、シナリオをテストする** | チームワーク シナリオの検証と準備の確認に役立つTeams特定します。 | [パイロット参加者を選択し、シナリオをテストする](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
@@ -89,7 +89,7 @@ ms.locfileid: "52282514"
 
 ### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>デプロイ: Teamsと共存して実行Skype for Business
 
-| ステップ |  | 概要 | リソース |
+| ステップ |&nbsp;  | 概要 | リソース |
 |------|--|---------|----------|
 | **1** | **新しいアプリの正式な発売をTeams** | 準備ができたら、公式の発表を送信して、Teams勢いを生み出します。 | [アップグレード成功キット](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **アップグレードを実装する** | 実行する手順は、現在のデプロイ環境によって異Skype for Business。 | [アップグレードを実装する](upgrade-to-teams.md) |
@@ -102,7 +102,7 @@ ms.locfileid: "52282514"
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>アップグレード: アップグレードからアップグレードSkype for Business実装Teams
 
-| ステップ |  | 概要 | リソース |
+| ステップ |&nbsp;  | 概要 | リソース |
 |------|--|---------|----------|
 | **1** | **上記のアップグレード前のアクティビティが完了したと確認します。** | すべての計画および準備アクティビティの完了を確認することで、アップグレードの成功を保証します。 | 上記のすべて |
 | **2** | **最初のアップグレード グループ内のユーザーへの通信を開始する** | アップグレードの開始をユーザーに通知し、プロセス全体を通じて通知を受け取る。 | [ユーザーの研修計画を準備する](upgrade-user-readiness.md) <br><br> [アップグレード成功キット](https://aka.ms/UpgradeSuccessKit) |
@@ -116,7 +116,7 @@ ms.locfileid: "52282514"
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>操作: アップグレードの成功を測定する
 
-| ステップ |  | 概要 | リソース |
+| ステップ | &nbsp; | 概要 | リソース |
 |------|--|---------|----------|
 | **1** | **最初のアップグレードの成功を評価する** | アップグレード前のフェーズで確立した目標に対して進行状況を評価します。 | [Project目標](upgrade-define-project-scope.md#project-goals) |
 | **2** | **追跡されていない目標に対して軽減計画を実装する** | 達成されていない目標の軽減策またはコース修正戦略を定義します。 | [Project目標](upgrade-define-project-scope.md#project-goals) |

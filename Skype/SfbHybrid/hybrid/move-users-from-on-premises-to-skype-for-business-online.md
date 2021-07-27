@@ -18,18 +18,18 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: ユーザーをオンラインに移動するSkype for Businessします。
-ms.openlocfilehash: 883db98a424c254e6792fd651594b02201a311f9
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: fcb1d508230c4faa18da4a473d9e24d384b047a6
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863198"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509948"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>ユーザーをオンプレミスから Skype for Business Online に移動する
 
-オンプレミスからオンラインにユーザーを移動した後Skype for Businessユーザーは、その機能のために Skype for Business Online を操作します。 オンプレミスに存在していた連絡先は Skype for Business Online で利用できます。また、ユーザーが将来開催する既存の会議は更新され、リンクは Skype for Business Online を指します。 ユーザーが電話会議を有効にしている場合、会議にはダイヤルイン座標も含まれます。  ユーザーをオンプレミス環境から Skype for Business Online に移動するには、Move-CsUser コマンドレットまたは Skype for Business Server コントロール パネルのいずれかを使用します。どちらもオンプレミス ツールです。 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-[!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement.md)]
+オンプレミスからオンラインにユーザーを移動した後Skype for Businessユーザーは、その機能のために Skype for Business Online を操作します。 オンプレミスに存在していた連絡先は Skype for Business Online で利用できます。また、ユーザーが将来開催する既存の会議は更新され、リンクは Skype for Business Online を指します。 ユーザーが電話会議を有効にしている場合、会議にはダイヤルイン座標も含まれます。  ユーザーをオンプレミス環境から Skype for Business Online に移動するには、Move-CsUser コマンドレットまたは Skype for Business Server コントロール パネルのいずれかを使用します。どちらもオンプレミス ツールです。 
 
 ユーザーを移動する前に、必ず前提条件を確認 [して](move-users-between-on-premises-and-cloud.md#prerequisites) 、ユーザーをクラウドに移動してください。
 

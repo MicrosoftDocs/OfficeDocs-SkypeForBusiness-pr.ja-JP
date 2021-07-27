@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e79eecaaa0fbdbc00b73358f8a9fa2e147675e6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 2c0933d9347a1aa2da49abf85e7b420413a5961a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282189"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587186"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>IT スタッフを準備Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "52282189"
 
 
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
 | ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サポート スタッフのデプロイとサポートに関与する可能性が高いすべてのサポート スタッフTeams。</li><li>アップグレードの進行に合わせ、追加のスタッフをオンボードするトレーニング 計画を作成しましたか?</li></ul> |
 | ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>IT スタッフが必要な情報を持っている必要があります。</li><li>新機能がリリースされると、トレーニング計画と準備計画を見直してください。</li></ul>|

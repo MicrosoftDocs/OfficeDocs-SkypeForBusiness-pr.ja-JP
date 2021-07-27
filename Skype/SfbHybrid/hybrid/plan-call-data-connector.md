@@ -12,16 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド シナリオでの Skype for Businessテレメトリ ツールを使用してオンプレミスの実装を監視する方法の概要。
-ms.openlocfilehash: 7b6076224280446b7fc52c505fe5fc3ab8d41be4
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856356"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509768"
 ---
 # <a name="plan-call-data-connector"></a>通話データ コネクタの計画
 
 ## <a name="overview"></a>概要
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 このトピックでは、通話データ コネクタを実装するための利点、計画の考慮事項、およびSkype for Business Serverについて説明します。 通話データ コネクタの構成の詳細については、「Configure Call Data [Connector」を参照してください](configure-call-data-connector.md)。
 
@@ -82,12 +84,12 @@ Call Analytics および CQD ツールを使用すると、次のように、通
 |:---------------------------|:---------------------|:---------------------|:------------------|
 | アプリケーション共有メトリック |はい | 制限付き |
 | 顧客の構築情報| はい | はい |
-| ドリルダウン分析 | はい | 不要 |
+| ドリルダウン分析 | はい | なし |
 | メディアの信頼性の指標 | はい | 制限付き |
 | アウトオブザボックス レポート | はい | はい |
-| 概要レポート | はい | 不要 |
+| 概要レポート | はい | なし |
 | ユーザーごとのレポート | はい | はい |
 | レポート セットのカスタマイズ <br> (レポートの追加、削除、変更) | はい | はい |
-| ビデオベースの画面共有の指標 | はい | 不要 |
-| プログラムによるアクセス用のデータ API <br> CQD | 不要 | はい |
+| ビデオベースの画面共有の指標 | はい | なし |
+| プログラムによるアクセス用のデータ API <br> CQD | いいえ | はい |
 ||||

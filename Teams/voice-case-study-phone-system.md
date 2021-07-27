@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso のケース スタディ
+title: 'Contoso のケース スタディ: 電話システム企業のケース スタディ'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,17 +13,17 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams企業向け音声ケース スタディ
+description: 'Teams企業向け音声ケース スタディ: 電話システム'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 995b4ddf9c07dea57c8d4de9940776d5137c2d02
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ee15ef9bb42a28023c86963dd9100797c51edc3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101033"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587146"
 ---
-# <a name="contoso-case-study-phone-system"></a>Contoso のケース スタディ: 電話システム
+# <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso のケース スタディ: 電話システム企業のケース スタディ
 
 地理的な場所や他の要因に応じて、Contoso は次のテレフォニー ソリューションを使用してオフィスを持っています。
 
@@ -74,7 +74,7 @@ Contoso は、質問に対する回答に基づいて、次の点を決定しま
 
 次の図は、デプロイの初期Skype for Business エンタープライズ VoIPと、この展開が Microsoft 通話プランと直接ルーティングの両方に移行された方法を示しています。
 
-![状態の前と後を示す図](media/voice-case-study-1.png)
+![ダイアグラムは、状態の前と後を示しています。](media/voice-case-study-1.png)
 
 ## <a name="site-type-b-traditional-legacy-telephony-systems"></a>サイトの種類 B: 従来のレガシ テレフォニー システム
 
@@ -102,12 +102,12 @@ Contoso は、質問に対する回答に基づいて、次の点を決定しま
 次の図は、リモート サイトを使用した元のレガシ システムのデプロイと、ローカル メディアの最適化を使用したダイレクト ルーティング デプロイへの移行を示しています。
 
 **元のレガシ デプロイ**  
- ![状態の前と後を示す図](media/voice-case-study-2.png)
+ ![ダイアグラムは、状態の前と後を示しています。](media/voice-case-study-2.png)
 
 
 **直接ルーティングを使用したデプロイ**
 
-![状態の前と後を示す図](media/voice-case-study-3.png)
+![前と後の状態を示す図。](media/voice-case-study-3.png)
  
 ## <a name="site-type-c-combination-of-skype-for-business-enterprise-voice-and-traditional-legacy-telephony-systems"></a>サイトの種類 C: 従来のレガシ Skype for Business エンタープライズ VoIPシステムの組み合わせ
 
@@ -137,10 +137,10 @@ Contoso は、質問に対する回答に基づいて、次の点を決定しま
 次の図は、元のSkype for Business エンタープライズ VoIPレガシ テレフォニー システムのデプロイと、ダイレクト ルーティングを使用した混合デプロイへの移行を示しています。
 
 **元の混合デプロイ** 
- ![状態の前を示す図](media/voice-case-study-4.png)
+ ![前の状態を示す図 1。](media/voice-case-study-4.png)
 
 **ダイレクト ルーティングを使用した混合デプロイ** 
- ![状態の前を示す図](media/voice-case-study-4a.png)
+ ![前の状態を示す図 2。](media/voice-case-study-4a.png)
 
 
 ## <a name="calling-plans"></a>通話プラン
