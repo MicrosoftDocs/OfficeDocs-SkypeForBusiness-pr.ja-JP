@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この記事では、オンプレミス環境の使用停止後に属性を管理する方法について説明します。
-ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 32cd4c6da893e4ba336007d3f5d5f3f8fdb5ca90
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510648"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574322"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>使用停止後に属性を管理する方法を決定する
 
@@ -59,7 +59,7 @@ ms.locfileid: "53510648"
 
   ![Active Directory ユーザーとコンピューター ツール](../media/disable-hybrid-1.png)
   
--  ユーザーが移動前にオンプレミスの値を持っていなかった場合は、Skype for Business Online PowerShell モジュールの `msRTCSIP-Line` `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps)コマンドレットの - パラメーターを使用して電話番号を変更できます。
+-  ユーザーが移動前にオンプレミスの値を持っていなかった場合は、Teams PowerShell モジュールの `msRTCSIP-Line` `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps)コマンドレットの - パラメーターを使用して電話番号を変更できます。
 
 これらの手順は、ハイブリッドを無効にした後に作成された新しいユーザーには必要ありません。また、それらのユーザーはクラウドで直接管理できます。 これらのメソッドを組み合わせ、msRTCSIP 属性をオンプレミスの Active Directory に配置した状態にした方が快適な場合は、オンプレミスの Skype for Business サーバーをイメージしSkype for Businessできます。 ただし、すべての msRTCSIP 属性をクリアし、従来のアンインストールを実行する場合は、Skype for Business Server 2 を使用します。
 
@@ -140,13 +140,13 @@ ms.locfileid: "53510648"
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. ユーザー プロビジョニングが完了するのを待ちます。 ユーザー プロビジョニングの進行状況を監視するには、次の [オンライン PowerShell] コマンドSkype for Business実行します。 次の手順Skype for Business Online PowerShell コマンドは、プロセスが完了すると、空の結果を返します。
+7. ユーザー プロビジョニングが完了するのを待ちます。 PowerShell コマンドで次のコマンドを実行して、ユーザープロビジョニングTeams監視できます。 次のTeams PowerShell コマンドは、プロセスが完了すると、空の結果を返します。
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. [オンライン PowerShell] Skype for Businessを実行して電話番号を割り当て、ユーザーに電話番号を割り当電話システム。
+8. PowerShell コマンドで次Teamsを実行して電話番号を割り当て、ユーザーに電話番号を割り当電話システム。
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -161,7 +161,7 @@ ms.locfileid: "53510648"
    > [!Note]
    >  引き続き Skype for Businessエンドポイント (Skype クライアントまたはサードパーティの電話) がある場合は、-HostedVoiceMail を $true に設定します。 組織が音声が有効なユーザー Teamsエンドポイントのみを使用している場合、この設定はユーザーには適用されません。 
 
-9. 機能が正電話システムユーザーを確認します。 次の手順Skype for Business Online PowerShell コマンドは、プロセスが完了すると、空の結果を返します。
+9. 機能が正電話システムユーザーを確認します。 次のTeams PowerShell コマンドは、プロセスが完了すると、空の結果を返します。
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -187,11 +187,13 @@ ms.locfileid: "53510648"
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-    Skype for Businessオンライン PowerShell コマンド:
+
+    TeamsPowerShell コマンド:
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
+
 12. 方法 2 のすべての手順を完了したら、「ハイブリッド[](decommission-move-on-prem-endpoints.md)アプリケーション エンドポイントをオンプレミスからオンラインに移動する」および「オンプレミス[Skype for Business Server](decommission-remove-on-prem.md)を削除する」を参照して、Skype for Business Server オンプレミス展開を削除する追加の手順を参照してください。
 
 

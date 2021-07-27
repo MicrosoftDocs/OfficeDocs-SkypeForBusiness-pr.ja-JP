@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: オンプレミス環境を使用停止する際に DNS エントリを管理するSkype for Business手順。
-ms.openlocfilehash: a5321aa187a88505b3973c3e5418f4a88e1e6f69
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: d51cd3bb7617eaca563de35e708bb6ab56368ab3
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486247"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510768"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>DNS エントリを更新して、組織がすべてのユーザーのみTeamsする
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 以前にオンプレミスの展開が Skype for Business Server または Lync Server に存在していた組織には、オンプレミスの展開を指す DNS エントリSkype for Businessがあります。 これらのレコードは、組織にオンプレミスのユーザーが含まれる場合Skype for Businessです。 ただし、組織にオンプレミスの Skype for Business または Lync Server ユーザーが存在しなくなった場合、これらの元のレコードはオンプレミス展開では不要になります。これらの **DNS** エントリは、オンプレミスから Teams への移行の一環として Microsoft 365 をポイント (または場合によっては削除) に更新する必要があります。 *Microsoft は、お客様に代わってこれらの DNS レコードを更新することはできません。*
 

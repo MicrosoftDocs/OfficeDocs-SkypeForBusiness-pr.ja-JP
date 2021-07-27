@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
-ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
+ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
+ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53479054"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53463300"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>クイック スタート - 会議、ウェビナー、ライブ イベント 
 
@@ -42,7 +42,8 @@ Microsoft Teams では、会議、ウェビナー、ライブ イベントなど
 
 会議の種類の違いによって、参加者の制限と参加者の機能も異なります。 
 
-次の表は、3 種類の会議、推奨される参加者の数、および参加者が会議で対話する方法を簡単にまとめたものです。各タイプの会議の詳細については、表の後に記載しています。<br><br>
+次の表は、3 種類の会議、推奨される参加者の数、および参加者が会議で対話する方法を簡単にまとめたものです。 各種類の会議の詳細については、表に従ってください。
+<br><br>
 
 | 会議の種類 | Number of Participants | 操作 | サポートされている登録 |
 |----------|--------|--------|-----|
@@ -53,7 +54,7 @@ Microsoft Teams では、会議、ウェビナー、ライブ イベントなど
 
 *通常 10,000 人が、2021 年 12 月 31 日まで 20,000 人に増やされます。<br>
 
-**通常 10,000 人が、2021 年 12 月 31 日まで 20,000 人に増やされます。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](/stream/live-events-assistance) が必要であることにご留意ください。 
+**通常 10,000 人が、2021 年 12 月 31 日まで 20,000 人に増やされます。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](https://docs.microsoft.com/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](https://docs.microsoft.com/stream/live-events-assistance) が必要であることにご留意ください。 
 
 大規模な会議で最適なエクスペリエンスを実現するために、Microsoft では Teams デスクトップ クライアントまたは Teams モバイル クライアントの使用をお勧めします。 大規模な会議の発表者は、Teams デスクトップ クライアントを使用する必要があります。 大規模な会議の開催に関するその他のヒントについては、「[大規模なTeams 会議のベスト プラクティス](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)」を参照してください。
 
@@ -63,7 +64,7 @@ NDI は会議、ウェビナー、ライブ イベントで完全にサポート
 
 ### <a name="meetings"></a>会議
 
-Teams の **会議** には、最大 1,000 人のユーザー向けの音声、ビデオ、画面共有、および 1,000 人を超える参加者の [閲覧専用機能](view-only-meeting-experience.md)が含まれます。 参加者は、Teams 会議に参加するために組織のメンバーである (または Teams アカウントを持っている) 必要はありません。 予定表の招待状から会議参加のリンクを使用して直接参加することもできるし、利用可能な場合は音声通話で参加することもできます。  
+Teams の **会議** には、最大 1,000 人のユーザー向けの音声、ビデオ、画面共有、および 1,000 人を超える参加者の[閲覧専用機能](view-only-meeting-experience.md)が含まれます。 参加者は、Teams 会議に参加するために組織のメンバーである (または Teams アカウントを持っている) 必要はありません。 予定表の招待状から会議参加のリンクを使用して直接参加することもできるし、利用可能な場合は音声通話で参加することもできます。  
 
 管理者は、会議の設定を構成し、会議ポリシーを指定して組織で有効にする会議機能を制御します。  
 
@@ -140,7 +141,7 @@ Teams の **会議** には、最大 1,000 人のユーザー向けの音声、�
 
 ## <a name="apps-for-meetings"></a>会議用アプリ
 
-Microsoft では、会議アプリを統合して使用することで、会議エクスペリエンスを向上させます。たとえば、Teams 会議のホワイトボード統合は、Teams 会議の参加者が共有デジタル キャンバスで一緒に描画、スケッチ、および書き込みを行える Whiteboard Web アプリを利用しています。
+Microsoft では、会議アプリを統合して使用することで、会議エクスペリエンスを強化できます。 たとえば、Teams 会議のホワイトボード統合は、Teams 会議の参加者が共有デジタル キャンバスで一緒に描画、スケッチ、および書き込みを行える Whiteboard Web アプリを利用しています。
 
 Teams で提供されるアプリを使用し、認定されたサード パーティ製のアプリとテンプレートを使用して、独自のカスタム アプリを作成することで、Teams の展開に会議アプリを追加できます。 
 

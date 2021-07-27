@@ -1471,8 +1471,6 @@ items:
                 href: class-insights.md
               - name: SIS データを Insights と同期する
                 href: education-insights-sis-data-sync.md
-              - name: Insights へのユーザー アクセスを管理する
-                href: education-insights-manage-access.md
               - name: Reflect の使用を開始する
                 href: reflect.md
           - name: '教育機関向けの Teams の課題 '
@@ -1489,13 +1487,13 @@ items:
             href: sku-reference-edu.md
       - name: 現場担当者向けの Teams
         items:
-          - name: 現場担当者のクイック スタート ガイド
+          - name: 現場担当者向けのクイックスタート
             href: flw-quickstart.yml
           - name: 現場担当者のスクリプト化された展開
             href: flw-scripted-deployment.md
           - name: 現場担当者のシフトベースのアクセスを管理する
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: Teams の RealWear
+          - name: RealWear for Microsoft Teams
             href: flw-realwear.md
           - name: トランシーバー
             href: walkie-talkie.md
