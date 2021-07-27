@@ -15,12 +15,12 @@ description: このガイダンスを使用して、最初のMicrosoft Teamsワ�
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81ecf9a0f963a1be577149c585424c140df2abd5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 89fb1ac43e199b3c8081735705a7d05bfcae710b
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119356"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587366"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>最初にMicrosoft Teamsする
 
@@ -113,7 +113,8 @@ Teams 2 種類の PSTN 接続をサポートしています。 Microsoft 通話�
 <td><p>アドインを使用して、内部および外部Outlook作成できます。</p>
 <p>PSTN ダイヤルインとダイヤルアウト機能は、電話会議ライセンスで利用できます。</p>
 <p>Teamsアクセスするには、Exchange ハイブリッドが確立されたオンプレミスの Exchange 2016 CU3+ が必要です。ハイブリッド構成ウィザードを使用してハイブリッドデプロイを作成します<a href="/exchange/hybrid-deployment/deploy-hybrid">。</a> </p>
-<p>ハイブリッド構成に加Exchange、OAuth 認証Exchangeを確立します。組織と組織の間で <a href="https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help"> OAuth 認証Exchange構成Exchange Onlineします。</p>
+
+ハイブリッド構成に加Exchange、OAuth 認証をExchangeを確立します。組織と組織の間で[OAuth 認証Exchange構成Exchange Onlineします](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。 
 
 </p></td>
 </tr>
@@ -192,7 +193,7 @@ VoIP/PSTN (Teams</td>
 <p>PSTN ダイヤルインとダイヤルアウト機能は、電話会議ライセンスで利用できます。</p>
 <p>Teamsアクセスするには、Exchangeハイブリッドが確立されたオンプレミスの 2016 CU3+ Exchange必要があります。<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">ハイブリッド構成ウィザードを使用してハイブリッド デプロイを作成します。</a></p>
-<p>管理者は、Teams 会議ポリシーの PreferredMeetingProviderForIslandsMode 属性<a href="/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps">set-csteamsmeetingpolicy</a>を使用して、Skype for Business Outlook アドインを制御できます。</p> 
+<p>管理者は、Teams 会議ポリシーの PreferredMeetingProviderForIslandsMode 属性<a href="/powershell/module/skype/set-csteamsmeetingpolicy">set-csteamsmeetingpolicy</a>を使用して、Skype for Business Outlook アドインを制御できます。</p> 
 </td>
 </tr>
 <tr class="even">
@@ -291,7 +292,7 @@ Teamsは、Exchange Online、SharePoint Online、OneDrive for Business、Microso
   - [Microsoft 365グループは](office-365-groups.md)、チームとチャネルの作成/管理に使用されます。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams IT アーキテクチャとテレフォニー ソリューション ポスター](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 

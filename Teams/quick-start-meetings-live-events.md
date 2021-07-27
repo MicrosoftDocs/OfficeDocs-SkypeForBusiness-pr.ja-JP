@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66fe753e289cb989b354a27e1f0eccad0d3327ea
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
+ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506336"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53479054"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>クイック スタート - 会議、ウェビナー、ライブ イベント 
 
@@ -47,26 +47,19 @@ Microsoft Teams では、会議、ウェビナー、ライブ イベントなど
 | 会議の種類 | Number of Participants | 操作 | サポートされている登録 |
 |----------|--------|--------|-----|
 | 会議  | 最大 20,000 人* <br> | - 最大 1,000 人の参加者は、完全にインタラクティブな同等の会議機能を有します。 <br> - 参加者数が 1,000 を超え、最大 20,000 人の場合には、[閲覧限定](view-only-meeting-experience.md)機能を有します。  | いいえ |
-| ウェビナー | - 最大 1,000 人<br>- [閲覧限定](view-only-meeting-experience.md)機能の制限が間もなく増加します。 |- 最大 1,000 人の参加者は、完全にインタラクティブな機能を有します。 <br> - 対象ユーザーの相互作用を構成可能。 <br> - 発表者を指定できます。 | はい |
-| ライブ イベント | 最大 20,000 人** |- 大規模な視聴者に配信。 <br>- 対象ユーザーの相互作用に対するモデレートされた Q&A。 <br> - 外部発表者を含むプロデューサーと発表者を指定できます。<br>- より高度な運用機能をサポートしています。 | いいえ |
+| ウェビナー | 最大 20,000 人* |- 最大 1,000 人の参加者は、完全にインタラクティブな機能を有します。 <br> - 参加者数が 1,000 を超え、最大 20,000 人の場合には、[閲覧限定](view-only-meeting-experience.md)機能を有します。  <br> - 対象ユーザーの相互作用を構成可能 <br> - 発表者を指定できます | はい |
+| ライブ イベント | 最大 20,000 人** |- 大規模な視聴者に配信 <br>- 対象ユーザーの相互作用に対するモデレートされた Q&A <br> - 外部発表者を含むプロデューサーと発表者を指定できます<br>- より高度な運用機能をサポートしています | いいえ |
 ||||
 
 *通常 10,000 人が、2021 年 12 月 31 日まで 20,000 人に増やされます。<br>
 
 **通常 10,000 人が、2021 年 12 月 31 日まで 20,000 人に増やされます。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](/stream/live-events-assistance) が必要であることにご留意ください。 
 
-**大規模な会議、ウェビナー、ライブ イベントに関する考慮事項** - 大規模な会議を主催する場合は、以下の点を考慮してください。
-
-- 大規模な会議、ウェビナー、ライブ イベントで最適なエクスペリエンスを実現するために、Microsoft では Teams デスクトップ クライアントまたは Teams モバイル クライアントの使用をお勧めします。 
-
-- 大規模な会議、ウェビナー、ライブ イベントの発表者は、Teams デスクトップ クライアントを使用する必要があります。 
-
-- 大規模な会議の開催に関するその他のヒントについては、「[大規模なTeams 会議のベスト プラクティス](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)」を参照してください。
+大規模な会議で最適なエクスペリエンスを実現するために、Microsoft では Teams デスクトップ クライアントまたは Teams モバイル クライアントの使用をお勧めします。 大規模な会議の発表者は、Teams デスクトップ クライアントを使用する必要があります。 大規模な会議の開催に関するその他のヒントについては、「[大規模なTeams 会議のベスト プラクティス](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)」を参照してください。
 
 閲覧限定の会議エクスペリエンスの詳細については、「[Teams の閲覧限定会議エクスペリエンス](view-only-meeting-experience.md)」を参照してください。
 
 NDI は会議、ウェビナー、ライブ イベントで完全にサポートされているため、OBS や Wirecast などのツールを使用してブロードキャストを作成できます。 詳細については、「[Microsoft Teams で NDI® テクノロジを使用する](use-ndi-in-meetings.md)」を参照してください。
-
 
 ### <a name="meetings"></a>会議
 

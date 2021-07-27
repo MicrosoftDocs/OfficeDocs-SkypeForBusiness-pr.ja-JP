@@ -19,12 +19,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
+ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486147"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565713"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -179,6 +179,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |レコーディングの文字起こしを100% 無効にする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowTranscription = False に設定されていることを確認する。 <li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = False に設定され、承認されている。 </ol>|
 |ユーザーの大半について、文字起こしを無効にし、一方で文字起こしを許可されている特定のユーザーについては選択的に可能とする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。 <li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。 <li>その他のすべてのユーザーには、 CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定され、承認されている。 </ol>|
 
+### <a name="terms-of-use-acceptance"></a>利用規約への同意
+組織に会議録画ポリシーがあり、会議の録画前にユーザーの同意が必要な場合は、[Azure Active Directory の利用規約](/azure/active-directory/conditional-access/terms-of-use)機能を使用します。 この機能により、ユーザーは Microsoft Teams にアクセスする前に、組織のユーザー ポリシーの条件に同意する必要があります。 この機能は、記録ボタンをクリックすることに特化したものではなく、Teams や他の Microsoft 365 アプリを総合的に使用することに関連するものです。 Microsoft は、Teams や Microsoft 365 を使用する場合の全体的な利用規約に、会議記録に関する情報を追加することを提案します。 
 
 ## <a name="permissions-and-storage"></a>アクセス許可とストレージ
 
@@ -264,7 +266,7 @@ Teams 会議の録音のクローズド キャプションは、ユーザーが�
 
 キャプションは、様々な言語的対応力の視聴者を全て包含するコンテンツを制作することを支援してくれます。所有者として、会議のレコーディングにおいてキャプションを隠すこともできます、けれども会議の文字起こしは、削除しない限り Teams で引き続き利用可能となります。
 
-今日においては、レコーディング ビデオ ファイルのクローズド キャプションは、Teams 会議の文字起こしにリンクされています。 このリンクは、ほとんどの場合、ファイルの有効期間にわたって残りますが、ビデオ ファイルが同じ OneDrive for Business または SharePoint Online サイト内にコピーされた場合に、リンクが壊れる可能性があります。これにより、コピーされたビデオ ファイルでキャプションが使用できなくなります。
+今日においては、レコーディング ビデオ ファイルのクローズド キャプションは、Teams 会議の文字起こしにリンクされています。このリンクは、ほとんどの場合、ファイルの有効期間にわたって残りますが、ビデオ ファイルが同じ OneDrive for Business または SharePoint Online サイト内にコピーされた場合に、リンクが壊れる可能性があります。これにより、コピーされたビデオ ファイルでキャプションが使用できなくなります。
 
 Teams の文字起こしとレコーディングの間のリンクに対する今後のいかなる変更も、ここ、およびメッセージ センターの通知で明らかにされます。 今後変更を行うとすれば、作成後 60 日以内のレコーディング ファイルには、会議からの文字起こしをキャプションとして確実に表示させる予定です。
 

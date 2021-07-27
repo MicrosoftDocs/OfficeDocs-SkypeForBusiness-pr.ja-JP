@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso のケース スタディ
+title: 'Teams Contoso のケース スタディ: 緊急通話'
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams企業向け音声ケース スタディ
+description: 'Teams企業向け音声ケース スタディの作成 : 緊急通話'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4503576df8d8e9f3d332cda45eb235d8162cf53
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 69231adb4588039012cceec1063571ddc201c2bb
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786101"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587476"
 ---
 # <a name="contoso-case-study-emergency-calling"></a>Contoso のケース スタディ: 緊急通話
 

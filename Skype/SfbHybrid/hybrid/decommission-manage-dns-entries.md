@@ -17,23 +17,25 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: オンプレミス環境を使用停止する際に DNS エントリを管理するSkype for Business手順。
-ms.openlocfilehash: 77011f0680c0a47e28b5cd44c2be2ff6bb62f1a8
-ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.openlocfilehash: a5321aa187a88505b3973c3e5418f4a88e1e6f69
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53482400"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486247"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>DNS エントリを更新して、組織がすべてのユーザーのみTeamsする
 
-以前にオンプレミスの展開が Skype for Business Server または Lync Server に存在していた組織には、オンプレミスの展開を指す DNS エントリSkype for Businessがあります。 これらのレコードは、組織にオンプレミスのユーザーが含まれる場合Skype for Businessです。 ただし、組織にオンプレミスの Skype for Business または Lync Server ユーザーが存在しなくなった場合、これらの元のレコードはオンプレミス展開では不要になったので、これらの DNS エントリを更新して、オンプレミスから Teams への移行の一環として **Microsoft 365 (** または場合によっては削除) をポイントする必要があります *。Microsoft* はこの手順を実行できません。
+以前にオンプレミスの展開が Skype for Business Server または Lync Server に存在していた組織には、オンプレミスの展開を指す DNS エントリSkype for Businessがあります。 これらのレコードは、組織にオンプレミスのユーザーが含まれる場合Skype for Businessです。 ただし、組織にオンプレミスの Skype for Business または Lync Server ユーザーが存在しなくなった場合、これらの元のレコードはオンプレミス展開では不要になります。これらの **DNS** エントリは、オンプレミスから Teams への移行の一環として Microsoft 365 をポイント (または場合によっては削除) に更新する必要があります。 *Microsoft は、お客様に代わってこれらの DNS レコードを更新することはできません。*
 
-テナント全体に TeamsOnly を付与しようとすると、Teams は DNS をチェックして、組織内の Microsoft 365 検証済みドメインに対してこれらの DNS レコードが存在Microsoft 365判断します。 レコードが見つかり、Microsoft 365 以外を指している場合は、テナント共存モードを TeamsOnly に変更しようとすると、設計上失敗します。 これにより、オンプレミスユーザーを持つハイブリッド組織が TeamsOnly モードをテナントに誤って適用するのを防ぐのは、組織内のすべてのオンプレミス Skype for Business ユーザー (Teams または Skype for Business を使用するかどうか) のフェデレーションが壊れるためです。
+テナント全体に TeamsOnly を付与しようとすると、Teams は DNS をチェックして、以下に示す DNS レコードが組織内の Microsoft 365 検証済みドメインのそれぞれに存在するかどうかを確認します。 レコードが見つかり、Microsoft 365 以外を指している場合は、テナント共存モードを TeamsOnly に変更しようとすると、設計上失敗します。 これにより、オンプレミスユーザーを持つハイブリッド組織が TeamsOnly モードをテナントに誤って適用するのを防ぐのは、組織内のすべてのオンプレミス Skype for Business ユーザー (Teams または Skype for Business を使用するかどうか) のフェデレーションが壊れるためです。
 
 
 ## <a name="how-to-identify-stale-dns-records"></a>古い DNS レコードを識別する方法
 
-組織がすべての Teams のみになるのを妨げる DNS レコードを識別するには、Teams 管理センターを使用して共存モードを TeamsOnly に変更できます。 [アップグレード]**の [組織全体の**  ->  **設定Teams移動します**。 組織が [のみ] になTeams DNS レコードは、エラー メッセージに含まれます。  DNS レコードが見つからない場合、組織の共存モードは TeamsOnly に変更されます。   または、PowerShell を使用Teams同じ操作を実行できます。
+組織がすべての Teams のみになるのを妨げる DNS レコードを識別するには、Teams 管理センターを使用して共存モードを TeamsOnly に変更できます。 [アップグレード]**の [組織全体の**  ->  **設定Teams移動します**。 組織が [のみ] になTeams DNS レコードは、エラー メッセージに含まれます。  DNS レコードが見つからない場合、組織の共存モードは TeamsOnly に変更されます。   
+
+または、PowerShell Teamsを使用して、以下に示すように同じ操作を実行できます。
 
    ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global

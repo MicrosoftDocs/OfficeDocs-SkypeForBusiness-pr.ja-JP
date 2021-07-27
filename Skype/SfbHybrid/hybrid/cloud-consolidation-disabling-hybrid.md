@@ -1,5 +1,5 @@
 ---
-title: ハイブリッドを無効にして移行を完了Teamsのみ
+title: ハイブリッドを無効にして Teams のみの移行を完了する
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,18 +21,21 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この記事では、クラウド統合の一環としてハイブリッドを無効にするための詳細な手順について説明TeamsおよびSkype for Business。
-ms.openlocfilehash: 87bd1f6e0dcabed067174972dd0f0fc51149beb0
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453646"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510508"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>ハイブリッド構成を無効にして、ハイブリッド構成への移行Teamsのみ 
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+
 この記事では、オンプレミス環境を使用停止する前にハイブリッド構成を無効にするSkype for Business説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 2 です。
 
-- 手順 1. [必要なすべてのユーザーをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。
+- 手順 1。 [必要なすべてのユーザーをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。
 
 - **手順 2.ハイブリッド構成を無効にします。** (この記事)
 
@@ -44,7 +47,7 @@ ms.locfileid: "53453646"
 > 手順 2 と手順 3 は、手順 2 と手順 3 の完了の間に既存のハイブリッド アプリケーション エンドポイントを検出できないので、同じメンテナンス ウィンドウで実行する必要があります。
 
 
-## <a name="summary"></a>概要
+## <a name="summary"></a>要約
 
 すべてのユーザーを Skype for Business オンプレミスから Teams のみ Microsoft 365 にアップグレードした後、オンプレミスの展開をSkype for Businessできます。
 

@@ -16,28 +16,28 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsオンラインSkype for Businessハイブリッド接続を実装Skype for Business計画します。
+description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsのハイブリッド接続Skype for Business計画します。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: acfd94d78609ef3428029832ffaf030ca0f34b64
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509828"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574262"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>ハイブリッド接続を計画して、Skype for Business ServerとTeams
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-このトピックを参照して、Skype for Business Server と Teams (または Skype for Business Online から 2021 年 7 月 31 日までのハイブリッド接続を計画する方法について説明します。 オンプレミス環境をクラウドに移動するための最初のステップは、ハイブリッド接続のセットアップです。
+このトピックでは、ハイブリッド接続を計画する方法について説明します。Skype for Business ServerとTeams。 オンプレミス環境をクラウドに移動するための最初のステップは、ハイブリッド接続のセットアップです。
 
 オンプレミスの Skype for Business ユーザーが Teams も並行して使用している場合、これらのユーザーは、Teams クライアントから Skype for Business ユーザーと相互運用することも、Teams クライアントからフェデレーション組織内のユーザーと通信することもできません。 Teams でこの機能を使用できるようにするには、これらのユーザーを Skype for Business オンプレミスからクラウドに移動する必要があります。このためには、Skype for Business ハイブリッド モードを構成する必要があります。 さらに、最適なエクスペリエンスを得る場合、これらのユーザーは Teams のみモードにする必要があります。これにより、ユーザーのすべての着信呼び出しとチャットがユーザーの Teams クライアントに送信されます。
 
 また、オンプレミスの Skype for Business 展開を停止する前に、ハイブリッド接続をセットアップして、すべてのユーザーをクラウドに移行する必要があります。  ハイブリッド接続を使用すると、自分のスケジュールとビジネス ニーズに基づいてユーザーをクラウドに移行させるよう選択できます。 ダイレクト ルーティングを使用すると、クラウドへの移行の間および移行の完了後も、オンプレミスの音声インフラストラクチャを活用することができます。
 
-このトピックでは Skype for Business Server、既存のオンプレミスの展開と Teams または Skype for Business Online 間のハイブリッド接続を構成するために必要なインフラストラクチャとシステム要件について説明します。
+このトピックでは、既存のオンプレミスの展開と展開の間でハイブリッド接続を構成するために必要なインフラストラクチャとSkype for Business ServerについてTeams。
 
-このトピックを読んでハイブリッド接続を構成する準備ができたら、「ハイブリッド接続を構成する」を参照Skype for Business Server Microsoft 365[または](configure-hybrid-connectivity.md)Office 365。 構成のトピックでは、オンプレミス展開とオンラインまたはオンライン の間のハイブリッド接続をセットアップするTeams手順Skype for Business示します。
+このトピックを読んでハイブリッド接続を構成する準備ができたら、「ハイブリッド接続を構成する」を参照Skype for Business Server Microsoft 365[または](configure-hybrid-connectivity.md)Office 365。 構成に関するトピックでは、オンプレミス展開とハイブリッド 接続のセットアップに関する詳細なガイダンスをTeams。
 
 > [!Important]
 > Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その後サービスにアクセスできなくなりました。  さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間でサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
@@ -70,9 +70,9 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
 
 <a name="BKMK_Overview"> </a>
 
- Skype for Business Server と Teams または Skype for Business Online のオンプレミス展開の間にハイブリッド接続を設定すると、一部のユーザーをオンプレミスに配置し、一部のユーザーをオンラインでホームに設定できます。
+ Skype for Business Server と Teams のオンプレミス展開の間にハイブリッド接続を設定すると、一部のユーザーをオンプレミスに配置し、一部のユーザーをオンラインでホームに設定できます。
 
-この種類の構成は、共有 SIP アドレス空間機能に依存し、次の図に示すように、contoso.com などのドメインのユーザーが Skype for Business Server と Teams または Skype for Business Online を使用する間で分割される場合があります。
+この種類の構成は、共有 SIP アドレス空間の機能に依存し、次の図に示すように、contoso.com などのドメインのユーザーは、Skype for Business Server と Teams を使用する間で分割される場合があります。
 
 ![Skype for Business Hybrid接続 - 分割ドメイン](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
@@ -101,16 +101,16 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
 - Azure Active Directory Connect、オンプレミス ディレクトリをユーザーまたはユーザーのディレクトリMicrosoft 365同期Office 365。 詳細については、「Azure AD Connect: アカウントとアクセス許可[」を参照してください](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
 - Skype for Business Server管理ツール。 これらは、ユーザーをオンプレミスからクラウドに移動するために必要です。 これらのツールは、オンプレミス展開とインターネットの両方にアクセスできるサーバーにインストールする必要があります。
-- オンライン管理ツール。 管理センターまたは管理センター Teams使用して、Windows PowerShellとオンラインTeams管理Skype for Businessできます。 PowerShell を使用してオンラインのTeamsまたはSkype for Businessするには、PowerShell モジュールをダウンロードTeamsインストールします。 (オンライン Skype for Businessが廃止されました)。
+- オンライン管理ツール。 管理センターまたは管理センター Teams使用して、Windows PowerShell管理Teams。 PowerShell を使用してサーバーを管理するにはTeams PowerShell モジュールをダウンロードしてTeamsインストールします。 (オンライン Skype for Businessが廃止されました)。
 - 共有 SIP アドレス空間を有効にする必要があります。また、オンプレミスの展開は、ホスティング プロバイダーとして Microsoft 365または Office 365を使用するように構成する必要があります。 ハイブリッド接続を構成するために必要な手順の詳細については [、「Configure hybrid connectivity」を参照してください](configure-hybrid-connectivity.md)。
 
-ハイブリッド接続を構成した後、ユーザーをオンラインまたはオンラインTeamsにSkype for Businessできます。 詳細については、「ユーザーをオンプレミスからオンプレミスに移動する[」](move-users-from-on-premises-to-teams.md)および「TeamsからオンラインにユーザーをSkype for Business[する」を参照してください](move-users-from-on-premises-to-skype-for-business-online.md)。
+ハイブリッド接続を構成した後、ユーザーを別のユーザーにTeams。 詳細については、「ユーザーを[オンプレミスからユーザーに移動する」を参照Teams。](move-users-from-on-premises-to-teams.md)
 
 ## <a name="server-version-requirements"></a>サーバーのバージョン要件
 
 <a name="BKMK_Topology"> </a>
 
-Teams または Skype for Business Onlineを使用してハイブリッドの展開を構成するには、次のサポートされているトポロジのいずれかを使用する必要があります。
+ハイブリッドの展開を構成するには、Teamsサポートされているトポロジのいずれかを使用する必要があります。 
 
 - Skype for Business Server 2019 の展開には、Skype for Business Server 2019 を実行するすべてのサーバーが含まれています。
 - Skype for Business Server 2015 の展開には、Skype for Business Server 2015 を実行するすべてのサーバーが含まれています。
@@ -120,7 +120,7 @@ Teams または Skype for Business Onlineを使用してハイブリッドの展
   - Lync Server 2013 および Skype for Business Server 2019
   - Lync Server 2013 および Skype for Business Server 2015
 
-*任意* のトポロジでハイブリッド音声が必要な場合は、フェデレーション エッジとして指定されているエッジ サーバーと、SIP フェデレーションに関連付けられているプールの両方が Skype for Business 2015 以降で実行されている必要があります。 Lync 2013 プールが存在する場合、ユーザーは Lync 2013 プールに残ります。 詳細については、「プラン[電話システム PSTN Connectivity」を参照Skype for Business Server。](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)
+*任意* のトポロジでハイブリッド音声が必要な場合は、フェデレーション エッジとして指定されているエッジ サーバーと、SIP フェデレーションに関連付けられているプールの両方が Skype for Business 2015 以降で実行されている必要があります。 Lync 2013 プールが存在する場合、ユーザーは Lync 2013 プールに残ります。 詳細については、「音声ソリューションを [計画する」を参照してください](/MicrosoftTeams/cloud-voice-landing-page.md)。
 
 **Lync Server 2010** を含む次のトポロジは、インスタント メッセージングと会議Skype for Businessオンラインでサポートされています。 Lync Server **2010** を含むトポロジは、ハイブリッド音声およびハイブリッド 音声Teams。
 

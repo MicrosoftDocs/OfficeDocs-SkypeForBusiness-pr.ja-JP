@@ -17,18 +17,18 @@ description: ライブ イベント記録ポリシーについて説明します
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8d25f37f94a514b83bd37e44d1b022bac064a839
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: c0f5f089bf4f1a0dc2c28a0b718d89b9200a4676
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739657"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587336"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>ライブ イベント記録ポリシー (Microsoft Teams
 
 ライブ イベントを記録するためのオプションMicrosoft Teamsがあります。 記録オプションは、記録ポリシーを使用して設定されます。 この記事では、さまざまな設定について説明します。
 
-記録オプションは、PowerShell コマンド [Set-CsTeamsMeetingBroadcastPolicy を使用して設定されます](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)。
+記録オプションは、PowerShell コマンド [Set-CsTeamsMeetingBroadcastPolicy を使用して設定されます](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)。
 
 ## <a name="scheduling-and-option-behaviors"></a>スケジュールとオプションの動作
 
@@ -48,7 +48,7 @@ ms.locfileid: "52739657"
 
 ブロードキャスト ポリシーの一部として、ライブ イベントの記録をオンまたはオフに切り替える設定があります。
 
-|                                 | プロデューサーと発表者が使用できるレコーディング | 出席者が利用できる記録 |
+| &nbsp;| プロデューサーと発表者が使用できるレコーディング | 出席者が利用できる記録 |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | 常に記録する               | 無効で選択されている                                | 有効で選択されている         |
 | オーガナイザーは記録可能か記録しないか | 既定で有効および選択されている                  | 既定で有効および選択されている   |

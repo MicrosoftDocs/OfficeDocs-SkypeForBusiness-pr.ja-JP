@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: この表を使用して、米国 (プエルトリコを含む) で電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: eb038804e7b5a448ac0fb7e9dd10e3d85b0f6eb0
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 573e77fa1cfdb7048240f642e7c7db40953e2673
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460847"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510748"
 ---
 # <a name="phone-number-management-for-the-united-states"></a>電話の番号管理
 
@@ -37,13 +37,13 @@ ms.locfileid: "50460847"
   
 | 実行する操作 | これらの手順を実行して正しいフォームをダウンロードする |
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。  <br/> |このフォームをダウンロードします。<br/>  [米国の新しい電話番号要求 (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> 記入し、[マイクロソフトに送信します](mailto:gcstnmsd@microsoft.com)。 |
-|転送された電話番号を取得します。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [米国の承認状 (LOA) (ユーザー番号とサービス番号) (v.3.3)(en-us)](https://download.microsoft.com/download/7/3/8/73843692-632f-4078-874d-021f9680e12b/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf)<br/>[米国の承認状 (LOA) (無料電話番号) (v.3.3)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**注** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとしている場合は、承認状 (LOA) に記入して、それを送信する必要があります。 詳細[については、「電話番号を電話番号にTeams」](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)を参照してください。          <br/>  <br/>   記入し、[マイクロソフトに送信します](mailto:ptn@microsoft.com)。  <br/> |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。  <br/> |このフォームをダウンロードします。<br/>  [米国の新しい電話番号要求 (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> 入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 |
+|転送された電話番号を取得します。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [米国の承認状 (LOA) (ユーザー番号とサービス番号) (v.3.3)(en-us)](https://download.microsoft.com/download/7/3/8/73843692-632f-4078-874d-021f9680e12b/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf)<br/>[米国の承認状 (LOA) (無料電話番号) (v.3.3)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**注** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとしている場合は、承認状 (LOA) に記入して、それを送信する必要があります。 詳細[については、「電話番号を電話番号にTeams」](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)を参照してください。          <br/>  <br/>   入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
 |ユーザーの番号をサービス番号に変更するか、サービス番号をユーザーの番号に変更する  <br/> |[PIN と](mailto:ptn@microsoft.com) 変換する番号の一覧を送信してください。 PIN を設定するには、こちらを参照 [してください](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
-|番号を別のMicrosoft 365またはOffice 365に転送します。  <br/> |移行するユーザー (サブスクライバー) の電話番号のリストを、番号の転送元の組織の PIN とともに、[マイクロソフトに送信](mailto:ptn@microsoft.com)します。 PIN を設定するには、こちらを参照 [してください](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
+|番号を別のMicrosoft 365またはOffice 365に転送します。  <br/> |[転送元の組織](contact-pstn-service-desk.md) の PIN と共に、転送するユーザー (サブスクライバー) 電話番号の一覧に関する手順については、PTSN にお問い合わせください。 PIN を設定するには、こちらを参照 [してください](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
 |ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

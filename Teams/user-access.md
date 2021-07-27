@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 770dcea62d6f3dc65f576a3d64a520dd4de2ecad
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: c996df5c0253f3eee02a2b76297952ccf9cf56d3
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637729"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587486"
 ---
 # <a name="manage-user-access-to-teams"></a>Teams へのユーザー アクセスを管理する
 
@@ -33,18 +33,18 @@ ms.locfileid: "51637729"
 既定では、ライセンス プラン (Microsoft 365 Enterprise E3 や Microsoft 365 Business Premium など) がユーザーに割り当てられると、Teams ライセンスが自動的に割り当てられるので、ユーザーは Teams に対して有効になります。 いつでもライセンスを削除Teams割り当てると、ユーザーのライセンス認証を無効または有効にできます。
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Teams 管理</a>センター から管理されるメッセージング ポリシーを使用して、Teams でユーザーが使用できるチャットおよびチャネル メッセージング機能を制御します。 既定のポリシーを使用するか、組織内のユーザーに対して 1 つ以上のカスタム メッセージング ポリシーを作成できます。 詳細については、「Manage [messaging policies in Teams 」を参照してください](messaging-policies-in-teams.md)。
-管理センター Teamsまたは PowerShell を使用してMicrosoft 365ライセンスを管理します。 ライセンスを管理するには、グローバル管理者またはユーザー管理管理者である必要があります。
+ユーザーは、Teamsまたは PowerShell を使用してMicrosoft 365 管理センターライセンスを管理します。 ライセンスを管理するには、グローバル管理者またはユーザー管理管理者である必要があります。
 
 > [!NOTE]
 > プロジェクトや他の動的なイニシアティブTeamsチームを有機的に形成できるよう、すべてのユーザーに対してチームの管理を有効にすることをお勧めします。 パイロットを実行している場合でも、すべてのユーザーに対して Teams を有効にし続け、パイロット グループのユーザーへの通信のみを対象とすると役に立つ場合があります。
 
-## <a name="using-the-microsoft-365-admin-center"></a>管理センター Microsoft 365使用する
+## <a name="using-the-microsoft-365-admin-center"></a>コマンドを使用Microsoft 365 管理センター
 
-Teamsレベルのライセンスは、管理センターのユーザー管理インターフェイスMicrosoft 365直接管理されます。 管理者は、新しいユーザー アカウントの作成時に新しいユーザー、または既存のアカウントを持つユーザーにライセンスを割り当てできます。 
+Teamsレベルのライセンスは、ユーザー管理インターフェイスを使用Microsoft 365 管理センター直接管理されます。 管理者は、新しいユーザー アカウントの作成時に新しいユーザー、または既存のアカウントを持つユーザーにライセンスを割り当てできます。 
 
 > [!IMPORTANT]
 > 管理者は、すべてのライセンスを管理するには、グローバル管理者またはユーザー管理管理者Microsoft Teams必要があります。
-管理センター Microsoft 365を使用して、一度Teamsまたは小規模なユーザーのライセンスを管理します。 [ライセンス] Teams (現時点では最大20 人のユーザー) または [アクティブなユーザー]**ページで** 管理できます。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
+一度Microsoft 365 管理センターのユーザーまたはTeamsのライセンスを管理するには、次のコマンドを使用します。 [ライセンス] Teams (現時点では最大20 人のユーザー) または [アクティブなユーザー]**ページで** 管理できます。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
 
 数百または数千人のユーザーなど、多数のユーザーの Teams ライセンスを管理する必要がある場合は[、powerShell](#using-powershell)またはグループベースのライセンスを[Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign)で使用します。 
 
@@ -52,9 +52,9 @@ Teamsレベルのライセンスは、管理センターのユーザー管理イ
 
 手順は、[ライセンス] ページと [アクティブなユーザー] ページ **の違****いによって異** なります。  詳細な手順については、「ユーザーにライセンスを割り当 [てる」を参照してください](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
-|||
+|&nbsp;|&nbsp;|
 |---------|---------|
-|![ユーザーに対Teamsライセンスが有効になっている場合のスクリーンショット](media/assign-teams-licenses-1.png)    | ![ユーザーに対Teamsライセンスが有効になっている場合のスクリーンショット](media/assign-teams-licenses-2.png)        |
+|![ユーザーに対して有効Teamsライセンスのスクリーンショット 1](media/assign-teams-licenses-1.png)    | ![ユーザーに対して有効Teamsライセンスのスクリーンショット 2](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>ライセンスを削除Teamsする
 
@@ -63,9 +63,9 @@ Teamsレベルのライセンスは、管理センターのユーザー管理イ
 
 ユーザーから Teams ライセンスを削除すると、そのユーザーに対して Teams が無効になり、アプリ起動ツールまたはホーム ページに Teams が表示されなくなりました。 詳細な手順については、「ユーザーからのライセンス [の割り当てを解除する」を参照してください](/microsoft-365/admin/manage/remove-licenses-from-users)。
 
-|||
+|&nbsp;|&nbsp;|
 |---------|---------|
-|![ユーザーのTeamsが無効になっている場合のスクリーンショット](media/remove-teams-licenses-1.png)    | ![ユーザーのTeamsが無効になっている場合のスクリーンショット](media/remove-teams-licenses-2.png)        |
+|![ユーザーに対して無効Teamsライセンスのスクリーンショット 1](media/remove-teams-licenses-1.png)    | ![ユーザーに対して無効Teamsライセンスのスクリーンショット 2](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
@@ -110,7 +110,7 @@ $x = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans "TEAMS1"
 Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acctSKU).Substring($acctSKU.IndexOf(":")+1,  $acctSKU.Length-$acctSKU.IndexOf(":")-1) -and $_.IsLicensed -eq $True} |  Set-MsolUserLicense -LicenseOptions $x
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [追加Teamsライセンスを割り当てる](teams-add-on-licensing/assign-teams-add-on-licenses.md)

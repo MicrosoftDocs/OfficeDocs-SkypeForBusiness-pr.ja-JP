@@ -17,19 +17,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: ユーザーをオンラインからオンプレミスSkype for Businessする方法について学習します。
-ms.openlocfilehash: 78e86e48e9f409c9e2a9f348cada9c24f30c6279
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: ユーザーをユーザーからオンプレミスTeamsする方法について学習します。
+ms.openlocfilehash: db1557c3929bdf62557e31a7fce78050569016ee
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509788"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574092"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>クラウドからオンプレミスにユーザーを移動する 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-必要に応じて、以前にオンプレミスからクラウドに移行されたユーザー (Skype for Business Online または Teams Only を使用する場合) をオンプレミスに移動できます。 Skype for Business Online モードまたは TeamsOnly モードから Skype for Business Server のオンプレミス展開にユーザーを移動するには、Move-CsUser コマンドレットまたは Skype for Business Server コントロール パネルのいずれかを使用します。どちらもオンプレミス ツールです。 ユーザーをオンプレミス展開に戻す場合は、ユーザーを移動するプールを決定する必要があります。
+必要に応じて、以前にオンプレミスから移行されたユーザーをオンプレミスに移動し、Teamsに戻します。 Skype for Business Online モードまたは TeamsOnly モードから Skype for Business Server のオンプレミス展開にユーザーを移動するには、Move-CsUser コマンドレットまたは Skype for Business Server コントロール パネルのいずれかを使用します。どちらもオンプレミス ツールです。 ユーザーをオンプレミス展開に戻す場合は、ユーザーを移動するプールを決定する必要があります。
 
 > [!Important]
 > ユーザーが以前 TeamsOnly モードで、CU8 で Skype for Business Server 2015 より前のバージョンを使用している場合は、そのユーザーの TeamsUpgradePolicy の TeamsOnly モードの割り当てを削除する必要があります。 オンプレミスのユーザーは mode= TeamsOnly を持つ必要があります。  それ以降のバージョンのSkype for Business Serverこの割り当てを自動的に削除します。 詳細については [、「Grant-CsTeamsUpgradePolicy」を参照してください](/powershell/module/skype/grant-csteamsupgradepolicy)。

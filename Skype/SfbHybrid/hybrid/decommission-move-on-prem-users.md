@@ -17,20 +17,22 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: ユーザーを移動してから、オンプレミスSkype for Business使用を停止します。
-ms.openlocfilehash: 992f2dd479e0b8ca8a3f11f069e8ef049259ad9c
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: bc98ebfcfb7ad4d4b2c64942b5f84500a98cdc84
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420812"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510718"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>オンプレミス環境を使用停止する前に必要なユーザーを移動する
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 この記事では、オンプレミス環境を使用停止する前に、必要なユーザーを Microsoft クラウドに移動するSkype for Business説明します。 これは、オンプレミス環境を使用停止にするための次の手順 1 です。
 
 - **手順 1.必要なすべてのユーザーをオンプレミスからオンラインに移動します。** (この記事)
 
-- 手順 2. [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
+- 手順 2。 [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
 
 - 手順 3. [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移行します](decommission-move-on-prem-endpoints.md)。 この手順を完了するまで、上記の手順 2 を実行するまで、既存のハイブリッド アプリケーション エンドポイントは検出できません。 同じメンテナンス ウィンドウで手順 2 と 3 の両方を実行する予定です。
 

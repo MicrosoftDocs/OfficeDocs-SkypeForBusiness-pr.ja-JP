@@ -293,6 +293,8 @@ items:
             href: legal-hold.md
           - name: コンテンツ検索
             href: content-search.md
+          - name: Advanced eDiscovery の　Teams ウォークフロー
+            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: 監査
             href: audit-log-events.md
           - name: カスタマー キー
@@ -565,14 +567,14 @@ items:
         href: set-up-your-team-hierarchy.md
       - name: 教育以外のテナント向け監視付きチャット
         href: supervised-chat-non-edu.md
-  - name: 会議、会議、ライブ イベント
+  - name: ミーティングと電話会議
     items:
-      - name: クイック スタート - 会議とライブ イベント
-        href: quick-start-meetings-live-events.md
       - name: 展開の計画
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: 会議
+      - name: 会議、ウェビナー、ライブ イベント
         items:
+          - name: クイック スタート
+            href: quick-start-meetings-live-events.md
           - name: 会議ポリシーを管理する
             items:
               - name: 概要
@@ -599,42 +601,58 @@ items:
             href: meeting-settings-in-teams.md
           - name: ユーザーの設定を変更したときに送信されるメール
             href: emails-sent-to-users-when-their-settings-change-in-teams.md
-          - name: ユーザーが会議に参加するときに名前を記録できるようにする
-            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-          - name: 会議の入退室通知をオンまたはオフにする
-            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-          - name: Teams で NDI® テクノロジを使用する
-            href: use-NDI-in-meetings.md
-          - name: Teams 会議での挙手オプション
-            href: raise-hand-meetings.md
-          - name: サポートされていないブラウザーでの Teams 会議
-            href: unsupported-browsers.md
-          - name: Teams でのデスクトップ共有を構成する
-            href: configure-desktop-sharing.md
-          - name: Teams のクラウド会議のレコーディング
-            href: cloud-recording.md
-          - name: OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
-            href: tmr-meeting-recording-change.md
-          - name: コンタクト センターの統合
-            href: teams-contact-center.md
-          - name: Outlook で Teams の会議アドインを使用する
-            href: teams-add-in-for-outlook.md
-          - name: Teams と連動するように Skype 会議アプリを構成する
-            href: configure-skype-meetings-app-to-work-with-teams.md
-          - name: 'ユーザーの [電話する] 機能をセットアップする'
-            href: set-up-the-call-me-feature-for-your-users.md
-          - name: 会議出席レポートを入手する
-            href: teams-analytics-and-reports/meeting-attendance-report.md
+          - name: 会議と会議の機能を管理する
+            items:
+              - name: ユーザーが会議に参加するときに名前を記録できるようにする
+                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+              - name: 会議の入退室通知をオンまたはオフにする
+                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+              - name: Teams で NDI® テクノロジを使用する
+                href: use-NDI-in-meetings.md
+              - name: サポートされていないブラウザーでの Teams 会議
+                href: unsupported-browsers.md
+              - name: Teams でのデスクトップ共有を構成する
+                href: configure-desktop-sharing.md
+              - name: Teams のクラウド会議のレコーディング
+                href: cloud-recording.md
+              - name: OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
+                href: tmr-meeting-recording-change.md
+              - name: コンタクト センターの統合
+                href: teams-contact-center.md
+              - name: Outlook で Teams の会議アドインを使用する
+                href: teams-add-in-for-outlook.md
+              - name: Teams と連動するように Skype 会議アプリを構成する
+                href: configure-skype-meetings-app-to-work-with-teams.md
+              - name: 'ユーザーの [電話する] 機能をセットアップする'
+                href: set-up-the-call-me-feature-for-your-users.md
+              - name: 会議出席レポートを入手する
+                href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: Teams でホワイトボードを管理する
+                href: manage-whiteboard.md
+              - name: Google Workspace 用のTeams 会議アドオンを設定する
+                href: google-workspace-addon-teams.md
+              - name: クラウド ビデオ相互運用性
+                href: cloud-video-interop.md
+              - name: 表示限定の会議エクスペリエンス
+                href: view-only-meeting-experience.md
           - name: Meeting Migration Service (MMS) のセットアップ
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Teams でホワイトボードを管理する
-            href: manage-whiteboard.md
-          - name: Google Workspace 用のTeams 会議アドオンを設定する
-            href: google-workspace-addon-teams.md
-          - name: クラウド ビデオ相互運用性
-            href: cloud-video-interop.md
           - name: Microsoft Teams でのウェビナーのセットアップ
             href: set-up-webinars.md
+          - name: ライブ イベント
+            items:
+              - name: Teams のライブ イベントについて
+                href: teams-live-events/what-are-teams-live-events.md
+              - name: Teams のライブ イベントの計画
+                href: teams-live-events/plan-for-teams-live-events.md
+              - name: Teams のライブ イベントをセットアップする
+                href: teams-live-events/set-up-for-teams-live-events.md
+              - name: PowerShell を使用して Teams のライブ イベント ポリシーを設定する
+                href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+              - name: Teams のライブ イベント設定を構成する
+                href: teams-live-events/configure-teams-live-events.md
+              - name: ライブ イベント レコーディング ポリシー
+                href: teams-live-events/live-events-recording-policies.md
       - name: 電話会議
         items:
           - name: 展開の計画
@@ -725,20 +743,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: 'ビデオ: Teams での電話会議'
                 href: ./audio-conferencing-in-office-365.md
-      - name: ライブ イベント
-        items:
-          - name: Teams のライブ イベントについて
-            href: teams-live-events/what-are-teams-live-events.md
-          - name: Teams のライブ イベントの計画
-            href: teams-live-events/plan-for-teams-live-events.md
-          - name: Teams のライブ イベントをセットアップする
-            href: teams-live-events/set-up-for-teams-live-events.md
-          - name: PowerShell を使用して Teams のライブ イベント ポリシーを設定する
-            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-          - name: Teams のライブ イベント設定を構成する
-            href: teams-live-events/configure-teams-live-events.md
-          - name: ライブ イベント レコーディング ポリシー
-            href: teams-live-events/live-events-recording-policies.md
       - name: Microsoft Teams Rooms
         items:
           - name: 概要
@@ -811,7 +815,7 @@ items:
                 href: rooms/rooms-manage.md
               - name: メンテナンスと操作
                 href: rooms/rooms-operations.md
-              - name: 組織で Teams をサポートする
+              - name: 既知の問題
                 href: rooms/known-issues.md
               - name: Azure Monitor でのデバイス
                 href: rooms/azure-monitor-manage.md
@@ -897,7 +901,13 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: 国および地域ごとの通話プランの利用可能性
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: 電話システムのダイレクト ルーティング
+          - name: オペレーター 接続
+            items:
+              - name: オペレーター 接続 プラン
+                href: operator-connect-plan.md
+              - name: オペレーター 接続を構成する
+                href: operator-connect-configure.md
+          - name: ダイレクト ルーティング
             items:
               - name: 概要
                 href: direct-routing-landing-page.md
@@ -973,12 +983,6 @@ items:
                         href: direct-routing-protocols-media.md
                   - name: 存続可能ダイレクト ルーティングの接続
                     href: direct-routing-survivable-branch-appliance.md
-          - name: オペレーター 接続
-            items:
-              - name: オペレーター 接続 プラン
-                href: operator-connect-plan.md
-              - name: オペレーター 接続を構成する
-                href: operator-connect-configure.md
       - name: 電話番号
         items:
           - name: 組織のために電話番号を管理する
@@ -1467,6 +1471,8 @@ items:
                 href: class-insights.md
               - name: SIS データを Insights と同期する
                 href: education-insights-sis-data-sync.md
+              - name: Insights へのユーザー アクセスを管理する
+                href: education-insights-manage-access.md
               - name: Reflect の使用を開始する
                 href: reflect.md
           - name: '教育機関向けの Teams の課題 '
@@ -1483,13 +1489,13 @@ items:
             href: sku-reference-edu.md
       - name: 現場担当者向けの Teams
         items:
-          - name: 現場担当者向けのクイックスタート
+          - name: 現場担当者のクイック スタート ガイド
             href: flw-quickstart.yml
           - name: 現場担当者のスクリプト化された展開
             href: flw-scripted-deployment.md
           - name: 現場担当者のシフトベースのアクセスを管理する
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: RealWear for Microsoft Teams
+          - name: Teams の RealWear
             href: flw-realwear.md
           - name: トランシーバー
             href: walkie-talkie.md

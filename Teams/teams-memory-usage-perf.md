@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のメモリ使用方法
 author: msdmaguire
-ms.author: dmaguire
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d218c71a0e3ecdde40559d67e1ad3a408d65a5d9
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
-ms.translationtype: HT
+ms.openlocfilehash: d3e694dcba73cd90b2faa131776210c5d3faf4d5
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878721"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587316"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams のメモリ使用方法
 
