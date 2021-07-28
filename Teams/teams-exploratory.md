@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 946847793ea90e549a555cd9d100cd1ae2809fa3
-ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
+ms.openlocfilehash: 571bc53925bb807d11c16d72f25ad247fe9496b3
+ms.sourcegitcommit: f781600a40e174cfc522e29375a4820b1142e23a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53408756"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596395"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 
@@ -157,7 +157,7 @@ Teams Exploratory ライセンスからユーザーをアップグレードす�
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory エクスペリエンスの利用可能期間
 
-2021 年初頭の時点で、Teams Exploratory は、すべての新規のお客様を対象とした (最初のユーザー サインアップから) 12 か月のサブスクリプションとして利用できます。 新しい Teams Exploratory サブスクリプションは、組織の最初のユーザーが Teams Exploratory にサインアップしたときに開始され、12 か月後に期限切れになります。 有効期限は同じテナントのすべてのユーザーに適用されます。12 か月の期間は最初のユーザーのサインアップした日付から開始します。
+Teams Exploratory は、すべての新規のお客様を対象とした (最初のユーザー サインアップから) 12 か月のサブスクリプションとして利用できます。 新しい Teams Exploratory サブスクリプションは、組織の最初のユーザーが Teams Exploratory にサインアップしたときに開始され、12 か月後に期限切れになります。 有効期限は同じテナントのすべてのユーザーに適用されます。12 か月の期間は最初のユーザーのサインアップした日付から開始します。
 
 > [!NOTE]
 > エクスペリエンスの終了日は組織レベルで構成されます。つまり、同じ組織内のすべてのユーザーに適用されます。 たとえば、ユーザー 1 が 2021 年 1 月 1 日にサブスクリプションにサインアップしたとします。 これにより、2021 年 12 月 31 日を終了日とするサブスクリプションが開始されます。 別のユーザーであるユーザー 2 が、2021 年 10 月 1 日にサブスクリプションにサインアップした場合、 ユーザー 2 は Teams Exploratory を 2 か月間使用できます。これは、ユーザー 1 と同じ組織のサブスクリプションでは、終了日が 2021 年 12 月 31 日となるためです。

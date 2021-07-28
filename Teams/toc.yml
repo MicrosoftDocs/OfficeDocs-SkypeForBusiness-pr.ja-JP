@@ -1487,13 +1487,13 @@ items:
             href: sku-reference-edu.md
       - name: 現場担当者向けの Teams
         items:
-          - name: 現場担当者向けのクイックスタート
+          - name: 現場担当者のクイック スタート ガイド
             href: flw-quickstart.yml
           - name: 現場担当者のスクリプト化された展開
             href: flw-scripted-deployment.md
           - name: 現場担当者のシフトベースのアクセスを管理する
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
-          - name: RealWear for Microsoft Teams
+          - name: Teams の RealWear
             href: flw-realwear.md
           - name: トランシーバー
             href: walkie-talkie.md

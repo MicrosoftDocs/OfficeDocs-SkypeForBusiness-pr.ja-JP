@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3b2c37f7f3731b34abb5337bf954250e0c3564d
-ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
+ms.openlocfilehash: 55307637e18f81775229bb46db51a6f5738cce7c
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51712769"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587046"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel および Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams は、Microsoft 365 クラウドでの通信とデータ共有において
 
 この記事では、Azure Sentinel でチーム アクティビティ ログを収集する方法について説明します。
 
-Sentinel では、管理者は 1 つの場所でセキュリティ管理を行います。 これには次の管理が含まれます。
+Sentinel では、管理者は 1 つの場所でセキュリティ管理を行います。これには、以下が含まれます。
 
 - サード パーティ製デバイス
 - Microsoft Threat Protection
@@ -53,7 +53,7 @@ Sentinel ブックと Runbook を使用すると、セキュリティ監視を *
 
 ## <a name="step-1-collect-teams-logs-enable-audit-logs-in-microsoft-365"></a>手順 1: Teams のログを収集する: Microsoft 365 で監査ログを有効にする
 
-Teams は Microsoft 365 経由でアクティビティを記録するため、監査ログは既定では収集されません。 この機能を有効にするには、[次の手順](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off) を実行します。 Teams のデータは、*Audit.General* 下にある Microsoft 365 監査で収集されます。
+Teams は Microsoft 365 経由でアクティビティを記録するため、監査ログは既定では収集されません。 この機能を有効にするには、[次の手順](/microsoft-365/compliance/turn-audit-log-search-on-or-off) を実行します。 Teams のデータは、*Audit.General* 下にある Microsoft 365 監査で収集されます。
 
 ## <a name="step-2-connect-office-365-logs-to-azure-sentinel"></a>手順 2: Office 365 のログを Azure Sentinel に接続する
 
@@ -228,6 +228,6 @@ SigninLogs
 
 [Azure AD でアプリケーションを登録する](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[監査ログ検索を有効または無効にする](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[監査ログ検索を有効または無効にする](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [Azure Sentinel とは](/azure/sentinel/overview)
