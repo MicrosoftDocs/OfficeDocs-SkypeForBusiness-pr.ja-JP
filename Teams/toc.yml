@@ -1471,6 +1471,8 @@ items:
                 href: class-insights.md
               - name: SIS データを Insights と同期する
                 href: education-insights-sis-data-sync.md
+              - name: Insights へのユーザー アクセスを管理する
+                href: education-insights-manage-access.md
               - name: Reflect の使用を開始する
                 href: reflect.md
           - name: '教育機関向けの Teams の課題 '
@@ -1865,4 +1867,4 @@ items:
       - name: 探索アンケートをアップグレードする
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 管理者機能のリリースノート
-        href: release-notes/release-notes.md
+        href: /OfficeUpdates/teams-admin
