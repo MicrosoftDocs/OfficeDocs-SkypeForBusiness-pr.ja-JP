@@ -17,12 +17,12 @@ description: 管理センターの [Teams アプリの管理] ページでアプ
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 6ea09ae40068277c5e450c19b6e258d04fd40fdc
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: e237fc1e511694b80cb9b98ca4e1f9c36f1eba25
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126913"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646468"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>管理センターでアプリMicrosoft Teams管理する
 
@@ -51,7 +51,7 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[Team
 - **状態**: 組織レベルでのアプリの状態。次のいずれかの状態です。
 - **許可:** アプリは、組織内のすべてのユーザーが使用できます。
 - **ブロック:** アプリはブロックされ、組織内のユーザーは使用できません。
-  - **ブロックされる組織全体**: アプリは、組織全体のアプリ設定でブロックされます。
+- **ブロックされる組織全体**: アプリは、組織全体のアプリ設定でブロックされます。
       この列は、以前は [組織全体の設定] ウィンドウに表示されたアプリの許可とブロックの状態を表します。 [アプリの管理] ページで、組織全体でアプリを表示、ブロック、 **および許可** できるようになりました。
 - **ライセンス**: アプリがサービスとしてのソフトウェア (SaaS) サブスクリプションを提供するかどうかを示します。 この列は、サード パーティ製アプリにのみ適用されます。 各サード パーティ製アプリには、次のいずれかの値があります。
 - **今すぐ購入**: アプリは SaaS サブスクリプションを提供し、購入できます。  
@@ -63,6 +63,7 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[Team
 - **- -** アプリには、同意を必要とするアクセス許可が付与されています。
 - **カテゴリ**: アプリに適用されるカテゴリ。
 - **バージョン**: アプリのバージョン。
+- **管理者が会議にインストールできる**: アプリをチーム会議の管理者がインストールできるかどうかを示します。 [詳細情報](teams-app-setup-policies.md#install-apps)
 
 テーブルに必要な情報を表示するには、右上隅の[列の編集] を選択して、テーブルに列を追加または削除します。
 

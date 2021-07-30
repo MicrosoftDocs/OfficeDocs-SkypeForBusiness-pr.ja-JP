@@ -19,22 +19,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d0f31c8841a5a357034cc083f1a62d0d6704805
-ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
+ms.openlocfilehash: 368cb8b0c2d34e985d10adf11a405fb0603f1aff
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53428213"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646418"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortanaでの音声アシスタンスのTeams
 
 > [!Note]
-> Cortanaは、iOS および Android 用の Microsoft Teams モバイル アプリと、米国、英国、カナダ、インド、オーストラリアのユーザー向け Microsoft Teams ディスプレイでサポートされています。 Microsoft Teams ミーティングのWindowsは、米国内のユーザーに対してのみサポートされます。 Cortana、GCC GCC-High、DoD、および米国以外の EDU テナントでは、音声アシスタンスは現在使用できません。 Cortanaアプリの音声アシスタンスTeams、en-US の EDU のお客様が利用できます。 追加の言語と地域への拡張は、将来のリリースの一環として行う予定です。
+> Cortanaは、iOS および Android 用の Microsoft Teams モバイル アプリと、米国、英国、カナダ、インド、オーストラリアのユーザー向け Microsoft Teams ディスプレイでサポートされています。 Microsoft TeamsWindowsルームは、米国内のユーザーに対してのみサポートされます。 Cortana、GCC GCC-High、DoD、および米国以外の EDU テナントでは、音声アシスタンスは現在使用できません。 Cortanaアプリの音声アシスタンスTeams、en-US の EDU のお客様が利用できます。 追加の言語と地域への拡張は、将来のリリースの一環として行う予定です。
 
 > [!Note]
-> Cortanaでの音声アシスタンスMicrosoft Teams ミーティングプレビューの下でリリースされます。 プレビュー リリースではCortana Rally マイクを接続しているデバイスでは、言語 EN-US を使用する米国でのみサポートされています。
+> Cortanaルームの音声アシスタンスはMicrosoft Teamsプレビューの下でリリースされます。 プレビュー リリースではCortana Rally マイクを接続しているデバイスでは、言語 EN-US を使用する米国でのみサポートされています。
 
-Cortana Teams モバイル アプリ、Windows の Microsoft Teams ミーティング、Microsoft Teams ディスプレイ デバイスで音声アシスタンスを使用すると、Microsoft 365 Enterprise ユーザーは話し言葉の自然言語を使用して、コミュニケーション、コラボレーション、会議関連のタスクを効率化できます。 ユーザーは、Teams モバイル アプリの右上にあるマイク ボタンを選択するか、Microsoft Teams Room で &#8220;Cortana&#8221; と言うか、Microsoft Teams ディスプレイを使用するときに、Cortana と話し合います。 チームにハンズフリーですばやく接続し、移動中に、ユーザーは &#8220;通話 Megan&#8221; や &#8220;などのクエリを言って、次の会議&#8221; にメッセージを送信できます。 ユーザーは、次の会議に参加&#8220;、音声&#8221;を使ってファイルの共有、予定表の確認などと言って会議に参加することもできます。 これらの音声アシスタンス エクスペリエンスは[、Office 365](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide)のプライバシー、セキュリティ、およびコンプライアンスの約束に完全に準拠する Cortana エンタープライズ レベルのサービスを使用して提供されます 。これは[、Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)に反映されます。
+Cortana Teams モバイル アプリ、Microsoft Teams Rooms on Windows、Microsoft Teams ディスプレイ デバイスでは、音声による自然言語を使用して、Microsoft 365 Enterprise ユーザーがコミュニケーション、コラボレーション、会議関連のタスクを効率化できます。 ユーザーは、Teams モバイル アプリの右上にあるマイク ボタンを選択するか、Microsoft Teams Room で &#8220;Cortana&#8221; と言うか、Microsoft Teams ディスプレイを使用するときに、Cortana と話し合います。 チームにハンズフリーですばやく接続し、移動中に、ユーザーは &#8220;通話 Megan&#8221; や &#8220;などのクエリを言って、次の会議&#8221; にメッセージを送信できます。 ユーザーは、次の会議に参加&#8220;、音声&#8221;を使ってファイルの共有、予定表の確認などと言って会議に参加することもできます。 これらの音声アシスタンス エクスペリエンスは[、Office 365](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide)のプライバシー、セキュリティ、およびコンプライアンスの約束に完全に準拠する Cortana エンタープライズ レベルのサービスを使用して提供されます 。これは[、Online Services Terms (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)に反映されます。
 
 ## <a name="admin-control-and-limitations"></a>管理者の制御と制限事項
 
@@ -76,7 +76,7 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 - モバイル Teamsウェイク ワードのアクティブ化はサポートされませんが、今後サポートされる予定です。  
 
-- Microsoft Teams ミーティングデバイスWindowsおよびMicrosoft Teamsデバイスでは、ウェイク ワードのアクティブ化がサポートされます。
+- Microsoft TeamsデバイスとWindowsデバイスMicrosoft Teamsのルームでは、ウェイク ワードのアクティブ化がサポートされます。
 
 ## <a name="user-control"></a>ユーザー コントロール
 
@@ -84,13 +84,15 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 - モバイル アプリのマイク ボタンTeams選択します。
 
-- [マイク] ボタンを選択するか、または [Cortana] とMicrosoft Teams ミーティング。
+- [会議室] でマイク ボタンを選択するかCortanaをMicrosoft Teamsします。
 
 - デバイスを表示Cortana "Microsoft Teams" と言います。
 
 デバイスの設定をCortanaをTeamsデバイスで有効にするかどうかを制御できます。
 
-### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams ミーティングのWindows
+![を有効にした場合のモバイル ウィンドウの進行状況Cortana](media/cortana-mobile-sequence.png)
+
+### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams会議室 (Windows
 
 デバイス レベルで変更を行う方法は、テナント Cortanaで有効になっている場合に使用できます。 Cortanaは既定でオフにリリースされます。
 

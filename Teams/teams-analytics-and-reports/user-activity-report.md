@@ -17,12 +17,12 @@ description: 組織内のユーザーの Teams の使用状況を把握するた
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 071b5eaa37cd2b6a5d353b2f0309a338d28ce971
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: 13d2d261358fc5c373304c46b48684d1f116fc06
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669239"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646058"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams ユーザー アクティビティ レポート
 
@@ -42,7 +42,7 @@ ms.locfileid: "52669239"
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
-|Callout |説明  |
+| Callout |説明  |
 |--------|-------------|
 |**1**   |Teams ユーザー アクティビティ レポートでは、過去 7 日間、30 日間または 90 日間の傾向を確認できます。 |
 |**2**   |各レポートには、このレポートが生成された日付が表示されます。 レポートには通常、アクティビティの時刻から 24 時間の待機時間が反映されます。 |
@@ -60,9 +60,9 @@ ms.locfileid: "52669239"
 
 ユーザー アクティビティ レポートのTeamsを匿名にする場合は、グローバル管理者である必要があります。 これにより、レポートの表示名、電子メール、AAD ID などの識別可能な情報が非表示になります。
 
-1. 管理Microsoft 365、組織の管理設定 に移動設定し、[サービス] タブで [レポート] を \> 選択 **します**。 
+1. このMicrosoft 365 管理センター、[組織] の[設定] に設定、[サービス] タブで [レポート] を \> **選択します**。 
     
-2. [ **レポート]** を選択し、[匿名識別子 **を表示する] を選択します**。 この設定は、管理センターと管理センターのMicrosoft 365レポートTeams適用されます。
+2. [ **レポート]** を選択し、[匿名識別子 **を表示する] を選択します**。 この設定は、管理センターと管理センターの使用状況Microsoft 365 管理センターにTeams適用されます。
   
 3. [変更の **保存] を選択します**。
 

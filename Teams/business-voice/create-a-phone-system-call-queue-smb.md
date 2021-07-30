@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 小規模企業向け通話キューを設定する方法については、Microsoft 365 Business Voice。
-ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: 0e0f6dde164f270987d4b01c6bc3528f8799a662
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126923"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646488"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>通話キューを作成する - 小規模ビジネス向けチュートリアル
 
@@ -87,7 +87,9 @@ ms.locfileid: "53126923"
 
 1. このTeams作成したチームを見つけ、[その他のオプション (...)] をクリックし、[チャネルの追加]**をクリックします**。
 
-2. チャネルの名前と説明を入力し、[追加] を **クリックします**。
+2. チャネルの名前と説明を入力します。
+
+3. [ **プライバシー]** で、[標準 - チームの全員がアクセス **可能] を選択し、[** 追加] を **クリックします**。
 
 > [!div class="nextstepaction"]
 > [手順 2 - リソース アカウントの>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
@@ -122,7 +124,7 @@ ms.locfileid: "53126923"
 
 2. [ライセンスと **アプリ] タブの**[ライセンス]**で**、[仮想Microsoft 365 電話システム **- 仮想ユーザー] を選択します**。
 
-3. [変更の **保存] をクリックします**。
+3. **[変更の保存]** をクリックします。
 
     ![[ライセンスの割り当て] ユーザー インターフェイスのスクリーンショットMicrosoft 365 管理センター](../media/resource-account-assign-virtual-user-license.png)
 

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 384c7d98dbbae5fa1c471130f8699c9c570c79ac
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 452fd19bdd89ced22a3e233fc851c52395e48e9b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536823"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646478"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>現場担当者のために大規模に Teams をプロビジョニングする方法
 
@@ -211,7 +211,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>現場マネージャー アプリのセットアップ ポリシーを作成する
 
-ビジネス ニーズに合わせて、次の設定をカスタマイズすることができます。 ベスト プラクティスに基づいて、大規模な新規ユーザーの登録を容易にするために、いくつかの推奨オプションを選択しました。 詳細については、[こちら](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)をクリックしてください。
+ビジネス ニーズに合わせて、次の設定をカスタマイズすることができます。 ベスト プラクティスに基づいて、大規模な新規ユーザーの登録を容易にするために、いくつかの推奨オプションを選択しました。 詳細については、[こちら](teams-app-setup-policies.md)をクリックしてください。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[ポリシーの設定]** の順に移動します。
 2.  **[追加]** をクリックします。  
@@ -238,7 +238,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>現場担当者アプリのセットアップ ポリシーを作成する
 
-ビジネス ニーズに合わせて、次の設定をカスタマイズすることができます。 ベスト プラクティスに基づいて、大規模な新規ユーザーの登録を容易にするために、いくつかの推奨オプションを選択しました。 詳細については、[こちら](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)をクリックしてください。
+ビジネス ニーズに合わせて、次の設定をカスタマイズすることができます。 ベスト プラクティスに基づいて、大規模な新規ユーザーの登録を容易にするために、いくつかの推奨オプションを選択しました。 詳細については、[こちら](teams-app-setup-policies.md)をクリックしてください。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[ポリシーの設定]** の順に移動します。
 2.  **[追加]** をクリックします。

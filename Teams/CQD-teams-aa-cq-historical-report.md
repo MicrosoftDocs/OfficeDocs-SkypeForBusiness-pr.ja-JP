@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード レポートを使用して、通話Power BI履歴データ自動応答を表示する方法について説明します。
-ms.openlocfilehash: cfd72d0397407205aef729188c630e99148f154c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd6214871a471341ed2d3836e72c5f729e3f6a9f
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111513"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660695"
 ---
 # <a name="what-are-the-requirements"></a>要件は何ですか? 
 インストールする必要Power BI Desktopがあります。 Microsoft Windows Store[からインストールできます](https://aka.ms/pbidesktopstore)。
@@ -98,7 +98,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |自動応答 チェーンの開始時刻         |datetime                 |AA チェーンの開始時刻                    |
 |自動応答 ディレクトリ検索メソッド  |string                   |最後のアドレス帳の検索方法        |
 |自動応答転送アクション          |string                   |通話転送ターゲットの種類<br>値の例は次のとおりです。<br>§ unknown - エンティティの種類が指定されていません<br>§ user - user entity<br>§ orgaa - 組織自動応答エンティティ<br>§ hunt_group - Queue エンティティの呼び出し<br>§ application - 音声アプリケーション エンティティ<br>§ external_pstn - 外部 PSTN エンティティ<br>§ shared_voicemail - 共有ボイスメール エンティティ|
-|自動応答結果の呼び出し              |string                   |呼び出し結果:<br>§ unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
+|自動応答結果の呼び出し              |string                   |呼び出し結果:<br>§ unknown - 呼び出しがセットアップまたは転送に失敗し、サービスが意味のあるエラーの理由を受け取っていない <br>§ transferred_to_user - ダイヤル バイ ネーム/拡張機能または構成済みのメニュー オプションを使用してユーザーに転送された通話 <br>§ transferred_to_operator - AA がオペレーターを使用して時間外に構成されている場合など、呼び出しが構成されたオペレーターに転送されました <br>§ failover_to_operator - 転送に失敗した場合、または 3 回試行した後に名前認識が機能しない場合に演算子にフォールバックする<br>§ user_terminated - 呼び出し元が呼び出しを終了しました <br>§ service_declined - サービスによって拒否された呼び出しは、サービスが構成のフェッチに失敗した場合に発生自動応答があります。 <br>§ service_terminated - ターゲットへの転送に失敗し、フォールバックとしてオペレーターが構成されていない場合は、バック エンド サービスが呼び出しを終了しました <br>§ failed_to_establish_media - 呼び出し元とサービスの間でメディアの確立に失敗しました <br>§ terminated_no_operator - 3 回試行した後に名前認識に失敗し、演算子が構成されていない <br>§ terminated_transfer_failed - ターゲットへの転送に失敗し、オペレーターが構成されていません <br>§ terminated_automatic_selection - 時間中または数時間後にアクションが構成されていない場合、呼び出しは既定で終了します <br>§ transferred_to_shared_voicemail - ターゲットとして構成されている場合、共有ボイスメールに転送された通話 <br>§ oaa_chain_too_long - 呼び自動応答チェーンが連続して 5 つの自動応答を超えると、呼び出しが終了し、呼び出しループが発生する可能性が回避されます。 <br>§ oaa_session_too_long - 呼び出しが最大許容セッション長を超え、タイムアウトしました |
 |自動応答通話Flow                |string                   |呼び出しの異なる状態自動応答します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement|
 |Is 自動応答 Involved              |Boolean                  |AA が呼び出しに関与したかどうかを示します |
 |自動応答呼び出し元アクション数      |int                      |呼び出し元が使用したアクションの数         |

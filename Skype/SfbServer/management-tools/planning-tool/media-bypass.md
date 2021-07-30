@@ -1,5 +1,5 @@
 ---
-title: メディア バイパス (計画ツール)
+title: メディア バイパス計画ツール
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,16 +13,15 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
-description: メディア バイパスとは、信号が仲介サーバーを通過する通話について、可能な限りメディア パスから仲介サーバーを排除することです。 詳細については、「Plan for media bypass in Skype for Business 2015」を参照してください。
-ms.openlocfilehash: 6c422d76fa5f1fcfbdbe73cc94acf9e8196c7903
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: メディア バイパスとは、シグナリングが仲介サーバーを通過する呼び出しに対して、可能な限りメディア パスから仲介サーバーを削除することです。 詳細については、「Plan for media bypass in Skype for Business 2015」を参照してください。
+ms.openlocfilehash: 26ac80f8a43a730057ac23fab5cbceae4f7e1185
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834524"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646268"
 ---
-# <a name="media-bypass-planning-tool"></a>メディア バイパス (計画ツール)
+# <a name="media-bypass-planning-tool"></a>メディア バイパス計画ツール
  
-メディア バイパスとは、信号が仲介サーバーを通過する通話について、可能な限りメディア パスから仲介サーバーを排除することです。 詳細については [、「Plan for media bypass in Skype for Business 2015」を参照](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)してください。
+メディア バイパスとは、信号が仲介サーバーを通過する通話について、可能な限りメディア パスから仲介サーバーを排除することです。 詳細については[、「Plan for media bypass in Skype for Business 2015」を参照](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)してください。
   
-

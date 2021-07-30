@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 2348d0f3e9d94aed80494155fbaab8288ddd97a6
-ms.sourcegitcommit: 95386369e2256ba382b4d6e34adb7473de050b26
+ms.openlocfilehash: 1dabc8e4b3f2e238945bf68fdbad73cebebd7fd5
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/29/2021
-ms.locfileid: "51410113"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646678"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams Rooms を展開する
 
@@ -709,8 +709,7 @@ Microsoft Teams Rooms は Surface Pro と Surface Pro 4 の両方でサポート
 
 12. **[閉じる]** を選択します。
 
-<a name="validate-and-troubleshoot-the-solution"></a>ソリューションの検証およびトラブルシューティングを行う
---------------------------------------
+**ソリューションの検証およびトラブルシューティングを行う**
 
 Microsoft Endpoint Configuration Manager のタスク シーケンスを完了したら、タスク シーケンスが Microsoft Teams Rooms ユニットを展開し構成できることを検証するため、テスト実行を行う必要があります。
 

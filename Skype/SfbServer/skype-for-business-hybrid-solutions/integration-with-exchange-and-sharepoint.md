@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '概要: 2015 年 2015 Skype for Business Serverとデータの統合ExchangeについてSharePoint。'
-ms.openlocfilehash: f8d57924d3a82effbc552de660b973aa36e7b8fe
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7e5303f5e47a2cfb017c893acbb63cce7e1521e7
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52236993"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660765"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange および SharePoint との統合
 
@@ -54,7 +54,7 @@ Microsoft Exchange Server 2016、Microsoft Exchange Server 2013、Microsoft Exch
 |予定表の空き時間情報Outlookに基づいて状態を公開する  <br/> ||
 |連絡先リスト (統合連絡先ストア経由)  <br/> |2016 Exchange 2013 年Exchange必要です。  <br/> Lync 2013 または Skype for Businessデスクトップ クライアントが必要です。  <br/>  詳細については[、「Configure Skype for Business Server 2015 で統合連絡先ストアを使用する」を参照してください](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md)。  <br/> |
 |Lync 2013 クライアント、クライアント、および Lync Web App Skype for Business高解像度連絡先写真。  <br/> |2016 Exchange 2013 年Exchange必要です。  <br/> 詳細については、「Configure use of high-resolution photos in the Skype for Business Server [2015」を参照](../deploy/integrate-with-exchange-server/high-resolution-photos.md)してください。  <br/> mac および Mobile 用 Skype for Business アプリの写真については、「Skype for Business Server と Exchange Server でパートナー アプリケーションを構成する」の説明に従って、Skype for Business Server 2015 と Exchange Server の統合を設定する[必要があります](../deploy/integrate-with-exchange-server/configure-partner-applications.md)。 <br/> |
-|会議の委任  <br/> |両方のユーザーが同じフォレストにオンラインでホームされている場合、または両方がオンプレミスの場合にのみサポートされます。 詳細については、「ハイブリッド ソリューションSkype for Business[参照してください](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
+|会議の委任  <br/> |両方のユーザーが同じフォレストにオンラインでホームされている場合、または両方がオンプレミスの場合にのみサポートされます。 詳細については、「ハイブリッド ソリューションSkype for Business[参照してください](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
 |会話の履歴と通話ログがユーザーの Exchange メールボックスに書き込まれる  <br/> ||
 |アーカイブ コンテンツ (IM と会議) Exchange  <br/> |2016 Exchange 2013 年Exchange必要です。  <br/> 詳細については、「アーカイブ用 [の展開チェックリスト」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving)。  <br/> |
 |アーカイブされたコンテンツを検索する  <br/> |2016 Exchange 2013 年Exchange必要です。  <br/> |
@@ -74,48 +74,12 @@ Microsoft Exchange Server 2016、Microsoft Exchange Server 2013、Microsoft Exch
 |予定表の空き時間情報Outlookに基づいて状態を公開する  <br/> ||
 |連絡先リスト (統合連絡先ストア経由)。  <br/> |Lync Server 2013 のみ。 Lync 2013 または Skype for Businessデスクトップ クライアントが必要です。  <br/> 詳細については[、「Configure Skype for Business Server 2015 to use the unified contact store」を参照してください。](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |Lync 2013 クライアント、クライアント、および Lync Web App Skype for Business高解像度連絡先写真。  <br/> |詳細については、「Configure use of high-resolution photos in the Skype for Business Server [2015」を参照](../deploy/integrate-with-exchange-server/high-resolution-photos.md)してください。  <br/> mac および Mobile 用 Skype for Business アプリの写真の場合は、「オンプレミスの Skype for Business Server と Outlook Web App の間の統合を構成する」の説明に従って、Skype for Business Server 2015 と Exchange Server の統合[を設定する必要があります](../deploy/integrate-with-exchange-server/outlook-web-app.md)。 <br/> |
-|会議の委任  <br/> |両方のユーザーが同じフォレストにオンラインでホームされている場合、または両方がオンプレミスの場合にのみサポートされます。 詳細については、「ハイブリッド ソリューションSkype for Business[参照してください](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
+|会議の委任  <br/> |両方のユーザーが同じフォレストにオンラインでホームされている場合、または両方がオンプレミスの場合にのみサポートされます。 詳細については、「ハイブリッド ソリューションSkype for Business[参照してください](/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
 |[会話の履歴] と [通話ログ] がユーザーのメールボックスにExchangeされます  <br/> ||
 |アーカイブ コンテンツ (IM と会議) Exchange  <br/> |詳細については、「アーカイブ用 [の展開チェックリスト」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-deployment-checklist-for-archiving)。  <br/> |
 |アーカイブされたコンテンツを検索する  <br/> |詳細については、「Configure [Exchange SharePoint」を参照してください。](/exchange/configure-exchange-for-sharepoint-ediscovery-center-exchange-2013-help) <br/> |
 |ボイス メール  <br/> |詳細については、「ホストされている UM での[Lync Server 2013 Users](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)Voice Mail の提供」をExchangeしてください。  <br/> |
 
- **Skype for BusinessオンラインとExchangeオンプレミス**
-
-
-|**機能**|**注**|
-|:-----|:-----|
-|プレゼンス イン Outlook  <br/> ||
-|IM、PSTN 通話、電話Skypeビデオ通話を経由して、電子メールからOutlookする  <br/> ||
-|オンライン会議のスケジュール設定と参加は、Outlook  <br/> ||
-|モバイル クライアントでの IM/Presence  <br/> ||
-|モバイル クライアントでのオンライン会議への参加  <br/> ||
-|予定表の空き時間情報Outlookに基づいて状態を公開する  <br/> ||
-|会話の履歴と通話ログがユーザーの Exchange メールボックスに書き込まれる  <br/> ||
-|Lync 2013 またはクライアントの高解像度連絡先Skype for Businessします。  <br/> |2016 Exchange 2013 年Exchange必要です。 Lync Web App では、ユーザーがオンライン上にSkype for Businessされません。  <br/> |
-|会議の委任  <br/> |両方のユーザーが同じフォレストにオンラインでホームされている場合、または両方がオンプレミスの場合にのみサポートされます。 詳細については、「ハイブリッド ソリューションSkype for Business[参照してください](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
-|[会話の履歴] と [通話ログ] がユーザーのメールボックスにExchangeされます  <br/> ||
-|サーバー側の会話の履歴  <br/> ||
-
- **Skype for BusinessオンラインとExchange Online**
-
-
-|**機能**|**注**|
-|:-----|:-----|
-|IM/Presence in Outlook  <br/> ||
-|オンライン会議のスケジュール設定と参加は、Outlook  <br/> ||
-|IM/Presence in Outlook Web App  <br/> ||
-|オンライン会議のスケジュール設定と参加は、Outlook Web App  <br/> ||
-|モバイル クライアントでの IM/Presence  <br/> ||
-|モバイル クライアントでオンライン会議に参加する  <br/> ||
-|予定表の空き時間情報Outlookに基づいて状態を公開する  <br/> ||
-|会話の履歴と通話ログがユーザーの Exchange メールボックスに書き込まれる  <br/> ||
-|連絡先リスト (統合連絡先ストア経由)  <br/> |Lync Server 2013 またはクライアントSkype for Business必要  <br/> |
-|Lync 2013、Skype for Business、Lync Web App の高解像度連絡先写真  <br/> ||
-|会議の委任  <br/> |両方のユーザーが同じフォレストにオンラインでホームされている場合、または両方がオンプレミスの場合にのみサポートされます。 詳細については、「ハイブリッド ソリューションSkype for Business[参照してください](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions)。 <br/> |
-|アーカイブ コンテンツ (IM と会議) Exchange  <br/> ||
-|アーカイブされたコンテンツを検索する  <br/> ||
-|ボイスメール  <br/> ||
 
 ## <a name="integration-with-sharepoint"></a>SharePoint との統合
 

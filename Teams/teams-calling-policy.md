@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 061573176da10c48dc5cbee72a49f22eb4994c09
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53596595"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53661877"
 ---
 #  <a name="calling-and-call-forwarding-in-teams"></a>Teams での通話と転送
 
@@ -79,11 +79,11 @@ ms.locfileid: "53596595"
 - **無効**  ボイスメールは、着信通話では使用できません。
 - **ユーザー制御** ユーザーは、ボイスメールを使用できるかどうかを決定できます。
 
-### <a name="inbound-calls-can-be-routed-to-call-groups"></a>着信呼び出しを呼び出しグループにルーティングできます。 
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>着信呼び出しを呼び出しグループにルーティングできます。
 
 この設定は、着信通話を通話グループに転送できるかどうかを制御します。
 
-### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>着信呼び出しと送信呼び出しの委任を許可する
+### <a name="delegation-for-inbound-and-outbound-calls"></a>着信呼び出しと送信呼び出しの委任
 
 この設定により、代理人に受信呼び出しをルーティングし、代理人がアクセス許可を委任したユーザーの代わりに発信呼び出しを行うことができます。 詳細については、「代理人と [電話回線を共有する」を参照してください](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)。
 
@@ -91,19 +91,23 @@ ms.locfileid: "53596595"
 
 これを [ **オン] に** 設定すると、PSTN 経由で通話が送信され、ネットワーク経由で通話を送信して通行料をバイパスするのではなく、料金が発生します。
 
-### <a name="busy-on-busy-is-available-while-in-a-call"></a>通話中に [取り込み中] を使用できます
+### <a name="busy-on-busy-is-available-when-in-a-call"></a>取り込み中は、通話中に利用できます
 
-[取り込み中 (取り込み中] オプション) は、ユーザーが既に通話または電話会議に参加している場合、または通話を保留にした場合の着信呼び出しの処理方法を構成できる新しい設定です。 新しい呼び出しまたは着信呼び出しは、ビジー状態の信号で拒否したり、ユーザーの未応答の設定に応じてルーティングできます。 ビジー状態のオプションは、テナント レベルまたはユーザー レベルで有効にできます。 取り込み中のオプションの構成方法に関係なく、通話または電話会議のユーザー、または保留の通話を持つユーザーが新しい通話や会議を開始できない。 この設定は、既定では無効になっています。
+取り込み中 (取り込み中のオプション) を使用すると、ユーザーが既に通話または電話会議に参加している場合、または通話を保留にした場合の着信通話の処理方法を構成できます。 新しい呼び出しまたは着信呼び出しは、ビジー状態の信号で拒否したり、ユーザーの未応答の設定に応じてルーティングできます。 ビジー状態のオプションは、テナント レベルまたはユーザー レベルで有効にできます。 取り込み中のオプションの構成方法に関係なく、通話または電話会議のユーザー、または保留の通話を持つユーザーが新しい通話や会議を開始できない。 この設定は、既定では無効になっています。
 
-### <a name="allow-web-pstn-calling"></a>Web PSTN 通話を許可する
+### <a name="web-pstn-calling"></a>Web PSTN 通話
 
 この設定により、ユーザーは Web クライアントから PSTN 番号Teams呼び出しできます。
+
+### <a name="incoming-meeting-invites-are-automatically-answered"></a>会議出席招待に自動的に応答する
+
+この設定は、会議出席招待の受信に自動的に応答するかどうかを制御します。 規定ではオフになっています。 この設定は、会議出席招待の受信にのみ適用されます。 他の種類の呼び出しには適用されません。
 
 ### <a name="allow-music-on-hold"></a>保留音を許可する
 
 この設定により、PSTN 発信者が保留にされた場合に、保留音をオンまたはオフにできます。 既定ではオンになっています。 この設定は、コール パークと上司の代理人機能には適用されません。現在は PowerShell 経由でのみ使用できます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 

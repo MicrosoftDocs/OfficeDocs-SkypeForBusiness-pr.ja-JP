@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すMicrosoft Teams電話と電話について学習します。
-ms.openlocfilehash: b531f6bb3a6a097f1480b3bcbfc938cdf20a8ec4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 467192fbf3635d7ef478b246e9376dfbc3d16829
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510348"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646228"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認定デバイス
 
@@ -71,9 +71,9 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 | Yealink CP 960| 73.15.0.20 | 2018 年 12 月|
 | Yealink T58 & T56 シリーズ | 58.15.0.20 | 2018 年 12 月 |
 
-## <a name="currently-certified-teams-rooms-on-android"></a>Android で現在Teams ミーティング認定を受けています
+## <a name="currently-certified-teams-rooms-on-android"></a>Android Teams会議室の認定を受けています
 
-次のデバイスは、Android 認定プログラムのMicrosoft Teams ミーティング認定を受けています。
+次のデバイスは、Android Microsoft Teams の認定プログラムの下で認定されます。
 
 | デバイス モデル | ファームウェアのバージョン | リリース日  | 部屋のサイズ                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
@@ -129,8 +129,8 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 
 | デバイス モデル        | ファームウェアのバージョン     | 含まれる製品リリース  |
 |:--------------------|:---------------------|:-------------------------|
-| Poly Trio C60   | 7.0.3.0342  | 2021 Update #2                        |
-| Poly CCX400/CCX500/CCX600   | 7.0.3.0347 | 2021 Update #2                     |
+| Poly Trio C60   | 7.0.3.0517  | 2021 Update #2                        |
+| Poly CCX400/CCX500/CCX600   | 7.0.3.0515 | 2021 Update #2                     |
 | オーディオ コード C448HD/C450HD/C470HD   | 1.10.143  | 2021 Update #2           |
 | Yealink T55/T56/T58   | 58.15.0.131  | 2021 Update #2                       |
 | Yealink VP59   | 91.15.0.63  | 2021 Update #2                               |
@@ -161,9 +161,9 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 
 を表示[Microsoft Teamsを参照してください](teams-displays.md)。
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版アプリの製品Teams ミーティング情報
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams の製品リリース情報
 
-Android アプリとファームウェアのTeams ミーティング最新バージョンを次に示します。
+Android アプリとファームウェアのTeamsの最新バージョンを次に示します。
 
 #### <a name="app-versions"></a>アプリのバージョン
 
@@ -183,7 +183,7 @@ Android アプリとファームウェアのTeams ミーティング最新バー
 
 | デバイス モデル  | ファームウェアのバージョン | 含まれる製品リリース |
 |:--------------|:-----------------|:-------------------------|
-| AudioCodes RXV80 |1.13.356   | 2021 Update #2 |
+| AudioCodes RXV80 |1.13.361   | 2021 Update #2 |
 | Yealink VC210 |118.15.0.54   | 2021 Update #2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | 2021 Update #2    |
 | Yealink MeetingBar A30 | 133.15.0.60    | 2021 Update #2    |

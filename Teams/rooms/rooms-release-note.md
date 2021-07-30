@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams ミーティング のリリース ノート
+title: Microsoft Teams 会議室のリリース ノート
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796851"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646878"
 ---
-# <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams ミーティング のリリース ノート
+# <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会議室のリリース ノート
 
 この記事では、Microsoft Teams Rooms の累積的な改善点について説明します。
 
@@ -29,6 +29,7 @@ ms.locfileid: "52796851"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
 |4.8.25.0 |04/22/2021 |
 |4.8.19.0 |04/06/2021 |
@@ -74,26 +75,35 @@ ms.locfileid: "52796851"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
+### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
+
+この更新プログラムで導入されるもの:
+- Microsoft Teamsモードはアプリケーション設定で使用できるので、アカウントを設定するSkype for Business必要はありません。 このモードでは、ゲスト ユーザーとして会議TeamsモードSkype for Businessサインインしたデバイスが参加します。
+- HDMI オーディオが原因で通話音量が低下する問題を修正しました。 HDMI オーディオ機能は、アプリケーション ビルド 4.9.12.0 のすべてのデバイスで自動的に有効になります。
+
+> [!NOTE]
+> サポートSkype for Businessが終了する場合は、アプリケーションのみモードに更新Teams勧めします。
+
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
 この更新プログラムで導入されるもの:
 - Windows 10 20H2 のサポート 
 
 > [!NOTE]
-> HP Elite Slice とクUC-Engine ("KYSKLi" を含む BIOS バージョンの日付) Teams ミーティング には互換性の問題があります。更新されたドライバーは、近い将来、システム OEM によって提供される予定です。 Windows 10 20H2 は、これらのデバイスには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](./rooms-lifecycle-support.md#windows-10-release-support)」を参照してください。
+> HP Elite Slice とクUC-Engine ("KYSKLi" を含む BIOS バージョンの日付) Teams 会議室には互換性の問題があります。更新されたドライバーは、近い将来システム OEM によって提供される予定です。 Windows 10 20H2 は、これらのデバイスには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](./rooms-lifecycle-support.md#windows-10-release-support)」を参照してください。
 
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
 この更新プログラムで導入されるもの:
-- グローバル アドレス一覧 (GAL) に表示Teams ミーティングのルーム アカウントに関するルーム情報が表示される問題を修正しました
+- グローバル アドレス一覧 (GAL) に表示Teamsルーム アカウントの会議室情報が表示されません。
 
 > [!NOTE]
-> GCCH のお客様は、デバイスを手動で更新[するからアップグレード パッケージMicrosoft Teams ミーティングできます。](manual-update.md)
+> GCCH のお客様は、アップグレード パッケージを手動で会議室デバイスMicrosoft Teams[ダウンロードできます。](manual-update.md)
 
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 この更新プログラムで導入されるもの:
-- Government Community Cloudアプリケーションの高 (GCCH) Teams ミーティング。 既存の Teams ミーティング デバイスを使用している GCCH のお客様は、バージョン 4.8.19.0 を手動でデバイスを更新してMicrosoft Teams ミーティング[できます](manual-update.md)。
+- Government Community CloudTeams Rooms の高 (GCCH) サポート。 既存の Teams Rooms デバイスを使用している GCCH のお客様は、「Microsoft Teams Rooms デバイスを手動で更新する」からバージョン 4.8.19.0[をダウンロードできます](manual-update.md)。
 - ビデオ品質の向上 (720p サポート) で Zoom 会議に参加し、参加者のビデオ ギャラリーを受け取る
 - Skype for Business モードでは、サインインエラー バナーがTeams削除されました。 この変更は、インフラストラクチャを削除するSkype for Businessサポートします
 - Teamsの参加リンク解析で Microsoft Defender Advanced Thread Protection セーフ リンクを処理し、外部ユーザーとシームレスにTeamsする
@@ -233,7 +243,7 @@ ms.locfileid: "52796851"
 - テーマの更新: コンソールの背景を中間色にしてコンソール UI コントロールがはっきり見えるようにしながら、常にカスタム背景画像をフロント オブ ルーム ディスプレイ上に表示する - アクセシビリティ要件
 - Teams 通話/会議で Microsoft Teams PC、Web、モバイル クライアントに一貫性のあるエクスペリエンスを提供するための会議中通話制御用のユニバーサル バー<sup>1</sup>
 - Teams 通話/会議後の通話品質フィードバックの評価<sup>1</sup>
-- PC/Web/Mobile Microsoft Whiteboardクライアント<sup>1</sup> <sup>2</sup> Microsoft Teams ミーティング共有時に、ルームの前面に表示される受信/レンダリングTeams表示
+- PC/Web/mobile Microsoft Whiteboard クライアント<sup>1</sup> <sup>2</sup> Microsoft Teams共有時に会議室の前面に表示される会議室の受信/レンダリングTeams表示
 - Microsoft Teams Rooms クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。 Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます
 
 <sup>1</sup> Microsoft Teams サービスが Teams リングを使用して提供されます。 この機能は 4.0.105.0 クライアントの更新の前後に使用可能になります

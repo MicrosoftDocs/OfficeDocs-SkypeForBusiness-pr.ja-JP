@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Teams App Submission API を使用して送信されるカスタム アプリを承認する方法についてMicrosoft Teams。
-ms.openlocfilehash: e544fdc12e17fc8917a2d3b9ce01dfc5985261de
-ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
+ms.openlocfilehash: 19d0378376e1abbc57d4a992a37c5c0286b9b29f
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "52337794"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646628"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Teams App Submission API を使用して送信されたカスタム アプリを発行する
 
@@ -50,9 +50,9 @@ ms.locfileid: "52337794"
 
 ### <a name="submit-the-app"></a>アプリを送信する
 
-アプリを実稼働環境で使用する準備ができたら、開発者は<a href="https://docs.microsoft.com/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank" target="_blank">Graph API、Visual Studio Code</a>などの統合された開発環境 (IDE)、または Power Apps や Power Virtual Agents などのプラットフォームから呼び出し可能な Teams アプリ送信 API を使用してアプリを送信できます。 これにより、管理者は Microsoft Teams 管理<a href="/microsoftteams/manage-apps" target="_blank"></a>センターの [アプリの管理] ページでアプリを利用できます。このページでは、管理者がアプリを確認および承認できます。
+アプリを実稼働環境で使用する準備ができたら、開発者は[Graph API、Visual Studio Code](/graph/api/teamsapp-publish)などの統合された開発環境 (IDE)、または Power Apps や Power Virtual Agents などのプラットフォームから呼び出し可能な Teams アプリ送信 API を使用してアプリを送信できます。 これにより、管理者は Microsoft Teams 管理<a href="/microsoftteams/manage-apps" target="_blank"></a>センターの [アプリの管理] ページでアプリを利用できます。このページでは、管理者がアプリを確認および承認できます。
 
-<a href="/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">Microsoft Graph</a>上に構築された Teams App Submission API を使用すると、組織は選択したプラットフォーム上で開発し、Teams 上のカスタム アプリの提出から承認へのプロセスを自動化できます。
+<a href="/graph/api/teamsapp-publish" target="_blank">Microsoft Graph</a>上に構築された Teams App Submission API を使用すると、組織は選択したプラットフォーム上で開発し、Teams 上のカスタム アプリの提出から承認へのプロセスを自動化できます。
 
 このアプリの提出手順の例を次に示Visual Studio Code。
 
@@ -60,7 +60,7 @@ ms.locfileid: "52337794"
 
 これにより、組織のアプリ ストアにアプリがまだ発行されていないことに気を付ける必要があります。 この手順では、アプリを Microsoft Teams 管理センターに送信し、組織のアプリ ストアへの発行を承認できます。
 
-Graph API を使用してアプリを送信する方法の詳細については、こちらを参照<a href="/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog" target="_blank">してください</a>。
+Graph API を使用してアプリを送信する方法の詳細については、こちらを参照<a href="/graph/api/teamsapp-publish" target="_blank">してください</a>。
 
 ## <a name="validate"></a>検証
 
@@ -74,7 +74,7 @@ Microsoft Teams <a href="/microsoftteams/manage-apps" target="_blank"></a>管理
 
 ![送信されたアプリのアプリの詳細ページ](media/custom-app-lifecycle-app-details.png)
 
-Graph API を使用して発行の状態を確認する **方法** の詳細については、こちらを参照 <a href="/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id" target="_blank">してください</a>。
+Graph API を使用して発行の状態を確認する **方法** の詳細については、こちらを参照 <a href="/graph/api/appcatalogs-list-teamsapps" target="_blank">してください</a>。
 
 ## <a name="publish"></a>発行
 
@@ -132,13 +132,13 @@ Graph API を使用して発行の状態を確認する **方法** の詳細に�
 - アプリが承認されると、誰でもアプリに更新を送信できます。 つまり、アプリを最初に送信した開発者を含む他の開発者は、アプリに更新プログラムを送信できます。
 - 開発者がアプリを送信し、要求が保留中の場合、同じ開発者だけがアプリに更新を送信できます。 他の開発者は、アプリが承認された後にのみ更新を送信できます。
 
-Graph API を使用してアプリを更新する方法の詳細については、こちらを参照<a href="/graph/api/teamsapp-update?view=graph-rest-beta#example-2-update-a-previously-reviewed-and-published-application-to-the-teams-app-catalog" target="_blank">してください</a>。
+Graph API を使用してアプリを更新する方法の詳細については、こちらを参照<a href="/graph/api/teamsapp-update">してください</a>。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [アプリ パッケージをアップロードしてカスタム アプリを発行する](upload-custom-apps.md)
 - [管理センターでアプリMicrosoft Teams管理する](manage-apps.md)
 - [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 - [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
 - [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">Microsoft Graph アプリ用 Teams API</a>
+- <a href="/graph/api/resources/teamsapp" target="_blank">Microsoft Graph アプリ用 Teams API</a>

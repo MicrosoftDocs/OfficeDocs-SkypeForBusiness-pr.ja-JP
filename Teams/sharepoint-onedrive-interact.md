@@ -18,19 +18,19 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
-ms.translationtype: HT
+ms.openlocfilehash: 99667735c6e0e71532084f3aff6771df4408f892
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855956"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646208"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint と OneDrive の連携
 
 > [!Tip]
 > Teams が Azure Active Directory (AAD)、Microsoft 365 グループ、Exchange、SharePoint、および OneDrive とどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teams の基礎](https://aka.ms/teams-foundations)。
 
-Microsoft Teams の各チームには、SharePoint のチーム サイトがあります。チームの各標準チャネルには、既定のチーム サイトのドキュメント ライブラリ内のフォルダーが用意されています。 各[プライベート チャネル](private-channels.md)には、独自の分離した SharePoint サイトがあります。
+Microsoft Teams の各チームには、SharePoint のチーム サイトがあります。チームの各標準チャネルには、既定のチーム サイトのドキュメント ライブラリ内のフォルダーが用意されています。 各[プライベート チャネル](private-channels.md)には、独自の分離した SharePoint サイトがあります。 これらのチーム サイトとチャネル サイトの詳細については、「接続されているサイトとチャネル サイトTeams[管理する」を参照してください](/sharepoint/teams-connected-sites)。
 
 会話内で共有されているファイルはドキュメント ライブラリに自動的に追加され、SharePoint で設定されているアクセス許可とファイルのセキュリティ オプションは、Teams 内に自動的に反映されます。 SharePoint でサイト アドレスを変更した場合の影響の詳細については、「[サイト アドレスを変更する](/sharepoint/change-site-address)」を参照してください。
 

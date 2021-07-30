@@ -14,8 +14,6 @@
       items:
         - name: オンプレミスから Teams にユーザーを移動する
           href: ../hybrid/move-users-from-on-premises-to-teams.md
-        - name: ユーザーをオンプレミスから Skype for Business Online に移動する
-          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
         - name: ユーザーをクラウドからオンプレミスに移動する
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: 会議の移行を管理する

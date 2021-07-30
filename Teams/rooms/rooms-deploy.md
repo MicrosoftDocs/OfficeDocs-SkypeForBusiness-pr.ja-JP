@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 展開フェーズを含む、Microsoft Teams Rooms の展開方法の詳細については、この記事を参照してください。
-ms.openlocfilehash: 3ac6ceabd1d421551ab3b9404688bd4a9302e3d6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86564c8b90b0c7c8269d5de258c31d140eca7dc4
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117465"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646698"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -47,7 +47,7 @@ Microsoft Teams Rooms の展開は、基本的に次のフェーズに分けら�
 
 **プロのヒント** - プロキシ サーバーを使用して Teams または Skype for Business Online へのアクセスを提供する場合は、まず、[この記事](../proxy-servers-for-skype-for-business-online.md)を参照してください。 プロキシ サーバーを通Skype for Businessトラフィックを送信する場合は、プロキシ サーバーを完全にバイパスすることをお勧めします。 Skype for Business トラフィックは既に暗号化されているため、プロキシ サーバーによってセキュリティが強化されることはありません。 広範囲の展開の一環として、「[Teams 用にネットワークを準備する](../prepare-network.md)」のガイダンスに従って、帯域幅の計画を行い、実際のトラフィックに対するネットワークの適合性を評価することをお勧めします。
 
-|    |     |
+|  &nbsp;  | &nbsp;    |
 |-----------|------------|
 | ![サイトの確認](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトが Microsoft Teams Rooms の重要な要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅があることを確認します。</li></ul>| 
 | ![デバイスのデプロイを計画する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開と構成の計画を開始します。</li></ul>| 
@@ -72,7 +72,7 @@ Microsoft Teams Rooms の展開で有効にすることにしたコラボレー�
 Microsoft Teams Rooms のアカウントの詳細については、「[Microsoft Teams Rooms のアカウントを構成する](rooms-configure-accounts.md)」を参照してください。
 
 
-|    |     |
+|  &nbsp;  |  &nbsp;   |
 |-----------|------------|
 | ![シナリオのサポート](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サポートするシナリオを決定し、Microsoft Teams Rooms のサービス アカウントのライセンス要件を特定します。</li></ul>| 
 | ![ホスト コンピューターを準備する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>コンピューター アカウントとサービス アカウントをホストするための準備を行います。</li></ul>| 
@@ -121,7 +121,7 @@ Microsoft Teams Rooms の各デバイスには、固有の一意のリソース 
 
 **プロのヒント** – これらのアカウントの表示名は、説明的でわかりやすいものにします。 これらは、ユーザーが Microsoft Teams Rooms システムを検索したり会議を追加したりするときに表示される名前です。 組織によっては、"*サイト*-*部屋の名前*(*最大収容人数*)-RS" などの命名規則を使用しています。この場合、たとえば、Curie (ロンドンの 12 人用会議室) は、"LON-CURIE (12)-RS" という表示名になります。 
 
-|    |     |
+|  &nbsp;  | &nbsp;    |
 |-----------|------------|
 | ![名前付け規則を決定する](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms のアカウントの命名規則を決定します。</li><li>個別のアカウントを作成するか、一括プロビジョニング スクリプトを使用するかを決定します。</li></ul>| 
 | ![次の手順](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開の計画を開始します。</li></ul>| 
@@ -129,11 +129,11 @@ Microsoft Teams Rooms の各デバイスには、固有の一意のリソース 
 
 ### <a name="device-software-installation"></a>デバイス ソフトウェアのインストール 
 
-アプリケーションをデプロイするMicrosoft Teams ミーティング、必要なソフトウェアのインストールを検討する多くのオプションがあります。 一般的なシナリオと手法を次の表に示します。 
+Microsoft Teams Rooms のデプロイを計画する場合は、必要なソフトウェアのインストールを検討する多くのオプションがあります。 一般的なシナリオと手法を次の表に示します。 
 
 | **シナリオ**            | **手法**         |
 |-------------------------|-----------------------|   
-|いくつかのデバイスをデプロイMicrosoft Teams ミーティング (<10)。 | Surface Pro ベースの Microsoft Teams Rooms を使用している場合は、「[デバイスごとのインストールのインストール手順l](console.md)」に従います。 [このプロセスを紹介する動画を参照してください。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 統合ソリューションを使用している場合は、ベンダーのイメージを使用して展開し、必要に応じて設定を構成します。 |
+|いくつかの Microsoft Teams Rooms デバイス (<10) をデプロイします。 | Surface Pro ベースの Microsoft Teams Rooms を使用している場合は、「[デバイスごとのインストールのインストール手順l](console.md)」に従います。 [このプロセスを紹介する動画を参照してください。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 統合ソリューションを使用している場合は、ベンダーのイメージを使用して展開し、必要に応じて設定を構成します。 |
 | 1 つのベンダーから 10 台以上 50 台以下のデバイスを展開する。     | WIM ベースのイメージを作成し、[ガイダンスの手順 6 ](console.md)の後に一時停止して、複製配布技術で使用する配布イメージをキャプチャします。    |
 | 50 台を超える Microsoft Teams Rooms デバイスを展開する。複数のベンダーからデバイスを展開する。または、展開の一部として組織固有のエージェントを要求する。 | [Microsoft Endpoint Configuration Manager](rooms-scale.md) などのタスク シーケンサー ベースのソフトウェアのビルドおよび配布プラットフォームを使用します。  |
 
@@ -146,7 +146,7 @@ Microsoft Teams Rooms の各デバイスには、固有の一意のリソース 
 
 また、Microsoft Teams Rooms をドメインに参加させるかどうかも検討してください。 ドメイン参加の利点については、「[Skype Room System のドメイン参加に関する考慮事項](domain-joining-considerations.md)」を参照してください。 
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![decision points device naming](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>展開中に使用する Microsoft Teams Rooms のデバイス命名規則を決定します。</li><li>Microsoft Teams Rooms デバイスをドメインに追加するかどうか、およびローカル アカウントを管理および構成する方法を決定します。 </li><li>Operations Management Suite を使って Microsoft Teams Rooms の展開を監視するかどうかを決定します。</li><li>デバイスの展開の準備として、Microsoft Teams Rooms システムにソフトウェアとエージェントを展開するために使用する方法を決定します。 </li></ul>| 
 | ![次のステップでデバイスを計画する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開手法の計画を開始します。</li></ul>| 
@@ -157,7 +157,7 @@ Microsoft Teams Rooms の各デバイスには、固有の一意のリソース 
 Microsoft Teams Rooms ユニットにソフトウェアを展開した後、デバイスと割り当てられた周辺機器を会議室に発送するための計画を作成し、インストールと構成に進みます。 
 
 
-|    |     |
+|  &nbsp;  |   &nbsp;  |
 |-----------|------------|
 | ![サイト別のデプロイを管理する](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> サイトに Microsoft Teams Rooms デバイスをインストールし、構成とテストに着手するリソースを特定します。</li></ul>| 
 | ![デバイスのテストを開始する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>| 
@@ -179,7 +179,7 @@ XML 構成ファイルの使用方法の詳細については、「[XML 構成�
 
 [リモート PowerShell](rooms-operations.md#remote-management-using-powershell) を使用して、レポートのニーズに合わせて Microsoft Teams Rooms の構成を取得できます。 
 
-|    |     |
+| &nbsp;   |  &nbsp;   |
 |-----------|------------|
 | ![意思決定ポイントの構成](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>各Microsoft Teams Rooms システムを手動で構成するか、一元管理された XML ファイル (Microsoft Teams Rooms デバイスごとに作成される 1 つのファイル) を使用するかを決定します。</li></ul>| 
 | ![次のステップのリモート アプローチ](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リモート管理手法を定義します。</li></ul>| 

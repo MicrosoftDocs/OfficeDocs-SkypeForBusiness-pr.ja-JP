@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d498f66241de3edc46a86ae884b615384508b84
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: b4ed46623d741d0bf370203a90a24e5bbaa0750f
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203626"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646528"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "53203626"
 
 仮想デスクトップ インフラストラクチャ (VDI) は、データセンターの集中サーバーでデスクトップ オペレーティング システムとアプリケーションをホストする仮想化テクノロジです。 これにより、完全に保護され、準拠し一元化されたソースとともに、ユーザーに完全に個人用に設定されたデスクトップ エクスペリエンスを提供します。
 
-仮想化環境の Microsoft Teams はチャットと共同作業をサポートします。 また、Citrix、VMware プラットフォームを使用すれば、通話および会議機能もサポートされます。
+仮想化環境の Microsoft Teams はチャットと共同作業をサポートします。 また、Azure Virtual Desktop、Citrix、VMware プラットフォームでは、通話と会議の機能もサポートされています。
 
 仮想化環境の Teams は、複数の構成をサポートします。 これらには、VDI、専用、共有、永続、非永続のモードが含まれます。 機能は継続的に開発されており、定期的に追加されます。今後数か月または数年で機能が拡張されます。
 
@@ -58,7 +58,7 @@ ms.locfileid: "53203626"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 複数の市場プロバイダーを使用している場合は、仮想化ソリューション プロバイダーに相談して、最小要件が満たされていることを確認することをお勧めします。
   
-現在、音声/ビデオ (AV) 最適化を備えた VDI 上の Teams は、Windows Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
+現在、Teams/ビデオ (AV) 最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
 
 ### <a name="platforms-certified-for-teams"></a>Teams 認定プラットフォーム
 
@@ -66,13 +66,13 @@ Teams デスクトップ アプリは、主要な仮想化ソリューション 
 
 |プラットフォーム|ソリューション|
 |----|---|
-|![Microsoft を表すロゴ](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Windows Virtual Desktop</a> |
+|![Microsoft を表すロゴ](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> |
 |![Citrix を表すロゴ](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
 |![VMware を表すロゴ](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
-### <a name="windows-virtual-desktop"></a>Windows Virtual Desktop
+### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
-Windows Virtual Desktop は、VDI 上の Teams に AV 最適化を提供します。 詳細、要件およびインストールについては、「[Windows Virtual Desktop で Microsoft Teams を使用する](/azure/virtual-desktop/teams-on-wvd)」を参照してください。
+Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「Azure Virtual Desktop での Teams[の使用」を参照してください](/azure/virtual-desktop/teams-on-wvd)。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps and Desktops の要件
 
@@ -470,7 +470,7 @@ if($cleanup){
 - マシンごとのインストールでは、VDI 上の Teams は、非 VDI Teams のクライアントと同様に自動的に更新されません。 [VDI で Teams デスクトップ アプリをインストールまたは更新する](#install-or-update-the-teams-desktop-app-on-vdi)セクションの説明に従って新しい MSI をインストールし、VM イメージを更新する必要があります。 現在のバージョンをアンインストールして新しいバージョンに更新する必要があります。
 - Citrix 環境では、Teams の実行中にユーザーが仮想マシンから切断された場合、Teams の更新により、再接続時にユーザーが AV 用に最適化されていない状態になる可能性があります。 ユーザーは、このシナリオを回避Teams Citrix 仮想マシンから切断する前に、アプリケーションを終了することをお勧めします。
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
-- Windows現時点では、Virtual Desktop は macOS および Linux ベースのクライアントをサポートしません。
+- 現時点では、Azure Virtual Desktop は macOS および Linux ベースのクライアントをサポートしません。
 
 ### <a name="calling-and-meetings"></a>通話と会議
 
@@ -524,4 +524,4 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 - [MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [Windows Virtual Desktop で Microsoft Teams を使用する](/azure/virtual-desktop/teams-on-wvd)
+- [Azure Virtual desktop Microsoft Teamsを使用する](/azure/virtual-desktop/teams-on-wvd)

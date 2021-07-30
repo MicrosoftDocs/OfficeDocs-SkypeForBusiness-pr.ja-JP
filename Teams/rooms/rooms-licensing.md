@@ -22,20 +22,20 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams Rooms の通話と会議機能の種類に応じて使用できるライセンスについて説明します。
-ms.openlocfilehash: f538d6adc0e07f30ee4fe5c0ea3613ea962838c5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 03557d1e833241b36bb1bc5df3a5ef36ff2ca450
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117455"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646688"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams ミーティング ルームのライセンスの更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共有コミュニケーション デバイスのライセンス ソリューション
 
-Microsoft には、会議のライセンスを取得し、会議室デバイス (Microsoft Teams ミーティング、Microsoft Surface Hub、Microsoft Teams のコラボレーション バーなど) をデバイスごとに呼び出す専用 SKU が 2 つあります。
+Microsoft には、会議のライセンスを取得し、会議室デバイス (Microsoft Teams 会議室、Microsoft Surface Hub、Microsoft Teams のコラボレーション バーなど) をデバイスごとに呼び出す専用 SKU が 2 つあります。
 
-||Microsoft Teams ミーティングStandard |Microsoft Teams ミーティング プレミアム |
+|&nbsp;|Microsoft TeamsRooms Standard |Microsoft Teams会議室プレミアム |
 |:--- |:---: |:---: |
 |Skype for Business |&#x2714;| &#x2714;|
 |Microsoft Teams|  &#x2714;|  &#x2714;|
@@ -51,7 +51,7 @@ Microsoft には、会議のライセンスを取得し、会議室デバイス 
 
 &sup2; ソブリン クラウドでは使用不可  
 
-&sup3;詳細と可用性については、「マネージド サービスのMicrosoft Teams ミーティング[を参照してください](microsoft-teams-rooms-premium.md)。
+&sup3;詳細と可用性については、「Microsoft Teams [Rooms マネージド サービス」を参照してください](microsoft-teams-rooms-premium.md)。
 
 > [!NOTE]
 > 電話会議が含まれる Skype for Business プラン 2、または Office 365 電話システムと通話プランで、E1、E3、E4、E5 SKU を現在お使いの場合、これらは引き続き機能します。 ただし、現在のライセンスの有効期限が切れた後は、上の表に示した、よりシンプルなライセンス モデルへの移行をご検討いただく必要があります。
@@ -64,14 +64,14 @@ Microsoft には、会議のライセンスを取得し、会議室デバイス 
 > [!NOTE]
 > セットアップされる会議室はユーザー オブジェクトで、これらのライセンスが割り当てられている必要があります。
 
-|  | Microsoft Teams または Skype for Business Online を所有。 <br/> 購入が必要なもの:   |Skype for Business Server 2015/2019 (オンプレミスまたはハイブリッド) を所有。 <br/> 購入が必要なもの:|
+| &nbsp; | Microsoft Teams または Skype for Business Online を所有。 <br/> 購入が必要なもの:   |Skype for Business Server 2015/2019 (オンプレミスまたはハイブリッド) を所有。 <br/> 購入が必要なもの:|
 |:-----|:-----|:-----|
-|スケジュールされた会議への参加  | Microsoft Teams ミーティングStandard または プレミアム  |Skype for Business Server Standard CAL  |
-|アドホック会議の開始 | Microsoft Teams ミーティングStandard または プレミアム  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|アドホック会議を開始し、会議から電話番号にダイヤル アウト |  Microsoft Teams ミーティングStandard または プレミアム |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|会議室に電話番号を付け、会議室から通話を送受信したり、電話番号を使って音声会議に参加したりします。  | ダイレクト ルーティングの場合: Microsoft Teams ミーティング Standard または プレミアム<br/>ダイレクト ルーティングなし: 国内通話プランまたは国際通話プラン<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Microsoft Intune を使用した会議室デバイスの管理 |Microsoft Teams ミーティングStandard または プレミアム  |[オンプレミス MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) を含む Microsoft Intune サブスクリプション |
-|Microsoft Teams ミーティングマネージド サービス | Microsoft Teams ミーティング プレミアム ||
+|スケジュールされた会議への参加  | Microsoft TeamsRooms Standard または プレミアム  |Skype for Business Server Standard CAL  |
+|アドホック会議の開始 | Microsoft TeamsRooms Standard または プレミアム  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|アドホック会議を開始し、会議から電話番号にダイヤル アウト |  Microsoft TeamsRooms Standard または プレミアム |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|会議室に電話番号を付け、会議室から通話を送受信したり、電話番号を使って音声会議に参加したりします。  | 直接ルーティングの場合: Microsoft Teams Rooms Standard または プレミアム<br/>ダイレクト ルーティングなし: 国内通話プランまたは国際通話プラン<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Microsoft Intune を使用した会議室デバイスの管理 |Microsoft TeamsRooms Standard または プレミアム  |[オンプレミス MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) を含む Microsoft Intune サブスクリプション |
+|Microsoft TeamsRooms Managed Services | Microsoft Teams会議室プレミアム ||
 | |||
 
 > [!NOTE]
@@ -79,4 +79,4 @@ Microsoft には、会議のライセンスを取得し、会議室デバイス 
 
  **正しいバージョンの Windows 10 を使用する**。Windows 10 イメージをデバイスに展開する場合は、「[Microsoft Teams Rooms コンソールを構成する](./console.md)」を参照してください。 [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを入手できます。 
  
- 「会議室[の素晴らしいエクスペリエンス: Standard と新しい会議をMicrosoft Teams ミーティング」もプレミアム。](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)
+ 「会議室[の素晴らしい体験: 会議室の新しい会議Microsoft Teams」および「プレミアム」を参照してください](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)。
