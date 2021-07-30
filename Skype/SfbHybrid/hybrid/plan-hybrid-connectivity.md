@@ -1,5 +1,5 @@
 ---
-title: ハイブリッド接続の計画|Skype for Business Server 2019 および Teams
+title: ハイブリッド接続の計画|Skype for Business ServerとTeams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsのハイブリッド接続Skype for Business計画します。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: acfd94d78609ef3428029832ffaf030ca0f34b64
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 0941922fe5f5f4505932614422ec79ea310f7cf0
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574262"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660735"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>ハイブリッド接続を計画して、Skype for Business ServerとTeams
 
@@ -37,7 +37,7 @@ ms.locfileid: "53574262"
 
 このトピックでは、既存のオンプレミスの展開と展開の間でハイブリッド接続を構成するために必要なインフラストラクチャとSkype for Business ServerについてTeams。
 
-このトピックを読んでハイブリッド接続を構成する準備ができたら、「ハイブリッド接続を構成する」を参照Skype for Business Server Microsoft 365[または](configure-hybrid-connectivity.md)Office 365。 構成に関するトピックでは、オンプレミス展開とハイブリッド 接続のセットアップに関する詳細なガイダンスをTeams。
+このトピックを読んでハイブリッド接続を構成する準備ができたら、「ハイブリッド接続を構成する」を参照Skype for Business Server[と](configure-hybrid-connectivity.md)Teams。 構成に関するトピックでは、オンプレミス展開とハイブリッド 接続のセットアップに関する詳細なガイダンスをTeams。
 
 > [!Important]
 > Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その後サービスにアクセスできなくなりました。  さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間でサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
@@ -78,31 +78,31 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
 
 共有 SIP アドレス空間が構成されている場合:
 
-- Azure Active Directory Connectを使用して、オンプレミス ディレクトリをユーザーまたはユーザーのディレクトリMicrosoft 365同期Office 365。
+- Azure Active Directory Connectを使用して、オンプレミス ディレクトリとディレクトリを同期Microsoft 365。
 - オンプレミスのユーザーは、オンプレミスのサーバーとSkype for Businessします。
 - オンラインに登録されているユーザーは、Teams と対話し、2021 年 7 月 31 日まで Skype for Business Online を共同存在モードに基づいて操作できます。
 - 両方の環境のユーザーが相互に通信できます。
 - オンプレミスの Active Directory は権限があります。 すべてのユーザーは、最初にオンプレミスの Active Directory に作成し、Azure サーバーに同期AD。 ユーザーをオンラインで使用する場合でも、最初にユーザーをオンプレミス環境で作成し、そのユーザーをオンラインに移動して、ユーザーがオンプレミスのユーザーが検出可能なユーザーを確認する必要があります。
 
-ユーザーをオンラインに移動する前に、ユーザーにオンライン (プラン 2) とTeamsライセンスSkype for Business割り当てる必要があります。 **オンライン ライセンスのSkype for Businessは、オンラインの使用を取り除Skype for Businessです。** ユーザーが電話会議や 電話システム などの追加のオンライン機能を利用する場合は、Microsoft 365 または Office 365 で適切なライセンスを割り当てる必要があります。
+ユーザーをオンラインに移動する前に、ユーザーにオンライン (プラン 2) とTeamsライセンスSkype for Business割り当てる必要があります。 **オンライン ライセンスのSkype for Businessは、オンラインの使用を取り除Skype for Businessです。** ユーザーが電話会議や 電話システム などの追加のオンライン機能を利用する場合は、Microsoft 365 で適切なライセンスを割り当てる必要があります。
 
 ## <a name="hybrid-connectivity-infrastructure-requirements"></a>ハイブリッド接続インフラストラクチャの要件
 
 <a name="BKMK_Infrastructure"> </a>
 
-オンプレミス環境と通信サービス間のハイブリッド接続をMicrosoft 365またはOffice 365するには、次のインフラストラクチャ要件を満たす必要があります。
+オンプレミス環境と通信サービス間のハイブリッド接続をMicrosoft 365するには、次のインフラストラクチャ要件を満たす必要があります。
 
 - サポートされているトポロジに展開Skype for Business Server Lync Server の単一のオンプレミス展開。 この [トピックの「トポロジ要件](plan-hybrid-connectivity.md#BKMK_Topology) 」を参照してください。
 
-- 組織Microsoft 365またはOffice 365を持つTeams。
+- ユーザー Microsoft 365を持つ組織Teams。
     > [!NOTE]
     > オンプレミス展開では、ハイブリッド構成に使用できるテナントは 1 つのみです。
     
-- Azure Active Directory Connect、オンプレミス ディレクトリをユーザーまたはユーザーのディレクトリMicrosoft 365同期Office 365。 詳細については、「Azure AD Connect: アカウントとアクセス許可[」を参照してください](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
+- Azure Active Directory Connectオンプレミス ディレクトリと同期する方法をMicrosoft 365。 詳細については、「Azure AD Connect: アカウントとアクセス許可[」を参照してください](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
 - Skype for Business Server管理ツール。 これらは、ユーザーをオンプレミスからクラウドに移動するために必要です。 これらのツールは、オンプレミス展開とインターネットの両方にアクセスできるサーバーにインストールする必要があります。
 - オンライン管理ツール。 管理センターまたは管理センター Teams使用して、Windows PowerShell管理Teams。 PowerShell を使用してサーバーを管理するにはTeams PowerShell モジュールをダウンロードしてTeamsインストールします。 (オンライン Skype for Businessが廃止されました)。
-- 共有 SIP アドレス空間を有効にする必要があります。また、オンプレミスの展開は、ホスティング プロバイダーとして Microsoft 365または Office 365を使用するように構成する必要があります。 ハイブリッド接続を構成するために必要な手順の詳細については [、「Configure hybrid connectivity」を参照してください](configure-hybrid-connectivity.md)。
+- 共有 SIP アドレス空間を有効にする必要があります。また、オンプレミス展開は、ホスト プロバイダーとしてMicrosoft 365構成する必要があります。 ハイブリッド接続を構成するために必要な手順の詳細については [、「Configure hybrid connectivity」を参照してください](configure-hybrid-connectivity.md)。
 
 ハイブリッド接続を構成した後、ユーザーを別のユーザーにTeams。 詳細については、「ユーザーを[オンプレミスからユーザーに移動する」を参照Teams。](move-users-from-on-premises-to-teams.md)
 
@@ -122,13 +122,8 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
 
 *任意* のトポロジでハイブリッド音声が必要な場合は、フェデレーション エッジとして指定されているエッジ サーバーと、SIP フェデレーションに関連付けられているプールの両方が Skype for Business 2015 以降で実行されている必要があります。 Lync 2013 プールが存在する場合、ユーザーは Lync 2013 プールに残ります。 詳細については、「音声ソリューションを [計画する」を参照してください](/MicrosoftTeams/cloud-voice-landing-page.md)。
 
-**Lync Server 2010** を含む次のトポロジは、インスタント メッセージングと会議Skype for Businessオンラインでサポートされています。 Lync Server **2010** を含むトポロジは、ハイブリッド音声およびハイブリッド 音声Teams。
-
-- Lync Server 2010 と 2015 Skype for Business Serverの混在展開
-- Lync Server 2010 と Lync Server 2013 の混在展開
-- Lync Server 2010 を実行しているすべてのサーバーが最新の累積的な更新プログラムを備える Lync Server 2010 展開。
-
-フェデレーション エッジ サーバーからのフェデレーション エッジ サーバーと次ホップ サーバーは、最新の累積的な更新プログラムを使用して Lync Server 2010 を実行している必要があります。 2015 Skype for Business Server Lync Server 2013 管理ツールは、少なくとも 1 台のサーバーまたは管理ワークステーションにインストールする必要があります。
+> [!NOTE]
+> Lync Server 2010 は、このアプリケーションではTeams。
 
 ## <a name="multi-forest-support"></a>複数フォレストのサポート
 
@@ -141,11 +136,11 @@ Microsoft では、次の種類のマルチフォレスト ハイブリッド �
   - ホストするフォレスト Skype for Business、ユーザーを含むフォレストを信頼する必要があります。
     リソース フォレスト ハイブリッド シナリオの詳細については、「ハイブリッド フォレストのリソース フォレスト トポロジを展開する」を参照[Skype for Business。](configure-a-multi-forest-environment-for-hybrid.md)
 
-- **複数のフォレストで Skype for Business Server を複数配置している。** この構成は、合併および買収のシナリオ、およびより複雑な企業の結果として発生する可能性があります。 次の重要な要件が満たされている場合、複数の Skype for Business 展開を持つ組織では、オンプレミスからクラウドへのすべてのユーザーの統合を 1 つの Microsoft 365 組織または Office 365 組織で実現できます。
-  - 1 つ以上の組織Microsoft 365またはOffice 365必要があります。 複数の組織とのシナリオでの統合はサポートされていません。
+- **複数のフォレストで Skype for Business Server を複数配置している。** この構成は、合併および買収のシナリオ、およびより複雑な企業の結果として発生する可能性があります。 次の重要な要件が満たされている場合、複数の Microsoft 365 Skype for Business 展開を持つ組織では、オンプレミスからクラウドへのすべてのユーザーの統合を実現できます。
+  - 関連する組織には、少なくとも 1 Microsoft 365必要があります。 複数の組織とのシナリオでの統合はサポートされていません。
   - 任意の時点で、ハイブリッド モード (共有 SIP アドレスSkype for Business 1 つのオンプレミス フォレストのみを使用できます。 その他のすべてのオンプレミス Skype for Businessフォレストは、完全にオンプレミスに残る必要があります (おそらく、互いにフェデレーションされている可能性があります)。 これらの他のオンプレミス組織は、2018 年 12 月現在利用可能なオンライン [SIP](/powershell/module/skype/disable-csonlinesipdomain) ドメインを無効にする新しい機能を必要に応じて AAD に同期できます。
 
-    複数のフォレストに Skype for Business を展開しているお客様は、次のオンプレミス Skype for Business 展開を移行する前に、分割ドメイン (共有 SIP アドレス空間) 機能を使用して各 Skype for Business フォレストを Microsoft 365 または Office 365 組織に完全に移行してから、オンプレミス展開でハイブリッドを無効にする必要があります。 さらに、クラウドに移行する前に、オンプレミスのユーザーは、同じユーザーのオンプレミス ディレクトリに表示されないユーザーとフェデレーション状態のままです。 詳細については、「クラウド統合[for Teams」を参照](cloud-consolidation.md)Skype for Business。
+    複数のフォレストに Skype for Business を展開しているお客様は、分割ドメイン (共有 SIP アドレス空間) 機能を使用して、Skype for Business フォレストごとに個別に Microsoft 365 組織に完全に移行する必要があります。 フォレストの移行が完了したら、次のオンプレミス展開を移行する前に、オンプレミス展開とのハイブリッドを無効にするSkype for Businessがあります。 さらに、クラウドに移行する前に、オンプレミスのユーザーは、同じユーザーのオンプレミス ディレクトリに表示されないユーザーとフェデレーション状態のままです。 詳細については、「クラウド統合[for Teams」を参照](cloud-consolidation.md)Skype for Business。
 
 ## <a name="federation-requirements"></a>フェデレーション要件
 
@@ -155,7 +150,7 @@ Microsoft では、次の種類のマルチフォレスト ハイブリッド �
 
 ハイブリッド展開を正常に構成するには、次の要件を満たす必要があります。
 
-- ドメインの一致は、オンプレミスの展開と組織または組織で同Microsoft 365構成Office 365があります。 オンプレミス展開でパートナーの検出が有効になっている場合は、オンライン組織用にオープン フェデレーションを構成する必要があります。 パートナーの検出が有効になっていない場合は、オンライン組織に対して閉じたフェデレーションを構成する必要があります。
+- ドメインの一致は、オンプレミスの展開と組織で同じ構成Microsoft 365があります。 オンプレミス展開でパートナーの検出が有効になっている場合は、オンライン組織用にオープン フェデレーションを構成する必要があります。 パートナーの検出が有効になっていない場合は、オンライン組織に対して閉じたフェデレーションを構成する必要があります。
 - オンプレミス展開の [ブロックされたドメイン] リストは、オンライン テナントの [ブロックされたドメイン] リストと完全に一致している必要があります。
 - オンプレミス展開の [許可されたドメイン] リストは、オンライン テナントの [許可されたドメイン] リストと完全に一致している必要があります。
 - フェデレーションは、オンライン テナントの外部通信に対して有効にする必要があります。
@@ -190,4 +185,4 @@ Microsoft では、次の種類のマルチフォレスト ハイブリッド �
 
 Microsoft Online Services データ センターの場所に応じて、ワイルドカード ドメイン名 (.outlook.com からのトラフィックなど) に基づいて接続を受け入れるネットワーク ファイアウォール \* デバイスも構成する必要があります。 組織のファイアウォールがワイルドカード名の構成をサポートしていない場合は、許可する IP アドレス範囲と指定したポートを手動で決定する必要があります。
 
-ポートおよびプロトコル要件の詳細を含む詳細については、「URL と IP アドレスMicrosoft 365 Office 365[を参照してください](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
+ポートおよびプロトコル要件の詳細を含む詳細については、「URL と IP アドレスMicrosoft 365[を参照してください](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
