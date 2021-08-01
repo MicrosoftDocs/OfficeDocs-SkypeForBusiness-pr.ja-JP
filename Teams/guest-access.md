@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: ac699c662c8e0ac61180c1031cfc77c300c51d19
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536833"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646428"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
@@ -54,6 +54,12 @@ Teams でのゲスト アクセスには、Azure AD、Microsoft 365 グループ
 - Azure Active Directory を使用するパートナー組織とコラボレーションし、ゲストがチーム アクセスに自己登録できるようにするには、「[管理されたゲストで B2B エクストラネットを作成する](/microsoft-365/solutions/b2b-extranet)」を参照してください。
 
 Teams でのゲスト アクセスは組織全体の設定であり、既定ではオフになっています。 [機密ラベル](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)を使用して、個々のチームへのゲスト アクセスを制御できます。
+
+### <a name="turning-guest-access-off"></a>ゲスト アクセスをオフにする
+
+Teams でゲスト アクセスをオフにすると、既存のゲストはチームにアクセスできなくなります。 ただし、チームから削除されることはありません。 それらはチーム メンバーに引き続き表示され、@メンションすることができます。 Teams のゲスト アクセスを再度オンにすると、アクセスを回復します。
+
+ゲスト アクセスをオフのままにする場合は、チームの所有者に、チームからゲスト アカウントを手動で削除するようにアドバイスすることをお勧めします。 これらのゲストはアクセスできませんが、チームに自分のアカウントが表示されると、他のチーム メンバーが混乱する可能性があります。
 
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>ゲストをチームのメンバーにする方法
 

@@ -19,12 +19,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
-ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
+ms.openlocfilehash: b66a65f9c3c5bf42911062d1af0a68b975363cfa
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53565713"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660745"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -103,15 +103,15 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 |シナリオ|手順|
 |--|--|
 | 社内のすべてのユーザーが、自身の会議をレコーディングできるようにしたい。 | <ol><li>Global CsTeamsMeetingPolicy は、 AllowCloudRecording = True に設定されていることを確認する。<li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定されていることを確認する。</ol> |
-| ユーザーの大半に会議をレコーディングできるようにしたいが、レコーディングを許可されていない特定のユーザーについては、選択的に記録できないようにしたい。 | <ol><li>GlobalCsTeamsMeetingPolicy が AllowCloudRecording = True に設定されていることを確認する。<li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定されていることを確認する。<li>その他のすべてのユーザーは、CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。</ol> |
+| ほとんどのユーザーに会議をレコーディングできるようにしたいが、レコーディングを許可されていない特定のユーザーについては、選択的に記録できないようにしたい。 | <ol><li>GlobalCsTeamsMeetingPolicy が AllowCloudRecording = True に設定されていることを確認する。<li>ほとんどのユーザーに、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定されていることを確認する。<li>その他のすべてのユーザーは、CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。</ol> |
 | レコーディングを 100% 無効化する。 | <ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。<li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False に設定され、承認されている。 |
-| ユーザーの大半に対してはレコーディングを不可とし、特定のユーザーについてレコーディングすることを選択的に許可したい。 | <ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。<li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。<li>その他のすべてのユーザーには、 CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定され、承認されている。 <ol> |
+| ユーザーの大半に対してはレコーディングを不可とし、特定のユーザーについてレコーディングすることを選択的に許可したい。 | <ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。<li>ほとんどのユーザーに、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。<li>その他のすべてのユーザーには、 CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定され、承認されている。 <ol> |
 
 
 <a name="bd-channel"></a>
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>チャネル会議のレコーディングのダウンロードを禁止または許可する
 
-この設定は、チャネル会議をチャネルにある "Recordings" フォルダーに保存するか、それとも "Recordings\View only" フォルダーに保存するかどうか制御します。
+この設定は、チャネル会議をチャネルにある "Recordings" フォルダーに保存するか、それとも "Recordings\View only" フォルダーに保存するかどうか制御します。 この設定は、チャネル会議の記録を選択したユーザーのポリシーに適用されます。 
 
 この設定のための 2 つの値は次のとおり:
 
@@ -175,7 +175,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |シナリオ|手順 |
 |---|---|
 |会議のレコーディングを始めるにあたって、社内のすべてのユーザーが文字起こしをできるようにしたい。 |<ol><li>Global CsTeamsMeetingPolicy が AllowTranscription = True に設定されていることを確認する。 <li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = True に設定されていることを確認する。 </ol>|
-|ユーザーの大半に会議のレコーディングの文字起こしを可能とするが、一方で文字起こしを許可されていない特定のユーザーについては、不可とする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowTranscription = True に設定されていることを確認する。 <li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = True に設定されていることを確認する。 <li>その他のすべてのユーザーには、CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = False に設定され、承認されている。 </ol>|
+|ほとんどのユーザーに会議のレコーディングの文字起こしを可能とするが、一方で文字起こしを許可されていない特定のユーザーについては、不可とする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowTranscription = True に設定されていることを確認する。 <li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = True に設定されていることを確認する。 <li>その他のすべてのユーザーには、CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = False に設定され、承認されている。 </ol>|
 |レコーディングの文字起こしを100% 無効にする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowTranscription = False に設定されていることを確認する。 <li>すべてのユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowTranscription = False に設定され、承認されている。 </ol>|
 |ユーザーの大半について、文字起こしを無効にし、一方で文字起こしを許可されている特定のユーザーについては選択的に可能とする。 |<ol><li>Global CsTeamsMeetingPolicy が AllowCloudRecording = False に設定されていることを確認する。 <li>大半のユーザーについて、Global CsTeamsMeetingPolicy または CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = False として設定され、承認されている。 <li>その他のすべてのユーザーには、 CsTeamsMeetingPolicy ポリシーの 1 つが AllowCloudRecording = True に設定され、承認されている。 </ol>|
 
@@ -254,6 +254,114 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 1 時間のレコーディングのサイズは 400 MB です。 レコーディング ファイルに要求される容量を理解していること、及び OneDrive for Business と SharePoint Online に十分な記憶域が確保されていることを確かめて下さい。  サブスクリプションに含まれる基本のストレージを理解し、追加の記憶域の注文方法を知るために、[OneDrive for Business に既定の記憶域を設定する](/onedrive/set-default-storage-space) そして [SharePoint Online サイトの記憶域の制限を管理する](/sharepoint/manage-site-collection-storage-limits) をご覧ください。
 
+ <a name="auto-expiration"></a>
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 会議の記録の自動消去: 
+
+> [!IMPORTANT] 
+>
+> この記事で説明した自動期限切れ機能はまだ開始されていません。 納期日については、[ロードマップ (Feature ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) を参照してください。 
+> 
+> この機能が将来的に動作する方法に関する情報を提供することで、この変化に備えて計画を立て、Teams ポリシー設定を事前に変更できるようにしています。 
+
+管理者およびエンド ユーザーによく寄せられる質問を確認して、Teams 会議の記録の自動期限切れがどのように機能するか、今すぐできるアクション、および機能の開始後にできるアクションに関する分析情報を集めています。 
+  
+## <a name="frequently-asked-questions"></a>よく寄せられる質問
+
+**変更とは?**
+  
+新しく作成されたすべての Teams 会議の記録 (TMR) で、既定で 60 日間の有効期限を導入しました。 これは、既定では、この機能を有効にした後に作成されたすべての TMR は、作成日から 60 日後に削除されることを意味します。 管理者は、会議の記録の有効期限を既定よりも早くまたは遅くしたい場合、有効期限の設定を変更することができます。 OneDrive や SharePoint のシステムでは、すべての会議の記録に設定された有効期限を監視し、有効期限になると自動的にごみ箱に移動します。 
+
+**影響を受けるユーザーは誰ですか?**
+  
+Teams 会議の記録 (チャネル以外、チャネル、アドホック会議) を OneDrive や SharePoint に保存するユーザー。 
+
+**この機能はどのように使用しますか?**
+  
+この機能を使用して、Teams 会議の記録で消費される OneDrive や SharePoint のストレージを制限する必要があります (注: 通常、1 時間の録画で約 400 MB を使用します)。 
+  
+**この変更を導入する理由は何ですか?**
+  
+お客様からのフィードバックで圧倒的に多いのが、平均して 60 日後には 99% が再び視聴されることのない Teams 会議の記録から生じるストレージの混乱を減らすために、詳細を制御する必要があります。
+  
+**既定でオンになっている理由は何ですか?**
+  
+60 日後に再び視聴される可能性がほとんどない記録を削除することで、テナントのストレージ負荷が軽減されることは、ほぼすべてのお客様にとってメリットになります。 すべてのお客様に、既定でできる限りクリーンなエクスペリエンスを提供することが Microsoft の目標です。 
+  
+**有効期限日はどのように計算しますか?**
+  
+有効期限日は、会議の記録が作成された日に、管理者が Teams 設定で設定した既定の日数を加えたものとして計算されます。 
+  
+**管理者は有効期限日をどのように変更しますか?**
+  
+管理者は、現在 PowerShell で既定の有効期限設定を変更することができます。 この機能が開始されると、管理者は Teams 管理センターでこの設定を変更することができます。 有効期限設定を変更すると、その時点から新たに作成された TMR のみに影響を与えます。 その日以前に記録されたコンテンツには影響ありません。 
+
+管理者が適用できる最大の有効期限設定は、99,999 日 (273年) です。 管理者は、この機能がリリースされる前に OneDrive や SharePoint にアップロードされた既存の TMR の有効期限日を変更することはできません。 これにより、TMR を所有するユーザーの意図を保護することができます。 
+
+  PowerShell コマンドの例は、以下のとおりです。 
+  
+  ```powershell
+  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
+  ```
+  
+**管理者ポリシー向けの制御は、どの範囲ですか?**
+  
+会議も通話も、同じ `CsTeamsMeetingPolicy` の設定である `MeetingRecordingExpirationDays` で制御されます。 
+  
+**エンド ユーザーが特定の TMR ファイルの有効期限を変更するにはどうすればいいですか?**
+  
+TMR の編集および削除権限を持つユーザーは、OneDrive や SharePoint のファイルの詳細ウィンドウで有効期限日を変更することができます。 
+
+ユーザーは、有効期限を 14 日、30 日、60 日のいずれかに延期することも、将来の特定の日付を選択することも、ファイルを失効させないことを選択することもできます。 
+  
+**管理者は、この機能を厳格なセキュリティやコンプライアンス遵守のために依存する必要がありますか?**
+  
+いいえ。エンド ユーザーは自分が管理する記録の有効期限日を変更することができるため、管理者は法的保護のためにこの機能に依存する必要はありません。 
+  
+**この機能はファイルの保持を強制しますか?**
+  
+いいえ。この機能やその設定により、ファイルは保持されることはありません。 削除権限を持つユーザーが、有効期限が設定された TMR を削除しようとした場合、そのユーザーの削除アクションが実行されます。
+ 
+**セキュリティ/コンプライアンス (S+C) センターで設定した保持ポリシーや削除ポリシーは、TMR の有効期限の設定よりも優先されますか?**
+  
+はい。セキュリティ/コンプライアンス センターで設定したすべてのポリシーが優先されます。 次に例を示します。 
+  
+- サイト内のすべてのファイルを 100 日間保持しなければならないというポリシーがあり、TMR の有効期限設定が 30 日の場合、記録ファイルは 100 日間完全に保持されます。  
+- すべての TMR が 5 日後に削除されるという削除ポリシーがあり、記録ファイルの有効期限を 30 日に設定している場合、そのファイルは 5 日後に削除されます。 
+
+**TMRが “期限切れ” になるとどうなりますか?**
+  
+有効期限日になると、TMR は OneDrive または SharePoint のごみ箱に移動し、有効期限日フィールドはクリアされます。 このシステムによるアクションは、ユーザーがファイルを削除した場合とまったく同じです。 その後、ごみ箱のライフサイクルは通常のパスに従います。 ユーザーが TMR をごみ箱から回収した場合、エンド ユーザーがファイルに新しい有効期限を設定しない限り、有効期限がクリアされているため、この機能によって TMR が再び削除されることはありません。 
+  
+**ファイルの有効期限の通知はどのように行われますか?**
+  
+閲覧権限のあるすべてのユーザーに、有効期限日に関する通知が、Teams チャット ウィンドウの記録チクレットに表示されます。 
+  
+閲覧権限のあるすべてのユーザーは、ファイルの有効期限切れ 14 日前になると、OneDrive や SharePoint のフォルダ内のファイルの横に赤いアイコンが表示されます。 
+  
+TMR の有効期限が切れると、ファイル所有者にはメールで通知が届き、希望する場合はごみ箱に移動して TMR を復元します。
+  
+**この機能に必要な SKU は何ですか?**
+  
+すべての SKU にこの機能が既定で搭載されます。 A1 ユーザーは、既定で 30 日間の有効期限が設定され、有効期限日の変更ができなくなります
+  
+**ファイルの失効は監査イベントになり、監査ログに記録されますか?**
+  
+はい。ファイルの有効期限は、システムの削除イベントとして監査ログに記録されます。 
+  
+**TMR のライフサイクルを管理者が完全に制御する必要がありますが、エンド ユーザーには有効期限を上書きする機能を付与したくない場合はどうすればいいですか?**
+  
+E5 コンプライアンス SKU の一部として提供されているセキュリティ/コンプライアンス センターの保持ポリシーや削除ポリシーを使用することをお勧めします。 このサービスは、複雑なポリシーや SLA 駆動型の管理的な法的問題を解決することを目的としています。 
+
+この機能は、コールド TMR によるストレージの低優先メールを縮小するための、軽量なハウスキーピング メカニズムとしてのみ意味します。 
+  
+**いつファイルを削除しますか?**
+  
+ファイルは、有効期限から 5 日以内に削除されますが、これは厳密な保証ではありません。 
+  
+**この機能のリリース後、クラシック ストリームから移行した将来の TMR にも自動失効が適用されますか?**
+  
+いいえ。移行した TMR には有効期限が設定されません。 その代わりに、管理者には、保持したい TMR のみを移行することをお勧めします。 詳細は移行ドキュメントに記録されます。
+  
 ## <a name="manage-meeting-recordings"></a>会議のレコーディングを管理する
 
 会議のレコーディングは、OneDrive for Business および SharePoint Online にビデオ ファイルとして保存され、これらのプラットフォームで利用できる管理とガバナンスのオプションに従います。 詳細については、[SharePoint Online ガバナンスの概要](/sharepoint/governance-overview)、[大企業向け OneDrive for Business ガイド](/onedrive/plan-onedrive-enterprise)、または[中小企業向け OneDrive for Business ガイド](/onedrive/one-drive-quickstart-small-business)を参照してください。
@@ -273,7 +381,7 @@ Teams の文字起こしとレコーディングの間のリンクに対する�
 > [!NOTE]
 > 英語専用のクローズド キャプションがあります (会議の文字起こしは GCC ではまだ利用できません)。
 
-## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>会議のレコーディングのコンプライアンスと電子情報開示
+## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>会議のレコーディングの電子情報開示とコンプライアンス
 
 ### <a name="ediscovery"></a>電子情報開示
 

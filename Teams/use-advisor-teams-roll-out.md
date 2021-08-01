@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: Teams のアドバイザーを使用して、Microsoft Teams の展開を計画および完了することを支援します。
-ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b86ade0aa067e895ebf21b912801c761e7657ba
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240552"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646618"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Teams のアドバイザーを使用して、Microsoft Teams の展開を支援する
 
@@ -71,8 +71,16 @@ Teams のアドバイザーは現在、次のプランを提供しています�
     - Forms のユーザー アンケート
     - Teams のアドバイザー ボット
     - Skype for Business のアップグレード プランは、現在 Skype for Business Online またはオンプレミス環境で Skype for Business をご利用のお客様向けに設計されており、アップグレードの行程を正確に把握できるようになっています。 このプランでは、Teams を使い始めたばかりのお客様、Skype for Business と併せて既に Teams を使用しているお客様、あるいはアップグレードの準備ができているお客様のすべてに、変更の実装に実績のあるフレームワークを利用してステップ バイ ステップでアップグレードのプロセスを案内します。 このプランではさらに、[オンライン ガイダンスとベスト プラクティス](./upgrade-start-here.md)、[ダウンロード可能なリソース ファイル](https://aka.ms/UpgradeSuccessKit)、[ライブでの 1 対多のアップグレード計画ワークショップ](./upgrade-workshops-landing-page.yml)の他、成功を支援するさまざまなリソースにアクセスできます。
+1. 教育 (教育機関にのみ表示)
+    - テナントの評価
+    - 導入タスクを含む Planner プラン
+    - Forms のユーザー アンケート
+    - Teams のアドバイザー ボット
+    - 教育機関向けに設計された教育計画は、教育機関での Teams の展開、採用、および管理に役立ちます。
 
-チャット、チーム、チャネル、アプリ プランから始めることをお勧めします。 そのワークロードの展開が完了したら Teams のアドバイザーに戻り、[**チャネルの追加**] を選択して次のワークロードを開始します。
+営利団体の場合は、チャット、チーム、チャネル、アプリ プランから始めることをお勧めします。 教育機関の場合は、教育計画から始めることをお勧めします。 そのワークロードの展開が完了したら Teams のアドバイザーに戻り、[**チャネルの追加**] を選択して次のワークロードを開始します。
+
+
 
 ## <a name="tenant-assessment"></a>テナントの評価
 
