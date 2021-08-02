@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 電話会議を使用したいお客様からよく聞く質問を次に示します。
-ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: c8c5ea445e9c8d01f869a9340934fe75fe92a329
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856416"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679752"
 ---
 # <a name="audio-conferencing-common-questions"></a>電話会議に関するよくある質問
 
@@ -111,7 +111,7 @@ Skype for BusinessとMicrosoft Teamsユーザーには、会議 ID がランダ�
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>ユーザーが会議 ID にアクセスまたは変更する方法
 
-Skype for BusinessまたはMicrosoft Teamsユーザーは、web 上で会議をスケジュールすることで、割り当てられている会議 ID Outlook見Outlookできます。 また、ユーザーは、セットアップ後に送信される電子メールで会議 ID を確認できます。
+Skype for BusinessまたはMicrosoft Teamsユーザーは、ユーザーに割り当てられている会議 ID を見つけるには、Outlook と Outlook on the web。 また、ユーザーは、セットアップ後に送信される電子メールで会議 ID を確認できます。
   
 > [!NOTE]
 > ユーザーは会議 ID をリセットできない。 会議 ID は、組織の管理者によって [のみ](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504)リセットできます。 
@@ -131,10 +131,11 @@ Skype for BusinessまたはMicrosoft Teamsユーザーは、セットアップ�
 
 会議の参加者と開催者の場合:
 
-| コマンド名 | コマンド キー | 説明                                                     |
-|--------------|--------------|-----------------------------------------------------------------|
-| コマンド メニュー | \*1          | \*1 キーを押して、使用可能なダイヤルパッド コマンドの説明を再生します。 |
-| ミュート/ミュート解除  | \*6          | \*6 キーを押して、自分自身をミュートまたはミュート解除します。                         |
+| コマンド名    | コマンド キー | 説明                                                                 |
+|--------------   |--------------|-----------------------------------------------------------------------------|
+| コマンド メニュー    | \*1          | \*1 キーを押して、使用可能なダイヤルパッド コマンドの説明を再生します。 |
+| 上げ/下手| \*5          | \*5 キーを押して、手を上げるか下げる。                                           |  
+| ミュート/ミュート解除     | \*6          | \*6 キーを押して、自分自身をミュートまたはミュート解除します。                                     |
 
 会議開催者の場合のみ:
 
@@ -150,7 +151,7 @@ Skype for BusinessまたはMicrosoft Teamsユーザーは、セットアップ�
   
 ## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>電話会議のSkype for Businessユーザー Microsoft Teams会議の詳細を使用して会議をスケジュールする方法
 
-ユーザーに電話会議ライセンスが割り当て済みで、ユーザーが web 上の Outlook または Outlook で新しい Skype for Business または Microsoft Teams 会議を作成すると、ダイヤルイン電話番号と会議 ID が会議出席招待に自動的に追加されます。
+ユーザーに電話会議ライセンスが割り当て済みで、ユーザーが Outlook または Outlook on the web で新しい Skype for Business または Microsoft Teams 会議を作成すると、ダイヤルイン電話番号と会議 ID が会議出席招待に自動的に追加されます。
   
 ## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>すべての出席者が電話を使ってダイヤルインする場合、ユーザーはどのようにして会議をスケジュールし、会議を開始しますか?
 

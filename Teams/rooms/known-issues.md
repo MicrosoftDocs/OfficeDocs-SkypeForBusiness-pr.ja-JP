@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、更新プログラム、ユーザー インターフェイス、ハードウェア、制限事項や想定される動作を含む、Microsoft Teams Rooms の既知の問題のリストについて知ることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d601db3c028c7c93a97131db48de81bdcab314e4
-ms.sourcegitcommit: bd7b4986044f7921b25506488dfed405fc2e7ca3
+ms.openlocfilehash: b3656e73226f29f6580a4ae3a1807ee8273731a8
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877489"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679782"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -32,7 +32,7 @@ ms.locfileid: "52877489"
 | 問題のタイトル |  動作 \/ 症状 | 既知の回避策 | サポート技術情報記事 |
 |  ---        |      ---             |   ---            | --- |
 | アプリケーションが起動しない |  アプリケーション バージョン 4.4.41.0 に更新すると、システムが黒い画面を表示するか、数分後にログオン画面に移動します。 | この問題を修正するには、[バージョン 4.4.41.0 に更新後に Microsoft Teams Rooms が起動しない](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) の手順に従います。  | なし |
-|  コンテンツ共有後の会議の量が少ない         |   Microsoft Teams ミーティング 20H2 のデバイスではWindows 10 HDMI 経由でコンテンツを共有した後、メディアと会議の音量が低下します。 これは、20H2 のオーディオの問題Windows 10発生します。 | 現在、この問題の回避策はありません。 音声ボリューム (参加者の音声など) への影響を軽減するために、すべてのデバイスで HDMI オーディオTeams ミーティングしました。 チームWindows 10問題を調査中であり、顧客の勧告は解決が見つかるまで有効なままです。 | なし |
+|  コンテンツ共有後の会議の量が少ない         |   Microsoft TeamsWindows 10 20H2 の会議室デバイスでは、ルーム内 HDMI 経由でコンテンツを共有した後、メディアと会議の音量が低下します。 これは、20H2 のオーディオの問題Windows 10発生します。 | この問題の修正プログラムは、アプリケーション バージョン [4.9.12.0 で利用できます](/microsoftteams/rooms/rooms-release-note#49120-7282021)。 | なし |
 |  旧版のアプリ         |    Microsoft Teams Rooms のコンソールには、「システム構成が古くなっています」というエラーが表示されます。                |   [Microsoft Teams Rooms の回復ツールを使用する](recovery-tool.md)             |  なし |
 |  デバイスを Windows 10 でサポートされていないバージョンに更新した   |    Windows 10 デバイスはバージョン 1803 からバージョン 1809 に更新されましたが、これはサポートされていないバージョンです。 サポートされているバージョンは 1903 です。 |   これは、[DeferFeatureUpdatesPeriodinDays 向けグループ ポリシーまたは MDM 設定](/windows/deployment/update/waas-configure-wufb)で、機能の更新を指定した日数 (最大 365 日) 保留にした場合に発生することがあります。 <br><br> Windows 10 バージョン 1903 は Microsoft Teams Rooms でサポートされていますが、バージョン 1809 はサポートされていません。 ただし、2020 年 3 月 27 日時点で、バージョン 1809 はリリースから 365 日以上経過しています。 この設定が変更されていない場合は、Windows は バージョン 1809 のインストールを試行します。これにより、Microsoft Teams Rooms で問題が発生する可能性があります。<br><br>このような状況を回避するには、更新を保留しているグループ ポリシーまたは MDM 設定のいずれかを **削除** します。 これにより、Windows はサポートされている最新の OS バージョンに更新されます。 <br><br>**重要** グループ ポリシーまたは MDM 設定は、**削除済み** (構成しないままにする) および **0 に設定しない** 必要があります。 ポリシーが 0 に設定された場合、Windows はサポートされていない可能性がある使用可能な最新バージョンを選択します。 |  なし |
 
