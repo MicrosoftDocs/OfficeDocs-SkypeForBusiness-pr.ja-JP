@@ -26,7 +26,7 @@ ms.custom:
 description: Teams で会議ポリシーの設定を管理する方法について説明します。また、会議ポリシーの設定を使用して、ユーザーがスケジュールした会議の参加者に対して利用できる機能を制御します。
 ms.openlocfilehash: 09d821eb4a0ae6f1315ff5ff817c4b702512a974
 ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/08/2021
 ms.locfileid: "52282794"

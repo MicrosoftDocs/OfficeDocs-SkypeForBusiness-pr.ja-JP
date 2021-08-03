@@ -22,7 +22,7 @@ appliesto:
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51101273"
@@ -228,4 +228,4 @@ Teams のサービスにかかわる全体的な正常性を把握して、サ�
 - 組織全体にミーティングと会議の[導入を推進する](adopt-microsoft-teams-landing-page.md)。
 - [電話会議を追加する](deploy-audio-conferencing-teams-landing-page.md)
 - [クラウド ボイスを展開する](cloud-voice-landing-page.md)
-- お勧めのアプリ (Planner など) を Teams の初期ロールアウトに組み込む。 Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。
+- 最初の Teams ロールアウトには、Planner などのおすすめのアプリを含めます。 Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。

@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 77b40518379fd0334bce54362b07d129efe6f1a9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116945"
@@ -74,7 +74,7 @@ Teams をユーザーに展開するための準備として、 **[カスタマ�
    - [Microsoft Teams によって Microsoft 社員のリモート作業が実現している方法](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
    - [Teams により中小規模企業でのリモート作業をサポートする](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT が社員のリモート勤務を実現した 9 つの方法](https://www.microsoft.com/ja-JP/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT が社員のリモート勤務を実現した 9 つの方法](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 教育機関用 Teams 

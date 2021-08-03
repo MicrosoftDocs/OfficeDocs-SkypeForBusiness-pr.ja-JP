@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51121565"
@@ -36,7 +36,7 @@ Microsoft では、今回の新型コロナウイルス感染症 (COVID-19) 発�
 > [!NOTE]
 > すでに Microsoft 365 をセットアップしていて、Microsoft が行っている操作について詳しく知りたい場合は、メッセージ センターにアクセスして、**MC205458** メッセージ センターの投稿を確認してください。
 
-Microsoft 365 担当コーポレート バイス プレジデントの Jared Spataro による 2020 年 3 月 5 日のブログ投稿「[Our commitment to customers during COVID-19 (新型コロナウイルス感染症発生中における、お客様への取り組み)](https://www.microsoft.com/ja-JP/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)」をぜひご覧ください。
+Microsoft 365 担当コーポレート バイス プレジデントの Jared Spataro による 2020 年 3 月 5 日のブログ投稿「[Our commitment to customers during COVID-19 (新型コロナウイルス感染症発生中における、お客様への取り組み)](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)」をぜひご覧ください。
 
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Microsoft が措置を講じているということは、問題は何も発生しないということですか?

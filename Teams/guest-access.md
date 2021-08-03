@@ -21,7 +21,7 @@ appliesto:
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
 ms.openlocfilehash: ac699c662c8e0ac61180c1031cfc77c300c51d19
 ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/29/2021
 ms.locfileid: "53646428"

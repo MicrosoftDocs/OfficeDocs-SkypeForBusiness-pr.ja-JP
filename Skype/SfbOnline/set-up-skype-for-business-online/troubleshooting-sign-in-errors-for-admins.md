@@ -21,7 +21,7 @@ ms.custom:
 description: 'Skype for Business Online のサインイン エラーの一般的な原因およびこれらの問題を解決する方法について説明します。 '
 ms.openlocfilehash: 653ad6fec51803cbf818595a39412d535c49d969
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52239405"

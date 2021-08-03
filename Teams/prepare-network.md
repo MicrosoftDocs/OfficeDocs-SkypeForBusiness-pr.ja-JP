@@ -21,7 +21,7 @@ ms.custom:
 - seo-marvel-mar2020
 ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
 ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/14/2021
 ms.locfileid: "53420832"
@@ -306,7 +306,7 @@ Teams は、ネットワークの状態に関係なく、最高のオーディ�
 
 - ビデオ通話の **最小** 帯域幅要件は、最大 240p の解像度で、画面共通コンテンツのフレーム レートは Adaptive 1.875 から 7.5fps で、Together モードのギャラリー ビデオは最大 540p 解像度です。  
 
-- ビデオ通話の **推奨** 帯域幅要件は、最大 1080p の解像度<sup>\*</sup>で、画面共通コンテンツのフレーム レートは Adaptive 7.5 から 30fps で、Together モードのギャラリー ビデオは最大 1080p 解像度<sup>\*</sup>です。  
+- ビデオ通話の **推奨** 帯域幅要件は、最大 1080p の解像度 <sup>\*</sup>で、画面共通コンテンツのフレーム レートは Adaptive 7.5 から 30fps で、Together モードのギャラリー ビデオは最大 1080p 解像度 <sup>\*</sup>です。  
 
 - **最高のパフォーマンス** ガイダンスでは、大規模な出席者の会議向けのハイファイ ビデオ、高損失環境で、かつ画面共有フレーム レートが Adaptive 15 から 30fps の高モーション コンテンツを使用することができます。
 

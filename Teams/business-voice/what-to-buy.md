@@ -27,7 +27,7 @@ no-loc:
 - Office 365
 ms.openlocfilehash: de844a68d29e0bcb1bc7144fb3101d69a13f2966
 ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/03/2021
 ms.locfileid: "52129866"

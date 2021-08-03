@@ -23,7 +23,7 @@ search.appverid: MET150
 description: 教育機関におけるポリシーや EDU 設定、および Microsoft Teams でポリシー パッケージを使用および管理する方法について説明します。
 ms.openlocfilehash: a23c54003f700b3d6dc3e0c45cbbc9ee42a311ed
 ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/07/2021
 ms.locfileid: "52796841"

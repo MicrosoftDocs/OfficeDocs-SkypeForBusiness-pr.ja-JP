@@ -20,7 +20,7 @@ search.appverid: MET150
 description: 詳細については、「Microsoft Teams の会議で手を挙げる」 を参照してください。
 ms.openlocfilehash: 9f431354b412cd51afb662a86246f9f23662a676
 ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 06/16/2020
 ms.locfileid: "44755421"

@@ -20,7 +20,7 @@ search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
 ms.openlocfilehash: 10734ef748d5e3ec0327c1cae3a3e6defec0e9af
 ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/06/2021
 ms.locfileid: "53301992"

@@ -17,7 +17,7 @@ search.appverid: MET150
 description: Microsoft Teams 会議の監視ありチャットについて説明します。
 ms.openlocfilehash: e705120eb2f8b92ea437c78be67c139018f786fc
 ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51506686"

@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
 ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/06/2021
 ms.locfileid: "51598576"
@@ -215,7 +215,7 @@ PowerShell では、チームやチャネルを作成するためにスクリプ
 
 #### <a name="manual-team-creation"></a>チームの手動作成
 
-生徒と教師に Teams を最大限に活用してもらうには、使用に際してのハードルが低く、各自のニーズに合うようにカスタマイズできる柔軟性があることが大切です。 ユーザーは、チーム作成機能を使用してチームエクスペリエンスを調整できます。 教育者は独自のクラスタイプのチームを設定し、[こちら](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)に示すように生徒を招待します。 教育者は、[チームに生徒を追加する](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[参加コードを共有する](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)、または[チームへのリンクを共有する](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)ことにより、生徒を招待できます。 可能であれば、教育者がチームに生徒を追加し、生徒がアクセスできるようにし整え、チームに生徒を追加したことを通知することをお勧めします。
+生徒と教師に Teams を最大限に活用してもらうには、使用に際してのハードルが低く、各自のニーズに合うようにカスタマイズできる柔軟性があることが大切です。 ユーザーは、チーム作成機能を使用してチームエクスペリエンスを調整できます。 教育者は独自のクラスタイプのチームを設定し、[こちら](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)に示すように生徒を招待します。 教育者は、[チームに生徒を追加する](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[参加コードを共有する](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)、または[チームへのリンクを共有する](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)ことにより、生徒を招待できます。 可能であれば、教育者がチームに生徒を追加し、生徒がアクセスできるようにし整え、チームに生徒を追加したことを通知することをお勧めします。
 
 ##### <a name="benefits"></a>利点
 

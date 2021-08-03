@@ -20,7 +20,7 @@ localization_priority: Priority
 description: 外部アクセス (フェデレーション) とゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
 ms.openlocfilehash: bda5652aedd8d071984334a3851e50ba52400943
 ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/06/2021
 ms.locfileid: "53302002"
