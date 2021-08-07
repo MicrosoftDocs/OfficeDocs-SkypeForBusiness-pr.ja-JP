@@ -1,5 +1,5 @@
 ---
-title: Teamsポリシー ウィザードを使用して、安全な学習のためのポリシーを簡単に適用する
+title: Microsoft Teams for Education安全な学習のためのポリシーを簡単に適用するポリシー ウィザード
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,20 +15,20 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Teams for Education ポリシー ウィザードを使用して、学生や教育者向けのポリシーを簡単に適用して、学習環境を安全に保つ方法について説明します。
+description: Microsoft Teams for Education ポリシー ウィザードを使用して、学生や教育者向けのポリシーを簡単に適用して、学習環境を安全に保つ方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: 7eca1fca8a4c054d2787b205c5e57ced274416da
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2824ed511f1c2f5a5a7389760de9d50559e5da2a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772408"
 ---
-# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Teams for Education Policy Wizard を使用して、安全な学習環境のポリシーを簡単に適用する
+# <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>セキュリティ ポリシー ウィザードMicrosoft Teams for Education使用して、安全な学習環境にポリシーを簡単に適用する
 
 ## <a name="overview"></a>概要
 
-Microsoft Teams ポリシー ウィザードを使用すると、学生と教師のポリシーの管理が簡略化されます。 安全で生産的な学習エクスペリエンスの作成に関連する最も重要なポリシー セットを簡単かつ迅速に適用するために使用します。
+このMicrosoft Teams for Education ウィザードを使用すると、学生と教師のポリシーの管理が簡略化されます。 安全で生産的な学習エクスペリエンスの作成に関連する最も重要なポリシー セットを簡単かつ迅速に適用するために使用します。
 
 ポリシーを使用Teams環境でのTeamsの動作と、ユーザーが使用できる機能を制御できます。 たとえば、通話ポリシー、会議ポリシー、メッセージング ポリシーなど、いくつかの名前を付けることができます。各ポリシー領域は、組織のニーズに合わせてカスタマイズできます。
 
@@ -41,9 +41,9 @@ Microsoft Teams ポリシー ウィザードを使用すると、学生と教師
 この記事では、ウィザードを実行する方法について手順を示します。
 
 > [!IMPORTANT]
-> ウィザードによって適用されるポリシーは、Education のお客様のアプリケーションのTeamsを満たします。 ウィザードは、学生の安全のために推奨される設定を使用して、ポリシーのコア セットのグローバル (組織全体の既定) 定義を調整し、それを学生に適用します。 ウィザードでは、一連のカスタム ポリシーも作成され、教師とスタッフに割り当てされます。 Education Teamsのほとんどのユーザーは、このウィザードの実行後に他のポリシー割り当て方法を使用する必要が生じます。 他のポリシー割り当て方法は、学生、教育者、スタッフのポリシーを手動で作成および管理する場合にのみ使用します。
+> ウィザードによって適用されるポリシーは、顧客の大半のニーズMicrosoft Teams for Educationします。 ウィザードは、学生の安全のために推奨される設定を使用して、ポリシーのコア セットのグローバル (組織全体の既定) 定義を調整し、それを学生に適用します。 ウィザードでは、一連のカスタム ポリシーも作成され、教師とスタッフに割り当てされます。 ほとんどのMicrosoft Teams for Education、このウィザードの実行後に他のポリシー割り当て方法を使用する必要が生じます。 他のポリシー割り当て方法は、学生、教育者、スタッフのポリシーを手動で作成および管理する場合にのみ使用します。
 
-## <a name="teams-for-education-policy-wizard"></a>Teams for Education ポリシー ウィザード
+## <a name="teams-for-education-policy-wizard"></a>Microsoft Teams for Educationポリシー ウィザード
 
 <a name="polwiz_intro"> </a>
 
@@ -55,6 +55,8 @@ Microsoft Teams ポリシー ウィザードを使用すると、学生と教師
 - **教育者と** スタッフ: ウィザードは、ウィザードの対象となるポリシー領域ごとに、教師とスタッフのニーズに合わせて調整された設定で、一連のカスタム ポリシー定義を作成します。 次に、選択した教師とスタッフのグループにポリシー定義を割り当てる。 これにより、教師とスタッフは、より制限の少ない一連のポリシーを取得して、教師とスタッフが成功を収めできます。
 
 ウィザードは 1 回だけ実行する必要があります。 新しい学生には、ウィザードによって適用されるグローバル (組織全体の既定) ポリシー定義が自動的に取得され、選択したグループに追加した新しいスタッフには、カスタム ポリシーが自動的に割り当てられます。
+
+また、新しい機能が Teams に追加されるたびに、その機能のポリシーの適切な EDU 関連の既定値は、管理者の介入を必要とせずに自動的にグローバル (組織全体の既定値) に追加されます。 これにより、学生の安全と関与を維持するための適切なポリシーが設定されます。
 
 > [!NOTE]
 > ウィザード [によって適用されるポリシー定義の詳細](#policies-applied-by-the-wizard) な一覧については、ウィザードによって適用されるポリシーに関するページを参照してください。
@@ -135,9 +137,9 @@ Microsoft Teams ポリシー ウィザードを使用すると、学生と教師
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>手順 3: メッセージ センターでポリシーの更新を確認する
 
-現時点では、ウィザードを実行すると、推奨されるポリシーが適用されます。 Teams で新しいポリシーが利用可能になると、学生の安全のためのグローバル (組織全体の既定) 設定がウィザードによって自動的に追加されないので、重要です。 この機能は、将来のリリースで利用できる予定です。
+現時点では、ウィザードを実行すると、推奨されるポリシーが適用されます。 Teams で新しいポリシーが利用可能になると、学生の安全のためのグローバル (組織全体の既定) 設定がウィザードによって自動的に更新されます。 
 
-この機能が使用可能になるまで、メッセージ センター [(Microsoft 365](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)管理センター) を頻繁にチェックして、Teams の新しいポリシーとポリシー設定を最新の情報に更新します。 新機能が利用可能になったら、学習環境を安全に保つためにポリシーを手動で更新する必要がある場合があります。
+ただし、メッセージ[](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)センター (Microsoft 365 管理センター) を頻繁にチェックして、新しい機能とそのポリシーとポリシー設定を最新の情報にTeams。 
 
 ## <a name="make-changes-in-the-wizard"></a>ウィザードで変更を行う
 
@@ -323,7 +325,7 @@ Microsoft Teams ポリシー ウィザードを使用すると、学生と教師
 
 * * *
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [教育機関向け Teams ポリシーおよびポリシー パッケージ](policy-packages-edu.md)
 - [学校の大規模なユーザーにポリシーを割り当てる](batch-group-policy-assignment-edu.md)

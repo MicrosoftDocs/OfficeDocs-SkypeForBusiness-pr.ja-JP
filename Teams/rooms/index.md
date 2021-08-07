@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: 理想的な仮想会議室をMicrosoft Teams ミーティング、システムの計画、デプロイ、管理など、さまざまな方法を設定する方法について説明します。
+description: 理想的な仮想会議室をMicrosoft Teamsシステムの計画、展開、管理など、会議室をセットアップする方法について説明します。
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: a809b2a0e66b391a001956dabddc2763915be14f
-ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
+ms.openlocfilehash: 56034a4e01b7bebd8c25efc8e15e8b7294fefa4f
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51471481"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725090"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams Rooms
 
@@ -33,16 +33,19 @@ ms.locfileid: "51471481"
 
        Microsoft のパートナー (Yealink、Logitech、Crestron、Polycom、Lenovo、HP) から、適切なシステムやオーディオ ビデオ周辺機器を選択してください。
 
-       ビデオの概要Teams ミーティング、右側のビデオをクリックします。
+       会議室の概要Teams、右側のビデオをクリックします。
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams ミーティングMicrosoft Mechanics のビデオ":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft TeamsRooms Microsoft Mechanics のビデオ":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
 |    <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
 |  **[計画](./rooms-plan.md)** |  **[展開](./rooms-deploy.md)** |  **[管理](./rooms-manage.md)** |
+
+
+[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft TeamsRooms Microsoft Mechanics のビデオ":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
 > Microsoft Teams Rooms は、Microsoft Teams、Skype for Business Online、Skype for Business Server 2019、または Skype for Business Server 2015 と一緒に使用することを意図しています。  

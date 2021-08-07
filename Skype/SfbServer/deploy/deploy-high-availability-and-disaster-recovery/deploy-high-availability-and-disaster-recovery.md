@@ -11,34 +11,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
-description: Skype for Business Server は、サーバー プールでの高可用性、プールペアリングによる障害復旧、および AlwaysOn 可用性グループ、データベース ミラーリング、SQL フェールオーバー クラスタリングなど、いくつかのモードのバック エンド サーバー高可用性を提供します。
-ms.openlocfilehash: 68baae183ff45571e38e922035d287e733bcc930
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Serverでは、サーバー プール、プールのペアリングによる障害復旧、および AlwaysOn 可用性グループ、データベース ミラーリング、SQL フェールオーバー クラスタリングなど、いくつかのモードのバック エンド サーバー高可用性を提供します。
+ms.openlocfilehash: bb9a4428a1655308ca97fc837a20da799c8c09702c9cb906cf7d0157cda90c15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830617"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305879"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>高可用性および障害回復の展開
  
-Skype for Business Server は、サーバー プールでの高可用性、プールペアリングによる障害復旧、および AlwaysOn 可用性グループ、データベース ミラーリング、SQL フェールオーバー クラスタリングなど、いくつかのモードのバック エンド サーバー高可用性を提供します。 
+Skype for Business Serverでは、サーバー プール、プールのペアリングによる障害復旧、および AlwaysOn 可用性グループ、データベース ミラーリング、SQL フェールオーバー クラスタリングなど、いくつかのモードのバック エンド サーバー高可用性を提供します。 
   
-高可用性とは、1 つ以上のサーバーがダウンした場合でも、Skype for Business Server サービスを確実に利用できる状態を指します。障害復旧とは、自然または人が引き起こした障害が発生した場合にサービスを維持し、災害前からのデータをできる限り多く保持することです。
+高可用性とは、1 つ以上のサーバーがダウンSkype for Business Serverサービスを確実に利用できる状態を指します。障害復旧とは、自然災害や人による災害が発生した場合にサービスを維持し、可能な限り災害前のデータを保持することです。
   
-このセクションでは、これらの機能を展開する方法について説明します。また、他のサーバーの役割の一部に対して、高可用性と障害復旧のために実行できる手順も説明します。
+このセクションでは、これらの機能を展開する方法について説明します。また、他のサーバーの役割の一部に対して高可用性と障害復旧のために実行できる手順も説明します。
 
 > [!NOTE]
-> SQLミラーリングは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Skype for Business Server 2019 では、AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタリングの方法が推奨されます。
+> SQLミラーリングは 2015 年Skype for Business Server使用できますが、2019 年Skype for Business Serverではサポートされていません。 AlwaysOn 可用性グループ、AlwaysOn フェールオーバー クラスター インスタンス (FCI)、および SQL フェールオーバー クラスタリング方法は、2019 年Skype for Business Serverです。
   
 ## <a name="related-sections"></a>関連情報
 
-[Skype for Business Server で高可用性と障害復旧を計画する](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+[高可用性と障害復旧の計画を立Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server のバック エンド サーバーに AlwaysOn 可用性グループを展開する](alwayson-availability-group.md)
+[サーバー内のバック エンド サーバーに AlwaysOn 可用性グループを展開Skype for Business Server](alwayson-availability-group.md)
 
-[Skype for Business Server で障害復旧用のペアのフロント エンド プールを展開する](front-end-pools-for-disaster-recovery.md)
+[障害復旧用にペアのフロント エンド プールを展開Skype for Business Server](front-end-pools-for-disaster-recovery.md)
   
-[Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015](sql-mirroring-for-high-availability.md)
+[2015 SQLでバック エンド サーバーの高可用性のミラーリングをSkype for Business Serverする](sql-mirroring-for-high-availability.md)
   

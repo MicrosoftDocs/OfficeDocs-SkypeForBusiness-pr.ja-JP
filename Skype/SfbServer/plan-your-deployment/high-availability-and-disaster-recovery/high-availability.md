@@ -12,26 +12,26 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
-description: 2 つのフロントエンド サーバーのみを使用するプールのプール、クォーラム損失、特別な手順の管理など、Skype for Business Server のフロントエンド プール管理について説明します。
-ms.openlocfilehash: 47e4b2157961a2856256e3d96a0676dd86d3f996
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: プールの管理、クォーラムの損失、および 2 つのフロントエンド サーバーのみを持つプールの特別な手順など、Skype for Business Server のフロントエンド プール管理について説明します。
+ms.openlocfilehash: 697cebf352d4fa0e2f245f50395107477ac3bae712346302e94746f173ce4d39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276628"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  
-2 つのフロントエンド サーバーのみを使用するプールのプール、クォーラム損失、特別な手順の管理など、Skype for Business Server のフロントエンド プール管理について説明します。
+プールの管理、クォーラムの損失、および 2 つのフロントエンド サーバーのみを持つプールの特別な手順など、Skype for Business Server のフロントエンド プール管理について説明します。
   
-Skype for Business Server では、フロントエンド プールのアーキテクチャでは分散システム モデルが使用され、各ユーザーのデータはプール内の 3 つのフロントエンド サーバーに保持されます。 すべての Enterprise Edition フロントエンド プールに少なくとも 3 つのフロント エンド サーバーを含める必要があります。
+このSkype for Business Serverフロントエンド プールのアーキテクチャでは分散システム モデルが使用され、各ユーザーのデータはプール内の 3 つのフロントエンド サーバーに保持されます。 すべてのフロントエンド プールに少Enterprise Edition 3 つ以上のフロントエンド サーバーを含める必要があります。
 
 > [!NOTE]
-> Skype for Business Server 2019 は、2 台のフロント エンド サーバーを持つ Enterprise Edition フロントエンド プールをサポートしていないので、そのシナリオではトポロジを公開できません。
+> Skype for Business Server 2019 では、2 Enterprise Edition フロントエンド プールをサポートしていないので、そのシナリオではトポロジを公開できません。
   
 ## <a name="planning-for-the-management-of-front-end-pools"></a>フロントエンド プールの管理の計画
 
- Skype for Business Server は、Windows Fabric に基づく分散システム モデルを使用します。 このモデルでは、ユーザーと会議ごとに重要なデータが、フロントエンド プール内の 3 つのフロントエンド サーバーに格納されます。 データの特定のセットを格納するこれら 3 つのサーバーは、replicas と呼ばれる。
+ Skype for Business Serverは、システム モデルに基づく分散システム モデルWindows Fabric。 このモデルでは、ユーザーと会議ごとに重要なデータが、フロントエンド プール内の 3 つのフロントエンド サーバーに格納されます。 データの特定のセットを格納するこれら 3 つのサーバーは、replicas と呼ばれる。
   
 フロントエンド プールの分散モデルでは、プールが機能するために、プールのサーバーの特定の数が実行されている必要があります。 プールには 2 つの損失モードがあります。
   
@@ -47,15 +47,15 @@ Skype for Business Server では、フロントエンド プールのアーキ�
 |:-----|:-----|
 |2  <br/> |1  <br/> |
 |3  <br/> |3  <br/> |
-|4  <br/> |3  <br/> |
-|5  <br/> |4  <br/> |
-|6  <br/> |5  <br/> |
-|7  <br/> |5  <br/> |
-|8  <br/> |6  <br/> |
-|9  <br/> |7  <br/> |
-|10  <br/> |8  <br/> |
-|11  <br/> |9  <br/> |
-|12   <br/> |10  <br/> |
+|4   <br/> |3  <br/> |
+|5   <br/> |4   <br/> |
+|6   <br/> |5   <br/> |
+|7   <br/> |5   <br/> |
+|8   <br/> |6   <br/> |
+|9   <br/> |7   <br/> |
+|10   <br/> |8   <br/> |
+|11  <br/> |9   <br/> |
+|12   <br/> |10   <br/> |
 |16 **For Skype for Business Server 2019** <br/> |12   <br/> |
 
 
@@ -63,26 +63,26 @@ Skype for Business Server では、フロントエンド プールのアーキ�
 それ以降、プールが開始されるごとに、サーバーの 85% を開始する必要があります (前の表に示すように)。 この数のサーバーを開始できない場合 (ただし、プール レベルのクォーラム損失が発生しないので十分なサーバーを開始できます)、このコマンドレットを使用して、このルーティング グループ レベルのクォーラム損失からプールを回復し、進行状況を確認できます。 `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` このコマンドレットの使用方法の詳細については [、「Reset-CsPoolRegistrarState」を参照してください](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
   
 > [!NOTE]
-> サーバーの数が 1 つでも多いプールでは、Skype for Business Server はプライマリ サーバー データベースSQLミラーリング監視として使用します。 このようなプールでは、プライマリ データベースをシャットダウンしてミラー コピーに切り替えて、前の表に従って十分に実行されない十分なフロントエンド サーバーをシャットダウンすると、プール全体がダウンします。 詳細については、「データベース ミラーリング [監視」を参照してください](/sql/database-engine/database-mirroring/database-mirroring-witness)。 
+> サーバーの数が 1 つでも多いプールでは、Skype for Business Serverプライマリ サーバー データベースSQLミラーリング監視として使用されます。 このようなプールでは、プライマリ データベースをシャットダウンしてミラー コピーに切り替えて、前の表に従って十分に実行されない十分なフロントエンド サーバーをシャットダウンすると、プール全体がダウンします。 詳細については、「データベース ミラーリング [監視」を参照してください](/sql/database-engine/database-mirroring/database-mirroring-witness)。 
   
 #### <a name="pool-level-quorum-loss"></a>プール レベルのクォーラム損失
 
-フロントエンド プールが全く機能するには、プール レベルのクォーラム損失にすることはできません。 次の表に示すように、実行中のサーバーの数が機能レベルを下回った場合、プール内の残りのサーバーは、すべての Skype for Business Server サービスを停止します。 次の表の数値では、プール内のバック エンド サーバーが実行されている前提に注意してください。
+フロントエンド プールが全く機能するには、プール レベルのクォーラム損失にすることはできません。 次の表に示すように、実行中のサーバーの数が機能レベルを下回った場合、プール内の残りのサーバーは、すべてのサービスSkype for Business Serverします。 次の表の数値では、プール内のバック エンド サーバーが実行されている前提に注意してください。
   
 |プール内のフロントエンド サーバーの総数  <br/> |プールが機能するために実行されている必要のあるサーバーの数  <br/> |
 |:-----|:-----|
 |2  <br/> |1  <br/> |
 |3-4  <br/> |Any 2  <br/> |
 |5-6  <br/> |Any 3  <br/> |
-|7  <br/> |Any 4  <br/> |
+|7   <br/> |Any 4  <br/> |
 |8-9  <br/> |最初の 7 つのサーバーの 4 つ  <br/> |
 |10-12  <br/> |最初の 9 つのサーバーの 5 つ  <br/> |
-|12-16  **Skype for Business Server 2019**  <br/> |最初の 12 台のサーバーの 7 つ  <br/> |
+|12-16 **2019 Skype for Business Server**  <br/> |最初の 12 台のサーバーの 7 つ  <br/> |
    
 前の表では、"最初のサーバー" は、プールが初めて開始された最初に、時系列的に起動されたサーバーです。 これらのサーバーを確認するには、オプションで  `Get-CsComputer` コマンドレットを使用 `-PoolFqdn` できます。 このコマンドレットは、サーバーがトポロジに表示される順序で表示され、一覧の上部にあるサーバーが最初のサーバーになります。
   
 > [!IMPORTANT]
-> Skype [for Business Server 2019](../../../SfBServer2019/plan/user-model-2019.md)のフロントエンド サーバーの最大数が 16 に増加しました
+> [2019](../../../SfBServer2019/plan/user-model-2019.md)年にフロント エンド サーバーの最大数が 16 にSkype for Business Server。
 > 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>プールが機能する追加の手順
 
@@ -90,11 +90,11 @@ Skype for Business Server では、フロントエンド プールのアーキ�
   
 - ユーザーを初めてプールに移動する場合は、少なくとも 3 つのフロント エンド サーバーが実行されている必要があります。
     
-- 障害復旧のためにこのプールと別のプールの間にペアリング関係を確立する場合、その関係を確立した後、このプールに 3 つのフロントエンド サーバーが同時に実行されていることを確認して、データをバックアップ プールと適切に同期する必要があります。 プールのペアリングと障害復旧機能の詳細については、「Skype for Business Server で高可用性と障害復旧を計画する [」を参照してください](high-availability-and-disaster-recovery.md)。 
+- 障害復旧のためにこのプールと別のプールの間にペアリング関係を確立する場合、その関係を確立した後、このプールに 3 つのフロントエンド サーバーが同時に実行されていることを確認して、データをバックアップ プールと適切に同期する必要があります。 プールのペアリングと障害復旧機能の詳細については[、「Plan for high availability and disaster recovery in](high-availability-and-disaster-recovery.md)Skype for Business Server」 を参照してください。 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>2 台のフロント エンド サーバーを備え、フロントエンド プール
 
-2 つのフロントエンド サーバーのみを含むフロントエンド プールを展開することをお勧めしません。 この小さなプールでは、大規模なプールのように堅牢な高可用性ソリューションは提供されないので、管理に特別な注意が必要です。 さらに、2 サーバー プールのバック エンド サーバーがダウンした場合、プール全体もすぐにダウンする可能性があります。 Skype for Business Server を実行している 1 台または 2 台のサーバーを展開する場合は、Standard Edition サーバーとして展開することをお勧めします。
+2 つのフロントエンド サーバーのみを含むフロントエンド プールを展開することをお勧めしません。 この小さなプールでは、大規模なプールのように堅牢な高可用性ソリューションは提供されないので、管理に特別な注意が必要です。 さらに、2 サーバー プールのバック エンド サーバーがダウンした場合、プール全体もすぐにダウンする可能性があります。 サーバーを実行しているサーバーを 1 台または 2 台Skype for Business Server、サーバーとして展開することをおStandard Editionします。
   
 2 つのフロント エンド サーバーを使用してプールを展開する必要がある場合は、次のガイドラインに従います。
   

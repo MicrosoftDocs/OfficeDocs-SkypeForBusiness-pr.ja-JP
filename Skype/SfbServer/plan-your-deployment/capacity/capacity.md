@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の容量計画
+title: データの容量計画Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
-description: このセクションのトピックは、組織内のユーザー数を適切に計画し、アクティビティが生成するサーバー負荷を計画できるよう、Skype for Business Server を計画および展開する方法を理解するのに役立ちます。
-ms.openlocfilehash: 4688be0f9ebc481a97b9f88685531182dc80acdc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: このセクションのトピックでは、Skype for Business Server を計画して展開し、組織内のユーザー数を適切に計画し、アクティビティが生成するサーバー負荷を計画する方法を理解するのに役立ちます。
+ms.openlocfilehash: 317a08c4cadf6efdb70da744c7817ce6cf7d4a75f996feeb33c56be91031c2de
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827697"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276662"
 ---
-# <a name="capacity-planning-for-skype-for-business-server"></a>Skype for Business Server の容量計画
+# <a name="capacity-planning-for-skype-for-business-server"></a>データの容量計画Skype for Business Server
  
-このセクションのトピックは、組織内のユーザー数を適切に計画し、アクティビティが生成するサーバー負荷を計画できるよう、Skype for Business Server を計画および展開する方法を理解するのに役立ちます。 
+このセクションのトピックでは、Skype for Business Server を計画して展開し、組織内のユーザー数を適切に計画し、アクティビティが生成するサーバー負荷を計画する方法を理解するのに役立ちます。 
   
 > [!NOTE]
-> このセクションのすべての推奨事項では、Skype for Business の累積的な更新プログラム (2015 年 11 月以降) がサーバーにインストールされていることを前提とします。 
+> このセクションのすべての推奨事項は、2015 年 11 月以降の累積的な更新プログラムSkype for Businessサーバーにインストールされていることを前提とします。 
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business Server の容量計画ユーザー モデルの使用](user-model.md)
+- [データの容量計画のユーザー モデルSkype for Business Server](user-model.md)
     
-- [Skype for Business Server の音声使用状況とトラフィックの見積もり](estimating-voice-traffic.md)
+- [音声の使用状況とトラフィックの見積もりSkype for Business Server](estimating-voice-traffic.md)
     
-- [Skype for Business Server での仲介サーバーの展開ガイドライン](mediation-server-deployment-guidelines.md)
+- [仲介サーバーの展開Skype for Business Server](mediation-server-deployment-guidelines.md)
     
-- [Skype for Business Server のユーザー モデル](user-models.md)
+- [ユーザー モデルのSkype for Business Server](user-models.md)
     
 

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business で PSTN 使用法レコードを表示する
+title: '[PSTN 使用法レコードの表示] Skype for Business'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
-description: '概要: Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して PSTN 使用法レコードを表示する方法について説明します。'
-ms.openlocfilehash: 6a447f7aeb9db0a7ca858cf58df10273c28b533b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: [コントロール パネル] または [管理シェル] を使用して PSTN 使用法Skype for Business Serverを表示するSkype for Business Server説明します。'
+ms.openlocfilehash: 4f36f263238c1c50299ff22756eaf7e6eed100141d15b3b7250a70a9a11adddf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305889"
 ---
-# <a name="view-pstn-usage-records-in-skype-for-business"></a>Skype for Business で PSTN 使用法レコードを表示する
+# <a name="view-pstn-usage-records-in-skype-for-business"></a>[PSTN 使用法レコードの表示] Skype for Business
 
-**概要:** Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルを使用して PSTN 使用法レコードを表示する方法について説明します。
+**概要:**[コントロール パネル] または [管理シェル] を使用して PSTN 使用法Skype for Business Serverを表示するSkype for Business Server説明します。
 
 公衆交換電話網 (PSTN) 使用法レコードは、組織内のさまざまなユーザーまたはユーザー グループが行う通話のクラス (内部、ローカル、長距離など) を指定します。 詳細については、「計画」のドキュメントの「[PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records)」を参照してください｡
 
-### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して PSTN 使用法レコードを表示するには
+### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用して PSTN 使用法レコードSkype for Business Serverするには
 
-1. Skype for Business Server コントロール パネルを開きます。
+1. [コントロール Skype for Business Server] を開きます。
 
 2. 左側のナビゲーション バーで [**音声ルーティング**] をクリックし、[**PSTN 使用法**] をクリックします。
 
@@ -40,9 +40,9 @@ ms.locfileid: "51109833"
     > [!NOTE]
     > 選択した PSTN 使用法レコードの読み取り専用ページに、関連付けられたルートと関連付けられた音声ポリシーが表示されます。
 
-### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>Skype for Business Server Management Shell コマンドレットを使用して PSTN 使用法情報を表示するには
+### <a name="to-view-pstn-usage-information-by-using-skype-for-business-server-management-shell-cmdlets"></a>管理シェルコマンドレットを使用して PSTN Skype for Business Serverを表示するには
 
-- すべての PSTN 使用法に関する情報を表示するには、Skype for Business Server 管理シェルに次のコマンドを入力し、Enter キーを押します。
+- すべての PSTN 使用法に関する情報を表示するには、次のコマンドを [管理シェル] Skype for Business Server入力し、Enter キーを押します。
 
   ```powershell
   Get-CsPstnUsage
@@ -57,4 +57,4 @@ ms.locfileid: "51109833"
 
 ## <a name="see-also"></a>関連項目
 
-[音声ポリシーを作成または変更し、Skype for Business で PSTN 使用法レコードを構成する](voice-policy-and-pstn-usage-records.md)
+[音声ポリシーを作成または変更し、音声ポリシーで PSTN 使用法レコードを構成Skype for Business](voice-policy-and-pstn-usage-records.md)

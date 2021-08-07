@@ -1,5 +1,5 @@
 ---
-title: バックエンド サーバー上の SQL Server インスタンスとデータベースの削除
+title: バック エンド サーバー上の SQL Server インスタンスとデータベースの削除
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Microsoft SQL Server データベースとインスタンスは、それに依存しているサーバーを削除した後、または別のデータベースを使用するようにサーバーを再構成した後に削除します。 このトピックの手順を実行する必要があるのは、現在の SQL Server を廃止するか、または現在のサーバーを再構成して、データベースが使用できなくなった、または使用できないようにする場合です。
-ms.openlocfilehash: 6e108e4dfef86b482b839bd440f54702ab42107d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: サーバーに依存Microsoft SQL Serverサーバーを削除した後、または別のデータベースを使用するサーバーを再構成した後に、データベースとインスタンスを削除します。 このトピックの手順は、現在の SQL Server を廃止する場合や、現在のサーバーを再構成してデータベースを使用できなくなったり使用できなくなったりする場合に実行する必要があります。
+ms.openlocfilehash: f9e942f1f5516c0bf3437dd3fc9e2dc25b4cc4236e3cffabbf07ff08dde1e404
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752159"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306210"
 ---
-# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>バックエンド サーバー上の SQL Server インスタンスとデータベースの削除
+# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>バック エンド サーバー上の SQL Server インスタンスとデータベースの削除
 
-Microsoft SQL Server データベースとインスタンスは、それに依存しているサーバーを削除した後、または別のデータベースを使用するようにサーバーを再構成した後に削除します。 このトピックの手順を実行する必要があるのは、現在の SQL Server を廃止するか、または現在のサーバーを再構成して、データベースが使用できなくなった、または使用できないようにする場合です。
+サーバーに依存Microsoft SQL Serverサーバーを削除した後、または別のデータベースを使用するサーバーを再構成した後に、データベースとインスタンスを削除します。 このトピックの手順は、現在の SQL Server を廃止する場合や、現在のサーバーを再構成してデータベースを使用できなくなったり使用できなくなったりする場合に実行する必要があります。
   
-アーカイブサーバーまたは監視サーバーのデータベースまたはインスタンスを削除するには、最初にサーバーの役割を削除する必要があります。 同様に、フロントエンドプールのインスタンスまたはデータベースを削除するには、最初に依存サーバーの役割を削除または再構成する必要があります。 これらの手順では、サーバーの併置されたデータベースと個別のインスタンスは区別されません。 データベースの併置によって手順が影響を受けることはありません。
+アーカイブ サーバーまたは監視サーバーのデータベースまたはインスタンスを削除するには、まずサーバーの役割を削除する必要があります。 同様に、フロントエンド プールのインスタンスまたはデータベースを削除するには、最初に依存するサーバーの役割を削除または再構成する必要があります。 これらの手順では、サーバーの併置されたデータベースと個別のインスタンスは区別されません。 データベースの併置によって手順が影響を受けることはありません。
   
 ## <a name="in-this-section"></a>このセクションの内容
 

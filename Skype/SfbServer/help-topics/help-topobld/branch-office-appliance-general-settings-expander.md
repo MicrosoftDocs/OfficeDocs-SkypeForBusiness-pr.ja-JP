@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 既存の存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーの設定を編集するには、以下のセクションが表示されます。
-ms.openlocfilehash: 8f77a7b12800d9eba091218de92f4eec17bf2154
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5c8791661ff32c6cb40b968297d11595f5873bcf0b1cf0ce50078e41e713d68a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119696"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277002"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>ブランチ オフィス アプライアンス全般設定エキスパンダー
 

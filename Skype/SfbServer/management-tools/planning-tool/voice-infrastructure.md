@@ -1,5 +1,5 @@
 ---
-title: 音声インフラストラクチャ (計画ツール)
+title: 音声インフラストラクチャ計画ツール
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,16 +13,15 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
-description: Skype for Business Server 2015 は、SIP トランク、PSTN ゲートウェイへの直接 SIP 接続、または PBX への直接 SIP 接続を使用して、信頼性と拡張性の高い PSTN 接続を提供します。 詳細については、「Plan for PSTN connectivity in Skype for Business Server 2015」を参照してください。
-ms.openlocfilehash: 72eaff598486844381a236c3cfc0ba229892c5bd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server 2015 では、SIP トランクを使用したり、PSTN ゲートウェイに SIP 接続を直接接続したり、PBX に SIP 接続を直接したりすることで、信頼性が高く、スケーラブルな PSTN 接続を提供します。 詳細については、「Plan for PSTN connectivity in Skype for Business Server 2015」を参照してください。
+ms.openlocfilehash: 604ddb76573689a21b2a47e7c667f2ecd4fc3ec0
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823317"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724930"
 ---
-# <a name="voice-infrastructure-planning-tool"></a>音声インフラストラクチャ (計画ツール)
+# <a name="voice-infrastructure-planning-tool"></a>音声インフラストラクチャ計画ツール
  
-Skype for Business Server 2015 は、SIP トランク、PSTN ゲートウェイへの直接 SIP 接続、または PBX への直接 SIP 接続を使用して、信頼性と拡張性の高い PSTN 接続を提供します。 詳細については [、「Plan for PSTN connectivity in Skype for Business Server 2015」を参照](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)してください。
+Skype for Business Server 2015 では、SIP トランクを使用したり、PSTN ゲートウェイに SIP 接続を直接接続したり、PBX に SIP 接続を直接したりすることで、信頼性が高く、スケーラブルな PSTN 接続を提供します。 詳細については[、「Plan for PSTN connectivity in Skype for Business Server 2015」を参照](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)してください。
   
-

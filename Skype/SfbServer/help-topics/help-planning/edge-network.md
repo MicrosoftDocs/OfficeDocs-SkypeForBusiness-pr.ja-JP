@@ -1,5 +1,5 @@
 ---
-title: エッジ ネットワーク (計画ツール)
+title: Skype for Business Serverエッジ ネットワーク計画ツール
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
-description: ほとんどのエッジ コンポーネントは、境界ネットワークに展開されます。 次のコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 特に説明されている場合を除き、コンポーネントは Skype for Business Server 2015 のエッジ サーバー シナリオの一部であり、境界ネットワーク内にあります。 エッジ コンポーネントには、次のものが含まれます。
-ms.openlocfilehash: b4b32e124569cd2318bd5bccea628b19cfa28659
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: ほとんどのエッジ コンポーネントは境界ネットワークに展開されます。 これらのコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 ここで説明するコンポーネントは、Skype for Business Server 2015 のエッジ サーバー シナリオの一部であり、境界ネットワークにあります。
+ms.openlocfilehash: 89ee3f0763e85fb5ec563ba44dc0e272b21e44c1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810517"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772378"
 ---
-# <a name="edge-network-planning-tool"></a>エッジ ネットワーク (計画ツール)
+# <a name="skype-for-business-server-edge-network-planning-tool"></a>Skype for Business Serverエッジ ネットワーク計画ツール
  
-ほとんどのエッジ コンポーネントは、境界ネットワークに展開されます。 次のコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 特に説明されている場合を除き、コンポーネントは [Skype for Business Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) のエッジ サーバー シナリオの一部であり、境界ネットワーク内にあります。 エッジ コンポーネントには、次のものが含まれます。
+ほとんどのエッジ コンポーネントは境界ネットワークに展開されます。 次のコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 ただし、コンポーネントは[2015 年 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md)年のエッジ サーバー のシナリオに含Skype for Business Server境界ネットワークにあります。 エッジ コンポーネントには、次のものが含まれます。
   
 - エッジ サーバー
     
@@ -39,6 +39,6 @@ ms.locfileid: "49810517"
     
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server 2015 でのエッジ サーバーの展開を計画する](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[2015 年のエッジ サーバーの展開Skype for Business Serverする](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[Skype for Business Server 2015 のエッジ サーバーのシステム要件](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[2015 年のエッジ サーバーのシステム要件Skype for Business Server](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

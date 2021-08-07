@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '「Skype for Businessオンラインの手順」を参照して、ダイヤルイン会議ライセンスと会議 ID をユーザーに割り当て、その他の多くのダイヤルイン会議設定を割り当てる必要があります。 '
-ms.openlocfilehash: 3a0f6d37612c345c8561fbd2a64b4c90fdb27957
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0bed95f9f5b8429dce52333046cd8c732c4bc0e9d94539d92c1e96f2d3284172
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237249"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306240"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Skype for Business Online で組織の電話会議の設定を管理する
 
@@ -41,7 +41,7 @@ ms.locfileid: "52237249"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> To assign a license for a user 管理センターで Microsoft 365する必要があります。 「ライセンスを[割りSkype for Businessする」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+> To assign a license for a user 次のコマンドを使用Microsoft 365 管理センター。 「ライセンスを[割りSkype for Businessする」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
  **ユーザーにライセンスを割り当てる**
 

@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
-description: AppliedBandwidthSource テーブルはサポート テーブルです。 各レコードは 1 つのソースを表します。
-ms.openlocfilehash: bf7e1be3b98bcd56fea16dbd7aa7171b056a7f3c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: AppliedBandwidthSource テーブルはサポート テーブルです。各レコードは 1 つのソースを表します。
+ms.openlocfilehash: fcb0323b1e6775b20a8ca4d269bcc8eecdc055b73d5a93a490e97f8a1af44b11
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305349"
 ---
 # <a name="appliedbandwidthsource-table"></a>AppliedBandwidthSource テーブル
  
@@ -26,7 +26,7 @@ AppliedBandwidthSource テーブルはサポート テーブルです。各レ�
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**AppliedBandwidthSourceKey** <br/> |int  <br/> |Primary  <br/> |ソースを示す一意の番号です。  <br/> |
-|**AppliedBandwidthSource** <br/> |varchar(256)  <br/> |一意  <br/> |適用されている帯域幅キャップのソースです。 帯域幅制限の適用先 ("Policy Server"、"TURN Server"、"Modality" など) について説明します。  <br/> |
+|**AppliedBandwidthSourceKey** <br/> |整数  <br/> |Primary  <br/> |ソースを示す一意の番号です。  <br/> |
+|**AppliedBandwidthSource** <br/> |varchar(256)  <br/> |一意  <br/> |適用されている帯域幅キャップのソースです。 帯域幅の制限がどこから来ているかについて説明します (たとえば、"Policy Server"、"TURN Server"、"Modality"など)。  <br/> |
    
 

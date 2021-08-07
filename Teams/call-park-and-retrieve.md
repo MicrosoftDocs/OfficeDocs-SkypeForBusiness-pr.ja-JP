@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: コール パークを使用して通話を取得し、通話を保留する方法についてMicrosoft Teams。
-ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
-ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
+ms.openlocfilehash: 751101a250c7a3f38ac7ba51dc8a22cc91d4d7b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53147185"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772608"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -53,7 +53,7 @@ ms.locfileid: "53147185"
 
 1. 管理センターの左側のナビゲーションMicrosoft Teams、音声 **通話パークポリシー**  >  **に移動します**。
 2. [ポリシーの **管理] タブで、[** 追加] を **クリックします**。
-3. ポリシーに名前を付け、[呼び出しパークを **許可する] を [オン** ] に **切り替えます**。
+3. ポリシーに名前を付け、[呼び出しパークを **許可する] を [オン** ] に **切り替えます**。 (呼び出しの集荷範囲とタイムアウトはカスタマイズできません)。
 
     ![コール パーク ポリシー設定のスクリーンショット](media/call-park-add-policy.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "53147185"
 
 5. **[適用]** を選択します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話を一時Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で DTMF コマンドのキー マッピングを管理する
+title: DTMF コマンドのキー マッピングを管理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: '概要: Skype for Business Server でデュアルトーンマルチ周波数 (DTMF) コマンドのキー マッピングを管理する方法について説明します。'
-ms.openlocfilehash: 6b409ccce10128fdd7776e3ea77d6ee17d4a49f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: デュアルトーンマルチ周波数 (DTMF) コマンドのキー マッピングを管理する方法について説明します。Skype for Business Server。'
+ms.openlocfilehash: 106cd301826792ec494df4d490a6b953baf3badd1740d9cfd2de12e6de966d09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119446"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276852"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Skype for Business Server で DTMF コマンドのキー マッピングを管理する
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>DTMF コマンドのキー マッピングを管理Skype for Business Server
  
-**概要:** Skype for Business Server でデュアルトーンマルチ周波数 (DTMF) コマンドのキー マッピングを管理する方法について説明します。
+**概要:** デュアルトーンマルチ周波数 (DTMF) コマンドのキー マッピングを管理する方法については、Skype for Business Server。
   
 ダイヤルイン会議のユーザーは、電話キーパッドのキーを押して、デュアルトーン多重周波数 (DTMF) のコマンドを実行できます。 DTMF コマンドを使用すると、会議にダイヤルインするユーザーは、電話のキーパッドを使用して会議設定 (自身をミュートおよびミュート解除したり、会議をロックおよびロック解除したりするなど) を制御できます。 
   
-DTMF コマンドに使用されるキーを管理するには **、Get-CsDialinConferencingDtmfConfiguration、Set-CsDialinConferencingDtmfConfiguration、****および New-CsDialinConferencingDtmfConfiguration** コマンドレットを使用して Skype for Business Server 管理シェルを使用します。 
+DTMF コマンドに使用するキーを管理するには **、Get-CsDialinConferencingDtmfConfiguration、Set-CsDialinConferencingDtmfConfiguration、****および New-CsDialinConferencingDtmfConfiguration** コマンドレットを使用して Skype for Business Server 管理シェルを使用します。 
   
 サイトの新たな DTMF 設定を作成すると、そのサイト設定はグローバル設定よりも優先されるようになります。 
 
@@ -33,7 +33,7 @@ DTMF コマンドに使用されるキーを管理するには **、Get-CsDialin
 
 1. RTCUniversalServerAdmins グループのメンバーか、Cs-ServerAdministrator または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。
     
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. ダイヤルイン会議に使用される DTMF 設定を表示するには、コマンド プロンプトで次のコマンドを実行します。
     

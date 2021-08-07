@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されたデバッグ ログ、メディア ログ、デスクトップ ログ、ログが見つかる場所、および監視とトラブルシューティングに役立つ方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a18dbef0441055c1202c2b77ce4f8af87040e561
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: d6baa1b7cbaff690899945ac554d1a3bcf9ff170
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689695"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724960"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>ログ ファイルを使用して、ログの監視とトラブルシューティングを行Microsoft Teams
 
@@ -48,7 +48,7 @@ Mac: [ヘルプ] メニューを選択し、[サポート ファイルの収集 
 
 デバッグ ログ、デスクトップ ログ、およびメディア ログは、MSTeams Diagnostics Log という名前の 1 つのフォルダーに収集されます <local data and time> 。 このフォルダーは、Microsoft サポートでサポート要求を開く際に圧縮および共有できます。 フォルダーには、デスクトップ、会議 (メディア)、デバッグ (Web) のフォルダーが含まれます。 次のキーボード ショートカットを使用して、ファイルを収集できます。
 
-Windows: Crtl + Alt + Shift + 1
+Windows: Ctrl + Alt + Shift + 1
 
 Mac: Option + Command + Shift + 1
 
@@ -85,7 +85,7 @@ Mac: Option + Command + Shift + 1
 
 Linux のログを収集するには:キーボード ショートカット: Ctrl + Alt + Shift + 1 ファイルは ~/Downloads で使用できます
 
-ブラウザーのログを収集するには:キーボード ショートカット: Crtl + Alt + Shift + 1 ファイルは %userprofile%\Downloads で使用できます。
+ブラウザーのログを収集するには:キーボード ショートカット: Ctrl + Alt + Shift + 1 ファイルは %userprofile%\Downloads で使用できます。
 
 ## <a name="media-logs"></a>メディア ログ
 

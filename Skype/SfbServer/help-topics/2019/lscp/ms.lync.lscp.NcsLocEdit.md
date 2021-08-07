@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: 場所ポリシーを構成して、拡張 9-1-1 (E9-1-1) が有効になっているかどうか、その使用方法、およびユーザーと連絡先の位置情報の使用方法を決定できます。
-ms.openlocfilehash: 63e2f323bf2a1fb70cfb28ff7b308676cf432629
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1102aeccb6b9e91e29526b6512c7742b766514a15a5d6e13e0e1c00698d866a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305759"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>場所ポリシー: 新規作成または現在の形式のままで編集
 
@@ -68,4 +68,4 @@ ms.locfileid: "51100313"
 
   - **2 つの方法** 発信者と PSAP 演算子の間の呼び出しにサード パーティが参加できると指定します。
 
-緊急サービスの機能エンタープライズ VoIP詳細については、「計画」のドキュメントの [「E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) の概要」を参照してください。 場所ポリシーの操作の詳細については、「操作」のドキュメントの「[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)」を参照してください。
+緊急サービスの機能エンタープライズ VoIP詳細については、「計画」のドキュメントの[「E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1)の概要」を参照してください。 場所ポリシーの操作の詳細については、「操作」のドキュメントの「[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)」を参照してください。

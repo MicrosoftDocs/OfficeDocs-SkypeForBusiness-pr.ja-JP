@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のネットワーク サイトに場所ポリシーを追加する
+title: サイト内のネットワーク サイトに場所ポリシーを追加Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: Skype for Business Server のネットワーク サイトに E9-1-1 の場所ポリシーを割り当エンタープライズ VoIP。
-ms.openlocfilehash: 887c2fcab63acd5d143ba80f6be6976e8fe2b39f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: E9-1-1 の場所ポリシーをネットワーク サイトに割り当Skype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: bdb34209a164375b1e21f9e896ec53d7d242c006ec4df4053634918857f8ea4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305939"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Skype for Business Server のネットワーク サイトに場所ポリシーを追加する
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>サイト内のネットワーク サイトに場所ポリシーを追加Skype for Business Server
  
-Skype for Business Server のネットワーク サイトに E9-1-1 の場所ポリシーを割り当エンタープライズ VoIP。 
+E9-1-1 の場所ポリシーをネットワーク サイトに割り当Skype for Business Server エンタープライズ VoIP。 
   
-次の例は [、「Create location policies in Skype for Business Server」](create-location-policies.md)で定義されている Redmond の場所ポリシーを既存のネットワーク サイトに追加する方法と **、Redmond** の場所ポリシーを使用する新しいネットワーク サイトを作成する方法を示しています。 
+次の例は、「Skype for Business Server で場所ポリシーを作成する」で定義されている **Redmond** 場所ポリシーを既存のネットワーク サイトに追加する方法と [、Redmond](create-location-policies.md)の場所ポリシーを使用する新しいネットワーク サイトを作成する方法を示しています。
   
 ネットワーク サイトの操作の詳細については、次のコマンドレットの Lync Server 管理シェルのドキュメントを参照してください。
   
@@ -41,11 +41,11 @@ Skype for Business Server のネットワーク サイトに E9-1-1 の場所ポ
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>場所のポリシーを既存のネットワーク サイトに割り当てるには
 
-1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
+1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 既存のネットワーク サイトを変更するには、以下のコマンドレットを実行します。
     
-    **Redmond というタグ付** きの場所ポリシーを Redmond という名前の既存のネットワーク サイトに **割り当てる**。
+    Redmond タグ **付き** 場所ポリシーを Redmond という名前の既存のネットワーク サイトに **割り当てる**。
     
    ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
@@ -53,7 +53,7 @@ Skype for Business Server のネットワーク サイトに E9-1-1 の場所ポ
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>場所のポリシーを新しいネットワーク サイトに割り当てるには
 
-1. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business 2015]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
+1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 新しいネットワーク サイトを作成するには、以下のコマンドレットを実行します。
     

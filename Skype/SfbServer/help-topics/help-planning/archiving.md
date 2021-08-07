@@ -1,5 +1,5 @@
 ---
-title: アーカイブ (計画ツール)
+title: 'Skype for Business Server: アーカイブ計画ツール'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
-description: Skype for Business Server のアーカイブを使用すると、Skype for Business Server 経由で送信される通信をアーカイブできます。
-ms.openlocfilehash: 053924727c43d43387bd759797754ba2ff45c4c1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: アーカイブは、Skype for Business Serverを介して送信される通信をアーカイブする方法Skype for Business Server。
+ms.openlocfilehash: 18f40ef42a83895056790a87a365aad1372c0555
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772768"
 ---
-# <a name="archiving-planning-tool"></a>アーカイブ (計画ツール)
+# <a name="skype-for-business-server-archiving-planning-tool"></a>Skype for Business Server: アーカイブ計画ツール
  
-Skype for Business Server のアーカイブを使用すると、Skype for Business Server 経由で送信される通信をアーカイブできます。
+アーカイブは、Skype for Business Serverを介して送信される通信をアーカイブする方法Skype for Business Server。
   
-アーカイブ サーバーの環境の準備の詳細については [、「Plan for archiving in Skype for Business Server 2015」](../../plan-your-deployment/archiving/archiving.md)を参照してください。
+アーカイブ サーバーの環境の準備の詳細については、「Plan [for archiving in Skype for Business Server 2015」を参照](../../plan-your-deployment/archiving/archiving.md)してください。
   
 

@@ -1,5 +1,5 @@
 ---
-title: エンタープライズ VoIP (Planning Tool)
+title: Skype for Business Server エンタープライズ VoIP計画ツール
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
-description: Skype for Business Server 2015 は、エンタープライズ VoIP Pbx (Private Branch Exchange) システムを強化または置き換えるスタンドアロンボイス オーバー IP (VoIP) サービスを提供します。 エンタープライズ VoIPユーザーは、組織の VoIP ネットワークまたは PBX で同僚に電話をかけることができます。また、組織外の従来の電話番号に電話することもできます。 エンタープライズ VoIP ソリューションには、応答、転送、転送、保留、転送、解除とパーク、Enhanced 9-1-1 (E9-1-1) 通話 (E9-1-1) 通話などの一般的な通話機能が含まれています (E9-1-1 は米国でのみ利用可能)。エンタープライズ VoIP、現在および古い IP デバイスと USB デバイスを幅広くサポートしています。
-ms.openlocfilehash: ec06d38e52278057de08e022be6008b88c59b2d3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: エンタープライズ VoIP 2015 Skype for Business Server 2015 は、従来のプライベート ブランチ 交換 (PBX) システムを強化または置き換えるスタンドアロンの Voice over Internet Protocol (VoIP) サービスを提供します。 エンタープライズ VoIPユーザーは、組織の VoIP ネットワークまたは PBX で同僚を呼び出し、組織外の従来の電話番号を呼び出す場合があります。 エンタープライズ VoIP ソリューションには、応答、転送、転送、保留、転用、解除、パーク、拡張 9-1-1 (E9-1-1) 通話 (E9-1-1) 通話などの一般的な通話機能が含まれています (E9-1-1 は米国でのみ使用できます)。エンタープライズ VoIP、現在および古い IP および USB デバイスの幅広い範囲もサポートしています。
+ms.openlocfilehash: f0bf6048141f2273799b843d17df72d9c51141d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772568"
 ---
-# <a name="enterprise-voice-planning-tool"></a>エンタープライズ VoIP (Planning Tool)
+# <a name="skype-for-business-server-enterprise-voice-planning-tool"></a>Skype for Business Server エンタープライズ VoIP計画ツール
  
-Skype for Business Server 2015 は、エンタープライズ VoIP Pbx (Private Branch Exchange) システムを強化または置き換えるスタンドアロンボイス オーバー IP (VoIP) サービスを提供します。 エンタープライズ VoIPユーザーは、組織の VoIP ネットワークまたは PBX で同僚に電話をかけることができます。また、組織外の従来の電話番号に電話をかけることができます。 エンタープライズ VoIP ソリューションには、応答、転送、転送、保留、転送、解除と保留、拡張 9-1-1 (E9-1-1) 通話 (E9-1-1) 通話 (E9-1-1 は米国でのみ利用可能) などの一般的な通話機能が含まれています。エンタープライズ VoIP、現在および古い IP デバイスと USB デバイスを幅広くサポートしています。
+エンタープライズ VoIP 2015 Skype for Business Server 2015 は、従来のプライベート ブランチ 交換 (PBX) システムを強化または置き換えるスタンドアロンの Voice over Internet Protocol (VoIP) サービスを提供します。 エンタープライズ VoIPユーザーは、組織の VoIP ネットワークまたは PBX で同僚を呼び出し、組織外の従来の電話番号を呼び出す場合があります。 エンタープライズ VoIP ソリューションには、応答、転送、転送、保留、転用、解除、パーク、拡張 9-1-1 (E9-1-1) 通話 (E9-1-1) 通話などの一般的な通話機能が含まれています (E9-1-1 は米国でのみ使用できます)。エンタープライズ VoIP、現在および古い IP および USB デバイスの幅広い範囲もサポートしています。
   
-Skype for Business Server 2015 でのエンタープライズ VoIP計画の詳細については [、「Plan for エンタープライズ VoIP in Skype for Business Server 2015」](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)を参照してください。 スタンドアロンの仲介サーバーの展開の詳細については [、「Deploy a Mediation Server in Topology Builder in Skype for Business Server 2015」](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)を参照してください。
+2015 年の計画のエンタープライズ VoIP詳細については[、「Plan for エンタープライズ VoIP 2015 Skype for Business Server」を参照してください](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)。 スタンドアロン仲介サーバーの展開の詳細については、「Deploy a Mediation Server in [topology Builder in topology Builder in Skype for Business Server 2015」を参照](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)してください。
   
 

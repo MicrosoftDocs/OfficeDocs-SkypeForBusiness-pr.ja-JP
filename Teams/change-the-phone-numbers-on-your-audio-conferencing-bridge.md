@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 新しいサービス電話番号を会議ブリッジに割り当て、ユーザーの対象範囲を拡大するために必要な手順について説明します。
-ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4514c9cf34049f9c9b92be697176c7897e560605
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102663"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724510"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>電話会議ブリッジの電話番号を変更する
 
@@ -133,13 +133,14 @@ Meeting Migration Service の詳細については、「Meeting [Migration Servi
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>手順 3 - 電話会議ブリッジから古い電話番号の割り当てを解除する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+電話会議ブリッジUnregister-CsOnlineDialInConferencingServiceNumber無料電話番号の登録を解除するには、次のコマンドレットを使用します。
 
-1. In the left navigation, go to **Voice** > **Phone numbers**.
+```PowerShell
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
+```
+注: Conference Bridge ID を見つけるには、PowerShell Get-CsOnlineDialInConferencingBridge を実行します。
 
-2. 電話番号が無料電話番号の場合は、一覧から電話番号を選択し、[リリース] をクリック **します**。 電話番号が有料電話番号の場合は [、Microsoft](/microsoft-365/admin/contact-support-for-business-products) サポートに問い合わせ、電話番号を割り当て解除してください。
-
-3. 電話番号が無料電話番号の場合は、確認ウィンドウで **[は** い] をクリックします。
 
    > [!IMPORTANT]
    > 電話番号が電話会議ブリッジから割り当て解除された後は、ユーザーが新規または既存の会議に参加するために電話番号を使用できなくなりました。
@@ -161,26 +162,26 @@ Meeting Migration Service の詳細については、「Meeting [Migration Servi
     > [!NOTE]
     > BridgeID を探すには、 **Get-CsOnlineDialInConferencingBridge** を使用します。
 
-  - 1 人を含めずにすべてのユーザーの既定の無料電話番号を 8005551234 に設定するには、次のコマンドを実行します。
+  - 1 人を含めずにすべてのユーザーの既定の無料電話番号を設定するには、次8005551234します。
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - 既定のフリーダイヤル番号として 8005551234 を持つすべてのユーザーの既定のフリーダイヤル番号を 8005551239 に変更し、会議のスケジュールを自動的に変更するには、次のコマンドを実行します。
+  - 既定の無料電話番号として 8005551234 を持つすべてのユーザーの既定の無料電話番号を 8005551239 に変更し、会議のスケジュールを自動的に変更するには、次のコマンドを実行します。
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
-  - 米国内のすべてのユーザーの既定の無料電話番号を 8005551234 に設定し、会議のスケジュールを自動的に変更するには、次のコマンドを実行します。
+  - 米国に位置しているすべてのユーザーの既定の無料電話番号を既定の電話番号に設定し、会議8005551234スケジュールを自動的に変更するには、次のコマンドを実行します。
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
     > [!NOTE]
-    > 上記で使用する場所は、管理センターで設定されているユーザーの連絡先情報と一Microsoft 365必要があります。
+    > 上記で使用する場所は、ユーザーの連絡先情報と一致する必要があります。この情報は、Microsoft 365 管理センター。
 
 ## <a name="troubleshooting"></a>トラブルシューティング
 
@@ -208,7 +209,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
   - [Office 365 PowerShell を使用する必要がある理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センターを使用する場合に限って、速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
+Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター の使用に対する速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
 
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
@@ -216,5 +217,5 @@ Windows PowerShell多くのユーザーに対して一度に設定を変更す�
 
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話会議ブリッジの設定を変更する](change-the-settings-for-an-audio-conferencing-bridge.md)

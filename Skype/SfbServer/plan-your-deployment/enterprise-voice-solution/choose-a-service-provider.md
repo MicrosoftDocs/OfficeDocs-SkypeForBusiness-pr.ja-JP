@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の E9-1-1 サービス プロバイダーを選択する
+title: E9-1-1 サービス プロバイダーを選択して、Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
-description: Skype for Business Server の E9-1-1 展開でサービス プロバイダーを選択エンタープライズ VoIP。
-ms.openlocfilehash: 9386ec49c6a23035e237f34c57dde363085ff1bd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: E9-1-1 の展開でサービス プロバイダーを選択Skype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: ab114934b66696675986f4eb17f84badf5fcefe3184fc59e64a67115abd5d84e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276642"
 ---
-# <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Skype for Business Server の E9-1-1 サービス プロバイダーを選択する
+# <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>E9-1-1 サービス プロバイダーを選択して、Skype for Business Server
  
-Skype for Business Server の E9-1-1 展開でサービス プロバイダーを選択エンタープライズ VoIP。
+E9-1-1 の展開でサービス プロバイダーを選択Skype for Business Server エンタープライズ VoIP。
   
-E9-1-1 サービス プロバイダーは、Skype for Business Server から発信される緊急通話を、通話内に含まれる場所情報に基づいて正しい公衆安全応答ポイント (PSAP) にルーティングします。 
+E9-1-1 サービス プロバイダーは、Skype for Business Server から発信された緊急通話を、呼び出し内に含まれる場所情報に基づいて正しい公衆安全応答ポイント (PSAP) にルーティングします。 
   
 Skype for Business Server 展開の一環として E9-1-1 をサポートするには、Lync Open Interoperability Program 認定 E9-1-1 サービス プロバイダーから E9-1-1 ルーティング サービスを取得する必要があります。 組織の要件に最も適したプロバイダーを選択してください。
 

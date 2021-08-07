@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Skype for Business Online の Skype 会議ブロードキャスト機能について学習します。この機能を使用すると、最大 10,000 人のオンライン ユーザーに会議やイベントをスケジュール、作成、ブロードキャストできます。
-ms.openlocfilehash: da27110313765bb50df92e3bafb6f09ceae5f301
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: e5248ca2f8b8bb8080eae5eebe44e3d7c5bc01f5
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237553"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725360"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャスト用にネットワークをセットアップする
 
@@ -43,9 +43,7 @@ ms.locfileid: "52237553"
 
 次 **のいずれかの** 方法を使用して、許可されているドメインを設定します。
 
-## #
-
- **方法 1: 管理センターを使用する**
+### <a name="method-1-use-the-admin-center"></a>方法 1: 管理センターを使用する
 
 1. 管理センターに移動し、左側のナビゲーションで [設定Services アドイン] をクリックし、[Skype for Business]  >  **&amp;****を選択します**。
 
@@ -61,9 +59,7 @@ ms.locfileid: "52237553"
 
 3. **[保存]** をクリックします。
 
-## #
-
- **方法 2: Windows PowerShell**
+### <a name="method-2-use-windows-powershell"></a>方法 2: Windows PowerShell
 
 - [スタート]**メニューの [** ファイル名] を右 **クリックWindows PowerShell** 管理者として **実行] をクリックします**。 このウィンドウ **Windows PowerShell、** 各行を入力し、Enter キーを押します。
 

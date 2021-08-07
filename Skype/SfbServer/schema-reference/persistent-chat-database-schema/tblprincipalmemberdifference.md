@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
-description: tblPrincipalMemberDifference には、グループ メンバーシップの変更 (メンバーの追加と削除の両方) が含まれます。この変更は、Active Directory ドメイン サービスの同期の後の手順でまだ処理されていません。
-ms.openlocfilehash: 8fac76f1abfbd55d13d89c96bb23a6953d38edf9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblPrincipalMemberDifference には、後の Active Directory ドメイン サービス同期手順でまだ処理されていないグループ メンバーシップの変更 (追加メンバーと削除メンバーの両方) が含まれます。
+ms.openlocfilehash: c1d5a0d492d228b5a8292fde608fbd66c3b586c393aba8eb5bc0fbbddd45a5e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276582"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  
-tblPrincipalMemberDifference には、グループ メンバーシップの変更 (メンバーの追加と削除の両方) が含まれます。この変更は、Active Directory ドメイン サービスの同期の以降の手順でまだ処理されていません。
+tblPrincipalMemberDifference には、後の Active Directory ドメイン サービス同期手順でまだ処理されていないグループ メンバーシップの変更 (追加メンバーと削除メンバーの両方) が含まれます。
   
 **Columns**
 

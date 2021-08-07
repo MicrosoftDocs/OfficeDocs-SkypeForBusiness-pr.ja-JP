@@ -1,5 +1,5 @@
 ---
-title: ユーザーのグループ通話ピックアップを有効にし、Skype for Business でグループ番号を割り当てる
+title: ユーザーのグループ通話ピックアップを有効にし、グループ番号を割り当Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: Skype for Business Server のグループ通話ピックアップでユーザーを有効エンタープライズ VoIPグループ番号を割り当てる。
-ms.openlocfilehash: 5469e9634e16b855993518092114184a2dca7359
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '[グループ通話ピックアップ] でユーザーを有効Skype for Business Server エンタープライズ VoIPグループ番号を割り当てる。'
+ms.openlocfilehash: 6765cfab12cd888bb5e86f7b1c9b709b8edc7a8855d35de071ebb25619e48ce8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305909"
 ---
-# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>ユーザーのグループ通話ピックアップを有効にし、Skype for Business でグループ番号を割り当てる
+# <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>ユーザーのグループ通話ピックアップを有効にし、グループ番号を割り当Skype for Business
 
-Skype for Business Server のグループ通話ピックアップでユーザーを有効エンタープライズ VoIPグループ番号を割り当てる。
+[グループ通話ピックアップ] でユーザーを有効Skype for Business Server エンタープライズ VoIPグループ番号を割り当てる。
 
 コール パーク オービット テーブルに通話ピックアップ グループ番号を追加した後、SEFAUtil ツールを使用してグループ番号をユーザーに割り当て、グループ通話ピックアップを有効にします。
 

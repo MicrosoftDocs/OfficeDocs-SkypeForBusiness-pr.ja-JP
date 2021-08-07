@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 通常、アドレス帳は他のトポロジと一緒に移行されます。 ただし、従来の環境で次のようにカスタマイズした場合は、移行後の手順を実行する必要があります。
-ms.openlocfilehash: 6d2ccf0d38814d149495518a71f888f0c2999d24
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 一般に、アドレス帳は他のトポロジと共に移行されます。 ただし、従来の環境で次の手順をカスタマイズした場合は、移行後の手順を実行する必要がある場合があります。
+ms.openlocfilehash: 19ff3b0ca389832cfb2b1739aeb85738c30238576143d3542388fd1ef97a6498
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752839"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306220"
 ---
-# <a name="migrate-address-book"></a>アドレス帳を移行する
+# <a name="migrate-address-book"></a>アドレス帳の移行
 
-通常、アドレス帳は他のトポロジと一緒に移行されます。 ただし、従来の環境で次のようにカスタマイズした場合は、移行後の手順を実行する必要があります。 
+一般に、アドレス帳は他のトポロジと共に移行されます。 ただし、従来の環境で次の手順をカスタマイズした場合は、移行後の手順を実行する必要がある場合があります。 
 
 - アドレス帳の正規化ルールをカスタマイズした場合。
 
@@ -29,25 +29,25 @@ ms.locfileid: "44752839"
 
  **アドレス帳の正規化ルール**
 
-従来の環境でアドレス帳の正規化ルールをカスタマイズした場合は、カスタマイズしたルールをパイロットプールに移行する必要があります。 アドレス帳の正規化ルールをカスタマイズしていない場合は、アドレス帳サービスで移行するものは何もありません。 Skype for Business Server 2019 の既定の正規化ルールは、従来のインストールの既定のルールと同じです。 カスタマイズした正規化ルールを移行するには、このセクションの後半の手順に従います。
+従来の環境でアドレス帳正規化ルールをカスタマイズした場合は、カスタマイズしたルールをパイロット プールに移行する必要があります。 アドレス帳の正規化ルールをカスタマイズしていない場合は、アドレス帳サービスで移行するものは何もありません。 2019 Skype for Business Serverの既定の正規化ルールは、従来のインストールの既定のルールと同じです。 カスタマイズした正規化ルールを移行するには、このセクションの後半の手順に従います。
 
 > [!NOTE]
 > 組織でリモート通話コントロールを使用していて、アドレス帳の正規化ルールをカスタマイズした場合は、リモート通話コントロールを使う前に、このトピックの手順を遂行しなければなりません。この手順では、RTCUniversalServerAdmins グループのメンバーシップまたはそれに相当する権限が必要です。 
 
  **False に設定した UseNormalizationRules**
 
-**UseNormalizationRules**の値を False に設定して、ユーザーが Skype For business Server 2019 を使用せずに Active Directory ドメインサービスで定義された電話番号を使用できるようにする場合は、 **UseNormalizationRules**および**Ignoregenericrules**パラメーターを True に設定する必要があります。 これらのパラメーターを True に設定するには、このセクションの後半の手順に従います。 
+**UseNormalizationRules** の値を False に設定すると、ユーザーは、Skype for Business Server 2019 年の正規化ルールを適用せずに Active Directory ドメイン サービスで定義されている電話番号を使用できます **。UseNormalizationRules** パラメーターと **IgnoreGenericRules** パラメーターを True に設定する必要があります。 これらのパラメーターを True に設定するには、このセクションの後半の手順に従います。 
 
 ## <a name="to-migrate-address-book-customized-normalization-rules"></a>アドレス帳のカスタマイズした正規化ルールを移行するには
 
-1. アドレス帳の共有フォルダーのルートにある Company_Phone_Number_Normalization_Rules.txt ファイルを検索し、Skype for Business Server 2019 パイロットプールのアドレス帳共有フォルダーのルートにコピーします。
+1. アドレス帳Company_Phone_Number_Normalization_Rules.txtのルートにあるファイルを見つけ、2019 年のパイロット プール内のアドレス帳共有フォルダーのルートにコピー Skype for Business Serverします。
 
     > [!NOTE]
-    > アドレス帳の正規化ルールの例は、ABS Web コンポーネントのファイルディレクトリにインストールされています。 パスは **$installedDriveLetter: Files\Files\/Skype For Business Server 2019 \ Web Components\Address Book Sample_Company_Phone_Number_Normalization_Rules.txt**。 このファイルは、アドレス帳の共有フォルダーのルートディレクトリに、 **Company_Phone_Number_Normalization_Rules.txt**としてコピーしたり名前を変更したりできます。 たとえば、アドレス帳が **$serverX**で共有されている場合、このパスは** \\ $serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**のようになります。 
+    > サンプルのアドレス帳正規化ルールが ABS Web コンポーネント ファイル ディレクトリにインストールされています。 パスは **$installedDriveLetter:\Program Files\Microsoft Skype for Business Server 2019\Web コンポーネント\アドレス帳ファイル\Files\** Sample_Company_Phone_Number_Normalization_Rules.txtです。 このファイルは、アドレス帳共有フォルダー **Company_Phone_Number_Normalization_Rules.txtディレクトリに** コピーして名前を変更できます。 **たとえば、$serverX** で共有されるアドレス帳のパスは **\\ 、$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles** に似ています。 
 
 2. メモ帳などのテキスト エディターを使用して、Company_Phone_Number_Normalization_Rules.txt ファイルを開きます。
 
-3. 特定の種類のエントリは、Skype for Business Server 2019 では正しく動作しません。 このファイルに目を通して、このステップで説明しているような種類のエントリがあれば、必要に応じてそれを編修し、パイロット プール内のアドレス帳共有フォルダーに変更後のファイルを保存します。
+3. 2019 年中に特定の種類のエントリがSkype for Business Server。 このファイルに目を通して、このステップで説明しているような種類のエントリがあれば、必要に応じてそれを編修し、パイロット プール内のアドレス帳共有フォルダーに変更後のファイルを保存します。
 
     必要な空白文字や区切り文字が文字列に含まれていると、正規化ルールが正常に機能しなくなります。これらの文字は、正規化ルールに入力される文字列から取り除かれるためです。必要な空白文字や区切り文字が含まれる文字列を使用する場合は、文字列を編集する必要があります。たとえば、次の文字列を使用すると、正規化ルールが正常に機能しません。
 
@@ -63,29 +63,29 @@ ms.locfileid: "44752839"
 
 ## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a>UseNormalizationRules および IgnoreGenericRules を true に設定するには
 
-1. Skype for Business Server 管理シェルを起動します。 [**スタート**]、[**すべてのプログラム**]、[ **Microsoft Skype for business Server 2019**]、[ **skype for business server 管理シェル**] の順にクリックします。
+1. 管理シェルをSkype for Business Serverする: [スタート] をクリックし、[すべてのプログラム] をクリックし、[Microsoft Skype for Business Server **2019]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 2. 次のいずれかの操作を行います。
 
-   - 展開に Skype for Business Server 2019 のみが含まれている場合は、グローバルレベルで次のコマンドレットを実行して、 **UseNormalizationRules**および**ignoregenericrules**の値を True に変更します。 
+   - 展開に 2019 Skype for Business Serverのみを含む場合は、グローバル レベルで次のコマンドレットを実行して **、UseNormalizationRules** と **IgnoreGenericRules** の値を True に変更します。 
 
    ```PowerShell
    Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
-   - 展開に Skype for Business Server 2019 と従来のインストールの組み合わせが含まれている場合は、次のコマンドレットを実行して、トポロジ内の各 Skype for Business Server 2019 プールに割り当てます。
+   - 展開に Skype for Business Server 2019 と従来のインストールの組み合わせが含まれる場合は、次のコマンドレットを実行し、トポロジ内の Skype for Business Server 2019 プールに割り当てる必要があります。
 
    ```PowerShell
    New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
-3. 中央管理ストアのレプリケーションがすべてのプールで実行されるのを待ちます。
+3. すべてのプールでサーバーの全体管理ストアのレプリケーションが発生するのを待ちます。
 
-4. 展開の電話正規化ルール ファイル "Company_Phone_Number_Normalization_Rules.txt" を変更し、コンテンツをクリアします。 このファイルは、各 Skype for Business Server 2019 プールのファイル共有にあります。 ファイルが存在しない場合は、"Company_Phone_Number_Normalization_Rules.txt" という名前の空のファイルを作成します。
+4. 展開の電話正規化ルール ファイル "Company_Phone_Number_Normalization_Rules.txt" を変更し、コンテンツをクリアします。 ファイルは、2019 年の各プールSkype for Business Server共有されます。 ファイルが存在しない場合は、"Company_Phone_Number_Normalization_Rules.txt" という名前の空のファイルを作成します。
 
-5. すべてのフロントエンドプールが新しいファイルを読み取るまで数分待機します。
+5. すべてのフロントエンド プールが新しいファイルを読み取るのを数分待ちます。
 
-6. 展開の各 Skype for Business Server 2019 プールで次のコマンドレットを実行します。
+6. 展開内の各 2019 プールSkype for Business Server次のコマンドレットを実行します。
 
    ```PowerShell
    Update-CsAddressBook

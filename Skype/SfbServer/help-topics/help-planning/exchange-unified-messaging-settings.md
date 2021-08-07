@@ -1,5 +1,5 @@
 ---
-title: Exchange ユニファイド メッセージングの設定 (計画ツール)
+title: Skype for Business Server Exchange ユニファイド メッセージング 設定計画ツール
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
-description: Skype for Business Server 2015 は、ボイス メッセージングと電子メール メッセージングを単一のメッセージング インフラストラクチャに組み合わせる Exchange ユニファイド メッセージング (UM) との統合をサポートします。
-ms.openlocfilehash: 7f73e3ea6f7033103242c9ff8ee425963e9f6729
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Serverは、Exchangeメッセージングと電子メール メッセージングを 1 つのメッセージング インフラストラクチャに組み合わせたユニファイド メッセージングとの統合をサポートします。
+ms.openlocfilehash: e17be4642c2d9d09cc0468a49fde024f2ccd19fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116115"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772588"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange ユニファイド メッセージングの設定 (計画ツール)
+# <a name="skype-for-business-server-exchange-unified-messaging-settings-planning-tool"></a>Skype for Business Server Exchange ユニファイド メッセージング 設定計画ツール
 
-Skype for Business Server 2015 は、ボイス メッセージングと電子メール メッセージングを単一のメッセージング インフラストラクチャに組み合わせる Exchange ユニファイド メッセージング (UM) との統合をサポートします。
+Skype for Business Server 2015 では、Exchange ユニファイド メッセージング (UM) との統合がサポートされ、ボイス メッセージングと電子メール メッセージングを 1 つのメッセージング インフラストラクチャに組み合わせて使用できます。
 
 詳細については、以下を参照してください。
 

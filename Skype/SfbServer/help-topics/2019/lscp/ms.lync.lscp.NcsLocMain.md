@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: 場所ポリシーは、拡張 9-1-1 (E9-1-1) を有効にするかどうか、E9-1-1 の使用方法、およびユーザーと連絡先での場所情報の使用方法を指定します。
-ms.openlocfilehash: 9f6d7468520b3398f186adeacffd5b393ce159b8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: eabd1ce415f420ef62e9f85a7b4a7c4342e0f4d1ea1a34cf71b14319761f002a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305749"
 ---
 # <a name="location-policy"></a>場所ポリシー
 
@@ -35,7 +35,7 @@ ms.locfileid: "51109573"
 - **ユーザー ポリシー (オプション):** 1 つ以上のユーザーの場所ポリシーを作成できます。それぞれのポリシーは、特定のユーザーまたはユーザー グループに適用されます。 ユーザー ポリシーは、グローバル ポリシーとサイト ポリシーを上書きします。
 
 > [!NOTE]
-> 場所ポリシーは、サブネットのグループであるネットワーク サイトに割り当てることもできます。 ネットワーク サイトに割り当てられた場所ポリシーは、他のすべてのユーザー ポリシーより優先されます。 コマンドレットを使用して場所ポリシーをネットワーク サイトに割り当てる方法の詳細については、「Add a location policy to a network site [in Skype for Business Server」を参照してください](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)。 Skype for Business Server コントロール パネルを使用して場所ポリシーをネットワーク サイトに割り当てる方法の詳細については、「ネットワーク サイトの構成 [」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
+> 場所ポリシーは、サブネットのグループであるネットワーク サイトに割り当てることもできます。 ネットワーク サイトに割り当てられた場所ポリシーは、他のすべてのユーザー ポリシーより優先されます。 コマンドレットを使用して場所ポリシーをネットワーク サイトに割り当てる方法の詳細については、「場所ポリシーをネットワーク サイトに追加する」を参照[Skype for Business Server。](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md) ネットワーク サイトに場所ポリシー Skype for Business Server割り当てるコントロール パネルの使用の詳細については、「ネットワーク サイトの構成[」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
 
 [**場所ポリシー**] ページには、組織で定義されているすべての場所ポリシーが一覧表示されます。
 
@@ -70,7 +70,7 @@ ms.locfileid: "51109573"
 
 - **E9-1-1** この場所ポリシーを割り当てられたユーザーが E9-1-1 に対して有効になっているか確認します。
 
-- **場所** クライアントが新しい場所で Skype for Business Server に登録するときに位置情報の入力を求めるメッセージをユーザーに表示するかどうかを指定し、位置情報を入力せずにプロンプトを閉じ込める場合に免責事項を表示するかどうかを指定します。
+- **場所** クライアントが新しい場所で Skype for Business Server に登録するときに位置情報の入力を求めるメッセージをユーザーに表示するかどうかを指定し、位置情報を入力せずにプロンプトを閉じると免責事項が表示されるかどうかを指定します。
 
 - **PSTN 使用法** このプロファイルを使用してクライアントから緊急通話をルーティングするために使用される音声ルートを決定するために使用する公衆交換電話網 (PSTN) の使用状況を指定します。
 
@@ -78,4 +78,4 @@ ms.locfileid: "51109573"
 
 - **E9-1-1 マスク** ユーザーがダイヤルして緊急ダイヤル番号に変換する番号を指定します。
 
-緊急サービスの機能エンタープライズ VoIP詳細については、「計画」のドキュメントの [「E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) の概要」を参照してください。 場所ポリシーの操作の詳細については、「操作」のドキュメントの「[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)」を参照してください。
+緊急サービスの機能エンタープライズ VoIP詳細については、「計画」のドキュメントの[「E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1)の概要」を参照してください。 場所ポリシーの操作の詳細については、「操作」のドキュメントの「[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)」を参照してください。

@@ -1,5 +1,5 @@
 ---
-title: 常設チャット (計画ツール)
+title: 常設チャット計画ツール
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,18 +13,17 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
-description: 常設チャット サーバーを使用すると、ユーザーはトピックに基づくマルチパーティの会話に参加できます。この会話は、時間の長い間持続します。
-ms.openlocfilehash: 867bfe3a1d56beaf4579f5dbdf6c49b24d254d0a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 常設チャット サーバーを使用すると、ユーザーは時間の長い間続くマルチパーティのトピックベースの会話に参加できます。
+ms.openlocfilehash: 2dd6f8868048b3ce7cba16f92f98a7fb665f72d4
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814107"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725330"
 ---
-# <a name="persistent-chat-planning-tool"></a>常設チャット (計画ツール)
+# <a name="persistent-chat-planning-tool"></a>常設チャット計画ツール
  
-常設チャット サーバーを使用すると、ユーザーは、時間のたつマルチパーティのトピックベースの会話に参加できます。
+常設チャット サーバーを使用すると、ユーザーは時間の長い間続くマルチパーティのトピックベースの会話に参加できます。
   
-常設チャット サーバーの環境の準備の詳細については [、「Plan for Persistent Chat Server in Skype for Business Server 2015」](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)を参照してください。
+常設チャット サーバーの環境の準備の詳細については、「Plan for Persistent Chat [Server in Skype for Business Server 2015」を参照](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)してください。
   
-

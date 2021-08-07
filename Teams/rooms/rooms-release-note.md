@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: f870f746a5ff085fc997d9071ba243e43a8046b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772728"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会議室のリリース ノート
 
@@ -90,7 +90,7 @@ ms.locfileid: "53646878"
 - Windows 10 20H2 のサポート 
 
 > [!NOTE]
-> HP Elite Slice とクUC-Engine ("KYSKLi" を含む BIOS バージョンの日付) Teams 会議室には互換性の問題があります。更新されたドライバーは、近い将来システム OEM によって提供される予定です。 Windows 10 20H2 は、これらのデバイスには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](./rooms-lifecycle-support.md#windows-10-release-support)」を参照してください。
+> クリストUC-Engine ("KYSKLi" を含む BIOS バージョンの日付) Teams 会議室には互換性の問題があります。更新されたドライバーは、近い将来、システム OEM によって提供される予定です。 Windows 10 20H2 は、これらのデバイスには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](./rooms-lifecycle-support.md#windows-10-release-support)」を参照してください。
 
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
