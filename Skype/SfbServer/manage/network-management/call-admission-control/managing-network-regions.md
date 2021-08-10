@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ネットワーク領域* は、通話受付管理、E9-1-1、およびメディア バイパスの構成で使用されるネットワーク ハブまたはバックボーンです。
-ms.openlocfilehash: 2020eea2cf8bf85c915ebf88de6f86cb3a0ee9ca
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cf71a4e92245417fe23ba998bd9ba6e0357eda618601504838c4944d09ef01b1
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122451"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590951"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域の管理
 
@@ -27,13 +27,13 @@ ms.locfileid: "51122451"
 ## <a name="view-network-region-information"></a>ネットワーク地域情報の表示 
 
 
-ネットワーク地域は、複数の地理的な領域にまたがるネットワークのさまざまな部分を相互接続します。 すべてのネットワーク地域は、セントラル サイトと関連付ける必要があります。 このセントラル サイトは、通話受付管理 (CAC) 帯域幅ポリシー サービスが実行されているデータ センター サイトです。 Skype for Business Server コントロール パネルを使用して、ネットワーク領域を表示できます。 ネットワーク地域には、音声とビデオの接続にインターネットを使用する代替パスを許可するかどうかの設定が含まれます。 このトピックを使用して、既存のネットワーク地域を表示します。 
+ネットワーク地域は、複数の地理的な領域にまたがるネットワークのさまざまな部分を相互接続します。 すべてのネットワーク地域は、セントラル サイトと関連付ける必要があります。 このセントラル サイトは、通話受付管理 (CAC) 帯域幅ポリシー サービスが実行されているデータ センター サイトです。 [コントロール パネル] Skype for Business Serverを使用して、ネットワーク領域を表示できます。 ネットワーク地域には、音声とビデオの接続にインターネットを使用する代替パスを許可するかどうかの設定が含まれます。 このトピックを使用して、既存のネットワーク地域を表示します。 
 
-### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してネットワーク地域に関する情報を表示するには
+### <a name="to-view-information-about-a-network-region-with-skype-for-business-server-control-panel"></a>コントロール パネルを使用してネットワーク領域に関するSkype for Business Server表示するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域] を **クリックします**。
 
@@ -45,44 +45,44 @@ ms.locfileid: "51122451"
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
 
-### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用したネットワーク地域Windows PowerShell表示
+### <a name="viewing-network-region-information-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用してネットワーク地域情報Windows PowerShell表示する
 
-ネットワーク地域の情報を表示するには、Windows PowerShell **Get-CsNetworkRegion コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 
+ネットワーク地域の情報は、ユーザー設定Windows PowerShell **Get-CsNetworkRegion コマンドレットを使用して表示** できます。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 
 
 ### <a name="to-view-network-region-information"></a>ネットワーク地域情報を表示するには
 
-  - すべてのネットワーク地域に関する情報を表示するには、Skype for Business Server 管理シェルに次のコマンドを入力し、Enter キーを押します。
+  - すべてのネットワーク領域に関する情報を表示するには、次のコマンドを [管理シェル] Skype for Business Server入力し、Enter キーを押します。
     
-        Get-CsNetworkRegion
+    **Get-CsNetworkRegion**
     
     次のような情報が表示されます。
     
-        Identity         : Pacific Northwest
-        Description      :
-        BypassID         : 3b232b84-2c1d-4da2-8181-e9330bafebe9
-        CentralSite      : Site:Redmond1
-        BWAlternatePaths : {BWPolicyModality=Audio;AlternatePath=True, 
-                           BWPolicyModality=Video;AlternatePath=True}
-        NetworkRegionID  : Pacific Northwest
+    ID : 太平洋北西部<br/>
+    説明 :<br/>
+    BypassID : 3b232b84-2c1d-4da2-8181-e9330bafebe9<br/>
+    CentralSite : Site:Redmond1<br/>
+    BWAlternatePaths : {BWPolicyModality=Audio;AlternatePath=True, <br/>
+                       BWPolicyModality=Video;AlternatePath=True}<br/>
+    NetworkRegionID : 太平洋北西部<br/>
 
 詳細については、[Get-CsNetworkRegion](/powershell/module/skype/Get-CsNetworkRegionLink) コマンドレットのヘルプ トピックを参照してください。.
 
 
 ## <a name="create-or-modify-network-regions"></a>ネットワーク地域を作成または変更する 
 
-ネットワーク地域は、複数の地理的な領域にまたがるネットワークのさまざまな部分を相互接続します。 すべてのネットワーク地域は、セントラル サイトと関連付ける必要があります。 このセントラル サイトは、通話受付管理 (CAC) 帯域幅ポリシー サービスが実行されているデータ センター サイトです。 Skype for Business Server コントロール パネルを使用して、ネットワーク領域を構成できます。 ネットワーク地域には、オーディオとビデオの接続でインターネット経由の代替パスを許可するかどうかを決定する設定が含まれます。 Skype for Business Server コントロール パネルから、ネットワーク領域を作成、変更、または削除できます。 ネットワーク地域を作成および変更するには、このトピックを参考にしてください。 
+ネットワーク地域は、複数の地理的な領域にまたがるネットワークのさまざまな部分を相互接続します。 すべてのネットワーク地域は、セントラル サイトと関連付ける必要があります。 このセントラル サイトは、通話受付管理 (CAC) 帯域幅ポリシー サービスが実行されているデータ センター サイトです。 [コントロール パネル] Skype for Business Serverを使用して、ネットワーク領域を構成できます。 ネットワーク地域には、オーディオとビデオの接続でインターネット経由の代替パスを許可するかどうかを決定する設定が含まれます。 [コントロール Skype for Business Serverから、ネットワーク領域を作成、変更、または削除できます。 ネットワーク地域を作成および変更するには、このトピックを参考にしてください。 
 
 ### <a name="to-create-a-network-region"></a>ネットワーク地域を作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域] を **クリックします**。
 
 4.  [**地域**] ページで [**新規**] をクリックします。
 
-5.  [**新しい地域**] ページで、[**名前**] フィールドに値を入力します。 この値は、Skype for Business Server 展開内で一意である必要があります。
+5.  [**新しい地域**] ページで、[**名前**] フィールドに値を入力します。 この値は、展開内で一意Skype for Business Server必要があります。
 
 6.  [**セントラル サイト**] ドロップダウン リストで、このネットワーク地域に対応するセントラル サイトを選択します。
 
@@ -100,7 +100,7 @@ ms.locfileid: "51122451"
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域] を **クリックします**。
 
@@ -117,13 +117,13 @@ ms.locfileid: "51122451"
 
 ## <a name="delete-existing-network-regions"></a>既存のネットワーク領域を削除する 
 
-ネットワーク地域は、複数の地理的な領域にまたがるネットワークのさまざまな部分を相互接続します。 すべてのネットワーク地域は、セントラル サイトと関連付ける必要があります。 このセントラル サイトは、通話受付管理 (CAC) 帯域幅ポリシー サービスが実行されているデータ センター サイトです。 Skype for Business Server コントロール パネルを使用して、ネットワーク領域を構成できます。 ネットワーク地域には、オーディオとビデオの接続でインターネット経由の代替パスを許可するかどうかを決定する設定が含まれます。 Skype for Business Server コントロール パネルから、ネットワーク領域を作成、変更、または削除できます。 既存のネットワーク地域を削除するには、このトピックを参考にしてください。 
+ネットワーク地域は、複数の地理的な領域にまたがるネットワークのさまざまな部分を相互接続します。 すべてのネットワーク地域は、セントラル サイトと関連付ける必要があります。 このセントラル サイトは、通話受付管理 (CAC) 帯域幅ポリシー サービスが実行されているデータ センター サイトです。 [コントロール パネル] Skype for Business Serverを使用して、ネットワーク領域を構成できます。 ネットワーク地域には、オーディオとビデオの接続でインターネット経由の代替パスを許可するかどうかを決定する設定が含まれます。 [コントロール Skype for Business Serverから、ネットワーク領域を作成、変更、または削除できます。 既存のネットワーク地域を削除するには、このトピックを参考にしてください。 
 
 ### <a name="to-delete-a-network-region"></a>ネットワーク地域を削除するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域] を **クリックします**。
 

@@ -1,5 +1,5 @@
 ---
-title: 更新プログラムWindows管理Microsoft Teams ミーティング
+title: 会議室Windows更新プログラムをMicrosoft Teamsする
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
-description: 管理者は、更新プログラムを管理し、Windows更新プログラムWindows更新プログラムを管理する方法についてMicrosoft Teams ミーティング。
+description: 管理者は、会議室の更新プログラムを管理Windows、Windows機能の更新プログラムをMicrosoft Teamsできます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c7bb233ceedadeaf9c7f14ddf831bd9d324d9211
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 67144ff29077a3dec6be79b9b68efb1162d31a9069b3436b29f9ac50a4857914
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275963"
 ---
 # <a name="manage-windows-updates"></a>更新プログラムWindows管理する
 
-Microsoft Teams ミーティング IoT または Windows 10 Enterprise Windows 10 Enterprise (VL) で実行され、標準のデスクトップ コンピューターと同じ Windows 更新プログラムと OS ビルドを受け取ります。
+Microsoft Teamsルームは Windows 10 Enterprise IoT または Windows 10 Enterprise (VL) で実行され、標準のデスクトップ コンピューターと同Windows更新プログラムと OS ビルドを受け取ります。
 
 Windows更新プログラムは、次のセクションで説明したように管理できます。
 
@@ -51,8 +51,8 @@ Windows更新プログラムは、次のセクションで説明したように�
 
 ### <a name="feature-updates"></a>機能の更新
 
-品質および遅延不可の更新プログラムとは異なり、Windows 10 "機能更新プログラム" (メジャー OS リリース) は、Microsoft が Microsoft Teams ミーティング で特定の更新プログラム機能をテストして検証した後にのみインストールされます。 更新プログラムが Semi-Annual チャネルにリリースされた場合 (またはテスト用にシステムがチャネルに設定されている場合は対象指定済み) または手動でプッシュされた場合でも、Microsoft Room Systems デバイスはテストされていない更新プログラムのインストールを許可されません。
+品質および遅延不可の更新プログラムとは異なり、Windows 10 "機能更新プログラム" (メジャー OS リリース) は、Microsoft が Microsoft Teams Rooms で特定の更新プログラム機能をテストして検証した後にのみインストールされます。 更新プログラムが Semi-Annual チャネルにリリースされた場合 (またはテスト用にシステムがチャネルに設定されている場合は対象指定済み) または手動でプッシュされた場合でも、Microsoft Room Systems デバイスはテストされていない更新プログラムのインストールを許可されません。
 
-Microsoft Teams ミーティングはハンズオフアプローチで "アウトオブボックス" 機能を提供し、Windows Update をインストールしたり、Windows Update のデバイスを自動的に再起動したりしません。 システムは更新プログラムをダウンロードし、次回の再起動がインストールされるのを待ちます。 誰かが手動で再起動しない限り、インストールは夜間の自動再起動時にのみ行います。 Windows更新はルーム内で透過的に行う必要があります。また、通常の操作が更新プログラムによって中断Windows必要があります。
+Microsoft Teams会議室はハンズオフアプローチで "一から利用できる" 機能を備えています。Windows Update をインストールしたり、Windows Update のデバイスを自動的に再起動したりしません。 システムは更新プログラムをダウンロードし、次回の再起動がインストールされるのを待ちます。 誰かが手動で再起動しない限り、インストールは夜間の自動再起動時にのみ行います。 Windows更新はルーム内で透過的に行う必要があります。また、通常の操作が更新プログラムによって中断Windows必要があります。
 
 ドメイン参加デバイスを選択する場合は、Microsoft Endpoint Configuration Manager または WSUS を使用します。 営業時間内にデバイスの更新または強制再起動が発生するポリシーまたはアクションに特に注意してください。 デプロイ内のシステムは、使用中に再起動したり、使用時間中に UI Windows 更新プログラムに関するアラートを送信したりし、その動作が発生した場合は構成を確認してください。

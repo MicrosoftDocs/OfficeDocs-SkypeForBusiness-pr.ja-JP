@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: ダイヤルイン会議番号がある国と地域、およびそれらの番号の自動割り当て方法について説明します。
-ms.openlocfilehash: c353fa46e271b6bdec72944565e595592e3810d1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+ms.openlocfilehash: f72a8929ae9d685642857764e7c0d4541f762ce875adafdd0a46a6de1b471483
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276133"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の電話番号
 
@@ -76,6 +76,6 @@ Microsoft Teamsが Outlook または Outlook Web App で会議をスケジュー
 - ユーザーのダイヤルイン電話番号を設定するには、「招待に含まれる電話番号を設定 [する」を参照してください](set-the-phone-numbers-included-on-invites-in-teams.md)。
 
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話会議を試用または購入するには、Microsoft 365またはOffice 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

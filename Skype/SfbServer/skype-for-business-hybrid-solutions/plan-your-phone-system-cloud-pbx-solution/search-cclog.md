@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
-description: Search-CcLog コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンス ログ ディレクトリで着信および発信の通話ログを検索します。
-ms.openlocfilehash: a512d715f1640184217ce07e0b666954a6541fd2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このSearch-CcLogコマンドレットは、アプライアンス ログ ディレクトリ内の着信および発信Skype for Business クラウド コネクタ エディションを検索します。
+ms.openlocfilehash: 5fd062295ac9145660ca9a53f56973f77783cd9730993d958c7348b7761c4387
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306608"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
-Search-CcLog コマンドレットは、Skype for Business Cloud Connector エディションのアプライアンス ログ ディレクトリで着信および発信の通話ログを検索します。
+このSearch-CcLogコマンドレットは、アプライアンス ログ ディレクトリ内の着信および発信Skype for Business クラウド コネクタ エディションを検索します。
   
 ```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
@@ -33,7 +33,7 @@ Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <str
 
 ### <a name="example-1"></a>例 1
 
-次の例では、既定のファイル名を使用して、アプライアンス ログ ディレクトリで着信および発信の通話ログを検索します。
+次の使用例は、既定のファイル名を使用して、アプライアンス ログ ディレクトリ内の着信および発信通話ログを検索します。
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
@@ -41,7 +41,7 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 
 ### <a name="example-2"></a>例 2
 
-次の例では、所定のファイル パスと名前を使用して着信および発信の通話ログを検索します。
+次の使用例は、指定されたファイル パスと名前を使用して着信および発信通話ログを検索します。
   
 ```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
@@ -55,16 +55,16 @@ Search-CsClsLogging コマンドレットは、集中ログ サービスが生�
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-|StartTime  <br/> | 必須 <br/> |System.Datetime  <br/> | 検索対象のログ エントリの開始日時です。現地のタイム ゾーンで指定します。 <br/> |
-|EndTime  <br/> |必須  <br/> |System.Datetime  <br/> |検索対象のログ エントリの終了日時です。現地のタイム ゾーンで指定します。  <br/> |
+|StartTime  <br/> | 必須 <br/> |System.Datetime  <br/> | 検索対象のログ エントリの開始日時です。 現地のタイム ゾーンで指定します。 <br/> |
+|EndTime  <br/> |必須  <br/> |System.Datetime  <br/> |検索対象のログ エントリの終了日時です。 現地のタイム ゾーンで指定します。  <br/> |
 |FileName  <br/> |必須  <br/> |System.String  <br/> |検索結果を含むテキスト ファイルの完全なパスを指定します。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Search-CcLog コマンドレットはパイプライン入力を受け入れません。
+なし。 このSearch-CcLogは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

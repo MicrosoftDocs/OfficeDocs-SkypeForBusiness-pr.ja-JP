@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: チーム メンバーをチャネルのモデレーターとして追加する方法を含む、Microsoft Teams でモデレート用にチャネルを設定する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81e5159cf0e64a4c5b88afea51de528c299daf80
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: c0aa2035a23a82d0a73009c379b99d34e9ccf7ff1b1b3dd0806dd7d6d0afcdf7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304849"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
 
@@ -54,7 +54,7 @@ ms.locfileid: "51948643"
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Teams for Education におけるクラス ディスカッション用にチャネルを使用する
 
-Teamsでは、サイエンス教師はチャネルを使用して、特定の教室のトピックに焦点を当てたディスカッションに学生を参加したいと考えました。
+このMicrosoft Teams for Education、サイエンス教師はチャネルを使用して、特定の教室のトピックに焦点を当てたディスカッションに学生を参加したいと思っています。
 
 このシナリオでは、教師は、補助教員がチャネルをモデレートすることを許可します。 次に、補助教員は、新しい投稿を作成し、学生とのディスカッションを開始して促進できます。
 

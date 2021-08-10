@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: ポート注文の概要と、サービス プロバイダーからサービス プロバイダーに電話番号を転送する方法Teams。
-ms.openlocfilehash: f30bdc825caf7feadbb09bd4bbe65a4d5771a6a6
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: a0d8884df95e153544e5d0108af8b23af7e464d59480350c7422bfdfdbb6e113
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276123"
 ---
 # <a name="whats-a-port-order"></a>番号移行注文について
 
@@ -171,7 +171,7 @@ ms.locfileid: "53278650"
 
 - サービスが有効になっていることを確認してください。 アカウントを凍結すると、アカウント上で携帯電話会社を変更できません。 アカウントを変更する権限を持つユーザーは、凍結を削除するために、現在の運送業者に注文を送信する必要があります。 このプロセスは、運送業者によっては 1 ~ 3 週間かかる場合があります。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文の状況](port-order-status.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

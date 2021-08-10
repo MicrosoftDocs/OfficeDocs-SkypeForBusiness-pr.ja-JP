@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: この記事では、各パネルでサポートされる機能と機能の概要Microsoft Teamsします。
-ms.openlocfilehash: 5588448bfbde95747c7f02f150deae24de51f55a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fcb482303eb82990936ee090be6d8d78146f57c1f9ba78f967803bd3f37a599b
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102143"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591121"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams パネル
 
@@ -36,7 +36,7 @@ Teamsパネルは、Microsoft Teams 365 カレンダー アプリケーション
 Teamsは、次の機能をサポートします。
 
 - **会議スペースと会議の詳細の専用表示。** 場所や空き時間情報など、会議スペースに関する詳細が一目でわかります。 予約された会議スペースでは、会議のタイトル、会議のスケジュール、会議の開催者などの主要な会議の詳細を確認できます。
-- **臨時の会議に使用できる会議スペースを予約します。** タッチスクリーン パネルを使用すると、その場で臨時会議用に利用可能な会議スペースを予約し、その Teams 会議に、会議室の Microsoft Teams ミーティング デバイスまたは Surface Hub デバイスから参加できます。
+- **臨時の会議に使用できる会議スペースを予約します。** タッチスクリーン パネルを使用すると、臨時の会議の場で利用可能な会議スペースを予約し、会議室または Surface Hub Microsoft Teams デバイスからその Teams 会議に参加できます。
 - **空き領域の状態を示す色分けされたインジケーター。** 鮮やかな LED とホーム画面インジケーターを使用して、会議スペースの空き時間情報を確認できます。 [緑] は会議スペースが利用可能な状態を示し、必要に応じてパネル自体から予約できます。 赤または紫は、会議スペースが予約済みかどうかを示します。
 - **壁紙と予約状態インジケーターをカスタマイズします。** 管理者は、設定を使用してパネルの既定の外観を変更できます。 たとえば、管理者は背景の壁紙を変更したり、ビジー状態インジケーターの色を変更したりすることができます。
 - **アクセシビリティ。** Teamsパネルには、ハイ コントラスト テキストなど、ユーザーが簡単に使用できるアクセシビリティ機能があります。
@@ -48,7 +48,7 @@ Teamsは、次の機能をサポートします。
 次のいずれかのパートナー Teamsパネル デバイスを取得できます。
 
 - クレスロン
-- (近日公開予定)Yealink
+- Yealink
 
 ## <a name="teams-panels-requirements"></a>Teamsパネルの要件
 
@@ -56,10 +56,10 @@ Teamsは、次の機能をサポートします。
 
 ## <a name="license-requirement"></a>ライセンス要件
 
-このパネルTeamsするには、Standard License [Microsoft Teams ミーティング必要があります](../rooms/rooms-licensing.md)。
+パネルをTeamsするには、Rooms Standard License [Microsoft Teamsが必要です](../rooms/rooms-licensing.md)。
 
 > [!Note]
-> Teams パネルをインストールする会議スペースに Microsoft Teams ミーティング を既に展開している場合は、Teams パネルを使用するために追加のライセンスは必要ない。
+> Teams パネルをインストールする会議スペースに Microsoft Teams 会議室が既に展開されている場合は、Teams パネルを使用するために追加のライセンスは必要ない。
 
 ## <a name="deploy-teams-panels-devices"></a>パネル Teamsをデプロイする
 
@@ -105,13 +105,13 @@ Teams パネルを展開する対象の会議スペースの数に基づいて�
 
 すべてのTeams パネル デバイスには、Microsoft 365 のリソース アカウントが必要です。 リソース アカウントの資格情報を使用して、パネル デバイスMicrosoft Teamsアプリにサインインします。
 
-各パネルにMicrosoft 365リソース アカウントをTeamsするには、Standard ライセンス を購入Microsoft Teams ミーティング[勧めします](#license-requirement)。 リソース アカウントを作成し、そのアカウントにライセンスを割り当てる方法については、「管理センターを使用してリソース アカウントを作成する[Microsoft 365参照してください](resource-account-ui.md)。
+Teams パネル用に Microsoft 365 リソース アカウントを設定するには、Microsoft Teams Rooms Standard ライセンス[を購入Microsoft Teamsをお勧めします](#license-requirement)。 リソース アカウントを作成し、そのアカウントにライセンスを割り当てる方法については、「リソース アカウントを使用してリソース アカウントを作成する」を[Microsoft 365 管理センター。](resource-account-ui.md)
 
 > [!NOTE]
 >
->- パネルをインストールする会議スペース用に会議室リソース アカウントが既に設定されている場合は、同じ会議室リソース アカウントを使用してパネル デバイスにサインインします。 ただし、パネル リソース アカウントとして使用するには、Microsoft Teams ミーティング Standard ライセンスがルーム リソース アカウントに割り当てられている必要があります。
+>- パネルをインストールする会議スペース用に会議室リソース アカウントが既に設定されている場合は、同じ会議室リソース アカウントを使用してパネル デバイスにサインインします。 ただし、会議室リソース アカウントをパネル リソース アカウントとして使用するには、Microsoft Teams Rooms Standard ライセンスが割り当てられている必要があります。
 >
->- Teams パネルをインストールする会議スペースに Microsoft Teams ミーティング が既に展開されている場合は、パネルを展開するために別のライセンスを購入する必要があります。 管理者は、同じ領域に対して同じ資格情報を使用してMicrosoft Teams ミーティングデバイスにサインインします。
+>- Teams パネルをインストールする会議スペースに Microsoft Teams 会議室が既に展開されている場合は、パネルを展開するために別のライセンスを購入する必要があります。 管理者は、同じスペースの会議室と同じ資格情報Microsoft Teamsパネル デバイスにサインインします。
 >
 >- ボード ルームや会議室などの大規模な会議スペースに複数の入口がある場合は、各入口に 1 つのパネル デバイスをマウントできます。 1 つの会議スペースに属する複数のパネルが同じリソース アカウントを共有し、同じ資格情報でサインインします。 同じ領域のパネルごとに個別のリソース アカウントを作成する必要はありません。
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 次の表を使用して、アイルランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 4050ea64677bad9f6481025feea52a8b593b4fa6
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: ed4496cfc8f1a5882d2126cb1f9bc3225bae0e03bb1b770849bd8862221775a9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510008"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306359"
 ---
 # <a name="phone-number-management-for-ireland"></a>アイルランドでの電話番号の管理
 
@@ -39,7 +39,7 @@ ms.locfileid: "53510008"
 |転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[アイルランドの承認状 (LOA) (すべての番号) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 <br/> |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
 
 ## <a name="related-topics"></a>関連項目
 

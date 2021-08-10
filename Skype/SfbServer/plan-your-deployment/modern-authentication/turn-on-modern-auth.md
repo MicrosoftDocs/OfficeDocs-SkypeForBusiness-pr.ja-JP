@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: この記事では、管理者がビジネスの内部および外部で使用される認証方法の制御を管理者に提供するコマンドレットの概要を説明します。 管理者は、認証方法を内部的または外部的にネットワークに対してオンまたはオフにできます。
-ms.openlocfilehash: 3d7217167f7e72c4db0ec438fb20d746cd612cc2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c9d4cce512ebb296cb442c6a78482f19bf7062aaceb8fe8704cbca3c277e4e92
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116055"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306878"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>従来の認証方法をネットワークに対して内部および外部でオフにする計画。
 
@@ -30,13 +30,13 @@ ms.locfileid: "51116055"
   
 最新の認証では、Two-Factor Auth や証明書ベースの認証など、より安全な認証方法を有効にできるので、ユーザー名やパスワードを必要とせずにユーザーの承認を実行できます。 これは非常に便利です。
 
-この記事では、Skype for Business Servers でサービス拒否 (DOS) 攻撃で悪用された穴を、認証、外部、内部、または両方で使用される古い方法をネットワークにオフにすることで、プラグインするのに役立ちます。 たとえば、DOS 攻撃を停止するのに役立つ方法の 1 つは、Windows 統合認証 (NTLM と Kerberos を含む) をオフにすることです。 NTLM を外部でオフにし、証明書ベースの認証に依存すると、パスワードが露出から保護されます。 これは、NTLM がパスワード資格情報を使用してユーザーを認証するが、証明書ベースの認証 (モダン認証で有効) が有効になっていないためです。 つまり、DOS 攻撃を減らす理想的な方法の 1 つは、NTLM を外部でブロックし、代わりに証明書ベースの認証のみを使用する方法です。
+この記事では、Skype for Business サーバーに対するサービス拒否 (DOS) 攻撃で悪用された穴を、認証、外部、内部、または両方で使用される古い方法をネットワークにオフにすることで、プラグインするのに役立ちます。 たとえば、DOS 攻撃を停止する方法の 1 つは、統合認証 (NTLM と Kerberos を含む) Windowsをオフにすることです。 NTLM を外部でオフにし、証明書ベースの認証に依存すると、パスワードが露出から保護されます。 これは、NTLM がパスワード資格情報を使用してユーザーを認証するが、証明書ベースの認証 (モダン認証で有効) が有効になっていないためです。 つまり、DOS 攻撃を減らす理想的な方法の 1 つは、NTLM を外部でブロックし、代わりに証明書ベースの認証のみを使用する方法です。
 
 よし、始めましょう。
 
 ## <a name="what-would-you-be-changing"></a>何を変更しますか? 
 
-これらのコマンドレットは、SIP と Web サービスの両方のアクセス ポイントで機能します。 これら 2 つのチャネルは、NTLM と Kerberos から匿名アクセスまでの色域を実行する異なるアクセス方法を使用しますが、Skype for Business で使用される標準メソッドはすべて考慮されています。
+これらのコマンドレットは、SIP と Web サービスの両方のアクセス ポイントで機能します。 これら 2 つのチャネルでは、NTLM と Kerberos から匿名アクセスまでの色域を実行する異なるアクセス方法を使用しますが、Skype for Business によって使用される標準メソッドはすべて考慮されています。
 
 ## <a name="how-to-get-the-get--and-set-csauthconfig-cmdlets"></a>Get-and Set-CsAuthConfigコマンドレットを取得する方法
 
@@ -47,18 +47,18 @@ ms.locfileid: "51116055"
 これらのトポロジは、このシナリオに関連するサポートされているトポロジです。 たとえば、メソッドのブロックに関するヘルプのサポートに移動する必要がある場合は、以下の種類の間で構成する必要があります。 
 
 > [!IMPORTANT]
-> 以下の表と説明では、モダン認証は"Windows 統合認証"と省略されMA *Windows 統合* 認証は Win と省略 __されます__。 Windows 統合認証は、NTLM 認証と Kerberos 認証の 2 つの方法で構成されています。 テーブルを正しく読み取るには、これを知る必要があります。
+> 以下の表と説明では、モダン認証は MA と省略され、Windows認証はWin と省略 __されます__。 注意点として、Windows統合認証は、NTLM 認証と Kerberos 認証の 2 つの方法で構成されます。 テーブルを正しく読み取るには、これを知る必要があります。
 
 
 |       |外部的  |内部的に  |パラメーター  |
 |---------|:---------|:---------|---------|
-|__タイプ 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
-|__タイプ 2__   |  MA       | MA + Win         | BlockWindowsAuthExternally        |
-|__タイプ 3__   |  MA       | MA        | BlockWindowsAuthExternallyAndInternally        |
+|__種類 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
+|__種類 2__   |  MA       | MA + Win         | BlockWindowsAuthExternally        |
+|__種類 3__   |  MA       | MA        | BlockWindowsAuthExternallyAndInternally        |
 |__タイプ 4__   |  MA       | Win        | BlockWindowsAuthExternallyAndModernAuthInternally    |
 |__タイプ 5__   |  MA + Win       | Win        | BlockModernAuthInternally         |
 
-__タイプ 1 Description:__ これは、Skype for Business Server のMAが __有効になっている場合__ の既定のシナリオです。 つまり、この設定が構成されている場合のMAです。
+__タイプ 1 Description:__ これは、既定のシナリオで、MA __に対__ して有効Skype for Business Server。 つまり、この設定が構成されている場合のMAです。
 
 __タイプ 2 Description:__ このトポロジは *NTLM* を外部でブロックしますが、NTLM または Kerberos (ADAL をサポートしないクライアントの場合) は内部的に *動作します*。 クライアントが ADAL をサポートしている場合は、内部MA使用します。
 
@@ -68,13 +68,13 @@ __タイプ 4 Description:__ このトポロジでは、NTLM が外部で *ブ�
 
 __タイプ 5 説明:__ *外部* では、モダン ADAL クライアントは MA を使用し、ADAL をサポートしないクライアントはレガシ認証方法を使用します。 ただし、*内部的には、**すべてのクライアント* がレガシ認証 (すべての ADAL 対応クライアントを含む) を使用します。
 
-利用可能なオプションでパスワードを保護する目的を見失うのはかなり簡単です。 DOS 攻撃を回避するには、外部MA (たとえば、証明書ベースの認証を構成する) を使用するのが理想的な状況です。 最新のクライアントに対して内部的に活用する場合は、Skype for Business Server DOS 攻撃に関するネットワークの将来性も確認できます。
+利用可能なオプションでパスワードを保護する目的を見失うのはかなり簡単です。 DOS 攻撃を回避するには、外部MA (たとえば、証明書ベースの認証を構成する) を使用するのが理想的な状況です。 最新のクライアントに対して内部的に活用する場合は、DOS 攻撃に関するネットワークSkype for Business Serverします。
 
 ## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>グローバル レベルでSet-CsAuthConfigを使用する理由
 
 コマンドレット `Set-CsAuthConfig` は、レジストラーと Web サービスの両方の役割に対して構成を影響します。
 
-このコマンドレットは、Skype for Business サーバーのグローバル レベルで実行することを意図しています。 プール *レベル* で実行できますが、インストールに複雑さを加えるので、お勧めしません。 これらのコマンドをプール レベルで実行すると、プールに含まれるすべての役割 (Web サービスが含まれていないなど) が存在しない場合、設定はレジストラー ロールにのみ設定されます。 その場合、Web サービスはグローバル レベルの設定を続けます。これは動作が混乱する可能性があります (特にこれが意図せずに行われた場合)。
+このコマンドレットは、サーバーのグローバル レベルで実行Skype for Businessされています。 プール *レベル* で実行できますが、インストールに複雑さを加えるので、お勧めしません。 これらのコマンドをプール レベルで実行すると、プールに含まれるすべての役割 (Web サービスが含まれていないなど) が存在しない場合、設定はレジストラー ロールにのみ設定されます。 その場合、Web サービスはグローバル レベルの設定を続けます。これは動作が混乱する可能性があります (特にこれが意図せずに行われた場合)。
 
 クライアントが 1 つのプールのレジストラー設定を使用し、別のプールの Web サービス設定と認証設定が一貫性のない状態にある場合、クライアントはログオンできない可能性があります。
 
@@ -84,7 +84,7 @@ __タイプ 5 説明:__ *外部* では、モダン ADAL クライアントは M
 * プールに対してどちらの役割も存在しない場合、Set と Get- の両方がエラー メッセージを返します。
 * 両方の役割がプールに存在するが、ポリシーがプール レベルで定義されていない場合、Get- はエラー メッセージを返します。
 
-これらの値に対して Get- を実行し、変更を加える前に開始状態をスクリーンショットまたは記録する方が最も便利な場合があります。 OneNote で変更のログを保持する場合も検討できます。
+これらの値に対して Get- を実行し、変更を加える前に開始状態をスクリーンショットまたは記録する方が最も便利な場合があります。 また、変更のログを 1 つのデータベースに保持OneNote。
 
 > [!NOTE]
 > 
@@ -95,10 +95,10 @@ __タイプ 5 説明:__ *外部* では、モダン ADAL クライアントは M
 
 > [!NOTE]
 > 
-> BlockWindowsAuthExternally パラメーターを使用して NTLM を外部的にブロックする場合は、SIP チャネルの NTLM も内部的にブロックされます。 ただし、2010 より新しい Skype for Business クライアントと Lync クライアントは、サインイン、内部的に HTTP 経由で NTLM を使用し、SIP 経由でログインする証明書をフェッチするために、引き続きログインできます。 ただし、2010 より前のクライアントは、この状況では内部的にログインできないので、ユーザーがセキュリティで保護された機能を再開できるよう、これらのアプリケーションのアップグレードを検討する必要があります。
+> BlockWindowsAuthExternally パラメーターを使用して NTLM を外部的にブロックする場合は、SIP チャネルの NTLM も内部的にブロックされます。 ただし、2010 Skype for Businessより新しいクライアントと Lync クライアントは、サインイン、内部的に HTTP を使用して NTLM を使用し、SIP を使用してログインする証明書をフェッチするために、引き続きログインできます。 ただし、2010 より前のクライアントは、この状況では内部的にログインできないので、ユーザーがセキュリティで保護された機能を再開できるよう、これらのアプリケーションのアップグレードを検討する必要があります。
 
 > [!IMPORTANT] 
-> Skype for Business Web アプリケーションの中には、このアプリケーションをサポートMA。 したがって、BlockWindowsAuthExternallyAndInternally シナリオを使用すると、これらのアプリケーションにアクセスできません。 サポートをMAアプリケーションは、Web スケジューラ、ダイヤルイン ページ、Skype for Business コントロール パネル (CSCP)、および応答グループ設定ページです。 
+> 一部のSkype for Business Web アプリケーションは、この機能をMA。 したがって、BlockWindowsAuthExternallyAndInternally シナリオを使用すると、これらのアプリケーションにアクセスできません。 サポートをMAアプリケーションは、Web スケジューラ、ダイヤルイン ページ、Skype for Business コントロール パネル (CSCP)、および応答グループ 設定 ページです。 
 
 ## <a name="links"></a>リンク 
 - PowerShell の詳細については、次の情報を参照してください。
@@ -107,7 +107,7 @@ __タイプ 5 説明:__ *外部* では、モダン ADAL クライアントは M
 
 - コマンドの使用方法、またはコマンドのインストールに必要な CU の詳細については、次の手順を実行します。
     - [コマンドレットのブリーフィング](https://support.microsoft.com/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - [Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) の更新プログラム (全般)
-    - [2018 年 7 月 Skype for Business Server 2015 Core Components CU](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534)
+    - [2015 Skype for Business Serverの更新](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)プログラム (全般)
+    - [2018 年 7 Skype for Business Server 2015 年](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)コア コンポーネント CU (6.0.9319.534)
 
 

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
-description: Set-CcApplianceDirectory コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの作業ディレクトリを設定します。すべての展開ファイルはこのディレクトリに保存されます。
-ms.openlocfilehash: a410d20c41fbb0bfef88449aaac96be727218add
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このSet-CcApplianceDirectoryは、ホスト サーバー上の作業ディレクトリをSkype for Business クラウド コネクタ エディションします。 すべての展開ファイルは、このディレクトリに格納されます。
+ms.openlocfilehash: 8ca6b8b8e175058e5f19c86a9dd1c6e0cf8a43ab6ef7a439eee4e09b5430f6a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306598"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
-Set-CcApplianceDirectory コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの作業ディレクトリを設定します。すべての展開ファイルはこのディレクトリに保存されます。
+このSet-CcApplianceDirectoryは、ホスト サーバー上の作業ディレクトリをSkype for Business クラウド コネクタ エディションします。 すべての展開ファイルは、このディレクトリに格納されます。
   
 ```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
@@ -33,7 +33,7 @@ Set-CcApplianceDirectory[[-Path] <string>]
 
 ### <a name="example-1"></a>例 1
 
-次の例は、ホスト サーバーでの作業ディレクトリを c:\cloudconnector\applianceroot に設定します。
+次の使用例は、ホスト サーバー上の作業ディレクトリを c:\cloudconnector\applianceroot に設定します。
   
 ```powershell
 Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
@@ -42,14 +42,14 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ## <a name="parameters"></a>パラメーター
 <a name="Examples"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
 | Path <br/> | 必須 <br/> |System.String  <br/> | すべての展開ファイルが格納されるパスを指定します。 <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Set-CcApplianceDirectory コマンドレットはパイプライン入力を受け入れません。
+なし。 このSet-CcApplianceDirectoryは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

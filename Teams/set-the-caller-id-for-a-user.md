@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 通話回線 ID Microsoft 365既定Office 365 (ユーザーに割り当てられた電話番号) の呼び出し元 ID と呼ばれる番号について学習します。 ユーザーの発信者番号を変更またはブロックできます。
-ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
-ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
+ms.openlocfilehash: ea3d9676caf0984c19137abe286f792aacfcceca393fd4ccfeff9117edef9011
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53388652"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275953"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>ユーザーに発信者番号を設定する
 

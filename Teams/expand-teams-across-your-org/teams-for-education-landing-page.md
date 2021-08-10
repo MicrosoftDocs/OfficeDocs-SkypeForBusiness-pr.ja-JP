@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0262d50ec74bfdb2934ced0d17eb015f742a9fbc1ec2d093a2f936e91c61edd6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306479"
 ---
 # <a name="teams-for-education"></a>教育機関用 Teams
 
@@ -35,6 +35,6 @@ ms.locfileid: "51092505"
 | ------------- | ------------- |
 | ![右矢印アイコンのスクリーンショット](../media/arrow-right-2-teams.svg)  |  [クイック スタート - 教育用 Teams の管理者](../teams-quick-start-edu.yml) |
 | ![用紙と鉛筆アイコンのスクリーンショット](../media/sign-up-teams.svg) | [教育機関向けの Teams の課題 ](./assignments-in-teams.md) |
-| ![分析情報アイコンのスクリーンショット](../media/insights-teams.svg) | [Teams for Education の分析情報](../class-insights.md) |
-| ![ツールボックス アイコンのスクリーンショット](../media/toolbox.svg)  |  [Education 管理者向Teamsリソース](../resources-teams-edu.md) |
-| ![チェックリスト アイコンのスクリーンショット](../media/task-checklist-planning-teams.svg)  |  [Education 管理者向Teamsガバナンスに関する FAQ](../plan-teams-governance-edu.md) |
+| ![分析情報アイコンのスクリーンショット](../media/insights-teams.svg) | [インサイトのMicrosoft Teams for Education](../class-insights.md) |
+| ![ツールボックス アイコンのスクリーンショット](../media/toolbox.svg)  |  [管理者向Microsoft Teams for Educationリソース](../resources-teams-edu.md) |
+| ![チェックリスト アイコンのスクリーンショット](../media/task-checklist-planning-teams.svg)  |  [管理者向けガバナンスに関Microsoft Teams for Education FAQ](../plan-teams-governance-edu.md) |

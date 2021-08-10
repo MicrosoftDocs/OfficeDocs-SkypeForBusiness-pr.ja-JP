@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 国または地域、市区町会でユーザーに割り当て可能な電話番号を検索し、必要な番号の数を指定する方法を参照してください。
-ms.openlocfilehash: 3b62812829f2c8742fb9910b1997b64101fe2ff8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 732f2128be87e71c2ce4e7d1a2ff618b5bf4960d07080bf0fa23218a736e9ad7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117255"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275973"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>ユーザーの電話番号を検索する
 
@@ -71,7 +71,7 @@ ms.locfileid: "51117255"
 
 10. [電話番号] ページに **戻電話、** 割り当てる電話番号または電話番号を選択し、[編集] をクリックしてユーザーに割り当てします。  
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](./different-kinds-of-phone-numbers-used-for-calling-plans.md)

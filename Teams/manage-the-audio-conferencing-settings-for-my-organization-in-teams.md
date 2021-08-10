@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'ダイヤルイン電話会議ライセンスと会議 ID をユーザーおよびその他の多くのダイヤルイン電話会議の設定に割り当てるための Microsoft Teams での手順を確認します。 '
-ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d779a0740e5f0a8c0b305e4b441c01b628571f9ddf3292a1d92cd6c2d3ecb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276413"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の電話会議の設定を管理する
 
@@ -40,13 +40,13 @@ ms.locfileid: "51101093"
 ## <a name="assign-an-audio-conferencing-license"></a>電話会議のライセンスを割り当てる
 
 > [!NOTE]
-> Teams を使用してライセンスを割り当てることはできません。 管理センターで Microsoft 365する必要があります。 「[アドオン ライセンスMicrosoft Teams割り当てる」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+> Teams を使用してライセンスを割り当てることはできません。 次のコマンドを使用Microsoft 365 管理センター。 「[アドオン ライセンスMicrosoft Teams割り当てる」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
   
  **ユーザーにライセンスを割り当てる**
   
 1. 職場または学校のアカウントを使用して、Microsoft 365 にサインインします。
     
-2. Microsoft 365 **管理** センターの左側のナビゲーションで、[ユーザーのアクティブなユーザー ] に移動し、使用可能なユーザーの一覧からユーザー  >  またはユーザーを選択します。
+2. [ユーザー] の左側のナビゲーションMicrosoft 365 管理センター [アクティブなユーザー] に移動し、使用可能なユーザーの一覧からユーザー  >  またはユーザーを選択します。
     
     > [!NOTE]
     > 操作手順と PowerShell のサンプル スクリプトについては、「**Skype for Business と Microsoft Teams のライセンスを割り当てる**」をご覧ください。 次に [**編集**]、[**次へ**] を 2 回クリックしてからライセンスを選択し、[**送信**] をクリックします。  

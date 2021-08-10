@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Skype for Business UK 向け PSTN 通話プランの実践コード (ヘルプを受ける場所、苦情を提出して紛争を解決する方法など) について説明します。
-ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306568"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365での通話プラン - 英国の実践コード (英国)
 
@@ -44,7 +44,7 @@ Skype for Business は、「アイルランド、ダブリン 2、70 サー・�
 
 無料電話番号: 0800 032 6417
 
-オンライン: 管理センターにMicrosoft 365し、[サポート] の [新しいサービス要求] を選択して **サービス** 要求を **送信します**。
+オンライン: [サポート] の [Microsoft 365 管理センター 新しいサービス要求] を選択して、サービス要求 **にサインインし、** サービス要求を **送信します**。
 
 通常の営業時間は、月曜日から金曜日の午前 9 時から午後 5 時までです。
 
@@ -149,5 +149,5 @@ TPS と同様に、迷惑 FAX 防止サービス (「FPS」) は、企業と個�
 国営通訳サービス、個人用番号、0870 番号の料金は、弊社の [Web サイト](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)に掲載されており、通話した時刻や曜日によって変動する場合があります。0800 への通話は無料です。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

@@ -25,15 +25,15 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: ユーザーが電話から会議にコールインMicrosoft 365またはOffice 365電話会議を許可する方法について説明します。
-ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 166ec76e8f63373056f73efd647b6810818a53ca410594ca06dc2f137e6ece02
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111273"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799068"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365 の電話会議
-[電話会議] Microsoft 365 Office 365、ユーザーが自分の電話から会議にコールインできます。 電話会議では、最大 250 人の電話参加者が可能です。
+[電話会議] Microsoft 365 Office 365、ユーザーが自分の電話から会議にコールインできます。 電話会議では、最大 1,000 人の電話出席者が参加できます。
 
 ## <a name="what-is-audio-conferencing"></a>電話会議とは?
 ミーティングに電話から参加する (ダイヤルイン) ことは、外出先でラップトップやモバイル デバイスの Skype for Business または Microsoft Teams アプリを使用してミーティングに参加できないユーザーにとって便利なものです。 ただし、コンピューター上のアプリよりも電話を使用して Skype for Business または Microsoft Teams 会議に参加したほうが良い場合があります。

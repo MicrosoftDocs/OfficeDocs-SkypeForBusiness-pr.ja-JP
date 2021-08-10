@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを公正できます。 '
-ms.openlocfilehash: 163f214b05ba0dca3bc7dd4ec722f148cafe724e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 449901d771a1ac473a4e183b44edd270cad4542473abf7ad06b1bb9a9ebad1f8
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096683"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591091"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域のリンクの設定
 
@@ -24,42 +24,38 @@ ms.locfileid: "51096683"
 
 ## <a name="view-network-region-link-information"></a>ネットワーク地域のリンク情報を表示する 
 
-通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを表示できます。 ネットワーク内の地域は、物理的なワイド エリア ネットワーク (WAN) 接続を経由してリンクされます。 Skype for Business Server コントロール パネルを使用して、2 つのネットワーク領域間の既存のリンクを表示できます。 
+通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを表示できます。 ネットワーク内の地域は、物理的なワイド エリア ネットワーク (WAN) 接続を経由してリンクされます。 [コントロール パネル] Skype for Business Serverを使用して、2 つのネットワーク領域間の既存のリンクを表示できます。 
 
 
-### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルでネットワーク地域リンクを表示するには
+### <a name="to-view-a-network-region-link-in-skype-for-business-server-control-panel"></a>[コントロール パネル] でネットワーク地域リンクSkype for Business Serverするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域リンク] **をクリックします**。
 
 4.  [**地域リンク**] ページで、表示する地域リンクをクリックします。
     
-    > [!NOTE]  
+    > [!NOTE]
     > 一度に情報を表示できる地域リンクは 1 つだけです。
 
 5.  [**編集**] メニューの [**詳細の表示**] を選択します。
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>ネットワーク地域のリンク情報を表示するには、Windows PowerShellコマンドレットを使用します。
 
-ネットワーク地域のリンクは、ユーザー設定Windows PowerShell **Get-CsNetworkRegionLink コマンドレットを使用して表示** できます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 
+ネットワーク領域のリンクは、ユーザー設定Windows PowerShell **Get-CsNetworkRegionLink コマンドレットを使用して表示** できます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 
 
 
 ### <a name="to-view-network-region-link-information"></a>ネットワーク地域リンク情報を表示するには
 
-  - すべてのネットワーク地域リンクに関する情報を表示するには、Skype for Business Server 管理シェルに次のコマンドを入力し、Enter キーを押します。
+  - すべてのネットワーク地域リンクに関する情報を表示するには、次のコマンドを [管理シェル] Skype for Business Server入力し、Enter キーを押します。
     
-        Get-CsNetworkRegionLink
+    **Get-CsNetworkRegionLink**
     
     このコマンドは、次のような情報を返します。
     
-        Identity            : NorthwestToCalifornia
-        BWPolicyProfileID   :
-        NetworkRegionLinkID : NorthwestToCalifornia
-        NetworkRegionID1    : Pacific Northwest
-        NetworkRegionID2    : California
+       Identity : NorthwestToCalifornia BWPolicyProfileID : NetworkRegionLinkID : NorthwestToCalifornia NetworkRegionID1 : Pacific Northwest NetworkRegionID2 : California
 
 
 詳細については、「[Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink)」を参照してください。
@@ -67,13 +63,13 @@ ms.locfileid: "51096683"
 
 ## <a name="configure-network-region-links"></a>ネットワーク地域リンクの構成 
 
-通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを公正できます。 ネットワーク内の地域は、物理的なワイド エリア ネットワーク (WAN) 接続を経由してリンクされます。 Skype for Business Server コントロール パネルを使用して、2 つのネットワーク領域間のリンクを定義し、これらの地域間のオーディオ接続とビデオ接続の帯域幅制限を設定できます。
+通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを公正できます。 ネットワーク内の地域は、物理的なワイド エリア ネットワーク (WAN) 接続を経由してリンクされます。 Skype for Business Serverコントロール パネルを使用して、2 つのネットワーク領域間のリンクを定義し、これらの領域間のオーディオ接続とビデオ接続の帯域幅制限を設定できます。
 
 ### <a name="to-create-a-network-region-link"></a>ネットワーク地域リンクを作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域リンク] **をクリックします**。
 
@@ -82,7 +78,7 @@ ms.locfileid: "51096683"
 5.  [ **新しい地域リンク]** で、[名前] フィールドに値 **を入力** します。
  
     > [!NOTE]  
-    > この値は、Skype for Business Server 展開内で一意である必要があります。
+    > この値は、展開内で一意Skype for Business Server必要があります。
 
 6.  [ネットワーク **領域 \# 1]** ドロップダウン リストから、リンクする 2 つの領域のいずれかを選択します。
 
@@ -96,7 +92,7 @@ ms.locfileid: "51096683"
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域リンク] **をクリックします**。
 
@@ -111,13 +107,13 @@ ms.locfileid: "51096683"
 
 ## <a name="delete-network-region-links"></a>ネットワーク地域リンクの削除
 
-通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを公正できます。 ネットワーク内の地域は、物理的なワイド エリア ネットワーク (WAN) 接続を経由してリンクされます。 Skype for Business Server コントロール パネルを使用して、2 つのネットワーク領域間の既存のリンクを削除できます。 
+通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを公正できます。 ネットワーク内の地域は、物理的なワイド エリア ネットワーク (WAN) 接続を経由してリンクされます。 [コントロール パネル] Skype for Business Serverを使用して、2 つのネットワーク領域間の既存のリンクを削除できます。 
 
 ### <a name="to-delete-a-network-region-link"></a>ネットワーク地域リンクを削除するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域リンク] **をクリックします**。
 

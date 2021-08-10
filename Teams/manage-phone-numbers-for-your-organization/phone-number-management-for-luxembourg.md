@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ルクセンブルクで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 180b5b7717ee072f38d4f845fb5ef409fc26f146
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: afbd9583b95451114bbf3384d33ec112c157928588cba0d24e7dd227b81c45d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509978"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276423"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>電話の番号管理
 
@@ -41,7 +41,7 @@ ms.locfileid: "53509978"
 |転送された電話番号を取得します。| このフォームをダウンロードします。 <br/>[ルクセンブルクの承認状 (LOA) (すべての数値) (v.1.0) (en-lu)](https://download.microsoft.com/download/5/d/e/5dec4f65-c5a9-4dae-a576-56c737f739d2/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.1)-(en-lu).pdf) <br/> <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、移行に 2 ~ 3 週間かかる場合があります。<br/><br/>現時点では、これらの番号を会議に使用できません。    |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[発行/発行を取り消](contact-pstn-service-desk.md) す電話番号の一覧の手順については、PTSN にお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
 |顧客を知る|フォーム|
    
 ## <a name="related-topics"></a>関連項目

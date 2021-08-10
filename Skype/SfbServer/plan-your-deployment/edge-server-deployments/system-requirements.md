@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のエッジ サーバーのシステム要件
+title: エッジ サーバーのシステム要件 (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
-description: '概要: Skype for Business Server のエッジ サーバーのシステム要件について説明します。'
-ms.openlocfilehash: d5003a265a53c3603892133077a961f54c974401
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: エッジ サーバーのシステム要件について説明します。Skype for Business Server。'
+ms.openlocfilehash: dc1541604a4a26c9af3c184282648ef2f96469fa4346a6b6cc379eed2f5f023f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306978"
 ---
-# <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Skype for Business Server のエッジ サーバーのシステム要件
+# <a name="edge-server-system-requirements-in-skype-for-business-server"></a>エッジ サーバーのシステム要件 (Skype for Business Server
  
-**概要:** Skype for Business Server のエッジ サーバーのシステム要件について説明します。
+**概要:** エッジ サーバーのシステム要件について説明します。Skype for Business Server。
   
-Skype for Business Server Edge Server の展開に関しては、環境自体にあるサーバーまたはサーバーに対して行う必要があるだけでなく、環境構造を計画する必要があります。 トポロジ、DNS、証明書、その他のインフラストラクチャに関する懸念事項の詳細については、環境要件のドキュメントを参照してください。
+Skype for Business Server Edge Server の展開に関しては、環境自体にあるサーバーまたはサーバーに対して行う必要があるだけでなく、環境構造の計画も含まれます。 トポロジ、DNS、証明書、その他のインフラストラクチャに関する懸念事項の詳細については、環境要件のドキュメントを参照してください。
   
 ## <a name="components"></a>コンポーネント
 
-エッジ サーバー環境について説明する場合、大部分は境界ネットワークに展開されているコンポーネントを参照しています (つまり、ワークグループまたは Skype for Business Server ドメイン構造の外部にあるドメインです)。
+エッジ サーバー環境について説明する場合、大部分は境界ネットワークに展開されているコンポーネントを参照しています (つまり、ワークグループまたは Skype for Business Server ドメイン構造の外部にあるドメインのいずれかです)。
   
 これらのコンポーネントは、Edge を正常に展開するために注意する必要があるコンポーネントです。
   
@@ -50,28 +50,28 @@ Skype for Business Server Edge Server の展開に関しては、環境自体に
 ### <a name="edge-servers"></a>エッジ サーバー
 <a name="EdgeServers"> </a>
 
-これらは、境界環境に展開されている Skype for Business サーバーです。 その役割は、内部 Skype for Business Server 展開によって提供されるサービスの外部ユーザーに対してネットワーク トラフィックを送受信する役割です。 これを正常に行うには、各エッジ サーバーが実行されます。
+これらは、境界Skype for Business展開されているサーバーの一部です。 その役割は、内部ネットワーク展開によって提供されるサービスのネットワーク トラフィックを外部ユーザーに送受信Skype for Business Serverです。 これを正常に行うには、各エッジ サーバーが実行されます。
   
 - **Access Edge Service**: 送信セッション開始プロトコル (SIP) トラフィックと受信セッション開始プロトコル (SIP) トラフィックの両方に 1 つの信頼できる接続ポイントを提供します。
     
-- **Web 会議エッジ サービス**: 外部ユーザーが、内部の Skype for Business Server 環境でホストされている会議に参加できます。
+- **Web 会議エッジ サービス**: 外部ユーザーが内部会議環境でホストされている会議に参加Skype for Business Serverします。
     
 - **音声ビデオ エッジ サービス**: 音声、ビデオ、アプリケーション共有、およびファイル転送を外部ユーザーが利用できます。
     
 - **XMPP プロキシ サービス**: 構成済みの XMPP フェデレーション パートナーとの間で、拡張可能なメッセージングおよびプレゼンス プロトコル (XMPP) メッセージを受け入れて送信します。
     
-承認された外部ユーザーは、エッジ サーバーを使用して内部 Skype for Business Server 展開に接続できますが、それ以外の場合は、内部ネットワークへのその他のアクセス権を誰にも提供しません。
+承認された外部ユーザーは、エッジ サーバーを使用して内部 Skype for Business Server 展開に接続できますが、それ以外の場合は、内部ネットワークへの他のアクセス権を誰にも提供しません。
   
 > [!NOTE]
-> エッジ サーバーは、有効な Skype for Business クライアントおよび他のエッジ サーバー (フェデレーション シナリオ) の接続を提供するために展開されます。 他のエンド ポイント クライアントまたはサーバーの種類から接続できません。 XMPP ゲートウェイ サーバーは、構成済みの XMPP パートナーとの接続を許可できます。 しかし、繰り返しますが、これらは動作する唯一のクライアントとフェデレーションの種類です。 
+> エッジ サーバーは、有効なクライアントおよび他のエッジ Skype for Business (フェデレーション シナリオ) の接続を提供するために展開されます。 他のエンド ポイント クライアントまたはサーバーの種類から接続できません。 XMPP ゲートウェイ サーバーは、構成済みの XMPP パートナーとの接続を許可できます。 しかし、繰り返しますが、これらは動作する唯一のクライアントとフェデレーションの種類です。 
 
 > [!NOTE]
-> XMPP ゲートウェイとプロキシは、Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 詳細 [については、「XMPP フェデレーションの移行](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 」を参照してください。
+> XMPP ゲートウェイとプロキシは 2015 年Skype for Business Server使用できますが、2019 年Skype for Business Serverではサポートされていません。 詳細 [については、「XMPP フェデレーションの移行](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 」を参照してください。
   
 ### <a name="reverse-proxies"></a>リバース プロキシ
 <a name="ReverseProxies"> </a>
 
-リバース プロキシ (RP) サーバーには Skype for Business Server の役割は含めませんが、エッジ サーバー展開の重要なコンポーネントです。 リバース プロキシを使用すると、外部ユーザーは次の機能を使用できます。
+リバース プロキシ (RP) サーバーは、Skype for Business Server役割を持たませんが、エッジ サーバーの展開に不可欠なコンポーネントです。 リバース プロキシを使用すると、外部ユーザーは次の機能を使用できます。
   
 - 簡単な URL を使用して会議やダイヤルイン会議に接続できます。
     
@@ -89,9 +89,9 @@ Skype for Business Server Edge Server の展開に関しては、環境自体に
   
 - これにより、モビリティ サービスを提供するフロントエンド サーバーを自動的に検出できます。
     
-- Microsoft 365 または 365 からモバイル Officeプッシュ通知を有効にします。
+- モバイル デバイスへのプッシュ通知Microsoft 365またはOffice 365を有効にします。
     
-現在のリバース プロキシの推奨事項は、[Skype for Business のテレフォニー [インフラストラクチャ] ページで確認](../../../SfbPartnerCertification/certification/infra-gateways.md) できます。 そのため、リバース プロキシは次の条件を使用します。
+現在のリバース プロキシに関する推奨事項は、[テレフォニー インフラストラクチャ] ページ[Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md)参照してください。 そのため、リバース プロキシは次の条件を使用します。
   
 - パブリック証明書を介して環境に導入されたトランスポート層セキュリティ (TLS) を使用して、次の公開された外部 Web サービスに接続できる必要があります。
     
@@ -129,24 +129,24 @@ Skype for Business Server Edge Server の展開に関しては、環境自体に
 ### <a name="directors"></a>ディレクター
 <a name="Directors"> </a>
 
-これはオプションの役割です。 これは、単一のサーバーまたはディレクターの役割を実行するサーバーのプールです。 これは、内部の Skype for Business Server 環境で見つかった役割です。
+これはオプションの役割です。 これは、単一のサーバーまたはディレクターの役割を実行するサーバーのプールです。 これは、内部環境で見つかった役割Skype for Business Serverです。
   
-ディレクターは、Skype for Business Server 内部サーバー宛てのエッジ サーバーから受信 SIP トラフィックを受信する内部ネクスト ホップ サーバーです。 受信要求を事前認証し、ユーザーのホーム プールまたはサーバーにリダイレクトします。 この事前認証を使用すると、未確認のユーザー アカウント要求を削除できます。
+ディレクターは、内部の次ホップ サーバーで、エッジ サーバーから受信 SIP トラフィックを受信し、内部サーバー Skype for Business Serverします。 受信要求を事前認証し、ユーザーのホーム プールまたはサーバーにリダイレクトします。 この事前認証を使用すると、未確認のユーザー アカウント要求を削除できます。
   
-なぜそれが重要なのでしょうか? ディレクターにとって重要な機能は、サービス拒否 (DoS) 攻撃などの悪意のあるトラフィックから Standard Edition サーバーとフロントエンド サーバーまたはフロントエンド プールを保護する機能です。 ネットワークに無効な外部トラフィックが殺到した場合、トラフィックはディレクターで停止します。
+なぜそれが重要なのでしょうか? ディレクターにとって重要な機能は、Standard Edition サーバーやフロントエンド サーバー、またはフロント エンド プールを、サービス拒否 (DoS) 攻撃などの悪意のあるトラフィックから保護する方法です。 ネットワークに無効な外部トラフィックが殺到した場合、トラフィックはディレクターで停止します。
   
 ### <a name="load-balancers"></a>ロード バランサー
 <a name="LoadBalancers"> </a>
 
-Skype for Business Server の拡張統合エッジ トポロジは、新しい展開の DNS 負荷分散用に最適化され、これをお勧めします。 高可用性が必要な場合は、特定の状況に応じてハードウェア ロード バランサーを使用することをお勧めします。
+拡張Skype for Business Serverエッジ トポロジは、新しい展開の DNS 負荷分散用に最適化され、これをお勧めします。 高可用性が必要な場合は、特定の状況に応じてハードウェア ロード バランサーを使用することをお勧めします。
   
-- Exchange 2013 より前の Exchange **UM** を使用するリモート ユーザーの Exchange UM。
+- Exchange2013 年より前に Exchange UM を **使用** しているリモート ユーザー Exchange UM。
     
 > [!IMPORTANT]
-> ロード バランサーを混在できない点に注意してください。 Skype for Business Server 環境では、すべてのインターフェイスで DNS または HLB を使用する必要があります。 
+> ロード バランサーを混在できない点に注意してください。 この環境Skype for Business Serverすべてのインターフェイスで DNS または HLB を使用する必要があります。 
   
 > [!NOTE]
-> Skype for Business Server では、ダイレクト サーバーリターン (DSR) NAT はサポートされていません。 
+> サーバーの直接戻り値 (DSR) NAT は、サーバーのSkype for Business Server。 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>A/V Edge サービスを実行するエッジ サーバーエッジ サーバーのハードウェア ロード バランサー要件
 
@@ -164,7 +164,7 @@ A/V Edge サービスを実行しているエッジ サーバーの要件は次�
     
 #### <a name="hlb-requirements"></a>HLB の要件
 
-Skype for Business Server には、Cookie ベースのアフィニティ要件が多く存在しません。 そのため、Skype for Business Server 環境で Lync Server 2010 フロントエンド サーバーまたはフロント エンド プールを使用する場合を超え、Cookie ベースの永続性を使用する必要はありません **(これは** Skype for Business Server 2015 固有の場合)。 Lync Server 2010 に推奨される構成方法では、Cookie ベースのアフィニティが必要になります。
+Skype for Business Server、Cookie ベースのアフィニティ要件が多くはない。 そのため、Skype for Business Server 環境で Lync Server 2010 フロントエンド サーバーまたはフロントエンド プールを使用する場合を超え、cookie ベースの永続性を使用する必要はありません **(これは** Skype for Business Server 2015 固有です)。 Lync Server 2010 に推奨される構成方法では、Cookie ベースのアフィニティが必要になります。
   
 > [!NOTE]
 > HLB に対して Cookie ベースのアフィニティを有効にした場合、環境に必要ない場合でも問題はありません。 
@@ -186,7 +186,7 @@ Cookie ベースのアフィニティ **が** 必要な展開の場合は、次�
 - 同じ TCP接続の以前の HTTP 応答が Cookie を取得したかどうかに関係なく、受信 HTTP 要求に Cookie が含めなかった HTTP 応答ごとに、ハードウェア ロード バランサー Cookie を設定する必要があります。 ハードウェア ロード バランサーが Cookie 挿入を TCP 接続ごとに 1 回だけ最適化する場合は、その最適化 **を使用** する必要があります。
     
 > [!NOTE]
-> HLB 構成では、ソース アフィニティと 20 分間の TCP セッションの有効期間を使用するのが一般的です。これは、クライアントの使用状況やアプリケーションの操作によってセッション状態が維持されるので、Skype for Business Server とそのクライアントでは問題ありません。 
+> HLB 構成では、ソース アフィニティと 20 分間の TCP セッションの有効期間を使用するのが一般的です。これは、クライアントの使用状況やアプリケーションの操作によってセッションの状態が維持されるので、Skype for Business Server とそのクライアントでは問題ありません。 
   
 モバイル デバイスを展開する場合、HLB は TCP セッション内で個々の要求を負荷分散できる必要があります (実際には、ターゲット IP アドレスに基づいて個々の要求を負荷分散できる必要があります)。
   
@@ -195,7 +195,7 @@ Cookie ベースのアフィニティ **が** 必要な展開の場合は、次�
   
 (省略可能) ディレクターおよび (必須) フロントエンド プール Web サービスの HLB 要件を次に示します。
   
-- 内部 Web サービスの VIP については、HLB Source_addr永続性 (内部ポート 80,443) を設定します。 Skype for Business Server の場合、Source_addrは、セッション状態を維持するために、1 つの IP アドレスから送信される複数の接続が常に 1 つのサーバーに送信されます。
+- 内部 Web サービスの VIP については、HLB Source_addr永続性 (内部ポート 80,443) を設定します。 このSkype for Business Server、Source_addrは、セッション状態を維持するために、1 つの IP アドレスから送信される複数の接続が常に 1 つのサーバーに送信されるという意味です。
     
 - 1800 秒の TCP アイドル タイムアウトを使用します。
     
@@ -205,9 +205,9 @@ Cookie ベースのアフィニティ **が** 必要な展開の場合は、次�
 
 |**クライアント/ユーザーの場所**|**外部 Web サービスの FQDN のアフィニティ要件**|**内部 Web サービス FQSN アフィニティ要件**|
 |:-----|:-----|:-----|
-|Skype for Business Web App (内部ユーザーと外部ユーザー)  <br/> モバイル デバイス (内部ユーザーと外部ユーザー)  <br/> |アフィニティなし  <br/> |送信元アドレスのアフィニティ  <br/> |
-|Skype for Business Web App (外部ユーザーのみ)  <br/> モバイル デバイス (内部ユーザーと外部ユーザー)  <br/> |アフィニティなし  <br/> |送信元アドレスのアフィニティ  <br/> |
-|Skype for Business Web App (内部ユーザーのみ)  <br/> モバイル デバイス (展開しない)  <br/> |アフィニティなし  <br/> |送信元アドレスのアフィニティ  <br/> |
+|Skype for Business Web アプリ (内部ユーザーと外部ユーザー)  <br/> モバイル デバイス (内部ユーザーと外部ユーザー)  <br/> |アフィニティなし  <br/> |送信元アドレスのアフィニティ  <br/> |
+|Skype for Business Web アプリ (外部ユーザーのみ)  <br/> モバイル デバイス (内部ユーザーと外部ユーザー)  <br/> |アフィニティなし  <br/> |送信元アドレスのアフィニティ  <br/> |
+|Skype for Business Web アプリ (内部ユーザーのみ)  <br/> モバイル デバイス (展開しない)  <br/> |アフィニティなし  <br/> |送信元アドレスのアフィニティ  <br/> |
    
 #### <a name="port-monitoring-for-hlbs"></a>HLB のポート監視
 
@@ -220,8 +220,8 @@ Cookie ベースのアフィニティ **が** 必要な展開の場合は、次�
    
 ## <a name="hardware-and-software-requirements"></a>ハードウェア要件とソフトウェア要件
 
-[Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)の全体的なサーバー要件と Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)のシステム要件に関するドキュメントでは、エッジ サーバーのハードウェア要件とソフトウェア要件について説明しました。
+エッジ サーバーのハードウェア要件とソフトウェア要件については[、Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)の全体的なサーバー要件と、Skype for Business Server [2019 ドキュメントのシステム要件について説明](../../../SfBServer2019/plan/system-requirements.md)しました。
   
 ## <a name="collocation"></a>Collocation
 
-「Topology [Basics for Skype for Business Server」](../../plan-your-deployment/topology-basics/topology-basics.md) のドキュメントで、エッジ サーバーのコロケーションについて説明しました。
+「トポロジの基本」のドキュメントで、エッジ サーバーの[コロケーションSkype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md)しました。

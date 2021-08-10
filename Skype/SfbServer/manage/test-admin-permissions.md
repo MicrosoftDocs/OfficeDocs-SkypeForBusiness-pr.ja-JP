@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での管理アクセス許可のテスト
+title: 管理者のアクセス許可をテストSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,26 +10,26 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype for Business Server で管理者のアクセス許可をテストする方法
-ms.openlocfilehash: 535911c26bac5e3f1dadb2c8d59cffe82dc20c7a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 管理者のアクセス許可をテストするSkype for Business Server
+ms.openlocfilehash: 1c828eeb965ee98aae72b00c7da9fa65016d2ed90e56c7cc982a59763c2703ae
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122401"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590771"
 ---
-# <a name="testing-admin-permissions-in-skype-for-business-server"></a>Skype for Business Server での管理アクセス許可のテスト
+# <a name="testing-admin-permissions-in-skype-for-business-server"></a>管理者のアクセス許可をテストSkype for Business Server
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
-|検証スケジュール|Skype for Business Server の初期展開後。 必要に応じて、アクセス許可に関連する問題が発生した場合。|
+|検証スケジュール|最初の展開Skype for Business Server後。 必要に応じて、アクセス許可に関連する問題が発生した場合。|
 |テスト ツール|Windows PowerShell|
-|必要なアクセス許可|Skype for Business Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティ グループのメンバーである必要があります。<br><br/>リモート インスタンスを使用して Windows PowerShellを実行する場合、ユーザーには、このコマンドレットを実行するアクセス許可を持つ RBAC ロールTest-CsOUPermissionがあります。 このコマンドレットを使用できるすべての RBAC 役割の一覧を表示するには、次のコマンドをプロンプトからWindows PowerShellします。<br/><br/>Get-CsAdminRoleWhere-Object \| {$_.コマンドレット -match "Test-CsOUPermission"}|
+|必要なアクセス許可|管理シェルを使用してローカルSkype for Business Server実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティ グループのメンバーである必要があります。<br><br/>サーバーのリモート インスタンスを使用して実行Windows PowerShell、ユーザーには、管理者コマンドレットを実行するアクセス許可を持つ RBAC ロールを割りTest-CsOUPermissionがあります。 このコマンドレットを使用できるすべての RBAC 役割の一覧を表示するには、次のコマンドをプロンプトからWindows PowerShellします。<br/><br/>Get-CsAdminRoleWhere-Object \| {$_.コマンドレット -match "Test-CsOUPermission"}|
 |||
 
 ## <a name="description"></a>説明
 
-Skype for Business Server をインストールすると、セットアップ プログラムによって実行されたタスクの 1 つが、ユーザー、コンピューター、連絡先、アプリケーション連絡先、および InetOrg ユーザーを管理するために必要な Active Directory アクセス許可を RTCUniversalUserAdmins グループに与えます。 Active Directory でアクセス許可の継承を無効にしている場合、セットアップではこれらのアクセス許可を割り当てできません。 その結果、RTCUniversalUserAdmins グループのメンバーは Skype for Business Server エンティティを管理できません。 これらの管理特権は、ドメイン管理者だけが利用できます。 
+Skype for Business Server をインストールすると、セットアップ プログラムによって実行されたタスクの 1 つが、ユーザー、コンピューター、連絡先、アプリケーション連絡先、および InetOrg ユーザーを管理するために必要な Active Directory アクセス許可を RTCUniversalUserAdmins グループに付与します。 Active Directory でアクセス許可の継承を無効にしている場合、セットアップではこれらのアクセス許可を割り当てできません。 その結果、RTCUniversalUserAdmins グループのメンバーは、エンティティを管理Skype for Business Serverされます。 これらの管理特権は、ドメイン管理者だけが利用できます。 
 
 このTest-CsOUPermissionコマンドレットは、ユーザー、コンピューター、その他のオブジェクトを管理するために必要なアクセス許可が Active Directory コンテナーに設定されているのを確認します。 これらのアクセス許可が設定されていない場合は [、Grant-CsOUPermission](/powershell/module/skype/Grant-CsOUPermission)コマンドレットを実行して、この問題を解決できます。 
 
@@ -52,7 +52,7 @@ RTCUniversalUserAdmins グループのメンバーにのみアクセス許可を
 
 必要なアクセス許可が既に設定されている場合、Test-CsOUPermission応答が返されます。
 
-True
+正しい
 
 必要なアクセス許可が設定されていない場合、Test-CsOUPermission False が返されます。 この値を見つけるには、しばらく検索する必要がある場合があります。 通常、いくつかの付随する警告の内部に埋め込む必要があります。 例:
 
@@ -60,7 +60,7 @@ True
 
 警告: オブジェクト "OU=NorthAmerica,DC=atl-cs-001\DC=litwareinc,DC=com" のアクセス制御エントリ (ACEs) は準備ができていません。 
 
-False 
+正しくない 
 
 警告: "Test-CsOUPermission" 処理が完了し、警告が表示されました。 "2" 警告は、この実行時に記録されました。 
 

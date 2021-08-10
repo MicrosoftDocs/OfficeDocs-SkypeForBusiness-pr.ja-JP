@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d908373cf3e8df6429823d9245cf53a52fbf901
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2088272756886b210ae99b32f8c3148d237b10ccb367702745f0327cc4e2896
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796541"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590781"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -45,12 +45,12 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Micros
 
 **サポートされるアクション:**
 
-| ユーザーのメールボックスのホスト先:                                        | 電子情報開示       | 法的な&nbsp;保全    | 保持  | チームとチャネルの管理 | Teams で会議を作成して表示する | ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール  | コネクタを追加して構成する | タブを追加して構成する | ボットを追加して構成する |
-|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                 | はい <sup>1</sup> | はい <sup>1</sup>   | はい        | はい                   | はい                               | はい<sup>7</sup>             | はい          | はい             | はい <sup>6</sup>        | はい        | はい                          | はい                    | はい                    |
-| **Exchange Online 専用 vNext**                                 | はい <sup>1</sup> | はい <sup>1</sup>   | はい        | はい                   | はい                               | はい<sup>7</sup>             | はい          | はい             | はい <sup>6</sup>        | はい        | はい                          | はい                    | はい                    |
-| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要)  | はい <sup>1</sup> | はい <sup>1,2</sup> | はい <sup>3</sup> | はい                   | いいえ                                | いいえ                          | はい          | はい             | 不要                      | はい <sup>4</sup> | はい <sup>5</sup>                   | はい                    | はい                    |
-| **Exchange On-premises** (Azure AD との同期) | は <sup>い 1,9</sup> | はい <sup>1</sup>   | はい <sup>3</sup> | はい                   | はい <sup>8</sup>         | はい                          | はい          | はい             | 不要                      | はい <sup>4</sup> | はい <sup>5</sup>                   | はい                    | はい                    |
+| ユーザーのメールボックスのホスト先:                                       | 電子情報開示         | 法的な&nbsp;保全    | 保持        | チームとチャネルの管理 | Teams で会議を作成して表示する | ユーザー プロフィールの写真を変更する | 通話履歴 | 連絡先の管理 | Outlook の連絡先へのアクセス | ボイスメール        | コネクタを追加して構成する | タブを追加して構成する | ボットを追加して構成する |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | はい <sup>1</sup>   | はい <sup>1</sup>   | はい              | はい                   | はい                               | はい<sup>7</sup>             | はい          | はい             | はい <sup>6</sup>        | はい              | はい                          | はい                    | はい                    |
+| **Exchange Online 専用 vNext**                                | はい <sup>1</sup>   | はい <sup>1</sup>   | はい              | はい                   | はい                               | はい<sup>7</sup>             | はい          | はい             | はい <sup>6</sup>        | はい              | はい                          | はい                    | はい                    |
+| **Exchange Online 専用 – レガシー** (Azure AD との同期が必要) | はい <sup>1</sup>   | はい <sup>1,2</sup> | はい <sup>3</sup> | はい                   | いいえ                                | いいえ                          | はい          | はい             | 不要                      | はい <sup>4</sup> | はい <sup>5</sup>             | はい                    | はい                    |
+| **Exchange On-premises** (Azure AD との同期)                        | は <sup>い 1,9</sup> | はい <sup>1</sup>   | はい <sup>3</sup> | はい                   | はい <sup>8</sup>                  | は<sup>い 10</sup>            | はい          | はい             | 不要                      | はい <sup>4</sup> | はい <sup>5</sup>             | はい                    | はい                    |
 
 <sup>1</sup> チャネル メッセージのコンプライアンスに関する電子情報開示および法的な保全は、すべてのホスティング オプションでサポートされています。
 
@@ -64,11 +64,13 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Micros
 
 <sup>6</sup> 既定の連絡先フォルダーは連絡先のみです。 他の連絡先フォルダーまたはサブフォルダーへのアクセスはサポートされていません。
 
-<sup>7</sup> Teams では、ユーザーがプロフィール画像を変更できるかどうかを制御するため、テナント管理者によって構成されている[Outlook on the web のメールボックス ポリシー](/powershell/module/exchange/client-access/set-owamailboxpolicy)の設定を優先します。 **ポリシーで -SetPhotoEnabled** 設定がオフになっている場合、ユーザーはプロフィール画像を追加、変更、または削除できません。そのため、管理者が写真を変更した場合、porfile 画像はチームに同期されません。
+<sup>7</sup> Teams では、ユーザーがプロフィール画像を変更できるかどうかを制御するため、テナント管理者によって構成されている[Outlook on the web のメールボックス ポリシー](/powershell/module/exchange/client-access/set-owamailboxpolicy)の設定を優先します。 **ポリシーで -SetPhotoEnabled** 設定がオフになっている場合、ユーザーはプロフィール画像を追加、変更、または削除できません。そのため、管理者が写真を変更した場合、プロフィール画像はチームと同期されません。
 
 <sup>8</sup> 「[オンプレミスでホストされているメールボックスの会議を作成および表示するための要件](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)」セクション記載されている要件を満たす必要があります。 
 
 <sup>9</sup>プラン 1 ライセンスExchange Online以上のライセンスも必要です。 詳細については、「オンプレミス ユーザーの[チャット データTeams検索する」を参照してください](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+
+<sup>10</sup>オンプレミス ユーザーは、Web メールボックス ポリシーの Teams が に設定されている場合でも、Outlook を使用してプロファイル画像 `SetPhotoEnabled` を更新できます `false` 。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Microsoft Teams を最大限に活用するための要件
 

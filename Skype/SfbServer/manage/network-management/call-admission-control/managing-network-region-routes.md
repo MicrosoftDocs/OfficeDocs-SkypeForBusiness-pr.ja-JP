@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ネットワーク地域ルートでは、ネットワーク地域のペア間のルートを定義します。 通話受付管理展開のネットワーク地域の各ペアには、ネットワーク地域間ルートが必要です。
-ms.openlocfilehash: c91f46ff45dd50f638cdb4f256fb93f2d33781ec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 822785657020e9f1f071623f844766cfb1a12dd1b5cee1c20c23edcf584addad
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118556"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590761"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域ルートの管理
 
@@ -24,56 +24,56 @@ ms.locfileid: "51118556"
 
 ## <a name="view-network-region-route-information"></a>ネットワーク地域のルート情報を表示する 
 
-通話受付管理 (CAC) 構成内のすべての地域には、他のすべての地域へのアクセス方法がいくつかある必要があります。 地域のリンクが地域間の接続に対する帯域幅制限を設定し、物理リンクも表す一方、ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。 Skype for Business Server コントロール パネルまたは Skype for Business Server 管理シェルの既存のネットワーク地域ルートを表示するには、次の手順を使用します。 
+通話受付管理 (CAC) 構成内のすべての地域には、他のすべての地域へのアクセス方法がいくつかある必要があります。 地域のリンクが地域間の接続に対する帯域幅制限を設定し、物理リンクも表す一方、ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。 次の手順を使用して、コントロール パネルまたは管理シェルのSkype for Business Serverネットワーク地域ルートSkype for Business Server表示します。 
 
-### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルでネットワーク地域のルート情報を表示するには
+### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>[コントロール パネル] でネットワーク地域のルートSkype for Business Server表示するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域ルート] **をクリックします**。
 
 4.  [**地域ルート**] ページで、変更する地域ルートをクリックします。
 
 
-    > [!NOTE]  
+    > [!NOTE]
     > 一度に表示できる地域ルートは 1 つだけです。
 
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 
 
-### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>ネットワーク地域のルート情報を表示する (Windows PowerShellコマンドレットを使用)
+### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>ネットワーク地域のルート情報を表示するには、Windows PowerShellコマンドレットを使用します。
 
-ネットワーク地域のルート情報は、ネットワーク と Windows PowerShellコマンドレットをGet-CsNetworkInterRegionRouteできます。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 
+ネットワーク地域のルート情報は、ネットワーク と Windows PowerShellコマンドレットをGet-CsNetworkInterRegionRouteできます。 このコマンドレットは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。 
 
 ### <a name="to-view-network-region-route-information"></a>ネットワーク地域のルート情報を表示するには
 
-  - すべてのネットワーク地域ルートに関する情報を表示するには、Skype for Business Server 管理シェルに次のコマンドを入力し、Enter キーを押します。
+  - すべてのネットワーク地域ルートに関する情報を表示するには、次のコマンドを [管理シェル] Skype for Business Server入力し、Enter キーを押します。
     
-        Get-CsNetworkInterRegionRoute
+    **Get-CsNetworkInterRegionRoute**
     
     次のような情報が表示されます。
     
-        Identity                  : TransAmericaRoute
-        NetworkRegionLinks        : {NorthwestToNortheast}
-        InterNetworkRegionRouteID : TransAmericaRoute
-        NetworkRegionID1          : Pacific Northwest
-        NetworkRegionID2          : Northeast
+    Identity : TransAmericaRoute<br/>
+    NetworkRegionLinks : {NorthwestToNortheast}<br/>
+    InterNetworkRegionRouteID : TransAmericaRoute<br/>
+    NetworkRegionID1 : 太平洋北西部<br/>
+    NetworkRegionID2 : ノースイースト<br/>
 
 詳細については、[Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute) コマンドレットのヘルプ トピックを参照してください。
 
 
 ## <a name="create-or-modify-network-region-routes"></a>ネットワーク地域ルートの作成または変更
 
-通話受付管理 (CAC) 構成内のすべての地域には、他のすべての地域へのアクセス方法がいくつかある必要があります。 地域のリンクが地域間の接続に対する帯域幅制限を設定し、物理リンクも表す一方、ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。 Skype for Business Server コントロール パネルを使用して、ネットワーク地域のルートを構成できます。 Skype for Business Server コントロール パネルから、ネットワーク地域ルートを作成、変更、または削除できます。 このトピックでは、ネットワーク地域ルートの作成または変更について説明します。 
+通話受付管理 (CAC) 構成内のすべての地域には、他のすべての地域へのアクセス方法がいくつかある必要があります。 地域のリンクが地域間の接続に対する帯域幅制限を設定し、物理リンクも表す一方、ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。 [コントロール パネル] Skype for Business Serverを使用して、ネットワーク地域ルートを構成できます。 [コントロール Skype for Business Serverから、ネットワーク地域ルートを作成、変更、または削除できます。 このトピックでは、ネットワーク地域ルートの作成または変更について説明します。 
 
 ### <a name="to-create-a-network-region-route"></a>ネットワーク地域ルートを作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域ルート] **をクリックします**。
 
@@ -82,7 +82,7 @@ ms.locfileid: "51118556"
 5.  [**新しい地域ルート**] で、[**名前**] フィールドに値を入力します。
    
     > [!NOTE]  
-    > この値は、Skype for Business Server 展開内で一意である必要があります。
+    > この値は、展開内で一意Skype for Business Server必要があります。
 
 6.  [ネットワーク **領域 \# 1]** ドロップダウン リストから、このルートで接続する 2 つの領域のいずれかを選択します。
 
@@ -100,7 +100,7 @@ ms.locfileid: "51118556"
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域ルート] **をクリックします**。
 
@@ -115,13 +115,13 @@ ms.locfileid: "51118556"
 
 ## <a name="delete-existing-network-region-routes"></a>既存のネットワーク地域ルートの削除
 
-通話受付管理 (CAC) 構成内のすべての地域には、他のすべての地域へのアクセス方法がいくつかある必要があります。 地域のリンクが地域間の接続に対する帯域幅制限を設定し、物理リンクも表す一方、ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。 Skype for Business Server コントロール パネルを使用して、ネットワーク地域のルートを構成できます。 Skype for Business Server コントロール パネルから、ネットワーク地域ルートを作成、変更、または削除できます。 このトピックを使用して、既存のネットワーク地域ルートを削除できます。 
+通話受付管理 (CAC) 構成内のすべての地域には、他のすべての地域へのアクセス方法がいくつかある必要があります。 地域のリンクが地域間の接続に対する帯域幅制限を設定し、物理リンクも表す一方、ルートはある地域から別の地域へ接続が通過するリンクされたパスを決定します。 [コントロール パネル] Skype for Business Serverを使用して、ネットワーク地域ルートを構成できます。 [コントロール Skype for Business Serverから、ネットワーク地域ルートを作成、変更、または削除できます。 このトピックを使用して、既存のネットワーク地域ルートを削除できます。 
 
 ### <a name="to-delete-a-network-region-route"></a>ネットワーク地域ルートを削除するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[地域ルート] **をクリックします**。
 

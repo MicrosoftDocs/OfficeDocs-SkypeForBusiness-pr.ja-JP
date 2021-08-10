@@ -88,8 +88,8 @@ additionalContent:
   sections:
     - title: その他のヘルプが必要な場合
     - items:
-        - title: デプロイ支援のために FastTrack を使用する
-          summary: デプロイ Teams、より多くの支援が必要な場合、対象となるサブスクリプションをお持ちのお客様は FastTrack にサポートを提供できます。
+        - title: デプロイFastTrackサポートを受け取る
+          summary: デプロイ Teams、より多くの支援が必要な場合、対象となるサブスクリプションをお持ちのお客様は、サポートを受FastTrackを受け取る可能性があります。
           url: 'https://www.microsoft.com/fasttrack'
         - title: Microsoft パートナーを探す
           summary: 追加のガイダンスが必要な場合 Microsoft ソリューション プロバイダーは、アップグレードの技術的およびロジスティックを管理するのに役立ちます。

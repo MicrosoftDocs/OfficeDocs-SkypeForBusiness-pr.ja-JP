@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
 description: NetworkConnectionDetail テーブルは、Quality of Experience データベースの他の場所で使用されるネットワーク接続の識別子にネットワーク接続の種類を対応させます。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 2e03e7935370e71a8070ed1882f61ac5480f312e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d1aa430f821233fcbf89f166bf76d3d8fadf76a9f7401ce5c9009629fccea70a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306698"
 ---
 # <a name="networkconnectiondetail-table"></a>NetworkConnectionDetail テーブル
  
@@ -27,6 +27,6 @@ NetworkConnectionDetail テーブルは、Quality of Experience データベー�
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**NetworkConnectionDetailKey** <br/> |tinyint  <br/> |Primary  <br/> |ネットワーク接続の種類の一意の識別子。  <br/> |
-|**NetworkConnectionDetail** <br/> |varchar(256)  <br/> |一意  <br/> |NetworkConnectionDetailKey に対応するネットワーク接続の種類。有効な値は次のとおりです。  <br/> 0: 有線  <br/> 1: WiFi  <br/> 2: イーサネット  <br/> 3 -- MobileBB  <br/> 4 -- その他  <br/> 5 -- トンネル  <br/> |
+|**NetworkConnectionDetail** <br/> |varchar(256)  <br/> |一意  <br/> |NetworkConnectionDetailKey に対応するネットワーク接続の種類。有効な値は次のとおりです。  <br/> 0: 有線  <br/> 1: WiFi  <br/> 2: イーサネット  <br/> 3 -- MobileBB  <br/> 4 -- その他  <br/> 5 -- Tunnel  <br/> |
    
 
