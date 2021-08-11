@@ -1,5 +1,5 @@
 ---
-title: 通話詳細記録の作成 (新規) または [既存の編集]
+title: 通話の詳細記録 新規の作成または既存の編集
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 5941bef38515732ff6f7fbe4678e3bb190060822
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: c0b005fe011c4de85a7fd4623aee8330b5ade6488c5e2b3a2616ad0c09095abc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302741"
 ---
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>通話詳細記録: 新規作成または現在の形式のままで編集
  
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
   
-- [Skype for Business Server 2015 で通話詳細記録を有効にする](../../manage/health-and-monitoring/enable-cdr.md)
+- [2015 年に通話の詳細記録Skype for Business Serverする](../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Skype for Business Server 2015 での CDR データの保持期間の指定](../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [2015 年に CDR データの保持をSkype for Business Serverする](../../manage/health-and-monitoring/specify-retention-of-data.md)
     
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
 

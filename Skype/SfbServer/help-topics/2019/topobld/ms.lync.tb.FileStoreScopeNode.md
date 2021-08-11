@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、このファイル ストアの完全修飾ドメイン名 (FQDN) と依存プールが表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: 2ddd0a9a3ba3ec5dcacd8f3fbd13a46a3e74479f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ecaf2736620e25548e445f2657b4988f0b80d31691fd30384166dea747f8b974
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285277"
 ---
 # <a name="file-store-scope-node"></a>ファイル ストアのスコープ ノード
  
@@ -32,7 +32,7 @@ ms.locfileid: "49819437"
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除を行います。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、コンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で会議構成設定を作成する
+title: 会議の構成設定を作成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
-description: '概要: Skype for Business Server で会議構成設定を作成する方法について説明します。'
-ms.openlocfilehash: 862ffc56fd14c446a747a490daa0655e410e01d9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 会議の構成設定を作成する方法について説明します。Skype for Business Server。'
+ms.openlocfilehash: 11871685d51a73f5f2e9dbcbaa2835060d8a7cdc59958af1785d689c3c9246ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119516"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321695"
 ---
-# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で会議構成設定を作成する
+# <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>会議の構成設定を作成Skype for Business Server
  
-**概要:** Skype for Business Server で会議構成設定を作成する方法について説明します。
+**概要:** 会議の構成設定を作成する方法については、Skype for Business Server。
   
-会議の構成設定は、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して作成できます。
+会議構成設定は、コントロール パネルまたは管理シェルSkype for Business Server使用してSkype for Business Server作成できます。
   
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議の構成設定を作成する
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用して会議Skype for Business Server設定を作成する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで、[会議] **をクリックし**、[会議の構成] **をクリックします**。
     
@@ -53,7 +53,7 @@ ms.locfileid: "51119516"
     
 8. 匿名 (未認証) ユーザーが自動的に承認されないようにするには、[**既定で匿名ユーザーを承認する**] チェック ボックスをオフにします。既定では、匿名ユーザーは会議に対して自動的に承認されます。
     
-9. 参加者に送られる会議の招待をカスタマイズするには、以下を行います。 URL およびカスタム フッター テキストの長さは最大 1 KB です。 [**ヘルプ URL**] 以外は、カスタムの値を指定しない場合、会議に含まれません。 カスタム ヘルプ URL を含めない場合は、Skype for Business の既定のヘルプ URL が招待に表示されます。 
+9. 参加者に送られる会議の招待をカスタマイズするには、以下を行います。 URL およびカスタム フッター テキストの長さは最大 1 KB です。 [**ヘルプ URL**] 以外は、カスタムの値を指定しない場合、会議に含まれません。 カスタム ヘルプ URL を含めない場合は、招待にSkype for Business既定のヘルプ URL が表示されます。 
     
    - 会議の招待に表示されるロゴをカスタマイズするには、[**ロゴ URL**] にロゴの場所を入力します。 ロゴは、サイズが 188 x 30 ピクセルの GIF または JPG 画像である必要があります。 
     
@@ -65,7 +65,7 @@ ms.locfileid: "51119516"
     
 10. [**確定**] をクリックします。
     
-## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議の構成設定を作成する
+## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議の構成Skype for Business Server作成する
 
 会議構成設定を作成するには **、New-CsMeetingConfiguration コマンドレットを使用** します。
   

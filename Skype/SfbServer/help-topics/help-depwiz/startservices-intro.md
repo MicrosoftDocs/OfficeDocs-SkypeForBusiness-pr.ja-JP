@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
-description: 展開する Skype for Business Server 2015 役割サーバーでサービスを開始するには、概要画面を確認します。 Skype for Business Server を開始するために発行されたコマンドは、サービスが開始するまで待機しません。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [次へ] をクリックして [サービスの開始] タスクを開始します。
-ms.openlocfilehash: ce23db017922b2c12384172f07bb13b5113c9e59
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 展開する 2015 Skype for Business Serverサーバーでサービスを開始するには、概要画面を確認します。 サービスを開始するために発行されたコマンドSkype for Business Serverサービスが開始するのを待たされません。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [次へ] をクリックして [サービスの開始] タスクを開始します。
+ms.openlocfilehash: a1640065b0f4aed7633051950699e46ad2b7dac5ac2ccc784f5ddf06017cc6b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285047"
 ---
 # <a name="startservices-intro"></a>サービスの開始 (開始)
  
-展開する Skype for Business Server 2015 役割サーバーでサービスを開始するには、概要画面を確認します。 Skype for Business Server を開始するために発行されたコマンドは、サービスが開始するまで待機しません。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [**次へ**] をクリックして [**サービスの開始**] タスクを開始します。
+展開する 2015 Skype for Business Serverサーバーでサービスを開始するには、概要画面を確認します。 サービスを開始するために発行されたコマンドSkype for Business Serverサービスが開始するのを待たされません。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [**次へ**] をクリックして [**サービスの開始**] タスクを開始します。
   
 

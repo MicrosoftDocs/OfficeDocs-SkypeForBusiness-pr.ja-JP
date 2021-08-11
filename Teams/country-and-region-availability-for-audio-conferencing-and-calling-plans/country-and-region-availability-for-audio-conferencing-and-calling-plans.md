@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 電話会議、電話システム、通話プラン、通信クレジット、有料および無料電話番号が国または地域で利用できる場合について説明します。
-ms.openlocfilehash: 099548bc9b88293dcb1fcc0acddd49ac295ab56e
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: 7711f9a978b3733dd305f5b35a125bfe2ea1c19555262d860205fb38b7530eae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278156"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -229,6 +229,6 @@ Skype for Business または Microsoft Teams サービスのいずれかを使�
   
 コミュニケーション クレジットを設定してユーザーにライセンスを割り当てない場合、(通話プランまたは電話会議プラン、または国/地域によっては) 組織の分数が使い切れた場合、通話を発信したり、会議からダイヤルアウトしたりできない場合があります。 推奨される利用可能残高などの詳細については、「[コミュニケーション クレジットについて](../what-are-communications-credits.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)

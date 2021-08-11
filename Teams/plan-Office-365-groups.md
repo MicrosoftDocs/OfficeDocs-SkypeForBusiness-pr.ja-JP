@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 7e93b66f9a7a0abc4dfc2e3484818da28a65f36a
-ms.sourcegitcommit: 5a39061c2156531f4b7f5f69eecf81a8c8b238d0
+ms.openlocfilehash: fedd643cd597ee3c8819273fcd98a27996e8502bb3e5cb59d51e6693a6914881
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52030047"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312765"
 ---
 <a name="plan-for-microsoft-365-groups-when-creating-teams-in-microsoft-teams"></a>チームを作成Microsoft 365グループの計画を立Microsoft Teams
 ==========================================================
@@ -34,9 +34,9 @@ Microsoft 365 グループの使用を検討する場合、またはチームを
 
 グループグループの計画とグループへの影響 (またはグループによる) の計画に関するMicrosoft 365を保証する 2 つのシナリオMicrosoft Teams。
 
--   最初に、お客様はグループに既存の投資を行う可能性があります。現在、パブリック グループとプライベート グループの両方がサポートされています。現在サポートされているメンバーの数については、Microsoft Teams の制限と仕様に関するページ[を参照してください](./limits-specifications-teams.md)。 前述のように、管理センターではなく、Teams クライアントを使用してチームへのユーザーのメンバーシップMicrosoft 365します。 このシナリオを考えると、ユーザーが Microsoft 365 グループでスレッド化された会話に慣れる場合、グループの会話は基本的に電子メールであり、Teams チャネルのチャット メッセージとは異なっている可能性があります。 この違いについてユーザーを教育し、Teams または OWA を使用してグループにメールを送信するよりも柔軟なチャット メッセージ形式を採用Outlook提案します。
+-   最初に、お客様はグループに既存の投資を行う可能性があります。現在、パブリック グループとプライベート グループの両方がサポートされています。現在サポートされているメンバーの数については、Microsoft Teams の制限と仕様に関するページ[を参照してください](./limits-specifications-teams.md)。 前に説明したように、チームのメンバーは、チームのメンバーではなく、Teams クライアントを使用して管理Microsoft 365 管理センター。 このシナリオを考えると、ユーザーが Microsoft 365 グループでスレッド化された会話に慣れる場合、グループの会話は基本的に電子メールであり、Teams チャネルのチャット メッセージとは異なっている可能性があります。 この違いについてユーザーを教育し、Teams または OWA を使用してグループにメールを送信するよりも柔軟なチャット メッセージ形式を採用Outlook提案します。
 
--   2 つ目は、Microsoft 365 で定義されている既存のグループをお持ちではないお客様の場合は、Microsoft 365 管理センター、Teams Web、またはデスクトップ クライアントを使用して作成できます。 前述のように、新しいクライアントを使用して、Microsoft 365グループへの今後のすべてのメンバーシップTeamsします。 チームのメンバーシップはグループへのメンバーシップも定義Microsoft 365、この変更に備える必要があります。
+-   次に、Microsoft 365 で定義されている既存のグループをお持ちではないお客様の場合は、Microsoft 365 管理センター、Teams Web、またはデスクトップ クライアントを使用してグループを作成できます。 前述のように、新しいクライアントを使用して、Microsoft 365グループへの今後のすべてのメンバーシップTeamsします。 チームのメンバーシップはグループへのメンバーシップも定義Microsoft 365、この変更に備える必要があります。
 
 ## <a name="teams-respects-microsoft-365-groups-naming-policy"></a>Teamsグループの名前付Microsoft 365ポリシーに関する問題
 
@@ -48,6 +48,6 @@ Microsoft 365 グループの使用を検討する場合、またはチームを
 
 -   [Get more with groups in Outlook (Outlook でグループを活用する)](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
--   [管理者センターを使用してMicrosoft 365グループのメンバーをMicrosoft 365削除する](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [グループを使用して、グループMicrosoft 365メンバーを追加または削除Microsoft 365 管理センター](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
 -   [削除されたグループを復元する](/microsoft-365/admin/create-groups/restore-deleted-group)

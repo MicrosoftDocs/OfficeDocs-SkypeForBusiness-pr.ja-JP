@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd649507c0108e9a3d500f4d30cae46a3181d75d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 318ea793a037ecf47d48663e94b1c19e09fb2bcb8556b9f401f314d0bb9e998d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117855"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339475"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>DoD デプロイOffice 365 Government計画する
 
@@ -90,7 +90,7 @@ Office 365 Government - DoD 環境は、クラウド サービスに関する米
 
 Office 365 Government – DoD にオンボードした後は、「Microsoft Teams のロールアウト方法」で説明されている推奨される[デプロイ パスに従Microsoft Teams。](./deploy-overview.md) 必ず、導入および変更管理チームと新しいTeamsしてください。
 
-[また、FastTrack または選択したパートナーと](https://www.microsoft.com/fasttrack)一緒にサービスをオンボードできます。
+サービスのオンボードには[、FastTrack](https://www.microsoft.com/fasttrack)パートナーと一緒に作業を行う方法があります。
 
 > [!NOTE]
 > DOD Teams Mac クライアントはまだサポートされていません。

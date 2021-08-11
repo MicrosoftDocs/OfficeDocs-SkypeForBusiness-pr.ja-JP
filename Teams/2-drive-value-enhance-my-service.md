@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa5102934cdeadf6b2418ab437bc0be28764307cda075139bfc6435c9d61948e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779193"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278245"
 ---
 # <a name="enhance-my-service"></a>サービスを強化する
 
@@ -32,7 +32,7 @@ ms.locfileid: "43779193"
 ## <a name="enhance-my-service-overview"></a>サービス強化の概要
 通話プラン サービスを使用して電話会議または電話システムを組織に正常に展開し、品質と信頼性を確保しつつサービスを運用できるようになったら、次のステップは、サービスを向上させる余地があるかどうかを定期的に評価することです。 これは、クラウド サービス管理の最新の標準である継続的なサービス改善計画の一部です。 
 
-サービスを常に最大限に活用するには、組織にとって興味深い新しい機能強化がないかどうか、[Teams パブリック ロードマップ](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)を定期的に確認してください。 Microsoft 365 管理センターにアクセスできる場合は、メッセージ センターを通じて新機能と変更機能に関する定期的な更新プログラムを受け取ります。 
+サービスを常に最大限に活用するには、組織にとって興味深い新しい機能強化がないかどうか、[Teams パブリック ロードマップ](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)を定期的に確認してください。 このサービスにアクセスできるMicrosoft 365 管理センター、メッセージ センターを通じて新機能や変更機能に関する定期的な更新プログラムを受け取ります。 
 
 また、組織の成長や変更に対応するために、時間をかけてビジネス ユース ケースを定期的に再検討および更新し、組織の現在のニーズに合わせてサービスが構成されていることを確認する必要があります。  組織内にフィードバックのルートを確立して、ユーザーや社内の実力者から現実的なフィードバックを得られるようにします。 これは、非公式の会話、定期的な会議、Teams チャネルや Yammer コミュニティを通じて行うことができます。 
 

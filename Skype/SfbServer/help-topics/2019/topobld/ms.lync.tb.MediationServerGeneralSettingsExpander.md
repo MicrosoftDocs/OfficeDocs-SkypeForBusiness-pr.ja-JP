@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a78fa8c12f2eb0db4cedd97a765e6445788c3382
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 064255bc958f9c1b59ca105cb943dca766f7715e59c71a5f1d1e0dee8620e868
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804267"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285157"
 ---
 # <a name="mediation-server-general-settings-expander"></a>仲介サーバー全般設定エキスパンダー
  
@@ -29,7 +29,7 @@ ms.locfileid: "49804267"
 
 仲介サーバー プールまたは仲介サーバーの完全修飾ドメイン名 (FQDN)。値を変更するには、サーバーの FQDN を編集します。新しい値と一致しているドメイン ネーム システム (DNS) ホスト (A) レコードがある必要があります。
   
-**[関連付け]** で、仲介サーバー プールまたは仲介サーバーに関連付けるエッジ サーバーまたはエッジ サーバー プールを選択します。 仲介サーバーのメディア コンポーネントが外部ユーザー インターフェイスに使用するエッジを選択エンタープライズ VoIP。
+**[関連付け]** で、仲介サーバー プールまたは仲介サーバーに関連付けるエッジ サーバーまたはエッジ サーバー プールを選択します。 仲介サーバーのメディア コンポーネントが外部ユーザー サーバーに使用するエッジを選択エンタープライズ VoIP。
   
 現在エッジ サーバーを定義しておらず、仲介サーバーをエッジ サーバーに関連付ける必要がある場合、**[新規]** をクリックし、新しいエッジ プールの定義ウィザードで新しいエッジ サーバーまたはエッジ サーバー プールを定義します。
   

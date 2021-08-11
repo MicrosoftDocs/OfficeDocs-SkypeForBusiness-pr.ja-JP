@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 通話品質ダッシュボード (CQD) で使用できるデータとレポートについて説明します。
-ms.openlocfilehash: 47fce642bf90b1be9285a11cf19a5e6421aa262b
-ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
+ms.openlocfilehash: 9d13823981ced4d631ed50fe9fd964765c761a029831d630de103bdc5c43e206
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52212200"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331119"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) のデータとレポート
 
@@ -400,7 +400,7 @@ Login-AzureRmAccount
 > 2020 年 7 月 1 日の現在、従来のバージョンの CQD (cqd.lync.com) は新しい CQD ( からデータにアクセスし、建物データとレポート データをエクスポートできなくなりました。 https://CQD.teams.microsoft.com) Skype for Business Online の提供終了に合った 2021 年 7 月 31 日より、従来の CQD は無効になります。この機能にはアクセスできなくなりました。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams の通話品質の向上と監視](monitor-call-quality-qos.md)
 

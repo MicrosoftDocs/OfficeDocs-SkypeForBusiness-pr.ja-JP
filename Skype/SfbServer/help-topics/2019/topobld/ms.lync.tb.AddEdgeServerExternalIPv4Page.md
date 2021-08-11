@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4f22de3-d825-495e-9e85-99a75b8a20e3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 外部 IPv4 で、アクセス エッジ サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。
-ms.openlocfilehash: 077bb5f949bb36ed8290cfb13767c18103e63144
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[外部 IPv4] に、Access Edge サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。'
+ms.openlocfilehash: cc96425deef69103b45bd21ea0e2f7b990a813bcba292438fd4b730d2234413a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294314"
 ---
 # <a name="add-edge-server-external-ipv4"></a>エッジ サーバー外部 IPv4 の追加
  
-外部 **IPv4 で**、アクセス エッジ サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。
+[ **外部 IPv4]** で、Access Edge サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。
   
 

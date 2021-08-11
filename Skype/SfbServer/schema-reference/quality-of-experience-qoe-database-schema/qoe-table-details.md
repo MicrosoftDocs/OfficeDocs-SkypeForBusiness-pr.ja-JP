@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: これらのセクションでは、QoE (Quality of Experience) データベース スキーマ テーブルの各列について詳しく説明します。
-ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 42085494d2d302742c2a18b5af17506ba8f79a3ff9812f86b817506ea401d98f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815757"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321599"
 ---
 # <a name="qoe-table-details"></a>QoE テーブルの詳細
  
@@ -40,13 +40,13 @@ ms.locfileid: "49815757"
     
 - [会議テーブル](conference.md)
     
-- [Device テーブル](device.md)
+- [デバイス テーブル](device.md)
     
 - [DeviceDriver テーブル](devicedriver.md)
     
 - [ダイアログ テーブル](dialog.md)
     
-- [Endpoint テーブル](endpoint.md)
+- [エンドポイント テーブル](endpoint.md)
     
 - [EndpointSubnet テーブル](endpointsubnet.md)
     
@@ -64,11 +64,11 @@ ms.locfileid: "49815757"
     
 - [PayloadDescription テーブル](payloaddescription.md)
     
-- [Pool テーブル](pool.md)
+- [プール テーブル](pool.md)
     
 - [PurgeSettings テーブル (QoE)](purgesettings-qoe.md)
     
-- [Region テーブル](region.md)
+- [地域テーブル](region.md)
     
 - [サーバー テーブル](server.md)
     
@@ -76,7 +76,7 @@ ms.locfileid: "49815757"
     
 - [SessionCorrelation テーブル](sessioncorrelation.md)
     
-- [Subnet テーブル](subnet.md)
+- [サブネット テーブル](subnet.md)
     
 - [TraceRoute テーブル](traceroute.md)
     

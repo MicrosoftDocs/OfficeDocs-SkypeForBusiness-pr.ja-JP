@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 ROBOTS: NOINDEX, NOFOLLOW
 description: エッジ サーバー プールを構成するコンピューターを定義するには、従来の負荷分散された統合エッジ プールの一部である少なくとも 1 台のコンピューターの完全修飾ドメイン名 (FQDN) を入力します。
-ms.openlocfilehash: 3db1c55674549f5773351f027db2a957bdcb255e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: aafe22223e7da6d68c2d57e0f404046f9e0303df8e55d841574d4586409a93e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805727"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285147"
 ---
 # <a name="legacy-merge-add-machine"></a>従来版のマージ コンピューターの追加
  

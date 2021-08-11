@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: ダイヤルアウトと通話 (分) 特典。 2019 年 12 月 1 日の現在、各電話会議サブスクリプションは、ゾーン A の国に 1 か月あたり 60 分のユーザーを提供します。
-ms.openlocfilehash: effd0794a554288634af1634bcf7417050ad16b9
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: d532664abee611fe9ced2e744415edb91e3dae03b8aaea36e705d8bed59b10e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617769"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278235"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>電話会議サブスクリプションの "ダイヤルアウト"/"通話場所" 分の特典
 
@@ -98,7 +98,7 @@ Microsoft では、電話会議サービスを導入しているお客様のた�
 
 コミュニケーション クレジットの詳細については、「通信クレジット」 [を参照してください](what-are-communications-credits.md)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [電話会議の国と地域のゾーン](audio-conferencing-zones.md)

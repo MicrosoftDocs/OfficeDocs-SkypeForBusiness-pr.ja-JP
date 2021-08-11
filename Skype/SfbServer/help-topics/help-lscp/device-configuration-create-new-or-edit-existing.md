@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
-description: '[新しいデバイス構成] または [デバイス構成の編集] ページで、Skype for Business Phone Edition の管理に使用される設定のコレクションを作成または変更できます。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。'
-ms.openlocfilehash: b0973c73580aee3cfc81dfb79ac65613ddfcf204
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '[新しいデバイス構成] または [デバイス構成の編集] ページで、エディションの管理に使用される設定のコレクションをSkype for Business 電話できます。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。'
+ms.openlocfilehash: 826f20dcd28002f293ebcf227a954f9bfd61c28f36fd4dd23414e2be59ef4f62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302711"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>デバイス構成: 新規作成または現在の形式のままで編集
  
-[新 **しいデバイス構成]** または **[デバイス** 構成の編集] ページで、Skype for Business Phone Edition の管理に使用される設定のコレクションを作成または変更できます。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
+[新 **しいデバイス構成]** または **[デバイス** 構成の編集] ページで、エディションの管理に使用する設定のコレクションをSkype for Business 電話できます。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
   
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -42,7 +42,7 @@ ms.locfileid: "51119926"
     
 - **名前** デバイス構成の名前を追加または変更できます。
     
-- **SIP セキュリティ** Skype for Business Phone Edition デバイスのトランスポート要件と認証要件を構成できます。 次のオプションから選択できます。
+- **SIP セキュリティ** このエディションのデバイスのトランスポート要件と認証要件Skype for Business 電話構成できます。 次のオプションから選択できます。
     
   - **低** 任意の種類の承認またはトランスポートを許可します。
     
@@ -52,7 +52,7 @@ ms.locfileid: "51119926"
     
 - **ログ レベル** UC デバイスでログ記録を有効にできます。 有効な値は次のとおりです。低。Medium。と High。 既定値は Off です。
     
-- **音声サービス品質 (QoS)** Skype for Business Phone Edition デバイスから送信される音声トラフィックに割り当てられた DSCP 値を指定できます。 既定値は 40 です。 音声トラフィックは、ほとんど常に DSCP コード 46 でマーキングされます。 ネットワーク全体で一貫性を保つには、この値を 46 に変更する必要があります。
+- **音声サービス品質 (QoS)** 音声トラフィックに割り当てられた DSCP 値は、Skype for Business 電話 Edition デバイスから指定できます。 既定値は 40 です。 音声トラフィックは、ほとんど常に DSCP コード 46 でマーキングされます。 ネットワーク全体で一貫性を保つには、この値を 46 に変更する必要があります。
     
 - **電話ロック** 指定された非アクティブ期間の後に UC 電話が自動的にロックするかどうかを指定できます。 構成できる設定は次のとおりです。
     

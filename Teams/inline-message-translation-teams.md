@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78282b464dd1d9cb25c5d4d2b338c74a2c91d374
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 719f97e72f099edb4d14c22ef9d5a3de0f787ea7411f42f1d777ea842bcc4e27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339645"
 ---
 # <a name="turn-off-inline-message-translation-in-microsoft-teams"></a>メッセージのインライン翻訳をオフMicrosoft Teams
 
@@ -47,4 +47,4 @@ ms.locfileid: "52855926"
 Microsoft Teams **管理** センター で、左側のナビゲーションから [**メッセージング** ポリシー] を選択し、新しいポリシーを作成するか、既存のポリシーを編集し、[メッセージの翻訳] オプションを [オフ] に設定 **します**。
 
 > [!NOTE]
-> サービスは翻訳を行い、コンプライアンス レコードにキャプチャされたコンテンツに影響を与え、クライアントに配信します。 翻訳の詳細については、「Microsoft 翻訳とは[」を翻訳ツール。](/azure/cognitive-services/translator/translator-info-overview)
+> サービスは翻訳を行い、コンプライアンス レコードにキャプチャされたコンテンツに影響を与え、クライアントに配信します。 翻訳の詳細については、「翻訳とは[」をMicrosoft 翻訳ツール。](/azure/cognitive-services/translator/translator-info-overview)

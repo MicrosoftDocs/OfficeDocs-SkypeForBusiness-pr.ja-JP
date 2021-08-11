@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: この記事では、Azure Monitor を使用して、Microsoft Teams ミーティング デバイスの管理を、統合されたエンドツーエンドの方法でデプロイする方法について説明します。
+description: この記事では、Azure Monitor を使用して、Microsoft Teams Rooms デバイスの管理を、統合されたエンドツーエンドの方法でデプロイする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7046fc0010a4337ea14854e356600ccf3428f9d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312685"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>を使用 :::no-loc text="Microsoft Teams Rooms"::: して管理をデプロイする :::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ ms.locfileid: "51117595"
 
 このガイドに従って、次の例のようなダッシュボードを使用して、デバイスの可用性、アプリケーションとハードウェアの正常性、アプリケーションとオペレーティング システムのバージョンの配布に関する詳細な状態レポート :::no-loc text="Microsoft Teams Rooms"::: を取得できます。
 
-![サンプルの Log Analytics ビューのスクリーンショット (Microsoft Teams ミーティング](../media/Deploy-Azure-Monitor-1.png "サンプル Log Analytics ビュー (Microsoft Teams ミーティング")
+![会議室の Log Analytics ビューのMicrosoft Teamsスクリーンショット](../media/Deploy-Azure-Monitor-1.png "Microsoft Teams 会議室の Log Analytics ビューのサンプル")
 
 高いレベルでは、次のタスクを実行する必要があります。
 
@@ -161,7 +161,7 @@ ms.locfileid: "51117595"
 > [!NOTE]
 > ダッシュボード タイルが正常に動作するには、このガイドの前の手順を完了している必要があります。
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>import メソッドMicrosoft Teams ミーティングダッシュボードを作成する
+### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>インポート方法Microsoft Teams会議室ダッシュボードを作成する
 
 ダッシュボードをインポートして :::no-loc text="Microsoft Teams Rooms"::: 、デバイスの監視をすばやく開始できます。 ダッシュボードをインポートするには、次の手順を実行します。
 
@@ -171,7 +171,7 @@ ms.locfileid: "51117595"
 4.  [ **インポート]** を選択し **、SkypeRoomSystems_v2.omsview ファイルを選択** します。
 5.  **[保存]** を選択します。
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>ダッシュボードを手動Microsoft Teams ミーティング作成する
+### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>会議室ダッシュボードMicrosoft Teams手動で作成する
 
 または、独自のダッシュボードを作成し、監視するタイルのみを追加することもできます。
 
@@ -377,9 +377,9 @@ ms.locfileid: "51117595"
 7. アクション グループを構成する:
     1.  [Create **New]を選択します。**
     2.  [アクション グループ名] フィールドと *[短い名前] フィールドに**適した名前を指定* します。
-    3.  一意の *アクション名を指定し*、[**電子メール/携帯ショートメール/プッシュ/** 音声] を選択し、[詳細の編集]**を選択します**。
+    3.  一意の *アクション名を指定し* 、[ **電子メール/SMS/プッシュ/音声**] を選択し、[詳細の編集] **を選択します**。
     4.  [電子メール **] チェック** ボックスをオンにして、アラートを受信するユーザーまたはグループのメール アドレスを指定します。
-    5.  また、電話番号を入力して、通話、音声通話、携帯ショートメール通知を受け取る場合があります。
+    5.  また、SMS、音声通話、または両方で通知を受け取る電話番号を指定できます。
     6. **[OK] を選択します**。
 
 8. **アラート メール** の件名行をオーバーライドする場合は、[アクション] をカスタマイズします。

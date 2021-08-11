@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 通話プランでサポートされているレート センターとカバレッジを一覧表示します。
-ms.openlocfilehash: dbf0280bf26452d6bfdf40e669f43dbf131cc88b
-ms.sourcegitcommit: 67dac7a8c9c5d0151b94db81c979e2f6bafe28c3
+ms.openlocfilehash: 7c294f01e84c7b846da81d1e685673ba309fd9398f0fe34513d292c01589e32a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49724515"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339485"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>通話プランでサポートされているレート センターとカバレッジ
 
@@ -33,7 +33,7 @@ ms.locfileid: "49724515"
 
 新しい番号を取得し、要求した番号が表示されなくなっても、同じレート センターから番号が提供されます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [組織の電話番号を管理する](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

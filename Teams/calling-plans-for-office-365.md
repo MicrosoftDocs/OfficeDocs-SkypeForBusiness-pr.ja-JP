@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。 '
-ms.openlocfilehash: 87758995717a40136af6c03422eaf521285efc08
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1b1c37635abf71fef82330cba9b1749edac9f16fa7ae13bd4dbeb2274166deb2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278225"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>通話プランのMicrosoft 365
 
@@ -43,7 +43,7 @@ ms.locfileid: "51102743"
     
 - **国内** 通話プランと国際通話プラン: ライセンスを取得したユーザーは、Microsoft 365 または Office 365 ライセンスがユーザーの場所に基づいてユーザーに割り当てられている国/地域にある番号と [、196](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)か国/地域の国際番号にコールアウトできます。
 
-同じ通話プランで同じ国/地域のすべてのユーザー (Microsoft 365 管理センターのライセンス領域で定義されているユーザーの国の場所) は、分のプールを共有します。 たとえば、同じ国/地域に 100 人のユーザーがいて、国内通話プランが 120 分割り当てられている場合、そのユーザーは 12,000 分のプールを共有します。 この分を超えるすべての呼び出しは、1 分ごとに請求されます。
+同じ通話プランを持つ同じ国/地域内のすべてのユーザー (Microsoft 365 管理センター のライセンス領域で定義されているユーザーの国の場所) は、分のプールを共有します。 たとえば、同じ国/地域に 100 人のユーザーがいて、国内通話プランが 120 分割り当てられている場合、そのユーザーは 12,000 分のプールを共有します。 この分を超えるすべての呼び出しは、1 分ごとに請求されます。
     
 国 [と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 情報にアクセスして、各国/地域の各組織で利用できる月次分を確認します。
   
@@ -55,7 +55,7 @@ ms.locfileid: "51102743"
   
 ## <a name="how-to-buy-a-calling-plan"></a>通話プランを購入する方法
 
-1. <strong>最初に**電話システム</strong>ライセンスを購入する必要があります <strong>。これを行うには、Microsoft 365 [管理](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)</strong>センターにサインインし、[課金購入サービス] アドオン サブスクリプション [今すぐ購入]  >    >    >  **を選択します**。
+1. <strong>最初に**電話システム</strong>ライセンスを購入する必要があります <strong>。これを行うには、Microsoft 365 管理センター [に](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)</strong>サインインし、[課金購入サービス] アドオン サブスクリプション [今すぐ購入]  >    >    >  **を選択します**。
     
     ![音声通話プランを購入するためのオプションを示すスクリーンショット。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
@@ -91,7 +91,7 @@ ms.locfileid: "51102743"
 - [次に示すのは、電話システム または Microsoft 365 のOffice 365](./here-s-what-you-get-with-phone-system.md)
     
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
