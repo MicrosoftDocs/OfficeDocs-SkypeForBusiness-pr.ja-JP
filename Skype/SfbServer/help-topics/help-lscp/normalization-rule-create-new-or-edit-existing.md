@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: ea85e934def4f7b40c3e051b88258c4cdd16de21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: d12f34ba05175d7aaa0a5b2eb41b0276e6337f0545217c00eb083b41353178f9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099543"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307378"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>正規化ルール: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
-- [Skype for Business 2015 で正規化ルールを作成または変更する](../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [2015 年に正規化ルールを作成またはSkype for Businessする](../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [手動による正規化ルールの作成または変更](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。

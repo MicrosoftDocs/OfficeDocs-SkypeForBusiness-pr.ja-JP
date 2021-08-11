@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: 累積的な更新プログラム 1 をインストールした後、PowerShell を使用して 2019 年 Skype for Business Serverで SEFAUtil 機能を取得する方法について説明します。'
-ms.openlocfilehash: fa7bccaa30b559bf694274471b1f8883e8482861
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: afb0c34afedde91bac40ee90b155809ed3c2b557d88608028b77e0835eb9661d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277622"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>2019 年に PowerShell 経由で SEFAUtil 機能をSkype for Business Serverする
 

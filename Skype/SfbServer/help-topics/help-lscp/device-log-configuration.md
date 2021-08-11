@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 description: デバイス更新 Web サービスは、デバイス更新アクティビティが記録されるログ ファイルを自動的に作成します。 組織のデータ管理戦略の一環として、ログ データ キャッシュ サイズ、ログ ファイル サイズ、またはログ ファイルが削除される前にログ ファイルを保持する時間の長さにしきい値を設定できます。 これらの設定は、組織の要件に従って変更できます。 デバイス更新 Web サービスが自動的にログ ファイルを削除しないようにした場合は、ログ ファイルを必要に応じて手動で削除する必要があります。 ログ設定はグローバルに、またはサイトごとに変更できます。
-ms.openlocfilehash: b20c7bb088f46491c99ada7c815b8c11d4bfe456
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0233c48334bf40e36a36a9cf9247a1f01364ef6e05dfb5ee0875b04d746dca5c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115285"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307398"
 ---
 # <a name="device-log-configuration"></a>デバイス ログの構成
 
 デバイス更新 Web サービスは、デバイス更新アクティビティが記録されるログ ファイルを自動的に作成します。 組織のデータ管理戦略の一環として、ログ データ キャッシュ サイズ、ログ ファイル サイズ、またはログ ファイルが削除される前にログ ファイルを保持する時間の長さにしきい値を設定できます。 これらの設定は、組織の要件に従って変更できます。 デバイス更新 Web サービスが自動的にログ ファイルを削除しないようにした場合は、ログ ファイルを必要に応じて手動で削除する必要があります。 ログ設定はグローバルに、またはサイトごとに変更できます。
 
 > [!NOTE]
-> デバイス更新 Web サービスでログ ファイルを保持するよう構成した日数より古いログ ファイル (既定では 10 日間より古いログ ファイル) を、デバイス更新 Web サービスが自動的に削除する時刻も構成できます。 この設定は、Skype for Business Server コントロール パネルを使用して変更できません。 代わりに、Skype for Business Server 管理シェルを使用する必要があります。 期限切れのログ ファイルを削除する時刻を指定するには、-LogCleanUpTimeOfDay パラメーターと一緒に **New-CsDeviceUpdateConfiguration** コマンドレットを使用します。 詳細については [、「New-CsDeviceUpdateConfiguration」を参照してください](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps)。
+> デバイス更新 Web サービスでログ ファイルを保持するよう構成した日数より古いログ ファイル (既定では 10 日間より古いログ ファイル) を、デバイス更新 Web サービスが自動的に削除する時刻も構成できます。 この設定は、コントロール パネルSkype for Business Server変更できません。 代わりに、管理シェルSkype for Business Server使用する必要があります。 期限切れのログ ファイルを削除する時刻を指定するには、-LogCleanUpTimeOfDay パラメーターと一緒に **New-CsDeviceUpdateConfiguration** コマンドレットを使用します。 詳細については [、「New-CsDeviceUpdateConfiguration」を参照してください](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps)。
 
 > [!CAUTION]
 > ファイルを削除すると、それらはファイル システムから完全に削除されます。 ファイルを削除した後、ファイルを復旧することはできません。

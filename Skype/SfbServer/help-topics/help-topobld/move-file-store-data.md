@@ -1,5 +1,5 @@
 ---
-title: ファイル ストア データを Skype for Business Server 2015 の新しいファイル ストアに移動する
+title: 2015 年にファイル ストア データを新しいファイル ストアSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
-description: 現在 Skype for Business Server 2015 展開のファイル ストアとして機能しているファイル サーバーを削除する必要がある場合、または現在のファイル ストアを使用できない他の変更を行う必要がある場合は、まず新しい共有を作成する必要があります。 次に、次の手順を実行する必要があります。
-ms.openlocfilehash: 2d65e517b10a76013fbeb332b183b5b816e99083
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server 2015 展開のファイル ストアとして現在機能しているファイル サーバーを削除する必要がある場合、または現在のファイル ストアを使用できない他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 次に、次の手順を実行する必要があります。
+ms.openlocfilehash: d57bfe10df36f200f927d4a2c9850eee0d21e9cf38724f31cc62bf84f76708e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307118"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>ファイル ストア データを Skype for Business Server 2015 の新しいファイル ストアに移動する
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>2015 年にファイル ストア データを新しいファイル ストアSkype for Business Serverする
 
-現在 Skype for Business Server 2015 展開のファイル ストアとして機能しているファイル サーバーを削除する必要がある場合、または現在のファイル ストアを使用できない他の変更を行う必要がある場合は、まず新しい共有を作成する必要があります。 次に、次の手順を実行する必要があります。
+Skype for Business Server 2015 展開のファイル ストアとして現在機能しているファイル サーバーを削除する必要がある場合、または現在のファイル ストアを使用できない他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 次に、次の手順を実行する必要があります。
 
-1. 削除する予定のファイル ストアを使用する Skype for Business Server 2015 サービスをシャットダウンします。
+1. 削除するSkype for Business Serverを使用する 2015 サービスをシャットダウンします。
 
 2. トポロジ ビルダーでファイル ストアを定義し、変更を発行して、新しいファイル ストアを展開で使用できます。
 
@@ -38,7 +38,7 @@ ms.locfileid: "51119646"
 
 1. Skype for Business Server 2015 管理ツールがインストールされている RTCUniversersalServerAdmins または CsServerAdministrator グループのメンバーとしてコンピューターにログオンします。
 
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。
 
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 
@@ -46,7 +46,7 @@ ms.locfileid: "51119646"
 
 5. トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
 
-6. トポロジ ビルダーの開始: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business Server 2015]** をクリックし **、[Skype for Business Server 2015Topology Builder] をクリックします**。 
+6. トポロジ ビルダーの開始: [**スタート**] をクリックし、[すべてのプログラム] をクリックし、[Skype for Business Server **2015] をクリックし、[2015Topology** **Builder]** Skype for Business Serverクリックします。 
 
 7. ファイル ストアを使用するサーバーまたはプールを選択し、次の操作を行います。
 
@@ -65,7 +65,7 @@ ms.locfileid: "51119646"
 
 13. [ **プロパティの編集]** の [ **関連付** け] の [ファイル ストア **] で**、新しいファイル共有を選択し **、[OK] をクリックします**。
 
-14. トポロジを発行し、レプリケーションの状態を確認し、必要に応じて Skype for Business Server 展開ウィザードを実行します。 詳細については、「[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))」を参照してください。
+14. トポロジを発行し、レプリケーションの状態を確認し、必要にSkype for Business Server展開ウィザードを実行します。 詳細については、「[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))」を参照してください。
 
 15. コマンド プロンプトを開始する: [スタート] **をクリックし**、[ **実行**] をクリックし、「コマンド プロンプト」と入力cmd.exe。
 

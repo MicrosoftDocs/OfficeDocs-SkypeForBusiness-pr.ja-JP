@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: '[外部設定] の下でプロパティを定義するには、次のものを構成します。'
-ms.openlocfilehash: 6075fab9dbc820b725beec8be4a674a828b4c7d1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d8c800051dcbc6aa2c1a533940c3d3d558ef86ba8db115e557846dc04a08c795
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307158"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のエッジ サーバー FQDN 設定エキスパンダー
  
@@ -29,9 +29,9 @@ ms.locfileid: "49807097"
 Web 会議と音声ビデオに対して別々のプールの FQDN と IP アドレスを定義する場合は、[**Web 会議と音声ビデオに対する別々の FQDN および IP アドレス設定の有効化**] を選択します。
   
 > [!NOTE]
-> 別々の FQDN と IP アドレスのチェック ボックスをオンにしない場合は、エッジ サーバーによって提供される 3 つのサービスごとに個別のポートを指定する必要があります。 構成する完全修飾ドメイン名は、アクセス エッジ サービスに関連付けられている FQDN のみです。 
+> 個別の FQDN アドレスと IP アドレスのチェック ボックスをオンにしない場合は、エッジ サーバーが提供する 3 つのサービスごとに個別のポートを指定する必要があります。 構成する完全修飾ドメイン名は、Access Edge サービスに関連付けられている FQDN のみです。 
   
-ネットワーク アドレス **変換** (NAT) IP アドレスと構成を使用する場合は、A/V エッジ サービスで NAT が有効なチェック ボックスをオンにします。
+**A/V エッジ** サービスでネットワーク アドレス変換 (NAT) IP アドレスと構成を使用する場合は、[A/V エッジ サービスが NAT が有効] チェック ボックスをオンにします。
   
 有効なエッジ サービスに対して、**プールの FQDN** とポートを [**ポート**] の下に入力します。
   

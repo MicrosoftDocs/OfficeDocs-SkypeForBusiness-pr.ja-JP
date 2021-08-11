@@ -1,5 +1,5 @@
 ---
-title: 監視する Skype for Business Server コンピューターを構成する
+title: 監視するSkype for Business Serverコンピューターを構成する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,34 +12,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: '概要: 監視対象の Skype for Business Server 2019 コンピューターに Operations Manager エージェント ファイルをインストールし、System Center プロキシとして動作するコンピューターを構成します。'
-ms.openlocfilehash: 4fd616b661f25b4414625654a645469fd44620f8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 監視対象の Skype for Business Server 2019 コンピューターに Operations Manager エージェント ファイルをインストールし、コンピューターを System Center プロキシとして動作System Centerします。'
+ms.openlocfilehash: 2c049edf37395197abd46744d67eced8781b3c15cf56e4308cafffb63435083c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120478"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277582"
 ---
-# <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>監視する Skype for Business Server コンピューターを構成する
+# <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>監視するSkype for Business Serverコンピューターを構成する
 
-**概要:** 監視対象の Skype for Business Server 2019 コンピューターに Operations Manager エージェント ファイルをインストールし、System Center プロキシとして動作するコンピューターを構成します。
+**概要:** 監視する 2019 年 2019 年 2019 年のコンピューターに Operations Skype for Business Server Manager エージェント ファイルをインストールし、コンピューターを System Center構成します。
 
-監視する各 Skype for Business Server 2019 コンピューターは、その存在を管理サーバーに自己報告できる必要があります。 このプロセスを有効にするには、監視対象の各コンピューターに Operations Manager エージェント ファイルをインストールする必要があります。 エージェント ファイルをインストールした後、System Center プロキシとして機能するコンピューターを構成する必要があります。 これらの手順を実行する前に、これらのコンピューターに Skype for Business Server を最初にインストールして構成済みである必要があります。
+監視Skype for Business Server 2019 コンピューターごとに、その存在を管理サーバーに自己報告できる必要があります。 このプロセスを有効にするには、監視対象の各コンピューターに Operations Manager エージェント ファイルをインストールする必要があります。 エージェント ファイルをインストールした後、コンピューターを構成して、プロキシとして機能System Center必要があります。 これらの手順を実行する前に、これらのコンピューターにSkype for Business Serverインストールして構成されていることを確認してください。
 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>境界ネットワーク外にある監視ノードの証明書のインストール
 <a name="watcher_node_outside"> </a>
 
-境界ネットワークで実行されている System Center Operations Manager エージェント (Skype for Business Server エッジ サーバーなど)、企業外 (外部代理トランザクション 監視ノードなど)、または Active Directory 信頼境界を越えて実行する場合、System Center Operations Manager ゲートウェイ サーバーの構成が必要な場合があります。 このサーバーの役割を使用すると、ルート管理サーバーとの信頼関係を持つエージェントがアラートを発生できます。 詳細については [、「Operations Manager 2012 での](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))ゲートウェイ サーバーの管理」を参照してください。
+System Center境界ネットワーク (Skype for Business Server エッジ サーバーなど) で実行されている Operations Manager エージェント(外部代理トランザクション 監視ノードなど)、または Active Directory 信頼境界を越えて実行する場合は、System Center Operations Manager Gateway Server の構成が必要な場合があります。 このサーバーの役割を使用すると、ルート管理サーバーとの信頼関係を持つエージェントがアラートを発生できます。 詳細については [、「Operations Manager 2012 での](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))ゲートウェイ サーバーの管理」を参照してください。
 
-これらの場所の 1 つでエージェントを展開する場合は、監視ノードが System Center Operations Manager にアラートを送信できる証明書を要求および構成する必要もあります。 このプロセスを簡単にするため、Operations Manager チームは、正しい種類の証明書を要求して監視ノード コンピューターにインストールできる一連のユーティリティを作成しました。 これらのユーティリティの詳細とダウンロードについては、「証明書生成ウィザードを使用して簡単に行う非ドメイン参加エージェントの証明書の取得」 [を参照してください](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)。
+これらの場所の 1 つでエージェントを展開する場合は、監視ノードが System Center Operations Manager に通知を送信できる証明書を要求および構成する必要があります。 このプロセスを簡単にするため、Operations Manager チームは、正しい種類の証明書を要求して監視ノード コンピューターにインストールできる一連のユーティリティを作成しました。 これらのユーティリティの詳細とダウンロードについては、「証明書生成ウィザードを使用して簡単に行う非ドメイン参加エージェントの証明書の取得」 [を参照してください](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)。
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Operation Manager エージェント ファイルのインストール
 
-1. System Center セットアップ メディアで、[次へ] を **ダブルクリックSetup.exe。**
+1. セットアップ メディアでSystem Centerをダブルクリックします **Setup.exe。**
 
-2. System Center Operation Manager セットアップ ウィザードで、[オプションのインストール] の下の **[エージェント** のインストール] から [操作マネージャー エージェントのインストール] をクリックします。
+2. [操作マネージャー System Centerウィザードで、[オプションのインストール] の下の [エージェントのインストール] から [Operations **Manager エージェント** のインストール] をクリックします。
 
-3. System Center セットアップ ウィザードの [System Center Operations Manager セットアップ ウィザードへようこそ] ページで、[次へ] を **クリックします**。
+3. [セットアップ ウィザードSystem Centerで、[操作マネージャーのセットアップ ウィザード] ページの [System Center] をクリック **します**。
 
 4. [移動先フォルダー] ページで、Operations Manager エージェント ファイルをインストールするフォルダーを選択し、[次へ] を **クリックします**。
 
@@ -53,17 +53,17 @@ ms.locfileid: "51120478"
 
 9. [インストールの準備完了] ページで、[ **インストール**] をクリックします。
 
-10. [System Center Operations Manager セットアップ ウィザードの完了] ページで、[完了] を **クリックします**。
+10. [操作マネージャーのセットアップ ウィザードSystem Center完了] ページで、[完了] を **クリックします**。
 
 11. **[終了]** をクリックします。
 
-System Center 2012 では、[スタート] ボタン、[すべてのプログラム]の順にクリックし **、[System Center Operations Manager 2012]** をクリックし、[Operations **2012 Manager Shell]** をクリックして、エージェントが作成されたと確認できます。 Operations Manager シェルで、次のコマンドを入力Windows PowerShell Enter キーを押します。
+2012 System Centerでは、[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[System Center Operations Manager 2012]** をクリックし、[Operations **2012 Manager Shell]** をクリックして、エージェントが作成されたと確認できます。  [コマンド] Operations Manager シェル次のコマンドを入力Windows PowerShell Enter キーを押します。
 ```PowerShell
 Get-SCOMAgent
 ```
 
 すべての Operations Manager エージェントの一覧が表示されます。
-## <a name="configuring-the-skype-for-business-server-computer-to-participate-in-system-center-discovery"></a>システム センターの検出に参加するための Skype for Business Server コンピューターの構成
+## <a name="configuring-the-skype-for-business-server-computer-to-participate-in-system-center-discovery"></a>検出に参加Skype for Business Serverコンピューターを構成System Centerする
 <a name="watcher_node_outside"> </a>
 
 新しい Skype for Business Server エージェントが System Center Operations Manager の検出プロセスに参加するには、System Center Operations Manager コンソールがインストールされている各コンピューターで次の手順を実行する必要があります。
@@ -72,10 +72,10 @@ Get-SCOMAgent
 
 2. [検出 **ウィザード] をクリック** し、検出するコンピューターのウィザードを完了します。
 
-3. Health Agent サービスを再起動します。 サービスを再起動すると、新しいコンピューターが強制的に検出されます。 サービスを再起動しない場合、System Center Operations Manager によって新しいコンピューターが検出されるまで、4 時間ほどかかる場合があります。
+3. Health Agent サービスを再起動します。 サービスを再起動すると、新しいコンピューターが強制的に検出されます。 サービスを再起動しない場合、新しいコンピューターが Operations Manager によって検出されるまで 4 時間System Center可能性があります。
 
 4. Operations Manager イベント ログにエラー イベントが記録されなかっているのを確認します。
 
 5. エージェントが正常にプッシュされたコンピューターが [エージェント管理] リストに表示され、エージェントが手動でインストールされたコンピューターが [保留中の管理] の下に表示され、コンピューター名をクリックして承認します。
 
-6. コンピューターの名前を右クリックし、[**プロパティ**] をクリックします。 [プロパティ] ダイアログ ボックスの [セキュリティ] タブで、[**このエージェントをプロキシとして動作させ、他のコンピューター上の管理オブジェクトを検出する**] を選択し、[**OK**] をクリックします。
+6. コンピューターの名前を右クリックし、[**プロパティ**] をクリックします。[プロパティ] ダイアログ ボックスの [セキュリティ] タブで、[**このエージェントをプロキシとして動作させ、他のコンピューター上の管理オブジェクトを検出する**] を選択し、[**OK**] をクリックします。
