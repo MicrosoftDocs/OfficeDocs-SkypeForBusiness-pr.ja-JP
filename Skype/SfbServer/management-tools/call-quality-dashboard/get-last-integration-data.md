@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: '概要: 通話品質ダッシュボードのデータ API の一部である、最後の統合データの取得操作について説明します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
-ms.openlocfilehash: c40041e41e04d2bdc62a9eb9fa1eb699697a5b3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 呼び出し品質ダッシュボードのデータ API の一部である[最終統合データの取得] 操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
+ms.openlocfilehash: 42542a092baba41e334f30ba50029ab7efa70bf1af59b7ecf8cf2bd05f3f1b62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832517"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278415"
 ---
 # <a name="get-last-integration-data"></a>直近の統合データの取得
  
-**概要:** 呼び出し品質ダッシュボードのデータ API の一部である、最後の統合データの取得操作について説明します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。
+**概要:** 呼び出し品質ダッシュボードのデータ API の一部である [最後の統合データの取得] 操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
   
-最後の統合データの取得操作は、通話品質ダッシュボードのデータ API の一部です。
+[最後の統合データの取得] 操作は、通話品質ダッシュボードのデータ API の一部です。
   
 ## <a name="get-last-integration-data"></a>直近の統合データの取得
 
-[最後の統合データの取得] 操作では、アーカイブとキューブ処理の最後の 5 つの成功/失敗のリストが返されます。
+Get Last Integration Data operation は、アーカイブとキューブ処理の最後の 5 成功/失敗のリストを返します。
   
-この機能は既定で無効になっています。データ API を構成して有効にする必要があります。
+この機能は既定で無効になっているので、データ API を構成して有効にする必要があります。
   
 
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
@@ -49,7 +49,7 @@ ms.locfileid: "49832517"
   
  **応答ヘッダー** - 追加のヘッダーはありません。
   
- **応答本文** - 以下にログの状態のサンプルを示します。
+ **応答本文** - ログの状態の例を以下に示します。
   
 ```json
 {

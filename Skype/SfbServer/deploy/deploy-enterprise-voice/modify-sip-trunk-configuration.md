@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: '概要: [コントロール パネル] を使用して SIP トランク構成設定を変更するSkype for Business Server説明します。'
-ms.openlocfilehash: 1f7ef7c237295cc9a308a468b8f05424ebfe9d38
+ms.openlocfilehash: fb590a53a510b73251a7cc47d0f66c20c5ed81cf104d626a0b4dd38e8937b43c
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772548"
+ms.locfileid: "54283769"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype for Business Server: SIP トランク構成設定の変更 
  

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の障害を処理するアーカイブ オプションを構成する
+title: アーカイブ オプションを構成して、エラーを処理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: '概要: アーカイブを妨げる Skype for Business Server 障害が発生した場合に IM セッションと会議セッションをブロックする方法について説明します。'
-ms.openlocfilehash: 8bfe4d3f8e02fa0d7d7d3f1f6b55f224aaa1451a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: アーカイブを妨げる障害が発生した場合に IM セッションと会議セッションSkype for Business Serverする方法について説明します。'
+ms.openlocfilehash: 8baf245b1c8e95394aec756cb019b9562555f4bbe17dc0444615d5815da846df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095451"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320269"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Skype for Business Server の障害を処理するアーカイブ オプションを構成する
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>アーカイブ オプションを構成して、エラーを処理Skype for Business Server
 
-**概要:** アーカイブを妨げる Skype for Business Server 障害が発生した場合に IM セッションと会議セッションをブロックする方法について説明します。
+**概要:** アーカイブを妨げる障害が発生した場合に IM および会議セッションSkype for Business Serverする方法について説明します。
   
-アーカイブが組織の要件である場合は、アーカイブを妨げる Skype for Business Server 障害が発生した場合に IM セッションと会議セッションをブロックできます。 これは、クリティカル モードと呼ばれる場合があります。 たとえば、ストレージ サービスに問題がある場合、アーカイブ用に通信が有効になっているユーザーに対して IM がブロックされます。 障害から回復した後、IM および会議は自動的に回復します。 
+アーカイブが組織の要件である場合は、アーカイブを妨げる可能性がある障害が発生した場合に IM Skype for Business Server会議セッションをブロックできます。 これは、クリティカル モードと呼ばれる場合があります。 たとえば、ストレージ サービスに問題がある場合、アーカイブ用に通信が有効になっているユーザーに対して IM がブロックされます。 障害から回復した後、IM および会議は自動的に回復します。 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>コントロール パネルを使用してクリティカル モードを構成する
 
@@ -31,7 +31,7 @@ ms.locfileid: "51095451"
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     

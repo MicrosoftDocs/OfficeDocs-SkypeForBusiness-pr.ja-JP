@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
-description: '概要: アイテム サービスの一部であるアイテムの取得操作について学習します。 アイテム サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
-ms.openlocfilehash: 7da3ba77e782abe44896a7c1eb51a458d9a7e0b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: アイテム サービスの一部であるアイテムの取得操作について学習します。 Item Service は、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
+ms.openlocfilehash: e4c93cd4f3eee724c2879752b01097f60d45a84584f06c87853238423c68a640
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832537"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278425"
 ---
 # <a name="get-items"></a>アイテムの取得
  
-**概要:** アイテム サービスの一部であるアイテムの取得操作について学習します。 アイテム サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。
+**概要:** アイテム サービスの一部であるアイテムの取得操作について学習します。 Item Service は、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
   
-アイテムの取得操作は、呼び出し品質ダッシュボードのリポジトリ API のアイテム サービスの一部です。
+[アイテムの取得] 操作は、呼び出し品質ダッシュボードのリポジトリ API のアイテム サービスの一部です。
   
 ## <a name="get-items"></a>アイテムの取得
 
-アイテムを取得すると、リポジトリ内のすべてのアイテムが返されます。
+Get Items は、リポジトリ内のすべてのアイテムを返します。
   
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
@@ -46,10 +46,10 @@ ms.locfileid: "49832537"
   
  **応答ヘッダー** - 追加のヘッダーはありません。
   
- **応答本文** - JSON の応答ペイロードのサンプルを次に示します。
+ **応答本文** - JSON の応答ペイロードの例を以下に示します。
   
 > [!NOTE]
-> Item オブジェクトの配列が返されます。 Item オブジェクトの詳細については、「アイテムを取得する」を参照してください。 
+> Item オブジェクトの配列が返されます。 Item オブジェクトの詳細については、「Get Item」を参照してください。 
   
 ```json
 [{

@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: タイの無料電話番号 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) のダイヤルについて学習します。
-ms.openlocfilehash: 8fc33d740762e8b94948c9a7ad596d5fa11fd479
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9aff0741295b744074eed1a1d1079e9ab3e75080d2583267d3370ef3bc532a8b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116595"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292894"
 ---
 # <a name="toll-free-dialing-restrictions-in-thailand"></a>タイでのフリーダイヤル制限
 

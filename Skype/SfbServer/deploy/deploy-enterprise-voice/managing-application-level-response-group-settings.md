@@ -1,5 +1,5 @@
 ---
-title: Skype for Business でのアプリケーション レベルの応答グループ設定の管理
+title: アプリケーション レベルの応答グループの設定を管理するSkype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Skype for Business Server エンタープライズ VoIP で、アプリケーション レベルの応答グループ設定 (保留音やリングバック設定など) を管理します。
-ms.openlocfilehash: 941164fb3a99f62303b45f587b64e7aff9cb1393
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: アプリケーション レベルの応答グループ設定 (保留音やリングバック設定など) を管理Skype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: a6883247f7be8816a8363c9b2790d6d0e45599484037d23af860b3e0f191dc10
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337157"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Skype for Business でのアプリケーション レベルの応答グループ設定の管理
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>アプリケーション レベルの応答グループの設定を管理するSkype for Business
  
-Skype for Business Server エンタープライズ VoIP で、アプリケーション レベルの応答グループ設定 (保留音やリングバック設定など) を管理します。
+アプリケーション レベルの応答グループ設定 (保留音やリングバック設定など) を管理Skype for Business Server エンタープライズ VoIP。
   
 応答グループ アプリケーションのアプリケーション レベルの設定には、既定の保留音構成、既定の保留音オーディオ ファイル、エージェントリングバック猶予期間、通話コンテキスト構成が含まれます。 プールごとにアプリケーションレベルの設定のセットを 1 つだけ定義できます。 アプリケーション レベルの設定を表示するには **、Get-CsRgsConfiguration コマンドレットを使用** します。 アプリケーション レベルの設定を変更するには **、Set-CsRgsConfiguration コマンドレットを使用** します。
   
@@ -35,7 +35,7 @@ Skype for Business Server エンタープライズ VoIP で、アプリケーシ
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. コマンド ラインで、次のコマンドを実行します。
     

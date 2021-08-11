@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams Rooms のプレミアム サービスを使用した役割ベースのアクセス制御について説明します。
 f1keywords: ''
-ms.openlocfilehash: d673a20b122af876d95bac9d11a1db0433a396e4
-ms.sourcegitcommit: 975f81d9e595dfb339550625d7cef8ad84449e20
+ms.openlocfilehash: c73ad1385a0654f3ef50dab46b803debe418b834b6497acfcb27f5a4de736f98
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "49662602"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301063"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms のプレミアム サービスを使用した役割ベースのアクセス制御
 
@@ -78,7 +78,7 @@ Microsoft Teams Rooms の管理サービスの役割ベースのアクセス制�
 
 役割を割り当てるには、全体管理者または管理サービス管理者である必要があります。
 
-1. マネージド サービス ポータルの左側のMicrosoft Teams ミーティング、[ロール] に移動設定  >  **します**。
+1. Microsoft Teams Rooms マネージド サービス ポータルの左側のナビゲーションで、[ロール]に移動設定  >  **します**。
 
     :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="役割が表示されるアクセスの制御ページのスクリーンショット":::
 

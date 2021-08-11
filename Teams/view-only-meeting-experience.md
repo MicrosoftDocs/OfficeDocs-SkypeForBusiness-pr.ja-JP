@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f3546983c3d783c8eb08e0fc371cb9a9feb84f8
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: 76348dcbc71c706915db3d8ad9a21e65ad6abdd7d661a8bace6c6e6d349ae116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219114"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292884"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示限定の会議エクスペリエンス
 
@@ -111,7 +111,7 @@ Teams の表示限定エクスペリエンスでは、参加者は次の機能�
 
 - 設定したロビー ポリシーまたはオプションに基づく、ロビーをバイパスするアクセス許可を持っていてない場合は、会議に参加すること。
 - オーディオ会議を使用して、表示限定の部屋に参加すること。
-- クラウド システムまたは Cloud Video Interop (CVI) サービスMicrosoft Teams ミーティング使用して、ビュー専用のルームに参加します。
+- Microsoft Teams Rooms システムを使用するか、Cloud Video Interop (CVI) サービスを使用して、ビュー専用ルームに参加します。
 - オーディオまたはビデオを共有すること。
 - 会議チャットを参照または参加すること。
 - 参加者がアクティブな発表者でない場合は、会議参加者のビデオ フィードを参照すること。

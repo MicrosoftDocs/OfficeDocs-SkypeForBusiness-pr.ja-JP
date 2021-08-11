@@ -16,12 +16,12 @@ MS.collection:
 description: Teams のクロスチーム分析、チームごとの分析、チャネルごとの分析について学習します。この分析を使用すると、チームまたはチャネルの使用状況データがユーザーに表示されます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00ac44638a3f1b79ba98d1b2ebc6cf3645ef44bd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e5eac5dd4b16511041da58bc16d142a613c365982fb5f58b3c308b05df2924ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292954"
 ---
 # <a name="view-analytics-in-teams"></a>アプリで分析を表示Teams
 
@@ -89,7 +89,7 @@ ms.locfileid: "49809177"
 > [!NOTE]
 > アクティブ ユーザーは、デスクトップ クライアント、モバイル クライアント、および Web クライアントで意図的なアクションを実行するユーザーとして定義されます。 意図的な操作の例としては、チャットの開始、通話の配置、ファイルの共有、チーム内でのドキュメントの編集、会議への参加などです。 自動起動、画面の最小化、アプリの終了など、パッシブアクションを取り除きます。 また、1 つのユーザー ID ですべてのアクションをデデュアします。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [チームの分析を表示する](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
 - [Teams の分析とレポート](teams-reporting-reference.md)

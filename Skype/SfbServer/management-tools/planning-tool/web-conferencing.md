@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Skype for Business Server 2015 の Web 会議には、ドキュメントの共同作業、アプリケーション共有、デスクトップ共有が含まれます。
-ms.openlocfilehash: cda9ea2a3626bb4ea2f13b7b93883e5c7d173ba8
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: d2ebdea99d8a82d4b53d0716825b8f96aee818050b24f14da57adb8b52a0efd2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725300"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278375"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web 会議計画ツール
  

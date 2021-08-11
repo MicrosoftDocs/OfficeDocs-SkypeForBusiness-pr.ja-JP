@@ -1,5 +1,5 @@
 ---
-title: 割り当てられていない電話番号 新規の作成または既存の編集
+title: 割り当て電話番号 新規の作成または既存の編集
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: 49837269f81eaee09a0c191008234345d1d6d19f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 47eed42a5ce1b16826f907f56294e0d4b8656946d4940cb21bbeeed5d4b4c570
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283539"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>割り当てられていない電話番号: 新規作成または現在の形式のままで編集
 
 > [!NOTE]
-> Skype for Business Server 2019 を Exchange 2013 または Exchange 2016 に統合すると、Exchange UM は Skype for Business Server 2019 で引き続き使用できます。 Exchange 2019 でのサポートの変更により、Exchange UM の統合はクラウド ボイスメール機能とクラウド ボイスメール機能の機能を重視自動応答されています。
+> ExchangeUM は、2019 Skype for Business Server 2019 と Skype for Business 2013 または Exchange 2016 Exchangeで使用できます。 Exchange 2019 年のサポートの変更により、Exchange UM の統合は、クラウド ボイスメール とクラウド の機能を重視自動応答されています。
 
 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
 
@@ -46,7 +46,7 @@ ms.locfileid: "51097053"
 
   - 数値は正規表現 ( `tel:` )?( )と一致 \+ する必要があります。[1-9]\d {0,17} (;ext=[1-9]\d {0,9} )?. つまり、番号は文字列 'tel:' で始まる可能性があります。 その文字列を指定しない場合は、プラス記号 (+)、数字 1 ~ 9 など、自動的に追加されます。 電話番号には最大 17 桁の数字を指定できます。その後に内線番号 ;ext= の後に内線番号を付けることもできます。
 
-- **アナウンス サービス** アナウンス **アプリケーションが** 着信呼び出しまたは **Exchange UM** を処理するには、[アナウンス] を選択して、着信呼び出しを処理自動応答 Exchange UM を持つ必要があります。
+- **アナウンス サービス** アナウンス **アプリケーションが** 着信呼び出しまたは UM を処理 **Exchange、** 着信呼び出しを処理Exchange UM 自動応答を選択します。
 
 - [**アナウンス サービス**] で [**アナウンス**] を選択した場合:
 
@@ -56,6 +56,6 @@ ms.locfileid: "51097053"
 
 - [**アナウンス サービス**] で [**Exchange UM**] を選択した場合:
 
-  - **自動応答電話番号** Exchange UM サーバーの電話番号を自動応答。
+  - **自動応答電話番号** ユーザーの UM ユーザーの電話番号Exchange選択自動応答。
 
-アナウンスの機能の詳細については、「計画」のドキュメントの「Plan for the [Announcement application in Skype for Business」](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。
+アナウンスの機能の詳細については、「計画」のドキュメントの「Plan for the [Announcement application in](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) Skype for Business」を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。

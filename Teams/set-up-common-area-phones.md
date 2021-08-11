@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'ロビー、受付エリア、会議室に共通領域電話を設定する方法について説明します '
-ms.openlocfilehash: 7d04b1262c88a2600e2167cbaf5498672983cb0b
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 6b97c931364ec9a1c589b0a677e0ec82d6288d945b8f0c002e48824921fe3107
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646218"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301053"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 > [!NOTE]

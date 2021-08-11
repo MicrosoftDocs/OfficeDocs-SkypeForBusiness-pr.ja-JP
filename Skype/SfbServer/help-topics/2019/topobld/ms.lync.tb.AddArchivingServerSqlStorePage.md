@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
-description: アーカイブ サーバーでは、アーカイブ データを格納するために、サポートされている 64 ビット 版SQL Serverデータベース ソフトウェアが必要です。 アーカイブに使用する定義済みの SQL Server データベースを選択するか、新しい SQL Server データベースを定義するには、SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) と、新しい SQL Server データベースに使用する SQL Server のインスタンス (既定のインスタンスまたは指定した名前付きインスタンス) を指定します。
-ms.openlocfilehash: ff6cec0d083e4597dec7ae61df08b16ff8feab7f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: アーカイブ サーバーでは、アーカイブ データを格納するために、サポートされている 64 ビット 版SQL Serverデータベース ソフトウェアが必要です。 アーカイブに使用する定義済みの SQL Server データベースを選択するか、SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) と、新しい SQL Server データベースに使用する SQL Server のインスタンス (既定のインスタンスまたは指定した名前付きインスタンス) を指定して、新しい SQL Server データベースを定義できます。
+ms.openlocfilehash: 7da6ad810ea05e5fc577e08116a6ab8b70209d79a9ce5e2ea5bab0286d18ddb1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100213"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337117"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>アーカイブ サーバー SQL Server ストアの追加
 
-アーカイブ サーバーでは、アーカイブ データを格納するために、サポートされている 64 ビット 版SQL Serverデータベース ソフトウェアが必要です。 アーカイブに使用する定義済みの SQL Server データベースを選択するか、新しい SQL Server データベースを定義するには、SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) と、新しい SQL Server データベースに使用する SQL Server のインスタンス (既定のインスタンスまたは指定した名前付きインスタンス) を指定します。
+アーカイブ サーバーでは、アーカイブ データを格納するために、サポートされている 64 ビット 版SQL Serverデータベース ソフトウェアが必要です。 アーカイブに使用する定義済みの SQL Server データベースを選択するか、SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) と、新しい SQL Server データベースに使用する SQL Server のインスタンス (既定のインスタンスまたは指定した名前付きインスタンス) を指定して、新しい SQL Server データベースを定義できます。
 
 > [!NOTE]
 > トポロジの公開に使用するアカウントに適切なユーザー権限とアクセス許可があれば、トポロジの発行時にアーカイブ データベース (LcsLog) を作成できます。インストール手順の一部として実行するなど、データベースを後で作成することもできます。

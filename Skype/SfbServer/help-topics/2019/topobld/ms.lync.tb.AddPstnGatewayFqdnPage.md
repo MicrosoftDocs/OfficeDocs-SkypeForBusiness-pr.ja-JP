@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
 description: エンタープライズ VoIP コンポーネントを PSTN またはプライベート ブランチ エクスチェンジ (PBX) に接続する公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。
-ms.openlocfilehash: fb9fc10c9fca8235bea20bffb5e5fab090afaf69
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8c85168d14a4e095c690e846a8bf720d4dd9f8c5c3d666d71e2a6e8ce01ea6cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116435"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337077"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>PSTN ゲートウェイ FQDN の定義
 
 エンタープライズ VoIP コンポーネントを PSTN またはプライベート ブランチ エクスチェンジ (PBX) に接続する公衆交換電話網 (PSTN) ゲートウェイの完全修飾ドメイン名 (FQDN) を指定します。
 
-詳細については [、「Skype for Business Server の PSTN 接続コンポーネント」を参照してください。](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+詳細については[、「PSTN 接続コンポーネント」を参照Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>関連項目
 

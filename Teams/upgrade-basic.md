@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9453ad770b7ca21b5300b193cbafb932ea7645a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24e13e7f1a47f993b6afc1d7e51496040c91c0ffb4ed1b0eff39ac47d62e2f3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120528"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300763"
 ---
 # <a name="upgrade-basic"></a>Basic のアップグレード
 
@@ -115,7 +115,7 @@ Teams IM (チャットSkype for Businessなど)、互換性のある機能を提
 ユーザーに十分な通知を提供することで、生産性に悪影響を与えることなく Teams に慣れる時間が与え、ユーザー エクスペリエンスが向上します。 通信を送信して、何が変化し、なぜ変化し、どのように準備できるのかを伝えます。
 
 > [!Note]
-> 必要に応じて、この時点Teams管理センターからユーザーのMicrosoft 365を有効にできます。
+> 必要に応じて、この時点Teamsを使用してユーザーのMicrosoft 365 管理センターを有効にできます。
 
 **リソース:**
 

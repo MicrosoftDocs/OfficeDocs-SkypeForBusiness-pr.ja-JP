@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での Windows クライアント インストールのカスタマイズ
+title: クライアントWindowsのインストールをカスタマイズSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
-description: '概要: Skype for Business のインストール方法とツールの概要。'
-ms.openlocfilehash: 001224369e46978e96ee063b31fcb546ef213a05
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: インストール方法とツールの概要をSkype for Business。'
+ms.openlocfilehash: 9679dbf9b5673cc1393f62ba55bcafaeb6423c9d23df6a21d31d57d52017292a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312085"
 ---
-# <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Skype for Business Server での Windows クライアント インストールのカスタマイズ
+# <a name="customize-windows-client-installation-in-skype-for-business-server"></a>クライアントWindowsのインストールをカスタマイズSkype for Business Server
  
-**概要:** Skype for Business のインストール方法とツールの概要。
+**概要:** インストール方法とツールの概要をSkype for Business。
   
 > [!NOTE]
-> Microsoft 365 および Office 365 に付属する Skype for Business のインストール情報については [、「Microsoft 365](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)または Office 365 での Skype for Business クライアントの展開」を参照してください。 
+> Microsoft 365 および Office 365 に付属する Skype for Business のインストール情報については、「Skype for Business クライアントを Microsoft 365 または Office 365 に展開する」を[参照してください](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)。 
   
-エンタープライズ管理者は、このセクションで説明する方法を使用して、ボリューム ライセンス バージョンの Skype for Business の Windows インストーラー ベース (.msi) インストールをカスタマイズできます。 すべてのカスタマイズ オプションを提供するツールは 1 つではないので、Skype for Business 展開ではこれらの方法を組み合わせて使用する可能性があります。 以下のセクションで説明するツールを使用できます。
+Enterprise管理者は、このセクションで説明する方法を使用して、Skype for Business のボリューム ライセンス バージョンの Windows インストーラー ベース (.msi) インストールをカスタマイズできます。 すべてのカスタマイズ オプションを提供するツールは 1 つもないので、これらのメソッドの組み合わせを展開に使用Skype for Business可能性があります。 次のセクションで説明するツールを使用できます。
   
-- Skype for Business server Office カスタマイズ ツール[(OCT)](use-the-office-customization-tool-oct.md)を使用して、Skype for Business および他のユーザー 設定プログラムのセットアップ オプションと機能Officeします。
+- [アプリケーションのOfficeカスタマイズ ツール (OCT)](use-the-office-customization-tool-oct.md)を使用してSkype for Business Serverプログラムなどのセットアップ オプションと機能Skype for BusinessカスタマイズOfficeします。
     
-- [このConfig.xml使用して、Skype for Business Server](use-config-xml-to-perform-installation-tasks.md) のインストール タスクを実行し、ネットワーク インストール ポイントのパスを指定し、サイレント インストールを実行します。
+- [ネットワーク Config.xmlのパスを指定](use-config-xml-to-perform-installation-tasks.md)し、サイレント インストールSkype for Business Server実行するには、このコマンドを使用してインストール タスクを実行します。
     
-- [Skype for Business Server の](use-setup-command-line-options.md) セットアップ コマンド ライン オプションを使用して、インストールConfig.xmlファイルを指定します。
+- [インストール時に使用するSkype for Business Server](use-setup-command-line-options.md)ファイルをConfig.xmlセットアップ コマンド ライン オプションを使用します。
     
-- グループ ポリシー オブジェクト エディター MMC スナップインを使用して[、Skype for Business Server](configure-client-bootstrapping-policies.md)でクライアント ブートストラップ ポリシーを構成します。
+- [グループ ポリシー オブジェクト エディター](configure-client-bootstrapping-policies.md) MMC スナップSkype for Business Serverを使用して、クライアント ブートストラップ ポリシーを構成します。
     
-製品スイートを展開する場合は、他にも構成Officeがあります。 このセクションのトピックでは、これらのカスタマイズ ツールの概要を示し、Skype for Business に固有の考慮事項について説明します。 各ツールの詳細な Office ヘルプへのリンクもあります。 
+製品スイートの展開時に構成する他のオプションOffice可能性があります。 このセクションのトピックでは、これらのカスタマイズ ツールの概要を説明し、これらのカスタマイズ ツールに固有の考慮事項Skype for Business。 各ツールの詳細な Office ヘルプへのリンクもあります。 
   
 

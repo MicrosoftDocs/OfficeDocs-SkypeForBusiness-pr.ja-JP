@@ -14,20 +14,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 10c3c782ad824c46cf343ec611bcc70e79bdcd78
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 3b7bb978aa977f02a96a0c4a06f5b78cf23496fcd32fe4ebe1e714d1ac527874
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320549"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP フェデレーション パートナー: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
 - [XMPP パートナー構成の編集または作成](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-edit-xmpp-partner-configuration)
 
-- [XMPP フェデレーション パートナーのネゴシエーション設定テーブル](/previous-versions/office/lync-server-2013/lync-server-2013-negotiation-settings-for-xmpp-federated-partners)
+- [XMPP 設定パートナーのネゴシエーション の一覧](/previous-versions/office/lync-server-2013/lync-server-2013-negotiation-settings-for-xmpp-federated-partners)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。

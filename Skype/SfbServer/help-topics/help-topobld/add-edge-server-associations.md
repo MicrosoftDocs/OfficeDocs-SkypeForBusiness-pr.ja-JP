@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: このページを使用して、音声ビデオ トラフィック用にこのエッジ プールを使用するフロント エンド プールと Standard Edition サーバーを選択します。
-ms.openlocfilehash: eea5cf4893b3ed7000a406b2a307e123b2bbb7f8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 546e93f4e0cae719e0aa0bf871c4a0d523b9e23f181dfb5e732546600d171f53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320489"
 ---
 # <a name="add-edge-server-associations"></a>エッジ サーバーの関連付けの追加
  
@@ -28,6 +28,6 @@ ms.locfileid: "49800217"
   
 各フロント エンド プールは、1 つのエッジ プールとのみ関連付けることができます。別のエッジ プールと既に関連付けられているプールを選択すると、そのプールと前のエッジ プールとの関連付けが解除されて変更されます。
   
-また、このエッジ サーバーまたはエッジ プールを仲介サーバーまたは仲介サーバー プールに関連付け、外部ユーザーに対してエンタープライズ VoIP有効にすることもできます。
+また、このエッジ サーバーまたはエッジ プールを仲介サーバーまたは仲介サーバー プールに関連付け、外部ユーザーのエンタープライズ VoIPを有効にすることもできます。
   
 
