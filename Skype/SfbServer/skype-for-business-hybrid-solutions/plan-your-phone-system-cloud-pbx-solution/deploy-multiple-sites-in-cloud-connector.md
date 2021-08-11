@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: クラウド コネクタ エディションでの複数の PSTN サイトの展開について説明します。
-ms.openlocfilehash: 059b9a39a082e876b1dd9cd772a235c384a29107
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289385"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>クラウド コネクタでの複数サイトの展開
 
 > [!Important] 
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
 クラウド コネクタ エディションでの複数の PSTN サイトの展開について説明します。
   
@@ -34,7 +34,7 @@ ms.locfileid: "51098403"
   
 ## <a name="multiple-public-switched-telephone-network-pstn-sites"></a>複数の公衆交換電話網 (PSTN) サイト
 
-次に、Skype for Business Cloud Connector Edition をさまざまな PSTN サイトに展開する構成例を示します。 展開を開始する前に、構成設定が正しいか確認してください。
+次に、さまざまな PSTN サイトに対してSkype for Business クラウド コネクタ エディション構成例を示します。 展開を開始する前に、構成設定が正しいか確認してください。
   
 PSTN サイト 1
   

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: カナダで利用できるMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 29bced17ee6b0dd9c5240651728f390b2f014ac3
-ms.sourcegitcommit: 358038cee16ac041da10a67c26cf463901ae53d8
+ms.openlocfilehash: b1b28b9caa3479de81d64639a0d638e3d5eada59967e1328f806b55993363472
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52669219"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279774"
 ---
 # <a name="availability-in-canada"></a>カナダでの利用可能性
 

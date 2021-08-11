@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会議の構成の設定では、ユーザーによってスケジュールされている会議にユーザーが参加するときの操作方法を定義します。 これらの設定は、スケジュールされている会議にのみ適用されます。 クライアントで [今すぐ会議] オプションをクリックして作成されたアドホック会議には適用されません。
-ms.openlocfilehash: 3d37b1894531a62f605f083cbe1e2f36953f2ff2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4038f4175849481c43d2d8a9fc0849f44f0530906c3702580a892cd0edb17871
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326493"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>会議の構成: 新規作成または現在の形式のままで編集
 
@@ -44,7 +44,7 @@ ms.locfileid: "51121131"
 
   - **すべてのユーザー** 発表者になるユーザーを自動的に指定するには、このオプションを選択します。
 
-- **既定で割り当てられた会議の種類** この設定は、Outlook Conferenceing Addin が常に開催者の割り当てられた会議を使用して会議をスケジュールするかどうかを制御します。つまり、スケジュールされた会議には常に同じ参加 URL と音声情報が含まれます。 このチェック ボックスをオンにすると、スケジュールされる会議には常に同じ参加 URL が与えられます。 このチェック ボックスをオフにすると、会議ごとに異なる参加 URL が使用されます。
+- **既定で割り当てられた会議の種類** この設定は、Outlook 会議アドインが常に開催者の割り当てられた会議を使用して会議をスケジュールするかどうかを制御します。つまり、スケジュールされた会議は常に同じ参加 URL と音声情報を持っています。 このチェック ボックスをオンにすると、スケジュールされる会議には常に同じ参加 URL が与えられます。 このチェック ボックスをオフにすると、会議ごとに異なる参加 URL が使用されます。
 
 - **既定で匿名ユーザーを許可する** 匿名 (つまり、認証されていない) ユーザーが既定で会議に出席できる場合は、このチェック ボックスをオンにします。 匿名ユーザーが既定で会議に出席できない場合は、このチェック ボックスをオフにします。
 
@@ -56,4 +56,4 @@ ms.locfileid: "51121131"
 
 - **カスタム フッター テキスト** カスタム会議出席依頼で使用するテキストを入力します。
 
-会議の構成の操作の詳細については、「操作」のドキュメントの「[Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings)」を参照してください。 大規模ミーティングの会議構成の設定については、「計画」のドキュメントの「[Setting Up Support for Large Meetings](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-support-for-large-meetings)」を参照してください。
+会議構成の操作の詳細については、「操作」のドキュメントの「[Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings)」を参照してください。大規模ミーティングの会議構成の設定については、「計画」のドキュメントの「[Setting Up Support for Large Meetings](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-support-for-large-meetings)」を参照してください。

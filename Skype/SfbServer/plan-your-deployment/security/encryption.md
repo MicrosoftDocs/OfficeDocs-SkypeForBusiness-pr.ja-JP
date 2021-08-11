@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の暗号化
+title: ユーザーの暗号化Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
-description: Skype for Business Server では、TLS と MTLS を使用してインスタント メッセージを暗号化します。 すべてのサーバー間トラフィックでは、トラフィックが内部ネットワークに限定されているのか、内部ネットワーク境界を越えた場合でも、MTLS が必要です。 Skype for Business Server をサードパーティの IPPBX システムまたは SIP トランク TLS に接続する場合は、オプションですが、仲介サーバーとメディア ゲートウェイの間で強く推奨されます。 このリンクで TLS が構成されている場合は、MTLS が必要です。 したがって、仲介サーバーによって信頼されている CA からの証明書を使用してゲートウェイを構成する必要があります。
-ms.openlocfilehash: 269a5394f5438802c68dabed17081c71a353a2b5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server TLS と MTLS を使用してインスタント メッセージを暗号化します。 すべてのサーバー間トラフィックでは、トラフィックが内部ネットワークに限定されているのか、内部ネットワーク境界を越えた場合でも、MTLS が必要です。 サードパーティの IPPBX Skype for Business Server SIP トランク TLS に接続する場合はオプションですが、仲介サーバーとメディア ゲートウェイの間で強く推奨されます。 このリンクで TLS が構成されている場合は、MTLS が必要です。 したがって、仲介サーバーによって信頼されている CA からの証明書を使用してゲートウェイを構成する必要があります。
+ms.openlocfilehash: a315b26f14db16759eb2c6c6fc9d6d6562060221efdd1b642f259aeecffadc7b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289535"
 ---
-# <a name="encryption-for-skype-for-business-server"></a>Skype for Business Server の暗号化
+# <a name="encryption-for-skype-for-business-server"></a>ユーザーの暗号化Skype for Business Server
  
-Skype for Business Server では、TLS と MTLS を使用してインスタント メッセージを暗号化します。 すべてのサーバー間トラフィックでは、トラフィックが内部ネットワークに限定されているのか、内部ネットワーク境界を越えた場合でも、MTLS が必要です。 Skype for Business Server をサードパーティの IPPBX システムまたは SIP トランク TLS に接続する場合は、オプションですが、仲介サーバーとメディア ゲートウェイの間で強く推奨されます。 このリンクで TLS が構成されている場合は、MTLS が必要です。 したがって、仲介サーバーによって信頼されている CA からの証明書を使用してゲートウェイを構成する必要があります。
+Skype for Business Server TLS と MTLS を使用してインスタント メッセージを暗号化します。 すべてのサーバー間トラフィックでは、トラフィックが内部ネットワークに限定されているのか、内部ネットワーク境界を越えた場合でも、MTLS が必要です。 サード パーティSkype for Business Server IPPBX システムまたは SIP トランク TLS に接続する場合、TLS はオプションですが、仲介サーバーとメディア ゲートウェイの間で強く推奨されます。 このリンクで TLS が構成されている場合は、MTLS が必要です。 したがって、仲介サーバーによって信頼されている CA からの証明書を使用してゲートウェイを構成する必要があります。
   
 > [!NOTE]
-> SSL 3.0 に関するセキュリティ アドバイザリが 2014 年に公開されました。 Skype for Business Server 2015 での SSL 3.0 の無効化は、サポートされるオプションです。 セキュリティ アドバイザリの詳細については [、「Lync Server 2013 および Skype for Business Server 2015 での SSL 3.0](/archive/blogs/uclobby/disabling-ssl-3-0-in-lync-server-2013)の無効化」を参照してください。<br/>
-**セキュリティに関する注意:** 最も強力な暗号化プロトコルを使用するために、Skype for Business Server 2015 は TLS 暗号化プロトコルをクライアントに提供します **。TLS 1.2 、TLS 1.1、TLS 1.0。** TLS は Skype for Business Server 2015 の重要な側面であり、サポートされている環境を維持するために必要です。<br/>
-**セキュリティに関する注意:** 最も強力な暗号化プロトコルを使用するために、Skype for Business Server 2019 は、TLS 暗号化プロトコルをクライアントに次の順序で提供します **。TLS 1.3、TLS 1.2。** TLS は Skype for Business Server 2019 の重要な側面であり、サポートされている環境を維持するために必要です。 
+> SSL 3.0 に関するセキュリティ アドバイザリが 2014 年に公開されました。 2015 年 2015 年に SSL 3.0 を無効にSkype for Business Serverオプションです。 セキュリティ アドバイザリの詳細については[、「Disabling SSL 3.0 in Lync Server 2013 and Skype for Business Server 2015」を参照](/archive/blogs/uclobby/disabling-ssl-3-0-in-lync-server-2013)してください。<br/>
+**セキュリティに関する注意:** 最も強力な暗号化プロトコルを使用するために、Skype for Business Server 2015 は TLS 暗号化プロトコルをクライアントに提供します **。TLS 1.2 、TLS 1.1、TLS 1.0。** TLS は 2015 年Skype for Business Server重要な側面であり、サポートされている環境を維持するために必要です。<br/>
+**セキュリティに関する注意:** 最も強力な暗号化プロトコルを使用するために、Skype for Business Server 2019 は TLS 暗号化プロトコルをクライアントに次の順序で提供します **。TLS 1.3、TLS 1.2。** TLS は 2019 年Skype for Business Server重要な側面であり、サポートされている環境を維持するために必要です。 
   
 次の表に、各種トラフィックのプロトコル要件をまとめます。 
   
@@ -52,4 +52,4 @@ Skype for Business Server では、TLS と MTLS を使用してインスタン�
   
 ## <a name="fips"></a>FIPS
 
-Windows Server オペレーティング システムがシステム暗号化に FIPS 140-2 アルゴリズムを使用するように構成されている場合、Skype for Business Server および Microsoft Exchange Server 2016 は、連邦情報処理標準 (FIPS) 140-2 アルゴリズムをサポートします。 FIPS サポートを実装するには、Skype for Business Server を実行している各サーバーを構成してサポートする必要があります。
+Skype for Business Server および Microsoft Exchange Server 2016 は、Windows Server オペレーティング システムがシステム暗号化に FIPS 140-2 アルゴリズムを使用するように構成されている場合、連邦情報処理標準 (FIPS) 140-2 アルゴリズムをサポートします。 FIPS サポートを実装するには、FIPS サポートをサポートSkype for Business Serverサーバーを構成する必要があります。

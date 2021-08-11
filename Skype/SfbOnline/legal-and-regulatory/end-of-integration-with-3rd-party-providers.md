@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 2021 年 7 月 31 日に、サード パーティの電話会議プロバイダー (サード パーティ ACP) との Skype for Business の統合について、サポート終了プログラムが終了します。
-ms.openlocfilehash: ca97e2f243cbc9884cc724b976829fbe8f421b2c
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7da07f0c53d74965f5dd34dc26cecd41d94ab5e03ef68c0f2641ba9bb3950941
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298787"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>サード パーティの電話会議プロバイダー Skype for Business統合のためのサポート終了プログラム 
 

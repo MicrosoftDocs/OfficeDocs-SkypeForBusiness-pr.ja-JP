@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: データを管理および監視する方法に関する記事Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1682565d015d104ca4a60d2770e526453bea535a
-ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
+ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071045"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279704"
 ---
 # <a name="manage-and-monitor-teams"></a>管理と監視Teams
 
@@ -43,7 +43,7 @@ Teams、Teams サービスを管理および監視し、組織内のユーザー
 
 - [通話品質を監視および管理します](monitor-call-quality-qos.md)。 この記事では、組織の通話品質を監視および改善するために使用できるツールを使用する方法について説明します。
 
-- [[管理センター Teamsレポート] と [](teams-analytics-and-reports/teams-reporting-reference.md)管理センター] の[[Microsoft 365] をクリックします](teams-activity-reports.md)。 利用できるレポートと、これらのレポートを使用して使用状況とサービスの正常性を監視するTeamsについては、以下の記事を参照してください。
+- [[管理センター] Teamsレポート] と [](teams-analytics-and-reports/teams-reporting-reference.md)レポート[] の [レポート] Microsoft 365 管理センター。](teams-activity-reports.md) 利用できるレポートと、これらのレポートを使用して使用状況とサービスの正常性を監視するTeamsについては、以下の記事を参照してください。
 
 - [サービスを運用し](teams-analytics-and-reports/teams-reporting-reference.md) 、 [サービスを強化します](upgrade-enhance-my-service.md)。 これらの記事では、サービスの運用と強化の方法に関するガイドラインとロードマップTeamsしてください。
 
@@ -55,5 +55,5 @@ Teams、Teams サービスを管理および監視し、組織内のユーザー
 - [アプリ、ボット、コネクタ](deploy-apps-microsoft-teams-landing-page.md)
 
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 

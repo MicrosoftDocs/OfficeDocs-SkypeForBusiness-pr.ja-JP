@@ -15,28 +15,28 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
-description: Skype for Business Cloud Connector Edition を展開および構成する手順を完了したら、通話を行って受信できると確認します。
-ms.openlocfilehash: fb46c9b48367760d2c29e4ed7330e28c92f20f09
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: サーバーを展開して構成する手順を完了したら、Skype for Business クラウド コネクタ エディションを行って受信できると確認します。
+ms.openlocfilehash: 1cbfed0716ef88bf48f8dadf0214c48bcd2031e34343da0ce59bd84d6d82d2b2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094815"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279923"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>クラウド コネクタの展開の検証
 
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
  
-Skype for Business Cloud Connector Edition を展開および構成する手順を完了したら、通話を行って受信できると確認します。
+サーバーを展開して構成する手順を完了したら、Skype for Business クラウド コネクタ エディションを行って受信できると確認します。
   
 ## <a name="validate-the-deployment"></a>展開の検証
 
-1. セットアップしたユーザー アカウントを使用して、Skype for Business クライアントにログインします。
+1. セットアップしSkype for Businessアカウントを使用して、クライアントにログインします。
     
 2. クライアントから PSTN 番号を呼び出し、通話が成功したと確認します。
     
-3. PSTN 番号に関連付けられている電話または他のデバイスを使用して、Skype for Business クライアントを呼び出し、通話が成功したと確認します。
+3. PSTN 番号に関連付けられている電話または他のデバイスを使用して、クライアントSkype for Business呼び出しが成功したと確認します。
     
     > [!NOTE]
     > 追加のサイトを追加したり、サイトを変換して HA サポートを有効にした後で、正常に通話を行えるのを確認する必要があります。 

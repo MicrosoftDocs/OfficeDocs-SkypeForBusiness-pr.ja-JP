@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での通話の評価
+title: '[通話の評価] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,67 +11,67 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
-description: '概要: Skype for Business Server の通話の評価機能について学習します。'
-ms.openlocfilehash: 597a8213576e7aa2316ace68ed91288475df2a0d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: [通話の評価] 機能について、Skype for Business Server。'
+ms.openlocfilehash: 6623729dced8128e010ac0a61dfd2fccd95f1c558deda1342b0db92936f0b31f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814337"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326433"
 ---
-# <a name="rate-my-call-in-skype-for-business-server"></a>Skype for Business Server での通話の評価
+# <a name="rate-my-call-in-skype-for-business-server"></a>[通話の評価] Skype for Business Server
 
-**概要:** Skype for Business Server の通話の評価機能について学習します。
+**概要:** 詳細については、「通話料金」の機能Skype for Business Server。
 
-通話の評価は、エンタープライズがエンド ユーザーからフィードバックを得る方法を提供する、Windows 上の Skype for Business 2015 および 2016 クライアントの新機能でした。
+Rate My Call は、Skype for Business Windows の Skype for Business および 2016 クライアントの新機能であり、企業はエンド ユーザーからフィードバックを受け取る方法を提供します。
 
-[通話の評価] ウィンドウには、"スター" 評価システムと、音声通話とビデオ通話用の定義済みトークンが用意されています。 また、管理者はユーザー設定フィールドを有効にしてフィードバックを提供できます。
+[通話のレート] ウィンドウには、"スター" 評価システムと、音声通話とビデオ通話用の定義済みトークンが用意されています。 さらに、管理者はユーザー設定フィールドを有効にしてフィードバックを提供できます。
 
-収集された通話の評価データは、現在、既存の監視レポートには含まれていませんが、個別の監視レポートがあります。 データは、クエリSQL実行してアクセスできるテーブルにSQLされます。
+収集されたレートの自分の通話データは、現在、既存の監視レポートには含まれていませんが、個別の監視レポートがあります。 データは、クエリSQL実行してアクセスできるテーブルSQLされます。
 
-## <a name="rate-my-call-prerequisites"></a>通話の評価の前提条件
+## <a name="rate-my-call-prerequisites"></a>通話の前提条件を評価する
 
-Skype for Business Server 展開のユーザーが通話の評価機能にアクセスするには、次のコンポーネントセットを展開して構成する必要があります。
+アプリの展開のユーザー Skype for Business Server、Rate My Call 機能にアクセスするには、次のコンポーネントセットを展開して構成する必要があります。
 
--  Skype for Business Server (バージョン 9160 以上) がインストールされている必要があります。
+-  インストールされている必要Skype for Business Server (バージョン 9160 以上)。
 
-- ユーザーに Skype for Business の最新バージョンをインストールして更新し、Skype for Business UI の使用を求める。
+- ユーザーに最新バージョンのアプリをインストールして更新Skype for Business UI を使用Skype for Businessします。
 
-- ユーザーは、Skype for Business Server フロントエンド プールにホームとして設定されている必要があります。
+- ユーザーは、フロント エンド プールSkype for Business Serverする必要があります。
 
-- Skype for Business Server 監視データベースが展開され、Skype for Business Server プールに関連付けられている必要があります。
+- 監視データベースが展開されSkype for Business Serverプールに関連付けられているSkype for Business Serverがあります。
 
 - 通話品質ダッシュボード (CQD) を展開することをお勧めします。
 
-## <a name="configure-rate-my-call"></a>通話の評価を構成する
+## <a name="configure-rate-my-call"></a>自分の通話のレートを構成する
 
-[通話の評価] 機能は、クライアント ポリシーで既定で次の設定で有効になっています。
+[通話の割合] 機能は、クライアント ポリシーで既定で有効になっています。設定は次のとおりです。
 
-- 通話の表示率 - 10%
+- 通話の表示割合を評価する - 10%
 
-- 通話の評価カスタム ユーザー フィードバックを許可 - 無効
+- 通話の評価 カスタム ユーザー フィードバックを許可する - 無効
 
-基本機能を有効にする操作は必要ありませんが、カスタム フィードバックが必要な場合は、個別に有効にする必要があります。 次のWindows PowerShellは、エンド ユーザーのカスタム フィードバックを有効にし、間隔を 10% から 80% に変更する例です。
+ただし、基本機能を有効にする操作は必要ありませんが、カスタム フィードバックを必要とする場合は、個別に有効にする必要があります。 次のWindows PowerShellコマンドレットは、カスタム エンド ユーザーフィードバックを有効にし、間隔を 10% から 80% に変更する例です。
 
 ```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
 ```
 
-## <a name="accessing-rate-my-call-data"></a>通話データの評価へのアクセス
+## <a name="accessing-rate-my-call-data"></a>自分の通話データのレートにアクセスする
 
-ユーザーからのデータは、監視データベースの 2 つのテーブルに収集されます。
+ユーザーからのデータは、監視データベース内の 2 つのテーブルに収集されます。
 
- **[QoeMetrics].[dbo].[CallQualityFeedbackToken]** - この表には、エンド ユーザーによるトークン ポーリングの結果が含まれます。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackToken]** - この表には、エンド ユーザーによるトークン ポーリングの結果が含まれます。
 
- **[QoeMetrics].[dbo].[CallQualityFeedbackTokenDef]** - このテーブルにはトークン定義が含まれます。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedbackTokenDef]** - このテーブルにはトークン定義が含まれます。
 
-トークン定義は次のようにコード化されています。
+トークン定義は次のようにコード化されます。
 
 |||
 |:-----|:-----|
-|1   <br/> |DistortedSpeech  <br/> |
-|2   <br/> | ElectronicFeedback <br/> |
-|3   <br/> | BackgroundNoise <br/> |
+|1  <br/> |歪んだSpeech  <br/> |
+|2  <br/> | ElectronicFeedback <br/> |
+|3  <br/> | BackgroundNoise <br/> |
 |4   <br/> |MuffledSpeech  <br/> |
 |5   <br/> |Echo  <br/> |
 | 21  <br/> | FrozenVideo <br/> |
@@ -108,9 +108,9 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 |501  <br/> |Reliabilty_Join  <br/> |
 |502  <br/> |Reliabilty_Invite  <br/> |
 
- **[QoeMetrics].[dbo].[CallQualityFeedback]** この表には、"Star" 投票からのポーリング結果と、有効な場合の顧客フィードバックが含されます。
+ **[QoeMetrics]。[dbo]。[CallQualityFeedback]** この表には、"Star" 投票のポーリング結果と、有効な場合の顧客フィードバックが含まれている。
 
-テーブルからのデータは **\* 、[Table.Name]** クエリから選択するか、または Microsoft SQL Server Management Studio を使用して呼び出Microsoft SQL Server Management Studio。
+テーブルからのデータは **\* 、[Table.Name]** クエリからの選択を使用するか、クエリを使用してMicrosoft SQL Server Management Studio。
 
 次のSQLクエリを使用できます。
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>トークン定義の更新
 
-最新の Skype for Business クライアントは、[QoeMetrics] に存在しない可能性がある新しい問題トークン ID ( \> 100) を報告します。dbo].[CallQualityFeedbackTokenDef] テーブル。 データベース テーブルを最新のトークン定義で更新するには、次の SQL コマンドを使用して監視データベースで実行Microsoft SQL Server Management Studio。 このコマンドは、[QoeMetrics] 内のすべてのエントリを置き換えるコマンドです。[dbo].[CallQualityFeedbackTokenDef] テーブル。
+最新のSkype for Businessクライアントは、[QoeMetrics]に存在しない可能性がある新しい問題トークン ID \> (100) を報告します。[dbo]。[CallQualityFeedbackTokenDef] テーブル。 データベース テーブルを最新のトークン定義で更新するには、次の SQL コマンドを使用して監視データベースで実行Microsoft SQL Server Management Studio。 このコマンドは[QoeMetrics]のすべてのエントリを置き換える。[dbo]。[CallQualityFeedbackTokenDef] テーブル。
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

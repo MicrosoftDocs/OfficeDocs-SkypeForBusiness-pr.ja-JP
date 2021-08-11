@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
-description: '概要: 通話品質ダッシュボードのデータ API の一部である統合ログの取得操作について説明します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
-ms.openlocfilehash: 69827fa9f3fd3f56843a41867b029a071799ba66
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 呼び出し品質ダッシュボードのデータ API の一部である統合ログの取得操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
+ms.openlocfilehash: c52546a93cd2feb1a6d97f1909c15453cc864fc49e290466c8e22eb2fd0af9ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278695"
 ---
 # <a name="get-integration-log"></a>統合ログの取得
  
-**概要:** 通話品質ダッシュボードのデータ API の一部である統合ログの取得操作について説明します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。
+**概要:** 呼び出し品質ダッシュボードのデータ API の一部である統合ログの取得操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
   
 統合ログの取得操作は、通話品質ダッシュボードのデータ API の一部です。
   
 ## <a name="get-integration-log"></a>統合ログの取得
 
-統合ログの取得操作は、QoE キューブ処理のアクティビティを記述するログ エントリのリストを返します。
+統合ログの取得操作は、QoE キューブ処理のアクティビティを説明するログ エントリの一覧を返します。
   
-セキュリティ上の理由により、この操作は既定で無効になっています。 無効にすると、空の文字列が返されます。 この操作を有効にするには、管理者は、データ API のweb.config Web アプリケーションのアプリケーションを構成する必要があります。
+この操作は、セキュリティ上の理由から既定で無効になっています。 無効にすると、空の文字列が返されます。 この操作を有効にするには、管理者が Data API のホスト web アプリケーションweb.configを構成する必要があります。
   
 
 |メソッド|**要求 URI**|**HTTP バージョン**|
@@ -49,7 +49,7 @@ ms.locfileid: "49832597"
   
  **応答ヘッダー** - 追加のヘッダーはありません。
   
- **応答本文** - ログ エントリのサンプル構造を次に示します。
+ **応答本文** - ログ エントリの構造の例を以下に示します。
   
 ```json
 [

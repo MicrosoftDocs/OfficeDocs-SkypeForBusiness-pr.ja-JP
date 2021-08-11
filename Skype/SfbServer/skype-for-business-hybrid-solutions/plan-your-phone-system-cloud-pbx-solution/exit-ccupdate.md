@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
-description: Exit-CcUpdate コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの更新のメンテナンス モードを終了します。
-ms.openlocfilehash: 315d6b7dccb6708901128bf8faa29a60f712e833
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このExit-CcUpdateコマンドレットは、ホスト サーバー上の更新Skype for Business クラウド コネクタ エディション終了します。
+ms.openlocfilehash: d55004f071caa67492d5368e36007d9c3c307b90aabbc33d79d1feeb4aa37356
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288841"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
-Exit-CcUpdate コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの更新のメンテナンス モードを終了します。 
+このExit-CcUpdateコマンドレットは、ホスト サーバー上の更新Skype for Business クラウド コネクタ エディション終了します。 
   
-このコマンドレットは Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。 
+このコマンドレットは、Skype for Business クラウド コネクタ エディション 1.4.1、1.4.2 に適用されます。 
   
 ```powershell
 Exit-CcUpdate
@@ -39,7 +39,7 @@ Exit-CcUpdate
 
 ### <a name="example-1"></a>例 1
 
-次のコマンドは、アプライアンスを実稼働モードに戻って実行する状態にします。 
+次のコマンドは、実行するアプライアンスを実稼働モードに戻します。 
   
 ```powershell
 Exit-CcUpdate
@@ -48,14 +48,14 @@ Exit-CcUpdate
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-Enter-CcUpdate コマンドレットを指定してメンテナンス モードにしたアプライアンスがある場合、Exit-CcUpdate コマンドレットは、これらのアプライアンスを実稼働モードに戻します。 
+Enter-CcUpdate コマンドレットを指定してメンテナンス モードにしたアプライアンスがある場合、Exit-CcUpdate コマンドレットはこれらを運用モードに戻します。 
   
-アプライアンスをメンテナンス モードにすることの詳細については、Enter-CcUpdate を参照してください。
+アプライアンスをメンテナンス モードに設定する方法の詳細については、「Enter-CcUpdate」を参照してください。
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Exit-CcUpdate　コマンドレットはパイプライン入力を受け入れません。
+なし。 このExit-CcUpdateは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

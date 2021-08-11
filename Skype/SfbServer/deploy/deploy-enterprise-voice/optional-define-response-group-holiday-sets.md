@@ -1,5 +1,5 @@
 ---
-title: (省略可能)Skype for Business で応答グループの休日セットを定義する
+title: (省略可能)[応答グループの休日セットを定義する] Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Skype for Business Server グループの応答グループ休日セットを作成または変更エンタープライズ VoIP。
-ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 応答グループの休日セットを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: a265f1c8a09133dec6a9f88a705ca6041b1a09a167b5a24252a540e8152deca8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298697"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(省略可能)Skype for Business で応答グループの休日セットを定義する
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(省略可能)[応答グループの休日セットを定義する] Skype for Business
  
-Skype for Business Server グループの応答グループ休日セットを作成または変更エンタープライズ VoIP。
+応答グループの休日セットを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
   
 休日設定では、応答グループが営業しない日を定義し、その日に実行するアクションを指定します。休日セットは、応答グループに適用する休日のコレクションです。
   
@@ -33,7 +33,7 @@ Skype for Business Server グループの応答グループ休日セットを作
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. 定義する休日ごとに、以下を実行します。
     
@@ -57,7 +57,7 @@ Skype for Business Server グループの応答グループ休日セットを作
 
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business での応答グループ ワークフローの設計と作成](designing-and-creating-response-group-workflows.md)
+[ワークフローでの応答グループ ワークフローの設計とSkype for Business](designing-and-creating-response-group-workflows.md)
 
 [New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

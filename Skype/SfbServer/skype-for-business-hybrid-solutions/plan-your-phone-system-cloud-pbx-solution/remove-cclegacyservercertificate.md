@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ff21cecb-5035-48fd-9705-11ea81ce7df6
-description: Remove-CcLegacyServerCertificate コマンドレットは、Renew-CcCACertificate または Renew CcServerCertificate コマンドレットの実行後に、中央管理ストア、仲介サーバーおよびエッジ サーバー上にあるレガシー サーバーの証明書を削除します。
-ms.openlocfilehash: f3fe17e8c6c559d1a2c8ab14543807f82c4b6813
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Remove-CcLegacyServerCertificate コマンドレットは、Renew-CcCACertificate または Renew CcServerCertificate コマンドレットを実行した後、中央管理ストア、仲介サーバー、およびエッジ サーバー上の従来のサーバー証明書を削除します。
+ms.openlocfilehash: 6c1665d0c21e5afd25ed630fc1da4f1987264d9325fec2058981fe91a1edc0bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288735"
 ---
 # <a name="remove-cclegacyservercertificate"></a>Remove-CcLegacyServerCertificate
  
-Remove-CcLegacyServerCertificate コマンドレットは、Renew-CcCACertificate または Renew CcServerCertificate コマンドレットの実行後に、中央管理ストア、仲介サーバーおよびエッジ サーバー上にあるレガシー サーバーの証明書を削除します。
+Remove-CcLegacyServerCertificate コマンドレットは、Renew-CcCACertificate または Renew CcServerCertificate コマンドレットを実行した後、中央管理ストア、仲介サーバー、およびエッジ サーバー上の従来のサーバー証明書を削除します。
   
 ```powershell
 Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}] 
@@ -33,7 +33,7 @@ Remove-CcLegacyServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 ### <a name="example-1"></a>例 1
 
-次の例では、中央管理ストア、仲介サーバーおよびエッジ サーバーに対して発行された証明書を更新した後にそれらのレガシー証明書を削除します。
+次の例では、証明書を更新した後、中央管理ストア、仲介サーバー、エッジ サーバーに対して発行された従来の証明書を削除します。
   
 ```powershell
 Remove-CcLegacyServerCertificate
@@ -41,7 +41,7 @@ Remove-CcLegacyServerCertificate
 
 ### <a name="example-2"></a>例 2
 
-次の例では、仲介サーバーおよびエッジ サーバーに対して発行された証明書を更新した後にそれらの証明書を削除します。 
+次の例では、証明書を更新した後に仲介サーバーとエッジ サーバー用に発行された証明書を削除します。 
   
 ```powershell
 Remove-CcLegacyServerCertificate -Roles @("MS", "Edge") 
@@ -50,14 +50,14 @@ Remove-CcLegacyServerCertificate -Roles @("MS", "Edge")
 ## <a name="parameters"></a>パラメーター
 <a name="Examples"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| 役割 <br/> |省略可能  <br/> |System.Array  <br/> | Cloud Connector サーバーの役割のアレイ。 <br/> |
+| Roles <br/> |省略可能  <br/> |System.Array  <br/> | クラウド コネクタ サーバーの役割の配列。 <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Remove-CcLegacyServerCertificate コマンドレットはパイプライン入力を受け入れません。
+なし。 このRemove-CcLegacyServerCertificateは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

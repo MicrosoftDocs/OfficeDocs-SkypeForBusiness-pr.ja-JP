@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: クラウド コネクタ エディションの展開をアップグレードする方法について説明します。
-ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2670557f3f5ab44545c511b759971a457bd37e333d01b323ad6cc35d82526858
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279973"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>クラウド コネクタの新バージョンへのアップグレード
 
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
  
 クラウド コネクタ エディションの展開をアップグレードする方法について説明します。
   
-オンライン管理テナント アカウントをセットアップし、自動更新を有効にしている場合、Skype for Business Cloud Connector Edition の既存の展開は、自動更新のタイム ウィンドウ構成に従って、自動的に新しいバージョンにアップグレードされます。 手動アップグレードを実行できます。 
+オンライン管理テナント アカウントをセットアップし、自動更新を有効にしている場合、Skype for Business クラウド コネクタ エディション の既存の展開は、自動更新のタイム ウィンドウの構成に従って、自動的に新しいバージョンにアップグレードされます。 手動アップグレードを実行できます。 
   
 Cloud Connector Edition バージョン 1.4.1 以降では、既定で自動更新が実行されます。 最新バージョン (2.1) に手動でアップグレードする場合は、[](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade)後の「単一サイトを新しいバージョンにアップグレードする」を参照してください。
   
@@ -54,11 +54,11 @@ Cloud Connector Edition バージョン 1.4.1 以降では、既定で自動更�
     
   - ダウンロード サイトからバージョン ファイルをダウンロードして確認します。
     
-  - 新しいバージョンの .msi ファイルをダウンロードします。 
+  - 新しいバージョンのファイルを.msiします。 
     
   - 古い msi ファイルをアンインストールします。新しい msi ファイルをインストールします。
     
-  - Skype for Business ビットの新しいバージョンをダウンロードします。
+  - 新しいバージョンのビットをSkype for Businessします。
     
   - Register-CcAppliance を呼び出してアプライアンスを登録します。
     
@@ -78,7 +78,7 @@ Cloud Connector Edition バージョン 1.4.1 以降では、既定で自動更�
     
 2. から新しいバージョンのCloudConnector.msiインストールします [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。
     
-3. インストールするバージョンの CloudConnector.ini ファイルを持ち、環境に必要なすべての値を更新したと確認します。 以前のリリースの .ini ファイルは使用できません。 クラウド コネクタをアップグレードする場合は、トピック「クラウド[](prepare-your-cloud-connector-appliance.md)コネクタ アプライアンスの準備」を参照し、SiteName と EnableReferSupport が CloudConnector.ini ファイルの正しい値に設定されていることを確認してください。
+3. インストールするバージョンの CloudConnector.ini ファイルを持ち、環境に必要なすべての値を更新したと確認します。 以前のリリースの .iniファイルを使用することはできません。 クラウド コネクタをアップグレードする場合は、トピック「クラウド[](prepare-your-cloud-connector-appliance.md)コネクタ アプライアンスの準備」を参照し、SiteName と EnableReferSupport が CloudConnector.ini ファイルの正しい値に設定されていることを確認してください。
     
 4. PowerShell コンソールを管理者として起動し、次のコマンドレットを実行して現在のアプライアンスを登録します。
     
@@ -106,7 +106,7 @@ Cloud Connector Edition バージョン 1.4.1 以降では、既定で自動更�
 
 サイトに複数のアプライアンスがある場合は、前の手順に従って各アプライアンスを 1 つ 1 つアップグレードしてください。
   
-ドメイン管理者、仮想マシン管理者、セーフ モード管理者、テナント管理者の資格情報を更新する場合は  _、UpdateAllCredentials_ パラメーターを使用してコマンドレットを実行して、すべての資格情報をリセットできます。
+ドメイン管理者、仮想マシン管理者、セーフ モード管理者、テナント管理者の資格情報を更新する場合は _、UpdateAllCredentials_ パラメーターを使用してコマンドレットを実行して、すべての資格情報をリセットできます。
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials

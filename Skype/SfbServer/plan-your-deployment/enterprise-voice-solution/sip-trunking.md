@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での SIP トランキング
+title: SIP トランキング (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
-description: Skype for Business Server の SIP トランキングについてエンタープライズ VoIP
-ms.openlocfilehash: ca3e30c8974e5ac26c2d9c395da228f85c92bac0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: SIP トランキングの詳細については、Skype for Business Server エンタープライズ VoIP
+ms.openlocfilehash: 8254df8366fdbfd03dd5ad0aa2f3253e5f4284b8248d26b131f056d28714bd77
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289735"
 ---
-# <a name="sip-trunking-in-skype-for-business-server"></a>Skype for Business Server での SIP トランキング
+# <a name="sip-trunking-in-skype-for-business-server"></a>SIP トランキング (Skype for Business Server
 
-Skype for Business Server の SIP トランキングについてエンタープライズ VoIP
+SIP トランキングの詳細については、Skype for Business Server エンタープライズ VoIP
 
-セッション開始プロトコル (SIP) は、基本的な電話サービスおよび追加のリアルタイム通信サービス (インスタント メッセージング、会議、プレゼンス検出、マルチメディアなど) のボイス オーバー IP (VoIP) 通信セッションを開始および管理するために使用します。 ここでは、ローカル ネットワークの境界を越えて広がる種類の SIP 接続である、SIP トランクを実装するための計画情報について説明します。
+セッション開始プロトコル (SIP) は、基本的な電話サービスおよび追加のリアルタイム通信サービス (インスタント メッセージング、会議、プレゼンス検出、マルチメディアなど) のボイス オーバー IP (VoIP) 通信セッションを開始および管理するために使用します。ここでは、ローカル ネットワークの境界を越えて広がる種類の SIP 接続である、SIP トランクを実装するための計画情報について説明します。
 
 ## <a name="what-is-sip-trunking"></a>SIP トランクとは
 
@@ -51,9 +51,9 @@ SIP トランクは直接サービス プロバイダーに接続されるため
 
 ### <a name="expanded-voip-services"></a>VoIP サービスの拡張
 
-多くの場合、音声機能が SIP トランキングを展開する主な動機ではありますが、音声サポートは最初のステップにすぎません。 SIP トランキングを使用すると、VoIP 機能を拡張し、Skype for Business Server を有効にして、より豊富なサービスセットを提供できます。 例:
+多くの場合、音声機能が SIP トランキングを展開する主な動機ではありますが、音声サポートは最初のステップにすぎません。 SIP トランキングを使用すると、VoIP 機能を拡張し、Skype for Business Serverサービスのセットを提供できます。 次に例を示します。
 
-- Skype for Business Server を実行していないデバイスのプレゼンス検出が強化され、携帯電話との統合が強化され、ユーザーが携帯電話の通話中を確認できます。
+- モバイル デバイスを実行していないデバイスのプレゼンス検出が強化Skype for Business Server携帯電話との統合が強化され、ユーザーが携帯電話の通話中を確認できます。
 
 - E9-1-1 緊急通話では、911 呼び出しに応答する当局が電話番号から発信者の場所を特定できます。
 
@@ -62,21 +62,21 @@ SIP トランクは直接サービス プロバイダーに接続されるため
 
 ### <a name="sip-trunks-vs-direct-sip-connections"></a>SIP トランクと直接 SIP 接続の比較
 
-トランクという用語は、回線切り替えテクノロジから派生します。 電話交換機器を接続する専用の物理回線を指します。 前身の時刻分割多重化 (TDM) トランクと同様に、SIP トランクは、Skype for Business Server エンタープライズと ITSP という 2 つの別個の SIP ネットワーク間の接続です。 回線交換トランクとは異なり、SIP トランクは仮想接続で、サポートされている SIP トランキング接続の種類に対して確立できます。
+トランクという用語は、回線切り替えテクノロジから派生します。 電話交換機器を接続する専用の物理回線を指します。 前身のタイム ディビジョン 多重化 (TDM) トランクと同様に、SIP トランクは 2 つの独立した SIP ネットワーク (Skype for Business Serverエンタープライズと ITSP の間の接続です。 回線交換トランクとは異なり、SIP トランクは仮想接続で、サポートされている SIP トランキング接続の種類に対して確立できます。
 
-これに対し、直接 SIP 接続は、ローカル ネットワークの境界を越えない SIP 接続です (つまり、内部ネットワーク内の公衆交換電話網 (PSTN) ゲートウェイまたは構内交換機 (PBX) に接続します)。 Skype for Business Server で直接 SIP 接続を使用する方法の詳細については、「Skype for Business Server の直接 SIP 接続 [」を参照してください](direct-sip.md)。
+これに対し、直接 SIP 接続は、ローカル ネットワークの境界を越えない SIP 接続です (つまり、内部ネットワーク内の公衆交換電話網 (PSTN) ゲートウェイまたは構内交換機 (PBX) に接続します)。 直接 SIP 接続を使用する方法の詳細については、「Skype for Business Server の直接 SIP 接続」[を参照Skype for Business Server。](direct-sip.md)
 
 ## <a name="how-do-i-implement-sip-trunking"></a>SIP トランキングを実装する方法
 
-SIP トランキングを実装するには、Skype for Business Server クライアントとサービス プロバイダー間の通信セッションのプロキシとして機能する仲介サーバーを介して接続をルーティングし、必要に応じてメディアをトランスコードする必要があります。
+SIP トランキングを実装するには、仲介サーバーを介して接続をルーティングする必要があります。これは、Skype for Business Server クライアントとサービス プロバイダー間の通信セッションのプロキシとして機能し、必要に応じてメディアをトランスコードします。
 
 各仲介サーバーには、内部ネットワーク インターフェイスと外部ネットワーク インターフェイスがあります。 内部インターフェイスはフロントエンド サーバーに接続します。 外部インターフェイスは、従来、仲介サーバーを公衆交換電話網 (PSTN) ゲートウェイまたは IP-PBX に接続するために使用されたゲートウェイ インターフェイスと呼ばれる。 SIP トランクを実装するには、仲介サーバーの外部インターフェイスを ITSP の外部エッジ コンポーネントに接続します。 ITSP の外部エッジ コンポーネントとは、セッション ボーダー コントローラー (SBC)、ルーター、またはゲートウェイです。
 
-仲介サーバーの詳細については、「Skype for Business Server の仲介 [サーバー コンポーネント」を参照してください](mediation-server.md)。
+仲介サーバーの詳細については、「仲介[サーバー コンポーネント」を参照Skype for Business Server。](mediation-server.md)
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>集中型と分散型 SIP トランキングの比較
 
-集中 SIP トランキングは、ブランチ サイト トラフィックを含むすべての VoIP トラフィックを中央サイト経由でルーティングします。 集中展開モデルはシンプルでコスト効率が高く、通常、Skype for Business Server を使用して SIP トランクを実装する場合に推奨される方法です。
+集中 SIP トランキングは、ブランチ サイト トラフィックを含むすべての VoIP トラフィックを中央サイト経由でルーティングします。 一元的な展開モデルはシンプルでコスト効率が高く、通常、SIP トランクを使用して SIP トランクを実装するための推奨Skype for Business Server。
 
 分散 SIP トランキングは、1 つ以上のブランチ サイトでローカル SIP トランクを実装する展開モデルです。 その後、VoIP トラフィックは、中央サイトを経由せずにブランチ サイトからサービス プロバイダーに直接ルーティングされます。
 
@@ -90,24 +90,24 @@ SIP トランキングを実装するには、Skype for Business Server クラ�
 
 サイトの地理的な場所と、企業内で予想されるトラフィックの量に応じて、すべてのユーザーを中央 SIP トランク経由でルーティングしたくない場合や、一部のユーザーをブランチ サイトの SIP トランク経由でルーティングすることを選択する場合があります。 必要性を分析するために、次の質問に回答してください。
 
-- 各サイトの大小 (つまり、ユーザーが有効になっているユーザーの数エンタープライズ VoIP。
+- 各サイトの大きな数 (つまり、ユーザーに対して有効になっているユーザーの数エンタープライズ VoIP)。
 
 - 各サイトで最も通話を受ける Direct Inward Dialing (DID) 番号はどれですか。
 
 集中型 SIP トランキングと分散型 SIP トランキングのどちらを展開するかを決定するには、費用便益分析が必要です。 必要のない場合にも分散型展開モデルを選択したほうが有益な場合があります。 完全な集中型展開では、すべてのブランチ サイトのトラフィックが WAN リンク経由でルーティングされます。 WAN リンクに必要な帯域幅に費用をかけるより、分散型 SIP トランキングを使用したい場合があります。 たとえば、Standard Edition サーバーを中央サイトにフェデレーションのあるブランチ サイトに展開したり、存続可能ブランチ アプライアンスまたは小さなゲートウェイを持つ存続可能ブランチ サーバーを展開することができます。
 
 > [!NOTE]
-> 分散 SIP トランキングの詳細については [、「Branch site SIP トランキング in Skype for Business Server」を参照してください](branch-site.md)。
+> 分散 SIP トランキングの詳細については、「[ブランチ サイトの SIP トランキング」を参照Skype for Business Server。](branch-site.md)
 
 ### <a name="supported-sip-trunking-connection-types"></a>サポートされている SIP トランキング接続の種類
 
-Skype for Business Server は、SIP トランキングに対して次の接続の種類をサポートしています。
+Skype for Business Server SIP トランキングでは、次の接続の種類がサポートされています。
 
 - Multiprotocol Label Switching (MPLS) は、ネットワーク ノード間でデータを伝送するプライベート ネットワークです。 MPLS ネットワーク内の帯域幅は他のサブスクライバーと共有され、各データ パケットには、あるサブスクライバーのデータを別のサブスクライバーのデータと区別するためのラベルが割り当てられます。 この接続の種類に仮想プライベート ネットワーク (VPN) は必要ありません。 潜在的な欠点は、VoIP トラフィックに優先度を与えないと、過剰な IP トラフィックが VoIP の処理に干渉する可能性があることです。
 
 - 他のトラフィックを使用しないプライベート接続 (専用の光ファイバー接続、T1 回線など) は、通常、最も信頼できるセキュリティで保護された接続の種類です。 この接続の種類には、最高の通話伝送能力がありますが、通常最も費用がかかります。VPN は必要ありません。プライベート接続は、通話件数が多いか、セキュリティと可用性の要件が厳しい組織に適しています。
 
-- インターネットは、最も費用のかからない接続の種類ですが、最も信頼性が低いです。 インターネット接続は、VPN を必要とする唯一の Skype for Business Server SIP トランキング接続の種類です。
+- インターネットは、最も費用のかからない接続の種類ですが、最も信頼性が低いです。 VPN を必要とする SIP トSkype for Business Server接続の種類は、インターネット接続のみです。
 
 #### <a name="selecting-a-connection-type"></a>接続の種類の選択
 
@@ -130,7 +130,7 @@ SIP トランク最大帯域幅 = 最大同時通話数 x (64 kbps + ヘッダ�
 
 ### <a name="codec-support"></a>コーデックのサポート
 
-Skype for Business Server では、次のコーデックのみをサポートしています。
+Skype for Business Serverは、次のコーデックのみをサポートします。
 
 - G.711 A-Law (主に北米以外で使用)
 
@@ -147,7 +147,7 @@ Microsoft 認定 SIP トランキング プロバイダーの詳細について�
 
 ### <a name="topologies-and-components-for-sip-trunking"></a>SIP トランキングのトポロジとコンポーネント
 
-次の図は、Skype for Business Server の SIP トランキング トポロジを示しています。
+次の図は、SIP トランキング トポロジを表Skype for Business Server。
 
 **SIP トランキングのトポロジ**
 
@@ -185,4 +185,4 @@ VPN サーバーを使用する場合、次のガイドラインに従うこと�
 
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server のブランチ サイト SIP トランキング](branch-site.md)
+[ブランチ サイトの SIP トランキング (Skype for Business Server](branch-site.md)

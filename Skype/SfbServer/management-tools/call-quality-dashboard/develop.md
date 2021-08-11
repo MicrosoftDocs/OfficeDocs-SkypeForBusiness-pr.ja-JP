@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の通話品質ダッシュボードの開発
+title: 通話品質ダッシュボードを開発Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
-description: '概要: 通話品質ダッシュボードのソリューションを開発する方法について学習します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
-ms.openlocfilehash: 246a88654438ce4f4fd6138d17b9c53f9fdedf32
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 通話品質ダッシュボードのソリューションを開発する方法について学習します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
+ms.openlocfilehash: d96f314621ab69eb6ad445d9567d7eb7f313aef2c9dc958ef6f93bed58d7eca9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832677"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278705"
 ---
-# <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの開発
+# <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードを開発Skype for Business Server
  
-**概要:** 通話品質ダッシュボードのソリューションを開発する方法について学習します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。
+**概要:** 通話品質ダッシュボードのソリューションを開発する方法について学習します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
   
-このトピックでは、Skype for Business Server の通話品質ダッシュボード (CQD) の開発ドキュメントを提供します。
+このトピックでは、通話品質ダッシュボード (CQD) の開発ドキュメントをSkype for Business Server。
   
-## <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの開発
+## <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードを開発Skype for Business Server
 
-CQD は、カスタム開発を使用して、レポート環境に拡張および統合できます。 
+カスタム開発を使用して、CQD を拡張してレポート環境に統合できます。 
   
-2 セットの Web API を使用できます。1 つはキューブ内のデータに (データ API を介して) アクセスする場合と、もう 1 つは (リポジトリ API を使用して) レポート メタデータにアクセスする場合です。 
+2 組の Web API を使用できます。1 つはキューブ内のデータにアクセスする (データ API を介して)、もう 1 つはレポート メタデータにアクセスする (リポジトリ API を介して) 使用できます。 
   
-- [Skype for Business Server の通話品質ダッシュボード (CQD) のデータ API](data-api.md)
+- [データ API for Call Quality Dashboard (CQD) in Skype for Business Server](data-api.md)
     
-- [Skype for Business Server の通話品質ダッシュボード (CQD) 用リポジトリ API](repository-api.md)
+- [リポジトリ API for Call Quality Dashboard (CQD) in Skype for Business Server](repository-api.md)
     
 - [CQD の開発サンプル](cqd-development-samples.md)
     

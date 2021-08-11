@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理センターで組織の緊急対応の場所を追加、変更、または削除Microsoft Teamsします。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 50343fbd1d16694e46afafe53114f2dde4b7b150
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f9a612bc89972d06bbb87c6905c3ec25c85a5e9171095c46e065a9692e2514b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279833"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>組織の緊急対応の場所の位置情報を追加、変更、削除する
 
@@ -71,7 +71,7 @@ ms.locfileid: "51121505"
 
 [Remove-CsOnlineLisLocation に関するページを参照してください](/powershell/module/skype/remove-csonlinelislocation)。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 - [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)

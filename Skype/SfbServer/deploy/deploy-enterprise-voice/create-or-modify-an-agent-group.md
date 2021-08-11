@@ -1,5 +1,5 @@
 ---
-title: Skype for Business でエージェント グループを作成または変更する
+title: エージェント グループを作成または変更Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
-description: Skype for Business Server の応答グループでエージェント グループを作成または変更エンタープライズ VoIP。
-ms.openlocfilehash: 0c0e7d54008ba6affa2bae5bd3228c93e430a114
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '[応答グループ] でエージェント グループを作成または変更Skype for Business Server エンタープライズ VoIP。'
+ms.openlocfilehash: 3d4be038b156152a16059b717ae872962177478df888f151e95c89e32281f274
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298707"
 ---
-# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Skype for Business でエージェント グループを作成または変更する
+# <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>エージェント グループを作成または変更Skype for Business
  
-Skype for Business Server の応答グループでエージェント グループを作成または変更エンタープライズ VoIP。
+[応答グループ] でエージェント グループを作成または変更Skype for Business Server エンタープライズ VoIP。
   
 エージェント グループを作成する場合は、グループに割り当てられているエージェントを選択し、ルーティング方法やエージェントがグループにサインインできるかどうかなど、追加のグループ設定を指定します。 
   
-Skype for Business のサインインまたはサインアウトとは異なるグループにサインインおよびサインアウトする必要があるエージェントは、正式なエージェントと呼ばれる。 正式なエージェントは、グループにルーティングされた呼び出しを受信する前に、グループにサインインする必要があります。 これは、パートタイム ベースでグループから通話に応答するエージェントには便利な方法です。 正式なエージェントは、Skype for Business のメニュー項目をクリックして、Windows Internet Explorer インターネット ブラウザーを開き、Web ページ コンソールを表示することで、グループにサインインおよびサインアウトします。
+グループにサインインまたはサインアウトする必要があるエージェントは、Skype for Business エージェントと呼ばれる。 正式なエージェントは、グループにルーティングされた呼び出しを受信する前に、グループにサインインする必要があります。 これは、パートタイム ベースでグループから通話に応答するエージェントには便利な方法です。 正式なエージェントは、Skype for Business のメニュー項目をクリックして、Windows Internet Explorer を開き、web ページ コンソールを表示して、グループにサインインおよびサインアウトします。
   
-グループにサインインまたはサインアウトしないエージェントは、非公式エージェントと呼ばれる。 非公式エージェントは、Skype for Business にサインインするとグループに自動的にサインインし、グループからサインアウトできません。
+グループにサインインまたはサインアウトしないエージェントは、非公式エージェントと呼ばれる。 非公式エージェントは、グループにサインインするときに自動的にサインインSkype for Business、グループからサインアウトすることはできません。
   
 社内ユーザーのみがエージェントであることができます。エージェントが社内からオンラインに移動した場合、応答グループ呼び出しはそのエージェントに送られません。
   
@@ -40,14 +40,14 @@ Skype for Business のサインインまたはサインアウトとは異なる�
 > [!IMPORTANT]
 > ユーザーを応答グループ エージェントとして割り当てる場合、ユーザーがプライバシー モードを有効にしているのであれば、"RGS Presence Watcher" 連絡先を検索して連絡先リストに追加する必要があることを通知してください。プライバシー モードを有効にしているが連絡先リストに RGS Presence Watcher がないエージェントは、応答グループに対する通話を受信できません。プライバシー モードを有効にしていないエージェントは、影響されません。 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>Skype for Business Server コントロール パネルを使用してエージェント グループを作成または変更するには
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-an-agent-group"></a>コントロール パネルSkype for Business Server使用してエージェント グループを作成または変更するには
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
     > [!NOTE]
     > 管理ワークフローの委任された応答グループ マネージャーであれば、グループを作成し、自分が管理するワークフローにそれらを使用することができます。 
   
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで、[**応答グループ**] をクリックし、[**グループ**] をクリックします。
     
@@ -63,9 +63,9 @@ Skype for Business のサインインまたはサインアウトとは異なる�
     
 7. [**参加ポリシー**] で、以下のいずれかを選択してグループのサインイン動作を設定します。
     
-   - グループに属するエージェントがそのグループにサインイン/サインアウトする必要がないようにするには、[**非公式**] を選択します。 エージェントは、Skype for Business にサインインすると、グループに自動的にサインインします。
+   - グループに属するエージェントがそのグループにサインイン/サインアウトする必要がないようにするには、[**非公式**] を選択します。 エージェントは、グループにサインインすると自動的にグループにサインインSkype for Business。
     
-   - グループに属するエージェントがそのグループにサインイン/サインアウトする必要があるようにするには、[**公式**] を選択します。 このオプションを選択すると、エージェントは Skype for Business のメニュー項目をクリックして Internet Explorer を開き、グループにサインインおよびサインアウトする web ページ コンソールを表示します。
+   - グループに属するエージェントがそのグループにサインイン/サインアウトする必要があるようにするには、[**公式**] を選択します。 このオプションを選択すると、エージェントは Skype for Business のメニュー項目をクリックしてInternet Explorerを開き、グループにサインインおよびサインアウトする web ページ コンソールを表示します。
     
 8. [**警告時間 (秒)**] で、次の有効なエージェントの呼び出しに移るまでにエージェントを呼び出す時間 (単位は秒、既定値は 20 秒) を指定します。
     
@@ -74,7 +74,7 @@ Skype for Business のサインインまたはサインアウトとは異なる�
   
 9. [**ルーティング方法**] で、グループのエージェントに通話をルーティングする方法を次のように指定します。
     
-   - アイドル時間が最も長いエージェントに最初に新しい呼び出しを提供するには(Skype  for Business で使用可能または非アクティブが最も長い場合)、[最長アイドル] を **クリックします**。 
+   - アイドル時間が最も長いエージェントに最初に新しい呼び出しを提供するには(最も長い場合は [使用可能] または [非アクティブSkype for Businessが存在している) 場合は、[最長アイドル] を **クリックします**。 
     
    - 新しい通話を、有効なすべてのエージェントに同時に提供するには、[**パラレル**] をクリックします。 通話は、最初に受け付けたエージェントに送られます。
     
@@ -113,17 +113,17 @@ Skype for Business のサインインまたはサインアウトとは異なる�
     
      - メンバーシップが非表示にされ、応答グループ管理者が配布リストをエージェント リストに割り当てするように配布リストが構成されている場合、ユーザーはグループを呼び出してメンバーが誰か確認できます。 
     
-     - Exchange グローバル アドレス一覧で非表示にするように配布リストが構成されている場合、応答グループの管理者は、管理者が適切なユーザー権限とアクセス許可を持っていなくても、応答グループ プロセスに適切なユーザー権限とアクセス許可がある場合、配布リストを表示してエージェント リストに割り当てできます。
+     - 配布リストが Exchange グローバル アドレス一覧に非表示にするように構成されている場合、応答グループ管理者は、管理者が適切なユーザー権限とアクセス許可を持っていなくても、応答グループ プロセスに適切なユーザー権限とアクセス許可がある場合に、配布リストを表示してエージェント リストに割り当てすることができます。
     
 11. [**確定**] をクリックします。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>Skype for Business Server 管理シェルを使用してエージェント グループを作成または変更するには
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-agent-group"></a>管理シェルSkype for Business Server使用してエージェント グループを作成または変更するには
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
-3. 新規エージェント グループを作成するには、**New-CsRgsAgentGroup** を使用します。 既存のエージェント グループを変更するには、**Set-CsRgsAgentGroup** を使用します。 コマンド ラインで、次のコマンドを実行します。
+3. 新規エージェント グループを作成するには、**New-CsRgsAgentGroup** を使用します。既存のエージェント グループを変更するには、**Set-CsRgsAgentGroup** を使用します。コマンド ラインで、次のコマンドを実行します。
     
    ```powershell
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];

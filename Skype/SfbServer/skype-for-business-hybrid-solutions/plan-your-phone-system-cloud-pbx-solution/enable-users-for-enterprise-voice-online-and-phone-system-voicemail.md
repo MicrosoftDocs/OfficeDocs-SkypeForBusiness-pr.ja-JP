@@ -18,34 +18,34 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: Skype for Business ユーザーに対して電話システム音声サービスを有効にする方法について学習します。
-ms.openlocfilehash: f1c59505073a7113407f28b7ebbe3a323724782e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: ユーザーの音声サービスを有効電話システムする方法についてSkype for Businessします。
+ms.openlocfilehash: fea5da3bb82281c05edd73ce8e69c7164440513080b7aa804b31abc5d4c65ba7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289075"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>エンタープライズ VoIP オンラインおよび電話システムのボイスメールのユーザーを有効にする
  
 > [!Important]
-> Skype for Business Online は 2021 年 7 月 31 日に廃止され、その後サービスにアクセスできなくなりました。  さらに、Skype for Business Server または Cloud Connector Edition と Skype for Business Online を介したオンプレミス環境間の PSTN 接続はサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その後サービスにアクセスできなくなりました。  さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間でサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
-Skype for Business ユーザーに対して電話システム音声サービスを有効にする方法について学習します。
+ユーザーの音声サービスを有効電話システムする方法についてSkype for Businessします。
   
-オンプレミスの PSTN 接続を使用して電話システムを展開する最後の手順は、ユーザーが電話システムとボイスメールを有効にするための手順です。 これらの機能を有効にするには、グローバル管理者の役割を持つユーザーであり、リモート PowerShell を実行できる必要があります。 Skype for Business Online で有効になっていないすべてのユーザー アカウントについて、このトピックエンタープライズ VoIPする必要があります。
+オンプレミス PSTN 接続を使用して電話システム展開する最後の手順は、ユーザーが電話とボイスメールを電話システムです。 これらの機能を有効にするには、グローバル管理者の役割を持つユーザーであり、リモート PowerShell を実行できる必要があります。 オンラインに対して有効になっていないすべてのユーザー アカウントについて、このトピックのエンタープライズ VoIPするSkype for Businessがあります。
   
-## <a name="enable-phone-system-voice-services"></a>電話システム音声サービスを有効にする
+## <a name="enable-phone-system-voice-services"></a>音声電話システムを有効にする
 
-ユーザーが電話システムボイスメールとボイスメールを有効にするには、Skype for Business Online Connector がサーバーに展開され、ユーザーがホストされたボイスメールを有効にするための確認など、いくつかの初期手順を実行する必要があります。
+電話システム Voice とボイスメールに対してユーザーを有効にするには、Skype for Business Online Connector がサーバーに展開されているのを確認し、ユーザーがホストされたボイスメールを有効にするためのチェックなど、いくつかの初期手順を実行する必要があります。
   
-### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>ユーザーが電話システムの音声とボイスメールを有効にするには
+### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>音声とボイスメールの電話システムを有効にするには
 
 > [!NOTE]
-> Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールの一部です。
-> 最新の [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリースを使用している場合は、Skype for Business Online Connector をインストールする必要があります。
+> Skype for Businessオンライン コネクタは現在、PowerShell モジュールの最新Teams一部です。
+> 最新の[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリースTeams使用している場合は、オンライン コネクタをインストールするSkype for Business必要があります。
 
-1. 開始する前に、Teams PowerShell モジュールがフロントエンド サーバーにインストールされていることを確認します。 インストールされていない場合は、「Teams PowerShell モジュールのインストール」の手順 [に従ってインストールしてください](/microsoftteams/teams-powershell-install)。
+1. 開始する前に、PowerShell Teamsがフロント エンド サーバーにインストールされていることを確認してください。 インストールされていない場合は、「PowerShell モジュールのインストール」のTeams[を使用してインストールしてください](/microsoftteams/teams-powershell-install)。
     
 2. 管理者Windows PowerShell開始します。
     
@@ -66,7 +66,7 @@ Skype for Business ユーザーに対して電話システム音声サービス�
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    例:
+    次に例を示します。
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -75,30 +75,30 @@ Skype for Business ユーザーに対して電話システム音声サービス�
     > [!NOTE]
     > また、ユーザーを SIP アドレス、ユーザー プリンシパル名 (UPN)、ドメイン名とユーザー名 (domain\username)、および Active Directory の表示名 ("Bob Kelly") で指定することもできます。 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>電話システムで有効になっているユーザーの回線 URI とダイヤル プランを更新する
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system"></a>ユーザーが有効になっているユーザーの回線 URI とダイヤル プランを更新電話システム
 
-このセクションでは、電話システムで有効になっているユーザーの回線 URI とダイヤル プランを更新する方法について説明します。 
+このセクションでは、ユーザーに対して有効になっているユーザーの回線 URI とダイヤル プランを更新する方法電話システム。 
   
 ### <a name="to-update-the-line-uri"></a>Line URI を更新するには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. [スタート] メニューまたはデスクトップ ショートカットを使用して、Skype for Business Server コントロール パネルを開きます。
+2. [デスクトップ] スタート メニューまたはデスクトップ ショートカットを使用して、[コントロール パネル] Skype for Business Server開きます。
     
     > [!NOTE]
-    > ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開く方法もできます。 
+    > ブラウザー ウィンドウを開き、[管理者 URL] を入力して[コントロール パネル] Skype for Business Server開きます。 
   
 3. 左側のナビゲーション バーで **[ユーザー]** をクリックします。
     
 4. **[ユーザーの検索]** ボックスに、有効にするユーザー アカウントの表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) の全体か最初の一部の文字列を入力して、**[検索]** をクリックします。
     
-5. 表で、回線 URI を変更する Skype for Business ユーザー アカウントをクリックします。
+5. 表で、行 URI をSkype for Businessするユーザー アカウントをクリックします。
     
-6. [ **回線 URI]** をクリックし、正規化された一意の電話番号 (tel:+14255550200 など) を入力します。 次に、[ **コミット] をクリックします**。
+6. [ **回線 URI]** をクリックし、正規化された一意の電話番号 (tel:+14255550200) を入力します。 次に、[ **コミット] をクリックします**。
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>オンプレミスのコマンドレットを使用してダイヤル プランWindows PowerShellする
 
-ユーザー単位のダイヤル プランは、Windows PowerShell [Grant-CsDialPlan コマンドレットを使用して割り当](/powershell/module/skype/grant-csdialplan?view=skype-ps) てできます。 このコマンドレットは、Skype for Business Server 2015 から実行するか、Skype for Business Server 2015 のリモート セッションから実行Windows PowerShell。
+ユーザー単位のダイヤル プランは、Windows PowerShell [Grant-CsDialPlan コマンドレットを使用して割り当](/powershell/module/skype/grant-csdialplan?view=skype-ps)てできます。 このコマンドレットは、2015 年 2015 年Skype for Business Serverリモート セッションから実行Windows PowerShell。
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>ユーザー単位のダイヤル プランを 1 人のユーザーに割り当てるには
 
@@ -129,12 +129,12 @@ Skype for Business ユーザーに対して電話システム音声サービス�
 
 ## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>オンプレミスのコマンドレットを使用して音声ルーティング ポリシー Windows PowerShellする
 
-このセクションでは、電話システムで有効になっているユーザーの音声ルーティング ポリシーを更新する方法について説明します。
+このセクションでは、ユーザーに対して有効になっているユーザーの音声ルーティング ポリシーを更新する方法電話システム。
   
-電話システム のユーザーは、通話が正常にルーティングするために、音声ルーティング ポリシーが割り当てられている必要があります。 これは、通話を正常にルーティングするために音声ポリシーを割り当てる必要があるオンプレミスのビジネス音声ユーザーとは異なります。 音声ルーティング ポリシーには、電話システム ユーザーの承認された通話とルートを定義する PSTN 使用法が含まれている必要があります。 これらの PSTN 使用法は、既存の音声ポリシーから新しい音声ルーティング ポリシーにコピーできます。 詳細については [、「New-CsVoiceRoutingPolicy」を参照してください](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
+電話システムを正常にルーティングするには、ユーザーに音声ルーティング ポリシーが割り当てられている必要があります。 これは、通話を正常にルーティングするために音声ポリシーを割り当てる必要があるオンプレミスのビジネス音声ユーザーとは異なります。 音声ルーティング ポリシーには、ユーザーに対する承認された呼び出しとルートを定義する PSTN 使用法電話システムがあります。 これらの PSTN 使用法は、既存の音声ポリシーから新しい音声ルーティング ポリシーにコピーできます。 詳細については [、「New-CsVoiceRoutingPolicy」を参照してください](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
   
 > [!NOTE]
-> すべての電話システム ユーザーには、許可されている通話機能を定義する BusinessVoice という名前の同じオンライン音声ポリシーが割り当てられます。たとえば、同時呼び出しを許可します。 
+> すべてのユーザー電話システム、許可される通話機能を定義する BusinessVoice という名前の同じオンライン音声ポリシーが割り当てられます。たとえば、同時呼び出しを許可します。 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>ユーザー単位の音声ルーティング ポリシーを 1 人のユーザーに割り当てるには
 

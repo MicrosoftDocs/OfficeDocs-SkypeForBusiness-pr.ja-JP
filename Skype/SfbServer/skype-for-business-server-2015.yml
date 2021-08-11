@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Skype for Business Server 2015 のドキュメント
-summary: Skype for Business Server 2015 を実装する方法について学習します。
+summary: 2015 年に実装するSkype for Business Serverします。
 metadata:
   title: Skype for Business Server 2015 のドキュメント
-  description: Skype for Business Server 2015 を実装する方法について学習します。
+  description: 2015 年に実装するSkype for Business Serverします。
   ms.service: skype-for-business-online
   audience: ITPro
   ms.topic: landing-page
@@ -11,14 +11,14 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: cdd61230fc047091d30aa1cc6eebb20057e9288c
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: eac647429a962ae1d6797f1ec9a21b5992c4323ee3f3573cc2096f53d5b6617a
+  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51118506"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54279883"
 landingContent:
-- title: Skype for Business Server 2015 について
+- title: 2015 Skype for Business Serverについて
   linkLists:
   - linkListType: overview
     links:
@@ -34,7 +34,7 @@ landingContent:
     links:
     - text: 今すぐダウンロード!
       url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
-- title: プラン
+- title: 計画
   linkLists:
   - linkListType: overview
     links:
@@ -50,7 +50,7 @@ landingContent:
   linkLists:
   - linkListType: deploy
     links:
-    - text: Skype for Business Server の展開
+    - text: 展開Skype for Business Server
       url: ./deploy/deploy.md
     - text: Skype for Business Server のインストール
       url: ./deploy/install/install.md
@@ -58,19 +58,19 @@ landingContent:
       url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: エンタープライズ VoIP の展開
       url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
-    - text: Skype 会議ブロードキャストのオンプレミス展開を構成する
+    - text: 会議ブロードキャスト用にオンプレミス展開Skype構成する
       url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
-    - text: Skype for Business Server の管理
+    - text: 管理Skype for Business Server
       url: ./manage/manage.md
 - title: その他のリソース
   linkLists:
   - linkListType: overview
     links:
-    - text: Skype for Business 準備シリーズ
+    - text: Skype for Business準備シリーズ
       url: https://infopedia.eventbuilder.com/?landingpageid=7p1c8p
-    - text: Skype for Business Server 2019 のドキュメント
+    - text: Skype for Business Server 2019 ドキュメント
       url: ../SfBServer2019/skype-for-business-server-2019.yml
     - text: Lync Server 2013 のドキュメント
       url: /lyncserver/microsoft-lync-server-2013

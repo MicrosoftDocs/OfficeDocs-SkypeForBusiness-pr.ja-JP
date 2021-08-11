@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: このトピックでは、Cloud Connector Edition バージョン 2.0 以降でメディア バイパスを展開する手順について説明します。
-ms.openlocfilehash: c9dc79a3079fd27e8901d31abf1a27310d18ed28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119366"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289435"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Cloud Connector Edition でのメディア バイパスの展開
  
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
 このトピックでは、Cloud Connector Edition バージョン 2.0 以降でメディア バイパスを展開する手順について説明します。 
   
@@ -38,7 +38,7 @@ ms.locfileid: "51119366"
   
 テナント管理者は、内部実稼働 Active Directory で DNS A レコードを構成する必要があります。 複雑なマルチサイト環境がある場合は、「例: 複雑なマルチサイト環境でのメディア バイパス Web サイト DNS レコード」の例 [を参照してください](deploy-media-bypass-in-cloud-connector.md#Example)。 DNS レコードは、内部ネットワーク クライアントでのみ解決する必要があります。外部ネットワーク クライアントでは解決されません。
   
-DNS を構成したら、Skype for Business Administrator 資格情報を使用してリモート PowerShell を使用して Skype for Business Online に接続します。 詳細については、「コンピューターの[セットアップ」を参照Windows PowerShell。](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+DNS を構成した後、管理者資格情報を使用Skype for Business PowerShell を使用してオンラインSkype for Business接続します。 詳細については、「コンピューターのセットアップ[」を参照Windows PowerShell。](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 PowerShell セッションで、次のコマンドを入力してメディア バイパスを有効にします。
   
@@ -69,7 +69,7 @@ Get-CsNetworkConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-クライアント設定を確認するには、Skype for Business クライアントからサインアウトし、サインインし、クライアントがサービス URL を次のように受信したと確認します。
+クライアント設定を確認するには、Skype for Business クライアントからサインアウトし、サインインし、クライアントがサービス URL を受け取ったのを次のように確認します。
   
 1. %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog を開きます。 
     
@@ -120,9 +120,9 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 
 クライアントは、内部 DNS サーバーからメディア バイパス Web サービスの Web アドレスを受信します。 Web サービスの名前は、すべてのクラウド コネクタ アプライアンスとクラウド コネクタ PSTN サイトで同じになります。 複雑なマルチサイト環境では、Geo-Location ベースのトラフィック管理に Windows 2016 DNS ポリシーを使用することをお勧めします。そのため、クライアントはネットワークのローカルである Web サービスにリダイレクトできます。 
   
-Windows 2016 DNS ポリシーの詳細については、「Use DNS Policy for Geo-Location ベースのトラフィック管理とプライマリ サーバー」 [を参照してください](/windows-server/networking/dns/deploy/primary-geo-location)。
+2016 DNS ポリシー Windows詳細については、「Use DNS Policy for Geo-Location ベーストラフィック管理 with プライマリ サーバー」を[参照してください](/windows-server/networking/dns/deploy/primary-geo-location)。
   
-次に、Windows 2016 DNS ポリシーを使用して複数のサイトを使用する企業の構成例を示Geo-Location示します。
+次に、2016 DNS Policy for Windowsベーストラフィック管理を使用する複数のサイトを持つGeo-Location例を示します。
   
 バイパス サービスの名前は 'hybridvoice.adatum.biz' です。
   

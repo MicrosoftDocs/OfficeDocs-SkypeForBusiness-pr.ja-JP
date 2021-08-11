@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: CcCertificationAuthorityFile コマンドレットを使用すると、Skype for Business Cloud Connector エディションのサイト共有ディレクトリの CA フォルダーにある証明機関サービスのバックアップファイルが削除されます。
-ms.openlocfilehash: 49a8f0f313b4153288ebdf037a41dc92f30e60d6
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このRemove-CcCertificationAuthorityFileコマンドレットは、サイト共有ディレクトリの下にある CA フォルダー内の証明機関サービス バックアップ ファイルを削除Skype for Business クラウド コネクタ エディション。
+ms.openlocfilehash: aaff21023a63e8933235f4c462c1152339381ca0d9571ded57f6b43742679624
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288777"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-CcCertificationAuthorityFile コマンドレットを使用すると、Skype for Business Cloud Connector&lt;エディション&gt;のサイト共有ディレクトリの下にある CA フォルダーで、証明機関サービスのバックアップファイル "SiteRootDirectory \CA\SfB CCE Root. p12" が削除されます。 
+Remove-CcCertificationAuthorityFile コマンドレットは、証明機関サービス のバックアップ ファイル &lt; "SiteRootDirectory &gt; \CA\SfB CCE Root.p12" を、Skype for Business クラウド コネクタ エディション のサイト共有ディレクトリの CA フォルダーから削除します。 
   
 ```powershell
 Remove-CcCertificationAuthorityFile
@@ -37,7 +37,7 @@ Remove-CcCertificationAuthorityFile
 
 ### <a name="example-1"></a>例 1
 
-次の例では、サイトの共有ディレクトリの&lt;下&gt;にある CA フォルダーの証明機関サービスバックアップファイル "SiteRootDirectory \CA\SfB CCE ルート. p12" を削除します。
+次の使用例は、サイト共有ディレクトリの CA フォルダーの証明機関サービス バックアップ ファイル &lt; "SiteRootDirectory &gt; \CA\SfB CCE Root.p12" を削除します。
   
 ```powershell
 Remove-CcCertificationAuthorityFile
@@ -46,7 +46,7 @@ Remove-CcCertificationAuthorityFile
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Remove-CcCertificationAuthorityFile コマンドレットはパイプライン入力を受け入れません。
+なし。 このRemove-CcCertificationAuthorityFileは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

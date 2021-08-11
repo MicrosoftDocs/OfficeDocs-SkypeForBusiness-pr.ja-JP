@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: '概要: 呼び出し品質ダッシュボードのデータ API の一部であるキューブの取得操作について説明します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
-ms.openlocfilehash: a3527f21bc1751c23bba088ae06c3e6702cb8c8e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 呼び出し品質ダッシュボードのデータ API の一部であるキューブの取得操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
+ms.openlocfilehash: bc65a9d6886b9375a799c62a6abaefd33738dae5fd8a4d4aee83a536d9a82948
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278725"
 ---
 # <a name="get-cube"></a>キューブの取得
  
-**概要:** 呼び出し品質ダッシュボードのデータ API の一部であるキューブの取得操作について説明します。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。
+**概要:** 呼び出し品質ダッシュボードのデータ API の一部であるキューブの取得操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
   
-キューブの取得操作は、通話品質ダッシュボードのデータ API の一部です。
+Get Cube 操作は、通話品質ダッシュボードのデータ API の一部です。
   
 ## <a name="get-cube"></a>キューブの取得
 
-キューブの取得操作は、使用可能なディメンションと測定値の一覧を返します。
+Get Cube 操作は、使用可能なディメンションと測定値の一覧を返します。
   
 
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |https:// \<portal\> /QoEDataService/Cubestructure  <br/> |HTTP/1.1  <br/> |
    
  **URI パラメーター** - なし。
   
@@ -47,7 +47,7 @@ ms.locfileid: "49832627"
   
  **応答ヘッダー** - 追加のヘッダーはありません。
   
- **応答本文** - JSON の応答ペイロードのサンプルを次に示します。
+ **応答本文** - JSON の応答ペイロードの例を以下に示します。
   
 > [!NOTE]
 > このサンプルでは、Cube 要素の各グループの最初の 2 つの要素のみを示しています。 
@@ -93,10 +93,10 @@ ms.locfileid: "49832627"
 }
 ```
 
- *KPI -*  予約済み。 要求ペイロードの KPI セクションを使用すると、クエリの実行操作で、キューブで定義された KPI の値を返します。 QoE キューブにはまだ KPI が存在しません。
+ *KPI*  - 予約済み。 要求ペイロードの KPI セクションでは、クエリの実行操作によって、キューブで定義された KPI の値を返します。 QoE キューブに KPI はまだ存在しません。
   
- *ディメンション*  - クエリ実行操作の要求ペイロードの [フィルター] セクションと [ディメンション] セクションで使用できるディメンションのリスト。 フィルター式でディメンションを使用するには、ディメンション メンバーを指定する必要があります。このメンバーは、ディメンション メンバーの取得操作を使用して取得できます。
+ *ディメンション*  - クエリ実行操作の要求ペイロードの [フィルターとディメンション] セクションで使用できるディメンションの一覧。 フィルター式でディメンションを使用するには、ディメンション メンバーを指定する必要があります。ディメンション メンバーの取得操作を使用して取得できます。
   
- *測定値*  : クエリ実行操作の要求ペイロードの [Measurements] セクションで使用できる測定値の一覧です。
+ *[測定値*  ] - クエリの実行操作の要求ペイロードの [測定値] セクションで使用できる測定値の一覧。
   
 

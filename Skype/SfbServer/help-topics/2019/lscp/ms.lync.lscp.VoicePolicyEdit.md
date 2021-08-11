@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: acd63506fb0a6ca1bc59f2a1355e8fbf66d0f8d7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: cd47c461a5ef42c179a7a16b94d35ae971ac33907da37ac76b739a02ab845d82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335607"
 ---
 # <a name="voice-policy-create-new-or-edit-existing"></a>音声ポリシー: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
-- [音声ポリシーを作成または変更し、Skype for Business で PSTN 使用法レコードを構成する](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
+- [音声ポリシーを作成または変更し、音声ポリシーで PSTN 使用法レコードを構成Skype for Business](../../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)
 
 - [音声ポリシーの変更と PSTN 使用法レコードの構成](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)

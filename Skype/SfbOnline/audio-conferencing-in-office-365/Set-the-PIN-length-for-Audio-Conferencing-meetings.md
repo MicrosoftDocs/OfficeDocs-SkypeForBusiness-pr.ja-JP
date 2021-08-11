@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: PIN の長さと要件のパラメーターについて説明し、会議の長さを設定する方法Skype for Business。
-ms.openlocfilehash: 2e4e1d087ad6e0f91d034c6a5abe513e8b3aab01
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8cd56ac9a7864fd44ee42d9c86b255a5d7449e3fed140a50033c716a3b53281b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238602"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310286"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Skype for Business Online で電話会議会議の PIN の長さを設定する
 
