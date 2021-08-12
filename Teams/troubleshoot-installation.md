@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Windows の Teams デスクトップ クライアント アプリのインストールと更新に関する問題をトラブルシューティングする方法について説明します。
-ms.openlocfilehash: 6235bd6336940d7d36a7de526eaaf1fbb93f5323
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
-ms.translationtype: MT
+ms.openlocfilehash: 7b482daae7378027418896fee718ae5beb88f02f0bcccc9ed8ce6fc988cf8ab6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350195"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows での Microsoft Teams のインストールと更新に関する問題のトラブルシューティング
 
@@ -52,7 +52,7 @@ SquirrelSetup.log に原因が示されていない場合、または問題の�
 Teams が正常にインストールされると、ログの場所が %LocalAppData%\SquirrelTemp から %LocalAppData%\Microsoft\Teams に切り替わります。 この場所には、SquirrelSetup.log と logs.txt の 2 つのログ ファイルがあります。
 
 - この場所にある SquirrelSetup.log ファイルは、Teams アプリにサービスを提供する実行可能ファイルである Update.exe によって書き込まれます。
-- Logs.txt ファイルは、重要なアプリケーション イベントを記録するために Teams アプリ (具体的には Teams.exe) によって使用されます。 失敗情報が含まれている可能性があります。
+- Logs.txt ファイルは、重要なアプリケーション イベントを記録するために Teams アプリ (具体的には Teams.exe) によって使用されます。失敗情報が含まれている可能性があります。
 
 これらのログ ファイルには、個人を特定できる情報 (PII) が含まれているため、Microsoft には送信されません。
 
@@ -80,7 +80,7 @@ SquirrelTemp.log または Logs.txt には、根本的な原因を特定する�
         ```console
         cd /d %TEMP%
         ```
-    2. 設定とアプリケーション ログをコピーします。 障害点によっては、これらのログの一部が存在しない場合があります。
+    2. 設定とアプリケーション ログをコピーします。障害点によっては、これらのログの一部が存在しない場合があります。
 
         ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log

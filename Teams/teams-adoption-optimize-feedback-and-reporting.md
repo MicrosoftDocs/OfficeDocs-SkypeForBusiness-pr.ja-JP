@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48fedc9050b397e3c14f76a240e34f192b9d7565
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7801e2a80f65e90a26cd99124047f229c04222a8b4d846acf53bd46a9d8510f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285666"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
-ユーザー フィードバックとサービス正常性レポートのベスト プラクティスに従って、サービスと従業員からシグナルが返されます。  場合によっては、特定のサービス使用状況と正常性レポートにアクセスするために管理者権限が必要な場合があります。 組織の Microsoft 365 または Office 365 管理者ではない場合は、その個人と連絡を取り、Microsoft 365 管理センターでレポート閲覧者ロールを付与して、このデータの一部にアクセスします。
+ユーザー フィードバックとサービス正常性レポートのベスト プラクティスに従って、サービスと従業員からシグナルが返されます。  場合によっては、特定のサービス使用状況と正常性レポートにアクセスするために管理者権限が必要な場合があります。 組織の Microsoft 365 または Office 365 管理者ではない場合は、その個人と一緒に作業し、Microsoft 365 管理センター でレポート閲覧者ロールを付与して、このデータの一部にアクセスします。
 
 ## <a name="incorporating-feedback"></a>フィードバックの組み込み 
 

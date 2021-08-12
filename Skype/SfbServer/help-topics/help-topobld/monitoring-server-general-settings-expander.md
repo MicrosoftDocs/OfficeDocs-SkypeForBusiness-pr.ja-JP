@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: トポロジ ビルダーでは、コンソール ツリーで監視サーバーを右クリックしてからツール バーの [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックして [プロパティの編集] をクリックし、次のいずれかのオプションを変更することで、個々の監視サーバーのプロパティを編集できます。
-ms.openlocfilehash: f5543b4ead3f496cd2ae37841a37a317b87f8d9c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: トポロジ ビルダーでは、コンソール ツリーで監視サーバーを右クリックし、ツールバーの [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックしてから [プロパティの編集] をクリックし、次のいずれかのオプションを変更することで、個々の監視サーバーのプロパティを編集できます。
+ms.openlocfilehash: 27b29b62980c7df7e1fea24102b73b3acc0957c63104c5df5ddd9ec027c6b77e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803227"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298217"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>監視サーバー全般設定エキスパンダー
  
-トポロジ ビルダーでは、コンソール ツリーで監視サーバーを右クリックしてからツール バーの [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックして [プロパティの編集] をクリックし、次のいずれかのオプションを変更することで、個々の監視サーバーのプロパティを編集できます。
+トポロジ ビルダーでは、コンソール ツリーで監視サーバーを右クリックし、ツールバーの [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックし、[プロパティの編集] をクリックし、次のいずれかのオプションを変更することで、個々の監視サーバーのプロパティを編集できます。
   
 - **FQDN**。監視サーバーとして展開するサーバーの完全修飾ドメイン名 (FQDN) を変更する際に使用します。
     

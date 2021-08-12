@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の ELIN ゲートウェイの場所を管理する
+title: ELIN ゲートウェイの場所を管理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-description: Skype for Business Server エンタープライズ VoIP で、ELIN ゲートウェイを使用した E9-1-1 展開の場所情報データベースまたは同様の外部データベースを計画するために必要な決定。
-ms.openlocfilehash: dd16270aa5a41e3ca50e92859bd1a789426e647b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: ELIN ゲートウェイを使用した E9-1-1 展開の場所情報データベースまたは類似の外部データベースを計画するために必要なSkype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: e3843735006460792f414e685c15552c54a64e1c7896b02b1b0922b31a84e106
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323079"
 ---
-# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Skype for Business Server の ELIN ゲートウェイの場所を管理する
+# <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>ELIN ゲートウェイの場所を管理Skype for Business Server
 
-Skype for Business Server エンタープライズ VoIP で、ELIN ゲートウェイを使用した E9-1-1 展開の場所情報データベースまたは同様の外部データベースを計画するために必要な決定。
+ELIN ゲートウェイを使用した E9-1-1 展開の場所情報データベースまたは類似の外部データベースを計画するために必要なSkype for Business Server エンタープライズ VoIP。
 
-Skype for Business Server がネットワーク内のクライアントの場所を自動的に提供するには、次のタスクを実行する必要があります。
+ネットワーク内Skype for Business Serverの場所を自動的に指定するには、次のタスクを実行する必要があります。
 
 - 場所情報サービス データベースにネットワーク ワイヤーマップを設定し、[CompanyName] フィールドに緊急位置情報識別番号 (ELIN) を含める。
 
@@ -52,7 +52,7 @@ ELIN ゲートウェイを使用する場合は、場所情報サービス デ�
 
 - 緊急対応員が特定の住所に到着したときに緊急通報をした人の場所がすぐにわかるように、場所を具体的に特定するわかりやすい名前。この場所名には、建物の番号、階数、翼棟名、部屋番号などを含めます。従業員にしかわからないような呼称は避けます。緊急対応員がわからなければ、彼らは正しい場所に行くことができません。
 
-- ユーザーがクライアントが正しい場所を選んだのを簡単に確認するのに役立つ場所識別子。 Skype for Business クライアントは、検出された Locationフィールドと **City** フィールドをヘッダーに自動的に連結して表示します。 建物の住所を各場所識別子 (たとえば"1st Floor") に追加する方法をお使 <street number> いください。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
+- ユーザーがクライアントが正しい場所を選んだのを簡単に確認するのに役立つ場所識別子。 クライアントSkype for Business、検出された Location フィールドと **City** フィールドをヘッダーに自動的に連結して表示します。 建物の住所を各場所識別子 (たとえば"1st Floor") に追加する方法をお使 <street number> いください。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
 
 - 場所がワイヤレス アクセス ポイントによって決まるので近似値の場合は **、[Near]** という単語を追加できます (たとえば、「Near 1st Floor 1234」)。
 
@@ -62,7 +62,7 @@ ELIN ゲートウェイを使用する場合は、場所情報サービス デ�
 
 **場所と ELIN の割り当てのサンプル**
 
-|**建物内のエリア**|**Location**|**ELIN**|
+|**建物内のエリア**|**場所**|**ELIN**|
 |:-----|:-----|:-----|
 |1 階  <br/> |1  <br/> |425-555-0100  <br/> |
 |2 階  <br/> |2  <br/> |425-555-0111  <br/> |
@@ -84,9 +84,9 @@ ELIN ゲートウェイを使用する場合は、場所情報サービス デ�
 
  **場所のマッピング情報がすでに格納されているサードパーティのデータベースを定義するのか。**
 
-[セカンダリ位置情報サービス] オプションを使用してサードパーティ データベースに接続すると、オフライン プラットフォームを使用して場所をグループ化および管理できます。 この方法の利点は、場所をネットワーク ID に関連付けることに加えて、場所をユーザーに関連付けられることです。 つまり、位置情報サービスは、セカンダリ 位置情報サービスから Skype for Business クライアントに複数のアドレスを返す可能性があります。 その後、ユーザーは最適な場所を選択できます。
+[セカンダリ位置情報サービス] オプションを使用してサードパーティ データベースに接続すると、オフライン プラットフォームを使用して場所をグループ化および管理できます。 この方法の利点は、場所をネットワーク ID に関連付けることに加えて、場所をユーザーに関連付けられることです。 つまり、位置情報サービスは、セカンダリ 位置情報サービスから発信された複数のアドレスを、特定のクライアントにSkype for Businessできます。 その後、ユーザーは最適な場所を選択できます。
 
-位置情報サービスと統合するには、サード パーティのデータベースが Skype for Business Server の場所要求/応答スキーマに従う必要があります。 詳細については [、「Web サービス for E911 サポート プロトコル」を参照してください](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd)。 セカンダリ位置情報サービスの展開の詳細については、「展開」のドキュメントの [「Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) でセカンダリ位置情報サービスを構成する」を参照してください。
+位置情報サービスと統合するには、サード パーティのデータベースが場所要求/応答スキーマSkype for Business Serverに従う必要があります。 詳細については [、「Web サービス for E911 サポート プロトコル」を参照してください](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd)。 セカンダリ位置情報サービスの展開の詳細については、「[展開」の](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)ドキュメントの「セカンダリ位置情報サービスを構成する」Skype for Business Serverを参照してください。
 
 場所データベースへのデータの取り込みの詳細については、「展開」のドキュメントの「[Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)」を参照してください。
 
@@ -98,6 +98,6 @@ ELIN ゲートウェイを使用する場合は、場所情報サービス デ�
 
 場所データベースの更新が必要になる場合としては、ワイヤレス アクセス ポイント (WAP) の追加、オフィスでの再配線 (別のスイッチ割り当てに変更)、サブネットの拡張など、いくつかのシナリオが考えられます。個々の場所を直接更新するのか、または CSV ファイルを使用してすべての場所の一括更新を実行するのか考慮してください。
 
- **SNMP アプリケーションを使用して、Skype for Business クライアントの MAC アドレスをポートとスイッチの識別子に一致しますか?**
+ **SNMP アプリケーションを使用して、クライアントの MAC Skype for Businessをポートと切り替え識別子に一致しますか?**
 
 SNMP アプリケーションを使用する場合は、SNMP アプリケーションと場所データベースの間でスイッチ シャーシおよびポート情報の整合性を維持するための手動のプロセスを作成する必要があります。 SNMP アプリケーションがデータベースに含まれていないシャーシ IP アドレスまたはポート ID を返す場合、場所情報サービスはクライアントに場所を返す事ができません。

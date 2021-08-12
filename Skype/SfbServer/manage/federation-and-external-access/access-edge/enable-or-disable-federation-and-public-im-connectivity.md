@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: フェデレーションのサポートは、パートナー ドメインやサポートしているパブリック インスタント メッセージング (IM) プロバイダー ユーザーを含む、信頼できる顧客またはパートナー組織のアカウントを持つユーザーが組織内のユーザーと共同作業を行う場合に必要です。
-ms.openlocfilehash: 34991040e6eed9cfec8d2e3abd3fd3d944057d868f0ca9b83cd4131d3fd13ad0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9c7b4ee7a861bc395c8599283f8d993b25ef4774d9487263e334207e9e277c8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849972"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>フェデレーションおよびパブリック IM 接続を有効または無効にするSkype for Business Server
 
@@ -71,15 +71,11 @@ ms.locfileid: "54276842"
 
 ## <a name="to-enable-federation-and-public-im-connectivity"></a>フェデレーションとパブリック IM 接続を有効にするには
 
-  - フェデレーションとパブリック IM 接続を有効にするには、**AllowFederatedUsers** プロパティの値を True ($True) に設定します。
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
+  - フェデレーションとパブリック IM 接続を有効にするには、**AllowFederatedUsers** プロパティの値を True ($True) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
 
 
 ## <a name="to-disable-federation-and-public-im-connectivity"></a>フェデレーションとパブリック IM 接続を無効にするには
 
-  - フェデレーションとパブリック IM 接続を無効にするには、**AllowFederatedUsers** プロパティの値を False ($False) に設定します。
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
+  - フェデレーションとパブリック IM 接続を無効にするには、**AllowFederatedUsers** プロパティの値を False ($False) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
 

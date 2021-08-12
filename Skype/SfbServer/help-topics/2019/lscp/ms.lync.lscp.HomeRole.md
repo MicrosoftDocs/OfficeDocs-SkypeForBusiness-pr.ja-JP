@@ -1,5 +1,5 @@
 ---
-title: 管理役割と Skype for Business Server コントロール パネル
+title: 管理役割とSkype for Business Serverコントロール パネル
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,14 +14,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
-description: セキュリティの高い標準を維持しながら管理タスクを委任するために、Skype for Business Server は役割ベースのアクセス制御 (RBAC) をサポートします。
-ms.openlocfilehash: 25abdaa08de6f3fa3b7d24d759c118e73e3f7e2c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: セキュリティの高い標準を維持しながら管理タスクを委任するために、Skype for Business Serverベースのアクセス制御 (RBAC) をサポートしています。
+ms.openlocfilehash: ab550987398db521b7228b5893f7e1dbc5b5a451871d1375beefbbd8e8e07456
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285477"
 ---
-# <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>管理役割と Skype for Business Server コントロール パネル
+# <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>管理役割とSkype for Business Serverコントロール パネル
 
-セキュリティの高い標準を維持しながら管理タスクを委任するために、Skype for Business Server は役割ベースのアクセス制御 (RBAC) をサポートします。 RBAC では、ユーザーを定義済みの管理役割に割り当てることによって管理特権を付与します。 Skype for Business Server には、組み込みの管理役割の豊富なセットが含まれています。また、新しい役割を作成し、新しい役割ごとにコマンドレットのカスタム リストを指定することもできます。 また、定義済み RBAC 役割およびカスタム RBAC 役割の許可されたタスクに、コマンドレットのスクリプトを追加することもできます。 Skype for Business Server で使用できる定義済みの管理役割を含む詳細については、「役割ベースのアクセス制御」 [を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)。
+セキュリティの高い標準を維持しながら管理タスクを委任するために、Skype for Business Serverベースのアクセス制御 (RBAC) をサポートしています。 RBAC では、ユーザーを定義済みの管理役割に割り当てることによって管理特権を付与します。 Skype for Business Server組み込みの管理役割の豊富なセットが含まれています。また、新しい役割を作成し、新しい役割ごとにコマンドレットのカスタム リストを指定することもできます。 また、定義済み RBAC 役割およびカスタム RBAC 役割の許可されたタスクに、コマンドレットのスクリプトを追加することもできます。 このページで使用できる定義済みの管理役割を含むSkype for Business Server、役割ベースのアクセス制御[を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)。

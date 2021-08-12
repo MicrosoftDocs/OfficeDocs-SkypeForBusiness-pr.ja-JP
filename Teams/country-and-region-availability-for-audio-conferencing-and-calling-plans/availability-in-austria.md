@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: オーストリアで使用Microsoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
-ms.openlocfilehash: 96ef030f814c4f261092d2e2d9a8a7e46f4a9be6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bdf47a162c9028f8a5afab82be330906c4cfa4fec1436e0ada89a74e2aed647b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341393"
 ---
 # <a name="availability-in-austria"></a>オーストリアでの利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51118416"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [サービス電話番号を取得する](../getting-service-phone-numbers.md)
 

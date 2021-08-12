@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での SIP トランク構成設定の変更
+title: Skype for BusinessServerModify SIP トランク構成設定
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。 '
-ms.openlocfilehash: e426f2d9980f49a5203bec2cb47555f94f7551f3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'SIP トランク構成設定は、仲介サーバーと公衆交換電話網ゲートウェイ、IP-public ブランチ エクスチェンジ (PBX)、またはサービス プロバイダーのセッション ボーダー コントローラー (SBC) との間の関係と機能を定義します。 '
+ms.openlocfilehash: 7f6a0d0bd39ff466b279bbef3b5727e1d3ea17e3285e71f646b26ff2689fa760
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849922"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server での SIP トランク構成設定の変更
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for BusinessServerModify SIP トランク構成設定
 
 SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。たとえば、次の設定ができます。
 
@@ -26,9 +26,9 @@ SIP トランクの構成では、仲介サーバーと、公衆交換電話網 
 - Real-time Transport Control Protocol (RTCP) パケットが送信される条件。
 - 各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化を要求するか。
 
-Skype for Business Server をインストールすると、SIP トランク構成設定のグローバル コレクションが作成されます。 また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。 これらのコレクションは、後で Skype for Business Server コントロール パネルまたはサーバー コントロール パネルを使用して変更Windows PowerShell。
+サーバーをインストールSkype for Business Server、SIP トランク構成設定のグローバル コレクションが作成されます。 また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。 これらのコレクションは、後でコントロール パネルまたはコントロール パネルを使用Skype for Business Server変更Windows PowerShell。
 
-Skype for Business Server Server コントロール パネルを使用して SIP トランク構成設定を変更する場合は、次のオプションを使用できます。
+[サーバーコントロール パネル] を使用して SIP トランク構成Skype for Business Server変更する場合は、次のオプションを使用できます。
 
 |UI 設定 |PowerShell パラメーター |説明 |
 |--|--|--|
@@ -53,13 +53,13 @@ Skype for Business Server Server コントロール パネルを使用して SIP
 |||
 
 > [!Note]
-> Skype for Business Server CsTrunkConfiguration コマンドレットは、Skype for Business Server コントロール パネルに表示されない追加のプロパティをサポートします。 詳細については [、Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) コマンドレットのヘルプ トピックを参照してください。 
+> CsTrunkConfiguration コマンドレットSkype for Business Server、コントロール パネルに表示されない追加のプロパティSkype for Business Serverサポートしています。 詳細については [、Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) コマンドレットのヘルプ トピックを参照してください。 
 
-**Skype for Business Server コントロール パネルを使用して SIP トランク構成設定を変更するには**
+**[コントロール パネル] を使用して SIP トランク構成Skype for Business Server変更するには**
 
-1. Skype for Business Server コントロールパネルで、[音声ルーティング] をクリックし、[トランク構成]**をクリックします**。
+1. [コントロール Skype for Business Server] で、[音声ルーティング]**を** クリックし、[トランク構成]**をクリックします**。
 2. [**トランク構成**] タブで、変更するトランク構成の設定をダブルクリックします。編集できる設定のコレクションは一度に 1 つだけです。複数のコレクションで同じ変更を行う場合は、Windows PowerShell を使用してください。
 3. [トランク構成 **の編集] ダイアログ** ボックスで、適切な選択を行い **、[OK] をクリックします**。
 4. コレクションの [状態] プロパティが [コミットされていません] に更新されます。 変更をコミットし、コレクションを削除するには、[コミット]をクリックし、[すべてコミット]**をクリックします**。
 5. [コミット **されていない音声構成設定] ダイアログ** ボックスで **、[OK] をクリックします**。
-6. [Skype **for Business Server コントロール パネル] ダイアログ ボックスで****、[OK] をクリックします**。
+6. [コントロール **Skype for Business Server] ダイアログ ボックスで****、[OK] をクリックします**。

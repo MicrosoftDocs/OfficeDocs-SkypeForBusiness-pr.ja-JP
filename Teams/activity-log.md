@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a8d1d49d187808b768b4a92c64c4e667ca0ea8f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: eff6aecf6a2d27cb80ac38bfc48aec2d34385e8dc6f9c25363ea21f85c55987f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821317"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332999"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>アクティビティ ログでポリシーの割り当てを表示する
 
@@ -49,6 +49,6 @@ Microsoft Teams 管理センターでユーザーにポリシーを割り当て�
 > [!NOTE]
 > [ユーザー] ページからアクティビティ ログに **アクセス** することもできます。 [適用] **を** クリックして一括ポリシーの割り当てを送信すると、ページの上部にバナーが表示されます。 バナーの **[アクティビティ ログ** ] リンクをクリックします。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [ユーザーにポリシーを割り当てる](assign-policies.md)

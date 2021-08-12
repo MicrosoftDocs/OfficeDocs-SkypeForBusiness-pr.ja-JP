@@ -1,5 +1,5 @@
 ---
-title: クライアント設定 (計画ツール)
+title: クライアント 設定 (計画ツール)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,14 +15,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server 25 のモビリティ機能は、モバイル デバイス上の Skype for Business 機能をサポートします。 詳細については、「Planning for Mobility」を参照してください。
-ms.openlocfilehash: c61a619f994f2cc835d658f40f4ce442d40250e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 25 のモビリティ機能はSkype for Business ServerデバイスSkype for Business機能をサポートします。 詳細については、「Planning for Mobility」を参照してください。
+ms.openlocfilehash: 754cc06ede1b03affd2c4180ecc9a155ce6d6e522c65bda5b005e02f65dc91d0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121747"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285327"
 ---
-# <a name="client-settings-planning-tool"></a>クライアント設定 (計画ツール)
+# <a name="client-settings-planning-tool"></a>クライアント 設定 (計画ツール)
 
-Skype for Business Server のモビリティ機能は、モバイル デバイス上の Skype for Business 機能をサポートします。 詳細については、「Planning [for Mobility 」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)。
+モバイル デバイスのモビリティ機能はSkype for Business Server Skype for Business機能をサポートします。 詳細については、「Planning [for Mobility 」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)。

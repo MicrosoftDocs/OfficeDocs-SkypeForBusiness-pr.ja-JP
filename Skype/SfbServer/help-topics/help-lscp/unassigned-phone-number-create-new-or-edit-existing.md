@@ -1,5 +1,5 @@
 ---
-title: 割り当てられていない電話番号 新規の作成または既存の編集
+title: 割り当て電話番号 新規の作成または既存の編集
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: c757be0b49638c39a9f20f83baf680508a907b20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13b2caaa8e7b364fa60ab32e6c62f982612121c4861197cd2b76597975c0ba50
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116185"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313395"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>割り当てられていない電話番号: 新規作成または現在の形式のままで編集
 
@@ -43,7 +43,7 @@ ms.locfileid: "51116185"
 
   - 数値は正規表現と一致する必要があります `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 つまり、数値は文字列で始まる可能性があります (文字列を指定しない場合は自動的に追加されます)、プラス記号 (+)、および数字 1 ~ `tel:` 9 です。 電話番号には最大 17 桁の数字を指定できます。その後に内線番号 ;ext= の後に内線番号を付けることもできます。
 
-- **アナウンス サービス** アナウンス **アプリケーションが** 着信呼び出しまたは **Exchange UM** を処理するには、[アナウンス] を選択して、着信呼び出しを処理自動応答 Exchange UM を持つ必要があります。
+- **アナウンス サービス** アナウンス **アプリケーションが** 着信呼び出しまたは UM を処理 **Exchange、** 着信呼び出しを処理Exchange UM 自動応答を選択します。
 
 - [**アナウンス サービス**] で [**アナウンス**] を選択した場合:
 
@@ -53,6 +53,6 @@ ms.locfileid: "51116185"
 
 - [**アナウンス サービス**] で [**Exchange UM**] を選択した場合:
 
-  - **自動応答電話番号** Exchange UM サーバーの電話番号を自動応答。
+  - **自動応答電話番号** ユーザーの UM ユーザーの電話番号Exchange選択自動応答。
 
-お知らせの機能の詳細については、「計画」のドキュメントの「Plan for the [Announcement application in Skype for Business 2015」](../../plan-your-deployment/enterprise-voice-solution/announcement.md) を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。
+アナウンス機能の詳細については、「Plan for the Announcement application for the [Announcement application in Skype for Business 2015」](../../plan-your-deployment/enterprise-voice-solution/announcement.md)を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。

@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: プール間でユーザーを移動するさまざまな方法を学習する前に、まず、従来のプールに存在するユーザーを特定する必要があります。 [レジストラープール] 列は、従来のプールに対して構成されているユーザーを識別します。 ここでは、Skype for Business Server 2019 プールに移動するテストユーザーを示します。
-ms.openlocfilehash: 15bce6156c8c97246f7e2ffd648ae45b674bd6c9
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: プール間でユーザーを移動するさまざまな方法を学習する前に、まず従来のプールに存在するユーザーを特定する必要があります。 [レジストラー プール] 列は、レガシ プール用に構成されているユーザーを識別します。 これらは、2019 年 2019 年のSkype for Business Serverユーザーです。
+ms.openlocfilehash: 16d8796099356b927482a7e0d7eb395ebb4f03e76f9de83a386cfc2f8d5bd9a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44751639"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285507"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>レガシ プールの現在のユーザーの表示
 
-プール間でユーザーを移動するさまざまな方法について学習する前に、まず、従来のプールに存在するユーザーを特定する必要があります。 [**レジストラープール**] 列は、従来のプールに対して構成されているユーザーを識別します。 ここでは、Skype for Business Server 2019 プールに移動するテストユーザーを示します。
+プール間でユーザーを移動するさまざまな方法を学習する前に、まずレガシ プールに存在するユーザーを特定する必要があります。 [ **レジストラー プール] 列** は、レガシ プール用に構成されているユーザーを識別します。 これらは、2019 年 2019 年のSkype for Business Serverユーザーです。
   
-### <a name="to-see-the-list-of-users-in-the-legacy-pool"></a>従来のプール内のユーザーの一覧を表示するには
+### <a name="to-see-the-list-of-users-in-the-legacy-pool"></a>レガシ プール内のユーザーの一覧を表示するには
 
-1. RTCUniversalServerAdmins グループのメンバーであるアカウント、または CsAdministrator または CsUserAdministrator 管理者ロールのメンバーであるアカウントを使用して、従来のフロントエンドサーバーにログオンします。
+1. RTCUniversalServerAdmins グループのメンバーまたは CsAdministrator または CsUserAdministrator 管理役割のメンバーであるアカウントを使用して、従来のフロント エンド サーバーにログオンします。
     
-2. **Skype For Business Server コントロールパネル**を開きます。
+2. [**コントロール Skype for Business Server] を開きます**。
     
 3. [**ユーザー**]、[**検索**]、[**ユーザー検索**] の順にクリックします。
 

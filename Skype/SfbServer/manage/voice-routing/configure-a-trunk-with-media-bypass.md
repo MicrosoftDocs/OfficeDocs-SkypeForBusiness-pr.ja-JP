@@ -1,5 +1,5 @@
 ---
-title: メディア バイパスを使用してトランクを構成Skype for Business Server
+title: Skype for Business Server - メディア バイパスを使用してトランクを構成する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'メディア バイパスを有効にしたトランクを構成するには、次の手順に従います。 '
-ms.openlocfilehash: 861a57c50aa7092bf654fb626d4f1e94e3b3449539d33ead72b4925f8b102f4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: メディア バイパスを有効にしたトランクを構成する方法。 "
+ms.openlocfilehash: 51456576091c1d9dba88aceec7835fb2a86e53cb8983631341c5ab8b8f4c3c23
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849962"
 ---
-# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>メディア バイパスを使用してトランクを構成Skype for Business Server
+# <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>Skype for Business Server - メディア バイパスを使用してトランクを構成する 
 
 メディア バイパスを有効にしたトランクを構成するには、次の手順に従います。 メディア バイパスを無効にしたトランクを構成するには、「メディア バイパスなしでトランクを構成する」を参照[Skype for Business Server。](configure-a-trunk-without-media-bypass.md) メディア バイパスは、展開されている仲介サーバーの数を最小限に抑える場合に便利です。 通常、仲介サーバー プールは中央サイトに展開され、ブランチ サイトのゲートウェイを制御します。 メディア バイパスを有効にすると、ブランチ サイトのクライアントからの公衆交換電話網 (PSTN) 呼び出しのメディアが、それらのサイトのゲートウェイを直接通過できます。 Skype for Business Serverサイトのクライアントからの PSTN 呼び出しが適切なゲートウェイにルーティングされるエンタープライズ VoIP、発信通話ルートとポリシーを適切に構成する必要があります。
 

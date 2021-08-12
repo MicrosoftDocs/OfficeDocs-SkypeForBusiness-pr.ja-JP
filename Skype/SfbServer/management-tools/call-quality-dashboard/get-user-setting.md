@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
-description: '概要: User Settings Service の一部であるユーザー設定の取得操作について学習します。 ユーザー設定サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
-ms.openlocfilehash: 82632f5de7ae215d6f34d9f0b39e500fb713a1be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: User 設定 サービスの一部であるユーザー設定の取得操作について設定します。 User 設定サービスは、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
+ms.openlocfilehash: 5ea18a5ae5307bbf392796f95f7dcce8393371bdb8ddcfc192cb32d819494aa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298157"
 ---
 # <a name="get-user-setting"></a>ユーザー設定の取得
  
-**概要:** User Settings Service の一部であるユーザー設定の取得操作について学習します。 ユーザー設定サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。
+**概要:** User 設定 サービスの一部であるユーザー設定の取得操作について設定します。 User 設定サービスは、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
   
-ユーザー設定の取得操作は、通話品質ダッシュボードのリポジトリ API のユーザー設定サービスの一部です。
+ユーザー設定の取得操作は、呼び出し品質ダッシュボード設定リポジトリ API の User 設定 サービスの一部です。
   
 ## <a name="get-user-setting"></a>ユーザー設定の取得
 
@@ -47,7 +47,7 @@ ms.locfileid: "49832487"
   
  **応答ヘッダー** - 追加のヘッダーはありません。
   
- **応答本文** - JSON の応答ペイロードのサンプルを次に示します。
+ **応答本文** - JSON の応答ペイロードの例を以下に示します。
   
 ```json
 {

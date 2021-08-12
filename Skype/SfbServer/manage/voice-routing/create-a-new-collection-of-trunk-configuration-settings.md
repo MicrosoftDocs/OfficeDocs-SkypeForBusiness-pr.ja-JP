@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でトランク構成設定の新しいコレクションを作成する
+title: 'Skype for Business Server: トランク構成設定の新しいコレクションを作成する'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,22 +10,22 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。
-ms.openlocfilehash: a1be9ff54da001b1d59cdc2bda47c8bd3611418a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP-public ブランチ エクスチェンジ (PBX)、またはサービス プロバイダーのセッション ボーダー コントローラー (SBC) との関係を定義します。
+ms.openlocfilehash: 4e9e6164b7776181b85478c5d420f0bf5e296ac4c02fc23494c5af8808474566
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849942"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server でトランク構成設定の新しいコレクションを作成する
+# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server: トランク構成設定の新しいコレクションを作成する
 
 SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。たとえば、次の設定ができます。
 - トランクでメディア バイパスを有効化するか。
 - Real-time Transport Control Protocol (RTCP) パケットが送信される条件。
 - 各トランクでセキュア リアルタイム プロトコル (SRTP) 暗号化を要求するか。
 
-Skype for Business Server をインストールすると、SIP トランク構成設定のグローバル コレクションが作成されます。 また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。
+サーバーをインストールSkype for Business Server、SIP トランク構成設定のグローバル コレクションが作成されます。 また、管理者はサイト スコープまたはサービス スコープ (PSTN ゲートウェイ サービスの場合のみ) でカスタム設定のコレクションを作成することができます。
 
 Skype for Business Server コントロール パネルを使用して SIP トランク構成設定を作成する場合は、次のオプションを使用できます。
 
@@ -52,14 +52,14 @@ Skype for Business Server コントロール パネルを使用して SIP トラ
 ||||
 
 > [!Note]
-> Skype for Business Server CsTrunkConfiguration コマンドレットは、Skype for Business Server コントロール パネルに表示されない追加のプロパティをサポートします。 詳細については [、New-CsTrunkConfiguration](/powershell/module/skype/New-CsTrunkConfiguration) コマンドレットのヘルプ トピックを参照してください。 
+> CsTrunkConfiguration Skype for Business Serverは、コントロール パネルに表示されない追加のプロパティSkype for Business Serverサポートしています。 詳細については [、New-CsTrunkConfiguration](/powershell/module/skype/New-CsTrunkConfiguration) コマンドレットのヘルプ トピックを参照してください。 
 
-**Skype for Business Server コントロール パネルを使用して新しいトランク構成設定を作成するには**
+**コントロール パネルを使用して新しいトランク構成Skype for Business Server作成するには**
 
-1. Skype for Business Server コントロールパネルで、[音声ルーティング] をクリックし、[トランク構成]**をクリックします**。
+1. [コントロール Skype for Business Server] で、[音声ルーティング]**を** クリックし、[トランク構成]**をクリックします**。
 2. [**トランク構成**] タブで [**新規作成**] をクリックします。新しい設定をサイト スコープで作成する場合は [**サイト トランク**]  をクリックし、サービス スコープで作成する場合は [**プール トランク**] をクリックします。
 3. [サイトの **選択**] または[サービスの選択] ダイアログ ボックス (表示されるダイアログ ボックスは、サイト スコープ設定またはサービス スコープ設定の作成場所によって異なります)で、新しい構成設定の場所を選択し **、[OK]** をクリックします。 ダイアログ ボックスが空白の場合、新しい設定を作成する場所はありません。たとえば、[サイトの選択] ダイアログ ボックスが空白の場合、すべてのサイトに既にトランク構成サイトのコレクションが割り当て済みであり、各サイト (および各サービス) はそのようなコレクションを 1 つしかホストすることはできません。 その場合は、既存のコレクションを削除して新しいコレクションを作成するか、既存のコレクションを変更します。
 4. [**新規トランク構成**] ダイアログで、適切な選択を行って [**OK**] をクリックします。
 5. コレクションの [**状態**] プロパティが [**コミットされていません**] に更新されます。変更をコミットし、コレクションを削除するには、[**コミット**]、[**すべてコミット**] の順にクリックします。
 6. [**コミットされていない音声構成設定**] ダイアログ ボックスで、[**OK**] をクリックします。
-7. [Skype **for Business コントロール パネル] ダイアログ ボックスで****、[OK] をクリックします**。
+7. [コントロール **Skype for Business] ダイアログ ボックスで****、[OK] をクリックします**。

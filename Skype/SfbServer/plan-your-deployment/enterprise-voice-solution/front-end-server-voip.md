@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のフロントエンド サーバー VoIP コンポーネント
+title: フロントエンド サーバー VoIP コンポーネント (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
-description: 翻訳サービスやエンタープライズ VoIPルーティング コンポーネントなど、Skype for Business Server のフロント エンド サーバー上にあるさまざまなコンポーネントについて説明します。
-ms.openlocfilehash: 830f54e59e0d2135e3748fd03474b19e22741136
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 翻訳サービスやエンタープライズ VoIPルーティング コンポーネントなど、Skype for Business Server フロントエンド サーバー上にあるさまざまなコンポーネントについて説明します。
+ms.openlocfilehash: 5df2937d0329796f634c5b4fac21b6921001d65bf3795589ce718ba08ecd9c36
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333119"
 ---
-# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Skype for Business Server のフロントエンド サーバー VoIP コンポーネント
+# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>フロントエンド サーバー VoIP コンポーネント (Skype for Business Server
 
-翻訳サービスやエンタープライズ VoIPルーティング コンポーネントなど、Skype for Business Server のフロント エンド サーバー上にあるさまざまなコンポーネントについて説明します。
+翻訳サービスやエンタープライズ VoIPルーティング コンポーネントなど、Skype for Business Server フロントエンド サーバー上にあるさまざまなコンポーネントについて説明します。
 
 フロント エンド サーバー上にある VoIP コンポーネントは次のとおりです。
 
@@ -39,7 +39,7 @@ ms.locfileid: "51101493"
 
 - 内部クラスター ルーティング コンポーネント
 
-- [Skype for Business Server の仲介サーバー コンポーネント](mediation-server.md)
+- [仲介サーバー コンポーネント (Skype for Business Server](mediation-server.md)
 
 ## <a name="translation-service"></a>変換サービス
 
@@ -47,19 +47,19 @@ ms.locfileid: "51101493"
 
 ## <a name="inbound-routing-component"></a>着信ルーティング コンポーネント
 
-受信ルーティング コンポーネントは、クライアント上のユーザーが指定した基本設定に従って、着信呼び出しをエンタープライズ VoIPします。 着信ルーティング コンポーネントはまた、ユーザーが設定した場合に、代理人着信および同時着信を行います。 たとえば、ユーザーは、不在時の着信を転送するか、それとも単に通知に記録するかを指定します。 通話転送が有効になっている場合、ユーザーは、応答されていない通話を別の番号に転送するか、通話応答を提供するように構成されている Exchange UM サーバーに転送するかどうかを指定できます。 受信ルーティング コンポーネントは、既定ですべての Standard Edition サーバーとフロントエンド サーバーにインストールされます。
+受信ルーティング コンポーネントは、クライアント上のユーザーが指定した基本設定に従って、着信呼び出しをエンタープライズ VoIPします。 着信ルーティング コンポーネントはまた、ユーザーが設定した場合に、代理人着信および同時着信を行います。 たとえば、ユーザーは、不在時の着信を転送するか、それとも単に通知に記録するかを指定します。 通話転送が有効になっている場合、ユーザーは、応答されていない通話を別の番号に転送するか、通話応答を提供するように構成されている Exchange UM サーバーに転送するかどうかを指定できます。 受信ルーティング コンポーネントは、既定ですべてのサーバーとフロントエンド Standard Editionにインストールされます。
 
 ## <a name="outbound-routing-component"></a>発信ルーティング コンポーネント
 
-発信ルーティング コンポーネントは、発信通話を通話先の PBX または PSTN にルーティングします。 ユーザーの音声ポリシーで定義されている通話承認ルールを発信者に適用し、各呼び出しをルーティングする最適な PSTN ゲートウェイを決定します。 送信ルーティング コンポーネントは、既定ですべての Standard Edition サーバーとフロントエンド サーバーにインストールされます。
+発信ルーティング コンポーネントは、発信通話を通話先の PBX または PSTN にルーティングします。 ユーザーの音声ポリシーで定義されている通話承認ルールを発信者に適用し、各呼び出しをルーティングする最適な PSTN ゲートウェイを決定します。 送信ルーティング コンポーネントは、既定ではすべてのサーバーとフロントエンド Standard Editionにインストールされます。
 
 発信ルーティング コンポーネントで使用されるルーティング ロジックは、主にネットワーク管理者またはテレフォニー管理者が組織の要件に従って構成します。
 
 ## <a name="exchange-um-routing-component"></a>Exchange UM ルーティング コンポーネント
 
-Exchange UM ルーティング コンポーネントは、Skype for Business Server と Exchange ユニファイド メッセージング (UM) を実行しているサーバー間のルーティングを処理し、Skype for Business Server とユニファイド メッセージング機能を統合します。
+この Exchange UM ルーティング コンポーネントは、Skype for Business Server と Exchange ユニファイド メッセージング (UM) を実行しているサーバー間のルーティングを処理し、Skype for Business Server をユニファイド メッセージング機能と統合します。
 
-Exchange UM ルーティング コンポーネントは、Exchange UM サーバーが使用できない場合に PSTN を使用してボイス メールの再ルーティングも処理します。 ブランチ サイトに回復力のある WAN リンクを持つブランチ サイトに エンタープライズ VoIP ユーザーがいる場合、ブランチ サイトに展開する存続可能ブランチ アプライアンスは、WAN の停止中にブランチ ユーザーにボイス メールの存続性を提供します。 WAN リンクを使用できない場合は、存続可能ブランチ アプライアンスは次を行います。
+またExchange UM ルーティング コンポーネントは、UM サーバーが使用できない場合に PSTN を使用Exchangeルーティングも処理します。 ブランチ サイトに回復力のある WAN リンクを持つブランチ サイトに エンタープライズ VoIP ユーザーがいる場合、ブランチ サイトで展開する存続可能ブランチ アプライアンスは、WAN の停止中にブランチ ユーザーにボイス メールの存続性を提供します。 WAN リンクを使用できない場合は、存続可能ブランチ アプライアンスは次を行います。
 
 - セントラル サイトの Exchange ユニファイド メッセージング サーバーに、PSTN を介して不在時の着信を再ルーティングします。
 
@@ -67,7 +67,7 @@ Exchange UM ルーティング コンポーネントは、Exchange UM サーバ�
 
 - 不在着信通知をキューに入れ、WAN リンクが回復した時に Exchange UM サーバーへそれらをアップロードします。
 
-ボイス メールの再ルーティングを有効にするには、Exchange 管理者がメッセージのみを受け入れる Exchange UM 自動応答 (AA) を構成することをお勧めします。
+ボイス メールの再ルーティングを有効にするには、メッセージのみを受け入Exchange UM Exchange (AA) 自動応答構成することをお勧めします。
 
 これらの機能の詳細については、「[On-Premises Exchange Unified Messaging Integration](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)」および「[Planning for Enterprise Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)」を参照してください。
 
@@ -83,4 +83,4 @@ VoIP に不可欠なサポートを提供するフロントエンド サーバ�
 
 - **ユーザー レプリケーター。** Active Directory ドメイン サービスからユーザーの電話番号を抽出し、RTC データベース内のテーブルに書き込み、ユーザー サービスとアドレス帳サーバーで使用できます。 ユーザー レプリケーターは、すべてのフロントエンド サーバーのコア コンポーネントです。
 
-- **アドレス帳サーバー。** Active Directory ドメイン サービスから Skype for Business Server クライアントへのグローバル アドレス一覧情報を提供します。 また、RTC データベースからユーザーと連絡先情報を取得し、アドレス帳ファイルに情報を書き込み、Skype for Business クライアントがダウンロードする共有フォルダーにファイルを保存します。 アドレス帳サーバーは、情報を RTCAb データベースに書き込みます。これは、Skype for Business モバイルからのユーザー検索クエリに応答するためにアドレス帳 Web クエリ サービスによって使用されます。 必要に応じて、Skype for Business でユーザー連絡先をプロビジョニングするために RTC データベースに書き込まれるエンタープライズ ユーザーの電話番号を正規化します。 アドレス帳サービスは、既定ですべてのフロントエンド サーバーにインストールされます。 アドレス帳 Web クエリ サービスは、既定で各フロントエンド サーバー上の Web サービスと一緒にインストールされます。
+- **アドレス帳サーバー。** Active Directory ドメイン サービスからクライアントへのグローバル アドレス一覧Skype for Business Serverします。 また、RTC データベースからユーザーと連絡先情報を取得し、アドレス帳ファイルに情報を書き込み、Skype for Business クライアントがダウンロードする共有フォルダーにファイルを保存します。 アドレス帳サーバーは RTCAb データベースに情報を書き込みます。このデータベースは、モバイルからのユーザー検索クエリに応答するためにアドレス帳 Web クエリ サービスSkype for Businessします。 必要に応じて、RTC データベースに書き込まれるエンタープライズ ユーザーの電話番号を正規化し、ユーザー連絡先のプロビジョニングを目的Skype for Business。 アドレス帳サービスは、既定ですべてのフロントエンド サーバーにインストールされます。 アドレス帳 Web クエリ サービスは、既定で各フロントエンド サーバー上の Web サービスと一緒にインストールされます。

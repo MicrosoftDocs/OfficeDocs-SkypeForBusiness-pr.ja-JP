@@ -12,20 +12,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
-description: 次の表に、Skype for Business Cloud Connector Edition コマンドレットの概要と詳細へのリンクを示します。
-ms.openlocfilehash: 3739518dd8ddcd17bce8108228d0d643ebaa79a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 次の表に、Skype for Business クラウド コネクタ エディションコマンドレットの概要と詳細へのリンクを示します。
+ms.openlocfilehash: a5a29003db50f79440b6bd0393bce63b8597d90df35cded4b7b6c0114b165b97
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341492"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>クラウド コネクタ コマンドレットのリファレンス
  
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
-次の表に、Skype for Business Cloud Connector Edition コマンドレットの概要と詳細へのリンクを示します。
+次の表に、Skype for Business クラウド コネクタ エディションコマンドレットの概要と詳細へのリンクを示します。
   
 > [!NOTE]
 > すべてのコマンドレットを Cloud Connector ホスト コンピューターで実行し、PowerShell セッションを管理者として実行する必要があります。 
@@ -36,7 +36,7 @@ ms.locfileid: "51092935"
 |[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |R2 ISO ファイルから提供された顧客を使用して、基本仮想ハード ディスク ファイル (VHDX) Windows Server 2012作成します。 VHDX ファイルは、クラウド コネクタの展開中に使用されます。  <br/> |
 |[Enter-CcUpdate](enter-ccupdate.md) <br/> |クラウド コネクタ ホスト サーバーをメンテナンス モードにすることで、更新プロセス用に準備します。 アプライアンスは "ドレイン" です。つまり、既存のすべての呼び出しは完了しますが、新しい呼び出しは拒否されます。  <br/> |
 |[Exit-CcUpdate](exit-ccupdate.md) <br/> |Cloud Connector ホスト サーバーの更新メンテナンス モードを終了します。  <br/> |
-|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | Skype for Business Cloud Connector Edition 構成を Skype for Business Cloud Connector Edition ホスト サーバー上のローカル ファイルにエクスポートします。 <br/> |
+|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | サーバー構成をSkype for Business クラウド コネクタ エディションホスト サーバー上のローカル ファイルにSkype for Business クラウド コネクタ エディションします。 <br/> |
 |[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |クラウド コネクタ のサンプル構成ファイル (.ini) をクラウド コネクタ アプライアンスのアプライアンス ディレクトリにエクスポートします。 展開に使用するファイルを変更して名前を変更できます。  <br/> |
 |[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> バージョン 1.4.2 以降  <br/> |ルート CA 証明書をクラウド コネクタ ホスト サーバー上のローカル ファイルにエクスポートします。  <br/> |
 |[Get-CcApplianceDirectory](get-ccappliancedirectory.md) <br/> |クラウド コネクタ ホスト サーバー上の作業ディレクトリを取得します。 すべての展開ファイルは、このディレクトリに格納されます。  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "51092935"
 |[Get-CcSiteDirectory](get-ccsitedirectory.md) <br/> |サイト レベル構成ファイルが格納されている現在のディレクトリを表示します。 フォルダーには、基本 VHD とクラウド コネクタのインストール ファイルが含まれる。 このフォルダーは、クラウド コネクタ サイトの他のすべてのアプライアンスと共有する必要があります。  <br/> |
 |[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |クラウド コネクタのサイト レベル ログが格納されている現在のディレクトリを表示します。  <br/> |
 |[Get-CcVersion](get-ccversion.md) <br/> バージョン 2.0 以降  <br/> |Cloud Connector インスタンスのバージョンを返します。 Get-CCVersionは、クラウド コネクタのホスト コンピューターでのみ使用できます。  <br/> |
-|[Import-CcConfiguration](import-ccconfiguration.md) <br/> バージョン 2.0 以降  <br/> |Skype for Business Cloud Connector Edition 構成をローカル ファイルからクラウド コネクタ ホスト サーバーにインポートします。  <br/> |
+|[Import-CcConfiguration](import-ccconfiguration.md) <br/> バージョン 2.0 以降  <br/> |ローカル ファイルからSkype for Business クラウド コネクタ エディション構成を Cloud Connector ホスト サーバーにインポートします。  <br/> |
 |[Install-CcAppliance](install-ccappliance.md) <br/> |クラウド コネクタ アプライアンス (AD、中央管理ストア、仲介サーバー、エッジ サーバーの仮想マシンを含む) をホスト サーバーにインストールします。  <br/> |
 |[Publish-CcAppliance](publish-ccappliance.md) <br/> | オンライン テナント構成から高可用性情報を取得し、ホスト サーバー上のクラウド コネクタ アプライアンスに発行します。 <br/> |
 |[Register-CcAppliance](register-ccappliance.md) <br/> | オンライン テナント構成で PSTN サイトにアプライアンス情報を登録します。 アプライアンスをクラウド コネクタ管理サービスによって展開および管理するには、その前にアプライアンスを登録する必要があります。 <br/> |

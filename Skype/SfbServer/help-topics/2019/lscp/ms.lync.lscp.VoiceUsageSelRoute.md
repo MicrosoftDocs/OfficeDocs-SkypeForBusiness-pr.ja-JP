@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[ルートの選択] ダイアログ ボックスを使用して、使用できる既存のボイス ルートを検索します。'
-ms.openlocfilehash: 2ac691ae9023bb4d4d129d09f55b7856f5c945f1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[ルートの選択] ダイアログ ボックスを使用して、使用できる既存の音声ルートを検索します。'
+ms.openlocfilehash: 28f2f34f3411212cd90a81b6fa25e71a44ee81ab02ecb443c119b15c6becb964
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285347"
 ---
 # <a name="select-routes"></a>ルートの選択
  
-[ルート **の選択] ダイアログ ボックス** を使用して、使用できる既存のボイス ルートを検索します。
+[ルート **の選択] ダイアログ** ボックスを使用して、使用できる既存の音声ルートを検索します。
   
 > [!NOTE]
-> 使用可能なすべてのボイス ルートを取得するには、検索ボックスに何も入力しないで、検索アイコンをクリックします。 
+> 使用可能なすべての音声ルートを取得するには、検索ボックスに何も入力しないし、検索アイコンをクリックします。 
   
  
   

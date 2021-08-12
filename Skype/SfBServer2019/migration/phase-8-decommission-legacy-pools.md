@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.custom: httpsfix
 description: 次のトピックでは、DNS エントリの更新、コンテンツ管理サーバーの移動、プールの使用停止、従来の展開からのサーバーとプールの非アクティブ化と削除に関するガイダンスを提供します。 このセクションに記載された手順をすべて実行する必要はありません。 ドキュメントを読んで、どの使用停止の手順を実行すればよいかを判断してください。
-ms.openlocfilehash: b1080c68e3b4075ce92aaef497854855135dc47d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285517"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>フェーズ 8: レガシ プールの使用停止
 
@@ -32,7 +32,7 @@ ms.locfileid: "51113243"
 
 > [DNS SRV レコードの更新](update-dns-srv-records.md)
 > 
-> [従来のインストールのサーバーの全体管理サーバーを Skype for Business Server 2019 に移動する](move-the-central-management-server.md)
+> [従来のインストールの中央管理サーバーを 2019 年Skype for Business Serverする](move-the-central-management-server.md)
 > 
 > [会議ディレクトリの移動](move-conference-directories.md)
 > 
@@ -40,6 +40,6 @@ ms.locfileid: "51113243"
 > 
 > [監視サーバーの関連付けの削除](remove-the-monitoring-server-association.md)
 > 
-> [Enterprise Edition フロントエンド サーバーまたは Standard Edition フロントエンド サーバーを削除する](remove-the-front-end-server.md)
+> [フロントエンド サーバー Enterprise Editionまたはフロントエンド サーバー Standard Editionを削除する](remove-the-front-end-server.md)
 > 
 > [バックエンド サーバー上の SQL Server インスタンスとデータベースの削除](remove-sql-server-instances-and-databases-on-the-back-end-server.md)

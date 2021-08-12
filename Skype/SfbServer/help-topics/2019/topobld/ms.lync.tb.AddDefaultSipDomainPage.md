@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 展開でサポートするプライマリ セッション開始プロトコル (SIP) ドメインを指定します。 プライマリ SIP ドメインは、Active Directory ドメイン サービス ドメインと同じでも異なる場合もあります。 たとえば、Active Directory ドメインが fabrikam.net の場合に、プライマリ SIP ドメインとして contoso.net などを指定できます。
-ms.openlocfilehash: 2dfeca5801137804e6984439951aced3cc03531c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 展開でサポートするプライマリ セッション開始プロトコル (SIP) ドメインを指定します。 プライマリ SIP ドメインは、Active Directory ドメイン サービス ドメインと同じか、異なる場合があります。 たとえば、Active Directory ドメインが fabrikam.net の場合に、プライマリ SIP ドメインとして contoso.net などを指定できます。
+ms.openlocfilehash: 07e4c91e8809b7fe8cf56ff0d31fb2433573b98e84c99d7b16139e430471822f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811907"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285317"
 ---
 # <a name="add-default-sip-domain"></a>既定の SIP ドメインの追加
  
-展開でサポートするプライマリ セッション開始プロトコル (SIP) ドメインを指定します。 プライマリ SIP ドメインは、Active Directory ドメイン サービス ドメインと同じでも異なる場合もあります。 たとえば、Active Directory ドメインが fabrikam.net の場合に、プライマリ SIP ドメインとして contoso.net などを指定できます。
+展開でサポートするプライマリ セッション開始プロトコル (SIP) ドメインを指定します。 プライマリ SIP ドメインは、Active Directory ドメイン サービス ドメインと同じか、異なる場合があります。 たとえば、Active Directory ドメインが fabrikam.net の場合に、プライマリ SIP ドメインとして contoso.net などを指定できます。
   
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 2015/2019 Skype for Business Server Lync 2013 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細を取得し、更新プログラムをダウンロードします。
-ms.openlocfilehash: d59037f500bff249ab814632fef100821d63b7b7
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574122"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341522"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
@@ -266,7 +266,7 @@ Microsoft [Lync Server 2010 リソース](https://www.microsoft.com/download/en/
 
 ソフトウェアの更新プログラムには、更新プログラム、更新プログラムのロールアップ、サービス パック、機能パック、重要な更新プログラム、セキュリティ更新プログラム、修正プログラムが含まれます。Microsoft のソフトウェアの更新プログラムで使用される一般的な用語の説明については、「[KB 824684](https://support.microsoft.com/kb/824684)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [インストール Skype for Business Server 2015](./deploy/install/install.md)
 - [2015 Skype for Business Serverへのアップグレード](./deploy/upgrade-to-skype-for-business-server.md)

@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
-description: Get-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を返します。
-ms.openlocfilehash: c4e2d47ffc31eb7afef76c710fc93024ce2c593e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このGet-CcCredentialは、現在の展開の資格情報をSkype for Business クラウド コネクタ エディションします。
+ms.openlocfilehash: 277062068c6e5e630fd22cd1bd4c6dbfb873db1cb90b915424aa6e3a3eb6ce50
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800397"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322890"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
-Get-CcCredential コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開の資格情報を返します。 
+このGet-CcCredentialは、現在の展開の資格情報をSkype for Business クラウド コネクタ エディションします。 
   
-バージョン2.0 以降では、-DisplayPassword パラメーターを使用して、TenantAdmin、DomainAdmin、および VMAdmin のパスワードを表示することもできます。
+バージョン 2.0 以降では、-DisplayPassword パラメーターを使用して、TenantAdmin、DomainAdmin、VMAdmin のパスワードを表示することもできます。
   
 ```powershell
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
@@ -35,7 +35,7 @@ Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin
 
 ### <a name="example-1"></a>例 1
 
-次の例は、Cloud Connector 仮想マシン ドメインのドメイン管理者の資格情報を返します。
+次の使用例は、Cloud Connector 仮想マシン ドメインのドメイン管理者の資格情報を返します。
   
 ```powershell
 Get-CcCredential -AccountType DomainAdmin
@@ -44,11 +44,11 @@ Get-CcCredential -AccountType DomainAdmin
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-Get-CcCredential コマンドレットは指定したアカウントの種類についての資格情報を返します。これらの資格情報は、現在のアプライアンスの展開時に Register-CcAppliance コマンドレットおよび Install-CcAppliance コマンドレットを実行する管理者によって指定されます。 
+このGet-CcCredentialは、指定したアカウントの種類に関する資格情報を返します。 これらの資格情報は、現在のアプライアンスを展開するときに、Register-CcApplianceおよびInstall-CcApplianceコマンドレットを実行する管理者によって指定されます。 
   
-Get-CcCredential コマンドレットは、System.Management.Automation.PSCredential オブジェクトのインスタンスを返します。戻りオブジェクトのパスワード プロパティは　System.Security.SecureString です。
+このGet-CcCredentialは、System.Management.Automation.PSCredential オブジェクトのインスタンスを返します。 戻り値オブジェクトの password プロパティは System.Security.SecureString です。
   
-ドメイン管理者のパスワードのクリア テキストを取得する場合は、必ずホスト サーバーの現在のログオン アカウントでパスワードが入力されるようにしてから、PowerShell コンソールを管理者として開いて以下のスクリプトを実行してください。
+ドメイン管理者パスワードのクリア テキストを取得する場合は、ホスト サーバー上の現在のログオン アカウントでパスワードが入力され、管理者として PowerShell コンソールを開き、次のスクリプトを実行します。
   
 ```powershell
 $cred = Get-CcCredential -AccountType DomainAdmin
@@ -62,19 +62,19 @@ Write-Host $text
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |必須  <br/> | System.String <br/> | AccountType の値は次のいずれかになります。 <br/>  VmAdmin: クラウドコネクタ仮想マシンのローカル管理者。 <br/>  DomainAdmin: Cloud Connector 仮想マシン ドメインのドメイン管理者。 <br/>  SafeModeAdmin: Cloud Connector 仮想マシンのドメイン コントローラーの SafeModeAdmin。 <br/>  ExternalCert: エッジー サーバー上にインストールされた外部証明書のアカウント。 <br/>  TenantAdmin: O365 テナントの管理者。 <br/> |
+| AccountType <br/> |必須  <br/> | System.String <br/> | AccountType 値には、次のいずれかを指定できます。 <br/>  VmAdmin: クラウド コネクタ仮想マシンのローカル管理者。 <br/>  DomainAdmin: Cloud Connector 仮想マシン ドメインのドメイン管理者。 <br/>  SafeModeAdmin: Cloud Connector 仮想マシン ドメイン コントローラーの SafeModeAdmin。 <br/>  ExternalCert: エッジ サーバーにインストールされている外部証明書のアカウント。 <br/>  TenantAdmin: O365 テナントの管理者。 <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Get-CcCredential コマンドレットはパイプライン入力を受け入れません。
+なし。 このGet-CcCredentialは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>
 
-Get-CcCredential コマンドレットは、System.Management.Automation.PSCredential オブジェクトのインスタンスを返します。
+このGet-CcCredentialは、System.Management.Automation.PSCredential オブジェクトのインスタンスを返します。
   
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>

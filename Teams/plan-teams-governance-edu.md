@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ada92509adc0f066bf957ddaa8f5de8dd0c47653
-ms.sourcegitcommit: 8906fc384cd13255972df53d2a07d12589154d42
+ms.openlocfilehash: 1859286fd14e3820a75615adc5da82fea863e74101e5a7911e888490e5799db3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "52085849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285806"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
 
@@ -38,7 +38,7 @@ ms.locfileid: "52085849"
 -   **分類** 組織内のユーザーがグループを作成するときに設定できる分類Microsoft 365できます。 
 
 > [!IMPORTANT]
-> Microsoft 365 グループ名前付けポリシーを使用するには、1 つ以上の Microsoft 365 グループのメンバーである一意のユーザーごとに、Azure Active Directory プレミアム P1 ライセンスまたは Azure AD Basic EDU ライセンスが必要です。
+> Microsoft 365 グループ名前付けポリシーを使用するには、1 つ以上の Microsoft 365 グループのメンバーである一意のユーザーごとに、Azure Active Directory Premium P1 ライセンスまたは Azure AD Basic EDU ライセンスが必要です。
 
 詳しい手順については、「[Office グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)」を参照してください。
 
@@ -78,7 +78,7 @@ ms.locfileid: "52085849"
 -   **チームをアーカイブする:** この設定で、チームは読み取り専用モードになります。 参照して検索することはできますが、新しい投稿を追加することはできません。 「[チームをアーカイブする、または復元する](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)」は、チームの所有者がチームをアーカイブする方法を説明します。チームの所有者は、 「[Graph API (ベータ)](/graph/api/resources/teams-api-overview)」を使用してチームをアーカイブまたは復元することもできます。
  
 > [!IMPORTANT]
-> Microsoft 365 グループの有効期限ポリシーを使用するには、Azure Active Directory プレミアムグループのメンバーである一意のユーザーごとに P1 ライセンスをMicrosoft 365があります。
+> グループのMicrosoft 365有効期限ポリシーを使用するには、1 つ以上Azure Active Directory Premium P1グループのメンバーである一意のユーザーごとにライセンスをMicrosoft 365があります。
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>チームを作成するときに教職員用に使用できるチームのテンプレートはありますか?
 

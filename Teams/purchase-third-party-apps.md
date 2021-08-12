@@ -16,12 +16,12 @@ description: 管理センターでサード パーティ製アプリをTeamsす�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 57530ec952b6bbe806e685d0980fcee3a21d1887
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dc46ea58421901a4d11f20160c2e9528a5311794bb084291c3c72e5e006ddc18
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117685"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285656"
 ---
 <a name="purchase-third-party-apps-for-teams"></a>サード パーティ製アプリを購入Teams
 ======================================================
@@ -59,7 +59,7 @@ Teams アプリに関連付けられている SaaS オファーを購入する�
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="アプリの詳細ページの [プランと価格] タブのスクリーンショット":::
 
-[**ライセンスの管理]** を選択して Microsoft 365 管理センターに移動し、購入したライセンスを表示および管理し、ユーザーのライセンス割り当てを管理します。
+[**ライセンスの管理]** を選択して Microsoft 365 管理センター に移動し、購入したライセンスを表示および管理し、ユーザーのライセンス割り当てを管理します。
 
 グローバル管理者は組織内のすべてのユーザーが行った購入を表示できるのに対し、Teams サービス管理者は自分で行った購入のみを表示できます。  
 
@@ -69,7 +69,7 @@ Teams アプリに関連付けられている SaaS オファーを購入する�
  
 サード パーティ製アプリ開発者は [、「SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer) オファーを作成する」を参照して詳細を確認できます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [管理センターでアプリMicrosoft Teams管理する](manage-apps.md)
 - [SaaS オファーを作成する](/azure/marketplace/partner-center-portal/create-new-saas-offer)
