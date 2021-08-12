@@ -1,5 +1,5 @@
 ---
-title: Skype for Business で正規化ルールを作成または変更する
+title: ユーザー設定で正規化ルールを作成または変更Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
-description: '概要: Skype for Business Server で正規化ルールを定義、作成、および変更する方法について説明します。'
-ms.openlocfilehash: 3550e27884d125f065c4688fec2ace797f9e8ce2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 正規化ルールを定義、作成、および変更する方法について説明します。Skype for Business Server。'
+ms.openlocfilehash: e491c58951be9c5341927a4edc949f7d119145533d77b9f2cb65d9e6a1a3cc4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103393"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320849"
 ---
-# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Skype for Business で正規化ルールを作成または変更する
+# <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>ユーザー設定で正規化ルールを作成または変更Skype for Business
 
-**概要:** Skype for Business Server で正規化ルールを定義、作成、および変更する方法について説明します。
+**概要:** ユーザー設定で正規化ルールを定義、作成、および変更するSkype for Business Server。
 
-Skype for Business Server で正規化ルールを定義、作成、および変更します。
+正規化ルールを定義、作成、および変更するには、Skype for Business Server。
 
 ### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a>正規化ルールの作成を使用して正規化ルールを定義するには
 
-1. Skype for Business Server コントロール パネルを開く
+1. [Skype for Business Server] コントロール パネルを開く
 
-2. (省略可能)「手順 11[で Skype for Business Server](dial-plans.md)でダイヤル プラン[](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)を作成または変更する」または「手順 10 でダイヤル プランを変更する」の手順に従います。
+2. (省略可能)「手順 11[でダイヤル](dial-plans.md)プランを作成または変更Skype for Business Server手順 10[](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)でダイヤル プランを変更する」の手順に従います。
 
 3. [**新しい正規化ルール**] または [正規化ルールの編集] で、正規化される番号パターンを表す名前を **Name** (5DigitExtension など) に入力します。 
 
@@ -59,14 +59,14 @@ Skype for Business Server で正規化ルールを定義、作成、および変
 
    - (省略可能)[追加する **桁数]** フィールドに値を入力して、翻訳された番号の先頭に付加する数字を指定します (たとえば、+1425)。
 
-     たとえば、一致するパターンにダイヤル番号のパターンとして^(\d )$ が含まれている場合、変換ルールには {7} E.164 電話番号のパターンとして +1425$1 が含まれている場合、ルールは 5550100 から +1425550100に正規化されます。
+     たとえば、一致するパターンにダイヤル番号のパターンとして^(\d )$ が含まれている場合、変換ルールには {7} E.164 電話番号のパターンとして +1425$1 が含まれている場合、ルールは 5550100 から +14255550100に正規化されます。
 
 7. (オプション) 正規化ルールによって電話番号が組織の内線番号になる場合は、[**内線番号**] を選択します。
 
 8. (オプション) 正規化ルールをテストする番号を入力し、[**次へ**] をクリックします。テスト結果は、[**テストする番号の入力**] の下に表示されます。
 
     > [!NOTE]
-    > テストにまだ合格していない正規化ルールは、保存しておいて後で再構成できます。 詳細については、「[Test Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)」を参照してください。
+    > テストにまだ合格していない正規化ルールは、保存しておいて後で再構成できます。詳細については、「[Test Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)」を参照してください。
 
 9. [**OK**] をクリックして正規化ルールを保存します。
 
@@ -75,13 +75,13 @@ Skype for Business Server で正規化ルールを定義、作成、および変
 11. [**ダイヤル プラン**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。
 
     > [!NOTE]
-    > 正規化ルールを作成または変更するときにはいつでも、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」の [ドキュメントの「Skype for Business](voice-route-config-changes.md) の音声ルーティング構成に保留中の変更を公開する」を参照してください。
+    > 正規化ルールを作成または変更するときにはいつでも、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「音声ルーティング構成[に](voice-route-config-changes.md)保留中の変更Skype for Businessを発行する」を参照してください。
 
 ### <a name="to-define-a-normalization-rule-manually"></a>正規化ルールを手動で定義するには
 
-1. Skype for Business Server コントロール パネルを開く
+1. [Skype for Business Server] コントロール パネルを開く
 
-2. (省略可能)「Skype for Business Server でダイヤル [プランを作成または変更する」の手順に従います](dial-plans.md)。
+2. (省略可能)「ダイヤル プランを作成または[変更する」の手順に従Skype for Business Server。](dial-plans.md)
 
 3. [**新しい正規化ルール**] または [正規化ルールの編集] で、正規化する番号パターンを示す名前を **[名前**] に入力します (たとえば、正規化ルール 5DigitExtension に名前を付けます)。 
 
@@ -95,7 +95,7 @@ Skype for Business Server で正規化ルールを定義、作成、および変
 
    - [**変換ルール**] で、変換される E.164 電話番号の形式のパターンを指定します。
 
-     たとえば、[このパターンの一致] に ^(\d )$ と入力し、変換ルールに {7} +1425$1 を入力すると、ルールは 5550100 から +14255550100に正規化されます。
+     たとえば、[このパターンの一致] に ^(\d )$ を、変換ルールに {7} +1425$1 と入力すると、ルールは 5550100 から +14255550100 に正規化されます。
 
 7. (オプション) 正規化ルールによって電話番号が組織の内線番号になる場合は、[**内線番号**] を選択します。
 
@@ -108,4 +108,4 @@ Skype for Business Server で正規化ルールを定義、作成、および変
 11. [**ダイヤル プラン**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。
 
     > [!NOTE]
-    > 正規化ルールを作成または変更するときにはいつでも、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」の [ドキュメントの「Skype for Business](voice-route-config-changes.md) の音声ルーティング構成に保留中の変更を公開する」を参照してください。
+    > 正規化ルールを作成または変更するときにはいつでも、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「音声ルーティング構成[に](voice-route-config-changes.md)保留中の変更Skype for Businessを発行する」を参照してください。

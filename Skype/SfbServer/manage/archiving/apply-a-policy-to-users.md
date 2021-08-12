@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のユーザーにアーカイブ ポリシーを適用する
+title: アーカイブ ポリシーをユーザーに適用Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,22 +11,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
-description: '概要: Skype for Business Server のユーザーにアーカイブ ポリシーを割り当てる方法について学習します。'
-ms.openlocfilehash: 1fce0dbd0cc7b0595dcf3cd91baeba9ed364e28a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: アーカイブ ポリシーをユーザーに割り当てる方法についてSkype for Business Server。'
+ms.openlocfilehash: b7dbd8a4222065c2bc53029b75672d6905dcd73b3a79e0d35ebfc6ce980f9865
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311095"
 ---
-# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Skype for Business Server のユーザーにアーカイブ ポリシーを適用する
+# <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>アーカイブ ポリシーをユーザーに適用Skype for Business Server
 
-**概要:** Skype for Business Server のユーザーにアーカイブ ポリシーを割り当てる方法について学習します。
+**概要:** アーカイブ ポリシーをユーザーに割り当てる方法については、Skype for Business Server。
   
-Skype for Business Server に保存されているユーザーのアーカイブ用に 1 つ以上のユーザー ポリシーを作成した場合は、該当するポリシーをそれらのユーザーまたはユーザー グループに適用することで、特定のユーザーのアーカイブ サポートを実装できます。 たとえば、内部通信のアーカイブをサポートするポリシーを作成する場合、それを少なくとも 1 つのユーザーまたはユーザー グループに適用して、ユーザーの Skype for Business Server 通信のアーカイブをサポートできます。
+Skype for Business Server に保存されているユーザーのアーカイブ用に 1 つ以上のユーザー ポリシーを作成した場合は、それらのユーザーまたはユーザー グループに適切なポリシーを適用することで、特定のユーザーのアーカイブ サポートを実装できます。 たとえば、内部通信のアーカイブをサポートするポリシーを作成する場合は、少なくとも 1 つのユーザーまたはユーザー グループに適用して、ユーザーの Skype for Business Server 通信のアーカイブをサポートできます。
   
 > [!NOTE]
-> 展開に対して Microsoft Exchange 統合を有効にした場合、Exchange In-Place Hold ポリシーは、Exchange にホームを持ち、メールボックスを In-Place ホールドに置くユーザーに対してアーカイブを有効にするかどうかを制御します。 詳細については [、「Plan for archiving in Skype for Business Server」および「Configure](../../plan-your-deployment/archiving/archiving.md) integration with Exchange storage [for Skype for Business Server」を参照してください](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
+> 展開で Microsoft Exchange 統合を有効にした場合、Exchange In-Place 保留ポリシーは、Exchange に自宅にいてメールボックスを In-Place 保留にしているユーザーに対してアーカイブを有効にするかどうかを制御します。 詳細については、「Plan [for archiving in Skype for Business Server」](../../plan-your-deployment/archiving/archiving.md)および「Configure integration with [Exchange ストレージ for Skype for Business Server」 を参照してください](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>コントロール パネルを使用してユーザー ポリシーを適用する
 
@@ -34,7 +34,7 @@ Skype for Business Server に保存されているユーザーのアーカイブ
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックし、構成するユーザー アカウントを検索します。 
     

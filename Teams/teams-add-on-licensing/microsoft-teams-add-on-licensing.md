@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 各ライセンスで取得する機能Microsoft Teamsのアドオン ライセンスについて説明します。
-ms.openlocfilehash: 968ec222b32a14d85ffac5f66c9a1d87b0b4fa43
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 568ff0edd9dea24bca6eba02f0972f04990721cc4d68522fd6c9d6d76adc2bc0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646848"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350429"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams アドオン ライセンス
 

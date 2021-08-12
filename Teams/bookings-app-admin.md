@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams と、Bookings アプリを使用した仮想訪問
-ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
-ms.translationtype: HT
+ms.openlocfilehash: 9d2c2fe9fd1852d030d512d95bf5c944b8b1e1ed119b97a2bac23569cbb83f69
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891264"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295204"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams と Bookings アプリを使用した仮想訪問
 
@@ -53,7 +53,7 @@ Teams 用の Microsoft Bookings アプリは、デスクトップと Web で利�
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>組織内の Bookings へのアクセスを制御する
 
-Bookings アプリにアクセスできるユーザーとアプリの特定の機能を制御するには、いくつかの方法があります。 Microsoft 365 管理センターで Microsoft Bookings をオンまたはオフにする方法、および選択したユーザーが Bookings の予定表を作成できるようにする Bookings アプリ ポリシーを作成する方法については、「[Microsoft Bookings にアクセスする](https://support.microsoft.com/ja-JP/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)」を参照してください。 [Teams アプリ ポリシーを作成して、一部のユーザーに Bookings アプリをピン留めする方法](teams-app-setup-policies.md)も参照してください。
+Bookings アプリにアクセスできるユーザーとアプリの特定の機能を制御するには、いくつかの方法があります。 Microsoft 365 管理センターで Microsoft Bookings をオンまたはオフにする方法、および選択したユーザーが Bookings の予定表を作成できるようにする Bookings アプリ ポリシーを作成する方法については、「[Microsoft Bookings にアクセスする](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)」を参照してください。 [Teams アプリ ポリシーを作成して、一部のユーザーに Bookings アプリをピン留めする方法](teams-app-setup-policies.md)も参照してください。
 
 ## <a name="recommended-meeting-policy-settings"></a>推奨される会議ポリシーの設定
 

@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターで PSTN ブロックユーザー
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ed775c3796e40a775b3be2b78f22e162a047bf78
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 18c68579a4bc3886f19e73198c576590f06180dbc2d83e1b847da51e9df93411
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809337"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350409"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft TeamsPSTN ブロックユーザー レポート
 
@@ -38,12 +38,12 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[分�
 
 |Callout |説明  |
 |--------|-------------|
-|**1**   |各レポートには、生成された日付があります。 通常、レポートはアクティビティの時刻から 24 ～ 48 時間の遅延を反映します。 |
+|**1**   |各レポートには、それが生成された日付が表示されます。通常、レポートはアクティビティの時刻から 24 から 48 時間の遅延を反映します。 |
 |**2**   |X 軸は日付です。 Y 軸はユーザー数です。 <br>特定の日付のドットにマウス ポインターを合わせると、その日付にブロックされたユーザーの数が表示されます。 |
 |**3**   |この表は、PSTN 通話をブロックしているすべてのユーザーの内訳を示しています。  このページには、電話会議または電話電話システム割り当てられているすべてのユーザーが表示され、各ユーザーに関する詳細が表示されます。 <ul><li>**表示名** はユーザーの表示名です。 表示名をクリックして、Microsoft Teams 管理センターのユーザーの設定ページに移動することができます。 </li> <li>**電話** は、ユーザーに割り当てられている番号です。</li> <li>**ブロックされる理由** は、ユーザーが呼び出しを行うのをブロックされる理由です。</li><li>**[ブロック] アクション** は、ユーザーが PSTN 通話を行うのをブロックまたはブロック解除されているかどうかを示Teams。</li> <li>**[ブロックされた時刻** ] は、ユーザーが呼び出しを行うのをブロックされた日時 (UTC) です。</li></li> </ul>表に希望する情報を表示するには、表に列を追加する必要があります。 |
 |**4**   |[**列の編集**] を選択して表で列を追加または削除します。|
-|**5**   |[ **全画面] を** 選択して、レポートを全画面モードで表示します。|
+|**5**   |[**全画面**] を選択すると、レポートが全画面モードで表示されます。|
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

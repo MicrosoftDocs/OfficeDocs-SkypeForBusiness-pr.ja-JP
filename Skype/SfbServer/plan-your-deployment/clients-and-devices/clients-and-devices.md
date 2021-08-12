@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '概要: Skype for Business でサポートされているクライアントとアプリのレビュー。'
-ms.openlocfilehash: 24434271d33584c76c732d688f7222b73b34fc2d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ad49be489b827136fbd698f873140acc014f6a571c18d7ed3dc46213b74af465
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310955"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントとデバイスを計画する
 
@@ -104,7 +104,7 @@ Skype for Business Server 2015 で利用できる一部の機能は、Skype for 
 
 - 一般に、Skype for Business は以前にリリースされたクライアントに新機能を追加しません
 
-- 一般に、Skype for Business は、最初のリリース後に Skype for Business MSI の新機能を出荷する予定はありません。 リリース間の MSI の改善は、主に品質/セキュリティに関するものです。
+- 一般に、Skype for Business は、最初のリリース後に Skype for Business MSI の新機能を出荷する予定はありません。リリース間の MSI の改善は、主に品質/セキュリティに関するものです。
 
 - Skype for Business の最新かつ最高のクライアント エクスペリエンスは、Skype for Business 2019 クイック実行インストーラーにあります。
 

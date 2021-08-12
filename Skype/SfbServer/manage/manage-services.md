@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のサービスを管理する
+title: サービスを管理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,34 +11,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
-description: この記事では、Skype for Business Server トポロジで実行されているサービスを管理する方法について説明します。
-ms.openlocfilehash: d0669eab34795de3241c954f2eda593eda474193
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: この記事では、特定のトポロジで実行されているサービスを管理するSkype for Business Server説明します。
+ms.openlocfilehash: ac09cc3d387fb74c28a1908489071a739fa1bbc65d5d1f6e53758db61b0cbf29
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295414"
 ---
-# <a name="manage-services-for-skype-for-business-server"></a>Skype for Business Server のサービスを管理する
+# <a name="manage-services-for-skype-for-business-server"></a>サービスを管理Skype for Business Server
 
-この記事では、Skype for Business Server トポロジで実行されているサービスを管理する方法について説明します。
+この記事では、特定のトポロジで実行されているサービスを管理するSkype for Business Server説明します。
   
-## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>Skype for Business Server を実行しているコンピューターの一覧を表示する
+## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>実行中のコンピューターの一覧を表示Skype for Business Server
 <a name="view_list"> </a>
 
-Skype for Business Server コントロール パネルを使用すると、トポロジで Skype for Business Server を実行しているすべてのコンピューターの一覧を表示し、それぞれのサービス状態を確認できます。 この一覧は、コンピューター、プール、またはサイトごとに並べ替えることができます。 
+[Skype for Business Server コントロール パネル] を使用すると、トポロジ内で Skype for Business Server実行しているすべてのコンピューターの一覧を表示し、それぞれのサービス状態を確認できます。 この一覧は、コンピューター、プール、またはサイトごとに並べ替えることができます。 
   
-### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>Skype for Business Server を実行しているコンピューターの一覧を表示するには
+### <a name="to-view-a-list-of-computers-running-skype-for-business-server"></a>実行中のコンピューターの一覧を表示Skype for Business Server
 
-1. Skype for Business Server の定義済みの管理役割に割り当てられているユーザー アカウントから、内部展開内の任意のコンピューターにログオンします。 Skype for Business Server で使用できる定義済みの管理役割の詳細については、「Planning for Role-Based **アクセス制御」を参照してください**。   
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。   
+1. サーバーの定義済みの管理役割に割り当てられているユーザー アカウントSkype for Business Server、内部展開内の任意のコンピューターにログオンします。 このページで使用できる定義済みの管理役割の詳細については、「Skype for Business Serverアクセス制御の計画 **」Role-Based を参照してください**。   
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。   
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。   
 4. [**状態**] ページで、必要に応じて、次のいずれかの操作を実行します。
    - [**コンピューター**]、[**プール**]、または [**サイト**] 列の見出しをクリックし、上矢印または下矢印をクリックして、一覧を並べ変えます。 
    - [**更新**] をクリックして、最新の一覧を表示します。  
    - 検索フィールドにコンピューター名を入力することで、特定のコンピューターを検索します。
     
-## <a name="view-the-status-of-services-running-on-a-skype-for-business-server"></a>Skype for Business サーバーで実行されているサービスの状態を表示する
+## <a name="view-the-status-of-services-running-on-a-skype-for-business-server"></a>サーバーで実行されているサービスの状態Skype for Businessする
 <a name="view-status"> </a>
 
 Skype for Business Server コントロール パネルを使用すると、Skype for Business Server トポロジ内の特定のコンピューターで実行されているすべてのサービスを表示し、各サービスの状態を確認できます。
@@ -46,20 +46,20 @@ Skype for Business Server コントロール パネルを使用すると、Skype
 ### <a name="to-view-the-status-of-services-running-on-a-computer"></a>コンピューターで実行されているサービスの状態を表示するには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックします。 
 4. [状態 **] ページで** 、必要に応じてリストを並べ替えまたは検索して、必要なコンピューターを検索し、コンピューター名をクリックします。
 5. 次のいずれかの操作を行います。
    - コンピューターで実行されているサービスの最新状態を表示するには、[**サービス状態の取得**] をクリックします。
    - コンピューターで実行されている特定のサービスの一覧および各サービスの状態を表示するには、[**プロパティ**] をクリックし、[**閉じる**] をクリックして一覧に戻ります。
     
-### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Windows Powershell コマンドレットを使用してサービスの状態を表示する
+### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Powershell コマンドレットを使用したWindowsの表示
 
-また、サービスの状態を表示するには、Windows PowerShell **Get-CsWindowsService コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、Skype for Business Server でも同じです。
+また、サービスの状態を表示するには、Windows PowerShell **Get-CsWindowsService コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-view-service-status"></a>サービス状態を表示するには
 
-コンピューターでサービスの状態を表示するには、Skype for Business Server 管理シェルに次のようなコマンドを入力し、Enter キーを押します。
+コンピューターでサービスの状態を表示するには、次のようなコマンドを [管理シェル] に入力Skype for Business Server Enter キーを押します。
   
 ```PowerShell
 Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
@@ -82,12 +82,12 @@ Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object Rol
 ## <a name="view-details-about-a-service"></a>サービスの詳細を表示する
 <a name="view_details"> </a>
 
-Skype for Business Server コントロール パネルを使用して、トポロジ内の特定のコンピューターで実行されている各サービスの詳細を表示できます。 各サービスの状態と、関連付けられたデータベース、ポート、依存サービスなどの詳細を表示できます。
+[コントロール パネルSkype for Business Server使用して、トポロジ内の特定のコンピューターで実行されている各サービスの詳細を表示できます。 各サービスの状態と、関連付けられたデータベース、ポート、依存サービスなどの詳細を表示できます。
   
 ### <a name="to-view-details-for-a-service"></a>サービスの詳細を表示するには
 
-1. Skype for Business Server の定義済みの管理役割に割り当てられているユーザー アカウントから、内部展開内の任意のコンピューターにログオンします。 Skype for Business Server で使用できる定義済みの管理役割の詳細については、「Planning for Role-Based **アクセス制御」を参照してください**。
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+1. サーバーの定義済みの管理役割に割り当てられているユーザー アカウントSkype for Business Server、内部展開内の任意のコンピューターにログオンします。 このページで使用できる定義済みの管理役割の詳細については、「Skype for Business Serverアクセス制御の計画 **」Role-Based を参照してください**。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. [**状態**] ページで、一覧を並べ替えるか検索して、表示するコンピューターをクリックします。
 5. [**プロパティ**] をクリックします。
@@ -97,12 +97,12 @@ Skype for Business Server コントロール パネルを使用して、トポ�
    - 指定したサービスの詳細を表示するには、[**プロパティ**] をクリックしてから、[**閉じる**] をクリックします。
    - トポロジ内のすべてのコンピューターの一覧を返すには、[**閉じる**] をクリックします。
     
-## <a name="start-or-stop-skype-for-business-server-services"></a>Skype for Business Server サービスを開始または停止する
+## <a name="start-or-stop-skype-for-business-server-services"></a>サービスの開始Skype for Business Server停止する
 <a name="StartStop"> </a>
 
-Skype for Business Server コントロール パネルを使用すると、特定のコンピューターで実行されている Skype for Business Server サービスの開始または停止、または特定のサービスの開始または停止を行えます。
+コントロール パネルSkype for Business Serverを使用して、特定のコンピューターで実行Skype for Business Serverサービスを開始または停止したり、特定のサービスを開始または停止することができます。
   
-### <a name="to-start-or-stop-all-skype-for-business-services-on-a-computer"></a>コンピューター上のすべての Skype for Business サービスを開始または停止するには
+### <a name="to-start-or-stop-all-skype-for-business-services-on-a-computer"></a>コンピューター上のすべてのサービスをSkype for Businessまたは停止するには
 
 1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。 CsServerAdministrator または CsAdministrator RBAC の役割が割り当てられているかどうかを確認するには、次のようなコマンドを実行します。
     
@@ -110,7 +110,7 @@ Skype for Business Server コントロール パネルを使用すると、特�
    Get-CsAdminRoleAssignment -Identity "kenmyer"
    ```
 
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. [**状態**] ページで、必要に応じてリストを並べ替えるかまたは検索して、開始または停止するサービスを実行しているコンピューターを見つけ、クリックします。
 5. [**アクション**] をクリックします。
@@ -119,7 +119,7 @@ Skype for Business Server コントロール パネルを使用すると、特�
 ### <a name="to-start-or-stop-a-specific-service"></a>特定のサービスを開始または停止するには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. [**状態**] ページで、必要に応じて一覧を並べ替えるかまたは検索して、開始または停止するサービスを実行しているコンピューターを確認してクリックします。
 5. [**プロパティ**] をクリックします。
@@ -133,10 +133,10 @@ Skype for Business Server コントロール パネルを使用すると、特�
 
 Skype for Business Server コントロール パネルを使用すると、特定のコンピューターで実行されているすべての Skype for Business Server サービスの新しいセッションを防止したり、特定の Skype for Business Server サービスの新しいセッションを防止したりできます。
   
-### <a name="to-prevent-new-sessions-for-all-skype-for-business-services-on-a-computer"></a>コンピューター上のすべての Skype for Business サービスの新しいセッションを防止するには
+### <a name="to-prevent-new-sessions-for-all-skype-for-business-services-on-a-computer"></a>コンピューター上のすべてのサービスSkype for Businessセッションを防止するには
 
 1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. [状態 **] ページ** で、必要に応じて一覧を並べ替えまたは検索して、新しいセッションを防止するサービスを実行しているコンピューターを検索し、それをクリックします。
 5. [**アクション**] をクリックします。
@@ -145,7 +145,7 @@ Skype for Business Server コントロール パネルを使用すると、特�
 ### <a name="to-prevent-new-sessions-for-a-specific-service"></a>特定のサービスの新しいセッションを防止するには
 
 1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 4. [**状態**] ページで、必要に応じて一覧を並べ替えるかまたは検索して、開始または停止するサービスを実行しているコンピューターを確認してクリックします。 
 5. [**プロパティ**] をクリックします。

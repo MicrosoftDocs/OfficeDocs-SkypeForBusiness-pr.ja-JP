@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 匿名ユーザー アクセスを有効または無効にする方法は、Skype for Business Server。
+ms.openlocfilehash: c06135c0678309c527ec4bda341c17de2d643ce4d6b947077a3a2d02d71dea55
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848702"
 ---
-# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Skype for Business Server で匿名ユーザー アクセスを有効または無効にする
+# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>ユーザーの匿名ユーザー アクセスを有効または無効Skype for Business Server
 
 匿名ユーザーとは、組織の Active Directory ドメイン サービスまたはサポートされているフェデレーション ドメインにユーザー アカウントを持たないが、オンプレミスの会議にリモートから参加するために招待できるユーザーです。 会議への匿名参加を許可すると、匿名ユーザー (つまり、会議または会議キーを通じて ID が確認されるユーザー) が会議に参加できます。 匿名参加を許可するには、組織で有効にする必要があります。
 
@@ -35,7 +35,7 @@ ms.locfileid: "51119386"
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで [**外部ユーザー アクセス**] をクリックし、[**アクセス エッジ構成**] をクリックします。
 
@@ -50,23 +50,19 @@ ms.locfileid: "51119386"
 6.  [**確定**] をクリックします。
 
 
-## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>ユーザーのコマンドレットを使用して匿名ユーザー アクセスを有効またはWindows PowerShellする
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用して匿名ユーザー アクセスを有効またはWindows PowerShellする
 
-匿名ユーザー アクセスを管理するには、Windows PowerShell **Set-CsAccessEdgeConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 
+匿名ユーザー アクセスを管理するには、Windows PowerShell **Set-CsAccessEdgeConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 
 
 ## <a name="to-enable-anonymous-user-access"></a>匿名ユーザー アクセスを有効にするには
 
-  - 匿名ユーザー アクセスを有効にするには **、AllowAnonymousUsers** プロパティの値を True ($True) に設定します。
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - 匿名ユーザー アクセスを有効にするには **、AllowAnonymousUsers** プロパティの値を True ($True) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>匿名ユーザー アクセスを無効にするには
 
-  - 匿名ユーザー アクセスを無効にするには **、AllowAnonymousUsers** プロパティの値を False ($False) に設定します。
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - 匿名ユーザー アクセスを無効にするには **、AllowAnonymousUsers** プロパティの値を False ($False) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>関連項目
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

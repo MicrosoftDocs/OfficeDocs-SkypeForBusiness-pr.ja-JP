@@ -15,23 +15,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '[外部アクセス ポリシー] ページの [コントロール パネル] の [Skype for Business Server] に表示されているサイトまたはユーザー ポリシーを削除できます。'
-ms.openlocfilehash: 154fb4434e074a3585a817994cb6b919a2b755eef8d5a8e6a082cacad4e25aae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79858592b8ba7dbcee692807bba3d2a472a8579cbc843ddeb96c25c811cc6df7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848682"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザー アクセスに関するサイト ポリシーまたはユーザー ポリシーの削除
 
-使用しなくなった外部ユーザー アクセス ポリシーを作成または構成済みの場合は、次の操作を実行できます。
+使用する必要がなくなった外部ユーザー アクセス ポリシーを作成または構成している場合は、次の方法を実行できます。
 
   - 作成したサイトやユーザー ポリシーを削除します。
 
   - グローバル ポリシーを既定の設定にリセットします。 既定のグローバル ポリシー設定では、外部ユーザー アクセスが許可されません。 グローバル ポリシーは削除できません。
 
 
-[外部アクセス ポリシー] ページの [コントロール パネル] の [Skype for Business Server] に表示されているサイトポリシーまたはユーザー ポリシー **を削除** できます。 グローバル ポリシーを削除すると、実際には削除されず、外部ユーザー アクセス オプションのサポートが含まれていない既定の設定にリセットされるだけです。 グローバル ポリシーのリセットの詳細については、「外部ユーザー アクセスのグローバル ポリシーを [リセットする」を参照してください](reset-the-global-policy-for-external-user-access.md)。
+[外部アクセス ポリシー] ページの [コントロール パネル] の [Skype for Business Server] に表示されているサイトポリシーまたはユーザー ポリシー **を削除** できます。 グローバル ポリシーを削除しても、実際には削除されませんが、外部ユーザー アクセス オプションのサポートが含まれる既定の設定にのみリセットされます。 グローバル ポリシーのリセットの詳細については、「外部ユーザー アクセスのグローバル ポリシーを [リセットする」を参照してください](reset-the-global-policy-for-external-user-access.md)。
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザー アクセスのサイト ポリシーまたはユーザー ポリシーを削除するには
@@ -54,23 +54,17 @@ ms.locfileid: "54309256"
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>特定の外部アクセス ポリシーを削除するには
 
-  - 次のコマンドでは、Redmond サイトに適用されている外部アクセス ポリシーを削除します。
-    
-        Remove-CsExternalAccessPolicy -Identity "site:Redmond"
+  - 次のコマンドでは、Redmond サイトに適用されている外部アクセス ポリシーを削除します。<br/><br/>Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
 
 ## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>ユーザーごとのスコープに適用されている外部アクセス ポリシーをすべて削除するには
 
-  - 次のコマンドでは、ユーザーごとのスコープで構成されているすべての外部アクセス ポリシーを削除します。
-    
-        Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
+  - 次のコマンドでは、ユーザーごとのスコープで構成されているすべての外部アクセス ポリシーを削除します。<br/><br/>Get-CsExternalAccessPolicy -Filter "tag:*" |Remove-CsExternalAccessPolicy
 
 
 ## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>外部ユーザー アクセスが無効になっているすべての外部アクセス ポリシーを削除するには
 
-  - 次のコマンドでは、外部ユーザー アクセス ポリシーが無効になっているすべての外部アクセス ポリシーを削除します。
-    
-        Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
+  - 次のコマンドでは、外部ユーザー アクセス ポリシーが無効になっているすべての外部アクセス ポリシーを削除します。<br/><br/>Get-CsExternalAccessPolicy |Where-Object {$_.EnableOutsideAccess -eq $False} |Remove-CsExternalAccessPolicy
 
 
 詳細については [、Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) コマンドレットのヘルプ トピックを参照してください。

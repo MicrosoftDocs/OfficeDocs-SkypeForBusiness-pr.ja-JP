@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: '[サービスの選択] ダイアログ ボックスを使用して、環境で利用可能なサービスを検索します。 既存のサービスを使用するには、一覧でサービスをクリックして [OK] をクリックします。'
-ms.openlocfilehash: 06ee0217a8a495a881c9925c57e33311e4944607
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f3576594714701d52d192fee88dc983bee91d92b81559b4b8efd0d0a790bb6f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108043"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311168"
 ---
 # <a name="select-a-service"></a>サービスの選択
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'ユーザーのモバイル アプリのセキュリティを設定する方法について学習します。 '
-ms.openlocfilehash: f600230574b8d16a0f7907b4484da8ffcca6124e
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1adfc8e44880b89ab9f4b24be532ae4a327744cf69d0ef63ecea3f65ae684fc8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239634"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295114"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Skype for Business のモバイル アプリのセキュリティ
 

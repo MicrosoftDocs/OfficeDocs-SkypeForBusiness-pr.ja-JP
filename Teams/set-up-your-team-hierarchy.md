@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a801ae905ac7c384399aea5ccdf3bcf6f4e4200f
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: 7cff5f74d5ece9cf28887783ed07b9bfc8e5cd32287a96aeb2efbfaf29bce515
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203616"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350449"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>チーム対象の階層を設定する
 
@@ -278,7 +278,7 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 スキーマ CSV ファイルの TeamId が、管理センターに表示されるグループ ID と一致Microsoft Teams確認します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 * [組織内のタスク アプリを管理Teams](manage-tasks-app.md)
 * [Teams での PowerShell の概要](teams-powershell-overview.md)

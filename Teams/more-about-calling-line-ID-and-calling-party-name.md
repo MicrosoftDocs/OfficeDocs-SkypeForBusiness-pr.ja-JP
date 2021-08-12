@@ -20,12 +20,12 @@ ms.custom:
 - Calling Plans
 ms.service: msteams
 description: 通話回線 ID と通話者名について説明します。
-ms.openlocfilehash: dd68327c8fb3f63bf17e0736f9d41b727efc1ff8
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 7baae8ff6ed48919e4ee540890dd31a47ad81c943e5ce8e9db8d934331d0ce75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308316"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350639"
 ---
 # <a name="more-about-calling-line-id-and-calling-party-name"></a>発信回線 ID と発信者名の詳細
 
@@ -41,6 +41,6 @@ CLID & CNAM 送信は、終端の通信事業者の責任です。 終端の通�
 
 CNAM の不整合は、米国の場合と同様に、中間または終了の通信事業者が権限のあるデータベースの CNAM 情報の更新を遅らせた場合に発生する可能性があります。 CNAM の権限のあるデータベースがない国では、個々の運送業者のプラクティスによって、CNAM 情報が呼び出しと同じ状態で到着する際に問題が発生する可能性があります。 Microsoft は現在、米国以外の国で発信元の CNAM 情報をサポートしていない。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 

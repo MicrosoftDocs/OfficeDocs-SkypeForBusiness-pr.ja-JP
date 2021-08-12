@@ -14,29 +14,29 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: グローバル ポリシーを完全に削除することはできません。 グローバル ポリシーに対して [**削除**] オプションを使用すると、外部ユーザー アクセス オプションのサポートが含まれていない既定の設定に、グローバル ポリシーがリセットされるだけです。
-ms.openlocfilehash: 6c74690d86f7a300b79b755db7c6111eec7810f3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: グローバル ポリシーを完全に削除できない。 グローバル ポリシー **の [削除** ] オプションを使用すると、グローバル ポリシーが既定の設定にリセットされるだけで、外部ユーザー アクセス オプションのサポートは含めされません。
+ms.openlocfilehash: ebdd18d85570156a00cb4b31d36ec5660365223318ed748b799e9100c1deaaa5
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848672"
 ---
-# <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Skype for Business Server の外部ユーザー アクセスのグローバル ポリシーをリセットする 
+# <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>外部ユーザー アクセスのグローバル ポリシーをリセットSkype for Business Server 
 
-使用しなくなった外部ユーザー アクセス ポリシーを作成または構成済みの場合は、次の操作を実行できます。
+使用する必要がなくなった外部ユーザー アクセス ポリシーを作成または構成している場合は、次の方法を使用できます。
 
   - 作成したサイトやユーザー ポリシーを削除します。
 
-  - グローバル ポリシーを既定の設定にリセットします。 既定のグローバル ポリシー設定では、外部ユーザー アクセスが許可されません。 グローバル ポリシーは削除できません。
+  - グローバル ポリシーを既定の設定にリセットします。 既定のグローバル ポリシー設定では、外部ユーザー アクセスが許可されません。 グローバル ポリシーを削除できない。
 
-グローバル ポリシーを完全に削除することはできません。 グローバル ポリシーに対して [**削除**] オプションを使用すると、外部ユーザー アクセス オプションのサポートが含まれていない既定の設定に、グローバル ポリシーがリセットされるだけです。
+グローバル ポリシーを完全に削除できない。 グローバル **ポリシーの** [削除] オプションは、グローバル ポリシーを既定の設定にのみリセットします。外部ユーザー アクセス オプションのサポートは含めされません。
 
 ## <a name="to-reset-the-global-policy-to-the-default-settings"></a>グローバル ポリシーを既定の設定にリセットするには
 
-1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーであるユーザー アカウント、または同等のユーザー権限を持つユーザー アカウント、または CsAdministrator ロールに割り当てられているユーザー アカウントから、内部展開内の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。
 
 3.  左側のナビゲーション バーで [**外部ユーザー アクセス**] をクリックし、[**外部アクセス ポリシー**] をクリックします。
 
@@ -47,12 +47,10 @@ ms.locfileid: "51098973"
 
 ## <a name="resetting-the-global-external-access-policy-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用したグローバル外部アクセス ポリシー Windows PowerShellする
 
-グローバル外部アクセス ポリシーは、ユーザーのコマンドレットとWindows PowerShell使用してRemove-CsExternalAccessPolicyできます。 このコマンドレットは、Skype for Business Server 管理シェルから、またはリモート セッション から実行Windows PowerShell。 
+グローバル外部アクセス ポリシーをリセットするには、Windows PowerShellコマンドレットをRemove-CsExternalAccessPolicyします。 このコマンドレットは、管理シェルのSkype for Business Serverリモート セッション から実行Windows PowerShell。 
 
 ## <a name="to-reset-the-global-external-access-policy"></a>グローバル外部アクセス ポリシーをリセットするには
 
-  - 次のコマンドは、グローバル外部アクセス ポリシーをリセットします。
-    
-        Remove-CsExternalAccessPolicy -Identity "global"
+  - 次のコマンドは、グローバル外部アクセス ポリシーをリセットします。<br/><br/>Remove-CsExternalAccessPolicy -Identity "global"
 
 詳細については [、Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) コマンドレットのヘルプ トピックを参照してください。

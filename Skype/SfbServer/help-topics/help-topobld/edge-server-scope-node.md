@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: このノードには、このエッジ プールの完全修飾ドメイン名 (FQDN) およびその他の基本設定が表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: ca5354ce12c8e56e3fe725edb0d67f348d77e9b9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: acda6242dcd3666ccf03814ab3574e0dcf35c8fa5c3fdb8d9c3c06009a90fccb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807077"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286906"
 ---
 # <a name="edge-server-scope-node"></a>エッジ サーバーのスコープ ノード
  
@@ -34,7 +34,7 @@ ms.locfileid: "49807077"
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除を行います。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、コンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

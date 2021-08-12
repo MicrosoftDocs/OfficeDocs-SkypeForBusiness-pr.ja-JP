@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d130ea4e72b6343def4bfe232934063e0385b72d
-ms.sourcegitcommit: 08bcad09296c96354f0e6203a623dc548e827aa2
+ms.openlocfilehash: 1203f394f9469fbe86a173d60c73280253011b70e4dd21da5290bd40b1e9df22
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53324460"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310905"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 

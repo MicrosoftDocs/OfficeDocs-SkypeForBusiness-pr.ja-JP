@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での認証の管理
+title: 認証を管理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,36 +12,36 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
-description: '概要: Skype for Business Server のセキュリティと認証を管理するには、次の手順を使用します。'
-ms.openlocfilehash: 08cfe113c73c3abc39e617da8340d63f758438c3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 次の手順を使用して、セキュリティとSkype for Business Serverを管理します。'
+ms.openlocfilehash: ce142b4f28c40e13d17e8990696d88a24e8e212bfbfe2b4f0c2635131b35f352
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341912"
 ---
-# <a name="manage-authentication-in-skype-for-business-server"></a>Skype for Business Server での認証の管理
+# <a name="manage-authentication-in-skype-for-business-server"></a>認証を管理Skype for Business Server
  
-**概要:** Skype for Business Server のセキュリティと認証を管理するには、次の手順を実行します。
+**概要:** セキュリティと認証を管理するには、次Skype for Business Server手順を使用します。
   
-Skype for Business Server のセキュリティと認証を管理するには、次の手順を実行します。
+セキュリティと認証を管理するには、次Skype for Business Server手順を使用します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business でモダン認証 (ADAL) を使用する方法](/microsoft-365/enterprise/hybrid-modern-auth-overview)
+- [モダン認証 (ADAL) とパスワードを使用するSkype for Business](/microsoft-365/enterprise/hybrid-modern-auth-overview)
     
-- [Set-CsCertificate で -Roll を使用して Skype for Business Server で AV 証明書と OAuth 証明書をステージ化する](stage-av-and-oauth-certificates.md)
+- [Set-CsCertificate で -Roll を使用Skype for Business Serverで AV 証明書と OAuth 証明書をステージ化する](stage-av-and-oauth-certificates.md)
     
-- [サーバー間認証証明書を Skype for Business Server に割り当てる](assign-a-server-to-server-certificate.md)
+- [サーバー間認証証明書をサーバー間認証証明書に割り当Skype for Business Server](assign-a-server-to-server-certificate.md)
 
-- [Skype for Business Server ハイブリッド環境のサーバー間認証を構成します。](configure-a-hybrid-environment.md)
+- [ハイブリッド環境のサーバー間認証Skype for Business Server構成します。](configure-a-hybrid-environment.md)
 
-- [Skype for Business Server のオンプレミス パートナー アプリケーションを構成する](configure-an-on-premises-partner-app.md)
+- [オンプレミス のパートナー アプリケーションを構成Skype for Business Server](configure-an-on-premises-partner-app.md)
     
-- [Skype for Business Server でレジストラー構成設定を管理する](registrar-configuration-settings.md)
+- [[レジストラー構成の設定を管理する] Skype for Business Server](registrar-configuration-settings.md)
     
-- [Skype for Business Server での Web サービス構成設定の管理](web-service-configuration-settings.md)
+- [Web サービスの構成設定を管理 Skype for Business Serverする](web-service-configuration-settings.md)
     
-- [Skype for Business Server で PIN 設定を管理する](pin-settings.md)
+- [[PIN の設定を管理する] Skype for Business Server](pin-settings.md)
     
-- [Skype for Business Server での 2 要素認証の管理](two-factor-authentication.md)
+- [2 要素認証を管理Skype for Business Server](two-factor-authentication.md)
