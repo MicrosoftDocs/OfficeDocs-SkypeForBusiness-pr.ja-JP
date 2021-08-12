@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の会議詳細レポート
+title: 会議の詳細レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: '概要: Skype for Business Server で使用される電話会議詳細レポートについて説明します。'
-ms.openlocfilehash: 245691fcb304a872942be4d5a9aabe8183b4db14
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 会議で使用される会議の詳細レポートについてSkype for Business Server。'
+ms.openlocfilehash: 5da5c703916cb1f8ac24624efa14c5a65cec5cdd7b3d45da5d13ce8ac00fbfcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816907"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328122"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server"></a>Skype for Business Server の会議詳細レポート
+# <a name="conference-detail-report-in-skype-for-business-server"></a>会議の詳細レポート (Skype for Business Server
 
-**概要:** Skype for Business Server で使用される電話会議詳細レポートについて説明します。
+**概要:** 詳細レポートで使用される会議の詳細レポートSkype for Business Server。
 
 会議詳細レポートには、電話会議に参加したすべてのユーザーに関する詳細な情報が示されます。たとえば、ユーザーが会議に参加した日時、ユーザーが電話会議から退場した日時、ユーザーが電話会議に接続するときに使用したエンドポイントのユーザー エージェントなどの情報を確認できます。各電話会議におけるユーザーの役割 (発表者、参加者など) に関する情報も確認できます。おそらく最も重要なことは、会議への参加と終了が正常に行われたユーザーと正常に行われなかったユーザーを簡単に確認できることです。
 
@@ -67,10 +67,10 @@ ms.locfileid: "49816907"
 |**接続** <br/> |参加者のネットワーク接続 (一般には内部送信元または外部送信元)。  <br/> |
 |[**参加時間**] <br/> |参加者が電話会議に参加した日時。  <br/> |
 |[**退場時間**] <br/> |参加者が電話会議から退出した日時。  <br/> |
-|[**ユーザー エージェント**] <br/> |参加者のエンドポイントによって使用されるソフトウェアの識別子。  <br/> |
+|[**ユーザー エージェント**] <br/> |参加者のエンドポイントで使用されるソフトウェアの識別子。  <br/> |
 |**診断レポート** <br/> |診断およびトラブルシューティングの情報を提供します。失敗したセッションの SIP 応答コード、診断ヘッダー、電話会議参加時間、診断 ID などがあります。  <br/> |
 
-次の表に、電話会議詳細レポートの [電話会議モダリティ] セクションで提供される情報を示します。
+次の表に、会議詳細レポートの [会議モダリティ] セクションで提供される情報を示します。
 
 **電話会議のモダリティの指標**
 

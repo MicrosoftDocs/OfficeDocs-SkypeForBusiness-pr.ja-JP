@@ -1,5 +1,5 @@
 ---
-title: Skype for Business での応答グループ ワークフローの設計と作成
+title: ワークフローでの応答グループ ワークフローの設計とSkype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
-description: Skype for Business Server エンタープライズ VoIP で応答グループ のワークフローを設計および作成します。 ハント グループ ワークフローと対話型ワークフローの両方について説明します。
-ms.openlocfilehash: 678dcb25f5f802f101016a2a289015a60e48ba88
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 応答グループ のワークフローを設計し、作成Skype for Business Server エンタープライズ VoIP。 ハント グループ ワークフローと対話型ワークフローの両方について説明します。
+ms.openlocfilehash: ac77753e82acc2a7733fb5d273a55b4c9fd0d0fd5466262fec6fdc9a2c223030
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105783"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303121"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Skype for Business での応答グループ ワークフローの設計と作成
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>ワークフローでの応答グループ ワークフローの設計とSkype for Business
 
-Skype for Business Server エンタープライズ VoIP で応答グループ のワークフローを設計および作成します。 ハント グループ ワークフローと対話型ワークフローの両方について説明します。
+応答グループ のワークフローを設計し、作成Skype for Business Server エンタープライズ VoIP。 ハント グループ ワークフローと対話型ワークフローの両方について説明します。
 
 ワークフローは、電話への着信から、だれかが呼び出しに応答するまでの通話のビヘイビアーを定義します。 ワークフローは、通話を保持するために使用するキューを指定し、ハント グループ ワークフローに使用するルーティング 方法、または対話型応答グループ ワークフローに使用する質問と回答を指定します。
 
@@ -40,7 +40,7 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。
 
 3. 左側のナビゲーション バーで、[**応答グループ**] をクリックし、[**ワークフロー**] をクリックします。
 
@@ -65,10 +65,10 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
 8. フェデレーション ユーザーにグループへの通話を許可するには、[**フェデレーションを有効にする**] チェック ボックスをオンにします。 フェデレーション用に構成された応答グループ アプリケーションに適用される外部アクセス ポリシーも必要です。
 
     > [!NOTE]
-    > グローバル外部アクセス ポリシーは、応答グループ アプリケーションに適用されます。 応答グループ フェデレーションのグローバル ポリシーを構成するには、Skype for Business Server コントロール パネルを使用するか **、Set-CsExternalAccessPolicy** コマンドレットを使用して EnableOutsideAccess パラメーターを True に設定します。 グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。 そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。 ポリシーをユーザーに適用する方法の詳細については、「[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)」を参照してください。 フェデレーション設定の詳細については [、「Set-CsExternalAccessPolicy」を参照してください](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
+    > グローバル外部アクセス ポリシーは、応答グループ アプリケーションに適用されます。 Skype for Business Server コントロール パネルを使用するか **、Set-CsExternalAccessPolicy** コマンドレットを使用して EnableOutsideAccess パラメーターを True に設定することで、応答グループ フェデレーションのグローバル ポリシーを構成できます。 グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。 そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。 ポリシーをユーザーに適用する方法の詳細については、「[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)」を参照してください。 フェデレーション設定の詳細については [、「Set-CsExternalAccessPolicy」を参照してください](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
 
     > [!NOTE]
-    > Skype for Business Online でホストされているユーザーは、オンプレミス展開でホストされている応答グループに呼び出しを実行することはできません。 これは、ハイブリッド展開と、オンプレミス展開が Skype for Business Online 展開とフェデレーションされる場合の両方に当てはまる。
+    > オンラインでホストされているSkype for Businessは、オンプレミス展開でホストされている応答グループに呼び出しを行う必要があります。 これは、ハイブリッド展開と、オンプレミス展開がオンライン展開とフェデレーションされる場合Skype for Business当てはめられます。
 
 9. 通話中、エージェントの ID を非表示にするには、[**エージェントの匿名性を有効にする**] チェック ボックスをオンにします。
 
@@ -89,7 +89,7 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
 
 13. [**表示番号**] に、応答グループを表示する番号を入力します (入力例 +1 (425) 555-0165)。
 
-14. (省略可能)[ **説明**] に、Skype for Business の連絡先カードに表示するワークフローの説明を入力します。
+14. (省略可能)[**説明**] で、ワークフローを連絡先カードに表示するワークフローの説明を入力Skype for Business。
 
 15. このワークフローを応答グループのマネージャーが管理する場合は、[**ワークフローの種類**] で [**管理**] を選択します。 ワークフローを応答グループのマネージャーに割り当てるには、次の操作を実行します。
 
@@ -112,7 +112,7 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
     - 開始メッセージに Wave (.wav) または Windows Media オーディオ (.wma) ファイルの録音を使用するには、**[録音を選択する]** をクリックします。 新しいオーディオ ファイルをアップロードする場合は、**[録音]** リンクをクリックしてください。 新しいブラウザー ウィンドウで **[参照]** をクリックし、使用するオーディオ ファイルを選択して、**[開く]** をクリックします。 **[アップロード]** をクリックしてオーディオ ファイルを読み込みます。
 
     > [!NOTE]
-    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
+    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
 
 18. **[ステップ 4 営業時間の指定]** の **[タイム ゾーン]** で、ワークフローのタイム ゾーンをクリックします。
 
@@ -124,7 +124,7 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
     - 事前に定義した営業時間スケジュールを使用するには、[**事前設定したスケジュールを使用する**] をクリックして、ドロップダウン リストから使用するスケジュールを選択します。
 
       > [!NOTE]
-      > このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 **New-CSRgsHoursOfBusiness** コマンドレットを使用して事前設定スケジュールを定義します。 詳細については [、「(オプション)Skype for Business での応答グループの営業時間の定義」を参照してください](optional-define-response-group-business-hours.md)。
+      > このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 **New-CSRgsHoursOfBusiness** コマンドレットを使用して事前設定スケジュールを定義します。 詳細については、「([省略可能) 応答グループの営業時間を定義する」を参照Skype for Business。](optional-define-response-group-business-hours.md)
 
       > [!NOTE]
       > 事前設定したスケジュールを選択すると、応答グループの対応日時で、[**曜日**]、[**始業**]、[**終業**] が自動的に設定されます。
@@ -148,7 +148,7 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
     - メッセージにオーディオ ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
       > [!NOTE]
-      > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているオーディオ ファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
+      > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
 
 23. メッセージが構成されている場合は、メッセージ再生後の通話の処理方法を次のように指定します。
 
@@ -163,7 +163,7 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
 24. [**ステップ 5 休日の指定**] で、応答グループが営業しない日を定義する、1 つまたは複数の休日セットのチェック ボックスをオンにします。
 
     > [!NOTE]
-    > ワークフローを構成する前に、休日および休日セットを定義する必要があります。 休日および休日セットを定義するには、**New-CsRgsHoliday** コマンドレットおよび **New-CsRgsHolidaySet** コマンドレットを使用します。 詳細については、「( [オプション)Skype for Business の応答グループ休日セットを定義する」を参照してください](optional-define-response-group-holiday-sets.md)。
+    > ワークフローを構成する前に、休日および休日セットを定義する必要があります。 休日および休日セットを定義するには、**New-CsRgsHoliday** コマンドレットおよび **New-CsRgsHolidaySet** コマンドレットを使用します。 詳細については、「(省略可能) 応答グループの休日セットを定義する[」を参照Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 休日にメッセージを再生するには、[**休日にメッセージを再生する**] チェック ボックスをオンにしてから、次のいずれかの操作を実行して再生するメッセージを指定します。
 
@@ -175,7 +175,7 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
     - メッセージにオーディオ ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
       > [!NOTE]
-      > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているオーディオ ファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
+      > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
 
 26. メッセージが構成されている場合は、メッセージ再生後の通話の処理方法を次のように指定します。
 
@@ -200,11 +200,11 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
 
 29. [**展開**] をクリックします。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>Skype for Business Server 管理シェルを使用してハント グループ ワークフローを作成または変更するには
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>管理シェルSkype for Business Serverを使用してハント グループ ワークフローを作成または変更するには
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 3. ウェルカム メッセージを再生するプロンプトを作成し、変数に保存します。 コマンド ラインで、次のコマンドを実行します。
 
@@ -238,13 +238,13 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
     > [!NOTE]
     > ハント グループ ワークフローの場合、既定のアクションで呼び出しをキューに送信する必要があります。 このパラメーターは、アクティブなワークフローに必要です。 非アクティブなワークフローには必要ありません。
 
-    例:
+    次に例を示します。
 
    ```powershell
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. 営業時間と休日を定義する場合は、ワークフローを作成または変更する前に作成する必要があります。 詳細については [、「(オプション)Skype for Business での](optional-define-response-group-business-hours.md) 応答グループの営業時間の定義」および「(省略可能) Skype for Business の応答グループ休日セットの [定義」を参照してください](optional-define-response-group-holiday-sets.md)。
+6. 営業時間と休日を定義する場合は、ワークフローを作成または変更する前に作成する必要があります。 詳細については[、「(省略可能) [](optional-define-response-group-business-hours.md)応答グループの営業時間の定義] [(Skype for Business)](optional-define-response-group-holiday-sets.md)[応答グループの休日セットの定義] を参照Skype for Business。
 
 7. 営業時間外または休日に受信される呼び出しのプロンプトを表示する場合は **、New-CsRgsPrompt** コマンドレットを使用してプロンプトを定義し **、New-CsRgsCallAction** を使用して、プロンプトの後に実行するアクションを定義します。 詳細については [、「New-CsRgsPrompt」](/powershell/module/skype/new-csrgsprompt?view=skype-ps) および [「New-CsRgsCallAction」を参照してください](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。
 
@@ -283,7 +283,7 @@ Skype for Business Server エンタープライズ VoIP で応答グループ �
 対話ワークフローでは最高 2 問の質問がサポートされ、各質問には回答の選択肢を 4 つまで設定できます。 IVR は発信者に質問を求め、発信者の応答に応じて発信者をキューにルーティングするか、2 番目の質問をします。 2 番目の質問にも、4 つの回答を設定できます。 2 番目のレベルの質問に対する回答に応じて、発信者は適切なキューにルーティングされます。
 
 > [!NOTE]
-> Skype for Business Server 管理シェルを使用して呼び出しフローを設計する場合は、IVR の質問と回答の任意の数のレベルを定義できます。 ただし、発信者の利便性を考え、3 問より多くの質問は使用せず、それぞれの回答の選択肢を 5 つ以下にするようお勧めします。 さらに、それぞれ 4 つ以上の回答を持つ 2 つ以上のレベルの質問がある通話フローを設計する場合は、Skype for Business Server コントロール パネルを使用して通話フローを編集できません。
+> Skype for Business Server管理シェルを使用して呼び出しフローを設計する場合は、IVR の質問の任意の数と任意の数の回答を定義できます。 ただし、発信者の利便性を考え、3 問より多くの質問は使用せず、それぞれの回答の選択肢を 5 つ以下にするようお勧めします。 さらに、それぞれ 4 つ以上の回答を持つ 2 つ以上のレベルの質問がある通話フローを設計する場合は、Skype for Business Server コントロール パネルを使用して通話フローを編集することはできません。
 
 IVR の質問と発信者の応答は、通話を受け入れる応答エージェントに提供されます。
 
@@ -373,13 +373,13 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。
 
 3. 左側のナビゲーション バーで、[**応答グループ**] をクリックし、[**ワークフロー**] をクリックします。
 
 4. [**ワークフロー**] ページで、[**ワークフローの作成または編集**] をクリックします。
 
-5. [**サービスの選択**] 検索フィールドに、作成または変更するワークフローをホストする **ApplicationServer** サービスの名前または名前の一部を入力します。 表示されたサービスの一覧で、目的のサービスをクリックし、[**OK**] をクリックします。
+5. [**サービスの選択**] 検索フィールドに、作成または変更するワークフローをホストする **ApplicationServer** サービスの名前または名前の一部を入力します。表示されたサービスの一覧で、目的のサービスをクリックし、[**OK**] をクリックします。
 
     > [!NOTE]
     > 応答グループ構成ツールが開きます。 また、Web ブラウザーから直接応答グループ構成ツールを開く場合は \<webPoolFqdn\> 、「/RgsConfig」という URL https:// 入力します。
@@ -398,10 +398,10 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 8. フェデレーション ユーザーにグループへの通話を許可するには、[**フェデレーションを有効にする**] チェック ボックスをオンにします。 フェデレーション用に構成された応答グループ アプリケーションに適用される外部アクセス ポリシーも必要です。
 
     > [!NOTE]
-    > グローバル外部アクセス ポリシーは、応答グループ アプリケーションに適用されます。 応答グループ フェデレーションのグローバル ポリシーを構成するには、Skype for Business Server コントロール パネルを使用するか **、Set-CsExternalAccessPolicy** コマンドレットを使用して EnableOutsideAccess パラメーターを True に設定します。 グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。 そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。 ポリシーをユーザーに適用する方法の詳細については、「[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)」を参照してください。 フェデレーション設定の詳細については、 **ドキュメントの「Set-CsExternalAccessPolicy」** を参照してください。
+    > グローバル外部アクセス ポリシーは、応答グループ アプリケーションに適用されます。 Skype for Business Server コントロール パネルを使用するか **、Set-CsExternalAccessPolicy** コマンドレットを使用して EnableOutsideAccess パラメーターを True に設定することで、応答グループ フェデレーションのグローバル ポリシーを構成できます。 グローバル ポリシー設定は、サイトやユーザー ポリシーに割り当てられていない限り、すべてのユーザーに適用されることに注意してください。 そのため、応答グループ向けにこの設定を変更する前に、フェデレーション設定が組織の要件を満たしていることを確認してください。 ポリシーをユーザーに適用する方法の詳細については、「[Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)」を参照してください。 フェデレーション設定の詳細については、 **ドキュメントの「Set-CsExternalAccessPolicy」** を参照してください。
 
     > [!NOTE]
-    > Skype for Business Online でホストされているユーザーは、オンプレミス展開でホストされている応答グループに呼び出しを実行することはできません。 これは、ハイブリッド展開と、オンプレミス展開が Skype for Business Online 展開とフェデレーションされる場合の両方に当てはまる。
+    > オンラインでホストされているSkype for Businessは、オンプレミス展開でホストされている応答グループに呼び出しを行う必要があります。 これは、ハイブリッド展開と、オンプレミス展開がオンライン展開とフェデレーションされる場合Skype for Business当てはめられます。
 
 9. 通話中、エージェントの ID を非表示にするには、[**エージェントの匿名性を有効にする**] チェック ボックスをオンにします。
 
@@ -419,7 +419,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 
 13. [**表示番号**] に、応答グループを表示する番号を入力します (入力例 +1 (425) 555-0165)。
 
-14. (省略可能)[ **説明**] に、Skype for Business の連絡先カードに表示するワークフローの説明を入力します。
+14. (省略可能)[**説明**] に、連絡先カードに表示するワークフローの説明を入力Skype for Business。
 
 15. このワークフローを応答グループのマネージャーが管理する場合は、[**ワークフローの種類**] で [**管理**] を選択します。 ワークフローを応答グループのマネージャーに割り当てるには、次の操作を実行します。
 
@@ -442,7 +442,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
     - 開始メッセージに Wave または Windows Media オーディオ ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するオーディオ ファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
     > [!NOTE]
-    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
+    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
 
 18. [**ステップ 4 営業時間の指定**] の [**タイム ゾーン**] ボックスで、ワークフローのタイム ゾーンをクリックします。
 
@@ -454,7 +454,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
     - 事前に定義した営業時間スケジュールを使用するには、[**事前設定したスケジュールを使用する**] をクリックして、ドロップダウン リストから使用するスケジュールを選択します。
 
       > [!NOTE]
-      > このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 **New-CsRgsHoursOfBusiness** コマンドレットを使用して、事前設定されたスケジュールを定義します。 詳細については [、「(オプション)Skype for Business での応答グループの営業時間の定義」を参照してください](optional-define-response-group-business-hours.md)。 事前設定したスケジュールを選択すると、応答グループの対応日時で、[**曜日**]、[**始業**]、[**終業**] が自動的に設定されます。
+      > このオプションを選択できるようにするには、あらかじめ少なくとも 1 つの事前設定スケジュールを定義しておく必要があります。 **New-CsRgsHoursOfBusiness** コマンドレットを使用して、事前設定されたスケジュールを定義します。 詳細については、「([省略可能) 応答グループの営業時間を定義する」を参照Skype for Business。](optional-define-response-group-business-hours.md) 事前設定したスケジュールを選択すると、応答グループの対応日時で、[**曜日**]、[**始業**]、[**終業**] が自動的に設定されます。
 
     - このワークフローのみに適用するカスタム スケジュールを使用するには、[**カスタム スケジュールを使用する**] をクリックします。
 
@@ -475,7 +475,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
     - メッセージにオーディオ ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
     > [!NOTE]
-    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
+    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
 
 23. メッセージが構成されている場合は、メッセージ再生後の通話の処理方法を次のように指定します。
 
@@ -490,7 +490,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 24. [**ステップ 5 休日の指定**] で、応答グループが営業しない日を定義する、1 つまたは複数の休日セットのチェック ボックスをオンにします。
 
     > [!NOTE]
-    > ワークフローを構成する前に、休日および休日セットを定義する必要があります。 休日および休日セットを定義するには、**New-CsRgsHoliday** コマンドレットおよび **New-CsRgsHolidaySet** コマンドレットを使用します。 詳細については、「( [オプション)Skype for Business の応答グループ休日セットを定義する」を参照してください](optional-define-response-group-holiday-sets.md)。
+    > ワークフローを構成する前に、休日および休日セットを定義する必要があります。 休日および休日セットを定義するには、**New-CsRgsHoliday** コマンドレットおよび **New-CsRgsHolidaySet** コマンドレットを使用します。 詳細については、「(省略可能) 応答グループの休日セットを定義する[」を参照Skype for Business。](optional-define-response-group-holiday-sets.md)
 
 25. 休日にメッセージを再生するには、[**休日にメッセージを再生する**] チェック ボックスをオンにしてから、次のいずれかの操作を実行して再生するメッセージを指定します。
 
@@ -502,7 +502,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
     - メッセージにオーディオ ファイルの録音を使用するには、[**録音を選択する**] をクリックします。新しいオーディオ ファイルをアップロードする場合は、[**録音**] リンクをクリックしてください。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
       > [!NOTE]
-      > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているオーディオ ファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
+      > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているオーディオ ファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
 
 26. メッセージが構成されている場合は、メッセージ再生後の通話の処理方法を次のように指定します。
 
@@ -521,7 +521,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
     - 保留音にオーディオ ファイルの録音を使用するには、[**音楽ファイルを選択する**] をクリックします。 新しいオーディオ ファイルをアップロードする場合は、[**音楽ファイル**] リンクをクリックします。新しいブラウザー ウィンドウで [**参照**] をクリックし、使用するファイルを選択して、[**開く**] をクリックします。[**アップロード**] をクリックしてオーディオ ファイルを読み込みます。
 
     > [!NOTE]
-    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
+    > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
 
 28. [**ステップ 7 対話型音声応答の構成**] の [**ユーザーには、次のテキストまたは録音メッセージを再生します**] という見出しの下で、次のように発信者に対する質問を指定します。
 
@@ -533,10 +533,10 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
     > [!NOTE]
     > "#" 記号は、音声合成エンジンによって "番号" という語に変換されます。 # キーを示す必要がある場合は、記号ではなく、キーの名前を質問に使用してください。 たとえば、「営業部門をご希望の場合は、シャープを押してください」とします。
 
-    - 質問を含む録音済みのオーディオ ファイルを使用する場合は、[**録音を選択する**] をクリックし、[**録音**] リンクをクリックしてファイルをアップロードします。 新しいブラウザー ウィンドウで [**参照**] をクリックし、オーディオ ファイルを選択して、[**開く**] をクリックします。 [ **アップロード** ] をクリックしてファイルを読み込み、必要に応じてテキスト ボックスに質問を入力できます (これにより、質問と発信者の応答が応答エージェントに転送されます)。
+    - 質問を含む録音済みのオーディオ ファイルを使用する場合は、[**録音を選択する**] をクリックし、[**録音**] リンクをクリックしてファイルをアップロードします。 新しいブラウザー ウィンドウで [**参照**] をクリックし、オーディオ ファイルを選択して、[**開く**] をクリックします。 **[アップロード]** をクリックしてファイルを読み込み、必要に応じてテキスト ボックスに質問を入力できます (これにより、質問と発信者の応答が応答エージェントに転送されます)。
 
       > [!NOTE]
-      > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。 サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
+      > ユーザーが指定したすべてのオーディオ ファイルは、特定の要件を満たしている必要があります。サポートされているファイル形式の詳細については、「[Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)」を参照してください。
 
 29. [**応答 1**] で次の操作を実行して、質問に対する 1 つ目の回答を指定します。
 
@@ -560,11 +560,11 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 
 32. [**展開**] をクリックします。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>Skype for Business Server 管理シェルを使用して対話型ワークフローを作成または変更するには
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>管理シェルSkype for Business Server使用して対話型ワークフローを作成または変更するには
 
 1.  RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
 
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 3. 応答グループ サービスのサービス名を取得して変数に割り当てます。コマンド ラインで、次のコマンドを実行します。
 
@@ -646,9 +646,9 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 
 ## <a name="see-also"></a>関連項目
 
-[(省略可能)Skype for Business で応答グループの休日セットを定義する](optional-define-response-group-holiday-sets.md)
+[(省略可能)[応答グループの休日セットを定義する] Skype for Business](optional-define-response-group-holiday-sets.md)
 
-[(省略可能)Skype for Business で応答グループの営業時間を定義する](optional-define-response-group-business-hours.md)
+[(省略可能)[応答グループの営業時間を定義する] Skype for Business](optional-define-response-group-business-hours.md)
 
 [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps)
 

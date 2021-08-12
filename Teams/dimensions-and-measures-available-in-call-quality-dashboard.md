@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 通話品質ダッシュボード (CQD) で使用されるディメンションと測定値に関する詳細な情報を、Microsoft Teamsおよび Skype for Businessします。
-ms.openlocfilehash: b44323d8fd15b3e0f97269afe7459981348d977b
-ms.sourcegitcommit: d3a5efa1e11e4dad97f31d633d31aa7c9b2dee57
+ms.openlocfilehash: cb95f42ff9a79564c3de9a14c5f4b04f6eb168f911f5a24cf54a2a7605f03dc1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52583926"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337465"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) で使用できる寸法と測定値
 
@@ -302,7 +302,7 @@ CQD の寸法と測定値の多くは、1 番目または 2 番目としてラ�
 | Second Mic Glitch Rate|数値 |第 2 のエンドポイントのマイク キャプチャの 5 分あたりの平均不具合。 詳細 [については、2.2.1.12.1 子要素](/openspecs/office_protocols/ms-qoe/56d41628-26d5-44c8-8f79-6bac4b0355a5) に関するページを参照してください。 |
 | First Speaker Glitch Rate|イベントの数|最初のラウドスピーカー レンダリングの 5 分あたりの平均不具合。| |
 | Second Speaker Glitch Rate|イベントの数|2 番目のスピーカー レンダリングの 5 分あたりの平均不具合。| |
-|**音声**|||
+|**Audio**|||
 | Audio FEC Used  | ブール型  | True の場合は音声の FEC (前方誤り訂正) が通話中のいくつかのポイントで使用されたことを示します。そうでない場合は False になります     | &bull; ストリームがオーディオ ストリームではない <br/>&bull; ストリームを送信するエンドポイントによってデータが報告されていない  |
 |**メジャー**|||
 | ClassifiedPoorCall  | ブール型  | 通話の 1 つ以上のストリームが、通話品質ダッシュボード のストリーム分類に関するページに記載されているメトリックに基づいて低品質[として分類された場合は True。](stream-classification-in-call-quality-dashboard.md)   | &bull; 呼び出しに、良好または低品質として分類される十分なメトリックが報告されていない   |

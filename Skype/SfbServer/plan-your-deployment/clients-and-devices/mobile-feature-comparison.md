@@ -16,21 +16,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: '概要: Skype for Business Server の計画時にモバイル クライアントの機能サポートを確認します。'
-ms.openlocfilehash: cdd6e5d5afc95fe6488ee89ed96739963b5f5ac0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: モバイル クライアントの機能のサポートを確認し、モバイル クライアントのSkype for Business Server。'
+ms.openlocfilehash: 790bcb217e90b4b24422a3f2b76ebb6f8915cc0f8c25eb302d2fb2193d8d299a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825997"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293984"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Skype for Business のモバイル クライアント機能の比較
  
-**概要:** Skype for Business Server の計画時に、モバイル クライアントの機能サポートを確認します。
+**概要:** モバイル クライアントの機能のサポートを確認し、モバイル クライアントのSkype for Business Server。
   
-この記事では、次のカテゴリの Skype for Business モバイル クライアントと Skype for Business デスクトップ クライアントの機能を比較します。
+この記事では、次のカテゴリのモバイル クライアントとSkype for Businessデスクトップ クライアントSkype for Business機能を比較します。
   
-- サインイン、プッシュ通知、一般的な機能
+- サインイン、プッシュ通知、および一般的な機能
     
 - 拡張プレゼンス
     
@@ -38,7 +38,7 @@ ms.locfileid: "49825997"
     
 - インスタント メッセージング (IM)
     
-- Skype for Business から Skype for Business への音声およびビデオ
+- Skype for BusinessビデオをSkype for Businessする方法
     
 - 会議
     
@@ -50,51 +50,51 @@ ms.locfileid: "49825997"
     
 -  先進認証
     
-次の表に、Skype for Business Server のオンプレミス展開で Skype for Business ユーザーが使用できる機能を示します。 表の脚注に特に指定がない限り、Skype for Business Online と Microsoft 365 または Office 365 ユーザーも同じ機能を利用できます。
+次の表に、ユーザーが使用できる機能を、Skype for Businessのオンプレミス展開で使用できるSkype for Business Server。 同じ機能は、表の脚注に特にSkype for Businessしない限り、Microsoft 365またはOffice 365ユーザーに対して使用できます。
   
 > [!NOTE]
-> エンド ユーザー向けオンライン ヘルプとリソースについては、「Skype for Business の検出」 [を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=528686)。 
+> エンド ユーザー向けオンライン ヘルプとリソースについては[、「Discover Skype for Business」 を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=528686)。 
   
 > [!NOTE]
-> 他の Skype for Business クライアントで利用可能な機能を比較するには、Skype for Business のデスクトップ クライアント機能の [比較を参照してください](desktop-feature-comparison.md)。 
+> 他のクライアントで使用できる機能を比較するにはSkype for Businessデスクトップ[クライアント](desktop-feature-comparison.md)機能の比較を参照Skype for Business。 
 
 > [!NOTE]
 > 従来のモバイル クライアントの MCX (モビリティ サービス) サポートは、Skype for Business Server 2019 では利用できなくなりました。 現在のすべての Skype for Business モバイル クライアントはUnified Communications Web API (UCWA) を使用して、インスタント メッセージング (IM)、プレゼンス、および連絡先をサポートしています。 MCX を使用している従来のクライアントを持っているユーザーは、現在のクライアントにアップグレードする必要があります。
   
-## <a name="sign-in-push-notifications-and-general-features"></a>サインイン、プッシュ通知、一般的な機能
+## <a name="sign-in-push-notifications-and-general-features"></a>サインイン、プッシュ通知、および一般的な機能
 
  
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Skype for Business セッションはサインインしたまま  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
+|Skype for Businessセッションがサインインしたまま  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
 |プッシュ通知のサポート  <br/> |&#x2714; &#x2778; |&#x2714;|&#x2714; &#x2779; |&#x2714; &#x2779; |
 |複数ユーザーのアカウント情報を同一デバイスにキャッシュ可能  <br/> |&#x2714;||||
-|スクリーン リーダー/ボイス オーバー  <br/> |&#x2714;|&#x2714; &#x2777;           英語のみ  <br/> |&#x2714;|&#x2714;|
-|アクセシビリティのために外部キーボードを使用する  <br/> |&#x2714;||&#x2714;|&#x2714;|
+|スクリーン リーダー/ボイス オーバー  <br/> |&#x2714;|&#x2714; &#x2777;           のみ  <br/> |&#x2714;|&#x2714;|
+|アクセシビリティに外部キーボードを使用する  <br/> |&#x2714;||&#x2714;|&#x2714;|
 |Microsoft カスタマー エクスペリエンス向上プログラムのサポート  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
- &#x2776; Windows Phone では、次のように非アクティブな状態が続く間、Skype for Business は自動的にサインアウトします。
+ &#x2776;オンWindows Phone、Skype for Businessの非アクティブ期間後に自動的にサインアウトします。
   
-- ユーザーがプッシュ通知を有効にしている場合、Skype for Business は非アクティブ状態が 10 日後にサインアウトします。
+- ユーザーがプッシュ通知を有効にしている場合、Skype for Business 10 日後にサインアウトします。
     
-- ユーザーがプッシュ通知を有効にしていない場合、Skype for Business はユーザーがアプリを離れるとすぐにサインアウトします。
+- ユーザーがプッシュ通知を有効にしていない場合、Skype for Businessがアプリを離れるとすぐにサインアウトします。
     
-iOS デバイスでは、ネットワーク接続の喪失などの問題により、モバイル クライアントがサーバーに 10 日間接続していないと、Skype for Business は自動的にサインアウトします。
+iOS デバイスでは、Skype for Business接続などの問題により、モバイル クライアントがサーバーに 10 日間接続していないと、自動的にサインアウトされます。
   
- &#x2777;アプリ内のみ。
+ &#x2777;アプリでのみ使用できます。
   
- &#x2778;は、アプリがバックグラウンドで実行されているときに利用できます。
+ &#x2778;通知は、アプリがバックグラウンドで実行されている場合に使用できます。
  
- &#x2779; Google/Android/GCNS と Apple/APNS の両方のモバイル通知サービスは、通知の配信に HTTPS/TLS 暗号化を使用します。 通知ペイロードは、通知プロバイダーによる処理中にプレーン テキストで処理されます。
+ &#x2779; Google/Android/GCNS と Apple/APNS モバイル通知サービスの両方で、通知の配信に HTTPS/TLS 暗号化が使用されます。 通知ペイロードは、通知プロバイダーによって処理されている間、プレーン テキストで処理されます。
  
--   Skype for Business for Android は、顧客データを含め、(GCNS 経由で配信される) 簡単な通知を受信します。
--   Skype for Business for iOS は、(APNS 経由で配信される) 通知を受信します。この通知には、通話またはメッセージの顧客データが含まれる場合があります。
+-   Skype for Business for Android顧客データを使用して簡単な通知 (GCNS 経由で配信) を受け取ります。
+-   Skype for Business iOS の場合、(APNS 経由で配信される) 通知を受信します。この通知には、通話またはメッセージの顧客データが含まれる場合があります。
  
   
 ## <a name="enhanced-presence-support"></a>拡張プレゼンスのサポート
 
 
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |状態の公開および表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |カレンダーの空き時間情報に基づく状態の表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -102,14 +102,14 @@ iOS デバイスでは、ネットワーク接続の喪失などの問題によ�
 |カスタムの場所の追加  <br/> |&#x2714;||||
 |カスタム メモの追加  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |カレンダーの空き時間情報に基づく状態の公開  <br/> |&#x2714; &#x2776; ||||
-|手動のプレゼンス状態 (取り込み中、取り込み不可など) を設定する  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|手動プレゼンス状態を設定する (ビジー、Do Not Disturb など)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
- &#x2776; Skype for Business モバイル クライアントは、ユーザーの空き時間情報に基づいてユーザーのプレゼンスを更新しません。 モバイル クライアント ユーザーも Skype for Business デスクトップ クライアントにサインインしている場合、デスクトップ クライアントはユーザーの空き時間情報に基づいてユーザーのプレゼンスを更新します。 ユーザーがモバイル クライアントにのみサインインしている場合、ユーザーのプレゼンスは予定表の空き時間情報に基づいて更新されない。
+ &#x2776; Skype for Businessクライアントは、ユーザーの空き時間情報に基づいてユーザーのプレゼンスを更新しません。 モバイル クライアント ユーザーが Skype for Business デスクトップ クライアントにもサインインしている場合、デスクトップ クライアントはユーザーの空き時間情報に基づいてユーザーのプレゼンスを更新します。 ユーザーがモバイル クライアントにのみサインインしている場合、ユーザーのプレゼンスは空き時間情報に基づいて更新されない。
   
 ## <a name="contacts-and-contact-groups-support"></a>連絡先と連絡先グループのサポート
 
 
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |連絡先リストの表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |連絡先グループの表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -125,14 +125,14 @@ iOS デバイスでは、ネットワーク接続の喪失などの問題によ�
 |連絡先の写真の表示/非表示  <br/> |&#x2714;|&#x2714;|||
 |連絡先をホーム画面にピン留めする  <br/> ||&#x2714;|||
    
- &#x2776; Skype for Business Online、Microsoft 365、または 365 ユーザー Office利用できません。
+ &#x2776;オンラインまたはユーザー Skype for Businessユーザーまたはユーザー Microsoft 365使用Office 365できません。
   
 ## <a name="instant-messaging-support"></a>インスタント メッセージングのサポート
 
 
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|連絡先とのインスタント メッセージング (IM) の開始  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|連絡先を使用してインスタント メッセージング (IM) を開始する  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |マルチパーティ IM への参加  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |[会話] ウィンドウからの別のユーザーの招待  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |現在の会話の表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -143,58 +143,58 @@ iOS デバイスでは、ネットワーク接続の喪失などの問題によ�
 |不在着信の IM 招待状の表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |受信 IM による振動  <br/> ||&#x2714; &#x2776; |&#x2714;|&#x2714;|
    
- &#x2776;このデバイスは、IM 会話の現在のメッセージが表示されている場合でも、IM が受信されるたび振動します。
+ &#x2776; このデバイスは、IM 会話の現在のメッセージが表示されている場合でも、IM が受信される度に振動します。
   
-## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>Skype for Business から Skype for Business への音声およびビデオ
+## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>Skype for BusinessビデオをSkype for Businessする方法
 
 
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Skype for Business から Skype for Business への音声  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Skype for Business から Skype for Business へのビデオ  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Skype for Business対音声Skype for Business音声  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|Skype for BusinessからビデオへのSkype for Businessビデオ  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
 > [!NOTE]
-> モバイル デバイス上のビデオには、既定で WiFi 接続が必要です。 
+> モバイル デバイス上のビデオでは、既定で WiFi 接続が必要です。 
   
 ## <a name="conferencing-support"></a>会議のサポート
 
 
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|会議のリマインダーのリンクをクリックして、ビデオ会議または VoIP 会議に参加する  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|会議のリマインダー内のリンクをクリックして、ビデオまたは VoIP 会議に参加する  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |マルチパーティ IM への参加  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |ダイヤルアウト電話会議の使用 (サーバーがモバイル デバイスを呼び出す)  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
 |ダイヤルイン電話会議の使用  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |会議ビデオの表示  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|マルチパーティビデオを表示する (ギャラリー ビュー)  <br/> |&#x2714;||||
+|マルチパーティ ビデオの表示 (ギャラリー ビュー)  <br/> |&#x2714;||||
 |会議ロビーでの待機  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |会議内発表者コントロールの使用  <br/> |&#x2714;||||
 |電話会議の詳細な会議名簿へのアクセス  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |IM 会議の詳細な会議名簿へのアクセス  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |デスクトップまたはプログラムの共有  <br/> |&#x2714;||||
-|共有デスクトップまたはプログラムを表示する (VbSS または RDP)  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
-|共有 PowerPoint ファイルを表示する  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777;&#x2778; |&#x2714; &#x2777; &#x2778;|
-|PowerPoint ファイルをアップロードして表示する  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
-|会議ツールの使用 (ホワイトボードの使用、投票の実施、ファイルの共有)  <br/> |&#x2714;||||
+|共有デスクトップまたはプログラムの表示 (VbSS または RDP)  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
+|共有ファイルをPowerPointする  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777;&#x2778; |&#x2714; &#x2777; &#x2778;|
+|アップロードファイルのPowerPoint表示する  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
+|会議ツールの使用 (ホワイトボードの使用、ポーリングの実施、ファイルの共有)  <br/> |&#x2714;||||
 |会議リストの移動  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Skype for Business アカウントを持っていなくても会議に参加する  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|会議の参加者に関する詳細を表示する  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|クライアントまたはデバイスから直接、複数の参加者との予約されていないグループ会話を開始する  <br/> |&#x2714;|&#x2714;|&#x2714;||
+|アカウントを持っていなくても会議にSkype for Businessする  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|会議参加者の詳細を表示する  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|クライアントまたはデバイスから複数の参加者と直接スケジュールされていないグループ会話を開始する  <br/> |&#x2714;|&#x2714;|&#x2714;||
    
- &#x2776; Microsoft 365 または Office 365 ユーザーの場合、この機能には E5 ライセンスの一部である エンタープライズ VoIP が必要です。
+ &#x2776;ユーザー Microsoft 365またはOffice 365場合、この機能には E5 ライセンスエンタープライズ VoIP含まれるデータが必要です。
   
- &#x2777; WiFi 接続が必要です。
+ &#x2777;既定で WiFi 接続が必要です。
  
- &#x2778; PowerPoint プレゼンテーションでの埋め込みビデオの表示はサポートされていません。
+ &#x2778;プレゼンテーションでの埋め込みビデオPowerPoint表示はサポートされていません。
   
 ## <a name="telephony-support"></a>テレフォニーのサポート
 
 
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|Skype for Business で、通話アイコンをタップして連絡先に電話する  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|[Skype for Business] で、通話アイコンをタップして連絡先を呼び出します  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |通話の転送  <br/> |&#x2714;|&#x2714;|&#x2714;||
-|取次転送  <br/> |&#x2714; &#x2778; ||||
+|コンサルティング転送  <br/> |&#x2714; &#x2778; ||||
 |着信転送の管理  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;|&#x2714;|
 |チーム呼び出し設定の管理  <br/> |&#x2714; &#x2776; ||||
 |代理人の管理  <br/> |&#x2714; &#x2776; ||||
@@ -202,59 +202,59 @@ iOS デバイスでは、ネットワーク接続の喪失などの問題によ�
 |緊急サービスのサポート  <br/> |&#x2714; &#x2777; ||||
 |別の連絡先の代理としての発信 (マネージャー/代理人シナリオ)  <br/> |&#x2714; &#x2776; ||||
 |代理人として構成されている場合は、別の連絡先の呼び出しを処理する  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
-|[Use Call via Work] (仕事から通話) を使用する  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
+|仕事で通話を使用する  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
 |ボイス メールにアクセスする  <br/> |&#x2714;|&#x2714;|&#x2714;||
-|Skype for Business でキーパッドを使用する  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
+|キーパッドを使用Skype for Business  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
    
- &#x2776; Skype for Business Online または Office 365 E5 ユーザー、および Skype for Business Server または Lync Server 2013 にエンタープライズ VoIPできます。
+ &#x2776; Online または Skype for Businessユーザー、Office 365 E5 ユーザー、および Skype for Business Server または Lync Server 2013 にエンタープライズ VoIPできます。
   
- &#x2777; Skype for Business Online または Microsoft 365 または Office 365 ユーザーの場合、この機能は Microsoft パートナーによってサポートされています。
+ &#x2777; オンラインSkype for BusinessユーザーまたはユーザーのMicrosoft 365またはOffice 365、この機能は Microsoft パートナーによってサポートされています。
   
  &#x2778; Windows デスクトップ クライアントのみ。
   
 ## <a name="external-user-support"></a>外部ユーザー サポート
 
 
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |パブリック連絡先との IM の開始  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |フェデレーションからの連絡先との IM の開始  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |外部ユーザーとの 2 パーティの通話の実行  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |外部ユーザーとのマルチパーティの通話の実行  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|[仕事から通話] を使用して、公開された作業番号に電話して携帯電話のフェデレーション連絡先に&#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
+|[仕事経由の通話] を使用して、公開された作業番号を電話で電話して、携帯電話のフェデレーション連絡先に連絡&#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
    
- &#x2776;既定では、フェデレーション ユーザーには外部連絡先のプライバシー関係が割り当てられます。 公開された作業番号に電話して携帯電話のフェデレーション連絡先にアクセスするには、フェデレーション連絡先が仕事仲間のプライバシー関係を手動で割り当てる必要があります。
+ &#x2776;既定では、フェデレーション ユーザーには外部連絡先のプライバシー関係が割り当てられます。 公開された作業番号を呼び出して携帯電話でフェデレーション連絡先に連絡するには、フェデレーション連絡先が手動で同僚のプライバシー関係を割り当てる必要があります。
   
 ## <a name="address-book-integration"></a>アドレス帳の統合
 
 
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |デバイス アドレス帳の連絡先を呼び出す  <br/> ||&#x2714;|&#x2714;|&#x2714;|
-|デバイスのアドレス帳から直接連絡先に Skype for Business 通話を行う  <br/> ||||&#x2714;|
+|デバイス Skype for Businessから連絡先に直接通話する  <br/> ||||&#x2714;|
    
 ## <a name="archiving-and-compliance-support"></a>アーカイブとコンプライアンスのサポート
 
 
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |クライアント側のアーカイブの提供  <br/> |&#x2714;||||
 |クライアント側の記録の提供  <br/> |&#x2714; &#x2776; ||||
    
- &#x2776; Skype for Business Online、Microsoft 365、または 365 ユーザー Office利用できません。
+ &#x2776;オンラインまたはユーザー Skype for Businessユーザーまたはユーザー Microsoft 365使用Office 365できません。
   
 ## <a name="modern-authentication"></a>先進認証
 
-次の表に、最新の認証をサポートする必要がある機能を示します。
+次の表では、最新の認証をサポートする必要がある機能について説明します。
   
-また、モダン認証では、モダン認証でサポートされる Skype for Business トポロジで説明 [されているトポロジも必要です](../../plan-your-deployment/modern-authentication/topologies-supported.md)。
+モダン認証では、モダン認証でサポートされるトポロジSkype for Business[トポロジも必要です](../../plan-your-deployment/modern-authentication/topologies-supported.md)。
   
 
- | 機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
+ | 機能/機能  | Skype for Business デスクトップ クライアント  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |先進認証  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |多要素認証  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|証明書ベースの認証  <br/> |&#x2714;(ドメインに参加しているデバイスのみ)  <br/> ||&#x2714;|&#x2714;|
+|Cert -Based Authentication  <br/> |&#x2714;(ドメインに参加しているデバイスのみ)  <br/> ||&#x2714;|&#x2714;|
 |モバイル アプリケーション管理 (Intune 経由)  <br/> |||&#x2714;|&#x2714;|
    
 

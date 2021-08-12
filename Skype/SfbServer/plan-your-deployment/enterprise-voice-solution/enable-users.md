@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で E9-1-1 のユーザーを有効にする
+title: E9-1-1 でユーザーを有効Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
-description: Skype for Business Server エンタープライズ VoIP での E9-1-1 展開の場所ポリシーに必要な決定(有効にするユーザー、移動ユーザーをサポートする方法など)。
-ms.openlocfilehash: 9a2ced694357b9225555a05c10e93a1006a771b4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server エンタープライズ VoIP での E9-1-1 展開の場所ポリシーに必要な決定(有効にするユーザー、ローミング ユーザーをサポートする方法など)。
+ms.openlocfilehash: b848359cb6a4324ab93804718d9416074f2af942c236d71c7b8e0de6abac4c05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825747"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328012"
 ---
-# <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Skype for Business Server で E9-1-1 のユーザーを有効にする
+# <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>E9-1-1 でユーザーを有効Skype for Business Server
  
-Skype for Business Server エンタープライズ VoIP での E9-1-1 展開の場所ポリシーに必要な決定(有効にするユーザー、移動ユーザーをサポートする方法など)。
+Skype for Business Server エンタープライズ VoIP での E9-1-1 展開の場所ポリシーに必要な決定(有効にするユーザー、ローミング ユーザーをサポートする方法など)。
   
-クライアントの登録時に、Skype for Business Server は場所ポリシーを使用して、ユーザーが有効なユーザーの E9-1-1 エンタープライズ VoIPを構成します。 このポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。 たとえば、場所のポリシーには、緊急ダイヤル文字列などの情報や、場所情報サービスが自動的に提供しない場合に、ユーザーが場所を手動で入力する必要があるかどうかなどの情報が含まれます。 場所ポリシーの完全な定義については、「Skype for Business Server の場所 [ポリシーを計画する」を参照してください](location-policies.md)。
+クライアント登録中に、Skype for Business Serverは場所ポリシーを使用して、ユーザーが有効なユーザーの E9-1-1 プロパティエンタープライズ VoIP構成します。 このポリシーには、E9-1-1 の実装方法を定義する設定が含まれます。 たとえば、場所ポリシーには、緊急ダイヤル文字列などの情報や、位置情報サービスが自動的に提供しない場合に、ユーザーが手動で場所を入力する必要があるかどうかなどの情報が含まれます。 場所ポリシーの完全な定義については、「場所ポリシーを計画する」を参照[Skype for Business Server。](location-policies.md)
   
-Skype for Business Server は、場所ポリシーをサブネットに基づいてクライアントに割り当てるか、グローバル ポリシー、サイト単位、またはユーザー単位のポリシーに基づいてユーザーに割り当てできます。 ユーザーを有効にする方法を決定するには、まず、次の情報を確認する必要があります。
+Skype for Business Server、サブネットに基づくクライアント、またはグローバル ポリシー、サイト単位、またはユーザー単位のポリシーに基づくユーザーに場所ポリシーを割り当てできます。 ユーザーを有効にする方法を決定するには、まず、次の情報を確認する必要があります。
   
  **すべてのユーザーを有効にするか、またはエンタープライズの特定の地理的領域にサポートを限定するか。**
   
@@ -41,6 +41,6 @@ Skype for Business Server は、場所ポリシーをサブネットに基づい
     
  **クライアントがネットワーク外を移動している場合、または定義されていないサブネットから接続されている場合、そのクライアントでも E9-1-1 を有効にするか。**
   
-> ユーザーにグローバル、サイト、またはユーザー単位の場所ポリシーが割り当てられている場合、クライアントが定義されたサブネット内にない場合や、場所情報サービスによって場所が見つからない場合は、ユーザーにクライアントに場所を手動で入力する必要があります。 詳細については、「Skype for Business Server で場所を手動で取得するためのユーザー エクスペリエンスの定義 [」を参照してください](manually-acquiring-a-location.md)。
+> ユーザーにグローバル、サイト、またはユーザーごとの場所ポリシーが割り当てられている場合は、クライアントが定義されたサブネット内に位置しないか、位置情報サービスによって場所が見つからない場合は、クライアントに場所を手動で入力する必要があります。 詳細については、「手動で場所[を取得](manually-acquiring-a-location.md)するためのユーザー エクスペリエンスを定義する」を参照Skype for Business Server。
     
 

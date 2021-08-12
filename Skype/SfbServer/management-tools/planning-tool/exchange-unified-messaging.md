@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: Skype for Business Server 2015 では、Exchange ユニファイド メッセージング (UM) との統合がサポートされ、ボイス メッセージングと電子メール メッセージングを 1 つのメッセージング インフラストラクチャに組み合わせて使用できます。
-ms.openlocfilehash: e7f7ec8d5fafd9909fcd718afd2ba59ab1041d77
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: cc4d2ac5860663634e43c081f369da86c0e869a35185b93c4e7bcc59e62db5e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646258"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318900"
 ---
 # <a name="exchange-unified-messaging-planning-tool"></a>Exchangeユニファイド メッセージング計画ツール
 

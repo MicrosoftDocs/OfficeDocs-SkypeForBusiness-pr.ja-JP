@@ -1,5 +1,5 @@
 ---
-title: Skype for Business クライアントでスマート連絡先リストを構成する
+title: クライアントでスマート連絡先リストをSkype for Businessする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
-description: '概要: Skype for Business クライアントでスマート連絡先リスト機能を有効にする方法について学習します。'
-ms.openlocfilehash: 1f049493d591cd561b87611f8a34f9176ace165a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: クライアントでスマート連絡先リスト機能を有効にするSkype for Businessします。'
+ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303151"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Skype for Business クライアントでスマート連絡先リストを構成する
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>クライアントでスマート連絡先リストをSkype for Businessする
 
-**概要:** Skype for Business クライアントでスマート連絡先リスト機能を有効にする方法について学習します。
+**概要:** クライアントでスマート連絡先リスト機能を有効にするSkype for Businessします。
 
-スマート連絡先リスト機能を使用すると、エンド ユーザーの連絡先リストの自動作成が可能です。 最初に Skype for Business を使用すると、ユーザーは自分のマネージャーや他のユーザーをチームに自動的に表示します。 この機能は、Microsoft 365 および Office 365 ユーザーの場合は既定で有効になっていますが、クライアント ポリシー設定を構成して、オンプレミスユーザーに対してこの機能を明示的に有効にする必要があります。
+スマート連絡先リスト機能を使用すると、エンド ユーザーの連絡先リストの自動作成が可能です。 ユーザーが最初にSkype for Businessすると、ユーザーは自分のマネージャーや他のユーザーをチームに自動的に表示します。 この機能は、Microsoft 365 および Office 365 ユーザーに対して既定で有効になっていますが、クライアント ポリシー設定を構成して、オンプレミスユーザーに対してこの機能を明示的に有効にする必要があります。
 
 この機能を構成する場合は、次の注意が必要です。
 
@@ -82,8 +82,8 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 
 - 組織の情報がAD確認します。
 
-- 新しいユーザーの Skype for Business クライアント ログを収集して、詳細な分析を行います。
+- 新Skype for Businessのクライアント ログを収集して、詳細な分析を行います。
 
-- Skype for Business クライアント UI にアドレス帳に接続できないというメッセージが表示されていないか確認します。 アドレス帳の接続を確認するには、Skype for Business クライアント検索バーでユーザーの検索を実行します。
+- クライアント UI Skype for Businessアドレス帳に接続できないというメッセージが表示されていないか確認します。 アドレス帳の接続を確認するには、クライアント検索バーでユーザー Skype for Business実行します。
 
-- AD DS レプリケーションの問題により、ユーザーが最初に Skype for Business にサインインすると、連絡先が未解決になる可能性があります。
+- AD DS レプリケーションの問題により、ユーザーが最初にサインインした際に連絡先が解決Skype for Business。

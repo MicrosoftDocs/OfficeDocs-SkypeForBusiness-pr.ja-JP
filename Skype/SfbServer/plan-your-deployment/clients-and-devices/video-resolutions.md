@@ -15,35 +15,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
-description: '概要: Skype for Business Server の計画時に、クライアントのビデオ要件を確認します。'
-ms.openlocfilehash: 9be23512462781c55ef94b72b4dbbba60e15e5ba
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: クライアントビデオの要件を確認し、クライアントビデオのSkype for Business Server。'
+ms.openlocfilehash: 895345ddee8ac17338977bdb161172bf975de343d7d86be1a053ccac8f4f0e7f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816057"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293934"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business クライアントのビデオ解像度
  
-**概要:** Skype for Business Server の計画時に、クライアントのビデオ要件を確認します。
+**概要:** クライアントビデオの要件を確認し、クライアントビデオのSkype for Business Server。
   
-この記事では、Skype for Business ビデオ通話のビデオ ハードウェア サポートについて説明し、さまざまなコンピューター、タブレット、およびモバイル デバイス構成で予想されるビデオ品質を決定する方法について説明します。 
+この記事では、Skype for Business ビデオ通話に対するビデオ ハードウェアのサポートについて説明し、さまざまなコンピューター、タブレット、およびモバイル デバイス構成で期待されるビデオ品質を判断する方法について説明します。 
   
-IT 担当者は、この情報は、組織で既に使用されているノート PC の適合性を評価したり、使用を検討している場合に役立ちます。 また、ソリューション カタログで [特定のデバイスに](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 関する情報を検索することもできます。
+IT 担当者は、この情報を組織内で既に使用しているラップトップの適合性を評価したり、使用を検討したりする際に役立ちます。 また、ソリューション カタログで [特定の](https://partnersolutions.skypeforbusiness.com/solutionscatalog) デバイスに関する情報を検索することもできます。
   
-## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows デスクトップ、Mac、タブレットのビデオの要件と機能
+## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows、Mac、タブレットのビデオ要件と機能
 
-Skype for Business は、H.264/MPEG-4 Part 10 Advanced Video Coding 標準に基づくビデオ エンコードとデコードにハードウェア アクセラレータを使用します。 これにより、CPU クロック速度が低いコンピューターでは、より高い解像度のビデオをエンコードおよびデコードできます。 ビデオ ハードウェア要件は、コンピューター構成と必要なビデオ解像度によって異なります。
+Skype for Businessは、H.264/MPEG-4 Part 10 Advanced Video Coding standard に基づくビデオ エンコードとデコードにハードウェア アクセラレータを使用します。 これにより、CPU クロック速度が低いコンピューターは、高解像度ビデオをエンコードおよびデコードできます。 ビデオ ハードウェア要件は、コンピューター構成と必要なビデオ解像度によって異なります。
   
-Windows および [Mac のハードウェア要件も参照してください](https://products.office.com/office-system-requirements)。
+「ハードウェア要件[Windows Mac ハードウェア要件」も参照してください](https://products.office.com/office-system-requirements)。
   
-### <a name="video-hardware-requirements"></a>ビデオ のハードウェア要件
+### <a name="video-hardware-requirements"></a>ビデオ ハードウェアの要件
 
 |**機能**|**要件**|
 |:-----|:-----|
-|DirectX Video Acceleration (DXVA) を使用したハードウェア アクセラレータ H.264 デコード  <br/> |• グラフィックス カードは DirectX 9.0 をサポートする必要があります。また、DXVA2_ModeH264_VLD_NoFGT デコード モードと DirectX 9 API を公開する必要があります。  <br/> • 最新のグラフィックス カード ドライバーがインストールされている必要があります。  <br/> |
-|ハードウェア アクセラレータ H.264 エンコード: チップセット要件  <br/> |次の Intel ハードウェア アクセラレータ ビデオ エンコード ソリューションがサポートされています。  <br/> • 統合ハードウェア ビデオ エンコーダーを備えた第 2 世代および第 3 世代の Intel HD Graphics 2000、2500、3000、4000 チップセット (以降のバージョン)。 Intel HD Graphics ドライバー 15.28.9.2884 または次を含む最新のドライバーのインストールが必要です。  <br/> • ディスプレイ ドライバー 9.17.10.2884 または最新のドライバー  <br/> • ハードウェア メディア ファンデーション変換 (HMFT) バージョン 3.12.10.31 または最新の HMFT  <br/> 次の AMD ハードウェア アクセラレータ ビデオ エンコード ソリューションがサポートされています。  <br/> • AMD ビデオ コーデック エンジン。いくつかの個別のグラフィックス カードと、AMD A シリーズ アクセラレータ プロセッサの統合アクセラレータ処理ユニットで利用できます。 AMD Video Codec Engine ドライバー 9.12.0.0 以上がインストールされている必要があります。  <br/> |
-|ハードウェア アクセラレータ H.264 エンコード: カメラ要件  <br/> |USB ビデオ クラス (UVC) 仕様バージョン 1.5 に準拠する統合 H.264 ハードウェア エンコーダーを搭載した USB ビデオ カメラ。  <br/> **注:** Skype for Business は、UVC 1.5 のサポートを含む Windows 8 または Windows 8.1 の UVC 1.5 カメラをサポートします。 Windows 7 には UVC 1.5 のサポートが含まれるので、Skype for Business は UVC 1.5 カメラをハードウェア エンコード サポートがない通常のカメラとして扱います。 <br/> |
+|DirectX Video Acceleration (DXVA) を使用したハードウェア アクセラレータ H.264 デコード  <br/> |• グラフィックス カードは DirectX 9.0 をサポートする必要があります。また、デコード モードと DirectX 9 API DXVA2_ModeH264_VLD_NoFGTを公開する必要があります。  <br/> • 最新のグラフィックス カード ドライバーをインストールする必要があります。  <br/> |
+|ハードウェア アクセラレータ H.264 エンコード: チップセット要件  <br/> |次の Intel ハードウェア アクセラレータビデオ エンコード ソリューションがサポートされています。  <br/> • 第 2 世代および第 3 世代の Intel HD Graphics 2000、2500、3000、および 4000 チップセット (以降のバージョン) と統合ハードウェア ビデオ エンコーダー。 Intel HD Graphics ドライバー 15.28.9.2884 または以下を含む最新のドライバーのインストールが必要です。  <br/> • ディスプレイ ドライバー 9.17.10.2884 または最新のドライバー  <br/> • ハードウェア メディアファンデーション変換 (HMFT) バージョン 3.12.10.31 または最新の HMFT  <br/> 次の AMD ハードウェア アクセラレータビデオ エンコード ソリューションがサポートされています。  <br/> • AMD ビデオ コーデック エンジン。これは、複数のディスクリート グラフィックス カードと、AMD A シリーズ アクセラレータプロセッサの統合された高速処理ユニットで利用できます。 AMD ビデオ コーデック エンジン ドライバー 9.12.0.0 以上をインストールする必要があります。  <br/> |
+|ハードウェア アクセラレータ H.264 エンコード: カメラ要件  <br/> |USB ビデオ クラス (UVC) 仕様バージョン 1.5 に準拠する統合 H.264 ハードウェア エンコーダーを搭載した USB ビデオ カメラ。  <br/> **注:** Skype for Businessは、UVC 1.5 のサポートをWindows 8またはWindows 8.1 UVC 1.5 カメラをサポートします。 Windows 7 には UVC 1.5 のサポートが含まれるため、Skype for Business では UVC 1.5 カメラをハードウェア エンコードのサポートがない通常のカメラとして扱います。 <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>H.264 ビデオ エンコードおよびデコード機能の決定
 
@@ -75,7 +75,7 @@ Windows システム評価ツール (WinSAT) は、WEI を決定します。WinS
 |640x360  <br/> |1920x1080  <br/> |4 コアと VideoEncodeScore ≥ 4.5  <br/> |
 |1280x720  <br/> |1280x720  <br/> |4 コアと VideoEncodeScore ≥ 7.3  <br/> |
 |1280x720  <br/> |1920x1080  <br/> |4 コアと VideoEncodeScore ≥ 7.3  <br/> |
-|1920x1080  <br/> |1920x1080  <br/> |N/A  <br/> |
+|1920x1080  <br/> |1920x1080  <br/> |該当なし  <br/> |
    
 **DXVA があり、ハードウェア アクセラレータ エンコーダーのないコンピューター**
 
@@ -88,7 +88,7 @@ Windows システム評価ツール (WinSAT) は、WEI を決定します。WinS
 |1920x1080  <br/> |1920x1080  <br/> |4 コアと VideoEncodeScore ≥ 8.2  <br/> |
    
 > [!NOTE]
-> Windows 7 での WinSAT スコアは最大 7.9 に制限されます。 したがって、ハードウェア アクセラレータ エンコーダーのないコンピューターのエンコード機能は、最大 WinSAT スコアが 9.9 の Windows 8 または Windows 8.1 でのみ実現できます。 
+> Windows 7 での WinSAT スコアは最大 7.9 に制限されます。 したがって、ハードウェア アクセラレータエンコーダーのないコンピューターのエンコード機能は、最大 WinSAT スコアが 9.9 の Windows 8 または Windows 8.1 でのみ実現できます。 
   
 **DXVA と Intel HD グラフィック ハードウェア アクセラレータ エンコーダーがあるコンピューター**
 
@@ -99,11 +99,11 @@ Windows システム評価ツール (WinSAT) は、WEI を決定します。WinS
    
 ## <a name="mobile-device-video-capabilities"></a>モバイル デバイスのビデオ機能
 
-次の表に、サポートされているモバイル デバイスで使用可能な最大ビデオ解像度を示します。 For more information about mobile device support, [Mobile client feature comparison for Skype for Business](mobile-feature-comparison.md).
+次の表では、サポートされているモバイル デバイスで使用可能な最大ビデオ解像度について説明します。 モバイル デバイスのサポートの詳細については、「[モバイル クライアント](mobile-feature-comparison.md)機能の比較」を参照Skype for Business。
   
 |**機能**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
-|H.264 エンコードの最大解像度  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S 以降  <br/> |VGA: iPad 2 以降/iPad mini 1 以降  <br/> 720p: iPad Air/iPad mini 2/iPad Pro 以降  <br/> |デバイス モデルに応じて VGA まで  <br/> |
-|H.264 デコードの最大解像度  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S 以降  <br/> |VGA: iPad 2 以降/iPad mini 1 以降  <br/> 720p: iPad Air/iPad mini 2/iPad Pro 以降  <br/> |デバイス モデルに応じて VGA まで  <br/> |
+|H.264 エンコードの最大解像度  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S 以降  <br/> |VGA: iPad 2 以降/iPadミニ 1 以降  <br/> 720p: iPad/iPad ミニ 2/iPad Pro以降  <br/> |デバイス モデルに応じて最大 VGA  <br/> |
+|H.264 デコードの最大解像度  <br/> |VGA  <br/> |QVGA: iPhone 4S  <br/> VGA: iPhone 5  <br/> 720p: iPhone 5S 以降  <br/> |VGA: iPad 2 以降/iPadミニ 1 以降  <br/> 720p: iPad/iPad ミニ 2/iPad Pro以降  <br/> |デバイス モデルに応じて最大 VGA  <br/> |
    
 

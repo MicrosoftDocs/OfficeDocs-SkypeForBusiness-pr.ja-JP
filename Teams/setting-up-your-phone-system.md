@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 組織のクラウド PBX (クラウド PBX) 電話システムを設定する方法について詳しく説明したステップ バイ ステップ ガイドMicrosoft 365または Office 365。
-ms.openlocfilehash: c00b628716a54adcb19c3dd1f00e8e9e2b6f4c40
-ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
+ms.openlocfilehash: 1fd75870b53dafa5ade4db4f66a82593cce81836994cd4b5e01f1f1bda4864b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "49701215"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293004"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>組織内の電話システムの設定
 
@@ -145,7 +145,7 @@ Microsoft 365 または Office 365 からユーザーの電話番号を取得す
 コミュニケーション クレジットの請求を設定しない場合や、ユーザーに **コミュニケーション クレジット** のライセンスを割り当てない場合に (国/地域の通話プランまたは電話会議プランに基づき) 組織の通話分数が不足すると、これらのユーザーは通話を発信することや、電話会議からダイヤルアウトすることができなくなります。 推奨される資金金額を含む詳細については、「通信[](what-are-communications-credits.md)クレジットとは」および「組織の通信クレジットを[設定する」を参照してください](set-up-communications-credits-for-your-organization.md)。
   
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [次に示すのは、電話システム または Microsoft 365 のOffice 365](here-s-what-you-get-with-phone-system.md)
 
 [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 Stress and Performance Tool
+title: Skype for Business Server 2015 ストレスとパフォーマンス ツール
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,34 +13,34 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
-description: Skype for Business Server 2015 Stress and Performance Tool は、非稼働環境またはテスト環境での容量計画とパフォーマンスチューニングの間に使用されます。
-ms.openlocfilehash: 551e4e5f985fc18439a4f277685034e86c7cdfb6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 2015 Skype for Business Serverおよびパフォーマンス ツールは、非実稼働環境またはテスト環境での容量計画とパフォーマンス調整中に使用されます。
+ms.openlocfilehash: 1dff13905145752c57b02795e9aab07737d51b33d94d6355ce5f8c55fa62e7ea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814927"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328022"
 ---
-# <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool
+# <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 ストレスとパフォーマンス ツール
  
-Skype for Business Server 2015 Stress and Performance Tool は、非稼働環境またはテスト環境での容量計画とパフォーマンスチューニングの際に使用されます。
+2015 Skype for Business Serverおよびパフォーマンス ツールは、非実稼働環境またはテスト環境での容量計画とパフォーマンス調整中に使用されます。
   
-Skype for Business Server 2015 Stress and Performance Tool には、Skype for Business Server 2015 の容量計画を簡素化するツールが含まれています。 Skype for Business Server 2015 Stress and Performance Tool は、次の場合に役立ちます。
+2015 Skype for Business Serverおよびパフォーマンス ツールには、2015 年の容量計画を簡略化するツールSkype for Business Serverされています。 2015 Skype for Business Serverパフォーマンス ツールを使用すると、次の点に役立ちます。
   
-- Skype for Business Server のハードウェア計画を簡素化する
+- ハードウェアの計画を簡略化してSkype for Business Server
     
-- パフォーマンスのチューニングに関する知識とベスト プラクティスを向上させる
+- パフォーマンス調整に関する知識とベスト プラクティスの向上
     
-- Skype for Business Server 展開のパフォーマンスを測定する
+- 展開のパフォーマンスをSkype for Business Serverする
     
-このツールは、通常 [、Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md) を使用してトポロジを設計し [、Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md)を使用してトポロジを絞り込む場合に使用します。 
+通常、このツールは[、Skype for Business Server 2015](../../management-tools/planning-tool/planning-tool.md)計画ツールを使用してトポロジを設計し、Skype for Business Server [2015](../../management-tools/capacity-planning-calculator.md)容量計画計算機を使用してトポロジを絞り込む後に使用します。 
 
 > [!NOTE]
-> このツールは、Skype for Business Server 2019 では更新されません。
+> このツールは、2019 年Skype for Business Serverされません。
   
 ## <a name="tests"></a>テスト
 
-Stress and Performance Tool は、次の種類のユーザー負荷をシミュレートできます。
+ストレスとパフォーマンス ツールは、次の種類のユーザー負荷をシミュレートできます。
   
 |||
 |:-----|:-----|
@@ -49,35 +49,35 @@ Stress and Performance Tool は、次の種類のユーザー負荷をシミュ�
 |Web Access クライアント会議  <br/> |会議自動応答  <br/> |
 |応答グループ  <br/> |配布リストの展開  <br/> |
 |アドレス帳のダウンロードとアドレス帳のクエリ  <br/> |拡張 911 (E911) 通話と場所プロファイル (ダイヤル プラン)  <br/> |
-|MultiView  <br/> |データ コラボレーション  <br/> |
+|MultiView  <br/> |データの共同作業  <br/> |
 |モビリティ  <br/> ||
    
-## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool に含まれるアプリケーションとファイル
+## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 年 2015 年Skype for Business Serverパフォーマンス ツールに含まれるアプリケーションとファイル
 
-これらのアプリケーションは、Skype for Business Server Stress and Performance Tool の一部です。
+これらのアプリケーションは、ストレスとパフォーマンス ツールSkype for Business Serverの一部です。
   
 |**ツール**|**説明**|
 |:-----|:-----|
 |UserProvisioningTool.exe  <br/> |このツールは、ユーザーと連絡先を作成するために使用されます。  <br/> |
 |UserProfileGenerator.exe  <br/> |シミュレートするユーザー負荷の特性を構成するために使用します。  <br/> |
 |LyncPerfTool.exe  <br/> |ユーザーの負荷をシミュレートするツール。  <br/> |
-|Default.tmx  <br/> |Skype for Business Server 2015 ログ ツールを使用するために必要です。  <br/> |
-|プロビジョニング スクリプトの例  <br/> |特定のシナリオに基づいて負荷テストを実行するトポロジを構成するために使用します。 特定の環境に関連付けられているものに変更する必要がある可能性があります。  <br/> |
+|Default.tmx  <br/> |2015 Skype for Business Serverツールを使用するために必要です。  <br/> |
+|プロビジョニング スクリプトの例  <br/> |特定のシナリオに基づいてロード テストを実行するトポロジを構成するために使用します。 特定の環境に関連付けするために、それらを変更する必要がある可能性があります。  <br/> |
    
 ## <a name="topics-in-this-section"></a>このセクションのトピック
 
 詳細を知る必要がある場合は、次の記事を確認する必要があります。
   
-- [Skype for Busines Stress and Performance Tool の前提条件とセットアップ](prerequisites-and-setup.md)
+- [Busines Stress and Performance Tool Skypeの前提条件とセットアップ](prerequisites-and-setup.md)
     
-- [Skype for Business Server 2015 Stress and Performance Tool のパフォーマンス シナリオ](scenarios.md)
+- [2015 年Skype for Business Serverパフォーマンス ツールのパフォーマンス シナリオ](scenarios.md)
     
   - [ストレスとパフォーマンスのシナリオで負荷を実行するトポロジのプロビジョニング](provisioning-the-topology-to-run-load.md)
     
-  - [Skype for Business Server 2015 Stress and Performance Tool のポリシーの構成](configuring-policies.md)
+  - [2015 年 2015 年Skype for Business Serverパフォーマンス ツールのポリシーの構成](configuring-policies.md)
     
-- [Skype for Business Server 2015 Stress and Performance Tool の使用](using-the-tool.md)
+- [2015 Skype for Business Serverパフォーマンス ツールの使用](using-the-tool.md)
     
-- [Skype for Business Server 2015 Stress and Performance Tool の FAQ](faq.md)
+- [2015 年Skype for Business Serverパフォーマンス ツールに関する FAQ](faq.md)
     
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ルーマニアで利用できるSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: c094a08cd748adac8cd07b406cce3e43cf4ae17c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 4d9bfd3b0d6f5dc13b6922b12b4c005fd86130889b5c923ecf9955a12852fc01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337535"
 ---
 # <a name="availability-in-romania"></a>ルーマニアでの利用可能性
 
@@ -82,7 +82,7 @@ ms.locfileid: "52130176"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

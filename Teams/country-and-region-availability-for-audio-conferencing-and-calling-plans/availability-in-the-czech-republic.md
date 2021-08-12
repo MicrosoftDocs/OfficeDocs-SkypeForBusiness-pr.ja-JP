@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: チェコ共和国でMicrosoft 365およびOffice 365サービスSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 7919693bd5ed1daa631d223ac8af707e9ca3e548
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: c83d93f501f595923a71cd8f6655c631be0f332f8b1308ab4aae4d3d9df8607d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130256"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284258"
 ---
 # <a name="availability-in-the-czech-republic"></a>チェコ共和国での利用可能性
 
@@ -82,7 +82,7 @@ ms.locfileid: "52130256"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

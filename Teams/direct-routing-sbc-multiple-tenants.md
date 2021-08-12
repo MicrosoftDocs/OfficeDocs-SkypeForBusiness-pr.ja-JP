@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 1 つのセッション ボーダー コントローラー (SBC) を構成して、Microsoft パートナーや PSTN 通信事業者に複数のテナントを提供する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: c313ee09db068fca512a7f1c9c3478fad465ff4f9d64381f4f62790da4208ad2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293914"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>複数のテナントにセッション ボーダー コントローラーを構成する
 
@@ -112,15 +112,15 @@ SBC では、接続を認証するための証明書が必要です。 SBC ホ�
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>通信事業者のテナントで適切な権限を持っている必要があります
 
-新しいドメインは、グローバル管理者として Microsoft 365にサインインした場合にのみ追加できます。 
+新しいドメインを追加できるのは、グローバル管理者として Microsoft 365 管理センターにサインインした場合のみです。 
 
-ロールを検証するには、Microsoft 365 管理センター ( にサインインし、[ユーザーのアクティブなユーザー] に移動し、グローバル管理者ロールが割り当て済みである https://portal.office.com)   >  必要があります。 
+持っているロールを検証するには、Microsoft 365 管理センター ( にサインインし、[ユーザーのアクティブなユーザー] に移動し、グローバル管理者ロールが割り当 https://portal.office.com)   >  て済みである必要があります。 
 
 管理者ロールの詳細と、管理者ロールまたは管理者ロールでロールを割り当てるMicrosoft 365をOffice 365管理者ロールについてを[参照してください](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>テナントにベース ドメインを追加して確認する
 
-1. 管理センター Microsoft 365、[ドメインの追加]**の**  >  **設定に**  >  **移動します**。
+1. [ドメインのMicrosoft 365 管理センター ドメインの追加 **のセットアップ**  >  **] に**  >  **移動します**。
 2. [所有 **するドメインを入力してください] ボックス** に、ベース ドメインの FQDN を入力します。 次の例では、ベース ドメインは *customers.adatum.biz。*
 
     ![[ドメインの追加] ページを示すスクリーンショット](media/direct-routing-2-sbc-add-domain.png)
@@ -156,14 +156,14 @@ SBC では、接続を認証するための証明書が必要です。 SBC ホ�
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>顧客テナントで適切な権限を持っている
 
-新しいドメインは、グローバル管理者として Microsoft 365にサインインした場合にのみ追加できます。 
+新しいドメインを追加できるのは、グローバル管理者として Microsoft 365 管理センターにサインインした場合のみです。 
 
-ロールを検証するには、Microsoft 365 管理センター ( にサインインし、[ユーザーのアクティブなユーザー] に移動し、グローバル管理者ロールが割り当て済みである https://portal.office.com)   >  必要があります。 
+持っているロールを検証するには、Microsoft 365 管理センター ( にサインインし、[ユーザーのアクティブなユーザー] に移動し、グローバル管理者ロールが割り当 https://portal.office.com)   >  て済みである必要があります。 
 
 管理者ロールの詳細と、管理者ロールまたは管理者ロールでロールを割り当てるMicrosoft 365をOffice 365管理者ロールについてを[参照してください](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>顧客テナントにサブドメインを追加して確認する
-1. 管理センター Microsoft 365、[ドメインの追加]**の**  >  **設定に**  >  **移動します**。
+1. [ドメインのMicrosoft 365 管理センター ドメインの追加 **のセットアップ**  >  **] に**  >  **移動します**。
 2. [所有 **するドメインを入力してください** ] ボックスに、このテナントのサブドメインの FQDN を入力します。 次の例では、サブドメインが sbc1.customers.adatum.biz。
 
     ![[ドメインの追加] ページのスクリーンショット](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -183,7 +183,7 @@ SBC では、接続を認証するための証明書が必要です。 SBC ホ�
 
     詳細については、「任意の DNS ホスティング プロバイダー [で DNS レコードを作成する」を参照してください](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)。
 
-7. 顧客の管理センターに戻り、[確認Microsoft 365をクリック **します**。 
+7. 顧客のアカウントに戻り、[確認] Microsoft 365 管理センタークリック **します**。 
 8. 次のページで、[自分で DNS レコードを追加する] **を選択し** 、[次へ] を **クリックします**。
 
     ![[DNS 設定の更新] ページのオプションのスクリーンショット](media/direct-routing-9-sbc-update-dns.png)

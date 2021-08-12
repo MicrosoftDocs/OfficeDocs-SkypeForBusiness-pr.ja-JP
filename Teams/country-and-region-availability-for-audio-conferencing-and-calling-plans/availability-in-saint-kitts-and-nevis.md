@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: セントクリストファー Microsoft 365ネOffice 365、Skype for BusinessおよびMicrosoft Teamsサービスの一覧を次に示します。
-ms.openlocfilehash: dba655c8f9cb09548388e88aaa70f9c231c4c045
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0aa5104bf7c8e141a4e0326a8f3c011794cf8978a116dc9cb0b299ed298077ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119326"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337495"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>セントクリストファー・ネイビスの空き時間情報
 
@@ -82,7 +82,7 @@ ms.locfileid: "51119326"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

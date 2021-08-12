@@ -16,28 +16,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
-description: '概要: Skype for Business Server の計画時に、クライアント システムのデバイス要件を確認します。'
-ms.openlocfilehash: 4998f3f697412afa390ba6e385fcc19da5f80ed2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: クライアント システムデバイスの要件を確認し、クライアント システムのデバイス要件をSkype for Business Server。'
+ms.openlocfilehash: 988371d52f77c2b6316b7009620cdeefed53bd28988c56f28b31d5080361c308
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825967"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293944"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Windows Phone 版 Skype for Business のシステム要件
  
  
-Microsoft Skype for Business for Windows Phone は、スマートフォンまたは Windows Professional モバイル デバイスから接続している組織内のユーザーに、インスタント メッセージング (IM)、拡張プレゼンス、およびテレフォニーを提供します。 モバイル デバイスを使用すると、ユーザーは Skype for Business の利用を拡大できます。 このトピックでは、前提条件と技術要件の特定、必要なコンポーネント、展開ガイダンスなど、Skype for Business for Windows Phone の計画に関する考慮事項について説明します。
+Microsoft Skype for Business for Windows Phoneは、スマートフォンまたはモバイル デバイスから接続している組織内のユーザーにインスタント メッセージング (IM)、拡張プレゼンス、テレフォニー Windows Professional提供します。 モバイル デバイスを使用すると、ユーザーはモバイル デバイスのSkype for Business。 このトピックでは、前提条件と技術的要件Skype for Business for Windows Phone必要なコンポーネント、展開のガイダンスを識別する方法を含む、アプリケーションの計画に関する考慮事項について説明します。
   
-## <a name="skype-for-business-for-windows-phone-prerequisites"></a>Skype for Business for Windows Phone の前提条件
+## <a name="skype-for-business-for-windows-phone-prerequisites"></a>Skype for Business for Windows Phone前提条件
 
-Skype for Business for Windows Phone の前提条件は次のとおりです。
+以下に、前提条件Skype for Business for Windows Phone示します。
   
 - Windows Phone 8.1 以降。
     
-- Windows Phone デバイスには、Microsoft から利用可能な最新の更新プログラムが必要です。 詳細については、Windows Phone 8 の更新履歴の [「Windows Phone 8.1」セクションを参照してください](https://go.microsoft.com/fwlink/p/?LinkID=281961)。
+- デバイスWindows Phone Microsoft から最新の更新プログラムを利用できる必要があります。 詳細については、「8 Windows Phone 8.1」セクション[Windows Phoneを参照してください](https://go.microsoft.com/fwlink/p/?LinkID=281961)。
     
-- デバイスには、22 MB の空きディスク領域が必要です。
+- デバイスには 22 MB の使用可能なディスク領域が必要です。
     
 - ユーザーは、利用している通信事業者の音声およびデータ通信プランが必要です。
     

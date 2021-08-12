@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理者は、どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるか知ることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d7103ecb4183674fe1e92c7d7e3a37182c0d50
-ms.sourcegitcommit: beb66bc2ce70edbaf6c77eee6d8c050c5cb37fe1
+ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53515172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284218"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -56,10 +56,10 @@ Microsoft は以下の各ベンダーと協力します。
 |                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   Pending     |  7.20A.250 サポート済み (7.20A.258 推奨)  |  &#10004;   |  &#10004;  |
 |                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  7.20A.250 サポート済み (7.20A.258 推奨)   | &#10004;     |  &#10004;  |
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250 サポート済み (7.20A.258 推奨) |  &#10004;    |  &#10004;  |
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       8.2 and 7.2 サポート済み (9.2 推奨)       | &#10004;   |     |
-|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       8.2 and 7.2 サポート済み (9.2 推奨)       |   &#10004; |    |
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       8.2 and 7.2 サポート済み (9.2 推奨)       |   &#10004;  | |
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       8.2 and 7.2 サポート済み (9.2 推奨)       |    &#10004;  |  |
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       8.2 および 7.2 サポート済み (9.2 推奨)       | &#10004;   |     |
+|                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       8.2 および 7.2 サポート済み (9.2 推奨)       |   &#10004; |    |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       8.2 および 7.2 サポート済み (9.2 推奨)       |   &#10004;  | |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       8.2 および 7.2 サポート済み (9.2 推奨)       |    &#10004;  |  |
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       8.2 および 7.2 サポート済み (9.2 推奨)          |  &#10004;    |    |
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      8.x または 9.x     |   &#10004;  |  &#10004;     |
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     8.x または 9.x     |   &#10004;   |     &#10004;     |

@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
 ROBOTS: NOINDEX, NOFOLLOW
-description: 展開する Skype for Business Server の役割サーバーでサービスを開始するには、概要画面を確認します。 Skype for Business Server を開始するために発行されたコマンドは、サービスが開始するまで待機しません。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [次へ] をクリックして [サービスの開始] タスクを開始します。
-ms.openlocfilehash: 0a74a7bf02ec03098c7c8f6449ce17961d1cd665
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 展開する役割サーバー Skype for Business Serverを開始するには、概要画面を確認します。 サービスを開始するために発行されたコマンドSkype for Business Serverサービスが開始するのを待たされません。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [次へ] をクリックして [サービスの開始] タスクを開始します。
+ms.openlocfilehash: 11c407602fe351b79ec90ceb59b88a940238a3beb9f10fdde69587d7dd803e63
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294764"
 ---
 # <a name="startservices-intro"></a>サービスの開始 (開始)
  
-展開する Skype for Business Server の役割サーバーでサービスを開始するには、概要画面を確認します。 Skype for Business Server を開始するために発行されたコマンドは、サービスが開始するまで待機しません。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [**次へ**] をクリックして [**サービスの開始**] タスクを開始します。
+展開する役割サーバー Skype for Business Serverを開始するには、概要画面を確認します。 サービスを開始するために発行されたコマンドSkype for Business Serverサービスが開始するのを待たされません。 これは、サービスを開始するための最適な方法であり、Windows Services Microsoft 管理コンソール (MMC) を使用してサービスの実際の状態を監視する必要があります。 [**次へ**] をクリックして [**サービスの開始**] タスクを開始します。
   
 

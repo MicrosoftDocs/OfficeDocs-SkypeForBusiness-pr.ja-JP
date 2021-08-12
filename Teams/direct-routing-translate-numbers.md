@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: システム ダイレクト ルーティングを構成Microsoft 電話方法について説明します。
-ms.openlocfilehash: 03abeed954a7760c7c53142380a8ca558c5b3761
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ff560ca9417e5386819a90961562520da94d5cfcd65bd5348bd7718601610bf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337415"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>電話番号を別の形式に翻訳する
 
@@ -72,8 +72,8 @@ SBC に割り当てられた翻訳規則を次の表にまとめると、次の�
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>例 1: 10 桁の番号への着信呼び出し
 
-Bob は、E.164 以外の 10 桁の番号を使用して Alice を呼び出します。 Bob は 2065550100 にダイヤルして Alice に到達します。
-SBC は、RequestURI ヘッダーと To ヘッダーに 2065550100 を使用し、From ヘッダーに 4255550100 を使用します。
+Bob は、E.164 以外の 10 桁の番号を使用して Alice を呼び出します。 Bob は、2065550100をダイヤルして Alice に到達します。
+SBC では、RequestURI 2065550100 To ヘッダーの値と From ヘッダー 4255550100を使用します。
 
 
 |ヘッダー  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
@@ -85,7 +85,7 @@ SBC は、RequestURI ヘッダーと To ヘッダーに 2065550100 を使用し�
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>例 2: 4 桁の番号への着信呼び出し
 
 Bob は、4 桁の番号を使用して Alice を呼び出します。 Bob は 0100 をダイヤルして Alice に到達します。
-SBC では、RequestURI ヘッダーと To ヘッダーに 0100、From ヘッダーに 4255550100 を使用します。
+SBC では、RequestURI ヘッダーと To ヘッダーで 0100 を使用し、From 4255550100を使用します。
 
 
 |ヘッダー  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
