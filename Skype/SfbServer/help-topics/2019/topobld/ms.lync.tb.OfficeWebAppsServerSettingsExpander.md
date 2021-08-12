@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 構成されている Web Apps Server のプロパティOffice編集します。 編集できるプロパティは次のとおりです。
-ms.openlocfilehash: 0c5dbff11d6cc2f6b25f3afa77cfe12e1e511a8a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d5e791e8f405941c706c20e855b63a47113c68ca33c4233ccacbc7a35d445c90
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320789"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Office Web Apps サーバーの設定の編集
 
@@ -32,7 +32,7 @@ ms.locfileid: "51121080"
 
 このサーバーの展開先が境界ネットワークであるか、または内部展開から境界ネットワーク、信頼性の低いネットワーク、およびインターネットを分離する内部ファイアウォールの外にある他のネットワーク ゾーンである場合は、[**Office Web Apps サーバーは外部ネットワークで展開**] チェック ボックスをオンにします。
 
-![Office Web アプリ設定エキスパンダー](../../../media/OfficeWebApps_Settings_Expander.jpg)
+![OfficeWeb Apps 設定エキスパンダー](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>関連項目
 

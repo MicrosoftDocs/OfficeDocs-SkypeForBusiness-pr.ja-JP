@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
-description: このセクションでは、常設チャット データベースのサンプル クエリを示します。
-ms.openlocfilehash: 74cb6c1029cdeaabcd74a34898731b44c71f05a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: このセクションには、常設チャット データベースのサンプル クエリが含まれる。
+ms.openlocfilehash: 0b79d7753d6fca7ef27c2274416d17793c9c886ab05bad6b485b899700a3df51
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337645"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>常設チャット データベース クエリのサンプル
  
-このセクションでは、常設チャット データベースのサンプル クエリを示します。
+このセクションには、常設チャット データベースのサンプル クエリが含まれる。
   
-特定の日付以降に最もアクティブな常設チャット ルームの一覧を取得するには、次の例を使用します。
+次の例を使用して、特定の日付以降に最もアクティブな常設チャット ルームの一覧を取得します。
   
 ```SQL
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages

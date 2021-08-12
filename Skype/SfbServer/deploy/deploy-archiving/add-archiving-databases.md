@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の既存の展開にアーカイブ データベースを追加する
+title: アーカイブ データベースを既存の展開に追加Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,30 +11,30 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
-description: '概要: このトピックでは、Skype for Business Server 展開にアーカイブ データベースを追加する方法について説明します。'
-ms.openlocfilehash: f7642cb79f73ab519938ddcb680f8450347b943d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: このトピックでは、アーカイブ データベースを展開に追加する方法Skype for Business Serverしてください。'
+ms.openlocfilehash: e775b6e33bedd7bc5aeea5c9d7c04b7d4e5052a2578650c5a3335219c26a7be7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820677"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312215"
 ---
-# <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Skype for Business Server の既存の展開にアーカイブ データベースを追加する
+# <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>アーカイブ データベースを既存の展開に追加Skype for Business Server
  
-**概要:** このトピックでは、Skype for Business Server 展開にアーカイブ データベースを追加する方法について説明します。
+**概要:** このトピックでは、アーカイブ データベースを展開に追加する方法Skype for Business Serverしてください。
   
-アーカイブをサポートする展開を構成する前に、アーカイブをトポロジに組み込む必要があります。 このトピックでは、トポロジ ビルダーを使用して次の方法を実行する方法について説明します。
+アーカイブをサポートするために展開を構成する前に、アーカイブをトポロジに組み込む必要があります。 このトピックの情報では、トポロジ ビルダーを使用して次の情報を使用する方法について説明します。
   
 - アーカイブ データベースをトポロジに追加します。
     
-- 更新されたトポロジを公開して、アーカイブ データベースを Skype for Business Server 展開に追加します。
+- 更新されたトポロジを発行して、アーカイブ データベースを展開に追加Skype for Business Serverします。
     
 > [!NOTE]
-> Microsoft Exchange 統合を使用して、展開内のすべてのユーザーのアーカイブ データとファイルを Exchange サーバーに保存する場合は、アーカイブ **SQL Server** ストアまたは **SQL Server ストア** のミラーリング情報を使用するを指定しません。
+> Microsoft Exchange 統合を使用して、展開内のすべてのユーザーのアーカイブ データとファイルを Exchange サーバーに保存する場合は、アーカイブ SQL Server ストアまたは Use SQL Server Store ミラーリング **情報を** 指定しません。
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>アーカイブ データベースをトポロジに追加する
 
-1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカルの Users グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
+1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカル Users グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
     
 2. トポロジ ビルダーを開始します。
     
@@ -46,63 +46,63 @@ ms.locfileid: "49820677"
     
 6. [**アーカイブ**] まで下方向にスクロールします。
     
-7. [アーカイブ **] チェック ボックスを** オンにします。
+7. [アーカイブ **] チェック ボックス** をオンにします。
     
-8. [ **アーカイブ SQL Server] で、次** のいずれかの操作を行います。
+8. [**アーカイブ SQL Server] で、次** のいずれかの操作を行います。
     
-   - 既存の SQL Server ストアを使用するには、ドロップダウン リスト ボックスで、使用する SQL Server ストアの名前をクリックします。 すべてのユーザーが Microsoft Exchange Server 2013 以上にホームを設定している場合は、Exchange のすべてのユーザーの Skype for Business 通信をアーカイブできます。 この場合、アーカイブ ストアを構成するSQL Server必要があります。
+   - 既存の SQL Server ストアを使用するには、ドロップダウン リスト ボックスで、使用する SQL Server ストアの名前をクリックします。 すべてのユーザーが 2013 年 2013 年Microsoft Exchange Server以上に保存されている場合は、Skype for Business 内のすべてのユーザーの通信をアーカイブExchange。 この場合は、アーカイブ ストアを構成するSQL Server必要があります。
     
-   - 新しいストアをSQL Serverするには、[新規] をクリックし、[ストアの新しいSQL Server **定義**] ダイアログ ボックスで、次の操作を行います。
+   - 新しいストアをSQL Serverするには、[新規] をクリックし、[新しいストア ストアの定義] SQL Serverで、次 **の** 操作を行います。
     
-   - [SQL SERVER **FQDN]** で、新しいドメイン ストアを作成するサーバーの FQDN SQL Serverします。
+   - [SQL Server **FQDN]** で、新しいドメイン ストアを作成するサーバーの FQDN をSQL Serverします。
     
    - 既定のインスタンスを使用するには [**既定のインスタンス**] をクリックし、別のインスタンスを指定するには [**名前付きインスタンス**] をクリックして、使用するインスタンスを指定します。
     
-   - 指定した SQL Server インスタンスがミラーリング関係にある場合は、[This SQL **instance is in mirroring relation]** チェック ボックスをオンにし **、[Mirror port number]** でポート番号を指定します。
+   - 指定した SQL Server インスタンスがミラーリング関係にある場合は、[この **SQL** インスタンスがミラーリング関係にある] チェック ボックスをオンにし、[ミラー ポート番号] でポート番号を指定します。
     
-9. ストア ミラーリングを使用する場合SQL Serverストア ミラーリングを有効SQL Server **し**、次の操作を行います。
+9. ストア ミラーリングを使用する場合SQL Server、[ストア ミラーリングSQL Server有効にする]**を選択し**、次の操作を行います。
     
-   - 既存の SQL Server ストアをミラーリングに使用するには、[アーカイブ **SQL Server** ストアのミラー] ドロップダウン リスト ボックスで、ミラーリングに使用する SQL Server ストアの名前をクリックします。
+   - ミラーリングに既存の SQL Server ストアを使用するには、[アーカイブ **SQL Server** ストア のミラー] ドロップダウン リスト ボックスで、ミラーリングに使用する SQL Server ストアの名前をクリックします。
     
-   - ミラーリング用の新しい SQL Server ストアを指定するには、[新規] をクリックし、[新しい SQL Server **ストア** の定義] ダイアログ ボックスで、次のいずれかの操作を行います。
+   - ミラーリング用の新SQL Serverを指定するには、[新規] をクリックし、[新しいストア ストアの定義] SQL Server **で**、次のいずれかの操作を行います。
     
-     a.  [SQL SERVER **FQDN]** で、新しいSQL Serverストアを作成する場所の FQDN をSQL Serverします。
+     a. [SQL Server **FQDN]** で、新しいドメイン ストアをSQL Serverするドメイン サーバーの FQDN をSQL Serverします。
     
      b. 既定のインスタンスを使用するには [**既定のインスタンス**] をクリックし、別のインスタンスを指定するには [**名前付きインスタンス**] をクリックして、使用するインスタンスを指定します。
     
-     c. 指定した SQL Server インスタンスがミラーリング関係にある場合は、[This SQL **instance is in mirroring relation]** チェック ボックスをオンにし **、[Mirror port number]** でポート番号を指定します。
+     c. 指定した SQL Server インスタンスがミラーリング関係にある場合は、[この **SQL** インスタンスがミラーリング関係にある] チェック ボックスをオンにし、[ミラー ポート番号] でポート番号を指定します。
     
-   - SQL Server ミラーリングを有効にし、SQL Server ミラーリング監視 (プライマリ SQL Server とミラー インスタンスの正常性を検出できる 3 番目の独立した SQL Server インスタンス) を含める場合は **、[SQL Server** ミラーリング監視を使用して自動フェールオーバーを有効にする] チェック ボックスをオンにし、次のいずれかの操作を行います。
+   - SQL Server ミラーリングを有効にして、SQL Server ミラーリング監視 (プライマリ SQL Server インスタンスとミラー インスタンスの正常性を検出できる 3 番目の独立した SQL Server インスタンス) を含める場合は、[SQL Serverミラーリング監視を使用して自動フェールオーバーを有効にする] チェック ボックスをオンにして、次のいずれかの操作を行います。
     
-     a.  FQDN **SQL Server新** しいミラーリング監視を作成するサーバーの FQDN SQL Server指定します。
+     a. [SQL Server **FQDN]** で、ミラーリング監視の新しいサーバーを作成するサーバーの FQDN をSQL Serverします。
     
      b. 既定のインスタンスを使用するには [**既定のインスタンス**] をクリックし、別のインスタンスを指定するには [**名前付きインスタンス**] をクリックして、ミラーリング監視で使用するインスタンスを指定します。
     
-     c. 指定した SQL Server インスタンスがミラーリング関係にある場合は、[This SQL **instance is in mirroring relation]** チェック ボックスをオンにし **、[Mirror port number]** でポート番号を指定します。
+     c. 指定した SQL Server インスタンスがミラーリング関係にある場合は、[この **SQL** インスタンスがミラーリング関係にある] チェック ボックスをオンにし、[ミラー ポート番号] でポート番号を指定します。
     
 10. 構成を保存するには、[**OK**] をクリックします。
     
-### <a name="publish-the-updated-topology-to-add-an-archiving-database-to-your-deployment"></a>更新されたトポロジを公開してアーカイブ データベースを展開に追加する
+### <a name="publish-the-updated-topology-to-add-an-archiving-database-to-your-deployment"></a>更新されたトポロジを発行して、アーカイブ データベースを展開に追加する
 
-1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカルの Users グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
+1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカル Users グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
     
     > [!NOTE]
-    > ローカル Users グループのメンバーであるアカウントを使用してトポロジを定義できます。 ただし、トポロジにサーバーを追加するために必要なトポロジを公開するには **、Domain Admins** グループと **RTCUniversalServerAdmins** グループのメンバーであり、Skype for Business Server ファイル ストアで使用しているファイル共有に対するフル コントロールのアクセス許可 (読み取り、書き込み、および変更) を持つアカウント (必要な随意アクセス制御リスト (DACL) または同等の権限を持つアカウント) を使用する必要があります。
+    > ローカルの Users グループのメンバーであるアカウントを使用してトポロジを定義できます。 ただし、サーバーをトポロジに追加するために必要なトポロジを発行するには、ドメイン管理者グループと **RTCUniversalServerAdmins** グループのメンバーであり、Skype for Business Server ファイル ストアで使用するファイル共有に対する完全な制御アクセス許可 (読み取り、書き込み、変更) を持つアカウント (トポロジ ビルダーが必要な随意アクセス制御リスト (DACLs) または同等の権限を持つアカウントを使用する必要があります。
   
 2. トポロジ ビルダーを使用して、前のセクションで作成したトポロジを開きます。
     
-3. コンソール ツリーで **、Skype for Business Server** を右クリックし、[トポロジの公開] **をクリックします**。
+3. コンソール ツリーで、[トポロジの公開] を **右クリックSkype for Business Server、[** トポロジの公開]**をクリックします**。
     
 4. [**トポロジの公開**] ページで、[**次へ**] をクリックします。
     
 5. [**データベースの作成**] ページで、データベースが選択されていることを確認して、[**次へ**] をクリックします。 
     
     > [!NOTE]
-    > データベースを作成するための適切なアクセス許可を持っていない場合、ここでのデータベースの選択を取り消して、適切なアクセス許可を持つ別のユーザーがデータベースを作成できます。 > 専用サーバー上のデータベースSQLトポロジ ビルダーを使用してインストールできます。 他のサーバー コンポーネントと併置されている SQL サーバー上のデータベースは、そのコンピューターでローカル セットアップを実行してインストールする必要があります。 
+    > データベースを作成するための適切なアクセス許可を持っていない場合、ここでのデータベースの選択を取り消して、適切なアクセス許可を持つ別のユーザーがデータベースを作成できます。 > トポロジ ビルダーを使用してSQL専用サーバー上のデータベースのみをインストールできます。 他のサーバー コンポーネントと併置されている SQL サーバー上のデータベースは、そのコンピューターでローカル セットアップを実行してインストールする必要があります。 
   
 6. **[公開完了のウィザード]** ページで、トポロジが正常に公開されたことを確認し、**[完了]** をクリックします。
     
     > [!IMPORTANT]
-    > トポロジを公開した後、コンテンツをアーカイブする前に、アーカイブのオプションおよびポリシーを構成する必要があります。 詳細については [、「Skype for Business Server のアーカイブ](configure-archiving-options.md) オプションを構成する」および「Skype for Business Server のアーカイブ ポリシー [を構成する」を参照してください](configure-archiving-policies.md)。 
+    > トポロジを公開した後、コンテンツをアーカイブする前に、アーカイブのオプションおよびポリシーを構成する必要があります。 詳細については、「アーカイブ オプションの[構成](configure-archiving-options.md)」および「Skype for Business Serverのアーカイブ ポリシーの構成[」を参照](configure-archiving-policies.md)Skype for Business Server。 
   
 

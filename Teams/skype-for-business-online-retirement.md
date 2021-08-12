@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17f1445d19961cc6f7825fc613dfde453900bf82
-ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+ms.openlocfilehash: ba3f7efa43377cb69b0142e319d079b6aa2a26b9d923111fe2833cc337176129
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/01/2021
-ms.locfileid: "53679772"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280582"
 ---
 # <a name="skype-for-business-online-retirement"></a>Skype for Business Online のサポート終了
 
@@ -61,7 +61,7 @@ Skype for Business Online から現在のバージョンへのアップグレー
 
 - [Skype for Business Online](upgrade-assisted.md)から Microsoft Teams への支援付きアップグレード – Skype for Business Online ユーザーを Teams にアップグレードする技術的な手順を支援する自動化されたプログラム。
 
-- [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teamsプランで利用できるデプロイ サポートを提供します。
+- [FastTrackのMicrosoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teamsプランで利用できるデプロイ サポートを提供します。
 
 - [Teamsライブ トレーニング](./instructor-led-training-teams-landing-page.yml)– 組織を稼働状態に戻すオンライン トレーニング クラスを無料Teams。
 

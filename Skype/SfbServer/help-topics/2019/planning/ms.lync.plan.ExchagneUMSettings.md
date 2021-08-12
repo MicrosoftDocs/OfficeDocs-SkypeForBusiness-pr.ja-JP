@@ -1,5 +1,5 @@
 ---
-title: Exchange ユニファイド メッセージングの設定 (計画ツール)
+title: Exchangeユニファイド メッセージング 設定 (計画ツール)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server 2015 は、ボイス メッセージングと電子メール メッセージングを単一のメッセージング インフラストラクチャに組み合わせる Exchange ユニファイド メッセージング (UM) との統合をサポートします。
-ms.openlocfilehash: e23c1e44dc0724651c9072fd0a9d93e06d12cd4d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server 2015 では、Exchange ユニファイド メッセージング (UM) との統合がサポートされ、ボイス メッセージングと電子メール メッセージングを 1 つのメッセージング インフラストラクチャに組み合わせて使用できます。
+ms.openlocfilehash: 272c3d51085f9bac2491835bd44317e31784c4729393010f857d5f147fa6bd0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311865"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Skype for Business 2015 の Exchange ユニファイド メッセージング設定 (計画ツール)
+# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchangeユニファイド メッセージング 設定 (計画ツール) in Skype for Business 2015
 
 > [!NOTE]
-> 以前に知られている Exchange ユニファイド メッセージングは、Exchange 2019 では使用できなくなりましたが、電話システムを使用してボイスメール メッセージを録音してから、ユーザーの Exchange メールボックスに記録を残す方法を使用できます。 詳細については [、「Plan Cloud ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 」を参照してください。
+> Exchange以前に知られているユニファイド メッセージングは Exchange 2019 では使用できなくなりましたが、引き続き 電話システム を使用してボイスメール メッセージを記録し、その記録をユーザーの Exchange メールボックスに残して使用できます。 詳細については[、「プラン クラウド ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
 
-Skype for Business Server 2015 は、ボイス メッセージングと電子メール メッセージングを単一のメッセージング インフラストラクチャに組み合わせる Exchange ユニファイド メッセージング (UM) との統合をサポートします。
+Skype for Business Server 2015 では、Exchange ユニファイド メッセージング (UM) との統合がサポートされ、ボイス メッセージングと電子メール メッセージングを 1 つのメッセージング インフラストラクチャに組み合わせて使用できます。
 
 詳細については、以下を参照してください。
 

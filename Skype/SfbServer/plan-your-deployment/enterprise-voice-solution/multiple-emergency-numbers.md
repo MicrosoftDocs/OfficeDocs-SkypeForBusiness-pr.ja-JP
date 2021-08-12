@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で複数の緊急電話番号を計画する
+title: 複数の緊急電話番号を計画Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: Skype for Business Server で複数の緊急電話番号を計画する方法については、このトピックを参照してください。
-ms.openlocfilehash: 47ac1a93a39a95710bf1581aace0ec12a39caec6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: このトピックでは、複数の緊急電話番号を計画する方法について説明します。Skype for Business Server。
+ms.openlocfilehash: 1db97627ef783e5fa69bb7a186940c589f4aae40039563c3155c7cb29d5166aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101603"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329551"
 ---
-# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Skype for Business Server で複数の緊急電話番号を計画する
+# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>複数の緊急電話番号を計画Skype for Business Server
  
-Skype for Business Server で複数の緊急電話番号を計画する方法については、このトピックを参照してください。
+このトピックでは、複数の緊急電話番号を計画する方法について説明します。Skype for Business Server。
   
-Skype for Business Server では、クライアントの複数の緊急電話番号の構成がサポートされます。 複数の緊急電話番号は、2016 年 6 月の累積的な更新プログラムで導入された新機能です。 米国の緊急電話番号は 1 つの 911 ですが、多くの国で複数の緊急電話番号がサポートされています。 たとえば、英国では、英国固有の緊急電話番号である 999 と、欧州連合の緊急電話番号 112 の両方がサポートされています。 
+Skype for Business Server、クライアントの複数の緊急電話番号の構成がサポートされます。 複数の緊急電話番号は、2016 年 6 月の累積的な更新プログラムで導入された新機能です。 米国の緊急電話番号は 1 つの 911 ですが、多くの国で複数の緊急電話番号がサポートされています。 たとえば、英国では、英国固有の緊急電話番号である 999 と、欧州連合の緊急電話番号 112 の両方がサポートされています。 
   
 この機能は、複数のコード青色の緊急電話番号のローミングサポートを必要としている米国内の医療プロバイダーにも役立ちます。
   
@@ -35,14 +35,14 @@ Skype for Business Server では、クライアントの複数の緊急電話番
 
 緊急通話の実装方法を定義する場所ポリシーを作成して、緊急通話を構成します。 場所ポリシーを使用して、緊急通話を構成する番号 (米国の 911 など) を定義します。イギリスの 999 と 112。 場所ポリシーは、ユーザーが緊急通話を有効にするかどうかを決定し、緊急通話の動作が有効かどうかを決定します。 また、企業のセキュリティを自動的に通知するかどうかを定義し、通話のルーティング方法を定義することもできます。
   
-場所ポリシーの定義と変更の詳細については [、「Skype for Business Server](location-policies.md) の場所ポリシーを計画する」および「Create location [policies in Skype for Business Server」を参照してください](../../deploy/deploy-enterprise-voice/create-location-policies.md)。 これらのトピックでは、場所ポリシーに関する概念について説明します。ただし [、「Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) で複数の緊急電話番号を構成して複数の緊急電話番号を構成する」の指示に従う必要があります。
+場所ポリシーの定義と変更の詳細については、「場所ポリシーを計画[](location-policies.md)する」および「Skype for Business Serverで場所ポリシーを作成する」を[参照Skype for Business Server。](../../deploy/deploy-enterprise-voice/create-location-policies.md) これらのトピックでは、場所ポリシーに関する概念について説明します。ただし、「複数の緊急電話番号を構成する」の手順に従って、Skype for Business[緊急電話番号](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)を構成する必要があります。
   
 複数の緊急電話番号を計画する場合は、次の注意が必要です。
   
 - 2016 年 6 月の累積的な更新プログラムでは、特定の場所ポリシーに対して最大 5 つの緊急電話番号を定義できます。 2016 年 11 月の累積的な更新プログラムでは、この数は 100 に増加します。
     
     > [!NOTE]
-    > 2016 年 11 月の累積的な更新プログラムにまだアップグレードしていない場合は [、「Update to Skype for Business Server 2015」を参照](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)してください。 
+    > 2016 年 11 月の累積的な更新プログラムにまだアップグレードしていない場合は、「Update [to Skype for Business Server 2015」を参照](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)してください。 
   
 - 緊急電話番号ごとに、特定の場所ポリシーに固有の 0 個以上の緊急ダイヤル マスクを指定できます。
     
@@ -52,10 +52,10 @@ Skype for Business Server では、クライアントの複数の緊急電話番
     
 - 場所ポリシーに EmergencyNumbers パラメーターと DialString パラメーターの両方が定義され、クライアントが複数の緊急電話番号をサポートしている場合は、緊急番号が優先されます。 クライアントが複数の緊急電話番号をサポートしていない場合は、緊急ダイヤル文字列が使用されます。
     
-- 複数の緊急電話番号、ダイヤル マスク、公衆交換電話網 (PSTN) の使用法の受信をサポートする Skype for Business クライアントと Lync クライアントの詳細については、「クライアント サポート」を [参照してください](multiple-emergency-numbers.md#BKMK_Clients)。
+- 複数の緊急電話番号、ダイヤル Skype for Business公衆交換電話網 (PSTN) の使用法の受信をサポートするユーザーおよび Lync クライアントの詳細については、「クライアント サポート」を[参照してください](multiple-emergency-numbers.md#BKMK_Clients)。
     
 > [!NOTE]
-> Skype for Business コントロール パネルを使用して複数の緊急電話番号を構成することはできません。 PowerShell を使用して複数の緊急電話番号を構成する必要があります。 
+> [コントロール パネル] コントロール パネルを使用して複数Skype for Businessすることはできません。 PowerShell を使用して複数の緊急電話番号を構成する必要があります。 
   
 複数の緊急電話番号を構成する前に、次の注意が必要です。
   
@@ -69,7 +69,7 @@ Skype for Business Server では、クライアントの複数の緊急電話番
     
 - ユーザーがダイヤル文字列に一致する番号をダイヤルする場合、ダイヤル マスクは必要ありません。 たとえば、ユーザーがダイヤルする番号が 911 の場合、ダイヤル文字列は 911 で、マスクは必要ありません。 
     
-複数の緊急電話番号の構成の詳細については、「Skype for Business で複数の緊急 [電話番号を構成する」を参照してください](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。
+複数の緊急電話番号を構成する方法の詳細については、「複数の緊急電話番号を構成する」[を](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)参照Skype for Business。
   
 次の表に、場所ポリシーの例を示します (この例では、すべての属性が表示される場合ではありません)。
   
@@ -101,9 +101,9 @@ Skype for Business Server では、クライアントの複数の緊急電話番
 ||2016 年 10 月 11 日にリリースされた DC (遅延チャネル) - バージョン 1605 (ビルド 6965.2092)  <br/> |
 |**MSI** <br/> |6 月 7 日の更新プログラム - [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac と iOS** <br/> |**バージョン** <br/> |
-||Skype for Business Mac クライアント バージョン 16.9  <br/> Skype for Business iOS クライアント バージョン 6.16  <br/> |
+||Skype for BusinessMac クライアント バージョン 16.9  <br/> Skype for Business iOS クライアント バージョン 6.16  <br/> |
 |**Android** <br/> |**バージョン** <br/> |
-||Skype for Business Android クライアント バージョン 6.17  <br/> |
+||Skype for BusinessAndroid クライアント バージョン 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**バージョン** <br/> |
 || Aastra 6721ip および Aastra 6725ip 電話 - 2016 年 9 月の累積的な更新プログラム (ビルド 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || HP 4110 および HP 4120 電話 - 2016 年 9 月の累積的な更新プログラム (ビルド 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |

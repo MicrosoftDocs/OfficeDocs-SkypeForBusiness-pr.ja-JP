@@ -12,55 +12,55 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
-description: ConferenceSessionDetails ビューには、マルチパーティ セッションに関する情報が格納されます。 各レコードは 1 つの電話会議セッションを表し、フォーカスのあるセッションまたは特定の会議サーバーとのセッションのいずれかになります。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: d7ea4e7e793f26c377386082e26376a0ca5acb7d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: ConferenceSessionDetails ビューには、マルチパーティ セッションに関する情報が格納されます。 各レコードは 1 つの会議セッションを表し、フォーカスを持つセッションまたは特定の会議サーバーとのセッションのいずれかになります。 このビューは、Microsoft Lync Server 2013 で導入されました。
+ms.openlocfilehash: d11573f8911f02001101c2d6f2e13dd5ec2112017ada115282b9c0ed008176f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337655"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails ビュー
  
-ConferenceSessionDetails ビューには、マルチパーティ セッションに関する情報が格納されます。 各レコードは 1 つの電話会議セッションを表し、フォーカスのあるセッションまたは特定の会議サーバーとのセッションのいずれかになります。 このビューは、Microsoft Lync Server 2013 で導入されました。
+ConferenceSessionDetails ビューには、マルチパーティ セッションに関する情報が格納されます。 各レコードは 1 つの会議セッションを表し、フォーカスを持つセッションまたは特定の会議サーバーとのセッションのいずれかになります。 このビューは、Microsoft Lync Server 2013 で導入されました。
   
 |**列**|**データ型**|**詳細**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |日付型  <br/> |セッション要求の時間。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については [、Skype for Business Server 2015](dialogs.md) の Dialogs テーブルを参照してください。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については [、Skype for Business Server 2015](dialogs.md) の Dialogs テーブルを参照してください。 <br/> |
+|**SessionIdTime** <br/> |日付型  <br/> |セッション要求の時間。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**SessionIdSeq** <br/> |整数  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
 |**InviteTime** <br/> |日付型  <br/> |最初の INVITE 要求の時刻。通常、このフィールドには、セッションでの最初の INVITE メッセージから生成されたデータが設定されます。INVITE メッセージがない場合は、関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日付と時刻が設定されます。  <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |電話会議の URI。  <br/> |
-|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |電話会議の URI の種類。 詳細については [、UriTypes の表](uritypes.md) を参照してください。 <br/> |
+|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |電話会議の URI の種類。 詳細については [、UriTypes テーブル](uritypes.md) を参照してください。 <br/> |
 |**ConfInstance** <br/> |uniqueidentifier  <br/> |定期的な電話会議のインスタンスを区別する識別子。定期的な電話会議の各インスタンスは、ConferenceURI は同じですが、ConfInstance 値が異なります。  <br/> |
 |**McuConferenceUri** <br/> |nvarchar(450)  <br/> |電話会議サーバーの URI。  <br/> |
-|**McuConferenceUriType** <br/> |nvarchar(256)  <br/> |電話会議サーバーの URI の種類。 詳細については [、UriTypes の表](uritypes.md) を参照してください。 <br/> |
+|**McuConferenceUriType** <br/> |nvarchar(256)  <br/> |電話会議サーバーの URI の種類。 詳細については [、UriTypes テーブル](uritypes.md) を参照してください。 <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |セッションに参加したユーザーの URI。  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |セッションに参加したユーザーの URI の種類。 詳細については [、UriTypes の表](uritypes.md) を参照してください。 <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |セッションに参加したユーザーのテナント。 詳細については [、「テナント」の表](tenants.md) を参照してください。 <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |セッションに参加したユーザーの URI の種類。 詳細については [、UriTypes テーブル](uritypes.md) を参照してください。 <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |セッションに参加したユーザーのテナント。 詳細については [、「Tenants」テーブル](tenants.md) を参照してください。 <br/> |
 |**UserEndpointId** <br/> |uniqueidentifier  <br/> |セッションに参加したユーザーの一意の識別子。  <br/> |
 |**EndTime** <br/> |日付型  <br/> |セッションの終了時刻。  <br/> |
 |**ConferenceClientVersion** <br/> |nvarchar(256)  <br/> |電話会議サーバーのバージョン。  <br/> |
-|**ConferenceClientType** <br/> |int  <br/> |電話会議サーバーの種類。 詳細については [、UserAgentDef の表](useragentdef.md) を参照してください。 <br/> |
+|**ConferenceClientType** <br/> |整数  <br/> |電話会議サーバーの種類。 詳細については [、UserAgentDef テーブル](useragentdef.md) を参照してください。 <br/> |
 |**ConferenceCategory** <br/> |nvarchar(64)  <br/> |電話会議サーバーのカテゴリ。  <br/> |
 |**UserClientVersion** <br/> |nvarchar(256)  <br/> |セッションに参加したユーザーが使用するクライアントのバージョン。  <br/> |
-|**UserClientType** <br/> |int  <br/> |セッションに参加したユーザーが使用するクライアント。 詳細については [、UserAgentDef の表](useragentdef.md) を参照してください。 <br/> |
+|**UserClientType** <br/> |整数  <br/> |セッションに参加したユーザーが使用するクライアント。 詳細については [、UserAgentDef の表](useragentdef.md) を参照してください。 <br/> |
 |**UserClientCategory** <br/> |nvarchar(64)  <br/> |セッションに参加したユーザーが使用するクライアントのカテゴリの名前。  <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar(450)  <br/> |セッションが開始されたユーザーの URI。  <br/> |
-|**OnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |代表してセッションを開始したユーザーの URI の種類。 詳細については [、UriTypes の表](uritypes.md) を参照してください。 <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |代表してセッションを開始したユーザーのテナント。 詳細については [、「テナント」の表](tenants.md) を参照してください。 <br/> |
-|**ReferredByUri** <br/> |nvarchar(450)  <br/> |セッションを委譲したユーザーの URI。  <br/> |
-|**ReferredByUriType** <br/> |nvarchar(256)  <br/> |セッションを委譲したユーザーの URI の種類。 詳細については [、UriTypes の表](uritypes.md) を参照してください。 <br/> |
-|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |セッションを委譲したユーザーのテナント。 詳細については [、「テナント」の表](tenants.md) を参照してください。 <br/> |
+|**OnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |代表してセッションを開始したユーザーの URI の種類。 詳細については [、UriTypes テーブル](uritypes.md) を参照してください。 <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |代表してセッションを開始したユーザーのテナント。 詳細については [、「Tenants」テーブル](tenants.md) を参照してください。 <br/> |
+|**referredByUri** <br/> |nvarchar(450)  <br/> |セッションを委譲したユーザーの URI。  <br/> |
+|**ReferredByUriType** <br/> |nvarchar(256)  <br/> |セッションを委譲したユーザーの URI の種類。 詳細については [、UriTypes テーブル](uritypes.md) を参照してください。 <br/> |
+|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |セッションを委譲したユーザーのテナント。 詳細については [、「Tenants」テーブル](tenants.md) を参照してください。 <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |SIP ダイアログ ID。形式は次のとおりです。  <br/> :d ialog;from-tag;to-tag  <br/> |
-|**ReplaceDialogIdTime** <br/> |日付型  <br/> |現在のセッションで置き換えられる前のダイアログを識別する ID 番号。 詳細については [、Skype for Business Server 2015](dialogs.md) の Dialogs テーブルを参照してください。 <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |セッションを識別するための ID 番号。 このセッションで置き換えられるセッションを一意に識別するために ReplaceDialogIdTime と併用されます。 詳細については [、Skype for Business Server 2015](dialogs.md) の Dialogs テーブルを参照してください。 <br/> |
+|**ReplaceDialogIdTime** <br/> |日付型  <br/> |現在のセッションで置き換えられる前のダイアログを識別する ID 番号。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**ReplaceDialogIdSeq** <br/> |整数  <br/> |セッションを識別するための ID 番号。 このセッションで置き換えられるセッションを一意に識別するために ReplaceDialogIdTime と併用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
 |**ReplacesDialogId** <br/> |varchar(775)  <br/> |セッションによって置き換えられる SIP ダイアログ ID。形式は次のとおりです。  <br/> dialog;from-tag;to-tag  <br/> |
-|**IsStartedByConfServer** <br/> |bit  <br/> |セッションが電話会議サーバーによって開始されたかどうかを示します。  <br/> |
-|**IsEndedByConfServer** <br/> |bit  <br/> |セッションが電話会議サーバーによって終了されたかどうかを示します。  <br/> |
-|**IsUserInternal** <br/> |bit  <br/> |ユーザーが内部ネットワークからログオンしたかどうかを示します。  <br/> |
+|**IsStartedByConfServer** <br/> |ビット  <br/> |セッションが電話会議サーバーによって開始されたかどうかを示します。  <br/> |
+|**IsEndedByConfServer** <br/> |ビット  <br/> |セッションが電話会議サーバーによって終了されたかどうかを示します。  <br/> |
+|**IsUserInternal** <br/> |ビット  <br/> |ユーザーが内部ネットワークからログオンしたかどうかを示します。  <br/> |
 |**ResponseTime** <br/> |日付型  <br/> |最初の INVITE メッセージに対する応答の時刻。通常は、セッションの最初の INVITE メッセージから生成されたデータが設定されます。INVITE メッセージがない場合は、関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
-|**ResponseCode** <br/> |int  <br/> |セッションへの招待に対する SIP 応答コード。このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
-|**DiagnosticId** <br/> |int  <br/> |セッションの SIP ヘッダーから取得された診断 ID。  <br/> |
+|**ResponseCode** <br/> |整数  <br/> |セッションへの招待に対する SIP 応答コード。このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
+|**DiagnosticId** <br/> |整数  <br/> |セッションの SIP ヘッダーから取得された診断 ID。  <br/> |
 |**ContentType** <br/> |nvarchar(256)  <br/> |セッションのコンテンツの種類。  <br/> |
 |**FrontEnd** <br/> |nvarchar(256)  <br/> |セッションのデータをキャプチャしたフロントエンド サーバーの FQDN。  <br/> |
 |**Pool** <br/> |nvarchar(256)  <br/> |セッションのデータを取得したプールの FQDN。  <br/> |

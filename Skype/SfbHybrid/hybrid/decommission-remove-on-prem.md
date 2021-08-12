@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 使用停止の手順Skype for Business Server。
-ms.openlocfilehash: bdd38578d8ee98c26e6515c1cd4baa0ef8a825cf
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: d3da949cf5838f73e1818b87e51f7d524389fffcafc640d7754176eab1bd7473
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510788"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312265"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>オンプレミスの Skype for Business の展開を削除する
 
@@ -30,9 +30,9 @@ ms.locfileid: "53510788"
 
 この記事では、オンプレミスの展開を削除するSkype for Business説明します。 これは、オンプレミス環境を使用停止するための次の手順の手順 4 です。
 
-- 手順 1。 [必要なすべてのユーザーをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。 
+- 手順 1. [必要なすべてのユーザーをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。 
 
-- 手順 2。 [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
+- 手順 2. [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
 
 - 手順 3. [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移行する](decommission-move-on-prem-endpoints.md)
 

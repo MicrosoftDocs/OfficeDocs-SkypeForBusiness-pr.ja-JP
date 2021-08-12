@@ -1,5 +1,5 @@
 ---
-title: Exchange ユニファイド メッセージング (計画ツール)
+title: Exchangeユニファイド メッセージング (計画ツール)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,20 +15,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server 2015 は、ボイス メッセージングと電子メール メッセージングを単一のメッセージング インフラストラクチャに組み合わせる Exchange ユニファイド メッセージング (UM) との統合をサポートします。
-ms.openlocfilehash: 8d63ca3ec21fbdc7a1873be8e403e219094b8ca1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server 2015 では、Exchange ユニファイド メッセージング (UM) との統合がサポートされ、ボイス メッセージングと電子メール メッセージングを 1 つのメッセージング インフラストラクチャに組み合わせて使用できます。
+ms.openlocfilehash: 0683c43b2dd8be6b19b8c887488aa00a77d762426330db2bb883703d523e5a29
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311895"
 ---
-# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Skype for Business 2015 の Exchange ユニファイド メッセージング (計画ツール)
+# <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange2015 年のユニファイド メッセージング (計画ツール) Skype for Business
 
 > [!NOTE]
-> 以前に知られている Exchange ユニファイド メッセージングは、Exchange 2019 では使用できなくなりましたが、電話システムを使用してボイスメール メッセージを録音してから、ユーザーの Exchange メールボックスに記録を残す方法を使用できます。 詳細については [、「Plan Cloud ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 」を参照してください。
+> Exchange以前に知られているユニファイド メッセージングは Exchange 2019 では使用できなくなりましたが、引き続き 電話システム を使用してボイスメール メッセージを記録し、その記録をユーザーの Exchange メールボックスに残して使用できます。 詳細については[、「プラン クラウド ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
 
-Skype for Business Server 2015 は、ボイス メッセージングと電子メール メッセージングを単一のメッセージング インフラストラクチャに組み合わせる Exchange ユニファイド メッセージング (UM) との統合をサポートします。
+Skype for Business Server 2015 では、Exchange ユニファイド メッセージング (UM) との統合がサポートされ、ボイス メッセージングと電子メール メッセージングを 1 つのメッセージング インフラストラクチャに組み合わせて使用できます。
 
 詳細については、以下を参照してください。
 

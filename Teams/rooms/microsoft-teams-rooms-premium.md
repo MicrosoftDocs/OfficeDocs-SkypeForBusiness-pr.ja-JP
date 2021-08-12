@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: beb8c0a7cf4a2a78364b145da1da83e2ae04bd0b
-ms.sourcegitcommit: 2ce82f301f2d59da57f579a23038b2cab5e31360
+ms.openlocfilehash: c6ec09b889272b7efb02e6e2f0223f8fc3bf6da3f4332c4bfb50b58895c90bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "51858020"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280702"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 
@@ -91,7 +91,7 @@ Microsoft Teams Rooms の管理サービスのサポート対象の詳細につ�
 
 ## <a name="supported-regions"></a>サポートされる地域
 
-このMicrosoft Teams ミーティング プレミアムライセンスは、利用可能なすべての国と地域Microsoft 365利用できます。 国と地域の完全な一覧については、「Microsoft 365[を参照してください](https://www.microsoft.com/microsoft-365/business/international-availability)。
+Microsoft Teams Rooms プレミアムライセンスは、利用可能なすべての国と地域Microsoft 365利用できます。 国と地域の完全な一覧については、「Microsoft 365[を参照してください](https://www.microsoft.com/microsoft-365/business/international-availability)。
 
 ## <a name="support-inclusions-and-exclusions"></a>サポート内容と除外事項
 

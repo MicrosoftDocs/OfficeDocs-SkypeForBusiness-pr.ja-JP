@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
-description: 検索クエリの結果を使用して、Skype for Business Server のユーザーを構成できます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 Lync Server コントロール パネルまたは Active Directory ユーザーとコンピューター スナップインを使用してユーザーを検索することもできます。
-ms.openlocfilehash: 117f1c6a5a697cb1cf9e8e1f5c6cbf8363c517bf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 検索クエリの結果を使用して、検索クエリのユーザーを構成Skype for Business Server。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 Lync Server コントロール パネルまたは Active Directory ユーザーとコンピューター スナップインを使用してユーザーを検索することもできます。
+ms.openlocfilehash: 75e5a3ddf063477351946ad1d5efa1e5877f38d1a6b8d2109fc2b91869bc6cde
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119936"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320649"
 ---
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
 
-検索クエリの結果を使用して、Skype for Business Server のユーザーを構成できます。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 Lync Server コントロール パネルまたは Active Directory ユーザーとコンピューター スナップインを使用してユーザーを検索することもできます。
+検索クエリの結果を使用して、検索クエリのユーザーを構成Skype for Business Server。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 Lync Server コントロール パネルまたは Active Directory ユーザーとコンピューター スナップインを使用してユーザーを検索することもできます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -40,13 +40,13 @@ ms.locfileid: "51119936"
 
 - [ユーザーにポリシーを割り当てる](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
-- [Skype for Business Server 2015 エンタープライズ VoIPユーザーを有効にする](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [2015 年エンタープライズ VoIPユーザー Skype for Business Server有効にする](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成する](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
 - [ユーザーのテレフォニーの構成](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
 
 ## <a name="ui-reference"></a>UI リファレンス
 
@@ -76,7 +76,7 @@ Skype for Business Server コントロール パネルを使用して実行で�
 
 ### <a name="search-results-menus"></a>検索結果メニュー
 
-- **ユーザーを有効にする** [ユーザー: 新しい [Lync Server ユーザー]](users-new-lync-server-user.md) ダイアログを開き、Skype for Business Server に新しいユーザーを追加できます。
+- **ユーザーを有効にする**[ユーザー: 新しい [Lync Server ユーザー]](users-new-lync-server-user.md)ダイアログを開き、新しいユーザーをユーザーに追加Skype for Business Server。
 
     新規連絡先を追加するには、下矢印をクリックして [**連絡先を有効にする**] を選択し、[[Users: New Contact Objects](users-new-contact-objects.md)] ダイアログを開きます。
 
@@ -86,7 +86,7 @@ Skype for Business Server コントロール パネルを使用して実行で�
 
   - **Lync Server の再有効化** 一時的に無効にした後、選択したユーザー アカウントを有効にします。
 
-  - **Lync Server の一時的な無効化** ユーザー アカウントを削除せずに、Skype for Business Server のユーザー アカウントを再び有効にするまで無効にします。
+  - **Lync Server の一時的な無効化** ユーザー アカウントを削除せずに、Skype for Business Server有効にするまで、ユーザー アカウントを無効にします。
 
   - **ポリシーの割り当て** [ユーザー [: ポリシーの割り当て](users-assign-policies.md) ] ダイアログを開き、ユーザーに割り当てられたポリシーを構成できます。
 
@@ -98,7 +98,7 @@ Skype for Business Server コントロール パネルを使用して実行で�
 
   - **PIN のロックを解除する** ユーザーの PIN のロックを削除します。
 
-  - **Lync Server から削除する** Skype for Business Server からユーザー アカウントを削除します。 ユーザーは Active Directory から削除されません。
+  - **Lync Server から削除する** ユーザー アカウントをユーザー アカウントからSkype for Business Server。 ユーザーは Active Directory から削除されません。
 
   - **ユーザー証明書の削除** ユーザーに付与された証明書をすべて削除します。
 

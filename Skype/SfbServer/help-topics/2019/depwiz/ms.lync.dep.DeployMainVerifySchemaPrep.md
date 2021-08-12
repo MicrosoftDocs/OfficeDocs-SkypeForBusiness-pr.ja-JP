@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
-description: スキーマ拡張機能が Active Directory ドメイン サービス フォレストに正常にレプリケートされたことを確認するには、次の手順を実行します。
-ms.openlocfilehash: 4e4bfdf4fb50366f831f029d8f331551ba906969
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Active Directory ドメイン サービス フォレストでスキーマ拡張機能が正常にレプリケートされたことを確認するには、次の手順を実行します。
+ms.openlocfilehash: 9da233460dd20548acd36bd90ef699359c77e4144eaea80576e1209df6a5c7fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300223"
 ---
 # <a name="verify-replication-of-schema-partition"></a>スキーマ パーティションのレプリケーションの確認
  
-スキーマ拡張機能が Active Directory ドメイン サービス フォレストに正常にレプリケートされたことを確認するには、次の手順を実行します。
+Active Directory ドメイン サービス フォレストでスキーマ拡張機能が正常にレプリケートされたことを確認するには、次の手順を実行します。
   
-1. スキーマ拡張機能が Enterprise Admins グループのメンバーとして適用された Active Directory ドメイン サービス フォレスト内のドメイン コントローラー (スキーマ マスターの役割を持つドメイン コントローラー以外) にログオンします。
+1. スキーマ拡張機能が Enterprise Admins グループのメンバーとして適用された Active Directory ドメイン サービス フォレストのドメイン コントローラー (スキーマ マスター の役割を保持するドメイン コントローラー以外) にログオンします。
     
 2. [**スタート**] をクリックして [**管理ツール**] をクリックし、[**ADSI エディター**] をクリックして ADSI エディターを開きます。
     
@@ -42,6 +42,6 @@ ms.locfileid: "49801567"
 6. スキーマ コンテナーで、CN=ms-RTC-SIP-SchemaVersion を検索します。このオブジェクトが存在し、**rangeUpper** 属性の値が 1150 で、**rangeLower** 属性の値が 3 の場合、スキーマは正しく更新され、レプリケートされています。このオブジェクトが存在しないか、**rangeUpper** および **rangeLower** 属性の値が指定された値と異なる場合、スキーマは変更されていないか、レプリケートされていません。
     
 > [!NOTE]
-> スキーマのレプリケーションが成功したことを確認できなかった場合は、およそ 15 分待ってからもう一度確認してください。 Active Directory レプリケーションは、緩やかな一貫性モデルに基づいており、サーバーとインフラストラクチャの多くの要因に基づいて、一部のレプリケーション遅延が発生する可能性があります。 
+> スキーマのレプリケーションが成功したことを確認できなかった場合は、およそ 15 分待ってからもう一度確認してください。 Active Directory レプリケーションは緩やかな整合性モデルに基づいており、サーバーとインフラストラクチャの多くの要因に基づいて、一部のレプリケーション待機時間が発生する可能性があります。 
   
 

@@ -10,23 +10,23 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 監視サーバーを削除した後、サーバーデータをホストしていた SQL Server データベースを削除できます。 次の手順を使用して、トポロジビルダーから定義を削除し、データベースサーバーからデータベースとログファイルを削除します。
-ms.openlocfilehash: 829e55175c9b9c85582aafe996bbbee0afdffa62
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 監視サーバーを削除した後、サーバー データをホストSQL Serverデータベースを削除できます。 トポロジ ビルダーから定義を削除し、データベース サーバーからデータベース ファイルとログ ファイルを削除するには、次の手順を実行します。
+ms.openlocfilehash: cadb24e2dcbe88e643c234dd8559d07406e5566e3e7eea0e33eec796cd98cf52
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753329"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280392"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>監視サーバー用の SQL Server データベースの削除
 
-監視サーバーを削除した後、サーバーデータをホストしていた SQL Server データベースを削除できます。 次の手順を使用して、トポロジビルダーから定義を削除し、データベースサーバーからデータベースとログファイルを削除します。
+監視サーバーを削除した後、サーバー データをホストSQL Serverデータベースを削除できます。 トポロジ ビルダーから定義を削除し、データベース サーバーからデータベース ファイルとログ ファイルを削除するには、次の手順を実行します。
   
-## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>トポロジビルダーを使用して SQL Server データベースを削除するには
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>トポロジ ビルダーを使用SQL Serverデータベースを削除するには
 
-1. Skype for Business Server 2019 フロントエンドサーバーで、トポロジビルダーを開きます。
+1. 2019 Skype for Business Server エンド サーバーで、トポロジ ビルダーを開きます。
     
-2. トポロジビルダーで、[**共有コンポーネント**] に移動し、[ **sql server ストア**] をクリックし、削除または再構成された監視サーバーに関連付けられている sql server インスタンスを右クリックして、[**削除**] をクリックします。
+2. トポロジ ビルダーで、[共有コンポーネント] に移動し **、[SQL Server** ストア] に移動し、削除または再構成された監視サーバーに関連付けられている SQL Server インスタンスを右クリックし、[削除] をクリック **します**。
     
 3. トポロジを公開し、レプリケーションの状態を確認します。
     
@@ -34,7 +34,7 @@ ms.locfileid: "44753329"
 
 1. SQL Server ベースのサーバーにあるデータベースを削除するためには、削除しようとしているデータベース ファイルがある SQL Server ベースのサーバーの SQL Server sysadmins グループのメンバーでなければなりません。
     
-2. Skype for Business Server 管理シェルを開きます。
+2. 管理シェルSkype for Business Server開きます。
     
 3. コマンドラインで、次のように入力します。
     
@@ -42,8 +42,8 @@ ms.locfileid: "44753329"
    Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
-    ここ _\<FQDN\>_ で、はデータベースサーバーの完全修飾ドメイン名 (FQDN)、 _\<instance\>_ はオプションの名前付きデータベースインスタンスです。 
+    ここで  _\<FQDN\>_ 、データベース サーバーの完全修飾ドメイン名 (FQDN) は、オプションの  _\<instance\>_ 名前付きデータベース インスタンスです。 
     
-4. **Uninstall**コマンドレットを実行してアクションを確認するように求めるメッセージが表示されたら、情報を読み、Y (または enter) キーを押して続行するか、N キーを押してコマンドレットを停止します (エラーがある場合)。 
+4. **Uninstall-CsDataBase** コマンドレットで、アクションの確認、情報の読み取り、Y (または Enter) キーを押して続行するように求めるメッセージが表示されたら、N キーを押してから Enter キーを押します (エラーがある場合)。 
     
 

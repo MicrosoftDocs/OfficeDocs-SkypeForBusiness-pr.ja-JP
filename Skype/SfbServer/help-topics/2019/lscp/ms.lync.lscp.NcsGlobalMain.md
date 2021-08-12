@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 1961c43193cf6f3cd67f07fe14a98752d34066a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 44e2e620df7898988cb85f810d85f6201e74d378699d73f4e13c23dfcb577751
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320809"
 ---
 # <a name="network-configuration-global-setting"></a>ネットワーク構成: グローバル設定
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
 - [通話受付管理の有効化](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-call-admission-control)
 
