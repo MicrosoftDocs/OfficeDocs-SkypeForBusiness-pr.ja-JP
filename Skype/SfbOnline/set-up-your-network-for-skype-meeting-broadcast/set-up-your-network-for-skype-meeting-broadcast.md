@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Skype for Business Online の Skype 会議ブロードキャスト機能について学習します。この機能を使用すると、最大 10,000 人のオンライン ユーザーに会議やイベントをスケジュール、作成、ブロードキャストできます。
-ms.openlocfilehash: e5248ca2f8b8bb8080eae5eebe44e3d7c5bc01f5
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: 068ff156badaff9231f6e477e2f41668ea8f99fd26531f2a08155c4ee4763c05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308028"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャスト用にネットワークをセットアップする
 

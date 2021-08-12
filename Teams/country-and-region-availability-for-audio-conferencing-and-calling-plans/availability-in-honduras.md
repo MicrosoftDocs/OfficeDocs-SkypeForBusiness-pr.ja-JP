@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Honduras でMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 9fb8d25c683f55b36d524ca623ebfcf20706aae6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 91b9741d04a8352090730766571d3a92e18c3bb8094e16a855e01ad5ae316f9b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308876"
 ---
 # <a name="availability-in-honduras"></a>ホンジュラスでの利用可能性
 
@@ -83,7 +83,7 @@ Honduras でMicrosoft 365およびOffice 365サービスのSkype for Businessと
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

@@ -12,26 +12,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: ここでは、Skype for Business Server の常設チャット データベースのスキーマについて説明します。
-ms.openlocfilehash: ba50f4391ce35d8a938318e96e1483bbfe0e3dfa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: このドキュメントでは、常設チャット データベースのスキーマをドキュメント化Skype for Business Server。
+ms.openlocfilehash: bc314413d2bb7a3d5916396f1e8f281d2217e9058d087dcec8bcc486ee7f172f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809877"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280930"
 ---
 # <a name="persistent-chat-database-schema"></a>常設チャット データベース スキーマ
  
-ここでは、Skype for Business Server の常設チャット データベースのスキーマについて説明します。
+このドキュメントでは、常設チャット データベースのスキーマをドキュメント化Skype for Business Server。
   
-常設チャット データベースは、Skype for Business Server のバック エンド サーバーの役割 **PersistentChatStore** (mgc データベースに対応) および **PersistentChatComplianceStore** (mgccomp データベースに対応) に対応するデータベースを参照します。 このスキーマを公開する目的は、クエリを作成し、チャットの使用状況、アクティブなルーム、上位のポスターなどに関する有用なレポートの作成について理解できるようにすることです。
+常設チャット データベースは、Skype for Business Server Back End Server の役割 **PersistentChatStore** (mgc データベースに対応) と **PersistentChatComplianceStore** (mgccomp データベースに対応) に対応するデータベースを参照します。 このスキーマを公開する目的は、クエリを作成し、チャットの使用状況、アクティブなルーム、上位のポスターなどに関する有用なレポートの作成について理解できるようにすることです。
   
 > [!IMPORTANT]
 > Microsoft はこのスキーマを進化させる権利があります。Microsoft では、公開されたこのスキーマとの完全な下位互換性を維持することは一切保証していません。 
   
 次のベスト プラクティスに従ってください。
   
-- 列の \* 一覧は拡大される可能性があります。SELECT // はサポートされていません。
+- 列一 \* 覧が拡大する可能性があるため、SELECT // はサポートされていません。
     
 - ユーザーが生成したスキーマの変更はサポートされません。
     
@@ -43,7 +43,7 @@ ms.locfileid: "49809877"
 
 - [常設チャット サーバーのテーブルのリスト](list-of-persistent-chat-server-tables.md)
     
-- [Skype for Business Server の常設チャット サーバー コンプライアンス テーブルの一覧](list-of-persistent-chat-server-compliance-tables.md)
+- [[常設チャット サーバーのコンプライアンス テーブルの一覧] Skype for Business Server](list-of-persistent-chat-server-compliance-tables.md)
     
 - [常設チャット サーバー テーブルの詳細](persistent-chat-server-table-details.md)
     

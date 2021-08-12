@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Skype for Business Server 2015 年から 2015 年のほとんどのサーバー の役割の主な高可用性スキームは、プールによるサーバーの冗長性に基づいて行います。 特定のサーバーの役割を実行しているサーバーが失敗した場合、同じ役割を実行するプール内の他のサーバーは、そのサーバーからの負荷を受け取る。
-ms.openlocfilehash: f1fd56d85b8770a617295db96b01e3566f45f743
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 954fc2be48a17daa11099a5bca179d416ed4d9380689558a9214362ed904568c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646448"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280960"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性計画ツール
  

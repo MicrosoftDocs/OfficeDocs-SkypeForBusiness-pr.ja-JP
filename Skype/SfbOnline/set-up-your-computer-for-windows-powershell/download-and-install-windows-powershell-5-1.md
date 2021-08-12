@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Windows PowerShell 5.1 のダウンロードとインストールを行い、これを使用して Skype for Business Online に接続するリモート PowerShell セッションを作成します。
-ms.openlocfilehash: fb73ccdf63cc64cbe309de1ff5223090d1c282bb
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: af3d4346b699c6511b17b0cce0e881c91ceb927cb4a9e5cba57674fb96751b77
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239334"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308038"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Windows PowerShell 5.1 をダウンロードしてインストールする
 

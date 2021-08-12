@@ -17,12 +17,12 @@ description: 管理センターでアプリの使用状況Teamsレポートを�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29e51e91cdc42000350a48dd0d83225e7791aea6
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 592b333a8a46e90d6092445a6021341887f1b64ff8f26932f4912a6d9a8e7e56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308368"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams使用状況レポートを作成する
 
@@ -51,6 +51,6 @@ Teams管理センターのアプリ使用状況レポートMicrosoft Teams、ユ
 
 <br>![アプリの使用状況レポートのスクリーンショット| | ](media/app-usage-report4.png) **7**  |[列 **の編集] を** 選択して、テーブルの列を追加または削除します。<br><br>![[列の編集] ページのスクリーンショット| | ](media/app-usage-report5.png) **8 |**  レポートを CSV ファイルにエクスポートして、オフライン分析を行います。 **[Excel にエクスポート]** をクリックしてから、**[ダウンロード]** タブの **[ダウンロード]** をクリックして、準備のできたレポートをダウンロードします。<br>![[ダウンロード] ページのスクリーンショット| | ](media/app-usage-report7.png) **9 |** レポートを [ビュー] にExcel、アプリ ID を表す **[ID]** 列も表示されます。 通常、チーム ID は英数字の文字列です。 **[Id] 列** に **\n** と表示されている場合は、ユーザーが自分の情報を削除する要求を行いました。<br>![ダウンロードしたレポートのExcelスクリーンショット](media/app-usage-report8.png)  |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

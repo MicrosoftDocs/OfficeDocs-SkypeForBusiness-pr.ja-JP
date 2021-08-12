@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で呼び出された ID プレゼンテーションの変換ルールを作成または変更する
+title: 呼び出された ID プレゼンテーションの翻訳ルールを作成または変更Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
-description: '概要: Skype for Business Server で翻訳ルールの作成ツールを使用して翻訳ルールを定義する方法について説明します。'
-ms.openlocfilehash: 3f4754184e69e7b574709d0272afc9989553cfe5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 翻訳ルールの作成ツールを使用して翻訳ルールを定義する方法についてSkype for Business Server。'
+ms.openlocfilehash: 0f8f511996c8d3a578087c9f4252492fa03ef4237688bcaf68a04f09ed944116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281290"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Skype for Business Server で呼び出された ID プレゼンテーションの変換ルールを作成または変更する
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>呼び出された ID プレゼンテーションの翻訳ルールを作成または変更Skype for Business Server
 
-**概要:** Skype for Business Server の翻訳ルールの作成ツールを使用して翻訳ルールを定義する方法について説明します。
+**概要:**[翻訳ルールの作成] ツールを使用して翻訳ルールを定義する方法については、Skype for Business Server。
 
-変換ルールの作成ツールに値のセットを入力し、Skype for Business  Server コントロール パネルで対応する一致パターンと変換ルールを生成して、変換ルールを定義する場合は、次の手順を実行します。 または、手動で正規表現を記述して一致パターンと変換ルールを定義することもできます。 詳細については、「[Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)」を参照してください。
+変換ルールの作成ツールに値のセットを入力し、Skype for Business Server コントロール パネルで対応する一致パターンと変換ルールを生成して、変換ルールを定義する場合は、次の手順を実行します。 または、手動で正規表現を記述して一致パターンと変換ルールを定義することもできます。 詳細については、「[Create or Modify a Translation Rule Manually](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)」を参照してください。
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>変換ルールの構築ツールを使用してルールを定義するには
 
-1. Skype for Business Server コントロール パネルを開きます。
+1. [コントロール Skype for Business Server] を開きます。
 
-2. 変換ルールの定義を開始するには、「手順 10 で [Skype for Business Server](configure-trunk-with-media-bypass.md) でメディア バイパスを使用してトランクを構成する」または「手順 9 で Skype for Business [Server](configure-trunk-without-media-bypass.md) でメディア バイパスのないトランクを構成する」の手順に従います。
+2. 変換ルールの定義を開始するには、「Skype for Business Server ~ 手順 10 でメディア バイパスを使用してトランクを構成する」または[「Skype for Business Server](configure-trunk-with-media-bypass.md)から手順 9 まででメディア バイパスのないトランクを構成する」[の手順に](configure-trunk-without-media-bypass.md)従います。
 
 3. [**新しい変換ルール**] ページまたは [**変換ルールの編集**] ページの [**名前**] に、変換対象の番号パターンを説明する名前を入力します。
 
@@ -70,13 +70,13 @@ ms.locfileid: "51103643"
 8. [**トランク構成**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。
 
    > [!NOTE]
-   > 変換ルールを作成または変更したときは必ず、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」の [ドキュメントの「Skype for Business](voice-route-config-changes.md) の音声ルーティング構成に保留中の変更を公開する」を参照してください。
+   > 変換ルールを作成または変更したときは必ず、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「音声ルーティング構成[に](voice-route-config-changes.md)保留中の変更Skype for Businessを発行する」を参照してください。
 
 ### <a name="to-define-a-translation-rule-manually"></a>変換ルールを手動で定義するには
 
-1. Skype for Business Server コントロール パネルを開く
+1. [Skype for Business Server] コントロール パネルを開く
 
-2. 変換ルールの定義を開始するには、「手順 10 で [Skype for Business Server](configure-trunk-with-media-bypass.md) でメディア バイパスを使用してトランクを構成する」または「手順 9 で Skype for Business [Server](configure-trunk-without-media-bypass.md) でメディア バイパスのないトランクを構成する」の手順に従います。
+2. 変換ルールの定義を開始するには、「Skype for Business Server ~ 手順 10 でメディア バイパスを使用してトランクを構成する」または[「Skype for Business Server](configure-trunk-with-media-bypass.md)から手順 9 まででメディア バイパスのないトランクを構成する」[の手順に](configure-trunk-without-media-bypass.md)従います。
 
 3. [**新しい変換ルール**] ページまたは [**変換ルールの編集**] ページの [**名前**] フィールドに、変換対象の番号パターンを説明する名前を入力します。
 
@@ -90,7 +90,7 @@ ms.locfileid: "51103643"
 
    - [**変換ルール**] に、変換される番号の形式のパターンを指定します。
 
-     たとえば、[このパターンの一致] に ^ (\d \d+)$ を入力し、変換ルールに \+ {9} 0111$1 を入力すると、ルールは +441235551010 から 011441235551010に変換されます。
+     たとえば、[このパターンの一致] に ^ (\d \d+)$ を入力し、変換ルールに \+ {9} 011$1を入力すると、+441235551010 が 011441235551010 に変換されます。
 
 7. [**OK**] をクリックして変換ルールを保存します。
 
@@ -99,14 +99,14 @@ ms.locfileid: "51103643"
 9. [**トランク構成**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。
 
     > [!NOTE]
-    > 変換ルールを作成または変更したときは必ず、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」の [ドキュメントの「Skype for Business](voice-route-config-changes.md) の音声ルーティング構成に保留中の変更を公開する」を参照してください。
+    > 変換ルールを作成または変更したときは必ず、[**すべて確定**] コマンドを実行して構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「音声ルーティング構成[に](voice-route-config-changes.md)保留中の変更Skype for Businessを発行する」を参照してください。
 
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server でメディア バイパスを使用してトランクを構成する](configure-trunk-with-media-bypass.md)
+[メディア バイパスを使用してトランクを構成Skype for Business Server](configure-trunk-with-media-bypass.md)
 
-[Skype for Business Server でメディア バイパスなしでトランクを構成する](configure-trunk-without-media-bypass.md)
+[メディア バイパスを使用せずにトランクを構成Skype for Business Server](configure-trunk-without-media-bypass.md)
 
-[Skype for Business の音声ルーティング構成に対する保留中の変更を公開する](voice-route-config-changes.md)
+[音声ルーティング構成に保留中の変更を公開Skype for Business](voice-route-config-changes.md)
 
-[Skype for Business Server でのメディア バイパスの展開](deploy-media-bypass.md)
+[メディア バイパスを展開Skype for Business Server](deploy-media-bypass.md)

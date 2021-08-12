@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: 通話受付管理 (CAC) は、利用可能なネットワーク帯域幅に基づいて、音声通話やビデオ通話などのリアルタイム通信セッションを確立できるかどうかを決定します。
-ms.openlocfilehash: 07125998a7f9e2eba4f063ecf5601fc8b844e91b
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 658ad0d4ec08befe201d53cad6d120b5b276da8a30e7a833e0c838d5fb18eea3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309226"
 ---
 # <a name="call-admission-control-planning-tool"></a>通話受付管理計画ツール
  

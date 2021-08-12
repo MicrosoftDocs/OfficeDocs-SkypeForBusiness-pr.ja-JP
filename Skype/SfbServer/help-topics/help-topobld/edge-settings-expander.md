@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 既存の単一サーバー エッジ プールまたは複数サーバー エッジ プールの設定を編集するために、次のセクションが表示されます。
-ms.openlocfilehash: 5b4bbb302f76a38a5a485d17ad6df5c0d1db1c6b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 28d998986f21e089b34c9a58b9acb238c2aa8ab3108296566ce14210c87220d7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119656"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281120"
 ---
 # <a name="edge-settings-expander"></a>エッジ設定エキスパンダー
 
@@ -38,7 +38,7 @@ ms.locfileid: "51119656"
 
 エッジ サーバー プールの内部プールの完全修飾ドメイン名 (FQDN)。この設定を変更するには、プールの FQDN を編集します。
 
-Lync Server 2013、Microsoft Lync Server 2010、または Microsoft Office Communications Server 2007 R2 信頼できるパートナーとのフェデレーションを設定する場合は、[このエッジ プールのフェデレーションを有効にする (ポート **5061)** ] チェック ボックスをオンにします。
+Lync Server 2013、Microsoft Lync Server 2010、または Microsoft Office Communications Server 2007 R2 信頼済みパートナーとのフェデレーションを設定する場合は、[このエッジ プールのフェデレーションを有効にする ( ポート **5061)** ] チェック ボックスをオンにします。
 
 [**このエッジ プールの XMPP フェデレーションを有効化 (ポート 5269)**] を選択して、XMPP フェデレーションを有効にします。
 

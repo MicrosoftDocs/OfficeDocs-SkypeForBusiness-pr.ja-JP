@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '電話システム、電話会議、通話プランやコミュニケーション クレジットを使用するために Skype for Business  のライセンスを割り当てる方法について説明します。 '
-ms.openlocfilehash: 41f1788e4c562f3b4cc1f43d7875b64805b19ed8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 61d8eca21fec85f7f729e0d0de9cc5d43fd5ca96567e2abe49cf7b6b5f651500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281330"
 ---
 # <a name="assign-skype-for-business-licenses"></a>ユーザーに会議 ID を割り当てる
 

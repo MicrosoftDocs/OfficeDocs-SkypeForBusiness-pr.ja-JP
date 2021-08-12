@@ -1,5 +1,5 @@
 ---
-title: Skype for Business でボイス メール エスケープを構成する
+title: ボイス メール エスケープを構成Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: '概要: Skype for Business Server 管理シェルを使用して Skype for Business Server でボイス メール エスケープを構成する方法について説明します。'
-ms.openlocfilehash: c74142cf3b0f6c9d5a871e116d8e163a095ad3cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 管理シェルを使用して、Skype for Business Serverでボイス メール エスケープSkype for Business Server説明します。'
+ms.openlocfilehash: f94a9e78d5f1b88644691d43b7c24169e6122e6188f7ee45c095521230b6be3f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279425"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Skype for Business でボイス メール エスケープを構成する
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a>ボイス メール エスケープを構成Skype for Business
 
-**概要:** Skype for Business Server 管理シェルを使用して Skype for Business Server でボイス メール エスケープを構成する方法について説明します。
+**概要:** 管理シェルを使用して、Skype for Business Serverボイス メール エスケープを構成Skype for Business Server説明します。
 
-ユーザーが携帯電話への同時呼び出し音を構成すると、通常、携帯電話がオフになっている場合、バッテリーの電源が切れ、または範囲外の場合、発信者はユーザーの個人用ボイス メールにルーティングされます。 Skype for Business Server を使用すると、ビジネス関連の通話を企業のボイス メール システムにルーティングできます。 具体的には、タイマーを構成し、通話が定義された範囲内で通信事業者のボイス メールによって応答された場合、Skype for Business Server は通信事業者のボイス メール システム (およびユーザーの個人用ボイス メール) から切断され、企業システム内のユーザーの残りのエンドポイントは引き続き呼び出されます。 これにより、発信者は自動的にユーザーの企業ボイス メールにルーティングされます。
+ユーザーが携帯電話への同時呼び出し音を構成すると、通常、携帯電話がオフになっている場合、バッテリーの電源が切れ、または範囲外の場合、発信者はユーザーの個人用ボイス メールにルーティングされます。 このSkype for Business Server、ユーザーは企業のボイス メール システムにビジネス関連の通話をルーティングできます。 具体的には、タイマーを構成できます。通話が定義された範囲内で通信事業者のボイス メールによって応答された場合、Skype for Business Server は通信事業者のボイス メール システム (およびユーザーの個人用ボイス メール) から切断され、企業システム内のユーザーの残りのエンドポイントは引き続き呼び出されます。 これにより、発信者は自動的にユーザーの企業ボイス メールにルーティングされます。
 
-この構成は、次のパラメーターを使用して、音声ポリシー レベルで Skype for Business Server 管理シェル コマンドレット **Set-CsVoicePolicy** を使用して実行されます。
+この構成は、Skype for Business Server管理シェル コマンドレット **Set-CsVoicePolicy** を音声ポリシー レベルで使用して、次のパラメーターを使用して実行されます。
 
 ### <a name="to-configure-voice-mail-escape"></a>ボイス メール エスケープを構成するには
 
-1. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 2. **Set-CsVoicePolicy に次のパラメーターを指定します**。
 

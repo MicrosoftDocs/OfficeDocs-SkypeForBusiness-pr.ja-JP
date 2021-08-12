@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: 展開用に作成するデータベースを選択します。 既定では、データベースは定義されたサイトの定義済みの SQL Server に作成され、データベースを配置する SQL Server に基づいてデータベース ファイルを自動的に展開および構成します。
-ms.openlocfilehash: 3e7e2e0aaec55c595a4f538238c431feb9173152
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1a26353ed44529cd19f94b70fdf25f72fbd8f8d4bb81aa0da41c523d3d35a500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120929"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281060"
 ---
 # <a name="install-and-create-databases"></a>データベースのインストールと作成
 
@@ -29,9 +29,9 @@ ms.locfileid: "51120929"
  [**作成するデータベースを選択**]: 展開および構成を行う任意のデータベースのチェックボックスをオンにします。展開を行う一部または全部のデータベースのチェック ボックスをオンにします。
 
 > [!CAUTION]
-> データベースSQL Serverに対応するために、インスタンス用に構成されている必要があります (存在する場合)、ファイアウォール ポートを開いて、データベースを展開するインスタンスに合わせて開く必要があります。 詳細については [、「Configure SQL Server for Lync Server 2013 Preview」を参照してください。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)
+> データベースSQL Serverに対応するために、インスタンス用に構成されている必要があります (存在する場合)、ファイアウォール ポートを開いて、データベースを展開するインスタンスに合わせて開く必要があります。 詳細については[、「Configure SQL Server for Lync Server 2013 Preview」を参照してください。](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)
 
- **Advanced**: [詳細] ボタンをSQL Serverし、[詳細設定] ボタンをクリックして、データベース 上のデータベース ファイルの場所のオプションを選択SQL Server。 高度なデータベース ファイル配置の詳細については、「[Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)」を参照してください。
+ **Advanced**: [詳細] ボタンをSQL Serverし、[詳細設定] ボタンをクリックして、データベース ファイルの場所のオプションを選択SQL Server。 高度なデータベース ファイル配置の詳細については、「[Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)」を参照してください。
 
  [**戻る**]: このボタンをクリックすると、前画面に戻ります (このダイアログへの到達方法によっては、必ずしも利用できない場合があります)。
 

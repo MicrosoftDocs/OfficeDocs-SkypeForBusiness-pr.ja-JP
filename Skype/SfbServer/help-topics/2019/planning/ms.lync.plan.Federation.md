@@ -16,20 +16,20 @@ localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: エッジ サーバーは、社内および外部のユーザーがパートナー組織またはサービスの連絡先にアクセスできるよう構成できます。
-ms.openlocfilehash: 4c6790ee5825e57a6c0bd41d85dae6b3c84a095e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96e1a4d575670013d01fb784945293855d35fc0190aa8c0d72c2b3969ed151d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103543"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280112"
 ---
 # <a name="federation-planning-tool"></a>フェデレーション (計画ツール)
  
 エッジ サーバーは、社内および外部のユーザーがパートナー組織またはサービスの連絡先にアクセスできるよう構成できます。
   
- フェデレーションは、Microsoft Lync 2013 と同様に Skype for Business Server で動作します。 フェデレーション用の環境の準備の詳細については、次のトピックを参照してください。
+ フェデレーションは、Skype for Business Server Lync 2013 と同じ方法で動作します。 フェデレーション用の環境の準備の詳細については、次のトピックを参照してください。
   
-- [Lync Server 2013 および Officeコミュニケーション サーバーフェデレーションの計画](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
+- [Lync Server 2013 および Officeの計画](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
     
 - [Lync Server 2013 でのパブリック インスタント メッセージング接続の計画](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-public-instant-messaging-connectivity)
     

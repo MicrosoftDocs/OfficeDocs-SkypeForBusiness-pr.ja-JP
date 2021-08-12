@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
 description: ブランチ サイトでの存続可能ブランチ アプライアンスの公衆交換電話網 (PSTN) ゲートウェイを定義するには、次の情報を指定します。
-ms.openlocfilehash: 30b5922e3d18b4dfe57bef23ddb0f00a25df7f9f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d08470d63fe4d4c0130e413f9a1a67b924fbdf37ca1c10f1f0c685af65fed53b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281130"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>存続可能ブランチ アプライアンスの PSTN の追加
  

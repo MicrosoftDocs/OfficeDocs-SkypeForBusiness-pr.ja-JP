@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でダイヤル プランを作成または変更する
+title: ダイヤル プランを作成または変更するには、Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
-description: '概要: Skype for Business Server コントロール パネルを使用してダイヤル プランを作成または変更する方法について学習します。'
-ms.openlocfilehash: 718d0733aa5fabc072991708d09983ce8cb4267d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: [コントロール パネル] を使用してダイヤル プランを作成または変更するSkype for Business Serverします。'
+ms.openlocfilehash: 3b2a1e9189f2e54eff0db79ea11732ba5175f4fc6825bb7a71615422b2f9f4dc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281270"
 ---
-# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Skype for Business Server でダイヤル プランを作成または変更する
+# <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>ダイヤル プランを作成または変更するには、Skype for Business Server
 
-**概要:** Skype for Business Server コントロール パネルを使用してダイヤル プランを作成または変更する方法について学習します。
+**概要:**[コントロール パネル] を使用してダイヤル プランを作成または変更するSkype for Business Serverします。
 
 ### <a name="to-create-a-dial-plan"></a>ダイヤル プランを作成するには
 
-1. Skype for Business Server コントロール パネルを開きます。
+1. [コントロール Skype for Business Server] を開きます。
 
 2. 左側のナビゲーション バーで [**音声のルーティング**] をクリックし、[**ダイヤル プラン**] をクリックします。
 
@@ -70,7 +70,7 @@ ms.locfileid: "51104903"
 
     - 展開で使用可能なすべての正規化ルールの一覧から 1 つ以上のルールを選択するには、[選択] エンタープライズ VoIPクリック **します**。 [ **正規化ルールの選択**] で、ダイヤル プランに関連付けるルールを強調表示し **、[OK] をクリックします**。
 
-   - 新しい正規化ルールを定義してダイヤル プランに関連付けるには、[**新規**] をクリックします。 新しいルールの定義の詳細については、「Skype for Business で正規化ルールを作成または [変更する」を参照してください](normalization-rules.md)。
+   - 新しい正規化ルールを定義してダイヤル プランに関連付けるには、[**新規**] をクリックします。 新しいルールの定義の詳細については、「カスタム ルールで正規化ルールを作成または変更する」[を参照](normalization-rules.md)Skype for Business。
 
    - 既にダイヤル プランに関連付けられている正規化ルールを編集するには、ルールの名前を選択状態にして [**詳細の表示**] をクリックします。
 
@@ -79,12 +79,12 @@ ms.locfileid: "51104903"
    - ダイヤル プランから正規化ルールを削除するには、ルールの名前を選択状態にして [**削除**] をクリックします。
 
      > [!NOTE]
-     > ダイヤル プランごとに少なくとも 1 つの関連付けられた正規化ルールが必要です。 ダイヤル プランで必要なすべての正規化ルールを決定する方法については、「Planning」のドキュメントの [「Plan for outbound voice routing in Skype for Business Server」](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) を参照してください。
+     > ダイヤル プランごとに少なくとも 1 つの関連付けられた正規化ルールが必要です。 ダイヤル プランで必要なすべての正規化ルールを決定する方法については、「Plan for outbound voice [routing in Skype for Business Server」の](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)ドキュメントを参照してください。
 
 10. ダイヤル プランの正規化ルールが正しい順序で配置されていることを確認します。 リスト内のルールの位置を変更するには、ルール名を強調表示し、上矢印または下矢印をクリックします。
 
     > [!IMPORTANT]
-    > Skype for Business Server は、正規化ルールの一覧を上から下に移動し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤル プランを構成し、その結果ダイヤルされる番号が複数の正規化ルールと一致する可能性がある場合は、制限の厳しいルールが制限の緩いルールより上に並び替えてください。 > 既定の **Keep All 正規化** ルール^(\d )$ は、任意の 11 桁の {11} 数値と一致します。 たとえば、1425 で始まる 11 桁の数字に一致する正規化ルールを追加する場合は、より制限の厳しい ^(1425\d )$ ルールの下に Keep **All** が並べ替えされます。 {7}
+    > Skype for Business Server、正規化ルールの一覧を上から下に移動し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤル プランを構成し、その結果ダイヤルされる番号が複数の正規化ルールと一致する可能性がある場合は、制限の厳しいルールが制限の緩いルールより上に並び替えてください。 > 既定の **Keep All 正規化** ルール^(\d )$ は、任意の 11 桁の {11} 数値と一致します。 たとえば、1425 で始まる 11 桁の数字に一致する正規化ルールを追加する場合は、より制限の厳しい ^(1425\d )$ ルールの下に Keep **All** が並べ替えされます。 {7}
 
 11. (オプション) ダイヤル プランをテストする番号を入力して、[**実行**] をクリックします。 テスト結果は、[**テストする番号の入力**] の下に表示されます。
 
@@ -93,13 +93,13 @@ ms.locfileid: "51104903"
 13. [**ダイヤル プラン**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。
 
     > [!NOTE]
-    > ダイヤル プランを作成する場合は、すべてのコミット コマンドを実行 **して構成変更** を公開する必要があります。 詳細については、「操作」の [ドキュメントの「Skype for Business](voice-route-config-changes.md) の音声ルーティング構成に保留中の変更を公開する」を参照してください。
+    > ダイヤル プランを作成する場合は、すべてのコミット コマンドを実行 **して構成変更** を公開する必要があります。 詳細については、「操作」のドキュメントの「音声ルーティング構成[に](voice-route-config-changes.md)保留中の変更Skype for Businessを発行する」を参照してください。
 
 ### <a name="to-modify-a-dial-plan"></a>ダイヤル プランを変更するには
 
 1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**セットアップのアクセス許可の委任**」を参照してください。
 
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。
 
 3. 左側のナビゲーション バーで [**音声のルーティング**] をクリックし、[**ダイヤル プラン**] をクリックします。
 
@@ -129,7 +129,7 @@ ms.locfileid: "51104903"
 
    - 展開で使用可能なすべての正規化ルールの一覧から 1 つ以上のルールを選択するには、[選択] エンタープライズ VoIPクリック **します**。 [**正規化ルールの選択**] ダイアログ ボックスで、ダイヤル プランに関連付けるルールを選択状態にして、[**OK**] をクリックします。
 
-   - 新しい正規化ルールを定義してダイヤル プランに関連付けるには、[**新規**] をクリックします。 新しいルールの定義の詳細については、「Skype for Business で正規化ルールを作成または [変更する」を参照してください](normalization-rules.md)。
+   - 新しい正規化ルールを定義してダイヤル プランに関連付けるには、[**新規**] をクリックします。 新しいルールの定義の詳細については、「カスタム ルールで正規化ルールを作成または変更する」[を参照](normalization-rules.md)Skype for Business。
 
    - 既にダイヤル プランに関連付けられている正規化ルールを編集するには、ルールの名前を選択状態にして [**詳細の表示**] をクリックします。
 
@@ -138,25 +138,25 @@ ms.locfileid: "51104903"
    - ダイヤル プランから正規化ルールを削除するには、ルールの名前を選択状態にして [**削除**] をクリックします。
 
      > [!NOTE]
-     > ダイヤル プランごとに少なくとも 1 つの関連付けられた正規化ルールが必要です。 ダイヤル プランで必要なすべての正規化ルールを決定する方法の詳細については、「Planning」のドキュメントの [「Plan for outbound voice routing in Skype for Business Server」](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md) を参照してください。
+     > ダイヤル プランごとに少なくとも 1 つの関連付けられた正規化ルールが必要です。 ダイヤル プランで必要なすべての正規化ルールを決定する方法の詳細については、「Plan for outbound voice [routing in Skype for Business Server」](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md)のドキュメントを参照してください。
 
 10. ダイヤル プランの正規化ルールが正しい順序で配置されていることを確認します。 リスト内のルールの位置を変更するには、ルール名を強調表示し、上矢印または下矢印をクリックします。
 
     > [!IMPORTANT]
-    > Skype for Business Server は、正規化ルールの一覧を上から下に移動し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤル プランを構成し、その結果ダイヤルされる番号が複数の正規化ルールと一致する可能性がある場合は、制限の厳しいルールが制限の緩いルールより上に並び替えてください。 > 既定の **Keep All 正規化** ルール^(\d )$ は、任意の 11 桁の {11} 数値と一致します。 たとえば、1425 で始まる 11 桁の数字に一致する正規化ルールを追加する場合は、キープ All が制限の厳しい^(1425\d )$ ルールの下に並べ替えされます。 {7}
+    > Skype for Business Server、正規化ルールの一覧を上から下に移動し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤル プランを構成し、その結果ダイヤルされる番号が複数の正規化ルールと一致する可能性がある場合は、制限の厳しいルールが制限の緩いルールより上に並び替えてください。 > 既定の **Keep All 正規化** ルール^(\d )$ は、任意の 11 桁の {11} 数値と一致します。 たとえば、1425 で始まる 11 桁の数字に一致する正規化ルールを追加する場合は、キープ All が制限の厳しい^(1425\d )$ ルールの下に並べ替えされます。 {7}
 
 11. (オプション) ダイヤル プランをテストする番号を入力して、[**実行**] をクリックします。 テスト結果は、[**テストする番号の入力**] の下に表示されます。
 
     > [!NOTE]
-    > まだテストに成功していないダイヤル プランを保存して、後で再構成することができます。 詳細については、「[Testing Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)」を参照してください。
+    > まだテストに成功していないダイヤル プランを保存して、後で再構成することができます。詳細については、「[Testing Voice Routing](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)」を参照してください。
 
 12. [**OK**] をクリックします。
 
 13. [**ダイヤル プラン**] ページで [**確定**] をクリックして、[**すべて確定**] をクリックします。
 
     > [!NOTE]
-    > ダイヤル プランを作成または変更したときは常に、[**すべて確定**] コマンドを実行して、構成の変更を公開する必要があります。 詳細については、「操作」の [ドキュメントの「Skype for Business](voice-route-config-changes.md) の音声ルーティング構成に保留中の変更を公開する」を参照してください。
+    > ダイヤル プランを作成または変更したときは常に、[**すべて確定**] コマンドを実行して、構成の変更を公開する必要があります。 詳細については、「操作」のドキュメントの「音声ルーティング構成[に](voice-route-config-changes.md)保留中の変更Skype for Businessを発行する」を参照してください。
 
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business の音声ルーティング構成に対する保留中の変更を公開する](voice-route-config-changes.md)
+[音声ルーティング構成に保留中の変更を公開Skype for Business](voice-route-config-changes.md)

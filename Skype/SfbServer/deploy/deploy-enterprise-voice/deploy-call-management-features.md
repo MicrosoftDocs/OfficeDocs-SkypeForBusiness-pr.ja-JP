@@ -1,5 +1,5 @@
 ---
-title: Skype for Business での通話管理機能の展開
+title: 呼び出し管理機能を展開Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,38 +15,38 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
-description: Skype for Business Server エンタープライズ VoIP での通話管理機能の展開。
-ms.openlocfilehash: 02c6669b9cadb952f7ccc71d785416db7414d8a8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 呼び出し管理機能をSkype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: 61452c8b9f5a072e78d4b85dd17e65ef63c27a0e3daab4f71b0e04d9d13c5a1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836857"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307808"
 ---
-# <a name="deploy-call-management-features-in-skype-for-business"></a>Skype for Business での通話管理機能の展開
+# <a name="deploy-call-management-features-in-skype-for-business"></a>呼び出し管理機能を展開Skype for Business
  
-Skype for Business Server エンタープライズ VoIP での通話管理機能の展開。
+呼び出し管理機能をSkype for Business Server エンタープライズ VoIP。
   
-エンタープライズ VoIP 通話管理機能は、着信通話のルーティング方法と応答方法を制御します。 Skype for Business Server は、次の通話管理機能を提供します。 
+エンタープライズ VoIP 通話管理機能は、着信通話のルーティング方法と応答方法を制御します。 Skype for Business Serverは、次の通話管理機能を提供します。 
   
-- **コール パーク**: 音声ユーザーが一時的に通話をパークし、同じ電話または別の電話から通話を受け取る機能を有効にします。
+- **通話パーク**: 音声ユーザーが一時的に通話をパークしてから、同じ電話または別の電話から通話を受け取る機能を有効にします。
     
-- **グループ通話ピックアップ**: ユーザーは、通話ピックアップ グループ番号をダイヤルして、ピックアップ グループに割り当てられている別のユーザーに対して行われた通話に応答できます。
+- **グループ通話ピックアップ**: ユーザーがピックアップ グループ番号をダイヤルしてピックアップ グループに割り当てられている別のユーザーに対して行われた通話に応答できます。
     
 - **応答グループ**: ハント グループまたは対話型音声応答 (IVR) の質問と回答を使用して、着信呼び出しをエージェントのグループにルーティングします。
     
 - **アナウンス**: 割り当てられていない番号に通話が行われたときに、メッセージを再生するか、通話を別の場所にルーティングするか、その両方を行います。
     
-このセクションでは、展開時にこれらの通話管理機能を構成するエンタープライズ VoIPします。
+このセクションでは、展開中にこれらの通話管理機能を構成するエンタープライズ VoIPします。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business のコール パークの展開プロセス](deployment-process-for-call-park.md)
+- [コール パークの展開プロセス (Skype for Business](deployment-process-for-call-park.md)
     
-- [Skype for Business でのグループ通話ピックアップの展開プロセス](deployment-process-for-group-call-pickup.md)
+- [グループ通話ピックアップの展開Skype for Business](deployment-process-for-group-call-pickup.md)
     
-- [Skype for Business の応答グループの展開プロセス](deployment-process-for-response-group.md)
+- [応答グループの展開プロセス (Skype for Business](deployment-process-for-response-group.md)
     
-- [Skype for Business Server でのアナウンス アプリケーションの展開プロセス](deployment-process-for-the-announcement-application.md)
+- [[アナウンス] アプリケーションの展開Skype for Business Server](deployment-process-for-the-announcement-application.md)
     
 

@@ -1,5 +1,5 @@
 ---
-title: レジストラー のセキュリティ設定 [新規の作成] または [既存の編集]
+title: レジストラー セキュリティ 設定の作成または既存の編集
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 90cd86b020dfb8e90f25bd5b751833c1a9fd9025
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 5f502f78f6ef892050111a3b31b5e2083d7e0f7e8fdc9a9043fb9cd07a5363b7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280192"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>レジストラーのセキュリティ設定: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
-- [Skype for Business Server でレジストラー構成設定を管理する](../../../manage/authentication/registrar-configuration-settings.md)
+- [[レジストラー構成の設定を管理する] Skype for Business Server](../../../manage/authentication/registrar-configuration-settings.md)
 
 - [既存のレジストラーの変更](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-registrar-configuration-settings)
 

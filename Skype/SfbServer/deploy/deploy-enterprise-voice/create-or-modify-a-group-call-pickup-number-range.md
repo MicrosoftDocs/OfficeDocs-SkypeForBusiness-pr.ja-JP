@@ -1,5 +1,5 @@
 ---
-title: Skype for Business でグループ通話ピックアップ番号範囲を作成または変更する
+title: グループ通話ピックアップの番号範囲を作成または変更Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-description: Skype for Business Server のグループ通話ピックアップ番号範囲を作成または変更エンタープライズ VoIP。
-ms.openlocfilehash: e71915519014b1fa4cfffa3172327e9949ed73a2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: グループ通話ピックアップの番号範囲を作成または変更Skype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: 73c2c0b74c27fd59d94d97c5ee05e0da88219601e839d42dc12e0ec659db0aa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307878"
 ---
-# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Skype for Business でグループ通話ピックアップ番号範囲を作成または変更する
+# <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>グループ通話ピックアップの番号範囲を作成または変更Skype for Business
 
-Skype for Business Server のグループ通話ピックアップ番号範囲を作成または変更エンタープライズ VoIP。
+グループ通話ピックアップの番号範囲を作成または変更Skype for Business Server エンタープライズ VoIP。
 
 グループ通話ピックアップは、コール パーク アプリケーションに基づいて行います。 グループ通話ピックアップを展開する場合は、通話ピックアップ グループ番号として指定された電話番号の範囲でコール パーク オービット テーブルを構成する必要があります。 これらのグループ番号は、ユーザーがダイヤルして別のユーザーの呼び出しを呼び出す番号です。
 
@@ -34,7 +34,7 @@ Skype for Business Server のグループ通話ピックアップ番号範囲を
 コール パーク オービット テーブルで通話ピックアップ グループ番号範囲を作成または変更するには、次の手順を使用します。
 
 > [!NOTE]
-> Skype for Business Server 管理シェルを使用して、コール パーク オービット テーブルのグループ通話ピックアップ番号範囲を作成、変更、削除、および表示する必要があります。 Skype for Business Server コントロール パネルでは、グループ通話ピックアップ番号の範囲を使用できません。
+> コール パーク オービット テーブルSkype for Business Serverグループ通話ピックアップ番号範囲を作成、変更、削除、および表示するには、グループ管理シェルを使用する必要があります。 グループ通話ピックアップ番号の範囲は、コントロール パネルSkype for Business Server使用できません。
 
 通話ピックアップ グループ番号の範囲は、次のルールに準拠している必要があります。
 
@@ -46,13 +46,13 @@ Skype for Business Server のグループ通話ピックアップ番号範囲を
 
 - 数値範囲が文字または #で始まる場合、範囲は 100 より大きい必要 \* があります。
 
-- 有効な値: 正規表現文字列と一致する必要があります ([ \\ *|#]?1-9]\d {0,7} )|([1-9]\d)。 {0,8} つまり、値は、文字または # で始まる文字列か、1 ~ 9 の数値である必要があります (最初の文字は \* 0 にすることはできません)。 最初の文字が #の場合、次の文字は 1 ~ 9 の数値 \* である必要があります (ゼロにすることはできません)。 後続の文字には、0 ~ 9 の任意の数字 \* ("#6000"、"92000"、"95551212"、"915551212"など) を指定できます。 \* 最初の文字が #または #の場合、最初の文字は 1 ~ 9 の数字 (ゼロにすることはできません)、その後に最大 8 文字の数字 (たとえば \* 、"915551212"、"41212"、"300" など) が続きます。
+- 有効な値: 正規表現文字列と一致する必要があります ([ \\ *|#]?1-9]\d {0,7} )|([1-9]\d)。 {0,8} つまり、値は、文字または # で始まる文字列か、1 ~ 9 の数値である必要があります (最初の文字は \* 0 にすることはできません)。 最初の文字が #の場合、次の文字は 1 ~ 9 の数値 \* である必要があります (ゼロにすることはできません)。 後続の文字には、0 ~ 9 の任意の数字 \* ("#6000"、"92000"、"95551212"、"915551212" など) を \* 指定できます。 最初の文字がまたは #の場合、最初の文字は 1 から 9 の数字 (ゼロにすることはできません)、その後に最大 8 文字の数字 \* ("915551212"、"41212"、"300" など) が続きます。
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>通話ピックアップ グループ範囲を作成または変更するには
 
-1. 「代理セットアップのアクセス許可」の説明に従って、Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限でインストールされているコンピューターにログオンします。
+1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「代理セットアップのアクセス許可」の説明に従って必要なユーザー権限でログオン **します。**
 
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 3. **New-CsCallParkOrbit** を使用して、新しい範囲の通話ピックアップ グループ番号を作成します。 **Set-CsCallParkOrbit** を使用して、通話ピックアップ番号の既存の範囲を変更します。
 

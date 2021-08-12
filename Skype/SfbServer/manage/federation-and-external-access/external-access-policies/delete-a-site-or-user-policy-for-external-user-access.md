@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: '[外部アクセス ポリシー] ページの [Skype for Business Server コントロール パネル] に表示されているサイトポリシーまたはユーザー ポリシーを削除できます。'
-ms.openlocfilehash: 407e90af201055f371dc92485ab258bac851a258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '[外部アクセス ポリシー] ページの [コントロール パネル] の [Skype for Business Server] に表示されているサイトまたはユーザー ポリシーを削除できます。'
+ms.openlocfilehash: 154fb4434e074a3585a817994cb6b919a2b755eef8d5a8e6a082cacad4e25aae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309256"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザー アクセスに関するサイト ポリシーまたはユーザー ポリシーの削除
 
@@ -31,14 +31,14 @@ ms.locfileid: "51099023"
   - グローバル ポリシーを既定の設定にリセットします。 既定のグローバル ポリシー設定では、外部ユーザー アクセスが許可されません。 グローバル ポリシーは削除できません。
 
 
-[外部アクセス ポリシー] ページの [Skype for Business Server コントロール パネル] に表示されているサイトポリシーまたはユーザー ポリシー **を削除** できます。 グローバル ポリシーを削除すると、実際には削除されず、外部ユーザー アクセス オプションのサポートが含まれていない既定の設定にリセットされるだけです。 グローバル ポリシーのリセットの詳細については、「外部ユーザー アクセスのグローバル ポリシーを [リセットする」を参照してください](reset-the-global-policy-for-external-user-access.md)。
+[外部アクセス ポリシー] ページの [コントロール パネル] の [Skype for Business Server] に表示されているサイトポリシーまたはユーザー ポリシー **を削除** できます。 グローバル ポリシーを削除すると、実際には削除されず、外部ユーザー アクセス オプションのサポートが含まれていない既定の設定にリセットされるだけです。 グローバル ポリシーのリセットの詳細については、「外部ユーザー アクセスのグローバル ポリシーを [リセットする」を参照してください](reset-the-global-policy-for-external-user-access.md)。
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザー アクセスのサイト ポリシーまたはユーザー ポリシーを削除するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  [**外部ユーザー アクセス**] をクリックし、[**外部アクセス ポリシー**] をクリックします。
 
@@ -47,9 +47,9 @@ ms.locfileid: "51099023"
 5.  削除について確認するメッセージが表示されたら、[**OK**] をクリックします。
 
 
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した PIN ポリシー Windows PowerShellする
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した PIN ポリシー Windows PowerShell削除する
 
-外部アクセス ポリシーは、外部アクセス ポリシーと Windows PowerShellコマンドレットをRemove-CsExternalAccessPolicyできます。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 
+外部アクセス ポリシーは、外部アクセス ポリシーと Windows PowerShellコマンドレットをRemove-CsExternalAccessPolicyできます。 このコマンドレットは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>特定の外部アクセス ポリシーを削除するには

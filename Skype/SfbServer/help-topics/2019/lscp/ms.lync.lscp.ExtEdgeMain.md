@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 126e0fa23be89a2aa0fe6114901c18ea96188fca
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: f7ca0d2905d4c45f5e1e0a279c4fcd029e39b928b99bc5b2333cca876a24befd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095941"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280232"
 ---
 # <a name="access-edge-configuration"></a>アクセス エッジ構成
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
 - [組織のリモート ユーザー アクセスを有効または無効にする](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-federation-and-public-im-connectivity)
 

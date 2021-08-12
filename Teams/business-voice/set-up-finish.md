@@ -17,12 +17,12 @@ search.appverid: MET150
 description: セットアップが完了した後の Business Voice の導入に役立つリソースについて説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f812a4368a259069d21188c87dc7b12573481b99
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: bdf412c2279b0cb0740511534b7a839ad5434c12141d2cf225fdbf9d5e1b5924
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130129"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309006"
 ---
 # <a name="finished-business-voice-setup"></a>完了した Business Voice のセットアップ
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: '[レポート] ダッシュボードには、組織内のMicrosoft 365またはOffice 365アクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。'
-ms.openlocfilehash: 8b861cc863603a8ab51451e9906cd62313bd9cf9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 522a82bf9b93a590f8f319d59e805b23ba34d4665b34eb05541aa18d1b9ba89e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308018"
 ---
 # <a name="session-details-report"></a>セッションの詳細レポート
 
@@ -34,10 +34,10 @@ ms.locfileid: "52238222"
   
 利用可能な [その他のレポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) については、「レポートの概要」を参照してください。
   
-このレポートと他のレポートSkype for Business、組織全体のセッションの詳細を含むアクティビティの詳細が表示されます。 これらの詳細は、組織に対して調査、計画、その他のビジネス上の決定を行う場合や、通信クレジット を設定する場合に [非常に役立ちます](/microsoftteams/what-are-communications-credits)。
+このレポートと他のレポートSkype for Business、組織全体のセッションの詳細を含むアクティビティの詳細が表示されます。 これらの詳細は、組織のための調査、計画、その他のビジネスの意思決定を行うとき、および[コミュニケーション クレジット](/microsoftteams/what-are-communications-credits)の設定に非常に役立ちます。
   
 > [!NOTE]
-> 管理者として管理センターにログオンSkype for Business、すべてのレポートをMicrosoft 365できます。 
+> Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>セッションの詳細レポートをSkype for Businessする方法
 
@@ -51,7 +51,7 @@ ms.locfileid: "52238222"
     > このレポートが一覧表示しない場合は、管理センターの [**セッションの詳細** Skype for Business  >  **レポート] に**  >  **移動します**。 
   
     > [!IMPORTANT]
-    > サブスクリプションのMicrosoft 365またはOffice 365によっては、ここに表示される製品とレポートの一部が表示されない場合があります。 
+    > Microsoft 365 または Office 365 のサブスクリプションによっては、ここに表示される製品やレポートの一部が表示されないことがあります。 
   
 ## <a name="interpret-the-skype-for-business-session-details-report"></a>セッションの詳細Skype for Businessレポートを解釈する
 
@@ -64,7 +64,7 @@ ms.locfileid: "52238222"
 ***
 ![ナンバー 1](../images/sfbcallout1.png)<br/>**エイリアスでユーザーを** 検索すると、1 人のユーザーを検索し、次の表にユーザーのすべてのセッションの詳細を表示できます。 
 ***
-![ナンバー 2](../images/sfbcallout2.png)<br/>**日付の時刻を入力** すると、開始日を入力できます。 予定表を使用して、日付を選択したり、日付を手動で入力したりすることができます。 このフィールドを設定する必要があります。
+![番号 2](../images/sfbcallout2.png)<br/>**日付の時刻を入力** すると、開始日を入力できます。 予定表を使用して、日付を選択したり、日付を手動で入力したりすることができます。 このフィールドを設定する必要があります。
 ***
 ![ナンバー 3](../images/sfbcallout3.png)<br/>**「date time」と入力** すると、終了日を入力できます。 予定表を使用して、日付を選択したり、日付を手動で入力したりすることができます。 終了日が設定されている場合、既定値は開始日から 30 日です。
 ***
@@ -116,11 +116,11 @@ ms.locfileid: "52238222"
     
 - [Skype for Business PSTN 使用状況レポート](pstn-usage-report.md)受信/送信呼び出しに費やされた分数と、これらの呼び出しのコストを確認できます。
 
-- [Skype for Businessブロックレポート](users-blocked-report.md)PSTN 通話がブロックされている組織内のユーザーを確認できます。
+- [Skype for Business ユーザーのブロック レポート](users-blocked-report.md) - PSTN 通話の発信がブロックされている組織内のユーザーを確認できます。
 
-- [Skype for Business PSTN 分](pstn-minute-pools-report.md)プール レポートでは、組織内の当月に消費された分数を確認できます。
+- [Skype for Business PSTN の利用分数プール レポート](pstn-minute-pools-report.md) - 組織内で今月中に消費された分数を確認できます。
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

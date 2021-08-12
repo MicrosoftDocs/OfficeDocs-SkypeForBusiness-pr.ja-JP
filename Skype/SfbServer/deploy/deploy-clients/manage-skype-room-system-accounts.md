@@ -12,32 +12,32 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
-description: Skype Room System アカウントを管理する方法については、このトピックを参照してください。
-ms.openlocfilehash: e6b905b065badb729ccc9281d63ba050fc032ef2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: このトピックでは、ルーム システム アカウントを管理するSkype説明します。
+ms.openlocfilehash: 416a211ec9954dd2c2a8c856a67c72226209f3e7dd6114536574e63c5520b841
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093295"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279465"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Skype Room System アカウントの管理
  
-Skype Room System アカウントを管理する方法については、このトピックを参照してください。 
+このトピックでは、ルーム システム アカウントを管理するSkype説明します。 
 
 > [!NOTE]
-> Microsoft Teams Rooms は、依存関係と展開手順が異なる別の製品です。 Microsoft Teams Rooms の詳細については、「Microsoft Teams Rooms 管理の概要」を [参照してください](/microsoftteams/rooms/rooms-manage)。
+> Microsoft Teams会議室は、依存関係と展開手順が異なる別の製品です。 会議室の詳細Microsoft Teams、会議室の管理Microsoft Teamsを[参照してください](/microsoftteams/rooms/rooms-manage)。
   
-## <a name="move-the-skype-room-system-account-between-pools"></a>プール間で Skype Room System アカウントを移動する
+## <a name="move-the-skype-room-system-account-between-pools"></a>プール間Skypeルーム システム アカウントを移動する
 
-Skype Room System アカウントを 1 つの Skype for Business Server プールから別の Skype for Business Server プールに移動する必要がある場合 (アップグレード中など)、次のコマンドを使用して Skype Room System アカウント プールを移動します。 
+Skype Room System アカウントをある Skype for Business Server プールから別の Skype for Business Server プールに移動する必要がある場合 (アップグレード時など)、次のコマンドを使用して、Skype Room System アカウント プールを移動します。 
   
 ```powershell
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 ```
 
-## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Skype for Business サービスの Skype ルーム システム アカウントを無効にする
+## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>サービスのSkypeルーム システム アカウントをSkype for Businessする
 
-Skype for Business Server プールの Skype for Business サービスから既存の Skype Room System アカウントを無効にする必要がある場合は、次のコマンドを使用してアカウントを無効にします。 
+Skype for Business Server プール上の Skype for Business サービスから既存の Skype Room System アカウントを無効にする必要がある場合は、次のコマンドを使用してアカウントを無効にします。 
   
 ```powershell
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
@@ -45,4 +45,4 @@ Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 
 ## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>オプション: Active Directory で Skype Room System 管理者グループを作成する
 
-ドメインに参加する各 Skype Room System クライアントは、Skype Room System アプライアンス PC 上のローカル管理者権限を持つドメイン ユーザーによって完全に管理できます。 そのため、Active Directory で専用の管理者グループを作成し、新しい Skype Room System コンピューターのセットアップ中にこのグループに管理者権限を与える必要があります。
+ドメインSkypeする各ルーム システム クライアントは、ルーム システム アプライアンス PC 上のローカル管理者権限を持つドメイン ユーザー Skype管理できます。 したがって、Active Directory で専用の管理者グループを作成し、新しい管理者の Room System コンピューターのセットアップ中にこのグループSkype権限を与える必要があります。

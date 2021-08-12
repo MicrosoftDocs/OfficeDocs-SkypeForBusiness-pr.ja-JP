@@ -14,33 +14,33 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 1 つ以上の外部ユーザー アクセス ポリシーを構成して、リモート ユーザーが内部の Skype for Business Server ユーザーと共同作業できるかどうかを制御します。 リモート ユーザー アクセスを管理するため、グローバル、サイト、およびユーザー レベルでポリシーを構成できます。
-ms.openlocfilehash: 0fd24f7c57cfaa4a131bcd1648cb1b6e6eb5f05a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: リモート ユーザーが内部ユーザーと共同作業できるかどうかを制御するために、1 つ以上の外部ユーザー アクセス ポリシー Skype for Business Serverします。 リモート ユーザー アクセスを管理するため、グローバル、サイト、およびユーザー レベルでポリシーを構成できます。
+ms.openlocfilehash: 205ff2cf39a28630677390d5ee39e4dfe4beffad8be3155dd686d50fede40865
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309376"
 ---
-# <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Skype for Business Server でリモート ユーザー アクセスを制御するポリシーを構成する
+# <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>ユーザーのリモート ユーザー アクセスを制御するポリシーを構成Skype for Business Server
 
-1 つ以上の外部ユーザー アクセス ポリシーを構成して、リモート ユーザーが内部の Skype for Business Server ユーザーと共同作業できるかどうかを制御します。 リモート ユーザー アクセスを管理するため、グローバル、サイト、およびユーザー レベルでポリシーを構成できます。 サイト ポリシーはグローバル ポリシーより優先され、ユーザー ポリシーはサイト ポリシーとグローバル ポリシーより優先されます。 構成できるポリシーの種類の詳細については、「Skype for Business Server へのフェデレーションと外部アクセスの管理」 [を参照してください](../managing-federation-and-external-access.md)。 あるポリシー レベルで適用される Skype for Business Server ポリシー設定は、別のポリシー レベルで適用される設定を上書きできます。 Skype for Business Server ポリシーの優先順位: ユーザー ポリシー (最も高い) はサイト ポリシーをオーバーライドし、サイト ポリシーはグローバル ポリシーをオーバーライド (最も低い) します。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
+リモート ユーザーが内部ユーザーと共同作業できるかどうかを制御するために、1 つ以上の外部ユーザー アクセス ポリシー Skype for Business Serverします。 リモート ユーザー アクセスを管理するため、グローバル、サイト、およびユーザー レベルでポリシーを構成できます。 サイト ポリシーはグローバル ポリシーより優先され、ユーザー ポリシーはサイト ポリシーとグローバル ポリシーより優先されます。 構成できるポリシーの種類の詳細については、「フェデレーションと外部アクセスの管理」を参照[Skype for Business Server。](../managing-federation-and-external-access.md) Skype for Business Serverレベルで適用されるポリシー設定は、別のポリシー レベルで適用される設定を上書きできます。 Skype for Business Server ポリシーの優先順位: ユーザー ポリシー (最も高い) はサイト ポリシーをオーバーライドし、サイト ポリシーはグローバル ポリシーをオーバーライド (最も低い) します。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
 
 > [!NOTE]  
-> 組織のリモート ユーザー アクセスを有効にしていない場合でも、リモート ユーザー アクセスを制御するポリシーを構成できます。 ただし、構成したポリシーは、組織のリモート ユーザー アクセスを有効にしているときのみ有効です。 さらに、リモート ユーザー アクセスを制御するユーザー ポリシーを指定した場合、このポリシーは、Skype for Business Server が有効で、ポリシーを使用するように構成されているユーザーにのみ適用されます。 リモートの場所から Skype for Business Server にサインインできるユーザーの指定の詳細については、「外部ユーザー アクセス ポリシーを割り当てる [」を参照してください](assign-an-external-user-access-policy.md)。
+> 組織のリモート ユーザー アクセスを有効にしていない場合でも、リモート ユーザー アクセスを制御するポリシーを構成できます。 ただし、構成したポリシーは、組織のリモート ユーザー アクセスを有効にしているときのみ有効です。 さらに、リモート ユーザー アクセスを制御するユーザー ポリシーを指定した場合、ポリシーは Skype for Business Server に対して有効で、ポリシーを使用するように構成されているユーザーにのみ適用されます。 リモートの場所からユーザーにサインインできるユーザー Skype for Business Serverの詳細については、「Assign [an external user access policy」を参照してください](assign-an-external-user-access-policy.md)。
 
 リモート ユーザー アクセスの制御に使用する各外部アクセス ポリシーを構成するには、次の手順を使用します。
 
 
 > [!NOTE]  
-> この手順で説明するのは、リモート ユーザーとの通信を有効にするだけのポリシーを構成する方法ですが、リモート ユーザー アクセスをサポートするため構成する各ポリシーで、フェデレーション ユーザー アクセスやパブリック ユーザー アクセスも構成できます。 フェデレーション ユーザーをサポートするポリシーの構成の詳細については [、「Configure policies to control federated user access in Skype for Business Server 」を参照してください](configure-policies-to-control-federated-user-access.md)。 パブリック ユーザーをサポートするポリシーの構成の詳細については、「Skype for Business Server で組織の SIP フェデレーション プロバイダーを管理する [」を参照してください](../sip-providers/manage-sip-federated-providers-for-your-organization.md)。
+> この手順で説明するのは、リモート ユーザーとの通信を有効にするだけのポリシーを構成する方法ですが、リモート ユーザー アクセスをサポートするため構成する各ポリシーで、フェデレーション ユーザー アクセスやパブリック ユーザー アクセスも構成できます。 フェデレーション ユーザーをサポートするためのポリシーの構成の詳細については、「Configure policis to control federated user access in Skype for Business Server 」[を参照してください](configure-policies-to-control-federated-user-access.md)。 パブリック ユーザーをサポートするためのポリシーの構成の詳細については、「組織の[SIP](../sip-providers/manage-sip-federated-providers-for-your-organization.md)フェデレーション プロバイダーを管理する」を参照Skype for Business Server。
 
 
 ## <a name="to-configure-an-external-access-policy-to-support-remote-user-access"></a>リモート ユーザー アクセスをサポートする外部アクセス ポリシーを構成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで [**外部ユーザー アクセス**] をクリックし、[**外部アクセス ポリシー**] をクリックします。
 

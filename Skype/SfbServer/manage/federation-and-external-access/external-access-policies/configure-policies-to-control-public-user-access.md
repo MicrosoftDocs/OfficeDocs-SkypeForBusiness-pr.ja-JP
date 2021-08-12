@@ -14,26 +14,26 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: インスタント メッセージング (IM) 接続を使用すると、組織内のユーザーは IM を使用して、パブリック IM サービス プロバイダーが提供する IM サービスのユーザーと通信できます。
-ms.openlocfilehash: 28bb1c94cb42068fe99f07a6608a3ac1c50991ad
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: ublic インスタント メッセージング (IM) 接続を使用すると、組織内のユーザーは IM を使用して、パブリック IM サービス プロバイダーによって提供される IM サービスのユーザーと通信できます。
+ms.openlocfilehash: 33efe5c5c48dc84a29f642de9e8d2445ad3cd02c1ee82089e26e532c52dbf3c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309386"
 ---
-# <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Skype for Business Server でパブリック ユーザー アクセスを制御するポリシーを構成する
+# <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>パブリック ユーザー アクセスを管理するポリシーを構成Skype for Business Server
 
-パブリック インスタント メッセージング (IM) 接続により、組織内のユーザーは IM を使用して、パブリック IM サービス プロバイダーが提供する IM サービスのユーザーと通信できます。 パブリック ユーザーが内部の Skype for Business Server ユーザーと共同作業できるかどうかを制御するために、1 つ以上の外部ユーザー アクセス ポリシーを構成します。 パブリック インスタント メッセージング接続は、展開およびユーザーの構成に依存する追加機能です。 この機能は、パブリック IM プロバイダーでのサービスのプロビジョニングにも依存します。 
+パブリック インスタント メッセージング (IM) 接続により、組織内のユーザーは IM を使用して、パブリック IM サービス プロバイダーによって提供される IM サービスのユーザーと通信できます。 1 つ以上の外部ユーザー アクセス ポリシーを構成して、パブリック ユーザーが内部ユーザーと共同作業できるかどうかをSkype for Business Serverします。 パブリック インスタント メッセージング接続は、展開およびユーザーの構成に依存する追加機能です。 この機能は、パブリック IM プロバイダーでのサービスのプロビジョニングにも依存します。 
 
-パブリック ユーザー アクセスを制御するには、グローバル レベル、サイト レベル、およびユーザー レベルでポリシーを構成できます。 1 つのポリシー レベルで適用される Skype for Business Server ポリシー設定は、別のポリシー レベルで適用される設定を上書きできます。 Skype for Business Server ポリシーの優先順位: ユーザー ポリシー (最も高い) はサイト ポリシーをオーバーライドし、サイト ポリシーはグローバル ポリシーをオーバーライド (最も低い) します。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
+パブリック ユーザー アクセスを制御するには、グローバル レベル、サイト レベル、およびユーザー レベルでポリシーを構成できます。 Skype for Business Serverレベルで適用されるポリシー設定は、別のポリシー レベルで適用される設定を上書きできます。 Skype for Business Server ポリシーの優先順位: ユーザー ポリシー (最も高い) はサイト ポリシーをオーバーライドし、サイト ポリシーはグローバル ポリシーをオーバーライド (最も低い) します。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
 
 IM の招待の場合は、クライアント ソフトウェアによって応答が異なります。 ユーザーが構成したルール (ユーザーのクライアントの [**許可**] および [**禁止**] リストの設定) によって、外部の送信者が明示的に禁止されている場合以外は、要求が受け入れられます。 また、[**許可**] リストに含まれていないユーザーからの IM はすべて禁止することを選択すると、IM の招待をブロックできます。
 
 
 
 > [!NOTE]  
-> 組織でフェデレーションを有効にしていなくても、パブリック ユーザー アクセスを制御するポリシーを構成できます。 ただし構成するポリシーは、組織でフェデレーションを有効にした場合にのみ有効となります。 フェデレーションを有効にする方法の詳細については、「リモート ユーザー アクセスを [有効または無効にする」を参照してください](../access-edge/enable-or-disable-remote-user-access.md)。 さらに、パブリック ユーザー アクセスを制御するユーザー ポリシーを指定した場合、このポリシーは、Skype for Business Server が有効で、ポリシーを使用するように構成されているユーザーにのみ適用されます。 Skype for Business Server にサインインできるパブリック ユーザーの指定の詳細については、「外部ユーザー アクセス ポリシーを割り当てる [」を参照してください](assign-an-external-user-access-policy.md)。
+> 組織でフェデレーションを有効にしていなくても、パブリック ユーザー アクセスを制御するポリシーを構成できます。 ただし構成するポリシーは、組織でフェデレーションを有効にした場合にのみ有効となります。 フェデレーションの有効化の詳細については、「リモート ユーザー アクセス [を有効または無効にする」を参照してください](../access-edge/enable-or-disable-remote-user-access.md)。 さらに、パブリック ユーザー アクセスを制御するユーザー ポリシーを指定した場合、ポリシーは Skype for Business Server に対して有効で、ポリシーを使用するように構成されたユーザーにのみ適用されます。 ユーザーにサインインできるパブリック ユーザーを指定する方法のSkype for Business Server、外部ユーザー アクセス ポリシーの割り当[て」を参照してください](assign-an-external-user-access-policy.md)。
 
 
 以下の手順を使用して、1 つ以上のパブリック IM プロバイダーのユーザーによるアクセスをサポートするポリシーを構成します。
@@ -42,7 +42,7 @@ IM の招待の場合は、クライアント ソフトウェアによって応�
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで [**外部ユーザー アクセス**] をクリックし、[**外部アクセス ポリシー**] をクリックします。
 
@@ -66,7 +66,7 @@ IM の招待の場合は、クライアント ソフトウェアによって応�
 
 7.  [**確定**] をクリックします。
 
-パブリック ユーザー アクセスを有効にするには、組織でフェデレーションのサポートも有効にする必要があります。 詳細については [、「Configure policies to control federated user access in Skype for Business Server 」を参照してください](configure-policies-to-control-federated-user-access.md)。
+パブリック ユーザー アクセスを有効にするには、組織でフェデレーションのサポートも有効にする必要があります。 詳細については、「Configure [policis to controled](configure-policies-to-control-federated-user-access.md)user access in Skype for Business Server 」 を参照してください。
 
 これがユーザー ポリシーの場合、パブリック ユーザーと共同作業できるようにするパブリック ユーザーに対してもポリシーを適用する必要があります。 
 

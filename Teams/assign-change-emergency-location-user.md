@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーに緊急対応の場所を割り当てる方法または変更する方法について学習します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7dd986085a8c42df34d6634cbadc6e96fdfb14ca
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8045120f6a74a536b3fcbe420278ad847b3108f38161d6e23f3eecfd5788224c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309146"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
@@ -54,7 +54,7 @@ ms.locfileid: "51102983"
 [「Set-CsOnlineVoiceUser」を参照してください](/powershell/module/skype/set-csonlinevoiceuser)。 
 
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)
