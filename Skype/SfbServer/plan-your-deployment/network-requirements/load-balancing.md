@@ -1,5 +1,5 @@
 ---
-title: Skype for Business の負荷分散要件
+title: ユーザーの負荷分散要件Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
-description: '概要: Skype for Business Server を実装する前に、負荷分散に関する考慮事項を確認してください。'
-ms.openlocfilehash: 7a3851b73443db6be12ef2fd1a875b034eafff74
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 負荷分散に関する考慮事項を確認してから、Skype for Business Server。'
+ms.openlocfilehash: 867c9454aec26e3803447dec8565f210b243db6cf5a2997d18ca08e363eb6c43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338075"
 ---
-# <a name="load-balancing-requirements-for-skype-for-business"></a>Skype for Business の負荷分散要件
+# <a name="load-balancing-requirements-for-skype-for-business"></a>ユーザーの負荷分散要件Skype for Business
  
-**概要:** Skype for Business Server を実装する前に、負荷分散に関する考慮事項を確認してください。
+**概要:** 負荷分散に関する考慮事項を確認してから、Skype for Business Server。
   
 負荷分散は、プール内のサーバー間でトラフィックを分散します。 フロントエンド プール、仲介サーバー プール、またはエッジ サーバー プールがある場合は、これらのプールの負荷分散を展開する必要があります。
   
-Skype for Business Server では、クライアント間トラフィック用の負荷分散ソリューションとして、ドメイン ネーム システム (DNS) 負荷分散とハードウェア負荷分散 (HLB と略す場合が多い) の 2 種類がサポートされています。 DNS 負荷分散には、管理の簡単化、トラブルシューティングの効率化、Skype for Business Server トラフィックの多くを潜在的なハードウェア ロード バランサーの問題から分離する機能など、いくつかの利点があります。
+Skype for Business Serverクライアント間トラフィック用の負荷分散ソリューションには、ドメイン ネーム システム (DNS) 負荷分散とハードウェア負荷分散 (HLB と略す場合が多い) の 2 種類があります。 DNS 負荷分散には、管理の簡単化、トラブルシューティングの効率化、Skype for Business Server トラフィックの多くを潜在的なハードウェア ロード バランサーの問題から分離する機能など、いくつかの利点があります。
   
 展開内の各プールに適した負荷分散ソリューションを自分で決定しますが、次の制限に注意してください。 
   
@@ -39,17 +39,17 @@ Skype for Business Server では、クライアント間トラフィック用の
     
 プールで DNS ロード バランシングを使用するように選択し、HTTP トラフィックなどのトラフィック用にハードウェア ロード バランサーも実装する必要がある場合、ハードウェア ロード バランサーの管理は非常に簡素化されます。 たとえば、ハードウェア ロード バランサーの構成は HTTP トラフィックと HTTPS トラフィックのみを管理し、他のすべてのプロトコルは DNS 負荷分散によって管理されるので、より簡単です。 詳細については、「[DNS Load Balancing](load-balancing.md#BKMK_DNSLoadBalancing)」を参照してください。 
   
-サーバー間トラフィックの場合、Skype for Business Server はトポロジ対応の負荷分散を使用します。 サーバーは、サーバーの全体管理ストアで公開されたトポロジを読み取り、トポロジ内のサーバーの FQDN を取得し、サーバー間でトラフィックを自動的に分散します。 管理者は、この種類の負荷分散を設定または管理する必要は一方ではありません。 
+サーバー間トラフィックの場合、Skype for Business Server対応の負荷分散が使用されます。 サーバーは、サーバーの全体管理ストアで公開されたトポロジを読み取り、トポロジ内のサーバーの FQDN を取得し、サーバー間でトラフィックを自動的に分散します。 管理者は、この種類の負荷分散を設定または管理する必要は一方ではありません。 
   
 DNS 負荷分散を使用し、特定のコンピューターへのトラフィックをブロックする必要がある場合は、プール FQDN から IP アドレス エントリを削除するだけで十分ではありません。 コンピューターの DNS エントリも削除する必要があります。 
   
 ## <a name="hardware-load-balancer-requirements"></a>ハードウェア ロード バランサーの要件
 
-Skype for Business Server の拡張統合エッジ トポロジは、主に Skype for Business Server または Lync Server を使用する他の組織とフェデレーションする新しい展開の DNS 負荷分散用に最適化されています。 次のいずれかのシナリオで高可用性が必要な場合は、次の目的で、エッジ サーバー プールでハードウェア ロード バランサーを使用する必要があります。 
+拡張Skype for Business Server統合エッジ トポロジは、主に Skype for Business Server または Lync Server を使用する他の組織とフェデレーションする新しい展開の DNS 負荷分散用に最適化されています。 次のいずれかのシナリオで高可用性が必要な場合は、次の目的で、エッジ サーバー プールでハードウェア ロード バランサーを使用する必要があります。 
   
 - コミュニケーション サーバー 2007 R2 または Officeコミュニケーション サーバー 2007 Office組織とのフェデレーション
     
-- Exchange 2010 SP1 より前の Exchange UM を使用するリモート ユーザー用の Exchange UM
+- ExchangeSP1 を使用して 2010 Exchange前に UM を使用Exchangeの UM
     
 - パブリック IM ユーザーとの接続
     
@@ -60,9 +60,9 @@ Skype for Business Server の拡張統合エッジ トポロジは、主に Skyp
 > ロード バランザー機器を使用している場合は、内部ネットワークとの接続用に展開されているロード バランザーを構成して、アクセス エッジ サービスおよび音声ビデオ サービスを実行しているサーバーへのトラフィックのみを負荷分散する必要があります。内部の Web 会議エッジ サービスまたは内部 XMPP プロキシ サービスへのトラフィックを負荷分散することはできません。 
   
 > [!NOTE]
-> 直接サーバーリターン (DSR) NAT は、Skype for Business Server ではサポートされていません。 
+> サーバーの直接戻り値 (DSR) NAT は、サーバーのSkype for Business Server。 
   
-ハードウェア ロード バランサーが Skype for Business Server で必要な必要な機能をサポートするかどうかを確認するには [、「Infrastructure for Skype for Business」を参照してください](../../../SfbPartnerCertification/certification/infra-gateways.md)。 
+ハードウェア ロード バランサーで必要な機能がサポートされているかどうかを確認するには、「インフラストラクチャ for Skype for Business Server」[を参照Skype for Business。](../../../SfbPartnerCertification/certification/infra-gateways.md) 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>音声ビデオ エッジ サービスを実行するエッジ サーバーに対するロード バランサー機器の要件
 
@@ -82,7 +82,7 @@ A/V Edge サービスを実行するエッジ サーバーのハードウェア 
     
 ### <a name="other-hardware-load-balancer-requirements"></a>その他のハードウェア ロード バランサーの要件
 
-Skype for Business Server for Web サービスでは、Cookie ベースのアフィニティ要件が大幅に削減されます。 Skype for Business Server を展開し、Lync Server 2010 フロントエンド サーバーまたはフロントエンド プールを保持しない場合は、Cookie ベースの永続性は必要ではありません。 ただし、Lync Server 2010 フロントエンド サーバーまたはフロント エンド プールを一時的または完全に保持する場合でも、Lync Server 2010 用に展開および構成された Cookie ベースの永続性を使用します。 
+Cookie ベースのアフィニティ要件は、Web サービスのSkype for Business Server大幅に削減されます。 サーバーを展開Skype for Business Server Lync Server 2010 フロントエンド サーバーまたはフロント エンド プールを保持しない場合は、Cookie ベースの永続化は必要はありません。 ただし、Lync Server 2010 フロントエンド サーバーまたはフロント エンド プールを一時的または完全に保持する場合でも、Lync Server 2010 用に展開および構成された Cookie ベースの永続性を使用します。 
   
 > [!NOTE]
 > **展開では不要だが、Cookie ベースのアフィニティを使用する場合でも**、悪影響はありません。 
@@ -112,11 +112,11 @@ Cookie ベースのアフィニティを **使用する** 展開の場合
 > モバイル デバイスを展開する場合、ハードウェア ロード バランサーは、TCP 接続内の各要求を個別に負荷分散できる必要があります。 最新の Apple iOS モバイル アプリでは、トランスポート層セキュリティ (TLS) バージョン 1.2 が必要です。  
   
 > [!CAUTION]
-> サード パーティ製のハードウェア ロード バランサーの詳細については [、「Infrastructure for Skype for Business」を参照してください](../../../SfbPartnerCertification/certification/infra-gateways.md)。  
+> サード パーティ製のハードウェア ロード バランサーの詳細については、「[インフラストラクチャ for Skype for Business」 を参照してください](../../../SfbPartnerCertification/certification/infra-gateways.md)。  
   
 ディレクターおよびフロントエンド プールの Web サービスに対するロード バランサー機器の要件は次のとおりです。
   
-- 内部 Web サービスの VIP で、ロード バランサー機器の送信元アドレスの永続性 (内部ポート 80、443) が設定されていること。 Skype for Business Server の場合、Source_addrは、セッション状態を維持するために、1 つの IP アドレスから送信される複数の接続が常に 1 つのサーバーに送信されます。
+- 内部 Web サービスの VIP で、ロード バランサー機器の送信元アドレスの永続性 (内部ポート 80、443) が設定されていること。 このSkype for Business Server、Source_addrは、セッション状態を維持するために、1 つの IP アドレスから送信される複数の接続が常に 1 つのサーバーに送信されるという意味です。
     
 - TCP アイドル タイムアウトが 1,800 秒に設定されていること
     
@@ -151,7 +151,7 @@ Cookie ベースのアフィニティを **使用する** 展開の場合
 ## <a name="dns-load-balancing"></a>DNS 負荷分散
 <a name="BKMK_DNSLoadBalancing"> </a>
 
-Skype for Business Server を使用すると、ネットワークでの負荷分散の管理オーバーヘッドを大幅に削減できるソフトウェア ソリューションである DNS 負荷分散が有効になります。 DNS 負荷分散は、SIP トラフィックやメディア トラフィックなど、Skype for Business Server に固有のネットワーク トラフィックを分散します。
+Skype for Business Server DNS 負荷分散を有効にすることで、ネットワークでの負荷分散の管理オーバーヘッドを大幅に削減できるソフトウェア ソリューションです。 DNS 負荷分散は、SIP トラフィックやメディア トラフィックなど、Skype for Business Server固有のネットワーク トラフィックを分散します。
   
 DNS 負荷分散を展開すると、ハードウェア ロード バランサーに対する組織の管理オーバーヘッドが最小限に抑えることができます。 さらに、SIP トラフィックの負荷分散装置の構成ミスに関する問題に対応するために、複雑なトラブルシューティングを行う必要がなくなります。 サーバーをオフラインにできるようにサーバー接続を禁止することもできます。 また、DNS 負荷分散を使用して、ハードウェア ロード バランサーの問題が基本的な通話のルーティングなどの SIP トラフィックの要素に影響しないようにすることもできます。
 
@@ -161,15 +161,15 @@ DNS 負荷分散を展開すると、ハードウェア ロード バランサ�
 
 ![DNS ネットワーク図の例](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-また、DNS 負荷分散を使用すると、すべての種類のトラフィックに対応するハードウェア ロード バランサーを使用していた場合よりもハードウェア ロード バランサーを低価格で購入できます。 Skype for Business Server との相互運用性認定テストに合格したロード バランサーを使用する必要があります。 ロード バランサーの相互運用性テストの詳細については [、「Lync Server 2010 Load Balancer Partners」を参照してください](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 このコンテンツは、Skype for Business Server に適用されます。
+また、DNS 負荷分散を使用すると、すべての種類のトラフィックに対応するハードウェア ロード バランサーを使用していた場合よりもハードウェア ロード バランサーを低価格で購入できます。 相互運用性の認定テストに合格したロード バランサーを、Skype for Business Server。 ロード バランサーの相互運用性テストの詳細については [、「Lync Server 2010 Load Balancer Partners」を参照してください](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 そこに含むコンテンツは、Skype for Business Server。
   
 DNS 負荷分散は、フロント エンド プール、エッジ サーバー プール、ディレクター プール、およびスタンドアロンの仲介サーバー プールでサポートされます。
   
-DNS 負荷分散は、通常、アプリケーション レベルで実装されます。 アプリケーション (たとえば、Skype for Business を実行しているクライアント) は、プールの完全修飾ドメイン名 (FQDN) に対する DNS A および AAAA (IPv6 アドレス指定が使用されている場合) レコード クエリから返される IP アドレスの 1 つに接続して、プール内のサーバーへの接続を試行します。 
+DNS 負荷分散は、通常、アプリケーション レベルで実装されます。 アプリケーション (Skype for Business を実行しているクライアントなど) は、プールの完全修飾ドメイン名 (FQDN) に対する DNS A および AAAA (IPv6 アドレス指定が使用されている場合) レコード クエリから返される IP アドレスの 1 つに接続して、プール内のサーバーへの接続を試行します。 
   
 たとえば、プールに 3 つのフロントエンド サーバーがある場合、pool01.contoso.com が発生します。
   
-- Skype for Business クエリ DNS を実行しているクライアントは、pool01.contoso.com。 クエリは 3 つの IP アドレスを返し、次のようにキャッシュします (必ずしもこの順序ではありません)。
+- DNS のクエリSkype for Business実行しているクライアント pool01.contoso.com。 クエリは 3 つの IP アドレスを返し、次のようにキャッシュします (必ずしもこの順序ではありません)。
     
     pool01.contoso.com 192.168.10.90
     
@@ -181,7 +181,7 @@ DNS 負荷分散は、通常、アプリケーション レベルで実装され
     
 - TCP 接続が成功した場合、クライアントは TLS をネゴシエートして、サーバー上のプライマリ レジストラー pool01.contoso.com。
     
-- クライアントが正常に接続せずにすべてのキャッシュされたエントリを試行すると、Skype for Business Server を実行しているサーバーが現時点で使用できないという通知がユーザーに表示されます。
+- クライアントが正常に接続せずにすべてのキャッシュされたエントリを試行すると、ユーザーに通知され、現在、Skype for Business Serverを実行しているサーバーは使用できません。
     
 > [!NOTE]
 > DNS ベースの負荷分散は、DNS ラウンド ロビン (DNS RR) とは異なります。通常は、プール内のサーバーに対応する異なる順序の IP アドレスを提供するために DNS に依存して負荷分散を参照します。 通常、DNS RR は負荷分散のみを有効にしますが、フェールオーバーは有効にしません。 たとえば、DNS A および AAAA (IPv6 アドレス指定を使用している場合) クエリによって返される 1 つの IP アドレスへの接続が失敗した場合、接続は失敗します。 したがって、DNS ラウンド ロビン自体は、DNS ベースの負荷分散よりも信頼性が低い。 DNS ラウンド ロビンは、DNS 負荷分散と組み合わせて使用できます。 
@@ -218,11 +218,11 @@ DNS SRV クエリによって複数の DNS レコードが返される場合、A
   
 #### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>DNS 負荷分散およびサポートされる以前のクライアントとサーバー
 
-DNS 負荷分散は、Skype for Business Server または Lync Server 2010 を実行しているサーバー、および Lync 2013 および Skype for Business クライアントの自動フェールオーバーのみをサポートします。 以前のバージョンのクライアントと Office Communications Server は、DNS 負荷分散を実行しているプールに接続できますが、DNS 負荷分散が参照する最初のサーバーに接続できない場合は、プール内の別のサーバーにフェールオーバーできません。 
+DNS 負荷分散は、Skype for Business Server または Lync Server 2010 を実行しているサーバー、および Lync 2013 および Skype for Business クライアントの自動フェールオーバーをサポートします。 以前のバージョンのクライアントと Office Communications Server は、引き続き DNS 負荷分散を実行しているプールに接続できますが、DNS 負荷分散が参照する最初のサーバーに接続できない場合は、プール内の別のサーバーにフェールオーバーできません。 
   
-さらに、Exchange UM を使用している場合は、少なくとも Exchange 2010 SP1 を使用して Skype for Business Server DNS 負荷分散のサポートを受け取る必要があります。 以前のバージョンの Exchange を使用している場合、ユーザーは次の Exchange UM シナリオに対してフェールオーバー機能を使用しません。
+さらに、EXCHANGE UM を使用している場合は、Exchange SP1 以上を使用して、DNS 負荷分散のサポートSkype for Business Server必要があります。 以前のバージョンの UM シナリオを使用Exchangeユーザーには、次の UM シナリオに対するフェールオーバー Exchangeされません。
   
-- 自分の電話でエンタープライズボイスメールを再生する
+- 自分の携帯電話Enterpriseボイスメールを再生する
     
 - Exchange UM 自動応答から通話を転送する
     
@@ -249,15 +249,15 @@ DNS 負荷分散は、Skype for Business Server または Lync Server 2010 を�
   
 エッジ サーバーで DNS 負荷分散を使用する場合、次のシナリオではフェールオーバー機能を利用できません。
   
-- Lync Server 2010 より前にリリースされた Skype for Business Server のバージョンを実行している組織とのフェデレーション。
+- Lync Server 2010 より前にSkype for Business Serverバージョンを実行している組織とのフェデレーション。
     
 - 現在サポートされている唯一の XMPP パートナーである Google Talk などの XMPP ベースのプロバイダーおよびサーバーに加えて、パブリック インスタント メッセージング (IM) サービス AOL および Yahoo!のユーザーとのインスタント メッセージ交換。
     
 これらのシナリオは、プール内のすべてのエッジ サーバーが実行されている限り有効ですが、いずれかのエッジ サーバーが利用できなくなると、これらのシナリオでそのエッジ サーバーに送信されるすべての要求は、別のエッジ サーバーにルーティングされずに失敗します。
   
- Exchange UM を使用している場合は、少なくとも Exchange 2013 を使用して、エッジでの Skype for Business Server DNS 負荷分散のサポートを受け取る必要があります。 以前のバージョンの Exchange を使用する場合、リモート ユーザーは次の Exchange UM シナリオに対してフェールオーバー機能を使用しません。
+ UM を使用しているExchange、エッジでの DNS 負荷分散のサポートを取得するには、Exchange 2013 Skype for Business Server 以上を使用する必要があります。 以前のバージョンのサーバーを使用Exchange、リモート ユーザーは次の UM シナリオでフェールオーバー Exchangeしません。
   
-- 自分の電話でエンタープライズボイスメールを再生する
+- 自分の携帯電話Enterpriseボイスメールを再生する
     
 - Exchange UM 自動応答から通話を転送する
     
@@ -289,4 +289,4 @@ DNS 負荷分散は、Skype for Business Server または Lync Server 2010 を�
 
 DNS 負荷分散を使用し、特定のコンピューターへのトラフィックをブロックする必要がある場合は、プール FQDN から IP アドレス エントリを削除するだけで十分ではありません。 コンピューターの DNS エントリも削除する必要があります。 
   
-サーバー間トラフィックの場合、Skype for Business Server はトポロジ対応の負荷分散を使用します。 サーバーは、サーバーの全体管理ストアで公開されたトポロジを読み取り、トポロジ内のサーバーの FQDN を取得し、サーバー間でトラフィックを自動的に分散します。 サーバー間トラフィックの受信をサーバーにブロックするには、トポロジからサーバーを削除する必要があります。 
+サーバー間トラフィックの場合、トポロジ対応Skype for Business Server負荷分散が使用されます。 サーバーは、サーバーの全体管理ストアで公開されたトポロジを読み取り、トポロジ内のサーバーの FQDN を取得し、サーバー間でトラフィックを自動的に分散します。 サーバー間トラフィックの受信をサーバーにブロックするには、トポロジからサーバーを削除する必要があります。 

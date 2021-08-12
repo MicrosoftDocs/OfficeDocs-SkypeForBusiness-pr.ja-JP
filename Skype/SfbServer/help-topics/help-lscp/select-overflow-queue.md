@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 description: 応答グループ キューに空きがないときの通話の転送先キューを選択するには、[オーバーフロー キューの選択] ダイアログ ボックスを使用します。
-ms.openlocfilehash: d7ad25e0a93c19eb3d4ec979c1b8a9c66cf8f137
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d0730a9abd27cb3a91c9f2f448156ec62804461d51aa378f0331deeb2c9e5398
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810747"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346833"
 ---
 # <a name="select-overflow-queue"></a>オーバーフロー キューの選択
  

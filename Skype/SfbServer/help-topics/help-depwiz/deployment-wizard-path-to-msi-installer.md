@@ -1,5 +1,5 @@
 ---
-title: MSI インストーラーへの展開ウィザードのパス
+title: 展開ウィザード MSI インストーラーへのパス
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
-description: 展開ウィザードを使用して Skype for Business Server 2015 をインストールする方法の詳細については、「Skype for Business Server 2015 のインストール」を参照してください。
-ms.openlocfilehash: 5217e905b9e537869b1d466994d48223135fc9a1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 展開ウィザードを使用して 2015 をインストールする方法のSkype for Business Server、「Install Skype for Business Server 2015」を参照してください。
+ms.openlocfilehash: 5b1a89e71f7fe08d662e07e4f26958cd7a02f52862c85d82f9bcfd18e993c320
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827367"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301633"
 ---
 # <a name="deployment-wizard-path-to-msi-installer"></a>展開ウィザード: MSI インストーラーのパス
  
-展開ウィザードを使用して Skype for Business Server 2015 をインストールする方法の詳細については [、「Skype for Business Server 2015](../../deploy/install/install.md)のインストール」を参照してください。
+展開ウィザードを使用して 2015 年Skype for Business Serverの詳細については、「Install [Skype for Business Server 2015」を参照](../../deploy/install/install.md)してください。
   
 

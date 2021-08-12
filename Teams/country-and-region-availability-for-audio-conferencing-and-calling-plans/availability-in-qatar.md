@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: カタールで利用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 7c7fe427b5e155dde6ec7041c057928dc8579e9d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3035065a52279d090ae394217ccaa1bdd3576288b1c2d7e67c9262b3c5ec2ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347222"
 ---
 # <a name="availability-in-qatar"></a>カタールでの利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51102223"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

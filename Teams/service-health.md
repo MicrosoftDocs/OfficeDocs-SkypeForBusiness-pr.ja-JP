@@ -16,12 +16,12 @@ f1.keywords:
 description: Teams サービスが正常であり、Exchange、SharePoint、OneDrive for Business などの他の Microsoft 365 または Office 365 コンポーネントも同様SharePoint確認OneDrive for Business。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2a3cfb82522a731d8902223e070a9f1c3dd1b95
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: c7aebfec6aedd018580ddece9d3d7dac4e30ca731b91decf5d74bc0acf9c3e91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646028"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316693"
 ---
 # <a name="verify-service-health-for-microsoft-teams"></a>Microsoft Teams のサービス正常性を確認する
 

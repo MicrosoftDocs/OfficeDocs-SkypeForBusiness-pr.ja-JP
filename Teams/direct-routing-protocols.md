@@ -1,5 +1,5 @@
 ---
-title: 'Teamsシステムダイレクト ルーティング: 定義と RFC 標準'
+title: 電話システムのダイレクト ルーティング
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: システム ダイレクト Microsoft 電話 RFC 標準プロトコルを実装する方法。
+description: ダイレクト ルーティング プロトコル
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19e3b459cef954bc432f97c93c90eaa92091d27bb17c77cecc17e8699e83e65b
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 015b07f538ad33079bbe04649849d22bfebbfb081feb30cea154cb30f9f10fd9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848062"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347173"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>ダイレクト ルーティング - 定義と RFC 標準
 
@@ -35,7 +35,7 @@ ms.locfileid: "57848062"
 - **メディアのメディア** プロセッサ。 これは、メディア トラフィックを処理するダイレクト ルーティングのインターネットに接続するコンポーネントです。 このコンポーネントでは、SRTP プロトコルと SRTCP プロトコルを使用します。
 
 
-ダイレクト ルーティングの詳細については、「ダイレクト ルーティング[」を電話システム参照してください](direct-routing-landing-page.md)。
+ダイレクト ルーティングの詳細については、「ダイレクト ルーティング[」電話システム参照してください](direct-routing-landing-page.md)。
 
 ダイレクト ルーティングによる SIP プロトコルの実装方法の詳細については、「ダイレクト ルーティング - SIP プロトコル」 [を参照してください](direct-routing-protocols-sip.md)。
 
@@ -62,10 +62,10 @@ ms.locfileid: "57848062"
 非バイパス モードに適用できる標準に加えて、メディア バイパス モードには次の標準が使用されます。
 
 - [RFC 5245 Interactive Connectivity Establishment (ICE) for media bypass](https://tools.ietf.org/html/rfc5245).  SBC は次をサポートする必要があります。
-  - ICE Lite - TEAMSクライアントは完全な ICE クライアントです。
+  - ICE Lite - TEAMSクライアントは完全な ICE クライアントです
   - [ICE Restarts](https://tools.ietf.org/html/rfc5245#section-9.1.1.1). ICE 再起動の使用例と例については、「ICE Restart: Media bypass call transferred to an endpoints to support media bypass (ICE Restart: メディア バイパスをサポートしていないエンドポイントに転送されるメディア バイパス呼び出し)」の詳細を参照してください。   
 - [RFC RFC 5589 セッション開始プロトコル (SIP) 呼び出し制御 – 転送](https://tools.ietf.org/html/rfc5589)。 
-- [セッション開始プロトコル (SIP) の RFC 3960](https://tools.ietf.org/html/rfc3960)早期メディアおよび呼び出し音の生成については、「3.1、Forking、および 3.2 の呼び出し音生成」セクションを参照してください。 
+- [セッション開始プロトコル (SIP) の RFC 3960](https://tools.ietf.org/html/rfc3960)早期メディアおよび呼び出し音の生成については、「3.1、Forking、3.2, Ringing Tone Generation (呼び出し音の生成)」セクションを参照してください。 
 - [RFC 5389 Session Traversal Utilities for NAT (STUN)](https://tools.ietf.org/html/rfc5389)
 - [RFC 5766 Traversal Using Relays around NAT (TURN): NAT (STUN) のセッション トラバーサル ユーティリティへのリレー拡張機能](https://tools.ietf.org/html/rfc5766)
 
@@ -86,9 +86,9 @@ ms.locfileid: "57848062"
 
 ダイレクト ルーティングには、次の 2 つの操作モードがあります。
 
-- **クライアント、メディア** プロセッサ、SBC の間Teams RTP トラフィックが流れるメディア バイパスがない。  
+- **クライアント、メディア** プロセッサ、SBC の間ですべての RTP トラフィックTeamsが流れるメディア バイパスがない。  
 
-- **すべての** RTP メディアがエンドポイントと SBC の間をTeamsメディア バイパス。 
+- **すべての** RTP メディアが、エンドポイントと SBC の間でTeamsメディア バイパスを使用します。 
 
 SIP トラフィックは常に SIP プロキシ経由で流れます。 
 

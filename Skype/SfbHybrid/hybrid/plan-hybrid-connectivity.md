@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsのハイブリッド接続Skype for Business計画します。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 0941922fe5f5f4505932614422ec79ea310f7cf0
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: fee78cf4532ff1cb0be7a24fc29e407001647f452cdef5fbb5e60859989f8112
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660735"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287886"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>ハイブリッド接続を計画して、Skype for Business ServerとTeams
 
@@ -136,7 +136,7 @@ Microsoft では、次の種類のマルチフォレスト ハイブリッド �
   - ホストするフォレスト Skype for Business、ユーザーを含むフォレストを信頼する必要があります。
     リソース フォレスト ハイブリッド シナリオの詳細については、「ハイブリッド フォレストのリソース フォレスト トポロジを展開する」を参照[Skype for Business。](configure-a-multi-forest-environment-for-hybrid.md)
 
-- **複数のフォレストで Skype for Business Server を複数配置している。** この構成は、合併および買収のシナリオ、およびより複雑な企業の結果として発生する可能性があります。 次の重要な要件が満たされている場合、複数の Microsoft 365 Skype for Business 展開を持つ組織では、オンプレミスからクラウドへのすべてのユーザーの統合を実現できます。
+- **複数のフォレストにSkype for Business Server展開。** この構成は、合併および買収のシナリオ、およびより複雑な企業の結果として発生する可能性があります。 次の重要な要件が満たされている場合、複数の Microsoft 365 Skype for Business 展開を持つ組織では、オンプレミスからクラウドへのすべてのユーザーの統合を実現できます。
   - 関連する組織には、少なくとも 1 Microsoft 365必要があります。 複数の組織とのシナリオでの統合はサポートされていません。
   - 任意の時点で、ハイブリッド モード (共有 SIP アドレスSkype for Business 1 つのオンプレミス フォレストのみを使用できます。 その他のすべてのオンプレミス Skype for Businessフォレストは、完全にオンプレミスに残る必要があります (おそらく、互いにフェデレーションされている可能性があります)。 これらの他のオンプレミス組織は、2018 年 12 月現在利用可能なオンライン [SIP](/powershell/module/skype/disable-csonlinesipdomain) ドメインを無効にする新しい機能を必要に応じて AAD に同期できます。
 

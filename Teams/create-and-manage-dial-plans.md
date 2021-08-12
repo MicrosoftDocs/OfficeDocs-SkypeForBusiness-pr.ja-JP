@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Microsoft Teams 管理センターまたは Windows PowerShellを使用して、ダイヤル プラン (PSTN 通話ダイヤル プラン) を作成および管理する方法について説明します。
-ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Microsoft Teams Windows PowerShell 管理センターまたは Microsoft Teamsを使用して、ダイヤル プラン (PSTN 通話ダイヤル プラン) を作成および管理する方法について説明します。
+ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849202"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
-組織のダイヤル プランを計画し、通話ルーティング用に作成する必要があるすべての正規化ルールを確認したら、ダイヤル プランを作成する準備が整います。 有効な Teams ライセンスを持つ管理者アカウントでは、Microsoft Teams 管理センターまたは Windows PowerShell を使用してダイヤル プランを作成および管理できます。  
+組織のダイヤル プランを計画し、音声ルーティング用に作成する必要があるすべての正規化ルールを確認したら、ダイヤル プランを作成する準備が整います。 有効な Teams ライセンスを持つ管理者アカウントでは、Microsoft Teams 管理センターまたは Windows PowerShell を使用してダイヤル プランを作成および管理できます。  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
@@ -49,7 +49,7 @@ ms.locfileid: "54282870"
 5. 正規化ルールを必要な順序で配置します。 [ **上へ移動]** **または [下** へ移動] をクリックして、リスト内のルールの位置を変更します。
 
     > [!NOTE]
-    > Teams上から下へ正規化ルールの一覧を走査し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤルされた番号が複数の正規化ルールと一致できるようダイヤル プランを設定する場合は、制限の厳しいルールを制限の少ないルールよりも上に並べ替える必要があります。 "+" なしでダイヤルされた番号を正規化するダイヤル プランを設定すると、呼び出し元サービスは、テナントと地域のダイヤル プラン ルールを使用して、もう一度番号の正規化を試みます。 二重正規化を回避するために、すべての正規化ルールで数値が "+" で始まる結果に設定されます。 ダイレクト ルーティングのお客様は、トランク [変換ルールを使用](direct-routing-translate-numbers.md) して、必要に応じて "+" を削除できます。 
+    > Teamsから正規化ルールの一覧を走査し、ダイヤルされた番号に一致する最初のルールを使用します。 ダイヤルされた番号が複数の正規化ルールと一致できるようダイヤル プランを設定する場合は、制限の厳しいルールよりも制限の厳しいルールを上回って並べ替える必要があります。 "+" なしでダイヤルされた番号を正規化するダイヤル プランを設定した場合、呼び出し元サービスは、テナントと地域のダイヤル プラン ルールを使用して、もう一度番号の正規化を試みます。 二重正規化を回避するために、すべての正規化ルールで数値が "+" で始まる結果に設定されます。 ダイレクト ルーティングのお客様は、トランク [変換ルールを使用](direct-routing-translate-numbers.md) して、必要に応じて "+" を削除できます。 
 
 6. **[保存]** をクリックします。
 7. ダイヤル プランをテストする場合は、[ダイヤル **プランの** テスト] で電話番号を入力し、[テスト] を **クリックします**。
@@ -187,7 +187,7 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-これを実行して、HostingProvider を持つすべてのユーザーから割り当てられている TenantDialPlan を削除 sipfed.online.lync.com。
+このコマンドを実行して、HostingProvider を持つすべてのユーザーから割り当てられている TenantDialPlan を削除 sipfed.online.lync.com。
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-CsTenantDialPlan -policyname $null
 ```

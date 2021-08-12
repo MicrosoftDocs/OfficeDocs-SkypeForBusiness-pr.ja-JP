@@ -10,29 +10,29 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: パイロットプールを展開する前に、DNS ホストをパイロットプールのエントリに更新する必要があります。 この手順を正常に完了するには、Domain Admins グループまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンしている必要があります。
-ms.openlocfilehash: d934e3bdc46ab9deffa3c588b15ab793111c1a68
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: パイロット プールを展開する前に、パイロット プールの DNS ホスト A エントリを更新する必要があります。 この手順を正常に完了するには、Domain Admins グループまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンしている必要があります。
+ms.openlocfilehash: 270b0bda7da679cb0c75e9a99e10a898dcee6ac70413ce276abfe19ba1eb2231
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754057"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337835"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>パイロット プール展開の DNS レコードの構成
 
-パイロットプールを展開する前に、DNS ホストをパイロットプールのエントリに更新する必要があります。 この手順を正常に完了するには、Domain Admins グループまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンしている必要があります。
+パイロット プールを展開する前に、パイロット プールの DNS ホスト A エントリを更新する必要があります。 この手順を正常に完了するには、Domain Admins グループまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンしている必要があります。
   
 ### <a name="to-configure-dns-host-a-records"></a>DNS ホスト A レコードを構成するには
 
 1. ドメイン ネーム システム (DNS) サーバーで、[**スタート**]、[**管理ツール**]、および [**DNS**] の順にクリックします。
     
-2. ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Skype For business Server 2019 がインストールされるドメインを右クリックします。
+2. ドメインのコンソール ツリーで、[前方参照ゾーン] を展開し、2019 年 2019 年にインストールされるドメインSkype for Business Server右クリックします。
     
 3. [**新しいホスト (A または AAAA)**] をクリックします。
     
-4. [**名前**] をクリックして、Skype For business Server 2019 プールのホスト名を入力します (ドメイン名は、レコードが定義されている領域から、A レコードの一部として入力する必要はありません)。
+4. [**名前**] をクリックし、Skype for Business Server 2019 プールのホスト名を入力します (ドメイン名は、レコードが定義されている領域と見なされ、A レコードの一部として入力する必要があります)。
     
-5. [ **Ip アドレス**] をクリックし、フロントエンドプールの ip アドレスを入力します。
+5. [IP **アドレス]** をクリックし、フロントエンド プールの IP アドレスを入力します。
     
 6. [**ホストの追加**] をクリックし、[**OK**] をクリックします。 
     

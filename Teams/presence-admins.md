@@ -1,7 +1,7 @@
 ---
 title: Teams でのユーザーのプレゼンス
-author: msdmaguire
-ms.author: dmaguire
+author: dmaguire
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17848cd1abd588ea1cd5106327ee576a318191bd06035389a8475b1fc258f8f2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03ea8044bd2192d7f7cb00d71de20d8a5815ab66c73abf5f4130bc6f361078ce
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848782"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -34,6 +34,7 @@ ms.locfileid: "54350519"
  > [!NOTE]
  > Teams はプライバシー設定を尊重しますので、プライバシー モードを有効にしている場合は、あなたの存在が外部のユーザーには表示されません。
 ## <a name="presence-states-in-teams"></a>Teams でのプレゼンス状態
+
 
 |ユーザーが設定|アプリが設定|
 |:--- |:---|

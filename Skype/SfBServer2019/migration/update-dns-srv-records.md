@@ -11,28 +11,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: この手順を正常に完了するには、Domain Admins グループまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンしている必要があります。
-ms.openlocfilehash: 26bb80618868a2bec03d1de32f6c010869b8cf8c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 0c3454bd4fbf8ecdc28730da378357e9d50efec3c12ba5b3926abb61010979ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753269"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327053"
 ---
 # <a name="update-dns-srv-records"></a>DNS SRV レコードの更新
 
 この手順を正常に完了するには、Domain Admins グループまたは DnsAdmins グループのメンバーとしてサーバーまたはドメインにログオンしている必要があります。
   
-このトピックでは、Skype for Business Server 2019 に移行した後にドメインネームシステム (DNS) レコードを更新する方法について説明します。 すべてのユーザーが Skype for Business Server 2019 に移動された後、従来のプールまたはディレクターが使用停止になる前に、すべての SIP ドメインについて内部 DNS の DNS SRV レコードを更新する必要があります。 この手順では、内部 DNS に SIP ユーザードメインのゾーンがあることを前提としています。
+このトピックでは、ドメイン ネーム システム (DNS) レコードを 2019 年に移行した後に更新Skype for Business Serverします。 すべてのユーザーが Skype for Business Server 2019 に移動された後、レガシ プールまたはディレクターが使用停止される前に、すべての SIP ドメインの内部 DNS の DNS SRV レコードを更新する必要があります。 この手順では、内部 DNS に SIP ユーザー ドメインの領域が含まれると仮定します。
   
 ## <a name="to-configure-a-dns-srv-record"></a>DNS SRV レコードを構成するには
 
 1. DNS サーバー上で、[**スタート**] をクリックし、[**管理ツール**] をクリックします。次に、[**DNS**] をクリックします。
     
-2. SIP ドメインのコンソールツリーで、[**前方参照ゾーン**] を展開し、Skype For business Server 2019 がインストールされている SIP ドメインを展開し、 **_tcp**の設定に移動します。 
+2. SIP ドメインのコンソール ツリーで、[前方参照ゾーン] を展開し、Skype for Business Server 2019 がインストールされている SIP ドメインを展開し、_tcp 設定 **に移動** します。 
     
-3. 右側のウィンドウで、[ **_sipinternaltls** ] を右クリックし、[**プロパティ**] を選択します。
+3. 右側のウィンドウで、[プロパティ] を右クリック **して_sipinternaltls** を **選択します**。
     
-4. [**このサービスを提供**しているホスト] で、Skype For business Server 2019 プールを指すようにホストの FQDN を更新します。
+4. [**このサービスを提供するホスト]** で、ホスト FQDN を更新して、2019 年Skype for Business Serverをポイントします。
     
 5. **[OK]** をクリックします。
     
@@ -42,9 +42,9 @@ ms.locfileid: "44753269"
     
 2. [**スタート**] ボタンをクリックし、[**ファイル名を指定して実行**] をクリックします。
     
-3. [**名前**] ボックスに「cmd」と入力し、[ **OK**] をクリックします。
+3. [開く **] ボックス** に「cmd」と入力し **、[OK] をクリックします**。
     
-4. コマンドプロンプトで「nslookup _\<FQDN of the Front End pool\>_ または _\<FQDN of the Standard Edition server\>_ 」と入力し、enter キーを押します。
+4. コマンド プロンプトで、nslookup _\<FQDN of the Front End pool\>_ または を入力し  _\<FQDN of the Standard Edition server\>_ 、Enter キーを押します。
     
 5. 受け取る応答が、FQDN の適切な IP アドレスに解決しているのを確認します。
     
