@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 2019 年にクラウド自動応答を使用するSkype for Business Server
-ms.openlocfilehash: 61ffefab04dc70167d768332132217ebd6564e31
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 0a9eaa3498541371314f268f2d4dfaef2200ab457267fe98f631430ce7c2f035
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509798"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315053"
 ---
 # <a name="plan-cloud-auto-attendants"></a>クラウド自動応答の計画
 
@@ -64,7 +64,7 @@ Exchange ユニファイド メッセージング (Exchange Server 2013 また�
 
 ## <a name="migration-and-interoperability"></a>移行と相互運用性
 
-2019 年または Skype for Business Server Exchange Server 2019 の展開を計画している場合は、自動応答の継続的なサポートを確保するために、移行を慎重に計画する必要があります。 以下の点にご注意ください。
+2019 年または Skype for Business Server Exchange Server 2019 の展開を計画している場合は、自動応答の継続的なサポートを確保するために、移行を慎重に計画する必要があります。 以下の点にご注意ください:
 
 - Exchange Server 2019 では、UM Exchange機能が提供されなくなりました
 - Exchangeユニファイド メッセージングが終了モード

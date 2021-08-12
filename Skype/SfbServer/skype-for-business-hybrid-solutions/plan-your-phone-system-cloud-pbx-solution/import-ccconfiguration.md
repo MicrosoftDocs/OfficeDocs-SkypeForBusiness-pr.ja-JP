@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
-description: ローカルファイルからクラウドコネクタホストサーバーに Skype for Business Cloud Connector エディションの構成をインポートします。
-ms.openlocfilehash: 626ba52d4d67f99dd67d3d1f91d26d6e6d03f95e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: ローカル ファイルからSkype for Business クラウド コネクタ エディション構成を Cloud Connector ホスト サーバーにインポートします。
+ms.openlocfilehash: 4ac32f460c2c493f5d78f1a38adcdd0728763bbbcf57a67470823fb88d407d09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799857"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349499"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
-ローカルファイルからクラウドコネクタホストサーバーに Skype for Business Cloud Connector エディションの構成をインポートします。
+ローカル ファイルからSkype for Business クラウド コネクタ エディション構成を Cloud Connector ホスト サーバーにインポートします。
   
 ```powershell
 Import-CcConfiguration [-Force] [<CommonParameters>]
@@ -33,7 +33,7 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 
 ### <a name="example-1"></a>例 1
 
-次の例では、クラウドコネクタインスタンスのアプライアンスディレクトリから%SystemDrive%\ProgramData\CloudConnector ディレクトリに CloudConnector. .ini をコピーします。
+次の使用例はCloudConnector.iniのアプライアンス ディレクトリから %SystemDrive%\ProgramData\CloudConnector ディレクトリにコピーします。
   
 ```powershell
 Import-CcConfiguration
@@ -42,19 +42,19 @@ Import-CcConfiguration
 ## <a name="detailed-description"></a>解説
 <a name="Examples"> </a>
 
-このコマンドレットは、クラウドコネクタアプライアンスのアプライアンスディレクトリから%SystemDrive%\ProgramData\CloudConnector ディレクトリに CloudConnector. .ini をコピーします。 アプライアンス ディレクトリは Set-CcApplianceDirectory コマンドレットを使用して指定されます。 このコマンドレットによって、%SystemDrive%\ProgramData\CloudConnector. 内の既存のファイルが上書きされます。 このコマンドは、Cloud Connector エディションバージョン2.0.1 以降に適用されます。
+このコマンドレットは、CloudConnector.iniコネクタ アプライアンスのアプライアンス ディレクトリから %SystemDrive%\ProgramData\CloudConnector ディレクトリにコピーします。 アプライアンス ディレクトリは、このコマンドレットを使用してSet-CcApplianceDirectoryされます。 このコマンドレットは、%SystemDrive%\ProgramData\CloudConnector 内の既存のファイルを上書きします。 このコマンドは、Cloud Connector Edition バージョン 2.0.1 以降に適用されます。
   
 ## <a name="parameters"></a>パラメーター
 <a name="Examples"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-|Force  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |%SystemDrive%\ProgramData\CloudConnector 内の既存のファイルを通知なしで上書きします。  <br/> |
+|Force  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |通知なしで %SystemDrive%\ProgramData\CloudConnector の既存のファイルを上書きします。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="Examples"> </a>
 
-なし。 インポート-CcConfiguration コマンドレットはパイプライン入力を受け取りません。
+なし。 このImport-CcConfigurationは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="Examples"> </a>

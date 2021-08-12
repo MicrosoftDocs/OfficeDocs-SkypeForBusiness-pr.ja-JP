@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: 263e2d07992bd491259b82856413548fcd9741fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: efe36f1ada9e8c98a82d8d5ece0cee2d9058aa318ef174f6d1b704f1c7f1e178
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282890"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>サービス品質 (QoS) をクライアントにMicrosoft Teamsする
 
@@ -122,6 +122,6 @@ ms.locfileid: "51094785"
 1. 使用しているクライアントの [アプリケーション名] エントリの値が正しいか確認し、[DSCP 値] エントリと [ローカル ポート] エントリの両方にグループ ポリシー オブジェクトの設定が反映されていることを確認します。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [サービス品質 (QoS) を実装するTeams](QoS-in-Teams.md)

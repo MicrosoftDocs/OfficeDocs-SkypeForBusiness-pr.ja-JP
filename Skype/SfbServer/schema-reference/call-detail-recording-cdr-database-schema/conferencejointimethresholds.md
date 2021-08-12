@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 の ConferenceJoinTimeThresholds テーブル
+title: ConferenceJoinTimeThresholds テーブル (Skype for Business Server 2015)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: ConferenceJoinTimeThresholds テーブルには、電話会議参加時間要約レポートによって使用される分類境界が含まれます。電話会議参加時間要約レポートは、ユーザーが問題なく電話会議に参加する目的で必要な時間を集計します。これらの時間値は、平均と、以下のカテゴリの 1 つの両方で報告されます。
-ms.openlocfilehash: dfa7293307376b5fb5c86cec6f7504d363b005f5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9ce7e8e92921e0cccd8987d6f270a205c5c94de457571ebf959da703cc4bf2ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341752"
 ---
-# <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の ConferenceJoinTimeThresholds テーブル
+# <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>ConferenceJoinTimeThresholds テーブル (Skype for Business Server 2015)
  
 ConferenceJoinTimeThresholds テーブルには、電話会議参加時間要約レポートによって使用される分類境界が含まれます。電話会議参加時間要約レポートは、ユーザーが問題なく電話会議に参加する目的で必要な時間を集計します。これらの時間値は、平均と、以下のカテゴリの 1 つの両方で報告されます。
   
@@ -38,7 +38,7 @@ ConferenceJoinTimeThresholds テーブルには、2 秒、5 秒、および 10 �
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**ThresholdId** <br/> |int  <br/> |Primary  <br/> |分類の一意識別子。  <br/> |
-|**ThresholdValue** <br/> |int  <br/> || 分類の上限。有効な値は次のとおりです。 <br/>  2  <br/>  5  <br/>  10  <br/> |
+|**ThresholdId** <br/> |整数  <br/> |Primary  <br/> |分類の一意識別子。  <br/> |
+|**ThresholdValue** <br/> |整数  <br/> || 分類の上限。有効な値は次のとおりです。 <br/>  2 <br/>  5  <br/>  10  <br/> |
    
 

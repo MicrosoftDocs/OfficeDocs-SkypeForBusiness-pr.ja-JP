@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 次のセクションを使用して、既存の展開のプロパティを編集できます。
-ms.openlocfilehash: 9d76646c0b0f9f8f579e8f978659191258e9f412
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 705a4bb3b08d78472c3e165e8c9cfcff409ea30f302216af7914b9037c8f5bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299983"
 ---
 # <a name="deployment-settings-expander"></a>展開設定エキスパンダー
 
@@ -73,7 +73,7 @@ URL を削除する必要がある場合は、URL を選択し、**[削除]** �
 > [!IMPORTANT]
 > インフラストラクチャの中央管理ストアを定義、発行、展開した後は、外部プロセスによって中央管理ストアを別のフロント エンドに再配置せずに、中央管理ストアの場所を変更することはできません。
 
-サーバーの全体管理ストアの移動の詳細については [、「Move-CsManagementServer」](/powershell/module/skype/move-csmanagementserver?view=skype-ps) を参照してください。Windows PowerShell参照してください。
+サーバーの全体管理ストアの移動の詳細については[、「Move-CsManagementServer」](/powershell/module/skype/move-csmanagementserver?view=skype-ps)を参照してください。Windows PowerShell参照してください。
 
 
 これらの設定の定義と構成の詳細については、「[Defining and Configuring the Topology (トポロジの定義と構成)](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)」を参照してください。

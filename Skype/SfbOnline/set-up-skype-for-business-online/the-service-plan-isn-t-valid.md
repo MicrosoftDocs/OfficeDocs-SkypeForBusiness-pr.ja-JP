@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
 description: 'Skype for Business Online サービス プランが無効なエラーの後に、ユーザーに有効なサービス プランを割り当てる場所を確認します。 '
-ms.openlocfilehash: 3545d0341e7e094ca1152d37a145e3c52640ae50
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f683a3f12e9149017c5f62375f188360a03f0e9fd8bb286f1e44f09b2c2b6ef7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314963"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>ユーザーの Skype for Business Online サービス プランが無効です
 
@@ -34,7 +34,7 @@ ms.locfileid: "52239473"
 
 申し訳ございません。Skype for Businessに割り当てられているオンライン サービス プランが認識されないか、無効です。
   
-[アクティブなユーザー] *Microsoft 365管理* センター * >**に移動** し、有効なサービス プランをこのユーザーに割り当てる。
+[*アクティブなユーザー* Microsoft 365 管理センター * >**に移動し**、有効なサービス プランをこのユーザーに割り当てる。
 
 ## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)

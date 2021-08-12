@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、エジプトの無料電話番号のダイヤルについて学習します。
-ms.openlocfilehash: a324691f3dbda9c594afceea726dd25a08613bb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 52cb32676c604f76af3128042689faee8a1701760efba97025b11c121161d3ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098143"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323809"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>エジプトでのフリーダイヤル制限
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、フランスの電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: 81f0e3abda408d7e229c3a9066a668e182d47488
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 495976306785e4012774fd5fa1c898f0fb95c2ae613c89e464657ec418f0cba4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510158"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282660"
 ---
 # <a name="phone-number-management-for-france"></a>フランスでの電話番号の管理
 
@@ -39,7 +39,7 @@ ms.locfileid: "53510158"
 |転送された電話番号を取得します。  <br/> |これらのフォームのいずれかをダウンロードします。 <br/><br/> ユーザーの電話番号の場合:<br/>[フランスの承認状 (LOA) (地理番号) (v.5.0) (fr-fr)](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>無料電話番号の場合: <br/>[フランスの承認状 (LOA) (フリーフォン番号) (v.6.0) (fr-fr)](https://download.microsoft.com/download/b/5/0/b502c0e2-80d1-4d5c-8914-12617a173933/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.6.0)-(fr-fr).pdf) <br/> <br/> 入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
 
 ## <a name="related-topics"></a>関連項目
 

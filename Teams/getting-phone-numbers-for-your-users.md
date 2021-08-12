@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Teams の新しい番号、ポート番号、または既存の番号を転送する方法と、変更をユーザーに表示する方法について学習します。 '
-ms.openlocfilehash: c80f7a54af697322665c110c14aeccaf5fa4f667
-ms.sourcegitcommit: 109b3869afb5ff1ca4eaf771399d7cda70a43bea
+ms.openlocfilehash: cb74b070e9c9c74c71e98309e9a06e3f9a85021872a2072f4852f89de52cbd01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "51586566"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315283"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -83,7 +83,7 @@ ms.locfileid: "51586566"
 > [!NOTE]
 > これより多くの電話番号を取得する必要がある場合は、ビジネス製品のサポート担当者に問い合わせ - 管理者向け [ヘルプ に問い合わせください](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 

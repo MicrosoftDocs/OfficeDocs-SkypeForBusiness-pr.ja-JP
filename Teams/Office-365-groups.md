@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: グループとグループ メンバーシップMicrosoft 365グループとグループ メンバーシップの組み合Microsoft Teams。
-ms.openlocfilehash: d258fa4252f6bbb02d2b9a8211dd5919c2d7a67b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 37668b4315f2a46a99f5d9409e395b70f5446ac0f9b0ab5fb86fdbbe644246d6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282900"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365グループとMicrosoft Teams
 
@@ -42,7 +42,7 @@ Microsoft 365グループは、アプリケーション間メンバーシップ 
 
 ## <a name="group-membership"></a>グループ メンバーシップ
 
-チームのメンバーを削除すると、チームのメンバー Microsoft 365削除されます。 グループから削除すると、チームとチャネルがクライアントからすぐにTeamsされます。 Microsoft 365 管理センターを使用してグループからユーザーを削除すると、SharePoint Online ドキュメント ライブラリ、Yammer グループ、共有 OneNote などの他の共同作業面にアクセスできなくなりました。 ただし、チームのチャット機能には約 2 時間アクセスできます。
+チームのメンバーを削除すると、チームのメンバー Microsoft 365削除されます。 グループから削除すると、チームとチャネルがクライアントからすぐにTeamsされます。 Microsoft 365 管理センター を使用してグループからユーザーを削除すると、SharePoint Online ドキュメント ライブラリ、Yammer グループ、共有グループなどの他の共同作業面にアクセスOneNote。 ただし、チームのチャット機能には約 2 時間アクセスできます。
 
 チーム メンバーを管理するためのベスト プラクティスとして、Teams クライアントにチーム メンバーを追加して削除し、他のグループに接続されたワークロードのアクセス許可の更新が迅速に行われるのを確認します。 (Microsoft 365 管理センター、Azure AD、または Exchange Online PowerShell を使用して) Teams クライアントの外部でチーム メンバーを追加または削除した場合、変更が Teams に反映されるのに最大 24 時間かかる場合があります。
 
@@ -52,7 +52,7 @@ Microsoft 365 グループを削除すると、永続的な Outlook/OWA の会�
 
 グループとチームのライフサイクル終了オプションの詳細については、「グループ[](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)、チーム、およびグループのライフサイクルの終了オプション」および「Yammer チームをアーカイブまたは削除する」[を](./archive-or-delete-a-team.md)参照Microsoft Teams。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Microsoft Teamsの基礎 (ビデオ)](https://aka.ms/teams-foundations)
 

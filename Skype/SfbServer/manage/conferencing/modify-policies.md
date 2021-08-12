@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での会議ポリシーの変更
+title: 会議の会議ポリシーを変更Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
-description: '概要: Skype for Business Server で会議ポリシーを変更する方法について説明します。'
-ms.openlocfilehash: 6bbba82c9785e074da492eb66cbdd943dc0cea35
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 会議ポリシーを変更する方法については、Skype for Business Server。'
+ms.openlocfilehash: 5676a6bc0970a98fa76357deb1403c6b2337920273262c0a76a465b33d5d18c4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290355"
 ---
-# <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Skype for Business Server での会議ポリシーの変更
+# <a name="modify-conferencing-policies-in-skype-for-business-server"></a>会議の会議ポリシーを変更Skype for Business Server
  
-**概要:** Skype for Business Server で会議ポリシーを変更する方法について説明します。
+**概要:** 会議ポリシーを変更する方法については、Skype for Business Server。
   
-会議ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して変更できます。
+会議ポリシーは、コントロール パネルを使用するかSkype for Business Server管理シェルを使用Skype for Business Server変更できます。
   
-## <a name="modify-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議ポリシーを変更する
+## <a name="modify-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用して会議Skype for Business Server変更する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー] **をクリックします**。
     
@@ -39,7 +39,7 @@ ms.locfileid: "51119426"
     
 6. [**確定**] をクリックします。
     
-## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議ポリシーを変更する
+## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議ポリシー Skype for Business Server変更する
 
 会議ポリシーを変更するには **、Set-CsConferencingPolicy コマンドレットを使用** します。
   

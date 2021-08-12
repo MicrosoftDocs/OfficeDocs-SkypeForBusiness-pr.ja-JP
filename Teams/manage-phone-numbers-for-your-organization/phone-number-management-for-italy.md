@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、イタリアの電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: f88c116837fb496ce101523b577ce78ab6fb6808
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 036b116589db15c5f0f02b75175d5b642f4f1ce730a7860c14f311ef51168934
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510038"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282650"
 ---
 # <a name="phone-number-management-for-italy"></a>電話の番号管理
 
@@ -38,7 +38,7 @@ ms.locfileid: "53510038"
 |転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[イタリアの承認状 (LOA) (すべての数値) (v.6.0) (it-it)](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。      <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには、イタリア用のこのディレクトリ サービス フォーム [(v.1.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)をダウンロードし、入力し、手順については [PTSN](contact-pstn-service-desk.md)にお問い合わせください。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、イタリア用のこのディレクトリ サービス フォーム [(v.1.0) (it-it)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)をダウンロードし、入力し、手順については [PTSN](contact-pstn-service-desk.md)にお問い合わせください。 |
 |サービスの予約を確認する| イタリア向け [サービスの取り扱い (v.1.0) (it-it) をダウンロードして読む](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true)。 |
 
 ## <a name="related-topics"></a>関連項目

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で会議への参加と退出のお知らせを管理する
+title: 会議への参加を管理し、会議のアナウンスをSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: '概要: Skype for Business Server で会議への参加とアナウンスを管理する方法について学習します。'
-ms.openlocfilehash: 796266dd3b571e525f657d5dbe712d1577779cae
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 会議への参加を管理し、会議にアナウンスを残す方法についてSkype for Business Server。'
+ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290385"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Skype for Business Server で会議への参加と退出のお知らせを管理する
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>会議への参加を管理し、会議のアナウンスをSkype for Business Server
  
-**概要:** Skype for Business Server で会議への参加とアナウンスを残す方法について学習します。
+**概要:** 会議への参加を管理し、会議に参加してアナウンスを残す方法については、Skype for Business Server。
   
-ダイヤルイン ユーザーが会議に参加または退出する場合、会議アナウンス アプリケーションは、トーンを再生するか、名前を言って、自分の入り口または退出をアナウンスできます。 次のパラメーターを使用して、Skype for Business Server 管理シェルと **Set-CsDialinConferencing** コマンドレットを使用して、アナウンスの動作を変更できます。
+ダイヤルイン ユーザーが会議に参加または退出すると、会議アナウンス アプリケーショントーンを再生するか、名前を言って、入退場をアナウンスできます。 次のパラメーターを使用して、Skype for Business Server管理シェルおよび **Set-CsDialinConferencing** コマンドレットを使用して、アナウンスの動作を変更できます。
   
 - EnableNameRecording - 匿名の参加者が会議に参加する前に自分の名前を記録するかどうかを指定します。 既定値は "$true" で、匿名の参加者は会議に参加するときに名前を入力するように求めるメッセージが表示されます。 (認証された参加者は、表示名が代わりに使用されるので、自分の名前は記録されません)。
     
@@ -38,7 +38,7 @@ ms.locfileid: "51119456"
 
 1. RTCUniversalServerAdmins グループのメンバーか、Cs-ServerAdministrator または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。
     
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. コマンド プロンプトで次のコマンドを実行します。
     

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
-description: Backup-CcCertificationAuthority コマンドレットは、Skype for Business Cloud Connector エディションの証明機関サービスをファイルにバックアップして、サイト共有ディレクトリの下にある CA フォルダーに保存します。
-ms.openlocfilehash: 4e12b2349f5834866fc69442fb2947425416fe23
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このBackup-CcCertificationAuthorityコマンドレットは、Skype for Business クラウド コネクタ エディション証明機関サービスをファイルにバックアップし、サイト共有ディレクトリの CA フォルダーに保存します。
+ms.openlocfilehash: abf94977abe2a0c3548b549ae0101ae399e124769eaaa9f05aabf203c69656a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282959"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
-Backup-CcCertificationAuthority コマンドレットは、Skype for Business Cloud Connector エディションの証明機関サービスをファイルにバックアップして、サイト共有ディレクトリの下にある CA フォルダーに保存します。
+このBackup-CcCertificationAuthorityコマンドレットは、Skype for Business クラウド コネクタ エディション証明機関サービスをファイルにバックアップし、サイト共有ディレクトリの CA フォルダーに保存します。
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -37,7 +37,7 @@ Backup-CcCertificationAuthority
 
 ### <a name="example-1"></a>例 1
 
-次の例では、証明機関サービスをファイルにバックアップして、サイト共有ディレクトリの下にある CA フォルダーに保存します。
+次の使用例は、証明機関サービスをファイルにバックアップし、サイト共有ディレクトリの CA フォルダーに保存します。
   
 ```powershell
 Backup-CcCertificationAuthority 
@@ -46,12 +46,12 @@ Backup-CcCertificationAuthority
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-証明機関のバックアップは、障害が発生した場合に備えて、同じ証明書を使ってクラウドコネクタのアプライアンスを再展開する場合や、新しいハードウェアにアプライアンスを移行する場合に便利です。 このコマンドは、クラウドコネクタ証明機関サービスのコピーを AD サーバーから "\<SITEROOTDIRECTORY\>\CA\SfB CCE Root. p12" に保存します。
+証明機関のバックアップは、障害が発生した場合に同じ証明書を持つクラウド コネクタ アプライアンスを再展開する場合、またはアプライアンスを新しいハードウェアに移動する場合に役立ちます。 このコマンドは、クラウド コネクタ証明機関サービスのコピーを ADサーバーから \<SiteRootDirectory\> "\CA\SfB CCE Root.p12" に保存します。
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Backup-CcCertificationAuthority コマンドレットはパイプライン入力を受け入れません。
+なし。 このBackup-CcCertificationAuthorityは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

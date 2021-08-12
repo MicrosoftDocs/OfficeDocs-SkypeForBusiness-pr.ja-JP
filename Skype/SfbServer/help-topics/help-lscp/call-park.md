@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: 呼び出しがパークされている場合、通話は一時的な番号に転送され、呼び出しは誰かが呼び出しを取得するか、または時間が切れるまで保持されます。パークされた呼び出しのために予約する内線番号の範囲を持つテーブルを構成する必要があります。 これらの内線番号は仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要あがります。 コール パーク アプリケーションを実行する各プールには、1 つ以上の範囲の拡張機能を使用できます。 これらの範囲は、展開全体でグローバルに一意である必要があります。
-ms.openlocfilehash: 30e0493c065c8bcd16b8d18a625c2650522ee8ee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 025dc470a31fef85f28df9fed5ec611880547d609e461eb7a6ce485b7ffb646e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334219"
 ---
 # <a name="call-park"></a>コール パーク
 
@@ -58,4 +58,4 @@ ms.locfileid: "51095401"
 
 - **宛先** 番号範囲のコール パーク アプリケーションをホストする Application サービスの完全修飾ドメイン名 (FQDN) またはサービス ID。
 
-通話パークの機能の詳細については [、「Plan for Call Park in Skype for Business 2015」を参照してください](../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 コール パーク番号範囲の操作の詳細については [、「Configure Phone Number Extensions for Parking Call」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)。
+コール パークの機能の詳細については[、「Plan for Call Park in Skype for Business 2015」を参照](../../plan-your-deployment/enterprise-voice-solution/call-park.md)してください。 コール パーク番号範囲の操作の詳細については[、「Configure 電話番号拡張機能」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)。

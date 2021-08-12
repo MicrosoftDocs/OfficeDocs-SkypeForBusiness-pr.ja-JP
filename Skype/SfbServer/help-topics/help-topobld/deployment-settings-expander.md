@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 次のセクションを使用して、既存の展開のプロパティを編集できます。
-ms.openlocfilehash: a49fe0872d83011c433d011e1bb5ce7a348f1bd2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 79a2ab248e27037edf62ade9a3e9689d06be50c90a5fff33ab5b61acdaa5c355
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333719"
 ---
 # <a name="deployment-settings-expander"></a>展開設定エキスパンダー
 
@@ -73,7 +73,7 @@ URL を削除する必要がある場合は、URL を選択し、**[削除]** �
 > [!IMPORTANT]
 > インフラストラクチャの中央管理ストアを定義、発行、展開した後は、外部プロセスによって中央管理ストアを別のフロント エンドに再配置せずに、中央管理ストアの場所を変更することはできません。
 
-サーバーの全体管理ストアの移動の詳細については [、「Move-CsManagementServer」](/powershell/module/skype/move-csmanagementserver?view=skype-ps) を参照してください。Windows PowerShell参照してください。
+サーバーの全体管理ストアの移動の詳細については[、「Move-CsManagementServer」](/powershell/module/skype/move-csmanagementserver?view=skype-ps)を参照してください。Windows PowerShell参照してください。
 
 ## <a name="see-also"></a>関連項目
 

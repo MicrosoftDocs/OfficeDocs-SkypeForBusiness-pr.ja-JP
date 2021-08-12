@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でフロントエンド サーバーを管理する
+title: '[フロントエンド サーバーの管理] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: '概要: Skype for Business Server のフロント エンド サーバーを追加、削除、修正、または更新する方法について学習します。'
-ms.openlocfilehash: 24527a5f973b21c35e386f0565ac6deb69e15070
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: フロントエンド サーバーを追加、削除、パッチ、または更新する方法についてSkype for Business Server。'
+ms.openlocfilehash: b091f1fd74cfd2c3d93ee14e9ea6f1b584ec4111443b99f881786e94e038d8b2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103193"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290305"
 ---
-# <a name="manage-front-end-servers-in-skype-for-business-server"></a>Skype for Business Server でフロントエンド サーバーを管理する
+# <a name="manage-front-end-servers-in-skype-for-business-server"></a>[フロントエンド サーバーの管理] Skype for Business Server
  
 この記事では、フロントエンド サーバーを追加または削除する方法、およびフロントエンド サーバーにアップグレードまたはパッチを適用する方法について説明します。
 
   > [!NOTE]
-> Skype for Business Server 2019 は、2 台のフロント エンド サーバーを持つ Enterprise Edition フロントエンド プールをサポートしていないので、そのシナリオではトポロジを公開できません。
+> Skype for Business Server 2019 では、2 Enterprise Edition フロントエンド プールをサポートしていないので、そのシナリオではトポロジを公開できません。
 
 ## <a name="add-or-remove-front-end-servers"></a>フロントエンド サーバーを追加または削除する
   
@@ -54,7 +54,7 @@ ms.locfileid: "51103193"
     > トポロジ内のプールにサーバーを追加または削除し、更新されたトポロジを公開すると、プール内のすべてのサーバーが同時に再起動されます。 サーバーがプールを再起動している間はオフラインで、そのプールに接続されているユーザーのサービスが中断されます。 ユーザーへのサービスの中断を防ぐには、非営業時間内にプール内の新しいサーバーでトポロジを公開する計画を立てします。 
   
   > [!NOTE]
-> また、プールにサーバーを追加または削除する場合は、追加または削除された各コンピューターで Skype for Business Server 展開ウィザードを実行する必要があります。詳細については、「トポロジ内のサーバーに[Skype for Business Server](../../deploy/install/install-skype-for-business-server.md)をインストールする」を参照してください。
+> また、プールにサーバーを追加または削除する場合は、追加または削除された各コンピューターで Skype for Business Server 展開ウィザードを実行する必要があります。詳細については、「トポロジ内のサーバーに Skype for Business Server をインストールする」を[参照してください](../../deploy/install/install-skype-for-business-server.md)。
   
 4. 次の方法でフロントエンド プール内のサーバーの数を変更した場合は、次のコマンドレットを入力してプールをリセットします。Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn 
     

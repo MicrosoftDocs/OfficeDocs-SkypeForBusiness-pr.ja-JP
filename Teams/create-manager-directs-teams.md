@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa7c82ec584791107e5d269ee40bccba272d20b4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ce7fb0a34f202481df0062367ec7a905b84848d21e7a2e5e4bce73bea4073eac
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282810"
 ---
 # <a name="create-people-manager-teams-in-microsoft-teams"></a>Microsoft Teams で People Manager チームを作成する
 
@@ -42,7 +42,7 @@ ms.locfileid: "51094413"
 
 - 2020 年 3 月 8 日のブログ投稿「Microsoft Teams + Power Platform を使用して危機的な通信を調整する」を参照して、新しいクライ[シス コミュニケーション アプリを確認してください](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/coordinate-crisis-communications-using-microsoft-teams-power/ba-p/1216715)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [チームを編成するためのベスト プラクティス](best-practices-organizing.md)
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: このページのプロパティを構成して、エッジ サーバーが Access Edge サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスの外部の場所を指し示します。
-ms.openlocfilehash: b93330d1e3e93d516264748fedba1ad1b6bde4da
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7b903009cee0633a04a5c1fb335418ec3c2a3b0a0a0c0128ff993be71203f2c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291085"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>エッジ サーバー外部 IP の追加 (2010)
 

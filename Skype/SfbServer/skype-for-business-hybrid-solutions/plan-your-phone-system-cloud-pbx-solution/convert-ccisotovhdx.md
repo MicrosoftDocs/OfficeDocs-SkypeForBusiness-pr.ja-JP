@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
-description: Convert-CcIsoToVhdx コマンドレットは、顧客支給の Windows Server 2012 R2 ISO ファイルを使用してベース仮想ハード ディスク　ファイル (VHDX) を作成します。VHDX ファイルは、Skype for Business Cloud Connector エディションの展開時に使用されます。
-ms.openlocfilehash: f6b16c27b82919f24b9ee0e3094fb03fffa6443b
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このConvert-CcIsoToVhdxは、R2 ISO ファイルで提供された顧客を使用して、基本仮想ハード ディスク ファイル (VHDX) Windows Server 2012作成します。 VHDX ファイルは、仮想マシンの展開中にSkype for Business クラウド コネクタ エディション。
+ms.openlocfilehash: d168155c918ba1e8a3a576e543eed6693d0fb6faa5bd4fc23efd8c95b2b50fa1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349549"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
-Convert-CcIsoToVhdx コマンドレットは、顧客支給の Windows Server 2012 R2 ISO ファイルを使用してベース仮想ハード ディスク　ファイル (VHDX) を作成します。VHDX ファイルは、Skype for Business Cloud Connector エディションの展開時に使用されます。
+このConvert-CcIsoToVhdxは、R2 ISO ファイルで提供された顧客を使用して、基本仮想ハード ディスク ファイル (VHDX) Windows Server 2012作成します。 VHDX ファイルは、仮想マシンの展開中にSkype for Business クラウド コネクタ エディション。
   
 ```powershell
 Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpdate]
@@ -30,18 +30,18 @@ Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpd
 
 ## <a name="parameters"></a>パラメーター
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-|IsoFilePath  <br/> | 必須 <br/> |System.String  <br/> | Windows Server 2012 R2 ISO ファイルのパス。 <br/> |
-|GeneralizeOnly  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |Windows の更新中に変換処理が失敗する場合は、ネットワーク/プロキシの構成を行い、手動で Windows を更新することができます。手動による作業が完了したら、-GeneralizeOnly　パラメーターを指定したコマンドレットを実行して残りのジョブを完了することができます。  <br/> |
-|PauseBeforeUpdate  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |Windows を更新するために、ベース VM で手動によるネットワーク/プロキシの構成が必要になる場合があります。このパラメーターが指定されている場合、Windows の更新前に変換プロセスは一時停止します。手動による構成を完了した後に、プロセスを再開できます。  <br/> |
+|IsoFilePath  <br/> | 必須 <br/> |System.String  <br/> | R2 ISO ファイルWindows Server 2012パス。 <br/> |
+|GeneralizeOnly  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |更新中に変換プロセスがWindows場合は、ネットワーク/プロキシを構成し、手動でWindowsできます。 手動作業が完了したら、-GeneralizeOnly パラメーターを使用してこのコマンドレットを実行すると、残りのジョブが完了します。  <br/> |
+|PauseBeforeUpdate  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |データベースを更新Windows、基本 VM 上の手動ネットワーク/プロキシ構成が必要になる場合があります。 このパラメーターが指定されている場合、Windowsが更新される前に、変換プロセスが一時停止します。 手動構成が完了したら、プロセスを再開できます。  <br/> |
    
 ## <a name="examples"></a>例
 <a name="Examples"> </a>
 
 ### <a name="example-1"></a>例 1
 
-次の例では、「C:\Windows_Server_2012_R2-EN-US-x64.ISO」に配置されている Windows Server 2012 R2 ISO ファイルを使用して、ベース VHDX ファイルを用意します。 
+次の例では、"C:\Windows_Server_2012_R2-EN-US-x64.ISO" にある Windows Server 2012 R2 ISO ファイルを使用してベース VHDX ファイルを準備します。 
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" 
@@ -49,7 +49,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 ### <a name="example-2"></a>例 2
 
-Windows update の実行時に、変換によって CcIsoToVhdx コマンドレットが失敗した場合は、ネットワーク/プロキシの構成が正しくないことが原因として考えられます。 エラー メッセージ内の指示に従って、ベース仮想マシンにログ オンしてこの問題を修正し、手動で Windows を更新することができます。 手動による作業が完了したら、-GeneralizeOnly パラメーターを指定したコマンドレットを再び実行して、残りのジョブを完了します。 
+更新中Convert-CcIsoToVhdxコマンドレットがWindows場合、ネットワーク/プロキシの構成が正しくない可能性があります。 エラー メッセージの指示に従って、基本仮想マシンにログオンして問題を解決し、手動でWindowsできます。 手動作業が完了したら、-GeneralizeOnly パラメーターを使用してコマンドレットを再度実行して、残りのジョブを完了します。 
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
@@ -57,7 +57,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Gene
 
 ### <a name="example-3"></a>例 3
 
-Windows を更新するのに手動による構成が必要な場合、-PauseBeforeUpdate パラメーターを使用できます。 このパラメーターを指定すると、Windows update プロセスの前にクラウドコネクタが一時停止します。 その後、手動による構成を完了して、次のように変換処理を再開できます。
+データを更新するために手動構成が必要Windows-PauseBeforeUpdate パラメーターを使用できます。 このパラメーターを使用すると、クラウド コネクタは更新プロセスの前Windows一時停止します。 次に、手動構成を完了し、次のように変換プロセスを再開できます。
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
@@ -66,12 +66,12 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Paus
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
--CcIsoToVhdx コマンドレットは、最初にベース VM を作成し、クラウドコネクタが依存する基本的なコンポーネントをインストールしてから、Windows の更新プログラムをインストールします。 最後に、仮想マシン (sysprep) を generalizes して、クラウドコネクタアプライアンスの仮想マシンで使用される基本 VHDX ファイルを取得します。 
+このConvert-CcIsoToVhdxは、最初に基本 VM を作成し、Cloud Connector が依存する基本的なコンポーネントをインストールし、次に更新プログラムWindowsします。 最後に、仮想マシン (sysprep) を一般化して、クラウド コネクタ アプライアンスの仮想マシンで使用されるベース VHDX ファイルを取得します。 
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Convert-CcIsoToVhdx　コマンドレットはパイプライン入力を受け入れません。 
+なし。 このConvert-CcIsoToVhdxは、パイプライン処理された入力を受け付け取らない。 
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

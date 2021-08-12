@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 新しい電話番号を取得し、電話会議、自動応答、通話キュー (サービス番号) の既存の番号をTeams。
-ms.openlocfilehash: 72436591411070ed7ffc67aab5d8d4470f39521d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d5bc1ebcb8fa6e9d14d013a8c3dcb886e92078b61a9947a0fb13183840928519
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315263"
 ---
 # <a name="getting-service-phone-numbers"></a>サービス電話番号を取得する
 
@@ -81,7 +81,7 @@ ms.locfileid: "51092235"
 
 サービス番号を取得した後、各番号を電話会議ブリッジに割り当てる。 「 [電話会議ブリッジの有料電話番号または無料電話番号を変更する」を参照してください](./change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話システムで利用できる機能](./here-s-what-you-get-with-phone-system.md)
 

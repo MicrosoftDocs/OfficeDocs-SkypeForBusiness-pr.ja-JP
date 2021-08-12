@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 での共有回線の外観の展開
+title: 2015 年に共有回線の外観をSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,25 +16,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
-description: このトピックでは、Skype for Business Server 2015、2015 年 11 月の累積的な更新プログラムで共有回線の外観 (SLA) を展開する方法について説明します。 SLA は、共有番号と呼ばれる特定の番号で複数の呼び出しを処理する機能です。
-ms.openlocfilehash: 7758354b7c4be123cb9b5a482af3304b069931a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: このトピックでは、2015 年 11 月 2015 年 11 月の累積的な更新プログラムで共有回線の外観 (SLA) を展開するSkype for Business Server説明します。 SLA は、共有番号と呼ばれる特定の番号で複数の呼び出しを処理する機能です。
+ms.openlocfilehash: de0b0d54fed0b76c1e20b67b743dfef2c4f784589b2eb3867529201493242e32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314913"
 ---
-# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での共有回線の外観の展開
+# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>2015 年に共有回線の外観をSkype for Business Server
 
-このトピックでは、Skype for Business Server 2015、2015 年 11 月の累積的な更新プログラムで共有回線の外観 (SLA) を展開する方法について説明します。 SLA は、共有番号と呼ばれる特定の番号で複数の呼び出しを処理する機能です。
+このトピックでは、2015 年 11 月 2015 年 11 月の累積的な更新プログラムで共有回線の外観 (SLA) を展開するSkype for Business Server説明します。 SLA は、共有番号と呼ばれる特定の番号で複数の呼び出しを処理する機能です。
 
-この機能の詳細については [、「Plan for Shared Line appearance in Skype for Business Server 2015」を参照してください](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)。
+この機能の詳細については[、「Plan for Shared Line appearance in Skype for Business Server 2015」を参照](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)してください。
 
-共有回線の外観 (SLA) は、Skype for Business Server 2015 年 11 月の累積的な更新プログラムの新機能です。 この機能を有効にするには、最初にこの累積的な更新プログラムを展開している必要があります。
+共有回線の外観 (SLA) は、2015 年 11 月 2015 年 11 月の累積的な更新プログラムSkype for Business Server新機能です。 この機能を有効にするには、最初にこの累積的な更新プログラムを展開している必要があります。
 
 ### <a name="install-shared-line-appearance"></a>共有行の外観をインストールする
 
-1. Skype for Business Server の後、2015 年 11 月の累積的な更新プログラムが展開された後、プール内の各フロント エンド サーバーで更新プログラム  `SkypeServerUpdateInstaller.exe` を実行します。
+1. 2015 Skype for Business Server 2015 年 11 月の累積的な更新プログラムが展開された後、プール内の各フロント エンド サーバーでこの更新プログラム `SkypeServerUpdateInstaller.exe` を実行します。
 
 2. インストーラーは SLA アプリケーションの最新バージョンを展開しますが、アプリケーションは既定では有効になっていません。 この機能は、以下に示す手順に従って有効になります。
 
@@ -68,7 +68,7 @@ ms.locfileid: "51104913"
 
     このSet-CsSlaConfiguration、SLAGroup1 エンタープライズ VoIP SLAGroup1 を SLA エンティティとしてマークし、SLAGroup1 の数が SLA グループの番号になります。 SLAGroup1 へのすべての呼び出しは、SLA グループ全体を呼び出します。
 
-    次の使用例は、SLAGroup1 という既存のユーザーの SLA グループエンタープライズ VoIP作成し、SLAGroup1 に割り当てられた番号を SLA メインライン番号として使用します。
+    次の使用例は、既存の エンタープライズ VoIP ユーザー SLAGroup1 の SLA グループを作成し、SLAGroup1 に割り当てられた番号を SLA メインライン番号として使用します。
 
     このコマンドは、新しい SLA グループの同時呼び出しの最大数を 3 に設定し、それを超える通話でビジー信号を聞き取る場合に設定します。
 
@@ -79,7 +79,7 @@ ms.locfileid: "51104913"
     新しい SLA グループSet-CsSlaConfiguration既存の SLA グループを変更する場合は、このグループを使用します。
 
     > [!NOTE]
-    > 指定する項目は、有効な既存のユーザー アカウント  `-Identity` エンタープライズ VoIP必要があります。
+    > 指定する項目は、有効な既存のユーザー アカウント `-Identity` エンタープライズ VoIP必要があります。
 
 2. [Add-CsSlaDelegates](/powershell/module/skype/add-cssladelegates?view=skype-ps)コマンドレットを使用してグループに代理人を追加します。
 
@@ -88,7 +88,7 @@ ms.locfileid: "51104913"
           <NameOfDelegate@domain>
    ```
 
-    次の使用例は、SLA グループにユーザーを追加します。 グループに追加する各ユーザーは、有効なユーザーエンタープライズ VoIP必要があります。
+    次の使用例は、SLA グループにユーザーを追加します。 グループに追加する各ユーザーは、有効なユーザーエンタープライズ VoIPする必要があります。
 
    ```powershell
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com
@@ -132,7 +132,7 @@ ms.locfileid: "51104913"
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    例:
+    次に例を示します。
 
   ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com

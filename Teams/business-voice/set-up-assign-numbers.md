@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 組織内のユーザーに電話番号Microsoft 365 Business Voiceを割り当てる方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0792b644c97194867c448ed67fb574bfb7735325
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: 6d4b32b6a255ef806e86848d068dc988548988a75fb76c16d2dc4334b0d51d7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105159"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282850"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>手順 5: Business Voice の電話番号をユーザーに割り当てる
 

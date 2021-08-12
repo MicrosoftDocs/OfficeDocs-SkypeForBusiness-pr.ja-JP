@@ -1,5 +1,5 @@
 ---
-title: フェーズ6パイロット展開から運用への移行
+title: フェーズ 6 パイロット展開から実稼働への移行
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: このセクションのトピックでは、Skype for Business Server 2019 の展開をパイロット展開から運用レベル展開に移行する前に完了する必要があるタスクについて説明します。
-ms.openlocfilehash: 2af1d78d866a935a975b3baa520f54fc780b0922
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: このセクションのトピックでは、Skype for Business Server 2019 の展開をパイロット展開から実稼働レベルの展開に移行する前に完了する必要があるタスクについて説明します。
+ms.openlocfilehash: aaeb1f30f71d802e91e7243ce6ce07c6da57167421d5c4f5ba98ea855c20e240
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315073"
 ---
 # <a name="phase-6-move-from-pilot-deployment-into-production"></a>フェーズ 6: パイロット展開から運用展開への移行
 
-このセクションのトピックでは、展開をパイロット展開から運用レベル展開に移行する前に完了し2019ておく必要があるタスクについて説明します。
+このセクションのトピックでは、Skype for Business Server 2019 の展開をパイロット展開から実稼働レベルの展開に移行する前に完了する必要があるタスクについて説明します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
@@ -30,6 +30,6 @@ ms.locfileid: "44752489"
     
 - [移行後の簡易 URL の変更](change-simple-urls-after-migration.md)
     
-- [残りのユーザーの Skype for Business Server 2019 への移動](move-remaining-users.md)
+- [残りのユーザーを 2019 Skype for Business Serverに移動する](move-remaining-users.md)
     
 

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 での常設チャット サーバーのコンプライアンス サービスの構成
+title: 2015 年の常設チャット サーバーのコンプライアンス Skype for Business Server構成する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: '概要: Skype for Business Server 2015 で常設チャット サーバー コンプライアンス サービスを構成する方法について学習します。'
-ms.openlocfilehash: ee7dbc3ad8e7eedcadcc60850e35b753c5fadb43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 2015 年に常設チャット サーバー コンプライアンス サービスを構成するSkype for Business Serverします。'
+ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815067"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349309"
 ---
-# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット サーバーのコンプライアンス サービスの構成
+# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバーのコンプライアンス Skype for Business Server構成する
 
-**概要:** Skype for Business Server 2015 で常設チャット サーバー コンプライアンス サービスを構成する方法について学習します。
+**概要:** 2015 年に常設チャット サーバー コンプライアンス サービスを構成するSkype for Business Serverします。
 
-常設チャットコンプライアンスを使用すると、管理者は常設チャット メッセージとアクティビティのアーカイブを維持できます。 Compliance Service は、参加者が次の場合を含め、各常設チャット サーバーの会話に関連するデータを記録およびアーカイブします。
+常設チャットのコンプライアンスにより、管理者は常設チャット メッセージとアクティビティのアーカイブを維持できます。 コンプライアンス サービスは、参加者を含む、常設チャット サーバーの各会話に関連するデータを記録およびアーカイブします。
 
 - 常設チャット ルームに参加する
 
@@ -38,12 +38,12 @@ ms.locfileid: "49815067"
 
 - ファイルをダウンロードする
 
-この情報は、必要に応じてコンプライアンス SQLから取得できます。 
+この情報は、必要に応じてコンプライアンス SQLデータベースから取得できます。 
 
 > [!NOTE]
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「Microsoft Teams のアップグレード [の開始」を参照してください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、Skype for Business Server 2015 を引き続き使用するかのどちらかを選択できます。 
+> 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「アップグレードの開始[方法」をMicrosoft Teamsしてください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、2015 年Skype for Business Serverします。 
 
-## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>次のコマンドを使用してコンプライアンス サービスをWindows PowerShell
+## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>ポリシーを使用してコンプライアンス サービスを構成Windows PowerShell
 
 トポロジ ビルダーを使用してコンプライアンス サービスを有効にした後 **、Set-CsPersistenChatComplianceConfiguration** コマンドレットを使用してサービスを構成できます。
 
@@ -59,31 +59,31 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 次のパラメーターを設定できます。
 
-- AdapterType - アダプターの種類を指定できます。 アダプターは、コンプライアンス データベースのデータを特定の形式に変換するサード パーティ製品です。 XML が既定です。
+- AdapterType - アダプターの種類を指定できます。 アダプターは、コンプライアンス データベース内のデータを特定の形式に変換するサード パーティ製品です。 XML は既定です。
 
 - OneChatRoomPerOutputFile - このパラメーターを使用すると、チャット ルームごとに個別のレポートを作成できます。
 
-- AddChatRoomDetails - 有効な場合、このパラメーターはデータベース内の各チャット ルームに関する追加の詳細を記録します。 この設定ではデータベースのサイズが大幅に増加する可能性があります。この設定は既定では無効になっています。
+- AddChatRoomDetails - 有効にすると、このパラメーターはデータベース内の各チャット ルームに関する追加の詳細を記録します。 この設定はデータベースのサイズを大幅に増やす可能性があるから、既定では無効になっています。
 
-- AddUserDetails - このパラメーターを有効にすると、データベース内の各チャット ルーム ユーザーに関する追加の詳細が記録されます。 この設定ではデータベースのサイズが大幅に増加する可能性があります。この設定は既定では無効になっています。
+- AddUserDetails - 有効にすると、このパラメーターはデータベース内の各チャット ルーム ユーザーに関する追加の詳細を記録します。 この設定はデータベースのサイズを大幅に増やす可能性があるから、既定では無効になっています。
 
-- Identity - このパラメーターを使用すると、グローバル レベル、サイト レベル、サービス レベルなど、特定のコレクションに対してコンプライアンス設定をスコープ設定できます。 既定値はグローバル レベルです。 
+- Identity - このパラメーターを使用すると、グローバル レベル、サイト レベル、サービス レベルなど、特定のコレクションのコンプライアンス設定をスコープ設定できます。 既定値はグローバル レベルです。 
 
 - RunInterval - このパラメーターは、サーバーが次のコンプライアンス出力ファイルを作成する時間を指定します (既定値は 15 分です)。
 
-## <a name="use-a-customized-compliance-adapter"></a>カスタマイズされたコンプライアンス アダプターを使用する
+## <a name="use-a-customized-compliance-adapter"></a>カスタマイズされたコンプライアンス アダプターの使用
 
-常設チャット サーバーと一緒にインストールされている XmlAdapter を使用する代わりに、カスタム アダプターを作成できます。 カスタム アダプターを記述するには、**IComplianceAdapter** インターフェイスを実装するパブリック クラスを含む .NET Framework アセンブリを提供する必要があります。 このアセンブリは、常設チャット サーバー プール内の各サーバーの常設チャット サーバー インストール フォルダーに配置する必要があります。 任意のコンプライアンス サーバーからアダプターにコンプライアンス データを提供できますが、コンプライアンス サーバーからアダプターの複数のインスタンスに対して重複するコンプライアンス データを提供することはできません。
+常設チャット サーバーにインストールされている XmlAdapter を使用する代わりに、カスタム アダプターを記述できます。 カスタム アダプターを記述するには、**IComplianceAdapter** インターフェイスを実装するパブリック クラスを含む .NET Framework アセンブリを提供する必要があります。 このアセンブリは、常設チャット サーバー プール内の各サーバーの常設チャット サーバー インストール フォルダーに配置する必要があります。 任意のコンプライアンス サーバーからアダプターにコンプライアンス データを提供できますが、コンプライアンス サーバーからアダプターの複数のインスタンスに対して重複するコンプライアンス データを提供することはできません。
 
-インターフェイスは、名前空間の Compliance.dll アセンブリで定義されます  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
+インターフェイスは、名前空間の Compliance.dllアセンブリで定義されます  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 。 このインターフェイスには、カスタム アダプターが実装する必要のある 2 つのメソッドが定義されています。
 
-常設チャット コンプライアンス サーバーは、アダプターが最初に読み込まれるときに次のメソッドを呼び出します。 コンプライアンス  `AdapterConfig` アダプターに関連する常設チャット コンプライアンス構成が含まれている。
+常設チャット コンプライアンス サーバーは、アダプターが最初に読み込まれるときに、次のメソッドを呼び出します。 コンプライアンス  `AdapterConfig` アダプターに関連する常設チャットコンプライアンス構成が含まれる。
 
 ```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-常設チャット コンプライアンス サーバーは、変換する新しいデータがある限り、定期的に次のメソッドを呼び出します。 この時間間隔は、常設チャット コンプライアンス  `RunInterval` 構成で設定されている時間と同じになります。
+常設チャット コンプライアンス サーバーは、翻訳する新しいデータがある限り、定期的に次のメソッドを呼び出します。 この時間間隔は、常設チャット コンプライアンス  `RunInterval` 構成で設定されている as と等しくなります。
 
 ```cpp
 void Translate(ConversationCollection conversations)
@@ -97,7 +97,7 @@ void Translate(ConversationCollection conversations)
 
 ### <a name="output-format"></a>出力形式
 
-コンプライアンス サービスの出力は、次のコード サンプルに示すように、会話 (Conversation 要素) とメッセージ (Messages 要素) に分類されます。
+コンプライアンス サービスの出力は、次のコード サンプルに示すように、会話 (Conversation 要素) とメッセージ (Message 要素) によって分類されます。
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -114,7 +114,7 @@ void Translate(ConversationCollection conversations)
 </Conversations>
 ```
 
-Conversation 要素には、4 つの要素 (Channel、FirstMessage、StartTimeUTC、EndTimeUTC) が含まれます。 Channel 要素にはチャット ルームの Uniform Resource Identifier (URI) が含まれます。FirstMessage 要素は Messages 要素の最初のメッセージを記述します。 StartTimeUTC 要素と EndTimeUTC 要素は、次のコード サンプルに示すように、会話の開始時間と終了時間を提供します。
+Conversation 要素には、チャネル、FirstMessage、StartTimeUTC、EndTimeUTC の 4 つの要素が含まれます。 Channel 要素にはチャット ルームの Uniform Resource IDENTIFIER (URI) が含まれています。FirstMessage 要素は Messages 要素の最初のメッセージを記述します。 StartTimeUTC 要素と EndTimeUTC 要素は、次のコード サンプルに示すように、会話の開始時間と終了時間を提供します。
 
 ```xml
 <FirstMessage type="JOIN" content="" id="0">
@@ -123,7 +123,7 @@ Conversation 要素には、4 つの要素 (Channel、FirstMessage、StartTimeUT
 </FirstMessage>
 ```
 
-Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属性 (Type、Content、ID) が含まれます。 Sender 要素はメッセージを送信するユーザーを表し、DateTimeUTC 要素は次のコード サンプルに示すように、イベントが発生する時期を表します。
+Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属性 (Type、Content、ID) が含まれます。 Sender 要素はメッセージを送信するユーザーを表し、DateTimeUTC 要素は次のコード サンプルに示すように、イベントが発生した場合を表します。
 
 ```xml
 <Message type="JOIN" content="" id="0">
@@ -136,9 +136,9 @@ Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属�
 
 **Messages 要素の属性**
 
-|**属性**|**説明**|**省略可能/必須**|
+|**属性**|**説明**|**オプション/必須**|
 |:-----|:-----|:-----|
-|種類  <br/> |メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明されています。  <br/> |必須  <br/> |
+|型  <br/> |メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明されています。  <br/> |必須  <br/> |
 |コンテンツ  <br/> |メッセージの内容が含まれます。Type が Join または Part であるメッセージはこの属性を使用しません。  <br/> |省略可能  <br/> |
 |ID  <br/> |コンテンツの一意の ID を指定します。この属性は、Type が Chat であるメッセージでのみ使用されます。  <br/> |省略可能  <br/> |
 
@@ -146,15 +146,15 @@ Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属�
 
 **Sender 要素の属性**
 
-|**属性**|**説明**|**省略可能/必須**|
+|**属性**|**説明**|**オプション/必須**|
 |:-----|:-----|:-----|
-|ユーザー名  <br/> |送信者の名前。  <br/> |省略可能  <br/> |
+|Username  <br/> |送信者の名前。  <br/> |省略可能  <br/> |
 |ID  <br/> |送信者の一意の ID。  <br/> |必須  <br/> |
-|メール  <br/> |送信者のメール アドレス。  <br/> |省略可能  <br/> |
+|電子メール  <br/> |送信者の電子メール アドレス。  <br/> |省略可能  <br/> |
 |内部  <br/> |ユーザーが内部ユーザーとフェデレーション ユーザーのどちらであるかを決定します。この値が True に設定されている場合、ユーザーは内部ユーザーです。  <br/> |省略可能  <br/> |
 |Uri  <br/> |ユーザーの SIP URI。  <br/> |必須  <br/> |
 
-次の例は、Messages 要素に含め可能なメッセージの種類を示しています。 また、各要素の使用方法の例を提供します。
+次の例は、Messages 要素に含まれるメッセージの種類を示しています。 また、各要素の使用方法の例を提供します。
 
 参加 - ユーザーがチャット ルームに参加します。
 
@@ -174,7 +174,7 @@ Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属�
 </Message>
 ```
 
-チャット - 送信者のメール アドレス。
+チャット - 送信者の電子メール アドレス。
 
 ```xml
 <Message type="CHAT" content="hello" id="1">
@@ -183,7 +183,7 @@ Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属�
 </Message>
 ```
 
-バックチャット - ユーザーがチャット履歴からコンテンツを要求します。
+Backchat - ユーザーがチャット履歴からコンテンツを要求します。
 
 ```xml
 <Message type="BACKCHAT" content="backchatcontent" id="0">
@@ -311,7 +311,7 @@ Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属�
 </xs:schema>
 ```
 
-次のコード サンプルには、サンプル XSL 変換が含まれます。
+次のコード サンプルには、XSL 変換のサンプルが含まれます。
 
 ```xml
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">

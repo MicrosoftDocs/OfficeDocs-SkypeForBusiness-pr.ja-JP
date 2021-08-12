@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: e02aca3c02f73bbb2835bc1ff2d949b1e3415a96
-  ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
+  ms.openlocfilehash: a1733e76c93b7be0a4a4d34da53beafa89325edf891cc39df66526769937397e
+  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 08/01/2021
-  ms.locfileid: "53679762"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54282949"
 title: よくあるご質問 - Skype for Business から Microsoft Teams へのアップグレード
 summary: ''
 sections:
@@ -78,7 +78,7 @@ sections:
       - [Skype for Business Online](upgrade-assisted.md)から Microsoft Teams への支援付きアップグレード – Skype for Business Online ユーザーを Teams にアップグレードする技術的な手順を支援する自動化されたプログラム。
 
 
-      - [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teamsプランで利用できるデプロイ サポートを提供します。
+      - [FastTrackのMicrosoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teamsプランで利用できるデプロイ サポートを提供します。
 
 
       - [Teamsライブ トレーニング](./instructor-led-training-teams-landing-page.yml)– 組織を稼働状態に戻すオンライン トレーニング クラスを無料Teams。

@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
-description: ユーザーの移動ウィザードを使用して、オンプレミス プールにホームに設定されているユーザー アカウントを Skype for Business Online に移動します。 詳細については、「ハイブリッド管理ウィザードを使用する」を参照してください。
-ms.openlocfilehash: ad4b4cce7a06b2cc01125d2bc6c630e977b53e08
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[ユーザーの移動] ウィザードを使用して、オンプレミス プールにユーザー アカウントを移動し、オンラインSkype for Businessします。 詳細については、「Use the Hybrid Manageability wizard」を参照してください。'
+ms.openlocfilehash: 15cf58026797898441bd92e12842c5c87d4e4665ddf4065c5056c8b630b510e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334209"
 ---
 # <a name="hybrid-wizard-move-user"></a>ハイブリッド ウィザード: ユーザーの移動
 
-ユーザーの移動ウィザードを使用して、オンプレミス プールにホームに設定されているユーザー アカウントを Skype for Business Online に移動します。 詳細については、「ハイブリッド管理 [ウィザードを使用する」を参照してください](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。
+[ユーザーの移動] ウィザードを使用して、オンプレミス プールにユーザー アカウントを移動し、オンラインSkype for Businessします。 詳細については、「Use [the Hybrid Manageability wizard」を参照してください](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx)。
 
 

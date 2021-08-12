@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での緊急通話の要件の定義
+title: 電話での緊急通話の要件を定義Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
-description: SIP トランク E9-1-1 サービス プロバイダーまたは ELIN ゲートウェイの種類に応じて、Skype for Business Server エンタープライズ VoIP で E9-1-1 を有効にするために必要な手順の概要を示します。
-ms.openlocfilehash: 8efd38657a80bee1ecd979e8730feacfb980053e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: SIP トランク E9-1-1 サービス プロバイダーか ELIN ゲートウェイかによって、Skype for Business Server エンタープライズ VoIP で E9-1-1 を有効にするために必要な手順を要約します。
+ms.openlocfilehash: 881bb361598d63b3222a3391ff88327a148f55d9d2d680c7ade0ecb1c19f31b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283099"
 ---
-# <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Skype for Business Server での緊急通話の要件の定義
+# <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>電話での緊急通話の要件を定義Skype for Business Server
  
-SIP トランク E9-1-1 サービス プロバイダーまたは ELIN ゲートウェイの種類に応じて、Skype for Business Server エンタープライズ VoIP で E9-1-1 を有効にするために必要な手順の概要を示します。
+SIP トランク E9-1-1 サービス プロバイダーか ELIN ゲートウェイかによって、Skype for Business Server エンタープライズ VoIP で E9-1-1 を有効にするために必要な手順を要約します。
   
-Skype for Business Server E9-1-1 の展開を開始する前に、まず次のセクションで説明する質問に回答する必要があります。 必要な計画は、展開する E9-1-1 ソリューションの種類 (SIP トランク E9-1-1 サービス プロバイダー、または緊急位置識別番号 (ELIN) ゲートウェイ) によって異なります。 次の表は、これらの各ソリューションについて確認する必要がある、この計画ブック内のセクションを示しています。
+E9-1-1 Skype for Business Serverを開始する前に、まず、次のセクションで説明する質問に答える必要があります。 必要な計画は、展開する E9-1-1 ソリューションの種類 (SIP トランク E9-1-1 サービス プロバイダー、または緊急位置識別番号 (ELIN) ゲートウェイ) によって異なります。 次の表に、これらの各ソリューションについて確認する必要があるこの計画ブックのセクションを示します。
   
 **E9-1-1 ソリューションの種類別の計画手順**
 
 |**SIP トランク サービス プロバイダー**|**ELIN ゲートウェイ**|
 |:-----|:-----|
-|[Skype for Business Server での E9-1-1 展開のスコープの定義](scope.md) <br/> |[Skype for Business Server での E9-1-1 展開のスコープの定義](scope.md) <br/> |
-|[Skype for Business Server での場所の決定に使用するネットワーク要素を定義する](network-location.md) <br/> |[Skype for Business Server での場所の決定に使用するネットワーク要素を定義する](network-location.md) <br/> |
-|[Skype for Business Server で E9-1-1 のユーザーを有効にする](enable-users.md) <br/> |[Skype for Business Server で E9-1-1 のユーザーを有効にする](enable-users.md) <br/> |
-|[Skype for Business Server で SIP トランク サービス プロバイダーの場所を管理する](manage-locations.md) <br/> |[Skype for Business Server で ELIN ゲートウェイの場所を管理する](elin-gateways.md) <br/> |
-|[Skype for Business Server で場所を手動で取得するためのユーザー エクスペリエンスを定義する](manually-acquiring-a-location.md) <br/> |[Skype for Business Server で場所を手動で取得するためのユーザー エクスペリエンスを定義する](manually-acquiring-a-location.md) <br/> |
-|[Skype for Business Server で E9-1-1 の SIP トランクを設計する](design-the-sip-trunk.md) <br/> |[Skype for Business Server にセキュリティ デスクを含める](security-desk.md) <br/> |
-|[Skype for Business Server にセキュリティ デスクを含める](security-desk.md) <br/> |[Skype for Business Server の場所ポリシーを計画する](location-policies.md) <br/> |
-|[Skype for Business Server の E9-1-1 サービス プロバイダーを選択する](choose-a-service-provider.md) <br/> |[Skype for Business Server で場所ポリシースコープを割り当てる](location-policy-scope.md) <br/> |
-|[Skype for Business Server の場所ポリシーを計画する](location-policies.md) <br/> ||
-|[Skype for Business Server で場所ポリシースコープを割り当てる](location-policy-scope.md) <br/> ||
+|[E9-1-1 展開のスコープを定義するSkype for Business Server](scope.md) <br/> |[E9-1-1 展開のスコープを定義するSkype for Business Server](scope.md) <br/> |
+|[ネットワーク内の場所を決定するために使用するネットワーク要素をSkype for Business Server](network-location.md) <br/> |[ネットワーク内の場所を決定するために使用するネットワーク要素をSkype for Business Server](network-location.md) <br/> |
+|[E9-1-1 でユーザーを有効Skype for Business Server](enable-users.md) <br/> |[E9-1-1 でユーザーを有効Skype for Business Server](enable-users.md) <br/> |
+|[SIP トランク サービス プロバイダーの場所を管理Skype for Business Server](manage-locations.md) <br/> |[ELIN ゲートウェイの場所を管理Skype for Business Server](elin-gateways.md) <br/> |
+|[手動で場所を取得するためのユーザー エクスペリエンスを定義Skype for Business Server](manually-acquiring-a-location.md) <br/> |[手動で場所を取得するためのユーザー エクスペリエンスを定義Skype for Business Server](manually-acquiring-a-location.md) <br/> |
+|[E9-1-1 の SIP トランクを設計Skype for Business Server](design-the-sip-trunk.md) <br/> |[セキュリティ デスクを [セキュリティ デスク] にSkype for Business Server](security-desk.md) <br/> |
+|[セキュリティ デスクを [セキュリティ デスク] にSkype for Business Server](security-desk.md) <br/> |[ユーザーの場所ポリシーを計画Skype for Business Server](location-policies.md) <br/> |
+|[E9-1-1 サービス プロバイダーを選択して、Skype for Business Server](choose-a-service-provider.md) <br/> |[[場所ポリシーのスコープを割り当てる] Skype for Business Server](location-policy-scope.md) <br/> |
+|[ユーザーの場所ポリシーを計画Skype for Business Server](location-policies.md) <br/> ||
+|[[場所ポリシーのスコープを割り当てる] Skype for Business Server](location-policy-scope.md) <br/> ||
    
 

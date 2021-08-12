@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ハンガリーの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: c47511d5f50071f20e19bb5929424632e212d962
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 00baf90acc5401320029c8903d8a36e41f8f68c5f05e33061d3a2af70092a53f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510028"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315243"
 ---
 # <a name="phone-number-management-for-hungary"></a>電話の番号管理
 
@@ -41,7 +41,7 @@ ms.locfileid: "53510028"
 |転送された電話番号を取得します。<br/> | このフォームをダウンロードします。 <br/>[ハンガリーの承認状 (LOA) (すべての番号) (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、移行に 2 ~ 3 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。   |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
 ## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

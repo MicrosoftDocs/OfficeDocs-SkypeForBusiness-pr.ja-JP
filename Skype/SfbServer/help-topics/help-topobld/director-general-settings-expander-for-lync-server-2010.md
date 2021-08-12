@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
-description: ディレクターまたはディレクター プールの全般プロパティを構成するには、次の手順を実行します。
-ms.openlocfilehash: e31dcf72297bfcbc9afd4f45e232de71c5620b7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: ディレクター またはディレクター プールの全般プロパティを構成するには、次の手順を実行します。
+ms.openlocfilehash: 7f0e7e80f024c3245907750deeb5c7f30bf3fd7b27c5f9283dd2e49544495a3a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835357"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333709"
 ---
 # <a name="director-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のディレクターの全般設定エキスパンダー
  
-ディレクター **またはディレクター** プールの全般プロパティを構成するには、次の手順を実行します。
+ディレクター または **ディレクター プール** の全般プロパティを構成するには、次の手順を実行します。
   
  **FQDN**: ディレクターまたはディレクター プールの完全修飾ドメイン名を入力します。
   
@@ -34,9 +34,9 @@ ms.locfileid: "49835357"
   
 [**新規**] をクリックして、新しいファイル ストアを定義します。
   
-[監視 **サーバーの関連付け** ] チェック ボックスをオンにして、一覧から監視サーバーを選択します。
+[監視サーバー **の関連付け** ] チェック ボックスをオンにして、一覧から監視サーバーを選択します。
   
-[ **新規] を** クリックして新しい監視サーバーを定義する
+[新規 **] を** クリックして新しい監視サーバーを定義します。
   
  [**OK**]: ダイアログでの変更を受け入れて確定します。
   
