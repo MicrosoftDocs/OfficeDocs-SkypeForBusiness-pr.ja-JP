@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: 通話プランと電話会議の無料ダイヤルMicrosoft 365またはOffice 365電話会議のOffice 365についてMicrosoft Teams。
-ms.openlocfilehash: 0f40e35e30de5698ffcb4bf9592868685d8223ed
-ms.sourcegitcommit: 212b2985591ca1109eb3643fbb49d8b18ab07a70
+ms.openlocfilehash: bf82b9ffc24000244a2666dedf2bb3ff8cd280cb476d6550747807411a4b9475
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "49918883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347392"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 
@@ -48,7 +48,7 @@ microsoft が Microsoft 365 または Office 365 電話会議サービスを導�
 
 さらに、無料のダイヤルアウト期間中は、次のように 900 分の制限があります。
 
-任意の国のライセンス使用場所 (場所は Microsoft 365 管理センターのライセンス領域で定義されているユーザーの国の場所) を持つユーザーは、会議から 44 ゾーン[A](audio-conferencing-zones.md)の国と地域にダイヤルアウトできます。 各ユーザーは、テナント レベルでプールされているゾーン[A](audio-conferencing-zones.md)の国と地域に対して、ユーザーあたり 1 か月あたり 900 分を受け取ります。  たとえば、顧客が 115 の電話会議サブスクリプション ライセンスを購入し、米国に 10 人のユーザー、英国で 100 人、インドに 5 人のユーザーを持ち、すべて電話会議サブスクリプション ライセンスがユーザーに割り当てられているとします。
+任意の国のライセンス使用場所 (場所は Microsoft 365 管理センター のライセンス領域で定義されているユーザーの国の場所) を持つユーザーは、会議から 44 ゾーン[A](audio-conferencing-zones.md)の国と地域にダイヤルアウトできます。 各ユーザーは、テナント レベルでプールされているゾーン[A](audio-conferencing-zones.md)の国と地域に対して、ユーザーあたり 1 か月あたり 900 分を受け取ります。  たとえば、顧客が 115 の電話会議サブスクリプション ライセンスを購入し、米国に 10 人のユーザー、英国で 100 人、インドに 5 人のユーザーを持ち、すべて電話会議サブスクリプション ライセンスがユーザーに割り当てられているとします。
 
 - 115 人のユーザー全員が(115 ユーザー X 900 分) = 103,500 会議ダイヤルアウト分/カレンダー月のプールを共有します。これは、ゾーン [A](audio-conferencing-zones.md)の国と地域に発信通話を発信するために使用できます。
 
@@ -65,7 +65,7 @@ microsoft が Microsoft 365 または Office 365 電話会議サービスを導�
 
 通信クレジットの詳細については、「通信クレジット」 [を参照してください](what-are-communications-credits.md)。
      
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [電話会議の国と地域のゾーン](audio-conferencing-zones.md)

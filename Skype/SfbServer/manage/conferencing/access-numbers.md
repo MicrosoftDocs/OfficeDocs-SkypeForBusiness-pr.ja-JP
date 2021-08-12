@@ -1,5 +1,5 @@
 ---
-title: 'Skype for Business Server でダイヤルイン会議アクセス番号を管理する '
+title: 'ダイヤルイン会議のアクセス番号を管理Skype for Business Server '
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
-description: '概要: Skype for Business Server でダイヤルイン会議アクセス番号を管理する方法について説明します。'
-ms.openlocfilehash: 4008293015beaa684f9a3d9fa0ec0dedf05e5b2b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: ダイヤルイン会議アクセス番号を管理する方法については、Skype for Business Server。'
+ms.openlocfilehash: 58e4de5a2c429a5e36a43f90793fc1e12939b1d235b846ae8db372a2b13d8135
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099153"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302501"
 ---
-# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Skype for Business Server でダイヤルイン会議アクセス番号を管理する
+# <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>ダイヤルイン会議のアクセス番号を管理Skype for Business Server
  
-**概要:** Skype for Business Server でダイヤルイン会議アクセス番号を管理する方法について説明します。
+**概要:** ダイヤルイン会議アクセス番号を管理する方法については、Skype for Business Server。
   
 ダイヤルイン会議を展開するときには、ユーザーが公衆交換電話網 (PSTN) からダイヤルして電話会議のオーディオ部分に参加するための電話番号を設定する必要があります。 それらのダイヤルイン アクセス番号は、ミーティングの招待状と [ダイヤルイン会議の設定] Web ページに表示されます。 
   
-このトピックでは、既存のダイヤルイン会議アクセス番号を表示、変更、または削除する方法について説明します。 初期ダイヤルイン アクセス番号を作成する方法の詳細については [、「Configure dial-in conferencing in Skype for Business Server」を参照してください](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
+このトピックでは、既存のダイヤルイン会議アクセス番号を表示、変更、または削除する方法について説明します。 初期ダイヤルイン アクセス番号を作成する方法の詳細については[、「Configure dial-in conferencing in Skype for Business Server」 を参照してください](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>ダイヤルイン会議アクセス番号の表示
 
-Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して、ダイヤルイン会議アクセス番号を表示できます。
+ダイヤルイン会議アクセス番号は、Skype for Business Server管理シェルを使用Skype for Business Serverできます。
   
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してダイヤルイン アクセス番号を表示する
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用してダイヤルイン アクセスSkype for Business Server表示する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで [**会議**] をクリックし、[**ダイヤルイン アクセス番号**] をクリックします。
     
@@ -43,7 +43,7 @@ Skype for Business Server コントロール パネルを使用するか、Skype
     
 5. [ **編集] で**、[詳細の **表示] チェック ボックス** をオンにします。
     
-### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してダイヤルイン アクセス番号を表示する
+### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してダイヤルイン アクセス番号Skype for Business Server表示する
 
 ダイヤルイン アクセス番号に関する情報を表示するには **、Get-CsDialInConferencingAccessNumber コマンドレットを使用** します。
   
@@ -74,13 +74,13 @@ Regions            : {US}
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>ダイヤルイン会議アクセス番号の変更
 
-ダイヤルイン アクセス番号は、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して変更できます。
+ダイヤルイン アクセス番号は、コントロール パネルを使用するか、Skype for Business Server管理シェルを使用Skype for Business Server変更できます。
   
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してダイヤルイン アクセス番号を変更する
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用してダイヤルイン アクセスSkype for Business Server変更する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで [**会議**] をクリックし、[**ダイヤルイン アクセス番号**] をクリックします。
     
@@ -91,9 +91,9 @@ Regions            : {US}
   
 5. [ **表示番号]** に、公衆交換電話網 (PSTN) 電話ユーザーが電話会議に参加するためにダイヤルする電話番号を入力します。 
     
-    この番号は、会議出席依頼とダイヤルイン会議の設定 Web ページに表示されます。
+    この番号は、会議出席依頼とダイヤルイン会議 web ページ設定されます。
     
-6. [ **表示名]** に、ダイヤルイン アクセス番号の説明を入力します。 これは、Skype for Business 検索結果のダイヤルイン アクセス番号に関連付けられている名前です。
+6. [ **表示名]** に、ダイヤルイン アクセス番号の説明を入力します。 これは、検索結果のダイヤルイン アクセス番号に関連付Skype for Businessです。
     
     この名前は、ユーザーがアクセス番号を呼び出す際にクライアントに表示されます。 
     
@@ -109,16 +109,16 @@ Regions            : {US}
     > [!NOTE]
     > 同じ SIP URI を別のダイヤルイン会議アクセス番号で再利用することはできません。 SIP URI は、アクセス番号の作成後に変更できません。 SIP URI を変更する唯一の方法は、アクセス番号を削除して再作成する方法です。 
   
-   ドロップダウン リスト ボックスで、このダイヤルイン アクセス番号をサポートする会議応答アプリケーションのドメインをクリックします。
+   ドロップダウン リスト ボックスで、このダイヤルイン アクセス番号をサポート会議アテンダント アプリケーションのドメインをクリックします。
     
-9. [ **プール]** で、このダイヤルイン アクセス番号をサポートする会議アテンダントのインスタンスを実行しているプールをクリックします。
+9. [**プール]** で、このダイヤルイン アクセス番号をサポートする会議アテンダントインスタンスを実行しているプールをクリックします。
     
     > [!NOTE]
     > アクセス番号の作成後にプールを変更する必要がある場合は **、Move-CsApplicationEndpoint** コマンドレットを使用するか、アクセス番号を削除して再作成する必要があります。
   
 10. [ **プライマリ言語]** で、このダイヤルイン アクセス番号のプロンプトを再生する言語をクリックします。 
     
-    プライマリ言語は、会議アテンダントが通話に応答するために使用する言語です。 サポートされている言語は、[ダイヤルイン会議の設定] Web ページの各アクセス電話番号と一緒に表示されます。
+    プライマリ言語は、ユーザーが通話に応答会議アテンダント使用する言語です。 サポートされている言語は、ダイヤルイン会議 web ページの各アクセス電話番号設定されます。
     
 11. (省略可能)[セカンダリ言語 (最大 **4 言語)]** で、[追加] をクリックし、このダイヤルイン アクセス番号の発信者をサポートする 1 つ以上の追加言語を選択し **、[OK]** をクリックします。  
     
@@ -130,7 +130,7 @@ Regions            : {US}
     
 14. [**確定**] をクリックします。
     
-### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してダイヤルイン アクセス番号を変更する
+### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してダイヤルイン アクセスSkype for Business Server変更する
 
 ダイヤルイン アクセス番号を変更するには **、Set-CsDialInConferencingAccessNumber コマンドレットを使用** します。
   
@@ -150,13 +150,13 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>ダイヤルイン会議アクセス番号の削除
 
-Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して、ダイヤルイン会議アクセス番号を削除できます。
+ダイヤルイン会議アクセス番号は、コントロール パネルを使用するか、Skype for Business Server管理シェルを使用Skype for Business Serverできます。
   
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してダイヤルイン会議アクセス番号を削除する
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用してダイヤルイン会議アクセスSkype for Business Server削除する
 
 1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで [**会議**] をクリックし、[**ダイヤルイン アクセス番号**] をクリックします。
     
@@ -164,7 +164,7 @@ Skype for Business Server コントロール パネルを使用するか、Skype
     
 5. [**OK**] をクリックします。
     
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してダイヤルイン会議アクセス番号を削除する
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してダイヤルイン会議アクセス番号をSkype for Business Serverする
 
 ダイヤルイン会議アクセス番号を削除するには **、Remove-CsDialInConferencingAccessNumber を使用します**。
   

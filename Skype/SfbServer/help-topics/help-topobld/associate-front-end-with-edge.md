@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: 各フロントエンド プールには、エッジ サーバーまたはエッジ プールを 1 つしか関連付けできません。 サイトで外部ユーザーのアクセスを有効にする場合は、リモート ユーザーのサポートを提供できます。 また、特定のパブリック インスタント メッセージング (IM) 接続プロバイダー (Windows Live など) のユーザーのサポート、匿名ユーザーのサポートなど、フェデレーション ユーザーのサポートを有効にできます。
-ms.openlocfilehash: dcef84fdf63dc03c35a33650cca7f0f7c5de5900
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7f8f2e0e2a7b1f6a6366967ad5038cfdb0c3e14583567a7a4fc46ab88820091b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338265"
 ---
 # <a name="associate-front-end-with-edge"></a>フロント エンドとエッジの関連付け
 

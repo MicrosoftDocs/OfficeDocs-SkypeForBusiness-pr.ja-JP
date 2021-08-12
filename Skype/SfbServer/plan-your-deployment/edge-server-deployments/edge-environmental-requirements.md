@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のエッジ サーバー環境要件
+title: エッジ サーバーの環境要件 (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
-description: '概要: Skype for Business Server のエッジ サーバーの環境要件について説明します。'
-ms.openlocfilehash: 8370fb2c8fa8a9b1d083ba336decd85715e31d25
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: エッジ サーバーの環境要件について説明します。Skype for Business Server。'
+ms.openlocfilehash: c5ca6786d2935209930fe815ea32a24643febb18a7df87f29b26f3c396ca0c66
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095021"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302531"
 ---
-# <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Skype for Business Server のエッジ サーバー環境要件
+# <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>エッジ サーバーの環境要件 (Skype for Business Server
  
-**概要:** Skype for Business Server のエッジ サーバーの環境要件について説明します。
+**概要:** エッジ サーバーの環境要件について説明します。Skype for Business Server。
   
-多くの計画と準備は、Skype for Business Server エッジ サーバー環境自体の外部で行う必要があります。 この記事では、以下のリストに従って、組織環境でどのような準備を行う必要があるのかを確認します。
+多くの計画と準備は、エッジ サーバー環境自体の外部Skype for Business Server必要があります。 この記事では、以下のリストに従って、組織環境でどのような準備を行う必要があるのかを確認します。
   
 - [トポロジ計画](edge-environmental-requirements.md#TopoPlan)
     
@@ -40,7 +40,7 @@ ms.locfileid: "51095021"
 ## <a name="topology-planning"></a>トポロジ計画
 <a name="TopoPlan"> </a>
 
-Skype for Business Server エッジ サーバー トポロジでは、次の機能を使用できます。
+Skype for Business Serverエッジ サーバー トポロジでは、次の機能を使用できます。
   
 - Routable パブリック IP アドレス。
     
@@ -53,7 +53,7 @@ NAT を使用して送信できないプライベート IP アドレスを選択
   
 - 3 つの外部インターフェイスすべてで、ラウト可能なプライベート IP **アドレスを** 使用する必要があります。
     
-- 受信トラフィックと送信トラフィック **用に対称** NAT を構成する必要があります。 対称 NAT は、Skype for Business Server エッジ サーバーで使用できる唯一のサポートされる NAT です。
+- 受信トラフィックと送信トラフィック **用に対称** NAT を構成する必要があります。 対称 NAT は、エッジ サーバーで使用できる唯一Skype for Business Server NAT です。
     
 - 受信ソース アドレスを変更しない NAT を構成します。 A/V Edge サービスは、最適なメディア パスを見つけるために受信ソース アドレスを受信できる必要があります。
     
@@ -65,7 +65,7 @@ NAT を使用して送信できないプライベート IP アドレスを選択
   
 ### <a name="summary-of-edge-server-topology-options"></a>エッジ サーバー トポロジ オプションの概要
 
-Skype for Business Server エッジ サーバー展開では、次のトポロジ オプションを使用できます。
+エッジ サーバーの展開で使用できるトポロジ オプションSkype for Business Server用意されています。
   
 - プライベート IP アドレスと NAT を持つ単一統合エッジ
     
@@ -79,7 +79,7 @@ Skype for Business Server エッジ サーバー展開では、次のトポロ�
     
 1 つを選ぶのに役立つ、次の表に、各トポロジのオプションの概要を示します。
   
-|**トポロジ**|**高可用性**|**エッジ プールの外部エッジ サーバーに必要な追加の DNS レコード**|**Skype for Business Server セッションのエッジ フェールオーバー**|**Skype for Business Server フェデレーション セッションのエッジ フェールオーバー**|
+|**トポロジ**|**高可用性**|**エッジ プールの外部エッジ サーバーに必要な追加の DNS レコード**|**セッションのエッジ フェールオーバー Skype for Business Serverする**|**フェデレーション セッションのエッジ Skype for Business Serverフェールオーバー**|
 |:-----|:-----|:-----|:-----|:-----|
 |プライベート IP アドレスと NAT を持つ単一統合エッジ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
 |パブリック IP アドレスを持つ単一の統合エッジ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |
@@ -87,7 +87,7 @@ Skype for Business Server エッジ サーバー展開では、次のトポロ�
 |パブリック IP アドレスを使用した拡張統合エッジ (DNS 負荷分散)  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |はい&sup1;  <br/> |
 |ハードウェア ロード バランサーを使用した拡張統合エッジ  <br/> |はい  <br/> |いいえ (VIP ごとに 1 つの DNS A レコード)  <br/> |はい  <br/> |はい  <br/> |
    
-&sup1;DNS 負荷分散を使用した Exchange ユニファイド メッセージング (UM) リモート ユーザー フェールオーバーには、Exchange 2013 以降が必要です。
+&sup1;ExchangeDNS 負荷分散を使用したユニファイド メッセージング (UM) リモート ユーザー フェールオーバーには、2013 以降Exchange必要があります。
   
 ### <a name="ip-address-requirements"></a>IP アドレスの要件
 
@@ -102,10 +102,10 @@ Skype for Business Server エッジ サーバー展開では、次のトポロ�
 
 |**プールごとのエッジ サーバー数**|**DNS 負荷分散に必要な IP アドレスの数**|**ハードウェア負荷分散に必要な IP アドレスの数**|
 |:-----|:-----|:-----|
-|2  <br/> |6  <br/> |3 (VIP ごとに 1 つ) + 6  <br/> |
-|3  <br/> |9  <br/> |3 (VIP ごとに 1 つ) + 9  <br/> |
-|4  <br/> |12   <br/> |3 (VIP ごとに 1 つ) + 12  <br/> |
-|5  <br/> |15   <br/> |3 (VIP あたり 1) +15  <br/> |
+|2  <br/> |6   <br/> |3 (VIP ごとに 1 つ) + 6  <br/> |
+|3  <br/> |9   <br/> |3 (VIP ごとに 1 つ) + 9  <br/> |
+|4   <br/> |12   <br/> |3 (VIP ごとに 1 つ) + 12  <br/> |
+|5   <br/> |15  <br/> |3 (VIP あたり 1) +15  <br/> |
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>スケール統合エッジの IP アドレス要件 (すべての役割の単一 IP アドレス)
 
@@ -113,8 +113,8 @@ Skype for Business Server エッジ サーバー展開では、次のトポロ�
 |:-----|:-----|:-----|
 |2  <br/> |2  <br/> |1 (VIP ごとに 1 つ) + 2  <br/> |
 |3  <br/> |3  <br/> |1 ( VIP ごとに 1 つ) + 3  <br/> |
-|4  <br/> |4  <br/> |1 (VIP ごとに 1 つ) + 4  <br/> |
-|5  <br/> |5  <br/> |1 (VIP ごとに 1 つ) + 5  <br/> |
+|4   <br/> |4   <br/> |1 (VIP ごとに 1 つ) + 4  <br/> |
+|5   <br/> |5  <br/> |1 (VIP ごとに 1 つ) + 5  <br/> |
    
 計画中に考える追加のいくつかのことを見てみよ。
   
@@ -122,9 +122,9 @@ Skype for Business Server エッジ サーバー展開では、次のトポロ�
     
 - **ハードウェア負荷分散**: ほとんどのシナリオで DNS 負荷分散をお勧めします。 もちろん、ハードウェア負荷分散もサポートされますが、特に DNS 負荷分散を超える 1 つのシナリオで必要になります。
     
-  - Exchange 2007 または Exchange 2010 への外部アクセス (SP なし) ユニファイド メッセージング (UM)。
+  - 2007 または Exchange 2010 Exchange (SP なし) ユニファイド メッセージング (UM) への外部アクセス。
     
-- **DNS 負荷分散**: UM の場合、Exchange 2010 SP1 以降は DNS 負荷分散でサポートできます。 以前のバージョンの Exchange で DNS 負荷分散を行う必要がある場合は動作しますが、このためのすべてのトラフィックはプール内の最初のサーバーに移動し、使用できない場合は、その後トラフィックが失敗します。
+- **DNS 負荷分散**: UM の場合Exchange 2010 SP1 以降は DNS 負荷分散でサポートできます。 Exchange の以前のバージョンの DNS 負荷分散を使用する必要がある場合は動作しますが、このためのすべてのトラフィックはプール内の最初のサーバーに移動し、使用できない場合は、そのトラフィックは後で失敗します。
     
     DNS 負荷分散は、以下を使用して企業とフェデレーションする場合にも推奨されます。
 - Skype for Business Server 2015:
@@ -139,7 +139,7 @@ Skype for Business Server エッジ サーバー展開では、次のトポロ�
 ## <a name="dns-planning"></a>DNS 計画
 <a name="DNSPlan"> </a>
 
-Skype for Business Server エッジ サーバーの展開に関しては、DNS を適切に準備する必要があります。 適切なレコードが配置されている場合、展開ははるかに簡単になります。 上記のセクションでトポロジを選択したら、概要を実行し、それらのシナリオの DNS レコードの概要を示すいくつかのテーブルを一覧表示します。 また、必要に応じて、詳細な読み取りのために [、Skype for Business Server](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) 用の Advanced Edge Server DNS 計画もいくつか用意されています。
+エッジ サーバーの展開Skype for Business Server、DNS を適切に準備する必要があります。 適切なレコードが配置されている場合、展開ははるかに簡単になります。 上記のセクションでトポロジを選択したら、概要を実行し、それらのシナリオの DNS レコードの概要を示すいくつかのテーブルを一覧表示します。 また、必要に応じて、詳細な読み取りSkype for Business Server、高度なエッジ サーバー [DNS](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md)の計画もいくつか行います。
   
 ### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>単一統合エッジ サーバーシナリオの DNS レコード
 
@@ -175,17 +175,17 @@ Web 会議と音声ビデオ エッジのパブリック IP アドレスは、Wi
 > [!TIP]
 >他にも、次の構成が可能です。
   
-- 外部ネットワーク アダプターで 1 つの IP アドレスを使用できます。 これはお勧めしません。その後、異なるポートを使用してサービスを区別する必要がありますが (Skype for Business Server で実行できる) が、代替ポートをブロックするファイアウォールがいくつかあるためです。 詳細については [、「ポートとファイアウォールの計画」](edge-environmental-requirements.md#PortFirewallPlan) セクションを参照してください。
+- 外部ネットワーク アダプターで 1 つの IP アドレスを使用できます。 異なるポート (Skype for Business Server で実行できる) を使用してサービスを区別する必要がありますが、代替ポートをブロックするファイアウォールがいくつかあるため、この方法はお勧めしません。 詳細については [、「ポートとファイアウォールの計画」](edge-environmental-requirements.md#PortFirewallPlan) セクションを参照してください。
     
 - 1 つではなく 3 つの外部ネットワーク アダプターを使用し、サービス AP の 1 つをそれぞれに割り当てできます。 なぜこれを行うのですか? サービスが分離され、何か問題が発生した場合、トラブルシューティングが容易になり、問題を解決しながら他のサービスが動作し続ける可能性があります。
     
-|**Location**|**型**|**Port**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**注**|
+|**場所**|**型**|**Port**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Access Edge サービスの外部インターフェイス。 Skype for Business ユーザーを持つ SIP ドメインごとに 1 つが必要です。  <br/> |
+|外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Access Edge サービスの外部インターフェイス。 ユーザーが含む SIP ドメインごとに 1 つSkype for Businessがあります。  <br/> |
 |外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Web 会議エッジ サービスの外部インターフェイス。  <br/> |
 |外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 <br/> **private:** 10.45.16.30 <br/> |A/V Edge サービスの外部インターフェイス。  <br/> |
-|外部 DNS  <br/> |SRV レコード  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Access Edge サービスの外部インターフェイス。 この SRV レコードは、Skype for Business Server、Lync Server 2013、および Lync Server 2010 クライアントが外部で動作するために必要です。 Skype for Business ユーザーを持つすべてのドメインに 1 つが必要です。  <br/> |
-|外部 DNS  <br/> |SRV レコード  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Access Edge サービスの外部インターフェイス。 この SRV レコードは、許可された SIP ドメインと呼ばれるフェデレーション パートナーの DNS 自動検出に必要です。 Skype for Business ユーザーを持つすべてのドメインに 1 つが必要です。  <br/> |
+|外部 DNS  <br/> |SRV レコード  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Access Edge サービスの外部インターフェイス。 この SRV レコードは、Skype for Business Server Lync Server 2013、Lync Server 2010 クライアントが外部で動作するために必要です。 ユーザーを持つすべてのドメインに 1 つSkype for Businessがあります。  <br/> |
+|外部 DNS  <br/> |SRV レコード  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Access Edge サービスの外部インターフェイス。 この SRV レコードは、許可された SIP ドメインと呼ばれるフェデレーション パートナーの DNS 自動検出に必要です。 ユーザーを持つすべてのドメインに 1 つSkype for Businessがあります。  <br/> |
 |内部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |統合エッジの内部インターフェイス。  <br/> |
    
 ### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>拡張 DNS およびハードウェア エッジ サーバーのシナリオの DNS レコード
@@ -249,39 +249,39 @@ Web 会議と音声ビデオ エッジのパブリック IP アドレスは、Wi
     
 他にも、次の構成が可能です。
   
-- 外部ネットワーク アダプターで 1 つの IP アドレスを使用できます。 これはお勧めしません。その後、異なるポートを使用してサービスを区別する必要がありますが (Skype for Business Server で実行できる) が、代替ポートをブロックするファイアウォールがいくつかあるためです。 詳細については [、「ポートとファイアウォールの計画」](edge-environmental-requirements.md#PortFirewallPlan) セクションを参照してください。
+- 外部ネットワーク アダプターで 1 つの IP アドレスを使用できます。 異なるポート (Skype for Business Server で実行できる) を使用してサービスを区別する必要がありますが、代替ポートをブロックするファイアウォールがいくつかあるため、この方法はお勧めしません。 詳細については [、「ポートとファイアウォールの計画」](edge-environmental-requirements.md#PortFirewallPlan) セクションを参照してください。
     
 - 1 つではなく 3 つの外部ネットワーク アダプターを使用し、サービス AP の 1 つをそれぞれに割り当てできます。 なぜこれを行うのですか? サービスが分離され、何か問題が発生した場合、トラブルシューティングが容易になり、問題を解決しながら他のサービスが動作し続ける可能性があります。
     
-|**Location**|**型**|**Port**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**注**|
+|**場所**|**型**|**Port**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 および 131.107.155.11 <br/> **private:** 10.45.16.10 および 10.45.16.11 <br/> |Access Edge サービスの外部インターフェイス。 Skype for Business ユーザーを持つ SIP ドメインごとに 1 つが必要です。  <br/> |
+|外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 および 131.107.155.11 <br/> **private:** 10.45.16.10 および 10.45.16.11 <br/> |Access Edge サービスの外部インターフェイス。 ユーザーが含む SIP ドメインごとに 1 つSkype for Businessがあります。  <br/> |
 |外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 および 131.107.155.21 <br/> **private:** 10.45.16.20 および 10.45.16.21 <br/> |Web 会議エッジ サービスの外部インターフェイス。  <br/> |
 |外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |av.contoso.com  <br/> |**public:** 131.107.155.30 および 131.107.155.31 <br/> **private:** 10.45.16.30 および 10.45.16.31 <br/> |A/V Edge サービスの外部インターフェイス。  <br/> |
-|外部 DNS  <br/> |SRV レコード  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Access Edge サービスの外部インターフェイス。 この SRV レコードは、Skype for Business Server、Lync Server 2013、および Lync Server 2010 クライアントが外部で動作するために必要です。 Skype for Business を使用するドメインごとに 1 つが必要です。  <br/> |
-|外部 DNS  <br/> |SRV レコード  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Access Edge サービスの外部インターフェイス。 この SRV レコードは、許可された SIP ドメインと呼ばれるフェデレーション パートナーの DNS 自動検出に必要です。 Skype for Business を使用するドメインごとに 1 つが必要です。  <br/> |
+|外部 DNS  <br/> |SRV レコード  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Access Edge サービスの外部インターフェイス。 この SRV レコードは、Skype for Business Server Lync Server 2013、Lync Server 2010 クライアントが外部で動作するために必要です。 ドメインごとに 1 つが必要です。Skype for Business。  <br/> |
+|外部 DNS  <br/> |SRV レコード  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Access Edge サービスの外部インターフェイス。 この SRV レコードは、許可された SIP ドメインと呼ばれるフェデレーション パートナーの DNS 自動検出に必要です。 ドメインごとに 1 つが必要です。Skype for Business。  <br/> |
 |内部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 および 172.25.33.11  <br/> |統合エッジの内部インターフェイス。  <br/> |
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>フェデレーションの DNS レコード (すべてのシナリオ)
 
-|**Location**|**型**|**Port**|**FQDN**|**FQDN ホスト レコード**|**注**|
+|**場所**|**型**|**Port**|**FQDN**|**FQDN ホスト レコード**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |自動 DNS 検出に必要な SIP Access Edge 外部インターフェイス。 他の潜在的なフェデレーション パートナーによって使用されます。 "SIP ドメインを許可する" とも呼ばれる。 Skype for Business ユーザーを使用する SIP ドメインごとに、これらの 1 つが必要です。  <br/><br/> **注:** モビリティとプッシュ通知クリアリング ハウスには、この SRV レコードが必要です。 <br/> |
+|外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |自動 DNS 検出に必要な SIP Access Edge 外部インターフェイス。 他の潜在的なフェデレーション パートナーによって使用されます。 "SIP ドメインを許可する" とも呼ばれる。 ユーザーが含む SIP ドメインごとに、これらの 1 つSkype for Businessがあります。  <br/><br/> **注:** モビリティとプッシュ通知クリアリング ハウスには、この SRV レコードが必要です。 <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>拡張可能メッセージングおよびプレゼンス プロトコルの DNS レコード
 
-|**Location**|**型**|**Port**|**FQDN**|**IP アドレスまたは FQDN ホスト レコード**|**注**|
+|**場所**|**型**|**Port**|**FQDN**|**IP アドレスまたは FQDN ホスト レコード**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |Access Edge サービスまたはエッジ プールの XMPP プロキシ インターフェイス。 Skype for Business Server が有効なユーザーを持つすべての内部 SIP ドメインに対して、必要に応じてこれを繰り返す必要があります。ここで、XMPP 連絡先との接触は次のように許可されます。  <br/> • グローバル ポリシー  <br/> • ユーザーが有効になっているサイト ポリシー  <br/> • Skype for Business Server が有効なユーザーに適用されるユーザー ポリシー  <br/> 許可される XMPP ポリシーも XMPP フェデレーション ユーザー ポリシーで構成する必要があります。  <br/> |
+|外部 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |Access Edge サービスまたはエッジ プールの XMPP プロキシ インターフェイス。 XMPP 連絡先との連絡先が許可されている、ユーザーが有効になっているすべての内部 SIP ドメインSkype for Business Server必要に応じてこれを繰り返す必要があります。  <br/> • グローバル ポリシー  <br/> • ユーザーが有効になっているサイト ポリシー  <br/> • 有効なユーザーに適用Skype for Business Serverポリシー  <br/> 許可される XMPP ポリシーも XMPP フェデレーション ユーザー ポリシーで構成する必要があります。  <br/> |
 |外部 DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |XMPP プロキシ サービスをホストするエッジ サーバーまたはエッジ プール上の Access Edge サービスの IP アドレス  <br/> |これは、XMPP プロキシ サービスをホストするエッジ サーバーまたはエッジ プール上の Access Edge サービスを示しています。 通常、作成する SRV レコードは、このホスト (A または AAAA) レコードを指します。  <br/> |
    
 > [!NOTE]
-> XMPP ゲートウェイとプロキシは、Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 詳細 [については、「XMPP フェデレーションの移行](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 」を参照してください。
+> XMPP ゲートウェイとプロキシは 2015 年Skype for Business Server使用できますが、2019 年Skype for Business Serverではサポートされていません。 詳細 [については、「XMPP フェデレーションの移行](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 」を参照してください。
 
 ## <a name="certificate-planning"></a>証明書の計画
 <a name="CertPlan"> </a>
 
-Skype for Business Server では、サーバー間とサーバー間とクライアント間のセキュリティで保護された暗号化された通信に証明書を使用します。 予想通り、サーバーの DNS レコードが証明書のサブジェクト名 (SN) とサブジェクト代替名 (SAN) と一致している必要があります。 これで、計画段階で機能し、証明書の SN エントリと SAN エントリに対して DNS に適切な FQDN が登録されている必要があります。
+Skype for Business Serverは、サーバー間とサーバー間とクライアント間のセキュリティで保護された暗号化された通信に証明書を使用します。 予想通り、サーバーの DNS レコードが証明書のサブジェクト名 (SN) とサブジェクト代替名 (SAN) と一致している必要があります。 これで、計画段階で機能し、証明書の SN エントリと SAN エントリに対して DNS に適切な FQDN が登録されている必要があります。
   
 外部証明書と内部証明書のニーズについて個別に説明し、両方の要件を示す表を参照します。
   
@@ -291,13 +291,13 @@ Skype for Business Server では、サーバー間とサーバー間とクライ
   
 このパブリック証明書の要求を CA に送信する必要がある場合、どのように行いますか。 これを実現するには、次の 2 つの方法があります。
   
-- Skype for Business Server のインストール、およびエッジ サーバーの展開を実行できます。 Skype for Business Server 展開ウィザードには、証明書要求を生成する手順が用意され、選択した CA に送信できます。
+- 次に、エッジ サーバーのSkype for Business Serverを実行できます。 [Skype for Business Server展開ウィザードには、証明書要求を生成する手順が用意され、選択した CA に送信できます。
     
 - ビジネス ニーズや展開Windows PowerShellインラインである場合は、この要求を生成するために、このコマンドを使用することもできます。
     
 - 最後に、CA には独自の申請プロセスが含まれる場合があります。このプロセスには、Windows PowerShell方法も含まれる場合があります。 その場合は、参照のためにここに示す情報に加えて、ドキュメントに依存する必要があります。
     
-証明書を取得した後、Skype for Business Server で次のサービスに割り当てる必要があります。
+証明書を取得した後、次の手順でこれらのサービスに割り当てる必要Skype for Business Server。
   
 - Access Edge Service interface
     
@@ -337,12 +337,12 @@ Skype for Business Server では、サーバー間とサーバー間とクライ
     
 - \*.contoso <span></span> .com
     
-現在、XMPP は Skype for Business Server for Google Talk でのみサポートされています。他の何かのために使用する必要がある場合は、関連するサードパーティベンダーとの機能を確認する必要があります。
+現在、XMPP は google Talk の Skype for Business Server でのみサポートされています。他の何かのために使用する必要がある場合は、関連するサード パーティベンダーとの機能を確認する必要があります。
   
 ## <a name="port-and-firewall-planning"></a>ポートとファイアウォールの計画
 <a name="PortFirewallPlan"> </a>
 
-Skype for Business Server エッジ サーバー展開のポートとファイアウォールの計画権を取得すると、数日または数週間のトラブルシューティングとストレスを節約できます。 その結果、NAT とパブリック IP の両方のシナリオで、プロトコルの使用状況と、開く、受信、および送信する必要があるポートを示すいくつかのテーブルを一覧表示します。 また、ハードウェア負荷分散シナリオ (HLB) 用の別のテーブルと、その上でさらにいくつかのガイダンスも用意されています。 そこからの詳細については [、Skype for Business Server](scenarios.md) のいくつかのエッジ サーバー シナリオを使用して、特定の展開上の懸念事項を確認することもできます。
+エッジ サーバーの展開に対するポートとファイアウォールSkype for Business Serverを取得すると、数日または数週間のトラブルシューティングとストレスを軽減できます。 その結果、NAT とパブリック IP の両方のシナリオで、プロトコルの使用状況と、開く、受信、および送信する必要があるポートを示すいくつかのテーブルを一覧表示します。 また、ハードウェア負荷分散シナリオ (HLB) 用の別のテーブルと、その上でさらにいくつかのガイダンスも用意されています。 詳細については、特定の展開上の懸念[](scenarios.md)事項を確認Skype for Business Serverエッジ サーバーのシナリオもいくつか用意されています。
   
 ### <a name="general-protocol-usage"></a>一般的なプロトコルの使用法
 
@@ -351,15 +351,15 @@ Skype for Business Server エッジ サーバー展開のポートとファイ�
 |**オーディオ/ビデオ トランスポート**|**使用状況**|
 |:-----|:-----|
 |UDP  <br/> |オーディオとビデオの優先トランスポート層プロトコル。  <br/> |
-|TCP  <br/> |オーディオとビデオのフォールバック トランスポート層プロトコル。  <br/> Skype for Business Server、Lync Server 2013、Lync Server 2010 へのアプリケーション共有に必要なトランスポート層プロトコル。  <br/> Skype for Business Server、Lync Server 2013、Lync Server 2010 へのファイル転送に必要なトランスポート層プロトコル。  <br/> |
+|TCP  <br/> |オーディオとビデオのフォールバック トランスポート層プロトコル。  <br/> Lync Server 2013、および Lync Server 2010 Skype for Business Server共有に必要なトランスポート層プロトコル。  <br/> Lync Server 2013、および Lync Server 2010 へのファイルSkype for Business Server転送に必要なトランスポート層プロトコル。  <br/> |
    
 ### <a name="external-port-firewall-summary-table"></a>外部ポートファイアウォールの概要テーブル
 
-送信元 IP アドレスと宛先 IP アドレスには、NAT でプライベート IP アドレスを使用しているユーザー、およびパブリック IP アドレスを使用しているユーザーの情報が含まれます。 これは、Skype for Business Server セクションのエッジ サーバー シナリオ [のすべての変更について説明](scenarios.md) します。
+送信元 IP アドレスと宛先 IP アドレスには、NAT でプライベート IP アドレスを使用しているユーザー、およびパブリック IP アドレスを使用しているユーザーの情報が含まれます。 このセクションでは、エッジ サーバーのシナリオのすべての[Skype for Business Serverします。](scenarios.md)
   
 |**役割またはプロトコル**|**TCP または UDP**|**宛先ポートまたはポート範囲**|**送信元 IP アドレス**|**接続先 IP アドレス**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> Skype for Business Server 2019 ではサポートされていません |TCP  <br/> |5269  <br/> |任意  <br/> |XMPP プロキシ サービス (アクセス エッジ サービスと IP アドレスを共有する  <br/> |XMPP プロキシ サービスは、定義された XMPP フェデレーション内の XMPP 連絡先からのトラフィックを受け入れる。  <br/> |
+|XMPP  <br/> 2019 年Skype for Business Serverサポートされていません |TCP  <br/> |5269  <br/> |任意  <br/> |XMPP プロキシ サービス (アクセス エッジ サービスと IP アドレスを共有する  <br/> |XMPP プロキシ サービスは、定義された XMPP フェデレーション内の XMPP 連絡先からのトラフィックを受け入れる。  <br/> |
 |Access/HTTP  <br/> |TCP  <br/> |80  <br/> |**NAT を使用するプライベート IP:** エッジ サーバー アクセス エッジ サービス <br/> **パブリック IP:** エッジ サーバー アクセス エッジ サービスのパブリック IP アドレス <br/> |任意  <br/> |証明書の失効と CRL のチェックと取得。  <br/> |
 |Access/DNS  <br/> |TCP  <br/> |53  <br/> |**NAT を使用するプライベート IP:** エッジ サーバー アクセス エッジ サービス <br/> **パブリック IP:** エッジ サーバー アクセス エッジ サービスのパブリック IP アドレス <br/> |任意  <br/> |TCP を使用した DNS クエリ。  <br/> |
 |Access/DNS  <br/> |UDP  <br/> |53  <br/> |**NAT を使用するプライベート IP:** エッジ サーバー アクセス エッジ サービス <br/> **パブリック IP:** エッジ サーバー アクセス エッジ サービスのパブリック IP アドレス <br/> |任意  <br/> |UDP を使用した DNS クエリ。  <br/> |
@@ -369,7 +369,7 @@ Skype for Business Server エッジ サーバー展開のポートとファイ�
 |Web 会議/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**NAT を使用するプライベート IP:** エッジ サーバー Web 会議エッジ サービス <br/> **パブリック IP:** エッジ サーバー Web 会議エッジ サービスのパブリック IP アドレス <br/> |Web 会議メディア。  <br/> |
 |A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**NAT を使用するプライベート IP:** エッジ サーバーの A/V エッジ サービス <br/> **パブリック IP:** エッジ サーバー A/V エッジ サービスのパブリック IP アドレス <br/> |任意  <br/> |これは、メディア トラフィックの中継に使用されます。  <br/> |
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**NAT を使用するプライベート IP:** エッジ サーバーの A/V エッジ サービス <br/> **パブリック IP:** エッジ サーバー A/V エッジ サービスのパブリック IP アドレス <br/> |任意  <br/> |これは、メディア トラフィックの中継に使用されます。  <br/> |
-|A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |**NAT を使用するプライベート IP:** エッジ サーバーの A/V エッジ サービス <br/> **パブリック IP:** エッジ サーバー A/V エッジ サービスのパブリック IP アドレス <br/> |任意  <br/> |3478 送信は次の場合です。  <br/> • Skype for Business Server が通信しているエッジ サーバーのバージョンを判断するために使用されます。  <br/> • エッジ サーバー間のメディア トラフィックに使用されます。  <br/> • Lync Server 2010 とのフェデレーションに必要です。  <br/> • 組織内に複数のエッジ プールが展開されている場合に必要です。  <br/> |
+|A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |**NAT を使用するプライベート IP:** エッジ サーバーの A/V エッジ サービス <br/> **パブリック IP:** エッジ サーバー A/V エッジ サービスのパブリック IP アドレス <br/> |任意  <br/> |3478 送信は次の場合です。  <br/> • 通信Skype for Business Serverエッジ サーバーのバージョンを判断するために、ユーザーが使用します。  <br/> • エッジ サーバー間のメディア トラフィックに使用されます。  <br/> • Lync Server 2010 とのフェデレーションに必要です。  <br/> • 組織内に複数のエッジ プールが展開されている場合に必要です。  <br/> |
 |A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意  <br/> |**NAT を使用するプライベート IP:** エッジ サーバーの A/V エッジ サービス <br/> **パブリック IP:** エッジ サーバー A/V エッジ サービスのパブリック IP アドレス <br/> |ポート 3478 の UDP を使用した候補の STUN/TURN ネゴシエーション。  <br/> |
 |A/V/STUN。MSTURN  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**NAT を使用するプライベート IP:** エッジ サーバーの A/V エッジ サービス <br/> **パブリック IP:** エッジ サーバー A/V エッジ サービスのパブリック IP アドレス <br/> |ポート 443 の TCP を使用した候補の STUN/TURN ネゴシエーション。  <br/> |
 |A/V/STUN。MSTURN  <br/> |TCP  <br/> |443  <br/> |**NAT を使用するプライベート IP:** エッジ サーバーの A/V エッジ サービス <br/> **パブリック IP:** エッジ サーバー A/V エッジ サービスのパブリック IP アドレス <br/> |任意  <br/> |ポート 443 の TCP を使用した候補の STUN/TURN ネゴシエーション。  <br/> |
@@ -378,7 +378,7 @@ Skype for Business Server エッジ サーバー展開のポートとファイ�
 
 |**プロトコル**|**TCP または UDP**|**Port**|**送信元 IP アドレス**|**接続先 IP アドレス**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |XMPP ゲートウェイ サービスを実行している次の手順を実行します。  <br/> • フロントエンド サーバー  <br/> • フロントエンド プール  <br/> |エッジ サーバーの内部インターフェイス  <br/> |フロントエンド サーバーまたはフロントエンド プールで実行されている XMPP ゲートウェイ サービスからの送信 XMPP トラフィック。  <br/> **注:** XMPP ゲートウェイとプロキシは、Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 詳細 [については、「XMPP フェデレーションの移行](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 」を参照してください。|
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |XMPP ゲートウェイ サービスを実行している次の手順を実行します。  <br/> • フロントエンド サーバー  <br/> • フロントエンド プール  <br/> |エッジ サーバーの内部インターフェイス  <br/> |フロントエンド サーバーまたはフロントエンド プールで実行されている XMPP ゲートウェイ サービスからの送信 XMPP トラフィック。  <br/> **注:** XMPP ゲートウェイとプロキシは 2015 年Skype for Business Server使用できますが、2019 年Skype for Business Serverではサポートされていません。 詳細 [については、「XMPP フェデレーションの移行](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 」を参照してください。|
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Any:  <br/> • ディレクター  <br/> • ディレクター プール  <br/> • フロントエンド サーバー  <br/> • フロントエンド プール  <br/> |エッジ サーバーの内部インターフェイス  <br/> |ディレクター、ディレクター プール、フロントエンド サーバー、またはフロントエンド プールからエッジ サーバー内部インターフェイスへの SIP トラフィックの送信。  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Any:  <br/> • ディレクター  <br/> • ディレクター プール  <br/> • フロントエンド サーバー  <br/> • フロントエンド プール  <br/> |エッジ サーバーの内部インターフェイスからディレクター、ディレクター プール、フロント エンド サーバー、またはフロント エンド プールへの受信 SIP トラフィック。  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Any:  <br/> • フロントエンド サーバー  <br/> • 各フロントエンド サーバー  <br/>  フロントエンド プール内 <br/> |エッジ サーバーの内部インターフェイス  <br/> |フロントエンド サーバーまたは各フロント エンド サーバー (フロント エンド プールがある場合) からエッジ サーバー内部インターフェイスへの Web 会議トラフィック。  <br/> |
@@ -386,9 +386,9 @@ Skype for Business Server エッジ サーバー展開のポートとファイ�
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |内部ユーザーと外部ユーザーと存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバー間の A/V メディア転送の優先パス。  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |UDP 通信が機能しない場合、内部ユーザーと外部ユーザーと存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバー間の A/V メディア転送のフォールバック パス。 TCP は、ファイル転送とデスクトップ共有に使用されます。  <br/> |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Any:  <br/> • サーバーの全体管理ストアを保持するフロントエンド サーバー  <br/> • 中央管理ストアを保持するフロントエンド プール  <br/> |エッジ サーバーの内部インターフェイス  <br/> |サーバーの全体管理ストアからエッジ サーバーへの変更のレプリケーション。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server Management Shell および集中ログ サービス コマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server Management Shell および集中ログ サービス コマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server Management Shell および集中ログ サービス コマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server 管理シェルおよび集中ログ サービスコマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server 管理シェルおよび集中ログ サービスコマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server 管理シェルおよび集中ログ サービスコマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
    
 ### <a name="hardware-load-balancers-for-edge-port-tables"></a>エッジ ポート テーブルのハードウェア ロード バランサー
 
@@ -396,7 +396,7 @@ Skype for Business Server エッジ サーバー展開のポートとファイ�
   
 #### <a name="external-port-firewall-summary-table"></a>外部ポートファイアウォールの概要テーブル
 
-送信元 IP アドレスと宛先 IP アドレスには、NAT でプライベート IP アドレスを使用しているユーザー、およびパブリック IP アドレスを使用しているユーザーの情報が含まれます。 これは、Skype for Business Server セクションのエッジ サーバー シナリオ [のすべての変更について説明](scenarios.md) します。
+送信元 IP アドレスと宛先 IP アドレスには、NAT でプライベート IP アドレスを使用しているユーザー、およびパブリック IP アドレスを使用しているユーザーの情報が含まれます。 このセクションでは、エッジ サーバーのシナリオのすべての[Skype for Business Serverします。](scenarios.md)
   
 |**役割またはプロトコル**|**TCP または UDP**|**宛先ポートまたはポート範囲**|**送信元 IP アドレス**|**接続先 IP アドレス**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -405,7 +405,7 @@ Skype for Business Server エッジ サーバー展開のポートとファイ�
 |Access/DNS  <br/> |UDP  <br/> |53  <br/> |エッジ サーバー アクセス エッジ サービスのパブリック IP アドレス  <br/> |任意  <br/> |UDP を使用した DNS クエリ。  <br/> |
 |A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |エッジ サーバー A/V エッジ サービスの IP アドレス  <br/> |任意  <br/> |これは、メディア トラフィックの中継に使用されます。  <br/> |
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |エッジ サーバー A/V エッジ サービスのパブリック IP アドレス  <br/> |任意  <br/> |これは、メディア トラフィックの中継に使用されます。  <br/> |
-|A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |エッジ サーバー A/V エッジ サービスのパブリック IP アドレス  <br/> |任意  <br/> |3478 送信は次の場合です。  <br/> • Skype for Business Server が通信しているエッジ サーバーのバージョンを判断するために使用されます。  <br/> • エッジ サーバー間のメディア トラフィックに使用されます。  <br/> • フェデレーションに必要です。  <br/> • 組織内に複数のエッジ プールが展開されている場合に必要です。  <br/> |
+|A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |エッジ サーバー A/V エッジ サービスのパブリック IP アドレス  <br/> |任意  <br/> |3478 送信は次の場合です。  <br/> • 通信Skype for Business Serverエッジ サーバーのバージョンを判断するために、ユーザーが使用します。  <br/> • エッジ サーバー間のメディア トラフィックに使用されます。  <br/> • フェデレーションに必要です。  <br/> • 組織内に複数のエッジ プールが展開されている場合に必要です。  <br/> |
 |A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |任意  <br/> |エッジ サーバー A/V エッジ サービスのパブリック IP アドレス  <br/> |ポート 3478 の UDP を使用した候補の STUN/TURN ネゴシエーション。  <br/> |
 |A/V/STUN。MSTURN  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |エッジ サーバー A/V エッジ サービスのパブリック IP アドレス  <br/> |ポート 443 の TCP を使用した候補の STUN/TURN ネゴシエーション。  <br/> |
 |A/V/STUN。MSTURN  <br/> |TCP  <br/> |443  <br/> |エッジ サーバー A/V エッジ サービスのパブリック IP アドレス  <br/> |任意  <br/> |ポート 443 の TCP を使用した候補の STUN/TURN ネゴシエーション。  <br/> |
@@ -414,21 +414,21 @@ Skype for Business Server エッジ サーバー展開のポートとファイ�
 
 |**プロトコル**|**TCP または UDP**|**Port**|**送信元 IP アドレス**|**接続先 IP アドレス**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |XMPP ゲートウェイ サービスを実行している次の手順を実行します。  <br/> • フロントエンド サーバー  <br/> XMPP ゲートウェイ サービスを実行するフロントエンド プールの VIP アドレス  <br/> |エッジ サーバーの内部インターフェイス  <br/> |フロントエンド サーバーまたはフロントエンド プールで実行されている XMPP ゲートウェイ サービスからの送信 XMPP トラフィック。  <br/><br/> **注:** XMPP ゲートウェイとプロキシは、Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 詳細 [については、「XMPP フェデレーションの移行](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 」を参照してください。 |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |XMPP ゲートウェイ サービスを実行している次の手順を実行します。  <br/> • フロントエンド サーバー  <br/> XMPP ゲートウェイ サービスを実行するフロントエンド プールの VIP アドレス  <br/> |エッジ サーバーの内部インターフェイス  <br/> |フロントエンド サーバーまたはフロントエンド プールで実行されている XMPP ゲートウェイ サービスからの送信 XMPP トラフィック。  <br/><br/> **注:** XMPP ゲートウェイとプロキシは 2015 年Skype for Business Server使用できますが、2019 年Skype for Business Serverではサポートされていません。 詳細 [については、「XMPP フェデレーションの移行](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 」を参照してください。 |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Any:  <br/> • サーバーの全体管理ストアを保持するフロントエンド サーバー  <br/> • 中央管理ストアを保持するフロントエンド プール  <br/> |エッジ サーバーの内部インターフェイス  <br/> |サーバーの全体管理ストアからエッジ サーバーへの変更のレプリケーション。  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Any:  <br/> • フロントエンド サーバー  <br/> • フロントエンド プール内の各フロントエンド サーバー  <br/> |エッジ サーバーの内部インターフェイス  <br/> |フロントエンド サーバーまたは各フロント エンド サーバー (フロント エンド プールがある場合) からエッジ サーバー内部インターフェイスへの Web 会議トラフィック。  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Any:  <br/> • フロントエンド サーバー  <br/> • フロントエンド プール内の各フロントエンド サーバー  <br/> |エッジ サーバーの内部インターフェイス  <br/> |内部ユーザーと外部ユーザーと存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバー間の A/V メディア転送の優先パス。  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Any:  <br/> • フロントエンド サーバー  <br/> • プール内の各フロントエンド サーバー  <br/> |エッジ サーバーの内部インターフェイス  <br/> |UDP 通信が機能しない場合、内部ユーザーと外部ユーザーと存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバー間の A/V メディア転送のフォールバック パス。 TCP は、ファイル転送とデスクトップ共有に使用されます。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server Management Shell および集中ログ サービス コマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server Management Shell および集中ログ サービス コマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server Management Shell および集中ログ サービス コマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server 管理シェルおよび集中ログ サービスコマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server 管理シェルおよび集中ログ サービスコマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |任意  <br/> |エッジ サーバーの内部インターフェイス  <br/> |Skype for Business Server 管理シェルおよび集中ログ サービスコマンドレット、ClsController コマンド ライン (ClsController.exe) またはエージェント (ClsAgent.exe) コマンドとログ コレクションを使用した集中ログ サービス コントローラー。  <br/> |
    
 #### <a name="external-interface-virtual-ips"></a>外部インターフェイス仮想 AP
 
 |**役割またはプロトコル**|**TCP または UDP**|**宛先ポートまたはポート範囲**|**送信元 IP アドレス**|**接続先 IP アドレス**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> Skype for Businesss Server 2019 ではサポートされていません |TCP  <br/> |5269  <br/> |任意  <br/> |XMPP プロキシ サービス (アクセス エッジ サービスと IP アドレスを共有する)  <br/> |XMPP プロキシ サービスは、定義された XMPP フェデレーション内の XMPP 連絡先からのトラフィックを受け入れる。  <br/> |
-|XMPP  <br/>Skype for Businesss Server 2019 ではサポートされていません |TCP  <br/> |5269  <br/> |XMPP プロキシ サービス (アクセス エッジ サービスと IP アドレスを共有する)  <br/> |任意  <br/> |XMPP プロキシ サービスは、定義された XMPP フェデレーション内の XMPP 連絡先からトラフィックを送信します。  <br/> |
+|XMPP  <br/> Businesss Server 2019 Skypeでサポートされていません |TCP  <br/> |5269  <br/> |任意  <br/> |XMPP プロキシ サービス (アクセス エッジ サービスと IP アドレスを共有する)  <br/> |XMPP プロキシ サービスは、定義された XMPP フェデレーション内の XMPP 連絡先からのトラフィックを受け入れる。  <br/> |
+|XMPP  <br/>Businesss Server 2019 Skypeでサポートされていません |TCP  <br/> |5269  <br/> |XMPP プロキシ サービス (アクセス エッジ サービスと IP アドレスを共有する)  <br/> |任意  <br/> |XMPP プロキシ サービスは、定義された XMPP フェデレーション内の XMPP 連絡先からトラフィックを送信します。  <br/> |
 |Access/SIP(TLS)  <br/> |TCP  <br/> |443  <br/> |任意  <br/> |**NAT を使用するプライベート IP:** エッジ サーバー アクセス エッジ サービス <br/> **パブリック IP:** エッジ サーバー アクセス エッジ サービスのパブリック IP アドレス <br/> |外部ユーザー アクセス用のクライアントからサーバーへの SIP トラフィック。  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |任意  <br/> |**NAT を使用するプライベート IP:** エッジ サーバー アクセス エッジ サービス <br/> **パブリック IP:** エッジ サーバー アクセス エッジ サービスのパブリック IP アドレス <br/> |SIP を使用したフェデレーションおよびパブリック IM 接続の場合。  <br/> |
 |Access/SIP(MTLS)  <br/> |TCP  <br/> |5061  <br/> |**NAT を使用するプライベート IP:** エッジ サーバー アクセス エッジ サービス <br/> **パブリック IP:** エッジ サーバー アクセス エッジ サービスのパブリック IP アドレス <br/> |任意  <br/> |SIP を使用したフェデレーションおよびパブリック IM 接続の場合。  <br/> |
@@ -440,7 +440,7 @@ Skype for Business Server エッジ サーバー展開のポートとファイ�
 
 ここでのガイダンスは少し異なります。 実際には、HLB の状況では、次の状況下でのみ内部 VIP 経由のルーティングを行う必要があります。
   
-- Exchange 2007 または Exchange 2010 ユニファイド メッセージング (UM) を使用している場合。
+- 2007 または 2007 Exchange 2010 ユニファイド メッセージング (UM) Exchange使用している場合。
     
 - エッジを使用している従来のクライアントがある場合。
     

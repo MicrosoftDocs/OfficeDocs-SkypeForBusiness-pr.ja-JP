@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ラトビアで使用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
-ms.openlocfilehash: e145afc81a796921d65ad588b0eaa9afbefdf062
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0b436a07a1945e5a139110d4be8f910d14a7be38a2add383ec3ed77fdf46be2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122301"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347252"
 ---
 # <a name="availability-in-latvia"></a>ラトビアでの利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51122301"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

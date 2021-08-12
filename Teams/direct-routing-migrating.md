@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Skype for Business Online および Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。
-ms.openlocfilehash: de211dfae9bf2fc20a2cd367687e0fd7c5779a5f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bcc31554428c847fc9eb3c45804be42e850b30f943fadcc3ef6e245d07c9d4fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302006"
 ---
 # <a name="migrate-to-direct-routing"></a>ダイレクト ルーティングに移行する
 

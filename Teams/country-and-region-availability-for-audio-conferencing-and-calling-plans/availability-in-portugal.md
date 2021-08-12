@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ポルトガルで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
-ms.openlocfilehash: a905057230d9553c6e244efc42fcf804cc09a94f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8f67fe2e9b6a86d9a4d3e1ce954d6afb91e095ed372c9d698d82a25416be3202
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347232"
 ---
 # <a name="availability-in-portugal"></a>ポルトガルでの利用可能性
 
@@ -82,7 +82,7 @@ ms.locfileid: "51102233"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [サービス電話番号を取得する](../getting-service-phone-numbers.md)
 

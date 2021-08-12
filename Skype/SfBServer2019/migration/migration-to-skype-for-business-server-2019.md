@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2019 への移行
+title: 2019 Skype for Business Serverへの移行
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: このセクションのトピックでは、Skype for Business Server 2019 に移行するプロセスについて手順を追って説明します。
-ms.openlocfilehash: 860fce550de33ed726bbbe723c8c7677ff09fc1c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: このセクションのトピックでは、2019 年から 2019 年Skype for Business Server説明します。
+ms.openlocfilehash: 1014fe5d491823c427eb588aac86757afb997578b519abf2249f481c91a3d4aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752619"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303401"
 ---
-# <a name="migration-to-skype-for-business-server-2019"></a>Skype for Business Server 2019 への移行
+# <a name="migration-to-skype-for-business-server-2019"></a>2019 Skype for Business Serverへの移行
 
-このセクションのトピックでは、Skype for Business Server 2019 に移行するプロセスについて手順を追って説明します。 この記事では、Lync Server 2013 または Skype for business server 2015 を Skype for Business Server 2019 に移行する方法について説明します。
+このセクションのトピックでは、2019 年から 2019 年Skype for Business Server説明します。 この記事では、Lync Server 2013 または 2015 Skype for Business Server 2019 Skype for Business Serverについて説明します。
 
 > [!IMPORTANT]
-> コンテンツ全体を通して、*従来*の Lync server 2013 または skype For business server 2015 を参照して、skype For business server の2019に移行しているという用語を使用します。
+> コンテンツ全体で、従来の用語を使用して、従来の Lync Server 2013 または Skype for Business Server 2015 を参照して、Skype for Business Server 2019 に移行します。
   
 > [!IMPORTANT]
 > このガイドでは、移行の各フェーズを実行するために一般的に必要な手順について説明します。 この手順は、考え得るすべての従来の展開トポロジやすべての移行シナリオに対応するものではありません。 したがって、展開によっては、記載されているすべての手順を実行する必要がない場合や、追加の手順が必要になる場合があります。 このガイドでは、検証手順の例も示します。 検証手順を見ることによって、移行の作業を進める過程で各フェーズが正常に完了したことを確認するために何を調べる必要があるかを理解できるようになります。 各自の移行プロセスに合わせてこれらの検証手順を変更してください。 
   
-このガイドでは、既存の展開をアップグレードする方法についてのみ説明します。 既存のトポロジを変更する方法については説明しません。 また、このガイドでは新しい機能の実装については説明しません。 詳細な手順が他の場所で文書化されている場合、このガイドでは記事または記事のセクションについて説明しています。 
+このガイドでは、既存の展開をアップグレードする方法についてのみ説明します。 既存のトポロジを変更する方法については説明しません。 また、このガイドでは新しい機能の実装については説明しません。 詳細な手順が他の場所に記載されている場合は、このガイドから記事または記事セクションに移動します。 
   
-この記事では、以下のリストで指定されている用語を定義します。
+この記事では、次の一覧で指定されている用語を定義します。
   
-**移行:** 運用展開を Lync Server 2013 または Skype for business server 2015 から Skype for Business Server 2019 に移行する。
+**移行:** 実稼働展開を Lync Server 2013 または 2015 Skype for Business Serverから 2019 Skype for Business Serverします。
     
-**共存:** 一部の機能が Skype for Business Server 2019 に移行されていて、その他の機能が以前のバージョンのまま残っている場合、移行中に存在する一時的な環境。
+**共存:** 一部の機能が Skype for Business Server 2019 に移行され、その他の機能が以前のバージョンに残っている場合、移行中に存在する一時的な環境。
     
-**相互運用性:** 共存の期間中に展開を正常に動作させることができます。
+**相互運用性:** 共存期間中に展開が正常に動作する機能。
 
-**従来:** 移行元のシステム。 Lync Server 2013 または Skype for Business Server 2015 のどちらかです。
+**レガシ:** 移行先のシステム (Lync Server 2013 または 2015 Skype for Business Serverです。
     
 ## <a name="in-this-section"></a>このセクションの内容
 
@@ -50,7 +50,7 @@ ms.locfileid: "44752619"
     
 - [フェーズ 3: パイロット プールの展開](phase-3-deploy-pilot-pool.md)
     
-- [フェーズ 4: テストユーザーをパイロットプールに移動する](phase-4-move-test-users-to-the-pilot-pool.md)
+- [フェーズ 4: テスト ユーザーをパイロット プールに移動する](phase-4-move-test-users-to-the-pilot-pool.md)
     
 - [フェーズ 5: パイロット プールへのエッジ サーバーの追加](phase-5-add-edge-server-to-pilot-pool.md)
     

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5684ad62107fa61af7c9f2f22c6f15b4bfe1da30
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 222d983a3fc67323ea3d7942c681a3c2ec3b41f00f597ead360869880881e83b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112653"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302121"
 ---
 # <a name="operate-my-service"></a>サービスを運用する
 
@@ -120,9 +120,9 @@ Microsoft Teamsチームワークのハブを提供するためにMicrosoft 365�
 > [!NOTE]
 > サービス正常性を表示できるのは、 **グローバル管理者** またはサービス管理者 **ロール** が割り当てられているユーザーのみです。
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>管理センター Microsoft 365監視
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>アプリケーションを使用したMicrosoft 365 管理センター
 
-管理[Microsoft 365サービス](https://portal.office.com/)正常性ダッシュボードが提供されます。[](https://portal.office.com/adminportal/home#/servicehealth)このダッシュボードでは、依存サービスに加えて、Teams サービスの現在の正常性を表示できます。
+この[Microsoft 365 管理センター](https://portal.office.com/)サービス正常性ダッシュボードが提供[](https://portal.office.com/adminportal/home#/servicehealth)されます。このダッシュボードでは、依存サービスに加えて、Teams サービスの現在の正常性を表示できます。
 
 ### <a name="monitoring-with-the-mobile-app"></a>モバイル アプリを使用した監視
 
@@ -241,7 +241,7 @@ Teams サービスに対する今後の変更を認識したので、次の手�
 
 使用が予想外の場合は、デプロイの問題が原因か、導入計画が適切に実行されていないか、その他の問題が原因である可能性があります。 使用率が低い実際の理由に応じて、サービス管理者は関連するチームと協力して、使用障壁を取り除く必要があります。
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>管理センターで使用状況Microsoft 365測定する
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>データを使用して使用状況を測定Microsoft 365 管理センター
 
 [レポート] ダッシュボードTeamsの使用状況データを使用できます。 Teamsデータは、3 つの異なるレポートで確認できます。 1 つ目のレポートでは、ユーザーがさまざまなサービスを使用してコミュニケーションや共同作業を行う方法を製品間でOffice 365。 このレポートは、アクティブユーザー[レポートOffice 365確認できます。](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -281,9 +281,9 @@ Teams サービスに対する今後の変更を認識したので、次の手�
 
 ### <a name="references"></a>参照設定 
 
-[管理センター Microsoft 365について](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[概要Microsoft 365 管理センター](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[管理センターのアクティビティ Microsoft 365レポート](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[[アクティビティ レポート] Microsoft 365 管理センター](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

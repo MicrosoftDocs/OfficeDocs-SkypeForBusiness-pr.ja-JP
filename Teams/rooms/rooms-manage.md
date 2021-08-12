@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b95e1191201e3b5a8f234cc47c1a886cb7f0cf9a
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 594fa8c6301cdea8be8ee137db13d9e163a9f670e3e826fed3869563238b5be4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469599"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316943"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
-組織内にMicrosoft Teams ミーティング認定デバイスがある場合は、柔軟な管理オプションがあります。  すべての Teams ソリューション、Microsoft Teams 管理センターを管理する同じ中央の場所でデバイスを自分で管理できます。また、Microsoft Teams ミーティング[Managed Services](https://portal.rooms.microsoft.com)を使用して、管理責任を専用の専門家に譲渡することもできます。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
+組織内で会議室Microsoft Teamsデバイスを使用している場合は、柔軟な管理オプションがあります。  すべての Teams ソリューション、Microsoft Teams 管理センターを管理する同じ中央の場所でデバイスを自分で管理できます。また[、Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com)を使用して、管理責任を専用の専門家に転送することもできます。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
 
 管理Microsoft Teamsを使用すると、次の方法を実行できます。
 
@@ -105,7 +105,7 @@ Teams ミーティング デバイスを管理するには、[Microsoft Teams管
 
 デバイスを削除すると、そのデバイスは組織から削除され、チーム管理センターのTeams ミーティング デバイスのリストに表示されなくなります。
 
-デバイスを削除した後も、有効なユーザー名とパスワードで構成されている場合は、Microsoft 365 に再度接続すると、そのデバイスは自動的に Teams ミーティング デバイスの一覧に再追加されます。
+デバイスを削除した場合でも、有効なユーザー名とパスワードでデバイスが構成されている場合、Microsoft 365 に再度接続すると、デバイスは自動的に Teams Rooms デバイスの一覧に再追加されます。
 
 1つまたは複数のデバイスを削除するには、次の操作を行います。
 

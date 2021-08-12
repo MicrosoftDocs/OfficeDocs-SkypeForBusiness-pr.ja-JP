@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: 機能の概要Skype for Business Serverツールに関する情報。
-ms.openlocfilehash: 0d342ec6aa1434c3f9245688f38a0c435de557d1
+ms.openlocfilehash: 3729efd7269680ae9186cf498eb7df21fe1abc959344fac2207a6bd5e02e3903
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772368"
+ms.locfileid: "54338295"
 ---
 # <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype for Business Server機能の概要計画ツール
  

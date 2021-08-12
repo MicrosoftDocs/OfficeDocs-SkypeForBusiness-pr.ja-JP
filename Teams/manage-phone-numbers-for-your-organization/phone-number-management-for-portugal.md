@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ポルトガルの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: fad26e785297df115bb283e4f88389c647c0c301
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 529d96eedeb9e7223a5bde76651a321de68060b31a2facfb57437fb6aa0305c0
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849262"
 ---
 # <a name="phone-number-management-for-portugal"></a>電話の番号管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "53509958"
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [ポルトガルの新しい電話番号要求 (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [ポルトガル (v.5.0) の新しい電話番号要求 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。<br/><br/> また、三者契約に記入し、署名し、手順については [PTSN にお問い合わせください](contact-pstn-service-desk.md)。 このフォームは、新しい電話番号を取得する注文を行った後、PSTN サービス デスク チームから送信されます。 <br/><br/>|
-|転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[ポルトガルの承認状 (LOA) (すべての数値) (v.6.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/> また、三者契約に記入し、署名し、手順については [PTSN にお問い合わせください](contact-pstn-service-desk.md)。 このフォームは、電話番号の転送を注文した後、PSTN サービス デスク チームから送信されます。<br/><br/>|
-|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。      <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [ポルトガルの新しい電話番号要求 (v.5.0) (pt-pt)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [ポルトガル (v.5.0) の新しい電話番号要求 (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。<br/><br/> また、三者契約に記入し、署名し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 このフォームは、新しい電話番号を取得する注文を行った後、PSTN サービス デスク チームから送信されます。 <br/><br/>|
+|転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[ポルトガルの承認状 (LOA) (すべての数値) (v.6.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/> また、三者契約に記入し、署名し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 このフォームは、電話番号の転送を注文した後、PSTN サービス デスク チームから送信されます。<br/><br/>|
+|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。      <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>関連項目
 

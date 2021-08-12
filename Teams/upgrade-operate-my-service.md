@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ccc2d3a346f7b18b64950f2c2b52370ea7ecca8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b2d546465497a18791c0a3e31367622d09b8c6d16e81d5141cf5be338dd33ac
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237563"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327493"
 ---
 # <a name="operate-your-service"></a>サービスを運用する
 
@@ -117,24 +117,24 @@ Microsoft Teamsチームワークのハブを提供するために、Microsoft 3
 | 監視ツール | 利点 | 使用する場合 |
 |---|---|---|
 | Microsoft 365 管理センター | サポートされているブラウザーを使用している任意のデバイスから使用できます。 | リアルタイム通知が不要な場合に使用します。 |
-| Microsoft 365管理者アプリ | モバイル デバイスにプッシュ通知を提供します。 | 移動中にサービス インシデントの通知を受け取る必要がある場合に使用します。 |
+| Microsoft 365 管理 アプリ | モバイル デバイスにプッシュ通知を提供します。 | 移動中にサービス インシデントの通知を受け取る必要がある場合に使用します。 |
 | Microsoft System Center | Microsoft System Center との統合。 | 高度な監視機能と通知のサポートが必要な場合に使用します。 |
 | Microsoft 365Service Communications API | プログラムによるサービス正常性Microsoft 365またはOffice 365アクセス。 | サードパーティの監視ツールとの統合が必要な場合、または独自のソリューションを構築する必要がある場合に使用します。 |
 
 > [!NOTE]
 > サービス正常性を表示できるのは、 **グローバル管理者** またはサービス管理者 **ロール** が割り当てられているユーザーのみです。
 
-### <a name="monitoring-with-the-microsoft-365-admin-center"></a>管理センター Microsoft 365監視
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>アプリケーションを使用したMicrosoft 365 管理センター
 
-管理[Microsoft 365サービス](https://portal.office.com/)正常性ダッシュボードが提供されます。[](https://portal.office.com/adminportal/home#/servicehealth)このダッシュボードでは、依存サービスに加えて、Teams サービスの現在の正常性を表示できます。
+この[Microsoft 365 管理センター](https://portal.office.com/)サービス正常性ダッシュボードが提供[](https://portal.office.com/adminportal/home#/servicehealth)されます。このダッシュボードでは、依存サービスに加えて、Teams サービスの現在の正常性を表示できます。
 
 ### <a name="monitoring-with-the-mobile-app"></a>モバイル アプリを使用した監視
 
-このMicrosoft 365アプリは、Apple iOS、Android、および Windows (PC とモバイル) で利用できます。 このアプリは、サービス正常性と今後の変更に関する管理者情報を提供します。 このアプリは、勧告が投稿された直後に通知できるプッシュ通知をサポートしています。 これにより、状態、正常性、および今後のサービスの変更に関する最新の状態を確認できます。 通知のサポートにより、管理者に推奨される監視ツールになります。 詳細については、以下を参照してください。
+このMicrosoft 365 管理アプリは、Apple iOS、Android、および Windows (PC とモバイル) で利用できます。 このアプリは、サービス正常性と今後の変更に関する管理者情報を提供します。 このアプリは、勧告が投稿された直後に通知できるプッシュ通知をサポートしています。 これにより、状態、正常性、および今後のサービスの変更に関する最新の状態を確認できます。 通知のサポートにより、管理者に推奨される監視ツールになります。 詳細については、以下を参照してください。
 
-[Microsoft 365管理モバイル アプリ](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
+[Microsoft 365 管理モバイル アプリ](https://support.office.com/article/Office-365-Admin-Mobile-App-e16f6421-2a1a-4142-bf9d-9846600a060a)
 
-[管理モバイル Microsoft 365をダウンロードする](https://products.office.com/business/manage-office-365-admin-app)
+[モバイル アプリMicrosoft 365 管理ダウンロードする](https://products.office.com/business/manage-office-365-admin-app)
 
 ### <a name="monitoring-with-microsoft-system-center"></a>Microsoft System Center を使用した監視
 
@@ -245,7 +245,7 @@ Teams サービスに対する今後の変更を認識したので、次の手�
 
 使用が予想外の場合は、デプロイの問題が原因か、導入計画が適切に実行されていないか、その他の問題が原因である可能性があります。 使用率が低い実際の理由に応じて、管理者は関連するチームと協力して、使用障壁を取り除く必要があります。
 
-### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>管理センターで使用状況Microsoft 365測定する
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>データを使用して使用状況を測定Microsoft 365 管理センター
 
 [レポート] ダッシュボードTeamsの使用状況データを使用できます。 Teamsデータは、3 つの異なるレポートで確認できます。 1 つ目のレポートでは、ユーザーがさまざまなサービスを使用してコミュニケーションや共同作業を行う方法を製品Microsoft 365表示Office 365。 このレポートは、管理センターの [Microsoft 365 レポート ] - [アクティブなユーザー][で確認できます。](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -286,9 +286,9 @@ Teams サービスに対する今後の変更を認識したので、次の手�
 
 ### <a name="references"></a>参照設定
 
-[管理センター Microsoft 365について](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[概要Microsoft 365 管理センター](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[管理センターのアクティビティ Microsoft 365レポート](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[[アクティビティ レポート] Microsoft 365 管理センター](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

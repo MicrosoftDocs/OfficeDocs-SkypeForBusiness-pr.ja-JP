@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 通話品質Power BI (CQD) クエリ テンプレートを使用するためにコネクタをインストールする
-ms.openlocfilehash: 388dddc683340238ccff968261595bd46d4bfc65e323cfd1929f699d3c5eed83
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+ms.openlocfilehash: 535a1d067dff81c8019a1c08d1a2a617019300989f515f97f89f471e845ca885
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799058"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288505"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>通話品質ダッシュボード クエリ テンプレートを使用Power BI Microsoft 通話品質コネクタをインストールする
 
@@ -85,9 +85,6 @@ Microsoft Call Quality コネクタの新しいバージョンがリリースさ
 3. 次に、フィルター処理するディメンションを選択し、[フィルター] ウィンドウの [このビジュアル フィールドのフィルター] に *ドラッグ* します。 Microsoft 通話品質コネクタでは、現在、基本フィルター処理 (使用可能なディメンション値の一覧から値を選択)、高度な *フィルター処理*(通話品質ダッシュボードと同様に、フィルター処理する値とオペランドを手動で指定する)、相対日付フィルター *(終了* 時刻と開始時刻のディメンションでのみ使用できます) がサポートされています。  上位 N に従った *フィルター処理* は、通話品質ダッシュボードではサポートされていません。
 
     ![スクリーンショット: Power BI コネクタ](media/CQD-power-bi-connector5-resize.png)
-
-    > [!IMPORTANT]
-    > フィルターは、ディメンションに適用されている場合にのみサポートされます。 Measurements の値に対するフィルター処理は、通話品質ダッシュボードではサポートされていません。
 
 4. 最後に、[視覚化] *ウィンドウの* [書式] タブ *を選択* して、クエリのスタイルと書式を設定します。
 

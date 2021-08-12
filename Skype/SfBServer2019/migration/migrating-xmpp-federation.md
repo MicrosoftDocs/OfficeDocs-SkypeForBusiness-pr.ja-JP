@@ -10,19 +10,19 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 以前のバージョンでは、XMPP の展開とのフェデレーションを可能にするために、独立したサーバーの役割として展開できる拡張メッセージングおよびプレゼンスプロトコル (XMPP) ゲートウェイが提供されていました。 XMPP 機能は、Skype for Business Server 2019 で廃止された & 使用できなくなりました。 XMPP 機能を引き続き使用する場合は、以前のバージョンの coexitence 環境で利用できます (Skype for Business Server 2015/Lync Server 2013)。 XMPP 機能は、従来のエッジサーバーで実行される XMPP プロキシ、従来のフロントエンドサーバー上で実行される XMPP ゲートウェイとして、2つの部分に分けてインストールされます。
-ms.openlocfilehash: 71b6c213450f51ea4b3fe1f351e22dbb992ce8ca
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 以前のバージョンでは、XMPP 展開とのフェデレーションを可能にする別のサーバー役割として展開できる拡張可能なメッセージングおよびプレゼンス プロトコル (XMPP) ゲートウェイが提供されました。 XMPP 機能は、2019 年&で使用Skype for Business Serverなくなりました。 XMPP 機能を続行する場合は、従来のバージョン (Skype for Business Server 2015/ Lync Server 2013) と共に使用できます。 XMPP 機能は、従来のエッジ サーバー上で実行される XMPP プロキシと、従来のフロント エンド サーバーで実行される XMPP ゲートウェイの 2 つの部分にインストールされます。
+ms.openlocfilehash: f1dc49a9f93d87bf2b253963cf0955594b337f9bd186c3034ac7780cb50ccddb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752649"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303431"
 ---
 # <a name="migrating-xmpp-federation"></a>XMPP フェデレーションの移行
 
-以前のバージョンでは、XMPP の展開とのフェデレーションを可能にするために、独立したサーバーの役割として展開できる拡張メッセージングおよびプレゼンスプロトコル (XMPP) ゲートウェイが提供されていました。 XMPP 機能は使用できなくなり、Skype for Business Server 2019 では廃止されました。 XMPP の機能を引き続き使用する場合は、従来のバージョン (Skype for Business Server 2015 または Lync Server 2013) を使用した共存環境でこれを行うことができます。 XMPP 機能は、従来のエッジサーバーで実行される XMPP プロキシ、従来のフロントエンドサーバー上で実行される XMPP ゲートウェイとして、2つの部分に分けてインストールされます。 
+以前のバージョンでは、XMPP 展開とのフェデレーションを可能にする別のサーバー役割として展開できる拡張可能なメッセージングおよびプレゼンス プロトコル (XMPP) ゲートウェイが提供されました。 XMPP 機能は使用できなくなったので、2019 年Skype for Business Serverされています。 XMPP 機能を続行する場合は、従来のバージョン (Skype for Business Server 2015 または Lync Server 2013) との共存環境で実行できます。 XMPP 機能は、従来のエッジ サーバー上で実行される XMPP プロキシと、従来のフロント エンド サーバーで実行される XMPP ゲートウェイの 2 つの部分にインストールされます。 
   
-移行の観点から、XMPP 機能の利用を希望するユーザーは従来のサーバーに残しておく必要があります。ただし、Skype for Business Server 2019 プールに移動する必要はありませんが、従来の XMPP ゲートウェイを引き続き使用する必要があります。 これは、XMPP フェデレーションパートナーが Skype for Business Server 2015 または Lync Server 2013 で構成されている場合にのみ可能です。 XMPP 機能を引き続き使用する場合は、従来のエッジサーバーを Skype for Business Server 2019 に移行しないでください。 ただし、従来のエッジサーバー (XMPP プロキシを使用) と Skype for Business 2019 エッジサーバーを共存させることができます。
+移行の観点から、XMPP 機能を利用するユーザーは従来のサーバーに残り、Skype for Business Server 2019 プールに移動する必要がありますが、従来の XMPP ゲートウェイを引き続き使用する必要があります。 これは、XMPP フェデレーション パートナーが 2015 年または Lync Server 2013 で構成Skype for Business Server場合にのみ可能です。 XMPP 機能を続行する場合は、従来のエッジ サーバーを 2019 Skype for Business Server 2019 に移行する必要があります。 ただし、従来のエッジ サーバー (XMPP プロキシを使用) と 2019 エッジ Skype for Business共存させることができます。
   
 
     
