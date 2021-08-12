@@ -16,12 +16,12 @@ appliesto:
 f1.keywords: ''
 ms.custom: ''
 description: 組織内のユーザーから RestrictedAnonymousAccess Teamsポリシーを削除する方法について説明します。
-ms.openlocfilehash: aab4b524ee0c9ab5cab3244a0897730fea0361a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 347013cff6b704f6eb5f0ac05665b65259e751be645acd16c75c6a0f0cd024a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121345"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310426"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>ユーザーから RestrictedAnonymousAccess Teams 会議ポリシーを削除する
 
@@ -92,7 +92,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454
 
 **ErrorCount** が **0** (ゼロ) で **、OverallStatus が Completed** である必要 **があります**。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

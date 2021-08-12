@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: フロント エンド プールと存続可能ブランチ アプライアンスのそれぞれには、監視サーバーを 1 つだけ関連付けることができます。サイトの監視が有効になっている場合、監視サーバーは通話詳細記録 (CDR) データと QoE (Quality of Experience) データの収集と報告を行います。
-ms.openlocfilehash: e00399f77ae5cd8a755e6c1205c110a2b5542bcf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ab54bb380a8f2abf0784b6d9eed1a7d8e3d312690d3c4e3a636b0ad9a01ea7b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820397"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309906"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (開始)
  
 フロント エンド プールと存続可能ブランチ アプライアンスのそれぞれには、監視サーバーを 1 つだけ関連付けることができます。サイトの監視が有効になっている場合、監視サーバーは通話詳細記録 (CDR) データと QoE (Quality of Experience) データの収集と報告を行います。
   
-1 つのサイトのすべてのプールと複数のセントラル サイトのプールでは、使用量が監視サーバーの処理能力を超えないのであれば、同じ監視サーバーを使用できます。 監視をサポートするトポロジの設計の詳細については、「展開」のドキュメントの [「Skype for Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md) で監視ストアをフロントエンド プールに関連付ける」を参照してください。
+1 つのサイトのすべてのプールと複数のセントラル サイトのプールでは、使用量が監視サーバーの処理能力を超えないのであれば、同じ監視サーバーを使用できます。 監視をサポートするトポロジの設計の詳細については、「展開」[](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)のドキュメントの「監視ストアをフロントエンド プールに関連付けるSkype for Business Serverを参照してください。
   
 

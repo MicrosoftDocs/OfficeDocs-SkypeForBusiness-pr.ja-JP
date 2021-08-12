@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Active Directory ドメイン サービス フォレストを準備するには、「スキーマの準備の実行」の説明に従ってスキーマを正常に拡張し、スキーマがレプリケートされたことを確認する必要があります。
-ms.openlocfilehash: 94d41a993b2fe976ef7ede885d277c00417ff7dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6b02ae0139c4ac813dd8562b237022112f76201d79e82b856e5bfe7e8d6972e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309652"
 ---
 # <a name="prepare-current-forest"></a>現在のフォレストの準備
 
@@ -33,7 +33,7 @@ Active Directory ドメイン サービス フォレストを準備するには�
 2. **[フォレストの準備]** ページから、**[次へ]** をクリックします。
 
     > [!NOTE]
-    > フォレストの準備では、Skype for Business Server 2015 のユニバーサル グループを配置する場所を選択できます。 組織の要件と一致する配置先を選択してください。
+    > フォレストの準備では、2015 年にユニバーサル グループを配置Skype for Business Serverできます。 組織の要件と一致する配置先を選択してください。
 
 3. [**コマンドを実行しています**] ページで [**タスク状態: 完了**] を見つけて、[**ログの表示**] をクリックします。エラーがないことを確認します。警告を確認して、それらの警告が予期されるものであり、インフラストラクチャにとって通常のものであることを確認します。
 

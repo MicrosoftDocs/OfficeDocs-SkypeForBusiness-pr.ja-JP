@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで [常設チャット プール] を右クリックして、次の操作を実行します。
-ms.openlocfilehash: 87512ae3ecba6eab5bb3e896b16c9c33a1716786
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b9c5849fbf841d026b33a9deb0a68acffc18188977d75a8316297b4569b7571a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281880"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>常設チャット サーバー作成スコープ ノード
 
 > [!NOTE] 
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については [、「Skype for Business to Microsoft Teams のアップグレード」を参照してください](/MicrosoftTeams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、Skype for Business Server 2015 を引き続き使用します。
+> 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「Skype for Business[アップグレードMicrosoft Teamsしてください](/MicrosoftTeams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを 2015 年に移行するか、Teamsを使用Skype for Business Server選択します。

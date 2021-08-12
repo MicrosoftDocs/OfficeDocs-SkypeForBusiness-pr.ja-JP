@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[Exchange UM 自動応答の選択] ダイアログ ボックスを使用して、	割り当てられていない番号の範囲への着信通話を処理する Exchange UM 自動応答を選択します。'
-ms.openlocfilehash: 75f3f45f6e6e69f12bc83b62ca5a07ea7f871dd9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d45cc16aca48afcd772114a96e5d0798b784336b088676ed822c233c8e7612d1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812087"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309866"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Exchange UM 自動応答の選択
 
 > [!NOTE]
-> Skype for Business 2019 と Exchange 2013 または Exchange 2016 を統合する場合、Exchange UM は Skype for Business Server 2019 で引き続き使用できます。 Exchange 2019 のサポートが変更されたので、Exchange UM 統合はクラウド ボイスメール機能とクラウド ボイスメール機能の使用を重視自動応答されています。  詳細 [については、「クラウド ボイスメール サービスを](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md) 計画する」および [「Skype for Business Server](../../../../SfBhybrid/hybrid/plan-um-migration.md) と Exchange Server移行の計画」を参照してください。
+> ExchangeUM は、2019 Skype for Business Server 2019 と Skype for Business 2013 または Exchange 2016 Exchangeで使用できます。 Exchange 2019 年のサポートの変更により、Exchange UM の統合は、クラウド ボイスメール とクラウド の機能を重視自動応答されています。  詳細[については、「Plan クラウド ボイスメール サービス](../../../../SfBhybrid/hybrid/plan-cloud-voicemail.md)」および[「Plan for Skype for Business Server移行Exchange Server」を](../../../../SfBhybrid/hybrid/plan-um-migration.md)参照してください。
  
 [**Exchange UM 自動応答の選択**] ダイアログ ボックスを使用して、	割り当てられていない番号の範囲への着信通話を処理する Exchange UM 自動応答を選択します。
   

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: aeb81aef1b2dba23dc3daaa6ec8a788c0b232529
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c3f6bcf9c60b8126416bd330eeb67b2a58cff3d9cf2ce8f905f429936f011a05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309456"
 ---
 # <a name="unassigned-phone-number"></a>割り当てられていない電話番号
 
@@ -53,10 +53,10 @@ ms.locfileid: "51122521"
 
 - **編集** 選択した割り当てられていない番号範囲を編集用に開き、リスト内のすべての割り当てられていない番号範囲を選択するか、選択した割り当てられていない番号範囲を削除します。
 
-- **上に移動する** 選択した割り当てられていない番号範囲をリスト内で上に移動して、Skype for Business Server が検索を早くし、指定したアクションを適用してから、リスト内の他の範囲に指定されたアクションを適用します。
+- **上に移動する** 選択した割り当てられていない番号範囲をリスト内で上に移動し、Skype for Business Server がリスト内の他の範囲に指定されたアクションを適用する前に、指定したアクションを早く見つけて適用します。
 
     > [!NOTE]
-    > Skype for Business Server は、割り当てられていない番号テーブルを上から下に検索し、割り当てられていない番号に一致する最初の範囲を使用します。 たとえば、最後のアクションを指定している範囲がある場合は、その範囲が一覧の一番下にあることを確認します。
+    > Skype for Business Server割り当てられていない番号テーブルを上から下に検索し、割り当てられていない番号に一致する最初の範囲を使用します。 たとえば、最後のアクションを指定している範囲がある場合は、その範囲が一覧の一番下にあることを確認します。
 
 - **下に移動する** 選択した割り当てられていない番号範囲をリスト内で下に移動します。
 
@@ -81,4 +81,4 @@ ms.locfileid: "51122521"
 
 - **お知らせ** 割り当てられていないこの範囲の番号に対して再生されるアナウンス。
 
-お知らせの機能の詳細については、「計画」のドキュメントの「Plan for the [Announcement application in Skype for Business 2015」](../../plan-your-deployment/enterprise-voice-solution/announcement.md) を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。
+アナウンス機能の詳細については、「Plan for the Announcement application for the [Announcement application in Skype for Business 2015」](../../plan-your-deployment/enterprise-voice-solution/announcement.md)を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。

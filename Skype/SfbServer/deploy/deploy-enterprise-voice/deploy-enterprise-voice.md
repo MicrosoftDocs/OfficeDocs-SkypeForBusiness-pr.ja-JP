@@ -1,5 +1,5 @@
 ---
-title: Skype for business server エンタープライズ VoIPに展開する
+title: '[エンタープライズ VoIPにSkype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,51 +15,51 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
-description: '概要: Skype for Business Server のエンタープライズ VoIPを中央サイトに展開する方法について学習します。'
-ms.openlocfilehash: c2aead4d42a02acce6b0db9f92866dba3a6e956d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 中央サイトにエンタープライズ VoIPをSkype for Business Serverする方法について学習します。'
+ms.openlocfilehash: 2a3f614d3d48758c28a8ac6036529db4aa668d2262d34edaee90a3ef4776884c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104973"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282360"
 ---
-# <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Skype for business server エンタープライズ VoIPに展開する
+# <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>[エンタープライズ VoIPにSkype for Business Server
 
-**概要:** 中央サイトで Skype for Business Server エンタープライズ VoIPを展開する方法について学習します。
+**概要:** 中央サイトにエンタープライズ VoIPをSkype for Business Serverする方法について学習します。
 
-このトピックを使用して、エンタープライズ VoIPサイトに展開します。 ブランチ サイトエンタープライズ VoIP展開するには、[ブランチ サイトの [展開] にスキップします](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites)。
+このトピックを使用して、エンタープライズ VoIPに展開します。 ブランチ サイトエンタープライズ VoIP展開するには、[ブランチ サイトの[展開] にスキップします](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites)。
 
-このセクションでは、仲介サーバーを各フロント エンド サーバーまたは Standard Edition サーバーに配置する展開の手順と、推奨される手順、およびスタンドアロンの仲介サーバー プールを使用した展開の手順について説明します。展開ウィザードは、フロントエンド サーバー プールまたは Standard Edition サーバー用のファイルをインストールするときに仲介サーバー用のファイルを自動的にインストール済みなので、トポロジ ビルダーを使用して各フロントエンド サーバーまたは Standard Edition サーバー上の仲介サーバーを照合するトポロジを定義および発行する場合は、次のコンテンツをスキップできます。
+このセクションでは、仲介サーバーを各フロント エンド サーバーまたは Standard Edition サーバーに配置する展開の手順と、スタンドアロンの仲介サーバー プールを使用した展開の手順について説明します。展開ウィザードは、フロントエンド サーバー プールまたは Standard Edition サーバー用のファイルをインストールするときに仲介サーバー用のファイルを既に自動的にインストール済みなので、トポロジ ビルダーを使用して各フロントエンド サーバーまたは Standard Edition サーバー上の仲介サーバーを照合するトポロジを定義および発行する場合は、次のコンテンツをスキップできます。
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business Server エンタープライズ VoIPのセキュリティと構成の前提条件](enterprise-voice-security.md)
+- [セキュリティと構成の前提条件は、エンタープライズ VoIPのSkype for Business Server](enterprise-voice-security.md)
 
-- [Skype for Business Server のトポロジ ビルダーに仲介サーバーを展開する](deploy-a-mediation-server.md)
+- [サーバー内のトポロジ ビルダーに仲介サーバーを展開Skype for Business Server](deploy-a-mediation-server.md)
 
-- [Skype for Business Server のトポロジ ビルダーでゲートウェイを定義する](define-a-gateway.md)
+- [[トポロジ ビルダー] でゲートウェイを定義Skype for Business Server](define-a-gateway.md)
 
-- [Skype for Business Server のトポロジ ビルダーで追加のトランクを定義する](define-additional-trunks.md)
+- [トポロジ ビルダーで追加のトランクを定義Skype for Business Server](define-additional-trunks.md)
 
-- [Skype for Business Server に仲介サーバー用のファイルをインストールする](install-mediation-server.md)
+- [仲介サーバーのファイルをサーバーにインストールSkype for Business Server](install-mediation-server.md)
 
-- [Skype for Business Server でトランクを構成する](configure-trunks.md)
+- [サーバーでトランクを構成Skype for Business Server](configure-trunks.md)
 
-- [Skype for Business Server で発信者 ID プレゼンテーションの翻訳ルールを作成または変更する](caller-id-presentation-rules.md)
+- [発信者番号プレゼンテーションの翻訳ルールを作成または変更Skype for Business Server](caller-id-presentation-rules.md)
 
-- [Skype for Business Server で呼び出された ID プレゼンテーションの変換ルールを作成または変更する](called-id-presentation-rules.md)
+- [呼び出された ID プレゼンテーションの翻訳ルールを作成または変更Skype for Business Server](called-id-presentation-rules.md)
 
-- [Skype for Business で正規化ルールを作成または変更する](normalization-rules.md)
+- [ユーザー設定で正規化ルールを作成または変更Skype for Business](normalization-rules.md)
 
-- [Skype for Business Server でダイヤル プランを作成または変更する](dial-plans.md)
+- [ダイヤル プランを作成または変更するには、Skype for Business Server](dial-plans.md)
 
-- [Skype for Business で音声ポリシー、PSTN 使用法レコード、および音声ルートを構成する](voice-and-pstn.md)
+- [音声ポリシー、PSTN 使用法レコード、および音声ルートを構成Skype for Business](voice-and-pstn.md)
 
-- [Skype for Business Server でエンタープライズ VoIPユーザーを有効にする](enable-users-for-enterprise-voice.md)
+- [ユーザーがユーザーのエンタープライズ VoIPを有効Skype for Business Server](enable-users-for-enterprise-voice.md)
 
-- [Skype for Business Server エンタープライズ VoIP高度な機能を展開する](deploy-advanced-enterprise-voice-features.md)
+- [高度なエンタープライズ VoIP機能を展開Skype for Business Server](deploy-advanced-enterprise-voice-features.md)
 
-- [Skype for Business での通話管理機能の展開](deploy-call-management-features.md)
+- [呼び出し管理機能を展開Skype for Business](deploy-call-management-features.md)
 
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server エンタープライズ VoIPの計画を立て](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+[エンタープライズ VoIPのSkype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)

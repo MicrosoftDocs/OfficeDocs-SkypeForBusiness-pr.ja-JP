@@ -17,12 +17,12 @@ description: 自分の組織での Teams のアクティビティの概要を把
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 37f0a69a5e6a6a3e2c54ae7c60effc0f1639bbef
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
+ms.openlocfilehash: 344a263d2512914571877f7761843f0cf85810335a234e154e9a7f3c021d0644
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53114040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282540"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
 
@@ -51,6 +51,6 @@ Microsoft Teams 管理センターにある Teams の使用状況レポートは
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

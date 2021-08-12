@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Microsoft 365 管理センターの Teams から新しい管理センターへの移行中に、Teams のテナント全体とユーザー設定を管理Teamsします。
+description: Teams のテナント全体とユーザー設定を管理する方法について、Teams の Teams から新しい管理センターへのMicrosoft 365 管理センター移行Teamsします。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 875db7be64e23b32f5f758f9f5a701199c068528
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 036d4ddd2768a531d32eed03d5bc4b35e09a0a229ad98a0d6fd0d17adcf09d5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281550"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
 ======================================================
@@ -88,7 +88,7 @@ ms.locfileid: "51100903"
 <sup>3</sup> 既定のアプリと外部アプリは、TeamsAppPermissionPolicy でユーザー レベルで有効または無効にできます。 また、アプリは、組織全体のアプリ設定でテナント レベルでブロックすることもできます。この場合、ユーザー設定やテナントレベルの設定は上書きされます。
 
 > [!NOTE]
-> 引き続き、管理センターの [グループ] ダッシュボードMicrosoft 365、グループとチャネルに関連するTeams使用します。 アプリの設定は Microsoft 365 管理センターの Teams エリアに残っていますが、将来移行される予定です。
+> グループとチャネルに関連する構成については、引き続き Microsoft 365 管理センター グループ ダッシュボードTeams使用します。 アプリの設定は Microsoft 365 管理センターの Teams エリアに残っていますが、将来移行される予定です。
 
 ## <a name="manage-settings-during-the-migration"></a>移行時に設定を管理する
 
@@ -115,4 +115,4 @@ ms.locfileid: "51100903"
 
 ## <a name="manage-settings-after-the-migration"></a>移行後に設定を管理する
 
-これらの設定の移行が完了したら、Microsoft 365 管理センターと Skype for Business 管理センターで無効にし、新しい Microsoft Teams 管理センターで管理できます。
+これらの設定の移行が完了したら、Microsoft 365 管理センター と Skype for Business 管理センターで設定を無効にし、新しい Microsoft Teams 管理センターで管理できます。

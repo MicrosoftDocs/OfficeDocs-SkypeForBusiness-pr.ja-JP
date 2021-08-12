@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 02afbcc062501a14f0d5d9f3ed905b88b4060992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f384baff6aa12b241e69e0214f5aa9561e5c1df68970c949d9448a344b94cb7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108253"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282560"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>ツールとワークショップ: Microsoft Teams の計画、提供、導入
 
@@ -44,7 +44,7 @@ ms.locfileid: "51108253"
 
    お客様のTeamsは、エンタープライズのお客様のエクスペリエンスに似たものになります。 テナントTeams一般提供される予定の場合は[、Microsoft 365 Government の](plan-for-government-gcc.md)計画 - GCC デプロイに関する記事と管理者クイック スタート ガイド から開始[してください。](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx) セキュリティ[とコンプライアンスの概要](security-compliance-overview.md)は、お客様が環境内のTeamsに役立ちます。
 
-- [Teams for Education - 管理者向けクイック スタート](./teams-quick-start-edu.yml)
+- [Microsoft Teams for Education - 管理者向けクイック スタート](./teams-quick-start-edu.yml)
 
     このチュートリアルでは、教育組織向Teamsのロールアウトについて説明します。
 

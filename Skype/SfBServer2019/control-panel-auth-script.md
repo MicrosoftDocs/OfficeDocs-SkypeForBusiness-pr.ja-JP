@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: OAuth プロトコルを使用して Microsoft 365 または Office 365 を使用して SFB 2019 コントロール パネル認証を構成するヘルパー スクリプト。
-ms.openlocfilehash: 76f8444e78dfe31e008ea24be31c0e7b788b3130
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+description: OAuth プロトコルを使用して SFB 2019 コントロール パネル認証を構成Microsoft 365またはOffice 365ヘルパー スクリプト。
+ms.openlocfilehash: c52e799740188e85e41af46339f40f4c29b61c037bc1c28b8257b1001a5b43c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281500"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Skype for Business Server 2019 コントロール パネル認証スクリプト
 
 次に、モダン管理者コントロール パネル (MACP) の認証関連ヘルパー スクリプトを示します。
 
-## <a name="configure-macp-authentication-with-microsoft-365-or-office-365"></a>Microsoft 365 または microsoft 365 または Office 365 で MACP 認証を構成する
+## <a name="configure-macp-authentication-with-microsoft-365-or-office-365"></a>MACP 認証を構成するには、Microsoft 365またはOffice 365
 
-このスクリプトは、新しいコントロール パネルのセットアップの一環として、Skype for Business Server 2019 累積的な更新プログラム 1 以降をインストールした後に実行する必要があります。 
+このスクリプトは、新しいコントロール パネルSkype for Business Serverセットアップの一環として、2019 年 2019 年の累積的な更新プログラム 1 以降をインストールした後に実行する必要があります。 
 
 ```powershell
 <#
@@ -133,7 +133,7 @@ Set-CsHybridConfiguration -ClientId $azureADApplication.AppId
 ```
 ## <a name="configure-macp-application-in-adfs-farm"></a>ADFS ファームで MACP アプリケーションを構成する
 
-このスクリプトは、新しいコントロール パネルのセットアップの一環として、Skype for Business Server 2019 の最新の累積的な更新プログラムをインストールした後に実行する必要があります。
+このスクリプトは、新しいコントロール Skype for Business Serverセットアップの一環として、2019 年最新の累積的な更新プログラムをインストールした後に実行する必要があります。
 
 ```powershell
 <#
@@ -311,7 +311,7 @@ Get-AdfsNativeClientApplication -Identifier $clientIdentifier
 ```
 ## <a name="configure-oauth-for-macp"></a>MACP 用の OAuth の構成
 
-このスクリプトは、新しいコントロール パネルのセットアップの一環として、Skype for Business Server 2019 の最新の累積的な更新プログラムをインストールした後に実行する必要があります。
+このスクリプトは、新しいコントロール Skype for Business Serverセットアップの一環として、2019 年最新の累積的な更新プログラムをインストールした後に実行する必要があります。
 
 ```powershell
 <#

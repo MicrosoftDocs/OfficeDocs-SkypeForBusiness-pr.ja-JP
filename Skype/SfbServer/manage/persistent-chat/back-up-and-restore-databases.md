@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 での常設チャット データベースのバックアップと復元
+title: 2015 年に常設チャット データベースをバックアップSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,32 +12,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
-description: '概要: Skype for Business Server 2015 で常設チャット サーバー データベースをバックアップおよび復元する方法について学習します。'
-ms.openlocfilehash: 2c99f5e955756020f68b51ea214858c23fee0a48
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 2015 年に常設チャット サーバー データベースをバックアップおよび復元するSkype for Business Serverします。'
+ms.openlocfilehash: eb6b7e005691abda351993e716ba43a137ffa28c17f7fc9e6297a7e1373f9ad7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281710"
 ---
-# <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での常設チャット データベースのバックアップと復元
+# <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>2015 年に常設チャット データベースをバックアップSkype for Business Serverする
  
-**概要:** Skype for Business Server 2015 で常設チャット サーバー データベースをバックアップおよび復元する方法について学習します。
+**概要:** 2015 年に常設チャット サーバー データベースをバックアップおよび復元するSkype for Business Serverします。
   
-常設チャット サーバーでは、SQL Serverコンテンツ、構成、ユーザー プロビジョニング、その他の関連するメタデータなどのチャット ルーム データを格納するために、データベース ソフトウェアを使用する必要があります。 また、組織に常設チャットアクティビティのアーカイブを要求する規制がある場合、オプションのコンプライアンス サービスが有効になっている場合、チャット コンテンツやイベント (ルームへの参加や退出など) を含むコンプライアンス データを格納するために SQL Server データベース ソフトウェアが使用されます。 チャット ルームのコンテンツは、常設チャット データベース (mgc) に格納されます。 コンプライアンス データは、コンプライアンス データベース (mgccomp) に格納されます。 これはビジネスに不可欠なデータで、定期的にバックアップする必要があります。 
+常設チャット サーバーでは、SQL Serverコンテンツ、構成、ユーザー プロビジョニング、その他の関連するメタデータなどのチャット ルーム データを格納するために、データベース ソフトウェアを使用する必要があります。 さらに、組織に常設チャット アクティビティをアーカイブする必要がある規制がある場合、オプションのコンプライアンス サービスが有効になっている場合は、SQL Server データベース ソフトウェアを使用して、チャット コンテンツやイベント (会議室への参加や退室など) を含むコンプライアンス データを格納します。 チャット ルームのコンテンツは常設チャット データベース (mgc) に格納されます。 コンプライアンス データはコンプライアンス データベース (mgccomp) に格納されます。 これは、定期的にバックアップする必要があるビジネスクリティカルなデータです。 
   
 > [!NOTE]
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「Microsoft Teams のアップグレード [の開始」を参照してください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、Skype for Business Server 2015 を引き続き使用するかのどちらかを選択できます。 
+> 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「アップグレードの開始[方法」をMicrosoft Teamsしてください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、2015 年Skype for Business Serverします。 
 
-## <a name="back-up-the-databases"></a>データベースをバックアップする
+## <a name="back-up-the-databases"></a>データベースのバックアップ
 
 常設チャット データをバックアップするには、2 つの方法があります。 
   
-- SQL Server バックアップ
+- SQL Serverバックアップ
     
-- **Export-CsPersistentChatData** コマンドレット。常設チャットのデータをファイルとしてエクスポートします。
+- 常設チャット データをファイルとしてエクスポートする **Export-CsPersistentChatData** コマンドレット
     
-SQL Server バックアップを使用して作成されるデータには **、Export-CsPersistentChatData** コマンドレットによって作成されたディスク領域よりも大幅に多くのディスク領域 (場合によっては 20 倍) が必要ですが、SQL Server バックアップは使い慣れた手順である可能性があります。
+SQL Server バックアップを使用して作成されるデータには **、Export-CsPersistentChatData** コマンドレットによって作成されたディスク領域の 20 倍のディスク領域が必要になりますが、SQL Server バックアップは使い慣れた手順である可能性があります。
   
 バックアップ手順を使用するSQL Server詳細については、SQLドキュメントを参照してください。 
   
@@ -53,7 +53,7 @@ Export-CsPersistentChatData [-FileName <String>] <COMMON PARAMETERS>
 Export-CsPersistentChatData [-AsBytes <SwitchParameter>] <COMMON PARAMETERS>
 ```
 
-たとえば、次のコマンドは、サーバー 上の常設チャット データベースから常設チャット データをエクスポートatl-sql-001.contoso.com。エクスポートされたデータは、エクスポートされたファイルにC:\Logs\PersistentChatData.zip。 Level パラメーターが指定されていないので、コマンドは常設チャット情報の完全なエクスポートを実行します。
+たとえば、次のコマンドは、サーバー サーバー上にある常設チャット データベースから常設チャット データをエクスポート atl-sql-001.contoso.com。エクスポートされたデータは、ファイル に保存C:\Logs\PersistentChatData.zip。 Level パラメーターが指定されていないので、コマンドは常設チャット情報を完全にエクスポートします。
   
 ```PowerShell
 Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName "C:\Logs\PersistentChatData.zip"
@@ -61,7 +61,7 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 ## <a name="restore-the-databases"></a>データベースを復元する
 
-常設チャット データの復元方法は、バックアップに使用した方法によって異なります。 バックアップ手順をSQL Server場合は、復元手順SQL Server使用する必要があります。 **Export-CsPersistentChatData** コマンドレットを使用して常設チャット データをバックアップした場合は **、Import-CsPersistentChatData** コマンドレットを使用してデータを復元する必要があります。
+常設チャット データを復元する方法は、バックアップに使用した方法によって異なります。 バックアップ手順をSQL Server場合は、復元手順SQL Server使用する必要があります。 **Export-CsPersistentChatData** コマンドレットを使用して常設チャット データをバックアップした場合は **、Import-CsPersistentChatData** コマンドレットを使用してデータを復元する必要があります。
   
 ```PowerShell
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>

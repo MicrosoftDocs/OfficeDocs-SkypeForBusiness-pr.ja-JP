@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 応答グループ キューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。
-ms.openlocfilehash: a59cab44df89a6091f463d677a5771983166a42b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a04d80d3ecea5d10c85c11cf4705b481daa1b12b3a9b152fd87430f8cb23c355
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118796"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309886"
 ---
 # <a name="response-groups-queue"></a>応答グループのキュー
 
@@ -56,4 +56,4 @@ ms.locfileid: "51118796"
 
 - **説明** キューの説明。
 
-応答グループの機能の詳細については、「計画」のドキュメントの「Plan for the [Response Group application in Skype for Business Server」](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) を参照してください。 応答グループ キューの操作の詳細については、「操作」のドキュメントの「 [応答グループ キューの管理](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 」を参照してください。
+応答グループの機能の詳細については、「計画」のドキュメントの「応答グループ アプリケーションの計画[Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 応答グループ キューの操作の詳細については、「操作」のドキュメントの「 [応答グループ キューの管理](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 」を参照してください。

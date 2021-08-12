@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、シンガポールの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 250e3bb0822b7587d276725517b85858d844b52e
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 5374cffd5141338b1b8744c784127761f8d9f0678935c8cb3d52193b60acf658
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509758"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281570"
 ---
 # <a name="phone-number-management-for-singapore"></a>電話の番号管理
 
@@ -41,7 +41,7 @@ ms.locfileid: "53509758"
 |転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[シンガポールの承認状 (LOA) (すべての番号) (v.1.0) (en-sg)](https://download.microsoft.com/download/e/3/0/e304e2d3-96b4-43fd-801d-68df4825ce6b/letter-of-authorization-(loa)-for-singapore-(all-numbers)-(v.1.0)-(en-sg).pdf) <br/> <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、ポートの複雑さによっては、移行に 1 ~ 6 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。  |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。|
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。|
    
 ## <a name="related-topics"></a>関連項目
 

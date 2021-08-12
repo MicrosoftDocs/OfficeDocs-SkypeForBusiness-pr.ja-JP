@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でのスキーマの変更点
+title: スキーマの変更Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: Skype for Business Server を展開して運用する前に、スキーマを拡張して Active Directory ドメイン サービスを準備する必要があります。 スキーマ拡張機能は、Skype for Business Server に必要なクラスと属性を追加します。
-ms.openlocfilehash: 4ca18b0ccfde6b247f1c29e140004804462d0f56
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: サーバーを展開して操作するSkype for Business Server、スキーマを拡張して Active Directory ドメイン サービスを準備する必要があります。 スキーマ拡張機能は、ユーザーに必要なクラスと属性をSkype for Business Server。
+ms.openlocfilehash: 486d642621869cbb23051d2957614f35aa2c67fcda1c539862b05925787f180d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813577"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281666"
 ---
-# <a name="schema-changes-in-skype-for-business-server"></a>Skype for Business Server でのスキーマの変更点
+# <a name="schema-changes-in-skype-for-business-server"></a>スキーマの変更Skype for Business Server
  
-Skype for Business Server を展開して運用する前に、スキーマを拡張して Active Directory ドメイン サービスを準備する必要があります。 スキーマ拡張機能は、Skype for Business Server に必要なクラスと属性を追加します。
+サーバーを展開して操作するSkype for Business Server、スキーマを拡張して Active Directory ドメイン サービスを準備する必要があります。 スキーマ拡張機能は、ユーザーに必要なクラスと属性をSkype for Business Server。
 
 > [!NOTE]
-> Lync Server 2013 から Skype for Business Server 2015 にアップグレードする場合、スキーマは変更されないので、この記事は適用されません。
+> Lync Server 2013 から Skype for Business Server 2015 にアップグレードする場合は、スキーマの変更は行われたため、この記事は適用されません。
   
-Skype for Business Server は、いくつかの新しいクラスと属性を必要とし、いくつかの既存のクラスと属性を変更します。 さらに、Skype for Business Server の多くの構成情報は、以前のバージョンと同様に、AD DS ではなく中央管理ストアに格納されます。 次の情報は、Skype for Business Server AD DS に保存されます。
+Skype for Business Serverいくつかの新しいクラスと属性が必要であり、いくつかの既存のクラスと属性を変更します。 さらに、以前のバージョンと同様Skype for Business Server DS ではなく、サーバーの全体管理ストアにAD構成情報が格納されます。 次の情報は、引き続き DS ADに格納Skype for Business Server。
   
 - **スキーマ拡張**:
     
@@ -35,7 +35,7 @@ Skype for Business Server は、いくつかの新しいクラスと属性を必
     
   - サポートされている以前のバージョンの Lync Server との下位互換性を維持するためのクラスの拡張機能。
     
-- **データ** (Skype for Business Server の拡張スキーマと既存のスキーマ クラスに格納されます):
+- **データ**(拡張スキーマSkype for Business Server既存のスキーマ クラスに格納されます)。
     
   - ユーザーの SIP URI (Uniform Resource Identifier) と他のユーザー設定
     
@@ -45,27 +45,27 @@ Skype for Business Server は、いくつかの新しいクラスと属性を必
     
   - Kerberos 認証のアカウント (オプションのコンピューター オブジェクト)
     
-このトピックでは、Skype for Business Server に必要な Active Directory スキーマの変更点について説明します。 以前のバージョンの Communications Server で導入されたスキーマの変更Officeしません。 クラスとその説明の一覧については、Skype for Business Server のスキーマ クラスと [説明を参照してください](schema-classes-and-descriptions.md)。 属性とその説明の一覧については、Skype for Business Server のスキーマ属性と [説明を参照してください](schema-attributes-and-descriptions.md)。 含め得る属性を持つクラスの一覧については、Skype for Business Server のクラス別の [スキーマ属性を参照してください](schema-attributes-by-class.md)。
+このトピックでは、ユーザーが必要とする Active Directory スキーマの変更Skype for Business Server。 以前のバージョンのコミュニケーション サーバーで導入されたスキーマの変更Officeしません。 クラスとその説明の一覧については、「[スキーマ](schema-classes-and-descriptions.md)クラスと説明」を参照Skype for Business Server。 属性とその説明の一覧については、「[スキーマ](schema-attributes-and-descriptions.md)の属性と説明」を参照Skype for Business Server。 含まれる可能性のある属性を持つクラスの一覧については、「[スキーマ属性」](schema-attributes-by-class.md)を参照Skype for Business Server。
   
-msRTCSIP プレフィックスは、Skype for Business Server に固有のクラスと属性を識別します。
+msRTCSIP プレフィックスは、ユーザーに固有のクラスと属性Skype for Business Server。
   
 ## <a name="new-active-directory-attributes"></a>新規 Active Directory 属性
 
-次の表では、Skype for Business Server によって追加される Active Directory 属性について説明します。
+次の表に、ユーザーが追加する Active Directory 属性Skype for Business Server。
   
-**Skype for Business Server によって追加される属性**
+**ユーザーが追加した属性Skype for Business Server**
 
 |**属性**|**説明**|
 |:-----|:-----|
-|msExchUserHoldPolicies  <br/> |この複数値の属性には、ユーザーに適用される保持ポリシーの識別子が保持されます。 この保持の間は、ユーザーのメールボックス アイテムが保持ポリシーに保存されます。 この属性は Exchange 2013 と共有されます。  <br/> |
+|msExchUserHoldPolicies  <br/> |この複数値の属性には、ユーザーに適用される保持ポリシーの識別子が保持されます。 この保持の間は、ユーザーのメールボックス アイテムが保持ポリシーに保存されます。 この属性は、2013 年Exchange共有されます。  <br/> |
 |msRTCSIP-UserRoutingGroupId  <br/> |SIP ルーティング グループ ID。同じグループのユーザーは、同じフロントエンド サーバーに登録します。  <br/> |
 |msRTCSIP-MirrorBackEndServer  <br/> |この属性は、フロントエンド プールで使用SQL Serverミラー化されたバックエンドを格納するために使用されます。  <br/> |
    
 ## <a name="modified-active-directory-classes"></a>変更された Active Directory クラス
 
-次の表では、Skype for Business Server によって変更される Active Directory クラスについて説明します。
+次の表に、ユーザーが変更した Active Directory クラスSkype for Business Server。
   
-**Skype for Business Server によって変更されるクラス**
+**クラス Skype for Business Server**
 
 |**クラス**|**変更**|**クラスまたは属性**|
 |:-----|:-----|:-----|

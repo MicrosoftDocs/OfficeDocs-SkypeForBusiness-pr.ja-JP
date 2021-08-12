@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server へのアクセスを許可するには、次の操作を行います。
-ms.openlocfilehash: cb1449aa4fcca534e01b4d8a47a7ac9c39cd64c7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: ユーザーにアクセス権を付与Skype for Business Server、次の操作を行います。
+ms.openlocfilehash: 191149db88df737d0f20cdeb510bb03b4f17ddc40a4e85918240571a50ba5e5e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824967"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282160"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Skype for Business Server コントロール パネル管理者の作成
  
-Skype for Business Server へのアクセスを許可するには、次の操作を行います。
+ユーザーにアクセス権を付与Skype for Business Server、次の操作を行います。
   
 1. Domain Admins グループまたは RTCUniversalServerAdmins グループのメンバーとしてログオンします。
     
@@ -37,11 +37,11 @@ Skype for Business Server へのアクセスを許可するには、次の操作
 5. [メンバー] タブで、選択したユーザーまたはグループが表示されていることを確認します。[**OK**] をクリックします。
     
 > [!TIP]
-> Skype for Business Server コントロール パネルは、役割ベースのアクセス制御ツールです。 CsAdministrator グループのメンバーシップにより、Skype for Business Server コントロール パネルを使用しているユーザーは、使用可能なすべての構成機能を完全に制御できます。 特定の機能向けに設計されたその他の役割も使用できます。 ユーザーが管理グループのメンバーになるには、Skype for Business Server を有効にする必要があります。 
+> [Skype for Business Serverコントロール パネル] は、役割ベースのアクセス制御ツールです。 CsAdministrator グループのメンバーシップは、使用可能なすべての構成機能に対して Skype for Business Server コントロール パネルフル コントロールを使用しているユーザーに提供します。 特定の機能向けに設計されたその他の役割も使用できます。 管理グループのメンバーを作成するには、Skype for Business Serverを有効にする必要があります。 
   
 その他の役割は次のとおりです。
   
-- **CsArchiving:** このグループのメンバーは、アーカイブ サーバーの役割の構成や管理など、すべてのアーカイブ機能を実行できます。
+- **CsArchiving:** このグループのメンバーは、アーカイブ サーバーの役割の構成と管理など、すべてのアーカイブ機能を実行できます。
     
 - **CsHelpDesk:** このグループのメンバーは、ユーザーのプロパティやポリシーを含む構成と展開を表示できます。またメンバーは、特定のトラブルシューティング タスクも実行できます。
     
@@ -49,14 +49,14 @@ Skype for Business Server へのアクセスを許可するには、次の操作
     
 - **CsResponseGroupAdministrator:** メンバーは、応答グループ サービスを管理および構成できます。
     
-- **CsServerAdministrator:** メンバーは、Skype for Business Server を実行しているすべてのサーバーを管理、監視、およびトラブルシューティングできます。
+- **CsServerAdministrator:** メンバーは、サーバーを実行しているすべてのサーバーを管理、監視Skype for Business Server。
     
 - **CsUserAdministrator:** メンバーは、ユーザーの管理、有効化および無効化、ユーザーへの既存ポリシーの割り当てを実行できます。
     
-- **CsViewOnlyAdministrator:** メンバーは、サーバー情報の展開と構成を表示できます。 このメンバーシップにより、メンバーは Skype for Business Server を実行しているサーバーの正常性を監視できます。
+- **CsViewOnlyAdministrator:** メンバーは、サーバー情報の展開と構成を表示できます。 このメンバーシップを使用すると、メンバーはサーバーを実行しているサーバーの正常性をSkype for Business Server。
     
-- **CsVoiceAdministrator:** メンバーは、Skype for Business Server で音声関連の設定を作成、構成、および管理できます。
+- **CsVoiceAdministrator:** メンバーは、音声関連の設定を作成、構成、および管理Skype for Business Server。
     
-セキュリティと役割ベースのアクセス制御の整合性を維持するために、Skype for Business Server 展開の管理でユーザーが実行する役割を定義するグループにユーザーを追加します。
+セキュリティと役割ベースのアクセス制御の整合性を維持するために、ユーザーが展開の管理で実行する役割を定義するグループにユーザーをSkype for Business Serverします。
   
 

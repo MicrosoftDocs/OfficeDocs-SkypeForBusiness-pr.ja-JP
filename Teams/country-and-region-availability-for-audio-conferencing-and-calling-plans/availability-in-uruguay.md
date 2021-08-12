@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ウルグアイで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 8f316fc79b5c1dc8e9bb85fda30dc86dba23c13e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 38a761dd4696d0b958ab4635ec243a4b6fa916c4a5e6380261f330de4712832c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281640"
 ---
 # <a name="availability-in-uruguay"></a>ウルグアイでの利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51094489"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でファイル共有を作成する
+title: ファイル共有を作成するSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,28 +16,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
-description: '概要: Skype for Business Server のインストールの一部として Windows Server ファイル共有を作成する方法について学習します。 Microsoft Evaluation Center から Skype for Business Server の無料試用版を次の場所からダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 63ed4c54154698336bea7adb87db4e81d5fd35b4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: サーバー のインストールの一環としてWindowsサーバー ファイル共有を作成する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
+ms.openlocfilehash: 5b21f2b28c7f4c33105f5cffa96067668a08fbb00978737fd2fbf448cca6a8f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310006"
 ---
-# <a name="create-a-file-share-in-skype-for-business-server"></a>Skype for Business Server でファイル共有を作成する
+# <a name="create-a-file-share-in-skype-for-business-server"></a>ファイル共有を作成するSkype for Business Server
  
-**概要:** Skype for Business Server のインストールの一部として Windows Server ファイル共有を作成する方法について学習します。 Microsoft Evaluation Center から Skype for Business Server の無料試用版を次の場所からダウンロードします [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
+**概要:** サーバー のインストールの一Windowsサーバー ファイル共有を作成する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
   
-Skype for Business Server では、トポロジ全体のコンピューターがファイルを交換できるよう、ファイル共有が必要です。 ファイル共有の作成は、Skype for Business Server のインストール プロセスの手順 2/8 です。 手順 1. ~ 5. は任意の順序で実行できます。 ただし、手順 6、7、および 8 を順番に実行し、図に示されている手順 1 ~ 5 の後に実行する必要があります。 ファイル共有の計画の詳細については [、「Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or Server [requirements for Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md)」を参照してください。
+Skype for Business Serverトポロジ全体のコンピューターがファイルを交換できるよう、ファイル共有が必要になります。 ファイル共有の作成は、ファイル共有のインストール プロセスの手順 2 / 8 Skype for Business Server。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、手順 6、7、および 8 を順番に実行し、図に示す手順 1 ~ 5 の後に実行する必要があります。 ファイル共有の計画の詳細については、「環境要件 for [Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) [2019」](../../../SfBServer2019/plan/system-requirements.md)または「サーバー Skype for Business Server参照してください。
   
 ![概要図](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>基本的なファイル共有を作成する
 
-このセクションでは、基本的な Windows Server ファイル共有を作成する方法について説明します。 基本的な Windows Server ファイル共有は、Skype for Business Server でサポートされています。 ただし、明示的に高可用性を提供するわけではありません。 高可用性環境では、分散ファイル システム (DFS) ファイル共有をお勧めします。 高可用性ファイル共有と DFS の詳細については [、「Plan for high availability and disaster recovery in Skype for Business Server 」を参照してください](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+このセクションでは、サーバー ファイル共有の基本的なWindowsについて説明します。 サーバー ファイルWindows共有の基本機能は、サーバー ファイル共有Skype for Business Server。 ただし、高可用性を明示的に提供するわけではありません。 高可用性環境では、分散ファイル システム (DFS) ファイル共有をお勧めします。 高可用性ファイル共有と DFS の詳細については、「Plan [for high availability and disaster recovery in](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)Skype for Business Server」 を参照してください。
   
 > [!NOTE]
-> Windows Server 2012 R2 は、Windows Server プラットフォームを使用して記憶域ネットワーク (SAN) に似たファイル共有ソリューションを提供する上で大きな飛び上がりを見た。 従来の SAN ベースのアプライアンスと比較すると、Windows Server 2012 R2 ストレージ ソリューションはパフォーマンスへの影響を最小限に抑え、コストを半分に削減できます。 Windows Server 2012 R2 のファイル共有オプションの詳細については、R2 Storage のダウンロード可能なホワイト [ペーパー Windows Server 2012参照してください](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf)。 
+> Windows Server 2012R2 は、Storage サーバー プラットフォームを使用して、エリア ネットワーク (SAN) のようなファイル共有Windowsしました。 従来の SAN ベースのアプライアンスと比較すると、Windows Server 2012 R2 ストレージ ソリューションは、パフォーマンスへの影響を最小限に抑え、コストを半分に削減できます。 R2 のファイル共有オプションの詳細Windows Server 2012、ダウンロード可能なホワイト ペーパー [「R2 Windows Server 2012」をStorage。](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf) 
   
 ファイル共有を作成するためのビデオ **の手順をご覧ください**。
   
@@ -47,30 +47,30 @@ Skype for Business Server では、トポロジ全体のコンピューターが
 
 1. ファイル共有をホストするコンピューターにログオンします。
     
-2. 共有するフォルダーを右クリックし、[プロパティ] を選択 **します**。
+2. 共有するフォルダーを右クリックし、[プロパティ] を **選択します**。
     
-3. [共有] **タブを選択** し、[高度な共有] **をクリックします**。
+3. [共有] **タブを選択** し、[高度な共有 **] をクリックします**。
     
-4. [この **フォルダーの共有] をクリックします**。
+4. [この **フォルダーを共有する] をクリックします**。
     
 5. **[アクセス許可]** をクリックします。
     
-6. ファイル共有を **ホストしているサーバーのローカルの Administrators** グループを追加し、[ **許可:** フル コントロール、変更、読み取り権限] を付与して **、[OK]** をクリックします。
+6. ファイル共有を **ホストするサーバー** のローカル Administrators グループを追加し、[許可 **:** フル コントロール]、[変更]、および [読み取り] 権限を付与し **、[OK] をクリックします**。
     
-7. もう **一度 [OK]** をクリックし、ネットワーク パスをメモします。
+7. もう一 **度 [OK]** をクリックし、ネットワーク パスをメモします。
     
-8. [ **完了] を** クリックしてウィザードを閉じます。
+8. [完了 **] を** クリックしてウィザードを閉じます。
     
-     ![フォルダーを共有する [共有] タブ。](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
+     ![フォルダーを共有する共有タブ。](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
 > [!NOTE]
->ファイル ストアが DFS 共有でホストされている場合は、次の警告が表示されます。
+>ファイル ストアが DFS 共有でホストされている場合、次の警告が表示されます。
 
-警告: " " の共有アクセス許可にアクセスできません \\ <domain> \<share> 。
+警告: "" に対する共有アクセス許可にアクセス \\ <domain> \<share> できません。
 
->これは、ファイル サーバーの管理者ではない場合、またはこれが分散ファイル システム (DFS) 共有の場合に想定されます。 共有アクセス許可が既に構成されている場合、この警告は無視できます。 新しい共有の場合は、手動で共有アクセス許可を構成する方法の詳細については、ドキュメントを参照してください。
+>これは、ファイル サーバーの管理者ではない場合、またはこれが分散ファイル システム (DFS) 共有の場合に必要です。 共有アクセス許可が既に構成されている場合、この警告は無視できます。 新しい共有の場合は、手動で共有アクセス許可を構成する方法の詳細については、ドキュメントを参照してください。
 
->DFS 共有の共有アクセス許可にアクセスできないので、Skype for Business Server はファイル共有にグループを明示的に設定できません。 Skype for Business Server コンポーネントが適切なアクセス許可を持つファイル共有にアクセスするには、フル コントロール共有アクセス許可を持つローカル管理者に加えて、読み取りおよび変更レベルの共有アクセス許可を持つ次の RTC グループが追加されます。
+>DFS 共有の共有アクセス許可にアクセスできないので、Skype for Business Serverファイル共有にグループを明示的に設定することはできません。 Skype for Business Server コンポーネントが適切なアクセス許可を持つファイル共有にアクセスするには、フル コントロール共有アクセス許可を持つローカル管理者に加えて、次の RTC グループに読み取りおよび変更レベルの共有アクセス許可が追加されます。
 * RTCHSUniversalServices
 * RTCComponentUniversalServices
 * RTCUniversalServerAdmins

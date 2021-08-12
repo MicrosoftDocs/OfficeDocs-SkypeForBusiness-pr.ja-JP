@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でメディア バイパスを構成して、常に仲介サーバーをバイパスする
+title: 仲介サーバーを常にバイパスSkype for Business Serverメディア バイパスを構成する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-description: メディア バイパスを有効にして、Skype for Business Server の仲介サーバーを常にバイパスエンタープライズ VoIP。
-ms.openlocfilehash: 23d3100e355d100e3dea1932639d70f9290e7ea4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: メディア バイパスを有効にして、常に仲介サーバーをバイパスSkype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: c80b3479546e9154480af8f71417b5ebce43b261510eec19332ecf1cf9287bc4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310036"
 ---
-# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Skype for Business Server でメディア バイパスを構成して、常に仲介サーバーをバイパスする
+# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>仲介サーバーを常にバイパスSkype for Business Serverメディア バイパスを構成する
  
-メディア バイパスを有効にして、Skype for Business Server の仲介サーバーを常にバイパスエンタープライズ VoIP。 
+メディア バイパスを有効にして、常に仲介サーバーをバイパスSkype for Business Server エンタープライズ VoIP。 
   
- このトピックの手順を使用してメディア バイパスのグローバル設定を構成する場合、Skype for Business エンドポイントとトランク接続でメディア バイパスを構成したピア間の接続が良好な場合が前提です。
+ このトピックの手順を使用してメディア バイパスのグローバル設定を構成する場合、Skype for Business エンドポイントとトランク接続でメディア バイパスを構成したピアとの間に良好な接続性があるという前提があります。
   
-Skype for Business エンドポイントと、それぞれのトランク接続でメディア バイパスが有効になっている仲介サーバーへのすべてのピア間の接続が良好ではない場合は、メディア バイパスを使用するときにサイトおよび地域情報を使用するグローバル メディア バイパス設定を構成する必要があります。 これにより、メディアが仲介サーバーをバイパスするか判定する際に、よりよく制御できます。 これを行うには [、「Configure media bypass global settings in Skype for Business Server to use site and region information](use-site-and-region-information.md) and Associate a subnet with a network [site](deploy-network.md#BKMK_AssociateSubnets) instead」の手順を使用します。
+Skype for Business エンドポイントと仲介サーバーの各トランク接続がメディア バイパスに対して有効になっているすべてのピア間の接続が良好ではない場合は、メディア バイパスを使用するときにサイトと地域の情報を使用するグローバル メディア バイパス設定を構成する必要があります。 これにより、メディアが仲介サーバーをバイパスするか判定する際に、よりよく制御できます。 これを行うには、「Skype for Business Server でメディア[](use-site-and-region-information.md)バイパスグローバル設定を構成する」の手順を使用して、サイトと地域の情報を使用し、代わりにサブネットをネットワーク サイト[に関連付](deploy-network.md#BKMK_AssociateSubnets)ける。
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>仲介サーバーを常にバイパスするよう、メディア バイパスをグローバルに有効化するには
 
-1. Skype for Business Server コントロール パネルを開きます。
+1. [コントロール Skype for Business Server] を開きます。
     
 2. 左側のナビゲーション バーで [**ネットワーク構成**] をクリックします。
     
@@ -47,7 +47,7 @@ Skype for Business エンドポイントと、それぞれのトランク接続�
     
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business でのメディア バイパスの計画](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+[ネットワークでメディア バイパスを計画Skype for Business](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
-[Skype for Business Server でのメディア バイパスの展開](deploy-media-bypass.md)
+[メディア バイパスを展開Skype for Business Server](deploy-media-bypass.md)
 

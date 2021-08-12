@@ -14,21 +14,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 38f98075cb81dfde17fbe2a80ec741e2a4b0a66c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 156359b8e59bef72d12268632cda71b979a08dbe2aa1d1fe4e8578daafaafad8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833647"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282060"
 ---
 # <a name="call-detail-recording"></a>通話詳細記録
  
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
   
-- [Skype for Business Server で通話詳細記録を有効にする](../../../manage/health-and-monitoring/enable-cdr.md)
+- [[通話の詳細記録を有効にする] Skype for Business Server](../../../manage/health-and-monitoring/enable-cdr.md)
     
-- [Skype for Business Server での CDR データの保持期間の指定](../../../manage/health-and-monitoring/specify-retention-of-data.md)
+- [CDR データの保持を指定Skype for Business Server](../../../manage/health-and-monitoring/specify-retention-of-data.md)
     
  
 

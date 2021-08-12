@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: これらのリンクを参照して、2019 年にインストールおよび構成Skype for Business Serverします。'
-ms.openlocfilehash: 10bc82f47bc6805821241913dbdb86a08469ff20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 71458d532166b7877a23639955b86d15b913b9ec950b4b620c642ff1c8733725
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281510"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>2019 Skype for Business Serverの展開
  

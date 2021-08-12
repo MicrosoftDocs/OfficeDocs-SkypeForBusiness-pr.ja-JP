@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、フィンランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: e89d87ecb9010fe42717d2bd3dff8db906580b92
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: efe358fc42ca6c2cb12bb1b55b9e6ddb44fd447385c273eec491f9e6bef284f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281580"
 ---
 # <a name="phone-number-management-for-finland"></a>電話の番号管理
 
@@ -41,7 +41,7 @@ ms.locfileid: "53510168"
 |転送された電話番号を取得します。| このフォームをダウンロードします。 <br/>[フィンランドの承認状 (LOA) (すべての番号) (v.1.0) (en-fi)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、移行に 2 ~ 3 週間かかる場合があります。 <br/><br/> 現時点では、これらの番号を会議に使用できません。   |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
    
 ## <a name="related-topics"></a>関連項目
 

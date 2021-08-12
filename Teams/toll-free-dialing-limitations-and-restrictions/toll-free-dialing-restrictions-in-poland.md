@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: ポーランドの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
-ms.openlocfilehash: b9a9e64044fdf012de5ec96e157863a5d7540518
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f7b8fcfe3821f99e198ed2b33a6d7c05ba01ca8dbb05bf817c562234e901416e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097823"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282490"
 ---
 # <a name="toll-free-dialing-restrictions-in-poland"></a>ポーランドでのフリーダイヤル制限
 

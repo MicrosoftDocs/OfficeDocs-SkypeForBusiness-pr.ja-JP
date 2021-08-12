@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: f7aeeafe6997047789c773ddcd43c116ef16794d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: c84a07abd689d5870873759abc642297ca7a92bcc774af8bc1603ef06f08d0ee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810737"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309446"
 ---
 # <a name="users-view-pin-status"></a>ユーザー: PIN の状態の表示
  
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
   
-- [Skype for Business Server 2015 でユーザーのダイヤルイン会議 PIN を設定する](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [2015 年にユーザーのダイヤルイン会議 PIN をSkype for Business Serverする](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
 
