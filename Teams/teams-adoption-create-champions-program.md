@@ -21,12 +21,12 @@ f1.keywords:
 description: 組織の認識、導入、および教育を促進することで、Teamsのチームをトレーニングし、導入を促進する方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a81e143d0b8d9d026c2e24a0469bc6d241d840f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a29e99a85e0759ca67cb94bd690dac3e690b07fd1269b33aa76e4ca315207d0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296624"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Microsoft Teams のチャンピオン プログラムを作成する
 

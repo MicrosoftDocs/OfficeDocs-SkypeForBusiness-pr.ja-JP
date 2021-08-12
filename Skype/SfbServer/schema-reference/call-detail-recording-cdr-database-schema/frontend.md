@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 の FrontEnd テーブル
+title: FrontEnd テーブル (Skype for Business Server 2015)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8207af80-41fa-4bec-9523-b0332e8231d9
 description: FrontEnd テーブルは内部専用です。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 0e696bd148075322a3e33e53112d4310cbd311f7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 65de3cfed6bf32c22539f7026fc642219407ef8b154f6bb59a3fbc8ceddd6879
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296944"
 ---
-# <a name="frontend-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の FrontEnd テーブル
+# <a name="frontend-table-in-skype-for-business-server-2015"></a>FrontEnd テーブル (Skype for Business Server 2015)
  
 FrontEnd テーブルは内部専用です。 この表は、Microsoft Lync Server 2013 で導入されました。
   

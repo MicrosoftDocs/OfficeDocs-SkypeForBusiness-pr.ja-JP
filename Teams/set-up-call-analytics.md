@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: ユーザーごとの通話分析を設定して、通話品質の問題を特定Microsoft Teamsトラブルシューティングします。
-ms.openlocfilehash: 209fcad851f5ba7b0183a9988372e249f99cc4fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 968a4c06d4b1be1384303241d0eb6b45721e833560d46169acf96caa1f18a576
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117135"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332539"
 ---
 # <a name="set-up-call-analytics-for-microsoft-teams"></a>ユーザーの通話分析を設定Microsoft Teams
 
@@ -59,7 +59,7 @@ Teams または Skype for Business 管理者の場合は、既存のテナント
   
 .tsv または .csv ファイルを最初から作成する場合は、テナントのアップロードデータの構築に関する[ページを参照してください](CQD-upload-tenant-building-data.md)。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ユーザーごとの通話分析を使用して低品質の通話のトラブルシューティングを行う](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 

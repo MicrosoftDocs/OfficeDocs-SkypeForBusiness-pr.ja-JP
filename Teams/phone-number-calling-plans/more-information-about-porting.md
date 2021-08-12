@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 電話番号を電話番号に移植するために必要なガイダンスをMicrosoft Teams。
-ms.openlocfilehash: bb63e22b7cc3aa787ddb984f82180937c5aaf9fc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 17ceb8270d9474a64b2a4f2a55e7f015585dacd5ba376708092f1fcf96f57722
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802517"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296714"
 ---
 # <a name="more-information-about-porting"></a>移植の詳細
 
@@ -104,13 +104,13 @@ ms.locfileid: "49802517"
  - このファイルには、PhoneNumber という名前のヘッダーを含む 1 つの列のみを含む必要があります。
  - 各電話番号は個別の行に入る必要があります。
  - 電話は、数字のみ、または E.164 形式で指定できます。
- - 電話番号の形式は、選択した国または地域と一致している必要があります。 たとえば、移植ウィザードで英国を選択した場合は、国コードである 44 を使用し、その後に正しい桁数の電話番号を使用します。 たとえば、4420812341234 などです。
+ - 電話番号の形式は、選択した国または地域と一致している必要があります。 たとえば、移植ウィザードで英国を選択した場合は、国コードである 44 を使用し、その後に正しい桁数の電話番号を使用します。 たとえば、次4420812341234。
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>ポート注文の状態を確認する方法
 
 「 [ポート注文の状態は何ですか?」を参照してください。](port-order-status.md)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

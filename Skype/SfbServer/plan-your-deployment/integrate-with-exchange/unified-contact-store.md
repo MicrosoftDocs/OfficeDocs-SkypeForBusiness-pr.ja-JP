@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での統合連絡先ストアの計画
+title: 連絡先の統合ストアを計画Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,35 +13,35 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
-description: '概要: Skype for Business Server と Exchange 2013 の統合を計画する場合は、このトピックを確認してください。'
-ms.openlocfilehash: 3ce06118f8225e78c5c84a8f9124e4815f79d593
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 2013 年に 2013 年にSkype for Business ServerをExchangeしてください。'
+ms.openlocfilehash: 12f76c1e10eea445adb21147c20ab79f33e38f3c8c578aeab8ec24296bb06594
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816257"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284627"
 ---
-# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 での統合連絡先ストアの計画
+# <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>2015 年に統合連絡先ストアSkype for Business Serverする
  
-**概要:** Skype for Business Server と Exchange 2013 または 2016 の統合を計画する場合は、このトピックを確認してください。
+**概要:** 2013 年または 2016 年Skype for Business ServerにExchangeこのトピックを確認してください。
   
-統合連絡先ストアは、Microsoft Office 製品間で一貫した連絡先エクスペリエンスを提供し、ユーザーは Exchange 2013 のすべての連絡先情報を保存できますが、Skype for Business、Exchange、Outlook、および Outlook Web Access 全体でグローバルに情報を使用できます。
+統合連絡先ストアは、Microsoft Office 製品全体で一貫した連絡先エクスペリエンスを提供し、Exchange 2013 のすべての連絡先情報を保存できますが、Skype for Business、Exchange、Outlook、および Outlook Web Access 全体で情報をグローバルに利用できます。
   
 ## <a name="requirements-for-unified-contact-store"></a>統合連絡先ストアの要件
 
-Skype for Business Server に統合連絡先ストアを実装するには:
+統合連絡先ストアを実装するには、次Skype for Business Server。
   
-- Skype for Business Server と Exchange 2013 または 2016 を実行している必要があります。
+- 2013 または 2016 Skype for Business Server 2016 Exchange実行している必要があります。
     
-- ユーザーは、Skype for Business Server から Exchange 2013 または 2016 に連絡先を移行するために Skype for Business を使用する必要があります。
+- ユーザーは、Skype for Business 2013 または 2016 に連絡先Skype for Business Server移行Exchangeする必要があります。
     
-- ユーザー メールボックスは Exchange 2013 に移行する必要があります。
+- ユーザー メールボックスは、2013 年Exchange必要があります。
     
-- Skype for Business Server と Exchange 2013 または 2016 の間にサーバー間認証を構成する必要があります。
+- サーバー間認証は、2013 または 2016 年Skype for Business Server 2016 Exchangeする必要があります。
     
     > [!NOTE]
-    > Skype for Business Server と Exchange 2013 または 2016 の間の認証のセットアップに関する詳細な要件については、「操作」のドキュメントの「Skype for Business Server でのサーバー間認証 [(OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md) およびパートナー アプリケーションの管理」を参照してください。
+    > Skype for Business Server と Exchange 2013 または 2016 の間の認証のセットアップに関する詳細な要件については、「操作」のドキュメントの「Skype for Business Server のサーバー間認証[(OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md)とパートナー アプリケーションの管理」を参照してください。
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server での統合連絡先ストアの展開](../../deploy/deploy-unified-contact-store.md)
+[統合連絡先ストアを展開Skype for Business Server](../../deploy/deploy-unified-contact-store.md)

@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) でテナントをアップロードし、データを構築する方法について学習します。
-ms.openlocfilehash: 7a1f6de78e01a8988317aa99aae917aa0018e19a
-ms.sourcegitcommit: 7e673b88346e07f7c777710437b19d257ccecb1b
+ms.openlocfilehash: be51f4ec7eb19f56a07413749abf5455856754ed0984d00cd27ed72d9aaa8316
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "50067142"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322809"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>アップロード品質ダッシュボード (CQD) でテナントを管理し、データを構築する
 
@@ -224,7 +224,7 @@ CQD のテナント データ ファイルの最初の種類は、 **データ �
 > Month Year レポート フィルターは、必ず当月に合わせて調整してください。 [ **編集] を** 選択し、[月の年 **] レポート** フィルターを調整して、新しい既定の月を保存します。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [CQD の建物マップを作成する](CQD-building-mapping.md)
 

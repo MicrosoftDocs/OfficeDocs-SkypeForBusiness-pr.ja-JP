@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: ce5d80b8be0fe2e6983229be8185bcdf02e06ab6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 48ce96b4b2ab6ad87054784bea93d8a7a45638ee6f2d86938cca1be60f30d442
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341093"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>会議の電話会議を設定Skype for Business
 
@@ -133,7 +133,7 @@ ms.locfileid: "52237643"
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
-1. [レガシ **ポータルMicrosoft 365管理**  >  **センター Teams**  >  **に移動します**。
+1. [従来のポータル **]**  >  **Microsoft 365 管理センター Teams**  >  **に移動します**。
 2. [**電話会議ユーザー]**  >  **を選択** し、一覧からユーザーを選択し、[編集] を **クリックします**。 
 
 さらに詳細が必要な場合は、「[Microsoft を電話会議プロバイダーとして割り当てる](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)」を参照してください。

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: モロッコで利用Microsoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
-ms.openlocfilehash: ee6cea4fa3d5995fe99086667f8e5d6e83878dab
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 70fb0596e9ba9c8d78fffb659dba58c996977382b587c18869fddd746b4fd539
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296904"
 ---
 # <a name="availability-in-morocco"></a>モロッコでの空き時間情報
 
@@ -82,7 +82,7 @@ ms.locfileid: "51102433"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

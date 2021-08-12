@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 83c548f948c4c368ba1d8186fbdc9f212b9fb67b463f8eaec845f7698f4c0720
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: サーバー内のフェデレーション パートナーにアーカイブの免責事項を送信するSkype for Business Server。
+ms.openlocfilehash: 5c3e5b864b26977c2d25e534cdb62f9619644587a2b0658a788727ad2cd3fef4
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848862"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>アーカイブに関する免責事項をフェデレーション パートナーに送信する機能を有効または無効Skype for Business Server
 
@@ -53,14 +53,9 @@ ms.locfileid: "54313175"
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>アーカイブの免責事項を有効にするには
 
-  - アーカイブについての免責事項を有効にするには、**EnableArchivingDisclaimer** プロパティの値を True ($True) に設定します。
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
+  - アーカイブについての免責事項を有効にするには、**EnableArchivingDisclaimer** プロパティの値を True ($True) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 
 ## <a name="to-disable-the-archiving-disclaimer"></a>アーカイブの免責事項を無効にするには
 
-  - アーカイブについての免責事項を有効にするには、**EnableArchivingDisclaimer** プロパティの値を False ($False) に設定します。
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
-
+  - アーカイブについての免責事項を有効にするには、**EnableArchivingDisclaimer** プロパティの値を False ($False) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 

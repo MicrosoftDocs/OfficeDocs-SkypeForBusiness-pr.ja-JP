@@ -16,16 +16,16 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: この記事では、ディスプレイでサポートされる機能と機能の概要Microsoft Teamsします。
-ms.openlocfilehash: 8b91667265531833920e31a5ab99fca307d151d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a812aad7b26758ce41052672b20e5031da0729e7d1b1b802513ed2b311353b30
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322679"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams表示
 
-Microsoft Teamsディスプレイは、周囲のタッチスクリーンと Cortana を利用したハンズフリーエクスペリエンスを備Teamsデバイスの 1 つの専用デバイスのカテゴリです。 この記事では、Teamsの概要を説明し、組織の表示を計画、配信、管理Teams役立ちます。
+Microsoft Teamsディスプレイは、環境タッチスクリーンを備え、Teams を利用したハンズフリーエクスペリエンスを備える、1 つの専用の Cortana デバイスのカテゴリです。 この記事では、Teamsの概要を説明し、組織の表示を計画、配信、管理Teams役立ちます。
 
 Teamsは、チャット、会議、通話、予定表、ファイルTeams、お気に入りの機能を 1 つの &ndash; &ndash; デバイスにまとめます。 このTeamsを使用すると、ユーザーはマイク、カメラ、スピーカー (またはBluetooth ヘッドセット) を使用して、信頼性の高い通話と会議のエクスペリエンスを実現できます。 Teamsディスプレイは、ユーザーの PC Windows統合され、デバイス間のシームレスな対話を可能にするコンパニオン エクスペリエンスを実現します。
 
@@ -37,7 +37,7 @@ Teamsは、チャット、会議、通話、予定表、ファイルTeams、お�
 
 - **専用ディスプレイ (Teams** ユーザーは、チャット、会議、Teams、チームとチャネル、ファイルなど、すべての主要な機能にアクセスできます。
 - **環境エクスペリエンス** ユーザーは、常にオンと一目で確認できるディスプレイを使用して作業を簡単に把握し、主要な作業デバイスでコンテキストを切り替えることなく、重要なアクティビティや通知を表示できます。 ユーザーは、設定を使用Teamsをカスタマイズすることで、ユーザーをカスタマイズして表示することもできます。
-- **Cortana でハンズフリー** ユーザーは、音声を使って Teams ディスプレイと対話し、会議に簡単に参加して表示したり、Teams チャットへの返信をディクテーションしたり、予定表の内容を確認したりすることができます。
+- **ハンズフリーでCortana** ユーザーは、音声を使って Teams ディスプレイと対話し、会議に簡単に参加して表示したり、Teams チャットへの返信をディクテーションしたり、予定表の内容を確認したりすることができます。
 - **ロック画面にメモを残す** ゲストは音声、ビデオ、テキストのノートを残し、ユーザーはゲストが残したノートを確認し、誰が停止したのか確認できます。  
 
 ## <a name="required-licenses"></a>必要なライセンス
@@ -70,4 +70,4 @@ Teamsディスプレイは、スマートフォンの進化Teamsです。 組織
 
 [IP 電話をディスプレイにTeamsする](upgrade-phones-to-displays.md)
 
-[Cortana の音声アシスタンス (Teams](../cortana-in-teams.md)
+[Cortanaでの音声アシスタンスのTeams](../cortana-in-teams.md)

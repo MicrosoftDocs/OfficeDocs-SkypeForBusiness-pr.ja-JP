@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a1e969a1310a64a281434a630f4fb608b8cfb30
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: feaed3702173061561e09ccc784bbae3173914d1a030052d56a4aaa79f7986a0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947568"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312455"
 ---
 # <a name="install-microsoft-teams-powershell-module"></a>PowerShell モジュールMicrosoft Teamsインストールする
 

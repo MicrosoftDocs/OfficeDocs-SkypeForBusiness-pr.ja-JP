@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、フィリピンの無料電話番号にダイヤルする方法について学習します。
-ms.openlocfilehash: 9d6c84a6f96e795b777033a0a0456eabe1136620
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: debf3e915a1ee246657bb3e470016e5029fa932ccc82e236612184808e02b7bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341133"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>フィリピンでのフリーダイヤル制限
 

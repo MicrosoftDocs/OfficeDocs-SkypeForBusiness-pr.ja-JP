@@ -21,12 +21,12 @@ f1.keywords:
 description: アプリケーションの広範な有効化の結果と成功を測定する方法Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f53c39611e28bde40ccf8bab0f92635383b11e5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ef85a84c247c18528b8c13181943d970afe05d1c5c72976739b4b79a77cf8c6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834197"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332429"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入の結果と成功を定義する
 
@@ -81,7 +81,7 @@ Teamsは変革的なテクノロジなので、組織の規模や既存のテク
 | クラウド デプロイをリード Teamsする | リード コラボレーション シナリオの有効化とTeams | 組織内および組織Teamsのすべての従業員 | アプリとTeamsを有効Skype for Business | ユーザーを別のSkype for Businessに移行Teams |
 | - 新規または低使用量のお客様Microsoft 365またはOffice 365できます <br/>- 顧客固有のTeamsを含むリード <br/>- 統合されたユーザー エクスペリエンスと、統合されたユーザー エクスペリエンスと、Microsoft 365またはOffice 365 <br/>- シリアル実装を回避するために、ワークロードの有効化の計画をまとめて実施する | - Teams Online と共にOneDriveをSharePointする <br/>- Microsoft Stream でニュース リソースとビデオを共有する会社のイントラネットを作成する<br/>**より良い一緒に**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>プランナー<br/>PowerApps |- シート数が 5,000 未満のお客様 (現在の制限)<br/>- すべてのチームで 1 つのチームで組織間の共同作業を有効にする<br/>- 一般的なタスク (休暇の依頼、従業員アンケート、エグゼクティブエンゲージメント) を自動化する |- Teams戦略を使用してコラボレーションを加速する<br/>- 必要なサイズと機能セットに基づいて会議シナリオガイダンスを強調表示する</br>- エンタープライズSkype for Business、相互運用性、ハイブリッド シナリオに使用する<br/>- 機能計画にはパブリック ロードマップを使用します。 |- 顧客のサービス戦略ロードマップTeamsしてSkype for Businessから顧客への移行を計画する<br/>- 機能のリリース スケジュールにアタッチする<br/>- 移行を容易にするために、Side by Side と Teams Core を含めてお勧めします
 
-ほとんどの顧客組織に対する推奨事項を次に示します。 ただし、例外があります。 ここで説明していないシナリオに関するガイダンスを得る場合は、ドライブ導入コミュニティで質問するか、FastTrack チームまたは Microsoft パートナー ネットワークにお問い合わせください。
+ほとんどの顧客組織に対する推奨事項を次に示します。 ただし、例外があります。 ここで説明していないシナリオのガイダンスを取得するには、ドライブ導入コミュニティで質問するか、FastTrack チームまたは Microsoft パートナー ネットワークにお問い合わせください。
 
 - **[First Teams または Teams Core**: ほとんどの組織は、Microsoft テクノロジに既存の投資を行っています。 一度に複数のワークロードを有効にしている場合があります (Exchange Online、OneDrive for Business、SharePoint。 このような場合は、[First] または [Teams Core] Teamsを選択する方が賢明です。 この機能を使用すると、ユーザーはユーザーのコラボレーション エクスペリエンスの強化にTeams。 その後、コラボレーション プロジェクト チームは、追加の機能と、それらを成功するために必要なトレーニングとサポートを展開する計画を立てできます。 
 

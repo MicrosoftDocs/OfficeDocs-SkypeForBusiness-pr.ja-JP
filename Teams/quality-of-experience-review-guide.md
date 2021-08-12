@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 85b860965c7883d5df9bc734bc336fb2d24a5ed8
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 45fe1737aec2fca951ab71e0925961ada57873ab289abcafd33b2588f189e259
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574146"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332569"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>CQD を使用して、通話と会議の品質を管理Microsoft Teams 
 
@@ -753,7 +753,7 @@ Teams と Skype for Business の認定を受けたデバイスをユーザーに
 Wi-Fiドライバーは、定期的な更新プログラムにもパッチを適用する必要があります。また、パッチ管理戦略に含める必要があります。 最新のドライバーを維持することで、多くの品質の問題Wi-Fiできます。 インフラストラクチャの最適化の詳細については、Wi-Fi計画に関するこの [記事Wi-Fiしてください](/skypeforbusiness/certification/networking-wifi)。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Advisor を使用してTeams](use-advisor-teams-roll-out.md)
 

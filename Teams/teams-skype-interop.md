@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 組織内のユーザーとコンシューマー (コンシューマー) Teamsユーザーの間の相互運用Skypeについて説明します。
 localization_priority: Normal
-ms.openlocfilehash: e3203c03043dbcdb04370cf3aa26b435fad4a728
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 42a6631a70156cf150e175b7c5dd1cd661a84c77f0523e61c9d7b9313e4f81e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093957"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312465"
 ---
 # <a name="teams-and-skype-interoperability"></a>TeamsとSkype相互運用性
 
@@ -96,7 +96,7 @@ Skype for Business から Teams にアップグレードした場合、Skype for
 
 2. [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider)コマンドレットを パラメーター を に設定して、Teamsユーザーと通信Skype ```Provider``` ```"WindowsLive"``` します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams で外部アクセスを管理する](manage-external-access.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af5c2f6029b0c5314c507de7734abf8c479af709
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 073f5ecf262d51853aecf14f982af144434791b19be617887f4ac788f11b301c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312505"
 ---
 # <a name="share-to-teams-from-outlook"></a>共有してTeamsからOutlook
 
@@ -49,9 +49,9 @@ Share が使用するアドインのアドインOutlookを有効にするには�
 
 ## <a name="browsers-and-single-sign-on"></a>ブラウザーとシングル サインオン
 
-Web 上Teamsクライアントとデスクトップ Outlookの両方で、ブラウザーの WebView に依存Outlook共有します。 どの[クライアントが特定のブラウザー Office使用](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins)しているかの詳細については、アドインで使用されるブラウザーに関するページを参照してください。 
+共有はTeamsデスクトップ クライアントOutlook on the web Outlookブラウザー WebView に依存します。 どの[クライアントが特定のブラウザー Office使用](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins)しているかの詳細については、アドインで使用されるブラウザーに関するページを参照してください。 
 
 > [!IMPORTANT]
 > [共有Teams、サード パーティの Cookie とローカル ストレージアクセスの両方をユーザーのブラウザーで有効にする必要があります。
 
-[共有Teams シングル サインオン (SSO) を使用します。つまり、ユーザーは Share から Teams 経由でアドインを使用するときに資格情報を指定する必要があります。 Web 上Outlookの SSO では、既定 https://outlook.office365.com/owa/extSSO.aspx https://outlook.office.com/owa/extSSO.aspx でサポートおよび応答 URL がサポートされます。 バニティ ドメインの場合、管理者は適切な応答 URL をAzure Active Directoryする必要があります。
+[共有Teams シングル サインオン (SSO) を使用します。つまり、ユーザーは Share から Teams 経由でアドインを使用するときに資格情報を指定する必要があります。 SSO for Outlook on the webサポート https://outlook.office365.com/owa/extSSO.aspx され https://outlook.office.com/owa/extSSO.aspx 、応答 URL が既定でサポートされます。 バニティ ドメインの場合、管理者は適切な応答 URL をAzure Active Directoryする必要があります。

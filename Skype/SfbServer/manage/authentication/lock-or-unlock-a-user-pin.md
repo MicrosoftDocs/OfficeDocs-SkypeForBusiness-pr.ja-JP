@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でユーザー PIN をロックまたはロック解除する
+title: ユーザーの PIN をロックまたはロック解除Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: '概要: Skype for Business Server のユーザーのダイヤルイン会議 PIN をロックまたはロック解除します。'
-ms.openlocfilehash: 46c46d2bffc8d9c0c8d3456192fb506ce754aecd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: ユーザーのダイヤルイン会議 PIN をロックまたはロック解除して、Skype for Business Server。'
+ms.openlocfilehash: d0871622a045555dcd2da49a6bbbd6721a8d3302a6bf3c7800092e4f7e062d32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119596"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284807"
 ---
-# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Skype for Business Server でユーザー PIN をロックまたはロック解除する
+# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>ユーザーの PIN をロックまたはロック解除Skype for Business Server
  
-**概要:** Skype for Business Server のユーザーのダイヤルイン会議 PIN をロックまたはロック解除します。
+**概要:** ユーザーのダイヤルイン会議 PIN をロックまたはロック解除して、Skype for Business Server。
   
-Skype for Business Server コントロール パネルの[ユーザー] セクションから、ユーザーの PIN をロックまたはロック解除できます。
+[コントロール パネル] の [ユーザー]セクションからユーザーの PIN をロックSkype for Business Server解除できます。
   
-### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルでユーザーの PIN をロックするには
+### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>コントロール パネルでユーザーの PIN をSkype for Business Serverするには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
     
@@ -57,11 +57,11 @@ Skype for Business Server コントロール パネルの[ユーザー] セク�
     
    f. ユーザーをクリックし、[**アクション**] をクリックして、[**PIN のロック**] をクリックします。
     
-### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルでユーザーの PIN のロックを解除するには
+### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>[コントロール パネル] でユーザーの PIN をSkype for Business Serverするには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
     
@@ -88,9 +88,9 @@ Skype for Business Server コントロール パネルの[ユーザー] セク�
     
    f. ユーザーをクリックし、[**アクション**] をクリックして、[**PIN のロック解除**] をクリックします。
     
-## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用したユーザー PIN のロックとロック解除Windows PowerShellする
+## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用してユーザー PIN をロックWindows PowerShellする
 
-ユーザー PIN をロックおよびロック解除するには、Windows PowerShellコマンドレットとLock-CsClientPinをUnlock-CsClientPinします。 これらのコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、Skype for Business Server でも同じです。
+ユーザー PIN をロックおよびロック解除するには、Windows PowerShellコマンドレットとLock-CsClientPinをUnlock-CsClientPinします。 これらのコマンドレットは、Skype for Business Server管理シェルから、またはリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-lock-a-user-pin"></a>ユーザー PIN をロックするには
 
@@ -102,7 +102,7 @@ Skype for Business Server コントロール パネルの[ユーザー] セク�
 
 ### <a name="to-unlock-a-user-pin"></a>ユーザー PIN のロックを解除するには
 
-- ユーザーの PIN のロックを解除するには、次のコマンドレットUnlock-CsClientPinします。 例:
+- ユーザーの PIN のロックを解除するには、次のコマンドレットUnlock-CsClientPinします。 次に例を示します。
     
   ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"

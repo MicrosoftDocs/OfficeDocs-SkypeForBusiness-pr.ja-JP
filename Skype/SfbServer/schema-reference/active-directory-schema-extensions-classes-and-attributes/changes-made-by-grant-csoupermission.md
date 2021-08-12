@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server Grant-CsOUPermissionによって行われた変更
+title: Grant-CsOUPermissionで行Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
-description: Skype for Business Server の管理を委任するには、フォレストの準備によって作成された RTC ユニバーサル グループのメンバーが Domain Admins グループのメンバーでなくても、その US にアクセスできるよう、指定した組織単位 (US) にアクセス許可を追加できます。
-ms.openlocfilehash: 09a6d6baf554b18db0a388619ffb74c85c6963fd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Server 管理を委任するには、指定した組織単位 (OUs) にアクセス許可を追加して、フォレスト準備によって作成された RTC ユニバーサル グループのメンバーが Domain Admins グループのメンバーでなくても、OUs にアクセスできます。
+ms.openlocfilehash: fc537ed927e5eb430b4c379218b4400b6ab12761a272f37bba68a281481c9531
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349719"
 ---
-# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Skype for Business Server Grant-CsOUPermissionによって行われた変更
+# <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Grant-CsOUPermissionで行Skype for Business Server
  
-Skype for Business Server の管理を委任するには、フォレストの準備によって作成された RTC ユニバーサル グループのメンバーが Domain Admins グループのメンバーでなくても、その US にアクセスできるよう、指定した組織単位 (US) にアクセス許可を追加できます。 
+Skype for Business Server 管理を委任するには、指定した組織単位 (OUs) にアクセス許可を追加して、フォレスト準備によって作成された RTC ユニバーサル グループのメンバーが Domain Admins グループのメンバーでなくても、OUs にアクセスできます。 
   
 **Grant-CsOuPermission** コマンドレットは、次の表で指定されているように、指定された OU 内のオブジェクトへのアクセス許可を付与します。
   

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 の CDR テーブルの詳細
+title: CDR テーブルの詳細 (Skype for Business Server 2015)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,72 +13,72 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: 以下のトピックでは、通話詳細記録 (CDR) データベース スキーマの各テーブル内の列について詳しく説明します。
-ms.openlocfilehash: 5b271d336cfe5dd17a83cf318debf7eb2675d344
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7b22676a675d70359cf895261f3f0ad3cec13a6835805efefaacb6be7a7416ce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296974"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の CDR テーブルの詳細
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>CDR テーブルの詳細 (Skype for Business Server 2015)
  
 以下のトピックでは、通話詳細記録 (CDR) データベース スキーマの各テーブル内の列について詳しく説明します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business Server 2015 のアプリケーション テーブル](application.md)
+- [2015 年Skype for Business Serverアプリケーション テーブル](application.md)
     
-- [Skype for Business Server 2015 の CallPriorities テーブル](callpriorities.md)
+- [2015 年の CallPriorities Skype for Business Server](callpriorities.md)
     
-- [Skype for Business Server 2015 の CallType テーブル](calltype.md)
+- [CallType テーブル (Skype for Business Server 2015)](calltype.md)
     
-- [Skype for Business Server 2015 の ClientVersions テーブル](clientversions.md)
+- [2015 年の ClientVersions Skype for Business Server](clientversions.md)
     
-- [Skype for Business Server 2015 の ConferenceJoinTimeThresholds テーブル](conferencejointimethresholds.md)
+- [ConferenceJoinTimeThresholds テーブル (Skype for Business Server 2015)](conferencejointimethresholds.md)
     
-- [Skype for Business Server 2015 の ConferenceMessageCount テーブル](conferencemessagecount.md)
+- [ConferenceMessageCount テーブル (Skype for Business Server 2015)](conferencemessagecount.md)
     
-- [Skype for Business Server 2015 の電話会議テーブル](conferences.md)
+- [2015 年Skype for Business Server会議の表](conferences.md)
     
-- [Skype for Business Server 2015 の ConferenceSessionDetails テーブル](conferencesessiondetails-0.md)
+- [ConferenceSessionDetails テーブル (2015 Skype for Business Server)](conferencesessiondetails-0.md)
     
-- [Skype for Business Server 2015 の ConferenceUris テーブル](conferenceuris.md)
+- [ConferenceUris テーブル (Skype for Business Server 2015)](conferenceuris.md)
     
-- [Skype for Business Server 2015 の ContentTypes テーブル](contenttypes.md)
+- [ContentTypes テーブル (2015 Skype for Business Server)](contenttypes.md)
     
-- [Skype for Business Server 2015 の DeRegisterType テーブル](deregistertype.md)
+- [DeRegisterType テーブル (2015 Skype for Business Server)](deregistertype.md)
     
-- [Skype for Business Server 2015 の Devices テーブル](devices.md)
+- [2015 年Skype for Business Serverデバイス の表](devices.md)
     
-- [Skype for Business Server 2015 の Dialogs テーブル](dialogs.md)
+- [ダイアログ 2015 Skype for Business Server](dialogs.md)
     
-- [Skype for Business Server 2015 の EdgeServers テーブル](edgeservers.md)
+- [2015 年の EdgeServers Skype for Business Server表](edgeservers.md)
     
-- [Skype for Business Server 2015 の ErrorCategory テーブル](errorcategory.md)
+- [ErrorCategory テーブル (Skype for Business Server 2015)](errorcategory.md)
     
-- [Skype for Business Server 2015 の ErrorDef テーブル](errordef.md)
+- [ErrorDef テーブル (Skype for Business Server 2015)](errordef.md)
     
-- [Skype for Business Server 2015 の ErrorReport テーブル](errorreport.md)
+- [ErrorReport テーブル in Skype for Business Server 2015](errorreport.md)
     
-- [Skype for Business Server 2015 の FileTransfers テーブル](filetransfers-0.md)
+- [FileTransfers テーブル (Skype for Business Server 2015)](filetransfers-0.md)
     
-- [Skype for Business Server 2015 の FocusJoinsAndLeaves テーブル](focusjoinsandleaves.md)
+- [FocusJoinsAndLeaves テーブル (2015 Skype for Business Server)](focusjoinsandleaves.md)
     
-- [Skype for Business Server 2015 の FrontEnd テーブル](frontend.md)
+- [FrontEnd テーブル (Skype for Business Server 2015)](frontend.md)
     
-- [Skype for Business Server 2015 の Gateways テーブル](gateways.md)
+- [2015 年Skype for Business Serverゲートウェイ の表](gateways.md)
     
-- [Skype for Business Server 2015 の HardwareVersions テーブル](hardwareversions.md)
+- [2015 年の HardwareVersions Skype for Business Server](hardwareversions.md)
     
-- [Skype for Business Server 2015 の IMReportSummary テーブル](imreportsummary.md)
+- [IMReportSummary テーブル (2015 Skype for Business Server)](imreportsummary.md)
     
-- [Skype for Business Server 2015 の場所の表](locations.md)
+- [2015 年の場所Skype for Business Server表](locations.md)
     
-- [Skype for Business Server 2015 の Manufacturers テーブル](manufacturers.md)
+- [2015 年Skype for Business Serverの製造元の表](manufacturers.md)
     
-- [Skype for Business Server 2015 の McuJoinsAndLeaves テーブル](mcujoinsandleaves.md)
+- [McuJoinsAndLeaves テーブル (2015 Skype for Business Server)](mcujoinsandleaves.md)
     
-- [Skype for Business Server 2015 の Mcus テーブル](mcus.md)
+- [Mcus テーブル (Skype for Business Server 2015)](mcus.md)
     
 - [メディア テーブル](media.md)
     
@@ -90,7 +90,7 @@ ms.locfileid: "49813377"
     
 - [Phones テーブル](phones.md)
     
-- [Pools テーブル](pools.md)
+- [プール テーブル](pools.md)
     
 - [ProgressReport テーブル](progressreport.md)
     
@@ -100,7 +100,7 @@ ms.locfileid: "49813377"
     
 - [Roles テーブル](roles.md)
     
-- [Servers テーブル](servers.md)
+- [[サーバー] テーブル](servers.md)
     
 - [SessionDetails テーブル](sessiondetails.md)
     
@@ -112,11 +112,11 @@ ms.locfileid: "49813377"
     
 - [タスク テーブル](task.md)
     
-- [Tenants テーブル](tenants.md)
+- [テナント テーブル](tenants.md)
     
 - [UriTypes テーブル](uritypes.md)
     
-- [Users テーブル](users.md)
+- [ユーザー テーブル](users.md)
     
 - [UserAgentDef テーブル](useragentdef.md)
     

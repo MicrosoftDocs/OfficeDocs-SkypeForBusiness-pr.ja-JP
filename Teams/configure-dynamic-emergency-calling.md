@@ -18,12 +18,12 @@ description: Microsoft 通話プランと直接ルーティングの動的緊急
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e399c5e18bc90f99ebe59f3f4e603da5f7cbfe9
-ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
+ms.openlocfilehash: fc15048dcb99ab3bbb3a087467bff88f5552b970c4f1006bef97924d8d92cdf0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53337836"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322749"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -82,7 +82,7 @@ Microsoft 通話プランと 電話システム ダイレクト ルーティン�
 - Teams iOS クライアント バージョン 1.0.92.2019121004 および App Store バージョン 1.0.92 以上のモバイル クライアント
 - Teams Android クライアントおよび Google Play ストア バージョン 1416/1.0.0.2019121201 以上のモバイル クライアント
 - Teamsバージョン 1449/1.0.94.2019110802 以上
-- Teams ミーティングバージョン 4.4.25.0 以上
+- Teams会議室バージョン 4.4.25.0 以上
 
 > [!NOTE]
 > 3PIP 電話では、動的緊急通話はサポートされていません。 
