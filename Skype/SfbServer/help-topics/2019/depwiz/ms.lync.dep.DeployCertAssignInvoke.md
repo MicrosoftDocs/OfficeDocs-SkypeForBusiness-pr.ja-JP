@@ -14,13 +14,13 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[コマンドの実行] ページには、サーバーに証明書を割り当てるためにタスクによって実行したアクションが表示されます。 タスクが完了すると、証明書の割り当てプロセスの詳細を示すログを表示できます。 ログ ファイルを表示するには、[ログの表示] をクリックします。'
-ms.openlocfilehash: cb9857162541c10d941b2539b99d855ff34ba7d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[コマンドの実行] ページには、サーバーに証明書を割り当てるためにタスクによって実行したアクションが表示されます。タスクが完了すると、証明書の割り当てプロセスの詳細を示すログを表示できます。ログ ファイルを表示するには、[ログの表示] をクリックします。'
+ms.openlocfilehash: 272d002f1f92175e5e07f08cdea0b95e628648df9832432b1f5042f1297c270f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291845"
 ---
 # <a name="certificate-assignment-invoke"></a>証明書の割り当て (起動)
  

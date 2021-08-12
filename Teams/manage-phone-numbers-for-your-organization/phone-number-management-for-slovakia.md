@@ -1,5 +1,5 @@
 ---
-title: 電話の番号管理
+title: 電話の電話番号管理
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,29 +19,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、スロバキアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 2afbb2f081ef59f086ffeb4543a16f09f05c8eb8118e93c8aeb900d4da19d549
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: この表を使用して、スロバキアの電話番号の取得と管理に関する情報をMicrosoft Teams。
+ms.openlocfilehash: 7d06ddb2e69729b961fa084e763780d92fba45523069e202951644454d27dde8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848522"
 ---
-# <a name="phone-number-management-for-slovakia"></a>電話の番号管理
+# <a name="phone-number-management-for-slovakia"></a>電話の電話番号管理
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-この表を使用して、スロバキアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+この表を使用して、スロバキアの電話番号の取得と管理に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 |スロバキアでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、手順については [PTSN にお問い合わせください](contact-pstn-service-desk.md)。<br/><br/>[スロバキア (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf)の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力し、手順については [PTSN にお問い合わせください](contact-pstn-service-desk.md)。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
-|転送された電話番号を取得します。   | このフォームをダウンロードします。 <br/>[スロバキアの承認状 (LOA) (すべての数値) (v.1.1) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf) <br/> <br/>[スロバキアの承認状 (LOA) (すべての数値) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf) <br/><br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、移行に 4 ~ 5 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。 |
-|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 |スロバキアでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。<br/><br/>[スロバキア (v.1.0) (en-sk)](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf)の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力し、手順については [PTSN サービス](contact-pstn-service-desk.md)デスクにお問い合わせください。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
+|転送された電話番号を取得します。   | このフォームをダウンロードします。 <br/>[スロバキアの承認状 (LOA) (すべての数値) (v.1.1) (en-sk)](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf) <br/> <br/>[スロバキアの承認状 (LOA) (すべての数値) (v.1.0) (sk-sk)](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf) <br/><br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、移行に 4 ~ 5 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。 |
+|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。 <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
    
 ## <a name="related-topics"></a>関連項目
 

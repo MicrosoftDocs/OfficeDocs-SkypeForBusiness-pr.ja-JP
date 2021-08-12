@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2010 のディレクターの関連付けを追加する
+title: Lync Server 2010 のディレクター関連付けを追加する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92631bb6-1bf5-4b0b-a223-ffa22d7f1fce
-description: ディレクターまたはディレクター プールに監視サーバーを関連付けするかどうかを定義します。 監視サーバーをディレクターまたはディレクター プールに関連付ける場合は、このチェック ボックスをオンにします。
-ms.openlocfilehash: 598ede0a090d4c76ba6698ce92ce4c65c3b60959
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: ディレクター プールまたはディレクター プールに監視サーバーが関連付けられるかどうかを定義します。 監視サーバーをディレクター プールまたはディレクター プールに関連付ける場合は、チェック ボックスをオンにします。
+ms.openlocfilehash: 69844db8cf43c2f3a3fe11d92683a0dd83cee2503fee27f9344975bed14b1463
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835537"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319220"
 ---
-# <a name="add-director-association-for-lync-server-2010"></a>Lync Server 2010 のディレクターの関連付けを追加する
+# <a name="add-director-association-for-lync-server-2010"></a>Lync Server 2010 のディレクター関連付けを追加する
  
-ディレクターまたはディレクター プールに監視サーバーを関連付けするかどうかを定義します。 監視サーバーをディレクターまたはディレクター プールに関連付ける場合は、このチェック ボックスをオンにします。
+ディレクター プールまたはディレクター プールに監視サーバーが関連付けられるかどうかを定義します。 監視サーバーをディレクター プールまたはディレクター プールに関連付ける場合は、チェック ボックスをオンにします。
   
 > [!TIP]
-> 監視サーバー データベース (およびオプションのインスタンス) をまだ作成していない場合は、このチェック ボックスをオンにして監視サーバーをディレクターまたはディレクター プールに関連付ける場合、後で作成する機会が与わります。 
+> 監視サーバー データベース (およびオプションのインスタンス) をまだ作成していない場合は、監視サーバーをディレクター またはディレクター プールに関連付ける場合に、このチェック ボックスをオンにすると、後で作成する機会が与えられるでしょう。 
   
 

@@ -18,27 +18,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 次の表を使用して、スウェーデンの電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: e070b0f28d2c8637bf953027205b00443d1d63e806d025e55ba3181a9ffcf3f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: この表を使用して、スウェーデンの電話番号の取得と管理に関する情報をMicrosoft Teams。
+ms.openlocfilehash: 8f71651e78e31fdb7c049cf9f6ed058a5c6ee15913c769412af8476907c24988
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848512"
 ---
 # <a name="phone-number-management-for-sweden"></a>電話の番号管理
 
-次の表を使用して、スウェーデンの電話番号の取得と管理に関する情報を確認Microsoft Teams。
+この表を使用して、スウェーデンの電話番号の取得と管理に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [スウェーデンの新しい電話番号要求 (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [スウェーデンの新しい電話番号要求 (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。|
-転送された電話番号を取得します。  <br/> |このフォームをダウンロードします。 <br/>[スウェーデンの承認状 (LOA) (すべての数値) (v.5.0) (sv-se)](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 <br/> |
-|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。      <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [スウェーデンの新しい電話番号要求 (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [スウェーデンの新しい電話番号要求 (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。|
+転送された電話番号を取得します。  <br/> |このフォームをダウンロードします。 <br/>[スウェーデンの承認状 (LOA) (すべての数値) (v.5.0) (sv-se)](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 <br/> |
+|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。      <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>関連項目
 

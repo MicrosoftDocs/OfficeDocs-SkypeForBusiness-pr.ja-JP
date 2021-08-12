@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でのトポロジの確認
+title: '[トポロジ] でトポロジを確認Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,53 +16,53 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: '概要: Skype for Business Server トポロジと Active Directory サーバーが期待通り動作を確認する方法について学習します。 Microsoft Evaluation Center から Skype for Business Server の無料試用版を次の場所からダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 0c2307f3ad0416a7175d92a1440744dbda9b31d3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: トポロジサーバーと Active Directory サーバー Skype for Business Server期待通り動作している状態を確認する方法について学習します。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
+ms.openlocfilehash: 743741fd18766116ed923a2af632f33c88343ef5957a84165edc7702b3b6593f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833837"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294774"
 ---
-# <a name="verify-the-topology-in-skype-for-business-server"></a>Skype for Business Server でのトポロジの確認
+# <a name="verify-the-topology-in-skype-for-business-server"></a>[トポロジ] でトポロジを確認Skype for Business Server
  
-**概要:** Skype for Business Server トポロジと Active Directory サーバーが期待通り動作しているのを確認する方法について学習します。 Microsoft Evaluation Center から Skype for Business Server の無料試用版 [をダウンロードします](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
+**概要:** トポロジサーバーと Active Directory サーバー Skype for Business Server期待通り動作している状態を確認する方法について学習します。 Microsoft 評価センターからSkype for Business Server試用版[をダウンロードします](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-トポロジを公開し、トポロジ内の各サーバーに Skype for Business Server システム コンポーネントをインストールしたら、トポロジが期待通り動作している状態を確認できます。 これには、構成がすべての Active Directory サーバーに伝達され、ドメイン全体が Skype for Business がドメイン内で利用可能なことを知っていることを確認する機能が含まれます。 手順 1. ~ 5. は任意の順序で実行できます。 ただし、手順 6、7、および 8 を順番に実行し、図に示されている手順 1 ~ 5 の後に実行する必要があります。 トポロジの確認は手順 8/8 です。
+トポロジが公開され、Skype for Business Server システム コンポーネントがトポロジ内の各サーバーにインストールされた後、トポロジが正常に動作している状態を確認する準備が整います。 これには、構成がすべての Active Directory サーバーに伝達され、ドメイン全体がドメイン内で使用可能Skype for Business確認できます。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、図に示されている手順 6、7、および 8 を順番に実行し、手順 1 ~ 5 の後に実行する必要があります。 トポロジの確認は、手順 8 / 8 です。
   
-![概要図](../../media/c8698b53-1282-4978-a9a6-ca3f7a778f60.png)
+![概要図。](../../media/c8698b53-1282-4978-a9a6-ca3f7a778f60.png)
   
 ## <a name="test-the-front-end-pool-deployment"></a>フロントエンド プールの展開をテストする
 
-最後の手順では、フロントエンド プールをテストし、Skype for Business クライアントが相互に通信可能な環境を確認します。 
+最後の手順は、フロントエンド プールをテストし、クライアントが相互に通信Skype for Business確認します。 
   
 ### <a name="add-users-and-verify-client-connectivity"></a>ユーザーの追加とクライアント接続の確認
 
-1. Active Directory コンピューターとユーザーを使用して、(Skype for Business Server コントロール パネルがインストールされている) Skype for Business Server 展開の管理者の役割の Active Directory ユーザー オブジェクトを **CSAdministrator** グループに追加します。
+1. Active Directory コンピューターとユーザーを使用して、Skype for Business Server 展開 (Skype for Business Server コントロール パネルがインストールされている) の管理者ロールの Active Directory ユーザー オブジェクトを **CSAdministrator** グループに追加します。
     
     > [!IMPORTANT]
-    > CsAdministors グループに適切なユーザーとグループを追加しない場合、Skype for Business Server コントロール パネルを開く際に、「Unauthorized: Access is denied due to a role-based access control (RBAC) authorization failure.」というエラーが表示されます。 
+    > CsAdministors グループに適切なユーザーとグループを追加しない場合は、Skype for Business Server コントロール パネルを開き、「承認されていない: 役割ベースのアクセス制御 (RBAC) 承認エラーが原因でアクセスが拒否されました」というエラーが表示されます。 
   
 2. ユーザー オブジェクトが現在ログオンしている場合は、ログオフしてから再度ログオンし、新しいグループ割り当てを登録します。
     
     > [!NOTE]
-    > ユーザー アカウントは、Skype for Business Server を実行しているサーバーのローカル管理者にすることはできません。 
+    > ユーザー アカウントは、ユーザー アカウントを実行しているサーバーのローカル管理者Skype for Business Server。 
   
-3. 管理アカウントを使用して、Skype for Business Server コントロール パネルがインストールされているコンピューターにログオンします。
+3. 管理アカウントを使用して、コントロール パネルがインストールSkype for Business Serverコンピューターにログオンします。
     
-4. Skype for Business Server コントロール パネルを起動し、メッセージが表示されたら資格情報を入力します。 Skype for Business Server コントロール パネルには展開情報が表示されます。
+4. コントロール Skype for Business Serverを開始し、プロンプトが表示されたら資格情報を入力します。 Skype for Business Serverコントロール パネルには、展開情報が表示されます。
     
-5. 左側のナビゲーション バーで[トポロジ] をクリックし、サービスの状態に緑色の矢印が表示されたコンピューターと、展開されオンラインにされた各 Skype for Business Server の役割の横に、レプリケーション状態の緑色のチェック マークが表示されます。 
+5. 左側のナビゲーション バーで、[トポロジ] をクリックし、サービスの状態に緑色の矢印が付くコンピューターが表示され、展開およびオンライン化された各 Skype for Business Server 役割の横に、レプリケーション状態の緑色のチェック マークが表示されます。 
     
 6. 左側のナビゲーション バーで、[**ユーザー**] をクリックし、[**ユーザーを有効にする**] をクリックします。 
     
-7. [新しい **Skype for Business Server ユーザー] ページで、[** 追加] を **クリックします**。
+7. [ユーザーの **新しいSkype for Business Server] ページで、[** 追加] を **クリックします**。
     
-8. 検索するオブジェクトの検索パラメーターを定義するには、[**Active Directory から選択**] ページで [**検索**] を選択し、オプションで [**フィルターの追加**] をクリックできます。 また [**LDAP 検索**] を選択し、LDAP 表現を入力して、戻されるオブジェクトをフィルター処理または制限することもできます。 検索オプションを決定した後、[検索] をクリック **します**。
+8. 検索するオブジェクトの検索パラメーターを定義するには、[**Active Directory から選択**] ページで [**検索**] を選択し、オプションで [**フィルターの追加**] をクリックできます。 また [**LDAP 検索**] を選択し、LDAP 表現を入力して、戻されるオブジェクトをフィルター処理または制限することもできます。 検索オプションを決定した後、[検索] を **クリックします**。
     
-9. [検索結果] ウィンドウで、追加するユーザーを選択し **、[OK]** をクリックします。
+9. [検索結果] ウィンドウで、追加するユーザーを選択し **、[OK] をクリックします**。
     
-10. [ **新しい Skype for Business Server ユーザー] ページ** で、選択したユーザーが [ユーザー] 表示 **に表示** されます。 [ユーザー **をプールに割り当てる** ] ボックスの一覧で、ユーザーが存在するサーバーを選択します。
+10. [新 **しいユーザー Skype for Business Server] ページ** で、選択したユーザーが [ユーザー] 画面に **表示** されます。 [ユーザーを **プールに割り当てる] リスト** で、ユーザーが存在するサーバーを選択します。
     
     オブジェクトの構成に使用できるオプションの一覧を次に示します。
     
@@ -86,16 +86,16 @@ ms.locfileid: "49833837"
     
     - **クライアント ポリシー**
     
-    基本的な機能をテストするには、[ユーザー **の SIP URI** を生成する] 設定に使用するオプションを選択し (構成内の他のオプションでは既定の設定を使用)、[有効] をクリックします (図を参照)。
+    基本的な機能をテストするには、ユーザーの **SIP URI** の生成設定に使用するオプション (構成の他のオプションでは既定の設定を使用)を選択し、図に示すように [有効] をクリックします。
     
      ![コントロール パネルでユーザーを有効にします。](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
-11. ユーザーがセットアップ中かどうかを示すチェック マークが **[有効** ] 列に表示される概要ページが表示されます。 **SIP アドレス列には**、ユーザーサインイン構成に必要なアドレスが表示されます。
+11. [有効] 列にチェック マークが表示され、ユーザーがセットアップ済みかどうかを示す概要ページが表示されます。 [SIP **アドレス]** 列には、ユーザー サインイン構成に必要なアドレスが表示されます。
     
-     ![Skype for Business Server コントロール パネルに追加されたユーザー。](../../media/8960548a-8d6d-44c5-bc01-6f9fb11b7588.png)
+     ![コントロール パネルにSkype for Business Serverユーザー。](../../media/8960548a-8d6d-44c5-bc01-6f9fb11b7588.png)
   
 12. ドメインに参加しているコンピューターに 1 人のユーザーをログオンし、別のユーザーをドメイン内の別のコンピューターにログオンします。
     
-13. 2 台のクライアント コンピューターのそれぞれに Skype for Business クライアントをインストールし、両方のユーザーが Skype for Business Server にサインインして、インスタント メッセージを互いに送信できる点を確認します。
+13. 2 Skype for Business の各クライアント コンピューターにクライアントをインストールし、両方のユーザーが Skype for Business Server にサインインして、インスタント メッセージを互いに送信できると確認します。
     
 

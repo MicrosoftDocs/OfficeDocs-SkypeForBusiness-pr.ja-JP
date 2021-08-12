@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: このトピックを参照して、Cloud Connector Edition バージョン 2.0 以降でメディア バイパスを実装するための計画に関する考慮事項を確認してください。 メディア バイパスの展開の詳細については、「Deploy media bypass in Cloud Connector Edition」を参照してください。
-ms.openlocfilehash: bae10c77a6b382eaca7189ed6ae52960a6fb1bf9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 622bb6cbc4acf5987d28a2c4823bdfd0e495445cba84ed01762423c8e65de576
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339893"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>クラウド コネクタ エディションでのメディア バイパスの計画
  
@@ -37,15 +37,15 @@ ms.locfileid: "51096201"
 
 信号はメディア バイパスの場合と使用しない場合と同じパスを使用しますが、メディア フローは異なります。 次の図は、メディア バイパスの場合と使用しないトポロジのメディアと信号経路を示しています。 
   
-たとえば、メディア バイパスを使用しない次のトポロジでは、Skype for Business クライアントが PSTN 呼び出しを外部番号に発信すると、SIP シグナリングは Microsoft 365 または Office 365 に送信され、エンド ユーザーの音声ポリシーに従ってシグナリング トラフィックが送信されます。 クラウド コネクタ ユーザーの場合、音声ポリシーはシグナリング トラフィックをクラウド コネクタ エッジ サーバーに送信し、その信号トラフィックを PSTN セッション ボーダー コントローラー (SBC) またはゲートウェイをクラウド コネクタ 仲介サーバー経由でルーティングします。 次の図に示すように、メディアは Skype for Business クライアントからクラウド コネクタ 仲介サーバーに、次に SBC またはゲートウェイに流れます。
+たとえば、メディア バイパスを使用しない次のトポロジでは、Skype for Business クライアントが PSTN 呼び出しを外部番号に送信すると、SIP シグナリングは Microsoft 365 または Office 365 に送信され、エンド ユーザーの音声ポリシーに従ってシグナリング トラフィックが送信されます。 クラウド コネクタ ユーザーの場合、音声ポリシーはシグナリング トラフィックをクラウド コネクタ エッジ サーバーに送信し、その信号トラフィックを PSTN セッション ボーダー コントローラー (SBC) またはゲートウェイをクラウド コネクタ 仲介サーバー経由でルーティングします。 次の図に示すように、Skype for Business クライアントからクラウド コネクタ 仲介サーバー、および SBC またはゲートウェイへのメディア フロー。
   
 **メディア バイパスのないメディアと信号経路**
 
 ![メディア バイパスなしのシグナリング](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
-PSTN からの着信呼び出しは、逆方向に同じ信号パスを使用します。 内部ユーザーの場合、メディアは最終的には Skype for Business クライアントとクラウド コネクタ仲介サーバー、次に SBC またはゲートウェイの間を流れる。
+PSTN からの着信呼び出しは、逆方向に同じ信号パスを使用します。 内部ユーザーの場合、メディアは最終的にクライアントとクラウド Skype for Business仲介サーバー、次に SBC またはゲートウェイの間を流れ続けることができます。
   
-次のトポロジでは、メディア バイパスを使用しますが、シグナリングは同じパスを使用しますが、次の図に示すように、メディアは Skype for Business クライアントと SBC またはゲートウェイの間で直接流れます。
+次のトポロジでは、メディア バイパスを使用しますが、シグナリングは同じパスを使用しますが、次の図に示すように、Skype for Business クライアントと SBC またはゲートウェイの間でメディアが直接流れます。
   
 **メディア バイパスを使用したメディアとシグナリングの経路**
 
@@ -59,13 +59,13 @@ PSTN からの着信呼び出しは、逆方向に同じ信号パスを使用し
 
 ![クラウド コネクタマルチサイトの例](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. SIP トラフィックは、チューリッヒのユーザーから Microsoft 365 または Office 365 に流れます。
+1. SIP トラフィックは、チューリッヒのユーザーから、Microsoft 365またはOffice 365。
     
 2. その後、トラフィックは、ユーザー音声ルーティング ポリシーで指定されているアムステルダムのクラウド コネクタ アプライアンスにルーティングされます。
     
 3. アムステルダムのクラウド コネクタ アプライアンスは、SIP トラフィックをアムステルダムの中央ゲートウェイに送信します。
     
-4. アムステルダムの中央ゲートウェイは適切なルーティング決定を行い、トラフィックをチューリッヒの SBC またはゲートウェイに送信しますが、メディアは Skype for Business クライアントとアムステルダムの SBC またはゲートウェイの間で直接流れます。
+4. アムステルダムの中央ゲートウェイは適切なルーティング決定を行い、トラフィックをチューリッヒの SBC またはゲートウェイに送信しますが、メディアはアムステルダムの Skype for Business クライアントと SBC またはゲートウェイの間で直接流れます。
     
    この方法では、クラウド コネクタが集中管理されている 1 つのクラウド コネクタ展開ごとに、より多くのユーザーにサービスを提供できます。 クラウド コネクタはメディア パスから削除された場合でも、集中型マルチサイト シナリオ メディアでは、集中管理された SBC またはゲートウェイを通過するために必要な 2 倍の WAN を通過する場合があります。
   
@@ -78,15 +78,15 @@ PSTN からの着信呼び出しは、逆方向に同じ信号パスを使用し
 メディア バイパスの最初のリリースでは、サポートされているクライアントは、Microsoft 365 Apps for enterprise バージョン 16.0.7870.2020 以上の Skype for Business 2016 Windows クライアントのみです。 お客様は、現在のチャネル、遅延チャネル、初回リリース延期チャネルを使用できます。 
   
 > [!NOTE]
-> Skype for Business クライアントと組み合わせてクライアント VPN ソリューションを使用している場合、メディア バイパスは VPN スプリット トンネル構成でのみサポートされます。 
+> クライアント VPN ソリューションを Skype for Business クライアントと組み合わせて使用している場合、メディア バイパスは VPN スプリット トンネル構成でのみサポートされます。 
   
-リリース チャネルの詳細については、「Microsoft 365 Apps for enterprise の更新プログラム チャネル [の概要」を参照してください](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)。
+リリース チャネルの詳細については、「更新プログラム チャネルの[概要」を参照Microsoft 365 Apps for enterprise。](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)
   
-異なるチャネルのクライアントの現在のリリース バージョンについては、「エンタープライズ向け [Microsoft 365 Apps](/officeupdates/release-notes-office365-proplus)の更新プログラムのリリース情報」を参照してください。 
+異なるチャネルのクライアントの[Microsoft 365 Apps for enterprise](/officeupdates/release-notes-office365-proplus)現在のリリース バージョンについては、「リリース情報」を参照してください。 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>メディア バイパスを使用したクラウド コネクタの容量に関する考慮事項
 
-メディア バイパスなしで、ハードウェアに応じて、クラウド コネクタ アプライアンスは、仲介サーバーを経由するメディアを必要とする 50 ~ 500 の同時呼び出しを処理できます。 詳細については [、「Plan for Skype for Business Cloud Connector Edition」を参照してください](./plan-skype-for-business-cloud-connector-edition.md)。 
+メディア バイパスなしで、ハードウェアに応じて、クラウド コネクタ アプライアンスは、仲介サーバーを経由するメディアを必要とする 50 ~ 500 の同時呼び出しを処理できます。 詳細については、「Plan [for Skype for Business クラウド コネクタ エディション」 を参照してください](./plan-skype-for-business-cloud-connector-edition.md)。 
   
 メディア バイパスを有効にすると、サポートされているバージョンの内部クライアントは仲介サーバーを使用しないので、内部クライアントの数が大幅に増加する可能性があります。 
   
@@ -100,7 +100,7 @@ Always Bypass は、内部クライアントを発信元または宛先ポイン
   
 Always Bypass には、PSTN サイト内のユーザーと PSTN ゲートウェイ間のブロックされていない接続が必要です。 
   
-詳細については [、「Plan for Skype for Business Cloud Connector Edition」を参照してください](./plan-skype-for-business-cloud-connector-edition.md)。 
+詳細については、「Plan [for Skype for Business クラウド コネクタ エディション」 を参照してください](./plan-skype-for-business-cloud-connector-edition.md)。 
   
 たとえば、下の図では、ヨーロッパのユーザーはアムステルダムの 3 つのセッション ボーダー コントローラー (SPC) に十分に接続されている必要があります。米国西部のユーザーはシアトルの 2 つの SPC に十分に接続されている必要があります。 適切に接続されているということは、SPC またはゲートウェイと同じネットワーク サイトに、または適切な帯域幅を持つ WAN リンク上に位置する必要があります。
   

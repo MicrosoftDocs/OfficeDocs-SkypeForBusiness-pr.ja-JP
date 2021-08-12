@@ -19,15 +19,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6420fdff102533c44bdd3ccb2ab503a646c354b8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5fc2a18d2a7199bf35e2a06ae8cce2b781b570846014443cbc30b393e39e52aa
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848432"
 ---
-<a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
-==============================================================
+# <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 
 このガイドでは、ユーザーが Teams で通話プランを利用できるように設定する手順について説明します。
 
@@ -36,11 +35,11 @@ Teams の通話プランに関する 2017 年 12 月 12 日付けの発表「[In
 > [!NOTE]
 > 展開を成功させるため、このクイック スタート ガイドとともに、「[通話プランが設定された電話システム](calling-plan-landing-page.md)」と「[FastTrack](https://aka.ms/cloudvoice)」をご覧になることをお勧めします。
 
-Skype for Business を利用した通話プラン (Microsoft 365 および Office 365 機能) を追加することで、Teams を使用して、公衆交換電話網 (PSTN) を介して、固定電話や携帯電話の間で通話を発信および受信できます。
+Skype for Business を利用した通話プラン (Microsoft 365 および Office 365 機能) を追加することで、Teams を使用して、公衆交換電話網 (PSTN) を介して、固定電話や携帯電話を送受信できます。
 
 ![Teams の [連絡先] ページを示すスクリーンショット](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams の [**通話**] タブを有効にするための前提条件
-Teams の [**通話**] を有効にするには、Teams で 1:1 の通話を有効にする必要があります。また、Teams の 1:1 の通話をサポートする Teams クライアントを使用する必要があります。 Teams で 1:1 の通話を管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)」を参照してください。 通話をサポートしているクライアントの詳細については、「[Microsoft Teams の制限事項と仕様](./limits-specifications-teams.md)」を参照してください。
+Teams の [**通話**] を有効にするには、Teams で 1:1 の通話を有効にする必要があります。また、Teams の 1:1 の通話をサポートする Teams クライアントを使用する必要があります。 Teams で 1:1 の通話を管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。 通話をサポートしているクライアントの詳細については、「[Microsoft Teams の制限事項と仕様](./limits-specifications-teams.md)」を参照してください。
 
 > [!NOTE]
 > 現在、ボイスメールは、ユーザーが PSTN 通話を有効にしていない限り、[通話] タブには表示されません。 

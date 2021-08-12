@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ポーランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: abba192cdb4b94a6e5c6032980923c02d338c27f
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: b49ea2281d507f7b7559f95f6f3c7ade9bb45d1fe65b1a013be997a3ab322e08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329122"
 ---
 # <a name="phone-number-management-for-poland"></a>電話の番号管理
 
@@ -44,7 +44,7 @@ ms.locfileid: "53509968"
 |転送された電話番号を取得します。| このフォームをダウンロードします。 <br/>[ポーランドの承認状 (LOA) (すべての数値) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、移行に 4 ~ 6 週間かかる場合があります。 <br/><br/> 現時点では、これらの番号を会議に使用できません。    |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[発行/発行を取り消](contact-pstn-service-desk.md) す電話番号の一覧の手順については、PTSN にお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
 
    
 ## <a name="related-topics"></a>関連項目

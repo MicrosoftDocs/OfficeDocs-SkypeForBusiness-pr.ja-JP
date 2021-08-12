@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のピアツーピア セッション詳細レポート
+title: ピアツーピア セッション詳細レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
-description: '概要: Skype for Business Server のピアツーピア セッション詳細レポートについて説明します。'
-ms.openlocfilehash: 4dfa2b87b1fbba72282b52fa2ca58ca0f1e70630
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: [ピアツーピア セッションの詳細レポート] の詳細レポートについてSkype for Business Server。'
+ms.openlocfilehash: 14df5ae82706a719086c31a3c8582009ed48d85b825057ab49ce6e92fa258116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286806"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>Skype for Business Server のピアツーピア セッション詳細レポート
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>ピアツーピア セッション詳細レポート (Skype for Business Server
  
-**概要:** Skype for Business Server のピアツーピア セッション詳細レポートについて説明します。
+**概要:**「ピアツーピア セッション詳細レポート」を参照Skype for Business Server。
   
 ピアツーピア セッション詳細レポートは、ピアツーピア セッションに関する詳細情報を提供します。たとえば、インスタント メッセージング セッションを選択すると、セッション中に 2 人のユーザーのそれぞれが送信したメッセージ数がレポートに表示されます。
   
@@ -37,7 +37,7 @@ ms.locfileid: "49816767"
     
 - エラー リスト レポート 
     
-ピアツーピア セッション詳細レポートから [、Skype for Business Server](diagnostic-report.md) の診断レポートにアクセスするには、診断レポート (詳細) 指標をクリックします。 次のいずれかの指標をクリックしてトップ エラー レポートにアクセスすることもできます。
+ピアツーピア セッション詳細レポート内から、診断レポート (詳細[](diagnostic-report.md)) メトリックをクリックすると、Skype for Business Serverで診断レポートにアクセスできます。 次のいずれかの指標をクリックしてトップ エラー レポートにアクセスすることもできます。
   
 - 応答
     

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の会議構成設定を削除する
+title: '[会議の構成設定を削除する] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
-description: '概要: Skype for Business Server で会議構成設定を削除する方法について説明します。'
-ms.openlocfilehash: b0c739f0149b4e28ca23df1437caab0505e1118d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 会議の構成設定を削除する方法については、Skype for Business Server。'
+ms.openlocfilehash: 04bfcf23467adc89f14b8d74d515de36c2dce1f2740265eac6664aace314c489
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119496"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286826"
 ---
-# <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server の会議構成設定を削除する
+# <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>[会議の構成設定を削除する] Skype for Business Server
  
-**概要:** Skype for Business Server で会議構成設定を削除する方法について説明します。
+**概要:** 会議の構成設定を削除する方法については、Skype for Business Server。
   
-会議の構成設定は、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して削除できます。
+会議の構成設定は、コントロール パネルを使用するかSkype for Business Server管理シェルを使用してSkype for Business Server削除できます。
   
 サイトまたはユーザー構成を削除できますが、グローバル構成を削除することはできません。 グローバル構成を削除しようとすると、自動的に既定値にリセットされます。
   
-## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議の構成設定を削除する
+## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用して会議Skype for Business Server設定を削除する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで、[会議] **をクリックし**、[会議の構成] **をクリックします**。
     
 4. 会議構成の一覧で、削除するサイトまたはプールの構成をクリックし、[編集]をクリックし、[削除] をクリック **します**。
     
-## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議の構成設定を削除する
+## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議の構成設定Skype for Business Server削除する
 
 会議の設定を削除するには **、Remove-CsMeetingConfiguration コマンドレットを使用** します。
   

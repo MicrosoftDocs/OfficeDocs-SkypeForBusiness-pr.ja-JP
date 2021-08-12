@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: '概要: Skype for Business Server のユーザー アクティビティ レポートについて説明します。'
-ms.openlocfilehash: 026fe2ef0d65eb67dae74404b8e9516642d680fb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: df120a5b16843d15555e5e53ef7f1102a8c7724e5e75c739e672b0e7bee0794f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347962"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Skype for Business Server のユーザー アクティビティ レポート
 
@@ -37,7 +37,7 @@ ms.locfileid: "49816657"
 
 - **Ken** nedy@litwareinc.com
 
-Ken Myer の情報だけが返されるようにするには、検索ボックスに完全な URI (Ken.Myer@litwareinc.com) を入力するか、または固有のユーザーを組織内の他のユーザーと区別するために Ken の URI を少しでも多く入力します。 たとえば、次のようにします。
+Ken Myer の情報だけが返されるようにするには、検索ボックスに完全な URI (Ken.Myer@litwareinc.com) を入力するか、または固有のユーザーを組織内の他のユーザーと区別するために Ken の URI を少しでも多く入力します。例:
 
 Ken.my
 

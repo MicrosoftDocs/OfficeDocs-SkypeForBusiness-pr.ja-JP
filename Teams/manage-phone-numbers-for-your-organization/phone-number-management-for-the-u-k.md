@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、英国の電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: 2e222d5db5d5bd2825bc759ce939ec7ebefefb844fae545122a27a8591d32d99
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b04764d10adf3a0f945a0b7e25f1a029dd1e98d7755053163aec2209405e1f7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848502"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>電話の番号管理
 
@@ -36,11 +36,11 @@ ms.locfileid: "54337375"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> |このフォームをダウンロードします。 <br/> [英国の新しい電話番号要求 (v.5.0) (en-gb)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
-|転送された電話番号を取得します。  <br/> |次のフォームをダウンロードします。 <br/> [英国の承認状 (LOA) (すべての番号) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> 入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
-|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> |このフォームをダウンロードします。 <br/> [英国の新しい電話番号要求 (v.5.0) (en-gb)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf?raw=true) <br/><br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
+|転送された電話番号を取得します。  <br/> |次のフォームをダウンロードします。 <br/> [英国の承認状 (LOA) (すべての数値) (v.6.1) (en-us)](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> 入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
+|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。 <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>関連項目
 

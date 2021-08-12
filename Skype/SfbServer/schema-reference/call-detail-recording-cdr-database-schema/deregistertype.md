@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 の DeRegisterType テーブル
+title: DeRegisterType テーブル (2015 Skype for Business Server)
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
-description: DeRegisterType テーブルは、"client initiated"、"registration expired"、"client stopped responding" など、考えられるユーザー登録解除タイプのリストを格納する静的テーブルです。
-ms.openlocfilehash: 388aebc1ac180e1298addd54859cff6759b28be0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: DeRegisterType テーブルは、"クライアントが開始されました"、"登録が期限切れ"、"クライアントが応答を停止しました" など、登録を解除できるユーザーの種類の一覧を格納する静的テーブルです。
+ms.openlocfilehash: 606065f0442043d660c917c61b89111b48679145088b4eba9a7a80e668248161
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816077"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347792"
 ---
-# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の DeRegisterType テーブル
+# <a name="deregistertype-table-in-skype-for-business-server-2015"></a>DeRegisterType テーブル (2015 Skype for Business Server)
  
-DeRegisterType テーブルは、"client initiated"、"registration expired"、"client stopped responding" など、考えられるユーザー登録解除タイプのリストを格納する静的テーブルです。
+DeRegisterType テーブルは、"クライアントが開始されました"、"登録が期限切れ"、"クライアントが応答を停止しました" など、登録を解除できるユーザーの種類の一覧を格納する静的テーブルです。
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|

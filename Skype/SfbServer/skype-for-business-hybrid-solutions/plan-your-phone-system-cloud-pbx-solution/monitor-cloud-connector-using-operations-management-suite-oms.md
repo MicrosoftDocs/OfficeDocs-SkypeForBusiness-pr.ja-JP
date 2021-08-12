@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Microsoft Operations Management Suite (OMS) を使用してクラウド コネクタ バージョン 2.1 以降の展開を監視する方法については、このトピックを参照してください。
-ms.openlocfilehash: 55685aae01bdcc3c7c979627dbba910bb33203fa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e2156ec8cff777b7bbad595b9792972508edbd455d6a1d27a65b95ad01c5def
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098543"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339993"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Operations Management Suite (OMS) を使用したクラウド コネクタの監視
 
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
 Microsoft Operations Management Suite (OMS) を使用してクラウド コネクタ バージョン 2.1 以降の展開を監視する方法については、このトピックを参照してください。
 
@@ -31,7 +31,7 @@ Microsoft クラウド IT 管理ソリューションである Operations Manage
 
 このトピックは、以下のセクションで構成されています。
 
-- 必要条件
+- 前提条件
 
 - OMS を使用するクラウド コネクタの構成
 
@@ -41,7 +41,7 @@ Microsoft クラウド IT 管理ソリューションである Operations Manage
 
 - 推奨される監視セット
 
-## <a name="prerequisites"></a>必要条件
+## <a name="prerequisites"></a>前提条件
 
 OMS を使用してクラウド コネクタの展開を監視する前に、次の情報が必要になります。
 
@@ -53,7 +53,7 @@ OMS を使用してクラウド コネクタの展開を監視する前に、次
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>OMS を使用するクラウド コネクタの構成
 
-OMS を使用するには、クラウド コネクタのオンプレミス環境を構成する必要があります。 これを行うには、OMS ワークスペース ID とキーが必要です。OMS ポータルを使用すると、次のように見つけます。設定 -- 接続ソース \> -- \> Windows サーバー。
+OMS を使用するには、クラウド コネクタのオンプレミス環境を構成する必要があります。 これを行うには、OMS ワークスペース ID とキーが必要になります。OMS ポータルを使用すると、設定 -- \> Connected Sources -- Windows サーバーを使用します \> 。
 
 ![クラウド コネクタ OMS のスクリーン ショット](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
@@ -86,7 +86,7 @@ OMS を使用するクラウド コネクタの構成方法は、シナリオに
 
 - **すべてのシナリオで、エージェントが次のように接続されていることを確認します。**
 
-    OMS ポータルで、[設定] - [ \> 接続されたソース] - \> [Windows サーバー] に移動します。 接続されているコンピューターの一覧が表示されます。 
+    OMS ポータルで、[サーバー] - [接続設定 \> サーバー] に \> Windowsします。 接続されているコンピューターの一覧が表示されます。 
 
 ## <a name="configure-oms"></a>OMS の構成
 
@@ -100,7 +100,7 @@ OMS を使用するクラウド コネクタの構成方法は、シナリオに
 
 OMS ポータルでは、イベント ログとパフォーマンス カウンターに関する情報を次のように指定する必要があります。
 
-1. [設定] - \> [データ] - \> [Windows イベント ログ] に移動し、次のイベント ログを追加します。 
+1. [イベント ログ設定- \> Data- イベント ログWindows \> に移動し、次のイベント ログを追加します。 
 
    - Lync Server
 
@@ -109,13 +109,13 @@ OMS ポータルでは、イベント ログとパフォーマンス カウン�
      > [!NOTE]
      > テキスト ボックスに Lync Server を手動で入力する必要があります。 ドロップダウン リストにオプションとして表示されません。 
 
-     詳細については [、「Log Analytics の Windows イベント ログ データ ソース」を参照してください。](/azure/log-analytics/log-analytics-data-sources-windows-events)
+     詳細については[、「Log Analytics Windowsのイベント ログ データ ソース」を参照してください。](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
-2. [設定] - \> [データ] - \> [Windows パフォーマンス カウンター] に移動し、次のパフォーマンス カウンターを追加します。 
+2. [設定- Data- Windows パフォーマンス カウンター] に移動し、次の \> \> パフォーマンス カウンターを追加します。 
 
    - **OS レベルのカウンター**。 プロセッサの使用状況、メモリ使用量、ネットワーク使用量などの OS レベルのカウンターを追加したり、カウンターを明示的に追加せずに、容量やパフォーマンス、ネットワーク パフォーマンス モニターなどの既存のソリューションを使用できます。 監視方法に関係なく、これらの OS カウンターを監視してください。
 
-   - **Skype for Business カウンター**。 Skype for Business には多数のカウンターが用意されています。 これらのカウンターは、仲介サーバーにログオンし、パフォーマンス モニターを開いて確認できます。 これらのカウンターは、"LS:" で始まる。 Microsoft では、少なくとも次の容量カウンターから始め、関心のある他のカウンターを追加してください。
+   - **Skype for Business カウンター**。 ユーザーが提供するカウンターは多数Skype for Business。 これらのカウンターは、仲介サーバーにログオンし、パフォーマンス モニターを開いて確認できます。 これらのカウンターは、"LS:" で始まる。 Microsoft では、少なくとも次の容量カウンターから始め、関心のある他のカウンターを追加してください。
 
      アクティブな通話の合計:
 
@@ -132,7 +132,7 @@ OMS ポータルでは、イベント ログとパフォーマンス カウン�
      > [!NOTE]
      > テキスト ボックスにパフォーマンス カウンターを手動で入力する必要があります。 ドロップダウン リストにオプションとして表示されません。 
 
-     詳細については [、「Log Analytics」の「Windows および Linux のパフォーマンス データ ソース」を参照してください。](/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     詳細については[、「Log Analytics Windows Linux パフォーマンス データ ソース」を参照してください。](/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>アラートの作成
 
@@ -256,4 +256,4 @@ OMS の操作の詳細については、以下を参照してください。
 
 - [Log Analytics でのアラートについて](/azure/log-analytics/log-analytics-alerts)
 
-- [Azure の Log Analytics サービスに Windows コンピューターを接続する](/azure/log-analytics/log-analytics-windows-agents)
+- [Connect Windows Azure の Log Analytics サービスにコンピューターを追加する](/azure/log-analytics/log-analytics-windows-agents)

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で -Roll を使用して AV 証明書と OAuth 証明書をステージSet-CsCertificate
+title: -Roll in Skype for Business Serverを使用して、AV 証明書と OAuth 証明書をSet-CsCertificate
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: '概要: Skype for Business Server の AV 証明書と OAuth 証明書をステージします。'
-ms.openlocfilehash: 87527d4bb51a5c38e0f85f72b299b67f235f2cf8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: AV 証明書と OAuth 証明書をステージにSkype for Business Server。'
+ms.openlocfilehash: f030dfd4a8958fe4efdc20c350b0e3b377da6cf2762604a57eecd3adca3e3430
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119566"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319170"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Skype for Business Server で -Roll を使用して AV 証明書と OAuth 証明書をステージSet-CsCertificate
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>-Roll in Skype for Business Serverを使用して、AV 証明書と OAuth 証明書をSet-CsCertificate
  
-**概要:** Skype for Business Server の AV 証明書と OAuth 証明書をステージします。
+**概要:** AV 証明書と OAuth 証明書をステージSkype for Business Server。
   
-音声/ビデオ (A/V) 通信は、Skype for Business Server の重要なコンポーネントです。 アプリケーション共有や音声ビデオ会議などの機能は、A/V Edge サービス、特に音声ビデオ認証サービスに割り当てられた証明書に依存します。
+音声/ビデオ (A/V) 通信は、音声ビデオ通信の主要なSkype for Business Server。 アプリケーション共有や音声ビデオ会議などの機能は、A/V Edge サービス、特に音声ビデオ認証サービスに割り当てられた証明書に依存します。
   
 > [!IMPORTANT]
 > この新機能は、A/V Edge サービスと OAuthTokenIssuer 証明書で動作するように設計されています。 その他の証明書の種類は、A/V Edge サービスと OAuth 証明書の種類と共にプロビジョニングできますが、A/V エッジ サービス証明書が実行する共存動作の利点はありません。
   
-Skype for Business Server 証明書の管理に使用される Skype for Business Server 管理シェル PowerShell コマンドレットは、A/V エッジ サービス証明書を AudioVideoAuthentication 証明書の種類として、OAuthServer 証明書を typeOAuthTokenIssuer として参照します。 このトピックの残りの部分では、証明書を一意に識別するために、AudioVideoAuthentication とOAuthTokenIssuer という同じ識別子の種類で参照されます。
+Skype for Business Server 証明書の管理に使用される Skype for Business Server 管理シェル PowerShell コマンドレットは、A/V Edge サービス証明書を AudioVideoAuthentication 証明書の種類として、OAuthServer 証明書を typeOAuthTokenIssuer として参照します。 このトピックの残りの部分では、証明書を一意に識別するために、AudioVideoAuthentication とOAuthTokenIssuer という同じ識別子の種類で参照されます。
   
-A/V 認証サービスは、クライアントや他の A/V コンシューマーによって使用されるトークンの発行を担当します。 トークンは証明書の属性から生成され、証明書の有効期限が切れると、接続が失われると、新しい証明書によって生成された新しいトークンに再び追加する必要があります。 Skype for Business Server の新機能は、この問題を軽減します。古い証明書の有効期限が切れて、両方の証明書が一時機能し続ける前に新しい証明書をステージする機能。 この機能は、Skype for Business Server 管理シェル コマンドレットSet-CsCertificate機能を使用します。 既存のパラメーター -EffectiveDate を持つ新しいパラメーター -Roll は、新しい AudioVideoAuthentication 証明書を証明書ストアに配置します。 発行されたトークンを検証するために、古い AudioVideoAuthentication 証明書は引き続き残ります。 新しい AudioVideoAuthentication 証明書の設定から、次の一連のイベントが発生します。
+A/V 認証サービスは、クライアントや他の A/V コンシューマーによって使用されるトークンの発行を担当します。 トークンは証明書の属性から生成され、証明書の有効期限が切れると、接続が失われると、新しい証明書によって生成された新しいトークンに再び追加する必要があります。 Skype for Business Server の新機能は、古い証明書の有効期限が切れて、両方の証明書が一時機能し続ける前に新しい証明書をステージ化する機能など、この問題を軽減します。 この機能では、管理シェルコマンドレットのSet-CsCertificate Skype for Business Server機能を使用します。 既存のパラメーター -EffectiveDate を持つ新しいパラメーター -Roll は、新しい AudioVideoAuthentication 証明書を証明書ストアに配置します。 発行されたトークンを検証するために、古い AudioVideoAuthentication 証明書は引き続き残ります。 新しい AudioVideoAuthentication 証明書の設定から、次の一連のイベントが発生します。
   
 > [!TIP]
-> Skype for Business Server Management Shell コマンドレットを使用して証明書を管理すると、エッジ サーバー上の目的ごとに個別の証明書を要求できます。 Skype for Business Server 展開ウィザードで証明書ウィザードを使用すると、証明書の作成が支援されますが、通常は、エッジ サーバーで使用する証明書を 1 つの証明書に結合する既定の種類です。 ローリング証明書機能を使用する場合は、AudioVideoAuthentication 証明書を他の証明書の用途から切り離すことをお勧めします。 既定の種類の証明書をプロビジョニングおよびステージングすることもできますが、結合された証明書の AudioVideoAuthentication 部分のみがステージングによる恩恵を受けます。 証明書の有効期限が切れたときにインスタント メッセージングの会話に参加するユーザーは、Access Edge サービスに関連付けられた新しい証明書を利用するために、ログアウトしてログインし戻す必要があります。 同様の動作は、Web 会議エッジ サービスを使用して Web 会議に関与するユーザーにも発生します。 OAuthTokenIssuer 証明書は、すべてのサーバーの間で共有される特定の種類の証明書です。 証明書は 1 か所で作成および管理し、証明書は他のすべてのサーバーの中央管理ストアに保存されます。
+> 証明書を管理Skype for Business Server管理シェルコマンドレットを使用して、エッジ サーバー上の目的ごとに個別の証明書を要求できます。 Skype for Business Server 展開ウィザードで証明書ウィザードを使用すると、証明書の作成が支援されますが、通常は、エッジ サーバーで使用されるすべての証明書を 1 つの証明書に結合する既定の種類です。 ローリング証明書機能を使用する場合は、AudioVideoAuthentication 証明書を他の証明書の用途から切り離すことをお勧めします。 既定の種類の証明書をプロビジョニングおよびステージングすることもできますが、結合された証明書の AudioVideoAuthentication 部分のみがステージングによる恩恵を受けます。 証明書の有効期限が切れたときにインスタント メッセージングの会話に参加するユーザーは、Access Edge サービスに関連付けられた新しい証明書を利用するために、ログアウトしてログインし戻す必要があります。 同様の動作は、Web 会議エッジ サービスを使用して Web 会議に関与するユーザーにも発生します。 OAuthTokenIssuer 証明書は、すべてのサーバーの間で共有される特定の種類の証明書です。 証明書は 1 か所で作成および管理し、証明書は他のすべてのサーバーの中央管理ストアに保存されます。
   
 Set-CsCertificate コマンドレットを使用するとき、および現在の証明書の有効期限が切れる前にこのコマンドレットを使用して証明書をステージングするときのオプションと要件を十分に理解するには、さらに詳しい説明が必要です。 -Roll パラメーターは重要ですが、基本的には単一の目的です。 パラメーターとして定義する場合は、-Type (AudioVideoAuthentication や OAuthTokenIssuer など) によって定義される証明書に関する情報を提供する必要があることを Set-CsCertificate に伝えて、証明書が -EffectiveDate によって効果的に定義されます。
   
@@ -89,7 +89,7 @@ Set-CsCertificate、-Roll、-EffectiveDate が使用するプロセスをさら�
 |1  <br/> |開始: 2015/7/22 12:00:00 AM  <br/> 現在の AudioVideoAuthentication 証明書は、2015 年 7 月 22 日午後 2 時に期限切れになる予定です。 これは、証明書の有効期限切れタイム スタンプによって決まります。 既存の証明書が有効期限に達する前に、証明書の交換とロールオーバーを計画して、8 時間の重複 (既定のトークンの有効期間) を考慮します。 この例では、2:00:00 AM のリード タイムを使用して、管理者が新しい証明書を 6:00:00 の有効時間より前に配置して準備するための十分な時間を確保します。  <br/> |
 |2  <br/> |2015/7/22 2:00:00 AM - 7/22/2015 5:59:59 AM  <br/> Set-CsCertificate \<certificate usage type\> -Type -Thumbprint -Roll -EffectiveDate を使用して、有効な時間が 6:00:00 (この例では 4 時間のリード タイムですが、長くすることができます) のエッジ サーバーに証明書を \<thumbprint of new certificate\> 設定する \<datetime string of the effective time for new certificate\>  <br/> |
 |3  <br/> |2015/7/22 6:00 AM - 7/22/2015 14:00  <br/> トークンを検証するには、新しい証明書が最初に試され、新しい証明書がトークンの検証に失敗した場合は、古い証明書が試されます。 このプロセスは、8 時間 (既定のトークンの有効期間) の重複期間中のすべてのトークンに使用されます。  <br/> |
-|4  <br/> |終了: 2015/7/22 14:00:01  <br/> 古い証明書の有効期限が切れ、新しい証明書が引き継がれています。 古い証明書は、-Type -Previous Remove-CsCertificateで安全 \<certificate usage type\> に削除できます  <br/> |
+|4   <br/> |終了: 2015/7/22 14:00:01  <br/> 古い証明書の有効期限が切れ、新しい証明書が引き継がれています。 古い証明書は、-Type -Previous Remove-CsCertificateで安全 \<certificate usage type\> に削除できます  <br/> |
    
 有効時間に達すると (2015/7/22 6:00:00 AM)、すべての新しいトークンが新しい証明書によって発行されます。 トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。 検証が失敗した場合は、古い証明書が試されます。 新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。 古い証明書の有効期限が切れたら (2015/7/22 2:00:00 PM)、トークンは新しい証明書によってのみ検証されます。 以前の証明書は、-Previous パラメーターを使用Remove-CsCertificateコマンドレットを使用して安全に削除できます。
 
@@ -133,7 +133,7 @@ Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server でサーバー間認証 (OAuth) とパートナー アプリケーションを管理する](server-to-server-and-partner-applications.md)
+[サーバー間認証 (OAuth) とパートナー アプリケーションを管理Skype for Business Server](server-to-server-and-partner-applications.md)
 
 [Set-CsCertificate](/powershell/module/skype/set-cscertificate?view=skype-ps)
   

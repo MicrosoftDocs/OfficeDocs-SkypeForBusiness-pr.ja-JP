@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での管理者トポロジ権限のテスト
+title: 管理者トポロジの権限をテストSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,28 +10,28 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype for Business Server でトポロジ権限をテストする方法
-ms.openlocfilehash: d9c0ec5560dcb6f1a6872f0b38f2930e46b2364c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: トポロジの権限をテストするSkype for Business Server
+ms.openlocfilehash: 9503476c5c97e692624a8c2535adaeabc14c0e88fc6be583927cdf048cf1ee2f
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848102"
 ---
-# <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Skype for Business Server での管理者トポロジ権限のテスト
+# <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>管理者トポロジの権限をテストSkype for Business Server
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
-|検証スケジュール|Skype for Business Server の初期展開後。 必要に応じて、アクセス許可に関連する問題が発生した場合。|
+|検証スケジュール|最初の展開Skype for Business Server後。 必要に応じて、アクセス許可に関連する問題が発生した場合。|
 |テスト ツール|Windows PowerShell|
-|必要なアクセス許可|Skype for Business Server 管理シェルを使用してローカルで実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティ グループのメンバーである必要があります。<br/><br/>リモート インスタンスを使用して Windows PowerShellを実行する場合、ユーザーには、このコマンドレットを実行するアクセス許可を持つ RBAC ロールTest-CsSetupPermissionがあります。 このコマンドレットを使用できるすべての RBAC 役割の一覧を表示するには、次のコマンドをプロンプトからWindows PowerShellします。<br/><br/>Get-CsAdminRoleWhere-Object \| {$_.コマンドレット -match "Test-CsSetupPermission"}|
+|必要なアクセス許可|管理シェルを使用してローカルSkype for Business Server実行する場合、ユーザーは RTCUniversalServerAdmins セキュリティ グループのメンバーである必要があります。<br/><br/>サーバーのリモート インスタンスを使用して実行Windows PowerShell、ユーザーには、管理者コマンドレットを実行するアクセス許可を持つ RBAC ロールを割りTest-CsSetupPermissionがあります。 このコマンドレットを使用できるすべての RBAC 役割の一覧を表示するには、次のコマンドをプロンプトからWindows PowerShellします。<br/><br/>Get-CsAdminRoleWhere-Object \| {$_.コマンドレット -match "Test-CsSetupPermission"}|
 |||
 
 ## <a name="description"></a>説明
 
-既定では、Skype for Business Server トポロジを有効にし、Skype for Business Server インフラストラクチャに大きな変更を加えるのは、ドメイン管理者のみです。 ドメイン管理者と Skype for Business Server 管理者が同一である限り、これは問題ではありません。 多くの組織では、Skype for Business Server 管理者はドメイン全体に対する管理者権限を保持しません。 既定では、これらの管理者 (RTCUniversalServerAdmins グループのメンバーとして定義) では、Skype for Business Server トポロジを変更できません。 RTCUniversalServerAdmins グループのメンバーにトポロジの変更を行う権限を付与するには [、Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) コマンドレットを使用して必要な Active Directory アクセス許可を割り当てる必要があります。
+既定では、ドメイン管理者だけがトポロジを有効にして、Skype for Business Serverインフラストラクチャに大きな変更を加Skype for Business Serverできます。 ドメイン管理者と管理者が同じSkype for Business Server限り、これは問題ありません。 多くの組織では、Skype for Business Server管理者はドメイン全体に対する管理者権限を保持していない。 既定では、これらの管理者 (RTCUniversalServerAdmins グループのメンバーとして定義されている) は、トポロジの変更をSkype for Business Serverできないという意味です。 RTCUniversalServerAdmins グループのメンバーにトポロジの変更を行う権限を付与するには [、Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) コマンドレットを使用して必要な Active Directory アクセス許可を割り当てる必要があります。
  
-この Test-CsSetupPermissionコマンドレットは、Skype for Business Server のインストールに必要なアクセス許可、またはそのコンポーネントの 1 つが、指定された Active Directory コンテナーに構成されていることを確認します。 アクセス許可が割り当てられていない場合は、Grant-CsSetupPermission コマンドレットを実行して、RTCUniversalServerAdmins グループのメンバーに Skype for Business Server をインストールして有効にする権限を付与できます。
+Test-CsSetupPermission コマンドレットは、Skype for Business Server またはコンポーネントのインストールに必要なアクセス許可が、指定された Active Directory コンテナーに構成されていることを確認します。 アクセス許可が割り当てられていない場合は、Grant-CsSetupPermission コマンドレットを実行して、RTCUniversalServerAdmins グループのメンバーに、Skype for Business Server をインストールして有効にする権限を付与できます。
 
 ## <a name="running-the-test"></a>テストの実行
 
@@ -47,7 +47,7 @@ Active Directory Test-CsSetupPermissionに必要なアクセス許可が既に�
 
 True 
 
-アクセス許可が設定されていない場合、Test-CsSetupPermission False が返されます。 通常、この値は多くの警告メッセージで囲まれます。 例:
+アクセス許可が設定されていない場合、Test-CsSetupPermission False が返されます。 通常、この値は多くの警告メッセージで囲まれます。 次に例を示します。
 
 警告: アクセス制御エントリ (ACE) atl-cs-001\RTCUniversalServerAdmins;許可する。ExtendedRight;なし。なし。1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 

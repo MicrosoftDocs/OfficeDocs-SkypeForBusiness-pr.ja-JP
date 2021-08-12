@@ -18,12 +18,12 @@ description: グループ内のユーザーとグループにポリシーとポ�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 00f78b3b134c6741a89c0d7b3f43d32a11c182cc
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 9d0f82ab377b1c09f60db7f953c1016f396b2e706417f0f7acb17903ad83c8bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574356"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329002"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Teamsポリシーの割り当て - 使用開始
 
@@ -142,7 +142,7 @@ Microsoft Teams 管理センターでユーザーにポリシーを割り当て�
 > [!NOTE]
 > [ユーザー] ページからアクティビティ ログに **アクセス** することもできます。 [適用] **を** クリックして一括ポリシーの割り当てを送信すると、ページの上部にバナーが表示されます。 バナーの **[アクティビティ ログ** ] リンクをクリックします。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [ユーザーとグループにポリシーを割り当てる](assign-policies-users-and-groups.md)
 - [ユーザーとグループにポリシー パッケージを割り当てる](assign-policy-packages.md)

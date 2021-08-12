@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: 応答グループ キューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。
-ms.openlocfilehash: 4226c30ad560d4f5e5396b8af4ab657e55f087c6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3029911d6b2290dc6d117f829d084d71a4bd5ed0f9dca652498088a87afcb643
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319230"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>応答グループのキュー: 新規作成または現在の形式のままで編集
 
@@ -36,7 +36,7 @@ ms.locfileid: "51122558"
 
 - **グループ** キューに割り当てるエージェント グループを選択します。 [選択 **] を** クリックして、エージェント グループをリストに追加します。 [ **削除] を** クリックして、選択したエージェント グループを一覧から削除します。
 
-    上下の矢印は、選択したエージェント グループをリスト内で上下に移動します。 エージェント グループの順序は、Skype for Business Server が使用可能なエージェントを検索する順序に影響します。 つまり、リスト内の最初のグループが最初に検索され、使用可能なエージェントが検索され、次に 2 番目のグループが検索されます。
+    上下の矢印は、選択したエージェント グループをリスト内で上下に移動します。 エージェント グループの順序は、使用可能なエージェントを検索するSkype for Business Serverに影響します。 つまり、リスト内の最初のグループが最初に検索され、使用可能なエージェントが検索され、次に 2 番目のグループが検索されます。
 
 - **キューのタイム アウトを有効にする** このチェック ボックスをオンにすると、エージェントが通話に応答するまで発信者が待機するまでの最大期間を指定できます。 このオプションを選択する場合は、次の項目も指定する必要があります。
 
@@ -72,4 +72,4 @@ ms.locfileid: "51122558"
 
   - **別のキューに転送する** このオプションを選択した場合は、キュー オーバーフローしきい値が満たされた場合に呼び出しを受信するキューを参照します。
 
-応答グループの機能の詳細については、「計画」のドキュメントの「Plan for the Response Group application [in Skype for Business Server 2015」](../../plan-your-deployment/enterprise-voice-solution/response-group.md) を参照してください。 キューの使用の詳細については、「操作」のドキュメントの「[Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)」を参照してください。
+応答グループの機能の詳細については、「計画」のドキュメントの「Skype for Business Server [2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md)の応答グループ アプリケーションの計画」を参照してください。 キューの使用の詳細については、「操作」のドキュメントの「[Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)」を参照してください。

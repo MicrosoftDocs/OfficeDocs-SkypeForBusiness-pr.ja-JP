@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'ピン留め変更や既定の電話会議番号の変更などの設定Skypeを有効または無効にして、ユーザーにメールを送信する方法について説明Microsoft Teams。 '
-ms.openlocfilehash: 17c2864703eafa2c70709da0381f870abba58ad0
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 014159ea88d68b38a138e530e6d9200d4936d728ead4694e6aac352e92f10dfb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329132"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 

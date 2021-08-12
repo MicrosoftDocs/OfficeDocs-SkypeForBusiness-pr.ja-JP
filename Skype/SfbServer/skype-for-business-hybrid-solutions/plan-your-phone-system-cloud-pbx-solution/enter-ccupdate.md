@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: 入力-CcUpdate コマンドレットは、Skype for Business Cloud Connector Edition host server をメンテナンスモードにして、更新プロセスを準備します。 アプライアンスは直ちにすべてのサービスを停止して、進行中の通話を終了し、新しい通話を拒否します。
-ms.openlocfilehash: 25d2fbc56bd4de6a08985de18c178d5a8f993492
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このEnter-CcUpdateコマンドレットは、Skype for Business クラウド コネクタ エディションをメンテナンス モードにすることで、更新プロセスのホスト サーバーを準備します。 アプライアンスは、すべてのサービスを直ちに停止し、継続的な通話を終了し、新しい通話を拒否します。
+ms.openlocfilehash: 75be5933e31f3966ab36f9957b78cd89c21a4a31df23b5761000a6e96cd9806e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303650"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 
-入力-CcUpdate コマンドレットは、Skype for Business Cloud Connector Edition host server をメンテナンスモードにして、更新プロセスを準備します。 アプライアンスは直ちにすべてのサービスを停止して、進行中の通話を終了し、新しい通話を拒否します。
+このEnter-CcUpdateコマンドレットは、Skype for Business クラウド コネクタ エディションをメンテナンス モードにすることで、更新プロセスのホスト サーバーを準備します。 アプライアンスは、すべてのサービスを直ちに停止し、継続的な通話を終了し、新しい通話を拒否します。
   
 ```powershell
 Enter-CcUpdate
@@ -37,7 +37,7 @@ Enter-CcUpdate
 
 ### <a name="example-1"></a>例 1
 
-次の例では、アプライアンスをメンテナンス モードに入れて更新プロセスに備えています。
+次の使用例は、メンテナンス モードに入って更新プロセスのアプライアンスを準備します。
   
 ```powershell
 Enter-CcUpdate 
@@ -46,19 +46,19 @@ Enter-CcUpdate
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-入力-CcUpdate コマンドレットは、現在進行中の通話を終了するすべてのサービスを直ちに停止します。このアプライアンスは、他の運用アプライアンスに転送される新しい通話を拒否します。 更新を準備しているアプライアンスからの通話を処理するために、残りの本番アプライアンスに十分な容量があることを確認する必要があります。
+このEnter-CcUpdateは、進行中の通話を終了するサービスを直ちに停止し、アプライアンスは新しい通話を拒否します。これは他の実稼働アプライアンスに転送されます。 残りの実稼働アプライアンスが、更新の準備中のアプライアンスからの呼び出しを処理するのに十分な容量を持っている必要があります。
   
-お使いのアプライアンスで自動更新が有効になっている場合に、マイクロソフトが重要な修正プログラムをリリースするときなどで、メンテナンス モードは役に立ちます。メンテナンス モードは、自動更新をオフにすることを決めた上で、一貫して手動での更新を実行するという場合にも役立ちます。
+メンテナンス モードは、アプライアンスで自動更新が有効になっている場合 、たとえば Microsoft が重要な修正プログラムをリリースする場合に便利です。 メンテナンス モードは、自動更新をオフにしたが、一貫して手動更新を実行する場合にも役立ちます。
   
-更新プログラムをインストールした後、終了-CcUpdate コマンドレットを実行して、アプライアンスを運用モードに戻すことができます。
+更新プログラムをインストールした後、このコマンドレットを実行して、アプライアンスを実稼働モードExit-CcUpdateできます。
   
 > [!NOTE]
-> クラウドコネクタのアプライアンスを手動で更新する場合は、Microsoft が次のバージョンをリリースしてから60日以内に更新する必要があります。 Microsoft は、新しいバージョンがリリースされてから60日間、以前リリースされたクラウドコネクタのバージョンをサポートしています。 
+> クラウド コネクタ アプライアンスを手動で更新する場合は、Microsoft が次のバージョンをリリースした後、60 日以内に更新する必要があります。 Microsoft は、新しいバージョンのリリース後 60 日間、以前にリリースされたバージョンのクラウド コネクタをサポートしています。 
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Enter-CCUpdate コマンドレットはパイプライン入力を受け入れません。
+なし。 このEnter-CCUpdateは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

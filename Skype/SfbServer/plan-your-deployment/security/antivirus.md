@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のウイルス対策スキャンの除外
+title: ウイルス対策スキャンの除外Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Skype for Business Server とのウイルス対策スキャナーの相互運用の概要。
-ms.openlocfilehash: 64646304b98de075fd9af0a82096da8c0bff2f12
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: ウイルス対策スキャナーとウイルス対策スキャナーの相互運用Skype for Business Server。
+ms.openlocfilehash: 2f44b5a07bf62f06f3363b2f6938e48d9f5866626be44626bd0bd3cb4cf3a2d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347818"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Skype for Business Server のウイルス対策スキャンの除外
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>ウイルス対策スキャンの除外Skype for Business Server
 
-Skype for Business Server とのウイルス対策スキャナーの相互運用の概要。
+ウイルス対策スキャナーとウイルス対策スキャナーの相互運用Skype for Business Server。
 
 ウイルス対策スキャナーが Skype for Business Server の操作を妨げないよう、ウイルス対策スキャナーを実行する Skype for Business Server サーバーまたはサーバーの役割ごとに特定のプロセスとディレクトリを除外する必要があります。 除外が必要なプロセスとディレクトリを以下に示します。
 
 > [!NOTE]
-> 以下に示すフォルダーとファイルの場所は、Skype for Business Server の既定の場所です。 既定の設定を使用しなかったすべての場所については、ここに示す既定の場所の代わりに、組織で指定した場所を除外してください。
+> 以下に示すフォルダーとファイルの場所は、ユーザーの既定の場所Skype for Business Server。 既定の設定を使用しなかったすべての場所については、ここに示す既定の場所の代わりに、組織で指定した場所を除外してください。
 
 > [!IMPORTANT]
 > 一部のウイルス対策プログラムでは、除外リストに相対パスではなく絶対パスが必要な場合があります。
 
-- Skype for Business Server プロセス:
+- Skype for Business Serverプロセス:
 
   - ABServer.exe
 
@@ -82,7 +82,7 @@ Skype for Business Server とのウイルス対策スキャナーの相互運用
 
   - XmppTGW.exe
 
-- Windows Fabric Host Service プロセス:
+- Windows FabricHost Service プロセス:
 
   - Fabric.exe
 
@@ -113,7 +113,7 @@ Skype for Business Server とのウイルス対策スキャナーの相互運用
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTCLOCAL\MSSQL\Binn\SQLServr.exe
 
-  - Standard Edition インストール RTC インスタンス
+  - Standard Editionインストール RTC インスタンス
 
   - %ProgramFiles%\Microsoft SQL Server\MSSQL12.RTC\MSSQL\Binn\SQLServr.exe
 
@@ -126,7 +126,7 @@ Skype for Business Server とのウイルス対策スキャナーの相互運用
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > これらのパスは、Skype for Business Server のバージョンに固有のパスです。
+    > これらのパスは、特定のバージョンに固有Skype for Business Server注意してください。
 
   - %programfiles%\Skype for Business Server 2015
 
@@ -140,6 +140,6 @@ Skype for Business Server とのウイルス対策スキャナーの相互運用
 
   - ファイル共有ストア (トポロジ ビルダーで指定)。ファイル ストアはトポロジ ビルダーで指定されています。
 
-  - SQL Server のデータおよびログ ファイル (バックエンド データベース、ユーザー ストア、アーカイブ ストア、監視ストア、およびアプリケーション ストア用のものを含みます)。 データベースとログ ファイルは、トポロジ ビルダーで指定できます。 既定の名前など、各データベースのデータおよびログ ファイルの詳細については、展開のドキュメントの「[SQL Server Data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)」を参照してください。
+  - SQL Server のデータおよびログ ファイル (バックエンド データベース、ユーザー ストア、アーカイブ ストア、監視ストア、およびアプリケーション ストア用のものを含みます)。データベースとログ ファイルは、トポロジ ビルダーで指定できます。既定の名前など、各データベースのデータおよびログ ファイルの詳細については、展開のドキュメントの「[SQL Server Data and Log File Placement](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)」を参照してください。
 
-  - SQL Server、Skype for Business ストア、RtcDatabase ストアなどのデータ ファイルとログ ファイルを格納します。 通常、%localdrive%\CSData の下にあります。
+  - SQL Server、フロントエンド データベース、ストア、RtcDatabase ストアのデータ ファイルSkype for Businessログ ファイルを作成します。 通常、%localdrive%\CSData の下にあります。

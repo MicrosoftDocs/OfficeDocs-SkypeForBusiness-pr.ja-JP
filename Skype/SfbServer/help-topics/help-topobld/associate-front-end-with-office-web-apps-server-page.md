@@ -15,22 +15,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 description: Web apps Server Officeは、会議で使用するためにドキュメントをアップロードする発表者と同様のサービスを提供しますが、以前のバージョンでは使用しなかった追加機能を有効にします。
-ms.openlocfilehash: 7f5411b2a30fd027125eb2e86f68ba48663ed06b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 32716f1dab5cbde7eed222a3178fa2db01748c14a579aa6866d1ce125c1cd7fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303730"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>フロント エンドと Office Web Apps サーバーとの関連付けページ
 
 Web apps Server Officeは、会議で使用するためにドキュメントをアップロードする発表者と同様のサービスを提供しますが、以前のバージョンでは使用しなかった追加機能を有効にします。
 
-Skype for Business Server 2015 構成Office機能オプションの 1 つとして会議を選択している場合は、展開用の Web アプリ サーバーを選択します。
+2015 Officeの機能オプションの 1 つとして [会議] を選択している場合は、展開用の Web Apps サーバー Skype for Business Serverします。
 
 このダイアログのオプションでは、次の選択肢が表示されます。
 
-1. **プールを Web Apps** サーバー Office関連付ける - 会議ユーザーに web Apps Server を提供して展開する場合はOfficeこのチェック ボックスをオンにします。
+1. **プールを Web** Apps サーバー Office関連付ける - 会議ユーザーに web Apps サーバーを提供して展開する場合はOfficeこのチェック ボックスをオンにします。
 
 2. このチェック ボックスをオンにした場合、リストを使用して、すでに定義済みの Office Web Apps サーバーを選択します。
 

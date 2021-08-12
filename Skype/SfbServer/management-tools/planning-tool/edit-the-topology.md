@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 でトポロジを編集する
+title: 2015 年のトポロジSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 最初のインタビューの質問が完了すると、サイトの完全修飾ドメイン名 (FQDN) と IP アドレスを編集できます。 これを行うには、[グローバル トポロジ] ページで、編集するサイトをダブルクリックします。
-ms.openlocfilehash: 9a345c753195c32907d078d5ee4a267b8b96d6b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 017b1e9e04851d321c9fd6f08508c8ffeccb4b4b558a3b0668c7e6f0efdd1f15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093185"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347912"
 ---
-# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 でトポロジを編集する
+# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>2015 年のトポロジSkype for Business Serverする
 
 最初のインタビューの質問が完了すると、サイトの完全修飾ドメイン名 (FQDN) と IP アドレスを編集できます。 これを行うには、**[グローバル トポロジ]** ページで、編集するサイトをダブルクリックします。
 
@@ -53,7 +53,7 @@ ms.locfileid: "51093185"
 ## <a name="edit-the-network-configuration-diagram"></a>ネットワーク構成図の編集
 <a name="Edit_Network_diagram"> </a>
 
-Skype for Business Server 2015 計画ツールでデザイナーが行う作業の大部分は、ネットワークダイアグラム上のエントリの IP アドレスと完全修飾ドメイン名 (FQDN) のエントリを定義する作業で構成されます。 このページに入力された情報は、計画ツールに含まれるレポートおよび他の情報に引き継がれします。
+Skype for Business Server 2015 計画ツールでデザイナーが行う作業の大部分は、ネットワークダイアグラム上のエントリの IP アドレスと完全修飾ドメイン名 (FQDN) のエントリを定義します。 このページに入力された情報は、計画ツールに含まれるレポートおよび他の情報に引き継がれします。
 
 ![計画ツールネットワーク図](../../media/Planning_Tool_Network_Diagram.png)
 
