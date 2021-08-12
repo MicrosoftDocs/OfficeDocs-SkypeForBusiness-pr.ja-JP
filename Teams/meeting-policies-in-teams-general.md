@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 会議の全般ポリシー設定を管理する方法については、Teams。
-ms.openlocfilehash: ecbdceefa5d60ca3c7d5b09aaa094054b88f60f915b17934a734fa07bdf3da23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aaeabbb61879e9e96c6b887a90fb3814fd7a3c4f3462d5e4f943a58b5dfacc56
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850302"
 ---
 # <a name="meeting-policy-settings---general"></a>会議ポリシーの設定 - 全般
 
@@ -124,9 +124,9 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 現在、このポリシー設定を構成することができるのは、PowerShell を使用した場合のみです。 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
-会議の開催者が会議の出席依頼のレポートをダウンロードできるようにするには、**AllowEngagementReport** パラメーターを [**有効**] に設定します。 有効にすると、**参加者** ウィンドウに、レポートをダウンロードするためのオプションが表示されます。
+会議の開催者が会議出席レポートをダウンロードするには **、AllowEngagementReport** パラメーターを [有効] に **設定します**。 有効にすると、**参加者** ウィンドウに、レポートをダウンロードするためのオプションが表示されます。 既定では、この設定は有効になっています。
 
-会議の開催者がレポートをダウンロードしないようにするには、パラメーターを [**無効**] に設定します。 既定では、この設定は無効になっており、レポートをダウンロードするオプションは利用できません。
+会議の開催者がレポートをダウンロードしないようにするには、パラメーターを [**無効**] に設定します。
 
 ## <a name="meeting-provider-for-islands-mode"></a>諸島モードの会議プロバイダー
 

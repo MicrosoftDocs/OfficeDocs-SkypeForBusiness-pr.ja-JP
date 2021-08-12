@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: 会議ポリシーは、会議中にユーザーが利用できる機能 (会議とも呼ばれる) を定義します。
-ms.openlocfilehash: 073019a46e2934f78ec0f20b8a7cb8e04c01bab9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4c99caab263df4a000f65ecff62b2280c7999b94c52509acdce963e93c29a21a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121020"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313505"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>会議ポリシー: 新規作成または現在の形式のままで編集
 
@@ -80,7 +80,7 @@ ms.locfileid: "51121020"
 
   - **注釈を有効にする** データの共同作業を許可する場合は、このチェック ボックスをオンにすると、参加者は会議中に共有されるコンテンツに対して画面の注釈を作成できます。
 
-  - **PowerPoint 注釈を有効にする** 注釈を許可する場合は、このチェック ボックスをオンにすると、参加者は会議中に PowerPoint スライドで注釈を共有できます。
+  - **注釈PowerPoint有効にする** 注釈を許可する場合は、このチェック ボックスをオンにすると、参加者は会議中にスライドを共有PowerPoint注釈を作成できます。
 
   - **ポーリングを有効にする** データの共同作業を許可する場合は、このチェック ボックスをオンにして、参加者が会議中にポーリングを保持できます。
 
@@ -107,4 +107,4 @@ ms.locfileid: "51121020"
     > [!NOTE]
     > [**複数のビデオ ストリームを許可する**] は、会議で複数のビデオ ストリームを許可するかどうかを指定します。
 
-会議の機能の詳細については、「計画」のドキュメントの「[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)」を参照してください。 会議ポリシーの使用の詳細については、「操作」のドキュメントの「[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)」を参照してください。
+会議の機能の詳細については、「計画」のドキュメントの「[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)」を参照してください。会議ポリシーの使用の詳細については、「操作」のドキュメントの「[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)」を参照してください。

@@ -10,25 +10,25 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: すべての存続可能ブランチ アプライアンス (SBA) は、SBA のバックアップ レジストラーとして機能するフロントエンド プールに関連付けられている。 フロントエンド プールを Skype for Business Server 2019 に移行する場合、プールのアップグレード中に SBA をフロントエンド プールから関連付け解除する必要があります。プールが Skype for Business Server 2019 に移行された後、SBA をアップグレードしたフロント エンド プールに再関連付けできます。 これには、トポロジ ビルダーの従来のトポロジから SBA を削除してから、SBA を Skype for Business Server 2019 トポロジに追加する必要があります。 従来の SBA に存在するユーザーは、トポロジから SBA を削除する前に、まず別のフロントエンド プールに移動する必要があります。 SBA を Skype for Business Server 2019 トポロジに追加すると、それらのユーザーは SBA に戻されます。 これらの手順の概要を次に示します。
-ms.openlocfilehash: e56bae1631a315b6f42042fb6a7bedd4f144a1b6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: すべての存続可能ブランチ アプライアンス (SBA) は、SBA のバックアップ レジストラーとして機能するフロントエンド プールに関連付けられている。 フロントエンド プールを Skype for Business Server 2019 に移行する場合、プールのアップグレード中に SBA をフロント エンド プールから関連付け解除する必要があります。プールが Skype for Business Server 2019 に移行された後、SBA をアップグレードされたフロント エンド プールに再関連付けできます。 これには、トポロジ ビルダーの従来のトポロジから SBA を削除し、SBA を 2019 年のトポロジにSkype for Business Serverします。 従来の SBA に存在するユーザーは、トポロジから SBA を削除する前に、まず別のフロントエンド プールに移動する必要があります。 SBA が 2019 年 2019 年のトポロジに追加Skype for Business Server、それらのユーザーを SBA に戻す必要があります。 これらの手順の概要を次に示します。
+ms.openlocfilehash: 4977868c45b274adea514d84e251f682da02cc8ee486a5a182d984ee652f3ae2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313875"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>存続可能ブランチ アプライアンスの接続
 
-すべての存続可能ブランチ アプライアンス (SBA) は、SBA のバックアップ レジストラーとして機能するフロントエンド プールに関連付けられる。 フロントエンド プールを Skype for Business Server 2019 に移行する場合、プールのアップグレード中に SBA をフロントエンド プールから関連付け解除する必要があります。 プールが Skype for Business Server 2019 に移行された後、SBA をアップグレードされたフロント エンド プールに再関連付けできます。 これには、トポロジ ビルダーの従来のトポロジから SBA を削除してから、SBA を Skype for Business Server 2019 トポロジに追加する必要があります。 従来の SBA に存在するユーザーは、トポロジから SBA を削除する前に、まず別のフロントエンド プールに移動する必要があります。 SBA が Skype for Business Server 2019 トポロジに追加された後、それらのユーザーを SBA に戻す必要があります。 これらの手順の概要を次に示します。
+すべての存続可能ブランチ アプライアンス (SBA) は、SBA のバックアップ レジストラーとして機能するフロントエンド プールに関連付けられる。 フロントエンド プールを Skype for Business Server 2019 に移行する場合、プールのアップグレード中に SBA をフロント エンド プールから関連付け解除する必要があります。 プールが 2019 年 2019 年に移行Skype for Business Server、SBA をアップグレードされたフロント エンド プールに再関連付けできます。 これには、トポロジ ビルダーの従来のトポロジから SBA を削除し、SBA を 2019 年のトポロジにSkype for Business Serverします。 従来の SBA に存在するユーザーは、トポロジから SBA を削除する前に、まず別のフロントエンド プールに移動する必要があります。 SBA が 2019 年 2019 年のトポロジに追加Skype for Business Server、それらのユーザーを SBA に戻す必要があります。 これらの手順の概要を次に示します。
   
 1. 従来の SBA のブランチ ユーザーを別のフロント エンド プールに移動します。
     
 2. 既存のフロントエンド プールをバックアップ レジストラーとして切断するには、従来のトポロジから SBA を削除します。
     
-3. SBA を Skype for Business Server 2019 トポロジに追加し、この新しいフロントエンド プールをバックアップ レジストラーとして構成します。 
+3. SBA を 2019 Skype for Business Serverトポロジに追加し、この新しいフロントエンド プールをバックアップ レジストラーとして構成します。 
     
-4. ブランチ ユーザーを新しい Skype for Business Server 2019 SBA に移動します。
+4. ブランチ ユーザーを 2019 SBA Skype for Business Server移動します。
     
 ### <a name="add-legacy-sba-branch-site-to-your-topology"></a>従来の SBA ブランチ サイトをトポロジに追加する
 
@@ -52,7 +52,7 @@ ms.locfileid: "51113343"
     
 7. [**次へ**] をクリックし、このサイトで存続可能ブランチ アプライアンスまたはサーバーを使用している場合は、[このウィザードが閉じるときに新しい存続可能ウィザードを開く] チェック ボックスをオフにしてください。 **[完了]** をクリックします。
     
-8. 従来の SBA を Skype for Business Server 2019 フロントエンド プールに関連付けるには、次の方法を実行します。
+8. 従来の SBA を 2019 Skype for Business Serverエンド プールに関連付けるには、次の方法を実行します。
     
     1. 作成したブランチ サイトを展開します。 
     

@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure Monitor を使用して、Microsoft Teams Rooms デバイスの管理を、統合されたエンドツーエンドの方法でデプロイする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6fe149f2d2cb0e6e68ad50c0c9cf1d2328439ff8dc0f43f56646e8a0152da7b8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850312"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>を使用 :::no-loc text="Microsoft Teams Rooms"::: して管理をデプロイする :::no-loc text="Azure Monitor":::
 
@@ -61,7 +61,7 @@ ms.locfileid: "54312685"
 
 :::no-loc text="Log Analytics"::: 設定で指定されているイベント :::no-loc text="Windows"::: ログからのイベントのみを収集します。 ログごとに、選択した重大度のイベントだけが収集されます。
 
-デバイスとアプリケーションの :::no-loc text="Log Analytics"::: 状態を監視するために必要なログを収集するために :::no-loc text="Microsoft Teams Rooms"::: 構成する必要があります。 :::no-loc text="Microsoft Teams Rooms"::: デバイスはイベント ログ **:::no-loc text="Skype Room System":::** を使用します。
+デバイスとアプリケーションの :::no-loc text="Log Analytics"::: 状態を監視するために必要なログを収集するために :::no-loc text="Microsoft Teams Rooms"::: 構成する必要があります。 :::no-loc text="Microsoft Teams Rooms"::: デバイスはイベント **:::no-loc text="Skype Room System":::** ログを使用します。
 
 イベントを :::no-loc text="Log Analytics"::: 収集するために構成 :::no-loc text="Microsoft Teams Rooms"::: するには、 の[ :::no-loc text="Windows"::: イベント ログ データ :::no-loc text="Azure Monitor"::: ソースに関するページを参照してください。](/azure/azure-monitor/platform/data-sources-windows-events)
 
@@ -84,7 +84,7 @@ ms.locfileid: "54312685"
 エージェントを :::no-loc text="Microsoft Monitoring"::: テスト デバイスにデプロイした後、必要なイベント ログ データが によって収集されるのを確認します :::no-loc text="Azure Monitor"::: 。
 
 > [!NOTE]
-> エージェントのインストール後にデバイスを再起動し、会議アプリが開始され、イベント ログに新しいイベントを生成できるよう :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: します。
+> エージェントのインストール後にデバイスを再起動し、会議アプリが起動され、イベント ログに新しいイベントを生成できるよう :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 確認します。
 
 1.  ポータルにサインイン[ :::no-loc text="Microsoft Azure"::: し、 に](https://portal.azure.com)移動して :::no-loc text="Log Analytics"::: ワークスペースを選択します。
 
@@ -110,7 +110,7 @@ ms.locfileid: "54312685"
 ## <a name="map-custom-fields"></a>カスタム フィールドをマップする
 <a name="Custom_fields"> </a>
 
-カスタム フィールドを使用して、イベント ログから特定のデータを抽出します。 後でタイル、ダッシュボード ビュー、アラートで使用するカスタム フィールドを定義する必要があります。 カスタム[フィールドの :::no-loc text="Log Analytics"::: 作成を開始](/azure/azure-monitor/platform/custom-fields)する前に、「カスタム フィールド」を参照し、概念を理解してください。
+カスタム フィールドを使用して、イベント ログから特定のデータを抽出します。 後でタイル、ダッシュボード ビュー、アラートで使用するカスタム フィールドを定義する必要があります。 カスタム[フィールドの :::no-loc text="Log Analytics"::: 作成を開始する](/azure/azure-monitor/platform/custom-fields)前に、 のカスタム フィールド に関するページを参照し、概念を理解してください。
 
 キャプチャしたイベント ログからカスタム フィールドを抽出するには、次の手順に従います。
 
@@ -322,7 +322,7 @@ ms.locfileid: "54312685"
     **リスト クエリ:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  列タイトル **を定義します**。<br>
     **名前:** コンピューター名<br>
-    **値:** 再起動の数
+    **値:** 再起動数
 6.  ナビゲーション **クエリ を定義します**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 7.  [適用 **] を選択** し、[閉じる] **を選択します**。
@@ -335,7 +335,7 @@ ms.locfileid: "54312685"
 
 :::no-loc text="Azure Monitor"::: は、本体で問題が発生した場合に管理者に :::no-loc text="Microsoft Teams Rooms"::: 通知するアラートを生成できます。
 
-:::no-loc text="Azure Monitor"::: には、定期的にスケジュールされたログ検索を実行する組み込みのアラート メカニズムが含まれています。 ログ検索の結果が特定の条件と一致する場合は、アラート レコードが作成されます。
+:::no-loc text="Azure Monitor"::: には、スケジュールされたログ検索を定期的に実行する組み込みのアラート メカニズムが含まれています。 ログ検索の結果が特定の条件と一致する場合は、アラート レコードが作成されます。
 
 その後、ルールは 1 つ以上のアクションを自動的に実行して、アラートを事前に通知したり、別のプロセスを呼び出したりすることができます。 アラートで使用できるオプションは次のとおりです。
 -   メールの送信
@@ -396,19 +396,19 @@ ms.locfileid: "54312685"
 
 同じ手順を繰り返しますが、次のクエリを使用して、最後の 1 時間以内にアプリケーションの問題が発生したデバイスを一覧表示します。
 
-    ```
-    Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
-    | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
-    | sort by TimeGenerated desc
-    ```
+ ```
+ Event
+ | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
+ | summarize arg_max(TimeGenerated, *) by Computer
+ | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+ | sort by TimeGenerated desc
+ ```
 
 これで、アラートの定義が完了しました。 上記の例を使用して、追加のアラートを定義できます。
 
 アラートが生成されると、前の 1 時間以内に問題が発生したデバイスを一覧表示する電子メールが届きます。
 
-![アラート :::no-loc text="Azure Monitor"::: 電子メールのサンプル](../media/Deploy-Azure-Monitor-6.png " :::no-loc text=&quot;Azure Monitor&quot;::: サンプル アラート 電子メール")
+![アラート :::no-loc text="Azure Monitor"::: 電子メールのサンプル](../media/Deploy-Azure-Monitor-6.png "サンプル :::no-loc text=&quot;Azure Monitor&quot;::: アラート 電子メール")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>すべてのデバイスを構成する :::no-loc text="Azure Monitoring":::
 <a name="configure_all_devices"></a>ダッシュボードとアラートを構成したら、すべてのデバイスでエージェントを設定して構成し、監視 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: のデプロイを完了できます。
@@ -429,16 +429,16 @@ ms.locfileid: "54312685"
     1.  コマンド プロンプト ウィンドウを開き、/cMMASetup-AMD64.exe **実行します。**
     2.  作成した共有を指定し、コンテンツを抽出します。
 
-4.  新しいグループ ポリシー オブジェクトを作成し、マシン アカウントがある組織単位 :::no-loc text="Microsoft Teams Rooms"::: に割り当てる。
+4.  新しいグループ ポリシー オブジェクトを作成し、マシン アカウントが配置されている組織単位 :::no-loc text="Microsoft Teams Rooms"::: に割り当てる。
 
-5.  PowerShell 実行ポリシーの構成:
+5.  PowerShell 実行ポリシーを構成する:
     1.  新しく作成したグループ ポリシー オブジェクトを編集し、[コンピューター構成ポリシー] \\ 管理用テンプレート コンポーネント \\ に \\ :::no-loc text="Windows"::: 移動します。 \\:::no-loc text="Windows PowerShell":::
-    2.  [スクリプトの **実行を有効にする] を有効にして**、[**実行ポリシー] を [ローカル****スクリプトを許可] に設定します**。
+    2.  [スクリプトの **実行を有効にする] を有効にして** 、[ **実行ポリシー] を [** ローカル スクリプト **を許可] に設定します**。
 
 6.  スタートアップ スクリプトを構成します。
-    1.  次のスクリプトをコピーし、次のスクリプトとしてInstall-MMAgent.ps1。
+    1.  次のスクリプトをコピーし、 として保存Install-MMAgent.ps1。
     2.  構成に合わせて WorkspaceId、WorkspaceKey、SetupPath パラメーターを変更します。
-    3.  同じグループ ポリシー オブジェクトを編集し、[コンピューター構成ポリシー] 設定 \\ \\ :::no-loc text="Windows"::: \\ (スタートアップ/シャットダウン) に移動します。
+    3.  同じグループ ポリシー オブジェクトを編集し、[コンピューターの構成ポリシー] 設定 \\ \\ :::no-loc text="Windows"::: \\ (スタートアップ/シャットダウン) に移動します。
     4.  ダブルクリックして [スタートアップ]**を選択し****、[PowerShell スクリプト] を選択します**。
     5.  [ **ファイルの表示]** を選択し、Install-MMAgent.ps1 **ファイルを** そのフォルダーにコピーします。
     6.  [追加 **] を選択** し、[参照] **を選択します**。

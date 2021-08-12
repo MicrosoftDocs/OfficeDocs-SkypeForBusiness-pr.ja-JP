@@ -15,20 +15,20 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
-description: このトピックの手順に従って、既存の Skype for Business Cloud Connector Edition 1.4.1 以降の展開の構成を変更します。
-ms.openlocfilehash: 7fdfdd5ac5a76ebbc3ac58e12a69e2e3af1330cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: このトピックの手順に従って、1.4.1 以降の既存のSkype for Business クラウド コネクタ エディション構成を変更します。
+ms.openlocfilehash: 151408d48f7623d72d5af4f8fef605d9dcc7d690a915cc7e8454a91f051dd0f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324186"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>既存のクラウド コネクタの展開構成の変更
 
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
-このトピックの手順に従って、既存の Skype for Business Cloud Connector Edition 1.4.1 以降の展開の構成を変更します。 
+このトピックの手順に従って、1.4.1 以降の既存のSkype for Business クラウド コネクタ エディション構成を変更します。 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>1 つのサイトの構成を変更する
 <a name="BKMK_SIngleSite"> </a>
@@ -61,7 +61,7 @@ ms.locfileid: "51109173"
    Register-CcAppliance
    ```
 
-6. Skype for Business Cloud Connector Edition をインストールするには、次のコマンドレットを実行します。
+6. 次のコマンドレットを実行して、次のSkype for Business クラウド コネクタ エディション。
     
    ```powershell
    Install-CcAppliance
@@ -112,7 +112,7 @@ ms.locfileid: "51109173"
 
 展開内の複数のサイトの構成を変更するには、1 つのサイトの手順に従って、一度に 1 つのサイトを更新します。
   
-## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>自動更新を有効にするには、Microsoft 365 または Office 365 組織の構成を変更する
+## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>自動更新を有効にするには、Microsoft 365またはOffice 365組織の構成を変更する
 <a name="BKMK_MultipleSites"> </a>
 
 オペレーティング システムの自動更新と Bits 自動更新を有効にするには、Skype for Business テナント管理者アカウントをオンライン管理に使用し、次のようにテナント リモート PowerShell を使用する必要があります。
@@ -164,7 +164,7 @@ ms.locfileid: "51109173"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>専用テナント管理者の資格情報を更新する
 <a name="BKMK_MultipleSites"> </a>
 
-Microsoft 365 または Office 365 組織の管理上の変更は、必要なアクセス許可を持つアカウントから行います。 2.0 より前の Cloud Connector バージョンでは、そのアカウントは専用のグローバル テナント管理者アカウントです。 Cloud Connector バージョン 2.0 以降では、そのアカウントには、Skype for Business 管理者権限を持つ Microsoft 365 または Office 365 アカウントを使用できます。
+クラウド コネクタのMicrosoft 365またはOffice 365の管理上の変更は、必要なアクセス許可を持つアカウントから行います。 2.0 より前の Cloud Connector バージョンでは、そのアカウントは専用のグローバル テナント管理者アカウントです。 Cloud Connector バージョン 2.0 以降では、そのアカウントは管理者権限を持Microsoft 365またはOffice 365アカウントSkype for Businessできます。
   
 Microsoft 365 または Office 365 で管理者アカウントの資格情報が変更された場合は、展開した各クラウド コネクタ アプライアンスで次の Administrator PowerShell コマンドを実行して、クラウド コネクタでローカルにキャッシュされた資格情報も更新する必要があります。
   
@@ -178,7 +178,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > このセクションは、Cloud Connector バージョン 2.0 以降に適用されます。 
   
-すべてのクラウド コネクタ資格情報は、"%SystemDrive%\Programdata\Cloudconnector\credentials" というファイルに格納されます \<CurrentUser\> 。xml」 ホスト サーバーのパスワードが変更された場合は、ローカルに保存されている資格情報を更新する必要があります。
+すべてのクラウド コネクタ資格情報は、"%SystemDrive%\Programdata\Cloudconnector\credentials" というファイルに格納されます。 \<CurrentUser\>.xml」 ホスト サーバーのパスワードが変更された場合は、ローカルに保存されている資格情報を更新する必要があります。
   
 クラウド コネクタ アプライアンスでローカルに保存されている資格情報を更新するには [、Get-CcCredential](get-cccredential.md) コマンドレットと [Set-CcCredential](set-cccredential.md) コマンドレットを使用し、次の手順を実行します。
   
@@ -194,7 +194,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. ホスト サーバーを再起動します。
     
-4. "%SystemDrive%\Programdata\Cloudconnector\credentials" というファイルを削除します \<CurrentUser\> 。xml」
+4. "%SystemDrive%\Programdata\Cloudconnector\credentials" というファイルを削除します。 \<CurrentUser\>.xml」
     
 5. 管理者として PowerShell コンソールを起動し、"Register-CcAppliance -Local" を実行して、説明に従ってパスワードを再入力します。 クラウド コネクタの展開に対して、前に入力したパスワードと同じパスワードを入力してください。
     
@@ -218,13 +218,13 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > このセクションは、Cloud Connector バージョン 2.0.1 以降に適用されます。 
   
-クラウド コネクタ サービスは、クラウド コネクタ管理サービスを実行します。 CceService アカウントは、Cloud Connector Edition の展開中に作成され、"%SystemDrive%\Programdata\Cloudconnector\credentials" に格納されます \<CurrentUser\> 。xml" と "%SystemDrive%\Programdata\Cloudconnector\credentials..CceService.xml"
+クラウド コネクタ サービスは、クラウド コネクタ管理サービスを実行します。 CceService アカウントは、クラウド コネクタ エディションの展開中に作成され、"%SystemDrive%\Programdata\Cloudconnector\credentials" に格納されます。 \<CurrentUser\>.xml」および「%SystemDrive%\Programdata\Cloudconnector\credentials..CceService.xml」
   
 すべてのアプライアンスがサイト ディレクトリ共有にアクセスするには、サイト内に展開されているすべてのアプライアンスで CceService アカウントのパスワードが同じである必要があります。 以下の点にご注意ください。
   
 - 既定では、CceService アカウントは "Password never expires" として構成されます。 パスワードを更新する場合は、この構成を維持してください。
     
-- ピーク時以外の使用期間中、およびビットまたは Windows 更新プログラムの自動更新タイム ウィンドウ以外の場合は、パスワードを更新する必要があります。 パスワードを更新する場合、アプライアンスをドレインして再起動する必要があります。時間がかかる場合があります。 アプライアンスを再起動すると、自動更新操作が中断されます。 
+- ピーク以外の使用期間中と、ビットや更新プログラムの自動更新タイム ウィンドウ以外の場合は、パスワードWindowsがあります。 パスワードを更新する場合、アプライアンスをドレインして再起動する必要があります。時間がかかる場合があります。 アプライアンスを再起動すると、自動更新操作が中断されます。 
     
 - CceService アカウントのパスワードを変更する場合は、すべての資格情報を指定し、ローカルに保存されたファイルで更新する必要があります。 
     
@@ -285,7 +285,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 既存のクラウド コネクタ展開に新しい SIP ドメイン (または複数の SIP ドメイン) を追加するには、次の手順を実行します。
   
-1. Microsoft 365 または Office 365 でドメインを更新する手順が完了し、DNS レコードを追加する機能を持っている必要があります。 Microsoft 365 または Office 365 でドメインをセットアップする方法の詳細については [、「Add a domain to Microsoft 365 or Office 365」を参照](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)してください。
+1. ドメインを更新する手順が完了したら、Microsoft 365またはOffice 365 DNS レコードを追加できます。 ドメインを Microsoft 365 または Office 365 で設定する方法の詳細については、「add a domain to Microsoft 365 または Office 365」 を[参照してください](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. クラウド コネクタ構成ファイルを新しい SIP ドメインまたはドメインで更新します。
     
@@ -306,7 +306,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 クラウド コネクタ展開でプライマリ SIP ドメインを変更する必要がある場合は、次の操作を行います。
   
-1. Microsoft 365 または Office 365 でドメインを更新する手順が完了し、DNS レコードを追加する機能を持っている必要があります。 Microsoft 365 または Office 365 でドメインをセットアップする方法の詳細については [、「Add a domain to Microsoft 365 or Office 365」を参照](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)してください。
+1. ドメインを更新する手順が完了したら、Microsoft 365またはOffice 365 DNS レコードを追加できます。 ドメインを Microsoft 365 または Office 365 で設定する方法の詳細については、「add a domain to Microsoft 365 または Office 365」 を[参照してください](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 新しい SIP ドメインでクラウド コネクタ構成ファイルを更新します。
     
@@ -328,7 +328,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 6. 
     
-    Skype for Business Online PowerShell で次のコマンドレットを実行して、各サイトのサイト登録を削除します。
+    オンライン PowerShell で次のコマンドレットを実行して、各サイトSkype for Business削除します。
     
    ```powershell
    Remove-CsHybridPSTNSite

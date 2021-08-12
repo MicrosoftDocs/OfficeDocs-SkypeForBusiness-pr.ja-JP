@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 ROBOTS: NOINDEX, NOFOLLOW
 description: ユーザーの PIN を生成するには、[有効な PIN を自動的に生成する] を選択します。
-ms.openlocfilehash: a57fee990e6732ba13a87d7f1de064a5e526b238
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0cd2cf54d6138353e19ff2314d84663d1aabb5f6c8817ea15c561ae5f437ec7c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324336"
 ---
 # <a name="set-pin"></a>PIN の設定
 

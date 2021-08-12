@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
-description: Get-CcApplianceDirectory コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの作業ディレクトリを取得します。すべての展開ファイルはこのディレクトリに保存されます。
-ms.openlocfilehash: 04764f312138132fb34c0979423da5dc4696ee63
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このGet-CcApplianceDirectoryコマンドレットは、ホスト サーバー上の作業ディレクトリSkype for Business クラウド コネクタ エディションします。 すべての展開ファイルは、このディレクトリに格納されます。
+ms.openlocfilehash: 9be21029aaf582ce080b85af87b8d3f02be11ffea3b615f2b003bb6aeb29002d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347592"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
-Get-CcApplianceDirectory コマンドレットは、Skype for Business Cloud Connector エディションのホスト サーバーでの作業ディレクトリを取得します。すべての展開ファイルはこのディレクトリに保存されます。 
+このGet-CcApplianceDirectoryコマンドレットは、ホスト サーバー上の作業ディレクトリSkype for Business クラウド コネクタ エディションします。 すべての展開ファイルは、このディレクトリに格納されます。 
   
-このコマンドレットは Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。
+このコマンドレットは、Skype for Business クラウド コネクタ エディション 1.4.1、1.4.2 に適用されます。
   
 ```powershell
 Get-CcApplianceDirectory
@@ -39,7 +39,7 @@ Get-CcApplianceDirectory
 
 ### <a name="example-1"></a>例 1
 
-次の例は、クラウドコネクタコンポーネントの構成ファイルと仮想マシンファイルが保存されている現在のフォルダーを示しています。
+次の例は、Cloud Connector コンポーネントの構成ファイルと仮想マシン ファイルが格納されている現在のフォルダーを示しています。
   
 ```powershell
 Get-CcApplianceDirectory
@@ -48,19 +48,19 @@ Get-CcApplianceDirectory
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-CcApplianceDirectory コマンドレットは、クラウドコネクタアプライアンスのすべての構成ファイル、仮想マシンのファイル、ログ、外部証明書が保存されている場所を示します。
+このGet-CcApplianceDirectoryは、すべての構成ファイル、仮想マシン ファイル、ログ、および外部証明書がクラウド コネクタ アプライアンスに格納されている場所を示します。
   
-各クラウドコネクタアプライアンスには、仲介サーバー、中央管理ストア、エッジサーバー、ドメインコントローラーという4つのコンポーネントがあります。 既定のフォルダーは C:\Users\%userprofile%\CloudConnector\ApplianceRoot. Set-CCApplianceDirectory コマンドレットを使用してこのフォルダーを変更できます。
+各クラウド コネクタ アプライアンスには、仲介サーバー、中央管理ストア、エッジ サーバー、およびドメイン コントローラーの 4 つのコンポーネントがあります。 既定のフォルダーは C:\Users \% userprofile%\CloudConnector\ApplianceRoot です。 このフォルダーは、このコマンドレットを使用してSet-CCApplianceDirectoryできます。
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Get-CCApplianceDirectory コマンドレットはパイプライン入力を受け入れません。
+なし。 このGet-CCApplianceDirectoryは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>
 
-このコマンドはファイル パスを返します。
+コマンドはファイル パスを返します。
   
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>

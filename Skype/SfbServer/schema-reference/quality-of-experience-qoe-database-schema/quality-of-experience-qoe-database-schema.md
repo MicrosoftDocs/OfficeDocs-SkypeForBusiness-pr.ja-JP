@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
-description: ここでは、Skype for Business Server 2015 の QoE (Quality of Experience) データベースのスキーマについて説明します。
-ms.openlocfilehash: 5e12fc8ace32db966334a7008de67157bcb31f3a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: このドキュメントでは、2015 年の QoE (Quality of Experience) データベースのスキーマをSkype for Business Serverします。
+ms.openlocfilehash: 2b10d72042c1e518bfd3741395d25dd6a28b0183c16f087d9dc59bd9222e9001
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834417"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347662"
 ---
 # <a name="quality-of-experience-qoe-database-schema"></a>エクスペリエンスの品質 (QoE) データベース スキーマ
  
-ここでは、Skype for Business Server 2015 の QoE (Quality of Experience) データベースのスキーマについて説明します。
+このドキュメントでは、2015 年の QoE (Quality of Experience) データベースのスキーマをSkype for Business Serverします。
   
 ## <a name="in-this-section"></a>このセクションの内容
 

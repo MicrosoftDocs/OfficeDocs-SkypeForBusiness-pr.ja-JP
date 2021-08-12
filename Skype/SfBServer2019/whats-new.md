@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2019 の新機能 |機能
+title: 2019 年 2019 Skype for Business Serverの新機能|機能
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: '概要: これらの機能は、Skype for Business Server 2019 の新機能です。'
-ms.openlocfilehash: f20abfa7d48717052c8ee0144e143a21b168286d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: これらの機能は、2019 年Skype for Business Serverされています。'
+ms.openlocfilehash: cbdfcd92fbb6fbaefb75024dcb1e393ad5049e636e463bc4ad97588279702151
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812587"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295964"
 ---
-# <a name="whats-in-skype-for-business-server-2019"></a>Skype for Business Server 2019 の機能
+# <a name="whats-in-skype-for-business-server-2019"></a>2019 年のSkype for Business Server
 
-**概要:** このトピックでは、Skype for Business Server 2019 の新機能について説明します。  
+**概要:** このトピックでは、2019 年の新機能についてSkype for Business Serverしてください。  
 
-Skype for Business Server 2019 の新機能は次のとおりです。
+2019 Skype for Business Serverの新機能は次のとおりです。
   
 - クラウド ボイスメール  
 - 通話データ コネクタ
@@ -31,27 +31,27 @@ Skype for Business Server 2019 の新機能は次のとおりです。
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>ユニファイド メッセージング サービス: クラウド ボイスメール
 
-Skype for Business 2019 と Exchange 2013 または Exchange 2016 を統合する場合、Exchange UM は Skype for Business Server 2019 で引き続き使用できます。 Exchange 2019 のサポートの変更により、Exchange UM 統合は、クラウド ボイスメール機能とクラウド ボイスメール機能の使用を重視自動応答されています。  
+ExchangeUM は、2019 Skype for Business Server 2019 と Skype for Business 2013 または Exchange 2016 Exchangeで使用できます。 Exchange 2019 年のサポートの変更により、Exchange UM の統合は、クラウド ボイスメール とクラウド の機能を重視自動応答されています。  
 
-クラウド ボイスメールを使用すると、すべての Skype for Business 2019 ユーザー&#x2014;がオンプレミスまたはオンラインの&#x2014;にホームの場合でも、Microsoft Cloud の同じボイスメール サービスにアクセスできます。 クラウド ボイスメールは、オンプレミスユーザーとオンライン ユーザーの両方に次の利点があります。
+クラウド ボイスメール Skype for Business 2019 年 2019 年のすべてのユーザー&#x2014;が、オンプレミスまたはオンライン&#x2014;の場合でも、Microsoft Cloud で同じボイスメール サービスにアクセスできます。 クラウド ボイスメール、オンプレミスユーザーとオンライン ユーザーの両方に次の利点があります。
 
-- Skype for Business Online、Teams、または Outlook クライアントを使用した Exchange メールボックス内のボイスメールへのアクセス
+- オンラインクライアント、Exchange クライアントSkype for Business使用して、TeamsメールボックスOutlookアクセスする
 - Web ベースのポータルを使用してボイスメール オプションを管理する機能
 
-詳細 [については、「クラウド ボイスメール サービスの計画](../sfbhybrid/hybrid/plan-cloud-voicemail.md) 」と [「Skype for Business Server](../sfbhybrid/hybrid/plan-um-migration.md) の計画」および「Exchange Server移行」を参照してください。
+詳細[については、「Plan クラウド ボイスメール サービス](../sfbhybrid/hybrid/plan-cloud-voicemail.md)」および[「Plan for Skype for Business Server移行Exchange Server」を](../sfbhybrid/hybrid/plan-um-migration.md)参照してください。
   
 ## <a name="call-monitoring-call-data-connector"></a>通話監視: 通話データ コネクタ
 
-Call Data Connector は、すべてのユーザーの通話品質を監視するために異なるセットのオンプレミスツールとオンライン ツールを使用する必要がなくなったため、ハイブリッド環境での通話の監視を大幅に簡素化します。  ユーザーがオンプレミスに所属する場合もオンラインの場合でも、組織全体の通話品質をオンラインで表示できます。
+通話データ コネクタは、すべてのユーザーの通話品質を監視するために、さまざまなオンプレミスツールとオンライン ツールを使用する必要がなくなったため、ハイブリッド環境での通話監視を大幅に簡素化します。  ユーザーがオンプレミスまたはオンラインの場合は、組織全体の通話品質をオンラインで表示できます。
 
-Call Data Connector を使用すると、1 つのツールセットを使用して次のタスクを実行できます。
+通話データ コネクタを使用すると、1 つのツールセットを使用して次のタスクを実行できます。
 
-- Microsoft Teams、Skype for Business Online、Skype for Business Server のユーザー エクスペリエンスを監視します。
-- ネットワーク全体の問題を表示およびトラブルシューティングする
-- ヘルプデスクの作業者が自分の責任分野を表示およびトラブルシューティングできるよう、通話分析にヘルプデスクと管理者の役割を割り当てます。
+- ユーザー エクスペリエンスをオンライン、Microsoft Teams、Skype for Business全体で監視Skype for Business Server。
+- ネットワーク全体の問題の表示とトラブルシューティング
+- Call Analytics にヘルプデスクと管理者の役割を割り当て、ヘルプデスクの作業者が自分の責任領域を表示およびトラブルシューティングできます。
 
-詳細 [については、「Plan Call Data Connector」](../sfbhybrid/hybrid/plan-call-data-connector.md) を参照してください。
+詳細については [、「Plan Call Data Connector」](../sfbhybrid/hybrid/plan-call-data-connector.md) を参照してください。
 
 ### <a name="see-also"></a>関連項目
 
-[Skype for Business Server 2019 で廃止された機能](deprecated.md)
+[2019 年から廃止Skype for Business Server](deprecated.md)

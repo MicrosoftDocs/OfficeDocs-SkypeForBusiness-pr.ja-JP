@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Security
 description: Skype for Business Online セキュリティ ガイド <add description>
-ms.openlocfilehash: 5b99744b9b798f7748870f9155b48bff16ad2b24
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0100eaab0a06cdbc618f39bd02ae832dca71abd5ac0498143fd51e8da9ea0e3e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240443"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295944"
 ---
 # <a name="security-and-skype-for-business-online"></a>セキュリティと Skype for Business Online
 
@@ -131,7 +131,7 @@ SfBO では、個人に結び付けることのできる情報がパブリック
 このセクションのトピックでは、SfBO のセキュリティを高めるために、各基本要素が機能するしくみについて説明します。
  
 ### <a name="azure-active-directory"></a>Azure Active Directory
-Azure Active Directory は、Microsoft 365 および Office 365 のディレクトリ サービスとして機能します。 すべてのユーザー ディレクトリ情報とポリシー割り当てが格納されます。 
+Azure Active Directory は、Microsoft 365 および Office 365 のディレクトリ サービスとして機能します。すべてのユーザー ディレクトリ情報とポリシー割り当てが格納されます。 
 
 ### <a name="public-key-infrastructure-for-sfbo"></a>SfBO の公開キー基盤
 SfBO サービスは、サーバーの認証と、クライアントとサーバー間および異なるサーバー役割間の信頼チェーンの確立に証明書を使用します。Windows Server の公開キー基盤 (PKI) は、この信頼チェーンを確立および検証するためのインフラストラクチャを提供します。証明書とはデジタル ID です。証明書は、名前によってサーバーを識別し、そのプロパティを指定します。 証明書の情報が有効であることを確認するには、サーバーに接続するクライアントやその他のサーバーが信頼する証明機関 (CA) から証明書が発行されていることが必要です。 サーバーがプライベート ネットワーク上の他のクライアントおよびサーバーとのみ接続する場合は、CA はエンタープライズ CA で問題ありません。 サーバーがプライベート ネットワーク外のエンティティと対話する場合は、パブリック CA が必要な場合があります。

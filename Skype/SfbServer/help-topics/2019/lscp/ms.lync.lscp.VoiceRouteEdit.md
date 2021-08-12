@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: cf1e99ba48f400409eca8b541f6aa5598a0dd380
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: ba03bf5fec71ebda8cbb65baef78847bd2ae9a6bb04b6f470cd5f84b7fd541ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096933"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313585"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>音声ルート: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
-- [Skype for Business で音声ルートを作成または変更する](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
+- [音声ルートを作成または変更Skype for Business](../../../deploy/deploy-enterprise-voice/create-or-modify-a-voice-route.md)
 
 - [ボイス ルートの変更](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)

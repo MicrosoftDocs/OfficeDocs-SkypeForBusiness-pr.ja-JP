@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 で CLS ログ キャプチャを開始または停止する
+title: 2015 年に CLS ログ キャプチャを開始またはSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
-description: '概要: Skype for Business Server 2015 で集中ログ サービス ログ キャプチャ セッションを開始または停止する方法について学習します。'
-ms.openlocfilehash: 773b93f62690b01d33f84bc5eb68b135280842ea
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 2015 年に集中ログ サービス ログ キャプチャ セッションを開始または停止するSkype for Business Serverします。'
+ms.openlocfilehash: 9979af3724a245fb71f14f3db07dba7899269d904d5dfcc1d548dae3a2890559
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098823"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324117"
 ---
-# <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で CLS ログ キャプチャを開始または停止する
+# <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>2015 年に CLS ログ キャプチャを開始またはSkype for Business Serverする
  
-**概要:** Skype for Business Server 2015 で集中ログ サービス ログ キャプチャ セッションを開始または停止する方法について学習します。
+**概要:** 2015 年に集中ログ サービス ログ キャプチャ セッションを開始または停止するSkype for Business Serverします。
   
 集中ログ サービスを使用してトレース ログをキャプチャするには、1 つ以上のコンピューターとプールでのログ記録を開始するコマンドを発行します。 また、実行するコンピューターまたはプール、実行するシナリオ (AlwaysOn、別の定義済みシナリオ、作成したシナリオなど)、トレースする Skype for Business Server コンポーネント (S4、SipStack など) を定義するパラメーターも発行します。
   
@@ -31,11 +31,11 @@ ms.locfileid: "51098823"
   
 既定のシナリオは、**AlwaysOn** です。AlwaysOn シナリオのねらいは、その名前が示すとおり、シナリオを絶えず実行することです。AlwaysOn シナリオでは、最も一般的なサーバー コンポーネントの多くについて Info レベルの情報 (Info ログ レベルには、Info のメッセージ以外に、Fatal、Error、および Warning の各メッセージも含まれます) が収集されます。AlwaysOn での情報の収集は、問題が発生する前後と問題の発生中に行われます。この点は、OCSLogger のような以前のログ記録ツールの標準的な動作とは大きく異なります。既に問題が発生した後に OCSLogger を実行すると、得られるデータが予防的なものではなく対症療法的なものになるので、トラブルシューティングの作業が困難になります。AlwaysOn では、問題のコンポーネントを特定するために探し求めている情報が得られず、(幅広い AlwaysOn のプロバイダーに与えられる可能性が低い) そのコンポーネントの修正手順が示されない場合も、ほかに行う必要があること (新しいシナリオの作成、その他の情報の収集、より焦点を絞った詳細情報を収集するための別の検索の実行など) を判断するのに適切なレベルの情報が示されます。
   
-集中ログ サービスには、コマンドを発行する 2 つの方法があります。 多くのトピックでは、Skype for Business Server 管理シェルWindows PowerShellを使用する方法に重点を置いて取り上がっています。 多数の複雑な構成とコマンドを使用する機能は、集中ログ サービスWindows PowerShellの使用をサポートします。 Skype for Business Server 管理Windows PowerShellを使用する方法は、Skype for Business Server のすべての機能でほぼユビキタスなので、Windows PowerShell コマンドについてのみ説明します。 
+集中ログ サービスには、コマンドを発行する 2 つの方法があります。 多くのトピックは、管理シェルを使用してWindows PowerShellに重点Skype for Business Serverされています。 複数の複雑な構成とコマンドを使用する機能は、集中ログ サービスWindows PowerShell使用する場合に便利です。 Windows PowerShell管理シェルSkype for Business Serverを介して実行する方法は、Skype for Business Server のすべての関数でほぼユビキタスなので、Windows PowerShell コマンドについてのみ説明します。 
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>基本コマンドをStart-CsClsLoggingしてWindows PowerShellを実行するには
 
-1. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 次のように入力して、集中ログ サービスを使用してログシナリオを開始します。
     
@@ -50,7 +50,7 @@ ms.locfileid: "51098823"
    ```
 
     > [!NOTE]
-    > AlwaysOn シナリオには、既定の実行期間がありません。 このシナリオの実行は、**Stop-CsClsLogging** コマンドレットによって明示的に停止されるまで続きます。 詳細については、「[Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps)」を参照してください。 その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。 
+    > AlwaysOn シナリオには、既定の実行期間がありません。このシナリオの実行は、**Stop-CsClsLogging** コマンドレットによって明示的に停止されるまで続きます。詳細については、「[Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps)」を参照してください。その他すべてのシナリオでは、既定の実行期間が 4 時間になっています。 
   
 3. Enter キーを押して、コマンドを実行します。 
     
@@ -70,7 +70,7 @@ ms.locfileid: "51098823"
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>高度なコマンドをStart-CsClsLoggingしてWindows PowerShellを実行するには
 
-1. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 追加のパラメーターを使用して、このログ記録コマンドを管理できます。 -Duration を使用すると、シナリオを実行する時間の長さを調整できます。 また、-Computer、コンマで区切られたコンピューター完全修飾ドメイン名 (FQDN) の一覧、またはログオンを実行するプールの FQDN のコンマ区切りリストである -Pools を定義することもできます。
     
@@ -96,24 +96,24 @@ ms.locfileid: "51098823"
   
 問題とその影響が及ぶ範囲を把握したら、次は、どのコンピューターと、どのプールで、どのようなシナリオを実行するかについて慎重に検討する必要があります。AlwaysOn シナリオは各種プロバイダーについての情報を収集するため、多岐にわたるアプリケーションに対しては有効ですが、シナリオが限定的であれば、それが効果を発揮するコンピューターやプールも一部に限定されます。また、最初に特定のシナリオの価値を理解することなく、ログ セッションをランダムに開始する場合も注意が必要です。誤ったシナリオを使用していたり、タスクに適切なシナリオであるが、そのシナリオを適用するスコープ (グローバル、サイト、プール、またはコンピューター) が誤っていたりすると、ほとんど役に立たない不適切な (シナリオをまったく実行してないかのような) データが得られる可能性があります。
   
-Skype for Business Server 管理シェルを使用して集中ログ サービス機能を制御するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティ グループ、またはこれら 2 つのグループのいずれかを含むカスタム RBAC 役割のメンバーである必要があります。 このコマンドレットが割り当てられているすべての RBAC 役割 (自分で作成したカスタム RBAC の役割を含む) の一覧を取得するには、Skype for Business Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
+Skype for Business Server 管理シェルを使用して集中ログ サービス機能を制御するには、CsAdministrator または CsServerAdministrator の役割ベースのアクセス制御 (RBAC) セキュリティ グループ、またはこれら 2 つのグループのいずれかを含むカスタム RBAC 役割のメンバーである必要があります。 このコマンドレットが割り当てられているすべての RBAC 役割 (自分で作成したカスタム RBAC ロールを含む) の一覧を取得するには、Skype for Business Server 管理シェルまたは Windows PowerShell プロンプトから次のコマンドを実行します。
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-例:
+次に例を示します。
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> では、ログ記録が有効になっているので、ログはどこに保存されますか? CLS エージェントに送信される管理シェル クエリを使用してログに格納されている情報にアクセスし、結果をいくつかの可能なファイル形式に出力できます。各サーバーでは、CLS エージェントがレコードを保持することが実際には重要ではありません。  ログ ファイルは **、Snooper.exe** やNotepad.exeなどのテキスト ファイルを読み取るツールなど、さまざまなツールを使用して、指定および読み取りおよび分析する場所 **に保存できます**。 Snooper.exe Skype for Business Server 2015 デバッグ ツールの一部であり、Web ダウンロードとして [利用できます](https://go.microsoft.com/fwlink/p/?LinkId=285257)。
+> では、ログ記録が有効になっているので、ログはどこに保存されますか? CLS エージェントに送信される管理シェル クエリを使用してログに格納されている情報にアクセスし、結果をいくつかの可能なファイル形式に出力できます。各サーバーでは、CLS エージェントがレコードを保持することが実際には重要ではありません。  ログ ファイルは **、Snooper.exe** やNotepad.exeなどのテキスト ファイルを読み取るツールなど、さまざまなツールを使用して、指定および読み取りおよび分析する場所 **に保存できます**。 Snooper.exe 2015 デバッグ ツールSkype for Business Serverの一部であり、Web ダウンロードとして[利用できます](https://go.microsoft.com/fwlink/p/?LinkId=285257)。
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>現在実行中の集中ログ サービス セッションを停止するには
 
-1. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 集中ログ サービスにクエリを実行して、現在実行されているシナリオを確認するには、次のように入力します。
     
@@ -123,7 +123,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
    ![Windows PowerShell呼び出し後のコンソールShow-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
-   Show-CsClsLogging の結果、現在実行中のシナリオの概要と、そのシナリオの実行スコープが表示されます。 詳細については、「[Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps)」を参照してください。
+   Show-CsClsLogging の結果、現在実行中のシナリオの概要と、そのシナリオの実行スコープが表示されます。詳細については、「[Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps)」を参照してください。
     
 3. 特定のシナリオによる現在実行中のログ セッションを停止するには、次のように入力します。
     
@@ -139,10 +139,10 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    このコマンドは、pool01.contoso.net での UserReplicatior シナリオによるログ記録を停止します。
     
     > [!NOTE]
-    > UserReplicator シナリオを使用するこのログ セッション中に作成されたログは削除されません。 このログは、Search-CsClsLogging コマンドを使用して検索を実行する場合も使用できます。 詳細については、「[Search-CsClsLogging](/powershell/module/skype/search-csclslogging?view=skype-ps)」を参照してください。 
+    > UserReplicator シナリオを使用するこのログ セッション中に作成されたログは削除されません。このログは、Search-CsClsLogging コマンドを使用して検索を実行する場合も使用できます。詳細については、「[Search-CsClsLogging](/powershell/module/skype/search-csclslogging?view=skype-ps)」を参照してください。 
   
 Start-CsClsLogging と対になる Stop-CsClsLogging コマンドレットは、シナリオによって定義されるログ セッションを終了し、ログ セッションによって作成されるログを保持します。2 つのシナリオは特定のコンピューターでいつでも実行できます。一方のシナリオを停止し、他方のシナリオを使用して情報を収集するという手段は、ほとんどのワークロードのトラブルシューティングで実行できる共通のタスクです。
 ## <a name="see-also"></a>関連項目
 <a name="stop"> </a>
 
-[Skype for Business 2015 の集中ログ サービス](centralized-logging-service.md)
+[2015 年の集中ログ Skype for Businessサービス](centralized-logging-service.md)

@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: この記事では、リソース アカウントを作成、編集、管理する方法についてMicrosoft Teams。
-ms.openlocfilehash: 21824c360e26e568ae47a9729960fca01a100ae8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd366e59e99b41386d4f5e7a9373401ca67381cf0cf08f44dae1763e401dff53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324107"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
@@ -47,7 +47,7 @@ ms.locfileid: "51094247"
 
 この記事の後半では、リソース アカウントにライセンスを割り当てる方法について説明します。
 
-仮想ユーザー ライセンスを取得するには、Microsoft 365 管理センターで [課金購入サービス アドオン サブスクリプション] に移動し、最後までスクロールします。[電話システム - 仮想ユーザー ライセンス] が表示されます  >    >  。  [今 **すぐ購入] を選択します**。 コストはかからないが、ライセンスを取得するには引き続き次の手順に従う必要があります。
+仮想ユーザー ライセンスを取得するには、Microsoft 365 管理センター で [課金購入サービスアドオン サブスクリプション] に移動し、最後までスクロールします。[電話システム - 仮想ユーザー ライセンス] が表示されます  >    >  。  [今 **すぐ購入] を選択します**。 コストはかからないが、ライセンスを取得するには引き続き次の手順に従う必要があります。
 
 ### <a name="obtain-service-numbers"></a>サービス番号を取得する
 
@@ -79,13 +79,13 @@ ms.locfileid: "51094247"
 
 リソース アカウントごとに、仮想ユーザー ライセンスまたは仮想ユーザー ライセンスMicrosoft 365 電話システム *割* り当てる *電話システム* があります。
 
-![管理センターでのライセンスの割り当てユーザー インターフェイスMicrosoft 365スクリーンショット](media/resource-account-assign-virtual-user-license.png)
+![[ライセンスの割り当て] ユーザー インターフェイスのスクリーンショットMicrosoft 365 管理センター](media/resource-account-assign-virtual-user-license.png)
 
-1. 管理センター Microsoft 365、ライセンスを割り当てるリソース アカウントをクリックします。
+1. [Microsoft 365 管理センターで、ライセンスを割り当てるリソース アカウントをクリックします。
 
 2. [ライセンスと **アプリ] タブの**[ライセンス]**で**、[仮想Microsoft 365 電話システム **- 仮想ユーザー] を選択します**。
 
-3. [変更の **保存] をクリックします**。
+3. **[変更の保存]** をクリックします。
 
 ## <a name="assign-a-service-number"></a>サービス番号を割り当てる
 
@@ -120,7 +120,7 @@ ms.locfileid: "51094247"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>仮想ユーザー ライセンスを使用するために既存のリソース アカウントを変更する
 
-既存のリソース アカウントのライセンスを 電話システム ライセンスから **仮想** ユーザー ライセンスに切り替える場合は、無料の仮想ユーザー ライセンスを取得し、Microsoft 365 管理センターの手順に従ってユーザーを別のサブスクリプションに移動する必要 [があります。](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+既存のリソース アカウントのライセンスを 電話システム ライセンスから **仮想** ユーザー ライセンスに切り替える場合は、無料の仮想ユーザー ライセンスを取得し、Microsoft 365 管理センター の手順に従ってユーザーを別のサブスクリプションに移動する必要 [があります。](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > 常に完全なライセンス 電話システム削除し、同じライセンス アクティビティで仮想ユーザー ライセンスを割り当てる必要があります。 古いライセンスを削除し、アカウントの変更を保存し、新しいライセンスを追加して、アカウント設定を再度保存すると、リソース アカウントが期待した通り機能しなくなる可能性があります。 このような場合は、仮想ユーザー ライセンスの新しいリソース アカウントを作成し、壊れたリソース アカウントを削除することをお勧めします。
@@ -150,7 +150,7 @@ ms.locfileid: "51094247"
 
 サービス番号が保留中モードでスタックしないように、リソース アカウントを削除する前に、リソース アカウントから電話番号の関連付け解除を行います。
 
-その後、管理センターの [ユーザー] タブでMicrosoft 365アカウントを削除できます。
+その後、[ユーザー] タブの [リソース アカウント] Microsoft 365 管理センターリソース アカウントを削除できます。
 
 直接ルーティングの電話番号とリソース アカウントの関連付けを解除するには、次のコマンドレットを使用します。
 

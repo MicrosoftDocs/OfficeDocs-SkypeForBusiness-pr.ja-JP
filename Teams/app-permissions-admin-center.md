@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2833a548ccf66b327d9feb71155f1ed33a671f1c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a5dadf59457813f1bd25b43c13d361ca4302aaa7891003f09dd231aced7441f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094659"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314163"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>アプリのアクセス許可を表示し、管理センターで管理者Microsoft Teams付与する
 
@@ -88,7 +88,7 @@ RSC のアクセス許可は、Azure マニフェストではなく、アプリ 
 
 現時点では、アクセス許可を確認し、同意を付与する機能は、アクセス許可を要求する Azure ADに登録されているサード パーティ製アプリでは使用できません。 [詳細の表示 **] リンク** の代わりに、[アクセス許可 **--** ] 列 **に表示** されます。 ISV と取り組み、アプリでこの機能を有効にしています。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [管理センターでアプリMicrosoft Teams管理する](manage-apps.md)
 - [Microsoft ID プラットフォーム エンドポイントのアクセス許可と同意](/azure/active-directory/develop/v2-permissions-and-consent)

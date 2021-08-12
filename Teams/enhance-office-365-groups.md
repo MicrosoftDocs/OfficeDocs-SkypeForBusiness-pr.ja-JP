@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: 配布リストをチームに招待Microsoft 365、メールが有効なセキュリティ グループMicrosoft Teamsを追加して、グループを強化する方法について学習します。
+description: 配布リストをチームに招待Microsoft 365メールが有効なセキュリティ グループを追加して、Microsoft Teamsグループを強化する方法について学習します。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,26 +18,25 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cf53c22895df1ad164ef688ad922c78a9c3ec761a6117ddf24eed633fe8e056a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 232c22c4d96796a983c3c65770f3fbabcce7753e5e6a5ae1daba693fa154a630
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850142"
 ---
-<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>既存のグループをMicrosoft 365を強化Microsoft Teams
-=======================================================
+# <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>既存のグループをMicrosoft 365グループを強化Microsoft Teams
 
-Microsoft Teamsユーザーは、既存のグループを拡張Microsoft 365機能を使用Teamsできます。 パブリック Microsoft 365 グループの強化を見ている場合、ユーザーはメンバーの数が 5,000 以下の場合にこれを行います。
+Microsoft Teamsユーザーは、既存のグループを拡張Microsoft 365機能をTeamsできます。 パブリック Microsoft 365 グループの強化を見ている場合、ユーザーはメンバーの数が 5,000 以下の場合にこれを行います。
 
-これを行うには、ユーザーはクライアントから新しいチームを作成するフロー Microsoft Teamsがあります。 [**グループからMicrosoft 365]** を選択し、新しいグループで拡張する既存のグループ  >  をTeams。 既存のグループ メンバーは、自動的にメンバーとしてチームに追加されます。
+これを行うには、ユーザーはクライアントから新しいチームを作成するフロー Microsoft Teamsがあります。 [**グループからMicrosoft 365]** を選択し、グループを拡張する既存のグループ  >  をTeams。 既存のグループ メンバーは、自動的にメンバーとしてチームに追加されます。
 
 > [!IMPORTANT]
-> グループMicrosoft 365所有者だけが、Teams を使用して既存のグループを強化する権限を持ち、そのグループに含めるユーザー数が 5,000 人未満である必要があります。 Teamsが強化されている場合は、一覧に表示されません。
+> グループMicrosoft 365所有者だけが、Teams を使用して既存のグループを拡張する権限を持ち、そのグループには 5,000 人未満のユーザーを含める必要があります。 Teamsが強化されている場合、一覧には表示されません。
 >
 >これらの条件を満たしていない限り、Microsoft 365グループからチームを作成するオプションは使用できません。
 
-ユーザーは配布リストをチームに招待し、その配布リストのメンバーがチームに追加されます。 これは 1 回の追加であり、配布リストのグループ メンバーシップの後の変更は、レプリケートまたは同期Teams。
+ユーザーは配布リストをチームに招待し、その配布リストのメンバーがチームに追加されます。 これは 1 回の追加で、配布リストのグループ メンバーシップの後の変更はレプリケートまたは同期されません。Teams。
 
 ![グループからチームを作成するオプションMicrosoft 365スクリーンショット。](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
@@ -49,4 +48,4 @@ Microsoft Teamsユーザーは、既存のグループを拡張Microsoft 365機�
 
 -   プライベート グループは検索できません。ユーザーはチーム所有者からメンバーとして追加されない限り参加することはできません。
 
-Teams で新しいチームを作成する場合、既存のプライベート Microsoft 365 グループの所有者には、Microsoft 365 グループのメンバーシップを使用してチームを作成するオプションがあります。 ユーザーは、既存のファイルを追加SharePointファイルOneNoteを追加し、SharePointファイルをマージOneNoteできます。
+Teams で新しいチームを作成するときに、既存のプライベート Microsoft 365 グループの所有者には、Microsoft 365 グループのメンバーシップを使用してチームを作成するオプションがあります。 ユーザーは、既存のファイルを追加SharePoint、OneNoteファイルを結合するタブを追加SharePointファイルOneNoteできます。

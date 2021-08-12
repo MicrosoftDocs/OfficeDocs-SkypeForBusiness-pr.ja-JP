@@ -19,12 +19,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 移植ウィザードを使用して、現在のサービス プロバイダーから現在のサービス プロバイダーに電話番号を転送する方法Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dfc3141eea8d16a86c0f37221e597feac3bb957e
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: bb098a13b157a7f95e93ab693ad2a83530571316689803069c696eccfede3929
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421282"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336017"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>電話番号を別の電話番号にMicrosoft Teams
 
@@ -91,7 +91,7 @@ Microsoft Teams 管理センターの移植ウィザードを使用して、現�
 
 ポート注文の状態を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[>**音声** ポート注文] に移動し、[注文履歴]  >  **をクリックします**。 各ポート注文の状態は、[状態] 列に **一覧表示** されます。 詳細については、「ポート注文の [状態は何ですか?」を参照してください。](port-order-status.md)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

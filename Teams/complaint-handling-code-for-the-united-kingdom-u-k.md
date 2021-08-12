@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: ビジネス通話サービス (SKYPE PSTN 通話)、返信のタイムライン、未解決の苦情に対する紛争の解決に関する苦情を申し立て。
-ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780276"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347412"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Microsoft 365での通話プラン - 英国 (英国) の苦情処理コード
 
@@ -40,7 +40,7 @@ Skype for Business では、顧客満足を最優先にしています。 ただ
 
 - 無料電話番号: 0800 032 6417
 
-- オンライン: 管理センターにMicrosoft 365し、[サポート] の [新しいサービス要求] を選択して **サービス** 要求を **送信します**。
+- オンライン: [サポート] の [Microsoft 365 管理センター 新しいサービス要求] を選択して、サービス要求 **にサインインし、** サービス要求を **送信します**。
 
 ## <a name="timelines"></a>タイムライン
 
@@ -87,6 +87,6 @@ Ombudsman Services の Web サイトまたは電話、手紙、または電子�
     WA4 6WU
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

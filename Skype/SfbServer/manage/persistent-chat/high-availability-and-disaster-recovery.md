@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 で常設チャット サーバーの高可用性と障害復旧を管理する
+title: 2015 年の常設チャット サーバーの高可用性と障害復旧Skype for Business Serverする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
-description: '概要: Skype for Business Server 2015 で常設チャット サーバーの高可用性と障害復旧を管理する方法について学習します。'
-ms.openlocfilehash: 4fb3a38fadf2a8a063715e389718859dcc7ddbdd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 常設チャット サーバーの高可用性と障害復旧を 2015 年にSkype for Business Serverします。'
+ms.openlocfilehash: b3535d87f939da1e8dc0caf2368ec5de77573639ca362002a097f1b1d9afd6c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122411"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324286"
 ---
-# <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で常設チャット サーバーの高可用性と障害復旧を管理する
+# <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバーの高可用性と障害復旧Skype for Business Serverする
  
-**概要:** Skype for Business Server 2015 で常設チャット サーバーの高可用性と障害復旧を管理する方法について学習します。
+**概要:** 2015 年に常設チャット サーバーの高可用性と障害復旧を管理するSkype for Business Serverします。
   
-このトピックでは、常設チャット サーバーをフェールオーバーしてフェールバックする方法について説明します。 このトピックを読む前に [、「Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) での常設チャット サーバーの高可用性と障害復旧の計画」および [「Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)での常設チャット サーバーの高可用性と障害復旧の構成」を参照してください。
+このトピックでは、常設チャット サーバーをフェールオーバーしてフェールバックする方法について説明します。 このトピックを読む前に[、「Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)での常設チャット サーバーの高可用性と障害復旧の計画」および「Skype for Business Server [2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)での常設チャット サーバーの高可用性と障害復旧の構成」を参照してください。
 
 > [!NOTE]
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「Microsoft Teams のアップグレードの [開始」を参照してください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、Skype for Business Server 2015 を引き続き使用するかのどちらかを選択できます。 
+> 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「アップグレードの開始[方法」をMicrosoft Teamsしてください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、2015 年Skype for Business Serverします。 
   
 ## <a name="fail-over-persistent-chat-server"></a>常設チャット サーバーのフェールオーバー
 
@@ -37,7 +37,7 @@ ms.locfileid: "51122411"
   
 - 常設チャット サーバーのプライマリ データベースと常設チャット サーバー ミラー データベースがダウンしています。
     
-- Skype for Business Server フロントエンド サーバーがダウンしています。
+- Skype for Business Serverフロントエンド サーバーがダウンしています。
     
 操作は 2 つの基本手順に基づいて行われます。
   
@@ -51,7 +51,7 @@ ms.locfileid: "51122411"
   
 1. 常設チャット サーバー のバックアップ ログ配布データベースからログ配布を削除します。
     
-   - このSQL Server Management Studioを使用して、常設チャット サーバー のバックアップ mgc データベースがあるデータベース インスタンスに接続します。
+   - このSQL Server Management Studio、常設チャット サーバー のバックアップ mgc データベースがあるデータベース インスタンスに接続します。
     
    - マスター データベースに対するクエリ ウィンドウを開きます。
     
@@ -63,7 +63,7 @@ ms.locfileid: "51122411"
 
 2. バックアップ共有から、バックアップ サーバーのコピー先フォルダーへ、コピーしていないバックアップ ファイルをコピーします。
     
-3. セカンダリ データベースに、適用していないトランザクション ログ バックアップを順番に適用します。 詳細については [、「How to: Apply a Transaction Log Backup (Transact-SQL)」を参照してください](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105))。
+3. セカンダリ データベースに、適用していないトランザクション ログ バックアップを順番に適用します。 詳細については[、「How to: Apply a Transaction Log Backup (Transact-SQL)」を参照してください](/previous-versions/sql/sql-server-2008-r2/ms187607(v=sql.105))。
     
 4. バックアップ mgc データベースをオンラインにします。手順 1b. で開いたクエリ ウィンドウを使用して、次の手順を実行します。
     
@@ -77,13 +77,13 @@ ms.locfileid: "51122411"
     
    - **復元を使用してデータベース mgc を復元します**。
     
-5. Skype for Business Server 管理シェルで、 **コマンド Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" -PoolState FailedOver** を使用して、mgc バックアップ データベースにフェールオーバーします。 常設チャット プールの完全修飾ドメイン名を、必ずそのドメイン名に置き換 atl-cs-001.litwareinc.com。
+5. [Skype for Business Server 管理シェル] で、コマンド **Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" -PoolState FailedOver** を使用して、mgc バックアップ データベースにフェールオーバーします。 常設チャット プールの完全修飾ドメイン名を、必ずそのドメイン名に置き換 atl-cs-001.litwareinc.com。
     
     mgc バックアップ データベースがプライマリ データベースとして動作するようになります。
     
-6. Skype for Business Server 管理シェルで **、Install-CsMirrorDatabase** コマンドレットを使用して、プライマリ データベースとして機能するバックアップ データベースの高可用性ミラーを確立します。 バックアップ データベース インスタンスをプライマリ データベースとして使用し、バックアップ ミラー データベース インスタンスをミラー インスタンスとして使用します。 これは、セットアップ時にプライマリ データベースに対して最初に構成したミラーと同じものではありません。
+6. 管理Skype for Business Serverでは **、Install-CsMirrorDatabase** コマンドレットを使用して、プライマリ データベースとして機能するバックアップ データベースの高可用性ミラーを確立します。 バックアップ データベース インスタンスをプライマリ データベースとして使用し、バックアップ ミラー データベース インスタンスをミラー インスタンスとして使用します。 これは、セットアップ時にプライマリ データベースに対して最初に構成したミラーと同じものではありません。
     
-7. 常設チャット サーバーのアクティブ サーバーを設定します。 Skype for Business Server 管理シェルから **、Set-CsPersistentChatActiveServer** コマンドレットを使用して、アクティブ なサーバーの一覧を設定します。
+7. 常設チャット サーバーのアクティブ サーバーを設定します。 管理シェル **Skype for Business Server、Set-CsPersistentChatActiveServer** コマンドレットを使用して、アクティブ サーバーの一覧を設定します。
     
     > [!IMPORTANT]
     > すべてのアクティブ サーバーが新しいプライマリ データベースと同じデータ センター内に置かれているか、このデータベースへの接続が低待機時間/高帯域幅であるデータセンター内に置かれている必要があります。 
@@ -102,10 +102,10 @@ ms.locfileid: "51122411"
   
 この手順の意図は、プライマリ サーバーからバックアップ サーバーへのフェールオーバーの原因となった障害が発生する前の状態に構成を復旧することにあります。
   
-1. Skype for Business Server 管理シェルから **Set-CsPersistentChatActiveServer** コマンドレットを使用して、常設チャット サーバーの Active Server リストからすべてのサーバーをクリアします。 これにより、フェールバック中に、すべての常設チャット サーバーが mgc データベースと mgccomp データベースに接続しなくるのを停止します。
+1. **Set-CsPersistentChatActiveServer** コマンドレットを使用して、常設チャット サーバーの Active Server リストからすべてのサーバーを削除し、Skype for Business Serverします。 これにより、フェールバック中に、すべての常設チャット サーバーが mgc データベースと mgccomp データベースに接続しなくるのを停止します。
     
     > [!IMPORTANT]
-    > セカンダリSQL Server常設チャット サーバーのバック エンド サーバー上の管理者エージェントが特権アカウントで実行されている必要があります。 このアカウントには、次のアクセス許可が与えられている必要があります。 
+    > セカンダリ SQL Serverサーバーのクライアント エージェントが特権アカウントで実行されている必要があります。 このアカウントには、次のアクセス許可が与えられている必要があります。 
   
    - バックアップが置かれるネットワーク共有に対する読み取りアクセス
     
@@ -113,7 +113,7 @@ ms.locfileid: "51122411"
     
 2. バックアップ mgc データベースでのミラーリングを無効にします。
     
-   - このSQL Server Management Studioを使用して、バックアップ mgc インスタンスに接続します。
+   - このSQL Server Management Studio、バックアップ mgc インスタンスに接続します。
     
    - mgc データベースを右クリックし、[**タスク**] をポイントしてから、[**ミラー**] をクリックします。
     
@@ -125,7 +125,7 @@ ms.locfileid: "51122411"
     
 3. mgc データベースをバックアップして、新しいプライマリ データベースに復元できるようにします。
     
-   - このSQL Server Management Studioを使用して、バックアップ mgc インスタンスに接続します。
+   - このSQL Server Management Studio、バックアップ mgc インスタンスに接続します。
     
    - mgc データベースを右クリックし、[**タスク**] をポイントしてから、[**バックアップ**] をクリックします。[**データベースのバックアップ**] ダイアログ ボックスが表示されます。
     
@@ -145,7 +145,7 @@ ms.locfileid: "51122411"
     
 4. 上記のステップで作成されたバックアップ データベースを使用して、プライマリ データベースを復元します。
     
-   - このSQL Server Management Studioを使用して、プライマリ mgc インスタンスに接続します。
+   - このSQL Server Management Studio、プライマリ mgc インスタンスに接続します。
     
    - mgc データベースを右クリックし、[**タスク**]、[**復元**] の順にポイントしてから、[**データベース**] をクリックします。[**データベースの復元**] ダイアログ ボックスが表示されます。
     
@@ -163,9 +163,9 @@ ms.locfileid: "51122411"
     
    - [**OK**] をクリックします。復元プロセスが開始されます。
     
-5. プライマリ SQL Serverログ配布を構成します。 「Configure high availability and disaster recovery for Persistent Chat [Server in Skype for Business Server 2015」](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) の手順に従って、プライマリ mgc データベースのログ配布を確立します。
+5. プライマリ SQL Serverログ配布を構成します。 「Configure high availability and disaster recovery for Persistent Chat Server for [Skype for Business Server 2015」](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)の手順に従って、プライマリ mgc データベースのログ配布を確立します。
     
-6. 常設チャット サーバーのアクティブ サーバーを設定します。 Skype for Business Server 管理シェルから **、Set-CsPersistentChatActiveServer** コマンドレットを使用して、アクティブ なサーバーの一覧を設定します。
+6. 常設チャット サーバーのアクティブ サーバーを設定します。 管理シェル **Skype for Business Server、Set-CsPersistentChatActiveServer** コマンドレットを使用して、アクティブ サーバーの一覧を設定します。
     
     > [!IMPORTANT]
     > すべてのアクティブ サーバーが新しいプライマリ データベースと同じデータ センター内に置かれているか、このデータベースへの接続が低待機時間/高帯域幅であるデータセンター内に置かれている必要があります。 

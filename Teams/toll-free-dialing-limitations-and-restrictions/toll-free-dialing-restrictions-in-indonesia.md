@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 可用性、有線/固定回線、モバイル ネットワークの可用性、制限など、インドネシアの無料電話番号のダイヤルについて学習します。
-ms.openlocfilehash: 9089e926313d4a7859c006158523ac4aac19b324
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 09438ea5836d0475538d5b15b8b16071b8a79bba3385eb7c0bcce510e4d8902b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116695"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335847"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>インドネシアでのフリーダイヤル制限
 

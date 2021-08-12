@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ユーザーの移動] ダイアログ ボックスでは、展開内のプール間でユーザー アカウントを移動する場合の、移動元プールと移動先プールを選択できます。'
-ms.openlocfilehash: 9c4d2cf5eaac7214965783c395564b554bac5961
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: db8a60ade945cdb412ad012d14ddc2b1e7565e810cebeaabbd797354ff5f7a7e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120076"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324346"
 ---
 # <a name="move-all-users"></a>すべてのユーザーの移動
 

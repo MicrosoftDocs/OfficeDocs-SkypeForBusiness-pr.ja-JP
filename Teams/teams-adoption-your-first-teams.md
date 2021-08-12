@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5514e550bb8ba259779f390b1a87d74dcb7e3e3f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 175b08fa5121d158ad89740cff096ba8bd1d34fa73e4c65027def7f031e5c349
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116875"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335874"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft Teams で最初のチームを作成する
 
@@ -35,14 +35,14 @@ ms.locfileid: "51116875"
 | チーム名 | 提案されたチャネル名 |
 | --------- | ---------------------- |
 | 新しい情報をTeams | 全般</br> Say hi</br> 方法</br>Feedback </br> Ideas for future teams </br> Support |
-| Microsoft Teams実装 | 全般 <br/> 認識と導入 <br/> Business Engagement <br/> 早期導入者プログラム <br/> フィードバックと分析情報 <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービス正常性とインシデント <br/> トレーニング <br/> Watercooler Chat |
+| Microsoft Teams実装 | 全般 <br/> 認識と導入 <br/> Business Engagement <br/> 早期導入者プログラム <br/> フィードバックとインサイト <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービス正常性とインシデント <br/> トレーニング <br/> Watercooler Chat |
 | チームワーク チャンピオン | 全般 <br/> ベスト プラクティス、トレーニング、および方法 <br/> チャンピオン コーナー <br/> フィードバックとサポート <br/> プログラム リード <br/> ソーシャル ハブ |
 
 このMicrosoft Teamsタブ ギャラリーでは、[](/microsoftteams/platform/concepts/tabs/tabs-overview)管理者によって有効にMicrosoft 365または Office 365 およびサード パーティ製のすべてのアプリにアクセスできます。 製品の価値を最も高くするには、主要なリソースを適切な各チャネルのタブとしてピン留めする方法をお勧めしています。 以下の例を参照してください。
 
 ![既定のタブとカスタム タブを示すスクリーン ショット](media/teams-adoption-tab-example.png)
 
-最初のチームでは、チーム チャネルで簡単に参照できる次の項目をピン留めします。 これらのアセットは、ノートブックのセクションOneNote追加されます。 FastTrack チームと一緒に作業している場合は、これらの最初のチームの構成をサポートします。 
+最初のチームでは、チーム チャネルで簡単に参照できる次の項目をピン留めします。 これらのアセットは、ノートブックのセクションOneNote追加されます。 弊社のチームと一緒に作業FastTrack、これらの最初のチームの構成をサポートします。 
 
 |チーム/チャネル名 | [固定] タブ |
 |----------------- | ---------- |

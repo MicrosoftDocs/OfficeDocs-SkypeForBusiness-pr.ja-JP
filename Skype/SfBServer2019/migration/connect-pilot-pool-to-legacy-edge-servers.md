@@ -10,35 +10,35 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype for Business Server 2019 を展開した後、サイトのフェデレーションルートを構成する必要があります。 従来のインストールで使用されているフェデレーションルートを使用するためには、このルートを使用するように Skype for Business Server 2019 を構成する必要があります。
-ms.openlocfilehash: 8243ebbf9540587dedd8e4ae3a51e22f9a315728
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 2019 Skype for Business Server後、サイトのフェデレーション ルートを構成する必要があります。 従来のインストールで使用されているフェデレーション ルートを使用するには、このルートを使用するように Skype for Business Server 2019 を構成する必要があります。
+ms.openlocfilehash: 8e76dfc9ee99e2c4e82f40d3aba4aa8a43972c98e0569416ce293b2cfc012d96
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753927"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296014"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>パイロット プールのレガシ エッジ サーバーへの接続
 
-Skype for Business Server 2019 を展開した後、サイトのフェデレーションルートを構成する必要があります。 従来のインストールで使用されているフェデレーションルートを使用するためには、このルートを使用するように Skype for Business Server 2019 を構成する必要があります。 
+2019 Skype for Business Server後、サイトのフェデレーション ルートを構成する必要があります。 従来のインストールで使用されているフェデレーション ルートを使用するには、このルートを使用するように Skype for Business Server 2019 を構成する必要があります。 
   
-Skype for Business Server 2019 サイトが従来の展開のディレクターおよびエッジサーバーを使用できるようにするには、トポロジビルダーを使用して、従来のエッジプールを関連付けます。
+従来の展開Skype for Business Server 2019 サイトでディレクターとエッジ サーバーを使用するには、トポロジ ビルダーを使用してレガシ エッジ プールを関連付ける必要があります。
   
 ### <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>トポロジ ビルダーを使用してレガシ エッジ プールを関連付けるには
 
 1. トポロジ ビルダーを開きます。 
     
-2. [ **Skype For Business Server** ] ノードのすぐ下にあるサイトを選択します。 
+2. サイトを選択します。このサイトは、**このノードの** Skype for Business Serverします。 
     
 3. [**操作**] メニューの [**プロパティの編集**] をクリックします。
     
 4. 左ウィンドウで、[**フェデレーション ルート**] をクリックします。
     
-5. [**サイトのフェデレーションルートの割り当て**] で、[ **SIP フェデレーションの有効化**] を選択してから、従来のディレクター、またはディレクターが表示されていない場合は従来のエッジサーバーを選択します。
+5. [ **サイトフェデレーション ルートの割り当** て] で **、[SIP** フェデレーションを有効にする] を選択し、レガシ ディレクターを選択するか、ディレクターが一覧に表示されない場合は従来のエッジ サーバーを選択します。
   
 6. [**OK**] をクリックして、[**プロパティの編集**] ページを閉じます。 
     
-7. [トポロジビルダー] の [Skype for Business Server 2019] ノードで、 **Standard Edition サーバー**または**Enterprise Edition フロントエンドプール**に移動して、プールを右クリックし、[**プロパティの編集**] をクリックします。
+7. トポロジ ビルダーの Skype for Business Server 2019 ノードの下で **、Standard Edition** サーバーまたは **Enterprise Edition** フロントエンド プールに移動し、プールを右クリックし、[プロパティの編集] をクリック **します**。
     
 8. [**関連付け**] で、[**エッジ プール (メディア コンポーネント用) を関連付ける**] の横のチェック ボックスをオンにします。 
     
@@ -46,10 +46,10 @@ Skype for Business Server 2019 サイトが従来の展開のディレクター�
   
 10. [**OK**] をクリックして、[**プロパティの編集**] ページを閉じます。 
     
-11. [**トポロジビルダー**] で、最上位ノードの [ **Skype for business Server**] を選択します。
+11. トポロジ **ビルダーで、** 最も上位のノードを選択し、[Skype for Business Server]**をクリックします**。
     
 12. [**操作**] メニューで、[**トポロジの公開**]、[**次へ**] の順にクリックします。
     
-13. **公開ウィザード**の実行が完了したら、[**完了**] をクリックします。
+13. **公開ウィザード** の実行が完了したら、[**完了**] をクリックします。
     
 
