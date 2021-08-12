@@ -1,5 +1,5 @@
 ---
-title: 'Skype for Business Server 2019 の仮想化のサポート '
+title: '2019 年の仮想化Skype for Business Serverサポート '
 ms.reviewer: corbinm
 ms.author: v-cichur
 author: cichur
@@ -12,43 +12,43 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: '概要: Skype for Business Server 2019 の仮想化のサポートについて説明します。'
-ms.openlocfilehash: edced9b0f884cbf76b224c9049cf3498c8f8b45c
-ms.sourcegitcommit: 4d6bf5c58b2c553dc1df8375ede4a9cb9eaadff2
+description: '概要: 2019 年の仮想化のサポートSkype for Business Serverします。'
+ms.openlocfilehash: 61b54a7e2d8fc170fe63137f637246f56dcce2a01dc7af0b41ea6dc5c5c56099
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48509034"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334559"
 ---
-# <a name="virtualization-support-for-skype-for-business-server-2019"></a>Skype for Business Server 2019 の仮想化のサポート
+# <a name="virtualization-support-for-skype-for-business-server-2019"></a>2019 年の仮想化Skype for Business Serverサポート
 
-仮想化では、Skype for Business Server 2019 がサポートされています。
+Skype for Business Server 2019 は仮想化でサポートされています。
 
-仮想化がサポートされていますが、いくつかの重要なポイントを覚えておく必要があります。
+仮想化はサポートされていますが、覚えておく必要がある重要なポイントは次のとおりです。
 
-- 仮想 CPU から物理 CPU への1:1 の比率を維持します。
-- ゲストサーバーが動作している間は移動しないでください。
-- ライブシステムの移行と仮想マシンの移植性はサポートされていません。
-- すべてのホストでハイパースレッディングを無効にします。
-- ホストサーバー上で動的メモリを構成しないでください。
-- ダイナミックディスクではなく、固定またはパススルーディスクを使用します。
-- 仮想ゲストに必要なものを超えるハイパーバイザーに対して、6-10% のオーバーヘッドを許可します。
+- 仮想 CPU と物理 CPU の比率を 1:1 に維持します。
+- ゲスト サーバーの運用中にゲスト サーバーを移動しない。
+- ライブ システムの移行と仮想マシンの移植性はサポートされていません。
+- すべてのホストでハイパー スレッドを無効にします。
+- ホスト サーバーで動的メモリを構成しません。
+- 動的ディスクではなく、固定ディスクまたはパススルー ディスクを使用します。
+- 仮想ゲストが必要とする範囲を超えてハイパーバイザーに対して 6 ~ 10% のオーバーヘッドを許容します。
 
 ## <a name="supported-hypervisors"></a>サポートされているハイパーバイザー
 
-SfB サーバー2019は、Windows Server 2016 および Windows Server 2019 でサポートされています。
+SfB Server 2019 は、サーバー 2019 Windows Server 2016およびWindowsでサポートされています。
 
-サードパーティのハイパーバイザーの場合は、サーバー仮想化検証プログラム (SVVP) テストに合格した、関連する OS のためのハイパーバイザが必要です。
+サードパーティのハイパーバイザーでは、関連する OS のサーバー仮想化検証プログラム (SVVP) テストに合格したハイパーバイザーが必要です。
 
-- SVVP リストの [Windows Server 2016 バージョン](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) を参照してください。
-- SVVP リストの [Windows Server 2019 バージョン](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) を参照してください。
+- SVVP リスト[Windows Server 2016バージョン](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25)を参照してください。
+- SVVP リスト[Windowsサーバー 2019](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25)のバージョンを参照してください。
 
-## <a name="stress-and-performance-tool"></a>ストレスおよびパフォーマンスツール
+## <a name="stress-and-performance-tool"></a>ストレスとパフォーマンス ツール
 
-Skype for Business Server 2019 ストレスおよびパフォーマンスツールには、Skype for business Server 2019 の容量計画を簡素化するツールが含まれています。 Skype for Business Server 2019 ストレスおよびパフォーマンスツールは、次のように役立ちます。
+2019 Skype for Business Serverおよびパフォーマンス ツールには、2019 年の容量計画を簡略化するツールSkype for Business Serverされています。 2019 Skype for Business Serverパフォーマンス ツールを使用すると、次の点に役立ちます。
 
-- Skype for Business Server 2019 のハードウェア計画を簡略化する
-- パフォーマンスチューニングに関する知識とベストプラクティスを向上させる
-- 目的の Skype for Business Server 2019 展開のパフォーマンスを測定する
+- 2019 年のハードウェア計画を簡略化Skype for Business Server
+- パフォーマンスチューニングに関する知識とベスト プラクティスの向上を提供する
+- 2019 年の目的の展開Skype for Business Server測定する
  
-このツールは、 [ここ](https://www.microsoft.com/download/details.aspx?id=101447)からダウンロードできます。
+ツールはここからダウンロード [できます](https://www.microsoft.com/download/details.aspx?id=101447)。

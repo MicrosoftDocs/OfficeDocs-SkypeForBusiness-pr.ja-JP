@@ -1,5 +1,5 @@
 ---
-title: アーカイブされた Skype for Business データを検索する SharePoint Server を構成する
+title: アーカイブSharePointデータを検索するサーバーをSkype for Businessする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,27 +13,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
-description: '概要: SharePoint Server を構成して、Exchange Server Skype for Business Server によってアーカイブされたデータを検索します。'
-ms.openlocfilehash: 406e0a713c65bc147ce6eb492f251a25ea2a3afc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: サーバー SharePointサーバーでアーカイブされたデータを検索Exchange Server構成Skype for Business Server。'
+ms.openlocfilehash: 42bffc09c78295909969ec0da0bb5ccd212c8fc6ad6fb286bc243684df8b7dd3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295724"
 ---
-# <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>アーカイブされた Skype for Business データを検索する SharePoint Server を構成する
+# <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>アーカイブSharePointデータを検索するサーバーをSkype for Businessする
  
-**概要:** Exchange Server 2016 または Exchange Server 2013 および Skype for Business Server によってアーカイブされたデータを検索する SharePoint Server を構成します。
+**概要:** 2016 SharePoint 2016 または Exchange Server 2013 および Exchange Serverによってアーカイブされたデータを検索Skype for Business Server。
   
-Skype for Business Server ではなく Exchange Server にインスタント メッセージングと Web 会議のトランスクリプトを保存する主な利点の 1 つは、管理者が 1 つのツールを使用してアーカイブされた Exchange データやアーカイブされた Skype for Business Server データを検索できるという方法です。 すべてのデータは同じ場所 (Exchange) に格納されます。アーカイブされた Exchange データを検索できるツールは、アーカイブされた Skype for Business Server データも検索できます。
+Skype for Business Server ではなく Exchange Server にインスタント メッセージングと Web 会議トランスクリプトを格納する大きな利点の 1 つは、管理者が 1 つのツールを使用してアーカイブされた Exchange データやアーカイブされた Skype for Business Server データを検索できるという方法です。 すべてのデータは同じ場所 (Exchange) に格納されますので、アーカイブされた Exchange データを検索できるツールは、アーカイブされたデータSkype for Business Serverすることもできます。
   
-アーカイブされたデータを簡単に検索できるツールの 1 つは、Microsoft SharePoint Server 2013 です。 SharePoint を使用して Skype for Business Server データを検索する場合は、最初に Skype for Business Server での Exchange アーカイブの構成に関連する手順を完了する必要があります。 Exchange Exchange Server Skype for Business Server が正常に統合された後、Exchange Web [サービスマネージ API](https://go.microsoft.com/fwlink/p/?LinkId=258305) を SharePoint Server にインストールする必要があります。 ダウンロードしたファイル (EWSManagedAPI.msi) は、SharePoint サーバー上の任意のフォルダーに保存できます。
+アーカイブされたデータを簡単に検索できるツールの 1 つは、2013 Microsoft SharePoint Serverです。 SharePoint を使用して Skype for Business Server データを検索する場合は、まず、Skype for Business Server での Exchange アーカイブの構成に関連するすべての手順を完了する必要があります。 サーバー Exchange Server Skype for Business Server統合が完了したら、Exchange [Web Services マネージ API](https://go.microsoft.com/fwlink/p/?LinkId=258305)を SharePoint サーバーにインストールする必要があります。 ダウンロードしたファイル (EWSManagedAPI.msi) は、サーバー上の任意のフォルダー SharePointできます。
   
 ファイルをダウンロードした後、SharePoint サーバー上で次の手順を実行します。
   
 1. [**スタート**]、[**すべてのプログラム**]、[**アクセサリ**] の順にクリックし、[**コマンド プロンプト**] を右クリックし、[**管理者として実行**] をクリックして、コマンド ウィンドウを開きます。
     
-2. コマンド ウィンドウで、cd コマンドを使用して、EWSManagedAPI.msi ファイルが保存されているフォルダーに現在のディレクトリを変更します。 たとえば、ファイルを C:\Downloads に保存した場合、コマンド ウィンドウに次のコマンドを入力し、Enter キーを押します。
+2. コマンド ウィンドウで、cd コマンドを使用して、EWSManagedAPI.msi ファイルが保存されているフォルダーに現在のディレクトリを変更します。 たとえば、ファイルを C:\Downloads に保存した場合は、コマンド ウィンドウに次のコマンドを入力し、Enter キーを押します。
     
    ```console
    cd C:\Downloads
@@ -51,7 +51,7 @@ Skype for Business Server ではなく Exchange Server にインスタント メ
    iisreset
    ```
 
-Exchange Web サービスをインストールした後、SharePoint Server とサーバー間のサーバー間認証を構成Exchange Server。 これを行うには、まず SharePoint 管理シェルを開き、次の一連のコマンドを実行します。
+Web Exchangeがインストールされた後、サーバーとサーバー間のサーバー間認証を構成SharePoint必要Exchange Server。 これを行うには、まず管理シェルSharePoint開き、次の一連のコマンドを実行します。
   
 ```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -63,9 +63,9 @@ $service.Update()
 ```
 
 > [!NOTE]
-> 自動検出サービスの URI を使用してください。 サンプル URI は使用しない https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 。 
+> 自動検出サービスの URI を使用してください。 サンプル URI を使用しない https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 。 
   
-トークン発行者を作成し、トークン サービスを構成したら、次のコマンドを実行して、SharePoint サイトの URL をサンプル URL に置き換える必要があります。 http://atl-sharepoint-001:
+トークン発行者を作成してトークン サービスを構成したら、これらのコマンドを実行し、SharePoint サイトの URL をサンプル URL に置き換える必要があります。http://atl-sharepoint-001:
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -74,27 +74,27 @@ $site = Get-SPSite  "https://atl-sharepoint-001"
 Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "SiteSubscription" -Right "FullControl" -EnableAppOnlyPolicy
 ```
 
-Exchange Server のサーバー間認証を構成するには、Exchange 管理シェルを開き、次のようなコマンドを実行します (Exchange が C ドライブにインストールされ、既定のフォルダー パスが使用されている場合)。
+Exchange Server のサーバー間認証を構成するには、Exchange 管理シェルを開き、次のようなコマンドを実行します (Exchange がドライブ C にインストールされ、既定のフォルダー パスが使用されている場合)。
   
 ```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
 ```
 
-パートナー アプリケーションを構成した後、すべての Exchange メールボックスサーバーとクライアント アクセス サーバーでインターネット インフォメーション サービス (IIS) を停止して再起動してください。 次のようなコマンドを使用して IIS を再起動できます。これにより、コンピューター atl-exchange-001 上のサービスが再起動されます。
+パートナー アプリケーションを構成した後は、すべてのメールボックス およびクライアント アクセス サーバーで インターネット インフォメーション サービス (IIS) を停止して再起動Exchangeをお勧めします。 次のようなコマンドを使用して IIS を再起動すると、コンピューター atl-exchange-001 でサービスが再起動されます。
   
 ```powershell
 iisreset atl-exchange-001
 ```
 
-このコマンドは、Exchange 管理シェル 内または他のコマンド ウィンドウから実行できます。
+このコマンドは、管理シェル内Exchange他のコマンド ウィンドウから実行できます。
   
-次に、次のようなコマンドを実行します。これにより、指定したユーザー (この例では kenmyer) が Exchange で検出を行う権限を与えます。
+次に、次のようなコマンドを実行し、指定したユーザー (この例では kenmyer) に対して検出を実行する権限を与Exchange。
   
 ```powershell
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
 ```
 
-Exchange と SharePoint の間でサーバー間認証が確立された後、次の手順は SharePoint で電子情報開示サイトを作成することです。 これは、SharePoint 管理シェルから次のようなコマンドを実行することで実行できます。
+サーバー間認証が Exchange と SharePoint の間で確立された後、次に、電子情報開示サイトを SharePoint で作成します。 これは、次のようなコマンドを管理シェルから実行SharePoint実行できます。
   
 ```powershell
 $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
@@ -104,19 +104,19 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
 > [!NOTE]
 > "電子情報開示" とは、通常、訴訟において "証拠になり得ると合理的に判断できる" 項目の電子的アーカイブを参照するプロセスを表します。 
   
-新しいサイトの準備ができたら、次の手順では、SharePoint のExchange Serverソースとして機能するサイトを構成します。 これを行うには、[SharePoint サーバーの全体管理] ページから次の手順を実行します。
+新しいサイトの準備ができたら、次の手順では、Exchange Serverの結果のソースとして機能SharePoint。 これを行うには、[サーバーの全体管理] ページで次SharePointを実行します。
   
 1. サーバーの全体管理ページで、[**サービス アプリケーションの管理**]、[**Search Service アプリケーション**] の順にクリックします。
     
 2. [Search Service アプリケーション: 検索管理] ページで、[**検索先**]、[**新しい結果ソース**] の順にクリックします。
     
-3. [**新しい結果ソース**] ウィンドウで、[**名前**] ボックスに新しい検索先の名前 (たとえば、**Microsoft Exchange**) を入力します。 検索 **先プロトコルとして [Exchange]** **を選択し**、[Exchange ソース URL] ボックスに Exchange サーバーの Web サービス ソース **URL を入力** します。 ソース URL は次のような形式です。
+3. [**新しい結果ソース**] ウィンドウで、[**名前**] ボックスに新しい検索先の名前 (たとえば、**Microsoft Exchange**) を入力します。 **[Exchange]** を選択し、[ソースURL] ボックスに Exchange サーバーの Web サービス ソース **URL を入力Exchangeします**。 ソース URL は次のような形式です。
     
     https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
     
 4. [**自動検出を使用する**] がオンでないことを確認して、[**OK**] をクリックします。
     
-最後に、SharePoint 探索サイトから次の手順を実行して、新しい電子情報開示ケースと新しい電子情報開示セットを作成します (例: https://atl-sharepoint-001/sites/discovery):
+最後に、新しい電子情報開示ケースと新しい電子情報開示セットを作成するには、SharePoint検出サイト (たとえば、https://atl-sharepoint-001/sites/discovery):
   
 1. [サイト コンテンツ] ページで、[**新しいケースを作成します**] をクリックします。
     
@@ -128,14 +128,14 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 4. [電子情報開示セット] ページが表示されたら、[**識別と保存: 情報開示セット**] の下の [**新しいアイテム**] をクリックします。
     
-5. [新規: 情報開示セット] ページで、[**情報開示セット名**] ボックスにユーザーの電子メール エイリアスを入力します。 Enter **eDiscovery \\ Lync** _ in the _ *Filter** box and then click Add **Manage &amp; Sources**.
+5. [新規: 情報開示セット] ページで、[**情報開示セット名**] ボックスにユーザーの電子メール エイリアスを入力します。 [_ Filter *]ボックスに「電子情報開示 **Lync \\** _」と入力し、[ソースの管理 **の追加 &amp; ] をクリックします**。
     
-6. [ソースの管理の追加] ページで、[メールボックス] の下の最初のテキスト ボックスにユーザーの電子メール エイリアス &amp; **を入力します**。 テキスト ボックスの横にある [メールボックスの確認] アイコンをクリックして、SharePoint が指定のメールボックスに接続できることを確認します。
+6. [ソースの管理の追加] ページで、[メールボックス] の下の最初のテキスト ボックスにユーザーのメール &amp; エイリアス **を入力します**。 テキスト ボックスの横にある [メールボックスの確認] アイコンをクリックして、SharePoint が指定のメールボックスに接続できることを確認します。
     
 7. [**OK**] をクリックします。
     
 8. [電子情報開示セット] ページで、[**保存**] をクリックして新しい電子情報開示セットを保存します。
     
-この時点で、指定したメールボックス (kenmyer) を検索したり、他の SharePoint コンテンツまたは検索ソースと同じ方法で In-Place の保持を有効にできます。
+この時点で、指定したメールボックス (kenmyer) を検索したり、In-Place が他の SharePoint コンテンツまたは結果ソースと同じ方法で保持を有効にしたりできます。
   
 

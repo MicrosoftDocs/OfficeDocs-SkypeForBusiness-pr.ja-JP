@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Outlook Outlook Web App または Office 365 の web (Outlook Web App Microsoft 365) では、ナビゲーション バーから基本的な Skype for Business Web クライアントを提供します。 この基本的なクライアントは、管理者が自分のサーバーとアカウントのバニティ URL を構成Microsoft 365オンライン ユーザー Office 365。 ユーザーのアカウントがオンラインであり、バニティ URL を持たなくても、組織にオンプレミスに所属するユーザー アカウントがいくつかある場合でも、そのエクスペリエンスは引き続き表示されます。 オンプレミスのユーザー アカウント (バニティ URL を持っているかどうか) または Microsoft によって管理されているユーザーには、Outlook Web アプリに Lync エクスペリエンスが表示されます。
-ms.openlocfilehash: aa6f82f6647db1816c630486bee0d415d05b3b77
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: Outlook on the web Outlook Web App の Microsoft 365 (Office 365) には、ナビゲーション バーから基本的Skype for Business Web クライアントが用意されています。 この基本的なクライアントは、管理者が自分のサーバーとアカウントのバニティ URL を構成Microsoft 365オンライン ユーザー Office 365。 ユーザーのアカウントがオンラインであり、バニティ URL を持たなくても、組織にオンプレミスに所属するユーザー アカウントがいくつかある場合でも、そのエクスペリエンスは引き続き表示されます。 オンプレミスのユーザー アカウント (バニティ URL を持っているかどうか) または Microsoft によって管理されているユーザーには、Outlook Web アプリに Lync エクスペリエンスが表示されます。
+ms.openlocfilehash: a8ac60b9710720410a0bf0de39d6c5bc5473909bceeaf576add8f65008553183
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294974"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Outlook on the web での Skype for Business Online のサポート
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Outlook Outlook Web App または Office 365 の web (Outlook Web App Microsoft 365) では、ナビゲーション バーから基本的な Skype for Business Web クライアントを提供します。 この基本的なクライアントは、管理者が自分のサーバーとアカウントのバニティ URL を構成Microsoft 365オンライン ユーザー Office 365。 ユーザーのアカウントがオンラインであり、バニティ URL を持たなくても、組織にオンプレミスに所属するユーザー アカウントがいくつかある場合でも、そのエクスペリエンスは引き続き表示されます。 オンプレミスのユーザー アカウント (バニティ URL を持っているかどうか) または Microsoft によって管理されているユーザーには、Outlook Web アプリに Lync エクスペリエンスが表示されます。
+Outlook on the web Outlook Web App の Microsoft 365 (Office 365) には、ナビゲーション バーから基本的Skype for Business Web クライアントが用意されています。 この基本的なクライアントは、管理者が自分のサーバーとアカウントのバニティ URL を構成Microsoft 365オンライン ユーザー Office 365。 ユーザーのアカウントがオンラインであり、バニティ URL を持たなくても、組織にオンプレミスに所属するユーザー アカウントがいくつかある場合でも、そのエクスペリエンスは引き続き表示されます。 オンプレミスのユーザー アカウント (バニティ URL を持っているかどうか) または Microsoft によって管理されているユーザーには、Outlook Web アプリに Lync エクスペリエンスが表示されます。
   
 次の表は、使用できるさまざまなセットアップと使用される Web クライアントの概要を示しています。
   

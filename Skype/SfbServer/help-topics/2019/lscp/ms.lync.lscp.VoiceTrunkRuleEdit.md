@@ -14,18 +14,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 74955797a104841aca77ff533e55523edc56511e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 8d1712f0348e03017fcac2e6c6eda20b9896047d08807fd193f02d1974e2fa95
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121797"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291492"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>変換ルール: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
-- [Skype for Business Server で呼び出された ID プレゼンテーションの変換ルールを作成または変更する](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [呼び出された ID プレゼンテーションの翻訳ルールを作成または変更Skype for Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
 - [手動による変換ルールの作成または変更](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)

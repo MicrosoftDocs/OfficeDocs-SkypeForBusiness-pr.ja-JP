@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、ペルーでMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
-ms.openlocfilehash: 32ab54fed54ec1aefa3ee688676d52e0710ed871
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8f681741b27030496fd33502432f31584ebe978a5aea39d5c0f634aa08c14585
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334738"
 ---
 # <a name="availability-in-peru"></a>ペルーでの利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51102283"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

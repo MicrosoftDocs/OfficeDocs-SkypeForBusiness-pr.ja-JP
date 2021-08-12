@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: アドレスの検証は、通話プランを設定する上で重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: e163e80e3c3a14dba2431f812b53167e8d0af31a
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7129398a661a1b89e4f7cbfe51e8a770d45b3714d60df679600d0c70ac6a5491
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334429"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>住所検証のためのサポート チケットを作成する方法を教えてください。
 
@@ -100,7 +100,7 @@ ms.locfileid: "52238013"
 8. 情報を確認して、[**リクエストの送信**] をクリックします。
     
 > [!TIP]
-> 参照番号は、管理センターの [**サービス要求**] ページMicrosoft 365されます。
+> 参照番号は、次のページの **[サービス要求**] ページにMicrosoft 365 管理センター。
   
 ## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)

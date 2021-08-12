@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 従来のフロントエンドプールが通話受付管理 (CAC) をホストしている場合は、従来のフロントエンドプールを削除する前に、CAC ホスティングを Skype for Business Server 2019 プールに移動する必要があります。
-ms.openlocfilehash: 850ab5c13483d024d52c483c63ef09468f8374b3
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 従来のフロントエンド プールが通話受付管理 (CAC) をホストしている場合は、従来のフロント エンド プールを削除する前に、CAC ホスティングを Skype for Business Server 2019 プールに移動する必要があります。
+ms.openlocfilehash: c3ebb748d877e88060b699b1599c39038124565df361c5032533260e4c5643e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753299"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334569"
 ---
 # <a name="reset-call-admission-control"></a>通話受付管理のリセット
 
-従来のフロントエンドプールが通話受付管理 (CAC) をホストしている場合は、従来のフロントエンドプールを削除する前に、CAC ホスティングを Skype for Business Server 2019 プールに移動する必要があります。
+従来のフロントエンド プールが通話受付管理 (CAC) をホストしている場合は、従来のフロント エンド プールを削除する前に、CAC ホスティングを Skype for Business Server 2019 プールに移動する必要があります。
   
 ### <a name="to-reset-cac"></a>CAC をリセットするには
 
@@ -30,7 +30,7 @@ ms.locfileid: "44753299"
     
 3. [**通話受付管理の設定**] で、[**通話受付管理の有効化**] が選択されていることを確認します。 
     
-4. [**フロントエンドプール] で通話受付管理 (cac) を実行する**には、cac をホストする Skype For business Server 2019 プールを選択し、[ **OK**] をクリックします。
+4. [**通話受付制御 (CAC)** を実行するフロントエンド プール] で、CAC をホストする Skype for Business Server 2019 プールを選択し **、[OK] をクリックします**。
     
 5. トポロジを公開します。
     

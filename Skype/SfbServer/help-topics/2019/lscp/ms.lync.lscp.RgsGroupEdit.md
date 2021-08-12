@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: エージェント グループでは、応答グループへの通話に応答できるユーザー (エージェントと呼ばれます) およびグループ内のすべてのエージェントに適用される設定が定義されています。
-ms.openlocfilehash: 944cd48745a2524ccfcd795d9edc60e806859301
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 732aef1d5c4e6c23fc084e8f178705888d1fec0ef938f5aeef65eb250b48f42b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118966"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291565"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>応答グループ: エージェント グループの新規作成または既存エージェント グループの編集
 
@@ -56,7 +56,7 @@ ms.locfileid: "51118966"
 
 - **エージェント** 次のいずれかの方法で、応答グループのエージェントになるユーザーを選択します。
 
-  - [ **既存のメール配布リストを使用して** Exchange 配布リストを使用する] を選択します。 配布リストの電子メール アドレスを [**配布リストのアドレス**] に入力します。
+  - [**既存のメール配布リストを使用して**、既存の配布リストを使用Exchange選択します。 配布リストの電子メール アドレスを [**配布リストのアドレス**] に入力します。
 
     > [!NOTE]
     > エージェント グループに対して選択できる配布リストは 1 つだけです。配布リストに入れ子になった配布リストが含まれる場合、入れ子となった配布リストはエージェント グループに含まれません。
@@ -65,10 +65,10 @@ ms.locfileid: "51118966"
     > 配布リスト内でのエージェントの順序により、ラウンド ロビンおよびシリアルのルーティングでエージェントが通話を受ける順序が決まります。
 
     > [!NOTE]
-    > 非表示のメンバーシップや非表示のリストは、応答グループの管理者またはユーザーに表示される場合があります。 詳細については [、「Skype for Business でエージェント グループを作成または変更する」を参照してください](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)。
+    > 非表示のメンバーシップや非表示のリストは、応答グループの管理者またはユーザーに表示される場合があります。 詳細については、「エージェント グループ[を作成または変更する」](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)を参照Skype for Business。
 
   - 応答グループのエージェントとして割り当てるユーザーを選択する場合は、[**エージェントのカスタム グループを定義する**] を選択します。リストにエージェントを追加するには、[**選択**] をクリックします。選択されているエージェントをリストから削除するには、[**削除**] をクリックします。
 
     上下矢印を使用すると、選択したエージェントがエージェント リスト内で上下に移動します。リスト内でのエージェントの順序により、ラウンド ロビンおよびシリアルのルーティングでエージェントが通話を受ける順序が決まります。
 
-応答グループの機能の詳細については、「計画」のドキュメントの「Plan for the [Response Group application in Skype for Business Server」](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) を参照してください。 エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)」を参照してください。
+応答グループの機能の詳細については、「計画」のドキュメントの「応答グループ アプリケーションの計画[Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)を参照してください。 エージェント グループの使用の詳細については、「操作」のドキュメントの「[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)」を参照してください。

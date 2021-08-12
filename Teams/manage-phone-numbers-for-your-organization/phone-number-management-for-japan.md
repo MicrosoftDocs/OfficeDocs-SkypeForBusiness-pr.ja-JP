@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表で、日本での Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: 2d4d64232d0422a4ff0c2857f10cf7f2dbb2ea6fb9b2f0a258dc06fb1a7a5263
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6a5922c866113523a54f55aee823c7529da3d4ac6cb45034354292524a8d9582
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849712"
 ---
 # <a name="phone-number-management-for-japan"></a>日本での電話番号の管理
 
@@ -39,12 +39,12 @@ ms.locfileid: "54293794"
 |**実行する操作**|**これらの手順を実行して正しいフォームをダウンロードする**|
 |:-----|:-----|
 |日本で通話プランの新しいユーザー電話番号を取得する。|ユーザー用の新規の電話番号を取得するには、「[SoftBank 通話](https://aka.ms/SoftBankVoicePlan)」にお問い合わせください。 ユーザーに割り当てることができるように、同社によりそれらの番号が組織に追加されます。 <br/>
-|日本での電話会議、自動応答、通話キュー用の新しいサービス電話番号を取得する。|[手順については、PTSN にお問い合わせください](contact-pstn-service-desk.md)。|
+|日本での電話会議、自動応答、通話キュー用の新しいサービス電話番号を取得する。|[手順については、PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。|
 |日本の **ユーザー** 用に、 Microsoft 365 または Office 365 で電話番号を転送する。|ユーザーの電話番号を転送するには、「[SoftBank 通話](https://aka.ms/SoftBankVoicePlan)」にお問い合わせください。 次に、これらの番号を組織に追加します。  <br/> |
 |日本の **通話キュー** 用に、Microsoft 365 または Office 365 で電話番号を転送する。|サービスの電話番号を転送するには「[SoftBank 通話](https://aka.ms/SoftBankVoicePlan)」にお問い合わせください。 次に、これらの番号を組織に追加します。|
 |通話プランの電話番号を持っているユーザーに割り当てられた緊急時の住所を変更する。|緊急対応のアドレスを変更するには、「[SoftBank 通話](https://aka.ms/SoftBankVoicePlan)」にお問い合わせください。 同社がこの情報を更新できます。|
 |ユーザー番号をサービス番号に変更する。 |「SoftBank 通話」を使用している場合、現在サポートされていません。|
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>関連項目
 

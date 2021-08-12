@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 通常は、管理するサーバー バージョンに対応した管理ツールを使用する必要があります。
-ms.openlocfilehash: e18d54b660b675334d2cd37320a10340ea2f1497
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 57795ac509a57b514adebc92935cddd5285672b34473c65bf3168825438ba5be
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334579"
 ---
 # <a name="administering-servers-after-migration"></a>移行後のサーバーの管理
 
-通常は、管理するサーバー バージョンに対応した管理ツールを使用する必要があります。 同じコンピューター上の異なるリリースから管理ツールをインストールすることはできません。
+通常は、管理するサーバー バージョンに対応した管理ツールを使用する必要があります。 異なるリリースの管理ツールを同じコンピューターにインストールすることはできません。
   
 > [!IMPORTANT]
-> Skype for Business Server パイロットプールを展開した後は、2019のリソースを管理するために、トポロジビルダーまたはコントロールパネルを使用することはできません。 現在および以前のすべてのバージョンのリソースを管理するには、2019ツールを使用する必要があります。 
+> パイロット プールSkype for Business Server後、トポロジ ビルダーまたはコントロール パネルを使用して 2019 リソースを管理することはできません。 現在および以前のバージョンのすべてのリソースを管理するには、2019 ツールを使用する必要があります。 
   

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でのエクスペリエンスの品質設定の変更
+title: '[エクスペリエンスの品質] 設定を変更Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
-description: '概要: Skype for Business Server で QoE データの保持を指定する方法について学習します。'
-ms.openlocfilehash: cba8b2b98aa809c0583ad7323ff846e654ca9ace
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: QoE データの保持を指定する方法については、Skype for Business Server。'
+ms.openlocfilehash: 9a060955167ce7440dabe9b88943a11775b4607760862b2cc72f468676e44966
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118616"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313205"
 ---
-# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Skype for Business Server でのエクスペリエンスの品質設定の変更
+# <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>[エクスペリエンスの品質] 設定を変更Skype for Business Server
 
-**概要:** Skype for Business Server で QoE データの保持を指定する方法について学習します。
+**概要:** QoE データの保持を指定する方法については、Skype for Business Server。
 
 既定では、QoE (Quality of Experience) データは 60 日後に削除されます。 [**QoE データ**] ページの設定を使用して、データの保持期間を延長または短縮できます。 QoE を無効にすると、QoE が有効化される前に取得されたデータも削除の対象になります。
 
@@ -30,11 +30,11 @@ ms.locfileid: "51118616"
 
 次の手順では、QoE データの削除設定を構成する方法について説明します。
 
-### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して QoE データの保持を指定するには
+### <a name="to-specify-retention-of-qoe-data-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用して QoE データの保持をSkype for Business Serverするには
 
 1.  RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**セットアップのアクセス許可の委任**」を参照してください。
 
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。
 
 3. 左側のナビゲーション バーで [**監視とアーカイブ**] をクリックし、[**QoE データ**] をクリックします。
 
@@ -48,7 +48,7 @@ ms.locfileid: "51118616"
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した QoE 保持Windows PowerShellする
 
-QoE 保持設定を作成するには、Windows PowerShell **Set-CsQoEConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、Skype for Business Server でも同じです。
+QoE 保持設定を作成するには、Windows PowerShell **Set-CsQoEConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>特定のロケーションに対して QoE の保持を指定するには
 

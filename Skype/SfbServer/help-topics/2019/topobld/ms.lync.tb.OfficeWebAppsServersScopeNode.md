@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[Web Apps サーバー] Office右クリックし、[新しい Web アプリ サーバー] Officeを選択してウィザードを開きます。'
-ms.openlocfilehash: dc58a6e203362f5811ecb60b2b8bc981b70c9ba3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 100ad2bfb8e7530659e5c74db01de2a14d6108891eb33b3d6966b9792f36309f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121050"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334359"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps サーバーのスコープ ノード
 
@@ -30,7 +30,7 @@ ms.locfileid: "51121050"
 
 - **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンのコンポーネントのマージ、展開の削除を行います。
 
-- **Help**. このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
+- **ヘルプ**。このオプションを使用して、アクティブ ノードのヘルプにアクセスできます。
 
 ## <a name="see-also"></a>関連項目
 

@@ -16,24 +16,24 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、グループのコラボレーション バーをデプロイする方法についてMicrosoft Teams。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115605"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334718"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>PowerShell をMicrosoft 365リソース アカウントを作成する
 
 PowerShell を使用してコラボレーション バーのリソース アカウントを作成する方法については、このMicrosoft Teams参照してください。
 
-リソース アカウントを作成する最も簡単な方法は、管理センターで Microsoft 365使用する方法です。 [これを行う方法については、この記事を参照してください](resource-account-ui.md)。
+リソース アカウントを作成する最も簡単な方法は、リソース アカウントを使用Microsoft 365 管理センター。 [これを行う方法については、この記事を参照してください](resource-account-ui.md)。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## <a name="requirements"></a>要件
 
-アプリケーションを使用Microsoft Teams ミーティングデプロイOffice 365、要件を満たしていることを確認してください。 詳細については、「コラボレーション バーを[デプロイする」を参照Microsoft Teams。](collab-bar-deploy.md)
+新しい会議室をMicrosoft Teamsする前Office 365要件を満たしていることを確認してください。 詳細については、「コラボレーション バーを[デプロイする」を参照Microsoft Teams。](collab-bar-deploy.md)
 
 - コラボレーション バーに PSTN 機能が必要な場合は、ライセンスを電話システムがあります。
 

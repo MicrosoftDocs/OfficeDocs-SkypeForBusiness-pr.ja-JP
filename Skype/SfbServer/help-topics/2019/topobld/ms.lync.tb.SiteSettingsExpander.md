@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存のサイトのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: 4bcf07ef1b550fb96ce503f31b4026ccc4ae6960
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d5982c39fdb3228c73adb80e2a3e3728b62a163d55b68a9508a57cf5abf154
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311705"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server サイト設定エキスパンダー
 
@@ -41,7 +41,7 @@ ms.locfileid: "51115377"
 エッジ サーバーまたはプールのフェデレーション設定が構成されている場合は、[サイト レベルで **有効にする** ] を選択します。 次に、ドロップダウン リストからエッジまたはディレクターを選択し、フェデレーション ルートとして設定します。
 
 > [!CAUTION]
-> この設定はすべてのサイトに影響します。 このサイトで構成している設定がすべてのサイトに適切であることを確認してください。
+> この設定はすべてのサイトに影響します。このサイトで構成している設定がすべてのサイトに適切であることを確認してください。
 
 ## <a name="see-also"></a>関連項目
 

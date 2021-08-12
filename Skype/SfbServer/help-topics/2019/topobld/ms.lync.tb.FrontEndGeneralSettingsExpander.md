@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存のフロントエンド プールまたは Standard Edition サーバーの設定を編集するには、以下のセクションに示す手順に従って操作します。
-ms.openlocfilehash: 0eff10b89c05980e5b2d425c43266fafd70461e6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b4dd6cee4c612cf929c1c058001b79dcfad0e9c88c055a78351297e125c40e90
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323369"
 ---
 # <a name="front-end-general-settings-expander"></a>フロント エンド全般設定エキスパンダー
 
@@ -36,7 +36,7 @@ ms.locfileid: "51101903"
 
 ## <a name="front-end-pool"></a>フロント エンド プール
 
-フロントエンド プールには、全般、復元、Web サービス、および仲介サーバーの設定を構成できます。 詳細については、以下のサブセクションを参照してください。 フロントエンド プールの設定の定義および構成の詳細については、「[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)」を参照してください。
+フロントエンド プールには、全般、復元、Web サービス、および仲介サーバーの設定を構成できます。詳細については、以下のサブセクションを参照してください。フロントエンド プールの設定の定義および構成の詳細については、「[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)」を参照してください。
 
 ### <a name="general-settings"></a>全般設定
 
@@ -50,7 +50,7 @@ ms.locfileid: "51101903"
 
   - [**電話会議**]。音声、ビデオ、およびアプリケーション共有が含まれます。このオプションを選択した後で、ダイヤルイン (PSTN) 会議を選択できます。公衆交換電話網 (PSTN) ゲートウェイは、仲介サーバーの設定を行うときに後で指定して定義します。
 
-  - [**エンタープライズ VoIP**]。 認定されたハンドセットとデバイス、Skype for Business クライアントへの IP 通話に対する内部音声通話を有効にします。 外部通話機能を有効にするには、仲介サーバーを含める必要があります。 詳細については、このトピックの「仲介サーバー」を参照してください。
+  - [**エンタープライズ VoIP**]。 修飾されたハンドセットおよびデバイスおよびクライアントへの IP 通話に対する内部音声Skype for Businessします。 外部通話機能を有効にするには、仲介サーバーを含める必要があります。 詳細については、このトピックの「仲介サーバー」を参照してください。
 
 - [**関連付け**] では、次の情報を編集または指定します。
 
@@ -131,7 +131,7 @@ ms.locfileid: "51101903"
 
 ## <a name="standard-edition-server"></a>Standard Edition サーバー
 
-Standard Edition サーバーには、全般、復元、Web サービス、および仲介サーバーの設定を構成できます。 詳細については、以下のサブセクションを参照してください。 Standard Edition サーバーの設定の定義および構成の詳細については、「[Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)」および「[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)」を参照してください。
+Standard Edition サーバーには、全般、復元、Web サービス、および仲介サーバーの設定を構成できます。詳細については、以下のサブセクションを参照してください。Standard Edition サーバーの設定の定義および構成の詳細については、「[Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)」および「[Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)」を参照してください。
 
 ### <a name="general-settings"></a>全般設定
 
@@ -147,7 +147,7 @@ Standard Edition サーバーには、全般、復元、Web サービス、お�
 
   - [**電話会議**]。音声、ビデオ、およびアプリケーション共有が含まれます。このオプションを選択した後で、[**ダイヤルイン (PSTN) 会議**] を選択できます。PSTN ゲートウェイは、仲介サーバーの設定を行うときに後で指定して定義できます。
 
-  - [**エンタープライズ VoIP**]。 認定されたハンドセットとデバイス、Skype for Business クライアントへの IP 通話に対する内部音声通話を有効にします。 外部通話機能を有効にするには、仲介サーバーを含める必要があります。 詳細については、このトピックの「仲介サーバー」を参照してください。
+  - [**エンタープライズ VoIP**]。 修飾されたハンドセットおよびデバイスおよびクライアントへの IP 通話に対する内部音声Skype for Businessします。 外部通話機能を有効にするには、仲介サーバーを含める必要があります。 詳細については、このトピックの「仲介サーバー」を参照してください。
 
 - [**関連付け**] では、次の情報を編集または指定できます。
 

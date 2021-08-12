@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で会議ポリシーを表示する
+title: 会議ポリシーを表示Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
-description: '概要: Skype for Business Server で会議ポリシーを表示する方法について説明します。'
-ms.openlocfilehash: afe86f0a77e73c3fa7bf96339c4865598a7bc609
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 会議ポリシーを表示する方法について説明します。Skype for Business Server。'
+ms.openlocfilehash: 9cc55d9546337bd50e9508f85fc5f79e449df42278fe6166c7b32342a80babd1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313215"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server"></a>Skype for Business Server で会議ポリシーを表示する
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a>会議ポリシーを表示Skype for Business Server
  
-**概要:** Skype for Business Server で会議ポリシーを表示する方法について説明します。
+**概要:** 会議ポリシーを表示する方法については、Skype for Business Server。
   
-会議ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して表示できます。
+会議ポリシーは、コントロール パネルを使用するか、Skype for Business Server管理シェルを使用Skype for Business Server表示できます。
   
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議ポリシーを表示する
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用して会議ポリシー Skype for Business Server表示する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー] **をクリックします**。
     
@@ -39,9 +39,9 @@ ms.locfileid: "51119406"
     
     **会議ポリシーの編集 \<policy\> -** が開き、選択したポリシーの設定が表示されます。
     
-    設定の構成の詳細については、「Skype for Business Server で会議ポリシーを [作成する」を参照してください](create-policies.md)。
+    設定の構成の詳細については、「会議ポリシーを作成[する」を参照Skype for Business Server。](create-policies.md)
     
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議ポリシーを表示する
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議ポリシー Skype for Business Server表示する
 
 会議ポリシーを表示するには **、Get-CsConferencingPolicy コマンドレットを使用** します。
   
