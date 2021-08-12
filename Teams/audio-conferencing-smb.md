@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '電話を使って会議にコールインする必要があるユーザーのために、中小企業で電話会議を設定する方法について説明します。 '
-ms.openlocfilehash: e7a3461453255a7a61f6a1095e9cb9697070771c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5cb906f1a6c5d5d161cbe98d6b1e81910bd5317aece83f5835a51cbcddf79cdf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122351"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312965"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>中小企業向けに音声会議を設定する
 
@@ -50,9 +50,9 @@ ms.locfileid: "51122351"
 
 ### <a name="step-1-get-audio-conferencing-licenses"></a>手順 1: 電話会議ライセンスを取得する
 
-会議を開催するユーザーごとに 1 つの電話会議ライセンスを取得します。 これを行うにはMicrosoft 365管理センターを使用します。
+会議を開催するユーザーごとに 1 つの電話会議ライセンスを取得します。 これを行うにはMicrosoft 365 管理センターを使用します。
 
-1. 管理センター Microsoft 365、[**課金** 購入サービス] に移動し、ページの下部にある [アドオン  >  ]**を選択します**。
+1. [課金Microsoft 365 管理センター サービス] に移動し、ページの下部にある [アドオン  >  ]**を選択します**。
 2. [**電話Microsoft 365導入プロモーション** の詳細] を  >  **選択し**、[今すぐ取得]**を選択します**。
 3. 会議の開催者に必要なライセンス数を入力し、注文を完了します。
 
@@ -63,17 +63,17 @@ ms.locfileid: "51122351"
 
 ### <a name="step-2-assign-an-audio-conferencing-license-to-users-who-lead-meetings"></a>手順 2: 会議を開催するユーザーに電話会議ライセンスを割り当てる
 
-会議を開催する各ユーザーにライセンスを割り当てる。 これを行うにはMicrosoft 365管理センターを使用します。
+会議を開催する各ユーザーにライセンスを割り当てる。 これを行うにはMicrosoft 365 管理センターを使用します。
 
 #### <a name="assign-a-license-to-one-user"></a>1 人のユーザーにライセンスを割り当てる
 
-1. 管理センター Microsoft 365、[ユーザー] [アクティブなユーザー]  >  **に移動します**。  
+1. [ユーザー] Microsoft 365 管理センター[アクティブなユーザー ]  >  **に移動します**。  
 2. ライセンスを割り当てるユーザーの行を選択し、ウィンドウで [ライセンスとアプリ] **を選択します**。
 3. [電話会議 **Microsoft 365] チェック ボックス** をオンにし、[変更の保存]**を選択します**。
 
 #### <a name="assign-a-license-to-multiple-users"></a>複数のユーザーにライセンスを割り当てる
 
-1. 管理センター Microsoft 365、[ユーザー] [アクティブなユーザー]  >  **に移動します**。  
+1. [ユーザー] Microsoft 365 管理センター[アクティブなユーザー ]  >  **に移動します**。  
 2. ライセンスを割り当てるユーザーの横にある円を選択し、[製品ライセンスの管理] **を選択します**。
 3. [製品ライセンス **の管理] ウィンドウで、[** さらに割り当てる] **を選択します**。
 4. [電話会議 **Microsoft 365] チェック ボックス** をオンにし、[変更の保存]**を選択します**。  
@@ -114,7 +114,7 @@ ms.locfileid: "51122351"
 1. 管理センターの左側のナビゲーションMicrosoft Teams、[ユーザー] を選択し、ユーザーの表示名をクリックして、[編集] を **選択します**。
 2. [**電話会議**]**の横** にある [編集] を選択し、[電話会議] ウィンドウで [有料電話番号] または [無料電話番号] リストで番号を選択し、[適用] を **選択します**。 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [電話会議](audio-conferencing-in-office-365.md)
 - [会議の電話会議を設定Teams](set-up-audio-conferencing-in-teams.md)

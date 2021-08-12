@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
-description: '[トポロジ: 状態] ページには、Skype for Business トポロジ内のサーバーの状態が表示されます。'
-ms.openlocfilehash: 993410a52cd8e843b7df64141354aca9272198a0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '[トポロジ: 状態] ページには、トポロジ内のサーバーのSkype for Business表示されます。'
+ms.openlocfilehash: a4af861e23592ce58590593ef3fd73af1b2a2a25b47b3b3ce1a8249544cf6b98
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099263"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331349"
 ---
 # <a name="topology-status"></a>トポロジ: 状態
 
-[ **トポロジ: 状態**] **ページ** には、Skype for Business トポロジ内のサーバーの状態が表示されます。
+[**トポロジ: 状態**]**ページ** には、トポロジ内のサーバーのSkype for Business表示されます。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -38,4 +38,4 @@ ms.locfileid: "51099263"
 
 - [サービスへの新しい接続を防止する](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。

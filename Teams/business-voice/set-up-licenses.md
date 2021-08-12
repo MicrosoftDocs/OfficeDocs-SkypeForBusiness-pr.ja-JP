@@ -17,22 +17,22 @@ search.appverid: MET150
 description: ユーザーにライセンスを割りMicrosoft 365 Business Voiceする方法について学習する
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5da524c636ade2c177acece602d16d7292fc81fd
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 53ae830e12ea360ed212cec56190e09f94aaae0870a01e880f0f1872a996e56b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312955"
 ---
 # <a name="step-3-assign-business-voice-licenses"></a>手順 3: Business Voice ライセンスを割り当てる
 
 アカウントを使用する必要がある各Microsoft 365 Business Voice Business Voice のライセンスを割り当てる必要があります。
 
-次のビデオでは、管理センターでこれらの手順を完了Microsoft 365示します。
+次のビデオでは、次のビデオでこれらの手順を完了する方法をMicrosoft 365 管理センター。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENAx]
 
-1. Microsoft 365 管理センターを開き、グローバル管理者のユーザー (通常は、このアカウントを使用してアカウントにサインアップしたアカウント) でログインMicrosoft 365。
+1. [Microsoft 365 管理センターを開き、グローバル管理者のユーザー (通常は、アカウントのサインアップに使用したアカウント) でログインMicrosoft 365。
 1. 左側のナビゲーション ウィンドウで、[課金ライセンス] に <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**移動**  >  **します**</a>。
 1. [Microsoft 365 Business Voice]**を選択します**。
 1. 製品の詳細ページで、[ライセンスの割り当て] **を選択します**。

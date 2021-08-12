@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でのメディア バイパスの展開
+title: メディア バイパスを展開Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
-description: Skype for Business Server サーバー サーバーサーバーでメディア バイパスを展開エンタープライズ VoIP。 前提条件と展開プロセスのチェックリストが含まれています。
-ms.openlocfilehash: be29d86dc9e7bd627a83b41d4666eacfcb6d46a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: メディア バイパスを展開Skype for Business Server エンタープライズ VoIP。 前提条件と展開プロセスのチェックリストが含まれています。
+ms.openlocfilehash: 35b6ec05fe1ca410b51cf9d573e003774904d875182d195d8d221e45be42b9bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322459"
 ---
-# <a name="deploy-media-bypass-in-skype-for-business-server"></a>Skype for Business Server でのメディア バイパスの展開
+# <a name="deploy-media-bypass-in-skype-for-business-server"></a>メディア バイパスを展開Skype for Business Server
  
-Skype for Business Server サーバー サーバーサーバーでメディア バイパスを展開エンタープライズ VoIP。 前提条件と展開プロセスのチェックリストが含まれています。
+メディア バイパスを展開Skype for Business Server エンタープライズ VoIP。 前提条件と展開プロセスのチェックリストが含まれています。
   
-このトピックでは、PSTN 接続を提供するために、少なくとも 1 つ以上の仲介サーバーと少なくとも 1 つのゲートウェイ ピアを既に公開して構成済みである必要があります。 これらのタスクの詳細については、「Deploy a Mediation Server in Topology Builder in [Skype for Business Server」および「Define a](deploy-a-mediation-server.md) gateway in [Topology Builder in Skype for Business Server」を参照してください](define-a-gateway.md)。
+このトピックでは、PSTN 接続を提供するために、少なくとも 1 つ以上の仲介サーバーと少なくとも 1 つのゲートウェイ ピアを既に公開して構成済みである必要があります。 これらのタスクの詳細については[、「Skype for Business Server](deploy-a-mediation-server.md)のトポロジ ビルダーで仲介サーバーを展開する」および「Skype for Business Server のトポロジ ビルダーでゲートウェイを定義する」[を参照してください](define-a-gateway.md)。
   
  接続するピアが SIP トランキング プロバイダーの SBC である場合は、プロバイダーが認定プロバイダーであり、プロバイダーがメディア バイパスをサポートしている必要があります。 たとえば、多くの SIP トランキング プロバイダーは、仲介サーバーからのトラフィックの受信のみを SBC に許可します。 その場合は、問題のトランクに対してバイパスを有効にすることはできません。 また、組織が SIP トランキング プロバイダーに内部ネットワーク IP アドレスを表示しない限り、メディア バイパスを有効にすることはできません。
   
@@ -47,6 +47,6 @@ Skype for Business Server サーバー サーバーサーバーでメディア �
   
 |**フェーズ**|**手順**|**役割**|**展開のドキュメント**|
 |:-----|:-----|:-----|:-----|
-|メディア バイパス用にトランクを構成する  <br/> |まだ実行していない場合は、メディア バイパス用に 1 つ以上のトランクを構成します。  <br/> | RTCUniversalServerAdmins グループのメンバー、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator 役割のメンバー <br/> |[Skype for Business Server でメディア バイパスを使用してトランクを構成する](configure-trunk-with-media-bypass.md) <br/> |
-|メディア バイパスをグローバルに構成する  <br/> |PSTN へのすべての呼び出し、またはネットワーク サイトとネットワーク地域に基づく特定の呼び出しに対してメディア バイパスを構成します。  <br/> | RTCUniversalServerAdmins グループのメンバー、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator 役割のメンバー <br/> |[Skype for Business Server でメディア バイパスを構成して、仲介サーバーを常にバイパスする](bypass-the-mediation-server.md) <br/> [サイトと地域の情報を使用する Skype for Business Server のメディア バイパス グローバル設定を構成する](use-site-and-region-information.md) <br/> |
+|メディア バイパス用にトランクを構成する  <br/> |まだ実行していない場合は、メディア バイパス用に 1 つ以上のトランクを構成します。  <br/> | RTCUniversalServerAdmins グループのメンバー、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator 役割のメンバー <br/> |[メディア バイパスを使用してトランクを構成Skype for Business Server](configure-trunk-with-media-bypass.md) <br/> |
+|メディア バイパスをグローバルに構成する  <br/> |PSTN へのすべての呼び出し、またはネットワーク サイトとネットワーク地域に基づく特定の呼び出しに対してメディア バイパスを構成します。  <br/> | RTCUniversalServerAdmins グループのメンバー、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator 役割のメンバー <br/> |[仲介サーバーを常にバイパスSkype for Business Serverメディア バイパスを構成する](bypass-the-mediation-server.md) <br/> [サイトと地域の情報を使用Skype for Business Serverメディア バイパスのグローバル設定を構成する](use-site-and-region-information.md) <br/> |
 |必要に応じて、サブネットをネットワーク サイトに関連付ける  <br/> |サイトと地域の情報を使用するメディア バイパスを構成する場合は、展開のサブネットをネットワーク サイトおよび地域に関連付ける必要があります (他の音声機能に対してまだ接続していない場合)。  <br/> | RTCUniversalServerAdmins グループのメンバー、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator 役割のメンバー <br/> |[サブネットをネットワーク サイトに関連付ける](deploy-network.md#BKMK_AssociateSubnets) <br/> |

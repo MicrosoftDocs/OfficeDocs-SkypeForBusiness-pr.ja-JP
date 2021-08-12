@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: システム ダイレクト ルーティングMicrosoft 電話、サポートされている顧客提供のセッション ボーダー コントローラー (SBC) をシステムに接続する方法Microsoft 電話します。
-ms.openlocfilehash: 6474d9a4d7d4dfd3b970fdd9b189ecbfa85a00a9
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 54c3ad54bfe3ba677ed9e087f9b30bb19fd21e06b030faf8c1c332fbc1cfd500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339809"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 

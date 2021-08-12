@@ -15,26 +15,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 1f0238e177e74dc1263208f9a6a350158825d825
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83c548f948c4c368ba1d8186fbdc9f212b9fb67b463f8eaec845f7698f4c0720
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817357"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313175"
 ---
-# <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Skype for Business Server のフェデレーション パートナーへのアーカイブ免責事項の送信を有効または無効にする
+# <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>アーカイブに関する免責事項をフェデレーション パートナーに送信する機能を有効または無効Skype for Business Server
 
 エッジ サーバーを展開し、組織に対してフェデレーションを有効にした時点で、フェデレーション パートナーにアーカイブについての免責事項を自動で送信するかどうかを指定する必要があります。 外部通信をアーカイブする場合は、アーカイブについての免責事項の送信を有効にする必要があります。 このトピックの手順を使用して、この構成を変更します。
 
 > [!NOTE]
-> 次の手順では、既に組織に対してフェデレーションを有効にしていることを前提としています。 フェデレーションを有効にする方法の詳細については、「リモート ユーザー アクセスを [有効または無効にする」を参照してください](enable-or-disable-remote-user-access.md)。
+> 次の手順では、既に組織に対してフェデレーションを有効にしていることを前提としています。 フェデレーションの有効化の詳細については、「リモート ユーザー アクセス [を有効または無効にする」を参照してください](enable-or-disable-remote-user-access.md)。
 
 
 ## <a name="to-enable-or-disable-sending-of-an-archiving-disclaimer-to-federated-partners"></a>フェデレーション パートナーへのアーカイブ免責事項の送信を有効または無効にするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで [**外部ユーザー アクセス**] をクリックし、[**アクセス エッジ構成**] をクリックします。
 
@@ -44,20 +44,20 @@ ms.locfileid: "49817357"
 
 6.  [**確定**] をクリックします。
 
-フェデレーション ユーザーが Skype for Business Server 展開のユーザーと共同作業を行うのを有効にするには、フェデレーション ユーザー アクセスをサポートするために少なくとも 1 つの外部アクセス ポリシーも構成する必要があります。 特定のフェデレーション ドメインのアクセス制御の詳細については、「許可された外部ドメインのサポートを構成する」 [を参照してください](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
+フェデレーション ユーザーが Skype for Business Server 展開でユーザーと共同作業を行う場合は、フェデレーション ユーザー アクセスをサポートするように少なくとも 1 つの外部アクセス ポリシーも構成している必要があります。 特定のフェデレーション ドメインのアクセス制御の詳細については、「許可された外部ドメインのサポートを構成 [する」を参照してください](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
 
 
-## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>管理コマンドレットを使用してアーカイブ免責事項を有効またはWindows PowerShellする
+## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用してアーカイブの免責事項を有効またはWindows PowerShellする
 
-アーカイブについての免責事項の使用は、管理コマンドレットと Windows PowerShell使用してSet-CsAccessEdgeConfigurationできます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Skype for Business Server のリモート セッションから実行Windows PowerShell。 
+アーカイブに関する免責事項の使用は、Windows PowerShellコマンドレットをSet-CsAccessEdgeConfigurationできます。 このコマンドレットは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。 
 
-## <a name="to-enable-the-archiving-disclaimer"></a>アーカイブ免責事項を有効にするには
+## <a name="to-enable-the-archiving-disclaimer"></a>アーカイブの免責事項を有効にするには
 
   - アーカイブについての免責事項を有効にするには、**EnableArchivingDisclaimer** プロパティの値を True ($True) に設定します。
     
         Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 
-## <a name="to-disable-the-archiving-disclaimer"></a>アーカイブ免責事項を無効にするには
+## <a name="to-disable-the-archiving-disclaimer"></a>アーカイブの免責事項を無効にするには
 
   - アーカイブについての免責事項を有効にするには、**EnableArchivingDisclaimer** プロパティの値を False ($False) に設定します。
     

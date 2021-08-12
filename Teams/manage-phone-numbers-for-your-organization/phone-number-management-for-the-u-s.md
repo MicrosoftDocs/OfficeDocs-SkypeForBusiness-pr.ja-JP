@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: この表を使用して、米国 (プエルトリコを含む) で電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 573e77fa1cfdb7048240f642e7c7db40953e2673
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 8baef73ea10c9d4f4a48cd78a694146c76daa313b6effa9ac5c4b262e1520d9b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510748"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322529"
 ---
 # <a name="phone-number-management-for-the-united-states"></a>電話の番号管理
 
@@ -41,7 +41,7 @@ ms.locfileid: "53510748"
 |転送された電話番号を取得します。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [米国の承認状 (LOA) (ユーザー番号とサービス番号) (v.3.3)(en-us)](https://download.microsoft.com/download/7/3/8/73843692-632f-4078-874d-021f9680e12b/letter-of-authorization-(loa)-for-the-u.s.-(user-and-service-numbers)-(v.3.3)-(en-us).pdf)<br/>[米国の承認状 (LOA) (無料電話番号) (v.3.3)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.s.-(toll-free-numbers)-(v.3.3)-(en-us).pdf?raw=true)<br/><br/>**注** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとしている場合は、承認状 (LOA) に記入して、それを送信する必要があります。 詳細[については、「電話番号を電話番号にTeams」](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)を参照してください。          <br/>  <br/>   入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
 |ユーザーの番号をサービス番号に変更するか、サービス番号をユーザーの番号に変更する  <br/> |[PIN と](mailto:ptn@microsoft.com) 変換する番号の一覧を送信してください。 PIN を設定するには、こちらを参照 [してください](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
 |番号を別のMicrosoft 365またはOffice 365に転送します。  <br/> |[転送元の組織](contact-pstn-service-desk.md) の PIN と共に、転送するユーザー (サブスクライバー) 電話番号の一覧に関する手順については、PTSN にお問い合わせください。 PIN を設定するには、こちらを参照 [してください](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)。  <br/> |
-|ディレクトリ サービスを更新して通話キューまたは自動応答番号を作成する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
 
 ## <a name="related-topics"></a>関連項目
 

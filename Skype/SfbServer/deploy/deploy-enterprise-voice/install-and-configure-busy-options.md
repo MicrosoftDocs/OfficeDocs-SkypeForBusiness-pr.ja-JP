@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のビジー オプションのインストールと構成
+title: デバイスのビジー オプションをインストールして構成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: Skype for Business Server でビジー オプションをインストールして構成する方法について説明します。
-ms.openlocfilehash: 04690e9f2c7fbf16b67432526fe5c8fd6e5b95af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 詳細については、「ビジー オプションをインストールして構成する方法」を参照Skype for Business Server。
+ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322399"
 ---
-# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Skype for Business Server のビジー オプションのインストールと構成
+# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>デバイスのビジー オプションをインストールして構成Skype for Business Server
 
-Skype for Business Server でビジー オプションをインストールして構成する方法について説明します。
+詳細については、「ビジー オプションをインストールして構成する方法」を参照Skype for Business Server。
 
 ビジー オプションは、2016 年 7 月の累積的な更新プログラムで導入された新しい音声ポリシーで、ユーザーが既に通話または会議に参加している場合、または通話が保留状態に設定されている場合の着信呼び出しの処理方法を構成できます。 新しい通話または着信呼び出しは、ビジー信号で拒否するか、ボイス メールに転送できます。
 
-組織でビジー オプションが有効になっている場合は、エンタープライズのすべてのユーザー (エンタープライズ VoIP ユーザーと非ユーザーユーザーエンタープライズ VoIP、次の構成オプションを使用できます。
+組織で [ビジー オプション] が有効になっている場合、Enterprise のすべてのユーザー (エンタープライズ VoIP ユーザーと非 エンタープライズ VoIP ユーザーの両方) は、次の構成オプションを使用できます。
 
 - Busy on Busy - ユーザーがビジー状態の場合、新しい着信呼び出しがビジーシグナルで拒否されます。
 
@@ -36,11 +36,11 @@ Skype for Business Server でビジー オプションをインストールし�
 
 通話中のオプションの構成方法に関係なく、通話または会議のユーザー、または通話を保留にしているユーザーは、新しい通話や会議を開始しません。
 
-ビジー オプション機能の詳細については [、「Plan for Busy Options for Skype for Business Server」を参照してください](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
+ビジー オプション機能の詳細については、「プラン for Busy [Options for Skype for Business Server」 を参照してください](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
 
 ## <a name="install"></a>インストール
 
-Skype for Business Server の最新バージョンがインストール済みで、最新のパッチがインストールされていることを確認します。 これを行うには、まずすべてのサービスを停止し、次のように Skype for Business Server 更新プログラム インストーラーを実行します。
+最新バージョンの更新プログラムがインストールSkype for Business Server最新の更新プログラムがインストールされていることを確認します。 これを行うには、まずすべてのサービスを停止し、次のようにSkype for Business Server更新プログラム インストーラーを実行します。
 
 1. コマンドを実行Stop-CsWindowsServiceします。
 
@@ -91,7 +91,7 @@ Skype for Business Server の最新バージョンがインストール済みで
    Update-CsAdminRole
    ```
 
-5. 最後に [、Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) コマンドを実行して、Busy Options がインストールされ、有効にされたすべてのプール内のすべてのフロントエンド サーバーで Skype for Business Server Windows サービスを開始します。
+5. 最後に[、Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps)コマンドを実行して、ビジー オプションがインストールされ、有効にされたすべてのプール内のすべてのフロントエンド サーバーで、Skype for Business Server Windows サービスを開始します。
 
    ```powershell
    Start-CsWindowsService
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-Windows イベント ビューアーを使用して、ビジー オプションのインストールが成功し、Skype for Business Server が正常に読み込まれたビジー オプションを確認することもできます。 ビジー オプションを確認するには、イベント ビューアー - アプリケーションログとサービス ログ - Skype (または **\> \> Lync) Server** を開き、イベント ID = 30253 を検索します。
+また、イベント ビューアー Windowsを使用して、ビジー オプションのインストールが成功し、ビジー オプションSkype for Business Server正常に読み込まれたか確認することもできます。 ビジー オプションを確認するには、イベント ビューアー - アプリケーションログとサービス ログ - Skype **\> \> (Lync) Server** を開き、イベント ID = 30253 を検索します。

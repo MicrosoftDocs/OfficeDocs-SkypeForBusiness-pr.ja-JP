@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37bd749e44c2020d35a927491553662c74bff01f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 0b5aed539e7d32db7650bb1b9778c912d0065b411832337438c251177d88e809
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286066"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Business Voice のインターネット接続を確認する
 
@@ -91,7 +91,7 @@ Teams と Business Voice での使用量がインターネット接続の合計�
 
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>ネットワーク上のコンピューターとデバイスが Microsoft 365 に到達できることを確認する
 
-Business Voice を使用するコンピューターやデバイスは、特定のネットワーク ポートを使用して Microsoft 365 サーバーと通信する必要があります。 これらのポートは実質的に、ネットワークやインターネット経由でデバイスが相互に通信するための出入口です。 ファイアウォールでは、次の*送信*ネットワーク ポートを使用して、ネットワーク上のデバイスが Microsoft 365 に到達できるようにする必要があります。
+Business Voice を使用するコンピューターやデバイスは、特定のネットワーク ポートを使用して Microsoft 365 サーバーと通信する必要があります。 これらのポートは実質的に、ネットワークやインターネット経由でデバイスが相互に通信するための出入口です。 ファイアウォールでは、次の *送信* ネットワーク ポートを使用して、ネットワーク上のデバイスが Microsoft 365 に到達できるようにする必要があります。
 
 * **TCP ポート** 80 と 443
 * **UDP ポート** 3478、3479、3480、3481
@@ -106,7 +106,7 @@ Business Voice を使用するコンピューターやデバイスは、特定�
 
    * 電話が繋がり、メッセージが聞こえたら、ファイアウォールは正しく設定されています。
    * 電話は繋がるものの、指示が聞こえない場合またはメッセージが再生されない場合は、コンピューターによってスピーカーとマイクが正しく設定されていることを確認し、もう一度お試しください。
-   * 電話が繋がらない場合、または繋がるもののメッセージが聞こえない場合は、ファイアウォールを更新して、必要なネットワーク ポートへのアクセスを許可する必要がある場合があります。 ファイアウォールのドキュメントを確認するか、IT 専門家にお問い合わせください。
+   * 電話が繋がらない場合、または繋がるもののメッセージが聞こえない場合は、ファイアウォールを更新して、必要なネットワーク ポートへのアクセスを許可する必要がある場合があります。ファイアウォールのドキュメントを確認するか、IT 専門家にお問い合わせください。
 
  IT プロフェッショナルで、Business Voice をサポートするためにより大きくて複雑なネットワークを準備する方法の詳細が必要な場合は、「[環境を評価する](../3-envision-evaluate-my-environment.md)」をご参照ください。 この記事では、帯域幅、プロキシ、ファイアウォールの要件に関する詳細と、[Network Assessment Tool](../3-envision-evaluate-my-environment.md#test-the-network) を使用してネットワークをテストする方法について説明します。
 

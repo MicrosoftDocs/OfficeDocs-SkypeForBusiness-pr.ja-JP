@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: このPower BIを使用して、CQD データを分析し、Microsoft Teams。
-ms.openlocfilehash: 5ef98f75854cb4a255bf3f01aeb32de66c059b76
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7314a0fb4a5bd1058e2270a3302e165eacc05d07dca4ebcc599a75aed687cd74
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286236"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>このPower BIを使用して、CQD データを分析Microsoft Teams
 
@@ -48,7 +48,7 @@ Teams の通話品質ダッシュボード (CQD) レポートでは、Power BI �
 > CQD データ用の Power BIレポートを設定したら、それらをタブとしてチャネルに追加します。 チャネルで選択 **+** した後、[レポート]をPower BIして、レポートを検索します。 詳細については、「レポートを埋め[込む」を参照Power BIタブを参照Teams。](/power-bi/service-embed-report-microsoft-teams) これらのレポートにアクセスできるのは、Power BIと CQD 管理者の資格情報を持つユーザーのみです。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 

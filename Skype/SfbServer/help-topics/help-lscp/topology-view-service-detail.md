@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: a757c7bd4bc12f0aa03ec50ea3dff6e2a3db3992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 69317b1386995af7f105dc7fa516d12a3f593f9301e2f68bad889c274bbf7450
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119896"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331309"
 ---
 # <a name="topology-view-service-detail"></a>トポロジ: サービスの詳細の表示
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
 - [Lync Server 2010 を実行しているコンピューターの一覧を表示する](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-computers-running-lync-server-2013)
 
@@ -34,4 +34,4 @@ ms.locfileid: "51119896"
 
 - [サービスへの新しい接続を防止する](/previous-versions/office/lync-server-2013/lync-server-2013-prevent-sessions-for-services)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。

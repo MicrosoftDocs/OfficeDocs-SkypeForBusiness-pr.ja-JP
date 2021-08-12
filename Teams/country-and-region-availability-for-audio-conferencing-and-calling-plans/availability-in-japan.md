@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 日本で利用できる Skype for Business と Microsoft Teams の Microsoft 365 と Office 365 サービスは次のとおりです。
-ms.openlocfilehash: 07163f6aa252bb0ec3e8976a8ed54bba914f4ae9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 896759b447523efaca7cc67a90157cc1bb83e6b1d1b852c08c1159b2366b4e2c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286016"
 ---
 # <a name="availability-in-japan"></a>日本での利用可能性
 
@@ -88,7 +88,7 @@ ms.locfileid: "51122311"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

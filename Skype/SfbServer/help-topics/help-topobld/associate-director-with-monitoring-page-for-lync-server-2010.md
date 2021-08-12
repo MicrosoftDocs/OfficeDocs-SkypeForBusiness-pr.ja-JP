@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
-description: 監視サーバーを構成し、ディレクターまたはディレクター プールに関連付けるには、次の手順を実行します。
-ms.openlocfilehash: f4c61893ab6d703afd9dc82b5fc21a9b611261fd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 監視サーバーを構成し、ディレクター またはディレクター プールに関連付けるには、次の手順を実行します。
+ms.openlocfilehash: d8edad120b8f2d8e90e32cfd23beca597e08ecd513a688b4a1a65323cf9c6547
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818577"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346573"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>Lync Server 2010 用のディレクターと監視の関連付けページ
  
-監視サーバーを構成し、ディレクターまたはディレクター プールに関連付けるには、次の手順を実行します。
+監視サーバーを構成し、ディレクター またはディレクター プールに関連付けるには、次の手順を実行します。
   
-[ **監視サーバー] の** 一覧から監視サーバーを選択します。
+[監視 **サーバー] の** 一覧から監視サーバーを選択します。
   
-監視サーバーがない場合に監視サーバーを今すぐ作成する場合は、[新規] をクリック **します**。
+監視サーバーがない場合に監視サーバーを今すぐ作成する場合は、[新規] を **クリックします**。
   
  [**戻る**]: 前のダイアログに戻ります。
   

@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c49d61c0-305a-4770-a5d2-5d9f05decc6d
-description: PayloadDescription テーブルは、サポート テーブルです。 各レコードが、音声セッションまたはビデオ セッションで使用される 1 つのコーデックを表します。
-ms.openlocfilehash: c9476aea28993a053096a095469d2d4e13251581
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: PayloadDescription テーブルは、サポート テーブルです。各レコードが、音声セッションまたはビデオ セッションで使用される 1 つのコーデックを表します。
+ms.openlocfilehash: aa2d2048b61523ed0fab9b8b8796f7b3a29a83dbd1ebb5b5ec800e00520a387e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312985"
 ---
 # <a name="payloaddescription-table"></a>PayloadDescription テーブル
  
@@ -26,7 +26,7 @@ PayloadDescription テーブルは、サポート テーブルです。各レコ
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**PayloadDescriptionKey** <br/> |int  <br/> |Primary  <br/> |コーデックを識別する一意の番号。  <br/> |
+|**PayloadDescriptionKey** <br/> |整数  <br/> |Primary  <br/> |コーデックを識別する一意の番号。  <br/> |
 |**PayloadDescription** <br/> |nvarchar(256)  <br/> |一意  <br/> |コーデック名。  <br/> |
    
 

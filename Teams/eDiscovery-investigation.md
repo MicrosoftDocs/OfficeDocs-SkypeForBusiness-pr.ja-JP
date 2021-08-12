@@ -17,12 +17,12 @@ description: 法的手続きのためにすべての電子的に保存された�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b9010bb233438029d6e755cf1fcd8b78b7cba6eb
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: a895b804d78dd3fe5ff45fac40457eaed2cf9c43d80e85137ad2a570c1e2018d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322589"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 

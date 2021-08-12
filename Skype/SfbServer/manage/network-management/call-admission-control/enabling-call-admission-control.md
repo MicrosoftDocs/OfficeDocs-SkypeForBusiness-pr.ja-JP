@@ -11,30 +11,30 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: " 通話受付管理 (CAC) ネットワークを構成した後、CAC を有効にして帯域幅の制限を適用する必要があります。"
-ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86a3cbead644ac265fc29d15c4ee9167bb214925c9176f9dfd11efe89df12079
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118576"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313005"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Skype for Business Server での通話受付管理の有効化
 
-通話受付管理 (CAC) は、使用可能な帯域幅に基づいてオーディオおよびビデオ伝送に制限を課すことができる地域、サイト、およびサブネットで構成されるネットワークです。 CAC ネットワークの構成後、CAC を有効にして、帯域幅制限を強制的に適用する必要があります。 これを行うには、Skype for Business Server コントロール パネルを使用できます。
+通話受付管理 (CAC) は、使用可能な帯域幅に基づいてオーディオおよびビデオ伝送に制限を課すことができる地域、サイト、およびサブネットで構成されるネットワークです。 CAC ネットワークの構成後、CAC を有効にして、帯域幅制限を強制的に適用する必要があります。 この操作を行うには、Skype for Business Serverコントロール パネルを使用します。
 
 
-## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルから CAC を有効にするには
+## <a name="to-enable-cac-from-the-skype-for-business-server-control-panel"></a>コントロール パネルから CAC をSkype for Business Serverするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[グローバル] を **クリックします**。
 
 4.  [**グローバル**] ページで [**グローバル**] 構成をクリックします。
    
     > [!NOTE]  
-    > Skype for Business Server 展開に対して構成できるネットワークは 1 つのみです。そのため、一覧に複数のネットワーク構成が含めらなさる必要があります。 グローバル構成の名前は変更できません。
+    > すべての展開に対して構成できるネットワークは 1 つSkype for Business Server、一覧に複数のネットワーク構成が含めはされません。 グローバル構成の名前は変更できません。
 
 5.  [**編集**] メニューの [**詳細の表示**] をクリックします。
 

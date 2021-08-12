@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
-description: Set-CcSiteDirectory コマンドレットは、Skype for Business Cloud Connector エディションのサイト レベルの設定ファイルが格納されるディレクトリを設定します。 フォルダーにはベース VHD および Cloud Connector の設定ファイルが含まれます。
-ms.openlocfilehash: 1e66c735e888fe9d5701b8f71baf462ec449acd4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このSet-CcSiteDirectoryは、サイト レベルの構成ファイルが格納されるディレクトリSkype for Business クラウド コネクタ エディション設定します。 フォルダーには、基本 VHD とクラウド コネクタ構成ファイルが含まれる。
+ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824191"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286246"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
-Set-CcSiteDirectory コマンドレットは、Skype for Business Cloud Connector エディションのサイト レベルの設定ファイルが格納されるディレクトリを設定します。 フォルダーにはベース VHD および Cloud Connector の設定ファイルが含まれます。
+このSet-CcSiteDirectoryは、サイト レベルの構成ファイルが格納されるディレクトリSkype for Business クラウド コネクタ エディション設定します。 フォルダーには、基本 VHD とクラウド コネクタ構成ファイルが含まれる。
   
-このコマンドレットは Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。
+このコマンドレットは、Skype for Business クラウド コネクタ エディション 1.4.1、1.4.2 に適用されます。
   
 ```powershell
 Set-CcSiteDirectory [[-Path] <string>]
@@ -35,7 +35,7 @@ Set-CcSiteDirectory [[-Path] <string>]
 
 ### <a name="example-1"></a>例 1
 
-次の例では、サイトのルート\\ディレクトリを SiteShare\CloudConnector に設定します。
+次の使用例は、サイト ルート ディレクトリを \\ SiteShare\CloudConnector に設定します。
   
 ```powershell
 Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
@@ -44,21 +44,21 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-ゲートウェイのアフィニティと高可用性を実現するには、クラウドコネクタのアプライアンスをサイトで組み合わせることができます。 ユーザーは、クラウドコネクタアプライアンスの代わりにサイトに割り当てられます。 各サイトには、基本 VHD とクラウドコネクタのインストールファイルが保存されている共有フォルダーがあります。 このフォルダーは、アプライアンスによって展開時に使用されます。 このフォルダーは、クラウドコネクタサイト内の他のすべてのアプライアンスと共有する必要があります。
+ゲートウェイ アフィニティと高可用性を実現するために、クラウド コネクタ アプライアンスをサイトで組み合わせることができます。 ユーザーは、クラウド コネクタ アプライアンスではなくサイトに割り当てられます。 各サイトには、基本 VHD とクラウド コネクタのインストール ファイルが格納されている共有フォルダーがあります。 アプライアンスは展開中にこのフォルダーを使用します。 このフォルダーは、クラウド コネクタ サイト内の他のすべてのアプライアンスと共有する必要があります。
   
-既定のフォルダーは C:\Users\%userprofile%\CloudConnector\SiteRoot. このパスは Get-CcSiteDirectory コマンドレットを使用して表示できます。
+既定のフォルダーは C:\Users \% userprofile%\CloudConnector\SiteRoot です。 パスは、このコマンドレットを使用してGet-CcSiteDirectoryできます。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | 必須 <br/> | System.String <br/> |クラウドコネクタサイトファイルが保存されるフォルダーのパスを指定します。  <br/> |
+| Path <br/> | 必須 <br/> | System.String <br/> |クラウド コネクタ サイト ファイルが格納されるフォルダーへのパスを提供します。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。 Set-CcSiteDirectory コマンドレットはパイプライン入力を受け入れません。
+なし。 このSet-CcSiteDirectoryは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 組織の既定のボイスMicrosoft Teams応答Skype for Business別の言語を使用する方法について学習します。
-ms.openlocfilehash: f211a5e160ce05707a454e5100409840e4c781ac
-ms.sourcegitcommit: eca3f5e83e4a07be197936db19f539cbfa2c2bd2
+ms.openlocfilehash: 92f767a366ac6c3250f529ec022f9b12414bd2f542c00c8f267596c7e276ee0b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52804524"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339883"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>応答メッセージとメールに使用する既定の言語を変更する
 
@@ -53,7 +53,7 @@ ms.locfileid: "52804524"
 
 1. でグローバル管理者 [アカウントで](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) サインインします [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。
 
-2. 管理センター Microsoft 365、[組織プロファイル]**設定設定**  >    >  **選択します**。
+2. [組織Microsoft 365 管理センター プロファイル]**を設定設定**  >    >  **選択します**。
 
      ![[組織プロファイル] 設定選択を示すスクリーンショット。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   

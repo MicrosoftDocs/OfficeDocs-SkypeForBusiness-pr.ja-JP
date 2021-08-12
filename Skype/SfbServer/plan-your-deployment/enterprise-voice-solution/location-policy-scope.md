@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で場所ポリシースコープを割り当てる
+title: '[場所ポリシーのスコープを割り当てる] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
-description: Skype for Business Server 展開環境での E9-1-1 展開の場所ポリシーのエンタープライズ VoIP。
-ms.openlocfilehash: 586aabe919ea4236dc724446da717b5f300d88e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: E9-1-1 展開の場所ポリシーを計画Skype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: b56b3fa2205939b458635d5a461dc4f8d55134cf2703ce1872a2be2141d5d635
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286506"
 ---
-# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>Skype for Business Server で場所ポリシースコープを割り当てる
+# <a name="assign-location-policy-scope-in-skype-for-business-server"></a>[場所ポリシーのスコープを割り当てる] Skype for Business Server
  
-Skype for Business Server 展開環境での E9-1-1 展開の場所ポリシーのエンタープライズ VoIP。
+E9-1-1 展開の場所ポリシーを計画Skype for Business Server エンタープライズ VoIP。
   
-他の Skype for Business Server ポリシーと同様に、場所ポリシーは、グローバル、サイト、ユーザーの複数のスコープ レベルで割り当てることができます。 ただし、ユーザー レベルの場所ポリシーのスコープの動作は、他の Skype for Business Server ポリシーとは少し異なります。 ユーザー単位の場所ポリシーをエンドポイント オブジェクト (ユーザーや共通領域電話の連絡先オブジェクトなど) に適用できるだけでなく、Skype for Business Server ネットワーク サイトにも適用できます。 ネットワーク サイトは、地理的場所に関連付けられたクライアント サブネットをグループ化したものです (ただし、必ずしも中央サイトまたはブランチ サイト全体の中のすべてのサブネットである必要はありません)。 ネットワーク サイト内のサブネットに接続されるクライアントはすべて、そのネットワーク サイトに割り当てられた場所ポリシーを自動的に取得します。 ユーザー レベルの場所ポリシーがユーザーとネットワーク サイトの両方に割り当てられる場合、ネットワーク サイト ベースの場所ポリシーがユーザーごとのポリシー設定より優先されます。
+他のポリシー Skype for Business Serverと同様に、場所ポリシーはグローバル、サイト、およびユーザーの複数のスコープ レベルで割り当てることができます。 ただし、ユーザー レベルの場所ポリシーの範囲は、他の場所の場所ポリシーとは少Skype for Business Server動作します。 ユーザーごとの場所ポリシーをエンドポイント オブジェクト (User や Common Area 電話 連絡先オブジェクトなど) に適用できるだけでなく、ユーザーごとの場所ポリシーをネットワーク サイトSkype for Business Serverすることもできます。 ネットワーク サイトは、地理的場所に関連付けられたクライアント サブネットをグループ化したものです (ただし、必ずしも中央サイトまたはブランチ サイト全体の中のすべてのサブネットである必要はありません)。 ネットワーク サイト内のサブネットに接続されるクライアントはすべて、そのネットワーク サイトに割り当てられた場所ポリシーを自動的に取得します。 ユーザー レベルの場所ポリシーがユーザーとネットワーク サイトの両方に割り当てられる場合、ネットワーク サイト ベースの場所ポリシーがユーザーごとのポリシー設定より優先されます。
   
 各ネットワーク サイトにはそれぞれに割り当てられた場所ポリシーがあり、各ポリシーには異なる PSTN 使用法、通知 URI、および電話会議 URI の値が割り当てられます。
   

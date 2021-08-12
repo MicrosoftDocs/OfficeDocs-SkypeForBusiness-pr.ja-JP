@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 外部アクセス (フェデレーション) とゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
-ms.openlocfilehash: bda5652aedd8d071984334a3851e50ba52400943
-ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
-ms.translationtype: MT
+ms.openlocfilehash: 96c0892bef591d9e806de1534d7fb1095e8932a6bb8975450fca63819272b50f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "53302002"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286026"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする
 

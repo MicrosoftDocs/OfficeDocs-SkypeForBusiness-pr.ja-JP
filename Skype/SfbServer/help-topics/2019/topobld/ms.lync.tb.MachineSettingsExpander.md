@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 ROBOTS: NOINDEX, NOFOLLOW
-description: このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: 385bd49711186994b3f40aada07dd380c707c1b0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。以下のアクションを実行できます。
+ms.openlocfilehash: 137135025fd52a94b09c752445dc2cb0c41a341ef4dd2ca4afb25f87cde3f982
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811092"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298497"
 ---
 # <a name="server-settings-expander"></a>サーバー設定エキスパンダー
  
@@ -32,7 +32,7 @@ ms.locfileid: "49811092"
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除を行います。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、コンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

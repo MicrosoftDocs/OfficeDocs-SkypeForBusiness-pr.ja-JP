@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、使用できる機能、製品用に購入する方法、既存の運送業者を使用する方法について学習します。 通話プラン、通信クレジット、通話プランの価格とプランOffice 365情報を取得できます。 '
-ms.openlocfilehash: 5bbd455a0cb3bf2bff8bc7bf0dd4362135214a39
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 39bc25454e5a8be7513c17124392ab1201bdcafccb821dd3f3e176de8246596e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283909"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Skype for Business アドオンのライセンス
 
@@ -63,7 +63,7 @@ Skype for Businessライセンスは、最大限の柔軟性を提供するよ�
 |**会議へのダイヤルイン アクセスのための無料電話番号や、世界中の電話番号に発信して誰かを追加するために会議からダイヤルアウトする機能** <br/> |オーディオ会議を追加する場合は、 [コミュニケーション クレジットを設定](/microsoftteams/set-up-communications-credits-for-your-organization)することをおすすめします。 <br/> |
 |**電話システム** <br/> |PBX は、企業の電話システムです。 電話システムは、ホステッド電話サービスです。 従来の PBX 機能と革新的な PBX 機能の両方を提供しますが、複雑で高価な機器はありません。 [次に示すのは、 を使用して取得電話システム。](/MicrosoftTeams/here-s-what-you-get-with-phone-system)  <br/> コストを検索する場合は、 [電話システムの要件](https://products.office.com/skype-for-business/cloud-pbx#requirements)を参照してください。  <br/> |
 |**通話プラン** <br/> |他のユーザー Skype for Businessの通話は無料ですが、ユーザーが社外の電話番号に発信できる場合は、通話プラン を[取得します](/MicrosoftTeams/calling-plans-for-office-365)。 国内通話プランと国内通話プランと国際通話プランがあります。  <br/> コストを検索する場合は、 [通話プランの要件](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)を参照してください。  <br/> |
-|**Microsoft Teams ルーム** <br/> |これはアドオンではありませんが、会議室にビデオ、音声、コンテンツの共有をもたらす機能です。 「Microsoft Teams ミーティング」[を参照してください](/MicrosoftTeams/rooms/rooms-licensing)。  <br/> |
+|**Microsoft Teams ルーム** <br/> |これはアドオンではありませんが、会議室にビデオ、音声、コンテンツの共有をもたらす機能です。 「Microsoft Teams[ルーム」を参照してください](/MicrosoftTeams/rooms/rooms-licensing)。  <br/> |
 
 すべてのアドオン オプションについて他のユーザーと話す必要がありますか? [ビジネス製品のサポートに問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
@@ -84,7 +84,7 @@ Skype for Businessライセンスは、最大限の柔軟性を提供するよ�
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>価格の確認とアドオン ライセンスの購入方法
 <a name="bkmk_how"> </a>
 
- **プランを購入するとMicrosoft 365、** 管理センター から価格が表示され、追加Microsoft 365購入されます。
+ **プランを購入したMicrosoft 365、価格が表示** され、追加のプランを通じて追加Microsoft 365 管理センター。
 
 必要なアドオンに応じて、該当する機能をすでに含んでいるプランに切り替えることで[コスト効率が高いかどうかを比較する](https://go.microsoft.com/fwlink/?linkid=844053)ことをお勧めします。
 

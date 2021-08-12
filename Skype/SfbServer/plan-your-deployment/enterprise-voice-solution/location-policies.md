@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の場所ポリシーを計画する
+title: ユーザーの場所ポリシーを計画Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,22 +15,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-description: このトピックでは、Skype for Business Server エンタープライズ VoIP で拡張緊急サービス (E9-1-1) 展開の場所ポリシーを計画する方法について説明します。
-ms.openlocfilehash: 3d9c574d18351594d9773f02770e960c993ae401
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: このトピックでは、拡張緊急サービス (E9-1-1) 展開の場所ポリシーを計画する方法について説明します。Skype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: 2007e0a530d82dc6b14dee9758c4eeeee75588ca2a81597e18f6a777093f0cf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286616"
 ---
-# <a name="plan-location-policies-for-skype-for-business-server"></a>Skype for Business Server の場所ポリシーを計画する
+# <a name="plan-location-policies-for-skype-for-business-server"></a>ユーザーの場所ポリシーを計画Skype for Business Server
  
-このトピックでは、Skype for Business Server エンタープライズ VoIP で拡張緊急サービス (E9-1-1) 展開の場所ポリシーを計画する方法について説明します。 
+このトピックでは、拡張緊急サービス (E9-1-1) 展開の場所ポリシーを計画する方法について説明します。Skype for Business Server エンタープライズ VoIP。 
   
 > [!NOTE]
-> Skype for Business Server では、クライアントの複数の緊急電話番号の構成がサポートされます。 複数の緊急電話番号を構成する場合は [、「Skype for Business Server](multiple-emergency-numbers.md) で複数の緊急電話番号を計画する」および「Skype for Business で複数の緊急電話番号を構成する」の情報に従う [必要があります](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。 
+> Skype for Business Server、クライアントの複数の緊急電話番号の構成がサポートされます。 複数の緊急電話番号を構成する場合は、「Skype for Business Server で複数の[](multiple-emergency-numbers.md)緊急電話番号を計画する」および「Skype for Business で複数の緊急電話番号を構成する」の情報に[従う必要があります](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。 
   
-場所ポリシーは、Skype for Business コントロール パネルを使用するか [、New-CsLocationPolicy コマンドレットを使用して作成](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) します。 詳細については [、「Create location policies in Skype for Business Server」を参照してください](../../deploy/deploy-enterprise-voice/create-location-policies.md)。
+場所ポリシーを作成するには、Skype for Businessコントロール パネルを使用するか[、New-CsLocationPolicy コマンドレットを使用](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)します。 詳細については、「場所ポリシーを[作成する」を参照Skype for Business Server。](../../deploy/deploy-enterprise-voice/create-location-policies.md)
   
 場所ポリシーにはそれぞれ、以下の情報が含まれています。
   
@@ -38,7 +38,7 @@ ms.locfileid: "51101453"
   
 この値を有効にすると、クライアントは拡張緊急サービス (E9-1-1) で有効になります。 クライアントが登録すると、位置情報サービスから場所を取得しようとして、緊急電話の一部として位置情報が含まれます。
   
- **Location**
+ **場所**
   
 この設定は、[拡張 **9-1-1** を有効にする] が有効になっている場合にのみ使用されます。
   
@@ -55,18 +55,18 @@ ms.locfileid: "51101453"
   
  **拡張緊急サービス免責事項**
   
-この設定は、ユーザーが場所を入力せずにプロンプトを閉じた場合に表示される免責事項を指定します。 Skype for Business Server では、場所ポリシーを使用して、地域やユーザーのセットごとに異なる免責事項を設定できます。
+この設定は、ユーザーが場所を入力せずにプロンプトを閉じた場合に表示される免責事項を指定します。 このSkype for Business Server場所ポリシーを使用して、異なる地域またはユーザーの異なるセットに対して異なる免責事項を設定できます。
   
  **緊急ダイヤル文字列 (E9-1-1 ダイヤル番号)**
   
 このダイヤル文字列 (先頭の "+" は小さいが、ユーザーのダイヤル プランによって行われた正規化を含む) は、通話が緊急通話を表します。 **緊急ダイヤル文字列** を使用すると、クライアントによって場所とコールバック情報が緊急電話に含まれるようになります。
   
 > [!NOTE]
-> 組織で外部回線アクセスプレフィックスを使用しない場合は、Skype for Business Server を実行しているサーバーで発信ルーティングに通話を送信する前に、911 文字列に "+" を追加する対応するダイヤル プラン正規化ルールを作成する必要があります。場所ポリシーの結果として、Skype for Business クライアントによって "+" が自動的に先頭に追加されます。 ただし、サイトで外部アクセス プレフィックスを使用する場合は、外部アクセス プレフィックスを削除して "+" を追加する、適用可能なダイヤル プラン ポリシーに正規化ルールを追加する必要があります。 たとえば、場所で外部アクセス プレフィックス 9 を使用し、ユーザーが 9 911 をダイヤルして緊急電話を発信する場合、クライアントはダイヤル プラン ポリシーを使用してこれを +911 に正規化してから、発信者の場所プロファイルのルートでダイヤル番号を評価します。 
+> 組織で外部回線アクセスプレフィックスを使用しない場合は、Skype for Business Server を実行しているサーバーで発信ルーティングに通話を送信する前に、911 文字列に "+" を追加する対応するダイヤル プラン正規化ルールを作成する必要があります。"+" は、場所ポリシーの結果として、Skype for Businessクライアントによって自動的に先頭に追加されます。 ただし、サイトで外部アクセス プレフィックスを使用する場合は、外部アクセス プレフィックスを削除して "+" を追加する、適用可能なダイヤル プラン ポリシーに正規化ルールを追加する必要があります。 たとえば、場所で外部アクセス プレフィックス 9 を使用し、ユーザーが 9 911 をダイヤルして緊急電話を発信する場合、クライアントはダイヤル プラン ポリシーを使用してこれを +911 に正規化してから、発信者の場所プロファイルのルートでダイヤル番号を評価します。 
   
  **緊急ダイヤル文字列マスク (E9-1-1 ダイヤル マスク)**
   
-指定された緊急ダイヤル文字列に変換されるダイヤル文字列のセミコロンで区切 **られたリスト** です。 たとえば、ヨーロッパの大部分の緊急サービス番号である 112 を追加できます。 ヨーロッパから Skype for Business を訪れたユーザーは、911 が米国の緊急電話番号であるのを知らないかもしれませんが、112 をダイヤルして同じ結果を得られます。 緊急ダイヤル文字列と同様に、各番号の前に "+" を含めず、外部回線アクセス コードを使用する場合は、ユーザーのダイヤル プラン ポリシーに正規化ルールが含まれるので、アクセス コードの数字を削除してください。
+指定された緊急ダイヤル文字列に変換されるダイヤル文字列のセミコロンで区切 **られたリスト** です。 たとえば、ヨーロッパの大部分の緊急サービス番号である 112 を追加できます。 ヨーロッパからのSkype for Businessユーザーは、911 が米国の緊急電話番号であるのを知らないかもしれませんが、112 にダイヤルして同じ結果を得られます。 緊急ダイヤル文字列と同様に、各番号の前に "+" を含めず、外部回線アクセス コードを使用する場合は、ユーザーのダイヤル プラン ポリシーに正規化ルールが含まれるので、アクセス コードの数字を削除してください。
   
  **PSTN 使用法**
   

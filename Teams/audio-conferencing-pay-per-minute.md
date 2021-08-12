@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Microsoft ボリューム ライセンスを使用している組織の電話会議機能を有効にする分単位の支払いオプションについて説明します。
-ms.openlocfilehash: 93f0b6ef257e7190aa2d2f45e3ad8ead78c67b84
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: d3aea84ec5686c5ed91dbcd5dbda0d4c9ca8649c2eef7dd3c3a62b4def46688e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617789"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286206"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>分数ごと従量課金制電話会議
 
@@ -84,7 +84,7 @@ ms.locfileid: "51617789"
     
 - [通話プランの価格](https://www.microsoft.com/microsoft-teams/voice-calling)
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
   
 [Microsoft Teams アドオン ライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
