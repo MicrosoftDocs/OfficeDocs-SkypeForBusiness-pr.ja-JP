@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0e20b4b9b696d7fc23c227afcd67d2132c5952
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
-ms.translationtype: MT
+ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598396"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298107"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Microsoft Teams にようこそ
 所属する組織での Microsoft Teams の管理者である場合は、このページの内容をよくお読みください。 Teams の使用を開始する準備ができたら、「[Teams のロールアウト方法](./deploy-overview.md)」および「[Microsoft 365 と Microsoft Teams を使用してセキュリティで保護された共同作業を設定する](/microsoft-365/solutions/setup-secure-collaboration-with-teams)」から開始します。
@@ -79,7 +79,7 @@ Teams は Microsoft 365 および Office 365 でのインテリジェント コ�
 Skype for Business を実行していて、Teams にアップグレードする準備が整っている場合、または Skype for Business と Teams を共存させて実行していて、完全に Teams に移動する準備が整っている場合、その移行作業を正常に完了させるために役に立つツール、ヒント、ガイダンスを利用することができます。 詳細については、「[Teams へのアップグレード](upgrade-start-here.md)」を参照してください。
 
 ## <a name="teamwork"></a>チームワーク
-すべてのチームはそれぞれ異なります。コラボレーションを行うための万能の手段はありません。 Microsoft 365 および Office 365 は各チームの固有のニーズを満たすよう設計されていて、ユーザーが通信、共同作業などより多くのことを専用の統合アプリで成し遂げられる能力を強化します。
+すべてのチームはそれぞれ異なります。コラボレーションを行うための万能の手段はありません。Microsoft 365 および Office 365 は各チームの固有のニーズを満たすよう設計されていて、ユーザーが通信、共同作業などより多くのことを専用の統合アプリで成し遂げられる能力を強化します。
 
 どの Microsoft 365 または Office 365 アプリおよびサービスを使用するかを決めるときに、自分の組織で行われる作業や、所属するチームで行う必要がある会話の種類について考えます。 
 

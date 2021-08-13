@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsのハイブリッド接続Skype for Business計画します。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: fee78cf4532ff1cb0be7a24fc29e407001647f452cdef5fbb5e60859989f8112
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c52edf0fa8e90f0fc6a86f0d87192fdbba6a24c8ef540f18607645a82d7badfe
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849272"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>ハイブリッド接続を計画して、Skype for Business ServerとTeams
 
@@ -45,7 +45,7 @@ ms.locfileid: "54287886"
 ## <a name="implications-of-the-upcoming-retirement-of-skype-for-business-online"></a>オンラインの今後の退職の影響Skype for Business
 Skype for Business Online の退職前と退職後の両方で、Skype for Business Server オンプレミスのユーザーは Teams を使用できますが、TeamsOnly にすることはできません。 (既定では、ユーザーはアイランド モードです)。 ユーザーは、TeamsOnly モードでTeams、特定のフェデレーションと PSTN サポートの利点を完全に体験できます。 
 
-オンラインの今後のSkype for Businessは、Lync Server 2013 または Lync Server 2013 の既存のサポート ライフサイクルSkype for Business Server影響しません。  ただし、Skype for Business Online の今後の退職は、既存のハイブリッド組織を含むオンプレミスの Skype for Business Server または Lync Server 2013 を使用している顧客がクラウドに移行する方法に影響を与えます。 退職後に変更されないのは、ハイブリッドをオンプレミスからクラウドに移行する手段として使用する方法が変更されない場合です。
+オンラインの今後のSkype for Businessは、Lync Server 2013 または Lync Server 2013 の既存のサポート ライフサイクルSkype for Business Server影響しません。  ただし、Skype for Business Online の今後の退職は、既存のハイブリッド組織を含む、オンプレミスの Skype for Business Server または Lync Server 2013 を使用している顧客がクラウドに移行する方法の特定の側面に影響を与えます。 退職後に変更されないのは、ハイブリッドをオンプレミスからクラウドに移行する手段として使用する方法が変更されない場合です。
 
 現在、およびオンラインの終了まで、Skype for Businessハイブリッド組織は、次の 3 つの基本的な種類のユーザーで構成できます。 
 - オンプレミス ユーザー (ユーザーがユーザーを使用する場合と使用しない場合Teams、ユーザーのみTeamsモードではありません) 
@@ -53,7 +53,7 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
 - TeamsOnly ユーザー。
 
 ただし、Skype for BusinessがSkype for Business、ハイブリッド組織は次の 2 つの基本的な種類のユーザーで構成できます。 
-- オンプレミス のユーザー (Who TeamsOnly モードTeams使用する場合と使用しない場合があります)
+- オンプレミスのユーザー (Who TeamsOnly モードではなく、Teamsを使用する場合と使用しない場合があります)
 - Teamsユーザーのみ。 
 
 組織が Skype for Business Server または Lync Server 2013 から Teams に移行するには、引き続き同じツールセットを使用してハイブリッドをセットアップおよび構成する必要があります。引き続き、退職前とまったく同じです。 変更されたのは、ユーザーをオンプレミスから Teams に移動するときに、ユーザーをオンプレミスから `-MoveToTeams` TeamsOnly に直接移動するスイッチを指定する必要がなくなりました `Move-CsUser` 。 以前は、このスイッチが指定されていない場合、ユーザーは Skype for Business Server オンプレミスのホームから Skype for Business Online に移行し、モードは変更されません。 退職に備えて、ユーザーをオンプレミスからクラウドに移動するときに、ユーザーは TeamsOnly モードに自動的に割り当てられると、スイッチが実際に指定されたかどうかに関係なく、スイッチが指定された場合と同じ方法で、オンプレミスから会議が自動的に Teams 会議に変換されます。 `Move-CsUser` `-MoveToTeams` (これには、切り替え前の Lync Server 2013 からの移行が含 `MoveToTeams` まれます)。 

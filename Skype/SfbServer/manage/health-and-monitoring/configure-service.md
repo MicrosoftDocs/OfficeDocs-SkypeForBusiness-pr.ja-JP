@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で高パフォーマンスを実現する Mobility Service の構成
+title: モビリティ サービスを構成して、パフォーマンスを高Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,26 +11,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-description: '概要: Skype for Business Server の Mobility Service について学習します。'
-ms.openlocfilehash: 83d8d6dc7a32b05a58c738deddc8c92e43bd5557
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: モビリティ サービスの詳細については、Skype for Business Server。'
+ms.openlocfilehash: 3029877aa6f252ada9bbb38bca0148b8a96908ad5cf4deded7cf48e6451ec833
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817037"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298137"
 ---
-# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Skype for Business Server で高パフォーマンスを実現する Mobility Service の構成
+# <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>モビリティ サービスを構成して、パフォーマンスを高Skype for Business Server
  
-**概要:** Skype for Business Server の Mobility Service について学習します。
+**概要:** モビリティ サービスの詳細については、Skype for Business Server。
   
 > [!IMPORTANT]
-> このトピックは Skype for Business Server Mobility Service (Mcx) にのみ適用され、Lync Server 2013 の累積的な更新プログラム (2013 年 2 月) で提供される Unified Communications Web API (UCWA) には適用されません。 
+> このトピックは Skype for Business Server Mobility Service (Mcx) にのみ適用され、Lync Server 2013 の累積的な更新プログラム: 2013 年 2 月に配信されるユニファイド コミュニケーション Web API (UCWA) には適用されません。 
   
-Mobility Service (Mcx) をインターネット インフォメーション サービス (IIS) 7.5 にインストールすると、Mobility Service インストーラーはフロント エンド サーバーで一部のパフォーマンス設定を構成します。 モビリティでは IIS 7.5 を使用することをお勧めします。 これらの設定は、同時ユーザー要求の最大数と、Mobility Service で利用できるスレッドの最大数に影響します。
+モビリティ サービス (Mcx) を インターネット インフォメーション サービス (IIS) 7.5 にインストールすると、Mobility Service インストーラーはフロントエンド サーバーでパフォーマンス設定を構成します。 モビリティでは IIS 7.5 を使用することをお勧めします。 これらの設定は、同時ユーザー要求の最大数と、Mobility Service で利用できるスレッドの最大数に影響します。
   
-パフォーマンス設定を次に示します。
+パフォーマンス設定は次のとおりです。
   
-### <a name="settings-for-mcx-on-iis-75"></a>IIS 7.5 での Mcx の設定
+### <a name="settings-for-mcx-on-iis-75"></a>設定 7.5 の Mcx の詳細
 
 1. **maxConcurrentThreadsPerCPU** は、ゼロ (0) に設定されます。
     

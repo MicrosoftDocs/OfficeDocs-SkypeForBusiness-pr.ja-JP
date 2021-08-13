@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 既に定義されている信頼済みアプリケーション サーバーのプロパティを編集するには、以下の操作を行います。
-ms.openlocfilehash: 55f6bfee68370f8f341080e54953120e48f628f8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cbc1d58c3e4ecf5a3db6efd26cd66879c75f18b1b24baa036a4266a14bf0878b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329771"
 ---
 # <a name="external-application-general-settings-expander"></a>外部アプリケーション全般設定エキスパンダー
  
@@ -40,7 +40,7 @@ ms.locfileid: "49804767"
   
 ## <a name="next-hop-settings"></a>次ホップ設定
 
-ドロップダウン リストから定義済みの Enterprise Edition フロントエンド プールまたは Standard Edition フロントエンド サーバーを選択して、信頼済みアプリケーション サーバー プールの次ホップ サーバーを指定できます。 ディレクターまたはディレクター プールは、信頼されたアプリケーション サーバーの次ホップとしては有効な選択肢ではないため、リストに表示されません。
+信頼できるアプリケーション サーバー プールの次ホップ サーバーを指定するには、定義済みの Enterprise Edition フロントエンド プールまたは Standard Edition フロント エンド サーバーをドロップダウン リストから選択します。 ディレクターまたはディレクター プールは、信頼されたアプリケーション サーバーの次ホップとしては有効な選択肢ではないため、リストに表示されません。
   
 
 

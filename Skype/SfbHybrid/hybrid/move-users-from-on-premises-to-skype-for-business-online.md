@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: ユーザーをオンラインに移動するSkype for Businessします。
-ms.openlocfilehash: fcb1d508230c4faa18da4a473d9e24d384b047a6
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: dd0d154194de79716665a16e8a156c8bf825a0838e91a43ef15246970c48b48e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298917"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>ユーザーをオンプレミスから Skype for Business Online に移動する
 

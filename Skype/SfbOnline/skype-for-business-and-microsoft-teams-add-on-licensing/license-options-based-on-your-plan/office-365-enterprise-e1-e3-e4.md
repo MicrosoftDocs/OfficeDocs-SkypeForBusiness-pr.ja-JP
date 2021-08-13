@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'アドオン ライセンス、機能、そして Office 365 Enterprise、E1、E3、E4 プランを購入する方法について説明します。 '
-ms.openlocfilehash: 2d228889c38cac925f82a5e8e4c024052e220969
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 16752a076b84bc8ad8fe65251732af65993cb73784e7589c275fd42ac71c4352
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574272"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316453"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1、E3、および E4
 

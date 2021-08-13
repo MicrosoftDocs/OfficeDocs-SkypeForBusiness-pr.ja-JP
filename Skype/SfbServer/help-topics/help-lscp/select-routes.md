@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
-description: '[ルートの選択] ダイアログ ボックスを使用して、使用できる既存のボイス ルートを検索します。'
-ms.openlocfilehash: 76a7927ec4e73ab8462f307e42477ab53030e399
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[ルートの選択] ダイアログ ボックスを使用して、使用できる既存の音声ルートを検索します。'
+ms.openlocfilehash: 0c4e0b867d82a7a7b112ce5ad1e0551876a05106f74d0b91a65e5bf1031d9a69
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803737"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299744"
 ---
 # <a name="select-routes"></a>ルートの選択
  
-[ルート **の選択] ダイアログ ボックス** を使用して、使用できる既存のボイス ルートを検索します。
+[ルート **の選択] ダイアログ** ボックスを使用して、使用できる既存の音声ルートを検索します。
   
 > [!NOTE]
-> 使用可能なすべてのボイス ルートを取得するには、検索ボックスに何も入力しないで、検索アイコンをクリックします。 
+> 使用可能なすべての音声ルートを取得するには、検索ボックスに何も入力しないし、検索アイコンをクリックします。 
   
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
   
 

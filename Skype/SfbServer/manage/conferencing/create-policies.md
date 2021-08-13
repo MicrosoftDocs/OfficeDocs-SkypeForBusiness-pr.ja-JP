@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で会議ポリシーを作成する
+title: 会議ポリシーを作成するSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
-description: '概要: Skype for Business Server で会議ポリシーを作成する方法について説明します。'
-ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 会議ポリシーを作成する方法について説明します。Skype for Business Server。'
+ms.openlocfilehash: 2cce451135c82894d9d82c89e6a62682d95526d31082d209bcaf8144752426b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344746"
 ---
-# <a name="create-conferencing-policies-in-skype-for-business-server"></a>Skype for Business Server で会議ポリシーを作成する
+# <a name="create-conferencing-policies-in-skype-for-business-server"></a>会議ポリシーを作成するSkype for Business Server
  
-**概要:** Skype for Business Server で会議ポリシーを作成する方法について説明します。
+**概要:** 会議ポリシーを作成する方法については、Skype for Business Server。
   
-会議ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して作成できます。
+会議ポリシーは、コントロール パネルを使用するかSkype for Business Server管理シェルを使用してSkype for Business Server作成できます。
   
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議ポリシーを作成する
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用して会議ポリシー Skype for Business Server作成する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. Skype for Business Server コントロール パネルを開きます。
+2. [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー] **をクリックします**。
     
@@ -84,7 +84,7 @@ ms.locfileid: "51119526"
     
     - ファイル転送を使用できないようにするには、**[参加者によるファイルの転送を許可する]** チェック ボックスをオフにします。 既定では、ユーザーはファイルを転送できます。
     
-    - コメントを使用できないようにするには、**[コメントを有効にする]** チェック ボックスをオフにします。 共有 PowerPoint プレゼンテーションで注釈を使用するには、[PowerPoint 注釈を有効 **にする] をオフにしてください**。 既定では、コメントは許可されます。
+    - コメントを使用できないようにするには、**[コメントを有効にする]** チェック ボックスをオフにします。 共有プレゼンテーションで注釈を使用するにはPowerPoint注釈を有効 **にするをPowerPointします**。 既定では、コメントは許可されます。
     
     - ポーリングを使用できないようにするには、**[ポーリングを有効にする]** チェック ボックスをオフにします。 既定では、ポーリングは許可されます。
     
@@ -116,7 +116,7 @@ ms.locfileid: "51119526"
     
 21. [**確定**] をクリックします。
     
-## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議ポリシーを作成する
+## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議ポリシー Skype for Business Server作成する
 
 会議ポリシーを作成するには **、New-CsConferencingPolicy コマンドレットを使用** します。
   

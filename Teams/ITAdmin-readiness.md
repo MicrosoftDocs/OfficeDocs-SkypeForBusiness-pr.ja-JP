@@ -19,12 +19,12 @@ ms.custom:
 description: Microsoft Teamsの計画、展開、および実行方法に関するトレーニングビデオ、PowerPointデッキ、チュートリアル、およびその他の管理者向けリソース。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfb21be79f22628d7b30b2328ef18248cd35864e
-ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
+ms.openlocfilehash: 9b89dc087f97a924aeb89130a4dd9536a3afceb76b5cdfe8d96d60c3af02653b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53113966"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298117"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>管理者向けトレーニングのMicrosoft Teams
 
@@ -62,25 +62,25 @@ ms.locfileid: "53113966"
 | ダイレクト ルーティング | [ビデオ 1: ダイレクト ルーティングの計画 (Teams](https://aka.ms/teams-dr-plan)<br>[ビデオ 2: ダイレクト ルーティングの構成と管理Teams](https://aka.ms/teams-dr-config)<br>[ビデオ 3: Teams でのダイレクト ルーティングへの移行](https://aka.ms/teams-dr-migrate)  | [デッキ](https://aka.ms/teams-direct-routing-deck) |
 | Skype for Business から Teams へのアップグレード | [ビデオ 1: アップグレードの概要](https://aka.ms/teams-upgrade-intro)</br>[ビデオ 2: アップグレードの計画](https://aka.ms/teams-upgrade-plan)</br>[ビデオ 3: 共存および相互運用性](https://aka.ms/teams-upgrade-coexistence-interop)</br>[ビデオ 4: 管理者体験](https://aka.ms/teams-upgrade-admin) | [デッキ](https://aka.ms/teams-upgrade-deck)|
 
-<h2>Teams ミーティングIT & AV Pros の基礎</h2>
+<h2>TeamsRooms Foundations for IT & AV Pros</h2>
 
-<p>次の表は、包括的なビデオ トレーニングへのリンクを示しています。このビデオ トレーニングには、PowerPoint デッキ (PDF 形式) が付属Microsoft Teams ミーティング。  
+<p>次の表は、すべての会議室に付属の PowerPoint デッキ (PDF 形式) を含む包括的なビデオ トレーニングへのリンクMicrosoft Teamsされています。  
 
 | モジュール | ビデオ | PowerPoint デッキ (PDF)  |
 | ------------ | -------------------- | -------------------- |
-| モジュール 1: Microsoft Teams ミーティングの概要 (18:29 分) | [ビデオ](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
+| モジュール 1: 会議室Microsoft Teamsの概要 (18:29 分) | [ビデオ](https://www.youtube.com/watch?v=LpFQ24S8QlY) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-1-introduction-to-microsoft-teams-rooms.pdf?raw=true) |
 | モジュール 2: Microsoft Teams ネットワーク (34:10 分) | [ビデオ](https://www.youtube.com/watch?v=CqQX4Mg0f1k) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-2-network-readiness.pdf?raw=true) |
 | モジュール 3: 適切な領域に適切なデバイスを選択する (18:45 分) | [ビデオ](https://www.youtube.com/watch?v=jUac7mT7xP4) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-3-choosing-the-right-device.pdf?live=true) |
-| モジュール 4: デプロイMicrosoft Teams ミーティング (56:36 分) | [ビデオ](https://www.youtube.com/watch?v=IJZPczMAsEM) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
-| モジュール 5: Microsoft Teams ミーティングの構成と開始 (32:27 分) | [ビデオ](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
-| モジュール 6: Microsoft Teams ミーティング、パート 1 (18:31 分) | [ビデオ](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
-| モジュール 7: Microsoft Teams ミーティング、パート 2 (41:06 分) | [ビデオ](https://www.youtube.com/watch?v=vDCYM5sKylc) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| モジュール 8: Microsoft Teams ミーティング--ヒント、テクニック、トラブルシューティング (18:14 分)|[ビデオ](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| モジュール 4: Microsoft Teams 会議室のデプロイ (56:36 分) | [ビデオ](https://www.youtube.com/watch?v=IJZPczMAsEM) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-4-deployment.pdf?raw=true) |
+| モジュール 5: 会議室の構成Microsoft Teams開始 (32:27 分) | [ビデオ](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
+| モジュール 6: 会議室Microsoft Teams管理、パート 1 (18:31 分) | [ビデオ](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
+| モジュール 7: 会議室Microsoft Teams管理、パート 2 (41:06 分) | [ビデオ](https://www.youtube.com/watch?v=vDCYM5sKylc) | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
+| モジュール 8: Microsoft Teams会議室 - ヒント、テクニック、トラブルシューティング (18:14 分)|[ビデオ](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | ワンタッチ結合の手順 |  | [デッキ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 
 <h2>TeamsAndroid デバイス</h2>
 
-<p>次の表には、Teams ディスプレイ、Teams Phones、Teams ミーティング for Android、Teams Panels を含む Microsoft Teams Android デバイス上の PowerPoint デッキ (PDF 形式) を使用した包括的なトレーニングへのリンクが含まれています。  
+<p>次の表には、Teams ディスプレイ、Teams Phone、android 用 Teams 会議室、Teams パネルを含む Microsoft Teams Android デバイス上の PowerPoint デッキ (PDF 形式) を使用した包括的なトレーニングへのリンクが含まれています。  
 
 | モジュール | PowerPoint デッキ (PDF)  |
 | ------------| -------------------- |
@@ -107,8 +107,8 @@ ms.locfileid: "53113966"
 | 電話会議を構成する Microsoft Teams                            | Teams の電話会議の機能を確認し、会議ブリッジとダイヤルイン電話番号を割り当てる方法について説明します。                                                                                          |  [ビデオ ガイド用の電話会議Microsoft Teams構成する](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Firstline worker のMicrosoft Teamsの構成                           | Firstline Workforce に適切な環境を構成Microsoft Teamsデプロイする方法について学習します。                                                                                                                  | [Firstline workers Microsoft Teamsの構成に関するガイド](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 最前線の従業員の ID: IT、マネージャー、およびフロントライン ワーカーを支援する                    | Microsoft Teams を既存の人事システムと統合し、軽量の委任 ID 管理を構成し、共有デバイスを使用するユーザーに対して簡単なサインインとシームレスな移行を構成する方法について説明します。                                                                                                                  | [Frontline worker ID ガイド](https://aka.ms/FLWIdentityIG)              |
-| デプロイMicrosoft Teams ミーティング                           | 管理センターでデバイスを管理Microsoft Teams ミーティングアカウントを作成および構成するMicrosoft Teams説明します。                                                                                                                  | [デプロイMicrosoft Teams ミーティング](https://aka.ms/teamsroomslab)              |
-|認定 Android デバイスTeams操作する|電話、ディスプレイ、Microsoft Teams、Microsoft Teams パネルの管理とMicrosoft Teams ミーティングアップグレードMicrosoft Teamsします。|[認定 Android Microsoft Teamsの操作](https://aka.ms/teamsandroiddeviceslab)|
+| 会議室Microsoft Teams展開                           | Microsoft Teams 会議室で使用するアカウントを作成および構成し、管理センターでデバイスMicrosoft Teams説明します。                                                                                                                  | [会議室Microsoft Teams展開](https://aka.ms/teamsroomslab)              |
+|認定 Android デバイスTeams操作する|電話、ディスプレイ、会議室、Microsoft TeamsパネルMicrosoft Teamsを管理およびアップグレードMicrosoft Teams方法についてMicrosoft Teamsします。|[認定 Android Microsoft Teamsの操作](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>クイック スタート ガイド</h2>
 

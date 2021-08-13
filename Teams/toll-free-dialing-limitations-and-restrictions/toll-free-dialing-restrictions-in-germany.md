@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: ドイツの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
-ms.openlocfilehash: 46ccab7c8172f0b94a7a69d88db5aca7f9fafe87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fb90c07a487905b06e7ad1e66f8b3357d65ac641dd5d0454fff1c6b755bd372d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098103"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297743"
 ---
 # <a name="toll-free-dialing-restrictions-in-germany"></a>ドイツでのフリーダイヤル制限
 

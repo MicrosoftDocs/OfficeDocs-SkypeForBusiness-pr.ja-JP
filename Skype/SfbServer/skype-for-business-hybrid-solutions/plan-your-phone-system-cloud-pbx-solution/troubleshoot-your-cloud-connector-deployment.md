@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: クラウド コネクタ エディションの展開のトラブルシューティングを行います。
-ms.openlocfilehash: 9da10f1b3e8dd800e57b46f6a56eb6a82c29e22c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7982cd153dcd9cc615201044c080479e9693550a0446b12c9a8a73c4366a9d57
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344576"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>クラウド コネクタの展開のトラブルシューティング
 
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
  
 クラウド コネクタ エディションの展開のトラブルシューティングを行います。
   
@@ -122,9 +122,9 @@ ms.locfileid: "51094825"
 
 - 
     
-    **問題: Windows 更新プログラムが適用されるとホスト サーバーが再起動され、サーバーによってサービスされた呼び出しが失敗しています。**
+    **問題: 更新プログラムが適用されたWindowsホスト サーバーが再起動され、サーバーによってサービスされた呼び出しが失敗しています。**
     
-    **解決策:** 高可用性環境を展開した場合、Microsoft は、Windows 更新プログラムを手動で確認してインストールするときに、1 つのホスト マシン (展開インスタンス) を現在のトポロジに移動または削除するためのコマンドレットを提供します。 これを実現するには、次の手順を実行します。
+    **解決策:** 高可用性環境を展開した場合、Microsoft は、1 つのホスト マシン (展開インスタンス) を現在のトポロジに移動したり、更新プログラムを手動でインストールしたりするときに、現在のトポロジに移動するのに役立つコマンドレットWindows提供します。 これを実現するには、次の手順を実行します。
     
 1. ホスト サーバーで、管理者として PowerShell コンソールを起動し、次のコマンドを実行します。
     
@@ -142,19 +142,19 @@ ms.locfileid: "51094825"
 
 - 
     
-    **問題: PSTN 番号を使用して Skype for Business クライアントから通話が行われた場合、別の PSTN 番号を招待して電話会議にエスカレートすることはできません。**
+    **問題: PSTN 番号を使用して Skype for Businessクライアントから通話が行われた場合、別の PSTN 番号を招待して電話会議にエスカレートすることはできません。**
     
-    **解決策:** この問題を解決するには [、「Configure online hybrid Mediation Server Settings」を参照してください](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer)。
+    **解決策:** この問題を解決するには、「Configure online hybrid Mediation Server 設定」[を参照してください](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer)。
     
-- **問題: Active Directory サーバーをインストールするときに、Windows Update に関する警告メッセージが表示されます。"Windows 自動更新が有効になっていません。新しくインストールされた役割または機能が自動的に更新されていることを確認するには、Windows Update を有効にします。**
+- **問題: Active Directory サーバーをインストールするWindows更新プログラムに関する警告メッセージが表示Windows自動更新が有効になっていません。新しくインストールされた役割または機能が自動的に更新されていることを確認するには、[更新] Windowsします。**
     
-    **解決策:** Skype for Business テナント管理者資格情報を使用してテナント リモート PowerShell セッションを起動し、次のコマンドレットを実行してサイトの _EnableAutoUpdate_ 構成を確認します。
+    **解決策:** テナント管理者資格情報を使用してテナント リモート PowerShell セッションをSkype for Businessし、次のコマンドレットを実行してサイトの _EnableAutoUpdate_ 構成を確認します。
     
   ```powershell
   Get-CsHybridPSTNSite
   ```
 
-    _EnableAutoUpdate_ が **True** に設定されている場合は、CCEManagement サービスが仮想マシンとホスト サーバーの両方の Windows 更新プログラムのダウンロードとインストールを処理しますので、この警告メッセージを無視しても問題ない場合があります。 _EnableAutoUpdate が False_ に設定されている **場合** は、次のコマンドレットを実行して True に設定 **します**。
+    _EnableAutoUpdate_ が **True** に設定されている場合、CCEManagement サービスは仮想マシンとホスト サーバーの両方の Windows 更新プログラムのダウンロードとインストールを処理しますので、この警告メッセージを無視しても問題ない場合があります。 _EnableAutoUpdate が False_ に設定されている **場合** は、次のコマンドレットを実行して True に設定 **します**。
     
   ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -170,7 +170,7 @@ ms.locfileid: "51094825"
     
     まず、[アプライアンスルート ディレクトリ] セクションCloudConnector.iniファイルを確認してください。 ファイル内の \<SiteName\> 、 \<Mediation Server FQDN\> および \<Mediation Server IP Address\> 値を取得します。 \<ApplianceName\> はホスト サーバー名です。
     
-    次に、Skype for Business テナント管理者資格情報を使用してテナント リモート PowerShell を起動し、次のコマンドレットを実行して登録済みのアプライアンスを確認します。
+    次に、テナント管理者の資格情報Skype for Business使用してテナント リモート PowerShell を起動し、次のコマンドレットを実行して登録されたアプライアンスを確認します。
     
   ```powershell
   Get-CsHybridPSTNAppliance
@@ -185,7 +185,7 @@ ms.locfileid: "51094825"
     
 - **問題: ホストGet-CcRunningVersion展開されたアプライアンスが実行されている場合、このコマンドレットは空の値を返します。**
     
-  **解決策:** これは、1.3.4 または 1.3.8 から 1.4.1 にアップグレードするときに発生する可能性があります。 バージョン 1.4.1 を .msi でインストールした後、他のコマンドレットを実行する前 `Register-CcAppliance` に実行する必要があります。 `Register-CcAppliance` %UserProfile%\CloudConnector module.ini%ProgramData%\CloudConnector に移行します。 見つからない場合は、%ProgramData%\CloudConnector フォルダーに新しい module.ini が作成され、1.3.4 または 1.3.8 の実行中/バックアップ バージョン情報が置き換されます。
+  **解決策:** これは、1.3.4 または 1.3.8 から 1.4.1 にアップグレードするときに発生する可能性があります。 バージョン 1.4.1 をインストールした後、.msiを実行する `Register-CcAppliance` 前に実行する必要があります。 `Register-CcAppliance` %UserProfile%\CloudConnector module.ini%ProgramData%\CloudConnector に移行します。 見つからない場合は、%ProgramData%\CloudConnector フォルダーに新しい module.ini が作成され、1.3.4 または 1.3.8 の実行中/バックアップ バージョン情報が置き換されます。
     
   module.ini %UserProfile%\CloudConnector および %ProgramData%\CloudConnector フォルダー内のファイルを比較します。 違いがある場合は、%ProgramData%\CloudConnector module.iniファイルを削除して再実行します  `Register-CcAppliance` 。 また、ファイルを手動で正しい実行バージョンとバックアップ バージョンに変更することもできます。
     
@@ -197,7 +197,7 @@ ms.locfileid: "51094825"
     
 - **問題: サーバーの全体管理ストア、仲介サーバー、およびエッジ サーバーに発行された証明機関の証明書または内部証明書が有効期限が近いか、侵害されています。**
     
-    **解決策:** Skype for Business 証明機関の証明書は 5 年間有効です。 中央管理ストア、仲介サーバー、エッジ サーバーに発行された内部証明書は、2 年間有効です。
+    **解決策: Skype for Business** 証明機関の証明書は 5 年間有効です。 中央管理ストア、仲介サーバー、エッジ サーバーに発行された内部証明書は、2 年間有効です。
     
     > [!NOTE]
     > クラウド コネクタ バージョン 2.0 以降では、Renew-CcServerCertificate コマンドレットが Update-CcServerCertificate に変更され、Renew-CcCACertificate コマンドレットが Update-CcCACertificate に変更されました。 
@@ -306,23 +306,23 @@ ms.locfileid: "51094825"
      ```
     
     
-- **問題: クラウド コネクタ管理サービス ログに次のエラー メッセージが表示されます。"C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService エラー: 0 : オンラインに状態を報告するときに予期しない例外: System.Management.Automation.CmdletInvocationException: ユーザーのログオンに失敗しました。 \<Global Tenant Admin\>正しいユーザー名とパスワードを使用していることを確認して、新しい資格情報オブジェクトを作成してください。---\>**
+- **問題: クラウド コネクタ管理サービス ログの "C:\Program Files\Skype for Business クラウド コネクタ エディション\ManagementService\CceManagementService.log": CceService エラー: 0 : オンラインに状態を報告するときに予期しない例外: System.Management.Automation.CmdletInvocationException: ユーザーのログオンに失敗しました。 \<Global Tenant Admin\>正しいユーザー名とパスワードを使用していることを確認して、新しい資格情報オブジェクトを作成してください。---\>**
     
-    **解決策:** Microsoft 365 または Office 365 グローバル テナント管理者の資格情報は、クラウド コネクタ アプライアンスが登録された後に変更されています。 クラウド コネクタ アプライアンスでローカルに保存されている資格情報を更新するには、ホスト アプライアンスの Administrator PowerShell から次の手順を実行します。
+    **解決策:** Cloud Connector Microsoft 365登録Office 365、グローバル テナント管理者の資格情報が変更されています。 クラウド コネクタ アプライアンスでローカルに保存されている資格情報を更新するには、ホスト アプライアンスの Administrator PowerShell から次の手順を実行します。
     
   ```powershell
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- **問題: 展開に使用したホスト サーバー アカウントのパスワードを変更した後、%ProgramFiles%\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log または Get-CcCredential コマンドレットの実行中に、次のエラー メッセージが表示されます。**
+- **問題: 展開に使用したホスト サーバー アカウントのパスワードを変更すると、%ProgramFiles%\Skype for Business クラウド コネクタ エディション\ManagementService\CceManagementService.log または Get-CcCredential コマンドレットの実行中に、次のエラー メッセージが表示されます。**
     
-    **解決策:** すべてのクラウド コネクタ資格情報は、"%SystemDrive%\Programdata\Cloudconnector\credentials" というファイルに格納されます \<CurrentUser\> 。xml」 ホスト サーバーのパスワードが変更された場合は、ローカルに保存されている資格情報を更新する必要があります。
+    **解決策:** すべてのクラウド コネクタ資格情報は、"%SystemDrive%\Programdata\Cloudconnector\credentials" というファイルに格納されます。 \<CurrentUser\>.xml」 ホスト サーバーのパスワードが変更された場合は、ローカルに保存されている資格情報を更新する必要があります。
     
     **クラウド コネクタ バージョン 1.4.2** を実行している場合は、次の手順に従ってすべてのクラウド コネクタ のパスワードを再生成します。
     
   1. ホスト サーバーを再起動します。
     
-  2. "%SystemDrive%\Programdata\Cloudconnector\credentials" というファイルを削除します \<CurrentUser\> 。xml」
+  2. "%SystemDrive%\Programdata\Cloudconnector\credentials" というファイルを削除します。 \<CurrentUser\>.xml」
     
   3. 管理者として PowerShell コンソールを起動し、"Register-CcAppliance -Local" を実行して、説明に従ってパスワードを再入力します。 クラウド コネクタの展開に前に入力したパスワードと同じパスワードを入力します。
     
@@ -330,7 +330,7 @@ ms.locfileid: "51094825"
     
   4. ホスト サーバーを再起動します。
     
-  5. "%SystemDrive%\Programdata\Cloudconnector\credentials" というファイルを削除します \<CurrentUser\> 。xml" .
+  5. "%SystemDrive%\Programdata\Cloudconnector\credentials" というファイルを削除します。 \<CurrentUser\>.xml" .
     
   6. 管理者として PowerShell コンソールを起動し、"Register-CcAppliance -Local" を実行して、説明に従ってパスワードを再入力します。 
     
@@ -388,13 +388,13 @@ ms.locfileid: "51094825"
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
-- **問題: ホスト サーバーまたは仮想マシンで Windows 更新プログラムを手動で確認してインストールする必要があります。**
+- **問題: ホスト サーバーまたは仮想マシンに手動Windows更新プログラムを確認してインストールする必要があります。**
     
-   **解決策:** Skype for Business Cloud Connector Edition が提供する自動 OS 更新プログラムを利用することをお勧めします。 アプライアンスがオンライン管理用に登録され、自動 OS 更新が有効になると、ホスト サーバーと仮想マシンは、OS の更新タイム ウィンドウの設定に従って Windows Update を自動的にチェックしてインストールします。
+   **解決策:** ユーザーが提供する自動 OS 更新プログラムを利用することをおSkype for Business クラウド コネクタ エディション。 アプライアンスがオンライン管理用に登録され、自動 OS 更新が有効になると、ホスト サーバーと仮想マシンは、OS 更新のタイム ウィンドウ設定に従って Windows Update を自動的にチェックしてインストールします。
     
-   Windows 更新プログラムを手動で確認してインストールする必要がある場合は、展開の種類に適用されるこのセクションの手順に従います。 更新に必要なダウンタイムを最小限に抑えるために、ホスト サーバーとホスト サーバー上で実行されている仮想マシンの両方を同時に更新する予定です。
+   更新プログラムを手動で確認してインストールするWindows、展開の種類に適用されるこのセクションの手順に従います。 更新に必要なダウンタイムを最小限に抑えるために、ホスト サーバーとホスト サーバー上で実行されている仮想マシンの両方を同時に更新する予定です。
     
-   必要に応じて、WSUS (Windows Server Update Services) サーバーを使用して、クラウド コネクタ サーバーに更新プログラムを提供できます。 Windows Update が自動的にインストールされない構成 **にしてください** 。
+   必要に応じて、クラウド コネクタ Windows Server Update Services (WSUS) サーバーを使用して更新プログラムを提供できます。 更新プログラムが自動的にインストールWindows構成 **してください**。
     
    クラウド コネクタの展開を手動で更新する方法については、次のセクションを参照してください。
     
@@ -408,7 +408,7 @@ ms.locfileid: "51094825"
  
 -   **問題: "Stop-CsWindowsService" という用語は、コマンドレット、関数、スクリプト ファイル、または操作可能なプログラムの名前として認識されません。Enter-CcUpdate コマンドレットを実行しようとするとエラーが発生します。**
 
-    **解決策:** ファイルを$HOME\AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache ファイルを削除します。
+    **解決策:**[$HOME\AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache ファイルを削除します。
 PowerShell は、見つけたモジュールからコマンドレットのキャッシュとしてこのファイルを作成します。これにより、すべてのモジュールを再分析する必要が生じ、その結果、処理が非常に遅くなります。 ほとんどの場合、そのキャッシュから読み戻す際に、PowerShell に誤解を招く結果を提供するファイルの破損が発生した可能性があります。
 
 -   **問題: "Import-Module CloudConnector" はエラー "Import-Module: 指定されたモジュール "CloudConnector" が読み込まれないので、有効なモジュール ファイルがモジュール ディレクトリに見つからなかったため生成されます。**
@@ -423,15 +423,15 @@ PowerShell は、見つけたモジュールからコマンドレットのキャ
      b. 永続的な変更を行う場合は、PowerShell を管理者として起動し、次のコマンドを 1 つ 1 つ実行します。$CurrentValue = [環境]::GetEnvironmentVariable("PSModulePath","Machine") SetEnvironmentVariable("PSModulePath",$CurrentValue + ";C:\Program Files\WindowsPowerShell\Modules", "Machine")
 
     
-## <a name="install-windows-updates-manually"></a>Windows 更新プログラムを手動でインストールする
+## <a name="install-windows-updates-manually"></a>更新プログラムWindows手動でインストールする
 
-環境で自動更新を使用しない場合は、次の手順に従って Windows 更新プログラムを手動で確認して適用します。 Windows 更新プログラムを確認してインストールするには、サーバーの再起動が必要な場合があります。 ホスト サーバーが再起動すると、ユーザーはクラウド コネクタを使用して通話を送受信できません。 更新プログラムを手動で確認してインストールして、更新プログラムの実行を制御し、サービスの中断を避けるために選択した時間に必要に応じてコンピューターを再起動できます。
+環境で自動更新を使用しない場合は、次の手順に従って、更新プログラムを手動で確認して適用Windowsしてください。 更新プログラムの確認とインストールWindowsサーバーの再起動が必要な場合があります。 ホスト サーバーが再起動すると、ユーザーはクラウド コネクタを使用して通話を送受信できません。 更新プログラムを手動で確認してインストールして、更新プログラムの実行を制御し、サービスの中断を避けるために選択した時間に必要に応じてコンピューターを再起動できます。
   
-更新プログラムを手動で確認するには、各ホスト サーバーに接続し、コントロール パネルを **開きます**。 [ **システムとセキュリティ \> の Windows Update]** を選択し、環境に応じて更新プログラムとサーバーの再起動を管理します。
+更新プログラムを手動で確認するには、各ホスト サーバーに接続し、コントロール パネルを **開きます**。 [**システムとセキュリティ] \> Windowsを** 選択し、環境に応じて更新プログラムとサーバーの再起動を管理します。
   
-- サイトにアプライアンスが 1 つしかない場合は、各仮想マシンに接続し、コントロール パネルを **開きます**。 [ **システムとセキュリティ \> の Windows Update]** を選択し、必要に応じて更新プログラムとサーバーの再起動を構成します。
+- サイトにアプライアンスが 1 つしかない場合は、各仮想マシンに接続し、コントロール パネルを **開きます**。 [**システムとセキュリティ] を \> Windowsし**、必要に応じて更新プログラムとサーバーの再起動を構成します。
     
-- サイト内に複数のアプライアンスがある場合、更新中および再起動中のインスタンスは、更新中にユーザーがアクセスできません。 更新が完了した後、すべての仮想マシンとすべての Skype for Business サービスが仮想マシンで開始されるまで、ユーザーは展開内の他のインスタンスに接続します。 サービスが中断される可能性を回避するために、更新プログラムの適用中に HA からインスタンスを削除し、完了したら復元できます。 これを行うには、以下のようにします。
+- サイト内に複数のアプライアンスがある場合、更新中および再起動中のインスタンスは、更新中にユーザーがアクセスできません。 ユーザーは、更新が完了した後、すべての仮想マシンとすべての Skype for Business サービスが仮想マシンで開始されるまで、展開内の他のインスタンスに接続します。 サービスが中断される可能性を回避するために、更新プログラムの適用中に HA からインスタンスを削除し、完了したら復元できます。 そのためには、次を実行します。
     
 1. 各ホスト サーバーで、管理者として PowerShell コンソールを開きます。
     
@@ -453,7 +453,7 @@ PowerShell は、見つけたモジュールからコマンドレットのキャ
 
 複数サイト展開の場合は、展開内の各サイトの 1 つのサイトの手順に従って、一度に 1 つのサイトに更新プログラムを適用します。
   
-## <a name="tips-when-installing-anti-virus-software-on-the-cloud-connector-host-machine"></a>クラウド コネクタ ホスト コンピューターにウイルス対策ソフトウェアをインストールする際のヒント
+## <a name="tips-when-installing-anti-virus-software-on-the-cloud-connector-host-machine"></a>ヒント コネクタ ホスト コンピューターにウイルス対策ソフトウェアをインストールする場合の問題
 
 クラウド コネクタ ホスト コンピューターにウイルス対策ソフトウェアをインストールする必要がある場合は、次の除外を追加する必要があります。
   
@@ -463,7 +463,7 @@ PowerShell は、見つけたモジュールからコマンドレットのキャ
     
 - コンピューター上のローカル サイト ディレクトリは、共有サイト のルート フォルダーをホストします。
     
-- %ProgramFiles%\Skype for Business Cloud Connector Edition
+- %ProgramFiles%\Skype for Business クラウド コネクタ エディション
     
 - %ALLUSERSPROFILE%\CloudConnector
     

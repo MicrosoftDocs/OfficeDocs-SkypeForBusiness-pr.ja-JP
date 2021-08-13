@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: Skype for Business Online プラン 1 は廃止されました。 ただし、オンライン プラン 1 をSkype for Businessサブスクリプションをお持ちである場合、この変更は影響を受け取るわけではありません。 新しいプラン (現在または更新中) に移行する準備ができたら、3 つのオプションがあります。
-ms.openlocfilehash: 11ee9f7ce323555b0ce7c21a326115ba05014c97
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1fcab902c9d3c05713a3bf263fa54cf33e7036f1b8cf9b7b8935fe966f8d5659
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238679"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316373"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype for Business Online プラン 1 のサポート終了 
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business Online プラン 1 は廃止されました。 ただし、オンライン プラン 1 をSkype for Businessサブスクリプションをお持ちである場合、この変更は影響を受け取るわけではありません。 グローバル Office 365 管理者は、メールの更新を受け取り、アクションを実行する必要がある場合に関する情報を含む投稿をメッセージ センター (Microsoft 365 管理センターの一部) に表示します。 その間、既存のオンライン プラン 1 ライセンスSkype for Business引き続き使用できます。
+Skype for Business Online プラン 1 は廃止されました。 ただし、オンライン プラン 1 をSkype for Businessサブスクリプションをお持ちである場合、この変更は影響を受け取るわけではありません。 グローバル Office 365 管理者は、メールの更新を受け取り、アクションを実行する必要がある場合に関する情報を含む投稿をメッセージ センター (Microsoft 365 管理センター の一部) に表示します。 その間、既存のオンライン プラン 1 ライセンスSkype for Business引き続き使用できます。
 
 新しいプラン (現在または更新中) に移行する準備ができたら、Office 365 F1 または別の Office 365 プランに切り替えるオプションがあります。
 
@@ -45,7 +45,7 @@ Skype for Business Online プラン 1 と同じ機能を維持しながら、新
 
 ### <a name="how-to-switch"></a>切り替え方法 
 
-更新プログラムに切りOffice 365 F1切り替えるか、更新プロセス中に更新とアップグレードが行えるまで待ちます。 いずれの場合も、Microsoft から直接サブスクリプションを購入しない限り、アカウントの担当者またはパートナーと連絡を取って切り替えます。この場合は、Microsoft 365 管理センターで自分で Office 365 F1 に切り替えます。
+更新プログラムに切りOffice 365 F1切り替えるか、更新プロセス中に更新とアップグレードが行えるまで待ちます。 いずれの場合も、Microsoft から直接サブスクリプションを購入しない限り、アカウントの担当者またはパートナーと連絡を取って切り替えます。その場合は、Microsoft 365 管理センター で自分で Office 365 F1 に切り替えます。
 
 
 ## <a name="switching-to-another-office-365-offer"></a>別のオファーにOffice 365する

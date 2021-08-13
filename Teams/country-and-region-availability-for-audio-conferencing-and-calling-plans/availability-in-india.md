@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: インドで利用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
-ms.openlocfilehash: a5bb42531cc2dc3fc7688bfeb014b82b30513502
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c7675f2625de4e7e18167e6982f16a3d6721710554906ee0d0a7a71d9b5598c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117995"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344356"
 ---
 # <a name="availability-in-india"></a>インドでの利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51117995"
 
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

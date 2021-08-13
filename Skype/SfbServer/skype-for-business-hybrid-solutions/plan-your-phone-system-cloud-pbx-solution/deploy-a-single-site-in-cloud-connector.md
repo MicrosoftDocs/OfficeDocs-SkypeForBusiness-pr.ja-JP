@@ -16,23 +16,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: クラウド コネクタ エディションでの 1 つの PSTN サイトの展開について説明します。
-ms.openlocfilehash: 32c981b0f7de3d596dc25c3336000871db9fee65
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 52c10b8c5e386f72415ce5a379b68b0b469f825f5cf52be9b225f28dcf8232b6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094835"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298127"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>クラウド コネクタでの単一サイトの展開
  
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
 クラウド コネクタ エディションでの 1 つの PSTN サイトの展開について説明します。
   
-Skype for Business Cloud Connector Edition は、高可用性 (HA) のサポートを使用する場合と使用しない場合に展開できます。 HA を有効にする場合は、サイト内に 2 つ以上のアプライアンスを展開する必要があります。 展開後に既存のアプライアンスを HA をサポートするために変換することもできます。
+高可用性 (HA) Skype for Business クラウド コネクタ エディションサポートを使用して展開できます。 HA を有効にする場合は、サイト内に 2 つ以上のアプライアンスを展開する必要があります。 展開後に既存のアプライアンスを HA をサポートするために変換することもできます。
   
-## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>最初の Skype for Business Cloud Connector Edition アプライアンスを展開する
+## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>最初のアプライアンスをSkype for Business クラウド コネクタ エディションする
 
 サイトに最初のアプライアンスを展開するには、管理者として PowerShell コンソールを開き、次のコマンドレットを実行してアプライアンスを登録します。
   
@@ -58,7 +58,7 @@ Install-CcAppliance
   
 1. 「クラウド コネクタ アプライアンスの準備」の説明に従って、クラウド コネクタ アプライアンスを [準備する手順に従います](prepare-your-cloud-connector-appliance.md)。 一部の手順は、展開内の最初のアプライアンスでのみ必要です。 サイト ディレクトリが存在し、HA サポート用に正しく構成されていることを確認します。
     
-2. Microsoft 365 または 365 組織の構成でトポロジ情報を更新するには、新しく追加されたホスト サーバーでのみ次Office実行します。 複数のアプライアンスを同時に追加する場合は、新しく追加された各ホスト サーバーでコマンドレットを 1 つ 1 つ実行します。
+2. 新しく追加されたホスト サーバー上でのみ次のコマンドレットを実行して、組織の構成に含Microsoft 365またはOffice 365更新します。 複数のアプライアンスを同時に追加する場合は、新しく追加された各ホスト サーバーでコマンドレットを 1 つ 1 つ実行します。
     
    ```powershell
    Register-CcAppliance
@@ -83,7 +83,7 @@ Install-CcAppliance
 
 既存のサイトからアプライアンスを削除する場合は、次の方法を実行します。
   
-1. サイトから削除するホスト サーバー上でのみ、次のコマンドレットを実行して、Microsoft 365 または Office 365 組織構成のトポロジ情報を更新します。
+1. サイトから削除するホスト サーバー上でのみ、次のコマンドレットを実行して、組織の構成内のトポロジMicrosoft 365更新Office 365します。
     
    ```powershell
    Unregister-CcAppliance

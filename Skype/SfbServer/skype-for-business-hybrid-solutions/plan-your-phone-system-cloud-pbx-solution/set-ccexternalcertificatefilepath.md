@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
-description: Set-CcExternalCertificateFilePath コマンドレットは仲介サーバーまたはエッジ サーバーの証明書が保管されているパスを指定します。
-ms.openlocfilehash: 9216b82626da7160d6e1bfa8d611757321a2683a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このSet-CcExternalCertificateFilePathコマンドレットは、仲介サーバーまたはエッジ サーバーの証明書が格納されるパスを指定します。
+ms.openlocfilehash: 7b9b494b27f3ed05dd1ef1cdb91bd583abf2d2b391f1a49c0b2615fd3485187c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344566"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
-Set-CcExternalCertificateFilePath コマンドレットは仲介サーバーまたはエッジ サーバーの証明書が保管されているパスを指定します。
+このSet-CcExternalCertificateFilePathコマンドレットは、仲介サーバーまたはエッジ サーバーの証明書が格納されるパスを指定します。
   
-この証明書は、展開時や Skype for Business Cloud Connector エディションの新しいアプライアンスを追加するときに必要になります。コマンドにより、展開後に仲介サーバーの新しい証明書をインポートすることも可能になります。
+この証明書は、展開中または新しいアプライアンスの追加時にSkype for Business クラウド コネクタ エディション。 また、展開後に仲介サーバーの新しい証明書をインポートすることもできます。
   
-このコマンドレットは Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。
+このコマンドレットは、Skype for Business クラウド コネクタ エディション 1.4.1、1.4.2 に適用されます。
   
 ```powershell
 Set-CcExternalCertificateFilePath [-Target] <string> {EdgeServer | MediationServer} [-Path] <string> [-Import]  [<CommonParameters>]
@@ -37,7 +37,7 @@ Set-CcExternalCertificateFilePath [-Target] <string> {EdgeServer | MediationServ
 
 ### <a name="example-1"></a>例 1
 
-次の例は、エッジ サーバーの証明書のパスを設定します。
+次の使用例は、エッジ サーバーの証明書のパスを設定します。
   
 ```powershell
 Set-CcExternalCertificateFilePath -Target EdgeServer -Path C:\CloudConnector\Certificates\AdatumPublicEdge.pfx
@@ -45,7 +45,7 @@ Set-CcExternalCertificateFilePath -Target EdgeServer -Path C:\CloudConnector\Cer
 
 ### <a name="example-2"></a>例 2
 
-次の例は、仲介サーバーの証明書のパスを設定します。
+次の例では、仲介サーバーの証明書のパスを設定します。
   
 ```powershell
 Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnector\Certificates\AdatumPublicMediation.pfx
@@ -53,7 +53,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 ### <a name="example-3"></a>例 3
 
-次の例は、仲介サーバーの証明書を更新します。
+次の例では、仲介サーバーの証明書を更新します。
   
 ```powershell
 Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnector\Certificates\AdatumPublicMediation.pfx -Import
@@ -62,22 +62,22 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-展開時またはトポロジを変更しているときに、エッジ サーバーの証明書のパスを指定する必要があります。必要に応じて、仲介サーバーの証明書のパスも任意で指定します。 
+展開中、またはトポロジの変更中に、エッジ サーバー証明書のパスと、必要に応じて仲介サーバー証明書のパスを指定する必要があります。 
   
-仲介サーバーの証明書は、TLS がゲートウェイと仲介サーバーの間で使用される場合に必要となります。 クラウドコネクタのアプライアンスを展開して、TLS を展開する場合、仲介サーバーに展開される証明書へのパスのみを指定できます。 ただし、既に展開済みのアプライアンス上の仲介証明書を更新する場合は、パスと -Import パラメーターを指定する必要があります。 パスを表示するには、Get-CCExternalCertificateFilePath コマンドレットを使用します。
+ゲートウェイと仲介サーバーの間で TLS を使用する場合は、仲介サーバーの証明書が必要です。 クラウド コネクタ アプライアンスを展開し、TLS を展開する場合は、仲介サーバーに展開される証明書へのパスのみを指定できます。 ただし、既に展開されているアプライアンスで仲介証明書を更新する場合は、パスと -Import パラメーターを指定する必要があります。 パスを表示するには、次のコマンドレットGet-CCExternalCertificateFilePathします。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| Target <br/> | 必須 <br/> |System.String  <br/> |必要なファイル パスの種類。種類:  <br/> EdgeServer (既定)  <br/> MediationServer  <br/> |
-|Import  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |証明書が仲介サーバーにインポートされる必要があることを示します。初めてアプライアンスを展開する場合は、このパラメーターは必要ありません。このパラメーターは、既に展開済みのバージョン上で、既存の証明書を変更する場合に必要です。  <br/> |
+| Target <br/> | 必須 <br/> |System.String  <br/> |要求されたファイル パスの種類。 型には、次のものが含まれます。  <br/> EdgeServer (既定)  <br/> MediationServer  <br/> |
+|インポート  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |証明書を仲介サーバーにインポートする必要があります。 アプライアンスを初めて展開する場合、このパラメーターは必要ではありません。 既に展開されているバージョンの既存の証明書を変更する場合は、このパラメーターが必要です。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-Set-CcExternalCertificateFilePath コマンドレットはパイプライン入力を受け入れません。
+このSet-CcExternalCertificateFilePathは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

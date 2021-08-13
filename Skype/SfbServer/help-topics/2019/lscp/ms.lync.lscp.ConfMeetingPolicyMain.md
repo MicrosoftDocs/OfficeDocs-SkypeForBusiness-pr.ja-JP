@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会議ポリシーにより、会議 (ミーティングとも呼ばれます) でユーザーが使用できる機能が定義されます。
-ms.openlocfilehash: 4895847cc4c05008830c285862556466036d5265
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0e39d37e3aa6a92a63fb4d5a62e34681f11d7ab9c5002e219db9df997c16247f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118886"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316253"
 ---
 # <a name="conferencing-policy"></a>会議ポリシー
 
@@ -77,4 +77,4 @@ ms.locfileid: "51118886"
 
 - **レコーディング** 電話会議ポリシーで、会議で録音が許可されている場合に確認します。
 
-会議の機能の詳細については、「計画」のドキュメントの「[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)」を参照してください。 会議ポリシーの使用の詳細については、「操作」のドキュメントの「[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)」を参照してください。
+会議の機能の詳細については、「計画」のドキュメントの「[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)」を参照してください。会議ポリシーの使用の詳細については、「操作」のドキュメントの「[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)」を参照してください。

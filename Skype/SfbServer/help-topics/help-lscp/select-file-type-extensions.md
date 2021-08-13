@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
-description: '[ファイル タイプ拡張子] ダイアログ ボックスを使用し、[ファイル タイプ拡張子] の下の拡張子の横のチェック ボックスをオン (禁止) またはオフ (許可) にすることで、禁止または許可するファイル タイプ拡張子を選択します。 矢印をクリックしてカテゴリを展開し、そのカテゴリのファイル タイプ拡張子をすべて表示します。 カテゴリ内のすべてのファイル タイプ拡張子を選択する場合は、カテゴリ名を選択します。'
-ms.openlocfilehash: fdf495ae2f8de1a4951b5388bc2000f7a63ad76a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[ファイル タイプ拡張子] ダイアログ ボックスを使用し、[ファイル タイプ拡張子] の下の拡張子の横のチェック ボックスをオン (禁止) またはオフ (許可) にすることで、禁止または許可するファイル タイプ拡張子を選択します。矢印をクリックしてカテゴリを展開し、そのカテゴリのファイル タイプ拡張子をすべて表示します。カテゴリ内のすべてのファイル タイプ拡張子を選択する場合は、カテゴリ名を選択します。'
+ms.openlocfilehash: 337016f01b3fc9aea0559572d3d21c8cbbaa76f49cae6b17faf8010a97f5265a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814547"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330051"
 ---
 # <a name="select-file-type-extensions"></a>ファイルの種類の拡張子の選択
  
@@ -30,6 +30,6 @@ ms.locfileid: "49814547"
   
 必要なファイル タイプ拡張子すべてを [**選択したファイル タイプ拡張子**] リストに追加したら、[**OK**] をクリックします。
   
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
   
 

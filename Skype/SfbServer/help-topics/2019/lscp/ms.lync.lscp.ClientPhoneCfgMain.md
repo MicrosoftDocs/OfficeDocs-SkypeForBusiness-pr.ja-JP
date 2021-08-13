@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: デバイス構成は、Skype for Business Phone Edition デバイスをグローバルまたはサイト内で管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
-ms.openlocfilehash: 60d9ab8c09b648df14758056fed6096439b7f811
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: デバイス構成は、グローバルまたはサイト内で、Skype for Business 電話 Edition デバイスを管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。
+ms.openlocfilehash: c8f1b8e453bf92c103808c0e3500597d1a81b57ed61e4cc22856aeab2284e5b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120236"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316313"
 ---
 # <a name="device-configuration"></a>デバイス構成
  
-デバイス構成は、Skype for Business Phone Edition デバイスをグローバルまたはサイト内で管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。 
+デバイス構成は、グローバルまたはサイト内で、Skype for Business 電話 Edition デバイスを管理するために使用される設定のコレクションです。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。 
   
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 

@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
-description: Uninstall-CcAppliance コマンドレットは実行中の Skype for Business Cloud Connector エディションのアプライアンスをホスト サーバーからアンインストールします。
-ms.openlocfilehash: c92ad5c31e2e254e4f10511835b6cc9f60c7c43c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このUninstall-CcApplianceコマンドレットは、実行中のSkype for Business クラウド コネクタ エディションアプライアンスをホスト サーバーからアンインストールします。
+ms.openlocfilehash: f82459e71ee3c7eea88030a2f265f0076a633a280ee3182920e599402f69a96c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344556"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
-Uninstall-CcAppliance コマンドレットは実行中の Skype for Business Cloud Connector エディションのアプライアンスをホスト サーバーからアンインストールします。 
+このUninstall-CcApplianceコマンドレットは、実行中のSkype for Business クラウド コネクタ エディションアプライアンスをホスト サーバーからアンインストールします。 
   
 ```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
@@ -33,7 +33,7 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 
 ### <a name="example-1"></a>例 1
 
-次の例では、ホストサーバーからクラウドコネクタアプライアンスを処理し、アンインストールします。
+次の使用例は、ホスト サーバーからクラウド コネクタ アプライアンスをドレインおよびアンインストールします。
   
 ```powershell
 Uninstall-CcAppliance
@@ -41,7 +41,7 @@ Uninstall-CcAppliance
 
 ### <a name="example-2"></a>例 2
 
-次の例では、ドレインプロセスが失敗した場合でも、ホストサーバー上で実行されているクラウドコネクタのアプライアンスをドレインして、強制的にアンインストールします。
+次の例では、ドレイン プロセスが失敗した場合でも、ホスト サーバーで実行中のクラウド コネクタ アプライアンスをドレインし、強制的にアンインストールします。
   
 ```powershell
 Uninstall-CcAppliance -Force
@@ -49,7 +49,7 @@ Uninstall-CcAppliance -Force
 
 ### <a name="example-3"></a>例 3
 
-次の例では、ユーザーの確認なしにクラウドコネクタのバックアップバージョンをアンインストールします。
+次の例では、ユーザーの確認なしで Cloud Connector バックアップ バージョンをアンインストールします。
   
 ```powershell
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
@@ -58,21 +58,21 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-現在実行されているクラウドコネクタのバージョンをアンインストールする場合、ドレインサービスは、仮想マシンをアンインストールする前に同時呼び出しが終了するように、仲介サーバーとエッジサーバー上で最初に実行されます。 バックアップ バージョンをアンインストールしている場合は、ドレイン処理は実行されません。
+現在実行中のバージョンのクラウド コネクタをアンインストールする場合は、最初に仲介サーバーとエッジ サーバーでドレイン サービスを実行し、仮想マシンをアンインストールする前に同時呼び出しを終了します。 バックアップ バージョンをアンインストールする場合、ドレインは実行されません。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-| Version <br/> | 省略可能 <br/> |System.String  <br/> | ホストサーバーからアンインストールされるクラウドコネクタのバージョン。 指定されていない場合、現在実行中のバージョンをアンインストールします。 <br/> |
-|Force  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |現在の実行中バージョンをアンインストールする場合、仮想マシンをアンインストールする前に仲介サーバーとエッジ サーバーで、サーバーのドレイン処理を試みます。「Force」スイッチを指定すると、ドレイン サービスが失敗した場合でも、仮想マシンはアンインストールされます。このパラメーターは現在の実行中バージョンをアンインストールするためのみに使用されます。  <br/> |
-|Confirm  <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |仮想マシンをアンインストールするかどうかをユーザーに確認します。 既定値は TRUE です。  <br/> |
+| Version <br/> | 省略可 <br/> |System.String  <br/> | ホスト サーバーからアンインストールされるクラウド コネクタのバージョン。 指定しない場合は、現在実行中のバージョンをアンインストールします。 <br/> |
+|Force  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |現在実行中のバージョンをアンインストールする場合は、仮想マシンをアンインストールする前に仲介サーバーとエッジ サーバー上のサーバーをドレインしてください。 "Force" スイッチを指定すると、ドレイン サービスが失敗した場合でも、仮想マシンはアンインストールされます。 このパラメーターは、現在実行中のバージョンをアンインストールする場合にのみ使用されます。  <br/> |
+|確認  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |仮想マシンをアンインストールするユーザーの確認を求める。 既定値は TRUE です。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Uninstall-CcAppliance コマンドレットはパイプライン入力を受け入れません。
+なし。 このUninstall-CcApplianceは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

@@ -14,14 +14,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
-description: 初期トポロジの展開時やその後に、外部ユーザー アクセスのサポートを追加できます。 既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「Define Your Edge Topology」を参照してください。
-ms.openlocfilehash: 56d56af147bce60eb5d19a16c073f31dddce437c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 初期トポロジの展開時やその後に、外部ユーザー アクセスのサポートを追加できます。既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「Define Your Edge Topology」を参照してください。
+ms.openlocfilehash: bd1a76778b3c54925ca67ed2cdee076fbb97c721821b7cb97fdff681182d8619
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101733"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298347"
 ---
 # <a name="add-edge-server-support"></a>エッジ サーバーのサポートの追加
 
-初期トポロジの展開時やその後に、外部ユーザー アクセスのサポートを追加できます。 既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「[Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)」を参照してください。
+初期トポロジの展開時やその後に、外部ユーザー アクセスのサポートを追加できます。既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「[Define Your Edge Topology](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)」を参照してください。

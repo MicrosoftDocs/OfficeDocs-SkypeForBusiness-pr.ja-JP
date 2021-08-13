@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
-description: 'Update-CcCACertificate コマンドレットは、Skype for Business Cloud Connector エディションの有効期限が近づいている、またはすでに有効期限が切れているルート CA 証明書を更新します。 '
-ms.openlocfilehash: 9a99e80e166b7c8624867594fa02243d9d70537e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このUpdate-CcCACertificateコマンドレットは、有効期限Skype for Business クラウド コネクタ エディション近い、または既に有効期限が切れているルート CA 証明書を更新します。
+ms.openlocfilehash: 640ca982cd005e9805d7214212d847edcc6856456b6995fe1ae689778da58f61
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344536"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
-Update-CcCACertificate コマンドレットは、Skype for Business Cloud Connector エディションの有効期限が近づいている、またはすでに有効期限が切れているルート CA 証明書を更新します。  
+このUpdate-CcCACertificateコマンドレットは、有効期限Skype for Business クラウド コネクタ エディション近い、または既に有効期限が切れているルート CA 証明書を更新します。 
   
 ```powershell
 Update-CcCACertificate
@@ -30,7 +30,7 @@ Update-CcCACertificate
 
 ## <a name="parameters"></a>パラメーター
 
-なし
+なし。
   
 ## <a name="examples"></a>例
 <a name="Examples"> </a>
@@ -46,20 +46,20 @@ Update-CcCACertificate
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-Cloud Connector のルート CA 証明書は証明機関サービスをインストールした日から 5 年間有効です。
+Cloud Connector ルート CA 証明書は、証明機関サービスがインストールされた日から 5 年間有効です。
   
-ルート証明書の有効期限が近づいている場合またはすでに有効期限が切れている場合は、Update-CcCACertificate コマンドレットを実行して証明書を更新します。 ルート証明書を更新すると、AD サーバー、中央管理ストア、エッジ サーバーに対して新しい証明書が自動的に発行されます。
+ルート証明書の有効期限が近い場合、または既に有効期限が切れている場合は、Update-CcCACertificateコマンドレットを実行して証明書を更新します。 ルート証明書が更新された後、ADサーバー、サーバーの全体管理ストア、およびエッジ サーバーが自動的に新しい証明書を発行します。
   
-同一の PSTN サイトに複数のアプライアンスが存在する場合は、その PSTN サイトのすべてのアプライアンスで Update-CcCACertificate コマンドレットを実行します。
+同じ PSTN サイトに複数のアプライアンスがある場合は、同じ PSTN サイトのすべてのUpdate-CcCACertificateコマンドレットを実行します。
   
-最後に、Export-CcRootCertificate コマンドレットを実行して、最初のアプライアンスのローカル ファイルにルート証明書をエクスポートし、エクスポートした証明書を PSTN ゲートウェイにコピーしてインストールします。
+最後の手順として、Export-CcRootCertificateを実行して、ルート証明書を最初のアプライアンスのローカル ファイルにエクスポートし、エクスポートした証明書を PSTN ゲートウェイにコピーしてインストールします。
   
-Cloud Connector 2.0 以降のリリースでは、このコマンドによって Renew-CcCACertificate コマンドレットが置き換えられます。
+このコマンドは、Cloud Connector 2.0 Renew-CcCACertificate以降のリリースのコマンドレットを置き換えるコマンドです。
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。 Update-CcCACertificate コマンドレットはパイプライン入力を受け入れません。
+なし。 このUpdate-CcCACertificateは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

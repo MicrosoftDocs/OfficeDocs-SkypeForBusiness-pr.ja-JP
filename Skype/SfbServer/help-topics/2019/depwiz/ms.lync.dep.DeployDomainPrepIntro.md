@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[ドメインの準備] ページは、Skype for Business Server のドメインを準備するプロセスを開始します。 [次へ] をクリックして、ドメインの準備を開始します。'
-ms.openlocfilehash: 87335f45b1f87c30f41c9aca1c4e979594b6d014
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[ドメインの準備] ページでは、ドメインを準備するプロセスが開始Skype for Business Server。 [次へ] をクリックして、ドメインの準備を開始します。'
+ms.openlocfilehash: 60fb91b298c38e9267e8948c8ebcfbd4e23a170e57462cbb98ec7b18a2b6b4f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330451"
 ---
 # <a name="prepare-current-domain-intro"></a>現在のドメインの準備 (開始)
  
-[ **ドメインの準備** ] ページでは、Skype for Business Server のドメインを準備するプロセスが開始されます。 **[次へ]** をクリックして、ドメインの準備を開始します。
+[**ドメインの準備**] ページでは、ドメインを準備するプロセスが開始Skype for Business Server。 **[次へ]** をクリックして、ドメインの準備を開始します。
   
 

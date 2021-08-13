@@ -14,20 +14,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[地域リンク] ダイアログ ボックスを使用して、環境で使用可能な地域リンクを検索します。 既存の地域リンクを使用するには、一覧で地域リンクをクリックし、[OK] をクリックします。'
-ms.openlocfilehash: 35478fe2ceebb5edcd819e24c0c3ef5fe0b408da
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[地域リンク] ダイアログ ボックスを使用して、環境で使用可能な地域リンクを検索します。 既存の地域リンクを使用するには、リスト内の地域リンクをクリックし、[OK] をクリックします。'
+ms.openlocfilehash: bb34b5c92807783fe85235b16442b66ba2fa1d313bd8c2a20bedb37f38be489c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330331"
 ---
 # <a name="select-a-region-link"></a>地域リンクの選択
  
-[地域 **リンク] ダイアログ ボックス** を使用して、環境で使用可能な地域リンクを検索します。 既存の地域リンクを使用するには、一覧で地域リンクをクリックし **、[OK]** をクリックします。
+[地域 **リンク] ダイアログ ボックス** を使用して、環境で使用可能な地域リンクを検索します。 既存の地域リンクを使用するには、リスト内の地域リンクをクリックし **、[OK] をクリックします**。
   
 > [!NOTE]
-> 使用可能なすべての地域リンクを取得するには、検索ボックスに何も入力しないで、検索アイコンをクリックします。 
+> 使用可能なすべての地域リンクを取得するには、検索ボックスに何も入力しないし、検索アイコンをクリックします。 
   
  
   

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既に定義されている信頼済みアプリケーション サーバーのプロパティを編集するには、以下の操作を行います。
-ms.openlocfilehash: 8cdf27598c916f84e96b11d8acfaeb115a0575dd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 97a70b203995581c73556b478f7c15055e3e96694e4079d44b36513d491f4d63
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330341"
 ---
 # <a name="external-application-general-settings-expander"></a>外部アプリケーション全般設定エキスパンダー
  
@@ -40,7 +40,7 @@ ms.locfileid: "49822427"
   
 ## <a name="next-hop-settings"></a>次ホップ設定
 
-ドロップダウン リストから定義済みの Enterprise Edition フロントエンド プールまたは Standard Edition フロントエンド サーバーを選択して、信頼済みアプリケーション サーバー プールの次ホップ サーバーを指定できます。 ディレクターまたはディレクター プールは、信頼されたアプリケーション サーバーの次ホップとしては有効な選択肢ではないため、リストに表示されません。
+信頼できるアプリケーション サーバー プールの次ホップ サーバーを指定するには、定義済みの Enterprise Edition フロントエンド プールまたは Standard Edition フロント エンド サーバーをドロップダウン リストから選択します。 ディレクターまたはディレクター プールは、信頼されたアプリケーション サーバーの次ホップとしては有効な選択肢ではないため、リストに表示されません。
   
 
 **[OK] を** クリックして変更を受け入れて保存します。 変更を破棄してプロパティ ページを終了するには、**[キャンセル]** をクリックします。

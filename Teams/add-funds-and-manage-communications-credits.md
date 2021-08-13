@@ -30,12 +30,12 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Skype for Business サービスの通信クレジット (PSTN 消費) の支払い方法と、ユーザーが継続的な電話システム アクセスを維持する計画を確認する方法について説明します。 '
-ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6f96b56400e3186a6d4df3276204359c6943d10113f3967eef59322e461f1092
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121495"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344416"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
@@ -77,11 +77,11 @@ ms.locfileid: "51121495"
 
 - [電話システムプラン](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-また、管理センターにサインインし、[課金サブスクリプション] [サブスクリプションの追加] に移動Microsoft 365情報  >    >  **を確認できます**。
+また、サブスクリプションにサインインし、[課金サブスクリプション] Microsoft 365 管理センター サブスクリプションの追加]にアクセスして、情報  >    >  **を確認できます**。
   
 各機能に必要なライセンスまたはライセンスを含むテーブルを表示するには[、「Microsoft Teams」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 

@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
-description: Microsoft は、サーバーにインポートしてユーザーに配布できる Skype for Business Phone Edition のデバイス ファームウェア更新プログラムの新しいセットを定期的にリリースします。 最新のデバイス更新ルールのセットを取得するには、Microsoft Web サイトの [ヘルプとサポート] ページに移動し、Phone Edition を検索します。最新の更新プログラム パッケージをダウンロードし、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。 ファイルが抽出された後、Import-CsDeviceUpdate コマンドレットを使用して、抽出されたデバイス更新ルールをインポートできます。CAB ファイル (このファイルの名前はUCUpdates.cab)。 詳細については、「Import-CsDeviceUpdate」を参照してください。
-ms.openlocfilehash: e98d414c66c6d4400d1bf2de88158859e57b93a9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Microsoft は、サーバーにインポートしてユーザーに配布できる Skype for Business 電話 Edition のデバイス ファームウェア更新プログラムの新しいセットを定期的にリリースします。 最新のデバイス更新ルールのセットを取得するには、Microsoft Web サイトの [ヘルプとサポート] ページに移動し、Phone Edition を検索します。最新の更新プログラム パッケージをダウンロードし、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。 ファイルを抽出した後、Import-CsDeviceUpdate コマンドレットを使用して、抽出された .CAB ファイルにあるデバイス更新ルール (名前は UCUpdates.cab) をインポートできます。 詳細については、「Import-CsDeviceUpdate」を参照してください。
+ms.openlocfilehash: a418080393d27fdbabbc31a0a7bf5dc9c43aede23b75f6344921f596086fb78b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330111"
 ---
 # <a name="device-update"></a>デバイス更新
 
-Microsoft は、サーバーにインポートしてユーザーに配布できる Skype for Business Phone Edition のデバイス ファームウェア更新プログラムの新しいセットを定期的にリリースします。 最新のデバイス更新ルールのセットを取得するには、Microsoft Web サイトの [ヘルプとサポート] ページに移動し、"Phone Edition" を検索します。 最新の更新プログラム パッケージをダウンロードし、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。 ファイルが抽出された後 **、Import-CsDeviceUpdate** コマンドレットを使用して、抽出されたデバイス更新ルールをインポートできます。CAB ファイル (このファイルの名前はUCUpdates.cab)。 詳細については [、「Import-CsDeviceUpdate」を参照してください](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)。
+Microsoft は、サーバーにインポートしてユーザーに配布できる Skype for Business 電話 Edition のデバイス ファームウェア更新プログラムの新しいセットを定期的にリリースします。 最新のデバイス更新ルールのセットを取得するには、Microsoft Web サイトの [ヘルプとサポート] ページに移動し、"電話 Edition" を検索します。 最新の更新プログラム パッケージをダウンロードし、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。 ファイルを抽出した後 **、Import-CsDeviceUpdate** コマンドレットを使用して、抽出された .CAB ファイル (名前が UCUpdates.cab) にあるデバイス更新ルールをインポートできます。 詳細については [、「Import-CsDeviceUpdate」を参照してください](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)。
 
 デバイス更新ルールをインポートした後、[デバイスの更新]ページを使用して、組織のデバイスのこれらのルールを表示および管理できます。
 

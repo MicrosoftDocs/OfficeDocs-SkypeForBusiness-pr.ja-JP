@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のエラー分布レポート
+title: エラー配布レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: '概要: Skype for Business Server のエラー分布レポートについて学習します。'
-ms.openlocfilehash: 251cf8e2017312d9e42e0d1aebcfe5d1d9bd3568
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: エラー配布レポートの詳細については、Skype for Business Server。'
+ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344726"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Skype for Business Server のエラー分布レポート
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>エラー配布レポート (Skype for Business Server
  
-**概要:** Skype for Business Server のエラー分布レポートについて学習します。
+**概要:** 詳細については、「エラー配布レポート」を参照Skype for Business Server。
   
 エラー分布レポートは、問題の発生したセッションを以下のカテゴリに分類します。
   
@@ -47,13 +47,13 @@ ms.locfileid: "49823527"
 
 以下の任意のレポートで、[**予期されるエラー ボリューム**] または [**予期しないエラー ボリューム**] 測定基準をクリックすることにより、エラー分布レポートにアクセスできます。
   
-- [Skype for Business Server のトップ エラー レポート](top-failures-report.md)
+- [[トップ エラー] レポート (Skype for Business Server](top-failures-report.md)
     
-- [Skype for Business Server の電話会議診断レポート](conference-diagnostic-report.md)
+- [会議の診断レポート (Skype for Business Server](conference-diagnostic-report.md)
     
-- [Skype for Business Server のピアツーピア アクティビティ診断レポート](peer-to-peer-activity-diagnostic-report.md)
+- [ピアツーピア アクティビティ診断レポート (Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-エラー分布レポートから次の指標をクリックすると、Skype for Business Server のエラー リスト [レポートを表示できます](failure-list-report.md)。
+[エラー配布レポート] から、次の指標をクリックして、[エラー 一覧] レポート[を](failure-list-report.md)[エラー一覧] Skype for Business Server。
   
 - [トップの診断理由] (セッション)
     
@@ -91,8 +91,8 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
 |**名前**|**説明**|
 |:-----|:-----|
-|**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日午後 1 時  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
-|**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日午後 1 時  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
+|**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
+|**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**Pool** <br/> |レジストラー プールまたはエッジ サーバーの完全修飾ドメイン名 (FQDN)。個別のプールを選択するか、[**すべて**] をクリックしてすべてのプールのデータを表示できます。このドロップダウン リストは、データベース内のレコードに基づいて自動的に設定されます。<br/> |
 |[**動作状況の種類**] <br/> | フィルターを適用する動作状況の種類。次のいずれかを選択します。 <br/>  [All] <br/>  ピアツーピア <br/>  会議 <br/> |
 |[**セッション カテゴリ**] <br/> | 問題のアクティビティが成功したか失敗したかを示します。次のいずれかを選択します。 <br/>  [All] <br/>  成功 <br/>  [予期されたエラー] <br/>  [予期しないエラー] <br/>  "予期されたエラー" は、発生が予期されるエラーです。たとえば、ユーザーが応答不可のステータスを設定した場合、そのユーザーへの呼び出しはエラーとなることが予期されます。"予期しないエラー" は、そのエラーの発生以外にはシステムに異常がないと思われる状況で発生するエラーです。たとえば、発信者が保留にされたときに、通話が終了してはなりません。そのような状態が発生する場合は、予期しないエラーとしてフラグが設定されます。 <br/> |
@@ -148,13 +148,13 @@ UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
    
 ## <a name="metrics-for-top-components"></a>トップ コンポーネントの指標
 
-次の表に、最もエラーが発生したコンポーネントに基づいて、エラー分布レポートで提供される情報を示します。
+次の表に、最も多くのエラーが発生したコンポーネントに基づいて、エラー配布レポートで提供される情報を示します。
   
 **トップ コンポーネントの指標**
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|**Rank** <br/> |いいえ  <br/> |コンポーネント (ExumRouting、GroupChat、MediationServer など) に基づく、失敗したセッションの相対的なランク付け。  <br/> |
+|**Rank** <br/> |いいえ  <br/> |コンポーネント (ExumRouting、GroupChat、MediationServer など) に基づく失敗したセッションの相対的なランク付け。  <br/> |
 |[**トップ コンポーネント**] <br/> |いいえ  <br/> |失敗したセッションに含まれるコンポーネントの名前。  <br/> |
 |**セッション** <br/> |いいえ  <br/> |コンポーネントごとの失敗したセッションの総数。  <br/> |
    

@@ -19,12 +19,12 @@ ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
 description: 管理者は、デスクトップおよび Web クライアントと B2B コラボレーション ポータルで、Microsoft Teamsゲストを組織Azure Active Directoryする方法について説明します。
-ms.openlocfilehash: 1d44aff9b62a5ba6de7c22499f5a20f187d7781b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1525a389b5299491dc7d0de2adfd744d0d3437aff7fbeb5832cd37790ab24ffb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344396"
 ---
 # <a name="add-a-guest-to-a-team"></a>チームにゲストを追加する
 
@@ -48,7 +48,7 @@ Azure AD B2B、Microsoft 365 グループ、または SharePointを使用して�
 ゲストの追加は、Azure AD または Microsoft 365 セキュリティ センターで追跡できます。 Microsoft Teams でのゲストの追加は監査され、「Added member to group (グループにメンバーを追加しました)」という Azure AD グループ管理アクティビティとして記録されます。 詳細については [、「B2B](/azure/active-directory/external-identities/auditing-and-reporting) コラボレーション ユーザーの監査とレポート作成」と「コンプライアンス センターで監査ログを検索 [する」を参照してください](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams でゲスト アクセスを許可する](teams-dependencies.md)
 
