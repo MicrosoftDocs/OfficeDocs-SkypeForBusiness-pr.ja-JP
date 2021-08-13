@@ -17,12 +17,12 @@ f1.keywords:
 description: 'Teams企業向け音声ケース スタディ: 音声移行の概要'
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8a09ab48215b1915c06e46b3d6a3a693958621
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: fa9c4e3e8468723d4e0fce7f2fa5a61646213260fe16a3c137b6c8fe7e01a635
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319630"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Contoso のケース スタディ: Teams移行の概要
 

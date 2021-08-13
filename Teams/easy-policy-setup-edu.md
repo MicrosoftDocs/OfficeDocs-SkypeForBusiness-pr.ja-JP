@@ -17,12 +17,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams for Education ポリシー ウィザードを使用して、学生や教育者向けのポリシーを簡単に適用して、学習環境を安全に保つ方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: 2824ed511f1c2f5a5a7389760de9d50559e5da2a
+ms.openlocfilehash: 335061c2dfb662673a4ec026bb3a29015cdb59b4b198bdafc9a971e4480938d4
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772408"
+ms.locfileid: "54344060"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>セキュリティ ポリシー ウィザードMicrosoft Teams for Education使用して、安全な学習環境にポリシーを簡単に適用する
 

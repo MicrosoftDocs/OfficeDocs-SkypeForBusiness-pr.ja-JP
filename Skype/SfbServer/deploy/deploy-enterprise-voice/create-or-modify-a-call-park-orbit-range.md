@@ -1,5 +1,5 @@
 ---
-title: Skype for Business でコール パーク オービット範囲を作成または変更する
+title: コール パーク オービット範囲を作成または変更Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
-description: Skype for Business Server の通話パーク オービット範囲テーブルを作成または変更エンタープライズ VoIP。
-ms.openlocfilehash: eab1c3e6e53eaa878546b5fe4a9684147a00c583
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: コール パーク オービット範囲テーブルを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: 135a04d5e36a7a0590bd1809f8119360d549071627716605f7f7e13994561dbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332009"
 ---
-# <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Skype for Business でコール パーク オービット範囲を作成または変更する
+# <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>コール パーク オービット範囲を作成または変更Skype for Business
 
-Skype for Business Server の通話パーク オービット範囲テーブルを作成または変更エンタープライズ VoIP。
+コール パーク オービット範囲テーブルを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
 
-コール パークは、駐車場の呼び出しにオービットを使用します。 ユーザーが通話をパークおよび取得する前に、コール パーク オービット テーブルを構成する必要があります。 組織がパーキング 通話用に予約する内線番号 (オービット) の範囲を指定し、各範囲を処理するコール パーク プールを指定して、それらの範囲のルーティングを定義する必要があります。 オービット範囲を定義する場合、目標は十分なオービットを使用して、1 つのオービットがあまり速く再利用されるのではなく、ユーザーや他のサービスで使用できる拡張の数を制限するほど多くのオービットを使用しすぎることです。 通話パーク アプリケーションが展開されている Skype for Business Server プールごとに、複数のコール パーク オービット範囲を作成できます。 各 Call Park オービット範囲には、グローバルに一意の名前と一意の拡張機能セットが必要です。
+コール パークは、駐車場の呼び出しにオービットを使用します。 ユーザーが通話をパークおよび取得する前に、コール パーク オービット テーブルを構成する必要があります。 組織がパーキング 通話用に予約する内線番号 (オービット) の範囲を指定し、各範囲を処理するコール パーク プールを指定して、それらの範囲のルーティングを定義する必要があります。 オービット範囲を定義する場合、目標は十分なオービットを使用して、1 つのオービットがあまり速く再利用されるのではなく、ユーザーや他のサービスで使用できる拡張の数を制限するほど多くのオービットを使用しすぎることです。 コール パーク アプリケーションが展開されている各プールSkype for Business Server複数のコール パーク オービット範囲を作成できます。 各 Call Park オービット範囲には、グローバルに一意の名前と一意の拡張機能セットが必要です。
 
 > [!IMPORTANT]
 > 一般的にオービット範囲には 100 未満のオービットが含まれます。 1 つの範囲の上限は 10,000 オービットです。1 つのプールに含まれるオービットの数は 50,000 未満です。 範囲が小さすぎると、オービットが再び使用されるまでの時間が短くなります。
@@ -39,11 +39,11 @@ Skype for Business Server の通話パーク オービット範囲テーブル�
 
 コール パーク オービットの範囲を作成または変更するには、次のいずれかの手順を使用します。
 
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Skype for Business Server コントロール パネルを使用して、駐車通話の番号範囲を作成または変更するには
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>コントロール パネルSkype for Business Serverを使用して、パーキング通話の番号の範囲を作成または変更するには
 
 1. RTCUniversalServerAdmins グループのメンバーとして、または CsVoiceAdministrator、CsServerAdministrator、または CsAdministrator の役割のメンバーとしてコンピューターにログオンします。詳細については、「**セットアップのアクセス許可の委任**」を参照してください。
 
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。
 
 3. 左側のナビゲーション バーで [**音声機能**] をクリックし、[**コール パーク**] をクリックします。
 
@@ -66,7 +66,7 @@ Skype for Business Server の通話パーク オービット範囲テーブル�
 
    - オービット範囲が文字または #で始まる場合、範囲は 100 より大きい必要 \* があります。
 
-   - 有効な値: 正規表現文字列と一致する必要があります ([ \\ *|#]?1-9]\d {0,7} )|([1-9]\d)。 {0,8} つまり、値は、文字または # で始まる文字列か、1 ~ 9 の数値である必要があります (最初の文字は \* 0 にすることはできません)。 最初の文字が #の場合、次の文字は 1 ~ 9 の数値 \* である必要があります (ゼロにすることはできません)。 後続の文字には、0 ~ 9 の任意の数字 \* ("#6000"、"92000"、"95551212"、"915551212"など) を指定できます。 \* 最初の文字が #または #の場合、最初の文字は 1 ~ 9 の数字 (ゼロにすることはできません)、その後に最大 8 文字の数字 (たとえば \* 、"915551212"、"41212"、"300" など) が続きます。
+   - 有効な値: 正規表現文字列と一致する必要があります ([ \\ *|#]?1-9]\d {0,7} )|([1-9]\d)。 {0,8} つまり、値は、文字または # で始まる文字列か、1 ~ 9 の数値である必要があります (最初の文字は \* 0 にすることはできません)。 最初の文字が #の場合、次の文字は 1 ~ 9 の数値 \* である必要があります (ゼロにすることはできません)。 後続の文字には、0 ~ 9 の任意の数字 \* ("#6000"、"92000"、"95551212"、"915551212" など) を \* 指定できます。 最初の文字がまたは #の場合、最初の文字は 1 から 9 の数字 (ゼロにすることはできません)、その後に最大 8 文字の数字 \* ("915551212"、"41212"、"300" など) が続きます。
 
    - プール当たりの合計が 50,000 オービットを超えないようにしてください。 各オービット範囲は、通常、100 以下のオービットを含みますが、10,000 オービットを超えなければ、範囲をそれよりも広くすることができます。 たとえば、開始番号 "7000000"、終了番号 "8000000" を指定するのではなく、開始番号 "7000000"、終了番号 "7000100" を指定することを検討してください。
 
@@ -74,13 +74,13 @@ Skype for Business Server の通話パーク オービット範囲テーブル�
 
 7. **[確定]** をクリックします。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>Skype for Business Server 管理シェルを使用して、駐車通話の番号範囲を作成または変更するには
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>管理シェルSkype for Business Serverを使用して、パーキング通話の番号範囲を作成または変更するには
 
-1. 「代理セットアップのアクセス許可」の説明に従って、Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限でインストールされているコンピューターにログオンします。
+1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「代理セットアップのアクセス許可」の説明に従って必要なユーザー権限でログオン **します。**
 
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
-3. オービット番号の新しい範囲を作成するには、**New-CsCallParkOrbit** を使用します。 オービット番号の既存の範囲を変更するには、**Set-CsCallParkOrbit** を使用します。
+3. オービット番号の新しい範囲を作成するには、**New-CsCallParkOrbit** を使用します。オービット番号の既存の範囲を変更するには、**Set-CsCallParkOrbit** を使用します。
 
     コマンド ラインで、次のコマンドを実行します。
 

@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の診断レポート
+title: '[診断レポート] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: '概要: Skype for Business Server の診断レポートについて説明します。'
-ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: [診断レポート] の詳細については、「Skype for Business Server。'
+ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297223"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server"></a>Skype for Business Server の診断レポート
+# <a name="diagnostic-report-in-skype-for-business-server"></a>[診断レポート] Skype for Business Server
  
-**概要:** Skype for Business Server の診断レポートについて説明します。
+**概要:**[診断レポート] の詳細については、「Skype for Business Server。
   
-診断レポートは、失敗したセッションの診断およびトラブルシューティング情報を提供します。 この情報には、セッションが失敗した場合に報告された診断 ID と診断ヘッダーの両方が含まれます。 診断 ID は SIP メッセージに接続される一意の識別子 (ms-diagnostics ヘッダーの形式) ですが、診断ヘッダーには診断 ID の説明が付属しています。 レポートには、レポート コンポーネントで知られている貴重なトラブルシューティングの詳細が含まれている場合があります。 例:
+診断レポートは、失敗したセッションの診断およびトラブルシューティング情報を提供します。 この情報には、セッションが失敗した場合に報告された診断 ID と診断ヘッダーの両方が含まれます。 診断 ID は SIP メッセージに接続される一意の識別子 (ms-diagnostics ヘッダーの形式) ですが、診断ヘッダーには診断 ID の説明が付属しています。 レポートには、レポート コンポーネントで知られている貴重なトラブルシューティングの詳細が含まれている場合があります。 次に例を示します。
   
 - エラーを生成した PSTN ゲートウェイによって提供された原因コード。発信通話が PSTN ネットワークで失敗すると、ISDN User Part (ISUP) の原因コードが自動的に生成されます。たとえば、PSTN ゲートウェイは原因コード 34 を送信して、通話を完了するための使用可能な回線またはチャネルが存在しないことを示す場合があります。
     
@@ -33,7 +33,7 @@ ms.locfileid: "51095241"
     
 ## <a name="accessing-the-diagnostic-report"></a>診断レポートへのアクセス
 
-診断レポートにアクセスするには [、Skype for Business Server](peer-to-peer-session-detail-report.md) のピアツーピア セッション詳細レポートまたは会議詳細レポートの診断レポート (詳細) メトリックをクリックします。
+診断レポートにアクセスするには[、Skype for Business Server](peer-to-peer-session-detail-report.md)のピアツーピア セッション詳細レポートまたは会議詳細レポートの診断レポート (詳細) メトリックをクリックします。
   
 ## <a name="filters"></a>フィルター
 

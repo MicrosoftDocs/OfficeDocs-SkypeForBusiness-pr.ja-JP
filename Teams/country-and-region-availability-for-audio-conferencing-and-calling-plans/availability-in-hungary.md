@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ハンガリーで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: fa90a2f7b3a0d3e8add48b17b27d1f17f171a8ea
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: c4eb0a2a750f2f197ef06d2af6f50e14d415027efd9087b104ab443bd9a3e692
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129776"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299424"
 ---
 # <a name="availability-in-hungary"></a>ハンガリーでの利用可能性
 
@@ -82,7 +82,7 @@ ms.locfileid: "52129776"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

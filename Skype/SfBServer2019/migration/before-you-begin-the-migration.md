@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 開始する前に、このドキュメントと次のガイドを読んで、対応する役割の展開に習熟することをお勧めします。
-ms.openlocfilehash: 89249622af6285943de40eed643e2ca7bbed392d
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 開始する前に、このドキュメントと以下のガイドを読んで、対応する役割の展開について理解することをお勧めします。
+ms.openlocfilehash: d450ba89936e9b61f862d59072849fbe5d21e6b66c79ba351f5f275d2a4ff4e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319550"
 ---
 # <a name="before-you-begin-the-migration"></a>移行を始める前に
 
-開始する前に、以下の記事を読んで、対応する役割の展開に習熟することをお勧めします。
+開始する前に、次の記事を読んで、対応する役割の展開について理解することをお勧めします。
     
 ## <a name="in-this-section"></a>このセクションの内容
 

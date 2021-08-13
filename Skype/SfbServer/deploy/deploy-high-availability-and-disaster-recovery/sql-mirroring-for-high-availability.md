@@ -1,5 +1,5 @@
 ---
-title: Skype SQL 2015 でバック エンド サーバーの高可用性をミラーリングする方法を展開する
+title: 2015 SQLでバック エンド サーバーの高可用性のミラーリングをSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、「累積的な更新プログラム パッケージ 9 for SQL Server 2008 Service Pack 1」を参照してください。
-ms.openlocfilehash: 38c3e749b39cd510623232e9f29ace03a1c19f6c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 454222526790e4185b7416c2f7df36ea024ebf5a40fc085cdc37d56dfa646217
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100723"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319490"
 ---
-# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Skype SQL 2015 でバック エンド サーバーの高可用性をミラーリングする方法を展開する
+# <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>2015 SQLのバック エンド サーバーの高可用性に対するミラー Skype for Business展開する
 
 
-SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、「 [累積的な更新プログラム パッケージ 9 for SQL Server 2008 Service Pack 1」を参照してください](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)。
+SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、「累積的な更新プログラム[パッケージ 9 for SQL Server 2008 Service Pack 1」を参照してください](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921)。
 
 一般に、2 つのバックエンド サーバー間での SQL ミラーリングを設定するには、以下の要件を満たしている必要があります。
 
@@ -32,13 +32,13 @@ SQL ミラーリングを展開できるようにするには、サーバーで�
 
 - プライマリおよびミラーの各 SQL Server が同一エディションである (ミラーリング監視のエディションは異なっていても構いません)。
 
-ミラーリングSQLの役割でサポートされているSQLのベスト プラクティスについては、「データベース ミラーリング監視」 [を参照してください](/sql/database-engine/database-mirroring/database-mirroring-witness)。
+ミラーリングSQLの役割でサポートSQLのベスト プラクティスについては、「データベース ミラーリング監視」[を参照してください](/sql/database-engine/database-mirroring/database-mirroring-witness)。
 
 トポロジ ビルダーを使用して、ミラーリングSQL展開します。 トポロジ ビルダーでデータベースをミラーリングするオプションを選択し、トポロジ ビルダーはトポロジの公開時にミラーリングをセットアップします (必要な場合はミラーリング監視の設定を含む)。 ミラーリング監視は、ミラーの設定または削除と同時に設定または削除します。 ミラーリング監視のみ展開または削除する独立したコマンドはありません。
 
-サーバー ミラーリングを構成するには、最初に SQL データベース アクセス許可を正しく設定する必要があります。 詳細については、「データベース ミラーリング [用のログイン アカウントのセットアップ」または「AlwaysOn 可用性グループ (SQL Server)」を参照してください](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)。
+サーバー ミラーリングを構成するには、最初に SQL データベース アクセス許可を正しく設定する必要があります。 詳細については、「データベース ミラーリング[用のログイン アカウントのセットアップ」または「AlwaysOn 可用性グループ (SQL Server)」を参照してください](/sql/database-engine/database-mirroring/set-up-login-accounts-database-mirroring-always-on-availability)。
 
-SQL ミラーリングを使用すると、データベース回復モードは常に Fullに設定されます。つまり、トランザクション ログ のサイズを密接に監視し、バック エンド サーバーのディスク領域を使い切らさなくには、定期的にトランザクション ログをバックアップする必要があります。 トランザクション ログ バックアップの頻度は、ログの増加率によって異なります。これは、フロントエンド プールでのユーザー アクティビティによって発生するデータベース トランザクションによって異なります。 計画を適切に実行するために、展開ワークロードで予想されるトランザクション ログの増加量を決定することをお勧めします。 次の記事では、バックアップとログ管理のSQL情報を提供します。
+SQL ミラーリングを使用すると、データベース回復モードは常に Fullに設定されます。つまり、バック エンド サーバーでディスク領域が使い切らなくするには、トランザクション ログのサイズを定期的に監視し、トランザクション ログをバックアップする必要があります。 トランザクション ログ バックアップの頻度は、ログの増加率によって異なります。これは、フロントエンド プールでのユーザー アクティビティによって発生するデータベース トランザクションによって異なります。 計画を適切に実行するために、展開ワークロードで予想されるトランザクション ログの増加量を決定することをお勧めします。 次の記事では、バックアップとログ管理のSQL情報を提供します。
 
 - [データベース復旧モデル](/sql/relational-databases/backup-restore/recovery-models-sql-server)
 
@@ -49,7 +49,7 @@ SQL ミラーリングを使用すると、データベース回復モードは�
 SQL ミラーリングでは、ミラーリングのトポロジの構成を、プールの作成時、またはプールが既に作成された後のどちらでも行うことができます。
 
 > [!IMPORTANT]
-> トポロジ ビルダーまたはコマンドレットを使用して SQL ミラーリングをセットアップおよび削除すると、プライマリ サーバー、ミラー サーバー、監視サーバー (必要な場合) サーバーすべてが同じドメインに属している場合にのみサポートされます。 異なるドメインのサーバーに SQL ミラーリングを設定する場合は、SQL Server のドキュメントを参照してください。
+> トポロジ ビルダーまたはコマンドレットを使用して SQL ミラーリングをセットアップおよび削除することがサポートされているのは、プライマリ サーバー、ミラー サーバー、監視サーバー (必要な場合) すべてが同じドメインに属している場合のみです。 異なるドメインのサーバーに SQL ミラーリングを設定する場合は、SQL Server のドキュメントを参照してください。
 
 > [!IMPORTANT]
 > バックエンド データベース ミラーリング関係を変更するたびに、プール内のすべてのフロントエンド サーバーを再起動する必要があります。 > ミラーリングの変更 (ミラーの場所の変更など) については、トポロジ ビルダーを使用して、次の 3 つの手順を実行する必要があります。
@@ -61,7 +61,7 @@ SQL ミラーリングでは、ミラーリングのトポロジの構成を、�
 3. トポロジを公開します。
 
 > [!NOTE]
-> ミラー ファイルを書き込むにはファイル共有を作成する必要があります。また、SQL Server および SQL エージェントが実行しているサービスには、読み取り/書き込みアクセスが必要です。 SQL Server サービスがネットワーク サービスのコンテキストで実行されている場合は、プリンシパル サーバーとミラー SQL サーバーの両方の \<Domain\> \\<SQLSERVERNAME $ を共有アクセス許可 \> に追加できます。 $$、これがコンピューター アカウントである場合に重要です。
+> ミラー ファイルを書き込むにはファイル共有を作成し、SQL Server および SQL エージェントが実行しているサービスには読み取り/書き込みアクセスが必要です。 SQL Server サービスがネットワーク サービスのコンテキストで実行されている場合は、プリンシパル サーバーとミラー SQL サーバーの両方の \<Domain\> \\<SQLSERVERNAME $ を共有 \> アクセス許可に追加できます。 $$、これがコンピューター アカウントである場合に重要です。
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>トポロジ ビルダー SQL作成中にミラーリングを構成するには
 
@@ -81,7 +81,7 @@ SQL ミラーリングでは、ミラーリングのトポロジの構成を、�
 
     c. ポート番号 (既定値は 7022) を指定し、[**OK**] をクリックします。
 
-6. フロントエンド プールとトポロジ内の他のすべての役割の定義が完了したら、トポロジ ビルダーを使用してトポロジを公開します。 トポロジが公開されている場合、サーバーの全体管理ストアをホストするフロントエンド プールで SQL ミラーリングが有効になっている場合は、プライマリ ストア データベースとミラー サーバー ストア データベースの両方を作成SQLオプションが表示されます。
+6. フロントエンド プールとトポロジ内の他のすべての役割の定義が完了したら、トポロジ ビルダーを使用してトポロジを公開します。 トポロジが公開されている場合、サーバーの全体管理ストアをホストするフロントエンド プールで SQL ミラーリングが有効になっている場合は、プライマリ ストア データベースとミラー サーバー ストア データベースの両方を作成SQL表示されます。
 
     [**設定**] をクリックし、ミラーリング バックアップのファイル共有として使用するパスを入力します。
 
@@ -123,11 +123,11 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
 
   - [データベース ミラーリング エンドポイント (SQL Server)](/sql/database-engine/database-mirroring/the-database-mirroring-endpoint-sql-server)
 
-## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>Skype for Business Server 2015 管理シェル コマンドレットを使用したミラーリングSQLする
+## <a name="using-skype-for-business-server-2015-management-shell-cmdlets-to-set-up-sql-mirroring"></a>2015 Skype for Business Serverシェル コマンドレットを使用してミラーリングをSQLする
 
 ミラーリングを設定する最も簡単な方法は、トポロジ ビルダーを使用する方法ですが、コマンドレットを使用することもできます。
 
-1. Skype for Business Server 2015 管理シェル ウィンドウを開き、次のコマンドレットを実行します。
+1. 2015 Skype for Business Server管理シェル ウィンドウを開き、次のコマンドレットを実行します。
 
    ```powershell
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose
@@ -225,7 +225,7 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
 
     - ミラーリング監視 SQL Server AB14-lct.los_a.lsipt.local\rtc で Windows ファイアウォールが有効になっている場合は、ポート 7022 がファイアウォール経由でアクセスできる。
 
-   - すべてのプライマリ サーバー SQLおよびミラー サーバーで SQL サーバーを実行しているアカウントには、ファイル共有 \\ E04-OCS\csdatabackup への読み取り/書き込みアクセス許可があります。
+   - すべてのプライマリ サーバー SQLおよびミラー サーバー上で SQL サーバーを実行しているアカウントには、ファイル共有 \\ E04-OCS\csdatabackup への読み取り/書き込みアクセス許可があります。
 
    - これらすべてのサーバーで、Windows Management Instrumentation (WMI) プロバイダーが実行されている。コマンドレットでは、このプロバイダーを使用して、すべてのプライマリ サーバー、ミラー サーバー、およびミラーリング監視サーバーで実行されている SQL Server サービスのアカウント情報が検索されます。
 
@@ -237,7 +237,7 @@ SQL ミラーリングの設定時には次の点に留意する必要があり�
 
     ミラーリングの構成が行われます。
 
-    **Install-CsMirrorDatabase** はミラーをインストールし、プライマリ サーバー ストアに存在するすべてのデータベースのミラーリングをSQLします。 特定のデータベースのミラーリングのみを構成する場合は、-DatabaseType オプションを使用するか、または少数を除くすべてのデータベースのミラーリングを構成する場合は、-ExcludeDatabaseList オプションと共に、除外するデータベース名のコンマ区切りリストを使用できます。
+    **Install-CsMirrorDatabase** はミラーをインストールし、プライマリ サーバー ストアに存在SQLします。 特定のデータベースのミラーリングのみを構成する場合は、-DatabaseType オプションを使用するか、または少数を除くすべてのデータベースのミラーリングを構成する場合は、-ExcludeDatabaseList オプションと共に、除外するデータベース名のコンマ区切りリストを使用できます。
 
     たとえば、次のオプションを **Install-CsMirrorDatabase** に追加した場合は、rtcab と rtcxds を除くすべてのデータベースがミラーリングされます。
 
@@ -289,4 +289,4 @@ Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName
 
     ただし、この手順に従い、ミラーリング構成全体をアンインストールする場合と同様に  `Uninstall-CsMirrorDatabase` 入力しない。
 
-4. ミラーリング監視を SQL Serverから削除するには、「データベース ミラーリング セッションからミラーリング監視を削除する [(SQL Server) 」の手順に従います](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server)。
+4. ミラーリング監視を SQL Server構成から削除するには、「データベース ミラーリング セッションからミラーリング監視を削除する[(SQL Server) 」の手順に従います](/sql/database-engine/database-mirroring/remove-the-witness-from-a-database-mirroring-session-sql-server)。

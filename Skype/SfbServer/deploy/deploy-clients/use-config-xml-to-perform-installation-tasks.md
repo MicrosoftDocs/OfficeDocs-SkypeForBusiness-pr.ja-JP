@@ -1,5 +1,5 @@
 ---
-title: Skype for business Config.xmlでインストール タスクを実行するには、次の手順を実行します。
+title: クライアントConfig.xmlインストール タスクを実行するには、Skype for Business使用します。
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '概要: Config.xmlファイルを使用して、追加のインストール手順を指定する方法について説明します。'
-ms.openlocfilehash: dbf4c4ba4e652f4b777e0c901fee4ffb0ad68af3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7c04a9c08f6a5dd51c21a189ce3a07d81a589cf694e5020a75cf6f646bd1cef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332049"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Skype for business Config.xmlでインストール タスクを実行するには、次の手順を実行します。
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>クライアントConfig.xmlインストール タスクを実行するには、Skype for Business使用します。
 
 **概要:** 追加のインストール手順を指定Config.xmlファイルを使用する方法。
 
@@ -37,27 +37,27 @@ Office カスタマイズ ツール (OCT) はカスタマイズ インストー�
 
 - インストールに対して言語の追加または削除を行う。
 
-Skype for Business サイレント インストールを構成するには、Config.xmlファイルを使用することをお勧めします。 
+サイレント インストールを構成するには、Config.xmlファイルをSkype for Businessすることをお勧めします。 
 
-既定では、コアConfig.xmlに格納されているファイル (\製品など) を指定 _します_。WW) は、セットアップを指示して、その製品をインストールします。 たとえば、次のフォルダーConfig.xmlファイルは Skype for Business をインストールします。
+既定では、コアConfig.xmlに格納されているファイル (\製品など) を指定 _します_。WW) は、セットアップを指示して、その製品をインストールします。 たとえば、次のフォルダーConfig.xmlファイルがインストールされますSkype for Business。
 
-- \\server\share\Skype15\Skype.WW \Config.xml
+- \\server\share\Skype15\Skype。WW \Config.xml
 
-Skype for Business Config.xml最も一般的に使用される要素の一覧を次の表に示します。
+インストールConfig.xml最も一般的に使用されるSkype for Business次の表に示します。
 
 **Config.xml の要素**
 
 
-| **要素**              | **説明**                                                                                                                                                                                                                                                                                         |
+| **Element**              | **説明**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 構成  <br/>     | トップ レベルの要素 (必須)。 Product 属性 (Product=Lync など) が含まれる (これは Skype for Business クライアントで機能します)  <br/>                                                                                                                                                          |
-| OptionState  <br/>       | インストール中、特定の製品の機能が処理される方法を指定します。 Outlook に干渉する共有コンポーネントを含むBusiness Connectivity Servicesのインストールを防止するには、次の属性を使用します。 <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
+| 構成  <br/>     | トップ レベルの要素 (必須)。 Product=Lync など、Product 属性が含まれている (これは、クライアントのSkype for Businessします)  <br/>                                                                                                                                                          |
+| OptionState  <br/>       | インストール中、特定の製品の機能が処理される方法を指定します。 次の属性を使用して、Business Connectivityサービスのインストールを防止します。この属性には、Outlook。 <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | ディスプレイ  <br/>           | セットアップがユーザーに表示する UI のレベル。一般的には次の属性があります。 <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | ログ記録  <br/>           | セットアップが実行するログ記録の種類のオプション。一般的には次の属性があります。 <br/>  Type ="Off"                                                                                                                                                                                       |
-| Setting  <br/>           | Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。<br/>  Id=" *という名前を設定* する (Windows インストーラー プロパティの名前)  <br/>  Value=" *値*" (プロパティに割り当てる値)  <br/>                                                             |
+| Setting  <br/>           | Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。<br/>  Id="*の名前を設定* する (インストーラー プロパティのWindows)  <br/>  Value=" *値*" (プロパティに割り当てる値)  <br/>                                                             |
 | DistributionPoint  <br/> | インストールを実行するネットワーク インストール ポイントの完全修飾パス<br/>  Location=" *パス*"  <br/>                                                                                                                                     |
 
-次の使用例は、skype for Business クライアントConfig.xmlサイレント インストールの一般的なファイルを示しています。 
+次の使用例は、Config.xmlクライアントの一般的なサイレント インストール用のSkype for Businessします。 
 
 ```xml
 <Configuration Product="Lync"> 
@@ -69,7 +69,7 @@ Skype for Business Config.xml最も一般的に使用される要素の一覧を
 </Configuration>
 ```
 
-Config.xmlファイルを使用してインストールおよびOfficeタスクを実行する方法の詳細については、以下のページを参照してください [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 。
+インストールおよび保守タスクの実行に Config.xmlファイルを使用Office詳細については、以下を参照してください [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 。
 
 ## <a name="to-customize-the-configxml-file"></a>Config.xml ファイルをカスタマイズするには
 

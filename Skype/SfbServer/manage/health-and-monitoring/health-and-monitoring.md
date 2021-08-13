@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での正常性と監視の管理
+title: 正常性と監視を管理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,29 +11,29 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
-description: '概要: Skype for Business Server の監視と正常性構成タスクについて説明します。'
-ms.openlocfilehash: 613df0616214e4fbe2a9504e930fcf76c4cfa8c4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 監視と正常性の構成タスクについて説明します。Skype for Business Server。'
+ms.openlocfilehash: 259e3a939f53320d1bb8066bfa02a96c314c1d37dfb7e5d0ccbcd7a5d872a573
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297183"
 ---
-# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Skype for Business Server での正常性と監視の管理
+# <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>正常性と監視を管理Skype for Business Server
 
-**概要:** Skype for Business Server での監視と正常性の構成タスクについて説明します。
+**概要:** 監視と正常性の構成タスクについては、Skype for Business Server。
 
-このセクションのトピックでは、Skype for Business Server コントロール パネルと Skype for Business Server Management Shell で実行できる監視および正常性構成タスクの手順について詳しい手順を説明します。
+このセクションのトピックでは、コントロール パネルと管理シェルで実行できる監視と正常性の構成Skype for Business Server手順Skype for Business Server示します。
 
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business Server での通話詳細記録 (CDR)](call-detail-recording-cdr.md)
+- [通話詳細記録 (CDR) Skype for Business Server](call-detail-recording-cdr.md)
 
-- [Skype for Business Server でのエクスペリエンスの品質 (QoE)](quality-of-experience.md)
+- [エクスペリエンスの品質 (QoE) Skype for Business Server](quality-of-experience.md)
 
-- [Skype for Business Server でのパフォーマンスのモビリティの監視](monitor-mobility-performance.md)
+- [モバイル のパフォーマンスを監視Skype for Business Server](monitor-mobility-performance.md)
 
-- [Skype for Business Server での監視レポートの使用](monitoring-reports.md)
+- [[監視レポートの使用] Skype for Business Server](monitoring-reports.md)
 
 ## <a name="see-also"></a>関連項目
 

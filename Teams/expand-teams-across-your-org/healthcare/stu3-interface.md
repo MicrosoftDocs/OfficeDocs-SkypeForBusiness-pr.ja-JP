@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: Microsoft Teams Patients アプリと STU3 インターフェイスの仕様に電子健康記録を統合する方法について説明します。
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 4e20619badb2509d0a90f396563a98796e718e2f
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: e51372f2c44bdd5bdeea8e4a7699d3f46881564e0c98f3049b95dcbd21eb66c2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803495"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344046"
 ---
 # <a name="stu3-interface-specification"></a>STU3 インターフェイスの仕様
 
@@ -56,7 +56,7 @@ Microsoft Teams Patients アプリからの複数のリソースに対するク�
  - REST
 
     - モード
-    - 対話
+    - 操作
     - リソース: 型
     - セキュリティ: [OAuth URI の拡張機能](https://hl7.org/fhir/extension-oauth-uris.html)
     

@@ -1,5 +1,5 @@
 ---
-title: オンプレミスの Skype for Business Server とサーバー間の統合を構成Outlook Web App
+title: オンプレミスのサーバーとサーバー間の統合Skype for Business Server構成Outlook Web App
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,19 +13,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
-description: '概要: Skype for Business Server とビジネス サーバーを統合Outlook Web App。'
-ms.openlocfilehash: daa9430034d82a3a8dee980a9b075b2fc5656c86
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 統合Skype for Business ServerとOutlook Web App。'
+ms.openlocfilehash: e3bee7a66ec054e316f50ce86839b86d4ecb16ea2333302b12dedb408580c4f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109693"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331859"
 ---
-# <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>オンプレミスの Skype for Business Server とサーバー間の統合を構成Outlook Web App
+# <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>オンプレミスのサーバーとサーバー間の統合Skype for Business Server構成Outlook Web App
 
-**概要:** Skype for Business Server とビジネス サーバーを統合Outlook Web App。
+**概要:** 統合Skype for Business ServerとOutlook Web App。
 
-オンプレミスの Skype for Business Server 展開を使用しているお客様は、ハイブリッド展開モードで Microsoft Outlook Web App Microsoft Exchange Online相互運用性を構成できます。 相互運用性の機能には、シングル サインオンとインスタント メッセージング (IM) とプレゼンスの統合が含Outlook Web Appがあります。 この統合を有効にするには、次のタスクを実行して、オンプレミスの Skype for Business Server 展開でエッジ サーバーを構成する必要があります。
+オンプレミスの展開を使用しているSkype for Business Server、ハイブリッド展開モードでMicrosoft Outlook Web App Microsoft Exchange Online相互運用性を構成できます。 相互運用性機能には、シングル サインオンとインスタント メッセージング (IM) とプレゼンスの統合が含まれます。Outlook Web Appです。 この統合を有効にするには、次のタスクを実行して、オンプレミスのサーバー Skype for Business Serverエッジ サーバーを構成する必要があります。
 
 - 共有 SIP アドレス空間を構成する
 
@@ -35,28 +35,28 @@ ms.locfileid: "51109693"
 
 ## <a name="configure-a-shared-sip-address-space"></a>共有 SIP アドレス空間の構成
 
-オンプレミスの Skype for Business Server を Exchange Online と統合するには、共有 SIP アドレス空間を構成する必要があります。 同じ SIP ドメイン アドレス空間は、Skype for Business Server と Exchange Online サービスの両方でサポートされます。
+オンプレミス のデバイスを Skype for Business ServerとExchange Online、共有 SIP アドレス空間を構成する必要があります。 同じ SIP ドメイン アドレス空間は、サービスとサービスSkype for Business ServerでExchange Onlineされます。
 
-Skype for Business Server 管理シェルを使用して、次の例に示すパラメーターを使用して **Set-CSAccessEdgeConfiguration** コマンドレットを実行して、フェデレーション用にエッジ サーバーを構成します。
+Skype for Business Server管理シェルを使用して、次の例に示すパラメーターを使用して **Set-CSAccessEdgeConfiguration** コマンドレットを実行して、フェデレーション用にエッジ サーバーを構成します。
 
 ```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
-- **AllowFederatedUsers** パラメーターは、内部ユーザーがフェデレーション ドメインのユーザーと通信できるかどうかを指定します。 このプロパティは、内部ユーザーが Skype for Business Server および Exchange Online との共有 SIP アドレス空間シナリオでユーザーと通信できるかどうかも決定します。
+- **AllowFederatedUsers** パラメーターは、内部ユーザーがフェデレーション ドメインのユーザーと通信できるかどうかを指定します。 また、このプロパティは、内部ユーザーが共有 SIP アドレス空間シナリオでユーザーと通信できるかどうかをSkype for Business ServerおよびExchange Online。
 
-Skype for Business Server 管理シェルの使用の詳細については [、「Skype for Business Server Management Shell」を参照してください](../../manage/management-shell.md)。
+管理シェルの使用のSkype for Business Server詳細については、「管理シェルSkype for Business Server[を参照してください](../../manage/management-shell.md)。
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>エッジ サーバーでホスティング プロバイダーを構成する
 
-Skype for Business Server 管理シェルを使用して、次の例のパラメーターを使用して **、New-CsHostingProvider** コマンドレットを実行してエッジ サーバー上のホスティング プロバイダーを構成します。
+Skype for Business Server管理シェルを使用して、次の例のパラメーターを使用して **、New-CsHostingProvider** コマンドレットを実行してエッジ サーバー上でホスティング プロバイダーを構成します。
 
 ```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
 > [!NOTE]
-> 中国で 21Vianet が運用する Microsoft 365 または Office 365 を使用している場合は、この例 ("exap.um.outlook.com") の ProxyFqdn パラメーターの値を、21Vianet が運用するサービスの FQDN に置き換えてください。"exap.um.partner.outlook.cn"。 Microsoft 365 または Office 365 GCC High を使用している場合は、この例 ("exap.um.outlook.com") の ProxyFqdn パラメーターの値を GCC High の FQDN "exap.um.office365.us" に置き換えてください。
+> 中国で 21Vianet が運用する Microsoft 365 または Office 365 を使用している場合は、この例 ("exap.um.outlook.com") の ProxyFqdn パラメーターの値を、21Vianet が運用するサービスの FQDN "exap.um.partner.outlook.cn" に置き換えてください。 Microsoft 365 または Office 365 GCC High を使用している場合は、この例 ("exap.um.outlook.com") の ProxyFqdn パラメーターの値を、GCC High: "exap.um.office365.us" の FQDN に置き換えてください。
 
 - **Identity** は、作成するホスティング プロバイダーの一意の文字列値識別子を指定します (たとえば、"Exchange Online")。 スペースを含む値は二重引用符で囲む必要があります。
 
@@ -64,11 +64,11 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 - **EnabledSharedAddressSpace** は、ホスティング プロバイダーが共有 SIP アドレス スペース シナリオで使用されるかどうかを示します。 これは True に設定する必要があります。
 
-- **HostsOCSUsers は** 、ホスティング プロバイダーを使用して通信サーバーまたは Skype for Business Server Officeホストするかどうかを示します。 これは False に設定する必要があります。
+- **HostsOCSUsers は**、ホスティング プロバイダーを使用して通信サーバーまたはサーバーをホストOfficeをSkype for Business Server。 これは False に設定する必要があります。
 
-- **ProxyFQDN** は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) を指定します。 Exchange Online の場合、FQDN は exap.um.outlook.com。
+- **ProxyFQDN** は、ホスティング プロバイダーによって使用されるプロキシ サーバーの完全修飾ドメイン名 (FQDN) を指定します。 たとえばExchange Online FQDN は exap.um.outlook.com。
 
-- **IsLocal は** 、ホスティング プロバイダーによって使用されるプロキシ サーバーが Skype for Business Server トポロジ内に含まれているかどうかを示します。 これは False に設定する必要があります。
+- **IsLocal は**、ホスティング プロバイダーによって使用されるプロキシ サーバーが、ホスト トポロジ内に含まれているSkype for Business Serverします。 これは False に設定する必要があります。
 
 - **VerificationLevel** ホストされているプロバイダーとの間で送信されるメッセージに対して許可される検証レベルを示します。 ホスティング プロバイダーから送信されたメッセージに含まれる確認レベルを信頼する **UseSourceVerification** を指定します。 このレベルを指定しない場合、メッセージは確認できないとして拒否されます。
 
@@ -76,7 +76,7 @@ New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedA
 
 前のセクションのコマンドレットを使用して行った変更は、エッジ サーバーに自動的に適用され、一般にレプリケートに 1 分未満かかっています。 レプリケーションの状態を検証し、次のコマンドレットを使用して、エッジ サーバーに変更が適用されたと確認できます。
 
-レプリケーションの更新を確認するには、Skype for Business Server 展開の内部サーバーで、次のコマンドレットを実行します。
+レプリケーションの更新を確認するには、サーバーの展開内Skype for Business Server、次のコマンドレットを実行します。
 
 ```powershell
 Get-CsManagementStoreReplicationStatus
@@ -92,6 +92,6 @@ Get-CsHostingProvider -LocalStore
 
 ## <a name="see-also"></a>関連項目
 
-[ホストされている Exchange UM での Skype for Business Server ユーザーのボイス メールの提供](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
+[ホストSkype for Business Server UM でユーザーにボイス メールExchangeする](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
 
-[Skype for Business Server でのホストされた Exchange ユニファイド メッセージングの統合](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration)
+[ホストExchangeユニファイド メッセージングの統合 (Skype for Business Server](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration)

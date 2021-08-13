@@ -1,5 +1,5 @@
 ---
-title: Skype for Business で SEFAUtil ツールを展開する
+title: SEFAUtil ツールをサーバーに展開Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,33 +15,33 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
-description: Skype for Business Server での SEFAUtil ツールの展開。
-ms.openlocfilehash: 013890e3b65dfd3a8360da859a1c9179fa9b5a13
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: SEFAUtil ツールをサーバーに展開Skype for Business Server。
+ms.openlocfilehash: 5683dab35a51a088b89f410c11bd0713a8256496f85d11c7190d44f82528a3c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331869"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Skype for Business で SEFAUtil ツールを展開する
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>SEFAUtil ツールをサーバーに展開Skype for Business
  
-Skype for Business Server での SEFAUtil ツールの展開。
+SEFAUtil ツールをサーバーに展開Skype for Business Server。
   
-グループ通話ピックアップを展開および管理するには、Skype for Business Server バージョンの SEFAUtil ツールを使用する必要があります。 
+グループ通話ピックアップを展開および管理するには、SEFAUtil ツールの Skype for Business Serverバージョンを使用する必要があります。 
   
 > [!IMPORTANT]
 > Microsoft Unified Communications Managed API (UCMA) 5 ランタイムは、SEFAUtil ツールを実行する予定の任意のコンピューターにインストールする必要があります。 ここにダウンロードする: [ユニファイド コミュニケーションマネージ API 5.0 ランタイム](https://www.microsoft.com/download/details.aspx?id=47344)。 また、UCMA 5 SDK (ランタイムを含む) をダウンロードすることもできます [。UCMA 5.0 SDK を次に示します](https://www.microsoft.com/download/details.aspx?id=47345)。
   
-展開内の任意のフロントエンド プールで SEFAUtil ツールを実行できます。 SEFAUtil ツールを実行するには、信頼できるアプリケーション コンピューターで Skype for Business 展開ウィザードから手順 1、2、および 3 を実行する必要があります。 SEFAUtil では、証明書と同様に、ローカル構成ストアが存在する必要があります。
+展開内の任意のフロントエンド プールで SEFAUtil ツールを実行できます。 SEFAUtil ツールを実行するには、信頼済みアプリケーション コンピューターの Skype for Business 展開ウィザードから手順 1、2、および 3 を実行する必要があります。 SEFAUtil では、証明書と同様に、ローカル構成ストアが存在する必要があります。
   
 > [!NOTE]
 > SEFAUtil の実行の詳細については、ブログ記事[「SEFAutil を実行する方法」を参照してください。](/archive/blogs/jenstr/how-to-get-sefautil-running) 
   
 ### <a name="to-deploy-sefautil"></a>SEFAUtil を展開するには
 
-1. 「代理セットアップのアクセス許可」の説明に従って、Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限でインストールされているコンピューターにログオンします。
+1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「代理セットアップのアクセス許可」の説明に従って必要なユーザー権限でログオン **します。**
     
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. SEFAUtil ツールは、信頼できるアプリケーション プールの一部であるコンピューターでのみ実行できます。 必要に応じて、SEFAUtil を実行する予定のフロント エンド プールの信頼できるアプリケーション プールを定義します。 コマンド ラインで、次のコマンドを実行します。
     
@@ -49,8 +49,8 @@ Skype for Business Server での SEFAUtil ツールの展開。
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
-    > プール FQDN: SEFAUtil アプリケーション (通常は Skype for Business フロントエンド サーバーまたはプール) をホストするサーバーまたはプールの FQDN。
-    > プール レジストラー FQDN: このアプリケーション プールに関連付けられている Skype for Business フロントエンド サーバーまたはプールの FQDN。
+    > プール FQDN: SEFAUtil アプリケーションをホストするサーバーまたはプールの FQDN (通常、Skype for Businessフロントエンド サーバーまたはプール)。
+    > プール レジストラー FQDN: このアプリケーション プールにSkype for Businessフロントエンド サーバーまたはプールの FQDN。
     > プール サイト: このプールがホームであるサイトのサイト ID。
 
 4. SEFAUtil ツールを信頼できるアプリケーションとして定義します。 コマンド ラインで、次のコマンドを実行します。
@@ -68,11 +68,11 @@ Skype for Business Server での SEFAUtil ツールの展開。
    Enable-CsTopology
    ```
 
-6. まだインストールしていない場合は、この場所から Skype for Business Server バージョンの[](https://www.microsoft.com/download/details.aspx?id=52631)SEFAUtil ツールをダウンロードし、手順 3 で作成した信頼できるアプリケーション プールにインストールします。
+6. まだインストールしていない場合は、この場所から Skype for Business Server バージョンの SEFAUtil ツールを[](https://www.microsoft.com/download/details.aspx?id=52631)ダウンロードし、手順 3 で作成した信頼できるアプリケーション プールにインストールします。
     
 7. 次のように、SEFAUtil ツールが正しく実行されていることを確認します。 
     
-    a. Windows コマンド プロンプトから管理者特権でツールを実行し、展開でユーザーの通話転送設定を表示します。
+    a. 管理者特権を持つ Windows コマンド プロンプトからツールを実行して、展開内のユーザーの通話転送設定を表示します。
     
     b. ユーザーの通話転送設定を表示します。 コマンド ラインで、次のコマンドを実行します。
     

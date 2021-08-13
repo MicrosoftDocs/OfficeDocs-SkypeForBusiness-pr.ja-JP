@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: エッジ サーバーを展開して組織のフェデレーションを有効にした際に、フェデレーション パートナー ドメインの自動検出をサポートするかどうかを指定しています。
-ms.openlocfilehash: c66dd9750c8fdd36af5fad75f40b6939a04b0971cec4c9e57fe97bd06047ed9d
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 4877472ca48f5fc6dc166f5f4cbcab8b7441d7ff8eb3a0f8c5b914242da686ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849192"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297233"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>フェデレーション パートナーの検出を有効または無効にするSkype for Business Server
 
@@ -53,10 +53,14 @@ ms.locfileid: "57849192"
 
 ## <a name="to-enable-discovery-of-federation-partners"></a>フェデレーション パートナーの検出を有効にするには
 
-  - フェデレーション パートナーの検出を有効にするには **、EnablePartnerDiscovery** プロパティの値を True ($True) に設定します。 このプロパティ値を変更するには、DNS SRV ルーティングを有効にする必要があります。<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
+  - フェデレーション パートナーの検出を有効にするには **、EnablePartnerDiscovery** プロパティの値を True ($True) に設定します。 このプロパティ値を変更するには、DNS SRV ルーティングを有効にする必要があります。
+    
+        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
 ## <a name="to-disable-discovery-of-federation-partners"></a>フェデレーション パートナーの検出を無効にするには
 
-  - フェデレーション パートナーの検出を無効にするには **、EnablePartnerDiscovery** プロパティの値を False ($False) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
+  - フェデレーション パートナーの検出を無効にするには **、EnablePartnerDiscovery** プロパティの値を False ($False) に設定します。
+    
+        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
 
