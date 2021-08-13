@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: tblFileToken には、ファイル送信を目的とする一時的なトークンが格納されます。
-ms.openlocfilehash: 75d3d4df3affe3d12f94499efdb4337ade11af27
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f099b641f732d2f6ccecf699335e9e88736484cc4eac7bfbce8d4a2d7dd6e810
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301293"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  
@@ -35,8 +35,8 @@ tblFileToken には、ファイル送信を目的とする一時的なトーク�
 |fileTokenComplianceFileUrl  <br/> |nvarchar(256)  <br/> |転送ファイルの URL (Compliance Service で使用)。  <br/> |
 |fileTokenComplianceThumbnailUrl  <br/> |nvarchar(256)  <br/> |転送ファイルのサムネイルの URL (Compliance Service で使用)。  <br/> |
 |fileTokenComplianceTime  <br/> |datetime2  <br/> |実際のファイル転送操作のタイムスタンプ (Compliance Service で使用)。  <br/> |
-|fileTokenComplianceIsUpload  <br/> |bit  <br/> |アップロードの場合は True、ダウンロードの場合 False (Compliance Service で使用)。  <br/> |
-|fileTokenCompliancePinned  <br/> |NULL でない bit  <br/> |トークンが固定されている場合は True。 コンプライアンス サービスが関連フィールドを取得できるまで、トークンをテーブルに保持するために使用されます。  <br/> |
+|fileTokenComplianceIsUpload  <br/> |ビット  <br/> |アップロードの場合は True、ダウンロードの場合 False (Compliance Service で使用)。  <br/> |
+|fileTokenCompliancePinned  <br/> |NULL でない bit  <br/> |トークンが固定されている場合は True。 コンプライアンス サービスが関連するフィールドを取得するまで、トークンをテーブルに保持するために使用されます。  <br/> |
    
 **Keys**
 

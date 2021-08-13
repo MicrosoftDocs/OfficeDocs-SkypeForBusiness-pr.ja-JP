@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 コントロール パネルを使用する
+title: 2015 Skype for Business Serverパネルを使用する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 79eff02f-4bc1-4e3a-bac5-2043e19f781a
-description: Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server 2015 の管理」を参照してください。
-ms.openlocfilehash: 671852a267c9c7f04e531c5961f10df55651a10d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server 2015」を参照Skype for Business Server。
+ms.openlocfilehash: a8a1dcbe1cd620807f1eb9f2af34fdcbae60784038fbaff9f0c0841ea81224d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826757"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335207"
 ---
-# <a name="use-the-skype-for-business-server-2015-control-panel"></a>Skype for Business Server 2015 コントロール パネルを使用する
+# <a name="use-the-skype-for-business-server-2015-control-panel"></a>2015 Skype for Business Serverパネルを使用する
  
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Skype for Business Server 2015](../../manage/manage.md)の管理」を参照してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
   
 

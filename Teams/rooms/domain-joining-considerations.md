@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Skype Room System アプライアンス PC を Active Directory ドメインに参加する方法と、それに関する考慮事項について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c322819fb765e05cead793c95b5e3b6af2d2a180
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: caab82c853eb584ba304569daa49963eea847143b59a8413f77455ee9800c8fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346164"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -61,7 +61,7 @@ Add-Computer -DomainName contoso.local -Credential $mycred -OUPath "OU=LyncRoomS
   
 これらの問題を解決する手段は、1 つではないかもしれません。 適切な GPO 設定を持つ OU、または前に説明したポリシーが存在しない OU が提供される場合は、Active Directory の専門家に相談してください。 ルーム システム デバイスに対してサービス品質 (QoS) Skypeを有効にしてください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
   
 [デバイス構成: 新規作成または現在の形式のままで編集](/skypeforbusiness/help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

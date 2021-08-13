@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でダイヤルイン会議を有効または無効にする
+title: 会議でダイヤルイン会議を有効または無効にするSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
-description: '概要: コントロール パネルまたは管理シェルを使用して Skype for Business Server でダイヤルイン会議を有効または無効にする方法について説明します。'
-ms.openlocfilehash: ade7753f480856d68535daadda40eac6296a5d6e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: コントロール パネルまたは管理シェルを使用して、ダイヤルイン会議を有効または無効にする方法についてSkype for Business Server。'
+ms.openlocfilehash: 335252904ea015046e9caf5689fe31e4b0a9b8c3569b6c7d233fb8c4e74857ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119466"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297293"
 ---
-# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でダイヤルイン会議を有効または無効にする
+# <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>会議でダイヤルイン会議を有効または無効にするSkype for Business Server
  
-**概要:** コントロール パネルまたは管理シェルを使用して Skype for Business Server でダイヤルイン会議を有効または無効にする方法について説明します。
+**概要:** コントロール パネルまたは管理シェルを使用して、ダイヤルイン会議を有効または無効にする方法についてSkype for Business Server。
   
-ダイヤルイン会議は、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して有効にできます。
+ダイヤルイン会議を有効にするには、Skype for Business Serverコントロール パネルを使用するか、Skype for Business Serverを使用します。
   
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してダイヤルイン会議を有効または無効にする
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用してダイヤルイン会議を有効またはSkype for Business Serverする
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー] **をクリックします**。
     
@@ -39,7 +39,7 @@ ms.locfileid: "51119466"
     
 6. [**確定**] をクリックします。 
     
-## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してダイヤルイン会議を有効または無効にする
+## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してダイヤルイン会議を有効またはSkype for Business Serverする
 
 ダイヤルイン会議を有効または無効にするには、次のように EnableDialInConferencing パラメーターを使用して **Set-CsConferencingPolicy** コマンドレットを使用します。
   

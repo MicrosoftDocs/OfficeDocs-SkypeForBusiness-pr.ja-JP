@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: カスタム アプリを管理センターの組織のアプリ ストアにアップロードMicrosoft Teams説明します。
-ms.openlocfilehash: 9473c8e2fc4284c4ca205666152ef183b0210841
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: add429a0f662db852f78d9b178b046611ecb4e39ebf86729a1d0398fa1583e2f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321049"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリ パッケージをアップロードしてカスタム アプリを発行する
 
@@ -127,7 +127,7 @@ Microsoft では<a href="/microsoftteams/platform/publishing/office-store-approv
 
 ![アプリのアップグレード オプションのスクリーンショット](media/manage-your-custom-apps-update2.png)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams App Submission API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
 - [管理センターでアプリMicrosoft Teams管理する](manage-apps.md)

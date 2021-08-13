@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でアーカイブ構成を作成する
+title: アーカイブ構成を作成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: '概要: Skype for Business Server のアーカイブ構成を作成する方法について説明します。'
-ms.openlocfilehash: f00e5b2b9254b53760351c162ea86cd195473788
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: アーカイブ構成を作成する方法について説明します。Skype for Business Server。'
+ms.openlocfilehash: c171b0ec86a8b29ede72b5dc0c577c890fcc497d4850148469d5ba64756ce472
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095431"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335017"
 ---
-# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Skype for Business Server でアーカイブ構成を作成する
+# <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>アーカイブ構成を作成Skype for Business Server
 
-**概要:** Skype for Business Server のアーカイブ構成を作成する方法について説明します。
+**概要:** ドキュメントのアーカイブ構成を作成する方法Skype for Business Server。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>コントロール パネルを使用してアーカイブ オプションを構成する
 
@@ -29,7 +29,7 @@ ms.locfileid: "51095431"
   
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ構成**] をクリックします。
     
@@ -51,7 +51,7 @@ ms.locfileid: "51095431"
     
    - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-   - アーカイブ データをMicrosoft Exchange Serverするには **、[Microsoft Exchange** 統合] チェック ボックスをクリックします。
+   - アーカイブ データをMicrosoft Exchange Serverするには **、[Microsoft** データの統合] チェック ボックスExchangeクリックします。
     
    - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
     
@@ -61,7 +61,7 @@ ms.locfileid: "51095431"
     
 7. [**確定**] をクリックします。
     
-## <a name="configure-archiving-options-by-using-windows-powershell"></a>ドキュメントを使用してアーカイブ オプションを構成Windows PowerShell
+## <a name="configure-archiving-options-by-using-windows-powershell"></a>サーバーを使用してアーカイブ オプションを構成Windows PowerShell
 
 **New-CsArchivingConfiguration** コマンドレットを使用して、特定のサイトまたはプールのアーカイブ オプションを構成することもできます。
   

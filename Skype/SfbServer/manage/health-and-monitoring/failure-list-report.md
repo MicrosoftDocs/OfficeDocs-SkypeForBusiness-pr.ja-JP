@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のエラー リスト レポート
+title: エラー リスト レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: '概要: Skype for Business Server のエラー リスト レポートについて学習します。'
-ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: エラー リスト レポートの詳細については、「エラー リスト レポート」をSkype for Business Server。'
+ms.openlocfilehash: b132982af91f81af1ac1d151853a3f7fdc597ff31476e6a5484fc04b9d9efa4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816847"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301353"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Skype for Business Server のエラー リスト レポート 
+# <a name="failure-list-report-in-skype-for-business-server"></a>エラー リスト レポート (Skype for Business Server 
  
-**概要:** Skype for Business Server のエラー リスト レポートについて学習します。
+**概要:** 詳細については、「エラー リスト レポート」を参照Skype for Business Server。
   
 エラー リスト レポートは、エラーが発生したピアツーピア セッションまたは電話会議セッションに参加した個々の参加者に関する情報を提供します。この情報には、問題が発生したユーザーの URI、エラーに関連付けられている SIP 応答コードおよび診断 ID が含まれています。
   
 ## <a name="accessing-the-failure-list-report"></a>エラー リスト レポートへのアクセス
 
-エラー リスト レポートにアクセスするには、Skype for Business Server のエラー分布レポートで [次の指標をクリックします](failure-distribution-report.md)。
+エラー 一覧レポートにアクセスするには、次の [エラーの分布レポート] で次の指標[をクリックSkype for Business Server。](failure-distribution-report.md)
   
 - [トップの診断理由] (セッション)
     
@@ -45,7 +45,7 @@ ms.locfileid: "49816847"
     
 - [送信元ユーザー エージェント] (セッション)
     
-エラー リスト レポートから、ピアツーピア セッションのセッション詳細メトリックをクリックすると [、Skype for Business Server](peer-to-peer-session-detail-report.md) のピアツーピア セッション詳細レポートにアクセスできます。 また、電話会議の電話会議の指標をクリックすると、会議詳細レポートにもアクセスできます。
+障害一覧レポートから[、Skype for Business Server](peer-to-peer-session-detail-report.md)のピアツーピア セッション詳細レポートにアクセスするには、ピアツーピア セッションのセッション詳細メトリックをクリックします。 また、電話会議の電話会議の指標をクリックすると、会議詳細レポートにもアクセスできます。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>エラー リスト レポートの活用
 

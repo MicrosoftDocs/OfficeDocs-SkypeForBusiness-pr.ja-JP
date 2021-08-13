@@ -1,5 +1,5 @@
 ---
-title: 複数のユーザーをパイロットプールに移動する
+title: 複数のユーザーをパイロット プールに移動する
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,60 +10,60 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype for Business Server 2019 コントロールパネルまたは Skype for Business Server 2019 管理シェルを使用して、従来のプールから Skype for business Server 2019 パイロットプールに複数のユーザーを移動することができます。
-ms.openlocfilehash: d1b003c5630a0917fbecbd9b04196675657fef83
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: Skype for Business Server 2019 コントロール パネルまたは Skype for Business Server 2019 管理シェルを使用して、レガシ プールから Skype for Business Server 2019 パイロット プールに複数のユーザーを移動できます。
+ms.openlocfilehash: 689886060f14a47e82865a2ed66bfc3ff495dfdc3b1f44e6c5674294b4d21eb9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300653"
 ---
-# <a name="move-multiple-users-to-the-pilot-pool"></a>複数のユーザーをパイロットプールに移動する
+# <a name="move-multiple-users-to-the-pilot-pool"></a>複数のユーザーをパイロット プールに移動する
 
-Skype for Business Server 2019 コントロールパネルまたは Skype for Business Server 2019 管理シェルを使用して、従来のプールから Skype for business Server 2019 パイロットプールに複数のユーザーを移動することができます。
+Skype for Business Server 2019 コントロール パネルまたは Skype for Business Server 2019 管理シェルを使用して、レガシ プールから Skype for Business Server 2019 パイロット プールに複数のユーザーを移動できます。
 
  **この記事の内容**
   
-[Skype for Business Server 2019 コントロールパネルを使用して複数のユーザーを移動するには](#sectionSection0)
+[2019 コントロール パネルを使用して複数Skype for Business Server移動するには](#sectionSection0)
   
-[Skype for Business Server 2019 管理シェルを使用して複数のユーザーを移動するには](#sectionSection1)
+[2019 管理シェルを使用してSkype for Business Serverを移動するには](#sectionSection1)
   
-[Skype for Business Server 2019 管理シェルを使用してすべてのユーザーを同時に移動するには](#sectionSection2)
+[2019 管理シェルを使用してすべてのユーザー Skype for Business Server移動するには](#sectionSection2)
   
   
-## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-control-panel"></a>Skype for Business Server 2019 コントロールパネルを使用して複数のユーザーを移動するには
+## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-control-panel"></a>2019 コントロール パネルを使用して複数Skype for Business Server移動するには
 <a name="sectionSection0"> </a>
 
-1. Skype for Business Server コントロールパネルを開きます。
+1. [コントロール Skype for Business Server] を開きます。
     
 2. [**ユーザー**]、[**検索**]、[**ユーザー検索**] の順にクリックします。
     
-3. Skype for Business Server 2019 プールに移動する2人のユーザーを選択します。 この例では、Chen Yang および Claus Hansen というユーザーを移動します。
+3. 2019 プールに移動する 2 人Skype for Business Server選択します。 この例では、Chen Yang および Claus Hansen というユーザーを移動します。
     
      ![ユーザーを特定の登録プールに移動する](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
   
 4. [**アクション**] メニューで、[**選択されたユーザーをプールに移動**] をクリックします。
     
-5. ドロップダウンリストから、[Skype for Business Server 2019] プールを選択します。
+5. ドロップダウン リストから、2019 年Skype for Business Server選択します。
     
-6. [**アクション**] をクリックし、[**選択されたユーザーをプールに移動**] をクリックします。 [**OK**] をクリックします。
+6. [**アクション**] をクリックし、[**選択されたユーザーをプールに移動**] をクリックします。[**OK**] をクリックします。
     
-     ![[ユーザーの移動]、[宛先レジストラープール] ダイアログボックス](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
+     ![[ユーザーの移動] [移行先レジストラー プール] ダイアログ ボックス](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
-7. ユーザーの [**レジストラープール**] 列に Skype For business Server 2019 プールが含まれるようになっていることを確認します。これは、ユーザーが正常に移動されたことを示します。 
+7. ユーザーの **レジストラー プール列** に、ユーザーが正常に移動されたことをSkype for Business Server 2019 プールが含まれているかどうかを確認します。 
     
-## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-management-shell"></a>Skype for Business Server 2019 管理シェルを使用して複数のユーザーを移動するには
+## <a name="to-move-multiple-users-by-using-the-skype-for-business-server-2019-management-shell"></a>2019 管理シェルを使用してSkype for Business Serverを移動するには
 <a name="sectionSection1"> </a>
 
-1. Skype for Business Server 2019 管理シェルを開きます。 
+1. 2019 Skype for Business Serverシェルを開きます。 
     
-2. コマンドラインで、次のように入力し、 **User1**と**User2**を移動する特定のユーザー名に置き換えて、 **pool_FQDN**を移行先プールの名前に置き換えます。 この例では、ユーザーが Hao Chen と Katie ヨルダンを移動します。 
+2. コマンド ラインで、次のコマンドを入力し **、User1** と **User2** を移動する特定のユーザー名に置き換え、pool_FQDN を移動先プール **の名前** に置き換します。 この例では、ユーザー Hao Chen と Katie Jordan を移動します。 
     
    ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
-    ![PowerShell の Get-CsUser コマンドレットの例](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![PowerShell のコマンドレットGet-CsUser例](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. コマンドラインで、次のように入力します。 
     
@@ -71,16 +71,16 @@ Skype for Business Server 2019 コントロールパネルまたは Skype for Bu
    Get-CsUser -Identity "User1"
    ```
 
-4. **レジストラープール**id は、前の手順で**pool_FQDN**として指定したプールを指すようになります。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。 手順を繰り返して、 **User2**が移動されたことを確認します。 
+4. レジスト **ラー プール ID** は、前の手順で指定した **プールpool_FQDNポイント** する必要があります。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。 手順を繰り返して **、User2 が移動** されたことを確認します。 
     
-     ![PowerShell の Get-UsUser-Identity コマンドレットの出力](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
+     ![PowerShell Get-UsUser -Identity コマンドレットの出力](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
-## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>Skype for Business Server 2019 管理シェルを使用してすべてのユーザーを同時に移動するには
+## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>2019 管理シェルを使用してすべてのユーザー Skype for Business Server移動するには
 <a name="sectionSection2"> </a>
 
-この例では、すべてのユーザーが従来のプール (pool01.contoso.net) に返されています。 Skype for Business Server 2019 管理シェルを使用して、すべてのユーザーを同時に Skype for Business Server 2019 プール (pool02.contoso.net) に移動します。
+この例では、すべてのユーザーが従来のプール (pool01.contoso.net) に戻されています。 2019 Skype for Business Server管理シェルを使用して、すべてのユーザーを同時に Skype for Business Server 2019 プール (pool02.contoso.net) に移動します。
   
-1. Skype for Business Server 2019 管理シェルを開きます。
+1. 2019 Skype for Business Serverシェルを開きます。
     
 2. コマンドラインで、次のように入力します。 
     
@@ -88,18 +88,18 @@ Skype for Business Server 2019 コントロールパネルまたは Skype for Bu
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
-     ![PowerShell コマンドレットと管理シェルの結果](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
+     ![PowerShell コマンドレットと管理シェルでの結果](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
-3. パイロットユーザーの1人に対して、 **Get-CsUser**を実行します。 
+3. パイロット **ユーザーの 1 人に対して Get-CsUser** を実行します。 
     
    ```PowerShell
    Get-CsUser -Identity "Hao Chen"
    ```
 
-4. 各ユーザーの**レジストラープール**id は、前の手順で**pool_FQDN**として指定したプールを指すようになります。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。 
+4. 各 **ユーザーのレジスト** ラー プール ID は、前の手順で指定した **pool_FQDNをポイント** します。 この ID が存在していることにより、ユーザーが正常に移動されたことを確認できます。 
     
-5. さらに、Skype for Business Server 2019 コントロールパネルでユーザーの一覧を表示し、レジストラープールの値が Skype for Business Server 2019 プールを指すようになっていることを確認できます。
+5. さらに、Skype for Business Server 2019 コントロール パネルでユーザーの一覧を表示し、レジストラー プールの値が Skype for Business Server 2019 プールをポイントSkype for Business Serverできます。
     
-     ![Skype for Business Server 2019 コントロールパネルのユーザーリスト](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
+     ![Skype for Business Server 2019 コントロール パネルのユーザー リスト](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
 

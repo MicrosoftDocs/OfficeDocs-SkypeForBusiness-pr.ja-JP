@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: トポロジの権限をテストするSkype for Business Server
-ms.openlocfilehash: 9503476c5c97e692624a8c2535adaeabc14c0e88fc6be583927cdf048cf1ee2f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 5826f62b120179533e531743b6e11ede5d9ba9d049d2a0a7252e57d6e7f922ea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848102"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335007"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>管理者トポロジの権限をテストSkype for Business Server
 
-|&nbsp; |&nbsp; |
+| | |
 |--|--|
 |検証スケジュール|最初の展開Skype for Business Server後。 必要に応じて、アクセス許可に関連する問題が発生した場合。|
 |テスト ツール|Windows PowerShell|
@@ -45,7 +45,7 @@ Active Directory コンテナーに対してセットアップアクセス許可
 
 Active Directory Test-CsSetupPermissionに必要なアクセス許可が既に設定されている場合、コマンドレットは値 True を返します。
 
-True 
+正解 
 
 アクセス許可が設定されていない場合、Test-CsSetupPermission False が返されます。 通常、この値は多くの警告メッセージで囲まれます。 次に例を示します。
 
@@ -53,7 +53,7 @@ True
 
 警告: オブジェクト "CN=Computers,DC=litwareinc,DC=com" のアクセス制御エントリ (ACEs) が準備ができていません。 
 
-False 
+不正解 
 
 警告: "Test-CsSetupPermission" 処理が完了し、警告が表示されました。 "2" 警告は、この実行時に記録されました。 
 

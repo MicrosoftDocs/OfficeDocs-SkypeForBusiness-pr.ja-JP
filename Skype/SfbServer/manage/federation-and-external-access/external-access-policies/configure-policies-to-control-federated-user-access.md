@@ -15,27 +15,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'フェデレーション パートナーとの通信をサポートするためのポリシーを構成すると、そのポリシーはフェデレーション ドメインのユーザーに適用されます。 '
-ms.openlocfilehash: 6107615767d0360180baf9f22d5fddc6a5f8e565
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 57b674e0b75a310b56b6aaedaf4338eda94d75452f7f4b3d59580a4a52759453
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099043"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301393"
 ---
-# <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Skype for Business Server でフェデレーション ユーザー アクセスを制御するポリシーを構成する
+# <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>グループ内のフェデレーション ユーザー アクセスを制御するポリシーを構成Skype for Business Server
 
-フェデレーション パートナーとの通信をサポートするためのポリシーを構成すると、そのポリシーはフェデレーション ドメインのユーザーに適用されます。 1 つ以上の外部ユーザー アクセス ポリシーを構成して、フェデレーション ドメインのユーザーが Skype for Business Server ユーザーと共同作業できるかどうかを制御できます。 フェデレーション ユーザー アクセスを制御するために、グローバル レベル、サイト レベル、およびユーザー レベルでポリシーを構成できます。 1 つのポリシー レベルで適用される Skype for Business Server ポリシー設定は、別のポリシー レベルで適用される設定を上書きできます。 Skype for Business Server ポリシーの優先順位: ユーザー ポリシー (最も高い) はサイト ポリシーをオーバーライドし、サイト ポリシーはグローバル ポリシーをオーバーライド (最も低い) します。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
+フェデレーション パートナーとの通信をサポートするためのポリシーを構成すると、そのポリシーはフェデレーション ドメインのユーザーに適用されます。 1 つ以上の外部ユーザー アクセス ポリシーを構成して、フェデレーション ドメインのユーザーが組織のユーザーと共同作業Skype for Business Serverできます。 フェデレーション ユーザー アクセスを制御するために、グローバル レベル、サイト レベル、およびユーザー レベルでポリシーを構成できます。 Skype for Business Serverレベルで適用されるポリシー設定は、別のポリシー レベルで適用される設定を上書きできます。 Skype for Business Server ポリシーの優先順位: ユーザー ポリシー (最も高い) はサイト ポリシーをオーバーライドし、サイト ポリシーはグローバル ポリシーをオーバーライド (最も低い) します。 つまり、ポリシー設定が、そのポリシーの影響を受けるオブジェクトに近いほど、オブジェクトに及ぼす影響は大きくなります。
 
 
 > [!NOTE]  
-> 組織でフェデレーションを有効にしていなくても、フェデレーション ユーザー アクセスを制御するポリシーを構成できます。 ただし、構成したポリシーは、組織でフェデレーションを有効にした場合にのみ有効となります。 フェデレーションの有効化の詳細については、「リモート ユーザー アクセス [を有効または無効にする」を参照してください](../access-edge/enable-or-disable-remote-user-access.md)。  さらに、フェデレーション ユーザー アクセスを制御するユーザー ポリシーを指定した場合、ポリシーは、Skype for Business Server で有効にされ、ポリシーを使用するように構成されているユーザーにのみ適用されます。
+> 組織でフェデレーションを有効にしていなくても、フェデレーション ユーザー アクセスを制御するポリシーを構成できます。 ただし、構成したポリシーは、組織でフェデレーションを有効にした場合にのみ有効となります。 フェデレーションの有効化の詳細については、「リモート ユーザー アクセス [を有効または無効にする」を参照してください](../access-edge/enable-or-disable-remote-user-access.md)。  さらに、フェデレーション ユーザー アクセスを制御するユーザー ポリシーを指定した場合、ポリシーは Skype for Business Server で有効で、ポリシーを使用するように構成されているユーザーにのみ適用されます。
 
 
 ## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>フェデレーション ドメインのユーザーによるアクセスをサポートするためのポリシーを構成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。
 
 3.  左側のナビゲーション バーで [**外部ユーザー アクセス**] をクリックし、[**外部アクセス ポリシー**] をクリックします。
 
@@ -63,13 +63,13 @@ ms.locfileid: "51099043"
 
 ユーザー ポリシーの場合、フェデレーション ユーザーと共同作業できるようにするユーザーにもポリシーを適用する必要があります。 詳細については、「外部ユーザー アクセス [ポリシーの割り当て」を参照してください](assign-an-external-user-access-policy.md)。
 
-## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>フェデレーション ドメインのユーザーによるアクセスをWindows PowerShellを使用して既存のポリシーを構成するには
+## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>フェデレーション ドメインのユーザーによるアクセスをサポートWindows PowerShellを使用して既存のポリシーを構成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  Skype for Busines Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business Server]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2.  Busines server 管理シェルSkypeを開始する: [スタート]をクリックし、[すべてのプログラム]**を** クリックし、[Skype for Business Server] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
-3.  Skype for Business Server 管理シェルに次の情報を入力します。
+3.  [管理シェル] に次Skype for Business Server入力します。
     
     ```PowerShell
     Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
@@ -77,16 +77,16 @@ ms.locfileid: "51099043"
        
 
     > [!TIP]  
-    > パラメーター "EnablePublicCloudAudioVideoAccess" は、Skype for Business Server コントロール パネルで対応する選択項目を持つ
+    > パラメーター "EnablePublicCloudAudioVideoAccess" には、コントロール パネルの対応するSkype for Business Server含め
 
 
 ## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>フェデレーション ドメインのユーザーによるアクセスをWindows PowerShellを使用して新しいポリシーを作成するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Microsoft Skype for Business Server]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2.  [管理シェルSkype for Business Server起動する: **[スタート**]をクリックし、[すべてのプログラム] をクリックし **、[Microsoft** Skype for Business Server] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
-3.  Skype for Business Server 管理シェルに次の情報を入力します。
+3.  [管理シェル] に次Skype for Business Server入力します。
     
     ```PowerShell
     New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
@@ -103,7 +103,7 @@ ms.locfileid: "51099043"
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  Skype for Business Server 管理シェルに次の情報を入力します。
+2.  [管理シェル] に次Skype for Business Server入力します。
     
     `Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy>`
     

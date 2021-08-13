@@ -1,5 +1,5 @@
 ---
-title: Android Microsoft Teams ミーティングをデプロイする
+title: Android Microsoft Teams会議室を展開する
 ms.author: mitressl
 author: flinchbot
 manager: serdars
@@ -14,23 +14,23 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: この記事では、Android にアプリをMicrosoft Teams ミーティング説明します。
-ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: この記事では、Android 上の会議室Microsoft Teamsについて説明します。
+ms.openlocfilehash: 3ea15b8d242c9aa4685b91cdffb13c7c3a55a752f8a1c9d387f7c858f04845ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120799"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321499"
 ---
-# <a name="deploy-microsoft-teams-rooms-on-android"></a>Android Microsoft Teams ミーティングをデプロイする
+# <a name="deploy-microsoft-teams-rooms-on-android"></a>Android Microsoft Teams会議室を展開する
 
-Android でのMicrosoft Teams ミーティングの展開は、次のフェーズに分け可能です。
+Android 上Microsoft Teams会議室のデプロイは、次のフェーズに分け可能です。
 
 - **サイトの準備** デプロイの場所 (会議室) がデプロイ要件を満たしていることを確認します。
-- **サービスの準備** リソース アカウントを作成し、デバイスに割り当てる (「管理センターでリソース アカウントを [作成するMicrosoft 365参照してください](resource-account-ui.md))。 専用ルーム ライセンスを使用することをお勧めしますが、適切にライセンスされたエンド ユーザー アカウントは、Android 上の Teams ミーティングサインインすることもできます。
-- **構成とデプロイ** 必要なTeams ミーティングデバイスをセットアップして接続します (詳細については、製造元のドキュメントを参照してください)。
+- **サービスの準備** リソース アカウントを作成し、デバイスに割り当てる (「リソース アカウントを使用してリソース アカウントを [作成する」を](resource-account-ui.md)Microsoft 365 管理センター)。 専用ルーム ライセンスを使用することをお勧めしますが、適切にライセンスされたエンド ユーザー アカウントは、Android 上の Teams にサインインすることもできます。
+- **構成とデプロイ** 会議室をTeamsし、必要な周辺機器を接続します (詳細については、製造元のドキュメントを参照してください)。
 
-アカウントをTeams ミーティングするには、グローバル管理者、サービス管理者、Teamsデバイス管理者Teams必要があります。管理者ロールの詳細については、「管理者ロールを使用してMicrosoft Teams[を管理する」を](../using-admin-roles.md)Teams。
+会議室をTeamsするには、グローバル管理者、サービス管理者、Teamsデバイス管理者Teams必要があります。管理者ロールの詳細については、「管理者ロールを使用してMicrosoft Teams[を管理する」を](../using-admin-roles.md)Teams。
 
 ## <a name="site-readiness"></a>サイトの準備
 
@@ -58,7 +58,7 @@ Android でのMicrosoft Teams ミーティングの展開は、次のフェー�
 
 ## <a name="service-readiness"></a>サービスの準備
 
-アプリケーションをデプロイTeams ミーティング、リソース アカウント、エンド ユーザー アカウント、または両方をMicrosoft 365を使用するか判断する必要があります。 Microsoft 365アカウントは、会議室Teamsプロジェクターなど、特定のリソース専用のメールボックス アカウントとリソース アカウントです。 これらのリソース アカウントは、作成時に定義したルールを使用して、会議出席招待に自動的に応答できます。 特定のTeams ミーティング専用のリソース アカウントがない限り、リソース アカウントMicrosoft 365を設定することをお勧めします。
+Teams Rooms をデプロイする前に、Microsoft 365 リソース アカウント、エンド ユーザー アカウント、または両方を使用するか決定する必要があります。 Microsoft 365アカウントは、会議室Teamsプロジェクターなど、特定のリソース専用のメールボックス アカウントとリソース アカウントです。 これらのリソース アカウントは、作成時に定義したルールを使用して、会議出席招待に自動的に応答できます。 会議室Teams特定の個人専用でプライベート使用を行う場合を限り、Microsoft 365リソース アカウントを設定することをお勧めします。
 
 ### <a name="using-a-resource-account"></a>リソース アカウントの使用
 
@@ -70,7 +70,7 @@ Android でのMicrosoft Teams ミーティングの展開は、次のフェー�
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-リソース アカウントの詳細についてはMicrosoft 365管理センターを使用してリソース アカウント[を作成するMicrosoft 365参照してください](resource-account-ui.md)。
+リソース アカウントの詳細についてはMicrosoft 365を使用したリソース アカウントの作成[に関するページMicrosoft 365 管理センター。](resource-account-ui.md)
 
 |    |     |
 |-----------|------------|
@@ -83,18 +83,18 @@ Android でのMicrosoft Teams ミーティングの展開は、次のフェー�
 
 - リソース アカウントのプロビジョニング
 - デバイスの展開
-- Teams ミーティングおよび周辺機器の構成
+- Teams会議室のアプリケーションと周辺機器の構成
 - テスト
 - 資産管理
 
 ### <a name="account-provisioning"></a>アカウントのプロビジョニング
 
-Microsoft 365 リソース アカウントを使用してコラボレーション バーを予約する場合は[、「Microsoft 365](resource-account-ui.md)管理センターを使用してリソース アカウントを作成する」の手順に従って、必要なコラボレーション バーごとに Microsoft 365 リソース アカウントを作成します。 また、リソース アカウントに ミーティング ルーム ライセンスを追加する必要があります。また、組織が直接ルーティングを使用していない場合は、外部の電話番号との間で通話を発信または受信する場合は、通話プランまたは Business Voice ライセンスを追加する必要があります。
+Microsoft 365 リソース アカウントを使用してコラボレーション バーを予約する場合は[、「Microsoft 365 管理センター](resource-account-ui.md)を使用してリソース アカウントを作成する」の手順に従って、必要なコラボレーション バーごとに Microsoft 365 リソース アカウントを作成します。 また、リソース アカウントに ミーティング ルーム ライセンスを追加する必要があります。また、組織が直接ルーティングを使用していない場合は、外部の電話番号との間で通話を発信または受信する場合は、通話プランまたは Business Voice ライセンスを追加する必要があります。
 
-個々のユーザーにTeams ミーティングを割り当てる場合は、追加のアカウントを設定する必要はありません。 ユーザーは、個人用アカウントを使用してコラボレーション バーにサインインできます。
+プライベート使用のために Teamsルームを個々のユーザーに割り当てる場合は、追加のアカウントを設定する必要はありません。 ユーザーは、個人用アカウントを使用してコラボレーション バーにサインインできます。
 
 > [!TIP]
-> リソース アカウントの表示名をわかりやすいMicrosoft 365わかりやすい名前にします。 これらは、ユーザーが会議を検索して会議に追加するときに表示Teams ミーティング名前です。 *サイト* ルーム名 ( 最大会議室の容量) などの規則を使用できます。そのため、たとえば、ロンドンの 4 人の会議室である Curie は、表示名 - LON-CURIE(4)を持つ場合があります。
+> リソース アカウントの表示名をわかりやすいMicrosoft 365わかりやすい名前にします。 これらは、会議室を検索して会議に追加するときにTeams表示される名前です。 *サイト* ルーム名 ( 最大会議室の容量) などの規則を使用できます。そのため、たとえば、ロンドンの 4 人の会議室である Curie は、表示名 - LON-CURIE(4)を持つ場合があります。
 
 |    |     |
 |-----------|------------|
@@ -107,12 +107,12 @@ Microsoft 365 リソース アカウントを使用してコラボレーショ�
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> サイトにインストールするリソースTeams ミーティング、構成とテストを実行します。</li></ul>|
+| ![判断ポイントを表すアイコン](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> 会議室をサイトにTeamsし、構成とテストを実行するリソースを特定します。</li></ul>|
 | ![次の手順を示すアイコン](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>|
 
 ### <a name="testing"></a>テスト
 
-アプリケーションをデプロイした後Teams ミーティングテストする必要があります。 サインインして、Teams ミーティング機能が動作している必要があります。 管理センターの [デバイス] タブの [コラボレーションバー] セクションに表示Microsoft Teams強くお勧めします。 また、品質とパフォーマンスを確認するために、テスト通話や会議を多数行う必要があります。
+会議室をデプロイしたTeamsテストする必要があります。 Teams 会議室にサインインし、期待される機能が機能している必要があります。 管理センターの [デバイス] タブの [コラボレーションバー] セクションに表示Microsoft Teams強くお勧めします。 また、品質とパフォーマンスを確認するために、テスト通話や会議を多数行う必要があります。
 
 Microsoft Teams の一般的なロールアウトの一環として、通話品質ダッシュボード (CQD) のファイルの作成、品質の傾向の監視、およびエクスペリエンスの品質レビュー プロセスへの参加を構成することをお勧めします。 詳細については、「エクスペリエンスの品質 [レビュー ガイド」を参照してください](../quality-of-experience-review-guide.md)。
 
@@ -120,8 +120,8 @@ Microsoft Teams の一般的なロールアウトの一環として、通話品�
 
 デプロイの一環として、ルーム名、サインイン済みリソース アカウント、および割り当てられた周辺機器を使用してアセット レジスタを更新する必要があります。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[管理センターを使用Microsoft Teams ミーティングアカウントMicrosoft Teams構成する](resource-account-ui.md)
+[管理センターを使用Microsoft Teams会議室のアカウントMicrosoft Teams構成する](resource-account-ui.md)
 
 <!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->

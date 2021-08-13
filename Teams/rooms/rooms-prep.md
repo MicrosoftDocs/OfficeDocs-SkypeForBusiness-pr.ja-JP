@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms を展開するためのインフラストラクチャを準備して、すべての機能を利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 81aa41895f11b65c9406bd30311f2fcb974949a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 46f44d9a07aadc06598495a765bedcd67d1ed03b395c4d9cf4e6696023227c0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346174"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -30,7 +30,7 @@ ms.locfileid: "51117425"
     
 2. デバイスが使用できるように動作するネットワークまたはインターネット接続があることを確認します。 
     
-   DHCP を使用して IP アドレスを受信できる必要があります。 (Microsoft Teams ミーティングユニットの起動時に静的 IP アドレスを使用して構成することはできませんが、その後、デバイスまたはアップストリーム スイッチまたはルーターでデバイスの静的 IP アドレスを構成できます)。
+   DHCP を使用して IP アドレスを受信できる必要があります。 (Microsoft Teamsユニットの起動時に会議室を静的 IP アドレスで構成することはできませんが、その後、デバイスまたはアップストリーム スイッチまたはルーターでデバイスの静的 IP アドレスを構成できます)。
 
    次のポートが開かれている必要があります (メディアの通常のポートも開かれている必要があります)。
    - HTTPS: 443
@@ -117,7 +117,7 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
     
 11. サインイン画面に戻り、**Skype** ユーザーを選択します。 上記のすべての手順を正常に完了した場合は、Microsoft Teams Rooms デバイスのサインインに成功します。
     
-ネットワーク セキュリティ[に必要](./security.md#network-security)な FQDN、ポート、IP アドレス範囲の詳細については、ネットワーク セキュリティに関する記事をMicrosoft Teams ミーティング。
+会議室に[必要](./security.md#network-security)な FQDN、ポート、IP アドレス範囲の詳細については、ネットワーク セキュリティに関する記事Microsoft Teamsしてください。
   
   
 ### <a name="create-provisioning-packages"></a>プロビジョニング パッケージを作成する

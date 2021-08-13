@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
-description: 常設チャットの次ホップ プールを構成するには、リストからフロントエンド サーバーまたはフロントエンド プールを選択します。
-ms.openlocfilehash: de5a51f5151196abb28cc69cf560b66e4ba7cde5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 常設チャットの次ホップ プールを構成するには、リストからフロント エンド サーバーまたはフロント エンド プールを選択します。
+ms.openlocfilehash: 1f8c51a2ebfc7734c908dbc106af3821c35e1a282b2e85491d564c9d608b135e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335147"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>常設チャットの次ホップ設定エキスパンダー
  
-常設チャットの次ホップ プールを **構成** するには、リストからフロントエンド サーバーまたはフロントエンド プールを選択します。
+常設チャットの次ホップ プール **を構成するには** 、リストからフロント エンド サーバーまたはフロント エンド プールを選択します。
   
  [**OK**]: ダイアログでの変更を受け入れて確定します。
   
@@ -34,6 +34,6 @@ ms.locfileid: "49823827"
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server 2015 での常設チャット サーバーの計画](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[2015 年の常設チャット サーバー Skype for Business Serverする](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Skype for Business Server 2015 トポロジへの常設チャット サーバーの追加](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[常設チャット サーバーを 2015 Skype for Business Serverトポロジに追加する](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

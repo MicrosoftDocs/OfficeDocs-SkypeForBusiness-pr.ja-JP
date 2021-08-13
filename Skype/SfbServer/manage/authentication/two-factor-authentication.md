@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: '概要: 2 要素認証を管理Skype for Business Server。'
-ms.openlocfilehash: 1b899dce829e016e60435584c18481d03810a876e7c8b85665b75b94574374b7
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: d73f088798938da6f5a87a8d21fa2922188f3bdc35e589dcda32b3f62747f0d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849992"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297303"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>2 要素認証を管理Skype for Business Server
  
@@ -36,7 +36,7 @@ Lync Server 2013 の累積的な更新プログラム: 2013 年 7 月のデス�
   
 ## <a name="topology-requirements"></a>トポロジ要件
 
-お客様は、エッジ、ディレクター、およびユーザー プールを使用して専用のSkype for Business Serverを使用して 2 要素認証を展開してください。 ユーザーのパッシブ認証を有効にするには、次を含む他の役割とサービスに対して他の認証方法を無効にする必要があります。
+お客様は、エッジ、ディレクター、およびユーザー プールを使用して専用のSkype for Business Serverを使用して 2 要素認証を展開してください。 ユーザーのパッシブ認証を有効にするには、次のような他の役割とサービスに対して他の認証方法を無効にする必要があります。
   
 |**構成の種類**|**サービスの種類**|**サーバーの役割**|**無効にする認証の種類**|
 |:-----|:-----|:-----|:-----|
@@ -53,7 +53,7 @@ Skype for Business サービスを検出するために内部および/または
   
 ## <a name="exchange-authentication"></a>Exchange認証
 
-Microsoft クライアントに 2 要素認証を展開したExchange、クライアント内の特定の機能が使用できないことがあります。 この動作は、Skype for Business統合に依存する機能に対する 2 要素認証をサポートしExchangeです。
+Microsoft クライアントに 2 要素認証を展開したExchange、クライアント内の特定の機能が使用できないことがあります。 現在、この機能は、Skype for Business統合に依存する機能に対する 2 要素認証をサポートしていないので、設計Exchangeです。
   
 ## <a name="contacts"></a>連絡先
 
@@ -81,11 +81,11 @@ PIN の入力を求めるメッセージが表示される前に、ユーザー�
   
 資格情報の追加のプロンプトが表示されるのを防ぐには、ローカル ワークステーションに次のレジストリ エントリを作成するか、Skype for Business 管理テンプレートを使用して、グループ ポリシーを使用して特定のプールのすべてのユーザーに適用します。
   
-HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
+    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
-REG_DWORD: DisableNTCredentials
-
-値: 0x0
+    REG_DWORD: DisableNTCredentials
+  
+    Value: 0x0
   
 ### <a name="savepassword"></a>SavePassword
 
@@ -93,11 +93,11 @@ REG_DWORD: DisableNTCredentials
   
 **2 要素認証を** サポートするように構成されている場合Skype for Business SavePassword レジストリ設定を無効にする必要があります。 ユーザーがパスワードを保存しなくするには、ローカル ワークステーションで次のレジストリ エントリを変更するか、Skype for Business 管理テンプレートを使用して、グループ ポリシーを使用して特定のプールのすべてのユーザーに適用します。
   
-HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
-REG_DWORD: SavePassword
+    REG_DWORD: SavePassword
   
-値: 0x0
+    Value: 0x0
   
 ## <a name="ad-fs-20-token-replay"></a>AD FS 2.0 トークン再生
 
@@ -105,7 +105,7 @@ AD FS 2.0 には、同じトークンを使用する複数のトークン要求�
   
 この機能は、キオスクの使用など、セキュリティが非常に懸念される状況で有効にする必要があります。 トークン再生の検出の詳細については、「ベスト プラクティス for [Secure Planning and Deployment of AD FS 2.0」を参照してください](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))。
   
-## <a name="guest-user-access"></a>ゲスト ユーザー アクセス
+## <a name="external-user-access"></a>外部ユーザー アクセス
 
 外部ネットワークからの 2 要素認証をサポートSkype for Business ADFS プロキシまたはリバース プロキシの構成については、以下のトピックでは説明されていません。
   

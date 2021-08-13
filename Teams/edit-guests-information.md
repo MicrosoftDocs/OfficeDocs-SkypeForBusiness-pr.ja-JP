@@ -20,20 +20,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: feffdb827c33628749e16083c858b03c9837efd1
-ms.sourcegitcommit: 4143ce9bd62e67ba09f89cedadfd65803bda5361
+ms.openlocfilehash: d753b93d248a84632f4ce606ca6b31a1a25c39f089e798c0791c4517156c85e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734265"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321399"
 ---
 # <a name="edit-guest-user-information"></a>ゲスト ユーザー情報の編集
 
-ゲスト情報は、管理センターまたはMicrosoft 365ポータルからAzure Active Directoryできます。
+ゲスト情報は、ポータルまたはポータルMicrosoft 365 管理センターからAzure Active Directoryできます。
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>管理者のゲスト Microsoft 365
 
-1. 管理センターでゲスト情報を編集するにはMicrosoft 365 ユーザー **ゲスト**[ユーザー](https://admin.microsoft.com)]  >  **を選択します**。
+1. [ユーザー] の [ゲスト ユーザー] を [Microsoft 365 管理センター](https://admin.microsoft.com)ゲスト **情報**  >  **を編集します**。
 
    ![編集するゲスト ユーザー情報](media/access-guest-user.png)
 

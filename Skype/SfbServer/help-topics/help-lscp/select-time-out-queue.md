@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 description: タイムアウトした通話の転送先のキューを選択するには、[タイムアウト キューの選択] ダイアログ ボックスを使用します。
-ms.openlocfilehash: 5e266bab0ac8d00a28c4be42e51b1aba7a288c15
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 21647b47117bb536285573a2db8ef95cf3db9f6114433c4f9046bdce0c8ef65b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335237"
 ---
 # <a name="select-time-out-queue"></a>タイムアウト キューの選択
  

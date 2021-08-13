@@ -10,31 +10,31 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype for Business Server は、Skype for Business クライアントからの拡張 9-1-1 (E9-1-1) 呼び出しをサポートします。 Skype for Business Server for E9-1-1 を構成する場合、Skype for Business から行う緊急通話には、位置情報サービス データベースからの緊急対応場所 (ERL) 情報が含まれます。
-ms.openlocfilehash: 4b786d3285b5075a13f43f3b7c7cb75b79182a9f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Serverクライアントからの拡張 9-1-1 (E9-1-1) 呼び出しSkype for Businessします。 E9-1-1 のSkype for Business Serverを構成する場合、Skype for Business からの緊急通話には、場所情報サービス データベースからの緊急対応場所 (ERL) 情報が含まれます。
+ms.openlocfilehash: 03fee1a411b88e51f0b994de7bba65ba3f2d3edfecb14d004e6a7f98842002ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297283"
 ---
-# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Skype for Busines Server で拡張 9-1-1 および Location サービスを管理する
+# <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Busines Server の拡張 9-1-1 と位置情報サービスSkype管理する
 
-Skype for Business Server は、Skype for Business クライアントからの拡張 9-1-1 (E9-1-1) 呼び出しをサポートします。 Skype for Business Server for E9-1-1 を構成する場合、Skype for Business から行う緊急通話には、位置情報サービス データベースからの緊急対応場所 (ERL) 情報が含まれます。 場所ポリシーを管理するには、この記事の手順を使用します。
+Skype for Business Serverクライアントからの拡張 9-1-1 (E9-1-1) 呼び出しSkype for Businessします。 E9-1-1 のSkype for Business Serverを構成する場合、Skype for Business からの緊急通話には、場所情報サービス データベースからの緊急対応場所 (ERL) 情報が含まれます。 場所ポリシーを管理するには、この記事の手順を使用します。
 
 > [!Note]
-> E9-1-1 エンタープライズ VoIP位置情報サービスなどの高度な機能の展開の詳細については、「Deploy advanced エンタープライズ VoIP [フィーチャー」を参照してください](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)。
+> E9-1-1 エンタープライズ VoIP位置情報サービスなどの高度な機能の展開の詳細については、「Deploy advanced エンタープライズ VoIP[フィーチャー」を参照してください](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)。
 
-Skype for Business Server では、場所ポリシーを使用して、拡張 9-1-1 (E9-1-1) 機能に関連する設定と、ユーザーまたは連絡先の場所設定を適用できます。 場所のポリシーには、ユーザーを E9-1-1 に対して有効にするかどうか、および有効にする場合、緊急電話の動作を指定します。 たとえば、場所ポリシーを使用して、緊急電話の番号 (米国の場合は 911)、社内セキュリティに自動的に通知するかどうか、および通話をルーティングする方法を定義できます。
+このSkype for Business Server、場所ポリシーを使用して、拡張 9-1-1 (E9-1-1) 機能に関連する設定と、ユーザーまたは連絡先の場所設定を適用できます。 場所のポリシーには、ユーザーを E9-1-1 に対して有効にするかどうか、および有効にする場合、緊急電話の動作を指定します。 たとえば、場所ポリシーを使用して、緊急電話の番号 (米国の場合は 911)、社内セキュリティに自動的に通知するかどうか、および通話をルーティングする方法を定義できます。
 
-場所ポリシーは、Skype for **Business Server コントロール** パネルのネットワーク構成グループから構成できます。 Skype for Business Server コントロール パネルから、場所ポリシーを表示、作成、変更、または削除できます。 場所ポリシーに関する情報を表示するには次の手順を使用します。 
+場所ポリシーは、[ネットワーク構成]グループの [コントロール パネル] Skype for Business Server構成できます。 [コントロール Skype for Business Serverから、場所ポリシーを表示、作成、変更、または削除できます。 場所ポリシーに関する情報を表示するには次の手順を使用します。 
 
 
 ## <a name="view-location-policy-information"></a>場所ポリシー情報の表示 
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[場所ポリシー] **をクリックします**。
 
@@ -50,14 +50,14 @@ Skype for Business Server では、場所ポリシーを使用して、拡張 9-
 
 ## <a name="create-or-modify-a-location-policy"></a>場所ポリシーを作成または変更する 
 
-Skype for Business Server では、場所の更新に対するクライアント要求の間の既定の時間を Location Information Service から上書きできます。 既定値は 4 時間です。 既定値を上書きするには、LocationRefreshInterval パラメーターと一緒に **Set-CsLocationPolicy** コマンドレットを使用します。
+このSkype for Business Server、位置情報サービスから場所の更新に対するクライアント要求の既定の時間を上書きできます。 既定値は 4 時間です。 既定値を上書きするには、LocationRefreshInterval パラメーターと一緒に **Set-CsLocationPolicy** コマンドレットを使用します。
 
 
-### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルで新しい場所ポリシーを作成するには
+### <a name="to-create-a-new-location-policy-in-the-skype-for-business-server-control-panel"></a>コントロール パネルで新しい場所ポリシーをSkype for Business Serverするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[場所ポリシー] **をクリックします**。
 
@@ -69,7 +69,7 @@ Skype for Business Server では、場所の更新に対するクライアント
 
 5.  残りのフィールドを次のように入力します。
     
-      - **拡張緊急サービスを有効にする**   E9-1-1 のこのポリシーに関連付けられているユーザーを有効にするには、このチェック ボックスをオンにします。 緊急サービスが有効な場合、Skype for Business Server クライアントは登録に関する位置情報を取得し、緊急電話が行われたときにその情報を含める。
+      - **拡張緊急サービスを有効にする**   E9-1-1 のこのポリシーに関連付けられているユーザーを有効にするには、このチェック ボックスをオンにします。 緊急サービスが有効になっている場合、Skype for Business Serverクライアントは登録に関する位置情報を取得し、緊急電話が行われたときにその情報を含める必要があります。
     
       - **場所**   次のいずれかの値を指定します。
         
@@ -80,7 +80,7 @@ Skype for Business Server では、場所の更新に対するクライアント
           - **免責事項**   このオプションは、ユーザーが **位置情報を入力** せずにプロンプトを閉じできない場合を除き、必須と同じです。 ユーザーは緊急通話を完了できますが、情報を入力せずに他の呼び出しを完了できます。 さらに、免責事項のテキストがユーザーに表示され、位置情報の入力が低下した場合の結果を通知できます。 免責事項のテキストを設定するには、Skype for Business Server 管理シェルを使用して **Set-CsLocationPolicy** コマンドレットまたは EnhancedEmergencyServiceDisclaimer パラメーターを使用して **New-CsLocationPolicy** コマンドレットを実行する必要があります。 詳細については [、「Set-CsLocationPolicy」](/powershell/module/skype/Set-CsLocationPolicy) または [「New-CsLocationPolicy」を参照してください](/powershell/module/skype/New-CsLocationPolicy)。
           
     
-      - **緊急サービスにのみ場所を使用する** Skype for Business では、さまざまな理由で位置情報を使用できます (たとえば、チームメイトに現在の場所を通知する場合など)。 このチェック ボックスをオンにすると、緊急通話でのみ位置情報を使用できます。
+      - **緊急サービスの場所を使用Skype for Business、** さまざまな理由で位置情報を使用できます (たとえば、チームメイトに現在の場所を通知する場合など)。 このチェック ボックスをオンにすると、緊急通話でのみ位置情報を使用できます。
     
       - **PSTN 使用法**   このプロファイルを使用してクライアントからの緊急通話をルーティングするために使用する音声ルートを決定するために使用される公衆交換電話網 (PSTN) の使用法。 この使用法に関連付けられたルートは、緊急通話専用の SIP トランク、または緊急通話を最も近い公衆安全応答ポイント (PSAP) にルーティングする緊急場所識別番号 (ELIN) ゲートウェイを指している必要があります。
     
@@ -110,11 +110,11 @@ Skype for Business Server では、場所の更新に対するクライアント
     > ユーザー ポリシーを作成する場合、最初は、そのポリシーはユーザーまたはネットワーク サイトには適用されません。 ユーザーにポリシーを適用するには、左側のナビゲーション バー **の [ユーザー** ] をクリックします。 ポリシーを適用するユーザーを検索します。 [**編集**] メニューの [**詳細の表示**] をクリックします。 [サーバー ユーザー **の編集] ページ** で、[場所ポリシー]ドロップダウン リストから新しい場所ポリシーを選択し、[コミット] を **クリックします**。<BR>ポリシーをネットワーク サイトに適用するには、左側のナビゲーション バーで [ **ネットワーク構成** ] をクリックし、[サイト] を **クリックします**。 ポリシーを適用するネットワーク サイトを探します。 [**編集**] メニューの [**詳細の表示**] をクリックします。 [**サイトの編集]** で、[場所ポリシー]ドロップダウン リストから新しい場所ポリシーを選択し、[コミット] を **クリックします**。
 
 
-### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルで場所ポリシーを変更するには
+### <a name="to-modify-a-location-policy-in-the-skype-for-business-server-control-panel"></a>[コントロール パネル] の場所ポリシーをSkype for Business Serverするには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[場所ポリシー] **をクリックします**。
 
@@ -132,7 +132,7 @@ Skype for Business Server では、場所の更新に対するクライアント
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[ネットワーク構成] **をクリックし**、[場所ポリシー] **をクリックします**。
 

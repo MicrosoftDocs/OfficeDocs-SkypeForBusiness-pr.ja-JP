@@ -13,12 +13,12 @@ f1.keywords:
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be22f4c8da84ba416bbd41b9247aa5d3a8ee4124
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: b12b28f4898b3b6dc722086d22c616e3938f4580b5f9c4956367663ea841d305
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993966"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321149"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>連絡先センターの統合 (Microsoft Teams
 

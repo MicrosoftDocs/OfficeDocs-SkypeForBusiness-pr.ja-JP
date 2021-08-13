@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
-description: Lync Server 2013 を右クリックし、[新規] を選択して、作成するサーバーの役割を選択すると、トポロジ ビルダーの Lync Server 2013 ノードに新しいサーバーの役割を作成できます。
-ms.openlocfilehash: 28a2adfe06f89ebc7f7bc836d2844b11a8eaab3e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: トポロジ ビルダーの Lync Server 2013 ノードで新しいサーバー ロールを作成するには、Lync Server 2013 を右クリックし、[新規] を選択してから、作成するサーバー の役割を選択します。
+ms.openlocfilehash: 7c5035f2052fc0c7f6f3a61cd7ad67f22a9b6780dad2011811887b45a54ec3a0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832967"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297423"
 ---
 # <a name="lync-server-2013-create-new-expander"></a>Lync Server 2013 新規作成エキスパンダー
  
-Lync Server 2013 を右クリックして [新規] を選択し、作成するサーバーの役割を選択すると、トポロジビルダーの **Lync Server 2013** ノードに新しいサーバーの役割を作成できます。
+Lync Server 2013 を右クリックし、[新規] を選択し、作成するサーバーの役割を選択して、トポロジ ビルダーの **Lync Server 2013** ノードに新しいサーバー の役割を作成できます。
   
 

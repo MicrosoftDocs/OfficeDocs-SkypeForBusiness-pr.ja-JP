@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: この記事では、Microsoft Teams 用に認定されている電話機と、それらの電話機でサポートされている機能のリストを取り上げています。
-ms.openlocfilehash: 2299c16bb3849119b93eb5e3e7d03f5ef6744430
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ab205a8a23b2cc83461cfcab047458fa4027db7e4257f95891caa0a5a6998ec9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102213"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321459"
 ---
 # <a name="phones-for-microsoft-teams"></a>Microsoft Teams 用の電話機
 
@@ -67,7 +67,7 @@ Intune を使用してディスプレイをデプロイする方法の詳細Team
 
 ## <a name="upgrade-your-phones-to-teams-displays"></a>スマートフォンをディスプレイにTeamsする
 
-[Microsoft Teamsディスプレイは](teams-displays.md)、Cortana を利用した環境タッチスクリーンとハンズフリーエクスペリエンスを備Teamsデバイスの 1 つの専用デバイスのカテゴリです。 このTeamsを使用すると、ユーザーはマイク、カメラ、スピーカー (またはBluetooth ヘッドセット) を使用して、信頼性の高い通話と会議のエクスペリエンスを実現できます。 Teamsディスプレイは、ユーザーの PC Windows統合して、シームレスなデバイス間の対話を可能にするコンパニオン エクスペリエンスを実現します。
+[Microsoft Teamsディスプレイは](teams-displays.md)、環境タッチスクリーンと、Cortana を搭載したハンズフリーエクスペリエンスを備える、1 つの専用 Teams デバイスのカテゴリです。 このTeamsを使用すると、ユーザーはマイク、カメラ、スピーカー (またはBluetooth ヘッドセット) を使用して、信頼性の高い通話と会議のエクスペリエンスを実現できます。 Teamsディスプレイは、ユーザーの PC Windows統合して、シームレスなデバイス間の対話を可能にするコンパニオン エクスペリエンスを実現します。
 
 組織内のTeamsをアップグレードして、Teams管理センター Microsoft Teams表示することができます。 このオプションは、ディスプレイへのアップグレードをサポートしている電話Teams使用できます。 詳細については、「スマートフォンをディスプレイに[TeamsアップグレードするTeams参照してください](upgrade-phones-to-displays.md)。
 
