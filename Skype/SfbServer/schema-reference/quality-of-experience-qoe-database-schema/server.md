@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
-description: サーバー テーブルは補助的なテーブルです。 個々のレコードが 1 つのサーバーを表します。
-ms.openlocfilehash: 7f26ed9053c65acb8cfd2e586edbd77fdfa7472b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: サーバー テーブルは補助的なテーブルです。個々のレコードが 1 つのサーバーを表します。
+ms.openlocfilehash: e43e245e62b1b40f318d1920ae93d82ae9e8bad0e28436f31d9cc2f0fe54bac1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341622"
 ---
 # <a name="server-table"></a>サーバー テーブル
  
@@ -26,9 +26,9 @@ ms.locfileid: "49802707"
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**ServerKey** <br/> |int  <br/> |Primary  <br/> |サーバーを識別する一意の番号。  <br/> |
+|**ServerKey** <br/> |整数  <br/> |Primary  <br/> |サーバーを識別する一意の番号。  <br/> |
 |**FQDNOrIP** <br/> |nvarchar(256)  <br/> |index  <br/> |MAC アドレス文字列。  <br/> |
-|**ServerType** <br/> |int  <br/> |外部  <br/> |1: 仲介サーバー  <br/> 2: 音声ビデオ会議サーバー16394: 音声ビデオ エッジ サービス 32769: ゲートウェイ  <br/> |
+|**ServerType** <br/> |整数  <br/> |外部  <br/> |1: 仲介サーバー  <br/> 2: 音声ビデオ会議サーバー16394: 音声ビデオ エッジ サービス 32769: ゲートウェイ  <br/> |
 |**PoolName** <br/> |nvarchar(512)  <br/> ||サーバーが所属するプール。音声ビデオ会議サーバーにのみ適用されます。  <br/> |
 |**NextUpdateTS** <br/> |日付型  <br/> ||内部使用のみ。  <br/> |
    

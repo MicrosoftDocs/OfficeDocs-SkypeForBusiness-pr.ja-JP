@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Skype for Business Server または Skype for Business Server ユーザーを実行しているサーバーをホストするドメインを準備するには、「セットアップを使用してドメイン準備を実行する」のトピックで説明されている手順 5: Prepare Current Domain を完了する必要があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
-ms.openlocfilehash: a71e50b0f3d55709c3c22709177b41e541f7075f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'Skype for Business Server または Skype for Business Server ユーザーを実行しているサーバーをホストするドメインを準備するには、「セットアップを使用してドメイン準備を実行する」のトピックで説明されている手順 5: 現在のドメインの準備を完了する必要があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
+ms.openlocfilehash: e2741bb3c80f73e0a194f37633fa8d572ca8817d32b34bd2f138c1daca888ccd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097342"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325384"
 ---
 # <a name="prepare-current-domain"></a>現在のドメインの準備
 
-Skype for Business Server または Skype for Business Server ユーザーを実行しているサーバーをホストするドメインを準備するには、「セットアップを使用してドメイン準備を実行する」のトピックで説明されている手順 **5:** Prepare Current Domain を完了 [する必要](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation)があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
+Skype for Business Server または Skype for Business Server ユーザーを実行しているサーバーをホストするドメインを準備するには、「セットアップを使用してドメイン準備を実行する」のトピックで説明されている手順 **5:** Prepare Current Domain を完了 [する必要があります](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation)。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
 
-1. Skype for Business Server インストール フォルダーまたはメディアから、Skype for Business Server 展開ウィザードをSetup.exeを実行して、Skype for Business Server 展開ウィザードを起動します。
+1. インストール フォルダー Skype for Business Serverメディアから、インストール フォルダーをSetup.exe展開ウィザードをSkype for Business Serverします。
 
 2. [**Active Directory の準備**] をクリックし、展開状態が判別されるまで待ちます。
 

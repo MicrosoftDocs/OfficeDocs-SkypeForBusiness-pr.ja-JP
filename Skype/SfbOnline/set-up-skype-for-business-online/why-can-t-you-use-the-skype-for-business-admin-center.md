@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'サービスを別の Microsoft データ センターに移行するときに、Skype for Business 管理センターで使用できる機能と使用できない機能について説明します。 '
-ms.openlocfilehash: 725a60be96a2d61bcec6367e1a0a33f2bc5dcee6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f00f349a42ddea2de1019d206cc2097f1e7b29eaca78e5e0e19c1996f3782f43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238918"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300423"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>現在、Skype for Business Online 管理センターを使用できない理由
 
@@ -48,7 +48,7 @@ ms.locfileid: "52238918"
     
 - **移行** これは "移動" とほとんど同じです。 この場合、Skype for Business Online のユーザーと設定を、お客様のサービス向上に近い別のデータセンターに移動します。
     
-- **待機時間** この時間は、管理センターから管理センターにアクセスしMicrosoft 365設定を変更してから、それらの変更を保存するのにかかる時間です。
+- **待機時間** この時間は、アプリケーションにアクセスし、Microsoft 365 管理センター変更してから、それらの変更を保存するのにかかる時間です。
     
 - **関連付け ID** 先日のメッセージにこのメッセージが一覧表示されている可能性があります。 この情報は、エラーのトラブルシューティングに役立つ Microsoft サポート エンジニアによって使用されます。 Microsoft サポートにお問い合わせの場合は、関連付け ID の入力を求めされる場合があります。
     

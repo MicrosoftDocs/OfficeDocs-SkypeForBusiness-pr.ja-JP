@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の通話品質ダッシュボードの計画
+title: 通話品質ダッシュボードの計画を立Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,33 +13,33 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: 通話品質ダッシュボードを計画する際に考慮すべき点について学習します。'
-ms.openlocfilehash: d75e7a07d6f461c6b4b8e1e33ae86869984aae08
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 314c0c631cda29d23accc39980da25fdad567619797d515b90f31ebff9ccd450
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095191"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340893"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボードの計画 
+# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードの計画を立Skype for Business Server 
  
 **概要:** 通話品質ダッシュボードを計画する際に考慮すべき点について学習します。
   
-## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>Skype for Business Server 通話品質ダッシュボードの概要
+## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>通話品質ダッシュボードSkype for Business Server概要
 
-Skype for Business Server 通話品質ダッシュボード (CQD) は、Skype for Business Server の監視サーバーの Quality of Experience データベースの上にレポート層です。 CQD は、Microsoft SQL Server分析サービスを使用して、集計の使用状況と通話品質情報を提供し、データセットのフィルター処理とピボットを行います。 CQD の機能は次のとおりです。
+[Skype for Business Server通話品質ダッシュボード (CQD) は、サーバー内の監視サーバーの Quality of Experience データベースの上にレポート層Skype for Business Server。 CQD は、Microsoft SQL Server分析サービスを使用して、集計の使用状況と通話品質情報を提供し、データセットのフィルター処理とピボットを行います。 CQD の機能は次のとおりです。
   
 - **CQD の QoE アーカイブ コンポーネントを介した QoE データのアーカイブ ストレージ。** QoE アーカイブ コンポーネントは、監視サーバーが実行できるよりもずっと長い期間 QoE データを格納できます。 これにより、一度に最大 7 か月間のデータの傾向とレポート作成が可能になります。データがある限りレポート ウィンドウをスライドできます。
-- **分析サービスの機能と速度を使用したMicrosoft SQL Server分析。** CQD は Microsoft SQL Analysis Services を利用して、分析キューブを介してダッシュボードに電力を供給する高速な概要、フィルター、ピボット機能を提供します。 レポートの実行速度とデータをドリルダウンする機能により、分析時間が大幅に短縮されます。
+- **分析サービスの機能と速度を使用したMicrosoft SQL Server分析。** CQD は、Microsoft SQL Analysis Services を使用して、分析キューブを介してダッシュボードに電力を供給する高速な概要、フィルター、ピボット機能を提供します。 レポートの実行速度とデータをドリルダウンする機能により、分析時間が大幅に短縮されます。
 - **通話品質レポート用に最適化された新しいデータ スキーマ。** キューブには、音声品質レポートと調査用に設計されたスキーマがあります。 ポータル ユーザーは、QoE Metrics データベース スキーマが必要なビューにマップする方法を特定する代わりに、レポート タスクに集中できます。 QoE アーカイブとキューブの組み合わせにより、CQD によるレポートと分析の複雑さを軽減する抽象化が提供されます。 QoE アーカイブ データベース スキーマには、展開固有のデータを設定してデータの全体的な値を向上できるテーブルも含まれています。
 - **組み込みのレポート デザイナーとインプレイス レポート編集。** ポータル コンポーネントには、呼び出し品質メソッドの後にモデル化されたいくつかの組み込みレポートが付属しています。 ポータル ユーザーは、ポータルの編集機能を使用してレポートを変更し、新しいレポートを作成できます。
 - **レポート構造と分析キューブ データへの Web API アクセス。** ダッシュボード レポート フレームワークは、キューブからデータを表示する唯一の方法ではありません。 CQD には、HTML と JavaScript を使用して CQD Web API からデータを取得し、カスタム形式でデータをレンダリングする例がいくつか示されています。 レポート エディターと CQD Web API を組み合わせて使用すると、レポートの迅速なプロトタイプ作成とカスタム レポート レイアウトが可能です。
 
 > [!NOTE]
-> 管理者は [、CQD](https://cqd.teams.microsoft.com) バージョン 3 (管理者資格情報を使用してログイン) を使用して Skype for Business Server 2019 を管理できます。 これには、ハイブリッド実装と通話データ コネクタ (CDC) の使用が必要です。 CDC [の有効化の詳細については](../../../SfbHybrid/hybrid/plan-call-data-connector.md) 、「通話データ コネクタの計画」を参照してください。 CQD バージョン 3 のドキュメントについては [、「CQD](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) バージョン 3」の詳細については、「Microsoft Teams および Skype for Business Online の通話品質ダッシュボードを有効にし、使用する」を参照してください。
+> 管理者は[、CQD](https://cqd.teams.microsoft.com) Skype for Business Server 3 を使用して 2019 年を管理できます (管理者資格情報を使用してログインします)。 これには、ハイブリッド実装と通話データ コネクタ (CDC) の使用が必要です。 CDC [の有効化の詳細については](../../../SfbHybrid/hybrid/plan-call-data-connector.md) 、「通話データ コネクタの計画」を参照してください。 CQD バージョン 3 のドキュメントについては、CQD バージョン 3 の詳細については[、「Microsoft Teams](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)および Skype for Business Online の通話品質ダッシュボードを有効にし、使用する」を参照してください。
 
 ## <a name="cqd-design-goals"></a>CQD デザインの目標
 
-CQD を使用すると、IT プロは集約データを使用して、メディア品質の問題が発生している環境のフォーカス領域を特定できます。 IT プロは、さまざまなユーザー グループの統計を比較し、傾向とパターンを特定できます。 個々の通話の問題の解決ではなく、特定の環境の多くのユーザーに適用される問題とソリューションを特定します。 
+CQD を使用すると、IT プロは集約データを使用して、メディア品質の問題が発生している環境のフォーカス領域を特定できます。 IT 管理者は、さまざまなProの統計を比較し、傾向とパターンを特定できます。 個々の通話の問題の解決ではなく、特定の環境の多くのユーザーに適用される問題とソリューションを特定します。 
   
 ## <a name="call-quality-dashboard-components"></a>品質ダッシュボード コンポーネントの呼び出し
 
@@ -59,11 +59,11 @@ QoE アーカイブ、キューブ、リポジトリ データベースを含む
     
 ![CQD コンポーネント](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
-同じ CQD アーキテクチャが Lync Server 2013 と Skype for Business をサポートしています。 
+同じ CQD アーキテクチャは、Lync Server 2013 および Skype for Business をサポートします。 
   
-### <a name="cqd-and-skype-for-business-vs-lync-2013"></a>CQD と Skype for Business vs. Lync 2013
+### <a name="cqd-and-skype-for-business-vs-lync-2013"></a>CQD と Skype for Business Lync 2013
 
- Skype for Business 環境でのみ、次の機能を使用できます。
+ 一部Skype for Business環境でのみ、次の機能を使用できます。
   
 - Wi-Fiのレポート
     
@@ -73,7 +73,7 @@ QoE アーカイブ、キューブ、リポジトリ データベースを含む
     
 ## <a name="information-available-through-cqd"></a>CQD で利用可能な情報
 
-CQD では、Skype for Business Server オーディオ、ビデオ、およびアプリケーション共有ストリームの数と、良好な通話と悪い呼び出しの数、および良好な通話に対する不良通話の比率を表示できます。 ビューは、さまざまな次元でスライスおよびフィルター処理できます。 CQD は、監視サーバーの QoE Metrics データベースからデータを描画します。 その後、データは、ネットワークサブネットから建物へのマッピングなど、顧客が提供するデータとマージされ、"建物ごとの通話品質" などのレポートを可能にします。 
+CQD は、Skype for Business Server、ビデオ、およびアプリケーション共有ストリームの数と、良好な通話と悪い通話の数、および不良通話と良い通話の比率を表示できます。 ビューは、さまざまな次元でスライスおよびフィルター処理できます。 CQD は、監視サーバーの QoE Metrics データベースからデータを描画します。 その後、データは、ネットワークサブネットから建物へのマッピングなど、顧客が提供するデータとマージされ、"建物ごとの通話品質" などのレポートを可能にします。 
   
 また、CQD は、"発信者" や "呼び出し先" などの内部 QoE データのイディオシンクラシーの多くを抽象化し、ユーザーが "サーバー" や "クライアント" を中心にレポート ビューを構築できます。 通話品質の方法に従って、CQD は、通話品質を向上するためのテネトの 1 つである低品質通話のポケットに共通する条件を特定するために合理化されています。
   
@@ -83,15 +83,15 @@ CQD データは、CQD ポータルを介して表示し、REST API 呼び出し
   
 ### <a name="cqd-portal"></a>CQD ポータル
 
-ポータルは、キューブ内のデータを最も速く表示する方法です。 ポータルには、すぐ使えるいくつかの組み込みレポートが付属しています。 組み込みのレポートは構造化された方法でリンクされ、ユーザーは呼び出しデータのスライスを順次小さく、小さくします。 組み込みのレポートでは、ピボット、フィルター、メジャーが異なるグラフとテーブルの組み合わせを示して、さまざまな方法でデータを表示できます。 ポータルにアクセスする各ユーザーは、自分が変更および共有できる一連のレポートを所有できます。 CQD Web ポータルの使用方法の詳細については、「Use Call [Quality Dashboard for Skype for Business Server」を参照してください](use.md)。
+ポータルは、キューブ内のデータを最も速く表示する方法です。 ポータルには、すぐ使えるいくつかの組み込みレポートが付属しています。 組み込みのレポートは構造化された方法でリンクされ、ユーザーは呼び出しデータのスライスを順次小さく、小さくします。 組み込みのレポートでは、ピボット、フィルター、メジャーが異なるグラフとテーブルの組み合わせを示して、さまざまな方法でデータを表示できます。 ポータルにアクセスする各ユーザーは、自分が変更および共有できる一連のレポートを所有できます。 CQD Web ポータルの使用方法の詳細については、「Use Call Quality Dashboard for Skype for Business Server」[を参照してください](use.md)。
   
 CQD ポータルでサポートされるオペレーティング システム: Windows 8.1、Windows 8、Windows Server 2012 R2、Windows Server 2012、および Windows Server 2016 (Skype for Business Server 2019 CQD のみ)。
   
-CQD ポータルでサポートされているブラウザー: Internet Explorer 11、Internet Explorer 10、および Internet Explorer 9。
+CQD ポータルでサポートされているブラウザー: Internet Explorer 11、Internet Explorer 10、およびInternet Explorer 9。
   
 ### <a name="rest-apis"></a>REST API
 
-キューブ データには、REST API 呼び出しを介してアクセスすることもできます。 REST API 呼び出しを介して取得されたデータは、HTML ページを介してレンダリングできます。 ユーザーは、ビジネス ニーズに適したカスタム レポートを作成しながら、クエリ速度と CQD の高レベルスキーマを利用できます。 API とサンプルの詳細については、「Skype for Business Server の通話品質 [ダッシュボードの開発」を参照してください](develop.md)。 
+キューブ データには、REST API 呼び出しを介してアクセスすることもできます。 REST API 呼び出しを介して取得されたデータは、HTML ページを介してレンダリングできます。 ユーザーは、ビジネス ニーズに適したカスタム レポートを作成しながら、クエリ速度と CQD の高レベルスキーマを利用できます。 API とサンプルの詳細については、「呼び出し品質[ダッシュボードの開発」を参照Skype for Business Server。](develop.md) 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>CQD に対する組織の要件の定義
 
@@ -109,7 +109,7 @@ CQD は、QoE データアーカイブと通話品質データの迅速かつ深
 
  **QoE レポートが 3 か月以上のデータで発生する必要がある場合は、CQD を展開する必要があります。** QoEMetrics データベースおよび監視サーバー レポートは、小さなデータ セットを保持して報告するように設計されています。 QoE Metrics データベースは高速挿入用に最適化されるため、大量の呼び出しやデータベースへの競合レポート アクセスによってレポートのパフォーマンスが低下する可能性があります。 CQD の QoE アーカイブ データベースは、より長い保持機能を備え、QoE Metrics データの 2 番目のコピーを提供します。 ポータルは、一度に最大 7 か月のデータを表示するために最適化され、必要に応じて QoE アーカイブ内のすべてのデータを報告できます。
   
- **カスタム QoE レポートが必要な場合は、CQD を展開する必要があります。** ポータルには、レポートをすばやく簡単に作成およびプロトタイプを作成するためのレポート エディター機能があります。 また、キューブ データへのプログラムによるアクセスに使用できる REST API も提供され、HTML/JavaScript などの多くのフレームワークを使用したカスタム プレゼンテーションが可能になります。 レポート用のカスタム データ ビューを作成するために、SQLクエリを作成する必要がなくなりました。
+ **カスタム QoE レポートが必要な場合は、CQD を展開する必要があります。** ポータルには、レポートをすばやく簡単に作成およびプロトタイプを作成するためのレポート エディター機能があります。 また、キューブ データへのプログラムによるアクセスに使用できる REST API も提供され、HTML/JavaScript などの多くのフレームワークを使用したカスタム プレゼンテーションが可能になります。 レポート用のカスタム データ ビューを作成SQL新しいクエリを作成する必要がなくなりました。
   
  **既存の QoE レポート機能が組織に必要な速度または深度を満たしていない場合は、CQD を展開する必要があります。** CQD には、多くの組み込みレポートが付属しています。 レポートはすぐに役立ち、データを段階的に掘り下ろして各レベルで追加の分析情報を提供する方法を示します。 また、レポート階層は、多数のレポートを論理的に管理するのにも役立ち、アクセスしやすく理解しやすい、より多くのレポートの作成を促進します。 CQD は、速度と柔軟性を提供するだけでなく、通話品質手法によって開発されたワークフロー向けに最適化されています。
   
@@ -121,12 +121,12 @@ CQD には複数のコンポーネントが付属し、各コンポーネント�
 |**コンポーネント名**|**依存コンポーネント**|
 |:-----|:-----|
 |QoE アーカイブ  <br/> |Microsoft SQL Server  <br/> |
-|キューブ  <br/> |Microsoft SQL Server Analysis Services  <br/> |
+|キューブ  <br/> |Microsoft SQL ServerAnalysis Services  <br/> |
 |ポータル  <br/> |Microsoft Information Services  <br/> |
 |リポジトリ サービス (ポータルのインストールの一部)  <br/> |Microsoft SQL Server  <br/> |
    
 > [!NOTE]
-> QoE アーカイブとキューブの場合、特定の展開オプションでは、ビジネス インテリジェンスまたはエンタープライズ エディションのサービス がMicrosoft SQL Server。 詳細については、 [以下の「CQD の](plan.md#Infrastructure_Req) インフラストラクチャ要件」セクションを参照してください。
+> QoE アーカイブとキューブの場合、特定の展開オプションでは、ビジネス インテリジェンスまたはEnterpriseエディションが必要Microsoft SQL Server。 詳細については、 [以下の「CQD の](plan.md#Infrastructure_Req) インフラストラクチャ要件」セクションを参照してください。
   
 ![CQD コンポーネント](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
   
@@ -134,7 +134,7 @@ CQD には複数のコンポーネントが付属し、各コンポーネント�
 
 すべての CQD コンポーネントと依存コンポーネントを 1 つのコンピューターにインストールできます。 単一ボックス構成は最も簡単な構成であり、CQD を自己格納可能にします。 CQD は、監視サーバー上の QoE Metrics データベースにアクセスする必要があります。 CQD Server は、スタンドアロン コンピューター、仮想マシン、またはホスト コンピューターの利用可能なリソースとパフォーマンス要件に応じて監視サーバーにすることもできます。 
   
-インストール時に、インストールを実行するユーザーは、CQD をインストールするコンピューターで以前にセットアップされた Microsoft SQL Server および Microsoft SQL Server Analysis Services インスタンスを提供するだけで済みます。 詳細については [、「Deploy Call Quality Dashboard for Skype for Business Server」](deploy-0.md) を参照してください。
+インストール時に、インストールを実行するユーザーは、CQD をインストールするコンピューターで以前にセットアップされた Microsoft SQL Server および Microsoft SQL Server Analysis Services インスタンスを提供するだけで済みます。 詳細については、「[通話品質ダッシュボードの展開」Skype for Business Server](deploy-0.md)を参照してください。
   
 ### <a name="multiserver-configuration"></a>マルチサーバー構成
 
@@ -154,7 +154,7 @@ CQD には複数のコンポーネントが付属し、各コンポーネント�
   
 ### <a name="supported-topologies"></a>サポートされるトポロジ
 
-複数の Skype for Business Server トポロジが存在する場合と同様に、CQD は複数の QoEMetrics データベースのデータをマージしません。それぞれ独自の監視サーバーが存在します。 各 CQD インスタンスは、1 つの QoEMetrics データベースを指している必要があります。 ただし、CQD はレポートワークロードの大部分を監視サーバーから移動しますので、Skype for Business Server トポロジごとに 1 つの監視サーバーを展開する必要がある大規模な組織では、すべてのトポロジに 1 つの監視サーバーを使用する必要があります。
+CQD は、複数の QoEMetrics データベースのデータをマージしません。これは、複数のトポロジが存在する場合と同様に、Skype for Business Server監視サーバーがそれぞれ存在します。 各 CQD インスタンスは、1 つの QoEMetrics データベースを指している必要があります。 ただし、CQD はレポートワークロードの大部分を監視サーバーから移動しますので、Skype for Business Server トポロジごとに 1 つの監視サーバーを展開する必要がある大規模な組織では、すべてのトポロジに 1 つの監視サーバーを使用する必要があります。
   
 ## <a name="infrastructure-requirements-for-cqd"></a>CQD のインフラストラクチャ要件
 <a name="Infrastructure_Req"> </a>
@@ -164,7 +164,7 @@ CQD には複数のコンポーネントが付属し、各コンポーネント�
 |||
 |:-----|:-----|
 |CQD 2015 の場合 <br/> |  <br/> |
-|サポートされているオペレーティング システム   <br/> |Windows Server 2008 R2、Windows Server 2012、Windows Server 2012 R2  <br/> |
+|サポートされているオペレーティング システム   <br/> |WindowsServer 2008 R2、Windows Server 2012、Windows Server 2012 R2  <br/> |
 |サポートされているSQL Server  <br/> |SQL Server 2012、SQL Server 2014、SQL Server 2016  <br/> |
 
 |||
@@ -173,7 +173,7 @@ CQD には複数のコンポーネントが付属し、各コンポーネント�
 |サポートされているオペレーティング システム   <br/> |Windows Server 2016、Windows Server 2019  <br/> |
 |サポートされているSQL Server  <br/> |SQL Server 2017、SQL Server 2019  <br/> |
    
-CQD は Microsoft SQL Server、Microsoft SQL Server Analysis Services、Microsoft インターネット インフォメーション サービス を利用します。そのため、CQD の最小ハードウェア要件とソフトウェア要件は基本的に、これらの依存コンポーネントと同じです。 ただし、データの鮮度に関する組織の要件 (組織が生成する QoE データの量に部分的に依存します) と展開コストに基づいて、追加の展開に関する考慮事項を行う必要があります。
+CQD は Microsoft SQL Server、Microsoft SQL Server Analysis Services、および Microsoft インターネット インフォメーション サービス を利用します。そのため、CQD の最小ハードウェア要件とソフトウェア要件は基本的に、これらの依存コンポーネントと同じです。 ただし、データの鮮度に関する組織の要件 (組織が生成する QoE データの量に部分的に依存します) と展開コストに基づいて、追加の展開に関する考慮事項を行う必要があります。
   
 CQD でのデータ処理は、次の 2 つの主要なステージに分かっています。 
   
@@ -183,9 +183,9 @@ CQD でのデータ処理は、次の 2 つの主要なステージに分かっ�
     
   **QoE アーカイブ処理。** QoE アーカイブ処理タスクは、監視サーバー上の QoE Metrics データベースから QoE アーカイブ データベースにデータをコピーします。 タスクの処理時間が基本的に異なるパフォーマンス特性を持つ 2 つの状況があります。 1 つ目は、CQD の初期インストール後です。 新しいインストール後にタスクを初めて実行すると、QoE アーカイブ処理タスクは QoE Metrics データベース内のすべてのデータを QoE アーカイブ データベースにコピーします。 2 つ目は、この最初のラウンド後の定期的な処理です。 QoE アーカイブ処理タスクは 15 分ごとに実行され、QoE Metrics データベースにある新しい QoE レコードを処理します。 一般に、最初の処理時間は、CQD がインストールされている最初の時間だけ実行されるので、問題ではありません。 ただし、CQD サーバーがプロビジョニングが厳しい場合、このタスクには数時間かかる場合があります。 初期 QoE アーカイブ処理時間については、以下の表を参照してください。
   
-  **CQD キューブの処理。** キューブ処理タスクは、QoE アーカイブ データベースのデータをキューブに集約します。 最初のキューブ処理時間とそれ以降のキューブ処理時間は、CQD キューブSQL Server Analysis Services エディションによって決まります。 Standard エディションを使用する場合、キューブ データが更新されるごとに、使用可能なすべてのデータの完全な処理が常に行われるため、最初のキューブ処理時間と後続のキューブ処理時間との間に違いはありません。 (つまり、QoE アーカイブ データベース内のデータ量が増えるほどキューブ処理時間が増加します。ビジネス インテリジェンス エディションとエンタープライズ エディションの SQL Serverはパーティションサポートを持つため、いずれかのエディションを使用すると、最初の実行だけが QoE アーカイブ データベース内のすべてのデータを処理します。 以降の実行では、タスクが 15 分ごとにトリガーされると、タスクは前回タスクが実行された後に QoE アーカイブ データベースに追加された新しいレコードのみを処理します。 1 日に 1 回、現在の月のデータを含むパーティションに対する完全な処理も行います。
+  **CQD キューブの処理。** キューブ処理タスクは、QoE アーカイブ データベースのデータをキューブに集約します。 最初のキューブ処理時間とそれ以降のキューブ処理時間は、CQD キューブSQL Server Analysis Services エディションによって決まります。 Standard エディションを使用する場合、キューブ データが更新されるごとに、使用可能なすべてのデータの完全な処理が常に行われるため、最初のキューブ処理時間と後続のキューブ処理時間との間に違いはありません。 (つまり、QoE アーカイブ データベース内のデータ量が増えるほどキューブ処理時間が増加します。ビジネス インテリジェンス エディションと Enterprise Edition SQL Serverにはパーティションのサポートが含まれており、いずれかのエディションが使用されている場合は、最初の実行だけが QoE アーカイブ データベース内のすべてのデータを処理します。 以降の実行では、タスクが 15 分ごとにトリガーされると、タスクは前回タスクが実行された後に QoE アーカイブ データベースに追加された新しいレコードのみを処理します。 1 日に 1 回、現在の月のデータを含むパーティションに対する完全な処理も行います。
   
-物理マシンの特性は、CQD のパフォーマンス、および各コンポーネントから利用できるソフトウェア機能にSQL Serverがあります。 QoE アーカイブ コンポーネントは、他のコンポーネントと比較してディスク負荷が高く、キューブ コンポーネントは CPU とメモリの負荷が高い状態になります。 これらの要因はすべて、データの鮮度と可用性に直接影響する、CQD のデータ処理時間の合計に貢献します。 組織は、組織の個々のニーズに基づいてハードウェアとソフトウェアを決定する必要があります。 
+物理マシンの特性は、CQD のパフォーマンス、および各コンポーネントから使用できるソフトウェア機能にSQL Serverがあります。 QoE アーカイブ コンポーネントは、他のコンポーネントと比較してディスク負荷が高く、キューブ コンポーネントは CPU とメモリの負荷が高い状態になります。 これらの要因はすべて、データの鮮度と可用性に直接影響する、CQD のデータ処理時間の合計に貢献します。 組織は、組織の個々のニーズに基づいてハードウェアとソフトウェアを決定する必要があります。 
   
 ### <a name="tested-hardware-configurations"></a>テスト済みハードウェア構成
 
@@ -193,11 +193,11 @@ CQD でのデータ処理は、次の 2 つの主要なステージに分かっ�
   
 **コンピューター プロファイル**
 
-|**マシン**|**CPU コア**|**RAM**|**同じディスク上の QoE アーカイブとキューブ**|**QoE アーカイブと SQL一時 DB を同じディスク上に保存する**|
+|**マシン**|**CPU コア**|**RAM**|**同じディスク上の QoE アーカイブとキューブ**|**QoE アーカイブと SQL一時 DB を同じディスクに保存する**|
 |:-----|:-----|:-----|:-----|:-----|
-|仮想マシン  <br/> |4  <br/> |7 GB  <br/> |はい  <br/> |はい  <br/> |
-|4 コア  <br/> |4  <br/> |20 GB  <br/> |はい  <br/> |いいえ  <br/> |
-|8 コア  <br/> |8  <br/> |32 GB  <br/> |はい  <br/> |いいえ  <br/> |
+|仮想マシン  <br/> |4   <br/> |7 GB  <br/> |はい  <br/> |はい  <br/> |
+|4 コア  <br/> |4   <br/> |20 GB  <br/> |はい  <br/> |いいえ  <br/> |
+|8 コア  <br/> |8   <br/> |32 GB  <br/> |はい  <br/> |いいえ  <br/> |
 |16 コア  <br/> |16   <br/> |128 GB  <br/> |いいえ  <br/> |いいえ  <br/> |
    
 **パフォーマンスの結果**
@@ -231,25 +231,25 @@ IIS では、最も一般的にネットワーク サービスをアプリ プ�
   
 ### <a name="pre-install-requirements"></a>インストール前の要件
 
-これらの手順では、QoE Metrics データベースが既にインストールされ、Skype for Business Server トポロジのどこかで実行されていることを前提とします。
+これらの手順では、QoE Metrics データベースが既にインストールされ、このトポロジのどこかで実行Skype for Business Server想定しています。
   
 #### <a name="hardware-requirements"></a>ハードウェア要件
 
-CQD は Microsoft SQL Server、Microsoft SQL Analysis Server、Microsoft Internet Information Server を利用します。そのため、CQD の最小ハードウェア要件とソフトウェア要件は基本的に、これらの依存コンポーネントと同じです。 ただし、データの鮮度に関する組織の要件 (組織が生成する QoE データの量に部分的に依存します) と展開コストに基づいて、追加の展開に関する考慮事項を行う必要があります。
+CQD は Microsoft SQL Server、Microsoft SQL Analysis Server、Microsoft Internet Information Server を利用します。そのため、CQD の最小ハードウェア要件とソフトウェア要件は、基本的にそれらの依存コンポーネントと同じです。 ただし、データの鮮度に関する組織の要件 (組織が生成する QoE データの量に部分的に依存します) と展開コストに基づいて、追加の展開に関する考慮事項を行う必要があります。
   
 #### <a name="software-requirements"></a>ソフトウェア要件
 
 CQD には、次のオペレーティング システムが必要です。
   
-- Windows Server 2008 R2 IIS 7.5 のインストール
+- WindowsIIS 7.5 を使用したサーバー 2008 R2
     
 - Windows Server 2012 IIS 8.0 のインストール
     
-- Windows Server 2012 R2 と IIS 8.5
+- Windows Server 2012IIS 8.5 の R2
 
-- WINDOWS Server 2016 WITH IIS 10.0 (Skype for Business Server 2019 CQD のみ)
+- Windows Server 2016 IIS 10.0 のインストール (Skype for Business Server 2019 CQD のみ)
 
-- Windows Server 2019 (Skype for Business Server 2019 CQD のみ)
+- WindowsServer 2019 (Skype for Business Server 2019 CQD のみ)
     
 次に、必要な IIS 役割サービス (階層順) を示します。
   
@@ -282,7 +282,7 @@ CQD には、次のオペレーティング システムが必要です。
   - IIS 管理コンソール
     
 > [!NOTE]
->  上記の要件については、次の点に注意してください:>.Net フレームワークの 3.5 バージョンと 4.5 バージョンを使用できます。 どちらも必須です (具体的には、3.5 SP1 が必要です)。> 一部のシステムでは、IIS のインストール前に ASP.NET がセットアップされている場合、ASP.NET が IIS に登録されない場合があります。 この問題は、対応する .Net バージョンのアプリケーション プールが存在しない場合と、アプリ プール構成に .NET CLR バージョンがない場合に発生します。 この問題を修正するには、Windows Server 2008 R2を実行します `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` 。 Windows Server 2012および Windows Server 2012 R2 で実行し、IIS Manager.> 管理ツールの既定の Web サイトから "ServiceModel" モジュールを削除する方法はオプションですが、お勧  `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` めします。
+>  上記の要件については、次の点に注意してください:>.Net フレームワークの 3.5 バージョンと 4.5 バージョンを使用できます。 どちらも必須です (具体的には、3.5 SP1 が必要です)。> 一部のシステムでは、IIS のインストール前に ASP.NET がセットアップされている場合、ASP.NET が IIS に登録されない場合があります。 この問題は、対応する .Net バージョンのアプリケーション プールが存在しない場合と、アプリ プール構成に .NET CLR バージョンがない場合に発生します。 サーバー 2008 R2 でこのようなWindowsを修正するには、を実行します `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` 。 R2 Windows Server 2012 および Windows Server 2012 で実行し、IIS Manager.> 管理ツールの既定の Web サイトから "ServiceModel" モジュールを削除する方法はオプションですが、お勧 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` めします。
   
 PowerShell を使用してこれらの要件をインストールするには、次のコマンドを実行します。
   
@@ -301,11 +301,11 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 | CQD 2015 <br/> |  SQL Server 2012、SQL Server 2014、SQL Server 2016  |
 |CQD 2019 <br/> |  SQL Server 2017、SQL Server 2019  |
     
-パフォーマンス上の理由から、ビジネス インテリジェンスまたはエンタープライズ エディションをお勧めします。 これらのエディションでは、複数のパーティション ファイルを同時に処理でき、複数の月以上にわたるデータを処理する場合に役立ちます。 
+パフォーマンス上の理由Enterpriseビジネス インテリジェンスまたはサービス エディションをお勧めします。 これらのエディションでは、複数のパーティション ファイルを同時に処理でき、複数の月以上にわたるデータを処理する場合に役立ちます。 
   
 推奨されませんが、Standard Edition もサポートされています。 処理は 1 つのパーティションに制限されます (セットアップ中に構成する必要があります)。 
   
-すべての場合において、「データベース エンジン サービス」と「Analysis Services」をインストールする必要があります。 Analysis Services のサポートを追加する "管理ツール - 完全" 機能をインストールSQL Server Management Studio必須ではありません。 機能選択画面は図のように表示されます。
+すべての場合、"データベース エンジン サービス" と "Analysis Services" をインストールする必要があります。 Analysis Services のサポートを追加する "管理ツール - 完全" 機能をインストールSQL Server Management Studio必須ではありません。 機能選択画面は図のように表示されます。
   
 ![SQL Server要件](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
   
@@ -320,7 +320,7 @@ SSAS セットアップを構成する場合は、Analysis Services 構成で、
 - QoE Metrics データベースのログイン セキュリティ プリンシパル (db_datareader 特権を持つ) と QoE Archive SQL Server インスタンスのログイン セキュリティ プリンシパルの両方が既にあるもの (セットアップ中に Linked Server オブジェクトを作成するために必要)。 このアカウントは、エージェント ジョブの "QoE アーカイブ データ" ステップを実行SQL Serverされます。
     
     > [!NOTE]
-    > 大幅にロックされた環境で作業している場合は、QoE Metrics Monitoring データベース SQL Server と QoE アーカイブ SQL Server の両方で、このサービス アカウントに実際に "バッチ ジョブとしてログオンする" と "ローカルログオンを許可する" ユーザー権限が付与されているのを確認する必要があります。
+    > ロックが厳しい環境で作業している場合は、QoE Metrics Monitoring データベース SQL Server と QoE アーカイブ SQL Server の両方で、このサービス アカウントに実際に "バッチ ジョブとしてログオンする" と "ローカルログオンを許可する" ユーザー権限が付与されているのを確認する必要があります。
     
 - エージェント ジョブの "Process Cube" ステップを実行するために使用SQL Server 1 つ。 セットアップでは、QoE アーカイブ データベースへのログイン セキュリティ プリンシパル (読み取りおよび書き込み権限を持つ) を作成し、キューブの QoE ロール (完全な制御特権を持つ) にメンバーを作成します。
     

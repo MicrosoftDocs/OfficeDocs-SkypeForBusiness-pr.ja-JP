@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 83a1311df59ccad264951e8eeffa5052ac2231c15b000e4c25b1a36de227bca9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f18a6963c59aa371715d35b40137946d1b29b163b905d3ef842e8b3ddc434d63
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848262"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -43,7 +43,7 @@ Teams ライブ イベントは Skype 会議ブロードキャストの次のバ
 
 では、始めましょう。まず、Microsoft 365 ライブ イベントに関連する高レベルのコンポーネントと、それらがどのように接続されているかを示す次の図を見てください。
 
-![ライブ イベントの主要コンポーネント](../media/live-event-flow-diagram.png  "ライブ イベント、スケジュール設定、作成、ストリーム プラットフォーム、認定済みのサードパーティ eCDN プロバイダーの主要コンポーネント")
+![ライブ イベントの主要コンポーネント](../media/live-event-flow-diagram1.png  "ライブ イベント、スケジュール設定、作成、ストリーム プラットフォーム、認定済みのサードパーティ eCDN プロバイダーの主要コンポーネント")
 
 > [!Note]
 > Teams のライブ イベントは、ブロードキャスト テクノロジの性質を考えると、通常の (内部の) 会議の参加人数を超える可能性が高い点を強調したいと思います。
@@ -91,7 +91,7 @@ Teams では、主催者は適切な参加者アクセス許可でイベント�
 
 ライブ イベントのストリーミング プラットフォームは、次の要素で構成されます。
 
-- **Azure Media Services**: [Azure Media Services](/azure/media-services/previous/) は、現在最も人気のあるモバイル デバイスでより多くの視聴者に提供する放送品質のビデオ ストリーミング サービスを提供しています。 メディア サービスを使用すると、アクセス性、配信性、スケーラビリティが向上し、コンテンツを保護しながら、ローカルまたは世界中の視聴者にコンテンツを簡単かつコスト効率に優れた方法でストリーミングできます。
+- **Azure Media Services**: [Azure Media Services](/azure/media-services/previous/) は、現在最も人気のあるモバイル デバイスでより多くの視聴者に提供する放送品質のビデオ ストリーミング サービスを提供しています。 Media Services を使用すると、アクセス性、配信性、スケーラビリティが向上し、コンテンツを保護しながら、ローカルまたは世界中の視聴者にコンテンツを簡単かつコスト効率に優れた方法でストリーミングできます。
 - **Azure コンテンツ配信ネットワーク (CDN)**: ストリームがアクティブになると、[Azure コンテンツ配信ネットワーク (CDN)](/azure/cdn/) を介して配信されます。 Azure Media Services は、ストリーミング エンドポイントに統合 CDN を提供します。 これにより、バッファリングなしで世界中でストリームを見ることができます。
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Enterprise コンテンツ配信ネットワーク (eCDN)

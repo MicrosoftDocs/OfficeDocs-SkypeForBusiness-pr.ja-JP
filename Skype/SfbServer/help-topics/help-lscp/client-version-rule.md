@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: クライアント バージョン ポリシーは、一連のクライアント バージョン ルールで構成されます。これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。
-ms.openlocfilehash: 4c46a93e46e1e07865a466a666a450a766c6897e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd35979ce67f33f053e89ea941f5e911733d6f16efa2b6b6a2a10c49d2e63884
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314633"
 ---
 # <a name="client-version-rule"></a>クライアント バージョン ルール
 
@@ -44,7 +44,7 @@ ms.locfileid: "51103453"
 |:-----|:-----|
 |Lync 2013、Lync 2010、Office Communicator  <br/> |OC  <br/> |
 |Lync Web App、Communicator Web Access  <br/> |CWA  <br/> |
-|Lync Phone Edition, Office Communicator Phone  <br/> |OCPhone  <br/> |
+|Lync 電話 Edition, Office Communicator 電話  <br/> |OCPhone  <br/> |
 |Communicator Phone Edition プラットフォーム  <br/> |CPE  <br/> |
 |統合コミュニケーション プラットフォーム  <br/> |UCCP  <br/> |
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
@@ -87,17 +87,17 @@ ms.locfileid: "51103453"
 
   - **許可する** クライアントにログオンを許可します。
 
-  - **許可とアップグレード** クライアントが Windows Server Update Service または Microsoft Update からログオンして更新プログラムを受信できます。 このアクションは、ユーザー エージェント **OC** が選択されている場合にのみ使用できます。
+  - **許可とアップグレード** クライアントがサーバー更新サービスまたは Microsoft Update からログオンし、Windowsを受信できます。 このアクションは、ユーザー エージェント **OC** が選択されている場合にのみ使用できます。
 
     > [!NOTE]
-    > このアクションを選択すると、ユーザーが次に Skype for Business にサインインすると、通知が表示されます。 この通知では、更新プログラムがある場合、Windows Server Update Service または Microsoft Update にまだリリースされていなくても、更新プログラムを利用できることが伝えられます。 混乱を避けるため、このアクションは更新プログラムが利用できるようになった後でのみ選択する必要があります。
+    > このアクションを選択すると、ユーザーが次回サインインしてユーザーに通知が表示Skype for Business。 この通知では、更新プログラムがある場合、Windows Server Update Service または Microsoft Update にまだリリースされていなくても、更新プログラムを利用できることが伝えられます。 混乱を避けるため、このアクションは更新プログラムが利用できるようになった後でのみ選択する必要があります。
 
   - **URL で許可する** クライアントがログオンし、別のクライアント バージョンをダウンロードする場所に関するメッセージを表示します。 [**URL**] フィールドで URL を指定します。
 
   - **ブロック** クライアントがログオンを防止します。
 
-  - **ブロックとアップグレード** クライアントがログオンし、クライアントが Windows Server Update Service または Microsoft Update から更新プログラムを受け取るのを許可します。 このアクションは、ユーザー エージェント **OC** が選択されている場合にのみ使用できます。
+  - **ブロックとアップグレード** クライアントがログオンを防止し、クライアントがサーバー更新サービスまたは Microsoft Update からWindowsを受信できます。 このアクションは、ユーザー エージェント **OC** が選択されている場合にのみ使用できます。
 
   - [**URL を使用した禁止**]   クライアントがログオンし、他のクライアント バージョンをダウンロードする場所についてのメッセージを表示することを禁止します。[**URL**] フィールドで URL を指定します。
 
-クライアントとクライアント バージョンの間の相互運用性の詳細については、「計画」のドキュメントの「[Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)」を参照してください。 クライアント バージョンの構成を扱う処理の詳細については、「操作」のドキュメントの「[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)」を参照してください。
+クライアントとクライアント バージョンの間の相互運用性の詳細については、「計画」のドキュメントの「[Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)」を参照してください。クライアント バージョンの構成を扱う処理の詳細については、「操作」のドキュメントの「[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)」を参照してください。

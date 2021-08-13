@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 description: 'Skype for Business Server 2015 または Skype for Business Server ユーザーを実行しているサーバーをホストするドメインを準備するには、「セットアップを使用してドメイン準備を実行する」の説明に従って、「手順 5: 現在のドメインの準備」を完了する必要があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。'
-ms.openlocfilehash: c9c33e466b7b0fcc7c2711603c284e5f419960a1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5c9dca22bc0c9d633521b58fdc47effc72a20b2ef9871bd7f4330ed2edd39118
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311485"
 ---
 # <a name="prepare-current-domain"></a>現在のドメインの準備
 
-Skype for Business Server 2015 または Skype for Business Server ユーザーを実行するサーバーをホストするドメインを準備するには、「セットアップを使用してドメイン準備を実行する」のトピックで説明されている手順 **5:** Prepare Current Domain を完了する [必要](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation)があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
+Skype for Business Server 2015 または Skype for Business Server ユーザーを実行しているサーバーをホストするドメインを準備するには、「セットアップを使用してドメイン準備を実行する」で説明されている手順 **5:** 現在のドメインの準備を完了する [必要](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation)があります。 この手順を完了するには、準備するドメインの Domain Admins グループのメンバー、またはドメインが属するフォレストの Enterprise Admins グループのメンバーとしてログインする必要があります。 ドメインを準備するには、以下の操作を行います。
 
-1. Skype for Business Server 2015 インストール フォルダーまたはメディアから、Skype for Business Server 展開ウィザードをSetup.exeを実行して、Skype for Business Server 展開ウィザードを開始します。
+1. 2015 Skype for Business Server インストール フォルダーまたはメディアから、Setup.exe展開ウィザードをSkype for Business Serverします。
 
 2. [**Active Directory の準備**] をクリックし、展開状態が判別されるまで待ちます。
 

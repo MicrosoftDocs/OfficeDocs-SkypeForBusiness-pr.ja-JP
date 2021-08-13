@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 管理センターでチームを管理する
+title: Microsoft Teams 管理センターで Teams を管理する
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95a9769fad45917515a27b0f3d726d2eb3dbc931efbfa4fd26af19eced92d190
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86feedbb0212908ebd61f89c6e62e6d468813bd14ed1d86edec3abc00bf1d582
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848192"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 
@@ -37,7 +37,7 @@ ms.locfileid: "54306349"
 - グローバル管理者
 - Teams 管理者
 
-Teams での管理者の役割の詳細については、「[ Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)」をご覧ください。また、PowerShell コマンドレットを使用してチームを管理する方法の詳細については、「[Microsoft Teams コマンドレットのリファレンス](/powershell/teams/?view=teams-ps)」をご覧ください。
+Teams での管理者の役割の詳細については、「[ Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)」をご覧ください。また、PowerShell コマンドレットを使用してチームを管理する方法の詳細については、「[Microsoft Teams コマンドレットのリファレンス](/powershell/teams/)」をご覧ください。
 
 
 
@@ -121,7 +121,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 **解決方法: MS Graph でプロパティを適切な値に手動で設定します。**
 
-該当する GroupId に対するクエリで **{groupid}** を置き換えます。{groupid} は、Exchange Online PowerShell で "**ExternalDirectoryObjectId**" 属性として **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** コマンドレットを使用して取得できます。
+該当する GroupId に対するクエリで **{groupid}** を置き換えます。{groupid} は、Exchange Online PowerShell で "**ExternalDirectoryObjectId**" 属性として **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup)"** コマンドレットを使用して取得できます。
 
 1. [Graph エクスプローラー](https://developer.microsoft.com/graph/graph-explorer)にアクセスします。
 
@@ -137,6 +137,6 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 ## <a name="learn-more"></a>詳細情報
 
-- [Teams コマンドレット リファレンス](/powershell/teams/?view=teams-ps)  
+- [Teams コマンドレット リファレンス](/powershell/teams/)  
 - [Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)
 - [Teams でのライフサイクル管理を計画する](plan-teams-lifecycle.md)

@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
-description: SyndicatorsTable は内部使用専用です。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: c1aaadba404a1f3a82ef5a4e7b4b0108697ef79a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: SyndicatorsTable は内部でのみ使用できます。 この表は、Microsoft Lync Server 2013 で導入されました。
+ms.openlocfilehash: f829f97ce48999a74288f727bf371632b866ee6e9c6303cc3f41a062cdf0bd08
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831797"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341692"
 ---
 # <a name="syndicators-table"></a>Syndicators テーブル
  
-SyndicatorsTable は内部使用専用です。 この表は、Microsoft Lync Server 2013 で導入されました。
+SyndicatorsTable は内部でのみ使用できます。 この表は、Microsoft Lync Server 2013 で導入されました。
   
 

@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
-description: 展開の定義に簡易 URL を追加するには、新しい簡易 URL の URL を指定します。
-ms.openlocfilehash: 41cd5c4698157a9dde2d8c357a5b8aba753495f3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 展開の定義に単純な URL を追加するには、新しい簡易 URL の URL を指定します。
+ms.openlocfilehash: 962f3fbac8314eedb5df5416c7a68027ef3d2862f3c6f0c4bc906576328f0c16
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835837"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314733"
 ---
 # <a name="add-simple-url"></a>簡易 URL の追加
  
-展開の定義に簡易 URL を追加するには、新しい簡易 URL の URL を指定します。 URL の形式は次 _\<simple URL type\> http://。 \<domain name\>_ または _http://、 \<domain name\> / \<simple URL type\>_ 簡易 URL の種類は次のいずれかを指定します。
+展開の定義に単純な URL を追加するには、新しい簡易 URL の URL を指定します。 URL の形式は次 _\<simple URL type\> http://。 \<domain name\>_ または _http://、 \<domain name\> / \<simple URL type\>_ 単純な URL の種類は次のいずれかの場合です。
   
 - Meet
     

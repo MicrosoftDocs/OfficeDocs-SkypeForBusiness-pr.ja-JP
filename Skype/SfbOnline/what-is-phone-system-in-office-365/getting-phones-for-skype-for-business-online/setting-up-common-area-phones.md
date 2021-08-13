@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 正しいファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、共通領域電話の設定を構成するためのデプロイ手順について説明します。
-ms.openlocfilehash: 4fd45f446d71e581305f7e596c7eacc62f54f8ca
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a73de696e8ac7410e9cccbca99dbabb74df392f58a8bf0ad82e5bdf1ec9ccd75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300403"
 ---
 # <a name="set-up-common-area-phones"></a>共通エリア電話機を設定する
 
@@ -56,7 +56,7 @@ ms.locfileid: "52237353"
 
     ![共通領域のライセンス電話スクリーンショット](../../images/cap-license.png)
 2. **[共用エリア電話機]** > **[今すぐ購入]** をクリックし、**[チェックアウト]** ページで **[今すぐ購入]** をクリックします。
-3. クリックして **[アドオン購読]** を拡大し、さらにクリックしてコールプランを購入します。 [国内通話プラン **] または [** 国内通話プラン] または [ **国際通話プラン] を選択します**。
+3. クリックして **[アドオン購読]** を拡大し、さらにクリックしてコールプランを購入します。 [**国内通話プラン**] または [**国内および国際通話プラン**] のいずれかを選択します。
 
 > [!Note]
 > 電話システムのライセンスは必要ありません。 **共用エリア電話機** のライセンスに含まれています。

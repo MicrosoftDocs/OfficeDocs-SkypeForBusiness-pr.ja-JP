@@ -1,5 +1,5 @@
 ---
-title: Skype for Business で複数の緊急電話番号を構成する
+title: 複数の緊急電話番号を構成Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,22 +14,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
-description: Skype for Business Server で複数の緊急電話番号を構成する方法については、このトピックを参照してください。
-ms.openlocfilehash: dc05e94e88b371bb9ee22568eff567e758311233
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: このトピックでは、複数の緊急電話番号を構成する方法について説明します。Skype for Business Server。
+ms.openlocfilehash: e0a12bb63578e5070a079b6ab4561d67255f7199a0042066467fb40eafb54637
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300343"
 ---
-# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Skype for Business で複数の緊急電話番号を構成する
+# <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>複数の緊急電話番号を構成Skype for Business
 
-Skype for Business Server で複数の緊急電話番号を構成する方法については、このトピックを参照してください。
+このトピックでは、複数の緊急電話番号を構成する方法について説明します。Skype for Business Server。
 
-Skype for Business Server は、クライアントに対して複数の緊急電話番号をサポートしています。 複数の緊急電話番号は、2016 年 6 月の累積的な更新プログラムで導入された新機能です。 複数の緊急電話番号をサポートする環境を構成する前に、「Skype for Business Server で複数の緊急電話番号を計画する [」を参照してください](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)。
+Skype for Business Server、クライアントに対して複数の緊急電話番号がサポートされます。 複数の緊急電話番号は、2016 年 6 月の累積的な更新プログラムで導入された新機能です。 複数の緊急電話番号をサポートする環境を構成する前に、「複数の緊急電話番号を計画する」を必ず[Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)
 
 > [!NOTE]
-> 2016 年 11 月の累積的な更新プログラムにまだアップグレードしていない場合は [、「Update to Skype for Business Server 2015」を参照](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)してください。 2016 年 11 月の累積的な更新プログラムでは、サポート緊急電話番号の数が 5 から 100 に増加します。
+> 2016 年 11 月の累積的な更新プログラムにまだアップグレードしていない場合は、「Update [to Skype for Business Server 2015」を参照](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)してください。 2016 年 11 月の累積的な更新プログラムでは、サポート緊急電話番号の数が 5 から 100 に増加します。
 
 ## <a name="configure-multiple-emergency-numbers"></a>複数の緊急電話番号の構成
 

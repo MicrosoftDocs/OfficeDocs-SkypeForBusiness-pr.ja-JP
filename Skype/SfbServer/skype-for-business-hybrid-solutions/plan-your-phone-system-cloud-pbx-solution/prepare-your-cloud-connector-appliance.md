@@ -15,36 +15,36 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: クラウド コネクタ アプライアンスを展開および電話システム (クラウド PBX) で使用するために準備する方法について説明します。
-ms.openlocfilehash: 536e9b98520e4274e00d43d57224267f5b824dc9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: クラウド コネクタ アプライアンスを展開用に準備し、クラウド PBX (Cloud PBX) と電話システムする方法について説明します。
+ms.openlocfilehash: 58f9765f211a3961db8baf5929956feecf1eb4fd7e7744490cb21f1967dcb46f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340813"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>クラウド コネクタ アプライアンスの準備
 
 > [!Important]
-> Cloud Connector Edition は、Skype for Business Online と共に 2021 年 7 月 31 日に廃止されます。 組織が Teams にアップグレードしたら、直接ルーティングを使用してオンプレミスのテレフォニー ネットワークを Teams に接続する方法 [について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Cloud Connector Edition は、2021 年 7 月 31 日にオンライン版と共Skype for Business廃止されます。 組織がネットワーク にアップグレードしたらTeamsルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークに接続するTeams[説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
-クラウド コネクタ アプライアンスを展開および電話システム (クラウド PBX) で使用するために準備する方法について説明します。
+クラウド コネクタ アプライアンスを展開用に準備し、クラウド PBX (Cloud PBX) と電話システムする方法について説明します。
 
-このセクションでは、Skype for Business Cloud Connector Edition インストール ファイルを取得し、クラウド コネクタ ソフトウェアをインストールし、クラウド コネクタ アプライアンスを展開用に準備する方法について説明します。 このセクションのすべての手順を完了したら、1 つのサイトまたは複数のサイトに対してクラウド コネクタを展開する準備が整います。 既存のクラウド コネクタ展開を使用し、まだクラウド コネクタ バージョン 2.1 にアップグレードしていない場合は、「Upgrade to new version of Cloud Connector 」を [参照してください](upgrade-to-a-new-version-of-cloud-connector.md)。
+このセクションでは、クラウド インストール ファイルを取得Skype for Business クラウド コネクタ エディションクラウド コネクタ ソフトウェアをインストールし、展開のためにクラウド コネクタ アプライアンスを準備する方法について説明します。 このセクションのすべての手順を完了したら、1 つのサイトまたは複数のサイトに対してクラウド コネクタを展開する準備が整います。 既存のクラウド コネクタ展開を使用し、まだクラウド コネクタ バージョン 2.1 にアップグレードしていない場合は、「Upgrade to new version of Cloud Connector 」を [参照してください](upgrade-to-a-new-version-of-cloud-connector.md)。
 
 > [!NOTE]
 > Microsoft では、現在のバージョンの Cloud Connector Edition バージョン 2.1 がサポートされています。 自動更新を構成した場合、クラウド コネクタは自動的に更新されます。 手動更新プログラムを構成した場合は、リリースから 60 日以内にバージョン 2.1 にアップグレードする必要があります。 Microsoft は、2.1 のリリース後 60 日間、以前のバージョンをサポートし、アップグレードの時間を提供します。 
 
 > [!NOTE]
-> Cloud Connector バージョン 2.1 以降の場合、ホスト アプライアンスには 4.6.1 以降.NET Frameworkインストールされている必要があります。 
+> Cloud Connector バージョン 2.1 以降の場合、ホスト アプライアンスに 4.6.1 以降.NET Frameworkがインストールされている必要があります。 
 
 > [!IMPORTANT]
-> 展開を成功するには、コマンドレットを実行して Skype for Business Cloud Connector Edition を構成する場合は、常に開始したコンソール セッションと同じコンソール セッションを使用します。 展開と構成中に異なるセッションに切り替えるのを避ける。 
+> 展開を成功するには、コマンドレットを実行してサーバーを構成Skype for Business クラウド コネクタ エディション、常に開始したコンソール セッションと同じコンソール セッションを使用します。 展開と構成中に異なるセッションに切り替えるのを避ける。 
 
 > [!NOTE]
-> 展開の最初のアプライアンスに対してのみ実行する手順として、サイト ディレクトリの共有の作成、ビットのダウンロード、Windows Server ISO イメージからの仮想ハード ディスク (VHDX) ファイルの準備があります。 
+> 展開内の最初のアプライアンスにのみ実行する手順として、サイト ディレクトリの共有の作成、ビットのダウンロード、Windows Server ISO イメージからの仮想ハード ディスク (VHDX) ファイルの準備があります。 
 
-## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>Skype for Business Cloud Connector Edition インストーラーをダウンロードする
+## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>インストーラーをSkype for Business クラウド コネクタ エディションする
 
 1. クラウド コネクタ VM が実行されるホスト サーバーで、インストール ファイルをダウンロードします [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。 
 
@@ -57,13 +57,13 @@ ms.locfileid: "51092635"
 
 ## <a name="verify-the-installation-and-configure-the-environment"></a>インストールを確認し、環境を構成する
 
-1. 管理者として PowerShell コンソールを開き、次のコマンドレットを使用して Skype for Business Cloud Connector Edition コマンドレットを使用できます。
+1. 管理者として PowerShell コンソールを開き、次のコマンドレットSkype for Business クラウド コネクタ エディション使用できるコマンドレットを確認します。
 
    ```powershell
    Get-Command *-Cc*
    ```
 
-    このコマンドは、Skype for Business Cloud Connector Edition のコマンドレットの一覧を返す必要があります。
+    このコマンドは、ユーザーのコマンドレットの一覧をSkype for Business クラウド コネクタ エディション。
 
 2. VHDs、SfBBits、VersionInfo ファイルはサイト ディレクトリに **格納されます**。
 
@@ -91,7 +91,7 @@ ms.locfileid: "51092635"
 
     サイト内の各アプライアンスにログオンして展開する場合は、現在のログオン アカウントがサイト ディレクトリへの適切なアクセス権を **持っている必要があります**。
 
-3. アプライアンス **ディレクトリは** 、Skype for Business Cloud Connector Edition のローカル作業ルート ディレクトリであり、外部証明書、インスタンス、ログが保存される場所です。 既定の場所は%USERPROFILE%\CloudConnector\ApplianceRoot です。
+3. アプライアンス **ディレクトリは**、外部証明書、インスタンスSkype for Business クラウド コネクタ エディションログが保存される場所を示すローカル作業ルート ディレクトリです。 既定の場所は%USERPROFILE%\CloudConnector\ApplianceRoot です。
 
     アプライアンス ディレクトリの場所を見 **つけるには、** 次のコマンドレットを実行します。
 
@@ -105,7 +105,7 @@ ms.locfileid: "51092635"
    Set-CcApplianceDirectory <File path>
    ```
 
-    アプライアンス ディレクトリは、アプライアンスのローカル フォルダーに設定する必要があります。 Skype for Business  Cloud Connector Edition 展開を開始する前に、アプライアンス ディレクトリのみを設定する必要があります。 展開後に変更する場合は、ホスト サーバーを再展開する必要があります。
+    アプライアンス ディレクトリは、アプライアンスのローカル フォルダーに設定する必要があります。 アプライアンス ディレクトリは、展開を開始する前にのみSkype for Business クラウド コネクタ エディションがあります。 展開後に変更する場合は、ホスト サーバーを再展開する必要があります。
 
     > [!IMPORTANT]
     > アプライアンス ディレクトリへの **パスにスペース** を含めることはできません。
@@ -124,7 +124,7 @@ ms.locfileid: "51092635"
     ファイル名を含む外部証明書への完全なパスを指定します。 証明書は、ローカルまたはファイル共有に保存できます。 証明書が共有フォルダーに保存されている場合は、共有フォルダーを各サイトの最初のアプライアンス上に作成し、同じサイトに属する他のアプライアンスからアクセスできる必要があります。 このコマンドレットは、外部証明書をアプライアンス ディレクトリに **コピーします**。
 
     > [!IMPORTANT]
-    > Cloud Connector バージョン **1.4.2** 以降に更新した場合は、準備された外部証明書にプライベート キーと、ルート CA 証明書と中間 CA 証明書を含む完全な証明書チェーンが含まれている必要があります。 **Cloud Connector バージョン 1.4.2** にまだ更新されていない場合は、準備された外部証明書にプライベート キーが含まれている必要があります。 この外部証明書は、既定で Windows によって信頼されている証明機関によって発行する必要があります。
+    > Cloud Connector バージョン **1.4.2** 以降に更新した場合は、準備された外部証明書にプライベート キーと、ルート CA 証明書と中間 CA 証明書を含む完全な証明書チェーンが含まれている必要があります。 **Cloud Connector バージョン 1.4.2** にまだ更新されていない場合は、準備された外部証明書にプライベート キーが含まれている必要があります。 この外部証明書は、既定で証明書によって信頼されている証明機関Windows必要があります。
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>外部 PSTN ゲートウェイ/SBC 証明書のパスを設定する
 
@@ -155,7 +155,7 @@ Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, inclu
 
 ## <a name="update-the-cloudconnectorini-configuration-file"></a>構成ファイルCloudConnector.ini更新する
 
-「Plan for Business [Cloud Connector Edition」](plan-skype-for-business-cloud-connector-edition.md)の[](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)「展開パラメーターの決定」で収集した情報を使用して、CloudConnector.iniファイルを準備します。
+「計画CloudConnector.ini」の「展開パラメーターの決定」で収集[](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)した情報を使用して[、Skype for Business クラウド コネクタ エディションします。](plan-skype-for-business-cloud-connector-edition.md)
 
 ファイルを更新するには、まず次のコマンドレットを実行してサンプル テンプレートを取得します (CloudConnector.Sample.ini)。
 
@@ -167,18 +167,18 @@ Export-CcConfigurationSampleFile
 
 環境の値を使用して更新した後、アプライアンス ディレクトリにファイルCloudConnector.iniとして **保存します**。 **Get-CcApplianceDirectory を** 実行して、アプライアンス ディレクトリへのパスを **決定できます**。
 
-.ini ファイルを更新する場合は、次の点を考慮してください。
+ファイルを更新する.ini、次の点を考慮してください。
 
 > [!NOTE]
-> このセクションでは、.ini ファイルのすべての値について説明する必要はありません。ここでは、特別な考慮事項を持つ値についてのみ説明します。 完全な一覧については、「Plan [](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) for Skype for Business Cloud Connector Edition」の「展開パラメーターの決定」[セクションを参照](plan-skype-for-business-cloud-connector-edition.md)してください。 追加のアプライアンスまたは新しいサイトに対して変更する必要がある値の詳細については、「Cloud [Connector](deploy-multiple-sites-in-cloud-connector.md)で複数のサイトを展開する」のトピックの「高可用性[(HA)](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site)を備えた単一サイト」を参照してください。 
+> このセクションでは、.ini ファイルのすべての値について説明する必要はありません。ここでは、特別な考慮事項を持つ値のみを説明します。 完全な一覧については、「計画の詳細[」](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams)トピックの「展開パラメーターの決定[Skype for Business クラウド コネクタ エディション](plan-skype-for-business-cloud-connector-edition.md)してください。 追加のアプライアンスまたは新しいサイトに対して変更する必要がある値の詳細については、「Cloud [Connector](deploy-multiple-sites-in-cloud-connector.md)で複数のサイトを展開する」のトピックの「高可用性[(HA)](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site)を備えた単一サイト」を参照してください。 
 
 - **SiteName:** 既定値は **Site1 です**。 **Register-CcAppliance** を実行してアプライアンスを既存または新しいサイトに登録する場合、コマンドレットは **SiteName** を使用して登録するサイトを決定するために、クラウド コネクタを展開する前に更新する必要があります。
 
-     アプライアンスを新しいサイトに登録する場合 **、SiteName** の値は一意で、既存のサイトとは異なる値である必要があります。 アプライアンスを既存のサイトに登録する場合は **、.ini** ファイルの SiteName の値が、Microsoft 365 または Office 365 組織構成で定義されている名前と一致している必要があります。 あるサイトから別のサイトに構成ファイルをコピーする場合は、必ずサイトごとに **SiteName** の値を更新してください。
+     アプライアンスを新しいサイトに登録する場合 **、SiteName** の値は一意で、既存のサイトとは異なる値である必要があります。 アプライアンスを既存のサイトに登録する場合は、.ini ファイルの **SiteName** の値が、Microsoft 365 または Office 365 組織の構成で定義されている名前と一致している必要があります。 あるサイトから別のサイトに構成ファイルをコピーする場合は、必ずサイトごとに **SiteName** の値を更新してください。
 
 - **ServerName:** サーバー名にはドメイン名を含めず、15 文字に制限する必要があります。
 
-- **HardwareType:** 値を null に設定または残しておかなかった場合は、既定値 **の Normal が** 使用されます。 「Plan [for Skype for Business Cloud Connector Edition」](plan-skype-for-business-cloud-connector-edition.md)の説明に従って、ホスト コンピューターごとに 500 の同時呼び出しをサポートするために、より大きなバージョンのクラウド コネクタを展開する予定の場合は、標準を使用します。  50 **回** の同時呼び出しをサポートする小規模な展開には、Minimum を使用します。
+- **HardwareType:** 値を null に設定または残しておかなかった場合は、既定値 **の Normal が** 使用されます。 「Plan for **Skype for Business クラウド コネクタ エディション」** の説明に従って、ホスト コンピューターごとに 500 の同時呼び出しをサポートするために、より大きなバージョンのクラウド コネクタを展開する予定の場合は、標準 [を使用Skype for Business クラウド コネクタ エディション。](plan-skype-for-business-cloud-connector-edition.md) 50 **回** の同時呼び出しをサポートする小規模な展開には、Minimum を使用します。
 
 - **Internet/Corpnet/Management 仮想スイッチ:** 作成した仮想スイッチの名前を追加します。 管理仮想スイッチの場合は、既定値のままにします。 展開スクリプトは、展開の開始時に管理仮想スイッチを作成し、展開が完了すると削除します。
 
@@ -186,7 +186,7 @@ Export-CcConfigurationSampleFile
 
     展開スクリプトは、各仮想マシンに管理ネットワーク アダプターを作成し、管理 IP を割り当て、管理仮想スイッチに接続します。 これにより、ホスト サーバーは、この管理ネットワークを介して各仮想マシンに接続して管理できます。 展開が完了すると、管理仮想スイッチが削除されます。
 
-- **基本 VM 固有の構成:** このセクションの設定は **、Convert-CcIsoToVhdx コマンドレット用に構成する必要** があります。
+- **基本 VM 固有の構成:** この設定の構成は **、Convert-CcIsoToVhdx コマンドレット用に構成する必要** があります。
 
     基本 VM イメージの準備中に、基本 VM は内部ネットワーク スイッチに接続されます。 VM がインターネットにアクセスするには、次の設定が重要です。
 
@@ -196,9 +196,9 @@ Export-CcConfigurationSampleFile
 
   - [ネットワーク]CorpnetDNSIPAddress: ベース VM に割り当てる DNS IP アドレス。
 
-  - [ネットワーク]WSUSServer: Windows Server Update Service の IP アドレス。
+  - [ネットワーク]WSUSServer: サーバー更新サービスWindows IP アドレス。
 
-  - [ネットワーク]WSUSStatusServer: Windows Server Update Service 状態サーバーの IP アドレス。
+  - [ネットワーク]WSUSStatusServer: サーバー更新サービスWindowsサーバーの IP アドレス。
 
   - [ネットワーク]EnableReferSupport: これは、IP/PBX のトランク構成で SIP REFER のサポートが有効か無効かを定義します。
 
@@ -241,7 +241,7 @@ Start-CcDownload
 
 ## <a name="prepare-base-virtual-disk-vhdx-from-the-downloaded-iso-file"></a>ダウンロードした ISO ファイルから基本仮想ディスク (VHDX) を準備する
 
-この手順では、ISO イメージから仮想ハード ディスク (VHDX) Windows Server 2012準備します。 VHDX は、展開中に仮想マシンを作成するために使用されます。 一時的な仮想マシン (基本 VM) が作成されWindows Server 2012 ISO ファイルからインストールされます。 VM が作成されると、必要なコンポーネントがインストールされ、最新の Windows 更新プログラムが適用されます。 最後に、基本 VM は一般化 (sysprep) され、クリーンアップされ、生成された仮想ディスク ファイルだけが残されます。
+この手順では、ISO イメージから仮想ハード ディスク (VHDX) Windows Server 2012準備します。 VHDX は、展開中に仮想マシンを作成するために使用されます。 一時的な仮想マシン (基本 VM) が作成されWindows Server 2012 ISO ファイルからインストールされます。 VM が作成されると、必要なコンポーネントがインストールされ、最新のWindowsが適用されます。 最後に、基本 VM は一般化 (sysprep) され、クリーンアップされ、生成された仮想ディスク ファイルだけが残されます。
 
 > [!NOTE]
 > この手順は、最初のアプライアンスでのみ実行する必要があります。 
@@ -269,7 +269,7 @@ ISO イメージへの完全なパス (ファイル名を含む) を指定しま
 作成された VHD ファイルは、サイト ディレクトリ **\Bits\VHD** フォルダーに格納されます。 **Get-CcSiteDirectory** を実行すると、サイト ディレクトリへのパスを取得できます。
 
 > [!IMPORTANT]
-> 既定では、プロキシ設定は基本 VM で構成されていません。 Windows Update 経由で VM を更新するためにネットワーク環境でプロキシが必要な場合は、"Convert-CcIsoToVhdx" を実行するときに -PauseBeforeUpdate スイッチを追加する必要があります。 スクリプトは Windows Update の前に一時停止し、VM で手動でプロキシを設定する機会があります。 プロキシがセットアップされ、VM がインターネットにアクセスしたら、スクリプトを再開して残りの手順を完了できます。 
+> 既定では、プロキシ設定は基本 VM で構成されていません。 Windows Update を使用して VM を更新するためにネットワーク環境でプロキシが必要な場合は、"Convert-CcIsoToVhdx" を実行するときに -PauseBeforeUpdate スイッチを追加する必要があります。 スクリプトは更新プログラムWindows一時停止し、VM で手動でプロキシを設定する機会があります。 プロキシがセットアップされ、VM がインターネットにアクセスしたら、スクリプトを再開して残りの手順を完了できます。 
 
 ### <a name="create-vhds-for-a-multi-site-deployment"></a>複数サイト展開の VHD を作成する
 
@@ -298,7 +298,7 @@ Set-ExecutionPolicy RemoteSigned
 > [!NOTE]
 > このタスクは、Cloud Connector バージョン 1.4.2 以降では必要ありません。 
 
-CceService アカウントは、Skype for Business Cloud Connector Edition の展開中に作成されます。 クラウド コネクタ管理サービスを実行し、クラウド コネクタ管理サービスをアンインストールするためのアクセス許可がcloudconnector.msi。 Cloud Connector ホスト コンピューターのグループ ポリシー設定を変更して、ユーザーがログオフするときにユーザー レジストリをアンロードしなけれと指定する必要があります。 以下の手順に従います。
+CceService アカウントは、展開中にSkype for Business クラウド コネクタ エディションされます。 クラウド コネクタ管理サービスを実行し、クラウド コネクタ管理サービスをアンインストールするためのアクセス許可がcloudconnector.msi。 Cloud Connector ホスト コンピューターのグループ ポリシー設定を変更して、ユーザーがログオフするときにユーザー レジストリをアンロードしなけれと指定する必要があります。 以下の手順に従います。
 
 ### <a name="to-change-the-group-policy-setting"></a>グループ ポリシー設定を変更するには
 
@@ -308,10 +308,10 @@ CceService アカウントは、Skype for Business Cloud Connector Edition の�
 
 3. 値を [有効] に **設定します**。
 
-## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>Microsoft 365 または 365 Officeをセットアップする
+## <a name="set-up-your-microsoft-365-or-office-365-organization"></a>組織のMicrosoft 365設定Office 365する
 
-Skype for Business Online および電話システムOffice Microsoft 365 または 365 組織が必要です。 クラウド コネクタを使用する前に、テナントがセットアップおよび構成されていることを確認してください。
+オンラインとMicrosoft 365をOffice 365するSkype for Business組織電話システム必要です。 クラウド コネクタを使用する前に、テナントがセットアップおよび構成されていることを確認してください。
 
-一部の Microsoft 365 および Office 365 セットアップ手順では、テナント リモート PowerShell (TRPS) を使用して Microsoft 365 または 365 組織Officeする必要があります。 **これはホスト サーバーにインストールする必要があります。** PowerShell 用の Skype for Business Online モジュールは [、Skype for Business Online、skype for Business Online、](https://www.microsoft.com/download/details.aspx?id=39366)および Windows PowerShellダウンロードできます。
+一部Microsoft 365およびOffice 365セットアップ手順では、テナント リモート PowerShell (TRPS) を使用して組織を構成Microsoft 365必要Office 365があります。 **これはホスト サーバーにインストールする必要があります。** PowerShell 用の Skype for Business オンライン モジュールは、次のSkype for Businessオンライン、Windows PowerShell[ダウンロードできます](https://www.microsoft.com/download/details.aspx?id=39366)。
 
-CceOnlineManagmentAdministrator など、クラウド コネクタ のオンライン管理用の専用の Skype for Business 管理者アカウントを作成します。 このアカウントは、アプライアンスを追加または削除したり、自動 OS 更新を有効または無効にしたり、自動バイナリ更新を有効または無効にしたりするためにアプライアンスによって使用されます。 このアカウントのパスワードを有効期限が切れることはありませんので、有効期限が切れる度にサービスのパスワードを変更する必要はありません。
+Skype for Business CceOnlineManagmentAdministrator など、クラウド コネクタのオンライン管理用に専用の管理者アカウントを作成します。 このアカウントは、アプライアンスを追加または削除したり、自動 OS 更新を有効または無効にしたり、自動バイナリ更新を有効または無効にしたりするためにアプライアンスによって使用されます。 このアカウントのパスワードを有効期限が切れることはありませんので、有効期限が切れる度にサービスのパスワードを変更する必要はありません。

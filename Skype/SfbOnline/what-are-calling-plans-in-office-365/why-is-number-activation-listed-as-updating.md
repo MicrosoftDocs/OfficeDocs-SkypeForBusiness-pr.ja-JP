@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateUpdating
 description: アドレスの検証は、通話プランを設定する上で重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: 2bc70c06ac5423864f7861fc44bbb2529a3d04f2
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 844c33efae8ce0492b55ea597fdf82e38356bd2462f67640f4e823728453bab1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325554"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>番号のアクティブ化が更新中として表示される理由
 
@@ -96,7 +96,7 @@ ms.locfileid: "52237793"
 8. 情報を確認して、[**リクエストの送信**] をクリックします。
     
 > [!TIP]
-> 参照番号は、管理センターの [**サービス要求**] ページMicrosoft 365されます。
+> 参照番号は、次のページの **[サービス要求**] ページにMicrosoft 365 管理センター。
 
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。
