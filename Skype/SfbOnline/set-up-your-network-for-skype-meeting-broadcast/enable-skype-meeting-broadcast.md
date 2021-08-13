@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 組織内のユーザーが会議ブロードキャストをSkypeするには、会議ブロードキャストを有効にする必要があります。 これを行うには、アプリケーションの使い方をWindows PowerShell。 この手順がわかWindows PowerShell、Microsoft パートナーを採用してこの手順を実行することを検討してください。
-ms.openlocfilehash: 6cdd7f12483025697b139203907f87f9cd3dc764
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 99e5464ac092f30edf2667dbfd772b11c41ca4a795893e1e3415a54cf566ee44
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339265"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Skype 会議ブロードキャストを有効にする
 

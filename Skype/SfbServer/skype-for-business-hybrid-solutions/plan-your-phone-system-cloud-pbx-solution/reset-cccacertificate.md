@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
-description: Reset-CcCACertificate コマンドレットは、証明機関サービスの AD サーバーを再インストールして、新しいルート CA 証明書を作成します。
-ms.openlocfilehash: 6a7f377642ca8aa8722933e503a6c0c2f2613544
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このReset-CcCACertificateコマンドレットは、証明機関サービス ADサーバーを再インストールして、新しいルート CA 証明書を作成します。
+ms.openlocfilehash: 8e0cb93e6f10f28df28213579674a6cda6e7e2cd1cf201319f77dc26be69de80
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824253"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340723"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
-Reset-CcCACertificate コマンドレットは、証明機関サービスの AD サーバーを再インストールして、新しいルート CA 証明書を作成します。
+このReset-CcCACertificateコマンドレットは、証明機関サービス ADサーバーを再インストールして、新しいルート CA 証明書を作成します。
   
 ```powershell
 Reset-CcCACertificate
@@ -37,7 +37,7 @@ Reset-CcCACertificate
 
 ### <a name="example-1"></a>例 1
 
-次の例では、証明機関サービスの AD サーバーを再インストールして、新しいルート CA 証明書を作成します。
+次の使用例は、証明機関サービス ADサーバーを再インストールして、新しいルート CA 証明書を作成します。
   
 ```powershell
 Reset-CcCACertificate
@@ -46,14 +46,14 @@ Reset-CcCACertificate
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-ルート CA 証明書が侵害された場合やすでに安全でない場合は、ルート CA 証明書、およびルート CA によって発行されたすべての証明書を更新する必要があります。 Reset-CcCACertificate コマンドレットは、すべての証明書を取り消し、証明機関のアンインストールと再インストールを行い、以前の証明機関サービスに関連するすべての証明書を削除します。 
+ルート CA 証明書が侵害された場合、またはセキュリティ保護されなくなった場合は、ルート CA 証明書と、ルート CA によって発行されたすべての証明書を更新する必要があります。 Reset-CcCACertificateコマンドレットは、すべての証明書を取り消し、証明機関をアンインストールして再インストールし、古い証明機関サービスに関連付けのすべての証明書をクリーンアップします。 
   
-詳細については、「クラウドコネクタの展開のトラブルシューティング」の「証明書証明書または CMS、仲介サーバー、エッジサーバーに発行された内部証明書が有効期限切れまたは侵害されている」を参照してください。
+詳細については、「Cloud Connector の展開のトラブルシューティング」の「CMS、仲介サーバー、エッジ サーバーに発行された証明機関証明書または内部証明書が有効期限が近い、または侵害されている」を参照してください。
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Reset-CcCACertificate コマンドレットはパイプライン入力を受け入れません。
+なし。 このReset-CcCACertificateは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>
@@ -69,7 +69,7 @@ Reset-CcCACertificate
   
 [Update-CcCACertificate](update-cccacertificate.md) バージョン 2.0 以降
   
-[更新-CcServerCertificate](renew-ccservercertificate.md)バージョン2.0 以降
+[Renew-CcServerCertificate](renew-ccservercertificate.md) バージョン 2.0 以降
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

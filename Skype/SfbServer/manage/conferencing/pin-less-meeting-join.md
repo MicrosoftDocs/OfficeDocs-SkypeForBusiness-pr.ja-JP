@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で PIN レス会議参加を構成する
+title: 会議の PIN レス会議参加を構成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: '概要: Skype for Business Server で PIN レス会議参加オプションを構成する方法について学習します。'
-ms.openlocfilehash: 76a2fb401c684e0eb685b733cb1b0a63ecbd9907
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 会議で PIN レス会議参加オプションを構成する方法についてSkype for Business Server。'
+ms.openlocfilehash: b6e31c3befbabacac26595ea0cd73d8ca575816013d30f17ae4b2ea785934f28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119396"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320209"
 ---
-# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Skype for Business Server で PIN レス会議参加を構成する
+# <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>会議の PIN レス会議参加を構成Skype for Business Server
  
-**概要:** Skype for Business Server で PIN レス会議参加オプションを構成する方法について学習します。
+**概要:** PIN レス会議参加オプションを構成する方法については、Skype for Business Server。
   
 ダイヤルイン発信者が会議に参加しようとすると、会議 自動応答 (CAA) サービスは、発表者が通話中で、ダイヤルイン発信者がリーダー PIN を入力していない場合、ロビー &#x2014; とは異なる保持ペンに発信者を配置します。 PIN なしの会議参加オプションを使用すると、通話の最初のユーザーである場合でも、ダイヤルイン発信者はリーダー PIN を入力せずに会議に参加できます。 
   

@@ -14,22 +14,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 42fef3acffe83680df6e53a7797256e7068e1b5f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 4aa21afbab25bffe9f8291ea96b027aa16434816f7c245da90ab057acf27296e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322269"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>ダイヤル プラン: 新規作成または現在の形式のままで編集
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
-- [Skype for Business Server でダイヤル プランを作成または変更する](../../../deploy/deploy-enterprise-voice/dial-plans.md)
+- [ダイヤル プランを作成または変更するには、Skype for Business Server](../../../deploy/deploy-enterprise-voice/dial-plans.md)
 
 - [ダイヤル プランの変更](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)
 
-- [Skype for Business で正規化ルールを作成または変更する](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
+- [ユーザー設定で正規化ルールを作成または変更Skype for Business](../../../deploy/deploy-enterprise-voice/normalization-rules.md)
 
 - [手動による正規化ルールの作成または変更](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)

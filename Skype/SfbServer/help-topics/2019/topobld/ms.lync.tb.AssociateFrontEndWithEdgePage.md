@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: 各フロントエンド プールには、エッジ サーバーまたはエッジ プールを 1 つしか関連付けできません。 サイトで外部ユーザーのアクセスを有効にする場合は、リモート ユーザーのサポートを提供できます。 また、特定のパブリック インスタント メッセージング (IM) 接続プロバイダー (Windows Live など) のユーザーのサポート、匿名ユーザーのサポートなど、フェデレーション ユーザーのサポートを有効にできます。
-ms.openlocfilehash: a70949bc72684aa5896c09bab39bc77b405bd206
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ccfe9f14957a53333990b11ae372909d5a33da550168623b41bb4f17733bb899
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338505"
 ---
 # <a name="associate-front-end-with-edge"></a>フロント エンドとエッジの関連付け
 

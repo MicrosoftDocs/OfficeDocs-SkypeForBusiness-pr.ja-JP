@@ -20,12 +20,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidation
 description: '住所検証がどういうものであるか、なぜ重要であるか、緊急対応の住所とサービスにどのように関連しているかについて説明します。 '
-ms.openlocfilehash: dfd582236289e7a7891b52d34c758f78a95a89f7
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7d23f8e3449d3cd1b4dbc903855a875d0b8362b257bab4d264bebeea8319ee73
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237953"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340263"
 ---
 # <a name="what-is-address-validation"></a>住所検証とは何ですか?
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 会議ポリシーにより、会議 (ミーティングとも呼ばれます) でユーザーが使用できる機能が定義されます。
-ms.openlocfilehash: 6d69c463a9aa8a1e151b0787dfbfebf4e24fb693
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a0acc18e27942c9a7b7c1198ee8372e47bd8fb79d34e3f94320cde441331e2bf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115367"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342282"
 ---
 # <a name="conferencing-policy"></a>会議ポリシー
 
@@ -77,4 +77,4 @@ ms.locfileid: "51115367"
 
 - **レコーディング** 電話会議ポリシーで、会議で録音が許可されている場合に確認します。
 
-会議の機能の詳細については、「計画」のドキュメントの「[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)」を参照してください。 会議ポリシーの使用の詳細については、「操作」のドキュメントの「[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)」を参照してください。
+会議の機能の詳細については、「計画」のドキュメントの「[Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing)」を参照してください。会議ポリシーの使用の詳細については、「操作」のドキュメントの「[Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies)」を参照してください。

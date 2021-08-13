@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 通話データ コネクタを構成する手順は、オンプレミスからのテレメトリSkype for Businessオンライン ツールを使用して表示Skype for Businessします。
-ms.openlocfilehash: 28a9ba2f00a071ff5b1c0781240cf54a2de929e8
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: bc9346919e3f70d8fe8fe3e43e61a0e715cf0eb9bf52534a2beb2f8604b920f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323689"
 ---
 # <a name="configure-call-data-connector"></a>通話データ コネクタの構成
 
@@ -145,7 +145,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="for-more-information"></a>詳細情報
 
-コマンドレットの詳細については、管理シェルの Get-Help コマンドSkype for Business Server使用できます。 例:
+コマンドレットの詳細については、管理シェルの Get-Help コマンドSkype for Business Server使用できます。 以下に例を示します。
 
 Get-Help Get-CsCloudCallDataConnector |もっとその
 

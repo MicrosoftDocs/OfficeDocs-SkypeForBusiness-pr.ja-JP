@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: '[Cc-Credentials の復元] コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開のすべての資格情報を復元します。'
-ms.openlocfilehash: b2cd35b284bcd7e49aabbaa3055c397915565d09
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Restore Cc-Credentialsコマンドレットは、現在の展開のすべての資格情報をSkype for Business クラウド コネクタ エディションします。
+ms.openlocfilehash: 95b93e28bb109c26927a940324edef20479bed8c193efea6923c74058995a5bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340673"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-[Cc-Credentials の復元] コマンドレットは、現在の Skype for Business Cloud Connector エディションの展開のすべての資格情報を復元します。 
+Restore Cc-Credentialsコマンドレットは、現在の展開のすべての資格情報をSkype for Business クラウド コネクタ エディションします。 
   
-このコマンドレットは、Skype for Business Cloud Connector エディション2.1 に適用されます。
+このコマンドレットは、2.1 Skype for Business クラウド コネクタ エディションに適用されます。
   
 ```powershell
 Restore-CcCredentials 
@@ -32,7 +32,7 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>解説
 
-Restore/CcCredentials コマンドレットはすべての資格情報を消去し、現在の Skype for Business Cloud Connector の展開で使用されるすべての資格情報を再入力するように求めます。
+このRestore-CcCredentialsコマンドレットは、すべての資格情報をクリーンアップし、現在のクラウド コネクタ展開で使用Skype for Business資格情報を再入力するように求めるメッセージを表示します。
   
 ## <a name="parameters"></a>パラメーター
 
@@ -40,7 +40,7 @@ Restore/CcCredentials コマンドレットはすべての資格情報を消去�
   
 ## <a name="input-types"></a>入力の種類
 
-なし。 Restore-CcCredentials コマンドレットはパイプライン入力を受け取りません。
+なし。 このRestore-CcCredentialsは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 
@@ -48,7 +48,7 @@ Restore/CcCredentials コマンドレットはすべての資格情報を消去�
   
 ## <a name="example"></a>例
 
-次の例では、現在のクラウドコネクタ展開のすべての資格情報を復元します。
+次の使用例は、現在のクラウド コネクタ展開のすべての資格情報を復元します。
   
 ```powershell
     PS C:\>Restore-CcCredentials

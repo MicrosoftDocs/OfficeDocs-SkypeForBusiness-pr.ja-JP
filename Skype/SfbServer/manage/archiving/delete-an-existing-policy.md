@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の既存のアーカイブ ポリシーを削除する
+title: 既存のアーカイブ ポリシーを削除Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: '概要: Skype for Business Server のアーカイブ ポリシーを削除する方法について学習します。'
-ms.openlocfilehash: 2baad7d862b1b6739019a4459492bfb3b67e04cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: ユーザーのアーカイブ ポリシーを削除する方法についてSkype for Business Server。'
+ms.openlocfilehash: bee5cb3d48c079f0c918e15c607c163f3f67aea9e1dfed92309700b1795c699d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095391"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320249"
 ---
-# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Skype for Business Server の既存のアーカイブ ポリシーを削除する
+# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>既存のアーカイブ ポリシーを削除Skype for Business Server
 
-**概要:** Skype for Business Server のアーカイブ ポリシーを削除する方法について学習します。
+**概要:** ユーザーのアーカイブ ポリシーを削除する方法についてSkype for Business Server。
   
-ユーザー ポリシーまたはサイト ポリシーは削除できますが、グローバル ポリシーは削除できます。 グローバル ポリシーを削除すると、Skype for Business Server はポリシーを既定値に自動的にリセットします。
+ユーザー ポリシーまたはサイト ポリシーは削除できますが、グローバル ポリシーは削除できます。 グローバル ポリシーを削除すると、ポリシー Skype for Business Server既定値に自動的にリセットされます。
   
 ## <a name="delete-a-policy-by-using-the-control-panel"></a>コントロール パネルを使用してポリシーを削除する
 
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ ポリシー**] をクリックします。
     

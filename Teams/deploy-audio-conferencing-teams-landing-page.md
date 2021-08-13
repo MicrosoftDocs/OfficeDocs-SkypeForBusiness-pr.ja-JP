@@ -21,12 +21,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92a103262c0d6f997ace41fa0f1d6240452bb8d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de08e353a64d2b82c5d13baaeac54fcb7b2c70e0ca7a94eff31c22f01d1fb93a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340463"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の導入方法
 
@@ -69,7 +69,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>会議ブリッジと電話番号
 
-会議ブリッジにより、ユーザーは電話機を使用してミーティングにダイヤルインできるようになります。 会議ブリッジの既定の設定を使用することも、電話番号 (有料ダイヤル/無料ダイヤル) およびその他の設定 (PIN や使用言語など) を変更することもできます。
+会議ブリッジにより、ユーザーは電話機を使用してミーティングにダイヤルインできるようになります。会議ブリッジの既定の設定を使用することも、電話番号 (有料ダイヤル/無料ダイヤル) およびその他の設定 (PIN や使用言語など) を変更することもできます。
 
 詳細については、「[電話会議](audio-conferencing-in-office-365.md)」を参照してください。
 
@@ -92,7 +92,7 @@ Teams の電話会議では、会議ブリッジの既定の言語と第 2 言�
 
 ### <a name="conferencing-bridge-settings"></a>会議ブリッジの設定 
 
-会議ブリッジのセットアップ後 (既定および第 2 言語のセットアップを含む)、参加/退出の通知と使用する PIN の長さが適切かなど、既定の設定を確認します。 適切でない場合は変更できます。 
+会議ブリッジのセットアップ後 (既定の言語および第 2 言語のセットアップを含む)、参加/退出の通知と使用する PIN の長さが適切かなど、既定の設定を確認します。変更が必要な場合は、変更できます。 
 
 |確認事項|アクション |
 |------------|-------|
@@ -161,4 +161,4 @@ Teams では、通話品質の問題を監視してトラブルシューティ�
 ## <a name="next-steps"></a>次のステップ
 - 組織での電話会議の[導入を推進する](adopt-microsoft-teams-landing-page.md)。
 - [クラウド ボイスを展開する](cloud-voice-landing-page.md)
-- お勧めのアプリ (Planner など) を Teams の初期ロールアウトに組み込む。 Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。
+- 最初の Teams ロールアウトには、Planner などのおすすめのアプリを含めます。Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。

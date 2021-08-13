@@ -14,13 +14,13 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[ファイル タイプ拡張子] ダイアログ ボックスを使用し、[ファイル タイプ拡張子] の下の拡張子の横のチェック ボックスをオン (禁止) またはオフ (許可) にすることで、禁止または許可するファイル タイプ拡張子を選択します。 矢印をクリックしてカテゴリを展開し、そのカテゴリのファイル タイプ拡張子をすべて表示します。 カテゴリ内のすべてのファイル タイプ拡張子を選択する場合は、カテゴリ名を選択します。'
-ms.openlocfilehash: 08709a2ff2504081ccf0172d3c6d559d6e2693b8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[ファイル タイプ拡張子] ダイアログ ボックスを使用し、[ファイル タイプ拡張子] の下の拡張子の横のチェック ボックスをオン (禁止) またはオフ (許可) にすることで、禁止または許可するファイル タイプ拡張子を選択します。矢印をクリックしてカテゴリを展開し、そのカテゴリのファイル タイプ拡張子をすべて表示します。カテゴリ内のすべてのファイル タイプ拡張子を選択する場合は、カテゴリ名を選択します。'
+ms.openlocfilehash: 161b56adf12386d4510d91a83404af68058d3e590a1193c290813f89918c1f65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324406"
 ---
 # <a name="select-file-type-extensions"></a>ファイルの種類の拡張子の選択
  

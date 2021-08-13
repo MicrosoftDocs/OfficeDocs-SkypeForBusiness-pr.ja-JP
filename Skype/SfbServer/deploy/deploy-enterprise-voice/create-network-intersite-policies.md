@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でネットワークサイト間ポリシーを作成する
+title: ネットワークのサイト間ポリシーを作成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: Skype for Business Server の通話受付管理で使用エンタープライズ VoIPサイト間ポリシーを作成します。
-ms.openlocfilehash: 7c0ca45c691ab1ef70d3660c3d49a08c40bdd40d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: ネットワークサイト間ポリシーを作成します。このポリシーは、エンタープライズ VoIPの通話受付管理でSkype for Business Server。
+ms.openlocfilehash: 8e5fb020ece1762868f9d943eb2aad955903b91329d636a981e644b2e9892b67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093085"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338755"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Skype for Business Server でネットワークサイト間ポリシーを作成する
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>ネットワークのサイト間ポリシーを作成Skype for Business Server
  
-Skype for Business Server の通話受付管理で使用エンタープライズ VoIPサイト間ポリシーを作成します。 
+ネットワークサイト間ポリシーを作成します。このポリシーは、エンタープライズ VoIPの通話受付管理でSkype for Business Server。 
   
 ネットワークサイト間ポリシーは、サイト間の直接 WAN リンクを持つサイト間の帯域幅制限を定義します。
   
@@ -36,7 +36,7 @@ North America 地域のトポロジの例では、Reno と Albuquerque のサイ
   
 ### <a name="to-create-a-network-inter-site-policy"></a>ネットワークサイト間ポリシーを作成するには
 
-1. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. New-CsNetworkInterSitePolicy コマンドレットを実行して、ネットワークサイト間ポリシーを作成し、直接クロス リンクを持つ 2 つのサイトに適切な帯域幅ポリシー プロファイルを適用します。 たとえば、以下を実行します。
     

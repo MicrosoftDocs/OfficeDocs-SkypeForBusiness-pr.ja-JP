@@ -1,5 +1,5 @@
 ---
-title: Skype Room System Exchange および Skype アカウントのプロビジョニング
+title: ルーム システム SkypeアカウントとExchangeアカウントSkypeプロビジョニング
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
-description: 以下のトピックを参照して、Exchange アカウントと Skype アカウントを Skype Room System 用にプロビジョニングする方法について説明します。
-ms.openlocfilehash: 0e8c73bc83a62465dc711b4a6f2725f1d9c576f8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: これらのトピックを参照して、ルーム システムのExchangeアカウントSkypeするSkype説明します。
+ms.openlocfilehash: bee430c434a710f0560e78eef9ebce31d198549fdb4ee9a88861afb5ab9e8760
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338885"
 ---
-# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Skype Room System Exchange および Skype アカウントのプロビジョニング
+# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>ルーム システム SkypeアカウントとExchangeアカウントSkypeプロビジョニング
  
-以下のトピックを参照して、Exchange アカウントと Skype アカウントを Skype Room System 用にプロビジョニングする方法について説明します。 
+これらのトピックを参照して、ルーム システムのExchangeアカウントSkypeするSkype説明します。 
 
 > [!NOTE]
-> Microsoft Teams Rooms は、依存関係と展開手順が異なる別の製品です。 Microsoft Teams Rooms の詳細については、「Microsoft Teams Rooms の展開の概要」 [を参照してください](/MicrosoftTeams/rooms/rooms-deploy)。
+> Microsoft Teams会議室は、依存関係と展開手順が異なる別の製品です。 会議室の詳細については、「Microsoft Teamsの展開の概要Microsoft Teams」を[参照してください](/MicrosoftTeams/rooms/rooms-deploy)。
   
 > [!NOTE]
-> Skype Room System アカウントのプロビジョニングは、組織が持つトポロジの種類によって異なります。 Active Directory トポロジの詳細については [、「Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)の環境要件」を参照してください。 
+> SkypeRoom System アカウントのプロビジョニングは、組織が持つトポロジの種類によって異なります。 Active Directory トポロジの詳細については、「環境要件[for Skype for Business Server 2015」を参照](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)してください。 
   
-## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Skype Room System Exchange &amp; Skype for Business アカウントのプロビジョニング
+## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>ルーム システム Skype アカウントの &amp; Exchange Skype for Businessする
 
-次のトピックでは、Skype Room System Exchange および Skype for Business アカウントをプロビジョニングおよび管理する方法について説明します。
+次のトピックでは、Room System のアカウントをプロビジョニングおよび管理Skype、ExchangeアカウントSkype for Business説明します。
   
 - 単一フォレスト オンプレミスの展開
     
@@ -42,6 +42,6 @@ ms.locfileid: "51113063"
     
 - ハイブリッド展開
     
-- Skype Room System と Skype for Business フェデレーション パートナー
+- SkypeRoom System と Skype for Businessフェデレーション パートナー
     
 - Skype Room System アカウントの管理

@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[ファイル ストア] ノードには、トポロジ内のファイル ストアの一覧が表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: 33c3b597f998a14bb516a2d30db9b6fadac121c6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[ファイル ストア] ノードには、トポロジ内のファイル ストアの一覧が表示されます。以下のアクションを実行できます。'
+ms.openlocfilehash: ad223e5c6f0e48bf7b355ed97b75c3a86c7a8138c76184b1a93cef6a132efe39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322039"
 ---
 # <a name="file-stores-scope-node"></a>ファイル ストアのスコープ ノード
  
@@ -30,7 +30,7 @@ ms.locfileid: "49819407"
     
 ファイル ストアのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンのコンポーネントの結合、または展開の削除を行います。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンのコンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

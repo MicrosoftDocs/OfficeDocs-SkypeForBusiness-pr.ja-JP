@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
-description: Skype for Business Server サーバー の通話保留音をカスタマイズエンタープライズ VoIP。
-ms.openlocfilehash: 87dea58d9e339293b047373ac6c44a16bed3bdb3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 通話中の通話パークの音楽をSkype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: 6dc080071df29e12a979e2591a73c02439a0a6271cda45b4105a009d1c70e307
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093045"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323539"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Skype for Businessで通話パークの音楽を保留にカスタマイズする
  
-Skype for Business Server サーバー の通話保留音をカスタマイズエンタープライズ VoIP。
+通話中の通話パークの音楽をSkype for Business Server エンタープライズ VoIP。
   
-Skype for Business Server に含む既定の音楽ファイルではなく、保留音に使用する独自の音楽ファイルを指定できます。 保留音をカスタマイズするには、**Set-CsCallParkServiceMusicOnHoldFile** コマンドレットを使用します。
+保留音に使用する独自の音楽ファイルを、保留音に含む既定の音楽ファイルではなく、Skype for Business Server。 保留音をカスタマイズするには、**Set-CsCallParkServiceMusicOnHoldFile** コマンドレットを使用します。
   
 > [!NOTE]
 > 保留音をカスタマイズし、複数のサイトで同じ音楽が必要な場合は、コール パーク アプリケーションを実行する各サイトの音楽ファイルを構成する必要があります。 
   
 ### <a name="to-customize-the-music-file"></a>音楽ファイルをカスタマイズするには
 
-1. 「代理セットアップのアクセス許可」の説明に従って、Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとして、または必要なユーザー権限でインストールされているコンピューターにログオンします。
+1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「代理セットアップのアクセス許可」の説明に従って必要なユーザー権限でログオン **します。**
     
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
-3. 次を実行します:  
+3. 次のコマンドを実行します。
     
    ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >

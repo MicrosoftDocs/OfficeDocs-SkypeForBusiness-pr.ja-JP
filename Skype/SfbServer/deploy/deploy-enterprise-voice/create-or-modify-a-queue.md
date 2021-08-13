@@ -1,5 +1,5 @@
 ---
-title: Skype for Business でキューを作成または変更する
+title: キューを作成または変更Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,36 +15,36 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: Skype for Business Server の応答グループ キューを作成または変更エンタープライズ VoIP。
-ms.openlocfilehash: b355cde0d8a99938538488152276a6c8eb4c6d4b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 応答グループ キューを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: d8b875063d37d38ece7a6ec59c9b0bffbb16ee091e31f67087eb2cc0b52616e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338745"
 ---
-# <a name="create-or-modify-a-queue-in-skype-for-business"></a>Skype for Business でキューを作成または変更する
+# <a name="create-or-modify-a-queue-in-skype-for-business"></a>キューを作成または変更Skype for Business
  
-Skype for Business Server の応答グループ キューを作成または変更エンタープライズ VoIP。
+応答グループ キューを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
   
 エージェントが通話に応答するまで、キューには発信者が保持されます。 応答グループ アプリケーションが使用可能なエージェントを検索すると、エージェント グループをリストの順序で検索します。 キューに割り当てられるエージェント グループを選択し、キューに保持する通話の最大数や、エージェントが応答するまで通話を待機させる時間などのキューの動作を指定できます。
   
 キューを作成または変更するには、以下のいずれかの手順を使用します。
   
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>Skype for Business Server コントロール パネルを使用してキューを作成または変更するには
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-queue"></a>コントロール パネルSkype for Business Server使用してキューを作成または変更するには
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
     > [!NOTE]
     > 管理ワークフローを委任された応答グループ マネージャーのいずれかである場合は、応答グループ キューを作成または変更して、管理するワークグループに割り当てることができます。 
   
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで [**応答グループ**] をクリックし、[**キュー**] をクリックします。
     
 4. [**キュー**] ページで、次のいずれかの操作を実行します。
     
-   - 新しいキューを作成するには、[**新規作成**] をクリックします。 [**サービスの選択**] の検索フィールドに、キューを追加する **ApplicationServer** サービスの名前の一部またはすべてを入力します。 表示されたサービスの一覧で、目的のサービスをクリックし、[**OK**] をクリックします。
+   - 新しいキューを作成するには、[**新規作成**] をクリックします。[**サービスの選択**] の検索フィールドに、キューを追加する **ApplicationServer** サービスの名前の一部またはすべてを入力します。表示されたサービスの一覧で、目的のサービスをクリックし、[**OK**] をクリックします。
     
    - 既存のキューを変更するには、キューの名前または名前の一部を検索フィールドに入力します。結果のキューの一覧で、対象のキューをクリックし、[**編集**]、[**詳細の表示**] の順にクリックします。
     
@@ -99,14 +99,14 @@ Skype for Business Server の応答グループ キューを作成または変�
     
 10. [**確定**] をクリックします。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>Skype for Business Server 管理シェルを使用してキューを作成または変更するには
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>管理シェルSkype for Business Server使用してキューを作成または変更するには
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
     > [!NOTE]
     > 管理ワークフローを委任された応答グループ マネージャーのいずれかである場合は、エージェント グループおよびキューを作成して、エージェント グループをキューに割り当てることができます。 
   
-2. Skype for Business Server 管理シェルを開始する: **[スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[Skype for Business Server 管理シェル]**をクリックします**。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. キューのタイムアウトしきい値に達したときに再生されるプロンプトを作成し、変数に格納します。コマンド ラインで、次のコマンドを実行します。
     
@@ -168,13 +168,13 @@ Skype for Business Server の応答グループ キューを作成または変�
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
    ```
 
-7. 応答グループ サービスのサービス名を取得して変数に割り当てます。 コマンド ラインで、次のコマンドを実行します。
+7. 応答グループ サービスのサービス名を取得して変数に割り当てます。コマンド ラインで、次のコマンドを実行します。
     
    ```powershell
    $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
    ```
 
-8. キューに割り当てるエージェント グループの Identity を取得します。 コマンド ラインで、次のコマンドを実行します。
+8. キューに割り当てるエージェント グループの Identity を取得します。コマンド ラインで、次のコマンドを実行します。
     
    ```powershell
    $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;

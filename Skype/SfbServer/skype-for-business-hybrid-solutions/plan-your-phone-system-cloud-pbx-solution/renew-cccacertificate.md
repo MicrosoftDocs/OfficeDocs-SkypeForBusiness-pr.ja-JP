@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: Renew-CcCACertificate コマンドレットは、有効期限が近づいている、またはすでに有効期限が切れている Skype for Business Cloud Connector エディションのルート CA 証明書を更新します。 このコマンドは、クラウドコネクタ2.0 以降のリリースで CcCACertificate に変更されました。
-ms.openlocfilehash: e92709cd1da0ffccd2b356000dbd2345ba56a1d9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このRenew-CcCACertificateコマンドレットは、有効期限Skype for Business クラウド コネクタ エディション近い、または既に有効期限が切れているルート CA 証明書を更新します。 このコマンドは、Cloud Connector 2.0 Update-CcCACertificate以降のリリースで変更されました。
+ms.openlocfilehash: 49b58e18d6393d5a3f9665fea98cba73f22d9c3259f0036dc93dce9dbf67e567
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340783"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-Renew-CcCACertificate コマンドレットは、有効期限が近づいている、またはすでに有効期限が切れている Skype for Business Cloud Connector エディションのルート CA 証明書を更新します。 このコマンドは、クラウドコネクタ2.0 以降のリリースで CcCACertificate に変更されました。
+このRenew-CcCACertificateコマンドレットは、有効期限Skype for Business クラウド コネクタ エディション近い、または既に有効期限が切れているルート CA 証明書を更新します。 このコマンドは、Cloud Connector 2.0 Update-CcCACertificate以降のリリースで変更されました。
   
 ```powershell
 Renew-CcCACertificate
@@ -46,18 +46,18 @@ Renew-CcCACertificate
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-Cloud Connector のルート CA 証明書は証明機関サービスをインストールした日から 5 年間有効です。
+Cloud Connector ルート CA 証明書は、証明機関サービスがインストールされた日から 5 年間有効です。
   
-ルート証明書の有効期限が近づいている場合またはすでに有効期限が切れている場合は、Renew-CcCACertificate コマンドレットを実行して証明書を更新します。ルート証明書を更新すると、AD サーバー、中央管理ストア、エッジ サーバーに対して新しい証明書が自動的に発行されます。
+ルート証明書の有効期限が近い場合、または既に有効期限が切れている場合は、Renew-CcCACertificateコマンドレットを実行して証明書を更新します。 ルート証明書が更新された後、ADサーバー、サーバーの全体管理ストア、およびエッジ サーバーが自動的に新しい証明書を発行します。
   
-同一の PSTN サイトに複数のアプライアンスが存在する場合は、その PSTN サイトのすべてのアプライアンスで Renew-CcCACertificate コマンドレットを実行します。
+同じ PSTN サイトに複数のアプライアンスがある場合は、同じ PSTN サイトのすべてのRenew-CcCACertificateコマンドレットを実行します。
   
-最後に、Export-CcRootCertificate コマンドレットを実行して、最初のアプライアンスのローカル ファイルにルート証明書をエクスポートし、エクスポートした証明書を PSTN ゲートウェイにコピーしてインストールします。
+最後の手順として、Export-CcRootCertificateを実行して、ルート証明書を最初のアプライアンスのローカル ファイルにエクスポートし、エクスポートした証明書を PSTN ゲートウェイにコピーしてインストールします。
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Renew-CcCACertificate コマンドレットはパイプライン入力を受け入れません。
+なし。 このRenew-CcCACertificateは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

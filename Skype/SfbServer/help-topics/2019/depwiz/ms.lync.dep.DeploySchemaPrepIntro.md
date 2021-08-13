@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server のスキーマを拡張するタスクを開始するには、[スキーマの準備] ページから開始します。 [次へ] をクリックして、スキーマの準備に進みます。
-ms.openlocfilehash: bc78b854de98a86def5c06787292b174629b2ac7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: タスクを開始してスキーマを拡張Skype for Business Server、[スキーマの準備] ページから開始します。 [次へ] をクリックして、スキーマの準備に進みます。
+ms.openlocfilehash: f5a98b05ed2ead2bdcbf954d003111f5a4d0fff61eaa09eba024beed20b710a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324466"
 ---
 # <a name="prepare-schema-intro"></a>スキーマの準備 (開始)
  
-Skype for Business Server のスキーマを拡張するタスクを開始するには、[スキーマの準備] **ページから開始** します。 **[次へ]** をクリックして、スキーマの準備に進みます。
+スキーマを拡張するタスクを開始するには、[スキーマSkype for Business Server準備]**ページから開始** します。 **[次へ]** をクリックして、スキーマの準備に進みます。
   
 

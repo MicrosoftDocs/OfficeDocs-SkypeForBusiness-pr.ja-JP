@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: この記事では、サービスを実装するための利点、計画上の考慮事項、および要件Microsoft クラウド ボイスメール説明します。 構成方法の詳細については、「クラウド ボイスメール構成」を参照クラウド ボイスメール。
-ms.openlocfilehash: cfde9867bcdd4c2b7492f8b50df782a5ca6fe34b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323679"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>オンプレミス ユーザークラウド ボイスメールサービスを計画する
 
@@ -88,7 +88,7 @@ Skype for Business Server 2019 では、メールボックスが以前のバー�
 
 ## <a name="migration-and-interoperability"></a>移行と相互運用性
 
-Skype for Business Server 2019 および/または Exchange Server 2019 の展開を計画している場合は、ボイス メッセージングの継続的なサービスを確保するために、移行を慎重に計画する必要があります。 以下の点にご注意ください。
+Skype for Business Server 2019 および/または Exchange Server 2019 の展開を計画している場合は、ボイス メッセージングの継続的なサービスを確保するために、移行を慎重に計画する必要があります。 以下の点にご注意ください:
 
 - Exchange Server 2019 では、UM Exchange機能が提供されなくなりました
 - Skype for Business Server 2019 が UM と統合Exchange Onlineなくなりました
@@ -98,7 +98,7 @@ Skype for Business Server 2019 および/または Exchange Server 2019 の展�
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | Skype for Business Server 2019 | Exchange ServerUM | Exchange ServerUM | クラウド ボイスメール | クラウド ボイスメール |
-| Skype for Business Server 2015 | Exchange ServerUM | Exchange ServerUM | 非サポート | クラウド ボイスメール |
+| Skype for Business Server 2015 | Exchange ServerUM | Exchange ServerUM | サポートされていません | クラウド ボイスメール |
 | Lync Server 2013 <br>  | Exchange ServerUM | Exchange ServerUM | サポート対象外 | クラウド ボイスメール |
 
 Microsoft では、次の移行パスをお勧めします。
