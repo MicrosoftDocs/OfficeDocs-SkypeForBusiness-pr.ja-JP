@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
-description: 常設チャット ルームの作成と管理は、カテゴリの正しい使用によりはるかに簡単です。 常設チャット管理者は、カテゴリごとに AllowedMembers と Creators を定義できます。また、カテゴリ内に作成されたチャット ルームに適用される既定のチャット ルームの設定と動作を定義することもできます。 常設チャット管理者は、Skype for Business Server コントロール パネルまたはカスタム コマンドレットを使用してWindows PowerShell管理します。
-ms.openlocfilehash: 7d98ff058251b8bd14eb37a0ae5ba633f5a99c48
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 常設チャット ルームの作成と管理は、カテゴリの正しい使用によりはるかに簡単です。 常設チャット管理者は、カテゴリごとに AllowedMembers と Creators を定義できます。また、カテゴリ内に作成されたチャット ルームに適用される既定のチャット ルームの設定と動作を定義することもできます。 常設チャット管理者は、コントロール パネルまたは管理者のコマンドレットを使用Skype for Business ServerカテゴリをWindows PowerShell管理します。
+ms.openlocfilehash: bc00bada9bdecb35d708ee93ad5536a6758e4eda10ca3ccc671d386a8e8bcdf8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107953"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303929"
 ---
 # <a name="select-creators"></a>作成者の選択
 
-常設チャット ルームの作成と管理は、カテゴリの正しい使用によりはるかに簡単です。 常設チャット管理者は、カテゴリごとに **AllowedMembers** と **Creators** を定義できます。また、カテゴリ内に作成されたチャット ルームに適用される既定のチャット ルームの設定と動作を定義することもできます。 常設チャット管理者は、Skype for Business Server コントロール パネルまたはカスタム コマンドレットを使用してWindows PowerShell管理します。
+常設チャット ルームの作成と管理は、カテゴリの正しい使用によりはるかに簡単です。 常設チャット管理者は、カテゴリごとに **AllowedMembers** と **Creators** を定義できます。また、カテゴリ内に作成されたチャット ルームに適用される既定のチャット ルームの設定と動作を定義することもできます。 常設チャット管理者は、コントロール パネルまたは管理者のコマンドレットを使用Skype for Business ServerカテゴリをWindows PowerShell管理します。
 
 ## <a name="tasks-that-you-can-perform"></a>実行できるタスク
 
@@ -34,7 +34,7 @@ ms.locfileid: "51107953"
 
 - [常設チャット サーバーの新機能](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>チャット ルームのカテゴリを構成するには
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: このノードには、この音声ビデオ会議プールのプール完全修飾ドメイン名 (FQDN) および関連付けられたフロント エンド プールが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 6c74485692a7eaafde3c2b2079c4db2a3ee15c5f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6d6669d45c95acc419cdf8ad00d0760392ed8f5c77b2a961565fe4c2b308b029
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315753"
 ---
 # <a name="av-mcu-scope-node"></a>AV MCU のスコープ ノード
  
@@ -34,7 +34,7 @@ ms.locfileid: "49833297"
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除を行います。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、コンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用すると、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダー内のビューをカスタマイズできます。
     

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会議の構成設定では、ユーザーが作成できる会議の種類 (いわゆるmeetings) を定義し、匿名ユーザーとダイヤルイン会議ユーザーがこれらの会議に参加する方法 (またはかどうかを) 制御します。 これらの設定はスケジュール設定された会議にのみ適用されます。 クライアントで [今すぐ会議] オプションをクリックして作成されたアドホック会議には適用されません。
-ms.openlocfilehash: 053378ef694a66413f11760be5f449cd21e6b764
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c4c891b7ac058a5e206c8fcde2d30766f9f498fc342dd9cdd4c9b25564443dbc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317642"
 ---
 # <a name="meeting-configuration"></a>会議の構成
 

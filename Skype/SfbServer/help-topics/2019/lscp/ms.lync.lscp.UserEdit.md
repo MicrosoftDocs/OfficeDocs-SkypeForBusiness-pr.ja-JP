@@ -14,27 +14,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 5d0f8b0039b12bca19dbfc90adbc6065e7bf9f87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 8ccd11709a5a024fa428e37bef7e0f8b191c81f2ed45db19e8a10a42638fb86e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120106"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304259"
 ---
 # <a name="users-edit-user"></a>ユーザー: ユーザーの編集
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
 - [ユーザーを有効または無効にする](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)
 
-- [Skype for Business Server でエンタープライズ VoIPユーザーを有効にする](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [ユーザーがユーザーのエンタープライズ VoIPを有効Skype for Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [会議ポリシーを割り当て、ユーザーの既定の会議エクスペリエンスを変更する](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-conferencing-policy)
 
 - [ユーザーによるサインインでサポートされるクライアント バージョンの指定](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [Skype for Business Server でユーザーごとの PIN ポリシーを割り当てる](../../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [ユーザー単位の PIN ポリシーをユーザー単位で割り当Skype for Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [ユーザーのフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続を構成する](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

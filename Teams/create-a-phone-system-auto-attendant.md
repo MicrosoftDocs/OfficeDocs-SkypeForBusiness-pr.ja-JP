@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 大規模な組織の自動応答を設定してテストする方法についてMicrosoft Teams。
-ms.openlocfilehash: cc4d0de8fd1d6c643f23b6e8215f0f7a343b2a8f
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: b25a3126e697b30093f38148c43cf29e55ba776a4b2adca14a75779dcd4dc8c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315393"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
@@ -143,7 +143,7 @@ ms.locfileid: "52777805"
 - 例 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - 例 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-拡張機能は、管理センターまたは管理センター [Microsoft 365で](https://admin.microsoft.com/)Azure Active Directory[設定できます](https://aad.portal.azure.com)。 自動応答と通話キューで変更を利用するには、最大で 12 時間かかる場合があります。
+拡張機能は、管理[センターの](https://admin.microsoft.com/)Microsoft 365 管理センター または Azure Active Directory[設定できます](https://aad.portal.azure.com)。 自動応答と通話キューで変更を利用するには、最大で 12 時間かかる場合があります。
 
 > [!NOTE]
 > [名前でダイヤル] 機能と [ダイヤルバイ拡張機能] の両方を使用する場合は、メイン自動応答でダイヤル キーを割り当て、名前でダイヤルが有効になっている自動応答に到達 **できます**。 その自動応答内で、1 つのキー (関連付けられている文字がない) を割り当て、内線番号によるダイヤル自動応答 **に** 到達できます。

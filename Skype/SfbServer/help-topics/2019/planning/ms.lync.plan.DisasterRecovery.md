@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server には、2 つのデータ センターにあるフロントエンド プールをペアにすることで、障害復旧対策が含まれています。
-ms.openlocfilehash: 67f6842faa2b28e5a8c7606bb7ab639716693985
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Skype for Business Serverには、2 つのデータ センターにあるフロントエンド プールをペアリングすることで、障害復旧対策が含まれます。
+ms.openlocfilehash: cb361ee6d008b5b15169b976cd47bef0f0b0f693180b78a173392de3768a06a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801087"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304209"
 ---
 # <a name="disaster-recovery-planning-tool"></a>障害復旧 (計画ツール)
  
-Skype for Business Server には、2 つのデータ センターにあるフロントエンド プールをペアにすることで、障害復旧対策が含まれています。
+Skype for Business Serverには、2 つのデータ センターにあるフロントエンド プールをペアリングすることで、障害復旧対策が含まれます。
   
-障害復旧用の環境の準備の詳細については [、「Plan for high availability and disaster recovery in Skype for Business Server」を参照してください](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+障害復旧用に環境を準備する方法の詳細については[、「Plan for high availability and disaster recovery in](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)Skype for Business Server」 を参照してください。
   
 

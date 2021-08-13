@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で既存のアーカイブ ポリシーを変更する
+title: 既存のアーカイブ ポリシーを変更Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: '概要: Skype for Business Server のユーザー アーカイブ ポリシーを変更する方法について説明します。'
-ms.openlocfilehash: 47c9d5938c22b93db48c96265831cbf24ecc24d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: ユーザー のアーカイブ ポリシーを変更する方法について説明します。Skype for Business Server。'
+ms.openlocfilehash: 571f32a4cf5fb0bddd006719f3a9886c852df3f7196adf774f554cda216ea0a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315713"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Skype for Business Server で既存のアーカイブ ポリシーを変更する
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>既存のアーカイブ ポリシーを変更Skype for Business Server
  
-**概要:** Skype for Business Server のユーザー アーカイブ ポリシーを変更する方法について説明します。
+**概要:** ユーザー のアーカイブ ポリシーを変更する方法について説明Skype for Business Server。
   
-最初に Skype for Business Server を展開するときに、展開内のユーザーに対してアーカイブを実装する方法を決定する初期アーカイブ ポリシーを設定します。 このトピックでは、ポリシーを管理および修正する方法について説明します。 
+アプリケーションを最初に展開Skype for Business Server、展開内のユーザーに対するアーカイブの実装方法を決定する初期アーカイブ ポリシーを設定します。 このトピックでは、ポリシーを管理および修正する方法について説明します。 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>コントロール パネルを使用してアーカイブ ポリシーを変更する
 
 1. CsArchivingAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。 
     
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
     
 3. 左側のナビゲーション バーで、[**監視とアーカイブ**] をクリックし、[**アーカイブ ポリシー**] をクリックします。
     
@@ -50,15 +50,15 @@ ms.locfileid: "49817707"
 6. [**確定**] をクリックします。
     
     > [!IMPORTANT]
-    > ユーザー ポリシーの設定は、そのポリシーを適用する特定のユーザーおよびユーザー グループのみに適用されます。 詳細については、「Skype for Business Server でアーカイブ ポリシーをユーザーに適用する [」を参照してください](apply-a-policy-to-users.md)。 
+    > ユーザー ポリシーの設定は、そのポリシーを適用する特定のユーザーおよびユーザー グループのみに適用されます。 詳細については、「[アーカイブ ポリシーをユーザーに](apply-a-policy-to-users.md)適用する」を参照Skype for Business Server。 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>アーカイブ ポリシーを使用してアーカイブ ポリシーをWindows PowerShell
 
-**Set-CsArchivingPolicy** コマンドレットを使用してWindows PowerShellポリシーを変更することもできます。
+また **、Set-CsArchivingPolicy** コマンドレットを使用Windows PowerShellアーカイブ ポリシーを変更することもできます。
   
 ### <a name="enable-archiving-policies"></a>アーカイブ ポリシーを有効にする
 
-内部通信セッションのアーカイブを有効にするには、ArchiveInternal パラメーターの値を True ($True) に設定します。 
+内部通信セッションのアーカイブを有効にするには、ArchiveInternal パラメーターの値を True ($True) に設定$True。 
   
 ```PowerShell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True

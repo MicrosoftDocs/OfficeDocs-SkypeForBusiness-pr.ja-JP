@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
-description: Get-CcExternalCertificateFilePath コマンドレットは、Skype for Business Cloud Connector エディションの展開用に外部証明書ファイルのパスを返します。 この証明書はユーザーが準備します。
-ms.openlocfilehash: 143595d30bb71756544a16ad464da05a229f476d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このGet-CcExternalCertificateFilePathは、展開の外部証明書ファイル パスをSkype for Business クラウド コネクタ エディションします。 ユーザーは、この証明書を準備します。
+ms.openlocfilehash: 3f0a3bc761beb1a2aa1c88bfabf509e4aef17b012f52e04be1ec5944df73ba9c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799907"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315383"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
-Get-CcExternalCertificateFilePath コマンドレットは、Skype for Business Cloud Connector エディションの展開用に外部証明書ファイルのパスを返します。この証明書はユーザーが準備します。
+このGet-CcExternalCertificateFilePathは、展開の外部証明書ファイル パスをSkype for Business クラウド コネクタ エディションします。 ユーザーは、この証明書を準備します。
   
-このコマンドレットは、Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。
+このコマンドレットは、Skype for Business クラウド コネクタ エディション 1.4.1、1.4.2 に適用されます。
   
 ```powershell
 Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationServer}]
@@ -35,7 +35,7 @@ Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationSer
 
 ### <a name="example-1"></a>例 1
 
-次の例では、エッジ サーバーの証明書のパスを示します。
+次の例は、エッジ サーバーの証明書のパスを示しています。
   
 ```powershell
 Get-CcExternalCertificateFilePath -Target EdgeServer
@@ -43,7 +43,7 @@ Get-CcExternalCertificateFilePath -Target EdgeServer
 
 ### <a name="example-2"></a>例 2
 
-次の例では、仲介サーバーの証明書セットを示します。
+次の例は、仲介サーバーの証明書セットを示しています。
   
 ```powershell
 Get-CcExternalCertificateFilePath -Target MediationServer
@@ -52,24 +52,24 @@ Get-CcExternalCertificateFilePath -Target MediationServer
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-展開中またはトポロジの変更時には、エッジ サーバーの証明書および仲介サーバーの証明書 (省略可能) のパスを指定する必要があります。仲介サーバーの証明書は、ゲートウェイと仲介サーバーの間に TLS を使用する場合に必要です。パスを変更するには、Set-CcExternalCertificateFilePath コマンドレットを使用します。
+展開中、またはトポロジを変更する場合は、エッジ サーバー証明書のパスと、必要に応じて仲介サーバーのパスを指定する必要があります。 ゲートウェイと仲介サーバーの間で TLS を使用する場合は、仲介サーバーの証明書が必要です。 パスを変更するには、次のコマンドレットSet-CcExternalCertificateFilePathします。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-|Target  <br/> |省略可能  <br/> | System.Management.Automation.SwitchParameter <br/> |必要なファイル パスの種類。種類:  <br/> EdgeServer (既定)  <br/> MediationServer  <br/> |
+|Target  <br/> |省略可  <br/> | System.Management.Automation.SwitchParameter <br/> |要求されたファイル パスの種類。 型には、次のものが含まれます。  <br/> EdgeServer (既定)  <br/> MediationServer  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-Get-CcExternalCertificateFilePath コマンドレットはパイプライン入力を受け入れません。
+このGet-CcExternalCertificateFilePathは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>
 
-このコマンドはファイル パスを返します。
+コマンドはファイル パスを返します。
   
 ## <a name="see-also"></a>関連項目
 <a name="ReturnTypes"> </a>

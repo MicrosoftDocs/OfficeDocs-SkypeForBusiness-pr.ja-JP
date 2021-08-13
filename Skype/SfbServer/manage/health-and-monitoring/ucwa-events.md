@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の UCWA イベント
+title: UCWA イベント (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,50 +11,50 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: '概要: Skype for Business Server の Unified Communications Web API (UCWA) について説明します。'
-ms.openlocfilehash: d8426418bf01954137a1bbed25d5fef93443dc5c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: ユニファイド コミュニケーション Web API (UCWA) の詳細については、Skype for Business Server。'
+ms.openlocfilehash: 41e5f2543fa7a29a4fde96d09977e0b8d4b7b2755f7224c4fb9bfceef246ab09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317559"
 ---
-# <a name="ucwa-events-in-skype-for-business-server"></a>Skype for Business Server の UCWA イベント
+# <a name="ucwa-events-in-skype-for-business-server"></a>UCWA イベント (Skype for Business Server
  
-**概要:** Skype for Business Server の Unified Communications Web API (UCWA) について説明します。
+**概要:** ユニファイド コミュニケーション Web API (UCWA) の詳細については、Skype for Business Server。
   
-Skype for Business Server は、連絡先検索用の Microsoft Exchange へのアクセスからモバイル クライアントのプレゼンスの更新まで、多くの目的で Unified Communications Web API (UCWA) を使用します。
+Skype for Business Serverは、連絡先検索のために Microsoft Exchange にアクセスする方法から、モバイル クライアントのプレゼンスを更新する目的で、ユニファイド コミュニケーション Web API (UCWA) を使用します。
   
-UCWA は、イベントの種類が情報、警告、およびエラーとして動作の記録を書き込む。 次の表では、UCWA コンポーネントによって書き込まれるイベントについて説明します。
+UCWA は、操作動作のレコードをイベントの種類 Informational、Warning、および Error として書き込む。 次の表では、UCWA コンポーネントによって書き込み可能なイベントについて説明します。
   
-|**イベント ID**|**イベントの種類**|**Summary**|**原因と解決策**|
+|**イベント ID**|**イベントの種類**|**Summary**|**原因と解決方法**|
 |:-----|:-----|:-----|:-----|
-|20001  <br/> |情報提供  <br/> |UCWA が初期化されました  <br/> |N/A  <br/> N/A  <br/> |
-|20002  <br/> |Error  <br/> |初期化中に UCWA で予期しない例外が発生しました  <br/> |初期化中に予期しないエラーが発生しました  <br/> 関連付けられたイベント ログ エントリの例外の詳細を調べて、考えられる原因を特定する  <br/> |
-|20003  <br/> |Error  <br/> |UCWA で未処理の例外が発生しました  <br/> |未処理の例外が発生しました  <br/> サーバーを再起動します。 問題が解決しない場合は、製品サポートにお問い合わせください。  <br/> |
-|20004  <br/> |Error  <br/> |Exchange for HD 写真にアクセスできない  <br/> |Exchange への接続が使用できません  <br/> Exchange への接続が使用可能なのを確認する  <br/> |
-|20005  <br/> |情報提供  <br/> |Exchange for HD 写真にアクセスできなかった場合から回復しました  <br/> |N/A  <br/> |
-|20006  <br/> |Error  <br/> |連絡先検索用に Exchange にアクセスできない  <br/> |Exchange への接続が使用できません  <br/> Exchange への接続が使用可能なのを確認する  <br/> |
-|20007  <br/> |情報提供  <br/> |Exchange で連絡先の検索に失敗した場合から回復しました  <br/> |N/A  <br/> |
+|20001  <br/> |情報  <br/> |UCWA の初期化  <br/> |該当なし  <br/> 該当なし  <br/> |
+|20002  <br/> |Error  <br/> |UCWA が初期化中に予期しない例外を検出しました  <br/> |初期化中に予期しないエラーが発生しました  <br/> 関連付けられたイベント ログ エントリの例外の詳細を調べて、考えられる原因を特定する  <br/> |
+|20003  <br/> |Error  <br/> |UCWA で未処理の例外が発生しました  <br/> |未処理の例外が発生しました  <br/> サーバーを再起動します。 問題が解決しない場合は、製品サポートに問い合わせ  <br/> |
+|20004  <br/> |Error  <br/> |HD 写真のExchangeにアクセスできない  <br/> |ユーザーへのExchangeは使用できません  <br/> サーバーへの接続が使用可能Exchange確認する  <br/> |
+|20005  <br/> |情報  <br/> |HD 写真のファイルにアクセスExchange回復  <br/> |該当なし  <br/> |
+|20006  <br/> |Error  <br/> |連絡先の検索Exchangeにアクセスできない  <br/> |ユーザーへのExchangeは使用できません  <br/> サーバーへの接続が使用可能Exchange確認する  <br/> |
+|20007  <br/> |情報  <br/> |ユーザーの連絡先の検索に失敗したExchange  <br/> |該当なし  <br/> |
 |20008  <br/> |警告  <br/> |アプリケーションごとに許可されているプレゼンス サブスクリプションを超えるサブスクリプションのサブスクライブを試みる  <br/> |アプリケーションごとに許可されているプレゼンス サブスクリプションを超えるサブスクリプションのサブスクライブを試みる  <br/> クライアントで不要なサブスクリプションを確認する  <br/> |
 |20009  <br/> |警告  <br/> |バッチごとに許可されているプレゼンス サブスクリプションを超えるサブスクリプションのサブスクライブを試みる  <br/> |バッチごとに許可されているプレゼンス サブスクリプションを超えるサブスクリプションのサブスクライブを試みる  <br/> クライアントで不要なサブスクリプションを確認する  <br/> |
-|20010  <br/> |Error  <br/> |インバンド データを取得できません  <br/> |インバンド データを取得できません  <br/> 問題が解決しない場合は、製品サポートにお問い合わせください。  <br/> |
-|20011  <br/> |Error  <br/> |プレゼンスをサブスクライブできません  <br/> |プレゼンスをサブスクライブできません  <br/> 問題が解決しない場合は、製品サポートにお問い合わせください。  <br/> |
-|20012  <br/> |Error  <br/> |エンドポイントの登録に失敗しました  <br/> |エンドポイントの登録に失敗しました  <br/> 問題が解決しない場合は、製品サポートにお問い合わせください。  <br/> |
+|20010  <br/> |Error  <br/> |インバンド データを取得できない  <br/> |インバンド データを取得できない  <br/> 問題が解決しない場合は、製品サポートに問い合わせ  <br/> |
+|20011  <br/> |Error  <br/> |プレゼンスをサブスクライブできない  <br/> |プレゼンスをサブスクライブできない  <br/> 問題が解決しない場合は、製品サポートに問い合わせ  <br/> |
+|20012  <br/> |Error  <br/> |エンドポイントの登録に失敗しました  <br/> |エンドポイントの登録に失敗しました  <br/> 問題が解決しない場合は、製品サポートに問い合わせ  <br/> |
 |20013  <br/> |Error  <br/> |IM MCU は使用できません  <br/> |IM MCU は使用できません  <br/> IM MCU が実行されているかどうかを確認する  <br/> |
-|20014  <br/> |情報提供  <br/> |IM MCU に接続できない状態から回復しました  <br/> |N/A  <br/> |
-|20015  <br/> |Error  <br/> |AV MCU が使用できない  <br/> |AV MCU が使用できない  <br/> AV MCU が実行されているかどうかを確認する  <br/> |
-|20016  <br/> |情報提供  <br/> |AV MCU に接続できない状態から回復しました  <br/> |N/A  <br/> |
-|20017  <br/> |Error  <br/> |AS MCU を使用できません  <br/> |AS MCU を使用できません  <br/> AS MCU が実行されているかどうかを確認する  <br/> |
-|20018  <br/> |情報提供  <br/> |AS MCU に接続できない状態から回復しました  <br/> |N/A  <br/> |
-|20019  <br/> |Error  <br/> |Data MCU を使用できません  <br/> |Data MCU を使用できません  <br/> Data MCU が実行されているかどうかを確認する  <br/> |
-|20020  <br/> |情報提供  <br/> |Data MCU に接続できない状態から回復しました  <br/> |N/A  <br/> |
-|20021  <br/> |Error  <br/> |IM MCU に参加できません  <br/> |IM MCU に参加できません  <br/> IM MCU が実行されているかどうかを確認する  <br/> |
-|20022  <br/> |Error  <br/> |AV MCU に参加できません  <br/> |AV MCU に参加できません  <br/> AV MCU が実行されているかどうかを確認する  <br/> |
-|20023  <br/> |Error  <br/> |AS MCU に参加できません  <br/> |AS MCU に参加できません  <br/> AS MCU が実行されているかどうかを確認する  <br/> |
-|20024  <br/> |Error  <br/> |Data MCU に参加できません  <br/> |Data MCU に参加できません  <br/> Data MCU が実行されているかどうかを確認する  <br/> |
-|20025  <br/> |Error  <br/> |写真の Active Directory にアクセスできません  <br/> |Active Directory への接続が使用できません  <br/> Active Directory への接続が使用可能な状態を確認する  <br/> |
-|20026  <br/> |情報提供  <br/> |写真用の Active Directory にアクセスできなかった場合から回復しました  <br/> |N/A  <br/> |
-|20027  <br/> |警告  <br/> |逆シリアル化できない  <br/> |逆シリアル化できない  <br/> 問題が解決しない場合は、製品サポートにお問い合わせください。  <br/> |
+|20014  <br/> |情報  <br/> |IM MCU への接続に失敗した場合の復旧  <br/> |該当なし  <br/> |
+|20015  <br/> |Error  <br/> |AV MCU は使用できません  <br/> |AV MCU は使用できません  <br/> AV MCU が実行されているかどうかを確認する  <br/> |
+|20016  <br/> |情報  <br/> |AV MCU への接続に失敗した場合の復旧  <br/> |該当なし  <br/> |
+|20017  <br/> |Error  <br/> |AS MCU は使用できません  <br/> |AS MCU は使用できません  <br/> AS MCU が実行されているかどうかを確認する  <br/> |
+|20018  <br/> |情報  <br/> |AS MCU への接続に失敗した場合の復旧  <br/> |該当なし  <br/> |
+|20019  <br/> |Error  <br/> |データ MCU は使用できません  <br/> |データ MCU は使用できません  <br/> データ MCU が実行されているかどうかを確認する  <br/> |
+|20020  <br/> |情報  <br/> |データ MCU への接続に失敗した場合の復旧  <br/> |該当なし  <br/> |
+|20021  <br/> |Error  <br/> |IM MCU に参加できない  <br/> |IM MCU に参加できない  <br/> IM MCU が実行されているかどうかを確認する  <br/> |
+|20022  <br/> |Error  <br/> |AV MCU に参加できない  <br/> |AV MCU に参加できない  <br/> AV MCU が実行されているかどうかを確認する  <br/> |
+|20023  <br/> |Error  <br/> |AS MCU に参加できない  <br/> |AS MCU に参加できない  <br/> AS MCU が実行されているかどうかを確認する  <br/> |
+|20024  <br/> |Error  <br/> |データ MCU に参加できない  <br/> |データ MCU に参加できない  <br/> データ MCU が実行されているかどうかを確認する  <br/> |
+|20025  <br/> |Error  <br/> |写真のアクティブ ディレクトリにアクセスできない  <br/> |アクティブ ディレクトリへの接続が使用できません  <br/> アクティブ ディレクトリへの接続が使用可能な状態を確認する  <br/> |
+|20026  <br/> |情報  <br/> |写真のアクティブ ディレクトリにアクセスできなかった場合に復元された  <br/> |該当なし  <br/> |
+|20027  <br/> |警告  <br/> |逆シリアル化できません  <br/> |逆シリアル化できません  <br/> 問題が解決しない場合は、製品サポートに問い合わせ  <br/> |
    
 

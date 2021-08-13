@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 組織の電話番号または移行 (転送) 番号を取得する場合は、PSTN サービス デスクでヘルプとサポートを利用する必要がある場合があります。
-ms.openlocfilehash: b3925fbd473094b06133fb7cfe31479396434b80
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
-ms.translationtype: MT
+ms.openlocfilehash: 4fa1a72c68c43f82715fb5f54a77a2e3a2181445f37afeb4f1bf640bb2766de6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510279"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310675"
 ---
 # <a name="pstn-service-desk"></a>PSTN サービス デスク 
 
@@ -48,7 +48,7 @@ PSTN サービス デスクとやり取りをするための新しいプロセ�
 > [!NOTE]
 > 同じテナントのユーザーのみがケースを作成できます。 つまり、@fabrikam.com のユーザーは、@contoso.com ユーザーの代理でケースを作成することはできません。 
 
-電話番号サービス センターから、新しいケースの作成、既存のケースの表示、サービス デスクとのコミュニケーション、ユーザー プロファイルの管理を行うことができます。 次のタスクについては、以下のセクションで詳細に説明します。
+電話番号サービス センターから、新しいケースの作成、既存のケースの表示、サービス デスクとの通信、ユーザー プロファイルの管理を行うことができます。これらのタスクの詳細については、次のセクションで説明します。
 
 - **電話番号サービス センター**  – ポータルのホーム ページに移動します。 
 

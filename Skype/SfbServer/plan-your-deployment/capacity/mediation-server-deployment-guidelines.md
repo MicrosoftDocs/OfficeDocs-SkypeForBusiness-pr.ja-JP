@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での仲介サーバーの展開ガイドライン
+title: 仲介サーバーの展開Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: このトピックでは、仲介サーバーの展開の計画ガイドラインについて説明します。
-ms.openlocfilehash: ffb60abaf3027541f13fe73294eafda51e5d1d0f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 693a24f6e71b2eee0a3b2881295b65087fe50bf25b03a2647df6df970509f26e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118536"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317462"
 ---
-# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Skype for Business Server での仲介サーバーの展開ガイドライン
+# <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>仲介サーバーの展開Skype for Business Server
  
 このトピックでは、仲介サーバーの展開の計画ガイドラインについて説明します。
   
 ## <a name="collocated-or-stand-alone-mediation-server"></a>コロケーションまたはスタンドアロン仲介サーバー
 
-仲介サーバーは、既定では、Standard Edition サーバーまたは中央サイトのフロント エンド プールのフロント エンド サーバーに関連付けされます。 処理できる公衆交換電話網 (PSTN) 通話の数と、プールで必要なコンピューターの数は、次に依存します。
+仲介サーバーは、既定では、中央サイトStandard Editionフロント エンド プールのフロント エンド サーバーまたはフロント エンド サーバー上に表示されます。 処理できる公衆交換電話網 (PSTN) 通話の数と、プールで必要なコンピューターの数は、次に依存します。
   
 - 仲介サーバー プールが制御するゲートウェイ ピアの数。
     
@@ -42,20 +42,20 @@ ms.locfileid: "51118536"
     
 - プール内の仲介サーバーからのトラフィックを受け入れる。
     
-Skype for Business Planning Tool を使用して、仲介サーバーをフロントエンド プールと照合して負荷を処理できるかどうかを評価できます。 環境がこれらの要件を満たできない場合は、スタンドアロンの仲介サーバー プールを展開する必要があります。
+この計画ツールSkype for Business使用して、仲介サーバーをフロントエンド プールと照合して負荷を処理できるかどうかを評価できます。 環境がこれらの要件を満たできない場合は、スタンドアロンの仲介サーバー プールを展開する必要があります。
   
 ## <a name="central-site-and-branch-site-considerations"></a>中央サイトとブランチ サイトに関する考慮事項
 
  中央サイトの仲介サーバーを使用して、ブランチ サイトの IP-PBX ゲートウェイまたは PSTN ゲートウェイの通話をルーティングできます。 ただし、SIP トランクを展開する場合は、各トランクが終了するサイトに仲介サーバーを展開する必要があります。 中央サイト ルートで仲介サーバーを使用すると、ブランチ サイトで IP-PBX または PSTN ゲートウェイが呼び出されますが、メディア バイパスを使用する必要は生じしませんが、メディア バイパスをお勧めします。 これは、メディア バイパスを有効にできると、メディア パスの待機時間が短縮され、その結果、メディア パスが信号パスに従う必要がないので、メディア品質が向上します。 メディア バイパスにより、プールの処理負荷も軽減することができます。
   
 > [!NOTE]
-> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用する必要があります。 Microsoft は、認定パートナーと一緒に一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行いました。 メディア バイパスは [、Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog)エクスペリエンスをサポートおよび拡張するテスト済みデバイス、インフラストラクチャ、およびツールの探索で、ユニファイド コミュニケーション Open 相互運用性プログラム - Lync Server に記載されている製品およびバージョンでのみサポートされます。 
+> メディア バイパスは、すべての PSTN ゲートウェイ、IP-PBX、および SBC と相互運用する必要があります。 Microsoft は、認定パートナーと一緒に一連の PSTN ゲートウェイと SBC をテストし、Cisco IP-PBX でいくつかのテストを行いました。 メディア バイパスは、Unified Communications Open Interoperability Program - Lync Server でテスト済みデバイス、インフラストラクチャ、および Skype for Business エクスペリエンスをサポートおよび拡張するツールに記載されている製品[とバージョンでのみサポート](http://partnersolutions.skypeforbusiness.com/solutionscatalog)されます。 
   
-ブランチ サイトの復元が必要な場合は、存続可能ブランチ アプライアンスまたはフロント エンド サーバー、仲介サーバー、およびゲートウェイの組み合わせをブランチ サイトに展開する必要があります。 (ブランチ サイトの復元の前提は、プレゼンスと会議がサイトで回復性を持たないという前提です)。音声のブランチ サイト計画のガイダンスについては [、「Plan for エンタープライズ VoIP Skype for Business Server」を参照してください](../enterprise-voice-solution/enterprise-voice-resiliency.md)。
+ブランチ サイトの復元が必要な場合は、存続可能ブランチ アプライアンスまたはフロント エンド サーバー、仲介サーバー、およびゲートウェイの組み合わせをブランチ サイトに展開する必要があります。 (ブランチ サイトの復元の前提は、プレゼンスと会議がサイトで回復性を持たないという前提です)。音声のブランチ サイト計画のガイダンスについては、「[プラン for エンタープライズ VoIP復元」を参照](../enterprise-voice-solution/enterprise-voice-resiliency.md)Skype for Business Server。
   
 IP-PBX とのやり取りでは、IP-PBX が複数の早期ダイアログや RFC 3960 の対話による初期のメディア操作を正しくサポートしていない場合は、IP-PBX から Lync エンドポイントへの着信呼び出しに対する最初の数語の案内応答がクリッピングされる可能性があります。 中央サイトの仲介サーバーがブランチ サイトでルートが終了する IP-PBX の通話をルーティングしている場合、信号が完了するのにより長い時間が必要になるため、この動作はさらに深刻になります。 この動作が発生した場合、最初の数語のクリッピングを減らす唯一の方法は、ブランチ サイトに仲介サーバーを展開することです。
   
 また、中央サイトに TDM PBX がある場合や、IP-PBX によって PSTN ゲートウェイの必要性がなくならない場合は、仲介サーバーおよび PBX に接続する通話ルートにゲートウェイを展開する必要があります。
   
 > [!NOTE]
-> スタンドアロン仲介サーバーのメディア パフォーマンスを向上させるために、これらのサーバー上のネットワーク アダプターで受信側スケーリング (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については[、「Windows Server での受信側スケーリングの強化」を参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。 
+> スタンドアロン仲介サーバーのメディア パフォーマンスを向上させるために、これらのサーバー上のネットワーク アダプターで受信側スケーリング (RSS) を有効にする必要があります。 RSS は、着信パケットがサーバーの複数のプロセッサによって平行して処理されるのを可能にします。 詳細については[、「Receive-Side Scaling Enhancements in Windows」を参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))。 RSS を有効にする方法の詳細については、ネットワーク アダプターのドキュメントを参照してください。 

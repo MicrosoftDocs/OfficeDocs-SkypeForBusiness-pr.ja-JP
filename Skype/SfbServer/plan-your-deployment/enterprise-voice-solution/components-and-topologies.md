@@ -1,5 +1,5 @@
 ---
-title: Skype for Business での通話受付管理のコンポーネントとトポロジ
+title: 通話受付管理のコンポーネントとトポロジは、Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: MPLS ネットワーク、SIP トランク、またはサード パーティの PSTN ゲートウェイまたは PBX がある場合の通話受付管理 (CAC) の計画。 Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 771b98e10c28248bc917bff2b8128b6258c140c5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: MPLS ネットワーク、SIP トランク、またはサード パーティの PSTN ゲートウェイまたは PBX がある場合の通話受付管理 (CAC) の計画。 この値は、Skype for Business Server エンタープライズ VoIP。
+ms.openlocfilehash: 33e13853e4c2ed9ab9cab328092f7bc44147607187c8f221993d88cb4114a6d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109193"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315553"
 ---
-# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Skype for Business での通話受付管理のコンポーネントとトポロジ
+# <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>通話受付管理のコンポーネントとトポロジは、Skype for Business
 
-MPLS ネットワーク、SIP トランク、またはサード パーティの PSTN ゲートウェイまたは PBX がある場合の通話受付管理 (CAC) の計画。 Skype for Business Server エンタープライズ VoIP。
+MPLS ネットワーク、SIP トランク、またはサード パーティの PSTN ゲートウェイまたは PBX がある場合の通話受付管理 (CAC) の計画。 この値は、Skype for Business Server エンタープライズ VoIP。
 
 このセクションのトピックでは、通話受付管理 (CAC) をさまざまな種類のネットワーク トポロジで展開する際に特に考慮する点について説明します。
 
@@ -55,12 +55,12 @@ SIP トランクに通話受付管理 (CAC) を展開するには、インター
 
 SIP トランクに CAC を構成するには、CAC の展開時に次の作業を行う必要があります。
 
-1. ITSP を表すためのネットワーク サイトを作成します。 ネットワーク サイトを適切なネットワーク地域に関連付けて、このネットワーク サイトの音声とビデオにゼロの帯域幅を割り当てます。 詳細については、「展開」のドキュメントの「[Configure Network Sites for CAC](/previous-versions/office/lync-server-2013/lync-server-2013-configure-network-sites-for-cac)」を参照してください。
+1. ITSP を表すためのネットワーク サイトを作成します。 ネットワーク サイトを適切なネットワーク地域に関連付けて、このネットワーク サイトの音声とビデオにゼロの帯域幅を割り当てます。詳細については、「展開」のドキュメントの「[Configure Network Sites for CAC](/previous-versions/office/lync-server-2013/lync-server-2013-configure-network-sites-for-cac)」を参照してください。
 
     > [!NOTE]
     > ITSP では、このネットワーク サイト構成は機能しません。 帯域幅ポリシーの値は、手順 2 で実際に適用されます。
 
-2. 手順 1 で作成したサイトの関連するパラメーター値を使用して、SIP トランクのサイト間リンクを作成します。 たとえば、企業内のネットワーク サイトの名前を NetworkSiteID1 パラメーターの値として使用し、ITSP ネットワーク サイトの名前を NetworkSiteID2 パラメーターの値として使用します。 詳細については、「展開」のドキュメントの [「Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) でネットワーク間サイト ポリシーを作成する」および [「New-CsNetworkInterSitePolicy」を参照してください](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。
+2. 手順 1 で作成したサイトの関連するパラメーター値を使用して、SIP トランクのサイト間リンクを作成します。 たとえば、企業内のネットワーク サイトの名前を NetworkSiteID1 パラメーターの値として使用し、ITSP ネットワーク サイトの名前を NetworkSiteID2 パラメーターの値として使用します。 詳細については、「展開」のドキュメントの「Skype for Business Serverサイト間ポリシー[の](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md)作成」および[「New-CsNetworkInterSitePolicy」を参照してください](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。
 
 3. ITSP からセッション ボーダー コントローラー (SCB) メディアターミネーション ポイントの IP アドレスを取得します。 サブネット マスクが 32 の IP アドレスを、ITSP を表すネットワーク サイトに追加します。 詳細については、「[Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)」を参照してください。
 
@@ -76,9 +76,9 @@ CAC は、仲介サーバーのゲートウェイ インターフェイスから
 
 ![ケース 1: 仲介サーバー PSTN ゲートウェイ間の CAC](../../media/CAC_gateways_1.jpg)
 
-この例では、仲介サーバーと PSTN ゲートウェイの間に CAC が適用されます。 ネットワーク サイト 1 の Skype for Business クライアント ユーザーがネットワーク サイト 2 の PSTN ゲートウェイを介して PSTN 通話を行う場合、メディアは WAN リンクを流れます。 したがって、PSTN セッションごとに 2 つの CAC チェックが実行されます。
+この例では、仲介サーバーと PSTN ゲートウェイの間に CAC が適用されます。 ネットワーク サイト 1 Skype for Businessクライアント ユーザーがネットワーク サイト 2 の PSTN ゲートウェイを介して PSTN 通話を発信すると、メディアは WAN リンクを経由して流れます。 したがって、PSTN セッションごとに 2 つの CAC チェックが実行されます。
 
-- Skype for Business クライアント アプリケーションと仲介サーバーの間
+- クライアント アプリケーションSkype for Business仲介サーバーの間
 
 - 仲介サーバーと PSTN ゲートウェイの間
 
@@ -101,9 +101,9 @@ CAC は、仲介サーバーのゲートウェイ インターフェイスから
 
 ![ケース 2: 仲介サーバー PBX と MTP の間の CAC](../../media/CAC_gateways_2.jpg)
 
-この例では、仲介サーバーと PBX/MTP の間に CAC が適用されます。 ネットワーク サイト 1 の Skype for Business クライアント ユーザーが、ネットワーク サイト 2 にある PBX/MTP を介して PSTN 通話を行う場合、メディアは WAN リンクを流れます。 したがって、PSTN セッションごとに、次の 2 つの CAC チェックが実行されます。
+この例では、仲介サーバーと PBX/MTP の間に CAC が適用されます。 ネットワーク サイト 1 Skype for Businessクライアント ユーザーがネットワーク サイト 2 にある PBX/MTP を介して PSTN 通話を行う場合、メディアは WAN リンクを経由して流れます。 したがって、PSTN セッションごとに、次の 2 つの CAC チェックが実行されます。
 
-- Skype for Business クライアント アプリケーションと仲介サーバーの間
+- クライアント アプリケーションSkype for Business仲介サーバーの間
 
 - 仲介サーバーと PBX/MTP の間
 

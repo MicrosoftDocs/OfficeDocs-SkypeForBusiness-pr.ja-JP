@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
-description: tblComplianceState には、プール全体のコンプライアンス状態情報が含まれている。
-ms.openlocfilehash: 82c775b315976b0e5b112c476a41a8f5adc6a24c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: tblComplianceState には、プール全体のコンプライアンス状態情報が含まれる。
+ms.openlocfilehash: c9027068550b4320e1e7d170ee23b6cb6e060d6162583132f927c720c09d6ebe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809727"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315423"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  
-tblComplianceState には、プール全体のコンプライアンス状態情報が含まれている。
+tblComplianceState には、プール全体のコンプライアンス状態情報が含まれる。
   
 **Columns**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
 |lastProcessedEntryID  <br/> |NULL でない bigint  <br/> |処理された最新のコンプライアンス イベントの ID。  <br/> |
-|activeServerID  <br/> |NULL でない int  <br/> |データベースの排他ロックを保持しているコンプライアンス サーバーの ID。存在しない場合は -1。  <br/> |
-|lockExpirationTime  <br/> |null ではない datetime2  <br/> |ロックの有効期限 (activeServerID が -1 ではない場合)。  <br/> |
+|activeServerID  <br/> |NULL でない int  <br/> |データベースの排他ロックを保持しているコンプライアンス サーバーの ID、またはなしの場合は -1。  <br/> |
+|lockExpirationTime  <br/> |datetime2(null ではない)  <br/> |ロックの有効期限 (activeServerID が -1 ではない場合)。  <br/> |
    
 

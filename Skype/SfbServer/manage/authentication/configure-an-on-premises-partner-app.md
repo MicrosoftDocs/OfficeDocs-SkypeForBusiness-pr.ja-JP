@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のオンプレミス パートナー アプリケーションを構成する
+title: オンプレミス のパートナー アプリケーションを構成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
-description: '概要: Skype for Business Server のオンプレミス パートナー アプリケーションを構成します。'
-ms.openlocfilehash: 82db666dbbd94fdae8a99bca13954d33d6d5805f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: オンプレミス のパートナー アプリケーションを構成して、Skype for Business Server。'
+ms.openlocfilehash: 794960a454d1028845820218d04b85e7faef17296417118217628d725e4dc815
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315693"
 ---
-# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Skype for Business Server のオンプレミス パートナー アプリケーションを構成する
+# <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>オンプレミス のパートナー アプリケーションを構成Skype for Business Server
  
-**概要:** Skype for Business Server のオンプレミス パートナー アプリケーションを構成します。
+**概要:** オンプレミス のパートナー アプリケーションを構成して、Skype for Business Server。
   
-OAuthTokenIssuer 証明書を割り当てた後、Skype for Business Server パートナー アプリケーションを構成する必要があります。 (説明する手順では、Microsoft Exchange Server 2013 と SharePoint の両方がパートナー アプリケーションとして機能し、オプションです。オンプレミスのパートナー アプリケーションを構成するには、まず次の Windows PowerShell スクリプトをコピーし、コードをメモ帳 (または他のテキスト エディター) に貼り付けます。
+OAuthTokenIssuer 証明書を割り当てた後で、パートナー アプリケーションSkype for Business Serverする必要があります。 (説明する手順では、2013 年と 2013 年Microsoft Exchange Serverおよび SharePointの両方がパートナー アプリケーションとして機能します。これはオプションです)。オンプレミスのパートナー アプリケーションを構成するには、まず、次の Windows PowerShell スクリプトをコピーし、コードを メモ帳 (または他のテキスト エディター) に貼り付けます。
   
 ```PowerShell
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -74,7 +74,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-コードをコピーした後、スクリプトを .PS1 ファイル拡張子を使用して保存します (例: C:\Scripts\ServerToServerAuth.ps1)。 このスクリプトを実行する前に、メタデータ URL と https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 、Exchange 2013 サーバーと SharePoint サーバーで使用されるメタデータ URL をそれぞれ置き換える必要があります。 それぞれの製品のメタデータ URL を識別する方法については、Exchange 2013 および SharePoint の製品ドキュメントを参照してください。
+コードをコピーした後、スクリプトを .PS1 ファイル拡張子を使用して保存します (例: C:\Scripts\ServerToServerAuth.ps1)。 このスクリプトを実行する前に、メタデータ URL と、それぞれ https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 Exchange 2013 および SharePoint サーバーで使用されるメタデータ URL に置き換える必要があります。 http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 各製品のメタデータ URL をExchangeする方法については、SharePoint 2013 および SharePointの製品ドキュメントを参照してください。
   
 このスクリプトの最後の行で、Set-CsOAuthConfiguration コマンドレットが次の構文で呼び出されます。
   
@@ -88,13 +88,13 @@ Set-CsOAuthConfiguration を呼び出すときに Realm パラメーターが使
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-これらの変更を行った後、Skype for Business Server 管理シェル内からスクリプト ファイルを実行して、スクリプトを実行し、Exchange 2013 と SharePoint の両方をパートナー アプリケーションとして構成できます。 例:
+これらの変更を行った後、スクリプトを実行し、Exchange 管理シェル内からスクリプト ファイルを実行して、Exchange 2013 と SharePoint Skype for Business Server の両方をパートナー アプリケーションとして構成できます。 次に例を示します。
   
 ```PowerShell
 C:\Scripts\ServerToServerAuth.ps1
 ```
 
-このスクリプトは、Exchange 2013 と SharePoint Server の両方がインストールされていない場合でも実行できます。SharePoint Server がインストールされていない場合でも、SharePoint Server をパートナー アプリケーションとして構成しても問題は発生しません。
+Exchange 2013 と SharePoint Server の両方がインストールされていない場合でも、このスクリプトを実行できます。SharePoint Server がインストールされていない場合でも、SharePoint Server をパートナー アプリケーションとして構成しても問題は発生しません。
   
 このスクリプトを実行したときに、次のようなエラー メッセージが表示されることがあります。
   
@@ -104,9 +104,9 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 このエラー メッセージは、通常は次の 2 つのどちらかを意味します。1) スクリプトに指定されたいずれかの URL が無効である (いずれかのメタデータ URL が実際のメタデータ URL ではない)。または、2) いずれかのメタデータ URL に接続できない。これが発生した場合は、URL が正しいこと、およびアクセス可能であることを確認し、スクリプトを再実行します。
   
-Skype for Business Server のパートナー アプリケーションを作成した後、Skype for Business Server を Exchange 2013 のパートナー アプリケーションとして構成する必要があります。 Exchange 2013 のパートナー アプリケーションを構成するには、次のスクリプトを実行Configure-EnterprisePartnerApplication.ps1。行う必要があるのは、Skype for Business Server のメタデータ URL を指定し、Skype for Business Server が新しいパートナー アプリケーションかどうかを示す方法です。 
+パートナー アプリケーションを作成した後、Skype for Business Server 2013 のパートナー アプリケーションSkype for Business Server構成する必要があります。Exchange。 2013 年のパートナー アプリケーションをExchangeするには、スクリプト を実行Configure-EnterprisePartnerApplication.ps1。必要なのは、新しいパートナー アプリケーションのメタデータ URL をSkype for Business Serverし、Skype for Business Serverを指定する必要があります。 
   
-Skype for Business Server を Exchange のパートナー アプリケーションとして構成するには、Exchange 管理シェルを開き、次のようなコマンドを実行します。
+パートナー アプリケーションSkype for Business Serverを構成するには、Exchange管理シェルExchange開き、次のようなコマンドを実行します。
   
 ```PowerShell
 "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://SkypePro.contoso.com/metadata/json/1" -ApplicationType "Lync"

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74974f7b94a5d1bcadb340e132dae9e3b39a7704
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 2bec8b60385185cf1e7417fb5396ef164eb585bad03d003eb174d0bb9cf30c4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856326"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315303"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>チームの動的なメンバーシップの概要
 
@@ -33,7 +33,7 @@ Microsoft Teamsは、動的メンバーシップ を使用してMicrosoft 365グ
 - 大学は、頻繁に変更される非常勤教員を含め、特定の大学内のすべての教職員のチームを作成できます。
 - 航空会社は、各フライト (シカゴからアトランタへの火曜日の午後の非停止など) のチームを作成し、必要に応じて頻繁に変更されるフライト の乗務員を自動的に割り当てたり削除したりしたいと考える場合があります。
 
-この機能を使用すると、特定のチームのメンバーは、メンバーシップを手動で管理するのではなく、特定の条件セットに基づいて自動的に更新されます。 これを行うには、Azure AD プレミアム P1 ライセンスとチーム メンバーシップ[](/azure/active-directory/users-groups-roles/groups-dynamic-membership)をテナント管理者が、テナントと管理者アカウントを持っている場合は、任意のユーザーの Azure AD プロパティに割り当てることができます。
+この機能を使用すると、特定のチームのメンバーは、メンバーシップを手動で管理するのではなく、特定の条件セットに基づいて自動的に更新されます。 これを行うには、Azure AD Premium P1 ライセンスとチーム メンバーシップをテナント[](/azure/active-directory/users-groups-roles/groups-dynamic-membership)管理者が、テナントと管理者アカウントを持っている場合は、任意のユーザーの Azure AD プロパティに割り当て可能である必要があります。
 
 Microsoft Teamsチームの Microsoft 365 グループで有効にした動的メンバーシップの変更を反映するには、数分から最大 2 時間かかる場合があります。
 

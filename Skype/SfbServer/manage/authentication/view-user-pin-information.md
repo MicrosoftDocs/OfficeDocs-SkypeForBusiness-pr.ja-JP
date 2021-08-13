@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でユーザーの PIN 情報を表示する
+title: '[ユーザーの PIN 情報を表示する] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-description: '概要: Skype for Business Server でユーザーの PIN 情報を表示します。'
-ms.openlocfilehash: c016e6edf258f63166b930be833542bf9e730f15
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: ユーザーの PIN 情報をユーザーに表示Skype for Business Server。'
+ms.openlocfilehash: 1b280f4e00bacab5c7def0d6ff6c274f64d9ef8651b6d2b0d328867260e77449
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315643"
 ---
-# <a name="view-user-pin-information-in-skype-for-business-server"></a>Skype for Business Server でユーザーの PIN 情報を表示する
+# <a name="view-user-pin-information-in-skype-for-business-server"></a>[ユーザーの PIN 情報を表示する] Skype for Business Server
  
-**概要:** Skype for Business Server でユーザーの PIN 情報を表示します。
+**概要:**[ユーザーの PIN 情報を表示する] Skype for Business Server。
   
-認証されたユーザーとしてダイヤルイン会議に参加するには、Active Directory ドメイン サービス (AD DS) 資格情報を持つ Skype for Business Server ユーザーに個人識別番号 (PIN) が必要です。 Skype for Business Server コントロール パネルからユーザーの PIN 情報を表示できます。
+認証されたユーザーとしてダイヤルイン会議に参加するには、Active Directory ドメイン サービス (AD DS) 資格情報を持つ Skype for Business Server ユーザーに個人識別番号 (PIN) が必要です。 コントロール パネルからユーザーの PIN 情報Skype for Business Server表示できます。
   
 > [!NOTE]
-> PIN が設定されているかどうかや PIN の最終変更日時などの PIN 状態情報を表示することはできますが、PIN の状態を調べても最新の PIN は確認できません。 ユーザーが PIN を紛失した場合は[、「Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)でユーザーのダイヤルイン会議 PIN を設定する」の手順に従ってリセットできます。
+> PIN が設定されているかどうかや PIN の最終変更日時などの PIN 状態情報を表示することはできますが、PIN の状態を調べても最新の PIN は確認できません。 ユーザーが PIN を紛失した場合は、「ユーザーのダイヤルイン会議 PIN を設定する」の手順に従って[、PIN](set-a-user-s-dial-in-conferencing-pin.md)をリセットSkype for Business Server
   
-### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルでユーザーの PIN を表示するには
+### <a name="to-view-a-users-pin-in-skype-for-business-server-control-panel"></a>[コントロール パネル] でユーザーの PIN Skype for Business Serverするには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
     
@@ -65,11 +65,11 @@ ms.locfileid: "51099223"
     
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>ユーザーの PIN 情報を表示する方法 (Windows PowerShellコマンドレットを使用)
 
-Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN 情報を表示できます。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、Skype for Business Server でも同じです。
+Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN 情報を表示できます。 このコマンドレットは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-view-user-pin-information"></a>ユーザーの PIN 情報を表示するには
 
-ユーザーの PIN 情報を表示するには、Skype for Business Server 管理シェルに次のようなコマンドを入力し、Enter キーを押します。
+ユーザーの PIN 情報を表示するには、次のようなコマンドを [管理シェル] に入力Skype for Business Server Enter キーを押します。
     
   ```PowerShell
   Get-CsClientPinInfo -Identity "Ken Myer"
@@ -89,6 +89,6 @@ PinExpirationTime :
   
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server でユーザーのダイヤルイン会議 PIN を設定する](set-a-user-s-dial-in-conferencing-pin.md)
+[ユーザーのダイヤルイン会議の PIN を設定Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
-[Skype for Business Server でユーザー PIN をロックまたはロック解除する](lock-or-unlock-a-user-pin.md)
+[ユーザーの PIN をロックまたはロック解除Skype for Business Server](lock-or-unlock-a-user-pin.md)

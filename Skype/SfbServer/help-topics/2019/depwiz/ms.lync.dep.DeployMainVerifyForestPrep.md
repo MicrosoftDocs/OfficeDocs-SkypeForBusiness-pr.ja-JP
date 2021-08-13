@@ -14,27 +14,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
-description: フォレストの準備中にグローバル カタログのレプリケーションとオブジェクトの作成が正常に行されたことを確認するには、次の手順を実行します。
-ms.openlocfilehash: 299b738bbfa14ad13825e5c08e87c03167c9f4cc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: フォレストの準備中にグローバル カタログのレプリケーションとオブジェクトの作成が成功したことを確認するには、次の手順を実行します。
+ms.openlocfilehash: 08447b011ba16aadbda39b2ff89edc47db56c714d6933d5467757e2c45abde7a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317832"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>フォレスト準備のレプリケーションの確認
  
-フォレストの準備中にグローバル カタログのレプリケーションとオブジェクトの作成が正常に行されたことを確認するには、次の手順を実行します。
+フォレストの準備中にグローバル カタログのレプリケーションとオブジェクトの作成が成功したことを確認するには、次の手順を実行します。
   
-1. ドメイン コントローラー (他のドメイン コントローラーからのリモート サイトが望ましい) で、フォレストの準備が実行されたフォレストで、Active Directory ユーザーとコンピューター **を開きます**。
+1. ドメイン コントローラー (できれば、他のドメイン コントローラーからのリモート サイト) で、フォレスト準備が実行されたフォレストで **、Active Directory Users** and Computers を開きます。
     
 2. **[Active Directory ユーザーとコンピューター]** で、フォレストまたは子ドメインのドメイン名を展開します。
     
-3. 左側の **ウィンドウで Users** コンテナーをクリックし、右側のウィンドウでユニバーサル グループ CsAdministrator を探します。 CsAdministrator (Cs で始まる他の 8 つの新しいユニバーサル グループ間) が存在する場合、フォレストの準備のレプリケーションは成功しています。
+3. 左側の **ウィンドウで [Users]** コンテナーをクリックし、右側のウィンドウでユニバーサル グループ CsAdministrator を探します。 CsAdministrator (Cs で始まる 8 つの新しいユニバーサル グループの中で) が存在する場合、フォレスト準備のレプリケーションが成功しました。
     
 4. グループが表示されていない場合、レプリケーションを強制的に実行するか、15 分待ってから右側のウィンドウを更新することができます。グループが表示されている場合、レプリケーションは完了しています。
     
 > [!TIP]
-> Skype for Business Server 展開ウィザードによって作成されたログ ファイルを確認する場合は、展開ウィザードが実行されたコンピューターの手順を実行した Active Directory ドメイン サービス ユーザーの Users ディレクトリでログ ファイルを見つける必要があります。 たとえば、ユーザーがドメイン Contoso.net でドメイン管理者としてログインした場合、ログ ファイルは C:\Users\Administrator.Contoso\AppData\Local\Temp にあります。 
+> Skype for Business Server 展開ウィザードによって作成されたログ ファイルを確認する場合は、展開ウィザードが実行されたコンピューターで、手順を実行した Active Directory ドメイン サービス ユーザーの Users ディレクトリにあります。 たとえば、ユーザーがドメイン Contoso.net でドメイン管理者としてログインした場合、ログ ファイルは C:\Users\Administrator.Contoso\AppData\Local\Temp にあります。 
   
 

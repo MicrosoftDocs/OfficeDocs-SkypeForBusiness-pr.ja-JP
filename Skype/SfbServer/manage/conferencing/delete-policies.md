@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での会議ポリシーの削除
+title: 会議ポリシーを削除するSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
-description: '概要: Skype for Business Server で会議ポリシーを削除する方法について説明します。'
-ms.openlocfilehash: 9aadaf82aea7f057cf1969f06d4257992b64a86a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 会議ポリシーを削除する方法については、Skype for Business Server。'
+ms.openlocfilehash: 76648fed55f01790e2e81f8683dedde4c24ac0cdfcff956f7813735872c801eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119506"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315623"
 ---
-# <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Skype for Business Server での会議ポリシーの削除
+# <a name="delete-conferencing-policies-in-skype-for-business-server"></a>会議ポリシーを削除するSkype for Business Server
  
-**概要:** Skype for Business Server で会議ポリシーを削除する方法について説明します。
+**概要:** 会議ポリシーを削除する方法については、Skype for Business Server。
   
-会議ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して削除できます。
+会議ポリシーは、コントロール パネルまたは管理シェルSkype for Business Server使用して削除Skype for Business Serverできます。
   
-## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議ポリシーを削除する
+## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用して会議Skype for Business Server削除する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー] **をクリックします**。
     
 4. 会議ポリシーの一覧で、削除するサイトまたはユーザー ポリシーをクリックし、[編集] をクリックし、[削除] を **クリックします**。
     
-## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議ポリシーを削除する
+## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議ポリシー Skype for Business Server削除する
 
 会議ポリシーを削除するには **、Remove-CsConferencingPolicy コマンドレットを使用** します。
   

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 description: このエッジ プールのパブリック IP アドレスをネットワーク アドレス変換 (NAT) によって変換する場合は、変換されるパブリック IP アドレスを指定する必要があります。これは、音声ビデオ エッジ サービスの外部 IP アドレスです。
-ms.openlocfilehash: 2b75bfc11d7114601f0d8fa9445afb6687d7a032
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cbb0d7dc61c175906e54f9121c9d84c6be0d33e5ad8bd10d32ab24a1ae2aea0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828727"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303859"
 ---
 # <a name="add-edge-machine-nat-ip"></a>エッジ コンピューター NAT IP の追加
  
