@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 外部の企業やクライアントがコールインできるよう、Teamsの電話番号を割り当て、変更、または削除する方法について学習します。
-ms.openlocfilehash: 4f40049b3856f24d3ae5ddd3999be7213817bcdc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 443fdb5833e657c3f45c0f53d1d4ce6744bd67b0b83247e72084e3d29f6c1bc7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120819"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320030"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>ユーザーの電話番号を割り当て、変更、または削除する (通話プラン)
 
@@ -38,7 +38,7 @@ ms.locfileid: "51120819"
 Teams で通話プランを取得する方法と料金については[、「Teams」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 > [!NOTE]
-> ユーザーにライセンスが割り当てられているかどうかを確認する方法の 1 つは、管理センターの [ユーザー] Microsoft Teamsに>**です**。 ライセンスが割り当てられている場合は、ページに表示されます。  また、管理センター Microsoft 365使用できます。
+> ユーザーにライセンスが割り当てられているかどうかを確認する方法の 1 つは、管理センターの [ユーザー] Microsoft Teamsに>**です**。 ライセンスが割り当てられている場合は、ページに表示されます。  また、次のMicrosoft 365 管理センター。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>ユーザーに電話番号を割り当てる
  
@@ -85,7 +85,7 @@ PowerShell の例については [、Set-CsOnlineVoiceUser に関するページ
 
 PowerShell の例については [、Set-CsOnlineVoiceUser に関するページを参照してください](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [住所検証とは何ですか?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

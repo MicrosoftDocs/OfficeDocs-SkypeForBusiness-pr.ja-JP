@@ -16,12 +16,12 @@ search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f0177437f992bf7fce9a94eb09e5dc3861aeb00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.openlocfilehash: 0bb2924eddd957e2a56548df4426b74e782af56dc9e727142b17869e6630e273
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318630"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -36,7 +36,7 @@ Microsoft では、今回の新型コロナウイルス感染症 (COVID-19) 発�
 > [!NOTE]
 > すでに Microsoft 365 をセットアップしていて、Microsoft が行っている操作について詳しく知りたい場合は、メッセージ センターにアクセスして、**MC205458** メッセージ センターの投稿を確認してください。
 
-Microsoft 365 担当コーポレート バイス プレジデントの Jared Spataro による 2020 年 3 月 5 日のブログ投稿「[Our commitment to customers during COVID-19 (新型コロナウイルス感染症発生中における、お客様への取り組み)](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)」をぜひご覧ください。
+Microsoft 365 担当コーポレート バイス プレジデントの Jared Spataro による 2020 年 3 月 5 日のブログ投稿「[Our commitment to customers during COVID-19 (新型コロナウイルス感染症発生中における、お客様への取り組み)](https://www.microsoft.com/ja-JP/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)」をぜひご覧ください。
 
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Microsoft が措置を講じているということは、問題は何も発生しないということですか?
@@ -81,7 +81,7 @@ Teams は、いくつかのプログラムで無料で提供されています�
 
 - 教育機関の場合、教員、生徒、事務職員を Teams でセットアップするには、教育機関に提供されている無料版の Office 365 である、Office 365 A1 を使用してください。 [https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) でサインアップします。
 
-### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Microsoft 365 を持っていますが、Teams を使っていません。 Teams の試用版ライセンスは提供されていますか?
+### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Microsoft 365 を持っていますが、Teams を使っていません。Teams の試用版ライセンスは提供されていますか?
 
 Microsoft 365 をお持ちの場合は、既に Teams をお持ちです。 すべてのユーザーに対して、[Teams を有効にする](Office-365-set-up.md)ことができます。 Teams を有効にすると、ユーザーは Teams を実行できるようになります。[デスクトップ クライアント](get-clients.md#desktop-client)または[モバイル クライアント](get-clients.md#mobile-clients)をインストールする方法と、[ブラウザーを使用](get-clients.md#mobile-clients)して [https://teams.microsoft.com](https://teams.microsoft.com) から実行する方法があります。 
 

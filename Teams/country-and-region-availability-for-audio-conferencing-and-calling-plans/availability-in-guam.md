@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下に、Microsoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
-ms.openlocfilehash: 46e29df9990c6631c71a748ed51073549c533c9a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d37de29936565afa0b6e23c70d6f91f8ee06896a742ea68f7f20ef17248fa974
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118045"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320000"
 ---
 # <a name="availability-in-guam"></a>グアムでの空き時間情報
 
@@ -82,7 +82,7 @@ ms.locfileid: "51118045"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

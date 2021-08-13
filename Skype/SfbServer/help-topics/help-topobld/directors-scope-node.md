@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
-description: '[ディレクター プール] ノードには、トポロジ内のディレクター プールが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: f63d37df66f0c439138fc578d412374053a88a6d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[ディレクター プール] ノードには、トポロジ内のディレクター プールが一覧表示されます。以下のアクションを実行できます。'
+ms.openlocfilehash: b3adafa86270b027b08f9108a793624a3305bbda6e32675d5cc211573baa9bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810317"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333649"
 ---
 # <a name="directors-scope-node"></a>ディレクターのスコープ ノード
  
@@ -30,7 +30,7 @@ ms.locfileid: "49810317"
     
 ディレクター プール オプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、以前のバージョンのコンポーネントの結合、または展開の削除を行います。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンのコンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

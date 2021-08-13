@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 既存のディレクターの設定を編集するために、以下のセクションが表示されます。
-ms.openlocfilehash: b7478779e54a7860726ae967eb1e203625c8b17b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f928061059ac17ccebf06705f3862440f19e8e06632dcfdfbbf4e01581fa8e6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835337"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333679"
 ---
 # <a name="director-general-settings-expander"></a>ディレクターの全般設定エキスパンダー
  
@@ -52,7 +52,7 @@ SQL Server ストアの監視。
 [**内部 Web サービス**] では、次の情報を指定できます。
   
 > [!CAUTION]
-> 複数のフロントエンド プールまたはフロントエンド サーバーがある場合、外部 Web サービスの FQDN は一意である必要があります。 たとえば、フロントエンド サーバーの外部 Web サービス FQDN を **pool01.contoso.com** として定義する場合、別のフロントエンド プールまたはフロントエンド サーバーに **pool01.contoso.com** を使用することはできません。 ディレクターも展開する場合、ディレクターまたはディレクター プールに対して定義された外部 Web サービスの FQDN は、他のディレクターまたはディレクター プール、およびフロントエンド プールまたはフロントエンド サーバーから一意である必要があります。 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。
+> 複数のフロント エンド プールまたはフロント エンド サーバーがある場合、外部 Web サービスの FQDN は一意である必要があります。 たとえば、フロントエンド サーバーの外部 Web サービス FQDN を **pool01.contoso.com** として定義する場合、別のフロントエンド プールまたはフロント エンド サーバーに pool01.contoso.com を使用することはできません。 ディレクターも展開する場合、ディレクターまたはディレクター プールに対して定義される外部 Web サービス FQDN は、他のディレクターまたはディレクター プール、およびフロント エンド プールまたはフロント エンド サーバーから一意である必要があります。 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。
   
 [FQDN のオーバーライド] を選択する場合は、プールの内部 Web サービス ID として別の FQDN を指定できます。既定では、この設定はディレクター プールに定義されている現在のプール名です。
   

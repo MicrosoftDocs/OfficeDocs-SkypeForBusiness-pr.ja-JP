@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
-ms.openlocfilehash: f05efbbd72da66ef251fcee0098d3ead81ef0295
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6b0fcc697e47dfcfa1fa56b73bc706fa045154ce96dce76ff6cfa8417f537a14
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097693"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348392"
 ---
 # <a name="toll-free-dialing-restrictions-in-south-korea"></a>韓国でのフリーダイヤル制限
 

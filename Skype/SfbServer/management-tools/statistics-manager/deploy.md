@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
-description: '概要: Skype for Business Server の統計マネージャーを展開する方法については、このトピックを参照してください。'
-ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: このトピックを参照して、統計マネージャーを展開する方法について説明Skype for Business Server。'
+ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333259"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの展開
  
-**概要:** Skype for Business Server の統計マネージャーを展開する方法については、このトピックを参照してください。
+**概要:** このトピックを参照して、統計マネージャーを展開する方法についてSkype for Business Server。
   
- Skype for Business Server の統計マネージャーは、Skype for Business Server の正常性とパフォーマンス データをリアルタイムで表示できる強力なツールです。 数百のサーバーでパフォーマンス データを数秒ごとにポーリングし、統計マネージャー Web サイトで即座に結果を表示できます。
+ 統計マネージャー for Skype for Business Serverは、正常性データとパフォーマンス データをリアルタイムSkype for Business Server表示できる強力なツールです。 数百のサーバーでパフォーマンス データを数秒ごとにポーリングし、統計マネージャー Web サイトで即座に結果を表示できます。
   
-Statistics Manager のインストールを試みる前に、ソフトウェア、ネットワーク、およびハードウェアの要件に精通していることを確認してください。 詳細については [、「Plan for Statistics Manager for Skype for Business Server」を参照してください](plan.md)。
+Statistics Manager のインストールを試みる前に、ソフトウェア、ネットワーク、およびハードウェアの要件に精通していることを確認してください。 詳細については、「Plan [for Statistics Manager for Skype for Business Server」 を参照してください](plan.md)。
   
 > [!NOTE]
-> 以前のバージョンの Statistics Manager からアップグレードする場合は [、「Upgrade Statistics Manager for Skype for Business Server」を参照してください](upgrade.md)。 
+> 以前のバージョンの Statistics Manager からアップグレードする場合は、「アップグレード統計マネージャー」を参照[Skype for Business Server。](upgrade.md) 
   
 > [!NOTE]
 > Statistics Manager Web サイトは、Internet Explorer 11+、Edge 20.10240+、および Chrome 46+ (現在の常緑樹バージョン) でテストされ、正しく動作します。 
@@ -55,12 +55,12 @@ Statistics Manager を展開するには、次の手順を実行します。
     
 3. ホスト コンピューターに Web サイトをインストールします。
     
-4. 監視する各 Skype for Business Server コンピューターにエージェントをインストールします。
+4. 監視する各コンピューター Skype for Business Serverエージェントをインストールします。
     
 5. 監視しているサーバーのトポロジをインポートします。
     
 > [!NOTE]
-> Redis、Listener サービス、および Web サイトは、すべて同じホスト コンピューターにインストールする必要があります。 ホスト コンピューターに Skype for Business Server がインストールされていることを確認します。 
+> Redis、Listener サービス、および Web サイトは、すべて同じホスト コンピューターにインストールする必要があります。 ホスト コンピューターにインストールされていないSkype for Business Serverしてください。 
   
 ### <a name="prepare-the-listener-host-machine"></a>リスナー ホスト コンピューターを準備する
 
@@ -126,7 +126,7 @@ Statistics Manager を展開するには、次の手順を実行します。
     
 ### <a name="install-the-website"></a>Web サイトのインストール
 
-StatsManWebSite.msi [(Skype for Business Server、Real-Time Statistics Manager (64 ビット)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)に含まれる) を実行し、以下を指定して、ホスト コンピューターに Web サイトをインストールします。
+[StatsManWebSite.msi (Skype for Business Server、Real-Time Statistics Manager (64 ビット)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)に含まれる) を実行し、以下を指定して、ホスト コンピューターに Web サイトをインストールします。
   
 1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を選択し、[次へ] を **クリックします**。 
     
@@ -150,7 +150,7 @@ Web インストーラーは、StatsManWebSiteUsers というローカル セキ
   
 ### <a name="install-the-agents"></a>エージェントのインストール
 
-監視する各 Skype for Business Server にエージェントをインストールするには、次のStatsManPerfAgent.msiを指定します。
+監視する各サーバーにエージェントSkype for Business Serverインストールするには、次のコマンドを実行StatsManPerfAgent.msiを指定します。
   
 1. 使用許諾契約書を確認し、同意する場合は、[使用許諾契約書の条項に同意する] を選択し、[次へ] を **クリックします**。 
     
@@ -170,7 +170,7 @@ Web インストーラーは、StatsManWebSiteUsers というローカル セキ
     
 3. **[インストール]** をクリックします。
     
-多数のコンピューターにエージェントをインストールする場合は、無人モードでこれを行う必要があります。 例: 
+多数のコンピューターにエージェントをインストールする場合は、無人モードでこれを行う必要があります。 次に例を示します。 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
@@ -179,11 +179,11 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>トポロジのインポート
 <a name="BKMK_ImportTopology"> </a>
 
-Statistics Manager をインストールして実行した後、統計マネージャーが各サーバーのサイト、プール、および役割を知る Skype for Business Server トポロジをインポートする必要があります。 Skype for Business Server トポロジをインポートするには [、Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) コマンドレットを使用して、組織内で使用されている各プールに関する情報を取得し、この情報を統計マネージャーにインポートします。
+Statistics Manager をインストールして実行した後、統計マネージャーが各サーバーのサイト、プール、および役割を知Skype for Business Serverトポロジをインポートする必要があります。 Skype for Business Server トポロジをインポートするには[、Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps)コマンドレットを使用して、組織内で使用されている各プールに関する情報を取得し、この情報を統計マネージャーにインポートします。
   
-Skype for Business Server トポロジをインポートするには、次の手順を実行します。
+トポロジをインポートSkype for Business Server、次の手順を実行します。
   
-1. Skype for Business Server PowerShell コマンドレットを持つホストでは、次の処理を行います。
+1. PowerShell コマンドレットを使用するホストSkype for Business Server次のコマンドを実行します。
     
     a. 次のコマンドを実行します。 
     
@@ -220,7 +220,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
 .\Get-StatsManServerInfo.ps1
 ```
 
-たとえば、Skype for Business Server トポロジ (Exchange Server) に含されていないサーバーを監視する場合は、リスナーを実行するホストで単一サーバーのインポートを実行できます。 単一サーバーのインポートを実行するには、次の手順を実行します。
+Skype for Business Server トポロジ (Exchange Server) に含されていないサーバーを監視する場合は、リスナーを実行するホストで単一サーバーインポートを実行できます。 単一サーバーのインポートを実行するには、次の手順を実行します。
   
 1. リスナーがインストールされているディレクトリに移動します。 既定値は次の値です。 
     
@@ -243,7 +243,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
     
     1. トポロジをインポートする手順に従ってください。 「 [トポロジのインポート」を参照してください](deploy.md#BKMK_ImportTopology)。
         
-    2. エージェントがトポロジにリストされていないサーバー (たとえば、SQL AlwaysOn クラスター内のノード) にある場合は、「トポロジのインポート」の手順に従って手動でエージェントを追加する必要 [があります](deploy.md#BKMK_ImportTopology)。
+    2. エージェントがトポロジにリストされていないサーバー (たとえば、SQL AlwaysOn クラスター内のノード) にある場合は、「トポロジのインポート」の手順に従ってエージェントを手動で追加する必要[があります](deploy.md#BKMK_ImportTopology)。
     
 - エージェントはリスナーに連絡できますか?
     
@@ -267,7 +267,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-アプリケーション イベント ログに表示される可能性があるすべてのイベントの詳細については [、「Troubleshoot Statistics Manager for Skype for Business Server」を参照してください](troubleshoot.md)。
+アプリケーション イベント ログに表示される可能性があるすべてのイベントの詳細については、「Troubleshoot Statistics Manager for Skype for Business Server」[を参照してください](troubleshoot.md)。
   
 ## <a name="create-a-self-signed-certificate"></a>自己署名証明書の作成
 <a name="BKMK_SelfCert"> </a>
@@ -305,4 +305,4 @@ Microsoft では、信頼できる証明機関によって署名された証明�
     
 - [Skype for Business Server の Statistics Manager のアップグレード](upgrade.md)
     
-- Skype for Business Server ß の[統計マネージャーの](troubleshoot.md)トラブルシューティング
+- [ß の統計マネージャーのSkype for Business Server](troubleshoot.md)する

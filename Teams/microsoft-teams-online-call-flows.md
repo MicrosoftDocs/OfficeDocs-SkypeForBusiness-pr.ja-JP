@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: さまざまなトポロジにおいて、Teams が Office 365 フローを使用する方法と、ピアツーピアのメディア通信に使用する固有のTeam フローについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 27a2c68483c3d54cb3f3572bbed3a06a53ccc67e
-ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
+ms.openlocfilehash: ebe6de7773ca77964619f5d90d1c189ea8d731c8d7c242c2a04a619a33c55414
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52059211"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319860"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams の通話フロー
 

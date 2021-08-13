@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
-ms.openlocfilehash: 6f4c27ed9794a24c2038a97f5ae10545035ba1e0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 95e39926af9684b1bbc93bda3ff25ebcc72d2cdd6e6ed776856a984f565d2eff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116815"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348422"
 ---
 # <a name="toll-free-dialing-restrictions-in-bulgaria"></a>ブルガリアでのフリーダイヤル制限
 

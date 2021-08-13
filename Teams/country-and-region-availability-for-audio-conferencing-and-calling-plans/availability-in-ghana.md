@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Microsoft 365およびOffice 365、Skype for BusinessおよびMicrosoft Teamsサービスを紹介します。
-ms.openlocfilehash: 7a3496fb8d04f2d72b4e346ec510926160ad7e65
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 966dfd2e9d7533c185a50547703c71367179b23b4dd44cd8f6e7f86259dcd2f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318540"
 ---
 # <a name="availability-in-ghana"></a>Ghana での可用性
 
@@ -82,7 +82,7 @@ ms.locfileid: "51118095"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

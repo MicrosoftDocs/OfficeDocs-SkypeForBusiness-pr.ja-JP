@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド シナリオでの Skype for Businessテレメトリ ツールを使用してオンプレミスの実装を監視する方法の概要。
-ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509768"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318072"
 ---
 # <a name="plan-call-data-connector"></a>通話データ コネクタの計画
 
@@ -84,12 +84,12 @@ Call Analytics および CQD ツールを使用すると、次のように、通
 |:---------------------------|:---------------------|:---------------------|:------------------|
 | アプリケーション共有メトリック |はい | 制限付き |
 | 顧客の構築情報| はい | はい |
-| ドリルダウン分析 | はい | なし |
+| ドリルダウン分析 | はい | いいえ |
 | メディアの信頼性の指標 | はい | 制限付き |
 | アウトオブザボックス レポート | はい | はい |
-| 概要レポート | はい | なし |
+| 概要レポート | はい | いいえ |
 | ユーザーごとのレポート | はい | はい |
 | レポート セットのカスタマイズ <br> (レポートの追加、削除、変更) | はい | はい |
-| ビデオベースの画面共有の指標 | はい | なし |
+| ビデオベースの画面共有の指標 | はい | いいえ |
 | プログラムによるアクセス用のデータ API <br> CQD | いいえ | はい |
 ||||

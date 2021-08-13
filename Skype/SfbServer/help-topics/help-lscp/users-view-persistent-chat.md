@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: CsPersistentChatAdministrator 役割 (常設チャット管理者) のメンバーは、チャット ルーム マネージャーの権限とアクセス許可を他のユーザーおよび自分自身に付与できます。
-ms.openlocfilehash: 9af0467d278855a6cb07d5e5ebc77697f838c0ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96bb8c4924fad3709d756696bb8965cafcbce676f8ac44865671cbbb895f9ca6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348232"
 ---
 # <a name="users-view-persistent-chat"></a>ユーザー: 常設チャットの表示
 
@@ -48,4 +48,4 @@ ms.locfileid: "51115083"
 
 - [Persistent Chat のメンバーシップについて](/previous-versions/office/lync-server-2013/understanding-persistent-chat-membership)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。

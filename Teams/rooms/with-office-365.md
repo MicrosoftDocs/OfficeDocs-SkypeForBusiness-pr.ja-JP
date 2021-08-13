@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams Rooms を展開する方法について説明します。Teams または Skype for Business と Exchange はどちらもオンラインです。
-ms.openlocfilehash: 64567cd9925a0a11d9e9b896c522a2c4bfe13f40
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: 5f700dfd839515cd34a1fec864994867055b11ec184bc0f70b4ea2107ddd16f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739647"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318271"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
 
@@ -182,9 +182,9 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
    ```
 
     > [!NOTE]
-    > 会議にのみネイティブTeams ミーティング参加Microsoft Teams構成している場合は、次の手順に進む必要があります。 以下は、オンプレミスのアプリケーションのサポートも有効にする場合Skype for Business必要です。
+    > 会議にネイティブTeamsのみ参加Microsoft Teams会議室を構成する場合は、次の手順に進む必要があります。 以下は、オンプレミスのアプリケーションのサポートも有効にする場合Skype for Business必要です。
 
-7. オンプレミスでデバイス アカウントを有効Skype for Business、環境がオンプレミスの要件 で定義されている要件[をMicrosoft Teams ミーティングしてください](requirements.md)。
+7. オンプレミスでデバイス アカウントを有効Skype for Business、環境が Microsoft Teams Rooms の要件[で定義されている要件を満たしていることを確認します](requirements.md)。
 
    次のようにしてリモート [Windows PowerShell セッション](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)を開始します (必ず[Skype for Business Online の PowerShell コンポーネントのインストール](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)を行ってください)。
 

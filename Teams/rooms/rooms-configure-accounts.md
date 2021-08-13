@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: このトピックでは、Exchange と Skype for Business で Microsoft Teams Rooms のアカウントを構成する方法について説明します。
-ms.openlocfilehash: 26879b2c07b859e65255ed84bedd4897b75d5caa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d66e495fd4e1e75227b162974891cda9876fef28c9f809dead001af1a95b099a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117475"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348802"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Microsoft Teams Rooms のアカウントを構成する
  
@@ -54,7 +54,7 @@ Microsoft Teams Rooms には、Active Directory、Exchange、Skype for Business 
 > [!IMPORTANT]
 > ハードウェアを実際に設置するよりも十分に前もってアカウントを作成しておくことを、強くお勧めします。 設置の 2 週間から 3 週間前にアカウントの準備を開始するのが理想的です。 
 
-ハイブリッド環境では、Microsoft Teams ミーティング に使用されるアカウントで、Azure Active Directory (AAD) 同期でパスワード同期が有効になっている必要があります。Microsoft Teams ミーティング 認証には、Microsoft 365 または Office 365 認証が必要です。 アカウントを設定するときに、アカウントの SIP アドレスが AAD のユーザー プリンシパル名 (UPN) と一致する必要があります。 
+Microsoft Teams Rooms で使用されるアカウントは、Azure Active Directory (AAD) Sync でパスワード同期を有効にする必要があります。Microsoft Teams Rooms 認証には Microsoft 365 または Office 365 認証が必要です。 アカウントを設定するときに、アカウントの SIP アドレスが AAD のユーザー プリンシパル名 (UPN) と一致する必要があります。 
   
 デバイス アカウントは、会議室やミーティング スペースのアカウントとして認識されるリソース アカウントと見なすことができます。 その会議室を使って会議をスケジュールするときは、アカウントをその会議に招待します。 Microsoft Teams Rooms を最も効果的に利用するには、各会議室に割り当てられているデバイス アカウントで同じ操作を行います。
   

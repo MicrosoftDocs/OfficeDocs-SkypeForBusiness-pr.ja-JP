@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 20bbc47f73afe67d37b6d187a0dbd9d0dea6f072
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: c2e78d1de6b5834f096898dc567dc9839c6f6e02d5e30057b285a948a6d741ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348292"
 ---
 # <a name="dial-plan"></a>ダイヤル プラン
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
 - [Skype for Business Server 2015 でダイヤル プランを作成または変更する](../../deploy/deploy-enterprise-voice/dial-plans.md)
 

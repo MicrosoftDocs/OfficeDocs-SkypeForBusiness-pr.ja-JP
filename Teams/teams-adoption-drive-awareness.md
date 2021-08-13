@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c9dbeaecd5c1ed15dff5e5a0e2ae3823216a1a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7ea6dbf8dbf7e1f50164348095e673d086ffbcaadcf18866e9e1248ff35bfa0e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348612"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
@@ -69,6 +69,6 @@ ms.locfileid: "49834157"
 
 フィードバック チャネルから得た分析情報を、簡単に取得できるハッシュタグ #TeamsStories共有します。 1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。 また、Microsoft Technical Community の「Driving Adoption フォーラム」で共有してください。 これらの実際の例を自分の会社内から共有すると、ユーザー コミュニティで時間の過ぎた持続的な変化を実現するために非常に重要です。
 
-[詳細については、管理センター Microsoft Teams使用状況レポートMicrosoft 365確認してください。](teams-activity-reports.md)
+[詳細については、Microsoft Teamsの使用状況レポートに関するMicrosoft 365 管理センター。](teams-activity-reports.md)
 
 ![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) 次: サービス正常性レビュー [をスケジュールする](teams-adoption-schedule-service-health-reviews.md)

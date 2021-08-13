@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c859cfe3b062bcf8ad379544078684624a6586cc6d528ac0dce6493de8004a0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319870"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -74,7 +74,7 @@ ms.locfileid: "51117895"
 
 ## <a name="customize-meeting-invitations"></a>会議への招待状をカスタマイズする
 
-組織のニーズに合わせて Teams 会議への招待状をカスタマイズできます。 組織のロゴを加えたり、役立つ情報 (組織のサポート Web サイトへのリンク、法的免責事項、テキストのみのフッターなど) を含めたりすることができます。
+組織のニーズに合わせて Teams 会議出席依頼をカスタマイズできます。組織のロゴを追加し、サポート Web サイトへのリンクや法的免責事項、テキストのみのフッターなど、役に立つ情報を含めることができます。
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>会議の招待状用ロゴの作成ヒント  
 
@@ -82,7 +82,7 @@ ms.locfileid: "51117895"
 2. 画像を JPG または PNG 形式で保存します。
 3. パブリック Web サイトなど、招待状を受け取るすべてのユーザーがアクセス可能な場所に画像を保存します。
 
-    会議出席依頼に追加できるようになります。 方法については、次の手順を参照してください。
+    これで、会議出席依頼に追加できます。次の手順を参照してください。
 
 ### <a name="customize-your-meeting-invitations"></a>会議の招待状をカスタマイズする
 

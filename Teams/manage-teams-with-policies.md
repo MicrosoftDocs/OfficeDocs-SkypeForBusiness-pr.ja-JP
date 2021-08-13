@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319950"
 ---
 # <a name="manage-teams-with-policies"></a>ポリシー Teamsを管理する
 
@@ -52,9 +52,9 @@ ms.locfileid: "51574186"
 
 ### <a name="teams-for-education"></a>教育機関用 Teams
 
-Teams [for Education](easy-policy-setup-edu.md)ポリシー ウィザードを使用して、学習環境のポリシーを簡単に設定および管理することもできます。
+また、Microsoft Teams for Education[ウィザード](easy-policy-setup-edu.md)を使用して、学習環境のポリシーを簡単に設定および管理することもできます。
 
-![Teams ポリシー ウィザードのスクリーンショット。](media/easy-policy-setup-quick-setup.png)
+![ポリシー ウィザードMicrosoft Teams for Educationスクリーンショット。](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>ポリシーの種類
 
@@ -68,10 +68,10 @@ Teams [for Education](easy-policy-setup-edu.md)ポリシー ウィザードを�
 [アプリ ポリシー](app-policies.md)| アプリ ポリシーは、アプリケーションの管理に使用Microsoft Teams。 管理者は、ユーザーがインストールできるアプリを許可またはブロックしたり、ユーザーの Teams アプリ バーにアプリケーションをピン留めしたり、ユーザーに代わってアプリケーションをインストールすることができます。
 [メッセージング ポリシー](messaging-policies-in-teams.md)| メッセージング ポリシーは、チャットとチャネル機能の可用性を制御します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 * [グループでポリシーを割りTeams - 使用を開始する](policy-assignment-overview.md)
 * [Microsoft Teams でフィードバック ポリシーを管理する](manage-feedback-policies-in-teams.md)
 * [Microsoft Teams でチーム ポリシーを管理する](teams-policies.md)
 * [Microsoft Teams でのライブ イベントのセットアップ](teams-live-events/set-up-for-teams-live-events.md)
-* [Teamsのポリシーとポリシー パッケージの詳細](policy-packages-edu.md)
+* [Microsoft Teams for Educationポリシーとポリシー パッケージ](policy-packages-edu.md)

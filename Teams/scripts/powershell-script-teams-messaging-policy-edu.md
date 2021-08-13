@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c665b96c0c44c2ea763c343bb2857d4c2b9dbb26
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e33e31c5fc6b005459e8b216a2cfec984b80e73dc821d4e13fcaac0d02acf86
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117275"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319680"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell サンプル スクリプト - メッセージング ポリシーの作成と割り当て
 
 この PowerShell スクリプトを使用して、メッセージング ポリシーを作成し、Microsoft Teamsに割り当てします。 
 
-この PowerShell スクリプトの使用の詳細については、「クイック スタート - Teams for Education 」[を参照してください](../teams-quick-start-edu.yml)。
+この PowerShell スクリプトの使用の詳細については、「クイック スタート - Microsoft Teams for Education」[を参照してください](../teams-quick-start-edu.yml)。
 
 このスクリプトでは、オンライン PowerShell モジュールの一覧にある[Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy)コマンドレットSkype for Business使用します。 PowerShell [Teams管理の詳細については、「PowerShell](../teams-powershell-overview.md)の概要」Teams参照してください。
 

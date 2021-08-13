@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ジョージアで使用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: fcdff2dbe5e6d761d4ab727d2df3309a5fb3c3ae
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bee3a0b79c4395c83babecdce44b2e7356a0e8fa0419deb64cedb1605384fc36
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118115"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318550"
 ---
 # <a name="availability-in-georgia"></a>ジョージアでの利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51118115"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

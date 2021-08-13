@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: この記事では、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 2015 Skype for Business Server 2015 リソース キットは、2015 年に展開および管理する IT 管理者が日常的なタスクSkype for Business Serverします。 たとえば、Web Conf Data ツールを使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 SEFAUtil ツールを使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、2015 年にこれらのツールを使用して、より効果的に管理Skype for Business Server推奨します。
-ms.openlocfilehash: 6c68a94d331f2ad5f9ffaa169228aa9d64e41293
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 421b0cbe3ec7644122d73365159714281a8e425e23392dab96d5b8923f5a8e89
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629046"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333279"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
@@ -102,7 +102,7 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 ABSConfig は、2015 アドレス帳サービスのSkype for Business Server簡単な方法を提供します。
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 #### <a name="computer"></a>コンピューター
 
@@ -170,7 +170,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 帯域幅ポリシー サービス モニター ツールの目的は、管理者がトポロジで定義されている各帯域幅ポリシー サービスの状態を表示できる目的です。 さらに、管理者は、ネットワーク構成ドキュメントで定義されているリンクすべてについて、リアルタイムの帯域幅の使用状況を確認できます。
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 帯域幅ポリシー サービス モニター ツールは、ネットワーク トポロジの一部であるコンピューターでSkype for Business Server必要があります。
 
@@ -281,7 +281,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 ![帯域幅 Utili で収集された通知のログ](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
-[**OK**] をクリックします。 BandwidthUtilizationAnalyzer.xlsm が自動的に開始されます。 メッセージ ボックスの指示に従います。 詳細については、次の **セクションBandwidthUtilizationAnalyzer.xlsm** を使用するを参照してください。
+**[OK]** をクリックします。 BandwidthUtilizationAnalyzer.xlsm が自動的に開始されます。 メッセージ ボックスの指示に従います。 詳細については、次の **セクションBandwidthUtilizationAnalyzer.xlsm** を使用するを参照してください。
 
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>m のBandwidthUtilizationAnalyzer.xls使用
@@ -356,7 +356,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 ![地域によるフィルター処理。](../media/Reskit_2012_Tools_Documentation_Image17.jpg)
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 - 3.5 .NET Framework 3.5
 
@@ -419,7 +419,7 @@ Call Parkometer は、現在パークされている通話を追跡するツー�
 
 CPS ツールの目的は、CPS データベースへのコマンド ライン アクセスを提供します。 管理者は、CPS 使用状況を表示し、プールに割り当てられたオービットの数を決定できます。
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 このツールが CPS を実行しているのと同じコンピューターで実行される場合、要件はありません。 このツールをリモート コンピューターで実行する場合は、SQL Server 2015 で使用される Skype for Business Server データベースをリモート アクセスを許可するように構成する必要があります。 Call Parkometer は、プールのSQL Server接続するために、データベース接続文字列を使用して構成する必要SQL Server。 このSQL Serverデータベース接続文字列は、構成ファイルで定義 **されます。parkometer.exe.config。** このディレクトリは、そのディレクトリと同じディレクトリparkometer.exe必要があります。 次の XML ファイルは、次の XML ファイルの例parkometer.exe.config。構成する必要があるパラメーターは、ユーザー名 (mydomain\Administrator など)、パスワード (mypassword など)、ホスト名 (myserver など) です。
 
@@ -498,7 +498,7 @@ DBAnalyze は、管理者が 2015 年のデータベースに関する分析レ�
 
 ![コマンド ライン オプションを使用Dbanalyze.exe。](../media/Reskit_2012_Tools_Documentation_Image35.JPG)
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
  **コンピューター** DBAnalyze は、2015 年にインストールされているドメインに参加Skype for Business Server実行できます。
 
@@ -549,7 +549,7 @@ ImportStorageServiceData リソース キット ツールを使用すると、St
 
 ![サーバー Storageログ イベントのサンプル。](../media/Reskit_2012_Tools_Documentation_Image1.jpg)
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 2015 Skype for Business Server キット ツールをインストールします。 このツールは、管理シェルがインストールされているドメインSkype for Business Serverコンピューター Skype for Business Server実行されます。 このツールは、管理シェルのコマンドレットを使用して、プール内Front-Endサーバーを識別します。 次に **、RtcLocal** データベースがインストールされているプール内のコンピューターからツールを実行する必要があります。 このデータベースは、プールの WEBSERVICE ファイル共有の場所を取得するためにツールによって使用されます。 さらに、ツールを使用する前に、各 Front-End サーバーは、まず各 Front-End サーバーで **Enable-PSRemoting** を使用して Windows PowerShell リモート処理を有効にし、ツールが実行されるコンピューターを有効にする必要があります。 それ以外の場合、Windows PowerShellリモート コマンドは失敗します。 Windows PowerShellリモート処理は、プール内Front-Endサーバーでオフにできます。 最後に、ツールを呼び出すアカウントまたは資格情報に、このツールを実行しているプールの Web サービス ファイル共有に対する読み取り/書き込みアクセス許可が必要です。 それ以外の場合、ツールは IO アクセス許可エラーで失敗します。
 
@@ -738,7 +738,7 @@ LookupUserConsole ツールは、特定のユーザー Skype for Business Server
 
  このコマンドLookupUserConsole.exeを実行すると、SIP アドレスを受け入れるコマンド プロンプトが開き、SIP アドレスに関連するルーティング情報Skype for Business Server表示されます。 Exit **と入力** して LookupUserConsole ツールを終了します。
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 2015 Skype for Business Server キットをインストールします。 このツールは、ドメインに参加しているコンピューターで実行され、Skype for Business Serverインストールされます。
 
@@ -825,7 +825,7 @@ MSTurnPing ツールを使用すると、Skype for Business Server 2015 通信�
 
   - トポロジで 2015 帯域幅ポリシー Skype for Business Server (Core) を提供するコンピューターのテスト結果
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 - このツールは、トポロジ内でローカル ストアを持つコンピューターから実行する必要があります。
 
@@ -947,7 +947,7 @@ CAC ネットワーク トポロジ図を JPG または BMP 形式で保存お�
 
 - **リアルタイム統計:** 応答グループ エージェント Live は、すべてのエージェント グループのリアルタイム統計を提供します。 更新頻度は 1 分です。 応答グループから通話に応答すると、現在のキューに入っている呼び出し数を持つグループ名の横に視覚的インジケーターが追加されます。 ポインターをグループの上に一時停止すると、最も長い待機時間も表示されます。
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 応答グループ エージェント Live には、.NET Framework 4.0 が必要です。 さらに、プレゼンス カードと連絡先カード機能を利用するには、ローカルSkype for Business (および実行中) にインストールする必要があります。
 
@@ -1039,7 +1039,7 @@ SEFAUtil (セカンダリ拡張機能機能のアクティブ化) を使用す�
 
 - Contoso の人事部門のカスタマー サービスプラクティスは、最初の呼び出し以降のすべての発信者に対して個人サービスを提供する方法です。 部門のすべてのメンバーが互いに非常に近い場所に座っているので、チーム通話と同時にすべての電話が鳴り出すのは、チームの混乱です。 チーム メンバーを中断することなく最高のサービスを提供するために、Skype for Business Server 2015 管理者はグループ通話ピックアップ機能を利用します。 管理者は、すべての部署メンバーをピックアップ グループに追加し、ピックアップ グループ番号を部署に伝達します。 サマンサが机から不在の場合、ジョーは自分の電話が鳴っているのに気づき、机から電話に出る。
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 SEFAUtil ツールは、信頼されたアプリケーション プールの一部であるコンピューターでのみ実行できます。 UCMA 3.0 は、そのコンピューターにインストールする必要があります。 このツールを実行するには、SEFAUtil アプリケーション ID を持つ新しい信頼済みアプリケーションをそのプールに作成する必要があります。
 
@@ -1424,12 +1424,12 @@ SYSPrep.ps1は、Windows PowerShell Server 2008 オペレーティング シス�
 
   スクリプト名は Microsoft オペレーティング システムのシステム準備ツールと似ていますが、Windows異なります。 このスクリプトは、2015 年に必要な前提条件Skype for Business Serverします。 これらの前提条件がインストールされた後Windows SYSPrep ツールを使用して、サーバーのイメージを作成できます。
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを Windows Server 2008 オペレーティング システム コンピューターのローカル フォルダー **(D:\Setup など)** にコピーする必要があります。 このフォルダーには、2015 ファイルのコピー Skype for Business Server含める必要があります(特に 2015 **Setup.exe。** 前提条件ファイルは、次の場所からダウンロードできます。
 
 
-| **前提条件**                                | **Location**                                                            |
+| **前提条件**                                | **場所**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
@@ -1489,7 +1489,7 @@ SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを W
 
 - **展開間でのデータの移動:** Contoso は、1 つのプールのすべてのサーバーを新しいサーバーに置き換える過程にいます。 Skype for Business Server 2015 年 2015 年の新しいプールを展開し、すべてのデータを古いプールから新しいプールに移動し、古いプールを非推奨にすることです。 新しいプールを展開すると、[割り当てられていない番号のお知らせの移行] ツールを使用して、構成を古いプールから新しいプールに移動します。
 
-#### <a name="requirements"></a>Requirements
+#### <a name="requirements"></a>要件
 
 ツールを正常に実行するために必要な主な要件は次のとおりです。
 
@@ -1553,7 +1553,7 @@ Web Conf Data Tool を使用すると、Skype for Business Server 2015 コミュ
 
 - 削除が実行された場合、ツールは、データが削除されるすべての会議データ フォルダーの一覧を出力します。
 
-### <a name="requirements"></a>Requirements
+### <a name="requirements"></a>要件
 
 このツールは、現在開催者が参加している同じプールで実行する必要があります。
 

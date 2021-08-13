@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
-description: '概要: Item Service の一部Sub-Items取得操作について学習します。 アイテム サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。'
-ms.openlocfilehash: defb0b898c5101513cbb4f6da4382a8bb43bce6e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: アイテム サービスの一部Sub-Items取得操作について学習します。 Item Service は、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
+ms.openlocfilehash: 7b68262b3bcfdb9e16d1e9b07750e12b1c5a08b901cfe93f905df8bfb32bb9b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333289"
 ---
 # <a name="get-sub-items"></a>サブアイテムの取得
  
-**概要:** Item Service の一Sub-Items取得操作について学習します。 アイテム サービスは、通話品質ダッシュボードのリポジトリ API の一部です。 通話品質ダッシュボードは、Skype for Business Server 用のツールです。
+**概要:** アイテム サービスの一部Sub-Items、Get Sub-Items操作について学習します。 Item Service は、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
   
-Get Sub-Items操作は、呼び出し品質ダッシュボードのリポジトリ API のアイテム サービスの一部です。
+Get Sub-Items操作は、呼び出し品質ダッシュボードのリポジトリ API の Item Service の一部です。
   
 ## <a name="get-sub-items"></a>サブアイテムの取得
 
-取得Sub-Itemsアイテムのサブアイテムを返します。
+Get Sub-Itemsアイテムのサブアイテムを返します。
   
 
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
@@ -43,11 +43,11 @@ Get Sub-Items操作は、呼び出し品質ダッシュボードのリポジト�
   
  **応答** - 応答には、HTTP 状態コードと応答ヘッダーのセットが含まれます。
   
- **状態コード** - 正常な操作では、状態コード 200 (OK) が返されます。 指定されたユーザー ID が見つからない場合は、状態コード 404 (Not Found) が返されます。
+ **状態コード** - 正常な操作では、状態コード 200 (OK) が返されます。 指定したユーザー ID が見つからない場合は、状態コード 404 (Not Found) が返されます。
   
  **応答ヘッダー** - 追加のヘッダーはありません。
   
- **応答本文** - JSON の応答ペイロードのサンプルを次に示します。
+ **応答本文** - JSON の応答ペイロードの例を以下に示します。
   
 > [!NOTE]
 > Item オブジェクトの配列が返されます。 
@@ -71,9 +71,9 @@ Get Sub-Items操作は、呼び出し品質ダッシュボードのリポジト�
   
  *userId*  - このアイテムを所有するユーザーの ID。
   
- *type:*  コンテンツの種類を指定します。 このフィールドは、アプリケーションによって設定されます。
+ *type*  - コンテンツの種類。 このフィールドは、アプリケーションによって設定されます。
   
 > [!NOTE]
->  `Content` およびフィールドは、ネットワーク経由で送信されるデータの量を減らすために `subItems` 応答に含まれません。
+>  `Content` ネットワーク `subItems` 経由で送信されるデータ量を減らす応答にはフィールドは含まれません。
   
 

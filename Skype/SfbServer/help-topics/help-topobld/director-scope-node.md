@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: このノードには、このディレクター プールの完全修飾ドメイン名 (FQDN)、ポート、および関連付けられたファイル ストアが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 9c3978314ab1e4e227e5a5efff2d183c75a4353d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4ebb472f04e9ffde1ec37c96062a8fba40124a5e2b75e29820fc79f020d9c599
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835327"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333669"
 ---
 # <a name="director-scope-node"></a>ディレクターのスコープ ノード
  
@@ -34,7 +34,7 @@ ms.locfileid: "49835327"
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除を行います。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、コンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

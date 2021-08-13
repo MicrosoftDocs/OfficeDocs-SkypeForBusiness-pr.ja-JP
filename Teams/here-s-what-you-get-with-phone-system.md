@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '機能、可用性、およびビジネス向け Microsoft 電話を計画および設定する方法について学習します。 '
-ms.openlocfilehash: 2d4f4bada45242ddd5a3aa48308d2acaad495a23
-ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
+ms.openlocfilehash: ce4be849a1cf57dc47b6d41b84548b1e0e3591cdd2d963e60d5816c833579648
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52491780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349050"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>電話システムで利用できる機能
 
@@ -56,7 +56,7 @@ ms.locfileid: "52491780"
 |[通話中にボイスメールに転送する*](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | ユーザーが通話中にボイスメールに転送できます。 |
 |[コール パークおよび取得](call-park-and-retrieve.md)  <br/> | ユーザーがクラウド内のクラウド サービスでTeamsを保留にできます。 通話の保留を実行すると、Teams サービスにより通話解除のための固有のコードが生成されます。 通話を保留したユーザーまたは他のユーザーは、そのコードとサポートされているアプリやデバイスを使用して、通話を再開できます。 <br/> |
 |検索から電話番号を呼び出す  <br/> | /call コマンドを使用し、名前または番号を指定することで、ユーザーが検索ボックスから通話を行います。 <br/> |
-|[発信者番号](how-can-caller-id-be-used-in-your-organization.md)  <br/> |社内からの呼び出しには、会社のディレクトリから情報を取得する詳細な発信者番号が表示され、電話番号ではなく画像 ID と役職が表示されます。 外部の電話番号からの呼び出しの場合、電話サービス プロバイダーから提供された発信者番号が表示されます。 外部電話番号が企業ディレクトリのセカンダリ番号である場合は、会社のディレクトリからの情報が表示されます。  <br/> |
+|[発信者 ID](how-can-caller-id-be-used-in-your-organization.md)  <br/> |社内からの呼び出しには、会社のディレクトリから情報を取得する詳細な発信者番号が表示され、電話番号ではなく画像 ID と役職が表示されます。 外部の電話番号からの呼び出しの場合、電話サービス プロバイダーから提供された発信者番号が表示されます。 外部電話番号が企業ディレクトリのセカンダリ番号である場合は、会社のディレクトリからの情報が表示されます。  <br/> |
 |デバイスの切り替え  <br/> |ユーザーが他のユーザーに接続されている別の HID デバイスで通話または会議をTeams。たとえば、PC スピーカーからヘッドセットに切り替えます。   <br/> |
 |プレゼンス ベースの呼び出しルーティング <br/> |プレゼンスを使用して受信通信を制御し、特に指定された通信を除くすべての受信通信をユーザーがブロックできます。  <br/> |
 |[統合ダイヤル パッド](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | ユーザーが検索バーやダイヤル パッド内の任意の場所で名前または番号でダイヤルし、発信呼び出しのプロセスを高速化できます。 <br/> |
@@ -86,7 +86,7 @@ ms.locfileid: "52491780"
 - 保留中の音楽
 - Azure AD逆引き番号参照
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [電話システムとは](what-is-phone-system-in-office-365.md)
 - [Microsoft Teams での Cloud Voice](cloud-voice-landing-page.md)
