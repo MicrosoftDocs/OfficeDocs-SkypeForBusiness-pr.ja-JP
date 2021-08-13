@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
 ROBOTS: NOINDEX, NOFOLLOW
-description: アーカイブ サーバーをトポロジ設計に展開するには、アーカイブ サーバーを展開するサーバーの完全修飾ドメイン名 (FQDN) を指定する必要があります。 Skype for Business Server のアーカイブとインストールを含むトポロジを公開する前に、アーカイブを展開するためのすべての前提条件を完了している必要があります。
-ms.openlocfilehash: 3e62ef4a74c4ec12d63abe047475733bc99ee8c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: アーカイブ サーバーをトポロジ設計に展開するには、アーカイブ サーバーを展開するサーバーの完全修飾ドメイン名 (FQDN) を指定する必要があります。 アーカイブとインストールを含むトポロジを公開する前に、Skype for Business Server展開のすべての前提条件を完了している必要があります。
+ms.openlocfilehash: f7951b9e65e2464ede7c57a9f75ecd25ba4fe16c0973acee66951846ba05f18a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335577"
 ---
 # <a name="add-archiving-server"></a>アーカイブ サーバーの追加
  
-アーカイブ サーバーをトポロジ設計に展開するには、アーカイブ サーバーを展開するサーバーの完全修飾ドメイン名 (FQDN) を指定する必要があります。 Skype for Business Server のアーカイブとインストールを含むトポロジを公開する前に、アーカイブを展開するためのすべての前提条件を完了している必要があります。 
+アーカイブ サーバーをトポロジ設計に展開するには、アーカイブ サーバーを展開するサーバーの完全修飾ドメイン名 (FQDN) を指定する必要があります。 アーカイブとインストールを含むトポロジを公開する前に、Skype for Business Server展開のすべての前提条件を完了している必要があります。 
   
 

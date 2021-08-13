@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8480e0c4b6d27d48eacd8e6edf2aee3583111cf21aba87df037ebc4b3d7ef6b1
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 5bffdaa51b26f1633d36885d9696db9dfca1edde
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849682"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233212"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -122,7 +122,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |アドホック/スケジュールされた会議                    |その他の会議メンバー   |レコードをクリックした会議メンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 <br /><br />開催者は編集の権利を持ち、共有できます。<br /><br /> 他のすべての会議メンバーは読み取りアクセス権を持ちます。|
 |外部ユーザーとのアドホック/予定された会議|開催者              |開催者の OneDrive for Business アカウントです。                     |開催者は記録に対して完全な権限を持ちます。<br /> <br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br /> 他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
 |外部ユーザーとのアドホック/予定された会議|その他の会議メンバー   |レコードをクリックしたメンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 開催者は編集の権利を持ち、共有できます。 <br /><br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br />他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
-|チャネル会議                            |チャネル メンバー         |Teams SharePointの場所を指定します。 **注**: IP ベースの制限では、SharePointへのチャネル会議の記録アップロードはサポートされていません。 Azure 条件付きアクセス [を使用することをお勧めします](/azure/active-directory/conditional-access/overview)。 |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
+|チャネル会議                            |チャネル メンバー         |Teams SharePointの場所を指定します。 **注**: IP ベースの制限では、SharePointへのチャネル会議記録のアップロードはサポートされていません。 Azure 条件付きアクセス [を使用することをお勧めします](/azure/active-directory/conditional-access/overview)。 |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
@@ -180,7 +180,7 @@ Teams 会議の記録ファイルは、OneDrive for Business と SharePoint の�
 
 Stream は、近い将来プラットフォームとして廃止の予定はありません。 現在、Stream に存在するビデオは、移行を開始するまで残っています。 移行すると、これらのビデオも OneDrive for Business または SharePoint に移行されます。 詳細については、「[Stream クラシックの移行](/stream/streamnew/classic-migration)」を参照してください。
 
-**会議の記録にアイテム保持ラベルをMicrosoft Teamsする方法**
+**会議のレコーディングにアイテム保持ラベルをMicrosoft Teamsする方法**
 
 「[保持ラベルを自動適用する方法](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)」を参照してください。
 

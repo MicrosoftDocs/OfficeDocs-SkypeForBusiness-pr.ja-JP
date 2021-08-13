@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 次の表を使用して、スイスの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 839434b5f91ad5f5bd9494dc1415dc3d8b3db41b09636ca834d332b962961c76
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: 次の表を使用して、スイスの電話番号の取得と管理に関する情報を確認Microsoft Teams。
+ms.openlocfilehash: 92cdc40c2a71d07d8ecac94d1daebebe073c013d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849132"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233012"
 ---
 # <a name="phone-number-management-for-switzerland"></a>電話の番号管理
 
-次の表を使用して、スイスの電話番号の取得と管理に関する情報をMicrosoft Teams。
+次の表を使用して、スイスの電話番号の取得と管理に関する情報を確認Microsoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   

@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、英国の無料電話番号にダイヤルする方法について学習します。
-ms.openlocfilehash: 6e27a73724fc272ff2b870cf32d2b97fb2a2c156
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1dd248f015eecc17cd4fc5fad6b224ef2ce29ae4539841b6fc6b9c21d2fdb161
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116575"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324796"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>イギリスでのフリーダイヤル制限
 

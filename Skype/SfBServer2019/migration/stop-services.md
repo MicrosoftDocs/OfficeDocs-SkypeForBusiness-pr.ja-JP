@@ -1,5 +1,5 @@
 ---
-title: レガシ サービスの停止
+title: 従来のサービスの停止
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Skype for Business Server コントロールパネルを使用して、特定のコンピューターで実行されているすべてのレガシサービスを開始または停止したり、特定のレガシサービスを開始または停止したりすることができます。
-ms.openlocfilehash: 2aca4cd9fb5d85bcf0744dc2b9e9551adc2a2336
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: コントロール パネルSkype for Business Server使用して、特定のコンピューターで実行されているレガシ サービスの開始または停止、または特定のレガシ サービスの開始または停止を行えます。
+ms.openlocfilehash: 058c9d3833f323634b08dc6f2019e987456e8d031c23f7339aad97a78d5e7181
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324716"
 ---
-# <a name="stop-legacy-services"></a>レガシ サービスの停止
+# <a name="stop-legacy-services"></a>従来のサービスの停止
 
-Skype for Business Server コントロールパネルを使用して、特定のコンピューターで実行されているすべてのレガシサービスを開始または停止したり、特定のレガシサービスを開始または停止したりすることができます。
+コントロール パネルSkype for Business Server使用して、特定のコンピューターで実行されているレガシ サービスの開始または停止、または特定のレガシ サービスの開始または停止を行えます。
   
-## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>コンピューター上のすべての Skype for Business Server サービスを開始または停止するには
+## <a name="to-start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>コンピューター上のすべてのサービスをSkype for Business Serverまたは停止するには
 
-1. Skype for Business Server コントロールパネルを開きます。
+1. [コントロール Skype for Business Server] を開きます。
     
 2. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
     
@@ -36,7 +36,7 @@ Skype for Business Server コントロールパネルを使用して、特定の
     
 ## <a name="to-start-or-stop-a-specific-service"></a>特定のサービスを開始または停止するには
 
-1. Skype for Business Server コントロールパネルを開きます。
+1. [コントロール Skype for Business Server] を開きます。
     
 2. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
     

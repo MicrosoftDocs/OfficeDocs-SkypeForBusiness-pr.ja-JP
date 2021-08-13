@@ -19,19 +19,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、スロバキアの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 7d06ddb2e69729b961fa084e763780d92fba45523069e202951644454d27dde8
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: この表を使用して、スロバキアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+ms.openlocfilehash: 119fe5257fd98560e1b28eeacf19271474196b2e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848522"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233252"
 ---
 # <a name="phone-number-management-for-slovakia"></a>電話の電話番号管理
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-この表を使用して、スロバキアの電話番号の取得と管理に関する情報をMicrosoft Teams。
+この表を使用して、スロバキアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   

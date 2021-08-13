@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 管理センターまたは Microsoft Graph でチーム テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供することで、チームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f90ddfa9682c7000c4698977c51a39c9631ff9b1
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336257"
 ---
 # <a name="use-a-healthcare-team-templates"></a>医療チーム テンプレートを使用する
 

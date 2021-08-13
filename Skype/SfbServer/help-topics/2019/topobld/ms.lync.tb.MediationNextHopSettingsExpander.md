@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
 description: ドロップダウン リストから定義済みの Enterprise Edition フロント エンド プールまたは Standard Edition フロント エンド サーバーを選択して、仲介サーバー プールまたは仲介サーバーの次ホップを指定します。 ディレクターまたはディレクター プールは仲介サーバー プールまたは仲介サーバー次ホップの有効な選択肢ではないため、一覧には表示されません。 [OK] をクリックして変更を受け入れて保存します。 変更を破棄してプロパティ ページを終了するには、[キャンセル] をクリックします。
-ms.openlocfilehash: 4b6a219249ec8bea82a82999cc3cf14ce7f27d83
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4a7555fc637657e73a3247a6af8461963b83cb76b58d83121cf5f5c1e45787f9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815467"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335397"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>仲介の次ホップ設定エキスパンダー
  
 ドロップダウン リストから定義済みの Enterprise Edition フロント エンド プールまたは Standard Edition フロント エンド サーバーを選択して、仲介サーバー プールまたは仲介サーバーの次ホップを指定します。 ディレクターまたはディレクター プールは仲介サーバー プールまたは仲介サーバー次ホップの有効な選択肢ではないため、一覧には表示されません。 **[OK] を** クリックして変更を受け入れて保存します。 変更を破棄してプロパティ ページを終了するには、**[キャンセル]** をクリックします。
   
-仲介サーバー プールまたは仲介サーバーの設定の詳細については、「展開」のドキュメントの [「Deploy a Mediation Server in Topology Builder in Skype for Business Server」](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) を参照してください。
+仲介サーバー プールまたは仲介サーバーの設定の詳細については、「展開」[](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)のドキュメントの「トポロジ ビルダーでの仲介サーバーの展開Skype for Business Server」を参照してください。
   
 

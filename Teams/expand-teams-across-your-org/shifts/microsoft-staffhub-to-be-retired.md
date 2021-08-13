@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78737ec26d0aabfedcefa01abc3fb14c4bf118c7
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: b6483ad432eb066e5f3a62e839704b33f65ed8e14ac2f32dedb227ba0c98d1ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948703"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336237"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub は廃止されました
 
@@ -163,7 +163,7 @@ PowerShell モジュールTeams PowerShell モジュールMicrosoft Teams PowerS
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>組織全体でシフトの使用状況を表示するには、レポートを使用できますか?
 
-Shifts は 1 つのアプリTeams、複数のレポートを使用して使用状況Teamsできます。 詳細については、Teams 管理センターで Microsoft Teams[レポート](../../teams-analytics-and-reports/teams-reporting-reference.md)を確認し、Teams 管理センターでアクティビティ レポート[Microsoft 365確認してください](../../teams-activity-reports.md)。
+Shifts は 1 つのアプリTeams、複数のレポートを使用して使用状況Teamsできます。 詳細については、管理センターで Teams[レポート](../../teams-analytics-and-reports/teams-reporting-reference.md)をMicrosoft Teams、Teams のアクティビティ レポート[を確認Microsoft 365 管理センター。](../../teams-activity-reports.md)
 
 #### <a name="where-can-i-provide-feedback"></a>フィードバックを提供できる場所
   

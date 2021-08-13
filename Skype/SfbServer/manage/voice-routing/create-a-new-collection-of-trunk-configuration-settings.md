@@ -1,5 +1,5 @@
 ---
-title: トランク構成設定の新しいコレクションを作成するSkype for Business Server
+title: 'Skype for Business Server: トランク構成設定の新しいコレクションを作成する'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。
-ms.openlocfilehash: 174b1ac2d47b491bb927ca1e55a0a02d4ca0b1087bb9adc597cc7393d9c36618
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: SIP トランク構成設定は、仲介サーバーと公衆交換電話網 (PSTN) ゲートウェイ、IP-public ブランチ エクスチェンジ (PBX)、またはサービス プロバイダーのセッション ボーダー コントローラー (SBC) との関係を定義します。
+ms.openlocfilehash: 41cfc9e4c9c20eee43352b4cf62e32c3305c534d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333449"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232652"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>トランク構成設定の新しいコレクションを作成するSkype for Business Server
+# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server: トランク構成設定の新しいコレクションを作成する
 
 SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。たとえば、次の設定ができます。
 - トランクでメディア バイパスを有効化するか。

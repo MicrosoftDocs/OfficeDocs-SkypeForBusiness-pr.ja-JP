@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 446a9d5abab6f7302a46d6a8fca43f642fcea2d6
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 16a17bb867ef30d58dc55bd3fcf9545894097120d284ba7b1f7ac95e177a18fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324806"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Advanced Communications アドオン (Microsoft Teams
 
@@ -46,7 +46,7 @@ Advanced Communications は、すべての Microsoft 365 市場で、任意の�
 
 ## <a name="trial-offer"></a>試用版のオファー
 
-2020 年 8 月 4 日から 60 日間の試用版を利用できます。 試用版は、管理者センターからMicrosoft 365取得できます。
+2020 年 8 月 4 日から 60 日間の試用版を利用できます。 試用版は、次の方法でMicrosoft 365 管理センター。
 
 ## <a name="related-articles"></a>関連記事
 

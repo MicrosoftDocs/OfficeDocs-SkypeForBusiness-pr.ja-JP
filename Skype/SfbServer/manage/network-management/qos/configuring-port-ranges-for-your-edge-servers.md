@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: この記事では、エッジ サーバーのポート範囲を構成する方法と、A/V エッジ サーバーのサービス品質ポリシーを構成する方法について説明します。
-ms.openlocfilehash: f21a5612889e0368a93bc8a55e5f023a28b226a9aa8843275faa696675b94d7e
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 076f7bd6f3118155eeed6a03268326247394e2b7
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591131"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232642"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>サーバー内のエッジ サーバーのポート範囲とサービス品質ポリシーのSkype for Business Server
 

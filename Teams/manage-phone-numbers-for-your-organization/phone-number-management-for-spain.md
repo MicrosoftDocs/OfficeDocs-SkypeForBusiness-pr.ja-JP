@@ -20,17 +20,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、スペインの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 9934be7d191e76a83e0bd7dc98e2825a6fa4e1846564091ae81c8944aa1b356f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: この表を使用して、スペインの電話番号の取得と管理に関する情報を確認Microsoft Teams。
+ms.openlocfilehash: bc08529bd0b6a37a1e64b73f13ee1a2ae9195562
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849472"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233222"
 ---
 # <a name="phone-number-management-for-spain"></a>スペインでの電話番号の管理
 
-この表を使用して、スペインの電話番号の取得と管理に関する情報をMicrosoft Teams。
+この表を使用して、スペインの電話番号の取得と管理に関する情報を確認Microsoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   

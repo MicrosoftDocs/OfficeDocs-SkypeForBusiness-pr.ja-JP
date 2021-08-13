@@ -24,16 +24,16 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
-description: ユーザーが電話から会議にコールインMicrosoft 365またはOffice 365電話会議を許可する方法について説明します。
-ms.openlocfilehash: 166ec76e8f63373056f73efd647b6810818a53ca410594ca06dc2f137e6ece02
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+description: ユーザーが電話から会議にMicrosoft 365またはOffice 365電話会議を許可する方法について説明します。
+ms.openlocfilehash: 46c3c1c7e2fde92d2c8fa37978c9c3c19928dadd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799068"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232823"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Microsoft 365 の電話会議
-[電話会議] Microsoft 365 Office 365、ユーザーが自分の電話から会議にコールインできます。 電話会議では、最大 1,000 人の電話出席者が参加できます。
+電話会議 (Microsoft 365とOffice 365電話から会議にコールインできます。 電話会議では、最大 1,000 人の電話出席者が参加できます。
 
 ## <a name="what-is-audio-conferencing"></a>電話会議とは?
 ミーティングに電話から参加する (ダイヤルイン) ことは、外出先でラップトップやモバイル デバイスの Skype for Business または Microsoft Teams アプリを使用してミーティングに参加できないユーザーにとって便利なものです。 ただし、コンピューター上のアプリよりも電話を使用して Skype for Business または Microsoft Teams 会議に参加したほうが良い場合があります。
@@ -91,7 +91,7 @@ Skype for Business または Microsoft Teams 用の電話会議を設定して�
 
 - **Skype for Business 管理センターを使用する。** いくつかの国/地域では、Skype for Business 管理センターを使用して、会議ブリッジ用の番号を取得できます。 「[サービス電話番号の取得](./getting-service-phone-numbers.md)」を参照してください。
     
-- **既存の番号を移行する。** 現在のサービス プロバイダーまたは携帯電話会社から既存の番号を、既存の番号を現在のサービス プロバイダーまたは電話会社にMicrosoft 365またはOffice 365。 この方法の詳細については、「[Teams に電話番号を移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。  
+- **既存の番号を移行する。** 現在のサービス プロバイダーまたは携帯電話会社から既存の番号を、現在のサービス プロバイダーまたは電話会社にMicrosoft 365またはOffice 365。 この方法の詳細については、「[Teams に電話番号を移行](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」を参照してください。  
   
 - **新しい番号には申請書を使用します。** 国または地域によっては Skype for Business 管理センターを使用して新しい電話番号を取得することが出来ない場合があります。または、特定の電話番号またはエリアコードが必要です。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については「[組織の電話番号を管理](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 」を参照してください。
 

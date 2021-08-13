@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsキューでサポートされている言語
+title: Microsoft Teams キューでサポートされている言語
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,15 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teamsキューでサポートされている言語
-ms.openlocfilehash: 59f65a6ef2e1ab92f234ab9ebb9a717b5ae5ebc7fa2b380522f0f34cab1e3956
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Microsoft Teams キューでサポートされている言語
+ms.openlocfilehash: dd16ef64facfca51d8d2a456d1e5bba877e1e1c0
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305079"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233082"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teamsキューでサポートされている言語
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams キューでサポートされている言語
 
 呼び出しキューは、テキスト読み上げ (TTS) に対して次の言語をサポートしています。
 
@@ -41,7 +40,7 @@ ms.locfileid: "54305079"
 |中国語 (繁体字、香港)        |
 |中国語 (繁体字、台湾)           |
 |クロアチア語 (クロアチア)                      |
-|チェコ語 (Czeck Republic)                  |
+|チェコ語 (チェコ共和国)                  |
 |デンマーク語 (デンマーク)                        |
 |オランダ語 (オランダ)                     |
 |英語 (オーストラリア)                     |

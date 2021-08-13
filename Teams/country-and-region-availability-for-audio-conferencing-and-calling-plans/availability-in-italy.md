@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: イタリアで使用できるMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: b34be7f560082c8f8a9415835804e4bcd8e7d16e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fa5e2e04cecb6a5348fd381fdf3217ccd312ca30f0537a9a2e299bedd3c8d982
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336377"
 ---
 # <a name="availability-in-italy"></a>イタリアでの利用可能性
 
@@ -82,7 +82,7 @@ ms.locfileid: "51101429"
 
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [サービス電話番号を取得する](../getting-service-phone-numbers.md)
 

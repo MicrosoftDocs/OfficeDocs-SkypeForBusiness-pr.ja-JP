@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、オランダで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: e45862c7958b1f65e5544af2582a201722cf3554b3139eca3f98087ced0e76a1
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: becfde9895b71e2010724ed67c91180bdcc8e30b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848922"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233022"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>オランダでの電話番号の管理
 

@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.FeatureNotEnabled
 description: 'オンライン機能が有効になっていないというエラーが表示Skype for Business考えられる原因とアクションの提案を見つける。 '
-ms.openlocfilehash: ffe80aa252eecf88a5ef8c3e5b4bc7a294b463d7
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 89920c366d9465534279bd8fe2e31f6a3140027a4ed8e21697ad489da8ab552d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239426"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332309"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>このSkype for Businessオンライン機能が有効になっていません
 
@@ -36,9 +36,9 @@ ms.locfileid: "52239426"
   
 |**考えられる原因**|**推奨されるアクション**|
 |:-----|:-----|
-|使用可能なライセンスを持っているが、このユーザーの機能を有効にしていない。  <br/> |[管理センター] **Microsoft 365アクティブ ユーザー] に**  >  **移動して**、このユーザーのライセンスを取得します。 <br/> |
-|ユーザーは、この機能を利用できない場所にいます。  <br/> |可能であれば、[管理センター] **Microsoft 365アクティブ** ユーザー] に移動し、このユーザーを機能が利用可能な場所  >  に割り当てします。 <br/> |
-|この機能は組織で有効にされていない。  <br/> |管理センター **Microsoft 365に移動Skype for Business**  >  組織全体の機能を有効にします。 <br/> |
+|使用可能なライセンスを持っているが、このユーザーの機能を有効にしていない。  <br/> |[アクティブなユーザー **] Microsoft 365 管理センター**  >  **に移動して、** このユーザーのライセンスを取得します。 <br/> |
+|ユーザーは、この機能を利用できない場所にいます。  <br/> |可能であれば、[**アクティブな** Microsoft 365 管理センター] に移動し、このユーザーを機能が利用できる  >  場所に割り当てします。 <br/> |
+|この機能は組織で有効にされていない。  <br/> |  >  **[Microsoft 365 管理センター Skype for Business** に移動し、組織全体の機能を有効にします。 <br/> |
    
 ## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)

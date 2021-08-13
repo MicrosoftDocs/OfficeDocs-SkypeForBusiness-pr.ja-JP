@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78f602fcacf6ee2f9a29393aa9a4d6b860251e2d
-ms.sourcegitcommit: 39d26edd43b6066d5a6dee2a5ad1354a1e560a0d
+ms.openlocfilehash: 5849ccb07217766e39052376b5b0cb67500f56e91db7b034ca62e0a605954ffa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52694565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324826"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>オペレーター サービスを利用した運送業者と Microsoft の間でのConnect
 
@@ -37,4 +37,4 @@ Microsoft は、API を通じて各参加通信事業者に通話の詳細レコ
 
 各通信事業者は、API を通じて、お客様がサービスを使用して行った通話のMicrosoft Teams。 Microsoft は、これらのレコードを使用して、お客様に使用状況情報を提供し、Microsoft のレコードが運送業者のレコードと一致する必要があります。 Microsoft は、適用される法令および Microsoft のプライバシーに関する声明に従って、これらのレコードを保存および処理します。
 
-詳細については、「キャリア コーチを購入、構成、有効化する[」を参照Microsoft Teams](career-coach.md)
+詳細については、「購入、構成、有効にする」を参照[キャリア コーチをMicrosoft Teams](career-coach.md)

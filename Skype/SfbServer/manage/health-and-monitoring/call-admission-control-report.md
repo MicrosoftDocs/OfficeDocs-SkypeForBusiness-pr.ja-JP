@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の通話受付管理レポート
+title: 通話受付管理レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: '概要: Skype for Business Server で使用される通話受付管理レポートについて学習します。'
-ms.openlocfilehash: ce7f8e622ece066d58cbc2c23a6423e19b084622
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: [通話受付管理レポート] で使用される通話受付管理Skype for Business Server。'
+ms.openlocfilehash: 36dfe7c15948ea8405558d9e97fa4de4ac4a8081a22aa7e6bd83256a40c8c9f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336627"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server"></a>Skype for Business Server の通話受付管理レポート
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>通話受付管理レポート (Skype for Business Server
  
-**概要:** Skype for Business Server で使用される通話受付管理レポートについて学習します。
+**概要:**[通話受付管理レポート] の詳細については、Skype for Business Server。
   
-通話受付管理レポートは、通話受付管理によって設けられた制限のもとで行われたピアツーピアおよび電話会議セッションに関する情報を提供します。 通話受付管理を使用すると、管理者は帯域幅の制約に基づいて通信セッションを許可 (または許可しない) できます。 たとえば、管理者は音声通話やビデオ通話に使用可能な帯域幅を制限するポリシーを作成できます。 帯域幅の制限に達すると、現在の通話のいずれかが終了して必要なネットワーク リソースが解放されるまで、新しい音声通話やビデオ通話は行えません。
+通話受付管理レポートは、通話受付管理によって設けられた制限のもとで行われたピアツーピアおよび電話会議セッションに関する情報を提供します。 通話受付管理は、管理者が帯域幅の制約に基づいて通信セッションを許可 (または許可しない) する方法を提供します。 たとえば、管理者は音声通話やビデオ通話に使用可能な帯域幅を制限するポリシーを作成できます。 帯域幅の制限に達すると、現在の通話のいずれかが終了して必要なネットワーク リソースが解放されるまで、新しい音声通話やビデオ通話は行えません。
   
 ## <a name="accessing-the-call-admission-control-report"></a>通話受付管理レポートへのアクセス
 
 通話受付管理レポートは、[監視レポート] ホーム ページからアクセスします。通話受付管理レポートから次のいずれかのレポートへドリルダウンできます。
   
-- 電話会議詳細レポート - このレポートにアクセスするには、電話会議セッションの [詳細] 指標をクリックします。 
+- 会議詳細レポート - このレポートにアクセスするには、会議セッションの [詳細] メトリックをクリックします。 
     
-- ピアツーピア セッション詳細レポート - このレポートにアクセスするには、ピアツーピア セッションの [詳細] 指標をクリックします。
+- ピアツーピア セッション詳細レポート - このレポートにアクセスするには、ピアツーピア セッションの [詳細] メトリックをクリックします。
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>通話受付管理レポートの活用
 
@@ -78,7 +78,7 @@ ms.locfileid: "49826527"
 
 次の表に、通話受付管理レポートで電話会議セッション (3 人以上の参加者が関与するセッション) について提供される情報を示します。
   
-**電話会議セッションの指標**
+**会議セッションの指標**
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|

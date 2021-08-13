@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 管理者のアクセス許可をテストするSkype for Business Server
-ms.openlocfilehash: 1c828eeb965ee98aae72b00c7da9fa65016d2ed90e56c7cc982a59763c2703ae
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 7dd9e1b95df35cb363617690cb9667c1a16ef904
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590771"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232622"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>管理者のアクセス許可をテストSkype for Business Server
 
@@ -52,7 +52,7 @@ RTCUniversalUserAdmins グループのメンバーにのみアクセス許可を
 
 必要なアクセス許可が既に設定されている場合、Test-CsOUPermission応答が返されます。
 
-正しい
+True
 
 必要なアクセス許可が設定されていない場合、Test-CsOUPermission False が返されます。 この値を見つけるには、しばらく検索する必要がある場合があります。 通常、いくつかの付随する警告の内部に埋め込む必要があります。 例:
 
@@ -60,7 +60,7 @@ RTCUniversalUserAdmins グループのメンバーにのみアクセス許可を
 
 警告: オブジェクト "OU=NorthAmerica,DC=atl-cs-001\DC=litwareinc,DC=com" のアクセス制御エントリ (ACEs) は準備ができていません。 
 
-正しくない 
+False 
 
 警告: "Test-CsOUPermission" 処理が完了し、警告が表示されました。 "2" 警告は、この実行時に記録されました。 
 

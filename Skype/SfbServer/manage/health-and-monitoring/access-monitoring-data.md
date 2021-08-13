@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の監視データへのアクセス
+title: ネットワーク内の監視データにSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,24 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
-description: '概要: Skype for Business Server で使用される監視データについて学習します。'
-ms.openlocfilehash: deff5dc5c21437cd89282578d2bf3f546f444f94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: サーバーで使用される監視データについてSkype for Business Server。'
+ms.openlocfilehash: 56b27a372eaef71ee02569a418721e9d2e4b28859a99c20489713a859439217a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826547"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336647"
 ---
-# <a name="access-monitoring-data-in-skype-for-business-server"></a>Skype for Business Server の監視データへのアクセス
+# <a name="access-monitoring-data-in-skype-for-business-server"></a>ネットワーク内の監視データにSkype for Business Server
  
-**概要:** Skype for Business Server で使用される監視データについて学習します。
+**概要:** ネットワークで使用される監視データについてSkype for Business Server。
   
 監視データは、2 つの SQL Server データベースに格納されます。LcsCdr には通話詳細記録データが格納され、QoEMetrics には QoE (Quality of Experience) データが格納されます。これら 2 つのデータベースについて特別なことは何もありません。つまり、これらのデータベースに格納されているデータには、SQL Server データのアクセスと分析に使用する一般的なツールでアクセスできます。
   
-監視データへのアクセスと分析を検討する必要があるツールの 1 つは、Skype for Business Server Monitoring Reports です。 監視レポートは、レポート サービスによって発行される一連Microsoft SQL Serverレポートです。 これらのレポートは、Web ブラウザーを使用してアクセス可能であり、CDR および QoE データベースに格納されている通話詳細記録 (CDR) および QoE (Quality of Experience) レコードに基づいて、使用状況、通話診断情報、およびメディア品質情報を提供します。 監視レポートは Skype for Business Server に組み込み、Skype for Business Server のインストールと監視の構成後に Skype for Business Server 展開ウィザードからインストールできます。
+監視データにアクセスして分析するために考慮する必要があるツールの 1 つは、監視レポートSkype for Business Serverです。 監視レポートは、レポート サービスによって発行される一連の標準Microsoft SQL Serverです。 これらのレポートは、Web ブラウザーを使用してアクセス可能で、使用、通話診断情報、およびメディア品質情報を提供します。これらはすべて、CDR および QoE データベースに格納されている通話詳細記録 (CDR) および QoE (QoE) レコードに基づいて行います。 監視レポートは、Skype for Business Serverと一緒に出荷され、Skype for Business Serverがインストールされ、監視が構成されたSkype for Business Server展開ウィザードからインストールできます。
   
 説明したように、監視レポートには SQL Server Reporting Service を使用する必要があります。SQL Server Reporting Service は、SQL Server のインストールと同時に、または SQL Server 自体をインストールした後でいつでも、インストールできます。
   
-詳細については、「Skype for Business Server での監視レポートの [インストール」を参照してください](../../deploy/deploy-monitoring/install-monitoring-reports.md)。
+詳細については、「監視レポートのインストール[」を参照Skype for Business Server。](../../deploy/deploy-monitoring/install-monitoring-reports.md)
   
 

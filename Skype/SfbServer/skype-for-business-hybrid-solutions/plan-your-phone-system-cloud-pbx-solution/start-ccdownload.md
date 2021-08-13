@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
-description: Start-CcDownload コマンドレットは Skype for Business Cloud Connector エディションのビットと msi ファイルを同期してダウンロードします。
-ms.openlocfilehash: 3298b02fbb792392860f05ebb15a9221b45e47b4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このStart-CcDownloadコマンドレットは、Skype for Business クラウド コネクタ エディションビットと msi ファイルを同期的にダウンロードします。
+ms.openlocfilehash: 0447c75ac3e6df79a20d2c87b664bfb92cf7124fc7253c839a88fad1b335eaec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824181"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351916"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
-Start-CcDownload コマンドレットは Skype for Business Cloud Connector エディションのビットと msi ファイルを同期してダウンロードします。
+このStart-CcDownloadコマンドレットは、Skype for Business クラウド コネクタ エディションビットと msi ファイルを同期的にダウンロードします。
   
-Cloud Connector バージョン 2.0 以降の場合、DownloadBitsOnly パラメーターも指定できます。
+クラウド コネクタ バージョン 2.0 以降では、DownloadBitsOnly パラメーターを指定することもできます。
   
 ```powershell
 Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonParameters>]
@@ -35,7 +35,7 @@ Start-CcDownload [[-DownloadUrlRoot] <string>] [-DownloadBitsOnly]  [<CommonPara
 
 ### <a name="example-1"></a>例 1
 
-次の例では、クラウドコネクタのパブリックダウンロードサイトからクラウドコネクタの bits と msi ファイルを同期的にダウンロードします。
+次の使用例は、クラウド コネクタのパブリック ダウンロード サイトからクラウド コネクタ ビットと msi ファイルを同期的にダウンロードします。
   
 ```powershell
 Start-CcDownload
@@ -43,7 +43,7 @@ Start-CcDownload
 
 ### <a name="example-2"></a>例 2
 
-次の例では、プライベートダウンロードサイトからクラウドコネクタの bits と msi ファイルを同期的にダウンロードします。
+次の例では、プライベート ダウンロード サイトからクラウド コネクタ ビットと msi ファイルを同期的にダウンロードします。
   
 ```powershell
 Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
@@ -51,7 +51,7 @@ Start-CcDownload -DownloadUrlRoot "http://downloadserver/cloudconnector/latest"
 
 ### <a name="example-3"></a>例 3
 
-3 つ目の例では、Cloud Connector ビットおよび msi ファイルをプライベート ダウンロード サイトから同期的にダウンロードします。
+3 番目の例では、プライベート ダウンロード サイトからクラウド コネクタ ビットと msi ファイルを同期的にダウンロードします。
   
 ```powershell
 Start-CcDownload -DownloadBitsOnly
@@ -60,20 +60,20 @@ Start-CcDownload -DownloadBitsOnly
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-ダウンロードサイトで利用可能な新しいバージョンがある場合は、ダウンロードサイトから msi ファイルをダウンロードしてインストールしてから、クラウドコネクタの bits を同期的にダウンロードします。 新しいバージョンの msi ファイルがない場合、Start-CcDownload によって Cloud Connector ビットのみがダウンロードされます。 Cloud Connector ビットが既にダウンロードされている場合、Start-CcDownload は実行されません。
+ダウンロード サイトに新しいバージョンがある場合、Start-CcDownload はダウンロード サイトから msi ファイルをダウンロードしてインストールし、クラウド コネクタ ビットを同期的にダウンロードします。 msi ファイルの新しいバージョンがない場合は、Start-CcDownloadコネクタ ビットのみをダウンロードします。 クラウド コネクタ ビットが既にダウンロードされている場合、Start-CcDownloadは実行されません。
   
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**必須**|**種類**|**説明**|
+|**パラメーター**|**Required**|**型**|**説明**|
 |:-----|:-----|:-----|:-----|
-|DownloadUrlRoot   <br/> | 省略可能 <br/> |System.String  <br/> | プライベートダウンロードサイト内の特定のバージョンのクラウドコネクタの完全な URL です。 このパラメーターは注意して使用してください。ダウンロードするクラウドコネクタのバージョンを確認してください。 <br/> |
-|DownloadBitsOnly   <br/> |省略可能  <br/> |System.Management.Automation.SwitchParameter  <br/> |ダウンロード サイトから MSI をダウンロードおよびインストールする手順をスキップして、Cloud Connector ビットのみをダウンロードします。  <br/> |
+|DownloadUrlRoot  <br/> | 省略可 <br/> |System.String  <br/> | プライベート ダウンロード サイト内の特定のバージョンの Cloud Connector の完全な URL。 このパラメーターは注意して使用します。ダウンロードするクラウド コネクタのバージョンを確認してください。 <br/> |
+|DownloadBitsOnly  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |ダウンロード サイトから MSI をダウンロードしてインストールするには、手順を省略し、クラウド コネクタ ビットのみをダウンロードします。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。 Start-CcDownload コマンドレットはパイプライン入力を受け入れません。
+なし。 このStart-CcDownloadは、パイプライン処理された入力を受け付け取らない。
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

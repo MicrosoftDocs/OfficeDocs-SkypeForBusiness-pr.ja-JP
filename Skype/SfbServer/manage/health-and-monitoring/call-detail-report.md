@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の通話詳細レポート
+title: '[通話の詳細レポート] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: '概要: Skype for Business Server で使用される通話詳細レポートについて説明します。'
-ms.openlocfilehash: 9b02722c8dd872b5703d6b459c2cd48568e39f94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: このページで使用される通話詳細レポートSkype for Business Server。'
+ms.openlocfilehash: 42a0dd40bb32005fcae49464f5ebfc6570055f7078c22b6a8b5be6004793158b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826517"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336587"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>Skype for Business Server の通話詳細レポート
+# <a name="call-detail-report-in-skype-for-business-server"></a>[通話の詳細レポート] Skype for Business Server
  
-**概要:** Skype for Business Server で使用される通話詳細レポートについて説明します。
+**概要:** このページで使用される通話詳細レポートSkype for Business Server。
   
-通話詳細レポートでは、個々の通話の詳細を確認できます。このレポートには、Skype for Business Server によって収集された、ほぼすべての Quality of Experience 指標と統計情報が含まれます。次のようなレポート セクションに分かれています。
+通話詳細レポートでは、個々の通話を詳細に確認できます。このレポートには、次のようなレポート セクションに分かれて、Skype for Business Serverによって収集された、ほぼすべて Quality of Experience の指標と統計情報が含まれます。
   
 - 通話情報 
     
@@ -51,17 +51,17 @@ ms.locfileid: "49826517"
 
 通話の詳細レポートは、以下の任意のレポートから表示できます。
   
-- The [Location Report in Skype for Business Server (location-report.md) (by clicking either the Call volume or the Poor call percentage metric)
+- [通話の場所レポート] (Skype for Business Server ( location-report.md) ([通話量] または [通話率が低い] メトリックをクリックして)
     
-- The [Media Quality Summary Report in Skype for Business Server (summary.md) (by clicking either the Call volume or Poor call percentage metric)
+- [メディア品質の概要レポート] Skype for Business Server (summary.md) ([通話量] または [低い通話率] メトリックをクリックして)
     
-- [Skype for Business Server](comparison.md)のメディア品質比較レポート[(Skype for Business Server](call-list-report-0.md)の通話リスト レポートをクリックし、[詳細] 指標をクリック)。
+- [[メディア品質比較レポート]](comparison.md) (Skype for Business Serverで [通話リスト[](call-list-report-0.md)レポート] をクリックし、[詳細] Skype for Business Serverをクリックします)。
     
-- [Skype for Business Server](server-performance.md)のサーバー パフォーマンス レポート ([通話ボリューム] または [低品質通話のパーセンテージ] 指標をクリック)
+- [[サーバー パフォーマンス レポート] Skype for Business Server](server-performance.md) ([通話数] または [通話率の低い指標] をクリックします)
     
-- [Skype for Business Server の通話リスト](call-list-report-0.md)レポート ([詳細] 指標をクリック)
+- [[通話リスト レポート] Skype for Business Server](call-list-report-0.md) ([詳細] メトリックをクリックして)
     
-通話詳細レポートから、次のいずれかの指標をクリックすると [、Skype for Business Server](device-report.md) のデバイス レポートにアクセスできます。
+通話詳細レポート内から、次のいずれかの指標を[](device-report.md)クリックSkype for Business Serverデバイス レポートにアクセスできます。
   
 - キャプチャ デバイス
     
@@ -73,7 +73,7 @@ ms.locfileid: "49826517"
 
 通話の詳細レポートには、一般的には、マイクのタイムスタンプの誤差、低 SNR 時間、および近端エコー時間の項目のような、250 以上のさまざまな測定値が含まれます。これらの測定値の詳細が思い出せない場合は、測定値のラベル上にマウス ポインターを置きます。多くの場合は、その測定値を説明するツール ヒントが表示されます。
   
-測定基準の特定に問題がある場合は、検索ボックスに測定基準ラベルの一部を入力し、[検索] をクリック **します**。 たとえば、低 SNR 時間メトリックが見当たらない場合は、検索ボックスに SNR と入力し、[検索] をクリック **します**。
+メトリックの検索に問題がある場合は、検索ボックスにメトリック ラベルの一部を入力し、[検索] を **クリックします**。 たとえば、低 SNR 時間メトリックが見当たらない場合は、検索ボックスに「SNR」と入力し、[検索] をクリック **します**。
   
 レポートは通話に関する情報のみを追跡します。 呼び出し自体は記録されません。
   

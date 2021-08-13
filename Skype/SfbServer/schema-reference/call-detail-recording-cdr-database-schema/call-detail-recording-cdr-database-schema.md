@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 の通話詳細記録 (CDR) データベース スキーマ
+title: 2015 年の通話詳細記録 (CDR) データベース スキーマSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 754642cd-051a-47da-bb08-27800dae39d1
-description: ここでは、Skype for Business Server 2015 の通話詳細記録 (CDR) データベースのスキーマについて説明します。
-ms.openlocfilehash: a028a93b471a39d299a2f5c2e017560034f5222f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: このドキュメントでは、2015 年に呼び出し詳細記録 (CDR) データベースのスキーマをSkype for Business Serverします。
+ms.openlocfilehash: 706fd1fd3dce8866c00ac6af359d03954d0b674068afb280914adc1d8c998607
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813447"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352096"
 ---
-# <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 の通話詳細記録 (CDR) データベース スキーマ
+# <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a>2015 年の通話詳細記録 (CDR) データベース スキーマSkype for Business Server
  
-ここでは、Skype for Business Server 2015 の通話詳細記録 (CDR) データベースのスキーマについて説明します。
+このドキュメントでは、2015 年に呼び出し詳細記録 (CDR) データベースのスキーマをSkype for Business Serverします。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business Server 2015 の CDR テーブルの一覧](list-of-cdr-tables.md)
+- [2015 年の CDR テーブルSkype for Business Server一覧](list-of-cdr-tables.md)
     
-- [Skype for Business Server 2015 の CDR テーブルの詳細](cdr-table-details.md)
+- [CDR テーブルの詳細 (Skype for Business Server 2015)](cdr-table-details.md)
     
 - [CDR ビューのリスト](list-of-cdr-views.md)
     

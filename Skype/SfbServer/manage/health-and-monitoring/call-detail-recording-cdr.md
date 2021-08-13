@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での通話詳細記録 (CDR)
+title: 通話詳細記録 (CDR) Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,32 +11,32 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
-description: '概要: Skype for Business Server で使用される通話詳細記録 (CDR) レコードについて説明します。'
-ms.openlocfilehash: 566a345cb48cd318976c4653abc74cbb5d4c9747
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 通話詳細記録 (CDR) レコードについて説明します。Skype for Business Server。'
+ms.openlocfilehash: 8559104bffb4e1062f926e70972c0654522670887488740a2c9589d48b104959
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336617"
 ---
-# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Skype for Business Server での通話詳細記録 (CDR)
+# <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>通話詳細記録 (CDR) Skype for Business Server
  
-**概要:** Skype for Business Server で使用される通話詳細記録 (CDR) レコードについて説明します。
+**概要:** このページで使用される通話詳細記録 (CDR) レコードSkype for Business Server。
   
-通話詳細記録 (CDR) は、インスタント メッセージング、ボイス オーバー IP (VoIP) 通話、アプリケーション共有、ファイル送信などの、ピアツーピア アクティビティおよび会議に関する使用状況および診断情報を記録します。 使用状況データは投資収益率 (ROI) の計算に、診断データはピアツーピア アクティビティおよび会議のトラブルシューティングに使用できます。 Skype for Business Server をインストールすると、CDR のグローバル構成設定の定義済みコレクションもインストールされます。 このセクションのトピックを使用して、CDR を構成します。
+通話詳細記録 (CDR) は、インスタント メッセージング、ボイス オーバー IP (VoIP) 通話、アプリケーション共有、ファイル送信などの、ピアツーピア アクティビティおよび会議に関する使用状況および診断情報を記録します。 使用状況データは投資収益率 (ROI) の計算に、診断データはピアツーピア アクティビティおよび会議のトラブルシューティングに使用できます。 サーバーをインストールSkype for Business Server、CDR のグローバル構成設定の定義済みのコレクションもインストールします。 このセクションのトピックを使用して、CDR を構成します。
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [Skype for Business Server での CDR 構成情報の表示](view-configuration-information.md)
+- [CDR の構成情報を表示するSkype for Business Server](view-configuration-information.md)
     
-- [Skype for Business Server で通話詳細記録を有効にする](enable-cdr.md)
+- [[通話の詳細記録を有効にする] Skype for Business Server](enable-cdr.md)
     
-- [Skype for Business Server での CDR 構成設定のコレクションの作成または変更](create-or-modify-a-collection-of-settings.md)
+- [CDR 構成設定のコレクションを作成または変更Skype for Business Server](create-or-modify-a-collection-of-settings.md)
     
-- [Skype for Business Server で CDR 構成設定の既存のコレクションを削除する](delete-configuration-settings.md)
+- [サーバー内の CDR 構成設定の既存のコレクションを削除Skype for Business Server](delete-configuration-settings.md)
     
-- [Skype for Business Server で通話詳細記録データベースと Quality of Experience データベースを手動で削除する](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
+- [通話の詳細記録と Quality of Experience データベースを手動で削除Skype for Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
 ## <a name="see-also"></a>関連項目
 
-[Skype for Business Server で通話詳細記録と Quality of Experience の設定を構成する](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
+[[通話の詳細の記録] と [エクスペリエンスの品質] の設定を構成Skype for Business Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)
