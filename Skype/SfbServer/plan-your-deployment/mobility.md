@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のモビリティの計画
+title: モビリティを計画する Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,21 +13,21 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
-description: Skype for Business Server の Mobility の実装を計画します。
-ms.openlocfilehash: 5c33c88d13dd3720d1526c1620f852fe176a9750
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: モビリティの実装を計画Skype for Business Server。
+ms.openlocfilehash: 4af41fd9b62205cc8672646bc8967426aa246ad1af495ccf1713090c32616698
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352675"
 ---
-# <a name="plan-for-mobility-for-skype-for-business-server"></a>Skype for Business Server のモビリティの計画
+# <a name="plan-for-mobility-for-skype-for-business-server"></a>モビリティを計画する Skype for Business Server
  
-Skype for Business Server の Mobility の実装を計画します。
+モビリティの実装を計画Skype for Business Server。
   
-Skype for Business Server を使用すると、モバイル デバイスに Skype for Business Server 機能を提供するモビリティ機能を展開できます。 この記事では、モビリティ機能の詳細を説明し、展開の計画に役立ちます。
+このSkype for Business Server、モビリティ機能を展開して、モバイル デバイスSkype for Business Server機能を提供できます。 この記事では、モビリティ機能の詳細を説明し、展開の計画に役立ちます。
   
-Skype for Business Server のモビリティ機能は、Skype for Business のモバイル クライアントと、2010 年に戻る Lync クライアントをサポートできます。 展開後、ユーザーはサポートされている iOS、Android、Windows Phone モバイル デバイスを使用して Skype for Business Server 展開に接続し、エンタープライズ VoIP 機能を含むいくつかの異なる機能を利用できます。 以下に部分的な一覧が含まれています。また [、Skype for Business](clients-and-devices/desktop-feature-comparison.md) のデスクトップ クライアント機能の比較を確認して詳細を確認できます。
+2010 年Skype for Business Server Lync クライアントだけでなく、モバイル クライアントSkype for Businessモバイル クライアントをサポートすることもできます。 展開後、ユーザーはサポートされている iOS、Android、Windows Phone モバイル デバイスを使用して Skype for Business Server 展開に接続し、エンタープライズ VoIP 機能を含むいくつかの異なる機能を利用できます。 以下に部分的な一覧を含め、デスクトップ クライアント機能の比較を確認し、詳細を確認[Skype for Business確認できます](clients-and-devices/desktop-feature-comparison.md)。
   
 - メッセージの送受信
     
@@ -49,18 +49,18 @@ Skype for Business Server のモビリティ機能は、Skype for Business の�
     
 - 出席者ビデオ (H.264)
     
-- 会議コンテンツの表示 (PowerPoint とデスクトップ/アプリケーション共有)
+- 会議コンテンツの表示 (PowerPointデスクトップ/アプリケーション共有)
     
-このすべては、ユニファイド コミュニケーション Web API または UCWA を介して実行されます。 UCWA は Lync Server 2013 で初めて導入されましたが、Skype for Business Server では引き続き使用されています。 Lync 2010 クライアントと通信するための追加の機能があります。これはモビリティ サービス (MCX) です。 これらは無料のサービスであり、Lync Server 2010 および 2013 クライアント、および Skype for Business クライアントが Skype for Business Server 展開に正常にアクセスできます。
+このすべては、ユニファイド コミュニケーション Web API または UCWA を介して実行されます。 UCWA は Lync Server 2013 で初めて導入されましたが、現在も現在も使用Skype for Business Server。 Lync 2010 クライアントと通信するための追加の機能があります。これはモビリティ サービス (MCX) です。 これらは無料のサービスであり、Lync Server 2010 および 2013 クライアント、および Skype for Business クライアントが Skype for Business Server 展開に正常にアクセスできます。
   
 > [!NOTE]
 > 従来のモバイル クライアントの MCX (モビリティ サービス) サポートは、Skype for Business Server 2019 では利用できなくなりました。 現在のすべての Skype for Business モバイル クライアントはUnified Communications Web API (UCWA) を使用して、インスタント メッセージング (IM)、プレゼンス、および連絡先をサポートしています。 MCX を使用している従来のクライアントを持っているユーザーは、現在のクライアントにアップグレードする必要があります。
   
-Mobility を実装すると、これらの機能はすべて利用できる一方で、一部のデバイスでは動作が少し異なる場合があります。 Skype for Business のモバイル クライアント機能の比較で、どのデバイスでどのような機能が機能するのかを説明する [Web サイトがあります](clients-and-devices/mobile-feature-comparison.md)。 また、クライアントとデバイスの計画でいくつかの素晴らしいデバイスと OS [情報を持っています](clients-and-devices/clients-and-devices.md)。
+Mobility を実装すると、これらの機能はすべて利用できる一方で、一部のデバイスでは動作が少し異なる場合があります。 モバイル クライアント機能の比較で、どのデバイスで動作する機能を説明する web[サイト](clients-and-devices/mobile-feature-comparison.md)Skype for Business。 また、クライアントとデバイスの計画でいくつかの素晴らしいデバイスと OS [情報を持っています](clients-and-devices/clients-and-devices.md)。
   
-モビリティは自動検出機能を使用します。これにより、クライアントは、ユーザーが URL を入力する必要がなくても、Skype for Business Server Web サービスを自動的に検索できます (ユーザーはそれらを知る必要はありません)。 トラブルシューティングを行う必要がある場合、URL の手動入力は引き続きサポートされます。
+モビリティは自動検出機能を使用します。これにより、クライアントは、ユーザーが URL を入力する必要がなくても Skype for Business Server Web サービスを自動的に検索できます (ユーザーはそれらを知る必要はありません)。 トラブルシューティングを行う必要がある場合、URL の手動入力は引き続きサポートされます。
   
-プッシュ通知は、Skype for Business アプリがバックグラウンドで実行されていない場合 (またはバックグラウンドで実行されているアプリケーションをサポートしないモバイル デバイス) でもサポートされます。 デバイスまたはアプリが非アクティブなときに発生するイベントに関するプッシュ通知がモバイル デバイスに送信されます。 たとえば、電話がアクティブではないときに IM メッセージが表示されない場合、プッシュ通知が送信されます (これは、アプリがバックグラウンドで実行されている場合など、トーストまたは通知として表示されます)。 プッシュ通知を使用すると、ユーザーは IM や音声通話を見逃す必要がありません。
+プッシュ通知は、Skype for Business アプリがバックグラウンドで実行されていない場合や、バックグラウンドで実行されているアプリケーションをサポートしないモバイル デバイスでもサポートされます。 デバイスまたはアプリが非アクティブなときに発生するイベントに関するプッシュ通知がモバイル デバイスに送信されます。 たとえば、電話がアクティブではないときに IM メッセージが表示されない場合、プッシュ通知が送信されます (これは、アプリがバックグラウンドで実行されている場合など、トーストまたは通知として表示されます)。 プッシュ通知を使用すると、ユーザーは IM や音声通話を見逃す必要がありません。
   
 詳細については、次のセクションを参照してください。
   
@@ -75,11 +75,11 @@ Mobility を実装すると、これらの機能はすべて利用できる一�
 ## <a name="mobility-components"></a>モビリティ コンポーネント
 <a name="MobilityComponents"> </a>
 
-Mobility for Skype for Business Server を構成する 4 つのサービスがあります。
+モビリティ を構成するサービスは次の 4 Skype for Business Server。
   
 - **ユニファイド コミュニケーション Web API (UCWA)**
     
-    Skype for Business Server 用のモバイル クライアントおよび Web クライアントとのリアルタイム通信のためのサービスを提供します。 Skype for Business Server が展開されると、UCWA 仮想ディレクトリが内部および外部 Web サービスに作成されます。 UCWA が有効なクライアントからの呼び出しを受け入れる、この仮想ディレクトリ内の仮想コンポーネント。 クライアント アプリは、次の表形式の状態転送 (REST) インターフェイスを介して通信します。
+    モバイル クライアントと Web クライアントとのリアルタイム通信用のサービスを提供し、Skype for Business Server。 このSkype for Business Server展開されると、UCWA 仮想ディレクトリが内部 Web サービスと外部 Web サービスに作成されます。 UCWA が有効なクライアントからの呼び出しを受け入れる、この仮想ディレクトリ内の仮想コンポーネント。 クライアント アプリは、次の表形式の状態転送 (REST) インターフェイスを介して通信します。
     
   - プレゼンス
     
@@ -97,31 +97,31 @@ Mobility for Skype for Business Server を構成する 4 つのサービスが�
     
 - **モビリティ サービス (MCX)**
     
-    モバイル デバイスで、SKYPE for Business Server の機能 (IM、プレゼンス、連絡先など) をサポートします。 モビリティ サービスは、モバイル デバイス上の Skype for Business Server 機能をサポートすることを目的とした各プール内のすべてのフロント エンド サーバーにインストールされます。 Skype for Business Server 2015 をインストールすると、フロント エンド サーバーの内部 Web サイトと外部 Web サイトの両方の下に新しい仮想ディレクトリ (Mcx) が作成されます。
+    モバイル Skype for Business Server IM、プレゼンス、連絡先などの機能をサポートします。 モビリティ サービスは、モバイル デバイスの機能をサポートすることを目的とした各プールSkype for Business Serverにインストールされます。 2015 Skype for Business Serverインストールすると、フロント エンド サーバーの内部 Web サイトと外部 Web サイトの両方の下に新しい仮想ディレクトリ (Mcx) が作成されます。
     
     > [!NOTE]
     > 従来のモバイル クライアントの MCX (モビリティ サービス) サポートは、Skype for Business Server 2019 では利用できなくなりました。 現在のすべての Skype for Business モバイル クライアントはUnified Communications Web API (UCWA) を使用して、インスタント メッセージング (IM)、プレゼンス、および連絡先をサポートしています。 MCX を使用している従来のクライアントを持っているユーザーは、現在のクライアントにアップグレードする必要があります。
   
 - **自動検出サービス**
     
-    ユーザーの場所を識別し、モバイル デバイスや他の Skype for Business クライアントが、ネットワークの場所に関係なくリソース (Skype for Business Server Web サービスの内部 URL および外部 URL、Mcx URL、UCWA URL など) を見つけることができます。 自動検出では、ハードコードされたホスト名 (ネットワーク内のユーザーの lyncdiscoverinternal、ネットワーク外のユーザーの lyncdiscover)、およびユーザーの SIP ドメインが使用されます。 HTTP または HTTPS を使用するクライアント接続をサポートします。 
+    ユーザーの場所を識別し、モバイル デバイスや他の Skype for Business クライアントがネットワークの場所に関係なくリソース (Skype for Business Server Web サービスの内部 URL や外部 URL、Mcx URL、UCWA URL など) を見つけることができます。 自動検出では、ハードコードされたホスト名 (ネットワーク内のユーザーの lyncdiscoverinternal、ネットワーク外のユーザーの lyncdiscover)、およびユーザーの SIP ドメインが使用されます。 HTTP または HTTPS を使用するクライアント接続をサポートします。 
     
-    自動検出サービスは、モバイル デバイス上の Skype for Business Server 機能をサポートすることを目的とした、すべてのフロントエンド サーバーと各プールのすべてのディレクターにインストールされます。 サービスをインストールすると、フロント エンド サーバーとディレクターの内部 Web サイトと外部 Web サイトの両方の下に新しい仮想ディレクトリ (自動検出) が作成されます。
+    自動検出サービスは、すべてのフロントエンド サーバーと、モバイル デバイスの機能をサポートすることを目的とした各プールSkype for Business Serverディレクターにインストールされます。 サービスをインストールすると、フロント エンド サーバーとディレクターの内部 Web サイトと外部 Web サイトの両方の下に新しい仮想ディレクトリ (自動検出) が作成されます。
     
 - **プッシュ通知サービス**
     
-    Skype for Business Online データ センターにあるクラウドベースのサービス。 Skype for Business クライアントがバックグラウンドで実行されている電話では、新しいイベントが発生すると、欠落したイベント (プッシュ通知と呼ばれる) の通知がモバイル デバイスに送信されます。 Mobility Service はプッシュ通知サービス (MPNS) に通知を送信し、その通知をモバイル デバイスに送信します。 その後、ユーザーはモバイル デバイス上の通知に応答してアプリをアクティブ化できます。 この機能にはエッジ サーバーが必要です。
+    オンライン データ センター内にあるクラウドベースのSkype for Businessサービス。 Skype for Business クライアントがバックグラウンドで実行されている電話では、新しいイベントが発生すると、欠落したイベント (プッシュ通知と呼ばれる) の通知がモバイル デバイスに送信されます。 Mobility Service はプッシュ通知サービス (MPNS) に通知を送信し、その通知をモバイル デバイスに送信します。 その後、ユーザーはモバイル デバイス上の通知に応答してアプリをアクティブ化できます。 この機能にはエッジ サーバーが必要です。
     
 ## <a name="supported-topologies"></a>サポートされるトポロジ
 <a name="SupportedTopos"> </a>
 
-トポロジ計画では、次の Skype for Business Server アプリケーションがサポートされています。
+トポロジ計画用の次Skype for Business Serverサポートされているアプリケーションがあります。
   
-- Mobility Standard Edition
+- モビリティ Standard Edition
     
-- Mobility Enterprise Edition
+- モビリティ Enterprise Edition
     
-Skype for Business Server エッジ サーバーまたは Lync Server 2013 エッジ サーバーでこの機能を使用できる必要があります。
+この機能は、エッジ サーバーまたは Lync Server 2013 エッジ Skype for Business Serverで使用できる必要があります。
   
 モビリティ サービスは、仲介サーバーの役割と 2 つのネットワーク インターフェイスを関連付けするときにフロント エンド サーバーでサポートされますが、これらのインターフェイスを構成するには適切な手順を実行する必要があります。 仲介サーバーとして通信する特定のインターフェイスと、フロントエンド サーバーとして通信するネットワーク IP インターフェイスに IP アドレスを割り当てる必要があります。 トポロジ ビルダーでは、既定の [構成済み IP アドレスのすべて使用] の選択を使用する代わりに、サービスごとに正しい IP アドレス **を選択** します。
   
@@ -134,7 +134,7 @@ Skype for Business Server エッジ サーバーまたは Lync Server 2013 エ�
 
 モビリティ サービス Mcx と UCWA は、DNS を同じ方法で使用します。 自動検出では、モバイル デバイスは DNS を使用してリソースを検索します。 DNS 参照中に、内部 DNS レコードに関連付けられている FQDN への接続が試行されました (lyncdiscoverinternal.[内部ドメイン名])。 内部 DNS レコードを使用してその接続を確立できない場合は、2 つ目の接続が試行され、今回は外部 DNS レコード (lyncdiscover.[sipdomain])。 では、なぜ 2 つ持っているのでしょうか。 ネットワークの内部であるモバイル デバイスは、内部自動検出 URL を使用できます。 外部モバイル デバイスは、外部自動検出 URL を使用します。 いずれの場合も、自動検出サービスは、モビリティ サービス (Mcx と UCWA) を含む、ユーザーのホーム プールのすべての Web サービス URL を返します。
   
-外部自動検出要求は、Skype for Business Server 用に構成したリバース プロキシを通過する必要があります。 ただし、内部モビリティ サービス URL と外部モビリティ サービス URL の両方が外部 Web サービスの FQDN に関連付けられている。 したがって、モバイル デバイスがネットワークの内部または外部のかどうかに関係なく、デバイスは常にリバース プロキシを介して Skype for Business Server Mobility サービスに外部で接続します。
+外部自動検出要求は、外部自動検出要求に対して構成したリバース プロキシを通過Skype for Business Server。 ただし、内部モビリティ サービス URL と外部モビリティ サービス URL の両方が外部 Web サービスの FQDN に関連付けられている。 したがって、モバイル デバイスがネットワークの内部または外部のかどうかに関係なく、デバイスは常にリバース プロキシを介して Skype for Business Server Mobility サービスに外部で接続します。
   
 > [!NOTE]
 > 先ほどお知らせした通り、すべての Mobility Service トラフィック (内部および外部) はリバース プロキシを通過します。 しかし、内部トラフィックがインターフェイスを経由して離れるときに問題が発生する場合があります。その後、同じインターフェイスで試して戻ってきます。 これにより、スプーフィング (正式には TCP パケットスプーフィングと呼ばれる) セキュリティ ルールに違反する可能性があります。 ヘア ピンニングに Mobility **関数** を設定する必要があります。
@@ -187,25 +187,25 @@ Skype for Business Server エッジ サーバーまたは Lync Server 2013 エ�
     
 ### <a name="certificate-requirements"></a>証明書の要件
 
-Skype for Business モバイル クライアントで自動検出を使用している場合は、証明書の SAN (サブジェクトの代替名) リストを変更して、モバイル クライアントからの安全な接続をサポートする必要があります。 既に証明書を一緒に使用している場合は、ここで説明する SAN エントリを使用して新しい証明書を要求して割り当てる必要があります。 これは、自動検出サービスを実行するフロントエンド サーバーとディレクター (環境内の場合) ごとに実行する必要があります。 リバース プロキシ証明書の SAN リストを変更し、組織内のすべての SIP ドメインに SAN エントリを追加することをお勧めします。
+Skype for Business モバイル クライアントに自動検出を使用している場合は、証明書の SAN (サブジェクトの代替名) リストを変更して、モバイル クライアントからの安全な接続をサポートする必要があります。 既に証明書を一緒に使用している場合は、ここで説明する SAN エントリを使用して新しい証明書を要求して割り当てる必要があります。 これは、自動検出サービスを実行するフロントエンド サーバーとディレクター (環境内の場合) ごとに実行する必要があります。 リバース プロキシ証明書の SAN リストを変更し、組織内のすべての SIP ドメインに SAN エントリを追加することをお勧めします。
   
 内部 CA (証明機関) から新しい証明書を要求する場合、これは簡単なプロセスである必要がありますが、パブリック証明書の方が複雑であり、新しいパブリック 証明書に多くの SIP ドメインを追加するコストが高い場合は言うまでもなく、再要求に多くのコストがかかる可能性があります。そのような状況では、サポートされているアプローチがありますが、推奨 **されません**。 リバース プロキシを構成して、最初の自動検出サービス要求をポート 80 経由で行い、HTTPS (および 443 が既定の構成) であるポート 443 ではなく HTTP を使用します。 その受信要求は、フロントエンド プールまたはディレクターのポート 8080 にリダイレクトされます。 これにより、このトラフィックは要求に HTTPS を使用しないので、証明書を変更する必要がなされません。 しかし、もう一度、これはお勧めしませんが、これはお勧めしません。
   
-### <a name="windows-and-iis-requirements"></a>Windows および IIS の要件
+### <a name="windows-and-iis-requirements"></a>Windows IIS の要件
 
-Skype for Business Server 環境でサポートされている Windows Server バージョンが必要です。 その結果、モビリティのニーズに合った IIS 8 または IIS 8.5 も必要になります。 既定の設定に対していくつかの変更が ASP.NET 必要がありますが、Mobility サービス インストーラーによって自動的に行われます。
+サーバー環境でサポートされているWindowsサーバー バージョンSkype for Business Serverがあります。 その結果、モビリティのニーズに合った IIS 8 または IIS 8.5 も必要になります。 既定の設定に対していくつかの変更が ASP.NET 必要がありますが、Mobility Service インストーラーによって自動的に行われます。
   
 ### <a name="hlb-requirements"></a>HLB の要件
 
-フロントエンド プールの HLB を含む Skype for Business Server のトポロジ (複数のフロントエンド サーバーを含むトポロジ) を使用している場合は、Web サービス トラフィック用の外部 Web サービス仮想 IP (VIP) をソース用に構成する必要があります。 ソース アフィニティは、セッション状態を維持するために、1 つのクライアントからの複数の接続が同じサーバーに送信されるのを確実にするのに役立ちます。
+フロントエンド プールに HLB を含む Skype for Business Server のトポロジ (複数のフロントエンド サーバーを含むトポロジ) を使用している場合は、Web サービス トラフィック用の外部 Web サービス仮想 IP (VIP) をソース用に構成する必要があります。 ソース アフィニティは、セッション状態を維持するために、1 つのクライアントからの複数の接続が同じサーバーに送信されるのを確実にするのに役立ちます。
   
-Skype for Business モバイル クライアントを内部 Wi-Fi ネットワーク経由でのみサポートする予定の場合は、外部 Web サービスの VIP に関する説明に従って、内部 Web サービスの VIP をソース用に構成する必要があります。 この状況では、HLB source_addr Web サービスの内部 VIP に対して、このアフィニティ (または TCP) を使用する必要があります。
+内部 Wi-Fi ネットワーク上でのみモバイル Skype for Business クライアントをサポートする予定の場合は、外部 Web サービスの VIP に関する説明に従って、内部 Web サービスの VIP をソース用に構成する必要があります。 この状況では、HLB source_addr Web サービスの内部 VIP に対して、このアフィニティ (または TCP) を使用する必要があります。
   
-このすべてについて詳しくは、「Skype for Business の負荷分散要件 [」のドキュメントをご覧](network-requirements/load-balancing.md) ください。
+このすべてについて詳しくは、「負荷分散の要件」のドキュメント[Skype for Business](network-requirements/load-balancing.md)してください。
   
 ### <a name="reverse-proxy-requirements"></a>リバース プロキシの要件
 
-Skype for Business モバイル クライアントの自動検出をサポートするには、現在の発行ルールを次のように更新する必要があります。
+モバイル クライアントの自動検出をSkype for Business、現在の発行ルールを次のように更新する必要があります。
   
 - リバース プロキシ証明書の SAN リストを更新し、最初の自動検出サービス要求に HTTPS を使用している場合は、lyncdiscover の Web 発行ルールを更新する必要があります。 \<sipdomain\> これは通常、フロントエンド プールの外部 Web サービス URL の発行 rul と組み合わされます。
     
@@ -216,9 +216,9 @@ Skype for Business モバイル クライアントの自動検出をサポート
 
 トポロジ、コンポーネント、および技術的要件を確認したので、モビリティの実装に関して組織が必要とする可能性がある点について説明します。
   
-### <a name="do-you-want-to-use-automatic-discovery-for-skype-for-business-mobile-clients"></a>Skype for Business モバイル クライアントの自動検出を使用しますか?
+### <a name="do-you-want-to-use-automatic-discovery-for-skype-for-business-mobile-clients"></a>モバイル クライアントに自動検出を使用Skype for Businessしますか?
 
-自動検出を使用することを強く推奨します。 上記の「技術要件」に記載されている新しい内部および外部 DNS レコードの作成が必要です。 自動検出を使用すると、Skype for Business クライアントは、手動で URL を入力する必要なく、任意の場所から Skype for Business Server Web サービスを自動的に検索できます。
+自動検出を使用することを強く推奨します。 上記の「技術要件」に記載されている新しい内部および外部 DNS レコードの作成が必要です。 自動検出を使用すると、Skype for Businessクライアントは、URL を手動で入力することなく、Skype for Business Server Web サービスを任意の場所から自動的に検索できます。
   
 必要に応じて手動設定を使用できます。 これらの URL は、ユーザーがモバイル デバイスに入力する必要があります。
   
@@ -230,7 +230,7 @@ Skype for Business モバイル クライアントの自動検出をサポート
   
 ### <a name="are-you-going-to-support-push-notifications"></a>プッシュ通知をサポートしますか?
 
-プッシュ通知は、アプリがアクティブではないときにユーザーにイベントを通知するために、この機能をサポートするモバイル アプリケーションに使用されます。 エッジ サーバーは、Skype for Business Online データセンターにあるクラウドベースの Skype for Business Server プッシュ通知サービスとのフェデレーション関係を持っている必要があります。 プッシュ通知を有効にするには、コマンドレットを実行する必要があります。
+プッシュ通知は、アプリがアクティブではないときにユーザーにイベントを通知するために、この機能をサポートするモバイル アプリケーションに使用されます。 エッジ サーバーは、クラウド ベースのプッシュ通知サービス (Skype for Business Server Online データセンターにある) とのフェデレーションSkype for Business必要があります。 プッシュ通知を有効にするには、コマンドレットを実行する必要があります。
   
 > [!NOTE]
 > Lync Server 2010 クライアントをまだ使用しているユーザーが存在する場合は、エンタープライズ WiFi ネットワーク上で TCP ポート 5223 open outbound が必要になります。 
@@ -242,17 +242,17 @@ Skype for Business モバイル クライアントの自動検出をサポート
 > [!NOTE]
 > これらのすべての機能のスコープは、グローバル/サイト/ユーザーです。 
   
-|**機能**|**パラメーター名**|**説明**|**既定の設定**|
+|**機能**|**パラメーター名**|**Description**|**既定の設定**|
 |:-----|:-----|:-----|:-----|
-|モビリティの有効化  <br/> |EnableMobility  <br/> |Skype for Business モバイル クライアントがインストールされている特定のスコープ内のユーザーを制御します。 ポリシーが False に設定されている場合、ユーザーはクライアントでサインインできます。  <br/> |True  <br/> |
-|外部音声  <br/> |EnableOutsideVoice  <br/> |ユーザーが[仕事を経由して通話] を使用できる機能を使用すると、ユーザーは携帯電話番号の代わりに自分の電話番号を使用して通話を送受信できます。 False に設定されている場合、ユーザーは仕事用電話番号を使用するときに携帯電話で通話を行う、または受信できない。  <br/> |True  <br/> |
-|IP オーディオとビデオを有効にする  <br/> |EnableIPAudioVideo  <br/> |既定に設定すると、ユーザーは VoIP を使用して、モバイル デバイスで電話またはビデオ通話を行う、または受信できます。 False に設定すると、ユーザーはモバイル デバイスを使用してこれらの操作を実行できません。  <br/> |True  <br/> |
-|IP オーディオに WiFi を要求する  <br/> |RequireWiFiForIPAudio  <br/> |モバイル データ ネットワークの代わりに、クライアントが WiFi で VoIP を使用して通話を行い、受信する必要があるかどうかを定義します。 True に設定されている場合、ユーザーは WiFi 経由で接続されている場合にのみ VoIP 呼び出しを行い、受信できます。  <br/> |False  <br/> |
-|IP ビデオに WiFi を要求する  <br/> |RequireWiFiForIPVideo  <br/> |モバイル データ ネットワークの代わりに、クライアントが WiFi でビデオ通話を行い、受信する必要があるかどうかを定義します。 True に設定されている場合、ユーザーは WiFi 経由で接続されている場合にのみ VoIP 呼び出しを行い、受信できます。  <br/> |False  <br/> |
+|モビリティの有効化  <br/> |EnableMobility  <br/> |モバイル クライアントがインストールされている特定のスコープSkype for Businessを制御します。 ポリシーが False に設定されている場合、ユーザーはクライアントでサインインできます。  <br/> |正解  <br/> |
+|外部音声  <br/> |EnableOutsideVoice  <br/> |ユーザーが[仕事を経由して通話] を使用できる機能を使用すると、ユーザーは携帯電話番号の代わりに自分の電話番号を使用して通話を送受信できます。 False に設定されている場合、ユーザーは仕事用電話番号を使用するときに携帯電話で通話を行う、または受信できない。  <br/> |正解  <br/> |
+|IP オーディオとビデオを有効にする  <br/> |EnableIPAudioVideo  <br/> |既定に設定すると、ユーザーは VoIP を使用して、モバイル デバイスで電話またはビデオ通話を行う、または受信できます。 False に設定すると、ユーザーはモバイル デバイスを使用してこれらの操作を実行できません。  <br/> |正解  <br/> |
+|IP オーディオに WiFi を要求する  <br/> |RequireWiFiForIPAudio  <br/> |モバイル データ ネットワークの代わりに、クライアントが WiFi で VoIP を使用して通話を行い、受信する必要があるかどうかを定義します。 True に設定されている場合、ユーザーは WiFi 経由で接続されている場合にのみ VoIP 呼び出しを行い、受信できます。  <br/> |不正解  <br/> |
+|IP ビデオに WiFi を要求する  <br/> |RequireWiFiForIPVideo  <br/> |モバイル データ ネットワークの代わりに、クライアントが WiFi でビデオ通話を行い、受信する必要があるかどうかを定義します。 True に設定されている場合、ユーザーは WiFi 経由で接続されている場合にのみ VoIP 呼び出しを行い、受信できます。  <br/> |不正解  <br/> |
    
 ### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>会議に対して有効になっていないユーザーエンタープライズ VoIPクリックして会議に参加できますか?
 
-モビリティ機能と仕事を通じて通話にアクセスするには、ユーザーがモバイル 機能を有効にするエンタープライズ VoIP。 ただし、有効になっていない場合でも、モバイル デバイス上のリンクをクリックして会議に参加できますが、適切な音声ポリシーが割り当てられている場合にのみ参加できます。 以下のどちらかの方法で実行できます。
+ユーザーがモビリティ機能と仕事を通じて通話にアクセスするには、ユーザーがモバイル 機能に対して有効エンタープライズ VoIP。 ただし、有効になっていない場合でも、モバイル デバイス上のリンクをクリックして会議に参加できますが、適切な音声ポリシーが割り当てられている場合にのみ参加できます。 以下のどちらかの方法で実行できます。
   
 - これらのユーザーに特定の音声ポリシーを割り当てるか、または、
     
@@ -261,4 +261,4 @@ Skype for Business モバイル クライアントの自動検出をサポート
 いずれにしろ、割り当てる音声ポリシーには、公衆交換電話網 (PSTN) 使用法レコードと、ユーザーが電話会議に参加するためにダイヤルアウトできる場所を定義するルートが必要です。
   
 > [!NOTE]
-> [クリックして参加する] を使用するモバイル ユーザーは、関連する PSTN 使用法レコードと音声ルートと共に音声ポリシーを必要とします。モバイル デバイス上のリンクをクリックすると、Skype for Business Server からの送信通話が結果になります。 
+> [クリックして参加する] を使用するモバイル ユーザーは、関連する PSTN 使用法レコードと音声ルートと共に音声ポリシーを必要とします。これは、モバイル デバイス上のリンクをクリックすると、Skype for Business Server からの発信呼び出しが結果になります。 

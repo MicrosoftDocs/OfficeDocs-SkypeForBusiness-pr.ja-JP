@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: この記事のセクションでは、Active Directory ユーザーを有効、一時的に無効、または削除する方法について説明Skype for Business Server。
-ms.openlocfilehash: 27871597674724126369bd8f90fd6c2a67c2a8ea
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9ff446b6829ed0d6f8e7b36de5b20fe30db5c7ba7fcf426abfd2068ff549a5bc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232692"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351517"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>ユーザー アカウントを管理Skype for Business Server
 
@@ -74,7 +74,7 @@ Active Directory ユーザーを有効にする方法については、「Create
 
 Active Directory ユーザーとコンピューターでユーザー アカウントを有効にした後、Skype for Business Server コントロール パネルを使用して、Active Directory ユーザーを Skype for Business Server に追加して、新しい Skype for Business Server ユーザー アカウントを作成して有効にできます。
 
-コマンドレット (特に [Enable-CsUser) を使用することもできます](/powershell/module/skype/enable-csuser)。
+コマンドレット (特に [Enable-CsUser) を使用することもできます](/powershell/module/skype/enable-csuser?view=skype-ps)。
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
@@ -133,7 +133,7 @@ Active Directory ユーザーとコンピューターでユーザー アカウ�
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-詳細については [、Set-CsUser](/powershell/module/skype/set-csuser) コマンドレットのヘルプ トピックを参照してください。
+詳細については [、Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
 
 ## <a name="disable-a-user-for-enterprise-voice"></a>ユーザーがユーザーを無効エンタープライズ VoIP
 <a name="Disable_EV"> </a>
@@ -195,13 +195,13 @@ Active Directory ユーザーとコンピューターでユーザー アカウ�
   Disable-CsUser -Identity "Ken Myer"
   ```
 
-このコマンドを実行した後、削除したアカウントおよびその以前の設定を再度有効化することはできません。Enable-CsUser コマンドレットを使用して、Ken Myer の新規アカウントを作成する必要があります。
+    After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
 
-詳細については [、Disable-CsUser コマンドレット](/powershell/module/skype/disable-csuser) のヘルプ トピックを参照してください。
+詳細については [、Disable-CsUser コマンドレット](/powershell/module/skype/disable-csuser?view=skype-ps) のヘルプ トピックを参照してください。
 
 ## <a name="see-also"></a>関連項目
 <a name="Remove"> </a>
 
-[Enable-CsUser](/powershell/module/skype/enable-csuser)
+[Enable-CsUser](/powershell/module/skype/enable-csuser?view=skype-ps)
 
-[Disable-CsUser](/powershell/module/skype/disable-csusers)
+[Disable-CsUser](/powershell/module/skype/disable-csuser?view=skype-ps)

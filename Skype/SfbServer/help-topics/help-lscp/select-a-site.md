@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: '[サイトの選択] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。 既存のサイトを使用するには、一覧でサイトをクリックして [OK] をクリックします。'
-ms.openlocfilehash: bc07720a1a929b7db508ce5f04d9b7005038d2e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d0606bbb3da21c6b0e7631a290a6b0a22da8439f1a12bb34f63769e2c7d207bc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345774"
 ---
 # <a name="select-a-site"></a>サイトの選択
 
@@ -29,7 +29,7 @@ ms.locfileid: "51108023"
 > [!NOTE]
 > 使用可能なサイトすべてを取得するには、検索ボックスに何も入力せずに検索アイコンをクリックします。
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -39,7 +39,7 @@ Skype for Business Server コントロール パネルを使用して実行で�
 
 - [永続的なチャットのサイト ポリシーを作成する](/previous-versions/office/lync-server-2013/lync-server-2013-create-a-site-policy-for-persistent-chat)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>常設チャット オプションをグローバルに構成するには
 

@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: 自動応答で使用するために、Microsoft Teamsの休日を設定する方法について学習します。
-ms.openlocfilehash: ff87a3888bc98e1794f8074052aae4c0bbe3545d
-ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
+ms.openlocfilehash: c7fa5d44f836e35022acab24c2d4b7ad6c60536295bba7adba8fc568b1560443
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351747"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams で休日を設定する
 
@@ -80,6 +80,6 @@ Teams Holidays 機能を使用すると、部門、通話キュー、または�
 
 7. **[保存]** を選択します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [自動応答Teams通話キューの計画を立てませんか](plan-auto-attendant-call-queue.md)?

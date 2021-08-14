@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: リトアニアで使用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 108aea98ca8edd65c04c135e923fcab80c615b4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c9fffeef387a208cb5dbff6f8828cbc6b79e1fc6fd96eb2aa0a2073dae0a66fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122291"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352365"
 ---
 # <a name="availability-in-lithuania"></a>リトアニアでの利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51122291"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
-description: '概要: Skype for Business Server のレポート ツールである通話品質ダッシュボードについて学習します。'
-ms.openlocfilehash: de0985f1da2e201896b3f67c9fffff8f71f5f1e2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 通話品質ダッシュボード (このダッシュボードのレポート ツール) についてSkype for Business Server。'
+ms.openlocfilehash: 919086cc217a7c0f6c851a926b36c1c41badf5622bfc276fbd388f36eea11198
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826127"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351447"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボード
  
-**概要:** Skype for Business Server のレポート ツールである通話品質ダッシュボードについて学習します。
+**概要:** 通話品質ダッシュボード (このダッシュボードのレポート ツール) についてSkype for Business Server。
  
-Skype for Business Server 通話品質ダッシュボード (CQD) は、Skype for Business Server および Lync Server 2013 の監視サーバーの Quality of Experience データベース上のレポート層です。 CQD は、Microsoft SQL Server Analysis Services を使用して、集計された使用状況と通話品質情報を提供し、データ セットのフィルタリングとピボットを行います。
+[Skype for Business Server通話品質ダッシュボード (CQD) は、Skype for Business Server および Lync Server 2013 の監視サーバーの Quality of Experience データベースの上にレポート層です。 CQD は、Microsoft SQL Server分析サービスを使用して、集計の使用状況と通話品質情報を提供し、データ セットのフィルター処理とピボットを行います。
   
-このセクションには以下のトピックが含まれており、通話品質ダッシュボードを展開する前に確認する必要があります。
+次のトピックは、このセクションに含まれており、通話品質ダッシュボードを展開する前に確認する必要があります。
   
-- [Skype for Business Server の通話品質ダッシュボードの計画](plan.md)
-- [Skype for Business Server の通話品質ダッシュボードの展開](deploy-0.md)
-- [Skype for Business Server の通話品質ダッシュボードの使用](use.md)
-- [Skype for Business Server の通話品質ダッシュボードの開発](develop.md)
+- [通話品質ダッシュボードの計画を立Skype for Business Server](plan.md)
+- [通話品質ダッシュボードを展開Skype for Business Server](deploy-0.md)
+- [通話品質ダッシュボードを使用した通話Skype for Business Server](use.md)
+- [通話品質ダッシュボードを開発Skype for Business Server](develop.md)

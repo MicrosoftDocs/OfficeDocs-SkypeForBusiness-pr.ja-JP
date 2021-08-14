@@ -19,16 +19,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8385e6721a24c3ad1bd320dd2f6e5e14091181b0
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
-ms.translationtype: MT
+ms.openlocfilehash: 510806c6b33260913454fa30f560b785b862b661dc04bf8eaf5279995c5a51a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768226"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352286"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する
 
-Microsoft Teams には、デスクトップ (Windows、Mac、Linux)、Web、モバイル (Android および iOS) で利用できるクライアントがあります。 これらのクライアントすべてにアクティブなインターネット接続が必要で、オフライン モードはサポートされていません。
+Microsoft Teams には、Web、デスクトップ (Windows、Mac、Linux) およびモバイル (Android、iOS) で利用できるクライアントがあります。これらのクライアントはすべてインターネット接続が必要で、オフライン モードをサポートしていません。
 
 > [!NOTE]
 > 別のプラットフォームでの機能についての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
@@ -63,7 +63,7 @@ Windows での Microsoft Teams のインストールでは、32 ビットと 64 
 > [!NOTE]
 > Microsoft Teams のアーキテクチャ (32 ビットと 64 ビット) はインストールされている Windows および Office のアーキテクチャに依存しません。
 
-Windows クライアントは、ユーザーのプロファイルの AppData フォルダーに展開されます。 ユーザーのローカル プロファイルへの展開で、権限を必要とせずクライアントをインストールする事ができます。 Windows クライアントは、次の場所を利用します。
+Windows クライアントは、ユーザーのプロファイルにある AppData フォルダーに展開されます。ユーザーのローカル プロファイルに展開すると、クライアントは管理者特権を必要とせずにインストール可能になります。Windows クライアントは次の場所を利用してインストールされます。
 
 - %LocalAppData%\\Microsoft\\Teams
 
@@ -73,12 +73,12 @@ Windows クライアントは、ユーザーのプロファイルの AppData フ
 
 - %LocalAppData%\\SquirrelTemp
 
-ユーザーが Microsoft Teams クライアントを使用して初めて通話を開始する時は、ユーザーに通信の許可を求める Windows ファイアウォール設定の警告が通知される場合があります。 警告を受け入れなくても通話は機能するため、このメッセージを無視するように指示される場合があります。
+ユーザーが Microsoft Teams クライアントを使用して初めて通話を開始すると、ユーザーに通信の許可を求める Windows ファイアウォール設定に関する警告が通知される場合があります。警告を受け入れなくても通話は機能するため、このメッセージを無視するように指示される場合があります。
 
 ![[Windows セキュリティの重要な警告] ダイアログのスクリーンショット。](media/Get_clients_for_Microsoft_Teams_image3.png)
 
 > [!NOTE]
-> Windows ファイアウォールの設定は、[キャンセル] を選択してプロンプトを閉じた場合でも変更されます。 TCP プロトコルと UDP プロトコルの両方の許可アクションで、teams.exe の 2 つの受信ルールが作成されます。 
+> Windows ファイアウォール設定は、[キャンセル] の選択によりプロンプトが受け入れられなかった場合でも変更されます。TCP および UDP プロトコルの両方に関する許可アクションで、teams.exe に関する2 つの着信ルールが作成されます。
 
 ユーザーが Teams で最初の通話を行うときに、ファイアウォール ルールの作成が要求されないようにする場合は、下に示す「[PowerShell のサンプル スクリプト - 受信ファイアウォール ルール](#sample-powershell-script---inbound-firewall-rule)」を使用します。
 
@@ -190,7 +190,7 @@ Web クライアントは[https://teams.microsoft.com](https://go.microsoft.com/
 
 ## <a name="mobile-clients"></a>モバイル クライアント
 
-Microsoft Teams モバイル アプリは Android および iOS で利用可能で、外出先でチャット会話に参加しているユーザーを対象とし、ピア ツー ピアの音声通話を許可します。 モバイル アプリを使用する場合は、Google Play と Apple App Store の関連モバイル ストアに移動します。 Windows Phone App は 2018 年 7 月 20 日に廃止された為、動作しなくなる可能性があります。
+Microsoft Teams のモバイル アプリは Android および iOSで利用でき、チャットベースの会話に参加している外出中のユーザーを対象としており、ピアツーピアの音声通話が使用できます。モバイル アプリについては、Google Play、Apple App Store にアクセスしてください。Windows Phone アプリは 2018 年 7 月 20 日に廃止され、機能しなくなる可能性があります。
 
 中国で Android 用 Teams を取得する方法については、[こちら](get-teams-android-in-china.md)を参照してください。
 
@@ -213,7 +213,7 @@ Microsoft Teams モバイル アプリをサポートしているモバイル �
 
 ## <a name="client-update-management"></a>クライアントの更新管理
 
-クライアントは現在、Microsoft Teams サービスによって自動的に更新されています。IT 管理者が介入する必要はありません。 利用可能な更新プログラムがある場合、クライアントは自動的にその更新プログラムをダウンロードします。アプリが一定時間アイドル状態となった場合には更新処理が開始されます。
+クライアントは現在、IT 管理者の介入を必要とせずに Microsoft Teams サービスによって自動的に更新されています。利用可能な更新がある場合、クライアントは自動的にその更新をダウンロードします。アプリが一定時間アイドル状態となった場合には更新処理が開始されます。
 
 ## <a name="client-side-configurations"></a>クライアント側の設定
 

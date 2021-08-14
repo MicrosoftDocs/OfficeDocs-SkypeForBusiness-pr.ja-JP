@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のユーザー アカウント プロパティをカスタマイズする
+title: ユーザー アカウントのプロパティをカスタマイズSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: このセクションの手順を使用して、個々のユーザー アカウントのプロパティを変更できます。
-ms.openlocfilehash: 6f2c3a76f9047da0a5d78695518cfb8355ab82e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b1c3bc75a59834c63f97c9425a775d902f246b299f76318ed890d060caf7e01b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826267"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351527"
 ---
-# <a name="customize-user-account-properties-for-skype-for-business-server"></a>Skype for Business Server のユーザー アカウント プロパティをカスタマイズする
+# <a name="customize-user-account-properties-for-skype-for-business-server"></a>ユーザー アカウントのプロパティをカスタマイズSkype for Business Server
  
 このセクションの手順を使用して、個々のユーザー アカウントのプロパティを変更できます。
   
-個々のユーザー レベルで実行できる基本的な操作は 2 種類です。
+個々のユーザー レベルで実行できる 2 つの基本的な操作があります。
   
 - [特定のユーザー アカウントのテレフォニー オプションを構成する](customize-properties.md#Tel_Op)
     
@@ -32,23 +32,23 @@ ms.locfileid: "49826267"
 ## <a name="configure-telephony-options-for-a-specific-user-account"></a>特定のユーザー アカウントのテレフォニー オプションを構成する
 <a name="Tel_Op"> </a>
 
-特定のユーザーのテレフォニー設定をカスタマイズできます (個々のユーザーが Skype for Business Server に対して有効で、組織がテレフォニーをサポートしている場合)。
+特定のユーザーのテレフォニー設定をカスタマイズできます (個々のユーザーがユーザーに対して有効にされ、Skype for Business Serverがテレフォニーをサポートしている限り)。
   
-Skype for Business Server のユーザー テレフォニー オプションには、次のものがあります。
+Skype for Business Serverテレフォニー オプションには、次のものが含まれます。
   
-- **オーディオ/ビデオが無効** ユーザーは、音声とビデオを使用して通話を行う必要があります。
+- **オーディオ/ビデオが無効** ユーザーは、オーディオとビデオを使用して通話を行う必要があります。
     
 - **PC 間のみ** ユーザーは PC 間の音声通話またはビデオ通話のみを行います。
     
-- **エンタープライズ VoIP** ユーザーは、Skype for Business Server インフラストラクチャを使用して、すべての着信および発信通話をルーティングできます。 また、PC 間の通話も可能です。
+- **エンタープライズ VoIP** ユーザーは、すべての着信および発信Skype for Business Serverインフラストラクチャを使用してルーティングできます。 また、PC 間の通話も可能です。
     
-- **リモート通話コントロール** ユーザーは Skype for Business Server を使用してデスクトップ電話を制御し、PC 間呼び出しを行います。
+- **リモート通話制御** ユーザーは、Skype for Business Serverを使用してデスクトップ電話を制御し、PC 間通話を行う場合にも使用できます。
     
-組織のテレフォニーの構成の詳細については、「展開」のドキュメントの [「Enable users for エンタープライズ VoIP in Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) and Deploy エンタープライズ VoIP in Skype for Business [Server」](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) を参照してください。
+組織のテレフォニーの構成の詳細については、「展開」のドキュメントの[「Skype for Business Server](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)の エンタープライズ VoIP のユーザー[](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)を有効にする」および「エンタープライズ VoIP Skype for Business Server を展開する」を参照してください。
   
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
     
 3. 左側のナビゲーション バーで **[ユーザー]** をクリックします。
     
@@ -64,23 +64,23 @@ Skype for Business Server のユーザー テレフォニー オプションに�
     
    - ユーザーの PC 間の音声通信を有効にするが、リモート通話コントロールやエンタープライズ VoIP は有効にしない場合は、[**PC 間のみ**] をクリックします。 ユーザーが PC 間の音声通信に使用する電話の [**回線 URI**] の値を指定します。
     
-   - PC 間の音声通信を含むサービス ポリシーのクラスに従って、Skype for Business インフラストラクチャを使用してユーザーの電話をルーティングするには、[エンタープライズ VoIP ] をクリック **します。** [**回線 URI**] でエンタープライズ VoIP の電話番号を指定します。 [**ダイヤル プラン ポリシー**] と [**音声ポリシー**] で、ユーザーの適切なポリシーを指定します。 ユーザーのダイヤルした電話番号を E.164 形式に変換するための正規化ルールを指定するには、[**場所のポリシー**] で適切な場所のプロファイルを選択します。
+   - PC 間オーディオ通信を含むサービス ポリシーのクラスに従って Skype for Business インフラストラクチャを使用してユーザーの電話をルーティングするには、[エンタープライズ VoIP]**をクリックします**。 [**回線 URI**] でエンタープライズ VoIP の電話番号を指定します。 [**ダイヤル プラン ポリシー**] と [**音声ポリシー**] で、ユーザーの適切なポリシーを指定します。 ユーザーのダイヤルした電話番号を E.164 形式に変換するための正規化ルールを指定するには、[**場所のポリシー**] で適切な場所のプロファイルを選択します。
     
-   - ユーザーが Skype for Business Server からデスクトップ電話回線を制御して PC 間通話と PC 間通話を行うリモート通話コントロールを有効にするには、[リモート通話コントロール] をクリック **します**。 [**回線 URI**] でリモート通話コントロールの電話番号を指定します。 通話ルーティングを行うには、ユーザーがデスクトップ電話と構内交換機 (PBX) を持っている必要があります。
+   - ユーザーが Skype for Business Server からデスクトップ電話回線を制御して PC 間通話と PC 間通話を行うリモート通話制御を有効にするには、[リモート通話制御] をクリック **します**。 [**回線 URI**] でリモート通話コントロールの電話番号を指定します。 通話ルーティングを行うには、ユーザーがデスクトップ電話と構内交換機 (PBX) を持っている必要があります。
     
 ## <a name="move-users-to-another-pool"></a>ユーザーを別のプールに移動する
 <a name="Move_Users"> </a>
 
-Skype for Business Server コントロール パネルを使用して、ユーザーを特定のサーバーまたはプールに割り当てできます。
+[コントロール パネル] Skype for Business Serverを使用して、ユーザーを特定のサーバーまたはプールに割り当てできます。
   
 > [!TIP]
-> Lync Server 2010 以前を実行している送信元プールから複雑な Active Directory 環境内の Skype for Business Server のレプリケーション先プールに既存のすべてのユーザーを移動すると、Active Directory レプリケーションの速度が低下する可能性があります。 これを回避するには、検索フィルターを使用して、Lync Server 2010 以前を実行しているプールからユーザーを個別に移動するか、Skype for Business Server 管理シェルを使用してコマンドレットを使用してユーザーを移動できます。 また、フィルター機能は Skype for Business Server ユーザーと一緒に動作します。 
+> Lync Server 2010 以前を実行しているソース プールから、複雑な Active Directory 環境の Skype for Business Server 宛先プールに既存のすべてのユーザーを移動すると、Active Directory のレプリケーションが遅くなる可能性があります。 これを回避するには、検索フィルターを使用して、Lync Server 2010 以前を実行しているプールからユーザーを個別に移動するか、Skype for Business Server 管理シェルを使用してコマンドレットを使用してユーザーを移動できます。 また、フィルター機能は、ユーザーのSkype for Business Serverします。 
   
 ### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>選択したユーザーを別のサーバーまたはプールに移動するには
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで **[ユーザー]** をクリックします。
     
@@ -101,7 +101,7 @@ Skype for Business Server コントロール パネルを使用して、ユー�
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
     
@@ -120,11 +120,11 @@ Skype for Business Server コントロール パネルを使用して、ユー�
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
     
 3. 左側のナビゲーション バーで **[ユーザー]** をクリックします。
     
-4. ユーザー **検索で、[** 検索] を **クリックし**、[フィルターの追加] **をクリックします**。
+4. [ **ユーザー検索] で**、[検索] **をクリック** し、[フィルターの追加] **をクリックします**。
     
 5. 検索条件で [**レジストラー プール**] を選択し、[**が次の値に等しい**] を選択して、[**現在のプールの FQDN**] を選択し、[**検索**] をクリックします。
     
@@ -142,15 +142,15 @@ Skype for Business Server コントロール パネルを使用して、ユー�
     > [!CAUTION]
     > [**強制**] を選択すると、ユーザー アカウントは移動しますが、関連付けられているユーザー データ (ユーザーが予約した会議、連絡先など) がすべて削除されます。選択しない場合は、アカウントも関連付けられているデータも移動します。 
   
-### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Windows Powershell コマンドレットを使用してユーザーをプール間で移動するには
+### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>Powershell コマンドレットを使用して、あるプールから別のプールWindows移動するには
 
-1. Windows PowerShell コマンドの実行方法 (ローカルまたはリモート) に応じて、次のように正しい Skype for Business Server 管理者の役割のメンバーとしてログオンする必要があります。
+1. Windows PowerShell コマンドの実行方法 (ローカルまたはリモート) に応じて、次のように正しい Skype for Business Server 管理役割のメンバーとしてログオンする必要があります。
     
-   a.  ローカル コンピューターでコマンドを実行している場合 (たとえば、フロントエンド サーバーに直接ログオンする場合): Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、またはセットアップのアクセス許可の委任の説明に従って必要なユーザー権限を使用してログオンします。
+   a. ローカル コンピューターでコマンドを実行している場合 (たとえば、フロント エンド サーバーに直接ログオンします):Skype for Business Server 管理シェルが RTCUniversalServerAdmins グループのメンバーとしてインストールされているコンピューターにログオンするか、「Delegate **Setup Permissions」** の説明に従って必要なユーザー権限を持つコンピューターにログオンします。
     
-   b. 別のコンピューターでリモートでコマンドを実行している場合 (たとえば、コンピューターにログオンし、Standard Edition フロントエンド サーバーでリモートでコマンドを実行する場合): CsUserAdministrator の役割または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
+   b. 別のコンピューターでリモートでコマンドを実行している場合 (たとえば、コンピューターにログオンし、Standard Edition フロント エンド サーバーでリモートでコマンドを実行する): CsUserAdministrator 役割または CsAdministrator 役割に割り当てられているユーザー アカウントから、内部展開内の任意のコンピューターにログオンします。
     
-2. Skype for Business Server 管理シェルを起動します。[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[Skype for Business]** をクリックして **、[Skype for Business Server 管理** シェル] をクリックします。
+2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし、[Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. 単一のユーザーを移動するには、Move-CsUser コマンドレットを次のように使用します。
     

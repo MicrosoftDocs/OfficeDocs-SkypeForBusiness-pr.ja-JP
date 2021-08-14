@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e0415f76-d125-4c15-861b-f5780ac1aef2
-description: MSMQProcessing テーブルは内部使用専用です。 この表は、Skype for Business Server 2015 で導入されました。
-ms.openlocfilehash: 9f327df663a4261445d6c294be11b6f179057356
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: MSMQProcessing テーブルは内部でのみ使用できます。 この表は、2015 年Skype for Business Serverされました。
+ms.openlocfilehash: 1744a7e05a906d23d61ad4b55d2f85293ad98ab25699ed2c4b638ba0820afb6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813117"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346363"
 ---
 # <a name="msmqprocessing-table"></a>MSMQProcessing テーブル
  
-MSMQProcessing テーブルは内部使用専用です。 この表は、Skype for Business Server 2015 で導入されました。
+MSMQProcessing テーブルは内部でのみ使用できます。 この表は、2015 年Skype for Business Serverされました。
   
 

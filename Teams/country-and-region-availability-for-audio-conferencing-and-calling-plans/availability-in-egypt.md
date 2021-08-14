@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、エジプトでMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
-ms.openlocfilehash: 412a43c5d71dce3a9a0ac0bda52c890dbf77af1b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0f5cb9be98dcde2ddac9866f74c72b2997e6d2683a81f0640dedd165ef0dabee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118165"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352375"
 ---
 # <a name="availability-in-egypt"></a>エジプトでの利用可能性
 
@@ -82,7 +82,7 @@ ms.locfileid: "51118165"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

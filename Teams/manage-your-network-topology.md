@@ -19,12 +19,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: クラウド音声機能のネットワーク設定を構成する方法については、Microsoft Teams。
-ms.openlocfilehash: c77f1e6d31953ce529bff1fab6aa16e1d889e29f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 44eeb7792e7fd37273ec8dd013d31b673fa2cf38f09c6c744de24a81f44b4f01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351886"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>クラウド音声機能のネットワーク トポロジを管理する Microsoft Teams
 
@@ -182,6 +182,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 [「Set-CsTenantTrustedIPAddress」も参照してください](/powershell/module/skype/set-cstenanttrustedipaddress)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams のクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

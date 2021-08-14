@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e4fc9b8ace3cec2161008cffe61a8b312e61f39
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: abbfd257297475ee059ca80ca854fc1372cf51b26cc6afdf96a00b1abce9fde4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278460"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346323"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>カスタム チーム テンプレートを作成する Microsoft Teams
 
@@ -108,7 +108,7 @@ ms.locfileid: "53278460"
 
 **解決策**: [Web サイト] タブの内容の表示に問題がある場合は、別の Web ページでタブを開くか、代わりにデスクトップ アプリで Teams を開き、Web サイト タブ アプリを表示します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [管理センターでチーム テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
 - [既存のチームからテンプレートを作成する](create-template-from-existing-team.md)

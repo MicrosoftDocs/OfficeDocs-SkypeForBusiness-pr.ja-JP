@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: '[Teams 使用率Power BI レポートを使用して、Microsoft Teams通話品質ダッシュボード (CQD) データにアクセスして、組織内のMicrosoft Teams使用状況を追跡します。'
-ms.openlocfilehash: 719f02ce7a5cd36e96ed7fd563c259c6e77764fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e32d321383621b4a961856ad091ba0497e41d7b27fa32925987a8bb093c7fc91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095041"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352505"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>CQD Microsoft Teamsを使用してPower BIの使用状況を表示する
 
@@ -156,7 +156,7 @@ P2P と電話会議の音声の違いを示す左下のグラフは、過去 1 �
 下の表は、各ユーザーがその時間に参加したセッションの詳細情報を示しています。 [エラーの種類] 列は、呼び出しがドロップされた原因を特定する際に役立ちます。 [Capture] 列と [Render Device] 列は、低品質の通話が報告された理由を特定するのに役立ちます。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話品質ダッシュボードで利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
