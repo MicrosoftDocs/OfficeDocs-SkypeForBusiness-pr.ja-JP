@@ -14,24 +14,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: da4d28e865a20e1d095cbd19de8fd7b3c3da97c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 0dc9972d11bafb155800e7bbbe1b2d5e281636011d56a66b233b67ab59fd76fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118746"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343811"
 ---
 # <a name="pin-policy"></a>PIN ポリシー
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
- **IP 電話の PIN ポリシーを使用する** この個人識別番号 (PIN) ポリシーは、IP 電話を使用して Skype for Business Server に接続するユーザーの認証をサポートします。
-- [Skype for Business Server で新しい PIN ポリシーを作成する](../../../manage/authentication/create-a-new-pin-policy.md)
+ **IP 電話の PIN ポリシーを使用する** この個人識別番号 (PIN) ポリシーは、IP 電話を使用してSkype for Business Serverユーザーの認証をサポートします。
+- [新しい PIN ポリシーを作成Skype for Business Server](../../../manage/authentication/create-a-new-pin-policy.md)
 
-- [Skype for Business Server の既存の PIN ポリシーを変更する](../../../manage/authentication/modify-an-existing-pin-policy.md)
+- [既存の PIN ポリシーを変更Skype for Business Server](../../../manage/authentication/modify-an-existing-pin-policy.md)
 
-- [Skype for Business Server で PIN ポリシーを削除する](../../../manage/authentication/delete-a-pin-policy.md)
+- [[PIN ポリシーを削除する] Skype for Business Server](../../../manage/authentication/delete-a-pin-policy.md)
 
   **ダイヤルイン会議の PIN ポリシーを使用する** この PIN ポリシーを使用すると、組織内の Active Directory ドメイン サービス資格情報を持つユーザーは、PIN を入力して認証されたユーザーとしてダイヤルイン会議に参加できます。
 - [サイトまたはユーザーのグループのダイヤルイン会議の PIN 設定を作成または変更する](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)

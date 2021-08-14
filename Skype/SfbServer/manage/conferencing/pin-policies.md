@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server でのダイヤルイン会議の PIN ポリシーの管理
+title: ダイヤルイン会議の PIN ポリシーを管理する (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: '概要: Skype for Business Server でダイヤルイン会議の PIN ポリシーを管理する方法について説明します。'
-ms.openlocfilehash: 34b006b54242c25fb9afcd3fc9fd6e6692e9cbd2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: ダイヤルイン会議の PIN ポリシーを管理する方法について説明します。Skype for Business Server。'
+ms.openlocfilehash: d803e7d21be9743704402e2d9532fcfee413d804296cade2e56cbb875c965361
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096749"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343441"
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Skype for Business Server でのダイヤルイン会議の PIN ポリシーの管理
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>ダイヤルイン会議の PIN ポリシーを管理する (Skype for Business Server
  
-**概要:** Skype for Business Server でダイヤルイン会議の PIN ポリシーを管理する方法について説明します。
+**概要:** ダイヤルイン会議の PIN ポリシーを管理する方法については、Skype for Business Server。
   
-組織内に Active Directory ドメイン サービス (AD DS) 資格情報を持つ Skype for Business Server ユーザーは、個人識別番号 (PIN) を使用して、認証されたユーザーとしてダイヤルイン会議に参加できます。 PIN ポリシーは、ダイヤルイン会議 PIN の動作に関するルールを定義します。
+Skype for Business Server Active Directory ドメイン サービス (AD DS) 資格情報を持つユーザーは、個人識別番号 (PIN) を使用して、認証されたユーザーとしてダイヤルイン会議に参加できます。 PIN ポリシーは、ダイヤルイン会議 PIN の動作に関するルールを定義します。
   
  組織全体で同じ PIN ポリシーを使用する場合は、グローバル PIN ポリシーを使用し、必要に応じて変更できます。 グローバル PIN ポリシーは、ダイヤルイン会議 PIN のルールを、フォレスト レベルで定義します。 グローバル PIN ポリシーは変更できますが、削除することはできません。
   
@@ -33,19 +33,19 @@ PIN ポリシーは、最も狭い範囲から最も広い範囲のユーザー�
   
 ## <a name="view-information-about-pin-policies"></a>PIN ポリシーに関する情報を表示する
 
-PIN ポリシーに関する情報は、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して表示できます。
+PIN ポリシーに関する情報を表示するには、コントロール パネルSkype for Business Server管理シェルを使用Skype for Business Server使用します。
   
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して PIN ポリシーに関する情報を表示する
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用して PIN ポリシーに関するSkype for Business Server表示する
 
 1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
 4. [PIN ポリシー **] ページで**、表示する PIN ポリシーをクリックし、[編集] をクリックし、[詳細の表示]**をクリックします**。
     
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して PIN ポリシーに関する情報を表示する
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して PIN ポリシーに関するSkype for Business Server表示する
 
 PIN ポリシーに関する情報を表示するには **、Get-CsPinPolicy コマンドレットを使用** します。 たとえば、次のコマンドは、Identity サイト:Redmond を持つ 1 つの PIN ポリシーに関する情報を返します。
   
@@ -57,13 +57,13 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 ## <a name="modify-the-global-pin-policy"></a>グローバル PIN ポリシーの変更
 
-グローバル PIN ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して変更できます。
+グローバル PIN ポリシーは、コントロール パネルまたは管理シェルSkype for Business Server使用して変更Skype for Business Serverできます。
   
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してグローバル ダイヤルイン会議 PIN ポリシーを変更する
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用してグローバルダイヤルイン会議 PIN ポリシー Skype for Business Serverする
 
 1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで [**会議**] をクリックし、[**PIN ポリシー**] をクリックします。
     
@@ -88,7 +88,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 12. [**確定**] をクリックします。
     
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してグローバルダイヤルイン会議 PIN ポリシーを変更する
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してグローバルダイヤルイン会議 PIN Skype for Business Server変更する
 
 グローバル ダイヤルイン会議 PIN ポリシーを変更するには **、Set-CsPinPolicy コマンドレットを使用** します。
   
@@ -102,13 +102,13 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 ## <a name="create-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを作成する
 
-ユーザーまたはサイトの PIN ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して作成できます。
+ユーザーまたはサイトの PIN ポリシーを作成するには、コントロール パネルSkype for Business Server管理シェルを使用Skype for Business Server使用します。
   
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してユーザーまたはサイトの PIN ポリシーを作成する
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用してユーザーまたはサイトの PIN Skype for Business Server作成する
 
 1. RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
@@ -139,7 +139,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 13. [**確定**] をクリックします。
     
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してユーザーまたはサイトの PIN ポリシーを作成する
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してユーザーまたはサイトの PIN Skype for Business Server作成する
 
 ユーザーまたはサイトの PIN ポリシーを作成するには **、New-CsPinPolicy コマンドレットを使用** します。
   
@@ -153,13 +153,13 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを変更する
 
-ユーザーまたはサイトの PIN ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して変更できます。
+ユーザーまたはサイトの PIN ポリシーを変更するには、コントロール Skype for Business Serverを使用するか、管理シェルSkype for Business Server使用します。
   
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してユーザーまたはサイトの PIN ポリシーを変更する
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用してユーザーまたはサイトの PIN Skype for Business Server変更する
 
 1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
@@ -169,7 +169,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
     
 6. [**確定**] をクリックします。
     
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してユーザーまたはサイトの PIN ポリシーを変更する
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してユーザーまたはサイトの PIN Skype for Business Server変更する
 
 ダイヤルイン会議 PIN ポリシーを変更するには **、Set-CsPinPolicy コマンドレットを使用** します。
   
@@ -183,19 +183,19 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを削除する
 
-ユーザーまたはサイトの PIN ポリシーは、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して削除できます。
+ユーザーまたはサイトの PIN ポリシーは、コントロール パネルまたは管理シェルSkype for Business Server使用して削除Skype for Business Serverできます。
   
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用してユーザーまたはサイトの PIN ポリシーを削除する
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用してユーザーまたはサイトの PIN Skype for Business Server削除する
 
 1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで [**会議**]、[**PIN ポリシー**] の順にクリックします。
     
 4. [PIN ポリシー **] ページで**、変更する PIN ポリシーをクリックし、[編集] をクリックし、[削除] を **クリックします**。
     
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用してユーザーまたはサイトの PIN ポリシーを削除する
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用してユーザーまたはサイトの PIN Skype for Business Server削除する
 
 ユーザーまたはサイトの PIN ポリシーを削除するには **、Remove-CsPinPolicy コマンドレットを使用** します。
   

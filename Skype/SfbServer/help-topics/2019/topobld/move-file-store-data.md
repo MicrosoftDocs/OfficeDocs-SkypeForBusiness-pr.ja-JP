@@ -1,5 +1,5 @@
 ---
-title: ファイル ストア データを Skype for Business Server の新しいファイル ストアに移動する
+title: '[ファイル ストア データを新しいファイル ストアに移動する] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server 展開のファイル ストアとして現在機能しているファイル サーバーを削除する必要がある場合、または現在のファイル ストアを使用できない他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 次に、次の手順を実行する必要があります。
-ms.openlocfilehash: a2870f024964a385852b7ecc781dbfb5647550b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4e9a28fa1793e642fbf3407c6a6306a979fa287844a9862a55780f1bd1169f82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093305"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342482"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>ファイル ストア データを Skype for Business Server の新しいファイル ストアに移動する
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>[ファイル ストア データを新しいファイル ストアに移動する] Skype for Business Server
 
 Skype for Business Server 展開のファイル ストアとして現在機能しているファイル サーバーを削除する必要がある場合、または現在のファイル ストアを使用できない他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 次に、次の手順を実行する必要があります。
 
-1. 削除する予定のファイル ストアを使用する Skype for Business Server サービスをシャットダウンします。
+1. 削除するSkype for Business Serverを使用するサービスをシャットダウンします。
 
 2. トポロジ ビルダーでファイル ストアを定義し、変更を発行して、新しいファイル ストアを展開で使用できます。
 
@@ -36,9 +36,9 @@ Skype for Business Server 展開のファイル ストアとして現在機能�
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>ファイル ストアのデータを新しいファイル ストアに移動するには
 
-1. Skype for Business Server 管理ツールがインストールされている RTCUniversersalServerAdmins または CsServerAdministrator グループのメンバーとしてコンピューターにログオンします。
+1. SKYPE FOR BUSINESS SERVER 管理ツールがインストールされている RTCUniversersalServerAdmins または CsServerAdministrator グループのメンバーとしてコンピューターにログオンします。
 
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。
 
 3. 左側のナビゲーション バーで [**トポロジ**] をクリックし、[**状態**] をクリックします。
 
@@ -46,7 +46,7 @@ Skype for Business Server 展開のファイル ストアとして現在機能�
 
 5. トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
 
-6. トポロジ ビルダーの開始: [スタート] を **クリックし**、[すべてのプログラム] をクリックし **、[Skype for Business Server]** をクリックし、[Skype for Business Server トポロジ ビルダー]**をクリックします**。
+6. トポロジ ビルダーの開始: [スタート] を **クリック** し、[すべてのプログラム] をクリックし、[Skype for Business Server] を **クリック** し、[トポロジ ビルダー] Skype for Business Server **クリックします**。
 
 7. ファイル ストアを使用するサーバーまたはプールを選択し、次の操作を行います。
 
@@ -65,7 +65,7 @@ Skype for Business Server 展開のファイル ストアとして現在機能�
 
 13. [ **プロパティの編集]** の [ **関連付** け] の [ファイル ストア **] で**、新しいファイル共有を選択し **、[OK] をクリックします**。
 
-14. トポロジを発行し、レプリケーションの状態を確認し、必要に応じて Skype for Business Server 展開ウィザードを実行します。 詳細については、「[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))」を参照してください。
+14. トポロジを発行し、レプリケーションの状態を確認し、必要にSkype for Business Server展開ウィザードを実行します。 詳細については、「[Common Procedures for Removing Lync Servers and Components](/previous-versions/office/skype-server-2010/gg195688(v=ocs.14))」を参照してください。
 
 15. コマンド プロンプトを開始する: [スタート] **をクリックし**、[ **実行**] をクリックし、「コマンド プロンプト」と入力cmd.exe。
 

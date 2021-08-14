@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の P2P 概要サブレポート
+title: P2P Summary Subreport in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-description: '概要: Skype for Business Server の P2P 概要サブレポートについて学習します。'
-ms.openlocfilehash: 518047fbca3c46cdc9b99299b8222d4f4fbd48ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: P2P Summary Subreport の詳細については、Skype for Business Server。'
+ms.openlocfilehash: 07d354ba14c8503571459081aaaf3445ec540fdb9a5caecc4b40576f6662f038
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345554"
 ---
-# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Skype for Business Server の P2P 概要サブレポート
+# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P Summary Subreport in Skype for Business Server
  
-**概要:** Skype for Business Server の P2P 概要サブレポートについて学習します。
+**概要:** P2P Summary Subreport の詳細については、Skype for Business Server。
   
 P2P 概要サブレポートは、エラーが発生したピアツーピア セッションの総合的な概要を示します。
   
@@ -33,8 +33,8 @@ P2P 概要サブレポートは、エラーが発生したピアツーピア セ
 
 |**名前**|**説明**|
 |:-----|:-----|
-|**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日午後 1 時  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
-|**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日午後 1 時  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
+|**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
+|**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**Pool** <br/> |レジストラー プールまたはエッジ サーバーの完全修飾ドメイン名 (FQDN)。個別のプールを選択するか、[**すべて**] をクリックしてすべてのプールのデータを表示できます。このドロップダウン リストは、データベース内のレコードに基づいて自動的に設定されます。<br/> |
    
 ## <a name="metrics"></a>指標

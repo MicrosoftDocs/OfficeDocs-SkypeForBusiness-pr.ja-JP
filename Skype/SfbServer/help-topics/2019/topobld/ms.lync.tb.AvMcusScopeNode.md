@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[音声ビデオ会議プール] ノードには、トポロジ内の音声ビデオ会議プールが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: 1a16332721240a9227ebedbcdb1c0892bd247eb3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[音声ビデオ会議プール] ノードには、トポロジ内の音声ビデオ会議プールが一覧表示されます。以下のアクションを実行できます。'
+ms.openlocfilehash: dc0e02652f888014cb22df5196ea177d7cc2509939947f2d5e945159e503825c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342372"
 ---
 # <a name="av-mcus-scope-node"></a>AV MCU のスコープ ノード
  
@@ -30,7 +30,7 @@ ms.locfileid: "49835767"
     
 音声ビデオ会議プール オプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ 。** このオプションを使用して、新しいトポロジの定義、既存のトポロジを開く、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの公開、データベースのインストール、コンポーネントの結合、または展開の削除を行います。
+- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、コンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

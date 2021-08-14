@@ -13,22 +13,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: ビューを使用すると、CDR データベースからデータを返すために使用される最も一般的なシナリオについての情報に簡単にアクセスできます。 実際の CDR データベース テーブルを使用する代わりに、カスタム レポートの作成にはビューを使用してください。これは、データベース ビューが将来のリリースとの下位互換性を維持する可能性が高いためです。
-ms.openlocfilehash: 0a3b40c9b31bb521075e78a1a8d46479200249d5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3e0598c33dac7fb139166a8dd9b82deed134a59e24d59cbe8c1884778cb627a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343241"
 ---
 # <a name="list-of-cdr-views"></a>CDR ビューのリスト
  
 ビューを使用すると、CDR データベースからデータを返すために使用される最も一般的なシナリオについての情報に簡単にアクセスできます。 実際の CDR データベース テーブルを使用する代わりに、カスタム レポートの作成にはビューを使用してください。これは、データベース ビューが将来のリリースとの下位互換性を維持する可能性が高いためです。
   
-|**View Name/ビュー名**|**説明**|
+|**View Name/ビュー名**|**Description**|
 |:-----|:-----|
 |[ClientVersions ビュー](clientversions-0.md) <br/> |通信セッションで使用されているクライアント ソフトウェアおよびデバイスについての情報を返します。  <br/> |
 |[ConferenceMessageCount ビュー](conferencemessagecount-0.md) <br/> |電話会議でユーザーによって送信されたメッセージ数についての情報を返します。  <br/> |
-|[[電話会議] ビュー](conferences-0.md) <br/> |開始時刻、終了時刻、電話会議の開催者などの、電話会議情報を返します。  <br/> |
+|[[会議] ビュー](conferences-0.md) <br/> |開始時刻、終了時刻、電話会議の開催者などの、電話会議情報を返します。  <br/> |
 |[ConferenceSessionDetails ビュー](conferencesessiondetails.md) <br/> |開始時刻、終了時刻、ユーザー ID、応答コード、診断 ID などの、すべての電話会議セッションのセッション詳細を返します。  <br/> |
 |[ConferenceUris ビュー](conferenceuris-0.md) <br/> |電話会議で使用される電話会議 URI についての情報を返します。  <br/> |
 |[ErrorReport ビュー](errorreport-0.md) <br/> |セッション中に発生したエラーについての情報を返します。  <br/> |
@@ -38,7 +38,7 @@ ms.locfileid: "49813157"
 |[Mcus ビュー](mcus-0.md) <br/> |電話会議サーバーについての情報を返します。  <br/> |
 |[メディア ビュー](media-0.md) <br/> |ピアツーピアの通信セッションで使用されるメディアの種類についての情報を返します。  <br/> |
 |[ProgressReport ビュー](progressreport-0.md) <br/> |完了したセッションについての情報を返します。  <br/> |
-|[登録ビュー](registration-0.md) <br/> |Skype for Business Server 2015 への登録に関する情報を戻します。  <br/> |
+|[登録ビュー](registration-0.md) <br/> |2015 年の登録に関するSkype for Business Server返します。  <br/> |
 |[SessionDetails ビュー](sessiondetails-0.md) <br/> |VoIP 間の通話、2 者間の IM セッション、その他のピアツーピア通信セッションなど、ピアツーピア セッションについての情報を返します。  <br/> |
 |[ユーザー ビュー](user.md) <br/> |通信セッションに参加したユーザーについての情報を返します。  <br/> |
 |[VoIPDetails ビュー](voipdetails.md) <br/> |少なくとも一方が VoIP (ボイス オーバー IP) ユーザーであるピアツーピア セッションの情報を返します。  <br/> |

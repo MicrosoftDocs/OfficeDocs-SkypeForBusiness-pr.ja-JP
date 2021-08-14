@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: スペインで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: bdb2037e68abd64b32faf102e80586f43d8d6f2e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5cda42a058e8cf21c5799b70881d5cf52e16f0c70c9cc462e538da0a437a5013
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343001"
 ---
 # <a name="availability-in-spain"></a>スペインでの利用可能性
 
@@ -82,7 +82,7 @@ ms.locfileid: "51101333"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

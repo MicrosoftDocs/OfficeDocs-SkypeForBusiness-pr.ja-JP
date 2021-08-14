@@ -1,5 +1,5 @@
 ---
-title: トポロジ内のサーバーに Skype for Business Server をインストールする
+title: トポロジSkype for Business Serverサーバーにサーバーをインストールする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,62 +16,62 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
-description: '概要: トポロジ内の各サーバーに Skype for Business Server システム コンポーネントをインストールする方法について説明します。 Microsoft 評価センターから Skype for Business Server の無料試用版を次の場所からダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 9ead15e0fd80d92d366eea5fd197516e9991b4a3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: トポロジ内の各サーバーにSkype for Business Serverシステム コンポーネントをインストールする方法について説明します。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
+ms.openlocfilehash: 8fdeb6d2023a205ee39291714c94ee4fa0f38ddf4eafcced46f331a9478f3fa0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343831"
 ---
-# <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>トポロジ内のサーバーに Skype for Business Server をインストールする
+# <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>トポロジSkype for Business Serverサーバーにサーバーをインストールする
  
-**概要:** トポロジ内の各サーバーに Skype for Business Server システム コンポーネントをインストールする方法について説明します。 Microsoft 評価センターから Skype for Business Server の [無料試用版をダウンロードします](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
+**概要:** トポロジ内の各サーバーにSkype for Business Serverシステム コンポーネントをインストールする方法について説明します。 Microsoft 評価センターからSkype for Business Server試用版[をダウンロードします](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-トポロジが中央管理ストアに読み込まれ、Active Directory でどのサーバーがどの役割を実行するのかを確認したら、トポロジ内の各サーバーに Skype for Business Server システムをインストールする必要があります。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、手順 6、7、および 8 を順番に実行し、図に示す手順 1 ~ 5 の後に実行する必要があります。 Skype for Business Server システムのインストールは、手順 7 / 8 です。
+トポロジが中央管理ストアに読み込まれ、Active Directory でどのサーバーがどの役割を実行するのかを確認したら、トポロジ内の各サーバーに Skype for Business Server システムをインストールする必要があります。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、手順 6、7、および 8 を順番に実行し、図に示す手順 1 ~ 5 の後に実行する必要があります。 システムのインストールSkype for Business Server手順 7 / 8 です。
   
 ![概要図。](../../media/6855713d-a5b4-4e5b-8f83-fef3d7a5ec5d.png)
   
-## <a name="install-skype-for-business-server-system"></a>Skype for Business Server システムのインストール
+## <a name="install-skype-for-business-server-system"></a>システムSkype for Business Serverインストール
 
-トポロジを公開したら、トポロジ内の各サーバーに Skype for Business Server コンポーネントをインストールできます。 このセクションでは、Skype for Business Server をインストールし、フロントエンド プールのサーバーの役割と、フロントエンド サーバーに関連付けされているサーバーの役割をセットアップする方法について説明します。 サーバーの役割をインストールして設定するには、サーバーの役割をインストールする各コンピューターで Skype for Business Server 展開ウィザードを実行します。 展開ウィザードを使用して、ローカル構成ストアのインストール、フロント エンド サーバーのインストール、証明書の構成、サービスの開始など、4 つの展開手順すべてを完了します。
+トポロジを公開したら、トポロジ内の各Skype for Business Serverコンポーネントをインストールできます。 このセクションでは、フロントエンド プールSkype for Business Serverサーバーの役割と、フロントエンド サーバーに関連付けされているサーバーの役割をセットアップする方法について説明します。 サーバーの役割をインストールして設定するには、サーバーの役割Skype for Business Serverインストールする各コンピューターで展開ウィザードを実行します。 展開ウィザードを使用して、ローカル構成ストアのインストール、フロント エンド サーバーのインストール、証明書の構成、サービスの開始など、4 つの展開手順すべてを完了します。
   
 > [!IMPORTANT]
-> サーバーに Skype for Business Server をインストールするには、トポロジ ビルダーを使用してトポロジを完了して公開する必要があります。 
+> トポロジ ビルダーを使用してトポロジを完了して公開してから、サーバーにサーバーにSkype for Business Serverする必要があります。 
   
 > [!NOTE]
 > トポロジ内のすべてのサーバーに対して、この手順を完了する必要があります。 
   
 > [!CAUTION]
-> フロント エンド サーバーに Skype for Business Server をインストールした後、サービスを初めて開始する場合は、Windows ファイアウォール サービスがサーバー上で実行されている必要があります。 
+> フロント エンド サーバー Skype for Business Server最初にサービスを開始する場合は、サーバーで Windows ファイアウォール サービスが実行されている必要があります。 
   
 > [!CAUTION]
 > これらの手順を実行する前に、ローカル管理者と RTCUniversalServerAdmins グループのメンバーであるドメイン ユーザー アカウントを使用してサーバーにログオンしてください。 
   
 > [!NOTE]
-> このサーバーで Skype for Business Server セットアップを実行したことがない場合は、インストールのドライブとパスの入力を求めるメッセージが表示されます。 これにより、システム ドライブ以外のドライブ、組織で必要なドライブ、またはスペースに問題がある場合にインストールする機能が提供されます。 [セットアップ] ダイアログ ボックスで Skype for Business Serverファイルのインストール場所パスを新しい使用可能なドライブに変更できます。 セットアップ ファイルをこのパス (OCSCore.msiなど) にインストールすると、残りの Skype for Business Server ファイルもそこに展開されます。
+> このサーバーでSkype for Business Server実行したことがない場合は、インストールのドライブとパスの入力を求めるメッセージが表示されます。 これにより、システム ドライブ以外のドライブ、組織で必要なドライブ、またはスペースに問題がある場合にインストールする機能が提供されます。 [セットアップ] ダイアログ ボックスで、Skype for Business Serverファイルのインストール場所パスを新しい使用可能なドライブに変更できます。 セットアップ ファイルをこのパス (OCSCore.msiを含む) にインストールすると、Skype for Business Serverの他のファイルも展開されます。
   
 > [!IMPORTANT]
-> インストールを開始する前に、Windows Update を使用して Windows Server が最新の情報に更新されている必要があります。 
+> インストールを開始する前に、Windows Update を使用して、サーバーが最新Windowsしてください。 
   
-![Windows Server を最新の情報に更新します。](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
+![Windowsサーバーを最新の情報に更新します。](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
-### <a name="install-skype-for-business-server-system"></a>Skype for Business Server システムのインストール
+### <a name="install-skype-for-business-server-system"></a>システムSkype for Business Serverインストール
 
-1. Skype for Business Server インストール メディアを挿入します。 セットアップが自動的に開始されない場合は、[セットアップ] を **ダブルクリックします**。
+1. インストール メディアSkype for Business Server挿入します。 セットアップが自動的に開始されない場合は、[セットアップ] を **ダブルクリックします**。
     
 2. インストール メディアを実行するには、Microsoft Visual C++が必要です。 インストールを求めるダイアログが表示されます。 [ **はい] をクリックします。**
     
 3. 使用許諾契約書を慎重に確認し、同意する場合は、[使用許諾契約書の条項に同意する] を選択し **、[OK] をクリックします**。 
     
-4. スマート セットアップは、Skype for Business Server の機能で、図に示すように、インストール プロセス中にインターネットに接続して Microsoft Update (MU) からの更新プログラムを確認できます。 これにより、製品の最新の更新プログラムが確実に提供され、より良いエクスペリエンスが提供されます。 **[インストール]** をクリックして、インストールを開始します。
+4. スマート セットアップは、Skype for Business Serverに示すように、インストール プロセス中に Microsoft Update (MU) からの更新プログラムを確認するためにインターネットに接続できるデバイスの機能です。 これにより、製品の最新の更新プログラムが確実に提供され、より良いエクスペリエンスが提供されます。 **[インストール]** をクリックして、インストールを開始します。
     
     > [!NOTE]
-    > 多くの組織ではWindows Server Update Services (WSUS) が企業環境に展開されています。 WSUS を使用すると、管理者は Microsoft Update を通じてネットワーク内のコンピューターにリリースされる更新プログラムの配布を完全に管理できます。 累積的な更新プログラム 1 リリースの一環として、Skype for Business Server では、WSUS で動作するスマート セットアップのサポートが導入されました。 Skype for Business Server を初めて展開する場合、または In-Place アップグレード機能を使用して Lync Server 2013 環境からアップグレードする WSUS をお持ちのお客様は、MU から更新プログラムをフェッチするのとは対照的に、WSUS から Skype for Windows 更新プログラムをフェッチするスマート セットアップを使用します。 スマート セットアップを使用する場合は、スマート セットアップを実行する前に、すべてのコンピューターで SmartSetupWithWSUS.psq を実行するSetup.exe。 
+    > 多くの組織ではWindows Server Update Services (WSUS) が企業環境に展開されています。 WSUS を使用すると、管理者は Microsoft Update を通じてネットワーク内のコンピューターにリリースされる更新プログラムの配布を完全に管理できます。 累積的な更新プログラム 1 リリースの一環として、Skype for Business Server WSUS を使用するためのスマート セットアップのサポートが導入されました。 Skype for Business Server を初めて展開する、または In-Place アップグレード機能を使用して Lync Server 2013 環境からアップグレードする WSUS をお持ちのお客様は、MU から更新プログラムをフェッチするのとは対照的に、Windows 更新プログラムの Skype を WSUS からフェッチします。 スマート セットアップを使用する場合は、スマート セットアップを実行する前に、すべてのコンピューターで SmartSetupWithWSUS.psq を実行するSetup.exe。 
   
      ![スマート セットアップのスクリーンショット。](../../media/d35c6cd9-3b8d-4510-871c-30ad07b1f4f2.png)
   
-5. [展開ウィザード] ページで **、[Skype for Business Server System のインストールまたは更新] をクリックします**。
+5. [展開ウィザード] ページで、[システムの **インストールまたは更新] Skype for Business Serverクリックします**。
     
 6. 以下の手順の手順を実行します。完了したら、[終了] をクリックして展開ウィザードを閉じます。 プール内のフロント エンド サーバーごとに手順を繰り返します。
     
@@ -80,29 +80,29 @@ ms.locfileid: "51104863"
 1. 前提条件を確認し、[手順 1: ローカル **構成ストア** のインストール] の横にある **[実行] をクリックします**。
     
     > [!NOTE]
-    > ローカル構成ストアは、中央管理ストアの読み取り専用コピーです。 Standard Edition 展開では、フロントエンド サーバー上の Express Edition のローカル SQL Serverを使用して中央管理ストアが作成されます。 これは、最初の Standard Edition Server の準備手順を実行すると発生します。 Enterprise Edition 展開では、Enterprise Edition フロントエンド プールを含むトポロジを発行すると、サーバーの全体管理ストアが作成されます。 
+    > ローカル構成ストアは、中央管理ストアの読み取り専用コピーです。 サーバー Standard Edition展開では、フロントエンド サーバー上の SQL Server Express Edition のローカル コピーを使用してサーバーの全体管理ストアが作成されます。 これは、サーバーの最初の準備手順を実行Standard Edition発生します。 サーバーのEnterprise Editionでは、フロントエンド プールを含むトポロジを発行すると、Enterprise Editionが作成されます。 
   
 2. [ローカル構成 **ストアのインストール**] ページで、[サーバーの全体管理ストアから直接取得する] オプションが選択され、[次へ]**をクリックします**。
     
-    SQL Server Express Edition がローカル サーバーにインストールされています。 SQL Server構成ストアには Express Edition が必要です。
+    SQL Server Expressエディションはローカル サーバーにインストールされます。 SQL Server Expressエディションは、ローカル構成ストアに必要です。
     
 3. ローカル サーバー構成のインストールが完了したら、**[完了]** をクリックします。
     
-### <a name="step-2-setup-or-remove-skype-for-business-server-components"></a>手順 2: Skype for Business Server コンポーネントをセットアップまたは削除する
+### <a name="step-2-setup-or-remove-skype-for-business-server-components"></a>手順 2: コンポーネントをセットアップまたはSkype for Business Serverする
 
-1. 前提条件を確認し、[手順2: Skype for Business Server コンポーネントのセットアップまたは削除] の横にある [**実行] をクリックします**。
+1. 前提条件を確認し、[手順2: セットアップ] または [コンポーネントの削除] の横にある [実行 **Skype for Business Serverクリックします**。
     
-2. [Skype **for Business Server** コンポーネントのセットアップ]ページで、[次へ] をクリックして、公開されたトポロジで定義されているコンポーネントを設定します。
+2. [コンポーネント **のセットアップSkype for Business Server]** ページで、[次へ]をクリックして、公開トポロジで定義されているコンポーネントを設定します。
     
 3. [ **コマンドの実行]** ページには、セットアップ時にコマンドとインストール情報の概要が表示されます。 完了したら、リストを使用して表示するログを選択し、[ログの表示] を **クリックします**。
     
-4. Skype for Business Server コンポーネントのセットアップが完了し、必要に応じてログを確認したら、[ **完了** ] をクリックしてインストールのこの手順を完了します。
+4. コンポーネントSkype for Business Serverが完了し、必要に応じてログを確認したら、[**完了**] をクリックしてインストールでこの手順を完了します。
     
     > [!NOTE]
-    > メッセージが表示されたら、サーバーを再起動します (Windows デスクトップ エクスペリエンスをインストールする必要がある場合に発生する可能性があります)。 コンピューターがバックアップおよび実行されている場合は、これを実行する必要があります (手順 2: Skype for Business Server コンポーネントのセットアップまたは削除) 手順を再度実行します。 
+    > メッセージが表示されたら、サーバーを再起動します (デスクトップ エクスペリエンスWindowsが必要な場合に発生する可能性があります)。 コンピューターがバックアップおよび実行されている場合は、これを実行する必要があります (手順 2: セットアップまたは削除Skype for Business Server) 手順を再度実行します。 
   
     > [!NOTE]
-    > インストーラーが満たされていない前提条件を見つけた場合は、図に示すように、「前提条件が満たされていない」というメッセージが表示されます。 必要な前提条件を満たしてから、これを開始します (手順 2: Skype for Business Server コンポーネントのセットアップまたは削除) 手順を再度実行します。 
+    > インストーラーが満たされていない前提条件を見つけた場合は、図に示すように、「前提条件が満たされていない」というメッセージが表示されます。 必要な前提条件を満たしてから、これを開始します (手順 2: セットアップまたはコンポーネントのSkype for Business Server) 手順を再度実行します。 
   
      ![前提条件が必要です。](../../media/21a84dfe-70ff-4f76-bd7e-41032660200a.png)
   
@@ -110,19 +110,19 @@ ms.locfileid: "51104863"
     
      ![コンポーネントのインストールから完了した最初の 2 つの手順。](../../media/59851804-d805-4fa8-854b-60c3de2d109f.png)
   
-6. **Windows Update を再度** 実行して、Skype for Business Server コンポーネントをインストールした後に更新プログラムが含まれています。
+6. **[Windows更新]** を再度実行して、コンポーネントのインストール後に更新プログラムSkype for Business Serverします。
     
 ### <a name="step-3-request-install-or-assign-certificates"></a>手順 3: 証明書の要求、インストール、または割り当て
 
 1. 前提条件を確認し、[手順3: 要求、インストール、または証明書の割り当て] の横にある [実行]**をクリックします**。
     
     > [!NOTE]
-    > Skype for Business Server には、WINDOWS 10、Windows 8、Windows 7、Windows Server 2012 R2、Windows Server 2012、または Windows Server 2008 R2 オペレーティング システムを実行しているクライアントからの接続に関するダイジェスト ハッシュおよび署名アルゴリズムの SHA-2 スイート (SHA-2 ではダイジェスト長 224、256、384、または 512 ビット) がサポートされています。 SHA-2 スイートを使用して外部アクセスをサポートするために、外部証明書は、同じビット長ダイジェストを持つ証明書を発行できるパブリック CA によって発行されます。 
+    > Skype for Business Serverには、Windows 10、Windows 8、Windows Windows Server 2012 R2、Windows Server 2012、または Windows Server 2008 R2 オペレーティング システムを実行しているクライアントからの接続に対する、SHA-2 スイート (SHA-2 はダイジェスト長 224、256、384、または 512 ビット) のダイジェスト ハッシュおよび署名アルゴリズムのサポートが含まれています。 SHA-2 スイートを使用して外部アクセスをサポートするために、外部証明書は、同じビット長ダイジェストを持つ証明書を発行できるパブリック CA によって発行されます。 
   
     > [!IMPORTANT]
-    > どのハッシュ ダイジェストと署名アルゴリズムの選択は、証明書を使用するクライアントとサーバー、およびクライアントとサーバーが通信する他のコンピューターやデバイスに依存します。証明書で使用されるアルゴリズムの使い方も知っている必要があります。 オペレーティング システムおよび一部のクライアント アプリケーションでサポートされているダイジェストの長さについては [、「Windows PKI ブログ - SHA2 と Windows」を参照してください](/archive/blogs/pki/sha2-and-windows)。 
+    > どのハッシュ ダイジェストと署名アルゴリズムの選択は、証明書を使用するクライアントとサーバー、およびクライアントとサーバーが通信する他のコンピューターやデバイスに依存します。証明書で使用されるアルゴリズムの使い方も知っている必要があります。 オペレーティング システムおよび一部のクライアント アプリケーションでサポートされるダイジェストの長さについては、「PKI ブログ[- SHA2](/archive/blogs/pki/sha2-and-windows)および Windows」を参照Windows。 
   
-    各 Standard Edition またはフロントエンド サーバーには、oAuthTokenIssuer 証明書、既定の証明書、Web 内部証明書、Web 外部証明書の 4 つまでの証明書が必要です。 ただし、適切なサブジェクトの代替名エントリと oAuthTokenIssuer 証明書を使用して、1 つの既定の証明書を要求して割り当てできます。 証明書の要件の詳細については [、「Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) の環境要件」または「Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)のサーバー要件」を参照してください。
+    各 Standard Editionまたはフロントエンド サーバーには、oAuthTokenIssuer 証明書、既定の証明書、Web 内部証明書、Web 外部証明書の 4 つまでの証明書が必要です。 ただし、適切なサブジェクトの代替名エントリと oAuthTokenIssuer 証明書を使用して、1 つの既定の証明書を要求して割り当てできます。 証明書の要件の詳細については、「環境要件 for [Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) [2019」](../../../SfBServer2019/plan/system-requirements.md)または「サーバー Skype for Business Server参照してください。
     
     > [!IMPORTANT]
     > 次の手順では、内部の Active Directory 証明書サービス ベースの証明機関から証明書を構成する方法について説明します。 
@@ -142,10 +142,10 @@ ms.locfileid: "51104863"
     > [!NOTE]
     > CA の既定の Web サーバー テンプレートの代わりに使用するテンプレートを組織が作成している場合は、チェック ボックスをオンにして、代替のテンプレートの名前を入力します。 CA 管理者が定義したテンプレートの名前を入力する必要があります。 
   
-8. [名前と **セキュリティの設定] ページで** 、[分名] **を指定します**。 フレンドリーな名前を使用すると、証明書と目的をすばやく識別できます。 空白のままにした場合、名前は自動的に生成されます。 キーの **[ビット長]** を設定するか、既定の 2048 ビットをそのまま使用します。 証明書と **プライベート キーを** 他のシステムに移動またはコピーする必要がある場合は、[証明書のプライベート キーをエクスポート可能としてマークする] を選択し、[次へ] をクリック **します**。
+8. [名前と **セキュリティ] ページで設定** 名を **指定します**。 フレンドリーな名前を使用すると、証明書と目的をすばやく識別できます。 空白のままにした場合、名前は自動的に生成されます。 キーの **[ビット長]** を設定するか、既定の 2048 ビットをそのまま使用します。 証明書と **プライベート キーを** 他のシステムに移動またはコピーする必要がある場合は、[証明書のプライベート キーをエクスポート可能としてマークする] を選択し、[次へ] をクリック **します**。
     
     > [!NOTE]
-    > Skype for Business Server には、エクスポート可能なプライベート キーに関する最小限の要件があります。 その対象の 1 つがプール内のエッジ サーバーで、ここではメディア リレー認証サービスが、プール内の各インスタンスに対する個々の証明書ではなく、証明書のコピーを使用します。 
+    > Skype for Business Server可能なプライベート キーの要件は最小限です。 その対象の 1 つがプール内のエッジ サーバーで、ここではメディア リレー認証サービスが、プール内の各インスタンスに対する個々の証明書ではなく、証明書のコピーを使用します。 
   
 9. [組織情報 **] ページで** 、必要に応じて組織情報を入力し、[次へ] を **クリックします**。
     
@@ -161,9 +161,9 @@ ms.locfileid: "51104863"
     
 15. **[コマンドを実行しています]** ページで、**[次へ]** をクリックします。
     
-16. [オンライン **証明書要求の状態] ページ** で、返される情報を確認します。 証明書が発行され、ローカル証明書ストアにインストールされた点に注意してください。 発行およびインストール済みと報告されているが、無効な場合は、CA ルート証明書がサーバーの信頼されたルート CA ストアにインストールされていることを確認します。 信頼されたルート CA 証明書を取得する方法については、CA のドキュメントを参照してください。 取得した証明書を表示する必要がある場合は、[証明書の詳細の表示 **] をクリックします**。 既定では **、[Skype for Business Server** 証明書の使用状況に証明書を割り当てる] チェック ボックスがオンになっています。 証明書を手動で割り当てる場合は、チェック ボックスをオフにして、[完了] を **クリックします**。
+16. [オンライン **証明書要求の状態] ページ** で、返される情報を確認します。 証明書が発行され、ローカル証明書ストアにインストールされた点に注意してください。 発行およびインストール済みと報告されているが、無効な場合は、CA ルート証明書がサーバーの信頼されたルート CA ストアにインストールされていることを確認します。 信頼されたルート CA 証明書を取得する方法については、CA のドキュメントを参照してください。 取得した証明書を表示する必要がある場合は、[証明書の詳細の表示 **] をクリックします**。 既定では、[証明書を証明書の使用状況に割り当 **Skype for Business Server] チェック ボックスが** オンになっています。 証明書を手動で割り当てる場合は、チェック ボックスをオフにして、[完了] を **クリックします**。
     
-17. 前のページの **[Skype for Business Server** 証明書の使用状況に証明書を割り当てる] チェック ボックスをオフにした場合は、[証明書の割り当て] ページ **が表示** されます。 **[次へ]** をクリックします。
+17. 前のページで [証明書を証明書に割り当てる] Skype for Business Serverチェック ボックスをオフにした場合は、[証明書の割り当て] ページ **が表示** されます。 **[次へ]** をクリックします。
     
 18. [証明書 **ストア] ページ** で、要求した証明書を選択します。 証明書を表示する場合は、[証明書の詳細の表示] をクリックし、[次へ]**をクリック** して続行します。
     
@@ -188,13 +188,13 @@ ms.locfileid: "51104863"
 
 1. 手順 **4: サービスの開始の前提条件を確認します**。
     
-2. サーバーが 3 つ以上ある Enterprise Edition フロントエンド プールの場合は、Windows Fabric が使用され **、Start-CsPool コマンドレットを使用する必要** があります。 単一のサーバーが使用されている場合は、Standard Edition の場合は常に **、Start-CsWindowsService コマンドレットを使用** します。 この例では、プール内に 3 つのフロントエンド サーバーがある Enterprise Edition を使用し **、Skype for Business Server 管理** シェルを開き、図に示すように **Start-CsPool** コマンドレットを実行します。 Standard Edition サーバーを含む他のすべての役割では **、Start-CsWindowsService を使用する必要があります**。 フロントエンド ロール以外の役割を展開するには、それらの特定の役割のドキュメントを参照してください。
+2. これが少なくとも 3 Enterprise Editionのフロントエンド プールである場合は、Windows Fabricが使用され **、Start-CsPool コマンドレットを使用する必要** があります。 単一のサーバーを使用する場合は、常にサーバーのStandard Edition **Start-CsWindowsService コマンドレットを使用** します。 この例では、Enterprise Edition をプール内の 3 つのフロントエンド サーバーで使用し **、Skype for Business Server 管理** シェルを開き、図に示すように **Start-CsPool** コマンドレットを実行します。 サーバーを含む他のすべての役割 **Standard Edition、Start-CsWindowsService を使用する必要があります**。 フロントエンド ロール以外の役割を展開するには、それらの特定の役割のドキュメントを参照してください。
     
-     ![Skype for Business サービスを開始します。](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
+     ![サービスSkype for Business開始します。](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   
 3. すべてのサービスが正常に開始されたら、**[コマンドの実行]** ページで **[終了]** をクリックします。
     
     > [!IMPORTANT]
-    > サーバー上でサービスを開始するコマンドは、サービスが実際に開始したと報告するための最善の努力方法です。 サービスの実際の状態を反映していない場合もあります。 図に示すように、手順 [サービスの状態] **(オプション)** を使用して Microsoft 管理コンソール (MMC) を開き、サービスが正常に開始されたことを確認することをお勧めします。 Skype for Business Server サービスが開始されていない場合は、MMC でそのサービスを右クリックし、[スタート] をクリック **します**。 
+    > サーバー上でサービスを開始するコマンドは、サービスが実際に開始したと報告するための最善の努力方法です。 サービスの実際の状態を反映していない場合もあります。 図に示すように、手順 [サービスの状態] **(オプション)** を使用して Microsoft 管理コンソール (MMC) を開き、サービスが正常に開始されたことを確認することをお勧めします。 サービスがSkype for Business Server場合は、MMC でそのサービスを右クリックし、[スタート] をクリック **します**。 
   
      ![サービスが開始されたのを確認します。](../../media/47906fb7-9d37-4d55-8d8d-e5a4a2366510.png)

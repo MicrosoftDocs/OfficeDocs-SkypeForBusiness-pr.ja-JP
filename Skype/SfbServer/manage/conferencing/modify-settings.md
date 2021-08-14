@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server の会議構成設定の変更
+title: 会議の構成設定を変更Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
-description: '概要: Skype for Business Server の会議構成設定を変更する方法について説明します。'
-ms.openlocfilehash: 2f0d1220312ac810d26fdd4691492133e54db9b6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: 会議の構成設定を変更する方法について説明します。Skype for Business Server。'
+ms.openlocfilehash: e1b283c5d50c955464d4af9b8f92f9e210f60f35a1fad5320c9f6bb8b6ede11d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119416"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343461"
 ---
-# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server の会議構成設定の変更
+# <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>会議の構成設定を変更Skype for Business Server
  
-**概要:** Skype for Business Server で会議の構成設定を変更する方法について説明します。
+**概要:** 会議の構成設定を変更する方法については、Skype for Business Server。
   
-会議の構成設定は、Skype for Business Server コントロール パネルを使用するか、Skype for Business Server 管理シェルを使用して変更できます。
+会議の構成設定は、コントロール パネルを使用するかSkype for Business Server管理シェルを使用してSkype for Business Server変更できます。
   
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して会議の構成設定を変更する
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用して会議の構成Skype for Business Server変更する
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2.  Skype for Business Server コントロール パネルを開きます。
+2.  [コントロール Skype for Business Server] を開きます。
     
 3. 左側のナビゲーション バーで、[会議] **をクリックし**、[会議の構成] **をクリックします**。
     
@@ -39,7 +39,7 @@ ms.locfileid: "51119416"
     
 6. [**確定**] をクリックします。
     
-## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェルを使用して会議の構成設定を変更する
+## <a name="modify-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議の構成Skype for Business Server変更する
 
 会議の構成設定を変更するには **、Set-CsMeetingConfiguration コマンドレットを使用** します。
   

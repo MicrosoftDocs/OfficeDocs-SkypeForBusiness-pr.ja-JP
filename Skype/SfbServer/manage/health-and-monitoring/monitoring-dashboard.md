@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での監視ダッシュボードの使用
+title: '[監視ダッシュボード] を使用Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
-description: '概要: Skype for Business Server の監視ダッシュボードについて学習します。'
-ms.openlocfilehash: 83a04a60e63deb39666ee4d042f74973b7d16d0b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: [監視ダッシュボード] の詳細については、「Skype for Business Server。'
+ms.openlocfilehash: f731030d3534af9494a4d70d29b27cc8b3ec95bcd5eede97d3ab3c65c2a54b9f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118606"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345574"
 ---
-# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Skype for Business Server での監視ダッシュボードの使用
+# <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>[監視ダッシュボード] を使用Skype for Business Server
  
-**概要:** Skype for Business Server の監視ダッシュボードについて学習します。
+**概要:**[監視ダッシュボード] の詳細については、「Skype for Business Server。
   
-監視ダッシュボードを使用すると、管理者は Skype for Business Server システムの正常性とシステム使用状況の概要を簡単に確認できます。 ダッシュボードは、主要なシステム メトリックの集計ビューを表示し、次のいずれかを表示するように設計されています。
+監視ダッシュボードを使用すると、管理者はシステムの正常性とシステムSkype for Business Serverの概要を確認できます。 ダッシュボードは、主要なシステム メトリックの集計ビューを表示し、次のいずれかを表示するように設計されています。
   
 - 現在の日の合計。 現在の日に表示される値は、午前 0 時から現在の時刻 (レポート サーバーの現地時間に基づく) まで記録されたデータを表します。 つまり、通常は一部の日のデータを表示し、24 時間表示は表示しないという意味です。 たとえば、サーバーの現地時間が午前 8:00 の場合、午前 0 時から現在の午前 8 時の間に 8 時間あるため、8 時間分のデータが表示されます。
     
@@ -31,7 +31,7 @@ ms.locfileid: "51118606"
     
 - 月の合計と過去 6 か月間の傾向の合計 (システムの使用状況のみ)。
     
-[Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps)コマンドレットを使用して、Skype for Business Server 監視レポートへのアクセスに使用される URL を返すことができます。
+[Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps)コマンドレットを使用して、監視レポートへのアクセスに使用される URL をSkype for Business Server注意してください。
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -41,7 +41,7 @@ Get-CsReportingConfiguration
   
 ## <a name="system-usage-metrics"></a>システム使用状況の指標
 
- **Registration**
+ **登録**
   
 - 一意のユーザー ログオン
     
@@ -113,7 +113,7 @@ Get-CsReportingConfiguration
     
 - アプリケーション共有の失敗率
     
-会議
+Conference
   
 - エラーの合計
     
@@ -137,7 +137,7 @@ Get-CsReportingConfiguration
     
 - 品質の低い PSTN 通話
     
-会議
+Conference
   
 - 品質の低い通話の合計
     
@@ -179,7 +179,7 @@ Get-CsReportingConfiguration
     
 - Word
     
-現在のダッシュボード ビュー (および値) をエクスポートするには、目的のエクスポート オプションをクリックします。 Skype for Business Server は、指定した形式でレポートを生成し、そのレポートを開くまたは保存するオプションを提供します。 既定では、Skype for Business Server はレポートの監視ダッシュボードにタイトルを付け、それをダウンロード フォルダーに保存します。 レポートに別の名前を付け、または別のフォルダーに保存するには、[保存] ボタンの横にある矢印をクリックし、[名前を付けて保存]**をクリックします**。 [監視ダッシュボード] という名前に問題が生じ、レポートが [ダウンロード] フォルダーに保存されている場合は、[保存] ボタンを **クリック** します。
+現在のダッシュボード ビュー (および値) をエクスポートするには、目的のエクスポート オプションをクリックします。 Skype for Business Server指定した形式でレポートを生成し、そのレポートを開くまたは保存するオプションを提供します。 既定では、レポートの監視ダッシュボードSkype for Business Serverタイトルを付け、ダウンロード フォルダーに保存します。 レポートに別の名前を付け、または別のフォルダーに保存するには、[保存] ボタンの横にある矢印をクリックし、[名前を付けて保存]**をクリックします**。 [監視ダッシュボード] という名前に問題が生じ、レポートが [ダウンロード] フォルダーに保存されている場合は、[保存] ボタンを **クリック** します。
   
 ダッシュボード データをエクスポートしようとするときに、[セキュリティアラート] ダイアログ ボックスが表示され、[現在の設定ではこのファイルをダウンロードできません] というメッセージが表示される可能性があります。 この場合は、次の操作を行います。
   
@@ -187,12 +187,12 @@ Get-CsReportingConfiguration
     
 - [インターネット **オプション] ダイアログ** ボックスの [セキュリティ] タブ **で** 、[信頼済みサイト] **を** クリックし、[サイト] を **クリックします**。
     
-- [信頼済 **みサイト]** ダイアログボックスで、[追加] をクリックして、Skype for Business Server レポートを実行している Skype for Business Server を信頼できる Web サイトのコレクションに追加します。
+- [信頼済 **みサイト]** ダイアログボックスで、[追加] をクリックして、Skype for Business Serverレポートを実行Skype for Business Server信頼できる Web サイトのコレクションに追加します。
     
 - [閉 **じる] を** クリックし **、[OK] をクリックします**。
     
 その後、変更を有効にする前に監視ダッシュボードを更新する必要があります。 これを行うには、F5 キーを押するか、[ダッシュボード] ツールバーの **[** 更新] アイコンをクリックします。 ([ **更新]** アイコンは、緑色の矢印のペアが含む円です)。
   
-また、最新の監視ダッシュボード データへのリンクを含む、ライブ データ フィードを含む Excel スプレッドシートを作成することもできます。 ライブ データ フィード ファイルを作成するには、ツールバーのオレンジ色の **[データ** フィードにエクスポート] アイコンをクリックします。
+また、最新の監視ダッシュボード Excelリンクを含む、ライブ データ フィードを含むスプレッドシートを作成することもできます。 ライブ データ フィード ファイルを作成するには、ツールバーのオレンジ色の **[データ** フィードにエクスポート] アイコンをクリックします。
   
 現在のダッシュボードを印刷する場合は、ツールバーのプリンター アイコンをクリックします。

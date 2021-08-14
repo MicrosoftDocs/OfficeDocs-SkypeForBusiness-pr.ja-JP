@@ -20,12 +20,12 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
 description: '[レポート] ダッシュボードには、組織内のMicrosoft 365またはOffice 365アクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイス使用状況レポートを使用すると、Skype for Business アプリがインストールされ、IM や会議に使用されている Windows ベースのオペレーティング システムやモバイル デバイスなどのデバイスを確認できます。 詳細については、管理センターのアクティビティ レポートに関するページを参照してください。'
-ms.openlocfilehash: d093e13a4f5895de2b31d00669e3aff3d28eee49
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f7a3269b19b2a051bfc6739b1c453bf33c7df1acf2976658a019e75c772d9223
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238242"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342682"
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況のレポート
 
@@ -38,7 +38,7 @@ ms.locfileid: "52238242"
 このレポートは、他の Skype for Business レポートと共に、組織全体で使用されるクライアント/デバイスの種類の詳細を示します。 これらの詳細は、組織でその他のビジネス上の決定を調査、計画、実行しているときに役立ちます。
   
 > [!NOTE]
-> 管理者として管理センターにログオンSkype for Business、すべてのレポートをMicrosoft 365できます。 
+> Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>デバイス使用状況レポートSkype for Businessアクセスする方法
 
@@ -63,7 +63,7 @@ ms.locfileid: "52238242"
 > 特定の日の詳細をクリックすると、レポートが生成された日付までの 30 日間のデータだけがテーブルに表示されます。
     
 ***
-![ナンバー 2](../images/sfbcallout2.png)<br/>
+![番号 2](../images/sfbcallout2.png)<br/>
 各レポートには、このレポートが生成された日付が表示されます。 レポートには、通常、アクティビティの時刻から 24 ~ 48 時間の待機時間が反映されます。 
 ***
 ![ナンバー 3](../images/sfbcallout3.png)<br/>[ユーザー] グラフの対話型グラフ データを使用して、使用状況の傾向を把握し、組織内で使用されている Skype for Business アプリを使用して接続されているユーザーの数を確認します。 Windows アプリがインストールされ、組織全体で使用されているWindows、Windows Phone、Android **フォン****、iPhone、iPad** Skype for Business デバイスのユーザーと種類の総数が表示されます。 
@@ -103,15 +103,15 @@ ms.locfileid: "52238242"
     
 - [Skype for Business ピアツーピア アクティビティ レポート](peer-to-peer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。
     
-- [Skype for Businessブロックレポート](users-blocked-report.md)PSTN 通話がブロックされている組織内のユーザーを確認できます。
+- [Skype for Business ユーザーのブロック レポート](users-blocked-report.md) - PSTN 通話の発信がブロックされている組織内のユーザーを確認できます。
     
 - [Skype for Business PSTN 使用状況レポート](pstn-usage-report.md)受信/送信呼び出しに費やされた分数と、これらの呼び出しのコストを確認できます。
 
-- [Skype for Business PSTN 分](pstn-minute-pools-report.md)プール レポートでは、組織内の当月に消費された分数を確認できます。
+- [Skype for Business PSTN の利用分数プール レポート](pstn-minute-pools-report.md) - 組織内で今月中に消費された分数を確認できます。
 
-- [Skype for Business詳細レポート](session-details-report.md)個々のユーザーの通話エクスペリエンスに関する詳細を確認できます。
+- [Skype for Business セッションの詳細レポート](session-details-report.md) - 個々のユーザーの通話体験に関する詳細を確認できます。
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

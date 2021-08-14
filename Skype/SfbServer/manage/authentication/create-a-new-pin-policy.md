@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で新しい PIN ポリシーを作成する
+title: 新しい PIN ポリシーを作成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
-description: '概要: Skype for Business Server で新しい PIN ポリシーを作成します。'
-ms.openlocfilehash: b0d1be74e509fbaddfc59250f4f5ce05a2021260
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '概要: 新しい PIN ポリシーを作成します。Skype for Business Server。'
+ms.openlocfilehash: a4bacce5d6a3bcaae2d2c114b6b4dd7dfda5bf6147da4ba51c14abd4d10ed1d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345704"
 ---
-# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Skype for Business Server で新しい PIN ポリシーを作成する
+# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>新しい PIN ポリシーを作成Skype for Business Server
  
-**概要:** Skype for Business Server で新しい PIN ポリシーを作成します。
+**概要:** 新しい PIN ポリシーを作成します。Skype for Business Server。
   
-**[PIN** ポリシー] ページを使用して、IP 電話で Skype for Business に接続しているユーザーに暗証番号 (PIN) 認証を提供できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
+[PIN ポリシー]**ページを使用** して、IP Phone を使用してユーザーに接続しているユーザーに個人識別番号 (PIN) 認証Skype for Business提供できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
   
 ユーザーレベルまたはサイトレベルの PIN ポリシーを作成するには、次の手順を実行します。 
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>ユーザーまたはサイトの PIN ポリシーを作成するには
 
-1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウントから、または CsServerAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
+1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**PIN ポリシー**] をクリックします。
     
@@ -56,7 +56,7 @@ ms.locfileid: "49828407"
     
 11. [**PIN 履歴の数**] に、PIN の数を入力します。作成した PIN の数がこの数を超えると、PIN を再利用できます。 既定では、ユーザーは自分の PIN を再利用できます。
     
-12. PIN の一般的なパターン ("1234" や "8888" など) を許可するには、[共通パターンを許可する] チェック **ボックスをオン** にします。 このオプションをオンにしない場合は、複雑な数字パターンのみが許可されます。 既定では、複雑なパターンの数字のみが許可されます。
+12. PIN の数字の一般的なパターン ("1234" や "8888" など) を許可するには、[共通パターンを許可する] チェック **ボックスをオン** にします。 このオプションをオンにしない場合は、複雑な数字パターンのみが許可されます。 既定では、複雑なパターンの数字のみが許可されます。
     
     > [!IMPORTANT]
     > 共通のパターンは許可しないことをお勧めします。 

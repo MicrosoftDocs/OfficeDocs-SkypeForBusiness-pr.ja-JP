@@ -1,5 +1,5 @@
 ---
-title: Web サービス のセキュリティ設定 [新規の作成] または [既存の変更]
+title: Web サービス セキュリティ 設定の作成または既存の変更
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,22 +14,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 4364a907f5a0d533cdf0606f3d07632460c25ce9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: 0835a3a2d1f883e3a91b489e44fd181cb8bc144ff41060c27435fab2817adef4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343641"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web サービスのセキュリティ設定: 新規作成または現在の形式のままで変更
 
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
 
-- [Skype for Business Server 2015 での Web サービス構成設定の管理](../../manage/authentication/web-service-configuration-settings.md)
+- [2015 年の Web サービス構成設定Skype for Business Serverする](../../manage/authentication/web-service-configuration-settings.md)
 
 - [既存の Web サービスの変更](/previous-versions/office/lync-server-2013/lync-server-2013-modify-existing-web-service-configuration-settings)
 
 - [Web サービスの削除](/previous-versions/office/lync-server-2013/lync-server-2013-delete-existing-web-service-configuration-settings)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。

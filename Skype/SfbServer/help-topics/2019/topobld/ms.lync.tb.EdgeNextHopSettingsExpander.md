@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
 description: エッジ サーバーが内部インフラストラクチャとの通信に使用する次ホップ プールを設定または変更するには、一覧からディレクター、ディレクター プール、フロント エンド サーバー、またはフロント エンド サーバー プールを選択します。 トポロジ ビルダーで構成されているディレクターまたはフロント エンド サーバーだけが一覧に表示されます。
-ms.openlocfilehash: 7a76478561d12d9780e4bed347390b01c44e1fa1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 911562d7c8d15f0a4dfbfdad528984ae08cad0eb657c41f82b808d32da00b244
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119996"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342362"
 ---
 # <a name="edge-next-hop-settings-expander"></a>エッジの次ホップ設定エキスパンダー
 

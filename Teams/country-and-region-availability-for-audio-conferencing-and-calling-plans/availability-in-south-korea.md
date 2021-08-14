@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 韓国で利用可能Microsoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 3adf43e6e9aecda74af2232392b9dcfc281330fe
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f6da4cd3ae830bd52120960cc827d754b8740b2a3da5451ee852431d3ac6ccf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343011"
 ---
 # <a name="availability-in-south-korea"></a>韓国での利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51098463"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

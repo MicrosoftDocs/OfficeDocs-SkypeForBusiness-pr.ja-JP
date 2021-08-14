@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 に計画ツールをインストールする
+title: 2015 年に計画ツールSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
-description: Skype for Business Server 2015 計画ツールを使用して Skype for Business Server 2015 インフラストラクチャの設計と計画を開始する前に、まず計画ツールをインストールする必要があります。 計画ツールは、Skype for Business Server 2015 をインストールする予定のドメインまたはインフラストラクチャの一部であるワークステーションまたはサーバーに展開する必要があります。 計画ツールに関連する Readme ファイルは、ツールのインストールと使用に関する重要な情報を詳細に示します。 わかりやすくするために、Readme ファイルの情報の一部をここに転載します。
-ms.openlocfilehash: 29a3bd35191cf326cafd1f4ad4f14fab50e47ea3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server 2015 計画ツールを使用して Skype for Business Server 2015 インフラストラクチャの設計と計画を開始する前に、まず計画ツールをインストールする必要があります。 計画ツールは、2015 年にインストールする予定のドメインまたはインフラストラクチャの一部であるワークステーションまたはサーバーに展開するSkype for Business Serverではありません。 計画ツールに関連する Readme ファイルは、ツールのインストールと使用に関する重要な情報を詳細に示します。 わかりやすくするために、Readme ファイルの情報の一部をここに転載します。
+ms.openlocfilehash: ffa1bceca3e59e42276718b5f139ac6525d36f85face94c762ceebe3013c7487
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343411"
 ---
-# <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 に計画ツールをインストールする
+# <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>2015 年に計画ツールSkype for Business Serverする
 
-Skype for Business Server 2015 計画ツールを使用して Skype for Business Server 2015 インフラストラクチャの設計と計画を開始する前に、まず計画ツールをインストールする必要があります。 計画ツールは、Skype for Business Server 2015 をインストールする予定のドメインまたはインフラストラクチャの一部であるワークステーションまたはサーバーに展開する必要があります。 計画ツールに関連する Readme ファイルは、ツールのインストールと使用に関する重要な情報を詳細に示します。 わかりやすくするために、Readme ファイルの情報の一部をここに転載します。
+Skype for Business Server 2015 計画ツールを使用して Skype for Business Server 2015 インフラストラクチャの設計と計画を開始する前に、まず計画ツールをインストールする必要があります。 計画ツールは、2015 年にインストールする予定のドメインまたはインフラストラクチャの一部であるワークステーションまたはサーバーに展開するSkype for Business Serverではありません。 計画ツールに関連する Readme ファイルは、ツールのインストールと使用に関する重要な情報を詳細に示します。 わかりやすくするために、Readme ファイルの情報の一部をここに転載します。
 
 > [!IMPORTANT]
 > 計画ツールでは、ツールをインストールするコンピューターに対する管理者権限とアクセス許可を持つユーザーによるインストールが必要です。
@@ -56,11 +56,11 @@ Skype for Business Server 2015 計画ツールを使用して Skype for Business
 
 1. Administrators グループのメンバーとして、ローカル コンピューターにログオンします。
 
-2. Windows エクスプローラーまたはコマンド ウィンドウを使用して、計画ツールのインストール ファイルをダウンロードしたディレクトリを探します。
+2. [Windows エクスプローラーまたはコマンド ウィンドウを使用して、計画ツールのインストール ファイルをダウンロードしたディレクトリを探します。
 
 3. 次のSkypeForBusinessPlanningTool.msi。 Windows Explorer で、ファイルをダブルクリックします。 コマンド ウィンドウで、ファイルの名前を入力し **、Enter** キーを押してファイルを実行します。
 
-4. Skype for Business **Server 2015** の [ようこそ] ページの [計画ツールのセットアップ ウィザード] で、[次へ] を **クリックします**。
+4. **2015 年 2015** 年Skype for Business Serverの [ようこそ] ページで、[次へ] を **クリックします**。
 
 5. **[使用許諾契約書]** を読んでから、使用許諾契約書に同意する場合には **[使用許諾契約書に同意します]** チェック ボックスをオンにして、**[次へ]** をクリックします。
 
@@ -75,11 +75,11 @@ Skype for Business Server 2015 計画ツールを使用して Skype for Business
 ## <a name="optional-software"></a>オプション ソフトウェア
 <a name="Optional_Software"> </a>
 
-Skype for Business Server 2015 計画ツールは、Microsoft Excel と Microsoft Visio にエクスポートするように設計されています。 これらのアプリケーションは計画ツールの操作には必要ありませんが、設計の展開とドキュメントに大きな価値を追加します。
+2015 Skype for Business Server 2015 計画ツールは、ユーザーと Microsoft のMicrosoft ExcelにエクスポートするようにVisio。 これらのアプリケーションは計画ツールの操作には必要ありませんが、設計の展開とドキュメントに大きな価値を追加します。
 
 ### <a name="microsoft-excel"></a>Microsoft Excel
 
-デザインを Microsoft Excel にエクスポートすると、スプレッドシートに 7 つのタブが表示されるレポートが作成されます。
+デザインをドキュメントにエクスポートMicrosoft Excel、スプレッドシートに 7 つのタブを表示するレポートを作成します。
 
 - 概要 - ユーザー数、容量設定、サーバー プロファイル情報など、サイト構成に関する情報を表示します。
 
@@ -100,11 +100,11 @@ Skype for Business Server 2015 計画ツールは、Microsoft Excel と Microsof
 設計を Microsoft Visio にエクスポートすると、構成されたトポロジおよびインフラストラクチャのドキュメントに使用できるダイアグラムが作成されます。インポートされたダイアグラムは、ドキュメントのニーズに合わせて編集や再編成ができます。一般的な Visio のダイアグラムには、次の要素が含まれます。
 
 > [!NOTE]
-> デザインが 3 台を超えるフロントエンド サーバーを必要とする十分な大きい場合は、フロントエンド プール、フロントエンド サーバー、SQL Server、IP アドレス、および FQDN を実行しているコンピューターに対して追加のページが作成されます。
+> デザインが 3 台以上のフロントエンド サーバーを必要とする十分な大きい場合は、フロントエンド プール、フロントエンド サーバー、SQL Server、IP アドレス、および FQDN を実行しているコンピューターに対して追加のページが作成されます。
 
-- グローバル トポロジ - 構成済みの Skype for Business Server 2015 サイトの図。
+- グローバル トポロジ - 2015 サイトで構成Skype for Business Server図。
 
-- [サイト名] タブ - エッジ サーバー、ファイアウォール、ゲートウェイを備えた公衆交換電話網 (PSTN)、および内部サーバーの展開を含むサイト構成トポロジを表示します。 内部展開は、フロントエンド プール、SQL Server ベースのサーバー、Active Directory ドメイン サービス、ディレクター、Exchange ユニファイド メッセージング (UM) サーバー、Exchange メールボックス サーバー、Office Web Apps サーバー、仲介サーバー、常設チャット サーバーなど、構成済みのサーバーとプールで構成されます。
+- [サイト名] タブ - エッジ サーバー、ファイアウォール、ゲートウェイを備えた公衆交換電話網 (PSTN)、および内部サーバーの展開を含むサイト構成トポロジを表示します。 内部展開は、フロントエンド プール、SQL Server ベースのサーバー、Active Directory ドメイン サービス、ディレクター、Exchange ユニファイド メッセージング (UM) サーバー、Exchange メールボックス サーバー、Office Web Apps サーバー、仲介サーバー、常設チャット サーバーなど、構成されたサーバーとプールで構成されます。
 
 - エッジ ネットワークダイアグラム - 関連付けられた IP アドレスと FQDN を含むエッジ サーバー構成の詳細を示す図。 DNS 負荷分散とハードウェア ロード バランサーも含まれています。 さらに、ディレクターとフロント エンド サーバーまたはフロント エンド プールが表示され、関連付けられた DNS LB または HLB と割り当てられた IP アドレス (計画ツールは IPv4 アドレスと IPv6 アドレスの両方をサポート) と FQDN が表示されます。
 

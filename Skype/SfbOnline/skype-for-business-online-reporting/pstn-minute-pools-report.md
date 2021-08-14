@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新しい Skype for Business 管理センター レポートの領域には、組織内の通話および電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、PSTN 分Skype for Businessレポートを使用して、組織内の当月に消費された分数を確認できます。
-ms.openlocfilehash: 8c69a0555c95a7cb700b31db04103a0f7f502729
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 02f2d2bad1bbf948dfe9b39c49c389423437fd05877811c647220df41502c558
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234042"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342572"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN の利用分数プール レポート
 
@@ -37,7 +37,7 @@ ms.locfileid: "58234042"
   
 利用可能なその他のレポートについては、[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)を確認してください。
   
-このレポートは、他のレポートSkype for Business、組織全体のアクティビティに関する詳細を示します。 これらの詳細は、組織のその他のビジネス上の決定を調査、計画、および行う場合や、コミュニケーション クレジットを設定する場合に [非常に役立ちます。](/microsoftteams/what-are-communications-credits)
+このレポートは、他のレポートとSkype for Business、組織全体のアクティビティに関する詳細を示します。 これらの詳細は、組織のその他のビジネス上の決定を調査、計画、および行う場合や、コミュニケーション クレジットを設定する場合に [非常に役立ちます。](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
 > Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
@@ -46,7 +46,7 @@ ms.locfileid: "58234042"
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
-- 管理センターに移動し、[管理センター] >管理センター **Skype for Business** PSTN 分  >    >  **プール** を  >  **報告します**。
+- 管理センターに移動し、[管理センター>**管理センター Skype for Business** PSTN 分プールを  >    >    >  **報告します**。
     
 > [!NOTE]
 > サブスクリプションのMicrosoft 365またはOffice 365によっては、ここに示す同じ詳細が表示されない場合があります。 
@@ -56,6 +56,8 @@ ms.locfileid: "58234042"
 表示される各列を確認することで、Skype for Business分のプールを表示できます。
   
 レポートは、このように表示されます。
+  
+## 
 
 ![Skype for BusinessPSTN 分プール レポート](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
@@ -63,7 +65,7 @@ ms.locfileid: "58234042"
 ![番号 1](../images/sfbcallout1.png)<br/>次の表は、ライセンス (機能) と使用場所別の分プールの内訳を示しています。 
 *    **機能** は、呼び出しに使用されるライセンス/サービス プランです。 このレポートに表示されるライセンス/サービス プランは次のとおりです。
      * MCOPSTN1 - 国内通話プラン (3000 分米国/1200 分の EU プラン)
-     * MCOPSTN2 - 国内プール (3000 分米国/カナダ/PR、ヨーロッパ 1200 分の国) と国際プール (600 分) が表示される国内 & 国際通話プラン。 分の上限は、カレンダー月内に国内 -OR - 国際上限に達するたびに達します。 
+     * MCOPSTN2 - 国内プール (3000 分米国/カナダ/PR、ヨーロッパ 1200 分の国) と国際プール (600 分) が表示される国内 & 国際通話プラン。 分の上限は、カレンダー月内に国内の -OR - 国際上限に達するたびに達します。 
      * MCOPSTN5 - 国内通話プラン (120 分の通話プラン)
      * MCOPSTN6 - 国内通話プラン (240 分の通話プラン)
      * MCOMEETADD - 電話会議

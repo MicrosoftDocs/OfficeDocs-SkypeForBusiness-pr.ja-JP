@@ -22,12 +22,12 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 4e46ef6c200ff82898b5a2c9cc89a512139d1404
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 29fad24fd9e6f3ea018b9e96f3390141c5281e3b72de91076495031a7e3486ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238232"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342632"
 ---
 # <a name="peer-to-peer-activity-report"></a>ピアツーピア アクティビティ レポート
 
@@ -40,7 +40,7 @@ ms.locfileid: "52238232"
 このレポートは、他のレポートとSkype for Business、組織全体のアクティビティに関する詳細を示します。 これらの詳細は、組織でその他のビジネス上の決定を調査、計画、実行しているときに役立ちます。 
   
 > [!NOTE]
-> 管理者として管理センターにログオンSkype for Business、すべてのレポートをMicrosoft 365できます。 
+> Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Skype for Business ピアツーピア アクティビティ レポートを取得する方法
 
@@ -107,15 +107,15 @@ ms.locfileid: "52238232"
     
 - [Skype for Business参加者アクティビティ レポートの作成](conference-participant-activity-report.md)参加している IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/アウト会議の数を確認できます。
     
-- [Skype for Businessブロックレポート](users-blocked-report.md)PSTN 通話がブロックされている組織内のユーザーを確認できます。
+- [Skype for Business ユーザーのブロック レポート](users-blocked-report.md) - PSTN 通話の発信がブロックされている組織内のユーザーを確認できます。
     
 - [Skype for Business PSTN 使用状況レポート](pstn-usage-report.md)受信/送信呼び出しに費やされた分数と、これらの呼び出しのコストを確認できます。
     
-- [Skype for Business PSTN 分](pstn-minute-pools-report.md)プール レポートでは、組織内の当月に消費された分数を確認できます。
+- [Skype for Business PSTN の利用分数プール レポート](pstn-minute-pools-report.md) - 組織内で今月中に消費された分数を確認できます。
 
-- [Skype for Business詳細レポート](session-details-report.md)個々のユーザーの通話エクスペリエンスに関する詳細を確認できます。
+- [Skype for Business セッションの詳細レポート](session-details-report.md) - 個々のユーザーの通話体験に関する詳細を確認できます。
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [管理センターのアクティビティ レポート](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   

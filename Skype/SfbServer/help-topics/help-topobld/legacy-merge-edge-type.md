@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
-description: '[単一エッジ サーバー] または [負荷分散された統合エッジ] サーバーの場合、[次へ] をクリックして構成情報を指定します。 拡張エッジでは、Lync Server 2013 とマージする前に、各サーバーの構成を統合エッジ構成に変更する必要があります。'
-ms.openlocfilehash: 1645ceee51f18b107c7f70db58c59e5489eacb90
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[単一エッジ サーバー] または [負荷分散された統合エッジ] サーバーの場合、[次へ] をクリックして構成情報を指定します。 拡張エッジの場合、Lync Server 2013 とマージする前に、各サーバーの構成を統合エッジ構成に変更する必要があります。'
+ms.openlocfilehash: 7c19874ce098e88c830e56a2423be21e5d36da06f0f9eea171365c4320a7b283
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336947"
 ---
 # <a name="legacy-merge-edge-type"></a>従来版のマージ エッジの種類
  
-**[単一エッジ サーバー]** または **[負荷分散された統合エッジ]** サーバーの場合、**[次へ]** をクリックして構成情報を指定します。 拡張エッジ **では**、Lync Server 2013 とマージする前に、各サーバーの構成を統合エッジ構成に変更する必要があります。 
+**[単一エッジ サーバー]** または **[負荷分散された統合エッジ]** サーバーの場合、**[次へ]** をクリックして構成情報を指定します。 Expanded **Edge の** 場合、Lync Server 2013 とマージする前に、各サーバーの構成を統合エッジ構成に変更する必要があります。 
   
 

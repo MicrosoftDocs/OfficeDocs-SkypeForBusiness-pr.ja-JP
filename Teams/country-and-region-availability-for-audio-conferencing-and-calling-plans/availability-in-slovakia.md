@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: スロバキアで利用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
-ms.openlocfilehash: 696cf7220dcfbab66b67e9d5dcdb81f48b2ed930
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: b0b64e9d540b64a7c8b2d5147af80c7259ff7c6422cec01d4da00eb32e98fcc4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343051"
 ---
 # <a name="availability-in-slovakia"></a>スロバキアでの利用可能性
 
@@ -82,7 +82,7 @@ ms.locfileid: "52129655"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

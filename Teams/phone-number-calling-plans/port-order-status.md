@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 8290ffba7be56f3ede0e275c801110f8c9d9539e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 607e5680c180f8440f6e09dc28a8de0b069f98e996ccb9c5e6c1b45cbb0753f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44205688"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342892"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>番号移行注文の状況
 
@@ -44,7 +44,7 @@ ms.locfileid: "44205688"
 
 サポートが必要な場合、または電話番号を追加する必要がある場合は、PSTN サービス デスク にお問 [い合わせください](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
