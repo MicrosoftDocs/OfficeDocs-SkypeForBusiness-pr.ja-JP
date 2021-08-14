@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、フランスの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 205d3da27e6dd3018e7617188c795d26c4bbfe51d291163674e3bb4c25cbedda
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: この表を使用して、フランスの電話番号の取得と管理に関する情報を確認Microsoft Teams。
+ms.openlocfilehash: 81778d63eeb6f63497d9f37597e51e7c4e5eca6b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849292"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233282"
 ---
 # <a name="phone-number-management-for-france"></a>フランスでの電話番号の管理
 
-この表を使用して、フランスの電話番号の取得と管理に関する情報をMicrosoft Teams。
+この表を使用して、フランスの電話番号の取得と管理に関する情報を確認Microsoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   

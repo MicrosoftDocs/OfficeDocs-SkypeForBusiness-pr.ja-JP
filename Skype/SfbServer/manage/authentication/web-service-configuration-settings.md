@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での Web サービス構成設定の管理
+title: Web サービスの構成設定を管理 Skype for Business Serverする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: '概要: Skype for Business Server で Web サービス構成設定を管理します。'
-ms.openlocfilehash: 6d79e0567790f10dd86c68f64d7bde54d3540b44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: Web サービス構成設定を管理する (Skype for Business Server)。'
+ms.openlocfilehash: a4fb1474655e695f030180a7345375ef1a1e53e3aaadad18167ed7d41d3a9864
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328162"
 ---
-# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server での Web サービス構成設定の管理
+# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Web サービスの構成設定を管理 Skype for Business Serverする
  
-**概要:** Skype for Business Server で Web サービス構成設定を管理します。
+**概要:** Web サービス構成設定を管理するには、Skype for Business Server。
   
-Web サービス ページ **を使用して** 、Skype for Business Server 関連の Web サーバーおよび Web サービスにアクセスする認証方法を構成できます。
+[Web サービス]**ページを使用** して、関連する Web サーバーおよび Web サービスにアクセスSkype for Business Server認証方法を構成できます。
   
 以下の手順に従って新しい Web サービス ポリシーを作成します。
   
@@ -32,7 +32,7 @@ Web サービス ページ **を使用して** 、Skype for Business Server 関�
 
 1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**Web サービス**] をクリックします。
     
@@ -56,7 +56,7 @@ Web サービス ページ **を使用して** 、Skype for Business Server 関�
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>既存の Web サービス構成設定の変更
 
-Web サービス ページ **を使用して** 、Skype for Business Server 関連の Web サーバーおよび Web サービスにアクセスする認証方法を構成できます。
+[Web サービス]**ページを使用** して、関連する Web サーバーおよび Web サービスにアクセスSkype for Business Server認証方法を構成できます。
   
 既存の Web サービス ポリシーを変更するには、次の手順を実行します。
   
@@ -64,7 +64,7 @@ Web サービス ページ **を使用して** 、Skype for Business Server 関�
 
 1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**Web サービス**] をクリックします。
     
@@ -90,7 +90,7 @@ Web サービス構成設定を削除するには、次の手順を実行しま�
 
 1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**Web サービス**] をクリックします。
     
@@ -100,9 +100,9 @@ Web サービス構成設定を削除するには、次の手順を実行しま�
     
 6. **[OK]** をクリックします。
     
-## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した Web サービス構成設定Windows PowerShell削除する
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Web サービス構成の削除 設定コマンドレットをWindows PowerShellする
 
-Web サービス構成設定を削除するには、Windows PowerShell **Remove-CsWebServiceConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、Skype for Business Server でも同じです。
+Web サービス構成設定を削除するには、Windows PowerShell **Remove-CsWebServiceConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Web サービス構成設定の特定のコレクションを削除するには
 

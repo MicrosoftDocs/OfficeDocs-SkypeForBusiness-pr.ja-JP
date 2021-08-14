@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: Microsoft Teams Windows PowerShell 管理センターまたは Microsoft Teamsを使用して、ダイヤル プラン (PSTN 通話ダイヤル プラン) を作成および管理する方法について説明します。
-ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: Microsoft Teams 管理センターまたは Windows PowerShellを使用して、ダイヤル プラン (PSTN 通話ダイヤル プラン) を作成および管理する方法について説明します。
+ms.openlocfilehash: bb5574893ec940129a0669608d2bb89d474fb0b6
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849202"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233302"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -36,7 +36,7 @@ ms.locfileid: "57849202"
 
 ### <a name="create-a-dial-plan"></a>ダイヤル プランを作成する
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams、Voice Dial **プラン に**  >  **移動します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、Voice Dial プラン **に**  >  **移動します**。
 2. [ **追加]** をクリックし、ダイヤル プランの名前と説明を入力します。
     ![ダイヤル プランを作成するための [追加] ページを示すスクリーンショット](media/create-dial-plan.png)
 3. [ **ダイヤル プランの詳細**] で、ユーザーが外部行を取得するために 1 つ以上の先頭の数字 (9 など) をダイヤルする必要がある場合は、外部ダイヤル プレフィックスを指定します。 その手順は次のとおりです。
@@ -56,7 +56,7 @@ ms.locfileid: "57849202"
 
 ### <a name="edit-a-dial-plan"></a>ダイヤル プランを編集する
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams、Voice Dial **プラン に**  >  **移動します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、Voice Dial プラン **に**  >  **移動します**。
 2. ダイヤル プラン名の左側をクリックしてダイヤル プランを選択し、[編集] をクリック **します**。
 3. 必要な変更を行い、[保存] を **クリックします**。
 
@@ -67,7 +67,7 @@ ms.locfileid: "57849202"
 ## <a name="using-powershell"></a>PowerShell の使用
   
 ### <a name="start-powershell"></a>PowerShell を起動する
-- コマンド プロンプトWindows PowerShellし、次のコマンドを実行します。
+- コマンド プロンプトWindows PowerShell開き、次のコマンドを実行します。
 
 ```powershell
   # When using Teams PowerShell Module

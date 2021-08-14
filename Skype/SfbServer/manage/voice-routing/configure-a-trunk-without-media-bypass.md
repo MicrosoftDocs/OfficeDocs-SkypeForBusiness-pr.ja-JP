@@ -1,5 +1,5 @@
 ---
-title: メディア バイパスを使用せずにトランクを構成Skype for Business Server
+title: Skype for Business Server - メディア バイパスなしでトランクを構成する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'メディア バイパスを有効にしたトランクを構成するには、次の手順に従います。 '
-ms.openlocfilehash: c96e540cbb390f61279979d6a01cc29c69ab9fa5d879468c2361e03da8f472ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'メディア バイパスを有効にしたトランクを構成する方法。 '
+ms.openlocfilehash: 1f129abf44cf35f0c76e026861ba6b0fba1e551e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333489"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233942"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>メディア バイパスを使用せずにトランクを構成Skype for Business Server
+# <a name="skype-for-business-server---configure-a-trunk-without-media-bypass"></a>Skype for Business Server - メディア バイパスなしでトランクを構成する
 
 メディア バイパスを無効にしてトランクを構成する場合は、次の手順を実行します。 メディア バイパスを有効にしたトランクを構成する場合は、「メディア バイパスを使用してトランクを構成する」を参照[Skype for Business Server。](configure-a-trunk-with-media-bypass.md)
 

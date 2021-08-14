@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: adb6e4a75c3405a2d1b2240d101327795fa3a2d1ad6626f4bd692d1fc4851277
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f635e3b5e292d6b9eeb62fc8cbbf9552e2d0b2e2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323819"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233632"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "54323819"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 複数の市場プロバイダーを使用している場合は、仮想化ソリューション プロバイダーに相談して、最小要件が満たされていることを確認することをお勧めします。
   
-現在、Teams/ビデオ (AV) 最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
+現在、Teams/ビデオ (AV) 最適化を使用した VDI での認証は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
 
 ### <a name="platforms-certified-for-teams"></a>Teams 認定プラットフォーム
 
@@ -188,7 +188,7 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
 
-        このプロセスにより、必要なレジストリ キーがマシンに追加され、Teams VDI インスタンスがマシンに表示されます。  インストールしない場合、インストーラーは次のエラーを返します。"インストールに失敗しました。  VDI 環境が検出されない場合は、すべてのユーザーにインストールできません。"
+        このプロセスにより、必要なレジストリ キーがマシンに追加され、Teamsが VDI インスタンスとして知らされます。  インストールしない場合、インストーラーは次のエラーを返します。"インストールに失敗しました。  VDI 環境が検出されない場合は、すべてのユーザーにインストールできません。"
 
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
@@ -381,7 +381,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 
 ## <a name="disable-audio-and-video-settings-for-vdi"></a>VDI のオーディオとビデオの設定を無効にする
 
-TeamsVDI ポリシーは、Microsoft Teamsできます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
+TeamsVDI ポリシーは、Microsoft Teamsモジュールで使用できます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
 
 - New-CsTeamsVdiPolicy  
 - Grant-CsTeamsVdiPolicy
@@ -435,7 +435,7 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true が VDI 上の Teams にサインインすると、次の機能を使用できます。
+VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true VDI で Teams にサインインするユーザーは、次の機能を使用できます。
 
 - チャットから画面共有を行います。
 - 会議に参加して画面を共有する。 音声を電話に移動します。
@@ -471,6 +471,7 @@ if($cleanup){
 - Citrix 環境では、Teams の実行中にユーザーが仮想マシンから切断された場合、Teams の更新により、再接続時にユーザーが AV 用に最適化されていない状態になる可能性があります。 ユーザーは、このシナリオを回避Teams Citrix 仮想マシンから切断する前に、アプリケーションを終了することをお勧めします。
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
 - 現時点では、Azure Virtual Desktop は macOS および Linux ベースのクライアントをサポートしません。
+- テナントの高速切り替えにより、VDI で呼び出し関連の問題が発生する可能性があります。 クライアントを再起動すると、これらの問題が軽減されます。
 
 ### <a name="calling-and-meetings"></a>通話と会議
 

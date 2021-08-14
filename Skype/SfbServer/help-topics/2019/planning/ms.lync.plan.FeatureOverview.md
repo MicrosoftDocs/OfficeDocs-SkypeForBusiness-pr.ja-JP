@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server Planning Tool
-ms.openlocfilehash: 4084d263a693a064e06a814d2fab4542ca3142c0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Skype for Business Server計画ツール
+ms.openlocfilehash: 2bff4f6eb8774b9660f27cf2217eccd7b1b3c3dce469cab70ac7c96c9489b234
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093325"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325124"
 ---
 # <a name="feature-overview-planning-tool"></a>機能の概要 (計画ツール)
  
-Skype for Business Server Planning Tool
+Skype for Business Server計画ツール
   
-計画ツールの **[中央サイト** ] ページを使用して、Skype for Business Server 展開を設計できます。 2 つの集中展開または分散展開を作成できます。 一元的な展開には、組織内のすべての Skype for Business ユーザーを含む中央サイトが 1 つのみです。 分散展開には複数の中央サイトがあります。 Skype for Business Server を複数の中央サイトに展開する場合は、計画ツールに各中央サイトのユーザー数を入力します。
+計画ツールの **[中央サイト**] ページを使用して、展開のSkype for Business Serverできます。 2 つの集中展開または分散展開を作成できます。 集中展開には 1 つのセントラル サイトしか含め、組織内のすべてのユーザー Skype for Businessが配置されます。 分散展開には複数の中央サイトがあります。 複数の中央サイトSkype for Business Server展開する場合は、計画ツールに各中央サイトのユーザー数を入力します。
   
 中央サイトの定義を完了するには、まず次の情報を提供する必要があります。
   
@@ -35,11 +35,11 @@ Skype for Business Server Planning Tool
     
 - **ユーザー数** 中央サイトに拠点を持つブランチ サイトのユーザーを含む、ユーザーの数を入力します。
     
-- **クラウド ホーム ユーザー** Skype for Business Online から中央サイトに入っているユーザーの数を入力します。
+- **クラウド ホーム ユーザー**[オンライン] から中央サイトにホームされているユーザーの数Skype for Businessします。
     
 ## <a name="ui-elements"></a>UI 要素
 
-残りの要素には、Get **Started** ウィザードで提示された質問に対して提供した回答が入力されています。またはウィザードをスキップした場合は、計画ツールによって自動的に設定されます。
+残りの要素には **、はじめに** ウィザードで提示された質問に対して提供した回答が入力されています。またはウィザードをスキップした場合は、計画ツールによって自動的に設定されます。
   
 ### <a name="online-collaboration"></a>オンライン コラボレーション
 
@@ -55,7 +55,7 @@ Skype for Business Server Planning Tool
     
 - **ダイヤルイン会議**
     
-    ダイヤルイン会議を使用すると、PSTN の電話から音声ビデオに参加できます。 ダイヤルイン会議では、会議アテンダントおよび会議アナウンス サービス アプリケーションを展開する必要があります。
+    ダイヤルイン会議を使用すると、PSTN の電話から音声ビデオに参加できます。 ダイヤルイン会議では、サービス アプリケーションとサービス アプリケーション会議アテンダント展開会議アナウンス必要があります。
     
 - **Web 会議**
     
@@ -66,7 +66,7 @@ Skype for Business Server Planning Tool
     常設チャットを使用すると、複数のユーザーが、テキスト、リンク、ファイルなどの特定のトピックに関するコンテンツを投稿してアクセスする会話に参加できます。 ユーザーはセッション中にリアルタイムで通信することができますが、各セッションのコンテンツは永続的です。つまり、セッションの終了後も引き続き利用できます。
 
     > [!NOTE] 
-    > 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については [、「Skype for Business to Microsoft Teams のアップグレード」を参照してください](/MicrosoftTeams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、Skype for Business Server 2015 を引き続き使用します。
+    > 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「Skype for Business[アップグレードMicrosoft Teamsしてください](/MicrosoftTeams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを 2015 年に移行するか、Teamsを使用Skype for Business Server選択します。
     
 ### <a name="users"></a>ユーザー
 
@@ -82,18 +82,18 @@ Skype for Business Server Planning Tool
     
 - **XMPP ベースのサービス プロバイダーとのフェデレーション**
     
-    Skype for Business Server 2015 では、完全に統合された XMPP プロキシ (エッジ サーバーに展開) と、フロントエンド サーバーに展開された XMPP ゲートウェイが導入されました。 [XMPP プロキシと XMPP ゲートウェイの追加と構成] を展開すると、Skype for Business Server ユーザーは、インスタント メッセージング (IM) とプレゼンスのために XMPP ベースのパートナーから連絡先を追加できます。
+    Skype for Business Server 2015 では、完全に統合された XMPP プロキシ (エッジ サーバーに展開) と、フロントエンド サーバーに展開された XMPP ゲートウェイが導入されました。 [XMPP プロキシと XMPP ゲートウェイの追加と構成] を展開すると、Skype for Business Server ユーザーは XMPP ベースのパートナーからインスタント メッセージング (IM) とプレゼンス用の連絡先を追加できます。
     
 - **モビリティ**
     
-    Skype for Business Server Mobility Service を展開する場合、ユーザーはサポートされている Apple iOS、Android、Windows Phone、Nokia モバイル デバイスを使用して、インスタント メッセージの送受信、連絡先の表示、プレゼンスの表示などのアクティビティを実行できます。
+    Skype for Business Server Mobility Service を展開すると、サポートされている Apple iOS、Android、Windows Phone、Nokia モバイル デバイスを使用して、インスタント メッセージの送受信、連絡先の表示、プレゼンスの表示などのアクティビティを実行できます。
     
 - **W15 Exchange メールボックス**
     
-    Skype for Business Server を使用すると、ボイスメール メッセージを Exchange ユニファイド メッセージング (UM) に保存できます。これらのボイスメール メッセージは、ユーザーの受信トレイに電子メール メッセージとして表示されます。
+    Skype for Business Serverユニファイド メッセージング (UM) にボイスメール メッセージExchange保存できます。これらのボイスメール メッセージは、ユーザーの受信トレイに電子メール メッセージとして表示されます。
 
     > [!NOTE]
-    > 以前に知られている Exchange ユニファイド メッセージングは、Exchange 2019 では使用できなくなりましたが、電話システムを使用してボイスメール メッセージを録音してから、ユーザーの Exchange メールボックスに記録を残す方法を使用できます。 詳細については [、「Plan Cloud ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 」を参照してください。
+    > Exchange以前に知られているユニファイド メッセージングは Exchange 2019 では使用できなくなりましたが、引き続き 電話システム を使用してボイスメール メッセージを記録し、その記録をユーザーの Exchange メールボックスに残して使用できます。 詳細については[、「プラン クラウド ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
     
 ### <a name="voice"></a>音声
 
@@ -101,14 +101,14 @@ Skype for Business Server Planning Tool
   
 - **エンタープライズ VoIP**
     
-    エンタープライズ VoIP は、Microsft のソフトウェアベースの VoIP ソリューションです。 エンタープライズ音声を使用すると、ユーザーは Skype for Business を使用してコンピューターから電話をかできます。
+    Enterprise音声は、Microsft のソフトウェアベースの VoIP ソリューションです。 Enterprise音声を使用すると、ユーザーはコンピューター Skype for Business電話を送信するためにユーザーを使用できます。
     
 - **Exchange ユニファイド メッセージング**
     
-    Exchange ユニファイド メッセージング (UM) は、ボイス メールと電子メールを単一のメッセージング インフラストラクチャに結合します。 Skype for Business Server 2015 では、Exchange UM を使用して通話応答、サブスクライバー アクセス、通話通知、自動応答サービスを提供します。 これらのサービスを使用する場合は、Exchange UM と Skype for Business Server を共有 Active Directory トポロジに統合する必要があります。
+    Exchangeユニファイド メッセージング (UM) は、ボイス メールとメールを単一のメッセージング インフラストラクチャに結合します。 Skype for Business Server 2015 では、Exchange UM を使用して、通話応答、サブスクライバー アクセス、通話通知、自動応答サービスを提供します。 これらのサービスを使用する場合は、共有 Active Directory トポロジExchange UM Skype for Business Serverを統合する必要があります。
 
     > [!NOTE]
-    > 以前に知られている Exchange ユニファイド メッセージングは、Exchange 2019 では使用できなくなりましたが、電話システムを使用してボイスメール メッセージを録音してから、ユーザーの Exchange メールボックスに記録を残す方法を使用できます。 詳細については [、「Plan Cloud ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 」を参照してください。
+    > Exchange以前に知られているユニファイド メッセージングは Exchange 2019 では使用できなくなりましたが、引き続き 電話システム を使用してボイスメール メッセージを記録し、その記録をユーザーの Exchange メールボックスに残して使用できます。 詳細については[、「プラン クラウド ボイスメール サービス](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)」を参照してください。
     
 ### <a name="additional-deployment-options"></a>追加の展開オプション
 
@@ -130,9 +130,9 @@ Skype for Business Server Planning Tool
     
     アーカイブでは、インスタント メッセージングの会話と会議が保存されます。
     
-- **Exchange アーカイブの統合**
+- **Exchangeアーカイブ統合**
     
-    Exchange にホームを持ち、そのメールボックスが In-Place Hold に設定されているユーザーがある場合は、Skype for Business Server ストレージを Exchange ストレージに統合するオプションを選択できます。
+    Exchange に保存されているユーザーとそのメールボックスが In-Place Hold に置かれた場合は、Skype for Business Server ストレージと Exchange ストレージを統合するオプションを選択できます。
     
 - **IPv4**
     
@@ -144,7 +144,7 @@ Skype for Business Server Planning Tool
     
 - **デバイス更新 Web サービス**
     
-    Device Update Web サービスは、組織外に展開されている Skype for Business for Windows Phone など、すべてのデバイスを自動的に更新する方法を提供します。
+    Device Update Web サービスは、組織の外部に展開されているデバイス (Skype for Business for Windows Phoneなど) を自動的に更新する方法を提供します。
     
 ### <a name="server-applications"></a>サーバー アプリケーション
 
@@ -156,17 +156,17 @@ Skype for Business Server Planning Tool
     
 - **アナウンス**
     
-    電話番号を展開するエンタープライズ VoIP、ダイヤルされた番号が有効なのにユーザー共通領域に割り当てられていない場合に、電話の処理方法を構成できる場合があります。 管理者はアナウンス サービスを構成して、これらの通話が所定の宛先 (電話番号または SIP URI) に転送したり、音声アナウンスまたは両方を再生したりするように構成できます。 アナウンス サービスを使用すると、発信者がビジー トーンを誤って聞こえるか、SIP クライアントがエラー メッセージを受信する状況が回避されます。 アナウンス サービスの機能は、一般的な PBX 機能です。 
+    電話番号を展開するエンタープライズ VoIP、ダイヤルされた番号が有効で、ユーザー共通領域に割り当てられていない場合に、電話の処理方法を構成できる場合があります。 管理者はアナウンス サービスを構成して、これらの通話が所定の宛先 (電話番号または SIP URI) に転送したり、音声アナウンスまたは両方を再生したりするように構成できます。 アナウンス サービスを使用すると、発信者がビジー トーンを誤って聞こえるか、SIP クライアントがエラー メッセージを受信する状況が回避されます。 アナウンス サービスの機能は、一般的な PBX 機能です。 
     
 - **コール パーク**
     
-    通話パーク アプリケーションを使用すると、エンタープライズ VoIP ユーザーは 1 つの電話から通話を保留にしてから、通話を受信した電話のリソースを保持せずに別の電話から通話を受信できます。 コール パーク アプリケーションは、ユーザーが通話を転送する必要があるが、特定の受信者が不明な場合に役立ちます。 
+    コール パーク アプリケーションを使用すると、エンタープライズ VoIP ユーザーは 1 つの電話から通話を保留にしてから、通話を受信した電話のリソースを保持せずに別の電話から通話を受信できます。 コール パーク アプリケーションは、ユーザーが通話を転送する必要があるが、特定の受信者が不明な場合に役立ちます。 
     
 - **会議アテンダント**
     
-    会議アテンダント アプリケーションは、サードパーティの電話会議プロバイダーのサービスを利用せずに電話ユーザーに電話会議機能を提供します。
+    会議アテンダント アプリケーションサード パーティ製の電話会議プロバイダーのサービスなしで電話ユーザーに電話会議機能を提供します。
     
-- **会議のお知らせ**
+- **会議アナウンス**
     
     会議アナウンス アプリケーションは、ユーザーが会議に参加または退出するときに通知するトーンと、ミュートまたはミュート解除時の電話ユーザーへの通知を生成します。
     

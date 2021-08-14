@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Bermuda でMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: ef23963d67e57c70f28216ba0d067c36f1710d4d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: aff9dd19246c124e489468ad80f2a24c69ef38653ea6455dcdbac357e16b394b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118336"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351107"
 ---
 # <a name="availability-in-bermuda"></a>バミューダ諸島での可用性
 
@@ -82,7 +82,7 @@ Bermuda でMicrosoft 365およびOffice 365サービスSkype for BusinessとMicr
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

@@ -17,25 +17,25 @@ description: ヘルプ トピック、ビデオ、リリース ノート、フ�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50026fba70ae817eb8325d52c3bcf1bd0153e2c803ee7d7c76935570c6e45420
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 78391b9afa0ea4edcc6f901f26d4f587eeb94249
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848372"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233582"
 ---
 # <a name="get-help-in-microsoft-teams"></a>Microsoft Teams でヘルプを利用する
 
 [ヘルプ] ボタンMicrosoft Teams、ユーザーとチャンピオンは、ユーザーとチャンピオンの使用中に必要になる可能性があるすべての支援をTeams。
 
-Teamsヘルプ コンテンツのローカライズされた言語サポートを提供します。 サポートされている言語の最新の一覧については、「サポートされている言語Microsoft Teamsヘルプ コンテンツ[」を参照してください](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)。
+Teamsヘルプ コンテンツのローカライズされた言語サポートを提供します。 サポートされている言語の最新の一覧については、「サポートされている言語Microsoft Teamsヘルプ[コンテンツ」を参照してください](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)。
 
- - **[トピックの** 参照] - この機能を使ってコンテンツを整理Teamsされます。 ユーザーがデータを使い切るのを助ける簡単で簡単なTeams。 
+ - **[トピックの** 参照] - この機能を使用して、コンテンツを整理Teamsされます。 ユーザーがデータを使い切るのを助ける簡単で簡単なTeams。 
 
  - **ビデオ** - オンデマンドのビデオ コンテンツを使用すると、ユーザーは特定のタスクをすばやく学習できます。 新しいビデオを継続的に制作していますので、頻繁に確認してください。 もちろん、インターネット アクセスは必須です。 
 
  - **新機能** - 
-   新機能または更新された新機能に関するユーザーとチーム所有者向け定期的なリリース Teamsします。
+   新機能または更新された新機能に関するユーザーとチーム所有者向け定期的なTeamsします。
 
  - **アイデアの共有**- アイデアの改善方法について、常に皆さんからTeams。 このオプションでは、製品フィードバック フォーラムにアクセスして、新機能の要求を送信したり、既存の機能に投票したりすることができます。 新機能を計画する中で、この情報を常に確認しています。 
 

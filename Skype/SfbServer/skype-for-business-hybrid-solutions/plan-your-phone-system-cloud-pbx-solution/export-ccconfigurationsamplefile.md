@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
-description: Export-CcConfigurationSampleFile コマンドレットは、Skype for Business Cloud Connector エディションのサンプル構成ファイル (.ini) を Cloud Connector アプライアンスのアプライアンス ディレクトリにエクスポートします。このファイルの名前は、お使いの展開での使用に合わせて変更できます。
-ms.openlocfilehash: a29a3db8e77ee239263d015bd7a3efcf4f3f7c5c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: このExport-CcConfigurationSampleFileコマンドレットは、Skype for Business クラウド コネクタ エディション構成ファイル (.ini) をクラウド コネクタ アプライアンスのアプライアンス ディレクトリにエクスポートします。 展開に使用するファイルを変更して名前を変更できます。
+ms.openlocfilehash: f59e93cf241ca762dcb41cf23d617017a62581b453cb84cebc915b1703f5a019
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801007"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326263"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
-Export-CcConfigurationSampleFile コマンドレットは、Skype for Business Cloud Connector エディションのサンプル構成ファイル (.ini) を Cloud Connector アプライアンスのアプライアンス ディレクトリにエクスポートします。このファイルの名前は、お使いの展開での使用に合わせて変更できます。
+このExport-CcConfigurationSampleFileコマンドレットは、Skype for Business クラウド コネクタ エディション構成ファイル (.ini) をクラウド コネクタ アプライアンスのアプライアンス ディレクトリにエクスポートします。 展開に使用するファイルを変更して名前を変更できます。
   
-このコマンドレットは Skype for Business Cloud Connector エディション 1.4.1、1.4.2 に適用されます。
+このコマンドレットは、Skype for Business クラウド コネクタ エディション 1.4.1、1.4.2 に適用されます。
   
 ```powershell
 Export-CcConfigurationSampleFile
@@ -39,7 +39,7 @@ Export-CcConfigurationSampleFile
 
 ### <a name="example-1"></a>例 1
 
-次の例では、Microsoft サイトからサンプルの構成ファイルをダウンロードし、クラウドコネクタのアプライアンスの appliance ディレクトリに書き込みます。
+次の使用例は、Microsoft サイトから構成ファイルのサンプルをダウンロードし、クラウド コネクタ アプライアンスのアプライアンス ディレクトリに書き込みます。
   
 ```powershell
 Export-CcConfigurationSampleFile
@@ -48,14 +48,14 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>解説
 <a name="DetailedDescription"> </a>
 
-Cloud Connector の現在のバージョンでは、.ini ファイルにいくつかのパラメーターを指定する必要があります。たとえば、クラウドコネクタコンポーネントの仮想マシンの IP アドレス、コンポーネント名、ゲートウェイパラメーターなどのパラメーターがあります。
+現在のバージョンの Cloud Connector では、ファイル内に複数のパラメーターを指定する.iniがあります。たとえば、Cloud Connector コンポーネントの仮想マシンの IP アドレス、コンポーネント名、ゲートウェイ パラメーターなどのパラメーター。
   
-このコマンドレットは、クラウドコネクタのホストコンピューターで実行すると、Microsoft サイトの構成例と共にサンプルの .ini ファイルをダウンロードします。 このコマンドレットは、クラウドコネクタアプライアンスのアプライアンスディレクトリにファイルを書き込みます。 アプライアンス ディレクトリは Set-CcApplianceDirectory コマンドレットを使用して指定されます。
+このコマンドレットは、クラウド コネクタのホスト コンピューターで実行する場合、Microsoft サイトから構成例.iniファイルをダウンロードします。 このコマンドレットは、クラウド コネクタ アプライアンスのアプライアンス ディレクトリにファイルを書き込みます。 アプライアンス ディレクトリは、このコマンドレットを使用してSet-CcApplianceDirectoryされます。
   
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
 
-なし。Export-CcConfigurationSampleFile　コマンドレットはパイプライン入力を受け入れません。 
+なし。 このExport-CcConfigurationSampleFileは、パイプライン処理された入力を受け付け取らない。 
   
 ## <a name="return-types"></a>戻り値の種類
 <a name="ReturnTypes"> </a>

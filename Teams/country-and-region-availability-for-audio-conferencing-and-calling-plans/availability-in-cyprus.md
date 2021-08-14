@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: キプロスでMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
-ms.openlocfilehash: 265202a65ea91ebd9ed6c7c3373b77220237b3e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5ccbc8b826a303d552d383dac6db9311e904a7a2a69a6944f4af7898e135d0ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351117"
 ---
 # <a name="availability-in-cyprus"></a>キプロスでの利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51118206"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

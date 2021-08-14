@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 携帯電話をアップグレードしてTeams管理センター Teams表示する方法Microsoft Teams確認します。
-ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327762"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>スマートフォンTeamsディスプレイにTeamsする
 
@@ -30,7 +30,7 @@ ms.locfileid: "51115585"
 
 この記事では、Teams 管理センターでデバイスをTeamsデバイスにアップグレードする方法Microsoft Teams説明します。 これにより、デバイスはディスプレイ デバイスとしてユーザーに豊富なTeams提供できます。
 
-Teamsディスプレイは、周囲のタッチスクリーンと Cortana を利用したハンズフリーエクスペリエンスを備Teamsデバイスの 1 つの専用デバイスのカテゴリです。 Teamsディスプレイは、スマートフォンの進化Teamsです。 Teams スマートフォンでサポートされる機能に加えて[、Teams](phones-for-teams.md#features-supported-by-teams-phones)ディスプレイには、すべての Teams アクティビティとコラボレーション オプションを常に使用できる常時接続表示などの機能が含まれます。 ディスプレイに固有の機能の詳細については、「Teams」をMicrosoft Teams[してください](teams-displays.md)。
+Teamsディスプレイは、環境タッチスクリーンを備え、Teams を利用したハンズフリーエクスペリエンスを備える、1 つの専用の Cortana デバイスのカテゴリです。 Teamsディスプレイは、スマートフォンの進化Teamsです。 Teams スマートフォンでサポートされる機能に加えて[、Teams](phones-for-teams.md#features-supported-by-teams-phones)ディスプレイには、すべての Teams アクティビティとコラボレーション オプションを常に使用できる常時接続表示などの機能が含まれます。 ディスプレイに固有の機能の詳細については、「Teams」をMicrosoft Teams[してください](teams-displays.md)。
 
 ## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>ディスプレイへのアップグレードに関して知Teams情報
 
@@ -90,4 +90,4 @@ Teams スマートフォンを Teams ディスプレイ デバイスにアップ
 
 [Microsoft Teams 認定 IP 電話](teams-ip-phones.md)
 
-[Cortana の音声アシスタンス (Teams](../cortana-in-teams.md)
+[Cortanaでの音声アシスタンスのTeams](../cortana-in-teams.md)

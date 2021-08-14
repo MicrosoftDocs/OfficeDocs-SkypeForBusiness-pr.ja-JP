@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 組織で使用されているデバイスで QoS を有効にする方法について説明します。この方法では、他のオペレーティング システムを使用Windows。
-ms.openlocfilehash: 81350ae252252a85bd3f88a000d6cd78d85408e43ca56335517de7b50bb6fd49
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 85e63df1ba96ff77d586d3c4e71130509a869d51
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590931"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234002"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>デバイスに基づいてSkype for Business Serverデバイスの QoS を有効Windows
 
@@ -59,7 +59,7 @@ EnableQoS プロパティが False (前の出力と同様) に設定されてい
 
 **Get-CsMediaConfiguration |Set-CsMediaConfiguration -EnableQoS $True**
 
-EnableQoS プロパティの値を False に設定すると、Windows以外のオペレーティング システムを使用するデバイスの QoS を無効にできます。 例:
+EnableQoS プロパティの値を False に設定すると、Windows以外のオペレーティング システムを使用するデバイスの QoS を無効にできます。 以下に例を示します。
 
 **Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False**
 

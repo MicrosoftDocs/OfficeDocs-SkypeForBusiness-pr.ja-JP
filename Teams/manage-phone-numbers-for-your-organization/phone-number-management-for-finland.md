@@ -1,5 +1,5 @@
 ---
-title: 電話の番号管理
+title: 電話の電話番号管理
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,14 +20,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、フィンランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 5314b4069be7145706080c2b69e1a8c1f7c42b6252f5588a0af1f4fd7ecb9e1d
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: da1fdca39e5d50836f6f9157412b6b2ee5617669
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849490"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233452"
 ---
-# <a name="phone-number-management-for-finland"></a>電話の番号管理
+# <a name="phone-number-management-for-finland"></a>電話の電話番号管理
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
@@ -37,7 +37,7 @@ ms.locfileid: "57849490"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。<br/> |フィンランドでは、管理センターで組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。<br/><br/>フィンランド (v.1.0) (en-fi) の新しい電話番号要求。<br/><br/> 電話番号を割り当てる前に、Know your [customer for Finland (v.1.0) (fi-FI)](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf) Know your customer form をダウンロードし、完全に入力して、送信する必要があります。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。   |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。<br/> |フィンランドでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。<br/><br/>フィンランド (v.1.0) (en-fi) の新しい電話番号要求。<br/><br/> 電話番号を割り当てる前に、Know your [customer for Finland (v.1.0) (fi-FI)](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf) Know your customer form をダウンロードし、完全に入力して、送信する必要があります。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。   |
 |転送された電話番号を取得します。| このフォームをダウンロードします。 <br/>[フィンランドの承認状 (LOA) (すべての番号) (v.1.0) (en-fi)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、移行に 2 ~ 3 週間かかる場合があります。 <br/><br/> 現時点では、これらの番号を会議に使用できません。   |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |

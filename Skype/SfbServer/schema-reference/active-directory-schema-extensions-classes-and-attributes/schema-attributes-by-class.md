@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server のクラス別のスキーマ属性
+title: スキーマ属性をクラス別にSkype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,21 +12,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-description: このセクションでは、各 Skype for Business Server クラスに含め可能なスキーマ属性と、他のクラスに含め可能なクラスの一覧を示します。 すべてのクラスとその説明の一覧については、Skype for Business Server のスキーマ クラスと説明を参照してください。 すべての属性とその説明の一覧については、Skype for Business Server のスキーマ属性と説明を参照してください。
-ms.openlocfilehash: 00f524fce7e786c9d30c9442eb964c5356db5e16
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: このセクションでは、各クラスに含まれるスキーマ属性とSkype for Business Serverクラスに含まれる可能性があるクラスの一覧を示します。 すべてのクラスとその説明の一覧については、「スキーマ クラスと説明」を参照Skype for Business Server。 すべての属性とその説明の一覧については、「スキーマの属性と説明」を参照Skype for Business Server。
+ms.openlocfilehash: 75ca1dea65462d97cdef8053ab24274646408dd135890592a7c93e2654638685
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813587"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326293"
 ---
-# <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Skype for Business Server のクラス別のスキーマ属性
+# <a name="schema-attributes-by-class-in-skype-for-business-server"></a>スキーマ属性をクラス別にSkype for Business Server
  
-このセクションでは、各 Skype for Business Server クラスに含め可能なスキーマ属性と、他のクラスに含め可能なクラスの一覧を示します。 すべてのクラスとその説明の一覧については、Skype for Business Server のスキーマ クラスと [説明を参照してください](schema-classes-and-descriptions.md)。 すべての属性とその説明の一覧については、Skype for Business Server のスキーマ属性と [説明を参照してください](schema-attributes-and-descriptions.md)。
+このセクションでは、各クラスに含まれるスキーマ属性とSkype for Business Serverクラスに含まれる可能性があるクラスの一覧を示します。 すべてのクラスとその説明の一覧については、「[スキーマ](schema-classes-and-descriptions.md)クラスと説明」を参照Skype for Business Server。 すべての属性とその説明の一覧については、「[スキーマ](schema-attributes-and-descriptions.md)の属性と説明」を参照Skype for Business Server。
   
 ## <a name="attributes-by-class"></a>クラス別の属性
 
-|**Class**|**次の属性を含む場合があります。**|
+|**クラス**|**これらの属性を含む場合があります**|
 |:-----|:-----|
 |Contact  <br/> |msDS-SourceObjectDN  <br/> msRTCSIP-AcpInfo  <br/> msRTCSIP-ApplicationDestination  <br/> msRTCSIP-ApplicationOptions  <br/> msRTCSIP-ApplicationPrimaryLanguage  <br/> msRTCSIP-ApplicationSecondaryLanguages  <br/> msRTCSIP-ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP-FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP-InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP-LineServer  <br/> msRTCSIP-OptionFlags  <br/> msRTCSIP-OriginatorSid  <br/> msRTCSIP-OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP-ProxyAddresses  <br/> msRTCSIP-SourceObjectType  <br/> msRTCSIP-TargetHomeServer  <br/> msRTCSIP-TargetUserPolicies  <br/> msRTCSIP-TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP-UserExtension  <br/> msRTCSIP-UserLocationProfile  <br/> msRTCSIP-UserPolicies  <br/> msRTCSIP-UserPolicy  <br/> msRTCSIP-UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
 |Mail-Recipient  <br/> |msExchUCVoiceMailSettings  <br/> msExchUserHoldPolicies  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "49813587"
 |msRTCSIP-MCUFactoryService  <br/> |msRTCSIP-MCUFactoryPath  <br/> |
 |msRTCSIP-Mobility  <br/> |msRTCSIP-MobilityFlags  <br/> msRTCSIP-MobilityPolicy  <br/> |
 |msRTCSIP-MonitoringServer  <br/> |dnsHostName  <br/> msRTCSIP-ExtensionData  <br/> msRTCSIP-ServerVersion  <br/> |
-|msRTCSIP-Pool  <br/> |msRTCSIP-ApplicationList  <br/> msRTCSIP-BackEndServer  <br/> msRTCSIP-dnsHostName  <br/> msRTCSIP-PoolData  <br/> msRTCSIP-PoolDisplayName  <br/> msRTCSIP-PoolDomainFQDN  <br/> msRTCSIP-PoolFunctionality  <br/> msRTCSIP-PoolType  <br/> msRTCSIP-PoolVersion  <br/> msRTCSIP-TrustedServiceLinks  <br/> |
+|msRTCSIP-Pool  <br/> |msRTCSIP-ApplicationList  <br/> msRTCSIP-BackEndServer  <br/> msRTCSIP-dnsHostName  <br/> msRTCSIP-PoolData  <br/> msRTCSIP-PoolDisplayName  <br/> msRTCSIP-PoolDomainFQDN  <br/> msRTCSIP-Pool機能  <br/> msRTCSIP-PoolType  <br/> msRTCSIP-PoolVersion  <br/> msRTCSIP-TrustedServiceLinks  <br/> |
 |msRTCSIP-PoolService  <br/> |msRTCSIP-FrontEndServers  <br/> |
 |msRTCSIP-Presence  <br/> |msRTCSIP-PresenceFlags  <br/> msRTCSIP-PresencePolicy  <br/> |
 |msRTCSIP-TrustedMCU  <br/> |msRTCSIP-MCUType  <br/> msRTCSIP-MCUVendor  <br/> msRTCSIP-RoutingPoolDN  <br/> msRTCSIP-TrustedMCUData  <br/> msRTCSIP-TrustedMCUFQDN  <br/> msRTCSIP-TrustedServerVersion  <br/> |
@@ -61,7 +61,7 @@ ms.locfileid: "49813587"
    
 ### <a name="classes-contained-in-other-classes"></a>他のクラスに含まれるクラス
 
-|**Class**|**このクラスを含む場合があります**|
+|**クラス**|**このクラスを含む場合があります**|
 |:-----|:-----|
 |serviceConnectionPoint  <br/> |msRTCSIP-Server  <br/> msRTCSIP-PoolService  <br/> msRTCSIP-MCU  <br/> msRTCSIP-MCUFactoryService  <br/> msRTCSIP-WebComponents  <br/> msRTCSIP-WebComponentsService  <br/> msRTCSIP-ApplicationServerService  <br/> msRTCSIP-Service  <br/> msRTCSIP-ConnectionPoint  <br/> msRTCSIP-MediationServer  <br/> msRTCSIP-ApplicationServer  <br/> |
 |msRTCSIP-Service  <br/> |msRTCSIP-GlobalContainer  <br/> msRTCSIP-Pools  <br/> msRTCSIP-MCUFactories  <br/> msRTCSIP-TrustedMCUs  <br/> msRTCSIP-TrustedWebComponentsServers  <br/> msRTCSIP-TrustedProxies  <br/> msRTCSIP-TrustedServices  <br/> msRTCSIP-ApplicationContacts  <br/> msRTCSIP-LocationContactMappings  <br/> msRTCSIP-ConferenceDirectories  <br/> msRTCSIP-GlobalTopologySettings  <br/> |

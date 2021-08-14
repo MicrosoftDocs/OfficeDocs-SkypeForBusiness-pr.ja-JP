@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ノルウェーで利用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: a115834d56a2c68d3c7fd9652cd81537b4d6dfac
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: fb414917908f5a70b040ea113eb83801026b42c7dcc29f99930c7d028761161d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351067"
 ---
 # <a name="availability-in-norway"></a>ノルウェーでの利用可能性
 
@@ -82,7 +82,7 @@ ms.locfileid: "52130186"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

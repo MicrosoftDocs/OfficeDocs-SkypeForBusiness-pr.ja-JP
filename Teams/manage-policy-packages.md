@@ -1,5 +1,5 @@
 ---
-title: グループでポリシー パッケージを管理Microsoft Teams
+title: Microsoft Teams でポリシー パッケージを管理する
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,18 +20,18 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams でポリシー パッケージを使用および管理して、ユーザー グループのポリシーを管理する際の一貫性を簡素化、合理化、および提供する方法について説明します。
-ms.openlocfilehash: 02d9b7c21f8c79c5314ac600eec09cfffe29e3157c692eed8bedccd3c4636de4
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: e70002590f3b1335e2c1ea0d8208c9685c803f17
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "58191001"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243688"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams: ポリシー パッケージを管理する
 
 Microsoft Teams のポリシー パッケージは、組織内で類似の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 組織全体のユーザー グループのポリシーを管理する際に、一貫性を提供するために、ポリシー パッケージを構築しました。  
 
-アプリケーションに含まれている[ポリシー パッケージを使用Teams](#policy-packages-included-in-teams)独自[のカスタム ポリシー パッケージを作成できます](#custom-policy-packages)。
+アプリケーションに含まれている[ポリシー パッケージをTeams](#policy-packages-included-in-teams)独自のカスタム ポリシー[パッケージを作成できます](#custom-policy-packages)。
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理センターの [ポリシー パッケージ] ページのスクリーンショット":::
 
@@ -89,7 +89,7 @@ Teamsには、現在、次のポリシー パッケージが含まれていま�
 
 新しいカスタム ポリシー パッケージを作成するには:
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams[ポリシー パッケージ] を選択し、[追加] を **クリックします**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams[ポリシー パッケージ]を選択し、[追加] を **クリックします**。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理センターの [ポリシー パッケージ] ページの [追加] ボタンのスクリーンショット":::
 
@@ -130,7 +130,7 @@ Teamsには、現在、次のポリシー パッケージが含まれていま�
 
 ポリシーの設定は、[ポリシー パッケージ]ページで編集するか、管理センターのポリシー ページに直接移動Microsoft Teamsできます。
 
-1. 管理センターの左側のMicrosoft Teams、次のいずれかの操作を行います。
+1. 管理センターの左側のMicrosoft Teamsで、次のいずれかの操作を行います。
     - [ **ポリシー パッケージ]** をクリックし、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
     - ポリシーの種類をクリックします。  たとえば、[メッセージング ポリシー **] をクリックします**。
 

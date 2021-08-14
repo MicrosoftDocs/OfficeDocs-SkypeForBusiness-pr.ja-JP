@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Grenada でMicrosoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 5f9fc0d27d401359e659d5ad7a2afc2b297d1db6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cdbb8b482f129ce57f71a6b205f41ab95b44c26be19a9a9de02b20c5cf3ac8f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349180"
 ---
 # <a name="availability-in-grenada"></a>グレナダでの可用性
 
@@ -82,7 +82,7 @@ Grenada でMicrosoft 365およびOffice 365のSkype for BusinessサービスMicr
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

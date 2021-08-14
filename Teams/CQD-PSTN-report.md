@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: PSTN 通話Microsoft Teams (CQD)) PSTN ダイレクト ルーティング レポートを使用して、PSTN 通話を監視およびトラブルシューティングMicrosoft Teams。
-ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094981"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351257"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN ダイレクト ルーティング レポートの使用
 
@@ -40,7 +40,7 @@ CQD PSTN ダイレクト ルーティング レポートには、次の 4 つの
 
   - [ネットワーク パラメーター](#network-parameters)
 
-## <a name="highlights"></a>モーメント
+## <a name="highlights"></a>ハイライト
 
 1. 通話の種類、SBC、発信者、通話先の国別に分析する
 
@@ -101,7 +101,7 @@ CQD PSTN 直接ルーティング レポートでは、過去 180 日間のサ�
 
 これは、Overall Health ダッシュボードに表示されるのと同じメトリックです。 影響を受ける通話の詳細を含む時間次 NER 番号を、以下の時間別ネットワーク有効性比率と通話終了理由グラフの両方の通話方向 (受信/送信) で確認できます。
 
-  - **NER** - 能力 (%)送信された通話の数と受信者に配信された通話の数を測定して、通話を配信するネットワークの数。
+  - **NER** - 送信された通話の数と受信者に配信された通話の数を測定して、通話を配信するネットワークの機能 (%)
 
   - **SIP 応答コード**- 3 桁の整数応答コードは、呼び出しの状態を示します。
 
@@ -143,7 +143,7 @@ NER Good Percentage Hourly Trend から、21:00 頃にディップが発生し�
 
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [このPower BIを使用して、CQD データを分析Microsoft Teams](CQD-PSTN-report.md)
 

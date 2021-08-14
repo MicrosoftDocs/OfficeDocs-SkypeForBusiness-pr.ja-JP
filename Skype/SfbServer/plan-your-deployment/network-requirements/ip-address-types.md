@@ -1,5 +1,5 @@
 ---
-title: Skype for Business で IP アドレスの種類を構成する
+title: IP アドレスの種類を構成Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
-description: '概要: Skype for Business Server を実装する前に、以下の IP アドレスの種類に関する考慮事項を確認してください。'
-ms.openlocfilehash: ba10dd223e7e099d27e31bddce478603f50e49a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: IP アドレスを実装する前に、以下の IP アドレスの種類に関する考慮事項をSkype for Business Server。'
+ms.openlocfilehash: 2af34980f4a06189fdae996d01bfdf13a8fee7ac769f022b4dc1bc1e03d94a81
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101253"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351337"
 ---
-# <a name="configure-ip-address-types-in-skype-for-business"></a>Skype for Business で IP アドレスの種類を構成する
+# <a name="configure-ip-address-types-in-skype-for-business"></a>IP アドレスの種類を構成Skype for Business
 
-**概要:** Skype for Business Server を実装する前に、以下の IP アドレスの種類に関する考慮事項を確認してください。
+**概要:** IP アドレスを実装する前に、以下の IP アドレスの種類に関する考慮事項をSkype for Business Server。
 
 トポロジ ビルダーで構成するトポロジ設定を使用して、IP アドレスの種類を展開します。 ここでは、フロントエンド サーバー、仲介サーバー、エッジ サーバーに IP アドレスの種類を展開する方法について説明します。
 
@@ -53,7 +53,7 @@ ms.locfileid: "51101253"
    - [**PSTN IP アドレス**]。フロントエンド サーバーで仲介サーバーが共存する場合は、PSTN IP アドレスを定義します。このアドレスは、選択されているアドレス タイプの形式に一致している必要があります。
 
 > [!NOTE]
-> フロント エンド サーバーでの PSTN IP アドレス構成 (または他の理由) をサポートする追加のネットワーク インターフェイス カード (NIC) のインストールはサポートされていません。 Skype for Business Server でサポートされる NIC 構成の詳細については [、「Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)のサーバー ハードウェア プラットフォーム」を参照してください。
+> フロント エンド サーバーでの PSTN IP アドレス構成 (または他の理由) をサポートする追加のネットワーク インターフェイス カード (NIC) のインストールはサポートされていません。 Lync Server 2013 でサポートされる NIC 構成Skype for Business Server詳細については、「Server ハードウェア プラットフォーム[for Lync Server 2013」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)。
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>仲介サーバーに IP アドレスの種類を展開する
 
@@ -81,8 +81,8 @@ ms.locfileid: "51101253"
 > 専用の仲介サーバーでは、2 つの *ネットワーク カードのみを* サポートしています。 仲介 Sserver の役割がフロントエンドに共有されている場合、デュアル ネットワーク カードはサポートされません。 
 
 > [!NOTE]
-> - Skype for Business Server 2015 でサポートされる NIC 構成の詳細については、「[ハードウェア for Skype for Business Server 2015」](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)を参照してください。
-> - Skype for Business Server 2019 でサポートされる NIC 構成の詳細については、「[ハードウェア for Skype for Business Server 2019」](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)を参照してください。
+> - 2015 年 2015 年にサポートされる Skype for Business Server NIC 構成の詳細については、「ハードウェア[for Skype for Business Server 2015」を参照してください。](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - 2019 年 2019 年にサポートされる NIC 構成の詳細については、「Skype for Business Server ハードウェア[for Skype for Business Server 2019」を参照してください。](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
 
 
 

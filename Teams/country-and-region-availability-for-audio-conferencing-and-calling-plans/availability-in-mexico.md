@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、メキシコでMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを示します。
-ms.openlocfilehash: 4cc7ffa8bd950aff457d37023b6590230b91db94
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 84cab723f6204906d5a26c830bb954a00697f19148374484eba457560ee83bbc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349130"
 ---
 # <a name="availability-in-mexico"></a>メキシコでの利用可能性
 
@@ -83,7 +83,7 @@ ms.locfileid: "51102483"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

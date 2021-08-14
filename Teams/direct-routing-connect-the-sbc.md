@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: SBC を構成し、直接ルーティングに接続電話システム説明します。
-ms.openlocfilehash: 697f426b9c9dc3215d653520658282fab1787001
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 46eabb56056526032d45669f0faf12fecf1762e10a1ee020dd9de9be17bff74e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122251"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327752"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Connect ボーダー コントローラー (SBC) を直接ルーティングに接続する
 

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 通話の共有とグループ通話の集荷を使用すると、ユーザーが利用できないときに通話をキャプチャできるよう、ユーザーは同僚と着信通話を共有できます。
-ms.openlocfilehash: 98094ff0b4b5d7b037915273b2c2730d42517c22
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 27c24ce632cb0803b5be27bd3c7f523815c6913e07a3983ebdad449d4e237d37
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717838"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351167"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Microsoft Teams での通話の共有およびグループ通話ピックアップ
 
