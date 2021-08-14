@@ -14,19 +14,19 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 ROBOTS: NOINDEX, NOFOLLOW
-description: 目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 5b71f396a448904b40a5428c2ad5b499857d0690
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
+ms.openlocfilehash: db8dde1d7db1b5ed3b200146f06eaaa2d3103bf0297b64f276353bf5167b433c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807997"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328592"
 ---
 # <a name="users-view-or-configure-pin-policy"></a>ユーザー: PIN ポリシーの表示または構成
  
-目的に合ったトピックをクリックしてください。 実行するタスクへのリンクをクリックしてください。
+目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
   
-- [Skype for Business Server でユーザーのダイヤルイン会議 PIN を設定する](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [ユーザーのダイヤルイン会議の PIN を設定Skype for Business Server](../../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
  
 

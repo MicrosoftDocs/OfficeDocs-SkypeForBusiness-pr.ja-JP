@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: Skype for Business Server 2015 では、SIP トランクを使用したり、PSTN ゲートウェイに SIP 接続を直接接続したり、PBX に SIP 接続を直接したりすることで、信頼性が高く、スケーラブルな PSTN 接続を提供します。 詳細については、「Plan for PSTN connectivity in Skype for Business Server 2015」を参照してください。
-ms.openlocfilehash: 4b679ba60e05a5ff065fdddbd8d5685ab915e5935302549207191da9e579a118
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 2e3246c7cd67cc9e1533488e8134573aca823b54
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590711"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234972"
 ---
 # <a name="skype-for-business-server-voice-infrastructure-planning-tool"></a>Skype for Business Server音声インフラストラクチャ計画ツール
  

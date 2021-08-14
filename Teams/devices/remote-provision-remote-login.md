@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Android デバイスのリモート プロビジョニングとサインインを行うTeams説明します
-ms.openlocfilehash: b0c2658bac556febb9a4289fc5053c38feec32c343901ee679a744641f9f1144
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337975"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235382"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android デバイスのリモート プロビジョニングTeamsサインイン
 
@@ -31,7 +31,7 @@ IT 管理者は、リモートでプロビジョニングし、Teams Android デ
 
 ## <a name="review-the-supported-devices"></a>サポートされているデバイスを確認する
 
-次の一覧は、Android デバイスのファームウェア要件を示しています。
+次の一覧は、Android デバイスファームウェアの要件を示しています。
 
 |デバイス カテゴリ|デバイス モデル|ファームウェアのバージョン|
 |-|-|-|
@@ -43,6 +43,8 @@ IT 管理者は、リモートでプロビジョニングし、Teams Android デ
 |Teams電話|  Poly Trio C60|  7.0.2.1071|
 |Teams電話|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams電話|  オーディオ コード C448HD/C450HD/C470HD|   1.10.120|
+|Teams パネル|  クレスロン 770/1070|  1.004.0115|
+
 
 ## <a name="add-a-device-mac-address"></a>デバイスの MAC アドレスを追加する
 
@@ -64,12 +66,12 @@ IT 管理者は、リモートでプロビジョニングし、Teams Android デ
 1. 場所を入力します。これは、技術者がデバイスをインストールする場所を特定するのに役立ちます。
 1. 完了したら **、[適用** ] を選択します。
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>アップロード MAC アドレスを追加するファイルを作成する
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>アップロードを開き、デバイスの MAC アドレスを追加する
 
 1. [アクティブ **化を待っている]** タブで、[MAC **アップロード を選択します**。
 2. ファイル テンプレートをダウンロードします。
 3. MAC ID と場所を入力し、ファイルを保存します。
-4. **ファイル を選択** し、[ファイル]**をアップロード。**
+4. **ファイル を選択** し、[ファイル]**をアップロード** します。
 
 ## <a name="generate-a-verification-code"></a>確認コードを生成する
 
@@ -82,7 +84,7 @@ IT 管理者は、リモートでプロビジョニングし、Teams Android デ
 
 ## <a name="provision-the-device"></a>デバイスをプロビジョニングする
 
-デバイスの電源が入り、ネットワークに接続されると、技術者がデバイスをプロビジョニングします。 これらの手順は、デバイスのTeamsされます。
+デバイスの電源が入り、ネットワークに接続されると、技術者がデバイスをプロビジョニングします。 これらの手順は、デバイス上でTeamsされます。
 
 1. 技術者が[デバイスの **プロビジョニング] を****選択設定。**  
 

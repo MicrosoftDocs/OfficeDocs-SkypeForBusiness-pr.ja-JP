@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 会議のウェビナー ポリシーを管理するTeamsします。
-ms.openlocfilehash: 14452b0caeee33f90b59f6581b6fccf4d5e0311b
-ms.sourcegitcommit: 4a039550bc5c3a497b6b52c7fed08cadf8268b06
+ms.openlocfilehash: 8386ef4ea9dd90d60cdc8c891461c3dc1a6b37ad4f3f7c47e42808e3c8f826a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52926749"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330881"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams でのウェビナーのMicrosoft Teams
 
@@ -54,7 +54,7 @@ ms.locfileid: "52926749"
 登録を組織内のユーザーにのみ制限したり、テナントの内部と外部の両方のすべてのユーザーに登録を開くことができます。 既定では **、WhoCanRegister は** 有効であり、[すべてのユーザー] に **設定されています**。 会議の登録をオフにする場合は **、AllowMeetingRegistration** を False に **設定します**。
 
 > [!IMPORTANT]
-> **AllowMeetingRegistration を機能するには、AllowPrivateMeetingScheduling** を **True** に設定 **する** 必要があります。 また、Microsoft リストは、SharePoint で設定する必要SharePoint。 詳細については、「Microsoft リストの [コントロール設定」を参照してください](/sharepoint/control-lists)。
+> **AllowMeetingRegistration を機能するには、AllowPrivateMeetingScheduling** を **True** に設定 **する** 必要があります。 さらに、Microsoft Listsに設定する必要SharePoint。 詳細については、「コントロールの設定[」を参照Microsoft Lists。](/sharepoint/control-lists)
 
 1. 会議の登録を有効にする
 

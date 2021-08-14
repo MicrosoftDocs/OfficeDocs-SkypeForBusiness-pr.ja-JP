@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: メキシコの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
-ms.openlocfilehash: 93a7a92d15860519fe9a599cfb247982be1b0ac3
-ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
+ms.openlocfilehash: bce8f3f008f8639f51cd1e0a9cacf52784c2d3f2b9fc3f6714b806ac801eaeeb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330851"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>メキシコでのフリーダイヤル制限
 

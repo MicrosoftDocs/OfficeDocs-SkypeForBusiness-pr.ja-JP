@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 組織内のリソース アカウントに無料の 電話システム 仮想ユーザー ライセンスまたは有料のユーザー ライセンス電話システム割り当てる方法について説明します。
-ms.openlocfilehash: 8e5322ccf7e3e7ad05c499b3dbcfdac65d0dfedb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2481d119bd1f053f0836c57d237d34edfbf6e260d9b8be9b9f7d40033dc6282a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116925"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328942"
 ---
 # <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 電話システム – 仮想ユーザー ライセンス
 
@@ -41,7 +41,7 @@ ms.locfileid: "51116925"
 組織に割り当Microsoft 365 電話システム – 全体的なサイズに応じて仮想ユーザー ライセンスが割り当てされます。 ライセンスを含む少なくとも 1 つのライセンスを持電話システム、または追加された電話システム、無料で 25 の仮想ユーザー ライセンスを利用できます。 組織内のユーザー ライセンス電話システム 10 を追加すると、もう 1 Microsoft 365 電話システム – 仮想ユーザー ライセンスが利用可能になります。
 
 > [!NOTE]
-> 電話システムは、E1 および E3 の Microsoft 365 および Office 365 で使用できるアドオン ライセンスです。 電話システムは、E5 ライセンス、Microsoft 365 E5、Office 365ライセンスの一部Microsoft 365 Business Voiceされます。
+> 電話システムは、Microsoft 365 および E3 でOffice 365 E1ライセンスです。 電話システムは、Microsoft 365 E5、Office 365 E5、およびMicrosoft 365 Business Voiceされます。
 
 自動応答ノードまたは呼び出しキュー ノードの作成で利用可能な無料の Microsoft 365 電話システム – 仮想ユーザー ライセンスを使用している組織では、リソース アカウントで有料の 電話 システム ライセンスを引き続き使用できます。 ほとんどの組織は、スケーリング 計画に基づいて十分な仮想ユーザー ライセンスを持っています。 
 
@@ -65,7 +65,7 @@ Contoso は、自動応答と通話キュー システムの再設計を検討�
 リソース アカウントのライセンスを仮想マシン ライセンスから仮想ユーザー ライセンス電話システムに切りMicrosoft 365 電話システム場合は、次の操作を行います。
 
 1. 新しいライセンスを取得Microsoft 365 電話システム – 仮想ユーザー ライセンス。
-2. 管理センターのリンクされた手順にMicrosoft 365ユーザーを別のサブスクリプション[に移動します](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
+2. ユーザーを別のサブスクリプションに移動するには、Microsoft 365 管理 センター[のリンクされた手順に従います](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
 
 > [!WARNING]
 > 常に完全なライセンス 電話システム削除し、同じライセンス アクティビティMicrosoft 365 電話システム – 仮想ユーザー ライセンスを割り当てる必要があります。 古いライセンスを削除し、アカウントの変更を保存し、新しいライセンスを追加して、アカウント設定を再度保存すると、リソース アカウントが期待した通り機能しなくなる可能性があります。 このような場合は、新しいリソース アカウントを Microsoft 365 電話システム – Virtual User ライセンス用に作成し、破損したリソース アカウントを削除することをお勧めします。 

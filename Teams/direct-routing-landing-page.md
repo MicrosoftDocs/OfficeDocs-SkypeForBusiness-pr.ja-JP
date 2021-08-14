@@ -21,18 +21,18 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55676d855d3e15c3f767203da981a4fae241f3128a270f5656d770a229f00059
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b83e7ea9fd93787f71828141c3e9e3b681d9557b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848072"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234262"
 ---
 # <a name="phone-system-direct-routing"></a>電話直接ルーティング
 
-[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 [会議および電話会議](deploy-meetings-microsoft-teams-landing-page.md)を展開した可能性があります。 これでクラウド音声ワークロードを追加する準備が整い、電話システム ダイレクト ルーティングを使用して、独自のテレフォニー キャリアを使用して公衆交換電話網 (PSTN) 接続を行う方法を決定しました。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+[使用開始](get-started-with-teams-quick-start.md)の手順は完了しています。 Teams の[チャット、チーム、チャネル、およびアプリ](deploy-chat-teams-channels-microsoft-teams-landing-page.md)を組織全体に展開しました。 [会議および電話会議](deploy-meetings-microsoft-teams-landing-page.md)を展開した可能性があります。 これでクラウド音声ワークロードを追加する準備が整い、電話システム ダイレクト ルーティングを使用して、公衆交換電話網 (PSTN) 接続に独自のテレフォニー キャリアを使用する方法を決定しました。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
 
-この記事では、直接ルーティングの主要なデプロイの決定と、組織のニーズに基づいて考慮する必要があるその他の考慮事項について説明します。 また、Microsoft のクラウド ボイス サービスの詳細については、「[Microsoft Teams でのクラウド ボイス](cloud-voice-landing-page.md)」を参照してください。
+この記事では、直接ルーティングの主要なデプロイの決定と、組織のニーズに基づいて考慮する必要がある追加の考慮事項について説明します。 また、Microsoft のクラウド ボイス サービスの詳細については、「[Microsoft Teams でのクラウド ボイス](cloud-voice-landing-page.md)」を参照してください。
 
 ## <a name="learn-more-about-direct-routing"></a>ダイレクト ルーティングの詳細を確認する
 
@@ -62,7 +62,7 @@ ms.locfileid: "57848072"
 
 ### <a name="session-border-controller-sbc-considerations"></a>セッション ボーダー コントローラー (SBC) に関する考慮事項
 
-ダイレクト ルーティングを使用すると、独自のセッション ボーダー コントローラー (SBC) を直接ネットワーク に電話システム。  認定された SBC の一覧については、「サポートされているセッション ボーダー コントローラー [」を参照してください](direct-routing-border-controllers.md)。
+ダイレクト ルーティングを使用すると、独自のセッション ボーダー コントローラー (SBC) を直接接続して、電話システム。  認定された SBC の一覧については、「サポートされているセッション ボーダー コントローラー [」を参照してください](direct-routing-border-controllers.md)。
 
 |確認事項|アクション |
 |:------------|:-------|
@@ -72,7 +72,7 @@ ms.locfileid: "57848072"
 
 ### <a name="voice-routing-considerations"></a>音声ルーティングに関する考慮事項
 
-呼び出しを特定の SBC にルーティング電話システムを構成する必要があります。
+呼び出しを特定の SBC 電話システムルーティングする必要があります。
 
 |確認事項|アクション |
 |:------------|:-------|
@@ -80,13 +80,13 @@ ms.locfileid: "57848072"
 | 定義する音声ルーティング ポリシーに割り当てられるユーザー | 「音声ルーティングの構成」 [の例を参照してください](direct-routing-configure.md)。 |
 |||
 
-### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>TeamsUpgradePolicy を使用して、Teamsクライアントに着信通話が着信する
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>TeamsUpgradePolicy を使用して、着信Teamsクライアントに着信する
 
-ダイレクト ルーティングは、直接ルーティングがサポートされているMicrosoft Teams。 直接ルーティングを介して PSTN 通話を受信するには、TeamsUpgradePolicy を構成して、着信通話が着信通話を受信Teams。 ユーザーは、TeamsUpgradePolicy Teams UpgradeToTeams" インスタンスを割り当て、ユーザーを [のみ] モードにする必要があります。 
+ダイレクト ルーティングは、直接ルーティングがサポートされているMicrosoft Teams。 直接ルーティングを介して PSTN 通話を受信するには、TeamsUpgradePolicy を構成して、着信通話が着信通話で受信Teams。 ユーザーは、TeamsUpgradePolicy Teams UpgradeToTeams" インスタンスを割り当てると実行できる [のみ] モードである必要があります。 
 
 |確認事項|アクション |
 |:------------|:-------|
-|[のみ] Teamsとはどういう意味ですか? | 詳細については、「移行と相互運用性に関する[Skype for Business Teamsガイダンス](./migration-interop-guidance-for-teams-with-skype.md)」を参照してください。|
+|[のみ] Teamsモードとはどういう意味ですか? | 詳細については、「移行と相互運用性に関する[Skype for Business Teamsガイダンス](./migration-interop-guidance-for-teams-with-skype.md)」を参照してください。|
 |||
 
 ## <a name="additional-deployment-considerations"></a>その他のデプロイに関する考慮事項
@@ -96,5 +96,5 @@ ms.locfileid: "57848072"
 | 確認事項| アクション |
 | :------------|:-------|
 | ハイブリッド接続が構成されたSkype for Business Server既存のデプロイがありますか? |  ハイブリッド環境のユーザー アカウントがどのようにプロビジョニングおよび管理されるのかについては、「PSTN 接続を使用したハイブリッド環境のユーザー アカウント」 [を参照してください](direct-routing-user-accounts-in-a-hybrid-environment.md)。| 
-| 通話プランまたはオンプレミス環境から直接ルーティングSkype for Business移行していますか? | 既存の環境からのダイレクト ルーティングへの移行の詳細については、「ダイレクト ルーティングへの移行 [」を参照してください](direct-routing-migrating.md)。 |
+| 通話プランから直接ルーティングに、またはオンプレミス環境からSkype for Business移行していますか。 | 既存の環境からのダイレクト ルーティングへの移行の詳細については、「ダイレクト ルーティングへの移行 [」を参照してください](direct-routing-migrating.md)。 |
 |||

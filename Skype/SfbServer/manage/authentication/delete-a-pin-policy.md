@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server で PIN ポリシーを削除する
+title: '[PIN ポリシーを削除する] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
-description: '概要: Skype for Business Server のユーザーのダイヤルイン会議 PIN を削除します。'
-ms.openlocfilehash: b85d2bb29f8a1a28279a59f72957d201886d1dc4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: ユーザーのダイヤルイン会議用の PIN を削除Skype for Business Server。'
+ms.openlocfilehash: 97c8f6ce8ab2f86e1a44032e90b6d23f91e0552587f52d46ba89c84202576339
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336887"
 ---
-# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Skype for Business Server で PIN ポリシーを削除する
+# <a name="delete-a-pin-policy-in-skype-for-business-server"></a>[PIN ポリシーを削除する] Skype for Business Server
  
-**概要:** Skype for Business Server のユーザーのダイヤルイン会議 PIN を削除します。
+**概要:** ユーザーのダイヤルイン会議 PIN を削除して、Skype for Business Server。
   
 暗証番号 (PIN) ポリシーを削除するには、次の手順を実行します。
   
 > [!NOTE]
 > グローバル PIN ポリシーを削除することはできません。 
   
-### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルで PIN ポリシーを削除するには
+### <a name="to-delete-a-pin-policy-in-skype-for-business-server-control-panel"></a>[コントロール パネル] で PIN Skype for Business Server削除するには
 
 1.  RTCUniversalServerAdmins グループのメンバーである (または同等のユーザー権限を持つ) ユーザー アカウント、または CsServerAdministrator または CsAdministrator 役割に割り当てられているユーザー アカウントから、Skype for Business Server を展開したネットワーク内の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
     
 3. 左側のナビゲーション バーで [**セキュリティ**] をクリックし、[**PIN ポリシー**] をクリックします。
     
@@ -43,9 +43,9 @@ ms.locfileid: "51096793"
     
 6. **[OK]** をクリックします。
     
-## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した PIN ポリシー Windows PowerShellする
+## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した PIN ポリシー Windows PowerShell削除する
 
-PIN ポリシーを削除するには、pin ポリシーと Windows PowerShellコマンドレットをRemove-CsPinPolicyします。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した [Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、Skype for Business Server でも同じです。
+PIN ポリシーを削除するには、pin ポリシーと Windows PowerShellコマンドレットをRemove-CsPinPolicyします。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-remove-a-specific-pin-policy"></a>特定の PIN ポリシーを削除するには
 

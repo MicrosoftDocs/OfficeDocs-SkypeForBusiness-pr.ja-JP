@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure Monitor を使用して、Microsoft Teams Rooms デバイスの管理を、統合されたエンドツーエンドの方法でデプロイする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6fe149f2d2cb0e6e68ad50c0c9cf1d2328439ff8dc0f43f56646e8a0152da7b8
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850312"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234242"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>を使用 :::no-loc text="Microsoft Teams Rooms"::: して管理をデプロイする :::no-loc text="Azure Monitor":::
 
@@ -77,7 +77,7 @@ ms.locfileid: "57850312"
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>エージェント :::no-loc text="Microsoft Monitoring"::: をインストールしてデバイスをテストする
 
-エージェントをテスト デバイスにデプロイするには、次のコンピューターに関するページに記載Connectを使用して :::no-loc text="Microsoft Monitoring"::: [、 :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: のサービスにデプロイします :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows)。 この記事では、エージェントをデプロイする手順について詳しく説明します。ワークスペース ID _ と _ 主キー :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * *** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: を取得してデプロイに接続するデバイスを取得する手順と、インスタンスへのエージェント接続を確認する手順について説明します。
+エージェントをテスト デバイスにデプロイするには、次のコンピューターに関するページに記載Connect :::no-loc text="Microsoft Monitoring"::: [ :::no-loc text="Windows"::: を使用して :::no-loc text="Log Analytics"::: 、 :::no-loc text="Azure"::: のサービスにデプロイします](/azure/azure-monitor/platform/agent-windows)。 この記事では、 のエージェントをデプロイする手順について詳しく説明します。ワークスペース ID _ と _ 主キー :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * *** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: を取得してデプロイに接続するデバイスを取得する手順と、インスタンスへのエージェント接続を確認する手順について説明します。
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>サンプル イベントを生成 :::no-loc text="Microsoft Teams Rooms"::: する
 
@@ -161,7 +161,7 @@ ms.locfileid: "57850312"
 > [!NOTE]
 > ダッシュボード タイルが正常に動作するには、このガイドの前の手順を完了している必要があります。
 
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>インポート方法Microsoft Teams会議室ダッシュボードを作成する
+### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>インポート方法をMicrosoft Teamsして会議室ダッシュボードを作成する
 
 ダッシュボードをインポートして :::no-loc text="Microsoft Teams Rooms"::: 、デバイスの監視をすばやく開始できます。 ダッシュボードをインポートするには、次の手順を実行します。
 
@@ -408,7 +408,7 @@ ms.locfileid: "57850312"
 
 アラートが生成されると、前の 1 時間以内に問題が発生したデバイスを一覧表示する電子メールが届きます。
 
-![アラート :::no-loc text="Azure Monitor"::: 電子メールのサンプル](../media/Deploy-Azure-Monitor-6.png "サンプル :::no-loc text=&quot;Azure Monitor&quot;::: アラート 電子メール")
+![アラート :::no-loc text="Azure Monitor"::: 電子メールのサンプル](../media/Deploy-Azure-Monitor-6.png " :::no-loc text=&quot;Azure Monitor&quot;::: サンプル アラート 電子メール")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>すべてのデバイスを構成する :::no-loc text="Azure Monitoring":::
 <a name="configure_all_devices"></a>ダッシュボードとアラートを構成したら、すべてのデバイスでエージェントを設定して構成し、監視 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: のデプロイを完了できます。
@@ -431,14 +431,14 @@ ms.locfileid: "57850312"
 
 4.  新しいグループ ポリシー オブジェクトを作成し、マシン アカウントが配置されている組織単位 :::no-loc text="Microsoft Teams Rooms"::: に割り当てる。
 
-5.  PowerShell 実行ポリシーを構成する:
+5.  PowerShell 実行ポリシーの構成:
     1.  新しく作成したグループ ポリシー オブジェクトを編集し、[コンピューター構成ポリシー] \\ 管理用テンプレート コンポーネント \\ に \\ :::no-loc text="Windows"::: 移動します。 \\:::no-loc text="Windows PowerShell":::
     2.  [スクリプトの **実行を有効にする] を有効にして** 、[ **実行ポリシー] を [** ローカル スクリプト **を許可] に設定します**。
 
 6.  スタートアップ スクリプトを構成します。
     1.  次のスクリプトをコピーし、 として保存Install-MMAgent.ps1。
     2.  構成に合わせて WorkspaceId、WorkspaceKey、SetupPath パラメーターを変更します。
-    3.  同じグループ ポリシー オブジェクトを編集し、[コンピューターの構成ポリシー] 設定 \\ \\ :::no-loc text="Windows"::: \\ (スタートアップ/シャットダウン) に移動します。
+    3.  同じグループ ポリシー オブジェクトを編集し、[コンピューター構成ポリシー] 設定 \\ \\ :::no-loc text="Windows"::: \\ (スタートアップ/シャットダウン) に移動します。
     4.  ダブルクリックして [スタートアップ]**を選択し****、[PowerShell スクリプト] を選択します**。
     5.  [ **ファイルの表示]** を選択し、Install-MMAgent.ps1 **ファイルを** そのフォルダーにコピーします。
     6.  [追加 **] を選択** し、[参照] **を選択します**。

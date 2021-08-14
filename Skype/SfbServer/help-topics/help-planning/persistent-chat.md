@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: 常設チャット サーバーを使用すると、ユーザーは時間の長い間続くマルチパーティのトピックベースの会話に参加できます。
-ms.openlocfilehash: 71dcd50ff958af2940016e46e0940e915eb6600abc27f12cf3be77b01a19df7a
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 876593d00e0f5a3271f43f58297efb58880a489d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590891"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234652"
 ---
 # <a name="skype-for-business-server-persistent-chat-planning-tool"></a>Skype for Business Server常設チャット計画ツール
  

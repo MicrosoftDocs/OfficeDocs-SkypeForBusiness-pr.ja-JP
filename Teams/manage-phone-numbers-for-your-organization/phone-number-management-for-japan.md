@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表で、日本での Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: 6a5922c866113523a54f55aee823c7529da3d4ac6cb45034354292524a8d9582
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 713897cbaf38e2e411db67e7b28358a4bd11d9d4
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849712"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234982"
 ---
 # <a name="phone-number-management-for-japan"></a>日本での電話番号の管理
 

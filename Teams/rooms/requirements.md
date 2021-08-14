@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 17f791298d86bfc6988899a2e090d0d11651e91558bc14c23d515c75ad91cce0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b0e7b0a80b188fb7b4abc5ba95473aa6e55f17c
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348822"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234222"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
-Microsoft Teams会議室の規模は、部屋のサイズが異なります。 Teams会議室では、部屋のサイズと用途に基づいて、さまざまな認定オーディオおよびビデオ周辺機器が使用されます。 マイク、スピーカー、カメラ、ディスプレイと組み合わせて、適切なコア デバイスと本体を選択することで、Microsoft Teams 会議室を小さなハドル 空間から大きな会議スペースや会議室まで、任意のサイズの空間に展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
+Microsoft Teams会議室の規模は、部屋のサイズが異なります。 Teams会議室では、部屋のサイズと用途に基づいて、さまざまな認定オーディオおよびビデオ周辺機器が使用されます。 マイク、スピーカー、カメラ、ディスプレイと組み合わせて、適切なコア デバイスと本体を選択することで、Microsoft Teams 会議室を小規模な会議室から大規模な会議スペースや会議室まで、任意のサイズの空間に展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
 
 この記事では、Microsoft Teams Rooms をサポートするためのデバイスの展開と構成に関する要件をまとめます。
 
@@ -38,7 +38,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
 > [!NOTE]
 > Microsoft Teams Rooms では、Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015、または Skype for Business Online にサインインし、これらのサービスでホストされている会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams21Vianet または DoD 環境Microsoft 365またはOffice 365、会議室はサポートされていません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams会議室は、21Vianet Microsoft 365 DoD 環境Office 365、または 21Vianet が運営する環境ではサポートされていません。
 >
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
@@ -75,6 +75,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
   |[Logicool TAP を備えた HP スライス パートナー対応]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
   |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
+  |Lenovo ThinkSmart Core Kit |Core i5|8 GB|128 GB|
   |[Logicool Tap と Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap と Intel Tiger Canyon NUC PC |Core i5|8 GB|128 GB|
   |[Logitech Tap と Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
@@ -127,7 +128,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7400.03 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Biamp Devio SCR-20CX Web-Based会議ハブと Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
-|[テーブルトップ マイクを使用した biamp Devio SCR-20TX Web-Based会議ハブ](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
+|[Biamp Devio SCR-20TX Web-Based会議ハブとテーブルトップ マイク](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly キャンバス](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
@@ -189,6 +190,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
 |[QSC Q-SYS Core 110f](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/q-sys-cores/core-110f/) +</br> [Sennheiser TCC2 Ceiling Microphone]() +</br> [QSC EnergyStar Power分光子 SPA2-60](https://www.qsc.com/systems/products/power-amplifiers/energystar-amplifiers/spa-series/spa2-60/) +</br> [Q-SYS NS シリーズ ネットワーク スイッチ NS-1108P](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/network-switches/q-sys-ns-series-network-switches/) + </br> [QSC Column Surface マウント スピーカー AD-C6T-LP](https://www.qsc.com/systems/products/loudspeakers/ceiling-mount-loudspeakers/acousticdesigntm-series-ceiling-mount/ad-c6t-lp/?L=) +</br> [QSC PTZ 20x60 カメラ](https://www.qsc.com/systems/products/q-sys-ecosystem/products-peripherals-accessories/conference-room-integration/ptz-ip-conference-cameras/) |Q-sys Designer: 8.4.0.1 </br> <br> TCC2: 1.5.1 Dante 1.2.0 </br>  <br> 該当なし </br>  <br>N1100v6.4.2.8 </br> 該当なし </br> <br> 6.3.2.2|
 |[QSC Q-SYS Core 8 Flex プロセッサ](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) +</br> [QSC PTZ 20x60 カメラ](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [Sennheiser TCC2 Ceiling Microphone](https://sennheiser.com/tcc2) +</br> [QSC Ceiling Speaker AD-C6T-LP](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c6t-lp/) |QSC PTZ IP 20x60 カメラ: 9.0 </br> QSC Q-SYS Core 8-Flex: Q-SYS Designer 9.0.1-2104.002 </br> QSC Q-SYS Nano: Q-SYS Designer 9.0.1-2104.002 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1 Dante 1.2.0 </br> SPA シリーズ EnergyStar の光子: N/A </br> AcousticDesign Series Loudspeakers: N/A|
 |[QSC Q-SYS Core Nano プロセッサ](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) +</br> [QSC PTZ 20x60 カメラ](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [Sennheiser TCC2 Ceiling Microphone](https://sennheiser.com/tcc2) +</br> [QSC Ceiling Speaker AD-C6T-LP](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/ceiling-mount/acousticdesign-series/ad-c6t-lp/) |QSC PTZ IP 20x60 カメラ: 9.0 </br> QSC Q-SYS Core 8-Flex: Q-SYS Designer 9.0.1-2104.002 </br> QSC Q-SYS Nano: Q-SYS Designer 9.0.1-2104.002 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1 Dante 1.2.0 </br> SPA シリーズ EnergyStar の光子: N/A </br> AcousticDesign Series Loudspeakers: N/A|
+|[QSC PTZ IP 12x72 カメラ](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) +</br> [QSC Q-SYS NV-32-H プロセッサ](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/) +</br> [Sennheiser TCC2 Ceiling Microphone](https://sennheiser.com/tcc2) +</br> [QSC EnergyStar Power-2-60](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/spa2-60/) または [QSC CX-Q 2K4 ネットワーク アンパワー](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-network-amplifiers/cx-q-series/cx-q-2k4/) +</br> [Q-SYS NS シリーズ ネットワーク スイッチ NS-1108P Netgear M4250-10G2XF](https://www.qsc.com/solutions-products/q-sys-ecosystem/networking/ns-series-network-switches/) +</br> [AcousticDesign シリーズ ラウドスピーカー](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/surface-mount/acousticdesign-series/) +</br> QSC Q-Sys I/O USB ブリッジ |QSC PTZ IP 12x72 カメラ: 9.0 </br> Q-SYS Designer 9.0.1-2104.002 </br> TCC2 - 1.5.1 Dante 1.2.0 </br> QSC EnergyStar Power Energy SPA2-60: N/A </br> QSC CX-Q 2K4 ネットワーク アンパワー:N/A </br> Q-SYS NS シリーズ ネットワーク スイッチ NS-1108P Netgear M4250-10G2XF: N1100v6.4.2.8 </br> AcousticDesign Series Loudspeakers: N/A </br> QSC Q-Sys I/O USB ブリッジ: Q-SYS Designer Software 9.0.1|
 
 
 &Dagger; お客様は、Dante インターフェース、または Biamp/ゼンハイザーがこのバンドル用に推奨しているネットワーク スイッチのいずれかを選択できます。

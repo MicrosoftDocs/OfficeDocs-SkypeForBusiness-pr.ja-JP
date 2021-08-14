@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 会議の全般ポリシー設定を管理する方法については、Teams。
-ms.openlocfilehash: aaeabbb61879e9e96c6b887a90fb3814fd7a3c4f3462d5e4f943a58b5dfacc56
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850302"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235212"
 ---
 # <a name="meeting-policy-settings---general"></a>会議ポリシーの設定 - 全般
 
@@ -84,7 +84,7 @@ ms.locfileid: "57850302"
 
 - ユーザーは、チャネル予定表で時間ブロックをドラッグして選択して、チャネル会議を作成できない。
 
-- ユーザーは、キーボード ショートカットを使用して、チャネルの予定表に会議を作成することはできません。
+- ユーザーは、キーボード ショートカットを使用して、チャネル予定表に会議を作成することはできません。
 
 管理センターにて
 

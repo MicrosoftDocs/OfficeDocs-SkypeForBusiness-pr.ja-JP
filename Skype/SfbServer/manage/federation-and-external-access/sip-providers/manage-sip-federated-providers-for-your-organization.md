@@ -15,14 +15,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: SIP フェデレーション プロバイダーのユーザーのサポートを構成する方法について説明します。
-ms.openlocfilehash: 8d4c6224a66454f8fb28bb4f991faf6ad672f596
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823567"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336697"
 ---
-# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Skype for Business Server で組織の SIP フェデレーション プロバイダーを管理する
+# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>組織内の SIP フェデレーション プロバイダーを管理Skype for Business Server
 
 SIP フェデレーション プロバイダーのユーザーのサポートを構成するには、次の操作を行う必要があります。
 
@@ -32,13 +32,13 @@ SIP フェデレーション プロバイダーのユーザーのサポートを
 
   - サポートの対象となるパブリック IM プロバイダーを指定します。
 
-## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>Skype for Business Server でパブリック SIP フェデレーション プロバイダーを作成または編集する
+## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>パブリック SIP フェデレーション プロバイダーを作成または編集Skype for Business Server
 
-パブリック インスタント メッセージング (IM) 接続を使用すると、組織内のユーザーは IM を使用して、パブリック プロバイダーが提供する IM サービスのユーザーと通信できます。
+パブリック インスタント メッセージング (IM) 接続により、組織内のユーザーは IM を使用して、パブリック プロバイダーによって提供される IM サービスのユーザーと通信できます。
 
-Skype for Business Server には、インスタント メッセージング用のパブリック プロバイダー構成があります。 各パブリック プロバイダーは、そのプロバイダーのエッジ サーバーの完全修飾ドメイン名と、既定の確認レベルである [**Allow users to communicate only with people on their Contacts list who use this provider**] を指定して構成されています。
+Skype for Business Server、インスタント メッセージング用のパブリック プロバイダー構成があります。 各パブリック プロバイダーは、そのプロバイダーのエッジ サーバーの完全修飾ドメイン名と、既定の確認レベルである [**Allow users to communicate only with people on their Contacts list who use this provider**] を指定して構成されています。
 
-既定の設定では、パブリック プロバイダーはいずれも無効になっています。 パブリック プロバイダーを有効にする前に、使用許諾契約とプロビジョニング作業を完了する必要があります。 ライセンスとプロビジョニングの作業を完了する前にプロバイダーを有効にできます。 前提条件となる作業を完了するまで、ユーザーはそのプロバイダーで連絡先と通信することはできません。 パブリック プロバイダーのライセンスとプロビジョニングの詳細については、「ポリシーを構成してパブリック ユーザーのアクセスを制御する [」を参照してください](../external-access-policies/configure-policies-to-control-public-user-access.md)。
+既定の設定では、パブリック プロバイダーはいずれも無効になっています。 パブリック プロバイダーを有効にする前に、使用許諾契約とプロビジョニング作業を完了する必要があります。 ライセンスとプロビジョニングの作業を完了する前にプロバイダーを有効にできます。 前提条件となる作業を完了するまで、ユーザーはそのプロバイダーで連絡先と通信することはできません。 パブリック プロバイダーのライセンスとプロビジョニングの詳細については、「ポリシーを構成してパブリック ユーザーのアクセス許可を制御 [する」を参照してください](../external-access-policies/configure-policies-to-control-public-user-access.md)。
 
 パブリック プロバイダーを作成または編集するには、次の手順を使用します。
 
@@ -47,7 +47,7 @@ Skype for Business Server には、インスタント メッセージング用�
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで、[**フェデレーションと外部アクセス**] をクリックし、[**SIP フェデレーション プロバイダー**] をクリックします。
 
@@ -61,7 +61,7 @@ Skype for Business Server には、インスタント メッセージング用�
     
       - [**プロバイダー名**]   必須プロパティ。プロバイダーの名前を入力します。この名前は SIP フェデレーション プロパティのリストに反映されます。
     
-      - **アクセス エッジ サービス (FQDN):**   必須のプロパティで、構成するプロバイダーのアクセス エッジ サービスの完全修飾ドメイン名を入力します。 この情報は既定のアイテムとして提供され、パブリック プロバイダーがパブリック プロバイダーのアクセス エッジ サービスの FQDN を変更した場合にのみ変更する必要があります。
+      - [**アクセス エッジ サービス (FQDN):**]   必須プロパティです。構成するプロバイダーのアクセス エッジ サービスの完全修飾ドメイン名を入力します。この情報は既定の項目として提供されます。この情報を変更する必要があるのは、パブリック プロバイダーがアクセス エッジ サービスの FQDN を変更した場合だけです。
     
       - [**Default verification level:**]   既定の設定である [**Allow users to communicate with people on their Contacts list who use this provider**] を使用すると、連絡先リストに含まれる承認済みの連絡先に通信が制限されます。
         
@@ -69,19 +69,19 @@ Skype for Business Server には、インスタント メッセージング用�
 
 7.  設定の構成が完了したら、[**コミット**] をクリックして保存するか、[**キャンセル**] をクリックして変更を破棄します。
 
-## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>Skype for Business Server でホスト SIP フェデレーション プロバイダーを作成または編集する
+## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>ホスト型 SIP フェデレーション プロバイダーを作成または編集するSkype for Business Server
 
-ホストされたプロバイダーのインスタント メッセージング (IM) 接続を使用すると、組織内のユーザーは IM を使用して、ホストされたプロバイダーが提供する IM サービスのユーザーと通信できます。
+ホストプロバイダーのインスタント メッセージング (IM) 接続により、組織内のユーザーは IM を使用して、ホストされたプロバイダーによって提供される IM サービスのユーザーと通信できます。
 
 各ホストされるプロバイダーは、プロバイダーのエッジ サーバーの完全修飾ドメイン名と、既定の確認レベルである [**連絡先リストのユーザーのうち、このプロバイダーを使うユーザーとの通信のみを許可する**] によって構成されます。
 
-ホストされたプロバイダーを作成または編集するには、以下の手順を使用します。
+ホスト型プロバイダーを作成または編集するには、次の手順を実行します。
 
 ### <a name="to-create-or-edit-hosted-providers"></a>ホストされるプロバイダーを作成または編集するには
 
 1.  RTCUniversalServerAdmins グループ (または同等のユーザー権限を持つグループ) のメンバーであるユーザー アカウントまたは CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
 
-2.  ブラウザー ウィンドウを開き、管理 URL を入力して Skype for Business Server コントロール パネルを開きます。 
+2.  ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
 
 3.  左側のナビゲーション バーで [**フェデレーションと外部アクセス**] をクリックし、[**SIP フェデレーション プロバイダー**] をクリックします。
 
@@ -95,7 +95,7 @@ Skype for Business Server には、インスタント メッセージング用�
     
       - [**プロバイダー名**]   必須プロパティ。プロバイダーの名前を入力します。この名前は SIP フェデレーション プロパティのリストに反映されます。
     
-      - **アクセス エッジ サービス (FQDN):**   必須のプロパティとして、構成するホストされたプロバイダーのアクセス エッジ サービスの完全修飾ドメイン名を入力します。 この情報は、ホストされたプロバイダーによって提供される必要があります。また、ホストされたプロバイダーが、ホストされているプロバイダーのアクセス エッジ サービスの FQDN を変更した場合にのみ変更する必要があります。
+      - [**アクセス エッジ サービス (FQDN)**]   必須プロパティ。構成するホストされるプロバイダーのアクセス エッジ サービスの完全修飾ドメイン名を入力します。この情報は、ホストされるプロバイダーによって提供される必要があります。また、この情報は、ホストされるプロバイダーのアクセス エッジ サービスの FQDN が変更された場合に限り、それに応じて変更する必要があります。
     
       - [**既定の確認レベル**]   既定の設定である [**連絡先リストのユーザーのうち、このプロバイダーを使うユーザーとの通信のみを許可する**] を選択すると、既に受け入れ済みで連絡先リストに登録されている連絡先以外の連絡先とは通信できません。
         
@@ -107,7 +107,7 @@ Skype for Business Server には、インスタント メッセージング用�
 ## <a name="see-also"></a>関連項目
 
 
-[パブリック ユーザーアクセスを制御するポリシーを構成する](../external-access-policies/configure-policies-to-control-public-user-access.md)
+[パブリック ユーザーのアクセス許可を制御するポリシーを構成する](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 [フェデレーションおよびパブリック IM 接続の有効化または無効化](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 

@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 2015 Skype for Business Serverでは、ユーザーが関係する通信セッションに関する使用状況情報と QoE (QoE) データを収集するために監視が使用されます。
-ms.openlocfilehash: cefa002d990bf0a1e45fa70cc8ae6fe45b2ea9ce81dff102ba4330294ff96161
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 8023054ad0e8d71c3a55fdaeafbaf80b6bac8cf2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590901"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235162"
 ---
 # <a name="skype-for-business-server-monitoring-planning-tool"></a>Skype for Business Server: 監視計画ツール
 

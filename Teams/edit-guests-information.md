@@ -1,5 +1,5 @@
 ---
-title: ゲスト ユーザー情報の編集
+title: ゲスト情報を編集する
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -9,25 +9,24 @@ audience: admin
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
-- m365initiative-externalcollab
 ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: この記事では、管理者がゲスト ユーザーに関する情報をポータルで編集する方法Azure Active Directoryします。
+description: この記事では、管理者がゲストに関する情報をポータルで編集する方法Azure Active Directoryします。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: d753b93d248a84632f4ce606ca6b31a1a25c39f089e798c0791c4517156c85e9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b3168c1302c5a735aeb416702cef5a78833c2bd2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321399"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234582"
 ---
-# <a name="edit-guest-user-information"></a>ゲスト ユーザー情報の編集
+# <a name="edit-guest-information"></a>ゲスト情報を編集する
 
 ゲスト情報は、ポータルまたはポータルMicrosoft 365 管理センターからAzure Active Directoryできます。
 
@@ -43,8 +42,8 @@ ms.locfileid: "54321399"
 
    ![連絡先情報を管理する ](media/guest-user-data1.png)
 
-4. [連絡先情報の管理] で[表示名] 以外の選択したフィールドを編集 **し**、[変更の保存]**を選択します**。
+4. [連絡先情報の管理] で[表示名] を除いて選択したフィールドを編集し、[変更の保存]**を選択します**。
 
    ![ゲスト ユーザーの連絡先情報を編集する](media/manage-guest-contact.png)
 
-ゲスト ユーザーは、ポータル から[編集Azure Active Directoryすることもできます](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)。
+ゲストは、ポータルから編集[Azure Active Directoryすることもできます](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)。

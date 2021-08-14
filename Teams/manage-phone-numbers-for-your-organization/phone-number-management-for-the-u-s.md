@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
-description: この表を使用して、米国 (プエルトリコを含む) の電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 7754c0bac7ed99be640c24242b63d4db7d13217be26d01cba9690f23b6017d7e
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: この表を使用して、米国 (プエルトリコを含む) で電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+ms.openlocfilehash: 8893197e0ef25d855ef3fd990a76d74ae0676c56
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850122"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234062"
 ---
 # <a name="phone-number-management-for-the-united-states"></a>電話の番号管理
 
-この表を使用して、米国 (プエルトリコを含む) の電話番号の取得と管理に関する情報をMicrosoft Teams。
+この表を使用して、米国 (プエルトリコを含む) で電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
 
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   

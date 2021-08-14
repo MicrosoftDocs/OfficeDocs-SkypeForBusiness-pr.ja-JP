@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server での高解像度写真の使用を構成する
+title: 高解像度の写真の使用を構成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,30 +13,30 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: '概要: Exchange Server 2019、Exchange Server 2016、Exchange Server 2013、または Exchange Online および Skype for Business Server での高解像度写真の使用を構成します。'
-ms.openlocfilehash: f5cc44f9f390c1d3241e7fae68054754ff7b0f76
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '概要: Exchange Server 2019、Exchange Server 2016、Exchange Server 2013、または Exchange Online および Skype for Business Server の高解像度写真の使用を構成します。'
+ms.openlocfilehash: 778603c2ae455fc20e3de6e6825c4cfe5b230eaa8b59323cbb7a25ff91bbca02
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330501"
 ---
-# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Skype for Business Server での高解像度写真の使用を構成する
+# <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>高解像度の写真の使用を構成Skype for Business Server
  
-**概要:** Exchange Server 2019、Exchange Server 2016、Exchange Server 2013、Exchange Online および Skype for Business Server での高解像度写真の使用を構成します。
+**概要:** Exchange Server 2019、Exchange Server 2016、Exchange Server 2013、または Exchange Online および Skype for Business Server で高解像度写真の使用を構成します。
   
 Skype for Business Server では、写真をユーザーの Exchange Server 2019、Exchange Server 2016、Exchange Server 2013、または Exchange Online メールボックスに保存できます。これにより、最大 648 ピクセルの写真サイズを 648 ピクセル×648 ピクセルに設定できます。 さらに、必要にExchange Server異なる製品で使用するために、これらの写真のサイズを自動的に変更することもできます。 通常、次の 3 つの異なる写真サイズと解像度を意味します。
   
-- 64 ピクセル × 64 ピクセル、Active Directory thumbnailPhoto 属性に使用されるサイズ。 写真を Exchange Server にアップロードすると、Exchange は自動的にその写真の 64 ピクセル バージョンで 64 ピクセルを作成し、ユーザーの thumbnailPhoto 属性を更新します。 ただし、この逆は true ではありません。Active Directory の thumbnailPhoto 属性を手動で更新した場合、ユーザーの Exchange メールボックスの写真は自動的には更新されません。
+- 64 ピクセル × 64 ピクセル、Active Directory thumbnailPhoto 属性に使用されるサイズ。 Exchange Server に写真をアップロードすると、Exchange は自動的にその写真の 64 ピクセル バージョンで 64 ピクセルを作成し、ユーザーの thumbnailPhoto 属性を更新します。 ただし、この逆は true ではありません。Active Directory の thumbnailPhoto 属性を手動で更新すると、ユーザーの Exchange メールボックスの写真は自動的に更新されません。
     
-- 96 ピクセル ×96 ピクセル(Microsoft Outlook 2013 Web App、Microsoft Outlook 2013、Skype for Business Web App、Skype for Business で使用)。
+- 96 ピクセル ×96 ピクセル(Microsoft Outlook 2013 Web App、Microsoft Outlook 2013、Skype for Business Web アプリ、Skype for Business。
     
-- Skype for Business および Skype for Business Web App Skype for Business Web App で使用する場合は、648 ピクセル×648 ピクセル。
+- 648 ピクセル ×648 ピクセルで、Skype for BusinessおよびSkype for Business Web アプリ Skype for Business Web アプリ。
     
 > [!NOTE]
-> リソースがある場合は、648 x 648 の写真をアップロードしてください。任意のアプリケーションで最大解像度と最適な画質Office 2013します。 サイズが 648 x 648、深度が 24 ビットの各 JPEG 写真では、ファイル サイズは約 240 キロバイトになります。 つまり、ユーザー写真 4 枚ごとに約 1 メガバイトのディスク領域が必要になります。 
+> リソースがある場合は、648 x 648 の写真をアップロードしてください。これは、2013 年の任意のアプリケーションで最大解像度と最適なOffice提供します。 サイズが 648 x 648、深度が 24 ビットの各 JPEG 写真では、ファイル サイズは約 240 キロバイトになります。 つまり、ユーザー写真 4 枚ごとに約 1 メガバイトのディスク領域が必要になります。 
   
-Exchange Web Services を使用してアクセスされる高解像度の写真は、Outlook 2013 Web App を実行しているユーザーがアップロードできます。ユーザーは自分の写真のみを更新できます。 ただし、管理者は、Exchange 管理シェルと次のような一連の Windows PowerShellコマンドを使用して、すべてのユーザーの写真を更新できます。
+Exchange Web サービスを使用してアクセスされる高解像度の写真は、2013 Web App で実行しているOutlookアップロードできます。ユーザーは自分の写真のみを更新できます。 ただし、管理者は、Exchange 管理シェルと次のような一連の Windows PowerShell コマンドを使用して、すべてのユーザーの写真を更新できます。
   
 ```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
@@ -55,12 +55,12 @@ Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-新しい写真がユーザー アカウントに割り当てられているか確認するには、Ken Myer は Skype for Business にログオンし、[オプション] を選択し、[マイ ピクチャ] を **選択します**。 新しくアップロードされた写真が Ken の個人用の写真として表示されるはずです。 また、管理者が Internet Explorer を起動し、次のような URL にアクセスしてユーザーの写真を確認することもできます。
+新しい写真がユーザー アカウントに割り当てられているか確認するには、Ken Myer が Skype for Business にログオンし、[オプション] を選択し、[マイ ピクチャ] を **選択します**。 新しくアップロードされた写真が Ken の個人用の写真として表示されるはずです。 また、管理者が Internet Explorer を起動し、次のような URL にアクセスしてユーザーの写真を確認することもできます。
   
 ```console
 https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 
-管理者が Internet Explorer を使用して写真を表示できますが、ユーザーが Skype for Business で自分の写真を表示できない場合は、Exchange Web Services または Exchange 自動検出サービスとの接続に問題がある可能性があります。
+管理者が Internet Explorer を使用して写真を表示できますが、Skype for Business でユーザーが写真を表示できない場合は、Exchange Web サービスまたは Exchange 自動検出サービスとの接続に問題がある可能性があります。
   
-この写真を Skype for Business で使用するには、追加の構成は必要ありません。 代わりに、写真がアップロードされ、コマンドレットが実行された後、すぐに `Set-UserPhoto` 写真を利用できます。
+また、この写真を他の写真で使用するには、追加の構成はSkype for Business。 代わりに、写真がアップロードされ、コマンドレットが実行された後、すぐに `Set-UserPhoto` 写真を利用できます。

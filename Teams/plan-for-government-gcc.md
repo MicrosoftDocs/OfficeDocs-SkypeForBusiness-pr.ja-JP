@@ -20,12 +20,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ecc733c181e268dd6092f169e91d2f9acb4ee47
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 989d1cbd469edac8a4d69c9b5ac18f2965ddf21e3d273411f740a82d4ab220f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117835"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330901"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Microsoft 365 Government の計画 - GCCデプロイ
 
@@ -110,7 +110,7 @@ Microsoft 365 Government - GCC 環境は、FedRAMP Moderate などのクラウ�
 
 Microsoft 365 Government – GCC にオンボードした後は、「Microsoft Teams をロールアウトする方法」で説明されている推奨されるデプロイ パス[に従Microsoft Teams。](./deploy-overview.md) 必ず、導入および変更管理チームと新しいTeamsしてください。
 
-[また、FastTrack または選択したパートナーと](https://www.microsoft.com/fasttrack)一緒にサービスをオンボードできます。
+サービスのオンボードには[、FastTrack](https://www.microsoft.com/fasttrack)パートナーと一緒に作業を行う方法があります。
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>手順 7. 会議Teams音声用のビデオを展開する
 

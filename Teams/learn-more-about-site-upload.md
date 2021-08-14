@@ -22,15 +22,14 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a617cdabba70a836327f6b2153ccecacb5d695040c99007845c79e776e478a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20204d0c766a9ff248ff8354d9367a9903149d46
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321329"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235012"
 ---
-<a name="add-and-update-reporting-labels"></a>レポート ラベルを追加して更新する
-============================
+# <a name="add-and-update-reporting-labels"></a>レポート ラベルを追加して更新する
 
 レポート ラベルは、オフィス、ビル、または組織サイトの物理的な場所を示すために組織内で使用されます。 Microsoft Teams 管理センターの [レポート ラベル] ページでは、物理的な場所と関連付けられているネットワーク サブネットの一覧を含むテキスト ファイル (.csv または .tsv) を提供できます。 このファイルは、レポートを生成するために通話分析によって使用されます。 サブネット マッピングをアップロードすると、これらのサービスによって提供されるレポートにも場所の名前が含まれるので、レポートを理解し、潜在的な問題を修復するために使用しやすくなります。
 
@@ -43,7 +42,7 @@ ms.locfileid: "54321329"
 
 1. 管理センターの左側のナビゲーションで、[場所Microsoft Teamsラベル]  >  **をクリックします**。
 2. [データ **アップロード] をクリックします**。
-3. [データ **アップロード ウィンドウで**、[ファイルの選択] をクリックし、編集したファイルまたは .tsv .csvを参照してアップロードします。
+3. [データ **アップロードウィンドウで**、[ファイルの選択]をクリックし、編集したファイルまたは .tsv ファイルを参照.csvアップロードします。
 4. [アップロード]**をクリックします**。
 
 サンプル テンプレートは、 からダウンロード [できます](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)。
@@ -60,7 +59,7 @@ ms.locfileid: "54321329"
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|マウンテン ビュー|94043|米国|CA|米国|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|マウンテン ビュー|94043|米国|CA|米国|1|1|
 
-データ ファイルの書式設定の詳細については、「テナント データ ファイル形式」と「データ ファイル構造の [構築」を参照してください](CQD-upload-tenant-building-data.md#upload-building-data-file)。
+データ ファイルの書式設定の詳細については、「テナント データ ファイル形式」および「データ ファイル構造の構築 [」を参照してください](CQD-upload-tenant-building-data.md#upload-building-data-file)。
 
 ## <a name="related-topics"></a>関連トピック
 

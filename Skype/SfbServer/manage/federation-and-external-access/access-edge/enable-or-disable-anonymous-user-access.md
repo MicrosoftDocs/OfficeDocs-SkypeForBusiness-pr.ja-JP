@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 5489eec7d94e1914fd4211927d65705fea08daae9770d4ed8bf3165ebe75e553
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 匿名ユーザー アクセスを有効または無効にする方法は、Skype for Business Server。
+ms.openlocfilehash: 4f7fb11e7b168922a4027e75703c164638dd1f2d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297243"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234392"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>ユーザーの匿名ユーザー アクセスを有効または無効Skype for Business Server
 
@@ -56,17 +56,13 @@ ms.locfileid: "54297243"
 
 ## <a name="to-enable-anonymous-user-access"></a>匿名ユーザー アクセスを有効にするには
 
-  - 匿名ユーザー アクセスを有効にするには **、AllowAnonymousUsers** プロパティの値を True ($True) に設定します。
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - 匿名ユーザー アクセスを有効にするには **、AllowAnonymousUsers** プロパティの値を True ($True) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>匿名ユーザー アクセスを無効にするには
 
-  - 匿名ユーザー アクセスを無効にするには **、AllowAnonymousUsers** プロパティの値を False ($False) に設定します。
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - 匿名ユーザー アクセスを無効にするには **、AllowAnonymousUsers** プロパティの値を False ($False) に設定します。<br/><br/>Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>関連項目
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: フロントエンド プール、ディレクター プール、またはエッジ サーバー プールがある場合は、これらのプールの負荷分散を展開する必要があります。 ロード バランシングによって、プール内のすべてのサーバーにトラフィックが分散されます。 詳細については、以下を参照してください。
-ms.openlocfilehash: a0be3533f4cd34392d33be65aa226f4af55c802f4bcd24035875e2904936764f
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 8cdce9f6214d6427798f1e0edfea45033fab212d
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590971"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234012"
 ---
 # <a name="skype-for-business-server-load-balancer-planning-tool"></a>Skype for Business Serverロード バランサー計画ツール
  

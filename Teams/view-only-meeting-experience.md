@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76348dcbc71c706915db3d8ad9a21e65ad6abdd7d661a8bace6c6e6d349ae116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d12f09fe5043093b55e57d32bb70d9c332157511
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292884"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234432"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示限定の会議エクスペリエンス
 
@@ -29,7 +29,7 @@ ms.locfileid: "54292884"
 > 表示限定のブロードキャストは、Microsoft 365 E3/E5 および Microsoft 365 A3/A5 で利用できます。 この機能は2021 年 3 月 1 日に有効になりますが、既定でオフになっています。 Microsoft 365 Government Community Cloud (GCC) の機能は、2021 年 3 月末にロールアウトが開始される予定です。 Government Community Cloud High (GCCH) と Department of Defense (DoD) は後日ロールアウトされる予定です。 この機能を既定でオンにしたい場合は、その日付以降に既定のポリシーを変更する必要があります。 PowerShell を使用して、ポリシー`Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`を有効にする。
 
 > [!Note]
-> 会議が容量にヒットした場合Teams、10,000 人のビュー専用ブロードキャスト エクスペリエンスに対応するようにシームレスに拡張されます。 さらに、リモート 作業が増加したこの期間中は、今年の終わりまでさらに大規模な 20,000 人のブロードキャストを利用することができます。
+> 会議が容量にヒットした場合Teams、10,000 人のビュー専用ブロードキャスト エクスペリエンスに対応するようにシームレスに拡張されます。 さらに、リモート 作業が増加したこの期間中は、今年の終わりまでさらに大規模な 20,000 人のブロードキャストを利用することができます。 ウェビナーでは、現在、表示専用のブロードキャスト エクスペリエンスはサポートされていません。
 
 Microsoft Teams では、最大 10,000 人の参加者がTeams 会議に参加できます。 メイン会議の容量に達すると (1,000 人のユーザーが会議に入った場合)、追加の出席者が表示専用のエクスペリエンスで参加します。
 
@@ -40,7 +40,7 @@ Microsoft Teams では、最大 10,000 人の参加者がTeams 会議に参加�
 出席者は、デスクトップ、Web、モバイル (Android および iOS) を通じてTeamsエクスペリエンスに参加できます。
 
 > [!Note]
-> "メイン会議" の現在の制限容量、つまり、完全に対話的なユーザーの数は 1000 であり、GCC。
+> "メイン会議" の現在の制限容量、つまり、完全に対話型のユーザーの数は 1000 人であり、GCCウェビナーが含まれます。
 
 ## <a name="teams-view-only-experience-controls"></a>Teamsのエクスペリエンス コントロール
 
@@ -118,7 +118,7 @@ Teams の表示限定エクスペリエンスでは、参加者は次の機能�
 - 「PowerPoint Live 機能または個々のアプリケーション共有 (デスクトップPowerPoint画面共有以外) を使用して共有されているファイルの一覧を参照してください。
 - 会議で手を挙げる。
 - 反応を送信または表示します。
-- 投票を含む、Teams 3P アプリと対話します。
+- 投票を含む、会議に統合Teams 3P アプリと対話します。
 
 ## <a name="view-only-feature-limitations"></a>表示限定機能の制限
 

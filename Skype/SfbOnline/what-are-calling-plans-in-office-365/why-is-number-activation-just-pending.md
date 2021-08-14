@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
 description: アドレスの検証は、通話プランを設定する上で重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: aaf94d1c2536fd96c7162eb29b9cf4b7c7e1a1b3
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8e80d272c08aada8020ab39caab0290ef45199f00663c73b1c269318e9b3518b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330591"
 ---
 # <a name="why-is-number-activation-just-pending"></a>番号のアクティブ化が保留中である理由
 
@@ -96,7 +96,7 @@ ms.locfileid: "52237913"
 8. 情報を確認して、[**リクエストの送信**] をクリックします。
     
 > [!TIP]
-> 参照番号は、管理センターの [**サービス要求**] ページMicrosoft 365されます。
+> 参照番号は、次のページの **[サービス要求**] ページにMicrosoft 365 管理センター。
 
 
 > [!NOTE]

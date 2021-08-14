@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Teams のテナント全体とユーザー設定を管理する方法について、Teams の Microsoft 365 管理センター から新しい管理センターに移行Teamsします。
+description: Teams から新しい管理センターへの移行中に、Teams のテナント全体とユーザー設定を管理Microsoft 365 管理センター方法Teamsします。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,21 +21,21 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: ef613b992f11ca8ab53ed03292480021c554661c701efc60e5eaa2e9f0206f76
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 83066f98eac9efd22558848b8ae12a06ff1e5d5b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850112"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235312"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>新しい Microsoft Teams 管理センターへの移行中に Teams を管理する
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>管理センターのMicrosoft Teamsについて  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>管理センターのMicrosoft Teamsとは  
 
-新しい管理センターでは、Teams と Skype for Business の両方を一元管理することができます。 その他の機能、エンド to エンドの分析情報、ユーザー レベルで Teams設定を管理する機能を提供しています。
+新しい管理センターでは、Teams と Skype for Business の両方を一元管理することができます。 追加の機能、エンド to エンドの分析情報、およびユーザー レベルで Teams設定を管理する機能を提供しています。
 
 ![Microsoft Teams 管理センターのスクリーンショット。](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -87,7 +87,7 @@ ms.locfileid: "57850112"
 <sup>3</sup> 既定のアプリと外部アプリは、TeamsAppPermissionPolicy でユーザー レベルで有効または無効にできます。 また、アプリは、組織全体のアプリ設定でテナント レベルでブロックすることもできます。この場合、ユーザー設定やテナントレベルの設定は上書きされます。
 
 > [!NOTE]
-> グループとチャネルに関連する構成については、Microsoft 365 管理センター の [グループ] ダッシュボードTeams使用します。 アプリの設定は Microsoft 365 管理センターの Teams エリアに残っていますが、将来移行される予定です。
+> グループとチャネルに関連する構成については、Microsoft 365 管理センター グループ ダッシュボードTeams使用します。 アプリの設定は Microsoft 365 管理センターの Teams エリアに残っていますが、将来移行される予定です。
 
 ## <a name="manage-settings-during-the-migration"></a>移行時に設定を管理する
 
@@ -114,4 +114,4 @@ ms.locfileid: "57850112"
 
 ## <a name="manage-settings-after-the-migration"></a>移行後に設定を管理する
 
-これらの設定の移行が完了したら、Microsoft 365 管理センター と Skype for Business 管理センターで設定を無効にし、新しい Microsoft Teams 管理センターで管理できます。
+これらの設定の移行が完了すると、Microsoft 365 管理センター と Skype for Business 管理センターで設定を無効にし、新しい Microsoft Teams 管理センターで管理できます。

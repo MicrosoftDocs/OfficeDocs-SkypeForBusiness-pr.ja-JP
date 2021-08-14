@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 新しい Skype for Business 管理センター レポートの領域には、組織内の通話および電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、PSTN ミニSkype for Businessレポートを使用して、組織内の当月に消費された分数を確認できます。
-ms.openlocfilehash: dae86688a5fb0204802f62d28504c3454613bb3d7f7d23f17d09972b94303390
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: 新しい Skype for Business 管理センター レポートの領域には、組織内の通話および電話会議のアクティビティが表示されます。 ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。 たとえば、PSTN 分Skype for Businessレポートを使用して、組織内の当月に消費された分数を確認できます。
+ms.openlocfilehash: 8c69a0555c95a7cb700b31db04103a0f7f502729
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850252"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234042"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN の利用分数プール レポート
 
@@ -37,7 +37,7 @@ ms.locfileid: "57850252"
   
 利用可能なその他のレポートについては、[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)を確認してください。
   
-このレポートと他のレポートSkype for Business、組織全体のアクティビティに関する詳細が表示されます。 これらの詳細は、組織の調査、計画、その他のビジネス上の決定を行う場合や、通信クレジットを設定する場合に [非常に役立ちます。](/microsoftteams/what-are-communications-credits)
+このレポートは、他のレポートSkype for Business、組織全体のアクティビティに関する詳細を示します。 これらの詳細は、組織のその他のビジネス上の決定を調査、計画、および行う場合や、コミュニケーション クレジットを設定する場合に [非常に役立ちます。](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
 > Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
@@ -46,14 +46,14 @@ ms.locfileid: "57850252"
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
-- 管理センターに移動し、[管理センター>**管理センター Skype for Business** PSTN 分  >    >  **プール** を  >  **報告します**。
+- 管理センターに移動し、[管理センター] >管理センター **Skype for Business** PSTN 分  >    >  **プール** を  >  **報告します**。
     
 > [!NOTE]
 > サブスクリプションのMicrosoft 365またはOffice 365によっては、ここに示す同じ詳細が表示されない場合があります。 
   
 ## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>PSTN 分Skype for Businessレポートを解釈する
 
-表示される各列を見て、Skype for Business分のプールを表示できます。
+表示される各列を確認することで、Skype for Business分のプールを表示できます。
   
 レポートは、このように表示されます。
 
