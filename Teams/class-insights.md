@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0048b4b4b7c58f5a967cca40122b424d0af42b8d6229c3e50f326be2804ca5ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c55733e6175efb4adb02a621210ddc5d78ac9f6
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322769"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234192"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -210,14 +210,22 @@ IT 管理者として、教職員やリーダーが Teams の使用を開始す�
 **教育リーダー** 向けの資料:
 *   [教育機関向けの分析情報サポート ページ](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)。
 
-## <a name="turn-insights-on-or-off"></a>Insights をオンまたはオフにする
-既定では、Education Analytics と Insights はオンになっています。 オプトアウトすると、Insights 用に収集された *すべてのデータが削除されます*。 Insights をオンに戻すと、データが再度有効になった時点からデータの収集が開始されます。
+### <a name="turn-insights-on-or-off"></a>Insights をオンまたはオフにする
+
+既定では、Insights が有効になっています。これにより、Microsoft は Teams 内の学生のアクティビティの分析を収集し、分析情報で使用できます。 Insights からオプトアウトすることにした場合、Insights に *収集されたすべてのデータを削除* し、今後のデータの収集を停止します。 Insights を再びオンにすると、再度有効になった時点からデータの収集が開始されます。
+
+* Insights をオフまたはオンにするには、[SDS 管理センター](https://sds.microsoft.com/)を開き、**[設定]** > **[Education Insights の管理]** の順に移動します。 **[Insights のアクティビティ データを収集する]** をオフまたはオンにして、Insights を無効または有効にします。
+
+:::image type="content" source="media/insights-settings.png" alt-text="Insights をオンまたはオフにする設定オプションがある SDS 管理センター ページのスクリーンショット。":::
+
+> [!NOTE]
+> Insights をオフにした場合、収集されたデータは削除されます。 オプトアウトによって削除されたデータは、Insights が再び有効になった場合でも、後から復元することはできません。
+
+### <a name="turn-sds-for-insights-on-or-off"></a>Insights 用 SDS をオンまたはオフにする
 
 School Data Sync (SDS) は、Student Information System (SIS) データをインポートおよび同期するプロセスを自動化するために役立ちます。
 
 Insights を使用するときに SDS を使用する必要は *ありません*。 ただし、いつでも Insights からオプトアウトすることを選択できます。 
-
-* Insights をすべて一緒にオフ/オンにするには、[SDS 管理センター](https://sds.microsoft.com/)を開き、**[設定]** > **[Education Insights の管理]** の順に移動します。 「**Insights のアクティビティ データを収集する**」をオフ/オンにして、Insights を無効/有効にします。
 
 * Insights でSchool Data Sync の使用をオフにするには、[[SDS for Insights の無効化]](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights) の手順に従ってください。
 
