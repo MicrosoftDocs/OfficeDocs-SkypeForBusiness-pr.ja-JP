@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 管理者は、どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるか知ることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8b11452ea6de7df7711bd248cd07717d3f59d003
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284218"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
 
@@ -73,7 +73,7 @@ Microsoft は以下の各ベンダーと協力します。
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.20 サポート済み (4.0 推奨)        |  &#10004;    |  &#10004;   |
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (メディア バイパス向け 4.9)      | &#10004; | &#10004; |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (メディア バイパス向け 4.9)      |     |    |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 シリーズ向け Cisco Unified Border Element (CUBE) 統合サービス ルータ        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.3.2 推奨)         |    &#10004;     |   |  
 |                                   |     4000 シリーズ向け Cisco Unified Border Element (CUBE) 統合サービス ルータ        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r サポート済み (17.3.2 推奨)         |   &#10004;      |    |  
 |                                   |     1000V シリーズ向け Cisco Unified Border Element (CUBE) クラウド サービス ルータ       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.3.2 推奨)         |    &#10004;     |    |  
@@ -91,8 +91,8 @@ Microsoft は以下の各ベンダーと協力します。
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
 |                     [M5 Technologies (以前の Media5 Corporation)](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Sentinel Series   |     &#10004;     |         |      DGW 48.0.2340 (DGW 48.1.2503 推奨)      |     |    |
-|                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops セッション ボーダー コントローラー (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
-|                     |    Ekinops Virtual セッション ボーダー コントローラー (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
+|                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops Session Border Controller (ONeSBC)   |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
+|                     |    Ekinops Virtual Session Border Controller (ONEvSBC)   |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
 |                     [46 Labs LLC](https://46labs.com/docs/hcvoice/teams/)|    Hyperconverged Voice   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
 
 <br/>

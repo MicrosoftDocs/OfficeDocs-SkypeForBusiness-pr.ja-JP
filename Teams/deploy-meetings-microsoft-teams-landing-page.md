@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
-ms.translationtype: MT
+ms.openlocfilehash: 5464e84526e466bdfaa643e912ecf90ccc252b2070fcffc810374dc6f03b52bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295174"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -228,4 +228,4 @@ Teams のサービスにかかわる全体的な正常性を把握して、サ�
 - 組織全体にミーティングと会議の[導入を推進する](adopt-microsoft-teams-landing-page.md)。
 - [電話会議を追加する](deploy-audio-conferencing-teams-landing-page.md)
 - [クラウド ボイスを展開する](cloud-voice-landing-page.md)
-- 最初の Teams ロールアウトには、Planner などのおすすめのアプリを含めます。 Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。
+- 最初の Teams ロールアウトには、Planner などのおすすめのアプリを含めます。Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。
