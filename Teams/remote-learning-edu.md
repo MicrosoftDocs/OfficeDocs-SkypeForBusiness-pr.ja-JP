@@ -1,5 +1,5 @@
 ---
-title: 教育機関管理者向け Microsoft Teams のリソース
+title: 遠隔学習向けに Microsoft Teams の使用を開始する。
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
-ms.translationtype: MT
+ms.openlocfilehash: 9562deeb7ec2cf4225d80c723d093c3e40e814dc
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598576"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234252"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -215,7 +215,7 @@ PowerShell では、チームやチャネルを作成するためにスクリプ
 
 #### <a name="manual-team-creation"></a>チームの手動作成
 
-生徒と教師に Teams を最大限に活用してもらうには、使用に際してのハードルが低く、各自のニーズに合うようにカスタマイズできる柔軟性があることが大切です。 ユーザーは、チーム作成機能を使用してチームエクスペリエンスを調整できます。 教育者は独自のクラスタイプのチームを設定し、[こちら](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)に示すように生徒を招待します。 教育者は、[チームに生徒を追加する](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[参加コードを共有する](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)、または[チームへのリンクを共有する](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)ことにより、生徒を招待できます。 可能であれば、教育者がチームに生徒を追加し、生徒がアクセスできるようにし整え、チームに生徒を追加したことを通知することをお勧めします。
+生徒と教師に Teams を最大限に活用してもらうには、使用に際してのハードルが低く、各自のニーズに合うようにカスタマイズできる柔軟性があることが大切です。 ユーザーは、チーム作成機能を使用してチームエクスペリエンスを調整できます。 教育者は独自のクラスタイプのチームを設定し、[こちら](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)に示すように生徒を招待します。 教育者は、[チームに生徒を追加する](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[参加コードを共有する](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)、または[チームへのリンクを共有する](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)ことにより、生徒を招待できます。 可能であれば、教育者がチームに生徒を追加し、生徒がアクセスできるようにし整え、チームに生徒を追加したことを通知することをお勧めします。
 
 ##### <a name="benefits"></a>利点
 
@@ -230,7 +230,7 @@ PowerShell では、チームやチャネルを作成するためにスクリプ
 
 #### <a name="recommended-best-practices"></a>推奨されるベストプラクティス
 
-- 早期導入！ 早期に導入して、すべてが確実に機能し、初日の準備ができるようにします。
+- 早期導入！早期に導入して、すべてが確実に機能し、初日の準備ができるようにします。
 - チームが 500,000 以上ある場合、[教師主導のチーム作成方法](#educator-led-team-creation-from-office-365-class-groups)を使用することをお勧めします。 関連性があり必要なクラスチームのみを作成することで、未使用のチームと混乱を減らします。  
 - SDSの自動チーム作成に問題があり（クラスが不足するなど）、教職員がチームをすぐに必要とする場合は、[教職員主導のチーム作成方法](#educator-led-team-creation-from-office-365-class-groups)を使用して再試行できます。 [チームの手動作成](#manual-team-creation)は別のソリューションですが、チームメンバーシップを更新し続けることはできません。  
 - テナントチームの上限は500,000チームです。 したがって、管理者は未使用のチームの数を積極的に減らして、制限に達したり、セットアップ時間を延長する必要がないようにしないようにしなければなりません。 制限の詳細については、「[Microsoft Teams の制限事項と仕様](limits-specifications-teams.md)」を参照してください。  
