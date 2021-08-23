@@ -16,16 +16,16 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: 管理者は、どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるか知ることができます。
+description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15345077914ae36abe18a0ec760c0506ce132f73
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284218"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365794"
 ---
-# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングに対応する認定済みセッション ボーダー コントローラーのリスト
+# <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
 マイクロソフトは、選択したセッション ボーダー コントローラー (SBC) ベンダーと提携して、SBC がダイレクト ルーティングと連携していることを保証しています。
 
@@ -73,7 +73,7 @@ Microsoft は以下の各ベンダーと協力します。
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.20 サポート済み (4.0 推奨)        |  &#10004;    |  &#10004;   |
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (メディア バイパス向け 4.9)      |     |    |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (メディア バイパス向け 4.9)      | &#10004; | &#10004; |  
 |                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 シリーズ向け Cisco Unified Border Element (CUBE) 統合サービス ルータ        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.3.2 推奨)         |    &#10004;     |   |  
 |                                   |     4000 シリーズ向け Cisco Unified Border Element (CUBE) 統合サービス ルータ        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r サポート済み (17.3.2 推奨)         |   &#10004;      |    |  
 |                                   |     1000V シリーズ向け Cisco Unified Border Element (CUBE) クラウド サービス ルータ       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.3.2 推奨)         |    &#10004;     |    |  
@@ -103,6 +103,39 @@ Microsoft は以下の各ベンダーと協力します。
 - [Intrado 緊急ルーティング サービス (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Intrado 緊急ゲートウェイ (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 <br/>
+
+## <a name="support-for-local-media-optimization"></a>ローカル メディアの最適化のサポート
+
+次の表に、[ローカル メディアの最適化](direct-routing-media-optimization.md)をサポートする SBC ベンダーを示します。 
+
+| 仕入先 | Product |    ソフトウェアのバージョン |
+|:------------|:-------|:-------|
+| [AudioCodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
+|            |  Mediant 800 SBC |   7.20A.256 | 
+|            |  Mediant 2600 SBC |  7.20A.256 | 
+|            |  Mediant 4000 SBC |  7.20A.256 | 
+|            |  Mediant 1000B SBC | 7.20A.256 | 
+|            |  Mediant 9000 SBC |  7.20A.256 | 
+|            |  Mediant Virtual Edition SBC |   7.20A.256 | 
+|            |  Mediant Cloud Edition SBC | 7.20A.256 |
+| [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
+|            |  SBC 5210         | 8.2  |
+|            |  SBC 5400         | 8.2  |
+|            |  SBC 7000         | 8.2  |
+|            |  SBC SWe          | 8.2  |
+| [Ribbon SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
+|               | SBC 1000 | 8.1.5  |
+|               | SBC 2000 | 8.1.5  |
+| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
+| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
+|        | AP 3900 | 8.4.0.0.0 |
+|        | AP 4600 | 8.4.0.0.0 | 
+|        | AP 6300 | 8.4.0.0.0 |
+|        | AP 6350 | 8.4.0.0.0 | 
+|        | VME     | 8.4.0.0.0 |
+
+
+
 
 ## <a name="direct-routing-and-analog-devices-interoperability"></a>ダイレクト ルーティングとアナログ デバイスの相互運用性
 

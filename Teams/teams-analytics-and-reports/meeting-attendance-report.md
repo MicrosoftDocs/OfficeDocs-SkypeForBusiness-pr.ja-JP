@@ -17,12 +17,12 @@ description: Teams 内から会議出席レポートを入手する。 このレ
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: ec112337e9261bed1e571d8b2c3f85e51e5a18a959ea031358eb95759d39637e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 929829d09eab23456c7d045f7baf18bbd17330df
+ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319670"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58386666"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams 会議出席レポート
 
@@ -32,7 +32,7 @@ ms.locfileid: "54319670"
 
 教育機関テナントの場合、このレポートはオンライン クラスで学生の出席を追跡するために役立ちます。 たとえば、簡単に "点呼" を行う方法として、教師は授業の最初に出席レポートをダウンロードできます。 詳細については、「[Teams で出席レポートをダウンロードする](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)」を参照してください。
 
-管理者は、Teams 会議ポリシーを設定して、会議の開催者が会議出席レポートをダウンロードできるかどうかを制御します。 既定では、レポートのダウンロード機能はオフになっています。 この機能をオンにする手順については、「[会議ポリシーの設定 - 会議の出席レポート](../meeting-policies-in-teams-general.md#meeting-attendance-report)」を参照してください。
+管理者は、Teams 会議ポリシーを設定して、会議の開催者が会議出席レポートをダウンロードできるかどうかを制御します。 既定では、レポートのダウンロード機能はオフになっています。 この機能をオンにする手順については、「[会議ポリシーの設定 - エンゲージメント レポートを許可する](../meeting-policies-in-teams-general.md#allow-engagement-report)」を参照してください。
 
 会議の開催者が会議内で入手可能なレポートで提供される会議出席データよりも多くのデータにアクセスする必要がある場合は、これらの開催者に *レポート閲覧者* の役割を割り当てることができます。開催者が Teams 管理者レポートにアクセスできるようになります。 詳細については、「[Teams アクティビティ レポートにアクセスできるユーザー](../teams-activity-reports.md#who-can-access-the-teams-activity-reports)」を参照してください。 
 
