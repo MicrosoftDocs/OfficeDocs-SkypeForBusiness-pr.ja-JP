@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: '概要: このトピックを使用Skype for Business Server 2015 サーバーを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項は、サーバー ファームのインストールと展開を正常に行うのに役立ちます。'
-ms.openlocfilehash: 8dd32e9d27120e4809cb2f5ce557657e0b4864d60d7095a5e2eb799dc7fdfc83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c709dbc3afa2290cc9260dd71b73ab5da898d88
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276612"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372077"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>2015 年のサーバー Skype for Business Server要件
  
@@ -51,7 +51,7 @@ Active Directory、DNS、証明書などの環境要件を探している場合�
 |:-----|:-----|
 |CPU  <br/> |64 ビット デュアル プロセッサ、16 進数コア、2.26 ギガヘルツ (GHz) 以上。  <br/> Intel Itanium プロセッサは、2015 年Skype for Business Serverサポートされていません。  <br/> |
 |メモリ  <br/> |32 ギガバイト (GB)。  <br/> |
-|ディスク  <br/> |いずれも：  <br/> • 少なくとも 72 GB の空きディスク領域を持つ 8 台以上の 1,0000 RPM ハード ディスク ドライブ (RAID 1 と RAID 10 を使用して RAID 1 と 6 を使用するディスクの 2 つ)。  <br/> または  <br/> • ソリッド ステート ドライブ (SSD) は、8 10000 RPM のメカニカル ディスク ドライブと同じ空き領域と同様のパフォーマンスを提供できます。  <br/> |
+|ディスク  <br/> |いずれも：  <br/> • 少なくとも 72 GB の空きディスク領域を持つ 8 台以上の 1,0000 RPM ハード ディスク ドライブ (RAID 1 と RAID 10 を使用して RAID 1 と 6 を使用するディスクの 2 つ)。  <br/> OR  <br/> • ソリッド ステート ドライブ (SSD) は、8 10000 RPM のメカニカル ディスク ドライブと同じ空き領域と同様のパフォーマンスを提供できます。  <br/> |
 |ネットワーク  <br/> |1 つのデュアル ポート ネットワーク アダプター、1 Gbps 以上 (2 つのネットワーク アダプターを使用できますが、単一の MAC アドレスと 1 つの IP アドレスでチーム化する必要があります)。  <br/> デュアルまたはマルチホーム構成は、フロントエンド サーバー、バック エンド サーバー、Standard Edition 常設チャット サーバーではサポートされていません。 <br/> オペレーティング システムに公開され、サーバー ハードウェアの監視と管理に使用されている限り、DRAC や ILO などの帯域外管理システムを使用できます。 このシナリオは、マルチホーム サーバーを構成するのではありません。サポートされています。  <br/> |
    
 エッジ サーバー、スタンドアロン仲介サーバー、ビデオ相互運用サーバー、およびディレクターの推奨ハードウェア:
@@ -60,7 +60,7 @@ Active Directory、DNS、証明書などの環境要件を探している場合�
 |:-----|:-----|
 |CPU  <br/> |64 ビット デュアル プロセッサ、クアッド コア、2.26 ギガヘルツ (GHz) 以上。  <br/> Intel Itanium プロセッサは、2015 年Skype for Business Serverサポートされていません。  <br/> |
 |メモリ  <br/> |16 ギガバイト。  <br/> |
-|ディスク  <br/> |いずれも：  <br/> • 少なくとも 72 GB の空きディスク領域を持つ 4 台以上の 1,0000 RPM ハード ディスク ドライブ (ディスクは 2x RAID 1 構成にする必要があります)。  <br/> または  <br/> • ソリッド ステート ドライブ (SSD) は、4 台の 10000 RPM メカニカル ディスク ドライブと同じ空き領域と同様のパフォーマンスを提供できます。  <br/> |
+|ディスク  <br/> |いずれも：  <br/> • 少なくとも 72 GB の空きディスク領域を持つ 4 台以上の 1,0000 RPM ハード ディスク ドライブ (ディスクは 2x RAID 1 構成にする必要があります)。  <br/> OR  <br/> • ソリッド ステート ドライブ (SSD) は、4 台の 10000 RPM メカニカル ディスク ドライブと同じ空き領域と同様のパフォーマンスを提供できます。  <br/> |
 |ネットワーク  <br/> |1 つのデュアル ポート ネットワーク アダプター、1 Gbps 以上 (2 つのネットワーク アダプターを使用できますが、単一の MAC アドレスと 1 つの IP アドレスでチーム化する必要があります)。  <br/> ビデオ相互運用機能サーバーとディレクターでは、デュアルまたはマルチホーム構成はサポートされていません。 <br/> エッジ サーバーには、デュアル ポート ネットワーク アダプターである 2 つのネットワーク インターフェイスが必要です。1 Gbps 以上 (または 2 つのペアのネットワーク アダプター、合計 4 つのペアで、各ペアが 1 つの MAC アドレスと 1 つの IP アドレスでチーム化され、合計 2 組)。  <br/> スタンドアロン仲介サーバーでは、特定の PSTN IP アドレスの構成を許可する追加のネットワーク インターフェイス カード (NIC) のインストールがサポートされています。  <br/> |
    
 ## <a name="operating-systems-for-skype-for-business-server-2015"></a>2015 年Skype for Business Serverオペレーティング システム
@@ -68,7 +68,7 @@ Active Directory、DNS、証明書などの環境要件を探している場合�
 
 ハードウェアをインストールしたら、オペレーティング システム (OS) をインストールする必要があります。 これらは、2015 年にインストールして正常に使用できる os Skype for Business Serverです。
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |WindowsServer 2019 (累積的Skype for Business 9 以降が必要です)。 <br/> |Windows Server 2016 (累積的な更新Skype for Business 5 以降が必要です。 詳細については [、KB4015888 を確認してください](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016)。  <br/> ||
 |Windows Server 2012必要なすべての更新プログラムがインストールされた R2 データセンター OS。  <br/> |Windows Server 2012必要なすべての更新プログラムがインストールされた R2 Standard OS。  <br/> |
@@ -98,7 +98,7 @@ Active Directory、DNS、証明書などの環境要件を探している場合�
   
 Skype for Business Server 2015 Enterprise Editionはもう少し複雑ですが、サポートされている一覧は以下のとおりです (すべてが 64 ビット 版です。32 ビット 版は使用しない方が良い点に注意してください)。
   
-||||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|:-----|
 |Microsoft SQL Server 2019 Enterprise (64 ビット 版) であり、最新のサービス パックを使用して実行することをお勧めします。 <br/> |Microsoft SQL Server 2017 Enterprise (64 ビット 版)、最新のサービス パックで実行することをお勧めします。 <br/> |Microsoft SQL Server 2016 Enterprise (64 ビット 版) を Service Pack 1 以降で実行し、Skype for Business 累積的な更新プログラム 7 以降で実行する必要があります[(Skype for Business](https://support.microsoft.com/help/3061064)累積的な更新プログラムをダウンロードしてください)。  <br/> |Microsoft SQL Server 2014 Enterprise (64 ビット 版)、累積的な更新プログラム 6 以降で実行する必要があります (累積的な更新[プログラム 6](https://support.microsoft.com/kb/3031047/)をダウンロード)。  <br/> |Microsoft SQL Server 2012 Enterprise (64 ビット 版)、最新のサービス パックで実行することをお勧めします。  <br/> |
 |Microsoft SQL Server 2019 Standard (64 ビット 版) を使用し、最新のサービス パックを使用して実行することをお勧めします。 <br/> |Microsoft SQL Server 2017 Standard (64 ビット 版) を使用し、最新のサービス パックを使用して実行することをお勧めします。 <br/> |Microsoft SQL Server 2016 Standard (64 ビット 版) を Service Pack 1 以降で実行し、Skype for Business 累積的な更新プログラム 7 以降で実行する必要があります (ダウンロード Skype for Business 累積的な[更新](https://support.microsoft.com/help/3061064))。  <br/> |Microsoft SQL Server 2014 Standard (64 ビット 版) を使用し、累積的な更新プログラム 6 以降で実行する必要があります (累積的な更新[プログラム 6](https://support.microsoft.com/kb/3031047/)をダウンロード)。  <br/> |Microsoft SQL Server 2012 Standard (64 ビット 版) を使用し、最新のサービス パックを使用して実行することをお勧めします。  <br/> |
@@ -112,7 +112,7 @@ Skype for Business Server 2015 Enterprise Editionはもう少し複雑ですが�
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange ストレージ
 PowerPoint プレゼンテーションなどの会議コンテンツ ファイルは、添付ファイルとしてアーカイブされます。 Exchange コンプライアンス データを含む Skype for Business アーカイブ データを格納する場合は、Exchange 展開に Exchange を使用し、最大ストレージ サイズが会議コンテンツ ファイルのストレージをサポートする必要があります。 Microsoft Exchange統合オプションを使用してアーカイブを展開および有効化する前に、Exchangeする必要があります。 
     
-    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
+Exchange ストレージを使用する場合は、Exchange サーバーにホームではない Skype for Business ユーザーを持たない限り、アーカイブ用に個別の SQL Server データベースを展開する必要はありません。 Microsoft Exchange 統合オプションを使用してアーカイブを展開する場合、Skype for Business アーカイブ データは Exchange コンプライアンス データと一緒に Exchange サーバーに保存されているユーザーにのみ保存されます。 
   
 ## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>2015 年のアーカイブのハードウェアとSkype for Business Server要件
   

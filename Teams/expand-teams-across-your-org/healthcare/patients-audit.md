@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: 管理者向け Patients アプリの監査についてTeamsする
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 288877032c662ee03e0fd575a1f9ce2e96d1b4336c290899e98eeef92a11fecf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcd72dbe4c9b83b5f23faa0e01b4133e770822d5
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308736"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380611"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者アプリの監査ログ
 
@@ -30,11 +30,11 @@ ms.locfileid: "54308736"
 >
 >リストを使用すると、医療機関のケア チームは、ラウンドや学際的なチーム会議から一般的な患者の監視に至るまでのシナリオで患者リストを作成できます。 開始するには、リストの患者テンプレートを確認してください。 組織でリスト アプリを管理する方法の詳細については、「[リスト アプリの管理](../../manage-lists-app.md)」を参照してください。
 
-患者の監査ログ アプリ アクティビティを使用すると、インシデント後の対応チームは、患者の電子医療記録 (EMR) または患者医療情報 (PHI) の変更を確認し、生産性ツールでの PHI アクセスに関するポリシーまたは手順の変更または改善が必要かどうかを判断できます。 監査ログ イベントには、Patients アプリのユーザー インターフェイスを介して実行されるアクションが含まれます。
+患者の監査ログ アプリ アクティビティを使用すると、インシデント発生後の対応チームは、患者の電子医療記録 (EMR) または患者医療情報 (PHI) の変更を確認し、生産性ツールでの PHI アクセスに関するポリシーまたは手順の変更または改善が必要かどうかを判断できます。 監査ログ イベントには、Patients アプリのユーザー インターフェイスを介して実行されるアクションが含まれます。
 
 ## <a name="meet-hipaa-requirements"></a>HIPAA の要件を満たす
 
-HIPAA ガイドラインに従って、医療プロバイダーは、変更を監査するために、PHI へのすべてのアクセスの記録を保持する必要があります。 Microsoft は、エンタープライズのお客様が MICROSOFT TEAMS を使用し、HIPAA の要件と制御を満たすのを支援します。 Patients アプリを使用した PHI へのアクセスは完全に追跡され、監査ログ検索機能に関する記事の説明に従って、Microsoft 365 コンプライアンス センターでログ[を利用](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)できます。
+HIPAA ガイドラインに従って、医療プロバイダーは、変更を監査するために、PHI へのすべてのアクセスの記録を保持する必要があります。 Microsoft は、お客様が HIPAA の要件とコントロールを満Microsoft Teamsを使用してエンタープライズのお客様に取り組み、支援を行っています。 Patients アプリを使用した PHI へのアクセスは完全に追跡され、監査ログ検索機能に関する記事の説明に従って、Microsoft 365 コンプライアンス センターでログ[を利用](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)できます。
 
 > [!IMPORTANT]
 > 患者のプライバシーを維持する負担は、法律により医療提供者に適用されます。 この法律では、患者にプライバシーの権利が与え、IT 管理者または HIPAA コントローラーが患者記録にアクセスまたは変更された看護師、医師、ソーシャル ワーカーを簡単に特定できる必要があります。 PHI アクセス違反の最も一般的な例の 1 つは、VIP 患者へのアクセスです。 監査ログ機能は、PHI アクセス違反の調査を実施し、HIPAA 要件を満たすために必要です。
@@ -48,7 +48,7 @@ HIPAA ガイドラインに従って、医療プロバイダーは、変更を�
 1. 管理者は、Patients アプリで使用される形式で EMR を使用するには、FHIR サービス プロバイダーと作業する必要があります。 
 2. 医療プロバイダーの管理者は、管理センターで患者アプリを有効Teams必要があります。 詳細[については、「アプリセットアップ ポリシーの管理」Microsoft Teams](../../teams-app-setup-policies.md)関連記事を参照してください。
 3. 管理者は、「開始する前に」および「監査ログ検索を有効または無効にする」で説明したように、[](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)アクティビティ ログ監査を有効にするのと同じ方法で、アクティビティ監査を有効[にする必要があります](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)。 監査ログが既に有効な場合は、Patients アプリに特別な情報は必要とされません。 医療プロバイダーがチーム内でアプリをインストールして実行すると、監査ログに PHI アクティビティが記録されます。
-4. その後、管理者は Patients アプリの可用性を発表する必要があります。また、医療従事者は監査に含めるアクティビティの生成を開始する必要があります。
+4. その後、管理者は Patients アプリの可用性を知らせる必要があります。また、医療従事者は監査に含めるアクティビティの生成を開始する必要があります。
 
 <!-- add link out to client doc when available -->
 
@@ -58,7 +58,7 @@ HIPAA ガイドラインに従って、医療プロバイダーは、変更を�
 
 ## <a name="logged-activities-for-patients-app"></a>Patients アプリのログに記録されたアクティビティ
 
-Patients アプリには、次の表に示すログに記録された独自のアクティビティがあります。
+Patients アプリには、次の表に示す独自のログに記録されたアクティビティがあります。
 
 |フレンドリ名 | 操作​​ | 説明|
 |:---|:---|:---|
@@ -67,7 +67,7 @@ Patients アプリには、次の表に示すログに記録された独自の�
 | 一覧に患者を追加しました | PatientListAddPatient | 患者が患者のリストに追加されました。 |
 | 患者のメモを追加しました | PatientNoteAdd | 患者レコードにメモが追加されました。 |
 | 患者スキーマを作成しました | PatientSchemaCreate | 患者レコードで使用される列のセットが作成されました。 |
-| ユーザーがエクスポートを開始しました | ExportInitiation | 患者データは、患者アプリから患者ファイルにExcelしました。 ファイルはチームの SharePoint サイトに保存されます。 |
+| ユーザーがエクスポートを開始しました | ExportInitiation | 患者データは、患者アプリから患者ファイルにExcelしました。 ファイルはチーム チーム サイトにSharePointされます。 |
 | 作成された患者リスト | PatientListCreate | ユーザーが患者のリストを作成しました。|
 | 既定の患者リストを設定する| PatientListDefaultSet| ユーザーは、特定のリストを既定のリストとして設定します。|
 | リストから患者を削除しました| PatientListRemovePatient | 患者が患者のリストから削除されました。 |
@@ -81,7 +81,7 @@ Patients アプリには、次の表に示すログに記録された独自の�
 
 必要に応じて監査をカスタマイズして、ログに記録されたアクティビティを検索またはフィルター処理できます。
 
-ログに記録されるアクティビティについてはMicrosoft Teamsアクティビティに関するページ[Microsoft Teamsされています](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
+ログに記録されるアクティビティについては、Microsoft Teams アクティビティに関するページ[Microsoft Teamsしてください](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
 
 ## <a name="related-topics"></a>関連項目
 

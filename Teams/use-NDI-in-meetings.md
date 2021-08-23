@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eebbea6ce5d632d38e94465f05fd9f60a3300a4e060106e7ba2f6218433c5e8b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2a9eed33ba105584379f207697c27e8d6bd6cde5
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335817"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359184"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>NDI の®を使用Microsoft Teams
 
@@ -29,41 +29,37 @@ ms.locfileid: "54335817"
 
 NDI®は、ストリームのライブ コンテンツを生成するための標準的な業界標準ソリューションになり、プロのブロードキャストの世界で大きな認識と導入を獲得しています。
 
-Skype 2018 年後半に NDI ®アウト機能が追加Skypeに追加されました。 Microsoft Teamsこの機能を使用して、会議のエクスペリエンスを向上します。
+Skype 2018 年後半に NDI ®アウト機能が追加Skype追加されました。 Microsoft Teamsこの機能を使用して、会議のエクスペリエンスを向上します。
 
-NDI®はローカル ネットワークに限定され、ブロードキャスト ソリューションではなく、実稼働ワークフローの一部と見なす必要があります。
+NDI®はローカル ネットワークに限定され、ブロードキャスト ソリューションではなく、実稼働ワークフローの一部としてのみ考慮する必要があります。
 
 ## <a name="turn-on-ndi-technology"></a>NDI テクノロジを有効®する
 
 NDI®、ユーザーに対して 2 つの手順を有効にする必要があります。
 
-1. テナント管理者は、CsTeamsMeetingPolicy で "AllowNDIStreaming" プロパティを有効にする必要があります。
+1. テナント管理者は、エンド ユーザーが会議ポリシーに対して NDI を有効にする必要があります。 これは、Teams 管理ポータルまたは CsTeamsMeetingPolicy の _AllowNDIStreaming_ プロパティによって Teams PowerShell を使用して個別に実行できます。
 
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
-```
+    ```PowerShell
+    Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+    ```
 
-2. この変更が設定された後、エンド ユーザーは、特定のクライアントの NDI ® テクノロジを[アクセス許可] から有効設定  >  **があります**。
+2. この変更が設定された後、エンド ユーザーは、特定のクライアントの NDI ® テクノロジを[アクセス許可] から有効設定  >  **必要があります**。
 
-ユーザーが会議に参加すると、会議がブロードキャスト中であることの通知メッセージが表示されます。 ユーザーをブロードキャストに含めたくない場合は、会議から削除する必要があります。
+ユーザーとその特定のクライアントに対してオンにした後、ユーザーはオーバーフロー メニューを使用して [NDI 経由でブロードキャスト] を選択して NDI を有効にできます。
+
+NDI を開始し、エンドポイントが NDI フィードをサブスクライブすると、会議がブロードキャスト中であることの通知メッセージが表示されます。 ユーザーをブロードキャストに含めたくない場合は、会議から削除する必要があります。
 
 次の図は、ユーザーが会議中に表示するバナー メッセージTeamsしています。
 
-![彼は、®に表示される NDI の技術バナー Teamsします。](media/NDI-disclosure.png)
+![NDI は®会議に表示される技術バナー Teamsします。](media/NDI-disclosure.png)
 
 バナーには、Microsoft のプライバシー ポリシー [へのリンクがあります](https://aka.ms/teamsprivacy)。
 
 > [!NOTE]
-> NDI®セッションごとにのみアクティブ化されます。 次のログインでは、ユーザーは NDI を使用する前にアクティブ化する®。
+> NDI®セッションごとにのみアクティブ化されます。 次の会議では、ユーザーは NDI を使用する前にアクティブ化する®。
 
 ## <a name="supported-locales-and-user-types"></a>サポートされている地域とユーザーの種類
 
-NDI®は、すべての地域でサポートされています。 NDI テクノロジ ストリームには次のユーザー®含まれますが、すべてのユーザーが NDI テクノロジ ストリームにアクセス®はありません。
+NDI®は、すべての地域でサポートされています。
 
-- テナント内 – リング/tenantId/userId に基づいて配信される完全なサポート (会議ポリシーによって制御)
-- フェデレーション – ストリーム アクセスなし (NDI テクノロジ®場合でも)<sup>1</sup>
-- プレミアム - ストリーム アクセスなし
-- 匿名 – ストリーム アクセスなし
-- ゲスト – ストリーム アクセスなし  
-
-<sup>1</sup> デバイスには、既定でオン® NDI のテクノロジ設定があります。 会議の参加者が NDI テクノロジをオフにしたデバイス®場合は、NDI テクノロジを有効にする®があります。
+NDI を使用するアクセスは、機能のアクティブ化を試みるユーザーの会議ポリシーによって決まります。 最も安全なソリューションでは、グローバル設定として NDI ポリシーを有効にしない。

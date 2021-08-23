@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: この表を使用して、カナダの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 3b12b7c019527088f90be12acfea855a6e2e4bb7
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ee4888d0f2cb7fb683eecd0bbf16e38165f16354
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233462"
+ms.locfileid: "58348499"
 ---
 # <a name="phone-number-management-for-canada"></a>カナダでの電話番号の管理
 
@@ -36,8 +36,8 @@ ms.locfileid: "58233462"
 
 | **実行する操作** | **これらの手順を実行して正しいフォームをダウンロードする** |
 |:---   |:---    |
-| 管理センターに表示されていない新しいユーザーとサービスの電話番号Microsoft Teams取得します。  <br/>   | 次のフォームのいずれかをダウンロードします。 <br/> [カナダの新しい電話番号の要求 (v.5.0) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(v.5.0)-(en-ca).pdf?raw=true) <br/>[カナダの新しい電話番号要求 (v.5.0) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-canada-(v.5.0)-(fr-ca).pdf?raw=true)  <br/> <br>記入し、[マイクロソフトに送信します](mailto:ptn@microsoft.com)。      |
-|転送された電話番号を取得します。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [カナダの承認状 (LOA) (ユーザー番号とサービス番号) (v.3.2) (en-ca)](https://download.microsoft.com/download/7/5/2/7525e2cb-d496-4133-87a9-bac3ee4a3216/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.3.2)-(en-ca).pdf) <br/> [カナダ (ユーザー番号およびサービス番号) 用の承認状 (LOA) (v.1.0) (fr-ca)](https://download.microsoft.com/download/b/1/a/b1ada279-0711-4144-bc6c-d0f5541c27ef/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf)<br/> [カナダの承認状 (LOA) (無料電話番号) (v.3.2) (en-ca)](https://download.microsoft.com/download/1/7/1/1712dc2a-6b36-4b77-8588-fc33e80f2228/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf ) <br/>[カナダ (無料の電話番号) 用の承認状 (LOA) (v.1.1) (fr-ca)](https://download.microsoft.com/download/1/7/1/1712dc2a-6b36-4b77-8588-fc33e80f2228/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf)<br/> <br>**注:** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとしている場合は、承認状 (LOA) を入力して送信する必要があります。 詳細[については、「電話番号を電話番号にTeams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)する」を参照してください。 <br/> <br>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
+| 管理センターに表示されていない新しいユーザーとサービスの電話番号Microsoft Teams取得します。  <br/>   | 次のフォームのいずれかをダウンロードします。 <br/> [カナダの新しい電話番号の要求 (v.5.0) (en-ca)](https://download.microsoft.com/download/b/4/6/b460be9b-74c6-4ed7-8cdb-e1bebab5d667/new-phone-number-request-for-canada-(v.5.0)-(en-ca).pdf) <br/>[カナダの新しい電話番号要求 (v.5.0) (fr-ca)](https://download.microsoft.com/download/b/0/2/b020b607-a802-41da-bc6c-b307903c51f1/new-phone-number-request-for-canada-(v.5.0)-(fr-ca).pdf)  <br/> <br>記入し、[マイクロソフトに送信します](mailto:ptn@microsoft.com)。      |
+|転送された電話番号を取得します。  <br/> | 次のフォームのいずれかをダウンロードします。 <br/> [カナダの承認状 (LOA) (ユーザー番号とサービス番号) (v.3.2) (en-ca)](https://download.microsoft.com/download/7/5/2/7525e2cb-d496-4133-87a9-bac3ee4a3216/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.3.2)-(en-ca).pdf) <br/> [カナダ (ユーザー番号およびサービス番号) 用の承認状 (LOA) (v.1.0) (fr-ca)](https://download.microsoft.com/download/b/1/a/b1ada279-0711-4144-bc6c-d0f5541c27ef/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf)<br/> [カナダの承認状 (LOA) (無料電話番号) (v.3.2) (en-ca)](https://download.microsoft.com/download/1/7/1/1712dc2a-6b36-4b77-8588-fc33e80f2228/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf ) <br/>[カナダ (無料の電話番号) 用の承認状 (LOA) (v.1.1) (fr-ca)](https://download.microsoft.com/download/1/7/1/1712dc2a-6b36-4b77-8588-fc33e80f2228/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf)<br/> <br>**注:** 999 を超えるサブスクライバーまたはユーザーの電話番号を取得しようとしている場合は、承認状 (LOA) を入力して送信する必要があります。 詳細[については、「電話番号を Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)に転送する」を参照してください。 <br/> <br>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/>                                 | [PIN の手順と、](contact-pstn-service-desk.md) サービス番号に変換するユーザー番号の一覧については、PTSN にお問い合わせください。 PIN をセットアップする方法については、[こちら](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)をご覧ください。  <br/> |
 |番号を別のMicrosoft 365またはOffice 365に転送します。  <br/>               | 転送元の組織の PIN と共に、転送するユーザー (サブスクライバー) 電話番号の一覧に関する手順については[、PTSN](contact-pstn-service-desk.md)サービス デスクにお問い合わせください。 PIN をセットアップする方法については、[こちら](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)をご覧ください。  <br/> |
 |通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、PSTN サービス デスクに問い合わせ [、手順を確認してください](contact-pstn-service-desk.md)。 |

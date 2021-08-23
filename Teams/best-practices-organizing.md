@@ -17,15 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8abb6718fe79b4ee15a679e768711fde8310536e67d34ccea440684717e03596
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff8aede350f132d28ffed9b09e7bc776553e4c0a
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305089"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372047"
 ---
-<a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
-======================================================
+# <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Microsoft Teams でチームを編成するためのベスト プラクティス
 
 チームとは、共通の目標に向けて集まった人々の集団のことです。 この人々のグループは、部署内に収まることも、組織全体にわたることもあります。 メンバーが結集することにより、目標を達成できます。 チームのメンバーは異なるペースで作業することもあれば、異なる資産を作成することもありますが、これまでの経験では、たいていは相互にすばやく共同作業を行うことができます。こうしたプロセスを「速度感を持ったチームワーク」と呼んでいます。  
 

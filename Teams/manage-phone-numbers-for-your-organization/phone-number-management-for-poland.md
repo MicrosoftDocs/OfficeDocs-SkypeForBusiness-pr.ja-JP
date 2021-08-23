@@ -19,28 +19,28 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、ポーランドで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 0c67e4766391f87269dcdad6073b12a3ba9b6157
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: この表を使用して、ポーランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
+ms.openlocfilehash: fcfcc032e32a62d8e982c0ee37d93636b063960b
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232812"
+ms.locfileid: "58348479"
 ---
 # <a name="phone-number-management-for-poland"></a>電話の番号管理
 
 > [!IMPORTANT]
-> 現在、ポーランドでは、新しい電話番号の注文や移植注文の処理に予期しない遅延が発生しています。 引き続き注文できますが、この遅延は 9 月までに解決される予定です。この時点で、保留中のすべての注文が満たされます。
+> 現在、ポーランドでは、新しい電話番号の注文や移植注文の処理に予期しない遅延が発生しています。 注文は引き続き行えるが、この遅延は 9 月までに解決される予定で、保留中の注文はすべて満たされる予定です。
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-この表を使用して、ポーランドで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+この表を使用して、ポーランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。  |ポーランドでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。<br/><br/>[ポーランド (v.1.0) (pl-pl)](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf)の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力し、手順については [PTSN サービス](contact-pstn-service-desk.md)デスクにお問い合わせください。<br/><br/>電話は 10 ブロックで順序付けされます。 お客様には、サブスクライブされている通話プラン ライセンスに対してだけ課金されます。<br/><br/>この市場を埋めるには、新しい注文に 4 ~ 6 週間かかる場合があります。 |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。  |ポーランドでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。<br/><br/>[ポーランド (v.1.0) (pl-pl)](https://download.microsoft.com/download/a/1/3/a130f4bd-3d48-4918-aea2-62cc24874c78/new-phone-number-request-for-poland-(v1.0)-(pl-PL).pdf)の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力し、手順については [PTSN サービス](contact-pstn-service-desk.md)デスクにお問い合わせください。<br/><br/>電話は 10 ブロックで並べ込まれています。 お客様には、サブスクライブされている通話プラン ライセンスに対してだけ課金されます。<br/><br/>この市場を埋めるには、新しい注文に 4 ~ 6 週間かかる場合があります。 |
 |転送された電話番号を取得します。| このフォームをダウンロードします。 <br/>[ポーランドの承認状 (LOA) (すべての数値) (v.1.0) (pl-pl)](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、移行に 4 ~ 6 週間かかる場合があります。 <br/><br/> 現時点では、これらの番号を会議に使用できません。    |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |

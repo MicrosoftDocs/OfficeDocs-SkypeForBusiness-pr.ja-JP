@@ -1,5 +1,5 @@
 ---
-title: ローカル メディアの直接ルーティング用にローカル メディアの最適化を構成Teams
+title: 直接ルーティング用にローカル メディアの最適化を構成する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,16 +16,16 @@ f1.keywords:
 description: 直接ルーティング用にローカル メディアの最適化を構成する
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf370087d109ebd12da150af44d2f13b455f4f6e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235362"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365634"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>直接ルーティング用にローカル メディアの最適化を構成する
 
-ローカル メディア最適化の構成は、ルーティングや動的緊急通話などの他のクラウド音声機能に共通Location-Based設定に基づいて行います。 ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネット、信頼済み IP アドレスの詳細については、「クラウド音声機能のネットワーク設定」 [を参照してください](cloud-voice-network-settings.md)。
+ローカル メディアの最適化の構成は、ルーティングや動的緊急通話などの他のクラウド音声機能に共通Location-Based設定に基づいて行います。 ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネット、信頼済み IP アドレスの詳細については、「クラウド音声機能のネットワーク設定」 [を参照してください](cloud-voice-network-settings.md)。
 
 ローカル メディアの最適化を構成する前に、「直接ルーティングのための [ローカル メディアの最適化」を参照してください](direct-routing-media-optimization.md)。  
 
@@ -52,36 +52,7 @@ ms.locfileid: "58235362"
 
 ## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>SBC ベンダーの仕様に従ってローカル メディアの最適化用に SBC を構成する
 
-この記事では、Microsoft コンポーネントの構成について説明します。 SBC 構成については、SBC ベンダーのドキュメントを参照してください。
-
-ローカル メディアの最適化は、次の SBC ベンダーによってサポートされています。
-
-| 仕入先 | Product |    ソフトウェアのバージョン |
-|:------------|:-------|:-------|
-| [AudioCodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
-|            |  Mediant 800 SBC |   7.20A.256 | 
-|            |  Mediant 2600 SBC |  7.20A.256 | 
-|            |  Mediant 4000 SBC |  7.20A.256 | 
-|            |  Mediant 1000B SBC | 7.20A.256 | 
-|            |  Mediant 9000 SBC |  7.20A.256 | 
-|            |  Mediant Virtual Edition SBC |   7.20A.256 | 
-|            |  Mediant Cloud Edition SBC | 7.20A.256 |
-| [リボン SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
-|            |  SBC 5210         | 8.2  |
-|            |  SBC 5400         | 8.2  |
-|            |  SBC 7000         | 8.2  |
-|            |  SBC SWe          | 8.2  |
-| [リボン SBC Edge](https://support.sonus.net/display/UXDOC81/Best+Practice+-+Configuring+Microsoft+Teams+Local+Media+Optimization)  |  SBC SWe Lite | 8.1.5 |
-|               | SBC 1000 | 8.1.5  |
-|               | SBC 2000 | 8.1.5  |
-| [TE-SYSTEMS](https://www.anynode.de/local_media_optimization/) |  anynode          | 4.0.1+ |
-| [Oracle](https://www.oracle.com/industries/communications/enterprise-communications/session-border-controller/microsoft.html) | AP 1100 | 8.4.0.0.0 |
-|        | AP 3900 | 8.4.0.0.0 |
-|        | AP 4600 | 8.4.0.0.0 | 
-|        | AP 6300 | 8.4.0.0.0 |
-|        | AP 6350 | 8.4.0.0.0 | 
-|        | VME     | 8.4.0.0.0 |
-
+この記事では、Microsoft コンポーネントの構成について説明します。 SBC 構成については、SBC ベンダーのドキュメントを参照してください。 どの SBC ベンダーがローカル メディアの最適化をサポートしているのかについては、直接ルーティングの認定を受けたセッション ボーダー コントローラーに関 [するページを参照してください](direct-routing-border-controllers.md)。
 
 ## <a name="manage-external-trusted-ip-addresses"></a>外部の信頼済み IP アドレスを管理する
 
@@ -180,7 +151,7 @@ Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
-注: ローカル メディアの最適化と Location-Based ルーティング (LBR) が同時に構成されている場合に中断されない操作を確実に行う場合は、ダウンストリーム SBC ごとに GatewaySiteLbrEnabled パラメーターを $true に設定して、LBR に対してダウンストリーム SBC を有効にする必要があります。 (この設定は、プロキシ SBC では必須ではありません)。
+注: ローカル メディアの最適化と Location-Based ルーティング (LBR) が同時に構成されている場合に中断されない操作を確実に行う場合は、ダウンストリーム SBC ごとに GatewaySiteLbrEnabled パラメーターを $true に設定して、ダウンストリーム SBC を LBR に対して有効にする必要があります。 (この設定は、プロキシ SBC では必須ではありません)。
 
 上記の情報に基づいて、ダイレクト ルーティングには、次の表に示すように、SIP 招待と再招待に対する 3 つの独自の SIP ヘッダーが含まれます。
 
@@ -231,7 +202,7 @@ Always Bypass モードは、構成する最も簡単なオプションです。
 
 | ユーザーの物理的な場所| ユーザーが番号に対して通話を行う、または番号から通話を受信する | ユーザーの電話番号  | オンライン音声ルーティング ポリシー | SBC 用に構成されたモード |
 |:------------|:-------|:-------|:-------|:-------|
-| ベトナム | +84 4 3926 3000 | +84 4 5555 5555   | 優先度 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> 優先度 2: .* - proxysbc.contoso.com   | VNsbc.contoso.com – Always Bypass <br> proxysbc.contoso.com – 常にバイパス
+| ベトナム | +84 4 3926 3000 | +84 4 5555 5555   | 優先度 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> 優先度 2: .* - proxysbc.contoso.com   | VNsbc.contoso.com – Always Bypass <br> proxysbc.contoso.com – Always Bypass
 
 
 次の図は、Always バイパス モードの発信呼び出しの SIP ラダーと、SBC と同じ場所のユーザーを示しています。
@@ -320,7 +291,7 @@ AlwaysBypass |  外部 |  該当なし |   受信 |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |   内部 |SBC と同じ   | 発信 |
 
-次の図は、OnlyForLocalUsers モードの発信呼び出しを示しています。ユーザーは SBC と同じ場所にいます。 これは、ユーザーが SBC と同じ場所にある場合の送信呼び出しに [表示されるのと同じフローです](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
+次の図は、OnlyForLocalUsers モードの発信呼び出しを示しています。ユーザーは SBC と同じ場所にいます。 これは、ユーザーが SBC と同じ場所にある場合の送信呼び出しに [表示されるフローと同じです](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
 
 ![図は、SIP ラダーを再び示しています。](media/direct-routing-media-op-14.png)
 
@@ -336,7 +307,7 @@ AlwaysBypass |  外部 |  該当なし |   受信 |
 ![SIP ラダーを示す別の図。](media/direct-routing-media-op-15.png)
 
 
-#### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>ユーザーは SBC と同じ場所ではなく、ローカル ユーザー専用の企業ネットワーク内にある
+#### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>ユーザーは SBC と同じ場所にではなく、ローカル ユーザーの場合のみと企業ネットワーク内にある
 
 | モード | ユーザー | サイト |通話の方向 |
 |:------------|:-------|:-------|:-------|
@@ -356,7 +327,7 @@ AlwaysBypass |  外部 |  該当なし |   受信 |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers | 内部 |    SBC とは異なる |    受信 |
 
-次の図は、OnlyForLocalUsers モードの受信呼び出しと、SBC と同じ場所にない内部ユーザーを示しています。
+次の図は、OnlyForLocalUsers モードの受信呼び出しと、SBC と同じ場所にいない内部ユーザーを示しています。
 
 ![SIP ラダーを示すもう 1 つの図。](media/direct-routing-media-op-17.png)
 

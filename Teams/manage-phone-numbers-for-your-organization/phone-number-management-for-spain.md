@@ -20,27 +20,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、スペインの電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: 3a584a2417d465fd8f8776f4699d0675ffb74ad5dba5699a4c3f2b48a5a82377
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: この表を使用して、スペインの電話番号の取得と管理に関する情報をMicrosoft Teams。
+ms.openlocfilehash: c09e2aa42bfeb9799f6c0ec5fc2a5143ed4b9e06
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350889"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380431"
 ---
 # <a name="phone-number-management-for-spain"></a>スペインでの電話番号の管理
 
-この表を使用して、スペインの電話番号の取得と管理に関する情報を確認Microsoft Teams。
+この表を使用して、スペインの電話番号の取得と管理に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> | これらのフォームのいずれかをダウンロードします。</br> [スペイン (v.5.0) (es-es) の新しい電話番号要求](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf?raw=true) <br/>  [スペインの新しい電話番号の要求 (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>    入力し、 [手順については PTSN にお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
-|転送された電話番号を取得します。  <br/> |このフォームをダウンロードします。 <br/>[スペインの承認状 (LOA) (すべての数値) (v.5.0)(es-es)](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> ご記入のうえ[、PTSN](contact-pstn-service-desk.md)にお問い合わせください。手順[については、 までお問い合わせください](mailto:ptneu@microsoft.com)。 <br/> |
-|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-pstn-service-desk.md) ユーザー番号の一覧に関する手順については、PTSN にお問い合わせください。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、「[ PSTN サービス デスク](contact-pstn-service-desk.md)」にお問い合わせください。 |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> | これらのフォームのいずれかをダウンロードします。</br> [スペイン (v.5.0) (es-es) の新しい電話番号要求](https://download.microsoft.com/download/a/b/3/ab310e4a-2d25-4cf1-a413-cfb84d66c7ad/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf) <br/>  [スペインの新しい電話番号の要求 (v.5.0) (en-us)](https://download.microsoft.com/download/9/e/8/9e8bef13-808d-418b-aafa-af36d1e76984/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf)<br/><br/>    入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
+|転送された電話番号を取得します。  <br/> |このフォームをダウンロードします。 <br/>[スペインの承認状 (LOA) (すべての数値) (v.5.0)(es-es)](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> ご記入のうえ[、PTSN サービス](contact-pstn-service-desk.md)デスクにお問い合[わせください。](mailto:ptneu@microsoft.com) <br/> |
+|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。 <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>関連項目
 

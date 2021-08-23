@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: d4a4e57acf5987d670ebb75385bdcfc4406ba505
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b445c44fa7517c7ffbc6bdefdb0505cff88c999
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233242"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359214"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -43,7 +43,7 @@ Teams ライブ イベントは Skype 会議ブロードキャストの次のバ
 
 では、始めましょう。まず、Microsoft 365 ライブ イベントに関連する高レベルのコンポーネントと、それらがどのように接続されているかを示す次の図を見てください。
 
-![ライブ イベントの主要コンポーネント](../media/live-event-flow-diagram1.png  "ライブ イベント、スケジュール設定、作成、ストリーム プラットフォーム、認定済みのサードパーティ eCDN プロバイダーの主要コンポーネント")
+![ライブ イベントの主要コンポーネント](../media/live-events-flow-diagram.png  "ライブ イベント、スケジュール設定、作成、ストリーム プラットフォーム、認定済みのサードパーティ eCDN プロバイダーの主要コンポーネント")
 
 > [!Note]
 > Teams のライブ イベントは、ブロードキャスト テクノロジの性質を考えると、通常の (内部の) 会議の参加人数を超える可能性が高い点を強調したいと思います。

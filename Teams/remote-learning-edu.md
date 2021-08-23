@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9562deeb7ec2cf4225d80c723d093c3e40e814dc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c1fe798b4077524b14588d4bb0824ecaae2a20b2
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234252"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380391"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -127,7 +127,7 @@ Microsoft Teams for Education は、教育機関向けに  [特別なチーム
 
 #### <a name="automatic-team-creation-using-sds"></a>SDS を使用したチームの自動作成
 
-チーム作成を自動化することで、IT 管理者と教職員の作業時間を短縮します。 この機能によって、教職員はすべてのクラス チームを作成し、サインイン時にセットアップできるようになります。 [School Data Sync（SDS）](/SchoolDataSync)は、Office 365 Education の無料ツールで、教育機関の記録システム（学生情報システム（SIS）や学習管理システム（LMS）など）からデータを読み取ります。 SDS はデータを使用して、Office 365 のセットアップをさまざまな方法で強化します。例えば、クラスチームを一括で作成したり、情報システムと常に同期して、講師や学生のメンバーシップをクラス登録の変更に応じて更新します。 SDS は、任意の記録システムからデータをインポートでき、世界中の[SIS ベンダー](/schooldatasync/what-sis-and-mis-vendors-does-school-data-sync-support)への組み込みコネクタを備えています。 推奨する SDS の利点。  
+チーム作成を自動化することで、IT 管理者と教職員の作業時間を短縮します。 この機能によって、教職員はすべてのクラス チームを作成し、サインイン時にセットアップできるようになります。 [School Data Sync（SDS）](/SchoolDataSync)は、Office 365 Education の無料ツールで、教育機関の記録システム（学生情報システム（SIS）や学習管理システム（LMS）など）からデータを読み取ります。 SDS はデータを使用して、Office 365 のセットアップをさまざまな方法で強化します。例えば、クラスチームを一括で作成したり、情報システムと常に同期して、講師や学生のメンバーシップをクラス登録の変更に応じて更新します。 SDS は、任意の記録システムからデータをインポートでき、世界中の[SIS ベンダー](/schooldatasync/frequently-asked-questions#what-sismis-vendors-does-school-data-sync-support)への組み込みコネクタを備えています。 推奨する SDS の利点。  
 
 ###### <a name="benefits"></a>利点
 
@@ -215,7 +215,7 @@ PowerShell では、チームやチャネルを作成するためにスクリプ
 
 #### <a name="manual-team-creation"></a>チームの手動作成
 
-生徒と教師に Teams を最大限に活用してもらうには、使用に際してのハードルが低く、各自のニーズに合うようにカスタマイズできる柔軟性があることが大切です。 ユーザーは、チーム作成機能を使用してチームエクスペリエンスを調整できます。 教育者は独自のクラスタイプのチームを設定し、[こちら](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)に示すように生徒を招待します。 教育者は、[チームに生徒を追加する](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[参加コードを共有する](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)、または[チームへのリンクを共有する](https://support.office.com/article/create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)ことにより、生徒を招待できます。 可能であれば、教育者がチームに生徒を追加し、生徒がアクセスできるようにし整え、チームに生徒を追加したことを通知することをお勧めします。
+生徒と教師に Teams を最大限に活用してもらうには、使用に際してのハードルが低く、各自のニーズに合うようにカスタマイズできる柔軟性があることが大切です。 ユーザーは、チーム作成機能を使用してチームエクスペリエンスを調整できます。 教育者は独自のクラスタイプのチームを設定し、[こちら](https://support.microsoft.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b#ID0EADAAA=Create_a_team_from_scratch)に示すように生徒を招待します。 教育者は、[チームに生徒を追加する](https://support.office.com/article/add-a-student-to-a-class-team-b88263bb-ace1-4702-8a48-f8a2cf4af954)、[参加コードを共有する](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)、または[チームへのリンクを共有する](https://support.office.com/article/Create-a-link-or-a-code-for-joining-a-team-11b0de3b-9288-4cb4-bc49-795e7028296f)ことにより、生徒を招待できます。 可能であれば、教育者がチームに生徒を追加し、生徒がアクセスできるようにし整え、チームに生徒を追加したことを通知することをお勧めします。
 
 ##### <a name="benefits"></a>利点
 

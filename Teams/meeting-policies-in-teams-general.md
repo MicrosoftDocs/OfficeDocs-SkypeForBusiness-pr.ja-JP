@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 会議の全般ポリシー設定を管理する方法については、Teams。
-ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e9e38f724d5327ed54bad8098c1f7fae0c300e34
+ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235212"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58392924"
 ---
 # <a name="meeting-policy-settings---general"></a>会議ポリシーの設定 - 全般
 
@@ -38,7 +38,9 @@ ms.locfileid: "58235212"
 - [プライベート会議のスケジュールを許可する](#allow-scheduling-private-meetings)
 - [プライベート会議で "今すぐ会議" を許可する](#allow-meet-now-in-private-meetings)
 - [指定された発表者ロール モード](#designated-presenter-role-mode)
-- [会議出席レポート](#meeting-attendance-report)
+- [エンゲージメント レポートを許可する](#allow-engagement-report)
+- [会議の登録を許可する](#allow-meeting-registration)
+- [Who登録可能](#who-can-register)
 - [諸島モードの会議プロバイダー](#meeting-provider-for-islands-mode)
 
 ## <a name="allow-meet-now-in-channels"></a>チャネルで "今すぐ会議" を許可する
@@ -108,7 +110,7 @@ ms.locfileid: "58235212"
 
 **誰がプレゼンをするか?** の設定を使用すると、会議の開催者は会議の発表者を選択することができます。 詳細については、「[Teams 会議の参加者設定の変更](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)」 と 「[Teams 会議での役割](https://support.microsoft.com/article/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019)」を参照してください。
 
-現在、このポリシー設定を構成することができるのは、PowerShell を使用した場合のみです。 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+現在、このポリシー設定を構成することができるのは、PowerShell を使用した場合のみです。 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
 Teams の **誰がプレゼンをするか?** 設定の既定値を指定するには、**DesignatedPresenterRoleMode** パラメーターを次のいずれかに設定します。
 
@@ -118,15 +120,44 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 既定値を設定した後でも、会議の開催者はチームの設定を変更し、スケジュールした会議での発表者を選ぶことができることにご注意ください。
 
-## <a name="meeting-attendance-report"></a>会議出席レポート
+## <a name="allow-engagement-report"></a>エンゲージメント レポートを許可する
 
 これは、ユーザーごとのポリシーです。 この設定では、会議の開催者が [会議出席レポート](teams-analytics-and-reports/meeting-attendance-report.md)をダウンロードできるかどうかを制御します。
 
-現在、このポリシー設定を構成することができるのは、PowerShell を使用した場合のみです。 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+このポリシーは既定でオフになっています。開催者は、設定した会議やウェビナーを誰が登録して参加したのか確認できます。 管理センターでこれを有効Teams、[会議の会議ポリシー] に移動し、ポリシーを [有効]  >  に **設定します**。
 
-会議の開催者が会議出席レポートをダウンロードするには **、AllowEngagementReport** パラメーターを [有効] に **設定します**。 有効にすると、**参加者** ウィンドウに、レポートをダウンロードするためのオプションが表示されます。 既定では、この設定は有効になっています。
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+
+会議の開催者が会議出席レポートをダウンロードするには **、AllowEngagementReport** パラメーターを [有効] に **設定します**。 有効にすると、**参加者** ウィンドウに、レポートをダウンロードするためのオプションが表示されます。 既定では、この設定は有効になっていません。
 
 会議の開催者がレポートをダウンロードしないようにするには、パラメーターを [**無効**] に設定します。
+
+## <a name="allow-meeting-registration"></a>会議の登録を許可する
+
+これは、ユーザーごとのポリシーです。 これを有効にした場合、組織内のユーザーはウェビナーを設定できます。 このポリシーは既定で有効になっています。
+
+管理センターでこのポリシーを編集Teams、[会議の会議ポリシー]   >  **に移動します**。 会議の登録をオフにする場合は、ポリシーを [オフ] に **設定します**。
+
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+
+会議の登録を有効にする場合は  **、AllowMeetingRegistration** パラメーターを True に **設定します**。 これは既定で **True に** 設定されています。
+
+会議の登録をオフにし、ユーザーがウェビナーをスケジュールできない場合は、 パラメーターを False に **設定します**。
+
+## <a name="who-can-register"></a>Who登録可能
+
+このポリシーは、ウェビナーを登録して参加できるユーザーを制御します。 このポリシーには 2 つのオプションがあります。このオプションは、[会議の登録を許可する] がオン **になっている** 場合にのみ使用できます。
+
+- 匿名 **Who** を含むすべてのユーザーが、組織内のユーザーが設定したウェビナーの登録と参加を許可する場合は、[すべてのユーザー] に登録できます。
+- 組織内 **Whoの** ユーザーにのみウェビナーの登録と参加を許可する場合は、[組織内のすべてのユーザー] に登録できるオプションを設定します。
+
+既定では、**登録Whoは [すべての** ユーザー] に **設定されています**。 管理センターでこのポリシーを編集Teams、[会議の会議ポリシー]   >  **に移動します**。
+
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+
+匿名ユーザーを含むすべてのユーザーがウェビナーを登録して参加するには **、WhoCanRegister** パラメーターを Everyone に設定 **します**。 これは既定で [ **すべてのユーザー] に** 設定されています。
+
+組織内のユーザーだけがウェビナーの登録と参加を許可するには、 パラメーターを **EveryoneInCompany に設定します**。
 
 ## <a name="meeting-provider-for-islands-mode"></a>諸島モードの会議プロバイダー
 
@@ -134,7 +165,7 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 このポリシーは、アイランドモードで、Teams の会議ポリシーで **AllowOutlookAddIn** パラメーターが **True** に設定されているユーザーにのみ適用できます。
 
-現在、このポリシーを設定するには PowerShell を使用する必要があります。 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
+現在、このポリシーを設定するには PowerShell を使用する必要があります。 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
 ユーザーが使用できる会議アドインを指定するには、次のように **PreferredMeetingProviderForIslandsMode** パラメーターを指定します。
 
@@ -153,5 +184,5 @@ AllowMeetingReactions 設定は、PowerShell を使用してのみ適用でき�
 ## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+- [[ポリシーの割り当て] Teams](policy-assignment-overview.md)
 - [ユーザーから RestrictedAnonymousAccess Teams 会議ポリシーを削除する](meeting-policies-restricted-anonymous-access.md)

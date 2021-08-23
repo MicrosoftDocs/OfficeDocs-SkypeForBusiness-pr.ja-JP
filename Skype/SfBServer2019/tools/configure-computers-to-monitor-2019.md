@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: 監視対象の Skype for Business Server 2019 コンピューターに Operations Manager エージェント ファイルをインストールし、コンピューターを System Center プロキシとして動作System Centerします。'
-ms.openlocfilehash: 2c049edf37395197abd46744d67eced8781b3c15cf56e4308cafffb63435083c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d723ba13e7db91a8f6b22a48c5f0eeb87333e1e
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277582"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372037"
 ---
-# <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>監視するSkype for Business Serverコンピューターを構成する
+# <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>監視するSkype for Business Serverコンピューターを構成する
 
 **概要:** 監視する 2019 年 2019 年 2019 年のコンピューターに Operations Skype for Business Server Manager エージェント ファイルをインストールし、コンピューターを System Center構成します。
 

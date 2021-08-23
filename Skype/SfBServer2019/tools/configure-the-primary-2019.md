@@ -1,5 +1,5 @@
 ---
-title: プライマリ管理サーバーの構成
+title: プライマリ管理サーバーを構成する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: プライマリ管理サーバーを構成し、2019 System Center Operations Manager をインストールし、管理パックをインポートSkype for Business Serverします。'
-ms.openlocfilehash: 2606c87d5874bdec4e6dded494b024bc7810de70db000c2c65892e0d80e5a6d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7fd7350cb4cf5a9697e789806c963f4fbe46636
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277532"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372237"
 ---
-# <a name="configure-the-primary-management-server"></a>プライマリ管理サーバーの構成
+# <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype for Business Server: プライマリ管理サーバーを構成する
 
 **概要:** プライマリ管理サーバーを構成し、2019 System Center Operations Manager をインストールし、管理パックをインポートSkype for Business Serverします。
 
@@ -30,7 +30,7 @@ Operations Manager にSystem Center、次を含む、その製品のすべての
 
 - オペレーション データベース
 
-- Server
+- サーバー
 
 - コンソール
 

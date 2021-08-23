@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams と Bookings アプリを使用した仮想訪問
-author: cichur
-ms.author: v-cichur
+author: dmaguire
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams と、Bookings アプリを使用した仮想訪問
-ms.openlocfilehash: 2ef4708cfcbdda5ba55c1aa7069e6e1e6babebc2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ca5b2391dc1f70188c3b0191fad09ee7cb46e457
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233402"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372207"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams と Bookings アプリを使用した仮想訪問
 
@@ -41,7 +41,7 @@ Microsoft Teams の Bookings アプリでは、医療訪問、財務相談、イ
 
 - Microsoft Bookings を組織で有効にしている必要があります。
 
-- ユーザーは、適切なライセンスを持っている必要があります。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5 の場合、Business Standard がサポートされています。
+- ユーザーは、適切なライセンスを持っている必要があります。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、Business Standard がサポートされています。
 
 - Bookings アプリのすべてのユーザーと会議に参加するすべてのスタッフは、Teams 会議のスケジュールをサポートするライセンスを持っている必要があります。
 

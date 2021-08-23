@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f635e3b5e292d6b9eeb62fc8cbbf9552e2d0b2e2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e3782d05697b602375385342d9f2a1248bbd95e3
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233632"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406956"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -72,7 +72,7 @@ Teams デスクトップ アプリは、主要な仮想化ソリューション 
 
 ### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
-Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「Azure Virtual Desktop での Teams[の使用」を参照してください](/azure/virtual-desktop/teams-on-wvd)。
+Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「Use Teams on Azure Virtual Desktop 」[を参照してください](/azure/virtual-desktop/teams-on-wvd)。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps and Desktops の要件
 
@@ -96,11 +96,11 @@ MSI パッケージを使用したマシンごとのインストールまたは�
 
 専用の永続的なセットアップの場合、どちらのアプローチでも機能します。 ただし、非永続的なセットアップの場合、Teams が効率的に機能するにはマシンごとにインストールする必要があります。 [非永続のセットアップ](#non-persistent-setup)のセクションを参照してください。
 
-マシンごとのインストールでは、自動更新は無効になっています。 つまり、Teams アプリを更新するには、現在のバージョンをアンインストールして新しいバージョンに更新する必要があります。 ユーザーごとのインストールでは、自動更新は有効になっています。 ほとんどの VDI の展開について、マシンごとのインストールを使用して Teams を展開することをお勧めします。
+マシンごとのインストールでは、自動更新が無効になります。 つまり、Teams アプリを更新するには、現在のバージョンをアンインストールして新しいバージョンに更新する必要があります。 ユーザーごとのインストールでは、自動更新が有効になります。 ほとんどの VDI の展開について、マシンごとのインストールを使用して Teams を展開することをお勧めします。
 
 最新の Teams バージョンに更新するには、アンインストール手順から始めて、次に最新の Teams バージョンを展開します。
 
-VDI 環境での Teams AV の最適化が適切に機能するには、シン クライアント エンドポイントがインターネットにアクセスできる必要があります。 シン クライアント エンドポイントでインターネット アクセスが利用できない場合、最適化のスタートアップは成功しません。 これは、ユーザーが最適化されていないメディア状態にあることを意味します。
+VDI Teams AV 最適化を正常に機能するには、シン クライアント エンドポイントがインターネットにアクセスできる必要があります。 シン クライアント エンドポイントでインターネット アクセスが利用できない場合、最適化の起動は成功しない。 これは、ユーザーが最適化されていないメディア状態にあることを意味します。
 
 #### <a name="dedicated-persistent-setup"></a>専用の永続的なセットアップ
 
@@ -381,7 +381,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 
 ## <a name="disable-audio-and-video-settings-for-vdi"></a>VDI のオーディオとビデオの設定を無効にする
 
-TeamsVDI ポリシーは、Microsoft Teamsモジュールで使用できます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
+TeamsVDI ポリシーは、アプリケーション モジュールMicrosoft Teamsできます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
 
 - New-CsTeamsVdiPolicy  
 - Grant-CsTeamsVdiPolicy
@@ -435,7 +435,7 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true VDI で Teams にサインインするユーザーは、次の機能を使用できます。
+VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true を持つユーザーが VDI 上の Teams にサインインすると、次の機能を実行できます。
 
 - チャットから画面共有を行います。
 - 会議に参加して画面を共有する。 音声を電話に移動します。
@@ -471,7 +471,7 @@ if($cleanup){
 - Citrix 環境では、Teams の実行中にユーザーが仮想マシンから切断された場合、Teams の更新により、再接続時にユーザーが AV 用に最適化されていない状態になる可能性があります。 ユーザーは、このシナリオを回避Teams Citrix 仮想マシンから切断する前に、アプリケーションを終了することをお勧めします。
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
 - 現時点では、Azure Virtual Desktop は macOS および Linux ベースのクライアントをサポートしません。
-- テナントの高速切り替えにより、VDI で呼び出し関連の問題が発生する可能性があります。 クライアントを再起動すると、これらの問題が軽減されます。
+- テナントの高速切り替えにより、画面共有が利用できない、正しくない参加者リストが表示されるなど、VDI で呼び出し関連の問題が発生する可能性があります。クライアントを再起動すると、これらの問題が軽減されます。
 
 ### <a name="calling-and-meetings"></a>通話と会議
 
@@ -498,14 +498,14 @@ if($cleanup){
 - 受信および送信ビデオ ストリームの解像度は、720p に制限されています。
 - 受信カメラまたは画面共有ストリームからの 1 つのビデオ ストリームのみがサポートされます。 受信画面共有がある場合、主要な発表者のビデオではなく、その画面共有が表示されます。
 - デバイスが切断されて再接続された場合、ユーザーが最後に選択したオーディオ デバイスが使用されるように切り替えられません。
+- ライブ イベントは最適化されません。
 - 送信画面の共有:
     - アプリケーションの共有はサポートされていません。
 - 制御の受け渡し:
     - 画面共有またはアプリケーション共有セッション中はサポートされていません。
     - PowerPoint 共有セッション中はサポートされます。
 - Citrix 限定の制限事項
-    - マルチモニター設定での画面共有の場合、メイン モニターのみ共有されます。
-    - CWA での高 DPI スケーリングはサポートされていません。
+   - CWA での高 DPI スケーリングはサポートされていません。
 
 VDI に関連しない Teams の既知の問題については、「[組織で Teams をサポートする](/MicrosoftTeams/troubleshoot/teams-welcome)」を参照してください。
 
@@ -525,4 +525,4 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
 - [MSI を使用して Microsoft Teams をインストールする](msi-deployment.md)
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [Azure Virtual desktop Microsoft Teamsを使用する](/azure/virtual-desktop/teams-on-wvd)
+- [Azure Virtual Desktop Microsoft Teamsを使用する](/azure/virtual-desktop/teams-on-wvd)

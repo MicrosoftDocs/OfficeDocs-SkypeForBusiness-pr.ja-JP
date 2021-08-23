@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、スウェーデンの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: f15b918536ff20f8baeeccbb5a11364346a173d3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 85d6d4c35acfa8a9768444d07f23d929227a934f
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233032"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380591"
 ---
 # <a name="phone-number-management-for-sweden"></a>電話の番号管理
 
@@ -34,7 +34,7 @@ ms.locfileid: "58233032"
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [スウェーデンの新しい電話番号要求 (v.5.0) (sv-se)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [スウェーデンの新しい電話番号要求 (v.5.0) (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。|
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [スウェーデンの新しい電話番号要求 (v.5.0) (sv-se)](https://download.microsoft.com/download/5/e/3/5e3b17c3-9cc3-4098-8b03-4235dd42e724/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf) <br/>  [スウェーデンの新しい電話番号要求 (v.5.0) (en-us)](https://download.microsoft.com/download/a/3/0/a30b10be-42db-458d-bda2-adb320f2e2f3/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf)<br/>  <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。|
 転送された電話番号を取得します。  <br/> |このフォームをダウンロードします。 <br/>[スウェーデンの承認状 (LOA) (すべての数値) (v.5.0) (sv-se)](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 <br/> |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。      <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |

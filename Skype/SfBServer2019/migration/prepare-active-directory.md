@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 共存状態で Skype for Business Server 2019 を展開する前に、追加の Active Directory タスクを実行して、2019 年のスキーマ、フォレスト、およびドメインを構成Skype for Business Serverがあります。 スキーマ拡張機能は、2019 年に必要な Active Directory クラスと属性Skype for Business Serverします。 詳細については、「2019 年の Active Directory ドメイン サービスの準備」をSkype for Business Serverしてください。
-ms.openlocfilehash: 38b6fc995b8c6c7fd54a3dd5db361d6757c2e03e1664d09068b4c4c210d74524
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 共存状態で Skype for Business Server 2019 を展開する前に、もう少し Active Directory タスクを実行して、2019 年のスキーマ、フォレスト、およびドメインを構成するSkype for Business Serverがあります。 スキーマ拡張機能は、2019 年に必要な Active Directory クラスと属性Skype for Business Serverします。 詳細については、「2019 年の Active Directory ドメイン サービスの準備」をSkype for Business Serverしてください。
+ms.openlocfilehash: 70d5c01524cb047f9aeedb801a1cde3f587c3cd0
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339319"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372017"
 ---
-# <a name="prepare-active-directory-for-skype-for-business-server"></a>Active Directory for Skype for Business Server
+# <a name="skype-for-business-server-prepare-active-directory-for-skype"></a>Skype for Business Server: Active Directory for Skype
 
-2019 Skype for Business Serverを共存状態で展開する前に、追加の Active Directory タスクを実行して、2019 年のスキーマ、フォレスト、およびドメインを構成するSkype for Business Serverがあります。 スキーマ拡張機能は、2019 年に必要な Active Directory クラスと属性Skype for Business Serverします。 <!-- For additional information, see the topic 
+2019 Skype for Business Serverを共存状態で展開する前に、2019 年のスキーマ、フォレスト、およびドメインを構成するために、さらに Active Directory タスクを実行するSkype for Business Serverがあります。 スキーマ拡張機能は、2019 年に必要な Active Directory クラスと属性Skype for Business Serverします。 <!-- For more information, see the topic 
 [Preparing Active Directory Domain Services for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/preparing-active-directory-domain-services-for-lync-server-2013.md). -->
   
 ### <a name="to-prepare-active-directory-for-skype-for-business-server-2019"></a>Active Directory を 2019 Skype for Business Serverするには

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'ユーザーのモバイル アプリのセキュリティを設定する方法について学習します。 '
-ms.openlocfilehash: 1adfc8e44880b89ab9f4b24be532ae4a327744cf69d0ef63ecea3f65ae684fc8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1669204e31c7597ec75f6c30570107bebf440e3b
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295114"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406986"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Skype for Business のモバイル アプリのセキュリティ
 
@@ -34,12 +34,11 @@ ms.locfileid: "54295114"
 
 この記事では、Mobile Apps のデータ暗号化Skype for Business説明します。
   
-|||||
-|:-----|:-----|:-----|:-----|
 ||**ユーザー名/パスワード** <br/> |**アプリ データ (会話、 <br/> 連絡先リスト、会議)** <br/> |**診断ログ** <br/> |
-|**Android** <br/> |資格情報は Android アカウントに保存されます。 また、資格情報をアカウントに保存する前に暗号化します。 暗号化には **"AES/CBC/PKCS5Padding"** アルゴリズムを使用します。 <br/> |sqlcipher というライブラリをSQL暗号化されたデータベースに[格納します](https://www.zetetic.net/sqlcipher/design/)。 CBC モードでは、256 ビット AES の既定のアルゴリズムを使用します。 保存データは常にデータベース ファイルで暗号化され、アプリの揮発性メモリと呼び出し履歴内の転送中にのみ暗号化されます。 また、ユーザーの名前とパスワード暗号化と同じ方法を使用してボイスメール ファイルを暗号化します (これらは DB に格納されません)。 ボイスメールは、再生を許可するためにディスク上で一時的に暗号化されません。  <br/> |この情報は暗号化されません。  <br/> |
+|:-----|:-----|:-----|:-----|
+|**Android** <br/> |資格情報は Android アカウントに保存されます。 また、資格情報をアカウントに保存する前に暗号化します。 暗号化には **"AES/CBC/PKCS5Padding"** アルゴリズムを使用します。 <br/> |sqlcipher というライブラリをSQL暗号化されたデータベース[に格納します](https://www.zetetic.net/sqlcipher/design/)。 CBC モードでは、256 ビット AES の既定のアルゴリズムを使用します。 保存データは常にデータベース ファイルで暗号化され、アプリの揮発性メモリと呼び出しスタック内の転送中にのみ暗号化されません。 また、ユーザーの名前とパスワード暗号化と同じ方法を使用してボイスメール ファイルを暗号化します (これらは DB に格納されません)。 ボイスメールは、再生を許可するためにディスク上で一時的に暗号化されません。  <br/> |この情報は暗号化されません。  <br/> |
 |**iOS** <br/> |キーチェーン内のユーザー名/パスワードは暗号化されません。 ただし、キーチェーンはそれ自身で暗号化されます。  <br/> |アプリ ストレージ内のすべての [ファイルで、NSFileProtectionCompleteUntilFirstUserAuthentication](https://developer.apple.com/reference/foundation/fileprotectiontype/1616633-completeuntilfirstuserauthentica) データ保護フラグを既に使用しています。 つまり、ユーザーがデバイスの再起動後に初めてデバイスのロックを解除するまで、アプリ ストレージ内のファイルが暗号化されます。 <br/> |この情報は暗号化されません。  <br/> |
-|**Windows Phone** <br/> |Windows Phoneパスワードをセキュリティで保護するために、WINDOWS DPAPI (Data Protection API) を使用します。 使用される暗号化スキームは AES だと思います。 Windowsサイズ (スキーム) を構成するオプションは提供しないので、DPAPI が提供する方法です。 デバイス TPM を使用して、ユーザーとデバイスに固有のキーをセキュリティで保護します。 DPAPI キーはアプリに固有ではありません。  <br/> |WP アプリ データは [、CRED](/previous-versions/windows/apps/hh487164(v=vs.105))のように DPAP I で保護されます。 必要な詳細に応じて、アプリ データのインデックス情報の一部は (非 DPAPI) AES 暗号化によって保護され、ソルト処理を回避できます。そのため、暗号化を解除せずに検索し、そのキーは DPAPI で保護されます。 キャッシュされたデータは、データ フォルダーに到達できると仮定して、同じ電話から任意のプロセスで読み取り可能です。 Windows暗号化はサンドボックスの侵害から保護されるのではなく、外部アクセスの試みからのみ保護されます。  <br/> |この情報は暗号化されません。  <br/> |
+|**Windows Phone** <br/> |Windows Phoneで DPAPI (Data Protection API) を使用Windowsパスワードをセキュリティで保護します。 使用される暗号化スキームは AES だと思います。 Windowsでは、キー サイズ (またはスキーム) を構成するオプションは提供ないので、DPAPI が提供する方法です。 デバイス TPM を使用して、ユーザーとデバイスに固有のキーをセキュリティで保護します。 DPAPI キーはアプリに固有ではありません。  <br/> |WP アプリ データは [、CRED](/previous-versions/windows/apps/hh487164(v=vs.105))のように DPAP I で保護されます。 必要な詳細に応じて、アプリ データのインデックス情報の一部は (非 DPAPI) AES 暗号化によって保護され、ソルト処理を回避できます。そのため、暗号化を解除せずに検索できます。そのキーは DPAPI で保護されます。 キャッシュされたデータは、データ フォルダーに到達できると仮定して、同じ電話から任意のプロセスで読み取り可能です。 Windows暗号化はサンドボックスの侵害から保護されるのではなく、外部アクセスの試みからのみ保護されます。  <br/> |この情報は暗号化されません。  <br/> |
    
 **注:** 上記の [各モバイル プラットフォームで使用可能](/InTune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune) なデバイス ピンの適用については、このパブリック ドキュメントを参照してください。
   

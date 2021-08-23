@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: '概要: 代理トランザクションのテスト ユーザー アカウントと監視ノードSkype for Business Server構成します。'
-ms.openlocfilehash: ea85990cbec89ee872a00350cf23ef9f3d01cdfb3e80fb195db168e7f426039e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 777381be79811973f189b25bc533baa986a4f8c6
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277472"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372097"
 ---
-# <a name="configure-watcher-node-test-users-and-settings"></a>監視ノードのテスト ユーザーと設定を構成する
+# <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>Skype for Business Server: 監視ノードのテスト ユーザーと設定を構成する
  
 **概要:** 代理トランザクションのテスト ユーザー アカウントと監視ノードSkype for Business Server構成します。
   
@@ -35,7 +35,7 @@ ms.locfileid: "54277472"
 
 テスト アカウントは実際のユーザーを表す必要はありません。ただし、有効な Active Directory アカウントである必要があります。 さらに、これらのアカウントは Skype for Business Server に対して有効にする必要があります。有効な SIP アドレスを持っている必要があります。エンタープライズ VoIP (代理トランザクションを使用するには) Test-CsPstnPeerToPeerCall を有効にする必要があります。 
   
-TrustedServer 認証方法を使用している場合は、これらのアカウントが存在し、これらのアカウントを構成する必要があります。 テストするプールごとに、少なくとも 3 人のテスト ユーザーを割り当てる必要があります。 Negotiate 認証方法を使用している場合は、Set-CsTestUserCredential コマンドレットと Skype for Business Server 管理シェルを使用して、これらのテスト アカウントが代理トランザクションで動作する必要があります。 これを行うには、次のようなコマンドを実行します (これらのコマンドでは、3 つの Active Directory ユーザー アカウントが作成され、これらのアカウントが有効になっているとSkype for Business Server。
+TrustedServer 認証方法を使用している場合は、これらのアカウントが存在し、これらのアカウントを構成する必要があります。 テストするプールごとに、少なくとも 3 人のテスト ユーザーを割り当てる。 Negotiate 認証方法を使用している場合は、Set-CsTestUserCredential コマンドレットと Skype for Business Server 管理シェルを使用して、これらのテスト アカウントが代理トランザクションで動作する必要があります。 これを行うには、次のようなコマンドを実行します (これらのコマンドでは、3 つの Active Directory ユーザー アカウントが作成され、これらのアカウントが有効になっているとSkype for Business Server。
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -43,7 +43,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "li
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
-SIP アドレスだけでなく、ユーザー名とパスワードも含める必要があります。 パスワードを含めない場合は、Set-CsTestUserCredentialを入力するように求められます。 ユーザー名は、前のコード ブロックに示されているドメイン名\ユーザー名形式を使用して指定できます。
+SIP アドレスだけでなく、ユーザー名とパスワードも含める。 パスワードを含めない場合は、Set-CsTestUserCredentialを入力するように求められます。 ユーザー名は、前のコード ブロックに示されているドメイン名\ユーザー名形式を使用して指定できます。
   
 テスト ユーザー資格情報が作成されたと確認するには、次のコマンドを管理シェルSkype for Business Server実行します。
   
@@ -77,7 +77,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### <a name="configuring-extended-tests"></a>拡張テストの構成
 
-公衆交換電話網との接続を確認する PSTN テストを有効にする場合は、監視ノードをセットアップするときに追加の構成を行う必要があります。 最初に、テスト ユーザーを PSTN テストの種類に関連付ける場合は、次のようなコマンドを管理シェルから実行Skype for Business Server必要があります。
+公衆交換電話網との接続を確認する PSTN テストを有効にする場合は、監視ノードを設定するときに、さらに構成を行う必要があります。 最初に、テスト ユーザーを PSTN テストの種類に関連付け、次のようなコマンドを管理シェルから実行Skype for Business Server必要があります。
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
@@ -152,7 +152,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
-複数のテストを追加するには、コンマを使用してテスト名を区切ります。 次に例を示します。
+複数のテストを追加するには、コンマを使用してテスト名を区切ります。 例:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
@@ -306,7 +306,7 @@ $cred2 = Get-Credential "contoso\testUser2"
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
 ```
 
-このセットアップ タスクは、エンタープライズ内から実行する必要があります。
+エンタープライズ内部からこのセットアップ タスクを実行します。
   
 - サーバー以外のコンピューターから実行する場合、コマンドレットを実行するユーザーは、Role-Based アクセス制御 (RBAC) の CsPersistentChatAdministrators 役割のメンバーである必要があります。
     
@@ -354,7 +354,7 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 
 拡張メッセージングとプレゼンス プロトコル (XMPP) IM 代理トランザクションでは、1 つ以上のフェデレーション ドメインを使用して XMPP 機能を構成する必要があります。
   
-XMPP 代理トランザクションを有効にするには、ROUTABLE XMPP ドメインのユーザー アカウントに XmppTestReceiverMailAddress パラメーターを指定する必要があります。 次に例を示します。
+XMPP 代理トランザクションを有効にするには、ROUTABLE XMPP ドメインのユーザー アカウントに XmppTestReceiverMailAddress パラメーターを指定する必要があります。 例:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
@@ -369,7 +369,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 
 ビデオ相互運用サーバー (VIS) 代理トランザクションでは、代理トランザクション サポート ファイル (VISSTSupportPackage.msi) をダウンロードして[ インストールする必要があります ](https://www.microsoft.com/download/details.aspx?id=46921)。 
   
-インストールするにはVISSTSupportPackage.msi msi の依存関係 ([システム要件] の下) が既にインストールされていることを確認します。 簡単VISSTSupportPackage.msiを実行するには、次の手順を実行します。 この.msiは、「%ProgramFiles%\VIS 代理トランザクション サポート パッケージ」というパス内のすべてのファイルをインストールします。
+アプリケーションをVISSTSupportPackage.msi、msi の依存関係 ([システム要件] の下) が既にインストールされていることを確認します。 簡単VISSTSupportPackage.msiを実行するには、次の手順を実行します。 この.msiは、「%ProgramFiles%\VIS 代理トランザクション サポート パッケージ」というパス内のすべてのファイルをインストールします。
   
 VIS 代理トランザクションを実行する方法の詳細については [、Test-CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) コマンドレットのドキュメントを参照してください。
   
@@ -378,7 +378,7 @@ VIS 代理トランザクションを実行する方法の詳細については 
 
 既定では、代理トランザクションは構成済みのユーザーと 15 分ごとに実行されます。 代理トランザクションは、2 つの代理トランザクションが互いに競合しないように、一連のユーザー内で順次実行されます。 すべての代理トランザクションが完了する時間を提供するには、より長い間隔が必要です。
   
-代理トランザクションを頻繁に実行することが望ましい場合は、特定の一連のユーザーと一緒に実行される代理トランザクションの数を減らして、ネットワークの遅延が発生する可能性のあるバッファーを使用して、目的の時間範囲でテストを完了できる必要があります。 より多くの代理トランザクションを実行することが望ましい場合は、追加の代理トランザクションを実行するために、より多くのユーザー セットを作成します。
+代理トランザクションを頻繁に実行することが望ましい場合は、特定の一連のユーザーと一緒に実行される代理トランザクションの数を減らして、ネットワークの遅延が発生する可能性のあるバッファーを使用して、目的の時間範囲でテストを完了できる必要があります。 より多くの代理トランザクションを実行することが望ましい場合は、より多くの代理トランザクションを実行するために、より多くのユーザー セットを作成します。
   
 代理トランザクションを実行する頻度を変更するには、次の手順を実行します。
   
@@ -395,7 +395,7 @@ VIS 代理トランザクションを実行する方法の詳細については 
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>代理トランザクションのリッチ ログの使用
 <a name="special_synthetictrans"> </a>
 
-代理トランザクションは、システムの問題を特定するのに非常に役立ちます。 たとえば、Test-CsRegistrationコマンドレットは、ユーザーがユーザーの登録が困難であるという事実を管理者に通知Skype for Business Server。 ただし、エラーの実際の原因を特定するために、追加の詳細が必要になる場合があります。
+代理トランザクションは、システムの問題を特定するのに役立ちます。 たとえば、Test-CsRegistrationコマンドレットは、ユーザーがユーザーの登録が困難であるという事実を管理者に通知Skype for Business Server。 ただし、エラーの実際の原因を特定するために、詳細が必要になる場合があります。
   
 このため、代理トランザクションは豊富なログを提供します。 リッチ ログでは、代理トランザクションが実行する各アクティビティに対して、次の情報が記録されます。
   

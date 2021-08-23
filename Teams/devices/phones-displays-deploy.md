@@ -1,5 +1,5 @@
 ---
-title: Intune をTeamsして携帯電話とTeamsディスプレイをデプロイする
+title: Intune Teams Android で携帯電話、Teamsディスプレイ、Microsoft Teams会議室をデプロイする
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -16,20 +16,20 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: この記事では、ディスプレイでサポートされる機能と機能の概要Microsoft Teamsします。
-ms.openlocfilehash: 1ccf933cfb0f4e9eab4af4f884cbd6503d0667138d56d8c005574c57d839626a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7772de5767b9aefe69e1192051be65ccb632656
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321479"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359164"
 ---
-# <a name="deploy-teams-phones-and-teams-displays-using-intune"></a>Intune をTeamsして携帯電話とTeamsディスプレイをデプロイする
+# <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Intune Teams Android で携帯電話、Teamsディスプレイ、Microsoft Teams会議室をデプロイする
 
-この記事では、デプロイ方法の概要について説明します。 Teams Intune を使用してTeams表示する。
+この記事では、Intune を使用して Android Teams、Teams、Microsoft Teams Rooms を展開する方法の概要について説明します。
 
 ## <a name="conditional-access"></a>条件付きアクセス
 
-条件付きアクセスはAzure Active Directory (Azure AD) 機能であり、Office 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されていることを確認するのに役立ちます。  Teams サービスに条件付きアクセス ポリシーを適用する場合、Teams にアクセスする Android デバイス (Teams スマートフォンや Teams ディスプレイを含む) は Intune に登録する必要があります。設定はポリシーに準拠する必要があります。  デバイスが Intune に登録されていない場合、またはデバイスが登録されているが、その設定がポリシーに準拠しない場合、条件付きアクセスでは、ユーザーがデバイスで Teams アプリにサインインまたは使用できません。
+条件付きアクセスは、Azure Active Directory (Azure AD) 機能であり、Office 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されていることを確認するのに役立ちます。  Teams サービスに条件付きアクセス ポリシーを適用する場合、Teams にアクセスする Android デバイス (Teams スマートフォン、Teams ディスプレイ、Microsoft Teams Rooms on Android を含む) は Intune に登録する必要があります。その設定はポリシーに準拠する必要があります。  デバイスが Intune に登録されていない場合、またはデバイスが登録されているが設定がポリシーに準拠しない場合、条件付きアクセスでは、ユーザーがデバイスで Teams アプリにサインインまたは使用できません。
 
 通常、Intune 内で定義されたコンプライアンス ポリシーは、ユーザーのグループに割り当てられます。  つまり、android コンプライアンス ポリシーを user@contoso.com に割り当てると、そのポリシーは Android スマートフォンと、サインインする Android ベースの Teams デバイスにも同様 user@contoso.com 適用されます。
 
@@ -40,7 +40,7 @@ Intune 登録を適用する必要がある条件付きアクセスを使用す�
 
 ## <a name="configure-intune-to-enroll-teams-android-based-devices"></a>Android ベースのデバイスにTeams Intune を構成する
 
-TeamsAndroid ベースのデバイスは、Android デバイス管理者 (DA) 管理を介して Intune によって管理されます。 デバイスを Intune に登録する前に、いくつかの基本的な手順を実行します。  Intune でデバイスを既に管理している場合は、既にこれらすべてのことを行っている可能性があります。  ない場合は、次の操作を行います。
+TeamsAndroid ベースのデバイスは、Android デバイス管理者 (DA) 管理を介して Intune によって管理されます。 デバイスを Intune に登録する前に、いくつかの基本的な手順を実行します。  現在 Intune でデバイスを既に管理している場合は、既にこれらすべてのことを行っている可能性があります。  ない場合は、次の操作を行います。
 
 > [!NOTE]
 > - テナント管理者が共通領域の電話を Intune に登録する場合は、Intune ライセンスをアカウントに追加し、Intune 登録の手順に従う必要があります。
@@ -59,9 +59,9 @@ TeamsAndroid ベースのデバイスは、Android デバイス管理者 (DA) �
    Intune にTeamsデバイスのユーザーには、有効な Intune ライセンスが割り当てられている必要があります。 詳細については、「ユーザーが Intune にデバイスを [登録できるようライセンスをユーザーに割り当てる」を参照してください](/intune/fundamentals/licenses-assign)。
 1. デバイス管理者のコンプライアンス ポリシーを割り当てる。  
 
-   a. Android デバイス管理者のコンプライアンス ポリシーを作成します。
+   1. Android デバイス管理者のコンプライアンス ポリシーを作成します。
 
-   b. デバイスにサインインするAzure Active Directoryを含むグループに割り当Teamsします。 [「コンプライアンス ポリシーを使用して Intune で管理するデバイスのルールを設定する」を参照してください](/mem/intune/protect/device-compliance-get-started)。
+   1. デバイスにサインインするAzure Active Directoryを含むグループに割り当Teamsします。 [「コンプライアンス ポリシーを使用して Intune で管理するデバイスのルールを設定する」を参照してください](/mem/intune/protect/device-compliance-get-started)。
 
 ## <a name="see-also"></a>関連項目
 

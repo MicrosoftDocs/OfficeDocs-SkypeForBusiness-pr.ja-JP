@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online Connector を使用して接続の問題を診断する
+title: Skype for Business Online Connector で接続の問題を診断する
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,15 +18,15 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Import-Module、コンカレント シェル、Live ID、アクセス許可の問題など、Skype for Business Online に接続するためのリモート PowerShell セッションの作成に関するトラブルシューティング。
-ms.openlocfilehash: cb9268efc5e35ec5f25ed93314a77347b4a9363f038744c4de9a934528ae371f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Import-Module、コンカレント シェル、Live ID、アクセス許可エラーなど、Skype for Business Online に接続するためのリモート PowerShell セッションの作成に関するトラブルシューティングを行います。
+ms.openlocfilehash: 81b612b8b3e2ab82f0986110b2aa612fafe6402f
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295954"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407016"
 ---
-# <a name="diagnose-connection-problems-using-skype-for-business-online-connector"></a>Skype for Business Online Connector を使用して接続の問題を診断する
+# <a name="diagnose-connection-problems-in-the-skype-for-business-online-connector"></a>Skype for Business Online Connector で接続の問題を診断する
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -69,7 +69,7 @@ PowerShell 実行ポリシーは、PowerShell コンソールに読み込む構�
 
 Skype for Business Online Connector モジュール は、Windows PowerShell 3.0 のバージョンでのみ実行できます。 以前のバージョンの PowerShell でモジュールをインポートすると、インポート プロセスは失敗し、次のようなエラー メッセージが表示されます。
   
-  - **エラー**: *Import-Module : 読み込まれた PowerShell のバージョンは '2.0' です。モジュール 'D: \\ Program Files Common Files Microsoft Lync Server \\ \\ 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1' を実行するには、PowerShell の最小バージョン \\ '3.0' が必要です。PowerShell のインストールを確認し、もう一度やり直してください。*
+  - **エラー**: *Import-Module : 読み込まれた PowerShell のバージョンは '2.0' です。モジュール 'D: \\ Program Files Common Files Microsoft Lync Server \\ \\ 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1' を実行するには、PowerShell の最小バージョン \\ '3.0' が必要です。PowerShell のインストールを確認して、もう一度やり直してください。*
 
 - **解決策**: この問題を解決する唯一の方法は、Microsoft ダウンロード センター () からWindows PowerShell 3.0 をインストールすることです [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) 。
   
@@ -115,7 +115,7 @@ Skype for Business Online にリモート接続するには、有効な Skype fo
 ## <a name="the-user-doesnt-have-permission-to-manage-this-tenant"></a>ユーザーにこのテナントを管理するアクセス許可が与えら
 <a name="BKMKUserPermission"> </a>
 
-テナント管理者グループのメンバーである場合を限り、Skype for Business Online にリモート PowerShell 接続を確立することはできません。 接続できない場合、接続の試行は失敗し、次のエラー メッセージが表示されます。
+テナント管理者グループのメンバーである場合を限り、Skype for Business Online へのリモート PowerShell 接続を確立することはできません。 接続できない場合、接続の試行は失敗し、次のエラー メッセージが表示されます。
 
 - **エラー**: New-PSSession : [admin.vdomain.com] リモート サーバー admin.vdomain.com からのデータの処理に失敗し、次のエラー メッセージが表示されました: ユーザー 'user@foo.com' には、このテナントを管理するアクセス許可が付与されません。 *適切な RBAC ロールにユーザーを割り当てると、アクセス許可を付与できます。詳細については、リモートトラブルシューティングに関 [するページを参照してください](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)。*
 
@@ -126,7 +126,7 @@ Skype for Business Online にリモート接続するには、有効な Skype fo
 
 PowerShell を使用して Skype for Business Online を管理するには、テナント PowerShell ポリシーの EnableRemotePowerShellAccess プロパティを  `True` に設定する必要があります。 接続されていない場合、接続は失敗し、次のエラー メッセージが表示されます。
 
-- **エラー**: *New-PSSession : [admin vdomain.com] リモート サーバー管理者 vdomain.com からのデータの処理に失敗し、次のエラー メッセージが表示されました: リモート \. \. PowerShell セッションを使用してこのテナントに接続する機能が無効になっています。このテナントのテナント Powershell ポリシーを確認するには、Lync ヘルプにお問い合わせください。詳細については、リモートトラブルシューティングに関 [するページを参照してください](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)。*
+- **エラー**: *New-PSSession : [admin.vdomain.com] リモート サーバー admin.vdomain.com からのデータの処理に失敗し、次のエラー メッセージが表示されました:リモート PowerShell セッションを使用してこのテナントに接続する機能が無効になっています。このテナントのテナント Powershell ポリシーを確認するには、Lync ヘルプにお問い合わせください。詳細については、リモートトラブルシューティングに関 [するページを参照してください](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)。*
 
 - **解決策**: このエラー メッセージが表示された場合は、Microsoft サポートに問い合わせ、リモート PowerShell アクセスを有効にする必要があります。
   
@@ -135,20 +135,20 @@ PowerShell を使用して Skype for Business Online を管理するには、テ
 
 各管理者は、Skype for Business Online への同時リモート接続の最大数が 3 に設定されています。3 つのリモート PowerShell 接続を開始し、実行している場合に 4 つ目の同時接続を試行すると、次のエラー メッセージにより失敗します。
 
-- **エラー**: *New-PSSession : [admin vdomain.com] リモート サーバー管理者 vdomain.com への接続に失敗し、次のエラー メッセージが表示されました \. : WS-Management サービスは要求を処理 \. できません。このユーザーの同時シェルの最大数を超えました。既存のシェルを閉じるか、このユーザーのクォータを上げる。詳細については、リモート トラブルシューティングに関 [するページを参照してください。](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)*
+- **エラー**: New-PSSession : [admin.vdomain.com] リモート サーバー admin.vdomain.com への接続に失敗し、次のエラー メッセージが表示されました *: WS-Management サービスは要求を処理できません。このユーザーの同時実行シェルの最大数を超えました。既存のシェルを閉じるか、このユーザーのクォータを上げる。詳細については、リモートトラブルシューティングに関 [するページを参照してください](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)。*
 
-- **解決策**: この問題を解決する唯一の方法は、前の 1 つ以上の接続を閉じる方法です。 Skype for Business Online セッションが終了したら **、Remove-PSSession** コマンドレットを使用してセッションを終了することをお勧めします。 この操作は、この問題を防ぐのに役立ちます。
+- **解決策**: この問題を解決する唯一の方法は、前の接続の 1 つ以上を閉じる方法です。 Skype for Business Online セッションが終了したら **、Remove-PSSession** コマンドレットを使用してセッションを終了することをお勧めします。 この操作は、この問題を防ぐのに役立ちます。
   
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>Skype for Business Online でのこのテナントの同時シェルの最大数を超過している
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
 各管理者は、Skype for Business Online テナントに対して最大 3 つの同時接続を持つ場合でも、20 を超える同時接続を持つシングル テナントはありません。 たとえば、6 人の管理者がそれぞれ 3 つのオープン セッションを持つ場合があります。 7 番目の管理者が 2 つ以上の接続を開こうとすると (合計 21 の同時接続が発生する)、この試行は失敗し、次のエラー メッセージが表示されます。
   
-- **エラー**: New-PSSession : [admin.vdomain.com] リモート サーバー admin.vdomain.com への接続に失敗し、次のエラー メッセージが表示されました *: WS-Management サービスは要求を処理できません。このテナントの同時実行シェルの最大数を超えました。既存のシェルを閉じるか、このテナントのクォータを上げてください。詳細については、[リモート トラブルシューティング](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1* を参照してください。
+- **エラー**: New-PSSession : [admin.vdomain.com] リモート サーバー admin.vdomain.com への接続に失敗し、次のエラー メッセージが表示されました *: WS-Management サービスは要求を処理できません。このテナントの同時実行シェルの最大数を超えました。既存のシェルを閉じるか、このテナントのクォータを上げてください。詳細については、リモート トラブルシューティングに関 [するページを参照してください。](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting)*
 
-- **解決策**: この問題を解決する唯一の方法は、前の 1 つ以上の接続を閉じる方法です。 Skype for Business Online セッションが終了したら **、Remove-PSSession** コマンドレットを使用してそのセッションを終了することをお勧めします。 これは、この問題を防ぐのに役立ちます。  
+- **解決策**: この問題を解決する唯一の方法は、前の接続の 1 つ以上を閉じる方法です。 Skype for Business Online セッションが終了したら **、Remove-PSSession** コマンドレットを使用してそのセッションを終了することをお勧めします。 これは、この問題を防ぐのに役立ちます。  
  
 ## <a name="related-topics"></a>関連項目
-[Skype for Business Online 管理用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Skype for Business のオンライン管理用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

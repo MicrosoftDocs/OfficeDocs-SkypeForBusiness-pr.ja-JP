@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e550acd5d47c0199318c820f595253eb8f2477421f62d90e3a7d16ced2336d05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b47ca7c1c0a9a5154f681a8e09d175ba17ad8013
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308488"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359194"
 ---
 # <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>Microsoft Teams との SharePoint と OneDrive の連携
 
@@ -78,6 +78,8 @@ Teams の **[ファイル]** タブは、SharePoint ドキュメント ビュー
 ユーザーがファイルを共有したときに既定で表示される共有リンクの種類は、SharePoint 管理センターで設定されます。 詳細については、「[ユーザーが共有のリンクを取得するときの既定のリンクの種類を変更する](/sharepoint/change-default-sharing-link)」を参照してください。
 
 ## <a name="related-topics"></a>関連トピック
+
+[接続Teamsサイトとチャネル サイトを管理する](/SharePoint/teams-connected-sites)
 
 [SharePoint とTeams: 共同作業の効率化](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
 

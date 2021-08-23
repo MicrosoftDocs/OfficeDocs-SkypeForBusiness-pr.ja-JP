@@ -20,14 +20,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intégre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et collaborate. "
-ms.openlocfilehash: aeb76f4dca50fe3aad3ab5fb77b66d160102eeff02fcbdafbf48661e47f6766f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92a982857f3530a5f03c2efafb2efbce83bfd23a
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286196"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372227"
 ---
-# <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en mat中島 d'accessibilité
+#  <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en mat中島 d'accessibilité
 
 
 ### <a name="section-1-champ-dapplication"></a>Section 1 Champ d’application
@@ -382,7 +382,7 @@ Cette section ne's'applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="images-de-texte">11.2.1.14 Images de texte</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accté aux technologies d'assistance pour la lecture d'écran, elle remplit les Crittés de Succaux indiqués dans le tableau 11.14 : Images de texte :</p>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui prend en charge l'accaux technologies d'assistance pour la lecture d'écran, elle remplit les Crittés de Succté indiqués dans le tableau 11.14 : Images de texte :</p>
 <p>Si les technologies utilisées permettent la présentation visuelle, c'est le texte plutôt que les images de texte qui est utilisé pour transmettre les informations, avec toutefois les exceptions suivantes :</p>
 <p>Personnalisable: L'image de texte peut être visuellement adaptée aux besoins de l'utilisateur.</p>
 <p>Essentielle: Une présentation particulelle du texte est essentielle aux informations transmises.</p></td>
@@ -480,7 +480,7 @@ Cette section ne's'applique pas à Skype Entreprise 2016.
 <tr class="odd">
 <td><h3 id="à-la-saisie">11.2.1.30 À la saisie</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Crittés de Succté indiqués dans le Tableau 11.30 : À la saisie :</p>
-<p>Le changement de paramétres <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/consistent-behavior-unpredictable-change.html#user-interface-componentdef">d'un composant d'interface utilisateur</a> ne provique pas automatiquement un changement de contexte à moins que l'utilisateur n'ait été avisé de ce comportement avid'utiliser le composant.</p></td>
+<p>Le changement de paramétres <a href="https://www.w3.org/Translations/NOTE-UNDERSTANDING-WCAG20-fr/consistent-behavior-unpredictable-change.html#user-interface-componentdef">d'un composant d'interface utilisateur</a> ne provque pas automatiquement un changement de contexte à moins que l'utilisateur n'ait été avisé de ce comportement'utiliser le composant.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -523,8 +523,8 @@ Cette section ne's'applique pas à Skype Entreprise 2016.
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom、 rôle et valeur</h3>
-<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accté à des technologies d'assistance, elle remplit les Crittés de Succ utilis indiqués dans le tableau 11.38 : Nom, rôle et valeur :</p>
+<td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom、rôle et valeur</h3>
+<p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accté à des technologies d'assistance, elle remplit les Crittés de Succtés de Succ utilis indiqués dans le tableau 11.38 : Nom, rôle et valeur :</p>
 <p>Pour tout composant d’une interface utilisateur (et notamment des éléments de formulaire, liens et composants générés par des scripts), le nom et le rôle peuvent être déterminés par un programme informatique ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être définis par un programme informatique ; et la notification des changements de ces éléments est mise à la disposition des agents utilisateurs, et notamment des technologies d’assistance.</p></td>
 <td>Pris en charge avec des exceptions</td>
 <td>1) Pas d'acc方 de programmation dans Poll, Q &amp; A et Whiteboard.<br />
@@ -546,7 +546,7 @@ Cette section ne's'applique pas à Skype Entreprise 2016.
 <tr class="even">
 <td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-les-technologies-dassistance">11.3.2.2 Prise en charge des services d'accessibilité de la plate-forme pour les technologies d'assistance</h3>
 <p>Le logiciel de la plate-forme un ensemble de services d'accessibilité de la plate-forme documentés qui permettent à lalogie d'assistance d'interlogir avec logiciel qui est doté d'une interface utilisateur fonctionnant sur le logiciel de la plate-forme.</p>
-<p>Le logiciel de la plate-forme doit répondre aux exigences des clauses 11.3.2.5 à 11.3.2.17 étant toutefois entendu que, dans le cas où le concept d'une interface utilisateur qui correspond à l'une des clauses11.3.2.5 à à 11.3.2.17 n'est pas compatible avec l'environnement logiciel, ces exigences ne's'appliquent pas.</p></td>
+<p>Le logiciel de la plate-forme doit répondre aux exigences des clauses 11.3.2.5 à 11.3.2.17 étant toutefois entendu que, dans le cas où le concept d'une interface utilisateur qui correspond à l'une des clauses11.3.2.5 à 11.3.2.17 n'est pas compatible avec l'environnement logiciel, ces exigences ne's'appliquent pas.</p></td>
 <td>Non applicable</td>
 <td></td>
 </tr>
@@ -594,7 +594,7 @@ Cette section ne's'applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="texte">11.3.2.10 Texte</h3>
-<p>Dans le cas où le logiciel présente une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, les contenus textuels, lesは textuels et la front utilis du texte qui apparaàt à l'écran, déterminables par un programme informatique par technologies'assistance.</p></td>
+<p>Dans le cas où le logiciel présente une interface utilisateur, il rendra, à l'aide des services décrits dans la clause 11.3.2.3, les contenus textuels, les clauses textuels et la front utilis du texte qui appara à l'écran, déterminables par un programme informatique par technologies'assistance.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -630,7 +630,7 @@ Cette section ne's'applique pas à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="modifications-de-létat-et-des-propriétés">11.3.2.16 Modifications de l'état et des propriétés</h3>
-<p>Si les exigences de sécurité l'autorisent, un logiciel qui est doté d'une interface utilisateur autorise les technologies d'assistance, en utilisant les services décrits dans la clause 11.3.2.3, à modifier par un programme informatique l'état et les propriétés des éléments de l'interface utilisateur, dans la mesure où'l'utilisateur pe les les modifier.</p></td>
+<p>Si les exigences de sécurité l'autorisent, un logiciel qui est doté d'une interface utilisateur autorise les technologies d'assistance, en utilisant les services décrits dans la clause 11.3.2.3, à modifier par un programme informatique l'état et les propriétés des éléments de l'interface utilisateur, dans la mesure o'l'utilisateur pe les les modifier.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -736,7 +736,6 @@ Cette section ne's'applique pas à Skype Entreprise 2016.
 
 Cette section ne s'applique pas à Skype Entreprise2016.
 
-## 
 
 © 2017 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l’opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication.
 Microsoft ne peut garantir l’exactitude d’une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l’accessibilité de ses produits dès qu’elles sont disponibles.
