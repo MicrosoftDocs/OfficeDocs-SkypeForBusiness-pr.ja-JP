@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: この記事では、オンプレミス環境の使用停止後に属性を管理する方法について説明します。
-ms.openlocfilehash: 7a2e1f7337462b948d28d85582460d924941d9ce139a6c026553d44a9cbcd7c7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f130cce4a464a2e7a7c1823d6b3d297931d02ab
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315188"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365814"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>使用停止後に属性を管理する方法を決定する
 
@@ -72,7 +72,7 @@ ms.locfileid: "54315188"
 > このプロセスは、一致する sip アドレスと UserPrincipalName を持つユーザーに対して最も簡単です。 これら 2 つの属性で一致しない値を持つユーザーを持つ組織では、スムーズな移行を行う場合は、以下の点に注意する必要があります。
 
 > [!NOTE]
-> 自動応答または通話キュー用にオンプレミスハイブリッド アプリケーション エンドポイントを構成している場合は、これらのエンドポイントを Microsoft 365 に移動してから、Skype for Business Server。
+> 自動応答または通話キュー用にオンプレミスハイブリッド アプリケーション エンドポイントを構成している場合は、これらのエンドポイントを Microsoft 365 に移動してから、Skype for Business Server。 詳細については、「オンプレミス環境を使用停止する前にハイブリッド アプリケーション エンドポイントを移行する [」を参照してください](decommission-move-on-prem-endpoints.md)。  
 
 
 1. PowerShell コマンドレットが空の結果をSkype for Business次のオンプレミスのコマンドレットを確認します。 空の結果は、ユーザーがオンプレミスにいて、ユーザーに移動された、または無効になっているMicrosoft 365意味します。

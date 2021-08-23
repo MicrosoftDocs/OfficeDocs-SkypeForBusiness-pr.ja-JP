@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teamsでサポートされている言語
+title: Microsoft Teams対応言語の自動応答
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,17 +20,17 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teamsでサポートされている言語
-ms.openlocfilehash: 85b472a274789b4358afebf0293b303e8f49b4efe9176e010e25faeca673fbae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Microsoft Teams対応言語の自動応答
+ms.openlocfilehash: 18a2f54eea4fb0f4090b76bddd92da40263c6db0
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276552"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339845"
 ---
-# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teamsでサポートされている言語
+# <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams対応言語の自動応答
 
-自動応答は、テキスト読み上げ (TTS) と音声認識に対して次の言語をサポートしています。
+自動応答では、テキスト読み上げ (TTS) と音声認識に対して次の言語がサポートされます。
 
 |言語                                |テキスト読み上げ (TTS)     |音声認識                     |
 |:---------------------------------------|:-----------------------:|:-------------------------------------:|
@@ -41,7 +40,7 @@ ms.locfileid: "54276552"
 |中国語 (繁体字、香港)        |Y                        |                                       |
 |中国語 (繁体字、台湾)           |Y                        |                                       |    
 |クロアチア語 (クロアチア)                      |Y                        |                                       |    
-|チェコ語 (Czeck Republic)                  |Y                        |                                       |    
+|チェコ語 (チェコ共和国)                  |Y                        |                                       |    
 |デンマーク語 (デンマーク)                        |Y                        |                                       |    
 |オランダ語 (オランダ)                     |Y                        |                                       |    
 |英語 (オーストラリア)                     |Y                        |Y                                      |

@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: ハイブリッド シナリオでの Skype for Businessテレメトリ ツールを使用してオンプレミスの実装を監視する方法の概要。
-ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318072"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407176"
 ---
 # <a name="plan-call-data-connector"></a>通話データ コネクタの計画
 
@@ -40,7 +40,7 @@ ms.locfileid: "54318072"
 
 次の図に示すように、Skype for Business Server は通話データをクラウド サービスにプッシュして、Skype for Business Online Call Analytics (CA) ツールと通話品質ダッシュボード (CQD) ツールを活用できます。
 
-![SfB クラウド ボイスメール](../../sfbserver2019/media/call-data-connector-plan-1.png)
+![SfB クラウド ボイスメール図。](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 サーバーは、QoE (QoE) データと通話詳細記録 (CDR) データの両方をオンライン サービスにプッシュします。
 
@@ -50,7 +50,7 @@ Call Analytics および CQD ツールを使用すると、次のように、通
 
 - 品質ダッシュボードの呼び出しは、組織全体のネットワークパフォーマンスと問題に焦点を当て、 Skype for Business管理者およびネットワーク エンジニアは、このツールを使用してネットワークパフォーマンスのトラブルシューティングと最適化を行います。
 
-詳細については、「Call [Analytics and Call Quality Dashboard」を参照してください](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)。
+詳細については、「Call [Analytics and Call Quality Dashboard diagram](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)with Monitoring Server details」を参照してください。
 
 もちろん、一部の通話品質データをオンプレミスに保持する必要があります。 たとえば、カスタマイズされたレポートとワークフローでサード パーティ製のソリューションを使用している場合などです。  データ コネクタの呼び出しでは、次の図に示すように、データのコピーをオンプレミス サーバーに保持しながら、オンライン サービスへのデータの送信を構成できます。
 
@@ -82,14 +82,14 @@ Call Analytics および CQD ツールを使用すると、次のように、通
 
 | 機能レポート | Skype for Business Online | Skype for Business Server   |
 |:---------------------------|:---------------------|:---------------------|:------------------|
-| アプリケーション共有メトリック |はい | 制限付き |
-| 顧客の構築情報| はい | はい |
-| ドリルダウン分析 | はい | いいえ |
-| メディアの信頼性の指標 | はい | 制限付き |
-| アウトオブザボックス レポート | はい | はい |
-| 概要レポート | はい | いいえ |
-| ユーザーごとのレポート | はい | はい |
-| レポート セットのカスタマイズ <br> (レポートの追加、削除、変更) | はい | はい |
-| ビデオベースの画面共有の指標 | はい | いいえ |
+| アプリケーション共有メトリック |必要 | 制限付き |
+| 顧客の構築情報| はい | 必要 |
+| ドリルダウン分析 | 必要 | いいえ |
+| メディアの信頼性の指標 | 必要 | 制限付き |
+| アウトオブザボックス レポート | はい | 必要 |
+| 概要レポート | 必要 | いいえ |
+| ユーザーごとのレポート | はい | 必要 |
+| レポート セットのカスタマイズ <br> (レポートの追加、削除、変更) | はい | 必要 |
+| ビデオベースの画面共有の指標 | 必要 | いいえ |
 | プログラムによるアクセス用のデータ API <br> CQD | いいえ | はい |
 ||||

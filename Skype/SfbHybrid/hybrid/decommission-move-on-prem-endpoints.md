@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: hyrid アプリケーション エンドポイントを移行してから、オンプレミス環境Skype for Business使用を停止します。
-ms.openlocfilehash: e06411bfdbd5b74c2b9663ad1eb0441cfc0e2a42411b6bbc8e2c24700dee4993
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f655c232e8502e6309f57ce88af6ca0eebce9a43
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312285"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58406976"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>オンプレミス環境を使用停止する前にハイブリッド アプリケーション エンドポイントを移行する
 
@@ -32,7 +32,7 @@ ms.locfileid: "54312285"
 
 - 手順 1. [必要なすべてのユーザーをオンプレミスからオンラインに移動する](decommission-move-on-prem-users.md)
 
-- 手順 2. [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
+- 手順 2。 [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
 
 - **手順 3.ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移行します。** (この記事)
 
@@ -72,7 +72,7 @@ ms.locfileid: "54312285"
    }
    ```
 
-6. 手順 2 で作成した新しいリソース アカウントに電話番号を割り当てる。 電話番号をリソース アカウントに割り当てる方法の詳細については、「サービス番号を割り当てる」 [を参照してください](/microsoftteams/manage-resource-accounts#assign-a-service-number)。
+6. 手順 2 で作成した新しいリソース アカウントに電話番号を割り当てる。 電話番号をリソース アカウントに割り当てる方法の詳細については、「サービス番号を割り当てる」 [を参照してください](/microsoftteams/manage-resource-accounts)。
 
 7. PowerShell コマンドで次のオンプレミス エンドポイントを実行して、オンプレミスSkype for Business Server削除します。
 
