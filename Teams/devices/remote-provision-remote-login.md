@@ -18,16 +18,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Android デバイスのリモート プロビジョニングとサインインを行うTeams説明します
-ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235382"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483114"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android デバイスのリモート プロビジョニングTeamsサインイン
 
-IT 管理者は、リモートでプロビジョニングし、Teams Android デバイスにサインインできます。 デバイスをリモートでプロビジョニングするには、管理者がプロビジョニングするデバイスの MAC の ID をアップロードし、確認コードを作成する必要があります。 プロセス全体は、管理センターからリモートTeams完了できます。
+IT 管理者は、Android デバイスを使用してリモートでプロビジョニングTeamsサインインできます。 デバイスをリモートでプロビジョニングするには、管理者がプロビジョニングするデバイスの MAC の ID をアップロードし、確認コードを作成する必要があります。 プロセス全体は、管理センターからリモートTeams完了できます。
 
 ## <a name="review-the-supported-devices"></a>サポートされているデバイスを確認する
 
@@ -44,7 +44,17 @@ IT 管理者は、リモートでプロビジョニングし、Teams Android デ
 |Teams電話|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams電話|  オーディオ コード C448HD/C450HD/C470HD|   1.10.120|
 |Teams パネル|  クレスロン 770/1070|  1.004.0115|
-
+|TeamsAndroid の会議室|Logitech Rally Bar Mini|1.2.982|
+|TeamsAndroid の会議室|Logitech Rally Bar|1.2.982|
+|TeamsAndroid の会議室|AudioCodes RXV80|1.13.361|
+|TeamsAndroid の会議室|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|TeamsAndroid の会議室|Yealink MeetingBar A30|133.15.0.60|
+|TeamsAndroid の会議室|Yealink MeetingBar A20|133.15.0.60|
+|TeamsAndroid の会議室|Yealink CTP18 タッチ コンソール|137.15.0.37|
+|TeamsAndroid の会議室|Poly Studio X30|3.5.0.344025|
+|TeamsAndroid の会議室|Poly Studio X50|3.5.0.344025|
+|TeamsAndroid の会議室|Poly TC8 タッチ コンソール |3.5.0.210489|
+|TeamsAndroid の会議室|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>デバイスの MAC アドレスを追加する
 
@@ -66,12 +76,12 @@ IT 管理者は、リモートでプロビジョニングし、Teams Android デ
 1. 場所を入力します。これは、技術者がデバイスをインストールする場所を特定するのに役立ちます。
 1. 完了したら **、[適用** ] を選択します。
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>アップロードを開き、デバイスの MAC アドレスを追加する
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>アップロード MAC アドレスを追加するファイルを作成する
 
 1. [アクティブ **化を待っている]** タブで、[MAC **アップロード を選択します**。
 2. ファイル テンプレートをダウンロードします。
 3. MAC ID と場所を入力し、ファイルを保存します。
-4. **ファイル を選択** し、[ファイル]**をアップロード** します。
+4. **ファイル を選択** し、[ファイル]**をアップロード。**
 
 ## <a name="generate-a-verification-code"></a>確認コードを生成する
 
