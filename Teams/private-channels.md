@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 047ff506a2d9ebccda96ecadedb4a30222ba59bf
-ms.sourcegitcommit: 3884bd3a849e92cde5980c3185d53bd4287fe764
+ms.openlocfilehash: 1a39d3f13239cd97b90fdf247c62ec5d7da0598b
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/21/2021
-ms.locfileid: "58455962"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483124"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -92,9 +92,9 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 各プライベート チャネルには、独自の SharePoint サイトがあります。 個別のサイトは、プライベート チャネル ファイルへのアクセスがプライベート チャネルのメンバーのみに制限されることを確保するためにあります。 これらのサイトは規定でドキュメント ライブラリを使用して作成され、[サイト管理インターフェイス](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)を介してフル機能のサイトへと簡単に拡張できます。 各サイトは、親チームのサイトと同じ地理的な場所に作成されます。 これらの軽量サイトは、PowerShell および Graph API による管理を容易にするためのカスタム テンプレート ID "TEAMCHANNEL#0" を持っています。 
 
 >[!NOTE]
->Microsoft Teams で付与された所有者またはメンバーのアクセス許可を持つユーザーのみが、プライベート チャネル サイトのコンテンツにアクセスできます。
->プライベート チャネルの SharePoint サイトは、新しい SharePoint 管理センターのアクティブ サイト ページには含まれていません。
->2021 年 6 月 28 日以降に作成されたプライベート チャネル SharePoint サイトには、カスタム テンプレート ID TEAMCHANNEL#1 が含まれます。
+>- Microsoft Teams で付与された所有者またはメンバーのアクセス許可を持つユーザーのみが、プライベート チャネル サイトのコンテンツにアクセスできます。
+>- プライベート チャネルの SharePoint サイトは、新しい SharePoint 管理センターのアクティブ サイト ページには含まれていません。
+>- 2021 年 6 月 28 日以降に作成されたプライベート チャネル SharePoint サイトには、カスタム テンプレート ID TEAMCHANNEL#1 が含まれます。
 
 
 プライベート チャネル サイトはデータ分類を同期し、親チームのサイトからゲスト アクセス許可を継承します。 サイトの所有者およびメンバー グループのメンバーシップは、Teams 内のプライベート チャネルのメンバーシップと同期します。 SharePoint 内の所有者またはメンバー グループのメンバーシップに対する変更は、4 時間以内にプライベート チャネル メンバーシップに自動的に戻されます。 
