@@ -13,12 +13,12 @@ ms.collection:
 description: PowerShell の最新の変更点Teams説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3fbffcf36e05aab945833bcf6a09e097d6c0c39
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 88c00fbad17c07e179c1163ec393c95859ac4705
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380451"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523788"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft TeamsPowerShell リリース ノート
 
@@ -31,7 +31,7 @@ ms.locfileid: "58380451"
 
 | 日付 | バージョン | 更新プログラム |
 |------- | -------------------- | ------------------------------ |
-| 2021 年 8 月 | [2.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.0) |<li>Connect-MicrosoftTeams を使用した AccessToken ログインの更新。</li><li>Cloudshell での対話型ログインConnect-MicrosoftTeams修正しました。</li><li>チーム作成シナリオNew-Teamコマンドレットの機能強化。</li><li>TeamsUnassignedNumberTreatment コマンドレットを使用できます。</li><li>Get-CsCsOnlineDialInConferencingBridge Set-CsOnlineDialInConferencingBridge。</li><li>最新バージョンの Get-CsTenant、Get-CsOnlineUser (-identity パラメーターのみ) をリリースします。</li>|
+| 2021 年 8 月 | [2.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.0) |<li>以前New-Teamチームの作成エラーを防ぐために、新しい API でコマンドレットが更新されました。 そのため、コマンドレットのエラー数と待機時間が改善されました。</li><li>リソースのアクセス トークン ログインConnect-MicrosoftTeamsリソース固有のトークンごとに個別のパラメーターではなく、統合トークン配列を使用する必要があります。 詳細については、 を参照 [してください](/powershell/module/teams/connect-microsoftteams?view=teams-ps)。</li><li>Cloudshell でのConnect-MicrosoftTeamsの対話型ログイン エラーが修正されました。 既定では、再認証を求めるメッセージが表示されるのではなく、ユーザーのログイン ID が使用されます。</li><li>TeamsUnassignedNumberTreatment コマンドレットを使用できます。</li><li>Get-CsOnlineDialInConferencingBridgeコマンドレットSet-CsOnlineDialInConferencingBridge以前の実装から新しい API に移行されました。</li><li>最新バージョンの Get-CsTenantおよび Get-CsOnlineUser (-identity パラメーターのみ) がリリースされました。 非推奨のプロパティを出力しなくなったので、リモート処理に対応するプロパティと比較して、いくつかの書式設定が変更されます。</li>|
 | 2021 年 7 月 | [2.4.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.1-preview) |<li>コマンドレットに変更を許可します。</li><li>新しい音声関連のコマンドレットがリリースされます。</li><li>-Cs* コマンドレットの証明書拇印認証の削除。</li><li>すべてのコマンドレットのログ ファイルのログ記録を修正しました。</li><li>*TeamChannelUser コマンドレットに関する問題を修正しました。</li>|
 | 2021 年 6 月 | [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>最新バージョンの Get-CsTenant、Get-CsOnlineUser (-identity パラメーターのみ)、Get-CsOnlineDialInConferencingLanguagesSupported、Import-CsOnlineAudioFile のリリースのみをプレビューします。</li><li>最新のバージョンのGet-CsOnlineDialInConferencingLanguagesSupportedとImport-CsOnlineAudioFile、リモート処理に対応するバージョンと同様/同じように動作する必要があります。</li><li>最新バージョンの Get-CsTenantと Get-CsOnlineUser (-identity パラメーターを使用して実行する場合) は、非推奨のプロパティを出力しない。</li><li>最新バージョンの Get-CsTenant と Get-CsOnlineUser (-identity パラメーターを使用して実行する場合) は、リモート処理カウンター部分と比較して、いくつかの書式設定が変更されます。</li><li>[Get \| Set \| Grant New \| \| Remove]-CsTeamsAudioConferencingPolicy コマンドレットをリリースします。</li><li>コマンドレットGet-CsOnlineAudioFileおよびRemove-CsOnlineAudioFileリリースします。</li><li>Set-TeamTargetingHierarchy、Remove-TeamTargetingHierarchy、Get-TeamTargetingHierarchyStatusは、ユーザーがGCCできます。</li><li>Get-TeamTargetingHierarchyStatus コマンドによって呼び出されたエンドポイントを修正します。</li>|
 | 2021 年 5 月 | [2.3.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>Connect-MicrosoftTeams を使用した AccessToken ログインのサポート。 トークンの配列を受け入れる -AccessTokens パラメーターを追加しました。 AccessTokens Teamsを使用する場合は、MSGraph とリソース トークンの作成が必要です。</li><li>AadAccessToken パラメーターと MsAccessToken パラメーターを削除しました。</li>|

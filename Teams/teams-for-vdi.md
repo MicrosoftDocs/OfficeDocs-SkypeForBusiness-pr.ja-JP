@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3782d05697b602375385342d9f2a1248bbd95e3
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: eabb53932dcc9892632e0e2ae58b7a4506595343
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406956"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523838"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "58406956"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 複数の市場プロバイダーを使用している場合は、仮想化ソリューション プロバイダーに相談して、最小要件が満たされていることを確認することをお勧めします。
   
-現在、Teams/ビデオ (AV) 最適化を使用した VDI での認証は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
+現在、Teams/ビデオ (AV) 最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
 
 ### <a name="platforms-certified-for-teams"></a>Teams 認定プラットフォーム
 
@@ -72,7 +72,7 @@ Teams デスクトップ アプリは、主要な仮想化ソリューション 
 
 ### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
-Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「Use Teams on Azure Virtual Desktop 」[を参照してください](/azure/virtual-desktop/teams-on-wvd)。
+Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「Azure Virtual Desktop での Teams[の使用」を参照してください](/azure/virtual-desktop/teams-on-wvd)。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps and Desktops の要件
 
@@ -409,7 +409,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>呼び出し機能を制限するポリシーを設定する
 
-この VDI ポリシー設定 -DisableCallsAndMeetings $true を使用して VDI の Teams にサインインするユーザーは、次の機能を実行できない必要があります。
+この VDI ポリシー設定 -DisableCallsAndMeetings $true を使用して VDI 上の Teams にサインインするユーザーは、次の機能を実行できない必要があります。
 
 - 通話を行います。
 - 会議に参加します。
@@ -471,7 +471,7 @@ if($cleanup){
 - Citrix 環境では、Teams の実行中にユーザーが仮想マシンから切断された場合、Teams の更新により、再接続時にユーザーが AV 用に最適化されていない状態になる可能性があります。 ユーザーは、このシナリオを回避Teams Citrix 仮想マシンから切断する前に、アプリケーションを終了することをお勧めします。
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
 - 現時点では、Azure Virtual Desktop は macOS および Linux ベースのクライアントをサポートしません。
-- テナントの高速切り替えにより、画面共有が利用できない、正しくない参加者リストが表示されるなど、VDI で呼び出し関連の問題が発生する可能性があります。クライアントを再起動すると、これらの問題が軽減されます。
+- テナントの高速切り替えにより、画面共有が利用できないなど、VDI で呼び出し関連の問題が発生する可能性があります。 クライアントを再起動すると、これらの問題が軽減されます。
 
 ### <a name="calling-and-meetings"></a>通話と会議
 

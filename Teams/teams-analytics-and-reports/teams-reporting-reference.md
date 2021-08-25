@@ -14,16 +14,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: この記事では、管理センターで使用できるTeamsレポートについてMicrosoft Teamsします。
+description: この記事では、管理センターでTeamsレポートの詳細Microsoft Teamsします。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 61e40646318105d633b14d44a2eb8bfe41f13fa8
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 362dce90521cb5fe948735f7e8a435e5f158ed3e
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399106"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523828"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
@@ -36,7 +36,7 @@ Microsoft Teams 管理センターで、Microsoft Teams についての新しい
 Microsoft Teams 管理センターに移動し、左側のナビゲーションで **[Analytics & レポート**] を選択し、[レポート] で実行するレポートを選択します。
 
 > [!NOTE]
-> Microsoft Teams 管理センターのレポートは、Teams のレポートの一部である Microsoft 365 のアクティビティ レポートとはMicrosoft 365 管理センター。 アクティビティ レポートの詳細については、Microsoft 365 管理センターのアクティビティ Teams[を参照Microsoft 365 管理センター](../teams-activity-reports.md)
+> Microsoft Teams 管理センターのレポートは、Teams のレポートの一部である Microsoft 365 のアクティビティ レポートとはMicrosoft 365 管理センター。 アクティビティ レポートの詳細については、Microsoft 365 管理センター のアクティビティ Teams[を参照Microsoft 365 管理センター](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams レポートの参照
 
@@ -51,10 +51,10 @@ Microsoft では、Teams のレポート エクスペリエンスの継続的な
 |[Teams のデバイス使用状況レポート](device-usage-report.md)   |  Windows ユーザー:<br/>Mac ユーザー<br/>iOS ユーザー<br/>Android スマートフォン ユーザー     |
 |[Teams のライブ イベントの使用状況レポート](teams-live-event-usage-report.md)   |  合計ビュー数<br>開始時刻<br>イベントの状態<br>開催者<br>発表者<br>プロデューサー<br>録画設定<br>実稼働の種類    |
 |[TeamsPSTN ブロックユーザー レポート](pstn-blocked-users-report.md)   |  表示名<br>電話番号<br>理由<br>アクションの種類<br>アクションの日付と時刻   |
-|[TeamsPSTN 分プール レポート](pstn-minute-pools-report.md) |  国または地域<br>機能 (ライセンス) <br>合計時間 (分)<br>使用時間 (分)<br>利用可能な分数|
+|[TeamsPSTN 分プール レポート](pstn-minute-pools-report.md) |  国または地域<br>機能 (ライセンス) <br>合計分数<br>使用時間 (分)<br>利用可能な分数|
 |[TeamsPSTN 使用状況レポート - 通話プラン](pstn-usage-report.md#calling-plans)|  タイム スタンプ<br>ユーザー名<br>電話番号<br>通話の種類 <br>の呼び出し<br>国または地域へ <br>から呼び出されます。 <br>国または地域から<br>通話料<br>通貨<br>[時間]<br>国内/国際<br>通話 ID<br>数値の種類<br>国または地域<br>電話会議 ID<br>機能 (ライセンス)|
 |[TeamsPSTN 使用状況レポート - 直接ルーティング](pstn-usage-report.md#direct-routing)  |  タイム スタンプ<br>表示名<br>SIP アドレス<br>電話番号 <br>通話の種類<br>の呼び出し<br>開始時刻<br>招待時間<br>失敗時間<br>終了時刻<br>[時間]<br>数値の種類<br>メディアのバイパス<br>SBC FQDN<br>Azure リージョン<br>イベントの種類<br>最終 SIP コード<br>最終 Microsoft サブコード<br>最終的な SIP フレーズ<br>関連付け ID  |
-|[Teams情報保護ライセンス レポート - ダイレクト ルーティング](information-protection-license-report.md)  | <br>ユーザーが変更通知を使用してメッセージをプッシュする有効なライセンスを持っているかどうか</br><br>ユーザーによってトリガーされた変更通知イベントの総数</br><br>組織全体の変更通知イベントをリッスンしているアプリ</br>|
+|[Teams情報保護ライセンス レポート](information-protection-license-report.md)  | <br>ユーザーが変更通知を使用してメッセージをプッシュする有効なライセンスを持っているかどうか</br><br>ユーザーによってトリガーされた変更通知イベントの総数</br><br>組織全体の変更通知イベントをリッスンしているアプリ</br>|
 
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
@@ -63,11 +63,11 @@ Microsoft では、Teams のレポート エクスペリエンスの継続的な
 
 ユーザー アクティビティとデバイスTeamsレポートTeamsデータを匿名にする場合は、グローバル管理者である必要があります。 これにより、レポートとそのエクスポートの表示名、電子メール、AAD ID などの識別可能な情報が非表示になります。
 
-1. [Microsoft 365 管理センター] の [組織]設定に設定し、[サービス] タブで \> **[** レポート] を選択 **します**。 
+1. [Microsoft 365 管理センター] の [組織]設定に設定し、[サービス] タブで \> **[** レポート] を **選択します**。 
     
 2. [ **レポート]** を選択し、[匿名識別子 **を表示する] を選択します**。 この設定は、管理センターだけでなく、Microsoft 365 管理センター使用状況レポートTeams適用されます。
   
 3. [変更の **保存] を選択します**。
 
 > [!NOTE]
-> この設定を有効にすると、ユーザー アクティビティ レポートとデバイスTeams[レポートTeams](user-activity-report.md)[情報が識別されな](device-usage-report.md)されます。 管理センターで使用できる他の使用状況レポートTeams影響を受けられません。
+> この設定を有効にすると、ユーザー アクティビティ[](user-activity-report.md)レポートとデバイスTeamsレポートTeams[情報が識別されな](device-usage-report.md)されます。 管理センターで使用できる他の使用状況レポートTeams影響を受けられません。

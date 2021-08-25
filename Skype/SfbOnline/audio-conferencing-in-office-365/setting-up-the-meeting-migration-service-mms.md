@@ -22,18 +22,18 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Meeting Migration Service (MMS) は、バックグラウンドで実行され、ユーザーの会議のSkype for BusinessおよびMicrosoft Teams更新するサービスです。 MMS はユーザーが会議移行ツールを実行して Skype for Business および Microsoft Teams 会議を更新しなくても済むように設計されています。
-ms.openlocfilehash: 71fefa3986d9daf3a9eb7cd1403ba9490cbbf7ff687853a7876f05cd0a75eed1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 68a3ef384c67835b25ff5db7ee6dfccf8b2ca1a7
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298877"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523868"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>会議移行サービス (MMS) を使用する
 
 Meeting Migration Service (MMS) は、次のシナリオでユーザーの既存の会議を更新するサービスです。
 
-- ユーザーがオンプレミスからクラウドに移行された場合 (オンラインまたは TeamsOnly Skype for Businessに移行する場合)。
+- ユーザーがオンプレミスからクラウドに移行された場合 (オンラインまたは TeamsOnly Skype for Business移行するかどうか)。
 - 管理者がユーザーの電話会議設定に変更を行った場合 
 - オンライン ユーザーが Teams にのみアップグレードされている場合、または TeamsUpgradePolicy のユーザー モードが SfBwithTeamsCollabAndMeetings に設定されている場合
 - PowerShell を使用する場合 
@@ -59,7 +59,7 @@ Meeting Migration Service (MMS) は、次のシナリオでユーザーの既存
 
     ![MMS で更新される会議ブロック。](../images/210a03ee-30c1-46f3-808f-4c2ebdaa3ea1.png)
 
-MMS がトリガーされるまで、通常、ユーザーの会議が移行されるまで約 2 時間かかります。 ただし、ユーザーの会議の数が多い場合は、時間がかかる場合があります。 MMS でユーザーの 1 つ以上の会議の移行でエラーが発生した場合、24 時間の間に最大 9 回、定期的に再試行されます。
+MMS がトリガーされるまで、通常、ユーザーの会議が移行されるまで約 2 時間かかります。 ただし、ユーザーの会議の数が多い場合は、時間がかかる場合があります。 MMS でユーザーの 1 つ以上の会議の移行中にエラーが発生した場合、24 時間の間に最大 9 回、定期的に再試行されます。
 
 **注**:
 
@@ -81,24 +81,24 @@ MMS がトリガーされるまで、通常、ユーザーの会議が移行さ�
 
 ### <a name="updating-meetings-when-you-move-an-on-premises-user-to-the-cloud"></a>オンプレミス ユーザーをクラウドに移動するときに会議を更新する
 
-これは、MMS がユーザーのスムーズな切り替えの作成に役立つ最も一般的なシナリオです。 会議の移行がない場合、オンプレミスのユーザーがSkype for Business Serverオンラインに移動すると、既存の会議は機能しなくなりました。 そのため、オンプレミスの管理ツール (または管理者コントロール パネル) を使用してユーザーをクラウドに移動すると、既存の会議は次のように自動的にクラウド `Move-CsUser` に移動されます。
+これは、MMS がユーザーのスムーズな移行を作成するのに役立つ最も一般的なシナリオです。 会議の移行を行わずに、オンプレミスのユーザーが開催Skype for Business Serverユーザーがオンラインに移動すると、既存の会議は機能しなくなりました。 そのため、オンプレミスの管理ツール (または管理者コントロール パネル) を使用してユーザーをクラウドに移動すると、既存の会議は次のように自動的にクラウド `Move-CsUser` に移動されます。
 
-- の切り替えが指定されている場合、会議は直接 Teamsに移行され、ユーザーは `MoveToTeams` `Move-CsUser` TeamsOnly モードになります。 このスイッチを使用するには、CU8 以降Skype for Business Server 2015 を使用する必要があります。 これらのユーザーは、引き続きSkype for Businessクライアントまたは会議アプリを使用して、招待される可能性がある任意のSkype for Business会議Skype参加できます。
+- の切り替えが指定されている場合、会議は直接 Teamsに移行され、ユーザーは `MoveToTeams` `Move-CsUser` TeamsOnly モードになります。 このスイッチを使用するには、CU8 以降Skype for Business Server 2015 を使用する必要があります。 これらのユーザーは引き続き、Skype for Business クライアントまたは会議アプリを使用して、招待される可能性がある任意Skype for Business会議Skype参加できます。
 - それ以外の場合、会議は Skype for Businessされます。
 
-いずれの場合も、ユーザーがクラウドに移動する前に電話会議ライセンスが割り当てられている場合、会議はダイヤルイン座標で作成されます。 ユーザーをオンプレミスからクラウドに移動し、そのユーザーが電話会議を使用する場合は、最初に電話会議を割り当てしてからユーザーを移動し、1 つの会議移行だけがトリガーされます。
+いずれの場合も、ユーザーがクラウドに移動する前に電話会議ライセンスが割り当てられている場合、会議はダイヤルイン座標で作成されます。 ユーザーをオンプレミスからクラウドに移動し、そのユーザーが電話会議を使用する場合は、最初に電話会議を割り当てしてからユーザーを移動し、1 つの会議の移行だけがトリガーされます。
 
 
 ### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>ユーザーの電話会議の設定が変更されるときの会議の更新
 
-次の場合、MMS は、ダイヤルイン座標を追加、削除、または変更Skype for Business会議Microsoft Teams既存の会議と会議を更新します。
+次の場合、MMS は、ダイヤルイン座標を追加、削除、または変更するために、Skype for Business および Microsoft Teams 会議を更新します。
 
-- Microsoft 電話会議サービス のライセンスをユーザーに割り当てまたは削除した場合、そのユーザーがサードパーティの電話会議プロバイダーに対して有効になっていない場合。
-- ユーザーに Microsoft 電話会議ライセンスが割り当てられている場合に、ユーザーの電話会議プロバイダーを他のプロバイダーから Microsoft に変更する場合。 詳細については、「電話会議プロバイダーとして [Microsoft を割り当てる」を参照してください](./assign-microsoft-as-the-audio-conferencing-provider.md)。 また、サード パーティの電話会議プロバイダー [ACP] のサポートは、前に発表した 2019 年 4 月 1 日に終了する [予定](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)です。
+- ユーザーに Microsoft 電話会議サービス ライセンスを割り当てるか削除した場合、そのユーザーがサードパーティの電話会議プロバイダーに対して有効になっていない場合。
+- ユーザーに Microsoft 電話会議ライセンスが割り当てられている場合に、ユーザーの電話会議プロバイダーを他のプロバイダーから Microsoft に変更する場合。 詳細については、「Microsoft を電話会議 [プロバイダーとして割り当てる」を参照してください](./assign-microsoft-as-the-audio-conferencing-provider.md)。 また、サード パーティの電話会議プロバイダー [ACP] のサポートは、前に発表した 2019 年 4 月 1 日に終了する [予定](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)です。
 - ユーザーの電話会議を有効または無効にする場合。
 - パブリック会議を使用するように構成されたユーザーの会議 ID を変更またはリセットする場合。
 - ユーザーを新しい電話会議ブリッジに移行する場合
-- 電話会議ブリッジからの電話番号が割り当てられていない場合。 これは、追加の手順が必要な複雑なシナリオです。 詳細については、「電話会議ブリッジ [で電話番号を変更する」を参照してください](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
+- 電話会議ブリッジの電話番号が割り当てられていない場合。 これは、追加の手順が必要な複雑なシナリオです。 詳細については、「電話会議ブリッジ [で電話番号を変更する」を参照してください](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
 
 ユーザーの電話会議の設定に対する変更の一部は、MMS をトリガーしません。特に、次の 2 つの変更では、MMS によって会議が更新されません。
 
@@ -108,13 +108,13 @@ MMS がトリガーされるまで、通常、ユーザーの会議が移行さ�
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>TeamsUpgradePolicy を割り当てるときに会議を更新する
 
-既定では、 または のインスタンスがユーザーに付与されると、会議の移行が自動的に `TeamsUpgradePolicy` `mode=TeamsOnly` トリガーされます `mode= SfBWithTeamsCollabAndMeetings` 。 これらのモードのいずれかを許可するときに会議を移行しない場合は、 をで指定するか (PowerShell を使用している場合)、ユーザーの共存モードを設定するときに (Teams 管理ポータルを使用している場合) 会議を移行するボックスをオフにします `MigrateMeetingsToTeams $false` `Grant-CsTeamsUpgradePolicy` 。
+既定では、 または のインスタンスがユーザーに付与されると、会議の移行が自動的に `TeamsUpgradePolicy` `mode=TeamsOnly` トリガーされます `mode= SfBWithTeamsCollabAndMeetings` 。 いずれかのモードを許可するときに会議を移行しない場合は、 をで指定するか (PowerShell を使用している場合)、ユーザーの共存モードを設定するときに (Teams 管理ポータルを使用している場合) 会議を移行するボックスをオフにします。 `MigrateMeetingsToTeams $false` `Grant-CsTeamsUpgradePolicy`
 
 また、次の点に注意してください。
 
-- 会議の移行は、特定のユーザーに許可する `TeamsUpgradePolicy` 場合にのみ呼び出されます。 または をテナント `TeamsUpgradePolicy` 全体 `mode=TeamsOnly` に付与した場合 `mode=SfBWithTeamsCollabAndMeetings` *、* 会議の移行は呼び出されません。
+- 会議の移行は、特定のユーザーに許可する `TeamsUpgradePolicy` 場合にのみ呼び出されます。 テナント全体に `TeamsUpgradePolicy` または `mode=TeamsOnly` `mode=SfBWithTeamsCollabAndMeetings` を付与した場合 *、* 会議の移行は呼び出されません。
 - ユーザーに TeamsOnly モードを付与できるのは、ユーザーがオンラインでホームに設定されている場合のみです。 オンプレミスにホームされているユーザーは、前に説明したように を使用 `Move-CsUser` して移動する必要があります。
-- TeamsOnly または SfBWithTeamsCollabAndMeetings 以外のモードを付与しても、既存の会議はTeams会議Skype for Businessされません。
+- TeamsOnly または SfBWithTeamsCollabAndMeetings 以外のモードを付与しても、既存の Teams 会議はSkype for Businessされません。
 
 ### <a name="trigger-meeting-migration-manually-via-powershell-cmdlet"></a>PowerShell コマンドレットを使用して手動で会議移行をトリガーする
 
@@ -169,7 +169,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
     ```PowerShell
     Get-CsMeetingMigrationStatus -Identity ashaw@contoso.com
     ```
-移行に失敗した場合は、ユーザーが解決するまでそれらのユーザーが開催した会議にダイヤルインできないので、これらの問題をできるだけ早く解決するアクションを実行します。 失敗 `Get-CsMeetingMigrationStatus` した状態の移行が表示された場合は、次の手順を実行します。
+移行に失敗した場合は、ユーザーが解決するまで、それらのユーザーが開催した会議にダイヤルインできないので、できるだけ早くこれらの問題を解決するアクションを実行します。 失敗 `Get-CsMeetingMigrationStatus` した状態の移行が表示された場合は、次の手順を実行します。
  
 1. 影響を受けているユーザーを特定します。次のコマンドを実行して、影響を受けているユーザーと、報告された特定のエラーのリストを取得します。
 
@@ -183,6 +183,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
     - ユーザーに新しい Skype 会議を作成してもらいます。
     - [サポートに問い合わせます](/microsoft-365/Admin/contact-support-for-business-products)。
 
+コマンドレットを使用して、過去 150 日以内にトリガーされた移行の状態 `Get-CsMeetingMigrationStatus` を取得できます。 150 日より前の移行のレコードは、システムから消去されます。
 
 ### <a name="enabling-and-disabling-mms"></a>MMS の有効化と無効化
 
@@ -208,7 +209,7 @@ Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false
 ```
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
