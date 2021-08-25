@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure Monitor を使用して、Microsoft Teams Rooms デバイスの管理を、統合されたエンドツーエンドの方法でデプロイする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234242"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505405"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>を使用 :::no-loc text="Microsoft Teams Rooms"::: して管理をデプロイする :::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ ms.locfileid: "58234242"
 
 このガイドに従って、次の例のようなダッシュボードを使用して、デバイスの可用性、アプリケーションとハードウェアの正常性、アプリケーションとオペレーティング システムのバージョンの配布に関する詳細な状態レポート :::no-loc text="Microsoft Teams Rooms"::: を取得できます。
 
-![会議室の Log Analytics ビューのMicrosoft Teamsスクリーンショット](../media/Deploy-Azure-Monitor-1.png "Microsoft Teams 会議室の Log Analytics ビューのサンプル")
+![Microsoft Teams Rooms のサンプル Log Analytics ビューのスクリーンショット](../media/Deploy-Azure-Monitor-1.png "Microsoft Teams 会議室の Log Analytics ビューのサンプル")
 
 高いレベルでは、次のタスクを実行する必要があります。
 
@@ -77,7 +77,7 @@ ms.locfileid: "58234242"
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>エージェント :::no-loc text="Microsoft Monitoring"::: をインストールしてデバイスをテストする
 
-エージェントをテスト デバイスにデプロイするには、次のコンピューターに関するページに記載Connect :::no-loc text="Microsoft Monitoring"::: [ :::no-loc text="Windows"::: を使用して :::no-loc text="Log Analytics"::: 、 :::no-loc text="Azure"::: のサービスにデプロイします](/azure/azure-monitor/platform/agent-windows)。 この記事では、 のエージェントをデプロイする手順について詳しく説明します。ワークスペース ID _ と _ 主キー :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * *** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: を取得してデプロイに接続するデバイスを取得する手順と、インスタンスへのエージェント接続を確認する手順について説明します。
+エージェントをテスト デバイスにデプロイするには、次のコンピューターに関するページに記載Connectを使用して :::no-loc text="Microsoft Monitoring"::: [、 :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: のサービスにデプロイします :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows)。 この記事では、エージェントをデプロイする手順について詳しく説明します。ワークスペース ID _ と _ 主キー :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * *** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: を取得してデプロイに接続するデバイスを取得する手順と、インスタンスへのエージェント接続を確認する手順について説明します。
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>サンプル イベントを生成 :::no-loc text="Microsoft Teams Rooms"::: する
 
@@ -160,16 +160,9 @@ ms.locfileid: "58234242"
 
 > [!NOTE]
 > ダッシュボード タイルが正常に動作するには、このガイドの前の手順を完了している必要があります。
-
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>インポート方法をMicrosoft Teamsして会議室ダッシュボードを作成する
-
-ダッシュボードをインポートして :::no-loc text="Microsoft Teams Rooms"::: 、デバイスの監視をすばやく開始できます。 ダッシュボードをインポートするには、次の手順を実行します。
-
-1.  [SkypeRoomSystems_v2.omsview ダッシュボード ファイルを](https://go.microsoft.com/fwlink/?linkid=835675)取得します。
-2.  ポータルにサインイン[ :::no-loc text="Microsoft Azure"::: し、 に](https://portal.azure.com)移動して :::no-loc text="Log Analytics"::: ワークスペースを選択します。
-3.  ビュー **デザイナー を開きます**。
-4.  [ **インポート]** を選択し **、SkypeRoomSystems_v2.omsview ファイルを選択** します。
-5.  **[保存]** を選択します。
+>
+> [!IMPORTANT]
+> Azure Monitor のビュー デザイナーは[2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/)年 8 月 31 日に廃止され、作成と複製の機能は 2020 年 11 月 30 日に無効になっています。 代わりにブックを使用できます。 ビュー デザイナーのブックへの移行ガイドの詳細については、プリセット ビュー デザイナー テンプレートを使用したクイック スタート [に関するページを参照してください](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)。
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>会議室ダッシュボードMicrosoft Teams手動で作成する
 
@@ -322,7 +315,7 @@ ms.locfileid: "58234242"
     **リスト クエリ:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  列タイトル **を定義します**。<br>
     **名前:** コンピューター名<br>
-    **値:** 再起動数
+    **値:** 再起動の数
 6.  ナビゲーション **クエリ を定義します**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 7.  [適用 **] を選択** し、[閉じる] **を選択します**。
@@ -333,7 +326,7 @@ ms.locfileid: "58234242"
 ## <a name="configure-alerts-in-no-loc-textazure-monitor"></a>でアラートを構成する :::no-loc text="Azure Monitor":::
 <a name="Alerts"> </a>
 
-:::no-loc text="Azure Monitor"::: は、本体で問題が発生した場合に管理者に :::no-loc text="Microsoft Teams Rooms"::: 通知するアラートを生成できます。
+:::no-loc text="Azure Monitor"::: は、本体で問題が発生した場合に管理者に通知 :::no-loc text="Microsoft Teams Rooms"::: するアラートを生成できます。
 
 :::no-loc text="Azure Monitor"::: には、スケジュールされたログ検索を定期的に実行する組み込みのアラート メカニズムが含まれています。 ログ検索の結果が特定の条件と一致する場合は、アラート レコードが作成されます。
 
@@ -345,7 +338,7 @@ ms.locfileid: "58234242"
 の[アラートの詳細 :::no-loc text="Azure Monitor"::: については、「](/azure/azure-monitor/platform/alerts-unified-log)ログイン アラート」を参照してください :::no-loc text="Azure Monitor"::: 。
 
 > [!NOTE]
-> 次の例では、デバイスがハードウェアまたはアプリケーション エラー :::no-loc text="Microsoft Teams Rooms"::: を生成するときに電子メール アラートを送信します。
+> 次の例では、デバイスがハードウェアまたはアプリケーション エラーを :::no-loc text="Microsoft Teams Rooms"::: 生成するときに電子メール アラートを送信します。
 
 ### <a name="configure-an-email-alert-for-no-loc-textmicrosoft-teams-rooms-hardware-issues"></a>ハードウェアの問題に関する電子 :::no-loc text="Microsoft Teams Rooms"::: メール アラートを構成する
 
@@ -429,9 +422,9 @@ ms.locfileid: "58234242"
     1.  コマンド プロンプト ウィンドウを開き、/cMMASetup-AMD64.exe **実行します。**
     2.  作成した共有を指定し、コンテンツを抽出します。
 
-4.  新しいグループ ポリシー オブジェクトを作成し、マシン アカウントが配置されている組織単位 :::no-loc text="Microsoft Teams Rooms"::: に割り当てる。
+4.  新しいグループ ポリシー オブジェクトを作成し、マシン アカウントがある組織単位 :::no-loc text="Microsoft Teams Rooms"::: に割り当てる。
 
-5.  PowerShell 実行ポリシーの構成:
+5.  PowerShell 実行ポリシーを構成する:
     1.  新しく作成したグループ ポリシー オブジェクトを編集し、[コンピューター構成ポリシー] \\ 管理用テンプレート コンポーネント \\ に \\ :::no-loc text="Windows"::: 移動します。 \\:::no-loc text="Windows PowerShell":::
     2.  [スクリプトの **実行を有効にする] を有効にして** 、[ **実行ポリシー] を [** ローカル スクリプト **を許可] に設定します**。
 
