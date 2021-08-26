@@ -19,12 +19,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a07b6f46d24679b4e05ce826059958e0404ba084
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
+ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531017"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -263,9 +263,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > この機能が将来的に動作する方法に関する情報を提供することで、この変化に備えて計画を立て、Teams ポリシー設定を事前に変更できるようにしています。 
 >
-> Teams の MeetingExpirationDays 設定を事前に変更する CMD はまだ利用できません。  設定を変更できる場合は、更新されたメッセージ センターの投稿を公開します。
+> Teams の MeetingExpirationDays 設定を事前に変更する CMD (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) はまだ利用して設定できません。  設定を変更できる場合は、更新されたメッセージ センターの投稿を公開します。
 >
-> PowerShell を使用して、"MeetingRecordingExpirationDays "を修正することができます。 これは、9 月 1 日以降、機能はまだ有効になっていなくても、PowerShell に設定が存在すれば可能です。 コマンド例は、"Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50." です。
 >
 
 管理者およびエンド ユーザーによく寄せられる質問を確認して、Teams 会議の記録の自動期限切れがどのように機能するか、今すぐできるアクション、および機能の開始後にできるアクションに関する分析情報を集めています。 
@@ -310,9 +309,18 @@ Teams 会議の記録 (チャネル以外、チャネル、アドホック会議
 
 **管理者は有効期限日をどのように変更しますか?**
   
-管理者は、機能がリリースされる前に、PowerShell または Teams 管理センターで既定の有効期限設定を変更できます。 この設定はまだ変更できません。 設定を変更できる場合は、更新されたメッセージ センターの投稿を公開します。 この機能が開始されると、管理者は Teams 管理センターでこの設定を変更することができます。 有効期限設定を変更すると、その時点から新たに作成された TMR のみに影響を与えます。 その日以前に記録されたコンテンツには影響ありません。 
+管理者は、機能がリリースされる前に、PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) または Teams 管理センターで既定の有効期限切れ設定を変更できます。 この設定はまだ変更できません。 設定を変更できる場合は、更新されたメッセージ センターの投稿を公開します。 この機能が開始されると、管理者は Teams 管理センターでこの設定を変更することができます。 有効期限設定を変更すると、その時点から新たに作成された TMR のみに影響を与えます。 その日以前に記録されたコンテンツには影響ありません。 
 
-管理者が適用できる最大の有効期限設定は、99,999 日 (273年) です。 管理者は、この機能がリリースされる前に OneDrive や SharePoint にアップロードされた既存の TMR の有効期限日を変更することはできません。 これにより、TMR を所有するユーザーの意図を保護することができます。 
+有効期限の日数の値は、次のように設定できます:
+  
+- 値は 1 - 99,999 (最大 273 年) です。
+- TMR が有効期限切れにならないようにするには、値を -1 に設定できます。 
+ 
+管理者は、この機能がリリースされる前に OneDrive や SharePoint にアップロードされた既存の TMR の有効期限日を変更することはできません。 これにより、TMR を所有するユーザーの意図を保護することができます。 
+  
+**管理者は TMR を有効期限切れにならないように設定できますか?**
+  
+ はい。管理者は、PowerShell コマンドレット (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1) を使用して、TMR の有効期限が切れないように設定できます。
   
 **レコーディングしたものを再生すると有効期限が変わりますか?**
 
