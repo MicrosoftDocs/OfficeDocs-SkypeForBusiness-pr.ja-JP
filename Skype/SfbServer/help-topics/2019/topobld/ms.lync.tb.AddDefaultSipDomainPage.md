@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDefaultSipDomainPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開でサポートするプライマリ セッション開始プロトコル (SIP) ドメインを指定します。 プライマリ SIP ドメインは、Active Directory ドメイン サービス ドメインと同じか、異なる場合があります。 たとえば、Active Directory ドメインが fabrikam.net の場合に、プライマリ SIP ドメインとして contoso.net などを指定できます。
-ms.openlocfilehash: 07e4c91e8809b7fe8cf56ff0d31fb2433573b98e84c99d7b16139e430471822f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04e4a5b6d3361bfd1e8952699f2915c61e026170
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285317"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625429"
 ---
 # <a name="add-default-sip-domain"></a>既定の SIP ドメインの追加
  

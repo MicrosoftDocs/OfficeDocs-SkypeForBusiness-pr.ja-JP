@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: v-quhur
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ description: 管理センターでアプリの使用状況Teamsレポートを�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 592b333a8a46e90d6092445a6021341887f1b64ff8f26932f4912a6d9a8e7e56
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f1e5c6805b215a0099ee71b1ccb72511bf5fa200
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308368"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590721"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams使用状況レポートを作成する
 
@@ -49,8 +49,8 @@ Teams管理センターのアプリ使用状況レポートMicrosoft Teams、ユ
 |**5**   |すべてのアプリが含まれますが、[フィルター] アイコンを選択すると、追加のフィルターを使用できます。  |
 |**6**   |この表は、アクティブなユーザーとチームの内訳をアプリ名別に示しています。<br><ul><li>**[アプリ名**] は、アプリで使用されるアプリの表示Teams。</li><li>**アクティブ ユーザー** とは、指定した期間中にアプリを少なくとも 1 回開いたユーザーの数です。</li><li>**アプリの** 種類は、"Microsoft" または "サード パーティ" のいずれかの静的な値です。</li><li>**アクティブな** チームとは、チームの少なくとも 1 人のメンバーが指定した期間中にアプリを開いたチームの数です。</li><li>**Publisher** は、アプリのソフトウェア発行元です。</li><li>**バージョン** は、アプリの発行元から提供される、アプリのソフトウェア バージョンです。</li></ul><b> 注:</b> 現在、"アクティブ ユーザー" と "アクティブ なチーム" は、チャネルでのみ使用されるアプリに対して計算されます。     
 
-<br>![アプリの使用状況レポートのスクリーンショット| | ](media/app-usage-report4.png) **7**  |[列 **の編集] を** 選択して、テーブルの列を追加または削除します。<br><br>![[列の編集] ページのスクリーンショット| | ](media/app-usage-report5.png) **8 |**  レポートを CSV ファイルにエクスポートして、オフライン分析を行います。 **[Excel にエクスポート]** をクリックしてから、**[ダウンロード]** タブの **[ダウンロード]** をクリックして、準備のできたレポートをダウンロードします。<br>![[ダウンロード] ページのスクリーンショット| | ](media/app-usage-report7.png) **9 |** レポートを [ビュー] にExcel、アプリ ID を表す **[ID]** 列も表示されます。 通常、チーム ID は英数字の文字列です。 **[Id] 列** に **\n** と表示されている場合は、ユーザーが自分の情報を削除する要求を行いました。<br>![ダウンロードしたレポートのExcelスクリーンショット](media/app-usage-report8.png)  |
+<br>![アプリの使用状況レポートのスクリーンショット| | ](media/app-usage-report4.png) **7**  |[列 **の編集] を** 選択して、テーブルの列を追加または削除します。<br><br>![[列の編集] ページのスクリーンショット| | ](media/app-usage-report5.png) **8 |**  レポートを CSV ファイルにエクスポートして、オフライン分析を行います。 **[Excel にエクスポート]** をクリックしてから、**[ダウンロード]** タブの **[ダウンロード]** をクリックして、準備のできたレポートをダウンロードします。<br>![[ダウンロード] ページのスクリーンショット| | ](media/app-usage-report7.png) **9 |** レポートをアプリで表示Excel、アプリ ID を表す **[ID]** 列も表示されます。 通常、チーム ID は英数字の文字列です。 **[Id] 列** に **\n** と表示されている場合は、ユーザーが自分の情報の削除を要求したという意味です。<br>![ダウンロードしたレポートのExcelスクリーンショット](media/app-usage-report8.png)  |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の分析とレポート](teams-reporting-reference.md)

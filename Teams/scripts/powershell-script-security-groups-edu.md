@@ -10,25 +10,25 @@ audience: admin
 description: この PowerShell スクリプトを使用して、学校の教師と学生のTeamsポリシーを管理するために必要なセキュリティ グループを作成します。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c1108e47500ce127adb780b1f40af5973cef04f873267002bbf87b1b8e69e4cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3cb1f40d79c25b7e0832c5d1576427b83ba980b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296634"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577811"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell スクリプト サンプル - 学校の教師と学生用のセキュリティ グループを作成する
 
 この PowerShell スクリプトを使用して、学校でポリシーを管理するために必要Microsoft Teamsグループを作成します。 グループ[へのポリシーの](../assign-policies.md#assign-a-policy-to-a-group)割り当Teamsグループなどのユーザー グループにポリシーを割り当てできます。 ポリシーの割り当ては、優先規則に従ってグループのメンバーに反映されます。 グループのメンバーが追加または削除されると、それに応じて継承されたポリシーの割り当てが更新されます。
 
-この PowerShell スクリプトは、2 つのセキュリティ グループを作成します。1 つはスタッフと教育者用、もう 1 つはライセンスの種類に基づいて学校の学生用です。 その後、作成したセキュリティ グループにポリシーを割り当てできます。 このスクリプトの使用の詳細については、「学校の大規模なユーザーにポリシーを割り当てる」 [を参照してください](../batch-group-policy-assignment-edu.md)。
+この PowerShell スクリプトは、2 つのセキュリティ グループを作成します。1 つはスタッフと教師用、もう 1 つはライセンスの種類に基づいて学校の学生用です。 その後、作成したセキュリティ グループにポリシーを割り当てできます。 このスクリプトの使用の詳細については、「学校の大規模なユーザーにポリシーを割り当てる [」を参照してください](../batch-group-policy-assignment-edu.md)。
 
 このスクリプトでは、次の手順を実行します。
 

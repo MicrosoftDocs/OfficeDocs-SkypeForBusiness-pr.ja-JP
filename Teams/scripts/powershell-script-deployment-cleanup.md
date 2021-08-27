@@ -10,21 +10,21 @@ audience: admin
 description: この PowerShell スクリプトを使用して、Teamsをアンインストールし、ユーザー Teamsフォルダーを削除します。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542a763127af08344d3d409c5211ff627985124cc191863cf0305e571d55ad5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe59604f6257d6bab736540d48775ffec36e5b9f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316833"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577796"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell のサンプル スクリプト - Teamsのクリーンアップ
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell のサンプル スクリプト - Teamsクリーンアップ
 
 このスクリプトを使用して、Teams。 このスクリプトは、Teamsをアンインストールし、ユーザー Teamsフォルダーを削除します。 コンピューターにインストールされたユーザー プロファイルごとにTeamsスクリプトを実行します。
 
@@ -65,4 +65,4 @@ catch
 ## <a name="related-topics"></a>関連項目
 
 - [Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする](../msi-deployment.md)
-- [アプリケーションをTeamsデプロイMicrosoft 365 Apps](/deployoffice/teams-install)
+- [新しいTeamsをデプロイMicrosoft 365 Apps](/deployoffice/teams-install)

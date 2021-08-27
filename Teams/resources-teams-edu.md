@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
 description: 教育管理者は、リモート学習を有効にMicrosoft Teamsリソースについて学習できます。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,22 +17,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0960d48ab493b36067b8640cf1da3d0659865314
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9ff0509cf38851ac38e20a13cc6c1016bba1b738
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233232"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597641"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向け Microsoft Teams のリソース
 
 ## <a name="resources-for-remote-learning"></a>リモート学習のためのリソース
 
-学校や大学では、リモート学習のMicrosoft Teamsを有効にする必要がありますか? [「Getting Started one-pager](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) and any below adoption materials(1 ページの使用を開始する」と以下のいずれかの導入資料) を使用して、すぐに起動して実行できます。
+学校または大学でリモート学習のMicrosoft Teams必要がありますか? [「Getting Started one-pager](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) and any below adoption materials」 (1 ページ 1 ページの使用を開始する) と以下のいずれかの導入資料を使用して、すぐに起動して実行できます。
 
 ## <a name="adoption-content"></a>導入向けコンテンツ
 
-メール、ポスター、Microsoft Teams、今すぐ使えるその他のリソースを使って、学校の最新情報を知ってみしましょう。 バナー、GIF、ビデオで満たされた新しいデジタル ツールキットを使用して、オンラインとキャンパスをまたがって学生にアクセスできます。 今すぐ始めましょう。
+メール、ポスター、Microsoft Teams、今すぐ使用できるその他のリソースを使って、学校の最新情報を知ってみしましょう。 バナー、GIF、ビデオで満たされた新しいデジタル ツールキットを使用して、オンラインとキャンパスをまたがって学生にアクセスできます。 今すぐ始めましょう。
 
 これらの資料を [使用する前に、使用](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/license_agreement_teams_for_education.pdf?raw=true) 条件をお読みください。
 
@@ -46,7 +46,7 @@ ms.locfileid: "58233232"
 
 ### <a name="digital-assets"></a>デジタル資産
 
-起動を最大化するために、[デジタルToolkitガイダンス](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)をTeamsしてください。 
+起動を最大化するために[、デジタルToolkitガイダンス](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)をTeamsしてください。 
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
@@ -57,7 +57,7 @@ ms.locfileid: "58233232"
 ## <a name="call-to-action"></a>実施すべき内容
 
 - トレーニング、[ビデオMicrosoft Teams for Education対話型](https://www.microsoft.com/en-us/education/products/teams/default.aspx)デモについては、次のページを参照してください。
-- アカウントでTeamsを有効[Microsoft 365 管理センター](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (管理者としてOffice 365します)
+- アカウントで[Teamsを有効](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)にする (Microsoft 365 管理センター管理者としてOffice 365する)
 - Teams クライアントをダウンロードする: [すべてのデバイスで Teams をオンにする](https://teams.microsoft.com/downloads)
 - [Education ヘルプ センター](https://support.office.com/education)で Office 365 for Education について学ぶ
 

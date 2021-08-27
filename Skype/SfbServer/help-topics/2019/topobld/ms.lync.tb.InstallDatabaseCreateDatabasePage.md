@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開用に作成するデータベースを選択します。 既定では、データベースは定義されたサイトの定義済みの SQL Server に作成され、データベースを配置する SQL Server に基づいてデータベース ファイルを自動的に展開および構成します。
-ms.openlocfilehash: 68848c644140d4bea4ec23bbf356da62d85eb6291cab4c7001e66879fe6e6088
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b6a73c88924e953f5c89f5e4ec7553f982da1fdb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279035"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611040"
 ---
 # <a name="install-and-create-databases"></a>データベースのインストールと作成
 

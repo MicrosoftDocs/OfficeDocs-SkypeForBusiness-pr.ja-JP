@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: ba03bf5fec71ebda8cbb65baef78847bd2ae9a6bb04b6f470cd5f84b7fd541ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cbb17b472c805bd26524f94f05fee1c7e33e3078
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313585"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597691"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>音声ルート: 新規作成または現在の形式のままで編集
 

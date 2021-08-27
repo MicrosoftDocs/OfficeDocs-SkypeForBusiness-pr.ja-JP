@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms を展開するためのインフラストラクチャを準備して、すべての機能を利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 46f44d9a07aadc06598495a765bedcd67d1ed03b395c4d9cf4e6696023227c0a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5003bbb3554436ca388990aeebfec4ce6dfb9f57
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346174"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577961"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
@@ -87,7 +87,7 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
 4. HKEY_USERS フォルダーをクリックして (コンピューター ユーザーの SID の一覧が表示されます)、ルート フォルダー HKEY_USERS が選択されていることを確認してください。
        
 5. [ファイル] をクリックし、**[ハイブの読み込み]** を選択します。
-6. **C:\Users\Skype** フォルダーを参照し、[ファイル名] ボックスに NTUSER.dat を入力し、[開く] ボタンを押します。
+6. **C:\Users\Skype** フォルダーを参照し、[ファイル名] ボックスに NTUSER.dat を入力し、開くボタンを押します。
 
 7. 新たに読み込まれたハイブのキー名が求められます。「Skype」と入力します (Skype ユーザーのレジストリ設定が表示されます)。
  
@@ -117,7 +117,7 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
     
 11. サインイン画面に戻り、**Skype** ユーザーを選択します。 上記のすべての手順を正常に完了した場合は、Microsoft Teams Rooms デバイスのサインインに成功します。
     
-会議室に[必要](./security.md#network-security)な FQDN、ポート、IP アドレス範囲の詳細については、ネットワーク セキュリティに関する記事Microsoft Teamsしてください。
+会議室に[必要な](./security.md#network-security)FQDN、ポート、IP アドレス範囲の詳細については、ネットワーク セキュリティに関する記事Microsoft Teamsしてください。
   
   
 ### <a name="create-provisioning-packages"></a>プロビジョニング パッケージを作成する
@@ -150,7 +150,7 @@ Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます
   
 ### <a name="machine-account"></a>コンピューター アカウント
 
-他のデバイスと同様Windowsコンピューター名の名前を変更するには、[PC 名の変更について]を右クリック設定 \> **クリック** \> **します**。
+他のデバイスとWindows、コンピューター名の名前を変更するには、[PC 名の変更について]をクリック設定 \> **クリック** \> **します**。
   
 ドメインに参加した後にコンピューターの名前を変更する場合は **、Rename-Computer** を使用し、PowerShell コマンドに続いてコンピューターの新しい名前を入力します。
   

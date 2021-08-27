@@ -10,22 +10,22 @@ audience: admin
 description: この PowerShell スクリプトを使用して、各マネージャーのチームをチーム メンバーとして作成する準備として、組織のマネージャーとその担当者のリストをエクスポートします。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 120ee0fe4b0211d929722685700b3bbdbc4df2231b0bf5c9e3f53c5d423c2f75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a25e743f1f8191db8323b29bf33c3fed75261fa1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345336"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577821"
 ---
 # <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell スクリプト サンプル - エクスポート マネージャーとその担当者
 
-この PowerShell スクリプトを使用して、組織のマネージャーとその担当者のリストをエクスポートし、チーム メンバーとして各マネージャーの People Manager チームを作成する準備をします。
+この PowerShell スクリプトを使用して、各マネージャーの担当者をチーム メンバーとして作成する準備として、組織のマネージャーとその担当者のリストをエクスポートします。
 
 この PowerShell スクリプトの詳細については、「People Manager チームを作成 [する」を参照してください](../create-manager-directs-teams.md)。
 

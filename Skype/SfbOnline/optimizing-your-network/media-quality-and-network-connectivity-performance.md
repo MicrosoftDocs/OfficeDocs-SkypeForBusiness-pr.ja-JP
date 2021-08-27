@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: このトピックでは、Microsoft Teams サービスのネットワーク パフォーマンス要件のセットと、ネットワーク接続の評価に基づいて、ネットワークと Microsoft Teams の間の接続にインターネットまたは ExpressRoute を使用する方法について説明します。 Microsoft 365 または Office 365 への専用接続用に Azure ExpressRoute をデプロイすることを決定した場合、このドキュメントでは、さまざまな Microsoft Teams デプロイ シナリオで ExpressRoute 接続を計画する方法に関するガイダンスも提供します。
-ms.openlocfilehash: c73922af3befc9070127d9b9937a82f8b8d94e0b
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 3699e225f69deda5fd69b2308dc50337a1d0b228
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407036"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618243"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-microsoft-teams"></a>メディア品質とネットワーク接続のパフォーマンス (Microsoft Teams
 
@@ -76,7 +76,7 @@ IP ネットワーク上のReal-Timeの品質は、ネットワーク接続の�
 > [!NOTE]
 >  ジッターのバッファー処理により、エンドツーエンドの待ち時間が増加します。
   
-多くの同時 Microsoft Teams Real-Time メディア セッション、その他の Microsoft 365 または Office 365 サービスや他のビジネス アプリケーションによって生成されるその他のネットワーク トラフィックでは、ネットワークの輻輳を回避し、優れたメディア Real-Time メディア (オーディオ、ビデオ、アプリケーション共有) の品質を確保するために、ネットワークを Microsoft Teams サービスに接続するネットワーク パス全体に十分な帯域幅が確保されている必要があります。 
+多くの同時 Microsoft Teams Real-Time メディア セッションや、他の Microsoft 365 または Office 365 サービスや他のビジネス アプリケーションによって生成されるその他のネットワーク トラフィックでは、ネットワークの輻輳を回避し、優れたメディア Real-Time メディア (オーディオ、ビデオ、アプリケーション共有) の品質を確保するために、ネットワークを Microsoft Teams サービスに接続するネットワーク パス全体で十分な帯域幅を確保する必要があります。 
   
 #### <a name="implementing-quality-of-service-qos-across-congested-networks"></a>混雑したネットワーク間でのサービス品質 (QoS) の実装
 
@@ -170,7 +170,7 @@ PSTN 通話シナリオでは、メディア パスは次のネットワーク �
 ## <a name="measuring-network-performance"></a>ネットワーク パフォーマンスの測定
 <a name="bkNetworkPerf"> </a>
 
-実際のネットワーク パフォーマンス (特に待機時間とパケット損失の場合) を測定するには、会社のネットワーク サイトからネットワーク エッジまで、ping などのツールを使用し、Microsoft Edge サイトとデータ センター サイトから実行されている一連の Skype for Business メディア リレー サービスに対してテストできます。 
+会社のネットワーク サイトからネットワーク エッジへの実際のネットワーク パフォーマンス (特に待機時間とパケット損失) を測定するには、ping などのツールを使用し、Microsoft Edge サイトとデータ センター サイトから実行されている一連の Skype for Business メディア リレー サービスに対してテストできます。 
 
 >[!NOTE]
 > ping (ICMP) によるネットワーク パフォーマンスの測定は有効ではありません。 このため、以下で公開されている anycast IP は、2020 年 1 月から ICMP 要求への応答を停止します。 ネットワークパフォーマンスを効果的に測定するために、Microsoft では [Network Assesment Tool をお勧めします](https://www.microsoft.com/download/details.aspx?id=53885)。
@@ -190,7 +190,7 @@ Microsoft ネットワークへのインターネット接続をテストする�
     
 - ネットワーク パフォーマンス測定の複数のサンプルを使用する必要があります。 データを収集する期間中は、会社のサイトから 10 分ごとに測定することをお勧めします。 ネットワーク パフォーマンス要件Microsoft Teams比較するには、このサンプル データ セットから 90 パーセントの測定値を取得します。 
     
-- ネットワークのパフォーマンスを継続的に評価する必要があります。 ネットワーク使用率は、使用パターンの変更、大量の帯域幅を使用する新しいエンタープライズ ベースのアプリケーション、組織または物理的な会社の場所の変更により、時間の長い間変化します。 これらのネットワーク パフォーマンス要件とターゲット/しきい値に対してネットワーク パフォーマンスを継続的に監視し、メディア品質を最適な状態にReal-Timeすることが重要です。 
+- ネットワークのパフォーマンスを継続的に評価する必要があります。 ネットワーク使用率は、使用パターンの変更、大量の帯域幅を使用する新しいエンタープライズ ベースのアプリケーション、組織または物理的な会社の場所の変更により、時間の長い間変化します。 これらのネットワーク パフォーマンス要件とターゲット/しきい値に対してネットワーク パフォーマンスを継続的に監視し、最適なメディア品質を確保するために適時に調整Real-Time重要です。 
     
 ## <a name="measuring-network-performance-using-azure-vms"></a>Azure VM を使用したネットワーク パフォーマンスの測定
 <a name="bkNetworkPerf"> </a>
@@ -284,14 +284,14 @@ Border Gateway Protocol (BGP) は、インターネット上のネットワー�
   
 BGP コミュニティのサポートにより、Microsoft はプレフィックスとルートに、属するサービスに基づいて適切な BGP コミュニティ値でタグ付けします。 Microsoft は、パブリック ピアリングと Microsoft ピアリングを通じてアドバタイズされたプレフィックスに、プレフィックスがホストされているリージョンを示す適切な BGP コミュニティ値でタグ付けします。 コミュニティの値に依存して、最適なルーティングを提供するために適切なルーティングの決定を行います。 BGP コミュニティ値の Microsoft Teamsを使用して、ゲートウェイの ExpressRoute 接続のみを設定Microsoft Teams。 詳細については [、「ExpressRoute のルーティング要件」を参照してください](/azure/expressroute/expressroute-routing)。
   
-## <a name="expressroute-connectivity-scenarios-for-microsoft-teams"></a>Microsoft Teams の ExpressRoute 接続シナリオ
+## <a name="expressroute-connectivity-scenarios-for-microsoft-teams"></a>ExpressRoute 接続のシナリオ (Microsoft Teams
 <a name="bkNetworkPerf"> </a>
 
 上記の推奨事項に基づいて ExpressRoute を使用することを決定した場合は、取得する必要がある ExpressRoute 接続の場所と数に関する推奨事項を次に示します。
   
 ### <a name="online-only-deployment---single-site"></a>オンラインのみ展開 - 単一サイト
 
-すべてのユーザーが Microsoft Teams サービスを使用し、オフィスが 1 つの物理的な場所を中心に配置され、Azure ExpressRoute をデプロイする場合は、会社サイト間の ExpressRoute 接続を最も近い[ExpressRoute](/azure/expressroute/expressroute-locations)ピアリングの場所に設定する必要があります。
+すべてのユーザーが Microsoft Teams サービスを使用し、オフィスが 1 つの物理的な場所を中心に配置され、Azure ExpressRoute をデプロイする場合は、会社サイト間の ExpressRoute 接続を最も近い ExpressRoute ピアリングの場所に設定する[必要があります](/azure/expressroute/expressroute-locations)。
   
 次の図は、この種類のデプロイの例を示しています。 この例では、Contoso はフロリダ州オーランドにある大学です。 Contoso には 10,000 人の教職員と学生がいます。 その場所からサイトへのインターネット テストMicrosoft Edgeクラス時間のピーク時にパケット損失が 5% を超えました。 特に Microsoft Teams Real-Time トラフィックに対する Microsoft 365 または Office 365 のネットワーク輻輳を回避するために、ExpressRoute と過剰にプロビジョニングされた帯域幅を使用して Microsoft 365 または Office 365 への専用接続を取得することを決定しました。 GA MeetMe サイトのアトランタにある ExpressRoute を介して Microsoft クラウドに接続します。
   
@@ -299,9 +299,9 @@ BGP コミュニティのサポートにより、Microsoft はプレフィック
   
 ### <a name="online-only-deployment---multiple-sites-on-the-same-continent"></a>オンラインのみ展開 - 同じ大陸上の複数のサイト
 
-会社が同じ地域または大陸にある複数のオフィスの Microsoft Teams サービスを使用している場合、Azure ExpressRoute を実装することを選択した場合は、ExpressRoute を介してメイン サイトを接続し、必要に応じて、推奨されるネットワーク パフォーマンス ターゲットを満たしていない他の場所に ExpressRoute ピアリングを追加することを推奨します。
+会社が同じ地域または大陸の複数のオフィスから Microsoft Teams サービスを使用している場合、Azure ExpressRoute を実装することを選択した場合は、ExpressRoute を介してメイン サイトを接続し、必要に応じて、推奨されるネットワーク パフォーマンス ターゲットを満たしていない他の場所に ExpressRoute ピアリングを追加することを推奨します。
   
-次の例では、Contoso はニューヨークに本社を置き、米国全体に他のオフィスを持つ米国旅行サービス会社です。 オフィスは、MPLS を使用してネットワークまたはネットワークに接続する WAN を介Microsoft 365接続Office 365。 最初に、ニュージャージー州ホボーケンのインターネット ルーターからニューヨーク MeetMe サイトへの ExpressRoute 接続を設定しました。 
+次の例では、Contoso はニューヨークに本社を置き、米国全体に他のオフィスを持つ米国旅行サービス会社です。 オフィスは、MPLS を使用してネットワークまたはネットワークに接続する WAN Microsoft 365接続Office 365。 最初に、ニュージャージー州ホボーケンのインターネット ルーターからニューヨーク MeetMe サイトへの ExpressRoute 接続を設定しました。 
   
 この設定により、ほとんどのサイトから Microsoft Network (New York Edge サイト) へのネットワーク トラフィックは[、「Skype for Business](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)クライアントから Microsoft ネットワーク エッジへのネットワーク パフォーマンス要件」で説明されている Skype for Business クライアント接続ネットワーク パフォーマンス ターゲットを満たします。 ただし、Contoso の西海岸オフィスからニューヨークへの間の待ち時間は、50 ミリ秒を超える場合があります。 さらに、Contoso の 2 番目に大きなオフィスである、80 ミリ秒を超える待機時間は、一方通行で 80 ミリ秒を超える、Contoso のオフィスです。 これらのオフィスのユーザーに優れたメディア品質を確保するために、Contoso は、San Jose サイトとシリコン バレー ExpressRoute MeetMe サイトの間に西海岸 ExpressRoute 接続を追加することを決定しました。
   
@@ -309,7 +309,7 @@ BGP コミュニティのサポートにより、Microsoft はプレフィック
   
 ### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>オンラインのみ展開 - 異なる大陸の複数のサイト
 
-すべてのユーザーが Microsoft Teams サービスを使用している場合、オフィスが複数の大陸にまたがって複数の物理的な場所にある場合、Azure ExpressRoute をデプロイする場合は、各大陸のメイン サイト間の各大陸の ExpressRoute 接続を、最も近い[ExpressRoute](/azure/expressroute/expressroute-locations)ピアリングの場所に設定する必要があります。 コストとメリットに応じて、ネットワーク パフォーマンス ターゲットが満たされていないサイトから追加の ExpressRoute 接続をデプロイすることができます。
+すべてのユーザーが Microsoft Teams サービスを使用している場合、オフィスが複数の大陸にわたって複数の物理的な場所にある場合は、Azure ExpressRoute をデプロイする場合は、各大陸のメイン サイト間の各大陸の ExpressRoute 接続を、最も近い[ExpressRoute](/azure/expressroute/expressroute-locations)ピアリングの場所に設定する必要があります。 コストとメリットに応じて、ネットワーク パフォーマンス ターゲットが満たされていないサイトから追加の ExpressRoute 接続をデプロイすることができます。
   
 次の例では、Contoso は、北米とヨーロッパの主要都市にオフィスを持つ大規模な企業の法律事務所です。 Contoso は、インターネット接続と内部ネットワーク パフォーマンス評価に基づいて、北米に 2 つの ExpressRoute 接続をデプロイし、ヨーロッパのすべてのオフィスに 1 つの ExpressRoute 回線をデプロイすることを決定しました。
   
@@ -317,11 +317,11 @@ BGP コミュニティのサポートにより、Microsoft はプレフィック
   
 ### <a name="hybrid-deployment"></a>ハイブリッドデプロイ
 
-オンプレミスの Lync または Microsoft Teams デプロイを使用し、ハイブリッド Microsoft Teams 統合を実装する場合は、Azure ExpressRoute をデプロイする場合は、オンプレミスの Lync または Microsoft Teams Edge サイトごとに少なくとも 1 つの ExpressRoute 接続と、オフィスのある大陸ごとに少なくとも 1 つの ExpressRoute 接続が必要です。 コストとメリットに応じて、大陸ごとに、ネットワーク パフォーマンス ターゲットが満たされていないオフィスから追加の ExpressRoute 接続をデプロイすることができます。
+オンプレミスの Lync または Microsoft Teams デプロイを使用し、ハイブリッド Microsoft Teams 統合を実装する場合は、Azure ExpressRoute をデプロイする場合は、オンプレミスの Lync または Microsoft Teams Edge サイトごとに少なくとも 1 つの ExpressRoute 接続と、オフィスがある大陸ごとに少なくとも 1 つの ExpressRoute 接続が必要です。 コストとメリットに応じて、大陸ごとに、ネットワーク パフォーマンス ターゲットが満たされていないオフィスから追加の ExpressRoute 接続をデプロイすることができます。
   
-オンプレミスのデプロイ環境があるMicrosoft Teams、Edge Server Planning and Deployment Guide に従[う必要があります](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)。 具体的には、ネットワークの外部から Edge サーバーに到達できる必要があります。 これは通常、Routable パブリック IP アドレスを Edge サーバーに割り当てるか、ネットワーク アドレス変換 (NAT) を使用して実現されます。
+オンプレミスのデプロイを使用しているMicrosoft Teams、Edge Server Planning and Deployment Guide に従[う必要があります](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)。 具体的には、ネットワークの外部から Edge サーバーに到達できる必要があります。 これは通常、Routable パブリック IP アドレスを Edge サーバーに割り当てるか、ネットワーク アドレス変換 (NAT) を使用して実現されます。
   
-次の例では、Contoso は既存のオンプレミスのデプロイMicrosoft Teams エンタープライズ VoIPしています。 オンプレミスユーザーをオンライン サービスに移行Microsoft 365またはOffice 365する必要があります。 また、すべてのオンプレミスユーザーとオンライン ユーザーに対して既存の PSTN インフラストラクチャを引き続き使用できるよう、ハイブリッド展開を使用することを決定しました。 Contoso のオンプレミス データ センターと Skype for Business エッジ サーバーはシカゴにあります。 Contoso はデプロイのために、シカゴのデータ センターとシカゴ ExpressRoute の間に 1 つの ExpressRoute 接続を設定することを決定しました。 また、西海岸の ExpressRoute 接続を追加して、より良いサービスを提供しています。
+次の例では、Contoso は既存のオンプレミスのデプロイMicrosoft Teams エンタープライズ VoIPしています。 オンプレミスのユーザーをオンライン サービスに移行Microsoft 365またはOffice 365する必要があります。 また、すべてのオンプレミスユーザーとオンライン ユーザーに対して既存の PSTN インフラストラクチャを引き続き使用できるよう、ハイブリッド展開を使用することを決定しました。 Contoso のオンプレミス データ センターと Skype for Business エッジ サーバーはシカゴにあります。 Contoso はデプロイのために、シカゴのデータ センターとシカゴ ExpressRoute の間に 1 つの ExpressRoute 接続を設定することを決定しました。 また、西海岸の ExpressRoute 接続を追加して、より良いサービスを提供しています。
   
 ![ExpressRoute ハイブリッド。](../images/a7467c56-642f-44e5-adfb-ecca91ba2dd3.png)
   
@@ -331,7 +331,7 @@ Skype for Business クラウド コネクタ エディションは、オンプ�
   
 Azure ExpressRoute と Cloud Connector Edition をデプロイする場合は、各大陸のメイン サイト間の大陸ごとに少なくとも 1 つの ExpressRoute 接続を、最も近い ExpressRoute ピアリングの場所に設定することをお [勧めします](/azure/expressroute/expressroute-locations)。 コストとメリットに応じて、大陸ごとに、ネットワーク パフォーマンス ターゲットが満たされていないサイトから追加の ExpressRoute 接続をデプロイできます。
   
-オンプレミスのデプロイを使用している場合Microsoft Teamsの計画ガイド[に従う必要Skype for Business クラウド コネクタ エディション。](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md) 具体的には、Access Edge サービスと A/V Edge サービスにパブリック IP アドレスを割り当て、データ センター Microsoft 365アクセスOffice 365必要があります。
+オンプレミスのデプロイを使用している場合Microsoft Teams計画ガイドに従って、次の手順[を実行Skype for Business クラウド コネクタ エディション。](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md) 具体的には、Access Edge サービスと A/V Edge サービスにパブリック IP アドレスを割り当て、データ センター Microsoft 365アクセスOffice 365必要があります。
   
 次の例では、Contoso はヨーロッパのいくつかの主要な国と都市にプレゼンスを持つヨーロッパの会計会社です。 すべてのコラボレーション ニーズに合った Microsoft Teams にサインアップするときに、既に存在する PSTN インフラストラクチャと通信事業者の契約を引き続き使用するために、物理的な場所を持つ国ごとにクラウド コネクタを設定することを決定しました。 すべてのサイトと Microsoft ネットワーク エッジからのテストに基づいて、ロンドンの 1 つの ExpressRoute 接続が[、「Skype for Business](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)クライアントから Microsoft ネットワーク エッジへのネットワーク パフォーマンス要件」で説明されている Microsoft Teams クライアント接続ネットワーク パフォーマンス ターゲットを満たすのに役立つと判断しました。
   
@@ -341,7 +341,7 @@ Contoso のもう 1 つのデプロイ オプションを次に示します。 �
   
 ![ExpressRoute クラウド コネクタ 2。](../images/06d967a9-64f5-4d7d-98ed-3f3add1b7c2b.png)
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online の ExpressRoute および QoS](expressroute-and-qos-in-skype-for-business-online.md)
 

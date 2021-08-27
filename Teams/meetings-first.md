@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: lsomi
 description: Meetings First について説明します。Meetings First を使用すると、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成できます。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9053c3ff27300f8699a3f4fdd7de6175d752df78684eb133be457da61873f65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4da9ef3034b4918e51fbe00bdae3df01df1a6495
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276153"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590761"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -32,7 +32,7 @@ ms.locfileid: "54276153"
 
 ## <a name="what-is-meetings-first"></a>Meetings First とは
 
-Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づいています。 会議 First は製品や機能ではない。Teams と Skype for Business の機能と機能を使用して、独自にカスタマイズされた共存エクスペリエンスを提供する構成です。
+Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づいています。 Meetings First は製品や機能ではない。Teams と Skype for Business の機能と機能を使用して、独自にカスタマイズされた共存エクスペリエンスを提供する構成です。
 
 Meetings First では、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成します。 Teams と Skype for Business の間にモダリティの重複はありません。 チャット、通話、プレゼンスは、Skype for Business ではオンになり、Teams ではオフになります。 これにより、Skype for Business と Teams の間で、共存中のユーザーの操作環境を向上する独自の "優れた連携" シナリオだけでなく、**Teams のみ** のユーザーを対象とした相互運用性のシナリオも実現します。
 
@@ -111,7 +111,7 @@ Meetings First のすべての機能とユーザー エクスペリエンス (Te
 
 ![Meetings First を有効にする管理設定のスクリーンショット](media/teams-meeting-admin-settings.png)
 
-必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションから Teams アプリケーションとチャネル アプリケーションを非表示にし、アプリ設定ポリシー を使用して実現できる会議にさらに集中する必要[があります。](teams-app-setup-policies.md)
+必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションから Teams と Channels アプリケーションを非表示にし、アプリ設定ポリシー を使用して実現できる会議にさらに集中する必要[があります。](teams-app-setup-policies.md)
 
 ## <a name="reporting-and-call-analytics"></a>レポート作成と通話分析
 

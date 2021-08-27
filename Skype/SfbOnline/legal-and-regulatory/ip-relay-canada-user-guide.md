@@ -12,19 +12,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: カナダの IP Relay アカウントを使用する方法。
-ms.openlocfilehash: ac3ac8b480f1759437fa74572544d85f17542e9288c925ebd07bfaea9a25e0de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316513"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618263"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>カナダでの IP 中継 - 『ユーザーガイド』
 
@@ -33,12 +33,12 @@ ms.locfileid: "54316513"
 Microsoft からの IP Message Relay サービスの説明:
 
 ## <a name="scenario-a"></a>シナリオ A
-聴覚障がい者または音声障がいのあるユーザーが、障がいを持つユーザーと連絡を取る場合は、特別な Web ベースのクライアントを介して通話受け取り者と呼ばれるエージェントに "チャット" します。
+聴覚障がい者または音声障がいのあるユーザーが、障がいのあるユーザーと連絡を取る場合は、特別な Web ベースのクライアントを介して通話受け取り者と呼ばれるエージェントに "チャット" します。
 
-通話の受話者は、チャット セッションを介して聴覚障がい者または音声障がい者と通信し、必要に応じてカナダまたは米国の任意の場所にある電話ネットワークを介して、障がいのある人と連絡を取る。
+通話の受話者は、チャット セッションを介して聴覚障がい者または音声障がい者と通信し、必要に応じてカナダまたは米国の任意の場所にある電話ネットワークを介して、障がいを持つ人と連絡を取る。
 
 ## <a name="scenario-b"></a>シナリオ B
-障がいのあるユーザーが、登録されている聴覚障がいのあるユーザーまたは音声障がいのあるユーザーと話したい場合は、Microsoft が提供する無料電話番号に電話します。
+障がいを持つユーザーが、登録されている聴覚障がいのあるユーザーまたは音声障がいのあるユーザーと話したい場合は、Microsoft が提供する無料電話番号に電話します。
 
 通話受話者は、その後、障がいのある人と通信し、聴覚障がい者または音声障がい者とチャットを介して連絡を取り、やり取りします。
 
@@ -47,7 +47,7 @@ Microsoft からの IP Message Relay サービスの説明:
 ## <a name="scenario-c"></a>シナリオ C
 聴覚障がい者または音声障がい者が緊急支援を必要とする場合は、適切なボタン (911 – Police / 911 – Fire / 911 – Ambulance) を選択できます。
 
-これにより、北 IP Relay オペレーターに緊急通知が送信され、この目的のために設計された 911 アカウントにアクセスします。 通話の受け取りが自分のアドレスを確認すると、適切な PSAP に連絡し、必要に応じてその行にとどまる。
+これにより、北 IP Relay オペレーターに緊急通知が送信され、この目的のために設計された 911 アカウントにアクセスします。 通話の受け取りが自分のアドレスを確認すると、適切な PSAP に連絡し、必要に応じてその行に残されます。
 
 ## <a name="how-to-place-a-text-chat-to-voice-call"></a>音声通話にテキスト チャットを配置する方法
 
@@ -67,7 +67,7 @@ https://aka.ms/IPRelay
 - 音声ユーザーは(866) 660-8613 を呼び出して、IP Message Relay オペレーターに接続できます。
 - 通話またはチャットを受信するには、IP Message Relay ポータルにログインする必要があります。
 
-### <a name="how-to-place-a-911-call"></a>911 呼び出しを配置する方法:
+### <a name="how-to-place-a-911-call"></a>911 通話を行う方法:
 緊急対応の場合は、画面の下部にある適切な緊急ボタンを選択できます (次に示します)。
 
 ![緊急ボタン](../images/ip-relay-emergency-buttons.png)
@@ -75,7 +75,7 @@ https://aka.ms/IPRelay
 IP Message Relay オペレーターは、911 に連絡し、住所を確認し、必要がなくなったら適切な部署が自分の場所に派遣されるまで、さまざまな緊急センターで翻訳します。
 
 > [!WARNING]
-> このサービスは、単なるテストと示した場合でも、適切な機関に連絡され、ディスパッチされる可能性があります。また、緊急機関から誤ったディスパッチ料金が請求される可能性があります。このサービスはテストを行う必要があります。
+> このサービスは、単なるテストであり、緊急機関からの偽のディスパッチ料金が請求される可能性がある場合でも、適切な機関に連絡され、場合によってはディスパッチされますので、このサービスをテストしなださい。
 
 #### <a name="customer-support"></a>カスタマー サポート:
 特別プロジェクト [(specialprojects@northern911.com](mailto:specialprojects@northern911.com) または (705) 222-1733 にお問い合わせください。
@@ -83,7 +83,7 @@ IP Message Relay オペレーターは、911 に連絡し、住所を確認し�
 > [!IMPORTANT]
 > Northern911 は、Microsoft に代わって IP リレー サービスを管理します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [カナダでの IP 中継 - サインアップ](ip-relay-canada-email-signup.md)
 

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: オフライン インスタント メッセージング (IM) を有効または無効にする方法については、Skype for Business Server。
-ms.openlocfilehash: ba9045f0e161b4056142fc69528a4f1e7c01a11637c1bff42ec7cc14fe7610a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 31c27a84965e3b75515c206f8dc984b2eaa178eb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578041"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>[オフライン インスタント メッセージング (IM) を有効または無効にする] Skype for Business Server
  

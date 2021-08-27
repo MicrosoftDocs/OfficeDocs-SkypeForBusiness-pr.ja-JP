@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 監視サーバーを削除するには、関連付けられたフロントエンド プール、フロント エンド サーバー、存続可能ブランチ アプライアンス、存続可能ブランチ サーバーの依存関係を変更またはクリアする必要があります。 フロントエンド プール、フロントエンド サーバー、存続可能ブランチ アプライアンス、存続可能ブランチ サーバーのプロパティを編集して、依存関係を削除します。 依存関係をクリアしてトポロジ ビルダーでサーバーを削除すると、トポロジ ビルダーの関連付けられたデータベース ストア オブジェクトも削除されます。
-ms.openlocfilehash: 8e4c4b08c6126f6ac2c03d66e9ddcfe921b79850e704c54c65d6951c1449aa9f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 703fbfa68fe75d4e8c4a297c81eae27b0f5118c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280402"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590591"
 ---
 # <a name="remove-the-monitoring-server-association"></a>監視サーバーの関連付けの削除
 

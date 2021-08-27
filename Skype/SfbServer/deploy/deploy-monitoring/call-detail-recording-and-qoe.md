@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: '概要: CDR と QoE を構成する方法についてSkype for Business Server。'
-ms.openlocfilehash: 7c7cd1efefb2cfc52e6cf40d3b78cbc87774b40db4e4d2b012e79d1f657994cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e04ac3fcf269ba9520e874e123f165f2fd4269a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304369"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604236"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>[通話の詳細の記録] と [エクスペリエンスの品質] の設定を構成Skype for Business Server
  
@@ -35,7 +35,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
 サーバーをインストールSkype for Business Server、CDR と QoE の両方のグローバル構成設定の定義済みのコレクションもインストールします。 以下の表に、通話詳細記録で比較的よく使用される一部の設定の既定値を示します。
   
-|**Property**|**説明**|**既定値**|
+|**プロパティ**|**説明**|**既定値**|
 |:-----|:-----|:-----|
 |EnableCDR  <br/> |CDR が有効かどうかを示します。True の場合、すべての CDR レコードが収集され、監視データベースに書き込まれます。  <br/> |正解  <br/> |
 |EnablePurging  <br/> |CDR レコードをデータベースから定期的に削除するかどうかを示します。True の場合、KeepCallDetailForDays プロパティ (CDR レコードの場合) および KeepErrorReportForDays プロパティ (CDR エラーの場合) で指定されている期間を過ぎると、レコードが削除されます。False の場合、CDR レコードは無期限に保持されます。  <br/> |正解  <br/> |
@@ -44,7 +44,7 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
    
 同様に、一部の QoE 設定の既定値を以下の表に示します。
   
-|**Property**|**説明**|**既定値**|
+|**プロパティ**|**説明**|**既定値**|
 |:-----|:-----|:-----|
 |EnableQoE  <br/> |QoE 監視が有効かどうかを示します。True の場合、すべての QoE レコードが収集され、監視データベースに書き込まれます。  <br/> |正解  <br/> |
 |EnablePurging  <br/> |QoE レコードをデータベースから定期的に削除するかどうかを示します。True の場合、KeepQoEDataForDays プロパティで指定されている期間を過ぎると、レコードが削除されます。False の場合、QoE レコードは無期限に保持されます。  <br/> |正解  <br/> |

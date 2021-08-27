@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Microsoft Skype for Business Server 2019 に移行した後、Skype for Business Server 2019 を構成して System Center Operations Manager を構成する必要があります。
-ms.openlocfilehash: 477fbd3c405328ffac4aa70a722120d375e95b295bf5a23d19882248d1ece54e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 756e83ad0a8c964954f43518dc8603802d45c40d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279615"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590661"
 ---
 # <a name="configure-scom-monitoring"></a>SCOM 監視の構成
 
