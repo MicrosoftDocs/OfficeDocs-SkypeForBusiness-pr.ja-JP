@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: フェデレーションのサポートは、パートナー ドメインやサポートしているパブリック インスタント メッセージング (IM) プロバイダー ユーザーを含む、信頼できる顧客またはパートナー組織のアカウントを持つユーザーが組織内のユーザーと共同作業を行う場合に必要です。
-ms.openlocfilehash: 105ed8a4090835be22847aa1ce2cc9788af74b5d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 6675bf36c5ef7b27941d47f5a2291ecdb75eece6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234172"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581361"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>フェデレーションおよびパブリック IM 接続を有効または無効にするSkype for Business Server
 

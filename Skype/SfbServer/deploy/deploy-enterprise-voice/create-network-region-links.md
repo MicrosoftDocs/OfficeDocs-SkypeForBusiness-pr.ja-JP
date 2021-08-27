@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: ネットワーク地域リンクを作成または変更します。このリンクは、エンタープライズ VoIPの通話受付管理でSkype for Business Server。
-ms.openlocfilehash: a332d3cb966247118d951626ac305c4a9f85e21d4b90b6011a07a1220f01170a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bea44eaabf94c2b37db4d9e50f9266744670fb2a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325470"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594165"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>ネットワーク領域リンクを作成 Skype for Business Serverする
  

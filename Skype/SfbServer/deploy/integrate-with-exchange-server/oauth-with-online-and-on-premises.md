@@ -10,16 +10,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: オンプレミスとオンラインの間Exchange OAuth 認証をSkype for Businessすると、「機能のサポート」でSkype for BusinessおよびExchange統合機能を有効にします。
-ms.openlocfilehash: 8342fefa10fcd66cd7cd10c121b787a05a7a0401d5235bbc70b2412bb538e5e4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8adb5209a00d1b42dc57f9de8635ade40966f9f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300283"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621779"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>オンラインとサーバー間の統合と OAuth Skype for Business構成Exchange Server 
 
@@ -31,7 +31,7 @@ Exchange サーバーと Skype for Business Online 間の統合を構成する�
 
 - このタスクの予想所要時間:15 分
 
--  この手順を実行する前に、あらかじめアクセス許可が割り当てられている必要があります。 必要なアクセス許可を確認するには、「Exchangeシェル インフラストラクチャのアクセス許可[」を参照](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help)してください。
+-  この手順を実行する際には、あらかじめアクセス許可が割り当てられている必要があります。 必要なアクセス許可を確認するには、「Exchangeシェル インフラストラクチャのアクセス許可[」を参照](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help)してください。
 
 - このトピックの手順で使用可能なキーボード ショートカットについては、「[Exchange 管理センターのキーボード ショートカット]( https://go.microsoft.com/fwlink/p/?LinkId=746512)」を参照してください。
 
@@ -152,6 +152,6 @@ OAuth が正常に使用されたことを確認する場合は、何を期待�
 
 セットアップの例 [を次](/archive/blogs/kaevans/updated-fiddler-oauth-inspector)に示しますが、このプロセスを実行するには、任意のネットワーク トレース ツールを使用できます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Exchange と Exchange Online 組織の間の OAuth 認証を構成する](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

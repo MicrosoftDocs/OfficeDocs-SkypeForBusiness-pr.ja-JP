@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: 'Skype for Business で使用できるPolycom、HP、Mitel 製の電話の種類と、必要なライセンスについて説明します。 '
-ms.openlocfilehash: de18fdc6d7b945987efdde8eaffd8db0c0e5154cf4d1c758572db5696b23f617
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607434"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Skype for Business Online で使う電話を入手する
 
@@ -36,9 +36,9 @@ ms.locfileid: "54320959"
 [] Skype for Business Online は、Skype for Business アプリよりも従来式の電話の機能性や操作性を利用したいユーザー向けに、デスクトップ電話に適合および対応しています。このトピックでは、Skype for Business Online での使用でサポートされる電話およびファームウェアのバージョンについて説明し、組織内で電話機をセットアップする際に役立つその他の情報を提供します。
 
 > [!NOTE]
-> SkypeFor Business は、Microsoft Teams の主要な通信方法として、Microsoft 365 に置き換Office 365。  詳細[については、「Office 365 のインテリジェントな通信に関する新しい](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)ビジョン」を参照してください。
+> SkypeFor Business は、Microsoft Teams の主要な通信方法として、Microsoft 365 に置き換Office 365。  詳細[については、「インテリジェント通信の新しいビジョン」Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)を参照してください。
 >
->サポートされているデバイスに関する最新の更新プログラムと最新の情報を取得するには、インテリジェントな通信用のMicrosoft Teamsデバイスに関する[ページを参照してください](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
+>サポートされているデバイスに関する最新の更新プログラムと最新の情報を取得するには、インテリジェントな通信に関するMicrosoft Teamsデバイスに関するページ[を参照してください](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
   
 ## <a name="supported-phones"></a>サポートされている電話
   
@@ -60,13 +60,13 @@ Yealink 電話の詳細については、「IP Phone のSkype for Business[を�
 AudioCodes 電話機の詳細については、「[Skype for Business の IP 電話機](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions)」をご覧ください。
   
 > [!NOTE]
-> Lync Phone Edition は Skype for Business Online でサポートされていますが、Microsoft Teams ではサポートされていません。 LPE プラットフォームのメインストリーム サポートは 2014 年 4 月 10 日に終了し、Lync Server 2013 の製品サポート ライフサイクルに合わせて 2023 年 4 月 11 日までサポートが延長されました。 LPE のライフ サイクルの詳細については、 「[マイクロソフト製品ライフ サイクル](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)」をご覧ください。 LPE CAP モデルは Skype for Business Online でサポートされません。
+> Lync Phone Edition は Skype for Business Online でサポートされていますが、Microsoft Teams ではサポートされていません。 LPE プラットフォームのメインストリーム サポートは 2014 年 4 月 10 日まで終了し、Lync Server 2013 の製品サポート ライフサイクルに合わせて 2023 年 4 月 11 日までサポートが延長されました。 LPE のライフ サイクルの詳細については、 「[マイクロソフト製品ライフ サイクル](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)」をご覧ください。 LPE CAP モデルは Skype for Business Online でサポートされません。
 >
 > 今年の後半、Office 365 1.2 より前のバージョンの TLS はサポートされていません。 LPE の基盤となるオペレーティング システムでは TLS 1.2 をサポートしていないため、LPE の Office 365 への接続はサポートされなくなります。 詳細については、「[Office 365での TLS 1.2 の必須使用に対する準備](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365)」を参照してください。
   
 ## <a name="supported-firmware"></a>サポートされているファームウェア
 
-これは、サポートされている電話がサポートされている電話で動作するために必要な最小限のソフトウェア リリース電話システム。
+これは、サポートされている電話がサポートされている電話でサポートされているデバイスを使用するために必要な最小ソフトウェア 電話システム。
   
 ||||
 |:-----|:-----|:-----|
@@ -76,7 +76,7 @@ AudioCodes 電話機の詳細については、「[Skype for Business の IP 電
 |Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
 |AudioCodes  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
 
-現在の認定ファームウェア バージョンの詳細については、IP Phone のSkype for Business[を参照してください](../../../SfbPartnerCertification/certification/devices-ip-phones.md)。
+現在の認定ファームウェア バージョンの詳細については、「IP Phone のSkype for Business[を参照してください](../../../SfbPartnerCertification/certification/devices-ip-phones.md)。
 
 > [!NOTE]
 > ユーザーを Skype for Business Online に移行する前に、オンプレミスの展開用にセットアップした Lync Phone Edition (LPE) の電話機を、最低限のまたはそれ以降の必要なファームウェアに更新する必要があります。携帯電話のファームウェアを更新する前にユーザーをオンプレミスから Skype for Business Online に移行した場合、それらの電話機は Skype for Business Online に接続できません。 
@@ -122,7 +122,7 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 ## <a name="what-else-should-you-know"></a>その他の情報
 詳細な設定手順については、「[Skype for Business Online 電話機の展開レポート](deploying-skype-for-business-online-phones.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 
 [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

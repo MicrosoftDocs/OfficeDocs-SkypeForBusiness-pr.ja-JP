@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: 証明書を要求、割り当て、削除、または表示するには、証明書ウィザードを使用します。 この場合は、RTCUniversalServerAdmins グループのメンバーとしてログインする必要があります。 パブリック証明機関 (CA) からの証明書を要求する場合は、グループ メンバーシップを追加する必要はありません。 組織の公開キー インフラストラクチャ (PKI) から証明書を要求するには、必要なグループ メンバーシップが追加されている場合に、その他のメンバーを確認する必要があります。 要求タスク中に、PKI の発行元 CA から証明書を要求するために使用される代替資格情報を入力できます。
-ms.openlocfilehash: 16b49874302e7756558537b93637100ed82229bbd0d6976b6efed395486060fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d966786f65311920370890a7091012929af7fa3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297533"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621689"
 ---
 # <a name="certificate-wizard"></a>証明書ウィザード
  

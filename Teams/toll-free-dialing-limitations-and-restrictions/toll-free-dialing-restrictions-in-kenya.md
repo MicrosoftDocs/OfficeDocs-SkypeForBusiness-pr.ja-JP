@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など、ケインで無料電話番号にダイヤルする方法について学習します。
-ms.openlocfilehash: 818d7667a2d9e788f9ff81abc0ed5bcfdb6b29c284ed2890f69f0b80f79d49ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7f5938e8259645fca4df12100bb2f56a3ce934e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600982"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>ケニアでのフリーダイヤル制限
 

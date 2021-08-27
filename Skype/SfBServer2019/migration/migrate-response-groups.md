@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: ユーザーが 2019 年 2019 Skype for Business Serverに移動された後、応答グループを移行できます。 応答グループの移行には、エージェント グループ、キュー、ワークフロー、オーディオ ファイルのコピー、およびレガシ展開から Skype for Business Server 2019 プールへの応答グループの連絡先オブジェクトの移動が含まれます。 従来の応答グループを移行すると、応答グループへの呼び出しは、2019 プール内の応答グループ Skype for Business Server処理されます。 応答グループへの呼び出しは、レガシ プールによって処理されなくなりました。
-ms.openlocfilehash: 83edbfd97fac08aded66ce042adecda9fee7b539588e717323eeaeda36003041
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96eecb0ad10a900a9d00d26383e149ceec4cbfe8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303561"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588029"
 ---
 # <a name="migrate-response-groups"></a>応答グループの移行
 
@@ -57,7 +57,7 @@ Skype for Business Server 2019 では、ワークフローの種類と呼ばれ�
     
 2. 管理シェルをSkype for Business Serverする: [スタート] をクリックし、[すべてのプログラム] をクリックし、[Microsoft Skype for Business Server **2019]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
-3. 次のコマンドを実行します。
+3. 次を実行します: 
     
    ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
@@ -97,7 +97,7 @@ Skype for Business Server 2019 では、ワークフローの種類と呼ばれ�
    Get-Help <cmdlet name> -Detailed
    ```
 
-3. 次のコマンドを実行します。
+3. 次を実行します: 
     
    ```PowerShell
    Get-CsRgsAgentGroup
@@ -105,7 +105,7 @@ Skype for Business Server 2019 では、ワークフローの種類と呼ばれ�
 
 4. 従来の環境内のすべてのエージェント グループがリストに含まれているか確認します。
     
-5. 次のコマンドを実行します。
+5. 次を実行します: 
     
    ```PowerShell
    Get-CsRgsQueue
@@ -113,7 +113,7 @@ Skype for Business Server 2019 では、ワークフローの種類と呼ばれ�
 
 6. 従来の環境内のすべてのキューが一覧に含まれているか確認します。
     
-7. 次のコマンドを実行します。
+7. 次を実行します: 
     
    ```PowerShell
    Get-CsRgsWorkflow

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: フロントエンド プールで有効にする各機能を選択します。 少なくとも、インスタント メッセージング (IM) を展開する必要があります。これは常に有効であり、選択解除できません。 また、会議、電話会議、通話受付管理 (CAC) などの他エンタープライズ VoIP展開することもできます。 一部の機能はトポロジに依存します。
-ms.openlocfilehash: 82b67016b4e7902e258b73889134f60c59b0cabf59a125d3f1e8bde88011f355
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9777b4661106d55688e0a5728e95f5da8dc0e763
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291455"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614705"
 ---
 # <a name="add-front-end-features"></a>フロント エンドの機能の追加
 

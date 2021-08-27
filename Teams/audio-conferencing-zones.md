@@ -14,18 +14,18 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - seo-marvel-mar2020
 description: 電話会議のゾーンと、各ゾーンの国と地域を一覧表示します。
-ms.openlocfilehash: 8f09956b2d5a2e0e874926c50b78f79f5357117ce76ba47126842c266777ceca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4723ca8cd6a0f9dc1488f2e587fa1929db8cc2a9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279784"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578421"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>電話会議の国と地域のゾーン
 
@@ -84,6 +84,6 @@ ms.locfileid: "54279784"
 
 - [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [音声会議の無料ダイヤル アウト期間](complimentary-dial-out-period.md)
-- [電話会議サブスクリプションの "ダイヤルアウト"/"通話場所" 分の特典](audio-conferencing-subscription-dial-out.md)
+- [電話会議サブスクリプション "ダイヤルアウト"/"通話場所" 分の特典](audio-conferencing-subscription-dial-out.md)
 - [電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](outbound-calling-restriction-policies.md)
 - [コミュニケーション クレジットについて](what-are-communications-credits.md)

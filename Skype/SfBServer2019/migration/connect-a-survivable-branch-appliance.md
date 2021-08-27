@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: すべての存続可能ブランチ アプライアンス (SBA) は、SBA のバックアップ レジストラーとして機能するフロントエンド プールに関連付けられている。 フロントエンド プールを Skype for Business Server 2019 に移行する場合、プールのアップグレード中に SBA をフロント エンド プールから関連付け解除する必要があります。プールが Skype for Business Server 2019 に移行された後、SBA をアップグレードされたフロント エンド プールに再関連付けできます。 これには、トポロジ ビルダーの従来のトポロジから SBA を削除し、SBA を 2019 年のトポロジにSkype for Business Serverします。 従来の SBA に存在するユーザーは、トポロジから SBA を削除する前に、まず別のフロントエンド プールに移動する必要があります。 SBA が 2019 年 2019 年のトポロジに追加Skype for Business Server、それらのユーザーを SBA に戻す必要があります。 これらの手順の概要を次に示します。
-ms.openlocfilehash: 4977868c45b274adea514d84e251f682da02cc8ee486a5a182d984ee652f3ae2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c431451503efd23039b4c358488bfc5bce03ba65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313875"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588049"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>存続可能ブランチ アプライアンスの接続
 

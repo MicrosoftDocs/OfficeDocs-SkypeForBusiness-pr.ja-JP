@@ -9,15 +9,15 @@ ms.topic: reference
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Skype for Business 2016、Skype for Business、Lync 2013 クライアントの最新の更新情報へのリンクを IT プロに提供します
-ms.openlocfilehash: 93691e0bccf48e6f1be8a37f817ae3617a4a9301cf12c6e462bb1d66f57a7a84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349679"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581341"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Windows インストーラー (MSI) を使用しているバージョンの Skype for Business の最新の更新プログラム
 
@@ -316,6 +316,6 @@ Skype for Business環境Microsoft 365またはOffice 365との互換性は、展
 | [Lync 2010 Attendee - 管理者レベルのインストール](https://www.microsoft.com/download/en/details.aspx?id=23396) | 2013 年 4 月   |
 | [Lync 2010 Attendee - ユーザー レベルのインストール](https://www.microsoft.com/download/en/details.aspx?id=15755)  | 2014 年 6 月    |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Server 更新プログラム](sfb-server-updates.md)

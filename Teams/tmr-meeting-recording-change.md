@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Microsoft Teams で Stream から OneDrive for Business および SharePoint meeting の記録ストレージに切り替える方法について説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0642a35cb99e276b3df6e657c2bf5b68c8cdadb8
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 5ad01fc901772fdc815ec2bee84eb833479de01e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380401"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601092"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -188,6 +188,6 @@ Stream は、近い将来プラットフォームとして廃止の予定はあ�
 
 「[どのポリシーが優先されますか?](./assign-policies.md#which-policy-takes-precedence)」を参照してください。
 
-**ユーザーが容量または容量を持OneDrive for Business、またはSharePointクォータが満たされている場合、記録はどこに行くのですか?**
+**ユーザーが容量または容量を持OneDrive for Business、またはSharePointクォータが満たされている場合、記録はどこに移動しますか。**
 
 記録は、21 日間保持される一時的な保存場所に保存されます。 その間、開催者はレコーディングをダウンロードする必要があります。 21 日以内にダウンロードされない場合、記録は削除されます。

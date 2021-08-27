@@ -9,17 +9,17 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 管理者は、更新プログラム、ユーザー インターフェイス、ハードウェア、制限事項や想定される動作を含む、Microsoft Teams Rooms の既知の問題のリストについて知ることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2fdc4a641c5f507ed52f76779cee77aebe3897188f508f46a54747b4710ba424
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: adf3b0fb7642b4a9774459527af304fe33167352
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345366"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578321"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -61,7 +61,9 @@ Microsoft Teams Rooms は、HDMI インジェストの機能 (ビデオ、オー
 
 ***
 
-ルームの前方ディスプレイを、ソースがスタンバイ モードから復帰したときにアクティブなビデオ ソース (MTR コンソールなど) に自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアで機能がサポートされている場合は、Microsoft Teams Rooms ソフトウェアによってサポートされます。 ルームの前方ディスプレイとして使用される一般向けテレビは、HDMI の CEC (Consumer Electronics Control) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があるため、製造元のサポート ドキュメントを参照してください) に応じて、適切な動作を実現するには、Crestron 社の [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) や Extron 社の [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) などのコントローラーが必要になる場合があります。 
+ルームの前方ディスプレイを、ソースがスタンバイ モードから復帰したときにアクティブなビデオ ソース (MTR コンソールなど) に自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアで機能がサポートされている場合は、Microsoft Teams Rooms ソフトウェアによってサポートされます。 ルームの前方ディスプレイとして使用される一般向けテレビは、HDMI の CEC (Consumer Electronics Control) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があるため、製造元のサポート ドキュメントを参照してください) に応じて、適切な動作を実現するには、Crestron 社の [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) や Extron 社の [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) などのコントローラーが必要になる場合があります。
+
+さらに、ルーム ディスプレイの前面として使用されるコンシューマーテレビは、Microsoft Teams Rooms ソフトウェアの安定性の問題を引き起こす可能性があります。 これは、スタンバイ モードの一貫性のない実装、アクティブなビデオ ソースの選択、および障害のある EDID 情報を Microsoft Teams Rooms デバイスに伝達するために発生します。 既知の症状は、ルーム ディスプレイの前面の黒/灰色の画面、または Microsoft Teams Rooms コンソールがスタンバイからスリープ解除した後に応答しなくなるなどです。  コンシューマーテレビを使用するときに問題が発生する場合は、構成可能な EDID コントローラーまたは EDID エミュレーターをインストールすることをお勧めします (例: [Hd-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) fromのCedron または FSR Video Products Group の[DR-EDID Emulator)。](https://fsrinc.com/fsr-products/product/dr-edid-manager-learner/category_pathway-143)
 
 ***
 

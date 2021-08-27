@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
 description: 正しいファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、オンライン電話の設定を構成するためのSkype for Business説明します
-ms.openlocfilehash: 072a7caa6d5b9caa1827f5f93973a12e77c1823063fad8706469a4fabfa87ff2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a053928a242be3d7798a5d9c3cc608e3176807c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295804"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607444"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -97,9 +97,9 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>ステップ 6 - ユーザーのサインインの準備
 
-ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。 最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。 詳細については、「Skype for Businessおよび追加Microsoft Teams[ライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)の割り当て」と「Skype for Business[割りMicrosoft Teamsできます](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。 最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。 詳細については、アドオン ライセンスのSkype for BusinessとMicrosoft Teams[を](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)確認し、ライセンスを割り当Skype for Business[割りMicrosoft Teamsできます](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
   
-通話プランの詳細については、「通話プラン」と「通話プラン[電話システムを参照してください。](/microsoftteams/calling-plan-landing-page)
+通話プランの詳細については、「通話プランと通話プラン電話システム[参照してください。](/microsoftteams/calling-plan-landing-page)
   
 - Online ユーザーが利用できる **サインイン オプション** は次のとおりです。
     
@@ -208,7 +208,7 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
     
      ![PC への接続を示すスクリーン ショット](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。 ユーザー エクスペリエンスを向上するために、BToE ソフトウェアを配布およびインストールするには、管理配布ソリューション (例: Microsoft Endpoint Configuration Manager。 Configuration Manager の使用に関するヘルプについては、「Configuration Manager の [パッケージとプログラム」を参照してください](/configmgr/apps/deploy-use/packages-and-programs)。
+2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。 ユーザー エクスペリエンスを向上するために、管理配布ソリューション (例: Microsoft Endpoint Configuration Manager) を使用して BToE ソフトウェアを配布およびインストールMicrosoft Endpoint Configuration Manager。 Configuration Manager の使用に関するヘルプについては、「Configuration Manager の [パッケージとプログラム」を参照してください](/configmgr/apps/deploy-use/packages-and-programs)。
     
    - [Polycom BToE ソフトウェア ダウンロード サイト](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -221,7 +221,7 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
 > [!NOTE]
 > BToE は Mac および VDI プラットフォームでは現在サポートされていません。 
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 
 [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

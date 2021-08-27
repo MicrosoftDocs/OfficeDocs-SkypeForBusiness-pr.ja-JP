@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsSelProperty
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: '[プロパティの割り当て] ダイアログ ボックスを使用して、複数のサブネットに対して説明とネットワーク サイト ID を一度に指定します。[説明] で、選択したサブネットで使用する説明を入力します。[ネットワーク サイト ID] で、選択したサブネットに割り当てるネットワーク サイト ID を選択します。選択したサブネットにこれらのプロパティを割り当てるには、[OK] をクリックします。'
-ms.openlocfilehash: 2a1e3ffb89c31be7538efb891a2f99d9dc0bcc4133189a085356aa08c6670997
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d85d90f861c1f177a9af1874428378f465ba760
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307408"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581581"
 ---
 # <a name="assign-properties"></a>プロパティの割り当て
  

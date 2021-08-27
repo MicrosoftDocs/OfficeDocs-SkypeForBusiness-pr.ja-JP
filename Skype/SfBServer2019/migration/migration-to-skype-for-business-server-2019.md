@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: このセクションのトピックでは、2019 年から 2019 年Skype for Business Server説明します。
-ms.openlocfilehash: 1014fe5d491823c427eb588aac86757afb997578b519abf2249f481c91a3d4aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6eb192c11ec8d1f44539e3bd5180249d85180d2b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303401"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587979"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>2019 Skype for Business Serverへの移行
 

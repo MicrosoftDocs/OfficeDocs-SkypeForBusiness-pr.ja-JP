@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 音声とビデオの会議ポリシー設定Teamsを管理する方法について学習します。
-ms.openlocfilehash: a14bcdf1780a1d10f0b9604727126591105dbed04fa8b663eab968a93f45ac67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2fcfb2525abf935cc8d26e7fe330fa4edff48f90
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578361"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音声ビデオの会議ポリシー&設定
 

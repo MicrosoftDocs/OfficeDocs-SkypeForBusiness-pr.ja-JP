@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ArchivingServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 description: トポロジ ビルダーでは、コンソール ツリーでプールを右クリックし、[プロパティの編集] を選択して、アーカイブを実行しているサーバーに関連するタスクを実行できます。 [プロパティの編集] ページで、アーカイブを実行しているサーバーの完全修飾ドメイン名 (FQDN)、アーカイブ SQL Server データベース、およびアーカイブ ファイル ストアを変更できます。
-ms.openlocfilehash: 136c589d465baffadc29621f2886bb47eae0b0a6e7cffc6433bc25edbefacb66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43b8aed8e8d5bb7c6c82eab38f8c5302f8d54b5f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341942"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581381"
 ---
 # <a name="archiving-server-scope-node"></a>アーカイブ サーバーのスコープ ノード
  
