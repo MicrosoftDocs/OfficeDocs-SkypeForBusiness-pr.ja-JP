@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSave
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: '[音声ルーティング テスト ケース情報の保存] ダイアログ ボックスを使用して、一時的音声ルーティング テスト ケースを保存できます。[音声ルーティング テスト ケース情報の保存] の [名前] に、このテスト ケースに付ける名前を入力して [OK] をクリックします。'
-ms.openlocfilehash: 831b20ed5be936dcbcf9a634789dd28b80cac6004e68e865d58c880550df6058
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a00cd0f267d5cb1b7b284f912a8dccbcf12a419
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291175"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579001"
 ---
 # <a name="save-voice-routing-test-case-information"></a>音声ルーティングのテスト ケース情報の保存
  

@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 管理センターでチーム テンプレートを管理する方法について説明します
-ms.openlocfilehash: a8fa2833f00c1d943bfa1b935492a80bd98444d1780eff1382b0952781aa471e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310406"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578191"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートを管理する
 
@@ -112,7 +112,7 @@ A: はい。
 1. [ユーザー] リスト テーブルで、特定のテンプレート ポリシーに割り当てるユーザーを選択します。
 1. [設定の編集] を選択し、[テンプレート ポリシー] フィールドを変更します。
 1. [適用] を選択します。
-   詳細については[、「Microsoft Docs でポリシーをユーザーに割り当Microsoft Teams - \| Microsoft Teams」を参照してください](./assign-policies.md#assign-a-policy-to-a-batch-of-users)。
+   詳細については、「[ポリシーをユーザーに割り当てる」を参照Microsoft Teams - Microsoft Docs Microsoft Teams \| を参照してください](./assign-policies.md#assign-a-policy-to-a-batch-of-users)。
 
 **Q: 特定のポリシーに割り当てられているすべてのユーザーを表示する方法**
 

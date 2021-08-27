@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
 description: 'オンライン管理者によるユーザーの表示Skype for Business制限内で作業する方法について説明します。 '
-ms.openlocfilehash: d2a5903f2ce5fb5671123e7b8fca090826f39a69a8f98f5c628d0351a4b73bd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e05a07bbf4cca57a8f5c983dedec159956250cc0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334469"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592081"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Skype for Businessオンライン管理センターのユーザー ページの制限事項
 
@@ -43,9 +43,9 @@ ms.locfileid: "54334469"
     
 リストの下部にあるコントロールを使用して、各ページに表示されるユーザーの数を変更できます。
   
-![ページ上のユーザー数を変更する [ユーザー] ページ ナビゲーション](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
+![ページ上のユーザー数を変更する [ユーザー] ページナビゲーション](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

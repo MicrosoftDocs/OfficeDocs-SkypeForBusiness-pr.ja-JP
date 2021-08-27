@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: '概要: グループ ポリシーを管理する方法。'
-ms.openlocfilehash: 8bf4d1eb07f2386d07c3cc9e4d529b06a392631ba5cea2d66cf02cc7742ed1f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fccd578b18686ea6c9ce1a5686042f5c25c4f54
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294944"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578151"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>クライアント ブートストラップ ポリシーの構成
  
@@ -51,9 +51,9 @@ ms.locfileid: "54294944"
 
 |**Precedence**|**設定の場所と方法**|
 |:-----|:-----|
-|1  <br/> |Skype for Business Serverインバンド プロビジョニング  <br/> |
-|2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|1   <br/> |Skype for Business Serverインバンド プロビジョニング  <br/> |
+|2   <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|3   <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |4   <br/> |[オプション] ダイアログ ボックス (Skype for Business  <br/> |
    
 ### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>管理用テンプレート ファイルを使用してグループ Skype for Business設定を定義するには

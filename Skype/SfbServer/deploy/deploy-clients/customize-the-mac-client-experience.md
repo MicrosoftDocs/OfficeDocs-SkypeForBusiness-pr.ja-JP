@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: この記事では、Mac クライアントで使用できるクライアントの基本設定と既定値Skype for Businessアプリの外部から編集する方法について説明します。
-ms.openlocfilehash: bf93b08686ed245fab38364cf9aff4fee0526a8bd496231865640aeb2c6e67f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ece447b7d3bce37784e0f1d0b3f8fe3746fce86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325494"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578131"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Mac クライアント エクスペリエンスをカスタマイズSkype for Business
  
@@ -43,7 +43,7 @@ Mac クライアントで使用できる特定の機能Skype for Business動作�
 |httpProxyUserName    |String    ||HTTP プロキシのユーザー名    |
 |httpProxyPassword    |String    ||HTTP プロキシ パスワード    |
 |trustedDomainList    |配列    ||HTTP リダイレクトの信頼できるドメインの一覧。    |
-|autoAcceptTimeout    |番号    |300 (既定)    |サーバー側の会話履歴のないユーザーの自動受け入れタイムアウト。    |
+|autoAcceptTimeout    |数値    |300 (既定)    |サーバー側の会話履歴のないユーザーの自動受け入れタイムアウト。    |
 |warnWhenUnknownLocationForE911    |ブール    |0 = 無効  <br/> 1 = 有効    |不明な場所から緊急電話番号をダイヤルするときにユーザーに警告します。    |
 |sipAddress    |String    ||サインインに使用する SIP アドレス (電子メール) Skype for Business。    |
 |userName    |String    ||ユーザーがサインインするために使用する UPN (UserName) Skype for Business。    |

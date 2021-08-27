@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: abgupta
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -16,24 +16,24 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b2b6b346e9ffed5a9f4d3e6b03519db2f716b3ed584e0fccdfcbcfd3326d32c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e8f123bf7a351689747649b75f429588445a5d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339405"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625929"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>チームの有効期限と更新 (Microsoft Teams
 
 チームの数が多い組織には、実際には使用しないチームが多い場合があります。 これは、製品の実験、短期的なチームコラボレーション、組織を離れるチーム所有者など、いくつかの理由が原因で発生する可能性があります。 時間が経過すると、このようなチームは蓄積し、テナント リソースに負担を生み出す可能性があります。  
 
-未使用のチームの数を抑制するには、管理者としてグループの有効期限ポリシー Microsoft 365[](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)使用して、未使用のチームを自動的にクリーンアップできます。 チームはグループによって支えられますので、グループの有効期限ポリシーはチームにも自動的に適用されます。
+未使用のチームの数を抑制するには、管理者としてグループの有効期限ポリシー Microsoft 365[使用](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)していないチームを自動的にクリーンアップできます。 チームはグループによってサポートされます。そのため、グループの有効期限ポリシーはチームにも自動的に適用されます。
 
 有効期限ポリシーをチームに適用すると、チーム所有者は、チームの有効期限の 30 日前、15 日前、1 日前にチームの更新に関する通知を受け取ります。 チーム所有者は、通知を受け取った後、チーム設定で [今すぐ **更新** ] をクリックしてチームを更新できます。
 
 ![チーム設定でチームを更新する [今すぐ更新] ボタンのスクリーンショット](media/team-expiration.png "チーム設定でチームを更新する [今すぐ更新] ボタンのスクリーンショット")
 
-チームの所有者がチームを更新しない場合、有効期限ポリシーが終了するまでチームにそれ以上のアクティビティがない場合、チームは "ソフト削除" 状態になります。つまり、今後 30 日以内に復元できます。
+チーム所有者がチームを更新しない場合、有効期限ポリシーが終了するまでチームでそれ以上のアクティビティがない場合、チームは "ソフト削除" 状態になります。つまり、今後 30 日以内に復元できます。
 
 ## <a name="team-auto-renewal"></a>チームの自動更新
 
@@ -45,4 +45,4 @@ ms.locfileid: "54339405"
 
 **チームと基になるグループの有効期限が一致しない**
 
-チームが更新される前に、チームをバックアップするグループが最初に更新されます。 更新の一環として、グループに将来の日付の新しい有効期限が設定されます。 この新しい日付は、この日付がすぐに表示Teams。 同期には最大 24 時間かかる場合があります。チームとその基になるグループの有効期限の間に不一致が表示される場合は、24 時間待ってサポートを受け取る必要があります。
+チームが更新される前に、チームをバックアップするグループが最初に更新されます。 更新の一環として、グループに将来の日付の新しい有効期限が設定されます。 この新しい日付は、新しい日付がすぐに表示Teams。 同期には最大 24 時間かかる場合があります。チームとその基になるグループの有効期限の間に不一致が表示される場合は、24 時間待ってサポートを受け取る必要があります。

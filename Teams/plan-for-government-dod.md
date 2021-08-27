@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: daro
 audience: admin
 description: IT のプロが、米国政府の DoD Office 365対象となるデータを処理するエンティティでのデプロイを支援するガイダンスです。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,19 +19,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 318ea793a037ecf47d48663e94b1c19e09fb2bcb8556b9f401f314d0bb9e998d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c5503ceefb331098e62ef8aa72bc82119a6e563
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339475"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625989"
 ---
 # <a name="plan-for-office-365-government---dod-deployments"></a>DoD デプロイOffice 365 Government計画する
 
-このガイダンスは、Office 365 Government – DoD の使用がこれらの要件を満たすために適切である、政府の規制や要件の対象となるデータを処理する米国連邦政府機関または他のエンティティへの Office 365 の展開を推進している IT プロ向けです。
+このガイダンスは、Office 365 Government – DoD の使用がこれらの要件を満たすために適切である、政府の規制や要件の対象となるデータを処理する米国連邦政府機関または他のエンティティでの Office 365 の展開を推進している IT プロを対象とします。
 
 > [!NOTE]
-> 組織が既に Office 365 Government – DoD の資格要件を満たし、プログラムに適用され、受け入れ済みの場合は、手順 1 と 2 をスキップし、手順 3 に直接進みます。
+> 組織が既に Office 365 Government – DoD の資格要件を満たし、プログラムに適用され、プログラムに同意されている場合は、手順 1 と 2 をスキップして、手順 3 に直接進みます。
 
 ## <a name="step-1-determine-whether-your-organization-needs-office-365-government---dod-and-meets-eligibility-requirements"></a>手順 1. 組織が DoD - DoD をOffice 365 Government資格要件を満たす必要があるかどうかを判断します。 
 
@@ -42,13 +42,13 @@ Office 365 Government - DoD 環境は、クラウド サービスに関する米
 - 組織の顧客コンテンツへのアクセスは、Microsoft の担当者に限定されます。
 - Office 365 Government – DoD は、米国の公的機関のお客様に必要な認定と認定に準拠しています。
 
-米国政府機関のお客様向け Office 365 Government – DoD オファリングの詳細については、Office 365 Government[プランに関](https://products.office.com/government/compare-office-365-government-plans)するページを参照してください。利用資格要件も[含め)。](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
+米国政府のお客様向け Office 365 Government – DoD オファリングの詳細については[](https://products.office.com/government/compare-office-365-government-plans)、Office 365 Government プランに関するページを参照してください。資格要件を[含む](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements))。
 
-米国[Office 365サービス](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)の説明では、米国内のコンプライアンス要件を満たしていることを中心に、プラットフォームの利点について説明します。
+米国[Office 365サービス](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)の説明では、米国内のコンプライアンス要件を満たしていることを中心にプラットフォームの利点について説明します。
 
 
 > [!Tip]
-> サービスの説明の情報のテーブルを Excel ブックに転送し、2 つの列を追加することができます。組織 **の Y/N** に関連し、組織の **Y/N** のニーズを満たします。 その後、この一覧を同僚と確認して、このサービスが組織のニーズを満たしたと確認できます。
+> サービスの説明の情報のテーブルを Excel ブックに転送し、2 つの列を追加できます。これは、組織 **の Y/N** に関連し、組織の **Y/N** のニーズを満たします。 その後、この一覧を同僚と確認して、このサービスが組織のニーズを満たしたと確認できます。
 
 
 |    |     |
@@ -74,23 +74,23 @@ Office 365 Government - DoD 環境は、クラウド サービスに関する米
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---dod"></a>手順 4. DoD Teamsで現在使用できる機能Office 365 Government理解する
 
-政府機関向けクラウドのお客様の要件に対応するために、Office 365 Government - DoD の Teams と Enterprise プランの Teams にはいくつかの違いがあります。 使用できる機能については、次の表を参照してください。
+政府機関向けクラウドのお客様の要件に対応するために、Office 365 Government - DoD の Teams と Teams プランの Enterprise にはいくつかの違いがあります。 使用できる機能については、次の表を参照してください。
 
 [Microsoft Teamsの説明](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>手順 5. ガバナンスの計画
 
-ガバナンスの要件とそれらを満たす方法を決定します。 詳細については[、「Teams ガバナンスの](plan-teams-governance.md)計画」を参照してください。
+ガバナンスの要件とそれらを満たす方法を決定します。 詳細については[、「Teams ガバナンスの計画](plan-teams-governance.md)」を参照してください。
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|判断ポイント |<ul><li>ガバナンスの要件を決定し、文書化します。このガイドラインは、「Teams でのガバナンスの計画」[のガイドラインに従Teams。](plan-teams-governance.md) </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|判断ポイント |<ul><li>ガバナンス要件を決定し、文書化します。このドキュメントの「ガバナンスの計画」のガイドライン[に従Teams。](plan-teams-governance.md) </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>手順 6. コラボレーションTeamsをデプロイする
 
-Office 365 Government – DoD にオンボードした後は、「Microsoft Teams のロールアウト方法」で説明されている推奨される[デプロイ パスに従Microsoft Teams。](./deploy-overview.md) 必ず、導入および変更管理チームと新しいTeamsしてください。
+Office 365 Government – DoD へのオンボードが完了した後、「Microsoft Teams をロールアウトする方法」で説明されている推奨されるデプロイ[パスに従Microsoft Teams。](./deploy-overview.md) 必ず、導入および変更管理チームと新しいTeamsしてください。
 
 サービスのオンボードには[、FastTrack](https://www.microsoft.com/fasttrack)パートナーと一緒に作業を行う方法があります。
 
 > [!NOTE]
-> DOD Teams Mac クライアントはまだサポートされていません。
+> DOD 環境Teams Mac クライアントはまだサポートされていません。

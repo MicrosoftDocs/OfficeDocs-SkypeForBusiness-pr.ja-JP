@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: '概要: Skype for Business でサポートされているクライアントとアプリのレビュー。'
-ms.openlocfilehash: ad49be489b827136fbd698f873140acc014f6a571c18d7ed3dc46213b74af465
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5bf793c052d665c579294529b78a5fd69c81be3c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310955"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598761"
 ---
 # <a name="plan-for-clients-and-devices"></a>クライアントとデバイスを計画する
 

@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: 一般に、システムのフォールト トレランスを構築する方法として、ハードウェアを冗長構成にする、給電が途切れないようにする、セキュリティ更新プログラムやウイルス対策を定期的にインストールする、サーバーの利用状況を監視するなどの手段を既に講じていることでしょう。 これらのプラクティスは、インフラストラクチャだけでなくSkype for Business Serverネットワーク全体にもメリットがあります。 これらのプラクティスを実装していない場合は、展開する前に実行することをお勧Skype for Business Server。
-ms.openlocfilehash: 21173b6fe924938ebabfecc0c36b3abdce092b4c9e902284530ec47d2c1ca8bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c1fe367921344fb62440ce804a8bde4287bfb381
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318702"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584911"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>インフラストラクチャのコア インフラストラクチャのベスト プラクティスSkype for Business Server
  

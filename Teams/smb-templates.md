@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,20 +17,20 @@ appliesto:
 ms.reviewer: lavenkat
 description: Microsoft Microsoft Teamsに組み込Graphテンプレートを使用して、中小企業向けのチームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 971b7b0d3be009938a05b7b8fd38105cc273d6158309c69c30cb7c22c51d3fce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80ebae188ce6b6f00186a9e97a25eb4c006930da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323939"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625949"
 ---
 # <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams Microsoft Graph for Small and Medium Businesses に組み込みのテンプレート
 
 Microsoft Teams テンプレートでは、設定、チャネル、事前にインストールされたアプリの定義済みテンプレートを使用することで、チームをすばやく簡単に作成できます。
 
-中小企業の場合、テンプレートは特に強力な機能を備え、管理者は組織全体にTeamsを迅速にデプロイするのに役立ちます。 テンプレートは、ユーザーを方向付けし、効果的に使用Teamsにも役立ちます。 この記事は、組織全体で複数のチームを計画、デプロイ、管理する責任がある場合に役立ちます。
+中小企業の場合、テンプレートは特に強力な機能を持つ可能性があります。テンプレートは、管理者が組織全体にすばやくTeamsを展開するのに役立ちます。 テンプレートは、ユーザーを方向付けし、効果的に使用Teamsにも役立ちます。 この記事は、組織全体で複数のチームを計画、デプロイ、管理する責任がある場合に役立ちます。
 
-現在、さまざまな状況で利用できる 3 つのファースト パーティ SMB テンプレートを提供しています。 すべてのテンプレートでプライベート テンプレート *がTeams。* アプリケーションを作成Teams組織に展開する準備ができたら、必要に応じてプライバシーを *Org-Wide* または *Public* に設定できます。 一般的なチーム テンプレートの詳細については、「[Teams テンプレートの使用を開始する](get-started-with-teams-templates.md)」をご参照ください。
+現在、さまざまな状況で利用できる 3 つのファースト パーティ SMB テンプレートを提供しています。 すべてのテンプレートでプライベート テンプレート *がTeams。* アプリケーションを作成Teams組織に展開する準備ができたら、必要に応じて、プライバシーを *Org-Wide* または *Public* に設定できます。 一般的なチーム テンプレートの詳細については、「[Teams テンプレートの使用を開始する](get-started-with-teams-templates.md)」をご参照ください。
 
 ## <a name="company-wide-template"></a>Company-Wide テンプレート
 このCompany-Wideは、会社全体に関連するコミュニケーションとコラボレーションを意図しています。 会社全体のお知らせ、業界ニュース、またはエグゼクティブの投稿には、[全般] チャネルを使用できます。 人事チャネルは、ジョブの投稿、新しい従業員のオンボーディング、トレーニング、開発など、人事関連のすべてのアクティビティを統合する最適な場所です。 [Fun Stuff] チャネルは、すべてのランダムで楽しい投稿にソーシャル プラットフォームを提供します。
@@ -57,7 +57,7 @@ Content-Type: application/json
 
 ## <a name="executive-team-template"></a>エグゼクティブ チーム テンプレート
 
-エグゼクティブ チーム テンプレートは、年間の優先順位、会計予算、戦略イニシアティブ、トップ クライアントなどの会社のイニシアティブについて、会社のエグゼクティブがコミュニケーションを取り、共同作業するためのチームを作成する場合に最適です。 このテンプレートには、特定のトピック *の* 選択したユーザーを招待するプライベート チャネルが付属しています。
+エグゼクティブ チーム テンプレートは、会社のエグゼクティブが年間の優先順位、予算、戦略イニシアチブ、トップ クライアントなどの会社のイニシアティブについてコミュニケーションと共同作業を行うチームを作成する場合に最適です。 このテンプレートには、特定のトピック *の* 選択したユーザーを招待するプライベート チャネルが付属しています。
 
 | 基本テンプレートの種類  | baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
@@ -174,7 +174,7 @@ Content-Type: application/json
 
 ```
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [管理コンソールでTeamsテンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
 - [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)

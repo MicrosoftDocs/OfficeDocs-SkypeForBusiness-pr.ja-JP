@@ -15,30 +15,30 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'ダイヤルイン会議プロバイダー、状態、およびいくつかの回避策として Microsoft を使用する場合の既知の問題の一覧を取得します。 '
-ms.openlocfilehash: ee47417941ae39eff966ab2a2d4eb0e07e7d451e404b95ddb66816c61be42664
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6304de40d7c7cd9f3d798af2050276ee6fe2b104
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301843"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578161"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>電話会議のトラブルシューティングと既知の問題
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
- **この記事は、電話Skype for Business Microsoft を使用しているユーザーを特定する方法について説明します。サード パーティの電話会議プロバイダー (ACP) を使用しているお客様には適用されません。**
+ **この記事は、電話Skype for Businessとして Microsoft を使用しているユーザーを特定する方法について説明します。サード パーティの電話会議プロバイダー (ACP) を使用しているお客様には適用されません。**
   
 ## <a name="troubleshooting-and-known-issues"></a>トラブルシューティングと既知の問題
 
 Microsoft を電話会議プロバイダーとして使用する電話会議には、現在の問題が追跡され、積極的に調査中であり、Microsoft 365 の将来のリリースで機能が更新された場合に解決される可能性があります。
   
-ここでは、電話会議をセットアップし、組織内の Skype for Business を使用しているユーザーのために作業する際の潜在的な問題のトラブルシューティングを行う場合は、参照として使用してください。
+ここでは、組織内の Skype for Business を使用しているユーザーの電話会議のセットアップと作業に関する潜在的な問題のトラブルシューティングを行う場合の参考として使用します。
 
 |**問題**|**動作/現象**|**既知の回避策**|**発見日**|
 |:-----|:-----|:-----|:-----|
@@ -46,7 +46,7 @@ Microsoft を電話会議プロバイダーとして使用する電話会議に�
 |E5 ライセンスを割り当て、最初にユーザーをプロビジョニングするときに、メールボックスが有効でないユーザーに電話会議のようこそメールが配信されないことがある。  <br/> |これが発生した場合は、Skype for Business 管理センター の [ **電話会議**] を使用するか、PowerShell を使用してユーザーの電話会議情報をいつでも再送信することができます。 「 [電話会議の設定が変更された場合にメールの送信を有効または無効にする」を参照してください](enable-or-disable-sending-emails-when-their-settings-change.md)。  <br/> **注:** ユーザーに電話会議 PIN を再送信するには、PIN をリセットする必要があります。 これを行うには、Skype for Business 管理センター の [ **電話会議**] を使用するか、PowerShell を使用します。          |回避策なし。  <br/> |8/30/2017  <br/> |
 |電話会議の通話が利用状況レポートに表示されるのに最大 24 時間かかる。  <br/> |将来のサービスの更新では、この点について機能強化が図られることが予定されています。  <br/> |回避策なし。  <br/> |8/30/2017  <br/> |
 |Skype for Business ユーザーが会議をロックした後で、発信者が会議ブリッジにダイヤルインしても、ユーザーがロビーで待っていることを知らせる通知がSkype for Business アプリにない。  <br/> |これは現在の設計上の仕様ですが、今後のサービス更新でこの機能のサポートに関するフィードバックを採用しています。  <br/> |回避策なし。  <br/> |8/30/2017  <br/> |
-|2019 年 3 月 1 日より前に電話会議ライセンスを割り当てられた Skype for Business Server (オンプレム) ユーザーは、会議の招待にダイヤルが調整されていない可能性があります。  <br/> |電話Skype for Business Server会議Teamsユーザーのプロビジョニングは、その日までサポートされていませんでした。 現在はサポートされ、会議の最初の [コンポーネントです](/microsoftteams/meetings-first)。 ユーザーは、ライセンスを持Teamsがあります。  <br/> |プロビジョニング パイプラインを再アクティブ化する必要があります。 ユーザーの電話会議ライセンスを削除し、数時間待ってライセンスを再割り当てします。  <br/> |2019/3/1  <br/> |
+|2019 年 3 月 1 日より前に電話会議のライセンスを割り当てられた Skype for Business Server (オンプレム) ユーザーは、会議の招待にダイヤルが調整されていない可能性があります。  <br/> |電話Skype for Business Server会議Teamsユーザーのプロビジョニングは、その日までサポートされていませんでした。 現在はサポートされ、Meetings First の [コンポーネントです](/microsoftteams/meetings-first)。 ユーザーは、ライセンスを持Teams必要があります。  <br/> |プロビジョニング パイプラインを再アクティブ化する必要があります。 ユーザーの電話会議ライセンスを削除し、数時間待ってライセンスを再割り当てします。  <br/> |2019/3/1  <br/> |
    
 ## <a name="related-topics"></a>関連項目
 

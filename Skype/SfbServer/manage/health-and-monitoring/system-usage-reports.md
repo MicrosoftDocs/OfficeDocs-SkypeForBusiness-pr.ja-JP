@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: '概要: [システム使用状況レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: 05704b507e52785e0b34c69616fce338a0e6c3a271e72d4f15eb5a126771bb11
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f98e78319e872f978004ac32e24802c6b62bd36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280062"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598831"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>システム使用状況レポート (Skype for Business Server
  

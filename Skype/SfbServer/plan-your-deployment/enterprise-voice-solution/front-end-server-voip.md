@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: 翻訳サービスやエンタープライズ VoIPルーティング コンポーネントなど、Skype for Business Server フロントエンド サーバー上にあるさまざまなコンポーネントについて説明します。
-ms.openlocfilehash: 5df2937d0329796f634c5b4fac21b6921001d65bf3795589ce718ba08ecd9c36
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d3baa24366b36d1962c1102b4c25c1745a4ea625
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585021"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>フロントエンド サーバー VoIP コンポーネント (Skype for Business Server
 

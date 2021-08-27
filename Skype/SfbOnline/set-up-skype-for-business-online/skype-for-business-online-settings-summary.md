@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 ms.appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOIDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'この組織とSkype for Business設定の概要は、パブリック IM 接続、会議出席依頼、通話や会議の記録などについて詳しい情報を得るのに役立ちます。  '
-ms.openlocfilehash: 7c7bb451411b8aa865f94679f70c07df1efdc2bf0b2df0c0ee0da5b92438f63a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a1320951049e5558574c36e4bde4feea46d8ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295104"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592031"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Skype for Business Online の設定の概要
 
@@ -57,7 +57,7 @@ ms.locfileid: "54295104"
 |匿名の出席者のダイヤルアウト  <br/> |電話会議プロバイダーに電話をかけてもらうことにより、匿名の Skype for Business Online 会議出席者の接続を許可する  <br/> |有効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |アーカイブされていない機能を無効にする  <br/> | 組織がケースにコンテンツを追加し、Exchange 管理センターの電子情報開示[](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center)センターでソースを保留にするときにキャプチャされない機能をオフにします。 <br/>  インスタント メッセージングを使用したファイルの転送 <br/>  OneNote の共有ページ <br/>  PowerPoint のコメント <br/>  電子的に保存した情報の保管を法律で要請されている場合は、このオプションを選んでください。 <br/> |無効  <br/> |[管理者: 個別のユーザーの Skype for Business の設定を構成する](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

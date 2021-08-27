@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: '概要: 会議で使用される会議アクティビティ レポートについてSkype for Business Server。'
-ms.openlocfilehash: ebee49f78d7f3ed83c5d8218357181d457fe04b73f638b4a70191bc975ba38de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d422f86789c8a488f6a1bbe954689a3e422e990f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336637"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612226"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>[会議アクティビティ レポート] (Skype for Business Server
  

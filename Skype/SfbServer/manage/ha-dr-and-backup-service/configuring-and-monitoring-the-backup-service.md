@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 管理シェル コマンドSkype for Business Server使用して、バックアップ サービスを構成および監視できます。
-ms.openlocfilehash: 27d73088fbf4214777d9eb010e0074073517a35220cdd5137ee794addda0c983
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df0e7d985e9941e4af41a4cec5456774e5a3a4dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336677"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612296"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>バックアップ サービスの構成とSkype for Business Server
 
@@ -27,21 +27,15 @@ ms.locfileid: "54336677"
 
 ## <a name="to-see-the-backup-service-configuration"></a>バックアップ サービスの構成を確認するには
 
-次のコマンドレットを実行します。
-
-    Get-CsBackupServiceConfiguration
+次のコマンドレットを実行します。<br/><br/>Get-CsBackupServiceConfiguration
 
 SyncInterval の既定値は 2 分です。
 
 ## <a name="to-set-the-backup-service-sync-interval"></a>バックアップ サービスの同期間隔を設定するには
 
-次のコマンドレットを実行します。
+次のコマンドレットを実行します。<br/><br/>Set-CsBackupServiceConfiguration -SyncInterval 間隔
 
-    Set-CsBackupServiceConfiguration -SyncInterval interval
-
-たとえば、次の例では、間隔を 3 分に設定します。
-
-    Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
+たとえば、次の例では、間隔を 3 分に設定します。<br/><br/>Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
 
 
 > [!IMPORTANT]  
@@ -49,24 +43,18 @@ SyncInterval の既定値は 2 分です。
 
 ## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>特定のプールのバックアップ サービスの状態を取得するには
 
-次のコマンドレットを実行します。
-
-    Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
+次のコマンドレットを実行します。<br/><br/>Get-CsBackupServiceStatus -PoolFqdn \<pool-FQDN>
 
 > [!NOTE]  
 > バックアップ サービスの同期状態は、プール (P1) からバックアップ プール (P2) に一方向に定義されます。 P1 から P2 への同期状態は、P2 から P1 の同期状態とは異なる場合があります。 P1 ~ P2 の場合、同期間隔内に P1 で行われたすべての変更が完全に P2 にレプリケートされる場合、Backup Service は "安定した" 状態になります。 P1 から P2 に同期する変更がこれ以上ない場合は、"final" 状態になります。 どちらの状態も、コマンドレットの実行時にバックアップ サービスのスナップショットを示します。 返された状態が後で残るという結果ではありません。 特に、"final" 状態は、コマンドレットの実行後に P1 が変更を生成しない場合にのみ保持されます。 これは **、P1 が Invoke-CsPoolfailover** 実行ロジックの一部として読み取り専用モードに配置された後に P1 から P2 に失敗した場合に当てはまります。
 
 ## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>特定のプールのバックアップ関係に関する情報を取得するには
 
-次のコマンドレットを実行します。
-
-    Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
+次のコマンドレットを実行します。<br/><br/>Get-CsPoolBackupRelationship -PoolFQDN \<poolFQDN>
 
 ## <a name="to-force-a-backup-service-sync"></a>バックアップ サービスの同期を強制するには
 
-次のコマンドレットを実行します。
-
-    Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
+次のコマンドレットを実行します。<br/><br/>Invoke-CsBackupServiceSync -PoolFqdn \<poolFqdn> [-BackupModule {All|PresenceFocus|DataConf|[CMSMaster}]
 
 ## <a name="restore-conference-contents-using-the-backup-service"></a>Backup Service を使用して会議の内容を復元する 
 
@@ -74,12 +62,8 @@ SyncInterval の既定値は 2 分です。
 
 プール全体で障害が発生し、ユーザーをバックアップ プールにフェールオーバーする必要がある場合も、このタスクを実行します。これらのユーザーが元のプールにフェールオーバーされるときに、この手順を使用して、会議コンテンツも元のプールにコピーする必要があります。
 
-Pool1 と Pool2 がペアで、Pool1 の会議データが失われたとします。 次のコマンドレットを使用して、バックアップ サービスを呼び出してコンテンツを復元できます。
+Pool1 と Pool2 がペアで、Pool1 の会議データが失われたとします。 次のコマンドレットを使用して、バックアップ サービスを呼び出してコンテンツを復元できます。<br/><br/>Invoke-CsBackupServiceSync -PoolFqdn \<Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
-
-会議コンテンツのサイズによっては、コンテンツを復元するのに時間がかかる場合があります。次のコマンドレットを使用すると、プロセスの状態を確認できます。
-
-    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
+会議コンテンツのサイズによっては、コンテンツを復元するのに時間がかかる場合があります。次のコマンドレットを使用すると、プロセスの状態を確認できます。<br/><br/>Get-CsBackupServiceStatus -PoolFqdn \<Pool2 FQDN> -BackupModule ConfServices.DataConf
 
 このコマンドレットがデータ会議モジュールに対して安定状態の値を返すと、プロセスは完了です。

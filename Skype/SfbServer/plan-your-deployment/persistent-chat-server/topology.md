@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: '概要: 2015 年の常設チャット サーバー のコンポーネントとトポロジについては、このトピックSkype for Business Serverしてください。'
-ms.openlocfilehash: 7aadfd9f899fd2f28e9ae628e9f2c7221cfdd61b545fa393379c370d5d3b59dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67b1e322bd8b367dafdee32f331e597471ba2189
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289545"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598741"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>常設チャット サーバー トポロジを計画する
  

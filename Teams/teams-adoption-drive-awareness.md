@@ -8,9 +8,9 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 新しい導入に向け、認識を高め、トレーニング プログラムを実装するMicrosoft Teamsします。
+description: 認知を高め、導入のためのトレーニング プログラムを実装する方法Microsoft Teamsします。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ea6dbf8dbf7e1f50164348095e673d086ffbcaadcf18866e9e1248ff35bfa0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7590d2041ed64f62765b33c291414abb618d1699
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348612"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625869"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
@@ -43,7 +43,7 @@ ms.locfileid: "54348612"
 - 製品ビデオなど、セルフヘルプの資料を利用可能にします。
 - パイロット ユーザーとキックオフ ミーティングを開いて、彼らの参加を歓迎します。 熱意を持ってコミュニティの感覚を作り出す重要性は、過大な評価を受け入れてはいけなかった。
 
-最初のパイロットの作業が完了したら、上記の取り組みを拡張して組織全体に到達できます。 サイズによっては、時間がかかる場合があります。リージョン、ユーザー プロファイル、または組織別のフェーズでアプローチされます。 この大規模なロールアウトでは、組織内のコミュニケーターの関与を促します。 利用可能な導入資料を使用したり、独自の設計を行う場合は、これらの個人を早い段階で頻繁に関与することをお勧めします。
+最初のパイロットを完了したら、上記の取り組みを拡大して組織全体に到達できます。 サイズによっては、時間がかかる場合があります。リージョン、ユーザー プロファイル、または組織別のフェーズでアプローチされます。 この大規模なロールアウトでは、組織内のコミュニケーターの関与を促します。 利用可能な導入資料を使用したり、独自の設計を行う場合は、これらの個人を早い段階で頻繁に関与することをお勧めします。
 
 会社にニュース、情報、またはサポート用の中央イントラネット ポータルがある場合は、このロールアウトに関する情報を得るハブとして使用できます。広く利用できるセルフヘルプ情報、トレーニング、および書面によるガイダンスを提供することで、ユーザーはすぐにオンボードできます。 多くのユーザーは、利用できる状態になったTeamsにジャンプするだけで、これをお勧めしています。 また、各個人がさまざまな方法で学習する点もわかっています。中央情報ポータルは、組織内のすべてのスタイルの学習をサポートできます。
 
@@ -51,10 +51,10 @@ ms.locfileid: "54348612"
 
 リソースを使用して、ユーザーが他のサービスやサービスを使い始めるMicrosoft Teamsエンド Microsoft 365提供Office 365します。 詳細については、リソース ページを参照してください。
 
-- [講師主導のエンドユーザー 向けトレーニングTeams](instructor-led-training-teams-landing-page.yml)
+- [講師主導のエンド ユーザーによるトレーニング (Teams](instructor-led-training-teams-landing-page.yml)
 - [管理者向けトレーニング Teams](itadmin-readiness.md)
 - [オンライン エンドユーザー ビデオ トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [チャンピオンと IT プロのためのクラウド オンライン トレーニング&コーヒー](https://aka.ms/CoffeeintheCloud) 
+- [IT プロのチャンピオン向けクラウド オンライン トレーニング&コーヒー](https://aka.ms/CoffeeintheCloud) 
 - [導入ツール](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>成功を測定、共有する
@@ -67,7 +67,7 @@ ms.locfileid: "54348612"
 - トレーニング ビデオの再生回数
 - 学習イベントの参加者
 
-フィードバック チャネルから得た分析情報を、簡単に取得できるハッシュタグ #TeamsStories共有します。 1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。 また、Microsoft Technical Community の「Driving Adoption フォーラム」で共有してください。 これらの実際の例を自分の会社内から共有すると、ユーザー コミュニティで時間の過ぎた持続的な変化を実現するために非常に重要です。
+フィードバック チャネルから得た分析情報をハッシュタグ と共有#TeamsStories簡単に取得できます。 1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。 また、Microsoft Technical Community の Driving Adoption フォーラムで共有してください。 これらの実際の例を自分の会社内から共有すると、ユーザー コミュニティで時間の過ぎた変化を実現するために非常に重要です。
 
 [詳細については、Microsoft Teamsの使用状況レポートに関するMicrosoft 365 管理センター。](teams-activity-reports.md)
 
