@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online で電話会議の設定が変更された場合にメールの送信を有効または無効にする
+title: Skype for Business Online で電話会議の設定が変更された場合のメールの送信を有効または無効にする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,29 +15,29 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'PIN の変更や既定の会議Skypeなどの設定が変更された場合に、ユーザーにメールを送信する機能を有効または無効にする方法について説明します。 '
-ms.openlocfilehash: f2c0112f3817bfd64184018770348ee50ecb5f31c9b6dd161c90f70bdae97eb5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bcbfc305ce250abb5f11aa1498a18802dde066c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335737"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589209"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online で電話会議の設定が変更された場合にメールの送信を有効または無効にする
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online で電話会議の設定が変更された場合のメールの送信を有効または無効にする
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Microsoft Teams でメールの送信を有効または無効にする場合は、「Microsoft Teams で電話会議の設定が変更された場合にメールの送信を有効または無効にする」[をMicrosoft Teams。](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
+> Microsoft Teams でメールの送信を有効または無効にする場合は、「電話会議の設定が Microsoft Teams で変更された場合にメールの送信を有効または無効にする」[を参照してください](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)。
 
-電話会議が有効になると、ユーザーに電子メールで自動的に通知されます。 ただし、ユーザーに送信されるメールの数を減らしたい場合Skype for Businessがあります。 このような場合は、メールの送信を無効にできます。
+電話会議が有効になると、ユーザーには電子メールで自動的に通知されます。 ただし、ユーザーに送信されるメールの数を減らしたい場合Skype for Businessがあります。 このような場合は、メールの送信を無効にできます。
   
-メールの送信を無効にした場合、電話会議メールはユーザーに送信されません。たとえば、ユーザーが電話会議に対して有効または無効になっているとき、PIN がリセットされた場合、電話会議 ID と既定の会議電話番号が変更された場合のメールも含めて送信されません。
+メールの送信を無効にした場合、電話会議メールはユーザーに送信されません。たとえば、ユーザーが電話会議を有効または無効にした場合、PIN がリセットされた場合、電話会議 ID と既定の会議電話番号が変更された場合のメールが含されます。
   
 電話会議が有効になっているユーザーに送信されるメールの例を次に示します。
   
@@ -91,9 +91,9 @@ ms.locfileid: "54335737"
     
 ## <a name="what-else-should-you-know"></a>その他の情報
 
-- 自動メールを無効にした場合でも、管理者センターの管理センターで会議 ID と電話番号を含む電子メールの送信Skype for Businessトリガーできます。 ただし、この操作を行った場合、PIN は含まれません。 電話会議 PIN をリセットし、メールの送信が無効になっている場合は、別の方法でユーザーに送信する必要があります。
+- 自動メールが無効になっている場合でも、管理者センターの管理者センターで会議 ID と電話番号を含むメールの送信Skype for Businessトリガーできます。 ただし、この操作を行った場合、PIN は含まれません。 電話会議 PIN をリセットし、メールの送信が無効になっている場合は、別の方法でユーザーに送信する必要があります。
     
-- ユーザーにメールを送信するには、管理者センターまたは管理者Skype for Businessを使用Windows PowerShell。
+- ユーザーにメールを送信するには、管理者センターまたはSkype for Businessを使用Windows PowerShell。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
@@ -107,7 +107,7 @@ ms.locfileid: "54335737"
     
   - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365またはOffice 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [PowerShell で使用する必要があるMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
@@ -124,7 +124,7 @@ ms.locfileid: "54335737"
     > [!NOTE]
     > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [電話会議の設定が変更された場合にユーザーに送信されるメール](emails-sent-to-users-when-their-settings-change.md)
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
 description: このSet-CcApplianceDirectoryは、ホスト サーバー上の作業ディレクトリをSkype for Business クラウド コネクタ エディションします。 すべての展開ファイルは、このディレクトリに格納されます。
-ms.openlocfilehash: 8ca6b8b8e175058e5f19c86a9dd1c6e0cf8a43ab6ef7a439eee4e09b5430f6a2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f64fbb52cd12020104e98051564379d1fbc4985
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306598"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617673"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
@@ -42,9 +42,9 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ## <a name="parameters"></a>パラメーター
 <a name="Examples"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | 必須 <br/> |System.String  <br/> | すべての展開ファイルが格納されるパスを指定します。 <br/> |
+| パス <br/> | 必須 <br/> |System.String  <br/> | すべての展開ファイルが格納されるパスを指定します。 <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>

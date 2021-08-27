@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,13 +17,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-description: Teams & Skype for Business 間の共存動作 (ルーティング パラメーター、チャット & 呼び出しルーティング、既存のスレッドからの&の呼び出し、& プレゼンスなど)。
-ms.openlocfilehash: 2b98fead25ccfd8098e5281749358db931d64bc32a24be2a9d186c62a1d1a57b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Teams & Skype for Business 間の共存動作 (ルーティング パラメーター、チャット & 呼び出しルーティング、既存のスレッドからのチャット & 呼び出し、プレゼンス&します。
+ms.openlocfilehash: efd40be76e1a733e74d3e85c767cf2847d3cccbc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351157"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582431"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -66,13 +66,13 @@ Skype for Business と Teams の各クライアントとユーザー間におけ
 
 TeamsOnly ユーザーに送信されたメッセージは、常に Teams にルーティングされます。 SfB\* ユーザーに送信されたメッセージは、上述のように会話が可能な場合は、常に Skype for Business にルーティングされます。 アイランド ユーザーに送信されたメッセージは、常にメッセージの送信元の同じクライアントにルーティングされます。
 
-次の表は、指定されたモードのクライアントが、発信元のモード、選択したクライアント、および Skype for Business クライアントのホーム (オンプレムまたはオンライン) に応じて、発信元 (左端の 3 列) からの呼び出しを受信する方法を示しています。
+次の表は、指定されたモードのクライアントが、発信元のモード、選択したクライアント、および Skype for Business クライアントがホーム (on-prem または online) に応じて、発信元 (左端の 3 列) から呼び出しを受けるのを示しています。
 
 以下の表では、次のように表されます。
 
-- **SfB \** _ は、次のモードを表します: *_SfBOnly*、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings。* 
+- **SfB \** _ は、次のモードを表します: _SfBOnly*、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings。  
 - *斜体のテキスト* は、相互運用の会話を強調表示しています。
-- **不可** は、チャットまたは通話が不可能である状況を表します。 このような場合は、発信者は代わりに Skype for Business を使用する必要があります。 これは、Microsoft がオンプレム/ハイブリッドのお客様に対する標準的なガイダンスとして、Teams へのアップグレード体験の開始点として、Islands (通常は SfBWithTeamsCollab) 以外のモードを使用する理由の 1 つになります。
+- **不可** は、チャットまたは通話が不可能である状況を表します。 このような場合は、発信者は代わりに Skype for Business を使用する必要があります。 これは、マイクロソフトがプレム/ハイブリッドのお客様に提供する標準ガイダンスが、Teams へのアップグレード体験の開始点として、Islands (通常は SfBWithTeamsCollab) 以外のモードを使用する理由の 1 つになります。
 
 #### <a name="table-1a-in-tenant-new-chat-or-call-routing-to-an-islands-mode-recipient"></a>表 1a: アイランド モードの受信者への新しいテナント内チャットまたはテナント内通話のルーティング
 
@@ -118,7 +118,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 > [!NOTE]
 > 現在の Teams フェデレーションの実装は Skype for Business フェデレーションに基づいています。そのため、相互運用性インフラストラクチャ (発信者のテナントが純粋なオンラインまたは Skype for Business ハイブリッドのいずれかであることが必須) を活用しているので、ネイティブ スレッドと比較して機能セットが少なくて済みます。 将来的には、ネイティブの Teams 間フェデレーションが提供される予定です。その時点で、スレッドはネイティブになり、完全な機能が使用できるようになります。
 
-次の表は、発信元のモード、選択したクライアント、および Skype for Business クライアントがホーム (オンプレムまたはオンライン) に応じて、どのクライアントが発信元 (左端の 3 列) から呼び出しを受けるかについて説明しています。
+次の表は、発信元のモード、選択したクライアント、および Skype for Business クライアントがホーム (オンプレムまたはオンライン) に応じて、どのクライアントが発信元 (左端の 3 列) から呼び出しを受信するかについて説明しています。
 
 #### <a name="table-2a-federated-new-chat-or-call-routing-to-an-islands-recipient"></a>表 2a: アイランド受信者への新しいフェデレーション チャットまたはフェデレーション通話のルーティング
 
@@ -184,11 +184,11 @@ Teams クライアントを使用しているユーザーと、まだ Skype for 
 予想される動作を把握するには、プレゼンスがユーザーの共存モードに基づいて共有されるという理解が必要です。
 
 - ユーザーが TeamsOnly モードの場合、他のユーザー (Teams または Skype for Business) には、TeamsOnly ユーザーのプレゼンスがTeamsされます
-- ユーザーが SfB モード \* (SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings) に参加している場合、他のユーザー (Teams または Skype for Business) には SfB ユーザーの Skype for Business プレゼンスが表示されます。 \*
+- ユーザーが SfB モード \* (SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings) に参加している場合、他のユーザー (Teams か Skype for Business か) には SfB ユーザーの Skype for Business プレゼンスが表示されます。 \*
 - ユーザーがアイランド (またはレガシ) モードを使用している場合は、Teams でのプレゼンスと Skype for Business でのプレゼンスは独立しており (値が一致する必要はありません)、他のユーザーには、同じテナントにいるのかフェデレーション テナントにいるのか、またどのクライアントを使用しているのかに応じて、アイランド ユーザーのどちらか一方のプレゼンスが表示されます。
-  - このTeams、同じテナント内の他のユーザーには、Islands ユーザーのプレゼンスがTeamsされます。これは、上記のテナント内ルーティング テーブルに合わせて配置されます。
+  - このTeams、同じテナント内の他のユーザーには、Islands ユーザーのプレゼンスがTeamsされます。これは、上のテナント内ルーティング テーブルに合わせて配置されます。
   - このTeams、フェデレーション テナント内の他のユーザーには、Islands ユーザーのプレゼンスがSkype for Businessされます。これは、上記のフェデレーション ルーティング テーブルに合わせて配置されます。
-  - このSkype for Business、他のユーザーには、(テナント内とフェデレーションの両方) Skype for Businessユーザーのプレゼンスが表示されます。これは、上記のルーティング テーブルに合わせて配置されます。
+  - このSkype for Business他のユーザーには、(テナント内とフェデレーションの両方) Skype for Businessユーザーのプレゼンスが表示されます。これは、上記のルーティング テーブルに合わせて配置されます。
 
 ### <a name="in-tenant-presence"></a>テナント内プレゼンス
 
@@ -224,7 +224,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送
 
 ### <a name="presence-in-pre-existing-threads"></a>既存のスレッドでのプレゼンス
 
-既存のスレッドのプレゼンスと到達可能性を揃えるには、ルーティングが可能な場合に、そのスレッドで公開されているターゲットのプレゼンスをスレッドのルーティングに合わせて配置する必要があります。
+既存のスレッドのプレゼンスと到達可能性を調整するには、ルーティングが可能な場合に、そのスレッドで公開されているターゲットのプレゼンスをスレッドのルーティングに合わせて配置する必要があります。
 
 具体的には、永続的な相互運用の会話スレッドをやり取りしていた受信者が Teams にアップグレードされた場合、そのスレッドは正確なプレゼンスを反映しなくなり、ルーティングできなくなります。 この場合は、新しいスレッドを開始する必要があります。
 

@@ -10,16 +10,16 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: '概要: このトピックを参照して、2015 年の新機能Skype for Business Serverしてください。 新しいクライアント エクスペリエンスの詳細については、「Lync は現在使用Skype for Business -- 新機能」を参照してください。'
-ms.openlocfilehash: e32b55c6eb41a5800f4bceb1e213a44efed5d2292ccd57766dbf56c1c0cd6e4b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df0a16855ab7430e87847a392d263f35c6ec2993
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344516"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617623"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>2015 年の新機能Skype for Business Server
 

@@ -13,50 +13,50 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Learn how to plan and deploy Skype for Business in small, medium, and large organizations and making it available to your users. '
-ms.openlocfilehash: e503455827759966af675ff186f3d72568df613ea407f372450691511a9a6ee5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3cfa319536c521ee4d0e3b297fd978071c93105d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300493"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589179"
 ---
-# <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>Skype for Business または Microsoft 365 クライアントをデプロイOffice 365
+# <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>クライアントまたはSkype for BusinessクライアントをMicrosoft 365デプロイOffice 365
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-この記事では、管理者が組織のユーザーに **[](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** Skype for Business アプリをデプロイする方法について説明します。
+この記事では、管理者が組織のユーザーに **[](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** Skype for Business アプリをデプロイする方法のオプションについて説明します。
   
-ユーザーにSkype for Businessを展開する前に、「オンライン でアプリケーションをセットアップする」の手順 1~ 3[をSkype for Businessしてください](set-up-skype-for-business-online.md)。 これによって、ご使用のドメインで Skype for Business がセットアップされ、すべてのユーザーにライセンスが割り当てられ、組織用に IM と[Skype for Business Online でプレゼンスを設定する](configure-presence-in-skype-for-business-online.md)が構成されます。
+ユーザーにSkype for Businessを展開する前に、オンライン のセットアップに関する記事の手順 1 から 3[をSkype for Businessしてください](set-up-skype-for-business-online.md)。 これによって、ご使用のドメインで Skype for Business がセットアップされ、すべてのユーザーにライセンスが割り当てられ、組織用に IM と[Skype for Business Online でプレゼンスを設定する](configure-presence-in-skype-for-business-online.md)が構成されます。
   
 > [!NOTE]
 > ユーザーが Skype for Business アプリをインストールするためには、PC またはデバイス上のローカル管理者である必要があります。 または、PC またはデバイスにアプリをインストールできるローカル グループのメンバーであることが必要です。 ユーザーが自分のデバイスにソフトウェアをインストールできない場合は、ユーザー用の Skype for Businessインストールする必要があります。 
   
 ## <a name="for-most-small-and-medium-sized-businesses"></a>ほとんどの中小規模の企業の場合
 
- **詳細なインストール手順:** 中小企業の場合は、PC にアプリをインストールすることをユーザーにSkype for Businessすることをお勧めします。 次の手順を参照してください: [Skype for Business。](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) Mac を使用している場合は、[Lync [for Mac 2011 for Office 365] をポイントします](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88)。 アプリSkype for Businessは、他のアプリとは別にOfficeされます。
+ **詳細なインストール手順:** 中小企業の場合は、PC にアプリをインストールSkype for Businessすることをお勧めします。 次の手順を参照してください。[をインストールSkype for Business。](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) Mac を使用している場合は、[Lync [for Mac 2011 for Office 365] をポイントします](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88)。 アプリSkype for Businessは、他のアプリとは別にOfficeされます。
   
  **Microsoft 365 Apps for enterprise顧客:** E3 プランなどの Microsoft 365 Apps for enterprise を含む Office 365 プランを使用している場合、ユーザーが Word、Excel、PowerPoint などをダウンロードしてインストールすると同時に、Skype for Business アプリがインストールされます。つまり、すべてのアプリをアンインストールしないSkype for BusinessをアンインストールOffice。
   
 ### <a name="choose-whether-to-make-skype-for-business-available-to-your-users"></a>ユーザーが Skype for Business を利用できるようにするかどうかを選択する
 
-管理者は[、](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)ユーザーがアプリを使用Skype for Businessを選択できます。
+管理者は[、](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)アプリをユーザーが使用Skype for Businessを選択できます。
   
 - **会社の全員** がソフトウェアを取得するかどうかを制御するには、Microsoft 365 管理センター にサインインし、[ソフトウェアのインストール] に移動し、ユーザーが使用できるソフトウェアを選択します。
     
     ![Choose the software you want to make available to the people in your company.](../images/5eb9e9d4-6ea2-4cc1-a61d-8a1af5a7c121.png)
   
-- 会社の特定のユーザーがソフトウェアを取得するかどうかを制御するには、Microsoft 365 管理センター にサインインし、[ユーザーアクティブ ユーザー]に移動し、ソフトウェアへのアクセスを許可するユーザーを選択し、[製品ライセンス] の横にある [編集] をクリックしてライセンスのオンとオフを切り替えます。  >    
+- 会社の特定のユーザーがソフトウェアを取得するかどうかを制御するには、Microsoft 365 管理センター にサインインし、[ユーザーアクティブ ユーザー ] に移動し、ソフトウェアへのアクセス権を与えるユーザーを選択し、[製品ライセンス] の横にある [編集] をクリックして、ライセンスのオンとオフを切り替えます。  >    
     
     ![Choose which software you want the user to access.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> 組織内のユーザーに割り当てられているプランを確認する必要がある場合は、[ユーザー] の [アクティブなユーザー] Microsoft 365 管理センター >  >  **にサインインします**。 一覧からユーザーを選択し、[製品ライセンス] の下 **を確認します**。 クラシック管理センターを使用している場合は、[割り当て済みライセンス] **を確認します**。 
+> 組織内のユーザーに割り当てられているプランを確認する必要がある場合は、[ユーザー] の [アクティブなユーザー] Microsoft 365 管理センター >**に**  >  **サインインします**。 一覧からユーザーを選択し、[製品ライセンス] の下 **を確認します**。 クラシック管理センターを使用している場合は、[割り当て済みライセンス] **を確認します**。 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>ユーザーに Skype for Business を手動で展開する
 <a name="bkmk_manual_1"> </a>
@@ -76,13 +76,13 @@ Skype for Business アプリのフル バージョンの場合も Basic バー�
   
 多くの大企業や大規模な組織では、ユーザーは自分のコンピューターにソフトウェアをインストールすることを許可されていません。代わりに、IT 部門が必要なソフトウェアをユーザーのコンピューターに展開します。また IT 部門は、組織で使用されるインターネットまたはネットワークの帯域幅を制御するために、遠くのインターネットや企業ネットワークからではなく、ネットワーク上の近くの場所からソフトウェアをインストールする必要があります。
   
-このOffice 365、インストールする場所を制御する場合は、Skype for Business アプリをデプロイするためのオプションがいくつかあります。 このようなオプションを次にいくつか示します。
+このOffice 365、インストールする場所を制御する場合Skype for Businessアプリをデプロイするためのオプションがいくつかあります。 このようなオプションを次にいくつか示します。
   
-- 「ユーザーへのSkype for Businessのデプロイ」の説明に従って、Microsoft 365 管理センター からローカル ネットワークに Skype for Business[アプリをダウンロードします](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)。
+- 「ユーザーにSkype for Businessを手動でデプロイする」の説明に従って、Microsoft 365 管理センター からローカル ネットワークに Skype for Business[アプリをダウンロードします](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)。
     
-- Office **[デプロイ ツールを使用](https://go.microsoft.com/fwlink/p/?LinkID=626065)** して、ローカル ネットワークMicrosoft 365 Apps for enterpriseまたは Skype for Business アプリをダウンロードします。 次に、Office 展開ツールを使用してユーザーにアプリを展開します。 Office 展開ツールでは、言語やバージョン (32 ビット/64 ビット) など、展開の特定の側面を制御できます。
+- デプロイ ツール **[Office使用](https://go.microsoft.com/fwlink/p/?LinkID=626065)** して、ローカル ネットワークMicrosoft 365 Apps for enterpriseまたはSkype for Businessアプリをダウンロードします。 次に、Office 展開ツールを使用してユーザーにアプリを展開します。 Office 展開ツールでは、言語やバージョン (32 ビット/64 ビット) など、展開の特定の側面を制御できます。
     
-- Microsoft Endpoint Configuration Manager などの既存のソフトウェア デプロイ ツールとプロセスを使用して、Microsoft 365 Apps for enterprise または Skype for Business アプリをユーザーにデプロイします。 既存のツールとプロセスは[、Office デプロイ](https://go.microsoft.com/fwlink/p/?LinkID=626065)ツールまたは Microsoft 365 管理センター からダウンロードしたソフトウェアと一緒に使用できます。
+- Microsoft Endpoint Configuration Manager などの既存のソフトウェアデプロイ ツールとプロセスを使用して、Microsoft 365 Apps for enterprise または Skype for Business アプリをユーザーにデプロイします。 既存のツールとプロセスは[、Office デプロイ](https://go.microsoft.com/fwlink/p/?LinkID=626065)ツールまたは Microsoft 365 管理センター からダウンロードしたソフトウェアと一緒に使用できます。
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>Office 展開ツールの使用法に関する詳細情報
 
@@ -104,9 +104,9 @@ Office 展開ツールおよび configuration.xml ファイルの使用法の詳
     
 - [クイック実行 configuration.xml ファイルのリファレンス](/deployoffice/office-deployment-tool-configuration-options)
     
-### <a name="more-info-on-using-microsoft-endpoint-configuration-manager"></a>アプリの使用に関するMicrosoft Endpoint Configuration Manager
+### <a name="more-info-on-using-microsoft-endpoint-configuration-manager"></a>アプリの使用に関する詳細Microsoft Endpoint Configuration Manager
 
-既存のソフトウェアデプロイ ツールとプロセス (Microsoft Endpoint Configuration Manager など) を使用して、Skype for Businessできます。 これらのツールとプロセスは、アプリケーションからダウンロードしたソフトウェアまたはMicrosoft 365 管理センターデプロイ ツールOffice使用できます。
+既存のソフトウェア デプロイ ツールとプロセス (Microsoft Endpoint Configuration Manager など) を使用して、Skype for Businessできます。 これらのツールとプロセスは、アプリケーションからダウンロードしたソフトウェアまたは Microsoft 365 管理センター デプロイ ツールOffice使用できます。
   
 Configuration Manager を使用したソフトウェアの展開の詳細については、次の記事を参照してください。
   
@@ -114,7 +114,7 @@ Configuration Manager を使用したソフトウェアの展開の詳細につ�
     
 - [Configuration Manager を使用したアプリケーションのデプロイ](/configmgr/apps/deploy-use/deploy-applications)
     
-デプロイの一環として Skype for Business アプリをデプロイする場合は、「Microsoft 365 Apps for enterprise Manager を使用して Microsoft 365 Apps for enterpriseを管理する」[を参照してください](/configmgr/sum/deploy-use/manage-office-365-proplus-updates)。
+デプロイの一環として Skype for Business アプリをデプロイする場合Microsoft 365 Apps for enterprise Configuration Manager を使用した Microsoft 365 Apps for enterprise を[参照してください](/configmgr/sum/deploy-use/manage-office-365-proplus-updates)。
   
 ## <a name="planning-for-updates-to-the-skype-for-business-app"></a>Skype for Business アプリに対する更新プログラムの計画
 
@@ -150,9 +150,9 @@ Office 365 ソフトウェアに対する更新プログラムの動作の詳細
     
 組織によっては、新機能をテストする必要があるため、機能の更新プログラムの取得を毎月ではなく年 2 回に限定しています。
   
-Office 展開ツールまたはグループ ポリシーを使用して更新チャネルを構成することで、機能の更新プログラムを取得する頻度を制御できます。 月次チャネルでは機能の更新プログラムが毎月提供されますが、半期チャネルではおよそ 6 か月ごとに機能の更新プログラムが提供されます。 チャネルの詳細については、 の更新プログラム チャネルの概要[に関するページを](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4)Microsoft 365 Apps for enterprise。
+Office 展開ツールまたはグループ ポリシーを使用して更新チャネルを構成することで、機能の更新プログラムを取得する頻度を制御できます。 月次チャネルでは機能の更新プログラムが毎月提供されますが、半期チャネルではおよそ 6 か月ごとに機能の更新プログラムが提供されます。 チャネルの詳細については、 の更新プログラム チャネルの概要[に関するページをMicrosoft 365 Apps for enterprise。](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4)
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
   

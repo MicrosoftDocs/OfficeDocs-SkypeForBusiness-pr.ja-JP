@@ -14,20 +14,20 @@ appliesto:
 - Microsoft Teams
 f1.keywords: ''
 ms.custom: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 政府機関のポリシー パッケージを使用Teams管理する方法について学習します。
-ms.openlocfilehash: d9c229e9795a9e93caed37832baf0b03ef58c47305f41d2961420eea485bc608
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f796a2fc3c7e359f311f2a709f058e172f8f454
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316994"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582171"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teamsのポリシー パッケージを作成する
 
 > [!NOTE]
-> 現在、ポリシー パッケージは、Government Microsoft 365 High または DoD GCCでは使用できません。
+> ポリシー パッケージは、現在、Government Microsoft 365 High または DoD GCCでは使用できません。
 
 ## <a name="overview"></a>概要
 

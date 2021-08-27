@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: このGet-CcCredentialは、現在の展開の資格情報をSkype for Business クラウド コネクタ エディションします。
-ms.openlocfilehash: 277062068c6e5e630fd22cd1bd4c6dbfb873db1cb90b915424aa6e3a3eb6ce50
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 158f6e35f667410a0070e2f7030932bd6fc35ade
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322890"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596361"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
@@ -62,7 +62,7 @@ Write-Host $text
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
 | AccountType <br/> |必須  <br/> | System.String <br/> | AccountType 値には、次のいずれかを指定できます。 <br/>  VmAdmin: クラウド コネクタ仮想マシンのローカル管理者。 <br/>  DomainAdmin: Cloud Connector 仮想マシン ドメインのドメイン管理者。 <br/>  SafeModeAdmin: Cloud Connector 仮想マシン ドメイン コントローラーの SafeModeAdmin。 <br/>  ExternalCert: エッジ サーバーにインストールされている外部証明書のアカウント。 <br/>  TenantAdmin: O365 テナントの管理者。 <br/> |
    

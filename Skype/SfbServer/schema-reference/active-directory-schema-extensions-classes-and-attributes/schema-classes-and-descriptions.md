@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: このセクションでは、ユーザーが使用するスキーマ クラスについてSkype for Business Server。
-ms.openlocfilehash: 9b7e22b6950728804986ea662659f04484834e0d65e6d9bd755c0138dc09e5e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec9c4a7612455df6d004289f88ccdb7efb3d6334
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297074"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596441"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>スキーマ クラスと説明 (Skype for Business Server
  

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: '概要: ユーザーを会議でダイヤルイン会議に参加する方法についてSkype for Business Server。'
-ms.openlocfilehash: 1b585d4e0ff05bdb1faca0aa9c8b0863dd26f10f7d06bb1140211a2f1663e6b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4304952bbede0f35183a80f789783bbfc4a8cfbd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313195"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578801"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>会議のダイヤルイン ユーザーにウェルカム メールを送信Skype for Business Server
  

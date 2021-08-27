@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -29,27 +29,27 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: 'Skype for Business サービスの通信クレジット (PSTN 消費) の支払い方法と、ユーザーが継続的な電話システム アクセスを維持する計画を確認する方法について説明します。 '
-ms.openlocfilehash: 6f96b56400e3186a6d4df3276204359c6943d10113f3967eef59322e461f1092
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Skype for Business サービスの通信クレジット (PSTN 消費) の支払い方法と、継続的な電話システム アクセスをユーザーに維持する計画について説明します。 '
+ms.openlocfilehash: fe3b80e41c6fdc411304ec43eebb0ab560063033
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344416"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617613"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
-通信クレジットは、通信プランまたは通話プランの支払い電話システムまたは通話プランの支払いMicrosoft 365便利Office 365。 コミュニケーション クレジットを使用すると、以下を実行できないと、ユーザーとユーザーがキャッチされません。
+コミュニケーション クレジットは、通信プランまたは通話プランの支払い電話システムまたは通話プランに対して支払うMicrosoft 365便利Office 365。 コミュニケーション クレジットを使用すると、以下を実行できないと、ユーザーとユーザーがキャッチされません。
   
 - 無料ダイヤルイン電話番号を使用して電話会議にダイヤルインします。
 
 - 電話会議会議からダイヤルアウトして、世界中のどこからでも他のユーザーを追加します。
 
-- 電話会議会議から携帯電話にダイヤルアウトし、Skype for BusinessまたはMicrosoft Teamsします。
+- 電話会議会議から携帯電話にダイヤルアウトし、Skype for BusinessまたはMicrosoft Teamsインストールします。
 
 - 国内通話プランがある場合は、任意の国際電話番号 **をダイヤルします**。
 
-- 毎月の分単位を使い果たしたら、1 分あたりのダイヤルアウトと支払いを行います。
+- 毎月の分単位を使い果たしたら、ダイヤルアウトして分単位でお支払いください。
 
 > [!NOTE]
 > 料金と料金について不明な場合は、[通話プラン] ページの料金表 [を参照](https://go.microsoft.com/fwlink/p/?LinkId=799523) してください。
@@ -60,7 +60,7 @@ ms.locfileid: "54344416"
   
 支払いオプションはいつでも更新できます。 [サブスクリプション **] ページで** [コミュニケーション クレジット] **を選択し**、更新を行います。
   
-資金は、サービスの利用時に Microsoft が公開した料金の通信クレジットにのみ適用されます。 購入日から 12 か月以内に使用されていない資金は、有効期限が切れ、失効します。
+資金は、サービスの使用時に Microsoft が公開した料金の通信クレジットにのみ適用されます。 購入日から 12 か月以内に使用されていない資金は、有効期限が切れ、失効します。
   
 > [!TIP]
 > 自動リチャージで資金が追加された場合、自動リチャージが失敗した場合 (クレジット カードの有効期限が切れた場合など)、残高が 0 を下回った場合に、電子メール通知が送信されます。
@@ -77,11 +77,11 @@ ms.locfileid: "54344416"
 
 - [電話システムプラン](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-また、サブスクリプションにサインインし、[課金サブスクリプション] Microsoft 365 管理センター サブスクリプションの追加]にアクセスして、情報  >    >  **を確認できます**。
+また、サブスクリプションにサインインし、[課金サブスクリプション] Microsoft 365 管理センター サブスクリプションの追加]にアクセスして情報  >    >  **を確認できます**。
   
 各機能に必要なライセンスまたはライセンスを含むテーブルを表示するには[、「Microsoft Teams」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 

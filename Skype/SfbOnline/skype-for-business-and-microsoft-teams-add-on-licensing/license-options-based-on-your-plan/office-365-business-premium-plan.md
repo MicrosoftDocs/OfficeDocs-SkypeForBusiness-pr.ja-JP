@@ -14,36 +14,36 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'アドオン のライセンス、機能、およびプランの購入方法についてMicrosoft 365 Business Standardします。 '
-ms.openlocfilehash: c5469958a14c860223117742d4a0b3eb2c4d7a9e6f0168e3a7748413fc8426bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'アドオン のライセンス、機能、および新しいプランの購入方法Microsoft 365 Business Standardします。 '
+ms.openlocfilehash: 8f092b8f17eff3aa48717be385795a2ca1c18a36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318032"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589169"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-を使用している[Microsoft 365 Business Standard、](https://products.office.com/en/business/office-365-business-premium)サブスクリプションをSkype for Business他のユーザーに通話を行います。 たとえば、会社に 10 人の社員がいる場合は、Skype for Business を使用してお互いに通話したりインスタント メッセージを送ることができます。
+を使用している[場合Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium)を使用して、Skype for Businessを使用して、サブスクリプションに登録されている他のユーザーに通話を行います。 たとえば、会社に 10 人の社員がいる場合は、Skype for Business を使用してお互いに通話したりインスタント メッセージを送ることができます。
 
  **社外のユーザーとの通話を発着信するには、次の 2 つのオプションがあります** 。
 
-- **オプション 1。無料の [Skype アプリ](https://www.skype.com/)** を使用します。 小規模な企業 (1 ~ 2 人など) がある場合は、Skype アプリを使用する方が便利です。 国内通話と国際通話で利用する場合は、より安価な手段となります。 電話会議を開催し、ビデオ通話を行い、プレゼンテーション用にデスクトップを共有することができます。 [料金と支払オプションを確認](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)してください。
+- **オプション 1。無料の [Skype アプリ](https://www.skype.com/)** を使用します。 非常に小規模な企業 (1 ~ 2 人など) の場合は、Skype アプリを使用する方が優れた方法です。 国内通話と国際通話で利用する場合は、より安価な手段となります。 電話会議を開催し、ビデオ通話を行い、プレゼンテーション用にデスクトップを共有することができます。 [料金と支払オプションを確認](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)してください。
 
     Skype アプリは Office 365 スイートの一部ではないため、Skype for Business のように Outlook 2016 に統合されることはありません。このため、Outlook 2016 の連絡先は Skype に表示されませんので、Skype に連絡先を追加する必要があります。
 
     最初は Skype アプリをご使用いただいて、お客様のニーズに合うものかご確認いただくことをお勧めします。ニーズに合わない場合は、次のオプションでご利用のプランをアップグレードすることをご検討ください。
 
     > [!IMPORTANT]
-    > 従業員が新しいユーザーを検索するためにSkype for Businessを設定Skypeがあります。 「[ユーザーが連絡先Skype for Businessを追加Skypeする」を参照してください](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)。
+    > 従業員がユーザーを検索するためにユーザーを使用Skype for Businessトグルを設定Skypeがあります。 「[ユーザーが連絡先Skype for Businessを追加Skypeする」を参照してください](../../set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts.md)。
 
 
 - **オプション 2。プランをアップグレードして、電話システムと国内通話プラン、または国内および国際通話プランを購入します**。

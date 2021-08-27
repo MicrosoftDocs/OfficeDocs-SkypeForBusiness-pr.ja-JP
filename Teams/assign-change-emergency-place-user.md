@@ -13,31 +13,31 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: この記事では、組織内のユーザーの緊急対応の場所を割り当てる方法または変更する方法について学習します。
+description: この記事では、組織内のユーザーに緊急対応の場所を割り当てる方法または場所を変更する方法について学習します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d60cb3f5ec1daf5e65064fe659ff4be677ad4d06290f3c29af8caf6dae95fb9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 146c97be9b416b0e338b6b6c49eeb19171b26cee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340653"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617603"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てる、または変更する
 
-ユーザーに電話番号を割り当てると、アクティブな各電話番号に緊急対応の場所が関連付けられている必要があります。 (住所を関連付けるのは、電話番号をOffice 365、または電話番号を転送するときに行います)。緊急対応の場所に番号を関連付ける場合は、物理的な場所内のより正確な場所を提供する場所を追加できます。 場所には、ユーザーが配置されているフロア、ビルの主な場所、オフィス番号を指定できます。 特定の緊急対応の場所の場所の数に制限はありません。また、ユーザーが別のオフィスやビルに移動した場合に場所を変更できます。 たとえば、ユーザーがフロア 34 からフロア 35 に移動する場合です。
+ユーザーに電話番号を割り当てると、アクティブな各電話番号に緊急対応の場所が関連付けられている必要があります。 (住所を関連付けるのは、電話番号をOffice 365、または電話番号を転送するときに行います)。緊急対応の場所に番号を関連付ける場合は、物理的な場所内のより正確な場所を提供する場所を追加できます。 場所には、ユーザーが配置されているフロア、ビルの主な場所、またはオフィス番号を指定できます。 特定の緊急対応の場所の場所の数に制限はありません。また、ユーザーが別のオフィスやビルに移動した場合に場所を変更できます。 たとえば、ユーザーがフロア 34 からフロア 35 に移動する場合です。
   
-通話プランを取得する方法と料金については[、「Teams」を参照してください](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+通話プランを取得する方法と料金については、アドオン ライセンスのTeams[を参照してください](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-管理者センターまたは PowerShell を使用して、ユーザーの緊急対応の場所を割り当Microsoft Teams変更できます。
+管理者センターまたは PowerShell を使用して、ユーザーの緊急対応の場所Microsoft Teamsを割り当てまたは変更できます。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
 1. 管理センターの左側のナビゲーションで、[音声Microsoft Teams **番号]**  >  **を電話します**。
 
-2. [番号 **電話ページで**、[数値] タブをクリックし、一覧からユーザー番号を選択し、[編集] を **クリックします**。
+2. [数値 **電話ページで**、[数値] タブをクリックし、一覧からユーザー番号を選択し、[編集] をクリック **します**。
 
 3. [編集] **ウィンドウの** [緊急対応の **場所] で**、次のいずれかの操作を行います。
 
@@ -53,7 +53,7 @@ ms.locfileid: "54340653"
 
 [「Set-CsOnlineLisLocation」を参照してください](/powershell/module/skype/set-csonlinelislocation)。
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)

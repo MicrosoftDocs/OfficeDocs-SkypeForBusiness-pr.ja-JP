@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[証明書の割り当て] ページは、役割サーバーで要求された使用法に証明書を割り当てるプロセスを開始します。 [証明書の詳細の表示] をクリックして証明書を表示します。 [全般] タブ、[詳細] タブ、または [認定パス] タブを選択できます。[全般] タブには、発行元証明機関やプライベート キーの状態など、証明書に関する基本情報が表示されます。 [詳細] タブには、サブジェクト名、サブジェクトの別名など、証明書の詳細な情報が表示されます。 [証明書パス] タブには、証明書から発行または中間証明機関 (存在する場合) からルート証明機関への信頼の証明書チェーンが表示されます。'
-ms.openlocfilehash: 678f956724cd42aa9d0d320e76c38b95e5405eedfc70d0e18d9343d0ac6158c3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af0dc39c33bfd7dc828e6daf1ec7f88f755eb0bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291895"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579361"
 ---
 # <a name="certificate-assignment-from-request"></a>証明書の割り当て (要求から)
  

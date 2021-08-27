@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式には、フリーダイヤル番号をダイヤルするために必要な国/地域内のアクセス コードが表示されます。
-ms.openlocfilehash: 4a866d2fcb24ab8c310452f6b67dbcedd2d3463af4342b63541bac928ac16656
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8647252728c88461a21a5cfa54ee75c68ab3a7f6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330861"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582151"
 ---
 # <a name="toll-free-dialing-restrictions-in-belgium"></a>ベルギーでのフリーダイヤル制限
 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ポーランドで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 40b300016a6d747614fec8ddae26780ec6ca39903dd239b93d0d0f1ec39046a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: ポーランドで使用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
+ms.openlocfilehash: 93296a036a1c5f145267e508dacd6f43b147838e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334728"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617533"
 ---
 # <a name="availability-in-poland"></a>ポーランドでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ポーランドで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsを次に示します。
+ポーランドで使用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -58,7 +58,7 @@ ms.locfileid: "54334728"
 ## <a name="calling-plans"></a>通話プラン
 
 > [!IMPORTANT]
-> 現在、ポーランドでは、新しい電話番号の注文や移植注文の処理に予期しない遅延が発生しています。 引き続き注文できますが、この遅延は 9 月までに解決される予定です。この時点で、保留中のすべての注文が満たされます。
+> 現在、ポーランドでは、新しい電話番号の注文や移植注文の処理に予期しない遅延が発生しています。 注文は引き続き行えるが、この遅延は 9 月までに解決される予定で、保留中の注文はすべて満たされる予定です。
 
 |**機能**|**詳細**|
 |:-----|:-----|
@@ -85,7 +85,7 @@ ms.locfileid: "54334728"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

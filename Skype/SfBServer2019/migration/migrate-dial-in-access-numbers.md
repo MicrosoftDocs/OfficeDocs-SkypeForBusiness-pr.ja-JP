@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: ダイヤルイン アクセス番号を 2019 年Skype for Business Server移行するには、連絡先オブジェクトを移行Move-CsApplicationEndpointコマンドレットを実行する必要があります。 従来のインストールと Skype for Business Server 2019 の共存期間中、Skype for Business Server 2019 で作成したダイヤルイン アクセス番号は、このセクションで説明するように、従来のインストールで作成したダイヤルイン アクセス番号と同様に動作します。
-ms.openlocfilehash: a65f0252dd4899ef196701d282a1b14673c5c22b7851029b35a15c4685c2b28d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4d5d0ad88c241685e7ea86c7adc9dc536d3180a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318052"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589337"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>ダイヤルイン アクセス番号の移行
 

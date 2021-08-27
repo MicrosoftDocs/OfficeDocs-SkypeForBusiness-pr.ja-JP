@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: 展開モデルを選択し、「実行責任、説明責任、助言、通知」(RACI) マトリックスを開発し、実行およびガバナンスの計画を作成します。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 847c5d1017739a403c064b26b106c88164f79e68800fdc772f99ccfaaa9b6432
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b891db54d7202eb24df969e3d510a4cc5d7c8be3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314323"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624819"
 ---
 # <a name="document-my-success-plan"></a>成功計画を文書化する
 

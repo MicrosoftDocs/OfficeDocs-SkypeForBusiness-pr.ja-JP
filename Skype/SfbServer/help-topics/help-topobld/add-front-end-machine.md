@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndMachinePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 description: このプールにフロント エンド サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。一覧にコンピューターを追加した後、トポロジを公開するまでの間はいつでも、コンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。トポロジの公開後に FQDN を変更するには、トポロジ ビルダーでサーバーを削除し、新しいサーバーを新しい FQDN でプールに追加する必要があります。トポロジへのフロント エンド プールの追加の詳細については、「展開」のドキュメントの「Define and Configure a Front End Pool (フロント エンド プールの定義および構成)」を参照してください。
-ms.openlocfilehash: 912b4599db1882fda9741573ce1ac2637584ca84990d54ca3964037f4e00d396
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29a759443db5a20093c77eab9805f89b865493f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342152"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610814"
 ---
 # <a name="add-front-end-machine"></a>フロント エンド コンピューターの追加
 

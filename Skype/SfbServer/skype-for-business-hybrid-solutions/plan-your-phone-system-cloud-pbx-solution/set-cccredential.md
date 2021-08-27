@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: このSet-CcCredentialは、現在の展開の資格情報をSkype for Business クラウド コネクタ エディションします。
-ms.openlocfilehash: 330326790f20add51dcaeb4468b17438c302c353c08076402e15f4d32985c117
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa0d5f69e3263d273fabe17ae74ea46e0af40908
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324137"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617669"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -49,7 +49,7 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
 | AccountType <br/> | 必須 <br/> |System.String  <br/> | パラメーターの値は、"TenantAdmin"、"VmAdmin"、または "DomainAdmin" である必要があります。 <br/> |
    

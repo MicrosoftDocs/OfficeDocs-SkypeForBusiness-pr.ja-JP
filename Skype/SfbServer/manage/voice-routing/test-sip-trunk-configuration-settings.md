@@ -1,5 +1,5 @@
 ---
-title: SIP トランク構成設定をテストする (Skype for Business Server
+title: Skype for Business Server - SIP トランク構成設定のテスト
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 'SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。 '
-ms.openlocfilehash: 15e417a03da634efc79aab048eccf4dc64296c309c2d13db0a35d8276dc24ecc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 'SIP トランク構成設定は、仲介サーバーと PST) ゲートウェイ、PBX、またはサービス プロバイダーの SBC の間の関係と機能を定義します。 '
+ms.openlocfilehash: 1684a2a45de1dd6608ab5fea70fa3bf2e1652723
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617823"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>SIP トランク構成設定をテストする (Skype for Business Server
+# <a name="skype-for-business-server---test-sip-trunk-configuration-settings"></a>Skype for Business Server - SIP トランク構成設定のテスト
 
 SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。たとえば、次の設定ができます。
 

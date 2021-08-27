@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: 組織の Get-CsOnlineUser Online Windows PowerShellに関する情報を取得するには、Skype for Business コマンドレットを使用します。
-ms.openlocfilehash: 59259a498cdfd08a56d62526631fb3b7b6d38e4a7e03841e939abf5985484f3f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5dc6a138b9d948c0ca85112a8032fb4bed6354d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323569"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579391"
 ---
 # <a name="manage-user-accounts"></a>ユーザー アカウントを管理する
 
@@ -60,7 +60,7 @@ Get-CsOnlineUser
 Get-CsOnlineUser -ResultSize 1
 ```
 
-このため **、Get-CsOnlineUser** コマンドレットは、組織内のユーザー数に関係なく、1 人のユーザーについての情報を返します。 5 人のユーザーの情報を返す場合は _、ResultSize パラメーターの値_ を 5 に設定します。
+その結果 **、Get-CsOnlineUser** コマンドレットは、組織内のユーザー数に関係なく、1 人のユーザーについての情報を返します。 5 人のユーザーの情報を返す場合は _、ResultSize パラメーターの値_ を 5 に設定します。
 
 ```PowerShell
 Get-CsOnlineUser -ResultSize 5
@@ -90,7 +90,7 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ### <a name="return-specific-information-for-specific-users-in-skype-for-business-online"></a>Skype for Business Online で特定のユーザーの特定の情報を返す
 <a name="BKMKReturninfoSpecificUsers"> </a>
 
-既定では[、Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)コマンドレットは、オンライン ユーザー アカウントの各ユーザー Skype for Business情報を返します。 その情報のサブセットのみを使用する場合は、返されたデータを **Select-Object コマンドレットにパイプします** 。 たとえば、このコマンドはユーザー Ken Myer のすべてのデータを返し **、Select-Object** コマンドレットを使用して、Ken の AD DS 表示名とダイヤル プランに画面に表示される情報を制限します。
+既定では[、Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)コマンドレットは、オンライン ユーザー アカウントごとに膨大なSkype for Businessを返します。 その情報のサブセットのみを使用する場合は、返されたデータを **Select-Object コマンドレットにパイプします** 。 たとえば、このコマンドはユーザー Ken Myer のすべてのデータを返し **、Select-Object** コマンドレットを使用して、Ken の AD DS 表示名とダイヤル プランに画面に表示される情報を制限します。
 
 ```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
@@ -118,4 +118,4 @@ Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 
 ## <a name="related-topics"></a>関連項目
-[Skype for Business Online 管理用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Skype for Business Online Management 用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

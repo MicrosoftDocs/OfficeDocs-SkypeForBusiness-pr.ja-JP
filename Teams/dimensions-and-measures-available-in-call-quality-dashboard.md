@@ -15,23 +15,23 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 通話品質ダッシュボード (CQD) で使用されるディメンションと測定値に関する詳細な情報を、Microsoft Teamsおよび Skype for Businessします。
-ms.openlocfilehash: 22829b91fe4e40d0690194eff37d60ca5b99d53f
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 366c68b0fdafedabd5af366ee2c4244ea4005576
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505435"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582391"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) で使用できる寸法と測定値
 
-Microsoft Teams および Skype for Business Online の通話品質ダッシュボード (CQD) を使用すると、これらのサービスで行われた通話の通話品質をよりよく理解できます。 このトピックでは、CQD で表示される寸法と測定値について詳しく説明します。 CQD の詳細については、「CQD を使用して通話と会議の品質を管理する」[を参照](quality-of-experience-review-guide.md)Microsoft Teams。
+Microsoft Teams Online および Skype for Business Online の通話品質ダッシュボード (CQD) を使用すると、これらのサービスで行われた通話の通話品質をよりよく理解できます。 このトピックでは、CQD で表示される寸法と測定値について詳しく説明します。 CQD の詳細については、「CQD を使用して通話と会議の品質を管理する」を[参照](quality-of-experience-review-guide.md)Microsoft Teams。
 
 ## <a name="first-and-second-endpoint-classification"></a>第 1 と第 2 のエンドポイントの分類
 
@@ -121,7 +121,7 @@ CQD の寸法と測定値の多くは、1 番目または 2 番目としてラ�
 | Second Building Name  | 文字列  | 第 2 のエンドポイントが置かっていた建物の名前は、テナントの建物データへのサブネットのマッピングに基づいて行います。 <br/> **値の例:** Main | <br/>&bull; エンドポイントによって報告されないネットワーク データ<br/>&bull; ネットワークが企業ネットワーク内にない <br/>&bull; ネットワークに、サブネット マッピング データで定義された建物名が存在しない |
 | Second Ownership Type  | 文字列  | 第 2 のエンドポイントが置かれる建物の所有権の種類は、テナントの建物データへのサブネットのマッピングに基づいて行います。 <br/> **値の例:** Contoso — IT | &bull; エンドポイントによって報告されないネットワーク データ<br/>&bull; ネットワークが企業ネットワーク内にない <br/>&bull; ネットワークにサブネット マッピング データで定義された所有権が存在しない |
 | Second Building Type  | 文字列  | 第 2 のエンドポイントが置かっていた建物の種類は、テナントの建物データへのサブネットのマッピングに基づいて行います。 <br/> **値の例:**[ファイルOffice | <br/>&bull; エンドポイントによって報告されないネットワーク データ<br/>&bull; ネットワークが企業ネットワーク内にない <br/>&bull; ネットワーク構築の種類がサブネット マッピング データで定義されていない   |
-| Second Building Office Type  | 文字列  | Officeの建物データへのサブネットのマッピングに基づいて、第 2 のエンドポイントが置かれる建物の種類を指定します。 <br/> **値の例:** Office  | <br/>&bull; エンドポイントによって報告されないネットワーク データ<br/>&bull; ネットワークが企業ネットワーク内にない <br/>&bull; ネットワークには、サブネット マッピング データで定義された建物のオフィスの種類が存在しない。  |
+| Second Building Office Type  | 文字列  | Officeの建物データへのサブネットのマッピングに基づいて、2 つ目のエンドポイントが置かれる建物の種類を指定します。 <br/> **値の例:** Office  | <br/>&bull; エンドポイントによって報告されないネットワーク データ<br/>&bull; ネットワークが企業ネットワーク内にない <br/>&bull; ネットワークには、サブネット マッピング データで定義された建物のオフィスの種類が存在しない。  |
 | Second City  | 文字列  | 第 2 のエンドポイントが、テナントの建物データへのサブネットのマッピングに基づいて置かれる都市。 <br/> **値の例:** レドモンド |  <br/>&bull; エンドポイントによって報告されないネットワーク データ  <br/>&bull; ネットワークが企業ネットワーク内にない  <br/>&bull; ネットワークにサブネット マッピング データで定義された都市が存在しない   |
 | Second Zip Code  | 文字列  | 第 2 のエンドポイントが、テナントの建物データへのサブネットのマッピングに基づいて置かれる郵便番号。 <br/> **値の例:** 98052  | <br/>&bull; エンドポイントによって報告されないネットワーク データ <br/>&bull; ネットワークが企業ネットワーク内にない <br/>&bull; ネットワークにサブネット マッピング データで定義された郵便番号が存在しない |
 | Second Country  | 文字列  | 第 2 のエンドポイントが、テナントの建物データへのサブネットのマッピングに基づいて置かれる国。 <br/> **値の例:** 米国  | <br/>&bull; エンドポイントによって報告されないネットワーク データ<br/>&bull; ネットワークが企業ネットワーク内にない <br/>&bull; ネットワークにサブネット マッピング データで定義されている国が存在しない  |
@@ -131,10 +131,10 @@ CQD の寸法と測定値の多くは、1 番目または 2 番目としてラ�
 | First Inside Corp  | 列挙型 <br/>**指定できる値:** <br/> Inside、Outside  | テナント構築データへのサブネットのマッピングに基づいて、最初のエンドポイントが企業ネットワーク内のサブネット上に置かっていたかどうかを示します。 既定では、エンドポイントは外部と見なされます。 <br/> **値の例:** 中に | |
 | Second Inside Corp  | 列挙型 <br/> **指定できる値:** <br/> Inside、Outside | 2 つ目のエンドポイントが、テナントの建物データへのサブネットのマッピングに基づいて、企業ネットワーク内のサブネット上に置かっていたかどうかを示します。 既定では、エンドポイントは外部と見なされます。 <br/>**値の例:** 中に  |  |
 |**Deployment**| | | |
-| First Tenant Id  | 文字列  | 第 1 のエンドポイントのテナント ID。 <br/> **値の例:** 00000000 — 0000 -0000 - 0000 — 000000000000  | <br/>&bull; 第 1 のエンドポイントのテナント ID を決定できません。 これは、エンドポイントがオンプレミスのデプロイにサインインSkype for Business Serverがあります。  |
-| Second Tenant Id  | 文字列  | 2 つ目のエンドポイントのテナント ID。 <br/> **値の例:** 00000000 — 0000 - 0000 - 0000 — 000000000000  |  <br/>&bull; 第 2 のエンドポイントのテナント ID を決定できません。 これは、エンドポイントがオンプレミスのデプロイにサインインSkype for Business Serverがあります。  |
-| First Pool  | 文字列  | 第 1 のエンドポイントに割り当てられた Skype for Business Online プールの FQDN。 <br/> **値の例:** pool1 <span></span> .lync <span></span> .com  | <br/>&bull;エンドポイントが、 または にサインインMicrosoft Teams示Skype for Business。 このフィールドは、オンプレミスのデプロイを使用するストリームにのみSkype for Business Serverされます。 |
-| Second Pool  | 文字列  | 第 2 のエンドポイントに割り当てられた Skype for Business Online プールの FQDN。 <br/> **値の例:** <span>pool1.lync.com</span>   | &bull;Skype for Business2 つ目のエンドポイントに対してオンライン プールを決定できません。 これは、エンドポイントがオンプレミスのデプロイにサインインSkype for Business Serverがあります。  |
+| First Tenant Id  | 文字列  | 第 1 のエンドポイントのテナント ID。 <br/> **値の例:** 00000000 — 0000 -0000 - 0000 — 000000000000  | <br/>&bull; 第 1 のエンドポイントのテナント ID を決定できません。 これは、エンドポイントがオンプレミスのデプロイ環境にサインインSkype for Business Serverがあります。  |
+| Second Tenant Id  | 文字列  | 2 つ目のエンドポイントのテナント ID。 <br/> **値の例:** 00000000 — 0000 - 0000 - 0000 — 000000000000  |  <br/>&bull; 第 2 のエンドポイントのテナント ID を決定できません。 これは、エンドポイントがオンプレミスのデプロイ環境にサインインSkype for Business Serverがあります。  |
+| First Pool  | 文字列  | 第 1 のエンドポイントに割り当てられた Skype for Business Online プールの FQDN。 <br/> **値の例:** pool1 <span></span> .lync <span></span> .com  | <br/>&bull;エンドポイントが、 または にサインインMicrosoft Teams示Skype for Business。 このフィールドは、オンプレミスのデプロイを使用するストリームSkype for Business Serverされます。 |
+| Second Pool  | 文字列  | 第 2 のエンドポイントに割り当てられた Skype for Business Online プールの FQDN。 <br/> **値の例:** <span>pool1.lync.com</span>   | &bull;Skype for Business2 つ目のエンドポイントに対してオンライン プールを決定できません。 これは、エンドポイントがオンプレミスのデプロイ環境にサインインSkype for Business Serverがあります。  |
 | Is Federated  | ブール型  | ストリームが 2 つのフェデレーション テナント間の場合は True、それ以外の場合は False。   | <br/>&bull; これがフェデレーション ストリームの場合は判断できません <br/>&bull; 一部のシグナル データが収集されない   |
 |Region | 文字列   |  テナントのホーム リージョンに基づいてデプロイが配置されたリージョン。 <br/> **値の例:** 北米 | <br/>&bull; ネットワーク データが報告されない <br/>&bull; ネットワークが企業ネットワーク内にない <br/>&bull; ネットワークには、サブネット マッピング データで定義されたリージョンが存在しない。 |
 |**Stream**| | | |
@@ -220,7 +220,7 @@ CQD の寸法と測定値の多くは、1 番目または 2 番目としてラ�
 | 最初のリモート アドレス | 文字列 | 第 1 のエンドポイントがメディア接続チェックの最後にメディアを送信する第 2 のエンドポイントの IP アドレス。 過去 28 日間のデータでのみ使用でき、EUII アクセスを許可するロールを持つユーザーにのみ表示されます。 <br/> **値の例:** 10.0.0.10 | &bull; トランスポート診断の種類が報告されていない <br/>&bull; メディア パスが確立されていません |
 | 2 番目のリモート アドレス | 文字列 | 第 2 のエンドポイントがメディア接続チェックの最後にメディアを送信する第 1 のエンドポイントの IP アドレス。 過去 28 日間のデータでのみ使用でき、EUII アクセスを許可するロールを持つユーザーにのみ表示されます。 <br/> **値の例:** 10.0.0.10 | &bull; トランスポート診断の種類が報告されていない <br/>&bull; メディア パスが確立されていません |
 | 最初のリモート アドレスの種類 | 列挙型 <br/>**指定できる値** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 最初のリモート アドレスの候補の種類。 IceAddrType_Turnは、リレーされた呼び出しを示します。 残りの値は直接接続を示します。 | &bull; トランスポート診断の種類が報告されていない <br/>&bull; メディア パスが確立されていません |
-| 2 番目のリモート アドレスの種類 | 列挙型  <br/>**指定できる値** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 2 番目のリモート アドレスの候補の種類。 IceAddrType_Turnリレーされた呼び出しを示します。 残りの値は直接接続を示します。 | &bull; トランスポート診断の種類が報告されていない <br/>&bull; メディア パスが確立されていません |
+| 2 番目のリモート アドレスの種類 | 列挙型  <br/>**指定できる値** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | 2 番目のリモート アドレスの候補の種類。 IceAddrType_Turnは、リレーされた呼び出しを示します。 残りの値は直接接続を示します。 | &bull; トランスポート診断の種類が報告されていない <br/>&bull; メディア パスが確立されていません |
 | 最初のローカル サイト | 文字列 | メディア リレー サーバーによって表示される第 1 のエンドポイントの IP アドレス。 これは通常、ストリームの最初のエンドポイントに関連付けられているパブリック インターネット IP アドレスです。 何らかの理由でリレーに到達できない場合、または割り当てが失敗した場合、これが最初のエンドポイントのローカル インターフェイスの IP になります。 <br/> これは First Reflexive Local IP に似ていますが、この情報は QoE ではなくトランスポート診断イベントによって報告されます。 過去 28 日間のデータでのみ使用でき、EUII アクセスを許可するロールを持つユーザーにのみ表示されます。 <br/> **値の例:** 104.43.195.251 | &bull; トランスポート診断の種類が報告されていない <br/>&bull; メディア パスが確立されていません |
 | 2 番目のローカル サイト | 文字列 | メディア リレー サーバーによって表示される第 2 のエンドポイントの IP アドレス。 これは通常、ストリームの 2 つ目のエンドポイントに関連付けられているパブリック インターネット IP アドレスです。 何らかの理由でリレーに到達できない場合、または割り当てが失敗した場合、これが最初のエンドポイントのローカル インターフェイスの IP になります。 <br/> これは Second Reflexive Local IP に似ていますが、この情報は QoE ではなくトランスポート診断イベントによって報告されます。 過去 28 日間のデータでのみ使用でき、EUII アクセスを許可するロールを持つユーザーにのみ表示されます。 <br/> **値の例:** 104.43.195.251 | &bull; トランスポート診断の種類が報告されていない <br/>&bull; メディア パスが確立されていません |
 | 最初のリモート サイト | 文字列 | 第 2 のエンドポイントによって報告され、第 1 のエンドポイントと交換されたローカル サイトの IP アドレス。 <br/> 第 2 のエンドポイントのトランスポート診断イベントが何らかの理由で使用できない場合の追加情報。 過去 28 日間のデータでのみ使用でき、EUII アクセスを許可するロールを持つユーザーにのみ表示されます。 <br/> **値の例:** 104.43.195.251 | &bull; トランスポート診断の種類が報告されていない <br/>&bull; メディア パスが確立されていません |
@@ -244,11 +244,11 @@ CQD の寸法と測定値の多くは、1 番目または 2 番目としてラ�
 | First Wi-Fi Microsoft Driver  | 文字列  | 第 1 のエンドポイントによって使用、報告される Microsoft WiFi ドライバーの名前。値はエンドポイントで使用される言語に基づきローカライズされる場合があります。<br/> **値の例:** Microsoft Hosted Network Virtual Adapter  | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない|
 | 2 つ目Wi-Fi Microsoft Driver  | 文字列  | 第 2 のエンドポイントによって使用、報告される Microsoft WiFi ドライバーの名前。値はエンドポイントで使用される言語に基づきローカライズされる場合があります。<br/> **値の例:** Microsoft Hosted Network Virtual Adapter  | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない|
 | First Wi-Fi Vendor Driver  | 文字列  | 第 1 のエンドポイントによって報告される WiFi ドライバーのベンダーと名前。 <br/> **値の例:** Contoso Dual Band Wireless-AC Driver  | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない |
-| 2 番目Wi-Fi ベンダー ドライバー  | 文字列  | 第 2 のエンドポイントによって報告される WiFi ドライバーのベンダーと名前。  <br/> **値の例:** Contoso Dual Band Wireless-AC Driver | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない |
+| Second Wi-Fi Vendor Driver  | 文字列  | 第 2 のエンドポイントによって報告される WiFi ドライバーのベンダーと名前。  <br/> **値の例:** Contoso Dual Band Wireless-AC Driver | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない |
 | Microsoft Wi-Fiバージョンの最初のバージョン  | 文字列  | 第 1 のエンドポイントによって報告される Microsoft WiFi ドライバーのバージョン。 <br/> **値の例:** Microsoft:10.0.14393.0 | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない  |
-| Microsoft Wi-Fiバージョンの 2 つ目のバージョン  | 文字列  | 第 2 のエンドポイントによって報告される Microsoft WiFi ドライバーのバージョン。 <br/> **値の例:** Microsoft:10.0.14393.0 | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない  |
+| Microsoft Wi-Fiバージョンの 2 番目のバージョン  | 文字列  | 第 2 のエンドポイントによって報告される Microsoft WiFi ドライバーのバージョン。 <br/> **値の例:** Microsoft:10.0.14393.0 | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない  |
 | 最初Wi-Fi ベンダー ドライバーのバージョン  | 文字列  | 第 1 のエンドポイントによって報告される WiFi ドライバーのベンダーとバージョン。 <br/> **値の例:** Contoso:15.1.1.0 | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない  |
-| 2 番目Wi-Fi ベンダー ドライバーのバージョン  | 文字列  | 第 2 のエンドポイントによって報告される WiFi ドライバーのベンダーとバージョン。 <br/> **値の例:** Contoso:15.1.1.0 | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない  |
+| 第 2 Wi-Fi ベンダー ドライバーのバージョン  | 文字列  | 第 2 のエンドポイントによって報告される WiFi ドライバーのベンダーとバージョン。 <br/> **値の例:** Contoso:15.1.1.0 | <br/>&bull; WiFi がエンドポイントで使用されません <br/>&bull; ドライバー情報が報告されていない  |
 | First Wi-Fi Channel  | 文字列  | 第 1 のエンドポイントによって使用される WiFi チャネル。  <br/> **値の例:** 10| <br/>&bull; WiFi が使用されていない <br/>&bull; チャネルが報告されていない   |
 | Second Wi-Fi Channel  | 文字列  | 第 2 のエンドポイントによって使用される WiFi チャネル。 <br/> **値の例:** 10  | <br/>&bull; WiFi が使用されていない <br/>&bull; チャネルが報告されていない  |
 | First Wi-Fi Radio Type  | 文字列  | 第 1 のエンドポイントによって使用される WiFi 無線の種類。HRDSSS は 802.11b に相当します。<br/> **値の例:** 802.11ac  | <br/>&bull; WiFi が使用されていない <br/>&bull; WiFi の種類が報告されていない  |
@@ -425,9 +425,9 @@ CQD の寸法と測定値の多くは、1 番目または 2 番目としてラ�
 | First Feedback Text|文字列|呼び出しの最後に第 1 のエンドポイントのユーザーによって提供される、動詞フィードバック テキスト (ある場合)。 過去 28 日間のデータでのみ使用でき、EUII アクセスを許可するロールを持つユーザーにのみ表示されます。 | |
 | Second Feedback Text|文字列| 呼び出しの最後に第 2 のエンドポイントのユーザーによって提供される、動詞フィードバック テキスト (ある場合)。 過去 28 日間のデータでのみ使用でき、EUII アクセスを許可するロールを持つユーザーにのみ表示されます。|
 | First Client Endpoint Name|文字列|第 1 のエンドポイントのマシン名。 過去 28 日間のデータでのみ使用でき、EUII アクセスを許可するロールを持つユーザーにのみ表示されます。|
-| 2 番目のクライアント エンドポイント名|文字列|2 つ目のエンドポイントのマシン名。 過去 28 日間のデータでのみ使用でき、EUII アクセスを許可するロールを持つユーザーにのみ表示されます。|
+| 2 番目のクライアント エンドポイント名|文字列|第 2 のエンドポイントのマシン名。 過去 28 日間のデータでのみ使用でき、EUII アクセスを許可するロールを持つユーザーにのみ表示されます。|
 | First Endpoint Product Name|文字列|第 1 のエンドポイントの製品名 (Skype for BusinessまたはMicrosoft Teams)。|
-| Second Endpoint Product Name|文字列|第 2 のエンドポイントの製品名 (Skype for Business または Microsoft Teams)。|
+| Second Endpoint Product Name|文字列|2 つ目のエンドポイントの製品名 (Skype for BusinessまたはMicrosoft Teams)。|
 | First UserType|列挙文字列|第 1 のエンドポイントのユーザーの種類。 <br/> **指定できる値:** ユーザー、サーバー、匿名、アプリケーション、PSTN、ボイスメール、不明 <br/> <br/>**不明** - UserType が受信した情報に基づいて決定できない場合の既定値。 <br/>**PSTN** - PSTN ユーザー。 <br/>**Anonymous** - ユーザー Teamsまたは訪問者Skype for Businessします。 <br/>**アプリケーション** - ボット。 <br/>**ユーザー** - AAD ユーザーは、ユーザーまたはSkype for Businessユーザー Teamsできます。 <br/>**サーバー** - 会議の場合、少なくとも 1 つの側がサーバーです。 <br/>**ボイス** メール - エンドポイントはボイスメール サービスによって応答されました。||
 | Second UserType|列挙文字列|第 2 のエンドポイントのユーザーの種類。 <br/> **指定できる値:** ユーザー、サーバー、匿名、アプリケーション、PSTN、ボイスメール、不明 <br/> <br/>**不明** - UserType が受信した情報に基づいて決定できない場合の既定値。 <br/>**PSTN** - PSTN ユーザー。 <br/>**Anonymous** - ユーザー Teamsまたは訪問者Skype for Businessします。 <br/>**アプリケーション** - ボット。 <br/>**ユーザー** - AAD ユーザーは、ユーザーまたはSkype for Businessユーザー Teamsできます。 <br/>**サーバー** - 会議の場合、少なくとも 1 つの側がサーバーです。 <br/>**ボイスメール** - エンドポイントはボイスメール サービスによって応答されました。||
 |**PSTN**|||
@@ -514,7 +514,7 @@ CQD で使用される文字列は、多くの場合、データ ファイルか
 
 ## <a name="measurements"></a>Measurements
 
-多くの測定値をフィルターとして使用することもできます。 次の表は、クエリ エディターに表示されている順序で示されている、CQD で現在使用できる測定値の一覧です。
+多くの測定値をフィルターとして使用することもできます。 次の表は、クエリ エディターに表示されている順序で示されている、CQD で現在使用可能な測定値の一覧です。
 
 |メジャーの名前 |単位 |説明 |
 |:--- |:--- |:--- |
@@ -531,10 +531,10 @@ CQD で使用される文字列は、多くの場合、データ ファイルか
 |Total Short Call Percentage |パーセンテージ |合計通話時間が 1 分未満の割合。 |
 |Total Media Failure Percentage |パーセンテージ |メディア パスが確立されなかった、または正常に終了しなかったすべてのストリームのパーセンテージ。 |
 |オーディオ ストリームの合計継続時間 (分) |分 |選択した時間範囲内のオーディオ ストリームの合計時間 (分単位)。 |
-|Media Failed Due To Firewall DPI Stream Count |ストリームの数 |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームの数。 これらのエラーは、通常、プロキシ、ファイアウォール、または他のネットワーク セキュリティ デバイスが、Microsoft 365 または Office 365 の Skype for Business で使用される IP アドレスとポートにアクセスするように正しく構成されていない場合を示します。 |
-|Firewall DPI Media Failure Percentage |パーセンテージ |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームのパーセンテージ。 これらのエラーは、通常、プロキシ、ファイアウォール、または他のネットワーク セキュリティ デバイスが、Microsoft 365 または Office 365 で使用される IP アドレスとポートにアクセスするように正しく構成Skype for Business示しています。 |
-|Media Failed Due To Firewall IP Blocked Stream Count |ストリームの数 |ネットワーク機器が Skype for Business サーバーへのアクセスをブロックしたために確立できなかったストリームの数。 これらのエラーは、通常、プロキシ、ファイアウォール、または他のネットワーク セキュリティ デバイスが、Microsoft 365 または Office 365 で使用される IP アドレスとポートにアクセスするように正しく構成Skype for Business示しています。 |
-|Firewall IP Blocked Media Failure Percentage |パーセンテージ |ネットワーク機器がサーバーへのアクセスをブロックするために確立できなかったストリームSkype for Business割合。 これらのエラーは、通常、プロキシ、ファイアウォール、または他のネットワーク セキュリティ デバイスが、Microsoft 365 または Office 365 の Skype for Business で使用される IP アドレスとポートにアクセスするように正しく構成Office 365。 |
+|Media Failed Due To Firewall DPI Stream Count |ストリームの数 |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームの数。 これらのエラーは、通常、プロキシ、ファイアウォール、または他のネットワーク セキュリティ デバイスが、Skype for Business で使用される IP アドレスとポートにアクセスするように正しく構成Microsoft 365またはOffice 365。 |
+|Firewall DPI Media Failure Percentage |パーセンテージ |ネットワーク機器が Skype for Business トラフィックへのアクセスを許可しないディープ パケット インスペクションのために確立できなかったストリームのパーセンテージ。 これらのエラーは、通常、プロキシ、ファイアウォール、または他のネットワーク セキュリティ デバイスが、Skype for Business で使用される IP アドレスとポートにアクセスするように正しく構成Microsoft 365または Office 365。 |
+|Media Failed Due To Firewall IP Blocked Stream Count |ストリームの数 |ネットワーク機器が Skype for Business サーバーへのアクセスをブロックしたために確立できなかったストリームの数。 これらのエラーは、通常、プロキシ、ファイアウォール、または他のネットワーク セキュリティ デバイスが、Skype for Business で使用される IP アドレスとポートにアクセスするように正しく構成Microsoft 365または Office 365。 |
+|Firewall IP Blocked Media Failure Percentage |パーセンテージ |ネットワーク機器がサーバーへのアクセスをブロックするために確立できなかったストリームSkype for Business割合。 これらのエラーは、通常、プロキシ、ファイアウォール、または他のネットワーク セキュリティ デバイスが、Microsoft 365 または Office 365 で Skype for Business によって使用される IP アドレスとポートにアクセスするように正しく構成されていないOffice 365。 |
 | その他のストリーム数が原因でメディアが失敗しました|ストリームの数| 不定/未分類の理由により、エンドポイント間でメディア パスを確立できないストリームの数。| |
 | その他のメディア障害の割合|パーセンテージ| 不定/未分類の理由により、エンドポイント間でメディア パスを確立できないストリームの割合。 ||
 | 合計 CDR 使用可能な呼び出し数|ストリームの数|信頼性/診断情報が使用可能なメディア ストリームの総数。 このメジャーには最大 0.2% のエラーがあります。 詳細については、以下の注を参照してください。|
@@ -551,9 +551,9 @@ CQD で使用される文字列は、多くの場合、データ ファイルか
 |Audio Poor Due To Degradation Count |ストリームの数 |品質低下メトリックが「通話品質ダッシュボードのストリーム分類」に記載されているしきい値を超 [えているオーディオ ストリームの数](stream-classification-in-call-quality-dashboard.md)。 |
 |Audio Poor Due To RoundTrip Count |ストリームの数 |ラウンド トリップが「通話品質ダッシュボードのストリーム分類」に記載されているしきい値を超 [えているオーディオ ストリームの数](stream-classification-in-call-quality-dashboard.md)。 |
 |Audio Poor Due To ConcealedRatio Count |ストリームの数 |隠蔽率が「通話品質ダッシュボードのストリーム分類」に記載されているしきい値を超えている [オーディオ ストリームの数](stream-classification-in-call-quality-dashboard.md)。 |
-|Audio SLA Good Call Count |通話の数 |ネットワーク パフォーマンス ターゲットを達成するSkype for Business音声品質 SLA[(Microsoft 製品](https://aka.ms/voicequalitysla)およびオンライン サービスのボリューム ライセンス) の範囲内の音声通話の数。 |
-|Audio SLA Poor Call Count |通話の数 |ネットワーク パフォーマンス ターゲットを達成していないとして分類された Skype for Business 音声品質 SLA[(Microsoft 製品](https://aka.ms/voicequalitysla)およびオンライン サービスのボリューム ライセンス) の範囲内の音声通話の数。 |
-|Audio SLA Call Count |通話の数 |音声品質 SLA (Microsoft 製品およびオンライン Skype for Businessボリューム ライセンス) の範囲内の音声[通話の数](https://aka.ms/voicequalitysla)。 |
+|Audio SLA Good Call Count |通話の数 |ネットワーク パフォーマンス ターゲットを達成するSkype for Business音声品質 SLA[(Microsoft 製品およびオンライン](https://aka.ms/voicequalitysla)サービスのボリューム ライセンス) の範囲内の音声通話の数。 |
+|Audio SLA Poor Call Count |通話の数 |ネットワーク パフォーマンス ターゲットを達成していないとして分類された Skype for Business 音声品質 SLA[(Microsoft](https://aka.ms/voicequalitysla)製品およびオンライン サービスのボリューム ライセンス) の範囲内の音声通話の数。 |
+|Audio SLA Call Count |通話の数 |音声品質 SLA (Microsoft 製品およびオンライン サービスSkype for Businessボリューム ライセンス) の範囲内の音声[通話の数](https://aka.ms/voicequalitysla)。 |
 |Audio SLA Good Call Percentage |パーセンテージ |ネットワーク パフォーマンス ターゲットを満たしていると分類された Skype for Business 音声品質 SLA ([マイクロソフト製品およびオンライン サービスのボリューム ライセンス](https://aka.ms/voicequalitysla)) の範囲内にある音声通話のパーセンテージ。 |
 |Audio Good Call Stream Count |ストリームの数 |「通話品質ダッシュボードのストリームの分類」に記載されているネットワーク メトリックに基づいて、通話の両方のオーディオ ストリーム (通話脚) が低品質として分類されないオーディオ ストリーム [の数](stream-classification-in-call-quality-dashboard.md)。 |
 |Audio Poor Call Stream Count |ストリームの数 |「通話品質ダッシュボードのストリーム分類」に記載されているネットワーク メトリックに基づいて、通話中の少なくとも 1 つのオーディオ ストリーム (通話脚) が低品質として分類されたオーディオ ストリーム [の数](stream-classification-in-call-quality-dashboard.md)。 |
@@ -568,10 +568,10 @@ CQD で使用される文字列は、多くの場合、データ ファイルか
 |AppSharing Poor Due To SpoiledTilePercentTotal Count |ストリームの数 |「通話品質ダッシュボードのストリームの分類」に記載されているしきい値を超える、台無しにされたタイルの合計メトリックを超えるアプリケーション共有 [ストリームの数](stream-classification-in-call-quality-dashboard.md)。 |
 |AppSharing Poor Due To RelativeOneWayAverage Count |ストリームの数 |「通話品質ダッシュボードのストリームの分類」に記載されているしきい値を超える、台無しにされたタイルの合計メトリックを超えるアプリケーション共有 [ストリームの数](stream-classification-in-call-quality-dashboard.md)。 |
 |AppSharing Poor Due To RDPTileProcessingLatencyAverage Count |ストリームの数 |RDP タイル処理待機時間の平均が、「通話品質ダッシュボードのストリーム分類」に記載されているしきい値を超えているアプリケーション共有ストリーム [の数](stream-classification-in-call-quality-dashboard.md)。 |
-|AppSharing Poor Stream Count |ストリームの数 |「通話品質ダッシュボードのストリーム分類」に記載されているネットワーク メトリックに基づいて、低品質として分類されたアプリケーション [共有ストリームの数](stream-classification-in-call-quality-dashboard.md)。 |
+|AppSharing Poor Stream Count |ストリームの数 |「通話品質ダッシュボードのストリーム分類」に記載されているネットワーク メトリックに基づいて低品質として分類されたアプリケーション共有 [ストリームの数](stream-classification-in-call-quality-dashboard.md)。 |
 |AppSharing Good Stream Count |ストリームの数 |「通話品質ダッシュボードのストリーム分類」に記載されているネットワーク メトリックに基づいて、良好として分類されたアプリケーション共有 [ストリームの数](stream-classification-in-call-quality-dashboard.md)。 |
 |AppSharing Unclassified Stream Count |ストリームの数 |「通話品質ダッシュボードのストリームの分類」に記載されているネットワーク メトリックに基づいて、良好または低品質として分類するのに十分なデータがないアプリケーション共有ストリーム [の数](stream-classification-in-call-quality-dashboard.md)。 |
-|AppSharing Poor Percentage |パーセンテージ |「通話品質ダッシュボードのストリーム分類」に記載されているネットワーク メトリックに基づいて低品質として分類されたアプリケーション共有ストリームの合計 [に対する割合](stream-classification-in-call-quality-dashboard.md)。 |
+|AppSharing Poor Percentage |パーセンテージ |「通話品質ダッシュボードのストリーム分類」に記載されているネットワーク メトリックに基づいて低品質として分類されたアプリケーション共有ストリームの合計 [の割合](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Stream Count |ストリームの数 |ビデオ ストリームの数 |
 |Video Poor Due To VideoPostFecplr Count |ストリームの数 |Video Post Fec plr が「通話品質ダッシュボードのストリーム分類」に記載されているしきい値を超 [えているビデオ ストリームの数](stream-classification-in-call-quality-dashboard.md)。 |
 |Video Poor Due To VideoLocalFrameLossPercentageAvg Count |ストリームの数 |Video Local Frame Loss Percentage Avg が「通話品質ダッシュボードのストリーム分類」に記載されているしきい値を超えている [ビデオ ストリームの数](stream-classification-in-call-quality-dashboard.md)。 |
@@ -684,7 +684,7 @@ CQD で使用される文字列は、多くの場合、データ ファイルか
 | Avg Second Device Glitches Event Ratio|パーセンテージ|第 2 のエンドポイントが、メディアの再生またはキャプチャの障害またはギャップを検出し、低品質のメディアの送信または受信を引き起こした通話の平均割合。|
 | First Device Glitches Event Count| 数値 | 第 1 のエンドポイントが、メディアの再生またはキャプチャの重大な障害またはギャップを検出し、低品質のメディアの送信または受信を引き起こしたストリームの数。|
 | Second Device Glitches Event Count| 数値 | 第 2 のエンドポイントが、メディアの再生またはキャプチャの重大な障害またはギャップを検出し、低品質のメディアの送信または受信を引き起こしたストリームの数。|
-| PSTN 合計試行回数 | 通話の数 | 選択した時間範囲内の成功した呼び出しと失敗した呼び出しを含む、試行された呼び出しの合計。 このメジャーには最大 0.2% のエラーがあります。 詳細については、以下の注を参照してください。|
+| PSTN の合計試行回数 | 通話の数 | 選択した時間範囲内の成功した呼び出しと失敗した呼び出しを含む、試行された呼び出しの合計。 このメジャーには最大 0.2% のエラーがあります。 詳細については、以下の注を参照してください。|
 |PSTN 合計接続数 | 通話の数 | 選択した時間範囲内の正常に接続された呼び出しの合計。 このメジャーには最大 0.2% のエラーがあります。 詳細については、以下の注を参照してください。|
 |PSTN 受信試行数 | 通話の数 | 選択した時間範囲内の成功した呼び出しと失敗した呼び出しを含む、着信試行された呼び出しの合計。 このメジャーには最大 0.2% のエラーがあります。 詳細については、以下の注を参照してください。|
 |PSTN 受信接続数 | 通話の数 | 選択した時間範囲内の着信が正常に接続された呼び出しの合計。 このメジャーには最大 0.2% のエラーがあります。 詳細については、以下の注を参照してください。|
@@ -714,7 +714,7 @@ CQD で使用される文字列は、多くの場合、データ ファイルか
 
 ディメンションと測定の値の多くは、フィルターとして使用することもできます。 クエリでフィルターを使用すると、ディメンションまたは測定を選択してクエリに情報を追加または含めるのと同じ方法で情報を排除できます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams の通話品質の向上と監視](monitor-call-quality-qos.md)
 

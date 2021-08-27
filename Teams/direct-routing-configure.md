@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: オンプレミスのテレフォニー インフラストラクチャをMicrosoft 電話システム ダイレクト ルーティングを構成する方法について説明Microsoft Teams。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f903511dd4adc439705513f6ef10ed9648d1bbb4aab42ac6dec1aa7bef6064e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582361"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -48,7 +48,7 @@ Microsoft 電話システム ダイレクト ルーティングを使用する�
 
 サポートされている SBC の完全な一覧については、「ダイレクト ルーティングの認定を受けたセッション ボーダー コントローラーの一覧 [」を参照してください](direct-routing-border-controllers.md)。
 
-Microsoft 電話 システムを構成し、ユーザーが直接ルーティングを使用するには、次の手順に従います。 
+システムをMicrosoft 電話し、ユーザーが直接ルーティングを使用するには、次の手順に従います。 
 
 - **手順 1.** [Connect システムを使用して SBC Microsoft 電話し、接続を検証する](direct-routing-connect-the-sbc.md)
 - **手順 2.** [ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする](direct-routing-enable-users.md)
@@ -58,7 +58,7 @@ Microsoft 電話 システムを構成し、ユーザーが直接ルーティン
 複数のテナントに対して SBC を構成する場合は、複数のテナントの SBC の構成に関する記事 [も参照してください](direct-routing-sbc-multiple-tenants.md)。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: 常設チャット サーバーの展開では、多数の常設チャット ルームをホストできます。 チャット ルームはサーバー上で一連のカテゴリに分類できます。 チャット ルームはそれぞれ 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。 このように体系化することで、会話を業務目的に基づいて識別するのに役立つ構造が作成され、管理の委任と簡素化が促進されます。
-ms.openlocfilehash: f02bd8eef8accc36b2e05525db180c8483aded94be08c06d090e42377b023c4c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a09ce98016ceb9db05d7d60dc34f945a0c0a5fd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301763"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579331"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>常設チャットの構成メイン ページ
 

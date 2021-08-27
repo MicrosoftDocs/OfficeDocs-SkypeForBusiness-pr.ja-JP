@@ -9,19 +9,19 @@ ms.topic: hub-page
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: '概要: これらのポスターは、必要に応じて計画、実装、または管理中に確認Skype for Business Server。'
-ms.openlocfilehash: 1d25122d4372fb3bce7fa98f8c21e7b430b63a1221cecb0abceae92485025d85
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbf454cbd59076dc8822719831da014eb17b5df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302131"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617713"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>データの技術図Skype for Business Server
 
@@ -43,7 +43,7 @@ ms.locfileid: "54302131"
 
 このツールの使用の詳細Microsoft Teams、IT アーキテクチャMicrosoft Teamsテレフォニー ソリューションのポスター[を参照してください](/MicrosoftTeams/teams-architecture-solutions-posters)。
 
-|タイトル|説明|
+|役職|説明|
 |:---|:---|
 |**Skype for Business Serverプロトコルワークロード** <br/>![SfB プロトコルワークロードのポスター](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF バージョン](https://go.microsoft.com/fwlink/p/?LinkId=550989) (モバイル デバイスまたはタブレット コンピューターに最適) <br/> [Visioバージョン](https://go.microsoft.com/fwlink/p/?LinkId=550991)(ユーザーに最適なVisio) |このポスターをダウンロードして、さまざまなレベルのサービスの複雑Skype for Businessサーバーとクライアントの要件をよりよく理解します。<br/> <br/> サイズ: 11 ~17 インチ (複数のシート、ほとんどのオフィス プリンターで印刷するサイズが便利) <br/> <br/> このポスターは、2015 年Visio使用して作成されました。 特定の環境に対して変更を行う必要はありません。 |
 |**Skype for Business通話品質の方法** <br/> ![Call Quality Methodology ポスター](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF バージョン](https://go.microsoft.com/fwlink/p/?LinkId=617899) (モバイル デバイスまたはタブレット コンピューターに最適) <br/> [Visioバージョン](https://go.microsoft.com/fwlink/p/?LinkId=617900)(ユーザーに最適なVisio) |このポスターをダウンロードして、エンタープライズ音声機能を含む実装の通話品質とユーザー エクスペリエンスに影響を与える問題を見つけて排除するのに役立つ、Skype for Business Server 2015 の通話品質方法である CQM について説明します。 <br/> <br/> ボード ゲーム [としてプレイする](https://go.microsoft.com/fwlink/p/?LinkId=617898) 場合は、ダウンロードの詳細ページを使用して印刷可能なカードとルールを取得します。 CQM スコアカードと一緒 [にこのポスターを使用します](https://go.microsoft.com/fwlink/p/?LinkId=617904)。 <br/><br/> サイズ: 34 -by-44 inch <br/> <br/> このポスターは、2015 年Visio使用して作成されました。 特定の環境に対して変更を行う必要はありません。 |

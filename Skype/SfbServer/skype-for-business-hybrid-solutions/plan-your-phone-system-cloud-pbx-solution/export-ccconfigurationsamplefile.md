@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: このExport-CcConfigurationSampleFileコマンドレットは、Skype for Business クラウド コネクタ エディション構成ファイル (.ini) をクラウド コネクタ アプライアンスのアプライアンス ディレクトリにエクスポートします。 展開に使用するファイルを変更して名前を変更できます。
-ms.openlocfilehash: f59e93cf241ca762dcb41cf23d617017a62581b453cb84cebc915b1703f5a019
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 409514761c3bfeccebb671d289201fc67f58d220
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326263"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603666"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
