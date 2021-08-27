@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Skype for Business を使用して会議の開催者が他のユーザーを呼び出せるようにするための必要事項とその方法を説明します。
-ms.openlocfilehash: 9b87fb911cf4e010a82aba8b9874b25efa60d1b6b795502cc7f0d56cd58eea12
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298897"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581981"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>他のユーザーが参加Skype for Business会議からダイヤルアウトする
 
@@ -41,7 +41,7 @@ ms.locfileid: "54298897"
     
 - 会議の開催者として電話会議を有効にしました。
 
-ダイヤルアウトを介して他の参加者を組織の会議に追加するには、ダイヤルアウトを介して他の参加者を追加するために、開催者 (組織) と同じ組織の認証されたユーザーが少なくとも 1 人会議に参加している必要があります。 
+ダイヤルアウトを介して他の参加者を組織の会議に追加するには、ダイヤルアウトを介して他の参加者を追加するために、開催者 (組織) と同じ組織の認証済みユーザーが少なくとも 1 人会議に参加している必要があります。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -64,6 +64,6 @@ ms.locfileid: "54298897"
     
 - [Skype for Business アドオンのライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business をインストールする](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

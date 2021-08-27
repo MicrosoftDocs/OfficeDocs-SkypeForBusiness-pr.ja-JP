@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.callerid.overview
 description: 発信者番号通知は、CallingLineIdentity と呼ばれるポリシーを使用して、電話システム ユーザーの着信と発信の両方で制御できます。
-ms.openlocfilehash: ddd01d899597a96b5085c92ac9e20681b0a5c92b18ca342008b499e44892743a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 97070be995d56451a7b6b1969c8d3751ebaaffe5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293824"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624609"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>組織での発信者番号の利用方法
 
@@ -70,7 +70,7 @@ CallingLineIdentity というポリシーを使用して、着信呼び出しと
 
 発信呼び出し元 ID が Anonymous に設定されている場合、EnableUserOverride は効果を持たず、呼び出し元 ID は常に Anonymous に設定されます。 EnableUserOverride の既定値は False です。
 
-エンド ユーザーは **、[設定 >** 通話] に進み、[発信者番号] で [すべての通話の電話番号とプロファイル情報を非表示にする] を選択して、発信者番号を匿名に **設定できます**。
+エンド ユーザーは、[設定 > 通話] にアクセスして発信者番号を匿名に設定し、[発信者番号] で [すべての通話の電話番号とプロファイル情報を非表示にする]**を選択します**。
 
 ### <a name="notes"></a>備考
 
@@ -84,9 +84,9 @@ CallingLineIdentity というポリシーを使用して、着信呼び出しと
 
   - オンプレミスSkype for Business Server電話番号を入力します。
 
-- リソース アカウントの電話番号の置き換えの使用は、ユーザーがTeamsします。 サービス電話番号の置き換えは、オンラインとユーザー Skype for Business両方Teams機能します。
+- リソース アカウントの電話番号の置き換えの使用は、ユーザーがTeamsします。 サービス電話番号の置換は、オンラインとユーザーのSkype for BusinessにTeamsします。
 
-- 発信者名は、発信者 ID が LineUri、サービスまたはリソース アカウントの電話番号に置き換わり、発信者が Teams ユーザーである場合にのみ送信されます。
+- 発信者名は、呼び出し元 ID が LineUri、サービスまたはリソース アカウントの電話番号に置き換わり、呼び出し元がユーザーのTeamsされます。
 
 - 通話パーティー名の最大文字数は 200 文字ですが、ダウンストリーム システムではサポートされる文字が少ない場合があります。
 
@@ -103,7 +103,7 @@ BlockIncomingCallerID 属性を使用すると、着信した PSTN 通話の発�
   
 受信呼び出し元 ID をブロックするには、「 [ユーザーの発信者番号を設定する」を参照してください](./set-the-caller-id-for-a-user.md)。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](./different-kinds-of-phone-numbers-used-for-calling-plans.md)

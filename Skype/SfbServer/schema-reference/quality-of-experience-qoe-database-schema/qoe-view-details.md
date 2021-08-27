@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: ビューには、QoE データベースからデータを返す最も一般的SQLがあります。 データベース テーブルに直接アクセスするのではなく、カスタム レポートの作成に使用するビューをお勧めします。これは、ビューが将来のリリースとの下位互換性を維持する可能性が高いためです。
-ms.openlocfilehash: f8d6536522a04623f150ab03ba448af8c55bd401adc8e4484ac47d1cf48ccffa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bed72ae4fe5a9468d6ac2b18148f62fe9aa0196
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347722"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578591"
 ---
 # <a name="qoe-view-details"></a>QoE ビューの詳細
  
 ビューには、QoE データベースからデータを返す最も一般的SQLがあります。 データベース テーブルに直接アクセスするのではなく、カスタム レポートの作成に使用するビューをお勧めします。これは、ビューが将来のリリースとの下位互換性を維持する可能性が高いためです。
   
-|**View Name/ビュー名**|**Description**|
+|**View Name/ビュー名**|**説明**|
 |:-----|:-----|
 |[AudioStreamDetail ビュー](audiostreamdetail.md) <br/> |データベース内の各オーディオ ストリームについての情報を格納します。  <br/> |
 |[MediaLine ビュー](medialine.md) <br/> |データベース内の各メディア ラインについての情報を格納します。 通常、1 つの音声セッションに 1 つの音声メディア ラインが含まれます。 また、通常は 1 つの音声ビデオ (A/V) セッションに 1 つの音声メディア ラインと 1 つのビデオ メディア ラインが含まれますが、会議デバイスまたはギャラリー ビューが使用される場合は、セッションに 2 つのビデオ メディア ラインが含まれることがあります。  <br/> |

@@ -13,33 +13,33 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 会議にファイルを添付Skype for Business、参加者は開いてダウンロードできます。 Skype for Business 会議に添付されたファイルは、メールボックスが訴訟ホールドに設定されている、Microsoft 365 または Office 365 アイテム保持ポリシーが適用されている、または Microsoft 365 コンプライアンス センターの電子情報開示ケースに関連付けられている保留にされている参加者のメールボックスに保持されます。 このコンテンツは、参加者のメールボックス内の回復可能なアイテム フォルダーに保存されます。
-ms.openlocfilehash: 10d793afce0485de749a5609b77f2c769c55fa9d5305a4a815351ef62ff9a8b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 会議にファイルを添付Skype for Business、参加者は開いてダウンロードできます。 Skype for Business 会議に添付されたファイルは、メールボックスが訴訟ホールドに設定されている、Microsoft 365 または Office 365 アイテム保持ポリシーが適用されている、または Microsoft 365 コンプライアンス センターの電子情報開示ケースに関連付けられた保留にされている参加者のメールボックスに保持されます。 このコンテンツは、参加者のメールボックス内の回復可能なアイテム フォルダーに保存されます。
+ms.openlocfilehash: 1733cb1b0111bb83bbeddf5253bd1b65b919a4a0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316493"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581991"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>会議に添付された大きなファイルSkype for Businessする
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-会議にファイルを添付Skype for Business、参加者は開いてダウンロードできます。 Skype for Business 会議に添付されたファイルは、メールボックスが訴訟ホールドに設定されている、Microsoft 365 または Office 365 アイテム保持ポリシーが適用されている、または Microsoft 365 コンプライアンス センターの電子情報開示ケースに関連付けられている保留にされている参加者のメールボックスに保持されます。 このコンテンツは、参加者の **メールボックス内の回復可能なアイテム** フォルダーに保存されます。
+会議にファイルを添付Skype for Business、参加者は開いてダウンロードできます。 Skype for Business 会議に添付されたファイルは、メールボックスが訴訟ホールドに設定されている、Microsoft 365 または Office 365 アイテム保持ポリシーが適用されている、または Microsoft 365 コンプライアンス センターの電子情報開示ケースに関連付けられた保留にされている参加者のメールボックスに保持されます。 このコンテンツは、参加者の **メールボックス内の回復可能なアイテム** フォルダーに保存されます。
   
 保留のメールボックスに保持されているファイルはインデックスが作成されるため、参加者のメールボックスを検索するときにセキュリティ コンプライアンス センターでコンテンツ検索を実行するときに &amp; 検索できます。 ただし、30 MB を超える添付ファイルは、2 つ以上の小さなファイルに分割され、圧縮 (.zip) ファイルとして保存されます。 これらの  *小*  さいファイルのコンテンツは、検索用にインデックスが作成されないので、コンテンツ検索では返されない可能性があります。 ただし、 *これらのファイル*  のメタデータ (ファイル名や作成者など) は検索用にインデックスが作成され、コンテンツ検索で返される場合があります。
   
 > [!IMPORTANT]
-> Exchange Online メールボックスの MaxReceiveSize と MaxSendSize の設定は、会議から大きなファイルを保持する機能Skype for Businessがあります。 MaxReceiveSize と MaxSendSize の既定の設定はそれぞれ 36 MB と 35 MB です。 ただし、これらの既定の設定は小さすぎて、30 MB を超える会議Skype for Businessファイルを保持する必要があります。 これは、メッセージの添付Exchange Online他のバイナリ データの Base64 エンコードを使用する必要があるためです。 メッセージがエンコードされた場合、サイズは約 33% 増加します。 そのため、Skype for Business 会議の大きなファイルを確実に保持するには、保留にされているユーザーの MaxReceiveSize と MaxSendSize の両方の値を 39 MB (前に説明した 30 MB のサイズ制限より約 33% 大きい) に増やすることをお勧めします。 それ以外の場合、会議に添付された大きなSkype for Businessは保持されない可能性があります。 Exchange Online PowerShell で **Set-Mailbox -MaxReceiveSize** コマンドと **Set-Mailbox -MaxSendSize** コマンドを使用する方法の詳細については、Set-Mailbox に関するページ [を参照してください](/powershell/module/exchange/mailboxes/Set-Mailbox)。
+> Exchange Online メールボックスの MaxReceiveSize と MaxSendSize の設定は、会議から大きなファイルを保持する機能Skype for Businessがあります。 MaxReceiveSize と MaxSendSize の既定の設定はそれぞれ 36 MB と 35 MB です。 ただし、これらの既定の設定は小さすぎて、30 MB を超える会議Skype for Businessファイルを保持する必要があります。 これは、メッセージの添付Exchange Online他のバイナリ データの Base64 エンコードを使用する必要があるためです。 メッセージがエンコードされた場合、そのサイズは約 33% 増加します。 そのため、Skype for Business 会議の大きなファイルを確実に保持するには、保留にされているユーザーの MaxReceiveSize と MaxSendSize の両方の値を 39 MB (前に説明した 30 MB のサイズ制限より約 33% 大きい) に増やすることをお勧めします。 それ以外の場合、会議に添付された大きなSkype for Businessは保持されない可能性があります。 Exchange Online PowerShell で **Set-Mailbox -MaxReceiveSize** コマンドと **Set-Mailbox -MaxSendSize** コマンドを使用する方法の詳細については、「Set-Mailbox」を参照 [してください](/powershell/module/exchange/mailboxes/Set-Mailbox)。
   
 保留ではないメールボックスには、会議データは保存されません。 たとえば、2 人の参加者のメールボックスが保持のためにマークされている 3 人の会議では、会議データは 2 人の参加者のメールボックスに保存されますが、メールボックスが保留されていない 3 人目の参加者のメールボックスには保存されません。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [カスタム外部アクセス ポリシーを作成する](create-custom-external-access-policies.md)
 
 [ポイント対ポイントファイル転送をブロックする](block-point-to-point-file-transfers.md)

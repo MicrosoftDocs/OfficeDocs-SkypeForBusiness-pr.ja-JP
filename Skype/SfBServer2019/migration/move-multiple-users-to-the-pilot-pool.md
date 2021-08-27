@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server 2019 コントロール パネルまたは Skype for Business Server 2019 管理シェルを使用して、レガシ プールから Skype for Business Server 2019 パイロット プールに複数のユーザーを移動できます。
-ms.openlocfilehash: 689886060f14a47e82865a2ed66bfc3ff495dfdc3b1f44e6c5674294b4d21eb9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 50525ce139cb324d71ebcdce54ef96463dc933b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300653"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624579"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>複数のユーザーをパイロット プールに移動する
 

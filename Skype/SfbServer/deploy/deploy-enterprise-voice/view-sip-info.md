@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: '概要: SIP トランクに関する情報を表示する方法については、Skype for Business Server。'
-ms.openlocfilehash: bbb1a08252240341ceb6e27181dce999753924c897d470a182341be4178ae2a4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f4bd3ba4560980243fefe06b49a8f4aaa4a9625e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304469"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624409"
 ---
 # <a name="skype-for-business-server-view-information-about-individual-sip-trunks"></a>Skype for Business Server: 個々の SIP トランクに関する情報を表示する 
  

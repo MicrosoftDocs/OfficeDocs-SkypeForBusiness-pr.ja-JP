@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -22,18 +22,18 @@ appliesto:
 ms.reviewer: ''
 description: 管理センターまたは Microsoft Graph でチーム テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供することで、チームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c5da6c5df17dacbfb38e519ca4f1f751ed40fc02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336257"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596181"
 ---
 # <a name="use-a-healthcare-team-templates"></a>医療チーム テンプレートを使用する
 
 テンプレートを使用すると、設定、チャネル、およびプレインストールされたアプリの定義済みのテンプレートを提供することで、チームをすばやく簡単に作成できます。
 
-医療組織の場合、テンプレートは特に強力です。テンプレートは、ユーザーがアプリケーションを効果的に使用する方法を指向する構造を提供Microsoft Teams。 また、テンプレートを使用すると、管理者は組織全体で一貫したチームを展開できます。 この記事は、貴社の医療組織全体で複数のチームを計画、展開し、管理する責任があるユーザーに役立ちます。
+医療組織の場合、テンプレートは特に強力な機能を持つ可能性があります。テンプレートは、ユーザーが効果的にアプリケーションを使用する方法をMicrosoft Teams。 また、テンプレートを使用すると、管理者は組織全体で一貫したチームを展開できます。 この記事は、貴社の医療組織全体で複数のチームを計画、展開し、管理する責任があるユーザーに役立ちます。
 
 チームの医療テンプレートを使用してチームを作成する方法を選択します。
 
@@ -93,7 +93,7 @@ Microsoft Teams管理者は、管理センター Teamsチーム テンプレー�
 
 ### <a name="how-to-use-first-party-templates"></a>ファースト パーティ テンプレートの使い方
 
-これらのテンプレートを使用するには、要求本文の 'template@odata.bind' プロパティを '標準' から TemplateIDs に変更します。  チーム テンプレートをデプロイする方法の詳細については、チームの作成方法に関する Microsoft Graph記事[を参照してください](/graph/api/team-post?view=graph-rest-beta)。
+これらのテンプレートを使用するには、要求本文の 'template@odata.bind' プロパティを '標準' から TemplateIDs に変更します。  チーム テンプレートをデプロイする方法の詳細については、Microsoft Graph チームの作成方法に関する[記事を参照してください](/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > テンプレートのチャネルは自動的に [全般] タブに作成されます。

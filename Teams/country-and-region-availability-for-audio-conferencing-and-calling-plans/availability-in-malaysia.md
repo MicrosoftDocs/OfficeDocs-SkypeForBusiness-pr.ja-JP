@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: マレーシアで利用Microsoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 58248ace718e075e2ca7b4bebe4500bcdd3da02fb7c44bdbe04f0dd51d246939
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下に、マレーシアMicrosoft 365およびOffice 365のSkype for BusinessおよびMicrosoft Teamsサービスを示します。
+ms.openlocfilehash: 5608ca151dbd587e723dc459f1f700b6cabe8f1c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352355"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624759"
 ---
 # <a name="availability-in-malaysia"></a>マレーシアでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-マレーシアで利用Microsoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+以下に、マレーシアMicrosoft 365およびOffice 365のSkype for BusinessおよびMicrosoft Teamsサービスを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -83,7 +83,7 @@ ms.locfileid: "54352355"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

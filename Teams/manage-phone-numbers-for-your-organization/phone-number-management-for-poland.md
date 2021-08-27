@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: この表を使用して、ポーランドの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: fcfcc032e32a62d8e982c0ee37d93636b063960b
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: fe109eb7823ca969bb4bf1fdf73d837f68ac4d7d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348479"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617283"
 ---
 # <a name="phone-number-management-for-poland"></a>電話の番号管理
 
@@ -47,7 +47,7 @@ ms.locfileid: "58348479"
 |通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
 
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

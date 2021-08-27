@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: 次のトピックでは、常設チャット データベース スキーマ テーブルの各列について詳しく説明します。
-ms.openlocfilehash: 4419f9e5b0735aee8d2aae5ae9804cc7f93a7dc9403a1419a4247afca3f23ddb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 68c526a3548f8d52546f3b7ec56a9b317529e03c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578621"
 ---
 # <a name="persistent-chat-server-table-details"></a>常設チャット サーバー テーブルの詳細
  

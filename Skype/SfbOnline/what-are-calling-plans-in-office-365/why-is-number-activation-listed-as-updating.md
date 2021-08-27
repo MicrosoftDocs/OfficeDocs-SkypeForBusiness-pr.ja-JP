@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateUpdating
 description: アドレスの検証は、通話プランを設定する上で重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: 844c33efae8ce0492b55ea597fdf82e38356bd2462f67640f4e823728453bab1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f3468e7328180788451a5dc13c2be8e08d3b9ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325554"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596111"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>番号のアクティブ化が更新中として表示される理由
 
@@ -36,7 +36,7 @@ ms.locfileid: "54325554"
 アドレスの検証は、通話プランを設定する上で重要な部分です。 何らかの理由で電話番号がアクティブ化され、住所の検証のために更新中として表示される場合は、サービス要求を作成して送信する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>150 ユーザー以下の組織の場合は、次の手順を実行します。
-1. 管理センターで、[ヘルプが必要 **ですか**?
+1. 管理センターで、[ヘルプが **必要ですか**?
 2. [**ヘルプが必要ですか?**] ペインで、どのようなヘルプが必要かを伝えて、[**問い合わせ**] を選択します。
 3. [**解決策を表示**] セクションの結果が役に立たない場合は、次のいずれかを選択します。
     - [**電話連絡を許可 (推奨)**]: 連絡先番号を確認して、[**折り返し連絡**] を押します。 折り返し連絡されるまでの待ち時間の予測が [**ヘルプが必要ですか?**] ペインに示されます。
@@ -44,7 +44,7 @@ ms.locfileid: "54325554"
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>150 ユーザーを超える組織では、緊急住所の検証をするためにサービス リクエストを作成します。
 
-1. 管理者としてサインインし、Microsoft 365またはOffice 365アカウントを使用してログインします。
+1. 管理者としてサインインして、Microsoft 365またはOffice 365アカウントを使用してログインします。
     
 2. 管理センターの左側のナビゲーションで、[新しいサービス要求のサポート  >  **] をクリックします**。
     

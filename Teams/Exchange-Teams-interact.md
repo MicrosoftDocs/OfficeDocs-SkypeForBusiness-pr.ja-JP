@@ -10,18 +10,18 @@ ms.reviewer: dstrome
 description: チームの作成、チームへの参加、チャネルの作成など、Microsoft Teams と様々な Exchange のセットアップとの間に存在する機能について説明します。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167c6534fbb8cade9c45b0d4d44441c3a385fd19
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235392"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624809"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange と Microsoft Teams の連携
 
@@ -68,7 +68,7 @@ Exchange Online 専用 (レガシ) にホストされるユーザーは、Micros
 
 <sup>8</sup> 「[オンプレミスでホストされているメールボックスの会議を作成および表示するための要件](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)」セクション記載されている要件を満たす必要があります。 
 
-<sup>9</sup>プラン 1 ライセンスExchange Online以上のライセンスも必要です。 詳細については、「オンプレミス ユーザー[のチャット データTeams検索する」を参照してください](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+<sup>9</sup>プラン 1 ライセンスExchange Online以上のライセンスも必要です。 詳細については、「オンプレミス ユーザーの[チャット データTeams検索する」を参照してください](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
 <sup>10</sup>オンプレミス ユーザーは、Web メールボックス ポリシーの Teams が に設定されている場合でも、Outlook を使用してプロファイル画像 `SetPhotoEnabled` を更新できます `false` 。
 
@@ -110,12 +110,12 @@ Microsoft Teams では、Microsoft 365 や Office 365 のさまざまなサー�
 
 これらのユーザーのカレンダー委任を有効にするには、
 
-- また、「Configure Integration and [OAuth between Skype for Business Online](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)and Exchange Server (次の手順では、委任Teams確認するために必要なアクセス許可をアプリケーションにスケジュール設定する手順を示します。
+- 「Configure [Integration and OAuth between Skype for Business Online](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)and Exchange Server (次の手順では、委任Teams確認するために必要なアクセス許可をアプリケーションにスケジュール設定する手順を示します。
  
   > [!NOTE]
   > 手順 2 には、委任に必要のない ArchiveApplication の役割の割り当てが含まれています。
 
-- Outlook Teamsのスケジュール 設定アドインでは、他のユーザーに代わって会議をスケジュールするExchange 2013 CU19 以降が必要です。 これは、委任メールボックスに対する委任権限をチェックするために、サービスによるメールボックスの認証されていない検出をサポートするためです。 代理人と代理人の場所は、Exchange 2013 以降、または Exchange オンラインですが、自動検出は Exchange 2013 CU19 以降に解決する必要があります。
+- Outlook Teamsスケジュール設定アドインでは、他のユーザーに代わって会議をスケジュールするときに、Exchange 2013 CU19 以降が必要です。 これは、委任メールボックスに対する委任権限をチェックするために、サービスによるメールボックスの認証されていない検出をサポートするためです。 代理人と代理人の場所は、Exchange 2013 以降、または Exchange オンラインですが、自動検出は Exchange 2013 CU19 以降に解決する必要があります。
 
 ## <a name="additional-considerations"></a>その他の考慮事項
 

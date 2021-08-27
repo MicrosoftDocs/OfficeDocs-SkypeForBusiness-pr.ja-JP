@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server 2019 コントロール パネルまたは Skype for Business Server 管理シェルを使用して、従来のプールから Skype for Business Server 2019 パイロット プールにユーザーを移動できます。 次の例では、[レジストラー プール] 列で、pool01.contoso.net がレガシ プールであり、これらの 6 人のユーザーすべてがこのプールに接続されています。 Skype for Business Server 2019 コントロール パネルと管理シェルを使用して、Skype for Business Server 2019 プールにユーザーを移動するには、次Skype for Business Serverします。
-ms.openlocfilehash: 98fd1ce168cf5b44a85c1b0a93ee90634a84f885ced3cb3ffaaca8cee836a620
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 987eeec96d28257b995b5e27ce02e282df019980
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303391"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596161"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>1 人のユーザーをパイロット プールに移動する
 

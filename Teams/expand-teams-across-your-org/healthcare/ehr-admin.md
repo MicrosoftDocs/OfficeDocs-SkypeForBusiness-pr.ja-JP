@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -23,21 +23,21 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Microsoft Teams を使用して仮想アクセス システムをセットアップする
-ms.openlocfilehash: 24df1df8ad7aaa05e3738b6c963475dc1366fe01e2fcb90b6962c9cd78c7916a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5dd103651c4cd368b5304d4d33d753b5d13ab73d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336277"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596201"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams での仮想アクセス - EHR への統合
 
-Microsoft Teams電子健康記録 (EHR) コネクタを使用すると、医師は EHR システムから直接、Teams で仮想患者の訪問や別のプロバイダーとの相談を簡単に開始できます。 Microsoft 365 クラウド上に構築された Microsoft Teams は、HIPAA、HITECH 認定などへの準拠をサポートする単一のハブで、チャット、ビデオ、音声、およびヘルスケア ツールとのシンプルで安全なコラボレーションとコミュニケーションを可能にします。
+Microsoft Teams電子健康記録 (EHR) コネクタを使用すると、医師は EHR システムから直接、Teams で仮想患者訪問や別のプロバイダーとの相談を簡単に開始できます。 Microsoft 365 クラウド上に構築された Microsoft Teams は、HIPAA、HITECH 認定などへの準拠をサポートする単一のハブで、チャット、ビデオ、音声、およびヘルスケア ツールとのシンプルで安全なコラボレーションとコミュニケーションを可能にします。
 Teams のコミュニケーションおよびコラボレーション プラットフォームにより、臨床医は断片化されたシステムの乱雑さを簡単に切り抜けることができるため、可能な限り最善のケアを提供するために時間を費やすことができます。 Microsoft Teams電子正常性レコード (EHR) コネクタでは、次の機能を使用できます。
 
 - 統合Teamsワークフローを使用して、プロバイダー EHR システムから仮想アクセスを開始します。
 - 患者が患者ポータル内Teams仮想訪問に参加できます。
-- 出席者が接続と切断を行い、自動監査と記録Teamsを有効にした場合に記録する仮想アクセスに関するメタデータを EHR システムに書き戻します。
+- 出席者が接続と切断を行い、自動監査と記録保持を有効Teams仮想アクセスに関するメタデータを EHR システムに書き戻します。
 
   EHR ポータルから仮想アクセスを管理する方法のビデオをご覧ください。
 
@@ -49,7 +49,7 @@ EHR コネクタを統合する前に、次の前提条件があることを確�
 
 - [Epic の App Orchard マーケットプレイス](https://apporchard.epic.com/Gallery?id=6153)で Microsoft Teams アプリを使用するためのアクセス。
 
-- Microsoft Cloud for Healthcare のアクティブなサブスクリプション、または EHR コネクタMicrosoft Teamsプランへのサブスクリプション (実稼働テスト中にのみ適用)。
+- Microsoft Cloud for Healthcare のアクティブなサブスクリプション、または EHR コネクタMicrosoft Teamsプランへのサブスクリプション (実稼働テスト中にのみ適用されます)。
 
 - ユーザーは Microsoft Teams 会議が含まれている Microsoft 365 または Office 365 の適切なライセンスを所有している必要があります。
 
@@ -177,6 +177,6 @@ Teams の EHR システムへの統合により、統合および仮想アクセ
 
 Microsoft Teams EHR コネクタは、EHR システムから、識別可能な個人データや患者または医療提供者の健康記録を保存または転送しません。 EHR コネクタによって保存される唯一のデータは、EHR ユーザーの一意の ID であり、Teams 会議のセットアップ中に使用されます。 EHR ユーザーの一意の ID は、「[Microsoft 365 の顧客データの保存場所](/microsoft-365/enterprise/o365-data-locations)」で説明されている 3 つの地理的地域のいずれかに保存されます。 会議の参加者が Teams に入力したすべてのチャット、録音、およびその他のデータは、既存の保存ポリシーに従って保存されます。 Microsoft Teams のデータの場所の詳細については、「[Teams のデータの場所](../../location-of-data-in-teams.md)」にアクセスしてください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams仮想アクセス](ehr-admin-reports.md)

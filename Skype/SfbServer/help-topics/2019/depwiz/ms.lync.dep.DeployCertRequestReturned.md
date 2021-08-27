@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[オンライン証明書要求の状態] ページには、オンライン証明書要求を適切に作成および発行した結果として、重要な情報が表示されます。 このページには、証明書を一意に識別する証明書の拇印が表示されます。 既定では、[証明書の使用状況にこの証明書を割り当Skype for Business Server] チェック ボックスがオンになっています。 [完了] をクリックすると、証明書要求の作成手順で定義した目的Skype for Business Serverに証明書が自動的に割り当てられます。 既定では、証明書を割り当てる目的は次のとおりです。'
-ms.openlocfilehash: 8665053e3f625f39ec2843467a448f6620d9f7d0110e931ee6298f2be5c72193
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285497"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581781"
 ---
 # <a name="certificate-request-returned"></a>証明書要求 (結果)
  

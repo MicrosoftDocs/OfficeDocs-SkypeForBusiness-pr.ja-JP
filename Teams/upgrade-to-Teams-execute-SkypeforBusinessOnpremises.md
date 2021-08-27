@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 組織をオンプレミスのデプロイからMicrosoft Teams移行Skype for Business方法について説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,14 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bf5529cf37ca3217c5af0411a1d12f0e752c583cb869273f9ba5b068d5633da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 690595338cbf8f6f2689a6bd4d75842b00afaf28
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298997"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582127"
 ---
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>オンプレミスのデプロイSkype for BusinessからオンプレミスデプロイにアップグレードTeams
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>オンプレミスのデプロイSkype for BusinessからデプロイにアップグレードTeams
 
 ![「展開と実装」段階が強調表示された、アップグレード行程の各段階](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
@@ -54,7 +54,7 @@ Skype for Business または Microsoft Lync をオンプレミスに展開し、
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>手順 2: 選択したアップグレード体験を組織に実装する
 
-ハイブリッドセットアップが完了したら、ユーザーを別のユーザーに移行Microsoft 365またはOffice 365。
+ハイブリッドセットアップが完了したら、ユーザーを別のユーザーまたはグループに移行Microsoft 365計画Office 365。
 
 詳細については、以下を参照してください。
 
@@ -68,4 +68,4 @@ Skype for Business または Microsoft Lync をオンプレミスに展開し、
 
 通話プランを使用していない場合は、アップグレードの一環として、エンタープライズ音声展開を 電話システム 直接ルーティングに移行する必要Teams。
 
-詳細については、「ダイレクト ルーティング[の追加の考慮事項」電話システム参照してください](./direct-routing-landing-page.md)。 通話プランを使用する予定の場合は、電話番号を通話プランに移行する場合のガイダンス[をTeams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+詳細については、「ダイレクト ルーティング[」の追加の考慮事項電話システム参照してください](./direct-routing-landing-page.md)。 通話プランを使用する予定がある場合は、電話番号を通話プランに移行する場合のガイダンス[をTeams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

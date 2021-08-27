@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.Archiving
 - ms.lync.plan.Archiving
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
 description: アーカイブは、Skype for Business Serverを介して送信される通信をアーカイブSkype for Business Server。
-ms.openlocfilehash: 14278bcd6e7bc046449eaa5bc275659ae53003c87984475b97ab269f1c0951b1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 89df0bf6083cc92b1c1b2b973897a2861a962478
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318920"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578761"
 ---
 # <a name="archiving-planning-tool"></a>アーカイブ計画ツール
  

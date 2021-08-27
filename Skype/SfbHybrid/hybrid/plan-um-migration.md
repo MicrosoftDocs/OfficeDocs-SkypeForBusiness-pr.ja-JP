@@ -8,15 +8,15 @@ audience: ITPro
 f1.keywords:
 - NOCSH
 ms.topic: article
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.prod: skype-for-business-itpro
 description: このトピックでは、既存の Skype for Business Server または Exchange Server 展開を最新バージョンに移行する場合、または Skype for Business Online または Exchange Online に移行する場合に考慮する必要がある点について説明します。
-ms.openlocfilehash: e933f1754023daa0991961204224176c34254f7821168eedbc30956c0188410a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: edc6256bc9e366b4ee75a637c41141ec3d435da2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341073"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596121"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Skype for Business Server と Exchange Server の移行の計画
 
@@ -70,7 +70,7 @@ Exchange 2013 または Exchange 2016 の UM サービスで UM 役割を展開�
 | メールボックスは次の場所に位置します。            | ユーザーが 2015 年Skype for Business Server | ユーザーが 2019 Skype for Business Server  |
 |--------------------------------|-----------------------------------------|------------------------------------------|
 | Exchange 2013/Exchange 2016    | Exchange UM                             | Exchange UM                              |
-| Exchange 2019                  | サポートされていません                           | クラウド ボイスメール                          |
+| Exchange 2019                  | 非サポート                           | クラウド ボイスメール                          |
 
 2019 年および 2019 年Skype for Business Server 2019 年Exchange移行を開始する前に、次の点に注意してください。
 

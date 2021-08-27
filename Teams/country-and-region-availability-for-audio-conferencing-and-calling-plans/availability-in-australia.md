@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: オーストラリアで使用できるMicrosoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 1e6b99f955f0f095a36351b85ad4526608b53e412e071072f6eda3c87a1eca2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: オーストラリアで利用できるMicrosoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
+ms.openlocfilehash: 640fd651c4ba41c26dc9faf41c616ee887778947
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310825"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624799"
 ---
 # <a name="availability-in-australia"></a>オーストラリアでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-オーストラリアで使用できるMicrosoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+オーストラリアで利用できるMicrosoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
 
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -75,8 +75,8 @@ ms.locfileid: "54310825"
 |**機能**|**詳細**|
 |---------|---------|
 |南北アメリカ    |米国、米国離島      |
-|APAC     |バングラデシュ、ブータン、ブルネイ、カンボジア、香港、インドネシア、ラオス、マカオ、マレーシア、マレーシア、ミャンマー、ネパール、フィリピン、シンガポール、スリランカ、タイ、ティモール、ベトナム|
-|EMEA    |Åland Islands、Andorra、Austria、Belgium、ブーベ島、ブルガリア、 クロアチア、キプロス、チェコ共和国、デンマーク、エストニア、フェロー諸島、フィンランド、フランス、ドイツ、ジブラルタル、ギリシャ、グリーンランド、ガーンジー、ハンガリー、アイスランド、アイルランド、マン島、イタリア、Jan Mayen、Jersey、ラトビア、リヒテンシュタイン、リトアニア、ルクセンブルク、マルタ、モナコ、オランダ、ノルウェー、ポーランド、ポルトガル、ルーマニア、サンマリノ、スロバキア、スロベニア、スペイン、スバルバルド、スウェーデン、スイス、英国、バチカン、英国、バチカン  |
+|APAC     |バングラデシュ、ブータン、ブルネイ、カンボジア、香港、インドネシア、ラオス、マカオ、マレーシア、マレーシア、ミャンマー、ネパール、フィリピン、シンガポール、スリランカ、タイ、東ティモール、ベトナム|
+|EMEA    |オーランド諸島、アンドラ、オーストリア、ベルギー、ブーベ島、ブルガリア、 クロアチア、キプロス、チェコ共和国、デンマーク、エストニア、フェロー諸島、フィンランド、フランス、ドイツ、ジブラルタル、ギリシャ、グリーンランド、ガーンジー、ハンガリー、アイスランド、アイルランド、マン島、イタリア、Jan Mayen、Jersey、ラトビア、リヒテンシュタイン、リトアニア、ルクセンブルク、マルタ、モナコ、オランダ、ノルウェー、ポーランド、ポルトガル、ルーマニア、サンマリノ、スロバキア、スロベニア、スペイン、スバルバルド、スウェーデン、スイス、英国、英国、バチカン、英国、バチカン  |
 
 Telstra Calling は、Telstra によってプロビジョニングされた後、オーストラリアに位置するユーザーと上記の国と地域に対するアドオンとしてのみ表示されます。 他の地域のユーザーの場合、必要に応じ、引き続き Microsoft 通話プランまたは直接ルーティングをアタッチします。 詳細については、Telstra の通話 [に関するページを参照してください](https://aka.ms/TelstraVoicePlan)。
 
@@ -98,7 +98,7 @@ Telstra Calling は、Telstra によってプロビジョニングされた後�
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

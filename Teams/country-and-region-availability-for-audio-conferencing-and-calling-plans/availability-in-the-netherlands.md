@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: オランダで利用Microsoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 8b72d4ec30f229b0a7c726eb7891f519a4b2963c3922aecaa0edaf812d340e51
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: オランダで利用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
+ms.openlocfilehash: f5dad27a387e73cb1792409ae3a28fa41083d435
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339829"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624739"
 ---
 # <a name="availability-in-the-netherlands"></a>オランダでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-オランダで利用Microsoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
+オランダで利用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -82,7 +82,7 @@ ms.locfileid: "54339829"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
 description: アドレスの検証は、通話プランを設定する上で重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: b1f9f8269028d81e7819972472bb7efb8054fc671fe1cf08e3f643f668449498
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb4ed67bd0447b17cfe8e0bd4f9b181aceddda7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581921"
 ---
 # <a name="why-has-number-activation-failed"></a>番号のアクティブ化に失敗した理由
 
@@ -35,7 +35,7 @@ ms.locfileid: "54312275"
 アドレスの検証は、通話プランを設定する上で重要な部分です。 何らかの理由で住所の検証のために電話番号がアクティブ化されていない場合は、サービス要求を作成する必要があります。 これをどのように行うかは、所属する組織のサイズに基づきます。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>150 ユーザー以下の組織の場合は、次の手順を実行します。
-1. 管理センターで、[ヘルプが必要 **ですか**?
+1. 管理センターで、[ヘルプが **必要ですか**?
 2. [**ヘルプが必要ですか?**] ペインで、どのようなヘルプが必要かを伝えて、[**問い合わせ**] を選択します。
 3. [**解決策を表示**] セクションの結果が役に立たない場合は、次のいずれかを選択します。
     - [**電話連絡を許可 (推奨)**]: 連絡先番号を確認して、[**折り返し連絡**] を押します。 折り返し連絡されるまでの待ち時間の予測が [**ヘルプが必要ですか?**] ペインに示されます。

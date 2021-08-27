@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
 description: 英国 (英国) で住所または住所を正しく検証する際に問題が発生する理由を次に示します。
-ms.openlocfilehash: 7b3cd80b351c64d3d9f5911d0854a215ba1b407d6e4b2b439d1f28d68d06db7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0222a7d228405e745b1f6704cb9e03f1af3c2868
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324646"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581941"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>英国への入力で問題が発生する理由 アドレス情報
 
@@ -39,7 +39,7 @@ ms.locfileid: "54324646"
 
 会社名の入力で問題が発生した場合は、次のことを覚えておいてください。
   
-- 文字、数字、および次の特殊文字を含めることができます: 、/ - + 。 ' &amp; " _ 
+- 文字、数字、および次の特殊文字を使用できます: 、/ - + 。 ' &amp; " _ 
     
     > [!CAUTION]
     > 英国 (英国) では、会社名に + 記号を使用できない。 
@@ -64,7 +64,7 @@ ms.locfileid: "54324646"
 
 家の名前の入力で問題が発生した場合は、次のことを覚えておいてください。
   
-- 文字、数字、および次の特殊文字 (、/- + ) を使用できます。 ' &amp; " _
+- 文字、数字、および次の特殊文字 (、/ - + ) を使用できます。 ' &amp; " _
     
 - 50 文字以下である必要があります。
     
@@ -80,7 +80,7 @@ ms.locfileid: "54324646"
     
 - 特殊文字で始めは使用できない。 
     
-## <a name="whats-wrong-with-the-city-or-town"></a>都市または町の何が問題なのでしょうか。
+## <a name="whats-wrong-with-the-city-or-town"></a>都市または町の何が問題なのでしょうか?
 
 都市または町の名前の入力で問題が発生した場合は、次のことを覚えておいてください。
   

@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 定義済みの設定、チャネル、およびプレインストールされたアプリを提供することで、チーム テンプレートを使用して小売業者のニーズに合ったチーム構造を作成する方法について説明します。
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0193ab42a898cb8fca1e860120d663517fd0e16acd7ea2e687821b2bcd91a44
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83c96d5ec3a05bf5840a21a67ae732c176e3d6b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276502"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624619"
 ---
 # <a name="create-a-team-using-retail-team-templates"></a>リテール チーム テンプレートを使用してチームを作成する
 
@@ -40,7 +40,7 @@ Microsoft チーム テンプレートを使用すると、設定、チャネル
 
 | 名前 | 使用する方法: |
 | ---- | --------- |
-| 管理者と IT プロフェッショナル | [管理センター Teamsを使用して](#use-the-team-templates-in-the-teams-admin-center)、リテール チーム テンプレートに基づいてチームを作成します。|
+| 管理者と IT プロフェッショナル | [リテール チーム Teamsに基](#use-the-team-templates-in-the-teams-admin-center)づいてチームを作成するには、管理センターを使用します。|
 | 開発者およびシステム インテグレーター | [Microsoft Graphを使用](#use-the-team-templates-with-the-microsoft-graph)して、リテール チーム テンプレートに基づいてチームを作成します。 |
 
 ## <a name="use-the-team-templates-in-the-teams-admin-center"></a>管理センターでチーム テンプレートTeams使用する
@@ -56,7 +56,7 @@ Microsoft チーム テンプレートを使用すると、設定、チャネル
 
 ### <a name="manager-collaboration"></a>マネージャー コラボレーション
 
-マネージャー コラボレーション テンプレートは、複数のマネージャーが複数の店舗/地域間で共同作業を行うチームを作成する場合に最適です。たとえば、組織にリージョンがある場合は、カリフォルニア地域のマネージャー コラボレーション チームを作成し、その地域のすべてのストア マネージャーをその地域の地域マネージャーと共に含める場合があります。
+マネージャー コラボレーション テンプレートは、複数のマネージャーが複数の店舗/地域間で共同作業を行うチームを作成する場合に最適です。たとえば、組織に地域がある場合は、カリフォルニア地域のマネージャー コラボレーション チームを作成し、その地域のすべてのストア マネージャーをその地域の地域マネージャーと共に含める場合があります。
 
 | 基本テンプレートの種類| baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------|- |----------------------------------------------------- |
@@ -95,7 +95,7 @@ Microsoft チーム テンプレートを使用すると、設定、チャネル
 
 ## <a name="how-to-use-first-party-templates"></a>ファースト パーティ テンプレートの使い方
 
-これらのテンプレートを使用するには、要求本文の「template@odata.bind」プロパティを「standard」から上記の TemplateID に変更します。  チーム テンプレートをデプロイする方法の詳細については、チームの作成方法に関する Microsoft Graph記事[を参照してください](/graph/api/team-post?view=graph-rest-beta)。
+これらのテンプレートを使用するには、要求本文の「template@odata.bind」プロパティを「standard」から上記の TemplateID に変更します。  チーム テンプレートをデプロイする方法の詳細については、Microsoft Graph チームの作成方法に関する[記事を参照してください](/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > テンプレートのチャネルは自動的に [全般] タブに作成されます。

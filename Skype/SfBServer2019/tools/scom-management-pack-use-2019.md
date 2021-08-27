@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: Skype for Business Server 2019 年 2019 年のインフラストラクチャを構成して、System Centerします。'
-ms.openlocfilehash: 2bb6e5600430cf8222d799fd42bade275d4e2f6d27fc6f6c4bfc05faad0e486d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cdb201280afb1419e5b8975b31e3c7725902cd72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277502"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582011"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM Skype for Business Serverパックを使用して 2019 年を管理する
  
@@ -100,7 +100,7 @@ ms.locfileid: "54277502"
 
 2019 Skype for Business Server 2019 管理パックでは、さまざまな機能を活用して、問題の検出と診断に役立ちます。 これらの機能は、2019 年の環境の正常性をリアルタイムでSkype for Business Serverします。
   
-|**監視シナリオ**|**Description**|
+|**監視シナリオ**|**説明**|
 |:-----|:-----|
 |代理トランザクション  <br/> | Windows PowerShell、サインイン、プレゼンス、IM、ユーザーの会議などのシナリオの高可用性をテストし、確認するためのコマンドレットを提供します。 <br/> 代理トランザクションは、企業内、企業外、ブランチ オフィスなど、地理的な場所から実行できます。  <br/> 代理トランザクションが失敗すると、エラーの正確な性質を判断するために HTML ログ s が作成されます。 これには、失敗したアクション、各アクションの待機時間、テストの実行に使用されるコマンド ライン、発生した特定のエラーが含まれます。  <br/> |
 |通話の信頼性に関する通知  <br/> |Skype for Business Server 2019 サーバーによって作成された通話詳細レコード (CDRs) は、ユーザーが通話に接続できるかどうか、または通話が終了する理由を反映します。 通話の信頼性アラートは、CDR データベースにクエリを実行して、ピアツーピア通話または基本的な会議機能に対して接続の問題が発生したユーザーの数が多い場合を示すアラートを生成します。  <br/> シナリオ範囲には、音声通話、ピアツーピア インスタント メッセージング (IM)、その他の会議機能が含まれます。  <br/> |
@@ -126,9 +126,9 @@ Skype for Business Server 2019 管理パックは、代理トランザクショ�
 
 ||||
 |:-----|:-----|:-----|
-|1  <br/> |登録 (ユーザー ログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|2  <br/> |アドレス帳サービス (ファイルのダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|3  <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|1   <br/> |登録 (ユーザー ログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|2   <br/> |アドレス帳サービス (ファイルのダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|3   <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |4   <br/> |プレゼンス  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |5   <br/> |統合連絡先ストア  <br/> |利用可能な Lync Server 2013 以降  <br/> |
    
@@ -149,11 +149,11 @@ Skype for Business Server 2019 管理パックは、代理トランザクショ�
 |:-----|:-----|:-----|
 |9   <br/> |音声ビデオ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
 |10   <br/> |データ会議  <br/> |Lync Server 2013 以降で利用可能  <br/> |
-|11  <br/> |インスタント メッセージ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
+|11   <br/> |インスタント メッセージ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
 |12   <br/> | 常設チャット <br/> |Lync Server 2013 以降で利用可能  <br/> |
-|13  <br/> |会議に起動ツール (スケジュールされた会議)  <br/> |Lync Server 2013 以降で利用可能  <br/> |
+|13   <br/> |会議に起動ツール (スケジュールされた会議)  <br/> |Lync Server 2013 以降で利用可能  <br/> |
 |14   <br/> |会議でのダイヤル  <br/> |2015 Skype for Business Server以降で利用可能 <br/> |
-|15  <br/> |アプリケーション共有会議  <br/> |2015 Skype for Business Server以降で利用可能 <br/> |
+|15   <br/> |アプリケーション共有会議  <br/> |2015 Skype for Business Server以降で利用可能 <br/> |
 |16   <br/> |UCWA 会議 (Web 会議への参加)  <br/> |2015 Skype for Business Server以降で利用可能 <br/> |
    
 **ネットワークとパートナーの依存関係でサポートされる代理トランザクション**
@@ -170,7 +170,7 @@ Skype for Business Server 2019 管理パックは、代理トランザクショ�
 
 次の表に、監視パックのオブジェクトの正常性Skype for Business Server示します。
   
-|**管理パック オブジェクト**|**Description**|
+|**管理パック オブジェクト**|**説明**|
 |:-----|:-----|
 |Skype for Business Server展開  <br/> |組織での 2019 Skype for Business Serverの展開を表します。  <br/> |
 |Skype for Business Serverサイト  <br/> |サービスが展開されるさまざまな地理的な場所を表します。  <br/> |

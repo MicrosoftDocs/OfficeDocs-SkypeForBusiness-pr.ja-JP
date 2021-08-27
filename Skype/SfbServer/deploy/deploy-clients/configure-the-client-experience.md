@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: '概要: このトピックを参照して、ユーザーのクライアント エクスペリエンスを構成するSkype for Businessしてください。'
-ms.openlocfilehash: 4cdfc0a44f07de5488d9b6a27019af0cd9fc03a74476367367b9e23170313fb6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61bb5e83378215561be2e073883b2e573d141000
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332069"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581831"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>2015 年のクライアント エクスペリエンスSkype for Businessする
  

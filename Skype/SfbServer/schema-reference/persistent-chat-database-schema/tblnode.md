@@ -10,27 +10,27 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode には、コントロール パネルおよび管理コマンドレットで管理されるオブジェクト ツリー (カテゴリまたはチャット ルーム ノードを含む) が含まれます。
-ms.openlocfilehash: 2d26e61fc9404e2649ca71d4e48d4bb3f147c88ec787dfd798753eaa5f83a5b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f5df4f01482dfe2b44987d74ad650a310a192df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306718"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578611"
 ---
 # <a name="tblnode"></a>tblNode
  
 tblNode には、コントロール パネルおよび管理コマンドレットで管理されるオブジェクト ツリー (カテゴリまたはチャット ルーム ノードを含む) が含まれます。
   
-**Columns**
+**列**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
 |nodeID  <br/> |NULL でない int  <br/> |ノード ID (一意の番号)。  <br/> |
 |nodeGuid  <br/> |NULL でない GUID  <br/> |ノード GUID。  <br/> |
-|parentID  <br/> |整数  <br/> |親のノード ID。 ルート ノード (ID 1 を含む) には、それ自体も親として含まれます。  <br/> |
+|parentID  <br/> |int  <br/> |親のノード ID。 ルート ノード (ID 1 を含む) には、それ自体も親として含まれます。  <br/> |
 |nodeType  <br/> |NULL でない bit  <br/> |True の場合は、ノードがカテゴリです。  <br/> ノードがチャット ルームの場合は False。  <br/> |
 |nodeName  <br/> |NULL でない nvarchar (256)  <br/> |ノード名。  <br/> |
 |nodeDesc  <br/> |NULL でない nvarchar (256)  <br/> |ノードの説明。  <br/> |

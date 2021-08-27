@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
 description: tblPreference には、ユーザーのクライアント設定が含まれる。 これは通常、Lync 2013 より前のクライアントで使用されます。
-ms.openlocfilehash: 698976f3f98b939578787a0f8a2c0aeb8167888ad09ea20a09d0d7e4d83e900c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9b4518fbe203750406fe02a3a69b04d1e45a9c1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315433"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578601"
 ---
 # <a name="tblpreference"></a>tblPreference
 
 tblPreference には、ユーザーのクライアント設定が含まれる。 これは通常、Lync 2013 より前のクライアントで使用されます。
 
-**Columns**
+**列**
 
 
 | **列**            | **型**                        | **説明**                                                 |
@@ -34,7 +34,7 @@ tblPreference には、ユーザーのクライアント設定が含まれる。
 | prefContent  <br/>    | nvarchar (max)  <br/>           | エンコードされたコンテンツ。  <br/>                                         |
 | lastModifiedBy  <br/> | NULL でない int  <br/>            | 基本設定を更新したプリンシパルの ID。  <br/>         |
 
-**キー**
+**Key**
 
 |**列**|**説明**|
 |:-----|:-----|
