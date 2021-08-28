@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: 各レコードは、ピアツーピア セッションで使用される 1 つのメディア種類を表します。複数のメディア種類が使用されている場合、1 つのセッションがテーブルでは複数のレコードによって表されます。
-ms.openlocfilehash: 095e1f3227bbaf3335f581acbebbddaccd6b73de33639b2a0d04302a5c104393
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 98c849c4ecde8e1c3be40d0aab3af606a400fb0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322949"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629429"
 ---
 # <a name="media-table"></a>メディア テーブル
  
@@ -30,7 +30,7 @@ ms.locfileid: "54322949"
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |日付型  <br/> |主/プライマリ、外部  <br/> |セッション要求の時刻。 セッションを一意に識別するために **SessionIdSeq** と併用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
-|**SessionIdSeq** <br/> |整数  <br/> |主/プライマリ、外部  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために **SessionIdTime** と併用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主/プライマリ、外部  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために **SessionIdTime** と併用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
 |**MediaId** <br/> |tinyint  <br/> |主/プライマリ、外部  <br/> |このメディアの種類を示す一意の番号。 詳細については [、MediaList テーブル](medialist.md) を参照してください。 <br/> |
 |**StartTime** <br/> |日付型  <br/> |Primary  <br/> |メディア要求が送信された時刻です。実際にメディアが開始した時刻ではありません。**StartTime** にはセッションのセットアップ時間が含まれます。<br/> |
 |**EndTime** <br/> |日付型  <br/> ||セッションの終了時刻です。  <br/> |

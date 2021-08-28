@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Microsoft は、2020 年 2 月 28 日Exchangeユニファイド メッセージング オンライン (ExchUMO) サービスを廃止します。 この記事では、影響を受けるお客様がビジネス継続性を計画するために知り、何を行う必要があるのかを要約します。
-ms.openlocfilehash: 933ba625506496c01242b26712e9b6d5b020dbb199c5f515444f7a8734fb84b9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279595"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606826"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -129,16 +129,16 @@ Microsoft 365 および Office 365 組織の管理者は、Microsoft Cloud 自�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO および Azure クラウドベースのサービス機能マトリックス
 
-| サービス | 機能レベル | 特徴 | 備考  | クラウド VM/AA  | ExUMO |
+| サービス | 機能レベル | 特徴 | Notes  | クラウド VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VM  | サービス機能| サードパーティ PBX のサポート    | UM Online からの SIP 通知メッセージを使用した MWI (メッセージ待機インジケーター) などのサード パーティ製 PBX に提供Exchange含む | N   | Y    |
+| VM  | サービス機能| サードパーティ PBX のサポート    | UM Online からの SIP 通知メッセージを使用した MWI (メッセージ待機インジケーター) などのサード パーティ製 PBX に提供Exchange含む | ×   | Y    |
 | VM | サービス機能  | サポート Skype for Business Server   |  | Y | Y    |
 | VM | サービス機能 | サポート Microsoft Teams|  | Y | N    |
 | VM | サービス機能 | 電子情報開示と保持  | セキュリティとコンプライアンスの場合  | Y | Y    |
 | VM | サービス機能 | Exchangeルールのサポート | セキュリティとコンプライアンスの場合  | Y | Y    |
-| VM | ユーザー機能 | PSTN ダイヤルイン アクセス  | サブスクライバー アクセス  | N | Y    |
-| VM | ユーザー機能 | 代理人  | 通話メールの受信が見つからない  | N | Y    |
-| VM | ユーザー機能 | PSTN Outlook 音声アクセス   | サブスクライバー アクセス  | N | Y    |
+| VM | ユーザー機能 | PSTN ダイヤルイン アクセス  | サブスクライバー アクセス  | × | Y    |
+| VM | ユーザー機能 | 代理人  | 通話メールの受信が見つからない  | × | Y    |
+| VM | ユーザー機能 | PSTN Outlook 音声アクセス   | サブスクライバー アクセス  | × | Y    |
 | VM | ユーザー機能 | 認証されたエンドポイントを使用したダイヤルイン | ボイス メール サービスを呼び出して音声メッセージをリッスンし、ボイスメール設定を変更する| Y | Y    |
 | VM | ユーザー機能 | ボイスメールを無効にするユーザー設定   |  | Y | Y    |
 | VM | ユーザー機能 | 個人用案内応答を変更するユーザー設定  |  | Y | Y    |
@@ -146,30 +146,30 @@ Microsoft 365 および Office 365 組織の管理者は、Microsoft Cloud 自�
 | VM | ユーザー機能 | 既定の言語を変更するユーザー設定  |  | Y | Y    |
 | VM | ユーザー機能 | TTS で既定の案内応答を上書きするユーザー設定  |  | Y | N    |
 | VM | ユーザー機能 | 個人の案内応答を記録する (認証されたデバイス) |  | Y | Y    |
-| VM | ユーザー機能 | 個人用案内応答 (PSTN) を録音する - 電話で再生する |  | N | Y    |
-| VM | ユーザー機能 | 文字起こしを無効にするユーザー設定 |  | N | Y    |
+| VM | ユーザー機能 | 個人用案内応答 (PSTN) を録音する - 電話で再生する |  | × | Y    |
+| VM | ユーザー機能 | 文字起こしを無効にするユーザー設定 |  | × | Y    |
 | VM | ユーザー機能 | 文字起こし  |  | Y | Y    |
-| VM | ユーザー機能 | SIP 通知メッセージを使用した MWI (メッセージ待機インジケーター) |  | N | Y    |
+| VM | ユーザー機能 | SIP 通知メッセージを使用した MWI (メッセージ待機インジケーター) |  | × | Y    |
 | VM | ユーザー機能 | MP3 オーディオ ファイル形式 (Outlook    |  | Y | Y    |
 | VM | ユーザー機能 | 可変速度の再生制御 |  | Y | Y    |
 | VM | ユーザー機能 | ボイスメールの転送  | 受信したボイスメールを他のユーザーに転送する | Y | Y    |
-| VM | ユーザー機能 | ユーザーのグループに音声メッセージを送信する  |ボイスメールブロードキャスト   | N | Y   |
-| VM | ユーザー機能 | SMS を使用したボイスメール通知    | ユーザーが新しいボイスメールを持っているときに SMS を受信できる    | N | Y    |
+| VM | ユーザー機能 | ユーザーのグループに音声メッセージを送信する  |ボイスメールブロードキャスト   | × | Y   |
+| VM | ユーザー機能 | SMS を使用したボイスメール通知    | ユーザーが新しいボイスメールを持っているときに SMS を受信できる    | × | Y    |
 | VM | ユーザー機能 | サポートされている案内応答言語 | 詳細はこちら: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
 | VM | ユーザー機能 | 通話応答ルール |  | Y | Y    |
-| VM | ユーザー機能 | 電話で再生する (PSTN)- メッセージを再生する | 自分のセルに電話して音声メッセージを聞く  | N | Y    |
-| VM | ユーザー機能 | 電話で再生する (Auth)- メッセージを再生する | 認証済みデバイスで電話する  | N | Y    |
+| VM | ユーザー機能 | 電話で再生する (PSTN)- メッセージを再生する | 自分のセルに電話して音声メッセージを聞く  | × | Y    |
+| VM | ユーザー機能 | 電話で再生する (Auth)- メッセージを再生する | 認証済みデバイスで電話する  | × | Y    |
 | VM | ユーザー機能 | 複数のユーザー間の共有メールボックス |  | Y | Y    |
-| VM | 発信者の機能  | 発信者エクスペリエンス - 保護されたボイスメール | 発信者は、記録されたメッセージを保護済みとしてマークするオプションを選択できます| N | Y    |
-| VM | 発信者の機能  | 発信者エクスペリエンス - プライベートボイスメール | 発信者は、録音されたメッセージをプライベートとしてマークするオプションを選択できます  | N | Y    |
-| VM | 発信者の機能  | 無音検出   |  | N | Y    |
+| VM | 発信者の機能  | 発信者エクスペリエンス - 保護されたボイスメール | 発信者は、記録されたメッセージを保護済みとしてマークするオプションを選択できます| × | Y    |
+| VM | 発信者の機能  | 発信者エクスペリエンス - プライベートボイスメール | 発信者は、録音されたメッセージをプライベートとしてマークするオプションを選択できます  | × | Y    |
+| VM | 発信者の機能  | 無音検出   |  | × | Y    |
 | VM | Tenant-Admin機能 | サーバーレベルで保護されたボイスメール    | テナント管理者は、受信ボイスメールを保護済みとしてマークするサービス レベルのルールを構成できます | Y | Y    |
 | VM | Tenant-Admin機能 | 記録期間の制限時間の変更  |     | Y | Y    |
 | VM | Tenant-Admin機能 | 変更無音検出タイムアウト    |  | 該当なし    | Y    |
-| VM | Tenant-Admin機能 | 入力エラーの数を変更する | CVM: 3 にハード コード | N | Y    |
+| VM | Tenant-Admin機能 | 入力エラーの数を変更する | CVM: 3 にハード コード | × | Y    |
 | VM | Tenant-Admin機能 | 既定の言語を変更する |  | Y | Y    |
 | VM | Tenant-Admin機能 | 文字起こしを無効または有効にする |  | Y | Y    |
-| VM | Tenant-Admin機能 | 通話中の通知を無効または有効にする |  | N | Y    |
+| VM | Tenant-Admin機能 | 通話中の通知を無効または有効にする |  | × | Y    |
 | VM | Tenant-Admin機能 | Microsoft がボイス メール のプレビューを改善する    |  | Y | Y    |
 | VM | Tenant-Admin機能 | 有効なユーザーのテキスト メッセージをカスタマイズする|  | 該当なし    | Y    |
 | VM | Tenant-Admin機能 | トランスクリプションの不適切なマスキング|  | Y | N    |
@@ -177,7 +177,7 @@ Microsoft 365 および Office 365 組織の管理者は、Microsoft Cloud 自�
 | VM | Tenant-Admin機能 | Web ポータルの管理   |  | CY19   | Y    |
 | VM | Tenant-Admin機能 | PowerShell   |  | Y | Y    |
 | UM | ユーザー機能 | 認定電話のメッセージ待機インジケーター (MWI) Skype for Business表示   |電話パートナーから提供される場合  | いいえ | はい    |
-| AA | サービス機能 | AA サポート 3rd-party PBX    |  | N | Y    |
+| AA | サービス機能 | AA サポート 3rd-party PBX    |  | × | Y    |
 | AA | サービス機能 | サポート Skype for Business Server   |  | Y | Y    |
 | AA | サービス機能 | サポート Microsoft Teams|  | Y | N    |
 | AA | サービス機能 | 名前によるダイヤル、DTMF 入力    |  | Y | Y    |
@@ -198,7 +198,7 @@ Microsoft 365 および Office 365 組織の管理者は、Microsoft Cloud 自�
 | AA | サービス機能 | AA への複数の PSTN 番号の割り当て|  | Y | Y    |
 | AA | Tenant-Admin機能 | Web ポータルの管理   |  | Y | N    |
 | AA | Tenant-Admin機能 | PowerShell コマンドレット  |  | Y | Y    |
-| FAX| サービス機能 | FAX 統合|  | N | Y    |
+| FAX| サービス機能 | FAX 統合|  | × | Y    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>管理者に推奨されるテスト計画と移行後の検証
 

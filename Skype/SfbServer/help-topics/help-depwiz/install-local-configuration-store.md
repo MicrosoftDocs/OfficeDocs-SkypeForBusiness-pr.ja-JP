@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: 2015 年 2015 年の新しい役割サーバーのインストールを開始するには、まず、ローカル構成ストアをホストするローカル SQL Serverをインストールする必要があります。 Skype for Business Server ローカル構成ストアは、サーバーの全体管理ストア (CMS) のSkype for Business Serverレプリカとして機能します。 [ローカル構成ストアのインストール] 手順を実行しているサーバーに、そのコンピューターのローカル管理者としてログオンするとともに、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーシップを持っている必要があります。 エッジ サーバーでセットアップを実行する場合は、RTCUniversalServerAdmins または RTCUniversalGlobalReadOnlyGroup グループのメンバーでなくても構いません。 トポロジ ビルダー定義ドキュメントは、中央管理ストアではなく、エクスポートされた定義ドキュメントから読み取されます。 トポロジ ビルダー定義ドキュメントをエクスポートしてエッジ サーバーで使用するには、「トポロジのエクスポート」および「エッジ インストール用に外部メディアにコピーする」を参照してください。
-ms.openlocfilehash: 62318febe6f6c9028e55b19da0c1be6ca6316d2bf372f78bb95931693028a096
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a1d2fe8ec044f45da7115cda6133c22d2ec835b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311665"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629799"
 ---
 # <a name="install-local-configuration-store"></a>ローカル構成ストアのインストール
 

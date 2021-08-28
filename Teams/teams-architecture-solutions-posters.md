@@ -6,7 +6,7 @@ manager: serdars
 audience: ITPro
 ms.topic: hub-page
 ms.service: msteams
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 appliesto:
@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: '概要: Microsoft Teams をリードする Microsoft 365 での生産性サービスの論理的なアーキテクチャについて説明します。また、Teams 音声ソリューションについても説明します。'
-ms.openlocfilehash: 1a6ddaa5b22b33107d4d187bd4d91ebfef4f91e7c2f78dd9d5ad0b71c11121ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 385606f210659841c51e2a917aed3c4772ba29b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280532"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581191"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT アーキテクチャと音声ソリューション ポスター
 
@@ -33,8 +33,7 @@ Team は、データ ガバナンス、セキュリティ、およびコンプ�
 
 
   [
-  ![Teams の論理的なアーキテクチャ ポスターのサムネイル](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>
-  [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
+  ![Teams の論理的なアーキテクチャ ポスターのサムネイル](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
 
 ## <a name="groups-in-microsoft-365"></a>Microsoft 365 でのグループ
 
@@ -42,8 +41,7 @@ Team は、データ ガバナンス、セキュリティ、およびコンプ�
 
 
   [
-  ![グループ インフォグラフィックのサムネイル](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)  <br/> 
-  [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
+  ![グループ インフォグラフィックのサムネイル](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)  <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
 
 ## <a name="microsoft-voice-solutions"></a>Microsoft 音声ソリューション
 

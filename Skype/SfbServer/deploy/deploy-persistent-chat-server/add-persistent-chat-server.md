@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '概要: 常設チャット サーバーを 2015 年 2015 年のトポロジに追加するSkype for Business Server説明します。'
-ms.openlocfilehash: 358d6c106cd1e7e51a019ede4c70ed7a7504af82fccb6d3dfd912f237df0e2a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312015"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607240"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>常設チャット サーバーを 2015 Skype for Business Serverトポロジに追加する
  

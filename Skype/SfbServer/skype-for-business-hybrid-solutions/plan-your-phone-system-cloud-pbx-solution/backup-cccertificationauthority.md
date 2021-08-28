@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: このBackup-CcCertificationAuthorityコマンドレットは、Skype for Business クラウド コネクタ エディション証明機関サービスをファイルにバックアップし、サイト共有ディレクトリの CA フォルダーに保存します。
-ms.openlocfilehash: abf94977abe2a0c3548b549ae0101ae399e124769eaaa9f05aabf203c69656a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7803a1c773ca3561b13ef5a263002cc4b8e049a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582531"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  

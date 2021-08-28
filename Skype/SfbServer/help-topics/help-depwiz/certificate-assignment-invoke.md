@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertAssignInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 description: '[コマンドの実行] ページには、サーバーに証明書を割り当てるためにタスクによって実行したアクションが表示されます。タスクが完了すると、証明書の割り当てプロセスの詳細を示すログを表示できます。ログ ファイルを表示するには、[ログの表示] をクリックします。'
-ms.openlocfilehash: f14f1ab34c1efcd9d486624b08bc11ca924066747c85e4a1a429499d4d38d3ac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 764b45f91bb04e568118aef0664174cc2328900d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320699"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629789"
 ---
 # <a name="certificate-assignment-invoke"></a>証明書の割り当て (起動)
  

@@ -13,27 +13,27 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
 description: 残念なことに、ユーザーが  Skype 会議ブロードキャストにアクセスして使用するときに、ブロックされる特定のユーザー ライセンスがあります。https://broadcast.skype.com ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
-ms.openlocfilehash: d60b945cdcbf050fd869520c0fa9ff86d39d88f0a41d29e34d4be03f0b3bfc2b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8a31a6584020d24bbd4c05d2fe7aeedf6d75d1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606736"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>会議ブロードキャストをホストするブロックされたSkypeライセンス
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その時点でサービスへのアクセスが終了します。 お客様には、コミュニケーションとチームワークの中核となるMicrosoft Teamsクライアントであるクライアントへのアップグレードを開始Microsoft 365。
+> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その時点でサービスへのアクセスが終了します。 お客様には、コミュニケーションとチームワークのMicrosoft Teamsクライアントである Microsoft Teams へのアップグレードを開始Microsoft 365。
 
-残念ながら、ユーザーが会議ブロードキャストにアクセスし、会議ブロードキャストをホストする場合にブロックSkype https://broadcast.skype.com があります。 ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
+残念ながら、ユーザーが会議ブロードキャストにアクセスして会議ブロードキャストをホストする場合にブロックSkype https://broadcast.skype.com があります。 ユーザーにこのメッセージが表示される場合、ブロックされるライセンスの一つがユーザーに割り当てられています。 それでも Skype 会議ブロードキャストを使用したい場合、別の Office 365 のライセンスをそのユーザーに割り当てます。
   
  *「あなたの会社のポリシーでは、Skype 会議ブロードキャストの使用が許可されていません。このサービスが有効にされ、正しいライセンスを保有していることをシステム管理者に確認してください。」* 
   
@@ -64,7 +64,7 @@ ms.locfileid: "54339275"
 - Microsoft 365 A1 を学生が使用するメリット
 
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   

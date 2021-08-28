@@ -7,35 +7,35 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: anblak
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Microsoft Teams の統合されたサービスとしてのコンタクト センター（CCaaS）ソリューションの概要
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b12b28f4898b3b6dc722086d22c616e3938f4580b5f9c4956367663ea841d305
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec4dc5dceccaa515223d3a53255258e190da8788
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321149"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606936"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>連絡先センターの統合 (Microsoft Teams
+# <a name="contact-center-integrations-for-microsoft-teams"></a>連絡先センターの統合 ( Microsoft Teams
 
   この記事では、Microsoft Teams および Microsoft Teams 接続済み連絡先センター認定プログラムに参加しているソリューション プロバイダーと連絡先センター ソリューションを統合する方法の概要を説明します。
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>連絡先センターの統合とは何Microsoft Teams?
 
-Microsoft Teamsは、チャット、ビデオ会議、通話などの通信モードを通して、内部および外部の顧客接続のハブとして機能することで、顧客の対話作業ストリームをサポートします。 組織によっては、Microsoft Teams[のクラウド](./cloud-voice-landing-page.md)音声機能 (自動応答や通話キュー[](./what-are-phone-system-auto-attendants.md)など)[がニーズ](./create-a-phone-system-call-queue.md)を満たしています。
+Microsoft Teamsは、チャット、ビデオ会議、通話などの通信モードを通して、内部および外部の顧客接続のハブとして機能することで、顧客の対話作業ストリームをサポートします。 一部の組織では、Microsoft Teamsの[クラウド](./cloud-voice-landing-page.md)音声機能 (自動[](./what-are-phone-system-auto-attendants.md)応答や通話キューなど)[がニーズ](./create-a-phone-system-call-queue.md)を満たしています。
 
-ビジネス ツールとワークフローを備えるソリューションを使用して顧客体験を実現したい組織の場合、Microsoft Teams のコンタクト センター統合により、Contact Center as a Service (CCaaS) ソリューション プロバイダーはソリューションを Teams に統合できます。
+ビジネス ツールとワークフローを備えるソリューションが顧客体験を後押しする必要がある組織では、Microsoft Teams のコンタクト センター統合により、Contact Center as a Service (CCaaS) ソリューション プロバイダーはソリューションを Teams に統合できます。
 
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>認定プログラム用の接続Microsoft Teamsセンター
 
 Microsoft Teams 認定プログラム用の接続されたコンタクト センターでは、参加している各プロバイダーのソリューションが、Microsoft ソリューションから期待される品質、互換性、信頼性を提供する必要があります。
 
-統合されたコンタクト センター ソリューションを探している組織の場合は、「認定済みソリューション プロバイダーの一覧については、連絡先センター向け[認定 Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions)ソリューション」を[](#connected-contact-center-solutions)参照してください。認定プロセスのプロバイダーの一覧については、「接続された連絡先センター ソリューション」を参照してください。
+統合されたコンタクト センター ソリューションを探している組織の場合は、「認定済みソリューション プロバイダーの一覧については、連絡先センター向け[認定 Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions)ソリューション」[](#connected-contact-center-solutions)を参照し、認定プロセスのプロバイダーの一覧については、「接続された連絡先センター ソリューション」を参照してください。
 
 認定プログラムへの参加を希望しているベンダーの場合は、 にメールでお問い合わせください <Teamscategorypartner@microsoft.com> 。
 

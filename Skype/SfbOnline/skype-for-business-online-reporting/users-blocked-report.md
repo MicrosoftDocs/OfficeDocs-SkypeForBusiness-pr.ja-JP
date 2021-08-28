@@ -13,31 +13,31 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 'このレポートは、他の Skype for Business レポートと共に、組織全体の PSTN の使用状況など、アクティビティの詳細を示します。 '
-ms.openlocfilehash: beacb15a283402c4ba4c7f2ec223eb6d9f48b2702e9aaabc565224eb0b391fc8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'このレポートは、他のSkype for Businessレポートと共に、組織全体の PSTN 使用状況など、アクティビティの詳細を示します。 '
+ms.openlocfilehash: f2708512dfb1cf03e367af09abb288e62329eaf0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606726"
 ---
 # <a name="users-blocked-report"></a>ブロックされているユーザーのレポート
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-新しい [Skype for Business **レポート**] ダッシュボードには、組織内の複数のSkype for Businessアクティビティの概要が表示されます。 これにより、個々の製品レベルのレポートにドリルダウンして、各製品内のアクティビティに関するより詳細な分析情報を提供できます。 たとえば、PSTN 通話を **ブロックSkype for Business** ユーザーブロック レポートを使用して、組織内のユーザーを確認できます。 このレポートは、他の Skype for Business レポートと共に、組織全体の PSTN の使用状況など、アクティビティの詳細を示します。
+新しい [Skype for Business **レポート]** ダッシュボードには、組織内の製品全体Skype for Businessアクティビティの概要が表示されます。 これにより、個々の製品レベルのレポートにドリルダウンして、各製品内のアクティビティに関するより詳細な分析情報を提供できます。 たとえば、ユーザーブロックレポート **Skype for Business** を使用して、PSTN 通話がブロックされている組織内のユーザーを表示できます。 このレポートは、他のSkype for Businessレポートと共に、組織全体の PSTN 使用状況など、アクティビティの詳細を示します。
   
  利用可能なその他のレポートについては、[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)を確認してください。
   
 > [!NOTE]
 > 管理者として管理者としてサインインSkype for Business、すべてのレポートを表示Microsoft 365 管理センター。 
   
-## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>ユーザーがブロックするレポートSkype for Businessアクセスする方法
+## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>ユーザーがブロックしているレポートSkype for Businessアクセスする方法
 
 ![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
@@ -77,11 +77,11 @@ ms.locfileid: "54314943"
     
 - [Skype for Business 電話会議開催者アクティビティ レポート](conference-organizer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、Web、ダイヤルイン/アウト - サード パーティ、ダイヤルイン/アウト - Microsoft を使用した電話会議を開催しているかを確認できます。
     
-- [Skype for Business参加者アクティビティ レポートの作成](conference-participant-activity-report.md)参加している IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/アウト会議の数を確認できます。
+- [Skype for Business参加者アクティビティ レポートを作成する](conference-participant-activity-report.md)参加している IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/アウト会議の数を確認できます。
     
 - [Skype for Business ピアツーピア アクティビティ レポート](peer-to-peer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、ファイル転送を使用しているかを確認できます。
     
-- [Skype for Business PSTN 使用状況レポート](pstn-usage-report.md)受信/送信呼び出しに費やされた分数と、これらの呼び出しのコストを確認できます。
+- [Skype for Business PSTN 利用状況レポート](pstn-usage-report.md)受信/送信呼び出しに費やされた分数と、これらの呼び出しのコストを確認できます。
 
 - [Skype for Business PSTN の利用分数プール レポート](pstn-minute-pools-report.md) - 組織内で今月中に消費された分数を確認できます。
 

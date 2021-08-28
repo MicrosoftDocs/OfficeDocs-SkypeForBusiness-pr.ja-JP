@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: チリで利用Microsoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
-ms.openlocfilehash: 0eeb31498115c5399cae62c195a5a8c1811fe6cf2d6a72a18eed8e2e9ed01b1c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: チリで利用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+ms.openlocfilehash: 5b52d4246fd9b6f30b3c5b8f57bc30c85011f5a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308916"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629389"
 ---
 # <a name="availability-in-chile"></a>チリでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-チリで利用Microsoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
+チリで利用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -83,7 +83,7 @@ ms.locfileid: "54308916"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

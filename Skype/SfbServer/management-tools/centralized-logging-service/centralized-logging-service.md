@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: '概要: 2015 年の集中ログ サービスのサービス コンポーネントと構成設定Skype for Business Serverします。'
-ms.openlocfilehash: 112a8d59637048729afcdf142fc891863365943593ac6ed7b0cd8f8cc84947d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 844492e0dddc5337a208bcf4e82fc8de88302884
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295404"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582681"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>2015 年の集中ログ Skype for Businessサービス
  

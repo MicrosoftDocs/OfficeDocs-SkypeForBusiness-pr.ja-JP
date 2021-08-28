@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: tblFileToken には、ファイル送信を目的とする一時的なトークンが格納されます。
-ms.openlocfilehash: f099b641f732d2f6ccecf699335e9e88736484cc4eac7bfbce8d4a2d7dd6e810
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d39eeaec0bd2b9ba799b45d6feca06d8751536e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301293"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582581"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  
 tblFileToken には、ファイル送信を目的とする一時的なトークンが格納されます。
   
-**Columns**
+**列**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|

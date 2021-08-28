@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
 description: クライアントエクスペリエンスTeams共存モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) に準拠する方法について学習します。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e49e8d7fd76bb3ecb14ad1c3d19142fbca28f978144578f42e5d106ef7c1d511
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dedac139aa4831b61a25bd6b65b6520288238d6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606968"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams のクライアント エクスペリエンスおよび共存モードへの準拠
 
@@ -33,7 +33,7 @@ ms.locfileid: "54321249"
 
 Skype for Business 共存モード (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) の目的は、組織が Skype for Business から Teams に移行する際に、シンプルで予測可能なエクスペリエンスをエンド ユーザーに提供することです。  Teams に移行する組織にとって、最終的にはすべてのユーザーを **TeamsOnly** モードにすることが目標ですが、**TeamsOnly** (またはその他のモード) を全員に同時に割り当てる必要はありません。  ユーザーが TeamsOnly モードに到達する前に、組織は Skype for Business 共存モードを使用して、Teams のみであるユーザーと、まだないユーザーとの間で予測可能な通信を確保できます。 
 
-ユーザーが任意のモードでSkype for Business、すべての着信チャットと通話がユーザーのクライアントにSkype for Businessされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly または SfBWithTeamsCollab モードの場合は明示的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings の場合には明示的に有効化されます。
+ユーザーが任意のモードでSkype for Business、すべての着信チャットと通話がユーザーのクライアントにルーティングSkype for Businessされます。 ユーザーがいずれかの Skype for Business モードに設定されている場合、エンド ユーザーを混乱させない適切なルーティングを確保するために、Teams クライアントの通話とチャット機能は無効化されます。 同様に、Teams での会議のスケジュールも、ユーザーが SfBOnly または SfBWithTeamsCollab モードの場合は明示的に無効化され、ユーザーが SfBWithTeamsCollabAndMeetings の場合には明示的に有効化されます。
 
 プレゼンスはチャットと通話を通じて到達可能性を示すので、チャットと通話が無効になっている場合、Teams での自己プレゼンス (つまり、ユーザーの写真の Teams クライアントでの自分のプレゼンスの表示) も非表示になります。 
 

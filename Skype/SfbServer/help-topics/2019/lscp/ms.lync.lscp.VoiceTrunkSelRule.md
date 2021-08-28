@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
 ROBOTS: NOINDEX, NOFOLLOW
 description: エンタープライズ VoIP、逆引き番号参照 (RNL) を実行するために、すべてのダイヤル文字列を E.164 形式に正規化する必要があります。 一方、トランク ピア (つまり、関連付けられたゲートウェイ、PBX、または SIP トランク) では、番号を地域のダイヤル形式にすることが必要な場合もあります。 E.164 形式から地域のダイヤル形式に番号を変換するには、オプションとして、トランク ピアにルーティングする前に 1 つ以上の変換ルールを定義して Request URI を操作することができます。 たとえば、ダイヤル文字列の先頭から +44 を削除して 0144 に置き換える変換ルールを作成できます。
-ms.openlocfilehash: 4bbda54f4cedb05e3f3f75f1550c32809871721ad0ceeaa1e519be1f94a55d79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa41f3f67289f5929c34e410191e69e7fc25c2d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311935"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607196"
 ---
 # <a name="select-translation-rules"></a>変換ルールの選択
  

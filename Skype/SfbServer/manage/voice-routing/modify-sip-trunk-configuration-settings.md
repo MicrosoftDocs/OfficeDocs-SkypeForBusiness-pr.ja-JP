@@ -1,5 +1,5 @@
 ---
-title: '[SIP トランク構成設定の変更] Skype for Business Server'
+title: Skype for BusinessServerModify SIP トランク構成設定
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: 'SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。 '
-ms.openlocfilehash: 73ab5eed311cf10b674034edad58afce0f6e66c9deb5b763e8ef0f38b95822a7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 'SIP トランク構成設定は、仲介サーバーと公衆交換電話網ゲートウェイ、IP-public ブランチ エクスチェンジ (PBX)、またはサービス プロバイダーのセッション ボーダー コントローラー (SBC) との間の関係と機能を定義します。 '
+ms.openlocfilehash: dbc7dec8af1f27769505b39b5cd2778f66dec0a4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351487"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582731"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>[SIP トランク構成設定の変更] Skype for Business Server
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for BusinessServerModify SIP トランク構成設定
 
 SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。たとえば、次の設定ができます。
 

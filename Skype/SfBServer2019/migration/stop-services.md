@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: コントロール パネルSkype for Business Server使用して、特定のコンピューターで実行されているレガシ サービスの開始または停止、または特定のレガシ サービスの開始または停止を行えます。
-ms.openlocfilehash: 058c9d3833f323634b08dc6f2019e987456e8d031c23f7339aad97a78d5e7181
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b69d62a43136f40a68aa4d24940b664d061169db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324716"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606886"
 ---
 # <a name="stop-legacy-services"></a>従来のサービスの停止
 

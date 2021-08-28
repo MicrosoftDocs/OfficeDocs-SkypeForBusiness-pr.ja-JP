@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 ROBOTS: NOINDEX, NOFOLLOW
 description: このウィザードを使用して、サイトの新しいフロント エンド プールを定義します。各サイトには、少なくとも 1 つの Enterprise Edition プールか Standard Edition サーバーが必要です。ウィザードを使用して新しいフロント エンド プールを作成する場合の要件の詳細については、「展開」のドキュメントの「Define and Configure a Front End Pool (フロント エンド プールの定義および構成)」を参照してください。
-ms.openlocfilehash: e9b3ff567b8ab540aab3620c9d3066660347be4addc4de0edd6aeb29072be1a4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bd1b32c4f3bee9b24dae47d428529b9f9a90150c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302781"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580901"
 ---
 # <a name="front-end-start-page"></a>フロント エンド スタート ページ
 

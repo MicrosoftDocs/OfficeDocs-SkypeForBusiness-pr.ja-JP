@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: コンサルティング通話の転送を含む、Skype for Business Server エンタープライズ VoIP会議の場所ベースのルーティングを計画します。
-ms.openlocfilehash: 31da944a283f3f3a9213db96de5d092b61f3b6118c58de09094a34e02a17460e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5f49dfcc798f4871ff9ecc1ed2fec1beacad8e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629529"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Basedでの会議のルーティングSkype for Business Server
 
@@ -67,7 +67,7 @@ Location-Basedルーティングを使用すると、通話内の関係者の場
 > [!NOTE]
 > 累積的Skype for Business 4 では、次の表の動作を確認する必要があります。
 
-|User|その他のパーティ|Action|結果|
+|ユーザー|その他のパーティ|Action|結果|
 |:-----|:-----|:-----|:-----|
 |Skype for Businessモバイル  <br/> |PSTN  <br/> |Skype for Businessモバイルは PSTN 通話中です。 Skype for Businessその後、モバイルは電話を電話会議 (CAA) 自動応答エスカレートします。  <br/> |呼び出しがブロックされ、適切なエラー メッセージが表示されます。  <br/> |
 |Skype for Businessモバイル  <br/> |Skype for Businessクライアントまたはフェデレーション ユーザー  <br/> |クライアントまたはフェデレーション ユーザーは、Skype for Business Mobile Location-Basedユーザーに VoIP 呼び出しを行い、いずれかのパーティが CAA にエスカレートします。  <br/> |エスカレーション呼び出しはブロックされ、適切なエラー メッセージが表示されます。  <br/> |

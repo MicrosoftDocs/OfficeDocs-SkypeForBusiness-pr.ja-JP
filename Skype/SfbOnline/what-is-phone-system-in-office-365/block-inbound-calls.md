@@ -11,14 +11,14 @@ audience: Admin
 ms.reviewer: roykuntz
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: ff1dfa87d6b88cdcab46a6ea080b2aa8b61d3ba757ab922ae04f2b4b2d2aa70d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b4c26fb1f0a34c2dd0b7fb5159398e7eaf54df3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342542"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581131"
 ---
 # <a name="block-inbound-calls"></a>受信通話をブロックする
 
@@ -151,7 +151,7 @@ Remove-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tena
 
 テナントで ```Test-CsInboundBlockedNumberPattern``` 番号がブロックされているかどうかを確認するには、 コマンドレットを使用します。
  
-この例では、 パラメーター ```-Phonenumber``` と パラメーター ```-Tenant``` が必要です。 パラメーターは、+ や - などの追加の文字を含めず ```-PhoneNumber``` に数値文字列である必要があります。 TRPS では、 ```-Tenant parameter``` は省略可能です。 結果のパラメーターは、テナントで数値がブロックされている場合は True、ブロックされていない場合は False の値 ```isNumberBlocked``` を返します。
+この例では、 パラメーター ```-Phonenumber``` と パラメーター ```-Tenant``` が必要です。 パラメーター ```-PhoneNumber``` は、+ や - などの追加の文字を含めずに数値文字列である必要があります。 TRPS では、 ```-Tenant parameter``` は省略可能です。 結果のパラメーターは、テナントで数値がブロックされている場合は True、ブロックされていない場合は False の値 ```isNumberBlocked``` を返します。
 
 ```powershell
 Test-CsInboundBlockedNumberPattern –Tenant <GUID> -PhoneNumber <String>

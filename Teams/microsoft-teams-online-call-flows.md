@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sonua
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: さまざまなトポロジにおいて、Teams が Office 365 フローを使用する方法と、ピアツーピアのメディア通信に使用する固有のTeam フローについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ebe6de7773ca77964619f5d90d1c189ea8d731c8d7c242c2a04a619a33c55414
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2e0e3ed2c9f0ac4e636b97065f9e2a4050f954b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319860"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607154"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams の通話フロー
 
@@ -87,7 +87,7 @@ Teams のメディア フロー接続は、標準の IETF ICE (Interactive Conne
 
 ### <a name="technologies-that-are-not-recommended-with-microsoft-teams"></a>Microsoft Teams で推奨されないテクノロジ
 
-**VPN ネットワーク**。 メディア トラフィック (またはフロー 2') にはお勧めできません。 VPN クライアントは、「Lync メディアで VPN トンネルをバイパスする」で指定されているTeams VPN 以外のユーザーと同様に、分割トンネリングを使用し、メディア トラフィックをルーティングする[必要があります](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)。
+**VPN ネットワーク**。 メディア トラフィック (またはフロー 2') にはお勧めできません。 VPN クライアントは、「Lync メディアで VPN トンネルをバイパスする」で指定されているTeams VPN 以外のユーザーと同様に、分割トンネリングを使用し、Teams メディア トラフィックを[ルーティングする必要があります](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210)。
 
 > [!NOTE]
 > タイトルは Lync となっていますが、Teams にも適用できます。

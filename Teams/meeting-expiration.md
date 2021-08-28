@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: nej
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,16 +17,16 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 会議ポリシー設定を使用して、会議の有効期限を制御する方法についてMicrosoft Teams。
-ms.openlocfilehash: ee93aeb3b341ce9d046443675e3c6404e370bd00dd3f9589b6a96bc87917c2ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 84a944fe23c7ccb54362f1038958763dec2eb1a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318321"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607164"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>会議ポリシーと会議の有効期限 (Microsoft Teams
 
-[](meeting-policies-in-teams.md) Microsoft Teams の会議ポリシーは、組織内のユーザーが会議を開始およびスケジュールできるかどうかと、ユーザーがスケジュールした会議に対して会議参加者が使用できる機能を制御するために使用されます。 グローバル (組織全体の既定) ポリシーを使用ことも、カスタム ポリシーを作成して割り当てることもできます。 Microsoft Teams 管理センターで、または Get [、New、Set、Remove、Grant](/powershell/module/skype/new-csteamsmeetingpolicy)-CsTeamsMeetingPolicy PowerShell コマンドレットを使用して、会議ポリシーを管理します。 [](/powershell/module/skype/get-csteamsmeetingpolicy) [](/powershell/module/skype/set-csteamsmeetingpolicy) [](/powershell/module/skype/remove-csteamsmeetingpolicy) [](/powershell/module/skype/grant-csteamsmeetingpolicy)
+[](meeting-policies-in-teams.md) Microsoft Teams の会議ポリシーは、組織内のユーザーが会議を開始してスケジュールできるかどうかと、ユーザーがスケジュールした会議の参加者が利用できる機能を制御するために使用されます。 グローバル (組織全体の既定) ポリシーを使用ことも、カスタム ポリシーを作成して割り当てることもできます。 Microsoft Teams 管理センターで、または Get [、New、Set、Remove、Grant](/powershell/module/skype/new-csteamsmeetingpolicy) [](/powershell/module/skype/set-csteamsmeetingpolicy)-CsTeamsMeetingPolicy PowerShell コマンドレットを使用して、会議ポリシーを管理します。 [](/powershell/module/skype/get-csteamsmeetingpolicy) [](/powershell/module/skype/remove-csteamsmeetingpolicy) [](/powershell/module/skype/grant-csteamsmeetingpolicy)
 
 ユーザーが会議を開始およびスケジュールできるかどうかを制御し、ユーザーがスケジュールした会議の有効期限を制御する会議ポリシー設定。 会議の参加リンクと会議 ID の有効期限が切れると、誰も会議に参加できます。 次の会議ポリシー設定は、ユーザーが会議を開始してスケジュールできるかどうかを決定Teams。 この記事では、会議の設定について説明します。
 
@@ -38,7 +38,7 @@ ms.locfileid: "54318321"
 
 既定では、これらの設定はオンになっています。 これらの設定が無効になっている場合、ポリシーが割り当てられているユーザーは、その種類の新しい会議を開始またはスケジュール設定できます。 同時に、ユーザーが以前に開始またはスケジュールした、その種類のすべての既存の会議の会議参加リンクと会議 ID が期限切れになります。
 
-たとえば、これらの会議ポリシー設定が **[** オン] に設定されている会議ポリシーがユーザーに割り当てられている場合、[チャネルで今すぐ会議を許可する] 設定をオフにすると、そのユーザーはチャネルで即日会議を開始できなくなりました。また、[会議] チャネルでは、以前に作成したリンクが期限切れになります。 ユーザーは、他の種類の会議を開始してスケジュールを設定し、他のユーザーが開催した会議に参加できます。
+たとえば、これらの会議ポリシー設定が **[** オン] に設定されている会議ポリシーがユーザーに割り当てられている場合、[チャネルで今すぐ会議を許可する] 設定をオフにすると、そのユーザーはチャネルで即日の会議を開始できなくなりました。また、[会議] チャネルでは、以前に作成したリンクが期限切れになります。 ユーザーは、他の種類の会議を開始してスケジュールを設定し、他のユーザーが開催した会議に参加できます。
 
 ## <a name="what-happens-when-the-meeting-join-link-and-conference-id-expire"></a>会議参加リンクと会議 ID の有効期限が切れると、どうなるでしょうか。
 
@@ -54,7 +54,7 @@ ms.locfileid: "54318321"
 
 ### <a name="switch-a-meeting-policy-setting-from-off-to-on"></a>会議ポリシー設定をオフからオンに切り替える
 
-会議ポリシー設定を [オフ]から **[オン**] に切り替える場合、ポリシーが割り当てられているユーザーは、その種類の会議を開始またはスケジュールできます。 ユーザーに対して会議ポリシー設定がオフになってから再び有効にした場合、ユーザーが開催した以前にスケジュールされた会議 (および期限切れ) はすべてアクティブになり、ユーザーは会議参加リンクまたは電話を使用して会議に参加できます。  
+会議ポリシー設定を [オフ]から **[オン**] に切り替える場合、ポリシーが割り当てられているユーザーは、その種類の会議を開始またはスケジュールできます。 ユーザーに対して会議ポリシー設定がオフになってから再度有効にした場合、ユーザーが開催した以前にスケジュールされた会議 (および期限切れ) はすべてアクティブになり、ユーザーは会議参加リンクまたは電話を使用して会議に参加できます。  
 
 ## <a name="meeting-expiration-scenarios"></a>会議の有効期限のシナリオ
 
@@ -63,7 +63,7 @@ ms.locfileid: "54318321"
 |必要な場合...&nbsp;&nbsp; |これを行う&nbsp;&nbsp;&nbsp;&nbsp;  |会議参加の動作&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
 |ユーザーが開始したプライベート会議の有効期限を切る&nbsp;&nbsp;|プライベート会議 **で [今すぐ会議を許可する] をオフにします**。&nbsp;&nbsp;|ユーザーが開始した **プライベート会議に** 誰も参加できます。|
-|ユーザーがスケジュールしたプライベート会議の有効期限を切る&nbsp;&nbsp;|[プライベート **会議のスケジュール設定を許可する**]_をオフに_ し、[Allow the **Outlook アドインを許可する] をオフにします**。 &nbsp;&nbsp;|ユーザーがスケジュールした非公開の会議に誰も参加できます。 これにより、ユーザーは次の会議に参加できます。<ul><li>過去に発生したプライベート会議。</li><li>将来予定され、まだ発生していないプライベート会議。</li><li>定期的なプライベート会議の今後のインスタンス。</li></ul><br>[**プライベート会議のスケジュール** 設定を許可する]**と [Outlook** を許可する] の両方をオフにし、ユーザーがスケジュールしたプライベート会議を期限切れにする必要があります。 1 つの設定がオフで、もう 1 つの設定がオンになっている場合、既存の会議の会議参加リンクと会議の数はアクティブなままであり、有効期限が切れはされません。|
+|ユーザーがスケジュールしたプライベート会議の有効期限を切る&nbsp;&nbsp;|[プライベート **会議のスケジュール設定を許可する**] を _オフ_ にし、[Allow **the Outlook アドインを許可する] をオフにします**。 &nbsp;&nbsp;|ユーザーがスケジュールした非公開の会議に誰も参加できます。 これにより、ユーザーは次の会議に参加できます。<ul><li>過去に発生したプライベート会議。</li><li>将来予定され、まだ発生していないプライベート会議。</li><li>定期的なプライベート会議の今後のインスタンス。</li></ul><br>[**プライベート会議のスケジュール** 設定を許可する]**と**[Outlookを許可する] の両方をオフにし、ユーザーがスケジュールしたプライベート会議を期限切れにする必要があります。 1 つの設定がオフで、もう 1 つの設定がオンになっている場合、既存の会議の会議参加リンクと会議の数はアクティブなままであり、有効期限が切れはされません。|
 |期限切れチャネル **ユーザーが開始** した会議を今すぐ満たす&nbsp;&nbsp;|チャネルで **[今すぐ会議を許可する] をオフにし**_、[_ チャネル会議 **のスケジュールを許可する] をオフにします**。&nbsp;&nbsp;|ユーザーが開始した [ **今すぐ会議]** チャネルに参加できるユーザーはいます。|
 |ユーザーがスケジュールしたチャネル会議の有効期限を切る&nbsp;&nbsp;|[チャネル会議 **のスケジュール設定を許可する] をオフにします**。&nbsp;&nbsp;|ユーザーがスケジュールしたチャネル会議に誰も参加できます。 これにより、ユーザーは次の会議に参加できます。<ul><li>過去に発生したチャネル会議。</li><li>将来予定され、まだ発生していないチャネル会議。</li><li>定期的なチャネル会議の今後のインスタンス。</li></ul>|
 
@@ -75,7 +75,7 @@ ms.locfileid: "54318321"
 > [!NOTE]
 > 会議が代理人によって送信された場合(管理者など、他のユーザーの代わりに会議出席依頼を送信するアクセス許可が与えられた場合)、会議ポリシー設定は、アクセス許可を付与したユーザー (マネージャー) に適用されます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
 
