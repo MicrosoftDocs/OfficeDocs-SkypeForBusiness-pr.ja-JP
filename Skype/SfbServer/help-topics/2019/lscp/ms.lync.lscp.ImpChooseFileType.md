@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ファイル タイプ拡張子] ダイアログ ボックスを使用し、[ファイル タイプ拡張子] の下の拡張子の横のチェック ボックスをオン (禁止) またはオフ (許可) にすることで、禁止または許可するファイル タイプ拡張子を選択します。矢印をクリックしてカテゴリを展開し、そのカテゴリのファイル タイプ拡張子をすべて表示します。カテゴリ内のすべてのファイル タイプ拡張子を選択する場合は、カテゴリ名を選択します。'
-ms.openlocfilehash: 161b56adf12386d4510d91a83404af68058d3e590a1193c290813f89918c1f65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bc86dff5fdece9b918d14146cdc33a5f5559b8da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324406"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590521"
 ---
 # <a name="select-file-type-extensions"></a>ファイルの種類の拡張子の選択
  

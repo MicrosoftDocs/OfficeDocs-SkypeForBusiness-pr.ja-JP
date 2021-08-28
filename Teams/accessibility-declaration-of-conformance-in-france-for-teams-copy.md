@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intégre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et collaborate. "
-ms.openlocfilehash: 92a982857f3530a5f03c2efafb2efbce83bfd23a
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 97ce2f3a4bd74d56b57a15a249b7b2fa50f27660
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372227"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589931"
 ---
 #  <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en mat中島 d'accessibilité
 
@@ -254,19 +254,19 @@ Définitions et abréviations [EN 301 549](http://mandate376.standards.eu/standa
 
 ### <a name="section-7-tic-avec-fonctions-vido"></a>Section 7 TIC avec fonctions vidéo
 
-Cette section ne's'applique pas à Skype Entreprise 2016.
+Cette section ne s'applique pas à Skype Entreprise 2016.
 
 ### <a name="section-8-matriel-informatique"></a>Section 8 Matériel informatique
 
-Cette section ne's'applique pas à Skype Entreprise 2016.
+Cette section ne s'applique pas à Skype Entreprise 2016.
 
 ### <a name="section-9-web"></a>Section 9 Web
 
-Cette section ne's'applique pas à Skype Entreprise 2016.
+Cette section ne s'applique pas à Skype Entreprise 2016.
 
 ### <a name="section-10-documents-non-bass-dans-le-web"></a>Section 10 Documents non basés dans le Web 
 
-Cette section ne's'applique pas à Skype Entreprise 2016.
+Cette section ne s'applique pas à Skype Entreprise 2016.
 
 ### <a name="section-11-logiciel"></a>Section 11 Logiciel
 
@@ -523,7 +523,7 @@ Cette section ne's'applique pas à Skype Entreprise 2016.
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom、rôle et valeur</h3>
+<td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom、 rôle et valeur</h3>
 <p>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accté à des technologies d'assistance, elle remplit les Crittés de Succtés de Succ utilis indiqués dans le tableau 11.38 : Nom, rôle et valeur :</p>
 <p>Pour tout composant d’une interface utilisateur (et notamment des éléments de formulaire, liens et composants générés par des scripts), le nom et le rôle peuvent être déterminés par un programme informatique ; les états, les propriétés et les valeurs qui peuvent être paramétrés par l’utilisateur peuvent être définis par un programme informatique ; et la notification des changements de ces éléments est mise à la disposition des agents utilisateurs, et notamment des technologies d’assistance.</p></td>
 <td>Pris en charge avec des exceptions</td>

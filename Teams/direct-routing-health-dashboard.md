@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 正常性ダッシュボードを使用して、セッション ボーダー コントローラーと直接ルーティングの間の接続を監視する方法について説明します。
-ms.openlocfilehash: 2b5888ed6e8545eff64929ef24da7fd768c4d60b6bb0e4df5f4760dfd215c08d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aec8a0bb37af02f6103714a26c9d35e18879985c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327672"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592341"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>直接ルーティングの正常性ダッシュボード
 
@@ -32,7 +32,7 @@ ms.locfileid: "54327672"
 - 接続されている SBC の全体的な正常性
 - 接続されている SBC に関する詳細情報
 
-[正常性ダッシュボード] は、管理センター Microsoft Teams Skype for Business表示できます。
+[正常性ダッシュボード] は、管理センター Microsoft Teams表示Skype for Business表示できます。
 
 ## <a name="overall-health"></a>全体的な正常性
 
@@ -40,7 +40,7 @@ ms.locfileid: "54327672"
 
  ![正常性ダッシュボードの統計情報を表示する](media/direct-routing-dashboard-stats1.png)
 
-- **ダイレクト ルーティングの概要** - システムに登録されている SBC の総数が表示されます。 登録は、テナント管理者が New-CsOnlinePSTNGateway コマンドを使用して SBC を追加したNew-CsOnlinePSTNGatewayします。 SBC が PowerShell で追加されたが、接続されていない場合、正常性ダッシュボードには、正常性ダッシュボードの状態が表示されます。
+- **ダイレクト ルーティングの概要** - システムに登録されている SBC の総数が表示されます。 登録は、テナント管理者が New-CsOnlinePSTNGateway コマンドを使用して SBC を追加New-CsOnlinePSTNGatewayします。 SBC が PowerShell で追加されたが、接続されていない場合は、正常性ダッシュボードに問題の状態が表示されます。
 
 - **SBC** - ペアの SBC の FQDN。
 
@@ -64,9 +64,9 @@ ms.locfileid: "54327672"
 
    [警告] メッセージをクリックすると、右側のポップアップ ウィンドウに詳細な問題の説明と、問題を解決する方法に関する推奨事項を確認できます。
 
-- **SIP オプションの状態** – 既定では、SBC はオプション メッセージを毎分送信します。 この構成は、SBC ベンダーによって異なる場合があります。 直接ルーティングは、SIP オプションが送信されていない場合、または構成されていない場合に警告します。 SIP オプションの監視と、SBC を機能していないとマークできる状態の詳細については、「ダイレクト ルーティングの監視とトラブルシューティング」を [参照してください](direct-routing-monitor-and-troubleshoot.md)。
+- **SIP オプションの状態** – 既定では、SBC はオプション メッセージを毎分送信します。 この構成は、SBC ベンダーによって異なる場合があります。 直接ルーティングは、SIP オプションが送信されていない場合、または構成されていない場合に警告します。 SIP オプションの監視と、SBC を機能していないとマークできる条件の詳細については、「ダイレクト ルーティングの監視とトラブルシューティング」を [参照してください](direct-routing-monitor-and-troubleshoot.md)。
 
-- **詳細な SIP オプション** の状態 - SIP オプション フローに問題があるだけでなく、正常性ダッシュボードにはエラーの詳細な説明も表示されます。 [警告] メッセージをクリックすると、説明にアクセスできます。 右側のポップアップ ウィンドウに、詳細なエラーの説明が表示されます。
+- **詳細な SIP オプション** の状態 - SIP オプション フローに問題があるだけでなく、正常性ダッシュボードにはエラーの詳細な説明も表示されます。 [警告] メッセージをクリックすると、説明にアクセスできます。 右側のポップアップ ウィンドウには、詳細なエラーの説明が表示されます。
 
    SIP オプションの状態メッセージに指定できる値は次のとおりです。
 
@@ -76,7 +76,7 @@ ms.locfileid: "54327672"
 
     - 警告、SIP メッセージは構成されていません-SIP オプションを使用したトランク監視は有効にされていません。 Microsoft 通話システムでは、SIP オプションとトランスポート層セキュリティ (TLS) ハンドシェイク監視を使用して、接続されているセッション ボーダー コントローラー (SBC) の正常性をアプリケーション レベルで検出します。 このトランクにネットワーク レベルで (ping で) 到達できるが、証明書の有効期限が切れているか、SIP スタックが機能しない場合、問題が発生します。 このような問題を早期に特定するには、SIP オプションの送信を有効にしてください。 SBC 製造元のドキュメントを確認して、SIP オプションの送信を構成します。
 
-- **同時呼び** 出しの容量 - -MaxConcurrentSessions パラメーターで New- または Set-CsOnlinePSTNGateway コマンドを使用して、SBC が処理できる同時呼び出しの制限を指定できます。 このパラメーターは、特定の SBC を使用してダイレクト ルーティングによって送信または受信された呼び出しの数を計算し、制限セットと比較します。 注: SBC が異なる PBX の呼び出しも処理する場合、この数は実際の同時呼び出しを表示しません。
+- **同時呼び** 出しの容量 - -MaxConcurrentSessions パラメーターで New または Set-CsOnlinePSTNGateway コマンドを使用して、SBC が処理できる同時呼び出しの制限を指定できます。 このパラメーターは、特定の SBC を使用してダイレクト ルーティングによって送信または受信された呼び出しの数を計算し、制限セットと比較します。 注: SBC が異なる PBX の呼び出しも処理する場合、この数は実際の同時呼び出しを表示しません。
 
 ## <a name="detailed-information-for-each-sbc"></a>各 SBC の詳細情報
 

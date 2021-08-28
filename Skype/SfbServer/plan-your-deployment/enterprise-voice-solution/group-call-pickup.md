@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: グループ通話ピックアップの計画は、Skype for Business Server エンタープライズ VoIPユーザーが最初に他のユーザーを対象とした通話に応答することを可能にしています。
-ms.openlocfilehash: 8a4d057a2c668590a90e951000a39f40f7ae55e62a7c70fe7f670661acd5474c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1127c1bb01e39d784f82dd7d451f3445f4210510
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345524"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590121"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>グループ通話ピックアップの計画 (Skype for Business
  

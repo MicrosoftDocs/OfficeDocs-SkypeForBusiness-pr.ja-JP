@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
 description: モルドバでMicrosoft 365およびOffice 365サービスSkype for BusinessおよびMicrosoft Teams情報を確認します。
-ms.openlocfilehash: ec4c3e920e335a0b92a67246c823e644b7bfa81d65a7067f9deba2dfe565ad9b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7fe5633f7ca2756b8e6611f1c44fabc4ff8c0c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322739"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589801"
 ---
 # <a name="availability-in-moldova"></a>モルドバでの利用可能性
 
@@ -84,7 +84,7 @@ ms.locfileid: "54322739"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

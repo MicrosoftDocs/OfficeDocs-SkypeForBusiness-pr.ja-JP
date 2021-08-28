@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,18 +22,18 @@ ms.custom:
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 29fad24fd9e6f3ea018b9e96f3390141c5281e3b72de91076495031a7e3486ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7616e13f81b2b8ec204409f7a90e275dab795742
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342632"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592941"
 ---
 # <a name="peer-to-peer-activity-report"></a>ピアツーピア アクティビティ レポート
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-[**レポート]** ダッシュボードには、組織内の製品のMicrosoft 365またはOffice 365アクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば **、Skype for Business** ピアツーピア アクティビティ レポートを使用して、ユーザーが IM、音声、ビデオ、アプリケーション共有、ファイルの転送を使用している量を確認できます。 
+[**レポート]** ダッシュボードには、組織内のMicrosoft 365またはOffice 365アクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば **、Skype for Business** ピアツーピア アクティビティ レポートを使用して、ユーザーが IM、音声、ビデオ、アプリケーション共有、ファイルの転送を使用している量を確認できます。 
 
 「レポートの概要 [」を参照してください](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
@@ -44,15 +44,15 @@ ms.locfileid: "54342632"
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Skype for Business ピアツーピア アクティビティ レポートを取得する方法
 
-1. [レポートの使用状況] の管理>**に**  >  **移動します**。
+1. 管理センターに移動し、[レポートの>**を**  >  **クリックします**。
     
-2. [使用状況 **] ページ** でSkype for Businessの [レポートの選択] ボックスの一覧で [ピアツーピア アクティビティ]  >  を選択します。  または **、[Skype for Business]** アクティビティ ウィジェットをクリックし、Skype for Businessリストの [ピアツーピア アクティビティSkype for Business **クリック** します。
+2. [使用状況 **] ページ** でSkype for Businessの [レポートの選択] リストで [ピアツーピア アクティビティ]  >  を選択します。  または、Skype for Business **アクティビティ** ウィジェットをクリックし、Skype for Businessリストの [ピアツーピア アクティビティSkype for Business **クリック** します。
 
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Skype for Business ピアツーピア アクティビティ レポートを解析する
 
 [ **アクティビティ**]、[ **ユーザー**]、[ **分**] のグラフを見ることで、Skype for Business ピアツーピア アクティビティの状況を確認できます。
   
-![Skypeを使用してピアツーピア レポートを作成します。](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
+![Skype付きピアツーピア レポートを作成します。](../images/82dec398-ca05-46c7-b0fe-affcbfc0ddd5.PNG)
   
 ***
 ![ナンバー 1](../images/sfbcallout1.png)<br/>**Skype for Business ピアツーピア アクティビティ** レポートでは、過去 7 日間、30 日間、90 日間、または 180 日間の傾向を確認できます。 ただし、レポート内の特定の日をクリックすると、テーブル (数値 7 を参照) に、レポートが生成された日付 (数値 2 を参照) までの 30 日間のデータが表示されます。
@@ -61,7 +61,7 @@ ms.locfileid: "54342632"
 > 特定の日の詳細をクリックすると、レポートが生成された日付までの 30 日間のデータだけがテーブルに表示されます。
 
 ***
-![数値 2](../images/sfbcallout2.png)<br/>各レポートには、このレポートが生成された日付が表示されます。 レポートには、通常、アクティビティの時刻から 24 ~ 48 時間の待機時間が反映されます。 
+![数値 2](../images/sfbcallout2.png)<br/>各レポートには、このレポートが生成された日付が表示されます。 通常、レポートには、アクティビティの時刻から 24 ~ 48 時間の待機時間が反映されます。 
 ***
 ![ナンバー 3](../images/sfbcallout3.png)<br/>[ **アクティビティ**] グラフの対話型グラフ データを使用して、使用状況の傾向を把握し、参加者がいた電話会議の合計数と、組織で開催された電話会議の種類を確認します。 組織全体の **IM、** オーディオ、**ビデオ**、アプリケーション共有、ファイル転送セッションの総数と種類が表示されます。 
 ***
@@ -105,11 +105,11 @@ ms.locfileid: "54342632"
     
 - [Skype for Business 電話会議開催者アクティビティ レポート](conference-organizer-activity-report.md) - ユーザーがどの程度 IM、音声/ビデオ、アプリケーション共有、Web、ダイヤルイン/アウト - サード パーティ、ダイヤルイン/アウト - Microsoft を使用した電話会議を開催しているかを確認できます。
     
-- [Skype for Business参加者アクティビティ レポートの作成](conference-participant-activity-report.md)参加している IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/アウト会議の数を確認できます。
+- [Skype for Business参加者アクティビティ レポートを作成する](conference-participant-activity-report.md)参加している IM、音声/ビデオ、アプリケーション共有、Web 会議、ダイヤルイン/アウト会議の数を確認できます。
     
 - [Skype for Business ユーザーのブロック レポート](users-blocked-report.md) - PSTN 通話の発信がブロックされている組織内のユーザーを確認できます。
     
-- [Skype for Business PSTN 使用状況レポート](pstn-usage-report.md)受信/送信呼び出しに費やされた分数と、これらの呼び出しのコストを確認できます。
+- [Skype for Business PSTN 利用状況レポート](pstn-usage-report.md)受信/送信呼び出しに費やされた分数と、これらの呼び出しのコストを確認できます。
     
 - [Skype for Business PSTN の利用分数プール レポート](pstn-minute-pools-report.md) - 組織内で今月中に消費された分数を確認できます。
 

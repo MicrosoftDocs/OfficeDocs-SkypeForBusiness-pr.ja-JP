@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeResultPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 description: 従来の展開と既存の展開のSkype for Business Server、[次へ] をクリックします。 トポロジ ビルダー結合ウィザードの実行の詳細については、「移行」のドキュメントの「Merge Using Topology Builder Merge Wizard」を参照してください。
-ms.openlocfilehash: ffb50c9ae3db24db26680c7e45ff69f53be0457f94bc6d98f44d221309f495f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ece0cc44e5183109a83ce650d1d3449e30c814d9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336907"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591491"
 ---
 # <a name="legacy-merge-results"></a>従来版のマージの結果
 

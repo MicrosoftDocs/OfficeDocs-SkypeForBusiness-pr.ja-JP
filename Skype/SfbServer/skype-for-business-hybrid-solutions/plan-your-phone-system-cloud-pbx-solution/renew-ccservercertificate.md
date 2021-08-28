@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: このRenew-CcServerCertificateコマンドレットは、有効期限が近い、または既に有効期限が切れているSkype for Business クラウド コネクタ エディションの証明書を更新します。 このコマンドは、Cloud Connector 2.0 Update-CcServerCertificate以降のリリースで変更されました。
-ms.openlocfilehash: 632807f8d6b8dda7b3df6639e8f6166e8ac5e6a22381646616a0637779a9159a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 564f947462248bb65c8514c9699f2f867312c365
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340733"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589941"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
@@ -55,9 +55,9 @@ Renew-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
-|Roles  <br/> |省略可能  <br/> |System.Array  <br/> | クラウド コネクタ サーバーの役割の配列。 <br/> |
+|役割  <br/> |オプション  <br/> |System.Array  <br/> | クラウド コネクタ サーバーの役割の配列。 <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: このトピックの手順に従って、1.4.1 以降の既存のSkype for Business クラウド コネクタ エディション構成を変更します。
-ms.openlocfilehash: 151408d48f7623d72d5af4f8fef605d9dcc7d690a915cc7e8454a91f051dd0f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d0771e1f6a62015cf040a899c88696016366e47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324186"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590011"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>既存のクラウド コネクタの展開構成の変更
 

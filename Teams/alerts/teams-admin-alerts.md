@@ -8,24 +8,24 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: vapati
 f1.keywords: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: ''
 ms.collection:
 - M365-collaboration
-description: 管理センターでTeamsアラートと通知の機能についてMicrosoft Teamsします。
+description: 管理センターでTeams通知機能について説明Microsoft Teamsします。
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 1afe0ae7c8045b6a7e1c8b6eaf6f0e179e76a59e674c3a21b323eb9f123fd810
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 38380adecf3ce54d12b06e74f4467e39697d67f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314273"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592361"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams監視とアラート
 
-管理センターでは、Microsoft Teamsの新しい監視Teams機能を利用できます。 Teams 管理センターの [通知&**アラート**] セクションで使用できるさまざまなルール セットを使用して、Teams機能を監視し、アラートを受信します。 たとえば、IP Phone、コラボレーション バーなどの Teams デバイスの正常性を、予期せずオフラインにした場合にアクティブに監視できます。  
+管理センターでは、Microsoft Teamsの新しい監視とアラートTeams使用できます。 Teams 管理センターの [通知] &**セクション** で使用できるさまざまなルールセットを使用して、Teams機能を監視し、アラートを受信します。 たとえば、IP Phone、コラボレーション バーなどの Teams デバイスが予期せずオフラインになる場合、その他のデバイスの正常性をアクティブに監視できます。  
 
 組織は、監視とTeamsを使用して、次の項目を実行できます。
 
@@ -35,17 +35,17 @@ ms.locfileid: "54314273"
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>監視とアラートを管理する方法
 
- アラート ルールを構成するには、Microsoft 365またはサービス管理者Teamsグローバル管理者である必要があります。 各[管理者ロールTeamsアクセス](../using-admin-roles.md)できるレポートの詳細については、「Teams 管理者ロールを使用Teams管理者ロールを使用して管理する」を参照してください。
+ アラート ルールを構成するには、Microsoft 365またはサービス管理者Teamsグローバル管理者である必要があります。 各[管理者ロールTeamsアクセス](../using-admin-roles.md)できるレポートの詳細については、「Teams Teams 管理者ロールを使用して管理者ロールTeams管理する」を参照してください。
 
 1. Teams 管理センターにサインインします。
-2. 左側のナビゲーションで、[通知と通知 **] &選択します**。
+2. 左側のナビゲーションで、[通知とアラート **] &選択します**。
 3. [ルール] から構成するルールを **選択します**。
 
 ## <a name="teams-monitoring-rules-reference"></a>Teams監視ルール リファレンス
 
-さまざまな監視機能と構成機能を追加Teams監視エクスペリエンスを引き続き追加および改善しています。 管理センターで現在使用できるTeams監視ルールの一覧をTeamsします。
+さまざまな監視機能と構成機能を追加Teams監視エクスペリエンスの追加と改善を続けて行っています。 管理センターで現在使用できるTeams監視ルールの一覧をTeamsします。
 
 
 |ルール  |監視機能|監視対象 |
 |---------|---------|---------|
-|[デバイスの正常性状態](device-health-status.md)  |Teamsデバイス | ProデバイスがオフラインになTeamsデバイスをアクティブに監視します。|
+|[デバイスの正常性状態](device-health-status.md)  |Teamsデバイス | ProデバイスがオフラインTeamsデバイスをアクティブに監視します。|

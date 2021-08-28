@@ -10,7 +10,7 @@ ms.reviewer: ''
 search.appverid: MET150
 description: Microsoft Teams 用の Moodle オープンソース学習管理システム (LMS) アプリをインストールして構成する方法について説明します。
 keywords: Teams の Moodle アプリ統合プラグイン
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fca7bc34eeaf0f7b2c6bd552038b9b2567c872351d91c264936ec9072957bc2b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 061978876e9e8c092f19049ca5f44dd81a9b1012
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344020"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592303"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Microsoft Teams と統合された Moodle のインストール
 
@@ -127,7 +127,7 @@ Moodle プラグインのインストール方法の詳細については、「[
     * OpenID Connect を有効にするには、**[認証の管理]** リンクをクリックし、**OpenId Connect** 行が灰色表示されている場合は目のアイコンをクリックします。
     * 次に、フレームの埋め込みを有効にする必要があります。 **HTTP セキュリティ** リンクをクリックしてから、**[フレームの埋め込みを許可する]** の横にあるチェックボックスをクリックします。
     * 次の手順は、Moodle API 機能を有効にする Web サービスを有効にすることです。 **[高度な機能]** リンクをクリックし、**[Web サービスを有効にする]** の横のチェックボックスがオンになっていることを確認します。
-    * 最後に、外部サービスまたはサービスの外部サービスを有効Microsoft 365必要Office 365。 次に、**[外部サービス]** リンクをクリックします。
+    * 最後に、外部サービスに対して外部サービスを有効Microsoft 365またはOffice 365。 次に、**[外部サービス]** リンクをクリックします。
         * **Moodle Office 365 Web サービス** 行の **[編集]** をクリックします。
         * **[有効]** の横にあるチェックボックスをオンにして、**[変更の保存]** をクリックします
     * 次に、認証されたユーザー権限を編集して、Web サービス トークンを作成できるようにする必要があります。 **[役割「認証されたユーザー」の編集]** リンクをクリックします。 下にスクロールして、**[Web サービス トークンを作成する]** 機能を見つけ、**[許可]** チェックボックスをオンにします。
@@ -153,7 +153,7 @@ Microsoft Teams 用の無料の Moodle アシスタント ボットは、教師�
 1. **[Microsoft アプリケーション登録ポータル]** リンクをクリックして、Microsoft ID でログインします。
 1. アプリの名前を入力します (例: MoodleBot)、**[作成]** ボタンをクリックします。
 1. **アプリケーションの ID** をコピーして、**[Teams 設定]** ページの **[ボット アプリケーションの ID]** フィールドに貼り付けます。
-1. **[新しいパスワードを生成する]** ボタンをクリックします。 生成されたパスワードをコピーし、[Team 設定] ページの **[Bot Application Password]** **フィールドに貼り付** けます。
+1. **[新しいパスワードを生成する]** ボタンをクリックします。 生成されたパスワードをコピーし、[Team 設定] ページの **[Bot Application Password]** フィールド **に貼り付** けます。
 1. フォームの一番下までスクロールし、**[変更の保存]** をクリックします。
 
 アプリケーションの ID とパスワードを生成したので、ボットを Azure に展開します。 **[Azure に配置する]** ボタンをクリックし、必要な情報をフォームに入力します (ボット アプリケーションの ID、ボット アプリケーションのパスワード、および Moodle シークレットは **[Teams 設定]** ページにあり、Azure の情報は **[セットアップ]** ページにあります)。 フォームに入力したら、チェックボックスをクリックしてご契約条件に同意し、[**購入**] ボタンをクリックします (すべての Azure リソースが無料利用枠に展開されます)。

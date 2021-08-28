@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype for Business Serverスクリーン共有 (VbSS) の計画と構成に関する情報を確認する
-ms.openlocfilehash: 0dacf7372a0c72d8cdaf01c1e3b12564fb5580a4526738f401d2227983c25c01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349279"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591131"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Skype for Business Server のビデオベースの画面共有 
  
@@ -36,7 +36,7 @@ Skype for Business Server 1 対 1、および 1 対多 (マルチパーティ) �
 
 VbSS への切り替えは、次の 3 つの重要な改善を目的とします。
   
-1. 画面共有を行う (最大 5%)RDP に比べて信頼性が高い。
+1. RDP 単独と比較して、画面共有 (最大 5%) の信頼性を高くします。
 
 2. セッションのセットアップとビデオ エクスペリエンスを RDP 単独と比較して高速化します (半分の時間でセットアップし、1 秒あたりのフレーム数が 6:1 向上しました)。
 
@@ -68,7 +68,7 @@ VbSS への切り替えは、次の 3 つの重要な改善を目的とします
   
 **Application Server QoS/VbSS 必須設定**
 
-|**Property**|**ポート値**|**プロトコル**|
+|**プロパティ**|**ポート値**|**プロトコル**|
 |:-----|:-----|:-----|
 |AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
