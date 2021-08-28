@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: '概要: サーバー メディア品質傾向レポートの詳細については、Skype for Business Server。'
-ms.openlocfilehash: 48be49557e686b69d5b601da5d25ebb161b7ac12f97d1ef003ddc7c984902061
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 678da5923c2f295124b08fc242b758dbbfb55679
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326403"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623609"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>サーバー メディア品質傾向レポート (Skype for Business Server
  

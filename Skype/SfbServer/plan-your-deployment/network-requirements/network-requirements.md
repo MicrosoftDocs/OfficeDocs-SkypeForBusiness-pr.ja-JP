@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '概要: ネットワーク コンポーネントを実装する前に、以下のネットワーク コンポーネントの考慮事項をSkype for Business Server。'
-ms.openlocfilehash: dc2e56c1c918a9ebdaf8a40bfcdb6530fae283b6b2733b4def890c6b26630c29
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 272ac60f4322d1d9153a6518e20d02c07e066def
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323009"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623579"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>ネットワーク要件を計画Skype for Business
 
@@ -142,7 +142,7 @@ G.722 コーデックのステレオ バージョンは、Lync Room System に�
 
 |**ビデオ コーデック**|**解像度と縦横比**|**最大ビデオ ペイロード ビット レート (Kbps)**|**最小ビデオ ペイロード ビット レート (Kbps)**|
 |:-----|:-----|:-----|:-----|
-|H.264  <br/> |320x180 (16:9)  <br/> 212x160 (4:3)  <br/> |250  <br/> |15  <br/> |
+|H.264  <br/> |320x180 (16:9)  <br/> 212x160 (4:3)  <br/> |250  <br/> |15   <br/> |
 |H.264/RTVideo  <br/> |424x240 (16:9)  <br/> 320x240 (4:3)  <br/> |350  <br/> |100  <br/> |
 |H.264  <br/> |480x270 (16:9)  <br/> 424x320 (4:3)  <br/> |450  <br/> |200  <br/> |
 |H.264/RTVideo  <br/> |640x360 (16:9)  <br/> 640x480 (4:3)  <br/> |800  <br/> |300  <br/> |
@@ -150,7 +150,7 @@ G.722 コーデックのステレオ バージョンは、Lync Room System に�
 |H.264  <br/> |960x540 (16:9)  <br/> |2000  <br/> |500  <br/> |
 |H.264/RTVideo  <br/> |1280x720 (16:9)  <br/> |2500  <br/> |700  <br/> |
 |H.264  <br/> |1920x1080 (16:9)  <br/> |4000  <br/> |1500  <br/> |
-|H.264/RTVideo  <br/> |960x144 (20:3)  <br/> |500  <br/> |15  <br/> |
+|H.264/RTVideo  <br/> |960x144 (20:3)  <br/> |500  <br/> |15   <br/> |
 |H.264  <br/> |1280x192 (20:3)  <br/> |1000  <br/> |250  <br/> |
 |H.264  <br/> |1920x288 (20:3)  <br/> |2000  <br/> |500  <br/> |
 
@@ -194,7 +194,7 @@ Skype for Business Serverは、多くの解像度をサポートしています�
 |:-----|:-----|
 |オーディオ  <br/> |5   <br/> |
 |ビデオ (H.264 または RTVideo の一方のみを送受信)  <br/> |10   <br/> |
-|ビデオ (H.264 と RTVideo の両方を送受信)  <br/> |15  <br/> |
+|ビデオ (H.264 と RTVideo の両方を送受信)  <br/> |15   <br/> |
 
 容量計画では、次の 2 つの統計が関心を持っています。
 
@@ -227,7 +227,7 @@ Skype for Business Serverは、多くの解像度をサポートしています�
 |メイン ビデオ受信  <br/> |H.264 および RTVideo¹  <br/> |260  <br/> |8015  <br/> |該当なし  <br/> |
 |メイン ビデオ送信  <br/> |H.264 と RTVideo  <br/> |270  <br/> |8015  <br/> |該当なし  <br/> |
 |パノラマ ビデオ受信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2010 (最大解像度 1920x288 の場合)  <br/> |該当なし  <br/> |
-|パノラマ ビデオ送信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2515 ²  <br/> |該当なし  <br/> |
+|パノラマ ビデオ送信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2515 ²  <br/> |該当しない  <br/> |
 
 1. RT ビデオは、Lync 2010 クライアントが会議に接続されている H.264 に加えて送信されます。
 

@@ -9,22 +9,22 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 594fa8c6301cdea8be8ee137db13d9e163a9f670e3e826fed3869563238b5be4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbe3a22b86fa9f4b0773e1a7397bb206deb093e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636641"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
-組織内で会議室Microsoft Teamsデバイスを使用している場合は、柔軟な管理オプションがあります。  すべての Teams ソリューション、Microsoft Teams 管理センターを管理する同じ中央の場所でデバイスを自分で管理できます。また[、Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com)を使用して、管理責任を専用の専門家に転送することもできます。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
+組織内で会議室Microsoft Teamsデバイスを使用している場合は、柔軟な管理オプションがあります。  すべての Teams ソリューション、Microsoft Teams 管理センターを管理する中央の場所でデバイスを自分で管理できます。また[、Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com)を使用して、管理責任を専用の専門家に譲渡することもできます。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
 
 管理Microsoft Teamsを使用すると、次の方法を実行できます。
 
@@ -39,7 +39,7 @@ Teams ミーティング デバイスを管理するには、[Microsoft Teams管
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams 管理センターにある Teams ミーティングの概要ページ":::
 
 > [!IMPORTANT]
-> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、管理者、または Teams管理者Teams割り当てられている必要があります。
+> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、管理者、Teams、またはデバイス管理者Teams割り当てられている必要があります。
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Teams ミーティング デバイスに変更を加える
 
@@ -105,7 +105,7 @@ Teams ミーティング デバイスを管理するには、[Microsoft Teams管
 
 デバイスを削除すると、そのデバイスは組織から削除され、チーム管理センターのTeams ミーティング デバイスのリストに表示されなくなります。
 
-デバイスを削除した場合でも、有効なユーザー名とパスワードでデバイスが構成されている場合、Microsoft 365 に再度接続すると、デバイスは自動的に Teams Rooms デバイスの一覧に再追加されます。
+デバイスを削除した場合でも、有効なユーザー名とパスワードで構成されている場合、Microsoft 365 に再度接続すると、デバイスは自動的に Teams Rooms デバイスの一覧に再追加されます。
 
 1つまたは複数のデバイスを削除するには、次の操作を行います。
 

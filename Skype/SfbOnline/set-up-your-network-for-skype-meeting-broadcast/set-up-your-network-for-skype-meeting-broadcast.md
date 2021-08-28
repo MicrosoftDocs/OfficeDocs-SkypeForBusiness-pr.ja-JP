@@ -13,31 +13,31 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: Skype for Business Online の Skype 会議ブロードキャスト機能について学習します。この機能を使用すると、最大 10,000 人のオンライン ユーザーに会議やイベントをスケジュール、作成、ブロードキャストできます。
-ms.openlocfilehash: 068ff156badaff9231f6e477e2f41668ea8f99fd26531f2a08155c4ee4763c05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Skype for Business Online の Skype 会議ブロードキャスト機能について学習します。この機能を使用すると、最大 10,000 人のオンライン ユーザーに会議やイベントをスケジュール、生成、ブロードキャストできます。
+ms.openlocfilehash: 998fbb0a0c077507731d8db09521d49e5c5d635f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308028"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594851"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Skype 会議ブロードキャスト用にネットワークをセットアップする
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-[会議[ブロードキャスト] Skypeを有効Skype、](enable-skype-meeting-broadcast.md)ネットワークを構成する必要があります。 社外のユーザー向けウェビナーや他のブロードキャストを開催する場合は、この手順を実行します。
+[会議[ブロードキャスト] Skypeを有効](enable-skype-meeting-broadcast.md)Skype、ネットワークを構成する必要があります。 社外のユーザー向けウェビナーや他のブロードキャストを開催する場合は、この手順を実行します。
 
 > [!IMPORTANT]
-> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その時点でサービスへのアクセスが終了します。 お客様には、コミュニケーションとチームワークの中核となるMicrosoft Teamsクライアントであるクライアントへのアップグレードを開始Microsoft 365。
+> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その時点でサービスへのアクセスが終了します。 お客様には、コミュニケーションとチームワークのコア クライアントである Microsoft Teams へのアップグレードを開始Microsoft 365。
 
 ファイアウォールを構成する経験が十分でない場合は [、Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) パートナーを採用してこの手順を実行することを検討してください。
 
-この手順をスキップし、代わりにフェデレーションに別のビジネスを追加してブロードキャストに招待するには、「ユーザーが外部のユーザーに連絡することを許可する」の手順に従Skype for Business[します](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)。
+この手順をスキップし、代わりにフェデレーションに別のビジネスを追加してブロードキャストに招待するには、「ユーザーが外部ユーザーに連絡することを許可する」の手順に従Skype for Business[します](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)。
 
 ## <a name="step-1-set-up-allowed-domains"></a>手順 1: 許可されているドメインを設定する
 
@@ -61,7 +61,7 @@ ms.locfileid: "54308028"
 
 ### <a name="method-2-use-windows-powershell"></a>方法 2: Windows PowerShell
 
-- [スタート]**メニューの [** ファイル名] を右 **クリックWindows PowerShell** 管理者として **実行] をクリックします**。 このウィンドウ **Windows PowerShell、** 各行を入力し、Enter キーを押します。
+- [スタート]**メニューの [** ファイル名] を右 **クリックWindows PowerShell** 管理者として **実行] をクリックします**。 [Windows PowerShellウィンドウ **で**、各行を入力し、Enter キーを押します。
 
   ```PowerShell
   $r = New-CsEdgeDomainPattern -Domain "noammeetings.lync.com"
@@ -91,13 +91,13 @@ ms.locfileid: "54308028"
 
 セットアップ プロセスの 2 番目の手順では、最初に必要なドメインを追加してから、Skype 会議ブロードキャストを機能するために必要な IP アドレスと URL を追加します。
 
-- **必要なエンドポイント URL Skype for Business IP** アドレスを追加するには、 で必要な URL を確認 [します](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)。
+- オンライン エンドポイント URL Skype for Business IP アドレスに必要な URL を追加します。このページで、必要な URL **を確認**[します](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)。
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>ハイブリッド展開Skype組織で会議ブロードキャストをセットアップする
 
-Skype for Business Online 組織と Lync Server 2010、Microsoft Lync Server 2013、および Skype for Business Server 2015 のオンプレミス展開を使用し、オンラインとオンプレミスの両方のユーザーを持っている場合は、オンプレミスの組織が Skype for Business Online と通信し、すべてのユーザーが Skype 会議ブロードキャストに参加するために、上記の手順に加えて必要なセットアップ手順もあります。 これらの要件を確認するには、「会議ブロードキャスト用にオンプレミスデプロイを構成[するSkype参照してください](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)。
+Skype for Business Online 組織と Lync Server 2010、Microsoft Lync Server 2013、および Skype for Business Server 2015 のオンプレミス展開を使用し、オンラインとオンプレミスの両方のユーザーを持っている場合は、オンプレミスの組織が Skype for Business Online と通信し、すべてのユーザーが Skype 会議ブロードキャストに参加するために、上記の設定手順に加えて必要なセットアップ手順もあります。 これらの要件を確認するには、「会議ブロードキャスト用にオンプレミスのデプロイを構成[Skype参照してください](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype 会議ブロードキャストを有効にする](enable-skype-meeting-broadcast.md)
 

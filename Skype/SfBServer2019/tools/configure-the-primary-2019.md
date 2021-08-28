@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: プライマリ管理サーバーを構成し、2019 System Center Operations Manager をインストールし、管理パックをインポートSkype for Business Serverします。'
-ms.openlocfilehash: f7fd7350cb4cf5a9697e789806c963f4fbe46636
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 4e0d8a1176beb9d5c82418b65c1a4ce67d587c6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372237"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594901"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype for Business Server: プライマリ管理サーバーを構成する
 

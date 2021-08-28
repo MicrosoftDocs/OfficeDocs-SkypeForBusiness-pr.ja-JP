@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: この記事では、サービスを実装するための利点、計画上の考慮事項、および要件Microsoft クラウド ボイスメール説明します。 構成方法の詳細については、「クラウド ボイスメール構成」を参照クラウド ボイスメール。
-ms.openlocfilehash: 7a2fea02417a271e3858adff435a2406fda8c5ae
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: df9675c7ebe36f73190240dc612ce83dd0de2263
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407166"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594871"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>オンプレミス ユーザークラウド ボイスメールサービスを計画する
 

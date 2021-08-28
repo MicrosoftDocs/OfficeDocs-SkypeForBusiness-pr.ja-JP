@@ -8,19 +8,19 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Frontline Worker オンボード ウィザードを使用して、組織内のフロントラインワーカーやマネージャーに合わせて調整された Teams でエクスペリエンスをすばやくデプロイする方法について学習します。
-localization_priority: Normal
+description: Frontline Worker オンボード ウィザードを使用して、組織内のフロントライン ワーカーやマネージャーに合わせてカスタマイズされた Teams でエクスペリエンスをすばやくデプロイする方法について学習します。
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e73a4c4008d028e564c25b5842c7b59e2a57b
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: da44a5eb25e56a974214472782e424cda735b6dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365919"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636805"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Frontline Worker オンボード ウィザードを使用して、フロント ラインの従業員を稼働させます。
 
@@ -29,18 +29,18 @@ ms.locfileid: "58365919"
 
 ## <a name="overview"></a>概要
 
-フロント ライン ワーカーのオンボーディング ウィザードは、Microsoft 365 管理センターにフロントライン ワーカーを簡単にオンボードできます。 ウィザードを使用すると、最前線の従業員に合わせてMicrosoft Teamsエクスペリエンスをすばやくデプロイできます。 ウィザードを使用すると、組織内のフロントライン ワーカー向Teamsのパイロット 展開を簡単に開始できます。
+フロント ライン ワーカーのオンボーディング ウィザードは、Microsoft 365 管理センターに対するフロントライン ワーカーのオンボードを簡略化します。 ウィザードを使用すると、最前線の従業員に合わせてMicrosoft Teamsエクスペリエンスをすばやくデプロイできます。 ウィザードを使用すると、組織内のフロントライン ワーカー向Teamsのパイロット 展開を簡単に開始できます。
 
 ウィザードでは、フロントライン ワーカーのチームが設定され、各チーム メンバーにライセンスと [ポリシー](manage-policy-packages.md) パッケージが割り当てされます。 チームを最初から作成するか、チーム テンプレート[](get-started-with-teams-templates-in-the-admin-console.md)から作成し、ユーザーを追加してロールを割り当てることができます。 ロールによって、ウィザードが各ユーザーに割り当てるポリシー パッケージが決定されます。
 
-ウィザードは、少なくとも 1 つの F ライセンスを持つすべてのMicrosoft 365使用できます。 ウィザードは、組織全体の異なる場所やサイトで、Teamsに展開する必要がある回数実行できます。
+ウィザードは、少なくとも 1 つの F ライセンスを持つすべてのMicrosoft 365使用できます。 組織全体の異なる場所またはサイトで、Teamsに展開する必要がある回数、ウィザードを実行できます。
 
 > [!NOTE]
-> このウィザードを使用すると、フロント ライン ワーカーをすぐにオンボードして、TeamsをMicrosoft 365 管理センター。 スクリプトを使用してフロントライン Teamsにデプロイする方法の詳細については[、「Frontline Worker](flw-scripted-deployment.md)に対して大規模に Teams をプロビジョニングする方法」を参照してください。
+> このウィザードを使用すると、フロント ライン ワーカーをすばやくオンボードして、TeamsをMicrosoft 365 管理センター。 スクリプトを使用してフロントライン Teamsにデプロイする方法の詳細については[、「Frontline Worker](flw-scripted-deployment.md)の大規模な Teams をプロビジョニングする方法」を参照してください。
 
 ## <a name="run-the-wizard"></a>ウィザードを実行する
 
-1. 左側のナビゲーションで、[セットアップ] [Microsoft 365 管理センター](https://admin.microsoft.com/)を **選択します**。 [アプリと **メール] セクションに移動** し **、[Get your frontline workforce up and running]** の [表示] を **選択します**。 ここでは、フロント ライン ワーカーが提供する機能Microsoft 365詳細を確認できます。
+1. 左側のナビゲーションで、[セットアップ][をMicrosoft 365 管理センター](https://admin.microsoft.com/)選択 **します**。 [アプリと **メール] セクションに移動** し **、[Get your frontline workforce up and running]** の [表示] を **選択します**。 ここでは、フロントライン ワーカーが提供する機能Microsoft 365詳細を確認できます。
 
 2. 準備ができたら、[開始] を **選択して** ウィザードを実行します。
 
@@ -71,7 +71,7 @@ ms.locfileid: "58365919"
 ウィザードを実行した後は、次の点が重要です。
 
 - フロントラインの従業員とマネージャーに、そのユーザーにライセンスが割り当てられているTeamsします。
-- 共有デバイスを使用している場合は、それらのTeamsデバイスにインストールされていることを確認します。 組織で "自分のデバイスを持ち込む" モデルを使用している場合は、フロントラインの従業員とマネージャーに、デバイスにデバイスをダウンロードしてインストールする必要Teams知らせる必要があります。
+- 共有デバイスを使用している場合は、それらのデバイスTeamsインストールされていることを確認します。 組織で "自分のデバイスを持ち込む" モデルを使用している場合は、フロントラインの従業員とマネージャーに、デバイスにデバイスをダウンロードしてインストールする必要Teams知らせる必要があります。
 
 フロントラインの従業員が Teams を初めて開くと、Teams 内のすべてのチャットとチャネル、通話、タスク管理を含む、カスタマイズされた最初の実行エクスペリエンスが提供されます。
 

@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.ClientCapacity
 - ms.lync.plan.ClientCapacity
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 description: モバイル Skype for Business Server機能は、モバイル Skype機能をサポートします。 詳細については、「Planning for Mobility」を参照してください。
-ms.openlocfilehash: 5f7ed387e163c5eb9ad63fabd9b5811841b504de2ae9a1f8d980ac3c2d3b9ad9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4ee155d492e47cb834758e8ba9894805643c1198
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344986"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602712"
 ---
 # <a name="skype-for-business-server-client-settings-planning-tool"></a>Skype for Business Serverクライアント設定計画ツール
 

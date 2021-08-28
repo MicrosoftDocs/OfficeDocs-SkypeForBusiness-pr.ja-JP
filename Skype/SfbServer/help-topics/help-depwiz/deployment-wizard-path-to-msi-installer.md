@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMSIPath
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 description: 展開ウィザードを使用して 2015 をインストールする方法のSkype for Business Server、「Install Skype for Business Server 2015」を参照してください。
-ms.openlocfilehash: 5b1a89e71f7fe08d662e07e4f26958cd7a02f52862c85d82f9bcfd18e993c320
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9fc33418c98d64e36756a84e3a4b987b59774478
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301633"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616013"
 ---
 # <a name="deployment-wizard-path-to-msi-installer"></a>展開ウィザード: MSI インストーラーのパス
  

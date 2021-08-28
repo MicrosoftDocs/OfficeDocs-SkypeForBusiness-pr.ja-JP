@@ -9,23 +9,23 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 管理単位の機能を使用する方法については、Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93add1771e76f6640b6f1fde3ee6e732499aa329
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 556f220c9ca250f014ae604c96cabf9ef0b0ca0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399378"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636793"
 ---
-# <a name="administrative-unit-functionality-for-device-management-in-teams"></a>デバイス管理の管理単位機能 (Teams
+# <a name="administrative-unit-functionality-for-device-management-in-teams"></a>Teams でのデバイス管理の管理単位Teams
 
-管理センターを使用して、デバイス管理用のロールベースのアクセスMicrosoft Teamsします。 管理センターを通じてデバイス管理の管理単位の概念Teamsしました。
+管理センターを使用して、デバイス管理用のロールベースのアクセスをMicrosoft Teamsします。 管理センターを通じてデバイス管理の管理単位の概念Teamsしました。
 
 管理単位の概念では、専用の管理者に特定のリソース セットへのアクセスを保証します。 管理単位は、すべてのリソースへのアクセスを制限します。 デバイスの管理に同じ機能Teams拡張できます。
 
@@ -48,7 +48,7 @@ Azure Portal で管理単位を作成し、それぞれの管理単位に管理�
 
 ロールの割り当ては、PowerShell で [Add-AzureADMSScopedRoleMembership コマンドレットを使用して実行](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0) できます。
 
-管理単位のユーザーにロールを割り当てた後、ユーザーはスコープを持つデバイスの管理Teams管理センターにサインインする必要があります。
+管理単位のユーザーにロールを割り当てた後、ユーザーは、スコープを持つデバイスの管理を開始Teams管理センターにサインインする必要があります。
 
 ## <a name="experience-for-administrative-unit-admin"></a>管理単位管理者のエクスペリエンス
 

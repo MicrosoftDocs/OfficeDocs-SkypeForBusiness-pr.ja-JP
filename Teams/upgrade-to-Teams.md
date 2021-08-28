@@ -1,5 +1,5 @@
 ---
-title: アプリケーションへのアップグレードの実装のMicrosoft Teams
+title: アプリケーションへのアップグレードの実装の概要Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 現在のデプロイに基づいて、Microsoft TeamsアップグレードパスをSkype for Businessします。
-localization_priority: Normal
+description: 現在のデプロイ環境に基づいて、Microsoft Teams最適なアップグレード パスSkype for Business決定します。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0794e855fac3f911b028c049289beaa13a571473f32f84509c6d219d92bdd78
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 726355c7edf145dec6eeaf9ec1904119c15a3275
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282480"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616133"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>アップグレードの実装の概要
 
@@ -55,9 +55,9 @@ ms.locfileid: "54282480"
 
 現在の環境に基づいて、開始点を選択します。  
 
-- Skype for Business Online から Teams にアップグレードする場合は **、「Skype for Business Online** から Teams にアップグレードする」の手順に [従います](./upgrade-to-teams-execute-skypeforbusinessonline.md)。
+- Skype for Business Online から Teams にアップグレードする場合は **、「Skype for Business Online** から Teams にアップグレードする」の手順 [に従います](./upgrade-to-teams-execute-skypeforbusinessonline.md)。
 
--  **Skype for Business** オンプレミス環境からアップグレードする場合は、ユーザーを Teams に移動する前に、オンプレミス環境とオンライン環境間の接続を設定するための追加の手順を実行する必要があります。 詳細については、「オンプレミスからオンプレミス[へのSkype for Businessアップグレード」を参照Teams。](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
+-  **Skype for Business** オンプレミス環境からアップグレードする場合は、ユーザーを Teams に移動する前に、オンプレミス環境とオンライン環境間の接続を設定するための追加の手順を実行する必要があります。 詳細については、「オンプレミスからオンプレミスへの[Skype for Businessアップグレード」を参照Teams。](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

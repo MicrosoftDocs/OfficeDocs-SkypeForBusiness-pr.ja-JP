@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: '概要: [ユーザー登録レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: 1202c18f831c36fcc4b3ce7073b15c1ee5aa1776060cde5098b41dcb4f635130
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6424d3b0c90bf8b9286f03f7997e286b38193d6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315593"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593681"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>ユーザー登録レポート (Skype for Business Server
  

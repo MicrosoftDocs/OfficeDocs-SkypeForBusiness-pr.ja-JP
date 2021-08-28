@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: '概要: [応答グループ] アプリケーションの詳細については、「Skype for Business Server。'
-ms.openlocfilehash: 4b0843d44a9e23756e9f4f8516fcaf1f543b94da45749416deb9f43fca0715ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6d065f8313a770ce05b10925c9c854cec7e256e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326423"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623629"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>[応答グループの使用状況] レポート (Skype for Business Server
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeploySSRSInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 description: 監視サーバー レポートの展開に必要な情報を Microsoft SQL Server 2008 R2、または Microsoft SQL Server 2012 レポート サービスに提供すると、[コマンドの実行] ページに、SQL Server Reporting Services にレポートをインストールするために発行されたコマンドの概要が表示されます。
-ms.openlocfilehash: b16d9e521fc0f876a0d5132948a12ab821beff7b90a22314e78b2621dd995a6d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a154bfdcd61413ef814e15316869af786cccc4d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330181"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615983"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (起動)
  

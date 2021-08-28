@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: この記事では、オンプレミス環境の使用停止後に属性を管理する方法について説明します。
-ms.openlocfilehash: 5f130cce4a464a2e7a7c1823d6b3d297931d02ab
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 9f78dbcfaf1c753d18cc2e85a6b209248c2feea8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365814"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636898"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>使用停止後に属性を管理する方法を決定する
 

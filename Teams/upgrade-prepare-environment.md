@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: アップグレードを開始する前に、環境とネットワークの準備Skype for BusinessをTeams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957f84ca8629dbc9effb440211220465f6be0640633638e70306c6e3dec6d0ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b12ed0ad9b662f4cc36a68ae7ee3b4340960517f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300733"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616143"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>アプリケーションにアップグレードする環境を準備Teams
 
@@ -38,12 +38,12 @@ ms.locfileid: "54300733"
 - [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-組織でアップグレードをTeamsするには、現在の環境とネットワークの準備Skype for Business検証することが重要です。 現在の環境を準備することで、ユーザー エクスペリエンスの品質を向上させるだけでなく、高品質のユーザー エクスペリエンスを今すぐTeams。 個々の手順を計画する時間を取って、デプロイを加速し、重要なアクション項目をスキップしていないとします。
+組織でアップグレードをTeamsするには、現在の環境とネットワークの準備Skype for Business検証することが重要です。 現在の環境を準備すると、ユーザー エクスペリエンスの品質を向上させるだけでなく、高品質のユーザー エクスペリエンスを今すぐTeams。 個々の手順を計画する時間を取って、デプロイを加速し、重要なアクション項目をスキップしていないとします。
 
 ユーザーの準備と並行してこれらのアクティビティを完了します。
 
-- [アップグレードの成功に必要](upgrade-prepare-IT-pros.md) な情報を確実に得るのを支援するために、IT スタッフを準備します。
-- 環境がすべての前提条件 を満[](upgrade-plan-journey-prerequisites.md)たしていることを確認し、サービスとサービス間の依存関係Microsoft 365またはOffice 365理解Teams。
-- [サンプル アンケートを](upgrade-plan-journey-evaluate-environment.md)使用して環境の検出を実行して環境を評価し、組織がアップグレードを成功にTeams。
-- [ネットワークを計画、](prepare-network.md)準備、およびネットワークがワークロードに対応するために必要な修復手順を実行して、ネットワークTeamsします。
-- [オンボーディング チェックリストを](upgrade-prepare-environment-prepare-service.md)使用してロールアウト用のサービスを準備し、Teams 構成でユーザーを Skype for Business から Teams への移行をサポートする準備が整います。
+- [アップグレードの成功に必要](upgrade-prepare-IT-pros.md) な情報を確実に得る IT スタッフを準備します。
+- 環境が すべての前提条件 を[](upgrade-plan-journey-prerequisites.md)満たしていることを確認し、サービスとサービス間の依存関係Microsoft 365またはOffice 365理解Teams。
+- [サンプル アンケートを使用](upgrade-plan-journey-evaluate-environment.md)して環境の検出を実行して環境を評価し、組織が環境へのアップグレード体験を成功にTeams。
+- [ネットワークの計画、](prepare-network.md)準備、およびワークロードの管理をサポートするために必要な修復手順を実行して、ネットワークTeamsします。
+- [オンボード チェックリストを](upgrade-prepare-environment-prepare-service.md)使用して、ロールアウト用のサービスを準備し、Teams 構成でユーザーを Skype for Business から Teams への移行をサポートする準備ができていることを確認します。
