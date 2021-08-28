@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTrunkRuleEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 292f04eca00d907e24d55e10a29d1642dd46966f623cc5510681242a06520780
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5a601dd1f1960bf2aa42d60469007920b66f515
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277052"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614307"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>変換ルール: 新規作成または現在の形式のままで編集
 

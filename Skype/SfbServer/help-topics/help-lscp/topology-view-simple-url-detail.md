@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.TopoSimpleUrlEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 9165395f84aff0c95b38efc959c692018a10eaeb18a88f640e5d86b3bb5fe7f9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4c90df3677c541775c7e7688f55eb1b7f36ce4d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331279"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626789"
 ---
 # <a name="topology-view-simple-url-detail"></a>トポロジ: 簡単な URL の詳細の表示
 

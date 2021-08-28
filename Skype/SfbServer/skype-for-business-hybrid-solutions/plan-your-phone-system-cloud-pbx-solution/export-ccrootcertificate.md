@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
 description: このExport-CcRootCertificateは、ルート CA 証明書をホスト サーバー上のローカル ファイルSkype for Business クラウド コネクタ エディションします。
-ms.openlocfilehash: 04ba7af5801f124a76e515b311a0507e3cbb764a6f2769d9f1d9080ec8c7d9d9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e00041088af39bf6f11abd5309ff293bd37bf38f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326253"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624999"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  
@@ -47,9 +47,9 @@ Export-CcRootCertificate -Path "C:\test"
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
-|Path  <br/> |必須  <br/> |System.String  <br/> |証明書が保存されるファイル パス。  <br/> |
+|パス  <br/> |必須  <br/> |System.String  <br/> |証明書が保存されるファイル パス。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>

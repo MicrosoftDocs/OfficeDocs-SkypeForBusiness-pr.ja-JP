@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: Skype for Business Server 2015 展開のファイル ストアとして現在機能しているファイル サーバーを削除する必要がある場合、または現在のファイル ストアを使用できない他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 次に、次の手順を実行する必要があります。
-ms.openlocfilehash: d57bfe10df36f200f927d4a2c9850eee0d21e9cf38724f31cc62bf84f76708e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 10571b398b6e39624c408f0e36baa317212f9b21
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307118"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614257"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>2015 年にファイル ストア データを新しいファイル ストアSkype for Business Serverする
 

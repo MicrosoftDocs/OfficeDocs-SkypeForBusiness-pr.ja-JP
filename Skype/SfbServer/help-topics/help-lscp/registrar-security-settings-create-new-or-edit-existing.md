@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SecRegistrarEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 73ae222a8884547f9a31b9ded8fa93f7fd3db19998d258e3b98d6064b9a50f47
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b218ae0c0c98b1506af4d6b479dafa0d9531b9cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305599"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600422"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>レジストラーのセキュリティ設定: 新規作成または現在の形式のままで編集
 

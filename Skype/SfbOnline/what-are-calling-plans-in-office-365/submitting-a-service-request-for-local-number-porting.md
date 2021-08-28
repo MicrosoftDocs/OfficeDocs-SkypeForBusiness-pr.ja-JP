@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelO365Support
 description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
-ms.openlocfilehash: ec95b6e49ccfafa3d0b320236543c4874be1f4c0dce53ec4112892c5dcece1e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8001463e233b8f927653bb998ea64299fd8b570b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281310"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600802"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>電話番号移行サービスのリクエストを発行する
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business Online に 999 を超える電話番号 (ユーザー、または有料または無料のサービス番号を含む) を転送する必要がある場合は、「組織の電話番号を管理する」を[参照してください](/microsoftteams/manage-phone-numbers-for-your-organization)。
+Skype for Business Online に 999 を超える電話番号 (ユーザー、または有料または無料のサービス番号を含む) を転送する必要がある場合は、「組織の電話番号を管理する」を参照[してください](/microsoftteams/manage-phone-numbers-for-your-organization)。
 
 > [!NOTE]
 > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 詳細については、「ビジー オプションをインストールして構成する方法」を参照Skype for Business Server。
-ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 58c70360a9e25ccefcd62181ab5a1a5b222ae9a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322399"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600682"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>デバイスのビジー オプションをインストールして構成Skype for Business Server
 
@@ -38,7 +38,7 @@ ms.locfileid: "54322399"
 
 ビジー オプション機能の詳細については、「プラン for Busy [Options for Skype for Business Server」 を参照してください](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
 
-## <a name="install"></a>インストール
+## <a name="install"></a>Install
 
 最新バージョンの更新プログラムがインストールSkype for Business Server最新の更新プログラムがインストールされていることを確認します。 これを行うには、まずすべてのサービスを停止し、次のようにSkype for Business Server更新プログラム インストーラーを実行します。
 
@@ -97,7 +97,7 @@ ms.locfileid: "54322399"
    Start-CsWindowsService
    ```
 
-## <a name="configure"></a>構成
+## <a name="configure"></a>Configure
 
 ビジー オプションを構成するには [、Set-CsBusyOptions コマンドレットを使用](https://technet.microsoft.com/library/8ffbb832-3e55-4d6c-9a7c-5ce2df22de2e.aspx) します。
 

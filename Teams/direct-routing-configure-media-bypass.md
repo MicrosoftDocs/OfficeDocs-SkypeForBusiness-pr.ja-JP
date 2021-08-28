@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: すべてのユーザーを一度に切り替電話システム、または段階的なアプローチ (推奨) を実装することで、Microsoft Teams のダイレクト ルーティングを使用してメディア バイパスを構成する方法について説明します。
+description: すべてのユーザーを一度に切り替電話システム、または段階的にアプローチ (推奨) を実装することで、Microsoft Teams のダイレクト ルーティングを使用してメディア バイパスを構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74cfdb0d0bd92849b062d84df20e4ca1428f4034b2e8864bfc89ff70b77c6c3c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbc893d3549e491d40268ae3417f5203d755ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284188"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598581"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを構成する
 
@@ -43,7 +43,7 @@ ms.locfileid: "54284188"
 
 - **すべてのユーザーを一度に切り替えます。** すべての条件が満たされている場合は、バイパス モードをオンにできます。 ただし、すべての実稼働ユーザーが同時に切り替えます。 トランクとポートを構成するときに最初に問題が発生する可能性があります。この場合、実稼働環境のユーザー エクスペリエンスが影響を受ける可能性があります。 
 
-- **段階的なアプローチ。(推奨)**。  同じ SBC 用の新しいトランクを (別のポートで) 作成し、テストし、新しいトランクを指すユーザーのオンライン音声ルーティング ポリシーを変更します。 
+- **段階的なアプローチ。(推奨)**。  同じ SBC 用の新しいトランクを (別のポートで) 作成し、テストし、ユーザーが新しいトランクを指すオンライン音声ルーティング ポリシーを変更します。 
 
   これは、スムーズな切り替えと中断のないユーザー エクスペリエンスが可能なので、推奨されるアプローチです。 この方法では、SBC の構成、新しい FQDN 名、ファイアウォールの構成が必要です。 証明書が両方のトランクをサポートしている必要があります。 SAN では、2 つの名前 **(sbc1.contoso.com** と **sbc2.contoso.com)** を持つ必要があります。または、ワイルドカード証明書を持っている必要があります。
 
@@ -60,7 +60,7 @@ ms.locfileid: "54284188"
 
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [ダイレクト ルーティングを使用してメディア バイパスを計画する](direct-routing-plan-media-bypass.md)
 

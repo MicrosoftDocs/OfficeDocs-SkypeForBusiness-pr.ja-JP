@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: ここでは、グローバル設定とオブジェクト、およびフォレストの準備中に作成するユニバーサル サービス グループとユニバーサル管理グループについて説明します。
-ms.openlocfilehash: 8a613b4f71d26f06d36543ef4ec10dab39442860b0435ccd84417624d495c9fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c21e6dfac6cd3b6a9bb3c0b6b040138e6d8f8a52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349729"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613997"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>フォレストの準備によって行われた変更Skype for Business Server
 
@@ -46,7 +46,7 @@ ms.locfileid: "54349729"
 
 **フォレストの準備時に作成される管理グループ**
 
-|**管理グループ**|**Description**|
+|**管理グループ**|**説明**|
 |:-----|:-----|
 |RTCUniversalServerAdmins  <br/> |このグループのメンバーは、すべてのサーバーの役割、グローバル設定、ユーザーなど、サーバーおよびプールの設定を管理できます。  <br/> |
 |RTCUniversalUserAdmins  <br/> |このグループのメンバーは、ユーザー設定を管理したり、あるサーバーまたはプールから、別のサーバーまたはプールにユーザーを移動したりできます。  <br/> |
@@ -56,7 +56,7 @@ ms.locfileid: "54349729"
 
 **フォレストの準備時に作成されるインフラストラクチャ グループ**
 
-|**インフラストラクチャ グループ**|**Description**|
+|**インフラストラクチャ グループ**|**説明**|
 |:-----|:-----|
 |RTCUniversalGlobalWriteGroup  <br/> |グローバル設定オブジェクトへの書き込みアクセスを許可Skype for Business Server。  <br/> |
 |RTCUniversalGlobalReadOnlyGroup  <br/> |グローバル設定オブジェクトへの読み取り専用アクセスを許可Skype for Business Server。  <br/> |
@@ -68,7 +68,7 @@ ms.locfileid: "54349729"
 
 **フォレストの準備時に作成されるサービス グループ**
 
-|**サービス グループ**|**Description**|
+|**サービス グループ**|**説明**|
 |:-----|:-----|
 |RTCHSUniversalServices  <br/> |フロントエンド サーバーとサーバーの実行に使用されるサービス Standard Edition含まれます。 このグループを使用すると、サーバーはグローバル設定と Active Directory Skype for Business Serverに対する読み取り/書き込みアクセスを許可します。  <br/> |
 |RTCComponentUniversalServices  <br/> |音声ビデオ会議サーバー、Web サービス、仲介サーバー、アーカイブ サーバー、監視サーバーの実行に使用されるサービス アカウントが含まれます。  <br/> |

@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: IP または公衆交換電話網 (PSTN) ゲートウェイの IPv4 または IPv6 アドレスを定義するには、[IPv4 を有効にする] または [IPv6 を有効にする] を選択します。[すべての構成済み IP アドレスを使用する] または [選択された IP アドレスのみにサービスの使用を制限する] のどちらかを選択できます。
-ms.openlocfilehash: dc202ad8be1b83eaeaf13b51dee80870fd1de5108eace1c71ed95e3fba1e4408
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03c1c26a9e320b5e783fb1d6baf2759570ab1b6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337067"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600472"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>IP または PSTN ゲートウェイの IP アドレスの定義
 

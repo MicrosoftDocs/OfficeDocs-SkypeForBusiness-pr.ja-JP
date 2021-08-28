@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '概要: 監視レポートを、ユーザーが使用するミラー データベースに関連付けるSkype for Business Server。'
-ms.openlocfilehash: 99b30eaf7388bfec71f55e2e3f1f784271a3258d1280953426291b1dbfe14750
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304359"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600662"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>監視レポートとミラー データベースの関連付けSkype for Business Server 
  

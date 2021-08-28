@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport ビューには、報告されたエラーに関する情報が格納されます。 各レコードは 1 つのエラー発生です。 このエラーは、フロントエンド サーバーで実行されている CDR エージェントによってキャプチャされます。またはクライアントから送信されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 324c22f58883207d49c0224043b8672560f1cf6e64551ca93b9ac43540d46ceb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b1461b8ee8657033802763cfa9d38b94448f93ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295384"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613857"
 ---
 # <a name="errorreport-view"></a>ErrorReport ビュー
  
@@ -27,8 +27,8 @@ ErrorReport ビューには、報告されたエラーに関する情報が格�
 |**列**|**データ型**|**詳細**|
 |:-----|:-----|:-----|
 |**ErrorTime** <br/> |日付型  <br/> |エラーが発生した時刻。エラー を一意に識別するために ErrorReportSeq と併用されます。  <br/> |
-|**ErrorReportSeq** <br/> |整数  <br/> |エラーを識別する ID 番号。エラーを一意に識別するために ErrorTime と併用されます。  <br/> |
-|**MsDiagId** <br/> |整数  <br/> |エラー レポートの診断 ID。  <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |エラーを識別する ID 番号。エラーを一意に識別するために ErrorTime と併用されます。  <br/> |
+|**MsDiagId** <br/> |int  <br/> |エラー レポートの診断 ID。  <br/> |
 |**FromUri** <br/> |nvarchar(450)  <br/> |エラーを発生したユーザーの URI。  <br/> |
 |**FromUriType** <br/> |nvarchar(256)  <br/> |エラーを発生したユーザーの URI の種類。 詳細については [、UriTypes テーブル](uritypes.md) を参照してください。 <br/> |
 |**FromTenant** <br/> |nvarchar(256)  <br/> |エラーを発生したユーザーのテナント。 詳細については [、「Tenants」テーブル](tenants.md) を参照してください。 <br/> |
@@ -38,19 +38,19 @@ ErrorReport ビューには、報告されたエラーに関する情報が格�
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |エラー レポートの対象だった会議の URI。  <br/> |
 |**ConferenceUriType** <br/> |nvarchar(256)  <br/> |エラー レポートのターゲットだった会議の URI の種類。 詳細については [、UriTypes テーブル](uritypes.md) を参照してください。 <br/> |
 |**SessionIdTime** <br/> |日付型  <br/> |エラー レポートを発生したセッション要求の時刻。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
-|**SessionIdSeq** <br/> |整数  <br/> |エラー レポートを発生したセッション要求を識別する ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |エラー レポートを発生したセッション要求を識別する ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |エラーが発生したセッションの SIP ダイアログ ID。 形式は次のとおりです。  <br/> dialog;from-tag;to-tag  <br/> このデータは、次の構文を使用してテキスト形式に変換できます。  <br/> cast(cast(ExternalId as varbinary(max)) as varchar(max))  <br/> |
 |**ClientVersion** <br/> |nvarchar(256)  <br/> |エラーを発生したユーザーが使用するクライアントのバージョン。  <br/> |
-|**ClientType** <br/> |整数  <br/> |エラーを発生したユーザーが使用するクライアント。 詳細については [、UserAgentDef の表](useragentdef.md) を参照してください。 <br/> |
+|**ClientType** <br/> |int  <br/> |エラーを発生したユーザーが使用するクライアント。 詳細については [、UserAgentDef の表](useragentdef.md) を参照してください。 <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |エラーを発生したユーザーが使用するクライアントのカテゴリの名前。  <br/> |
 |**Source** <br/> |nvarchar(256)  <br/> |エラーを発生させたサーバーの名前 (サーバー コンポーネントからレポートが送信された場合)。  <br/> |
 |**アプリケーション** <br/> |nvarchar(256)  <br/> |エラーを発生させたアプリケーションの名前 (サーバー コンポーネントからレポートが送信された場合)。  <br/> |
-|**ResponseCode** <br/> |整数  <br/> |エラー レポートを含む SIP メッセージのセッションに対する SIP 応答コード。  <br/> |
+|**ResponseCode** <br/> |int  <br/> |エラー レポートを含む SIP メッセージのセッションに対する SIP 応答コード。  <br/> |
 |**RequestType** <br/> |varchar(max)  <br/> |失敗した要求の種類。  <br/> |
 |**ContentType** <br/> |varchar(max)  <br/> |失敗した要求のコンテンツ タイプ。  <br/> |
 |**CallType** <br/> |nvarchar(256)  <br/> |セッションの種類。 詳細については[、2015 Skype for Business Serverの CallType](calltype.md)テーブルを参照してください。 <br/> |
 |**TelemetryId** <br/> |uniqueidentifier  <br/> |会議に関するさまざまなコンポーネントの参加時間情報に関係する一意の識別子。  <br/> |
-|**SetupTime** <br/> |整数  <br/> |特定のコンポーネントが会議に参加するのに必要な時間 (ミリ秒)。  <br/> |
+|**SetupTime** <br/> |int  <br/> |特定のコンポーネントが会議に参加するのに必要な時間 (ミリ秒)。  <br/> |
 |**IsCapturedByServer** <br/> |ビット  <br/> |エラー レポートがフロントエンド サーバーで実行されている CDR エージェントによってキャプチャされたのか、クライアントによって送信されたのかを示します。  <br/> |
 |**Flag** <br/> |smallint  <br/> |将来使用するために予約されています。  <br/> |
 |**MsDiagHeader** <br/> |varchar(max)  <br/> |エラーに関する追加情報。  <br/> |

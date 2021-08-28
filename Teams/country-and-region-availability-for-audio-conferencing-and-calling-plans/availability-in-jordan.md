@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスを示します。
-ms.openlocfilehash: 5bc1b62990011e7e24cc539ecca24e2f44c7bfd1614d627aa1f66f89bf900c2d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: ここでは、Microsoft 365とOffice 365、Skype for Business Microsoft Teamsサービスを紹介します。
+ms.openlocfilehash: 6cb407c2377087d55bf1350d4028c900cc6784b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351097"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598602"
 ---
 # <a name="availability-in-jordan"></a>ヨルダンでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスを示します。
+ここでは、Microsoft 365とOffice 365、Skype for Business Microsoft Teamsサービスを紹介します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -83,7 +83,7 @@ ms.locfileid: "54351097"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

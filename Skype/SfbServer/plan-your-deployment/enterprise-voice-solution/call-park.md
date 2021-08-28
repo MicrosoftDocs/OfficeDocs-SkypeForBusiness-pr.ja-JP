@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 通話を保留にし、Skype for Business Server エンタープライズ VoIPを部署に転送できる、通話パークの計画。 容量計画、サポートされている通話、サポートされているクライアントが含まれます。
-ms.openlocfilehash: 40f6b08512bd76401a8bb881429737f0da53be952e2774099e82396522b79aeb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306868"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625179"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>プラン for Call Park in Skype for Business
  

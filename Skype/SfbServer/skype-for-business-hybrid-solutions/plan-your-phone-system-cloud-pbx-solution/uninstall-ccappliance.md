@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: このUninstall-CcApplianceコマンドレットは、実行中のSkype for Business クラウド コネクタ エディションアプライアンスをホスト サーバーからアンインストールします。
-ms.openlocfilehash: f82459e71ee3c7eea88030a2f265f0076a633a280ee3182920e599402f69a96c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12a15e7bc338fc503a1fafbd6e3059f73dcd40d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344556"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624949"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
@@ -63,7 +63,7 @@ Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
 | Version <br/> | 省略可 <br/> |System.String  <br/> | ホスト サーバーからアンインストールされるクラウド コネクタのバージョン。 指定しない場合は、現在実行中のバージョンをアンインストールします。 <br/> |
 |Force  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |現在実行中のバージョンをアンインストールする場合は、仮想マシンをアンインストールする前に仲介サーバーとエッジ サーバー上のサーバーをドレインしてください。 "Force" スイッチを指定すると、ドレイン サービスが失敗した場合でも、仮想マシンはアンインストールされます。 このパラメーターは、現在実行中のバージョンをアンインストールする場合にのみ使用されます。  <br/> |

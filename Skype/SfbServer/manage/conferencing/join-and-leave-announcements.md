@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: '概要: 会議への参加を管理し、会議にアナウンスを残す方法についてSkype for Business Server。'
-ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f2219fc8d55485a4c34a8730fbec6b556d57b728
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290385"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625209"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>会議への参加を管理し、会議のアナウンスをSkype for Business Server
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoGatewayGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the VIS pool in Skype for Business Server 2015」を参照してください。
-ms.openlocfilehash: 26e55693b0ffd814928271a9c45d1b0db865daef8f9e0e5771b1c3f05e21964f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b29b9ebd759652e93b23e214f034474738df1742
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290692"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600082"
 ---
 # <a name="video-gateway-general-settings"></a>ビデオ ゲートウェイの全般設定
  
