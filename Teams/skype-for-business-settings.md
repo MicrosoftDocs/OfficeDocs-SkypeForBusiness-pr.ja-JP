@@ -19,15 +19,15 @@ ms.custom: ''
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 管理センターで機能の設定をSkype for Businessする方法Microsoft Teams確認します。
-ms.openlocfilehash: f05bdd7dfb53e75d5cc83945985dd6b511635d5ab5792afc0291b5349433ae22
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 管理センターで機能の設定Skype for Business管理Microsoft Teamsします。
+ms.openlocfilehash: e3679f80057349b60af9bc11b2aa43c3ceb6a431
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280562"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636441"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>管理Skype for Business管理センターでMicrosoft Teams設定を管理する
 
@@ -37,16 +37,16 @@ ms.locfileid: "54280562"
 
 管理者は、Microsoft Teams管理センターで、組織内Skype for Businessユーザー Skype for Business機能を管理します。 組織[の設定は](#manage-skype-for-business-settings-for-your-organization)、[Skype for Business] ページで管理できます。また、[ユーザー[](#manage-skype-for-business-settings-for-individual-users)の詳細] ページの [Skype for Business] タブで個々のユーザーの設定を管理できます。
 
-組織の共存モード **が** Skype for Business にしか設定されていない場合にのみ、Teams **表示されます**。 同様に、ユーザーの共存Skype for Businessモードが のみではない場合にのみ、ユーザーの [Teams]**タブが表示されます**。 共存モードの詳細については、「共存と相互[](teams-and-skypeforbusiness-coexistence-and-interoperability.md)運用性TeamsとSkype for Businessとアップグレードの設定」を[参照してください](setting-your-coexistence-and-upgrade-settings.md)。
+組織の共存モード **が** Skype for Business にしか設定されていない場合にのみ、Teams **表示されます**。 同様に、ユーザーの共存モードがSkype for Businessモードではない場合にのみ、ユーザーの [Teams]**タブが表示されます**。 共存モードの詳細については、「共存と相互[](teams-and-skypeforbusiness-coexistence-and-interoperability.md)運用性Teams Skype for Businessとアップグレード設定の設定」を[参照してください](setting-your-coexistence-and-upgrade-settings.md)。
 
 > [!NOTE]
-> Skype for Business設定は、以前は管理センターのレ **ガシ** ポータルMicrosoft Teamsでした。 レガシ ポータルの提供が取りやめ、管理のために、Teams管理センターのこれらの新しいSkype for Businessしました。
+> Skype for Business設定は、以前は管理センターのレガシ ポータルMicrosoft Teamsでした。 レガシ ポータルの提供が取りやめ、管理のために、Teams管理センターのこれらの新しい場所に設定Skype for Businessしました。
 
-グローバル管理者の[Azure AD 管理者](/azure/active-directory/roles/permissions-reference)ロールが割り当てられている必要があります。または、Skype for Business 管理センターでSkype for Business機能を管理するには、Microsoft Teams必要があります。
+グローバル管理者の[Azure AD 管理者](/azure/active-directory/roles/permissions-reference)ロールが割り当てられている必要があります。または、Skype for Business 管理センターでSkype for Business機能を管理Microsoft Teamsがあります。
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>組織Skype for Business設定を管理する
 
-管理センターの左側のナビゲーションMicrosoft Teams、[**組織全体の** 設定] に移動  >  Skype for Business。 ここから、組織内のすべてのユーザーにSkype会議ブロードキャスト、プレゼンス プライバシー、およびモバイル Skype for Business通知を構成および管理できます。
+管理センターの左側のナビゲーションMicrosoft Teams、[**組織全体の** 設定] に移動  >  Skype for Business。 ここから、組織内のすべてのユーザーにSkype会議ブロードキャスト、プレゼンス プライバシー、モバイル Skype for Business通知を構成および管理できます。
 
 ### <a name="skype-meeting-broadcast"></a>Skype 会議メディア
 
@@ -58,11 +58,11 @@ ms.locfileid: "54280562"
 
 :::image type="content" source="media/skype-for-business-settings-meeting-broadcast.png" alt-text="管理センター Skypeの会議ブロードキャスト設定のスクリーンショット":::
 
-- **Skypeブロードキャストの開始**: 組織の会議ブロードキャストSkype有効にするには、この設定をオンにします。 この機能を有効にした後、会議ブロードキャスト にネットワークをSkype[必要があります](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast)。
+- **Skypeブロードキャストの開始**: 組織の会議ブロードキャストSkype有効にするには、この設定をオンにします。 この機能を有効にした後、会議ブロードキャスト にネットワークをSkype[する必要があります](/skypeforbusiness/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast)。
 - **「プレビュー機能:** この機能を有効にする」を参照して、新機能に早期にアクセスします。
-- **開催者は匿名** 会議をスケジュールできます: 組織外のユーザーがサインインすることなく参加できるブロードキャスト イベントを開催者に作成する場合は、この設定をオンにします。 
-- **[会議Skype会議の** 記録]: 開催者と発表者が会議を記録するには、この機能をオンにしてください。  
-- **出席者向け** ヘルプデスク サポート URL: 会議中にヘルプが必要な場合に会議の出席者が使用できる組織のサポート URL を入力します。
+- **開催者は匿名** の会議をスケジュールできます: 組織外のユーザーがサインインせずに参加できるブロードキャスト イベントを開催者に作成する場合は、この設定をオンにします。 
+- **会議Skypeを記録する**: 開催者と発表者が会議を記録するには、この機能をオンにしてください。  
+- **出席者向けヘルプデスク** サポート URL: 会議中にヘルプが必要な場合に会議の出席者が使用できる組織のサポート URL を入力します。
 
 ### <a name="presence-and-mobile-notifications"></a>プレゼンスとモバイル通知
 
@@ -71,20 +71,20 @@ ms.locfileid: "54280562"
 <!-- Do not remove the bookmark link above. -->
 
 
-組織内のプレゼンス プライバシーとモバイル通知Skype for Businessを管理するには、次の設定を使用します。
+次の設定を使用して、組織Skype for Businessのプレゼンス プライバシーとモバイル通知を管理します。
 
 :::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="管理センターのプレゼンス設定のスクリーンショット":::
 
 #### <a name="presence"></a>プレゼンス
 
-既定では、Skype for Businessのユーザーは、他のユーザーのプレゼンス状態 ([利用可能]、[取り込み中]、または [Skype for Business] など) を表示できます。 次のいずれかを選択して、ユーザーのプレゼンスを表示できるユーザーをSkype for Businessします。
+既定では、Skype for Businessのユーザーは、他のユーザーのプレゼンス状態 ([利用可能]、[取り込み中]、または [離れた場所] など) をSkype for Businessできます。 次のいずれかを選択して、ユーザーのプレゼンスを表示できるユーザーをSkype for Businessします。
 
 - **プレゼンス情報を自動的** に表示する: ユーザーの [外部] または [ブロック] リストに追加されていない組織内のSkype for Business ユーザーは、そのユーザーのプレゼンスを確認できます。
-- **ユーザー** の連絡先にのみプレゼンス情報を表示する: [外部] または [ブロック] リストに追加されていないユーザーの連絡先リスト内のSkype for Businessユーザーは、そのユーザーのプレゼンスを表示できます。 ユーザーは、[ツール オプション] にアクセスSkype for Businessでこの設定 **設定**  >  **オーバーライド**  >  **できます**。
+- **ユーザー** の連絡先にのみプレゼンス情報を表示する: 外部リストまたはブロックリストに追加されていないユーザーの連絡先リスト内のすべての Skype for Business ユーザーは、そのユーザーのプレゼンスを表示できます。 ユーザーは、[ツール オプション] にアクセスSkype for Businessでこの設定 **設定**  >  **オーバーライド**  >  **できます**。
 
 #### <a name="mobile-notifications"></a>モバイル通知
 
-モバイル ユーザーが、プッシュ通知サービスをSkype for Business、インスタント メッセージ、ボイスメール メッセージ、および着信ミスに関するアラートを受信するかどうかを設定できます。 組織で使用されているモバイル デバイスに応じて **、Microsoft プッシュ通知サービス****、Apple Push Notification Service、** または両方を使用できます。
+モバイル ユーザーが、プッシュ通知サービスSkype for Business受信および欠落したインスタント メッセージ、ボイスメール メッセージ、および着信ミスに関するアラートを受信するかどうかを設定できます。 組織で使用されているモバイル デバイスに応じて **、Microsoft プッシュ通知サービス****、Apple Push Notification Service、** または両方を使用できます。
 
 以下の点について留意してください。
 
@@ -101,7 +101,7 @@ ms.locfileid: "54280562"
 <a name="sfb-user-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-個々のユーザーの Skype for Business 設定を管理するには、Teams 管理センターの左側のナビゲーションで、[ユーザー]に移動し、ユーザーの表示名をクリックしてユーザーの詳細ページを開き、[Skype for Business の設定]**タブを** 選択します。ここから、ユーザーの外部アクセスと会議の設定を構成できます。
+個々のユーザーの Skype for Business 設定を管理するには、Teams 管理センターの左側のナビゲーションで、[ユーザー] に移動し、ユーザーの表示名をクリックしてユーザーの詳細ページを開き、[Skype for Businessの設定] タブを選択します。ここから、ユーザーの外部アクセスと会議の設定を構成できます。
 
 :::image type="content" source="media/skype-for-business-settings-user.png" alt-text="ユーザーの詳細Skype for Businessタブのスクリーンショット":::
 
@@ -109,7 +109,7 @@ ms.locfileid: "54280562"
 
 ユーザーが組織外のユーザーと通信できるかどうかを選択的に許可またはブロックできます。
 
-- **外部Skype for Businessユーザー**: フェデレーション ドメイン内のユーザーとの通信をユーザーに許可する場合Skype for Businessオンにする。
+- **外部Skype for Business** ユーザー: フェデレーション ドメイン内のユーザーとの通信をユーザーに許可する場合Skype for Businessオンにする。
 - **外部Skypeユーザー**: ユーザーが他のユーザーと通信できる場合は、このSkypeします。 
 
 ### <a name="meeting-settings"></a>会議の設定

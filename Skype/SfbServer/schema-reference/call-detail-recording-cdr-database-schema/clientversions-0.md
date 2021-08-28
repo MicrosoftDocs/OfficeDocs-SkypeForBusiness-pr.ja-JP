@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: ClientVersions ビューは、データベースに記録されるセッションに参加した、さまざまなクライアントの種類およびバージョンの情報を格納します。 ビュー内の各レコードは、1 つのクライアント バージョンを表します。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 051a4c475b70eb418bb7a4984f3100c1c3b6209a9028dfe3c522508cd6998a84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb17827f018919ba7b6088da884904a959bd6398
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303690"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593481"
 ---
 # <a name="clientversions-view"></a>ClientVersions ビュー
  
@@ -29,9 +29,9 @@ ClientVersions ビューは、データベースに記録されるセッショ�
   
 |**列**|**データ型**|**詳細**|
 |:-----|:-----|:-----|
-|**VersionId** <br/> |整数  <br/> |このクライアントの種類とバージョンを識別する一意の番号。  <br/> |
+|**VersionId** <br/> |int  <br/> |このクライアントの種類とバージョンを識別する一意の番号。  <br/> |
 |**バージョン** <br/> |nvarchar(256)  <br/> |ユーザー エージェントを表す。  <br/> |
-|**ClientType** <br/> |整数  <br/> |クライアントの種類。  <br/> |
+|**ClientType** <br/> |int  <br/> |クライアントの種類。  <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |クライアントが属するカテゴリ。たとえば、Conferencing_Attendant_1.0 というクライアントは CAA という ClientCategory に属します。  <br/> |
    
 

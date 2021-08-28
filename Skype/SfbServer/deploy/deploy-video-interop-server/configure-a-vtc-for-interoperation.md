@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: '概要: VTC デバイスを構成して、デバイスをSkype for Business Server。'
-ms.openlocfilehash: 0c96766daf67ff3c8f7872a75423f64f64acba8e51d3fbc4c0edef841cc529e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1165b4bf569701d71a435a4162ef9feb9ef3018f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307778"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594681"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>VTC for Interoperation for Interoperation with Skype for Business Server
  
@@ -55,7 +55,7 @@ SIP トランクと Cisco Unified Communications Manager (CallManager,または 
     
    |**パラメーター**|**推奨される設定値**|
    |:-----|:-----|
-   |H.323 モード  <br/> | Off <br/> |
+   |H.323 モード  <br/> | オフ <br/> |
    |HTTP モード  <br/> | オン <br/> |
    | SIP モード <br/> | オン <br/> |
    |Telnet モード  <br/> | オン <br/> |
@@ -69,7 +69,7 @@ SIP トランクと Cisco Unified Communications Manager (CallManager,または 
    |**パラメーター**|**推奨される設定値**|
    |:-----|:-----|
    |プロファイル 1 - DefaultTransport  <br/> | TCP <br/> |
-   |プロファイル 1 - 送信  <br/> | Off <br/> |
+   |プロファイル 1 - 送信  <br/> | オフ <br/> |
    |プロファイル 1 - TlsVerify  <br/> | オン <br/> |
    |プロファイル 1 - 種類  <br/> | Cisco <br/> |
    |プロファイル 1 - URI  <br/> | CUCM 登録時に自動的に割り当てられる <br/> |

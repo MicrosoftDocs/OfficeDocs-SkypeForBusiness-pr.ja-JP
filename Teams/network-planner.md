@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: svemu
 audience: admin
 description: 管理者は、Network Planner を使用して、Microsoft Teams のネットワーク要件を特定する方法についてを知ることができます。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cccda1c51e1706cc83b83667dff6e2f00e535e4afd1fd50ea869633199c4d3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55fc461a2dd005d454a2b964bb3774c5ac17dbc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594611"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>ネットワーク プランナーを使用してMicrosoft Teams
 
@@ -44,7 +44,7 @@ Network Planner では、次の機能を使用できます。
 
 - Teams の使用状況の帯域幅要件に関するレポートを作成し計算します。
 
-Network Planner を使用するには、グローバル管理者、管理者、またはコミュニケーションTeams管理者Teams必要があります。
+Network Planner を使用するには、グローバル管理者、管理者、Teams、またはコミュニケーションTeams必要があります。
 
 ## <a name="create-a-custom-persona"></a>カスタム ペルソナを作成する
 
@@ -107,4 +107,4 @@ Network Planner を使用するには、グローバル管理者、管理者、�
 
 ## <a name="example-scenario"></a>シナリオ例
 
-Network Planner を使用してネットワーク プランを設定し、これらの手順を使用してレポートを生成する方法の例については[、Network Planner](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) How-To PowerPoint デッキをダウンロードします (英語のみ)。
+ネットワーク プランナーを使用してネットワーク プランを設定し、これらの手順を使用してレポートを生成する方法の例については[、Network Planner](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) How-To PowerPoint デッキをダウンロードします (英語のみ)。

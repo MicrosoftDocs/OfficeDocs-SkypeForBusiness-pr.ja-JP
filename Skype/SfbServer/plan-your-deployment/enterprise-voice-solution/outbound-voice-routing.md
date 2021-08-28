@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 通話ルーティング設定、ダイヤル プラン、正規化ルール、音声ポリシー、PSTN 使用法レコード、音声ルートなど、Skype for Business Server エンタープライズ VoIP での発信音声ルーティングについて説明します。
-ms.openlocfilehash: 75fcefae34cfcb100a095dd83a162fec1baac1d4b17f5077611cf88635ce9ed5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 233556993c5feb3eac9a6b773161a2491361e35e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593551"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>送信音声ルーティングの計画を立Skype for Business Server
  
@@ -252,7 +252,7 @@ PSTN 使用法レコードの計画では、主に、CEO から派遣社員、�
   
 **PSTN 使用法レコード**
 
-|**電話属性**|**Description**|
+|**電話属性**|**説明**|
 |:-----|:-----|
 |ローカル  <br/> |市内通話  <br/> |
 |Long-Distance  <br/> |長距離通話  <br/> |

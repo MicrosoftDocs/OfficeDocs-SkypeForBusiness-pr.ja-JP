@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstancesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: '[SQL格納] ノードには、トポロジSQL Serverデータベースが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: 01fd1aaa286f350a98f267acef565c5182bbf0d0faf489b117b7aeb6e1850099
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4224b469eb041082550c7a0d588614283b702a30
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602542"
 ---
 # <a name="sql-instances-scope-node"></a>SQL インスタンスのスコープ ノード
  

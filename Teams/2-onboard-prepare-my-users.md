@@ -12,18 +12,18 @@ ms.reviewer: rowille
 description: 目標を定め、受容状況を理解し、トレーニングとサポートを提供することにより、ユーザー導入を推進する計画を作成します。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a98c2b847844de38608782c8feabf754ed25187d5cf4f041bcdf14a8dda8d56
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 30a844f0ecd619e609a61500ac1b845cfbbad553
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322879"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623389"
 ---
 # <a name="prepare-my-users"></a>ユーザーを準備する
 

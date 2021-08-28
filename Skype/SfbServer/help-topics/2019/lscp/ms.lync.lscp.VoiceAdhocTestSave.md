@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[音声ルーティング テスト ケース情報の保存] ダイアログ ボックスを使用して、一時的音声ルーティング テスト ケースを保存できます。[音声ルーティング テスト ケース情報の保存] の [名前] に、このテスト ケースに付ける名前を入力して [OK] をクリックします。'
-ms.openlocfilehash: 09184f5f74bd509ed2e7cd37af48c0e45c19062a7e98bc02726047c66e28bbf9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1089a3666c153a6d51701087a9f065f662c859ce
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594651"
 ---
 # <a name="save-voice-routing-test-case-information"></a>音声ルーティングのテスト ケース情報の保存
  

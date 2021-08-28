@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server正規化ルールでは、.NET Frameworkを使用して、ダイヤルされた電話番号を E.164 形式に変換します。つまり、正規化ルールは、ユーザーがダイヤルした電話番号を受け取り、その番号をユーザーが内部的に使用する形式Skype for Business Server。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: bb229760bd8f41086211245e8e7090453fa8985abb72dc721b249c5c5df81238
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4b78207f90bb013b8be4161b7319cb605ad148e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333439"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602492"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>正規化ルールの定義Skype for Business Server
 

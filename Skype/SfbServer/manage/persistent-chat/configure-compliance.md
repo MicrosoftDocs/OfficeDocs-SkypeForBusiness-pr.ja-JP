@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: '概要: 2015 年に常設チャット サーバー コンプライアンス サービスを構成するSkype for Business Serverします。'
-ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 50650c8f5c63d8d407a0660c24e82aab577e5817
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602522"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバーのコンプライアンス Skype for Business Server構成する
 
@@ -138,9 +138,9 @@ Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属�
 
 |**属性**|**説明**|**オプション/必須**|
 |:-----|:-----|:-----|
-|型  <br/> |メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明されています。  <br/> |必須  <br/> |
-|コンテンツ  <br/> |メッセージの内容が含まれます。Type が Join または Part であるメッセージはこの属性を使用しません。  <br/> |省略可能  <br/> |
-|ID  <br/> |コンテンツの一意の ID を指定します。この属性は、Type が Chat であるメッセージでのみ使用されます。  <br/> |省略可能  <br/> |
+|種類  <br/> |メッセージの型を指定します。メッセージの型については、「Messages 要素のメッセージ型」の表で説明されています。  <br/> |必須  <br/> |
+|コンテンツ  <br/> |メッセージの内容が含まれます。Type が Join または Part であるメッセージはこの属性を使用しません。  <br/> |オプション  <br/> |
+|ID  <br/> |コンテンツの一意の ID を指定します。この属性は、Type が Chat であるメッセージでのみ使用されます。  <br/> |オプション  <br/> |
 
 各 Sender 要素には、5 つの属性 (Username、ID、Email、Internal、および Uri) が含まれます。これらの属性については、次の表で説明されています。
 
@@ -148,9 +148,9 @@ Message 要素には、2 つの要素 (Sender と DateTimeUTC) と 3 つの属�
 
 |**属性**|**説明**|**オプション/必須**|
 |:-----|:-----|:-----|
-|Username  <br/> |送信者の名前。  <br/> |省略可能  <br/> |
+|Username  <br/> |送信者の名前。  <br/> |オプション  <br/> |
 |ID  <br/> |送信者の一意の ID。  <br/> |必須  <br/> |
-|電子メール  <br/> |送信者の電子メール アドレス。  <br/> |省略可能  <br/> |
+|メール  <br/> |送信者の電子メール アドレス。  <br/> |省略可能  <br/> |
 |内部  <br/> |ユーザーが内部ユーザーとフェデレーション ユーザーのどちらであるかを決定します。この値が True に設定されている場合、ユーザーは内部ユーザーです。  <br/> |省略可能  <br/> |
 |Uri  <br/> |ユーザーの SIP URI。  <br/> |必須  <br/> |
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 5182b66b3fa70ddf21c0f4e39b8b935636ea2721b0414ca341e657768d854cd8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f00f9351d6c1bc9939c49c674bfa89218867842
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305769"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593991"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>QoE (Quality of Experience) データ: 新規作成または現在の形式のままで編集
  
