@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6be29df-b882-4ba8-ba40-8062eb3bb14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: このページは、インフラストラクチャに監視サーバーが展開されていない場合に表示されます。監視サーバーのレポートを展開するための最小要件を満たしていないことを示しています。
-ms.openlocfilehash: 291a6926e632c488d4a51049a9a7bee9d0cde414846c4542ca5559e80c7ed91a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 223fca9e8bd14f478e205d50caba239a6a2e8e93
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307728"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622879"
 ---
 # <a name="sql-server-reporting-services-prerequisites-not-satisfied"></a>SQL Server Reporting Services (前提条件を満たしていない)
 

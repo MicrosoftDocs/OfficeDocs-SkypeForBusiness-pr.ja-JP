@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,13 +23,13 @@ ms.custom:
 - O365E_SkypeforBusinessON
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
-description: '組織のドメイン、ユーザー、IM、プレゼンスをセットアップして、組織がドメインをインストールSkype for Business。 また、電話会議、通話プランと通話プラン電話システム会議ブロードキャストを設定するSkypeを参照してください。 '
-ms.openlocfilehash: 9d8c68468cbceb1e7ab7e2c5d3a9a268b382fa13ec42d78d03269dc9764fb770
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '組織のドメイン、ユーザー、IM、プレゼンスをセットアップして、組織がドメインをインストールSkype for Business。 また、電話会議、通話プランと通話プラン電話システム会議ブロードキャストを設定するSkypeも参照してください。 '
+ms.openlocfilehash: d712fd0bf02e770c15f1c6dcf61789dcf0fd27e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340293"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613256"
 ---
 # <a name="set-up-skype-for-business-online"></a>Skype for Business Online をセットアップする
 
@@ -43,13 +43,13 @@ ms.locfileid: "54340293"
 
 ## <a name="1-plan-for-skype-for-business"></a>1. プランのSkype for Business
 
-Standard または **Business Essentials** **[Microsoft 365 Business Premiumを](https://products.office.com/business/office-365-business-premium)** 使用している場合は、Skype for Business を使用して、サブスクリプションを利用している企業内の他のユーザーにオンライン通話を行います。 たとえば、ビジネスに 10 人の人がいて[、IM](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)会議とオンライン会議に Skype for Business を使い始め、次の手順 2 から 6 を実行した後に Skype for Business を使用して[Skype for Business](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)で会議を開始できます。 また、[オンライン会議Skype for Business会議Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)会議を設定できます。
+Standard または **Business Essentials** **[Microsoft 365 Business Premiumを](https://products.office.com/business/office-365-business-premium)** 使用している場合は、Skype for Business を使用して、サブスクリプションを利用している企業内の他のユーザーにオンライン通話を行います。 たとえば、ビジネスに 10 人の人がいて[、IM](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd)会議とオンライン会議で Skype for Business を使い始め、次の[](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851)手順 2 から 6 を実行した後に Skype for Business を使用して Skype for Business で会議を開始できます。 また、[オンライン会議にSkype for Business会議Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA)会議を設定できます。
 
-このサービスを使用してSkype for Business外部のユーザーとの通話を送受信する場合は、次 *の方法を* 実行します。
+このサービスを使用してSkype for Business外部のユーザーとの通話の送受信 *を* 行う場合は、次のコマンドを実行します。
 
-- **オプション 1。無料の [Skype アプリ](https://www.skype.com/)** を使用します。 小規模な企業 (1 ~ 2 人など) がある場合は、Skype アプリを使用する方が便利です。 国内通話と国際通話で利用する場合は、より安価な手段となります。 電話会議を開催し、ビデオ通話を行い、プレゼンテーション用にデスクトップを共有することができます。 [料金と支払オプションを確認](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)してください。
+- **オプション 1。無料の [Skype アプリ](https://www.skype.com/)** を使用します。 非常に小規模な企業 (1 ~ 2 人など) の場合は、Skype アプリを使用する方が優れた方法です。 国内通話と国際通話で利用する場合は、より安価な手段となります。 電話会議を開催し、ビデオ通話を行い、プレゼンテーション用にデスクトップを共有することができます。 [料金と支払オプションを確認](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)してください。
 
-- **オプション 2.プランをアップグレードし、プランと 電話システム 通話プランを購入Office 365。** このコストを確認し、切り替える最も簡単な方法は、ビジネス製品のサポートに問い合わせ [- 管理者](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 向けヘルプを使用して、すべての操作を行う方法です。
+- **オプション 2.プランをアップグレードし、電話システム プランと通話プランを購入Office 365。** このコストを確認し、切り替える最も簡単な方法は、ビジネス製品のサポートに問い合わせ [-](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 管理者向けヘルプを使用して、すべての操作を行う方法です。
 
 詳細については、「一Office 365[のセットアップを計画する」を参照してください](https://support.office.com/article/eb926624-018b-4486-bf11-5fba6ee4d645#bkmk_skype)。
 
@@ -58,7 +58,7 @@ Standard または **Business Essentials** **[Microsoft 365 Business Premiumを]
 
 Skype for Businessオンラインは、サービスのOffice 365の一部です。 Skype for Business Online を設定するには、アカウントにサインインOffice 365。 その方法を次に示します。
 
-1. ユーザー ID Microsoft 365またはOffice 365を見つける (例: <em>rob@fourthcoffee.com)。</em> Microsoft Online Services Online の購入時に作成した Microsoft 365 または Office 365 ユーザー ID を含むメールが Skype for Business されました。 メールは次のように表示されます。
+1. ユーザー ID Microsoft 365またはOffice 365を見つける (例: <em>rob@fourthcoffee.com)。</em> Microsoft Online Services Online の購入時に作成した Microsoft 365 または Office 365 ユーザー ID を含むメールを Microsoft Online Services チームから受け取Skype for Businessしました。 メールは次のように表示されます。
 
     ![Skype for Business Online にサインアップした後に受信したウェルカム メールの例。 このファイルには、ユーザー Microsoft 365またはOffice 365 ID が含まれている。](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
@@ -67,18 +67,18 @@ Skype for Businessオンラインは、サービスのOffice 365の一部です�
 ## <a name="3-set-up-your-domain-and-users"></a>3. ドメインとユーザーを設定する
 <a name="bkmk_users"> </a>
 
-Office 365 にサインインすると、ドメインと組織内のユーザーが Skype for Business Online を使用Skype for Businessできます。
+Office 365 にサインインしたので、ドメインと組織内のユーザーが Skype for Business Online を使用Skype for Businessできます。
 
-1. [ドメインとユーザー](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611)を Office 365 に追加する: Office 365 セットアップ ウィザードを使用して、カスタム ドメイン (fourthcoffee.com *など)* を Office 365 で設定します。 **既定では、Office 365 セットアップ ウィザードには、Skype for Business Online のセットアップとユーザー ID Skype for Businessが含まれています。** 既にウィザードを使用してドメインをセットアップしている場合はOffice 365、この手順は完了しています。
+1. [ドメインとユーザー](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611)を Office 365 に追加する: Office 365 セットアップ ウィザードを使用して、Office 365 でカスタム ドメイン (fourthcoffee.com *など)* を設定します。 **既定では、Office 365 セットアップ ウィザードには、Skype for Business Online のセットアップとユーザー ID Skype for Businessが含まれています。** 既にウィザードを使用してドメインをセットアップしている場合はOffice 365、この手順は完了しています。
 
-2. [ドメインと DNS 接続を確認する](https://support.office.com/article/2b54e1b0-47a7-4018-a1e4-c2b924e7c5a0): ドメインのトラブルシューティング ツールを使用して、ドメインと DNS の設定が正しいか確認します。 今後の問題のソースとして DNS 設定を排除できるので、セットアップの問題を後で把握するには、この作業が長い道のりになります。
+2. [ドメインと DNS 接続を確認する](https://support.office.com/article/2b54e1b0-47a7-4018-a1e4-c2b924e7c5a0): ドメインのトラブルシューティング ツールを使用して、ドメインと DNS の設定が正しいか確認します。 今後の問題のソースとして DNS 設定を排除できるので、この作業は後でセットアップの問題を把握するために長い道のりを行います。
 
-3. [Office 365 URL](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO)と IP アドレス範囲: ほとんどの小規模企業は、この手順を実行する必要があります。 **ただし、Web の一** 部へのアクセスを制限するファイアウォールまたはプロキシ サーバーがある場合は、Skype for Business Online エンドポイントへのアクセスを許可するルールを作成する必要があります。 これは、ファイアウォールとプロキシ サーバーの構成経験のあるユーザーが実行する高度な手順です。 この設定をまだ行ったことがない場合は[、Microsoft](https://go.microsoft.com/fwlink/?linkid=391089)パートナーを採用してユーザーにSkype for Businessを検討してください。
+3. [Office 365 URL](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO)と IP アドレス範囲: ほとんどの小規模企業は、この手順を実行する必要があります。 **ただし、Web の一** 部へのアクセスを制限するファイアウォールまたはプロキシ サーバーがある場合は、Skype for Business Online エンドポイントへのアクセスを許可するルールを作成する必要があります。 これは、ファイアウォールとプロキシ サーバーの構成経験のあるユーザーが実行する高度な手順です。 これを行ったことが初めてである場合は[、Microsoft](https://go.microsoft.com/fwlink/?linkid=391089)パートナーを採用して、パートナーのSkype for Businessを検討してください。
 
 ## <a name="4-set-up-im-and-presence-in-your-organization"></a>4. 組織内で IM とプレゼンスを設定する
 <a name="bkmk_IM"> </a>
 
-インスタント メッセージング (IM) とプレゼンス ( Skype for Business でのプレゼンス[情報](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)へのアクセスの制御) は、Skype for Business に含まれている基本的な機能です。 既定では、ビジネスのユーザーは、Skype IM を使用できます。
+インスタント メッセージング (IM) とプレゼンス[(](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)Skype for Business でのプレゼンス情報へのアクセスの制御) は、Skype for Business に含まれている基本的な機能です。 既定では、ビジネスのユーザーは、Skype IM を使用できます。
 
 1. **ユーザーが通信できる他Skype for Businessを選択します。**
 
@@ -88,9 +88,9 @@ Office 365 にサインインすると、ドメインと組織内のユーザー
 
    - [ユーザーがSkype for Business外部のSkypeを追加](let-skype-for-business-users-add-skype-contacts.md)する
 
-2. **同僚がオンラインかどうかを確認するユーザーを選択します。** プレゼンス機能では、オンラインのユーザーと、空き時間情報、取り込み中、空き時間情報、発表中など、そのユーザーの空き時間情報が表示されます。
+2. **同僚がオンラインかどうかを確認するユーザーを選択します。** プレゼンス機能は、オンラインのユーザーと、空き時間情報、取り込み中、空き時間情報、発表中など、そのユーザーの空き時間情報を表示します。
 
-    ![個人のメッセージを含むユーザーのオンライン状態の例。](../images/ab6c10b4-6ad5-453c-bf0e-459b977b6e23.png)
+    ![個人メッセージを含むユーザーのオンライン状態の例。](../images/ab6c10b4-6ad5-453c-bf0e-459b977b6e23.png)
 
     ビジネスのすべてのユーザーの既定の設定を選択できます。
 
@@ -98,25 +98,25 @@ Office 365 にサインインすると、ドメインと組織内のユーザー
 
    - 連絡先にのみユーザーのオンライン プレゼンスを表示する
 
-手順については、「Skype for Business Online でのプレゼンス[の構成」を参照してください](configure-presence-in-skype-for-business-online.md)。
+手順については、「Skype for Business [Online でのプレゼンスの構成」を参照してください](configure-presence-in-skype-for-business-online.md)。
 
 ## <a name="5-download-and-install-skype-for-business"></a>5. ダウンロードしてインストールSkype for Business
 <a name="bkmk_download"> </a>
 
-PC Skype for Business Mac、またはモバイル デバイスでアプリを使用するには、ユーザーと他のユーザーが最初にデバイスに Skype for Business をインストールする必要があります。
+PC Skype for Business Mac、またはモバイル デバイスでアプリを使用するには、ユーザーと他のユーザーが最初にデバイスに Skype for Businessインストールする必要があります。
 
 - [インストール Skype for Business:](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)アプリを Microsoft 365 管理センター からダウンロードし、PC または Mac にインストールする方法について説明します。
 
-- [大規模なSkype for Businessにアプリ](deploy-the-skype-for-business-client-in-office-365.md)Office 365デプロイする手順に関するページで、クライアントをデプロイします。
+- [「Skype for Business クライアントをデプロイするOffice 365:](deploy-the-skype-for-business-client-in-office-365.md)大企業にアプリをデプロイする手順。
 
-- [インストールSkype for Business:](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)Android デバイス、iOS デバイス、およびスマートフォンSkype for Businessにダウンロード、インストール、サインインWindowsします。
+- [インストールSkype for Business:](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)Android デバイス、iOS デバイス、Skype for Business スマートフォンの Skype for Business にダウンロード、インストール、サインインWindowsします。
 
-- [携帯電話の通知](turn-on-or-off-mobile-phone-notifications.md)をオンまたはオフにする: モバイル デバイスに Skype for Business をインストールすると、受信したインスタント メッセージと見逃したインスタント メッセージに関する通知を受信できます。
+- [携帯電話の通知](turn-on-or-off-mobile-phone-notifications.md)をオンまたはオフにする: モバイル デバイスに Skype for Business がインストールされている場合、ユーザーとビジネスの他のユーザーは、受信したインスタント メッセージと見逃したインスタント メッセージに関する通知を受信できます。
 
 ## <a name="6-test-to-make-sure-everything-is-working"></a>6. テストして、すべてが動作している
 <a name="bkmk_test"> </a>
 
-まず、自分とビジネスの他のユーザーがビデオ: サインインとサインアウトを実行できるかどうか[をテスト](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451)Skype for Business。 互いに IM を取り合い、互いにプレゼンスを確認し、簡単な会議を試みる。
+まず、自分と他のユーザーが [ビデオ: サインインとサインアウト] を実行できるかどうか[をSkype for Business。](https://support.office.com/article/8abed4b3-ac48-493e-9d76-0e10140e9451) 互いに IM を取り合い、互いにプレゼンスを確認し、簡単な会議を試みる。
 
 問題がある場合 以下の操作を行います。
 
@@ -131,7 +131,7 @@ PC Skype for Business Mac、またはモバイル デバイスでアプリを使
 
 ### <a name="set-up-audio-conferencing"></a>電話会議をセットアップする
 
-組織内のユーザーは電話を使って会議に参加する必要が生じることがあります。 Skype for Business、この状況だけの電話会議機能が含まれています。 参加者は、モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使って Skype for Business 会議にコールインできます。
+組織内のユーザーは電話を使って会議に参加する必要が生じることがあります。 Skype for Business、この状況に合った電話会議機能が含まれています。 参加者は、モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使って Skype for Business 会議にコールインできます。
 
 ### <a name="set-up-phone-system-and-the-calling-plans-in-office-365"></a>通話プラン電話システム通話プランを設定Office 365
 
@@ -143,7 +143,7 @@ PC Skype for Business Mac、またはモバイル デバイスでアプリを使
 
 ### <a name="set-up-skype-meeting-broadcast"></a>会議ブロードキャストSkype設定する
 
-Skype会議ブロードキャストは、最大 10,000 人の出席者を含む会議を作成、ホスト、およびブロードキャストできる機能です。 **機能の詳細については、「会議ブロードキャストの概要 [」Skypeしてください。](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)**
+Skype会議ブロードキャストは、最大 10,000 人の出席者を含む会議を作成、ホスト、およびブロードキャストできる機能です。 **機能の詳細については、「会議ブロードキャストの概要 [」をSkypeしてください。](https://support.office.com/article/c472c76b-21f1-4e4b-ab58-329a6c33757d)**
 
 会議ブロードキャストを設定する手順の概要をSkypeします。
 
@@ -153,7 +153,7 @@ Skype会議ブロードキャストは、最大 10,000 人の出席者を含む�
 
 3. [Skype 会議](../set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)ブロードキャスト用にネットワークを設定する: 組織外の出席者とウェビナーや他のブロードキャストをホストする場合は、ネットワークを構成する必要があります。
 
-4. [](https://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) Skype 会議ブロードキャストをスケジュールし [、Skype](https://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe)会議ブロードキャストに参加する : Skype 会議ブロードキャストをスケジュール設定し、他のユーザーに会議への参加を試みて、ブロードキャスト会議が機能します。 *https://portal.broadcast.skype.com*
+4. [](https://support.office.com/article/c3995bc9-4d32-4f75-a004-3bc5c477e553) Skype 会議ブロードキャストをスケジュールし [、Skype](https://support.office.com/article/14689da0-821d-48d4-9035-ea762de80ebe)会議ブロードキャストに参加する : Skype 会議ブロードキャストをスケジュールし、他のユーザーに会議への参加を試みて、ブロードキャスト会議が機能します。 *https://portal.broadcast.skype.com*
 
 ## <a name="learn-about-network-connectivity-requirements"></a>ネットワーク接続の要件について学習する
 <a name="bkmk_more"> </a>
@@ -173,7 +173,7 @@ Skype for Business でのオーディオ、ビデオ、およびアプリケー�
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 <a name="bkmk_more"> </a>
 
 [Skype for Business Server と Skype for Business Online 間のハイブリッド接続を計画する](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)

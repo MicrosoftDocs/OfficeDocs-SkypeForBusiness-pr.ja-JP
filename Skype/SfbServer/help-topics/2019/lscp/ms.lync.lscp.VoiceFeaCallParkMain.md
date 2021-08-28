@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 呼び出しがパークされている場合、通話は一時的な番号に転送され、呼び出しは誰かが呼び出しを取得するか、または時間が切れるまで保持されます。パークされた呼び出しのために予約する内線番号の範囲を持つテーブルを構成する必要があります。 これらの内線番号は仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要あがります。 コール パーク アプリケーションを実行する各プールには、1 つ以上の範囲の拡張機能を使用できます。 これらの範囲は、展開全体でグローバルに一意である必要があります。
-ms.openlocfilehash: 0fc52a688ba3b95e2dd2cdd13c6aab8c4d48f97269e51a7845e363bcc55c38e4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6a5e4da26774d01eaee8645b8356d7feeaf030d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287486"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613066"
 ---
 # <a name="call-park"></a>コール パーク
 

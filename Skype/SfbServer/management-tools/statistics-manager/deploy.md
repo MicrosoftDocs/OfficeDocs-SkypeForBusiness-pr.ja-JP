@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: このトピックを参照して、統計マネージャーを展開する方法について説明Skype for Business Server。'
-ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333259"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612096"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの展開
  

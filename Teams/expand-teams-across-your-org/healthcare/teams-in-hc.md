@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -26,12 +26,12 @@ description: Microsoft Teams 遠隔医療、EHR 統合、現場担当者のシ�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: be5f75af292000b108b665391c3b5398ed79bb2c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: b88edf016ae59eab6f2d92b1671c39996cb38464
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235032"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627569"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療機関向け Microsoft Teams の使用を開始する
 
@@ -63,7 +63,7 @@ Microsoft Teams では、病院やその他の医療機関で役立つさまざ�
 | [Teams テンプレート](#teams-templates-for-healthcare-organizations) | 同じ病棟、ポッド、部門内での連絡と連携または病院内の複数の病棟、ポッド、部門間での連絡と連携のための定義済み設定テンプレート、チャネル、プレインストール済みアプリが備わったチームを作成します。 | ユーザーは適切なライセンスを所有している必要があります*。  |
 | [ケア コーディネーションとコラボレーション](#care-coordination-and-collaboration) | 診療担当者とスタッフは、スケジュール、ドキュメント、タスクなどに関する共同作業を院内で行うことができます。| ユーザーは適切なライセンスを所有している必要があります*。 |
 
-*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、Business Standard がサポートされています。 Teams ライセンスの全般的な説明については、「[Teams へのユーザー アクセスを管理する](../../user-access.md)」を参照してください。
+*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5 では、Business Standard がサポートされています。 Teams ライセンスの全般的な説明については、「[Teams へのユーザー アクセスを管理する](../../user-access.md)」を参照してください。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>バーチャル受診と電子健康記録 (EHR) 統合
 

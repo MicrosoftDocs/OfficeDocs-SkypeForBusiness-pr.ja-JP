@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: この記事では、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 2015 Skype for Business Server 2015 リソース キットは、2015 年に展開および管理する IT 管理者が日常的なタスクSkype for Business Serverします。 たとえば、Web Conf Data ツールを使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 SEFAUtil ツールを使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、2015 年にこれらのツールを使用して、より効果的に管理Skype for Business Server推奨します。
-ms.openlocfilehash: 421b0cbe3ec7644122d73365159714281a8e425e23392dab96d5b8923f5a8e89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe281a83790d42cbb08e4f8b12e07d8f5ffcfcbc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333279"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612106"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
@@ -1429,7 +1429,7 @@ SYSPrep.ps1は、Windows PowerShell Server 2008 オペレーティング シス�
 SYSPrep.ps1 スクリプトを実行する前に、前提条件ファイルを Windows Server 2008 オペレーティング システム コンピューターのローカル フォルダー **(D:\Setup など)** にコピーする必要があります。 このフォルダーには、2015 ファイルのコピー Skype for Business Server含める必要があります(特に 2015 **Setup.exe。** 前提条件ファイルは、次の場所からダウンロードできます。
 
 
-| **前提条件**                                | **場所**                                                            |
+| **前提条件**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |

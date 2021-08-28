@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: 登録ビューでは、ユーザー登録に関する情報を格納します。 このビューは、Lync Server 2013 で導入されました。
-ms.openlocfilehash: a28b094fd78f0a5d8b339edc372acf4503ba854d7e59e8cc81fff942e22cdcfc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d754c4027c6440aa8f53a9dac78f1ce1b00c9488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341702"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611886"
 ---
 # <a name="registration-view"></a>登録ビュー
  
@@ -27,7 +27,7 @@ ms.locfileid: "54341702"
 |**列**|**データ型**|**詳細**|
 |:-----|:-----|:-----|
 |**SessionIdTime** <br/> |日付型  <br/> |セッション要求の時間。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
-|**SessionIdSeq** <br/> |整数  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |セッションを識別するための ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
 |**RegisterTime** <br/> |日付型  <br/> |登録が発生した時間。  <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |登録したユーザーの URI  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |登録したユーザーの URI の種類。 詳細については [、UriTypes テーブル](uritypes.md) を参照してください。 <br/> |
@@ -37,12 +37,12 @@ ms.locfileid: "54341702"
 |**DeRegisterType** <br/> |日付型  <br/> |登録解除が発生した時間。  <br/> |
 |**DeRegisterReason** <br/> |nvarchar(256)  <br/> |登録解除の理由。  <br/> |
 |**ClientVersion** <br/> |nvarchar(256)  <br/> |登録したユーザーが使用しているクライアントのバージョン。  <br/> |
-|**ClientType** <br/> |整数  <br/> |登録したユーザーが使用しているクライアント。 詳細については [、UserAgentDef の表](useragentdef.md) を参照してください。 <br/> |
+|**ClientType** <br/> |int  <br/> |登録したユーザーが使用しているクライアント。 詳細については [、UserAgentDef の表](useragentdef.md) を参照してください。 <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |登録したユーザーが使用しているクライアントのカテゴリ。  <br/> |
 |**IpAddress** <br/> |nvarchar(256)  <br/> |IP ユーザーが登録したアドレス。 これは、IPv4 または IPv6 アドレスです。  <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |SIP ダイアログ ID。形式は次のとおりです。  <br/> dialog;from-tag;to-tag  <br/> |
-|**ResponseCode** <br/> |整数  <br/> |セッションへの招待に対する SIP 応答コード。このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
-|**DiagnosticId** <br/> |整数  <br/> |SIP ヘッダーから取得された診断 ID。  <br/> |
+|**ResponseCode** <br/> |int  <br/> |セッションへの招待に対する SIP 応答コード。このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
+|**DiagnosticId** <br/> |int  <br/> |SIP ヘッダーから取得された診断 ID。  <br/> |
 |**レジストラー** <br/> |nvarchar(256)  <br/> |レジストラーの FQDN。  <br/> |
 |**Pool** <br/> |nvarchar(256)  <br/> |セッションのデータをキャプチャしたプールの FQDN。  <br/> |
 |**EdgeServer** <br/> |nvarchar(256)  <br/> |登録したユーザーが使用しているエッジ サーバーの FQDN。  <br/> |

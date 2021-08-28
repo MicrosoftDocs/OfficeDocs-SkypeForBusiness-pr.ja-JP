@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: この記事では、Azure Monitor を使用して、Microsoft Teams Rooms デバイスの管理を、統合されたエンドツーエンドの方法でデプロイする方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 77b1e18e9f30e13cc209040ab876324afa232766
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505405"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613026"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>を使用 :::no-loc text="Microsoft Teams Rooms"::: して管理をデプロイする :::no-loc text="Azure Monitor":::
 
@@ -315,7 +315,7 @@ ms.locfileid: "58505405"
     **リスト クエリ:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  列タイトル **を定義します**。<br>
     **名前:** コンピューター名<br>
-    **値:** 再起動の数
+    **値:** 再起動数
 6.  ナビゲーション **クエリ を定義します**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 7.  [適用 **] を選択** し、[閉じる] **を選択します**。

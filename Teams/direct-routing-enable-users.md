@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,18 +16,18 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: システム ダイレクト ルーティングを使用してユーザー Microsoft 電話する方法について説明します。
-ms.openlocfilehash: e15e73c74b6597f754287077480316a8da98178985ef49603cf0fb3b8dc02bbe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b6eb9bf0930b9b8f78d13deca95349afd78ec5af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627589"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする
 
-この記事では、直接ルーティングでユーザーを有効にする電話システム説明します。  これは、ダイレクト ルーティングを構成するための次の手順の手順 2 です。
+この記事では、ダイレクト ルーティングでユーザーを有効にする電話システム説明します。  これは、ダイレクト ルーティングを構成するための次の手順の手順 2 です。
 
-- 手順 1. [Connect システムを使用して SBC Microsoft 電話し、接続を検証する](direct-routing-connect-the-sbc.md) 
+- 手順 1. [Connect システムを使用して SBC Microsoft 電話接続を検証する](direct-routing-connect-the-sbc.md) 
 - **手順 2.ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする**   (この記事)
 - 手順 3. [音声ルーティングを構成する](direct-routing-voice-routing.md)
 - 手順 4. [数値を別の形式に変換する](direct-routing-translate-numbers.md) 
@@ -37,19 +37,19 @@ ms.locfileid: "54327682"
 
 ユーザーが直接ルーティングを有効にする準備ができたら、次の手順に従います。 
 
-1. ユーザーを管理者またはMicrosoft 365作成Office 365ライセンスを割り電話システムします。 
+1. ユーザーを作成してMicrosoft 365またはOffice 365ライセンスを割り当電話システムします。 
 2. ユーザーがオンラインでホームSkype for Businessします。 
 3. 電話番号を構成し、エンタープライズ音声とボイスメールを有効にする。 
-4. ユーザーにTeamsのみモードを割り当てる。
+4. [ユーザー Teamsのみ] モードをユーザーに割り当てる。
 
 ## <a name="create-a-user-and-assign-the-license"></a>ユーザーを作成してライセンスを割り当てる
 
 新しいユーザーを作成するには、2 つのオプションMicrosoft 365またはOffice 365。 ただし、ルーティングの問題を回避するために、組織で 1 つのオプションを選択する必要があります。 
 
 - オンプレミスの Active Directory にユーザーを作成し、そのユーザーをクラウドと同期します。 「[オンプレミスのディレクトリを Azure Active Directory」を参照してください](/azure/active-directory/connect/active-directory-aadconnect)。
-- ユーザーを作成するには、Microsoft 365 管理センター。 「[ユーザーを個別に、または一括でユーザーを追加する」Microsoft 365または Office 365 - 管理者向けヘルプ を参照してください](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)。 
+- ユーザーを作成するには、Microsoft 365 管理センター。 「[ユーザーを個別に、または一括でユーザーを追加する」Microsoft 365または](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec)Office 365 - 管理者向けヘルプ を参照してください。 
 
-Skype for Business Online の展開がオンプレミスの Skype for Business 2015 または Lync 2010 または 2013 と共存している場合、サポートされている唯一のオプションは、オンプレミスの Active Directory にユーザーを作成し、ユーザーをクラウドと同期することだけです (オプション 1)。 
+Skype for Business Online の展開がオンプレミスの Skype for Business 2015 または Lync 2010 または 2013 と共存している場合、サポートされる唯一のオプションは、オンプレミスの Active Directory にユーザーを作成し、ユーザーをクラウドと同期することだけです (オプション 1)。 
 
 ライセンス要件の詳細については、「直接ルーティングの計画」の「ライセンスと[他の](direct-routing-plan.md#licensing-and-other-requirements)[要件」を参照してください](direct-routing-plan.md)。
 
@@ -66,7 +66,7 @@ Skype for Business Online の展開がオンプレミスの Skype for Business 2
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    OnPremLineUriManuallySet が False に設定され、LineUri に <E.164 電話番号> が設定されている場合、電話番号はオンプレミスに割り当て済みであり、O365 に同期されます。 電話番号をオンラインで管理する場合は、Skype for Business Online PowerShell を使用して電話番号を構成する前に、オンプレミスの Skype for Business Management Shell を使用してパラメーターをクリーンアップし、O365 と同期します。 
+    OnPremLineUriManuallySet が False に設定され、LineUri に <E.164 電話番号> が設定されている場合、電話番号はオンプレミスに割り当て済みであり、O365 に同期されます。 電話番号をオンラインで管理する場合は、Skype for Business Online PowerShell を使用して電話番号を構成する前に、オンプレミスの Skype for Business Management Shell を使用して パラメーターをクリーンアップし、O365 と同期します。 
 
 1. 管理Skype for Businessコマンドを発行します。 
 
@@ -110,7 +110,7 @@ Skype for Business Online の展開がオンプレミスの Skype for Business 2
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
-    ユーザー "Spencer Low" と "Stacy Quinn" が一意の拡張子を持つ同じ基本番号を共有している場合は、次を入力します。
+    ユーザー "Spencer Low" と "Stacy Quinn" が一意の拡張子で同じ基本番号を共有している場合は、次のコードを入力します。
     
     ```PowerShell
     Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1001" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -128,11 +128,11 @@ Skype for Business Online の展開がオンプレミスの Skype for Business 2
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>ボイスメールへの通話の直接送信を構成する
 
-ダイレクト ルーティングを使用すると、ユーザーへの呼び出しを終了し、ユーザーのボイスメールに直接送信できます。 通話をボイスメールに直接送信する場合は、opaque=app:voicemail を Request URI ヘッダーにアタッチします。 たとえば、"sip:user@yourdomain.com;opaque=app:voicemail" などです。 この場合、ユーザー Teams通知を受信しない場合、通話はユーザーのボイスメールに直接接続されます。
+ダイレクト ルーティングを使用すると、ユーザーへの呼び出しを終了し、ユーザーのボイスメールに直接送信できます。 通話をボイスメールに直接送信する場合は、opaque=app:voicemail を Request URI ヘッダーに添付します。 たとえば、"sip:user@yourdomain.com;opaque=app:voicemail" などです。 この場合、ユーザー Teams通知を受信しない場合、通話はユーザーのボイスメールに直接接続されます。
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>ユーザーにTeamsモードを割り当て、通話が確実に着信Microsoft Teams
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>通話Teams着信を確実に開始するために、ユーザーに [のみ] モードを割り当Microsoft Teams
 
-直接ルーティングでは、ユーザーが着信Teamsクライアントに着信通話が確実に着信Teams必要があります。 ユーザーを [のみ] Teamsするには、TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てる必要があります。 詳細については、「IT 管理者向け [アップグレード戦略」を参照してください](upgrade-to-teams-on-prem-implement.md)。 組織で Skype for Business Server または Skype for Business Online を使用している場合、Skype と Teams の間の相互運用性については、Skype for Business の移行と相互運用性に関する記事[を参照してください](migration-interop-guidance-for-teams-with-skype.md)。
+直接ルーティングでは、ユーザーが着信Teamsクライアントに着信呼び出しが確実に着信Teams必要があります。 ユーザーを [のみ] Teamsするには、TeamsUpgradePolicy の "UpgradeToTeams" インスタンスを割り当てる必要があります。 詳細については、「IT 管理者向け [アップグレード戦略」を参照してください](upgrade-to-teams-on-prem-implement.md)。 組織で Skype for Business Server または Skype for Business Online を使用している場合は、Skype と Teams の間の相互運用性について、次の記事を参照してください。 Skype for Business との移行と[相互運用](migration-interop-guidance-for-teams-with-skype.md)性。
 
 ## <a name="see-also"></a>関連項目
 

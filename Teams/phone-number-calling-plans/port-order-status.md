@@ -11,22 +11,22 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 607e5680c180f8440f6e09dc28a8de0b069f98e996ccb9c5e6c1b45cbb0753f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9bf0b66af230ee27036a891572dc92f292cb4d50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342892"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613046"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>番号移行注文の状況
 
-ポート注文の状態を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[> **Voice** Port orders] に移動し、[注文履歴]  >  **をクリックします**。 各ポート注文の状態は、[状態] 列に **一覧表示** されます。 注文 [プロセスの詳細については、ポート番号](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) にかかる時間を確認してください。 
+ポート注文の状態を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[音声ポート注文] に移動>、[注文履歴] を  >  **クリックします**。 各ポート注文の状態は、[状態] 列に **一覧表示** されます。 注文 [プロセスの詳細については、ポート番号](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) にどのくらいの時間がかかるか確認してください。 
 
 次の表に、ポート注文の状態と、必要に応じて実行できるアクションを示します。
 
@@ -44,7 +44,7 @@ ms.locfileid: "54342892"
 
 サポートが必要な場合、または電話番号を追加する必要がある場合は、PSTN サービス デスク にお問 [い合わせください](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: ストレスとパフォーマンス ツールを使用して、パフォーマンスSkype for Business Serverテストを行う 2015 年を構成するために必要なタスク。
-ms.openlocfilehash: cb018f4c12ad967acf9364dabb62ce5eabf07412a46abe912dbffba5fe656422
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 212a6fa1adc49508982e996ecdf61afc183d186b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328102"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611906"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 年Skype for Business Serverパフォーマンス ツールのパフォーマンス シナリオ
  

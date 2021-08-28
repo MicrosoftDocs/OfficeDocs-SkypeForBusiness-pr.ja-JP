@@ -9,7 +9,7 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Strat_SB_Admin
 - seo-marvel-apr2020
@@ -17,12 +17,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: このトピックでは、オンプレミスの Exchange が搭載されたハイブリッド環境に Microsoft Teams Rooms を展開する方法について説明します。
-ms.openlocfilehash: 5424e670dcea86aff5f3c8842e2ab3e61cfecf480922ac664ac055ea502dbb09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 35b69e12c38991ecf8ac4d9c0f6f335a097da334
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296654"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612986"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>オンプレミスで Exchange を使用し Microsoft Teams Rooms を展開する
 

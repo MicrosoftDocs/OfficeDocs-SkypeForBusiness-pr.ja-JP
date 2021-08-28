@@ -12,7 +12,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams のアプリ許可ポリシーと、それらを使用して組織内のユーザーが使用できるアプリを制御する方法について説明します。
 f1.keywords:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d489fabcfdbbdd71ed9b7d757e78897d1c5a440757eca71c190661755ba26104
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 841f471d548e26d9eb7eb876433330d3ecd20f67
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332389"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627449"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
@@ -45,7 +45,7 @@ ms.locfileid: "54332389"
 たとえば、すべてのサードパーティ アプリをブロックし、組織内のHR チームに Microsoft の特定のアプリを許可するとします。 まず、[[アプリの管理]](manage-apps.md) ページに移動し、HR チームに許可するアプリが組織レベルで許可されていることを確認します。 次に、HR App Permission Policy という名前のカスタムポリシーを作成し、必要なアプリをブロックして許可するように設定し、HR チームのユーザーに割り当てます。
 
 > [!NOTE]
-> Microsoft 365 Government Community Cloud High (GCCH) 環境と国防総省 (DoD) 環境に Teams をデプロイした場合は[、「Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government)の組織全体のアプリ設定を管理する」を参照して、GCCH と DoD に固有のサード パーティ製アプリ設定の詳細を確認してください。
+> Microsoft 365 Government Community Cloud High (GCCH) 環境と国防総省 (DoD) 環境に Teams をデプロイした場合は、「Microsoft 365 Government の組織全体のアプリ設定を管理する」を参照して[、GCCH](#manage-org-wide-app-settings-for-microsoft-365-government)と DoD に固有のサード パーティ製アプリ設定の詳細を確認してください。
 
 ## <a name="create-a-custom-app-permission-policy"></a>カスタムアプリのアクセス許可ポリシーを作成する
 

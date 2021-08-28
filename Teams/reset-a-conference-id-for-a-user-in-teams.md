@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Microsoft Teams でユーザーの会議 ID をリセットする手順と、会議の更新および移行ツールへのリンクを取得する手順について説明します。
-ms.openlocfilehash: 3c266b59bab4c51293d429d4698b3c79fe8b84232d519499f8a1bfa27a0c0d94
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a4a57fb2f52ce2541e4e30794d78c05eb376a853
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319780"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627199"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの会議 ID をリセットする
 
@@ -49,7 +49,7 @@ ms.locfileid: "54319780"
 
     
 > [!NOTE]
-> 会議 ID をリセットすると、新しい会議 ID を含むメールがユーザーに送信されます。 このメールは、プライマリ メール アドレス (多くの場合、ユーザーのメール アドレスまたはMicrosoft 365送信Office 365されます。 電子メールには、新しい会議 ID、既定のダイヤルイン電話番号、および既存の会議を更新するための手順が含まれている。 
+> 会議 ID をリセットすると、新しい会議 ID を含むメールがユーザーに送信されます。 このメールは、プライマリ メール アドレス (多くの場合、ユーザーのメール アドレスまたはMicrosoft 365にOffice 365されます。 電子メールには、新しい会議 ID、既定のダイヤルイン電話番号、および既存の会議を更新するための手順が含まれている。 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -66,7 +66,7 @@ ms.locfileid: "54319780"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365またはOffice 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

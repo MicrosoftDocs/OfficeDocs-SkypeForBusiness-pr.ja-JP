@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: 2015 Skype for Business Serverおよびパフォーマンス ツールは、非実稼働環境またはテスト環境での容量計画とパフォーマンス調整中に使用されます。
-ms.openlocfilehash: 1dff13905145752c57b02795e9aab07737d51b33d94d6355ce5f8c55fa62e7ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 381e6178994ce8d4ce2f3558bd075cf6fc3b6d43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328022"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611896"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 ストレスとパフォーマンス ツール
  
@@ -50,7 +50,7 @@ ms.locfileid: "54328022"
 |応答グループ  <br/> |配布リストの展開  <br/> |
 |アドレス帳のダウンロードとアドレス帳のクエリ  <br/> |拡張 911 (E911) 通話と場所プロファイル (ダイヤル プラン)  <br/> |
 |MultiView  <br/> |データの共同作業  <br/> |
-|モビリティ  <br/> ||
+|身体  <br/> ||
    
 ## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 年 2015 年Skype for Business Serverパフォーマンス ツールに含まれるアプリケーションとファイル
 

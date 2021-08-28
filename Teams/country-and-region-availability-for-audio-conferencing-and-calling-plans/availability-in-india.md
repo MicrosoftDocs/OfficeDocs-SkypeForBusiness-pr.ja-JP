@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: インドで利用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
-ms.openlocfilehash: c7675f2625de4e7e18167e6982f16a3d6721710554906ee0d0a7a71d9b5598c8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: インドで利用Microsoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
+ms.openlocfilehash: 5a61ded32ca4563a3825d893f671332fa30bb996
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344356"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611736"
 ---
 # <a name="availability-in-india"></a>インドでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-インドで利用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
+インドで利用Microsoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -83,7 +83,7 @@ ms.locfileid: "54344356"
 
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

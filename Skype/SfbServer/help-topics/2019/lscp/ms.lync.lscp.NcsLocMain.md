@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: 場所ポリシーは、拡張 9-1-1 (E9-1-1) を有効にするかどうか、E9-1-1 の使用方法、およびユーザーと連絡先での場所情報の使用方法を指定します。
-ms.openlocfilehash: eabd1ce415f420ef62e9f85a7b4a7c4342e0f4d1ea1a34cf71b14319761f002a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6a985be60453f70cf0cdb47a212f858d74d56032
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305749"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613187"
 ---
 # <a name="location-policy"></a>場所ポリシー
 

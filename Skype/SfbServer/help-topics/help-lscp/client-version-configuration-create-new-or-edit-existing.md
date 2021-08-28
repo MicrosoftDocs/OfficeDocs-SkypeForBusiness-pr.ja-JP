@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientCVSettingEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: クライアント バージョンの構成設定は、クライアント バージョンの制御を有効または無効にするために使用します。 グローバル クライアント バージョン構成は、サーバー Skype for Business Serverをインストールし、サーバー展開全体のクライアント バージョン管理を有効または無効にするために使用されます。 グローバル構成を有効にすると、ユーザーがログオンを試みたときに、適用されているすべてのクライアント バージョン ポリシーが有効になります。 クライアント バージョン制御を行わないようにする場合は、グローバル クライアントバージョン構成を無効にできます。
-ms.openlocfilehash: 7b08ccfa700b8d054877645bb0b94f1079b9622d2831f9fdd6f76f217e327264
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a420613d06e67df651aa7224f4d791cd69272fd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614469"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>クライアント バージョンの構成: 新規作成または現在の形式のままで編集
 

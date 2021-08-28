@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Education Faculty and Student のライセンス プランと SKU の一覧を示します。
 f1keywords: ''
-ms.openlocfilehash: 38bfcfc39179253a30b45f2ce2c52be1b605a4b65832a5565521209c308a6205
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0fd67dd27a497712e48cb0664712963a61d678c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297773"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627085"
 ---
 # <a name="education-sku-reference"></a>Education SKU リファレンス
 
@@ -59,16 +59,16 @@ ms.locfileid: "54297773"
 |Microsoft 365 EducationA3 for Students の特典を使用する       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
 |Microsoft 365 EducationA5 for Students        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
 |Microsoft 365 A5学生の使用特典     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
-|Microsoft 365 A5電話会議を使用しない学生向け会議      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
+|Microsoft 365 A5電話会議を使用しない場合      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
 |Microsoft 365 A5電話会議なしで学生が利用できる特典    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3学生向け     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
 |Office 365 A3学生の使用特典     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
 |Office 365 A5学生の使用特典    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
-|Office 365 A5電話会議を使用しない学生の場合の特典  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
-|Office 365 Education学生向け Homeschool の使用     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
-|Office 365 A1 (デバイスの場合)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
+|Office 365 A5電話会議なしで学生が利用できる特典  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
+|Office 365 Education学生向け Homeschool の作成     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
+|Office 365 A1学生向け (デバイスの場合)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1学生向けプラス     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [学校の大規模なユーザーにポリシーを割り当てる](batch-group-policy-assignment-edu.md)

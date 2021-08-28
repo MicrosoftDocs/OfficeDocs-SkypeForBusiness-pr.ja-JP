@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,18 +22,18 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Microsoft Teams Rooms の通話と会議機能の種類に応じて使用できるライセンスについて説明します。
-ms.openlocfilehash: ff6c36d0ded93ffa2231b6fd54a32658ce477d143c2fab4812446c4b88d50cd0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e1d545b6ea48e7ec9e94a1e5f0c5ba8cd1e41198
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328972"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627159"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams ミーティング ルームのライセンスの更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共有コミュニケーション デバイスのライセンス ソリューション
 
-Microsoft には、会議のライセンスを取得し、会議室デバイス (Microsoft Teams 会議室、Microsoft Surface Hub、Microsoft Teams のコラボレーション バーなど) をデバイスごとに呼び出す専用 SKU が 2 つあります。
+Microsoft には、会議室デバイス (Microsoft Teams 会議室、Microsoft Surface Hub、Microsoft Teams のコラボレーション バーなど) のライセンス会議と通話をデバイスごとに行う専用 SKU が 2 つあります。
 
 |&nbsp;|Microsoft TeamsRooms Standard |Microsoft Teams会議室プレミアム |
 |:--- |:---: |:---: |
@@ -69,7 +69,7 @@ Microsoft には、会議のライセンスを取得し、会議室デバイス 
 |スケジュールされた会議への参加  | Microsoft TeamsRooms Standard または プレミアム  |Skype for Business Server Standard CAL  |
 |アドホック会議の開始 | Microsoft TeamsRooms Standard または プレミアム  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |アドホック会議を開始し、会議から電話番号にダイヤル アウト |  Microsoft TeamsRooms Standard または プレミアム |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|会議室に電話番号を付け、会議室から通話を送受信したり、電話番号を使って音声会議に参加したりします。  | 直接ルーティングの場合: Microsoft Teams Rooms Standard または プレミアム<br/>ダイレクト ルーティングなし: 国内通話プランまたは国際通話プラン<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|会議室に電話番号を付け、会議室から通話を送受信するか、電話番号を使用して音声会議に参加します。  | 直接ルーティングの場合: Microsoft Teams Rooms Standard または プレミアム<br/>ダイレクト ルーティングなし: 国内通話プランまたは国際通話プラン<br/>Microsoft 365 Business Voice  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
 |Microsoft Intune を使用した会議室デバイスの管理 |Microsoft TeamsRooms Standard または プレミアム  |[オンプレミス MDM](/configmgr/mdm/plan-design/plan-on-premises-mdm) を含む Microsoft Intune サブスクリプション |
 |Microsoft TeamsRooms Managed Services | Microsoft Teams会議室プレミアム ||
 | |||

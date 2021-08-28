@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Skype for Business と Microsoft Teams の共存オプションおよび Skype for Business と Teams の間の相互運用の結果に関する詳細情報。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f28ff0d0cffd3cd370d1454c84e6645fea1a2603fa61f9a21f519e84cef5d92
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d06a49069e04b9c2bce05c0ede214f9cbd8fec12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627499"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams と Skype for Business の共存と相互運用性を理解する
 
@@ -54,7 +54,7 @@ ms.locfileid: "54342772"
 どのパスが組織に一番適しているかを判断するために、以下の共存モードを確認することをお勧めします。
 
 > [!Important]
-> 共存モードは、2021 年 7 月 31 日に Skype for Business Online が提供を開始した後も引き続き存在しますが、Skype for Business Server のオンプレミス デプロイを持つ組織にのみ関連します。 提供終了の直前に、オンプレミスデプロイに参加しているユーザーには、TeamsOnly 以外の任意のモードを割り当てることができます。 ただし、Skype for Business Online の提供を取りやめ、クラウドにホームしているユーザーは TeamsOnly に限定されます。
+> 共存モードは、2021 年 7 月 31 日に Skype for Business Online が提供を開始した後も引き続き存在しますが、Skype for Business Server のオンプレミス デプロイを持つ組織にのみ関連します。 提供終了の直前に、オンプレミスデプロイに参加しているユーザーには、TeamsOnly 以外の任意のモードを割り当てることができます。 ただし、Skype for Business Online の提供を取りやめ、クラウドに自宅にいたユーザーは TeamsOnly に限定できます。
 
 ### <a name="islands-mode"></a>アイランド モード
 

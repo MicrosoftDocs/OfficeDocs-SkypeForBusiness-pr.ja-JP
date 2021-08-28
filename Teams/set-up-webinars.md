@@ -10,7 +10,7 @@ ms.service: msteams
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,13 +18,13 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: 会議に使用するウェビナー ポリシーを管理Teamsします。
-ms.openlocfilehash: 23c637c1b4192f02ab3e95aa75bf434ae6453afd
-ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
+description: 会議のウェビナー ポリシーを管理するTeamsします。
+ms.openlocfilehash: 1ab4f082a270e4d9b3107c0b6ffbb27bd7c70110
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58392914"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612976"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Microsoft Teams でのウェビナーのMicrosoft Teams
 
@@ -38,25 +38,25 @@ ms.locfileid: "58392914"
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>ユーザーが管理センターでウェビナーをTeams許可する
 
-組織のウェビナー Teams管理センターを使用して設定できます。 ウェビナーを設定するポリシーは、Teams 会議ポリシー **に**  >  **表示されます**。
+Teams管理センターを使用して、組織のウェビナーを設定できます。 ウェビナーを設定するポリシーは、Teams 会議ポリシー **に**  >  **表示されます**。
 
 ### <a name="allow-meeting-registration"></a>会議の登録を許可する
 
 これを有効にした場合、ユーザーはウェビナーのスケジュールを設定できます。 既定では、この設定はオンになっています。 会議の登録をオフにする場合は、このポリシーを [オフ] に **設定します**。
 
 > [!IMPORTANT]
-> **会議の登録が機能するには、** プライベート会議のスケジュール設定を有効にしている必要があります。 既定では、このポリシーは管理センター Teamsオンになっています。 教育テナントの学生の場合、このポリシーは既定で無効になっています。 学生のプライベート会議のスケジュール設定を有効にする方法の詳細については、「ポリシーとポリシー パッケージMicrosoft Teams for Education[を参照してください](policy-packages-edu.md)。
+> **会議の登録が機能するには、** プライベート会議のスケジュール設定を有効にしている必要があります。 既定では、このポリシーは管理センター Teamsオンになっています。 教育テナントの学生の場合、このポリシーは既定で無効になっています。 学生のプライベート会議スケジュールを有効にする方法の詳細については、「ポリシーとポリシー パッケージMicrosoft Teams for Education[を参照してください](policy-packages-edu.md)。
 
 ### <a name="who-can-register"></a>Who登録可能
 
-[すべてのユーザー] **を選択** すると、匿名ユーザーを含むすべてのユーザーがウェビナーに登録し、ウェビナーに参加できます。 [組織内のすべての **ユーザー] を選択した場合** は、組織内のユーザーだけがウェビナーに登録できます。 会議の登録が無効になっている場合、このオプションは使用できません。また、ウェビナーに登録するユーザーは表示できません。
+[すべてのユーザー] **を選択** すると、匿名ユーザーを含むすべてのユーザーがウェビナーに登録し、ウェビナーに参加できます。 [組織内のすべての **ユーザー] を選択した場合** は、組織内のユーザーだけがウェビナーに登録できます。 会議の登録が無効になっている場合、このオプションは使用できません。また、ウェビナーに登録できるユーザーはいます。
 
 > [!NOTE]
-> 登録できるユーザーの **Whoは、Education** **テナントの組織内のすべての** ユーザーです。 詳細については、ポリシー ウィザード[のMicrosoft Teams for Educationを参照してください](easy-policy-setup-edu.md)。
+> 登録できるユーザーの **Whoは、Education** **テナントの組織内のすべての** ユーザーです。 詳細については、ポリシー ウィザードのMicrosoft Teams for Education[を参照してください](easy-policy-setup-edu.md)。
 
 ### <a name="allow-engagement-report"></a>エンゲージメント レポートを許可する
 
-これを有効にした場合、開催者は、設定したウェビナーに誰が登録し、参加したのかのレポートを確認できます。 このポリシーは既定でオフになっています。 詳細については、「会議のポリシー [」を参照してください Teams - 契約を許可するレポート](meeting-policies-in-teams-general.md#allow-engagement-report)。 エンド ユーザー エクスペリエンスの詳細については、「会議出席レポートを表示 [およびダウンロードする」を参照してください](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
+これを有効にした場合、開催者は、設定したウェビナーに誰が登録し、参加したのかのレポートを確認できます。 このポリシーは既定でオフになっています。 詳細については、「会議ポリシー 」[を参照Teams - 契約を許可するレポートを参照してください](meeting-policies-in-teams-general.md#allow-engagement-report)。 エンド ユーザー エクスペリエンスの詳細については、「会議出席レポートを表示 [およびダウンロードする」を参照してください](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>ユーザーが PowerShell を使用してウェビナーのスケジュールを設定できる
 
@@ -119,7 +119,7 @@ Set-CsTeamsMeetingPolicy -AllowEngagementReport Enabled
 
 ウェビナー用に環境を有効にした後は、それ以上の管理者管理は必要ありません。 ポリシーは、ウェビナー開催者に表示されるオプションを制御します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams の会議ポリシー - 全般](meeting-policies-in-teams-general.md)
 - [Set-CsTeamsMeetingPolicy のドキュメント](/powershell/module/skype/set-csteamsmeetingpolicy)

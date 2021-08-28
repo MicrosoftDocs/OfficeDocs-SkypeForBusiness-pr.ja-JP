@@ -13,16 +13,16 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: ユーザーが公衆交換電話網 (PSTN) 機能にアクセスできるよう、Teams クライアントでダイヤル パッドを構成する方法について説明します。
-ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f67aeda059505ec5c1e78d117407f0e9703f732
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344316"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627619"
 ---
 # <a name="dial-pad-configuration"></a>ダイヤル パッドの構成
 
@@ -32,9 +32,9 @@ ms.locfileid: "54344316"
 - ユーザーが Microsoft 通話プランを使用している、または直接ルーティングが有効になっている
 - ユーザーが有効エンタープライズ VoIPしました
 - ユーザーはオンラインで自宅にいて、オンプレミスSkype for Businessではありません
-- ユーザーが通話Teams有効になっている
+- ユーザーが通話ポリシー Teams有効になっている
 
-次のセクションでは、PowerShell を使用して条件を確認する方法について説明します。 ほとんどの場合、Get-CsOnlineUser コマンドレットの出力でさまざまなプロパティを確認する必要があります。 例では、$userユーザーの UPN アドレスまたは sip アドレスのいずれかです。
+次のセクションでは、PowerShell を使用して条件を確認する方法について説明します。 ほとんどの場合、Get-CsOnlineUser コマンドレットの出力でさまざまなプロパティを確認する必要があります。 例では、$userユーザーの UPN アドレスまたは SIP アドレスのいずれかです。
 
 ## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>ユーザーが有効な電話システム ("MCOEV") ライセンスがある
 
@@ -65,7 +65,7 @@ Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 
 ## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>ユーザーが Microsoft 通話プランを使用している、または直接ルーティングが有効になっている
 
-**ユーザーが Microsoft 通話プラン を** 持っている場合は **、CapabilityStatus** 属性が [有効] に設定され、機能プランが **MCOPSTN** に設定されている必要があります。 MCOPSTN1、MCOPSTN2 などと表示される場合があります。 機能プランが MCOPSTN で始まる限り、すべて許容されます。
+**ユーザーに Microsoft 通話** プラン がある場合は **、CapabilityStatus** 属性が [有効] に設定され、機能プランが **MCOPSTN** に設定されている必要があります。 MCOPSTN1、MCOPSTN2 などと表示される場合があります。 機能プランが MCOPSTN で始まる限り、すべて許容されます。
 
 属性を確認するには、次のコマンドを使用します。
 
@@ -136,7 +136,7 @@ RegistrarPool                 HostingProvider
 sippoolbn10M02.infra.lync.com sipfed.online.lync.com
 ```
 
-## <a name="user-has-teams-calling-policy-enabled"></a>ユーザーが通話Teams有効になっている
+## <a name="user-has-teams-calling-policy-enabled"></a>ユーザーが通話ポリシー Teams有効になっている
 
 ユーザーの有効な TeamsCallingPolicy には、AllowPrivateCalling が true に設定されている必要があります。  既定では、ユーザーはグローバル ポリシーを継承します。AllowPrivateCallingPolicy は既定で true に設定されています。
 

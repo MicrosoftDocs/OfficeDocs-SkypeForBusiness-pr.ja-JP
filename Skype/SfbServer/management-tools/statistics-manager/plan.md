@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '概要: このトピックを参照して、統計マネージャーの概要をSkype for Business Server。'
-ms.openlocfilehash: 045586a1fd6c53ff1985602b20e390416142fd3dc9d3ddc3f6b9384d8d9955ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333269"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612076"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの計画
 

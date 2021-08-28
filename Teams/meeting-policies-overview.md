@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Teams で会議ポリシーの設定を管理する方法について説明します。また、会議ポリシーの設定を使用して、ユーザーがスケジュールした会議の参加者に対して利用できる機能を制御します。
-ms.openlocfilehash: 4db3b935526daad03d3d51281944422b597cbc00
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234762"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627339"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>会議ポリシーを管理Microsoft Teams
 

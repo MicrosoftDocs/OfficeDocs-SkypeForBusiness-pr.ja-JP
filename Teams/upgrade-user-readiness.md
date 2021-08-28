@@ -1,5 +1,5 @@
 ---
-title: ユーザーの準備計画を準備し、Skype for BusinessからTeams
+title: アプリケーションからアプリケーションにアップグレードするユーザー準備Skype for Business準備Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: パイロット、オンボード、アップグレードを行う場合は、ユーザーとの通信、トレーニング、サポートを計画Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,25 +20,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af098209bf61ed26b90b1b109215ba13ad9a681205ebd8fcc6339f72cdaa588b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61dd52a83620b0d4d20547e0da14cafa11ce30dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318141"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627389"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>ユーザーの研修計画を準備する
 
 ![アップグレード体験のステージで、ユーザーの準備段階が強調表示されている](media/upgrade-banner-user-readiness.png "アップグレード体験のステージ。ユーザーの準備段階に重点を置いて")
 
-この記事は、アップグレード体験のユーザー準備ステージの一部です。これは、技術準備ステージと並行して完了するアクティビティです。 先に進む前に、前のステージからこれらのアクティビティを完了してください。
+この記事は、アップグレード体験のユーザー準備ステージの一部です。技術準備ステージと並行して完了するアクティビティです。 先に進む前に、前のステージからこれらのアクティビティを完了してください。
 
 - [プロジェクトの関係者をリスト化した](upgrade-enlist-stakeholders.md)
 - [プロジェクトの対象範囲を定義した](./upgrade-define-project-scope.md)
 - [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-最適なユーザー準備計画には、パイロット、オンボード、およびアップグレードを行うユーザーとの通信、トレーニング、サポートの方法が組み込Teams。 「組織の変更の準備 [状況を](./upgrade-org-change-readiness.md)評価する」で確認した結果、準備は 1 つのサイズに適合する機能ではありません。 新しいテクノロジに対する最適な受け入れ性を確保するには、広範なメッセージング (視覚/価値メッセージングと汎用的な使用例を組み込む) と、定義したペルサとコーホート、およびラグガードに合わせて調整されたメッセージング、トレーニング、サポートを適宜組み合わせて使用します。 このパーソナライズされたプランは、ユーザーがユーザーのニーズを理解し、Teams にすばやく関連付けることができるので、ユーザーの導入を容易にするのに役立ちます。
+最適なユーザー準備計画には、パイロット、オンボード、およびアップグレードを行ってユーザーとの通信、トレーニング、サポートを行う方法が組み込Teams。 「組織の変更の準備 [状況を](./upgrade-org-change-readiness.md)評価する」で確認した結果、準備は 1 つのサイズに適合する機能ではありません。 新しいテクノロジに対する最適な受け入れ性を確保するには、広範なメッセージング (視覚/価値メッセージングと汎用的な使用例を組み込む) と、定義したペルサとコーホート、およびラグガードに合わせて調整されたメッセージング、トレーニング、サポートを適宜組み合わせて使用します。 このパーソナライズされたプランは、ユーザーがニーズを理解し、Teams にすばやく関連付けることができるので、ユーザーの導入を容易にするのに役立ちます。
 
 > [!Tip]
 > アップグレード プロジェクト [のサンプル 計画](https://aka.ms/UpgradeSuccessKit) とパイロット テスト計画に加えて、コミュニケーションやユーザーアンケートなどのテンプレート ユーザー対応資料用のアップグレード成功キットをダウンロードします。
@@ -57,4 +57,4 @@ ms.locfileid: "54318141"
 </table>
 </div>
 
-ユーザー準備計画と関連リソースを作成し、技術的な準備が完了したら、組織内のパイロット テストTeams[に進みます](./pilot-essentials.md)。
+ユーザーの準備計画と関連リソースを作成し、技術的な準備が完了したら、組織内のTeamsに[進みます](./pilot-essentials.md)。

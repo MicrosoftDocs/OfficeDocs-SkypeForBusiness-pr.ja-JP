@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 679ead0e7f919364e1930d001d38b0bbfef9928207fa9aac16b92067a44014cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0ff412bee4b92e38507a946d99b850a29d51995
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345844"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626899"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN の使用法: 新規作成または現在の形式のままで編集
 

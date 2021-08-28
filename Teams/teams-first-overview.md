@@ -9,69 +9,69 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 ms.reviewer: lsomi
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: このガイダンスを使用して、最初のMicrosoft TeamsワークロードとしてMicrosoft 365展開Office 365します。
+description: このガイダンスを使用して、最初のMicrosoft TeamsワークロードとしてMicrosoft 365をOffice 365します。
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b52bbef87b08fd541a444e5613aed17032739f67
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: c94768c4e95799d0d6f2c98f24a900ac096abd6e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380441"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627039"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>最初にMicrosoft Teamsする
 
-Microsoft Teams、特にリモートワークが世界中の従業員の現実である現在の前例のない時間に、従業員が互いにつながって共同作業を行うのに役立ちます。 チャットやビデオ会議を行い、Office内のドキュメントで共同作業Teamsは、企業の生産性を維持するのに役立ちます。 小規模企業、非営利組織、または大規模な組織の場合でも、Microsoft 365 または Office 365 スイート内の最初のワークロードとして Teams を使い始めてから、他の Office アプリ またはサービスをデプロイできます。
+Microsoft Teams、特にリモートワークが世界中の従業員の現実である現在の前例のない時間に、従業員が互いにつながって共同作業を行うのに役立ちます。 チャット、ビデオ会議、およびグループ内のOffice共同作業を行Teamsは、企業の生産性を維持するのに役立ちます。 小規模企業、非営利組織、または大規模な組織の場合でも、Microsoft 365 または Office 365 スイート内の最初のワークロードとして Teams を使い始めてから、他の Office アプリ またはサービスをデプロイできます。
 
 この記事では、"Teams First" アプローチで行う必要がある考慮事項について説明します。
 
 > [!IMPORTANT]
-> 組織Teams初めてのクラウドデプロイ ワークロードになる可能性がある一方で、Teamsデプロイは、全体的なクラウド デプロイ戦略の一部である必要があります。
+> 組織Teams初めてのクラウド デプロイ ワークロードになる可能性がある一方で、Teamsデプロイは、全体的なクラウド デプロイ戦略の一部である必要があります。
 
 他の Microsoft 365 または Office 365 サービスを既にロールアウト済みで、Teams が (1 つ目ではなく) ロールアウトする次のワークロードである場合は、「Teams をロールアウトする方法」を[参照](./deploy-overview.md)してください。
 
 ## <a name="start-here"></a>開始するには
 
-Teams 最初のデプロイを開始するには、少なくともいくつかの前提条件を満たす必要があります。 次の一覧は、有効にする前に組織に必要Teams示しています。
+Teams 最初のデプロイを開始するには、少なくともいくつかの前提条件を満たす必要があります。 次の一覧は、有効にする前に組織に必要なTeams示しています。
 
 1.  ドメイン名Microsoft 365構成Office 365組織または組織
 
 2.  Azure Active Directory接続 (AAD 接続) または同様のクラウド ID 同期ソリューション - 必要なすべての属性がテナントと同期されている  
     AAD 同期と同期される属性を理解するには、「Azure AD Connect 同期: 同期された属性[」をAzure Active Directory](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
-3.  アカウントに割り当てられている適切なユーザー ライセンスTeams  
-    ライセンスの詳細Teamsについては、サービスのMicrosoft Teams[を参照してください](/office365/servicedescriptions/teams-service-description)。
+3.  アカウントに割り当てられた適切なユーザー ライセンスTeams  
+    ライセンスの詳細Teamsについては、サービスのMicrosoft Teamsを[参照してください](/office365/servicedescriptions/teams-service-description)。
 
-4.  組織のネットワークを使用Teams  
+4.  組織のネットワークは、ネットワークを使用Teams  
     ネットワークの準備については、「組織のネットワークを準備[する」を参照Teams。](prepare-network.md)
 
-5.  Exchange、SharePoint、OneDrive for Business へのネットワーク アクセスを Microsoft 365 または Office 365: Office 365 URL と IP アドレス範囲[に許可します](/office365/enterprise/urls-and-ip-address-ranges)。
+5.  Exchange、SharePoint、OneDrive for Business へのネットワーク アクセスを Microsoft 365 または Office 365: Office 365 URL と IP アドレス範囲で[許可します](/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!NOTE]
-> 2019 年 9 月 1 日より後に作成されたテナントは、Teamsモードでプロビジョニングされます。
+> 2019 年 9 月 1 日より後に作成されたテナントは、[テナントのみ] Teamsプロビジョニングされます。
 > 
 > [!IMPORTANT]
-> デプロイしたSkype for Business Server、2019 年 9 月 1 日より後にテナントがプロビジョニングされた場合は、サポートに問い合わせ、Teams の共存機能を有効にしてください。 ユーザーにライセンスを割り当てる前に、"組織全体のアップグレード<span class="underline">ポリシー"</span>が [Teams モード] に設定されている必要があります。
+> デプロイがSkype for Business Server、2019 年 9 月 1 日より後にテナントがプロビジョニングされた場合は、サポートに問い合わせ、Teams の共存機能を有効にしてください。 ユーザーにライセンスを割り当てる前に、"組織全体のアップグレード<span class="underline">ポリシー"</span>が "Teams モード" に設定されている必要があります。
 
 ## <a name="migration-starting-points"></a>移行の開始点
 
-Teams の開始点とオンプレミス Skype for Business または Lync サーバーの存在に応じて、Microsoft 365 または Office 365 で使用できる機能と機能を確認する方法。 次のセクションでは、上記の前提条件に加えて、基本的な機能と構成オプションについて詳しく説明します。 開始点のシナリオは、次のトピックに分かれました。
+Teams の開始点とオンプレミスの Skype for Business サーバーまたは Lync サーバーの存在に応じて、Microsoft 365 または Office 365 で使用できる機能と機能をSkype for Business体験します。 次のセクションでは、上記の前提条件に加えて、基本的な機能と構成オプションについて詳しく説明します。 開始点のシナリオを次のトピックに分けしました。
 
 **テナントTeams構成**: テナントモードとユーザー モードを使用して、受信者の動作を制御します。 これらの設定は、テナント レベルまたは組織内のユーザー レベルで割り当てることができます。 詳細については、 との共存に関[する記事をSkype for Business。](coexistence-chat-calls-presence.md)
 
-**チャット/外部通信 Teams:** チャット サービスは、組織内または組織外のチャット会話をピアツーピアまたはグループ化します。 外部通信は、フェデレーションとも呼Skype for Business。
+**チャット/外部通信 Teams:** チャット サービスは、組織内または組織外のチャット会話をピアツーピアまたはグループ化します。 外部通信は、外部通信ではフェデレーションとも呼Skype for Business。
 
-**Teams** で会議を作成して表示する: ユーザーは常に Outlook Teams アドインを使用してオンライン会議を作成できます。PSTN ダイヤルインは、ユーザーのライセンスが取得された後、すべてのシナリオで利用できます。 Teams、Skype for Businessの予定表情報をユーザーのメールボックスに保存Exchangeします。 Teams Exchange Server クライアントがユーザーのメールボックスと対話するには、オンプレミスの Exchange サーバーが 2016 CU3 以上である必要があります。 メールボックスExchangeアクセスできない場合、Teams の予定表アイコンは表示されません。ユーザーは、Teams クライアントで会議を表示、作成、または変更することはできません。
+**Teams** で会議を作成して表示する: ユーザーは常に Outlook Teams アドインを使用してオンライン会議を作成できます。PSTN ダイヤルインは、ユーザーのライセンスを取得すると、すべてのシナリオで利用できます。 TeamsのSkype for Businessのメールボックスに予定表情報を保存Exchangeします。 Teams Exchange Server クライアントがユーザーのメールボックスと対話するには、オンプレミスの Exchange サーバーが 2016 CU3 以上である必要があります。 メールボックスExchangeアクセスできない場合、Teams の予定表アイコンは表示されません。ユーザーは、Teams クライアントで会議を表示、作成、または変更することはできません。
 
 **通話機能 VoIP/PSTN Teams:** 通話には、Voice over IP (VoIP) または Public Switched Telephone Network (PSTN) を使用できます。 VoIP 接続は、ユーザーが外部Teamsダイヤルするときに PSTN 接続が発生する一方で、クライアント間でネイティブに行います。  
 
 Teams 2 種類の PSTN 接続をサポートしています。 Microsoft 通話プラン(ユーザーの電話番号を含むテレフォニー インフラストラクチャを Microsoft が提供する場合)、またはダイレクト ルーティング構成。この場合、お客様は Teams ユーザーのセッション ボーダー コントローラー (SBC) を使用してテレフォニー接続を提供します。  
 詳細については、「どの通話プランが最適か[」](calling-plan-landing-page.md)を参照し、「ダイレクト[電話システム」を参照してください](direct-routing-landing-page.md)。
 
-**Teamsと** チャネルのコラボレーション : Teams: Teams では、チームは、仕事、プロジェクト、または共通の関心を持つユーザーのグループです。 Teamsは、チャネルで作成されます。 各チャネルは、"チーム イベント" や部署名などのトピックを中心に構築されています。また、単に楽しみたい場合も同様です。 チャネルは、会議を開催し、会話を行い、ファイルをまとめて作業する場所です。 コラボレーション中
+**Teamsと** チャネルのコラボレーション : Teams: Teams では、チームは、仕事、プロジェクト、または共通の関心を集め合うユーザーのグループです。 Teamsは、チャネルで作成されます。 各チャネルは、"チーム イベント" や部署名などのトピックを中心に構築されています。また、単に楽しみたい場合も同様です。 チャネルは、会議を開催し、会話を行い、ファイルをまとめて作業する場所です。 コラボレーション中
 
 **OneDrive for Business (P2P** ファイル共有) in Teams : Teams およびチャネルの外部では、Teams ユーザーは、一般的な OneDrive を使用して、または Citrix Files、DropBox、Box、Google ドライブ などの他の P2P 共有ファイル プログラムを使用して、ファイルをピアツーピアで共有できます。 一OneDriveユーザーがオンライン ライセンスを割り当SharePoint必要があります。
 
@@ -169,7 +169,7 @@ Teams の VoIP/PSTN</td>
 
 ## <a name="organizations-span-classunderlinewithspan-skype-for-business-or-lync-server"></a>Skype for Business **<span class="underline"></span>** または Lync サーバーを使用している組織
 
-この開始点は、組織がオンプレミスの Skype for Business 2019 または 2015+ または Lync 2013+ サーバーを使用すると想定しています。 オンプレミス サーバーからオンプレミス サーバーに移行する組織に関する広範なガイダンスTeams、これらのシナリオに従う必要があります。 このガイダンスは、ユーザーがTeamsで使用する最初のアプリケーションであるシナリオMicrosoft 365固有Office 365。 次の表では、コア サービスに対する主要なサービスのTeamsの構成とエンド ユーザーの機能について説明します。
+この開始点は、組織がオンプレミスの Skype for Business 2019 または 2015+ または Lync 2013+ サーバーを使用すると想定しています。 オンプレミス サーバーからオンプレミス サーバーに移行する組織については、既に広範なガイダンスがTeams、これらのシナリオに従う必要があります。 このガイダンスは、特定のアプリケーションでTeams使用する最初のアプリケーションであるシナリオMicrosoft 365固有Office 365。 次の表では、コア サービスに対する主要なサービスのTeamsとエンド ユーザーの機能について詳しい説明します。
 
 <table>
 <thead>
@@ -191,7 +191,7 @@ Teams の VoIP/PSTN</td>
 <td>[会議] を作成して表示Teams</td>
 <td><p>アドインを使用して、内部および外部Outlook作成できます。</p>
 <p>PSTN ダイヤルインとダイヤルアウト機能は、電話会議ライセンスで利用できます。</p>
-<p>Teamsアクセスするには、Exchangeハイブリッドが確立されたオンプレミスの 2016 CU3+ Exchange必要があります。<br />
+<p>Teamsアクセスするには、Exchangeハイブリッドが確立された 2016 CU3+ オンプレミスExchange必要があります。<br />
 <a href="/exchange/hybrid-deployment/deploy-hybrid">ハイブリッド構成ウィザードを使用してハイブリッドデプロイを作成します。</a></p>
 <p>管理者は、Teams 会議ポリシーの PreferredMeetingProviderForIslandsMode 属性<a href="/powershell/module/skype/set-csteamsmeetingpolicy">set-csteamsmeetingpolicy</a>を使用して、Skype for Business Outlook アドインを制御できます。</p> 
 </td>
@@ -254,11 +254,11 @@ Teams の VoIP/PSTN</td>
 
 ## <a name="closing-statement"></a>閉じるステートメント
 
-Microsoft Teams、すべての従業員、情報ワーカー、および Frontline ワーカーを 1 つのプラットフォームにまとめる、組織の有効化者になる場合があります。 今すぐ [開始](https://products.office.com/microsoft-teams/group-chat-software) できます。 最新のお知らせや毎月の製品更新プログラムについては、こちら から連絡 [を取り合います](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)。
+Microsoft Teams、すべての従業員、情報ワーカー、および Frontline worker を 1 つのプラットフォームにまとめる、組織の有効化者になる場合があります。 今すぐ [開始](https://products.office.com/microsoft-teams/group-chat-software) できます。 最新のお知らせや毎月の製品更新プログラムについては、こちら から連絡 [を取り合います](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)。
 
-また、世界中の企業が現在の COVID-19 の状況を管理する中で、Teams を組織で最大限に活用するのに役立つ一連のコンテンツを作成しました。
+さらに、世界中の企業が現在の COVID-19 の状況を管理する中で、Teams を使用して組織に最大の影響を与えるのに役立つ一連のコンテンツを作成しました。
 
-  - [COVID-19 のお客様](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)への取り組み
+  - [COVID-19 の間のお](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)客様への取り組み
 
   - [2 週間: リモート作業について学習した情報](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/18/making-the-switch-to-remote-work-5-things-weve-learned/)
 
@@ -274,25 +274,25 @@ Microsoft Teams、すべての従業員、情報ワーカー、および Frontli
 
   - [教師と学生がリモート学習に切り替えるのを支援する](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/11/helping-teachers-students-switch-remote-learning/)
 
-  - [ユーザーとリモートで作業しながら生産性をMicrosoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/)
+  - [ユーザーとリモートで作業しながら生産性を維持Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/)
 
 ## <a name="support-services-reference"></a>サポート サービス リファレンス
 
-Teamsは、Exchange Online、SharePoint Online、OneDrive for Business、Microsoft 365 グループに依存して、ユーザーに完全に統合された Microsoft 365 または Office 365 エクスペリエンスを提供します。 上で説明したように、Teamsサービスを完全にデプロイせずに機能します。機能は限られています。 詳細については、Teams の前提条件を参照してください。詳細については、「ようこそ」を[参照Teams。](teams-overview.md)
+Teamsは、Exchange Online、SharePoint Online、OneDrive for Business、Microsoft 365 グループに依存して、ユーザーに完全に統合された Microsoft 365 または Office 365 エクスペリエンスを提供します。 上で説明したように、Teamsサービスを完全にデプロイせずに機能します。機能は限られています。 詳細については、Teams の前提条件を参照してください。詳細については、こちらを[参照Teams。](teams-overview.md)
 
 上記の各サービスの詳細については、次のリンク先を参照してください。
 
   - Exchange Onlineは、予定表機能を使用し、ピアツーピア メッセージを Teams。 詳細については、「操作と対話[のExchange」をTeamsしてください。](exchange-teams-interact.md)
 
 > [!IMPORTANT]
-> Teams Exchange との相互運用を行う場合は、「Exchange と Exchange Online 組織の間で OAuth 認証を構成する」の説明に従って、新しい Exchange OAuth 認証プロトコルを構成[する必要があります](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。
+> Teams Exchange との相互運用を行う場合は、「Exchange 組織と Exchange Online 組織の間で OAuth 認証を構成する」の説明に従って、新しい Exchange OAuth 認証プロトコルを構成する[必要があります](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)。
 
   - SharePointはチャネルでのファイル共有に使用されます。/OneDrive for Business は 1:1 またはグループ チャットでのファイル共有に使用されます。 詳細については[、「How SharePoint Online and OneDrive for Business interact with Microsoft Teams](sharepoint-onedrive-interact.md)」を参照してください。
 
   - [Microsoft 365グループは](office-365-groups.md)、チームとチャネルの作成/管理に使用されます。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Microsoft Teams IT アーキテクチャとテレフォニー ソリューション ポスター](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -300,4 +300,4 @@ Teamsは、Exchange Online、SharePoint Online、OneDrive for Business、Microso
 
 [アプリケーションを使用してリモート ワーカーをTeams](support-remote-work-with-teams.md)
 
-[ユーザーとリモートでMicrosoft 365](https://aka.ms/remote-work)
+[アプリケーションを使用してリモートMicrosoft 365](https://aka.ms/remote-work)

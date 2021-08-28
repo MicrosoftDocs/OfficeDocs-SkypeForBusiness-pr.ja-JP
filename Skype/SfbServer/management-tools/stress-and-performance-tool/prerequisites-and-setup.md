@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: 2015 年 2015 年Skype for Business Serverパフォーマンス ツールの要件または前提条件。 ストレスとパフォーマンス ツールをインストールまたはセットアップする方法。
-ms.openlocfilehash: 947cc43f68fc4d3140f664fbeb554096fcbb5cfb8c13d7354bc937af93812e93
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d86dbc085929bfcb9bd52dd7d25f46f92fda8fb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333149"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611926"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Busines Stress and Performance Tool Skypeの前提条件とセットアップ
  
