@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectSite
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: '[サイトの選択] ダイアログ ボックスを使用して、環境で使用可能なサイトを検索します。 既存のサイトを使用するには、一覧でサイトをクリックして [OK] をクリックします。'
-ms.openlocfilehash: d0606bbb3da21c6b0e7631a290a6b0a22da8439f1a12bb34f63769e2c7d207bc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 376cb057e4351581440562c3d24a88d872ab4d35
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636241"
 ---
 # <a name="select-a-site"></a>サイトの選択
 

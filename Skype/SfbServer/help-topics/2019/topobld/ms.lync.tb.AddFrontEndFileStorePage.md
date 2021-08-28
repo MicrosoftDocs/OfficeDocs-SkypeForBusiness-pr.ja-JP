@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndFileStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 ROBOTS: NOINDEX, NOFOLLOW
 description: サーバーまたはフロントエンド プールのファイル ストアとして使用するファイル共有Standard Edition指定Enterprise Edition必要があります。 ファイル ストアに既存のファイル共有を使用するか、ファイル共有を保存するファイル サーバーの完全修飾ドメイン名 (FQDN) と、新しいファイル共有のフォルダー名を指定して、新しいファイル共有を指定できます。
-ms.openlocfilehash: 90860ff365ff1d5ff2279dc32df96f77d9725c895c7587f9606ccfab21364668
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dab736fd89a3227e6503edf577bfc924cfb5ec1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317628"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624209"
 ---
 # <a name="add-front-end-file-store"></a>フロント エンド ファイル ストアの追加
 

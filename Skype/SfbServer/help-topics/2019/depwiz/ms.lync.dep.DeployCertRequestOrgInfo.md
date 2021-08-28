@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[組織情報] ペインでは、証明書を要求している組織と組織単位 (OU) (通常、部または課) の名前を指定できます。[組織] および [組織単位] テキスト ボックスに入力する情報は、証明書に表示され、第三者が証明書を表示したときに、誰が証明書を要求したのかを特定するために使用されます。'
-ms.openlocfilehash: 5140b4030f207c0ce677108ed6b8364225bf4d12c4a3008d122432772e40841e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd6cc5199e2000cc883126f684b63bca97b940ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330481"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595941"
 ---
 # <a name="certificate-request-organization-information"></a>証明書要求 (組織情報)
  

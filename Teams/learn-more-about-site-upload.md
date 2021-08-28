@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20204d0c766a9ff248ff8354d9367a9903149d46
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: d875108648ca8fe91d67c03b7c569c59048cfa43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589721"
 ---
 # <a name="add-and-update-reporting-labels"></a>レポート ラベルを追加して更新する
 
@@ -59,7 +59,7 @@ ms.locfileid: "58235012"
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|マウンテン ビュー|94043|米国|CA|米国|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|マウンテン ビュー|94043|米国|CA|米国|1|1|
 
-データ ファイルの書式設定の詳細については、「テナント データ ファイル形式」および「データ ファイル構造の構築 [」を参照してください](CQD-upload-tenant-building-data.md#upload-building-data-file)。
+データ ファイルの書式設定の詳細については、「テナント データ ファイル形式」と「データ ファイル構造の [構築」を参照してください](CQD-upload-tenant-building-data.md#upload-building-data-file)。
 
 ## <a name="related-topics"></a>関連トピック
 

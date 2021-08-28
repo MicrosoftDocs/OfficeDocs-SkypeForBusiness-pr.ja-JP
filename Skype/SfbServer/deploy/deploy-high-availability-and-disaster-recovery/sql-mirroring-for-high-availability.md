@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、「累積的な更新プログラム パッケージ 9 for SQL Server 2008 Service Pack 1」を参照してください。
-ms.openlocfilehash: 454222526790e4185b7416c2f7df36ea024ebf5a40fc085cdc37d56dfa646217
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5432d7715a9fa6f73d7dcc663cf7a092369b746e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319490"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595991"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>2015 SQLのバック エンド サーバーの高可用性に対するミラー Skype for Business展開する
 
@@ -61,7 +61,7 @@ SQL ミラーリングでは、ミラーリングのトポロジの構成を、�
 3. トポロジを公開します。
 
 > [!NOTE]
-> ミラー ファイルを書き込むにはファイル共有を作成し、SQL Server および SQL エージェントが実行しているサービスには読み取り/書き込みアクセスが必要です。 SQL Server サービスがネットワーク サービスのコンテキストで実行されている場合は、プリンシパル サーバーとミラー SQL サーバーの両方の \<Domain\> \\<SQLSERVERNAME $ を共有 \> アクセス許可に追加できます。 $$、これがコンピューター アカウントである場合に重要です。
+> ミラー ファイルを書き込むにはファイル共有を作成し、SQL Server および SQL エージェントが実行しているサービスには読み取り/書き込みアクセスが必要です。 SQL Server サービスがネットワーク サービスのコンテキストで実行されている場合は、プリンシパル サーバーとミラー SQL サーバーの両方の \<Domain\> \\<SQLSERVERNAME $ を共有 \> アクセス許可に追加できます。 $は、これがコンピューター アカウントである場合に重要です。
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>トポロジ ビルダー SQL作成中にミラーリングを構成するには
 

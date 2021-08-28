@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[サービスの選択] ダイアログ ボックスを使用して、環境で利用可能なサービスを検索します。 既存のサービスを使用するには、一覧でサービスをクリックして [OK] をクリックします。'
-ms.openlocfilehash: 60d9438e65643e693266ddca3ed5fed2357e32f3f726aa4a3b772504ba6cb0e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 22877c1cbc8b5952cf5e9ad5b622fc83fa8ba6d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297483"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616853"
 ---
 # <a name="select-a-service"></a>サービスの選択
 

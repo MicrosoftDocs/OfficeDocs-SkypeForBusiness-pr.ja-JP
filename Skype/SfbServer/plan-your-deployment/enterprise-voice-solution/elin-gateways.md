@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: ELIN ゲートウェイを使用した E9-1-1 展開の場所情報データベースまたは類似の外部データベースを計画するために必要なSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: e3843735006460792f414e685c15552c54a64e1c7896b02b1b0922b31a84e106
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb0656909866a793bc8d64635b17785020dd646d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596511"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>ELIN ゲートウェイの場所を管理Skype for Business Server
 
@@ -62,11 +62,11 @@ ELIN ゲートウェイを使用する場合は、場所情報サービス デ�
 
 **場所と ELIN の割り当てのサンプル**
 
-|**建物内のエリア**|**場所**|**ELIN**|
+|**建物内のエリア**|**Location**|**ELIN**|
 |:-----|:-----|:-----|
-|1 階  <br/> |1  <br/> |425-555-0100  <br/> |
-|2 階  <br/> |2  <br/> |425-555-0111  <br/> |
-|3 階  <br/> |3  <br/> |425-555-0123  <br/> |
+|1 階  <br/> |1   <br/> |425-555-0100  <br/> |
+|2 階  <br/> |2   <br/> |425-555-0111  <br/> |
+|3 階  <br/> |3   <br/> |425-555-0123  <br/> |
 
 定義する場所は次の要件を満たすことが推奨されます。
 

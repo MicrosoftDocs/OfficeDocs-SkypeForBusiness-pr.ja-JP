@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 description: 初期トポロジの展開時やその後に、外部ユーザー アクセスのサポートを追加できます。既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「Define Your Edge Topology」を参照してください。
-ms.openlocfilehash: bd1a76778b3c54925ca67ed2cdee076fbb97c721821b7cb97fdff681182d8619
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 961acf2efb30312e19af6d453ee678f3a04bebd9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298347"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636111"
 ---
 # <a name="add-edge-server-support"></a>エッジ サーバーのサポートの追加
 

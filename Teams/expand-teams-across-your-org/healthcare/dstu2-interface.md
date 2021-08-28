@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: Teams で DSTU2 インターフェイスの仕様について説明します。Microsoft Teams Patients アプリで動作する FHIR サーバーの設定や再構成などです。
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ec2b1a88d99937e83bc8553f7dbcdd8d92f78b5a8e5708301147a26f0cffe4a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d4b8e1d965cd3b0704885d6f86e376cfc3c9316
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308766"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589731"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 インターフェイスの仕様
 
@@ -33,7 +33,7 @@ ms.locfileid: "54308766"
 >
 >リストを使用すると、医療機関のケア チームは、ラウンドや学際的なチーム会議から一般的な患者の監視に至るまでのシナリオで患者リストを作成できます。 開始するには、リストの患者テンプレートを確認してください。 組織でリスト アプリを管理する方法の詳細については、「[リスト アプリの管理](../../manage-lists-app.md)」を参照してください。
 
-Microsoft Teams Patients アプリで動作する FHIR サーバーを設定または再構成するには、アプリがアクセスする必要があるデータを理解する必要があります。 FHIR サーバーは、次のリソースのバンドルを使用した POST 要求をサポートする必要があります。
+Microsoft Teams Patients アプリを操作するために FHIR サーバーを設定または再構成するには、アプリがアクセスする必要があるデータを理解する必要があります。 FHIR サーバーは、次のリソースのバンドルを使用した POST 要求をサポートする必要があります。
 
 - [患者](#patient)
 - [観察](#observation)
@@ -45,7 +45,7 @@ Microsoft Teams Patients アプリで動作する FHIR サーバーを設定ま�
 - [場所](#location)
 
 > [!NOTE]
-> Patient リソースは唯一の必須リソースです (アプリが読み込めずに)。 ただし、パートナーは、以下に示す仕様に従って上記のすべてのリソースのサポートを実装し、Microsoft Teams Patients アプリを使用した最適なエクスペリエンスを実現Microsoft Teams勧めします。
+> Patient リソースは唯一の必須リソースです (アプリが読み込めずに)。 ただし、パートナーは、以下に示す仕様に従って上記のすべてのリソースのサポートを実装して、Microsoft Teams Patients アプリを使用した最適なエクスペリエンスを実現Microsoft Teams勧めします。
 
 FHIR サーバー Microsoft Teams要求のバンドル (BATCH) 後に複数のリソースについて、Microsoft Teams Patients アプリからクエリを実行します。 サーバーは各要求を処理し、各要求に一致するリソースのバンドルを返します。 詳細と例については、 を参照してください [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) 。
 
@@ -128,7 +128,7 @@ Argonaut フィールドに加えて、ユーザー エクスペリエンスを�
  - given=\<substring>
  - name=\<substring>
  - birthdate=(完全一致)
- - \_count (返される結果の最大数) <br> 応答には、検索の結果として返されたレコードの総数を含める必要があります。Count は、PatientsApp によって返されるレコードの数を制限するために \_ 使用されます。
+ - \_count (返される結果の最大数) <br> 応答には、検索の結果として返されたレコードの総数が含まれている必要があります。また、返されるレコードの数を制限するために、PatientsApp によってカウントが \_ 使用されます。
  - identifier=\<mrn>
 
 目標は、次の方法で患者を検索してフィルター処理できる状態に設定します。
@@ -429,7 +429,7 @@ Response:
 
  - DateWritten
  - Prescriber.Display
- - しだい.Display (参考資料の場合)
+ - しだい.Display (参考の場合)
  - しだい.Text (概念の場合)
 
 Argonaut フィールドに加えて、ユーザー エクスペリエンスを向上するために、Patients アプリは次のフィールドも読み取り可能です。

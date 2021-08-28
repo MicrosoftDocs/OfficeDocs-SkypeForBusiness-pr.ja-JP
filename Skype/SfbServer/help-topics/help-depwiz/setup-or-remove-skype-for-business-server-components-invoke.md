@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployBootstrapInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 description: '[コマンドを実行しています] には、サーバーの役割を展開するために実行されるタスクの実行概要が表示されます。 タスクが完了すると、展開とアクティブ化、非アクティブ化、アンインストールが完了すると、概要が表示されます。 また、ドロップダウン リストでは、コマンドの実行時に作成されたログ ファイルを選択できます。 ドロップダウン リストを使用して表示するログ ファイルを選択し、[ログの表示] をクリックします。'
-ms.openlocfilehash: d14e794c349bcff25efec8f468e8dae9160c26222543ca91eec95893843da889
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86e795c208e148077c858ebaefe00675bfbbc71d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285087"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604046"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Skype for Business Server コンポーネントのセットアップまたは削除 (起動)
  
