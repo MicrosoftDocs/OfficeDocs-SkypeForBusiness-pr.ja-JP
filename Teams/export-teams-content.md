@@ -7,8 +7,8 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
-description: この記事では、エクスポート API を使用してTeamsコンテンツをエクスポートMicrosoft Teams説明します。
-localization_priority: Normal
+description: この記事では、エクスポート API を使用してTeamsコンテンツをエクスポートするMicrosoft Teams説明します。
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f69a46404278a86ef17a18398c9eb8e62c3ef7eb46acb3f39ec075d553ac7383
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b9d298ad18c6ed63c269c5f31b923a89e63a9f96
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299226"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620643"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams Export API を使用してコンテンツをエクスポートする
 
@@ -36,16 +36,16 @@ Teamsエクスポート API を使用すると、1 対 1、グループ チャ�
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>Teams Export API でサポートされる機能
 
-- **Teams メッセージの** 一括エクスポート: Teams Export API は、テナントあたり最大 200 RPS、アプリケーションに 600 RPS をサポートします。これらの制限により、Teams メッセージを一括エクスポートできる必要があります。
-- **アプリケーション コンテキスト**: Microsoft Graph を呼び出す場合、アプリはアプリからアクセス トークンを取得Microsoft ID プラットフォーム。 アクセス トークンには、アプリに関する情報と、Microsoft Graph で使用できるリソースと API に対するアクセス許可が含まれます。 アクセス トークンを取得するには、アプリを Microsoft ID プラットフォーム に登録し、必要な Microsoft Graph リソースへのアクセスをユーザーまたは管理者が承認する必要があります。
+- **Teams メッセージの** 一括エクスポート: Teams Export API は、テナントごとに最大 200 RPS、アプリケーションに 600 RPS をサポートします。これらの制限により、Teams メッセージを一括エクスポートできる必要があります。
+- **アプリケーション コンテキスト**: Microsoft Graph を呼び出す場合、アプリはアプリケーションからアクセス トークンを取得Microsoft ID プラットフォーム。 アクセス トークンには、アプリに関する情報と、Microsoft Graph で使用できるリソースと API に対するアクセス許可が含まれます。 アクセス トークンを取得するには、アプリを Microsoft ID プラットフォーム に登録し、必要な Microsoft Graph リソースへのアクセスをユーザーまたは管理者が承認する必要があります。
 
     アプリと Microsoft ID プラットフォーム を統合してトークンを取得する方法を既に理解している場合は、「次[](/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)のステップ」セクションで Microsoft Graph に固有の情報とサンプルを参照してください。
 - **ハイブリッド環境:** エクスポート API は、ハイブリッド環境 (オンプレミスのアプリケーションとクラウド) でプロビジョニングされたユーザーによって送信ExchangeメッセージTeams。 ハイブリッド環境用に構成されているユーザーによって送信されたメッセージには、エクスポート API を使用してアクセスできます。
-- **ユーザーが削除したメッセージ:** Teams クライアントからユーザーによって削除されたメッセージには、削除時から最大 21 日後にエクスポート API を使用してアクセスできます。
+- **ユーザーが削除したメッセージ:** Teams クライアントからユーザーによって削除されたメッセージには、削除時から最大 21 日間、エクスポート API を使用してアクセスできます。
 - **メッセージの添付ファイル:** エクスポート API には、メッセージの一部として送信される添付ファイルへのリンクが含まれます。 Export API を使用すると、メッセージに添付されているファイルを取得できます。
 - **チャット メッセージのプロパティ:** Export API でサポートされているプロパティの完全Teamsについては、 を参照 [してください](/graph/api/resources/chatmessage?view=graph-rest-beta#properties)。
 
-## <a name="how-to-access-teams-export-apis"></a>エクスポート API Teamsアクセスする方法
+## <a name="how-to-access-teams-export-apis"></a>エクスポート API にTeamsする方法
 
 - **例 1 は** 、フィルターなしでユーザーまたはチームのすべてのメッセージを取得する簡単なクエリです。
 
@@ -71,7 +71,7 @@ Teamsエクスポート API を使用すると、1 対 1、グループ チャ�
 
 - Teamsエクスポート API は現在プレビュー中です。 API に必要なライセンスを持つユーザーとテナント [だけが](/graph/teams-licenses) 使用できます。 今後、Microsoft は、API を介してアクセスされるデータの量に基づいて、お客様または顧客に追加料金の支払いを要求する場合があります。
 - Microsoft Teams機密データにアクセスGraphする Microsoft Graph API は、保護された API と見なされます。 エクスポート API を使用するには、アクセス許可と同意以外の追加の検証が必要です。 これらの保護された API へのアクセスを要求するには、要求フォーム に [入力します](https://aka.ms/teamsgraph/requestaccess)。
-- アプリケーションのアクセス許可は、サインインしているユーザーが存在しない場合に実行されるアプリで使用されます。アプリケーションのアクセス許可は、管理者だけが同意できます。 次のアクセス許可が必要です。
+- アプリケーションのアクセス許可は、サインインしているユーザーが存在せずに実行されるアプリによって使用されます。アプリケーションのアクセス許可は、管理者だけが同意できます。 次のアクセス許可が必要です。
 
     - *Chat.Read.All*: すべての 1:1、グループ チャット、および会議チャット メッセージへのアクセスを有効にする 
     - *ChannelMessage.Read.All*: すべてのチャネル メッセージへのアクセスを有効にする  

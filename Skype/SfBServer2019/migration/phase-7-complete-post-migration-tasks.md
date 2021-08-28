@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: このセクションのトピックでは、2019 年に移行を完了した後に実行するSkype for Business Serverします。
-ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 69925a59b2ad34e57d24a86af21b36be76a3e571
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298907"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620633"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>フェーズ 7: 移行後のタスクの実行
 

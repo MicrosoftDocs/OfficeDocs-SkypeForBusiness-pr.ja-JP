@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '概要: Config.xmlファイルを使用して、追加のインストール手順を指定する方法について説明します。'
-ms.openlocfilehash: b7c04a9c08f6a5dd51c21a189ce3a07d81a589cf694e5020a75cf6f646bd1cef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f79dcc1d31fdd862ca8705552d7894dcdd90fcd7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332049"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620493"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>クライアントConfig.xmlインストール タスクを実行するには、Skype for Business使用します。
 
@@ -54,7 +54,7 @@ Office カスタマイズ ツール (OCT) はカスタマイズ インストー�
 | OptionState  <br/>       | インストール中、特定の製品の機能が処理される方法を指定します。 次の属性を使用して、Business Connectivityサービスのインストールを防止します。この属性には、Outlook。 <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | ディスプレイ  <br/>           | セットアップがユーザーに表示する UI のレベル。一般的には次の属性があります。 <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | ログ記録  <br/>           | セットアップが実行するログ記録の種類のオプション。一般的には次の属性があります。 <br/>  Type ="Off"                                                                                                                                                                                       |
-| Setting  <br/>           | Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。<br/>  Id="*の名前を設定* する (インストーラー プロパティのWindows)  <br/>  Value=" *値*" (プロパティに割り当てる値)  <br/>                                                             |
+| 設定  <br/>           | Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。<br/>  Id="*の名前を設定* する (インストーラー プロパティのWindows)  <br/>  Value=" *値*" (プロパティに割り当てる値)  <br/>                                                             |
 | DistributionPoint  <br/> | インストールを実行するネットワーク インストール ポイントの完全修飾パス<br/>  Location=" *パス*"  <br/>                                                                                                                                     |
 
 次の使用例は、Config.xmlクライアントの一般的なサイレント インストール用のSkype for Businessします。 

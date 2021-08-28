@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: '概要: このトピックを参照して、監視サービスを計画Skype for Business Server。'
-ms.openlocfilehash: 0845fb0aa266b955fd86ebc7abf418b98034e31334fbc50dbbb048040e943cf4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 561bff18f7c5c9a358513ab73c2ff272546f93c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306738"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620943"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>監視の計画を立Skype for Business Server
 
@@ -32,7 +32,7 @@ Skype for Business Server の監視サービスは、管理者が組織で行う
 
 セッションは、ユーザーの次の接続の総称です。
 
-- Conference
+- 会議
 
 - 音声/ビデオやアプリケーション共有などの会議ツール
 

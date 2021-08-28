@@ -9,25 +9,25 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: テンプレートを使用して、クラウドの音声機能を Teams または Skype for Business に実装する場合に、ユーザーにメールを送信します。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 03a770ddcc9806fdd21199da2661710acc7ca0cb10ab6bc0143267299754ac1b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34e15e3b9fccd466905572e6cd234da2f498216b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276113"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617203"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>新しいオンライン電話システムのユーザー導入を促進する
 
-電話はユーザーのライフラインです。 従来の電話システムからオンライン電話システムへの切り替えは、ユーザーの作業方法の大きな変化を表し、生産性に悪影響を及ぼす可能性があります。 この変更を通じてユーザーに通知、ガイド、サポートを行う時間を取って、ユーザー エクスペリエンスを肯定的にし、投資収益を最大化するのに役立ちます。
+電話はユーザーのライフラインです。 従来の電話システムからオンライン電話システムへの切り替えは、ユーザーの作業方法の大きな変化を表し、生産性に悪影響を及ぼす可能性があります。 この変更を通じてユーザーに通知、ガイド、サポートを行う時間を取り、ユーザー エクスペリエンスを向上し、投資収益を最大化するのに役立ちます。
 
-この記事には、新しい電話システムについてユーザーに知らせるのに役立つカスタマイズ可能なメール テンプレートが含まれている。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 個人用設定を簡単に行うセクションを示すために角かっこを使用しましたが、お知らせをユーザーに最も関連性の高いものにするために、組織固有のメッセージングを追加することをお勧めします。 デプロイに該当する場合は、すべての参照を "Teams" に置き換Skype for Business。
+この記事には、新しい電話システムについてユーザーに知らせるのに役立つカスタマイズ可能なメール テンプレートが含まれている。 特定の音声展開に合わせて適切なメールをカスタマイズして送信します。 個人用設定を簡単に行うセクションを示すために角かっこを使用しましたが、お知らせをユーザーにとって最も関連性の高い情報にするために、組織固有のメッセージングを追加することをお勧めします。 デプロイに該当する場合は、すべての参照を "Teams" に置き換Skype for Business。
 
 ## <a name="email-number-1-send-three-weeks-before-launch"></a>メール番号 1: 起動の 3 週間前に送信する
 

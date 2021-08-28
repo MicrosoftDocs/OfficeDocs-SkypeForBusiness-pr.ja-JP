@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: ユーザーが会議出席依頼の会議リンクをクリックすると、会議参加ページによって、ユーザーのコンピューターに既にインストールされているクライアントが検出されます。 クライアントがすでにインストールされている場合、そのクライアントが会議を開き、参加します。 クライアントがインストールされていない場合は、既定で Web アプリが開きます。
-ms.openlocfilehash: c90e8afa95a73618eb1aa95b3d8d174e950e7e92a49988cb6146209f49cc0e58
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cba2a6ea0bc54eae6c30265c21d33d01ec951c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295124"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617113"
 ---
 # <a name="configure-the-meeting-join-page"></a>会議参加ページの構成
 
@@ -26,7 +26,7 @@ ms.locfileid: "54295124"
   
 **会議参加ページの CsWebServiceConfiguration のパラメーター**
 
-|**CsWebServiceConfiguration のパラメーター**|**Description**|
+|**CsWebServiceConfiguration のパラメーター**|**説明**|
 |:-----|:-----|
 |ShowJoinUsingLegacyClientLink  <br/> |True に設定すると、Lync 以外のクライアント アプリケーションを使用して会議に参加するユーザーには、会議に参加する機会が与えられる。 既定値は False です。  <br/> |
 |ShowAlternateJoinOptionsExpanded  <br/> |True に設定すると、オンライン会議に参加するための代替オプションが自動的に展開され、ユーザーに表示されます。 False (既定値) に設定すると、これらのオプションを使用できますが、ユーザーはオプションの一覧を表示する必要があります。  <br/> |

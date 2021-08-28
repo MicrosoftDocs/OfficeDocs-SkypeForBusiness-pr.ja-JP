@@ -14,20 +14,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
-description: 電話番号を別の電話番号に移植した後に、次に行う必要があるSkype for Business。
-ms.openlocfilehash: b4a3a3f680b1618798e3bb28f529dbf0a706b3225661fadb028f3690aaf5847d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 電話番号を別の電話番号に移植した後に、次に行う必要Skype for Business。
+ms.openlocfilehash: ded25bcbe650344dcd40c6f6ed34c82eb70cefeb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326643"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620563"
 ---
 # <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>電話番号を移植した後、何をする必要がありますか?
 

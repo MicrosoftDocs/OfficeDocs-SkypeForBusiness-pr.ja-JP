@@ -15,22 +15,22 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号を変更またはブロックする方法について説明します。
-ms.openlocfilehash: 7157f1a2a7997a8278ac05ac74db676cb551b20d5858b8732e373429f4b5e5aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ee663a627e89d7ea2a569496a899d2d68b8366ef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341442"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619633"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号ポリシーを管理する
 
 > [!NOTE]
-> 呼び出し元 ID をリソース アカウントの電話番号に設定し、発信者名を設定するには、Teams PowerShell モジュール 2.3.1 以降の PowerShell コマンドレット New-CsCallingLineIdentity または Set-CsCallingLineIdentity を使用します。 (これらのオプションは現在、管理センター Microsoft Teams使用できません)。 
+> 呼び出し元 ID をリソース アカウントの電話番号に設定し、発信者名を設定するには、Teams PowerShell モジュール 2.3.1 以降の PowerShell コマンドレット New-CsCallingLineIdentity または Set-CsCallingLineIdentity を使用します。 (これらのオプションは、現在、管理センター Microsoft Teams使用できません)。 
 
-既定では、ユーザーが PSTN Teams通話を行った場合、ユーザーの電話番号Teams表示されます。 同様に、PSTN 発信者がユーザーに通話を発信Teams PSTN 発信者の電話番号が表示されます。
+既定では、ユーザー Teams PSTN 電話に通話を発信すると、そのユーザーの電話番号Teams表示されます。 同様に、PSTN 発信者がユーザーに通話を発信Teams PSTN 発信者の電話番号が表示されます。
 
 管理者は、発信者番号ポリシーを使用して、発信者番号 (通話回線 ID とも呼ばれる) を変更またはブロックできます。 発信者番号ポリシーを使用して、組織内の Teams ユーザーの代替電話番号を表示したり、発信電話番号をブロックしたり、着信番号の表示をブロックしたり、発信者名 (CNAM) を設定したりすることができます。 たとえば、ユーザーが通話を行う場合、発信者番号を変更して、ユーザーの電話番号の代わりに組織のメイン電話番号と会社名を表示できます。
 

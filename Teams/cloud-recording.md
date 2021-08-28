@@ -12,19 +12,19 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Teams にクラウド音声機能を展開して、音声、ビデオ、画面共有活動をキャプチャして、Teams 会議やグループ通話を記録するための実践的なガイダンスです。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
-ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
+ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531017"
+ms.locfileid: "58620703"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -291,7 +291,7 @@ Teams 会議の記録 (チャネル以外、チャネル、アドホック会議
   
 60 日後に再び視聴される可能性がほとんどない記録を削除することで、テナントのストレージ負荷が軽減されることは、ほぼすべてのお客様にとってメリットになります。 すべてのお客様に、既定でできる限りクリーンなエクスペリエンスを提供することが Microsoft の目標です。 
   
-**データにアクセスしたりダウンロードしたりしても、30 日後には自動的に削除されますか?**
+**データにアクセスまたはダウンロードされた場合でも、自動的に削除されますか?**
   
 ファイルにアクセスしても、有効期限は変わりません。 
   

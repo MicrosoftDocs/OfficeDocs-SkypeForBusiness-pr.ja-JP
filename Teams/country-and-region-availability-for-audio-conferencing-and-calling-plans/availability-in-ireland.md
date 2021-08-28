@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: アイルランドで使用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
-ms.openlocfilehash: 3db7e8c9e8eb49da2825777dc831ede2892c56a8738943af5637c6578efa4070
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: アイルランドで使用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
+ms.openlocfilehash: 068f5eb40a034043451b19bd1eb65c89b4f59efd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318510"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619523"
 ---
 # <a name="availability-in-ireland"></a>アイルランドでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-アイルランドで使用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
+アイルランドで使用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -82,7 +82,7 @@ ms.locfileid: "54318510"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

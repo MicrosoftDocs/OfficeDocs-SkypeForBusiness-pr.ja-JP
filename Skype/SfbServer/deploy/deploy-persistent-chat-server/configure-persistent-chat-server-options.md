@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '概要: 2015 年のグローバル レベル、サイト レベル、またはプール レベルで常設チャット サーバー オプションを構成するSkype for Business Serverします。'
-ms.openlocfilehash: 8b9e351e32b0a255cfca0f0996961075c94b17b3b9c0ab45704b27d10b709a23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 73ed46368041cab611576f4d8fadb9b586165dfc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337127"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620113"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバー のSkype for Business Serverする
  

@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,21 +16,21 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: システム ダイレクト ルーティングを構成Microsoft 電話方法について説明します。
-ms.openlocfilehash: ff560ca9417e5386819a90961562520da94d5cfcd65bd5348bd7718601610bf1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d6b767ace4f00e581e99ec73585b0b596029b17e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337415"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619463"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>電話番号を別の形式に翻訳する
 
 この記事では、発信呼び出しと受信呼び出しの番号を別の形式に変換する方法について説明します。  これは、ダイレクト ルーティングを構成するための次の手順の手順 4 です。
 
-- 手順 1. [Connect システムを使用して SBC Microsoft 電話し、接続を検証する](direct-routing-connect-the-sbc.md) 
+- 手順 1. [Connect システムを使用して SBC Microsoft 電話接続を検証する](direct-routing-connect-the-sbc.md) 
 - 手順 2. [ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする](direct-routing-enable-users.md)   
 - 手順 3. [音声ルーティングを構成する](direct-routing-voice-routing.md)
-- **手順 4.数値を別の形式に翻訳する**   (この記事)
+- **手順 4.数値を別の形式に変換する**   (この記事)
 
 ダイレクト ルーティングを設定するために必要なすべての手順については、「ダイレクト ルーティングの構成 [」を参照してください](direct-routing-configure.md)。
 
@@ -64,7 +64,7 @@ SBC に割り当てられた翻訳規則を次の表にまとめると、次の�
 |名前  |パターン |変換  |
 |---------|---------|---------|
 |AddPlus1     |^(\d {10} )$          |+1$1          |
-|AddE164SeattleAreaCode      |^(\d {4} )$          | +1206555$1         |
+|AddE164SeattleAreaCode      |^(\d {4} )$          | + 1206555$1         |
 |AddSeattleAreaCode    |^(\d {4} )$          | 425555$1         |
 |StripPlus1    |^+1(\d {10} )$          | $1         |
 
@@ -72,8 +72,8 @@ SBC に割り当てられた翻訳規則を次の表にまとめると、次の�
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>例 1: 10 桁の番号への着信呼び出し
 
-Bob は、E.164 以外の 10 桁の番号を使用して Alice を呼び出します。 Bob は、2065550100をダイヤルして Alice に到達します。
-SBC では、RequestURI 2065550100 To ヘッダーの値と From ヘッダー 4255550100を使用します。
+Bob は、E.164 以外の 10 桁の番号を使用して Alice を呼び出します。 Bob は、2065550100にダイヤルします。
+SBC では、RequestURI 2065550100 To ヘッダー内のヘッダーと From ヘッダー 4255550100を使用します。
 
 
 |ヘッダー  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
@@ -97,7 +97,7 @@ SBC では、RequestURI ヘッダーと To ヘッダーで 0100 を使用し、F
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>例 3: 10 桁の非 E.164 番号を使用した発信呼び出し
 
 Alice は、10 桁の番号を使用して Bob を呼び出します。 Alice は 425 555 0100 にダイヤルして Bob に到達します。
-SBC は、ユーザーと PSTN ユーザーの両方に E.164 以外の 10 桁の番号Teams構成されています。
+SBC は、ユーザーと PSTN ユーザーの両方に E.164 以外の 10 Teamsを使用するように構成されています。
 
 このシナリオでは、ダイヤル プランは、ダイレクト ルーティング インターフェイスに送信する前に番号を変換します。 Alice が Teams クライアントに 425 555 0100 を入力すると、国のダイヤル プランによって番号が +14255550100 に変換されます。 結果として得られる数値は、ダイヤル プラン ルールと翻訳ルールのTeams正規化です。 このTeams、ダイヤル プランによって追加された "+1" を削除します。
 

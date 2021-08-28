@@ -10,23 +10,23 @@ audience: admin
 description: 組織のニーズを満たすために大規模なチームMicrosoft Teams管理するためのベスト プラクティスについて説明します。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 18c711fbe7a84bffeb5b3e897b72325aae5281a4e0258da5be6f3df6f96ca43c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d856a47fb4d7888dcaa990cde9a3dd151dac79ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310845"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619673"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>大規模なチームを管理する Microsoft Teams - ベスト プラクティス
 
-Microsoft Teams数十人のメンバーを含む小さなグループと、何千人ものメンバーを持つ大規模なグループとの間の通信を促進する場合にも同様に効果的です。 チーム[サイズの更新プログラムについては、「Teams](limits-specifications-teams.md)の制限と仕様」を参照してください。 チーム サイズを増やすと、独自の管理と運用上の課題が生じします。 この記事では、数千人のメンバーで構成される大規模なチームを作成および管理するためのベスト プラクティスについて説明します。
+Microsoft Teams数十人のメンバーを含む小さなグループと、数千人のメンバーを持つ大規模なグループとの間の通信を促進する場合にも同様に効果的です。 チーム[のサイズに関する更新プログラムTeams](limits-specifications-teams.md)の制限と仕様を確認してください。 チーム サイズを増やすと、独自の管理と運用上の課題が生じします。 この記事では、数千人のメンバーで構成される大規模なチームを作成および管理するためのベスト プラクティスについて説明します。
 
 ## <a name="value-of-large-teams"></a>大規模なチームの価値
 
@@ -48,9 +48,9 @@ Microsoft Teams数十人のメンバーを含む小さなグループと、何�
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>チームのメンバーを一括インポート/エクスポート/削除する
 
-Azure Portal を使用すると、ユーザーはグループ内のメンバーを一括Microsoft 365できます。 詳細については、「グループ メンバーを一括 [インポートするには」を参照してください](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)。
+Azure portal を使用すると、ユーザーはグループ内のメンバーを一括Microsoft 365できます。 詳細については、「グループ メンバーを一括 [インポートするには」を参照してください](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)。
 
-すべてのチームは Microsoft 365 グループによってサポートされています。Azure portal を使用して、チームに対応するグループでこれらの操作を実行できます。 メンバーの操作は、24 時間以内にチームに反映されます。
+すべてのチームは Microsoft 365 グループによってサポートされているので、Azure portal を使用して、チームに対応するグループでこれらの操作を実行できます。 メンバーの操作は、24 時間以内にチームに反映されます。
 
 ## <a name="create-channels-to-focus-discussions"></a>ディスカッションのためのチャネルを作成する
 
@@ -72,7 +72,7 @@ Azure Portal を使用すると、ユーザーはグループ内のメンバー�
 
 ## <a name="regulate-applications-and-bots-in-large-teams"></a>大規模なチームのアプリケーションとボットを規制する
 
-気が散るアプリケーションやボットが追加されるのを防ぐために、チーム所有者は、チーム メンバーのアプリとコネクタを無効、追加、削除、アップロードできます。 管理センターの [メンバーのアクセス **許可設定 >]** で、メンバーがアプリまたはコネクタを追加できる 3 つのオプションをオフにします。
+気が散るアプリケーションやボットが追加されるのを防ぐために、チーム所有者はチーム メンバーのアプリとコネクタを無効、追加、削除、アップロードできます。 管理センターの [メンバーのアクセス **設定 >]** で、メンバーがアプリまたはコネクタを追加できる 3 つのオプションをオフにします。
 
 ![[アクセス許可] ウィンドウの [メンバーのアクセス許可] セクションを設定画像。](media/disable-bots-connectors.png "[メンバー] ウィンドウの [メンバーアクセス許可] セクションを設定画像。メンバーにアプリまたはコネクタの追加を許可するオプションはオフです。")
 
@@ -80,7 +80,7 @@ Azure Portal を使用すると、ユーザーはグループ内のメンバー�
 
 ## <a name="regulate-team-and-channel-mentions"></a>チームとチャネルのメンションを調整する
 
-チームとチャネルのメンションを使用して、チーム全体の注意を特定のチャネル投稿に引き付けできます。 投稿でメンションを使用すると、何千人ものチーム メンバーに通知が送信されます。 通知が頻繁すぎる場合、チーム メンバーが過負荷になり、チーム所有者に不満を示す可能性があります。 チームまたはチャネルのメンションを防ぐには、チームウィンドウのボックスをオフにして、メンバーのチームとチャネルのメンション **設定 > @mentions** します。
+チームとチャネルのメンションを使用して、チーム全体の注意を特定のチャネル投稿に引き付けできます。 投稿でメンションを使用すると、何千人ものチーム メンバーに通知が送信されます。 通知が頻繁すぎる場合、チーム メンバーが過負荷になり、チーム所有者に不満を示す可能性があります。 チームまたはチャネルのメンションを防ぐには、[チーム] ウィンドウのボックスをオフにして、メンバーのチームとチャネルの **メンション設定 > @mentions** します。
 
 ![[コメント] ウィンドウの [メンション] セクションを設定画像。](media/no-at-mentions.png "[コメント] ウィンドウの [メンション] セクションを設定画像。[メンションでメンバーにアクセス権を与える] と [メンション] のオプションはオフです。")
 
@@ -88,7 +88,7 @@ Azure Portal を使用すると、ユーザーはグループ内のメンバー�
 
 チーム所有者はチャネルのモデレーションを有効にして、対象チャネルで新しい投稿を開始できるユーザーと、投稿に返信できるユーザーを制御できます。 モデレーションを設定する場合、1 人以上のチーム メンバーをモデレーターにすることができます。 チーム所有者は、既定でモデレーターです。 詳細については、チャネル モデレーションの [設定と管理に関するページを参照してください](manage-channel-moderation-in-teams.md)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [データを整理するためのベスト プラクティスTeams](best-practices-organizing.md)
 - [組織全体のチームを作成する](create-an-org-wide-team.md)

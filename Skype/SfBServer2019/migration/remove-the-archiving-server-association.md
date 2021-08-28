@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: アーカイブ サーバーを削除するには、関連付けられたフロントエンド プール、フロント エンド サーバー、存続可能ブランチ アプライアンス、存続可能ブランチ サーバーへの依存関係を変更またはクリアする必要があります。 フロントエンド プール、フロントエンド サーバー、存続可能ブランチ アプライアンス、存続可能ブランチ サーバーのプロパティを編集して、依存関係を削除します。 依存関係をクリアし、トポロジ ビルダーでサーバーを削除すると、トポロジ ビルダーの関連付けられたデータベース ストア オブジェクトも削除されます。
-ms.openlocfilehash: 6265642a45b891180e53d3b00d39a9053b663a434aaa1a4a26e92b619dfba257
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 489eeb276b495598ec2f11fc9b4502935beedf30
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340333"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617073"
 ---
 # <a name="remove-the-archiving-server-association"></a>アーカイブ サーバーの関連付けの削除
 

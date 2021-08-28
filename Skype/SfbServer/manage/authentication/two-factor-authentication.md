@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: '概要: 2 要素認証を管理Skype for Business Server。'
-ms.openlocfilehash: db40d3c2f899ec40ba01e0a45304e147513b9c03
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b354c99b4e02536ff3db2043ec18fcd092d766e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235512"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621103"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>2 要素認証を管理Skype for Business Server
  
