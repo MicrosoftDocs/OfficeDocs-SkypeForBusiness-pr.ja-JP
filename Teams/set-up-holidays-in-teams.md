@@ -13,25 +13,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: 自動応答で使用するために、Microsoft Teamsの休日を設定する方法について学習します。
-ms.openlocfilehash: c7fa5d44f836e35022acab24c2d4b7ad6c60536295bba7adba8fc568b1560443
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3f914243984c9fef70b1217cce504ffd983263e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351747"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623229"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams で休日を設定する
 
-Teams Holidays 機能を使用すると、部門、通話キュー、または組織内のユーザーが異なる勤務時間に従う場合、または利用できない特定の日時に、発信者に代替メッセージとルーティングを提供できます。 たとえば、組織が閉じている可能性がある新年の祝日を作成できます。
+Teams Holidays 機能を使用すると、部門、通話キュー、または組織内のユーザーが異なる勤務時間に従う場合、または利用できない特定の日付と時刻について、発信者に代替メッセージとルーティングを提供できます。 たとえば、組織が閉じている可能性がある新年の祝日を作成できます。
 
-ここで作成する祝日は、自動応答を設定するときに使用 [できます](create-a-phone-system-auto-attendant.md)。それぞれに独自のあいさつ応答と通話ルーティング設定が設定されています。
+ここで作成する祝日は、自動応答を設定するときに使用 [できます](create-a-phone-system-auto-attendant.md)。それぞれ独自のあいさつ応答と通話ルーティング設定が設定されています。
 
 ## <a name="create-a-holiday"></a>休日を作成する
 
@@ -80,6 +80,6 @@ Teams Holidays 機能を使用すると、部門、通話キュー、または�
 
 7. **[保存]** を選択します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [自動応答Teams通話キューの計画を立てませんか](plan-auto-attendant-call-queue.md)?

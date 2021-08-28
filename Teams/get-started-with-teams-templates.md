@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: phlouie
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bee4379eb82d577104d2d69ff2e11c168f2de62d3e903fcff196d45293c2365
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e8005d17debce7a0187ac8411a8054071c754566
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322559"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599742"
 ---
 # <a name="get-started-with-team-templates-using-microsoft-graph"></a>Microsoft Graph を使用してチーム テンプレートの使用を開始する
 
@@ -44,7 +44,7 @@ ms.locfileid: "54322559"
 
 チーム内のほとんどのプロパティは、テンプレートに含まれてサポートされています。 ただし、現在サポートされていないいくつかのプロパティと機能があります。 次の表は、チーム テンプレートに含まれているものと含まれていないものについて簡単に説明しています。
 
-| **チーム テンプレートでサポートされるチームのプロパティ** | **チーム テンプレートでまだサポートされていないチームプロパティ** |
+| **チーム テンプレートでサポートされるチームのプロパティ** | **チーム テンプレートでまだサポートされていないチームのプロパティ** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | 基本テンプレートの種類 | チーム メンバーシップ |
 | チーム名 | チームの画像 |
@@ -56,7 +56,7 @@ ms.locfileid: "54322559"
 | ピン留めされたタブ | |
 
 > [!NOTE]
-> Microsoft Teams の将来のリリースではテンプレート機能を追加する予定なので、サポートされているプロパティに関する最新の情報を確認してください。
+> Microsoft Teams の今後のリリースでテンプレート機能を追加する予定なので、サポートされているプロパティに関する最新の情報を確認してください。
 
 ## <a name="what-are-base-template-types"></a>基本テンプレートの種類
 
@@ -101,7 +101,7 @@ ms.locfileid: "54322559"
 
 詳細 [については、「管理センターでチーム テンプレートの使用を開始する」](get-started-with-teams-templates-in-the-admin-console.md) を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [管理コンソールでチーム テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
 - [チームを作成](/graph/api/team-post?view=graph-rest-beta) する (プレビュー中)

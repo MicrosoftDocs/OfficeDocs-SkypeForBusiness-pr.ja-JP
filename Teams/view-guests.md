@@ -17,16 +17,16 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
 - seo-marvel-apr2020
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 description: この記事では、管理者がゲストのゲストに関する情報を表示する方法についてMicrosoft Teams。
-ms.openlocfilehash: 6289fe8566f226345876d3feb809e937f1ce8df5
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 1c5c3d8ed6c94a6e9af1ac2e27bde4ba98d3d892
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234442"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613416"
 ---
 # <a name="view-guests-in-a-team"></a>チームのゲストを表示する
 
@@ -34,7 +34,7 @@ ms.locfileid: "58234442"
 
 ゲストを識別するには:
 
-1.  次のファイルにサインイン[Microsoft 365 管理センター。](https://admin.microsoft.com)
+1.  にサインイン[Microsoft 365 管理センター。](https://admin.microsoft.com)
 2.  [**管理センター] を**  >  **Teams。**
 3.  管理センター Teams、[ユーザー] を **選択します**。 ゲストの **表示名に** ゲストが追加されます。
   

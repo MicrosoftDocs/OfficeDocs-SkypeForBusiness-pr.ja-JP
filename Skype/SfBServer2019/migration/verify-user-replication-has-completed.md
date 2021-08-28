@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Move-CsUser コマンドレットを実行すると、Active Directory ドメイン サービス (AD DS) と Skype for Business Server 2019 データベース間のユーザー情報が同期しないので、初期レプリケーションが不完全のため、エラーが発生する可能性があります。 Skype for Business Server 2019 User Replicator サービスの初期同期が正常に完了するのにかかる時間は、Skype for Business Server 2019 プールをホストする Active Directory フォレストでホストされているドメイン コントローラーの数によって異なります。 2019 Skype for Business Server 2019 ユーザー レプリケーター サービスの初期同期プロセスは、Skype for Business Server 2019 フロントエンド サーバーが初めて開始された場合に発生します。 それ以降は、ユーザー レプリケーターの間隔に基づいて同期が行われます。 Move-CsUser コマンドレットを実行する前に、次の手順を実行して、ユーザーのレプリケーションが完了していることを確認してください。
-ms.openlocfilehash: 0fe1c205b04ed32f5ac4281e555d5a44262905aa23b74eb69148d447337b59f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 893702b18b376edc32e946998aeead122bf3ed68
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325684"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599702"
 ---
 # <a name="verify-user-replication-has-completed"></a>ユーザー レプリケーションの完了の確認
 

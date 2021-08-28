@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: このGet-CcApplianceDirectoryコマンドレットは、ホスト サーバー上の作業ディレクトリSkype for Business クラウド コネクタ エディションします。 すべての展開ファイルは、このディレクトリに格納されます。
-ms.openlocfilehash: 9be21029aaf582ce080b85af87b8d3f02be11ffea3b615f2b003bb6aeb29002d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b049b0227f923518ae682415df48afeb044c3c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347592"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599862"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  

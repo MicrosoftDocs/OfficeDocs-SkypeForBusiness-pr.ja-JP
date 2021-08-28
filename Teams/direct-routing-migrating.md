@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Skype for Business Online および Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。
-ms.openlocfilehash: bcc31554428c847fc9eb3c45804be42e850b30f943fadcc3ef6e245d07c9d4fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 71776c18dc6ec802c19f9dfc94c51b2b714bc210
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302006"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599752"
 ---
 # <a name="migrate-to-direct-routing"></a>ダイレクト ルーティングに移行する
 
 この記事では、Skype for Business Online および Microsoft Teams の構成パースペクティブからダイレクト ルーティングに移行するために必要な作業について説明します。 この記事では、次の環境からの移行について説明します。 
  
-- 電話システムプランの使用 (Teams および Skype for Business Online の場合) 
-- 電話システムのオンプレミス PSTN 接続を使用したSkype for Business Server (Skype for Business Online の場合)  
+- 電話システムプランを使用する (Teams および Skype for Business Online 用) 
+- 電話システムでのオンプレミス PSTN 接続のSkype for Business Server (Skype for Business Online の場合)  
 - 電話システム Cloud Connector Edition を使用したオンプレミス PSTN 接続の使用 (Skype for Business Online の場合)
 
 

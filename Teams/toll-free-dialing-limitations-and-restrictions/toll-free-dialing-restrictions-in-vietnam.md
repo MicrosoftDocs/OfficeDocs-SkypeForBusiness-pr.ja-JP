@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: ベトナムの無料電話番号 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) のダイヤルについて学習します。
-ms.openlocfilehash: 533f221518c422ab1d0bcb132cca2cfddf737d1f7a956dc1c560052b5a68af66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c967b9202729ffeb75a635a2a4104fdeee122b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335837"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613446"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>ベトナムでのフリーダイヤル制限
 
@@ -45,7 +45,7 @@ ms.locfileid: "54335837"
 | 対象外の島/地域  <br/>              | 該当なし  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | 有線/固定回線の状態  <br/>             | 部分的。コメント参照。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | 携帯電話ネットワークの状態  <br/>               | 部分的。コメント参照。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| コメント、制限、アクセスの問題など  <br/> | 120 XX XXX 番号形式は、ベトナム通信国際 (VTI) および VNPT (ベトナム郵便通信) の固定ネットワークおよびモバイル ネットワークから機能します。 <br/> <br/> 2018 年 6 月の現在、Mobifone のモバイル ネットワークから 120 XX XXX 番号形式を呼び出す必要があります。 <br/> <br/>**注:** Mobifone &amp; Vinaphone は VNPT の一部です。 数値形式 122 XXX XX ネットワークカバレッジ: Viettel (固定およびモバイル)。 ベトナム電気通信省の場合と同様に、最大許容通話時間は 2 時間です。 |
+| コメント、制限、アクセスの問題など  <br/> | 120 XX XXX 番号形式は、ベトナム通信国際 (VTI) および VNPT (ベトナム郵便通信) の固定ネットワークおよびモバイル ネットワークで機能します。 <br/> <br/> 2018 年 6 月の現在、Mobifone のモバイル ネットワークから 120 XX XXX 番号形式を呼び出す必要があります。 <br/> <br/>**注:** Mobifone &amp; Vinaphone は VNPT の一部です。 数値形式 122 XXX XX ネットワークカバレッジ: Viettel (固定およびモバイル)。 ベトナム電気通信省の場合と同様に、最大許容通話時間は 2 時間です。 |
    
 ## <a name="related-topics"></a>関連項目
 

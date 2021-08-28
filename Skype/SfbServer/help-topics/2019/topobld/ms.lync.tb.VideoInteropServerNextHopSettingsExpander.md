@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoInteropServerNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the Skype for Business Server」を参照してください。
-ms.openlocfilehash: 89b067258a197afaa8f29b1328616b1c3a016312c9a6fa1b21c6ab26c12b688f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3e91178f7bb7ba1886e449f01ee6e263cbe634a9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278925"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597031"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>ビデオ相互運用サーバーの次ホップ設定
  

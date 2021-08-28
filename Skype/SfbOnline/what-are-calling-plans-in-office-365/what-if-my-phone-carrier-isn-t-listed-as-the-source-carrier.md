@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
 description: '運送業者が一覧に表示されていない場合の操作についてSkype for Business。 '
-ms.openlocfilehash: 263e8584179a523934ab76083b601854527bb995bc9f0297bf9bab34a012dd41
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c9916c38496365884e75e8777f42958c45bb0e59
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320975"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599622"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>携帯電話会社が送信元の運送業者として表示されていない場合は、どうしますか。
 
@@ -37,9 +37,9 @@ ms.locfileid: "54320975"
   
 例:
   
-- 電話番号を運送業者としてSkype for Business場合は、Level3 が表示される場合があります。
+- 運送業者として番号をSkype for Business場合は、Level3 が表示される場合があります。
     
-  **詳しい手順については、「電話番号を電話番号に転送する」を [参照Teams。](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
+  **詳細な手順については、「電話番号を別の電話番号に転送する」を [Teams。](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
 
     > [!NOTE]
     > さらに追加で電話番号が必要な場合は、「[一般法人向け Office 365 のサポートへのお問い合わせ - 管理者向けヘルプ](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)」をご覧ください。

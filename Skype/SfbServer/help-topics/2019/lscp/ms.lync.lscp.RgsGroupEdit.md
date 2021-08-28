@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: エージェント グループでは、応答グループへの通話に応答できるユーザー (エージェントと呼ばれます) およびグループ内のすべてのエージェントに適用される設定が定義されています。
-ms.openlocfilehash: 732aef1d5c4e6c23fc084e8f178705888d1fec0ef938f5aeef65eb250b48f42b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 95e2cac8f98dd25811b093aee3dbdd3ce8459b7a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291565"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599346"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>応答グループ: エージェント グループの新規作成または既存エージェント グループの編集
 

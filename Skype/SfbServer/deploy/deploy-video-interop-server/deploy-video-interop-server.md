@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
 description: '概要: VIS サーバーの役割をサーバーに展開Skype for Business Server。'
-ms.openlocfilehash: 9a661bf31f3c22866396a46be5d583591674736bb8111d11b71ac257e063a416
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 28461a7edc238aaa1ab671cb025151fbeff4c8db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282340"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624379"
 ---
 # <a name="deploy-video-interop-server-in-skype-for-business-server"></a>ビデオ相互運用サーバーを展開Skype for Business Server
  

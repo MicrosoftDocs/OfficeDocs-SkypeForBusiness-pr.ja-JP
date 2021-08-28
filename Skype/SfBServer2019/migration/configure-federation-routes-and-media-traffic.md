@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: フェデレーションとは、別々の組織のユーザーがネットワーク境界を越えて通信することを許可する、複数の SIP ドメイン間での信頼関係のことです。 パイロット プールに移行した後、以前のバージョンのエッジ サーバーのフェデレーション ルートから、Skype for Business Server 2019 エッジ サーバーのフェデレーション ルートに移行する必要があります。
-ms.openlocfilehash: 5d3677a25d26505e23c1ee8741454e8af88fa7aeb090e380f4edd422785217b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f051321667e12a468df1186147f6fab1d7bbe5cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318082"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613406"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>フェデレーション ルートとメディア トラフィックの構成
 

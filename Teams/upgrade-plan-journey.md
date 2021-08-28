@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: 関係者を参加し、プロジェクトをスコープすることで、アップグレードを計画する方法について学習します。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 186f7f2e3e4d6c07714925162b7aa492873824dd30bef23f4f64c68273b60c15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 33b6e23a5259c81612a392b6befd7b7e6d256287
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323739"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623159"
 ---
 # <a name="plan-for-your-upgrade"></a>アップグレードの計画
 
@@ -35,13 +35,13 @@ ms.locfileid: "54323739"
 
 - [プロジェクト関係者の参加](upgrade-enlist-stakeholders.md)
 - [プロジェクトのスコープの定義](./upgrade-define-project-scope.md)
-- [アプリケーションとアプリケーションの共存と相互運用性Skype for Business理解Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [アプリケーションとサービスの共存と相互運用性Skype for Business理解Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [ビジネス ニーズに基づいてアップグレード体験を選択する](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [ユーザー パイロットの計画](pilot-essentials.md)
 
 体験を計画した後、アップグレードを実装する前に、環境[](upgrade-prepare-environment.md)の準備と組織の[](upgrade-prepare-organization.md)準備に関する[トピックを読み取ります](upgrade-to-teams.md)。  
 
 > [!TIP]
-> ライブで対話型のワークショップに参加して、アップグレードの計画と実装を開始するように設計されたガイダンス、ベスト プラクティス、およびリソースを共有します。
+> アップグレードの計画と実装を開始するために設計されたガイダンス、ベスト プラクティス、およびリソースを共有する、ライブの対話型のワークショップに参加してください。
 >
 > アップグレードを開始するには、最初に「[アップグレードの計画](./upgrade-workshops-landing-page.yml)」セッションにご参加ください。

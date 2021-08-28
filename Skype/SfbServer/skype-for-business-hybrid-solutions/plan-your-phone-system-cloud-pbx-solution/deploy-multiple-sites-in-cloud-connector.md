@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: クラウド コネクタ エディションでの複数の PSTN サイトの展開について説明します。
-ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f771875605ffef130b430fd7c7a00d9d1a63873
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289385"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613767"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>クラウド コネクタでの複数サイトの展開
 
@@ -84,18 +84,18 @@ ExternalMRPublicIPs=104.42.226.134
   
 |**カテゴリ**|**項目**|**HA を使用した単一サイト**|**マルチサイト**|
 |:-----|:-----|:-----|:-----|
-|構成  <br/> |アプライアンスのホスト名 <br/> |**アプライアンス間** で異なる <br/> |**PSTN サイト** 間で異なる <br/> |
+|Configure  <br/> |アプライアンスのホスト名 <br/> |**アプライアンス間** で異なる <br/> |**PSTN サイト** 間で異なる <br/> |
 |セットアップ  <br/> |共有フォルダー  <br/> |アプライアンス間 **で同じ** 共有フォルダーが必要 <br/> |アプライアンス間 **で別の** 共有フォルダーが必要 <br/> |
-|構成  <br/> |VirtualMachineDomain  <br/> |アプライアンス間 **で同じ** ドメインが必要 <br/> |PSTN サイト間 **で同** じドメインが必要 <br/> |
-|構成  <br/> |SIPDomains  <br/> |ドメイン名と順序は、アプライアンス間 **で同じ** である必要があります <br/> |ドメイン名と順序は PSTN サイト **間で** 同じである必要があります <br/> |
-|構成  <br/> |サイト名  <br/> |**同じ** アプライアンス間のサイト名 <br/> |**異なる** PSTN サイト間のサイト名 <br/> |
-|構成  <br/> |サーバー名  <br/> |**アプライアンス間** で異なる <br/> |**PSTN サイト** 間で異なる <br/> |
-|構成  <br/> |内部プールの FQDN  <br/> |**アプライアンス間** で同じ <br/> |**PSTN サイト** 間で同じ <br/> |
-|構成  <br/> |内部の IPs  <br/> |**アプライアンス間** で異なる <br/> |**PSTN サイト** 間で異なる <br/> |
-|構成  <br/> |外部 FQDN  <br/> |**アプライアンス間** で同じ <br/> |**PSTN サイト** 間で異なる <br/> |
-|構成  <br/> |外部 AP  <br/> |**アプライアンス間** で異なる <br/> |**PSTN サイト** 間で異なる <br/> |
-|構成  <br/> |PSTN GW の設定  <br/> |**アプライアンス間** で同じ <br/> |**PSTN サイト** 間で異なる <br/> |
-|構成  <br/> |DNS レコード  <br/> |同じ外部アクセス FQDN **と** 異なる IP アドレスを持つ **レコードを** 追加する <br/> |異なる外部 **アクセス** FQDN と異なる IP アドレスを持つ **レコードを** 追加する <br/> |
+|Configure  <br/> |VirtualMachineDomain  <br/> |アプライアンス間 **で同じ** ドメインが必要 <br/> |PSTN サイト間 **で同** じドメインが必要 <br/> |
+|Configure  <br/> |SIPDomains  <br/> |ドメイン名と順序は、アプライアンス間 **で同じ** である必要があります <br/> |ドメイン名と順序は PSTN サイト **間で** 同じである必要があります <br/> |
+|Configure  <br/> |サイト名  <br/> |**同じ** アプライアンス間のサイト名 <br/> |**異なる** PSTN サイト間のサイト名 <br/> |
+|Configure  <br/> |サーバー名  <br/> |**アプライアンス間** で異なる <br/> |**PSTN サイト** 間で異なる <br/> |
+|Configure  <br/> |内部プールの FQDN  <br/> |**アプライアンス間** で同じ <br/> |**PSTN サイト** 間で同じ <br/> |
+|Configure  <br/> |内部の IPs  <br/> |**アプライアンス間** で異なる <br/> |**PSTN サイト** 間で異なる <br/> |
+|Configure  <br/> |外部 FQDN  <br/> |**アプライアンス間** で同じ <br/> |**PSTN サイト** 間で異なる <br/> |
+|Configure  <br/> |外部 AP  <br/> |**アプライアンス間** で異なる <br/> |**PSTN サイト** 間で異なる <br/> |
+|Configure  <br/> |PSTN GW の設定  <br/> |**アプライアンス間** で同じ <br/> |**PSTN サイト** 間で異なる <br/> |
+|Configure  <br/> |DNS レコード  <br/> |同じ外部アクセス FQDN **と** 異なる IP アドレスを持つ **レコードを** 追加する <br/> |異なる外部 **アクセス** FQDN と異なる IP アドレスを持つ **レコードを** 追加する <br/> |
 |セットアップ  <br/> |ハイブリッド テナント  <br/> |HybridPSTNSite の設定  <br/> フォールバック用に PeerDestination を設定する  <br/> |HybridPSTNSite の設定  <br/> フォールバック用に PeerDestination を設定する  <br/> |
 |セットアップ  <br/> |ゲートウェイ  <br/> |このサイトの MS GW **M:N** マッピング <br/> |各 PSTN サイトの PSTN ゲートウェイは、同じサイトの仲介サーバーにのみ接続する必要があります。  <br/> |
-|セットアップ  <br/> |User  <br/> |UserPSTNSettings の設定  <br/> |UserPSTNSettings の設定  <br/> |
+|セットアップ  <br/> |ユーザー  <br/> |UserPSTNSettings の設定  <br/> |UserPSTNSettings の設定  <br/> |

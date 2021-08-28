@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 通話受付管理 (CAC) Skype for Business Server実装されているほとんどの展開では、通常、多数のサブネットがあります。 この理由から、多くの場合、管理シェルからサブネットを構成Skype for Business Serverです。
-ms.openlocfilehash: a31e8b40e0523b8bc0a4b90a97fb0ae98fbc7668
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: d7942026a00bd74a7cb21adb045b78dba3b93594
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234962"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600042"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク サブネットの管理
 

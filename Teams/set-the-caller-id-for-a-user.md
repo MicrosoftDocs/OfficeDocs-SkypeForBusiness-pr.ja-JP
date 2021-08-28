@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business Online
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 通話回線 ID Microsoft 365既定Office 365 (ユーザーに割り当てられた電話番号) の呼び出し元 ID と呼ばれる番号について学習します。 ユーザーの発信者番号を変更またはブロックできます。
-ms.openlocfilehash: ea3d9676caf0984c19137abe286f792aacfcceca393fd4ccfeff9117edef9011
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 既定の発信者Microsoft 365 ID (Office 365の割り当て電話番号) (通話回線 ID とも呼ばれる) について学習します。 ユーザーの発信者番号を変更またはブロックできます。
+ms.openlocfilehash: 9a69cf864cbf57d7ebf82ae079f88a888d3fc9f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275953"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613586"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>ユーザーに発信者番号を設定する
 
@@ -57,7 +57,7 @@ ms.locfileid: "54275953"
 ## <a name="set-your-caller-id-policy-settings"></a>発信者番号ポリシー設定を設定する
 
 > [!NOTE]
-> 呼び出し元 ID をリソース アカウントの電話番号に設定し、発信者名を設定するには、Teams PowerShell モジュール 2.3.1 以降の PowerShell コマンドレット New-CsCallingLineIdentity または Set-CsCallingLineIdentity を使用します。 (これらのオプションは現在、管理センター Microsoft Teams使用できません)。 
+> 呼び出し元 ID をリソース アカウントの電話番号に設定し、発信者名を設定するには、Teams PowerShell モジュール 2.3.1 以降の PowerShell コマンドレット New-CsCallingLineIdentity または Set-CsCallingLineIdentity を使用します。 (これらのオプションは、現在、管理センター Microsoft Teams使用できません)。 
 
 コマンド プロンプトWindows PowerShellし、次のコマンドを実行します。
 
@@ -87,7 +87,7 @@ Connect-MicrosoftTeams -Credential $credential
 
    詳細については [、New-CsCallingLineIdentity に関するページを参照してください](/powershell/module/skype/New-CsCallingLineIdentity)。
     
-3. 次のコマンドレットを使用して作成した新しいポリシーGrant-CsCallingIdentityします。 たとえば、次の例では、ユーザー Amos Marble に新しいポリシーを適用します。
+3. このコマンドレットを使用して作成した新しいポリシーGrant-CsCallingIdentityします。 たとえば、次の例では、ユーザー Amos Marble に新しいポリシーを適用します。
     
      ```PowerShell
      Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName Anonymous
@@ -133,13 +133,13 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365を使用して管理し、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理Microsoft 365を使用して管理し、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
 - [Windows PowerShell の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
 - [アプリを使用して管理する 6 Windows PowerShell理由Microsoft 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター の使用に対する速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
+- Windows PowerShell多くのユーザーに対して一度に設定変更を行う場合など、Microsoft 365 管理センター を使用する場合に限り、速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
     
 - [アプリを使用してMicrosoft 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -148,7 +148,7 @@ Windows PowerShellは、ユーザーの管理と、ユーザーが許可また�
 - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
   
- ## <a name="related-topics"></a>関連項目
+ ## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](./different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: httpsfix
 description: 次のトピックでは、DNS エントリの更新、コンテンツ管理サーバーの移動、プールの使用停止、従来の展開からのサーバーとプールの非アクティブ化と削除に関するガイダンスを提供します。 このセクションに記載された手順をすべて実行する必要はありません。 ドキュメントを読んで、どの使用停止の手順を実行すればよいかを判断してください。
-ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7285ffd7c4d4087dba3b9fe9bf7ff2fadba2b62e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285517"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613306"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>フェーズ 8: レガシ プールの使用停止
 

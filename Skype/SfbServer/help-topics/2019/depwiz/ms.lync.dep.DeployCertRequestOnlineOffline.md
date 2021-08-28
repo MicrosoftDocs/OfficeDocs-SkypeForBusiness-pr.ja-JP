@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 後で送信する要求、またはオフラインの要求を作成するには、[要求を準備して後で送信する (オフライン証明書要求)] を選択します。 オンライン証明機関 (通常は組織の公開キー インフラストラクチャ内の内部システム) に対して即時要求を作成するには、[オンライン証明機関にすぐに要求を送信する] を選択します。
-ms.openlocfilehash: 96a18d804894bad1b3359d1af33a726b04d3d563724b7b605ae52fbaf5dc5c0b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25cd965e58fc18f0aa62e6483f76cbb0aec1826f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309976"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597191"
 ---
 # <a name="certificate-request-online-offline"></a>証明書要求 (オンライン オフライン)
  

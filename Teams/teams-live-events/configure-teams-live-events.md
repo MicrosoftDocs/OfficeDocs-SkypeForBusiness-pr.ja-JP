@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8eccc6e885cef67d4f6240483d3995df88d7cfc
-ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
+ms.openlocfilehash: b9233f3a807846261a563d11b46d0fea59092780
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683311"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613476"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -91,10 +91,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
 ```
-**Peer5**
-```PowerShell
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
-```
 
 詳細については、[CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。
 
@@ -107,7 +103,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 >[!Note]
 > 選択した eCDN ソリューションには、選択したサードパーティ プロバイダーのサービス利用規約とプライバシー ポリシーが適用されます。このポリシーによって、eCDN プロバイダーのソリューションの使用が管理されます。 eCDN プロバイダーのソリューションの使用には、Microsoft ボリューム ライセンス条項またはオンライン サービス条件の適用対象となんら適用されないものとします。 サードパーティ プロバイダーの条項に同意しない場合は、Microsoft Teams で eCDN ソリューションを有効にMicrosoft Teams。
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams のライブ イベントをセットアップする](set-up-for-teams-live-events.md)

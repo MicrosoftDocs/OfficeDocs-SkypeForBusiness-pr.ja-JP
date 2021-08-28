@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09148118-6209-4fd7-a494-99118689a245
 description: DeRegisterType テーブルは、"クライアントが開始されました"、"登録が期限切れ"、"クライアントが応答を停止しました" など、登録を解除できるユーザーの種類の一覧を格納する静的テーブルです。
-ms.openlocfilehash: 606065f0442043d660c917c61b89111b48679145088b4eba9a7a80e668248161
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 93d06117974377b6df489f376aedf4ad88235fa2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347792"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599882"
 ---
 # <a name="deregistertype-table-in-skype-for-business-server-2015"></a>DeRegisterType テーブル (2015 Skype for Business Server)
  

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: オーストリアで使用Microsoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
-ms.openlocfilehash: bdf47a162c9028f8a5afab82be330906c4cfa4fec1436e0ada89a74e2aed647b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: オーストリアで使用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+ms.openlocfilehash: 70c21d50ecc97ce403bfaf2f35e3665e8ea5af9e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341393"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599762"
 ---
 # <a name="availability-in-austria"></a>オーストリアでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-オーストリアで使用Microsoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
+オーストリアで使用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li>ウィーン </ul>専用の電話番号が必要な場合は、「サービスの電話番号 [を取得する」を参照してください](../getting-service-phone-numbers.md)。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li>ウィーン </ul>専用の電話番号が必要な場合は、「サービス電話番号 [を取得する」を参照してください](../getting-service-phone-numbers.md)。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -83,7 +83,7 @@ ms.locfileid: "54341393"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [サービス電話番号を取得する](../getting-service-phone-numbers.md)
 

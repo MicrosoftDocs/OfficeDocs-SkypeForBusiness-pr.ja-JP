@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 'コントロール パネルまたは管理シェルを使用して、Skype for Business Server 2019 Skype for Business Server 2019 Skype for Business Serverにユーザーを移動できます。 2019 年から 2019 年までスムーズに移行するには、いくつかの要件Skype for Business Serverがあります。 このトピックの手順を完了するための前提条件の詳細については、「移行用にクライアントを構成する」を参照してください。 ユーザーの移動の詳細な手順については、「フェーズ 4: テスト ユーザーをパイロット プールに移動する」を参照してください。'
-ms.openlocfilehash: a2742acf32899aca71c28da733c723640a8c1e9200f26f793a918eac04714f15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60742068bc684470d181593e94615da2a8d79ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300633"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623109"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>残りのユーザーを 2019 Skype for Business Serverに移動する
 

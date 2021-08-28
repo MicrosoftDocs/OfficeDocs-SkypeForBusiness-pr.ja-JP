@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Serverアナログ デバイスのサポートを提供します。 具体的には、アナログ音声電話とアナログ FAX 電話がアナログ デバイスとしてサポートされます。 アプリケーション環境でのアナログ デバイスの使用をサポートするために、修飾されたゲートウェイSkype for Business Serverできます。 2019 Skype for Business Server後、アナログ デバイスに関連付けられている連絡先オブジェクトも移行する必要があります。 従来Skype for Business Server Skype for Business Serverに関連付けられているすべての連絡先オブジェクトを取得し、それらのオブジェクトを 2019 プールに移動するには、Skype for Business Server 管理シェルを使用します。
-ms.openlocfilehash: 464531fcffbe251d6a0868e86b1b9edccc898fdeeb0963ed0f10c2b653dfe93b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d64552a53b5cb37187a25febe5ce6171d1c64ec9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337267"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599692"
 ---
 # <a name="migrate-analog-devices"></a>アナログ デバイスの移行
 

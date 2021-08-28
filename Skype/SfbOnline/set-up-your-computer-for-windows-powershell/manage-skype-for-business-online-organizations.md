@@ -1,5 +1,5 @@
 ---
-title: オンラインSkype for Business組織を管理する
+title: Skype for Business Online 組織を管理する
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -13,24 +13,24 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Windows PowerShell と Get-CsTenant コマンドレットと Get-CsTenantLicensingConfiguration コマンドレットを使用して、Skype for Business Online テナントに関する情報を取得します。
-ms.openlocfilehash: 733d7e30bc25f15bcf05c2746ef1eb2cb8aa5cfd8e7e780356c4a972ef97a183
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Windows PowerShell コマンドレットと Get-CsTenant コマンドレットGet-CsTenantLicensingConfigurationを使用して、Skype for Business Online テナントに関する情報を取得します。
+ms.openlocfilehash: e45f1bdd2c14aea34e07183dde86031a8c503476
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298747"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623089"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a>オンラインSkype for Business組織を管理する
+# <a name="manage-skype-for-business-online-organizations"></a>Skype for Business Online 組織を管理する
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 > [!NOTE]
-> 最新の[PowerShell Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック プレビュー リリースは Skype for Business Online Connector と統合され、PowerShell 管理用に 1 Teams提供されます。
+> [PowerShell パブリック Teams最新](https://www.powershellgallery.com/packages/MicrosoftTeams/)のリリースは Skype for Business Online Connector と統合され、PowerShell 管理用の 1 つのモジュールTeams提供されます。
 
 Skype for Business Online テナントに関する情報は **、Get-CsTenant** コマンドレットと **Get-CsTenantLicensingConfiguration** コマンドレットを使用して確認できます。
   
@@ -52,7 +52,7 @@ Get-CsTenant | Select-Object Name, TenantID
   
 指定したテナントのライセンス情報が Skype for Business Online 管理センターで使用できるかどうかに関する情報を確認するには[、Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration)コマンドレットを使用します。
   
-## <a name="related-topics"></a>関連項目
-[Skype for Business Online 管理用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a>関連トピック
+[Skype for Business Online Management 用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

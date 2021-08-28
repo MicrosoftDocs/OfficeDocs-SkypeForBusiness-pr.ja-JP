@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: この記事では、「ユーザー モデル」で説明されている使用法に従って、そのサイトのユーザー数に対してサイトで必要なサーバーの数に関するガイダンスをSkype for Business Server。
-ms.openlocfilehash: b7222390f379bca79dfee7ab2e9f2c081118b22d635a1ef2edb2f1fc9ac0b70b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eaf5318e78761143d1c711b1603797b3b8e699f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338115"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599932"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>データの容量計画のユーザー モデルSkype for Business Server
 
@@ -183,12 +183,12 @@ Microsoft は、パフォーマンス テスト中にデータベース サー�
 
 **推奨されるディスク構成**
 
-|**ドライブ** <br/> |**RAID 構成** <br/> |**ディスクの数** <br/> |
+|**Drive** <br/> |**RAID 構成** <br/> |**ディスクの数** <br/> |
 |:-----|:-----|:-----|
 |単一ドライブ上の CDR、QoE、およびアーカイブ データベース データ ファイル  <br/> |1+0  <br/> |16   <br/> |
-|CDR データベースのログ ファイル  <br/> |1  <br/> |2  <br/> |
-|QoE データベースのログ ファイル  <br/> |1  <br/> |2  <br/> |
-|データベース ログ ファイルのアーカイブ  <br/> |1  <br/> |2  <br/> |
+|CDR データベースのログ ファイル  <br/> |1   <br/> |2   <br/> |
+|QoE データベースのログ ファイル  <br/> |1   <br/> |2   <br/> |
+|データベース ログ ファイルのアーカイブ  <br/> |1   <br/> |2   <br/> |
 
 ## <a name="video-interop-server-capacity"></a>ビデオ相互運用サーバーの容量
 

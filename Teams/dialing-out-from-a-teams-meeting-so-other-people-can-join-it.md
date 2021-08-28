@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会議の開催者は、Teams アプリを使用してダイヤルアウトして、他のユーザーが自分の電話を使って同じ会議に参加する方法を学習できます。
-ms.openlocfilehash: 95370afe0c9c0a4d03f8296ada4f7438e2abc4e6a746a5d21d63f3ee9551ee08
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db6d900a5892753eee60c3a150579cffb4dbd258
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282700"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623319"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>他のユーザーが参加できるように Microsoft Teams 会議からダイヤル アウトする
 
@@ -37,7 +37,7 @@ ms.locfileid: "54282700"
   
   次の点に注意してください。
 
-- ダイヤルアウトは、会議に参加する場合にのみ、Teams。
+- ダイヤルアウトできるのは、会議に参加する場合にのみ、Teams。
 - 会議の開催者は、電話会議に対して有効になっています。電話会議ライセンスが割り当てられていない場合、オンライン通話プランまたは直接ルーティングを介して、公衆交換電話網に通話を発信できます。
 - 会議の開催者には、会議からダイヤルアウトを有効にするオンライン [ダイヤルアウト ポリシーが付与されます。](/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
@@ -46,7 +46,7 @@ ms.locfileid: "54282700"
 
 ダイヤルアウトを機能する方法を次に示します。
 
- **手順 1:** 会議で、[ユーザーの追加 **]** ボタン オプションの [ユーザーの追加] スクリーンショットを使用して、電話番号 ![ ](media/add-people-button.png) にダイヤルアウトします。
+ **手順 1:** 会議で、[ユーザーの追加] **ボタン** オプションの [ユーザーの追加] スクリーンショットを使用して、電話番号 ![ ](media/add-people-button.png) にダイヤルアウトします。
  **手順 2:** [ユーザーの招待または電話番号のダイヤル] ボックスに、国/地域コードを含む **完全な電話番号を入力** します。
   
 ![[他のユーザーを招待するか、番号をダイヤルする] ボックスのスクリーンショット](media/invite-someone-box.png)
@@ -57,7 +57,7 @@ ms.locfileid: "54282700"
 
 ## <a name="allow-users-to-dial-in"></a>ユーザーにダイヤルインを許可する
 
-ユーザーが Teams 会議にダイヤルインする方法については、「Microsoft Teams の電話会議の 電話 番号」を参照[してください](phone-numbers-for-audio-conferencing-in-teams.md)。
+ユーザーが Teams 会議にダイヤルインする方法については、「Microsoft Teams 電話 の電話会議の電話番号」を[参照Microsoft Teams。](phone-numbers-for-audio-conferencing-in-teams.md)
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>電話会議の詳細については、次のページを参照してください。
 

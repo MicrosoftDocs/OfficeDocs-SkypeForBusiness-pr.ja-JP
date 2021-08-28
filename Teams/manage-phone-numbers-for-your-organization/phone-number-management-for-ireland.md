@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 次の表を使用して、アイルランドの電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: 76524c7ea2e064753186efb30a42e92684ad052d
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 428df08a1427bc0b2948fb353e6f030b32742f96
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623269"
 ---
 # <a name="phone-number-management-for-ireland"></a>アイルランドでの電話番号の管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "58365644"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 <br/> |アイルランドでは、組織の電話番号を管理センターの管理者Microsoft Teams取得できない。 新しい電話番号の申請を送信する必要があります。 <br/><br/>このフォームをダウンロードします。<br/>[アイルランドの新しい電話番号要求 (v.5.0) (en-us)](https://download.microsoft.com/download/9/e/5/9e5634d7-ce23-489f-b867-6f5120645fb1/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf)。 <br/><br/> 入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 <br/> |アイルランドでは、組織の電話番号を管理センターで取得Microsoft Teams取得できない。 新しい電話番号の申請を送信する必要があります。 <br/><br/>このフォームをダウンロードします。<br/>[アイルランドの新しい電話番号要求 (v.5.0) (en-us)](https://download.microsoft.com/download/9/e/5/9e5634d7-ce23-489f-b867-6f5120645fb1/new-phone-number-request-for-ireland-(v.5.0)-(en-us).pdf)。 <br/><br/> 入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
 |転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[アイルランドの承認状 (LOA) (すべての番号) (v.6.0) (en-us)](https://download.microsoft.com/download/d/a/f/daf4edb9-69c7-4d3d-a483-e0c4427abb50/letter-of-authorization-(loa)-for-ireland-(all-numbers)-(v.6.0)-(en-us).pdf) <br/> <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 <br/> |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |

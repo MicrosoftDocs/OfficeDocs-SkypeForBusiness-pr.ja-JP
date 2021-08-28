@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: '概要: 2015 年に常設チャット サーバー チャット ルーム用のアドインを構成するSkype for Business Serverします。'
-ms.openlocfilehash: 0c5b32d01c4464c367cb6c7332ca279fa23c8b4b1fc80e36bc12dd2161812dcd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f6ff42e57f72a6fa875e8123af91caa7f4e3efc0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345544"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599982"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>2015 年に常設チャット ルーム用のアドインをSkype for Business Serverする
  

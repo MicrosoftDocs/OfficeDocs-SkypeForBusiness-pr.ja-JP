@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: アプリケーションや他のアプリケーションからSkype for Business機能Outlookを理解Microsoft Officeします。
-ms.openlocfilehash: b1a2aad241d0da2ef253d27b1b83bf9b1140fa79745b924cd0e4438660e4d3e0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e8d2ec9d3785d03c0f853021bcb4f33f6eb2c4aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297143"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599922"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype for Business と Office アプリの互換性
  
