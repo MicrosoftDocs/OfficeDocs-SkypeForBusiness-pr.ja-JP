@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: '概要: メディア バイパスが有効になっているトランクを構成して、Skype for Business Server。 これにより、仲介サーバーの数を最小限に抑え、SIP トランク プロバイダーが仲介サーバーをサポートしていると推測できます。'
-ms.openlocfilehash: f009cc15279cde28b531747adf77a7adf89fa407efaa9a30ff731e37f2f23f0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7bb6be3e006043a59b833b5f9db26001c699847
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287626"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625629"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype for Business Server: メディア バイパスを使用してトランクを構成する
 
@@ -107,7 +107,7 @@ ms.locfileid: "54287626"
 
      - この PSTN 使用法レコードに関連付けられているルートを編集するには、ルートを選択し、[**詳細の表示**] をクリックします。
 
-     d. [**OK**] をクリックします。
+     d.  [**OK**] をクリックします。
 
      - このトランク構成にすでに関連付けられている PSTN 使用法レコードを編集するには、次の操作を実行します。
 

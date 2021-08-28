@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyNextStepPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 description: トポロジの公開が完了すると、[公開ウィザードの完了] ページが表示されます。
-ms.openlocfilehash: e5b48d10af7464b1098e74ef4f4e2469b735ab03924851416024e26ae63473ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70c9606bf3632c6d87171aa69f2f38ba2df40f75
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313265"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593741"
 ---
 # <a name="publish-topology-next-step"></a>トポロジの公開の次の手順
 

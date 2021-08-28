@@ -9,19 +9,19 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 管理者向け Patients アプリの監査についてTeamsする
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dcd72dbe4c9b83b5f23faa0e01b4133e770822d5
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: b65dae205f7f7438482847ceb07e37a64609a534
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380611"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595061"
 ---
 # <a name="audit-logs-for-patients-app"></a>患者アプリの監査ログ
 
@@ -34,10 +34,10 @@ ms.locfileid: "58380611"
 
 ## <a name="meet-hipaa-requirements"></a>HIPAA の要件を満たす
 
-HIPAA ガイドラインに従って、医療プロバイダーは、変更を監査するために、PHI へのすべてのアクセスの記録を保持する必要があります。 Microsoft は、お客様が HIPAA の要件とコントロールを満Microsoft Teamsを使用してエンタープライズのお客様に取り組み、支援を行っています。 Patients アプリを使用した PHI へのアクセスは完全に追跡され、監査ログ検索機能に関する記事の説明に従って、Microsoft 365 コンプライアンス センターでログ[を利用](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)できます。
+HIPAA ガイドラインに従って、医療プロバイダーは、変更を監査するために、PHI へのすべてのアクセスの記録を保持する必要があります。 Microsoft は、お客様が HIPAA の要件とコントロールを満Microsoft Teamsを使用してエンタープライズのお客様に取り組み、支援を行っています。 Patients アプリを使用した PHI へのアクセスは完全に追跡され、監査ログ検索機能に関する記事の説明に従って Microsoft 365 コンプライアンス センターでログ[を利用](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)できます。
 
 > [!IMPORTANT]
-> 患者のプライバシーを維持する負担は、法律により医療提供者に適用されます。 この法律では、患者にプライバシーの権利が与え、IT 管理者または HIPAA コントローラーが患者記録にアクセスまたは変更された看護師、医師、ソーシャル ワーカーを簡単に特定できる必要があります。 PHI アクセス違反の最も一般的な例の 1 つは、VIP 患者へのアクセスです。 監査ログ機能は、PHI アクセス違反の調査を実施し、HIPAA 要件を満たすために必要です。
+> 患者のプライバシーを維持する負担は、法律により医療提供者に適用されます。 この法律では、患者にプライバシーの権利が与え、IT 管理者または HIPAA コントローラーが、患者記録にアクセスまたは変更された看護師、医師、ソーシャル ワーカーを簡単に特定できる必要があります。 PHI アクセス違反の最も一般的な例の 1 つは、VIP 患者へのアクセスです。 監査ログ機能は、PHI アクセス違反の調査を実施し、HIPAA 要件を満たすために必要です。
 
 <!-- add an image from the security and compliance center audit log search page showing an event, Ansuman please let me know whether we need to copy an existing screen shot (and which one) or grab a new one -->
 
@@ -81,8 +81,8 @@ Patients アプリには、次の表に示す独自のログに記録された�
 
 必要に応じて監査をカスタマイズして、ログに記録されたアクティビティを検索またはフィルター処理できます。
 
-ログに記録されるアクティビティについては、Microsoft Teams アクティビティに関するページ[Microsoft Teamsしてください](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
+ログに記録されるアクティビティについてはMicrosoft Teamsアクティビティに関するページ[Microsoft Teams説明されています](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [監査ログを検索する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

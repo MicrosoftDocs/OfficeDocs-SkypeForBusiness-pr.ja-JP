@@ -14,18 +14,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 外部の企業やクライアントがコールインできるよう、Teamsの電話番号を割り当て、変更、または削除する方法について学習します。
-ms.openlocfilehash: 79323338a901cf587b590b7930a11f6c296271e1
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 938377f200d31ddaef2338f5c21811150571732e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372247"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595225"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>ユーザーの電話番号を割り当て、変更、または削除する (通話プラン)
 
@@ -33,12 +33,12 @@ ms.locfileid: "58372247"
 
 ![ユーザーの電話番号が [Teams] に表示されます。](media/teams-phone-number.png)
 
-ユーザーが電話を送受信できるようユーザーを設定する場合は、まず Microsoft Teams 管理センターを使用し、電話番号を割り当てる必要があります。 必要に応じて、電話番号を変更または削除できます。
+ユーザーが電話を送受信できるようユーザーを設定する場合は、まず、Microsoft Teams 管理センターを使用して電話番号を割り当てる必要があります。 必要に応じて、電話番号を変更または削除できます。
   
-Teams で通話プランを取得する方法とコストについては、「Teams[ライセンス」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+Teams で通話プランを取得する方法と料金については[、「Teams」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 > [!NOTE]
-> ユーザーにライセンスが割り当てられているかどうかを確認する方法の 1 つは、[ユーザー] の管理Microsoft Teamsに>**です**。 ライセンスが割り当てられている場合は、ページに表示されます。  また、次のMicrosoft 365 管理センター。
+> ユーザーにライセンスが割り当てられているかどうかを確認する方法の 1 つは、[ユーザー] の管理Microsoft Teamsに>**です**。 ライセンスが割り当てられている場合は、ページに表示されます。  次のコマンドをMicrosoft 365 管理センター。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>ユーザーに電話番号を割り当てる
  
@@ -46,7 +46,7 @@ Teams で通話プランを取得する方法とコストについては、「Te
     
 1. 左側のナビゲーションで、[音声] を **クリックして**  >  **電話します**。
 2. [番号 **電話ページで**、一覧で未割り当て番号を選択し、[編集] を **クリックします**。  
-3. [編集] **ウィンドウの** [割 **り** 当て済み] で、表示名またはユーザー名でユーザーを検索し、[割り当て] を **クリックします**。
+3. [編集] **ウィンドウの** [割 **り** 当て] で、表示名またはユーザー名でユーザーを検索し、[割り当て] を **クリックします**。
 4. 関連付けられている緊急対応の場所を割り当てるか変更するには、[緊急 **対応の場所**] で場所を検索して選択します。
 5. ユーザーに電話番号情報を含むメールを送信するかどうかに応じて、電話番号情報を含むメール ユーザーをオフまたは **オンにします**。 既定では、この設定はオンになっています。 
 6. **[保存]** をクリックします。
@@ -54,7 +54,7 @@ Teams で通話プランを取得する方法とコストについては、「Te
 PowerShell の例については [、Set-CsOnlineVoiceUser に関するページを参照してください](/powershell/module/skype/set-csonlinevoiceuser)。
 
 > [!NOTE]
-> Microsoft 365 または Office 365 と Teams の間の待機時間のため、ユーザーが有効になるには最大 24 時間かかる場合があります。 電話番号が 24 時間後に正しく割り当てられていない場合は、ビジネス製品のサポートに問い [合わせ - 管理者向けヘルプ を参照してください](/microsoft-365/admin/contact-support-for-business-products)。 お手伝いします。
+> Microsoft 365 または Office 365 と Teams の間の待機時間のため、ユーザーが有効になるのに最大 24 時間かかる場合があります。 電話番号が 24 時間後に正しく割り当てられていない場合は、ビジネス製品のサポートに問い [合わせ - 管理者向けヘルプ を参照してください](/microsoft-365/admin/contact-support-for-business-products)。 お手伝いします。
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更する
@@ -67,7 +67,7 @@ PowerShell の例については [、Set-CsOnlineVoiceUser に関するページ
 4. [編集]**ウィンドウの**[割り当て **] で****、[X] をクリックして** ユーザーを削除します。
 5. **[保存]** をクリックします。
 6. [番号 **電話ページで**、一覧で未割り当て番号を選択し、[編集] を **クリックします**。  
-7. [編集] **ウィンドウの** [割 **り** 当て済み] で、表示名またはユーザー名でユーザーを検索し、[割り当て] を **クリックします**。
+7. [編集] **ウィンドウの** [割 **り** 当て] で、表示名またはユーザー名でユーザーを検索し、[割り当て] を **クリックします**。
 8. 関連付けられている緊急対応の場所を割り当てるか変更するには、[緊急 **対応の場所**] で場所を検索して選択します。
 9. **[保存]** をクリックします。
 
@@ -85,7 +85,7 @@ PowerShell の例については [、Set-CsOnlineVoiceUser に関するページ
 
 PowerShell の例については [、Set-CsOnlineVoiceUser に関するページを参照してください](/powershell/module/skype/set-csonlinevoiceuser)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [住所検証とは何ですか?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 

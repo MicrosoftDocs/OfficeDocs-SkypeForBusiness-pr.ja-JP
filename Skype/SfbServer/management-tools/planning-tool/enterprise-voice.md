@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: 2015 エンタープライズ VoIP 2015 Skype for Business Serverは、従来の PBX システムを強化または置き換えるスタンドアロンの Voice over Internet Protocol (VoIP) サービスを提供します。 ユーザーは、組織の VoIP ネットワークまたは PBX で同僚を呼び出し、組織外の電話番号を呼び出します。 エンタープライズ VoIP ソリューションには、応答、転送、転送、保留、転用、解除、パーク、拡張 9-1-1 (E9-1-1) 通話 (E9-1-1) 通話などの一般的な通話機能が含まれています (E9-1-1 は米国でのみ使用できます)。エンタープライズ VoIP、現在および古い IP および USB デバイスの幅広い範囲もサポートしています。
-ms.openlocfilehash: 385547cc541c2169606afd0c6d7de939c1611a44f8ad2fc762c69f60e847e016
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d74544660802505c4d8ddde35cc578fccfe36040
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315523"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626589"
 ---
 # <a name="enterprise-voice-planning-tool"></a>エンタープライズ VoIP計画ツール
  

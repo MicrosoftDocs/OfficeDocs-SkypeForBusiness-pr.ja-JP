@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: ramesa
 audience: admin
 description: Microsoft Teams によるシステム メモリの使用、およびデスクトップ アプリケーションと Web アプリケーションでメモリ使用量が同じ理由について説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 84a6b7fa894ead7d0504c768adc2eedc47b20f3b88efae88c9fd1fbdc9c7119f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e0606848d5a6d3816ef0c6d16bb46e069b0941b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296494"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625829"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams のメモリ使用方法
 

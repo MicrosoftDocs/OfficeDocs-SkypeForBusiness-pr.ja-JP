@@ -9,15 +9,15 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、2019 年Skype for Business Serverされています。'
-ms.openlocfilehash: c6ba9d9945ae5dde2a9898fe5adfd44192faceb5
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: cdc7b54f815c324707ee657d8365aa842f28293d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372057"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595031"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>2019 年から廃止Skype for Business Server
 

@@ -11,7 +11,7 @@ ms.reviewer: naforer
 f1.keywords:
 - NOCSH
 description: Cloud Video Interop を中間ソリューションとして使用して、サードパーティの会議室デバイスが会議に参加Microsoft Teamsします。
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12ddd59e1bb126e69557ba69fc34113c69f31868600414f9c686665f9b546bd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39452a659f1a95d66aeac4a18a4d7801764437ae
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336437"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618643"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -49,7 +49,7 @@ Microsoft Teams は、クラウド ビデオ相互運用性により、会議室
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365米国政府とサード パーティのサービス
 
-Office 365 では、Microsoft 365 Apps for enterprise に含まれる SharePoint Online サイト、Skype for Business、Teams、Office アプリケーション (Word、Excel、PowerPoint、Outlook など) にサード パーティ製アプリケーションを統合Outlook Web App。 さらに、Office 365サード パーティのサービス プロバイダーとの統合をサポートしています。 これらのサード パーティのアプリケーションとサービスには、Office 365 インフラストラクチャの外部にあるサードパーティ システム上で組織の顧客データを格納、送信、処理する必要があります。そのため、Office 365 のコンプライアンスとデータ保護のコミットメントの対象外となります。 **お客様の組織に対するこれらのサービスの適切な使用を評価する際には、第三者から提供されるプライバシーおよびコンプライアンスに関する声明を確認してください。**
+Office 365 では、Microsoft 365 Apps for enterprise に含まれる SharePoint Online サイト、Skype for Business、Teams、Office、Office アプリケーション (Word、Excel、PowerPoint、Outlook など) にサード パーティ製アプリケーションを統合Outlook Web App。 さらに、Office 365サード パーティのサービス プロバイダーとの統合をサポートしています。 これらのサード パーティ製のアプリケーションとサービスには、Office 365 インフラストラクチャの外部にあるサードパーティ システム上で組織の顧客データを格納、送信、処理する必要があります。そのため、Office 365 のコンプライアンスとデータ保護のコミットメントの対象外となります。 **お客様の組織に対するこれらのサービスの適切な使用を評価する際には、第三者から提供されるプライバシーおよびコンプライアンスに関する声明を確認してください。**
 
 
 

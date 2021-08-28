@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: この記事では、リソース アカウントを作成、編集、管理する方法についてMicrosoft Teams。
-ms.openlocfilehash: dd366e59e99b41386d4f5e7a9373401ca67381cf0cf08f44dae1763e401dff53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4456ff79049f0aebc206fd4d941df7b50caa690b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595041"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
-リソース アカウントは、Azure AD の無効なユーザー オブジェクトであり、一般的なリソースを表す場合に使用できます。 たとえば、会議室を表し、電話番号と予定表Exchangeリソース アカウントを使用できます。 リソース アカウントは、Microsoft 365 2019 を使用して、Skype for Business Serverできます。
+リソース アカウントは、Azure ADの無効なユーザー オブジェクトであり、一般的なリソースを表す場合に使用できます。 たとえば、会議室を表し、電話番号と予定表Exchangeリソース アカウントを使用できます。 リソース アカウントは、Microsoft 365 2019 を使用して、Skype for Business Serverできます。
 
-このMicrosoft Teams、自動応答または通話キューごとにリソース アカウントが必要です。 リソース アカウントには、サービスの電話番号が割り当て済みである場合があります。 これは、外部の発信者が自動応答または通話キューに到達できるように、Teamsに電話番号を自動応答と通話キューに割り当てる方法です。
+このMicrosoft Teams、自動応答または通話キューごとにリソース アカウントが必要です。 リソース アカウントには、サービスの電話番号が割り当て済みである場合があります。 これは、外部の発信者が自動応答または通話キューに到達できるように、電話番号を自動応答と通話キューに割り当てるTeams方法です。
 
 この記事では、リソース アカウントを作成し、自動応答と通話キューで使用する準備をする方法について説明します。
 
@@ -79,9 +79,9 @@ ms.locfileid: "54324107"
 
 リソース アカウントごとに、仮想ユーザー ライセンスまたは仮想ユーザー ライセンスMicrosoft 365 電話システム *割* り当てる *電話システム* があります。
 
-![[ライセンスの割り当て] ユーザー インターフェイスのスクリーンショットMicrosoft 365 管理センター](media/resource-account-assign-virtual-user-license.png)
+![ライセンスの割り当てユーザー インターフェイスのスクリーンショット (Microsoft 365 管理センター](media/resource-account-assign-virtual-user-license.png)
 
-1. [Microsoft 365 管理センターで、ライセンスを割り当てるリソース アカウントをクリックします。
+1. [リソースMicrosoft 365 管理センター、ライセンスを割り当てるリソース アカウントをクリックします。
 
 2. [ライセンスと **アプリ] タブの**[ライセンス]**で**、[仮想Microsoft 365 電話システム **- 仮想ユーザー] を選択します**。
 
@@ -89,13 +89,13 @@ ms.locfileid: "54324107"
 
 ## <a name="assign-a-service-number"></a>サービス番号を割り当てる
 
-サービス番号を必要とする自動応答または通話キューでリソース アカウントを使用する予定がある場合は、リソース アカウントに番号を割り当てる必要があります。
+サービス番号を必要とする自動応答または通話キューでリソース アカウントを使用する場合は、リソース アカウントに番号を割り当てる必要があります。
 
 ![サービス番号の割り当てユーザー インターフェイスのスクリーンショット](media/resource-account-assign-phone-number.png)
 
 1. 管理センター Teamsの [リソース アカウント]ページで、サービス番号を割り当てるリソース アカウントを選択し、[割り当て/割り当て解除]**をクリックします**。
 
-2. [数値 **電話] ドロップダウンで**、使用する数値の種類を選択します。
+2. [数値 **電話ドロップダウンリストで**、使用する数値の種類を選択します。
 
 3. [割 **り当てられた電話番号]** ボックスで、使用する番号を検索し、[追加] を **クリックします**。
 
@@ -106,7 +106,7 @@ ms.locfileid: "54324107"
 
 `Set-CsOnlineApplicationInstance -Identity aa-contoso_main@contoso64.net -OnpremPhoneNumber +19295550150`
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 リソース アカウントのセットアップを完了し、必要に応じてサービス番号を割り当てると、自動応答または通話キューでリソース アカウントを使用する準備が整います。
 
@@ -137,7 +137,7 @@ ms.locfileid: "54324107"
 > [!NOTE]
 > Skype For Business Server 2019 ユーザーが通話キューまたは自動応答を検索可能にしたい場合は、オンライン リソース アカウントが Active Directory に同期されないので、Skype For Business Server 2019 でリソース アカウントを作成する必要があります。 sipfederationtls の DNS SRV レコードが Skype for Business Server 2019 に解決された場合は、SfB 管理シェルを使用して Skype For Business Server 2019 でリソース アカウントを作成し、Azure AD に同期する必要があります。
 
-アプリケーションとハイブリッドである実装のSkype for Business Server。
+アプリケーションとハイブリッドである実装Skype for Business Server。
 
    [クラウド自動応答の計画](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   

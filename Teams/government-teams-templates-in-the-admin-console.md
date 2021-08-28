@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 管理センターを使用して定義済みの設定、チャネル、およびプレインストールされたアプリを提供することで、チーム テンプレートを使用して政府のニーズに合ったチーム構造を作成する方法について説明します。
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b915daab744bd764a9ac9e1d0be000357a051a2719e9e544bfff8b5a5c26e5a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f373e2e949d4fe461ef06657e0791f4ff59f4b61
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315253"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603406"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>管理センターで政府機関のチーム テンプレートを使用する
 
@@ -40,7 +40,7 @@ ms.locfileid: "54315253"
 
 ## <a name="coordinate-incident-response"></a>インシデント対応を調整する
 
-危機管理チームまたはインシデント対応チームのコミュニケーションと重要なリソースを一元化します。 このチーム内には、さまざまな種類のファイルを含め、すべてのドキュメントの中心的な場所を作成できます。 オンライン会議を使用して、情報フローと状況認識を向上します。
+危機管理チームまたはインシデント対応チームのコミュニケーションと重要なリソースを一元化します。 このチーム内には、さまざまな種類のファイルを含め、すべてのドキュメントの中心的な場所を作成できます。 オンライン会議を使用して、情報フローと状況認識を改善します。
 
 | 基本テンプレートの種類 |baseTemplateId | この基本テンプレートに含まれるプロパティ |
 |-------------------|-------|---------------------------------------------------------------------------|

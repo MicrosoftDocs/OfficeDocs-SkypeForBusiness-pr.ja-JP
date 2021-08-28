@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 組織の IT スタッフを準備して、組織のリソースをデプロイおよびサポートする方法についてMicrosoft Teams。
-localization_priority: Normal
+description: 組織の IT スタッフを準備して、組織の IT スタッフをデプロイしてサポートする方法についてMicrosoft Teams。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dc29f8656b4fdd69d0e6e59338e91341d32cc7e283b4bdd2cfb5680192e248b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53e0e8e57a7948947878fe93bcf358c83adeac52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343861"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618333"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>IT スタッフを準備Microsoft Teams
 
@@ -37,7 +37,7 @@ ms.locfileid: "54343861"
 - [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-組織Microsoft 365またはOffice 365、テクニカル リード、サポート デスクは、高品質のユーザー エクスペリエンスを推進する責任を持ちます。 これには、ネットワークが Teams をサポートする準備ができていることを確認する、ユーザー用に Teams を構成する、発生する可能性のある問題を効果的にトラブルシューティングして解決できるなどです。
+組織Microsoft 365またはOffice 365管理者、技術リード、サポート デスクは、高品質のユーザー エクスペリエンスを推進する責任を持ちます。 これには、ネットワークが Teams をサポートする準備ができていることを確認する、ユーザー用に Teams を構成する、発生する可能性のある問題のトラブルシューティングと解決を効果的に行えるなどです。
 
 次のリソースを IT スタッフ メンバーと共有し、ユーザーをサポートする準備ができていることを確認してから、ユーザーへのアップグレードを開始Teams。
 

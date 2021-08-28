@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Skype for Business Server 2019 に移行した後、従来のサーバーを削除する前に、サーバーの全体管理サーバーを Skype for Business Server 2019 フロント エンド サーバーまたはプールに移動する必要があります。
-ms.openlocfilehash: 0c5ee756a52d61008498e50df5d3bf64fbe20f8c4ef1ee96e4e7528c2a3bd820
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5c3d090f762904aa5f076033a68e46139b1e84e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300603"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618283"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>従来のサーバーの全体管理サーバーを 2019 年Skype for Business Serverする
 
