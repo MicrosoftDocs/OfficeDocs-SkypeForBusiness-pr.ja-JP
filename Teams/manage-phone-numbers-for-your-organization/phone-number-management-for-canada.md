@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: この表を使用して、カナダの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: ee4888d0f2cb7fb683eecd0bbf16e38165f16354
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 98a2cd820e3376b1f38f063115b7468df99b793b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348499"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630119"
 ---
 # <a name="phone-number-management-for-canada"></a>カナダでの電話番号の管理
 
@@ -42,7 +42,7 @@ ms.locfileid: "58348499"
 |番号を別のMicrosoft 365またはOffice 365に転送します。  <br/>               | 転送元の組織の PIN と共に、転送するユーザー (サブスクライバー) 電話番号の一覧に関する手順については[、PTSN](contact-pstn-service-desk.md)サービス デスクにお問い合わせください。 PIN をセットアップする方法については、[こちら](../phone-number-calling-plans/port-order-overview.md#can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier)をご覧ください。  <br/> |
 |通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、PSTN サービス デスクに問い合わせ [、手順を確認してください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

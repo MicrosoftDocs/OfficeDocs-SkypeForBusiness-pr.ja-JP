@@ -14,38 +14,38 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
-description: Skype for Business Online プラン 1 は廃止されました。 ただし、オンライン プラン 1 をSkype for Businessサブスクリプションをお持ちである場合、この変更は影響を受け取るわけではありません。 新しいプラン (現在または更新中) に移行する準備ができたら、3 つのオプションがあります。
-ms.openlocfilehash: 1fcab902c9d3c05713a3bf263fa54cf33e7036f1b8cf9b7b8935fe966f8d5659
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Skype for Business Online プラン 1 は廃止されました。 ただし、オンライン プラン 1 をSkype for Businessしている場合、この変更は影響を受け取るわけではありません。 新しいプラン (現在または更新中) に移行する準備ができたら、3 つのオプションがあります。
+ms.openlocfilehash: 0946ff0ee6b38f36cdb2f6bd8dcea728fc65c92a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316373"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583381"
 ---
 # <a name="skype-for-business-online-plan-1-retirement"></a>Skype for Business Online プラン 1 のサポート終了 
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business Online プラン 1 は廃止されました。 ただし、オンライン プラン 1 をSkype for Businessサブスクリプションをお持ちである場合、この変更は影響を受け取るわけではありません。 グローバル Office 365 管理者は、メールの更新を受け取り、アクションを実行する必要がある場合に関する情報を含む投稿をメッセージ センター (Microsoft 365 管理センター の一部) に表示します。 その間、既存のオンライン プラン 1 ライセンスSkype for Business引き続き使用できます。
+Skype for Business Online プラン 1 は廃止されました。 ただし、オンライン プラン 1 をSkype for Businessしている場合、この変更は影響を受け取るわけではありません。 グローバル Office 365 管理者は、メールの更新を受け取り、アクションを実行する必要がある場合に関する情報を含む投稿をメッセージ センター (Microsoft 365 管理センター の一部) に表示します。 その間、オンライン プラン 1 のライセンスを引き続きSkype for Business既存のライセンスを使用できます。
 
 新しいプラン (現在または更新中) に移行する準備ができたら、Office 365 F1 または別の Office 365 プランに切り替えるオプションがあります。
 
-Skype for Business Online プラン 1 と同じ機能を維持しながら、新しい機能を利用Office 365。 利用できるプラン オプションの多くは、Skype for Business Online プラン 1 に含まれるすべての機能に加え、IM とプレゼンス、IP を使用したピア ツー ピアの音声とビデオ、認証されたユーザーとして会議に参加する機能などです。
+Skype for Business Online プラン 1 と同じ機能を維持しながら、新しい機能を利用Office 365。 利用できる多くのプラン オプションには、Skype for Business Online プラン 1 に含まれるすべての機能に加え、IM とプレゼンス、IP を使用したピア ツー ピアのオーディオとビデオ、認証されたユーザーとして会議に参加する機能が含まれます。
 
 
-## <a name="switching-to-office-365-f1"></a>[Office 365 F1 に切り替Office 365 F1
+## <a name="switching-to-office-365-f1"></a>Office 365 F1 への切り替Office 365 F1
 
-このオプションは、ユーザーが提供する必要がある追加機能Office 365 F1に最適です。 詳細と価格情報の取得については、 を参照[Office 365 F1。](https://products.office.com/business/office-365-f1)
+このオプションは、ユーザーが提供する必要がある追加機能を利用Office 365 F1最適です。 詳細と価格情報については、 を参照[Office 365 F1。](https://products.office.com/business/office-365-f1)
 
 
 ### <a name="how-to-switch"></a>切り替え方法 
 
-更新プログラムに切りOffice 365 F1切り替えるか、更新プロセス中に更新とアップグレードが行えるまで待ちます。 いずれの場合も、Microsoft から直接サブスクリプションを購入しない限り、アカウントの担当者またはパートナーと連絡を取って切り替えます。その場合は、Microsoft 365 管理センター で自分で Office 365 F1 に切り替えます。
+更新プログラムに切りOffice 365 F1切り替えるか、更新プロセス中に更新とアップグレードが行えるまで待ちます。 いずれの場合も、Microsoft から直接サブスクリプションを購入しない限り、アカウントの担当者またはパートナーと連絡を取り合って切り替えます。その場合は、Microsoft 365 管理センター で自分で Office 365 F1 に切り替えます。
 
 
 ## <a name="switching-to-another-office-365-offer"></a>別のオファーにOffice 365する

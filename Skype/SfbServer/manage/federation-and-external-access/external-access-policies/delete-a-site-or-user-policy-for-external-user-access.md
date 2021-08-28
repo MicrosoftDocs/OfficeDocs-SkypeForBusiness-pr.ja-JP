@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: '[外部アクセス ポリシー] ページの [コントロール パネル] の [Skype for Business Server] に表示されているサイトまたはユーザー ポリシーを削除できます。'
-ms.openlocfilehash: 99daff71590c6296a7f3a68405726c2854afae1c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: dc8ebdd0fc37d638f4d129dd995ebd2f179b0026
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235502"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582761"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザー アクセスに関するサイト ポリシーまたはユーザー ポリシーの削除
 

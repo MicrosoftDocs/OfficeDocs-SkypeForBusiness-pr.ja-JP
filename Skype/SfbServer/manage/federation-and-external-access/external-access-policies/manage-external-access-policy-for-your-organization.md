@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 1 つ以上のエッジ サーバーを展開したら、組織でサポートする外部アクセスの種類を有効にする必要があります。
-ms.openlocfilehash: 0de747552ff19852d7947178e0882aec227c9e2d75f9210597f8183b6703f101
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: acd69cf74d6e7a17265543fb326f279b3bc3360f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284757"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582751"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>組織の外部アクセス ポリシーの管理
 

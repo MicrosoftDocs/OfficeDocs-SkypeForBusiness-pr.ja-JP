@@ -13,26 +13,26 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 次の表を使用して、オーストラリアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: c9f74c8f3cb427c0b9870d0892a12ce4770dbb56
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: この表を使用して、オーストラリアの電話番号の取得と管理に関する情報をMicrosoft Teams。
+ms.openlocfilehash: 156fe90556f63aaadc298b2b7c4340f5e9aa1c33
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233842"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630149"
 ---
 # <a name="phone-number-management-for-australia"></a>オーストラリアでの電話番号の管理
 
-オーストラリアでは、Telstra と提携して、オーストラリアの請求先住所を持つ顧客向け通話プランの購入とプロビジョニングを行いました。 Telstra は通話プランを販売し、オーストラリアのユーザー番号を提供します。 Telstra では、自動応答と通話キューのユーザー番号とサービス番号の両方の電話番号管理がサポートされています。 ただし、電話会議のサービス番号とライセンスは、引き続き電話会議と電話会議Microsoft 365管理Office 365。
+オーストラリアでは、Telstra と提携して、オーストラリアの請求先住所を持つ顧客向け通話プランの購入とプロビジョニングを行いました。 Telstra は通話プランを販売し、オーストラリアのユーザー番号を提供します。 Telstra では、自動応答と通話キューのユーザー番号とサービス番号の両方の電話番号管理がサポートされています。 ただし、電話会議のサービス番号とライセンスは、引き続き電話会議と電話会議によって販売Microsoft 365管理Office 365。
 
 Telstra 呼び出し [の詳細については、 を参照してください](https://aka.ms/TelstraVoicePlan)。
 
-次の表を使用して、オーストラリアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+この表を使用して、オーストラリアの電話番号の取得と管理に関する情報をMicrosoft Teams。
 
 詳細については、「[組織の電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
@@ -45,9 +45,9 @@ Telstra 呼び出し [の詳細については、 を参照してください](h
 |電話会議で使用するためにMicrosoft 365またはOffice 365電話番号を取得します。  |[手順については、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md) |
 |コール プラン電話番号を持っているユーザーに割り当てられた緊急アドレス指定を変更する。 |緊急対応 [の住所を変更するには、Telstra Calling](https://aka.ms/TelstraVoicePlan) にお問い合わせください。 同社がこの情報を更新できます。|
 |ユーザー番号をサービス番号に変更する。 |Telstra 通話を使用する場合にサポートされます。|
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、PSTN サービス デスクに問い合わせ [、手順を確認してください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、PSTN サービス デスクに手順 [を問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

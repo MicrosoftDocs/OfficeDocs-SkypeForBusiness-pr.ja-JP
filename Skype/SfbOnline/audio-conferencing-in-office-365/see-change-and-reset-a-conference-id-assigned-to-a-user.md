@@ -15,29 +15,29 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Skype of business オンライン のユーザーに会議 ID を割り当てる方法と、会議ID パラメーターのあるべき姿について学びます。 '
-ms.openlocfilehash: 4b52b3cd7fb3d1ca35937e8c43365f3463134a19e4b9337cfb56b3b9eac1f8b8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c8c3abcf515a0a60046cd2438833467b8be78231
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327063"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607674"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Skype of businessオンラインのユーザーに割り当てられている会議 ID を表示させリセットしてください。
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Microsoft Teams でのユーザー会議 ID の詳細については、「Microsoft Teams でユーザーに割り当てられている会議 ID を表示およびリセットする」[を参照してください](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)。
+> Microsoft Teams でのユーザー会議 ID の詳細については、「Microsoft Teams でユーザーに割り当てられている会議 ID を表示およびリセットする[」をMicrosoft Teams。](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)
 
 Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft を電話会議プロバイダーとして使用すると、Skype for Business ユーザーに会議 ID が自動的に割り当てられます。 割り当てられた会議 ID は、会議がスケジュールされているときに会議出席招待で送信されます。 ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。
 
-会議 ID は自動的に作成され、ユーザーに割り当てられますが、ユーザーはこの ID を使用したくない場合や、特定の数に設定したり、ユーザーが会議 ID を記憶したり失われたりする場合があります。 管理者センターと Skype for Business **を** 使用してWindows PowerShell ID の表示、変更、リセットを行えます。
+会議 ID は自動的に作成され、ユーザーに割り当てられますが、ユーザーがこれを使用したくない場合や、特定の番号に設定したい場合や、ユーザーが会議 ID を記憶できない場合や紛失した場合があります。 管理者センターと Skype for Business **を使用** してWindows PowerShell ID の表示、変更、リセットを行えます。
 
 ユーザーに会議 ID と既定の電話会議の電話番号が含む電子メールが送信されるか、または会議 ID をリセットすると、PINではない 会議 ID を含む別の電子メールが送信されます。 会議の開催者のPINをリセットするの詳細については、 [ここ](reset-a-conference-id-for-a-user.md)をクリックします。
 
@@ -84,7 +84,7 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 
 2. [管理センター] に移動 **> Skype for Business。**
 
-3. 管理センター **Skype for Business 電話** 会議ユーザー ] の [会議 ID] の [アクション] ウィンドウで、[リセット] >    >  を **クリックします**。 
+3. [管理 **センター Skype for Business 電話** 会議ユーザー] の [会議 ID] の [アクション] ウィンドウで、[リセット] >    >  を **クリックします**。 
 
 4. [会議 **ID のリセット] ウィンドウで、[** はい] を **クリックします**。 A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -110,13 +110,13 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
-- Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。 Windows PowerShellでは、1 つの管理ポイントを使用して Microsoft 365 または Office 365 と Skype for Business Online を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。 Windows PowerShellを使用すると、1 つの管理ポイントを使用して Microsoft 365 または Office 365 と Skype for Business Online を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
   - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-  - [PowerShell で使用する必要があるMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell を使用するMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター の使用に対する速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
+- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター を使用する場合に限り、速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
 
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
@@ -124,6 +124,6 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[電話会議を試用または購入するには、Microsoft 365 または Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

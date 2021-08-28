@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,13 +26,13 @@ ms.custom:
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
 - seo-marvel-apr2020
-description: 組織のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得および管理する方法Microsoft Teams確認します。
-ms.openlocfilehash: 534f0d17413e24f221ce04731e0f617355392fec5f08e04814b85c15eb3369ed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 組織のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得して管理する方法Microsoft Teams確認します。
+ms.openlocfilehash: 03c8fd0c265918a2ef664f668e2900d85ac50cf8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310635"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630189"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>組織のために電話番号を管理する
 
@@ -41,7 +41,7 @@ ms.locfileid: "54310635"
 - [管理センターで新しいユーザー Microsoft Teams取得します](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)。
 - [管理センター で新しいサービスMicrosoft Teams取得します](../getting-service-phone-numbers.md#get-new-service-numbers)。
 - [既存の _電話番号を_ 転送または移植します](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams)。
-- 管理センターに表示されない新しい電話番号には、要求フォームMicrosoft Teams使用します。
+- 管理センターに表示されていない新しい電話番号には、要求フォームMicrosoft Teams使用します。
 
 > [!IMPORTANT]
 > オーストラリアの新しい電話番号については、「[Telstra Voice サービス](https://aka.ms/TelstraVoicePlan)」を参照してください。 日本の新しい電話番号については [、SoftBank Voice Services に関するページを参照してください](https://aka.ms/SoftBankVoicePlan)。
@@ -90,18 +90,18 @@ ms.locfileid: "54310635"
 
 (お客様の国または地域によっては) Microsoft Teams 管理センターを使用して新しいユーザー (サブスクライバー) またはサービス (有料または無料) の電話番号を取得できない場合や、特定の電話番号(バニティ要求) または特定の市番が必要な場合があります。
 
-その場合は、正しい PDF LOA フォーム (国または地域、電話番号の種類ごとに) をダウンロードし、返送する必要があります。 サービス デスクがそこからそれを受け取り、要求の処理を開始します。
+その場合は、正しい PDF LOA フォーム (国または地域、電話番号の種類ごとに) をダウンロードして、返送する必要があります。 サービス デスクがそこからそれを受け取り、要求の処理を開始します。
 
 ### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>既存の電話番号を別のサービス プロバイダーから別のサービス プロバイダーに転送または移植する承認状 (LOA) Microsoft Teams
 
-既存の電話番号を転送/移植する必要がある場合は、承認状 (LOA) をダウンロードして入力し、送信する必要があります。これにより、お客様に代わって、別のサービス プロバイダーの既存の番号を Microsoft Teams に要求および転送するアクセス許可が付与されます。
+既存の電話番号を転送/移植する必要がある場合は、承認状 (LOA) をダウンロードして入力し、送信する必要があります。これにより、お客様の代わりに、別のサービス プロバイダーから Microsoft Teams にこれらの既存の番号を要求および転送するアクセス許可が付与されます。
 
 現在、別の運送業者に次の情報がある場合は **、LOA** をお送りください。
 
 - ユーザー (サブスクライバー) 番号。
 - 電話会議ブリッジ、自動応答、または通話キューのサービス (有料) 番号。
 - Toll-Free番号を入力します。
-- 999 を超えるユーザー電話番号を転送/ポートする必要がありますが、ローカル番号の移植ウィザードを使用して Microsoft Teams 管理センターにアクセスできない。
+- 999 を超えるユーザー電話番号を転送/ポートする必要がありますが、ローカル番号の移植ウィザードを使用して Microsoft Teams 管理センターに移動できない。
 
 入力および署名済 **み** LOA が完了したら [、PSTN](./contact-pstn-service-desk.md) サービス デスクにお問い合わせください。お手伝いします。
 
@@ -111,7 +111,7 @@ ms.locfileid: "54310635"
 
 ## <a name="additional-resources"></a>その他のリソース
 
-- 国または _地域で_ 利用できる通話プランと利用できる通話プランを確認するには、「電話会議と通話プランの国と地域の空き時間 [情報」を参照してください](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
+- 国または _地域で_ 利用できる通話プランと利用できる通話プランを確認するには、「電話会議と通話プランの国と地域の空き時間 [情報」を参照してください。](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - 適切な電話番号の種類の選択を支援するには、「通話プランに使用されるさまざまな種類の電話番号」 [を読む必要があります](../different-kinds-of-phone-numbers-used-for-calling-plans.md)。
 - 組織の電話番号の設定に関するサポートを受ける場合は、「ビジネス用製品のサポート連絡先 - 管理者向けヘルプ」 [を参照してください](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)。
 

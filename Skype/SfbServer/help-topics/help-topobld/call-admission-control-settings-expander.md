@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PdpSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 description: 通話受付管理 (CAC) は、使用可能な帯域幅に基づいてオーディオおよびビデオ伝送に制限を課すことができる地域、サイト、およびサブネットで構成されるネットワークです。 CAC のネットワークを構成した後、帯域幅の制限を適用するために CAC を有効にする必要があります。
-ms.openlocfilehash: c4cf3fb84e8c7a4cb9fea9f6092054d37278c52a4e441d52dce72734b37906e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 23a881bf502a161a5a81e17a23a889ff1324f6c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298297"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582771"
 ---
 # <a name="call-admission-control-settings-expander"></a>通話受付管理設定エキスパンダー
  

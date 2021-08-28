@@ -13,22 +13,22 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、オーストリアの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 9a83bd68c313af1020a052c92e708505f6f13d02
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+description: この表を使用して、オーストリアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+ms.openlocfilehash: 240af65018568760de93eaebda360ca8a73e9baf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348269"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630129"
 ---
 # <a name="phone-number-management-for-austria"></a>電話の番号管理
 
-この表を使用して、オーストリアの電話番号の取得と管理に関する情報をMicrosoft Teams。
+この表を使用して、オーストリアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
@@ -38,9 +38,9 @@ ms.locfileid: "58348269"
 |転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[オーストリアの承認状 (LOA) (すべての数値) (v.5.0) (de-at)](https://download.microsoft.com/download/3/e/2/3e27f3ee-0f38-4d73-b8e8-b43b9e1d1381/letter-of-authorization-(loa)-for-austria-(all-numbers)-(v.5.0)-(de-at).pdf) <br/> <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。  <br/> <br/>また、番号を転送する会社の住所から、公共料金を含める必要があります。<br/> |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |公開/発行を取り消す電話番号の一覧の送信方法については[、PTSN](contact-pstn-service-desk.md)サービス デスクにお問い合わせください。      <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧の送信方法については、PTSN サービス デスクにお問い合わせください。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、PSTN サービス デスクに問い合わせ [、手順を確認してください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、PSTN サービス デスクに手順 [を問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

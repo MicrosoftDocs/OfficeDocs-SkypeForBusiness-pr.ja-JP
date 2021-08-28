@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Microsoft 365 Business Voice が利用できる国と地域。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e56b1c4314989a8f3868aacc613c3742a48f39502d80a3bd9cb8168e8d2549e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a83764b0741dad4859c5faaa3b955a38dbb41257
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332979"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630281"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>国および地域ごとの Business Voice の利用可能性
 

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 帯域幅ポリシーを作成または変更します。このポリシーは、エンタープライズ VoIPの通話受付管理でSkype for Business Server。
-ms.openlocfilehash: 9a0cbbb4f398872504eea38bda7a3a4e79a62ac00331946b73a62bbf9c57a2df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4ba24c7f1fa170386e6d74fc34ef99e580d5ac91
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332039"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583211"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>帯域幅ポリシー プロファイルを作成Skype for Business Server 
  

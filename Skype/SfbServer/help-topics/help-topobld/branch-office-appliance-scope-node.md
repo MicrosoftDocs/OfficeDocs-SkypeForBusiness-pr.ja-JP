@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 description: このノードには、完全修飾ドメイン名 (FQDN)、関連するプールとサーバー、およびこの存続可能ブランチ アプライアンスに関する復元情報が表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: d366ddc4343b9feeb5f42c03e4c45c958711501c7d73e53277a225e3cd218ce1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a58f06b2f7f743d2d218daa31031271a7de6cf8a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301533"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582811"
 ---
 # <a name="branch-office-appliance-scope-node"></a>ブランチ オフィス アプライアンスのスコープ ノード
  

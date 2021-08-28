@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ユーザーの選択エンタープライズ VoIP] ダイアログ ボックスを使用して、ユーザーが有効になっているユーザーをエンタープライズ VoIP。 検索ボックスに、検索するユーザーの SIP アドレスまたは表示名を入力して [検索] をクリックします。 ユーザーを選択するには、検索結果の一覧でユーザーをクリックして [OK] をクリックします。 探しているユーザーが見当たらされない場合は、そのユーザーがユーザーに対して有効エンタープライズ VoIP。'
-ms.openlocfilehash: 67ccafdcaa4db3a235fcf4176379ed5cb7647b3ae2a4cfc5c642cca82a991bf7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25430def4c98cc074ca76058b54df51da9b5a758
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328542"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583131"
 ---
 # <a name="select-enterprise-voice-users"></a>エンタープライズ VoIP ユーザーの選択
  
