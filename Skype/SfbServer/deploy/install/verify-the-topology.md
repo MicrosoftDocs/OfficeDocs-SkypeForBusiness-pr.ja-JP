@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: '概要: トポロジサーバーと Active Directory サーバー Skype for Business Server期待通り動作している状態を確認する方法について学習します。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 743741fd18766116ed923a2af632f33c88343ef5957a84165edc7702b3b6593f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d8bc0a8ead8d435acf23965c461b57dab93edc2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294774"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605526"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>[トポロジ] でトポロジを確認Skype for Business Server
  

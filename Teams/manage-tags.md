@@ -13,15 +13,15 @@ ms.collection:
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams で組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: a7b0eef37f335aeb0094dba568dcc98a3fd1bd07
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: b7d6e6c5995a642c45fdc1d91b4a526495a8f1a1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399056"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579651"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 

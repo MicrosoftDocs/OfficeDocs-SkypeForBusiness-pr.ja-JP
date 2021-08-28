@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[サブジェクト名/サブジェクトの別名] ページには、証明書に取り込まれるサブジェクト名とすべてのサブジェクトの別名の概要が表示されます。 サブジェクト名とサブジェクトの代替名に表示される名前は、トポロジ ビルダーで展開を定義するときに作成された定義ドキュメントから収集されます。'
-ms.openlocfilehash: 24f47214797224ac0907c5478deef7db819fd57ec84bba87de256c6f5360c36c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 929d8611ce5040d93ab6f7f1a68a0c34957ab364
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325324"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605456"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>証明書要求 (サブジェクトの別名)
  

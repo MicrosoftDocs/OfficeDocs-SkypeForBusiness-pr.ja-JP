@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: ユーザーとコンシューマーを接続Skype for Business ServerするSkypeします。 また、接続のSkype呼び出されます。'
-ms.openlocfilehash: 752bae0797da1129d677dd962ad9dc6e4b9a6e99123babcf30ab8bd11bdbf668
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307788"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605546"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>ネットワークSkype接続を展開Skype for Business Server
 
@@ -126,13 +126,13 @@ Skype for Business オンプレミス展開と Skype 間のフェデレーショ
 2006 年に展開されたパブリック IM (PIC) プロビジョニング メカニズム (pic.lync.com) はサービスを提供できなくなったので、2019 年 8 月 15 日にシャットダウンされます。 代わりに、パブリック IM フェデレーションは、Skype for Business Online で使用されるのと同じフェデレーション モデル ("パートナー検出" と呼ばれる) を前提とします。この場合、オンプレミス展開はフェデレーション DNS SRV レコードによって一般に検出できます。
 
 **この変更は、パブリック IM フェデレーションが廃止されるという意味ですか?**
-いいえ。 パブリック IM フェデレーションは、おそらくオンプレミス製品がSkype for Businessまで、何年もサポートされ続けます。
+その必要はありません。 パブリック IM フェデレーションは、おそらくオンプレミス製品がSkype for Businessまで、何年もサポートされ続けます。
 
 **弊社は、オンラインとハイブリッド関係 (共有アドレス空間) をSkype for Business影響を受けるか?**
 いいえ、オンラインで既にフェデレーションを行Skype for Business、この変更は影響を受け取らなくなっています。
  
 **この変更は、会社がオンラインとフェデレーションを有効にする必要Skype for Businessですか?**
-いいえ。 エッジ サーバープロキシ設定で Skype for Business Online ホスティング プロバイダー (sipfed.online.lync.com) とのフェデレーションを有効にしない場合、この変更は影響しません。 ただし、Skype for Business Online とのフェデレーションに適用されるのと同じ DNS 要件と証明書要件は、Skype ユーザーとのフェデレーションにも適用されます。
+その必要はありません。 エッジ サーバープロキシ設定で Skype for Business Online ホスティング プロバイダー (sipfed.online.lync.com) とのフェデレーションを有効にしない場合、この変更は影響しません。 ただし、Skype for Business Online とのフェデレーションに適用されるのと同じ DNS 要件と証明書要件は、Skype ユーザーとのフェデレーションにも適用されます。
  
 **当社は大規模で、規制/コンプライアンス/その他の理由によりエッジ構成を変更できません。.何ができますか?**
 指定したエッジ サーバー構成を変更できないオンプレミス組織は、できるだけ早く製品サポートに連絡する必要があります。
@@ -141,7 +141,7 @@ Skype for Business オンプレミス展開と Skype 間のフェデレーショ
 
 次に、接続Skype for Business Server構成に必要な環境と管理タスクSkypeします。 このセクションでは、管理者がエッジ サーバーとも呼ばれるSkype for Business Server、構成された外部アクセスを展開したと仮定します。 
   
-フェデレーションと PIC を有効にするには、3 つの主要な手順が必要です。 それらを次に示します。
+フェデレーションと PIC を有効にするには、3 つの主要な手順が必要です。 それらを次に示します:
   
 1. フェデレーションと PIC の構成
     

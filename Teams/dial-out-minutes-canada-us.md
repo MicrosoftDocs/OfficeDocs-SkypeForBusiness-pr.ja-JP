@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: fafan
 audience: admin
 description: 電話会議Office 365米国およびカナダへの延長ダイヤルアウト通話 (分) について説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbc9687c6fa55f809a40e74b0013371e6ad9a64453498af416cdee0f741e205
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39b8bc2aee158ea5992c4255932606cf4f5f81ac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344326"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605806"
 ---
 # <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365電話会議の米国とカナダへのダイヤルアウト通話 (分) の延長
 
-Microsoft が電話会議サービスを導入し、米国とカナダにダイヤルアウトするビジネスニーズが高いお客様のために、Microsoft は、電話会議ユーザーに対して米国およびカナダのダイヤルアウト分をフェア Use ポリシーで事実上無制限にできるアドオン オファーを提供します。 このアドオン SKU を使用する会議開催者は、テナントのゾーン A 国のダイヤルアウト使用プールまたは通信クレジットを差し引かなくても、米国とカナダへのフェア Use ポリシー ダイヤルアウト呼び出しで事実上無制限にできます。 <sup>1</sup>
+Microsoft が電話会議サービスを導入し、米国とカナダにダイヤルアウトするビジネスニーズが高いお客様のために、Microsoft は、電話会議ユーザーに対して米国およびカナダのダイヤルアウト分をフェア Use ポリシーで事実上無制限にできるアドオン オファーを提供します。 このアドオン SKU を使用する会議開催者は、テナントのゾーン A 国のダイヤルアウト使用プールまたは通信クレジットを差し引かなくても、米国とカナダへのフェア USE ポリシー ダイヤルアウト呼び出しで事実上無制限にできます。 <sup>1</sup>
 
 |オファー名 | 米国カナダへの無制限のダイヤルアウト分 |
 |-----|------|
@@ -37,8 +37,8 @@ Microsoft が電話会議サービスを導入し、米国とカナダにダイ�
 | 分はプールされていますか?  |いいえ。 会議の開催者は、1 か月あたり米国/カナダへのフェア Use ポリシー ダイヤルアウト分で事実上無制限です。 |
 | この新しいアドオン SKU は、電話会議に含まれる 60 分を置き換えるのでしょうか。 | いいえ。 テナント レベルでプールされた、ユーザーあたり 1 か月あたり 60 分の既存の電話会議は、ゾーン A のダイヤルアウト会議のすべての国に引き続き適用されます。|
 | チャネルの可用性は何ですか?  | EA/EAS、EES、CSP、Web Direct で利用できます。  |
-| セグメントの可用性は何ですか。 | 商用 (WW 商用公的機関を含む)、Education、Nonprofit、US GCC |
-| Extended Dial-out Minutes to USA/CAN を使用しているユーザーが米国内にあり、販売市場以外の別の国に出張Audio-Conferencing場合は、どうなるでしょうか。 ダイヤルアウト サービスは機能しますか? | はい。 米国に拠点を置くユーザー (つまり、Office 365 ライセンスが米国で割り当てられている) がジンバブエ (現在電話会議の販売先ではない市場) に移動した場合、米国またはカナダに対して行われたすべてのダイヤルアウト分は、通話の場所に関係なく、米国またはカナダへの延長ダイヤルアウト分/CAN アドオンに引き続き適用されます。 |
+| セグメントの可用性は何ですか。 | これは、商用 (WW 商用パブリック セクターを含む)、Education、Nonprofit、および US GCC |
+| Extended Dial-out Minutes to USA/CAN を使用しているユーザーが米国内にあり、販売市場以外の別の国に出張Audio-Conferencing場合は、どうなるでしょうか。 ダイヤルアウト サービスは機能しますか? | はい。 米国に拠点を置くユーザー (つまり、Office 365 ライセンスが米国で割り当てられている) が Zimbabwe (現在電話会議の販売先ではない市場) に移動した場合、米国またはカナダに対して行われたすべてのダイヤルアウト分は、通話の場所に関係なく、米国またはカナダへの延長ダイヤルアウト分/CAN アドオンに引き続き適用されます。 |
 |||
 
 <sup>1</sup> Microsoft は、不正な使用または不正使用の疑いがある場合に、機能の使用を制限または終了する権利を持っています。

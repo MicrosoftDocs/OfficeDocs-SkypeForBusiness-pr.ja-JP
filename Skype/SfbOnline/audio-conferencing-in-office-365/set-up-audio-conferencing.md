@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,18 +23,18 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 48ce96b4b2ab6ad87054784bea93d8a7a45638ee6f2d86938cca1be60f30d442
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 72abf99895924e70f3a57ae0f8d1e1cd8c0f9bcd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341093"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580051"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>会議の電話会議を設定Skype for Business
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business、この状況に合った電話会議機能が含まれています。 モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使ってSkype for Business会議にコールインできます。 
+組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business、この状況だけの電話会議機能が含まれています。 モバイル デバイスや PC で Skype for Business アプリを使う代わりに、電話を使ってSkype for Business会議にコールインできます。 
   
 電話会議の設定は、会議のスケジュールを設定または会議を進行するユーザーに対してのみ必要です。ダイヤルインで参加するユーザーについては、ライセンスの割り当てや他の設定は必要ありません。
   
@@ -64,11 +64,11 @@ ms.locfileid: "54341093"
 
 電話会議では、ユーザーの電話番号を使うことはできません。サービス番号を取得する必要があります。 会議ブリッジ用に、有料または無料のサービス番号のいずれかを取得することができます。 有料サービス番号と無料サービス番号を取得する方法は 3 通りあります。 
   
-- **管理センター Skype for Business使用します**。 一部の国/地域では、管理センターで会議ブリッジのサービス番号Skype for Business取得できます。 「[サービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」を参照してください。
+- **管理センター Skype for Business使用します**。 一部の国/地域では、管理センターで会議ブリッジのサービスSkype for Business取得できます。 「[サービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」を参照してください。
     
 - **既存のサービス番号を移行する**。 既存の番号を現在のサービス プロバイダーまたは電話会社から Microsoft 365 または Office 365 に移行または転送します。 この方法の詳細については、「[Teams に電話番号を移行する](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)」または「[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
   
-- **申請書を使用して新しい番号を求める**。 (お客様の国/地域によっては) Skype for Business 管理センターを使用して新しいサービス番号を取得できない場合や、特定の電話番号または市番が必要になる場合があります。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。 
+- **申請書を使用して新しい番号を求める**。 (お客様の国/地域によっては) Skype for Business 管理センターを使用して新しいサービス番号を取得できない場合や、特定の電話番号または市番が必要な場合があります。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。 
     
 ## <a name="step-4-assign-a-service-number-to-the-conferencing-bridge"></a>手順 4: 会議ブリッジにサービス番号を割り当てる
 <a name="__top"> </a>
@@ -95,7 +95,7 @@ ms.locfileid: "54341093"
 1. ダッシュボードから **[会議]** > **[会議ブリッジ]** の順に開きます。
 2. 会議ブリッジ電話番号を選択して **[編集]** をクリックし、既定の言語を選択します。
 
-![[管理センターを使用Skype for Business ](../images/sfb-logo-30x30.png) **ロゴを示Skype for Businessアイコン**:
+![[管理センターを使用Skype for Business ](../images/sfb-logo-30x30.png) **ロゴをSkype for Businessアイコン**:
 
 1. [管理センター] に移動し、[>**ポータル**  >  **] Teams**  >  **管理センターに移動します**。
 2. [電話 **会議 Microsoft**  >  **Bridge] を選択します**。 

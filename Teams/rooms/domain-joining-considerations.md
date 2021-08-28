@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 ms.collection:
 - M365-collaboration
 description: 管理者は、Skype Room System アプライアンス PC を Active Directory ドメインに参加する方法と、それに関する考慮事項について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: caab82c853eb584ba304569daa49963eea847143b59a8413f77455ee9800c8fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7956160f57971e48f1f979a7c0a905d760b767bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346164"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579601"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -34,7 +34,7 @@ Skype Room System アプライアンス PC を Active Directory ドメインに�
   
 - Skype Room System アプライアンス PC をドメインに参加させると、組織のプライベート ルート証明書チェーンの自動インポートが容易になります。
 - Skype Room System アプライアンス PC をドメインに参加させると、ドメイン ユーザーとグループに管理者権限を与えることができます。 これにより、ローカル コンピューター レベルの管理者アカウントのパスワードを記憶する必要がなくなります。
-- Skype Room System アプライアンス PC をドメインに参加する場合、すべての Skype Room System マシン オブジェクトが存在する OU にグループ ポリシー オブジェクト (GPO) の除外を提供できるよう、個別の組織単位 (OU) を作成する必要があります。 その場合、Skype Room System アプライアンス PC をドメインに参加させる前に OU にマシン オブジェクトを作成します。
+- Skype Room System アプライアンス PC をドメインに参加する場合は、グループ ポリシー オブジェクト (GPO) の除外をすべての Skype Room System マシン オブジェクトが存在する OU に提供できるよう、個別の組織単位 (OU) を作成する必要があります。 その場合、Skype Room System アプライアンス PC をドメインに参加させる前に OU にマシン オブジェクトを作成します。
 - 多くの組織では、次の GPO が用意されています。それらは Skype Room System アプライアンス PC 機能に影響します。 Skype Room System OU でこれらの GPO の継承を上書きするか、ブロックしてください。
 
   - ログオン セッションのタイムアウト (自動ロックアウト)

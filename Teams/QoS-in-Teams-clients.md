@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: サービス品質 (QoS) を使用して、デスクトップ クライアントのネットワーク トラフィックを最適化Microsoft Teams学習します。
-localization_priority: Normal
+description: サービス品質 (QoS) を使用して、デスクトップ クライアントのネットワーク トラフィックをMicrosoft Teamsします。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: efe36f1ada9e8c98a82d8d5ece0cee2d9058aa318ef174f6d1b704f1c7f1e178
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c283a66db274bc8723d429631bf265fdb0f5206b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282890"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606016"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>サービス品質 (QoS) をクライアントにMicrosoft Teamsする
 
@@ -39,9 +39,9 @@ ms.locfileid: "54282890"
 |アプリケーション/画面共有| 50,040–50,059|TCP/UDP|18|相対的優先転送 (AF21)|
 | | | | | |
 
-可能な限り、グループ ポリシー オブジェクト内でポリシー ベースの QoS 設定を構成します。 次の手順は[、Skype for Business Server](/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)上のクライアントのポート範囲とサービス品質ポリシーの構成に非常に似ています。このポリシーには、必要ない可能性がある追加の詳細がいくつか含まれます。
+可能な限り、グループ ポリシー オブジェクト内でポリシー ベースの QoS 設定を構成します。 次の手順は、Skype for Business Server[](/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)上のクライアントのポート範囲とサービス品質ポリシーの構成に非常に似ています。このポリシーには、必要ない可能性がある追加の詳細がいくつか含まれます。
 
-ドメインに参加しているコンピューターの QoS オーディオ ポリシーを作成Windows 10、最初にグループ ポリシー管理がインストールされているコンピューターにログオンします。 [グループ ポリシーの管理] を開き ([スタート] をクリックし、[管理ツール] をポイントして、[グループ ポリシー管理] をクリックします)、次の手順を実行します。
+ドメインに参加しているコンピューターの QoS オーディオ ポリシーを作成Windows 10、最初にグループ ポリシー管理がインストールされているコンピューターにログオンします。 [グループ ポリシー管理] を開き ([スタート] をクリックし、[管理ツール] をポイントして、[グループ ポリシー管理] をクリックします)、次の手順を実行します。
 
 1. [グループ ポリシーの管理] で、新しいポリシーを作成するコンテナーを探します。 たとえば、すべてのクライアント コンピューターが **Clients** という名前の OU にある場合、新しいポリシーをクライアント OU に作成する必要があります。
 
@@ -51,11 +51,11 @@ ms.locfileid: "54282890"
 
 1. 新しく作成したポリシーを右クリックし、[編集] を **クリックします**。
 
-1. グループ ポリシー管理エディターで、[**コンピューター** の構成] を展開し、[Windows 設定]**を** 展開し、[ポリシー ベース **の QoS]** を右クリックし、[新しいポリシーの作成]**をクリックします**。
+1. グループ ポリシー管理エディターで、[**コンピューター** の構成]**を** 展開し、[Windows 設定] を展開し、[ポリシー ベース **の QoS]** を右クリックし、[新しいポリシーの作成]**をクリックします**。
 
 1. [ **ポリシー ベースの QoS]** ダイアログ ボックスの開きページで、[名前] ボックスに新しいポリシーの名前を **入力** します。 [SPECIFY **DSCP Value]を選択し** 、値を **46 に設定します**。 [ **送信スロットル レートの指定] は** オフのままにし、[次へ] を **クリックします**。
 
-1. 次のページで、[**この** 実行可能ファイル名を持つアプリケーションのみ] を選択し、[次へ]Teams.exeを入力し、[次へ] を **クリックします**。 この設定は、クライアントからの一致するトラフィックのみを優先順位付けするようにポリシー Teams指示します。
+1. 次のページで、[**この** 実行可能ファイル名を持つアプリケーションのみ] を選択し、[次へ]Teams.exe名前を入力し、[次へ] を **クリックします**。 この設定は、クライアントからの一致するトラフィックのみを優先順位付けするようにポリシー Teams指示します。
 
 1. 3 番目のページで、[任意の送信元 **IP** アドレス] と [任意の宛先 **IP** アドレス] の両方が選択され、[次へ] をクリック **します**。 これら 2 つの設定により、パケットを送信したコンピューター (IP アドレス) とパケットを受信するコンピューター (IP アドレス) に関係なく、パケットが管理されます。
 
@@ -65,7 +65,7 @@ ms.locfileid: "54282890"
 
 1. 手順 6 と 10 で適切な値を置き換え、ビデオとアプリケーション/デスクトップ共有のポリシーを作成するには、手順 5 ~ 10 を繰り返します。
 
-作成した新しいポリシーは、クライアント コンピューターでグループ ポリシーが更新されるまで有効にされません。 グループ ポリシーは定期的に独自に更新しますが、次の手順に従って、すぐに更新を強制できます。
+作成した新しいポリシーは、クライアント コンピューターでグループ ポリシーが更新されるまで有効にされません。 グループ ポリシーは独自に定期的に更新しますが、次の手順に従って、すぐに更新を強制できます。
 
 1. グループ ポリシーを更新する各コンピューターで、管理者としてコマンド プロンプト (管理者として実行)*を開きます*。
 
@@ -87,7 +87,7 @@ ms.locfileid: "54282890"
    gpresult /R > gp.txt
    ```
 
-   これにより、適用された GPO のレポートが生成され、 という名前のテキスト *ファイルにgp.txt。*
+   これにより、適用された GPO のレポートが生成され、 という名前のテキスト ファイル *にgp.txt。*
 
    l という名前の読み取り可能な HTML *gp.htm、* 次のコマンドを入力します。
 
@@ -122,6 +122,6 @@ ms.locfileid: "54282890"
 1. 使用しているクライアントの [アプリケーション名] エントリの値が正しいか確認し、[DSCP 値] エントリと [ローカル ポート] エントリの両方にグループ ポリシー オブジェクトの設定が反映されていることを確認します。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [サービス品質 (QoS) を実装するTeams](QoS-in-Teams.md)

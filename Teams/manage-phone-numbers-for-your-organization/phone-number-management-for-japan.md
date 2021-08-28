@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: この表で、日本での Microsoft Teams の電話番号の取得と管理についての情報を確認できます。
-ms.openlocfilehash: 713897cbaf38e2e411db67e7b28358a4bd11d9d4
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ed0b4403f28f825cdf98a7fde20d3fe4e3b88199
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234982"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628349"
 ---
 # <a name="phone-number-management-for-japan"></a>日本での電話番号の管理
 
@@ -46,7 +46,7 @@ ms.locfileid: "58234982"
 |ユーザー番号をサービス番号に変更する。 |「SoftBank 通話」を使用している場合、現在サポートされていません。|
 |通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

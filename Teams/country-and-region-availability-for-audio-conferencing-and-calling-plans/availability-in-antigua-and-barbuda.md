@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 次に示すのMicrosoft 365、Office 365バーブーダでSkype for BusinessおよびMicrosoft Teamsサービスを紹介します。
-ms.openlocfilehash: 1ff0c88c2391a69d1bf176fa36c25e77240e331fcfb6a3de244fcb6b87b830e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 次に示すのMicrosoft 365バー Office 365バーブーダで利用Skype for BusinessおよびMicrosoft Teamsサービスの一覧です。
+ms.openlocfilehash: 438a68188bb89b502c9e7e319e025bfcbaf6467a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334778"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628369"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>アンティグア・バーブーダの空き時間情報
 
 [別の国または地域を見](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)つけるか、電話会議と通話プランの国と地域の利用可能性の詳細を確認します。
 
-次に示すのMicrosoft 365、Office 365バーブーダでSkype for BusinessおよびMicrosoft Teamsサービスを紹介します。
+次に示すのMicrosoft 365バー Office 365バーブーダで利用Skype for BusinessおよびMicrosoft Teamsサービスの一覧です。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -73,7 +73,7 @@ ms.locfileid: "54334778"
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
 |無料電話番号は利用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を参照[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」を参照[してください。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -83,7 +83,7 @@ ms.locfileid: "54334778"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

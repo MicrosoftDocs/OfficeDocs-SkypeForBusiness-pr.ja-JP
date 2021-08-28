@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 以前のバージョンでは、XMPP 展開とのフェデレーションを可能にする別のサーバー役割として展開できる拡張可能なメッセージングおよびプレゼンス プロトコル (XMPP) ゲートウェイが提供されました。 XMPP 機能は、2019 年&で使用Skype for Business Serverなくなりました。 XMPP 機能を続行する場合は、従来のバージョン (Skype for Business Server 2015/ Lync Server 2013) と共に使用できます。 XMPP 機能は、従来のエッジ サーバー上で実行される XMPP プロキシと、従来のフロント エンド サーバーで実行される XMPP ゲートウェイの 2 つの部分にインストールされます。
-ms.openlocfilehash: f1dc49a9f93d87bf2b253963cf0955594b337f9bd186c3034ac7780cb50ccddb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0c3eeaa6218c6e3b3726f755adcca6083a9ac3f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303431"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580131"
 ---
 # <a name="migrating-xmpp-federation"></a>XMPP フェデレーションの移行
 

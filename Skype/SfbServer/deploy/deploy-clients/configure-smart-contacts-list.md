@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: '概要: クライアントでスマート連絡先リスト機能を有効にするSkype for Businessします。'
-ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7e2957b6b8622ea8c3ce3dc2974e7dbb7ff51d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303151"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580001"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>クライアントでスマート連絡先リストをSkype for Businessする
 

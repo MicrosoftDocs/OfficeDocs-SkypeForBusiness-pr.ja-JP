@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 1756c9a606434106508c651d7f52101747fd8b937eb939e5227723972ceb9757
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b466f4a0c2d63acf9971a370b0a59418a1ec5867
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342532"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579731"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>トランク構成: 新規作成または現在の形式のままで編集
 

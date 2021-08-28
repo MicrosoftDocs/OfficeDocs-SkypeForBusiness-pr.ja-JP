@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsWorkFlowMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 応答グループ のワークフローは、応答グループ アプリケーションが電話を受け取った場合に実行されるアクションを定義します。
-ms.openlocfilehash: 56c0f111cde8d2fbfdd1c704310a7804e0998294da6449303e2e5025c4572527
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f29bfd64cbe01026bc4959d35fa17d5640b3538
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333839"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628169"
 ---
 # <a name="response-groups-workflow"></a>応答グループのワークフロー
 

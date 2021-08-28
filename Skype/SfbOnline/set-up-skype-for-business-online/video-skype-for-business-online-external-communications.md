@@ -13,24 +13,24 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'ユーザーが外部の連絡先Skype for Businessできるオンラインの外部通信を設定する方法Skypeします。 '
-ms.openlocfilehash: b363814066e8a9bb0169baa3a41e81d10fb69ba3ecca862530292d73b5e94b65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d4fdfb996b3294637474bfef78caae647ddc4e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297653"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605666"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>ビデオ: Skype for Business Online の外部通信
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-ユーザーが外部Skype for Business、Lync、連絡先と通信できるよう、Skype for Business Online の外部通信Skypeします。
+ユーザーが外部Skype for Business、Skype for Business Lync、連絡先と通信できるよう、Skype for Business Online の外部通信Skypeします。
 
  **対象ユーザー:** Microsoft 365管理者Office 365管理者
 
@@ -39,7 +39,7 @@ ms.locfileid: "54297653"
 
 ***
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online の外部通信を設定する](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications)(ガイド付きチュートリアル)
 
 [外部の Skype for Business ユーザーに連絡できるようにする](allow-users-to-contact-external-skype-for-business-users.md)

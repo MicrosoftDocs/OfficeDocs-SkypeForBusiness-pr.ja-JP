@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: クラウド PBX Skype for Business クラウド コネクタ エディションオンプレミス PSTN 接続を実装するパッケージ化された仮想マシン (VM) のセットである 電話システムについて説明します。
-ms.openlocfilehash: 147fabd9866386b67c17022a37369149273de3caeecf40e471abbed40e0e33cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65e1d78a894b967391f44d6859c7fe50f42a7145
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288855"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628459"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>計画を立Skype for Business クラウド コネクタ エディション
 
@@ -128,7 +128,7 @@ Cloud Connector Edition では、エッジ コンポーネント、仲介コン�
 
 - **ドメイン コントローラー** - クラウド コネクタ Active Directory ドメイン サービスを使用して、クラウド コネクタ コンポーネントの展開に必要なすべてのグローバル設定とグループを格納します。 クラウド コネクタ アプライアンスごとに 1 つのフォレストが作成されます。 ドメイン コントローラーは、実稼働 Active Directory との接続を持つ必要があります。 Active Directory サービスには、次のものが含まれます。
 
-  - Active Directory ドメイン サービス
+  - Active Directory Domain Services
 
   - 内部証明書を発行する Active Directory 証明書サービス
 
@@ -350,7 +350,7 @@ Cloud Connector Edition を展開する前に、環境に対して次の情報�
 |SBC/PSTN ゲートウェイ  <br/> |クラウド コネクタ仲介コンポーネント  <br/> |任意  <br/> |TCP 5068/ TLS 5067  <br/> |
 |クラウド コネクタ仲介コンポーネント  <br/> |SBC/PSTN ゲートウェイ  <br/> |UDP 49 152 - 57 500  <br/> |Any\*\*\*  <br/> |
 |SBC/PSTN ゲートウェイ  <br/> |クラウド コネクタ仲介コンポーネント  <br/> |Any\*\*\*  <br/> |UDP 49 152 - 57 500  <br/> |
-|クラウド コネクタ仲介コンポーネント  <br/> |内部クライアント  <br/> |TCP 49 152 - 57 500\*  <br/> |TCP 50,000-50,019  <br/> (オプション)  <br/> |
+|クラウド コネクタ仲介コンポーネント  <br/> |内部クライアント  <br/> |TCP 49 152 - 57 500\*  <br/> |TCP 50,000-50,019  <br/> (省略可能)  <br/> |
 |クラウド コネクタ仲介コンポーネント  <br/> |内部クライアント  <br/> |UDP 49 152 - 57 500\*  <br/> |UDP 50,000-50,019  <br/> |
 |内部クライアント  <br/> |クラウド コネクタ仲介コンポーネント  <br/> |TCP 50,000-50,019  <br/> |TCP 49 152 - 57 500\*  <br/> |
 |内部クライアント  <br/> |クラウド コネクタ仲介コンポーネント  <br/> |UDP 50,000-50,019  <br/> |UDP 49 152 -57 500\*  <br/> |
@@ -458,7 +458,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 まず、次の一般的な展開パラメーターを定義する必要があります。
 
 
-|**アイテム**|**説明**|**メモ**|
+|**項目**|**説明**|**メモ**|
 |:-----|:-----|:-----|
 |SIP ドメイン  <br/> |SIP URI が会社のユーザーによって使用されています。 この展開によって提供されるすべての SIP ドメインを指定します。 複数の SIP ドメインを使用できます。  <br/> ||
 |PSTN サイトの数  <br/> |展開する PSTN サイトの数。  <br/> ||
@@ -487,7 +487,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |HardwareType  <br/> リリース 1.4.1 以降  <br/> |ハードウェアの種類。 既定値は標準です。 また、Minimum に設定できます。  <br/> ||
 |Country Code  <br/> |ダイヤルの国コード。  <br/> ファイル内の.ini: "CountryCode"  <br/> ||
 |都市  <br/> |City (省略可能)。  <br/> ファイルの.ini: "City"  <br/> ||
-|状態コード  <br/> |状態 (省略可能)。  <br/> ファイルの.ini: "State"  <br/> ||
+|状態  <br/> |状態 (省略可能)。  <br/> ファイルの.ini: "State"  <br/> ||
 |基本 VM IP アドレス  <br/> |すべてのクラウド コネクタ仮想マシンの VHDX の作成に使用される一時的な基本 VM の IP アドレス。 この IP は、次の手順で定義されている境界企業ネットワーク サブネットと同じであり、インターネット アクセスが必要です。 企業の既定のゲートウェイと、インターネットにルーティング可能な DNS を必ず定義してください。  <br/> ファイルの.ini: "BaseVMIP"  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> リリース 1.4.1 以降  <br/> |Microsoft Update から更新Windows Server Update Servicesホストするイントラネット サーバーである、WSUS のアドレスです。  <br/> WSUS が必要ない場合は、空白のままにできます。  <br/> ||
 |内部ネットワークのサブネット マスク  <br/> |クラウド コネクタは、クラウド コネクタ コンポーネント間の内部通信用に IP ネットワークを構成します。 エッジは、インターネット接続を許可する別のサブネットにも接続する必要があります。  <br/> ファイル内.ini名: "CorpnetIPPrefixLength" の下にある "VM ネットワークのプールのパラメーター"  <br/> ||

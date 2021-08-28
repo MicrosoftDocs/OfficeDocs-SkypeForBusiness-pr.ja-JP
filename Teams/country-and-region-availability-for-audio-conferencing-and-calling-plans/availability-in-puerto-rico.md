@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: プエルトリコで使用Microsoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: cff19fdfe3379b510997a771ee7ff0d77abe2bf3660724c884715563bfed93d9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: プエルトリコで使用Microsoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+ms.openlocfilehash: 63c4ce78cb45483118c05d935fb6ade300d51d16
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344346"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605916"
 ---
 # <a name="availability-in-puerto-rico"></a>プエルトリコでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-プエルトリコで使用Microsoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+プエルトリコで使用Microsoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -82,7 +82,7 @@ ms.locfileid: "54344346"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

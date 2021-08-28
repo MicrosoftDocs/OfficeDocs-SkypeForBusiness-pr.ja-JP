@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Microsoft Teams 管理センターまたは Windows PowerShellを使用して、ダイヤル プラン (PSTN 通話ダイヤル プラン) を作成および管理する方法について説明します。
-ms.openlocfilehash: bb5574893ec940129a0669608d2bb89d474fb0b6
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: e6cc5e751efa412c24eb13f182ab5967360c677e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233302"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628379"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -67,7 +67,7 @@ ms.locfileid: "58233302"
 ## <a name="using-powershell"></a>PowerShell の使用
   
 ### <a name="start-powershell"></a>PowerShell を起動する
-- コマンド プロンプトWindows PowerShell開き、次のコマンドを実行します。
+- コマンド プロンプトWindows PowerShellし、次のコマンドを実行します。
 
 ```powershell
   # When using Teams PowerShell Module
@@ -217,7 +217,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [ダイヤル プランについて](what-are-dial-plans.md)
 - [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)

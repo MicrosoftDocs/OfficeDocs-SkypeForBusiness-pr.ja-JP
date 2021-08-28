@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 移行をスムーズに行うための最善の方法として一般的によく行われているのが、複数のテスト用ユーザーを作成し、それらを使用してシステムをテストすることです。テスト用アカウントの移動とテストが正常に終了したら、実働ユーザーのパイロット グループを特定し、そのアカウントを移動して、検証テストを行う必要があります。その結果に問題がなければ、残りのユーザーを新しい展開に移動できます。
-ms.openlocfilehash: bea6509768ed99f96f4c16df9736d4da4993eee196b4f16ad5aa9575cc1eee08
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a9f0b6eb7243a7bb47edefb91614d81426d94fe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280372"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579411"
 ---
 # <a name="user-migration"></a>ユーザーの移行
 

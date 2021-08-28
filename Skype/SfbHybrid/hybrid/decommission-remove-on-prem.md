@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 使用停止の手順Skype for Business Server。
-ms.openlocfilehash: fd2ba8543745760e900e52c2c1f9b3c3f65b0e70
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 349427994a2643fb0a4e5533cc12bc74b2848467
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365624"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605726"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>オンプレミスの Skype for Business の展開を削除する
 
@@ -32,7 +32,7 @@ ms.locfileid: "58365624"
 
 - 手順 1. [必要なすべてのユーザーをオンプレミスからオンラインに移動します](decommission-move-on-prem-users.md)。 
 
-- 手順 2. [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
+- 手順 2。 [ハイブリッド構成を無効にします](cloud-consolidation-disabling-hybrid.md)。
 
 - 手順 3. [ハイブリッド アプリケーション エンドポイントをオンプレミスからオンラインに移行する](decommission-move-on-prem-endpoints.md)
 

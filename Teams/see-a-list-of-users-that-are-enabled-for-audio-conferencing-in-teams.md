@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '組織内でダイヤルイン会議が有効になっているユーザーの一覧を組織内のユーザーの一覧を表示する方法については、Microsoft Teams。 '
-ms.openlocfilehash: 38de936e6a15c16fdbca42f5dbaa558f150152ceb4dc2466d4d7c49720f3ba42
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '組織内でダイヤルイン会議が有効になっているユーザーの一覧を組織内のユーザーの一覧を表示する方法について説明Microsoft Teams。 '
+ms.openlocfilehash: 7d6c77eaefe3d3247e8b950cfffff156606db008
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316733"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579591"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams の電話会議用に有効になっているユーザーのリストを表示する
 
@@ -52,7 +52,7 @@ ms.locfileid: "54316733"
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

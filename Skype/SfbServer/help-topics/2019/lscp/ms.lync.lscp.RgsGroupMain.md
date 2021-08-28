@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 エージェント グループは、応答グループの呼び出しに応答するために指定されたユーザーのグループです。
-ms.openlocfilehash: 9a3d6abc058924ac9e96600b0dc290ef149192b6664de4b6e9da1c19d66ad337
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf86537e70e6e3fbd6e04ad3da2ede5d8f46933f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311945"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579801"
 ---
 # <a name="response-groups-group"></a>応答グループ: グループ
 

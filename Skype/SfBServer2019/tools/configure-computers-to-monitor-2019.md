@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: 監視対象の Skype for Business Server 2019 コンピューターに Operations Manager エージェント ファイルをインストールし、コンピューターを System Center プロキシとして動作System Centerします。'
-ms.openlocfilehash: 1d723ba13e7db91a8f6b22a48c5f0eeb87333e1e
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 06d44ec8ec46ceff07955eea8615bb00ed46c01c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372037"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605746"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>監視するSkype for Business Serverコンピューターを構成する
 

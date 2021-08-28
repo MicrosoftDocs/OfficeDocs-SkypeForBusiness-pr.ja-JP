@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.MediaBypass
 - ms.lync.plan.MediaBypass
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 description: メディア バイパスとは、信号が仲介サーバーを通過する通話について、可能な限りメディア パスから仲介サーバーを排除することです。 詳細については、「Plan for media bypass in Skype for Business 2015」を参照してください。
-ms.openlocfilehash: c0f5e0bfbc0e4e4fb8b43bfb22c4e7ddff215727
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 06d123f4a29a4fa0f07d3742d2c0a935b4ef0b5b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235142"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605166"
 ---
 # <a name="skype-for-business-server-media-bypass-planning-tool"></a>Skype for Business Serverメディア バイパス計画ツール
  

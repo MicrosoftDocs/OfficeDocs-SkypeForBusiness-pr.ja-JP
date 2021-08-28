@@ -8,8 +8,8 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 search.appverid: MET150
-description: ネットワークの正常性をTeams、ユーザーの関与を維持し、新しい機能に備える方法について説明します。
-localization_priority: Normal
+description: ネットワークの正常性を監視Teams、ユーザーの関与を維持し、新しい機能の準備を行う方法について説明します。
+ms.localizationpriority: medium
 ms.custom:
 - Teams-upgrade-guidance
 - seo-marvel-mar2020
@@ -20,20 +20,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c7665cb48b77733ff3a49a8cc1abb66f3609a6459092f43448e7cb0df202cb8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 415535ea4ec2902d089d0229cd6c4b578837f03f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329222"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628389"
 ---
 # <a name="how-to-use-microsoft-teams-effectively"></a>効果的に使用Microsoft Teams方法
 
 ![運用上の優れたステージを強調したアップグレード体験図](media/upgrade-banner-op-excellence.png "Operational Excellence ステージに重点を置いたアップグレード体験のステージ")
 
-この記事は、アップグレード体験の Operational Excellence ステージの一部です。これは、Skype for Business から Teams へのアップグレードが完了するとすぐに開始されます。
+この記事は、アップグレード体験の Operational Excellence ステージの一部です。この段階は、Skype for Business から Teams へのアップグレードが完了するとすぐに開始されます。
 
-テクノロジーは、これまでにないほど急速に進化しています。 最新の技術に遅れを取ることなく、最新のワークプレース環境を実現していくことが、組織の運営方式において、標準となってきています。 Microsoft Teams、Microsoft 365、および Microsoft のインテリジェントなコミュニケーション ビジョンが展開し続ける中で、運用計画を策定すると、組織が長期的な成功を収めるのに役立ちます。 最適な運用計画には、健全性と品質について環境を監視すること、導入を最適化するためのユーザーの機運を継続すること、および時の経過とともに登場する新機能についての計画を立てることが含まれます。
+テクノロジーは、これまでにないほど急速に進化しています。 最新の技術に遅れを取ることなく、最新のワークプレース環境を実現していくことが、組織の運営方式において、標準となってきています。 Microsoft Teams、Microsoft 365、および Microsoft のインテリジェントなコミュニケーション ビジョンが展開し続けるにつれて、運用計画を立て、組織が長期的な成功を収めるのに役立ちます。 最適な運用計画には、健全性と品質について環境を監視すること、導入を最適化するためのユーザーの機運を継続すること、および時の経過とともに登場する新機能についての計画を立てることが含まれます。
 
 ## <a name="monitor-for-network-health-and-quality"></a>ネットワークの健全性と品質の監視
 
