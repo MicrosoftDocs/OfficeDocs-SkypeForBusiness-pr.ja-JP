@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Microsoft Teams のアプリが非標準ユーザーに対してどのように動作するかを学びます。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97431dae774569c60ddc3299ca1dc637a9c571239082dac3a8c9449ff0124e51
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 882fda0be339c8f9869c5b83fbeff3e97d5892ee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342882"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619403"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>非標準ユーザーに対する Microsoft Teams アプリの動作
 
@@ -41,7 +41,7 @@ ms.locfileid: "54342882"
 
 ### <a name="install-update-and-delete-for-guest-users"></a>ゲスト ユーザーのインストール、更新、削除
 
-ゲストは、チャット、チャネル、会議などの共有コンテキストにアプリをインストール、更新、または削除できませんが、メッセージ拡張機能と直接リンクを使用して個人スコープにアクセスできます。 ゲストは Teams デスクトップ アプリケーションから Teams アプリ ストアにアクセスできますが、直接リンクを使用してアクセスできます。
+ゲストは、チャット、チャネル、会議などの共有コンテキストにアプリをインストール、更新、または削除できませんが、メッセージ拡張機能と直接リンクを使用して個人の範囲にアクセスできます。 ゲストは、Teams デスクトップ アプリケーションから Teams アプリ ストアにアクセスできますが、直接リンクを使用してアクセスできます。
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>ゲスト ユーザーの使用行動とポリシー
 
@@ -57,13 +57,13 @@ ms.locfileid: "54342882"
 - グローバルな既定のアプリ セットアップ ポリシーに含まれるボットも、ゲスト用にインストールされます。
 - ボットがインストールされた後、ボットはゲストと事前に通信し、ゲストはボットと通信できます。
 - グローバルな既定のアプリセットアップ ポリシーからゲストを削除できない。
-- ゲストがボットにアクセスしないようにするには、さらに多くのアプリ セットアップ ポリシーを作成し、それらを内部ユーザーに割り当て、カスタム ポリシーを使用してボットをインストールします。
+- ゲストがボットにアクセスしないようにするには、さらに多くのアプリ セットアップ ポリシーを作成し、内部ユーザーに割り当て、カスタム ポリシーを使用してボットをインストールします。
 
 ## <a name="external-federated-users"></a>外部 (フェデレーション) ユーザー
 
 ### <a name="install-update-and-delete-for-external-users"></a>外部ユーザーのインストール、更新、および削除
 
-外部ユーザーは、個人、チャット、チャネル、会議などのコンテキストにアプリをインストール、更新、または削除することはできません。 ホスティング組織のアプリ ストアTeamsアクセス権を持つユーザーはいます。
+外部ユーザーは、個人、チャット、チャネル、会議などのコンテキストにアプリをインストール、更新、または削除することはできません。 ホスティング組織のアプリ ストアTeamsアクセス権を持つユーザーはアクセスできない。
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部ユーザーの使用行動とポリシー
 
@@ -84,6 +84,6 @@ ms.locfileid: "54342882"
 
 匿名ユーザーは、ユーザー レベルのグローバル既定権限ポリシーを継承します。 ユーザー レベルのアクセス許可ポリシーでアプリが有効になっている場合は、Teams 会議でアプリを操作できます。 匿名ユーザーは、会議ですでに利用可能なアプリのみを操作でき、これらのアプリを取得または管理できないことに注意してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Microsoft Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)

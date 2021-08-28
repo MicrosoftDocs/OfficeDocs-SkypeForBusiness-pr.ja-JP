@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: この表の各レコードには、1 つの会議に関する通話の詳細が含まれている。
-ms.openlocfilehash: d7079097b3eb29999d00a44b23f05127daf95ee4ad1eb87097ec9e77a93682b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dfc1c12908e60c7a5b205c154e30175168871ceb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343261"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635211"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>2015 年Skype for Business Server会議の表
  
@@ -27,12 +27,12 @@ ms.locfileid: "54343261"
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**SessionIdTime** <br/> |日付型  <br/> |Primary  <br/> |会議要求が CDR エージェントによってキャプチャされた時間。 会議インスタンスを一意に識別する主キーとしてのみ使用されます。  <br/> |
-|**SessionIdSeq** <br/> |整数  <br/> |Primary  <br/> |セッションを識別するための ID 番号。 **SessionIdTime と組み合わせて使用して**、会議インスタンスを一意に識別します。 * <br/> |
-|**ConferenceUriId** <br/> |整数  <br/> |外部  <br/> |会議 URI。 詳細については[、2015 Skype for Business Serverの ConferenceUris](conferenceuris.md)テーブルを参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primary  <br/> |セッションを識別するための ID 番号。 **SessionIdTime と組み合わせて使用して**、会議インスタンスを一意に識別します。 * <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |外部  <br/> |会議 URI。 詳細については[、2015 Skype for Business Serverの ConferenceUris](conferenceuris.md)テーブルを参照してください。 <br/> |
 |**ConfInstance** <br/> |uniqueidentifier  <br/> | <br/> |定期的な会議に役立ちます。定期的な会議の各インスタンスは同じ **ConferenceUri** を持っていますが **、ConfInstance は異なります**。 <br/> |
 |**ConferenceStartTime** <br/> |日付型  <br/> | <br/> |会議の開始時刻。  <br/> |
 |**ConferenceEndTime** <br/> |日付型  <br/> | <br/> |会議の開始時刻。  <br/> |
-|**PoolId** <br/> |整数  <br/> |外部  <br/> |会議がキャプチャされたプールを識別する ID 番号。 詳細については [、「Pools」の表](pools.md) を参照してください。 <br/> |
+|**PoolId** <br/> |int  <br/> |外部  <br/> |会議がキャプチャされたプールを識別する ID 番号。 詳細については [、「Pools」の表](pools.md) を参照してください。 <br/> |
 |**OrganizerId** <br/> |Int  <br/> |外部  <br/> |この会議の開催者 URI を識別する ID 番号。 詳細については [、「Users」テーブル](users.md) を参照してください。 <br/> |
 |**Flag** <br/> |smallint  <br/> || 会議属性を含むビット マスク。 使用可能な値は次のいずれかです。 <br/>  0X01 <br/>  合成 <br/>  トランザクション <br/> |
 |**処理** <br/> |ビット  <br/> ||監視サービスで使用される内部フィールド。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |

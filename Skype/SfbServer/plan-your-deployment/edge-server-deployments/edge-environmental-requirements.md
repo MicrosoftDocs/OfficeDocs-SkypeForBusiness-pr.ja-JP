@@ -9,19 +9,19 @@ manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: '概要: エッジ サーバーの環境要件について説明します。Skype for Business Server。'
-ms.openlocfilehash: c5ca6786d2935209930fe815ea32a24643febb18a7df87f29b26f3c396ca0c66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 492a4c2ec5a90ea8e2c3eb55ea48a4afec16c67f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302531"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635241"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>エッジ サーバーの環境要件 (Skype for Business Server
  
@@ -102,17 +102,17 @@ NAT を使用して送信できないプライベート IP アドレスを選択
 
 |**プールごとのエッジ サーバー数**|**DNS 負荷分散に必要な IP アドレスの数**|**ハードウェア負荷分散に必要な IP アドレスの数**|
 |:-----|:-----|:-----|
-|2  <br/> |6   <br/> |3 (VIP ごとに 1 つ) + 6  <br/> |
-|3  <br/> |9   <br/> |3 (VIP ごとに 1 つ) + 9  <br/> |
+|2   <br/> |6   <br/> |3 (VIP ごとに 1 つ) + 6  <br/> |
+|3   <br/> |9   <br/> |3 (VIP ごとに 1 つ) + 9  <br/> |
 |4   <br/> |12   <br/> |3 (VIP ごとに 1 つ) + 12  <br/> |
-|5   <br/> |15  <br/> |3 (VIP あたり 1) +15  <br/> |
+|5   <br/> |15   <br/> |3 (VIP あたり 1) +15  <br/> |
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>スケール統合エッジの IP アドレス要件 (すべての役割の単一 IP アドレス)
 
 |**プールごとのエッジ サーバー数**|**DNS 負荷分散に必要な IP アドレスの数**|**ハードウェア負荷分散に必要な IP アドレスの数**|
 |:-----|:-----|:-----|
-|2  <br/> |2  <br/> |1 (VIP ごとに 1 つ) + 2  <br/> |
-|3  <br/> |3  <br/> |1 ( VIP ごとに 1 つ) + 3  <br/> |
+|2   <br/> |2   <br/> |1 (VIP ごとに 1 つ) + 2  <br/> |
+|3   <br/> |3   <br/> |1 ( VIP ごとに 1 つ) + 3  <br/> |
 |4   <br/> |4   <br/> |1 (VIP ごとに 1 つ) + 4  <br/> |
 |5   <br/> |5  <br/> |1 (VIP ごとに 1 つ) + 5  <br/> |
    
@@ -179,7 +179,7 @@ Web 会議と音声ビデオ エッジのパブリック IP アドレスは、Wi
     
 - 1 つではなく 3 つの外部ネットワーク アダプターを使用し、サービス AP の 1 つをそれぞれに割り当てできます。 なぜこれを行うのですか? サービスが分離され、何か問題が発生した場合、トラブルシューティングが容易になり、問題を解決しながら他のサービスが動作し続ける可能性があります。
     
-|**場所**|**型**|**Port**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**注**|
+|**Location**|**種類**|**Port**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 <br/> **private:** 10.45.16.10 <br/> |Access Edge サービスの外部インターフェイス。 ユーザーが含む SIP ドメインごとに 1 つSkype for Businessがあります。  <br/> |
 |外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 <br/> **private:** 10.45.16.20 <br/> |Web 会議エッジ サービスの外部インターフェイス。  <br/> |
@@ -253,7 +253,7 @@ Web 会議と音声ビデオ エッジのパブリック IP アドレスは、Wi
     
 - 1 つではなく 3 つの外部ネットワーク アダプターを使用し、サービス AP の 1 つをそれぞれに割り当てできます。 なぜこれを行うのですか? サービスが分離され、何か問題が発生した場合、トラブルシューティングが容易になり、問題を解決しながら他のサービスが動作し続ける可能性があります。
     
-|**場所**|**型**|**Port**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**注**|
+|**Location**|**Type**|**Port**|**FQDN または DNS レコード**|**IP アドレスまたは FQDN**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |sip.contoso.com  <br/> |**public:** 131.107.155.10 および 131.107.155.11 <br/> **private:** 10.45.16.10 および 10.45.16.11 <br/> |Access Edge サービスの外部インターフェイス。 ユーザーが含む SIP ドメインごとに 1 つSkype for Businessがあります。  <br/> |
 |外部 DNS  <br/> |レコード  <br/> |該当なし  <br/> |webcon.contoso.com  <br/> |**public:** 131.107.155.20 および 131.107.155.21 <br/> **private:** 10.45.16.20 および 10.45.16.21 <br/> |Web 会議エッジ サービスの外部インターフェイス。  <br/> |
@@ -264,13 +264,13 @@ Web 会議と音声ビデオ エッジのパブリック IP アドレスは、Wi
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>フェデレーションの DNS レコード (すべてのシナリオ)
 
-|**場所**|**型**|**Port**|**FQDN**|**FQDN ホスト レコード**|**注**|
+|**Location**|**Type**|**Port**|**FQDN**|**FQDN ホスト レコード**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |自動 DNS 検出に必要な SIP Access Edge 外部インターフェイス。 他の潜在的なフェデレーション パートナーによって使用されます。 "SIP ドメインを許可する" とも呼ばれる。 ユーザーが含む SIP ドメインごとに、これらの 1 つSkype for Businessがあります。  <br/><br/> **注:** モビリティとプッシュ通知クリアリング ハウスには、この SRV レコードが必要です。 <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>拡張可能メッセージングおよびプレゼンス プロトコルの DNS レコード
 
-|**場所**|**型**|**Port**|**FQDN**|**IP アドレスまたは FQDN ホスト レコード**|**注**|
+|**Location**|**Type**|**Port**|**FQDN**|**IP アドレスまたは FQDN ホスト レコード**|**注**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |Access Edge サービスまたはエッジ プールの XMPP プロキシ インターフェイス。 XMPP 連絡先との連絡先が許可されている、ユーザーが有効になっているすべての内部 SIP ドメインSkype for Business Server必要に応じてこれを繰り返す必要があります。  <br/> • グローバル ポリシー  <br/> • ユーザーが有効になっているサイト ポリシー  <br/> • 有効なユーザーに適用Skype for Business Serverポリシー  <br/> 許可される XMPP ポリシーも XMPP フェデレーション ユーザー ポリシーで構成する必要があります。  <br/> |
 |外部 DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |XMPP プロキシ サービスをホストするエッジ サーバーまたはエッジ プール上の Access Edge サービスの IP アドレス  <br/> |これは、XMPP プロキシ サービスをホストするエッジ サーバーまたはエッジ プール上の Access Edge サービスを示しています。 通常、作成する SRV レコードは、このホスト (A または AAAA) レコードを指します。  <br/> |

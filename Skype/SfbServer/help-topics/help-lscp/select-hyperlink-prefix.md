@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpChooseImSchema
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: '[ハイパーリンク プレフィックスの選択] ダイアログ ボックスを使用して、ハイパーリンクプレフィックスの下のカテゴリから拡張機能のチェック ボックスをオフ (警告メッセージをブロックまたは送信する) またはクリア (許可する) を選択して、ブロック、警告メッセージの送信、または許可するハイパーリンクの種類を選択します。 矢印をクリックしてカテゴリを展開し、そのカテゴリのすべてのハイパーリンク プレフィックスを表示します。 カテゴリのすべてのハイパーリンク プレフィックスを選択する場合は、カテゴリ名を選択します。'
-ms.openlocfilehash: ba1301bc8c659b4be4a4e8a8a0c2cf8c2c4df2d66aa337dd8853e2d2b7eaf501
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1cdbaad047fbac4f18509ec035bd2ffb2f1d15fd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330001"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619063"
 ---
 # <a name="select-hyperlink-prefix"></a>ハイパーリンクのプレフィックスの選択
  

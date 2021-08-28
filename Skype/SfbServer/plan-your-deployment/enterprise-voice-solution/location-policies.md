@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: このトピックでは、拡張緊急サービス (E9-1-1) 展開の場所ポリシーを計画する方法について説明します。Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 2007e0a530d82dc6b14dee9758c4eeeee75588ca2a81597e18f6a777093f0cf5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b250108fb20a9a1d75069b1036ab7c2fba332443
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286616"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601412"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>ユーザーの場所ポリシーを計画Skype for Business Server
  
@@ -38,7 +38,7 @@ ms.locfileid: "54286616"
   
 この値を有効にすると、クライアントは拡張緊急サービス (E9-1-1) で有効になります。 クライアントが登録すると、位置情報サービスから場所を取得しようとして、緊急電話の一部として位置情報が含まれます。
   
- **場所**
+ **Location**
   
 この設定は、[拡張 **9-1-1** を有効にする] が有効になっている場合にのみ使用されます。
   

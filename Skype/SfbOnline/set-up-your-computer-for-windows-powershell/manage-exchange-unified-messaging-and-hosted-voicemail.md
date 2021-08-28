@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: Use PowerShell to manage Exchange Unified Messaging capabilities such as Auto Attendant and Subscriber Access and hosted voicemail in Skype for Business Online.
-ms.openlocfilehash: 88ee063b644a24dd2cc0922be5df049af4949699745bb2f6cb27f4d3c8203a57
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb7aa3dc025551fe2759efe3f4bb35ca0dc7ae17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323559"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602002"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Exchange ユニファイド メッセージングとホスト型ボイス メールを管理する
 
@@ -42,7 +42,7 @@ ms.locfileid: "54323559"
 | [Get-CsExUmContact](/powershell/module/skype/Get-CsExUmContact) <br/><br/> [New-CsExUmContact](/powershell/module/skype/New-CsExUmContact) <br/> <br/>[Remove-CsExUmContact](/powershell/module/skype/Remove-CsExUmContact) <br/> <br/>[Set-CsExUmContact](/powershell/module/skype/Set-CsExUmContact) <br/> | Exchange UM がホストされるサービスである場合、このコマンドレットは自動応答およびサブスクライバー アクセスで使用する連絡先オブジェクトを作成、管理します。  <br/><br/> Skype for Business Online では、Exchange UM と連係して、自動応答やサブスクライバー アクセスといった音声関連の機能が提供されています。自動応答は、着信に自動的に応答したり、適切な人物に通話を経由する機能です。サブスクライバー アクセスを使用すると、ユーザーは Exchange UM にアクセスして、電子メール、音声メッセージ、連絡先、予定表情報を取得できます。<br/><br/> Exchange UM がホストされたサービスとして提供されている場合は、Microsoft PowerShell を使用して、自動応答やサブスクライバー アクセスのサービスで使用する連絡先オブジェクトを作成する必要があります。連絡先オブジェクトは **CsExUmContact** コマンドレットを使用して作成、管理します。<br/> |
 | [Get-CSHostedVoicemailPolicy](/powershell/module/skype/Grant-CsHostedVoicemailPolicy) <br/> <br/>[Grant-CSHostedVoicemailPolicy](/powershell/module/skype/Set-CsTenantPublicProvider) <br/>                                                                                                                                                | 組織で使用するホスト型ボイスメールのポリシーを管理します。ホスト型ボイスメールのポリシーでは、不在着信を Exchange UM サービスに経由する方法を指定します。これらのポリシーは、Exchange UM にホストされるボイスメールが有効化されたユーザーにのみ影響します。    <br/><br/> ホスト型ボイスメールが有効化されているかどうかを確認するには、PowerShell プロンプトで次のようなコマンドを実行します。  <br/> \`Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"                                                                                                                                                                                                                                                                                                                                                           |
 
-## <a name="related-topics"></a>関連項目
-[Skype for Business Online 管理用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+## <a name="related-topics"></a>関連トピック
+[Skype for Business Online Management 用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

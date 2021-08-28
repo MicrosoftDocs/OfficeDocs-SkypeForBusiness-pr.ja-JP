@@ -13,14 +13,14 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-description: PSTN 通話Microsoft Teams (CQD)) PSTN ダイレクト ルーティング レポートを使用して、PSTN 通話を監視およびトラブルシューティングMicrosoft Teams。
-ms.openlocfilehash: 692247e79a951b775bdca0f13811e3480dcb8cfbb0a5e78a8f8f7b4b69f97add
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: MICROSOFT TEAMS通話品質ダッシュボード (CQD)) PSTN ダイレクト ルーティング レポートを使用して、PSTN 通話を監視およびトラブルシューティングMicrosoft Teams。
+ms.openlocfilehash: 18e24690fe86bf7efd511bea674c3d3d7eba3e43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351257"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635061"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>CQD PSTN ダイレクト ルーティング レポートの使用
 
@@ -44,7 +44,7 @@ CQD PSTN ダイレクト ルーティング レポートには、次の 4 つの
 
 1. 通話の種類、SBC、発信者、通話先の国別に分析する
 
-   CQD PSTN ダイレクト ルーティング レポートは、過去 7、30、または 180 日間 (6 か月) のテナント上のすべての SBC の信頼性と使用状況のメトリックを集計します。 通話の種類、SBC、発信者、通話先の国別にデータを分析できます。 特定の SBC または国に関心がある場合は、選択した時間範囲の傾向の変化を特定できます。
+   CQD PSTN 直接ルーティング レポートは、過去 7、30、または 180 日間 (6 か月間) のテナント上のすべての SBC の信頼性と使用状況のメトリックを集計します。 通話の種類、SBC、発信者、通話先の国別にデータを分析できます。 特定の SBC または国に関心がある場合は、選択した時間範囲の傾向の変化を特定できます。
    :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="CQD PSTN ダイレクト ルーティング レポートで使用できるフィルターのスクリーンショット":::
    
 2. 傾向を追跡する
@@ -63,7 +63,7 @@ CQD PSTN ダイレクト ルーティング レポートには、次の 4 つの
 CQD PSTN 直接ルーティング レポートでは、過去 180 日間のサービスの全体的な正常性に関連する次の情報が提供されます。
 ![スクリーンショット: PSTN CQD レポート](media/CQD-PSTN-report1.png)
 
-たとえば、SBC 経由のすべての着信呼び出しに関する全体的な使用状況と正常性に関心がある場合は、abc.bca.adatum.biz 米国と一緒に行います。
+たとえば、SBC 経由のすべての受信呼び出しについて全体的な使用状況と正常性に関心がある場合は、abc.bca.adatum.biz 米国と一緒に行います。
 
 | **コールアウト** | **説明**                                                                                                                                                 |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -99,9 +99,9 @@ CQD PSTN 直接ルーティング レポートでは、過去 180 日間のサ�
 
 ## <a name="network-effectiveness-ratio"></a>ネットワークの有効性の比率
 
-これは、Overall Health ダッシュボードに表示されるのと同じメトリックです。 影響を受ける通話の詳細を含む時間次 NER 番号を、以下の時間別ネットワーク有効性比率と通話終了理由グラフの両方の通話方向 (受信/送信) で確認できます。
+これは、Overall Health ダッシュボードに表示されるメトリックと同じです。 影響を受ける通話の詳細を含む時間次 NER 番号を、以下の時間別ネットワーク有効性比率と通話終了理由グラフの両方の通話方向 (受信/送信) で確認できます。
 
-  - **NER** - 送信された通話の数と受信者に配信された通話の数を測定して、通話を配信するネットワークの機能 (%)
+  - **NER** - 送信された通話数と受信者に配信された通話の数を測定して、通話を配信するネットワークの機能 (%)
 
   - **SIP 応答コード**- 3 桁の整数応答コードは、呼び出しの状態を示します。
 
@@ -117,15 +117,15 @@ CQD PSTN 直接ルーティング レポートでは、過去 180 日間のサ�
 
 ![スクリーンショット: PSTN CQD レポート](media/CQD-PSTN-report4.png)
 
-Daily NER が 2020 年 2 月 5 日にディップした場合は、日付をクリックすると、他のグラフで特定の日付にズームできます。
+Daily NER が 2020/02/05 にディップしている場合は、日付をクリックすると、他のグラフで特定の日付にズームできます。
 
 ![スクリーンショット: PSTN CQD レポート](media/CQD-PSTN-report5.png)
 
-NER Good Percentage Hourly Trend から、21:00 頃にディップが発生しているのを確認できます。 次に、もう一度クリックして時間 21 にズームし、[効果の呼び出しの詳細] をオンにし、その時間に失敗した通話の数と通話終了の理由を確認します。 SBC の問題に関する自己トラブルシューティングから始めるか、問題が SBC に関連していない場合は Service Desk に報告できます。
+NER Good Percentage Hourly Trend から、21:00 頃にディップが発生しているのを確認できます。 次に、もう一度クリックして 1 時間 21 にズームし、[効果付き通話の詳細] をオンにし、その時間に失敗した通話の数と通話終了の理由を確認します。 SBC の問題に関する自己トラブルシューティングから始めるか、問題が SBC に関連していない場合は Service Desk に報告できます。
 
 ## <a name="network-parameters"></a>ネットワーク パラメーター
 
-すべてのネットワーク パラメーターは、ダイレクト ルーティング インターフェイスからセッション ボーダー コントローラーに測定されます。 推奨される値については、「組織のネットワーク[](prepare-network.md)を Microsoft Teams 用に準備する」を参照し、Customer Edge で推奨値Microsoft Edge確認してください。
+すべてのネットワーク パラメーターは、ダイレクト ルーティング インターフェイスからセッション ボーダー コントローラーに測定されます。 推奨される値については、「組織のネットワーク[](prepare-network.md)を Microsoft Teams 用に準備する」を参照し、Customer Edge を参照して推奨値Microsoft Edge確認してください。
 
   - **ジ** ッター – RTCP (RTP コントロール プロトコル) を使用して 2 つのエンドポイント間で計算されるネットワーク伝達遅延時間の変化のミリ秒単位の測定値です。
 
@@ -137,14 +137,14 @@ NER Good Percentage Hourly Trend から、21:00 頃にディップが発生し�
 
 次に例を示します。
 
-特定の日付 (2020 年 2 月 14 日の待機時間) の 4 つのグラフ (待機時間、ジッター、パッケージ損失率、ダイヤル後の遅延) の急上昇が表示される場合は、日付ポイントをクリックします。 また、下部の時間次傾向グラフが更新され、1 時間の数値が表示されます。 SPC を確認するか、MS Service Desk でチケットを作成できます。
+特定の日付 (2020 年 2 月 14 日の待機時間など) の 4 つのグラフ (待機時間、ジッター、パッケージ損失率、ダイヤル後の遅延) の急上昇が表示される場合は、日付ポイントをクリックします。 下部の時間次傾向グラフが更新され、1 時間の数値が表示されます。 SPC を確認するか、MS Service Desk でチケットを作成できます。
 
 ![スクリーンショット: PSTN CQD レポート](media/CQD-PSTN-report7.png)
 
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[このPower BIを使用して、CQD データを分析Microsoft Teams](CQD-PSTN-report.md)
+[CQD Power BIデータを分析する場合は、次のコマンドを使用Microsoft Teams](CQD-PSTN-report.md)
 
 [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

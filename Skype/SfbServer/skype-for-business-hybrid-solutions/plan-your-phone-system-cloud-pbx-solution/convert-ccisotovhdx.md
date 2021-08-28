@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: このConvert-CcIsoToVhdxは、R2 ISO ファイルで提供された顧客を使用して、基本仮想ハード ディスク ファイル (VHDX) Windows Server 2012作成します。 VHDX ファイルは、仮想マシンの展開中にSkype for Business クラウド コネクタ エディション。
-ms.openlocfilehash: d168155c918ba1e8a3a576e543eed6693d0fb6faa5bd4fc23efd8c95b2b50fa1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbe1b4939fd99d6200217925bc52b72f6868873
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349549"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635071"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
@@ -30,7 +30,7 @@ Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpd
 
 ## <a name="parameters"></a>パラメーター
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
 |IsoFilePath  <br/> | 必須 <br/> |System.String  <br/> | R2 ISO ファイルWindows Server 2012パス。 <br/> |
 |GeneralizeOnly  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |更新中に変換プロセスがWindows場合は、ネットワーク/プロキシを構成し、手動でWindowsできます。 手動作業が完了したら、-GeneralizeOnly パラメーターを使用してこのコマンドレットを実行すると、残りのジョブが完了します。  <br/> |

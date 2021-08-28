@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat には、すべてのチャット メッセージが格納されます。
-ms.openlocfilehash: 2e764fa9ca64089a7015885bb4d33dc466d7dc214532e698505a19d2cf1a0d4a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eda5842381767d3ebed9a732ee805f3621ad1160
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329421"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635081"
 ---
 # <a name="tblchat"></a>tblChat
  
 tblChat には、すべてのチャット メッセージが格納されます。
   
-**Columns**
+**列**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
@@ -36,7 +36,7 @@ tblChat には、すべてのチャット メッセージが格納されます�
 |content  <br/> |NULL でない nvarchar (max)  <br/> | チャットの内容 (プレーン テキスト バージョン)。内容は、通常、プレーン テキストですが、次の例外があります。 <br/>  ファイルは ma-filelink: リンクとして表されます。 <br/>  リンクは HTML 要素として表されます (ただし、コンテンツの種類は HTML とは見なされません)。 <br/>  ストーリーは"[STORY].....-like 形式としてエンコードされます。 <br/> |
 |rtf  <br/> |varchar(max)  <br/> |チャットの内容 (RTF バージョン)。 クライアントが提供しない場合は Null を指定できます。  <br/> |
    
-**キー**
+**Key**
 
 |**列**|**説明**|
 |:-----|:-----|

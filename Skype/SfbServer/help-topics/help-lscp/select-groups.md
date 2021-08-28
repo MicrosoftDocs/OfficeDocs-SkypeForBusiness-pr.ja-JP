@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: 応答グループ キューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。 各キューには、エージェント グループを割り当てます。 キューを作成または編集するときに、[グループの選択] ダイアログ ボックスを使用して、キューに割り当てる 1 つ以上のエージェント グループを選択します。
-ms.openlocfilehash: e9cc1f96e15449c444115ec098d3f292ee7bd6ec008f6f1955776f5c04014bc7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f1c0da28929f4bf5f99f78c2a9bfbe35a351c88
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330011"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619083"
 ---
 # <a name="select-groups"></a>グループの選択
 

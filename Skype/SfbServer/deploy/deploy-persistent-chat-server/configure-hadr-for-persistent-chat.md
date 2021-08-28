@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server 2015 で常設チャット サーバーの高可用性と障害復旧を構成する
+title: 2015 年に常設チャット サーバーの高可用性と障害復旧をSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,29 +10,29 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: '概要: Skype for Business Server 2015 で常設チャット サーバーの高可用性と障害復旧を構成する方法については、このトピックを参照してください。'
-ms.openlocfilehash: d7f7863a6f1a7ccc6310b8b60f7fc7cc233c29d500d01c06d6143489705306f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '概要: このトピックでは、2015 年に常設チャット サーバーの高可用性と障害復旧を構成するSkype for Business Serverしてください。'
+ms.openlocfilehash: 265065a5b4ff52dc65dccb4b0e045e3d9e21c452
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314903"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601882"
 ---
-# <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Skype for Business Server 2015 で常設チャット サーバーの高可用性と障害復旧を構成する
+# <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年に常設チャット サーバーの高可用性と障害復旧をSkype for Business Serverする
  
-**概要:** Skype for Business Server 2015 で常設チャット サーバーの高可用性と障害復旧を構成する方法については、このトピックを参照してください。
+**概要:** このトピックでは、2015 年に常設チャット サーバーの高可用性と障害復旧を構成するSkype for Business Serverしてください。
   
-Skype for Business Server は、データベース ミラーリングを含む、バック エンド サーバーの高可用性の複数のモードをサポートします。 詳細については [、「Plan for High availability and disaster recovery in Skype for Business Server 2015」を参照してください](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+Skype for Business Server、データベース ミラーリングを含む、バック エンド サーバーの高可用性の複数のモードをサポートしています。 詳細については、「Plan for high availability and disaster recovery in Skype for Business Server [2015」を参照](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)してください。
   
 > [!NOTE]
 > AlwaysOn 可用性グループは、常設チャット サーバーではサポートされていません。 
 
 > [!NOTE] 
-> 常設チャットは Skype for Business Server 2015 で使用できますが、Skype for Business Server 2019 ではサポートされなくなりました。 Teams でも同じ機能を使用できます。 詳細については、「Microsoft Teams のアップグレードの [開始」を参照してください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、Skype for Business Server 2015 を引き続き使用するかのどちらかを選択できます。
+> 常設チャットは 2015 Skype for Business Serverで使用できますが、2019 年Skype for Business Serverではサポートされていません。 同じ機能は、Teams。 詳細については、「アップグレードの開始[方法」をMicrosoft Teamsしてください](/microsoftteams/upgrade-start-here)。 常設チャットを使用する必要がある場合は、この機能を必要とするユーザーを Teams に移行するか、2015 年Skype for Business Serverします。
   
-高可用性と障害復旧用に常設チャット展開を構成する前に、「Plan for High availability and disaster recovery for Persistent Chat Server in [Skype for Business Server 2015」](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)の概念を理解してください。 これらのトピックで説明されている常設チャット サーバーの障害復旧ソリューションは、ストレッチされた常設チャット サーバー プール上に構築されています。 計画コンテンツでは、リソース要件と、高可用性に対する SQL Server ミラーリングの使用、障害復旧のための SQL Server ログ配布など、常設チャット サーバーの高可用性と障害復旧を可能にするストレッチ プール トポロジについて説明します。
+高可用性と障害復旧用に常設チャット展開を構成する前に、「Plan for high availability and disaster recovery for Persistent Chat Server for [Skype for Business Server 2015」の概念](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)を理解してください。 これらのトピックで説明されている常設チャット サーバーの障害復旧ソリューションは、ストレッチされた常設チャット サーバー プール上に構築されています。 計画コンテンツでは、リソース要件と、高可用性に対する SQL Server ミラーリングの使用、障害復旧のための SQL Server ログ配布など、常設チャット サーバーの高可用性と障害復旧を可能にするストレッチ プール トポロジについて説明します。
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>トポロジ ビルダーを使用して高可用性と障害復旧を構成する
 
@@ -48,15 +48,15 @@ Skype for Business Server は、データベース ミラーリングを含む�
     
     c. [ログ配布SQL Server有効にする] をクリックします。
     
-    d. ログ配布SQL Serverを追加SQL Serverします。
+    d.  ログ配布SQL Serverを追加SQL Serverします。
     
-    e. セカンダリ データベースSQL Serverミラーを追加します。
+    e.  セカンダリ データベースSQL Serverミラーを追加します。
     
     f. トポロジを公開します。
     
 ## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>常設チャット SQL Serverデータベースのログ配布の設定
 
-このSQL Server Management Studio、常設チャット サーバーのセカンダリ ログ配布データベース インスタンスに接続し、エージェントが実行SQL Server確認します。 次に、常設チャット プライマリ データベース インスタンスに接続し、次の手順を実行します。
+このSQL Server Management Studio、常設チャット サーバーのセカンダリ ログ配布データベース インスタンスに接続し、エージェントがSQL Serverしてください。 次に、常設チャット プライマリ データベース インスタンスに接続し、次の手順を実行します。
   
 1. mgc データベースを右クリックしてから、[**プロパティ**] をクリックします。
     
@@ -71,17 +71,17 @@ Skype for Business Server は、データベース ミラーリングを含む�
 6. バックアップ フォルダーがプライマリ サーバー上にある場合は、[バックアップ フォルダーがプライマリ サーバーにある場合] ボックスに、バックアップ フォルダーへのローカル パスを入力します **(例: c:\backup)** ボックスに、バックアップ フォルダーへのローカル パスを入力します。 (バックアップ フォルダーがプライマリ サーバー上にない場合は、このボックスを空のままにできます)。
     
     > [!IMPORTANT]
-    > プライマリ サーバーの SQL Server サービス アカウントがローカル システム アカウントで実行されている場合は、プライマリ サーバーにバックアップ フォルダーを作成し、そのフォルダーへのローカル パスを指定する必要があります。 
+    > プライマリ サーバー SQL Serverサービス アカウントがローカル システム アカウントで実行されている場合は、プライマリ サーバーにバックアップ フォルダーを作成し、そのフォルダーへのローカル パスを指定する必要があります。 
   
 7. [**次の期間を経過したファイルを削除する**] パラメーターと [**バックアップが次の期間内に行われない場合は警告する**] パラメーターを構成します。
     
-8. [**バックアップ ジョブ**] の [**スケジュール**] ボックスに一覧表示されるバックアップ スケジュールを確認してください。 インストールのスケジュールをカスタマイズするには、[スケジュール] **をクリック** し、必要にSQL Serverエージェント のスケジュールを調整します。
+8. [**バックアップ ジョブ**] の [**スケジュール**] ボックスに一覧表示されるバックアップ スケジュールを確認してください。 インストールのスケジュールをカスタマイズするには、[スケジュール]をクリックし、必要にSQL Serverエージェント のスケジュールを調整します。
     
 9. [ **圧縮] で**、[ **既定のサーバー設定を使用する**] を選択し **、[OK] をクリックします**。
     
 10. [**セカンダリ サーバー インスタンスとデータベース**] で、[**追加**] をクリックします。
     
-11. [ **接続]** をクリックして、セカンダリ サーバー SQL Server構成したサーバーのインスタンスに接続します。
+11. **[Connect]** をクリックし、セカンダリ サーバー SQL Server構成したサーバーのインスタンスに接続します。
     
 12. [**セカンダリ データベース**] ボックスで、一覧から [**mgc**] データベースを選択します。
     
@@ -89,7 +89,7 @@ Skype for Business Server は、データベース ミラーリングを含む�
     
 14. [ファイル **のコピー]** タブの[コピー先のファイルフォルダー] ボックスに、トランザクション ログのバックアップをコピーするフォルダーのパスを入力します。 多くの場合、このフォルダーは、セカンダリ サーバー上にあります。
     
-15. [ジョブのコピー] の [スケジュール] **ボックスに一** 覧表示されているコピー スケジュール **に注意してください**。 インストールのスケジュールをカスタマイズするには、[スケジュール] **をクリック** し、必要にSQL Serverエージェント のスケジュールを調整します。 このスケジュールは、バックアップ スケジュールとほぼ同じにしてください。
+15. [ジョブのコピー] の [スケジュール] **ボックスに一** 覧表示されているコピー スケジュール **に注意してください**。 インストールのスケジュールをカスタマイズするには、[スケジュール]をクリックし、必要にSQL Serverエージェント のスケジュールを調整します。 このスケジュールは、バックアップ スケジュールとほぼ同じにしてください。
     
 16. [復元] **タブの** [バックアップ **の復元時** のデータベース状態] で、[回復モードなし] **オプションを選択** します。
     
@@ -105,11 +105,11 @@ Skype for Business Server は、データベース ミラーリングを含む�
 
 プライマリ 常設チャット データベースがミラー データベースにフェールオーバーされた場合にログ配布を続行するには、次の手順を実行します。
   
-1. プライマリ 常設チャット データベースを手動でミラーにフェールオーバーします。 これは、Skype for Business Server 管理シェルと **Invoke-CsDatabaseFailover コマンドレットを使用して実行** します。
+1. プライマリ 常設チャット データベースを手動でミラーにフェールオーバーします。 これは、管理シェルと **Invoke-CsDatabaseFailover** コマンドレットSkype for Business Server使用して行います。
     
-2. サーバー サーバーをSQL Server Management Studio、プライマリ常設チャット サーバー ミラー インスタンスに接続します。
+2. サーバー を使用SQL Server Management Studio、プライマリ常設チャット サーバー ミラー インスタンスに接続します。
     
-3. エージェントが実行SQL Server確認します。
+3. エージェントが実行SQL Serverしてください。
     
 4. mgc データベースを右クリックしてから、[**プロパティ**] をクリックします。
     
@@ -124,11 +124,11 @@ Skype for Business Server は、データベース ミラーリングを含む�
 9. バックアップ フォルダーがプライマリ サーバーに存在する場合は、[**バックアップ フォルダーがプライマリ サーバーに存在する場合は、バックアップ フォルダーのローカル パスを入力**] ボックスにバックアップ フォルダーへのローカル パスを入力します (バックアップ フォルダーがプライマリ サーバーに存在しない場合は、このボックスを空のままにします)。
     
     > [!IMPORTANT]
-    > プライマリ サーバーの SQL Server サービス アカウントがローカル システム アカウントで実行されている場合は、プライマリ サーバーにバックアップ フォルダーを作成し、そのフォルダーへのローカル パスを指定する必要があります。 
+    > プライマリ サーバー SQL Serverサービス アカウントがローカル システム アカウントで実行されている場合は、プライマリ サーバーにバックアップ フォルダーを作成し、そのフォルダーへのローカル パスを指定する必要があります。 
   
 10. [**次の期間を経過したファイルを削除する**] パラメーターと [**バックアップが次の期間内に行われない場合は警告する**] パラメーターを構成します。
     
-11. [**バックアップ ジョブ**] の [**スケジュール**] ボックスに一覧表示されるバックアップ スケジュールを確認してください。 インストールのスケジュールをカスタマイズするには、[スケジュール] **をクリック** し、必要にSQL Serverエージェント のスケジュールを調整します。
+11. [**バックアップ ジョブ**] の [**スケジュール**] ボックスに一覧表示されるバックアップ スケジュールを確認してください。 インストールのスケジュールをカスタマイズするには、[スケジュール]をクリックし、必要にSQL Serverエージェント のスケジュールを調整します。
     
     > [!IMPORTANT]
     > プライマリ データベースと同じ設定を使用します。 
@@ -156,6 +156,6 @@ Skype for Business Server は、データベース ミラーリングを含む�
   
 21. [**キャンセル**] をクリックして、ログ配布構成パネルを閉じ、(フェールオーバー時に) プライマリ データベースとミラー化されたデータベース両方でログ配布を適切に実装する実用的なセットアップを確立します。
     
-22. プライマリ 常設チャット データベースをプライマリに手動でフェールバックします。 これは、Skype for Business Server 管理シェルと **Invoke-CsDatabaseFailover** コマンドレットを使用して行います。
+22. プライマリ 常設チャット データベースをプライマリに手動でフェールバックします。 これは、管理シェルのSkype for Business Server **Invoke-CsDatabaseFailover コマンドレットを使用して実行** します。
     
 

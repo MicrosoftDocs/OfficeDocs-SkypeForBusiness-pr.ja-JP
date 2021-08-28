@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: 通話詳細記録 (CDR) データベース スキーマは、次のテーブルで構成されています。
-ms.openlocfilehash: 27381a95a5de2613845fa831e8730a1bc06d374ae7936eaedb31d239b3dbb0cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343251"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635131"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>2015 年の CDR テーブルSkype for Business Server一覧
  
@@ -26,7 +26,7 @@ ms.locfileid: "54343251"
   
 ## <a name="static-tables"></a>静的テーブル
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[2015 年の CallPriorities Skype for Business Server](callpriorities.md) <br/> |可能な通話優先順位の一覧を格納します (緊急、至急、通常、非至急など)。  <br/> |
 |[ConferenceJoinTimeThresholds テーブル (Skype for Business Server 2015)](conferencejointimethresholds.md) <br/> |電話会議参加時間の概要レポートで使用される分類の境界を格納します。  <br/> |
@@ -38,7 +38,7 @@ ms.locfileid: "54343251"
    
 ## <a name="supporting-tables"></a>サポート テーブル
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[2015 年の ClientVersions Skype for Business Server](clientversions.md) <br/> |通話に関わった各クライアントのクライアント情報 (クライアントの種類とバージョン番号の両方) およびこのデータベースでキャプチャされた情報を格納します。  <br/> |
 |[ConferenceUris テーブル (Skype for Business Server 2015)](conferenceuris.md) <br/> |電話会議関連の通話で使用された ConferenceURI の一覧を格納します。  <br/> |
@@ -61,7 +61,7 @@ ms.locfileid: "54343251"
    
 ## <a name="tables-specific-to-conference-cdr-records"></a>電話会議 CDR レコードに固有のテーブル
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[2015 年Skype for Business Server会議の表](conferences.md) <br/> |アーカイブされた、または詳細が記録されたすべての電話会議に関する情報を格納します (ConferenceURI、開始時刻、終了時刻など)。  <br/> |
 |[ConferenceSessionDetails テーブル (2015 Skype for Business Server)](conferencesessiondetails-0.md) <br/> |すべての SIP ベースの電話会議セッションに関する情報を格納します (各セッションの開始時刻と終了時刻、ユーザー ID、応答コード、診断 ID など)。  <br/> |
@@ -70,14 +70,14 @@ ms.locfileid: "54343251"
    
 ## <a name="tables-for-messages-in-im-conferences"></a>IM 会議でのメッセージ関するテーブル
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[ConferenceMessageCount テーブル (Skype for Business Server 2015)](conferencemessagecount.md) <br/> |IM 会議ごとに、各ユーザーが送信したメッセージの数を格納します。  <br/> |
 |[IMReportSummary テーブル (2015 Skype for Business Server)](imreportsummary.md) <br/> |組織で行われたインスタント メッセージング セッションに関する概要レポートを提供します。  <br/> |
    
 ## <a name="tables-for-peer-to-peer-sessions"></a>ピアツーピア セッションに関するテーブル
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[SessionDetails テーブル](sessiondetails.md) <br/> |すべてのピアツーピア セッションに関する情報を格納します (各ユーザーの開始時刻と終了時刻、ユーザー ID、応答コード、メッセージ数など)。  <br/> |
 |[FileTransfers テーブル (Skype for Business Server 2015)](filetransfers-0.md) <br/> |ファイル転送セッションに関する情報を格納します (ファイル名、結果 (許可、禁止、取り消し) など)。  <br/> |
@@ -85,7 +85,7 @@ ms.locfileid: "54343251"
    
 ## <a name="table-for-voip-call-details"></a>VoIP 通話の詳細に関するテーブル
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[VoipDetails テーブル](voipdetails-0.md) <br/> |各 2 パーティ VoIP/PSTN 通話について、通話に関する情報を格納します (VoIP 電話の電話 ID、使用されたゲートウェイ、切断したパーティなど)。 呼び出し [の開始/終了時間](sessiondetails.md) と応答コードの SessionDetails テーブルを参照します。 <br/> |
    
@@ -94,7 +94,7 @@ ms.locfileid: "54343251"
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>E9-1-1 通話監査に関するテーブル
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[2015 年の場所Skype for Business Server表](locations.md) <br/> |Enhanced 9-1-1 (E9-1-1) 呼び出しなどの緊急呼び出しごとに、通話に関する場所情報を格納します。 呼び出し [の開始/終了時間](sessiondetails.md) と応答コードの SessionDetails テーブルを参照します。 <br/> |
    
@@ -103,7 +103,7 @@ ms.locfileid: "54343251"
   
 ## <a name="tables-for-troubleshooting"></a>トラブルシューティングに関するテーブル
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[2015 年Skype for Business Serverアプリケーション テーブル](application.md) <br/> |ルーティングと接続に関連する 2015 Skype for Business Server内のさまざまなプロセスに関する情報を格納します。  <br/> |
 |[CallType テーブル (Skype for Business Server 2015)](calltype.md) <br/> |通話の種類に関する情報 ("オーディオ"、"インスタント メッセージング"、"オーディオとビデオ"、"アプリケーション共有" など) を格納します。  <br/> |
@@ -116,7 +116,7 @@ ms.locfileid: "54343251"
   
 ## <a name="tables-for-internal-use-by-lync-server"></a>Lync Server の内部用テーブル
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |内部使用のみ。  <br/> |
 |**DbConfigInt** <br/> |内部使用のみ。  <br/> |

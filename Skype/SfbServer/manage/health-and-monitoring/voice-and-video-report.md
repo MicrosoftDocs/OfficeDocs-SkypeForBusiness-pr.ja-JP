@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: '概要: [音声とビデオのピアツーピア レポート] Skype for Business Server。'
-ms.openlocfilehash: 66d121965d7046a823e26bff8a14fba6ce8213690fcaa4a21ab7a31f4db9f904
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b5b9bb3ad0bed9182c41734ed6e173ae9e3febd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324326"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601472"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>ピアツーピア音声およびビデオ レポート (Skype for Business Server
  

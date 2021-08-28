@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
 description: tblPrincipalMemberDifference には、後の Active Directory ドメイン サービス同期手順でまだ処理されていないグループ メンバーシップの変更 (追加メンバーと削除メンバーの両方) が含まれます。
-ms.openlocfilehash: c1d5a0d492d228b5a8292fde608fbd66c3b586c393aba8eb5bc0fbbddd45a5e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c59e99ce43b6e0dfa5a41f4bfc515aa8a95ed958
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601282"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  
 tblPrincipalMemberDifference には、後の Active Directory ドメイン サービス同期手順でまだ処理されていないグループ メンバーシップの変更 (追加メンバーと削除メンバーの両方) が含まれます。
   
-**Columns**
+**列**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
@@ -32,7 +32,7 @@ tblPrincipalMemberDifference には、後の Active Directory ドメイン サ�
 |memberADPath  <br/> |nvarchar (256)  <br/> |メンバーの識別名。  <br/> |
 |memberRemoved  <br/> |NULL でない bit  <br/> |メンバーが追加された場合は False。メンバーが削除された場合は True。  <br/> |
    
-**キー**
+**Key**
 
 |**列**|**説明**|
 |:-----|:-----|

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: '概要: プライマリ管理サーバーを構成し、2015 System Center Operations Manager をインストールし、管理パックをインポートSkype for Business Serverします。'
-ms.openlocfilehash: c9a55c44dddbe542fc53e9e047d1309a02bacfaaceee04920d5b63a1f7e25e79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 926236d673a6988d36699ce0c307441b4aef3357
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343391"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635261"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>プライマリ管理サーバーを構成する方法
 
@@ -31,7 +31,7 @@ Operations Manager にSystem Center、次を含む、その製品のすべての
 
 - オペレーション データベース
 
-- Server
+- サーバー
 
 - コンソール
 

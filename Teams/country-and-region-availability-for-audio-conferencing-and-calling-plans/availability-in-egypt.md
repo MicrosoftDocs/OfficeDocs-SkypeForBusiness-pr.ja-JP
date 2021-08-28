@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、エジプトでMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
-ms.openlocfilehash: 0f5cb9be98dcde2ddac9866f74c72b2997e6d2683a81f0640dedd165ef0dabee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: ここでは、エジプトでMicrosoft 365とOffice 365サービスのSkype for BusinessとMicrosoft Teamsを示します。
+ms.openlocfilehash: b437ed4b8ed54429fb5cf54046d2c084bffe8efc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352375"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635031"
 ---
 # <a name="availability-in-egypt"></a>エジプトでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、エジプトでMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
+ここでは、エジプトでMicrosoft 365とOffice 365サービスのSkype for BusinessとMicrosoft Teamsを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -82,7 +82,7 @@ ms.locfileid: "54352375"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

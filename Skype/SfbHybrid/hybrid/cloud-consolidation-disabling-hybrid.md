@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: この記事では、クラウド統合の一環としてハイブリッドを無効にするための詳細な手順について説明TeamsおよびSkype for Business。
-ms.openlocfilehash: eb7e72644bf5f69a763540c1c256d7aabb5f9f6f474d1d570071f68a4c2584e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06d8980a14944004b22fbacc0aecef453d49123e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330701"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619313"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>ハイブリッド構成を無効にして、ハイブリッド構成への移行Teamsのみ 
 
@@ -47,7 +47,7 @@ ms.locfileid: "54330701"
 > 手順 2 と手順 3 は、手順 2 と手順 3 の完了の間に既存のハイブリッド アプリケーション エンドポイントを検出できないので、同じメンテナンス ウィンドウで実行する必要があります。
 
 
-## <a name="summary"></a>要約
+## <a name="summary"></a>概要
 
 すべてのユーザーを Skype for Business オンプレミスから Teams のみ Microsoft 365 にアップグレードした後、オンプレミスの展開をSkype for Businessできます。
 

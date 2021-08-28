@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: '概要: 2015 年のシステム要件およびネットワーク要件またはインフラストラクチャ要件に関するトピックSkype for Business Serverします。 2015 年から 2015 年にインストールおよび展開を行う前提条件として何かをインストールまたは構成する必要がある場合Skype for Business Serverここに表示されます。'
-ms.openlocfilehash: 105b2431531f60234621e2ffa18eaaab737fd43dfca1682e08b815ea4a08fabc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fef1ea11641ad6e5732781e264dc369fa34f042d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306708"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601312"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>2015 環境Skype for Business要件
  

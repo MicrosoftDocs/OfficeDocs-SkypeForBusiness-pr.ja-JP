@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: この記事では、Skype for Business または Teams の実装で、Azure Monitor を使用して Microsoft Teams Rooms デバイスを管理する場合の計画上の考慮事項について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1cd848b6ccf963e7b21083ac65c0332f74542967
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 2808d424d79d8d2b60af0573678ee18d0a52bdeb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505415"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619363"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure Monitor を使用して Microsoft Teams Rooms 管理を計画する
  
@@ -50,7 +50,7 @@ Log Analytics 機能を使用するには、Azure Monitor 用の有効な Azure 
 
 1. Azure Monitor Log Analytics の登録後、Microsoft Teams Rooms コンソールから送信される情報を解析するのに必要なカスタム フィールドを作成します (「[カスタム フィールドをマップする](azure-monitor-deploy.md#Custom_fields)」に説明されています)。 これには、「[ログ エントリを理解する](azure-monitor-manage.md#understand-the-log-entries)」で説明されている JSON スキーマについて理解することが含まれます。
     
-2. Log Analytics の [Microsoft Teams Rooms 管理] ビューを開発します。 [会議室[] ダッシュボードMicrosoft Teams手動で作成できます](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)。
+2. Log Analytics の [Microsoft Teams Rooms 管理] ビューを開発します。 [会議室[] ダッシュボードをMicrosoft Teams手動で作成できます](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)。
     
 ## <a name="individual-microsoft-teams-rooms-console-requirements"></a>個々の Microsoft Teams Rooms コンソールの要件
 

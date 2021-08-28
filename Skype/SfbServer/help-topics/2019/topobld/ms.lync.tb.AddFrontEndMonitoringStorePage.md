@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndMonitoringStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[監視 SQL Server ストアの定義] を行うには、次のプロパティを構成します。'
-ms.openlocfilehash: 3d60acc1f6c02a4f94482de84d1165fee4dfdfb2f003d8d9a6b6511fa485489d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: caaf519fd65e4262b48eddcec335a06539684eb3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297463"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601752"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>フロント エンド監視ストア ページの追加
  

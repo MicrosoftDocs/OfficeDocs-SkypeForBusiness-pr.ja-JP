@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: '概要: このトピックを参照して、2015 常設チャット Skype for Business Server展開する方法について説明します。'
-ms.openlocfilehash: bfe287184426fd1dc856d8dc29bf1f13cb0720bffcdf392791bb75b9813b383e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ad0b78366613355859f8fec512d427ef3e3d5bdb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314893"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619203"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>常設チャット サーバーを 2015 年Skype for Business Server展開する
  

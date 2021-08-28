@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ROBOTS: 'NOINDEX, NOFOLLOW'
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
@@ -28,9 +28,9 @@ metadata:
 productDirectory:
   summary: ワークショップのタイトルをクリックして、オンデマンド録音を登録またはアクセスします。
   items:
-    - title: オーディオ/ビデオの品質をビデオでTeams
+    - title: ビデオのオーディオ/ビデオ品質をTeams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
-      summary: ユーザーが会議や音声機能で最適なエクスペリエンスを得る方法を確認するには、 プロアクティブな戦略の確立から一般的な問題の解決まで、サービス品質の管理に役立つツール、レポート、ベスト プラクティスについて説明します。
+      summary: ユーザーが会議や音声機能を使用して最適なエクスペリエンスを得る方法を確認するには、 プロアクティブ戦略の確立から一般的な問題の解決まで、サービス品質の管理に役立つツール、レポート、ベスト プラクティスについて説明します。
       url: 'https://aka.ms/ChalkTalkAVQuality'
     - title: だから。。。を使用して通話を行Teams?
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
@@ -46,9 +46,9 @@ productDirectory:
       url: 'https://aka.ms/ChalkTalkApps'
     - title: アプリを使用して主要なワークフローをTeams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
-      summary: Connectに依存するアプリをユーザーに提供することで、システムの開発、自動化の向上、ユーザーのエクスペリエンスの向上Teams。
+      summary: Connectに依存するアプリをユーザーに提供することで、システムの開発、自動化の向上、ユーザーエクスペリエンスの向上Teams。
       url: 'https://aka.ms/ChalkTalkKeyApps'
-    - title: フロントラインの従業員が他の従業員とより多くのことを行Teams
+    - title: フロントラインの従業員が他のユーザーとより多くのことを行Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
       summary: フロントエンドワーカーの生産的な会話、情報共有、スケジュール管理のための効率的なエクスペリエンスを計画して実装するためのベスト プラクティスについて説明します。
       url: 'https://aka.ms/TeamsFLW'
@@ -59,7 +59,7 @@ additionalContent:
           summary: アップグレード ワークショップ シリーズをご覧ください。
           url: 'https://aka.ms/upgradeworkshops'
         - title: ユーザーを準備する
-          summary: ライブ トレーニングを使用してユーザー Teamsを開始します。
+          summary: ライブ トレーニングを使用してユーザーをTeams実行します。
           url: ./instructor-led-training-teams-landing-page.yml
         - title: Teams は初めてですか?
           summary: 詳細については、Teams の概要に関するTeams。
