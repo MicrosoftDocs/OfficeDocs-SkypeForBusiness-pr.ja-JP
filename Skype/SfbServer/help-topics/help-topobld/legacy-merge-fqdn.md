@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: Access Edge Pool 内部 FQDN は、内部ユーザーがフェデレーション、リモート ユーザー アクセス、およびパブリック IM 接続のために外部ユーザーと通信するさまざまなシナリオで使用されます。 従来の環境で負荷分散エッジ サーバーを展開した場合は、その内部ロード バランサーの完全修飾ドメイン名 (FQDN) を入力します。
-ms.openlocfilehash: b9c2e2977f2cfb579bc4c96d76d49883198a80a6901ba3e0fb0200b6c4704f6d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5131f6c5cb563e66a0a83f0c4c608d8e7e8895a3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336927"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608214"
 ---
 # <a name="legacy-merge-fqdn"></a>従来版のマージ FQDN
  

@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: ユーザー、ネットワーク サイト、ゲートウェイLocation-Based呼び出しポリシーの有効化など、ダイレクト ルーティングのルーティングを有効にする方法について説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,26 +17,26 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8dc1c36c0a82bb7323f5919c788508a4ef028f21
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 51a7aa95eb74e7baa199ac8d43dd5f89b352c95c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523818"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584501"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
-この記事の手順に従う前に、「ダイレクト ルーティングの [計画 Location-Based ルーティング](location-based-routing-plan.md) 」を読み、Location-Based ルーティングのネットワーク設定の構成に関するページの [手順を完了してください](location-based-routing-configure-network-settings.md)。
+この記事の手順に従う前に、「ダイレクト ルーティングの [計画 Location-Based ルーティング](location-based-routing-plan.md) 」を読み、ルーティングのネットワーク設定の構成に関するページの手順を完了 [Location-Basedしてください](location-based-routing-configure-network-settings.md)。
 
 この記事では、ダイレクト ルーティングのルーティングを有効Location-Based方法について説明します。 直接ルーティング電話システムデプロイし、ネットワーク リージョン、サイト、サブネットを設定した後は、ネットワーク ルーティングを有効Location-Basedできます。 この記事の手順を完了するには、PowerShell コマンドレットに関する理解が必要です。 詳細については[、「PowerShell の概要」Teamsを参照してください](teams-powershell-overview.md)。
 
- 次の場合は、Location-Based ルーティングを有効にする必要があります。
+ 次の場合は、Location-Basedルーティングを有効にする必要があります。
 - ユーザー
 - ネットワーク サイト
 - ゲートウェイの構成
 - 通話ポリシー
 
-管理センターまたは[powerShel](#using-powershell)Microsoft Teams[を](#using-the-microsoft-teams-admin-center)使用して、ルーティングを有効Location-Basedできます。
+管理センターまたは[powerShel](#using-powershell)l [Microsoft Teams使用](#using-the-microsoft-teams-admin-center)して、ルーティングを有効Location-Basedできます。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
@@ -52,13 +52,13 @@ ms.locfileid: "58523818"
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>ネットワーク Location-Basedルーティングを有効にする
 
-ルーティングLocation-Based適用する必要があるサイトのルーティングを有効にする。 これを行うには、Microsoft Teams 管理センターの左側のナビゲーションで、[場所] [ネットワーク トポロジ] に移動し、ネットワーク サイトを選択し、[編集] をクリックして、[場所ベースのルーティング] をオン  >  **にします**。   
+ルーティングLocation-Based適用する必要があるサイトのルーティングを有効にする。 これを行うには、Microsoft Teams 管理センターの左側のナビゲーションで、[場所] ネットワークトポロジに移動し、ネットワーク サイトを選択し、[編集] をクリックして、[場所ベースのルーティング] をオン  >  **にします**。   
 
 詳細については、「ネットワーク トポロジの [管理」を参照してください](manage-your-network-topology.md)。
 
 ### <a name="enable-location-based-routing-for-gateways"></a>ゲートウェイLocation-Basedルーティングを有効にする
 
-PSTN Location-Based通話をルーティングする PSTN ゲートウェイに通話をルーティングするゲートウェイへのルーティングを有効にし、ゲートウェイがあるネットワーク サイトを関連付ける。 
+通話Location-Based PSTN にルーティングする PSTN ゲートウェイにルーティングするゲートウェイへのルーティングを有効にし、ゲートウェイがあるネットワーク サイトを関連付ける。 
 
 1. 左側のナビゲーションで、[**音声ダイレクト** ルーティング]  >  **に移動し****、[SBC] タブをクリック** します。
 2. SBC を選択し、[編集] を **クリックします**。 
@@ -68,9 +68,9 @@ PSTN Location-Based通話をルーティングする PSTN ゲートウェイに�
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>通話ポリシーLocation-Basedルーティングを有効にする
 
-特定のユーザーLocation-Basedルーティングを強制するには、PSTN 有料バイパスを防ぐためにユーザーの通話ポリシーを設定します。 これを行うには、呼び出し元ポリシーで **[有料バイパスを防止** する] 設定をオンにします。
+特定のユーザーLocation-Basedルーティングを適用するには、PSTN 有料バイパスを防ぐためにユーザーの通話ポリシーを設定します。 これを行うには、呼び出し元ポリシーで **[有料** バイパスを防止する] 設定をオンにします。
 
-詳細については、「Teams でのポリシーの呼び[出し」を参照してください](teams-calling-policy.md)。
+詳細については、 の呼び出し[ポリシーに関するページTeams。](teams-calling-policy.md)
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
@@ -150,7 +150,7 @@ PSTN Location-Based通話をルーティングする PSTN ゲートウェイに�
     
 2. [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps)コマンドレットを使用して、ルーティングLocation-Basedを適用する必要があるゲートウェイのルーティングを有効にできます。 
 
-    PSTN Location-Based通話をルーティングする PSTN ゲートウェイに通話をルーティングするゲートウェイへのルーティングを有効にし、ゲートウェイがあるネットワーク サイトを関連付ける。
+    通話Location-Based PSTN にルーティングする PSTN ゲートウェイにルーティングするゲートウェイへのルーティングを有効にし、ゲートウェイがあるネットワーク サイトを関連付ける。
 
     ```PowerShell
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 

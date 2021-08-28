@@ -7,23 +7,23 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: aaglick
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: チーム テンプレートを使用して、プレインストールされているテンプレートを使用して、さまざまなトピックのチャネルを含むコラボレーション スペースを作成する方法について説明します。
+description: チーム テンプレートを使用して、プレインストールされているテンプレートを使用して、さまざまなトピックのチャネルとのコラボレーション スペースを作成する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebbc1e2b26fdd5f0ff6816d456e0f2a2dc9d02275b8c81089a0c0a1ef299e64f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ab5eb94740138af0405378728516bd4dfbaf2c7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308716"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584561"
 ---
 # <a name="get-started-with-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートの使用を開始する
 
@@ -46,7 +46,7 @@ ms.locfileid: "54308716"
 
 チーム内のほとんどのプロパティは、テンプレートに含まれてサポートされています。 ただし、現在サポートされていないいくつかのプロパティと機能があります。 次の表は、チーム テンプレートに含まれているものと含まれていないものについて簡単に説明しています。
 
-| **チーム テンプレートでサポートされるチームのプロパティ** | **チーム テンプレートでまだサポートされていないチームプロパティ** |
+| **チーム テンプレートでサポートされるチームのプロパティ** | **チーム テンプレートでまだサポートされていないチームのプロパティ** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | 基本テンプレートの種類 | チーム メンバーシップ |
 | チーム名 | チームの画像 |
@@ -58,7 +58,7 @@ ms.locfileid: "54308716"
 | ピン留めされたタブ | |
 
 > [!NOTE]
-> Microsoft Teams の将来のリリースではテンプレート機能を追加する予定なので、サポートされているプロパティに関する最新の情報を確認してください。
+> Microsoft Teams の今後のリリースでテンプレート機能を追加する予定なので、サポートされているプロパティに関する最新の情報を確認してください。
 
 ## <a name="what-are-base-template-types"></a>基本テンプレートの種類
 
@@ -67,7 +67,7 @@ ms.locfileid: "54308716"
 基本テンプレートの種類を定義したら、指定するプロパティを追加して、これらの特殊なテンプレートを拡張またはオーバーライドできます。 一部の基本テンプレートの種類には、オーバーライドできないプロパティが含まれている場合があります。
 
 > [!NOTE]
-> テンプレートで提供される定義済みのベース Microsoft Teamsは複製できますが、編集は行えない。
+> 事前に定義された基本テンプレートは、複製Microsoft Teams編集は可能です。
 
 | 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -121,7 +121,7 @@ PowerShell でテンプレートを管理するには、次のコマンドを使
 - [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [カスタム チーム テンプレートを作成する](create-a-team-template.md)
 - [既存のチーム テンプレートからチーム テンプレートを作成する](create-template-from-existing-template.md)

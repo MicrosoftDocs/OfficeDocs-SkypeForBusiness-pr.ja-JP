@@ -13,28 +13,28 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: ユーザーが着信、ボイス メール、インスタント メッセージの未読通知を受信するために携帯電話の通知をオンまたはオフにする方法を説明します。
-ms.openlocfilehash: ee558456a5f0ee4c2d59f4780e72ce4a2d2fe604aef5c270bca72665b7a610cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f44daa163dcce9298a43310b9157256c4b44fbb2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283929"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584421"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>携帯電話の通知をオン/オフする
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> 管理Microsoft Teamsセンターは、管理センター (レガシ ポータルSkype for Business置き換えました。 現在、管理センター Skype for Business管理センターにTeams設定が表示されます。 詳細については、「[Microsoft Teams 管理センターで Skype for Business の設定を管理する](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)」を参照してください。
+> 管理Microsoft Teamsセンターは、管理センター (レガシ ポータルSkype for Business置き換えました。 管理管理のすべての設定Skype for Business管理センター Teams表示されます。 詳細については、「[Microsoft Teams 管理センターで Skype for Business の設定を管理する](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)」を参照してください。
 
-組織の **[Microsoft 365 Apps for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** で管理者ロールを割り当てると、Skype for Business ユーザーが携帯電話やタブレットで受信したインスタント メッセージと見逃したインスタント メッセージに関する通知を受け取るかどうかを選択できます。
+組織の **[Microsoft 365 Apps for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** で管理者ロールを割り当てると、Skype for Business ユーザーが携帯電話やタブレットで受信したインスタント メッセージと見逃したインスタント メッセージに関する通知を受信するかどうかを選択できます。
   
 Android と Windows Phone の Skype for Business では、通知はリアル タイムにポップ アップ表示されます。 Windows Phone、iPhone、iPad デバイスでは、携帯電話やタブレットで Skype for Business を頻繁に使用していない場合は、プッシュ通知でアラートを表示します。
   
@@ -62,7 +62,7 @@ Android と Windows Phone の Skype for Business では、通知はリアル タ
 > [!IMPORTANT]
 >  マイクロソフトは、他の企業を使用して Windows Phone、iPhone、iPad のユーザー向けにリアルタイムな Skype for Business モバイル通知を提供しています。 「 [Microsoft Skype for Business 製品のプライバシーに関する声明](https://go.microsoft.com/fwlink/p/?linkid=247732)」を参照してください。 
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online のセットアップ](set-up-skype-for-business-online.md)
 

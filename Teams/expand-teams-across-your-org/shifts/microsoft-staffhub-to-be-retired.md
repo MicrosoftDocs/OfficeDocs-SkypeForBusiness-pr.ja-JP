@@ -11,19 +11,19 @@ search.appverid: MET150
 description: Microsoft StaffHub の提供提供が切り替わると、Shifts アプリへの移行に関する FAQ に対する回答をMicrosoft Teams。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07e2b94b1c4dea84136a2faad5748fcc412e4097
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: ef05d7cf25f015932f55491368ed8fd4f3131692
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523798"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584581"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub は廃止されました
 
@@ -89,10 +89,10 @@ Shifts を含むプランを既に使用している場合は、現在、Shifts 
 
 #### <a name="what-browsers-does-shifts-work-on"></a>Shifts はどのようなブラウザーで動作しますか?
 
-Shift は、Teams がサポートしているすべてのブラウザーで動作します。最新バージョンの Microsoft Edge、Internet Explorer、Google Chrome、Mozilla Firefox が含まれます。 詳細については、「Get [clients for Teams 」を参照してください](../../get-clients.md)。
+シフトは、Teams がサポートしているすべてのブラウザーで動作します。最新バージョンの Microsoft Edge、Internet Explorer、Google Chrome、Mozilla Firefox が含まれます。 詳細については、「Get [clients for Teams 」を参照してください](../../get-clients.md)。
 
 > [!Note]
-> Microsoft 365アプリとサービスでは、2021 年 8 月 17 日から Internet Explorer 11 はサポートされていません (Microsoft Teams は、2020 年 11 月 30 日から Internet Explorer 11 以前はサポートされていません)。 [詳細情報を参照してください](https://aka.ms/AA97tsw)。 Internet Explorer 11 は、サポート対象のブラウザーとして残ることに注意してください。 Internet Explorer 11 は、Windows オペレーティング システムのコンポーネントであり、インストール[](/lifecycle/faq/internet-explorer-microsoft-edge)されている製品のライフサイクル ポリシーに従います。 
+> Microsoft 365アプリとサービスは、2021 年 8 月 17 日から Internet Explorer 11 をサポートしない予定です (Microsoft Teams は、2020 年 11 月 30 日から Internet Explorer 11 以前はサポートされていません)。 [詳細情報を参照してください](https://aka.ms/AA97tsw)。 Internet Explorer 11 は、サポート対象のブラウザーとして残ることに注意してください。 Internet Explorer 11 は、Windows オペレーティング システムのコンポーネントであり、インストールされている[](/lifecycle/faq/internet-explorer-microsoft-edge)製品のライフサイクル ポリシーに従います。 
 
 #### <a name="what-languages-does-shifts-support"></a>Shifts ではどのような言語がサポートされていますか?
 
@@ -108,25 +108,25 @@ Shift は、Teams がサポートしているすべてのブラウザーで動�
 
 製品情報については、 にアクセスしてください [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software) 。
 
-管理者向けガイダンスについては、「組織の Shifts アプリを管理[する」を参照Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
+管理者ガイダンスについては、「組織の Shifts アプリを管理[する」を参照Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 
 エンド ユーザーのヘルプについては [、「Frontline Worker の Shifts ヘルプ」を参照してください](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)。
 
-#### <a name="what-licenses-do-i-need-for-teams"></a>ユーザーに必要なライセンスTeams?
+#### <a name="what-licenses-do-i-need-for-teams"></a>このサービスに必要なライセンスTeams?
 
 各ユーザーは、対象プランの有効な Microsoft 365 または Office 365 ライセンスを持っている必要があり、Teams ライセンスが割り当てられている必要があります。 
 
-#### <a name="how-do-i-enable-teams-in-my-organization"></a>組織でユーザーのTeamsを有効にする方法
+#### <a name="how-do-i-enable-teams-in-my-organization"></a>組織のアカウントをTeamsする方法
 
-既定では、Teams組織で有効になっています。 ユーザーにライセンスTeams割り当て、ユーザーに対する個々のアクセスを制御Teams。 詳細については、「組織内のユーザー アクセス[を有効にするTeams」および](../../Office-365-set-up.md)「ユーザーアクセスを管理する[」をTeams。](../../user-access.md)
+既定では、Teams組織で有効になります。 ユーザーにライセンスTeams割り当て、ユーザーに対する個々のアクセスを制御Teams。 詳細については、「組織内のユーザー アクセス[を有効にするTeams」および](../../Office-365-set-up.md)「ユーザーアクセスを管理する」[をTeams。](../../user-access.md)
 
-#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>現在、組織で有効Skype for Businessが、有効になっていない場合Teams。
+#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>現在、組織で有効にSkype for Businessが、有効になっていない場合Teams。
 
 Teamsは、他のユーザーとの共存Skype for Business。 詳細については、「Teams[と Skype for Business](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)の共存と相互運用性について」および「Teams を使用する組織の移行と相互運用性に関するガイダンス」を[Skype for Business。](../../migration-interop-guidance-for-teams-with-skype.md)
 
-#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>各ユーザーは、アカウントまたはMicrosoft 365アカウントOffice 365 Azure Active Directory (Azure AD) アカウントを持っている必要がありますか。
+#### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>各ユーザーは、Microsoft 365 アカウントまたは Office 365 アカウントまたは Azure Active Directory (Azure AD) アカウントを持っている必要がありますか。
 
-はい。Teams 内で Teams と Shifts を使用する各マネージャーとチーム メンバーには、Microsoft 365 アカウントまたは Office 365 アカウント (Azure AD) が必要であり、有効なライセンスが割り当てられている必要があります。
+はい。Teams 内で Teams と Shifts を使用する各マネージャーとチーム メンバーには、Microsoft 365 または Office 365 アカウント (Azure AD) が必要であり、有効なライセンスが割り当てられている必要があります。
 
 #### <a name="can-i-export-shift-schedules-from-shifts"></a>シフトからシフト スケジュールをエクスポートできますか?
   
@@ -138,23 +138,23 @@ Shifts デスクトップ アプリと Web アプリから、Excelにシフト �
 
 #### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>ファイル共有機能のTeams? ファイルはどこに保存されますか?
 
-マネージャーがチーム メンバーにファイルを配布する機能であるファイル共有機能は、SharePoint Online によってバック エンドで強化されます。 チームが作成されると、Microsoft 365グループがバックグラウンドでそのチームに自動的にプロビジョニングされます。
+ファイル共有機能は、マネージャーがチーム メンバーにファイルを配布する機能で、SharePoint Online によってバック エンドで強化されます。 チームが作成されると、そのMicrosoft 365グループがバックグラウンドで自動的にプロビジョニングされます。
 
-詳細については[、「How SharePoint Online and OneDrive for Business interact with Teams」を参照してください](../../SharePoint-OneDrive-interact.md)。
+詳細については[、「How SharePoint Online and OneDrive for Business interact with Teams 」を参照してください](../../SharePoint-OneDrive-interact.md)。
  
-#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts とカレンダーの間に統合Outlookですか? 予定表にスケジュールをエクスポートできますか?
+#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts とカレンダーの間にOutlookはありますか? 予定表にスケジュールをエクスポートできますか?
  
 Frontline Worker は、シフトで作業スケジュール全体を一目で確認できます。 ロードマップの一部として、Outlookとのネイティブ統合をサポートする予定です。 その間、Power Automate を使用して、Teams カレンダーと Google カレンダー Outlook Shifts との統合を設定します。
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>組織内のユーザーが Shifts を使用できるかどうかを管理するには、どのような管理者コントロールを使用できますか。  
   
-組織内のすべてのユーザーに対して、組織全体で Shifts をオンまたはオフにできます。 管理センター Microsoft Teams、Frontline Worker アプリのセットアップ ポリシーを使用して、Frontline Workforce の Teamsをカスタマイズすることもできます。 ポリシーは、アクティビティ、シフト、チャット、通話アプリで構成されます。 ポリシーを割り当てると、ユーザーがすばやく簡単にアクセスTeamsアプリ バーにこれらのアプリがピンで固定されます。 
+組織内のすべてのユーザーに対して、組織全体で Shifts をオンまたはオフにできます。 管理センター Microsoft Teams、Frontline Worker アプリセットアップ ポリシーを使用して、Frontline Workforce の Teamsをカスタマイズすることもできます。 ポリシーは、アクティビティ、シフト、チャット、通話アプリで構成されます。 ポリシーを割り当てると、ユーザーがすばやく簡単にアクセスTeamsアプリ バーにこれらのアプリがピンで固定されます。 
 
 詳細については、「組織の[Shifts アプリを管理する」](manage-the-shifts-app-for-your-organization-in-teams.md)を参照Teams。
 
 #### <a name="what-powershell-controls-are-available-for-teams"></a>使用できる PowerShell コントロールTeams?
 
-PowerShell モジュールTeams PowerShell モジュールMicrosoft Teams PowerShell モジュールを使用Skype for Business管理します。 詳細については[、「PowerShell の概要」Teamsを参照してください](../../teams-powershell-overview.md)。 現時点では、Shifts の管理に使用できる特定の PowerShell コマンドレットはありません。  
+PowerShell モジュールTeams PowerShell モジュールMicrosoft Teams PowerShell モジュールを使用してSkype for Business管理します。 詳細については[、「PowerShell の概要」Teamsを参照してください](../../teams-powershell-overview.md)。 現時点では、Shifts の管理に使用できる特定の PowerShell コマンドレットはありません。  
 
 ご興味をお持ちである場合は[、UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)の Teams フィードバック ポータルからご要望をお送りください。
 
@@ -163,7 +163,7 @@ PowerShell モジュールTeams PowerShell モジュールMicrosoft Teams PowerS
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>組織全体のシフトの使用状況を表示するためにレポートを使用できますか?
 
-Shifts は複数のアプリTeamsレポートを通じて使用状況Teamsできます。 詳細については、Teams 管理センターで Microsoft Teams[レポート](../../teams-analytics-and-reports/teams-reporting-reference.md)を確認し、Teams のアクティビティ レポート[を確認Microsoft 365 管理センター。](../../teams-activity-reports.md)
+Shifts は複数のアプリでTeamsレポートを使用して使用状況Teamsできます。 詳細については、Teams 管理[](../../teams-analytics-and-reports/teams-reporting-reference.md)センターでレポートをMicrosoft Teams、Teams のアクティビティ レポート[を確認Microsoft 365 管理センター。](../../teams-activity-reports.md)
 
 #### <a name="where-can-i-provide-feedback"></a>フィードバックを提供できる場所
   

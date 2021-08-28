@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: '概要: 既存の AlwaysOn 可用性グループに Skype for Business Server データベースを追加する方法と、Skype for Business Server の AlwaysOn 可用性グループの一部であるバック エンド サーバーにパッチを適用またはアップグレードした後に必要な追加手順について説明します。'
-ms.openlocfilehash: 705fc69d1c29807a0f32276a28268f2da932056d38e306db45b8c68e81f9a11b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a4c809aaaea4932185bb8a63fa4767784d745988
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314453"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608074"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>AlwaysOn 可用性グループを使用してデータベースを管理Skype for Business Server
 

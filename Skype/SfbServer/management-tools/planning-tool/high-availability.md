@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Skype for Business Server 2015 年から 2015 年のほとんどのサーバー の役割の主な高可用性スキームは、プールによるサーバーの冗長性に基づいて行います。 特定のサーバーの役割を実行しているサーバーが失敗した場合、同じ役割を実行するプール内の他のサーバーは、そのサーバーからの負荷を受け取る。
-ms.openlocfilehash: 954fc2be48a17daa11099a5bca179d416ed4d9380689558a9214362ed904568c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e39a49b5cef508b5858c564636b575c20f48ac75
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280960"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630451"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性計画ツール
  

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 混在環境で、新しい信頼済みアプリケーション サーバーを作成する場合は、次ホップ プールを 2019 年 2019 年Skype for Business Serverする必要があります。 混在環境では、従来のプールと 2019 年Skype for Business Server両方がドロップダウン リストに表示されます。 従来のプールを選択することはできません。
-ms.openlocfilehash: 6db3aaadfe028e6d1975521ecacb52ad26754b7bcf8766af345d4786bc825f31
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9965af757a570cfd787bb482a932d2817fd07ab0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296094"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584471"
 ---
 # <a name="configure-trusted-application-servers"></a>信頼済みアプリケーション サーバーの構成
 
@@ -33,7 +33,7 @@ ms.locfileid: "54296094"
     
 3. 信頼済 **みアプリケーション プールの Pool FQDN** を入力し、単一サーバーまたは複数サーバーを選択します。 
     
-4. **[次へ]** をクリックします。
+4. [**次へ**] をクリックします。
     
 5. [次 **ホップの選択] ページ** の一覧から、[2019 Skype for Business Serverプール] を選択します。 
     

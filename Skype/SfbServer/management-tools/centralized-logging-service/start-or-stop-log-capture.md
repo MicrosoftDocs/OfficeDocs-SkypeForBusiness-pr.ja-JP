@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '概要: 2015 年に集中ログ サービス ログ キャプチャ セッションを開始または停止するSkype for Business Serverします。'
-ms.openlocfilehash: 9979af3724a245fb71f14f3db07dba7899269d904d5dfcc1d548dae3a2890559
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f21b4b63c4261443cf6749f1daf0b905b1adb11
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324117"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608060"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>2015 年に CLS ログ キャプチャを開始またはSkype for Business Serverする
  

@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: '概要: OAuth アプリケーションとパートナー アプリケーションを管理するには、Skype for Business Server。'
-ms.openlocfilehash: 9f463a02c21cf21ced5c42c87d604923038a429a603380b3a043d1423bded785
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1f2b963ad8a116236e3a0bdb33307e9f9d4a95f7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305449"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608204"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>サーバー間認証 (OAuth) とパートナー アプリケーションを管理Skype for Business Server
  

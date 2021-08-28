@@ -8,9 +8,9 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: プロジェクト導入の実験フェーズに早期導入者をTeams、プロジェクトのフィードバックを収集します。
+description: プロジェクト導入の実験フェーズに早期導入者をTeamsし、プロジェクトのフィードバックを収集します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60314eb711fdcdf0f48ec607486acc119f3efcac575c10bec79c80c59d65dc22
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbc7deee746679b4e82b34dae8a0dd89b07ed37d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323929"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583581"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する
 
-早期導入プログラムに関心を示した従業員の一覧に戻る。 これらの個人の中から、自分の実験に参加する必要があるユーザーを決定Teams。 関心のあるユーザーのすべてまたは一部である可能性があります。 これらの初期プロジェクトに選択しない場合でも、引き続き連絡を取り合い、関心を持ち、今後も参加する予定です。 これらは、ビジネス関係者、技術チーム、上記の事前設定演習とのディスカッションに基づいて、選択したプロジェクトのオンボーディング プロセスの一部になります。 
+早期導入プログラムに関心を示した従業員の一覧に戻る。 これらの個人の中から、自分の実験に参加する必要があるユーザーを決定Teams。 関心のあるユーザーのすべてまたは一部である可能性があります。 これらの初期プロジェクトに選択しない場合でも、引き続き連絡を取り合い、関心を持ち、今後も参加する予定です。 これらは、ビジネス利害関係者、技術チーム、上記の事前設定演習とのディスカッションに基づいて選択したプロジェクトのオンボーディング プロセスの一部になります。 
 
 これらの早期導入者で次の手順を実行します。
 

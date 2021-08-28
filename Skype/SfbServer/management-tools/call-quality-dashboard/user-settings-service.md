@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: '概要: 呼び出し品質ダッシュボード設定リポジトリ API の一部である User 設定 サービスについて説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: c037024c8fe336c3614dd9daf6ee02370337ad5c6c44b45c783044cc421f626f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec710b018e05ac887214d180bb76b847fec1cf10
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315563"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608044"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>ユーザー 設定 サービス for 通話品質ダッシュボード (CQD)
  

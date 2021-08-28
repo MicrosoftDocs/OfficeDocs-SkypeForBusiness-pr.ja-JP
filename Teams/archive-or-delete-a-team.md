@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
 description: この記事では、チームをアーカイブまたは完全に削除する方法についてMicrosoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 773438eba12951d71f4cd8329c633fcdca5289e05eebf4716c0cddbb28d8f767
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df3dbdcaf0668caa4a58490371dd0a323ae8a3ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340663"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583671"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 
@@ -69,7 +69,7 @@ ms.locfileid: "54340663"
 
 ## <a name="restore-a-deleted-team"></a>削除したチームを復元する
 
-次の手順に従って、チームに関連付けられているMicrosoft 365グループを復元して、削除されたチームを復元します。 チームのMicrosoft 365グループを復元すると、タブ、標準チャネル、プライベート チャネル、関連付けられているサイト コレクションなどのチーム コンテンツが復元されます。
+次の手順に従って、チームに関連付けられているMicrosoft 365グループを復元して、削除されたチームを復元します。 チームのMicrosoft 365グループを復元すると、タブ、標準チャネル、プライベート チャネル、関連するサイト コレクションなどのチーム コンテンツが復元されます。
 
 既定では、削除されたMicrosoft 365は 30 日間保持されます。 この 30 日の期間は、グループを復元できるため、「ソフト削除」と呼ばれます。 詳細については、「削除されたグループ [を復元する」を参照してください](/microsoft-365/admin/create-groups/restore-deleted-group)。
 
@@ -91,14 +91,14 @@ ms.locfileid: "54340663"
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>削除されたグループをMicrosoft 365する
+### <a name="restore-the-deleted-microsoft-365-group"></a>削除したグループをMicrosoft 365する
 
 1. Azure AD に接続するには、次の操作を実行します。
     ```PowerShell
     Connect-AzureAD
     ```
     メッセージが表示されたら、管理者アカウントとパスワードを使用してサイン インします。  
-2. 次のコマンドを実行して、30 日間のリテンション期間Microsoft 365削除されたグループの一覧を表示します。 多数のグループがある場合は、**-All $True** パラメーターを使用します。
+2. 次のコマンドを実行して、30 日間のリテンション期間中Microsoft 365削除されたグループの一覧を表示します。 多数のグループがある場合は、**-All $True** パラメーターを使用します。
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```
@@ -114,6 +114,6 @@ ms.locfileid: "54340663"
 
     復元プロセスが完了するまで、最大で 24 時間かかる場合があります。その後、タブやチャネルなど、該当するチームに関連付けられたチームとコンテンツが Teams に表示されます。
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [チームをアーカイブまたは復元する](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 

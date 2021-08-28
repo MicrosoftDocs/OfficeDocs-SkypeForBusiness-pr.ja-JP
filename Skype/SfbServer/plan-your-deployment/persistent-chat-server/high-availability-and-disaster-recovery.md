@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: '概要: 2015 年の常設チャット サーバーの高可用性と障害復旧を計画する方法については、このトピックSkype for Business Serverしてください。'
-ms.openlocfilehash: 18e5a3e87dae7f65cb8b58788bd1b1b1be02ccc9c6b1f14492cd7da629e5c790
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: beb1bf01748d9ebb7336238d3ba2d3f1379e7b0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607974"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバーの高可用性と障害復旧Skype for Business Serverする
  

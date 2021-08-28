@@ -10,7 +10,7 @@ ms.reviewer: svemu
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.analyticsandreports.overview
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,12 @@ description: この記事では、管理センターでTeamsレポートの詳�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 362dce90521cb5fe948735f7e8a435e5f158ed3e
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 02353f540a3739f46e8e693ab4e83141b0bdfd3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523828"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583551"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams の分析とレポート
 
@@ -63,11 +63,11 @@ Microsoft では、Teams のレポート エクスペリエンスの継続的な
 
 ユーザー アクティビティとデバイスTeamsレポートTeamsデータを匿名にする場合は、グローバル管理者である必要があります。 これにより、レポートとそのエクスポートの表示名、電子メール、AAD ID などの識別可能な情報が非表示になります。
 
-1. [Microsoft 365 管理センター] の [組織]設定に設定し、[サービス] タブで \> **[** レポート] を **選択します**。 
+1. [Microsoft 365 管理センター] の [組織]設定に設定し、[サービス] タブで \> **[** レポート] を選択 **します**。 
     
 2. [ **レポート]** を選択し、[匿名識別子 **を表示する] を選択します**。 この設定は、管理センターだけでなく、Microsoft 365 管理センター使用状況レポートTeams適用されます。
   
 3. [変更の **保存] を選択します**。
 
 > [!NOTE]
-> この設定を有効にすると、ユーザー アクティビティ[](user-activity-report.md)レポートとデバイスTeamsレポートTeams[情報が識別されな](device-usage-report.md)されます。 管理センターで使用できる他の使用状況レポートTeams影響を受けられません。
+> この設定を有効にすると、ユーザー アクティビティ レポートとデバイスTeams[レポートTeams](user-activity-report.md)[情報が識別されな](device-usage-report.md)されます。 管理センターで使用できる他の使用状況レポートTeams影響を受けられません。

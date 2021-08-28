@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Skype for Business Online で電話会議の自動応答言語を電話会議の電話番号として選択する方法をSkype for Businessしてください。
-ms.openlocfilehash: 044d05ec8b67f1e7732140a90c47b0666568fafe241fe3a45f2d02c46824e903
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15eca114c4f3d108a078642e6af23923fe817f66
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326993"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584431"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online で電話会議の自動案内の言語を設定する
 
@@ -47,9 +47,9 @@ ms.locfileid: "54326993"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
 
-この手順を実行するには[、グローバル](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)[管理者Skype for Business管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)である必要があります。
+この手順を実行するには[、](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)グローバル[管理者Skype for Business管理者](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)である必要があります。
     
-1. [Skype for Business **管理センター] の左側** のナビゲーションで、[レガシ ポータル]**に移動します**。 レガシ ポータルで、[電話会議] **を選択し**、[Microsoft Bridge] **をクリックします**。
+1. [Skype for Business **管理センター] の** 左側のナビゲーションで、[レガシ ポータル] に **移動します**。 レガシ ポータルで、[電話会議] **を選択し**、[Microsoft Bridge] **をクリックします**。
     
 2. 操作ウィンドウで、リストから電話会議の電話番号を選び、[ **言語を設定**] をクリックします。 専用電話会議番号の言語を変更できるのは、その言語のみです。  
     
@@ -74,6 +74,6 @@ ms.locfileid: "54326993"
   
 詳細については、「[Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-[電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[電話会議を試用または購入するには、Microsoft 365 または Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

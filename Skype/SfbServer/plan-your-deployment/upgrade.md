@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: '概要: 2015 年にアップグレードを計画する際に考慮すべき点Skype for Business Serverします。 Microsoft 評価センターから Skype for Business Server 2015 の無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 1857194dd0b10b2e7c137e1cf098e99b0ca31d04637992aa168b081980c0df90
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a3a36bb7c1acbf5334c108429076aa8126860041
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349839"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630411"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>2015 年にアップグレードSkype for Business Serverする
  

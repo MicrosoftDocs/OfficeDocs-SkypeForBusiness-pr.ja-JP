@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: 各レコードには、オーディオ通話で 1 つのエンドポイントのクライアント イベントが含まれる。 通常、1 つの呼び出しには、呼び出し元用と呼び出し先用の 2 つのレコードがあります。
-ms.openlocfilehash: f92c77178630bfb6f04e8c707565993fd24c16873a3dc74461eee0ba11884599
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65897c03f44cac5fd10a0e2c56e78bb5751ae7e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309216"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583761"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent テーブル
  
@@ -27,7 +27,7 @@ ms.locfileid: "54309216"
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |日付型  <br/> |Primary  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
-|**SessionSeq** <br/> |整数  <br/> |Primary  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
 |**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
 |**FromCaller** <br/> |ビット  <br/> |Primary  <br/> |0: 呼び出し先のデータ  <br/> 1: 発信者のデータ  <br/> |
 |**NetworkSendQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |NetworkSendQuality イベントが "Bad" 状態で発生したセッションの割合。  <br/> ジッターやパケット損失に関するネットワーク品質は重大であり、送信されるオーディオの品質に影響を与えます。  <br/> |
@@ -44,8 +44,8 @@ ms.locfileid: "54309216"
 |**DeviceClippingEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |DeviceClipping イベントが "Bad" 状態で発生したセッションの割合。  <br/> 近端の音声がマイクをクリップすると、クリッピングによる歪みが聞こえます。 近端マイクのクリッピングを回避することが重要です。  <br/> |
 |**DeviceEchoEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |DeviceEchoEvent イベントが "Bad" 状態で発生したセッションの割合。 デバイスまたはセットアップによって、システムの補正機能を超えたエコーが発生しています。  <br/> |
 |**DeviceNearEndToEchoRatioEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |DeviceNearEndToEchoRatio イベントが 'Bad' 状態で発生したセッションの割合。 ユーザーの音声はキャプチャされるエコーと比較して低すぎます。これは、ユーザーエクスペリエンスに影響を与えるので、ユーザーを中断する方法が制限されます。 スピーカーの音量を小さめ、マイクを話し手の近くに移動します。  <br/> |
-|**DeviceMultipleEndpointsEventCount** <br/> |整数  <br/> ||セッション中に DeviceMultipleEndpoints イベントが "Bad" 状態で発生した回数。 同じセッション内の複数のオーディオ エンドポイントが検出され、システムはレンダリングボリュームを減らすことで補正されています。  <br/> |
-|**DeviceHowlingEventCount** <br/> |整数  <br/> | <br/> |セッション中に DeviceHowlingEvent イベントが "Bad" 状態で発生した回数。 オーディオ フィードバック ループが検出されました (オーディオ パスを共有する複数のエンドポイントが原因)。  <br/> |
+|**DeviceMultipleEndpointsEventCount** <br/> |int  <br/> ||セッション中に DeviceMultipleEndpoints イベントが "Bad" 状態で発生した回数。 同じセッション内の複数のオーディオ エンドポイントが検出され、システムはレンダリングボリュームを減らすことで補正されています。  <br/> |
+|**DeviceHowlingEventCount** <br/> |int  <br/> | <br/> |セッション中に DeviceHowlingEvent イベントが "Bad" 状態で発生した回数。 オーディオ フィードバック ループが検出されました (オーディオ パスを共有する複数のエンドポイントが原因)。  <br/> |
 |**DeviceRenderZeroVolumeEventRatio** <br/> |decimal(5,2)  <br/> ||DeviceRenderZeroVolume イベントが "Bad" 状態で発生したセッションの割合。 レンダー デバイスは、ボリュームが 0 に設定されています。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
 |**DeviceRenderMuteEventRatio** <br/> |decimal(5,2)  <br/> ||DeviceRenderMute イベントが "Bad" 状態で発生したセッションの割合。 レンダー デバイスがミュートされました。  <br/> この列は、Microsoft Lync Server 2013 で導入されました。  <br/> |
    
