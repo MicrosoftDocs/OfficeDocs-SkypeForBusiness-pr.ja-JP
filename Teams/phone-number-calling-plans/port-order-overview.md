@@ -11,27 +11,27 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: ポート注文の概要と、サービス プロバイダーからサービス プロバイダーに電話番号を転送する方法Teams。
-ms.openlocfilehash: a0d8884df95e153544e5d0108af8b23af7e464d59480350c7422bfdfdbb6e113
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d84db7c5f1ced9c8b0d23ea423d41b18c9e49005
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276123"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598381"
 ---
 # <a name="whats-a-port-order"></a>番号移行注文について
 
-現在、電話サービス プロバイダーまたは携帯電話会社をお持ちで、ユーザーまたはサービスの電話番号を既に持っている場合は、"ポート *注文"* を作成して、これらの電話番号を Microsoft Teams に転送する必要があります。 番号を移植すると、電話会議 (会議ブリッジの場合)、自動応答、通話キューなどのユーザーとサービスにそれらの電話番号を割り当てできます。
+現在、電話サービス プロバイダーまたは携帯電話会社をお持ちで、ユーザーまたはサービスの電話番号を既に持っている場合は、それらの電話番号を Microsoft Teams に転送する "ポート *注文"* を作成する必要があります。 番号を移植すると、電話会議 (会議ブリッジの場合)、自動応答、通話キューなどのユーザーとサービスにそれらの電話番号を割り当てできます。
   
 電話番号を Teams に移植すると、Microsoft がサービス プロバイダーになり、古いサービス プロバイダーまたは通信事業者とサービスを切断できます。
 
-番号の移植について理解するために、この記事の情報を確認してください。 その後、ポート注文を作成し、電話番号を転送する準備が整います。 詳[しい手順については、「](transfer-phone-numbers-to-teams.md)電話番号を Teamsに転送する」を参照してください。
+番号の移植について理解するために、この記事の情報を確認してください。 その後、ポート注文を作成し、電話番号を転送する準備が整います。 詳[しい手順については、「Teams](transfer-phone-numbers-to-teams.md)に電話番号を転送する」を参照してください。
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>番号の移植をサポートしている国または地域
 
@@ -67,7 +67,7 @@ ms.locfileid: "54276123"
 
 - Skype for Businessハイブリッド電話番号を作成します。 これらの番号を転送する場合は、 までメールでお問い合わせください <ptn@microsoft.com> 。
 
-  **次の情報を転送できない:**
+  **転送できない:**
   
     > [!NOTE]
     > 現時点では、VoIP 電話プロバイダーからの電話番号を含め、サポートされている国または地域からではない電話番号や電話番号を転送する必要があります。 サポートされている国/地域の一覧については、「電話会議と通話プランの国と地域の可用性 [」を参照してください。](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -93,7 +93,7 @@ ms.locfileid: "54276123"
   
 - **Full-port** これは、すべての番号を現在のサービス プロバイダーからサービス プロバイダーに転送Teams。 転送する電話番号を求めるメッセージが表示された場合は、請求先電話番号(BTN) とアカウントの他のすべての電話番号を含める必要があります。
 
-    たとえば、BTN が  *+1 425-555-1234*  で、25 の電話番号 *(+1 425-555-1235 ~ 1259)* を移植するとします。 下の手順に従って番号を移行する場合、次のように入力します: **+14255551234 - +14255551259** 。
+    たとえば、BTN が  *+1 425-555-1234*  で、25 の電話番号 *(+1 425-555-1235 から 1259)* を移植するとします。 下の手順に従って番号を移行する場合、次のように入力します: **+14255551234 - +14255551259** 。
 
 - **部分ポート** これは、現在のサービス プロバイダーから現在のサービス プロバイダーに電話番号の一部のみを転送Teams。 同じ BTN に関連付けられている電話番号の一部を移植する場合は *、*** をアカウントの他のすべての電話番号と共に含めすることはできません。
 
@@ -140,9 +140,9 @@ ms.locfileid: "54276123"
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>電話番号を別の電話サービス プロバイダー Teams携帯電話会社に移植できますか?
 
-電話番号を別の運送業者にTeamsするには、新しい運送業者に要求を送信する必要があります。 また、管理センターでポート PIN を設定Microsoft Teams必要があります。
+電話番号を別の運送業者にTeamsするには、新しい運送業者に要求を送信する必要があります。 また、管理センターで移植 PIN を設定Microsoft Teams必要があります。
 
-移植 PIN を定義するには、Microsoft Teams 管理センターの左側のナビゲーションで、ページの右上隅にある [音声 電話 番号] に移動し、[移植 PIN の管理] を選択し  >  、10 桁の PINを入力します。
+移植 PIN を定義するには、Microsoft Teams 管理センターの左側のナビゲーションで、ページの右上隅にある[音声 電話 番号] に移動し、[移植 PIN の管理] を選択し  >  、10 桁の PINを入力します。
 
 新しい運送業者から移植要求を受け取った場合は、定義した PIN の入力を求めるメッセージが表示されます。
 
@@ -171,7 +171,7 @@ ms.locfileid: "54276123"
 
 - サービスが有効になっていることを確認してください。 アカウントを凍結すると、アカウント上で携帯電話会社を変更できません。 アカウントを変更する権限を持つユーザーは、凍結を削除するために、現在の運送業者に注文を送信する必要があります。 このプロセスは、運送業者によっては 1 ~ 3 週間かかる場合があります。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [番号移行注文の状況](port-order-status.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

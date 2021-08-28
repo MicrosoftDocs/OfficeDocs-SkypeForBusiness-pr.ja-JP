@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: この記事では、次世代の Skype ミーティング システムである Microsoft Teams Rooms の展開に関連した計画時の考慮事項について説明します。
-ms.openlocfilehash: 6112e341d9a76b77d2c8f1a93d27c2c24d0d86cd7c17a499e0e55cfa7d2e1b23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e23c28bc39c9c4b70ae9ae10a6867427a5f51f39
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348782"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598351"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Microsoft Teams Rooms を計画する
 
@@ -62,13 +62,13 @@ Microsoft Teams、Skype for Business Online、または Skype for Business ハ�
 | ![アクティビティを識別する](../media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>展開全体を通して、主要な作業を引き受けるユーザーを特定します。</li><li>所有している (およびセットアップを計画している) 会議室を確認し、Microsoft Teams Rooms を展開する場所と、会議室の規模に適した周辺機器を把握します。</li></ul> |
 | | |
 
-## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment&quot;></a>展開全体を通して、主要な作業を引き受けるユーザーを特定する
+## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>展開全体を通して、主要な作業を引き受けるユーザーを特定する
 
 次に示すアプローチを使用して、展開を行い、組織のニーズに応じてこれらの記事全体で提供されているサンプル出力をカスタマイズします。
 
 まず、どのような会議室があるかを把握し、将来的にどのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。
 
-![まず、どのようなものがあるかを把握し、どのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。](../media/room-systems-image2.png &quot;まず、どのようなものがあるかを把握し、どのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。")
+![まず、どのようなものがあるかを把握し、どのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。](../media/room-systems-image2.png "まず、どのようなものがあるかを把握し、どのような会議室が最適かを想定してから、必要な機器の選択と調達、サイトの準備、サービスの設定と展開、変更とユーザー導入の管理、運用とメンテナンス手順の開発に進みます。")
 
 これらの作業は、複数のチームで調整する必要がある場合があります。 ここでは、実行すべき主な作業の概要を示します。また、会議室システムの展開と管理に通常携わるチームに対する提案も提供します。これにより、一緒に作業する相手を決定できます。
 

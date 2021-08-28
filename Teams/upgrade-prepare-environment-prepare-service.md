@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: クラウド サービスを使用してコラボレーションとクラウド音声サービスを行う組織を準備するための要件についてTeams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da6ccd1283eda3bd96fd9b4b2856c6318d79c1f36573a62394d1a4d404123ca5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a4b417876745042d6805c88de4a5b93cdc275c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337855"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621939"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>サービスをアップグレードする準備をTeams
 
@@ -38,7 +38,7 @@ ms.locfileid: "54337855"
 - [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-この記事では、組織がコラボレーションとクラウド音声サービスを使用するための準備を行う場合の要件の概要をTeams。 適切に準備することで、これらの機能を組織に提供する準備ができていることを確認できます。
+この記事では、コラボレーションとクラウド音声サービスを使用して組織を準備するための要件の概要をTeams。 適切に準備することで、これらの機能を組織に提供する準備ができていることを確認できます。
 
 ## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>新しいロールアウトのオンボーディング チェックリストMicrosoft Teamsページ
 
@@ -57,20 +57,20 @@ ms.locfileid: "54337855"
 - [電話システム PSTN 接続オプション](cloud-voice-landing-page.md)
 
 
-これらのチェックリストのタスクとアクティビティは、コラボレーション機能と音声機能の展開に適用される主要な "To Do" Teams。 チェックリストをカスタマイズして、独自のアクティビティ体験に固有のアクティビティやタスクTeamsできます。
+これらのチェックリストのタスクとアクティビティは、コラボレーション機能と音声機能の展開に適用される主要な "To Do" 項目Teams。 チェックリストをカスタマイズして、独自のアクティビティ体験に固有のアクティビティやタスクTeamsできます。
 
 提供されているチェックリストを使用して、個々のアクティビティとタスクの状態を追跡し、重要な手順をスキップしていないか確認します。 各アクティビティには、必要なアクションの詳細な説明と、そのアクティビティを完了するために使用できる追加情報への参照が含まれています。
 
 チェックリストを順番に実行することをお勧めしますが、正確な順序は、デプロイの範囲と環境の構成と複雑さによって異なります。 "greenfield" Teams デプロイ (以前の Skype for Business Online プレゼンスがないデプロイ) または Skype for Business Online から Teams へのアップグレードをサポートするために編成されています。 Skype for Business Online からアップグレードする場合は、これらのアクティビティの一部が既に完了している可能性があります。現在は無視できます。
 
-サイトごとにユーザーをオンボードする場合は、これらのチェックリストの補足ガイドとして、Site [Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) を使用することを強くお勧めします。
+サイトごとにユーザーをオンボードする場合は、これらのチェックリストの補足ガイドとして、サイト有効化プレイブック [for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) を使用することを強くお勧めします。
 
 >[!NOTE]
->構成設定の多くが、Teams Online Skype for Businessです。 これらの設定は、Microsoft Teams管理センターで構成します。
+>構成設定の多くが、Teams Online Skype for Businessです。 これらの設定はMicrosoft Teams管理センターで構成します。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>Whoチェックリストの完了を監視する責任は何ですか?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>オンボード チェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボーディング チェックリスト項目をステップ バイ ステップで実行します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>オンボード チェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボーディング チェックリスト項目をステップ バイ ステップで実行します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -79,7 +79,7 @@ ms.locfileid: "54337855"
 
 このチェックリストを完了したら、次の手順「ユーザー パイロットを実施 [する」に進みます。](pilot-essentials.md)
 
-[//]: # (@Turgay、次の段落はクラウド音声固有なのでコメントアウトしました。)
+[//]: # (@Turgay、この次の段落はクラウド音声固有なのでコメントアウトしました。)
 <!--
 As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site to cloud voice, and help ensure that you plan and execute important site-specific activities.
 -->

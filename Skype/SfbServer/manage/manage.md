@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: '概要: これらのリンクを参照して、管理と管理を行う方法Skype for Business Server。'
-ms.openlocfilehash: 7b23552906224e1583898cd967fb00ae8993d3708c8a0c8f30241b0c9e1902c6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3430c1d704570fe5812fb4315fdc24a91c5972dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313155"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636051"
 ---
 # <a name="manage-skype-for-business-server"></a>管理Skype for Business Server 
 

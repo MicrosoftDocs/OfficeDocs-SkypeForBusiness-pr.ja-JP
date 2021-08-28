@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal テーブルには、ユーザー、フォルダー、グループなど、すべてのプリンシパルが格納されます。
-ms.openlocfilehash: 50d20aee156a4a919effac26ff29c371ec2cf886c12300ecd07268576730ae49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a2a48d0cd2dcb6b6ef078fd32625fc022f79c9f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338025"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635861"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
 tblPrincipal テーブルには、ユーザー、フォルダー、グループなど、すべてのプリンシパルが格納されます。
   
-**Columns**
+**列**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|
@@ -41,9 +41,9 @@ tblPrincipal テーブルには、ユーザー、フォルダー、グループ�
 |prinTypeID  <br/> |NULL でない smallint  <br/> |プリンシパルの種類 (tblPrincipalType テーブルに基づいています)。  <br/> |
 |prinPoolID  <br/> |Int  <br/> |Skype for Businessのクライアント プールの割り当てを確認します。  <br/> |
 |prinPolicyID  <br/> |Int  <br/> |タグの種類ポリシーが存在する場合、ユーザーの常設チャット サーバー ポリシー値。  <br/> |
-|prinAddedBy  <br/> |整数  <br/> |作成者のプリンシパル ID。  <br/> |
+|prinAddedBy  <br/> |int  <br/> |作成者のプリンシパル ID。  <br/> |
 |prinAddedOn  <br/> |NULL でない bigint  <br/> |作成時刻のタイム スタンプ。  <br/> |
-|prinUpdatedBy  <br/> |整数  <br/> |このテーブルを最後に更新したプリンシパルの ID。  <br/> |
+|prinUpdatedBy  <br/> |int  <br/> |このテーブルを最後に更新したプリンシパルの ID。  <br/> |
 |prinUpdatedOn  <br/> |NULL でない bigint  <br/> |最後の更新のタイム スタンプ。  <br/> |
 |prinVerifiedOn  <br/> |NULL でない datetime  <br/> |プリンシパルに対する Active Directory の同期による最終更新の日付と時刻。  <br/> |
    

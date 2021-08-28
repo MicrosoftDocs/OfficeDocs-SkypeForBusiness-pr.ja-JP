@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationServerGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 仲介サーバーのプロパティは、このダイアログで編集します。 左側にクイック リンクのセットがあり、これらにより、[全般] 設定、[次ホップ] 設定、および [PSTN ゲートウェイ] 設定の設定に移動できます。 各セクションには次の設定があります。
-ms.openlocfilehash: 87eda891ae5c9e19a9a54e000b85b62e46c077d6a4c90318c9372fe6e887ecaa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43fb20304a078c7d51024153e7a725992fb95280
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344786"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612426"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用の仲介サーバー全般設定エキスパンダー
 

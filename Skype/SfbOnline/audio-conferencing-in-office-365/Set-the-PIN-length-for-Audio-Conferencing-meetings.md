@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: PIN の長さと要件のパラメーターについて説明し、会議の長さを設定する方法Skype for Business。
-ms.openlocfilehash: 8cd56ac9a7864fd44ee42d9c86b255a5d7449e3fed140a50033c716a3b53281b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ecd0ef071f790e000aff00820fcd1c5a04403f23
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310286"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598291"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Skype for Business Online で電話会議会議の PIN の長さを設定する
 
@@ -38,7 +38,7 @@ ms.locfileid: "54310286"
 
 会議用に電話会議を設定Skype for Business、電話会議ブリッジが表示されます。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 設定した電話番号は、新しいアプリの会議出席Skype for Businessされます。
   
-電話会議ブリッジは、電話を使用して会議にダイヤルインしようとしているユーザーの呼び出しに応答します。 自動応答からの音声プロンプトで呼び出し元に応答し、設定に応じて通知を再生し、発信者に自分の名前を記録するよう要求できます。 **Microsoft Bridge の設定** を使用すると、会議通知と会議参加エクスペリエンスの設定を変更し、会議開催者が使用する PIN の長さを設定できます。 会議の開催者は、新しいアプリを使用して会議に参加できない場合、PIN を使用してSkype for Businessします。
+電話会議ブリッジは、電話を使用して会議にダイヤルインしようとしているユーザーの呼び出しに応答します。 自動応答からの音声プロンプトで呼び出し元に応答し、設定に応じて通知を再生し、発信者に自分の名前を記録するよう要求できます。 **Microsoft Bridge の設定** を使用すると、会議通知と会議参加エクスペリエンスの設定を変更し、会議開催者が使用する PIN の長さを設定できます。 会議の開催者は、他のアプリを使用して会議に参加できない場合、PIN を使用してSkype for Businessします。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -66,7 +66,7 @@ ms.locfileid: "54310286"
     
 - PIN の桁数を 8 に設定するには:  `Set-CsOnlineDialInConferencingTenantSettings -PinLength 8`
     
-- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365またはOffice 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [PowerShell で使用する必要があるMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

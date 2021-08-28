@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: '概要: 2015 年に集中ログ サービス キャプチャ ログを検索して読み取るSkype for Business Serverします。'
-ms.openlocfilehash: f1136166798b1f0570f18342cce04a51957b4cace83319183889eff3c98f7298
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff33e2d680c83b9d997e2c17d8852d8bd816edbf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294204"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636041"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>2015 年に集中ログ サービスによって作成された検索キャプチャ ログSkype for Business Server
  

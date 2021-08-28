@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainVerifyDomainPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: '「手順 1: スキーマの準備」で実行したドメイン準備のレプリケーションを確認するには、Skype for Business Server 管理シェル Lync Server 管理シェルからコマンドレットを実行する必要があります。 Windows PowerShell コマンドレットを実行するには、準備したドメインのメンバーであるコンピューターに Domain Admins グループのメンバーとしてログオンします。 次の操作を行ってください。'
-ms.openlocfilehash: e02708e7b995c2f83e82080be60caa1e251f6b9438a75d93c7d74f47d812db93
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1715ef902b4c0812b98ff6e37c8ea31eab5489ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319280"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596921"
 ---
 # <a name="verify-replication-in-the-domain"></a>ドメイン内のレプリケーションの確認
  

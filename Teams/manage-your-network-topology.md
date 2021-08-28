@@ -1,5 +1,5 @@
 ---
-title: クラウド音声機能のネットワーク トポロジを管理する Microsoft Teams
+title: クラウド音声機能のネットワーク トポロジを管理 Microsoft Teamsする
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,31 +16,31 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.networktopology.overview
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: クラウド音声機能のネットワーク設定を構成する方法については、Microsoft Teams。
-ms.openlocfilehash: 44eeb7792e7fd37273ec8dd013d31b673fa2cf38f09c6c744de24a81f44b4f01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7ed9837b676197b588669ae95db77c9e834371dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351886"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598421"
 ---
-# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>クラウド音声機能のネットワーク トポロジを管理する Microsoft Teams
+# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>クラウド音声機能のネットワーク トポロジを管理 Microsoft Teamsする
 
-組織で直接ルーティングまたは動的[](location-based-routing-plan.md)緊急通話用の場所ベースのルーティング[](configure-dynamic-emergency-calling.md)を展開している場合は、Microsoft Teams でこれらのクラウド音声機能で使用するネットワーク設定を構成する必要があります。 ネットワーク設定は、ネットワーク リージョン、ネットワーク サイト、サブネットTeams信頼できる IP アドレスなど、クライアントの場所を特定するために使用されます。 デプロイするクラウド音声機能に応じて、これらの設定の一部またはすべてが構成されます。 これらの用語の詳細については、「クラウド音声機能の [ネットワーク設定」を参照してください](cloud-voice-network-settings.md)。
+組織で直接ルーティングまたは動的[](location-based-routing-plan.md)緊急通話用の場所ベースのルーティング[](configure-dynamic-emergency-calling.md)を展開している場合は、Microsoft Teams でこれらのクラウド音声機能で使用するネットワーク設定を構成する必要があります。 ネットワーク設定は、ネットワーク クライアントの場所Teams、ネットワーク リージョン、ネットワーク サイト、サブネット、信頼済み IP アドレスを含む場合に使用されます。 デプロイするクラウド音声機能に応じて、これらの設定の一部またはすべてが構成されます。 これらの用語の詳細については、「クラウド音声機能の [ネットワーク設定」を参照してください](cloud-voice-network-settings.md)。
 
-ネットワーク設定は、管理センターの **[ネットワーク トポロジ**] ページでMicrosoft Teamsを使用して構成Windows PowerShell。
+ネットワーク設定は、管理センターの **[ネットワーク** トポロジ] ページでMicrosoft Teamsを使用して構成Windows PowerShell。
 
 ## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>管理センターでネットワーク設定Microsoft Teams構成する
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-ネットワーク トポロジ ページの [ネットワーク サイト] タブで、ネットワーク リージョン、ネットワーク サイト、サブネット **を定義** します。 ここでは、ネットワーク サイトを作成または変更したり、サイトをネットワーク リージョンに関連付け、サブネットをサイトに関連付け、場所ベースのルーティングを有効にしたり、緊急ポリシーをサイトに割り当てすることができます。 また、すべてのサイトでグローバルに使用できるネットワーク リージョンを追加できます。
+ネットワーク トポロジ ページの [ネットワーク サイト] タブで、ネットワーク リージョン、ネットワーク サイト、サブネット **を定義** します。 ここでは、ネットワーク サイトの作成または変更、サイトとネットワーク リージョンの関連付け、サイトへのサブネットの関連付け、場所ベースのルーティングのオン、緊急ポリシーのサイトへの割り当てを行います。 また、すべてのサイトでグローバルに使用できるネットワーク リージョンを追加できます。
 
 #### <a name="add-and-configure-a-network-site"></a>ネットワーク サイトの追加と構成
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams、[**場所**] [ネットワーク トポロジ] に移動し、[ネットワーク サイト]  >  **タブをクリック** します。
+1. 管理センターの左側のMicrosoft Teams、[**場所]** ネットワーク トポロジ に移動し、[ネットワーク サイト]  >  **タブをクリック** します。
 2. [ **追加]** をクリックし、サイトの名前と説明を入力します。
 
     ![[ネットワーク サイトの追加] ページのスクリーンショット](media/manage-network-topology-add-site.png)
@@ -57,7 +57,7 @@ ms.locfileid: "54351886"
 
 #### <a name="modify-a-network-site"></a>ネットワーク サイトを変更する
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams、[**場所**] [ネットワーク トポロジ] に移動し、[ネットワーク サイト]  >  **タブをクリック** します。
+1. 管理センターの左側のMicrosoft Teams、[**場所]** ネットワーク トポロジ に移動し、[ネットワーク サイト]  >  **タブをクリック** します。
 2. サイト名の左側をクリックしてサイトを選択し、[編集] をクリック **します**。
 3. 必要な変更を加え、[保存] を **クリックします。**
 
@@ -81,7 +81,7 @@ ms.locfileid: "54351886"
 
 ## <a name="configure-network-settings-using-powershell"></a>PowerShell を使用してネットワーク設定を構成する
 
-このセクションの手順を完了するには、PowerShell コマンドレットに精通している必要があります。 詳細については[、「PowerShell の概要Teamsを参照してください](teams-powershell-overview.md)。
+このセクションの手順を完了するには、PowerShell コマンドレットに精通している必要があります。 詳細については[、「PowerShell の概要」Teamsを参照してください](teams-powershell-overview.md)。
 
 ### <a name="define-network-regions"></a>ネットワーク リージョンを定義する
 
@@ -131,7 +131,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 ```
 
-この例では、サブネット 192.168.0.0 と Delhi ネットワーク サイトの間と、サブネット 2001:4898:e8:25:844e:926f:85ad:dd8e と、ハイデラネットワーク サイトの間に関連付けを作成します。
+この例では、サブネット 192.168.0.0 と Delhi ネットワーク サイトの間、およびサブネット 2001:4898:e8:25:844e:926f:85ad:dd8e と、ハイデラネットワーク サイトの間に関連付けを作成します。
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
@@ -168,7 +168,7 @@ Identity, Mask, SiteID
 
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>外部サブネット (外部信頼済み IP アドレス) を定義する
 
-[New-CsTenantTrustedIPAddress](/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps)コマンドレットを使用して外部サブネットを定義し、テナントに割り当てる。 テナントの外部サブネットの数に制限はありません。
+[New-CsTenantTrustedIPAddress](/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps)コマンドレットを使用して外部サブネットを定義し、テナントに割り当てる。 テナントに対して定義できる外部サブネットの数には制限はありません。
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
@@ -182,6 +182,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 [「Set-CsTenantTrustedIPAddress」も参照してください](/powershell/module/skype/set-cstenanttrustedipaddress)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams のクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

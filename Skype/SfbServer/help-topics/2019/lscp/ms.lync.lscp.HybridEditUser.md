@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ユーザーの編集] ウィザードを使用して、展開内のユーザー アカウントを変更します。 詳細については、「Use the Hybrid Manageability wizard」を参照してください。'
-ms.openlocfilehash: b7d3a3453ec7c706aab79829dfa6c10ebd7b29d0c0668a0f531aec84d024d420
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 712650615d06f6a5014f1873eaf9a8b5b46a7e7d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612696"
 ---
 # <a name="hybrid-wizard-edit-users"></a>ハイブリッド ウィザード: ユーザー編集
 

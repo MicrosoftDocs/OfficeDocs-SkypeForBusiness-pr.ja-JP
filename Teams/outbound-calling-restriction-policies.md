@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理者は、ユーザーが行える電話会議とエンドユーザー PSTN 通話の種類を制御できます。
-ms.openlocfilehash: bbe2641cfd642e4ffd0cf6af901df059190740bf60ddbb8dfc5d82ba58c98380
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9e7f656cd51131237507cc184e021128a33d9268
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332549"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598411"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -42,7 +42,7 @@ ms.locfileid: "54332549"
 ゾーン A と見なされる国と地域を確認するには、「電話会議の国と [地域のゾーン」を参照してください](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > ダイヤルされた番号が会議の開催者 (電話会議の場合) またはエンド ユーザー (エンド ユーザー PSTN 通話の場合) に設定されている Office 365 Microsoft 365国と同じ国にある場合、通話は国内と見なされます。
+   > ダイヤルされた番号が会議の開催者 (電話会議の場合) またはエンド ユーザー (エンド ユーザーの PSTN 通話の場合) に対して Microsoft 365 または Office 365 が設定されている国と同じ国にある場合、通話は国内通話と見なされます。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -61,7 +61,7 @@ ms.locfileid: "54332549"
 
 ![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
-1. [Skype for Business **管理** センター] の左側のナビゲーションで、[電話会議ユーザー ] に移動し、使用可能なユーザーの一覧からユーザー  >  を選択します。
+1. [Skype for Business **管理** センター] の左側のナビゲーションで、[電話会議ユーザー] に移動し、使用可能なユーザーの一覧からユーザー  >  を選択します。
 
 2. [操作] ウィンドウで、[編集] を **選択します**。
 
@@ -98,7 +98,7 @@ Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global
 
 |PowerShell コマンドレット|説明|
 |:-----|:-----|
-|Identity='tag:DialoutCPCandPSTNInternational'    |    会議のユーザーは、国際電話番号と国内番号にダイヤルアウトできます。また、このユーザーは、国際電話番号と国内番号への発信通話を行う場合にも使用できます。    |
+|Identity='tag:DialoutCPCandPSTNInternational'    |    会議のユーザーは、国際電話番号と国内番号にダイヤルアウトできます。また、このユーザーは、国際番号と国内番号への発信通話を発信できます。    |
 |Identity='tag:DialoutCPCDomesticPSTNInternational'  |    会議のユーザーは国内番号にのみダイヤルアウトできます。このユーザーは、国際番号と国内番号への発信通話を行います。    |
 |    Identity='tag:DialoutCPCDisabledPSTNInternational'    |    会議のユーザーがダイヤルアウトできない。このユーザーは、国際番号と国内番号への発信呼び出しを行います。    |
 |    Identity='tag:DialoutCPCInternationalPSTNDomestic'    |    会議のユーザーは国際番号と国内番号にダイヤルアウトできます。このユーザーは国内 PSTN 番号への発信通話のみを行います。    |

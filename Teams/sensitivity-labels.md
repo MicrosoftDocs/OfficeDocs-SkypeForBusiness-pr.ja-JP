@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams の感度ラベル
+title: データの感度ラベルMicrosoft Teams
 ms.author: mikeplum
 author: cabailey
 manager: laurawi
@@ -14,17 +14,17 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 感度ラベルを使用してチームを保護する方法についてMicrosoft Teams。
-ms.openlocfilehash: 407b5f09322cf00e4dfe7a29bd513caa7476623cfeac5099019cc2c3ffb6a248
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d00ebe1861596ddb41e852c7e8fe6360df024ab7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621959"
 ---
-# <a name="sensitivity-labels-for-microsoft-teams"></a>Microsoft Teams の感度ラベル
+# <a name="sensitivity-labels-for-microsoft-teams"></a>データの感度ラベルMicrosoft Teams
 
 [機密ラベルを使用](/microsoft-365/compliance/sensitivity-labels)するとTeamsチーム内の共同作業中に作成された機密性の高い組織のコンテンツへのアクセスを保護および規制できます。 [Microsoft](/microsoft-365/compliance/go-to-the-securitycompliance-center)コンプライアンス センターで、関連付けられているポリシーで感度ラベルを構成した後、これらのラベルを組織内のチームに適用できます。
 
@@ -34,13 +34,13 @@ ms.locfileid: "54275943"
 
 感度ラベルは、分類ラベルとは異なります。分類ラベルは、Azure AD分類とも呼ばれる。 分類ラベルは、特定のグループに関連付Microsoft 365、実際のポリシーが関連付けられているものはないテキスト文字列です。 分類ラベルをメタデータとして使用し、内部ツールやスクリプトなどの他の方法を使用してポリシーを適用する必要があります。
 
-感度ラベルを使用する利点は、ポリシーが Microsoft 365 Groups プラットフォーム、コンプライアンス センター、および Teams サービスの組み合わせによってエンド to エンドで自動的に適用されるという利点があります。 機密ラベルは、組織の機密データをセキュリティで保護し、社内のポリシーまたは規制に準拠するための強力なインフラストラクチャ サポートを提供します。
+感度ラベルを使用する利点は、ポリシーが Microsoft 365 Groups プラットフォーム、コンプライアンス センター、Teams サービスの組み合わせによってエンド エンドで自動的に適用されるという利点があります。 機密ラベルは、組織の機密データをセキュリティで保護し、社内のポリシーまたは規制に準拠するための強力なインフラストラクチャ サポートを提供します。
 
 現在分類ラベルを使用している場合は、感度ラベルに移行する方法の詳細と手順については、次のドキュメントを参照してください。クラシック Azure AD [グループ分類](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>感度ラベルのシナリオ例
 
-組織内のユーザーと一緒に感度ラベルを使用Teamsシナリオの例を次に示します。
+組織内のアプリケーションで感度ラベルを使用するTeams例を次に示します。
 
 - [チームのプライバシー レベル (パブリックまたはプライベート) を設定する](#set-the-privacy-level-for-teams)
 - [チームへのゲスト アクセスを制御する](#control-guest-access-to-teams)
@@ -55,7 +55,7 @@ ms.locfileid: "54275943"
 
 ![機密ラベルのスクリーンショット](media/sensitivity-labels-confidential-example.png)
 
-同様に、ラベル プライバシー オプションがパブリック として構成されている "General" という名前の感度ラベルを作成して発行 **します**。 ユーザーが新しいチームを作成すると、次のラベルを選択した場合にのみ、パブリックまたは組織全体のチームを作成できます。
+同様に、ラベルプライバシー オプションがパブリック として構成されている "General" という名前の感度ラベルを作成して発行 **します**。 ユーザーが新しいチームを作成すると、次のラベルを選択した場合にのみ、パブリックまたは組織全体のチームを作成できます。
 
 ![一般的な感度ラベルのスクリーンショット](media/sensitivity-labels-general-example.png)
 
@@ -72,7 +72,7 @@ ms.locfileid: "54275943"
 
 ### <a name="control-guest-access-to-teams"></a>チームへのゲスト アクセスを制御する
 
-感度ラベルを使用して、チームへのゲスト アクセスを制御できます。 Teamsアクセスを許可しないラベルで作成されたユーザーは、組織内のユーザーだけが使用できます。 組織外のユーザーをチームに追加できない。
+感度ラベルを使用して、チームへのゲスト アクセスを制御できます。 Teamsアクセスを許可しないラベルで作成したユーザーは、組織内のユーザーだけが使用できます。 組織外のユーザーをチームに追加できない。
 
 ## <a name="microsoft-teams-admin-center"></a>Microsoft Teams 管理センター
 
@@ -82,7 +82,7 @@ ms.locfileid: "54275943"
 
 ## <a name="limitations"></a>制限事項
 
-感度ラベルを使用する前Teams、次の制限事項に注意してください。
+ラベルの感度ラベルを使用する前Teams、次の制限事項に注意してください。
 
 - **親ラベル名がサブラベルに対して表示されない**
     
@@ -90,7 +90,7 @@ ms.locfileid: "54275943"
 
 - **感度ラベルは、TEAMS GRAPH Api、PowerShell コマンドレット、およびテンプレートではサポートされていません**
     
-    ユーザーは、Teams Graph API、powerShell コマンドレット、Teams テンプレートを使用してチームを直接作成する際に、Teamsできません。 ただし、Modern Groups Graph API と PowerShell コマンドレットを使用すると、ラベル付きのグループを作成できます。 そのため、ユーザーはまず Groups Graph API または PowerShell コマンドレットを使用してラベル付きグループを作成し、次にこれらのグループを Teams。
+    ユーザーは、Teams Graph API、PowerShell コマンドレット、Teams テンプレートを使用してチームを直接作成する際に、Teamsできません。 ただし、Modern Groups Graph API と PowerShell コマンドレットを使用すると、ラベル付きのグループを作成できます。 そのため、ユーザーはまず Groups Graph API または PowerShell コマンドレットを使用してラベル付きグループを作成し、次にこれらのグループを Teams。
 
 - **プライベート チャネルのサポート**
     
@@ -102,4 +102,4 @@ ms.locfileid: "54275943"
 
 次のドキュメントの手順に従ってMicrosoft 365の感度ラベルを作成して構成Teams。 
 
-- [感度ラベルを使用して、Microsoft Teams、Microsoft 365、](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)および SharePoint サイト内のコンテンツを保護します。
+- [感度ラベルを使用して、Microsoft Teams、Microsoft 365、](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)サイト内のSharePoint保護します。

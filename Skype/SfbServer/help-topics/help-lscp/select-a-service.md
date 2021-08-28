@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectPool
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: '[サービスの選択] ダイアログ ボックスを使用して、環境で利用可能なサービスを検索します。 既存のサービスを使用するには、一覧でサービスをクリックして [OK] をクリックします。'
-ms.openlocfilehash: 3f3576594714701d52d192fee88dc983bee91d92b81559b4b8efd0d0a790bb6f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c56da3540ba7a7563092bee8275f67f4401192ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311168"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595771"
 ---
 # <a name="select-a-service"></a>サービスの選択
 
 [サービス **の選択] ダイアログ ボックス** を使用して、環境で利用可能なサービスを検索します。 既存のサービスを使用するには、一覧でサービスをクリックして [**OK**] をクリックします。
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
 
 ## <a name="tasks-you-can-perform"></a>実行できるタスク
 
@@ -38,7 +38,7 @@ Skype for Business Server コントロール パネルを使用して実行で�
 
 - [常設チャット サーバーのオプションをグローバルに、または常設チャット サーバー プール用に構成する](/previous-versions/office/lync-server-2013/lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool)
 
-Skype for Business Server コントロール パネルを使用して実行できるさまざまな手順の詳細については [、「Manage Skype for Business Server 2015」を参照](../../manage/manage.md)してください。
+コントロール パネルを使用して実行できるさまざまな手順の詳細については、「Skype for Business Server [2015」](../../manage/manage.md)を参照Skype for Business Serverしてください。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>チャット ルームのカテゴリを構成するには
 

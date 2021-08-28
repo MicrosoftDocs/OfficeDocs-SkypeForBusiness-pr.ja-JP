@@ -12,31 +12,31 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 電話番号を電話番号に移植するために必要なガイダンスをMicrosoft Teams。
-ms.openlocfilehash: 17ceb8270d9474a64b2a4f2a55e7f015585dacd5ba376708092f1fcf96f57722
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296714"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598391"
 ---
 # <a name="more-information-about-porting"></a>移植の詳細
 
 電話番号を電話番号に移植する方法の詳細については、こちらをMicrosoft Teams。
 
-詳しい手順については、「電話番号を電話番号に転送する」を[参照Teams。](transfer-phone-numbers-to-teams.md)
+詳細な手順については、「電話番号を別の電話番号に転送する」を[Teams。](transfer-phone-numbers-to-teams.md)
 
-サポートが必要な場合、またはさらに電話番号を取得する必要がある場合は、PSTN サービス デスクの [ヘルプ にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+サポートが必要な場合、または電話番号を追加する必要がある場合は、PSTN サービス デスクの [ヘルプ にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
 ## <a name="port-order-account-information"></a>ポート注文アカウント情報
 
-移植ウィザードの [アカウント情報の追加] ページでポート注文を送信する場合は、LOA で指定するのとほぼ同じ情報 (次を含む) を入力します。
+移植ウィザードの [アカウント情報の追加] ページでポート注文を送信する場合は、LOA で指定するのとほぼ同じ情報を入力します。次に示します。
   
 - サービス プロバイダーまたは通信事業者のアカウント番号
     
@@ -52,7 +52,7 @@ ms.locfileid: "54296714"
 - アカウントを変更する権限を持つユーザーの名前
     
     > [!NOTE]
-    > スペースを含む 15 文字のみを使用できます。 認証する人物の名前が 15 文字より長い場合は、名前の最初の 15 文字が発行され、番号移行注文が処理されます。 
+    > これは、スペースを含む 15 文字のみを使用できます。 認証する人物の名前が 15 文字より長い場合は、名前の最初の 15 文字が発行され、番号移行注文が処理されます。 
   
 - サービス アドレス
   
@@ -102,7 +102,7 @@ ms.locfileid: "54296714"
 
  - ファイルには任意の名前を付けできます。
  - このファイルには、PhoneNumber という名前のヘッダーを含む 1 つの列のみを含む必要があります。
- - 各電話番号は個別の行に入る必要があります。
+ - 各電話番号は、個別の行に含む必要があります。
  - 電話は、数字のみ、または E.164 形式で指定できます。
  - 電話番号の形式は、選択した国または地域と一致している必要があります。 たとえば、移植ウィザードで英国を選択した場合は、国コードである 44 を使用し、その後に正しい桁数の電話番号を使用します。 たとえば、次4420812341234。
 
@@ -110,7 +110,7 @@ ms.locfileid: "54296714"
 
 「 [ポート注文の状態は何ですか?」を参照してください。](port-order-status.md)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

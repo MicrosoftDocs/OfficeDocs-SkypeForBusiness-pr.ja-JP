@@ -14,17 +14,17 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom: None
 description: 詳細については、クラウド ボイスメール。
-ms.openlocfilehash: b58b0c8ef06f8c7c172172e7c1b53b20575d43d0c269f647913e7cb910f78ce0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ce71714daafd52f19fe5f0282048f23445564556
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295814"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598261"
 ---
 # <a name="license-options-based-on-your-plan"></a>プランに基づいたライセンスオプション
 

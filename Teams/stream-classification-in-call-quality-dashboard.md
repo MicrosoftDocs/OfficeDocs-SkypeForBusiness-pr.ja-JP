@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
 description: ストリーミング品質がどのように分類されるのかについては、「通話品質ダッシュボード (CQD) for Microsoft Teams online」Skype for Businessしてください。
-ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505425"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598341"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) のストリーム分類
 

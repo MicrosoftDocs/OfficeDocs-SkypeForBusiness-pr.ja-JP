@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: アドレスの検証は、通話プランを設定する上で重要な部分です。 これにより、組織のユーザーに対して、緊急応答サービスで使用できる緊急通話の住所が提供されます。
-ms.openlocfilehash: 7129398a661a1b89e4f7cbfe51e8a770d45b3714d60df679600d0c70ac6a5491
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df94bdd2f69338ae6085a4d0c35f9a0f907c72c9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334429"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621849"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>住所検証のためのサポート チケットを作成する方法を教えてください。
 
@@ -40,7 +40,7 @@ ms.locfileid: "54334429"
 
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>150 ユーザー以下の組織の場合は、次の手順を実行します。
-1. 管理センターで、[ヘルプが必要 **ですか**?
+1. 管理センターで、[ヘルプが **必要ですか**?
 2. [**ヘルプが必要ですか?**] ペインで、どのようなヘルプが必要かを伝えて、[**問い合わせ**] を選択します。
 3. [**解決策を表示**] セクションの結果が役に立たない場合は、次のいずれかを選択します。
     - [**電話連絡を許可 (推奨)**]: 連絡先番号を確認して、[**折り返し連絡**] を押します。 折り返し連絡されるまでの待ち時間の予測が [**ヘルプが必要ですか?**] ペインに示されます。
@@ -48,7 +48,7 @@ ms.locfileid: "54334429"
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>150 ユーザーを超える組織では、緊急住所の検証をするためにサービス リクエストを作成します。
 
-1. 管理者としてサインインし、Microsoft 365またはOffice 365アカウントを使用してログインします。
+1. 管理者としてサインインして、Microsoft 365またはOffice 365アカウントを使用してログインします。
     
 2. 管理センターの左側のナビゲーションで、[新しいサービス要求のサポート  >  **] をクリックします**。
     
@@ -102,7 +102,7 @@ ms.locfileid: "54334429"
 > [!TIP]
 > 参照番号は、次のページの **[サービス要求**] ページにMicrosoft 365 管理センター。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](/microsoftteams/transferring-phone-numbers-common-questions)
 
 [通話プランで使用されるさまざまな種類の電話番号](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)

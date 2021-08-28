@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 728f6a92-8df8-40c9-8054-cd7306d7d60f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 証明書のオフライン要求が完了すると、[証明書要求ファイル] ページが表示されます。 証明書要求を表示し、それをオフライン証明機関 (CA) またはパブリック CA に送信する準備をするには、[表示] ボタンをクリックします。 証明書要求は 、既定でWindows メモ帳に表示されます。 この画面からエンコードされた証明書要求をコピーして貼り付けるか、選択したオフライン CA またはパブリック CA からの指示に従って証明書要求の処理を完了できます。 [完了] をクリックして続行します。
-ms.openlocfilehash: cd28d5ad0fc06bf55de8bbfc1d3b5f64269b5db7171d6947fde45935c3e0a11a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 956f78869fc6e892f661617e7c073b18e65f4c54
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325424"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598111"
 ---
 # <a name="certificate-request-certificate-signing-request-generated"></a>証明書要求 (生成された証明書の署名要求)
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerNatIpPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: パブリック IP アドレスは、ネットワーク アドレス変換 (NAT) で使用される IP アドレスです。この IP アドレスがパブリック ルーティング可能であることが必要です。これは、このウィザードの [機能の選択] ページで [NAT を使用してこのエッジ プールの外部 IP アドレスを変換する] オプションを選択したためです。
-ms.openlocfilehash: c4f49f9677ff6f636ae165dc72280828a63e30d5281b40adc2a0abdbab0027a9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 949ec86c7af3b17746d2e16e87f8180b6ab901af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335217"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595761"
 ---
 # <a name="add-edge-server-nat-ip"></a>エッジ サーバー NAT IP の追加
 

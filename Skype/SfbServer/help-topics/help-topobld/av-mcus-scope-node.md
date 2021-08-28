@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AvMcusScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
 description: '[音声ビデオ会議プール] ノードには、トポロジ内の音声ビデオ会議プールが一覧表示されます。以下のアクションを実行できます。'
-ms.openlocfilehash: c2ab9ddccf2b9187899f618b930b350f623dfb1fbb80bf76f797b65fef8223d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20e3ed5c9e505907e7c4dc73c2c87a46b73aa956
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298287"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612416"
 ---
 # <a name="av-mcus-scope-node"></a>AV MCU のスコープ ノード
  

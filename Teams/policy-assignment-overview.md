@@ -1,5 +1,5 @@
 ---
-title: ポリシーを割り当てるTeams
+title: Teams でポリシーを割り当Teams
 author: KarliStites
 ms.author: kastites
 manager: serdars
@@ -12,20 +12,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: グループ内のユーザーとグループにポリシーとポリシー パッケージを割り当てるさまざまな方法についてMicrosoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 9d0f82ab377b1c09f60db7f953c1016f396b2e706417f0f7acb17903ad83c8bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fb85ae05925a44db75ed63ada899c6fca92cbceb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329002"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621989"
 ---
-# <a name="assign-policies-in-teams--getting-started"></a>Teamsポリシーの割り当て - 使用開始
+# <a name="assign-policies-in-teams--getting-started"></a>ポリシーの割り当Teams - 使用を開始する
 
 管理者は、ポリシーを使用して、組織のユーザーが利用できる Teams 機能を制御できます。 たとえば、ほんの一例を挙げると、通話ポリシー、会議ポリシー、メッセージ ポリシーなどがあります。
 
@@ -45,9 +45,9 @@ ms.locfileid: "54329002"
 
 ![直接割り当てられたポリシーの優先順位を示す図](media/assign-policies-example-directly-assigned.png)
 
-ユーザーに特定の種類のポリシーが直接割り当てられていない場合は、そのユーザーがメンバーになっているグループに割り当てられているポリシーが優先されます。 ユーザーが複数のグループのメンバーである場合、特定のポリシーの種類に対して最も高い ([グループ](assign-policies-users-and-groups.md#group-assignment-ranking)割り当てのランク付け) を持つポリシーが優先されます。
+ユーザーに特定の種類のポリシーが直接割り当てられていない場合は、そのユーザーがメンバーになっているグループに割り当てられているポリシーが優先されます。 ユーザーが複数のグループのメンバーである場合、特定のポリシーの種類に対して最も高い ([グループ](assign-policies-users-and-groups.md#group-assignment-ranking)割り当てランキング ) を持つポリシーが優先されます。
 
-この視覚的な例では、ユーザーの有効なポリシーは Exec Teams ポリシーと HD ポリシーです。これは、ユーザーがメンバーであり、同じポリシーの種類のポリシーも割り当てられている他のグループに対して最も高い割り当て順位を持っています。  
+この視覚的な例では、ユーザーの有効なポリシーは Exec Teams ポリシーと HD ポリシーです。このポリシーは、ユーザーがメンバーであり、同じポリシーの種類のポリシーも割り当てられている他のグループに対して最も高い割り当て順位を持っています。  
 
 ![グループから継承されたポリシーの優先順位を示す図](media/assign-policies-example-group.png)
 
@@ -61,7 +61,7 @@ ms.locfileid: "54329002"
 
 これは、ユーザーにポリシーを割り当てる方法と、それぞれに推奨されるシナリオの概要です。 詳細については、リンクを選択してください。
 
-個々のユーザーまたはグループにポリシーを割り当てる前に、[グローバルな （組織全体の既定の） ポリシーを設定して](#set-the-global-policies)、それらが組織内の最大数のユーザーに適用されるようにします。  グローバル ポリシーを設定した後は、特殊なポリシーを必要とするユーザーにポリシーを割り当てる必要があります。
+個々のユーザーまたはグループにポリシーを割り当てる前に、[グローバルな （組織全体の既定の） ポリシーを設定して](#set-the-global-policies)、それらが組織内の最大数のユーザーに適用されるようにします。  グローバル ポリシーが設定された後は、特殊なポリシーを必要とするユーザーにポリシーを割り当てる必要があります。
 
 |操作  |条件...  | 使用する技術...
 |---------|---------|----|
@@ -120,7 +120,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ## <a name="view-your-policy-assignments-in-the-activity-log"></a>アクティビティ ログでポリシーの割り当てを表示する
 
-Microsoft Teams 管理センターでユーザーにポリシーを割り当てると、それらのポリシー割り当ての状態をアクティビティ ログに表示できます。 アクティビティ ログには、過去 30 日間の Microsoft Teams 管理センターを通じて、20 人を超えるユーザーのバッチへのポリシー割り当てが表示されます。 アクティビティ ログには、ポリシー パッケージの割り当て、Microsoft Teams 管理センターを通じて 20 人未満のユーザーのバッチに対するポリシーの割り当て、または PowerShell を使用したポリシー割り当てが表示される点に気を付けます。
+Microsoft Teams 管理センターでユーザーにポリシーを割り当てると、それらのポリシー割り当ての状態をアクティビティ ログに表示できます。 アクティビティ ログには、過去 30 日間の Microsoft Teams 管理センターを通じて、20 人を超えるユーザーのバッチへのポリシー割り当てが表示されます。 アクティビティ ログには、ポリシー パッケージの割り当て、Microsoft Teams 管理センターを通じて 20 人未満のユーザーのバッチに対するポリシーの割り当て、または PowerShell を使用したポリシーの割り当ては表示されます。
 
 ![[アクティビティ ログ] ページのスクリーンショット](media/activity-log.png)
 
@@ -128,7 +128,7 @@ Microsoft Teams 管理センターでユーザーにポリシーを割り当て�
 
 アクティビティ ログでポリシーの割り当てを表示するには:
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams ダッシュボード に移動し、[アクティビティログ] で[詳細の表示]**を選択します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teamsダッシュボード] に移動し、[アクティビティログ] で[詳細の表示]**を選択します**。
 2. すべてのポリシー割り当てを表示したり、状態で一覧をフィルター処理して、[開始していない]、[進行中]、または [完了] の割り当てのみを **表示することができます**。 各課題に関する次の情報が表示されます。
     - **[** 名前]: ポリシー割り当ての名前。 リンクをクリックすると、詳細が表示されます。 これには、ポリシーが割り当てられたユーザーの数と、完了した割り当て、進行中、開始されていない割り当ての数が含まれます。 バッチ内のユーザーの一覧と、各ユーザーの状態と結果も表示されます。 以下は、実行例です。
 
@@ -140,9 +140,9 @@ Microsoft Teams 管理センターでユーザーにポリシーを割り当て�
     - **全体の状態**: ポリシー割り当ての状態。
 
 > [!NOTE]
-> [ユーザー] ページからアクティビティ ログに **アクセス** することもできます。 [適用] **を** クリックして一括ポリシーの割り当てを送信すると、ページの上部にバナーが表示されます。 バナーの **[アクティビティ ログ** ] リンクをクリックします。
+> [ユーザー] ページからアクティビティ ログに **アクセス** することもできます。 [適用] **をクリック** して一括ポリシーの割り当てを送信すると、ページの上部にバナーが表示されます。 バナーの **[アクティビティ ログ** ] リンクをクリックします。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [ユーザーとグループにポリシーを割り当てる](assign-policies-users-and-groups.md)
 - [ユーザーとグループにポリシー パッケージを割り当てる](assign-policy-packages.md)

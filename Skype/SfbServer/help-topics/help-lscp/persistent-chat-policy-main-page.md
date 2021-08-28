@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatPolicyMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: 常設チャット グループの [常設チャット ポリシー] ページを使用して、既定のグローバル ポリシーの構成、展開用の 1 つ以上の追加のユーザー ポリシーとサイト ポリシーの作成など、グローバル、プール、サイト、またはユーザー レベルでポリシーを管理できます。 ユーザーがポリシーによって常設チャット サーバーを有効にしている場合、常設チャット サーバー環境がクライアントに表示されます。
-ms.openlocfilehash: c540ba5a21ddac731e3d68814421bcd80a205a3700e95e48b926add490a8baab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53717b18088bf8ddcd4317e4e1f3d72e24859f96
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328332"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595781"
 ---
 # <a name="persistent-chat-policy-main-page"></a>常設チャット ポリシー メイン ページ
  

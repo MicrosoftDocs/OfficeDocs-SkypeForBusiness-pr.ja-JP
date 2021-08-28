@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b009df76-9c22-471d-b57a-bda009a98261
 description: このセクションでは、ユーザーが使用するスキーマ属性Skype for Business Server。 属性に関連付けられているクラスについては、「スキーマ属性」を参照Skype for Business Server。
-ms.openlocfilehash: c49440309ced9b4b6977412f95cca111b423a82b86deb259a85ede3d5c15afda
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b09b55abadb6fe234f88b11962e77d0d5d374ba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297084"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636021"
 ---
 # <a name="schema-attributes-and-descriptions-in-skype-for-business-server"></a>スキーマの属性と説明 (Skype for Business Server
  

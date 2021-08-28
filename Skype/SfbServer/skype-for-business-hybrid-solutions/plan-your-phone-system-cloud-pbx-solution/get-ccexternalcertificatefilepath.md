@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: このGet-CcExternalCertificateFilePathは、展開の外部証明書ファイル パスをSkype for Business クラウド コネクタ エディションします。 ユーザーは、この証明書を準備します。
-ms.openlocfilehash: 3f0a3bc761beb1a2aa1c88bfabf509e4aef17b012f52e04be1ec5944df73ba9c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b06958d68d73bc68fc0fda4e681af2e7b9b4f9e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315383"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622039"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -57,9 +57,9 @@ Get-CcExternalCertificateFilePath -Target MediationServer
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
-|Target  <br/> |省略可  <br/> | System.Management.Automation.SwitchParameter <br/> |要求されたファイル パスの種類。 型には、次のものが含まれます。  <br/> EdgeServer (既定)  <br/> MediationServer  <br/> |
+|対象  <br/> |省略可  <br/> | System.Management.Automation.SwitchParameter <br/> |要求されたファイル パスの種類。 型には、次のものが含まれます。  <br/> EdgeServer (既定)  <br/> MediationServer  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>
