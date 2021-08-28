@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: '概要: クライアントビデオの要件を確認し、クライアントビデオのSkype for Business Server。'
-ms.openlocfilehash: 895345ddee8ac17338977bdb161172bf975de343d7d86be1a053ccac8f4f0e7f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: efd1bfe80f770b62e974fe598d791d7b179a8b48
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606106"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business クライアントのビデオ解像度
  

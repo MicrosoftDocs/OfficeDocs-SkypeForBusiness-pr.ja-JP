@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: ダイレクト ルーティングと強化された緊急サービスのルーティングLocation-Based構成する必要があるネットワーク設定について説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 54739ca0f5b1d7191df326ca75f4e868c5e1e65251ebe3c81800fe425a4f5a1e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 425f453e5e1b7f90b1486aa35d09f7919e0c33b4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331059"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580221"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Microsoft Teams のクラウド音声機能のネットワーク設定
 
 ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネット、信頼済み IP アドレスについて学習します。 これらの用語と概念は、直接ルーティングと動的緊急通話のための場所ベースのルーティングに関するクラウド[音声ドキュメント](location-based-routing-plan.md)[全体で使用されます](configure-dynamic-emergency-calling.md)。 組織でこれらのクラウド機能をデプロイする場合は、これらの機能で使用するネットワーク設定を構成する必要Microsoft Teams。
 
-この記事では、ルーティングと動的緊急通話に共通するネットワークLocation-Based概要を説明します。 デプロイするクラウド音声機能に応じて、これらの設定の一部またはすべてが構成されます。 これらの設定を構成する手順については、「クラウド機能のネットワーク トポロジを管理する」を参照[Teams。](manage-your-network-topology.md)
+この記事では、ルーティングと動的緊急通話に共通するネットワーク設定Location-Based概要を説明します。 デプロイするクラウド音声機能に応じて、これらの設定の一部またはすべてが構成されます。 これらの設定を構成する手順については、「クラウド機能のネットワーク トポロジを管理する」を[参照Teams。](manage-your-network-topology.md)
 
 > [!NOTE]
 > ネットワーク設定に関する機能固有の要件については、その機能の構成に関するトピックを参照してください。
@@ -38,7 +38,7 @@ ms.locfileid: "54331059"
 
 ネットワーク地域にはネットワーク サイトのコレクションが含まれます。 複数の地理的領域にわたってネットワークのさまざまな部分を相互接続します。 たとえば、組織にインドに多数のサイトがある場合は、"インド" をネットワーク リージョンとして指定できます。 各ネットワーク サイトは、ネットワーク リージョンに関連付けられている必要があります。
 
-同じネットワーク リージョンは、直接ルーティングLocation-Based強化された緊急サービスのルーティングによって共有されます。 1 つの機能のネットワーク リージョンを既に作成している場合は、もう一方の機能用に新しいネットワーク リージョンを作成する必要があります。
+同じネットワーク リージョンは、直接ルーティングと強化された緊急Location-Basedルーティングによって共有されます。 1 つの機能のネットワーク リージョンを既に作成している場合は、もう一方の機能用に新しいネットワーク リージョンを作成する必要があります。
 
 ## <a name="network-site"></a>ネットワーク サイト
 
@@ -63,4 +63,4 @@ ms.locfileid: "54331059"
 ユーザーの外部 IP アドレスが信頼済み IP アドレス一覧にある IP アドレスと一致しない場合、エンドポイントは不明な場所にあると分類されます。
 
 > [!Important]
-> ネットワーク構成設定の参照は、クラウド プロキシ サービスのデプロイではサポートされていません。このデプロイでは、クライアントからソース IP アドレスTeamsされます。
+> ネットワーク構成設定の参照は、クライアントからソース IP アドレスを変更するクラウド プロキシ サービスのデプロイTeamsされていません。

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ブルガリアで使用Microsoft 365 Office 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: f4af8db306667f2ba103fa1ce52bb837439db7a8364cb154ac60315ef8cdf6cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: ブルガリアで使用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
+ms.openlocfilehash: 7c810114ab56a6b32f1b467597f9f608c5d464ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310785"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580191"
 ---
 # <a name="availability-in-bulgaria"></a>ブルガリアでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ブルガリアで使用Microsoft 365 Office 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+ブルガリアで使用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 

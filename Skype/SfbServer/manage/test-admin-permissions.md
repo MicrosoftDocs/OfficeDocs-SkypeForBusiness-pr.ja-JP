@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 管理者のアクセス許可をテストするSkype for Business Server
-ms.openlocfilehash: 7dd9e1b95df35cb363617690cb9667c1a16ef904
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 08721b556de6e7b162eb76fbed953dae422b33b7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580561"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>管理者のアクセス許可をテストSkype for Business Server
 
@@ -52,15 +52,15 @@ RTCUniversalUserAdmins グループのメンバーにのみアクセス許可を
 
 必要なアクセス許可が既に設定されている場合、Test-CsOUPermission応答が返されます。
 
-True
+正解
 
-必要なアクセス許可が設定されていない場合、Test-CsOUPermission False が返されます。 この値を見つけるには、しばらく検索する必要がある場合があります。 通常、いくつかの付随する警告の内部に埋め込む必要があります。 例:
+必要なアクセス許可が設定されていない場合、Test-CsOUPermission False が返されます。 この値を見つけるには、しばらく検索する必要がある場合があります。 通常、いくつかの付随する警告の内部に埋め込む必要があります。 次に例を示します。
 
 警告: アクセス制御エントリ (ACE) atl-cs-001\RTCUniversalUserReadOnlyGroup;allow;ReadProperty;ContainerInherit;Descendents;bf967aba-0de6-11d0-00aa003049e2;d819615a-3b9b-4738-b47e-f1bd8ee3aea4 
 
 警告: オブジェクト "OU=NorthAmerica,DC=atl-cs-001\DC=litwareinc,DC=com" のアクセス制御エントリ (ACEs) は準備ができていません。 
 
-False 
+不正解 
 
 警告: "Test-CsOUPermission" 処理が完了し、警告が表示されました。 "2" 警告は、この実行時に記録されました。 
 

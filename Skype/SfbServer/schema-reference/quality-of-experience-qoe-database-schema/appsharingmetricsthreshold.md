@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: AppSharingMetricsThreshold テーブルには、アプリケーション共有で使用される QoE (Quality of Experience) 指標の最適な値と許容される値が含まれます。これらのしきい値は、アプリケーション共有のエクスペリエンスを不良として分類する必要があるかどうかを判断するために使用されます。
-ms.openlocfilehash: c3ee6c9742935cf7fc076c809a7aa3e09706391a58a6b1cc8025f5c5044dc5d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 624016a7c98a32859edbdd849b8f1a85f76e8abb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344596"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628539"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>AppSharingMetricsThreshold テーブル
  
@@ -28,13 +28,13 @@ AppSharingMetricsThreshold テーブルには、アプリケーション共有�
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**CallType** <br/> |整数  <br/> |Primary  <br/> |行われた通話の種類です。  <br/> |
-|**AppliedBandwidthLimitOptimal** <br/> |整数  <br/> ||アプリケーション共有の最善の帯域幅制限です。既定値は 1000000 です。  <br/> |
-|**AppliedBandwidthLimitAcceptable** <br/> |整数  <br/> ||アプリケーション共有の許容される帯域幅制限です。既定値は 500000 です。  <br/> |
+|**CallType** <br/> |int  <br/> |Primary  <br/> |行われた通話の種類です。  <br/> |
+|**AppliedBandwidthLimitOptimal** <br/> |int  <br/> ||アプリケーション共有の最善の帯域幅制限です。既定値は 1000000 です。  <br/> |
+|**AppliedBandwidthLimitAcceptable** <br/> |int  <br/> ||アプリケーション共有の許容される帯域幅制限です。既定値は 500000 です。  <br/> |
 |**SpoiledTilePercentTotalOptimal** <br/> |decimal(5,2)  <br/> ||アプリケーション共有の品質を分類するための"台無し" タイルの最適な割合。 この値は、ビューアーに到達しなかった共有者からのコンテンツのパーセンテージです。 コンテンツは、共有者がグラフィックス ソースからタイルを破棄すると、または ASMCU タイルが共有者からタイルを破棄すると、破棄される (スポイルされる) 可能性があります。 既定値は 11 パーセントです。  <br/> |
 |**SpoiledTilePercentTotalAcceptable** <br/> |decimal(5,2)  <br/> ||アプリケーション共有の品質を分類するための "台無し" タイルの許容割合。 この値は、ビューアーに到達しなかった共有者からのコンテンツのパーセンテージです。 コンテンツは、共有者がグラフィックス ソースからタイルを破棄すると、または ASMCU タイルが共有者からタイルを破棄すると、破棄される (スポイルされる) 可能性があります。 既定値は 36 パーセントです。  <br/> |
-|**JitterInterArrivalOptimal** <br/> |整数  <br/> ||この列は、Microsoft Lync Server 2013 では使用されません。  <br/> |
-|**ジッターInterArrivalAcceptable** <br/> |整数  <br/> ||この列は、Microsoft Lync Server 2013 では使用されません。  <br/> |
+|**JitterInterArrivalOptimal** <br/> |int  <br/> ||この列は、Microsoft Lync Server 2013 では使用されません。  <br/> |
+|**ジッターInterArrivalAcceptable** <br/> |int  <br/> ||この列は、Microsoft Lync Server 2013 では使用されません。  <br/> |
 |**RelativeOneWayBurstDensityOptimal** <br/> |浮動小数点数  <br/> ||この列は、Microsoft Lync Server 2013 では使用されません。  <br/> |
 |**RelativeOneWayBurstDensityAcceptable** <br/> |浮動小数点数  <br/> ||この列は、Microsoft Lync Server 2013 では使用されません。  <br/> |
 |**RDPTileProcessingLatencyBurstDensityOptimal** <br/> |浮動小数点数  <br/> ||この列は、Microsoft Lync Server 2013 では使用されません。  <br/> |

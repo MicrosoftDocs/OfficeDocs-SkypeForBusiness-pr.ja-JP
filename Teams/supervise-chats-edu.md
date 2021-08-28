@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 会議の監視ありチャットについて説明します。
-ms.openlocfilehash: 6962d38eb30a8f94893667d269f35ebe8e251a3df8896d574b2236ca29c91a09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 439c62b4993b68ba0c17f83857ad74034fdcd0c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318251"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629199"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Microsoft Teams の監視ありチャット
 

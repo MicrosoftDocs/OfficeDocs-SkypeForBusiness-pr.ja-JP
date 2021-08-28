@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: このSwitch-CcVersionコマンドレットは、実行中のアプライアンスを切断し、新しく展開されたアプライアンスまたはバックアップ アプライアンスに切り替します。
-ms.openlocfilehash: 1558f34d2388dc75bf4398ba15fc09cd36c439e2d70a39588ee697bc0ef04341
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b15310956f80a9269c8fb611a0f7c6c06f561e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320040"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580331"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
@@ -55,7 +55,7 @@ Switch-CcVersion -Force
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
 | Force <br/> | 省略可 <br/> |System.Management.Automation.SwitchParameter  <br/> | サービスのドレインが失敗した場合、サービスを強制的に停止します。 <br/> |
    

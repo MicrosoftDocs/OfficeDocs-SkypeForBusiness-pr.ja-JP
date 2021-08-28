@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Skype for Business UK 向け PSTN 通話プランの実践コード (ヘルプを受ける場所、苦情を提出して紛争を解決する方法など) について説明します。
-ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: afddab7205572386a616e0dcb07d00f226efda9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306568"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580201"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365での通話プラン - 英国の実践コード (英国)
 
@@ -52,7 +52,7 @@ Skype for Business は、「アイルランド、ダブリン 2、70 サー・�
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. 苦情と争議の解決
 
-お客様の満足と優れたサービスが弊社の最優先事項です。 ただし、苦情が発生した場合、弊社はお客様が早急に問題を解決できるように努めます。 Microsoft 365 または Office 365 の通話プラン - 英国[(英国)](complaint-handling-code-for-the-united-kingdom-u-k.md)の苦情処理コードに関するページでは、小規模企業が弊社に苦情を申し立て、独立した紛争解決スキームについて詳しい手順を説明しています。
+お客様の満足と優れたサービスが弊社の最優先事項です。 ただし、苦情が発生した場合、弊社はお客様が早急に問題を解決できるように努めます。 Microsoft 365 または Office 365 の通話プラン - 英国[(英国)](complaint-handling-code-for-the-united-kingdom-u-k.md)の苦情処理コードに関するページでは、小規模企業が苦情を申し立てる手順と、独立した紛争解決スキームについて詳しい説明をしています。
   
 ## <a name="4-number-porting"></a>4. 番号ポータビリティ
 
@@ -64,9 +64,9 @@ Microsoft 365またはOffice 365通話プランは、ブロードバンド接続
 
 ## <a name="6-emergency-calls"></a>6. 緊急通話
 
-Skype for Business では、999/112 公共緊急通話サービスを、イングランド、ウェールズ、スコットランド、北アイルランドのお客様に提供します。 ただし、999 または 112 への緊急通話は、Microsoft 365 または Office 365 通話プラン サービスと従来の電話サービスとは異なります。 お客様は、通話プラン サービスの各ユーザー Microsoft 365またはOffice 365について通知する必要があります。
+Skype for Business では、999/112 公共緊急通話サービスを、イングランド、ウェールズ、スコットランド、北アイルランドのお客様に提供します。 ただし、999 または 112 への緊急通話は、Microsoft 365 または Office 365 通話プラン サービスと従来の電話サービスとは異なります。 お客様は、通話プランサービスの各ユーザー Microsoft 365またはOffice 365これらの違いを通知する必要があります。
 
-違いは次のとおりです。(i) Skype for Business は発信者の実際の場所を知らない可能性があります。その結果、緊急サービスが間違った場所に移動される可能性があります。(ii) Skype for Business ユーザーが緊急通話にダイヤルすると、オペレーターから、緊急通話の適切なルーティングと緊急サービスの取り出しを支援するために、現在の場所を提供する必要がある場合があります。(iii) ユーザーのデバイスに電源がない場合、停電が発生している場合、または何らかの理由でインターネットにアクセスできない場合、ユーザーは Microsoft 365 または Office 365 通話プラン サービスを通じて緊急通話を発信することはできません。(iv) Microsoft 365 および Office 365 通話プラン サービスは、インターネット接続が利用できる世界中のどこでも使用できます。ただし、通話は適切な緊急サービスにルーティングされない可能性が高いので、ユーザーは、英国、ウェールズ、スコットランド、北アイルランド以外の 999 または 112 に電話をかけるべきではありません。
+違いは次のとおりです。(i) Skype for Business は発信者の実際の場所を知らない可能性があります。その結果、緊急サービスが間違った場所に移動される可能性があります。(ii) Skype for Business ユーザーが緊急通話にダイヤルすると、オペレーターから、緊急通話の適切なルーティングと緊急サービスの取り出しを支援する現在の場所を提供する必要がある場合があります。(iii) ユーザーのデバイスに電源がない場合、停電が発生している場合、または何らかの理由でインターネットにアクセスできない場合、ユーザーは Microsoft 365 または Office 365 通話プラン サービスを通じて緊急通話を発信することはできません。および (iv) Microsoft 365 および Office 365 通話プラン サービスは、インターネット接続が利用できる世界中のどこでも使用できます。ただし、通話は適切な緊急サービスにルーティングされない可能性が高いので、ユーザーは、英国、ウェールズ、スコットランド、北アイルランド以外の 999 または 112 に電話をかけるべきではありません。
 
 緊急サービスに提供できるように、各お客様がユーザーの場所を登録し、この情報を最新に保っておくことは非常に重要です。場所情報は、Skype for Business 管理者ポータルからオンラインで変更できます。
 

@@ -11,7 +11,7 @@ ms.service: msteams
 description: クラウドの自動応答および通話キューについて説明し、Teams 内でこれらの呼び出しに応答する方法について説明します。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7b9510b3e7c31005c2ec75d6358c1f911daba752298b726e960bf38c63e11e4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb35bc5a035c03080ce44fa19fa3ecf5a5c674a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314263"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580291"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 
@@ -60,7 +60,7 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 -    Microsoft Teams iPhone アプリ
 -    Microsoft Teams Android アプリ
 
-クライアントTeamsは、 の共同存在モードでのみサポートTeams[されます](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
+このTeamsクライアントは、 の共同存在モードでのみTeams[サポートされます](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft Teams の自動応答と通話キューのサポートを構成する
 

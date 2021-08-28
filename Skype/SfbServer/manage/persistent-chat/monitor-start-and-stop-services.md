@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: '概要: 2015 年に常設チャット サービスを開始、停止、監視するSkype for Business Serverします。'
-ms.openlocfilehash: d908468d5bf770035fae3817786f0c2fbbb06708
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 3bc40e0e338cb2ef30b417482185121b26b8cd34
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233412"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580551"
 ---
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>2015 年の常設チャット サービスの監視、開始、および停止Skype for Business Server。
  

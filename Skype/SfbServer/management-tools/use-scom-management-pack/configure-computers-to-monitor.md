@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: '概要: 監視対象の Skype for Business Server 2015 コンピューターに Operations Manager エージェント ファイルをインストールし、コンピューターを System Center プロキシとしてSystem Centerします。'
-ms.openlocfilehash: 13159da603ed0e07e8e00ff66c9db636a68bea860d69494f5212d3e3aa7f914d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbca58ff7e8cc837ce5323d24bc127a9d3ee20ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329571"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606126"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>監視するSkype for Business Serverコンピューターを構成する
 

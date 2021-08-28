@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: 常設チャット データベース スキーマは、次の表で構成されます。
-ms.openlocfilehash: bc7189eac8e8fbd42cdaa5786b82d5652c616a69ae3fc4fc180c189416a94468
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2d5accc32b01c4c854fc3603e4ec3c1dc61a115b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280940"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606036"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>常設チャット サーバーのテーブルのリスト
  
@@ -26,7 +26,7 @@ ms.locfileid: "54280940"
   
 ## <a name="active-directory-sync"></a>Active Directory 同期
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[tblADCookie](tbladcookie.md) <br/> |現在のライトウェイト ディレクトリ アクセス プロトコル (LDAP) 同期 Cookie が含まれます。 各行は、常設チャット サーバーが変更を監視している Active Directory ドメイン サービス ドメインに対応します。 (この表では、常設チャット サーバーに関連する Active Directory ドメインのみを表します。  <br/> |
 |[tblPrincipalMemberDifference](tblprincipalmemberdifference.md) <br/> |後の Active Directory 同期手順でまだ処理されていないグループ メンバーシップの変更 (追加されたメンバーと削除されたメンバーの両方) が含まれています。Active Directory Sync の最初の手順で使用される一時テーブル (tblADUpdates テーブルと共に) の 1 つです。  <br/> メンバーシップの変更が格納および処理されるのは、tblPrincipal テーブルにリストされているグループ、またはメンバーが既にここにリストされているグループについてだけです。  <br/> |
@@ -37,7 +37,7 @@ ms.locfileid: "54280940"
    
 ## <a name="principals-affiliations-nodes-scopes-and-roles"></a>プリンシパル、所属、ノード、スコープ、役割
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[tblPrincipalType](tblprincipaltype.md) <br/> |tblPrincipal テーブルの内容を分類するためのプリンシパルの種類が格納されます。このテーブルは静的です。データベース作成時に設定され、変更されません。  <br/> |
 |[tblPrincipal](tblprincipal.md) <br/> |すべてのプリンシパル (ユーザー、フォルダー、グループなど) が格納されます。 常設チャット サーバーは、これをフラットな異種リストとして処理します。 さまざまな列は、各プリンシパルの種類に基づきます。  <br/> これらのプリンシパルの大部分は、Active Directory に格納されているオブジェクトのキャッシュ コピーです。 これらの Active Directory オブジェクトのプリンシパル テーブルにキャッシュ されたコピーを作成すると、プロビジョニングと呼ばれます。  <br/> 一部のプリンシパルは他のプリンシパルよりも積極的に作成され、一部の Active Directory オブジェクトは完全に無視されます。  <br/> |
@@ -52,7 +52,7 @@ ms.locfileid: "54280940"
    
 ## <a name="invites-chats-and-other-client-support"></a>招待、チャット、および他のクライアントのサポート
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[tblPrincipalInvites](tblprincipalinvites.md) <br/> |自動招待が有効になっているすべてのノードに対する、システム内のプロビジョニングされたすべてのユーザーの招待が格納されます。  <br/> |
 |[tblChat](tblchat.md) <br/> |すべてのチャット メッセージが格納されます。  <br/> |
@@ -63,7 +63,7 @@ ms.locfileid: "54280940"
    
 ## <a name="server-support"></a>サーバーのサポート
 
-|**表**|**Description**|
+|**Table**|**説明**|
 |:-----|:-----|
 |[tblServerIdentity](tblserveridentity.md) <br/> |常設チャット サーバー プール内のアクティブ なサーバーが含まれます。  <br/> |
 |[tblAdminLock](tbladminlock.md) <br/> |管理者コマンドを実行するための管理者ロックが格納されます。ロックが解除されるたびに、tblSystemRevision テーブル内のシステム リビジョン エントリがインクリメントされます。  <br/> |
