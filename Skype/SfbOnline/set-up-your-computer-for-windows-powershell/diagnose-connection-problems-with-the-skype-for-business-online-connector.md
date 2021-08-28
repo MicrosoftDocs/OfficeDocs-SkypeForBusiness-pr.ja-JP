@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: Import-Module、コンカレント シェル、Live ID、アクセス許可エラーなど、Skype for Business Online に接続するためのリモート PowerShell セッションの作成に関するトラブルシューティングを行います。
-ms.openlocfilehash: 81b612b8b3e2ab82f0986110b2aa612fafe6402f
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 4834b06b454e621cd6c4c6ea54f55e3a7b191802
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407016"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597881"
 ---
 # <a name="diagnose-connection-problems-in-the-skype-for-business-online-connector"></a>Skype for Business Online Connector で接続の問題を診断する
 
@@ -148,7 +148,7 @@ PowerShell を使用して Skype for Business Online を管理するには、テ
 
 - **解決策**: この問題を解決する唯一の方法は、前の接続の 1 つ以上を閉じる方法です。 Skype for Business Online セッションが終了したら **、Remove-PSSession** コマンドレットを使用してそのセッションを終了することをお勧めします。 これは、この問題を防ぐのに役立ちます。  
  
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business のオンライン管理用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

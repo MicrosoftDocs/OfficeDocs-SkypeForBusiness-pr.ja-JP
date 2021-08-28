@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: 参加者とゲストを対象に、Teams設定を管理する方法について学習します。
-ms.openlocfilehash: 12b5690a39df5081960dce22a335c24673ee8780
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+description: 参加者とゲストの会議ポリシー設定をTeams設定を管理する方法について学習します。
+ms.openlocfilehash: 54a209756db16788e6f46f3b34a4367277ca8354
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365604"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635661"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 

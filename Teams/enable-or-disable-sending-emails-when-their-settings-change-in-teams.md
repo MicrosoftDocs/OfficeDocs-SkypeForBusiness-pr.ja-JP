@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'ピン留め変更や既定の電話会議番号の変更などの設定Skypeを有効または無効にして、ユーザーにメールを送信する方法について説明Microsoft Teams。 '
-ms.openlocfilehash: 014159ea88d68b38a138e530e6d9200d4936d728ead4694e6aac352e92f10dfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'ピン留めなどの設定が変更された場合や、Skype で既定の会議番号が変更された場合に、ユーザーにメールを送信Microsoft Teams。 '
+ms.openlocfilehash: 3d9284d78c20b65c3474475a91e041600c232049
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329132"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635701"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 
-電話会議が有効になると、ユーザーに電子メールで自動的に通知されます。 ただし、ユーザーに送信されるメールの数を減らしたい場合Microsoft Teamsがあります。 このような場合は、メールの送信を無効にできます。
+電話会議が有効になると、ユーザーには電子メールで自動的に通知されます。 ただし、ユーザーに送信されるメールの数を減らしたい場合Microsoft Teamsがあります。 このような場合は、メールの送信を無効にできます。
   
-メールの送信を無効にした場合、電話会議メールはユーザーに送信されません。たとえば、ユーザーが電話会議に対して有効または無効になっているとき、PIN がリセットされた場合、電話会議 ID と既定の会議電話番号が変更された場合のメールも含めて送信されません。
+メールの送信を無効にした場合、電話会議メールはユーザーに送信されません。たとえば、ユーザーが電話会議を有効または無効にした場合、PIN がリセットされた場合、電話会議 ID と既定の会議電話番号が変更された場合のメールが含されます。
   
 電話会議が有効になっているユーザーに送信されるメールの例を次に示します。
   
@@ -75,7 +75,7 @@ ms.locfileid: "54329132"
 
 **Windows PowerShell を使用する**
   
-PowerShell モジュールの Microsoft Teams使用して、次のコマンドを実行できます。
+PowerShell モジュールの Microsoft Teamsを使用して、次のコマンドを実行できます。
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
@@ -88,7 +88,7 @@ Windows PowerShell を使用して、次を実行することもできます。[
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365またはOffice 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

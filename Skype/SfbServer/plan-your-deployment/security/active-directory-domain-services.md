@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory ドメイン サービスは、Windows Server 2003、Windows Server 2008、Windows Server 2012、および R2 ネットワークWindows Server 2012サービスとして機能します。 Active Directory ドメイン サービスは、セキュリティ インフラストラクチャを構築する基盤Skype for Business Server機能します。 このセクションの目的は、ユーザーが Active Directory ドメイン Skype for Business Serverを使用して IM、Web 会議、メディア、および音声の信頼できる環境を作成する方法を説明します。 Active Directory ドメイン サービス用の環境の準備の詳細については、「展開」のドキュメントSkype for Business Serverを参照してください。 Windows Server のネットワークにおける Active Directory ドメイン サービスの役割の詳細については、お使いのバージョンのオペレーティング システムのドキュメントを参照してください。
-ms.openlocfilehash: 8044e79be38300c39790aeae3bd0ece9105f9a145e1185cef2980297674c16f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346398"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604656"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Active Directory ドメイン サービス for Skype for Business Server
  

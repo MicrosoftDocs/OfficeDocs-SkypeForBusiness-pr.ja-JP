@@ -16,23 +16,23 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: ユーザーのボイスメール ポリシーを管理します。
-ms.openlocfilehash: 112a2ac98ee22c46cb78c579ead947f70a1d6d447ac81ace3aef224304a281dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 275c67cef3a318d15f030f26aa50a74a15748c03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342971"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604426"
 ---
 # <a name="setting-voicemail-policies-in-your-organization"></a>組織内のボイスメール ポリシーの設定
 
 > [!WARNING]
-> 顧客Skype for Business、通話ポリシーを通じてボイスメールを無効Microsoft Teams、ユーザーのボイスメール サービスを無効Skype for Businessがあります。
+> 顧客Skype for Business、通話ポリシーを使用してボイスメールを無効Microsoft Teams、ユーザーのボイスメール サービスを無効Skype for Businessがあります。
 
 ## <a name="voicemail-organization-defaults-for-all-users"></a>すべてのユーザーのボイスメール組織の既定値
 - ボイスメールのトランスクリプションが有効になっています。
@@ -111,7 +111,7 @@ Set-CsOnlineVoicemailPolicy -MaximumRecordingLength ([TimeSpan]::FromSeconds(60)
 
 ## <a name="dual-language-system-prompts-for-your-organization"></a>組織の二重言語システムプロンプト
 
-既定では、ボイスメール システムのプロンプトは、ボイスメールの設定時にユーザーが選択した言語で発信者に表示されます。 2 つの言語でボイスメール システムプロンプトを表示するビジネス要件がある場合は [、Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy)を使用して行います。 第 1 言語と第 2 言語を設定する必要があります。同じではない可能性があります。 これを行う場合は、次を実行します。
+既定では、ボイスメール システムのプロンプトは、ボイスメールの設定時にユーザーが選択した言語で発信者に表示されます。 2 つの言語でボイスメール システムプロンプトを表示するビジネス要件がある場合は [、Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy)を使用してこれを行います。 第 1 言語と第 2 言語を設定する必要があります。同じではない可能性があります。 これを行う場合は、次を実行します。
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES

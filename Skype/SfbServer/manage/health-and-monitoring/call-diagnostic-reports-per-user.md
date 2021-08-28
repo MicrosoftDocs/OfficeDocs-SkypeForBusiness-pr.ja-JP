@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: '概要: ユーザーごとの通話診断レポートについて説明します。Skype for Business Server。'
-ms.openlocfilehash: b04050b2d2efb94781d310983083c2c3b8e86c30965a3467cc5fcabfc2aa00fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c8caf074022514cca1792cedf60f77fae0506dfb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280970"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623669"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>ユーザーごとの診断レポートの呼び出し (Skype for Business Server
   
@@ -37,7 +37,7 @@ ms.locfileid: "54280970"
 
 - **Ken** nedy@litwareinc.com
 
-Ken Myer の情報だけが返されるようにするには、検索ボックスに完全な URI (Ken.Myer@litwareinc.com) を入力するか、または固有のユーザーを組織内の他のユーザーと区別するために Ken の URI を少しでも多く入力します。 たとえば、次のようにします。
+Ken Myer の情報だけが返されるようにするには、検索ボックスに完全な URI (Ken.Myer@litwareinc.com) を入力するか、または固有のユーザーを組織内の他のユーザーと区別するために Ken の URI を少しでも多く入力します。例:
 
 Ken.my
 

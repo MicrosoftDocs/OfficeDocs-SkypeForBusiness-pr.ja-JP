@@ -13,22 +13,22 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams for Education ポリシー ウィザードを使用して、学生や教育者向けのポリシーを簡単に適用して、学習環境を安全に保つ方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: 5e046e108f899f95e76df8c03d5fd6d25de4a942
-ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
+ms.openlocfilehash: d7e2959b5b824d8b053d9b912d0450c2209b4b1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386686"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604596"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>セキュリティ ポリシー ウィザードMicrosoft Teams for Education使用して、安全な学習環境にポリシーを簡単に適用する
 
 ## <a name="overview"></a>概要
 
-このMicrosoft Teams for Education ウィザードを使用すると、学生と教師のポリシーの管理が簡略化されます。 安全で生産的な学習エクスペリエンスの作成に関連する最も重要なポリシー セットを簡単かつ迅速に適用するために使用します。
+[Microsoft Teams for Education ウィザードを使用すると、学生と教師のポリシーの管理が簡略化されます。 安全で生産的な学習エクスペリエンスの作成に関連する最も重要なポリシー セットを簡単かつ迅速に適用するために使用します。
 
 ポリシーを使用Teams環境でのTeamsの動作と、ユーザーが使用できる機能を制御できます。 たとえば、通話ポリシー、会議ポリシー、メッセージング ポリシーなど、いくつかの名前を付けることができます。各ポリシー領域は、組織のニーズに合わせてカスタマイズできます。
 
@@ -73,7 +73,7 @@ ms.locfileid: "58386686"
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="ダッシュボードのウィザードのスクリーンショット":::
 
-2. 教育機関の種類 ([プライマリ] または [**セカンダリ** ] または [ **高** 等教育]) を選択し、[次へ] を **選択します**。
+2. 教育機関の種類 ([プライマリ] または [**セカンダリ** ] または **[高** 等教育]) を選択し、[次へ] を **選択します**。
 
     :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="教育機関の種類を選択するウィザードのページのスクリーンショット":::
 
@@ -97,9 +97,9 @@ ms.locfileid: "58386686"
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>手順 1: ウィザードによって適用されたポリシーと競合する既存のポリシー割り当てを削除する
 
 > [!IMPORTANT]
-> **ウィザードを実行する前に、** 学生または教師およびスタッフに割り当てられている既存のポリシーがある場合にのみ、この手順を実行します。 Teams を初めとして、ウィザードによって作成されたポリシー以外の既存のポリシーを持ってない場合は、これをスキップして手順 2 に進みます。
+> **ウィザードを実行する前に、** 学生または教師とスタッフに割り当てられている既存のポリシーがある場合にのみ、この手順を実行します。 Teams を初めとして、ウィザードによって作成されたポリシー以外の既存のポリシーを持ってない場合は、これをスキップして手順 2 に進みます。
 
-このTeams、特定のポリシー領域について、次の方法でポリシーをユーザーに適用できます。
+このTeams、特定のポリシー領域に対して、次の方法でポリシーをユーザーに適用できます。
 
 - ユーザーへの直接割り当て
 - ユーザーがメンバーであるグループへの割り当て
@@ -131,7 +131,7 @@ ms.locfileid: "58386686"
 
 ウィザードは、これらのポリシーを自動的に [調整して適用します](#policies-applied-by-the-wizard)。 安全を保つには、機関のニーズに基づいて実行する必要がある追加の対策がいくつかある場合があります。
 
-その[他の安全に関する推奨事項については](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)、「Teamsを使用しながら学生を安全に保つ」を参照してください。
+その[他の安全に関する推奨事項については、「Teamsを使用](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)しながら学生を安全に保つ」を参照してください。
 
 <a name="polwiz_mc"> </a>
 
@@ -139,7 +139,7 @@ ms.locfileid: "58386686"
 
 現時点では、ウィザードを実行すると、推奨されるポリシーが適用されます。 Teams で新しいポリシーが使用可能になると、学生の安全のためのグローバル (組織全体の既定) 設定がウィザードによって自動的に更新されます。 
 
-ただし、メッセージ[](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)センター (Microsoft 365 管理センター) を頻繁にチェックして、新しい機能とそのポリシーとポリシー設定を最新の情報にTeams。 
+ただし、メッセージ[](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)センター (Microsoft 365 管理センター) を頻繁にチェックして、新機能とそのポリシーとポリシー設定を最新の情報にTeams。 
 
 ## <a name="make-changes-in-the-wizard"></a>ウィザードで変更を行う
 
@@ -300,7 +300,7 @@ ms.locfileid: "58386686"
 |ライブ イベント ポリシー  |       |スケジュールを許可         |オン         |オン|
 |  |       |出席者の議事録作成を許可する          |オン       |オン|
 |  |       |スケジュールされたライブ イベントに参加できるユーザー        |組織内のすべてのユーザー        |組織内のすべてのユーザー|
-|  |       |Whoを記録できる         |常に記録する         |常に記録する|
+|  |       |Whoイベントを記録できる         |常に記録する         |常に記録する|
 |メッセージング ポリシー  |       |所有者が送信したメッセージを削除できます         |オン|オン|
 |  |       |送信済みメッセージを削除する         |オン         |オン|
 |  |       |送信済みメッセージを編集する         |オン         |オン|
@@ -329,7 +329,7 @@ ms.locfileid: "58386686"
 
 * * *
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [教育機関向け Teams ポリシーおよびポリシー パッケージ](policy-packages-edu.md)
 - [学校の大規模なユーザーにポリシーを割り当てる](batch-group-policy-assignment-edu.md)

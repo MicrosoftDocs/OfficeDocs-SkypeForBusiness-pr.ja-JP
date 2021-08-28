@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: 復元は、レジストラー プールの高可用性と障害復旧を提供します。プライマリ レジストラーに障害が発生した場合にバックアップ レジストラーを提供することで、障害が発生したレジストラーの処理をバックアップ レジストラーが引き継ぐことができるため、ユーザーがログオンして通信することができます。プライマリ レジストラーで障害が発生したシステムによっては、機能が低下する可能性があります。
-ms.openlocfilehash: 75184413222c2de6d580b1ae088b4d65bc7e9851fd10aaaba6b303daa1a53e5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 44623d15a7f053a0982d031f8d3f153acd537a53
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329641"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623759"
 ---
 # <a name="registrar-settings-expander"></a>レジストラー設定エキスパンダー
  

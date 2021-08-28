@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: 通話品質ダッシュボードを計画する際に考慮すべき点について学習します。'
-ms.openlocfilehash: 314c0c631cda29d23accc39980da25fdad567619797d515b90f31ebff9ccd450
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e93db0e3e297de8eff81cea16fa15ff9c7dd42e0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340893"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588579"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードの計画を立Skype for Business Server 
  
@@ -204,15 +204,15 @@ CQD でのデータ処理は、次の 2 つの主要なステージに分かっ�
 
 |**マシン**|**QoE メトリックの DB サイズ**|**SQLパーティション**|**ディスクの種類**|**ストリームの数**|**初期アーカイブ プロセス**|**初期キューブ プロセス**|**後続のアーカイブ プロセス**|**後続の Cube プロセス**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|仮想マシン  <br/> |900 MB  <br/> |Single  <br/> |VHD (可変サイズ)  <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
-|仮想マシン  <br/> |9 GB  <br/> |Single  <br/> |VHD (可変サイズ)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|仮想マシン  <br/> |9 GB  <br/> |Single  <br/> |VHD (固定サイズ)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|仮想マシン  <br/> |30 GB 以上  <br/> |Single  <br/> |VHD (固定サイズ)  <br/> |10 M  <br/> |15 時間  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8 コア  <br/> |9 GB  <br/> |Single  <br/> |複数のディスク  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
+|仮想マシン  <br/> |900 MB  <br/> |シングル  <br/> |VHD (可変サイズ)  <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
+|仮想マシン  <br/> |9 GB  <br/> |シングル  <br/> |VHD (可変サイズ)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
+|仮想マシン  <br/> |9 GB  <br/> |シングル  <br/> |VHD (固定サイズ)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
+|仮想マシン  <br/> |30 GB 以上  <br/> |シングル  <br/> |VHD (固定サイズ)  <br/> |10 M  <br/> |15 時間  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
+|8 コア  <br/> |9 GB  <br/> |シングル  <br/> |複数のディスク  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
 |8 コア  <br/> |9 GB  <br/> |複数  <br/> |複数のディスク  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8 コア  <br/> |30 GB 以上  <br/> |Single  <br/> |複数のディスク  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
+|8 コア  <br/> |30 GB 以上  <br/> |シングル  <br/> |複数のディスク  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
 |8 コア  <br/> |30 GB 以上  <br/> |複数  <br/> |複数のディスク  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4 コア  <br/> |200 GB  <br/> |Single  <br/> |複数のディスク  <br/> |125 M  <br/> |6 日以上  <br/> |7 h  <br/> |2 m  <br/> |6 時間  <br/> |
+|4 コア  <br/> |200 GB  <br/> |シングル  <br/> |複数のディスク  <br/> |125 M  <br/> |6 日以上  <br/> |7 h  <br/> |2 m  <br/> |6 時間  <br/> |
 |16 コア  <br/> |500 GB  <br/> |複数  <br/> |複数のスピンドル  <br/> |250 M  <br/> |8 日間  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
    
 \*QoE Metrics データベースはそれぞれ 9 か月と 18 か月のデータを持つ必要がありますが、完全性を高めて提供されますので、これらは実際の展開では発生する必要はありません。

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: '概要: 2015 年の集中ログ サービスのシナリオ プロバイダーを構成するSkype for Business Serverします。'
-ms.openlocfilehash: 348ed9b17cfd6cbaa6ab6f02e105b268df8caccad05fa4b5f201a20b099bf71c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef1c728615d34e074ea041e261b4fc5b220e1fdd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326413"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616543"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>2015 年の集中ログ サービスのプロバイダー Skype for Business Serverする
  

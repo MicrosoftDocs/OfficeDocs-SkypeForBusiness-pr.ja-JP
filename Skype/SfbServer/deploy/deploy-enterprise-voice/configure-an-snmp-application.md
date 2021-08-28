@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: E9-1-1 で動作する SNMP アプリケーションを構成Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: cf1dcb324360f5bb85066f97300ebe97b6cf084edb7d784be0e33ae9c93d19ca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec93aa572b2acf80afa104bba3b5fd1f9573f985
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283889"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597761"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>サーバーで SNMP アプリケーションを構成Skype for Business Server
  

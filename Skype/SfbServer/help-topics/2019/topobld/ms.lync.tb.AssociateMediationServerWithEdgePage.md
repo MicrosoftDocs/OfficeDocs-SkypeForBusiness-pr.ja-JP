@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 仲介サーバーを定義するには、仲介サーバーを、フロントエンド サーバーおよびエッジ サーバーまたはプールと関連付ける設定を指定します。仲介サーバーまたはプールを、エッジ サーバーまたはエッジ サーバー プールと関連付けるには、次の操作を行います。
-ms.openlocfilehash: d4aa86e44c2ae61f9856434313cb419d52e2daa9b01ccd85d0e16b9f1906bc2e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 418715aa100cb0abdfad76c7e4482da422c4be97
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635601"
 ---
 # <a name="associate-mediation-server-with-edge"></a>仲介サーバーとエッジの関連付け
  

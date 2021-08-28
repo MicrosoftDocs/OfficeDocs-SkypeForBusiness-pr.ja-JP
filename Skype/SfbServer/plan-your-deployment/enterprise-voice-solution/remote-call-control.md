@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: リモート通話制御は、以前のバージョンの Lync Server の機能で、ユーザーは Lync Server で PBX 電話を制御できます。 このSkype for Business Serverは、Call Via Work に置き換えされています。 Skype for Business Server 2015 および今後のクライアント バージョンでは、リモート通話制御はクライアントで構成できなくなったので、使用するために削除されています。
-ms.openlocfilehash: c7b4156c90810206824d922af17b83381a64afe17a3a927825eae91445245cfa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bbe98c5aa6a490276f1f317ed208d936920b0c65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302371"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604736"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>リモート通話制御の計画を立Skype for Business
  
@@ -31,9 +31,9 @@ ms.locfileid: "54302371"
   
 ||**Skype for Businessクライアント UI がSkypeクライアント**|**Skype for BusinessLync UI が有効なクライアント**|**Skype for Business 2016 クライアント**|**Lync 2013 クライアント**|**Lync 2010 クライアント**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| Skype for Business Server <br/> |仕事で通話する  <br/> |1 <br/> |仕事で通話する  <br/> |1 <br/> |1 <br/> |
-| Lync Server 2013 <br/> |リモート通話制御  <br/> |リモート通話制御  <br/> |1 <br/> |リモート通話制御  <br/> |リモート通話制御  <br/> |
-| Lync Server 2010 <br/> |リモート通話制御  <br/> |リモート通話制御  <br/> |1 <br/> |リモート通話制御  <br/> |リモート通話制御  <br/> |
+| Skype for Business Server <br/> |仕事で通話する  <br/> |1  <br/> |仕事で通話する  <br/> |1  <br/> |1  <br/> |
+| Lync Server 2013 <br/> |リモート通話制御  <br/> |リモート通話制御  <br/> |1  <br/> |リモート通話制御  <br/> |リモート通話制御  <br/> |
+| Lync Server 2010 <br/> |リモート通話制御  <br/> |リモート通話制御  <br/> |1  <br/> |リモート通話制御  <br/> |リモート通話制御  <br/> |
    
 1. どちらの機能もサポートされていません。
   

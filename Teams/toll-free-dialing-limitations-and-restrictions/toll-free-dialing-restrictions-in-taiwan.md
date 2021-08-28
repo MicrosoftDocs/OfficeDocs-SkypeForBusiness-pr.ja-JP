@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 台湾の無料電話番号 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) のダイヤルについて学習します。
-ms.openlocfilehash: 80858d3fea2928239543210c2bbe8f814b4f39e42d122a34158d035bd8ab406a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ad8bb88406cb5c9e61924169ad9da00d8efb3e02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308308"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597921"
 ---
 # <a name="toll-free-dialing-restrictions-in-taiwan"></a>台湾でのフリーダイヤル制限
 

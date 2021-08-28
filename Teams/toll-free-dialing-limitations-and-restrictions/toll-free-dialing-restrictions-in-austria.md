@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: これにより、各国/地域でフリーダイヤル番号をダイヤルする方法を確認できます。 国/地域を選択すると、国固有のページが表示されます。このページには、フリーダイヤル サービスを利用できる国/地域の詳細、および制限が表示されます。 ダイヤル形式または形式には、無料電話番号にダイヤルするために、国または地域ごとに必要なアクセス コードが表示されます。
-ms.openlocfilehash: a46dffe9f4bf9cd04b0240e6bfcce52c426bf6533cb5cd5e090b441ed52bf1d8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 873077344d366b8887fa109a86cc85af267821c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297753"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604376"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>オーストリアの無料ダイヤル制限
 

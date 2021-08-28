@@ -9,18 +9,18 @@ ms.reviewer: andfried, acolonna
 search.appverid: MET150
 description: 大規模なチーム セットにコンテンツを発行するために、組織内のチーム階層を設定する方法について学習します。
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c1a08bfe63db87332035dd51b93281cc8ac0f25
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 769790029adf0e18d6201b635659a5b267e5f27c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398956"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597951"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>チーム対象の階層を設定する
 
@@ -29,7 +29,7 @@ ms.locfileid: "58398956"
 > [!IMPORTANT]
 > 最初のリリースでは、タスク アプリだけが階層型チームをサポートします。  組織にチームのターゲット階層を適用すると、タスク [アプリで](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) タスクを発行できます。 チームの他の領域にチームの階層が表示Microsoft Teams。
 
-次に示すのは、タスク アプリで階層がどのように表されるのかの例Teams。 タスク リストが作成されると、発行チームのメンバーは、タスク リストの送信 (発行) 先の受信者チームを選択できます。 チームを選択すると、発行チームは階層、属性、または両方の組み合わせでフィルター処理できます。<br>
+次に示すのは、階層がタスク アプリ内のタスク アプリでどのように表Teams。 タスク リストが作成されると、発行チームのメンバーは、タスク リストの送信 (発行) 先の受信者チームを選択できます。 チームを選択すると、発行チームは階層、属性、または両方の組み合わせでフィルター処理できます。<br>
 
 ![タスク発行のスクリーンショット](media/manage-tasks-app-publish.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "58398956"
 ## <a name="create-your-hierarchy"></a>階層を作成する
 
 > [!NOTE]
-> この記事の残りの部分では、受信者チームにタスクを発行するコンテキストでチーム階層を設定する方法について説明します。 タスク 発行が有効な場合に[表示されるタスク](./manage-tasks-app.md)アプリの概要については、「Teams で組織のタスク アプリを管理する」を参照してください。
+> この記事の残りの部分では、受信者チームにタスクを発行するコンテキストでチーム階層を設定する方法について説明します。 有効な[場合にタスク](./manage-tasks-app.md)発行が表示されるタスク アプリの概要については、「Teams で組織のタスク アプリを管理する」を参照してください。
 
 階層を定義するスキーマは、コンマ区切り値 (CSV) ファイルに基づいて作成されます。 ファイルは、次の形式UTF-8があります。 CSV ファイル内の各行は、チームの階層内の 1 つのノードに対応します。 各行には、階層内のノードに名前を付け、必要に応じてチームにリンクする情報が含まれます。また、それをサポートするアプリでチームをフィルター処理するために使用できる属性も含まれています。
 
@@ -276,9 +276,9 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 2. [**グループ ID]** 列がテーブルに表示されない場合は、テーブルの右上隅にある [列の編集] を選択し、[グループ **ID] をオンにします**。
 3. 一覧でチームを見つけ、グループ ID を見つける。
 
-スキーマ CSV ファイルの TeamId が、管理センターに表示されるグループ ID と一致Microsoft Teams確認します。
+スキーマ CSV ファイル内の TeamId が、管理センターの管理センターに表示されるグループ ID Microsoft Teams確認します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 * [組織内のタスク アプリを管理Teams](manage-tasks-app.md)
 * [Teams での PowerShell の概要](teams-powershell-overview.md)

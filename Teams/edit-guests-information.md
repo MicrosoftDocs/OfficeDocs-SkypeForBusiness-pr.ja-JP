@@ -14,17 +14,17 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: この記事では、管理者がゲストに関する情報をポータルで編集する方法Azure Active Directoryします。
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: b3168c1302c5a735aeb416702cef5a78833c2bd2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: da5e5e5a19aa36a0633c9826426cdc16fbc5e7cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604576"
 ---
 # <a name="edit-guest-information"></a>ゲスト情報を編集する
 
@@ -46,4 +46,4 @@ ms.locfileid: "58234582"
 
    ![ゲスト ユーザーの連絡先情報を編集する](media/manage-guest-contact.png)
 
-ゲストは、ポータルから編集[Azure Active Directoryすることもできます](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)。
+ゲストは、ポータル から[Azure Active Directoryすることもできます](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)。

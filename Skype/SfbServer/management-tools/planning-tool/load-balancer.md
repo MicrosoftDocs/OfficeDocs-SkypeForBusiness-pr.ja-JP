@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: フロントエンド プール、ディレクター プール、またはエッジ サーバー プールがある場合は、これらのプールの負荷分散を展開する必要があります。 ロード バランシングによって、プール内のすべてのサーバーにトラフィックが分散されます。
-ms.openlocfilehash: f2204d703c5f70a29b4bde620d5cd3c28839cb8f73a6e51568295be423c87432
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3652f1a3ee3a04b45e8b328a52168a39f396822
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343381"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616503"
 ---
 # <a name="load-balancer-planning-tool"></a>ロード バランサー計画ツール
  

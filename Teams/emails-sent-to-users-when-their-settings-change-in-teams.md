@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'ユーザーのダイヤルイン会議の設定が変更された場合に、ユーザーにメールで自動的に送信される情報Microsoft Teams。 '
-ms.openlocfilehash: 44c9cf7fc2c8d0bb4beadb7c2f124b74ddcabc868a21836690ec58f5ab9e06a4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 288df4ebe5b207d08556eee14f08eb012a87a879
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284138"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604496"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft Teams で設定を変更したときにユーザーに送信されるメール
 
@@ -36,7 +36,7 @@ ms.locfileid: "54284138"
 
 - **電話会議ライセンスが割り当てられるか、電話会議プロバイダーを Microsoft に変更するときに割り当てられます。**
 
-     このメールには、会議 ID、会議の既定の電話会議電話番号、ユーザーの電話会議 PIN、ユーザーの既存の会議を更新するために使用される Skype for Business Online 会議更新ツールを使用する手順とリンクが含まれます。 「[アドオン ライセンスMicrosoft Teams割り当てる](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」または「Microsoft を電話会議プロバイダーとして割り[当てる」を参照してください](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+     このメールには、会議 ID、会議の既定の電話会議電話番号、ユーザーの電話会議 PIN、ユーザーの既存の会議を更新するために使用される Skype for Business Online Meeting Update Tool を使用する手順とリンクが含まれます。 「[アドオン ライセンスMicrosoft Teams割り当てる](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)」または「Microsoft を電話会議プロバイダーとして割り[当てる」を参照してください](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
     > [!NOTE]
     > 組織で動的な会議 ID が有効になっている場合、スケジュールを設定したユーザーのすべての会議に固有の会議 ID が割り当てらされます。 組織で [電話会議の動的な ID を設定できます](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)。 
@@ -45,7 +45,7 @@ ms.locfileid: "54284138"
 
      ![Skype for Businessライセンスの確認](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
-    ライセンスの詳細については、「Microsoft Teams[ライセンス」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+    ライセンスの詳細については[、「Microsoft Teams」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 - **ユーザーの会議 ID または既定の電話会議電話番号が変更されます。**
 
@@ -67,7 +67,7 @@ ms.locfileid: "54284138"
 
     これは、電話会議ライセンス **が** ユーザーから削除された場合、または電話会議プロバイダーを [なし] に設定した場合に **発生します**。
 
-    「[一Microsoft 365ライセンスの割り当てまたは削除」を参照してください](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
+    「[一部のビジネス向けライセンスの割り当てMicrosoft 365削除する」を参照してください](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
 
     このメールの例を次に示します。
 
@@ -101,7 +101,7 @@ ms.locfileid: "54284138"
 
 **Windows PowerShell を使用する**
 
-PowerShell モジュールの Microsoft Teams使用して、次のコマンドを実行できます。
+PowerShell モジュールの Microsoft Teamsを使用して、次のコマンドを実行できます。
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
@@ -115,7 +115,7 @@ Windows PowerShell を使用して、次を実行することもできます。[
 
 既定では、メールの送信者は Microsoft 365 または Office 365 から送信されますが、Windows PowerShell を使用してメール アドレスと表示名を変更できます。 
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365またはOffice 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
