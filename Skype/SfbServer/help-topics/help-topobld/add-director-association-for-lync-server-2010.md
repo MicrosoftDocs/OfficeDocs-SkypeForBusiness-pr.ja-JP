@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorAssociationPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92631bb6-1bf5-4b0b-a223-ffa22d7f1fce
 description: ディレクター プールまたはディレクター プールに監視サーバーが関連付けられるかどうかを定義します。 監視サーバーをディレクター プールまたはディレクター プールに関連付ける場合は、チェック ボックスをオンにします。
-ms.openlocfilehash: 69844db8cf43c2f3a3fe11d92683a0dd83cee2503fee27f9344975bed14b1463
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d2a2583ff3cc190839d890c60ef33d5cb388dcf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319220"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630921"
 ---
 # <a name="add-director-association-for-lync-server-2010"></a>Lync Server 2010 のディレクター関連付けを追加する
  

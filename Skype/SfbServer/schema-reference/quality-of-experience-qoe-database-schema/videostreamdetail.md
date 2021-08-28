@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail ビューには、データベース内の各ビデオ ストリームに関する情報が格納されています。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 9caf8cac3c45088cde68635a46ab9ebd79b5ca3bc203f71dc2ea0fce34968e3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 465684ed4cfc857ede340d960f82d8be13031808
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279953"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609094"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail ビュー
  
@@ -27,12 +27,12 @@ VideoStreamDetail ビューには、データベース内の各ビデオ スト�
 |**列**|**データ型**|**説明**|
 |:-----|:-----|:-----|
 |SessionTime  <br/> |日付型  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
-|SessionSeq  <br/> |整数  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
+|SessionSeq  <br/> |int  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
 |MediaLineLabel  <br/> |tinyint  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
-|StreamId  <br/> |整数  <br/> |メディア ライン内の一意の ID。  <br/> |
+|StreamId  <br/> |int  <br/> |メディア ライン内の一意の ID。  <br/> |
 |StartTime  <br/> |日付型  <br/> |セッションの開始時刻。  <br/> |
 |EndTime  <br/> |日付型  <br/> |セッションの終了時刻。  <br/> |
-|CallPriority  <br/> |整数  <br/> |通話の優先順位。  <br/> |
+|CallPriority  <br/> |int  <br/> |通話の優先順位。  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |発信者プールの FQDN。  <br/> |
 |CalleePool  <br/> |nvarchar(256)  <br/> |呼び出し先プールの FQDN。  <br/> |
 |Caller  <br/> |nvarchar(450)  <br/> |呼び出し元の URI。  <br/> |
@@ -51,28 +51,28 @@ VideoStreamDetail ビューには、データベース内の各ビデオ スト�
 |CalleeCPUName  <br/> |nvarchar(128)  <br/> |呼び出し先のエンドポイントの CPU 名。  <br/> |
 |CallerCPUNumberOfCores  <br/> |smallint  <br/> |呼び出し元のエンドポイントの CPU コアの数。  <br/> |
 |CalleeCPUNumberOfCores  <br/> |smallint  <br/> |呼び出し先のエンドポイントの CPU コアの数。  <br/> |
-|CallerCPUProcessorSpeed  <br/> |整数  <br/> |呼び出し元のエンドポイントの CPU プロセッサ速度。  <br/> |
-|CalleeCPUProcessorSpeed  <br/> |整数  <br/> |呼び出し先のエンドポイントの CPU プロセッサ速度。  <br/> |
+|CallerCPUProcessorSpeed  <br/> |int  <br/> |呼び出し元のエンドポイントの CPU プロセッサ速度。  <br/> |
+|CalleeCPUProcessorSpeed  <br/> |int  <br/> |呼び出し先のエンドポイントの CPU プロセッサ速度。  <br/> |
 |CallerVirtualizationFlag  <br/> |tinyint  <br/> |呼び出し元のシステムが仮想化環境で実行されているかどうかを示します。 詳細については [、「Endpoint」テーブル](endpoint.md) を参照してください。 <br/> |
 |CalleeVirtualizationFlag  <br/> |tinyint  <br/> |呼び出し先のシステムが仮想化環境で実行されているかどうかを示します。 詳細については [、「Endpoint」テーブル](endpoint.md) を参照してください。 <br/> |
 |ConnectivityIce  <br/> |tinyint  <br/> |メディア パスに関する情報 (直接、リレーなど)。 詳細については [、MediaLine テーブル](medialine-0.md) を参照してください。 <br/> |
-|CallerIceWarningFlags  <br/> |整数  <br/> |発信者のビット フラグに記述される Interactive Connectivity Establishment (ICE) プロセスに関する情報。詳細については、「Quality of Experience Monitoring Server Protocol Specification」を参照してください。  <br/> |
-|CalleeIceWarningFlags  <br/> |整数  <br/> |呼び出し先のビット フラグに記述される Interactive Connectivity Establishment (ICE) プロセスに関する情報。詳細については、「Quality of Experience Monitoring Server Protocol Specification」を参照してください。  <br/> |
-|Transport  <br/> |整数  <br/> |トランスポートの種類。0 は UDP、1 は TCP です。  <br/> |
+|CallerIceWarningFlags  <br/> |int  <br/> |発信者のビット フラグに記述される Interactive Connectivity Establishment (ICE) プロセスに関する情報。詳細については、「Quality of Experience Monitoring Server Protocol Specification」を参照してください。  <br/> |
+|CalleeIceWarningFlags  <br/> |int  <br/> |呼び出し先のビット フラグに記述される Interactive Connectivity Establishment (ICE) プロセスに関する情報。詳細については、「Quality of Experience Monitoring Server Protocol Specification」を参照してください。  <br/> |
+|Transport  <br/> |int  <br/> |トランスポートの種類。0 は UDP、1 は TCP です。  <br/> |
 |CallerIPAddr  <br/> |var(50)  <br/> |発信者の IP アドレス。 IPv4 または IPv6 のアドレスです。  <br/> |
-|CallerPort  <br/> |整数  <br/> |発信者が使用するポート。  <br/> |
+|CallerPort  <br/> |int  <br/> |発信者が使用するポート。  <br/> |
 |CallerInside  <br/> |ビット  <br/> |発信者が組織ネットワーク内にいるかどうかを示します。1 は、発信者がエンタープライズ ネットワーク内に存在することを示し、0 は、発信者がネットワーク外に存在することを示します。  <br/> |
 |CalleeIPAddr  <br/> |var(50)  <br/> |呼び出し先の IP アドレス。 IPv4 または IPv6 のアドレスです。  <br/> |
-|CalleePort  <br/> |整数  <br/> |呼び出し先が使用するポート。  <br/> |
+|CalleePort  <br/> |int  <br/> |呼び出し先が使用するポート。  <br/> |
 |CalleeInside  <br/> |ビット  <br/> |呼び出し先が組織ネットワーク内にいるかどうかを示します。1 は、呼び出し先がエンタープライズ ネットワーク内に存在することを示し、0 は、呼び出し先がネットワーク外に存在することを示します。  <br/> |
 |CallerUserSite  <br/> |nvarchar(128)  <br/> |発信者のサイトの名前。  <br/> |
 |CallerRegion  <br/> |nvarchar(128)  <br/> |発信者のサイトの国/地域の名前。  <br/> |
 |CalleeUserSite  <br/> |nvarchar(128)  <br/> |呼び出し先のサイトの名前。  <br/> |
 |CalleeRegion  <br/> |nvarchar(128)  <br/> |呼び出し先のサイトの国/地域の名前。  <br/> |
 |CallerRelayIPAddr  <br/> |var(50)  <br/> |発信者が使用する音声ビデオ エッジ サービスの IPアドレス。 詳細については [、IPAddress テーブル](ipaddress.md) を参照してください。 <br/> |
-|CallerRelayPort  <br/> |整数  <br/> |発信者が使用する音声ビデオ エッジ サービスのポート。  <br/> |
+|CallerRelayPort  <br/> |int  <br/> |発信者が使用する音声ビデオ エッジ サービスのポート。  <br/> |
 |CalleeRelayIPAddr  <br/> |var(50)  <br/> |呼び出し先が使用する音声ビデオ エッジ サービスの IPアドレス キー。 詳細については [、IPAddress テーブル](ipaddress.md) を参照してください。 <br/> |
-|CalleeRelayPort  <br/> |整数  <br/> |呼び出し先が使用する音声ビデオ エッジ サービスのポート。  <br/> |
+|CalleeRelayPort  <br/> |int  <br/> |呼び出し先が使用する音声ビデオ エッジ サービスのポート。  <br/> |
 |CallerCaptureDev  <br/> |varchar(256)  <br/> |発信者のキャプチャ デバイス名。  <br/> |
 |CallerRenderDev  <br/> |varchar(256)  <br/> |呼び出し元のレンダリング デバイス名。  <br/> |
 |CallerCaptureDevDriver  <br/> |varchar(256)  <br/> |呼び出し元のキャプチャ デバイス ドライバー名。  <br/> |
@@ -88,25 +88,25 @@ VideoStreamDetail ビューには、データベース内の各ビデオ スト�
 |CalleeVPN  <br/> |ビット  <br/> |呼び出し先が仮想プライベート ネットワークで接続しているかどうかを示します。1 は仮想プライベート ネットワーク (VPN)、0 は非 VPN です。  <br/> |
 |CalleeLinkSpeed  <br/> |decimal(18,0)  <br/> |呼び出し先のエンドポイントのネットワーク リンク速度 (bps)。  <br/> |
 |ConversationalMOS  <br/> |decimal(3,2)  <br/> |音声セッションの Narrowband Conversational MOS (音声ストリームに基づく)。  <br/> |
-|AppliedBandwidthLimit  <br/> |整数  <br/> |さまざまなポリシー設定 (TURN、API、SDP、ポリシー サーバーなど) が構成された特定の送信側ストリームに適用される実際の帯域幅。この帯域幅を実効帯域幅と見なすことはできません。実効帯域幅は、帯域幅の評価に基づいて実際よりも低くなる可能性があります。これは基本的に、送信ストリームで利用できる最大帯域幅です (帯域幅の評価によって課せられる制限を除く)。  <br/> |
-|ジッターInterArrival  <br/> |整数  <br/> |リアルタイム制御プロトコル (RTCP) 統計情報に基づく平均ネットワーク ジッター。  <br/> |
-|ジッターInterArrivalMax  <br/> |整数  <br/> |通話時の最大ネットワーク ジッター。  <br/> |
-|RoundTrip  <br/> |整数  <br/> |RTCP 統計情報に基づく往復時間。  <br/> |
-|RoundTripMax  <br/> |整数  <br/> |音声ストリームの最大往復時間。  <br/> |
+|AppliedBandwidthLimit  <br/> |int  <br/> |さまざまなポリシー設定 (TURN、API、SDP、ポリシー サーバーなど) が構成された特定の送信側ストリームに適用される実際の帯域幅。この帯域幅を実効帯域幅と見なすことはできません。実効帯域幅は、帯域幅の評価に基づいて実際よりも低くなる可能性があります。これは基本的に、送信ストリームで利用できる最大帯域幅です (帯域幅の評価によって課せられる制限を除く)。  <br/> |
+|ジッターInterArrival  <br/> |int  <br/> |リアルタイム制御プロトコル (RTCP) 統計情報に基づく平均ネットワーク ジッター。  <br/> |
+|ジッターInterArrivalMax  <br/> |int  <br/> |通話時の最大ネットワーク ジッター。  <br/> |
+|RoundTrip  <br/> |int  <br/> |RTCP 統計情報に基づく往復時間。  <br/> |
+|RoundTripMax  <br/> |int  <br/> |音声ストリームの最大往復時間。  <br/> |
 |PacketLossRate  <br/> |decimal(5,4)  <br/> |通話時の平均パケット損失率。  <br/> |
 |PacketLossRateMax  <br/> |decimal(5,4)  <br/> |通話時に観測された最大パケット損失。  <br/> |
-|PacketUtilization  <br/> |整数  <br/> |ビデオ ストリームのパケット数 (リアルタイム転送プロトコル、RTP)。  <br/> |
-|BandwidthEst  <br/> |整数  <br/> |音声ストリームの帯域幅の推定。  <br/> |
-|PayloadDescription  <br/> |整数  <br/> |[PayloadDescription](payloaddescription.md)テーブルから参照される、呼び出しに使用されるオーディオ コーデック。  <br/> |
+|PacketUtilization  <br/> |int  <br/> |ビデオ ストリームのパケット数 (リアルタイム転送プロトコル、RTP)。  <br/> |
+|BandwidthEst  <br/> |int  <br/> |音声ストリームの帯域幅の推定。  <br/> |
+|PayloadDescription  <br/> |int  <br/> |[PayloadDescription](payloaddescription.md)テーブルから参照される、呼び出しに使用されるオーディオ コーデック。  <br/> |
 |VideoResolution  <br/> |char(9)  <br/> |幅×高さで示すビデオの解像度 (単位ピクセル)。文字列で報告されます。  <br/> |
-|VideoBitRateAvg  <br/> |整数  <br/> |ビデオ ストリームの平均ビット レート。  <br/> |
+|VideoBitRateAvg  <br/> |int  <br/> |ビデオ ストリームの平均ビット レート。  <br/> |
 |InboundVideoFrameRateAvg  <br/> |decimal(9,4)  <br/> |ビデオの受信フレーム レート。  <br/> |
 |OutboundVideoFrameRateAvg  <br/> |decimal(9,4)  <br/> |ビデオの送信フレーム レート。  <br/> |
-|ViideoBitRateMax  <br/> |整数  <br/> |ビデオ セッション時の最大ビデオ ビット レート。  <br/> |
+|ViideoBitRateMax  <br/> |int  <br/> |ビデオ セッション時の最大ビデオ ビット レート。  <br/> |
 |VideoPacketLossRate  <br/> |decimal(9,4)  <br/> |失われたビデオ パケット数の割合。  <br/> |
 |VideoFrameLossRate  <br/> |decimal(9.4)  <br/> |失われた合計ビデオ フレーム数の割合。  <br/> |
 |VideoFEC  <br/> |ビット  <br/> |不使用。  <br/> |
-|VideoAllocateBWAvg  <br/> |整数  <br/> |ビデオに割り当てられた帯域幅の平均。  <br/> |
+|VideoAllocateBWAvg  <br/> |int  <br/> |ビデオに割り当てられた帯域幅の平均。  <br/> |
 |VideoLocalFrameLossPercentageAvg  <br/> |decimal(9.4)  <br/> |失われた合計ビデオ フレーム数の割合。  <br/> |
 |SenderIsCallerPAI  <br/> |ビット  <br/> |P-Asserted Identity 情報のストリームの方向。1 は、ストリームの方向が発信者から呼び出し先へ向かうことを意味します。0 は、ストリームの方向が呼び出し先から発信者へ向かうことを意味します。  <br/> |
    

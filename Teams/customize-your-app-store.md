@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: カスタム アプリ ストアの詳細については、Microsoft Teams。
-ms.openlocfilehash: 0a068634b0f951abff0ae2f1b310cd48bdb80a5d4b790d2fdb81755d05636868
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12893fc0a424fc85b0bb72dd58da3008c2ba5085
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342991"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584661"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>カスタム アプリは、Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "54342991"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-ここで、組織のロゴをアップロードできます。 選択したロゴは、[テナント用のアプリTeamsクライアント  >  **] ページに表示** されます。
+ここで、組織のロゴをアップロードできます。 選択したロゴが、テナント用にTeams **アプリのクライアント**  >  **に表示** されます。
 
 [画像の選択 **] オプションを選択** すると、選択したファイルをアップロードできます。 ロゴは 240x60 である必要があります。または、そのサイズにスケーリングされます。 5 MB 以下にしてください。 サポートされている形式は次のとおりです。
 
@@ -52,7 +52,7 @@ ms.locfileid: "54342991"
 - .png
 - .jpg
 
-ロゴは、テナント ストアのテナント アプリ カタログの右上隅Teamsされます。
+ロゴは、テナント ストアのテナント アプリ カタログの右上隅にTeamsされます。
 
 ## <a name="customize-your-small-logo"></a>小さなロゴをカスタマイズする
 
@@ -68,7 +68,7 @@ ms.locfileid: "54342991"
 - .png
 - .jpg
 
-小さなロゴは、ストアのランディングページの [テナント用に構築Teams表示されます。
+ストアのランディング ページの **[Built for tenant]** セクション タイトルの横に小Teams表示されます。
 
 ## <a name="customize-the-background-color"></a>背景色をカスタマイズする
 
@@ -76,7 +76,7 @@ ms.locfileid: "54342991"
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-ユーザーがテキストを明確に読み取れるので、背景とテキストのコントラストが十分に高い必要があります。 バックグラウンドは、テナント ヘッダー用Teamsアプリビルドのクライアント  >  **に表示** されます。
+ユーザーがテキストを明確に読み取れるので、背景とテキストのコントラストが十分に高い必要があります。 バックグラウンドは、テナント ヘッダー用Teamsアプリ **ビルドの** クライアント  >  **に表示** されます。
 
 オプションは次のとおりです。
 
@@ -95,7 +95,7 @@ ms.locfileid: "54342991"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-ユーザーが組織の名前を明確に読み取れるので、テキストの色と背景とのコントラストが十分に高い必要があります。 テキストは、テナント ヘッダーの Teams クライアントに  >  **表示** されます。
+ユーザーが組織の名前を明確に読み取れるので、テキストの色と背景とのコントラストが十分に高い必要があります。 テキストは、テナント ヘッダー用Teams **アプリビルドの** クライアント  >  **に表示** されます。
 
 [ユーザー設定の **色の選択] を選択すると**、色の選択が開きます。 カラー 選択のスケールを調整して、目的の色を選択します。
 

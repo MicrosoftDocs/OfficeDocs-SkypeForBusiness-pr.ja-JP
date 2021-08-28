@@ -7,8 +7,8 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: この記事では、ガバナンス機能の実装を計画する方法について説明Teams。
-localization_priority: Normal
+description: この記事では、ガバナンス機能の実装を計画する方法について説明します。Teams。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f55183b114919048776b7fcb6f39ae6a084c29832652c32f87b97d258fb7f835
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96052f270bb0b4a9c5a9da94131e55abf314fbf4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293074"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631281"
 ---
 # <a name="plan-for-governance-in-teams"></a>Teams でのガバナンスを計画する
 
@@ -40,26 +40,26 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 |-        |-        |-        |
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  |判断ポイント|<ul><li>自分の組織において、チームについての特定の名前付け規則はありますか?</li><li>チーム作成者は組織固有の分類をチームに割り当てる機能を必要としていますか?</li><li>チームにゲストを追加する機能を、チーム単位で制限する必要はありますか?</li><li>自分の組織において、チームを作成可能なユーザーを制限する必要はありますか?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|次の手順|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>|次のステップ|<ul><li>チームの作成、名前付け、分類、およびゲスト アクセスについて、自分の組織の要件を文書化します。</li><li>Teams のロールアウトの一部として、これらの要件を実施する計画を立てます。</li><li>ポリシーの伝達と公開を行い、Teams ユーザーに求められる動作について通知します。</li></ul>|
 
 > [!NOTE]
 > 事前に計画を立てやすくなるために、[これらのポリシーの設定について、およびどのライセンスが必要とされるかについて確認してください](/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)。
 > 
 > [!NOTE]
-> グループとチームの作成を制限すると、ユーザーの生産性が低下する可能性があります。多くの Microsoft 365 サービスと Office 365 サービスを機能するには、グループを作成する必要があります。 詳細については、グループを作成するユーザーを制御する[理由に](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)移動して展開Microsoft 365します。
+> グループとチームの作成を制限すると、多くの Microsoft 365 サービスと Office 365 サービスが機能するためにグループを作成する必要があるため、ユーザーの生産性が低下する可能性があります。 詳細については、グループを作成するユーザーを制御する[理由に](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why)移動して展開Microsoft 365します。
 
 
 #### <a name="additional-information"></a>追加情報
 
 要件の決定後、Azure AD のコントロールを使用してその要件を実装できます。これらの設定を実装する方法に関する技術面のガイダンスは、次をご覧ください。
 
-- [Azure Active Directory設定を構成するための新しいコマンドレット](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
+- [Azure Active Directory設定を構成するためのコマンドレット](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)
 
 - [グループに名前付けポリシーを適用Microsoft 365グループAzure Active Directory](/azure/active-directory/users-groups-roles/groups-naming-policy)
 
 - [Microsoft 365グループの名前付けポリシー](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
-- [感度ラベルを使用して、Microsoft Teams、Microsoft 365、サイトのコンテンツをSharePointする](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
+- [感度ラベルを使用して、Microsoft Teams、グループ、Microsoft 365サイトのコンテンツをSharePointする](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)
 
 - [グループ、チーム、およびグループのライフサイクルのYammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)
 
@@ -77,7 +77,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 |機能 |詳細 |Azure AD Premium ライセンスが必要 |Decision |
 |---------|---------|---------|---------|
-|有効期限ポリシー |有効期限ポリシーを設定Microsoft 365グループのライフサイクルを管理します。 |P1 |TBD|
+|有効期限ポリシー |有効期限ポリシーを設定してMicrosoft 365グループのライフサイクルを管理します。 |P1 |TBD|
 |アイテム保持ポリシー |セキュリティ/コンプライアンス センター内で Teams の保持ポリシーを設定することによって特定の期間におけるデータを保持または削除します。 **注**: この機能を使用するには、E3 以上Microsoft 365またはOffice 365 Enterpriseライセンスが必要です。 |いいえ |TBD |
 |アーカイブと復元 |チームがアクティブでなくなったときにチームをアーカイブして、参照用または将来再アクティブ化するために保持します。 |いいえ |TBD |
 
@@ -103,7 +103,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 |-|-|-|
 |:-|:-|:-|
 |<img src="media/audio_conferencing_image7.png" alt= "An icon depicting decision points"/>  | 判断ポイント | 組織では、1 つ以上のチームのメンバーシップを管理するための一貫したプロセスが必要ですか? <br> 組織では、定期的に 1 つ以上のチームの継続的なメンバーシップを正当化するために、所有者またはメンバー自身が必要ですか。 <br> 組織では、チーム、グループ、サイト、アプリなどのリソースへのアクセスを要求するために、ユーザーとゲストSharePoint必要ですか。 |
-|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 次の手順 | メンバーシップの有効期限について、各チームまたは特定のチームの組織の要件を文書化します。<br>アクセス パッケージにチーム、グループ、SharePointアプリをまとめてバンドルする方法を計画します。<br>要求者のマネージャー、プロジェクト マネージャー、接続されている組織のスポンサー、組織内のセキュリティ責任者などのユーザーがアクセス要求を承認または拒否する必要があるユーザーを計画します。 |
+|<img src="media/audio_conferencing_image9.png" alt= "An icon depicting the next steps"/>| 次の手順 | メンバーシップの有効期限について、各チームまたは特定のチームの組織の要件を文書化します。<br>アクセス パッケージにチーム、グループ、SharePoint、アプリをまとめてバンドルする方法を計画します。<br>要求者のマネージャー、プロジェクト マネージャー、接続されている組織のスポンサー、組織内のセキュリティ責任者などのユーザーが、アクセス要求を承認または拒否する必要があるユーザーを計画します。 |
 
 > [!TIP]
 > 次の表を使用して、組織の要件を把握します。
@@ -114,7 +114,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 | 権利管理 | ユーザーとゲストがチームへのアクセスを要求できるアクセス パッケージを設定する | P2 | TBD |
 
 > [!NOTE]
-> 前もって計画を立てるには、必要 [なライセンスの詳細を確認してください](https://azure.microsoft.com/pricing/details/active-directory/)。
+> 計画を立てるには、必要な [ライセンスの詳細を確認してください](https://azure.microsoft.com/pricing/details/active-directory/)。
 
 ### <a name="additional-information"></a>追加情報
 
@@ -125,7 +125,7 @@ Teams には組織が必要とする可能性のあるガバナンス機能を�
 
 ## <a name="teams-feature-management"></a>Teams 機能の管理
 
-Teams でのガバナンスおよびライフサイクル管理のもう 1 つの重要な側面として、自分たちのユーザーがどの機能にアクセスするかを制御する機能があります。 メッセージング、会議、通話機能は、組織レベルまたはMicrosoft 365レベルOffice 365ユーザーごとに管理できます。
+Teams でのガバナンスおよびライフサイクル管理のもう 1 つの重要な側面として、自分たちのユーザーがどの機能にアクセスするかを制御する機能があります。 メッセージング、会議、通話機能は、Microsoft 365 または Office 365 レベルまたはユーザーごとに管理できます。
 
 
 |-        |-        |
@@ -143,10 +143,10 @@ Teams にはポリシーを介して、メッセージング、会議、通話�
 - [新しい Microsoft Teams 管理センターへの移行中に Teams を管理する](manage-teams-skypeforbusiness-admin-center.md)
 - [Microsoft Teams のプライベート チャネル](private-channels.md)
 - [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)
-- [Teams でメッセージング ポリシーを管理する](messaging-policies-in-teams.md)
+- [Teams のメッセージング ポリシーを管理する](messaging-policies-in-teams.md)
 - [管理センターでアプリMicrosoft Teams管理する](manage-apps.md)
 
-さらに、チャネルのモデレーションを設定し、特定のユーザーにモデレーター機能を提供して、チャネル投稿を作成してそれに応答できるユーザーを制御できます。 詳細[については、「Microsoft Teams でのチャネル モデレーションの設定](manage-channel-moderation-in-teams.md)と管理」を参照してください。
+さらに、チャネルのモデレーションを設定し、特定のユーザーにモデレーター機能を提供して、チャネル投稿を作成してそれに応答できるユーザーを制御できます。 詳細[については、「Microsoft Teams](manage-channel-moderation-in-teams.md)でのチャネル モデレーションの設定と管理」を参照してください。
 
 ## <a name="security-and-compliance"></a>セキュリティとコンプライアンス
 

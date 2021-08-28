@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: 組織のために設定しているすべての Skype for Business Online の機能を長期間にわたり健全で正常に使用するには、次の要件に従うことが重要です。このドキュメントは技術的な専門性に長けているユーザー向けですが、専門的な知識がないユーザーにとっても参考になります。Skype for Business Online の設定でサポートが必要な場合は、このドキュメントをお読みの上、検討する必要がある事項についてよく理解するようにしてください。このドキュメントは、Microsoft FastTrack Center、お客様の Microsoft Services とアカウント チーム、または Microsoft パートナーと連携してこれらの要件に適合できる方法を見つけ出すときに検討が必要な内容も記載しています。
-ms.openlocfilehash: 048efdec25b1a84221adb6e765d21918e48c109c2e18ab8f501bae757348c792
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c4af624a59e0606b3ee5f9c115ad61a65dffbd0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323659"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586025"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Skype for Business Online 向けのネットワークの最適化
 
@@ -82,21 +82,21 @@ QoS の設定と管理の詳細については、「[サービスの品質の管
 
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>プロキシと WAN 最適化デバイスをバイパスする
 
-Microsoft 365 Online をOffice 365、Skype for Businessすべてのデバイスは暗号化され、通常はプロキシ デバイスで検査できません。 これらの理由から、ユーザーが Office 365 URL と IP アドレス範囲 に対して行う接続として定義されている、すべての Microsoft 365 および Office 365 ネットワーク トラフィックに対してプロキシ デバイスをバイパスすることをお[勧めします](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 プロキシ デバイスはリアルタイムの Skype for Business Online メディア ストリームでは遅延を引き起こす可能性があるため、それらのトラフィックではプロキシ デバイスを可能な限りバイパスすることをお勧めします。
+Microsoft 365 Online をOffice 365またはSkype for Businessは暗号化され、通常はプロキシ デバイスで検査できません。 これらの理由から、ユーザーが Office 365 URL と IP アドレス範囲 に対して行う接続として定義されている、すべての Microsoft 365 および Office 365 ネットワーク トラフィックに対してプロキシ デバイスをバイパスすることをお[勧めします](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 プロキシ デバイスはリアルタイムの Skype for Business Online メディア ストリームでは遅延を引き起こす可能性があるため、それらのトラフィックではプロキシ デバイスを可能な限りバイパスすることをお勧めします。
 
-PAC ファイルを使用Microsoft 365、Office 365を使用してトラフィックをファイアウォールに送信Microsoft 365、Office 365 URL を除外Office 365推奨しています。
+MICROSOFT では、PAC Microsoft 365をOffice 365してトラフィックをファイアウォールに送信Microsoft 365、Office 365 URL を除外Office 365勧めします。
 
 次のいくつかのリソースに記載されている情報もご覧ください。
 
 - [Microsoft 365およびパフォーマンス履歴Office 365使用してパフォーマンスチューニングを行う](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
 
-- [ネットワークと移行の計画 (Microsoft 365または移行Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
+- [ネットワークと移行の計画 :Microsoft 365またはOffice 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
 
 - [Office 365 プロキシ PAC ジェネレータ](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
 
 - [WAN 最適化コントローラーまたはトラフィック/検査デバイスを使用して、Microsoft 365またはOffice 365](/office365/troubleshoot/miscellaneous/office-365-third-party-network-devices)
 
-- [ExpressRoute を使用したルーティング (Microsoft 365 または Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
+- [ExpressRoute を使用したルーティング (Microsoft 365またはOffice 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408)
 
 ## <a name="bypass-double-encryption"></a>二重暗号化をバイパスする
 
@@ -105,7 +105,7 @@ PAC ファイルを使用Microsoft 365、Office 365を使用してトラフィ�
 Skype for Business トラフィックが VPN トンネルを使用しないようにするための 1 つのオプションが分割トンネリングです。分割トンネリングを実装する場合は、お客様がお使いのソフトウェアでのその方法の詳細について、ご自身の VPN ベンダーに問い合わせる必要があります。
 
 > [!NOTE]
-> これは、Skype for Business メディア ワークロードにのみ必要であり、他のサービスやMicrosoft 365サービスOffice 365できません。
+> これは、一部のメディア Skype for Businessにのみ必要であり、他のサービスやサービスにはMicrosoft 365適用Office 365できません。
 
 追加情報:
 
@@ -117,7 +117,7 @@ Skype for Business トラフィックが VPN トンネルを使用しないよ�
 
 ## <a name="ensure-the-right-ports-and-protocols-are-open"></a>正しいポートとプロトコルが開いていることを確認する
 
-お客様は、サービスに必要な URL と IP アドレスの到達可能性Microsoft 365必要Office 365があります。 Skype for Business Online のすべての IP アドレスと URL のリストについては、「[Office 365 URL および IP アドレス範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)」をご覧ください。
+お客様は、サービスまたはサービスに必要な URL と IP アドレスの到達可能性Microsoft 365必要Office 365があります。 Skype for Business Online のすべての IP アドレスと URL のリストについては、「[Office 365 URL および IP アドレス範囲](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)」をご覧ください。
 
 Skype for Business クライアントは、さまざまなポートとプロトコルを使用します。 Skype for Business セッションのネットワーク トラフィックの向きと流れは、相互作用の種類 (ピアツーピア、マルチパーティ) によって、およびコンテンツ共有と音声/ビデオの使用に応じて、異なります。 接続元と接続先のポートについて特に注意しながら、ポートとプロトコルのリストを確認して開く必要があります。 たとえば、音声トラフィックは 20 個のポート (50000 から 50019 までの TCP/UDP) をクライアント側で使用しますが、送信先のポートがサービス側で 10000 個のポートの範囲内 (50000 から 59999 までの TCP/UDP) にある可能性があります。送信先のポートには、ファイアウォール上の開いている TCP 443 と UDP 3478 も含まれます。
 
@@ -146,6 +146,6 @@ Skype for Business Online をサポートするために追加のネットワー
 
 ![Testing audio in the Skype for Business client.](../images/1730a71e-a09d-4702-8eb6-ef1346a091fa.png)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business Online の ExpressRoute および QoS](expressroute-and-qos-in-skype-for-business-online.md)

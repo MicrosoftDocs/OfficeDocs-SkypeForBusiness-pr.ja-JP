@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatAddin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: '[常設チャット] ページの [アドイン] セクションを使用して、URL を常設チャット ルームに関連付けできます。 これらの URL は、会話機能拡張ウィンドウのチャット ルームのクライアントに表示されます。 管理者は、登録されたアドインのリストにアドインを追加する必要があります。また、チャット ルームの管理者/作成者は、ユーザーがクライアントでこのアップグレードを確認する前に、登録されたアドインの 1 つとルームを関連付ける必要があります。'
-ms.openlocfilehash: 179d3728deb11b16ac60d98f1c3815b43502e4047f01ab70ea046cf6f66baa99
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13190215a55b4f51eb3b6dc57cfe1044dd61d083
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278805"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630991"
 ---
 # <a name="persistent-chat-add-in"></a>常設チャット アドイン
 

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会議の構成設定では、ユーザーが作成できる会議の種類 (いわゆるmeetings) を定義し、匿名ユーザーとダイヤルイン会議ユーザーがこれらの会議に参加する方法 (またはかどうかを) 制御します。 これらの設定はスケジュール設定された会議にのみ適用されます。 クライアントで [今すぐ会議] オプションをクリックして作成されたアドホック会議には適用されません。
-ms.openlocfilehash: c4c891b7ac058a5e206c8fcde2d30766f9f498fc342dd9cdd4c9b25564443dbc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86b8488028d8eb290fa6a7e41e6c14afc3fbac7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317642"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585281"
 ---
 # <a name="meeting-configuration"></a>会議の構成
 

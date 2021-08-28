@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: '概要: DNS を構成し、サーバーのインストール用に DNS レコードを作成する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 94d4f9d0713c2516e466ae25faf05808a56ac103c0571dd151bdc25e2a892f8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307748"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585533"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>ユーザーの DNS レコードを作成Skype for Business Server
  
@@ -42,7 +42,7 @@ DNS レコードは、ユーザーがSkype for Business Server機能し、ユー
 この例では、pool.contoso.local という名前の DNS 負荷分散 FQDN を使用しています。 このプールは、3 台のサーバーで構成Skype for Business Server Enterprise Edition。 フロントエンド Standard Editionは、1 つのサーバーしか含めできません。 Standard Edition を使用すると、次の例に示すように、サーバーの DNS 負荷分散プールを作成する代わりに、フロントエンドの役割を参照するときに、単一の Standard Edition サーバーの完全修飾ドメイン名 (FQDN) のみを使用します。 フロントエンド ロールのみを使用するこの簡単な例には、次の表に DNS エントリが含まれています。 特定の DNS 要件を計画するには[、「DNS](../../plan-your-deployment/network-requirements/dns.md)の要件」を参照Skype for Business Server。 
   
  
-|**Description**|**Record type**|**名前**|**解決先**|**負荷分散の種類**|
+|**説明**|**Record type**|**名前**|**解決先**|**負荷分散の種類**|
 |:-----|:-----|:-----|:-----|:-----|
 |内部 Web サービスの FQDN  <br/> |A  <br/> |webint.contoso.local  <br/> |内部 Web サービスの VIP  <br/> |サポートされているソフトウェアとハードウェア  <br/> |
 |プールの FQDN  <br/> |A  <br/> |pool.contoso.local  <br/> |サーバー SFB01 の IP アドレス  <br/> |DNS  <br/> |

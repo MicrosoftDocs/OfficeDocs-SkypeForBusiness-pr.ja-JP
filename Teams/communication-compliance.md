@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: anwara
 description: ラーニング(これは M365 通信コンプライアンス機能の一部です) から、Microsoft Teams の観点から、Insider リスク ソリューション セットの一部である通信コンプライアンスについて説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b697f83ce568004cfd94340d3d2d50f0e8dda54b
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 767c69d2c529b7fe6c93b667d6150e7b64d46ef2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523808"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631371"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>ユーザーとの通信Microsoft Teams
 
-コミュニケーション コンプライアンスは、組織内の不適切なメッセージの検出、キャプチャ、および操作を支援することで、コミュニケーション リスクを最小限に抑える Microsoft 365 の Insider リスク ソリューションです。
+コミュニケーション コンプライアンスは、組織内の不適切なメッセージの検出、キャプチャ、および操作を支援することで、コミュニケーション リスクを最小限に抑えるために役立つ Microsoft 365 の Insider リスク ソリューションです。
 
 通信Microsoft Teams、Teams チャネル、プライベート Teams[](/microsoft-365/compliance/communication-compliance-feature-reference)チャネル、または 1:1 およびグループ チャットで、次の種類の不適切なコンテンツを識別するのに役立ちます。
 
@@ -37,20 +37,20 @@ ms.locfileid: "58523808"
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Microsoft Teams で通信コンプライアンスを使用するMicrosoft Teams
 
-通信コンプライアンスとMicrosoft Teamsは緊密に統合され、組織内の通信リスクを最小限に抑えるのに役立ちます。 最初の通信コンプライアンス ポリシーを構成した後は、アラートで自動的にフラグが設定Microsoft Teams不適切なメッセージやコンテンツを積極的に管理できます。
+コミュニケーションコンプライアンスとMicrosoft Teamsは緊密に統合され、組織内の通信リスクを最小限に抑えるのに役立ちます。 最初の通信コンプライアンス ポリシーを構成した後は、アラートで自動的にフラグが設定Microsoft Teams不適切なメッセージとコンテンツを積極的に管理できます。
 
 ### <a name="getting-started"></a>はじめに
 
-Microsoft Teams でのコミュニケーション コンプライアンスの開始は、Teams チャネル[](/microsoft-365/compliance/communication-compliance-plan)または 1:1 およびグループで不適切なユーザー アクティビティを識別するための定義済みポリシーまたはカスタム ポリシーの計画と作成から始まります。 構成プロセスの一環として、いくつかのアクセス[](/microsoft-365/compliance/communication-compliance-configure)許可と基本的な前提条件を構成する必要があります。
+Microsoft Teams でのコミュニケーション コンプライアンスの開始は、Teams チャネルまたは[](/microsoft-365/compliance/communication-compliance-plan)1:1 およびグループで不適切なユーザー アクティビティを識別する定義済みポリシーまたはカスタム ポリシーの計画と作成から始まります。 構成プロセスの一環として、いくつかのアクセス[](/microsoft-365/compliance/communication-compliance-configure)許可と基本的な前提条件を構成する必要があります。
 
 Teams管理者は、次のレベルで通信コンプライアンス ポリシーを構成できます。
 
-- **ユーザー レベル**: このレベルのポリシーは、個々のユーザーにTeams適用するか、組織内のすべてのユーザー Teams適用できます。 これらのポリシーは、これらのユーザーが 1 対 1 またはグループ チャットで送信できるメッセージをカバーします。 ユーザーのチャット通信は、ユーザーがメンバーであるすべてのMicrosoft Teams自動的に監視されます。
-- **Teams レベル**: このレベルのポリシーは、プライベート チャネルをMicrosoft Teamsチャネルに適用されます。 これらのポリシーは、チャネル内で送信されたTeamsのみをカバーします。
+- **ユーザー レベル**: このレベルのポリシーは、個々のユーザーにTeams適用するか、組織内のすべてのユーザーにTeams適用できます。 これらのポリシーは、これらのユーザーが 1 対 1 またはグループ チャットで送信できるメッセージをカバーします。 ユーザーのチャット通信は、ユーザーがメンバーであるすべてのMicrosoft Teams自動的に監視されます。
+- **Teams レベル**: このレベルのポリシーは、プライベート チャネルMicrosoft Teamsを含む、特定のチャネルに適用されます。 これらのポリシーは、チャネル内で送信されたTeamsのみをカバーします。
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>グループ内の不適切なメッセージにMicrosoft Teams
 
-ポリシーを構成し、Microsoft Teams メッセージの通信コンプライアンス アラートを受け取った後は、組織内のコンプライアンスレビュー担当者がこれらのメッセージに対してアクションを実行します。 レビュー担当者は、通信コンプライアンスの警告を確認し、メッセージの表示からフラグ付きメッセージを削除することで、組織を保護Microsoft Teams。
+ポリシーを構成し、Microsoft Teams メッセージの通信コンプライアンス アラートを受け取った後は、組織内のコンプライアンスレビュー担当者がこれらのメッセージに対してアクションを実行します。 レビュー担当者は、コミュニケーション コンプライアンスアラートを確認し、フラグ付きメッセージをグループ内のビューから削除することで、組織を保護Microsoft Teams。
 
 ![メッセージを削除Teams](./media/communication-compliance-remove-teams-message.png)
 

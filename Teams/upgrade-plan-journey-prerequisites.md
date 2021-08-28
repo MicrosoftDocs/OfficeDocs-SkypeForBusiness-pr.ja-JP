@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: このガイダンスを使用して、組織にデプロイするための前提条件と環境Teams確認します。
-localization_priority: Normal
+description: このガイダンスを使用して、組織にデプロイするための前提条件と環境Teamsについて説明します。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66a0bdeac2830fc6a3ebe9f5eae2f382187f384538f2d57c9cf27b56fbdd651a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3ade37518da516d219c3c54fd0ce4a280720c373
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323749"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631151"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>アプリケーションの前提条件と環境Teams
 
@@ -36,13 +36,13 @@ ms.locfileid: "54323749"
 - [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Teams複数のサービスとMicrosoft 365サービスOffice 365組み合わせ、そのため、これらのサービスの適切な実装と操作に依存します。 これらのサービスには、SharePoint Online、Exchange Online、および OneDrive for Business が含まれます。
+Teams複数のMicrosoft 365サービスOffice 365組み合わせ、そのため、これらのサービスの適切な実装と操作に依存します。 これらのサービスには、SharePoint Online、Exchange Online、および OneDrive for Business が含まれます。
 
-すべてのサービスが必要な場合は、すべて実装することを強くお勧めします。 特定のサービスを実装しない場合、組織に提供できる機能Teams影響します。 たとえば、SharePoint Online を実装する必要はありません。Teams はグループ会話でのファイル共有などの特定の機能を SharePoint Online に依存します。そのため、このサービスを実装しない場合、クライアントを通じて提供される機能が低下します。
+すべてのサービスが必要な場合は、すべて実装することを強くお勧めします。 特定のサービスを実装しない場合、組織に提供できる機能Teams影響を受ける可能性があります。 たとえば、SharePoint Online を実装する必要はありません。Teams はグループ会話でのファイル共有などの特定の機能に SharePoint Online を使用します。そのため、このサービスを実装しない場合、クライアントを通じて提供される機能が低下します。
 
-前提条件と、他のテクノロジとやり取りTeamsについては、次の記事を参照してください。
+前提条件と、他のテクノロジとやり取りするTeamsについては、次の記事を参照してください。
 
-- 組織がワークロードに対してデプロイされていない場合Microsoft 365またはOffice 365を開始する」[を参照してください](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)。
+- 組織でワークロードをデプロイMicrosoft 365またはOffice 365場合は、「作業を開始する」[を参照してください](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)。
 
 - 組織がドメインまたはドメインの検証済みドメインを追加または構成Microsoft 365場合Office 365、「ドメインに関する[FAQ」を参照してください](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)。
 
@@ -56,7 +56,7 @@ Teams複数のサービスとMicrosoft 365サービスOffice 365組み合わせ�
 
 - 組織が教育機関であり、学生情報システムを使用している場合は、「Microsoft[](/schooldatasync)学校データ同期 へようこそ」を参照Microsoft Teams。
 
-- 組織で公衆交換電話網 (PSTN) 通話オプションを検討している場合は、「音声[- 電話システム](cloud-voice-landing-page.md)と PSTN[](calling-plan-landing-page.md)接続」を参照してください。また、どの通話プランが最適か、および直接ルーティングに関するページ電話システム[参照してください](direct-routing-landing-page.md)。
+- 組織で公衆交換電話網 (PSTN) 通話オプションを検討している場合は、「音声[- 電話システム](cloud-voice-landing-page.md)と PSTN 接続」を参照してください。[また](calling-plan-landing-page.md)、どの通話プランが最適か、および直接ルーティングに関するページ電話システム[参照してください](direct-routing-landing-page.md)。
 
 - アプリケーションを展開する前に、すべてのネットワーク要件が確実に満たTeams、「組織のネットワークを準備する」[を参照Microsoft Teams。](prepare-network.md)
 
