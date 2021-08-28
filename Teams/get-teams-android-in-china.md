@@ -10,17 +10,17 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: dansteve
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: 中国から Android 用 Microsoft Teams をダウンロードするためのリンクを取得します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc20b942786a8150dbfebfb267525b44a8928e3c647409ed841d9684214f1ed5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3f9d6dfef0d319f7878ec4138860aa3ab52ffd89
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322549"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633291"
 ---
 # <a name="get-microsoft-teams-for-android-in-china"></a>中国で Android 用 Microsoft Teams を取得する
 

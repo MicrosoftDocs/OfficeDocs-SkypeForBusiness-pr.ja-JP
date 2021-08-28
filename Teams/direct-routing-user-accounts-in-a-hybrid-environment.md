@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: ユーザー作成のさまざまな組み合わせと、サポートされている組み合わせまたはサポートされていない組み合わせについて学習します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5b272ba42235b37b15c44d69fb4d96a444bd3b79498d0ade02aa0e1d15668a4c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34a531c19ba0b7aebc16b09b360c363eff4a1198
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279734"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634851"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>PSTN 接続を使用するハイブリッド環境でのユーザー アカウント
 
@@ -33,7 +33,7 @@ ms.locfileid: "54279734"
 - Skype for Business Server Lync Server 2013 
 - 組織Microsoft 365またはOffice 365組織 
 - Skype for Business Server と Skype for Business Online または Microsoft Teams テナントの間で構成されたハイブリッド接続 
-- クライアントに対する公衆交換電話網 (PSTN) 通話の発信と受信が有効になっているユーザー
+- クライアント間で公衆交換電話網 (PSTN) 通話を発信および受信できるユーザー
 
  
 別の環境 (Skype for Business クラウド コネクタ エディション など) がある場合、ハイブリッドが構成されていない場合、またはユーザーが PSTN 通話を有効にしていない場合、サポートマトリックスは異なります。  
@@ -46,7 +46,7 @@ PSTN Skype for Businessハイブリッド環境では、ユーザー サービ�
 **定義:**   
 - **エンタープライズ VoIP:** オンプレミスのユーザー アカウントを持つユーザーに PSTN へのアクセスSkype for Businessオプション。 オンプレミスの仲介サーバー Skype for Business PSTN への相互接続を提供します。  
 - **ハイブリッド音声接続:** オンライン アカウントを持つユーザーに PSTN へのアクセスSkype for Businessオプション。 オンプレミスの仲介サーバー Skype for Business PSTN への相互接続を提供します。 
-- **直接ルーティング:** オンライン アカウントを持つユーザーに PSTN へのアクセスSkype for Business、Microsoft Teamsクライアントを使用Microsoft Teamsオプション。 SBC は、Microsoft のオンプレミス ソフトウェアを必要とせずに、Microsoft 365 または Office 365 の SIP プロキシに接続されます。
+- **直接ルーティング:** オンライン アカウントを持つユーザーに PSTN へのアクセスSkype for Business、Microsoft Teamsクライアントを使用して、PSTN Microsoft Teamsします。 SBC は、Microsoft のオンプレミス ソフトウェアを必要とせずに、Microsoft 365または Office 365 SIP プロキシに接続されます。
 
   
 **環境では、次の組み合わせをサポートしています。**
@@ -63,11 +63,11 @@ PSTN Skype for Businessハイブリッド環境では、ユーザー サービ�
 |オンプレミスのAD|オンライン| Skype for Business  | ハイブリッド音声接続   |はい |
 |オンプレミスのAD|オンライン |Microsoft Teams |ダイレクト ルーティング  |はい |
 |**サポートされていない組み合わせ**    | |         |         |      |
-|Azure AD| オンプレミス/オンライン | Skype for Business/Microsoft Teams|エンタープライズ VoIP/ハイブリッド音声接続/ダイレクト ルーティング  |いいえ。ユーザー オブジェクトは、最初にオンプレミスに作成するAD必要があります |
-|オンプレミスのAD  |オンプレミス| Microsoft Teams| エンタープライズ VoIP/ハイブリッド音声接続/ダイレクト ルーティング   |いいえ、Microsoft Teamsクライアントは、オンプレミスのクライアントではサポートSkype for Business |     
+|Azure AD| オンプレミス/オンライン | Skype for Business/Microsoft Teams|エンタープライズ VoIP/ハイブリッド音声接続/ダイレクト ルーティング  |いいえ。ユーザー オブジェクトは、最初にオンプレミスのサーバーにADする必要があります |
+|オンプレミスのAD  |オンプレミス| Microsoft Teams| エンタープライズ VoIP/ハイブリッド音声接続/ダイレクト ルーティング   |いいえ、Microsoft Teams クライアントは、オンプレミスのクライアントではサポートSkype for Business |     
 |オンプレミスのAD  |オンライン |Skype for Business  | ダイレクト ルーティング  |いいえ、直接ルーティングはクライアントでSkype for Businessされていません  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>PSTN を使用したハイブリッド環境のサポート可能性に関する声明
 
-すべてのユーザーについて、ユーザー オブジェクトをオンプレミスの AD に作成し、Azure AD Connect ツールを使用して Azure AD に同期する必要があります。 ユーザー オブジェクトがハイブリッド構成Teams Azure ADで直接作成されている場合、Teams/Skype for Business のユーザーの有効化はサポートされていません。 Teams に対して直接有効になる新入社員などの新しいユーザーの場合、ユーザーはオンプレミスの Skype for Business 管理ツールを使用して Skype for Business に対して有効にする必要があります。 ユーザーをオンライン Skype for Business または Teams でオンプレミス プールで有効にせずに作成エンタープライズ VoIP **はサポートされていません**。 詳細については、「オンプレミスの[PSTN](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)接続を使用電話システムの計画」を参照Skype for Business Server。
+すべてのユーザーについて、ユーザー オブジェクトをオンプレミスの AD に作成し、Azure AD Connect ツールを使用して Azure AD に同期する必要があります。 ユーザー オブジェクトがハイブリッド構成Teams Azure ADで直接作成されている場合、Teams/Skype for Business のユーザーの有効化はサポートされていません。 Teams に対して直接有効になる新入社員などの新しいユーザーの場合、オンプレミスの Skype for Business 管理ツールを使用して、ユーザーが Skype for Business に対して有効になっている必要があります。 オンライン または Skype for Business または Teams でユーザーを作成し、エンタープライズ VoIP を使用してオンプレミス プールでユーザーを有効にしない場合は **、サポートされていません**。 詳細については、「オンプレミスの[PSTN](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)接続を使用電話システムの計画」を参照Skype for Business Server。

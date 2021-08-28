@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: '[エッジ プール] ノードには、トポロジ内のエッジ プールの一覧が表示されます。以下のアクションを実行できます。'
-ms.openlocfilehash: 490d24a99c64d5fe0263bd8e8eabe8074ff2d2af3cb162482252bf86f356ffeb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a3a61c5405b9298a10bfc72ff6d7167c574aecc6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286896"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633661"
 ---
 # <a name="edge-servers-scope-node"></a>エッジ サーバーのスコープ ノード
  

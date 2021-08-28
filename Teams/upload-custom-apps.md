@@ -14,22 +14,22 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: カスタム アプリを管理センターの組織のアプリ ストアにアップロードMicrosoft Teams説明します。
-ms.openlocfilehash: add429a0f662db852f78d9b178b046611ecb4e39ebf86729a1d0398fa1583e2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e5eecc0bb5f5ed7c03552057cca6d42f7395ca2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321049"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634701"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリ パッケージをアップロードしてカスタム アプリを発行する
 
 > [!NOTE]
-> カスタム アプリを発行Teams、組織のアプリ ストア内のユーザーが使用できます。 カスタム アプリを発行する方法と使用する方法は、アプリの取得方法によって異なります。 **この記事では、** 開発者から送信されたアプリ パッケージ (.zip 形式) をアップロードして、カスタム アプリを発行する方法について説明します。 カスタム アプリを承認するもう 1 つの方法は、開発者がアプリの管理ページに<a href="/microsoftteams/manage-apps" target="_blank"></a>アプリを直接送信するときに、Teams アプリ送信 API を使用します。 その方法の詳細については、「アプリ送信 API を使用して送信されたカスタム アプリを発行Teams<a href="/microsoftteams/submit-approve-custom-apps" target="_blank">参照してください</a>。
+> カスタム アプリを発行Teams、組織のアプリ ストア内のユーザーが使用できます。 カスタム アプリを発行する方法と使用する方法は、アプリの取得方法によって異なります。 **この記事では、開発者から** 送信されたアプリ パッケージ (.zip 形式) をアップロードして、カスタム アプリを発行する方法について説明します。 カスタム アプリを承認するもう 1 つの方法は、開発者が Teams App <a href="/microsoftteams/manage-apps" target="_blank"></a> Submission API を使用してアプリを [アプリの管理] ページに直接送信するときに使用されます。 その方法の詳細については、「アプリ送信 API を使用して送信されたカスタム アプリを発行Teams<a href="/microsoftteams/submit-approve-custom-apps" target="_blank">参照してください</a>。
 
-この記事では、開発からデプロイから検出まで、Teamsアプリを使用する方法について、エンド to エンドのガイダンスを提供します。 このガイダンスでは、アプリのTeamsに焦点を当て、管理者と IT のプロを対象にしています。 アプリの開発の詳細については、Teams 開発者向けドキュメント<a href="/microsoftteams/platform" target="_blank">Teams参照してください</a>。
+この記事では、開発からデプロイ、検出まで、Teamsを実行する方法について、エンド to エンドのガイダンスを提供します。 このガイダンスでは、アプリのTeamsに焦点を当て、管理者と IT のプロを対象にしています。 アプリの開発の詳細についてはTeams開発者向けドキュメント<a href="/microsoftteams/platform" target="_blank">Teams参照してください</a>。
 
 ![開発からデプロイまで、アプリの概要](media/upload-custom-apps.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "54321049"
 
 ### <a name="get-the-app-package"></a>アプリ パッケージを取得する
 
-アプリを実稼働環境で使用する準備ができたら、開発者はアプリ パッケージを生成する必要があります。 その場合 <a href="/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">、App Studio</a> を使用できます。 ユーザーは、ファイルを別の形式.zipします。
+アプリを実稼働環境で使用する準備ができたら、開発者はアプリ パッケージを生成する必要があります。 その場合 <a href="/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">、App Studio</a> を使用できます。 このファイルは、次の形式で.zipされます。
 
 Microsoft では<a href="/microsoftteams/platform/publishing/office-store-approval" target="_blank">、これらのガイドラインを使用</a>して、アプリがグローバルなアプリ ストアの品質とセキュリティ基準に準拠Teamsします。
 
@@ -52,18 +52,18 @@ Microsoft では<a href="/microsoftteams/platform/publishing/office-store-approv
 アプリが実稼働テナントで正しく動作しているのを検証するには、自分や信頼できるユーザーがカスタム アプリを実稼働テナントにアップロードできる必要があります。 これを行 <a href="/microsoftteams/teams-app-setup-policies" target="_blank">うには、アプリセットアップ ポリシー</a> を使用します。
 
 > [!NOTE]
-> 検証のためにアプリを実稼働テナントにアップロードする場合は、この手順をスキップし[、「アップロード」](#upload)セクションと「セットアップと管理」セクションの手順に従って、検証されていないアプリを[](#set-up-and-manage)組織のアプリ ストアに発行できます。 その後、そのアプリへのアクセスを自分と信頼できるユーザーにのみ制限します。 これらのユーザーは、検証を実行するために、組織のアプリ ストアからアプリを取得できます。 アプリが検証された後、同じアクセス許可ポリシーを使用して、アクセス権を開き、アプリを実稼働環境で使用するためにロールアウトします。
+> 検証のためにアプリを実稼働テナントにアップロードする場合は、この手順をスキップし[、「アップロード」](#upload)セクションと「セクションの設定と管理」の手順に従って、検証されていないアプリを[](#set-up-and-manage)組織のアプリ ストアに発行できます。 その後、そのアプリへのアクセスを自分と信頼できるユーザーにのみ制限します。 これらのユーザーは、検証を実行するために、組織のアプリ ストアからアプリを取得できます。 アプリが検証された後、同じアクセス許可ポリシーを使用して、アクセス権を開き、アプリを実稼働環境で使用するためにロールアウトします。
 
 信頼できるユーザーにカスタム アプリのアップロードを許可するには、次の手順に従います。
 
 1. [カスタム アプリ **との対話を許可する] 組織全体** のアプリ設定を有効にします。 その手順は次のとおりです。
-    1. 管理センターの左側の Microsoft Teamsナビゲーションで、[Teams **アプリ** の管理] に移動し、[組織全体のアプリ設定]  >  **をクリックします**。
+    1. 管理センターの左側のナビゲーションで、[Microsoft Teams アプリの管理] Teams **に** 移動し、[組織全体のアプリ設定]  >  **をクリックします**。
     2. [ **カスタム アプリ] で**、[カスタム アプリとの対話を許可する] **をオンに** し、[保存] を **クリックします**。
 2. グローバル アプリセットアップ **ポリシーアップロードカスタム** アプリの設定をオフにします。 その手順は次のとおりです。
     1. Microsoft Teams 管理センターの左側のナビゲーションで、[Teams **アプリ** のセットアップ ポリシー] に移動し、[グローバル (組織全体の既定) ポリシー]  >  **をクリック** します。
     2. カスタム アプリ **をアップロードをオフにし、[** 保存] を **クリックします**。
 3. カスタム アプリをアップロードして信頼できるユーザーのセットに割り当て可能な新しいアプリ セットアップ ポリシーを作成します。 その手順は次のとおりです。
-    1. 管理センターの左側のナビゲーションMicrosoft Teamsアプリのセットアップ Teams **に** 移動し、[追加]  >  をクリック **します**。 新しいポリシーに名前と説明を付け、カスタム アップロード **を有効に** し、[保存] を **クリックします**。
+    1. 管理センターの左側のナビゲーションMicrosoft Teamsアプリのセットアップ Teams **に** 移動し、[追加  >  ] を **クリックします**。 新しいポリシーに名前と説明を付け、カスタム アップロード **を有効に** し、[保存] を **クリックします**。
     2. 作成した新しいポリシーを選択し、[ユーザーの管理] **をクリックします**。 ユーザーを検索し、[追加] **をクリックして**、[適用] を **クリックします**。 この手順を繰り返して、信頼できるすべてのユーザーにポリシーを割り当てる。
 
         ![[アプリのセットアップ ポリシーの追加] ページのスクリーンショット](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -107,7 +107,7 @@ Microsoft では<a href="/microsoftteams/platform/publishing/office-store-approv
 
 アプリを更新するには、開発者は引き続き「開発と検証」セクションの[手順](#develop)[に](#validate)従う必要があります。
 
-アプリは、管理センターの [アプリの管理] ページMicrosoft Teams更新できます。 これを行うには、管理センターの左側のナビゲーションMicrosoft Teamsアプリの管理Teams **に**  >  **移動します**。 アプリ名をクリックし、[更新] を **クリックします**。 これにより、既存のアプリが置き換え、すべてのアプリアクセス許可ポリシーとアプリセットアップ ポリシーが、更新されたアプリに適用されたままです。
+アプリは、管理センターの [アプリの管理] ページMicrosoft Teams更新できます。 これを行うには、管理センターの左側のナビゲーションMicrosoft Teamsアプリの管理] Teams  >  **に移動します**。 アプリ名をクリックし、[更新] を **クリックします**。 これにより、既存のアプリが置き換え、すべてのアプリアクセス許可ポリシーとアプリセットアップ ポリシーが、更新されたアプリに適用されたままです。
 
 ### <a name="end-user-update-experience"></a>エンド ユーザーの更新エクスペリエンス
 
@@ -127,7 +127,7 @@ Microsoft では<a href="/microsoftteams/platform/publishing/office-store-approv
 
 ![アプリのアップグレード オプションのスクリーンショット](media/manage-your-custom-apps-update2.png)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Teams App Submission API を使用して送信されたカスタム アプリを発行する](submit-approve-custom-apps.md)
 - [管理センターでアプリMicrosoft Teams管理する](manage-apps.md)

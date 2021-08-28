@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: '概要: Skype for Business Server 2015 年 2015 年のインフラストラクチャを構成して、System Center Operations Manager とSystem Centerします。'
-ms.openlocfilehash: d2a026de164a58365377f697aa88cf91b728722875aa9cdf8733444055742ce1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5dc5a4c01cd4e45c6b1145725b17073d910e66f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283219"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627979"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>SCOM Skype for Business Serverパックを使用して 2015 年を管理する
  
@@ -128,9 +128,9 @@ Skype for Business Server 2015 管理パックは、代理トランザクショ�
 
 |登録、プレゼンス、連絡先でサポートされる代理トランザクション|||
 |:-----|:-----|:-----|
-|1  <br/> |登録 (ユーザー ログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|2  <br/> |アドレス帳サービス (ファイルのダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|3  <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|1   <br/> |登録 (ユーザー ログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|2   <br/> |アドレス帳サービス (ファイルのダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|3   <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |4   <br/> |プレゼンス  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |5   <br/> |統合連絡先ストア  <br/> |利用可能な Lync Server 2013 以降  <br/> |
 ||||   
@@ -149,11 +149,11 @@ Skype for Business Server 2015 管理パックは、代理トランザクショ�
 |:-----|:-----|:-----|
 |9   <br/> |音声ビデオ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
 |10   <br/> |データ会議  <br/> |Lync Server 2013 以降で利用可能  <br/> |
-|11  <br/> |インスタント メッセージ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
+|11   <br/> |インスタント メッセージ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
 |12   <br/> | 常設チャット <br/> |Lync Server 2013 以降で利用可能  <br/> |
-|13  <br/> |会議に起動ツール (スケジュールされた会議)  <br/> |Lync Server 2013 以降で利用可能  <br/> |
+|13   <br/> |会議に起動ツール (スケジュールされた会議)  <br/> |Lync Server 2013 以降で利用可能  <br/> |
 |14   <br/> |会議でのダイヤル  <br/> |2015 Skype for Business Serverの新機能  <br/> |
-|15  <br/> |アプリケーション共有会議  <br/> |2015 Skype for Business Serverの新機能  <br/> |
+|15   <br/> |アプリケーション共有会議  <br/> |2015 Skype for Business Serverの新機能  <br/> |
 |16   <br/> |UCWA 会議 (Web 会議への参加)  <br/> |2015 Skype for Business Serverの新機能  <br/> |
 ||||
 

@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: Microsoft Teams のアイテム保持ポリシーを使用して、組織の内部ポリシー、業界規制、または法的要件に準拠するために組織が必要とするメッセージを保持し、負債とみなされるメッセージや法的にビジネス価値のないメッセージを削除します。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a122bd1d0bb3c8cba450293b43f7532f36c510831bd301ed30d9955a9a1f8d31
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296694"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634841"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Teams のアイテム保持ポリシーを管理する
 
@@ -63,9 +63,9 @@ Teams でのアイテム保持ポリシーの対象となるユーザーは、Of
 
 組織は多くの場合、プライベート チャットのデータの方が、一般にプロジェクトとの関連性がより高い会話であるチャネル メッセージよりも負債になりやすいものとみなします。
 
-すべてのメッセージに対して 1 つのアイテム保持ポリシーを非常に効率的Teamsできます。 または、よりきめ細かく制御するには、次の操作を行います。
+すべてのメッセージに対して 1 つのアイテム保持ポリシーを非常Teamsできます。 または、よりきめ細かく制御するには、次の操作を行います。
 
-- プライベート チャット (1:1 または 1:多のチャット)、標準チャネルからのメッセージ、またはプライベート チャネルからのメッセージに対して個別の保持ポリシーを設定します。
+- プライベート チャット (1:1 または 1:多チャット)、標準チャネルからのメッセージ、またはプライベート チャネルからのメッセージに対して個別の保持ポリシーを設定します。
 
 - ポリシーは、組織内の特定のユーザーまたはチームにのみ適用します。 チャットTeamsプライベート チャネルの場合は、ポリシーを適用するユーザーを選択できます。 Teams のチャネル メッセージの場合は、ポリシーが適用されるチームを選択できます。
 

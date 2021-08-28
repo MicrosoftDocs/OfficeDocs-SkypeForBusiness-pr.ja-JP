@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: アップグレードからアップグレードをSkype for Business計画Microsoft Teams
-summary: Microsoft Teamsは、ユーザーが接続を維持し、シームレスに共同作業を行い、安全で準拠した方法で作業を簡素化するように設計されています。すべて 1 か所で行います。 このページでは、アップグレードからアップグレードの成功を実装するためのガイダンス、トレーニング、リソースSkype for Business Teams。
+summary: Microsoft Teamsは、ユーザーの接続を維持し、シームレスに共同作業を行い、安全で準拠した方法で作業を簡素化するように設計されています。すべて 1 か所で行います。 このページでは、アップグレードからアップグレードの成功を実装するためのガイダンス、トレーニング、リソースSkype for BusinessをTeams。
 brand: teams
 metadata:
   title: アップグレードからアップグレードをSkype for Business計画Microsoft Teams
-  description: Microsoft Teamsは、ユーザーが接続を維持し、シームレスに共同作業を行い、安全で準拠した方法で作業を簡素化するように設計されています。すべて 1 か所で行います。 このページでは、アップグレードからアップグレードの成功を実装するためのガイダンス、トレーニング、リソースSkype for Business Teams。
+  description: Microsoft Teamsは、ユーザーの接続を維持し、シームレスに共同作業を行い、安全で準拠した方法で作業を簡素化するように設計されています。すべて 1 か所で行います。 このページでは、アップグレードからアップグレードの成功を実装するためのガイダンス、トレーニング、リソースSkype for BusinessをTeams。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
     - M365-collaboration
@@ -43,18 +43,18 @@ productDirectory:
         - url: 'https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams'
           text: Royal DSM – Skype for Business ServerへのTeams
         - url: 'https://customers.microsoft.com/story/799203-ikea-retailers-teams'
-          text: '[システムSKYPE FOR BUSINESS SERVER – Teams'
+          text: '[編集SKYPE FOR BUSINESS SERVER- TEAMS'
         - url: 'https://customers.microsoft.com/story/782385-williams-energy-teams'
           text: Williams – Skype for Business ServerにTeams
         - url: 'https://customers.microsoft.com/story/765513-trek-retailers-teams'
-          text: トレッSkype for BusinessオンラインでTeams
+          text: ストレSkype for Business – オンラインでTeams
         - url: 'https://customers.microsoft.com/story/765520-dentsu-aegis-network-media-entertainment-teams'
           text: Dentsu Aegis Network – Skype for Business Online からTeams
         - url: 'https://customers.microsoft.com/story/764851-berkshire-healthcare-nhs-foundation-trust-health-provider-teams'
           text: バークシャー医療 – Skype for BusinessオンラインでTeams
     - title: 'Ignite Session: このセッションへのパスをTeams'
       imageSrc: 'https://docs.microsoft.com/office/media/icons/walkthrough-map-teams.svg'
-      summary: Ignite 2020 のこのセッションは、実装と目標に最も適したSkype for Business見つけるのに役立ちます。
+      summary: Ignite 2020 からのこのセッションは、実装と目標に最も適したアプローチSkype for Businessするのに役立ちます。
       url: 'https://go.microsoft.com/fwlink/?linkid=2154668'
     - title: アップグレード成功キット
       imageSrc: 'https://docs.microsoft.com/office/media/icons/success-teams.svg'
@@ -68,28 +68,28 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-with-podium.svg'
       summary: 無料のライブ のオンライン トレーニング クラスは、ユーザーを新しいユーザーと一緒にTeams。
       url: ./instructor-led-training-teams-landing-page.yml
-    - title: 新しいシナリオTeams展開する
+    - title: シナリオをTeamsする
       imageSrc: 'https://docs.microsoft.com/office/media/icons/best-practices-teams.svg'
-      summary: このTeams講演のオンライン ワークショップは、IT プロが自分の作業を最も役立てTeams。
+      summary: このTeams講演のオンライン ワークショップは、IT プロがユーザーの作業を最も役立てTeams。
       url: ./chalk-talks-landing-page.yml
     - title: Skype for Business Online のサポート終了
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
-      summary: Skype for Business Online サービスの 2021 年 7 月 31 日の提供終了に備え、Teams への移行を正常に計画する方法について学習します。
+      summary: Skype for Business Online サービスの 2021 年 7 月 31 日の提供終了に備え、Teams への移行を成功に向けて計画する方法について学習します。
       url: ./skype-for-business-online-retirement.md
     - title: Microsoft Teams のブログ
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blog-site-teams.svg'
       summary: ベスト プラクティス、ニュース、傾向を、チームの背後にあるチームから直接Microsoft Teams。
       url: 'https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog'
-    - title: 経済効果の合計Teams
+    - title: アジア地域の総経済的影響Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg'
-      summary: 導入後の従業員と会社の業績の向上を数値化する Forrester Research レポートをTeams。
+      summary: 導入後の従業員と会社の業績の改善を数値化する Forrester Research レポートをTeams。
       url: 'https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf'
 additionalContent:
   sections:
     - title: その他のヘルプが必要な場合
     - items:
-        - title: デプロイFastTrackサポートを受け取る
-          summary: デプロイ Teams、より多くの支援が必要な場合、対象となるサブスクリプションをお持ちのお客様は、サポートを受FastTrackを受け取る可能性があります。
+        - title: デプロイFastTrackを支援する
+          summary: デプロイ Teams、より多くの支援が必要な場合、対象となるサブスクリプションをお持ちのお客様は、FastTrackサポートを受け取る可能性があります。
           url: 'https://www.microsoft.com/fasttrack'
         - title: Microsoft パートナーを探す
           summary: 追加のガイダンスが必要な場合 Microsoft ソリューション プロバイダーは、アップグレードの技術的およびロジスティックを管理するのに役立ちます。

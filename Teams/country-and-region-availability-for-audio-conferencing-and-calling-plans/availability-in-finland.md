@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: フィンランドで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
-ms.openlocfilehash: d6236374496f59172f3c54d9d156a39e0cedd674db5181ee3e86c1e47e2f80b0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: フィンランドで利用できるMicrosoft 365とOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
+ms.openlocfilehash: 860fe2b7c63a86e7fe7bb05f683ca9c2fae6de52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332859"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634931"
 ---
 # <a name="availability-in-finland"></a>フィンランドでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-フィンランドで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
+フィンランドで利用できるMicrosoft 365とOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -82,7 +82,7 @@ ms.locfileid: "54332859"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

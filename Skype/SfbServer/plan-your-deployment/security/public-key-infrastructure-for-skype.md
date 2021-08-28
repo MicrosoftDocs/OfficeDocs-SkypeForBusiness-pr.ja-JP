@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype for Business Serverは、サーバー認証の証明書に依存し、クライアントとサーバー間、および異なるサーバーの役割間で一つの信頼を確立します。 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2、および Windows Server 2008 公開キー 基盤 (PKI) は、この信頼チェーンを確立および検証するためのインフラストラクチャを提供します。
-ms.openlocfilehash: 7b955aa07143cead900a0140ac8ee64fa02ba34ed3945553e376123c7260909d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 733b1bb946147edd184a7b0fecb16ffab2adba51
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329491"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627929"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>パブリック キー インフラストラクチャ Skype for Business Server
  

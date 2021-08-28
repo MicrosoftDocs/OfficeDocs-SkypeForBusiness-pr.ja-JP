@@ -10,21 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 785a43c0-6892-474c-821c-fa9cdbeb99d8
 description: tblAdminLock には、一部の管理者コマンドの実行に必要な管理者ロックが格納されます。
-ms.openlocfilehash: ad3b2543e2715462b953c611c8b5f24ea7885a6cb910931aa5b832b8196856eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 478ca06da81ddc8144dbd712885ecdbde5c8bc8d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351946"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633511"
 ---
 # <a name="tbladminlock"></a>tblAdminLock
  
 tblAdminLock には、一部の管理者コマンドの実行に必要な管理者ロックが格納されます。
   
-**Columns**
+**列**
 
 |**列**|**型**|**説明**|
 |:-----|:-----|:-----|

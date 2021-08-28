@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 description: トランスポート層セキュリティ (TLS) および相互トランスポート層セキュリティ (MTLS) プロトコルは、インターネット上で暗号化された通信とエンドポイント認証を提供します。 Skype for Business Server 2 つのプロトコルを使用して、信頼できるサーバーのネットワークを作成し、そのネットワーク上のすべての通信が暗号化されます。 サーバー間のすべての SIP 通信は、MTLS を使用して行われます。 クライアントからサーバーへの SIP 通信は TLS を使用して行われます。
-ms.openlocfilehash: bdb0ca586614e81d6d7e5e93b253349c9d388e6b9312931d08a75e2a0359f6e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 156abf52ba4274666a2783e9968b9a7ee06a29aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349899"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627829"
 ---
 # <a name="tls-and-mtls-for-skype-for-business-server"></a>TLS および MTLS for Skype for Business Server
  

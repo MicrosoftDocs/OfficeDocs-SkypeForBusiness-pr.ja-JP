@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.VoiceTraffic
 - ms.lync.plan.VoiceTraffic
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
 description: 計画ツールは、ユーザー トラフィック情報を使用して、展開で使用するポートの数を決定します。 この番号は、必要な仲介サーバーとゲートウェイの数を決定します。 詳細については、「2015 年の音声使用量とトラフィックの見積もりSkype for Business Server参照してください。
-ms.openlocfilehash: b296209ac9b1bc81772e7fd694807afeaeea0630f3b43f6202a11e7e57645b88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 809d80f29e20639c10593c0fb8b628f406966752
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350019"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627969"
 ---
 # <a name="voice-traffic-planning-tool"></a>音声トラフィック計画ツール
  
