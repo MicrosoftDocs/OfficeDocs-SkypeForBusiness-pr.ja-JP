@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,18 +17,18 @@ f1.keywords:
 - NOCSH
 description: セッション ボーダー コントローラー、ダイレクト ルーティング コンポーネント、通信トランクなど、ダイレクト ルーティング構成を監視およびトラブルシューティングする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 534634beb302a5c7027b26a8fdaa305b824cf4efd3930d81f3c6b4d08559c32c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 537df3fb87386914b88da34dcdd5717cfd5700dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618503"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>ダイレクト ルーティングの監視とトラブルシューティング
 
 この記事では、ダイレクト ルーティング構成を監視およびトラブルシューティングする方法について説明します。 
 
-ダイレクト ルーティングを使用して通話を送受信する機能には、次のコンポーネントが含まれます。 
+直接ルーティングを使用して通話を送受信する機能には、次のコンポーネントが含まれます。 
 
 - セッション ボーダー コントローラー (SBC) 
 - Microsoft Cloud のダイレクト ルーティング コンポーネント 
@@ -62,9 +62,9 @@ SBC は、呼び出しを送信した時点の統計情報で、SBC が 1 分ご
 
 この例の SBC が午前 11 時 12 分から午前 11 時 15 分 (呼び出しが行われた時刻) の間にオプションを送信した場合、正常と見なされます。 存在しない場合、SBC はルートから降格されます。 
 
-降格とは、SBC が最初に試みようとしないという意味です。 たとえば、優先順位が等しい sbc1.contoso.com、sbc2.contoso.com を指定します。  
+降格とは、SBC が最初に試みようとしないという意味です。 たとえば、優先順位が等しい sbc1.contoso.com sbc2.contoso.com を指定します。  
 
-前述 sbc1.contoso.com 一定の間隔で SIP オプションを送信しない場合は、降格されます。 次に、sbc2.contoso.com を試します。 sbc2.contoso.con が呼び出しを配信できない場合、エラーが生成される前に、sbc1.contoso.com (降格) が再度試みされます。 
+前述 sbc1.contoso.com 一定の間隔で SIP オプションを送信しない場合は、降格されます。 次に、sbc2.contoso.com を試行します。 sbc2.contoso.con が呼び出しを配信できない場合、エラーが生成される前に、sbc1.contoso.com (降格) が再度試みされます。 
 
 1 つのルート内の 2 つ (以上) の SBC が正常で等しいと見なされた場合は、Fisher-Yates シャッフルが適用され、SPC 間で呼び出しが分散されます。
 
@@ -81,8 +81,8 @@ SBC は、呼び出しを送信した時点の統計情報で、SBC が 1 分ご
 
 通話品質ダッシュボードには、通話の品質と信頼性に関する情報が表示されます。 通話分析を使用して問題をトラブルシューティングする方法の詳細については[、「Microsoft Teams](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)および Skype for Business Online の通話品質ダッシュボードを有効にして使用する」および「通話分析を使用して低品質の通話品質をトラブルシューティングする」を参照[してください。](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 
 
-通話エラーが発生した場合、Call Analytics にはトラブルシューティングに役立つ標準的な SIP コードが提供されています。 
+通話エラーが発生した場合、通話分析はトラブルシューティングに役立つ標準的な SIP コードを提供します。 
 
 ![呼び出しエラーのサンプル SIP コード](media/failed-response-code.png)
 
-ただし、通話分析は、呼び出しがダイレクト ルーティングの内部コンポーネントに到達して失敗した場合にのみ役立ちます。 SBC のペアリングに関する問題や、SIP の "招待" が拒否された問題 (たとえば、トランク FQDN の名前が正しく構成されていない) の場合、通話分析は役立ちます。 この場合は、SBC ログを参照してください。 直接ルーティングは、問題の詳細な説明を SBC に送信します。これらの問題は、SBC ログから読み取り可能です。
+ただし、通話分析は、呼び出しがダイレクト ルーティングの内部コンポーネントに到達して失敗した場合にのみ役立ちます。 SBC のペアリングに関する問題や、SIP の "招待" が拒否された問題 (たとえば、トランク FQDN の名前が正しく構成されていない) の場合、通話分析は役立たされません。 この場合は、SBC ログを参照してください。 直接ルーティングは、問題の詳細な説明を SBC に送信します。これらの問題は、SBC ログから読み取り可能です。

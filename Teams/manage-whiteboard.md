@@ -1,5 +1,5 @@
 ---
-title: '[ホワイトボードの管理] Microsoft Teams'
+title: ホワイトボードを管理Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
@@ -10,7 +10,7 @@ audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
 description: この記事では、White Microsoft Teams board Web アプリを管理および使用する方法について説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,20 +20,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e7b9e659a933576f552bd5e25e2d1a5d4b9ccde1e47b2838bd55da107979915
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96887fe65ccec958f683f68d59ca9e73e169f103
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276393"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618463"
 ---
-# <a name="manage-the-whiteboard-in-microsoft-teams"></a>[ホワイトボードの管理] Microsoft Teams
+# <a name="manage-the-whiteboard-in-microsoft-teams"></a>ホワイトボードを管理Microsoft Teams
 
 Microsoft Whiteboardは、ユーザー、コンテンツ、アイデアが集う自由形式のデジタル キャンバスです。 Microsoft Teams 会議のホワイトボードの統合には Whiteboard Web アプリが搭載されています。このアプリを使用すると、Teams 会議の参加者は、共有のデジタル キャンバスで一緒に描画、スケッチ、書き込みを行えます。
 
-ユーザーはホワイトボードを共有して、会議中のすべての参加者がTeamsできます。 同じホワイトボードは、Windows 10、iOS、Web アプリ上のすべての Whiteboard アプリケーションで同時に使用できます。
+ユーザーはホワイトボードを共有して、会議中のすべての参加者がホワイトボードをTeamsできます。 同じホワイトボードは、Windows 10、iOS、Web アプリ上のすべての Whiteboard アプリケーションで同時に使用できます。
 
-Whiteboard アプリのオンとオフを切り替するには、「組織のアプリのMicrosoft Whiteboard[を有効にする」を参照してください](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)。 この設定は、組織全体に対して Whiteboard を有効または無効にし、組織全体に対して有効または無効にTeams。
+Whiteboard アプリのオンとオフを切り替にするには、「組織の Microsoft Whiteboard[を有効にする」を参照してください](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24)。 この設定は、組織全体に対して Whiteboard を有効または無効にし、組織全体に対して有効または無効にTeams。
 
 ## <a name="whiteboard-on-surface-hub"></a>ホワイトボード (Surface Hub
 

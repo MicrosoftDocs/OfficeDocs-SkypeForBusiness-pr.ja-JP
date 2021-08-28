@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: '概要: このトピックを参照して、初期アーカイブ オプションを構成する方法について説明します。Skype for Business Server。 アーカイブを展開するときに最初にアーカイブ構成を設定しましたが、展開後に構成を変更、追加、および削除できます。'
-ms.openlocfilehash: d3bc24edc4c4b130094541eb6bde00c63c8977910f8a45106c43032be32c2fb3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 186c6f656931b4ef5c1ad04363bc8bef132f1108
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312135"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611306"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>サーバーのアーカイブ オプションを構成Skype for Business Server
  

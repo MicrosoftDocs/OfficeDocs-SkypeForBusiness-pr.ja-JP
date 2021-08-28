@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 共存状態で Skype for Business Server 2019 を展開する前に、もう少し Active Directory タスクを実行して、2019 年のスキーマ、フォレスト、およびドメインを構成するSkype for Business Serverがあります。 スキーマ拡張機能は、2019 年に必要な Active Directory クラスと属性Skype for Business Serverします。 詳細については、「2019 年の Active Directory ドメイン サービスの準備」をSkype for Business Serverしてください。
-ms.openlocfilehash: 70d5c01524cb047f9aeedb801a1cde3f587c3cd0
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 632d5f209243aae17f87823088b5c03484dbc635
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372017"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592141"
 ---
 # <a name="skype-for-business-server-prepare-active-directory-for-skype"></a>Skype for Business Server: Active Directory for Skype
 

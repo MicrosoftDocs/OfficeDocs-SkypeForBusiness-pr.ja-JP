@@ -1,5 +1,5 @@
 ---
-title: 会議室と会議室で調整Microsoft Teamsを設定Surface Hub
+title: 会議室と会議室で調整されたMicrosoft Teamsを設定Surface Hub
 ms.author: dstrome
 author: dstrome
 ms.reviewer: rahulmi
@@ -11,14 +11,14 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 会議室Teamsを構成し、Surface Hubまたは他のデバイスが会議に参加するときに会議に参加する必要があります。
-ms.openlocfilehash: 5d46e8b43d0a8b31aa06dda78d1d2c0fb7a1ef55abdfffa2c4c6876be3938cb3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 21b8dc21b65748754f8a7903bc20cf55bd7c80c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339465"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592211"
 ---
 # <a name="set-up-coordinated-meetings-with-microsoft-teams-rooms-and-surface-hub"></a>会議室と会議で調整Microsoft Teamsを設定Surface Hub
 
@@ -37,7 +37,7 @@ Teams Rooms デバイスと Surface Hubs が会議を自動的に受け入れ、
 
 構成を変更する前に、どのデバイスが各会議室で何を行うのかを決定する必要があります。 つまり、特定の会議室について、アクティブなマイク、カメラ、ホワイトボードを持つデバイスを決定する必要があります。 デバイスの構成方法は特定の環境によって異なりますが、最初に一般的な推奨事項を次に示します。
 
-- **マイクTeams** 会議室デバイス
+- **会議室** Teamsマイク
 - **カメラ** Teams (既定ではオン) および Surface Hub (既定ではオフですが、参加者がオンにできます)
 - **Whiteboard Surface Hub**
 
@@ -46,7 +46,7 @@ Teams Rooms デバイスと Surface Hubs が会議を自動的に受け入れ、
 
 ## <a name="step-2-get-your-devices-upns"></a>手順 2: デバイスの UPN を取得する
 
-会議室で調整された会議エクスペリエンスを設定する場合は、その会議室内の Teams 会議室デバイスと Surface Hubs に、どのデバイスを調整する必要かを伝える必要があります。 これは、調整する必要があるデバイスのユーザー プリンシパル名 (UPN) を構成に追加することで行われます。 調整された会議用に設定する各デバイスの UPN が分からない場合は、次のコマンドを使用Microsoft 365 管理センター。 
+会議室で調整された会議エクスペリエンスを設定する場合は、その会議室内の Teams 会議室デバイスと Surface Hubs に、どのデバイスを調整する必要かを伝える必要があります。 これは、調整する必要があるデバイスのユーザー プリンシパル名 (UPN) を構成に追加することで行われます。 調整された会議に設定する各デバイスの UPN が分からない場合は、次のコマンドを使用Microsoft 365 管理センター。 
 
 管理者ロールを割り当て、管理者ロールにアクセスするMicrosoft 365 管理センター。 詳細については、「管理者ロールについて [」を参照してください](/microsoft-365/admin/add-users/about-admin-roles)。
 
@@ -54,7 +54,7 @@ Teams Rooms デバイスと Surface Hubs の UPN を取得するには、次の�
 
 1. にアクセスして、Microsoft 365 管理センターにサインインします https://admin.microsoft.com 。
 2. [ユーザー] **[アクティブ**  >  **なユーザー] に移動します**。
-3. Teams Rooms デバイスまたは Surface Hubの名前を [表示名] 列で見つける (ユーザーが多い場合は、[検索] ボックスを使用できます)。
+3. [表示名] 列で Teams Rooms デバイスまたは Surface Hub の名前を見つける (ユーザーが多い場合は、[検索] ボックスを使用できます)。
 4. [ユーザー名] 列で **UPN** を見つける ([ユーザー名] や [alias@contoso.com alias@contoso.onmicrosoft.com)。
 5. 調整された会議に参加するデバイスごとに、この操作を繰り返します。
 
@@ -70,11 +70,11 @@ Teams Rooms デバイスと Surface Hubs の UPN を取得するには、次の�
 | **オーディオが有効**      | 会議の参加者がマイクのオンとオフを切り替えるかどうかを決定します。 **オーディオの既定** が`false`に設定されているデバイスでは、参加者が誤ってマイクの電源を入れてしまい、オーディオのエコーやハウリングが発生しないように、この設定を`false`に設定しておく必要があります。<p>オーディオ **の既定値が に** 設定されている場合、この設定は無視され、参加者はマイクをミュートまたは `true` ミュート解除できます。          |
 | **ビデオの既定値**      | 会議の開始時にカメラがアクティブになるデバイスを決定します。 最適な操作性を実現するために、他のすべてのデバイスが`false`に設定されている間は、Teams ミーティング デバイスだけを`true`に設定することをお勧めします。          |
 | **ビデオが有効**      | 会議の参加者がカメラのオンとオフを切り替えるかどうかを決定します。 参加者が、Surface Hub ホワイトボードを使用している場合など、イベント参加者が別のデバイスで`true`に設定することができるようにします。 参加者がデバイスでカメラのオンとオフを切り替えることができないようにする場合は、`false`に設定します。<p> [ **ビデオの既定値]** が に設定されている場合、この設定は `true` 無視され、参加者はカメラのオンとオフを切り替えます。         |
-| **ホワイトボードの既定値** | 会議室デバイスTeams、会議参加者の 1 人が共有するホワイトボードを表示するかどうかを決定します。 この値を に設定することをお勧めします (Surface Hubがインストールされている場合)。また、まだない場合は に `false` `true` 設定することをお勧めします。 この設定は、Surface Hubs には影響しません。 Surface Hubs には、会議の参加者が共有するホワイトボードが常に表示されます。         |
-| **ホワイトボードが有効** | 会議の参加者がホワイトボードのオンとオフを切り替えるかどうかを決定します。 参加者がデバイスでホワイトボードのオンとオフを切り替えることができないようにする場合は、`false`に設定します。 <p>**Whiteboard の既定値が に** 設定されている場合、この設定は無視され、参加者はホワイトボードのオンとオフ `true` を切り替えます。
+| **ホワイトボードの既定値** | 会議室デバイスTeams、会議参加者の 1 人が共有するホワイトボードを表示するかどうかを決定します。 この値は、アプリケーションがインストールされている場合Surface Hub、ない場合は に `false` `true` 設定することをお勧めします。 この設定は、Surface Hubs には影響しません。 Surface Hubs には、会議の参加者が共有するホワイトボードが常に表示されます。         |
+| **ホワイトボードが有効** | 会議の参加者がホワイトボードのオンとオフを切り替えるかどうかを決定します。 参加者がデバイスでホワイトボードのオンとオフを切り替えることができないようにする場合は、`false`に設定します。 <p>**Whiteboard の既定値が に** 設定されている場合、この設定は無視され、参加者はホワイトボードのオンと `true` オフを切り替えます。
 | **信頼できるアカウント**   | これは、それぞれの Teams ミーティング デバイスまたは Surface Hub 用の UPN をカンマで区切ったリストで、デバイスが会議への参加依頼を承諾するか、または送信する必要があるかを指定します。 |
 
-以降の列で、会議室デバイスと Surface Hubs Teamsを追加します。 各列で、会議室に必要なエクスペリエンスに対応する値を入力します。 次に示すのは、1 つの Teams デバイスと 1 つのデバイスSurface Hub。
+以降の列で、会議室デバイスと Surface Hubs Teamsを追加します。 各列に、会議室に必要なエクスペリエンスに対応する値を入力します。 次に示すのは、Teams Rooms デバイスと 1 つの Surface Hub。
 
 - Teams デバイス
   - 会議が開始されると、 **音声と** ビデオがオンにされます。 参加者 **は、音声** とビデオのオンとオフを切り替えます。
@@ -94,7 +94,7 @@ Teams Rooms デバイスと Surface Hubs の UPN を取得するには、次の�
 
 ## <a name="step-4-configure-teams-rooms-device"></a>手順 4: Teams Rooms デバイスを構成する
 
-デバイスのタッチ スクリーンを使用して Teams 会議室デバイスで調整会議を設定するか、多数のデバイスを設定する必要がある場合に、中央の場所からセットアップする必要がある場合は、XML 構成ファイルを使用できます。
+デバイスのタッチ スクリーンを使用して Teams 会議室デバイスで調整会議を設定するか、多数のデバイスを設定する必要がある場合に中央の場所からセットアップする場合は、XML 構成ファイルを使用できます。
 
 前の手順で作成したワークシートを使用して、デバイスの設定に役立ちます。
 
@@ -102,7 +102,7 @@ Teams Rooms デバイスと Surface Hubs の UPN を取得するには、次の�
 
 デバイスで調整された会議を設定するには、次の操作を行います。
 
-1. **[...] を選択します。その**  >  **他設定。**
+1. **[...] を選択します。その他**  >  **設定。**
 2. 管理者パスワードを入力し、[はい] を **選択します**。
 3. [調整 **された会議] を選択します**。
 4. [オプション **] で**、[**調整された会議] を に**_設定します_。
@@ -152,15 +152,15 @@ Teams Rooms デバイスと Surface Hubs の UPN を取得するには、次の�
 6. デバイスを再起動します。 これには、次の 2 つの方法があります。
 
     - **リモート PowerShell** リモート PowerShell を使用して、デバイスで [シャットダウン] コマンドを実行できます。 詳細については [、「PowerShell を使用したリモート管理」を参照してください](../rooms/rooms-operations.md)。
-    - **Restart-Computer の実行** ローカル コンピューターで コマンドレットを実行し、再起動するデバイスのコンピューター名 `Restart-Computer` を指定できます。 詳細については [、Restart-Computer に関するページを参照してください](/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7)。
+    - **Restart-Computer を実行する** ローカル コンピューターで `Restart-Computer` コマンドレットを実行し、再起動するデバイスのコンピューター名を指定できます。 詳細については [、Restart-Computer に関するページを参照してください](/powershell/module/microsoft.powershell.management/restart-computer?view=powershell-7)。
 
 ## <a name="step-5-configure-surface-hub"></a>手順 5: 構成Surface Hub
 
-Windows 構成デザイナーを使用すると、調整会議の設定を Surface Hubs に適用するために使用できるプロビジョニング パッケージを作成できます。 上記で作成した XML ファイルを構成デザイナー Windowsに貼り付け、プロビジョニング パッケージを作成します。
+Windows 構成デザイナーを使用すると、調整会議の設定を Surface Hubs に適用するために使用できるプロビジョニング パッケージを作成できます。 上記で作成した XML ファイルを構成デザイナーの Windowsに貼り付け、プロビジョニング パッケージを作成します。
 
 ### <a name="create-coordinated-meetings-xml-configuration-file-for-surface-hub"></a>会議用の調整された会議 XML 構成ファイルを作成Surface Hub
 
-構成Windows構成デザイナーとMicrosoft Intune、調整された会議の構成を Surface Hubs に適用するために使用されます。 構成は XML を使用して定義されます。 先に進む前に、適用する XML を作成する必要があります。
+構成WindowsとMicrosoft Intune、調整された会議の構成を Surface Hubs に適用するために使用されます。 構成は XML を使用して定義されます。 先に進む前に、適用する XML を作成する必要があります。
 
 調整された会議 XML 構成ファイルの構文を次に示します。
 

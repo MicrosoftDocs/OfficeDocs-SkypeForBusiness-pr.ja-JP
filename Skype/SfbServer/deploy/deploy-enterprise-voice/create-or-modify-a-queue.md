@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 応答グループ キューを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: d8b875063d37d38ece7a6ec59c9b0bffbb16ee091e31f67087eb2cc0b52616e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8dc93e2d171b45b81527c4706b4b4bbb4f978015
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338745"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611262"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>キューを作成または変更Skype for Business
  

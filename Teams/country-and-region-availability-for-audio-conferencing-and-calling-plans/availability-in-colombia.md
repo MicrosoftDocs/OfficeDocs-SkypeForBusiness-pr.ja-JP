@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: コロンビアで使用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
-ms.openlocfilehash: 1994af516159cbf7332a0fe0027093d3da85f78476dffe85a68f5eac8d3c6da1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: コロンビアで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
+ms.openlocfilehash: f3bae061d8b4b6d53b3a985b9afb781faf5e5292
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308906"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626369"
 ---
 # <a name="availability-in-colombia"></a>コロンビアでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-コロンビアで使用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
+コロンビアで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -83,7 +83,7 @@ ms.locfileid: "54308906"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

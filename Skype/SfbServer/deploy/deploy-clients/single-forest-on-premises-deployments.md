@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: このトピックでは、単一フォレストのオンプレミス環境Skype Room System を展開する方法について説明します。
-ms.openlocfilehash: 9244ceca231142757a2a82f140b6d17613486117a86af6d6c9248e5a106a958f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7a68171ebf8d56b61ed77c6cef9739b701a0c07e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312105"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591941"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>SkypeRoom System 単一フォレストのオンプレミス展開
  

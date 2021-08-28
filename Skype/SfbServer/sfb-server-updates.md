@@ -9,16 +9,16 @@ ms.topic: reference
 ms.prod: skype-for-business-server
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 2015/2019 Skype for Business Server Lync 2013 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細を取得し、更新プログラムをダウンロードします。
-ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2101e8ca02d227837aef0b9c49ce0d2e8d1144bb
+ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341522"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58683321"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
@@ -56,6 +56,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 
 |パッケージ名|サポート技術情報番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business Server 2015 累積的な更新プログラム 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2021 年 8 月 |
 |Skype for Business Server 2015 累積的な更新プログラム 11 の修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 7 月 |
 |Skype for Business Server 2015 累積的な更新プログラム 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 5 月 13 日 |
 |Skype for Business Server 2015 累積的な更新プログラム 10 修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 8 月 |
@@ -266,8 +267,9 @@ Microsoft [Lync Server 2010 リソース](https://www.microsoft.com/download/en/
 
 ソフトウェアの更新プログラムには、更新プログラム、更新プログラムのロールアップ、サービス パック、機能パック、重要な更新プログラム、セキュリティ更新プログラム、修正プログラムが含まれます。Microsoft のソフトウェアの更新プログラムで使用される一般的な用語の説明については、「[KB 824684](https://support.microsoft.com/kb/824684)」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [インストール Skype for Business Server 2015](./deploy/install/install.md)
 - [2015 Skype for Business Serverへのアップグレード](./deploy/upgrade-to-skype-for-business-server.md)
 - [Windows インストーラー (MSI) を使用しているバージョンの Skype for Business の最新の更新プログラム](sfb-client-updates.md)
+- 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: '概要: エクスペリエンスの品質 (QoE) 設定を削除する方法については、Skype for Business Server。'
-ms.openlocfilehash: 8f97ed5fc1a59b68a4087406c14ad4414cc106ad25401322f025101f09aabe4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f4200916920042bba021a423d33d8088da2fd3d0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305429"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598984"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>[エクスペリエンスの品質] 構成設定を削除Skype for Business Server
  

@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 代理トランザクション用に監視ノードをインストールSkype for Business Server構成する方法。
-ms.openlocfilehash: 83e5fe9d6e825e7d27b590124c9f39b41ab75d10
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: c73958e9173040e7fb800fdb2d1fd36c7ab65ae1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53750832"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637012"
 ---
 # <a name="learn-how-to-install-and-configure-watcher-nodes"></a>監視ノードをインストールして構成する方法の詳細
  
@@ -37,7 +37,7 @@ ms.locfileid: "53750832"
   
 監視ノードで使用できる代理トランザクションは以下のとおりです。
   
-|**コマンドレット名 (テスト名)**|**Description**|
+|**コマンドレット名 (テスト名)**|**説明**|
 |:-----|:-----|
 |Test-CsAddressBookService (ABS)  <br/> |ユーザーが連絡先リストに含めなかったユーザーを参照できると確認します。  <br/> |
 |Test-CsAddressBookWebQuery (ABWQ)  <br/> |ユーザーが HTTP 経由で連絡先リストに登録されていないユーザーを参照できる状態を確認します。  <br/> |
@@ -154,7 +154,7 @@ Operations Manager System Centerファイルがインストールされた後、
   
 監視ノードの構成時には、そのノードが使用する認証方法の種類も選択する必要があります。 Skype for Business Server 2015 では、信頼できるサーバー認証または資格情報認証の 2 つの認証方法のいずれかを選択できます。 次の表に、これら 2 つの方法の違いを示します。
   
-|&nbsp;|**Description**|**サポートされている場所**|
+|&nbsp;|**説明**|**サポートされている場所**|
 |:-----|:-----|:-----|
 |TrustedServer  <br/> |内部サーバーを偽装する証明書を使用し、認証チャレンジをバイパスします。  <br/> 各監視ノードで多数のユーザー パスワードではなく、1 つの証明書を管理する管理者に役立ちます。  <br/> |エンタープライズの内側。  <br/> この方法では、監視ノードは監視対象のプールと同じドメイン内にある必要があります。 監視ノードとプールが異なるドメインにある場合は、代わりに資格情報認証を使用します。  <br/> |
 |ネゴシエート  <br/> |ユーザー名とパスワードを各監視ノードの Windows 資格情報マネージャーに保管します。  <br/> このモードでは、より多くのパスワード管理が必要ですが、企業外の監視ノードの唯一のオプションです。 このような外側に位置する監視ノードを認証の際に信頼済みのエンドポイントとして扱うことはできません。  <br/> |エンタープライズの外側。  <br/> エンタープライズの内側。  <br/> |

@@ -17,46 +17,46 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: 地域で利用可能なプランの表示、ライセンスの割り当て&購入、電話番号の取得、緊急対応の住所の追加など、通話プランの&します。
-ms.openlocfilehash: 0eedd72947c4969fc7f42d75d5241ca38c69e0c2e22172444a0d349b6a77b611
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 地域で利用可能なプランの表示、ライセンスの割り当て&の購入、電話番号の取得、緊急対応の住所の追加など、通話プランの&します。
+ms.openlocfilehash: 0e44c9ec30efef26840bcb79582186ed5e0e3678
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348662"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618483"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
 
-他の Teams ユーザーへの通話は無料ですが、ユーザーが社外の電話に発信するには、Microsoft 365 または Office 365 で国内通話プランまたは国際通話プランを取得します。 ビジネス向け通話プランは簡単にセットアップできます。  通話プランの詳細については、「どの通話プランが最適ですか [?」を参照してください](calling-plan-landing-page.md)。
+他の Teams ユーザーへの通話は無料ですが、ユーザーが社外の電話に発信できる場合は、Microsoft 365 または Office 365 で国内通話プランまたは国際通話プランを取得します。 ビジネス向け通話プランは簡単にセットアップできます。  通話プランの詳細については、「どの通話プランが最適ですか [?」を参照してください](calling-plan-landing-page.md)。
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>手順 1: お客様の国/地域で通話プランが使用できるかどうかを確認する
 [電話会議および通話プランが利用可能な国と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) で、お住まいの国と地域を選択し、電話会議、通話プラン、電話システム、有料または無料電話番号、通信クレジットについての情報を確認します。
 
-通話プランが国または地域で利用できない場合は、直接ルーティングを使用してオンプレミスのテレフォニー インフラストラクチャを接続して、電話システム。  詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
+お客様の国または地域で通話プランを利用できない場合は、直接ルーティングを使用してオンプレミスのテレフォニー インフラストラクチャを接続電話システム。  詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
   
 ## <a name="step-2-buy-and-assign-licenses"></a>手順 2: ライセンスを購入して割り当てる
-1. この機能電話システムが Microsoft 365 プランまたは Office 365 プランに含まれていない場合は、電話システムアドオン ライセンスの購入 **が** 必要な場合があります。 ライセンスを取得した **電話システム、** 通話プランを購入するか、Microsoft 365 [をOffice 365。](calling-plans-for-office-365.md) ライセンスとプランの購入については、[Microsoft Teams アドオンライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) を参照してください。 
+1. 電話システム機能が Microsoft 365 プランまたは Office 365 プランに含まれていない場合は、電話システム アドオン ライセンスの購入が必要な場合があります。 ライセンスを取得 **した電話システム、** 通話プランを購入 [するか、 をMicrosoft 365購入Office 365。](calling-plans-for-office-365.md) ライセンスとプランの購入については、[Microsoft Teams アドオンライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) を参照してください。 
     
     > [!TIP]
     > **電話システム** と Microsoft 365 または Office 365 の通話プランは一緒に行うので、通話プランを購入するオプションを確認するには、最初に 電話システム ライセンス **を持っている必要** があります。
   
-2. まずライセンスを割り当て、組織内のユーザーに通話プランを割り当てます。 「[アドオン ライセンスMicrosoft Teams割り当てる」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+2. まずライセンスを割り当て、組織内のユーザーに通話プランを割り当てます。 「[アドオン ライセンスMicrosoft Teams割り当て」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
 ## <a name="step-3-get-phone-numbers"></a>手順 3: 電話番号を取得する
 新しいユーザー番号を取得する方法には次の 3 通りあります。
 
 - **管理センター Teams使用します。** 一部の国/地域では、Teams 管理センターを使用してユーザーの番号を取得できます。「ユーザーの電話番号を取得する」[を参照してください](getting-phone-numbers-for-your-users.md)。
     
-- **既存の番号を移行する。** 現在のサービス プロバイダーまたは携帯電話会社から既存の番号を、既存の番号を現在のサービス プロバイダーまたは電話会社にMicrosoft 365またはOffice 365。 詳細については、「組織の電話番号[を管理する」または](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)「Teams電話番号を転送する[」を参照してください](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+- **既存の番号を移行する。** 現在のサービス プロバイダーまたは携帯電話会社から既存の番号を、既存の番号をMicrosoft 365またはOffice 365。 詳細については、「組織の電話番号を管理[する」または](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)「Teams電話番号を転送する[」を参照してください](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
   
-- **新しい番号には申請書を使用します。** (お客様の国/地域によっては) Teams 管理センターを使用して新しい電話番号を取得できない場合や、特定の電話番号または市番が必要になる場合があります。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」をご覧ください。 
+- **新しい番号には申請書を使用します。** (お客様の国/地域によっては) Teams 管理センターを使用して新しい電話番号を取得できない場合や、特定の電話番号または市番が必要な場合があります。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」をご覧ください。 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>手順 4: 組織の緊急連絡先の住所と場所を追加する
 <a name="bkmk_add_addresses"></a>緊急対応の住所は、電話番号に関連付けられている必要があります。 この関連付けは、国や地域によって異なる場合があります。 例えば米国では、電話番号をユーザーに割り当てるときに、緊急対応の住所を関連付ける必要があります。 英国では、Microsoft 365 または Office 365 から電話番号を取得する場合、または現在のサービス プロバイダーから電話番号を転送するときに、緊急対応の住所を電話番号に関連付ける必要があります。 
@@ -90,10 +90,10 @@ Windows PowerShell を使うことができる場合は、次のコマンドレ�
     
 - [Set-CsOnlineVoiceUser](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps): 電話番号を設定します。
     
-詳細については[、「PowerShell の概要Teamsを参照してください](teams-powershell-overview.md)。
+詳細については[、「PowerShell の概要」Teamsを参照してください](teams-powershell-overview.md)。
   
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)

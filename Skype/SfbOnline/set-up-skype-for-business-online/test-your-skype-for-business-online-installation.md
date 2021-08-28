@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 5afc5ec98e12ac0a30e6bf7974e17b1cb4552e90322a894407decbde4c94ca17
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310146"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611466"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Skype for Business Online インストールをテストする
 
@@ -64,7 +64,7 @@ ms.locfileid: "54310146"
 
 各テスト コンピューター上で、次の手順を実行します。
 
-1. ホーム ページMicrosoft 365またはOffice 365に移動し、テスト アカウントのいずれかの資格情報でサインインします。
+1. Microsoft 365またはOffice 365に移動し、テスト アカウントのいずれかの資格情報でサインインします。
 
 2. [ **設定**] ![設定: プロファイルを更新し、ソフトウェアをインストールして、クラウドに接続する](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) に移動し、[ **ソフトウェアをインストールしてクラウドに接続する**] をクリックします。
 
@@ -139,7 +139,7 @@ Skype for Business Online 会議に電話でアクセスできるようにする
 |[Skype for Business (Lync) 会議で PowerPoint のスライドをプレゼンテーションする](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |PowerPoint プレゼンテーションは、全員のコンピューターの Skype for Business 会議ステージ ウィンドウに表示されます。  <br/> |
 |[Skype for Business (Lync) 会議でファイルを転送する](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |アップロードすると、他の会議参加者が添付ファイルを表示し、ダウンロードできるようになります。  <br/> |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

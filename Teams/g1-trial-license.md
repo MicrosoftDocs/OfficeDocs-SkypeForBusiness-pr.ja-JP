@@ -8,19 +8,19 @@ audience: Admin
 ms.reviewer: aarimm
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: 米国政府機関の場合、Microsoft Teams を所有しておらず、急いで必要な場合は、COVID-19 (コロナウィルス) の発生により遠隔勤務または在宅勤務 (WFH) の必要に迫られているユーザー向けの Office 365 G1 試用版を展開してください。
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad58e4388c6a20dc64f67dff5097158ac5c26bbf
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c1208636547258524816ca77e57ddc3b83646144
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234522"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618473"
 ---
 # <a name="manage-the-office-365-g1-trial-for-us-government"></a>米国政府機関向けの Office 365 G1 試用版を管理する 
 

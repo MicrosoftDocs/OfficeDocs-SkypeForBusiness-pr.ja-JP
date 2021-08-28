@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: メキシコの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
-ms.openlocfilehash: bce8f3f008f8639f51cd1e0a9cacf52784c2d3f2b9fc3f6714b806ac801eaeeb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b9ffcc08b92fe83c2d8228faac50b109698a275
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330851"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592161"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>メキシコでのフリーダイヤル制限
 
@@ -48,7 +48,7 @@ ms.locfileid: "54330851"
 > [!NOTE]
 > **ダイヤル形式**:
 >
-> - 800-389 は、バジャス島では特別です
+> - 800-389 は、バハト人向けと特別なサービスです
 > - 800-534 は特別で、バルバドスの場合は
 > - 800-623 は、バミューダ諸島では特別です
 > - 800-415 または 907 または 751 はドム共和国用です

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: トポロジ ビルダーでは、コンソール ツリーで監視サーバーを右クリックし、ツールバーの [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックしてから [プロパティの編集] をクリックし、次のいずれかのオプションを変更することで、個々の監視サーバーのプロパティを編集できます。
-ms.openlocfilehash: 27b29b62980c7df7e1fea24102b73b3acc0957c63104c5df5ddd9ec027c6b77e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06e6d546618b0304c587f3240f38ff9384bd968f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298217"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599068"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>監視サーバー全般設定エキスパンダー
  

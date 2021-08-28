@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,16 +23,16 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボードを有効にし、使用する方法と、通話品質の概要レポートを取得する方法について学習します。
-ms.openlocfilehash: e7e376b0cb610f59a62dd5ee19dddb05423549a9
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: a6f39fe728a6616e8f70edb86d18e8cc27cc8501
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58369102"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637052"
 ---
 # <a name="how-to-set-up-call-quality-dashboard"></a>通話品質ダッシュボードを設定する方法
 
-で Microsoft 通話品質ダッシュボード (CQD) を開 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) きます (管理者の資格情報でサインインします)。 または、管理センターの [Teamsに移動し、[通話品質ダッシュボード **] を選択します**。 
+で Microsoft 通話品質ダッシュボード (CQD) を開 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) きます (管理者の資格情報でサインインします)。 または、管理センターのTeamsし、[通話品質ダッシュボード]**を選択します**。 
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット":::
 
@@ -62,7 +62,7 @@ CQD では、Microsoft Teams、Skype for Business Online、および Skype for B
 |グローバル リーダー |はい         |はい         |はい         |いいえ         |
 |レポート閲覧<sup>者 1</sup>     |はい         |いいえ         |はい         |いいえ         |
 
-<sup>1</sup>レポート閲覧者は、CQD レポートを読み取る[](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)だけでなく、管理センター内のすべてのアクティビティ レポートと、導入コンテンツ パック からのすべてのレポートMicrosoft 365[表示できます](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)。
+<sup>1</sup>レポート閲覧者は、CQD レポートを読み取る[](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)だけでなく、管理センター内のすべてのアクティビティ レポートと、導入コンテンツ パック からのすべてのMicrosoft 365[を表示できます](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)。
 
 > [!NOTE]
 > [EUII (](CQD-data-and-reports.md#euii-data)エンドユーザーを特定できる情報) が表示されない場合、この情報の表示が許可されているロールの 1 つがある場合、CQD は EUII を 28 日間のみ保持します。 28 日より前のデータは削除されます。
@@ -82,7 +82,7 @@ CQD では、Microsoft Teams、Skype for Business Online、および Skype for B
 詳細[については、「Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)」を参照してください。
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Teams の通話品質の向上と監視](monitor-call-quality-qos.md)
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoGatewayScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the VIS pool in Skype for Business Server 2015」を参照してください。
-ms.openlocfilehash: ee4c132d213cb2dbf7531efb5a53bf1c463703030a5aec69fd0e0318f57ad9da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 38f3bfaaaea5aa976c370a2c46cf744d58021b3c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290675"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599058"
 ---
 # <a name="video-gateway-scope"></a>ビデオ ゲートウェイ スコープ
  
