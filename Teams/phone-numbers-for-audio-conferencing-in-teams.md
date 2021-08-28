@@ -15,7 +15,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,16 +23,16 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: ダイヤルイン会議番号がある国と地域、およびそれらの番号の自動割り当て方法について説明します。
-ms.openlocfilehash: f72a8929ae9d685642857764e7c0d4541f762ce875adafdd0a46a6de1b471483
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 30cbc91f4f9a5fd47c9e8469781abb3ac67b0c1e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276133"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632031"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の電話番号
 
-電話番号の電話会議 **を設定** するとMicrosoft Teamsダイヤルイン電話番号が組織に自動的に割り当てられます。 電話会議ブリッジに割り当てられている電話番号を表示するには、Microsoft Teams 会議ブリッジ に  >  **移動します**。 詳細については、「電話会議番号 [の一覧を表示する」を参照してください](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
+電話番号の電話会議 **を設定** するとMicrosoft Teamsダイヤルイン電話番号が自動的に組織に割り当てられます。 電話会議ブリッジに割り当てられている電話番号を表示するには、Microsoft Teams 会議ブリッジ に  >  **移動します**。 詳細については、「電話会議番号 [の一覧を表示する」を参照してください](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>電話会議のサービス対象範囲と価格情報
@@ -76,6 +76,6 @@ Microsoft Teamsが Outlook または Outlook Web App で会議をスケジュー
 - ユーザーのダイヤルイン電話番号を設定するには、「招待に含まれる電話番号を設定 [する」を参照してください](set-the-phone-numbers-included-on-invites-in-teams.md)。
 
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [電話会議を試用または購入するには、Microsoft 365またはOffice 365](/skypeforbusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

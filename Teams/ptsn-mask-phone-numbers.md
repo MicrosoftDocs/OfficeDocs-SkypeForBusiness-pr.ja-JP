@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 会議中に電話番号をマスクするMicrosoft Teamsする
-ms.openlocfilehash: f5b2e6066b41d21e4f3761223fd97ff2fd7ac4c72d4a61356115ea212b0409b9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1a006450c1d98e6db0b02ceb953682efdbe3fd6a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285786"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631991"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>会議で電話番号をMicrosoft Teamsする
 
@@ -31,9 +31,9 @@ ms.locfileid: "54285786"
 
 ![マスクされた電話番号の例](media/hiddenPhoneNum.png)
 
-特定の業界の使用例では、管理者は、テナントに編成された会議で電話会議参加者の電話番号がどのように表示されるのか選択できます。 管理者は、次の 3 つのオプションから選択できます。
+特定の業界の使用例では、管理者は、テナントで開催される会議で電話会議参加者の電話番号がどのように表示されるのか選択できます。 管理者は、次の 3 つのオプションから選択できます。
 
-- 電話は、外部参加者からのみマスクされます。 会議開催者のテナントに属する参加者には、完全な電話番号が引き続き表示されます。
+- 電話は、外部参加者からのみマスクされます。 会議開催者のテナントに属している参加者には、完全な電話番号が引き続き表示されます。
 - 電話は、開催者を除く会議のすべてのユーザーからマスクされます。
 - 電話はマスク解除され、会議の全員に表示されます。
 

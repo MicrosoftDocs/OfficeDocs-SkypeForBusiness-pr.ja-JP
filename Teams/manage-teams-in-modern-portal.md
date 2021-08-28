@@ -9,7 +9,7 @@ audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
 description: Microsoft Teams 管理センターで、組織が共同作業用に設定したチームを表示または更新する方法について説明します。
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314b56c4787049f3ca210de5b55a22ab8487e78d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232682"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632041"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 

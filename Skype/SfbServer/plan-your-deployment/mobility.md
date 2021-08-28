@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: モビリティの実装を計画Skype for Business Server。
-ms.openlocfilehash: 4af41fd9b62205cc8672646bc8967426aa246ad1af495ccf1713090c32616698
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 59523076dc3b59b92af41fc85ef4193a92c87d08
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352675"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632721"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>モビリティを計画する Skype for Business Server
  
@@ -242,7 +242,7 @@ Skype for Business モバイル クライアントに自動検出を使用して
 > [!NOTE]
 > これらのすべての機能のスコープは、グローバル/サイト/ユーザーです。 
   
-|**機能**|**パラメーター名**|**Description**|**既定の設定**|
+|**機能**|**パラメーター名**|**説明**|**既定の設定**|
 |:-----|:-----|:-----|:-----|
 |モビリティの有効化  <br/> |EnableMobility  <br/> |モバイル クライアントがインストールされている特定のスコープSkype for Businessを制御します。 ポリシーが False に設定されている場合、ユーザーはクライアントでサインインできます。  <br/> |正解  <br/> |
 |外部音声  <br/> |EnableOutsideVoice  <br/> |ユーザーが[仕事を経由して通話] を使用できる機能を使用すると、ユーザーは携帯電話番号の代わりに自分の電話番号を使用して通話を送受信できます。 False に設定されている場合、ユーザーは仕事用電話番号を使用するときに携帯電話で通話を行う、または受信できない。  <br/> |正解  <br/> |

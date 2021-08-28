@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerExternalIPv6Page
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9c43d46-374e-4dc9-858c-54a021b69947
 description: '[外部 IPv6 アドレス] に、Access Edge サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。'
-ms.openlocfilehash: 251059621db08e69698977476b78f42bea67ff2b90ad44201d93d32072eea636
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b09eb7306bee38cf2e47d11cbd1cd4fa6a4a891e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320479"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633071"
 ---
 # <a name="add-edge-server-external-ipv6"></a>エッジ サーバー外部 IPv6 の追加
  

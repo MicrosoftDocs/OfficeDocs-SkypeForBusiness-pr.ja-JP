@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: '概要: これらのリンクを参照して、2015 年 2015 年のバージョンをインストールして構成し、Skype for Business Serverバージョンの Lync Server からアップグレードする方法について説明します。'
-ms.openlocfilehash: 91ef8b8ced42df0eb079f490cb91ccc3d0a72fba9949d36fe3b540c2e7403b54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9cfe9f89fa9932391a8a4e7bfd2bd4fa13e16f60
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340153"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609904"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>2015 Skype for Business Serverの展開
  

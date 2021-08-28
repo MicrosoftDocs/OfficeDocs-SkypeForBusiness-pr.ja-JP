@@ -9,28 +9,28 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: この記事では、Android 上の会議室Microsoft Teamsについて説明します。
-ms.openlocfilehash: 3ea15b8d242c9aa4685b91cdffb13c7c3a55a752f8a1c9d387f7c858f04845ca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 38d8ce263e3a9628dde45d22729f1a9ce4f944a3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321499"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632561"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Android Microsoft Teams会議室を展開する
 
 Android 上Microsoft Teams会議室のデプロイは、次のフェーズに分け可能です。
 
 - **サイトの準備** デプロイの場所 (会議室) がデプロイ要件を満たしていることを確認します。
-- **サービスの準備** リソース アカウントを作成し、デバイスに割り当てる (「リソース アカウントを使用してリソース アカウントを [作成する」を](resource-account-ui.md)Microsoft 365 管理センター)。 専用ルーム ライセンスを使用することをお勧めしますが、適切にライセンスされたエンド ユーザー アカウントは、Android 上の Teams にサインインすることもできます。
-- **構成とデプロイ** 会議室をTeamsし、必要な周辺機器を接続します (詳細については、製造元のドキュメントを参照してください)。
+- **サービスの準備** リソース アカウントを作成し、デバイスに割り当てる (「リソース アカウントを使用してリソース アカウントを [作成する」をMicrosoft 365 管理センター)。](resource-account-ui.md) 専用ルーム ライセンスを使用することをお勧めしますが、適切にライセンスされたエンド ユーザー アカウントは、Android 上の Teams にサインインすることもできます。
+- **構成とデプロイ** 会議室Teamsし、必要な周辺機器を接続します (詳細については、製造元のドキュメントを参照してください)。
 
-会議室をTeamsするには、グローバル管理者、サービス管理者、Teamsデバイス管理者Teams必要があります。管理者ロールの詳細については、「管理者ロールを使用してMicrosoft Teams[を管理する」を](../using-admin-roles.md)Teams。
+会議室をTeamsするには、グローバル管理者、サービス管理者、Teamsデバイス管理者Teams必要があります。管理者ロールの詳細については、「管理者ロールを使用[してMicrosoft Teams管理者ロールを管理する」を](../using-admin-roles.md)Teams。
 
 ## <a name="site-readiness"></a>サイトの準備
 
@@ -49,12 +49,12 @@ Android 上Microsoft Teams会議室のデプロイは、次のフェーズに分
 > [!TIP]
 > 「帯域幅の計画とリアルタイム トラフィックに対するネットワーク[の適合性の評価Teams](../prepare-network.md)ネットワークを準備する」を参照してください。
 >
-> 複数のデバイスとインターネットの間にプロキシ Teams配置はお勧めしません。 プロキシ サーバーとプロキシ サーバーの詳細については、Teams のプロキシ サーバーに関[するTeams。](../proxy-servers-for-skype-for-business-online.md)
+> 複数のデバイスとインターネットの間にプロキシ Teams配置はお勧めしません。 プロキシ サーバーとプロキシ サーバーの詳細については、Teams のプロキシ[サーバーに関するTeams。](../proxy-servers-for-skype-for-business-online.md)
 
 |    |     |
 |-----------|------------|
 | ![判断ポイントを表すアイコン](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトがコラボレーション バーのサイト準備要件を満たしていることを確認Microsoft Teams。</li><li>各サイトに十分な帯域幅があることを確認します。</li></ul>|
-| ![次の手順を示すアイコン](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>コラボレーション バーのデプロイと構成の計画を開始します。</li></ul>|
+| ![次の手順を示すアイコン](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>コラボレーション バーのデプロイと構成の計画を開始します。</li></ul>|
 
 ## <a name="service-readiness"></a>サービスの準備
 
@@ -64,7 +64,7 @@ Teams Rooms をデプロイする前に、Microsoft 365 リソース アカウ�
 
 リソース アカウントを設定するMicrosoft 365、リソース アカウントのライセンスを購入ミーティング ルーム必要があります。 このミーティング ルームライセンスには、組織内のユーザーが会議や会議を通じて会議室を予約できるリソース メールボックスOutlook含Teams。 このライセンスでは、会議参加者間でのビデオ会議と電話会議と画面共有も可能です。
 
-外部の電話番号との間で通話を受信または発信する必要がある場合は、通話プランまたはアドオン ライセンス Microsoft 365 Business Voice[必要な場合があります](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)。 組織で直接ルーティングを有効にしている場合は、その SKU ミーティング ルーム必要です。
+外部の電話番号との間で通話を受信または発信する必要がある場合は、通話プランまたはアドオン ライセンス Microsoft 365 Business Voice[必要な場合があります](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business)。 組織内で直接ルーティングを有効にしている場合は、その SKU ミーティング ルーム必要です。
 
 リソース アカウントを作成するときに、アカウントで会議出席依頼を自動的に承諾または拒否するか、定期的な会議を許可するか、ユーザーがリソースを予約できる時間を事前に指定するかなどについて選択できます。
 
@@ -75,7 +75,7 @@ Teams Rooms をデプロイする前に、Microsoft 365 リソース アカウ�
 |    |     |
 |-----------|------------|
 | ![判断ポイントを表すアイコン](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>外部の電話の送受信を行うかどうかを決定し、リソース アカウントのライセンス要件を特定します。</li></ul>|
-| ![次の手順を示すアイコン](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>リソース アカウントを準備します。</li></ul>|
+| ![次の手順を示すアイコン](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リソース アカウントを準備します。</li></ul>|
 
 ## <a name="configuration-and-deployment"></a>構成と展開
 
@@ -94,7 +94,7 @@ Microsoft 365 リソース アカウントを使用してコラボレーショ�
 プライベート使用のために Teamsルームを個々のユーザーに割り当てる場合は、追加のアカウントを設定する必要はありません。 ユーザーは、個人用アカウントを使用してコラボレーション バーにサインインできます。
 
 > [!TIP]
-> リソース アカウントの表示名をわかりやすいMicrosoft 365わかりやすい名前にします。 これらは、会議室を検索して会議に追加するときにTeams表示される名前です。 *サイト* ルーム名 ( 最大会議室の容量) などの規則を使用できます。そのため、たとえば、ロンドンの 4 人の会議室である Curie は、表示名 - LON-CURIE(4)を持つ場合があります。
+> リソース アカウントの表示名をMicrosoft 365わかりやすい名前にします。 これらは、会議室を検索して会議に追加するときにTeams表示される名前です。 サイト ルーム名 (最大会議室の容量) などの規則を使用できます。そのため、たとえば、ロンドンの 4 人の会議室である Curie は、表示名 - LON-CURIE(4)を持つ場合があります。
 
 |    |     |
 |-----------|------------|
@@ -107,12 +107,12 @@ Microsoft 365 リソース アカウントを使用してコラボレーショ�
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> 会議室をサイトにTeamsし、構成とテストを実行するリソースを特定します。</li></ul>|
+| ![判断ポイントを表すアイコン](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> Teams Rooms をインストールし、構成とテストを実行するリソースを特定します。</li></ul>|
 | ![次の手順を示すアイコン](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>|
 
 ### <a name="testing"></a>テスト
 
-会議室をデプロイしたTeamsテストする必要があります。 Teams 会議室にサインインし、期待される機能が機能している必要があります。 管理センターの [デバイス] タブの [コラボレーションバー] セクションに表示Microsoft Teams強くお勧めします。 また、品質とパフォーマンスを確認するために、テスト通話や会議を多数行う必要があります。
+会議室をデプロイしたTeamsテストする必要があります。 会議室にTeamsし、期待される機能が機能している必要があります。 管理センターの [デバイス] タブの [コラボレーションバー] セクションに表示Microsoft Teams強くお勧めします。 また、品質とパフォーマンスを確認するために、テスト通話や会議を多数行う必要があります。
 
 Microsoft Teams の一般的なロールアウトの一環として、通話品質ダッシュボード (CQD) のファイルの作成、品質の傾向の監視、およびエクスペリエンスの品質レビュー プロセスへの参加を構成することをお勧めします。 詳細については、「エクスペリエンスの品質 [レビュー ガイド」を参照してください](../quality-of-experience-review-guide.md)。
 
@@ -120,7 +120,7 @@ Microsoft Teams の一般的なロールアウトの一環として、通話品�
 
 デプロイの一環として、ルーム名、サインイン済みリソース アカウント、および割り当てられた周辺機器を使用してアセット レジスタを更新する必要があります。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [管理センターを使用Microsoft Teams会議室のアカウントMicrosoft Teams構成する](resource-account-ui.md)
 

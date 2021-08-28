@@ -13,21 +13,21 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーに緊急対応の場所を割り当てる方法または変更する方法について学習します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8045120f6a74a536b3fcbe420278ad847b3108f38161d6e23f3eecfd5788224c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36be65ef14cfe0fc97ce49dfa9227fe50daa18f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309146"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588379"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
-通話プランを設定する場合は、各電話番号またはユーザーに緊急対応の場所を割り当てる必要があります。 ヨーロッパの国では、緊急対応の場所は、Microsoft 365 または Office 365 から電話番号を受け取った場合、または電話番号を Microsoft 365 または Office 365 に転送するときに関連付けされます。 米国では、緊急対応の場所は、ユーザーに割り当てられた電話番号に関連付けされます。 緊急対応の住所は、割り当てられているユーザーが新しい場所に移動した場合に変更できます。 緊急対応の住所と場所の詳細については、「緊急対応の場所、場所、通話ルーティングとは [」を参照してください](./what-are-emergency-locations-addresses-and-call-routing.md)。
+通話プランを設定する場合は、各電話番号またはユーザーに緊急対応の場所を割り当てる必要があります。 ヨーロッパの国では、緊急対応の場所は、Microsoft 365 または Office 365 から電話番号を取得した場合、または電話番号を Microsoft 365 または Office 365 に転送するときに関連付けされます。 米国では、緊急対応の場所は、ユーザーに割り当てられた電話番号に関連付けされます。 緊急対応の住所は、割り当てられているユーザーが新しい場所に移動した場合に変更できます。 緊急対応の住所と場所の詳細については、「緊急対応の場所、場所、通話ルーティングとは」 [を参照してください](./what-are-emergency-locations-addresses-and-call-routing.md)。
   
 通話プランを取得する方法と料金については、アドオン ライセンスのTeams[を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
@@ -37,7 +37,7 @@ ms.locfileid: "54309146"
 
 1. 管理センターの左側のナビゲーションで、[音声Microsoft Teams **番号]**  >  **を電話します**。
 
-2. [番号 **電話ページで**、[数値] タブをクリックし、一覧からユーザー番号を選択し、[編集] を **クリックします**。
+2. [数値 **電話ページで**、[数値] タブをクリックし、一覧からユーザー番号を選択し、[編集] をクリック **します**。
 
 3. [編集] **ウィンドウの** [緊急対応の **場所] で**、次のいずれかの操作を行います。
 
@@ -54,7 +54,7 @@ ms.locfileid: "54309146"
 [「Set-CsOnlineVoiceUser」を参照してください](/powershell/module/skype/set-csonlinevoiceuser)。 
 
     
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)

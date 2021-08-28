@@ -1,5 +1,5 @@
 ---
-title: スマートフォンTeamsディスプレイにTeamsする
+title: スマートフォンをTeamsディスプレイにTeamsする
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -14,16 +14,16 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
-description: 携帯電話をアップグレードしてTeams管理センター Teams表示する方法Microsoft Teams確認します。
-ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: 電話をアップグレードしてTeams管理センター Teams表示する方法Microsoft Teams確認します。
+ms.openlocfilehash: e504bde3b291deb0d38821a0551e70f1f7ac1d4d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327762"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588189"
 ---
-# <a name="upgrade-teams-phones-to-teams-displays"></a>スマートフォンTeamsディスプレイにTeamsする
+# <a name="upgrade-teams-phones-to-teams-displays"></a>スマートフォンをTeamsディスプレイにTeamsする
 
 > [!IMPORTANT]
 > ディスプレイへのTeamsは、Lenovo ThinkSmart View デバイスでのみ使用できます。 この記事の情報は、このデバイス モデルにのみ適用されます。  
@@ -42,20 +42,20 @@ Lenovo ThinkSmart View デバイスは、ディスプレイにアップグレー
 
 ユーザーの準備を整えるには[](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6)、[Teams の使用を開始する] をユーザーと共有して、ユーザーがディスプレイを使い慣Teamsします。 アップグレードの前に、この操作を実行することをお勧めします。
 
-アップグレード後にデータや環境設定に変更が加えらなからなかった場合は、そのユーザーに知らせてお知らせします。 たとえば、ユーザーは、すべての会議、通話ミス、およびボイスメールにTeamsできます。 
+アップグレード後にデータや環境設定に変更が加えらなからなかった場合は、そのユーザーに知らせてお知らせします。 たとえば、ユーザーは、すべての会議、通話ミス、ボイスメールにアクセスして、Teamsできます。 
 
 ### <a name="what-happens-after-the-upgrade"></a>アップグレード後は何が起こりますか?
 
-Teams スマートフォンを Teams ディスプレイ デバイスにアップグレードすると、Microsoft Teams 管理センターの [デバイス] セクションの **[Teams ディスプレイ**]ページにデバイスが一覧表示されます。 他のデバイスを管理するのと同じ方法でTeamsします。 詳細については、「デバイスを管理[する」を参照Teams。](device-management.md)
+Teams スマートフォンを Teams ディスプレイ デバイスにアップグレードすると、デバイスは Microsoft Teams 管理センターの [デバイス] セクションの **[Teams ディスプレイ**] ページに表示されます。  他のデバイスを管理するのと同じ方法で管理Teamsします。 詳細については、「デバイスを管理[する」を参照Teams。](device-management.md)
 
-スマートフォンを他のデバイスTeamsデバイスにTeamsした後は、アクションを元に戻す操作を実行できない点に気を付ける必要があります。 組織全体をアップグレードする前に、最初に早期導入者のグループでパイロットを実行することをお勧めします。 
+スマートフォンを他のデバイスTeamsデバイスにTeamsした後、アクションを元に戻す操作はできない点に気を付ける必要があります。 組織全体をアップグレードする前に、最初に早期導入者のグループでパイロットを実行することをお勧めします。 
 
 ## <a name="upgrade-your-teams-phones-to-teams-displays"></a>スマートフォンをTeamsディスプレイにTeamsする
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams、[デバイスの電話] に  >  **移動します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[デバイスの電話]**に**  >  **移動します**。
 2. アップグレードするTeamsを選択し、[アップグレード] を **選択します**。
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="画面にアップグレードTeams選択されている携帯電話を示すTeamsスクリーンショット":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="ディスプレイへのTeamsに選択されたスマートフォンを示Teamsスクリーンショット":::
 
 3. [アップグレード **を実行Teams] ダイアログ** ボックスで、[アップグレードのスケジュール] を選択してアップグレードの日時を設定するか、[今すぐアップグレード]**を選択します**。
 
@@ -70,9 +70,9 @@ Teams スマートフォンを Teams ディスプレイ デバイスにアップ
 
 ## <a name="known-issues"></a>既知の問題
 
-### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>Teamsには、ダーク テーマではなく既定のテーマが表示されます。
+### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>Teamsには、ダーク テーマではなく [既定] テーマが表示されます。
 
-ディスプレイでのダーク テーマTeamsは、今後の更新で利用できます。 Teamsテーマを使用するスマートフォンでは、既定のテーマが表示される場合に、アップグレード後Teamsされます。
+ディスプレイでのダーク テーマTeamsは、今後の更新で利用できます。 Teamsダーク テーマを使用するスマートフォンでは、ディスプレイへのアップグレード後に既定のテーマTeamsされます。
 
 ### <a name="some-apps-are-missing-from-the-home-screen"></a>一部のアプリがホーム画面に表示される
 

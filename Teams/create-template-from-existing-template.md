@@ -9,23 +9,23 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 既存のチーム テンプレートを使用して、新しいチーム テンプレートを作成する方法について説明Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80450257158a3a65da5f0fffe05d48239e42cd33d538544a6363befffce842bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 56af8756282a4d2cc40ebf33a620855785c67306
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588219"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>既存のチーム テンプレートから新しいチーム テンプレートを作成Microsoft Teams
 
-**カスタム テンプレートは、EDU のお客様にはまだサポートされていません。**
+**カスタム テンプレートは、EDU のお客様向けはまだサポートされていません。**
 
 Microsoft Teamsは、特定の組織のニーズに合わせて保存および変更できる事前構築済みのテンプレートを提供します。
 
@@ -52,7 +52,7 @@ Microsoft Teamsは、特定の組織のニーズに合わせて保存および�
     - テンプレートの短い説明と長い説明
     - ロケールの可視性  
 
-7. [チャネル **、タブ、アプリ] セクションで** 、チームに必要な既存のチャネルとアプリを変更します。
+7. [チャネル **、タブ、アプリ] セクションで** 、チームが必要とする既存のチャネルとアプリを変更します。
 
     1. 編集するチャネルを選択し、[編集] を **選択します**。
     2. **完了** したら、変更を適用します。

@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 管理者とユーザーの問題を解決する方法について説明Skype for BusinessとMicrosoft 365をOffice 365。
-ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 管理者とユーザーの問題を解決する方法について説明します。Skype for BusinessとMicrosoft 365問題Office 365。
+ms.openlocfilehash: 99c50759cea77e98f239adf8cea265941ce7f704
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310106"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609974"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Skype for Business Online に関する問題のトラブルシューティング
 
@@ -34,7 +34,7 @@ ms.locfileid: "54310106"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Skype for Business Online に関する管理者の問題のトラブルシューティング
 
-「Skype for Business Online サインイン エラーの一般的な原因を確認する」の「Skype for Business Online のほとんどの質問に対する[回答を取得できます](troubleshooting-sign-in-errors-for-admins.md#toc323194094)。 次の KB 記事には、多くのトラブルシューティング リソースとエラー コードリファレンスも[含まれています](./troubleshooting-sign-in-errors-for-admins.md)。管理者向けオンライン Skype for Business サインイン エラーのトラブルシューティング。
+「Skype for Business Online サインイン エラーの一般的な原因を確認する」の「Skype for Business Online の質問のほとんどについて回答[を得る」を参照してください](troubleshooting-sign-in-errors-for-admins.md#toc323194094)。 次の KB 記事には、多くのトラブルシューティング リソースとエラー コードリファレンスも含まれています。管理者向けオンライン Skype for Businessサインイン エラー[のトラブルシューティング](./troubleshooting-sign-in-errors-for-admins.md)。
 
 ダイヤルイン会議の問題については、「[電話会議のトラブルシューティングと既知の問題](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md)」を参照してください。
 
@@ -77,7 +77,7 @@ Skype for Business Online ユーザーが直面する問題の多くはパスワ
 ## <a name="still-need-help-contact-support"></a>さらにサポートが必要な場合のサポート サービス
 <a name="BK_SupportBridge_1"> </a>
 
-Microsoft 365 Apps for business の管理者は、販売前、アカウント、課金のサポートに関する知識豊富なサポート 担当者に無料でアクセスできるだけでなく、技術的な問題の解決に役立ちます。 また、組織内[のユーザーに](/microsoft-365/Admin/contact-support-for-business-products)代わってMicrosoft 365サポートOffice 365問い合わせすることもできます。
+Microsoft 365 Apps for business の管理者は、販売前、アカウント、課金のサポートに関する知識豊富なサポート エージェントに無料でアクセスできるだけでなく、技術的な問題の解決に役立ちます。 また、組織内[のユーザーに](/microsoft-365/Admin/contact-support-for-business-products)代わってMicrosoft 365サポートOffice 365問い合わせすることもできます。
 
 - [コミュニティ フォーラムのMicrosoft 365ヘルプOffice 365する](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
@@ -86,7 +86,7 @@ Microsoft 365 Apps for business の管理者は、販売前、アカウント、
 > [!NOTE]
 > 中国で 21Vianet が運営する Office 365 を使用している場合は、[21Vianet のサポート チームにお問い合わせください](/microsoft-365/Admin/contact-support-for-business-products)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

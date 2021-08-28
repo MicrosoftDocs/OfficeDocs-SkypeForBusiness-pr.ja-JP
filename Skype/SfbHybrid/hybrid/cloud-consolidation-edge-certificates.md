@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: この付録には、クラウド統合の一環としてエッジ証明書を更新する手順の詳細TeamsおよびSkype for Business。
-ms.openlocfilehash: 7370fe6949c471a6aad9b45ee246f1565b43bdb465eba2110a03f53afa69fe28
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c4708f593b1a9bd8fbc2a427e2f0c5df9feab5c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330631"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610204"
 ---
 # <a name="update-the-edge-certificate"></a>エッジ証明書の更新
 

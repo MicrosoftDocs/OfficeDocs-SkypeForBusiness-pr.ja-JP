@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.EdgeNetwork
 - ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: ほとんどのエッジ コンポーネントは境界ネットワークに展開されます。 次のコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 ただし、コンポーネントは 2015 年 2015 年のエッジ サーバー のシナリオの一部であり、境界ネットワークSkype for Business Server含まれています。 エッジ コンポーネントには、次のものが含まれます。
-ms.openlocfilehash: 8123d1a4c04e4f1c21cc432295b2424572594d1a701d5e5199a08e21094a486c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1eb17f98e4c5b5b1bb15dea9fbaabc57ebb32975
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280022"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632791"
 ---
 # <a name="edge-network-planning-tool"></a>エッジ ネットワーク計画ツール
  

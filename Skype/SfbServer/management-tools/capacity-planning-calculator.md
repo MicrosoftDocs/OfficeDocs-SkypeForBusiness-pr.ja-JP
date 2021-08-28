@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: '概要: 容量計算ツールの使い方。'
-ms.openlocfilehash: 5dc9376e9bfae238370d690eede975b8bf834baf1bd96cdd0265d6f09b7bc6d0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7e7a5f59017ad87df894dbc294b60a01a8ff5bf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325094"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632831"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype for Business Server の容量計画計算ツール
  

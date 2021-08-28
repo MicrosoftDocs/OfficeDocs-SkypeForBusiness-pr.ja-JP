@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserSetPin
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: ユーザーの PIN を生成するには、[有効な PIN を自動的に生成する] を選択します。
-ms.openlocfilehash: 12a892882194ceed7ef9620c22f5262e66c75612ee0d274e0a43d516b6191240
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb1dfdd6300775d606d7f2cdb3dc2f62cd175de9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328312"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587489"
 ---
 # <a name="set-pin"></a>PIN の設定
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business VoiceリソースMicrosoft Teamsとリソースの管理
+title: Microsoft 365 Business VoiceリソースMicrosoft Teamsリソースの追加と管理
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e011d8f2203bbd1f12d2a4819cd284f5605d4af93a2e93a3e642b747972f99b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62cfe4d87ccb80333fcdd6ce227ab1cbccafa05e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286036"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632631"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Microsoft 365 Business Voice リソースを追加する
 
@@ -30,9 +30,9 @@ ms.locfileid: "54286036"
 
 Business Voice をデプロイする前に、デプロイとサポートの基盤が必要Microsoft Teams。
 
-この記事は、Business Voice を初めから使用する技術配信およびサポート担当者向け簡潔なリソースです。 これらのリソースを使用して、デプロイとサポートの基礎など、Business Voice に関する知識を拡張します。
+この記事は、Business Voice を初めから使用する技術配信およびサポート担当者向け簡潔なリソースです。 これらのリソースを使用して、展開とサポートの基礎など、Business Voice に関する知識を広げ、
 
-- [Teamsガイダンス](../cloud-voice-landing-page.md)
+- [Teamsガイダンスの作成](../cloud-voice-landing-page.md)
 - [事前評価と計画](../3-envision-evaluate-my-environment.md)
 - [展開](../3-onboard-deploy-my-service.md)
 - [操作](../1-drive-value-operate-my-service.md)

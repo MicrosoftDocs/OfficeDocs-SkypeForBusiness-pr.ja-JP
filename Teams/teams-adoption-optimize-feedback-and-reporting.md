@@ -1,5 +1,5 @@
 ---
-title: フィードバックとレポートを最適化し、Microsoft Teamsする
+title: フィードバックとレポートを最適化して導入Microsoft Teamsする
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: ユーザー フィードバックを取得し、サービス正常性レポートを使用して、ユーザーの導入をTeamsします。
 f1.keywords:
@@ -21,43 +21,43 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7801e2a80f65e90a26cd99124047f229c04222a8b4d846acf53bd46a9d8510f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4023a5bf998b4cc53ad0651d7af1e9146c05a110
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285666"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631971"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
-ユーザー フィードバックとサービス正常性レポートのベスト プラクティスに従って、サービスと従業員からシグナルが返されます。  場合によっては、特定のサービス使用状況と正常性レポートにアクセスするために管理者権限が必要な場合があります。 組織の Microsoft 365 または Office 365 管理者ではない場合は、その個人と一緒に作業し、Microsoft 365 管理センター でレポート閲覧者ロールを付与して、このデータの一部にアクセスします。
+ユーザー フィードバックとサービス正常性レポートのベスト プラクティスに従って、サービスと従業員からシグナルが返されます。  場合によっては、特定のサービス使用状況と正常性レポートにアクセスするために管理者権限が必要な場合があります。 組織の Microsoft 365 または Office 365 管理者ではない場合は、その個人と連絡を取り、Microsoft 365 管理センター でレポート閲覧者ロールを付与して、このデータの一部にアクセスします。
 
 ## <a name="incorporating-feedback"></a>フィードバックの組み込み 
 
-実験フェーズを通じて、ユーザーがどのように製品とそのエクスペリエンスを使用したのかについての情報を取得します。 この情報を今すぐ使用して、ビジネス ユニット全体で使用を拡大する予定の場合に、意識とトレーニング プログラムを調整します。 一般的な質問の例を次に示します。
+実験フェーズを通じて、ユーザーがどのように製品とそのエクスペリエンスを使用したのかについての情報を取得します。 この情報を今すぐ使用して、事業単位全体で使用を拡大する計画に合わせて、意識とトレーニング プログラムを調整します。 一般的な質問の例を次に示します。
 
 - この新しいツールを既存のテクノロジと共に使用する場合
-- Whoツールの使用が承認されていますか?
+- Whoツールの使用が承認されましたか?
 - 機密性の高い情報は安全ですか? 
 - Whoについて詳しくは、お話しMicrosoft Teams。
 - 何かが機能しない。 ヘルプを受ける方法
 
 ## <a name="invest-in-your-champions"></a>チャンピオンに投資する
 
-グループの使用状況をスケーリングする準備をMicrosoft Teams、展開する各事業単位またはグループに追加のチャンピオンを採用します。 これらの熱望的な人々をサービス トレーニング プログラムに登録し、会う方法と時間を標準化します。
+ビジネス グループの使用量を拡大する準備をMicrosoft Teams、展開する各事業単位またはグループに追加のチャンピオンを採用します。 これらの熱望的な人々をサービス トレーニング プログラムに登録し、その人と会う方法と時間を標準化します。
  
 チャンピオン プログラムでは、従業員が何を受け取り、チャンピオンになったら何を期待されるのかを明確に設計してください。 一般的なプログラム要件は、これらの新しいエクスペリエンスへの移行をサポートするために、スケジュールされたオフィス時間、毎月のコミュニティ呼び出しへの参加、内部オンライン コミュニティへの参加です。  
 
 ベスト プラクティス: 内部チャンピオンのために毎月Teams会議を開催します。 新しい機能の教育、フィードバックへの対処、従業員コミュニティのセルフサービス ツールの提供の間で議題を分割します。
 
-ベスト プラクティス: 社内サポート部門または IT ヘルプデスクの担当者が、チャンピオン コミュニティに参加して、お客様のネットワーク使用状況に関する新しい情報をTeamsします。 
+ベスト プラクティス: 社内サポート部門または IT ヘルプデスクの担当者が、チャンピオン コミュニティに参加して、お使いのアプリの使用状況に関する新しい情報をTeamsします。 
 
 ## <a name="service-reporting"></a>サービス レポート
 
 デプロイおよび導入時に確認する必要があるレポートには、次の 3 種類Microsoft Teams。
 
-- [サービス正常性](https://status.office365.com/)– Microsoft 365、Office 365、および社内の IT サポート部門から。
-- [Microsoft 365 センター](/microsoft-365/admin/activity-reports/activity-reports)の [レポート] - 管理センターの [Microsoft 365] または [Office 365] Microsoft 365 レポートの表示 - Microsoft Teams[アクティビティを表示します](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 組織内の他のシステムからの情報を使用することもできます。
+- [サービス正常性](https://status.office365.com/)– Microsoft 365、Office 365、および社内 IT サポート部門から。
+- [Microsoft 365 センター](/microsoft-365/admin/activity-reports/activity-reports)の [レポート] - 管理センターの [Microsoft 365] または [Office 365 Microsoft 365 レポート] から、ユーザー アクティビティ Microsoft Teams[表示します](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 組織内の他のシステムからの情報を使用することもできます。
 - サービスの満足度 – 内部コミュニティ フォーラムと特定のエクスペリエンスに関するアンケートから収集
 
 ![次の手順を表すアイコン ](media/teams-adoption-next-icon.png) 次: 意識 [向上とトレーニングの実装](teams-adoption-drive-awareness.md)

@@ -7,20 +7,20 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: ポリシーをTeamsしてください。
+description: ポリシーの詳細Teamsします。
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319950"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588149"
 ---
 # <a name="manage-teams-with-policies"></a>ポリシー Teamsを管理する
 
@@ -28,11 +28,11 @@ ms.locfileid: "54319950"
 
 ## <a name="what-you-use-policies-for"></a>ポリシーの使用
 
-ポリシーは、メッセージング、会議、アプリケーションなどのさまざまな領域にわたって、組織内の多くのタスクを実行するために使用されます。 ユーザーがチーム チャネルで会議をスケジュールできるようにしたり、ユーザーが送信されたメッセージを編集したり、ユーザーが Teams アプリ バーにアプリをピン留めできるかどうかを制御したりすることができます。
+ポリシーは、メッセージング、会議、アプリケーションなど、さまざまな領域にわたって組織内の多くのタスクを実行するために使用されます。 ユーザーがチーム チャネルで会議をスケジュールできるようにしたり、ユーザーが送信されたメッセージを編集したり、ユーザーが Teams アプリ バーにアプリをピン留めできるかどうかを制御したりなど、いくつかの操作を実行できます。
 
 ## <a name="how-to-assign-policies"></a>ポリシーを割り当てる方法
 
-ポリシーは、組織が何を達成しようとしているかによって、さまざまな方法で割り当てることができます。 管理者センターで割り当てを行Teams表示できます。
+ポリシーは、組織が何を達成しようとしているかによって、さまざまな方法で割り当てることができます。 管理者センターで、割り当てをTeams表示できます。
 
 ![グループ ポリシーの割り当てのスクリーンショット。](media/group-policy-assignment.png)
 
@@ -40,7 +40,7 @@ ms.locfileid: "54319950"
 
 ## <a name="how-to-manage-policies"></a>ポリシーを管理する方法
 
-ポリシーは、管理センター Microsoft Teams PowerShell を使用[して管理されます](./teams-powershell-managing-teams.md#manage-policies-via-powershell)。
+ポリシーは、管理センターで管理Microsoft Teams [PowerShell を使用して管理されます](./teams-powershell-managing-teams.md#manage-policies-via-powershell)。
 
 たとえば、アプリセットアップ ポリシーを使用すると、ユーザーがカスタム アプリをアップロードし、ユーザーに代わってアプリをインストールし、アプリを Teams アプリ バーにピン留めできます。 これらのポリシーは、管理センター Teams構成されます。
 
@@ -65,13 +65,13 @@ ms.locfileid: "54319950"
 [ポリシー パッケージ](manage-policy-packages.md) | Microsoft Teams のポリシー パッケージは、組織内で同様のロールを持つユーザーに割り当て可能な定義済みのポリシーと設定のコレクションです。
 [会議ポリシー](meeting-policies-in-teams.md) | 会議ポリシーは、組織内のユーザーがスケジュールした会議に対して会議参加者が使用できる機能を制御するために使用されます。 会議ポリシーには、次のトピックが含まれます。<br> - オーディオポリシーとビデオ ポリシー<br> - コンテンツと画面共有ポリシー<br> - 参加者、ゲスト、アクセス ポリシー<br> - 一般的なポリシー
 [音声と通話のポリシー](voice-and-calling-policies.md)| 音声および通話ポリシーは、緊急通話、通話ルーティング、発信者番号などのチームを通じてこれらの設定を管理します。
-[アプリ ポリシー](app-policies.md)| アプリ ポリシーは、アプリケーションの管理に使用Microsoft Teams。 管理者は、ユーザーがインストールできるアプリを許可またはブロックしたり、ユーザーの Teams アプリ バーにアプリケーションをピン留めしたり、ユーザーに代わってアプリケーションをインストールすることができます。
+[アプリ ポリシー](app-policies.md)| アプリ ポリシーは、アプリケーションを管理するために使用Microsoft Teams。 管理者は、ユーザーがインストールできるアプリを許可またはブロックしたり、ユーザーの Teams アプリ バーにアプリケーションをピン留めしたり、ユーザーに代わってアプリケーションをインストールすることができます。
 [メッセージング ポリシー](messaging-policies-in-teams.md)| メッセージング ポリシーは、チャットとチャネル機能の可用性を制御します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 * [グループでポリシーを割りTeams - 使用を開始する](policy-assignment-overview.md)
 * [Microsoft Teams でフィードバック ポリシーを管理する](manage-feedback-policies-in-teams.md)
 * [Microsoft Teams でチーム ポリシーを管理する](teams-policies.md)
 * [Microsoft Teams でのライブ イベントのセットアップ](teams-live-events/set-up-for-teams-live-events.md)
-* [Microsoft Teams for Educationポリシーとポリシー パッケージ](policy-packages-edu.md)
+* [Microsoft Teams for Educationとポリシー パッケージ](policy-packages-edu.md)

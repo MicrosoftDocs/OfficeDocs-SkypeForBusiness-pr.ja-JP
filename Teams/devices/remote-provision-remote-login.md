@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Android デバイスのリモート プロビジョニングとサインインを行うTeams説明します
-ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
-ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
+ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483114"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632201"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android デバイスのリモート プロビジョニングTeamsサインイン
 
-IT 管理者は、Android デバイスを使用してリモートでプロビジョニングTeamsサインインできます。 デバイスをリモートでプロビジョニングするには、管理者がプロビジョニングするデバイスの MAC の ID をアップロードし、確認コードを作成する必要があります。 プロセス全体は、管理センターからリモートTeams完了できます。
+IT 管理者は、リモートでプロビジョニングし、Teams Android デバイスにサインインできます。 デバイスをリモートでプロビジョニングするには、管理者がプロビジョニングするデバイスの MAC の ID をアップロードし、確認コードを作成する必要があります。 プロセス全体は、管理センターからリモートTeams完了できます。
 
 ## <a name="review-the-supported-devices"></a>サポートされているデバイスを確認する
 
@@ -94,9 +94,9 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 
 ## <a name="provision-the-device"></a>デバイスをプロビジョニングする
 
-デバイスの電源が入り、ネットワークに接続されると、技術者がデバイスをプロビジョニングします。 これらの手順は、デバイス上でTeamsされます。
+デバイスの電源が入り、ネットワークに接続されると、技術者がデバイスをプロビジョニングします。 これらの手順は、デバイスのTeamsされます。
 
-1. 技術者が[デバイスの **プロビジョニング] を****選択設定。**  
+1. 技術者が[デバイスの **プロビジョニング] を選択****設定。**  
 
    ![[アクション] タブから新しいデバイス オプションをプロビジョニングする](../media/provision-device1.png)
   

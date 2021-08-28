@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: この表を使用して、デンマークの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: cec34e720dbae4eac20bc448b1accee82e61fad2
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 815feab42163198b06923c44340532cb62fcb302
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348299"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610254"
 ---
 # <a name="phone-number-management-for-denmark"></a>電話の番号管理
 
@@ -40,7 +40,7 @@ ms.locfileid: "58348299"
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
 |通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、PSTN サービス デスクに手順 [を問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

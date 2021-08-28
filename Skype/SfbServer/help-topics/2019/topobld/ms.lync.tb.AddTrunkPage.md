@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddTrunkPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: 以下の情報を指定することにより、新しいセッション開始プロトコル (SIP) トランクを定義します。
-ms.openlocfilehash: 49411ca6416a99d30d7a889aca0151f3ef89b9f7a8b7e559c39366c585144378
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9267ae7dc501fd56c7c18a5475ca0dade94bf03d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295424"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587612"
 ---
 # <a name="define-a-new-trunk"></a>新しいトランクの定義
 

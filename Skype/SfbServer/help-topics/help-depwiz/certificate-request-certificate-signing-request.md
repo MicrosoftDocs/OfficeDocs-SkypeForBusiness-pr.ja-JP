@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestCSRFile
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: オフライン要求を作成するには、まず、証明書の署名要求 (CSR) を作成する必要があります。 [ファイル名] テキスト ボックスに CSR のパスとファイル名を入力します。 [参照] をクリックすると、CSR を作成する場所を選択できます。 続行するには、[次へ] をクリックします。
-ms.openlocfilehash: 791687342bcb2951845eca992e93520f18b91af4f01bb98130d54ac29b1addda
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f4ebd3c52cc569ffcfcafe8ac62a56aad00be0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278855"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587529"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>証明書要求 (証明書の署名要求)
  

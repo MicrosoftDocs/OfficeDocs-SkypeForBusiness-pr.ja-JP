@@ -8,22 +8,22 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
-description: グループ メンバーシップが確実に同期Exchangeハイブリッド組織を構成し、Microsoft Teamsで使用する方法について説明します。
+description: グループ メンバーシップが確実に同期Exchangeハイブリッド組織で使用するMicrosoft Teams構成する方法について説明します。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4a0480ff8a795addb9ae322478fddb69e9aeceeed14ebca83f27cac34b01bfbb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3ef36b7bc50d21131dd10294566549bb8b642600
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284477"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632651"
 ---
 <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>Microsoft Teams で使用する Exchange ハイブリッド展開の組織を構成する
 ======================================================================

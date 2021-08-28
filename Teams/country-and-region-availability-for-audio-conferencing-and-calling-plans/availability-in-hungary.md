@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ハンガリーで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: c4eb0a2a750f2f197ef06d2af6f50e14d415027efd9087b104ab443bd9a3e692
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: ハンガリーで使用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
+ms.openlocfilehash: fbe889742047e92369ce89071a1676b2f746a6e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299424"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588319"
 ---
 # <a name="availability-in-hungary"></a>ハンガリーでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ハンガリーで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+ハンガリーで使用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -82,7 +82,7 @@ ms.locfileid: "54299424"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

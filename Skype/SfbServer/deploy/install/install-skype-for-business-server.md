@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: '概要: トポロジ内の各サーバーにSkype for Business Serverシステム コンポーネントをインストールする方法について説明します。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 8fdeb6d2023a205ee39291714c94ee4fa0f38ddf4eafcced46f331a9478f3fa0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 89c158243a0cc33faaa1a3b3181dfc1f39094d63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343831"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609864"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>トポロジSkype for Business Serverサーバーにサーバーをインストールする
  
@@ -163,7 +163,7 @@ ms.locfileid: "54343831"
     
 16. [オンライン **証明書要求の状態] ページ** で、返される情報を確認します。 証明書が発行され、ローカル証明書ストアにインストールされた点に注意してください。 発行およびインストール済みと報告されているが、無効な場合は、CA ルート証明書がサーバーの信頼されたルート CA ストアにインストールされていることを確認します。 信頼されたルート CA 証明書を取得する方法については、CA のドキュメントを参照してください。 取得した証明書を表示する必要がある場合は、[証明書の詳細の表示 **] をクリックします**。 既定では、[証明書を証明書の使用状況に割り当 **Skype for Business Server] チェック ボックスが** オンになっています。 証明書を手動で割り当てる場合は、チェック ボックスをオフにして、[完了] を **クリックします**。
     
-17. 前のページで [証明書を証明書に割り当てる] Skype for Business Serverチェック ボックスをオフにした場合は、[証明書の割り当て] ページ **が表示** されます。 **[次へ]** をクリックします。
+17. 前のページで [証明書を証明書に割り当てる] Skype for Business Serverチェック ボックスをオフにした場合は、[証明書の割り当て] ページ **が表示** されます。 [**次へ**] をクリックします。
     
 18. [証明書 **ストア] ページ** で、要求した証明書を選択します。 証明書を表示する場合は、[証明書の詳細の表示] をクリックし、[次へ]**をクリック** して続行します。
     

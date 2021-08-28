@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 発信者を E9-1-1 展開の場所にマップするために使用するネットワーク コンポーネントを計画するために必要なSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: fba8617643ac730d56f24e318a48cdb218b523cdceaa0cb810cc01c6c9d8a753
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3a1ef0c5f500327d97a263b4dad206624617ffa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632701"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>ネットワーク内の場所を決定するために使用するネットワーク要素をSkype for Business Server
  
