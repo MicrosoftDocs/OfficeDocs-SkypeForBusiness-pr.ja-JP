@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ドミニカ共和国でMicrosoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: af2ea42f9356bc35ebb681add6bc63c5d0ca1b650e77c0c5fdbeb4b4aa782850
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: ドミニカ共和国でMicrosoft 365およびOffice 365サービスSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: d83a44c9bc9f86bd3e24b2f77374d5955a9d27da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318500"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593121"
 ---
 # <a name="availability-in-the-dominican-republic"></a>ドミニカ共和国での利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ドミニカ共和国でMicrosoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを次に示します。
+ドミニカ共和国でMicrosoft 365およびOffice 365サービスSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -83,7 +83,7 @@ ms.locfileid: "54318500"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

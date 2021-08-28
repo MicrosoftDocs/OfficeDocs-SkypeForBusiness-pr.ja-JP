@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: セッション ビューには、データベースにレコードがあるセッションに関する情報が保存されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 9f8fc3b22677da6794aeaaecdd180ade454fc36fbf9659c5f8196880c42c907b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e39f6c744280e96a6f0fd33c28125196f90ed7cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314433"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593351"
 ---
 # <a name="session-view"></a>セッション ビュー
  
@@ -31,7 +31,7 @@ ms.locfileid: "54314433"
 |関連付け  <br/> |varchar(max)  <br/> |セッションの関連付け ID。  <br/> |
 |DialogCategory  <br/> |ビット  <br/> |ダイアログ カテゴリ。0 は仲介Skype for Business Serverに対して実行されます。1 は仲介サーバーから PSTN ゲートウェイのレッグです。  <br/> |
 |MediationServerBypassFlag  <br/> |ビット  <br/> |通話がバイパスされたかどうかを示します。  <br/> |
-|MediaBypassWarningFlag  <br/> |整数  <br/> |このフィールドは、(存在する場合) バイパス ID が一致したのに通話がバイパスされなかった理由を示します。 このSkype for Business Server、定義される値は 1 つのみです。  <br/> 0x0001 - 既定のネットワーク アダプターの不明なバイパス ID  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |このフィールドは、(存在する場合) バイパス ID が一致したのに通話がバイパスされなかった理由を示します。 このSkype for Business Server、定義される値は 1 つのみです。  <br/> 0x0001 - 既定のネットワーク アダプターの不明なバイパス ID  <br/> |
 |StartTime  <br/> |日付型  <br/> |通話の開始時刻。  <br/> |
 |EndTime  <br/> |日付型  <br/> |通話の終了時刻。  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |発信者プールの FQDN。  <br/> |
@@ -48,6 +48,6 @@ ms.locfileid: "54314433"
 |CalleeUserAgentCategory  <br/> |nvarchar (64)  <br/> |呼び出し先のユーザー エージェントのカテゴリ。 詳細については [、UserAgentDef テーブル (QoE) を](useragentdef-qoe.md) 参照してください。 <br/> |
 |CallerURI  <br/> |nvarchar(450)  <br/> |呼び出し元の URI。  <br/> |
 |CalleeURI  <br/> |nvarchar(450)  <br/> |呼び出し先の URI。  <br/> |
-|CallPrioirty  <br/> |整数  <br/> |通話の優先順位。  <br/> |
+|CallPrioirty  <br/> |int  <br/> |通話の優先順位。  <br/> |
    
 

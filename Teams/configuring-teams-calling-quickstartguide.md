@@ -11,20 +11,20 @@ ms.reviewer: rowille, crowe
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 一連のユーザーを起動して実行Microsoft Teamsで通話プランを構成するためのクイック スタート ガイド。
-localization_priority: Normal
+description: 一連のユーザーを起動して実行Microsoft Teams通話プランを構成するためのクイック スタート ガイド。
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3bea5bda6f0a03fdd058898361d6cbaa787ae874
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ab563bb4acd4ea79c35b90dc691bd95f506e5acd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593151"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 
@@ -35,7 +35,7 @@ Teams の通話プランに関する 2017 年 12 月 12 日付けの発表「[In
 > [!NOTE]
 > 展開を成功させるため、このクイック スタート ガイドとともに、「[通話プランが設定された電話システム](calling-plan-landing-page.md)」と「[FastTrack](https://aka.ms/cloudvoice)」をご覧になることをお勧めします。
 
-Skype for Business を利用した通話プラン (Microsoft 365 と Office 365 の機能) を追加することで、Teams を使用して、公衆交換電話網 (PSTN) を介して、固定電話や携帯電話を送受信できます。
+Skype for Business を利用した通話プラン (Microsoft 365 および Office 365 機能) を追加することで、Teams を使用して、公衆交換電話網 (PSTN) を介して、固定電話や携帯電話を送受信できます。
 
 ![Teams の [連絡先] ページを示すスクリーンショット](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams の [**通話**] タブを有効にするための前提条件

@@ -13,18 +13,18 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-description: 通話品質ダッシュボード (CQD) クエリ テンプレートを使用するために Power BI コネクタをインストールする
-ms.openlocfilehash: 7c82cfbb2279e680d6f088840302a6027d5bdd18
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+description: 通話品質Power BI (CQD) クエリ テンプレートを使用するためにコネクタをインストールする
+ms.openlocfilehash: 258d3be034bd956c518f1ed7a67273f064b383b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234342"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593321"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>通話品質ダッシュボード クエリ テンプレートを使用Power BI Microsoft 通話品質コネクタをインストールする
 
-Microsoft Teams 通話品質ダッシュボード (CQD) に Power BI クエリ テンプレート (PBIX ファイル) を使用するには、ダウンロード に含まれる *MicrosoftCallQuality.pパン* ファイルを使用して、Power BI 用 Microsoft 通話品質コネクタをインストールする必要 [があります。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)
+Microsoft Teams 通話品質ダッシュボード (CQD) に Power BI クエリ テンプレート (PBIX ファイル) を使用するには、ダウンロード に含まれる *MicrosoftCallQuality.p pbx* ファイルを使用して、Power BI 用の Microsoft 通話品質 [](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)コネクタをインストールする必要があります。
 
 これらの[テンプレートについては、「Power BIを使用して CQD](CQD-Power-BI-query-templates.md)データを分析する」Teamsを参照してください。
 
@@ -37,7 +37,7 @@ Microsoft Teams 通話品質ダッシュボード (CQD) に Power BI クエリ �
 
 カスタム コネクタをインストールし、コネクタの使用を有効にするようにセキュリティを調整するプロセスについては、次のドキュメント[Power BIされています](/power-bi/desktop-connector-extensibility)。 わかりやすくするために、簡単な説明を次に示します。
 
-1. コンピューターに Custom Connectors フォルダーの *\[ ドキュメントが \] \\ 既Power BI Desktop \\ 確認* します。 ない場合は、このフォルダーを作成します。<sup>1</sup>
+1. コンピューターに Custom *\[ \] \\ \\ Connectors* フォルダーのドキュメントが既Power BI Desktop確認します。 ない場合は、このフォルダーを作成します。<sup>1</sup>
 
 2. コネクタ ファイル *\* (.mez* または *\* .pグループ* ファイル) をダウンロードし *、Custom Connectors ディレクトリに配置* します。
 
@@ -53,7 +53,7 @@ Microsoft Call Quality コネクタの新しいバージョンがリリースさ
 
     ![スクリーンショット: Power BI コネクタ](media/CQD-power-bi-connector1-resize.png)
 
-2. この *時点で [データ* の取得] ウィンドウが表示されます。 [オンライン サービス *] に移動* し *、[Microsoft 通話品質 (ベータ版)* ] を選択し、[] をクリック *Connect。*
+2. この *時点で [データ* の取得] ウィンドウが表示されます。 [オンライン サービス *] に移動し**、[Microsoft 通話品質 (ベータ版)* ] を選択し、[] をクリック *Connect。*
 
     ![スクリーンショット: Power BI コネクタ](media/CQD-power-bi-connector2-resize.png)
 
@@ -89,7 +89,7 @@ Microsoft Call Quality コネクタの新しいバージョンがリリースさ
     > [!IMPORTANT]
     > フィルターは、ディメンションに適用されている場合にのみサポートされます。 Measurements の値に対するフィルター処理は、通話品質ダッシュボードではサポートされていません。
 
-4. 最後に、[視覚化] ウィンドウ *の* [書式] タブ *を選択* して、クエリのスタイルと書式を設定します。
+4. 最後に、[視覚化] *ウィンドウの* [書式] タブ *を選択* して、クエリのスタイルと書式を設定します。
 
     > [!NOTE]
     > 通話品質ダッシュボード クエリを実行するには、少なくとも 1 つのメジャーが必要です。 クエリが読み込まれていない場合は、クエリにメジャーが含まれているか確認します。
@@ -116,7 +116,7 @@ Microsoft 通話品質コネクタ クエリは、ドリルスルー機能を念
 
 ## <a name="limitations"></a>制限事項
 
-Power BI を利用しているにもかかわらず、すべての Power BI 機能が Microsoft 通話品質コネクタでサポートされているとは限りません。これは、通話品質ダッシュボードのデータ モデルまたは一般的な DirectQuery コネクタに対する制限の結果です。 以下の一覧は、コネクタのより注目すべき制限事項の一部を示していますが、この一覧は網羅的と見なす必要はありません。
+Power BI を利用しているにもかかわらず、通話品質ダッシュボードのデータ モデルまたは DirectQuery コネクタ全般に対する制限の結果として、すべての Power BI 機能が Microsoft 通話品質コネクタでサポートされているという保証はありません。 以下の一覧では、コネクタのより注目すべき制限事項の一部を示していますが、この一覧は網羅的であるとは見なされません。
 
 1. **計算列 –** 一般に、DirectQuery コネクタでは、計算列のサポートが制限Power BI。 一部の集計列はコネクタで動作する場合があります。これらの列は例外です。 一般的なルールとして、計算列は機能しません。
 
@@ -126,11 +126,11 @@ Power BI を利用しているにもかかわらず、すべての Power BI 機�
 
 4. **キャッシュ されたデータの** 参照 – Power BI現在、DirectQuery コネクタからのキャッシュされたデータの参照はサポートされていません。 クエリの結果を参照しようとすると、新しいクエリが作成されます。
 
-5. **相対データ のフィルター処理 –** Microsoft 通話品質コネクタではサポートされますが、開始時刻と終了時刻のディメンション *でのみサポート* されます。 Date ディメンション *は* 相対的な日付のフィルター処理に対して明らかな選択肢ですが *、Date* は日付時刻オブジェクトとして保存されないので、日付の相対フィルター処理はサポートPower BI。
+5. **相対データ のフィルター処理 –** Microsoft 通話品質コネクタではサポートされますが、開始時刻と終了時刻のディメンション *でのみサポート* されます。 Date ディメンション *は* 相対的な日付のフィルター処理に対して明らかな選択肢ですが *、Date* は日付時刻オブジェクトとして保存されないので、日付の相対的なフィルター処理はサポートPower BI。
 
-6. **測定専用クエリ -** 現時点では、Microsoft 通話品質コネクタではサポートされていません。 3 つ以上の測定値とディメンションを持つ視覚エフェクトを作成すると、列データが入替されます。 これを回避するには、視覚エフェクトに少なくとも 1 つのディメンション (例: Month Year) を含める必要があります。 これは、Microsoft 通話品質コネクタの今後のリリースで解決される予定Power BI。
+6. **測定専用クエリ -** 現時点では、Microsoft 通話品質コネクタではサポートされていません。 3 つ以上の測定値とディメンションを持つ視覚エフェクトを作成すると、列データが入替されます。 これを回避するには、視覚エフェクトに少なくとも 1 つのディメンション (例: Month Year) を含める必要があります。 この問題は、Microsoft 通話品質コネクタの今後のリリースで解決される予定Power BI。
 
-7. **Government Community Cloud (GCC) のサポート –** Microsoft 通話品質コネクタは、GCC環境のお客様の場合にのみ機能します。Power BI Desktop使用できます。 Microsoft 通話品質コネクタは、現在、お客様の Power BI サービスGCC互換性がありません。
+7. **Government Community Cloud (GCC) のサポート –** Microsoft 通話品質コネクタは、GCC環境のお客様の場合にのみ機能します。Power BI Desktopします。 Microsoft 通話品質コネクタは、現在、お客様の Power BI サービスGCC互換性がありません。
 
 これらの問題の大部分は、CQD データ モデルの設計のPower BI DirectQuery コネクタ設計に対する制限のいずれかです。
 
@@ -146,7 +146,7 @@ Power BI を利用しているにもかかわらず、すべての Power BI 機�
 
 ## <a name="error-codes"></a>エラー コード
 
-Power BI 用 Microsoft 通話品質コネクタは、作成できるクエリの種類に関してブラウザー アプリよりも制限が少ないので、クエリの作成中にエラーが発生することがあります。 "CQDError" という種類のエラー メッセージが表示された場合。 RunQuery – クエリ実行エラー" を参照し、クエリに関する考えられる問題のトラブルシューティングを行う際に、ErrorType 番号を指定して以下の一覧を参照します。 CQD コネクタで発生する可能性がある最も一般的なエラーの種類Power BIします。
+Power BI 用 Microsoft 通話品質コネクタは、作成できるクエリの種類に関してブラウザー アプリよりも制限が少ないので、クエリの作成中にエラーが発生することがあります。 "CQDError" という種類のエラー メッセージが表示された場合。 RunQuery – クエリ実行エラー" を参照して、クエリに関して発生する可能性のある問題をトラブルシューティングするために、ErrorType 番号を指定して以下の一覧を参照します。 CQD コネクタで発生する可能性がある最も一般的なエラーの種類Power BIします。
 
 - **ErrorType 1 - クエリ構造エラー:** クエリ構造のエラーは、通常、コネクタが適切な形式のクエリを作成できなかった場合に発生します。 これは、上記の制限事項で指定されている、サポートされていない機能を使用する場合に最も頻繁に発生します。 そのクエリに集計列やカスタム ビジュアルが使用されていないか、ダブルチェックします。
 
@@ -162,31 +162,31 @@ Power BI 用 Microsoft 通話品質コネクタは、作成できるクエリの
 
 **<sup>1</sup>** 特定のプロセスとアプリ (OneDrive など) により、ドキュメントのルート フォルダーが変更される可能性があります。カスタム コネクタ ディレクトリPower BI Desktop現在のルート フォルダー *\\ Documents* フォルダーの内部に配置します。
 
-**<sup>2</sup>** 通話品質ダッシュボードに使用するログイン資格情報は、アプリ自体へのログインに使用するのと同じ資格情報Power BI Desktop必要はありません。
+**<sup>2</sup>** 通話品質ダッシュボードに使用するログイン資格情報は、アプリ自体にログインするために使用するのと同じ資格情報Power BI Desktop必要はありません。
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Power BI コネクタが "Beta" 状態から更新されるのは、いつですか?
 
-ベータ タグにも関わらず、Power BI の Microsoft Call Quality (Beta) コネクタはコネクタの最初の "リリース" バージョンであり、これを反映するために Power BI チームによって正式に署名されたセキュリティです。 コネクタの最初のリリース時点では、Power BI チームはサポートを提供できず、より広範な認定を受けずに、Microsoft 通話品質コネクタのセキュリティ、信頼性、および一般的な機能を証明する準備がなされました。 今後、Microsoft 通話品質コネクタに投資し、近い将来Power BI予定です。
+ベータ タグにもかかわらず、Power BI 用 Microsoft 通話品質 (ベータ) コネクタはコネクタの最初の "リリース" バージョンであり、これを反映するために Power BI チームによって正式に署名されたセキュリティです。 コネクタの最初のリリース時点では、Power BI チームはサポートと広範な認定を提供できませんでしたが、Microsoft Call Quality コネクタのセキュリティ、信頼性、および一般的な機能を証明する準備は完了しました。 今後、Microsoft 通話品質コネクタへの投資を予定Power BI予定です。
 
 ### <a name="why-does-the-connector-seem-slower-compared-to-call-quality-dashboard-in-the-browser-what-can-i-do-to-improve-performance"></a>ブラウザーの通話品質ダッシュボードに比べてコネクタの速度が遅いように見える理由 パフォーマンスを向上させるために何ができますか?
 
-さまざまなテンプレートのクエリパフォーマンスは、ブラウザーとコネクタの両方で実際には同じです。  他のスタンドアロン アプリと同様に、Power BIのパフォーマンスに認証とレンダリング時間が追加されます。 さらに、この違いは、同時実行クエリの数によって異なっています。 ブラウザー内バージョンの通話品質ダッシュボードは、あまりうまく開発されず、情報密度の高い視覚化オプションを備えているため、ほとんどのレポートは一度に 2 ~ 3 のクエリの読み込みに制限されています。 一方、コネクタ テンプレートには多くの場合、20 を超える同時クエリが表示されます。 以前のレポートと同じ応答性の高いレポートを作成する場合は、タブあたり 2 ~ 3 クエリ以下のレポートを作成してみてください。
+さまざまなテンプレートのクエリパフォーマンスは、ブラウザーとコネクタの両方で実際には同じです。  他のスタンドアロン アプリと同様に、Power BIのパフォーマンスに認証とレンダリング時間が追加されます。 さらに、この違いは、同時実行クエリの数によって異なっています。 ブラウザー内バージョンの通話品質ダッシュボードは、あまりうまく開発されず、情報密度の高い視覚化オプションを備えているため、ほとんどのレポートは一度に 2 ~ 3 のクエリの読み込みに制限されています。 一方、コネクタ テンプレートには多くの場合、20 以上の同時クエリが表示されます。 以前のレポートと同じ応答性の高いレポートを作成する場合は、タブあたり 2 ~ 3 クエリ以下のレポートを作成してみてください。
 
 詳細については、次の記事を参照してください。
 
-- [Power BI の最適化ガイド](/power-bi/guidance/power-bi-optimization)
+- [最適化ガイド (Power BI](/power-bi/guidance/power-bi-optimization)
 - [DirectQuery モデルのガイダンス](/power-bi/guidance/directquery-model-guidance)
 
 ### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>クエリを実行すると、10,000 行の制限に日常的に達する場合があります。 10,000 行を超える行を返すコネクタを取得する方法
 
 10,000 行の制限は、実際には API エンドで指定され、パフォーマンスを大幅に向上し、メモリの状態が少ないクエリ実行エラーのリスクを軽減するように設計されています。
 
-結果の行数を増やす代わりに、コネクタのベスト プラクティスに従ってレポートを再構築します。 含まれているテンプレートは、これらのベスト プラクティスを示す目的で設計されています。 可能であれば、まず、月、年、日付、地域、国などのより広いカーディナリティディメンションを使用して KPI を確認します。そこから、より高いカーディナリティ ディメンションにドリルダウンできます。 ヘルプデスクとLocation-Enhancedレポートはどちらも、このドリルダウン ワークフローの優れた例を提供します。
+結果の行数を増やす代わりに、コネクタのベスト プラクティスに従ってレポートを再構築します。 含まれているテンプレートは、これらのベスト プラクティスを示す目的で設計されています。 可能であれば、まず、月、年、日付、地域、国などのより広いカーディナリティディメンションを使用して KPI を確認します。そこから、より高いカーディナリティ ディメンションにドリルダウンできます。 ヘルプデスクレポートとLocation-Enhancedレポートはどちらも、このドリルダウン ワークフローの優れた例を提供します。
 
 
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [このPower BIを使用して、CQD データを分析Teams](CQD-Power-BI-query-templates.md)

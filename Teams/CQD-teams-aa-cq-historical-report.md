@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード レポートを使用して、通話Power BI履歴データ自動応答を表示する方法について説明します。
-ms.openlocfilehash: 844ab5caee23cb504420925c9f13bc261d4d839cce19f7ae557d4637562a963e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 57cd28fef4a1e24ecc4f29344a6ec91af5e2dbec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331089"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593291"
 ---
 # <a name="what-are-the-requirements"></a>要件は何ですか? 
 インストールする必要Power BI Desktopがあります。 Microsoft Windows Store[からインストールできます](https://aka.ms/pbidesktopstore)。
@@ -39,7 +39,7 @@ ms.locfileid: "54331089"
 CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQD データ パイプラインにアクセスするためのアクセス許可が必要です。 詳細については [、CQD アクセス ロールを](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 参照してください。
 
 ## <a name="installation"></a>インストール 
-次の手順では、コンピューターに Power BI Desktop を既にインストールし、アカウントに CQD データ パイプラインにアクセスするために必要なアクセス許可を持っている必要があります。
+次の手順では、コンピューターに Power BI Desktop が既にインストールされ、CQD データ パイプラインにアクセスするために必要なアクセス許可がアカウントに付与されていることを前提とします。
 
 次の手順を実行してください。
 - [CQD ファイルをダウンロードTeams 自動応答 &キュー履歴レポート テンプレート](./aa-cq-cqd-historical-reports.md)を呼び出し、コンピューター上のディレクトリに保存します。
@@ -51,7 +51,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット":::
 
  - このリージョンは、Skype for Business Online PS コマンドレット (Get-CsTenant) を使用して確認できます。ServiceInstance 出力。 
- リージョンは、次の例の / の後に表示されます。 
+ この例では、 / の後にリージョンが表示されます。 
  
    リージョンが noam である microsoftcommunicationsonline/noam-4a-s7。
    
@@ -67,7 +67,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 
 - [Connect]**を** 選択し、データの更新を確認します。
 
-## <a name="data-latency-any-aa--cq-analytics"></a>データ待機時間 CQ 分析& AA
+## <a name="data-latency-any-aa--cq-analytics"></a>データの待機時間 AA & CQ 分析
 データは、CQD データ パイプラインで 30 分以内に利用できます。
 
 新しい分析データを表示するには、データを更新する必要があります。 
@@ -78,7 +78,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 レポートで指定したデータ フィールド以外のデータ フィールドを追加することはできません。
 
 ### <a name="change-color-schema"></a>カラー スキーマを変更する 
-次の手順では、インストール手順が既に完了済みである前提で説明します。
+次の手順では、インストール手順を既に完了している前提で説明します。
 
 次の手順を実行してください。
 - リボンの **[表示] タブ** を選択します。
@@ -95,10 +95,10 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |名前                                    |データ型                |説明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |自動応答 ID                 |string                   |AA にアタッチされているリソース アカウントの名前<br>例: aa_test@microsoft.com|
-|自動応答 チェーンの開始時刻         |datetime                 |AA チェーンの開始時刻                    |
+|自動応答チェーンの開始時刻         |datetime                 |AA チェーンの開始時刻                    |
 |自動応答 ディレクトリ検索メソッド  |string                   |最後のアドレス帳の検索方法        |
 |自動応答転送アクション          |string                   |通話転送ターゲットの種類<br>値の例は次のとおりです。<br>§ unknown - エンティティの種類が指定されていません<br>§ user - user entity<br>§ orgaa - 組織自動応答エンティティ<br>§ hunt_group - Queue エンティティの呼び出し<br>§ application - 音声アプリケーション エンティティ<br>§ external_pstn - 外部 PSTN エンティティ<br>§ shared_voicemail - 共有ボイスメール エンティティ|
-|自動応答結果の呼び出し              |string                   |呼び出し結果:<br>§ unknown - 呼び出しがセットアップまたは転送に失敗し、サービスが意味のあるエラーの理由を受け取っていない <br>§ transferred_to_user - ダイヤル バイ ネーム/拡張機能または構成済みのメニュー オプションを使用してユーザーに転送された通話 <br>§ transferred_to_operator - AA がオペレーターを使用して時間外に構成されている場合など、呼び出しが構成されたオペレーターに転送されました <br>§ failover_to_operator - 転送に失敗した場合、または 3 回試行した後に名前認識が機能しない場合に演算子にフォールバックする<br>§ user_terminated - 呼び出し元が呼び出しを終了しました <br>§ service_declined - サービスによって拒否された呼び出しは、サービスが構成のフェッチに失敗した場合に発生自動応答があります。 <br>§ service_terminated - ターゲットへの転送に失敗し、フォールバックとしてオペレーターが構成されていない場合は、バック エンド サービスが呼び出しを終了しました <br>§ failed_to_establish_media - 呼び出し元とサービスの間でメディアの確立に失敗しました <br>§ terminated_no_operator - 3 回試行した後に名前認識に失敗し、演算子が構成されていない <br>§ terminated_transfer_failed - ターゲットへの転送に失敗し、オペレーターが構成されていません <br>§ terminated_automatic_selection - 時間中または数時間後にアクションが構成されていない場合、呼び出しは既定で終了します <br>§ transferred_to_shared_voicemail - ターゲットとして構成されている場合、共有ボイスメールに転送された通話 <br>§ oaa_chain_too_long - 呼び自動応答チェーンが連続して 5 つの自動応答を超えると、呼び出しが終了し、呼び出しループが発生する可能性が回避されます。 <br>§ oaa_session_too_long - 呼び出しが最大許容セッション長を超え、タイムアウトしました |
+|自動応答呼び出し結果              |string                   |呼び出し結果:<br>§ unknown - 呼び出しがセットアップまたは転送に失敗し、サービスが意味のあるエラーの理由を受け取っていない <br>§ transferred_to_user - ダイヤル バイ ネーム/拡張機能または構成済みのメニュー オプションを使用してユーザーに転送された通話 <br>§ transferred_to_operator - AA がオペレーターを使用して時間外に構成されている場合など、呼び出しが構成されたオペレーターに転送されました <br>§ failover_to_operator - 3 回試行した後に転送に失敗した場合、または名前認識が機能しない場合に演算子にフォールバックする<br>§ user_terminated - 呼び出し元が呼び出しを終了しました <br>§ service_declined - サービスによって拒否された呼び出しは、サービスが構成のフェッチに失敗した場合に発生自動応答があります。 <br>§ service_terminated - ターゲットへの転送に失敗し、フォールバックとしてオペレーターが構成されていない場合は、バック エンド サービスが呼び出しを終了しました <br>§ failed_to_establish_media - 呼び出し元とサービスの間でメディアの確立に失敗しました <br>§ terminated_no_operator - 3 回試行した後に名前認識に失敗し、演算子が構成されていない <br>§ terminated_transfer_failed - ターゲットへの転送に失敗し、オペレーターが構成されていません <br>§ terminated_automatic_selection - 時間中または数時間後にアクションが構成されていない場合、既定で呼び出しは終了します。 <br>§ transferred_to_shared_voicemail - ターゲットとして構成されている場合、共有ボイスメールに転送された通話 <br>§ oaa_chain_too_long - 呼び出しチェーン自動応答連続して 5 つの自動応答を超えると、呼び出しループが発生する可能性を回避するために呼び出しが終了します。 <br>§ oaa_session_too_long - 呼び出しが最大許容セッション長を超え、タイムアウトしました |
 |自動応答通話Flow                |string                   |呼び出しの異なる状態自動応答します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement|
 |Is 自動応答 Involved              |Boolean                  |AA が呼び出しに関与したかどうかを示します |
 |自動応答呼び出し元アクション数      |int                      |呼び出し元が使用したアクションの数         |
@@ -111,7 +111,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |通話キュー ID から転送    |Boolean                  |この呼び出しが転送された CQ にアタッチされているリソース アカウントの名前<br>例: aa_test@microsoft.com|
 |Call Queue Agent Opt In Count           |int                      |呼び出しの時点でこのキューで使用可能なエージェントの数 |
 |Call Queue Agent Count                  |int                      |呼び出し時にこのキューに割り当てられたエージェントの数 |
-|Is Call Queue Involved                  |Boolean                  |この呼び出しに対して呼び出しキューが関与している場合は、1 と等しくなります。 |
+|Is Call Queue Involved                  |Boolean                  |この呼び出しに呼び出しキューが関与している場合は 1 と等しくなります。 |
 
 
 ### <a name="powerbi-data-model-dimensions"></a>PowerBI データ モデルのディメンション
@@ -174,7 +174,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 
 |名前                                                      |説明                            |
 |:-------------------------------------------------------|:--------------------------------------|
-|エージェントによる # 呼び出し                                        |呼び出しキューとエージェント別の呼び出しの分散                 |
+|エージェントによる # 呼び出し                                        |呼び出しキューとエージェントによる呼び出しの分散                 |
 |エージェントと通話キュー別の合計通話時間 (秒)   |エージェントと呼び出しキュー別の呼び出しの合計時間 (秒)     |
 |エージェント名別の平均呼び出し時間 (秒)            |エージェント別の呼び出しの平均継続時間 (秒)                  |
 
@@ -183,4 +183,4 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 ## <a name="known-issues"></a>既知の問題
 - 現在、通話キューと自動応答では、通話キュー/自動応答名の代わりにリソース アカウント ID が表示されます。  自動応答または通話キューのすべてのトラフィックを表示するには、自動応答または通話キューに割り当てられているすべてのリソース アカウントを選択する必要があります。
 
-- 現時点では、通話キュー/自動応答データはエンド ユーザーが特定できる情報と見なされ、データ プライバシー保持ポリシーの対象となるので、ダッシュボードで使用できる履歴は 28 日間のみです。
+- 現時点では、通話キュー/自動応答データはエンド ユーザーが特定できる情報と見なされ、データプライバシー保持ポリシーの対象となるので、ダッシュボードで使用できる履歴は 28 日間のみです。
