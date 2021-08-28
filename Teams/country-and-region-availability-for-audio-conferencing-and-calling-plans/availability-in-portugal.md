@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ポルトガルで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
-ms.openlocfilehash: 8f67fe2e9b6a86d9a4d3e1ce954d6afb91e095ed372c9d698d82a25416be3202
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: ポルトガルで利用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
+ms.openlocfilehash: cc169d70453ff94d389d156515c6c73c7c0dfabe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347232"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615383"
 ---
 # <a name="availability-in-portugal"></a>ポルトガルでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ポルトガルで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
+ポルトガルで利用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li> リスボン</ul>専用の電話番号が必要な場合は、「サービスの電話番号 [を取得する」を参照してください](../getting-service-phone-numbers.md)。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> |次の場合は、はい:<br/><ul><li> リスボン</ul>専用の電話番号が必要な場合は、「サービス電話番号 [を取得する」を参照してください](../getting-service-phone-numbers.md)。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |利用可能  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -82,7 +82,7 @@ ms.locfileid: "54347232"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [サービス電話番号を取得する](../getting-service-phone-numbers.md)
 

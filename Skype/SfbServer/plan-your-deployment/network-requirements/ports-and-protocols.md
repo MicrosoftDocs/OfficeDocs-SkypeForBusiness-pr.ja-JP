@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: '概要: ポートを実装する前に、ポートの使用状況に関する考慮事項をSkype for Business Server。'
-ms.openlocfilehash: d2e3cf07dbdf7471cd1e2f535d619e8bece74ecc0a9f9e16d416b7cba46548c1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4e991d816ea00a51260b16d7af4cbe7e3f326688
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352625"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615583"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>サーバーのポートとプロトコルの要件
  
@@ -51,7 +51,7 @@ Skype for Business Server、外部ファイアウォールと内部ファイア�
   
 **必要なサーバー ポート (サーバー役割別)**
 
-|サーバーの役割|サービス名|ポート|プロトコル|備考|
+|サーバーの役割|サービス名|ポート|プロトコル|Notes|
 |:-----|:-----|:-----|:-----|:-----|
 |すべてのサーバー  |SQL ブラウザー  |1434  |UDP  |SQL中央管理ストア データベースのローカルレプリケート コピーのブラウザー。  |
 |Front-End サーバー  |Skype for Business Server Front-End サービス  |5060  |TCP  |リモート通話コントロール サーバーなどの Standard Edition サーバーとフロント エンド サーバーで、信頼されたサービスへの静的ルートの場合にオプションとして使用。  |
@@ -152,7 +152,7 @@ DNS 負荷分散を使用するフロント エンド プールとディレク�
 
 **必要なクライアント ポート**
 
-|コンポーネント|ポート|プロトコル|備考|
+|コンポーネント|ポート|プロトコル|Notes|
 |:-----|:-----|:-----|:-----|
 |クライアント  |67/68  |DHCP  |レジストラー FQDN をSkype for Business Serverするために使用されます (つまり、DNS SRV が失敗し、手動設定が構成されていない場合)。  |
 |クライアント  |443  |TCP (TLS)  |外部ユーザー アクセスのクライアントとサーバー間の SIP トラフィックで使用。  |

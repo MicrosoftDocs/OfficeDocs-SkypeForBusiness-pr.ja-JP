@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。 '
-ms.openlocfilehash: 1b1c37635abf71fef82330cba9b1749edac9f16fa7ae13bd4dbeb2274166deb2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c82cdd40eb69ea06443e06ed21ab5d613f0a220b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278225"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634071"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>通話プランのMicrosoft 365
 
@@ -39,11 +39,11 @@ ms.locfileid: "54278225"
   
 通話プランのオプションを紹介します。
   
-- **国内通話プラン**: ライセンスを取得したユーザーは、国または地域に割り当てられている国/地域にある番号をMicrosoft 365呼び出Office 365。
+- **国内通話プラン**: ライセンスを取得したユーザーは、国または地域に割り当てられている国/地域にある番号を呼び出Microsoft 365またはOffice 365。
     
-- **国内** 通話プランと国際通話プラン: ライセンスを取得したユーザーは、Microsoft 365 または Office 365 ライセンスがユーザーの場所に基づいてユーザーに割り当てられている国/地域にある番号と [、196](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)か国/地域の国際番号にコールアウトできます。
+- **国内** 通話プランと国際通話プラン: ライセンスを取得したユーザーは、Microsoft 365 または Office 365 ライセンスがユーザーの場所に基づいてユーザーに割り当てられている国/地域にある番号と [、196](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)か国/地域の国際電話番号にコールアウトできます。
 
-同じ通話プランを持つ同じ国/地域内のすべてのユーザー (Microsoft 365 管理センター のライセンス領域で定義されているユーザーの国の場所) は、分のプールを共有します。 たとえば、同じ国/地域に 100 人のユーザーがいて、国内通話プランが 120 分割り当てられている場合、そのユーザーは 12,000 分のプールを共有します。 この分を超えるすべての呼び出しは、1 分ごとに請求されます。
+同じ通話プランで同じ国/地域のすべてのユーザー (Microsoft 365 管理センター のライセンス領域で定義されているユーザーの国の場所) は、分のプールを共有します。 たとえば、同じ国/地域に 100 人のユーザーがいて、国内通話プランが 120 分割り当てられている場合、ユーザーは 12,000 分のプールを共有します。 この分を超えるすべての呼び出しは、1 分ごとに請求されます。
     
 国 [と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 情報にアクセスして、各国/地域の各組織で利用できる月次分を確認します。
   
@@ -91,7 +91,7 @@ ms.locfileid: "54278225"
 - [次に示すのは、電話システム または Microsoft 365 のOffice 365](./here-s-what-you-get-with-phone-system.md)
     
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     

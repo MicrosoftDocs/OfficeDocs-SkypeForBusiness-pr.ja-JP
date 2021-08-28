@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: このSet-CcExternalCertificateFilePathコマンドレットは、仲介サーバーまたはエッジ サーバーの証明書が格納されるパスを指定します。
-ms.openlocfilehash: 7b9b494b27f3ed05dd1ef1cdb91bd583abf2d2b391f1a49c0b2615fd3485187c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8555d3a3c6770481e1a66f79fd4a1060d3d9936
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344566"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615523"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -69,9 +69,9 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
-| Target <br/> | 必須 <br/> |System.String  <br/> |要求されたファイル パスの種類。 型には、次のものが含まれます。  <br/> EdgeServer (既定)  <br/> MediationServer  <br/> |
+| 対象 <br/> | 必須 <br/> |System.String  <br/> |要求されたファイル パスの種類。 型には、次のものが含まれます。  <br/> EdgeServer (既定)  <br/> MediationServer  <br/> |
 |インポート  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |証明書を仲介サーバーにインポートする必要があります。 アプライアンスを初めて展開する場合、このパラメーターは必要ではありません。 既に展開されているバージョンの既存の証明書を変更する場合は、このパラメーターが必要です。  <br/> |
    
 ## <a name="input-types"></a>入力の種類

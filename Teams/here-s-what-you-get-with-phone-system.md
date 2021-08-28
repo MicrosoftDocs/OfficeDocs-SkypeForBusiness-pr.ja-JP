@@ -17,18 +17,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: '機能、可用性、およびビジネス向け Microsoft 電話を計画および設定する方法について学習します。 '
-ms.openlocfilehash: eb39ea455ef298e00982a5ee414415ddbf66207a
-ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
+ms.openlocfilehash: 73f093fa7e8a029ee282a3b4d7cd236553cbc86a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548292"
+ms.locfileid: "58615353"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>電話システムで利用できる機能
 
@@ -88,7 +88,7 @@ High クラウドと DoD クラウドでは、次GCCはまだ使用できませ�
 - 保留中の音楽
 - Azure AD逆引き番号参照
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [電話システムとは](what-is-phone-system-in-office-365.md)
 - [Microsoft Teams での Cloud Voice](cloud-voice-landing-page.md)

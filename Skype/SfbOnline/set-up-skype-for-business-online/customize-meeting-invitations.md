@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
-ms.openlocfilehash: c7c642d13eb2e0ac76d4565a977faebe08c52b378f50e1e5193486002056c4ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306180"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614939"
 ---
 # <a name="customize-meeting-invitations"></a>会議への招待状をカスタマイズする
 
@@ -43,7 +43,7 @@ ms.locfileid: "54306180"
     
 3. ネットワークの共有、ビジネスフォルダ用の共有 OneDrive、Dropboxなど、お客様のビジネスのすべてのユーザーがアクセスできる中央の場所にイメージを保存します。
     
-    会議出席依頼に追加できるようになります。 方法については、次の手順を参照してください。
+    これで、会議出席依頼に追加できます。次の手順を参照してください。
     
 ## <a name="customize-your-meeting-invitations"></a>会議の招待状をカスタマイズする
 <a name="__top"> </a>
@@ -54,7 +54,7 @@ ms.locfileid: "54306180"
     
 2. 管理センターで、[管理センター]**を選択Skype for Business。**  >  
     
-3. 管理センター Skype for Businessオンライン会議]**を選択します**。 
+3. [管理センター Skype for Businessオンライン会議]**を選択します**。 
     
 4. 以下のボックスに入力してください:
     
@@ -71,11 +71,11 @@ ms.locfileid: "54306180"
    
 5. [ **保存**] を選びます。
     
-6. すべてのサービスまたはサービス間で変更が設定Microsoft 365 1 時間Office 365します。 その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。 
+6. すべてのサービスまたはサービスで変更が設定Microsoft 365 1 時間Office 365待ちます。 その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。 
     
     ![カスタム出席依頼がどのようなものかを図を使用せずに以下に示します](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 <a name="__top"> </a>
 
 [電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) に関してよく寄せられる質問 (FAQ) Microsoft Teams回答を参照してください。
-ms.openlocfilehash: a733abb5f1fb41e149dd0801b5e25dd1bf948bf6
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58339855"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616303"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)
 
@@ -38,7 +38,7 @@ ms.locfileid: "58339855"
 
 [CQD で EUII が表示できない理由](#why-cant-i-see-euii-in-cqd)
 
-[フィルター処理のみをSkype for Business、CQD に一部の情報がTeams理由](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[フィルター処理のみをSkype for Business、CQD に情報が表示Teams。](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [追加のエントリが必要とわかっているのに、カスタム レポートで返される行数が最大 10,000 行になる理由](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
@@ -52,7 +52,7 @@ CQD がストリーム分類に使用する規則 [を確認してください](
 
 ネットワークの問題かどうかを判断するには、セッションの平均値と最大値の差分を確認します。 最大値は、セッション中に検出され、報告される最大値です。
  
-この状況をトラブルシューティングする方法の例を次に示します。 たとえば、通話中にネットワーク トレースを実行し、最初の 20 分間はパケットが失われることはありませんが、その後は 1.5 秒のパケットの間隔が生じ、その後の通話の残りの部分に問題はありません。 平均は、Wireshark トレース RTP <でも 10% (0.1) パケット損失が発生します。 最大パケット損失は何でしたか? 5 秒間の 1.5 秒は 30% (0.3) になります。 これは、5 秒間のサンプリング期間中に発生しましたか (または、サンプリング期間に分割される可能性があります)。
+この状況をトラブルシューティングする方法の例を次に示します。 たとえば、通話中にネットワーク トレースを実行し、最初の 20 分間はパケットが失われることはありませんが、その後は 1.5 秒のパケットの間隔が生じ、通話の残りの部分に良好な時間が生じてしまいます。 平均は、Wireshark トレース RTP <でも 10% (0.1) パケット損失が発生します。 最大パケット損失は何でしたか? 5 秒間の 1.5 秒は 30% (0.3) になります。 これは、5 秒間のサンプリング期間中に発生しましたか (または、サンプリング期間に分割される可能性があります)。
  
 ネットワーク メトリックが平均値と最大値で良好に見える場合は、他のテレメトリ データを確認します。 
 - [CPU Insufficient Event Ratio]をオンにし、検出された使用可能な CPU リソースが不十分で、低品質の原因になっているか確認します。 
@@ -82,11 +82,11 @@ CQD で詳細なレポートを作成し、会議 ID でフィルター処理し
 - Microsoft 365レポート閲覧者
 - Teams 通信サポート スペシャリスト
 
-CQD にアクセスできるロール (EUII を含む) の詳細については [、「CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)にアクセスするためにロールを割り当てる」を参照してください。
+CQD にアクセスできるロール (EUII を含む) の詳細については、「CQD にアクセスするためにロールを割り当てる」 [を参照してください](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>フィルター処理のみをSkype for Business、CQD に一部の情報がTeams理由
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>フィルター処理のみをSkype for Business、CQD に情報が表示Teams。
 
-CQD レポート (isTeams = 1) でのみ Teams をフィルター処理する場合は、最初のエンドポイントが呼び出されているすべての呼び出しをフィルター処理Teams。 2 *つ目の* エンドポイントSkype for Business、その情報が CQD レポートに表示されます。
+CQD レポート (isTeams = 1) でのみ Teams をフィルター処理する場合は、最初のエンドポイントが呼び出されるすべての呼び出しをフィルター処理Teams。 2 *つ目の* エンドポイントSkype for Business、その情報が CQD レポートに表示されます。
 
 CQDv2 と CQDv3 の合計カウントは常に異なります。CQDv3 には、CQDv2 にはない新しいシナリオが含まれています。 集計合計または集計された全数値をフィルターを使用して比較すると、これらの期待される違いが生じ得るのは、その理由です。  
 

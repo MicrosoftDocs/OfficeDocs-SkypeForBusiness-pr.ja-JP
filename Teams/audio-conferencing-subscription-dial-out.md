@@ -15,21 +15,21 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: ダイヤルアウトと通話 (分) 特典。 2019 年 12 月 1 日の現在、各電話会議サブスクリプションは、ゾーン A の国に 1 か月あたり 60 分のユーザーを提供します。
-ms.openlocfilehash: d532664abee611fe9ced2e744415edb91e3dae03b8aaea36e705d8bed59b10e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0794faad1af905e70b3bd1110bf8f0d9a71b2923
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278235"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615433"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>電話会議サブスクリプションの "ダイヤルアウト"/"通話場所" 分の特典
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>電話会議サブスクリプション "ダイヤルアウト"/"通話場所" 分の特典
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams PSTN Skype for Business電話会議の使用
 
@@ -42,7 +42,7 @@ ms.locfileid: "54278235"
 > [!NOTE]
 > 無料のダイヤルアウト[](complimentary-dial-out-period.md)期間の終了は、電話会議サブスクリプションを利用できる国では 2019 年 11 月 30 日に行われず、現在のところ通信クレジットを設定する機能は提供されません。 これらの特定の国は、ロシア、韓国、台湾です。
 
-## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>電話会議 "会議からダイヤルアウト" & [通話] の詳細
+## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>電話会議 "会議からダイヤルアウト" &の詳細
 
 Microsoft では、電話会議サービスを導入しているお客様のために、電話会議サブスクリプション ライセンスが割り当てられたユーザーが開催する会議からダイヤルアウトする機能を提供しています。 ゾーン [A](audio-conferencing-zones.md) の国と地域の一覧に含まれていない国へのダイヤルアウト通話は、通信クレジットを使用して分単位で課金されます。 分単位で請求されるダイヤルアウト通話 (テナントダイヤルアウト分プールを超える呼び出し、またはゾーン [A](audio-conferencing-zones.md) の国と地域の一覧ではない宛先への呼び出し) の場合、通話とその関連料金は、開催者の居住国やダイヤルアウト通話を開始する会議参加者ではなく、通話の送信先に基づいて行います。 たとえば、ゾーン A の国であるフランスの電話番号に対する音声会議ダイヤルアウト通話は、米国、フランス、またはジンバブエの会議参加者によって開始された場合、分単位で同じ料金で請求されます。 
 
@@ -50,29 +50,29 @@ Microsoft では、電話会議サービスを導入しているお客様のた�
 |会議開催者ライセンスの使用場所 |ダイヤル先 |ダイヤルアウト分のプール分を使用できますか?|コミュニケーション クレジットは必要ですか?|
 |---------|---------|---------|---------|
 |米国 |米国 |はい (ゾーン A の国) |テナント *分プール* を使用した後ははい         |
-|米国 |英国|はい (ゾーン A の国) |  テナント *分プール* を使用した後ははい       |
+|米国 |イギリス|はい (ゾーン A の国) |  テナント *分プール* を使用した後ははい       |
 |米国     |ジンバブエ|    いいえ     |     すべての呼び出 *しでは* い    |
-|英国     |英国|はい (ゾーン A の国) |  テナント *分プール* を使用した後ははい       |
+|イギリス     |イギリス|はい (ゾーン A の国) |  テナント *分プール* を使用した後ははい       |
 |英国     |米国 |はい (ゾーン A の国) |  テナント *分プール* を使用した後ははい       |
-|英国     |ジンバブエ|    いいえ     |   すべての呼び出 *しでは* い      |
+|イギリス     |ジンバブエ|    いいえ     |   すべての呼び出 *しでは* い      |
 |ジンバブエ     |ジンバブエ|    いいえ     |    すべての呼び出 *しでは* い     |
 |ジンバブエ     |米国 | はい (ゾーン A の国) | テナント *分プール* を使用した後ははい        |
-|ジンバブエ     |英国 | はい (ゾーン A の国) | テナント *分プール* を使用した後ははい        |
+|ジンバブエ     |イギリス | はい (ゾーン A の国) | テナント *分プール* を使用した後ははい        |
 |クック諸島     |クック諸島 |   いいえ      |    すべての呼び出 *しでは* い     |
 |クック諸島     |米国  | はい (ゾーン A の国) |  テナント *分プール* を使用した後ははい       |
-|クック諸島     |英国 | はい (ゾーン A の国) | テナント *分プール* を使用した後ははい        |
+|クック諸島     |イギリス | はい (ゾーン A の国) | テナント *分プール* を使用した後ははい        |
 |    |         |         |         |
 
 ## <a name="how-are-minute-pools-calculated"></a>分プールの計算方法
 
 次の例を検討してください。 お客様が 115 の電話会議サブスクリプション ライセンスを購入し、米国に 10 人のユーザー、英国に 100 人、ジンバブエに 5 人のユーザーを持ち、すべて電話会議サブスクリプション ライセンスが割り当て済みです。 115 人のユーザー全員が、会議開催者のライセンスや物理的な場所に関係なく、ゾーン[A](audio-conferencing-zones.md)の国と地域でプレミアム以外の番号への発信通話を行うプール (115 ユーザー x 60 分= 6,900 会議ダイヤルアウト分/カレンダー月) を共有します。 たとえば、ジンバブエ会議の開催者は、分のプール制限までゾーン [A](audio-conferencing-zones.md) の国と地域にダイヤルアウトできます。
 
-- カレンダー月あたり 6,900 分を超えるすべてのダイヤルアウト通話は、その宛先に公開された料金で通信クレジットを使用して、1 分あたりに請求されます。 
+- カレンダー月あたり 6,900 分を超えるすべてのダイヤルアウト通話は、その宛先に公開された料金で通信クレジットを使用して、分単位で請求されます。 
 
    > [!NOTE]
    > 顧客はコミュニケーション クレジットを設定 [し、コミュニケーション](what-are-communications-credits.md) クレジット ライセンスを会議開催者に割り当てる必要があります。
 
-- [ゾーン A](audio-conferencing-zones.md)の国と地域の一覧に含められていない宛先に対するダイヤルアウト通話はすべて、その宛先に公開されている料金でコミュニケーション クレジットを使用して分単位で請求されます (お客様が通信クレジットを設定し、コミュニケーション クレジット ライセンスを会議開催者に割り当てた場合)。
+- ゾーン [A](audio-conferencing-zones.md) の国と地域の一覧に含められていない宛先へのダイヤルアウト通話はすべて、その宛先に公開されている料金でコミュニケーション クレジットを使用して分単位で請求されます (お客様が通信クレジットを設定し、コミュニケーション クレジット ライセンスを会議開催者に割り当てた場合)。
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>プールの分数の使用状況を監視する方法
 
@@ -96,9 +96,9 @@ Microsoft では、電話会議サービスを導入しているお客様のた�
   - Teams 通信サポート スペシャリスト
   - Teams 管理者
 
-コミュニケーション クレジットの詳細については、「通信クレジット」 [を参照してください](what-are-communications-credits.md)。
+通信クレジットの詳細については、「通信クレジット」 [を参照してください](what-are-communications-credits.md)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [電話会議の国と地域のゾーン](audio-conferencing-zones.md)

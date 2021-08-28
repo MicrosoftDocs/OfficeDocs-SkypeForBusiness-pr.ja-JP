@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: この記事では、電話会議、アプリケーション、仲介サーバーのポート範囲とサービス品質ポリシーを構成する方法について説明します。
-ms.openlocfilehash: 52612e1cd4d8990f32b741538b8023ab1f8afabe
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 6e5b420b4ccc8cc59a45834cbd898ccc5b2ec180
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234952"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634291"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>会議、アプリケーション、仲介サーバーのポート範囲とサービス品質ポリシーの構成
 

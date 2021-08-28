@@ -1,5 +1,5 @@
 ---
-title: PowerShell のサンプル スクリプト - 自動開始設定をリセットする Teams
+title: PowerShell のサンプル スクリプト - クイック スタートの自動開始設定をリセットTeams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,27 +7,27 @@ ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、ユーザーごとに Teams設定をリセットします。
+description: この PowerShell スクリプトを使用して、ユーザーごとに Teamsの自動開始設定をリセットします。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba0231e9cb8923dbd7243c9c2f54c552cacec596bf8bcd086f9b249f9bc1f5e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a0ffe1db589541e3e4301dd81f95546615be2db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301043"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634021"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell のサンプル スクリプト - 自動開始設定をリセットする Teams
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell のサンプル スクリプト - クイック スタートの自動開始設定をリセットTeams
 
-このスクリプトを使用して、Teamsに基づいて自動開始設定をリセットします。 これには、ユーザーまたはアプリによって設定された値Teams含まれます。 既定では、ユーザー Teamsがインストールされた後にコンピューターにログインすると、自動的に起動されます。
+このスクリプトを使用して、Teamsに基づいて自動開始設定をリセットします。 これには、ユーザーまたはアプリによって設定された値Teams含まれます。 既定では、Teamsがインストールされた後にコンピューターにログインすると、自動的に起動されます。
 
-Teams を既にデプロイ済みで、[グループ ポリシーのインストール後[](../msi-deployment.md#use-group-policy-recommended)に Microsoft Teams が自動的に開始されるのを防ぐ] 設定を設定して、Teams の自動開始を無効にする場合は、最初にグループ ポリシー設定を必要な値に設定してから、このスクリプトを実行する必要があります。
+Teams を既にデプロイ済みで、[グループ ポリシーのインストール後[](../msi-deployment.md#use-group-policy-recommended)に Microsoft Teams が自動的に開始されるのを防ぐ] 設定を設定して Teams の自動開始を無効にする場合は、最初にグループ ポリシー設定を必要な値に設定してから、このスクリプトを実行する必要があります。
 
 ユーザー Teams開始した後は、グループ ポリシーを使用して自動開始設定を無効にすることはできません。
 
@@ -147,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [MSI を使用した Teams のインストール](../msi-deployment.md)
 - [新しいTeamsをデプロイMicrosoft 365 Apps for enterprise](/deployoffice/teams-install)

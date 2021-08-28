@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: このトピックでは、2019 エッジ サーバーを展開する前に注意する必要がある構成Skype for Business Server説明します。 2019 年 2019 年Skype for Business Server展開および構成プロセスは、2015 年の Skype for Business Serverと非常に似ています。 このセクションで説明するのは、パイロット プールの展開の際に考慮が必要となる主なポイントのみです。 詳細な手順については、「展開プロセスについて説明し、外部ユーザー アクセスの構成情報も示す展開」の「Skype for Business Server 2019 での外部ユーザー アクセスの展開」を参照してください。
-ms.openlocfilehash: 24202bc84be67453eeff321b268f44769d5b11a8eafcd6d93098db7c7b8537fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315083"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615011"
 ---
 # <a name="deploy-pilot-edge-server"></a>パイロット エッジ サーバーの展開
 

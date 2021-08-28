@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '概要: 通話品質ダッシュボードを使用する方法について学習します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: a2f5cbe503f914fe32b42119397be44ab82617cddd9951ab7064a2d08c0289f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317582"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634241"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードを使用した通話Skype for Business Server
 
@@ -103,13 +103,13 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 **CqdBuilding**
 
-|Column|データ型|Nulls を許可しますか?|詳細|
+|列|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |整数 |いいえ |CqdBuilding テーブルの主キー。 |
+|BuildingKey |int |いいえ |CqdBuilding テーブルの主キー。 |
 |BuildingName |varchar(80) |いいえ |建物名。 |
 |BuildingShortName |varchar(10) |いいえ |建物名の短いバージョン。 |
-|OwnershipTypeId |整数 |いいえ |外部キーは、CqdBuildingOwners テーブルのエントリの 1 つと一致します。 |
-|BuildingTypeId |整数 |いいえ |外部キーは、CqdBuildingType テーブルのエントリの 1 つと一致します。 |
+|OwnershipTypeId |int |いいえ |外部キーは、CqdBuildingOwners テーブルのエントリの 1 つと一致します。 |
+|BuildingTypeId |int |いいえ |外部キーは、CqdBuildingType テーブルのエントリの 1 つと一致します。 |
 |Latitude |浮動小数点数 |はい |建物の緯度。 |
 |Longitude |浮動小数点数 |はい |建物の経度。 |
 |CityName |varchar(30) |はい |建物がある都市名。 |
@@ -123,12 +123,12 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 **CqdNetwork**
 
-|Column|データ型|Nulls を許可しますか?|詳細|
+|列|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
 |ネットワーク |varchar(25) |いいえ |サブネット アドレス。 |
 |NetworkRange |tinyint |はい |サブネット マスク。 |
-|NetworkNameID |整数 |はい |必要に応じて、CqdNetworkName テーブル内の行にマップします。 |
-|BuildingKey |整数 |はい |外部キーは、CqdBuilding テーブルのエントリの 1 つと一致します。 |
+|NetworkNameID |int |はい |必要に応じて、CqdNetworkName テーブル内の行にマップします。 |
+|BuildingKey |int |はい |外部キーは、CqdBuilding テーブルのエントリの 1 つと一致します。 |
 |UpdatedDate |日付型 |いいえ |エントリが最後に更新された日時。 |
 ||||||
 
@@ -136,9 +136,9 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 **CqdBuildingType**
 
-|Column|データ型|Nulls を許可しますか?|詳細|
+|列|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId |整数 |いいえ |CqdBuildingType テーブルの主キー。 |
+|BuildingTypeId |int |いいえ |CqdBuildingType テーブルの主キー。 |
 |BuildingTypeDesc |char(18) |いいえ |建物の種類の説明。 |
 |||||
 
@@ -146,9 +146,9 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 **CqdBuildingOwnershipType**
 
-|Column|データ型|Nulls を許可しますか?|詳細|
+|列|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId |整数 |いいえ |CqdBuildingOwnershipType テーブルの主キー。 |
+|OwnershipTypeId |int |いいえ |CqdBuildingOwnershipType テーブルの主キー。 |
 |OwnershipTypeDesc |varchar(25) |いいえ |所有権の種類の説明。 |
 |LeaseInd |tinyint |はい |リースされた建物を識別するために使用される CqdBuildingOwnershipType テーブル内の別の行を参照するインデックス。 |
 |所有者 |varchar(50) |はい |建物の所有者。 |
@@ -158,7 +158,7 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 **CqdBssid**
 
-|Column|データ型|Nulls を許可しますか?|詳細|
+|列|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
 |bss |nvarchar(50) |いいえ |CqdBssid テーブルの主キー。 WiFi アクセス ポイントの BSSID です。 |
 |ess |nvarchar(50) |はい |Wifi アクセス ポイント コントローラーの情報。 |
@@ -222,7 +222,7 @@ VPN ソリューションが VPN フラグを正確に設定することが分�
 
 - 測定
 - Dimension
-- Filter
+- フィルター
 
 整形式のクエリの例として、「6 号館 [フィルター] のサブネット [Dimension] ストリーム [測定] を表示する」 があります。
 

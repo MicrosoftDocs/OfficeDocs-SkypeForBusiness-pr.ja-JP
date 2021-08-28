@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 2019 年から 2019 年に移行するためにSkype for Business Server手順の 1 つは、パイロット プールを展開する方法です。 パイロット プールは、従来の展開と 2019 Skype for Business Serverの共存をテストする場所です。 共存は、すべてのユーザーとプールを 2019 年に移動するまでSkype for Business Serverです。
-ms.openlocfilehash: d7e02d1cb921f973d8851cfc3c8bbff0f3e81aa92f1945584ee94fa59a45e9ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e69e42e95ce7d13d8da88e91d6f1c266d7449f7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614991"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>2019 Skype for Business Serverパイロット プールの展開
 

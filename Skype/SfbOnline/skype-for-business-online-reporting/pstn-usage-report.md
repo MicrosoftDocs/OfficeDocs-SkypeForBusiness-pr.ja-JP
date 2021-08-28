@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: 新しい Skype for Business 管理センター レポートの領域に、組織内の通話および電話会議のアクティビティが示されます。ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。たとえば、 Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。通話料金を含む、電話会議 PSTN 使用状況の詳細を表示することができるため、使用状況と通話請求の詳細を把握して、組織内の使用状況を見極めることができます。
-ms.openlocfilehash: 511065a4371ae4f9521022a27c2fdf6804736d48ccc807ee1d3aa0d0148fe3a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 313b6e7528604cfca3b7d7b4a66986337617afa0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300443"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614907"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
 

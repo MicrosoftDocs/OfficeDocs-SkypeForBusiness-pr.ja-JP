@@ -15,22 +15,22 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 次の表を使用して、英国で電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 5803e6adcd19801d3e5bca5b5bc7978191a58f25
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+description: 次の表を使用して、英国の電話番号の取得と管理に関する情報を確認Microsoft Teams。
+ms.openlocfilehash: a5de05c71d333a593806dc26990783c41cf57739
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348509"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616213"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>電話の番号管理
 
-次の表を使用して、英国で電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+次の表を使用して、英国の電話番号の取得と管理に関する情報を確認Microsoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
@@ -42,7 +42,7 @@ ms.locfileid: "58348509"
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
 |通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

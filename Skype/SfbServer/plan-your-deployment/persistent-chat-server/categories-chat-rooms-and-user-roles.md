@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: '概要: このトピックでは、2015 年の常設チャット サーバーのカテゴリ、チャット ルーム、ユーザーと管理者の役割についてSkype for Business Serverしてください。'
-ms.openlocfilehash: 9724daf78114ede5d46ae690f2ab41cc36c170d2dd73c3664718e7ac4bb995f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3740702f43ae677ef451049bfce2a4497a0b992
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615563"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>2015 年の永続的なチャット カテゴリ、チャット ルーム、およびユーザー Skype for Business Server
  

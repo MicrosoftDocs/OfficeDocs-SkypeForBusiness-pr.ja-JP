@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: カナダの無料電話番号にダイヤルする方法 (空き時間情報、有線/固定回線、モバイル ネットワークの可用性、制限など) について学習します。
-ms.openlocfilehash: c3b39e327780e2a949a51eb85473714a1875a39a4e80f636bb234140bfedd710
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9e81f30454d81126dd5db79b8793fda2bc00c14
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339345"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633951"
 ---
 # <a name="toll-free-dialing-restrictions-in-canada"></a>カナダの無料ダイヤル制限
 
@@ -48,7 +48,7 @@ ms.locfileid: "54339345"
 > [!NOTE]
 > **ダイヤル形式**:
 >
-> - 800-389 は、バジャス島では特別です
+> - 800-389 は、バハト人向けと特別なサービスです
 > - 800-534 は特別で、バルバドスの場合は
 > - 800-623 は、バミューダ諸島では特別です
 > - 800-415 または 907 または 751 はドム共和国用です

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: '概要: 詳細については、「セキュリティと構成の前提条件」を参照エンタープライズ VoIPをSkype for Business Server。'
-ms.openlocfilehash: 86c7432ea32f4809d2b69d79583caca578c661950a217f7c1e3977925d524d3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f46de6fa8b8c2027a3828df67a0330212392e45
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340193"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617023"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>セキュリティと構成の前提条件は、エンタープライズ VoIPのSkype for Business Server
  

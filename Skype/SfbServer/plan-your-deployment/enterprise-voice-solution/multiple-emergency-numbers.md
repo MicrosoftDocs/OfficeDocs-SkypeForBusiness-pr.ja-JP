@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: このトピックでは、複数の緊急電話番号を計画する方法について説明します。Skype for Business Server。
-ms.openlocfilehash: 1db97627ef783e5fa69bb7a186940c589f4aae40039563c3155c7cb29d5166aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06b65e889c4a1ae9badf84d3d6fc948405ed4db9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329551"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634231"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>複数の緊急電話番号を計画Skype for Business Server
  

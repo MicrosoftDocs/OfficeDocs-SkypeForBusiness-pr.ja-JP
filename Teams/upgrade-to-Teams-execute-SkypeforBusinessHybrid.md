@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 組織をアップグレードして、ハイブリッド デプロイMicrosoft TeamsアップグレードするSkype for Business説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21e95d66ca0539c1e041123b082ce38c8b213fea9f9dc147ca42b8209f49935f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cc79cb570a92ac59bc820b8e10d750d9d926f287
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316613"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615133"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>ハイブリッド デプロイからSkype for BusinessへのアップグレードTeams
 
@@ -41,7 +41,7 @@ ms.locfileid: "54316613"
 - [組織を準備した](./upgrade-prepare-organization.md)
 - [パイロットを実施した](./pilot-essentials.md)
 
-Skype for Business または Microsoft Lync をオンプレミスに展開し、Microsoft 365 または Office 365 組織とのハイブリッド展開で構成し、組織が複数の共存モードを使用するか、またはすべて使用して Teams に選択的にアップグレードする場合は、この記事のガイダンスに従います。 どちらのアップグレード体験でも、ユーザーを Skype for Business Online に移動し (オンラインにまだホームしていない場合)、適切な共存モードとアップグレード モードを割り当てる必要があります。
+Skype for Business または Microsoft Lync をオンプレミスに展開し、Microsoft 365 または Office 365 組織とのハイブリッド展開で構成し、組織が複数の共存モードを使用するか、すべて使用して Teams に選択的にアップグレードする場合は、この記事のガイダンスに従います。 どちらのアップグレード体験でも、ユーザーを Skype for Business Online に移動し (オンラインにまだホームしていない場合)、適切な共存モードとアップグレード モードを割り当てる必要があります。
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -52,7 +52,7 @@ Skype for Business または Microsoft Lync をオンプレミスに展開し、
 
 ## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>手順 2: 共存モードとアップグレード モードを割り当てる
 
-ユーザーを Skype for Business Online に移動したら、組織が選択したアップグレード体験に基づいて適切な共存モードを割り当てできます。 詳細については、「[共存およびアップグレードを設定する](./setting-your-coexistence-and-upgrade-settings.md)」および「[TeamsUpgradePolicy: 移行と共存の管理](upgrade-to-teams-on-prem-tools.md)」を参照してください。
+ユーザーを Skype for Business Online に移動した後は、組織が選択したアップグレード体験に基づいて、適切な共存モードをユーザーに割り当てできます。 詳細については、「[共存およびアップグレードを設定する](./setting-your-coexistence-and-upgrade-settings.md)」および「[TeamsUpgradePolicy: 移行と共存の管理](upgrade-to-teams-on-prem-tools.md)」を参照してください。
 
 > [!NOTE]
 > Skype for Business Server 2019 と将来の累積的な更新プログラム Skype for Business Server 2015 では、手順 1 (ユーザーを Skype for Business Online に移動) と手順 2 (ユーザーを Teams にアップグレード) を 1 つの手順で実行できます。 詳細については、Skype for Business Server 2019 のリリース後に発表されます。

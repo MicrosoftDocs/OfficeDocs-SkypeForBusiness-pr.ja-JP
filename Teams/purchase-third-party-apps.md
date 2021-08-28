@@ -12,27 +12,27 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: ''
-description: 管理センターでサード パーティ製アプリを購入TeamsをMicrosoft Teamsします。
+description: 管理センターでサード パーティ製アプリをTeamsする方法Microsoft Teamsします。
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: c87b81fecd1e6624f8c36b1eebbe74a79994b7db
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.localizationpriority: medium
+ms.openlocfilehash: da917d2c58282554e3e2a68464cea1f2249bd324
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235192"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616183"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>サード パーティ製アプリを購入Teams
 
 > [!NOTE]
 > この機能は現在、米国でのみ使用できます。
 
-Teamsは無料でインストールできます。一部のアプリでは、アプリの完全な機能とスコープを体験するために購入サービス サブスクリプションが必要な場合があります。 これらのサービス サブスクリプションは、サービスとしてのソフトウェア (SaaS) オファーと呼ばれるサービスであり[、AppSource](https://appsource.microsoft.com/)を通じて購入し、現在は管理センターから購入Microsoft Teams利用できます。
+Teamsは無料でインストールできます。また、アプリの完全な機能とスコープを体験するために購入サービス サブスクリプションが必要な場合があります。 これらのサービス サブスクリプションはサービスとしてのソフトウェア (SaaS) オファーと呼ばれるサービスであり[、AppSource](https://appsource.microsoft.com/)を通じて購入し、現在は管理センターから購入Microsoft Teams利用できます。
 
-管理[センターの](manage-apps.md)[Microsoft Teams] ページでは、組織のすべてのアプリTeams表示および管理できます。 たとえば、アプリの組織レベルの状態とプロパティの表示、組織のアプリ ストアへの新しいカスタム アプリのアップロード、組織レベルでのアプリのブロックまたは許可、組織全体のアプリ設定の管理を行います。
+管理[センターの](manage-apps.md)[Microsoft Teams] ページでは、組織のすべてのアプリを表示Teams管理できます。 たとえば、アプリの組織レベルの状態とプロパティの表示、組織のアプリ ストアへの新しいカスタム アプリのアップロード、組織レベルでのアプリのブロックまたは許可、組織全体のアプリ設定の管理を行います。
 
-ここでは、組織内のユーザーに対してサード パーティ製アプリによって提供されるサービスのライセンスを購入することもできます。 表 **の [** ライセンス] 列は、アプリが SaaS サブスクリプションを購入できるかどうかを示しています。
+ここでは、組織内のユーザー向けサード パーティ製アプリによって提供されるサービスのライセンスを購入することもできます。 表 **の [** ライセンス] 列は、アプリが SaaS サブスクリプションを購入できるかどうかを示しています。
 
 :::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="SaaS サブスクリプションを持つサード パーティ製アプリを示すスクリーンショット":::
 
@@ -62,13 +62,13 @@ Teams アプリに関連付けられている SaaS オファーを購入する�
 
 グローバル管理者は組織内のすべてのユーザーが行った購入を表示できるのに対し、Teams サービス管理者は自分で行った購入のみを表示できます。  
 
-## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Microsoft Teams 管理センターと AppSource で一覧表示および販売するアプリの Saa Teams S オファーを持っていますか?
+## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Microsoft Teams 管理センターと AppSource で一覧表示して販売する、Teams アプリの SaaS オファーがありますか?
 
 開発者は、アプリに関連付けられた SaaS オファー Teamsできます。 これらのオファーはパートナー センターを[通じて](https://partner.microsoft.com)公開され、組織は[AppSource](https://appsource.microsoft.com/)と管理センターから購入Microsoft Teamsできます。
  
 サード パーティ製アプリ開発者は [、「SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer) オファーを作成する」を参照して詳細を確認できます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
-- [管理センターでアプリMicrosoft Teamsする](manage-apps.md)
+- [管理センターでアプリMicrosoft Teams管理する](manage-apps.md)
 - [SaaS オファーを作成する](/azure/marketplace/partner-center-portal/create-new-saas-offer)

@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会議 ID をユーザーに割り当てる方法とMicrosoft Teams ID パラメーターの設定方法について説明します。
-ms.openlocfilehash: 3086ff06d2a59028fd8b7c41aea8819cea733179e4596b036dc54d5eba927c91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0faf91af7cf52dd620015e9ccc772a97f6964cb1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634031"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>グループ内のユーザーに割り当てられている会議 ID を表示およびリセットMicrosoft Teams
 
 Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft を電話会議プロバイダーとして使用すると、Microsoft Teams ユーザーに会議 ID が自動的に割り当てられます。 割り当てられた会議 ID は、会議がスケジュールされているときに会議出席招待で送信されます。 ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。 
   
-会議 ID は自動的に作成され、ユーザーに割り当てられますが、ユーザーはこの ID を使用したくない場合や、特定の数に設定したり、ユーザーが会議 ID を記憶したり失われたりする場合があります。 管理センターまたはMicrosoft Teamsを使用してWindows PowerShellの会議 ID を表示、変更、リセットできます。
+会議 ID は自動的に作成され、ユーザーに割り当てられますが、ユーザーがこれを使用したくない場合や、特定の番号に設定したい場合や、ユーザーが会議 ID を記憶できない場合や紛失した場合があります。 管理センターまたはMicrosoft Teamsを使用してWindows PowerShell ID を表示、変更、リセットできます。
   
 ユーザーに会議 ID と既定の電話会議の電話番号が含む電子メールが送信されるか、または会議 ID をリセットすると、PINではない 会議 ID を含む別の電子メールが送信されます。 会議[開催者の PIN をリセットする](reset-a-conference-id-for-a-user-in-teams.md)方法の詳細については、「Microsoft Teams でユーザーの会議 ID をリセットする」を参照してください。 
 
@@ -49,7 +49,7 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 
 2. ページの上部にある [編集] を **クリックします**。
 
-3. [ **電話会議] で、[** 会議 ID] **を確認します**。
+3. [ **電話会議] の [** 会議 ID] **を確認します**。
 
     > [!TIP]
     > [電子メールで会議情報を送信する] リンクをクリックすると、会議 ID と音声電話番号を含むすべての会議情報をメールでユーザー **に送信** できます。
@@ -89,7 +89,7 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
@@ -99,4 +99,4 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
     
 ## <a name="related-topics"></a>関連トピック
 
-[電話会議を試用または購入するには、Microsoft 365またはOffice 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[電話会議を試用または購入するには、Microsoft 365 または Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

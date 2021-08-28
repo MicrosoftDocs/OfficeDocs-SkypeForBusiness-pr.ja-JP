@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 管理センターを使用して定義済みの設定、チャネル、およびプレインストールされたアプリを提供することで、一般的なチーム テンプレートを使用してチーム構造を作成する方法について説明します。
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c68e3efd00e0f9204f507b4c63977837076bb3beb75a958a0629f1e5da64f69e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3427a14da3d994b10bf8d83f5d03f76769401670
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344030"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634051"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>管理センターで一般的なチーム テンプレートを使用する
 
@@ -34,7 +34,7 @@ ms.locfileid: "54344030"
 
 この記事では、各チーム テンプレートを紹介し、その使い方をお勧めします。
 
-この記事は、組織全体で複数のチームを計画、デプロイ、管理する責任がある場合に役立ちます。 組織内に Teams サービスがすでに展開されています。 ロールアウトしていない場合は、Teamsを展開する方法に関する記事[を](./deploy-overview.md)読Microsoft Teams。
+この記事は、組織全体で複数のチームを計画、デプロイ、管理する責任がある場合に役立ちます。 組織内に Teams サービスがすでに展開されています。 ロールアウトしていない場合は、Teamsの展開方法に関する記事を読[Microsoft Teams。](./deploy-overview.md)
 
 チーム テンプレート全般の詳細については、「チーム テンプレートの概要 [」を参照してください](get-started-with-teams-templates-in-the-admin-console.md)。
 

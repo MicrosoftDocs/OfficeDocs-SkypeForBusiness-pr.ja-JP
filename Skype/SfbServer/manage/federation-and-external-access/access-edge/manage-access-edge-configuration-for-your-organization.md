@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 1 つ以上のエッジ サーバーを展開した後、組織でサポートされるエッジ サーバーを通じて、外部ドメインまたはプロバイダー アクセス、リモート ユーザー アクセス、匿名ユーザー アクセスの種類を有効にする必要があります。
-ms.openlocfilehash: 08d29371284d6e23eec3115aad71e7c82352f7e3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: af03dbd058884d0a09b5cb68c5f43e030c84fb06
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234382"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634331"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>組織のアクセス エッジ構成の管理
 

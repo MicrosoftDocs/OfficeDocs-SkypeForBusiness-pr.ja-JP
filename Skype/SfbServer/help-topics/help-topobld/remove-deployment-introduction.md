@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: 展開の削除ウィザードは、展開全体を使用停止にする場合のみ実行します。このウィザードによって、1 つのフロントエンド サーバーで構成される空のトポロジが作成されます。このウィザードを実行して空のトポロジを公開すると、元のトポロジに戻すことができなくなります。
-ms.openlocfilehash: 63bc45f10f42afc9537f172bf9dcf658617ae8f2ba5666f871b1e7461daeb925
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 95c38ceb431c575094c2270c43ce204f5aadc578
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634321"
 ---
 # <a name="remove-deployment-introduction"></a>展開の削除の概要
  
