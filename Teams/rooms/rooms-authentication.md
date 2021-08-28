@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ''
 ms.collection:
 - M365-collaboration
-description: Microsoft Teams Rooms の最新の認証を構成する方法についてMicrosoft Teamsします
-ms.openlocfilehash: c12cc19c4ef10321046bc052c7040204980d6826
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+description: Microsoft Teams Rooms の最新の認証を構成する方法について学習します
+ms.openlocfilehash: 5b87a23f58dc563af623c7f4fa123ff9aaa1dc03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523778"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611576"
 ---
 # <a name="authentication-in-microsoft-teams-rooms"></a>Microsoft Teams 会議室での認証
 
 Microsoft Teams Rooms デバイスのアカウント管理は、アプリケーション レベルで処理されます。 アプリケーションは、Microsoft Teams、Skype for Business、Exchange に接続して、会議室アカウントのリソースを取得して、通話や会議のエクスペリエンスを有効にできます。 デバイスは、常時接続機能、呼び出しシナリオ (通話プランで構成されたデバイスの場合)、およびこれらのデバイスに実装されるカスタム ロックダウン メカニズムを許可するために、アカウントに依存しません。 つまり、これらのデバイスの認証は、エンド ユーザー デバイスとは異なる方法で行います。  
 
-最新の認証は、すべてのお客様が、Microsoft Teams または Office 365 で Microsoft 365 Rooms デバイスを使用する場合にお勧めします。 Exchange サーバーまたは Skype for Business サーバーのオンプレミス デプロイがある場合は、最新の認証を使用するように[](/office365/enterprise/hybrid-modern-auth-overview)Azure Active Directory (Azure AD) を使用してハイブリッド最新認証を構成します。
+最新の認証は、すべてのお客様が Microsoft Teams または Microsoft 365 デバイスを使用Office 365。 Exchange サーバーまたは Skype for Business サーバーをオンプレミスでデプロイしている場合は、Azure Active Directory (Azure [](/office365/enterprise/hybrid-modern-auth-overview) AD) を使用してハイブリッド最新認証を構成して、最新の認証を有効にします。
 
 最新の認証は、Microsoft Teams Rooms バージョン 4.4.25.0 以降でサポートされています。
 
@@ -33,7 +33,7 @@ Microsoft Teams Rooms デバイスのアカウント管理は、アプリケー�
 
 Microsoft Teams Rooms アプリケーションで最新の認証を使用する場合、Active Directory 認証ライブラリ (ADAL) を使用して Microsoft Teams、Exchange、Skype for Business に接続します。 Microsoft Teams Rooms デバイスは共有デバイスであり、夜間再起動を実行して、スムーズに機能し、重要なオペレーティング システム、ドライバー、ファームウェア、またはアプリケーションの更新プログラムを取得します。 最新の認証メカニズムでは、OAuth 2.0 でリソース [所有者](/azure/active-directory/develop/v2-oauth-ropc) のパスワード資格情報承認付与の種類が使用されます。ユーザーの介入は必要ありません。 これは、ユーザー アカウントに対する最新の認証のしくみと、Microsoft Teams Rooms アプリケーションで使用されるリソース アカウントの主な違いの 1 つです。 このため、Microsoft Teams Rooms リソース アカウントは、多要素認証 (MFA)、スマート カード認証、またはクライアント証明書ベースの認証 (すべてエンド ユーザーが使用できる) を使用するように構成することはできません。
 
-Microsoft Teams Rooms デバイスとエンド ユーザー デバイスでの最新の認証のしくみのもう 1 つの主な違いは、リソース アカウントを使用して Azure Active Directory と エンドポイント マネージャー でデバイスレベルの条件付きアクセス ポリシーを適用できない点です。この付与の種類を使用する場合、デバイス情報は渡されません。 代わりに[、「Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)で会議室を管理する」に示されているガイダンスを使用して、Microsoft エンドポイント マネージャー Teams にデバイスを登録し、コンプライアンス ポリシーを適用できます。
+Microsoft Teams Rooms デバイスとエンド ユーザー デバイスでの最新の認証のしくみのもう 1 つの主な違いは、リソース アカウントを使用して Azure Active Directory と エンドポイント マネージャー でデバイスレベルの条件付きアクセス ポリシーを適用できない点です。この付与の種類を使用する場合、デバイス情報は渡されません。 代わりに、「Intune で会議室を管理する」に示されているガイダンスを使用して、Microsoft エンドポイント マネージャー Teams にデバイスを登録し、コンプライアンス[ポリシーを適用できます](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)。
 
 ## <a name="enable-modern-authentication-on-a-microsoft-teams-rooms-device"></a>Microsoft Teams Rooms デバイスで最新の認証を有効にする
 
@@ -61,11 +61,11 @@ Microsoft Teams Rooms デバイスとエンド ユーザー デバイスでの�
 
 ## <a name="prepare-your-environment-for-modern-authentication"></a>最新の認証用に環境を準備する
 
-開始する前に、Office 365 および Azure の ID モデルで使用する ID AD。 詳細については、ID モデル[](/Office365/Enterprise/about-office-365-identity)と Office 365、および Azure Active Directory のハイブリッド ID とディレクトリ同期に関するページMicrosoft 365[参照Office 365。](/Office365/Enterprise/plan-for-directory-synchronization)
+開始する前に、Office 365 および Azure の ID モデルで使用する ID AD。 詳細については、ID モデルと Office 365 および Azure Active Directory[のハイブリッド](/Office365/Enterprise/about-office-365-identity)ID とディレクトリ同期に関するページMicrosoft 365[参照Office 365。](/Office365/Enterprise/plan-for-directory-synchronization)
 
-### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>最新の認証を有効にする (Microsoft 365 または Office 365
+### <a name="enable-modern-authentication-in-microsoft-365-or-office-365"></a>認証または認証で最新のMicrosoft 365を有効Office 365
 
-最新の認証を有効にするには、「Exchange Online で最新の認証を有効[にする」をExchange Online。](/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) Skype for Business Online を使用する場合は、Skype for Business Online で最新の認証が有効になっていることを確認する必要があります。 詳細については、「オンラインでのSkype for Business: 最新の認証[のためにテナントを有効にする」を参照してください](https://aka.ms/SkypeModernAuth)。
+最新の認証を有効にするには、「Exchange Online で最新の認証を有効にする[」をExchange Online。](/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online) Skype for Business Online を使用する場合は、Skype for Business Online で最新の認証が有効になっていることを確認する必要があります。 詳細については、「オンラインでのSkype for Business: 最新の認証のために[テナントを有効にする」を参照してください](https://aka.ms/SkypeModernAuth)。
 
 Microsoft Teams Rooms デバイスが Exchange Online、Teams、Skype for Business Online で正常にサインインできると検証するまで、Exchange Online の基本認証ポリシーを削除したり、テナントの基本認証を無効にしたりし、お勧めします。
 
@@ -73,30 +73,30 @@ Microsoft Teams Rooms デバイスが Exchange Online、Teams、Skype for Busine
 
 ## <a name="hybrid-modern-authentication"></a>ハイブリッド最新の認証
 
-オンプレミスの Exchange サーバーまたは Skype for Business サーバーに対する認証を成功させるには、azure AD から承認を取得するように Microsoft Teams Rooms で使用されるリソース アカウントが構成されていることを確認する必要があります。 
+オンプレミスの Exchange サーバーまたは Skype for Business サーバーに対する認証を成功させるには、azure AD から承認を受け取る Microsoft Teams Rooms で使用されるリソース アカウントが構成されていることを確認する必要があります。 
 
-Teams会議室の認証フローは、認証の構成によって異なります。 マネージド ドメインを使用しているお客様の場合、Teams Rooms では[、OAuth 2.0 リソース](/azure/active-directory/develop/v2-oauth-ropc)所有者のパスワード資格情報と Azure Active Directory。 ただし、フェデレーション ドメインを使用しているお客様の場合は[、OAuth 2.0 SAML ベア](/azure/active-directory/develop/v2-saml-bearer-assertion)ラー アサーション Flow使用されます。
+Teams会議室の認証フローは、認証の構成によって異なります。 マネージド ドメインを使用しているお客様の場合、Teams Rooms では[、OAuth 2.0 リソース](/azure/active-directory/develop/v2-oauth-ropc)所有者パスワード資格情報と一緒に Azure Active Directory。 ただし、フェデレーション ドメインを使用しているお客様の場合は[、OAuth 2.0 SAML ベアラー アサーション](/azure/active-directory/develop/v2-saml-bearer-assertion)Flow使用されます。
 
 > [!NOTE]
-> ID プロバイダーは、特定の構成や設定が必要な場合があります。この設定は、Azure Active DirectoryまたはOffice 365。 Teams Rooms での認証の構成に関するヘルプが必要な場合は、ID プロバイダーにお問い合わせください。
+> ID プロバイダーは、特定の構成や設定が必要な場合があります。この構成や設定は、Azure Active DirectoryまたはOffice 365。 Teams Rooms での認証の構成に関するヘルプが必要な場合は、ID プロバイダーにお問い合わせください。
 
 
 ### <a name="prerequisites-specific-to-microsoft-teams-rooms"></a>会議室に固有Microsoft Teams前提条件
 
-ハイブリッド トポロジで最新の認証を有効にするための前提条件については、「ハイブリッド最新の認証の概要」と「オンプレミスの Skype for Business および Exchange サーバーで使用するための前提条件」[を参照してください](/office365/enterprise/hybrid-modern-auth-overview)。 この記事で説明されている前提条件はすべて適用されます。
+ハイブリッド トポロジで最新の認証を有効にするための前提条件については、「ハイブリッド最新の認証の概要」と「オンプレミスの Skype for Business サーバーおよび Exchange サーバーで使用するための[前提条件」を参照してください](/office365/enterprise/hybrid-modern-auth-overview)。 この記事で説明されている前提条件はすべて適用されます。
 
-ただし、Microsoft Teams Rooms では、最新[](https://tools.ietf.org/html/rfc6749#section-1.3.3)の認証にリソース所有者のパスワード資格情報の承認と基になる REST API が使用されます。このため、Microsoft Teams Rooms に固有の点に注意する必要がある重要な違いは次のとおりです。
+ただし、Microsoft Teams Rooms では、最新の[](https://tools.ietf.org/html/rfc6749#section-1.3.3)認証にリソース所有者のパスワード資格情報の承認と基になる REST API が使用されます。このため、Microsoft Teams Rooms に固有の点に注意する必要がある重要な違いは次のとおりです。
 
 - 2016 CU8 以降Exchange Server 2019 CU1 以降Exchange Server必要があります。
 - 2015 CU5 以降Skype for Business Server 2019 以降Skype for Business Server必要があります。
 - MFA は、使用しているトポロジに関係なくサポートされていません。
 - Microsoft Teams会議室では、SIP と UPN の不一致はサポートされていません。 同じ UPN Microsoft Teams SIP を持つ会議室アカウントを作成して、機能する必要があります。
 - Azure AD でサポートされているサード パーティの認証プロバイダーを使用する場合は、WS-Trust を介したアクティブな認証フローをサポートする必要があります。
-- アプリケーションで構成されたリソース アカウントには、デバイス レベルの条件付きアクセス ポリシーを使用しない。 そうすると、サインイン エラーが発生します。 代わりに、デバイスを Microsoft Intune に登録し、「Intune を使用した会議室の管理」にTeamsガイダンスを使用してコンプライアンス ポリシー[を適用します](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)。
+- アプリケーションで構成されたリソース アカウントには、デバイス レベルの条件付きアクセス ポリシーを使用しない。 そうすると、サインイン エラーが発生します。 代わりに、Intune を使用した Microsoft Intune Teams 会議室の管理に関するページに掲載されているガイダンスを使用して、デバイスを Microsoft Intuneし、コンプライアンス[ポリシーを適用します](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)。
 
 ### <a name="configure-exchange-server"></a>構成Exchange Server
 
-ハイブリッドモダン認証を有効にするにはExchange Serverハイブリッド最新認証を使用Exchange Serverを構成する方法[に関するページを参照してください](/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)。
+ハイブリッド最新認証を有効にするにはExchange Serverハイブリッド最新認証を使用Exchange Serverを構成する方法[に関するページを参照してください](/Office365/Enterprise/configure-exchange-server-for-hybrid-modern-authentication)。
 
 ### <a name="configure-skype-for-business-server"></a>構成Skype for Business Server
 
@@ -104,10 +104,10 @@ Skype for Business Server を使用してハイブリッド最新の認証を有
 
 ### <a name="remove-or-disable-skype-for-business-and-exchange"></a>削除または無効化Skype for Business削除Exchange
 
-セットアップでハイブリッド最新認証が許可されていない場合、または Exchange または Skype for Business のハイブリッド最新認証を削除または無効にする必要がある場合は、「Skype for Business と Exchange からのハイブリッド最新認証の削除または無効化」を参照[してください。](/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha)
+セットアップでハイブリッド最新認証が許可されていない場合、または Exchange または Skype for Business のハイブリッド最新認証を削除または無効にする必要がある場合は、「Skype for Business と Exchange からのハイブリッド最新認証の削除または無効化」を[参照](/Office365/Enterprise/remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha)してください。
 
 ### <a name="azure-ad-conditional-access"></a>Azure AD条件付きアクセス
 
 IP/場所ベースのアクセス用に Microsoft Teams Rooms で使用されるリソース アカウントを構成できます。 詳細については、「条件付きアクセス [: 場所によるアクセスのブロック」を参照してください](/azure/active-directory/conditional-access/howto-conditional-access-policy-location)。
 
-その他の条件付きアクセス ポリシーはサポートされていません。 デバイスのコンプライアンスの詳細については、「Intune を使用した会議室Teams[管理する」を参照してください](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)。
+その他の条件付きアクセス ポリシーはサポートされていません。 デバイスのコンプライアンスの詳細については、「Intune を使用した会議室Teams[を参照してください](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230)。

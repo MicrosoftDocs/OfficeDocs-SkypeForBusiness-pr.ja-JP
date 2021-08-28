@@ -7,24 +7,24 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: アプリケーション ポリシー Teamsについて説明します。
+description: アプリケーション ポリシー Teams確認します。
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09a85edf34f77fb48b998371de3f6bbe2fd4678665c0037358bd32e7c26f2516
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 52fffd29519ea97bf95bc98c1b3de8140667e0b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288455"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610394"
 ---
 # <a name="manage-app-policies-in-microsoft-teams"></a>アプリ ポリシーを管理する Microsoft Teams
 
-アプリ ポリシーは、アプリケーションの管理に使用Microsoft Teams。
+アプリ ポリシーは、アプリケーションを管理するために使用Microsoft Teams。
 
 ## <a name="app-permission-policies"></a>アプリのアクセス許可ポリシー
 
@@ -44,7 +44,7 @@ ms.locfileid: "54288455"
 
 ![カスタム アプリ ポリシーのスクリーンショット。](media/custom-app-policy.png)
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 * [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 * [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)

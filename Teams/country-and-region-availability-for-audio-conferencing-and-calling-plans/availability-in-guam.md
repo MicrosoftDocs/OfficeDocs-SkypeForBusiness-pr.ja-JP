@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下に、Microsoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
-ms.openlocfilehash: d37de29936565afa0b6e23c70d6f91f8ee06896a742ea68f7f20ef17248fa974
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d4c4721003bbd21a1056143cf6a37a654a6c7886
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320000"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610384"
 ---
 # <a name="availability-in-guam"></a>グアムでの空き時間情報
 
@@ -72,7 +72,7 @@ ms.locfileid: "54320000"
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
 |無料電話番号は利用できますか?  <br/> |はい  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を参照[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -82,7 +82,7 @@ ms.locfileid: "54320000"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

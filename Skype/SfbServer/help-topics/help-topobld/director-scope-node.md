@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.DirectorScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: このノードには、このディレクター プールの完全修飾ドメイン名 (FQDN)、ポート、および関連付けられたファイル ストアが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 4ebb472f04e9ffde1ec37c96062a8fba40124a5e2b75e29820fc79f020d9c599
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0cde48402995e1e6d259d87df8d33f2a2289b02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333669"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604986"
 ---
 # <a name="director-scope-node"></a>ディレクターのスコープ ノード
  

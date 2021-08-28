@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: 新しい常設チャット サーバーまたは常設チャット サーバー プールの作成を開始するには、トポロジ ビルダーで [常設チャット プール] を右クリックし、[新しい常設チャット プール] を選択します。
-ms.openlocfilehash: 2563c5daffe5754ab44a06450f7ca5b29c4455ac749018e67227b736833250a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcace5bce515ecdbd6275027de8358d74a5905d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335087"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622399"
 ---
 # <a name="persistent-chat-scope-node"></a>常設チャットのスコープ ノード
  

@@ -15,23 +15,23 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: MICROSOFT TEAMS でユーザーの電話会議 PIN をリセットする方法と、PIN に関する重要な事実について説明します。
-ms.openlocfilehash: 689962a3d849fa5d50f87f2cacfdfc7caec687e2e92227ea52e5c0e2bb9bd0bc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cb83c68c4cf6bb6e9acdf3b36678741c2f3a15dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319720"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611656"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
-PIN は、電話会議を有効にしているユーザーごとにMicrosoft Teams番号で構成されるコードです。 電話会議 PIN は、会議の開催者が会議の開催者を識別し、電話で会議を開始するために使用されます。 会議を開始Microsoft Teamsアプリを使用する場合、PIN は必要ありません。 ユーザーが自分の PIN を忘れて、電話会議を有効にした場合に送信されたメールで PIN が見つからなかった場合、管理者は PIN をリセットするか、自分の PIN をリセットできます。
+PIN は、電話会議を有効にしているユーザーごとにMicrosoft Teams番号で構成されるコードです。 電話会議 PIN は、会議の開催者が会議の開催者を識別し、電話で会議を開始するために使用されます。 ユーザーが会議を開始Microsoft Teamsアプリを使用する場合、PIN は必要ありません。 ユーザーが自分の PIN を忘れて、電話会議を有効にした場合に送信されたメールで PIN が見つからなかった場合、管理者は PIN をリセットするか、自分の PIN をリセットできます。
   
 認証されたユーザーが Microsoft Teams アプリを使用して参加した場合、または開催者が電話で PIN を使用して参加するときに、会議を開始できます。 会議を開始するために PIN が必要な場合、電話で参加するユーザーはロビーに配置され、開催者が許可するまで保留音を聞きます。 会議の開催者が、電話で会議を開始するための PIN を要求しない場合、発信者は会議に参加しようとするときに PIN の提示を求められません。
 
@@ -68,17 +68,17 @@ PIN は、電話会議を有効にしているユーザーごとにMicrosoft Tea
     
 - 既定の設定では、匿名の発信者による会議の開始を許可しません。
     
-- ユーザーが電話会議を有効にした場合、既定では、会議情報と PIN を含むメールが送信されます。 PIN をリセットすると、ユーザーに設定されているプライマリ SMTP アドレス (エイリアス) に新しい PIN が電子メールで送信されるので、ユーザーは Microsoft 365 または Office 365 メールボックスを持っている必要があります。
+- ユーザーが電話会議を有効にした場合、既定では、会議情報と PIN を含むメールが送信されます。 PIN をリセットすると、ユーザーに対して設定されているプライマリ SMTP アドレス (エイリアス) に新しい PIN が電子メールで送信されるので、ユーザーは Microsoft 365 または Office 365 メールボックスを持っている必要があります。
     
 - 電話会議を設定するときに、組織内の PIN に必要な数字を設定します。 PIN は 4 桁から 12 桁まで指定できます。既定値は 5 です。 PIN の長さの設定を変更した場合、この設定は新しく生成された PIN にのみ適用され、電話会議が有効になっている既存のユーザーの PIN 設定には適用されません。 「 [電話会議会議の PIN の長さを設定する」を参照してください](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
     
-- 既定では、メールはユーザーのプライマリ SMTP Microsoft 365またはOffice 365に設定されます。 メールアドレスは、Microsoft 365または MSN メール Office 365など、Hotmailアドレスに送信できます。 既定のメール アドレスは、既定のメール アドレスを無効にWindows PowerShell。 これは、ユーザーがメールボックス内にメールボックスを持Exchange持Microsoft 365場合Office 365。
+- 既定では、メールはユーザーのプライマリ SMTP Microsoft 365またはOffice 365に設定されます。 メールアドレスは、Microsoft 365または MSN メール Office 365など、Hotmailアドレスに送信できます。 既定のメール アドレスは、既定のメール アドレスを上書Windows PowerShell。 これは、ユーザーがメールボックス内のメールボックスを持ExchangeまたはMicrosoft 365場合Office 365。
 
     
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

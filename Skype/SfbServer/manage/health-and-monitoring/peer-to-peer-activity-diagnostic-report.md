@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: '概要: [ピアツーピア アクティビティ診断レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: d303bd820a7494be2061eb4e36c5413787b83ffcd4fc794f8e98ac3a8d806261
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: de0bbd43b12209cacac319952040afc526556db6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325104"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622289"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>ピアツーピア アクティビティ診断レポート (Skype for Business Server
  

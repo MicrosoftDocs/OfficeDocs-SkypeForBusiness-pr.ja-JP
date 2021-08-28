@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SipVideoTrunkScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1dc894e5-e2db-4c4d-9946-1d5f92090113
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the Skype for Business Server」を参照してください。
-ms.openlocfilehash: 79173959bfb1e9bf4bd60d0db7207c4cb260bca2212cae8b260704f8e3ce4580
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb979c16121e50e79fda02400d2b88631e32a6e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311745"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622659"
 ---
 # <a name="sip-video-trunk-scope-node"></a>SIP ビデオ トランクのスコープ ノード
  

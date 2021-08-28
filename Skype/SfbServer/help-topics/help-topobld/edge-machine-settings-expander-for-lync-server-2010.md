@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: エッジ サーバー コンピューターのプロパティを 1 つのエッジ サーバーとして、またはエッジ プールのメンバー コンピューターとして編集するには、サーバー名と IP アドレス構成設定を構成します。
-ms.openlocfilehash: 6a66c84be19636410259eac953b099942dc3c1a41b6d3f75faf926d469795e5e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 81fb33a2217431cd908156dab95e36cca0675f23
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604946"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のエッジ コンピューター設定エキスパンダー
  

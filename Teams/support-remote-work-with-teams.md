@@ -11,17 +11,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 ms.reviewer: dansteve, anmich
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: このガイダンスは、Microsoft Teams を使用して組織のリモート ワーカーの生産性を向上させるために使用できます。特に、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に役立ちます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72f5f353f09df16512cefa3efc700fb254d8d1b385f76c5b3d3bd9e6030e7999
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: daf2ee6e537936893c45fe15d296bef268db3d5a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328962"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602092"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Microsoft Teams を使用してリモート ワーカーをサポートする
 
@@ -74,7 +74,7 @@ Teams をユーザーに展開するための準備として、 **[カスタマ�
    - [Microsoft Teams によって Microsoft 社員のリモート作業が実現している方法](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
    - [Teams により中小規模企業でのリモート作業をサポートする](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT が社員のリモート勤務を実現した 9 つの方法](https://www.microsoft.com/ja-JP/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT が社員のリモート勤務を実現した 9 つの方法](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 教育機関用 Teams 

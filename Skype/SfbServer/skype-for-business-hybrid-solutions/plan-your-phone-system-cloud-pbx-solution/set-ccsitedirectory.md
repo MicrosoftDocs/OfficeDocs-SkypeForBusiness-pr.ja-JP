@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: このSet-CcSiteDirectoryは、サイト レベルの構成ファイルが格納されるディレクトリSkype for Business クラウド コネクタ エディション設定します。 フォルダーには、基本 VHD とクラウド コネクタ構成ファイルが含まれる。
-ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5685ac8c203338365141a4a7ba59daa82a06ef0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286246"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610534"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
@@ -51,9 +51,9 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
-| Path <br/> | 必須 <br/> | System.String <br/> |クラウド コネクタ サイト ファイルが格納されるフォルダーへのパスを提供します。  <br/> |
+| パス <br/> | 必須 <br/> | System.String <br/> |クラウド コネクタ サイト ファイルが格納されるフォルダーへのパスを提供します。  <br/> |
    
 ## <a name="input-types"></a>入力の種類
 <a name="InputTypes"> </a>

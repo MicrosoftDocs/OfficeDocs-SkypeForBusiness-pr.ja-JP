@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainADPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 description: 2015 Skype for Business Serverのインストールを開始するには、サーバーとユーザーをホストする Active Directory ドメイン サービス スキーマ、フォレスト、およびドメインを準備する必要があります。 このSkype for Business Serverウィザードでは、Active Directory の準備に必要な手順を、スキーマからフォレストの準備まで順に説明します。 Active Directory レプリケーションが成功したと確認したら、ユーザーまたはサーバーをホストする各ドメインを準備します。
-ms.openlocfilehash: 415cd3287eacbb820c8dc3e896805b3250ca7e105db5233056ad4df96b6a25aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1a50936858c2a6d40b92fca3c5fc6e6663a00bb3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311515"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602832"
 ---
 # <a name="prepare-active-directory"></a>Active Directory の準備
 

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 description: ITAdmin の観点から、Microsoft Teams でトランシーバー アプリを構成する方法です。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,24 +18,24 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 042973f245341c0e4badd221075b81023474b6124f55eeb021bd61d32dcc4bfa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80aedfd0c1bb4f4a20ecdfcd977ce74d667cad43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342702"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602072"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
 Teams のトランシーバー アプリは、Teams にインスタント プッシュツートーク (PTT) 通信を提供し、Android で利用できるようになりました。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルでトランシーバーに接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ相互に通信できます。
 
-Teams で Walkie Talkie を使用すると、フロントライン ワーカーは、バルク ラジオを持ち歩く必要なく、使い慣れた PTT エクスペリエンスと安全に通信できます。また、Walkie Talkie は WiFi または携帯電話のインターネット接続とどこでも動作します。
+Teams で Walkie Talkie を使用すると、フロントライン ワーカーは、バルクラジオを持ち歩く必要なく、使い慣れた PTT エクスペリエンスと安全に通信できます。また、Walkie Talkie は WiFi や携帯電話のインターネット接続でどこからでも動作します。
 
 ## <a name="getting-started"></a>はじめに
 
 ### <a name="deploying-walkie-talkie"></a>トランシーバーの展開
 
-現在、Walkie Talkie は Google Mobile Services (GMS) を搭載した Android デバイスで使用できます。また、事前にインストールされていません。 組織内のユーザーに対してこの機能を有効にするには、[[Teams 管理センター]](https://admin.teams.microsoft.com/) からユーザーに割り当てられた [アプリ セットアップ ポリシー](teams-app-setup-policies.md) にトランシーバーを追加する必要があります。 有効にすると、トランシーバーは 48 時間以内に Android アプリで利用できるようになります。
+現在、Walkie Talkie は Google Mobile Services (GMS) を搭載した Android デバイスで使用できます。また、プレインストールされていません。 組織内のユーザーに対してこの機能を有効にするには、[[Teams 管理センター]](https://admin.teams.microsoft.com/) からユーザーに割り当てられた [アプリ セットアップ ポリシー](teams-app-setup-policies.md) にトランシーバーを追加する必要があります。 有効にすると、トランシーバーは 48 時間以内に Android アプリで利用できるようになります。
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>トランシーバーをアプリ リストに追加する
 

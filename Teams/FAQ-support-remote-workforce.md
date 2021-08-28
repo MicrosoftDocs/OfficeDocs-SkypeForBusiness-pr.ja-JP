@@ -11,17 +11,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 ms.reviewer: nichrose
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: このガイダンスは、新型コロナウイルス感染症 (COVID-19) 発生への対策として従業員が在宅勤務 (WFH) となった場合に、これらのリモート ワーカーの生産性を維持するためにご使用ください。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bb2924eddd957e2a56548df4426b74e782af56dc9e727142b17869e6630e273
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318630"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610524"
 ---
 # <a name="faq-support-your-remote-workforce"></a>よく寄せられる質問: リモートの従業員をサポートする
 
@@ -36,7 +36,7 @@ Microsoft では、今回の新型コロナウイルス感染症 (COVID-19) 発�
 > [!NOTE]
 > すでに Microsoft 365 をセットアップしていて、Microsoft が行っている操作について詳しく知りたい場合は、メッセージ センターにアクセスして、**MC205458** メッセージ センターの投稿を確認してください。
 
-Microsoft 365 担当コーポレート バイス プレジデントの Jared Spataro による 2020 年 3 月 5 日のブログ投稿「[Our commitment to customers during COVID-19 (新型コロナウイルス感染症発生中における、お客様への取り組み)](https://www.microsoft.com/ja-JP/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)」をぜひご覧ください。
+Microsoft 365 担当コーポレート バイス プレジデントの Jared Spataro による 2020 年 3 月 5 日のブログ投稿「[Our commitment to customers during COVID-19 (新型コロナウイルス感染症発生中における、お客様への取り組み)](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)」をぜひご覧ください。
 
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Microsoft が措置を講じているということは、問題は何も発生しないということですか?

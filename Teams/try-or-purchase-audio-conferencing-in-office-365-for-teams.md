@@ -16,7 +16,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 または Office 365 の電話会議 (PSTN 会議) ライセンスを試用または購入して、ユーザーがダイヤルインできる電話会議を設定する方法について説明します。 '
-ms.openlocfilehash: bcf67443b395e5951d9499124d360061c4ea9a21c130eef5e9efe4187caa7088
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af031e26cceb920811c3b4f349fda44fd7e3a387
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323769"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611536"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 365 で電話会議を試用または購入Microsoft Teams
 
@@ -49,7 +49,7 @@ ms.locfileid: "54323769"
 
 2. **電話会議** のライセンスを取得します。 以下を希望する場合:
 
-   - **購入する** 前に試してください。電話会議を含む Office 365 Enterprise E5 無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
+   - **購入する** 前にお試しください。電話会議を含む Office 365 Enterprise E5 無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
 
    - **購入:**「Microsoft Teams [ライセンス」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
@@ -91,12 +91,12 @@ Skype for Business がサードパーティの電話会議プロバイダーと�
 
 3. [電話会議の自動応答](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) が電話会議の電話番号にダイヤルインするときに発信者にあいさつするために使用する電話会議の自動応答言語を設定します。 この手順は、電話会議プロバイダーとして Microsoft を使用している場合にのみ適用されます。
 
-4. [電話会議会議の PIN の長さを設定します](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
+4. [電話会議の PIN の長さを設定します](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
 
 > [!NOTE]
 > この機能は、21Vianet が運営する Office 365 を中国で使用しているお客様にはまだご利用いただけません。詳細については、「 [21Vianet が運営する Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)」を参照してください。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [組織Teamsを有効にする](office-365-set-up.md)
 

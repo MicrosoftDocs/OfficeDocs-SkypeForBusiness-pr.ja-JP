@@ -15,16 +15,16 @@ ms.reviewer: rowille
 description: 管理者は、アプリが組織に要求Microsoft Teamsデータとアクセス許可を確認できます。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f72dadc6fae9ce77de0f892b89c0c5627779cd8849d5f4c14c8b2d7cc6716e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2766da88fee53124d43b4e2b66c9c104ea41b8e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288495"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610424"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -37,7 +37,7 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 アプリはユーザーによって同意され、ポリシーの観点から IT によって管理されます。 ただし、ほとんどの場合、アプリのアクセス許可とリスク プロファイルは、アプリに含まれる機能のアクセス許可とリスク プロファイルによって定義されます。 そのため、この記事では、機能レベルでのアクセス許可と考慮事項について説明します。
 
-以下に示すアクセス許可 (RECEIVE_MESSAGE や REPLYTO_MESSAGE など) は[、Microsoft Teams](/microsoftteams/platform/overview)開発者向けドキュメントや[Microsoft](/graph/permissions-reference)Graph のアクセス許可のどこにも表示されません。 これは、この記事の目的に関する簡単な説明です。
+以下に示すアクセス許可 (RECEIVE_MESSAGE や REPLYTO_MESSAGE など) は[、Microsoft Teams](/microsoftteams/platform/overview)開発者向けドキュメントや Microsoft Graph のアクセス許可のどこにも表示[されません](/graph/permissions-reference)。 これは、この記事の目的に関する簡単な説明です。
 
 
 | タイトル   | 説明    |
@@ -63,13 +63,13 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 - [リソース固有の同意は](resource-specific-consent.md) 、アプリが要求できる一連のアクセス許可を提供します。このアクセス許可は、アプリのインストール画面に表示されます。 リソース固有の同意アクセス許可の詳細については、「アクセス許可の参照Graph[参照してください](/graph/permissions-reference#teams-resource-specific-consent-permissions)。
 
-- アプリには、リソース固有の同意アクセス許可以外のアクセス許可が必要な場合があります。 アプリがインストールされた後、アプリは同意プロンプトをGraphアクセス許可を要求できます。 詳細については、「アプリケーションの同意エクスペリエンス [について」AD参照してください](/azure/active-directory/develop/application-consent-experience)。 API のアクセス許可と同意は、Azure Portal で構成できます。 詳細については、「同意フレームワーク[のAzure Active Directory参照してください](/azure/active-directory/develop/consent-framework)。
+- アプリには、リソース固有の同意アクセス許可以外のアクセス許可が必要な場合があります。 アプリがインストールされた後、アプリは同意プロンプトをGraphアクセス許可を要求できます。 詳細については [、「Understanding Azure AD application consent experiences 」を参照してください](/azure/active-directory/develop/application-consent-experience)。 API のアクセス許可と同意は、Azure Portal で構成できます。 詳細については、「同意フレームワーク[のAzure Active Directory参照してください](/azure/active-directory/develop/consent-framework)。
 
 ## <a name="bots-and-messaging-extensions"></a>ボットとメッセージング拡張機能
 
 ### <a name="required-permissions"></a>必要なアクセス許可
 
-- RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ボットは、ユーザーからメッセージを受信して返信できます。<sup>1</sup>
+- RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ボットは、ユーザーからメッセージを受信し、そのユーザーに返信できます。<sup>1</sup>
 
 - POST_MESSAGE_USER。 ユーザーがボットにメッセージを送信すると、ボットはユーザーダイレクト メッセージ (プロアクティブ メッセージとも呼ばれる) *をいつでも* 送信できます。
 
@@ -81,7 +81,7 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 - POST_MESSAGE_TEAM。 ユーザーがボットと話したことがない場合でも、アプリのボットがいつでも任意のチーム メンバーに直接 (プロアクティブ) メッセージを送信できます。
 
-- 明示的なアクセス許可は次のとおりですが、RECEIVE_MESSAGE と REPLYTO_MESSAGE とボットを使用できるスコープ (マニフェストで宣言) によって暗黙的に示されます。
+- 明示的なアクセス許可は次のとおりですが、RECEIVE_MESSAGE と REPLYTO_MESSAGE と、ボットを使用できるスコープ (マニフェストで宣言) によって暗黙的に示されます。
  
     - RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
     - RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
@@ -101,7 +101,7 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 - ボット メッセージにフィッシング詐欺サイトまたはマルウェア サイトへのリンクを含め、理論上は可能ですが、ボットはユーザー、テナント管理者、または Microsoft によってグローバルにブロックできます。
 
-- ボットは、アプリが追加されたチーム メンバー、または個人チャットまたはグループ チャットの個々のユーザーの非常に基本的な ID 情報を取得 (および保存する可能性があります) できます。 これらのユーザーに関する詳細な情報を取得するには、ボットがユーザーにサインインを要求する必要があります (AD Azure Azure Active Directory)。
+- ボットは、アプリが追加されたチーム メンバー、または個人チャットまたはグループ チャットの個々のユーザーの非常に基本的な ID 情報を取得 (および保存する場合があります) できます。 これらのユーザーに関する詳しい情報を取得するには、ボットがユーザーにサインインを要求する必要があります (AD Azure Azure Active Directory)。
 
 - ボットは、チーム内のチャネルの一覧を取得 (および格納できる場合があります) できます。このデータは企業ネットワークから出て行く。
 
@@ -115,14 +115,14 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 - 一方、メッセージング拡張機能には、ユーザーの IP アドレスと参照元情報が表示されます。
 
-- アプリ のガイドライン (および AppSource レビュー プロセス) では、有効な目的のために(POST_MESSAGE_TEAM アクセス許可を使用して) 個人のチャット メッセージをユーザーに投稿する際に判断する必要があります。 不正使用が発生した場合、ユーザーはボットをブロックし、テナント管理者はアプリをブロックできます。また、必要に応じて Microsoft がボットを一中心にブロックできます。
+- アプリ のガイドライン (および AppSource レビュー プロセス) では、有効な目的のために(POST_MESSAGE_TEAM アクセス許可を使用して) 個人のチャット メッセージをユーザーに投稿する際に判断する必要があります。 不正使用が発生した場合、ユーザーはボットをブロックし、テナント管理者はアプリをブロックできます。また、必要に応じて Microsoft はボットを一中心にブロックできます。
 
 <sup>1 一</sup> 部のボットはメッセージのみを送信します (POST_MESSAGE_USER)。 これらは "通知のみ" ボットと呼ばれるが、この用語はボットが許可または許可されていない操作を参照しているのではなく、ボットが会話エクスペリエンスを公開したくないことを意味します。 Teamsこのフィールドを使用して、通常は有効になる UI の機能を無効にします。会話エクスペリエンスを公開するボットに比べて、ボットの実行が許可される操作は制限されません。
 
 <sup>2</sup> アプリのファイルに基manifest.jsボット オブジェクトの supportsFiles ブールプロパティによって管理されます。
 
 > [!NOTE]
-> ボットに独自のサインインがある場合、ユーザーが初めてサインインする場合は、2 つ目の異なる同意エクスペリエンスがあります。
+> ボットに独自のサインインがある場合、ユーザーが初めてサインインする場合は、2 つ目の同意エクスペリエンスが異なります。
 >
 >現時点では、Teams アプリ (ボット、タブ、コネクタ、またはメッセージング拡張機能) 内の機能に関連付けられている Azure AD のアクセス許可は、ここに示されている Teams アクセス許可とは完全に分離されています。
 
@@ -142,7 +142,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 - タブのリスク プロファイルは、ブラウザー タブで実行されている同じ Web サイトとほぼ同じです。 
 
-- タブには、現在のユーザーのサインイン名と UPN、現在のユーザーの Azure AD オブジェクト ID、それが存在する Microsoft 365 グループの ID (チームの場合)、テナント ID、ユーザーの現在のロケールなど、実行されているコンテキストも取得されます。 ただし、これらの ID をユーザーの情報にマップするには、タブでユーザーが Azure アカウントにサインインAD。
+- タブには、現在のユーザーのサインイン名と UPN、現在のユーザーの Azure AD オブジェクト ID、それが存在する Microsoft 365 グループの ID (チームの場合)、テナント ID、ユーザーの現在のロケールなど、実行されているコンテキストも取得されます。 ただし、これらの ID をユーザーの情報にマップするには、タブでユーザーが Azure AD にサインインする必要があります。
 
 ## <a name="connectors"></a>コネクタ
 
@@ -154,11 +154,11 @@ POST_MESSAGE_CHANNEL
 
 ### <a name="optional-permissions"></a>オプションのアクセス許可
 
-REPLYTO_CONNECTOR_MESSAGE。 特定のコネクタでは、アクション可能なメッセージがサポートされています。このメッセージを使用すると、GitHub の問題に応答を追加したり、Trello カードに日付を追加したりして、ユーザーはコネクタ メッセージに対して対象指定の応答を投稿できます。
+REPLYTO_CONNECTOR_MESSAGE。 特定のコネクタでは、アクション可能なメッセージがサポートされています。このメッセージを使用すると、ユーザーは、GitHub の問題に応答を追加したり、Trello カードに日付を追加したりして、コネクタ メッセージにターゲットを絞った応答を投稿できます。
 
 ### <a name="considerations"></a>考慮事項
 
-- コネクタ メッセージを投稿するシステムは、メッセージを投稿しているユーザーまたはメッセージを受信したユーザーを知りません。受信者に関する情報は開示されません。 (Microsoft はテナントではなく、実際の受信者です。Microsoft は、チャネルへの実際の投稿を行います)。
+- コネクタ メッセージを投稿するシステムは、メッセージを投稿しているユーザーやメッセージを受信したユーザーを知りません。受信者に関する情報は開示されません。 (Microsoft はテナントではなく、実際の受信者です。Microsoft は、チャネルへの実際の投稿を行います)。
 
 - コネクタ メッセージがチャネルに投稿された場合、企業ネットワークからデータが送信されません。
 
@@ -170,7 +170,7 @@ REPLYTO_CONNECTOR_MESSAGE。 特定のコネクタでは、アクション可能
 
 - コネクタ インスタンスの URL はシークレット/機密として扱う必要があります。その URL を持つすべてのユーザーは、電子メール アドレスのようにその URL に投稿できます。 そのため、スパムやフィッシングサイトやマルウェア サイトへのリンクが発生するリスクがあります。 その場合、チーム所有者はコネクタ インスタンスを削除できます。
 
-- コネクタ メッセージを送信するサービスが侵害され、スパム/フィッシング/マルウェア リンクの送信が開始された場合、テナント管理者は新しいコネクタ インスタンスの作成を妨げる可能性があります。また、Microsoft はそれらを一本的にブロックできます。
+- コネクタ メッセージを送信するサービスが侵害され、スパム/フィッシング/マルウェア リンクの送信を開始した場合、テナント管理者は新しいコネクタ インスタンスの作成を妨げる可能性があります。また、Microsoft はそれらを一本的にブロックできます。
 
 > [!NOTE]
 > 現在、アクション可能なメッセージをサポートしているコネクタを確認することはできません (REPLYTO_CONNECTOR_MESSAGEアクセス許可)。
@@ -191,8 +191,8 @@ RECEIVE_MESSAGE、REPLYTO_MESSAGE。 ユーザーからメッセージを受信�
 
 - 送信 webhook はボットに似ていますが、権限は少なめです。 ボットと同様に、明示的に言及する必要があります。
 
-- 送信 Webhook が登録されると、シークレットが生成されます。これにより、送信 webhook は、悪意のある攻撃者ではなく、送信者がMicrosoft Teamsを確認できます。 このシークレットはシークレットのままである必要があります。アクセス権を持つユーザーは、ユーザーを偽装Microsoft Teams。 シークレットが侵害された場合、送信 webhook を削除して再作成し、新しいシークレットが生成されます。
+- 送信 Webhook が登録されると、シークレットが生成されます。これにより、送信 Webhook は、悪意のある攻撃者ではなく、送信者がMicrosoft Teamsを確認できます。 このシークレットはシークレットのままである必要があります。アクセス権を持つユーザーは、ユーザーを偽装Microsoft Teams。 シークレットが侵害された場合、送信 webhook を削除して再作成し、新しいシークレットが生成されます。
 
 - シークレットを検証しない送信 webhook を作成することができますが、その場合は、その Webhook に対して実行することをお勧めします。
 
-- メッセージの送受信以外に、送信 Webhook は多くのことを行えません。メッセージを事前に送信できない、ファイルを送受信できない、ボットが実行できる他の操作は、メッセージの受信と返信を除いて実行できます。
+- メッセージの受信と返信以外に、送信 Webhook は多くのことを行えません。メッセージを事前に送信できない、ファイルを送受信できない、ボットが実行できる他の操作は、メッセージの受信と返信を除いて実行できます。

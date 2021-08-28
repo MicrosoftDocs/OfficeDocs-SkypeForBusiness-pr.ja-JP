@@ -12,7 +12,7 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intégre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et collaborate. "
-ms.openlocfilehash: 24bb3c5e278ec2b046400308d0342fe4acfae687
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 356cab2bd8585e4ace3e71c02dbd6722f0332a7d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372087"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610454"
 ---
 # <a name="microsoft-teams-en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Microsoft Teams: EN 301 549 Déclaration de conformité en matration d'accessibilité
 
@@ -46,7 +46,7 @@ Pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:e
 
 ## <a name="section-1-champ-dapplication"></a>セクション 1. アプリケーションを起動する
 
-La présente attestation de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en mat立 d'accessibilité applicables](http://mandate376.standards.eu/standard/scope) aux produits et services TIC de Microsoft.
+La présente attestation de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en matuit d'accessibilité applicables](http://mandate376.standards.eu/standard/scope) aux produits et services TIC de Microsoft.
 
 ## <a name="section-2-rfrences"></a>Section 2 Références
 

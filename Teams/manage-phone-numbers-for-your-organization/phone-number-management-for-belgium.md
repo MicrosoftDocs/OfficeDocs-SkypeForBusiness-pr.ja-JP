@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: この表を使用して、ベルギーの電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: a11e33d8cccb955e59d6784a845e43952ce0fd95
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 0d359f20e56b626657201b6b3640a1fdc59fdea9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348519"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602232"
 ---
 # <a name="phone-number-management-for-belgium"></a>ベルギーでの電話番号の管理
 
@@ -41,7 +41,7 @@ ms.locfileid: "58348519"
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
 |通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、PSTN サービス デスクに手順 [を問い合わせください](contact-pstn-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

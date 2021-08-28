@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: '概要: 2015 年に常設チャット サーバー データベースをバックアップおよび復元するSkype for Business Serverします。'
-ms.openlocfilehash: eb6b7e005691abda351993e716ba43a137ffa28c17f7fc9e6297a7e1373f9ad7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aba6ead1d666f9f257e9cd7bfa1e7d2343049b9d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281710"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622249"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>2015 年に常設チャット データベースをバックアップSkype for Business Serverする
  

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
 description: 仮想デスクトップ インフラストラクチャ (VDI) 環境で Microsoft Teams を実行する方法について説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eabb53932dcc9892632e0e2ae58b7a4506595343
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: be5a7181a3a3679b1cef33124bcd7ad9d689c7a8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523838"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602082"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "58523838"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 複数の市場プロバイダーを使用している場合は、仮想化ソリューション プロバイダーに相談して、最小要件が満たされていることを確認することをお勧めします。
   
-現在、Teams/ビデオ (AV) 最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
+現在、Teams/ビデオ (AV) 最適化を使用した VDI での認証は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
 
 ### <a name="platforms-certified-for-teams"></a>Teams 認定プラットフォーム
 
@@ -409,7 +409,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>呼び出し機能を制限するポリシーを設定する
 
-この VDI ポリシー設定 -DisableCallsAndMeetings $true を使用して VDI 上の Teams にサインインするユーザーは、次の機能を実行できない必要があります。
+この VDI ポリシー設定 -DisableCallsAndMeetings $true を使用して VDI の Teams にサインインするユーザーは、次の機能を実行できない必要があります。
 
 - 通話を行います。
 - 会議に参加します。

@@ -13,17 +13,17 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: '管理センターで組織の緊急対応の場所を追加、変更、または削除Microsoft Teamsします。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 69ac20583d2f90b3aab4359478f067d2df7b86d2733f6452172430566781ea7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62604fc26f91baa77bd205869bbe4251d1a46a8a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352485"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602302"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
@@ -33,7 +33,7 @@ ms.locfileid: "54352485"
   
 通話プランを取得する方法と料金については、アドオン ライセンスのTeams[を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-組織の緊急対応の場所は、Microsoft Teamsまたは PowerShell を使用して管理します。
+組織の緊急対応の場所を管理するには、Microsoft Teamsまたは PowerShell を使用します。
   
 ## <a name="add-an-emergency-location"></a>緊急対応の場所を追加する
 
@@ -42,12 +42,12 @@ ms.locfileid: "54352485"
 1. 管理センターの左側のナビゲーションで、[場所Microsoft Teams緊急対応の住所 **]**  >  **をクリックします**。
 2. **[追加]** をクリックします。
 3. 場所の名前と説明を入力します。
-4. 国または地域を選択し、アドレスを入力します。
+4. 国または地域を選択し、住所を入力します。
 
    > [!NOTE]
    > ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Microsoft 365 または Office 365 で電話番号を正常にアクティブ化するには、緊急対応の場所に設定された住所 (番号の取得に使用) が電話番号の市番と一致する必要があります。
 
-5. 住所が見つからない場合に、アドレスを手動で編集する場合は、[アドレスを手動で編集する **] をオンにしてください**。
+5. 住所が見つからない場合に、アドレスを手動で編集する場合は、[アドレスを手動で編集 **する] をオンにしてください**。
 6. **[保存]** をクリックします。
 
 ### <a name="using-powershell"></a>PowerShell の使用
@@ -81,7 +81,7 @@ ms.locfileid: "54352485"
 
 [Remove-CsOnlineLisSkyicAddress に関するページを参照してください](/powershell/module/skype/remove-csonlineliscivicaddress)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
