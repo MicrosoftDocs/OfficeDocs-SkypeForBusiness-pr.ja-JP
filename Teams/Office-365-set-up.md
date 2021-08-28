@@ -8,8 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Microsoft 365 または Office 365 組織の Microsoft Teams を有効にする方法、個々のアクセスを制御するユーザー ライセンスを割り当てる方法、コンテンツ ソースを許可またはブロックする方法について学習します。
-localization_priority: Normal
+description: Microsoft 365 または Office 365 組織の Microsoft Teams を有効にし、ユーザー ライセンスを割り当て、個々のアクセスを制御し、コンテンツ ソースを許可またはブロックする方法について学習します。
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0879c4ff2af21ec91856eddd0afcc94a2de9edd083b30ed98285fca040b0522
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d9341ad677ba3a8d6d866959f8a3afa7520f1de1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318563"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631551"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>組織で Teams を有効にする
 
@@ -35,7 +35,7 @@ ms.locfileid: "54318563"
 既定では、Teams はすべての組織でオンになります。 プレビュー期間において Teams を使用した場合、Teams プレビューの間に設定したものと同じ設定がそのまま維持されます。 
 
 
-組織の管理者は、Teams への個々のアクセスを制御するユーザー ライセンスを割り当て、Teams で使用できるコンテンツ ソースを許可またはブロックできます。 詳細[については、「Microsoft Teams設定の](enable-features-office-365.md)管理」または「組織のアプリの管理[Microsoft Teams」を](admin-settings.md)参照してください。 
+組織の管理者は、Teams への個々のアクセスを制御するユーザー ライセンスを割り当て、Teams で使用できるコンテンツ ソースを許可またはブロックできます。 詳細[については、「組織Microsoft Teams設定](enable-features-office-365.md)の管理」または「組織内のアプリの管理[Microsoft Teams」を](admin-settings.md)参照してください。 
 
 
  

@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: ダイヤルイン会議番号がある国と地域、およびそれらの番号の自動割り当て方法について説明します。
-ms.openlocfilehash: a0984a4bab89724f0dd00a50a1dbe0161ad837555180086f807f099396c9445e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ad8f10a35ff712d8ee80822343c5098f0b2a907
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306230"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586145"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Skype for Business Online の電話会議の電話番号
 
@@ -47,7 +47,7 @@ ms.locfileid: "54306230"
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>会議の出席依頼に表示されるダイヤルイン電話番号
 
-Skype for Business Online ユーザーが Outlook または Outlook Web App で会議をスケジュールすると、ユーザーに設定されている既定の電話会議番号が会議出席許可に含まれます。 1 人または複数のユーザーに別の既定の番号を選択 **する** 場合は、管理センターの [電話会議ユーザー] に移動Skype for Business  >  **変更**  >  **できます**。 「[招待状に含まれている電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」を参照してください。
+Skype for Business Online ユーザーが Outlook または Outlook Web App で会議をスケジュールすると、そのユーザーに設定されている既定の電話会議番号が会議出席招待に含まれます。 1 人または複数のユーザーに別の既定の番号を選択 **する** 場合は、管理センターの [電話会議ユーザー] に移動Skype for Business  >  **変更**  >  **できます**。 「[招待状に含まれている電話番号を設定する](set-the-phone-numbers-included-on-invites.md)」を参照してください。
   
 その他のダイヤルイン番号は、会議の出席依頼の [ **電話番号の検索**] リンクをクリックして表示できます。
   
@@ -57,7 +57,7 @@ Skype for Business Online ユーザーが Outlook または Outlook Web App で�
   
  **専用電話番号** とは、組織内のユーザーだけが使用できる電話番号のことです。誰かがこれらの番号のいずれかに電話をかけるときに使用する言語を変更できます。
   
- **共有電話番号は**、他の電話番号または他のアカウントと共有Microsoft 365電話番号Office 365です。 誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
+ **共有電話番号は**、他の電話番号や他のアカウントと共有Microsoft 365電話番号Office 365です。 誰かがこれらの番号のいずれかに通話するときに使用する言語は変更できません。
   
 開催者に割り当てられる既定の電話会議番号は会議の招待状にのみ含まれるため、発信者は会議ブリッジに割り当てられた任意の電話番号を使用して、会議に参加できます。 会議に参加するために使用する電話番号の一覧はそれぞれの会議の招待状に含まれる [ **電話番号の検索**] リンクを使用して利用できます。
   
@@ -89,6 +89,6 @@ Skype for Business Online ユーザーが Outlook または Outlook Web App で�
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

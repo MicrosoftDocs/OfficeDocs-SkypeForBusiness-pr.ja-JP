@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: MPLS ネットワーク、SIP トランク、またはサード パーティの PSTN ゲートウェイまたは PBX がある場合の通話受付管理 (CAC) の計画。 この値は、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 33e13853e4c2ed9ab9cab328092f7bc44147607187c8f221993d88cb4114a6d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315553"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631641"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>通話受付管理のコンポーネントとトポロジは、Skype for Business
 

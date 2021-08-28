@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 2019 Skype for Business Serverを作成する場合は、従来のインストールに関連付けられているサーバーの全体管理ストアを使用します。 初めてトポロジ ビルダーを起動して、その後、編集セッションを行う場合、トポロジ ビルダーに現在の構成ドキュメントを読み込ませる場所を指定するようメッセージが表示されます。 トポロジが既に定義され、サーバーの全体管理ストアが確立済みなので、既存の展開からトポロジをダウンロードする必要があります。 トポロジ ビルダーは、データベースを読み取り、現在の定義を取得します。
-ms.openlocfilehash: e20b6fbf8c65d7b59678c0061eee45b21a8e4130132da320494c0d230fffcb1d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 124a1bbb09307edc50842bb5ce6461766e151114
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339335"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586251"
 ---
 # <a name="download-topology-from-existing-deployment"></a>既存の展開環境からのトポロジのダウンロード
 

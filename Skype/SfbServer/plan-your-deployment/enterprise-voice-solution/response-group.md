@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: ユーザーグループへの通話ルーティングSkype for Business Server エンタープライズ VoIPを設定できる、ユーザーの応答グループを計画します。 オーディオ ファイルの要件が含まれています。
-ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290085"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631581"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>[応答グループ] アプリケーションの計画をSkype for Business Server
 
@@ -54,7 +54,7 @@ Manager の役割に対応するために、応答グループ アプリケー�
 
 **管理対象の応答グループと非管理対象の応答グループ**
 
-|**応答グループの種類**|**Description**|
+|**応答グループの種類**|**説明**|
 |:-----|:-----|
 |アンマネージ  <br/> | 非管理対象の応答グループには、マネージャーが割り当てられません。 これらの応答グループを構成できるのは、応答グループ管理者のみです。 <br/>  非管理対象の複数の応答グループが、1 つのキューまたはエージェント グループを共有できます。 <br/>  応答グループを以前のバージョンから以前のバージョンに移行Skype for Business Server、この種類は [管理されていない] に設定されます。 <br/> |
 |管理対象  <br/> | 応答グループ管理者は、管理応答グループのあらゆる側面を構成できます。 <br/>  応答グループ 管理者は、明示的に割り当てられていない応答グループを表示または変更することはできません。 <br/>  応答グループ 管理者は、明示的に割り当てられている応答グループの一部の設定のみを構成できます。 <br/>  管理対象の応答グループは、他の応答グループ (管理対象または非管理対象を問わず) とはキューまたはエージェント グループを共有できません。 <br/> |
@@ -209,7 +209,7 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 
 |**測定基準**|**1 Enterprise Edition <br/> (8 つのフロントエンド サーバーを使用)**|**サーバー Standard Edition**|
 |:-----|:-----|:-----|
-|1 秒あたりの着信呼び出し  <br/> |16   <br/> |2  <br/> |
+|1 秒あたりの着信呼び出し  <br/> |16   <br/> |2   <br/> |
 |IVR または MoH に接続された同時呼び出し  <br/> |480  <br/> |60  <br/> |
 |同時匿名セッション (IM なし)  <br/> |224  <br/> |28  <br/> |
 |同時匿名セッション (IM を使用)  <br/> |64  <br/> |8   <br/> |

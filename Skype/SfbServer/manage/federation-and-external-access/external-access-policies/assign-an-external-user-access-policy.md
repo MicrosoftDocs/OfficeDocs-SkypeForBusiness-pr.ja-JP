@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: ユーザーが Skype for Business Server に対して有効になっている場合は、特定のユーザーに適切なポリシーを適用して、Skype for Business Server コントロール パネルで SIP フェデレーション、リモート ユーザー アクセス、およびパブリック インスタント メッセージング (IM) 接続を構成できます。
-ms.openlocfilehash: 32c97e38da6887e5caf078394e784f835458911a
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 4a5f6bfe13c27360c535957cefcfd4093b6a1bad
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234632"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587021"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>有効なユーザーに外部ユーザー アクセス ポリシー Skype for Business割り当てる
 

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: この記事の手順を使用して、ネットワーク帯域幅ポリシー プロファイルを表示、作成、変更、または削除します。
-ms.openlocfilehash: af3ca2d956e1a280ca6b3d55aa68e9abf1a53aa1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f8a710dffce93c7dc3a0c54be1e3830ce87f41de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233662"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631621"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク帯域幅ポリシー プロファイルの管理
 

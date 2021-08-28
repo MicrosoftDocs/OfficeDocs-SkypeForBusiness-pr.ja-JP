@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19338a34-1bfb-4787-b057-5e34a333711d
 description: このStart-CcDownloadコマンドレットは、Skype for Business クラウド コネクタ エディションビットと msi ファイルを同期的にダウンロードします。
-ms.openlocfilehash: 0447c75ac3e6df79a20d2c87b664bfb92cf7124fc7253c839a88fad1b335eaec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d5974bb4d4fb5bc16f467410865fb571073246e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351916"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631571"
 ---
 # <a name="start-ccdownload"></a>Start-CcDownload
  
@@ -65,7 +65,7 @@ Start-CcDownload -DownloadBitsOnly
 ## <a name="parameters"></a>パラメーター
 <a name="DetailedDescription"> </a>
 
-|**パラメーター**|**Required**|**型**|**説明**|
+|**パラメーター**|**Required**|**Type**|**説明**|
 |:-----|:-----|:-----|:-----|
 |DownloadUrlRoot  <br/> | 省略可 <br/> |System.String  <br/> | プライベート ダウンロード サイト内の特定のバージョンの Cloud Connector の完全な URL。 このパラメーターは注意して使用します。ダウンロードするクラウド コネクタのバージョンを確認してください。 <br/> |
 |DownloadBitsOnly  <br/> |省略可  <br/> |System.Management.Automation.SwitchParameter  <br/> |ダウンロード サイトから MSI をダウンロードしてインストールするには、手順を省略し、クラウド コネクタ ビットのみをダウンロードします。  <br/> |

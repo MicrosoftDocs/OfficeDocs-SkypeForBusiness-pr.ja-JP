@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: '概要: Skype for Business Online、Skype for Business Server 2019、Skype for Business Server 2015、Lync Server 2013、Lync Server 2010 を使用している場合に関係ない、新しい Skype for Business と更新プログラムの準備に使用できる手順について説明します。'
-ms.openlocfilehash: d55d6d5adc45fa9d4aa78c1f1b9fc7489a9bef785d38300de0a6ad08dafe4b1b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b9ead36cb38c41376c80a85f1356e24e78b51eb7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318830"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586869"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>ユーザー向Skype for Business 2015 クライアント エクスペリエンスを計画する
  

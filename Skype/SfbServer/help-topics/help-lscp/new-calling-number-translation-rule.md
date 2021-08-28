@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTrunkCallingRuleEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 description: '[新規 トランク構成] の [新規 発信者番号の変換ルール] を使用して、新しい変換ルールを作成できます。変換ルールの詳細については、次のトピックを参照してください。'
-ms.openlocfilehash: d6ac1db58005a74e95e02a5c54a85ed68829b0493633b099fdb344509c54233c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5820dbde9b5c3c4d679c495b3fcb0bf306fc7158
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609424"
 ---
 # <a name="new-calling-number-translation-rule"></a>新しい呼び出し元番号変換ルール
 

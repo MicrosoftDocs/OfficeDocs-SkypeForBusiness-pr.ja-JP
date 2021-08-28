@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 管理者、発表者、出席者の Teams 表示限定の会議エクスペリエンスについて説明します。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba2a2a404c71aba007d667e5276d789b05890a8b
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: 6bb4eb1c1c681e0c2089ec1258f7729727fdb77f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380471"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586301"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示限定の会議エクスペリエンス
 
@@ -29,7 +29,7 @@ ms.locfileid: "58380471"
 > 表示限定のブロードキャストは、Microsoft 365 E3/E5 および Microsoft 365 A3/A5 で利用できます。 この機能は2021 年 3 月 1 日に有効になりますが、既定でオフになっています。 Microsoft 365 Government Community Cloud (GCC) の機能は、2021 年 3 月末にロールアウトが開始される予定です。 Government Community Cloud High (GCCH) と Department of Defense (DoD) は後日ロールアウトされる予定です。 この機能を既定でオンにしたい場合は、その日付以降に既定のポリシーを変更する必要があります。 PowerShell を使用して、ポリシー`Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`を有効にする。
 
 > [!Note]
-> 会議が容量にヒットした場合Teams、10,000 人の表示専用ブロードキャスト エクスペリエンスに対応するようにシームレスに拡張されます。 さらに、リモート 作業が増加したこの期間中は、今年の終わりまでさらに大規模な 20,000 人のブロードキャストを利用することができます。 ウェビナーでは、現在、表示専用のブロードキャスト エクスペリエンスはサポートされていません。
+> 会議が容量にヒットした場合Teams、10,000 人のビュー専用ブロードキャスト エクスペリエンスに対応するようにシームレスにスケーリングされます。 さらに、リモート 作業が増加したこの期間中は、今年の終わりまでさらに大規模な 20,000 人のブロードキャストを利用することができます。 ウェビナーでは、現在、表示専用のブロードキャスト エクスペリエンスはサポートされていません。
 
 Microsoft Teams では、最大 10,000 人の参加者がTeams 会議に参加できます。 メイン会議の容量に達すると (1,000 人のユーザーが会議に入った場合)、追加の出席者が表示専用のエクスペリエンスで参加します。
 
@@ -73,7 +73,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 メイン会議の容量に達すると、次の場合、出席者は会議に参加できません。
 
-- 管理者は、管理者Teamsまたはテナント全体に対して、ビュー専用のエクスペリエンスを無効にしました。
+- 管理者が、開催者またはTeamsのビュー専用エクスペリエンスを無効にしました。
 - 表示専用の出席者はロビーをバイパスできない。 たとえば、会議の開催者が自分の組織内のユーザーだけがロビーをバイパスし、組織外の出席者がビュー専用の出席者として参加しようとした場合、参加者は参加できます。
 
 メイン会議の容量に達すると、会議の開催者と発表者には、新しい出席者が表示専用の出席者として参加すると通知するバナーが表示されます。

@@ -12,18 +12,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: グループ内のユーザーとグループにポリシーを割り当てるさまざまな方法Microsoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 3b53c887536a3bd033b6c1feaeabae58a609f90e8ecbb0a7197de851173f46cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f3832c28f22c8e0a86b5c4f87a7d85e54420858e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314153"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631521"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>ユーザーとグループにポリシーを割り当てる
 
@@ -41,7 +41,7 @@ ms.locfileid: "54314153"
 2. ユーザー名の左側をクリックしてユーザーを選択し、[設定の編集] **を選択します**。
 3. 割り当てるポリシーを選択し、[適用] を **選択します**。
 
-![管理センターでユーザーにポリシーを割りTeamsする](media/assign-policy-user.png)
+![管理センターでポリシーをユーザーに割りTeamsする](media/assign-policy-user.png)
 
 または、次の操作も実行できます:
 
@@ -51,13 +51,13 @@ ms.locfileid: "54314153"
 4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、**[適用]** を選択します。
 
-![2 つ目の方法で管理センターのユーザー Teamsポリシーを割り当てる](media/assign-policy-user2.png)
+![2 つ目の方法を使用して、Teamsにポリシーを割り当てる](media/assign-policy-user2.png)
 
 ### <a name="use-powershell"></a>PowerShell を使用する
 
 各ポリシー タイプには、それを管理するための独自のコマンドレットのセットがあります。 特定のポリシー タイプに ```Grant-``` コマンドレットを使用して、ポリシーを割り当てます。 たとえば、```Grant-CsTeamsMeetingPolicy``` コマンドレットを使用して、Teams 会議ポリシーをユーザーに割り当てます。 これらのコマンドレットは PowerShell モジュールの Teamsに含まれており、このコマンドレット リファレンス[Skype for Businessに記載されています](/powershell/skype)。
 
- PowerShell のパブリック[Teamsを](https://www.powershellgallery.com/packages/MicrosoftTeams/)ダウンロードしてインストールし (まだインストールしていない場合)、次のコマンドを実行して接続します。
+ PowerShell の[](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック Teamsをダウンロードしてインストールし (まだインストールしていない場合)、次のコマンドを実行して接続します。
 
 > [!NOTE]
 > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
@@ -104,7 +104,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 ユーザーの有効なポリシーは、次の規則に従って更新されます。
 
-- ポリシーが割り当てられているグループにユーザーが追加または削除された場合。
+- ポリシーが割り当てられているグループに対してユーザーが追加または削除された場合。
 - ポリシーはグループから割り当て解除されます。
 - ユーザーに直接割り当てられているポリシーは削除されます。
 
@@ -123,7 +123,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 ランクを指定しないと、ポリシーの割り当てに最も低いランクが与えられます。
 
-### <a name="in-the-teams-admin-center"></a>管理センター Teamsで
+### <a name="in-the-teams-admin-center"></a>管理センター Teams
 
 > [!NOTE]
 > 現在、Microsoft Teams 管理センターを使用したグループへのポリシー割り当ては、Teams 通話ポリシー、Teams コール パーク ポリシー、Teams ポリシー、Teams ライブ イベント ポリシー、Teams 会議ポリシー、Teams メッセージ ポリシーでのみ使用できます。 他のポリシーの種類については、PowerShell を使用してください。
@@ -136,7 +136,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
     3. 割り当てるポリシーを選択します。
     4. **[適用]** を選択します。
     
-![管理センターでグループにポリシーをTeamsする](media/assign-policy-group.png)
+![管理センターでグループにポリシーを割りTeamsする](media/assign-policy-group.png)
 
 グループ ポリシーの割り当てを削除するには、ポリシー ページの **[グループ ポリシーの割り当て]** タブで、グループの割り当てを選び、**[削除]** を選択します。
 

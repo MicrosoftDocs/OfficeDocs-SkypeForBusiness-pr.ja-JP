@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 2019 Skype for Business Server共存状態で展開する前に、従来のサービスが構成および開始されていることを確認する必要があります。 2019 パイロット プールを展開する前に、従来の環境に存在する主要なサービスと機能をSkype for Business Server重要です。 従来の XMPP 展開との共存状態で Microsoft Skype for Business Server 2019 XMPP を展開する前に、従来の XMPP サービスが構成および開始されていることを確認し、従来の XMPP 構成がサポートしているフェデレーション パートナーを特定する必要があります。
-ms.openlocfilehash: 67583f875a8da0e58cc2c380352a0e1a96415003a9f493ee4f3172f8942972ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277652"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586241"
 ---
 # <a name="verify-the-legacy-environment"></a>従来の環境を確認する
 

@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '概要: 使用するトポロジを選択Skype for Business Server。 サーバーのコロケーションについてSkype for Business Server。'
-ms.openlocfilehash: 922bc26ee6eeea720c62cbbc744953aa5edecf4c03a792fac56ee7910806b6e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff527bc35f534de5a7c8830bbc4359626f8f09b9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349869"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609214"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>トポロジの基本Skype for Business Server
 
@@ -251,7 +251,7 @@ Standard Edition サーバーには、次の役割 (追加の構成が必要で�
 
 - フロントエンド プール用のEnterprise Editionデータベース
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>大企業
 
 次のデータベースは、同じバック エンド サーバーにSQL Server。
 

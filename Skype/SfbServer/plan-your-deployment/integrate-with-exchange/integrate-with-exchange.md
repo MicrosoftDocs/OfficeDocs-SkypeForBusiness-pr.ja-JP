@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '概要: このトピックでは、2016 年または 2013 年Skype for Business Server 2016 Exchange Serverと統合Exchange Serverしてください。'
-ms.openlocfilehash: 81217886028db9e8cb04296e5d665aada3a3337683f4b8276fb13d454cdc4b76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c830636b8db5b2a4fba02a1a5f34489e691459c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284647"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609224"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Skype for Business と Exchange の統合の計画
  
@@ -98,19 +98,19 @@ Skype for Business Server と Exchange Online を統合する場合は、「オ�
 |プレゼンス イン Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |IM、PSTN 通話、電話Skypeビデオ通話を経由して、電子メールからOutlookする  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |オンライン会議のスケジュール設定と参加は、Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|プレゼンス イン Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|IM、PSTN 通話、OWA メールSkypeビデオ通話による応答  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|オンライン会議をスケジュールし、会議に参加Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|プレゼンス イン Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |×  <br/> |Y  <br/> |
+|IM、PSTN 通話、OWA メールSkypeビデオ通話による応答  <br/> |Y  <br/> |Y  <br/> |N  <br/> |×  <br/> |Y  <br/> |
+|オンライン会議をスケジュールし、会議に参加Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |×  <br/> |Y  <br/> |
 |モバイル クライアントでの IM/Presence  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |モバイル クライアントでのオンライン会議への参加  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |予定表の空き時間情報Outlookに基づいて状態を公開する  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|連絡先リスト (統合連絡先ストア経由)  <br/> |Y (Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
+|連絡先リスト (統合連絡先ストア経由)  <br/> |Y (Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |×  <br/> |Y  <br/> |
 |高解像度の連絡先写真 (Lync 2013 または Skype for Businessクライアントが必要です。 LWA、モバイル アプリ、Lync 2010、Lync for Mac、その他の古いクライアントではサポートされていません)。  <br/> |Y (Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
 |会議の委任  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
 |会話の履歴と通話ログがユーザーの Exchange メールボックスに書き込まれる  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|アーカイブ コンテンツ (IM と会議) Exchange  <br/> |Y (Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|アーカイブされたコンテンツを検索する  <br/> |Y (Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|ExchangeUM ボイス メール  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
+|アーカイブ コンテンツ (IM と会議) Exchange  <br/> |Y (Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |×  <br/> |Y  <br/> |
+|アーカイブされたコンテンツを検索する  <br/> |Y (Exchange 2016/2013)  <br/> |Y  <br/> |N  <br/> |×  <br/> |Y  <br/> |
+|ExchangeUM ボイス メール  <br/> |Y  <br/> |Y  <br/> |N  <br/> |×  <br/> |×  <br/> |
 |サーバー側の会話の履歴  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
 
 > [!NOTE]

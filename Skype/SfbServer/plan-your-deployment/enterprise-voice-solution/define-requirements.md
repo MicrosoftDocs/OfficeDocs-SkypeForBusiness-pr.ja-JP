@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: SIP トランク E9-1-1 サービス プロバイダーか ELIN ゲートウェイかによって、Skype for Business Server エンタープライズ VoIP で E9-1-1 を有効にするために必要な手順を要約します。
-ms.openlocfilehash: 881bb361598d63b3222a3391ff88327a148f55d9d2d680c7ade0ecb1c19f31b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e51b51f83279f9676ef113e032c406ee09c28fc2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283099"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631591"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>電話での緊急通話の要件を定義Skype for Business Server
  
