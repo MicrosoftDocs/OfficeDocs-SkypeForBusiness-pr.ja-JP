@@ -14,15 +14,15 @@ search.appverid: MET150
 description: Microsoft Teams のゲスト アクセスに関する問題のトラブルシューティングと解決に役立つヘルプをご利用ください。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaca5da3140761a4a0fc9194c8acb31325d0aceaa9463ab7517779865aa479cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b539116fb5e81156a56c5f73146b92eea898765
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296444"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600932"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams のゲスト アクセスに関する問題のトラブルシューティング
 
@@ -39,7 +39,7 @@ ms.locfileid: "54296444"
 Teams のゲスト アクセスでは Azure Active Directory (Azure AD) ビジネス ツー ビジネス (B2B) およびそのライセンス モデルを使用しています。 ゲスト アクセスは、Microsoft 365 Business Standard、Office 365 Enterprise、Office 365 Education のすべてのサブスクリプションに含まれています。 追加の Microsoft 365 または Office 365 ライセンスは不要です。
 
 > [!NOTE]
-> Teamsゲストがサインインし、別の (リソース) テナントのゲストとして Teams を使用するには、ゲストのホーム テナントで有効にする必要があります。
+> Teamsゲストがサインインして別の (リソース) テナントのゲストとして Teams を使用するには、ゲストのホーム テナントで有効にする必要があります。
 
 ライセンス エラーが発生する場合は [、Azure AD 外部](/azure/active-directory/external-identities/external-identities-pricing) ID の課金モデルを読んで、組織内のゲスト アクセスのニーズを満たすライセンス要件を決定してください。
 

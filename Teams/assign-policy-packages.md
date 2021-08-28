@@ -12,22 +12,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: ポリシー パッケージをユーザーとグループに割り当てるさまざまな方法についてMicrosoft Teams。
+description: グループ内のユーザーとグループにポリシー パッケージを割り当てるさまざまな方法についてMicrosoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 6fb97dd96718b7ba909a05161a36092600d47b38ad1478f8608919861c6e1c91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 711e0fd321dd9eff16ad37d0f662c9f72159a955
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288346"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601202"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>ユーザーとグループにポリシー パッケージを割り当てる
 
-この記事では、ユーザーとグループにポリシー パッケージを割り当てるさまざまな方法についてMicrosoft Teams。 この記事を読む前に、「ポリシーの割り当て - [Teams」を参照してください](policy-assignment-overview.md)。
+この記事では、グループ内のユーザーとグループにポリシー パッケージを割り当てるさまざまな方法についてMicrosoft Teams。 この記事を読む前に、「ポリシーの割り当て - [Teams」を参照してください](policy-assignment-overview.md)。
 
 > [!NOTE]
 > カスタム ポリシー パッケージの割り当てを受け取るには、各ユーザーに Advanced Communications アドオンが必要です。 詳細については、「[Microsoft Teams 用 Advanced Communications アドオン](/microsoftteams/teams-add-on-licensing/advanced-communications)」を参照してください。
@@ -92,7 +92,7 @@ Teams のポリシー パッケージは、組織内で同じまたは類似の�
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>ポリシー パッケージをユーザーのグループに割り当てる
 
-[Grant-CsGroupPolicyPackageAssignment](/powershell/module/teams/grant-csgrouppolicypackageassignment)コマンドレットを使用して、ポリシー パッケージをグループに割り当てる。 オブジェクト ID、SIP アドレス、または電子メール アドレスを使用して、グループを指定できます。 ポリシー パッケージを割り当てるときに、ポリシー パッケージのポリシーの種類ごとに[(](assign-policies-users-and-groups.md#group-assignment-ranking)グループ割り当てのランク付け ) を指定します。
+[Grant-CsGroupPolicyPackageAssignment](/powershell/module/teams/grant-csgrouppolicypackageassignment)コマンドレットを使用して、ポリシー パッケージをグループに割り当てる。 オブジェクト ID、SIP アドレス、または電子メール アドレスを使用して、グループを指定できます。 ポリシー パッケージを割り当てるときに、ポリシー パッケージ内のポリシーの種類ごとに[(](assign-policies-users-and-groups.md#group-assignment-ranking)グループ割り当てのランク付け ) を指定します。
 
 この例では、Education_Teacher ポリシー パッケージをグループに割り当て、TeamsAppSetupPolicy と TeamsMeetingBroadcastPolicy には 1 のランク付け、TeamsMeetingPolicy には 2 のランク付けを行います。
 

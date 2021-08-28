@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: このセクションのトピックでは、Skype for Business Server を計画して展開し、組織内のユーザー数を適切に計画し、アクティビティが生成するサーバー負荷を計画する方法を理解するのに役立ちます。
-ms.openlocfilehash: aaa34d4ec935735215da36d888ab3c5155f158b89fd366546eac14b3f6259482
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 090d209d1b60d866ddabe976ffb8b04394712525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277642"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600892"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>2019 年のSkype for Business Server計画
 
@@ -179,12 +179,12 @@ Microsoft は、パフォーマンス テスト中にデータベース サー�
 
 **推奨されるディスク構成**
 
-|**ドライブ** <br/> |**RAID 構成** <br/> |**ディスクの数** <br/> |
+|**Drive** <br/> |**RAID 構成** <br/> |**ディスクの数** <br/> |
 |:-----|:-----|:-----|
 |単一ドライブ上の CDR、QoE、およびアーカイブ データベース データ ファイル  <br/> |1+0  <br/> |16   <br/> |
-|CDR データベースのログ ファイル  <br/> |1  <br/> |2  <br/> |
-|QoE データベースのログ ファイル  <br/> |1  <br/> |2  <br/> |
-|データベース ログ ファイルのアーカイブ  <br/> |1  <br/> |2  <br/> |
+|CDR データベースのログ ファイル  <br/> |1   <br/> |2   <br/> |
+|QoE データベースのログ ファイル  <br/> |1   <br/> |2   <br/> |
+|データベース ログ ファイルのアーカイブ  <br/> |1   <br/> |2   <br/> |
 
 ## <a name="video-interop-server-capacity"></a>ビデオ相互運用サーバーの容量
 
