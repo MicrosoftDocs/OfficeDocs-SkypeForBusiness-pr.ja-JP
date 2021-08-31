@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: c8f0be7df08524e4ab4b95375198a93781a77418
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25d66dfc6487d411185e421a7bdef07c1e135156
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629329"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730646"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -37,7 +37,7 @@ ms.locfileid: "58629329"
 
 匿名参加を許可した場合、会議への招待状に含まれるリンクをクリックすると、誰でも匿名ユーザーとして会議に参加することができます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 これらの変更を行うには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
@@ -47,7 +47,7 @@ ms.locfileid: "58629329"
 
 3. [**参加者**] の下で、[**匿名ユーザーが会議に参加できます**] をオンにします。
 
-    ![管理センターでの会議の参加者設定のスクリーンショット](media/meeting-settings-participants.png "Microsoft Teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
+    ![管理センターでの会議の参加者設定のスクリーンショット。](media/meeting-settings-participants.png "Microsoft Teams 管理センターでの Teams 会議の参加者設定のスクリーンショット")
 
 > [!CAUTION]
 > 組織のユーザーがスケジュールを行った会議に匿名ユーザーを参加させないようにするには、この設定をオフにします。
@@ -59,7 +59,7 @@ ms.locfileid: "58629329"
 > [!IMPORTANT]
 > 既定では、匿名ユーザーが会議でアプリを操作できるようにする設定が有効になっています。
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 この設定にアクセスするには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
@@ -86,13 +86,13 @@ ms.locfileid: "58629329"
 
 ### <a name="customize-your-meeting-invitations"></a>会議の招待状をカスタマイズする
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 管理センターにアクセスします。
 2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
 3. [**招待メール**] で、次の操作を行います。
 
-    ![カスタマイズ可能な会議の招待状設定のスクリーンショット](media/meeting-settings-invitation.png "Teams 会議用のカスタマイズ可能な会議の招待状設定のスクリーンショット")
+    ![カスタマイズ可能な会議の招待状設定のスクリーンショット。](media/meeting-settings-invitation.png "Teams 会議用のカスタマイズ可能な会議の招待状設定のスクリーンショット")
 
     - [**ロゴ URL**] ロゴの保存場所の URL を入力します。
     - [**法的事項の URL**] 法的な質問があるユーザーを誘導することができる、法的事項が記載されている Web サイトが組織にある場合は、こちらに URL を入力します。
@@ -111,12 +111,12 @@ ms.locfileid: "58629329"
 > [!IMPORTANT]
 > QoS を有効にするか Microsoft Teams サービスに関する設定を Microsoft Teams 管理センターで変更するには、[すべてのユーザー デバイスおよびすべての内部ネットワーク デバイスに対して対応する設定を適用](QoS-in-Teams-clients.md)して、Teams で QoS への変更を完全に実装する必要があります。
 
- ![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+ ![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 1. 管理センターにアクセスします。
 2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
 3. [**ネットワーク**] で、以下の手順を実行します。
 
-    ![管理センターでの会議のネットワーク設定のスクリーンショット](media/meeting-settings-network.png "Microsoft Teams 管理センターでの Teams 会議のネットワーク設定のスクリーンショット")
+    ![管理センターでの会議のネットワーク設定のスクリーンショット。](media/meeting-settings-network.png "Microsoft Teams 管理センターでの Teams 会議のネットワーク設定のスクリーンショット")
 
     - DSCP マーキングを QoS で使用できるようにするには、[**リアルタイム メディア トラフィックのサービスの品質 (QoS) マーカーを挿入する**] をオンにします。 選択できるのは、マーカーを使用するか使用しないかのどちらかです。トラフィックの種類ごとにカスタム マーカーを設定することはできません。 DSCP マーカーの詳細については、「[QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)」を参照してください。
         > [!NOTE]

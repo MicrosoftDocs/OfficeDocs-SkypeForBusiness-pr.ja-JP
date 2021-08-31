@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c96412e93029858c5444d662e7db3e65224a21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578351"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729816"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -158,7 +158,7 @@ SDS は2つのステップでチームを作成します。 最初のステッ�
 
 このハイブリッドアプローチでは、SDS を使用して各クラスのグループを作成するか（推奨）、または[Graph API ](/graph/api/educationroot-post-classes)を使用して独自にグループを作成できます。 クラスグループの準備ができましたら、教育者は、[**推奨クラス**]アイコンを使用してグループをチームに変換できます。
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="推奨クラスアイコンを示すスクリーンショット":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="推奨クラスアイコンを示すスクリーンショット。":::
 
 ##### <a name="benefits"></a>利点
 

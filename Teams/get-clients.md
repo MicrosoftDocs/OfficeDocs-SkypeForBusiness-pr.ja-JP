@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c11ccbac11b546aa53e6d66625f12b12f86483b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5975bfc6f0e93580ebdee3ce7f564efa9c380d99
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608964"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729956"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する
 
@@ -207,8 +207,8 @@ Microsoft Teams モバイル アプリをサポートしているモバイル �
 
 | | | |
 |---|---|---|
-|![判断ポイントを表すアイコン](media/Get_clients_for_Microsoft_Teams_image4.png)|判断ポイント|ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?|
-|![次のステップを表すアイコン](media/Get_clients_for_Microsoft_Teams_image5.png)|次のステップ|組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。|
+|![判断ポイントを表すアイコン。](media/Get_clients_for_Microsoft_Teams_image4.png)|判断ポイント|ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?|
+|![次のステップを表すアイコン。](media/Get_clients_for_Microsoft_Teams_image5.png)|次のステップ|組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。|
 |
 
 ## <a name="client-update-management"></a>クライアントの更新管理

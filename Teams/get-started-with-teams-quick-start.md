@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630211"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729226"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 
@@ -43,7 +43,7 @@ ms.locfileid: "58630211"
 - [会議および通信会議](deploy-meetings-microsoft-teams-landing-page.md)
 - [クラウド ボイス](cloud-voice-landing-page.md)
 
-![Teams の展開経路を示す図](media/get-started-with-teams-quick-start-pathways.png)
+![Teams の展開経路を示す図。](media/get-started-with-teams-quick-start-pathways.png)
 
 中規模または大規模の組織の場合は、[Teams のアドバイザーを使用して、Microsoft Teams の展開を支援](use-advisor-teams-roll-out.md)し、組織全体でのこれらのワーク ロードの展開を計画するのに役立ててください。 アドバイザーは、Teams 自体を使用して計画タスクを作成し、それらを所有者に割り当て、ドキュメントを共有し、展開チーム間でのディスカッションを可能にします。
 
