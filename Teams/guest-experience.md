@@ -19,22 +19,22 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: この記事では、ゲストが利用できる Microsoft Teams の機能性について説明します。
-ms.openlocfilehash: 2469fe840d09708187c47671335992021c4b60b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632141"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729616"
 ---
 # <a name="guest-experience-in-teams"></a>Teams でのゲスト エクスペリエンス
 
 ゲストがチームに参加するように招待されると、「ようこそ」メール メッセージが届きます。 このメッセージには、チームに関するいくつかの情報と、メンバーとして想定されることが記載されています。 ゲストは、チームとそのチャネルにアクセスする前に、メール メッセージで **[Microsoft Teams を開く]** を選択して、招待を承諾する必要があります。
     
-![「ようこそ」メール メッセージの例を示したスクリーン ショット](media/guest-experience-image1.png)
+![ようこそメール メッセージの例を示すスクリーンショット。](media/guest-experience-image1.png)
     
 すべてのチーム メンバーは、チーム所有者がゲストを追加した旨およびそのゲストの名前を知らせるメッセージを確認することができます。 チームのメンバー全員がゲストが誰であるかを簡単に判断できます。 チャネル スレッドの右上隅にあるタグは、チームのゲストの数を示し、 (**ゲスト**) ラベルが各ゲストの名前の横に表示されます。
 
-![チームのゲスト数を表示するタグを示すスクリーン ショット](media/guest-experience-image2.png)
+![チームのゲスト数を示すタグを示すスクリーンショット。](media/guest-experience-image2.png)
 
 Teams でのゲストエクスペリエンスに関する次のビデオをご確認ください。
 - [ゲストとしてチームに参加する](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

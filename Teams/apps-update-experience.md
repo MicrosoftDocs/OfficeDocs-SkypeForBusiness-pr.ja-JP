@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: アプリを更新する方法については、Microsoft Teams。
-ms.openlocfilehash: 156bafa45fe51884d6697bb4121143fad98fc7cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0755c505a25d4c858afd104331d193edd8b2b27c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593171"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726206"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Microsoft Teams でアプリを更新する
 
-ほとんどの場合、アプリ開発者がアプリの更新プログラムを発行すると、ユーザーの新しいバージョンが自動的に表示されます。 ただし、完了するためにユーザーの受け入れを<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">必要Microsoft Teamsマニフェスト</a>にはいくつかの更新があります。
+ほとんどの場合、アプリ開発者がアプリの更新プログラムを発行すると、ユーザーの新しいバージョンが自動的に表示されます。 ただし、完了するためにユーザーの受け入れを必要Microsoft Teams<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">マニフェスト</a>には、いくつかの更新があります。
 
 * ボットが追加または削除されました
 * 既存のボットの "botId" プロパティが変更されました
@@ -37,13 +37,13 @@ ms.locfileid: "58593171"
 * 新しいコネクタが追加されました
 * "webApplicationInfo" 内のプロパティが変更されました
 
-![利用可能な新しいバージョン](media/manage-your-custom-apps-update1.png)
+![新しいバージョンを使用できます。](media/manage-your-custom-apps-update1.png)
 
-![アプリのアップグレード オプション](media/manage-your-custom-apps-update2.png)
+![アプリのアップグレード オプション。](media/manage-your-custom-apps-update2.png)
 
 > [!NOTE] 
-> 更新プロセスは、Microsoft アプリ、カスタム アプリ、およびサード パーティ製アプリのすべてのアプリ更新プログラムに適用されます。 
+> 更新プロセスは、Microsoft アプリ、カスタム アプリ、サード パーティ製アプリのすべてのアプリ更新プログラムに適用されます。 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [アプリを管理する](manage-apps.md)

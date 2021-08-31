@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Microsoft Operations Management Suite (OMS) を使用してクラウド コネクタ バージョン 2.1 以降の展開を監視する方法については、このトピックを参照してください。
-ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627729"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729026"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Operations Management Suite (OMS) を使用したクラウド コネクタの監視
 
@@ -55,7 +55,7 @@ OMS を使用してクラウド コネクタの展開を監視する前に、次
 
 OMS を使用するには、クラウド コネクタのオンプレミス環境を構成する必要があります。 これを行うには、OMS ワークスペース ID とキーが必要になります。OMS ポータルを使用すると、設定 -- \> Connected Sources -- Windows サーバーを使用します \> 。
 
-![クラウド コネクタ OMS のスクリーン ショット](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
+![クラウド コネクタ OMS のスクリーン ショット。](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
 OMS を使用するクラウド コネクタの構成方法は、シナリオによって異なります。
 

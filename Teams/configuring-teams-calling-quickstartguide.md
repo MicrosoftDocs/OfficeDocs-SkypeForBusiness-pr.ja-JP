@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ab563bb4acd4ea79c35b90dc691bd95f506e5acd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a222dd7734fd8df3885b0601a5e511d1936922a3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593151"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726416"
 ---
 # <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>クイック スタート ガイド: Microsoft Teams での通話プランの設定
 
@@ -35,9 +35,9 @@ Teams の通話プランに関する 2017 年 12 月 12 日付けの発表「[In
 > [!NOTE]
 > 展開を成功させるため、このクイック スタート ガイドとともに、「[通話プランが設定された電話システム](calling-plan-landing-page.md)」と「[FastTrack](https://aka.ms/cloudvoice)」をご覧になることをお勧めします。
 
-Skype for Business を利用した通話プラン (Microsoft 365 および Office 365 機能) を追加することで、Teams を使用して、公衆交換電話網 (PSTN) を介して、固定電話や携帯電話を送受信できます。
+Skype for Business を利用した通話プラン (Microsoft 365 および Office 365 機能) を追加することで、Teams を使用して、公衆交換電話網 (PSTN) を介して、固定電話と携帯電話の間で通話を送受信できます。
 
-![Teams の [連絡先] ページを示すスクリーンショット](media/Calling_in_Teams.png)
+![[連絡先] ページを示すスクリーン Teams。](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Teams の [**通話**] タブを有効にするための前提条件
 Teams の [**通話**] を有効にするには、Teams で 1:1 の通話を有効にする必要があります。また、Teams の 1:1 の通話をサポートする Teams クライアントを使用する必要があります。 Teams で 1:1 の通話を管理する方法の詳細については、「[Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)」を参照してください。 通話をサポートしているクライアントの詳細については、「[Microsoft Teams の制限事項と仕様](./limits-specifications-teams.md)」を参照してください。
 

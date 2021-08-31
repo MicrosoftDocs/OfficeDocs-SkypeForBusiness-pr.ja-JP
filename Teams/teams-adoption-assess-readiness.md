@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 関係者を評価し、早期導入者を特定し、組織が新しい組織に移行する準備ができているTeams。
+description: 関係者を評価し、早期採用者を特定し、組織が新しい組織に移行する準備ができているTeams。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2bd70c0b46d48333552a862ab26a763cfe5473d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd526f78a04bc71b2992aa8f3f0bcd15b3b77df0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613566"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726766"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Microsoft Teams に対する組織の準備状況について
 
@@ -44,7 +44,7 @@ ms.locfileid: "58613566"
 2. 現在のテクノロジに対するこのリーダーの満足度を評価します。
 3. このリーダーは、未評価のテクノロジを使用して結果を加速したり、チーム メンバーのエクスペリエンスを向上させるつもりですか。
 4. このリーダーは、重要なビジネス成果を出すという大きなプレッシャーを受け取っていますか? 
-5. このリーダーは、移行を支援するために、Teamsの経験を示すでしょうか。
+5. このリーダーは、移行を支援するために、Teamsの経験を広めるつもりですか?
 6. このリーダーは、既存のプロジェクト チームの主要メンバーと肯定的な関係を持っていますか。
 7. このリーダーは、組織内の "変化のエージェント" と見なされるのが好きですか?  
 
@@ -64,7 +64,7 @@ ms.locfileid: "58613566"
 - グループと彼らの観察と学習を共有する
 - リスクを引き受け、つまり、動作を確認するために何かを試す必要があります。
 
-Microsoft 365 または Office 365 で単純なフォームを使用して、これらのユーザーが早期導入者プログラムに参加Teams。 組織の規模と複雑さによっては、実験フェーズでこれらの個人の一部またはすべてが有効にすることもできます。 このプログラムでは、実験フェーズに積極的に参加し、プロジェクト チームに定期的なフィードバックを提供することに同意しています。 新しいテクノロジを試用したいユーザーは避けます。 このアクティブなフィードバックを提供することで、プロジェクトの成果を生み出す助けになります。 このユーザーのリストは、フェーズ [2 - 実験で使用します](teams-adoption-phase2-experiment.md)。
+Microsoft 365 または Office 365 で簡単なフォームを使用して、これらのユーザーが早期導入者プログラムに参加Teams。 組織の規模と複雑さによっては、実験フェーズでこれらの個人の一部またはすべてが有効にすることもできます。 このプログラムでは、実験フェーズに積極的に参加し、プロジェクト チームに定期的なフィードバックを提供することに同意しています。 新しいテクノロジを試用したいユーザーは避けます。 このアクティブなフィードバックを提供することで、プロジェクトの成果を生み出す助けになります。 このユーザーのリストは、フェーズ [2 - 実験で使用します](teams-adoption-phase2-experiment.md)。
 
 早期導入者プログラム ガイドは、お客様の環境でこのプログラムを開始する場合に役立つリソースです。  
  
@@ -72,7 +72,7 @@ Microsoft 365 または Office 365 で単純なフォームを使用して、こ
 
 変化は、テクノロジとは関係ない人間のプロセスです。 変化に対する自然な抵抗について私たちを教育する行動の心理と脳科学があります。 変更を許容可能にするには、ユーザーのニーズを予測し、状況を理解し、その状況を改善するソリューションを作成する必要があります。 その場合でも、変化に対する自然な抵抗が発生します。  
 
-![Graphに対する抵抗を示す図](media/teams-adoption-resistance.png)
+![Graphに対する抵抗を示しています。](media/teams-adoption-resistance.png)
 
 各組織のアプローチは、地域、作業スタイル、プロフェッショナル プロファイル、組織のその他の要素によって異なります。 組織の準備状況を評価するには、「組織の変更の準備 [状況を評価する」を参照してください](upgrade-org-change-readiness.md)。 ガイドラインを使用して、次の質問に回答します。
 
@@ -104,4 +104,4 @@ Microsoft 365 または Office 365 で単純なフォームを使用して、こ
 
 内部チャンピオンを使用して、さまざまな変更の種類がある問題に対処できます。 ここで、フィードバックは成功の鍵です。課題やニーズを共有する必要があります。 実験中にこれらの個人またはグループにテーブルの席を与えることによって、中断者や反対者を抱きしめる。 このベスト プラクティスは、コラボレーションの改善をスムーズに広範に展開するための道を開くでしょう。  
 
-![次の手順を表すアイコン ](media/teams-adoption-next-icon.png) 次: Microsoft Teams[導入フェーズ 2: 実験](teams-adoption-phase2-experiment.md) 
+![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [Microsoft Teams導入フェーズ 2: 実験](teams-adoption-phase2-experiment.md) 

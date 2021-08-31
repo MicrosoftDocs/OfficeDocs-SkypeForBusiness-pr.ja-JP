@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: このトピックでは、効率的でコスト効率の高い通話ルーティングを実現するためにクラウド コネクタ エディション PSTN サイトを計画する方法について説明します。
-ms.openlocfilehash: 54f8ec9f89c6a3ef88b5ac8e70e9eebfd2968d2d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 50b30a5071dd14cc0016419d85406b7c50d85387
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616333"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729236"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>クラウド コネクタ エディション PSTN サイトの計画
 
@@ -74,7 +74,7 @@ Redmond (Data Center A) のユーザー A と Bellevue (Data Center B) のユー
   
 したがって、ユーザー A と B、および Bellevue と Redmond のクラウド コネクタ トランクは、次の図に示すように、同じクラウド コネクタ PSTN サイトにある可能性があります。 あるオフィスのユーザーからの緊急通話は、もう一方のオフィスのトランクにルーティングできます。 ただし、これが機能する場合は、通信事業者に確認する必要があります。
   
-![PSTN サイトを設定する方法](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
+![PSTN サイトを設定する方法。](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   
 次の例も考慮してください。
   

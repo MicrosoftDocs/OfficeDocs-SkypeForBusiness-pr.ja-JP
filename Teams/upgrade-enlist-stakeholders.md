@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21e08060c61e78919e514a099413f6d70380cf11
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56a0c236b1fcbae2765c28ddcff424009b57b099
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600922"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729445"
 ---
 # <a name="enlist-your-project-stakeholders"></a>プロジェクト関係者に協力を求める
 
-![アップグレード体験の関係者の状態を示す図](media/upgrade-banner-stakeholders.png "プロジェクト関係者のチームの収集に重点を置いたアップグレード体験のステージ")
+![アップグレード体験の関係者の状態を示す図。](media/upgrade-banner-stakeholders.png "プロジェクト関係者のチームの収集に重点を置いたアップグレード体験のステージ")
 
 この記事は、アップグレード体験の Projectの関係者ステージの一部であり、プロジェクトの成功のために完了する最初の最も重要なアクティビティです。
 
@@ -42,8 +42,8 @@ ms.locfileid: "58600922"
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント | <ul><li>Whoプロジェクトの利害関係者チームとして適切な人はいますか?</li></ul> |
-| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>プロジェクトの範囲を検討し、関連する利害関係者を割り当てる。</li><li>次の表をガイドラインとして使用しますが、この一覧がすべて含まれるという点に注意してください。<br><strong>ヒント</strong><br>責任ある責任を負う情報に基づいた [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) マトリックスを作成して、責任を負うユーザーと、単にプロジェクトの特定の領域で情報を得る必要があるユーザーをさらに区別します。</li> |
+| ![決定ポイントを示すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント | <ul><li>Whoプロジェクトの利害関係者チームとして適切な人はいますか?</li></ul> |
+| ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順 | <ul><li>プロジェクトの範囲を検討し、関連する利害関係者を割り当てる。</li><li>次の表をガイドラインとして使用しますが、この一覧がすべて含まれるという点に注意してください。<br><strong>ヒント</strong><br>責任ある責任を負う情報に基づいた [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) マトリックスを作成して、責任を負うユーザーと、単にプロジェクトの特定の領域で情報を得る必要があるユーザーをさらに区別します。</li> |
 | <li>運営委員会を作成し、必要に応じて役割を割り当てるかどうかを決定します。</li></ul> | |
 
 | 役割 | 責任 |
@@ -63,10 +63,10 @@ ms.locfileid: "58600922"
 | テレフォニー リード | テレフォニーの設計と実装に関する分析情報を提供します |
 | サービス所有者/品質チャンピオン | ユーザー エクスペリエンスの品質Teams、すべてのユーザーの操作を所有します。 |
 | デスクトップとデバイスのリード | クライアント、デバイス、デスクトップ アプリへの入力を提供します |
-| IT Pro/テナント管理者 | ネットワークの準備と構成Microsoft 365 管理センターを確保する |
+| IT Pro/テナント管理者 | ネットワークの準備と構成Microsoft 365 管理センター確認します。 |
 | サポート/ヘルプ デスク リード | サポート デスクの準備を管理します |
 | Change Management Lead | ユーザー変更管理と導入プログラムを監視する |
 | マーケティング リード | コミュニケーション キャンペーンの設計と実装 |
 | トレーニング リード | トレーニング計画の設計と実装 |
 
-関係者を集めたら、次の手順に進みます。プロジェクト スコープ [を定義します](./upgrade-define-project-scope.md)。
+関係者を収集した後、次の手順に進みます。プロジェクト スコープ [を定義します](./upgrade-define-project-scope.md)。

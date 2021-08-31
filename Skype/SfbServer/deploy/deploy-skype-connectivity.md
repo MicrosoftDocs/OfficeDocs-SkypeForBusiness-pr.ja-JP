@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: ユーザーとコンシューマーを接続Skype for Business ServerするSkypeします。 また、接続のSkype呼び出されます。'
-ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 467d87968e7e5b0357e8d23b578a511adb281e27
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605546"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729886"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>ネットワークSkype接続を展開Skype for Business Server
 
@@ -126,13 +126,13 @@ Skype for Business オンプレミス展開と Skype 間のフェデレーショ
 2006 年に展開されたパブリック IM (PIC) プロビジョニング メカニズム (pic.lync.com) はサービスを提供できなくなったので、2019 年 8 月 15 日にシャットダウンされます。 代わりに、パブリック IM フェデレーションは、Skype for Business Online で使用されるのと同じフェデレーション モデル ("パートナー検出" と呼ばれる) を前提とします。この場合、オンプレミス展開はフェデレーション DNS SRV レコードによって一般に検出できます。
 
 **この変更は、パブリック IM フェデレーションが廃止されるという意味ですか?**
-その必要はありません。 パブリック IM フェデレーションは、おそらくオンプレミス製品がSkype for Businessまで、何年もサポートされ続けます。
+いいえ。 パブリック IM フェデレーションは、おそらくオンプレミス製品がSkype for Businessまで、何年もサポートされ続けます。
 
 **弊社は、オンラインとハイブリッド関係 (共有アドレス空間) をSkype for Business影響を受けるか?**
 いいえ、オンラインで既にフェデレーションを行Skype for Business、この変更は影響を受け取らなくなっています。
  
 **この変更は、会社がオンラインとフェデレーションを有効にする必要Skype for Businessですか?**
-その必要はありません。 エッジ サーバープロキシ設定で Skype for Business Online ホスティング プロバイダー (sipfed.online.lync.com) とのフェデレーションを有効にしない場合、この変更は影響しません。 ただし、Skype for Business Online とのフェデレーションに適用されるのと同じ DNS 要件と証明書要件は、Skype ユーザーとのフェデレーションにも適用されます。
+いいえ。 エッジ サーバープロキシ設定で Skype for Business Online ホスティング プロバイダー (sipfed.online.lync.com) とのフェデレーションを有効にしない場合、この変更は影響しません。 ただし、Skype for Business Online とのフェデレーションに適用されるのと同じ DNS 要件と証明書要件は、Skype ユーザーとのフェデレーションにも適用されます。
  
 **当社は大規模で、規制/コンプライアンス/その他の理由によりエッジ構成を変更できません。.何ができますか?**
 指定したエッジ サーバー構成を変更できないオンプレミス組織は、できるだけ早く製品サポートに連絡する必要があります。
@@ -158,7 +158,7 @@ Skype for Business オンプレミス展開と Skype 間のフェデレーショ
   
 フェデレーションは、ユーザーが組織内Skypeユーザーと通信Skype for Business必要です。 パブリック インスタント メッセージング接続 (PIC) はフェデレーションのクラスであり、Skype for Business Server ユーザーがユーザーと通信Skype必要があります。 フェデレーションと PIC は、図に示すように、Skype for Business Serverコントロール パネルの [エッジ構成] ダイアログを使用して構成されます。
   
-![新しいエッジ プールの定義](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
+![新しいエッジ プールを定義します。](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
   
 > [!NOTE]
 > 検索が機能するには、EnableSkypeIdRouting 属性と EnableSkypeDirectorySearch 属性をパブリック プロバイダー設定 (後の手順を参照) で true に設定する必要があります。 
@@ -178,7 +178,7 @@ Skype for Business オンプレミス展開と Skype 間のフェデレーショ
   
 新しいインストールでは、図に示Skype Skype コントロール パネルを使用して Skype パブリック プロバイダーを有効にすることで、Skype for Business Server Connectivity を構成できます。
   
-![SIP フェデレーション プロバイダー](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
+![SIP フェデレーション プロバイダー。](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
   
 > [!NOTE]
 > サーバーにアップグレードSkype接続を構成するにはSkype for Business Server既存のパブリック プロバイダーを削除してSkypeする必要があります。 

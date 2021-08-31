@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: クラウド PBX Skype for Business クラウド コネクタ エディションオンプレミス PSTN 接続を実装するパッケージ化された仮想マシン (VM) のセットである 電話システムについて説明します。
-ms.openlocfilehash: 65e1d78a894b967391f44d6859c7fe50f42a7145
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bff341213e9426f72fc0a78a9076b5b784871106
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628459"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728806"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>計画を立Skype for Business クラウド コネクタ エディション
 
@@ -106,7 +106,7 @@ ms.locfileid: "58628459"
 
 Cloud Connector Edition では、エッジ コンポーネント、仲介コンポーネント、および中央管理ストア (CMS) の役割で構成される最小限の Skype for Business Server トポロジを含むパッケージ化された VM のセットを展開します。 また、クラウド コネクタの内部機能に必要なドメイン コントローラーもインストールします。 これらのサービスは、オンライン サービスを含むMicrosoft 365組織Office 365ハイブリッドSkype for Business構成されます。
 
-![Cloud Connector Edition コンポーネント](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
+![Cloud Connector Edition コンポーネント。](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
 クラウド コネクタ コンポーネントは、次の機能を提供します。
 
@@ -182,7 +182,7 @@ Cloud Connector Edition では、エッジ コンポーネント、仲介コン�
 
 次の図は、1 つの PSTN サイト内の単一のクラウド コネクタ エディション アプライアンスを示しています。 クラウド コネクタは、セキュリティを目的として境界ネットワーク内にある 1 台の物理ホスト マシンにインストールされた 4 つの VM で構成されます。
 
-![1 つの PSTN サイトを持つ 1 つのクラウド コネクタ](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
+![1 つの PSTN サイトを持つ 1 つのクラウド コネクタ。](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
 
 ### <a name="multiple-cloud-connector-appliances-within-a-single-pstn-site"></a>1 つの PSTN サイト内の複数のクラウド コネクタ アプライアンス
 
@@ -200,7 +200,7 @@ Cloud Connector Edition では、エッジ コンポーネント、仲介コン�
 
     クラウド コネクタの小規模バージョンでは、N+2 ボックスは 99.9% の可用性で 50 N の同時呼び出 \* しをサポートします。
 
-![1 PSTN サイト内の 2 つのクラウド コネクタ](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
+![1 PSTN サイト内の 2 つのクラウド コネクタ。](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
 
 ### <a name="multiple-pstn-sites-with-one-or-more-cloud-connectors-per-site"></a>サイトごとに 1 つ以上のクラウド コネクタを持つ複数の PSTN サイト
 
@@ -208,7 +208,7 @@ Cloud Connector Edition では、エッジ コンポーネント、仲介コン�
 
 複数の PSTN サイトを使用すると、ユーザーに最も近いゲートウェイへの接続を提供できます。 たとえば、シアトルとアムステルダムに PSTN ゲートウェイがあるとします。 2 つの PSTN サイト (1 つはシアトル、1 つはアムステルダム) を展開し、最も近い PSTN サイトを使用するユーザーを割り当てできます。 シアトルからのユーザーはシアトルの PSTN サイトとゲートウェイにルーティングされ、アムステルダムのユーザーはアムステルダムの PSTN サイトとゲートウェイにルーティングされます。
 
-![2 つの PSTN サイト内のクラウド コネクタ エディション](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
+![2 つの PSTN サイト内のクラウド コネクタ エディション。](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
 
 ## <a name="requirements-for-deployment"></a>展開の要件
 <a name="BKMK_Requirements"> </a>
@@ -486,7 +486,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |SiteName  <br/> |Skype for Businessサイト名。たとえば、Seattle。  <br/> ファイルの.ini: "SiteName"  <br/> リリース 1.4.1 以降の場合、サイト名はサイトごとに異なる必要があります。名前は、Microsoft 365 または Office 365 で定義されている PSTN サイトと一致する必要があります。 サイトに最初のアプライアンスを登録すると、PSTN サイトが自動的に作成されます。  <br/> ||
 |HardwareType  <br/> リリース 1.4.1 以降  <br/> |ハードウェアの種類。 既定値は標準です。 また、Minimum に設定できます。  <br/> ||
 |Country Code  <br/> |ダイヤルの国コード。  <br/> ファイル内の.ini: "CountryCode"  <br/> ||
-|都市  <br/> |City (省略可能)。  <br/> ファイルの.ini: "City"  <br/> ||
+|市区町村  <br/> |City (省略可能)。  <br/> ファイルの.ini: "City"  <br/> ||
 |状態  <br/> |状態 (省略可能)。  <br/> ファイルの.ini: "State"  <br/> ||
 |基本 VM IP アドレス  <br/> |すべてのクラウド コネクタ仮想マシンの VHDX の作成に使用される一時的な基本 VM の IP アドレス。 この IP は、次の手順で定義されている境界企業ネットワーク サブネットと同じであり、インターネット アクセスが必要です。 企業の既定のゲートウェイと、インターネットにルーティング可能な DNS を必ず定義してください。  <br/> ファイルの.ini: "BaseVMIP"  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> リリース 1.4.1 以降  <br/> |Microsoft Update から更新Windows Server Update Servicesホストするイントラネット サーバーである、WSUS のアドレスです。  <br/> WSUS が必要ない場合は、空白のままにできます。  <br/> ||
@@ -647,7 +647,7 @@ SIP ドメインごとに sip.sipdomain.com を追加し、ドメインごとに
 
 6. 仲介コンポーネントは、トラフィックを PSTN ゲートウェイに送信します。
 
-![クラウド コネクタの送信メディア フロー](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
+![クラウド コネクタの送信メディア フロー。](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
 
 次の図では、内部ユーザーが次のように受信呼び出しを受信します。
 
@@ -663,7 +663,7 @@ SIP ドメインごとに sip.sipdomain.com を追加し、ドメインごとに
 
 6. メディア トラフィックは、ゲートウェイ コンポーネントと仲介コンポーネントの間、仲介コンポーネントとエンド ポイントの間で確立されます。
 
-![クラウド コネクタFlow受信メディア の設定](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
+![受信メディア Flowクラウド コネクタ用です。](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
 
 ## <a name="monitoring-and-troubleshooting"></a>監視とトラブルシューティング
 <a name="BKMK_Monitor"> </a>

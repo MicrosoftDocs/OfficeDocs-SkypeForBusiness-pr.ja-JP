@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Microsoft Teams 管理センターで Teams ライブ イベント使用状況レポートを使用して、組織内のライブ イベント アクティビティTeams概要を取得する方法について説明します。
+description: Microsoft Teams 管理センターで Teams ライブ イベント使用状況レポートを使用して、組織内の Teams ライブ イベント アクティビティの概要を取得する方法について説明します。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ea415e849f4255b38432d227a9d26452b3fc9275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d9f11e64daf1b530704d79c512e5741cda18a48
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631211"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729556"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teamsイベント使用状況レポートを作成する
 
@@ -30,12 +30,12 @@ Teams センターのライブ イベント使用状況レポートMicrosoft Tea
 
 ## <a name="view-the-live-event-usage-report"></a>ライブ イベント使用状況レポートを表示する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [レポートの **表示] タブの**[レポート **] で**、[ライブ イベントTeams **を選択します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [レポート **の表示] タブの**[レポート **] で**、[ライブ イベントTeams **を選択します**。
 2. [ **日付範囲] で**、定義済みの範囲を選択するか、ユーザー設定の範囲を設定します。 現在の日付の前と後に最大 1 年、6 か月のデータを表示する範囲を設定できます。
 3. (省略可能)[ **開催者**] で、特定のユーザーによって編成されたライブ イベントのみを表示することができます。
 4. [レポートの **実行] をクリックします**。  
 
-    ![吹き出しTeams付き、Teamsのライブ イベント使用状況レポートのスクリーンショット](../media/teams-live-event-usage-report-with-callouts.png "吹き出しTeams付き、Teamsのライブ イベント使用状況レポートのスクリーンショット")
+    ![吹き出しTeams付き、管理センターのライブ イベントTeamsレポートのスクリーンショット。](../media/teams-live-event-usage-report-with-callouts.png "吹き出しTeams付き管理センターのライブ イベントTeamsレポートのスクリーンショット")
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
@@ -54,11 +54,11 @@ Teams センターのライブ イベント使用状況レポートMicrosoft Tea
 
 ライブ イベントの詳細ページには、ライブ イベントの詳細の概要が表示され、イベントに関連付けられているトランスクリプトや録音を含むすべてのファイルが一覧表示されます。 ファイル名をクリックして、ファイルを表示またはダウンロードします。
 
-![ライブ イベントの詳細を示すスクリーンショット](../media/teams-live-event-usage-report-event-detail.png)
+![ライブ イベントの詳細を示すスクリーンショット。](../media/teams-live-event-usage-report-event-detail.png)
 
 組織で [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN または [Analyticlective](https://kollective.com) eCDN が有効になっている場合は、パートナー レポートのリンクをクリックして、追加の出席者分析を取得できます。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams の分析とレポート](teams-reporting-reference.md)
 - [Teams のライブ イベントについて](../teams-live-events/what-are-teams-live-events.md)

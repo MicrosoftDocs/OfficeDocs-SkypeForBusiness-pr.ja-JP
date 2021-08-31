@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 次のセクションでは、ハイブリッド シナリオで機能を提供するために、リソース/ユーザー フォレスト モデルに複数のフォレストがある環境を構成する方法について説明します。
-ms.openlocfilehash: 146537c6b2ff51d6e2a68c0f4fbb59dfee55b1b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a6ca7c559a2c79979a44d8ca7c8555abf432b4d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625779"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727056"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>リソース フォレスト トポロジの展開
 
@@ -32,7 +32,7 @@ ms.locfileid: "58625779"
  
 次のセクションでは、ハイブリッド シナリオで機能を提供するために、リソース/ユーザー フォレスト モデルに複数のフォレストがある環境を構成する方法について説明します。 
   
-![ハイブリッド用マルチフォレスト環境](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
+![ハイブリッドのマルチフォレスト環境。](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## <a name="topology-requirements"></a>トポロジの要件
 
@@ -104,7 +104,7 @@ SIP/SMTP と UPN が一致する展開だけがテストされました。 SIP/S
   
 展開後、前に選択したソース アンカーと一致するクレーム ルールを編集する必要があります。 [AD FS MMC] の [証明書利用者信頼] で、[Microsoft 365 **ID プラットフォーム**] または [Microsoft Office 365 ID プラットフォーム]**を** 右クリックし、[クレーム ルールの編集] を **選択します**。 最初のルールを編集し、ObjectSID を **employeeNumber に変更します**。 
   
-![複数フォレストの [ルールの編集] 画面](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
+![複数フォレストの [ルールの編集] 画面。](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## <a name="configure-aad-connect"></a>AAD の構成Connect
 
@@ -114,7 +114,7 @@ Azure AD Connectは、アカウントフォレストとリソース フォレス
   
 完了すると、Azure AD Connectがマージされ、メタバース内のオブジェクトを確認すると、次のような何かが表示されます。 
   
-![マルチフォレスト Metaverse オブジェクト画面](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
+![マルチフォレストメタバース オブジェクト画面。](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
 緑の強調表示された属性は、Microsoft 365から結合され、黄色はユーザー フォレストから、青はリソース フォレストからの属性です。 
   

@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '概要: 2015 年に集中ログ サービス ログ キャプチャ セッションを開始または停止するSkype for Business Serverします。'
-ms.openlocfilehash: 8f21b4b63c4261443cf6749f1daf0b905b1adb11
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5ed9630f21e409c240871c981db6346d2d2d9599
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608060"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726956"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>2015 年に CLS ログ キャプチャを開始またはSkype for Business Serverする
  
@@ -121,7 +121,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Show-CsClsLogging
    ```
 
-   ![Windows PowerShell呼び出し後のコンソールShow-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Windows PowerShell Show-CsCl を呼び出した後、コンソールを使用します。](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
    Show-CsClsLogging の結果、現在実行中のシナリオの概要と、そのシナリオの実行スコープが表示されます。詳細については、「[Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps)」を参照してください。
     

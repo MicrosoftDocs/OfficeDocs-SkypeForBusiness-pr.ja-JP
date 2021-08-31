@@ -1,5 +1,5 @@
 ---
-title: サービスをアップグレードする準備をMicrosoft Teams
+title: サービスをアップグレードする準備を行Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a4b417876745042d6805c88de4a5b93cdc275c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd80e9bf911287800443a29c4a21674d11014d58
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621939"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727046"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>サービスをアップグレードする準備をTeams
 
-![技術準備段階が協調表示されたアップグレード行程図](media/upgrade-banner-tech-readiness.png "技術準備段階が強調表示された、アップグレード行程の各段階")
+![技術的な準備段階を強調したアップグレード体験図。](media/upgrade-banner-tech-readiness.png "技術準備段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、ユーザーの準備段階と並行して実行されるアクティビティである、アップグレードが行われる技術準備段階の一部です。 先に進む前に、前のステージからこれらのアクティビティを完了してください。
 
@@ -38,13 +38,13 @@ ms.locfileid: "58621939"
 - [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-この記事では、コラボレーションとクラウド音声サービスを使用して組織を準備するための要件の概要をTeams。 適切に準備することで、これらの機能を組織に提供する準備ができていることを確認できます。
+この記事では、組織がコラボレーションとクラウド音声サービスを使用するための準備を行う場合の要件の概要をTeams。 適切に準備することで、これらの機能を組織に提供する準備ができていることを確認できます。
 
 ## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>新しいロールアウトのオンボーディング チェックリストMicrosoft Teamsページ
 
 次のチェックリストとランディング ページでは、組織にデプロイする手順Microsoft Teams手順を説明します。
 
-- [準備Microsoft 365またはOffice 365準備Teams](onboarding-checklist-enable-office-365.md)
+- [Microsoft 365またはOffice 365を準備Teams](onboarding-checklist-enable-office-365.md)
 
 - [コア機能Teams構成する](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
@@ -57,7 +57,7 @@ ms.locfileid: "58621939"
 - [電話システム PSTN 接続オプション](cloud-voice-landing-page.md)
 
 
-これらのチェックリストのタスクとアクティビティは、コラボレーション機能と音声機能の展開に適用される主要な "To Do" 項目Teams。 チェックリストをカスタマイズして、独自のアクティビティ体験に固有のアクティビティやタスクTeamsできます。
+これらのチェックリストのタスクとアクティビティは、コラボレーション機能と音声機能の展開に適用される主要な "To Do" Teams。 チェックリストをカスタマイズして、独自のアクティビティ体験に固有のアクティビティやタスクTeamsできます。
 
 提供されているチェックリストを使用して、個々のアクティビティとタスクの状態を追跡し、重要な手順をスキップしていないか確認します。 各アクティビティには、必要なアクションの詳細な説明と、そのアクティビティを完了するために使用できる追加情報への参照が含まれています。
 
@@ -70,7 +70,7 @@ ms.locfileid: "58621939"
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>Whoチェックリストの完了を監視する責任は何ですか?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>オンボード チェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボーディング チェックリスト項目をステップ バイ ステップで実行します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>オンボード チェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボーディング チェックリスト項目をステップ バイ ステップで実行します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -79,7 +79,7 @@ ms.locfileid: "58621939"
 
 このチェックリストを完了したら、次の手順「ユーザー パイロットを実施 [する」に進みます。](pilot-essentials.md)
 
-[//]: # (@Turgay、この次の段落はクラウド音声固有なのでコメントアウトしました。)
+[//]: # (@Turgay、次の段落はクラウド音声固有なのでコメントアウトしました。)
 <!--
 As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site to cloud voice, and help ensure that you plan and execute important site-specific activities.
 -->

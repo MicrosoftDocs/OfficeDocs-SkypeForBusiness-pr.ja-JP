@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 大規模、中規模、Skype for Business Server組織に対して行う図や決定を含む、さまざまな組織の参照トポロジ。
-ms.openlocfilehash: 76866e21c4abcd0defafb8dcdb4b758da2f376cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f6598415627ca48181a6346007704536163ea94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616453"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729756"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>データの参照トポロジSkype for Business Server
 
@@ -37,7 +37,7 @@ ms.locfileid: "58616453"
 
 **小規模組織の参照トポロジ**
 
-![3 つのサーバーを展開するトポロジの参照図](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
+![3 つのサーバーを展開するトポロジ図を参照します。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
 - **展開されたStandard Editionサーバーのペア** この組織の中央サイトには 4,000 人のユーザーがいます。 2 台のサーバーをStandard Editionし、それらを組み合わせて高可用性と障害復旧を可能にしました。 各サーバーには 2,000 人のユーザーがいますが、すべてのユーザーに関する情報は 2 つのサーバー間で同期されます。 一方がダウンした場合、管理者はそれらのユーザーをフェールオーバーして他のサーバーがサービスを受け取り、ユーザーに対する中断を最小限に抑えることができます。 高可用性と障害復旧機能の詳細については、「Skype for Business Server で高可用性と障害復旧を計画する」[を参照Skype for Business Server。](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
 
@@ -63,7 +63,7 @@ ms.locfileid: "58616453"
 
 **中規模組織の参照トポロジ**
 
-![単一データ センター図の参照トポロジ](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
+![単一データ センター図の参照トポロジ。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
 
 - **より多くのフロント エンド サーバーを追加することでより多くのユーザーに対応。** この図の正確なトポロジには、20,000 人のユーザーをサポートする 3 つのフロントエンド サーバーがあります。 中央サイトが 1 つで、ユーザーが多い場合は、プールにフロント エンド サーバーを追加するだけで済む。 プールあたりの最大ユーザー数は 80,000 人で、フロント エンド サーバーは 12 台です。
 
@@ -101,19 +101,19 @@ ms.locfileid: "58616453"
 
 **複数のデータ センターを持つ大規模な組織の関連トポロジの概要**
 
-![複数のデータ センターの参照トポロジ](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
+![複数のデータ センターの参照トポロジ。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
 
 **大規模な組織の関連トポロジ: 中央サイト A の詳細表示**
 
-![トポロジ 3-2](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
+![トポロジ 3-2。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
 
 **大規模な組織の関連トポロジ: 中央サイト B の詳細表示**
 
-![トポロジ 3-3](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
+![トポロジ 3-3。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
 
 **大規模な組織の関連トポロジ: 中央サイト C の詳細表示**
 
-![トポロジ 3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
+![トポロジ 3~4。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
 
 - **フロントエンド プールは、障害復旧を有効にするためにペアリングされています。** サイト A とサイト B のフロントエンド プールは、障害復旧のサポートを提供するために、互いにペアリングされています。 1 つのサイトのプールに障害が発生した場合、管理者は、そのサイトのユーザーを、もう一方のサイトのペアのフロント エンド プールにフェールオーバーし、ユーザーのサービス中断を最小限に抑えます。 これら 2 つのフロント エンド プールには 6 台のサーバーがあります。フェールオーバーの場合は、両方のプールの 40,000 人のユーザー全員で十分です。 詳細については、「Plan for high availability and disaster recovery in Skype for Business Server」[を参照してください](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
 

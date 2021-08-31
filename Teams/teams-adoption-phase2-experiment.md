@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a169208d5e59044e4ce8de63098428f9d4e8f085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9cd56875378d7e38660fd1dfd7a4228e7ce5a7e8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636651"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726746"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams の導入段階 2 - 実験
 
-これで、組織に関するプロジェクト チームと重要な情報が用意され、新しいプロジェクトを試Teams。 積極的な関係を持ち、組織に十分な数の早期採用者がいて、意味のあるフィードバックを提供できる関係者が主導する、グループ内の 2 ~ 3 つの現実世界のプロジェクトを実験することをお勧めします。 組織の規模が大きいか小規模かに関係ない場合は、このフェーズを完了して、Teams がチャット機能やファイル ストレージ機能を使用する以外にコラボレーションを改善する方法を理解することをお勧めします。  
+これで、組織に関する重要な情報を持つプロジェクト チームと重要な情報が用意され、新しいプロジェクトをTeams。 積極的な関係を持ち、組織に十分な数の早期採用者がいて、意味のあるフィードバックを提供できる関係者が主導する、グループ内の 2 ~ 3 つの現実世界のプロジェクトを実験することをお勧めします。 組織の規模が大きいか小規模かに関係ない場合は、このフェーズを完了して、Teams がチャット機能やファイル ストレージ機能を使用する以外に、どのようにコラボレーションを改善できるのかを把握することをお勧めします。  
 
 このフェーズでは、次の手順を実行します。
 
@@ -41,4 +41,4 @@ ms.locfileid: "58636651"
 5. [フィードバック チャネルを設定します](teams-adoption-onboard-early-adopters.md#gather-feedback)。
 6. [サポート スタッフを乗乗します](teams-adoption-onboard-support.md)。
 
-![次の手順を表すアイコン ](media/teams-adoption-next-icon.png) 次: [チャンピオン プログラムを作成する](teams-adoption-create-champions-program.md)
+![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [チャンピオン プログラムを作成する](teams-adoption-create-champions-program.md)

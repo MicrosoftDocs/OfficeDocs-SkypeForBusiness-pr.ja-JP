@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611466"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729906"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Skype for Business Online インストールをテストする
 
@@ -53,7 +53,7 @@ ms.locfileid: "58611466"
 ## <a name="set-up-test-accounts"></a>テスト アカウントをセットアップする
 <a name="__toc328126910"> </a>
 
-1. [管理者] **Microsoft 365** または [ユーザー Office 365 グループ] に移動し、[追加] を選択し  >    >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 、必要な情報を入力します。
+1. [管理者]**にMicrosoft 365** または [ユーザー Office 365 グループ] に  >    >  **移動し**、[追加] を選択 ![ します。](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) を選択し、必要な情報を入力します。
 
 2. 手順 4 (メール) まで進んだら、自分のメール アドレスを入力します。次に、新しいユーザーの名前とパスワードを記録します。
 
@@ -66,7 +66,7 @@ ms.locfileid: "58611466"
 
 1. Microsoft 365またはOffice 365に移動し、テスト アカウントのいずれかの資格情報でサインインします。
 
-2. [ **設定**] ![設定: プロファイルを更新し、ソフトウェアをインストールして、クラウドに接続する](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) に移動し、[ **ソフトウェアをインストールしてクラウドに接続する**] をクリックします。
+2. [設定設定: プロファイルの更新、ソフトウェアのインストール、クラウドへの接続に関するページに移動し、[ソフトウェアのインストール] をクリックしてクラウドに ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **接続します**。
 
 ## <a name="set-up-audio-conferencing"></a>電話会議をセットアップする
 <a name="__toc328126912"> </a>
@@ -83,7 +83,7 @@ Skype for Business Online 会議に電話でアクセスできるようにする
 
 1. [**電話会議ユーザー] を**  >  **クリックします**。
 
-2. ダイヤルイン会議向けにセットアップするユーザーの名前をクリックして、[ **編集**] ![編集](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)をクリックします。
+2. ダイヤルイン会議用に設定するユーザーの名前をクリックし、[編集] を **クリック** ![ します ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
 
 3. 電話会議プロバイダーを選択して要求された情報を入力し、[ **保存**] をクリックします。
 
@@ -139,7 +139,7 @@ Skype for Business Online 会議に電話でアクセスできるようにする
 |[Skype for Business (Lync) 会議で PowerPoint のスライドをプレゼンテーションする](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |PowerPoint プレゼンテーションは、全員のコンピューターの Skype for Business 会議ステージ ウィンドウに表示されます。  <br/> |
 |[Skype for Business (Lync) 会議でファイルを転送する](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |アップロードすると、他の会議参加者が添付ファイルを表示し、ダウンロードできるようになります。  <br/> |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

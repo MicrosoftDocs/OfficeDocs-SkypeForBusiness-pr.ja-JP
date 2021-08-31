@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: '概要: DNS を構成し、サーバーのインストール用に DNS レコードを作成する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08a652f3ed2dd19d40aa1830ac91459d205b618a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585533"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726326"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>ユーザーの DNS レコードを作成Skype for Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "58585533"
 > [!IMPORTANT]
 > これは、サーバー DNS 環境で DNS レコードを作成する方法の一例にWindows重要です。 Skype for Business Server には他にも多くの DNS エントリが必要であり、DNS レコードを作成する手順は、組織内の DNS を管理するために使用しているシステムによって異なります。 DNS の要件の完全な一覧については、「DNS の要件」を参照[Skype for Business Server。](../../plan-your-deployment/network-requirements/dns.md) 
   
-![概要図](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
+![概要図。](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## <a name="configure-dns"></a>DNS の構成
 
@@ -68,7 +68,7 @@ DNS レコードは、ユーザーがSkype for Business Server機能し、ユー
     
 4. 図に示すように、SIP ドメインを右クリックし、[ **新しいホスト (A または AAAA)]** を選択します。
     
-     ![新しい A レコードの選択](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
+     ![新しい A レコードを選択します。](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
   
 5. [名前 **] ボックス** に、ホスト レコードの名前を入力します (ドメイン名は自動的に追加されます)。
     

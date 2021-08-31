@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: この記事では、サービスを実装するための利点、計画上の考慮事項、および要件Microsoft クラウド ボイスメール説明します。 構成方法の詳細については、「クラウド ボイスメール構成」を参照クラウド ボイスメール。
-ms.openlocfilehash: df9675c7ebe36f73190240dc612ce83dd0de2263
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe3cc4cc9a7c009b2291875c6ffb4b9e8df4dbac
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594871"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729296"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>オンプレミス ユーザークラウド ボイスメールサービスを計画する
 
@@ -55,7 +55,7 @@ Skype for Business Server 2019 では、メールボックスが以前のバー�
 
 次の図は、ハイブリッド展開クラウド ボイスメールを示しています。
 
-![SfB クラウド ボイスメール](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
+![SfB クラウド ボイスメール。](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 応答されていない呼び出しは、次のように処理されます。  
 

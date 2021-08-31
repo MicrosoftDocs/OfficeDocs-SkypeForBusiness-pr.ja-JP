@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: チーム メンバーをチャネルのモデレーターとして追加する方法を含む、Microsoft Teams でモデレート用にチャネルを設定する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb709d8e618b68fad2bc87dc658eb6f67853e891
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e1a58f7f09c94ae5178add3897b84e3571eef03
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593031"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726136"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
 
@@ -66,7 +66,7 @@ Teams でチャネルに移動し、**[その他のオプション...]** > **[�
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
-![管理チャネル モデレーション-in-teams の基本設定](media/manage-channel-moderation-in-teams-preferences.png)
+![チームでのチャネル モデレーションの管理に関する基本設定を参照してください。](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>チャンルのモデレーションを有効または無効にする
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: これらのリンクを参照して、2019 年にインストールおよび構成Skype for Business Serverします。'
-ms.openlocfilehash: f5a37015e9688274b53fb9b9f72b21d7ad04f150
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04114b971ad299bed5a6c93f243473fbcee0fcca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592151"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729066"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>2019 Skype for Business Serverの展開
  
@@ -38,15 +38,15 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
   
 ||コンテンツ|説明|
 |:-----|:-----|:-----|
-|![ドキュメントのアイコン](/office/media/icons/paragraph-writing-blue.svg)|[2019 年のSkype for Business Server要件](../plan/system-requirements.md)  <br/> |サーバーと環境の要件についてSkype for Business Server。  <br/> |
-|![ドキュメントのアイコン](/office/media/icons/paragraph-writing-blue.svg)|[トポロジの基本Skype for Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |トポロジ オプションとサーバーのコロケーション シナリオについて説明します。Skype for Business Server。  <br/> |
-|![数値の [方法] アイコン](/office/media/icons/list-123-blue.svg)|[Skype for Business Server のインストール](../../SfbServer/deploy/install/install.md)<br/> |物理環境と仮想環境のSkype for Business Serverトポロジにインストールする方法について説明します。  <br/> |
-|![数値の [方法] アイコン](/office/media/icons/list-123-blue.svg)| [2019 Skype for Business Serverへの移行](../migration/migration-to-skype-for-business-server-2019.md) <br/> |以前のバージョンのサーバーまたは Lync Server からSkype for Businessする方法について説明します。  <br/> |
-|![数値の [方法] アイコン](/office/media/icons/list-123-blue.svg)|[クライアント エクスペリエンスを構成するには、Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |クライアント エクスペリエンスを構成する方法について学習します。  <br/> |
-|![数値の [方法] アイコン](/office/media/icons/list-123-blue.svg)| [オンラインとの間のハイブリッド接続Skype for Business Server構成Skype for Businessする](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |ハイブリッド展開の前提条件を構成し、オンプレミスとオンラインの間でユーザーを管理Skype for Business Server展開をSkype for Businessします。  <br/> |
-|![数値の [方法] アイコン](/office/media/icons/list-123-blue.svg)| [エッジ サーバーを展開Skype for Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |組織内のユーザーが内部ネットワークにログインしていない外部ユーザーと通信する場合は、エッジ サーバーを展開します。  <br/> |
-|![数値の [方法] アイコン](/office/media/icons/list-123-blue.svg)| [[エンタープライズ VoIPにSkype for Business Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |完全な Voice over IP (VoIP) エンタープライズ 音声ソリューションを展開し、Outlook および Exchange との豊富な統合、応答グループ、通話パーク、チーム通話、グループ通話ピックアップ、拡張緊急 E9-1-1 サポートなどの強力な機能を提供する方法について説明します。  <br/> |
-| ![数値の [方法] アイコン](/office/media/icons/list-123-blue.svg)| [ビデオ相互運用サーバーを展開Skype for Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |ビデオ相互運用をサポートする場合は、ビデオ相互運用サーバー (VIS) を展開する方法についてお読みください。  <br/> |
+|![ドキュメントのアイコン。](/office/media/icons/paragraph-writing-blue.svg)|[2019 年のSkype for Business Server要件](../plan/system-requirements.md)  <br/> |サーバーと環境の要件についてSkype for Business Server。  <br/> |
+|![ドキュメントのアイコン。](/office/media/icons/paragraph-writing-blue.svg)|[トポロジの基本Skype for Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |トポロジ オプションとサーバーのコロケーション シナリオについて説明します。Skype for Business Server。  <br/> |
+|![数値の [方法] アイコン。](/office/media/icons/list-123-blue.svg)|[Skype for Business Server のインストール](../../SfbServer/deploy/install/install.md)<br/> |物理環境と仮想環境のSkype for Business Serverトポロジにインストールする方法について説明します。  <br/> |
+|![数値の [方法] アイコン。](/office/media/icons/list-123-blue.svg)| [2019 Skype for Business Serverへの移行](../migration/migration-to-skype-for-business-server-2019.md) <br/> |以前のバージョンのサーバーまたは Lync Server からSkype for Businessする方法について説明します。  <br/> |
+|![数値の [方法] アイコン。](/office/media/icons/list-123-blue.svg)|[クライアント エクスペリエンスを構成するには、Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |クライアント エクスペリエンスを構成する方法について学習します。  <br/> |
+|![数値の [方法] アイコン。](/office/media/icons/list-123-blue.svg)| [オンラインとの間のハイブリッド接続Skype for Business Server構成Skype for Businessする](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |ハイブリッド展開の前提条件を構成し、オンプレミスとオンラインの間でユーザーを管理Skype for Business Server展開をSkype for Businessします。  <br/> |
+|![数値の [方法] アイコン。](/office/media/icons/list-123-blue.svg)| [エッジ サーバーを展開Skype for Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |組織内のユーザーが内部ネットワークにログインしていない外部ユーザーと通信する場合は、エッジ サーバーを展開します。  <br/> |
+|![数値の [方法] アイコン。](/office/media/icons/list-123-blue.svg)| [[エンタープライズ VoIPにSkype for Business Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |完全な Voice over IP (VoIP) エンタープライズ 音声ソリューションを展開し、Outlook および Exchange との豊富な統合、応答グループ、通話パーク、チーム通話、グループ通話ピックアップ、拡張緊急 E9-1-1 サポートなどの強力な機能を提供する方法について説明します。  <br/> |
+| ![数値の [方法] アイコン。](/office/media/icons/list-123-blue.svg)| [ビデオ相互運用サーバーを展開Skype for Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |ビデオ相互運用をサポートする場合は、ビデオ相互運用サーバー (VIS) を展開する方法についてお読みください。  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>データの計画に関するその他のSkype for Business Server
 
@@ -54,6 +54,6 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![ドキュメントのアイコン](/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server IT のプロ向け情報](../../Hub/index.yml) <br/> |リソース センターにアクセスして、ビデオ、コミュニティ サイト、ドキュメント、ダウンロードなどへアクセスします。|
-|![開発者向けコンテンツのアイコン](/office/media/icons/developer-blue.svg)|[Skype開発者プラットフォーム](/skype-sdk/skypedeveloperplatform) <br/> |コード サンプル、トレーニングSkype for Business Server SDK など、ユーザーの開発者向けリソースを検索します。  <br/> |
-|![ニュース、ブログなどのためのアイコン](/office/media/icons/blog-site-blue.svg)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skypeチームブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |作成し、ドキュメントを作成するチームからのニュースにSkype for Business Server。  <br/> |
+|![ドキュメントのアイコン。](/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server IT のプロ向け情報](../../Hub/index.yml) <br/> |リソース センターにアクセスして、ビデオ、コミュニティ サイト、ドキュメント、ダウンロードなどへアクセスします。|
+|![開発者向けコンテンツのアイコン。](/office/media/icons/developer-blue.svg)|[Skype開発者プラットフォーム](/skype-sdk/skypedeveloperplatform) <br/> |コード サンプル、トレーニングSkype for Business Server SDK など、ユーザーの開発者向けリソースを検索します。  <br/> |
+|![ニュース、ブログなどのためのアイコン。](/office/media/icons/blog-site-blue.svg)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skypeチームブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |作成し、ドキュメントを作成するチームからのニュースにSkype for Business Server。  <br/> |

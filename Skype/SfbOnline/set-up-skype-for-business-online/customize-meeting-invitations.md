@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'グラフィックのロゴ、ヘルプと法務の URL、フッターのテキストを含む Skype 会議出席依頼をカスタマイズします。 '
-ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ad8a6c6f9bec3a03d68ba532454703c4deb1c6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614939"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729286"
 ---
 # <a name="customize-meeting-invitations"></a>会議への招待状をカスタマイズする
 
@@ -48,13 +48,13 @@ ms.locfileid: "58614939"
 ## <a name="customize-your-meeting-invitations"></a>会議の招待状をカスタマイズする
 <a name="__top"> </a>
 
-![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴのアイコンSkype for Business表示されます。](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 1. 仕事用または学校用のアカウントでサインインします。
     
-2. 管理センターで、[管理センター]**を選択Skype for Business。**  >  
+2. 管理センターで、[管理センター]**を選択**  >  **Skype for Business。**
     
-3. [管理センター Skype for Businessオンライン会議]**を選択します**。 
+3. 管理センター Skype for Businessオンライン会議]**を選択します**。 
     
 4. 以下のボックスに入力してください:
     
@@ -71,11 +71,11 @@ ms.locfileid: "58614939"
    
 5. [ **保存**] を選びます。
     
-6. すべてのサービスまたはサービスで変更が設定Microsoft 365 1 時間Office 365待ちます。 その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。 
+6. すべてのサービスまたはサービス間で変更が設定Microsoft 365 1 時間Office 365します。 その後 Outlook に移動し、Skype 会議をスケジュールし、変更がどのように反映されるか確認します。 
     
-    ![カスタム出席依頼がどのようなものかを図を使用せずに以下に示します](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![グラフィックを表示せずに、カスタム招待の外観を次に示します。](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 <a name="__top"> </a>
 
 [電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

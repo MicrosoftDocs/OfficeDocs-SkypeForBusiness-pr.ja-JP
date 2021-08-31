@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: カスタム アプリ ストアの詳細については、Microsoft Teams。
-ms.openlocfilehash: 12893fc0a424fc85b0bb72dd58da3008c2ba5085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 06663505a173d7fa1a5d53957fbf2df8fdd232d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584661"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728906"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>カスタム アプリは、Microsoft Teams
 
@@ -32,9 +32,9 @@ ms.locfileid: "58584661"
 > [!Note]
 > ブランドの変更を有効にするには、24 時間が必要です。
 
-管理センターで [ストアのカスタマイズ] にアクセスするには、[ストアのカスタマイズ] Teams **を**  >  **選択します**。
+管理センターで [ストアのカスタマイズ] にアクセスするには、[アプリのカスタマイズ] **Teams を**  >  **選択します**。
 
-  ![管理コンソールのストアのカスタマイズ機能が強調表示されている](media/customize-app-store.png)
+  ![管理コンソールのストアのカスタマイズ機能が強調表示されています。](media/customize-app-store.png)
 
 この記事では、カスタム アプリストアの機能とそれらを使用する方法について説明します。
 
@@ -44,7 +44,7 @@ ms.locfileid: "58584661"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-ここで、組織のロゴをアップロードできます。 選択したロゴが、テナント用にTeams **アプリのクライアント**  >  **に表示** されます。
+ここで、組織のロゴをアップロードできます。 選択したロゴが、[テナント用にTeams **アプリ]** ページの [カスタム クライアント  >  **] に表示** されます。
 
 [画像の選択 **] オプションを選択** すると、選択したファイルをアップロードできます。 ロゴは 240x60 である必要があります。または、そのサイズにスケーリングされます。 5 MB 以下にしてください。 サポートされている形式は次のとおりです。
 
@@ -52,7 +52,7 @@ ms.locfileid: "58584661"
 - .png
 - .jpg
 
-ロゴは、テナント ストアのテナント アプリ カタログの右上隅にTeamsされます。
+ロゴは、テナント ストアのテナント アプリ カタログの右上隅Teamsされます。
 
 ## <a name="customize-your-small-logo"></a>小さなロゴをカスタマイズする
 
@@ -68,7 +68,7 @@ ms.locfileid: "58584661"
 - .png
 - .jpg
 
-ストアのランディング ページの **[Built for tenant]** セクション タイトルの横に小Teams表示されます。
+小さなロゴは、ストアのランディング ページの [built **for tenant]** セクション タイトルの横Teams表示されます。
 
 ## <a name="customize-the-background-color"></a>背景色をカスタマイズする
 
@@ -95,18 +95,18 @@ ms.locfileid: "58584661"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-ユーザーが組織の名前を明確に読み取れるので、テキストの色と背景とのコントラストが十分に高い必要があります。 テキストは、テナント ヘッダー用Teams **アプリビルドの** クライアント  >  **に表示** されます。
+ユーザーが組織の名前を明確に読み取れるので、テキストの色と背景とのコントラストが十分に高い必要があります。 テキストは、テナント ヘッダー用Teamsアプリビルドのクライアント  >  **に表示** されます。
 
 [ユーザー設定の **色の選択] を選択すると**、色の選択が開きます。 カラー 選択のスケールを調整して、目的の色を選択します。
 
- ![色の選択](media/choose-a-custom-color.png)
+ ![色の選択を行います。](media/choose-a-custom-color.png)
 
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>チーム アプリ ストアのカスタマイズを完了する
 
 アプリ ストアのカスタマイズが完了したら、必ず [保存] を選択 **して** 変更を保存します。
 変更をプレビューするには、[アプリ ストア **のプレビュー] を選択** して、カスタマイズしたアプリ ストアの表現を表示します。
 
-![カスタム アプリ ストアのプレビュー](media/PowerAppsInStore650w.png)
+![カスタム アプリ ストアのプレビュー。](media/PowerAppsInStore650w.png)
 
 > [!Note]
 > 一部の既定の色はユーザーのバージョンのカスタム クライアントに基づくため、カスタマイズされたアプリ ストアの最終バージョンと異なるTeamsがあります。

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 中央サイトとブランチ サイトの両方で、Skype for Business Server エンタープライズ VoIPの音声復元をサポートする方法について説明します。 ブランチ サイトのオプションには、存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーの展開が含まれます。
-ms.openlocfilehash: 08bfa774b52a59dcb9b88cdf9b41d11035f09417
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cccce61eb575caaf6037d1d916f428aeecb452e4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617743"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729766"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>システムの復元エンタープライズ VoIP計画Skype for Business Server
 
@@ -222,7 +222,7 @@ Skype for Business Serverは、音声の復元を保証するために、次の�
 
 **ブランチ サイトの復元オプション**
 
-![Voice Branch Resiliency Options](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
+![Voice Branch の復元オプション。](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
 
 #### <a name="survivable-branch-appliance-details"></a>存続可能ブランチ アプライアンスの詳細
 

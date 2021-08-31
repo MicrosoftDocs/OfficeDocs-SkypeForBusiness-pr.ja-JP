@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 障害復旧の場合、Skype for Business Server 1 つのプールがダウンした場合に備え、フェールオーバーとプールのペアリングを提供します。
-ms.openlocfilehash: 728419a20fe99db004b739e599355c9b64a8844f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603836"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728836"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>フロントエンド プールの障害復旧 (Skype for Business Server
  
@@ -26,7 +26,7 @@ ms.locfileid: "58603836"
   
 ネットワーク 上で最も堅牢な障害復旧オプションSkype for Business Server、地理的に分散した 2 つのサイトにフロント エンド プールのペアを展開します。 各サイトにはフロント エンド プールが存在し、もう一方のサイトの対応するフロント エンド プールと組み合わされます。 両方のサイトがアクティブであり、バックアップ サービスはプールの同期を維持するためにリアルタイムのデータ レプリケーションを提供します。 フロント[エンド プールのペアリングを実装する](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)場合は、「障害復旧用のペアSkype for Business Serverフロント エンド プールを展開する」を参照してください。
   
-![2 つの異なるサイトでフロント エンド プールを表示し、互いにペアを設定する](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
+![2 つの異なるサイトのフロント エンド プールを、互いにペアリングして表示します。](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
 1 つのサイトのプールに障害が発生した場合は、そのプールから他のサイトのプールにユーザーをフェールオーバーして、両方のプールのすべてのユーザーにサービスを提供できます。 容量計画では、障害が発生した場合に両方のプールのすべてのユーザーのワークロードを処理できる各プールを設計する必要があります。
   
@@ -66,7 +66,7 @@ ms.locfileid: "58603836"
   
 サーバーの全体管理ストアをホストするプールをペアリングすると、バックアップ の全体管理ストア データベースがバックアップ プールにセットアップされます。 任意の時点で、2 つの中央管理ストア データベースの 1 つがアクティブで、もう 1 つはスタンバイです。 コンテンツは、バックアップ サービスによってアクティブ なデータベースからスタンバイにレプリケートされます。
   
-![2 つのフロントエンド プールを表示します。1 つはアクティブな CMS ストアを持ち、もう 1 つはパッシブ バックアップ CMS ストアと一緒に表示されます。](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
+![2 つのフロントエンド プールが表示されます。1 つはアクティブな CMS ストアを持ち、もう 1 つはパッシブ バックアップ CMS ストアを使用します。](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
 サーバーの全体管理ストアをホストするプールを含むプールのフェールオーバー中に、フロントエンド プールをフェールオーバーする前に、サーバーの全体管理ストアをフェールオーバーする必要があります。
   

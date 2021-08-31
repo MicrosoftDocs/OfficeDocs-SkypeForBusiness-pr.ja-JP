@@ -16,35 +16,35 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 556f220c9ca250f014ae604c96cabf9ef0b0ca0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f1424149a3f585b30cb7a31d7742370c06cae3d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636793"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58736126"
 ---
-# <a name="administrative-unit-functionality-for-device-management-in-teams"></a>Teams でのデバイス管理の管理単位Teams
+# <a name="administrative-unit-functionality-for-device-management-in-teams"></a>デバイス管理の管理単位機能 (Teams
 
-管理センターを使用して、デバイス管理用のロールベースのアクセスをMicrosoft Teamsします。 管理センターを通じてデバイス管理の管理単位の概念Teamsしました。
+管理センターを使用して、デバイス管理用のロールベースのアクセスMicrosoft Teamsします。 管理センターを通じてデバイス管理の管理単位の概念Teamsしました。
 
 管理単位の概念では、専用の管理者に特定のリソース セットへのアクセスを保証します。 管理単位は、すべてのリソースへのアクセスを制限します。 デバイスの管理に同じ機能Teams拡張できます。
 
 > [!NOTE]
-> 管理単位の概念は、現在、デバイス管理者ロールTeamsでのみ使用できます。
+> 管理単位の概念は、現在、デバイス管理者Teamsでのみ使用できます。
 
 たとえば、Contoso は異なる地域間で操作を行います。 Alice はロンドンのグローバル IT 管理者で、Prashant はインドの IT 管理者です。 現在、Prashant がデバイス管理者ロールで Teams 管理センターにサインインすると、世界中のデバイスが表示されます。 Alice は、インドに存在するデバイスにのみ Prashant のアクセスを制限したいと考えます。 管理単位の概念は、この問題の解決に役立ちます。 詳細については、 [管理単位の概念に関する説明を参照してください](/azure/active-directory/roles/administrative-units)。
 
-![シナリオを示す図](media/au-diagram.png)
+![シナリオを示す図。](media/au-diagram.png)
 
 ## <a name="creation-of-administrative-units"></a>管理単位の作成
 
 Azure Portal で管理単位を作成し、それぞれの管理単位に管理者を割り当てる。 管理単位の割り当ての詳細については、「管理単位の管理 [」を参照してください](/azure/active-directory/roles/admin-units-manage)。
 
-![会社の管理単位の例](media/au-example.png)
+![会社の管理単位の例。](media/au-example.png)
 
 グローバル IT 管理者は、作成後、その管理単位に対応するデバイス ユーザーを追加できます。
 
-![ユーザー のプレビューを含む会社の例](media/au-example2.png)
+![ユーザー のプレビューを含む会社の例。](media/au-example2.png)
 
 ロールの割り当ては、PowerShell で [Add-AzureADMSScopedRoleMembership コマンドレットを使用して実行](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0) できます。
 

@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 13cbbf8b8295886cec937091abd3b5a0d378f05e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc8a29e5a312d4a5a77b98929330ee9770e5543c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615213"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729586"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
 
@@ -78,7 +78,7 @@ ms.locfileid: "58615213"
 
 電話会議ブリッジに新規の電話番号を割り当てるには、以下の手順を実行します。
 
-![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴを表示Skype for Businessアイコン。](media/sfb-logo-30x30.png) **管理センター Skype for Business使用します。**
 
  1. **[Microsoft 365 管理センター]** > **[管理センター]** > **[Teams]** > **[従来のポータル]** の順に移動します。
  2. **[音声]**  >  **[電話番号]** の順に選択します。
@@ -89,7 +89,7 @@ ms.locfileid: "58615213"
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>手順 5: 会議ブリッジの既定の言語と代替言語を設定する
 <a name="__top"> </a> 次に、電話会議の電話番号にダイヤルインした時に、呼び出しをしたユーザーに挨拶するために会議の自動応答で使用する、[Microsoft Teams の電話会議の自動応答の言語を設定](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)します。 
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**:
+![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **管理センター Microsoft Teams使用する**:
 
 1. ダッシュボードから **[会議]** > **[会議ブリッジ]** の順に開きます。
 2. 会議ブリッジ電話番号を選択して **[編集]** をクリックし、既定の言語を選択します。
@@ -99,7 +99,7 @@ ms.locfileid: "58615213"
     
 会議ブリッジをセットアップした後、使用する開始/終了の通知と PIN の長さが正しいかなど、既定の設定を確認します。正しくない場合は、変更することができます。 
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**:
+![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **管理センター Microsoft Teams使用する**:
 
 1. ダッシュボードから **[会議]** > **[会議ブリッジ]** の順に開きます。
 2. **[ブリッジの設定]** を選択します。 [**ブリッジの設定**] ウィンドウが開きます。 
@@ -112,7 +112,7 @@ ms.locfileid: "58615213"
 
 この操作を、会議を主催したり計画している組織内のすべてのユーザーに対して行う必要があります。 
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**:
+![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **管理センター Microsoft Teams使用する**:
 
 1. ダッシュボードから **[ユーザー]** をクリックし、リストからユーザーを選択して **[編集]** を選択します。
 2. **[電話会議]** の次にある **[編集]** をクリックしてから **[電話会議]** ウィンドウで **[有料番号]** と **[無料番号]** の番号リストから、番号を選択します。

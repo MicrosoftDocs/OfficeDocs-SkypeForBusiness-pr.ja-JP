@@ -1,5 +1,5 @@
 ---
-title: カスタム チーム テンプレートを作成する Microsoft Teams
+title: カスタム チーム テンプレートを作成 Microsoft Teamsする
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589771"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726896"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a>カスタム チーム テンプレートを作成する Microsoft Teams
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a>カスタム チーム テンプレートを作成 Microsoft Teamsする
 
 **カスタム テンプレートは、EDU のお客様向けはまだサポートされていません。**
 
@@ -86,11 +86,11 @@ ms.locfileid: "58589771"
 
 3. [この **テンプレート用のアプリを追加する] セクションで** 、Web サイト アプリを追加します。
 
-    ![このテンプレート オプションのアプリを追加する](media/add-an-app-template.png)
+    ![このテンプレート オプションのアプリを追加します。](media/add-an-app-template.png)
 
 4. 編集アイコンを選択し、選択した URL を入力します。
 
-    ![アプリの URL を追加する](media/add-url-app-template.png)
+    ![アプリの URL を追加します。](media/add-url-app-template.png)
 
 5. タブ アプリ **の** 編集で [保存] を選択し、[適用 **] を選択して** 変更を保存します。
 
@@ -104,11 +104,11 @@ ms.locfileid: "58589771"
 
 **問題**: ブラウザーでTeamsを使用している場合、一部の Web サイトでは、一部の Web サイトが [Teams] タブ内に表示されません。
 
-![ブラウザーのエラー メッセージ](media/browser-error-message.png)
+![ブラウザーのエラー メッセージ。](media/browser-error-message.png)
 
-**解決策**: [Web サイト] タブの内容の表示で問題が発生した場合は、別の Web ページでタブを開くか、代わりにデスクトップ アプリで Teams を開き、Web サイト タブ アプリを表示します。
+**解決** 方法: [Web サイト] タブの内容の表示で問題が発生した場合は、別の Web ページでタブを開くか、代わりにデスクトップ アプリで Teams を開き、Web サイト タブ アプリを表示します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [管理センターでチーム テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
 - [既存のチームからテンプレートを作成する](create-template-from-existing-team.md)

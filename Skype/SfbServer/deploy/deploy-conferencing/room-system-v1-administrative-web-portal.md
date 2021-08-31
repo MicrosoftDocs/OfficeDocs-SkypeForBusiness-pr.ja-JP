@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype for Business Server Skype会議室システム v1 (SRS v1、以前は Lync Room System と呼ばれる) 管理 Web ポータルは、組織が会議室システムの会議室を維持するために使用Skype Web ポータルです。 管理者は、SRS v1 管理 Web ポータルを使用して、オーディオ/ビデオ デバイスの監視など、デバイスの正常性を監視できます。 このポータルを使用すると、管理者はリモートで診断情報を収集して会議室の正常性を監視できます。
-ms.openlocfilehash: 2451d9892bc15b1b1f189a764823c2f9beb019ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b52657d33b4da97266a635b53459ed21fd4a944
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618133"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729116"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>SRS v1 管理 Web ポータルをサーバーに展開Skype for Business Server
 
@@ -63,7 +63,7 @@ SRS v1 管理 Web ポータルを使用するには、次の前提条件をイ�
 
     グループ スコープをグローバルとグループの種類としてグループを作成し、このグループに追加された Security.SIP が有効なユーザーは、1 つの Skype ルームですべての管理ポータル機能を使用する権限があります。 会議室の一括管理のサポートSkype手順 5 を参照してください。
 
-     ![セキュリティ グループの役割を持つ管理者グループの一覧](../../media/LRS_LRSFullAccessAdminGroup.png)
+     ![セキュリティ グループの役割を持つ管理者グループの一覧。](../../media/LRS_LRSFullAccessAdminGroup.png)
 
 5. LRSPowerUserAdminsGroup という名前の Active Directory セキュリティ グループを作成します。
 
@@ -71,11 +71,11 @@ SRS v1 管理 Web ポータルを使用するには、次の前提条件をイ�
 
 6. LRSSupportAdminGroup のメンバーとして LRSFullAccessAdminGroup を追加します。
 
-     ![LRSSupportAdminGroup プロパティ メンバー ページ](../../media/LRS_Add_LRSSupportAdminGroup.png)
+     ![LRSSupportAdminGroup プロパティ メンバー ページ。](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
 7. LRSSupport という名前の SIP が有効な Active Directory ユーザーを作成します。 このユーザーを LRSSupportAdminGroup に追加します。
 
-     ![LRSSupportAdminGroup プロパティ メンバー ページ](../../media/LRS_Add_LRS_SIP_SupportUser.png)
+     ![LRSSupportAdminGroup プロパティ メンバー ページ。](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
 8. MVC [4 ASP.NET 2010 SP1 Visual Studio Visual Web Developer 2010 SP1 用にインストールします](https://go.microsoft.com/fwlink/p/?LinkId=323967)。
 
@@ -126,7 +126,7 @@ SRS v1 管理 Web ポータルのインストールを確認するには、次�
 
     次の図に示すように、エラーは表示されません。
 
-     ![Lync Room System Admin Portal サインイン画面](../../media/LRS_AdminPortalSignIn.png)
+     ![Lync Room System Admin Portal サインイン画面。](../../media/LRS_AdminPortalSignIn.png)
 
 2. エラーが表示されない場合は、トポロジ内の他のコンピューターから次の URL にアクセスしてみてください。
 
@@ -147,7 +147,7 @@ SRS v1 管理 Web ポータルのインストールを確認するには、次�
 
 2. LRSSupport アカウントの資格情報、または LRSSupportAdminGroup セキュリティ グループに追加されたアカウントを入力します。
 
-![Lync Room System Admin Portal サインイン画面](../../media/LRS_AdminPortalSignIn.png)
+![Lync Room System Admin Portal サインイン画面。](../../media/LRS_AdminPortalSignIn.png)
 
 ### <a name="srs-administrative-web-portal-summary-page"></a>SRS 管理 Web ポータルの概要ページ
 
@@ -163,7 +163,7 @@ SRS v1 管理 Web ポータルのインストールを確認するには、次�
 
 - **最後の更新** Web ページが最後に更新された時刻を表示します。
 
-![Lync Room System Admin Portal の概要ビュー](../../media/LRS_AdminPortal_Summary_view.png)
+![Lync Room System Admin Portal Summary View。](../../media/LRS_AdminPortal_Summary_view.png)
 
 > [!NOTE]
 > LRSPowerUserAdminsGroup セキュリティ グループの一部である場合にのみ、[一括管理] メニューが表示されます。
@@ -176,13 +176,13 @@ SRS v1 管理 Web ポータルのインストールを確認するには、次�
 
 [設定] セクションでは、ルームのパスワード、ルーム タグ、および既定のボリューム レベルを設定できます。 これらの設定を構成した場合、変更は SRS コンソールを再起動した後にのみレプリケートされます。 リリース 15.12 以降を使用している SRS デバイスのシステム更新プログラムの設定だけが表示されます。
 
-![Lync Room System Admin Portal Room 設定](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Lync Room System Admin Portal Room 設定。](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
 #### <a name="details"></a>詳細
 
 [詳細] セクションには、SRS ルームの設定の読み取り専用の概要 (最後の更新時刻など) が表示されます。次の会議。最後の更新、メンテナンス、調整。既定のスピーカー、マイク、および呼び出し音の設定。バージョン。SIP URI。各画面に関する画面と詳細の数。状態、およびアクティビティを指定します。
 
-![Lync Room System Admin Portal Detail View](../../media/LRS_AdminPortal_Detail_view.png)
+![Lync Room System Admin Portal 詳細ビュー。](../../media/LRS_AdminPortal_Detail_view.png)
 
 #### <a name="troubleshooting"></a>トラブルシューティング
 
@@ -192,7 +192,7 @@ SRS v1 管理 Web ポータルのインストールを確認するには、次�
 
 [正常性] セクションでは、Skype for Business Server接続、オーディオ デバイス、ビデオ デバイス、復元状態、および画面デバイスの正常性を視覚的に示します。
 
-![Lync Room System Admin Portal Room Health](../../media/LRS_AdminPortal_RoomInfoHealth.png)
+![Lync Room System Admin Portal Room Health.](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>管理 Web ポータルに関するその他の注意事項
 
@@ -248,4 +248,4 @@ LRSApp ユーザー アカウントが SIP が有効であり、LRSPowerUserAdmi
 
 #### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>SRS v1 管理 Web ポータルは、会議室とMicrosoft Teamsしますか?
 
-その必要はありません。
+いいえ。

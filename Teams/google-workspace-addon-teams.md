@@ -18,22 +18,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4fe6a61dd4891f457656e0659243c75c372142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb5f7574bd5e07598c412cd7d17f02625de2f095
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598541"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729916"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace Microsoft Teamsの会議アドオンをセットアップする
 
-新しい会議Microsoft Teamsを使用すると、Google カレンダー ユーザーは Google ワークスペースから直接会議Microsoft Teamsスケジュールを設定し、会議に参加できます。 ユーザーは、ビデオ会議Teams会議、画面共有、会議チャット、デジタル ホワイトボードなど、さまざまな会議機能にアクセスできます。 仕事、学校、生活をまたがってより多くの作業を行う場合は、つながって整理します。
+新しいMicrosoft Teamsアドオンを使用すると、Google カレンダー ユーザーは Google ワークスペースから直接会議Microsoft Teamsスケジュールを設定し、会議に参加できます。 ユーザーは、ビデオ会議Teams会議、画面共有、会議チャット、デジタル ホワイトボードなど、さまざまな会議機能にアクセスできます。 仕事、学校、生活をまたがってより多くの作業を行う場合は、つながって整理します。
 
 テナント Microsoft Teamsアプリにアクセスするには、Google ワークスペースの会議アドオンを管理者Teams有効にする必要があります。
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Azure portal Microsoft Teams Google Workspace の会議アドオンを有効または無効にする
 
-テナント管理者は、Azure portal を使用して、組織の管理者アカウントから google Workspace の Microsoft Teams 会議アドオンを有効または無効にできます。
+テナント管理者は、Azure portal を使用して、組織の管理者アカウントから Google Workspace Microsoft Teams 会議アドオンを有効または無効にできます。
 
 アドオンは既定で有効になっています。
 
@@ -43,11 +43,11 @@ ms.locfileid: "58598541"
 
 3. Google Workspace **Microsoft Teamsの会議アドオンを検索します**。
 
-   ![すべてのアプリケーションを表示する Azure Portal](media/aad-add-google-workspace.png)
+   ![すべてのアプリケーションを表示する Azure Portal。](media/aad-add-google-workspace.png)
 
 4. [ **はい] を選択します**。
 
-   ![Google ワークスペースのプロパティを示す Azure Portal](media/google-workspace-properties.png)
+   ![Google ワークスペースのプロパティが表示された Azure Portal。](media/google-workspace-properties.png)
 
 5. (省略可能)アドオンを無効にするには、手順 4 で **[は** い] ではなく [ **いいえ** ] を選択します。
 
@@ -73,8 +73,8 @@ if ($servicePrincipal) {
 }
 ```
 
-詳細については、 を使用した[Azure サービス プリンシパルの作成に関するページをAzure PowerShell。](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
+詳細については、 を使用した Azure サービス プリンシパル[の作成に関するページAzure PowerShell。](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace Microsoft Teamsの会議アドオンを削除する
 
-手順については、Google のドキュメント [「Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) アプリを削除する」を参照してください。
+手順については、Google のドキュメント [「Google Workspace Marketplace アプリを削除する](https://support.google.com/a/answer/6216211?hl=en) 」を参照してください。

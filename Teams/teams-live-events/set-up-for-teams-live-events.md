@@ -20,12 +20,12 @@ description: Teams でライブ イベントをセットアップします。こ
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81b86121aceb0b0044f8b7dca422437331803689
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 261bea1f2abbe4194d0906078977bf870581d31c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636621"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726716"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -59,7 +59,7 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 
     組織のニーズに応じて変更できる設定は次のとおりです。
 
-    ![ライブ イベント ポリシーの設定を示すスクリーン ショット](../media/teams-live-events-policies.png "Microsoft Teams 管理センターのライブ イベント ポリシーの設定を示すスクリーン ショット")
+    ![ライブ イベント ポリシー設定のスクリーン ショット。](../media/teams-live-events-policies.png "Microsoft Teams 管理センターのライブ イベント ポリシーの設定を示すスクリーン ショット")
 
 |Setting  |説明  |
 |---------|---------|

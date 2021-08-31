@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: 直接 SIP 接続は、SKYPE FOR BUSINESS SERVER PSTN ゲートウェイと IP-PBX の両方の間エンタープライズ VoIP。
-ms.openlocfilehash: 40c8f5df636fcb6219af3d428de41c206bae906c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a3a2354074819f40780896897a8e9a2790a9421
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596521"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726266"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>ネットワーク内の直接 SIP 接続Skype for Business Server
 
@@ -56,7 +56,7 @@ ms.locfileid: "58596521"
 
 **増分展開オプション**
 
-![部署の移行オプションの図](../../media/Fig28_Departmental_migration_option.jpg)
+![部署の移行オプションの図。](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
 > 認定されたダイレクト SIP パートナー Skype for Business Server展開を接続する場合、仲介サーバーと PBX の間の公衆交換電話網 (PSTN) ゲートウェイは必要ありません。 認定された Direct SIP パートナーの一覧については  [、「Microsoft Unified Communications Open Interoperability Program」を参照してください](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
@@ -97,7 +97,7 @@ PBX エンタープライズ VoIPに展開すると、すべての通話が PSTN
 
 **VoIP 専用展開オプション**
 
-![Greenfidle 展開オプション](../../media/Fig29_Greenfield_deployment_option.jpg)
+![Greenfidle 展開オプション。](../../media/Fig29_Greenfield_deployment_option.jpg)
 
 > [!NOTE]
 > この図に示すメディア パスには、メディア バイパスが有効になっています (推奨される構成)。 メディア バイパスを無効にした場合、メディア パスは仲介サーバー経由でルーティングされます。

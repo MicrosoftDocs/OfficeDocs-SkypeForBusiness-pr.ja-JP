@@ -1,5 +1,5 @@
 ---
-title: クラウド音声機能のネットワーク トポロジを管理 Microsoft Teamsする
+title: クラウド音声機能のネットワーク トポロジを管理Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,15 +18,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: クラウド音声機能のネットワーク設定を構成する方法については、Microsoft Teams。
-ms.openlocfilehash: 7ed9837b676197b588669ae95db77c9e834371dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Microsoft Teams でクラウド音声機能のネットワーク設定を構成する方法についてMicrosoft Teams。
+ms.openlocfilehash: 701e3900980b628f66d9d62d3dade987fee821fe
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598421"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726576"
 ---
-# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>クラウド音声機能のネットワーク トポロジを管理 Microsoft Teamsする
+# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>クラウド音声機能のネットワーク トポロジを管理Microsoft Teams
 
 組織で直接ルーティングまたは動的[](location-based-routing-plan.md)緊急通話用の場所ベースのルーティング[](configure-dynamic-emergency-calling.md)を展開している場合は、Microsoft Teams でこれらのクラウド音声機能で使用するネットワーク設定を構成する必要があります。 ネットワーク設定は、ネットワーク クライアントの場所Teams、ネットワーク リージョン、ネットワーク サイト、サブネット、信頼済み IP アドレスを含む場合に使用されます。 デプロイするクラウド音声機能に応じて、これらの設定の一部またはすべてが構成されます。 これらの用語の詳細については、「クラウド音声機能の [ネットワーク設定」を参照してください](cloud-voice-network-settings.md)。
 
@@ -40,13 +40,13 @@ ms.locfileid: "58598421"
 
 #### <a name="add-and-configure-a-network-site"></a>ネットワーク サイトの追加と構成
 
-1. 管理センターの左側のMicrosoft Teams、[**場所]** ネットワーク トポロジ に移動し、[ネットワーク サイト]  >  **タブをクリック** します。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[**場所**] [ネットワーク トポロジ] に移動し、[ネットワーク サイト]  >  **タブをクリック** します。
 2. [ **追加]** をクリックし、サイトの名前と説明を入力します。
 
-    ![[ネットワーク サイトの追加] ページのスクリーンショット](media/manage-network-topology-add-site.png)
+    ![[ネットワーク サイトの追加] ページのスクリーンショット。](media/manage-network-topology-add-site.png)
 
-3. サイトをネットワーク リージョンに関連付けるには、[ネットワーク リージョンの追加] をクリックし、既存のリージョンを選択するか、[追加] をクリックしてリージョンを追加し、[リンク] を **クリックします**。  
-4. サイトのLocation-Basedルーティングを有効にするには、[場所ベースのルーティング **] をオンにします**。
+3. サイトをネットワーク リージョンに関連付けるには、[ネットワーク リージョンの追加] をクリックし、既存のリージョンを選択するか、[追加] をクリックしてリージョンを追加し、[リンク] をクリック **します**。  
+4. サイトのLocation-Basedを有効にするには、[場所ベースのルーティング] **をオンにします**。
 5. 緊急サービス ポリシーをサイトに割り当てるには、次のいずれかの操作を行います。
 
     - 組織で通話プランを使用している場合、または直接ルーティング電話システムデプロイされている場合は、[緊急通話ポリシー] で目的のポリシーを選択します。
@@ -57,7 +57,7 @@ ms.locfileid: "58598421"
 
 #### <a name="modify-a-network-site"></a>ネットワーク サイトを変更する
 
-1. 管理センターの左側のMicrosoft Teams、[**場所]** ネットワーク トポロジ に移動し、[ネットワーク サイト]  >  **タブをクリック** します。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[**場所**] [ネットワーク トポロジ] に移動し、[ネットワーク サイト]  >  **タブをクリック** します。
 2. サイト名の左側をクリックしてサイトを選択し、[編集] をクリック **します**。
 3. 必要な変更を加え、[保存] を **クリックします。**
 
@@ -69,9 +69,9 @@ ms.locfileid: "58598421"
 
 1. 管理センターの左側のMicrosoft Teams、[**場所**] ネットワーク トポロジ に移動し、[信頼できる  >  **IPs] タブをクリック** します。
 2. [**新規**] をクリックします。
-3. [信頼 **できる IP アドレスの追加** ] ウィンドウで、IP バージョン、IP アドレス、ネットワーク範囲を指定し、説明を追加して、[適用] を **クリックします**。
+3. [信頼 **できる IP アドレスの追加** ] ウィンドウで、IP のバージョン、IP アドレス、ネットワーク範囲を指定し、説明を追加して、[適用] を **クリックします**。
 
-    ![[信頼できる IP アドレスの追加] ウィンドウのスクリーンショット](media/manage-network-topology-add-trusted-ip.png)
+    ![[信頼できる IP アドレスの追加] ウィンドウのスクリーンショット。](media/manage-network-topology-add-trusted-ip.png)
 
 #### <a name="edit-a-trusted-ip-address"></a>信頼できる IP アドレスを編集する
 
@@ -168,7 +168,7 @@ Identity, Mask, SiteID
 
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>外部サブネット (外部信頼済み IP アドレス) を定義する
 
-[New-CsTenantTrustedIPAddress](/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps)コマンドレットを使用して外部サブネットを定義し、テナントに割り当てる。 テナントに対して定義できる外部サブネットの数には制限はありません。
+[New-CsTenantTrustedIPAddress](/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps)コマンドレットを使用して外部サブネットを定義し、テナントに割り当てる。 テナントの外部サブネットの数に制限はありません。
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
@@ -182,6 +182,6 @@ New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "
 
 [「Set-CsTenantTrustedIPAddress」も参照してください](/powershell/module/skype/set-cstenanttrustedipaddress)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams のクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

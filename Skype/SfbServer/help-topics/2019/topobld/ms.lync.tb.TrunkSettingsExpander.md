@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: SIP トランクの設定を編集または変更するには、次の操作を行います。
-ms.openlocfilehash: 32b25ceae180fd252a0b7cba64124c45d2e330a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d9484dd6ab7a9589507808045f8516f0cd9ce70f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579161"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729266"
 ---
 # <a name="trunk-settings-expander"></a>トランク設定エキスパンダー
 
@@ -41,7 +41,7 @@ SIP トランクの設定を編集または変更するには、次の操作を�
 
  **関連付けられた仲介サーバー** ポート: 必須の値で、仲介サーバーがリッスンするように構成されている値に設定されます。
 
-![トランク設定エキスパンダー](../../../media/Trunk_Settings_Expander.jpg)
+![トランク 設定エキスパンダー。](../../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>関連項目
 

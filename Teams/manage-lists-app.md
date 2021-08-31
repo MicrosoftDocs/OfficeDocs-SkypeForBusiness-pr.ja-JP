@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fa5d9c3f1c74133b96eda81d7c56c3f353265b99
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b8d593d4f3238bb588159290655f1aa241beffc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615343"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727006"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -37,11 +37,11 @@ Microsoft Teams のリスト アプリは、組織内のユーザーが情報を
 
 Teams では、ユーザーはチャネル内のタブとしてリストにアクセスします。 **[+]** をクリックしてタブ ギャラリーを開き、開始するチャネルに新しいリスト アプリのタブ インスタンスを追加します。
 
-![タブ ギャラリーのリスト アプリ](media/lists-tab.png)
+![タブ ギャラリーのアプリを一覧表示します。](media/lists-tab.png)
 
 ユーザーは、新しいリストを作成したり、同じチーム内またはアクセス権のある別の SharePoint サイトから既存のリストをピン留めしたりすることができます。 新しいリストは、既存のリストの構造をベースにして、または Excel ワークブックからデータをインポートして、組み込みのテンプレートを基に一から作成することができます。 リスト アプリは Teams のデスクトップ、Web、モバイル クライアントで利用できます。
 
-![リスト アプリでリストを作成する方法](media/lists-create-list.png)
+![リスト アプリでリストを作成する方法。](media/lists-create-list.png)
 
 ## <a name="templates"></a>テンプレート
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: '概要: インストールに必要な管理ツールをインストールする方法について説明Skype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 4e5ec73f4702f3011d09b3338489cb397b7c5922
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 346022633f4c15d2e1601fddbca174f5b0e6f67d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607624"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726296"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>管理ツールをインストールSkype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58607624"
   
 管理ツールには、トポロジ ビルダーとコントロール パネルが含まれます。 管理ツールは、トポロジ内の少なくとも 1 台のサーバーまたは Windows OS バージョンを実行する 64 ビット管理ワークステーションにインストールする必要があります。Skype for Business Server。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、図に示されている手順 6、7、および 8 を順番に実行し、手順 1 ~ 5 の後に実行する必要があります。 管理ツールのインストールは、手順 3 / 8 です。
   
-![概要図](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
+![概要図。](../../media/d856afe8-4758-432f-bc45-e1956016419a.png)
   
 ## <a name="install-skype-for-business-server-administrative-tools"></a>管理Skype for Business Serverインストールする
 
@@ -65,7 +65,7 @@ ms.locfileid: "58607624"
     
      コア コンポーネントのインストールが完了すると、図Skype for Business Server展開ウィザードが自動的に起動します。 
     
-     ![Skype for Business Server展開ウィザード](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
+     ![Skype for Business Server展開ウィザード。](../../media/310c3437-83f9-48fa-a1e1-9fd09009fe31.png)
   
 6. コア コンポーネントに加えて、環境内の少なくとも 1 Skype for Business Server サーバーに Skype for Business Server および Skype for Business Server コントロール パネルをインストールする必要があります。 展開 **ウィザードで [管理ツール** のインストール] をクリックします。
     
@@ -73,7 +73,7 @@ ms.locfileid: "58607624"
     
 8. インストールが完了したら、[完了] を **クリックします**。 図に示すように、管理ツールがサーバーに追加されました。
     
-    ![Skype for Business Server管理ツール](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
+    ![Skype for Business Server管理ツール。](../../media/760873dd-9c87-4efb-bf98-7162d876fd18.png)
   
    - **Skype for Business Server トポロジ ビルダー** トポロジの構築、展開、および管理に使用されるプログラム。
     

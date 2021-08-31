@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: 通話品質ダッシュボードを計画する際に考慮すべき点について学習します。'
-ms.openlocfilehash: e93db0e3e297de8eff81cea16fa15ff9c7dd42e0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d50b8eba500a6197eb12bad98de0ef72c054f26b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588579"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728856"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードの計画を立Skype for Business Server 
  
@@ -57,7 +57,7 @@ QoE アーカイブ、キューブ、リポジトリ データベースを含む
     
 - IIS ホスト CQD Web ポータル
     
-![CQD コンポーネント](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![CQD コンポーネント。](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 同じ CQD アーキテクチャは、Lync Server 2013 および Skype for Business をサポートします。 
   
@@ -128,7 +128,7 @@ CQD には複数のコンポーネントが付属し、各コンポーネント�
 > [!NOTE]
 > QoE アーカイブとキューブの場合、特定の展開オプションでは、ビジネス インテリジェンスまたはEnterpriseエディションが必要Microsoft SQL Server。 詳細については、 [以下の「CQD の](plan.md#Infrastructure_Req) インフラストラクチャ要件」セクションを参照してください。
   
-![CQD コンポーネント](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
+![CQD コンポーネント。](../../media/a52f2e6c-a4dd-4de3-879c-47295d2366c3.png)
   
 ### <a name="single-server-configuration"></a>単一サーバー構成
 
@@ -146,11 +146,11 @@ CQD には複数のコンポーネントが付属し、各コンポーネント�
     
   **異なるコンピューターで CQD Web ポータルと CQD キューブをホストする。** CQD ポータルを SQL Server インストールから分離する必要がある場合や、SQL Server インスタンスと SQL Server Analysis Services インスタンスの SQL Server エディションを混在して一致する必要がある組織は、異なるコンピューターに CQD ポータルと CQD キューブをインストールできます。 QoE アーカイブ コンポーネントは、組織が監視サーバーのパフォーマンス制限に達することなく QoE データをアーカイブするサステナブルな方法を持っている場合にインストールされる唯一の CQD コンポーネントにすることもできます。
   
-![単一サーバー CQD](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
+![単一サーバー CQD。](../../media/f65be6f3-6bba-4c3d-b3ae-c05e03551b5b.png)
   
  **"実稼働" ポータルとは別の "開発" ポータルをホストします。** (REST API を介して) 独自のカスタム レポートを開発する組織は、通常のユーザーが通話品質の監視または調査のためにアクセスする実稼働ポータルと共に追加の (CQD) ポータル インスタンスを展開することを好む場合があります。 開発ポータルは、ポータルに対する変更を実稼働環境から分離できます。 追加の Web ポータルは、異なるコンピューター (以下に示す) に展開するか、同じコンピューター上の別の Web ディレクトリ (図示しない) に展開できます。 CQD セットアップ プロセスは常に定義済みの Web アプリケーション名を持つ既定の Web サイトに CQD Web ポータルを展開しますので、後者を実現するには、追加の CQD Web ポータルを手動で実稼働マシンにコピーする必要があります。
   
-![CQD マルチ サーバーを計画する](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
+![CQD マルチ サーバーを計画します。](../../media/2326e61e-b485-43e6-9f82-145237ba89cf.png)
   
 ### <a name="supported-topologies"></a>サポートされるトポロジ
 
@@ -307,7 +307,7 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
   
 すべての場合、"データベース エンジン サービス" と "Analysis Services" をインストールする必要があります。 Analysis Services のサポートを追加する "管理ツール - 完全" 機能をインストールSQL Server Management Studio必須ではありません。 機能選択画面は図のように表示されます。
   
-![SQL Server要件](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
+![SQL Server要件について説明します。](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
   
 SSAS セットアップを構成する場合は、Analysis Services 構成で、"Server Mode" を "多次元およびデータ マイニング モード" に設定します。 
   

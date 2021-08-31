@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: dc2bbff037a5e35b1fdb2c9b23c03246eee4a25b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7136a8108a5ecd9e55d2def1e4cedd1076b270ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594861"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729056"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Skype for Business Onlineの招待状に含まれる電話番号を設定する
 
@@ -38,7 +38,7 @@ ms.locfileid: "58594861"
 Microsoft 365 または Office 365 の電話会議を使用すると、組織内のユーザーは Skype for Business 会議を作成し、ユーザーが電話を使ってそれらの会議にダイヤルインできます。 Microsoft 365 Office 365 では、Microsoft 電話会議ブリッジまたは承認された電話会議プロバイダー (ACP) によってホストされているサード パーティの電話会議ブリッジを使用できます。
   
 > [!NOTE]
-> 電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。 地域または国/地域で使用できるダイヤルイン電話番号が表示される場合は **、Skype for Business 管理** センターの [Voice  >    >  **電話 Numbers]** を使用して、[追加] をクリックし、[新しいサービス番号] をクリックします。 [ **国/地域**]、[**州/地域**] および [**市区町村**]のリストを使って検索を絞り込みます。> また、無料電話番号サービスを探している場合には、[**無料電話番号**] を [**州/地域**] リストから選択します。
+> 電話会議のすべてのダイヤルイン番号のリストを含んでいるリソースはありません。 地域または国/地域でダイヤルイン電話番号を使用できる場合は **、Skype for Business 管理** センターの [Voice  >    >  **電話 Numbers]** を使用して、[追加] をクリックし、[新しいサービス番号] をクリックします。 [ **国/地域**]、[**州/地域**] および [**市区町村**]のリストを使って検索を絞り込みます。> また、無料電話番号サービスを探している場合には、[**無料電話番号**] を [**州/地域**] リストから選択します。
   
 会議ブリッジは、組織用のダイヤルイン電話番号のセットを提供します。これらの番号はすべて会議開催者が作成した会議に参加するために使用できますが、会議出席依頼にどの番号を含めるか選ぶことができます。
   
@@ -56,7 +56,7 @@ Microsoft 365 または Office 365 の電話会議を使用すると、組織内
     
 3. [ **ユーザー**] を選びます。
     
-    ![Skype for Business 管理センターで、ユーザーの選択を表示](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![管理センターでユーザーを選択Skype for Business表示します。](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. 編集するユーザーを選択します。
     
@@ -133,7 +133,7 @@ Microsoft 365 または Office 365 の電話会議を使用すると、組織内
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
-  ## <a name="want-to-learn-more-about-windows-powershell"></a>詳細については、Windows PowerShell。
+  ## <a name="want-to-learn-more-about-windows-powershell"></a>詳細については、Windows PowerShell?
 - Windows PowerShell で行うのは、ユーザーを管理し、ユーザーに何を許可して何を禁止するかを管理することです。Windows PowerShell を利用すると、Office 365 と Skype for Business Online の管理を 1 か所で行うことができるので、複数のタスクを担当する管理者の日常業務を単純化できます。Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
@@ -148,6 +148,6 @@ Microsoft 365 または Office 365 の電話会議を使用すると、組織内
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[電話会議を試用または購入するには、Microsoft 365 または Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

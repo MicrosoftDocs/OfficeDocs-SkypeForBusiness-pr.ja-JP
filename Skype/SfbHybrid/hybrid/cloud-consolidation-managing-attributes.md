@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: この記事では、オンプレミス環境の使用停止後に属性を管理する方法について説明します。
-ms.openlocfilehash: 9f78dbcfaf1c753d18cc2e85a6b209248c2feea8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64ba4844a1958cfd386a177d91b9c4f2dff89102
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636898"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58736026"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>使用停止後に属性を管理する方法を決定する
 
@@ -57,7 +57,7 @@ ms.locfileid: "58636898"
 
 - ユーザーの電話番号を変更するには、値 `msRTCSIP-Line` *が既に設定されている場合に変更します*。
 
-  ![Active Directory ユーザーとコンピューター ツール](../media/disable-hybrid-1.png)
+  ![Active Directory ユーザーとコンピューター ツール。](../media/disable-hybrid-1.png)
   
 -  ユーザーが移動前にオンプレミスの値を持っていなかった場合は、Teams PowerShell モジュールの `msRTCSIP-Line` `onpremLineUri` [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps)コマンドレットの - パラメーターを使用して電話番号を変更できます。
 

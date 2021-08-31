@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be5a7181a3a3679b1cef33124bcd7ad9d689c7a8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c1353d46d77f12ea7d829f4170f6dedf335e9395
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602082"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729536"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "58602082"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 複数の市場プロバイダーを使用している場合は、仮想化ソリューション プロバイダーに相談して、最小要件が満たされていることを確認することをお勧めします。
   
-現在、Teams/ビデオ (AV) 最適化を使用した VDI での認証は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
+現在、Teams/ビデオ (AV) の最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
 
 ### <a name="platforms-certified-for-teams"></a>Teams 認定プラットフォーム
 
@@ -66,13 +66,13 @@ Teams デスクトップ アプリは、主要な仮想化ソリューション 
 
 |プラットフォーム|ソリューション|
 |----|---|
-|![Microsoft を表すロゴ](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> |
-|![Citrix を表すロゴ](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
-|![VMware を表すロゴ](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
+|![Microsoft を表すロゴ。](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> |
+|![Citrix を表すロゴ。](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
+|![VMware を表すロゴ。](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
-Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「Azure Virtual Desktop での Teams[の使用」を参照してください](/azure/virtual-desktop/teams-on-wvd)。
+Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「Use Teams on Azure Virtual Desktop 」[を参照してください](/azure/virtual-desktop/teams-on-wvd)。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps and Desktops の要件
 
@@ -86,7 +86,7 @@ Citrix Virtual Apps and Desktops の最新バージョンは、[Citrix ダウン
 
 VMware Horizon は、ハイブリッド クラウド全体に仮想デスクトップとアプリを安全に配信するためのモダン プラットフォームです。 優れたエンドユーザー エクスペリエンスを提供するために、VMware Horizon は Teams のメディア最適化を提供します。 この最適化により、仮想デスクトップやアプリ全体の総体的な生産性が向上し、Teams を使用して通話や会議を行う際のユーザー エクスペリエンスが向上します。
 
-VMware Horizon の最新バージョンは、[VMware ダウンロード](https://my.vmware.com/web/vmware/downloads/#all_products) ページからダウンロードできます。 既定では、必要なメディア最適化コンポーネントは Horizon Agent と Horizon Client に含まれているため、Teams の最適化機能を使用するために追加のプラグインをインストールする必要はありません。
+VMware Horizon の最新バージョンは、[VMware ダウンロード](https://customerconnect.vmware.com/downloads/#all_products) ページからダウンロードできます。 既定では、必要なメディア最適化コンポーネントは Horizon Agent と Horizon Client に含まれているため、Teams の最適化機能を使用するために追加のプラグインをインストールする必要はありません。
 
 Teams のメディア最適化を構成する方法に関する最新の要件と手順を入手するには、[こちらの VMware Web サイト](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)をご覧ください。
 
@@ -158,7 +158,7 @@ Microsoft 365 Apps for enterprise は、Teams のマシンごとのインスト�
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>Microsoft 365 Apps for enterprise を介した Teams の展開を除外する方法
 
-Teams と Microsoft 365 Apps for enterprise の詳細については、「[Microsoft 365 Apps for enterprise の新規インストールから Teams を除外する方法](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)」と「[グループ ポリシーを使用して Teams のインストールを制御する](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)」を参照してください。
+Teams と Microsoft 365 Apps for enterprise の詳細については、「[Microsoft 365 Apps for enterprise の新規インストールから Teams を除外する方法](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps)」と「[グループ ポリシーを使用して Teams のインストールを制御する](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)」を参照してください。
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Teams デスクトップ アプリを VM に展開する
 
@@ -227,7 +227,7 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
 
 チャットと共同作業に加えて、通話と会議のサポートを備えた VDI 上の Teams は、サポートされている仮想化プロバイダーのプラットフォームで利用できます。 サポートされる機能は、WebRTC メディア スタックおよび仮想化プロバイダーの実装に基づいています。 次の図では、このアーキテクチャの概要を説明します。
 
-![VDI アーキテクチャ上の Teams を示す図](media/teams-on-vdi-architecture.png)
+![VDI アーキテクチャTeamsを示す図。](media/teams-on-vdi-architecture.png)
 
 > [!IMPORTANT]
 > 現在、VDI で AV 最適化なしで Teams を実行していて、最適化でまだサポートされていない機能 (アプリ共有時の制御の受け渡しなど) を使用している場合、仮想化プロバイダーのポリシーを設定して Teams のリダイレクトを無効にする必要があります。 これは、Teams のメディア セッションが最適化されないことを意味します。 Teams のリダイレクトを無効にするようにポリシーを設定する方法の手順については、仮想化プロバイダーにお問い合わせください。
@@ -409,7 +409,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>呼び出し機能を制限するポリシーを設定する
 
-この VDI ポリシー設定 -DisableCallsAndMeetings $true を使用して VDI の Teams にサインインするユーザーは、次の機能を実行できない必要があります。
+この VDI ポリシー設定 -DisableCallsAndMeetings $true を持つユーザーが VDI で Teams にサインインする場合、次の機能を実行できない必要があります。
 
 - 通話を行います。
 - 会議に参加します。
@@ -435,7 +435,7 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true を持つユーザーが VDI 上の Teams にサインインすると、次の機能を実行できます。
+VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true が VDI の Teams にサインインすると、次の機能を利用できます。
 
 - チャットから画面共有を行います。
 - 会議に参加して画面を共有する。 音声を電話に移動します。

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsのハイブリッド接続Skype for Business計画します。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: c1faef42d6c5842649bfb8b8bf79531ac2e367b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 26b837b72769380c3b67e1d24eee54cefc2b7575
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600882"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727016"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>ハイブリッド接続を計画して、Skype for Business ServerとTeams
 
@@ -74,7 +74,7 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
 
 この種類の構成は、共有 SIP アドレス空間の機能に依存し、次の図に示すように、contoso.com などのドメインのユーザーは、Skype for Business Server と Teams を使用する間で分割される場合があります。
 
-![Skype for Business Hybrid接続 - 分割ドメイン](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![Skype for Business Hybrid接続 - 分割ドメイン。](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 共有 SIP アドレス空間が構成されている場合:
 
@@ -120,7 +120,7 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
   - Lync Server 2013 および Skype for Business Server 2019
   - Lync Server 2013 および Skype for Business Server 2015
 
-*任意* のトポロジでハイブリッド音声が必要な場合は、フェデレーション エッジとして指定されているエッジ サーバーと、SIP フェデレーションに関連付けられているプールの両方が Skype for Business 2015 以降で実行されている必要があります。 Lync 2013 プールが存在する場合、ユーザーは Lync 2013 プールに残ります。 詳細については、「音声ソリューションを [計画する」を参照してください](/MicrosoftTeams/cloud-voice-landing-page.md)。
+*任意* のトポロジでハイブリッド音声が必要な場合は、フェデレーション エッジとして指定されているエッジ サーバーと、SIP フェデレーションに関連付けられているプールの両方が Skype for Business 2015 以降で実行されている必要があります。 Lync 2013 プールが存在する場合、ユーザーは Lync 2013 プールに残ります。 詳細については、「音声ソリューションを [計画する」を参照してください](/MicrosoftTeams/cloud-voice-landing-page)。
 
 > [!NOTE]
 > Lync Server 2010 は、このアプリケーションではTeams。

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server機能は、ゲートウェイと仲介サーバー間の複数の関連付けをサポートします。 これらの関連付けは、仲介サーバー プールと公衆交換電話網 (PSTN) ゲートウェイ、セッション ボーダー コントローラー (SBC)、または IP-PBX の間の論理的な関連付けであるトランクを定義することで行います。 トポロジ ビルダーを使用して、ゲートウェイを仲介サーバー (トランク) に関連付けます。
-ms.openlocfilehash: 99a549fddab959681f71d8de124793957ec9d445
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e4bc7d0248fa9116651a1384a17a7a8347b2d8f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635251"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729046"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>複数のトランクのサポート (Skype for Business Server
 
@@ -33,4 +33,4 @@ Skype for Business Server機能は、ゲートウェイと仲介サーバー間�
 
 次の図は、仲介サーバーとゲートウェイごとに定義されている複数のトランクを示しています。 
 
-![複数のトランクの割り当て](../../media/multiple-trunk-assignments.jpg)
+![複数のトランク割り当て。](../../media/multiple-trunk-assignments.jpg)

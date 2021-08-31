@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: ハイブリッド シナリオでの Skype for Businessテレメトリ ツールを使用してオンプレミスの実装を監視する方法の概要。
-ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608644"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726486"
 ---
 # <a name="plan-call-data-connector"></a>通話データ コネクタの計画
 
@@ -54,7 +54,7 @@ Call Analytics および CQD ツールを使用すると、次のように、通
 
 もちろん、一部の通話品質データをオンプレミスに保持する必要があります。 たとえば、カスタマイズされたレポートとワークフローでサード パーティ製のソリューションを使用している場合などです。  データ コネクタの呼び出しでは、次の図に示すように、データのコピーをオンプレミス サーバーに保持しながら、オンライン サービスへのデータの送信を構成できます。
 
-![SfB クラウド ボイスメール](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![SfB クラウド ボイスメール。](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
 ## <a name="requirements"></a>要件
 

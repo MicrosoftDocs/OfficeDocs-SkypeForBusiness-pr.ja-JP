@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: 電話会議ブリッジの設定 (入退出通知、名前または電話番号の再生、トーン、発信者に名前の記録を促す) を変更します。
-ms.openlocfilehash: 434142eb0e7d8cd4759eec180e903eaecad47525
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 413cd4eeb54785f32e0916b5872c477095318cda
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607854"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729096"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>電話会議ブリッジの設定を変更する
 
@@ -43,7 +43,7 @@ Microsoft 365 または Office 365 で電話会議を設定すると、電話会
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -77,7 +77,7 @@ Microsoft 365 または Office 365 で電話会議を設定すると、電話会
     
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター のみを使用する場合に、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター を使用する場合に限って、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
