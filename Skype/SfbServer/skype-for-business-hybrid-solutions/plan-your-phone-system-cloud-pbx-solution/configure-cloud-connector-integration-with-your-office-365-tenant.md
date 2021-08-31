@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: クラウド コネクタの統合を組織または組織Microsoft 365構成Office 365します。
-ms.openlocfilehash: 5e6cf8033a4207b79ff2f7d0915849b19eec2b65
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3b8b13669a2e52ed5146e1bd0ca179a5542e43d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628529"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733376"
 ---
 # <a name="configure-cloud-connector-integration-with-your-microsoft-365-or-office-365-organization"></a>クラウド コネクタの統合を組織または組織Microsoft 365構成Office 365する
 
@@ -66,7 +66,7 @@ ms.locfileid: "58628529"
     
 2. SRV レコードは、ユーザーまたはユーザーのMicrosoft 365展開Office 365によって自動的に作成されます。 エッジで次の 2 つの SIP サービス (sip と \_ \_ sipfederationtls) を参照できる点を確認します。
     
-     ![SRV レコードの確認](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
+     ![SRV レコードの確認。](../../media/3c353a29-6dcc-4ed3-98db-3a6bed3e929e.png)
   
 ## <a name="set-up-hybrid-connectivity-between-cloud-connector-edition-and-microsoft-365-or-office-365"></a>クラウド コネクタエディションとクラウド コネクタエディション間のハイブリッド接続をMicrosoft 365またはOffice 365
 

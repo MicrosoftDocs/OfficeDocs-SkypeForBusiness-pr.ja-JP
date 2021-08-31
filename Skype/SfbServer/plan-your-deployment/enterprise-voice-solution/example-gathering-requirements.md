@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: ネットワークのサイト、地域、帯域幅に関する情報の収集など、Skype for Business Server エンタープライズ VoIP での通話受付管理の計画の詳細な例を示します。
-ms.openlocfilehash: 88af4148bbdd4063f3897d246a7c56795928ad01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 180e62ca2784186c4cd9e646548183ddbcfeac30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590992"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731456"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>例: 通話受付管理の要件をSkype for Business Server
 
@@ -57,7 +57,7 @@ ms.locfileid: "58590992"
 
    **3 つのネットワーク地域に分けられたエンタープライズ ネットワークの例**
 
-     ![3 つのネットワーク領域を持つネットワーク トポロジの例](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
+     ![3 つのネットワーク領域を持つネットワーク トポロジの例。](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
     > Multiprotocol Label Switching (MPLS) ネットワークは、それぞれの地理的な場所が対応するネットワーク サイトを有する、ネットワーク地域として表される必要があります。 詳細については、「通話受付管理のコンポーネントとトポロジ[」](components-and-topologies.md)を参照Skype for Business。 
@@ -109,7 +109,7 @@ ms.locfileid: "58590992"
 
    **帯域幅の制限がない 3 つのネットワーク サイト (シカゴ、ニューヨーク、デトロイト) および WAN 帯域幅の制限がある 3 つのネットワーク サイト (ポートランド、リノ、アルバカーキ) を持つ CAC ネットワーク地域、北アメリカ**
 
-     ![WAN 帯域幅によって制限されるネットワーク サイトの例](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![WAN 帯域幅によって制限されるネットワーク サイトの例。](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. 帯域幅の制限がある WAN リンクに対して、次の項目を決定します。
 
@@ -187,7 +187,7 @@ ms.locfileid: "58590992"
 
    **関連付けられた帯域幅制限とネットワーク地域リンク**
 
-     ![3 つの地域間の制限の例](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
+     ![3 つの地域間の制限の例。](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
 
    **地域リンク帯域幅情報 (帯域幅は kbps で表示)**
 
@@ -225,7 +225,7 @@ ms.locfileid: "58590992"
 
    **リノとアルバカーキ間のサイト間リンクに対する帯域幅処理能力および帯域幅制限を示すCAC ネットワーク地域、北アメリカ**
 
-     ![WAN 帯域幅によって制限されるネットワーク サイトの例](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![WAN 帯域幅によって制限されるネットワーク サイトの例。](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **2 つのネットワーク サイト間のサイト間リンクの帯域幅情報 (帯域幅は kbps で表示)**
 

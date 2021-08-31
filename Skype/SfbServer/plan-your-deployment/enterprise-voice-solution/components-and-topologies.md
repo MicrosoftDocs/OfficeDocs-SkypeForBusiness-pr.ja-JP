@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: MPLS ネットワーク、SIP トランク、またはサード パーティの PSTN ゲートウェイまたは PBX がある場合の通話受付管理 (CAC) の計画。 この値は、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631641"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730912"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>通話受付管理のコンポーネントとトポロジは、Skype for Business
 
@@ -35,13 +35,13 @@ Multiprotocol Label Switching (MPLS) では、すべてのサイトがフル メ
 
 **MPLS ネットワークの例**
 
-![MPLS を使用した CAC](../../media/CAC_MPLS_1.jpg)
+![CAC と MPLS。](../../media/CAC_MPLS_1.jpg)
 
 MPLS ネットワークで通話受付管理 (CAC) を展開するには、MPLS クラウドを表すネットワーク地域を作成し、MPLS の各サテライト サイトを表すネットワーク サイトを作成します。 次の図で、前の図の MPLS ネットワークの例を表すための、ネットワーク地域およびネットワーク サイトの構成方法について説明します。 全体的な帯域幅および帯域幅セッションの制限は、各ネットワーク サイトから MPLS クラウドを表すネットワーク地域までの WAN リンクの容量に基づきます。
 
 **MPLS ネットワークのネットワーク地域およびネットワーク サイト**
 
-![MPLS ダイアグラムを使用した通話受付管理 (CAC)](../../media/CAC_MPLS_2.jpg)
+![MPLS ダイアグラムを使用した通話受付管理 (CAC)。](../../media/CAC_MPLS_2.jpg)
 
 ## <a name="call-admission-control-on-a-sip-trunk"></a>SIP トランクの通話受付管理
 
@@ -51,7 +51,7 @@ SIP トランクに通話受付管理 (CAC) を展開するには、インター
 
 **SIP トランクの CAC 構成**
 
-![通話受付管理 SIP トランキング図](../../media/CAC_SIP_trunk_1.jpg)
+![通話受付管理 SIP トランキング図。](../../media/CAC_SIP_trunk_1.jpg)
 
 SIP トランクに CAC を構成するには、CAC の展開時に次の作業を行う必要があります。
 
@@ -74,7 +74,7 @@ CAC は、仲介サーバーのゲートウェイ インターフェイスから
 
 **ケース 1: 仲介サーバーと PSTN ゲートウェイの間の CAC**
 
-![ケース 1: 仲介サーバー PSTN ゲートウェイ間の CAC](../../media/CAC_gateways_1.jpg)
+![ケース 1: 仲介サーバー PSTN ゲートウェイ間の CAC。](../../media/CAC_gateways_1.jpg)
 
 この例では、仲介サーバーと PSTN ゲートウェイの間に CAC が適用されます。 ネットワーク サイト 1 Skype for Businessクライアント ユーザーがネットワーク サイト 2 の PSTN ゲートウェイを介して PSTN 通話を発信すると、メディアは WAN リンクを経由して流れます。 したがって、PSTN セッションごとに 2 つの CAC チェックが実行されます。
 
@@ -99,7 +99,7 @@ CAC は、仲介サーバーのゲートウェイ インターフェイスから
 
 **ケース 2: 仲介サーバーと MTP を使用するサード パーティ製 PBX の間の CAC**
 
-![ケース 2: 仲介サーバー PBX と MTP の間の CAC](../../media/CAC_gateways_2.jpg)
+![ケース 2: 仲介サーバー PBX と MTP の間の CAC。](../../media/CAC_gateways_2.jpg)
 
 この例では、仲介サーバーと PBX/MTP の間に CAC が適用されます。 ネットワーク サイト 1 Skype for Businessクライアント ユーザーがネットワーク サイト 2 にある PBX/MTP を介して PSTN 通話を行う場合、メディアは WAN リンクを経由して流れます。 したがって、PSTN セッションごとに、次の 2 つの CAC チェックが実行されます。
 
@@ -124,7 +124,7 @@ CAC は、仲介サーバーのゲートウェイ インターフェイスから
 
 **ケース 3: 仲介サーバーと MTP のないサード パーティ製 PBX の間の CAC**
 
-![ケース 3: 仲介サーバー PBX 間の CAC MTP なし](../../media/CAC_gateways_3.jpg)
+![ケース 3: 仲介サーバー PBX 間の CAC は MTP を使用しません。](../../media/CAC_gateways_3.jpg)
 
 この例では、ネットワーク サイト 1 の Skype for Business クライアント ユーザーが PBX を介してユーザーに通話を行う場合、仲介サーバーはプロキシ レグ (Skype for Business クライアント アプリケーションと仲介サーバーの間) でのみ CAC チェックを実行できます。 セッションが要求されている間、仲介サーバーはエンドポイント デバイスに関する情報を持たないので、呼び出しの確立前に (仲介サーバーとサード パーティエンドポイントの間の) WAN リンクで CAC チェックを実行できません。 ただし、セッションが確立されると、仲介サーバーはトランクで使用される帯域幅の会計を容易にします。
 

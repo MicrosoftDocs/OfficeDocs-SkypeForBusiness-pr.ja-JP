@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft Teams で音声会議情報を記載したメールをユーザーに送信する方法について説明します。
-ms.openlocfilehash: 7b92cfd6b030dab4dcf823abc17baeb048a0dc42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20050f2e4c0e2c8905b552e914c39b72de63c439
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594499"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733236"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft Teams の電話会議情報が含まれたメールをユーザーに送信する
 
@@ -40,14 +40,14 @@ ms.locfileid: "58594499"
    
 送信されるメールの例を次に示します。
   
-![ダイヤルイン会議の電子メール メッセージの例](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![ダイヤルイン会議の電子メール メッセージの例。](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議情報を含むメールをユーザーに送信する
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -71,6 +71,6 @@ ms.locfileid: "58594499"
     
   - ユーザーの電話会議プロバイダーが Microsoft に変更された場合。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話会議を試用または購入するには、Microsoft 365またはOffice 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

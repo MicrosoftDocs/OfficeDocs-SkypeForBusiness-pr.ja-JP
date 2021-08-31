@@ -1,5 +1,5 @@
 ---
-title: Teams でポリシーを割り当Teams
+title: グループでポリシーを割り当Teams
 author: KarliStites
 ms.author: kastites
 manager: serdars
@@ -14,16 +14,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: グループ内のユーザーとグループにポリシーとポリシー パッケージを割り当てるさまざまな方法についてMicrosoft Teams。
+description: グループ内のユーザーとグループにポリシーとポリシー パッケージを割り当てるさまざまな方法Microsoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb85ae05925a44db75ed63ada899c6fca92cbceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e17b468d2c3336dd6b34d0574b7a7c4e7c069186
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621989"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731056"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>ポリシーの割り当Teams - 使用を開始する
 
@@ -43,17 +43,17 @@ ms.locfileid: "58621989"
 
 ユーザーに直接ポリシーが割り当てられている場合 （個別に、またはバッチ割り当てによって）、そのポリシーが優先されます。 次の視覚的な例では、ユーザーの有効なポリシーは、ユーザーに直接割り当てられる、Square 会議ポリシーです。
 
-![直接割り当てられたポリシーの優先順位を示す図](media/assign-policies-example-directly-assigned.png)
+![直接割り当てられたポリシーが優先される方法を示す図。](media/assign-policies-example-directly-assigned.png)
 
 ユーザーに特定の種類のポリシーが直接割り当てられていない場合は、そのユーザーがメンバーになっているグループに割り当てられているポリシーが優先されます。 ユーザーが複数のグループのメンバーである場合、特定のポリシーの種類に対して最も高い ([グループ](assign-policies-users-and-groups.md#group-assignment-ranking)割り当てランキング ) を持つポリシーが優先されます。
 
-この視覚的な例では、ユーザーの有効なポリシーは Exec Teams ポリシーと HD ポリシーです。このポリシーは、ユーザーがメンバーであり、同じポリシーの種類のポリシーも割り当てられている他のグループに対して最も高い割り当て順位を持っています。  
+この視覚的な例では、ユーザーの有効なポリシーは Exec Teams ポリシーと HD ポリシーです。これは、ユーザーがメンバーであり、同じポリシーの種類のポリシーも割り当てられている他のグループに対して最も高い割り当て順位が付けられます。  
 
-![グループから継承されたポリシーの優先順位を示す図](media/assign-policies-example-group.png)
+![グループから継承されたポリシーが優先される方法を示す図。](media/assign-policies-example-group.png)
 
 ユーザーが直接ポリシーを割り当てられていない場合や、ポリシーが割り当てられているグループのメンバーではない場合、ユーザーはそのポリシーの種類に対してグローバルな (組織全体の既定の) ポリシーを取得します。 視覚的な例を次に示します。
 
-![グローバル ポリシーの優先順位を示す図](media/assign-policies-example-global.png)
+![グローバル ポリシーが優先される方法を示す図。](media/assign-policies-example-global.png)
 
 詳細については、 ( 優先順位規則 に[関するページを参照してください](assign-policies-users-and-groups.md#precedence-rules)。
 
@@ -67,7 +67,7 @@ ms.locfileid: "58621989"
 |---------|---------|----|
 |[ポリシーを個々のユーザーに割り当てる](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | Teams を初めて使用する場合、1 つまたはいくつかのポリシーを少数のユーザーに割り当てるだけで済みます。 |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット
 |[ポリシーをグループに割り当てる](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |ユーザーのグループ メンバーシップに基づいてポリシーを割り当てる。 たとえば、セキュリティ グループまたは配布リスト内のすべてのユーザーにポリシーを割り当てるとします。| Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
-|[ポリシーをユーザーのバッチに割り当てる](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | 多数のユーザーにポリシーを割り当てる。 たとえば、組織内の数百または数千人のユーザーに一度にポリシーを割り当てるとします。 |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
+|[ポリシーをユーザーのバッチに割り当てる](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | 多数のユーザーにポリシーを割り当てる。 たとえば、組織内の数百または数千人のユーザーにポリシーを一度に割り当てるとします。 |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
 |[ポリシー パッケージをユーザーに割り当てる](assign-policy-packages.md#assign-a-policy-package-to-users)  |同じロールまたは同様のロールを持つ組織内の特定のユーザー セットに複数のポリシーを割り当てます。 たとえば、学校の教師に教育 (教師) ポリシー パッケージを割り当て、チャット、通話、会議へのフル アクセス権を与えます。 Education (中学生) ポリシー パッケージをセカンダリ 学生に割り当て、プライベート通話などの特定の機能を制限します。  |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
 |[ポリシー パッケージをグループに割り当てる](assign-policy-packages.md#assign-a-policy-package-to-a-group) (プライベート プレビュー)   |同じロールまたは同様のロールを持つ組織内のユーザーグループに複数のポリシーを割り当てます。 たとえば、セキュリティ グループまたは配布リスト内のすべてのユーザーにポリシー パッケージを割り当てるとします。 |Microsoft Teams 管理センター (近日公開予定) または Teams PowerShell モジュールの PowerShell コマンドレット|
 |[ポリシー パッケージをユーザーのバッチに割り当てる](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)|同じロールまたは同様のロールを持つ組織内のユーザーのバッチに複数のポリシーを割り当てます。 たとえば、バッチ割り当てを使用して、学校内のすべての教師に教育 (教師) ポリシー パッケージを割り当て、チャット、通話、会議へのフル アクセス権を与えます。 Education (中学生) ポリシー パッケージをセカンダリ 学生のバッチに割り当て、プライベート通話などの特定の機能を制限します。|Teams PowerShell モジュールの PowerShell コマンドレット|
@@ -82,7 +82,7 @@ ms.locfileid: "58621989"
 2. 現在の設定を表示するには、**グローバルな (組織全体の既定の)** ポリシーを選択します。
 3. 必要に応じてポリシーを更新し、**[適用]** を選択します。
 
-![管理センターでグローバル ポリシー Teams更新する](media/assign-globalpolicy.png)
+![管理センターでグローバル ポリシー Teams更新します。](media/assign-globalpolicy.png)
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
@@ -120,19 +120,19 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ## <a name="view-your-policy-assignments-in-the-activity-log"></a>アクティビティ ログでポリシーの割り当てを表示する
 
-Microsoft Teams 管理センターでユーザーにポリシーを割り当てると、それらのポリシー割り当ての状態をアクティビティ ログに表示できます。 アクティビティ ログには、過去 30 日間の Microsoft Teams 管理センターを通じて、20 人を超えるユーザーのバッチへのポリシー割り当てが表示されます。 アクティビティ ログには、ポリシー パッケージの割り当て、Microsoft Teams 管理センターを通じて 20 人未満のユーザーのバッチに対するポリシーの割り当て、または PowerShell を使用したポリシーの割り当ては表示されます。
+Microsoft Teams 管理センターでユーザーにポリシーを割り当てると、それらのポリシー割り当ての状態をアクティビティ ログに表示できます。 アクティビティ ログには、過去 30 日間の Microsoft Teams 管理センターを通じて、20 人を超えるユーザーのバッチへのポリシー割り当てが表示されます。 アクティビティ ログには、ポリシー パッケージの割り当て、Microsoft Teams 管理センターを通じて 20 人未満のユーザーのバッチに対するポリシーの割り当て、または PowerShell を使用したポリシー割り当てが表示される点に気を付けます。
 
-![[アクティビティ ログ] ページのスクリーンショット](media/activity-log.png)
+![[アクティビティ ログ] ページのスクリーンショット。](media/activity-log.png)
 
 ## <a name="view-your-policy-assignment-activities-in-the-activity-log"></a>アクティビティ ログでポリシー割り当てアクティビティを表示する
 
 アクティビティ ログでポリシーの割り当てを表示するには:
 
-1. 管理センターの左側のナビゲーションMicrosoft Teamsダッシュボード] に移動し、[アクティビティログ] で[詳細の表示]**を選択します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams ダッシュボード に移動し、[アクティビティログ] で[詳細の表示]**を選択します**。
 2. すべてのポリシー割り当てを表示したり、状態で一覧をフィルター処理して、[開始していない]、[進行中]、または [完了] の割り当てのみを **表示することができます**。 各課題に関する次の情報が表示されます。
     - **[** 名前]: ポリシー割り当ての名前。 リンクをクリックすると、詳細が表示されます。 これには、ポリシーが割り当てられたユーザーの数と、完了した割り当て、進行中、開始されていない割り当ての数が含まれます。 バッチ内のユーザーの一覧と、各ユーザーの状態と結果も表示されます。 以下は、実行例です。
 
-        ![のスクリーンショット](media/activity-log-policy-assignment-detail.png)
+        ![のスクリーンショット。](media/activity-log-policy-assignment-detail.png)
 
     - **送信** 済み: ポリシーの割り当てが送信された日付と時刻。
     - **完了時刻**: ポリシーの割り当てが完了した日付と時刻。
@@ -142,7 +142,7 @@ Microsoft Teams 管理センターでユーザーにポリシーを割り当て�
 > [!NOTE]
 > [ユーザー] ページからアクティビティ ログに **アクセス** することもできます。 [適用] **をクリック** して一括ポリシーの割り当てを送信すると、ページの上部にバナーが表示されます。 バナーの **[アクティビティ ログ** ] リンクをクリックします。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [ユーザーとグループにポリシーを割り当てる](assign-policies-users-and-groups.md)
 - [ユーザーとグループにポリシー パッケージを割り当てる](assign-policy-packages.md)

@@ -17,12 +17,12 @@ description: 自分の組織での通話および電話会議の使用状況の�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8c83605e05e5d28b4ac230487baa5de47dd74aa5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf7432f33162b51199beb7783f68dac86f88d697
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631241"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731036"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 使用状況レポート
 
@@ -42,7 +42,7 @@ Microsoft Teams 管理センターの Teams PSTN (公衆交換電話網) 使用�
 
 ### <a name="calling-plans"></a>通話プラン
 
-[ ![管理センターの通話プラン PSTN 使用状況レポートのスクリーンショット](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "番号付き吹き出しを含む Microsoft Teams 管理センターの PSTN 使用状況レポートのスクリーンショット") ](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
+[![管理センターの通話プラン PSTN 使用状況レポート レポートのスクリーンショット](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png番号付き吹き出しが表示された Microsoft Teams PSTN 利用状況レポートのスクリーンショット」を参照してください。](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png#lightbox)
 
 |Callout |説明  |
 |--------|-------------|
@@ -57,7 +57,7 @@ Microsoft Teams 管理センターの Teams PSTN (公衆交換電話網) 使用�
 
 ### <a name="direct-routing"></a>ダイレクト ルーティング
 
-[ ![管理センターのダイレクト ルーティング PSTN 使用状況レポートのスクリーンショット](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "番号付き吹き出しを含む Microsoft Teams 管理センターのダイレクト ルーティング PSTN 使用状況レポートのスクリーンショット") ](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
+[![管理センターの直接ルーティング PSTN 使用状況レポート レポートのスクリーンショット](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png番号付き吹き出しが表示された Microsoft Teams PSTN の直接ルーティング使用状況レポートのスクリーンショット」を参照してください。](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png#lightbox)
 
 |Callout |説明  |
 |--------|-------------|

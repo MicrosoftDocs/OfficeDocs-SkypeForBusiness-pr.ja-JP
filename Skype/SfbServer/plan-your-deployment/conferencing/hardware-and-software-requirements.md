@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: '概要: このトピックを参照して、電話会議のハードウェア要件とソフトウェア要件についてSkype for Business Server。'
-ms.openlocfilehash: 4f3eff319165a50aa52108903c5f091415a1018d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfc449abc2e01676a412fc0ead85eeae12aa2610
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603856"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733542"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>会議のハードウェア要件とソフトウェア要件Skype for Business Server
 
@@ -29,7 +29,7 @@ ms.locfileid: "58603856"
 
 **会議の機能と要件**
 
-![会議コンポーネント](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
+![会議コンポーネント。](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
 
  トポロジに関する考慮事項の詳細については、「会議トポロジを計画する」[を参照Skype for Business Server。](conferencing-topology.md)
 
@@ -132,7 +132,7 @@ Skype for Business Serverダイヤルイン会議の音声プロンプトと音�
 **必要なサーバー ポート**
 
 
-|**サーバーの役割**|**サービス名**|**Port**|**プロトコル**|**注**|
+|**サーバーの役割**|**サービス名**|**Port**|**プロトコル**|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|
 |フロント エンド サーバー  <br/> |Skype for Business ServerIM 会議サービス  <br/> |5062  <br/> |TCP  <br/> |インスタント メッセージング (IM) 会議の SIP 要求を受信するために使用。  <br/> |
 |フロント エンド サーバー  <br/> |Skype for Business ServerWeb 会議サービス  <br/> |8057  <br/> |TCP (TLS)  <br/> |クライアントからの PSOM (永続共有オブジェクト モデル) 接続をリッスンするために使用。  <br/> |
@@ -150,7 +150,7 @@ Skype for Business Serverダイヤルイン会議の音声プロンプトと音�
 **必要なクライアント ポート**
 
 
-|**Port**|**プロトコル**|**注**|
+|**Port**|**プロトコル**|**メモ**|
 |:-----|:-----|:-----|
 |443  <br/> |TCP (PSOM/TLS)  <br/> |Web 会議セッションへの外部ユーザー アクセスで使用。  <br/> |
 |443  <br/> |TCP (STUN/MSTURN)  <br/> |音声ビデオ セッションとメディアへの外部ユーザー アクセス (TCP) で使用  <br/> |

@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c44d988bdcfbd08f462a99c76b4095bb01ac60c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca1be1e71578f9ef43e785af5a3e3fd9b047e6ed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619343"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733916"
 ---
 # <a name="upgrade-strategies-for-it-administrators"></a>IT 管理者向けアップグレード戦略
 
-![「展開と実装」段階が強調表示された、アップグレード行程の各段階](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
+![デプロイと実装のステージに重点を置いたアップグレード体験のステージ。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、アプリケーションへのアップグレードを実装する IT 管理者向けTeamsをSkype for Business。
 
@@ -54,7 +54,7 @@ ms.locfileid: "58619343"
 
 - このオプションは使用できないモデルであり、Teams の使用を開始するために管理者の操作は必要ないが、Microsoft 365 または Office 365 ライセンスを割り当てる以外は必要ない。 ユーザーが既に Skype for Business Online を使用している場合は、このモデルを既に使用している可能性があります。
 
-- 重複する機能モードから抜け出して TeamsOnly に移行するのも困難な場合があります。 アップグレード済みのユーザーは Teams でのみ通信するため、そのユーザーと通信する組織内の他のユーザーはすべて Teams を使用する必要があります。  Teams を使用し始めていないユーザーがいる場合、メッセージを受け取れない可能性が生じます。 さらに、そのようなユーザーには、オンラインの TeamsOnly ユーザーが Skype for Business に表示されません。 一部の組織では、これを回避するためにテナント 全体のアップグレードをテナント 全体のグローバル ポリシーを使用して行います。ただし、これを回避するには、すべてのユーザーをアップグレードする準備が整うまで、先行計画を立て、待機する必要があります。
+- 重複する機能モードから抜け出して TeamsOnly に移行するのも困難な場合があります。 アップグレード済みのユーザーは Teams でのみ通信するため、そのユーザーと通信する組織内の他のユーザーはすべて Teams を使用する必要があります。  Teams を使用し始めていないユーザーがいる場合、メッセージを受け取れない可能性が生じます。 さらに、そのようなユーザーには、オンラインの TeamsOnly ユーザーが Skype for Business に表示されません。 一部の組織では、これを回避するためにテナント 全体のアップグレードをテナント 全体のグローバル ポリシーを使用して行います。ただし、この場合は、すべてのユーザーをアップグレードする準備が整うまで、先行計画を立て、待機する必要があります。
 
 
 ## <a name="a-select-capabilities-upgrade-for-an-organization-that-has-not-yet-started-using-teams"></a>アプリケーションの使用をまだ開始していない組織の選択機能Teams
@@ -89,20 +89,20 @@ Teams のアクティブなユーザーが 1 人もいない組織の場合、�
 - 既定で、TeamsOnly モードへのアップグレードや SfbWithTeamsCollabAndMeetings モードの割り当てを実行すると、Skype for Business 会議は Teams に移行されます。  
 
 > [!NOTE]
-> Skype for Business Online の提供が近日提供される予定で、Microsoft は組織の移行方法を簡略化Teams。 オンプレミスから TeamsOnly に直接ユーザーを移動するスイッチを指定 `-MoveToTeams` `Move-CsUser` する必要はなくなりました。 以前は、このスイッチが指定されていない場合、ユーザーは Skype for Business Server オンプレミスのホームから Skype for Business Online に移行し、モードは変更されません。 を使用してユーザーをオンプレミスからクラウドに移動すると、ユーザーには TeamsOnly モードが自動的に割り当てられます。また、オンプレミスからの会議は、スイッチが実際に指定されているかどうかに関係なく、 と同様に、Teams 会議に自動的に変換されます。 `Move-CsUser` `-MoveToTeams switch had been specified` この動作は、すべてのバージョンの Skype For Business Server と Lync Server 2013 (サポートされていません) で使用できます `-MoveToTeams` 。
+> Skype for Business Online の提供が近日提供が予定されているのに備えて、Microsoft は組織の移行方法を簡略化Teams。 オンプレミスから TeamsOnly に直接ユーザーを移動するスイッチを指定 `-MoveToTeams` `Move-CsUser` する必要はなくなりました。 以前は、このスイッチが指定されていない場合、ユーザーは Skype for Business Server オンプレミスのホームから Skype for Business Online に移行し、モードは変更されていませんでした。 を使用してユーザーをオンプレミスからクラウドに移動すると、ユーザーには TeamsOnly モードが自動的に割り当てられます。また、オンプレミスからの会議は、スイッチが実際に指定されているかどうかに関係なく、 と同様に、Teams 会議に自動的に変換されます。 `Move-CsUser` `-MoveToTeams switch had been specified` この動作は、すべてのバージョンの Skype For Business Server と Lync Server 2013 で使用できます (サポートされていません `-MoveToTeams` )。
 
-次の図は、組織の選択機能のアップグレードの概念的なフェーズを示しています。以前に使用Teams。 バーの高さは、ユーザー数を表します。 アップグレードのどのフェーズでも、すべてのユーザーが相互に通信できます。  Skype for Business ユーザーは TeamsOnly ユーザーと相互運用を使用して通信します。逆の場合も同様です。 Islands モードのユーザーは、両方のクライアントを実行する必要があります。
+次の図は、組織の選択機能のアップグレードの概念的なフェーズを示しています。以前の使用Teams。 バーの高さは、ユーザー数を表します。 アップグレードのどのフェーズでも、すべてのユーザーが相互に通信できます。  Skype for Business ユーザーは TeamsOnly ユーザーと相互運用を使用して通信します。逆の場合も同様です。 Islands モードのユーザーは、両方のクライアントを実行する必要があります。
 
-![選択機能のアップグレードを示す図 (以前のバージョンを使用Teams](media/teams-upgrade-1.png)
+![選択機能のアップグレードを、事前に使用Teams。](media/teams-upgrade-1.png)
 
 
-## <a name="a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>諸島モードで既にアカウントを使用している組織のTeamsアップグレード
+## <a name="a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode"></a>既に [島] モードで選択機能を使用している組織Teamsアップグレード
 
 組織内の一部のユーザーが Teams をアイランド モードでアクティブに使用している場合、既存のユーザーから機能を削除することは望ましくない場合があります。 その場合、テナント全体のポリシーを変更する前に、もう 1 つステップが必要になります。 この問題の解決策は、テナント全体のポリシーを SfbWithTeamsCollab に設定する前に、既存のアクティブな Teams ユーザーをアイランド モードで grandfather 化することです。  これが完了したら、上述のように展開を実行できます。ただし、TeamsOnly に移行する 2 グループのユーザーが存在することになります。つまり、Teams でアクティブだったユーザーはアイランド モードになり、残りのユーザーは SfbWithTeamsCollab モードになります。 管理者は、これらのユーザーを TeamsOnly モードに段階的に移行できます。
 
 1. Teams でアクティブなユーザーを見つけるには、次のようにします。
 
-   1. [レポートMicrosoft 365 管理センター左側のナビゲーションで、[レポート]、および [使用状況] の順に移動します。 
+   1. [レポート] Microsoft 365 管理センター左側のナビゲーションで、[レポート]、および [使用状況] の順に移動します。 
    2. [レポートの選択] ドロップダウンで、[Microsoft Teams]、[ユーザー アクティビティ] の順に選択します。 このようにすると、Teams でアクティブになっているユーザーのエクスポート可能なテーブルが提供されます。 
    3. [エクスポート] をクリックして、Excel を開き、フィルタリングして、Teams でアクティブなユーザーのみを表示します。
 
@@ -137,7 +137,7 @@ Teams のアクティブなユーザーが 1 人もいない組織の場合、�
 次の図は、選択機能の移行の概念的なフェーズを示しています。この移行では、最初にアクティブな諸島のユーザーがいます。 バーの高さは、ユーザー数を表します。 アップグレードのどのフェーズでも、すべてのユーザーが相互に通信できます。  Skype for Business ユーザーは TeamsOnly ユーザーと相互運用を使用して通信します。逆の場合も同様です。 
 
 
-![諸島モードのアクティブ ユーザーによる選択機能のアップグレードを示す図](media/teams-upgrade-2.png)
+![アクティブ ユーザーによる選択機能のアップグレード (Islands モード) を示す図。](media/teams-upgrade-2.png)
 
    
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: '概要: 負荷分散に関する考慮事項を確認してから、Skype for Business Server。'
-ms.openlocfilehash: 9b47c87fa834de6b0a7b3ddddaf6493a9c95f363
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba8ab3e4659ea7e17e91b4bf725e8bd1fe8b59ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623589"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733396"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>ユーザーの負荷分散要件Skype for Business
  
@@ -136,14 +136,14 @@ Cookie ベースのアフィニティを **使用する** 展開の場合
   
 **フロントエンド サーバー ユーザー プール - HLB 内部インターフェイス**
 
-|**仮想 IP/ポート**|**ノード ポート**|**ノード コンピューター/モニター**|**保存プロファイル**|**注**|
+|**仮想 IP/ポート**|**ノード ポート**|**ノード コンピューター/モニター**|**保存プロファイル**|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |フロントエンド  <br/> 5061  <br/> |ソース  <br/> |HTTPS  <br/> |
 |\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |フロントエンド  <br/> 5061  <br/> |ソース  <br/> |HTTP  <br/> |
    
 **フロントエンド サーバー ユーザー プール - HLB 外部インターフェイス**
 
-|**仮想 IP/ポート**|**ノード ポート**|**ノード コンピューター/モニター**|**保存プロファイル**|**注**|
+|**仮想 IP/ポート**|**ノード ポート**|**ノード コンピューター/モニター**|**保存プロファイル**|**メモ**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |フロントエンド  <br/> 5061  <br/> |なし  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |フロントエンド  <br/> 5061  <br/> |なし  <br/> |HTTP  <br/> |
@@ -159,7 +159,7 @@ DNS 負荷分散を展開すると、ハードウェア ロード バランサ�
   
 **パブリック IPv4 アドレスを使用したエッジ ネットワークダイアグラム**
 
-![DNS ネットワーク図の例](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![DNS ネットワーク図の例を示します。](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 また、DNS 負荷分散を使用すると、すべての種類のトラフィックに対応するハードウェア ロード バランサーを使用していた場合よりもハードウェア ロード バランサーを低価格で購入できます。 相互運用性の認定テストに合格したロード バランサーを、Skype for Business Server。 ロード バランサーの相互運用性テストの詳細については [、「Lync Server 2010 Load Balancer Partners」を参照してください](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 そこに含むコンテンツは、Skype for Business Server。
   

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 環境で TLS 1.0 と 1.1 を無効にする準備と実装を行います。
-ms.openlocfilehash: f10aae3e85e7bcc00aceaf7acf9f22d57e921aa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93ebf65101cd3e8ddc36a3a17e945035ad770d49
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608084"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731466"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>2015 年に TLS 1.0/1.1 を無効Skype for Business Serverする
 
@@ -462,7 +462,7 @@ TLS 1.0 および 1.1 を無効にする各サーバーに .reg ファイルを�
 7. [TLS **1.2** Internet Explorerを使用する] オプションを無効にします。
 8. SfB 2015 プールの内部 Web サービス URL を再度参照します (接続に失敗する必要があります)。
 
-![インターネット オプション](../../media/internet-options.jpg)
+![インターネット オプション。](../../media/internet-options.jpg)
 
 ## <a name="advanced-deployment-scenarios"></a>高度な展開シナリオ
 
@@ -521,14 +521,14 @@ Skype for Business Server 2015 で TLS 1.2 をサポートするには、いく�
 8. ローカル構成ストアのインストール (手順 1): 
      - 展開ウィザードを開き、[システムのインストールまたは更新Skype for Business Server]をクリックし、[手順1: ローカル構成ストアのインストール] で [実行] をクリックします。
      - [ローカル **構成ストアの** インストール **] ダイアログ ボックスの [次へ** ] をクリックします。
-     ![[ローカル構成ストアのインストール] ダイアログ ボックス](../../media/local-configuration-store.png)
+     ![[ローカル構成ストアのインストール] ダイアログ ボックス。](../../media/local-configuration-store.png)
      - 結果を確認し、[タスクの状態] が [完了] に設定されています。 [ログの表示] をクリックして、結果のログ ファイル **を確認します**。
-     ![タスクの状態が [完了] と表示される](../../media/local-configuration-task-completed.png)
+     ![タスクの状態が [完了] と表示されます。](../../media/local-configuration-task-completed.png)
      - **[完了]** をクリックします。
 9. コンポーネントをセットアップまたはSkype for Business Serverする (手順 2):
     - 展開ウィザードを開き、[システムのインストールまたは更新 **Skype for Business Server]** をクリックし、[手順 2: コンポーネントの設定と削除] で [実行] Skype for Business Serverクリックします。
     - [**コンポーネントの設定**] ダイアログ ボックスの [Skype for Business Server] をクリックします。
-    ![[コンポーネントのSkype for Business Server] ウィンドウ](../../media/set-up-skype-for-business-server-components-window.png)
+    ![[コンポーネントの設定Skype for Business Server] ウィンドウを開きます。](../../media/set-up-skype-for-business-server-components-window.png)
     - [ログの表示] を使用してログを確認し、問題なくセットアップが完了したと検証します。 
     - **[完了]** をクリックします。
 10. 必要に応じて追加のインストールと構成を続行します (この時点で通常のインストール手順を再開できます)。

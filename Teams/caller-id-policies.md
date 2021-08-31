@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号を変更またはブロックする方法について説明します。
-ms.openlocfilehash: ee663a627e89d7ea2a569496a899d2d68b8366ef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619633"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731226"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号ポリシーを管理する
 
@@ -40,7 +40,7 @@ ms.locfileid: "58619633"
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[音声]** > **[発信者番号ポリシー]** の順に移動します。
 2. **[追加]** をクリックします。 <br>
-![管理センターの新しい [発信者番号ポリシー] ページのスクリーン ショット](media/caller-id-policies-add-policy.png)
+![管理センターの新しい発信者番号ポリシー ページのスクリーンショット。](media/caller-id-policies-add-policy.png)
 3. ポリシーの名前と説明を入力します。
 4. ここで、希望する設定を選びます。
 

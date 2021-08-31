@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41fa4ea8b32b3c8a1b427f95afbc25317933b5cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875aeeee6d283a97325ef5aa66402b2c112c4bbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586561"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730636"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織の Tasks アプリを管理する
 
@@ -35,7 +35,7 @@ Tasks アプリは、Microsoft Teams にまとまりのあるタスク管理エ�
 > [!NOTE]
 > Teams デスクトップ クライアントで Tasks エクスペリエンスをロールアウトする際、最初はアプリ名が **Planner** として表示されます。 その後、名前が一時的に **Planner と To Do による Tasks** に変更され、後で **Tasks** に変更されます。 Teams モバイル クライアントでは、アプリ名は常に **Tasks** と表示されます。 デスクトップ エクスペリエンスが利用可能になった後、モバイル エクスペリエンスの利用が多少遅れる場合があります。
 
-   ![Teams リストのタスク リスト表示のスクリーンショット](media/manage-tasks-app-tasks.png)
+   ![リスト上のタスクのリスト ビュー Teamsスクリーンショット。](media/manage-tasks-app-tasks.png)
 
 現場担当者のタスク管理を合理化したい組織のために、Tasks には、現場担当者全体のタスクを対象にし、発行し、追跡できる機能も含まれています。 たとえば、企業や地域のリーダーは、特定の小売店など、関連する場所を対象としたタスク リストを作成および発行したり、リアルタイム レポートを使用して進捗を追跡したりできます。 マネージャーは、各自のスタッフにタスクを割り当て、各自の場所内で作業を指示することができます。また、現場担当者は、割り当てられたタスクの優先順位リストをモバイルまたはデスクトップで確認できます。 [タスクの発行](#task-publishing)を有効にするには、まず、組織のチーム対象の階層を設定する必要があります。この階層では、すべてのチームが互いにどのように関連付けられているかを定義します。
 
@@ -90,12 +90,12 @@ Tasks は、組織内のすべての Teams ユーザーに対して既定で有�
 タスクを発行すると、組織内の特定の場所 (チーム) を対象としたタスク リストを発行して、それらの場所で完了する作業プランを定義および共有できます。
 
 - 企業や地域のリーダーなど、発行チームのメンバーは、タスク リストを作成し、特定のチームに発行できます。<br>
-    ![タスク発行のスクリーンショット](media/manage-tasks-app-publish.png)
+    ![タスクの発行のスクリーンショット。](media/manage-tasks-app-publish.png)
 - 受信チームのマネージャーは、発行されたタスク リストを確認し、個々のタスクをチーム メンバーに割り当てることができます。<br>
-    ![タスクの割り当てのスクリーンショット](media/manage-tasks-app-assign.png)
+    ![タスクを割り当てるスクリーンショット。](media/manage-tasks-app-assign.png)
 - 現場担当者が自分に割り当てられているタスクを簡単に確認できる簡単なモバイル エクスペリエンスが備わっています。 必要に応じて写真を添付して作業内容を表示し、作業完了のマークを付けることができます。
 - 発行者とマネージャーは、場所 (チーム)、タスク リスト、個々のタスクなど、各レベルのタスクの割り当てと完了状態を表示できます。<br>
-    ![モバイルに表示された割り当てられたタスクのスクリーンショット](media/manage-tasks-app-reporting.png)
+    ![モバイルで割り当てられたタスクのスクリーンショット。](media/manage-tasks-app-reporting.png)
 
 ユーザーは、Tasks アプリの **[発行されたリスト]** タブでタスク リストを作成、管理、および発行します。 このタブは、組織が[チーム対象の階層を設定](#set-up-your-team-targeting-hierarchy)し、ユーザーが階層に含まれるチームに所属している場合にのみ、ユーザーに表示されます。 階層によって、ユーザーがタスク リストを発行または受信し、受信したリストのレポートを表示できるかどうかが決まります。
 

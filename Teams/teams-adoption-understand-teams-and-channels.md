@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e999bb144a16ffb8963a7a03458fefb98311423b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2551d0de27bd945dfda1ba943462b33489d7cd42
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627279"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733986"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要を理解する
 
@@ -36,7 +36,7 @@ ms.locfileid: "58627279"
 
 - チャネルは、実際の作業が行われるチーム内のコラボレーション スペースです。 
 
-チームとチャネルの詳細については、「チームとチャネルの概要[」](teams-channels-overview.md)を参照Microsoft Teams。 包括的な導入Teamsについては、「導入ガイド」のTeams[を参照してください](https://aka.ms/teamstoolkit)。 グループとグループのTeamsのMicrosoft 365については、「グループとグループMicrosoft 365」および「Microsoft Teams グループの詳細」[をMicrosoft 365してください](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。 [](office-365-groups.md)
+チームとチャネルの詳細については、「チームとチャネルの概要[」](teams-channels-overview.md)を参照Microsoft Teams。 包括的な導入Teamsについては、「導入ガイド」のTeams[を参照してください](https://aka.ms/teamstoolkit)。 グループとグループのTeamsの詳細Microsoft 365、「グループとグループMicrosoft 365」および[](office-365-groups.md)「Microsoft Teams グループの詳細」[をMicrosoft 365してください](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 | &nbsp; |&nbsp;  |
@@ -53,12 +53,12 @@ ms.locfileid: "58627279"
 
 ## <a name="use-teams-to-drive-cross-organization-collaboration"></a>組織Teamsコラボレーションを推進する
 
-チームを使用して組織間のコラボレーションを向上させるのがベスト プラクティスであり、多くのプロジェクトがこのモデルに役立ちます。 さらに、組織内のリーダーまたは部門は、自分のメンバー専用のチームを望む場合があります。 次の図に示す組織モデルとプロジェクト モデルを検討してください。
+チームを使用して組織間のコラボレーションを改善するベスト プラクティスであり、多くのプロジェクトがこのモデルに役立ちます。 さらに、組織内のリーダーまたは部門は、自分のメンバー専用のチームを望む場合があります。 次の図に示す組織モデルとプロジェクト モデルを検討してください。
 
-![組織モデルとプロジェクト モデル](media/teams-adoption-organization-project.png)
+![組織モデルとプロジェクト モデル。](media/teams-adoption-organization-project.png)
 
 組織チーム (左側に表示) では、組織がビジネスを実行する方法、チーム イベント、コア戦略、ビジネス レビューなどのその他の運用情報に関する重要な情報が共有される場合があります。 右側に表示されるチームの場合、学区の情報は、そのチームによって達成される作業のカテゴリを表すチャネルに分割されます。 このチームのメンバーは、同じ人物に報告する場合と報告しない場合がありますが、全員が地区の結果を推進する取り組みです。
   
 実装のフェーズ [2](teams-adoption-phase2-experiment.md) では、チームの構造についてさらに作業します。
 
-![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) 次: 最初 [のチームを作成する](teams-adoption-your-first-teams.md)
+![次の手順を示すアイコン。](media/teams-adoption-next-icon.png) 次へ: [最初のチームを作成する](teams-adoption-your-first-teams.md)

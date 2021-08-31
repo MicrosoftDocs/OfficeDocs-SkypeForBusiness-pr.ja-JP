@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Android デバイスのリモート プロビジョニングとサインインを行うTeams説明します
-ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Android デバイスのリモート プロビジョニングとサインインTeams説明します
+ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632201"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733316"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android デバイスのリモート プロビジョニングTeamsサインイン
 
-IT 管理者は、リモートでプロビジョニングし、Teams Android デバイスにサインインできます。 デバイスをリモートでプロビジョニングするには、管理者がプロビジョニングするデバイスの MAC の ID をアップロードし、確認コードを作成する必要があります。 プロセス全体は、管理センターからリモートTeams完了できます。
+IT 管理者は、Android デバイスを使用してリモートでプロビジョニングTeamsサインインできます。 デバイスをリモートでプロビジョニングするには、管理者がプロビジョニングするデバイスの MAC の ID をアップロードし、確認コードを作成する必要があります。 プロセス全体は、管理センターからリモートTeams完了できます。
 
 ## <a name="review-the-supported-devices"></a>サポートされているデバイスを確認する
 
@@ -70,7 +70,7 @@ IT 管理者は、リモートでプロビジョニングし、Teams Android デ
 
 1. [アクティブ化 **を待っている] タブで****、[MAC ID の追加] を選択します**。
 
-   ![デバイスの Mac アドレスを手動で追加する](../media/remote-provision-6.png)
+   ![デバイスの Mac アドレスを手動で追加します。](../media/remote-provision-6.png)
 
 1. MAC ID を入力します。
 1. 場所を入力します。これは、技術者がデバイスをインストールする場所を特定するのに役立ちます。
@@ -81,7 +81,7 @@ IT 管理者は、リモートでプロビジョニングし、Teams Android デ
 1. [アクティブ **化を待っている]** タブで、[MAC **アップロード を選択します**。
 2. ファイル テンプレートをダウンロードします。
 3. MAC ID と場所を入力し、ファイルを保存します。
-4. **ファイル を選択** し、[ファイル]**をアップロード。**
+4. **ファイル を選択** し、 を **選択アップロード。**
 
 ## <a name="generate-a-verification-code"></a>確認コードを生成する
 
@@ -98,15 +98,15 @@ IT 管理者は、リモートでプロビジョニングし、Teams Android デ
 
 1. 技術者が[デバイスの **プロビジョニング] を選択****設定。**  
 
-   ![[アクション] タブから新しいデバイス オプションをプロビジョニングする](../media/provision-device1.png)
+   ![[アクション] タブから新しいデバイス オプションをプロビジョニングします。](../media/provision-device1.png)
   
 2. 技術者は、指定された入力フィールドにデバイス固有の確認コードを入力します。
 
-   ![新しいデバイス検証をプロビジョニングする](../media/provision-device-verification1.png)
+   ![新しいデバイス検証をプロビジョニングします。](../media/provision-device-verification1.png)
 
    デバイスが正常にプロビジョニングされると、テナント名がサインイン ページに表示されます。
 
-   ![サインイン ページのテナント名](../media/provision-code.png)
+   ![サインイン ページのテナント名。](../media/provision-code.png)
 
 ## <a name="sign-in-remotely"></a>リモートでサインインする
 
@@ -118,7 +118,7 @@ IT 管理者は、リモートでプロビジョニングし、Teams Android デ
 
 2. 「ユーザーにサインインする」 **の指示に従って、[** 閉じる] を **選択します**。
 
-   ![個々のデバイスの [ユーザーのサインイン] ウィンドウ](../media/sign-in-user.png)
+   ![個々のデバイスの [ユーザーのサインイン] ウィンドウ。](../media/sign-in-user.png)
 
 ## <a name="related-article"></a>関連記事
 

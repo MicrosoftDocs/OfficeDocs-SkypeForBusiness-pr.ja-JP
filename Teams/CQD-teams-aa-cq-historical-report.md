@@ -1,5 +1,5 @@
 ---
-title: CQD レポートをPower BIして通話キュー履歴自動応答 &を表示する
+title: CQD レポートをPower BIして通話キューの履歴自動応答 &を表示する
 ms.author: colongma
 author: clyvr
 manager: roykuntz
@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード レポートを使用して、通話Power BI履歴データ自動応答を表示する方法について説明します。
-ms.openlocfilehash: 57cd28fef4a1e24ecc4f29344a6ec91af5e2dbec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 73ffd8e993a3dacd0412123d49e19c704df0cb8c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593291"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731386"
 ---
 # <a name="what-are-the-requirements"></a>要件は何ですか? 
 インストールする必要Power BI Desktopがあります。 Microsoft Windows Store[からインストールできます](https://aka.ms/pbidesktopstore)。
@@ -39,16 +39,16 @@ ms.locfileid: "58593291"
 CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQD データ パイプラインにアクセスするためのアクセス許可が必要です。 詳細については [、CQD アクセス ロールを](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 参照してください。
 
 ## <a name="installation"></a>インストール 
-次の手順では、コンピューターに Power BI Desktop が既にインストールされ、CQD データ パイプラインにアクセスするために必要なアクセス許可がアカウントに付与されていることを前提とします。
+次の手順では、コンピューターに Power BI Desktop を既にインストールし、CQD データ パイプラインにアクセスするために必要なアクセス許可がアカウントに付与されていることを前提とします。
 
 次の手順を実行してください。
-- [CQD ファイルをダウンロードTeams 自動応答 &キュー履歴レポート テンプレート](./aa-cq-cqd-historical-reports.md)を呼び出し、コンピューター上のディレクトリに保存します。
+- [CQD ファイルをダウンロードTeams 自動応答 &キュー](./aa-cq-cqd-historical-reports.md)履歴レポート テンプレートを呼び出し、コンピューター上のディレクトリに保存します。
 
 - テンプレートをダブルクリックすると、Power BI Desktop表示されます。
 
 - CQD データ パイプライン リージョンを選択するように求めるメッセージが表示されます。 テナントがあるリージョンを選択します。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット。":::
 
  - このリージョンは、Skype for Business Online PS コマンドレット (Get-CsTenant) を使用して確認できます。ServiceInstance 出力。 
  この例では、 / の後にリージョンが表示されます。 
@@ -59,11 +59,11 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
  
  - 独自のデータを表示するには、[ホーム] タブの [クエリ] の [更新] をクリックPower BI Desktop。
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット。":::
 
 - その後、サインインを求めるメッセージが表示されます。 [組織 **アカウント] を選択** し、[サインイン **] を選択します**。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット。":::
 
 - [Connect]**を** 選択し、データの更新を確認します。
 
@@ -83,11 +83,11 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 次の手順を実行してください。
 - リボンの **[表示] タブ** を選択します。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット。":::
 
 - ドロップダウン リストからカラー スキーマを選択します。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="管理センターの [通話品質] ダッシュボード ボタンTeamsスクリーンショット。":::
 
 
 ## <a name="cqd-fields-description"></a>CQD フィールドの説明
@@ -98,7 +98,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |自動応答チェーンの開始時刻         |datetime                 |AA チェーンの開始時刻                    |
 |自動応答 ディレクトリ検索メソッド  |string                   |最後のアドレス帳の検索方法        |
 |自動応答転送アクション          |string                   |通話転送ターゲットの種類<br>値の例は次のとおりです。<br>§ unknown - エンティティの種類が指定されていません<br>§ user - user entity<br>§ orgaa - 組織自動応答エンティティ<br>§ hunt_group - Queue エンティティの呼び出し<br>§ application - 音声アプリケーション エンティティ<br>§ external_pstn - 外部 PSTN エンティティ<br>§ shared_voicemail - 共有ボイスメール エンティティ|
-|自動応答呼び出し結果              |string                   |呼び出し結果:<br>§ unknown - 呼び出しがセットアップまたは転送に失敗し、サービスが意味のあるエラーの理由を受け取っていない <br>§ transferred_to_user - ダイヤル バイ ネーム/拡張機能または構成済みのメニュー オプションを使用してユーザーに転送された通話 <br>§ transferred_to_operator - AA がオペレーターを使用して時間外に構成されている場合など、呼び出しが構成されたオペレーターに転送されました <br>§ failover_to_operator - 3 回試行した後に転送に失敗した場合、または名前認識が機能しない場合に演算子にフォールバックする<br>§ user_terminated - 呼び出し元が呼び出しを終了しました <br>§ service_declined - サービスによって拒否された呼び出しは、サービスが構成のフェッチに失敗した場合に発生自動応答があります。 <br>§ service_terminated - ターゲットへの転送に失敗し、フォールバックとしてオペレーターが構成されていない場合は、バック エンド サービスが呼び出しを終了しました <br>§ failed_to_establish_media - 呼び出し元とサービスの間でメディアの確立に失敗しました <br>§ terminated_no_operator - 3 回試行した後に名前認識に失敗し、演算子が構成されていない <br>§ terminated_transfer_failed - ターゲットへの転送に失敗し、オペレーターが構成されていません <br>§ terminated_automatic_selection - 時間中または数時間後にアクションが構成されていない場合、既定で呼び出しは終了します。 <br>§ transferred_to_shared_voicemail - ターゲットとして構成されている場合、共有ボイスメールに転送された通話 <br>§ oaa_chain_too_long - 呼び出しチェーン自動応答連続して 5 つの自動応答を超えると、呼び出しループが発生する可能性を回避するために呼び出しが終了します。 <br>§ oaa_session_too_long - 呼び出しが最大許容セッション長を超え、タイムアウトしました |
+|自動応答呼び出し結果              |string                   |呼び出し結果:<br>§ unknown - 呼び出しがセットアップまたは転送に失敗し、サービスが意味のあるエラーの理由を受け取っていない <br>§ transferred_to_user - ダイヤル バイ ネーム/拡張機能または構成済みのメニュー オプションを使用してユーザーに転送された通話 <br>§ transferred_to_operator - AA がオペレーターを使用して時間外に構成されている場合など、呼び出しが構成されたオペレーターに転送されました <br>§ failover_to_operator - 3 回試行した後に転送に失敗した場合、または名前認識が機能しない場合に演算子にフォールバックする<br>§ user_terminated - 呼び出し元が呼び出しを終了しました <br>§ service_declined - サービスによって拒否された呼び出しは、サービスが構成のフェッチに失敗した場合に発生自動応答があります。 <br>§ service_terminated - ターゲットへの転送に失敗し、フォールバックとしてオペレーターが構成されていない場合は、バック エンド サービスが呼び出しを終了しました <br>§ failed_to_establish_media - 呼び出し元とサービスの間でメディアの確立に失敗しました <br>§ terminated_no_operator - 3 回試行した後に名前認識に失敗し、演算子が構成されていない <br>§ terminated_transfer_failed - ターゲットへの転送に失敗し、オペレーターが構成されていません <br>§ terminated_automatic_selection - 時間中または数時間後にアクションが構成されていない場合、既定で呼び出しは終了します <br>§ transferred_to_shared_voicemail - ターゲットとして構成されている場合、共有ボイスメールに転送された通話 <br>§ oaa_chain_too_long - 呼び出しチェーン自動応答連続して 5 つの自動応答を超えると、呼び出しループの可能性を回避するために呼び出しが終了します。 <br>§ oaa_session_too_long - 呼び出しが最大許容セッション長を超え、タイムアウトしました |
 |自動応答通話Flow                |string                   |呼び出しの異なる状態自動応答します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ announcement|
 |Is 自動応答 Involved              |Boolean                  |AA が呼び出しに関与したかどうかを示します |
 |自動応答呼び出し元アクション数      |int                      |呼び出し元が使用したアクションの数         |
@@ -122,10 +122,10 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |AACallFlow                              |string                   |呼び出しの異なる状態自動応答します。<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>お知らせ |
 |AACallResult                            |string                   |呼び出自動応答結果:<br>§ unknown<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – AA 構成のエラー<br>§ service_terminated – 内部 AA エラー<br>§ failed_to_establish_media<br> terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
 |AAChainDuration                         |string                   |通話の自動応答時間 (秒)  |
-|AACount                                 |string                   |呼び出自動応答関連するデータの数         |
+|AACount                                 |string                   |呼び出自動応答含まれるデータの数         |
 |AADirectorySearchMethod                 |string                   |呼び出しで使用される検索メソッド:<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name|
 |AAStartTime                             |string                   |UTC での通話時間                            |
-|AATransferAction                        |string                   |呼び出しの受信側:<br>§ unknown - エンティティの種類が指定されていません<br>§ user - user entity<br>§ AA - 組織自動応答エンティティ<br>§ CQ - キュー の呼び出しエンティティ<br>§ application - 音声アプリケーション エンティティ<br>§ external_pstn - 外部 PSTN エンティティ<br>§ shared_voicemail - 共有ボイスメール エンティティ      |
+|AATransferAction                        |string                   |呼び出しの受信側:<br>§ unknown - エンティティの種類が指定されていません<br>§ user - user entity<br>§ AA - 組織自動応答エンティティ<br>§ CQ - Call Queue エンティティ<br>§ application - 音声アプリケーション エンティティ<br>§ external_pstn - 外部 PSTN エンティティ<br>§ shared_voicemail - 共有ボイスメール エンティティ      |
 |PSTNMinutes                             |int                      |分の合計使用量                          |
 |キュー呼び出しの結果を呼び出す                  |string                   |キュー呼び出しの最終状態を呼び出す<br>指定できる値:<br>§ error<br>§ declined<br>§ overflown<br>§ failed<br> timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference    |
 |キュー ID の呼び出し                     |string                   |CQ にアタッチされているリソース アカウントの名前     |

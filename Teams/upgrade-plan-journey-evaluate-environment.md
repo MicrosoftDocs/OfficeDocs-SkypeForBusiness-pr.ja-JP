@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5fdbf1d81383dc00ca6e6d39db72446ca6a3012
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61952bd58543be73b72a4179119a18cb00873609
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586311"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731296"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>アプリケーションにアップグレードする前に環境を評価Teams
 
-![技術準備段階が協調表示されたアップグレード行程図](media/upgrade-banner-tech-readiness.png "技術準備段階が強調表示された、アップグレード行程の各段階")
+![技術的な準備段階を強調したアップグレード体験図。](media/upgrade-banner-tech-readiness.png "技術準備段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、ユーザーの準備段階と並行して実行されるアクティビティである、アップグレードが行われる技術準備段階の一部です。 先に進む前に、前のステージからこれらのアクティビティを完了してください。
 
@@ -36,11 +36,11 @@ ms.locfileid: "58586311"
 - [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-この記事では、現在の環境の運用状況を適切に評価するための要件の概要をTeams。 環境を評価することで、全体的なデプロイに影響を与えるリスクと要件を特定します。 これらの項目を事前に特定することで、成功を引き出す計画を調整できます。
+この記事では、現在の環境を適切に評価するための要件の概要を説明し、Teams。 環境を評価することで、全体的なデプロイに影響を与えるリスクと要件を特定します。 これらの項目を事前に特定することで、成功を引き出す計画を調整できます。
 
 ## <a name="introduction-to-the-discovery-questionnaire"></a>検出アンケートの概要
 
-目標となる主要な結果 (OKRs) を達成するために、以前に主要なサービスの決定を行いました。 次の手順では、環境検出を実行して、IT インフラストラクチャ、ネットワーク、運用に関連するすべての側面を評価し、組織がソリューションを実装する準備ができていることを確認します。 検出は、開発プロセスを計画するときに実行する最初の重要な手順の 1 Teams。 環境検出には、ネットワークがネットワークへのアップグレードをサポートできるよう、ネットワークの準備評価を含めるTeams。 環境の詳細な検出を実行して、現在の状態をよりよく理解し、問題や、さらに重要な問題を明らかにし、Teams ロールアウトの実行をブロックする可能性があります。
+目標となる主要な結果 (OKRs) を達成するために、以前に主要なサービスの決定を行いました。 次の手順では、環境検出を実行して、IT インフラストラクチャ、ネットワーク、運用に関連するすべての側面を評価し、組織がソリューションを実装する準備ができていることを確認します。 検出は、開発プロセスを計画するときに実行する最初の重要な手順の 1 Teams。 環境検出には、ネットワークがネットワークへのアップグレードをサポートできるよう、ネットワークの準備評価を含めるTeams。 環境の詳細な検出を実行して、現在の状態をよりよく理解し、問題や、さらに重要な、Teams ロールアウトの実行をブロックする可能性を明らかにします。
 
 環境評価と導入準備評価の一環として技術的なリスクを特定し、特定されたリスクごとに軽減計画を策定します。 この情報は、リスク レジスタに組み込む必要があります。
 
@@ -51,7 +51,7 @@ ms.locfileid: "58586311"
 - Microsoft 365またはOffice 365の詳細
 - 既存のコラボレーション プラットフォームの概要
 - コラボレーション プラットフォームのデプロイの詳細
-- ネットワークと、Microsoft 365 サービスOffice 365アクセス
+- ネットワークと、サービスMicrosoft 365またはOffice 365アクセス
 - エンドポイント
 - 操作
 - 導入と準備
@@ -60,7 +60,7 @@ ms.locfileid: "58586311"
 > 最初に、アンケートを別のドキュメントにMicrosoft Wordできます。 すべての質問に回答し、移動中にすべての詳細をキャプチャしてみてください。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>Who評価を完了する責任はありますか?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>Who評価を完了する責任は何ですか?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>次の手順</td><td><ul><li>環境評価の結果を文書化します。</li></ul></td></tr>
 </table>
 

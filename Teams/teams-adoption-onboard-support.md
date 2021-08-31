@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f45a3a8e1538032ffffe3fbee6bc94d093889a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41b145b4741199a133c602caa383277aa24d02e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583571"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730866"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Microsoft Teams のサポートについて関与する
 
@@ -37,4 +37,4 @@ ms.locfileid: "58583571"
 - [既知の問題とトラブルシューティング](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Microsoft Teams のトレーニング](./training-microsoft-teams-landing-page.md)
 
-![次の手順を表すアイコン ](media/teams-adoption-next-icon.png) :導入Microsoft Teams [3:](teams-adoption-phase3-enable.md)スケール。
+![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次: [Microsoft Teams導入フェーズ 3: スケール](teams-adoption-phase3-enable.md)。

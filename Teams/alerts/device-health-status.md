@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: Microsoft Teams 管理センターの Teams 監視およびアラート機能を使用して、デバイスの正常性状態を事前に監視する方法Teamsします。
+description: Microsoft Teams 管理センターで Teams 監視およびアラート機能を使用して、デバイスの正常性状態を事前に監視する方法Teamsします。
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 844dddfc04e1dc29311a237c3fc4f7ac41a1ce7f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636762"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58735354"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams正常性の監視
 
@@ -31,9 +31,9 @@ Microsoft Teams 管理センターでのデバイスの正常性の監視では�
 
 ## <a name="configure-device-state-rule"></a>デバイスの状態規則を構成する
 
-1. 管理センターの左側のナビゲーションで、[通知] Microsoft Teams通知 **ルール] を&選択**  >  **します**。
+1. 管理センターの左側のナビゲーションで、[通知Microsoft Teamsルール]**を&選択**  >  **します**。
 
-   ![管理センターの [ルール] セクション](../media/select-rules.png)
+   ![管理センターの [ルール] セクション。](../media/select-rules.png)
 
 2. [ルール **] ページで** 、[デバイスの状態 **ルール] を選択します**。
 
@@ -48,7 +48,7 @@ Microsoft Teams 管理センターでのデバイスの正常性の監視では�
 |--------|-------------|
 |**ルールの種類**   |デバイス状態ルールは、効果的に管理するのに役立ちます。 Teams、デバイス管理の種類として分類されます。 今後、他の関連機能を監視するために、デバイス管理の種類のルールが追加される予定です (たとえば、デバイスの状態が不健康な場合や、デバイスのサインイン状態が含まれる場合があります)。|
 |**状態**   |デバイスがオフラインになっている場合は、デバイスの正常性を監視できます。 [管理センター](../devices/device-management.md)でのデバイス管理のTeams確認してください。 |
-|**対象**   |ルールの評価頻度に言及することで、デバイスの正常性状態を監視する頻度を指定できます。 既定では、オフラインになる場合、Teams デバイスはほぼリアルタイムで監視されます。 |
+|**対象**   |ルールの評価頻度を指定することで、デバイスの正常性状態を監視する頻度を指定できます。 既定では、オフラインになる場合、Teams デバイスはほぼリアルタイムで監視されます。 |
 |**デバイス ユーザー**   |サインインしているユーザーに基づいて選択することで、プロアクティブなオフライン監視が必要なデバイスを指定できます。 詳細については、 [構成のデバイスの選択に関](#select-devices-for-configuration) するページを参照してください。 |
 |**アクション**  > **チャネル アラート**   |[アクション] セクションで、アラートを取得するチーム チャネルを指定できます。 現在、通知の配信先として **、管理** アラートと通知という名前の既定のチームと **MonitoringAlerts** という名前のチャネルが作成されます。 <BR/> <BR/> テナントのグローバル管理者Teams管理者は、この既定のチームに自動的に追加されます。|
 |**アクション**  > **Webhook**   |外部 webhook で通知を受け取る (省略可能)。 JSON 通知ペイロードが送信される webhook セクションで、外部パブリック webhook URL を指定します。 <BR/> <BR/>  webhook を介して通知ペイロードを組織内の他のシステムと統合して、カスタム ワークフローを作成できます。<br/><br/> 

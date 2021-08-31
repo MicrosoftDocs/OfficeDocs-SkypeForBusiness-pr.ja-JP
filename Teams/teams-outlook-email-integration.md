@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcc9d8c4ed101017206e086a2282679ec698df27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: afef90629f771520bc4f61758c9ad6e51f22246a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634821"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734162"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams と Outlook のメールの統合
 
@@ -29,7 +29,7 @@ Microsoft Teams には、組織内のユーザーが Outlook のメールと Tea
 
 **Outlook と共有** すると、Teams を離れることなく、Outlook のメールに Teams の会話のコピーを共有できます。 この機能は、ユーザーが直属のチーム以外のユーザーや組織外のユーザーと会話やステータスの更新を共有する必要がある場合に便利です。  Teams で会話の一番上に移動し、[ **...その他のオプション**] を選択し、[**Outlook に共有する**] を選択します。  詳細については、「[Teams から Outlook に共有する](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d)」をご覧ください。
 
-![Teams の [Outlook に共有する] 機能を示すスクリーンショット](media/share-to-outlook.png)
+![[共有して共有] 機能Outlookを示すスクリーンショットTeams。](media/share-to-outlook.png)
 
 この機能を使用するには、ユーザーに対して Outlook on the web がオンになっている必要があります。 Outlook on the web がオフになっている場合は、**Teams** のユーザーに対して、[Outlook に共有する] のオプションは表示されません。 Outlook on the web をオンまたはオフにする手順については、「[メールボックスメールボックス用に Outlook on the web を有効または無効にする](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)」をご覧ください。
 
@@ -40,9 +40,9 @@ Microsoft Teams には、組織内のユーザーが Outlook のメールと Tea
 > [!NOTE]
 > この機能は、Outlook for Mac または一部の古いバージョンの Outlook for Windows ではサポートされていません。 詳細については、「[Outlook および Office 365 グループの操作可能なメッセージ](/outlook/actionable-messages/)」を参照してください。
 
-![見落としがあったアクティビティ メールを表示したスクリーンショット](media/missed-activity-email.png)
+![アクティビティメールが見つからない状態を示すスクリーンショット。](media/missed-activity-email.png)
 
-![見落としがあったアクティビティ メールに返信する方法を表示したスクリーンショット](media/missed-activity-email-reply.png)
+![見逃したアクティビティメールに返信する方法を示すスクリーンショット。](media/missed-activity-email-reply.png)
 
 [Set-OrganizationConfig](/powershell/module/exchange/organization/set-organizationconfig) コマンドレットと **SmtpActionableMessagesEnabled** パラメーターを使用して、操作可能なメールをオフにできます。 既定では、**smtpActionableMessagesEnabled** パラメーターは、**true** に設定されます。 パラメーターを **false** に設定すると、Office 365 全体で操作可能なメール メッセージがオフになります。  Teams ユーザーの場合、Outlook で直接 **返信** するオプションは、見落としがあったアクティビティ メールには利用できません。 その代わりに、見落としがあったアクティビティ メールには、[**Teams で返信する**] オプションが含まれ、ユーザーは Teams から返信することができます。
 

@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: '概要: このトピックを参照して、2015 年に常設チャット サーバーを計画するSkype for Business Serverしてください。'
-ms.openlocfilehash: e4bce3145c3f2e3974c2f57d75afbe297ce8d304
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb584fc1b618794d9956c2d91c004b8ecc008aa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623559"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731096"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバー Skype for Business Serverする
  
@@ -45,7 +45,7 @@ ms.locfileid: "58623559"
 
 次の図は、常設チャット サーバーアーキテクチャのハイレベル ビューを示しています。 
   
-![常設チャット サーバーのアーキテクチャの概要](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
+![常設チャット サーバー High-Levelアーキテクチャ。](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
 常設チャットは、常設チャット サービスを提供するフロントエンド サーバーの役割と、データベース コンポーネントのSQL構成されます。 フロントエンド コンポーネントとフロントエンド コンポーネントの両方が、専用の常設チャット プールに含まれています。 常設チャット サーバーをホストする各コンピューターは、2015 年 2015 年の既存Skype for Business Serverアクセスできる必要があります。 この図では、1 つの常設チャット サーバー プール (A) があります。これは、メッセージをルーティングするためにプール A Skype for Business Serverに依存します。
   
@@ -57,7 +57,7 @@ Skype for Business Server 2015 は、セッション開始プロトコル (SIP) 
 
 次の図は、常設チャット サーバーのフロントエンド サービスと、これらのサービスがエンド エンド データベース コンポーネントと通信する方法を示しています。 フロントエンド コンポーネントには、常設チャット サービスとコンプライアンス サービスが含まれます。 バック エンド コンポーネントには、常設チャット ストアと常設チャット コンプライアンス ストアが含まれます。
   
-![常設チャット サーバーのサービスの概要](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
+![常設チャット サーバー High-Level サービス。](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
   
 ### <a name="chat-service"></a>チャット サービス
 

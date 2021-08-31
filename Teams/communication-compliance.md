@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 767c69d2c529b7fe6c93b667d6150e7b64d46ef2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: accdfbb8edc7e47013a96574c1a0a0b1ed46a89e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631371"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731076"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>ユーザーとの通信Microsoft Teams
 
-コミュニケーション コンプライアンスは、組織内の不適切なメッセージの検出、キャプチャ、および操作を支援することで、コミュニケーション リスクを最小限に抑えるために役立つ Microsoft 365 の Insider リスク ソリューションです。
+コミュニケーション コンプライアンスは、組織内の不適切なメッセージの検出、キャプチャ、および操作を支援することで、コミュニケーション リスクを最小限に抑える Microsoft 365 の Insider リスク ソリューションです。
 
 通信Microsoft Teams、Teams チャネル、プライベート Teams[](/microsoft-365/compliance/communication-compliance-feature-reference)チャネル、または 1:1 およびグループ チャットで、次の種類の不適切なコンテンツを識別するのに役立ちます。
 
@@ -33,7 +33,7 @@ ms.locfileid: "58631371"
 - 成人向け、人種差別的な画像、およびゴリー 画像
 - 機密情報の共有
 
-通信コンプライアンスと組織のポリシーを構成する方法の詳細については、「組織の通信コンプライアンス」を[Microsoft 365。](/microsoft-365/compliance/communication-compliance)
+通信コンプライアンスと組織のポリシーを構成する方法の詳細については、「コミュニケーション コンプライアンス」を参照[Microsoft 365。](/microsoft-365/compliance/communication-compliance)
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>Microsoft Teams で通信コンプライアンスを使用するMicrosoft Teams
 
@@ -41,29 +41,29 @@ ms.locfileid: "58631371"
 
 ### <a name="getting-started"></a>はじめに
 
-Microsoft Teams でのコミュニケーション コンプライアンスの開始は、Teams チャネルまたは[](/microsoft-365/compliance/communication-compliance-plan)1:1 およびグループで不適切なユーザー アクティビティを識別する定義済みポリシーまたはカスタム ポリシーの計画と作成から始まります。 構成プロセスの一環として、いくつかのアクセス[](/microsoft-365/compliance/communication-compliance-configure)許可と基本的な前提条件を構成する必要があります。
+Microsoft Teams でのコミュニケーション コンプライアンスの開始は、Teams チャネルまたは[](/microsoft-365/compliance/communication-compliance-plan)1:1 およびグループで不適切なユーザー アクティビティを識別する定義済みまたはカスタム ポリシーの計画と作成から始まります。 構成プロセスの一環として、いくつかのアクセス[](/microsoft-365/compliance/communication-compliance-configure)許可と基本的な前提条件を構成する必要があります。
 
 Teams管理者は、次のレベルで通信コンプライアンス ポリシーを構成できます。
 
 - **ユーザー レベル**: このレベルのポリシーは、個々のユーザーにTeams適用するか、組織内のすべてのユーザーにTeams適用できます。 これらのポリシーは、これらのユーザーが 1 対 1 またはグループ チャットで送信できるメッセージをカバーします。 ユーザーのチャット通信は、ユーザーがメンバーであるすべてのMicrosoft Teams自動的に監視されます。
-- **Teams レベル**: このレベルのポリシーは、プライベート チャネルMicrosoft Teamsを含む、特定のチャネルに適用されます。 これらのポリシーは、チャネル内で送信されたTeamsのみをカバーします。
+- **Teams レベル**: このレベルのポリシーは、プライベート チャネルをMicrosoft Teamsチャネルに適用されます。 これらのポリシーは、チャネル内で送信されたTeamsのみをカバーします。
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>グループ内の不適切なメッセージにMicrosoft Teams
 
 ポリシーを構成し、Microsoft Teams メッセージの通信コンプライアンス アラートを受け取った後は、組織内のコンプライアンスレビュー担当者がこれらのメッセージに対してアクションを実行します。 レビュー担当者は、コミュニケーション コンプライアンスアラートを確認し、フラグ付きメッセージをグループ内のビューから削除することで、組織を保護Microsoft Teams。
 
-![メッセージを削除Teams](./media/communication-compliance-remove-teams-message.png)
+![メッセージを削除Teams。](./media/communication-compliance-remove-teams-message.png)
 
 削除されたメッセージとコンテンツは、メッセージまたはコンテンツが削除され、削除に適用できるポリシーを説明する閲覧者向け通知に置き換えられる。 削除されたメッセージまたはコンテンツの送信者にも、削除の状態が通知され、削除に関連するコンテキストの元のメッセージ コンテンツが提供されます。 送信者は、メッセージの削除に適用される特定のポリシー条件を表示できます。
 
 送信者によって表示されるポリシー ヒントの例:
 
-![送信者のポリシー ヒント](./media/communication-compliance-warning-1.png)
+![送信者のポリシー ヒント。](./media/communication-compliance-warning-1.png)
 
 送信者に表示されるポリシー条件通知の例:
 
-![送信者のポリシー条件情報](./media/communication-compliance-warning-2.png)
+![送信者のポリシー条件情報。](./media/communication-compliance-warning-2.png)
 
 受信者が表示するポリシー ヒントの例:
 
-![受信者のポリシー ヒント](./media/communication-compliance-warning-3.png)
+![受信者のポリシー ヒント。](./media/communication-compliance-warning-3.png)

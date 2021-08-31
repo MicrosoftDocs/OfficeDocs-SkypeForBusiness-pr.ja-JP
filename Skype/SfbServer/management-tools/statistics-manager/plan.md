@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '概要: このトピックを参照して、統計マネージャーの概要をSkype for Business Server。'
-ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612076"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730756"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの計画
 
@@ -122,7 +122,7 @@ Statistics Manager を使用すると、継続的なパフォーマンスの問�
 
 次の図は、統計マネージャー Web サイト、ハブ、リスナー、および Redis キャッシュ システムが 1 台のコンピューターでホストされるオンプレミス展開を示しています。 Statistics Manager は、3 Skype for Businessサーバーを監視しています。各サーバーには、リスナーにデータを送信する単一のエージェントがあります。 ユーザーは単一の Web サイトに接続して、統計マネージャーによって集計されたデータを表示します。
 
-![Stats Manager オンプレミス展開](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![Stats Manager オンプレミス展開。](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>要件
 <a name="BKMK_Requirements"> </a>

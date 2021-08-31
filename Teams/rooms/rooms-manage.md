@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dbe3a22b86fa9f4b0773e1a7397bb206deb093e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ab88563b26faef5be188454126f3bb4df484fe4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636641"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733586"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
@@ -36,7 +36,7 @@ ms.locfileid: "58636641"
 
 Teams ミーティング デバイスを管理するには、[Microsoft Teams管理センター](https://admin.teams.microsoft.com)を開いて、**Devices** > **Teams ミーティング** にアクセスします。
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams 管理センターにある Teams ミーティングの概要ページ":::
+:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams管理センターの会議室Teamsページ。":::
 
 > [!IMPORTANT]
 > Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、管理者、Teams、またはデバイス管理者Teams割り当てられている必要があります。
@@ -147,7 +147,7 @@ Teams ミーティング システムダッシュボードでは、すべての�
 
 Teams ミーティング デバイスの詳細の **[アクティビティ]** タブには、デバイスが参加したすべての会議に関する高レベルの詳細情報が表示されます。 **[アクティビティ]** タブで、ミーティングがいつ開催されたか、ミーティングに参加している参加者の数、およびミーティング中のオーディオ品質を確認できます。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams ミーティングのデバイスアクティビティ概要リスト":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams[Room device activity summary list]を選択します。":::
 
 特定のミーティングに関する詳細情報を表示するには、ミーティングの日付と時刻を選択します。 ミーティングに参加できるのが2人のみの場合は、[参加者の詳細] ページが表示されます。表示されない場合は、参加者の概要ページが表示されます。
 
@@ -155,10 +155,10 @@ Teams ミーティング デバイスの詳細の **[アクティビティ]** �
 
 参加者の概要ページには、ミーティングに参加したすべての参加者が表示されます。 各参加者がミーティングに参加した時期、名前、音声品質、およびセッション中に使用された機能を確認できます。 参加者のセッションの詳細を表示するには、参加者のセッションの開始時刻を選択します。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams ミーティング デバイスの会議の詳細":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams会議室デバイス会議の詳細。":::
 
 ##### <a name="participant-details"></a>参加者の詳細
 
 参加者の詳細ページには、参加者のセッションのエンドツーエンドの診断情報が表示されます。 次の図に示すように、**デバイス**、**システム**、および **接続** の情報が参加者とチームルームのデバイスに提供されます。 参加者と Teams ミーティングのデバイス間 **ネットワーク** 診断情報も表示されます。 詳細情報が必要なコンテキストのアイコンを選択します。 追加の診断情報については、**[詳細]** タブを選択してください。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams ミーティングのデバイス通話の詳細":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teamsルーム デバイスの通話の詳細。":::

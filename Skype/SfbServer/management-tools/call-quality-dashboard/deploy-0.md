@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: '概要: 通話品質ダッシュボードの展開プロセスについて説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: af43865c76b565ac126d80193b3b32b0bd870260
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc07bb721c0319d041bd7bbee4a4a327d77f28b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596571"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733596"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードを展開Skype for Business Server
  
@@ -34,7 +34,7 @@ ms.locfileid: "58596571"
     
 - **ユーザーが** QoE データを簡単にクエリおよび視覚化できるポータル。
     
-![CQD コンポーネント](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![CQD コンポーネント。](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 QoE アーカイブのセットアップ プロセスでは、QoE アーカイブ データベースを作成し、ソース QoE Metrics データベースから QoE アーカイブ データベースにデータを移動する SQL Server ストアド プロシージャを展開し、SQL Server Agent ジョブをセットアップして一定の間隔でストアド プロシージャを実行します。 
   
@@ -146,18 +146,18 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
   
 すべての Web サイトまたは Web アプリケーションは、IIS 全体に対して構成されている既定の URL 承認を継承します。通常は "すべてのユーザーを許可する" です。 ポータルへのアクセスを制限する必要がある場合、管理者は"承認ルール" を編集して、特定のユーザー グループにのみアクセス権を付与できます。
   
-![通話品質の展開 - IIS の承認ルール](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
+![IIS で通話品質 - 承認ルールを展開します。](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
   
 > [!NOTE]
 > [承認ルール] アイコンは、別の承認メカニズムである [ASP.NET] セクションの [".NET Authorization" と混同しないでください。 
   
 管理者はまず、継承された "すべてのユーザーを許可する" ルールを削除する必要があります。 これにより、承認されていないユーザーがポータルにアクセスできません。
   
-![CQD の展開](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
+![CQD を展開します。](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
   
 次に、管理者は新しい [ルールの許可] を追加し、特定のユーザーにポータルへのアクセス許可を与える必要があります。 ユーザーを管理するために、"CQDPortalUsers" というローカル グループを作成する必要があります。
   
-![通話品質ダッシュボードの展開](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
+![通話品質ダッシュボードを展開します。](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
   
 構成の詳細は、ポータルのweb.configにあるディレクトリに格納されます。
   
@@ -174,15 +174,15 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
 
 1. CQD の構成エディターを開きます。
     
-     ![通話品質ダッシュボードの展開](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
+     ![通話品質ダッシュボードを展開します。](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
   
 2. [セクション] で **、[system.webServer/serverRuntime] を選択します**。
     
-     ![通話品質ダッシュボードの展開](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
+     ![通話品質ダッシュボードを展開します。](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
   
 3. authenticatedUserOverride を **UseWorkerProcessUser に変更します**。
     
-     ![通話品質ダッシュボードの展開 - 構成エディター](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
+     ![通話品質ダッシュボードの展開 - 構成エディター。](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
   
 4. ページ **の右側** にある [適用] をクリックします。
     
@@ -213,19 +213,19 @@ QoE アーカイブのセットアップ プロセスでは、QoE アーカイ�
   
 1. IIS マネージャーを開き、[既定の Web サイト] に移動します。
     
-     ![通話品質ダッシュボードの展開](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
+     ![通話品質ダッシュボードを展開します。](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
 2. [認証] をクリックします。 "匿名認証"、"ASP.NET 偽装"、"フォーム認証"、および "Windows 認証" が以下に示す設定と一致しない場合は、以下の設定に合わせて手動で変更します。 その他のすべての認証メカニズムを無効にする必要があります。
     
-     ![通話品質ダッシュボードの展開](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
+     ![通話品質ダッシュボードを展開します。](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
 3. [認証Windows] の場合は、右側設定 [詳細設定] をクリックします。
     
-     ![通話品質ダッシュボードの展開](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
+     ![通話品質ダッシュボードを展開します。](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
 4. [拡張保護] を [承諾] に設定し、[カーネル モード認証を有効にする] ボックスをオンにします。
     
-     ![通話品質ダッシュボードの展開](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
+     ![通話品質ダッシュボードを展開します。](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
   
 5. "既定の Web サイト" の下の "CQD"、"QoEDataService"、および "QoERepositoryService" エントリごとに上記の手順を繰り返します。
     
@@ -432,7 +432,7 @@ VALUES
 |Ap NName  <br/> |AP  <br/> |AP1  <br/> |
 |BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (区切られた fformat を使用する必要があります)  <br/> |
 |コントローラー  <br/> |建物  <br/> |アルバ AP 7  <br/> |
-|デバイス  <br/> |ess  <br/> |Controller1  <br/> |
+|Device  <br/> |ess  <br/> |Controller1  <br/> |
 |Radio  <br/> |phy  <br/> |bgn  <br/> |
    
 ### <a name="processing-the-imported-data"></a>インポートされたデータの処理

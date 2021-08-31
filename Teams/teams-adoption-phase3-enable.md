@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 組織のアプリケーションの広範なスケールの有効化をサポートするために必要Teamsの概要を確認してください。
+description: お客様の組織に対する大規模なサービスの広範な有効化をサポートするために必要Teams概要を確認してください。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bced37aba08ca807e6b83091aa85f16a5c99ea22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86de4726585f067235c578353a30e0f5ad86574d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586509"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733726"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams の導入段階 3 - 規模
 
-このフェーズでは、学習、有能なプロジェクト チーム、関係者、チャンピオン、早期採用者との関係を利用して、組織の Teams の広範なスケールの有効化をサポートします。 組織でのサービスの使用に関する継続的なビジネス エンゲージメントの準備を行う場合は、次の手順をMicrosoft Teams。
+このフェーズでは、学習、有能なプロジェクト チーム、関係者、チャンピオン、早期採用者との関係を利用して、組織の Teams の広範なスケールの有効化をサポートします。 組織でのビジネス 契約の継続的な使用に備える場合は、次の手順をMicrosoft Teams。
 
 1. 結果と成功の対策を定義します。
 2. サービス戦略を選択します。
@@ -38,7 +38,7 @@ ms.locfileid: "58586509"
 4. 意識向上キャンペーンを設計して開始します。
 5. トレーニング プログラムを設計して起動します。
 6. レポート ツールについて説明します。
-7. 継続的なビジネス エンゲージメントに備える。
+7. 継続的なビジネスエンゲージメントに備える。
 8. 継続的なサービス正常性と導入レビュー&準備します。
 
-![次の手順を表すアイコン ](media/teams-adoption-next-icon.png) 次: [結果と成功を定義する](teams-adoption-define-outcomes.md)
+![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [結果と成功を定義する](teams-adoption-define-outcomes.md)

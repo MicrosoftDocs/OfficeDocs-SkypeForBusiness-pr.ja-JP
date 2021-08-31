@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: '概要: 2015 年の常設チャット サーバーの高可用性と障害復旧を計画する方法については、このトピックSkype for Business Serverしてください。'
-ms.openlocfilehash: beb1bf01748d9ebb7336238d3ba2d3f1379e7b0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a07b9e84e390f8d012308895229eb0da369107c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607974"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731436"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバーの高可用性と障害復旧Skype for Business Serverする
  
@@ -84,7 +84,7 @@ Skype for Business Server、データベース ミラーリングを含む、バ
     
 **データ センターが高帯域幅/低遅延で地理的に位置する場合の、ストレッチされた常設チャット サーバー プール**
 
-![高帯域幅/低遅延の常設チャット ストレッチ プール](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
+![高帯域幅/低遅延の常設チャット ストレッチ プール。](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
 図 2 は、データ センターが低帯域幅/高遅延で地理的に位置する、拡大された常設チャット サーバー プール トポロジを示しています。
   
@@ -108,6 +108,6 @@ Skype for Business Server、データベース ミラーリングを含む、バ
     
 **データ センターが低帯域幅/高遅延で地理的に位置する場合のストレッチ常設チャット サーバー プール**
 
-![低帯域幅/高遅延の常設チャット ストレッチ プール](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
+![低帯域幅/高遅延の常設チャット ストレッチ プール。](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   
 

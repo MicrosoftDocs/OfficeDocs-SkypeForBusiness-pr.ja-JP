@@ -23,20 +23,20 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Microsoft Teams 管理センターを使用して、組織内のすべての電話番号と、ユーザーに割り当てられている、または割り当てられていないすべての電話番号の一覧を表示する方法について学習します。
-ms.openlocfilehash: 1bad09f115ae31bf392fe14e4d00e1b59b00e3c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7de480508020dac24a63b5923af9cf2481c691b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608794"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733976"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織の電話番号のリストを表示する
 
-ユーザーや他のサービス (サービス番号) に割り当て可能な電話番号には、Microsoft 365 や Office 365 の電話会議など、さまざまな種類があります。
+ユーザーや他のサービス (サービス番号) に割り当て可能な電話番号には、さまざまな種類があります 。たとえば、Microsoft 365 や Office 365。
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>組織のすべての電話番号のリストを表示するには
 
-![管理センターを使用Teams ](media/teams-logo-30x30.png) **ロゴをMicrosoft Teamsアイコン**
+![ロゴのアイコンTeams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. [管理センター **] Microsoft Teams移動します**。
 
@@ -57,20 +57,20 @@ ms.locfileid: "58608794"
 
    - 数値 **の種類**。
 
-   - 電話の状態 **。**
+   - 電話の **状態。**
 
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>ユーザーに割り当てられているすべての電話番号を表示するには
 
 ユーザーを設定するときに、ユーザーに既に割り当てられている電話番号と、ユーザーに割り当て可能な電話番号の一覧を表示したい場合があります。
   
-![管理センターを使用Teams ](media/teams-logo-30x30.png) **ロゴをMicrosoft Teamsアイコン**
+![ロゴのアイコンTeams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. [管理センター **] Microsoft Teams移動します**。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
     > [!IMPORTANT]
-    > Microsoft Teams 管理センターの左側のナビゲーションに [音声] オプションを表示するには、まず、少なくとも 1 つの **Enterprise E5** ライセンス、1 つの **電話システム** アドオンライセンス、または 1 つの電話会議アドオン ライセンスを購入する必要があります。
+    > Microsoft Teams 管理センターの左側のナビゲーションに [音声] オプションを表示するには、まず、少なくとも 1 つの **Enterprise E5** ライセンス、1 つの **電話システム** アドオン ライセンス、または 1 つの電話会議アドオン ライセンスを購入する必要があります。
 
 3. 割り当てられている数値をすばやく並べ替え、割り当てられている番号を確認するには、[状態] 列見出 **しを** クリックします。 または、フィルター アイコンをクリックし、ビューをフィルター処理して、ユーザーに既に割り当てられている電話番号、またはユーザーに割り当て可能な未割り当て番号を表示できます。 以下の分類でフィルターすることができます。
 
@@ -84,14 +84,14 @@ ms.locfileid: "58608794"
 
 組織内のユーザーに電話の送受信を設定する場合は、まず電話番号を取得してから、ユーザーに割り当てる必要があります。 電話番号を取得した後は、番号の割り当てのアクティブ化の状態を確認できます。
 
-![管理センターを使用Teams ](media/teams-logo-30x30.png) **ロゴをMicrosoft Teamsアイコン**!
+![ロゴのアイコンTeams表示されます。](media/teams-logo-30x30.png) **管理センター Microsoft Teams使用します**。
   
 1. [管理センター **] Microsoft Teams移動します**。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
     > [!IMPORTANT]
-    > Microsoft Teams 管理センターの左側のナビゲーションに [音声] オプションを表示するには、まず、少なくとも 1 つの **Enterprise E5** ライセンス、1 つの **電話システム** アドオンライセンス、または 1 つの電話会議アドオン ライセンスを購入する必要があります。
+    > Microsoft Teams 管理センターの左側のナビゲーションに [音声] オプションを表示するには、まず、少なくとも 1 つの **Enterprise E5** ライセンス、1 つの **電話システム** アドオン ライセンス、または 1 つの電話会議アドオン ライセンスを購入する必要があります。
 
 3. [フィルター] アイコンをクリックして、アクティブ化状態でビュー **をフィルター処理できます** 。次の方法でフィルター処理できます。
 
@@ -107,7 +107,7 @@ ms.locfileid: "58608794"
 
 ## <a name="using-the-teams-powershell-module"></a>PowerShell モジュールTeams使用する
 
-Teams PowerShell モジュールを使用して前のセクションから同じ情報を取得できますが、バージョン 1.1.6 以降 (Skype for Business Online コネクタの統合を含む) が必要です。 モジュールの詳細については[、「PowerShell の概要」Microsoft Teamsを参照してください](teams-powershell-overview.md)。
+Teams PowerShell モジュールを使用して前のセクションと同じ情報を取得できますが、バージョン 1.1.6 以降 (Skype for Business Online コネクタの統合を含む) が必要です。 モジュールの詳細については[、「PowerShell の概要」Microsoft Teamsを参照してください](teams-powershell-overview.md)。
 
 [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)コマンドレットを使用して、組織のすべての電話番号の一覧を表示できます。 たとえば、次のコマンドを実行して、各電話番号とその状態を確認できます。
 
@@ -121,7 +121,7 @@ Get-CsOnlineTelephoneNumber | ft Id,ActivationState
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](./different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -26,12 +26,12 @@ description: Microsoft Teams 遠隔医療、EHR 統合、現場担当者のシ�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b88edf016ae59eab6f2d92b1671c39996cb38464
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627569"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730676"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療機関向け Microsoft Teams の使用を開始する
 
@@ -72,7 +72,7 @@ Microsoft Teams で提供される充実した会議プラットフォームを�
 - 組織が既に電子健康記録 (EHR とも呼びます) を使用している場合、Microsoft Teams を統合してよりシームレスなエクスペリエンスを実現できます。 Microsoft Teams の電子健康記録 (EHR) コネクタを使用すると、診療スタッフは EHR システムから直接、バーチャル受診や Teams 内の別のプロバイダーとの相談を簡単に開始できます。 詳細については、「[Teams を使用したバーチャル受診 - EHR との統合](ehr-admin.md)」を参照してください。
 - サポートされている EHR を使用していない場合は、Microsoft Bookings および Microsoft Teams の Bookings アプリを使用できます。 詳細については、「[Microsoft Teams の Bookings アプリとバーチャル受診](../../bookings-app-admin.md)」を参照してください。
 
-![Microsoft Teams を使用したバーチャル受診](../../media/virtual-visits-teams.png)
+![仮想アクセスとMicrosoft Teams。](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Teams ポリシー パッケージ
 
@@ -105,7 +105,7 @@ Teams ポリシー パッケージを適用して、Teams でさまざまな役�
 
 Microsoft Teams を使用することで、治療における医療チームの連携と共同作業を強化することができます。
 
-![医療: Teams を使って医療チーム内で共同作業を行う](../../media/teams-healthcare-collaborate-in-teams.png)
+![医療: 医療チームと共同作業を行Teams。](../../media/teams-healthcare-collaborate-in-teams.png)
 
 Microsoft Teams を使用すると、医師、臨床医、看護師、およびその他のスタッフは Microsoft Teams で提供される以下のようなコラボレーション機能を活用して効率的なコラボレーションを実現できます。
 
@@ -134,7 +134,7 @@ Microsoft Teams の Lists アプリは、チームが情報を追跡し、作業
 
 患者の回診用に作成されたリストの例を下に示します。
 
-:::image type="content" source="../../media/lists-patients-example.png" alt-text="患者回診用リストの例のスクリーンショット":::
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="患者の丸めを行う例の一覧のスクリーンショット。":::
 
 詳細については、「[Teams で組織の Lists アプリを管理する](../../manage-lists-app.md)」を参照してください。
 

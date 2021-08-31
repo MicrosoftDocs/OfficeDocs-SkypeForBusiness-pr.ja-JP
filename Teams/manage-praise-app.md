@@ -8,31 +8,31 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: 管理センターの 称賛 アプリの管理者設定Microsoft Teams確認する
-ms.openlocfilehash: 3f3269f812113d63c6c4abfeed9a2d00aa2354b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 管理センターの 称賛 アプリの管理者設定Microsoft Teamsする
+ms.openlocfilehash: 684e6c7feaa19ab7aecdc77eebd6cb1764f431d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581231"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733416"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>管理センター称賛アプリをMicrosoft Teamsする
 
 > [!NOTE]
 > 管理者は、この機能にアクセスTeamsライセンスを持っている必要があります。 ライセンスなしでこの機能にアクセスTeams、エラー メッセージが表示されます。
 
-この称賛アプリMicrosoft Teams、ユーザーが組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 選択できるバッジ セットと独自のバッジを作成するオプションにより、称賛 は、教師から Frontline Worker まで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 詳細については、「Send[称賛 to people 」を参照してください](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+称賛アプリはMicrosoft Teams、ユーザーが組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 選択できるバッジ セットと独自のバッジを作成するオプションにより、称賛 は、教師から Frontline Worker まで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 詳細については、「Send[称賛 to people 」を参照してください](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
-管理者は、管理センターから組織が使用できるバッジMicrosoft Teamsできます。 左側のナビゲーションで、[アプリの管理] **Teamsアプリ> に移動します**。 アプリの一覧で 、[アプリ]**を称賛** し、[]**を** 設定。  ここから、既定の組み込みのバッジ セットを有効にし、カスタム バッジを作成することができます。
+管理者は、管理センターから組織が使用できるバッジMicrosoft Teamsできます。 左側のナビゲーションで、[アプリの管理] **Teams アプリ> に移動します**。 アプリの一覧で 、[アプリ]**をクリック称賛** し、[]**を** 設定。  ここから、既定の組み込みのバッジ セットを有効にし、カスタム バッジを作成することができます。
 
-![アプリの [設定] タブ称賛スクリーンショット](media/manage-praise-app-settings.png)
+![アプリの [設定] タブ称賛スクリーンショット。](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> この称賛アプリ機能は、米国政府のクラウドでは使用できません。
+> この称賛は、米国政府のクラウドでは使用できません。
 
 ## <a name="use-built-in-badge-sets"></a>組み込みのバッジ セットを使用する
 
-組み込みセットは、Microsoft が設計したアプリ用に設計されたバッジの称賛です。 これらのセットは管理者が編集できません。 既定のバッジ セットは既に有効であり、称賛できます。 既定のセットまたはバッジ セットの可用性を変更するには、対応するトグルを [オン] または [オフ] に切り替えます。 
+組み込みセットは、Microsoft が設計したアプリ用のバッジの称賛です。 これらのセットは管理者が編集できません。 既定のバッジ セットは既に有効であり、称賛できます。 既定のセットまたはバッジ セットの可用性を変更するには、対応するトグルを [オン] または [オフ] に切り替えます。 
 
 <a name="default-badges"></br></a>
 
@@ -40,15 +40,15 @@ ms.locfileid: "58581231"
 
 既定のバッジ セットは、ユーザーが仕事Teams以上の作業を行う場合に、他のユーザーが同僚を認識するのに役立ちます。
 
-![既定のバッジ セットのプレビュー](media/default-set-praise.png)
+![既定のバッジ セットのプレビュー。](media/default-set-praise.png)
 
 <a name="sel-edu-badges"></br></a>
 
 ### <a name="social-and-emotional-learning-badges-for-education"></a>教育用のソーシャルおよび感情的な学習バッジ
 
-教師は、ソーシャルおよび感情学習 (SEL) の実績と行動について、これらの概念を示すバッジを使用して個々の学生を認識できます。
+教育者は、ソーシャルおよび感情学習 (SEL) の実績と行動について、これらの概念を示すバッジを使用して個々の学生を認識できます。
 
-![教育用のソーシャルおよび感情的な学習バッジのプレビュー](media/sel-edu-set-praise.png)
+![教育用のソーシャルおよび感情的な学習バッジのプレビュー。](media/sel-edu-set-praise.png)
 
 <a name="create-your-own-badges"></br></a>
 
@@ -56,7 +56,7 @@ ms.locfileid: "58581231"
 
 [カスタム **バッジの作成] を選択します**。 ここから、サイド パネルでカスタム バッジをデザインできます。 最大 25 のカスタム バッジを作成できます。 
 
-![[カスタム バッジの作成] ウィンドウのスクリーンショット](media/manage-praise-app-create-custom-badge.png)
+![[カスタム バッジの作成] ウィンドウのスクリーンショット。](media/manage-praise-app-create-custom-badge.png)
 
 1. バッジ名を入力します。 これは、ユーザーが称賛を送信するときにバッジに表示される名前です。
 
@@ -66,7 +66,7 @@ ms.locfileid: "58581231"
    > 16 進値を初めから使用する場合[](#hex-colors-intro)は、その使い方を簡単に説明します。
 
 3. アップロード画像を作成します。 受け入れられるファイルの種類は.PNG。 イメージ ファイルは 40 KB 未満で、最大サイズは 216 X 216 ピクセルである必要があります。
-![背景、テキスト、画像のフィールドにラベルが付いたバッジ](media/praise-app-badge-fields.png)
+![背景、テキスト、画像のフィールドにラベルが付いたバッジ。](media/praise-app-badge-fields.png)
 
 4. バッジ名をローカライズする: [ローカライズされたバッジ **名] で、[** 追加] を **選択します**。 ドロップダウン リストから目的のロケールを選択します。 次に、指定された言語でバッジ名を入力します。
 
@@ -85,7 +85,7 @@ ms.locfileid: "58581231"
 
 16 進カラー値は、00 から FF のスケールで特定の色の赤 (RR)、緑 (GG)、青 (BB) の強度を表す 6 桁の 16 進数の文字列です。 3 色すべての値をまとめて入力すると、16 進数の値が表示#RRGGBB
 
-たとえば、赤色の 16 進値は #FF0000 です。赤は可能な限り高い値に設定され、FF、緑、青は、それぞれ可能な限り小さい値である 00 に設定されます。
+たとえば、赤色の 16 進値は #FF0000 です。赤は可能な限り高い値に設定され、FF、緑、青は、それぞれ可能な限り小さい値 00 に設定されます。
 
 さまざまな色とその 16 進値を調Bing[を確認してください](https://www.bing.com/search?q=color+picker)。
 
@@ -93,26 +93,26 @@ ms.locfileid: "58581231"
 
 |色  |16 進値|
 |-------|---------|
-|![16 進カラー #FF6666](media/hexColor1.png)|  #FF6666   |
-|![16 進カラー #7FFFD4](media/hexColor2.png)|  #7FFFD4   |
-|![16 進カラー #FF75F0](media/hexColor3.png)|  #FF75F0   |
-|![16 進カラー #00BFFF](media/hexColor4.png)|  #00BFFF   |
-|![16 進カラー #800080](media/hexColor5.png)|  #800080   |
-|![16 進カラー #000000](media/hexColor6.png)|  #000000   |
+|![16 進カラー #FF6666。](media/hexColor1.png)|  #FF6666   |
+|![16 進数#7FFFD4。](media/hexColor2.png)|  #7FFFD4   |
+|![16 進数#FF75F0。](media/hexColor3.png)|  #FF75F0   |
+|![16 進数#00BFFF。](media/hexColor4.png)|  #00BFFF   |
+|![16 進数#800080。](media/hexColor5.png)|  #800080   |
+|![16 進数#000000。](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
 ## <a name="best-practices-for-creating-custom-badges"></a>カスタム バッジを作成するためのベスト プラクティス
 
-**すべてのバッジを一度に送信します。** 新しいバッジが処理されるのに時間がかかるため、提出する前に、すべてのカスタム バッジをテーブルに追加する必要があります。
+**すべてのバッジを一度に送信します。** 新しいバッジが処理されるには時間がかかるため、提出する前に、すべてのカスタム バッジをテーブルに追加する必要があります。
 
 **色を選択する場合は、アクセシビリティに考慮してください。** 一部の色は、他の色よりも優れた組み合いです。  テキストと背景色のコントラストを作成して、バッジ名を読みやすくします。 たとえば、濃い背景色を選んだ場合は、明るいテキストの色を選ぶとします。
 
 **画像を選択する場合は、バッジのサイズを念頭に置きます。** 最適な品質を得る場合は、216 x 216 ピクセル (最大サイズ) のイメージ ファイルをアップロードすることをお勧めします。 これらの寸法に合わせて画像を拡大または歪ませないでください。
 
-**バッジ画像が四角形ではない場合は、画像を透明にします。** イメージ ファイルをアップロードする前に、この操作を行う必要称賛。
+**バッジ画像が四角形ではない場合は、画像を透明にします。** イメージ ファイルをアップロードする前に、この操作を行う称賛。
 
-![左: 透明でない画像のバッジ、右: 透明な画像を含むバッジ](media/praise-app-best-practices.png)
+![左: 透明でない画像を含むバッジ、右: 透明な画像を含むバッジ。](media/praise-app-best-practices.png)
 
 ## <a name="badge-set-assets"></a>バッジ セットアセット
 

@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 国または地域、市区町会でユーザーに割り当て可能な電話番号を検索し、必要な番号の数を指定する方法を参照してください。
-ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31815ff2877cc487f090600560fe9203c840fe58
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602112"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733566"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>ユーザーの電話番号を検索する
 
-組織内のユーザーに電話の送受信を設定する場合は **、Microsoft Teams 管理** センターを使用し、ユーザーに割り当て可能な電話番号を最初に取得する必要があります。 ユーザーに割り当てる電話番号は組織用に選んだ電話番号であり、ユーザーのプロパティを編集して [ **番号を割り当てる**] をクリックすると、その番号はドロップダウン リストに一覧表示されます。
+組織内のユーザーが電話の送受信を行う設定を行う場合は **、Microsoft Teams 管理** センターを使用し、ユーザーに割り当て可能な電話番号を最初に取得する必要があります。 ユーザーに割り当てる電話番号は組織用に選んだ電話番号であり、ユーザーのプロパティを編集して [ **番号を割り当てる**] をクリックすると、その番号はドロップダウン リストに一覧表示されます。
   
 ユーザーに電話番号を割り当てる前に、[新しい番号の取得] ページを使用して、領域内で利用可能な番号を検索する必要があります。 国または **地域、番号** の **種類**、場所で検索し、ユーザーに必要な電話番号の数を入力できます。 
   
@@ -40,11 +40,11 @@ ms.locfileid: "58602112"
 
 **ユーザーの電話番号を検索するには**
 
-![管理センターを使用Teams ](media/teams-logo-30x30.png) **ロゴをMicrosoft Teamsアイコン**
+![ロゴのアイコンTeams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
   
 1. [管理センター **] Microsoft Teams移動します**。
 
-2. 左側のナビゲーションで **、[Voice** 電話  >  **新しい**  >  **番号を取得します] を選択します**。
+2. 左側のナビゲーションで **、[Voice** 電話  >  **を選択します。**  >  
   
     > [!IMPORTANT]
     > Microsoft Teams 管理センターの左側のナビゲーションに [音声] オプションを表示するには、まず、少なくとも 1 つの **Enterprise E5** ライセンス、1 つの **電話システム** アドオン ライセンス、または 1 つの電話会議アドオン ライセンスを購入する必要があります。  
@@ -69,9 +69,9 @@ ms.locfileid: "58602112"
 
 9. [確認 **] ページ** で、選択内容を確認し、[注文] **をクリックします**。
 
-10. [電話番号] ページ **電話、** 割り当てる電話番号または電話番号を選択し、[編集] をクリックしてユーザーに割り当てします。  
+10. [電話番号]**ページ電話、** 割り当てる電話番号または電話番号を選択し、[編集] をクリックしてユーザーに割り当てします。  
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](./different-kinds-of-phone-numbers-used-for-calling-plans.md)

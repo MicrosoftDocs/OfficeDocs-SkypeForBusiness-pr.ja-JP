@@ -19,19 +19,19 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: '[レポート] ダッシュボードには、組織内の複数の製品Microsoft 365またはOffice 365アクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイス使用状況レポートを使用して、Skype for Business アプリがインストールされ、IM や会議に使用されている Windows ベースのオペレーティング システムやモバイル デバイスなどのデバイスを確認できます。 詳細については、管理センターのアクティビティ レポートに関するページを参照してください。'
-ms.openlocfilehash: 73f0558a295e6a11988331c48255a102dcc9d6eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '[レポート] ダッシュボードには、組織内の製品のMicrosoft 365またはOffice 365アクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイス使用状況レポートを使用して、Skype for Business アプリがインストールされ、IM や会議に使用されている Windows ベースのオペレーティング システムやモバイル デバイスなどのデバイスを確認できます。 詳細については、管理センターのアクティビティ レポートに関するページを参照してください。'
+ms.openlocfilehash: ca77c8728d691acb8c7e89824906f9fdd880c57f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612826"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730526"
 ---
 # <a name="device-usage-report"></a>デバイスの使用状況のレポート
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-[**レポート]** ダッシュボードには、組織内のMicrosoft 365またはOffice 365アクティビティの概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば **、Skype for Business** デバイス使用状況レポートを使用すると、Windows ベースのオペレーティング システムやモバイル デバイスなど、Skype for Business アプリがインストールされ、IM や会議に使用されているデバイスを確認できます。 
+[**レポート]** ダッシュボードには、組織内の製品のMicrosoft 365またはOffice 365の概要が表示されます。 このダッシュボードでは、個々の製品レベルのレポートまで掘り下げ、各製品内のアクティビティについてより細かい洞察を得ることができます。 たとえば、Skype for Business デバイス使用状況レポートを使用すると **、Skype for Business** アプリがインストールされ、IM や会議に使用されている Windows ベースのオペレーティング システムやモバイル デバイスなどのデバイスを確認できます。 
 
 詳細については、「 [レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 」を参照してください。
   
@@ -40,58 +40,58 @@ ms.locfileid: "58612826"
 > [!NOTE]
 > Microsoft 365 管理センターに管理者としてログオンすると、すべての Skype for Business レポートを表示できます。 
   
-## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>デバイス使用状況レポートをSkype for Businessする方法
+## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>デバイスの使用状況レポートSkype for Businessアクセスする方法
 
-1. 管理センターに移動し、[レポートの>**を**  >  **クリックします**。
+1. [レポートの使用状況] で管理>**に**  >  **移動します**。
     
-2. [使用状況 **] ページ** で、Skype for Business **の**[レポートの選択] ボックスの一覧の [デバイス **の使用状況]** をクリックします。 または、アクティビティ ウィジェット **Skype for Businessクリック** し、アクティビティ の一覧Skype for Business **デバイス** の使用状況をSkype for Business **クリック** します。
+2. [使用状況 **] ページ** で、左側 **Skype for Businessの**[レポートの選択] 一覧で [デバイス **の使用状況を確認する]** をクリックします。 または、アクティビティ ウィジェット **Skype for Businessクリック** し、アクティビティ の一覧Skype for Business **デバイス** の使用状況をSkype for Business **クリック** します。
     
-     ![Skype for Business使用状況レポート ウィジェット](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
+     ![Skype for Business使用状況レポート ウィジェット。](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
     サブスクリプションのMicrosoft 365またはOffice 365によっては、ここに示すすべての製品とアクティビティ レポートが表示されない場合があります。
     
 ## <a name="interpret-the-skype-for-business-device-usage-report"></a>デバイス使用状況Skype for Businessレポートを解釈する
 
-[ユーザー] グラフと [配布] グラフを見て、Skype for Businessアプリを使用しているデバイス **を****確認** できます。
+[ユーザー] グラフと [配布] グラフを見Skype for Businessアプリを使用しているデバイス **を****確認** できます。
   
-![Skype for Business クライアントの使用レポート](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
+![Skype for Business使用状況レポートを作成します。](../images/a1350924-37f8-4ae3-8603-bdde8c694203.png)
   
 ***
-![ナンバー 1](../images/sfbcallout1.png)<br/>デバイス **Skype for Business** レポートでは、過去 7 日間、30 日間、90 日間、または 180 日間の傾向を確認できます。 ただし、レポート内の特定の日をクリックすると、テーブル (数値 7 を参照) に、レポートが生成された日付 (数値 2 を参照) までの 30 日間のデータが表示されます。
+![数値 1。](../images/sfbcallout1.png)<br/>デバイス **Skype for Business** レポートでは、過去 7 日間、30 日間、90 日間、または 180 日間の傾向を確認できます。 ただし、レポート内の特定の日をクリックすると、テーブル (数値 7 を参照) に、レポートが生成された日付 (数値 2 を参照) までの 30 日間のデータが表示されます。
 
 > [!NOTE]
 > 特定の日の詳細をクリックすると、レポートが生成された日付までの 30 日間のデータだけがテーブルに表示されます。
     
 ***
-![番号 2](../images/sfbcallout2.png)<br/>
+![数値 2。](../images/sfbcallout2.png)<br/>
 各レポートには、このレポートが生成された日付が表示されます。 通常、レポートには、アクティビティの時刻から 24 ~ 48 時間の待機時間が反映されます。 
 ***
-![ナンバー 3](../images/sfbcallout3.png)<br/>[ユーザー] グラフの対話型グラフ データを使用して、使用状況の傾向を把握し、組織内で使用されている Skype for Business アプリを使用して接続されているユーザーの数を確認します。 Windows アプリがインストールされ、組織全体で使用されているWindows、Windows Phone、Android **フォン****、iPhone、iPad** Skype for Business デバイスのユーザーと種類の総数が表示されます。 
+![数値 3.](../images/sfbcallout3.png)<br/>[ユーザー] グラフの対話型グラフ データを使用して、使用状況の傾向を把握し、組織内で使用されている Skype for Business アプリを使用して接続されているユーザーの数を確認します。 Skype for Business アプリがインストールされ、組織全体で使用されている **Windows、Windows Phone、Android****フォン****、iPhone、** および iPad デバイスのユーザーと種類の総数が表示されます。
 ***
-![ナンバー 4](../images/sfbcallout4.png)<br/>配布棒グラフの対話型グラフ **データを** 使用して使用状況を把握し、組織内の一意のデバイスを使用するユーザーの数を確認します。 デバイスを使用しているユーザーの Windows、Windows Phone、Android **フォン**、iPhone、iPad の総数が表示されます。   
+![数値 4。](../images/sfbcallout4.png)<br/>配布棒グラフの対話型グラフ **データを** 使用して使用状況を把握し、組織内の一意のデバイスを使用するユーザーの数を確認します。 デバイスが使用されている Windows、Windows Phone、Android **フォン**、iPhone、iPad ユーザーの総数が表示されます。    
 ***
-![ナンバー 5](../images/sfbcallout5.png)<br/>凡例の項目をクリックして、グラフに表示する系列をフィルター処理できます。 たとえば、[ユーザー]グラフで、[Windows]、Windows Phone、Android **フォン****、iPhone、** または **iPad** をクリックまたはタップして、それぞれに関連する情報のみを表示します。  この選択を変更しても、グリッド テーブルの情報は変更されません。 
+![数値 5。](../images/sfbcallout5.png)<br/>凡例の項目をクリックして、グラフに表示する系列をフィルター処理できます。 たとえば、[ユーザー]グラフで、[Windows]、Windows Phone、Android **フォン****、iPhone、** または **iPad** をクリックまたはタップして、それぞれに関連する情報のみを表示します。 この選択を変更しても、グリッド テーブルの情報は変更されません。 
 ***
-![番号 6](../images/sfbcallout6.png)<br/>各グラフには、「X」軸（水平）と「Y」軸（垂直）があります。
+![数値 6。](../images/sfbcallout6.png)<br/>各グラフには、「X」軸（水平）と「Y」軸（垂直）があります。
 *    [ユーザー **]** グラフの Y 軸は、アプリがインストールされているデバイスに接続Skype for Businessです。
 *    [配布アクティビティ **]** グラフの Y 軸は、特定の種類のデバイスに接続され、アプリがインストールされているユーザー Skype for Businessです。 
 
 どちらのグラフも、X 軸はこの特定のレポートで選択した日付範囲です。
 ***
-![番号 7](../images/sfbcallout7.png)<br/>次の表は、ユーザーごとのすべての会議アクティビティの内訳を示しています。 これにより、ユーザーに割り当てられているSkype for Businessユーザーとその会議アクティビティが表示されます。 表には、列を追加することができます。
+![数値 7。](../images/sfbcallout7.png)<br/>次の表は、ユーザーごとのすべての会議アクティビティの内訳を示しています。 これにより、ユーザーに割り当てられているSkype for Businessユーザーとその会議アクティビティが表示されます。 表には、列を追加することができます。
 *    [ **ユーザー名**] はユーザーの名前です。 
 *    **最後のアクティビティの日付 (UTC)** は、ユーザーがピアツーピア セッションに参加した、または会議を開催した、または会議に参加した最新の時刻です。
-*    **Windows、** ユーザーが Skype for Business ベースのオペレーティング システムにインストールされている Windows クライアント アプリを使用している場合に選択されます。 
-*    **Windows Phone** がデバイスにインストールされている Skype for Business クライアント アプリを持ち、Windows Phone使用している場合は、このオプションが選択されます。
+*    **Windows** は、ユーザーが Skype for Business ベースのオペレーティング システムにインストールされている Windows クライアント アプリを持ち、それを使用している場合に選択されます。 
+*    **Windows Phone** デバイスにインストールされている Skype for Business クライアント アプリを持ち、Windows Phone使用している場合は、このオプションが選択されます。
 *    **Android フォン** は、ユーザーが Android フォンにインストールSkype for Businessクライアント アプリを持ち、それを使用している場合に選択されます。
 *    **iPhone** クライアント アプリがインストールされ、Skype for Business使用している場合は、iPhoneが選択されます。 
 *    **iPad** クライアント アプリがインストールされ、Skype for Business使用している場合は、iPadが選択されます。 
 
 組織のポリシーにより、ユーザー情報を特定できるレポートを表示できない場合は、これらすべてのレポートのプライバシー設定を変更できます。 管理センターの **アクティビティ** レポートの「ユーザー レベルの詳細を非表示にする方法」 [セクションを参照してください](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。 
 ***
-![数値 8](../images/sfbcallout8.png)<br/>レポートの列を **追加** または削除するには、任意の列の [列] アイコンをクリックまたはタップします。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
+![数値 8。](../images/sfbcallout8.png)<br/>レポートの列を **追加** または削除するには、任意の列の [列] アイコンをクリックまたはタップします。           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
-![数値 9](../images/sfbcallout9.png)<br/>また、[ **エクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。           <br/> ![Skype for Business[レポートのエクスポート] ボタン。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。 
+![数値 9。](../images/sfbcallout9.png)<br/>また、[ **エクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。           <br/> ![Skype for Business[レポートのエクスポート] ボタン。](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。ユーザー数が 2000 未満である場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行うことができます。ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。 
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Skype for Business のその他のレポートを表示しますか?
 

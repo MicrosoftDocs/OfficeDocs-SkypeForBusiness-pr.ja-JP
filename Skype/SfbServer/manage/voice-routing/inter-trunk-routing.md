@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Skype for Business Serverは、侵入ルーティングのサポートを通じて基本的なセッション管理を提供します。 '
-ms.openlocfilehash: 67e22f2727c9ef5f741b71c781084ab8fc2cea27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e8ed3ab7b72474614011e4b9f7aaf49ffd5160b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630511"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730916"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>Skype for Business Server: トランク間ルーティング
 
@@ -25,9 +25,9 @@ Skype for Business Serverは、侵入ルーティングのサポートを通じ�
 
 次の図は、PSTN ゲートウェイSkype for Business Server IP-PBX 間の相互接続を提供する方法を示しています。
 
-![PSTN ゲートウェイと IP-PBX 間の相互接続](../../media/pstn-gateway-ip-pbx.jpg)
+![PSTN ゲートウェイと IP-PBX 間の相互接続。](../../media/pstn-gateway-ip-pbx.jpg)
 
 次の図は、2 Skype for Business Server IP-PBX システムを接続する方法を示しています。
 
-![Skype for Business Server IP-PGX システムを接続する方法](../../media/two-ip-pbx-systems.jpg)
+![Skype for Business Server IP-PGX システムを接続します。](../../media/two-ip-pbx-systems.jpg)
 

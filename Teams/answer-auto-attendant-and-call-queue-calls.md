@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb35bc5a035c03080ce44fa19fa3ecf5a5c674a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580291"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733366"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 
@@ -42,7 +42,7 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 
 次の図は、自動応答または通話キューからの着信通話がユーザーにどのように表示されるかを示しています。
 
-![着信通知のスクリーンショット](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![着信通知のスクリーンショット。](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 自動応答または通話キューの通話に応答すると、ユーザーは他の通話と同様に処理できます&#x2014。別のユーザーを追加したり、会議を行ったり、別の相手に転送したりできます。 また、自動応答通話はユーザーの構成に基づいて転送されます。
 
@@ -60,7 +60,7 @@ Teams ユーザーは、クラウドの自動応答および通話キューを T
 -    Microsoft Teams iPhone アプリ
 -    Microsoft Teams Android アプリ
 
-このTeamsクライアントは、 の共同存在モードでのみTeams[サポートされます](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
+クライアントTeamsは、 の共同存在モードでのみサポートTeams[されます](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Microsoft Teams の自動応答と通話キューのサポートを構成する
 

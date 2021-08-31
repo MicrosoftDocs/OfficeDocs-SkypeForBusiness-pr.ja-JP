@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 841f471d548e26d9eb7eb876433330d3ecd20f67
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3cacf0ef5305ac1e7bc32ba1f0c8c91ab8ec723
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627449"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730836"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
@@ -35,7 +35,7 @@ ms.locfileid: "58627449"
 
 アプリのアクセス許可ポリシーは、Microsoft Teams 管理センターで管理します。 グローバル (組織全体の既定) ポリシーを使用ことも、カスタム ポリシーを作成して割り当てることもできます。 カスタム ポリシーを作成して割り当てていない場合、組織内のユーザーにはグローバル ポリシーが自動的に適用されます。 ポリシーを編集既するか割り当てた後、変更が反映されるまでに数時間かかる場合があります。
 
-![アプリのアクセス許可ポリシーのスクリーンショット](media/app-permission-policies.png)
+![アプリのアクセス許可ポリシーのスクリーンショット。](media/app-permission-policies.png)
 
 > [!NOTE]
 > 組織全体のアプリ設定は、グローバル ポリシーや、お客様が作成してユーザーに割り当てるカスタム ポリシーを上書きします。
@@ -53,7 +53,7 @@ ms.locfileid: "58627449"
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アクセス許可ポリシー]** の順に移動します。
 2. **[追加]** をクリックします。<br>
-    ![新しいアプリのアクセス許可ポリシーのスクリーン ショット](media/app-permission-policies-new-policy.png)
+    ![新しいアプリのアクセス許可ポリシーのスクリーンショット。](media/app-permission-policies-new-policy.png)
 3. ポリシーの名前と説明を入力します。
 4. **[Microsoft アプリ]**、**[サードパーティアプリ]**、および **[カスタムアプリ]** で、次のいずれかを選択します。
 
@@ -90,13 +90,13 @@ Microsoft 365 Government - Teams の GCCH と DoD のデプロイでは、GCCH �
 
 GCCH および DoD では、すべてのサード パーティ製アプリが既定でブロックされます。 さらに、Microsoft Teams 管理センターのアプリのアクセス許可ポリシー ページに、サードパーティ アプリの管理に関する次の注意事項が表示されます。
 
-![GCCH と DoD のアプリのアクセス許可ポリシーのスクリーンショット](media/app-permission-policies-gcc.png)
+![GCCH と DoD のアプリのアクセス許可ポリシーのスクリーンショット。](media/app-permission-policies-gcc.png)
 
 組織全体のアプリ設定を使用して、ユーザーがサード パーティのアプリをインストールできるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。 それらを使用して、悪意のあるアプリや問題のあるアプリを制御できます。
 
 1. **[権限ポリシー]** ページで、**[組織全体のアプリ設定]** を選択します。 次に、パネルで必要な設定を構成できます。
 
-    ![組織全体のアプリ設定のスクリーンショット](media/app-permission-policies-gcc-org-wide.png)
+    ![組織全体のアプリ設定のスクリーンショット。](media/app-permission-policies-gcc-org-wide.png)
     
 2. **[サードパーティ アプリ]** で、次の設定をオフまたはオンにして、サードパーティ アプリへのアクセスを制御します。
 

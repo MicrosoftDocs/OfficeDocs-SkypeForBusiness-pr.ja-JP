@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9233f3a807846261a563d11b46d0fea59092780
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc4321adbbb8073b3ba290ab3236c543ae6bd320
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613476"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733576"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -35,18 +35,18 @@ Teams のライブ イベント設定を使用して、組織で保持されて�
 
 Microsoft Teams 管理センターでこの設定を簡単にできます。 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 
-![ライブ イベント設定Teamsスクリーン ショット](../media/teams-live-events-settings.png "管理センター Teamsで構成できるライブ イベント設定のスクリーン Microsoft Teamsショット")
+![ライブ イベント設定Teamsスクリーン ショット。](../media/teams-live-events-settings.png "管理センター Teamsで構成できるライブ イベント設定のスクリーン Microsoft Teamsショット")
 
 ## <a name="set-up-event-support-url"></a>イベントのサポート URL を設定する
 
 この URL は、ライブ イベントの参加者に表示されます。 ライブ イベント中にサポートへの連絡方法を参加者に提供する組織のサポートの URL を追加します。
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![ロゴのアイコンMicrosoft Teams表示されます。](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 2. [**サポート URL**] で組織のサポート URL を入力します。
 
-    ![管理センターでのライブ イベントのサポート URL 設定](../media/teams-live-events-settings-supporturl.png "ライブ イベントのサポート URL 設定Teamsスクリーン ショット")
+    ![管理センターでライブ イベントの URL 設定をサポートします。](../media/teams-live-events-settings-supporturl.png "ライブ イベントのサポート URL 設定Teamsスクリーン ショット")
 
 ### <a name="using-windows-powershell"></a>Windows PowerShell の使用
 
@@ -60,12 +60,12 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネットワーク (SDN) ソリューションまたはエンタープライズ コンテンツ配信ネットワーク (eCDN) ソリューションを購入してセット アップした場合は、Teams でライブ イベント プロバイダーを構成します。 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Microsoft Teams のロゴが表示されたアイコン](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![ロゴのアイコンMicrosoft Teams表示されます。](../media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**会議**]  >  [**ライブ イベント設定**] に移動します。
 2. [**サード パーティ製ビデオ配信プロバイダー**] で次を実行します。 
 
-    ![管理センターのサード パーティのビデオ配信プロバイダーの設定](../media/teams-live-events-settings-distribution-provider.png "ライブ イベントのサード パーティのビデオ配信プロバイダー設定のスクリーン ショット")
+    ![管理センターのサード パーティのビデオ配信プロバイダーの設定。](../media/teams-live-events-settings-distribution-provider.png "ライブ イベントのサード パーティのビデオ配信プロバイダー設定のスクリーン ショット")
 
     - **サード パーティ製配信プロバイダーを使用する** これを選択してサード パーティ製ビデオ配信プロバイダーを有効にします。
     - **SDN プロバイダー名** お使いのプロバイダーを選択します。
@@ -91,6 +91,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
 ```
+**Peer5**
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
+```
 
 詳細については、[CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps) を参照してください。
 
@@ -103,7 +107,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 >[!Note]
 > 選択した eCDN ソリューションには、選択したサードパーティ プロバイダーのサービス利用規約とプライバシー ポリシーが適用されます。このポリシーによって、eCDN プロバイダーのソリューションの使用が管理されます。 eCDN プロバイダーのソリューションの使用には、Microsoft ボリューム ライセンス条項またはオンライン サービス条件の適用対象となんら適用されないものとします。 サードパーティ プロバイダーの条項に同意しない場合は、Microsoft Teams で eCDN ソリューションを有効にMicrosoft Teams。
 
-### <a name="related-topics"></a>関連トピック
+### <a name="related-topics"></a>関連項目
 - [Teams のライブ イベントについて](what-are-teams-live-events.md)
 - [Teams のライブ イベントの計画](plan-for-teams-live-events.md)
 - [Teams のライブ イベントをセットアップする](set-up-for-teams-live-events.md)

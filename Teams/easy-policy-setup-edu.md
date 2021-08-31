@@ -17,18 +17,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams for Education ポリシー ウィザードを使用して、学生や教育者向けのポリシーを簡単に適用して、学習環境を安全に保つ方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: d7e2959b5b824d8b053d9b912d0450c2209b4b1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604596"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733866"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>セキュリティ ポリシー ウィザードMicrosoft Teams for Education使用して、安全な学習環境にポリシーを簡単に適用する
 
 ## <a name="overview"></a>概要
 
-[Microsoft Teams for Education ウィザードを使用すると、学生と教師のポリシーの管理が簡略化されます。 安全で生産的な学習エクスペリエンスの作成に関連する最も重要なポリシー セットを簡単かつ迅速に適用するために使用します。
+このMicrosoft Teams for Education ウィザードを使用すると、学生と教師のポリシーの管理が簡単にできます。 安全で生産的な学習エクスペリエンスの作成に関連する最も重要なポリシー セットを簡単かつ迅速に適用するために使用します。
 
 ポリシーを使用Teams環境でのTeamsの動作と、ユーザーが使用できる機能を制御できます。 たとえば、通話ポリシー、会議ポリシー、メッセージング ポリシーなど、いくつかの名前を付けることができます。各ポリシー領域は、組織のニーズに合わせてカスタマイズできます。
 
@@ -36,12 +36,12 @@ ms.locfileid: "58604596"
 
 学習エクスペリエンスを安全に保つには、学生と教師の両方のポリシーを調整する必要があります。 学生のポリシーは、不適切なレベルのアクセスを受けるリスクを減らすために、より制限的である必要があります。 教師とスタッフには、成功を収め、より制限の少ないポリシーのセットが必要です。 たとえば、教師が会議のスケジュールを設定し、学生が会議を行うのを制限できます。
 
-:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="ウィザードのスクリーンショット":::
+:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="ウィザードのスクリーンショット。":::
 
 この記事では、ウィザードを実行する方法について手順を示します。
 
 > [!IMPORTANT]
-> ウィザードによって適用されるポリシーは、顧客の大半のニーズをMicrosoft Teams for Educationします。 ウィザードは、学生の安全のために推奨される設定を使用して、ポリシーのコア セットのグローバル (組織全体の既定) 定義を調整し、それを学生に適用します。 ウィザードでは、一連のカスタム ポリシーも作成され、教師とスタッフに割り当てされます。 ほとんどのMicrosoft Teams for Education、このウィザードの実行後に他のポリシー割り当て方法を使用する必要が生じます。 他のポリシー割り当て方法は、学生、教師、スタッフのポリシーを手動で作成および管理する場合にのみ使用します。
+> ウィザードによって適用されるポリシーは、顧客の大半のニーズをMicrosoft Teams for Educationします。 ウィザードは、学生の安全のために推奨される設定を使用して、ポリシーのコア セットのグローバル (組織全体の既定) 定義を調整し、それを学生に適用します。 ウィザードでは、一連のカスタム ポリシーも作成され、教師とスタッフに割り当てされます。 ほとんどのMicrosoft Teams for Education、このウィザードの実行後に他のポリシー割り当て方法を使用する必要がなされません。 他のポリシー割り当て方法は、学生、教師、スタッフのポリシーを手動で作成および管理する場合にのみ使用します。
 
 ## <a name="teams-for-education-policy-wizard"></a>Microsoft Teams for Educationポリシー ウィザード
 
@@ -52,7 +52,7 @@ ms.locfileid: "58604596"
 ウィザードは、教育機関の種類 (プライマリ、セカンダリ、または高等教育) に基 **づいてポリシー****を設定します**。 教育機関の種類を選択すると、ウィザードで次の手順が実行されます。
 
 - **学生**: ウィザードは、ウィザードの対象となる各ポリシー領域のグローバル (組織全体の既定) ポリシー定義を、学生の安全を守るのに適した新しい既定の設定で調整します。 これにより、現在の学生とすべての新しい学生が、最も制限の厳しいポリシー セットを取得できます。
-- **教育者と** スタッフ: ウィザードは、ウィザードの対象となるポリシー領域ごとに、教師やスタッフのニーズに合わせて調整された設定で、一連のカスタム ポリシー定義を作成します。 次に、選択した教師とスタッフのグループにポリシー定義を割り当てる。 これにより、教師とスタッフは、より制限の少ない一連のポリシーを取得して、それを成功に向かえます。
+- **教育者と** スタッフ: ウィザードは、ウィザードの対象となるポリシー領域ごとに、教師とスタッフのニーズに合わせて調整された設定で、一連のカスタム ポリシー定義を作成します。 次に、選択した教師とスタッフのグループにポリシー定義を割り当てる。 これにより、教師とスタッフは、より制限の少ない一連のポリシーを取得して、教師とスタッフが成功を収めできます。
 
 ウィザードは 1 回だけ実行する必要があります。 新しい学生には、ウィザードによって適用されるグローバル (組織全体の既定) ポリシー定義が自動的に取得され、選択したグループに追加した新しいスタッフには、カスタム ポリシーが自動的に割り当てられます。
 
@@ -69,26 +69,26 @@ ms.locfileid: "58604596"
 
 ウィザードを実行するには、次の手順に従います。
 
-1. 新しいアプリケーションを使用する場合Teamsウィザードが自動的に起動します。 それ以外の場合は、ダッシュボードからいつでもウィザードを開始できます。 Microsoft Teams 管理センターの左側のナビゲーションで、[ダッシュボード] に移動し、[安全な学習環境の簡単なポリシー設定] タイルで、[クイック セットアップ]**を選択します**。
+1. 新しいウィザードを使用する場合Teamsウィザードが自動的に起動します。 それ以外の場合は、ダッシュボードからいつでもウィザードを開始できます。 Microsoft Teams 管理センターの左側のナビゲーションで、[ダッシュボード] に移動し、[安全な学習環境の簡単なポリシー設定] タイルで、[クイック セットアップ]**を選択します**。
 
-    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="ダッシュボードのウィザードのスクリーンショット":::
+    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="ダッシュボードのウィザードのスクリーンショット。":::
 
-2. 教育機関の種類 ([プライマリ] または [**セカンダリ** ] または **[高** 等教育]) を選択し、[次へ] を **選択します**。
+2. 教育機関の種類 ([プライマリ] または [**セカンダリ** ] または [ **高** 等教育]) を選択し、[次へ] を **選択します**。
 
-    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="教育機関の種類を選択するウィザードのページのスクリーンショット":::
+    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="教育機関の種類を選択するウィザードのページのスクリーンショット。":::
 
 3. 教師とスタッフを含むグループを検索して選択し、[次へ] を選択 **します**。 教師とスタッフ用にまだグループを設定していない場合は、グループ を作成し[](/microsoft-365/admin/create-groups/create-groups)、ウィザードを再び実行します。 <br/><br/>現時点では、1 つのグループのみを選択できます。 選択したグループの教師とスタッフには、ニーズに合[](#policies-applied-by-the-wizard)わせてカスタマイズされた一連のカスタム ポリシーが割り当てられます。 この一連のポリシーは、学生に適用されるポリシーとは別のポリシーです。
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="教師とスタッフ グループを選択するウィザードのページのスクリーンショット":::
+    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="教師とスタッフ グループを選択するウィザードのページのスクリーンショット。":::
 
 4. 選択内容を確認します。
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="選択内容を確認するウィザードのページのスクリーンショット":::
+    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="選択内容を確認するウィザードのページのスクリーンショット。":::
 
 5. [適用 **] を** 選択して変更を適用します。 完了には数分かかる場合があります。<br/><br/>グローバル (組織全体の既定) ポリシー定義は、すぐに学生に適用されます。 教師とスタッフの場合、グループのサイズによっては、選択したグループの各メンバーにカスタム ポリシーが割り当てられるまで数時間かかる場合があります。 これは、この手順を正常に完了した後、バックグラウンドで発生します。
 6. 途中ですが、まだ完了していません。 他にも考慮すべき点があります。 次に、この記事の「ウィザードの実行後の [操作」](#what-to-do-after-running-the-wizard) セクションの手順を確認してください。
 
-    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="次の手順のウィザードのページのスクリーンショット":::
+    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="次の手順については、ウィザードのページのスクリーンショット。":::
 
 ## <a name="what-to-do-after-running-the-wizard"></a>ウィザードの実行後の操作
 
@@ -97,7 +97,7 @@ ms.locfileid: "58604596"
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>手順 1: ウィザードによって適用されたポリシーと競合する既存のポリシー割り当てを削除する
 
 > [!IMPORTANT]
-> **ウィザードを実行する前に、** 学生または教師とスタッフに割り当てられている既存のポリシーがある場合にのみ、この手順を実行します。 Teams を初めとして、ウィザードによって作成されたポリシー以外の既存のポリシーを持ってない場合は、これをスキップして手順 2 に進みます。
+> **ウィザードを実行する前に、** 学生または教師およびスタッフに割り当てられている既存のポリシーがある場合にのみ、この手順を実行します。 Teams を初めとして、ウィザードによって作成されたポリシー以外の既存のポリシーを持ってない場合は、これをスキップして手順 2 に進みます。
 
 このTeams、特定のポリシー領域に対して、次の方法でポリシーをユーザーに適用できます。
 
@@ -119,7 +119,7 @@ ms.locfileid: "58604596"
 ウィザードによって [適用されるポリシー領域ごとに、次](#policies-applied-by-the-wizard)の操作を行います。
 
 - ウィザードによって適用されるグローバル (組織全体の既定) ポリシー定義が有効に設定された場合は、学生から既存のすべての直接割り当てとグループの割り当てを削除します。
-- ウィザードによって作成されたカスタム ポリシー定義が有効な場合は、教師とスタッフに対して競合する直接割り当てを削除します。 上の表を使用して、自分に当てはめるシナリオを決定します。 <br/><br/>ウィザードは、グループ割り当てランキング 1 を使用して教師とスタッフ[](assign-policies.md#group-assignment-ranking)グループにポリシーを割り当てるので、最も高いランクです。 教師とスタッフ グループに同じポリシー領域の既存のポリシーが割り当てられている場合、その既存のポリシーは下位のランクに移動され、ウィザードによって割り当てられたポリシーが有効になります。
+- ウィザードによって作成されたカスタム ポリシー定義が有効な場合は、教師とスタッフに対して競合する直接割り当てを削除します。 上の表を使用して、自分に適用されるシナリオを決定します。 <br/><br/>ウィザードは、グループ割り当てランキング 1 を使用して教師とスタッフ[](assign-policies.md#group-assignment-ranking)グループにポリシーを割り当てるので、最も高いランクです。 教師とスタッフ グループに同じポリシー領域の既存のポリシーが割り当てられている場合、その既存のポリシーは下位のランクに移動され、ウィザードによって割り当てられたポリシーが有効になります。
 
 [ユーザーに](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) 直接割り当てられているポリシーを削除する方法について説明します。
 
@@ -131,15 +131,15 @@ ms.locfileid: "58604596"
 
 ウィザードは、これらのポリシーを自動的に [調整して適用します](#policies-applied-by-the-wizard)。 安全を保つには、機関のニーズに基づいて実行する必要がある追加の対策がいくつかある場合があります。
 
-その[他の安全に関する推奨事項については、「Teamsを使用](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)しながら学生を安全に保つ」を参照してください。
+その他[の安全に関する推奨事項については、「Teamsを](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)使用しながら学生を安全に保つ」を参照してください。
 
 <a name="polwiz_mc"> </a>
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>手順 3: メッセージ センターでポリシーの更新を確認する
 
-現時点では、ウィザードを実行すると、推奨されるポリシーが適用されます。 Teams で新しいポリシーが使用可能になると、学生の安全のためのグローバル (組織全体の既定) 設定がウィザードによって自動的に更新されます。 
+現時点では、ウィザードを実行すると、推奨されるポリシーが適用されます。 Teams で新しいポリシーが利用可能になると、学生の安全のためのグローバル (組織全体の既定) 設定がウィザードによって自動的に更新されます。 
 
-ただし、メッセージ[](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)センター (Microsoft 365 管理センター) を頻繁にチェックして、新機能とそのポリシーとポリシー設定を最新の情報にTeams。 
+ただし、メッセージ[](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter)センター (Microsoft 365 管理センター) を頻繁にチェックして、新しい機能とそのポリシーとポリシー設定を最新の情報にTeams。 
 
 ## <a name="make-changes-in-the-wizard"></a>ウィザードで変更を行う
 
@@ -150,7 +150,7 @@ ms.locfileid: "58604596"
 1. Microsoft Teams 管理センターの左側のナビゲーションで、[ダッシュボード] に移動し、[安全な学習環境の簡単なポリシー設定] タイルで、[変更] を選択 **します**。
 2. ここから、ウィザードの各ページに進み、変更を加えます。 教育機関の種類、ポリシーを割り当てる教師とスタッフのグループ、または両方を変更できます。
 
-次の表は、ウィザードで変更を行った場合の内容をまとめたものです。
+次の表に、ウィザードで変更を行った場合の結果を示します。
 
 |変更の種類  |ポリシーの動作  |
 |---------|---------|
@@ -230,7 +230,7 @@ ms.locfileid: "58604596"
 |ライブ イベント ポリシー  |       |スケジュールを許可         |オフ         |オフ|
 |  |       |出席者の議事録作成を許可する          |オン       |オン|
 |  |       |スケジュールされたライブ イベントに参加できるユーザー        |組織内のすべてのユーザー        |組織内のすべてのユーザー|
-|  |       |Whoを記録できる         |いつも         |いつも|
+|  |       |Whoイベントを記録できる         |いつも         |いつも|
 |メッセージング ポリシー  |       |所有者が送信したメッセージを削除できます         |オフ|オン|
 |  |       |送信済みメッセージを削除する         |オフ         |オン|
 |  |       |送信済みメッセージを編集する         |オフ         |オン|
@@ -329,8 +329,8 @@ ms.locfileid: "58604596"
 
 * * *
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [教育機関向け Teams ポリシーおよびポリシー パッケージ](policy-packages-edu.md)
 - [学校の大規模なユーザーにポリシーを割り当てる](batch-group-policy-assignment-edu.md)
-- [距離学習に関する情報をTeams学生を安全に保つ](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [距離学習に学習を利用Teams学生を安全に保つ](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)

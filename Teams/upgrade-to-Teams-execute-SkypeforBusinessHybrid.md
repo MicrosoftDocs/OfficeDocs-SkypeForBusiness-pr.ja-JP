@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 組織をアップグレードして、ハイブリッド デプロイMicrosoft TeamsアップグレードするSkype for Business説明します。
+description: 組織をアップグレードして、ハイブリッド デプロイからMicrosoft TeamsアップグレードするSkype for Business説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc79cb570a92ac59bc820b8e10d750d9d926f287
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df0d3923ccf7078e810217a59aad4b9b7bac1126
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615133"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731176"
 ---
-# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>ハイブリッド デプロイからSkype for BusinessへのアップグレードTeams
+# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>ハイブリッドデプロイからSkype for BusinessへのアップグレードTeams
 
-![「展開と実装」段階が強調表示された、アップグレード行程の各段階](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
+![デプロイと実装のステージに重点を置いたアップグレード体験のステージ。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、お客様のアップグレード手順における展開と実装の段階の一部を取り上げています。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
@@ -41,7 +41,7 @@ ms.locfileid: "58615133"
 - [組織を準備した](./upgrade-prepare-organization.md)
 - [パイロットを実施した](./pilot-essentials.md)
 
-Skype for Business または Microsoft Lync をオンプレミスに展開し、Microsoft 365 または Office 365 組織とのハイブリッド展開で構成し、組織が複数の共存モードを使用するか、すべて使用して Teams に選択的にアップグレードする場合は、この記事のガイダンスに従います。 どちらのアップグレード体験でも、ユーザーを Skype for Business Online に移動し (オンラインにまだホームしていない場合)、適切な共存モードとアップグレード モードを割り当てる必要があります。
+Skype for Business または Microsoft Lync をオンプレミスに展開し、Microsoft 365 または Office 365 組織とのハイブリッド展開で構成し、組織が複数の共存モードを使用するか、またはすべて使用して Teams に選択的にアップグレードする場合は、この記事のガイダンスに従います。 どちらのアップグレード体験でも、ユーザーを Skype for Business Online に移動し (オンラインにまだホームしていない場合)、適切な共存モードとアップグレード モードを割り当てる必要があります。
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -59,6 +59,6 @@ Skype for Business または Microsoft Lync をオンプレミスに展開し、
 
 ## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
 
-通話プランを使用して Skype for Business ハイブリッド展開を 電話システム に移行する場合、Microsoft は公衆交換電話網 (PSTN) プロバイダーになります。また、電話番号の移行を完了したと仮定すると、ユーザーを Teams にアップグレードすると、受信 PSTN 通話が Teams に自動的に移行されます。
+通話プランを使用して Skype for Business ハイブリッド展開を 電話システム に移行する場合、Microsoft は公衆交換電話網 (PSTN) プロバイダーになります。また、電話番号の移行が完了したと仮定すると、ユーザーを Teams にアップグレードすると、受信 PSTN 通話が Teams に自動的に移行されます。
 
-通話プランを利用できない場合、または既存の PSTN 接続プロバイダーを使用する場合は、エンタープライズ音声展開 (または既存のオンプレミスデプロイまたは Cloud Connector Edition を使用するハイブリッド音声展開) を Microsoft 電話 System Direct Routing に移行する必要があります。 ユーザーを Teams にアップグレードする場合は、[電話システム ダイレクト ルーティングに関する考慮事項](./direct-routing-landing-page.md)を参照してください。
+通話プランが利用できない場合、または既存の PSTN 接続プロバイダーを使用する場合は、エンタープライズ音声展開 (または既存のオンプレミスデプロイまたは Cloud Connector Edition を使用するハイブリッド音声展開) を Microsoft 電話 System Direct Routing に移行する必要があります。 ユーザーを Teams にアップグレードする場合は、[電話システム ダイレクト ルーティングに関する考慮事項](./direct-routing-landing-page.md)を参照してください。

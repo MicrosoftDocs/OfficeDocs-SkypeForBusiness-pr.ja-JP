@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: カナダの IP Relay アカウントを使用する方法。
-ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18b6f356f6d90b4e6a962ef1b7709cb3cf39253c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618263"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730976"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>カナダでの IP 中継 - 『ユーザーガイド』
 
@@ -40,7 +40,7 @@ Microsoft からの IP Message Relay サービスの説明:
 ## <a name="scenario-b"></a>シナリオ B
 障がいを持つユーザーが、登録されている聴覚障がいのあるユーザーまたは音声障がいのあるユーザーと話したい場合は、Microsoft が提供する無料電話番号に電話します。
 
-通話受話者は、その後、障がいのある人と通信し、聴覚障がい者または音声障がい者とチャットを介して連絡を取り、やり取りします。
+通話の受話者は、障がいを持つ人と通信し、聴覚障がい者または音声障がいのあるユーザーとチャットを介して連絡を取り、やり取りします。
 
 聴覚障がい者または音声障がいのあるユーザーがチャット プログラムでオンラインではない場合、電子メール アドレスが使用可能な場合、通話の受け取り者は、発信者から要求された場合、聴覚障がいのあるユーザーまたは音声障がいのあるユーザーに電子メールを送信します。
 
@@ -70,9 +70,9 @@ https://aka.ms/IPRelay
 ### <a name="how-to-place-a-911-call"></a>911 通話を行う方法:
 緊急対応の場合は、画面の下部にある適切な緊急ボタンを選択できます (次に示します)。
 
-![緊急ボタン](../images/ip-relay-emergency-buttons.png)
+![緊急ボタン。](../images/ip-relay-emergency-buttons.png)
 
-IP Message Relay オペレーターは、911 に連絡し、住所を確認し、必要がなくなったら適切な部署が自分の場所に派遣されるまで、さまざまな緊急センターで翻訳します。
+IP Message Relay オペレーターは 911 に連絡し、住所を確認し、必要がなくなったら適切な部署が自分の場所に派遣されるまで、さまざまな緊急センターで翻訳します。
 
 > [!WARNING]
 > このサービスは、単なるテストであり、緊急機関からの偽のディスパッチ料金が請求される可能性がある場合でも、適切な機関に連絡され、場合によってはディスパッチされますので、このサービスをテストしなださい。
@@ -83,7 +83,7 @@ IP Message Relay オペレーターは、911 に連絡し、住所を確認し�
 > [!IMPORTANT]
 > Northern911 は、Microsoft に代わって IP リレー サービスを管理します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [カナダでの IP 中継 - サインアップ](ip-relay-canada-email-signup.md)
 

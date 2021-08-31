@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f887916da6db1cb2412f8baa6ffacf6f74d3c5e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fbbc32c1a22fb5a2144231964b8498291ca009d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635091"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730726"
 ---
 # <a name="evaluate-my-environment"></a>環境を評価する
 
@@ -34,7 +34,7 @@ ms.locfileid: "58635091"
 
 目標となる主要な結果 (OKRs) を達成するために、以前に主要なサービスの決定を行いました。 次の手順では、環境検出を実行して、IT およびテレフォニー インフラストラクチャ、ネットワーク、運用に関連するすべての側面を評価し、組織がソリューションを実装する準備ができていることを確認します。
 
-環境検出には、ネットワークが電話会議の実装をサポートしたり、通話プラン サービスを使用電話システムをサポートしたりするためのネットワーク準備評価を含める必要があります。
+環境検出には、ネットワークが電話会議の実装をサポートしたり、通話プラン サービスを使用電話システムをサポートしたりするために、ネットワーク準備評価を含める必要があります。
 
 環境評価と導入準備評価の一環として技術的なリスクを特定し、特定されたリスクごとに軽減計画を策定します。
 この情報は、リスク レジスタに組み込む必要があります。
@@ -43,15 +43,15 @@ ms.locfileid: "58635091"
 
 ## <a name="current-environment"></a>現在の環境
 
-環境検出の一環として、ハードウェア要件からソフトウェア要件まで、電話会議をサポートする PC とモバイル デバイスの準備評価や、通話プランビジネス の使用事例を使用した 電話システム の準備評価など、エンド ユーザー コンピューティングに関連する事項を含める必要があります。
+環境検出の一環として、ハードウェア要件からソフトウェア要件まで、電話会議をサポートする PC とモバイル デバイスの準備評価や、通話プランビジネス の使用例を使用した 電話システム の準備評価など、エンドユーザー コンピューティングに関連する事項を含める必要があります。
 
 環境の検出では、電話番号を Microsoft に転送 [する必要があるかどうかも明らかにできます](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
-これがわかることにより、組織がプロジェクト計画を調整し、番号の移植に必要な情報を準備するのに役立ちます。 [環境検出][を使用して、環境Microsoft Teamsを](environmental-discovery-for-microsoft-teams-rollout.md)実行できます。
+これがわかることにより、組織がプロジェクト計画を調整し、番号の移植に必要な情報を準備するのに役立ちます。 環境検出を使用[して、環境検出Microsoft Teamsを](environmental-discovery-for-microsoft-teams-rollout.md)実行できます。
 
 <table>
 <tr><td>タイトル</td><td>説明</td></tr>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>Who評価を完了する責任はありますか。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>環境評価の結果を文書化します。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>Who評価を完了する責任はありますか?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>環境評価の結果を文書化します。</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -69,7 +69,7 @@ ms.locfileid: "58635091"
 <table>
 <tr><td>タイトル</td><td>説明</td></tr>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>以前、ソフトウェアまたはサービスのユーザー導入に成功しましたか?</li><li>使用状況の取り込みは追跡できますか?</li><li>初期および継続的な導入キャンペーン (認識、トレーニング、サポート) を設計および管理するためのリソース &mdash; &mdash; はありますか。</li><li>専用のユーザー導入/変更管理チームを持っていますか。または、ビジネスの成果を確実に得るリソースに投資できますか。</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>上記のすべてについて「はい」と回答した場合は、適切なユーザー変更管理の関係者を特定し、ユーザーの準備計画 &quot; &quot; を開始します。</li><li>上記の一部またはすべての回答に対して回答がない場合は、組織の変更管理と導入関連のアクティビティの促進に役立つ外部リソースへの関与 &quot; &quot; を検討してください。</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>上記のすべてについて「はい」と回答した場合は、適切なユーザー変更管理の関係者を特定し、ユーザーの準備計画 &quot; &quot; を開始します。</li><li>上記の一部またはすべての回答に対して回答がない場合は、組織の変更管理と導入関連のアクティビティの促進に役立つ外部リソースへの関与 &quot; &quot; を検討してください。</li></ol></td></tr>
 </table>
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "58635091"
 
 Teams では、オーディオとビデオの技術 (コーデック) が使用されています。そのため、ほとんどのネットワーク条件で対応できます。 最適かつ一貫性のあるパフォーマンスを確保するために、Teams 用にネットワークを準備する必要があります。
 
-![品質にかかわる 3 つの構成要素を取り上げた図](media/evaluate-my-environment-image1.png "品質の 3 つの構成要素と、サービス管理が 3 つの構成要素すべてにどのように重なるかを示す図。ネットワークに重点を置いています。")
+![品質の 3 つのコンポーネントを説明する図。](media/evaluate-my-environment-image1.png "品質の 3 つの構成要素と、サービス管理が 3 つの構成要素すべてにどのように重なるかを示す図。ネットワークに重点を置いています。")
 
 ## <a name="key-takeaways"></a>主要な考慮事項
 
@@ -111,7 +111,7 @@ Teams では、オーディオとビデオの技術 (コーデック) が使用�
 
 ## <a name="bandwidth-planning"></a>帯域幅の計画
 
-ネットワークの準備に向けた最初の手順は、ユーザーに提供されるモダリティに対してネットワークに十分な帯域幅Teams確保する方法です。 十分な帯域幅の計画は、非常に簡単な作業であり、ユーザーが高品質の帯域幅を確実に使用するための非常に低いTeams開始です。
+ネットワークの準備に向けた最初の手順は、ネットワークがユーザーに提供するモダリティに十分な帯域幅Teams確保する方法です。 十分な帯域幅の計画は、非常に簡単なタスクであり、ユーザーが高品質の帯域幅を確実に使用するための非常に低いTeams開始です。
 
 ### <a name="local-internet-egress"></a>ローカルのインターネット エグレス
 
@@ -124,9 +124,9 @@ Microsoft のグローバル ネットワークへのネットワーク パス�
 ### <a name="vpn"></a>VPN
 
 VPN は多くの組織に対して、価値のあるサービスを提供します。 残念ながら、通常、リアルタイム メディアをサポートするように設計または構成されていません。 一部の VPN は、UDP をサポートしていない可能性もあります。 また VPN は、既に暗号化されているメディア トラフィックの上に、暗号化の追加レイヤーを導入することもあります。 さらに、VPN デバイスを介したヘアピン型トラフィックが原因で、Teams サービスへの接続が効率的ではない可能性もあります。
-さらに、容量の観点から設計するとは限りません。容量の観点からは、予測される負荷に対応Teams必要です。
+さらに、容量の観点から設計するとは限りません。容量の観点からは、予測される負荷に対応Teams必要があります。
 
-Teams トラフィックのために VPN をバイパスする代替パスを提供することをお勧めします。 これは *スプリット トンネル VPN* として一般に知られています。 分割トンネリングとは、Microsoft 365 または Office 365 のトラフィックは VPN を走査しませんが、直接、MICROSOFT 365 または Office 365 に送信Office 365。 この変更は品質に良い影響を与えますが、VPN デバイスと組織のネットワークからの負荷を軽減する第 2 の利点も提供します。
+Teams トラフィックのために VPN をバイパスする代替パスを提供することをお勧めします。 これは *スプリット トンネル VPN* として一般に知られています。 分割トンネリングとは、Microsoft 365またはOffice 365のトラフィックは VPN を通過しませんが、直接ネットワークまたはネットワークにMicrosoft 365送信Office 365。 この変更は品質に良い影響を与えますが、VPN デバイスと組織のネットワークからの負荷を軽減する第 2 の利点も提供します。
 
 スプリット トンネルを実行するには、構成の詳細について、VPN ベンダーに相談してください。
 
@@ -156,15 +156,15 @@ Microsoft Teams は、Microsoft Online Services に接続します。そのた�
 これらのポートを開くことは、高い信頼性を確保しながら Teams を展開するために不可欠です。 これらのポートのブロックはサポートされていないため、メディア品質に影響します。
 
 所属する組織で、これらのポートが開かれる対象となる正確な IP アドレス範囲とドメインを指定することが必要な場合、これらのポートに対するターゲット IP 範囲とドメインを制限することができます。 正確なポート、プロトコル、IP 範囲の一覧については、URL と IP アドレス範囲Microsoft 365またはOffice 365[を参照してください](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)。
-ターゲットの IP アドレス範囲とドメインを制限する場合は、変更されている可能性があるため、ポートと範囲のリストを常に最新の状態に維持する必要があります。 変更が生じたときに更新される、[こちらの RSS フィード](https://go.microsoft.com/fwlink/p/?linkid=236301)を購読できます。 また、Skype for Business [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)を定期的に実行して、すべてのポートが開いているかどうかをテストする方法もお試しいただけます。 このツールの機能の詳細については、次のセクションをご覧ください。
+ターゲットの IP アドレス範囲とドメインを制限する場合は、変更されている可能性があるため、ポートと範囲のリストを常に最新の状態に維持する必要があります。 変更が生じたときに更新される、[こちらの RSS フィード](https://go.microsoft.com/fwlink/p/?linkid=236301)を購読できます。 また、Skype for Business Network [Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)を定期的に実行して、すべてのポートが開いているかどうかをテストすることもできます。 このツールの機能の詳細については、次のセクションをご覧ください。
 
-プロキシ サーバーが展開されている場合は、すべての Teams サービスについてプロキシ サーバーをバイパスすることをお勧めします。 プロキシを使用すると機能する可能性は高くなりますが、メディアが UDP ではなく TCP を使用することを強制された結果、品質が低下する可能性が非常に高くなります。 プロキシ サーバーとバイパスの詳細については、URL と IP アドレス範囲Microsoft 365またはOffice 365[を参照してください](./office-365-urls-ip-address-ranges.md)。
+プロキシ サーバーが展開されている場合は、すべての Teams サービスについてプロキシ サーバーをバイパスすることをお勧めします。 プロキシを使用すると機能する可能性は高くなりますが、メディアが UDP ではなく TCP を使用することを強制された結果、品質が低下する可能性が非常に高くなります。 プロキシ サーバーとバイパスの詳細については、「MICROSOFT 365 URL と IP アドレスOffice 365[を参照してください](./office-365-urls-ip-address-ranges.md)。
 
 <!--ENDOFSECTION-->
 
 ## <a name="test-the-network"></a>ネットワークのテスト
 
-帯域幅のアップグレードやファイアウォールでのポートの開きなど、計画とネットワークの準備が完了したら、ネットワークのパフォーマンスをテストする必要があります。 このテストの結果は、電話会議の成功に必要なネットワークの最適化または修復のより明確な画像や、通話プランの実装電話システムを示します。
+帯域幅のアップグレードやファイアウォールでのポートの開きなど、計画とネットワークの準備が完了したら、ネットワークのパフォーマンスをテストする必要があります。 このテストの結果は、電話会議または通話プランの実装を使用した会議の成功に必要なネットワークの最適化または修復の電話システム図になります。
 
 [Skype for Business Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885) をダウンロードし、ネットワークが Teams に対応しているかどうかをテストできます。 このツールが提供する 2 つの機能により、すべての正しいポートが開かれているかどうかと、ネットワーク障害についてのテストを実施できます。
 
@@ -208,7 +208,7 @@ Network Assessment Tool を使用して、両方のセグメントをテスト�
 
 帯域幅の計画、ポートのテスト、ネットワーク要件のテストの結果によって、Teams を展開する前に現在のネットワークを修復する必要があると示される場合、次の複数の方法で修復を実行することができます。
 
--   帯域幅が不十分な場合は、接続をアップグレードして、Microsoft 365またはOffice 365が流れる可能性があります。
+-   帯域幅が不十分な場合は、接続をアップグレードして、トラフィックがMicrosoft 365またはOffice 365が流れる可能性があります。
 
 -   ポートがブロックされた場合は、ファイアウォールのルールを変更して、ポートのテストをやり直します。
 

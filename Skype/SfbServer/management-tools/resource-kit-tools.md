@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: この記事では、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 2015 Skype for Business Server 2015 リソース キットは、2015 年に展開および管理する IT 管理者が日常的なタスクSkype for Business Serverします。 たとえば、Web Conf Data ツールを使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 SEFAUtil ツールを使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、2015 年にこれらのツールを使用して、より効果的に管理Skype for Business Server推奨します。
-ms.openlocfilehash: fe281a83790d42cbb08e4f8b12e07d8f5ffcfcbc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b12a09a2b69c3ee11aa9f773e0663a8d67b63063
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612106"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730786"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
@@ -256,7 +256,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 2. **終了日** これは、レポートが生成される予定のタイムラインの終了日です。たとえば、2010 年 9 月 30 日です。
 
-     ![帯域幅使用率 A の開始日と終了日](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
+     ![帯域幅使用率 A の開始日と終了日。](../media/Reskit_2012_Tools_Documentation_Image4.jpg)
 
 #### <a name="step-2---specify-the-file-directories"></a>手順 2 - ファイル ディレクトリを指定する
 
@@ -266,7 +266,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 - **一時ファイルの保存場所** レポートの生成中に中間ファイルが保存される一時ファイルの場所。
 
-    ![帯域幅使用率の分析のファイル ディレクトリ](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
+    ![帯域幅使用率の分析のファイル ディレクトリ。](../media/Reskit_2012_Tools_Documentation_Image5.jpg)
 
     > [!NOTE]
     > サーバー ログと一時ファイル ストア フォルダーへの十分なファイル アクセスがツール ユーザーに提供されている必要があります。
@@ -275,11 +275,11 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 ログを収集してレポート ビューアーを起動するには、次に示すように **[実行]** をクリックします。 この手順では、必要なデータを収集します。
 
-![帯域幅使用率分析でのデータの収集](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
+![帯域幅使用率分析でデータを収集する。](../media/Reskit_2012_Tools_Documentation_Image6.jpg)
 
 入力の検証が成功すると、次に示すメッセージが表示されます。
 
-![帯域幅 Utili で収集された通知のログ](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
+![帯域幅 Utili で収集された通知をログに記録します。](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
 **[OK]** をクリックします。 BandwidthUtilizationAnalyzer.xlsm が自動的に開始されます。 メッセージ ボックスの指示に従います。 詳細については、次の **セクションBandwidthUtilizationAnalyzer.xlsm** を使用するを参照してください。
 
@@ -288,7 +288,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 1. m BandwidthUtilizationAnalyzer.xlsが自動的に開始された場合は、次に示すように **[更新** ] をクリックします。
 
-     ![BandwidthUtilizationAnalyzer.xlsm](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
+     ![BandwidthUtilizationAnalyzer.xlsm.](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
 2. ファイル フォルダーを開いた場合は、consolidated.csvメッセージ ボックスで指定された場所からファイル フォルダーを選択します。 また、場所は **C:\Temp として表示されます**。
 
@@ -902,7 +902,7 @@ CAC ネットワーク トポロジ図を JPG または BMP 形式で保存お�
 
  CAC ネットワーク トポロジ リンク **(** サイト間、地域間リンク、サイト間リンクなど) のカスタム コネクタを定義します。Skype for Business Server 2015 管理者は、以下に示す 設定 オプションを使用して、CAC ネットワーク構成 WAN リンクのカスタム グラフィカル コネクタを定義できます。 これにより、ネットワーク構成でプロビジョニングされたさまざまな種類のネットワーク リンクを区別できます。
 
-![ツール](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
+![ツール。](../media/Reskit_2012_Tools_Documentation_Image29.jpg)
 
  CAC ネットワーク **トポロジ** サイト情報、地域情報、およびプロビジョニングされた帯域幅ポリシーを表示します。Skype for Business Server 2015 管理者は、以下に示すオプションを使用して、関連する CAC ネットワーク地域情報、サイト情報、CAC 帯域幅プロビジョニング情報を表示できます。 (たとえば、ネットワーク領域 **またはネットワーク** サイト オブジェクトの [情報] をクリックします)。
 

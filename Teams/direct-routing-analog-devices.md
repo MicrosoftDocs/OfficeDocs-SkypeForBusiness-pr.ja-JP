@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: この記事では、システム ダイレクト ルーティングでアナログ デバイスを使用するMicrosoft 電話説明します。
-ms.openlocfilehash: 93ce20366cfb29d5719a94af0842285d299e50e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 083c5dd5b577e319a9e5308a4ec3630614254628
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619483"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733496"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>ダイレクト ルーティングでアナログ デバイスを使用電話システム方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "58619483"
 次の図では、 直接ルーティングは、+1425 4XX XX XX と +1425 5XX XX XX の間の番号との間の Teams 呼び出しが赤いルート (点線) を受け取る必要があります。また、+1425 4XX XX XX と数字範囲 +1425 5XX XX XX を除く他の番号との間の PSTN 呼び出しは、青色のルート (実線) を取得する必要があります。 
 
 > [!div class="mx-imgBorder"]
-> ![ダイレクト ルーティングの構成を示す図](media/direct-routing-analog-device.png)
+> ![ダイレクト ルーティングの構成を示す図。](media/direct-routing-analog-device.png)
 
 ## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>例: ダイレクト ルーティングを使用してアナログ デバイスの使用を構成する方法
 
@@ -55,7 +55,7 @@ ATA を SBC に接続して SBC を構成する方法については、SBC 製�
 - [リボンの構成に関するドキュメント](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 - [Oracle 構成のドキュメント](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams)
 
-## <a name="step-1--connect-the-sbc-to-direct-routing"></a>手順 1.  Connect SBC からダイレクト ルーティングへのルーティング
+## <a name="step-1--connect-the-sbc-to-direct-routing"></a>手順 1.  Connect SBC からダイレクト ルーティングへの接続
 
 次のコマンドは、次のように SBC 接続を構成します。
 
@@ -95,7 +95,7 @@ PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "An
 
 ## <a name="step-5-enable-the-online-user"></a>手順 5: オンライン ユーザーを有効にする
 
-このコマンドは、ID アカウントを使用してユーザー アカウントを変更 exampleuser@contoso.com。 この場合、VoIP の Microsoft 実装である エンタープライズ VoIP を有効にしてボイス メールを有効にし、このユーザーに +14255000000 の番号を割り当て、アカウントが変更されます。  このコマンドは、会社のテナントTeamsユーザー (ATA デバイス ユーザーを除く) ごとに実行する必要があります。
+このコマンドは、IDENTITY アカウントを使用してユーザー アカウントを変更 exampleuser@contoso.com。 この場合、VoIP の Microsoft 実装である エンタープライズ VoIP を有効にしてボイス メールを有効にし、このユーザーに +14255000000 の番号を割り当て、アカウントが変更されます。  このコマンドは、会社のテナントTeamsユーザー (ATA デバイス ユーザーを除く) ごとに実行する必要があります。
 
 ```powershell
 PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $True -HostedVoiceMail $True -OnPremLineUri "tel:+14255000000"

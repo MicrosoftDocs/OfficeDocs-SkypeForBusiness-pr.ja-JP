@@ -27,13 +27,13 @@ ms.custom:
 - O365P_ExternalCommDesc
 - O365P_ShareLync
 - LIL_Placement
-description: 'ユーザーが別の組織Skype for Businessユーザーと話したり、外部の連絡先に連絡を取らせたりするために、ユーザーを構成する方法を参照してください。 '
-ms.openlocfilehash: 987fc8120a06e1a96df4d33cf3f42ba90bc123ed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'ユーザーが別の組織Skype for Businessユーザーと話したり、外部の連絡先がユーザーと話し合うのを許可したりするために、ユーザーを構成する方法を参照してください。 '
+ms.openlocfilehash: e98f30718bb44a3ca2e5f48560d7f38552a2ef49
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602022"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731116"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>ユーザーが外部の Skype for Business ユーザーに連絡できるようにする
 
@@ -43,9 +43,9 @@ ms.locfileid: "58602022"
   
 - ビジネスの異なるドメインにユーザーがいます。 たとえば、Rob@ContosoEast.com と Ann@ContosoWest.com のような場合。
 
-- 組織内のユーザーが組織外の特定の企業Skype for Business連絡先を使用する必要がある。
+- 組織内のユーザーが組織外の特定のSkype for Businessのユーザーに連絡するために、組織のユーザーを使用する必要があります。
 
-- 世界中のユーザーがメール アドレスを使用してSkype for Businessを見つけて連絡したい場合。 ユーザーとユーザーが既定の設定を使用Skype for Business、これは自動的に機能します。 ブロックされていない場合は、構成によってドメインがブロックされていないことを確認する必要があります。
+- 世界中のユーザーがメール アドレスを使用してSkype for Businessを見つけて連絡したい場合。 ユーザーとユーザーが既定の設定を使用Skype for Business、この設定は自動的に機能します。 ブロックされていない場合は、構成によってドメインがブロックされていないことを確認する必要があります。
 
 ## <a name="enable-business-to-business-communications-for-your-users"></a>ユーザーの企業間通信を有効にする
 
@@ -53,7 +53,7 @@ ms.locfileid: "58602022"
 
 この通信を[行うには、](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)両方の組織Microsoft 365またはOffice 365管理者アクセス許可が必要です。
 
-![管理センターを使用Microsoft Teams ](../images/teams-logo-30x30.png) **ロゴをTeamsアイコン**
+![ロゴのアイコンMicrosoft Teams表示されます。](../images/teams-logo-30x30.png) **管理センター Teams使用する**
   
 1. 管理者アカウントを使用Microsoft 365またはOffice 365サインインします。
 
@@ -61,21 +61,21 @@ ms.locfileid: "58602022"
 
     ![[管理者] Teams選択します。](../images/MS-Teams-Admin.png)
   
-3. [Teams **センターで、[** レガシ **ポータルSkype** > **SfB レガ** シ ポータルの 
-  ![ 選択] を選択します。](../images/SFBlegacy-size65.png)
+3. [Teams **センターで、[レガ** シ **ポータルSkype** SfB レガシ ポータルを選択 > **します** 
+  ![ ] を選択します。](../images/SFBlegacy-size65.png)
 
 4. **Skype for Business 管理センター** で、[**組織**]  >  [**外部通信**] の順に選択します。
 5. 特定の会社や別のドメインのユーザーとの通信を設定するには、ドロップダウン ボックスで [**許可したドメインに対してのみオンにする**] を選択します。
 
-    または、ポリシーを開いている世界中の他のすべてのユーザーとの通信を有効にする場合は、[Skype for Business ドメインを除いてオン]**を選択します**。 これは、既定の設定です。
+    または、オープン ポリシーを持つ世界中の他のすべてのユーザーとの通信を有効にする場合は、[Skype for Business ドメインを除く] を **選択します**。 これは、既定の設定です。
 
 6. [**禁止したドメインまたは許可したドメイン**] の下で [**+**] を選択し、許可するドメイン名を追加します。
 
-7. 他の組織の管理者が、管理センター で同じ **手順を実行Skype for Business確認します**。 たとえば、相手の組織の管理者は、その組織の **許可されたドメイン** のリストにお客様の会社のドメインを入力する必要があります。
+7. 他の組織の管理者が、管理センター で同じ **手順をSkype for Business確認します**。 たとえば、相手の組織の管理者は、その組織の **許可されたドメイン** のリストにお客様の会社のドメインを入力する必要があります。
 
 8. ファイアウォールを使用している場合Windows必要Skype for Businessポートが自動的に開きます。
 
-    組織が別のファイアウォール ソリューションを使用してネットワーク上のコンピューターがインターネットに接続できない場合は、クライアント コンピューターが次の Office 365 URL と[IP](/microsoftteams/office-365-urls-ip-address-ranges)アドレス範囲 にアクセスできる必要があります。 これには、ファイアウォールまたはプロキシ インフラストラクチャの構成 **\* (.api.skype.com、.users.storage.live.com、** および graph.skype.com の送信許可リストに FQDN を追加する必要がある \* ****場合 graph.skype.com。** これらのポートをファイアウォールで開く方法については、ファイアウォールに付属のドキュメントを確認してください。
+    組織が別のファイアウォール ソリューションを使用してネットワーク上のコンピューターのインターネットへの接続を制限している場合は、クライアント コンピューターが次の[Office 365](/microsoftteams/office-365-urls-ip-address-ranges)URL と IP アドレス範囲 にアクセスできる必要があります。 この場合、ファイアウォールまたはプロキシ インフラストラクチャ構成の送信許可リスト **\* (.api.skype.com、.users.storage.live.com、** および graph.skype.com) に FQDN を追加する必要があります \* **。  これらのポートをファイアウォールで開く方法については、ファイアウォールに付属のドキュメントを確認してください。
 
     開く必要があるすべてのポートの一覧については、「URL と IP アドレスOffice 365[を参照してください](/microsoftteams/office-365-urls-ip-address-ranges)。
 
@@ -83,7 +83,7 @@ ms.locfileid: "58602022"
 
 10. **テストするには、最大 24 時間待機します**。 外部通信設定を変更すると、変更がすべてのデータ センターに設定されるのに最大 24 時間かかる場合があります。
 
-![](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png)Skype無料のコンシューマー アプリである Skype を使用しているすべてのユーザーと、ユーザーが IM を検索して IM を実行できます。 詳細については、「ユーザーが連絡先を[追加Skype for Businessする」Skype参照してください](let-skype-for-business-users-add-skype-contacts.md)。
+![Skype。](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) 無料のコンシューマー アプリである Skype を使用しているすべてのユーザーと IM を検索して IM を実行できます。 詳細については、「ユーザーが連絡先を[追加Skype for Businessする」Skype参照してください](let-skype-for-business-users-add-skype-contacts.md)。
   
 ## <a name="test-and-troubleshoot"></a>テストとトラブルシューティング
 
@@ -95,13 +95,13 @@ ms.locfileid: "58602022"
   
 1. 外部通信の設定を変更した後、テスト **するまで最大 24 時間待ちます**。
 
-2. [Skype for Business] で連絡先を検索しSkype for Businessチャットに要求を送信します。
+2. [Skype for Business] で連絡先を検索Skype for Business、チャットに要求を送信します。
 
-    会社のポリシーが原因で送信できなかったというメッセージが表示された場合は、OFFICE 365 URL と IP アドレス範囲を確認[する必要があります](/microsoftteams/office-365-urls-ip-address-ranges)。
+    会社のポリシーが原因で送信できなかったというメッセージが表示された場合は、URL と IP アドレス範囲をOffice 365[確認する必要があります](/microsoftteams/office-365-urls-ip-address-ranges)。
 
-3. 他のSkype for Businessに、チャットのリクエストを送信してください。 相手からの要求を受信できない場合は、お客様のファイアウォールの設定に問題があります (相手のファイアウォールの設定が正しいことが確認済みであることが前提)。
+3. 自分の連絡先Skype for Business、チャットのリクエストを送信してください。 相手からの要求を受信できない場合は、お客様のファイアウォールの設定に問題があります (相手のファイアウォールの設定が正しいことが確認済みであることが前提)。
 
-4. 問題がファイアウォールであるかどうかをテストするもう 1 つの方法は、コーヒー ショップなど、ファイアウォールの背後ではない Wi-Fi の場所に移動する方法です。 [Skype for Businessを使用して、連絡先にチャットに要求を送信します。 メッセージをその場所からは送信できる一方、職場からは送信できない場合は、問題の原因は職場のファイアウォールであることが特定できます。
+4. 問題がファイアウォールであるかどうかをテストするもう 1 つの方法は、コーヒー ショップなど、ファイアウォールの背後ではない Wi-Fi の場所に移動する方法です。 [Skype for Businessを使用して、チャットする要求を連絡先に送信します。 メッセージをその場所からは送信できる一方、職場からは送信できない場合は、問題の原因は職場のファイアウォールであることが特定できます。
 
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>別のビジネスに接続するときに、他のユーザーを見つけて見つける方法
 
@@ -111,15 +111,15 @@ ms.locfileid: "58602022"
   
 ![フェデレーションビジネスのユーザーを見つけるには、そのユーザーのメール アドレスを検索する必要があります (通常はサインイン名です)。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
-## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>ヒントとの通信の設定に関する詳細
+## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>ヒント企業との通信の設定に関するページ
 
 <a name="bk_preview"> </a>
 
-- Skype for Business 2015 と Skype for Business Online の間のフェデレーションを構成するには、「Skype for Business Online とのフェデレーションの構成」[を参照してください](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
+- Skype for Business 2015 と Skype for Business Online の間のフェデレーションを構成するには、「Skype for Business Online とのフェデレーションの構成」を[参照してください](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
 
-- Lync と Skype for Business Online 間のフェデレーションを構成するには、「Lync Online 顧客のフェデレーション サポートの[構成」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-federation-support-for-a-lync-online-customer)。
+- Lync と Skype for Business Online の間のフェデレーションを構成するには、「Lync Online 顧客のフェデレーション サポートの[構成」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-federation-support-for-a-lync-online-customer)。
 
-- Microsoft 365 または Office 365 の 2 人の Skype for Business ユーザーが別々のドメインで互いに通信している場合、両方の組織で有効になっている Skype for Business 機能 (ビデオ会話やデスクトップ共有など) のみを使用できます。
+- Microsoft 365 または Office 365 の 2 人のユーザーが別々のドメインで互いに通信している場合、両方の組織で有効になっている Skype for Business 機能 (ビデオ会話やデスクトップ共有など) のみを使用できます。 Skype for Business
 
 - 組織内の Skype for Business ユーザーが In-Place または訴訟ホールドに設定されている場合、そのユーザーと他の Skype for Business または Skype ユーザーの間の IM 会話は、メールボックスの回復可能なアイテムに保存されます。 これらの会話は、メールボックスの **[会話履歴]** フォルダーには保存されません。
 
@@ -135,13 +135,13 @@ ms.locfileid: "58602022"
 
 3. ユーザーの一覧でユーザーを選択し、[その他の設定] で 、[プロパティの設定をクリックSkype for Business **します**。
 
-    ![[Skype for Business](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
+    ![[Skype for Business] を選択します。](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
 4. [管理 **センター] Skype for Business、[外部** 通信]**を選択します**。
 
     [オプション **] ページ** で、すべての選択肢が選択されます。 無効にする通信をクリアします。 次の図は、Jakob が他の信頼できる企業のユーザーと通信できますが、他のユーザーと通信Skype示しています。
 
-    ![[外部連絡先] を選択する](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
+    ![[外部連絡先] を選択します。](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   
 5. [ **保存**] を選びます。
 
@@ -150,7 +150,7 @@ ms.locfileid: "58602022"
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 <a name="bk_preview"> </a>
 

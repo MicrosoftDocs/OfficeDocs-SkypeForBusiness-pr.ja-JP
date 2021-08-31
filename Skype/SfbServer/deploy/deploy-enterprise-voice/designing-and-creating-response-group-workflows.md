@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 応答グループ のワークフローを設計し、作成Skype for Business Server エンタープライズ VoIP。 ハント グループ ワークフローと対話型ワークフローの両方について説明します。
-ms.openlocfilehash: 63069268621ff7f5e2b3783a661e163ff6fe6416
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603122"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730956"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>ワークフローでの応答グループ ワークフローの設計とSkype for Business
 
@@ -317,7 +317,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 
  **1 問対話の通話の流れ**
 
-![対話型音声レスポを使用して通話フローを設計する](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![対話型音声レスポを使用して通話フローを設計します。](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### <a name="ivr-with-two-levels-of-questions"></a>2 問の質問が設定された IVR
 
@@ -349,7 +349,7 @@ IVR の質問と発信者の応答は、通話を受け入れる応答エージ�
 
  **2 問対話の通話の流れ**
 
-![対話型音声レスポを使用して通話フローを設計する](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![対話型音声レスポを使用して通話フローを設計します。](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### <a name="best-practices"></a>ベスト プラクティス
 

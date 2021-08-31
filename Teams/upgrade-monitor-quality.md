@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4bb596cd7903ec7ff9afdecac1436b4b4e2653c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2edea426fbc9ad0a7c6de026af2a9b5ecf893e1a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633941"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733926"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
-![アップグレード体験の Operational Excellence ステージを強調表示した図](media/upgrade-banner-op-excellence.png "Operational Excellence ステージに重点を置いたアップグレード体験のステージ")
+![アップグレード体験の Operational Excellence ステージを強調表示した図。](media/upgrade-banner-op-excellence.png "Operational Excellence ステージに重点を置いたアップグレード体験のステージ")
 
-この記事は、アップグレード体験の Operational Excellence ステージの一部です。この段階は、Skype for Business から Teams へのアップグレードが完了するとすぐに開始されます。
+この記事は、アップグレード体験の Operational Excellence ステージの一部です。これは、Skype for Business から Teams へのアップグレードが完了するとすぐに開始されます。
 
 ## <a name="improve-and-monitor-call-quality"></a>通話品質の向上と監視
 
@@ -53,7 +53,7 @@ ms.locfileid: "58633941"
 
 - 問題のあるサブネットまたはネットワーク デバイス
 
-[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためにオーディオに重点を置いて、説明されている各領域を報告および調査するための主要なツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
+[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためにオーディオに重点を置いて、説明されている各領域をレポートおよび調査するための主要なツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
 早い段階で品質チャンピオンをノミネートすることを強くお勧めします。 ノミネートされた後は、「通話品質の向上と監視」の内容に慣れ始める必要[Teams。](monitor-call-quality-qos.md)
 
