@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 医療組織用の Teams ポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: e81741e40928ec92717b686773078781b51b73be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d71945508055ddc7b6f6661d93e8918879d59d23
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608844"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731966"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>ヘルスケア向けの Teams ポリシー パッケージ
 
@@ -52,11 +52,11 @@ Microsoft Teams には現在、次のヘルスケア ポリシー パッケー�
 |医療情報提供者  |医療組織の情報提供者 |一連のポリシーとポリシー設定を作成して、IT 担当者、情報スタッフ、財務担当者、法令遵守責任者に対して、チャット、通話、会議へのフル アクセスを提供します。|
 |医療患者室  |患者室のデバイス|貴社の医療組織の患者室に適用される一連のポリシーとポリシー設定を作成します。|
 
-![ヘルスケア ポリシー パッケージのスクリーンショット](media/policy-packages-healthcare.png)
+![医療ポリシー パッケージのスクリーンショット。](media/policy-packages-healthcare.png)
 
 ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、医療職員のポリシー パッケージを組織内の臨床医に割り当てると、パッケージ内のポリシーごとに Healthcare_ClinicalWorker という名称のポリシーが作成されます。
 
-![医療職員パッケージのポリシーのスクリーンショット](media/policy-packages-healthcare-clinical-worker.png)
+![Healthcare clinical worker パッケージのポリシーのスクリーンショット。](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>ポリシー パッケージの概要
 
@@ -93,7 +93,7 @@ Microsoft Teams には現在、次のヘルスケア ポリシー パッケー�
 
 1 人または複数のユーザーにポリシー パッケージを割り当てるには、Microsoft Teams 管理センターの左側のナビゲーションから、[**ポリシー パッケージ**] に移動し、[**ユーザーの管理**] を選択します。  
 
-![管理センターでポリシー パッケージを割り当てる方法のスクリーンショット](media/policy-packages-healthcare-assign.png)
+![管理センターでポリシー パッケージを割り当てる方法のスクリーンショット。](media/policy-packages-healthcare-assign.png)
 
 詳細については、[「ポリシー パッケージを割り当てる」](manage-policy-packages.md#assign-a-policy-package)を参照してください。
 

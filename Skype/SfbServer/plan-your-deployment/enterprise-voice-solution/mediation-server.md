@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: サポートされているトポロジ、M:N トランク、メディア バイパス、通話受付管理との関係など、Skype for Business Server の仲介サーバーについて説明します。
-ms.openlocfilehash: 6113bf05d788620c2ac0b4e91f74b4e347ecc121
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a41303072866aa47d5e5f45ff157d5812be2febc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608014"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728246"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>仲介サーバー コンポーネント (Skype for Business Server
  
@@ -57,7 +57,7 @@ ms.locfileid: "58608014"
   
 **仲介サーバーで使用される信号およびメディアのプロトコル**
 
-![仲介サーバー プロトコルの図](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
+![仲介サーバー プロトコルの図。](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
   
 > [!NOTE]
 > PSTN ゲートウェイと仲介サーバーの間のネットワークで TCP または RTP/RTCP (SRTP または SRTCP の代わりに) を使用している場合は、ネットワークのセキュリティとプライバシーを確保するための対策を講じすることをお勧めします。 
@@ -122,13 +122,13 @@ Microsoft Lync Server 2013 計画ツールを使用して、仲介サーバー�
   
 **仲介サーバーがサイト 1 にあり、PSTN ゲートウェイがサイト 2 にある、WAN リンクで接続されたサイトの例**
 
-![仲介サーバー WAN ゲートウェイを使用した音声トポロジ](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
+![仲介サーバー WAN ゲートウェイを使用した音声トポロジ。](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
   
 次の図は、仲介サーバーがサイト 1 のフロントエンド プールに接続され、サイト 1 の IP-PBX への直接 SIP 接続を持つ単純なトポロジを示しています。 この図では、仲介サーバーはサイト 2 の PSTN ゲートウェイも制御します。 ユーザーがSkype for Businessサイト 1 と 2 の両方に存在すると仮定します。 また、IP-PBX に関連付けられたメディア プロセッサが存在し、ip-PBX によって制御されるメディア エンドポイントに送信される前に、Skype for Business エンドポイントから発信されるすべてのメディアを通過する必要があります。 このトポロジでは、サイトおよび地域情報を使用できるようにメディア バイパスがグローバルに有効になっていて、PBX と PSTN ゲートウェイへのトランクはバイパスが有効になっています。
   
 **仲介サーバーがサイト 1 にあり、PBX がサイト 2 にある、WAN リンクで接続されたサイトの例**
 
-![音声トポロジ 仲介サーバー WAN PBX](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
+![音声トポロジ仲介サーバー WAN PBX。](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
 このトピックの最後の図は、仲介サーバーがインターネット テレフォニー サービス プロバイダーの SBC に接続されているトポロジを示しています。 
   

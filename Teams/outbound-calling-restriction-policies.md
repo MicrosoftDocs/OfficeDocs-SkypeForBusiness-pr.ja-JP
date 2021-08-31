@@ -20,19 +20,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 管理者は、ユーザーが行える電話会議とエンドユーザー PSTN 通話の種類を制御できます。
-ms.openlocfilehash: 9e7f656cd51131237507cc184e021128a33d9268
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 管理者は、ユーザーが行える電話会議とエンド ユーザーの PSTN 通話の種類を制御できます。
+ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598411"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730326"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
 管理者は、発信通話コントロールを使用して、組織内のユーザーが行える電話会議とエンドユーザーの公衆交換電話網 (PSTN) 通話の種類を制限できます。
 
-発信呼び出しコントロールは、ユーザー単位またはテナント単位で適用できます。次の 2 つのコントロールを提供して、各種類の送信呼び出しを個別に制限します。 既定では、両方のコントロールが、国際および国内の発信呼び出しを許可する設定になっています。
+発信呼び出しコントロールは、ユーザー単位またはテナント単位で適用できます。次の 2 つのコントロールを提供して、各種類の送信呼び出しを個別に制限します。 既定では、両方のコントロールが国際発信通話と国内発信呼び出しを許可する設定になっています。
 
 |コントロール|説明|コントロール オプション|
 |:-----|:-----|:-----|
@@ -42,14 +42,14 @@ ms.locfileid: "58598411"
 ゾーン A と見なされる国と地域を確認するには、「電話会議の国と [地域のゾーン」を参照してください](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > ダイヤルされた番号が会議の開催者 (電話会議の場合) またはエンド ユーザー (エンド ユーザーの PSTN 通話の場合) に対して Microsoft 365 または Office 365 が設定されている国と同じ国にある場合、通話は国内通話と見なされます。
+   > ダイヤルされた番号が会議の開催者 (電話会議の場合) またはエンド ユーザー (エンド ユーザー PSTN 通話の場合) に対して Microsoft 365 または Office 365 が設定されている国と同じ国にある場合、通話は国内通話と見なされます。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>電話会議の発信通話を制限する
 
-![[Microsoft Teams 管理 ](media/teams-logo-30x30.png) **センターを使用Microsoft Teamsロゴ**
+![[Microsoft Teamsロゴ] をクリックします。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで [ユーザー] **を選択** し、使用可能なユーザーの一覧からユーザーの表示名を選択します。
 
@@ -59,15 +59,15 @@ ms.locfileid: "58598411"
 
 5. **[保存]** を選択します。
 
-![Skype for Business のロゴを表示したアイコン](media/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴのアイコンSkype for Business表示されます。](media/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
-1. [Skype for Business **管理** センター] の左側のナビゲーションで、[電話会議ユーザー] に移動し、使用可能なユーザーの一覧からユーザー  >  を選択します。
+1. [Skype for Business **センター**] の左側のナビゲーションで、[電話会議ユーザー]に移動し、使用可能なユーザーの一覧からユーザー  >  を選択します。
 
 2. [操作] ウィンドウで、[編集] を **選択します**。
 
 3.  [ **このユーザーの会議からの** ダイヤルアウトの制限] で、必要なダイヤルアウト制限オプションを選択します。
 
-      ![[ダイヤルアウトの制限] オプション](media/restrictions-to-dial-outs.png)
+      ![[ダイヤルアウトの制限] オプション。](media/restrictions-to-dial-outs.png)
 
 4. **[保存]** を選択します。
 
@@ -100,7 +100,7 @@ Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global
 |:-----|:-----|
 |Identity='tag:DialoutCPCandPSTNInternational'    |    会議のユーザーは、国際電話番号と国内番号にダイヤルアウトできます。また、このユーザーは、国際番号と国内番号への発信通話を発信できます。    |
 |Identity='tag:DialoutCPCDomesticPSTNInternational'  |    会議のユーザーは国内番号にのみダイヤルアウトできます。このユーザーは、国際番号と国内番号への発信通話を行います。    |
-|    Identity='tag:DialoutCPCDisabledPSTNInternational'    |    会議のユーザーがダイヤルアウトできない。このユーザーは、国際番号と国内番号への発信呼び出しを行います。    |
+|    Identity='tag:DialoutCPCDisabledPSTNInternational'    |    会議のユーザーがダイヤルアウトできない。このユーザーは、国際番号と国内番号に対して発信呼び出しを行います。    |
 |    Identity='tag:DialoutCPCInternationalPSTNDomestic'    |    会議のユーザーは国際番号と国内番号にダイヤルアウトできます。このユーザーは国内 PSTN 番号への発信通話のみを行います。    |
 |    Identity='tag:DialoutCPCInternationalPSTNDisabled'    |    会議のユーザーは国際番号と国内番号にダイヤルアウトできます。このユーザーは、緊急電話番号以外に PSTN 番号への発信通話を行う必要があります。    |
 |    Identity='tag:DialoutCPCandPSTNDomestic'    |    会議のユーザーは国内番号にのみダイヤルアウトできます。このユーザーは国内 PSTN 番号への発信通話のみを行います。    |

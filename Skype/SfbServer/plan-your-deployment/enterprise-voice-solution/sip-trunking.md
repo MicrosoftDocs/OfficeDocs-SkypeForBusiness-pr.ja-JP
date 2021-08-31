@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: SIP トランキングの詳細については、Skype for Business Server エンタープライズ VoIP
-ms.openlocfilehash: a27967f322db816285db100696fa061f339e9f71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d10f14a8c3f65309c52351a0721aa042faad47b6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634201"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728236"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>SIP トランキング (Skype for Business Server
 
@@ -151,7 +151,7 @@ Microsoft 認定 SIP トランキング プロバイダーの詳細について�
 
 **SIP トランキングのトポロジ**
 
-![SIP トランキング トポロジ](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
+![SIP トランキング トポロジ。](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
 
 図に示すように、エンタープライズ ネットワークと公衆交換電話網 (PSTN) サービス プロバイダーの間の接続には、IP 仮想プライベート ネットワーク (VPN) が使用されます。このプライベート ネットワークの目的は、IP 接続を提供し、セキュリティを強化し、(必要に応じて) サービス品質 (QoS) 保証を得ることです。VPN の性質により、SIP 信号トラフィックにトランスポート層セキュリティ (TLS) を使用したり、メディア トラフィックにセキュア リアルタイム転送プロトコル (SRTP) を使用したりする必要はありません。このため、企業とサービス プロバイダーの間の接続は、IP VPN を通じてトンネリングされる可能性のある SIP 用の普通の TCP 接続と、メディア用の普通のリアルタイム転送プロトコル (RTP) (over UDP) で構成されます。VPM ルーター間のすべてのファイアウォールのポートが開いていて VPN ルーターが通信できること、および VPN ルーターの外部エッジの IP アドレスがパブリック ルーティング可能であることを確認してください。
 

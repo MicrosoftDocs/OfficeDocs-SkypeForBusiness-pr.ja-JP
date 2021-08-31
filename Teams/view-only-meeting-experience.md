@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb4eb1c1c681e0c2089ec1258f7729727fdb77f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586301"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732296"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示限定の会議エクスペリエンス
 
@@ -29,7 +29,7 @@ ms.locfileid: "58586301"
 > 表示限定のブロードキャストは、Microsoft 365 E3/E5 および Microsoft 365 A3/A5 で利用できます。 この機能は2021 年 3 月 1 日に有効になりますが、既定でオフになっています。 Microsoft 365 Government Community Cloud (GCC) の機能は、2021 年 3 月末にロールアウトが開始される予定です。 Government Community Cloud High (GCCH) と Department of Defense (DoD) は後日ロールアウトされる予定です。 この機能を既定でオンにしたい場合は、その日付以降に既定のポリシーを変更する必要があります。 PowerShell を使用して、ポリシー`Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`を有効にする。
 
 > [!Note]
-> 会議が容量にヒットした場合Teams、10,000 人のビュー専用ブロードキャスト エクスペリエンスに対応するようにシームレスにスケーリングされます。 さらに、リモート 作業が増加したこの期間中は、今年の終わりまでさらに大規模な 20,000 人のブロードキャストを利用することができます。 ウェビナーでは、現在、表示専用のブロードキャスト エクスペリエンスはサポートされていません。
+> 会議が容量にヒットした場合Teams、10,000 人の表示専用ブロードキャスト エクスペリエンスに対応するようにシームレスに拡張されます。 さらに、リモート 作業が増加したこの期間中は、今年の終わりまでさらに大規模な 20,000 人のブロードキャストを利用することができます。 ウェビナーでは、現在、表示専用のブロードキャスト エクスペリエンスはサポートされていません。
 
 Microsoft Teams では、最大 10,000 人の参加者がTeams 会議に参加できます。 メイン会議の容量に達すると (1,000 人のユーザーが会議に入った場合)、追加の出席者が表示専用のエクスペリエンスで参加します。
 
@@ -73,16 +73,16 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 メイン会議の容量に達すると、次の場合、出席者は会議に参加できません。
 
-- 管理者が、開催者またはTeamsのビュー専用エクスペリエンスを無効にしました。
+- 管理者は、管理者Teamsまたはテナント全体のビュー専用エクスペリエンスを無効にしました。
 - 表示専用の出席者はロビーをバイパスできない。 たとえば、会議の開催者が自分の組織内のユーザーだけがロビーをバイパスし、組織外の出席者がビュー専用の出席者として参加しようとした場合、参加者は参加できます。
 
 メイン会議の容量に達すると、会議の開催者と発表者には、新しい出席者が表示専用の出席者として参加すると通知するバナーが表示されます。
 
-  ![主催者と発表者用の Teams クライアントとバナー メッセージ](media/chat-and-banner-message.png)
+  ![開催者Teams発表者向けクライアントとバナー メッセージを表示します。](media/chat-and-banner-message.png)
 
 メイン会議の容量に達すると、会議の出席者は参加前の画面で、表示限定モードで参加しているという通知が表示されます。
 
-  ![Teams の参加前の画面と参加者に表示限定モードで参加することを伝えるメッセージ](media/view-only-pre-join-screen.png)
+  ![[Teams参加前] 画面と、参加者がビュー専用モードで参加を伝えるメッセージが表示されます。](media/view-only-pre-join-screen.png)
 
 スペースがある場合は、ユーザーは常にメイン会議に参加します。 メイン会議が容量に達してから、1 人または複数の出席者がメイン会議を離れると、メイン会議には利用可能な容量ができます。 会議に参加 (または再参加) した出席者は、再び容量に達するまでメイン会議に参加します。 表示専用のエクスペリエンスに参加している出席者は、メイン会議に自動的に昇格されません。また、手動でメイン会議に昇格することはできません。
 
@@ -118,7 +118,7 @@ Teams の表示限定エクスペリエンスでは、参加者は次の機能�
 - 「PowerPoint Live 機能または個々のアプリケーション共有 (デスクトップPowerPoint画面共有以外) を使用して共有されているファイルの一覧を参照してください。
 - 会議で手を挙げる。
 - 反応を送信または表示します。
-- 投票を含む、会議に統合Teams 3P アプリと対話します。
+- 投票を含む、Teamsに統合されている 3P アプリと対話します。
 
 ## <a name="view-only-feature-limitations"></a>表示限定機能の制限
 

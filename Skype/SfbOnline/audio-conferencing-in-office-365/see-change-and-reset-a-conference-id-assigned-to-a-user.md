@@ -21,23 +21,23 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Skype of business オンライン のユーザーに会議 ID を割り当てる方法と、会議ID パラメーターのあるべき姿について学びます。 '
-ms.openlocfilehash: c8c3abcf515a0a60046cd2438833467b8be78231
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a400536050ea22d4f841e3b401e30c3c14729093
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607674"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728006"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Skype of businessオンラインのユーザーに割り当てられている会議 ID を表示させリセットしてください。
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Microsoft Teams でのユーザー会議 ID の詳細については、「Microsoft Teams でユーザーに割り当てられている会議 ID を表示およびリセットする[」をMicrosoft Teams。](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)
+> Microsoft Teams でのユーザー会議 ID の詳細については、「Microsoft Teams でユーザーに割り当てられている会議 ID を表示および[リセットする」を参照してください](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)。
 
 Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft を電話会議プロバイダーとして使用すると、Skype for Business ユーザーに会議 ID が自動的に割り当てられます。 割り当てられた会議 ID は、会議がスケジュールされているときに会議出席招待で送信されます。 ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。
 
-会議 ID は自動的に作成され、ユーザーに割り当てられますが、ユーザーがこれを使用したくない場合や、特定の番号に設定したい場合や、ユーザーが会議 ID を記憶できない場合や紛失した場合があります。 管理者センターと Skype for Business **を使用** してWindows PowerShell ID の表示、変更、リセットを行えます。
+会議 ID は自動的に作成され、ユーザーに割り当てられますが、ユーザーがこれを使用したくない場合や、特定の番号に設定したり、ユーザーが会議 ID を覚えていない場合や紛失した場合があります。 管理者センターと Skype for Business **を使用** してWindows PowerShell ID の表示、変更、リセットを行えます。
 
 ユーザーに会議 ID と既定の電話会議の電話番号が含む電子メールが送信されるか、または会議 ID をリセットすると、PINではない 会議 ID を含む別の電子メールが送信されます。 会議の開催者のPINをリセットするの詳細については、 [ここ](reset-a-conference-id-for-a-user.md)をクリックします。
 
@@ -48,7 +48,7 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 
 ### <a name="to-view-the-conference-id"></a>会議 ID を表示するには
 
-![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴを表示Skype for Businessアイコン。](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 会議 ID を表示し、ユーザーに送信することができます。
 
@@ -78,13 +78,13 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 
 例えば忘れてしまったなどの場合のために、ユーザーの会議 ID をリセットできます。
 
-![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴを表示Skype for Businessアイコン。](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 1. 仕事用または学校用のアカウントでサインインします。
 
 2. [管理センター] に移動 **> Skype for Business。**
 
-3. [管理 **センター Skype for Business 電話** 会議ユーザー] の [会議 ID] の [アクション] ウィンドウで、[リセット] >    >  を **クリックします**。 
+3. [Skype for Business 電話会議ユーザー **] の [** 会議 ID] の [アクション] ウィンドウで、[リセット] >    >  を **クリックします**。 
 
 4. [会議 **ID のリセット] ウィンドウで、[** はい] を **クリックします**。 A conference ID will be automatically created and an email sent to the user with the new conference ID.
 
@@ -99,7 +99,7 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 ## <a name="what-else-should-you-know"></a>その他の情報
 
    > [!IMPORTANT]
-   >  新しい会議 ID が作成された後、または 1 つがリセットされた後、古い会議 ID を呼び出し元が使用することはできません。 既存の会議の出席依頼のスケジュールを変更して、新しい会議 ID を出席依頼に追加するように、ユーザーに通知してください。 ユーザーは、新しい会議Skype for Businessを使用して、既存の会議を更新できます。 ツールをダウンロード、インストール、実行する方法については[、「Skype for Business](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)および Lync の会議更新ツール」、Skype for Business Online、会議移行ツール[(64 ビット)、](https://go.microsoft.com/fwlink/?LinkID=626047)および Skype for Business Online、会議移行ツール[(32](https://www.microsoft.com/download/details.aspx?id=54079)ビット) を参照してください。
+   >  新しい会議 ID が作成された後、または 1 つがリセットされた後、古い会議 ID を呼び出し元が使用することはできません。 既存の会議の出席依頼のスケジュールを変更して、新しい会議 ID を出席依頼に追加するように、ユーザーに通知してください。 ユーザーは、新しい会議移行Skype for Businessを使用して、既存の会議を更新できます。 ツールをダウンロード、インストール、実行する方法については[、「Skype for Business](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)および Lync の会議更新ツール」、Skype for Business Online、会議移行ツール[(64 ビット)、](https://go.microsoft.com/fwlink/?LinkID=626047)および Skype for Business Online、会議移行ツール[(32](https://www.microsoft.com/download/details.aspx?id=54079)ビット) を参照してください。
 
 - コマンドレット [の詳細については、「Set-CsOnlineDialInConferencingUser」](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) を参照してください。
 
@@ -116,7 +116,7 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 
   - [PowerShell を使用するMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター を使用する場合に限り、速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
+- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター の使用に対する速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
 
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
@@ -124,6 +124,6 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話会議を試用または購入するには、Microsoft 365 または Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

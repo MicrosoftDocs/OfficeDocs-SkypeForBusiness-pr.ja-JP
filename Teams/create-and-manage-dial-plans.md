@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Microsoft Teams 管理センターまたは Windows PowerShellを使用して、ダイヤル プラン (PSTN 通話ダイヤル プラン) を作成および管理する方法について説明します。
-ms.openlocfilehash: e6cc5e751efa412c24eb13f182ab5967360c677e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ecabfb04d8919ac289067818e736e170e6d181
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628379"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728706"
 ---
 # <a name="create-and-manage-dial-plans"></a>ダイヤル プランを作成および管理する
 
@@ -36,9 +36,9 @@ ms.locfileid: "58628379"
 
 ### <a name="create-a-dial-plan"></a>ダイヤル プランを作成する
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams、Voice Dial プラン **に**  >  **移動します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、Voice Dial **プラン に**  >  **移動します**。
 2. [ **追加]** をクリックし、ダイヤル プランの名前と説明を入力します。
-    ![ダイヤル プランを作成するための [追加] ページを示すスクリーンショット](media/create-dial-plan.png)
+    ![ダイヤル プランを作成するための [追加] ページを示すスクリーンショット。](media/create-dial-plan.png)
 3. [ **ダイヤル プランの詳細**] で、ユーザーが外部行を取得するために 1 つ以上の先頭の数字 (9 など) をダイヤルする必要がある場合は、外部ダイヤル プレフィックスを指定します。 その手順は次のとおりです。
     1. [外部ダイヤル **プレフィックス] ボックスに** 、外部ダイヤル プレフィックスを入力します。 プレフィックスは、最大 4 文字 (#、*、および 0 - 9) で指定できます。
     2. **[Optimized device dialing]をオンにします**。 外部ダイヤル プレフィックスを指定する場合は、組織外で呼び出しを行う前に、この設定を有効にし、プレフィックスを適用する必要があります。
@@ -56,7 +56,7 @@ ms.locfileid: "58628379"
 
 ### <a name="edit-a-dial-plan"></a>ダイヤル プランを編集する
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams、Voice Dial プラン **に**  >  **移動します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、Voice Dial **プラン に**  >  **移動します**。
 2. ダイヤル プラン名の左側をクリックしてダイヤル プランを選択し、[編集] をクリック **します**。
 3. 必要な変更を行い、[保存] を **クリックします**。
 
@@ -67,7 +67,7 @@ ms.locfileid: "58628379"
 ## <a name="using-powershell"></a>PowerShell の使用
   
 ### <a name="start-powershell"></a>PowerShell を起動する
-- コマンド プロンプトWindows PowerShellし、次のコマンドを実行します。
+- コマンド プロンプトWindows PowerShell開き、次のコマンドを実行します。
 
 ```powershell
   # When using Teams PowerShell Module
@@ -217,7 +217,7 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [ダイヤル プランについて](what-are-dial-plans.md)
 - [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)

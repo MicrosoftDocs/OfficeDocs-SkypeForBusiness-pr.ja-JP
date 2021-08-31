@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Skype for Business を使用して会議の開催者が他のユーザーを呼び出せるようにするための必要事項とその方法を説明します。
-ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe8102db8306e4651de532b6e00de88ddb46247
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581981"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732386"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>他のユーザーが参加Skype for Business会議からダイヤルアウトする
 
@@ -35,7 +35,7 @@ ms.locfileid: "58581981"
 > [!NOTE]
 > Teams の会議からのダイヤル アウトについての情報をお求めの場合は、「[他のユーザーが参加できるように Teams 会議からダイアル アウトする](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)」を参照してください。
 
-会議の開催者は、Skype for Business アプリを使用してダイヤルアウトして、他のユーザーが自分の電話を使って同じ会議に参加することができます。 必須ではありませんが、誰かにダイヤルアウトするときには、国/地域番号が含まれる完全な番号をダイヤルすることをお勧めします。 ダイヤルアウトを実行するには、次の手順に従います。
+会議の開催者は、Skype for Business アプリを使用してダイヤルアウトして、他のユーザーが自分の電話を使って同じ会議に参加できます。 必須ではありませんが、誰かにダイヤルアウトするときには、国/地域番号が含まれる完全な番号をダイヤルすることをお勧めします。 ダイヤルアウトを実行するには、次の手順に従います。
   
 - ダイヤルアウトできるのは、新しいアプリを使用して会議に参加Skype for Businessです。
     
@@ -52,7 +52,7 @@ ms.locfileid: "58581981"
   
  **手順 2:** ボックスに国/地域コードを含む完全な電話番号を入力します。
   
-![Dial-out phone number in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![[ダイヤルアウト電話番号] をクリックSkype for Business。](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>サポートされている国と地域
 
@@ -64,6 +64,6 @@ ms.locfileid: "58581981"
     
 - [Skype for Business アドオンのライセンス](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business をインストールする](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

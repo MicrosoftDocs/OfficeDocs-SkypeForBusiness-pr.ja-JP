@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams Rooms のプレミアム サービスを使用した役割ベースのアクセス制御について説明します。
 f1keywords: ''
-ms.openlocfilehash: dd6c89f9e391e2ae7234510c26304076bdee5226
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b1a3a770c8b56c9d9ed3b589fa13163d955c294
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608814"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728076"
 ---
 # <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms のプレミアム サービスを使用した役割ベースのアクセス制御
 
@@ -78,9 +78,9 @@ Microsoft Teams Rooms の管理サービスの役割ベースのアクセス制�
 
 役割を割り当てるには、全体管理者または管理サービス管理者である必要があります。
 
-1. Microsoft Teams Rooms マネージド サービス ポータルの左側のナビゲーションで、[ロール]**設定**  >  **移動します**。
+1. Microsoft Teams Rooms マネージド サービス ポータルの左側のナビゲーションで、[**ロール]** 設定  >  **移動します**。
 
-    :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="役割が表示されるアクセスの制御ページのスクリーンショット":::
+    :::image type="content" source="../media/microsoft-teams-rooms-premium-roles.png" alt-text="ロールを示す [アクセス制御] ページのスクリーンショット。":::
 
 2. 割り当てる役割を選択します。
 3. 役割ウィンドウで **[割り当て]** > **[追加]** の順に選択します。

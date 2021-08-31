@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: '[Web Apps サーバー] Office右クリックし、[新しい Web アプリ サーバー] Officeを選択してウィザードを開きます。'
-ms.openlocfilehash: b8e7c643c7b5566a11ea8f33e3c5a55489dc4720
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e882da0e748eea333e31dec29508d9e77b683790
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595609"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730126"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps サーバーのスコープ ノード
 
 [Web Apps サーバー] **Office右** クリックし、[新しい Web アプリ サーバー] Office **を** 選択してウィザードを開きます。
 
-![OfficeWebApps サーバースコープ ノード](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
+![OfficeWebApps サーバースコープ ノード。](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
 - **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンのコンポーネントのマージ、展開の削除を行います。
 

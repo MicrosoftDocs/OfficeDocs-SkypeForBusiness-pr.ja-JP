@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18a9d5f7adac8c2f3fd615085b3f03d2b3733142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce16e1cf59f720402c2b5f1628c268aed927d145
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628259"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732406"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Microsoft Teams で最初のチームを作成する
 
-製品の導入を促進する最善のTeams製品を使用する方法です。 アプリケーションを使用して、デプロイをMicrosoft 365またはOffice 365することをお勧Teams。 また、チームワークと生産性に重点を置く従業員のコミュニティを作成する必要があります。 (これらの初期チームは時間の間に変更される可能性があります)。推奨されるチームは次のとおりです。
+製品の導入を促進する最善のTeamsは、製品を使用する方法です。 アプリケーションを使用して、Microsoft 365またはOffice 365デプロイを管理Teams。 また、チームワークと生産性に重点を置く従業員のコミュニティを作成する必要があります。 (これらの初期チームは時間の間に変更される可能性があります)。推奨されるチームは次のとおりです。
 
 | チーム名 | 提案されたチャネル名 |
 | --------- | ---------------------- |
@@ -38,9 +38,9 @@ ms.locfileid: "58628259"
 | Microsoft Teams実装 | General <br/> 認識と導入 <br/> Business Engagement <br/> 早期導入者プログラム <br/> フィードバックとインサイト <br/> セキュリティとコンプライアンス <br/> 戦略と計画 <br/> サービス正常性とインシデント <br/> トレーニング <br/> Watercooler Chat |
 | チームワーク チャンピオン | General <br/> ベスト プラクティス、トレーニング、および方法 <br/> チャンピオン コーナー <br/> フィードバックとサポート <br/> プログラム リード <br/> ソーシャル ハブ |
 
-このMicrosoft Teamsタブ ギャラリーでは、[](/microsoftteams/platform/concepts/tabs/tabs-overview)管理者によってオンにMicrosoft 365または Office 365 およびサード パーティ製のすべてのアプリにアクセスできます。 製品の価値を最も高くするには、主要なリソースを適切な各チャネルのタブとしてピン留めする方法をお勧めしています。 以下の例を参照してください。
+このMicrosoft Teamsタブ ギャラリーでは[](/microsoftteams/platform/concepts/tabs/tabs-overview)、管理者によって有効にMicrosoft 365または Office 365 およびサード パーティ製アプリにアクセスできます。 製品の価値を最も高くするには、主要なリソースを適切な各チャネルのタブとしてピン留めする方法をお勧めしています。 以下の例を参照してください。
 
-![既定のタブとカスタム タブを示すスクリーン ショット](media/teams-adoption-tab-example.png)
+![既定のタブとカスタム タブを示すスクリーン ショット。](media/teams-adoption-tab-example.png)
 
 最初のチームでは、次の項目をピン留めしてチーム チャネルで簡単に参照できます。 これらのアセットは、ノートブックのセクションOneNote追加されます。 弊社のチームと一緒にFastTrack、これらの最初のチームの構成をサポートします。 
 
@@ -49,8 +49,8 @@ ms.locfileid: "58628259"
 | **Microsoft Teamsデプロイ** ||
 | General | [Web] タブ: [Teams ドキュメント](./index.yml) |
 | 認識と導入 | [Teams導入ハブ](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams カスタマー サクセス キット](https://aka.ms/TeamsCustomerSuccess)|
-| ビジネス エンゲージメント | Wiki – エンゲージメントガイダンス<br/>フォーム – お問い合わせTeams依頼<br/>リスト – 契約要求 |
-|早期導入者 | 固定されたフィードバック コミュニティ <br/> OneNoteよく寄せられる質問と一般的なテーマの説明 |
+| ビジネス エンゲージメント | Wiki – エンゲージメントガイダンス<br/>フォーム – 新しいTeams要求<br/>リスト – 契約要求 |
+|早期導入者 | 固定されたフィードバック コミュニティ <br/> OneNoteよく寄せられる質問と一般的なテーマの詳細 |
 | フィードバックとレポート | 固定Microsoft 365またはOffice 365使用状況レポート (管理者Microsoft 365またはOffice 365のみ) |
 | セキュリティとコンプライアンス | Microsoft Trust Portal <br/> [セキュリティとコンプライアンスのドキュメント](/office365/securitycompliance/index)<br/> [ロードマップ](/office365/securitycompliance/security-roadmap) |
 | 戦略と計画 | Collaboration North Star PowerPoint <br/> サービス導入Projectプラン |
@@ -64,6 +64,6 @@ ms.locfileid: "58628259"
 
 ## <a name="making-the-switch-to-microsoft-teams"></a>アプリケーションへの切り替えMicrosoft Teams
 
-Teams を使い始めるには、Teams チャット、チャネル、リソースを使用してプロジェクトを実行することが、プロジェクト チームと他のチームにとって重要になります。 導入プロジェクトのTeamsには、ユーザー独自の使用状況が重要です。 コア プロジェクト チームとメールで会話を続けることにより、プロジェクトの断片化に抵抗することをお勧めします。 この機能にTeams、最終的に従業員に受け入れてほしい動作をモデル化します。 トーンを設定し、最初に進み、プロジェクト情報を 1 か所で楽しみます。  
+Teams を使い始めるには、Teams チャット、チャネル、リソースを使用してプロジェクトを実行することが、プロジェクト チームと他のチームにとって重要になります。 導入プロジェクトのTeamsの使用は非常に重要です。 コア プロジェクト チームとメールで会話を続けることにより、プロジェクトの断片化に抵抗することをお勧めします。 この機能に切りTeams、最終的に従業員に受け入れてほしい動作をモデル化します。 トーンを設定し、最初に進み、プロジェクト情報を 1 か所で楽しみます。  
 
-![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) [次へ: 組織の準備はどのくらい[Microsoft Teams?](teams-adoption-assess-readiness.md)
+![次の手順を示すアイコン。](media/teams-adoption-next-icon.png) 次へ:[組織の組織の準備はMicrosoft Teams。](teams-adoption-assess-readiness.md)

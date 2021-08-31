@@ -17,29 +17,29 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: 管理センターの管理センターで課題Microsoft Teams管理する方法についてMicrosoft Teams for Education。
+description: 管理センターの管理センターで課題Microsoft Teamsを管理する方法についてMicrosoft Teams for Education。
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd8aef1a8d84a77f14824379383c5f77679f8c6f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef615924a4c449a3b2b408d929cf3d2678e4a1e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592293"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728676"
 ---
 # <a name="assignments-in-teams-for-education"></a>教育機関向けの Teams の課題 
 
-課題と成績の機能は、教師Microsoft Teams for Education学生にタスク、作業、またはテストを割り当て可能です。 教師は、課題のタイムラインの管理、手順の管理、リソースの追加、ルーブリックを使用した成績の取得など、その他の操作を行えます。 また、[成績] タブでクラスと個々の学生の進捗状況を追跡することもできます。
+このページの課題と成績Microsoft Teams for Education、教師は学生にタスク、作業、またはテストを割り当てできます。 教師は、課題のタイムラインの管理、手順の管理、リソースの追加、ルーブリックを使用した成績の取得など、その他の操作を行えます。 また、[成績] タブでクラスと個々の学生の進捗状況を追跡することもできます。
 
 [課題と成績の詳細については、Microsoft Teams for Education。](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
-> さまざまなプラットフォームでの Teamsの割り当ての詳細については、プラットフォーム別のTeams[を参照してください](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+> さまざまなプラットフォームでのTeamsの詳細については、「プラットフォーム別の[Teams」を参照してください](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>管理センターでの割り当Microsoft Teams統合
 
-Microsoft Teams 管理センターの管理者設定を使用して、組織内の教師とその学生の機能を有効またはオフにできます。 課題に関連する設定を次に示します。
+管理センターの管理者設定Microsoft Teams、組織内の教師とその学生の機能を有効またはオフにできます。 課題に関連する設定を次に示します。
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>週 1 回の保護者のメール ダイジェスト
@@ -49,10 +49,10 @@ Microsoft Teams 管理センターの管理者設定を使用して、組織内�
 
 1. SDS で親と保護者の同期を使用して親の連絡先情報をインポートします。 親と保護者の同期を有効にする方法については、「親と保護者の同期を有効 [にする」を参照してください](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)。
 
-2. 設定が既定でオフになっているので、Microsoft Teamsセンターで [保護者の設定] をオンにします。 これにより、教師は週刊ダイジェストを送信できます。
+2. 設定が既定でオフになっているMicrosoft Teams管理センターで [保護者の設定] をオンにします。 これにより、教師は週刊ダイジェストを送信できます。
 
    > [!NOTE]
-   > 教師は、自分の個人クラス チーム内の設定を選択解除することで、ダイジェストをオプトアウトできます ([割り当て] 設定 >**親/保護者のメール**)。
+   > 教師は、自分の個人クラス チーム内の設定を選択解除することで、ダイジェストをオプトアウトできます ([割り当て] 設定 >**親/** 保護者のメール)。
 
 保護者がメールを受け取るのを確認するには、次の 3 つの項目が true である必要があります。
 
@@ -60,7 +60,7 @@ Microsoft Teams 管理センターの管理者設定を使用して、組織内�
 
  - 学生は、課題設定で教師がメールを無効にしていない少なくとも 1 つのクラス [に属しています](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)。
 
- - メールには、前の週または来週に期限が設定された割り当てに関する情報が含まれる。
+ - メールには、前の週または来週に期限が設定された割り当てに関する情報が含されます。
 
 この機能の既定の設定は - **オフです**。
 
@@ -73,7 +73,7 @@ MakeCode は、Microsoft の使用条件とプライバシー ポリシーの [�
 
 この機能の既定の設定は - **オフです**。
 
-Teams で MakeCode の割り当てを有効にするには **、Teams 管理** センター に移動し、[割り当て] セクションに **移動** し、[MakeCode] トグル オプションを [オン] に **切り替します**。 **[保存]** をクリックします。 これらの設定を有効にするために数時間を許可します。
+Teams で MakeCode の割り当てを有効にするには **、Teams** 管理センター に移動し、[割り当て] セクションに **移動** し、[MakeCode] トグル オプションを [オン] に **切り替します**。 **[保存]** をクリックします。 これらの設定を有効にするために数時間を許可します。
 
 この機能のしくみの詳細については、このビデオデモを [参照してください](https://makecode.com/blog/teams/teams-assignments)。
 
@@ -100,17 +100,17 @@ Teams で MakeCode の割り当てを有効にするには **、Teams 管理** �
 
 サイド **メニューから [統合** ] を選択し、[統合の追加] **を選択** し、統合に名前を付きます。
 
-![新しい統合の追加を示すスクリーンショット](./educationImages/Assignments_mopo_turnitin2.png)
+![新しい統合の追加を示すスクリーンショット。](./educationImages/Assignments_mopo_turnitin2.png)
 
-**プロンプトに従った後、TurnitinApiKey** が表示されます。 API キーをコピーし、管理センター Microsoft Teams貼り付けます。  キーを表示できるのは今回のみです。
+**プロンプトに従った後、TurnitinApiKey** が表示されます。 API キーをコピーし、管理センターのMicrosoft Teamsします。  キーを表示できるのは今回のみです。
 
-![API キーのコピーを示すスクリーンショット](./educationImages/Assignments_mopo_turnitin3.png)
+![API キーのコピーを示すスクリーンショット。](./educationImages/Assignments_mopo_turnitin3.png)
 
 この設定 **に対して** 管理センターの [保存] ボタンをクリックすると、これらの設定が有効になります。
 
 ### <a name="removing-assignments-and-grades"></a>課題と成績の削除
-特定のユーザー Teams、またはテナント全体の課題と成績を削除するには、ポリシーを使用します。 
+特定のユーザー Teams、またはテナント全体の課題と成績を削除するには、このポリシーを使用します。 
 
 個々のユーザーの課題と成績を削除するには **、Teams** 管理センターに移動し **、Teams** アプリ > アクセス許可ポリシーに移動して、新しいアプリのアクセス許可ポリシー定義を作成します。  新しいポリシー定義を作成するときに **、[Microsoft アプリ**]ポリシーを [特定のアプリをブロック] に設定し、他のすべてのアプリを許可し、ブロックされているアプリケーションの一覧に割り当てを追加します。 新しいポリシー定義を保存したら、適切なユーザーに割り当てる必要があります。
 
-テナント全体の課題と成績を削除するには **、[Teams** 管理センター] に移動し、[Teams アプリ> アプリの管理] に移動し、アプリケーションの一覧から[割り当て] を検索して選択します。 [アプリケーションの割り当て設定] ページの状態設定を [ブロック] _に変更します_。 
+テナント全体の課題と成績を削除するには **、[Teams** 管理センター] に移動し、[Teamsアプリ> アプリの管理] に移動し、アプリケーションの一覧から[割り当て] を検索して選択します。 [アプリケーションの割り当て設定] ページの状態設定を [ブロック] _に変更します_。 

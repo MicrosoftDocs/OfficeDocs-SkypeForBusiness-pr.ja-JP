@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '概要: このトピックの DNS に関する考慮事項を確認してから、このトピックをSkype for Business Server。'
-ms.openlocfilehash: d065ad5d893cd42b853a3510bbda1c8449c6e970
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a39cbfc05505e6c53b8874e3611dea8dae9d8c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610624"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730376"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>サーバーの DNS 要件Skype for Business Server
 
@@ -82,7 +82,7 @@ ms.locfileid: "58610624"
 
 **パブリック IPv4 アドレスを使用したエッジ ネットワークダイアグラム**
 
-![DNS ネットワーク図の例](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![DNS ネットワーク図の例を示します。](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
 
 **境界ネットワーク DNS マッピング (内部インターフェイスと外部インターフェイスの両方)**
 
@@ -99,7 +99,7 @@ ms.locfileid: "58610624"
 |SRV   |\_xmpp-server。 \_tcp。*<sipdomain \>* <br/>\_xmpp-server。 \_tcp。*<span></span> contoso <span></span> .com*  |外部アクセス エッジ FQDN  <br/>*Access1。 <span></span>contoso <span></span> .com*  |XMPP プロキシ サービスは、構成済みの XMPP フェデレーション パートナーとの間で、拡張可能なメッセージングおよびプレゼンス プロトコル (XMPP) メッセージを受け入れて送信します。   |Y、フェデレーションを展開する場合、それ以外の場合は省略可能  <br/> 2019 年Skype for Business Server使用できません。|
 |SRV   |\_sipfederationtls。 \_tcp。*\<sipdomain\>* <br/>\_sipfederationtls。 \_tcp。*<span></span> contoso <span></span> .com*  |外部アクセス エッジ FQDN  <br/>*Access1。 <span></span>contoso <span></span> .com*  |プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、SIP ドメインごとに 1 つの SRV レコードを作成します。 &#x2778;  ||
 |A/AAAA   |外部フロントエンド プール Web サービス FQDN  <br/>*Web-ext。 <span></span>contoso <span></span> .com*  |リバース プロキシパブリック IP アドレス、フロントエンド プールの外部 Web サービス VIP へのプロキシ&#x2776; <br/> 131.107.155.1 プロキシから 192.168.21.120   |ユーザーが使用するフロントエンド プールの外部インターフェイスSkype for Business Web アプリ   |Y   |
-|A/AAAA/CNAME   |lyncdiscover。*\<sipdomain\>* <br/> lyncdiscover。*<span></span> contoso <span></span> .com*  |リバース プロキシのパブリック IP アドレスを取得し、ディレクター プールの外部 Web サービス VIP に解決します (ディレクター プールがある場合、またはディレクター サーバーがインストールされていない場合はフロント エンド プール&#x2777; <br/> 131.107.155.1 プロキシから 192.168.21.120   | リバース プロキシ サーバーによって解決された、Mobility、Skype for Business Web アプリ、スケジューラ Web アプリでも使用されるクライアント自動検出の外部レコード <br/> プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、Microsoft Lync Mobile クライアントを持つ SIP ドメインごとに 1 つの SRV レコードを作成します。 3   |Y   |
+|A/AAAA/CNAME   |lyncdiscover。*\<sipdomain\>* <br/> lyncdiscover。*<span></span> contoso <span></span> .com*  |リバース プロキシのパブリック IP アドレスを取得し、ディレクター プールの外部 Web サービス VIP に解決します (ディレクター プールがある場合、またはディレクター サーバーがインストールされていない場合はフロント エンド プール&#x2777; <br/> 131.107.155.1 プロキシから 192.168.21.120   | リバース プロキシ サーバーによって解決された、Mobility、Skype for Business Web アプリ、スケジューラ Web アプリでも使用されるクライアント自動検出の外部レコード <br/> プッシュ通知サービスと Apple プッシュ通知サービスをサポートするには、Microsoft Lync Mobile クライアントを持つ SIP ドメインごとに 1 つの SRV レコードを作成します。 3  |Y   |
 |A/AAAA   |を満たします。*\<sipdomain\>* <br/> を満たします。*<span></span> contoso <span></span> .com*  |リバース プロキシパブリック IP アドレス、フロントエンド プールの外部 Web インターフェイスに解決される  <br/> 131.107.155.1 プロキシから 192.168.21.120   |Web サービスSkype for Businessプロキシ  <br/> 「簡易 [URL」を参照してください。](dns.md#BK_Simple)  |Y   |
 |A/AAAA   |ダイヤルイン。*\<sipdomain\>* <br/> ダイヤルイン。*<span></span> contoso <span></span> .com*  |リバース プロキシパブリック IP アドレス、フロントエンド プールの外部 Web インターフェイスへのプロキシ  <br/> 131.107.155.1 プロキシから 192.168.21.120   |Web サービスSkype for Businessプロキシ  <br/> 「簡易 [URL」を参照してください。](dns.md#BK_Simple)  |Y   |
 |A/AAAA   |OfficeWeb Apps サーバー プール FQDN  <br/> OWA。 <span></span>contoso <span></span> .com   | リバース プロキシパブリック IP アドレス、Web Apps Server の外部 Web インターフェイスOfficeプロキシ <br/> 131.107.155.1 プロキシから 192.168.1.5   | OfficeWeb Apps Server プールの VIP アドレス <br/> 192.168.1.5   |Web Apps サーバー Office FQDN を定義します。   |

@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーを起動して、展開のプロパティと構成を構成します。 起動時に、トポロジ ビルダーは、トポロジ ドキュメントのソースを確認するダイアログを表示します。 以下の 3 つのオプションのいずれかを選択します。
-ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f50a5d69de9c22665585eb50dd19ab3b39a9c76
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621443"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732346"
 ---
 # <a name="topology-builder-startup-dialog"></a>トポロジ ビルダー起動ダイアログ
  
@@ -32,5 +32,5 @@ ms.locfileid: "58621443"
     
 - [**新しいトポロジ**]: このオプションは、新しいトポロジ ドキュメントの構成を開始するときに選択します。このオプションを選択すると、新しいトポロジ ドキュメントが開かれるので、構成しようとする展開の要件に合わせてドキュメントを構成します。
     
-![トポロジ ビルダー起動ダイアログ](../../../media/Topology_Builder_Startup_Dialog.jpg)
+![トポロジ ビルダーの [スタートアップ] ダイアログ ボックス。](../../../media/Topology_Builder_Startup_Dialog.jpg)
   

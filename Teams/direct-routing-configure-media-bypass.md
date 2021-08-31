@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: すべてのユーザーを一度に切り替電話システム、または段階的にアプローチ (推奨) を実装することで、Microsoft Teams のダイレクト ルーティングを使用してメディア バイパスを構成する方法について説明します。
+description: 電話システム Microsoft Teams のすべてのユーザーを一度に切り替えるか、段階的にアプローチ (推奨) を実装することで、Microsoft Teams のダイレクト ルーティングを使用してメディア バイパスを構成する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcbc893d3549e491d40268ae3417f5203d755ff6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0f0ad9d25157058c048b0f12cf72b3755e65e11
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598581"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728686"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを構成する
 
@@ -47,7 +47,7 @@ ms.locfileid: "58598581"
 
   これは、スムーズな切り替えと中断のないユーザー エクスペリエンスが可能なので、推奨されるアプローチです。 この方法では、SBC の構成、新しい FQDN 名、ファイアウォールの構成が必要です。 証明書が両方のトランクをサポートしている必要があります。 SAN では、2 つの名前 **(sbc1.contoso.com** と **sbc2.contoso.com)** を持つ必要があります。または、ワイルドカード証明書を持っている必要があります。
 
-![バイパスされていないトランクからバイパスが有効なトランクに移行する)](media/direct-routing-media-bypass-8.png)
+![バイパスされていないトランクからバイパスが有効なトランクに移行します。](media/direct-routing-media-bypass-8.png)
 
 トランクを構成して移行を実行する方法については、SBC ベンダーのドキュメントを参照してください。
 
@@ -60,7 +60,7 @@ ms.locfileid: "58598581"
 
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ダイレクト ルーティングを使用してメディア バイパスを計画する](direct-routing-plan-media-bypass.md)
 

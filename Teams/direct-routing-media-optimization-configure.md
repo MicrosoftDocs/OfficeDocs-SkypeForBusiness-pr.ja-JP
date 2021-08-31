@@ -16,16 +16,16 @@ f1.keywords:
 description: 直接ルーティング用にローカル メディアの最適化を構成する
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 49ed6df64957eea2f68a35554d0569ec1e6efaa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365634"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730316"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>直接ルーティング用にローカル メディアの最適化を構成する
 
-ローカル メディアの最適化の構成は、ルーティングや動的緊急通話などの他のクラウド音声機能に共通Location-Based設定に基づいて行います。 ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネット、信頼済み IP アドレスの詳細については、「クラウド音声機能のネットワーク設定」 [を参照してください](cloud-voice-network-settings.md)。
+ローカル メディア最適化の構成は、ルーティングや動的緊急通話などの他のクラウド音声機能に共通Location-Based設定に基づいて行います。 ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネット、信頼済み IP アドレスの詳細については、「クラウド音声機能のネットワーク設定」 [を参照してください](cloud-voice-network-settings.md)。
 
 ローカル メディアの最適化を構成する前に、「直接ルーティングのための [ローカル メディアの最適化」を参照してください](direct-routing-media-optimization.md)。  
 
@@ -36,7 +36,7 @@ ms.locfileid: "58365634"
 
 次の図は、この記事全体の例で使用されるネットワーク セットアップを示しています。
 
-![例のネットワークセットアップを示す図](media/direct-routing-media-op-9.png "例のネットワークセットアップ")
+![例のネットワークセットアップを示す図。](media/direct-routing-media-op-9.png "例のネットワークセットアップ")
 
 
 ## <a name="configure-the-user-and-the-sbc-sites"></a>ユーザーと SBC サイトを構成する
@@ -56,9 +56,9 @@ ms.locfileid: "58365634"
 
 ## <a name="manage-external-trusted-ip-addresses"></a>外部の信頼済み IP アドレスを管理する
 
-外部の信頼できる IPs は、エンタープライズ ネットワークのインターネット外部 IPs です。 これらの IP は、クライアントがクライアントに接続するときにMicrosoft Teamsで使用される IP アドレスMicrosoft 365。 ローカル メディアの最適化を使用するユーザーがいるサイトごとに、これらの外部 IPs を追加する必要があります。
+外部の信頼できる IPs は、エンタープライズ ネットワークのインターネット外部 IPs です。 これらの IP は、クライアントがクライアントに接続するときに、Microsoft Teamsによって使用される IP アドレスMicrosoft 365。 ローカル メディアの最適化を使用するユーザーがいるサイトごとに、これらの外部 IPs を追加する必要があります。
 
-各サイトのパブリック IP アドレスを追加するには、次のコマンドレットNew-CsTenantTrustedIPAddressします。 テナントの信頼できる IP アドレスの数に制限はありません。 IPv4 アドレスと IPv6 Microsoft 365外部 IP アドレスが両方とも表示される場合は、両方の種類の IP アドレスを追加する必要があります。 IPv4 の場合は、マスク 32 を使用します。 IPv6 の場合は、マスク 128 を使用します。 コマンドレットで異なる MaskBits を指定することで、個々の外部 IP アドレスと外部 IP サブネットの両方を追加できます。
+各サイトのパブリック IP アドレスを追加するには、次のコマンドレットNew-CsTenantTrustedIPAddressします。 テナントの信頼できる IP アドレスの数に制限はありません。 アプリケーションによって表示される外部 IP Microsoft 365 IPv4 アドレスと IPv6 アドレスの両方である場合は、両方の種類の IP アドレスを追加する必要があります。 IPv4 の場合は、マスク 32 を使用します。 IPv6 の場合は、マスク 128 を使用します。 コマンドレットで異なる MaskBits を指定することで、個々の外部 IP アドレスと外部 IP サブネットの両方を追加できます。
 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
@@ -128,7 +128,7 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “S
 
 ## <a name="define-the-virtual-network-topology"></a>仮想ネットワーク トポロジを定義する 
 
-まず、テナント管理者は、 コマンドレットを使用して、関連する SBC ごとに新しい SBC New-CsOnlinePSTNGatewayします。
+最初に、テナント管理者は、 コマンドレットを使用して、関連する SBC ごとに新しい SBC New-CsOnlinePSTNGatewayします。
 テナント管理者は、次のコマンドレットを使用して PSTN ゲートウェイ オブジェクトのネットワーク サイトを指定することで、仮想ネットワーク トポロジSet-CsOnlinePSTNGatewayします。
 
 ```
@@ -202,12 +202,12 @@ Always Bypass モードは、構成する最も簡単なオプションです。
 
 | ユーザーの物理的な場所| ユーザーが番号に対して通話を行う、または番号から通話を受信する | ユーザーの電話番号  | オンライン音声ルーティング ポリシー | SBC 用に構成されたモード |
 |:------------|:-------|:-------|:-------|:-------|
-| ベトナム | +84 4 3926 3000 | +84 4 5555 5555   | 優先度 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> 優先度 2: .* - proxysbc.contoso.com   | VNsbc.contoso.com – Always Bypass <br> proxysbc.contoso.com – Always Bypass
+| ベトナム | +84 4 3926 3000 | +84 4 5555 5555   | 優先度 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> 優先度 2: .* - proxysbc.contoso.com   | VNsbc.contoso.com – Always Bypass <br> proxysbc.contoso.com – 常にバイパス
 
 
 次の図は、Always バイパス モードの発信呼び出しの SIP ラダーと、SBC と同じ場所のユーザーを示しています。
 
-![発信呼び出しを示す図](media/direct-routing-media-op-10.png "発信呼び出し")
+![送信呼び出しを示す図。](media/direct-routing-media-op-10.png "発信呼び出し")
 
 次の表は、ダイレクト ルーティングによって送信される X-MS ヘッダーを示しています。
 
@@ -227,7 +227,7 @@ Always Bypass モードは、構成する最も簡単なオプションです。
 
 
 受信呼び出しでは、ユーザーの場所は不明であり、SBC はユーザーの場所を推測する必要があります。 推測が正しくない場合は、再招待が必要になります。 このケースでは、ユーザーが内部的であり、メディアが直接フローできると想定され、それ以上のアクションは必要ありません (再招待)。
-ダイレクト ルーティング サービスに接続されている SBC は、元の SBC の場所を報告します。この場合は、[Record-Route] フィールドを指定します。 これらのフィールドに基づいて、メディア パスは直接ルーティングによって計算されます。
+ダイレクト ルーティング サービスに接続されている SBC は、元の SBC の場所を報告します。Record-Route フィールドを指定します。 これらのフィールドに基づいて、メディア パスは直接ルーティングによって計算されます。
 
 注: ユーザーが複数のエンドポイントを持つ場合、183 はサポートできません。 この場合、ダイレクト ルーティングでは常に 180 リングが使用されます。 
 
@@ -261,7 +261,7 @@ AlwaysBypass |  外部 |  該当なし | 発信 |
 |:------------|:-------|:-------|:-------|
 AlwaysBypass |  外部 |  該当なし |   受信 |
 
-着信呼び出しの場合、ユーザーの場所が外部にある場合、ダイレクト ルーティングに接続されている SBC は再招待を送信する必要があります (既定では、ローカル メディア候補は常に提供されます)。  X-MediaPath は、指定された SBC Record-Routeに基づいて計算されます。
+着信呼び出しの場合、ユーザーの場所が外部にある場合、ダイレクト ルーティングに接続されている SBC は再招待を送信する必要があります (既定では、ローカル メディア候補は常に提供されます)。  X-MediaPath は、指定Record-Route SBC ユーザーに基づいて計算されます。
 
 次の図は、AlwaysBypass モードの着信呼び出しの SIP ラダーを示しています。ユーザーは外部です。
 
@@ -291,7 +291,7 @@ AlwaysBypass |  外部 |  該当なし |   受信 |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers |   内部 |SBC と同じ   | 発信 |
 
-次の図は、OnlyForLocalUsers モードの発信呼び出しを示しています。ユーザーは SBC と同じ場所にいます。 これは、ユーザーが SBC と同じ場所にある場合の送信呼び出しに [表示されるフローと同じです](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
+次の図は、OnlyForLocalUsers モードの発信呼び出しを示しています。ユーザーは SBC と同じ場所にいます。 これは、ユーザーが SBC と同じ場所にある場合の送信呼び出しに [表示されるのと同じフローです](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
 
 ![図は、SIP ラダーを再び示しています。](media/direct-routing-media-op-14.png)
 
@@ -307,7 +307,7 @@ AlwaysBypass |  外部 |  該当なし |   受信 |
 ![SIP ラダーを示す別の図。](media/direct-routing-media-op-15.png)
 
 
-#### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>ユーザーは SBC と同じ場所にではなく、ローカル ユーザーの場合のみと企業ネットワーク内にある
+#### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>ユーザーは SBC と同じ場所ではなく、ローカル ユーザー専用の企業ネットワーク内にある
 
 | モード | ユーザー | サイト |通話の方向 |
 |:------------|:-------|:-------|:-------|
@@ -327,7 +327,7 @@ AlwaysBypass |  外部 |  該当なし |   受信 |
 |:------------|:-------|:-------|:-------|
 | OnlyForLocalUsers | 内部 |    SBC とは異なる |    受信 |
 
-次の図は、OnlyForLocalUsers モードの受信呼び出しと、SBC と同じ場所にいない内部ユーザーを示しています。
+次の図は、OnlyForLocalUsers モードの受信呼び出しと、SBC と同じ場所にない内部ユーザーを示しています。
 
 ![SIP ラダーを示すもう 1 つの図。](media/direct-routing-media-op-17.png)
 

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: ''
 description: '概要: このトピックでは、Skype for Business Server 2019 サーバーとドメイン インフラストラクチャを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項、および証明書 DNS、ファイル共有、Active Directory 情報は、サーバー ファームの正常なインストールと展開を確実に行うのに役立ちます。'
-ms.openlocfilehash: a994d2546cb6e15830b8cb2439968a53047a6389
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578211"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728366"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>2019 年のSkype for Business Server要件
  
@@ -306,13 +306,13 @@ Skype for Business Server 2019 では、ドメイン名の変更もサポート�
   
 #### <a name="single-forest-with-single-domain"></a>単一のドメインを含む単一のフォレスト
 
-![1 つのドメインを持つ Active Directory 単一フォレストの図](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
+![単一ドメインを持つ Active Directory 単一フォレストの図。](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
 これより簡単ではありません。これは単一のドメイン フォレスト、一般的なトポロジです。
   
 #### <a name="single-forest-with-a-single-tree-and-multiple-domains"></a>単一のツリーと複数のドメインを含む単一のフォレスト
 
-![単一のフォレスト、単一ツリー、および mutiple ドメインの図](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![単一のフォレスト、単一ツリー、および mutiple ドメインの図。](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
 この図は、もう一度 1 つのフォレストを示していますが、1 つ以上の子ドメインも含みます (この特定の例には 3 つがあります)。 そのため、ユーザーが作成するドメインは、2019 年に展開Skype for Business Serverドメインとは異なる場合があります。 なぜこのことを心配するのですか? フロントエンド プールを展開する場合、Skype for Business Server内のすべてのサーバーが 1 つのドメイン内にある必要がある点に注意してください。 ユニバーサル管理者グループのサポートを通Skype for Business ServerドメインWindows管理できます。
   
@@ -320,7 +320,7 @@ Skype for Business Server 2019 では、ドメイン名の変更もサポート�
   
 #### <a name="single-forest-with-multiple-trees-and-disjoint-namespaces"></a>複数のツリーと不整合の名前空間を含む単一のフォレスト
 
-![単一のフォレスト、複数のツリー、および不結合の名前空間の図](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
+![単一のフォレスト、複数のツリー、および不結合の名前空間の図。](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
 1 つのフォレストがあるが、そのフォレスト内には複数のドメインが含まれるこの図と同様のトポロジが用意されている場合があります。その中には複数のドメインが含ADがあります。 この場合、この図は、2019 年にアクセスする 3 つの異なるドメインのユーザーが含まれるため、Skype for Business Serverです。 実線は、自分のドメイン内の Skype for Business Server プールにアクセスしているのに対し、破線は別のツリー内のプールに移動する場合を示します。
   
@@ -328,7 +328,7 @@ Skype for Business Server 2019 では、ドメイン名の変更もサポート�
   
 #### <a name="multiple-forests-in-a-central-forest-topology"></a>中央フォレスト トポロジの複数のフォレスト
 
-![中央フォレスト トポロジ図の複数のフォレスト](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
+![中央フォレスト トポロジ図の複数のフォレスト。](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
 Skype for Business Server 2019 では、中央フォレスト トポロジで構成された複数のフォレストがサポートされています。 それが自分の持っているものか分からない場合、トポロジの中央フォレストは、その中のオブジェクトを使用して他のフォレストのユーザーを表し、フォレスト内のすべてのユーザーのユーザー アカウントをホストします。
   
@@ -339,7 +339,7 @@ Skype for Business Server 2019 では、中央フォレスト トポロジで構
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>リソース フォレスト トポロジ内Skype for Businessフォレスト
 <a name="BKMK_multipleforestopology"> </a>
 
-![リソース フォレスト トポロジ図内の複数のフォレスト](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![リソース フォレスト トポロジ図内の複数のフォレスト。](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 リソース フォレスト トポロジもサポートされています。フォレストは、2019 年から 2019 年まで、サーバー アプリケーションの実行専用Microsoft Exchange Server場所Skype for Business Serverです。 このリソース フォレストは、アクティブなユーザー オブジェクトの同期表現もホストしますが、ログオンが有効なユーザー アカウントはありません。 したがって、リソース フォレストは、ユーザー オブジェクトが存在する他のフォレストの共有サービス環境であり、リソース フォレストとのフォレスト レベルの信頼関係を持ちます。
   

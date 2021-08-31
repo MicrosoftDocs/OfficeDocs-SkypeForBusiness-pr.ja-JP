@@ -1,5 +1,5 @@
 ---
-title: アプリケーションへのアップグレードの実装の概要Microsoft Teams
+title: アプリケーションへのアップグレードの実装のMicrosoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 現在のデプロイ環境に基づいて、Microsoft Teams最適なアップグレード パスSkype for Business決定します。
+description: 現在のデプロイに基づいて、Microsoft Teamsへの最適なアップグレード パスSkype for Businessします。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 726355c7edf145dec6eeaf9ec1904119c15a3275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2501c113eb3589ba26d4a9a6932e103f913c9239
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616133"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730156"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>アップグレードの実装の概要
 
-![「展開と実装」段階が強調表示された、アップグレード行程の各段階](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
+![デプロイと実装のステージに重点を置いたアップグレード体験のステージ。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、アップグレード体験のデプロイと実装のステージの一部です。 
 
@@ -51,7 +51,7 @@ ms.locfileid: "58616133"
 
 ## <a name="choose-your-upgrade-starting-point"></a>アップグレードの開始点を選択する
 
-アプリケーションへのアップグレードを実行する手順は、Teamsのデプロイによって異Skype for Business。
+アプリケーションへのアップグレードを実行する手順は、Teamsの現在のデプロイによって異Skype for Business。
 
 現在の環境に基づいて、開始点を選択します。  
 

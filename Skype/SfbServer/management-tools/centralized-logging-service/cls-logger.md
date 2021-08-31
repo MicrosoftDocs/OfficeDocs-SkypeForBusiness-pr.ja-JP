@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: '概要: 2015 年に集中ログ サービス (CLS) ロガーを使用するSkype for Business Serverします。'
-ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628619"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730236"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS ロガー for Skype for Business Server 2015
  
@@ -71,7 +71,7 @@ CLS ロガーを正常に使用するには、次の条件が満たされてい�
     
 4. シナリオが停止すると、ユーザー インターフェイスが再度有効になります。アクションの詳細は PowerShell コマンド出力領域にも表示されます。
     
-![CLS ロガーの開始と停止](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![CLS ロガーの開始と停止。](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>ログの検索
 
@@ -109,7 +109,7 @@ CLS ロガーを正常に使用するには、次の条件が満たされてい�
 > 
 > **ネットワーク ログをスキップする** チェックされている場合は、ネットワーク ログの検索をスキップします。
     
-![CLS ロガー検索ログ](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![CLS ロガー検索ログ。](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>シナリオの作成
 
@@ -124,7 +124,7 @@ CLS ロガーを正常に使用するには、次の条件が満たされてい�
     
 ## <a name="modify-a-scenario"></a>シナリオの変更
 
-![CLS ロガー スクリーン ショット、編集シナリオ](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![CLS ロガー スクリーン ショット、シナリオの編集。](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. [シナリオ **の編集] タブ** で、変更するシナリオを探します。
     

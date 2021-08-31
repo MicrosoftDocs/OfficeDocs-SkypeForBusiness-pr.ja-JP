@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: '概要: サーバー のインストールの一環としてWindowsサーバー ファイル共有を作成する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: c3ffda81449a3719e6ba3feffba14266b7f79cb3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7d766a38791a7fc21b4e86844684ed174769e60
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595961"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727966"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>ファイル共有を作成するSkype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58595961"
   
 Skype for Business Serverトポロジ全体のコンピューターがファイルを交換できるよう、ファイル共有が必要になります。 ファイル共有の作成は、ファイル共有のインストール プロセスの手順 2 / 8 Skype for Business Server。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、手順 6、7、および 8 を順番に実行し、図に示す手順 1 ~ 5 の後に実行する必要があります。 ファイル共有の計画の詳細については、「環境要件 for [Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) [2019」](../../../SfBServer2019/plan/system-requirements.md)または「サーバー Skype for Business Server参照してください。
   
-![概要図](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
+![概要図。](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>基本的なファイル共有を作成する
 

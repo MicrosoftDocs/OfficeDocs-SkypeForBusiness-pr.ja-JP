@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online で設定が変更された場合にユーザーに送信Skype for Businessメール
+title: Skype for Business Online で設定が変更された場合にユーザーに送信されるメール
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Skype for Business Online でダイヤルイン会議の設定が変更された場合に、ユーザーにメールで自動的に送信される情報についてSkype for Businessします。 '
-ms.openlocfilehash: 7f095e42eae2ba47573193546e441809ce3ae6e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b33fc6176d4103125432ebe0896ccab34e8fe269
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618303"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728036"
 ---
-# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Skype for Business Online で設定が変更された場合にユーザーに送信Skype for Businessメール
+# <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Skype for Business Online で設定が変更された場合にユーザーに送信されるメール
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Microsoft Teams で自動メール情報を探している場合は、「Microsoft Teams で設定が変更された場合にユーザーに送信されるメール」[を参照Microsoft Teams。](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)
+> Microsoft Teams で自動メール情報を探している場合は、「Microsoft Teams で設定が変更された場合にユーザーに送信されるメール」[をMicrosoft Teams。](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)
 
 電子メールは、電話会議プロバイダーとして Microsoft[](set-up-audio-conferencing.md)を使用して電話会議が有効になっているユーザーに自動的に送信されます。
   
@@ -41,16 +41,16 @@ ms.locfileid: "58618303"
   
 - **電話会議ライセンスが割り当てられるか、電話会議プロバイダーを Microsoft に変更するときに割り当てられます。**
     
-     このメールには、会議 ID、会議の既定の電話会議電話番号、ユーザーの電話会議 PIN、ユーザーの既存の会議を更新するために使用される Skype for Business Online Meeting Update Tool を使用する手順とリンクが含まれます。 「[ライセンスを割りSkype for Business割り当てる](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)」または[「Microsoft を電話会議プロバイダーとして割り当てる」を参照してください](assign-microsoft-as-the-audio-conferencing-provider.md)。
+     このメールには、会議 ID、会議の既定の電話会議電話番号、ユーザーの電話会議 PIN、ユーザーの既存の会議を更新するために使用される Skype for Business Online Meeting Update Tool を使用する手順とリンクが含まれます。 「[ライセンスを割りSkype for Business割り当てる」](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)または[「Microsoft を電話会議プロバイダーとして割り当てる」を参照してください](assign-microsoft-as-the-audio-conferencing-provider.md)。
     
     > [!NOTE]
     > 組織で動的な会議 ID が有効になっている場合、スケジュールを設定したユーザーのすべての会議に固有の会議 ID が割り当てらされます。 組織で [電話会議の動的な ID を設定できます](./reset-a-conference-id-for-a-user.md)。 
   
     このメールの例を次に示します。
     
-     ![Skype for Businessライセンスの確認](../images/audio-conferencing-user-enabled.png)
+     ![Skype for Businessライセンスを確認します。](../images/audio-conferencing-user-enabled.png)
   
-    追加ライセンスの詳細については、「Skype for Businessライセンス」を参照Skype for Business[参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+    追加ライセンスの詳細については、「Skype for Businessライセンス」をSkype for Business[参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
     
 - **ユーザーの会議 ID または既定の電話会議電話番号が変更されます。**
     
@@ -112,9 +112,9 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 ユーザーへのメール送信を無効にすると、ユーザーにライセンスが割り当てられた場合でも、電子メールは送信されません。 この場合、会議 ID、既定の会議電話番号、さらに重要な点として、電話会議 PIN はユーザーに送信されません。 この場合は、ユーザーに別のメールを送信するか、ユーザーに電話で通知する必要があります。
   
-既定では、メールはユーザーに送信されますが、電話会議用のメールを受信したくない場合は、Skype for Business 管理センターまたは Windows PowerShell を使用できます。 
+既定では、メールはユーザーに送信されますが、電話会議のメールを受信したくない場合は、Skype for Business 管理センターまたは Windows PowerShell を使用できます。 
  
-![管理センターを使用Skype for Business ](../images/sfb-logo-30x30.png) **ロゴをSkype for Businessアイコン**  
+![ロゴを表示Skype for Businessアイコン。](../images/sfb-logo-30x30.png)  **Skype for Business 管理センターの使用**
     
 1. **Skype for Business 管理センター** の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
     
@@ -143,7 +143,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
     送信されるこの電子メールの例を次に示します。
     
-     ![ダイヤルイン会議のメール](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
+     ![ダイヤルイン会議の電子メール。](../images/81fe4e09-a346-4469-8cc5-c6d65f739b73.png)
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
@@ -151,11 +151,11 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
 - Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [PowerShell で使用する必要があるMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell を使用するMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター のみを使用する場合に、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター を使用する場合に限って、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -166,7 +166,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     > [!NOTE]
     > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話会議の設定が変更されたときのメールの自動送信を有効または無効にする](enable-or-disable-sending-emails-when-their-settings-change.md)
   

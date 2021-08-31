@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 最初のインタビューの質問が完了すると、サイトの完全修飾ドメイン名 (FQDN) と IP アドレスを編集できます。 これを行うには、[グローバル トポロジ] ページで、編集するサイトをダブルクリックします。
-ms.openlocfilehash: 6c18b980f7dca770de46a8eaeed01e7c508486b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 75eadc6234c9ac6e4e8a869df2da4d246b60f9ed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626599"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732326"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>2015 年のトポロジSkype for Business Serverする
 
@@ -27,7 +27,7 @@ ms.locfileid: "58626599"
 
 計画ツールは、選択したサイトのサイト トポロジを表示します。 サイト ページの下部には、次の 4 つのタブがあります。
 
-![計画ツール サイト トポロジ](../../media/Planning_Tool_Site_Topology.png)
+![計画ツール サイト トポロジ。](../../media/Planning_Tool_Site_Topology.png)
 
 - サイト トポロジ - 推奨されるトポロジの視覚的な概要を示す現在表示されているページ。
 
@@ -35,7 +35,7 @@ ms.locfileid: "58626599"
 
 - エッジ管理レポート - エッジ管理レポートには、合計 4 つのレポートが含まれる。
 
-     ![[エッジ管理レポート] ページ](../../media/Planning_Tool_Summary_Report.png)
+     ![[エッジ管理レポート] ページ。](../../media/Planning_Tool_Summary_Report.png)
 
   - 概要レポート - エッジ ネットワーク構成の設定の一般的なレポートです。 [エッジ ネットワーク ダイアグラム]ページの値を、実際の展開で使用されるトポロジ TCP/IP および FQDN 値に編集すると、これらのアドレスと名前がここで表されます。 それ以外の場合は、既定のテキストが表示されます。
 
@@ -55,7 +55,7 @@ ms.locfileid: "58626599"
 
 Skype for Business Server 2015 計画ツールでデザイナーが行う作業の大部分は、ネットワークダイアグラム上のエントリの IP アドレスと完全修飾ドメイン名 (FQDN) のエントリを定義します。 このページに入力された情報は、計画ツールに含まれるレポートおよび他の情報に引き継がれします。
 
-![計画ツールネットワーク図](../../media/Planning_Tool_Network_Diagram.png)
+![計画ツールネットワーク図。](../../media/Planning_Tool_Network_Diagram.png)
 
 計画ツールは、IP アドレスと FQDN の既定のテキストを含むネットワーク ダイアグラムを作成します。
 

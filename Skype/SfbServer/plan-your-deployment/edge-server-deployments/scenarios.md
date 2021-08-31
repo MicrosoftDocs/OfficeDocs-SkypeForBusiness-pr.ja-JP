@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: '概要: これらのシナリオを確認して、エッジ サーバー トポロジを計画する場合に役立Skype for Business Server。'
-ms.openlocfilehash: 213081e5e232ff2d033c556fa9e037cdf813da3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4035418426975b79a35be7ec84c6affac3ab92d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622179"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732096"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>エッジ サーバーのシナリオ (Skype for Business Server
  
@@ -46,53 +46,53 @@ NAT64 (IPv6 ~ IPv4) と NAT66 (IPv6 ~ IPv6) を許可する NAT デバイスが�
 
 このシナリオでは、高可用性のオプションはありません。 つまり、ハードウェアへの支出が少なく、展開が簡単になります。 高可用性が必要な場合は、以下の拡張統合シナリオを参照してください。
   
-![NAT を使用したプライベート IP を使用した単一統合エッジのエッジ シナリオ](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
+![NAT を使用したプライベート IP を使用した単一統合エッジのエッジ シナリオ。](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
 ### <a name="port-diagram"></a>ポート図
 
 また、単一統合エッジ サーバーのポートの図も示しています。
   
-![エッジ シナリオ単一統合エッジのネットワーク境界](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![エッジ シナリオ単一統合エッジのネットワーク境界。](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>パブリック IP アドレスSkype for Business Server単一の統合エッジ サーバー
 
 このシナリオでは、高可用性のオプションはありません。 つまり、ハードウェアへの支出が少なく、展開が簡単になります。 高可用性が必要な場合は、以下の拡張統合シナリオを参照してください。
   
-![パブリック IP を使用した単一統合エッジのエッジ シナリオ](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
+![パブリック IP を使用した単一統合エッジのエッジ シナリオ。](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
   
 ### <a name="port-diagram"></a>ポート図
 
 また、単一統合エッジ サーバーのポートの図も示しています。
   
-![エッジ シナリオ単一統合エッジのネットワーク境界](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![エッジ シナリオ単一統合エッジのネットワーク境界。](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>拡張された統合Skype for Business Serverエッジ プール(DNS 負荷分散、プライベート IP アドレスと NAT を使用)
 
 このシナリオでは、エッジ展開で高可用性を実現できます。これにより、スケーラビリティとフェールオーバーのサポートの利点が得されます。
   
-![拡張統合エッジのエッジ シナリオ、NAT を使用したプライベート IP を使用する DNS LB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
+![拡張統合エッジのエッジ シナリオ、NAT を使用したプライベート IP を使用した DNS LB。](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
   
 ### <a name="port-diagram"></a>ポート図
 
 また、DNS 負荷分散を使用した拡張統合エッジ プールの図もあります。
   
-![DNS LB を使用したエッジ シナリオの拡張統合エッジのネットワーク境界](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![エッジ シナリオのネットワーク境界 DNS LB を使用して拡張統合エッジ。](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>拡張された統合Skype for Business Serverエッジ プール(DNS 負荷分散とパブリック IP アドレスを使用)
 
 このシナリオでは、エッジ展開で高可用性を実現できます。これにより、スケーラビリティとフェールオーバーのサポートの利点が得されます。
   
-![拡張統合エッジのエッジ シナリオ、パブリック IP を使用した DNS LB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
+![拡張統合エッジのエッジ シナリオ、パブリック IP を使用した DNS LB。](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
 ### <a name="port-diagram"></a>ポート図
 
 また、DNS 負荷分散を使用した拡張統合エッジ プールの図もあります。
   
-![DNS LB を使用したエッジ シナリオの拡張統合エッジのネットワーク境界](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![エッジ シナリオのネットワーク境界 DNS LB を使用して拡張統合エッジ。](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>ハードウェア負荷分散Skype for Business Server拡張された統合エッジ プール
 
 このシナリオでは、エッジ展開で高可用性を実現できます。これにより、スケーラビリティとフェールオーバーのサポートの利点が得されます。
   
-![HLB を使用した拡張統合エッジのエッジ シナリオ](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
+![HLB を使用した拡張統合エッジのエッジ シナリオ。](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
  

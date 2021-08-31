@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams でアプリをカスタマイズする
+title: アプリをカスタマイズMicrosoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: アプリをカスタマイズする方法については、Microsoft Teams。
-ms.openlocfilehash: 0a3a6b21b34fba7c45ca272f5eefd3eb047a1f7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634061"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730226"
 ---
-# <a name="customize-apps-in-microsoft-teams"></a>Microsoft Teams でアプリをカスタマイズする
+# <a name="customize-apps-in-microsoft-teams"></a>アプリをカスタマイズMicrosoft Teams
 
- Microsoft Teamsは、アプリのカスタマイズを提供して、アプリのエクスペリエンスTeamsします。 一部のアプリ開発者は、管理者がアプリをカスタマイズTeamsします。管理者は、管理センターの [アプリの管理] ページを使用して、組織のニーズに基づいてTeamsのカスタマイズまたはブランド変更 **を行** えます。 カスタマイズできる詳細は次のとおりです。
+ Microsoft Teamsは、アプリのカスタマイズを提供して、アプリのエクスペリエンスTeamsします。 一部のアプリ開発者は、管理者がアプリをカスタマイズTeamsします。管理者は、管理センターの [アプリの管理] ページを使用して、組織のニーズに基Teamsのカスタマイズまたはブランド変更 **を行** えます。 カスタマイズできる詳細は次のとおりです。
 
 - 短い名前
 - 簡単な説明
@@ -39,7 +39,7 @@ ms.locfileid: "58634061"
 - アウトライン アイコン
 - アクセント カラー
 
-カスタマイズできる[Teamsの詳細については](/microsoftteams/platform/resources/schema/manifest-schema)、マニフェスト スキーマに関するページを参照してください。
+カスタマイズできる[Teamsの詳細については](/microsoftteams/platform/resources/schema/manifest-schema)、「マニフェスト スキーマ」を参照してください。
 
 > [!NOTE]
 > 現時点では、アプリのカスタマイズは Government Community Cloud High (GCCH) または国防総省 (DoD) ではサポートされていません。
@@ -53,21 +53,21 @@ ms.locfileid: "58634061"
 2. [アプリ **Teams展開し、[** アプリの管理 **] を選択します**。
 3. アプリの **一覧の [** カスタマイズ可能] 列を確認し、カスタマイズ可能なアプリで並べ替えを行います。
 
-   ![並べ替えのカスタマイズ列](media/customize-column.png)
+   ![並べ替えのカスタマイズ列。](media/customize-column.png)
 
    カスタマイズ機能にアクセスするには、次の 3 つのエントリ ポイントがあります。
 
    - カスタマイズするアプリの横にある を選択し、[カスタマイズ] を **選択します**。
 
-     ![選択オプションのカスタマイズ 1](media/select-app-to-customize1.png)
+     ![選択オプションをカスタマイズする 1.](media/select-app-to-customize1.png)
 
    - アプリ名を選択し、[カスタマイズ可能] **を選択します**。
 
-     ![選択オプションのカスタマイズ 2](media/app-details-customizable.png)
+     ![選択オプションをカスタマイズする 2.](media/app-details-customizable.png)
 
    - アプリ名を選択し、[アクション] ドロップダウン **から [カスタマイズ** ] **を選択** します。
 
-     ![選択オプションのカスタマイズ 3](media/customize-action-menu.png)
+     ![選択オプションのカスタマイズ 3.](media/customize-action-menu.png)
 
 4. [詳細] **セクションを** 展開し、次のフィールドをカスタマイズします。
 
@@ -78,7 +78,7 @@ ms.locfileid: "58634061"
     - プライバシー ポリシーの URL
     - 使用条件 URL
 
-   ![カスタマイズ設定](media/customize-settings.png)
+   ![カスタマイズ設定。](media/customize-settings.png)
 
 > [!Note]
 > アプリ開発者がカスタマイズ可能として割り当てたフィールドだけが表示されます。
@@ -91,7 +91,7 @@ ms.locfileid: "58634061"
 
    c. アイコンに一致するアプリのアクセント カラーを選択します。
 
-    ![アイコン パネルの色オプションをカスタマイズする](media/customize-app-colors.png)
+    ![アイコン パネルの色オプションをカスタマイズします。](media/customize-app-colors.png)
 
 6. アプリがカスタマイズされた後、[適用] を **選択します**。
 
@@ -99,9 +99,9 @@ ms.locfileid: "58634061"
 
    カスタマイズしたアプリが [アプリの管理] ページ **に表示** されます。 アプリの機能をカスタマイズしてもアプリのコピーは作成されていないので、アプリのバージョンは 1 つのみです。
 
-これで、Teams エンド ユーザーは、カスタマイズされたアプリTeamsクライアントを開き、カスタマイズされたアプリを表示できます。
+これで、Teamsエンド ユーザーはカスタム クライアントをTeamsカスタマイズされたアプリを表示できます。
 
-   ![カスタム クライアントでのTeamsアプリ](media/contoso-app.png)
+   ![カスタム クライアントでのTeamsアプリ。](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>アプリをカスタマイズするための特別な考慮事項
 
@@ -127,7 +127,7 @@ ms.locfileid: "58634061"
 
 4. 元のアプリ名を含むアプリの詳細を表示する 発行元の短 **い名前**。
 
-   ![アイコン パネル のアプリ名をカスタマイズする](media/original-app-version.png)
+   ![アイコン パネル のアプリ名をカスタマイズします。](media/original-app-version.png)
 
    [ **発行元の短い** 名前] フィールドは、アプリの短い名前を変更した場合にのみ表示されます。
 
@@ -143,7 +143,7 @@ ms.locfileid: "58634061"
 
 4. [アクション **] ドロップダウンから [リセット] を** 選択して既定値 **を設定** します。
 
-   ![既定の強調表示にリセットを選択する](media/select-reset.png)
+   ![[リセット] を選択して、既定で強調表示します。](media/select-reset.png)
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
@@ -153,11 +153,11 @@ ms.locfileid: "58634061"
 
 **アプリ プロバイダーは、顧客のためにアプリをカスタマイズできますか。**
 
- いいえ。テナントの管理者は、管理センターの管理者を使用して、テナントのアプリTeams必要があります。
+ いいえ。テナントの管理者は、管理センターでテナントのアプリをカスタマイズTeams必要があります。
 
 **テナント内の現在のカスタム アプリを置き換えるカスタマイズされたアプリは自動的にデプロイされますか?**
 
-いいえ。テナント管理者は、カスタム アプリを手動で削除し、カスタマイズされたバージョンのアプリを発行する必要があります。 アプリをカスタマイズし、カスタム アプリとして発行した場合、アプリのカスタマイズ機能を使用してカスタマイズされた新しいアプリでは、現在のカスタム アプリは置き換えされません。  
+いいえ。テナント管理者は、カスタム アプリを手動で削除し、カスタマイズされたバージョンのアプリを発行する必要があります。 アプリをカスタマイズし、カスタム アプリとして発行した場合、アプリのカスタマイズ機能を使用してカスタマイズされた新しいアプリは、現在のカスタム アプリに置き換えされません。  
 
 **アプリ使用状況レポートには、カスタマイズされた短い名前などのカスタマイズされた値も表示されますか。**
 

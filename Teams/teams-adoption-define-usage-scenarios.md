@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 導入後の実験フェーズに最適な使用シナリオを選択するTeamsします。
+description: 導入の実験フェーズに最適な使用シナリオを選択する方法Teamsします。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 189ceea1b1b3450968610bef5034a97114b40085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd7f42efd4b3c605f31bb7788fb6dbc5f097f764
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625919"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729936"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Microsoft Teams の使用状況シナリオを定義する
 
@@ -36,7 +36,7 @@ ms.locfileid: "58625919"
 - 最新のプロジェクト管理
 - 最新の会議
 
-![3 つの主要なシナリオの図](media/teams-adoption-modernizing-core-scenarios.png)
+![3 つの主要なシナリオの図。](media/teams-adoption-modernizing-core-scenarios.png)
 
 考慮すべきその他のシナリオは次のとおりです。
 
@@ -45,9 +45,9 @@ ms.locfileid: "58625919"
 - 売上の生産性を高め、収益を拡大する
 - ビジネス レビューを効率化する
 
-![すべてのシナリオTeams使用例の図](media/teams-adoption-use-cases.png)
+![すべてのシナリオでTeamsの例を示します。](media/teams-adoption-use-cases.png)
 
-このシナリオの最新化の動きを累積的なプロセスと考えます。この新しい作業方法で熱意、親しみ、信頼性を生み出す、より基本的なシナリオで作業を進め、 その後、より大きな影響領域に進む。 ビジネス の同僚にMicrosoft Teamsの影響が増えるほど、より多くの人が関与し、勢いが増します。 多くのお客様の場合、このプロセスが完了すると、ビジネス関係者は、同僚が顧客から価値を得た方法を学習した後に、Microsoft Teams。
+このシナリオの最新化の動きを累積的なプロセスと考えます。この新しい作業方法で熱意、親しみ、信頼性を生み出す、より基本的なシナリオで作業を進め、 その後、より大きな影響領域に進む。 ビジネス の仕事仲間にMicrosoft Teamsの影響が増えるほど、より多くのユーザーが関与し、勢いが増します。 多くのお客様の場合、このプロセスが進むと、ビジネス関係者は、同僚が顧客から価値を得た方法を学習した後に、ビジネス関係者にアプローチMicrosoft Teams。
 
 ## <a name="interview-business-stakeholders"></a>ビジネス関係者へのインタビュー
 
@@ -55,21 +55,21 @@ ms.locfileid: "58625919"
 
 - コミュニケーションとコラボレーションに関連する組織の課題や問題の一部は何ですか?
 - 組織が改善する領域は何ですか?
-- 組織がサポートできる戦略イニシアチブや現在の変革プロジェクトTeamsですか?
+- 組織がサポートできる戦略イニシアチブや現在の変革プロジェクトはTeamsですか?
 - 通常、組織が受け取るコミュニケーションとコラボレーションの方法は、他の方法よりも優れたものですか。
 - 情報の下書き、配布、共有のプロセスは何ですか?
 
 ## <a name="map-and-prioritize-business-scenarios"></a>ビジネス シナリオのマップと優先順位付け
 
-ビジネス シナリオに関する適切な情報を確実に取得するには、次の形式を使用して、作業を完了している従業員とプロセスのビジネス所有者の観点からシナリオを文書化します。 両方のパースペクティブは、成功したパスを先に作成するために必要です。
+ビジネス シナリオに関する適切な情報を確実に取得するには、次の形式を使用して、プロセスの作業を完了している従業員とビジネス所有者の観点からシナリオを文書化します。 両方のパースペクティブは、成功したパスを先に作成するために必要です。
 
-![シナリオを識別するためのフレームワークの図](media/teams-adoption-identify-scenarios.png)
+![シナリオを識別するためのフレームワークの図。](media/teams-adoption-identify-scenarios.png)
 
 1 人または複数のビジネス関係者と話した後は、影響と難易度に基づいてシナリオを優先順位付けできます。 (シナリオは、上記で提案したシナリオに加えて考えられます)。実験フェーズに適した候補は、影響が高く、難易度が低から中程度である必要があります。 これにより、作業の価値を示す前に、プロジェクトがスコープの不気味や技術的な問題の影響を受けずにいます。 グラフの例を次に示します。
 
-![シナリオの影響と難易度を示す図](media/teams-adoption-impact-difficulty.png)
+![シナリオの影響と難易度を示す図。](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 私たちは、お客様が革新的な方法で顧客をTeams方法について常に知りたがっています。 ドライブ導入に関する#TeamsStoriesフォーラムで、お客様の情報 [を共有してください](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)。 投稿にハッシュ **タグ#TeamsStories** 含める。 お客様が組織の組織でTeamsに関心を持っています。
+> お客様が革新的な方法で顧客を使用する方法についてTeams常に知りたがっています。 ドライブ導入に関#TeamsStoriesフォーラムで、お客様の情報 [を共有してください](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)。 投稿にハッシュ **タグ#TeamsStories** 含める。 お客様が組織の組織で使用する方法Teams常に関心があります。
 
-![次の手順を表すアイコン:早期導入者 ](media/teams-adoption-next-icon.png) [をオンボードし、フィードバックを収集します](teams-adoption-onboard-early-adopters.md)。
+![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次: 早期 [導入者をオンボードし、フィードバックを収集します](teams-adoption-onboard-early-adopters.md)。

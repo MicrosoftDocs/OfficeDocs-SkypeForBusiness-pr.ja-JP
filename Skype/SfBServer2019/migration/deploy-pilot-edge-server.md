@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: このトピックでは、2019 エッジ サーバーを展開する前に注意する必要がある構成Skype for Business Server説明します。 2019 年 2019 年Skype for Business Server展開および構成プロセスは、2015 年の Skype for Business Serverと非常に似ています。 このセクションで説明するのは、パイロット プールの展開の際に考慮が必要となる主なポイントのみです。 詳細な手順については、「展開プロセスについて説明し、外部ユーザー アクセスの構成情報も示す展開」の「Skype for Business Server 2019 での外部ユーザー アクセスの展開」を参照してください。
-ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ec659c5099a7be9587c630aa487ddeda1df500
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615011"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728046"
 ---
 # <a name="deploy-pilot-edge-server"></a>パイロット エッジ サーバーの展開
 
@@ -31,11 +31,11 @@ ms.locfileid: "58615011"
     
 2. 2019 Skype for Business Serverに移動します。 [**エッジ プール**] を右クリックし、[**新しいエッジ プール**] をクリックします。
     
-     ![[新しいエッジ プールの定義] ダイアログ ボックス](../media/migration_ocs_topo_edgepool_page1.JPG)
+     ![[新しいエッジ プール] ダイアログ ボックスを定義します。](../media/migration_ocs_topo_edgepool_page1.JPG)
   
 3. エッジ プールは、[**複数のコンピューター プール**] または [**単一コンピューター プール**] のどちらかになります。
     
-     ![[エッジ プールの FQDN の定義] ダイアログ ボックス](../media/migration_ocs_topo_edgepool_page2.JPG)
+     ![[エッジ プールの FQDN] ダイアログ ボックスを定義します。](../media/migration_ocs_topo_edgepool_page2.JPG)
   
 4. [**機能の選択**] ページでは、フェデレーションまたは XMPP フェデレーションを有効にしないでください。 フェデレーションと XMPP フェデレーションはどちらも、現在レガシ エッジ サーバー経由でルーティングされています。 この機能は、後ほど移行のフェーズで構成されます。 
 
@@ -44,11 +44,11 @@ ms.locfileid: "58615011"
     
 6. [次ホップ **サーバーの定義] ページ** で、レガシ エッジ プールの次ホップのディレクターを選択します。 
     
-     ![[次ホップの定義] ダイアログ ボックス](../media/migration_ocs_topo_edgepool_page7.JPG)
+     ![[次ホップ] ダイアログ ボックスを定義します。](../media/migration_ocs_topo_edgepool_page7.JPG)
   
 7. [フロントエンド プール **または仲介プールの関連付け** ] ページで、現時点ではプールをこのエッジ プールに関連付けは行わなきます。 外部メディア トラフィックは現在、従来のエッジ サーバーを経由してルーティングされます。 この設定は、後ほど移行のフェーズで構成されます。 
     
-     ![[フロントエンド プールの関連付け] ダイアログ ボックス](../media/migration_ocs_topo_edgepool_page8.JPG)
+     ![[フロントエンド プールの関連付け] ダイアログ ボックス。](../media/migration_ocs_topo_edgepool_page8.JPG)
   
 8. [**完了**] をクリックしてトポロジを **公開** します。 
     

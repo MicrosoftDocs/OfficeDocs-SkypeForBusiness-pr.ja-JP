@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams で組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: b7d6e6c5995a642c45fdc1d91b4a526495a8f1a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98c085dee7f91aebc6e34552217230384ba80b6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579651"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732526"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
@@ -53,7 +53,7 @@ Microsoft Teams のタグを使用すると、チーム内の一部のユーザ�
 
 管理者は、Microsoft Teams 管理センターで、タグを組織全体で使用する方法を制御できます。 現時点では、PowerShell を使用してタグを管理することはできません。
 
-![Microsoft Teams 管理センターのタグ付け設定のスクリーンショット。](media/manage-tags-admin-settings.png)
+![管理センターのタグ設定Microsoft Teamsスクリーンショット。](media/manage-tags-admin-settings.png)
 
 各チームは最大 100 個のタグを持つことができ、1 つのタグに対して最大 100 人のチーム メンバーを、1 人のユーザーに対して最大 25 個のタグを割り当てることができます。 
 
@@ -83,7 +83,7 @@ Microsoft Teams のタグを使用すると、チーム内の一部のユーザ�
 
 Microsoft Teams 管理センターで **[チーム所有者に、タグの管理が可能なユーザーを上書きしてもらいます]** 設定をオンにした場合、チームの所有者は、メンバーがチーム レベルでタグを追加できるかどうかを設定できます。 これを行うには、チームの **[設定]** タブで、**[タグ]** に移動し、タグを追加できるユーザーを選択します。
 
-![チーム レベルでのタグ設定のスクリーンショット](media/manage-tags-team-settings.png)
+![チーム レベルでのタグ設定のスクリーンショット。](media/manage-tags-team-settings.png)
 
 ## <a name="use-tags"></a>タグを使用する
 
@@ -93,7 +93,7 @@ Microsoft Teams 管理センターで **[チーム所有者に、タグの管理
 
 カスタム タグを作成して割り当てるには、アプリの左側にある **[Teams]** を選択し、一覧でチームを見つけます。 **˙˙˙ [その他のオプション]** を選択し、**[タグを管理]** を選択します。 ここで、タグを作成してチームのユーザーに割り当てることができます。
 
-![Teams クライアントでタグを適用する方法のスクリーンショット ](media/manage-tags-teams.png)
+![クライアント でタグを適用する方法のスクリーンショットTeamsします。](media/manage-tags-teams.png)
 
 タグを削除するには、タグの横にある **˙˙˙ [その他のオプション]** を選択し、**[タグを削除]** を選択します。
 

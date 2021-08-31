@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad66efadda775c11ab653cbe1bc46b2c5a4ab3c3a80edf77265dddabbb71c4a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347282"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732316"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 
@@ -39,11 +39,11 @@ ms.locfileid: "54347282"
 
 1. **[会議]** > **[会議ポリシー]** の順に選択します。
 
-    ![会議ポリシーが選択されている](media/configure-desktop-sharing-image1.png)
+    ![[会議ポリシー] が選択されています。](media/configure-desktop-sharing-image1.png)
 
 2. [会議ポリシー **] ページで、[** 追加] を **選択します**。
 
-    ![[会議ポリシー] メッセージ](media/addMeeting.png)
+    ![[会議ポリシー] メッセージ。](media/addMeeting.png)
 
 3. ポリシーに一意のタイトルを指定し、簡単な説明を入力します。
 
@@ -53,7 +53,7 @@ ms.locfileid: "54347282"
    - **[1 つのアプリケーション]**: ユーザーの画面共有は 1 つのアクティブなアプリケーションに制限されます。
    - **[無効]**: 画面共有をオフにします。
 
-    ![共有モードのオプション](media/configure-desktop-sharing-image3.png)
+    ![共有モードのオプション。](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
   > ユーザーがチャットから画面共有を使用するために、呼び出し元ポリシーを有効にする必要はない。 ただし、ミュートを解除するまで、オーディオはオフになります。 さらに、画面を共有しているユーザーは、[オーディオの追加] **をクリックして** オーディオを有効にできます。 呼び出し元ポリシーが無効になっている場合、ユーザーはチャット セッションから画面共有にオーディオを追加できません。

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4da9ef3034b4918e51fbe00bdae3df01df1a6495
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 45f2bb9cc09625bcaaa27115745f19efbcaa14f7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590761"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728406"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -36,7 +36,7 @@ Meetings First は、**SfBWithTeamsCollabAndMeetings** 共存モードに基づ�
 
 Meetings First では、ユーザーは、Skype for Business でチャット、通話、プレゼンスを使用しながら、Teams で会議を作成します。 Teams と Skype for Business の間にモダリティの重複はありません。 チャット、通話、プレゼンスは、Skype for Business ではオンになり、Teams ではオフになります。 これにより、Skype for Business と Teams の間で、共存中のユーザーの操作環境を向上する独自の "優れた連携" シナリオだけでなく、**Teams のみ** のユーザーを対象とした相互運用性のシナリオも実現します。
 
-![Teams と Skype for Business による優れた連携シナリオのスクリーンショット](media/meetings-first-meeting-in-meeting.png)
+![より優れたシナリオのスクリーンショットとTeamsとSkype for Business。](media/meetings-first-meeting-in-meeting.png)
 
 > [!Important]
 > Meetings First は、アクティブな Teams チャット ユーザーがいない、またはほとんどいない組織に適しています。 アクティブな Teams チャット ユーザーは、Meetings First モードに切り替えると、Teams でチャットしたり、自分のチャット履歴にアクセスしたりできなくなるため切り替えるべきではありません。 これらのユーザーは、代わりに **Islands** モードで許可される必要があり、Meetings First は Teams のチャットでまだアクティブでないユーザーにのみ許可する必要があります。
@@ -61,7 +61,7 @@ Meetings First では、次の機能が提供されます。
 - 優れた [Teams 会議環境](tutorial-meetings-in-teams.yml)。
 - Teams と Skype for Business との "優れた連携"  
   - 自動ホールド: Teams の会議中に Skype for Business で電話を受けると、Teams 会議が保留にされます (逆も同様)。 これにより、ユーザーは会議の参加者にプライベートな通話を聞かれないようにすることができます。
-    ![Teams と Skype for Business による優れた連携シナリオのスクリーンショット](media/meetings-first-better-together-hold.png)
+    ![一緒に使用するシナリオのスクリーンショットとTeamsとSkype for Business。](media/meetings-first-better-together-hold.png)
   - プレゼンスの調整: Teams でのアクティビティは、ユーザーのプレゼンスに反映されます。チャットと通話は Skype for Business にあるため、これは Skype for Business のプレゼンスです。 具体的に言うと、Meetings First ユーザーが Teams 会議に参加しているとき、そのユーザーのプレゼンスは、それを反映して更新されます。 ユーザーが画面を提示すると、そのユーザーのプレゼンスは (Skype for Business の設定に基づいて) [応答不可] が表示されるように更新されます。
   - USB デバイス HID コントロール調整 (Mac でも使用可能): HID コントロールは、Teams 会議中は Teams に従い、他の状況ではすべての Skype for Business に従います。
   - 特に記載がない限り、Better Together 機能には、現時点で最新の Windows デスクトップ クライアントが必要です。
@@ -109,9 +109,9 @@ Meetings First は、フル デスクトップ クライアント (Windows お�
 
 Meetings First のすべての機能とユーザー エクスペリエンス (Teams クライアント構成、ユーザー エクスペリエンスの[自動適合](teams-client-experience-and-conformance-to-coexistence-modes.md)、会議移行サービス、Better Together 機能を含む) は、[Microsoft Teams 管理センター](manage-teams-in-modern-portal.md)で、または [PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) を使ってユーザー (またはユーザーのグループ、あるいはテナントの既定) に[SfBWithTeamsCollabAndMeetings 共存モード](setting-your-coexistence-and-upgrade-settings.md)を付与することによって構成されます。
 
-![Meetings First を有効にする管理設定のスクリーンショット](media/teams-meeting-admin-settings.png)
+![最初に会議を有効にする管理者設定のスクリーンショット。](media/teams-meeting-admin-settings.png)
 
-必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションから Teams と Channels アプリケーションを非表示にし、アプリ設定ポリシー を使用して実現できる会議にさらに集中する必要[があります。](teams-app-setup-policies.md)
+必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションから Teams アプリケーションとチャネル アプリケーションを非表示にし、アプリ設定ポリシー を使用して実現できる会議にさらに集中する必要[があります。](teams-app-setup-policies.md)
 
 ## <a name="reporting-and-call-analytics"></a>レポート作成と通話分析
 

@@ -18,12 +18,12 @@ description: グループ内のユーザーとグループにポリシーを割�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: f3832c28f22c8e0a86b5c4f87a7d85e54420858e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a8182e1fe9058a5b7b7e8c88d0fdbac4070d48b7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631521"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732089"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>ユーザーとグループにポリシーを割り当てる
 
@@ -41,7 +41,7 @@ ms.locfileid: "58631521"
 2. ユーザー名の左側をクリックしてユーザーを選択し、[設定の編集] **を選択します**。
 3. 割り当てるポリシーを選択し、[適用] を **選択します**。
 
-![管理センターでポリシーをユーザーに割りTeamsする](media/assign-policy-user.png)
+![管理センターのユーザーにポリシーをTeamsします。](media/assign-policy-user.png)
 
 または、次の操作も実行できます:
 
@@ -51,13 +51,13 @@ ms.locfileid: "58631521"
 4. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
 5. ユーザーの追加が完了したら、**[適用]** を選択します。
 
-![2 つ目の方法を使用して、Teamsにポリシーを割り当てる](media/assign-policy-user2.png)
+![2 つ目の方法を使用して、Teamsユーザーにポリシーを割り当てる。](media/assign-policy-user2.png)
 
 ### <a name="use-powershell"></a>PowerShell を使用する
 
-各ポリシー タイプには、それを管理するための独自のコマンドレットのセットがあります。 特定のポリシー タイプに ```Grant-``` コマンドレットを使用して、ポリシーを割り当てます。 たとえば、```Grant-CsTeamsMeetingPolicy``` コマンドレットを使用して、Teams 会議ポリシーをユーザーに割り当てます。 これらのコマンドレットは PowerShell モジュールの Teamsに含まれており、このコマンドレット リファレンス[Skype for Businessに記載されています](/powershell/skype)。
+各ポリシー タイプには、それを管理するための独自のコマンドレットのセットがあります。 特定のポリシー タイプに ```Grant-``` コマンドレットを使用して、ポリシーを割り当てます。 たとえば、```Grant-CsTeamsMeetingPolicy``` コマンドレットを使用して、Teams 会議ポリシーをユーザーに割り当てます。 これらのコマンドレットは PowerShell モジュールの Teamsに含まれており、次のコマンドレット[リファレンスにSkype for Business説明されています](/powershell/skype)。
 
- PowerShell の[](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック Teamsをダウンロードしてインストールし (まだインストールしていない場合)、次のコマンドを実行して接続します。
+ PowerShell のパブリック Teams[を](https://www.powershellgallery.com/packages/MicrosoftTeams/)ダウンロードしてインストールし (まだインストールしていない場合)、次のコマンドを実行して接続します。
 
 > [!NOTE]
 > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
@@ -104,7 +104,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 ユーザーの有効なポリシーは、次の規則に従って更新されます。
 
-- ポリシーが割り当てられているグループに対してユーザーが追加または削除された場合。
+- ポリシーが割り当てられているグループにユーザーが追加または削除された場合。
 - ポリシーはグループから割り当て解除されます。
 - ユーザーに直接割り当てられているポリシーは削除されます。
 
@@ -136,7 +136,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
     3. 割り当てるポリシーを選択します。
     4. **[適用]** を選択します。
     
-![管理センターでグループにポリシーを割りTeamsする](media/assign-policy-group.png)
+![管理センターのグループにポリシーをTeamsします。](media/assign-policy-group.png)
 
 グループ ポリシーの割り当てを削除するには、ポリシー ページの **[グループ ポリシーの割り当て]** タブで、グループの割り当てを選び、**[削除]** を選択します。
 
@@ -248,7 +248,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-Teams PowerShell モジュールで次のコマンドレットを使用して、バッチ ポリシーの割り当て ($users は指定したユーザーの一覧) を使用して大規模にこれを行います。
+Teams PowerShell モジュールで次のコマンドレットを使用して、バッチ ポリシーの割り当てを大規模に実行します。$users は、指定したユーザーの一覧です。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -265,7 +265,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 3. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部にある [&#x2713; (チェックマーク)] をクリックします。
 4. [設定 **の編集]** を選択し、必要な変更を行い、[適用] を **選択します**。
 
-ポリシー割り当ての状態を表示するには、[適用] を選択した後に [ユーザー] ページの上部に表示されるバナーで、[アクティビティ ログ] を **選択します**。 または、管理センターの左側のナビゲーションMicrosoft Teamsダッシュボード] に移動し、[アクティビティログ] で[詳細の表示]**を選択します**。 アクティビティ ログには、過去 30 日間の Microsoft Teams 管理センターを通じて、20 人を超えるユーザーのバッチへのポリシー割り当てが表示されます。 詳細については、「[アクティビティ ログでポリシーの割り当てを表示する](activity-log.md)」を参照してください。
+ポリシー割り当ての状態を表示するには、[適用] を選択した後に [ユーザー] ページの上部に表示されるバナーで、[アクティビティ ログ] を **選択します**。 または、管理センターの左側のナビゲーションMicrosoft Teams **ダッシュボード** に移動し、[アクティビティ ログ] で[詳細の表示]**を選択します**。 アクティビティ ログには、過去 30 日間の Microsoft Teams 管理センターを通じて、20 人を超えるユーザーのバッチへのポリシー割り当てが表示されます。 詳細については、「[アクティビティ ログでポリシーの割り当てを表示する](activity-log.md)」を参照してください。
 
 ### <a name="use-powershell-method"></a>PowerShell メソッドを使用する
 
@@ -343,4 +343,4 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 - [ポリシー Teamsを管理する](manage-teams-with-policies.md)
 - [Teams PowerShell の概要](teams-powershell-overview.md)
-- [グループでポリシーを割りTeams - 使用を開始する](policy-assignment-overview.md)
+- [ポリシーの割り当Teams - 使用を開始する](policy-assignment-overview.md)

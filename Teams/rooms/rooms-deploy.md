@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 展開フェーズを含む、Microsoft Teams Rooms の展開方法の詳細については、この記事を参照してください。
-ms.openlocfilehash: 51a30137a2164651fe17f3910b17312fd6d45d6b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c7420880bd36d1ebacd778d623da14e1705e324
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627169"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730406"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
@@ -49,8 +49,8 @@ Microsoft Teams Rooms の展開は、基本的に次のフェーズに分けら�
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
-| ![サイトの確認](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトが Microsoft Teams Rooms の重要な要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅があることを確認します。</li></ul>| 
-| ![デバイスのデプロイを計画する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開と構成の計画を開始します。</li></ul>| 
+| ![サイトを確認します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトが Microsoft Teams Rooms の重要な要件を満たしていることを確認します。</li><li>各サイトに十分な帯域幅があることを確認します。</li></ul>| 
+| ![デバイスのデプロイを計画します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開と構成の計画を開始します。</li></ul>| 
 
 ## <a name="service-readiness"></a>サービスの準備
 
@@ -74,8 +74,8 @@ Microsoft Teams Rooms のアカウントの詳細については、「[Microsoft
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![シナリオのサポート](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サポートするシナリオを決定し、Microsoft Teams Rooms のサービス アカウントのライセンス要件を特定します。</li></ul>| 
-| ![ホスト コンピューターを準備する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>コンピューター アカウントとサービス アカウントをホストするための準備を行います。</li></ul>| 
+| ![シナリオのサポート。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サポートするシナリオを決定し、Microsoft Teams Rooms のサービス アカウントのライセンス要件を特定します。</li></ul>| 
+| ![ホスト コンピューターを準備します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>コンピューター アカウントとサービス アカウントをホストするための準備を行います。</li></ul>| 
 
 
 _サンプル: Microsoft Teams Rooms のサービス アカウントの計画テーブル_
@@ -123,8 +123,8 @@ Microsoft Teams Rooms の各デバイスには、固有の一意のリソース 
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
-| ![名前付け規則を決定する](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms のアカウントの命名規則を決定します。</li><li>個別のアカウントを作成するか、一括プロビジョニング スクリプトを使用するかを決定します。</li></ul>| 
-| ![次の手順](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開の計画を開始します。</li></ul>| 
+| ![名前付け規則を決定します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>Microsoft Teams Rooms のアカウントの命名規則を決定します。</li><li>個別のアカウントを作成するか、一括プロビジョニング スクリプトを使用するかを決定します。</li></ul>| 
+| ![次の手順に進みます。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開の計画を開始します。</li></ul>| 
 
 
 ### <a name="device-software-installation"></a>デバイス ソフトウェアのインストール 
@@ -133,7 +133,7 @@ Microsoft Teams Rooms のデプロイを計画する場合は、必要なソフ�
 
 | **シナリオ**            | **手法**         |
 |-------------------------|-----------------------|   
-|いくつかの会議室デバイス (Microsoft Teams 10) を<します。 | Surface Pro ベースの Microsoft Teams Rooms を使用している場合は、「[デバイスごとのインストールのインストール手順l](console.md)」に従います。 [このプロセスを紹介する動画を参照してください。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 統合ソリューションを使用している場合は、ベンダーのイメージを使用して展開し、必要に応じて設定を構成します。 |
+|いくつかの Microsoft Teams Rooms デバイス (<10) をデプロイします。 | Surface Pro ベースの Microsoft Teams Rooms を使用している場合は、「[デバイスごとのインストールのインストール手順l](console.md)」に従います。 [このプロセスを紹介する動画を参照してください。](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) 統合ソリューションを使用している場合は、ベンダーのイメージを使用して展開し、必要に応じて設定を構成します。 |
 | 1 つのベンダーから 10 台以上 50 台以下のデバイスを展開する。     | WIM ベースのイメージを作成し、[ガイダンスの手順 6 ](console.md)の後に一時停止して、複製配布技術で使用する配布イメージをキャプチャします。    |
 | 50 台を超える Microsoft Teams Rooms デバイスを展開する。複数のベンダーからデバイスを展開する。または、展開の一部として組織固有のエージェントを要求する。 | [Microsoft Endpoint Configuration Manager](rooms-scale.md) などのタスク シーケンサー ベースのソフトウェアのビルドおよび配布プラットフォームを使用します。  |
 
@@ -148,8 +148,8 @@ Microsoft Teams Rooms のデプロイを計画する場合は、必要なソフ�
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![decision points device naming](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>展開中に使用する Microsoft Teams Rooms のデバイス命名規則を決定します。</li><li>Microsoft Teams Rooms デバイスをドメインに追加するかどうか、およびローカル アカウントを管理および構成する方法を決定します。 </li><li>Operations Management Suite を使って Microsoft Teams Rooms の展開を監視するかどうかを決定します。</li><li>デバイスの展開の準備として、Microsoft Teams Rooms システムにソフトウェアとエージェントを展開するために使用する方法を決定します。 </li></ul>| 
-| ![次のステップでデバイスを計画する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開手法の計画を開始します。</li></ul>| 
+| ![意思決定ポイントのデバイスの名前付け。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>展開中に使用する Microsoft Teams Rooms のデバイス命名規則を決定します。</li><li>Microsoft Teams Rooms デバイスをドメインに追加するかどうか、およびローカル アカウントを管理および構成する方法を決定します。 </li><li>Operations Management Suite を使って Microsoft Teams Rooms の展開を監視するかどうかを決定します。</li><li>デバイスの展開の準備として、Microsoft Teams Rooms システムにソフトウェアとエージェントを展開するために使用する方法を決定します。 </li></ul>| 
+| ![次の手順でデバイスを計画します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスの展開手法の計画を開始します。</li></ul>| 
 
 
 ### <a name="device-deployment"></a>デバイスの展開
@@ -159,8 +159,8 @@ Microsoft Teams Rooms ユニットにソフトウェアを展開した後、デ�
 
 |  &nbsp;  |   &nbsp;  |
 |-----------|------------|
-| ![サイト別のデプロイを管理する](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> サイトに Microsoft Teams Rooms デバイスをインストールし、構成とテストに着手するリソースを特定します。</li></ul>| 
-| ![デバイスのテストを開始する](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>| 
+| ![サイト別のデプロイを管理します。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サイトごとの展開を管理するユーザーを決定します。</li><li> サイトに Microsoft Teams Rooms デバイスをインストールし、構成とテストに着手するリソースを特定します。</li></ul>| 
+| ![デバイステストを開始します。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>デバイスのテストを開始します。</li></ul>| 
 
 _サンプル: 展開テーブル_
 
@@ -181,8 +181,8 @@ XML 構成ファイルの使用方法の詳細については、「[XML 構成�
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
-| ![意思決定ポイントの構成](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>各Microsoft Teams Rooms システムを手動で構成するか、一元管理された XML ファイル (Microsoft Teams Rooms デバイスごとに作成される 1 つのファイル) を使用するかを決定します。</li></ul>| 
-| ![次のステップのリモート アプローチ](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リモート管理手法を定義します。</li></ul>| 
+| ![決定ポイントの構成。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>各Microsoft Teams Rooms システムを手動で構成するか、一元管理された XML ファイル (Microsoft Teams Rooms デバイスごとに作成される 1 つのファイル) を使用するかを決定します。</li></ul>| 
+| ![次の手順はリモート アプローチです。](../media/audio_conferencing_image9.png)<br/>次のステップ|<ul><li>リモート管理手法を定義します。</li></ul>| 
 
 ### <a name="testing"></a>テスト
 

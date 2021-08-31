@@ -1,5 +1,5 @@
 ---
-title: Android Microsoft Teamsユーザー インターフェイスを設定する
+title: Android Microsoft Teamsのユーザー インターフェイスを設定する
 ms.author: mitressl
 author: flinchbot
 manager: leopaiv
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Android デバイスでユーザー インターフェイスを設定するTeams説明します。
-ms.openlocfilehash: 07d8b42de16c71a63efe7a3c18955e457577d60c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d17158a6d76dd0d735392c8a441ca184968897a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637083"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732456"
 ---
-# <a name="set-microsoft-teams-android-devices-user-interface"></a>Android Microsoft Teamsユーザー インターフェイスを設定する
+# <a name="set-microsoft-teams-android-devices-user-interface"></a>Android Microsoft Teamsのユーザー インターフェイスを設定する
 
 Microsoft TeamsAndroid デバイスは、サインインしたアカウントに割り当てられているライセンスの種類に基づいて、特定のユーザー インターフェイスを表示できます。 この動作をオーバーライドし、表示されるインターフェイスを制御できます。 この記事では、既定のユーザー インターフェイスを選択する方法と、PowerShell ポリシーを使用してインターフェイスを変更する方法について説明します。
 
@@ -34,15 +34,15 @@ E3[](/microsoftteams/user-access)や E5 ライセンスなどのアカウント�
 
 次の 3 つの画像は、ユーザー アカウントに割り当てられたライセンスに基づいてユーザー インターフェイスがどのように変化するのか示しています。 最初の画像では、ユーザー アカウントに E5 ライセンスが割り当てられます。 これはユーザー ライセンスなので、デバイスには既定のエンド ユーザー インターフェイスが表示されます。
 
-:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="ユーザー モード インターフェイス":::
+:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="ユーザー モード インターフェイス。":::
 
 この画像では、ユーザー アカウントに共通エリア電話ライセンス [が割り当て済みです](/microsoftteams/set-up-common-area-phones)。 一般的なエリアの電話は、主に電話の送受信に使用されます。 そのため、ダイヤル パッドがディスプレイに表示されます。
 
-:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="共通領域の電話インターフェイス":::
+:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="共通領域の電話インターフェイス。":::
 
-最後に、この画像は、Microsoft Teams Rooms Standard ライセンスが割り当てられているユーザー[アカウントを示](/MicrosoftTeams/rooms/rooms-licensing)しています。 Teams会議室ライセンスは会議室または共有スペースで使用することを意図しています。そのため、予定表ビューを表示することで、ユーザー インターフェイスが変更して会議に簡単に参加できます。
+最後に、この画像は、Microsoft Teams Rooms [Standard ライセンスが割り当てられているユーザー アカウントを示](/MicrosoftTeams/rooms/rooms-licensing)しています。 Teams会議室ライセンスは会議室または共有スペースで使用することを意図しています。そのため、予定表ビューを表示することで、ユーザー インターフェイスが変更して会議に簡単に参加できます。
 
-:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="会議インターフェイス":::
+:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="会議インターフェイス。":::
 
 > [!NOTE]
 > ユーザー インターフェイスを変更しても、他のライセンスされた機能を使用する機能には影響を与え得ない。 たとえば、Team Rooms ライセンスの既定のビューが予定表ビューである場合でも、アカウントのライセンスが正しく設定されている場合でも、パブリック スイッチ電話網 (PSTN) 通話を発信および受信できます。
@@ -52,7 +52,7 @@ E3[](/microsoftteams/user-access)や E5 ライセンスなどのアカウント�
 
 ## <a name="override-automatic-user-interface-detection"></a>ユーザー インターフェイスの自動検出をオーバーライドする
 
-場合によっては、目的の使用に一致しないアカウントにライセンスを割り当てる場合があります。 たとえば、Android 上の会議室にサインインすることを意図したアカウントにユーザー ライセンスTeams割り当てる場合があります。 既定では、会議室インターフェイスの代わりにエンド ユーザー インターフェイスが表示されます。 既定のインターフェイスをオーバーライドするには、新しい TEAMS IP 電話[ポリシー](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)を作成し、そのアカウントに適用します。
+場合によっては、目的の使用に一致しないアカウントにライセンスを割り当てる場合があります。 たとえば、Android 上の Teams Rooms にサインインすることを意図したアカウントにユーザー ライセンスを割り当てる場合があります。 既定では、会議室インターフェイスの代わりにエンド ユーザー インターフェイスが表示されます。 既定のインターフェイスをオーバーライドするには、新しい TEAMS IP 電話[ポリシー](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)を作成し、そのアカウントに適用します。
 
 > [!NOTE]
 > ユーザー アカウントに割り当てられたライセンスには、少なくとも目的のユーザー インターフェイスと同じライセンス資格が必要です。 共通領域のライセンス電話、共通領域の電話のユーザー インターフェイスのみを許可します。 会議室ライセンスを使用すると、会議室と共通領域の電話のユーザー インターフェイスを使用できます。 E3 または E5 ライセンスでは、すべてのサインイン モードがサポートされます。
@@ -80,4 +80,4 @@ E3[](/microsoftteams/user-access)や E5 ライセンスなどのアカウント�
    Grant-CsTeamsIPPhonePolicy –Identity 'conf-adams@contoso.com' –PolicyName 'Meeting Sign In'
    ```
 
-会議室のリソース アカウントにポリシーを付与した後、ポリシーの割り当てがレプリケートされるのを待つ必要があります。 また、デバイスからサインアウトして、もう一度サインインする必要があります。
+会議室のリソース アカウントにポリシーを付与した後、ポリシーの割り当てがレプリケートされるのを待つ必要があります。 また、デバイスからサインアウトし、もう一度サインインする必要があります。

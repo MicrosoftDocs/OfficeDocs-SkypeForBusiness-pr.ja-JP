@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'ユーザーのダイヤルイン会議の設定が変更された場合に、ユーザーにメールで自動的に送信される情報Microsoft Teams。 '
-ms.openlocfilehash: 288df4ebe5b207d08556eee14f08eb012a87a879
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c09ab0ebe00df0df99d9f0bb0576d99cf1b44da
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604496"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729976"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Microsoft Teams で設定を変更したときにユーザーに送信されるメール
 
@@ -43,7 +43,7 @@ ms.locfileid: "58604496"
 
     このメールの例を次に示します。
 
-     ![Skype for Businessライセンスの確認](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+     ![Skype for Businessライセンスを確認します。](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
     ライセンスの詳細については[、「Microsoft Teams」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
@@ -86,7 +86,7 @@ ms.locfileid: "58604496"
 
 既定では、メールはユーザーに送信されますが、電話会議のメールを受信したくない場合は、Microsoft Teams または Windows PowerShell を使用できます。 
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -115,7 +115,7 @@ Windows PowerShell を使用して、次を実行することもできます。[
 
 既定では、メールの送信者は Microsoft 365 または Office 365 から送信されますが、Windows PowerShell を使用してメール アドレスと表示名を変更できます。 
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 

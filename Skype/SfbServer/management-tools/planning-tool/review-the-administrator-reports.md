@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 管理者レポートは、展開と運用に関する詳細情報です。 レポートは、デザイン サイトでマークされた選択内容に基づいて生成されます。 設計者は、ネットワーク ダイアグラムを編集し、サーバー、プール、およびロード バランサーの完全な IP アドレスと完全修飾ドメイン名 (FQDN) を定義することで、管理者レポートに値を追加できます。
-ms.openlocfilehash: 31639b124826368a1da11d359249bc6d08f64c8d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe2d14856a1d884dc04ff8cf2de4ebba41eb95eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591011"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730396"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>2015 年の管理者レポートSkype for Business Serverする
 
@@ -40,7 +40,7 @@ ms.locfileid: "58591011"
 
 管理者Skype for Businessレポートは、設計を詳細に文書化する 4 つの貴重なレポートの最初のレポートです。 このレポートの情報と、関連付けられている他の 3 つのレポートは、次の情報に役立Teams。
 
-![概要管理レポート](../../media/General_Summary_Report_Admin_Report.png)
+![概要管理レポートの概要。](../../media/General_Summary_Report_Admin_Report.png)
 
 概要レポートは、エッジ ネットワークに関連付けられた一般的な構成情報を示します。 場所、完全修飾ドメイン名 (FQDN) と IP アドレス、ネットワークの種類、および特定の役割に固有のコメントが文書化されています。
 
@@ -59,7 +59,7 @@ ms.locfileid: "58591011"
 
 証明書レポートには、2015 年の展開で推奨される証明書Skype for Business Server含まれる。 計画ツールには、入力されたサブジェクト名とサブジェクトの代替名が含されます。 編集されていない既定のテキストは、証明書の要求と発行を担当するチームにとって潜在的な課題を表している可能性があります。 証明書情報には、証明書が主としてどこから発行されるかについての情報も含まれています。 インフラストラクチャが内部公開キー基盤 (PKI) を持たない場合、すべての証明書はパブリック証明書プロバイダーを介して要求することができます。 拡張キー使用法 (EKU) およびレポートの [割り当て] フィールドは、それぞれの証明書の目的および場所を知るのに非常に有用です。
 
-![証明書の管理レポート](../../media/Certificates_Report_Admin_Report.png)
+![証明書の管理レポート。](../../media/Certificates_Report_Admin_Report.png)
 
 展開内の各証明書の使用と目的を注意深く確認し、理解してください。 証明書の動作に関する質問がある場合は、どのサーバーまたはサービスが何と話しているのかを判断します。 2015 年Skype for Business Server証明書は、次の 2 つの主な目的で使用されます。
 
@@ -74,14 +74,14 @@ Skype for Business Server 2015 には、潜在的に複雑な一連のファイ�
 
 ファイアウォール管理の観点から、レポートを慎重に検討して、ファイアウォールルールの終了と競合が生じず、違反する可能性のあるポリシーや手順が存在しなかからなかってください。
 
-![ファイアウォール管理者レポート](../../media/Firewall_Report_Admin_Report.png)
+![ファイアウォール管理者レポート。](../../media/Firewall_Report_Admin_Report.png)
 
 ## <a name="review-the-dns-report"></a>DNS レポートを確認する
 <a name="DNS_Report"> </a>
 
 管理者レポートの一部である DNS レポートは、内部ネットワーク、境界ネットワーク、および外部ネットワーク内のドメイン ネーム システム (DNS) の推奨エントリと既知のエントリの詳細を示します。 設計者がネットワーク ダイアグラムの編集を完了し、すべての IP アドレスと完全修飾ドメイン名 (FQDN) が実稼働値に定義されている場合、DNS レポートは優れた構成リソースを提供します。 このレポートは、運用上のトラブルシューティング ドキュメントとして機能する場合があります。
 
-![DNS 管理者レポート](../../media/DNS_Report_Admin_Report.png)
+![DNS 管理者レポート。](../../media/DNS_Report_Admin_Report.png)
 
 DNS 管理チームに DNS レポートを十分に確認して、展開中に問題が発生したり、トラブルシューティング セッションを複雑にしたりする可能性があるエラーが発生しなくなさる必要があります。
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: コンサルティング通話の転送を含む、Skype for Business Server エンタープライズ VoIP会議の場所ベースのルーティングを計画します。
-ms.openlocfilehash: e5f49dfcc798f4871ff9ecc1ed2fec1beacad8e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: de074dae5e51156a0926956adcbc2260ed365d8f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629529"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733176"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Basedでの会議のルーティングSkype for Business Server
 
@@ -67,7 +67,7 @@ Location-Basedルーティングを使用すると、通話内の関係者の場
 > [!NOTE]
 > 累積的Skype for Business 4 では、次の表の動作を確認する必要があります。
 
-|ユーザー|その他のパーティ|Action|結果|
+|User|その他のパーティ|Action|結果|
 |:-----|:-----|:-----|:-----|
 |Skype for Businessモバイル  <br/> |PSTN  <br/> |Skype for Businessモバイルは PSTN 通話中です。 Skype for Businessその後、モバイルは電話を電話会議 (CAA) 自動応答エスカレートします。  <br/> |呼び出しがブロックされ、適切なエラー メッセージが表示されます。  <br/> |
 |Skype for Businessモバイル  <br/> |Skype for Businessクライアントまたはフェデレーション ユーザー  <br/> |クライアントまたはフェデレーション ユーザーは、Skype for Business Mobile Location-Basedユーザーに VoIP 呼び出しを行い、いずれかのパーティが CAA にエスカレートします。  <br/> |エスカレーション呼び出しはブロックされ、適切なエラー メッセージが表示されます。  <br/> |
@@ -78,7 +78,7 @@ Location-Based ルーティングを Skype for Business 会議に適用する以
 
 **コンサルティング呼び出し転送の呼び出しフロー**
 
-![会議ダイアグラムの場所ベースのルーティング](../../media/LocationBasedRoutingForConferencing.jpg)
+![会議図の場所ベースのルーティング。](../../media/LocationBasedRoutingForConferencing.jpg)
 
 Location-Based ルーティングを有効にしたユーザーが PSTN エンドポイントのコンサルティング呼び出し転送を開始すると (前の図に示すように)、PSTN ユーザーと Skype for Business ユーザー A の間の 1 つの通話、および Skype for Business ユーザー A と Skype for Business ユーザー B の間の 2 つのアクティブな呼び出しが作成されます。次の動作は、Location-Based 会議用ルーティング アプリケーションによって適用されます。
 
@@ -111,7 +111,7 @@ Location-Based ルーティングを有効にしたユーザーが PSTN エン�
 次の表は、サーバーの役割と、ルーティングをサポートするバージョンの組み合Location-Based示しています。
 
 
-|Front-End プールのバージョン|仲介サーバーのバージョン|サポート|
+|Front-End プールのバージョン|仲介サーバーのバージョン|サポート済み|
 |:-----|:-----|:-----|
 |Skype for Business Server Lync Server 2013 累積的な更新プログラム 2  <br/> |Skype for Business Server Lync Server 2013 累積的な更新プログラム 2  <br/> |はい  <br/> |
 |Lync Server 2013 累積的な更新プログラム 2  <br/> |Lync Server 2013 累積的な更新プログラム 1  <br/> |いいえ  <br/> |

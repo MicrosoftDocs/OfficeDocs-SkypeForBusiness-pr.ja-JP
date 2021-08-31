@@ -20,13 +20,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: 正しいファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、オンライン電話の設定を構成するためのSkype for Business説明します
-ms.openlocfilehash: a053928a242be3d7798a5d9c3cc608e3176807c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 正しいファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、オンライン電話の設定を構成するための展開Skype for Business説明します
+ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607444"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728016"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -74,7 +74,7 @@ Skype for Business Online 対応の電話機およびファームウェアは、
   
 ファームウェアの更新は Skype for Business Service によって管理されます。Skype for Business 認定済みの電話機のファームウェアは Skype for Business Update サーバーにアップロードされます。既定では、デバイスの更新はすべての電話機で有効になっています。電話機の無通信時間およびポーリング間隔に応じて、電話機では最新の認定済みビルドがダウロードされ、インストールされます。デバイスの更新設定は [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) コマンドレットを使用して、 _EnableDeviceUpdate_ パラメーターを `false` に設定することで無効にできます。
   
-![電話の展開を示すスクリーン ショット](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![携帯電話の展開を示すスクリーン ショット。](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 新しいファームウェアが利用可能になり、ダウンロードとインストールの準備が整うと、電話機が通知を受信します。Polycom 電話機では、ユーザーは通知を受信し、[ **Update (更新)** ] または [ **Postpone (延期)** ] のいずれかを選択できます。
   
@@ -82,7 +82,7 @@ Skype for Business Online 対応の電話機およびファームウェアは、
   
 Polycom 電話機の場合は、 **SwUpdate** を選択することで電話機のファームウェアを更新できます。
   
-![SwUpdate オプションを示すスクリーン ショット](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
+![SwUpdate オプションを示すスクリーン ショット。](../../images/376c1998-6ce6-44b6-a84d-ae7d96b1c307.png)
   
 パートナーのプロビジョニング システムを使用してファームウェアの更新を管理するように選択することもできます。高度な電話機カスタマイズなど、パートナー プロビジョニング システム管理を行う場合は、製造元の管理ガイドをご覧ください。
   
@@ -97,7 +97,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>ステップ 6 - ユーザーのサインインの準備
 
-ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。 最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。 詳細については、アドオン ライセンスのSkype for BusinessとMicrosoft Teams[を](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)確認し、ライセンスを割り当Skype for Business[割りMicrosoft Teamsできます](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。 最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。 詳細については、「Skype for Business および Microsoft Teams[ライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)の割り当て」と「Skype for Business割りMicrosoft Teams[できます](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
   
 通話プランの詳細については、「通話プランと通話プラン電話システム[参照してください。](/microsoftteams/calling-plan-landing-page)
   
@@ -105,7 +105,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
     
   - **Polycom VVX 5XX/6XX** 電話機のユーザーには次の画面が表示されます。
     
-     ![Polycom Phones のログオンを示すスクリーン ショット](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Polycom Phones のログオンを示すスクリーン ショット。](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - **Yealink T48G/T46G** 電話機のユーザーには次の画面が表示されます。
     
@@ -115,7 +115,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
     
 - **ユーザー ID** ユーザーは、電話機のキーパッドまたは画面上のキーボード (利用可能な場合) を使用して、組織のユーザー名およびパスワードで電話機にサインインできます。たとえば、ユーザー名として <em>amosm@contoso.com</em>  のような UPN 形式を使用します。
     
-     ![ログイン画面を示すスクリーン ショット](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![ログイン画面を示すスクリーン ショット。](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
     > [!NOTE]
     > PIN 認証は、LPE およびパートナーの IP 電話機向けの Skype for Business Online ではサポートされていません。 
@@ -125,47 +125,47 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
   > [!NOTE]
   > ユーザーは、電話機にサインインするために組織のユーザー名およびパスワードを使用する必要があります。たとえば、ユーザー名として  <em>amosm@contoso.com</em>  のような UPN 形式を使用します。
   
-     ![ログイン画面を示すスクリーン ショット](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
+     ![ログイン画面を示すスクリーン ショット。](../../images/f67fa8f4-66a5-451d-bdf2-a12daac15cb5.png)
   
 - **Web サインインの使用**: これは、Online ユーザーが標準の Web ブラウザを使用して認証を行うことができる新しい方法です。ユーザーには、ブラウザを使ってサインインするときの手順が提供されます。
     
   - **Polycom VVX 5XX/6XX** 電話機のユーザーには次の画面が表示されます。
     
-     ![Polycom の手順を示すスクリーン ショット](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![Polycom の手順を示すスクリーン ショット。](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - **Yealink T48G/T46G** 電話機のユーザーには次の画面が表示されます。
     
-     ![Yealink の手順を示すスクリーン ショット](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
+     ![Yealink の手順を示すスクリーン ショット。](../../images/86551cc3-533a-4694-9683-bad907c9ad5a.png)
   
     生成されるコードの有効期限は 15 分です。期限が切れると、ユーザーは電話機に応じて [ **再試行**] または [ **OK**] をクリックして新しいコードを生成する必要があります。
     
   - **Polycom VVX 5XX/6XX** 電話機のユーザーには次の画面が表示されます。
     
-     ![期限切れの Polycom コードを示すスクリーン ショット](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
+     ![期限切れの Polycom コードを示すスクリーン ショット。](../../images/b5d27037-aa26-4054-be95-d5a6c293d08c.png)
   
   - **Yealink T48G/T46G** 電話機のユーザーには次の画面が表示されます。
     
-     ![期限切れの Yealink コードを示すスクリーン ショット](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
+     ![期限切れの Yealink コードを示すスクリーン ショット。](../../images/3a4462ac-0c59-409e-a3bb-1451cdcc8676.png)
   
     ブラウザを使用して、電話機に表示されるアドレスに移動して、Skype for Business ユーザー名を入力します。
     
-     ![電子メールの確認を示すスクリーン ショット](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![電子メールの確認を示すスクリーン ショット。](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     電話機に表示されるコードを入力します。
     
-     ![ログイン画面にコードを入力するスクリーン ショット](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![ログイン画面にコードを入力するスクリーン ショット。](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
     サイトに「[電話機メーカーの名前] **Skype for Business Certified Phone (Skype for Business 認定済みの電話機)**」と表示されていることを確認し、[ **続行**] をクリックします。
     
-     ![名前の検証を示すスクリーン ショット](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![名前の検証を示すスクリーン ショット。](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     ユーザーの資格情報をクリックするか、[ **Use another account (別のアカウントを使用する)**] をクリックします。
     
-     ![資格情報オプションを示すスクリーン ショット](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
+     ![資格情報オプションを示すスクリーン ショット。](../../images/8415028b-7924-4747-b639-052d9b0b961e.png)
   
     下記のページが表示されたら、ブラウザを安全に閉じることができます。
     
-     ![確認メッセージを示すスクリーン ショット](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
+     ![確認メッセージを示すスクリーン ショット。](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
     > Skype for Business Online 向けの LPE 電話機は USB テザリングを介したサインインのみをサポートします。 
@@ -206,9 +206,9 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
   
 1. PC ポートを使用して PC を電話機に接続します。
     
-     ![PC への接続を示すスクリーン ショット](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![PC への接続を示すスクリーン ショット。](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。 ユーザー エクスペリエンスを向上するために、管理配布ソリューション (例: Microsoft Endpoint Configuration Manager) を使用して BToE ソフトウェアを配布およびインストールMicrosoft Endpoint Configuration Manager。 Configuration Manager の使用に関するヘルプについては、「Configuration Manager の [パッケージとプログラム」を参照してください](/configmgr/apps/deploy-use/packages-and-programs)。
+2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。 ユーザー エクスペリエンスを向上するために、BToE ソフトウェアを配布およびインストールするには、管理配布ソリューション (例: Microsoft Endpoint Configuration Manager)。 Configuration Manager の使用に関するヘルプについては、「Configuration Manager の [パッケージとプログラム」を参照してください](/configmgr/apps/deploy-use/packages-and-programs)。
     
    - [Polycom BToE ソフトウェア ダウンロード サイト](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -221,7 +221,7 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
 > [!NOTE]
 > BToE は Mac および VDI プラットフォームでは現在サポートされていません。 
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 
 [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

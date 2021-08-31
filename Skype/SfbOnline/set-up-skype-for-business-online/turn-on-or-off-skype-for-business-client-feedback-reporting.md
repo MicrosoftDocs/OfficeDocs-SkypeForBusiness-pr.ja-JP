@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Skype for Business ユーザーが組み込みの Skype for Business アプリ フィードバック ツールを使用して、ユーザーが問題を報告し、そのエクスペリエンスに関するフィードバックを Microsoft に直接提供することができます。
-ms.openlocfilehash: b7be0629e0944f55147a8f0a772663737412f910
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9382c19c5abf78dc47dcaa3de33841a64e96f490
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611456"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728286"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Skype for Business クライアントのフィードバック レポートをオンまたはオフにする
 
@@ -32,11 +32,11 @@ ms.locfileid: "58611456"
 
 Skype for Business Online ユーザーが組み込みの Skype for Business アプリ フィードバック ツールを使用して、ユーザーが問題を報告し、そのエクスペリエンスに関するフィードバックを Microsoft に直接提供することができます。 
   
-![[フィードバックの提供] アイコン](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
+![[フィードバックの提供] アイコン。](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
 このツールを使用すると、ユーザーはデバイス上のアプリからログをコピーして、Microsoft が発生する可能性のある問題の調査とトラブルシューティングを行うのに役立ちます。 
   
-![[問題の報告] アイコンを設定する](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
+![アイコンを使用して問題設定します。](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
 デバイスのスクリーンショットをユーザーのフィードバックに含めるために  _EnableOnlineFeedbackScreenshot_ の設定を使用することもできます。
   
@@ -49,9 +49,9 @@ Skype for Business Online ユーザーが組み込みの Skype for Business ア�
 
 > [!NOTE]
 > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。 最新の Teams PowerShell パブリック リリースをご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
-1. [PowerShell モジュール Teamsインストールします](/microsoftteams/teams-powershell-install)。
+1. [PowerShell モジュール Teamsをインストールします](/microsoftteams/teams-powershell-install)。
     
-2. コマンド プロンプトWindows PowerShell開き、次のコマンドを実行します。 
+2. コマンド プロンプトWindows PowerShellし、次のコマンドを実行します。 
 
    ```powershell
    # When using Teams PowerShell Module
@@ -60,7 +60,7 @@ Skype for Business Online ユーザーが組み込みの Skype for Business ア�
    $userCredential = Get-Credential
    Connect-MicrosoftTeams -Credential $userCredential
    ```
-   Windows PowerShell の起動の詳細については、「1 つの Windows PowerShell ウィンドウですべての Microsoft 365 または[Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)サービスに Connect を追加する」または「Windows PowerShell 用にコンピューターをセットアップする」[を参照](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)してください。
+   Windows PowerShell の起動の詳細については、「Connect を 1 つの Windows PowerShell ウィンドウですべての Microsoft 365 または[Office 365](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)サービスに設定する」または「Windows PowerShell 用にコンピューターをセットアップする」[を参照](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)してください。
    
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>組織のすべてのユーザーに対してクライアント アプリのフィードバック レポートをオンにする
 
@@ -76,7 +76,7 @@ Skype for Business Online ユーザーが組み込みの Skype for Business ア�
     
   - [アプリを使用して管理や管理をWindows PowerShellする 6 Microsoft 365理由Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター を使用する場合に限り、速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
+- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター の使用に対する速度、シンプルさ、生産性に多くの利点があります。 次のトピックでこれらの利点について説明します。
     
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -84,7 +84,7 @@ Skype for Business Online ユーザーが組み込みの Skype for Business ア�
     
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

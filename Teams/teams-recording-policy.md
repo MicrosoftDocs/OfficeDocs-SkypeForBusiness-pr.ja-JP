@@ -1,5 +1,5 @@
 ---
-title: 会議をTeamsのためのポリシーベースの記録の概要&説明
+title: 会議をTeamsのためのポリシーベースの記録の&概要
 author: cabailey
 ms.author: cabailey
 manager: laurawi
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: abybee
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 会議のTeamsのポリシーベースの記録について&する
+description: 会議をTeamsするポリシーベースの記録について&する
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08faea7d5926a35ac4c663cd2df4b51b8c4472dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 824e03ea5affc4e8c08534b0328632ac3fb4b6f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597931"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728486"
 ---
-# <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>会議のTeamsに関するポリシーベースの記録の概要&説明
+# <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>会議のTeamsに関するポリシーベースの記録の&概要
 
-ポリシー ベースの記録を使用すると、通話と会議に Microsoft Teams を採用する組織は、関連する企業または規制ポリシーの要求に応じて、通話とオンライン会議を自動的に記録して保持するために、管理ポリシーを使用して記録および保持する必要がある場合に、管理ポリシーを使用して指定できます。
+ポリシー ベースの記録を使用すると、通話と会議に Microsoft Teams を採用する組織は、関連する企業または規制ポリシーの要求に応じて、通話とオンライン会議を自動的に記録して保持する必要がある場合に、管理ポリシーを使用して指定できます。
 
 Teamsは、Teams 通信を構成、管理、記録、保存、分析するためのエンド to エンド ソリューションを提供するために必要なプラットフォーム機能、ユーザー エクスペリエンス、管理インターフェイスなど、サード パーティ製の記録ソリューションの統合をサポートするために強化されました。 機能強化には、通信プラットフォーム API と記録用のイベントが含まれます。次の機能が提供されます。
 
@@ -38,15 +38,15 @@ Teamsは、Teams 通信を構成、管理、記録、保存、分析するため
 
 - ユーザーと Teamsサポートされている通話エンドポイント (Teams、Teams Mobile、Skype for Business、PSTN) 間の対話キャプチャのサポート
 
-- コンプライアンス記録用の新しい管理ポリシー (既存の通話および会議ツールTeamsとポリシーとの統合を含む)
+- コンプライアンス記録用の新しい管理ポリシー (既存の通話および会議ツールTeamsポリシーとの統合を含む)
 
 コンプライアンス記録は、Microsoft 365 A3/A5/E3/E5/Business プレミアム および Office 365 A3/A5/E3/E5 ユーザーで有効にできます。 
 
-コンプライアンス記録ソリューションの統合機能は、コンプライアンス記録セッションの Ignite 2019 [Microsoft Teamsされました](https://myignite.microsoft.com/archives/IG19-VCE40)。
+コンプライアンス記録ソリューションの統合機能は、Ignite 2019 のコンプライアンス記録およびセキュリティ セッション[Microsoft Teamsされました](https://myignite.microsoft.com/archives/IG19-VCE40)。
 
-## <a name="teams-interaction-recording-overview"></a>Teams記録の概要
+## <a name="teams-interaction-recording-overview"></a>Teamsの記録の概要
 
-対話記録の使用例は、画像に示すように、便利、機能、組織、および法律上のインターセプトの 4 つの主要な記録機能カテゴリに効果的に分けることができます。
+対話記録の使用例は、画像に示すように、便利、機能、組織、および法律上のインターセプトの 4 つの主要なカテゴリに効果的に分けることができます。
 
 > [!div class="mx-imgBorder"]
 > ![操作の記録の理由と理由を示すスクリーンショット。](media/recording-taxonomy.png "画像には、記録カテゴリが表示されます。")
@@ -62,7 +62,7 @@ Teamsは、Teams 通信を構成、管理、記録、保存、分析するため
 | アクセス所有者           | ユーザー               | コンプライアンス      |
 | アイテム保持ポリシー      | 省略可能           | はい             |
 
-Teams、会議やライブ イベントを便利[](./cloud-recording.md)で機能的に記録するさまざまな機能を提供します。 組織の記録とは、通話や会議に Teams を採用する組織が、関連する企業または規制ポリシーの要求に応じて、通話とオンライン会議を自動的に記録および保持するために、管理ポリシーを使用して自動的に記録およびキャプチャする必要がある場合に有効に設定できる機能を意味します。 このポリシーの下のユーザーは、Teams とのデジタル操作が記録されているが、記録を無効にできないので、対話が完了すると記録にアクセスできないという認識を受け取る。 記録は、電子情報開示、法的保持、その他の企業保有の使用に関するコンプライアンス担当者および法務担当者が利用できる組織のアーカイブの一部になります。
+Teamsは、会議やライブ イベントの[便利](./cloud-recording.md)で機能的な記録を行うさまざまな機能を提供します。 組織の記録とは、通話や会議に Teams を採用する組織が、関連する企業または規制ポリシーの要求に応じて、通話とオンライン会議を自動的に記録および保持するために、管理ポリシーを使用して自動的に記録およびキャプチャする必要がある場合に、それを可能に意味します。 このポリシーの下のユーザーは、Teams とのデジタル対話が記録されているが、記録を無効にできないので、対話が完了すると記録にアクセスできないという認識を受け取る。 記録は、電子情報開示、法的保持、その他の企業保有の使用に関するコンプライアンス担当者および法務担当者が利用できる組織のアーカイブの一部になります。
 
 ## <a name="example-user-needs"></a>ユーザーニーズの例
 
@@ -111,25 +111,25 @@ Teams、会議やライブ イベントを便利[](./cloud-recording.md)で機�
 コンプライアンス記録ソリューションは、次の図にTeamsと統合されています。
 
 > [!div class="mx-imgBorder"]
-> ![チームのカスタム アプリ設定を示すスクリーンショット](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "画像は、会議または通話が送信Teams受信した場合のフローを示しています。")
+> ![チームのカスタム アプリ設定を示すスクリーンショット。](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "画像は、会議または通話がTeams受信した場合のフローを示しています。")
 
 ## <a name="recorder"></a>レコーダー
 
 コンプライアンス記録ソリューションのコア コンポーネントは、レコーダーです。
-レコーダーは、Microsoft の通信プラットフォームを使用し[、Microsoft](/graph/cloud-communications-concept-overview) Graph にアプリケーションとして登録するスケーラブルな Azure ベースのサービス (ボット) として構築されています。 レコーダーは、通話や会議の通信プラットフォーム API Teams直接[](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)やり取りし、メディア インジェストのエンドポイントを提供します。
+レコーダーは、Microsoft の通信プラットフォームを使用し[、Microsoft](/graph/cloud-communications-concept-overview) Graph にアプリケーションとして登録するスケーラブルな Azure ベースのサービス (ボット) として構築されています。 この記録機能は、通話や会議Teamsプラットフォーム[API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)と直接やり取りし、メディア インジェストのエンドポイントを提供します。
 
-ボット [の構成、](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) アプリ インスタンスの作成、コンプライアンス ポリシーの割り当て方法を示すサンプル コンプライアンス 記録アプリケーションを使用できます。 このサンプルには、着信通話ルーティングの処理、録音状態の変更、記録[](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)されているユーザーの削除[](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)など、特定の対話を記録するための API の使用例も[示されています](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)。
+ボット [の構成、](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) アプリ インスタンスの作成、コンプライアンス ポリシーの割り当て方法を示すサンプル コンプライアンス 記録アプリケーションを使用できます。 このサンプルには、着信通話ルーティングの処理、録音状態の変更、記録[](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244)されているユーザーの削除[](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)など、特定の対話を記録するための API 使用法の例も[示されています](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)。
 Graph API の詳細については[、updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0)と incomingContext に関するページ[を参照してください](/graph/api/resources/incomingcontext?view=graph-rest-1.0)。
 
 レコーダー サービスの正確な実装はパートナーによって異なりますが、Teams からレコーダーへの待機時間を短縮するために、デプロイの高可用性と地理的分散を実現するために、複数のレコーダーをサポートするように設計する必要があります。 さらに、回復性と冗長性を念頭に置いてレコーダー自体を設計する必要があります。
 
-パートナーは、コンプライアンス記録統合のすべての要件がサポートされるのを確認するために、認定のためのソリューションを提出する前に、Microsoft Graph 通信 API と SDK の最小必須リリース バージョンを確認する必要があります。
+パートナーは、コンプライアンス記録統合のすべての要件がサポートされるのを確認するために、認定のためのソリューションを提出する前に、Microsoft Graph 通信 API および SDK の最小必須リリース バージョンを Microsoft と確認する必要があります。
 
 コンプライアンス記録シナリオの基本である 2 つの具体的な要件は次のとおりです。
 
 - レコーダー ボットを Azure にデプロイする必要があります
 
-- レコーダー ボットは、Azure 内の Windows VM 上で実行する必要があります
+- レコーダー ボットは、Azure の VM 上Windows実行する必要があります
 
 Azure VM と Windows VM の要件は Teams Bot コンポーネントにのみ適用されます。つまり、パートナーは、コンプライアンス記録に関する関連するパフォーマンス要件と機能要件を満たしている場合に、選択したプラットフォームの残りの部分を実装できます。
 
@@ -211,7 +211,7 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>認定プログラムのTeams記録
 
-公開されている API を公開することで、パートナーは CCaaS ソリューションを開発して Teams と統合できるほか、microsoft ソリューションから期待される品質、互換性、信頼性を提供するために、Microsoft Teams 認定プログラムのコンプライアンス記録を開発し、各参加パートナーのソリューションがテストおよび検証されたという保証を顧客に提供しています。  
+公開されている API を公開することで、パートナーは CCaaS ソリューションを開発し、Teams と統合できるだけでなく、microsoft ソリューションから期待される品質、互換性、信頼性を提供するために、参加している各パートナーのソリューションがテストおよび検証されたという保証を顧客に提供するために、Microsoft Teams 認定プログラムのコンプライアンス記録を開発しました。  
 
 次のパートナーは、パートナーのソリューションを認定Microsoft Teams。<br/><br/>
 
@@ -227,7 +227,7 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 
 <br/>
-次のパートナーは、ソリューションを認定するプロセスをMicrosoft Teams。<br/><br/>
+以下のパートナーは、ソリューションを認定するプロセスをMicrosoft Teams。<br/><br/>
 
 |パートナー|ソリューションの Web サイト |
 |:--|:--|
@@ -239,6 +239,6 @@ IT 管理者は、コンプライアンス記録ポリシーを作成して割�
 
 このリストは、パートナーが参加して認定条件を満たしたときに更新されます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 認定プログラムへの参加を希望しているベンダーの場合は、 にメールを[Teamscategorypartner@microsoft.com。](mailto:Teamscategorypartner@microsoft.com)

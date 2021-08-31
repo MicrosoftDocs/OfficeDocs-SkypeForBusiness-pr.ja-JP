@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'PowerShell を使用して、Skype for Business と Lync クライアントのユーザー インターフェイスを切り替える方法について説明Microsoft 365またはOffice 365 '
-ms.openlocfilehash: 0a57bc5c246ac94926247805a0e1134f29e54937
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2345e30bf43a00342b1238533884d749e32095f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621899"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732266"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Skype for Business と Lync クライアントのユーザー インターフェイスを切り替える
 
@@ -61,7 +61,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 ポリシーを正しく設定すると、次のように表示されます。
   
-![PowerShell: SkypeUIEnabled](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
+![PowerShell: SkypeUIEnabled。](../images/b6b9d2e1-1a37-46df-9757-f81c6054e93b.png)
   
 組織内のすべてのユーザーが Skype for Business (Lync) クライアントを使用できるようにするには、リモート PowerShell を開いて、次のように入力します。 
   
@@ -71,7 +71,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 ポリシーを正しく設定すると、次のように表示されます。
   
-![PowerShell: SkypeUIDisabled](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
+![PowerShell: SkypeUIDisabled。](../images/f14ec3ce-4eb8-4a11-826e-6029043ed054.png)
   
 組織内の 1 人のユーザーが Skype for Business クライアントを使用できるようにするには、リモート PowerShell を開いて、次のように入力します。
   
@@ -81,7 +81,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 ポリシーを正しく設定すると、次のように表示されます。
   
-![Skype for Business Online - UI を有効にする](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
+![Skype for Businessオンライン - UI を有効にする。](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
 組織内の 1 人のユーザーが Skype for Business (Lync) クライアントを使用できるようにするには、リモート PowerShell を開いて、次のように入力します。
   
@@ -91,7 +91,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 ポリシーを正しく設定すると、次のように表示されます。
   
-![Skype for Business Online - UI を無効にする](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
+![Skype for Businessオンライン - UI が無効です。](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
 組織内の複数のユーザーが Skype for Business クライアントを使用できるようにするには、リモート PowerShell を開いて、次のように入力します。
   
@@ -251,7 +251,7 @@ You can turn the tutorial back on by setting the **Value data** to **1**.
 |:-----|:-----|
 |**操作** <br/> |**作成** <br/> |
 |**ハイブ** <br/> | HKEY_CURRENT_USER <br/> |
-|**キー パス** <br/> |ソフトウェア \\ Microsoft \\ Office \\ Lync  <br/> |
+|**キー パス** <br/> |Microsoft \\ Office \\ Lync \\ ソフトウェア  <br/> |
 |**値の名前** <br/> |EnableSkypeUI  <br/> |
 |**値の種類** <br/> |REG_BINARY  <br/> |
 |**値のデータ** <br/> |00000000  <br/> |
@@ -280,7 +280,7 @@ You can turn the tutorial back on by setting the **Value data** to **1**.
     
 You can also verify that the GPO has successfully updated the registry on a user's computer by examining the registry. Open Registry Editor and navigate to the **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\Lync]** key. If the GPO successfully updated the registry you will see a value named EnableSkypeUI with a value of 0.
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business Online をセットアップする](set-up-skype-for-business-online.md)
 
 [Skype for Business ユーザーが Skype の連絡先を追加できるようにする](let-skype-for-business-users-add-skype-contacts.md)

@@ -17,17 +17,17 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 政府機関のポリシー パッケージを使用Teams管理する方法について学習します。
-ms.openlocfilehash: 4f796a2fc3c7e359f311f2a709f058e172f8f454
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f0b998540121e05f4113b298446dffefc832cb5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582171"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731986"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teamsのポリシー パッケージを作成する
 
 > [!NOTE]
-> ポリシー パッケージは、現在、Government Microsoft 365 High または DoD GCCでは使用できません。
+> 現在、ポリシー パッケージは、Government Microsoft 365 High または DoD GCCでは使用できません。
 
 ## <a name="overview"></a>概要
 
@@ -41,7 +41,7 @@ Microsoft Teams の[ポリシー パッケージ](manage-policy-packages.md)は�
 - アプリのセットアップ
 - ライブ イベント
 
-Teams、政府機関向け次のポリシー パッケージが含まれています。
+Teams現在、政府機関向け次のポリシー パッケージが含まれています。
 
 |Microsoft Teams 管理センターのパッケージ名|以下の目的での使用に最適です|説明 |
 |---------|---------|---------|
@@ -49,11 +49,11 @@ Teams、政府機関向け次のポリシー パッケージが含まれてい�
 |Frontline Manager  |政府機関のフロントライン マネージャー |一連のポリシーを作成し、それらの設定を組織内の Frontline Managers に適用します。|
 |Frontline worker  |政府機関のフロントライン ワーカー |一連のポリシーを作成し、それらの設定を組織内の Frontline Worker に適用します。|
 
-![ヘルスケア ポリシー パッケージのスクリーンショット](media/policy-packages-gov.png)
+![医療ポリシー パッケージのスクリーンショット。](media/policy-packages-gov.png)
 
 ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、組織内のユーザーに Public safety officer ポリシー パッケージを割り当てると、パッケージ内のポリシーごとに PublicSafety_Officer という名前のポリシーが作成されます。
 
-![医療職員パッケージのポリシーのスクリーンショット](media/policy-packages-public-safety-officer.png)
+![Healthcare clinical worker パッケージのポリシーのスクリーンショット。](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>ポリシー パッケージを管理する
 
@@ -80,7 +80,7 @@ Teams、政府機関向け次のポリシー パッケージが含まれてい�
 
 1 人または複数のユーザーにポリシー パッケージを割り当てるには、Microsoft Teams 管理センターの左側のナビゲーションから、[**ポリシー パッケージ**] に移動し、[**ユーザーの管理**] を選択します。  
 
-![管理センターでポリシー パッケージを割り当てる方法のスクリーンショット](media/policy-packages-healthcare-assign.png)
+![管理センターでポリシー パッケージを割り当てる方法のスクリーンショット。](media/policy-packages-healthcare-assign.png)
 
 詳細については、[「ポリシー パッケージを割り当てる」](manage-policy-packages.md#assign-a-policy-package)を参照してください。
 

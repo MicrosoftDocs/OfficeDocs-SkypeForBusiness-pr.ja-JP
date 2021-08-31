@@ -22,23 +22,23 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: ユーザーが会議に参加するときにユーザーが自分の名前を記録できるかどうかを有効または無効にする方法についてMicrosoft Teams。
-ms.openlocfilehash: b670c6acb32902da56f76ad1cb2e1fd1a47edbf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fdf3f4dc973c199df7cacbe1f5399d21c5d6f170
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627579"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728196"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Microsoft Teams でユーザーが会議に参加したときに自分の名前を記録できるようにする
 
-Microsoft 365 または Office 365 で電話会議を設定すると、電話番号と電話会議ブリッジと呼ばれるものが受信されます。 会議ブリッジには、1 つ以上の電話番号を含め、専用の電話番号または共有電話番号を使用できます。
+Microsoft 365 または Office 365 で電話会議を設定すると、電話番号と電話会議ブリッジと呼ばれるものが届く。 会議ブリッジには、1 つ以上の電話番号を含め、専用の電話番号または共有電話番号を使用できます。
   
 ユーザーが電話を使って会議にダイヤルインすると、その通話は会議ブリッジによって応答されます。会議ブリッジでは、自動応答の音声プロンプトで発信者に応答してから、設定に応じて、お知らせを再生したり、発信者に名前を記録するように依頼したり、会議開催者の PIN セキュリティをセットアップしたりします。PIN が会議開催者に与えられて、開催者は会議を開始できるようになります。ただし、PIN がなくても会議を開始できるように設定できます。
 
   
 ## <a name="set-whether-callers-should-record-their-name"></a>発信者が名前を記録するかどうかを設定する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 

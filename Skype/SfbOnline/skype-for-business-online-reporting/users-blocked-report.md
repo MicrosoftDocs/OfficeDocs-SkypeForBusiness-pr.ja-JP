@@ -18,28 +18,28 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: 'このレポートは、他のSkype for Businessレポートと共に、組織全体の PSTN 使用状況など、アクティビティの詳細を示します。 '
-ms.openlocfilehash: f2708512dfb1cf03e367af09abb288e62329eaf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'このレポートは、他のSkype for Businessレポートと共に、組織全体での PSTN の使用状況など、アクティビティの詳細を示します。 '
+ms.openlocfilehash: c88614d4ca7745f972f42b9fcf19a2858a1c6992
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606726"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732286"
 ---
 # <a name="users-blocked-report"></a>ブロックされているユーザーのレポート
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-新しい [Skype for Business **レポート]** ダッシュボードには、組織内の製品全体Skype for Businessアクティビティの概要が表示されます。 これにより、個々の製品レベルのレポートにドリルダウンして、各製品内のアクティビティに関するより詳細な分析情報を提供できます。 たとえば、ユーザーブロックレポート **Skype for Business** を使用して、PSTN 通話がブロックされている組織内のユーザーを表示できます。 このレポートは、他のSkype for Businessレポートと共に、組織全体の PSTN 使用状況など、アクティビティの詳細を示します。
+新しい [Skype for Business **レポート]** ダッシュボードには、組織内の製品全体Skype for Businessアクティビティの概要が表示されます。 これにより、個々の製品レベルのレポートにドリルダウンして、各製品内のアクティビティに関するより詳細な分析情報を提供できます。 たとえば、ユーザーのブロックSkype for Businessを使用して、PSTN 通話がブロックされている組織内のユーザーを確認できます。 このレポートは、他のSkype for Businessレポートと共に、組織全体での PSTN の使用状況など、アクティビティの詳細を示します。
   
  利用可能なその他のレポートについては、[レポートの概要](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)を確認してください。
   
 > [!NOTE]
 > 管理者として管理者としてサインインSkype for Business、すべてのレポートを表示Microsoft 365 管理センター。 
   
-## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>ユーザーがブロックしているレポートSkype for Businessアクセスする方法
+## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>ユーザーがブロックされているレポートSkype for Businessアクセスする方法
 
-![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴのアイコンSkype for Business表示されます。](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 - 管理センターに移動し、[管理センター] **>[**  >  **ユーザー Skype for Businessブロック]**  >    >  **をクリックします**。
     
@@ -49,21 +49,21 @@ ms.locfileid: "58606726"
   
 レポートは、このように表示されます。 
   
-![ブロックされたユーザー レポート](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
+![ブロックされたユーザー レポート。](../images/df50a413-7a51-4340-a59b-3f83de941762.png)
 
 次の表は、通話をブロックしているすべてのユーザーの内訳を示しています。 これにより、電話会議または電話会議電話システム割り当てられているすべてのユーザーが表示されます。 表では、列を追加したり、削除したりすることができます。
 ***
-![番号 1](../images/sfbcallout1.png)
+![数値 1。](../images/sfbcallout1.png)
 *   **ユーザー ID** は、ユーザーのサインインです。
 *   **電話は**、ユーザーに割り当てられている番号です。 
 *   **ブロック アクション時間は** 、ユーザーが呼び出しをブロックされた時刻 (UTC) です。
 *   **ブロック アクション** は、ユーザーをブロックするために実行されたアクションの種類です。
 *   **ブロック アクションの理由** は、ユーザーが呼び出しをブロックされた理由です。
 ***
-![番号 2](../images/sfbcallout2.png)<br/>
+![数値 2。](../images/sfbcallout2.png)<br/>
 1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。
 ***
-![ナンバー 3](../images/sfbcallout3.png)<br/>
+![数値 3.](../images/sfbcallout3.png)<br/>
 また、[ **Excel にエクスポート**] をクリックまたはタップして、レポート データを Excel の .csv ファイルにエクスポートすることもできます。
 
 これにより、すべてのユーザーのデータがエクスポートされ、単純な並べ替えとフィルター処理を行ってさらに分析することができます。 ユーザー数が 2,000 人未満の場合は、レポート自体のテーブル内で並べ替えとフィルター処理を行います。 ユーザー数が 2000 を超える場合は、フィルター処理と並べ替えを行うために、データをエクスポートする必要があります。

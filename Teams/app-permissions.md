@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2766da88fee53124d43b4e2b66c9c104ea41b8e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 15892a4eb3996923f7a0129805e2bb542cdc8d7c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610424"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731786"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams アプリのアクセス許可と考慮事項
 
@@ -37,13 +37,13 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 アプリはユーザーによって同意され、ポリシーの観点から IT によって管理されます。 ただし、ほとんどの場合、アプリのアクセス許可とリスク プロファイルは、アプリに含まれる機能のアクセス許可とリスク プロファイルによって定義されます。 そのため、この記事では、機能レベルでのアクセス許可と考慮事項について説明します。
 
-以下に示すアクセス許可 (RECEIVE_MESSAGE や REPLYTO_MESSAGE など) は[、Microsoft Teams](/microsoftteams/platform/overview)開発者向けドキュメントや Microsoft Graph のアクセス許可のどこにも表示[されません](/graph/permissions-reference)。 これは、この記事の目的に関する簡単な説明です。
+以下に示すアクセス許可 (RECEIVE_MESSAGE や REPLYTO_MESSAGE など) は[、Microsoft Teams](/microsoftteams/platform/overview)開発者向けドキュメントや[Microsoft](/graph/permissions-reference)Graph のアクセス許可のどこにも表示されません。 これらは、この記事の目的に関する簡単な説明です。
 
 
 | タイトル   | 説明    |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>調査中のアプリが要求しているアクセス許可を理解するには、次の表をガイドとして使用します。</li></ul> |
-| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アプリまたはサービス自体を調査して、組織内でアクセスを許可するかどうかを決定します。 たとえば、ボットはユーザーからのメッセージを送受信します。エンタープライズ カスタム ボットを除き、ボットはコンプライアンスの境界の外に配置されます。 そのため、ボットを含むすべてのアプリでは、これらのアクセス許可が必要であり、少なくともそのリスク プロファイルを持っています。 </li></ul>|
+| ![決定ポイントを示すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>調査中のアプリが要求しているアクセス許可を理解するには、次の表をガイドとして使用します。</li></ul> |
+| ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>アプリまたはサービス自体を調査して、組織内でアクセスを許可するかどうかを決定します。 たとえば、ボットはユーザーからメッセージを送受信します。エンタープライズ カスタム ボットを除き、ボットはコンプライアンスの境界の外に配置されます。 そのため、ボットを含むすべてのアプリでは、これらのアクセス許可が必要であり、少なくともそのリスク プロファイルを持っています。 </li></ul>|
 
 「デバイスの[アクセス許可を要求する」タブもMicrosoft Teamsしてください](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)。
 
@@ -81,7 +81,7 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 - POST_MESSAGE_TEAM。 ユーザーがボットと話したことがない場合でも、アプリのボットがいつでも任意のチーム メンバーに直接 (プロアクティブ) メッセージを送信できます。
 
-- 明示的なアクセス許可は次のとおりですが、RECEIVE_MESSAGE と REPLYTO_MESSAGE と、ボットを使用できるスコープ (マニフェストで宣言) によって暗黙的に示されます。
+- 明示的なアクセス許可は次のとおりですが、RECEIVE_MESSAGE と REPLYTO_MESSAGE およびボットを使用できるスコープ (マニフェストで宣言) によって暗黙的に示されます。
  
     - RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
     - RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
@@ -101,7 +101,7 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 
 - ボット メッセージにフィッシング詐欺サイトまたはマルウェア サイトへのリンクを含め、理論上は可能ですが、ボットはユーザー、テナント管理者、または Microsoft によってグローバルにブロックできます。
 
-- ボットは、アプリが追加されたチーム メンバー、または個人チャットまたはグループ チャットの個々のユーザーの非常に基本的な ID 情報を取得 (および保存する場合があります) できます。 これらのユーザーに関する詳しい情報を取得するには、ボットがユーザーにサインインを要求する必要があります (AD Azure Azure Active Directory)。
+- ボットは、アプリが追加されたチーム メンバー、または個人チャットまたはグループ チャットの個々のユーザーの非常に基本的な ID 情報を取得 (および保存する場合があります) できます。 これらのユーザーに関する詳細な情報を取得するには、ボットがユーザーにサインインを要求する必要があります (AD Azure Azure Active Directory)。
 
 - ボットは、チーム内のチャネルの一覧を取得 (および格納できる場合があります) できます。このデータは企業ネットワークから出て行く。
 
@@ -122,9 +122,9 @@ Microsoft Teamsは、1 つ以上の機能を、インストール、アップグ
 <sup>2</sup> アプリのファイルに基manifest.jsボット オブジェクトの supportsFiles ブールプロパティによって管理されます。
 
 > [!NOTE]
-> ボットに独自のサインインがある場合、ユーザーが初めてサインインする場合は、2 つ目の同意エクスペリエンスが異なります。
+> ボットに独自のサインインがある場合、ユーザーが初めてサインインする場合は、2 つ目の異なる同意エクスペリエンスがあります。
 >
->現時点では、Teams アプリ (ボット、タブ、コネクタ、またはメッセージング拡張機能) 内の機能に関連付けられている Azure AD のアクセス許可は、ここに示されている Teams アクセス許可とは完全に分離されています。
+>現時点では、Teams アプリ (ボット、タブ、コネクタ、メッセージング拡張機能) 内の機能に関連付けられている Azure AD のアクセス許可は、ここに示されている Teams アクセス許可とは完全に分離されています。
 
 ## <a name="tabs"></a>タブ
 
@@ -142,7 +142,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 - タブのリスク プロファイルは、ブラウザー タブで実行されている同じ Web サイトとほぼ同じです。 
 
-- タブには、現在のユーザーのサインイン名と UPN、現在のユーザーの Azure AD オブジェクト ID、それが存在する Microsoft 365 グループの ID (チームの場合)、テナント ID、ユーザーの現在のロケールなど、実行されているコンテキストも取得されます。 ただし、これらの ID をユーザーの情報にマップするには、タブでユーザーが Azure AD にサインインする必要があります。
+- タブには、現在のユーザーのサインイン名と UPN、現在のユーザーの Azure AD オブジェクト ID、それが存在する Microsoft 365 グループの ID (チームの場合)、テナント ID、ユーザーの現在のロケールなど、実行されているコンテキストも取得されます。 ただし、これらの ID をユーザーの情報にマップするには、ユーザーが Azure アカウントにサインインするようにタブが必要AD。
 
 ## <a name="connectors"></a>コネクタ
 

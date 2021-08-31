@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: メディア バイパスの計画に必要な決定は、Skype for Business Server エンタープライズ VoIP。 通話受付管理 (CAC) との相互運用が含まれます。
-ms.openlocfilehash: 7bf6be9a279d5b5f90da0274b8d271767be87f36
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b931d2415e0ac7563735181e76f539723330fe92
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630441"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733146"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>ネットワークでメディア バイパスを計画Skype for Business
 
@@ -39,7 +39,7 @@ ms.locfileid: "58630441"
 
 **メディア バイパスを使用した場合と使用しない場合の、メディアと信号の経路**
 
-![Voice CAC Media Bypass Connection Enforcement](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Voice CAC Media Bypass Connection Enforcement.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 メディア バイパスは、展開されている仲介サーバーの数を最小限に抑える場合に便利です。 通常、仲介サーバー プールは中央サイトに展開され、ブランチ サイトのゲートウェイを制御します。 メディア バイパスを有効にすると、ブランチ サイトのクライアントからの公衆交換電話網 (PSTN) 呼び出しのメディアが、それらのサイトのゲートウェイを直接通過できます。 Skype for Business Serverサイトのクライアントからの PSTN 呼び出しが適切なゲートウェイにルーティングされるエンタープライズ VoIP、発信通話ルートとポリシーを適切に構成する必要があります。
 

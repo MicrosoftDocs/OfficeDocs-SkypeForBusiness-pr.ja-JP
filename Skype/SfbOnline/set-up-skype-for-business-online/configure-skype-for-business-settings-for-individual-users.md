@@ -22,35 +22,35 @@ ms.custom:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
-description: '電話会議やビデオ会議Skype for Business通話や会議の記録など、個々のユーザーの通話設定を変更する方法について説明します。 '
-ms.openlocfilehash: 89fce818a73455aeca9a9ba668554d59daf85248
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '電話会議やビデオ会議Skype for Business通話や会議の記録など、個々のユーザーの通話の設定を変更する方法について説明します。 '
+ms.openlocfilehash: e96e33f5a83030f187c6e6c3caaee197c2d81a2f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579401"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731826"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>管理者: 個別のユーザーの Skype for Business の設定を構成する
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> 管理Microsoft Teamsセンターは、管理センター (Skype for Business ポータル) に置き換えました。 管理管理のすべての設定Skype for Business管理センター Teams表示されます。 グローバル管理者の[Azure AD 管理者](/azure/active-directory/roles/permissions-reference)ロールが割り当てられているか、Skype for Business 管理者が管理センターでSkype for Business機能を管理Teams必要があります。 詳細については、「[Microsoft Teams 管理センターで Skype for Business の設定を管理する](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)」を参照してください。
+> 管理Microsoft Teamsセンターは、管理センター (レガシ ポータルSkype for Business置き換えました。 管理用のすべての設定Skype for Business管理センター Teams表示されます。 グローバル管理者の[Azure AD 管理者](/azure/active-directory/roles/permissions-reference)ロールが割り当てられている必要があります。または、Skype for Business 管理センターでSkype for Business機能を管理するには、Teams必要があります。 詳細については、「[Microsoft Teams 管理センターで Skype for Business の設定を管理する](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)」を参照してください。
 
-この記事では、管理者がユーザー数の少ないSkype for Businessを構成する方法について説明します。 これらの手順を一括で行うには、使用できるコマンドレットWindows PowerShellリンクが含まれています。
+この記事では、管理者がユーザー数の少ないSkype for Businessを構成する方法について説明します。 これらの手順を一括で行うには、使用できるWindows PowerShellへのリンクが含まれています。
   
 社外のユーザーとの通信を許可 (またはブロック) するには、次を参照してください。
   
-- [ユーザー](allow-users-to-contact-external-skype-for-business-users.md)が外部の Skype for Business ユーザーと連絡を取る : 組織で高度な Skype for Business 機能 (デスクトップの共有、オンラインのユーザーの検索など) を使用して、特定の信頼された (フェデレーション) ビジネスのユーザーと通信できます。 この記事では、特定のドメインとの通信をブロックする方法も説明します。
+- ユーザーが外部[の Skype for Business](allow-users-to-contact-external-skype-for-business-users.md)ユーザーと連絡を取る : 組織で高度な Skype for Business 機能 (デスクトップの共有、オンラインのユーザーの検索など) を使用して、特定の信頼された (フェデレーション) ビジネスのユーザーと通信できます。 この記事では、特定のドメインとの通信をブロックする方法も説明します。
     
-- [ユーザー Skype for Business連絡先 をSkypeできます](let-skype-for-business-users-add-skype-contacts.md)。 組織で無料アプリである Skype for Businessを使用するユーザーを検索して IM Skype使用することができます。
+- [ユーザーがSkype for Businessを追加Skypeを許可します](let-skype-for-business-users-add-skype-contacts.md)。 組織で無料アプリである Skype for Businessを使用するユーザーを検索および IM Skype使用できます。
     
 ## <a name="configure-general-settings-for-one-user"></a>1 人のユーザーの一般的な設定を構成する
 <a name="__toc325019204"> </a>
 
 これらの手順を [実行するには、管理者アクセス](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 許可が必要です。
 
-![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴを表示Skype for Businessアイコン。](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
   
 1. 仕事用または学校用のアカウントでサインインします。
     
@@ -79,9 +79,9 @@ ms.locfileid: "58579401"
 ## <a name="block-external-communications"></a>外部通信をブロックする
 <a name="__toc325019206"> </a>
 
-[ユーザー[が会社Skype for Business](let-skype-for-business-users-add-skype-contacts.md)の連絡先Skype追加した後、次の手順を使用して、特定の個人の外部通信を選択的にブロックできます。
+ユーザーが[会社Skype for Business](let-skype-for-business-users-add-skype-contacts.md)の連絡先をSkypeした後、次の手順を使用して、特定の個人の外部通信を選択的にブロックできます。
   
-1. [ **ユーザー]** を選択し、設定を無効にするユーザーを選択し、[編集] を **選択** ![ します ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
+1. [ **ユーザー]** を選択し、設定を無効にするユーザーを選択し、[編集] **を選択** ![ します ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
     
 2. [外部 **通信] を** 選択し、必要に応じてオプションをオフにします。
     
@@ -107,7 +107,7 @@ ms.locfileid: "58579401"
 |**フリー ダイヤル番号** <br/> |サード パーティの ACP の場合、これらの電話番号は電話会議プロバイダーから受け取った電話番号です。 ユーザーが、Microsoft を電話会議プロバイダーとして使用している場合は、これらは電話会議ブリッジで設定されている番号となります。 会議出席依頼に表示する番号の書式を設定Skype for Business、Microsoft Teams表示します。  <br/> |
 |**会議 ID と PIN** (必須) <br/> |このユーザーによってスケジュールされ、サードパーティの電話会議プロバイダーから提供される会議に参加するために使用される、参加者の PIN または電話会議コード。 ユーザーが電話会議プロバイダーとして Microsoft を使用している場合、これは必要ありません。  <br/> |
    
-これらの設定を一括で構成するには、PowerShell を使用します。 「[招待に含まれる電話番号を設定する」を参照](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)[してください Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+これらの設定を一括で構成するには、PowerShell を使用します。 「[招待に含まれる電話番号を設定する](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)」を参照[Windows PowerShellしてください](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

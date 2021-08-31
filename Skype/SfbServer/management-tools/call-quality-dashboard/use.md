@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '概要: 通話品質ダッシュボードを使用する方法について学習します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634241"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728266"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードを使用した通話Skype for Business Server
 
@@ -40,7 +40,7 @@ CQD は、QoE (Quality of Experience) データに基づいてレポートをす
 
 通話品質ダッシュボードにアクセスすると、次の画面が表示されます。
 
-![CQD を使用する](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
+![CQD を使用します。](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. "Summary Pane" は、"レポート セット" (右側) のコンテキストが見つかる場所です。
 2. Summary PaneReport の [編集] をクリックして、レベル プロパティ (Y 軸の高さを含む) を設定します。
@@ -63,7 +63,7 @@ CQD は、QoE (Quality of Experience) データに基づいてレポートをす
 
 レポートのアクション メニューの [編集] をクリックして、レポート エディターを表示します。 各レポートは、キューブへのクエリによってバックアップされます。 レポートは、クエリによって返されるデータを視覚化します。 レポート エディターを使用すると、これらのクエリとレポートの表示オプションを編集できます。 レポート エディターを開いた場合は、次の情報が表示されます。
 
-![CQD を使用する](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
+![CQD を使用します。](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
 1. ディメンション、メジャー、およびフィルターは、左側のウィンドウで選択されます。 既存の値の 1 つをポイントすると、値を削除できる "x" ボタンが表示されます。 見出しの横にある [プラス] ボタンをクリックしてダイアログを開き、新しいディメンション、メジャー、またはフィルターを追加できます。
 2. グラフのカスタマイズのオプションが上部に表示されます。
@@ -74,7 +74,7 @@ CQD は、QoE (Quality of Experience) データに基づいてレポートをす
 
 StartDate.Month がディメンションとして追加され、データが表形式の傾向としてレンダリングされる場合、棒グラフとスパークラインを表のセル内に表示できます。 棒グラフとスパークラインの上にマウス ポインターを移動すると、個々の月の値が表示されます。
 
-![CQD を使用する](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
+![CQD を使用します。](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
 棒グラフとスパークラインを表示するには、レポート エディターの上部にある [スパークラインの表示] チェック ボックスをオンにする必要があります。 [傾向] オプションを選択し、[月] を最後のディメンションに移動します。これは、[月] をクリックし、上矢印と下矢印を使用して StartDate.Month を上下にシフトすることでも実行できます。
 
@@ -82,7 +82,7 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 [設定] メニューには、[System Health] ページや [概要] ページのような便利なページへのリンクが含まれています。ダッシュボードの右上隅にあります。
 
-![CQD を使用する](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
+![CQD を使用します。](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
 説明とタイム スタンプを表示するかどうかは個々のユーザーに対してであり、これらの設定は個々のダッシュボードのバージョンにのみ影響し、レポート セットや他のユーザーに表示される内容は変更されません。 キャッシュをクリアすると、すべてのクエリがキューブからデータを再読み込みし、既定値を復元すると、ユーザーが作成または変更したレポートすべてが削除され、システム レポート セット (ユーザーが初めてログインするときに表示される情報) が再作成されます。
 
@@ -151,7 +151,7 @@ StartDate.Month がディメンションとして追加され、データが表�
 |OwnershipTypeId |int |いいえ |CqdBuildingOwnershipType テーブルの主キー。 |
 |OwnershipTypeDesc |varchar(25) |いいえ |所有権の種類の説明。 |
 |LeaseInd |tinyint |はい |リースされた建物を識別するために使用される CqdBuildingOwnershipType テーブル内の別の行を参照するインデックス。 |
-|所有者 |varchar(50) |はい |建物の所有者。 |
+|Owner |varchar(50) |はい |建物の所有者。 |
 |||||
 
 既定では、この次の表には 1 つのエントリ (0、'Unknown'、0、null) があります。
@@ -236,7 +236,7 @@ Union を使用すると、AND 演算子を使用して条件をフィルター�
 
 ワイヤレスが内部的に管理されている場合は、Managed バケットでワイヤレス レポートを再作成できます。
 
-![CQD レポートの内訳](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
+![CQD レポートの内訳。](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
 
 ## <a name="operational-processes"></a>運用プロセス
 
