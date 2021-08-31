@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'サービスを別の Microsoft データ センターに移行するときに、Skype for Business 管理センターで使用できる機能と使用できない機能について説明します。 '
-ms.openlocfilehash: e131e3c1013b496a6e3ad8581832c628ee2057ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81badc1ab12a767ab106222ebf28fff4c54867e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581961"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731696"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>現在、Skype for Business Online 管理センターを使用できない理由
 
@@ -46,7 +46,7 @@ ms.locfileid: "58581961"
   
 - **データ センター** これは、ファイルやメール メッセージなど、Microsoft 365またはOffice 365の情報が格納される物理的な場所です。 データ センターとデータ センターのMicrosoft 365をOffice 365する場合は、この記事を[参照してください](https://www.microsoft.com/online/legal/v2/?docid=25)。
     
-- **移行** これは "移動" とほとんど同じです。 この場合は、Skype for Business Online のユーザーと設定を、お客様のサービス向上に近い別のデータセンターに移動しています。
+- **移行** これは "移動" とほとんど同じです。 この場合は、Skype for Business Online のユーザーと設定を、サービスを改善するために、お客様に近いデータセンター間で移動しています。
     
 - **待機時間** この時間は、アプリケーションにアクセスし、Microsoft 365 管理センター変更してから、それらの変更を保存するのにかかる時間です。
     
@@ -54,7 +54,7 @@ ms.locfileid: "58581961"
     
 つまり、すべての Skype for Business Online ユーザーとサービス設定を、より近い別の場所に移動しています。 近いほど良くなります。 この短い期間を過ごした後は、オンライン サービスSkype for Business向上します。
   
-![Microsoft 365 または Office 365 でのサービスの移行](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![サービスの移行 (Microsoft 365 または Office 365)。](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
 ## <a name="what-skype-for-business-online-features-will-still-work"></a>オンラインSkype for Business機能は引き続き動作しますか?
 

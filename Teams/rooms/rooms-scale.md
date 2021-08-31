@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 6102b193f49953787f9ab25d491da76f3f567dac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27cd37df8516973ddf9fbe6401a1e4c21ce01e0a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588119"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731576"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams Rooms を展開する
 
@@ -49,7 +49,7 @@ ms.locfileid: "58588119"
 
 次に示すアプローチを使用して、構成マネージャーの構成を行い、組織のニーズに応じて、このガイド全体のサンプル パッケージとスクリプトをカスタマイズします。
 
-![構成マネージャーを使用した Microsoft Teams Rooms の展開プロセス](../media/room-systems-scale-image1.png)
+![Microsoft TeamsConfiguration Manager を使用した会議室のデプロイ プロセス。](../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > この解決方法は、Surface Pro ベースの展開でのみテストされています。 Surface Pro をベースにしていない構成については、メーカーのガイドラインに従ってください。
@@ -746,7 +746,7 @@ Microsoft Endpoint Configuration Manager のタスク シーケンスを完了�
 
 9.  展開タスクのシーケンスでデバイスの構成が完了すると、Microsoft Teams Rooms のアプリケーション設定を構成するように求める次の構成画面が表示されます。
 
-    ![Microsoft Teams Rooms アプリケーションの初期セットアップ画面](../media/room-systems-scale-image2.png)
+    ![Microsoft Teams Rooms アプリケーションの初期セットアップ画面。](../media/room-systems-scale-image2.png)
 
 10.  Surface Pro を Microsoft Teams Rooms コンソールに接続し、アプリケーション設定を構成します。
 

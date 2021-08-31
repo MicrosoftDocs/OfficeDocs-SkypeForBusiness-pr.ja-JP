@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '概要: Active Directory ドメインをインストール用に準備する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: a4a224da84d1e6b4b001e9c561529b1c64b0e995
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 928873f44b9cb3ad12069964e1b7f93b410f13de
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609814"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731637"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype for Business Server: Active Directory の準備
  
@@ -30,7 +30,7 @@ ms.locfileid: "58609814"
   
 Skype for Business Server Active Directory と密接に動作します。 Active Directory ドメインを準備して、このドメインをSkype for Business Server。 このプロセスは展開ウィザードで実行され、ドメインに対して 1 回だけ実行されます。 これは、プロセスによってグループが作成され、ドメインが変更され、1 回だけ行う必要があるためです。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、図に示されている手順 6、7、および 8 を順番に実行し、手順 1 ~ 5 の後に実行する必要があります。 Active Directory の準備は、手順 4 / 8 です。 Active Directory の計画の詳細については、「環境要件 for [Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) [2019」](../../../SfBServer2019/plan/system-requirements.md)を参照Skype for Business Serverしてください。
   
-![概要図](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
+![概要図。](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>Active Directory の準備
 

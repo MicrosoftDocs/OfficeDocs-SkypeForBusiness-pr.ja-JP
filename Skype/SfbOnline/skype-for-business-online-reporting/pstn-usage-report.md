@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新しい Skype for Business 管理センター レポートの領域に、組織内の通話および電話会議のアクティビティが示されます。ここでは、レポートを掘り下げて、各ユーザーのアクティビティについてより細かい洞察を得ることができます。たとえば、 Skype for Business での PSTN 使用状況の詳細レポートを使用して、通話の着信/発信に費やした分数とそれらの通話の料金を確認できます。通話料金を含む、電話会議 PSTN 使用状況の詳細を表示することができるため、使用状況と通話請求の詳細を把握して、組織内の使用状況を見極めることができます。
-ms.openlocfilehash: 313b6e7528604cfca3b7d7b4a66986337617afa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad2ac65300e0cb1f1d1b3e879199f04506ceeb6c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614907"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731626"
 ---
 # <a name="pstn-usage-report"></a>PSTN の使用状況のレポート
 
@@ -41,7 +41,7 @@ ms.locfileid: "58614907"
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Skype for Business の PSTN 使用状況詳細レポートを取得する方法
 
-![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴのアイコンSkype for Business表示されます。](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
 
 - 管理センター > **[管理センター]** > **[Skype for Business 管理センター]** > **[レポート]** > **[PSTN 使用状況の詳細]** の順に移動します。
     
@@ -54,10 +54,10 @@ ms.locfileid: "58614907"
   
 レポートは、このように表示されます。
   
-[ ![Skype for Business PSTN 使用状況レポート](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png) ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
+[![Skype for Business PSTN 使用状況レポートを作成します。 ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
-![番号 1](../images/sfbcallout1.png)<br/>この表は、ユーザーごとの、すべての PSTN 使用状況の詳細を示しています。また、Skype for Business が割り当てられているすべてのユーザーと、ユーザーの PSTN 使用状況を示しています。表では、列を追加したり、削除したりすることができます。
+![数値 1。](../images/sfbcallout1.png)<br/>この表は、ユーザーごとの、すべての PSTN 使用状況の詳細を示しています。また、Skype for Business が割り当てられているすべてのユーザーと、ユーザーの PSTN 使用状況を示しています。表では、列を追加したり、削除したりすることができます。
 *    **通話 ID** は通話の通話 ID です。 Microsoft サービス サポートへの通話で使用される通話の識別子です。
 *    [ **ユーザー ID**] は、ユーザーのサインイン名です。
 *    **電話番号** は着信通話を受けた Skype for Business の電話番号、または発信通話でダイヤルされた番号です。
@@ -107,7 +107,7 @@ ms.locfileid: "58614907"
 > [!NOTE]
 > Telstra または Softbank の通話プランをご利用の場合、PSTN 使用状況レポートに通話の詳細な記録が表示されません。 レポートが必要な場合は、Telstra または Softbank にお問い合わせください。 
 ***
-![番号 2](../images/sfbcallout2.png)<br/>1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。
+![数値 2。](../images/sfbcallout2.png)<br/>1 つ以上の列の全データをまとめたビューを作成したい場合は、列を [ **特定の列を基準にグループ化するには、ここに列ヘッダーをドラッグ アンド ドロップします**] にクリック アンド ドラッグします。
  ***
 
 ## <a name="exporting-pstn-usage-report"></a>PSTN 使用状況レポートのエクスポート

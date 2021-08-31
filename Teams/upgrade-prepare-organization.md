@@ -1,5 +1,5 @@
 ---
-title: 組織のアップグレードを準備して、Skype for BusinessからTeams
+title: 組織をアップグレードする準備をSkype for BusinessからTeams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 変更を受け入れる組織の準備を評価し、ユーザーが変更を承認する準備を整えるSkype for BusinessをMicrosoft Teams。
+description: 変更を受け入れる組織の準備状況を評価し、ユーザーが組織から組織にアップグレードする準備をSkype for Business準備Microsoft Teams。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf2faf2c70fb06efe67e2b108d44612fb2d4b430
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7438b1b4e1625e4c3e0cabed77af517eff3cb7b3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634791"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731586"
 ---
 # <a name="prepare-your-organization"></a>組織を準備する
 
-![アップグレード体験のステージ。ユーザーの準備段階に重点を置いて](media/upgrade-banner-user-readiness.png "アップグレード体験のステージ。ユーザーの準備段階に重点を置いて")
+![ユーザーの準備段階に重点を置いたアップグレード体験のステージ。](media/upgrade-banner-user-readiness.png "アップグレード体験のステージ。ユーザーの準備段階に重点を置いて")
 
 この記事は、アップグレード体験のユーザー準備ステージの一部です。技術準備ステージと並行して完了するアクティビティです。 先に進む前に、前のステージからこれらのアクティビティを完了してください。
 
