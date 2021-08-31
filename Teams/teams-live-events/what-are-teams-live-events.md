@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 90804c7d266df81813aeccd4ed91711d6b4eaf27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b861278bd4ae8081f7bb930a94c602ba4f7507a7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635651"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726526"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Microsoft Teams のライブ イベントについて
 
@@ -43,7 +43,7 @@ Teams ライブ イベントは Skype 会議ブロードキャストの次のバ
 
 では、始めましょう。まず、Microsoft 365 ライブ イベントに関連する高レベルのコンポーネントと、それらがどのように接続されているかを示す次の図を見てください。
 
-![ライブ イベントの主要コンポーネント](../media/live-events-flow-diagram.png  "ライブ イベント、スケジュール設定、作成、ストリーム プラットフォーム、認定済みのサードパーティ eCDN プロバイダーの主要コンポーネント")
+![ライブ イベントの主要コンポーネント。](../media/live-events-flow-diagram.png  "ライブ イベント、スケジュール設定、作成、ストリーム プラットフォーム、認定済みのサードパーティ eCDN プロバイダーの主要コンポーネント")
 
 > [!Note]
 > Teams のライブ イベントは、ブロードキャスト テクノロジの性質を考えると、通常の (内部の) 会議の参加人数を超える可能性が高い点を強調したいと思います。
@@ -69,7 +69,7 @@ Teams でのライブ イベントは、複数の役割 (主催者、プロデ�
 
 Teams では、主催者は適切な参加者アクセス許可でイベントを作成すること、イベントのチーム メンバーを指定すること、作成方法を選択すること、および参加者を招待することができます。 ライブ イベントが Yammer グループ内から作成されたものであると、そのライブ イベントの参加者はイベント内のユーザーと Yammer の会話で対話できます。
 
-![新しいライブ イベント画面](../media/teams-live-events-schedule.png "新しいライブ イベントを作成およびスケジュールするための [新しいライブ イベント] 画面を示すスクリーンショット")
+![新しいライブ イベント画面。](../media/teams-live-events-schedule.png "新しいライブ イベントを作成およびスケジュールするための [新しいライブ イベント] 画面を示すスクリーンショット")
 
 > [!IMPORTANT]
 > Teams は、ユーザーがオフラインのときや、限られた帯域幅で実行しているときには、会議やライブ イベントをスケジュールできないようにします。
@@ -82,7 +82,7 @@ Teams では、主催者は適切な参加者アクセス許可でイベント�
 
 - **外部アプリまたはデバイス**: 外部エンコーダーを使用すると、ユーザーが [Stream](https://stream.microsoft.com) の外部ハードウェアまたはソフトウェア ベースのエンコーダーから直接ライブ イベントを作成することができます。 このオプションは、Real-time Messaging Protocol (RTMP) サービスへのストリーミングをサポートするスタジオ品質の機器 (メディア ミキサーなど) がすでにある場合に最適です。 この種類の作成は、一般的にエグゼクティブのタウン ホールなどの大規模なイベントで使用され、メディア ミキサーからの 1 つのストリームが視聴者にブロードキャストされます。
 
-    ![外部アプリまたはデバイスを使用して作成されたライブ イベント](../media/teams-live-events-external-encoder.png "外部アプリまたはデバイスの作成方法を使用して作成されたライブ イベントを示すスクリーンショット")
+    ![外部アプリまたはデバイスを使用して作成されたライブ イベント。](../media/teams-live-events-external-encoder.png "外部アプリまたはデバイスの作成方法を使用して作成されたライブ イベントを示すスクリーンショット")
 
 >[!Note]
 > Microsoft Stream の使用から[会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。
@@ -108,7 +108,7 @@ eCDN の目的は、インターネットからビデオ コンテンツを取�
 
 参加者の体験はライブ イベントの最も重要な側面であり、参加者が問題なくライブ イベントに参加できることが重要です。 参加者の体験は、Stream Player (Teams で作成されたイベント) と Azure Media Player (外部アプリまたはデバイスで作成されたイベント) を使用し、デスクトップ、ブラウザー、モバイル (iOS、Android) で動作します。 Microsoft 365 と Office 365 は、Yammer と Teams を 2 つの共同作業ハブとして提供し、ライブ参加者の体験はこれらの共同作業ツールに統合されています。
 
-![ライブ イベント参加者の体験の例](../media/teams-live-events-attendee.png "ライブ イベント参加者の体験を示すスクリーンショット")
+![ライブ イベント参加者の体験の例。](../media/teams-live-events-attendee.png "ライブ イベント参加者の体験を示すスクリーンショット")
 
 ### <a name="live-event-usage-report"></a>ライブ イベントの使用状況レポート
 

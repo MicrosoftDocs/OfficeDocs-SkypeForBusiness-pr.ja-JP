@@ -17,18 +17,18 @@ description: Teams 内から会議出席レポートを入手する。 このレ
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 233a76bf8c3ae2d3cd71aeddd487f606dcdbaea6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93aad3cdee1c3819ee0d524a8538608dbeba1b0c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592191"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726376"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams 会議出席レポート
 
 会議の開催者は、会議出席レポートの閲覧とダウンロードを行えます。 このレポートは、下の図に示すように会議の [**参加者**] ウィンドウで [ダウンロード] の矢印をクリックして入手します。 レポートは CSV ファイル (テキスト形式) としてダウンロードできます。
 
-:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Microsoft Teams で会議出席レポートをダウンロードするためのコントロール":::
+:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Microsoft Teams で会議出席レポートをダウンロードするためのコントロール。":::
 
 教育機関テナントの場合、このレポートはオンライン クラスで学生の出席を追跡するために役立ちます。 たとえば、簡単に "点呼" を行う方法として、教師は授業の最初に出席レポートをダウンロードできます。 詳細については、「[Teams で出席レポートをダウンロードする](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)」を参照してください。
 

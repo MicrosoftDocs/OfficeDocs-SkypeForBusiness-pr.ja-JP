@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: 教育機関におけるポリシーや EDU 設定、および Microsoft Teams でポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: 8120000599f2e0406d80a7e61b2e5720ffe2fd71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608864"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728166"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>教育機関向け Teams ポリシーおよびポリシー パッケージ
 
@@ -148,7 +148,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 
 ポリシー パッケージにリンクされているポリシーを識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、教育機関の教師に Education_Teacher ポリシー パッケージを割り当てると、パッケージ内の各ポリシーに対して Education_Teacher という名前のポリシーが作成されます。
 
-![Education_Teacher ポリシー パッケージのスクリーンショット](media/policy-packages-education_teacher.png)
+![Education_Teacher ポリシー パッケージのスクリーンショット。](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
 > 教師と管理サポート スタッフが異なるポリシーを必要としていると判断した場合は、既存のパッケージを転用できます。現在使用していないパッケージを特定し、そのグループに合わせて設定を変更します。 どのグループにどのパッケージがあるかを確認することが必要になる場合がありますが、これはパッケージの転用における唯一の障害です。
@@ -178,7 +178,7 @@ Microsoft Teams には現在、次のポリシー パッケージが含まれま
 
 1 人または複数のユーザーにポリシー パッケージを割り当てるには、Microsoft Teams 管理センターの左側のナビゲーションから、[**ポリシー パッケージ**] に移動し、[**ユーザーの管理**] を選択します。  
 
-![管理センターでポリシー パッケージを割り当てる方法のスクリーンショット](media/policy-packages-healthcare-assign.png)
+![管理センターでポリシー パッケージを割り当てる方法のスクリーンショット。](media/policy-packages-healthcare-assign.png)
 
 詳細については、[「ポリシー パッケージを割り当てる」](manage-policy-packages.md#assign-a-policy-package)を参照してください。
 

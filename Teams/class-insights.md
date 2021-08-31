@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76254b414bd282f75a01decc5016e5ae476a0f21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b09b6c6e42fcdd150d5aa95ebd56c9eaec36e01c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607844"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726666"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -96,11 +96,11 @@ Insights では、クラスチーム内のすべてのチャネルのアクテ�
 * **Insights** を検索して選択します。
 * 説明画面が開きます。 **[追加]** をクリックします。
 
-:::image type="content" source="media/insights-add-personal-app.png" alt-text="Teams に Insights を追加する":::
+:::image type="content" source="media/insights-add-personal-app.png" alt-text="Teams に Insights を追加します。":::
 
 * Insightsアイコンを右クリックし、**[固定]** を選択します。
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="Insights アプリを固定する":::
+:::image type="content" source="media/insights-pin-app.png" alt-text="Insights アプリを固定します。":::
 
 > [!TIP]
 > 次のリンクから Insights アプリを見つけることもできます。[https://aka.ms/addInsights](https://aka.ms/addInsights)

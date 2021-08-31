@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66c3aec34baa10dc0cda644d84611800a8e9d97a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597671"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725828"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -38,21 +38,21 @@ ms.locfileid: "58597671"
 
 |ユーザーが設定|アプリが設定|
 |:--- |:---|
-| ![塗りつぶした緑のチェックマークは、連絡可能な状態を示す](media/Presence_Available.png) 連絡可能|![塗りつぶした緑のチェックマークは、連絡可能な状態を示す](media/Presence_Available.png) 連絡可能|
-|| ![緑枠のチェックマークは、連絡可能な外出中の状態を示す](media/Presence_Available_OOF.png) 連絡可能、外出中。 注: 「外出中」は、ユーザーが「自動返信」を設定した期間に自動的に設定されます。 ユーザーがこれらの期間中にアプリを使用している場合、「外出中、連絡可能」などの二重のプレゼンスが表示される場合があります。 |
-|  ![塗りつぶした赤い丸は、取り込み中を示す](media/Presence_Busy.png) 取り込み中 |  ![塗りつぶした赤い丸は、取り込み中を示す](media/Presence_Busy.png) 取り込み中  |
-|| ![塗りつぶした赤い丸は、通話のための取り込み中を示す](media/Presence_Busy.png) 通話中|
-|| ![塗りつぶした赤い丸は、会議のための取り込み中を示す](media/Presence_Busy.png) 会議中 |
-|| ![赤枠の丸は、取り込み中を示す](media/Presence_Busy_OOF.png) 通話中、外出中|
-|  ![白線の入った赤い丸は、応答不可を示す](media/Presence_DND.png) 応答不可 ||
-|| ![白線の入った赤い丸は、発表中を示す](media/Presence_DND.png) 発表中|
-|| ![白線の入った赤い丸は、フォーカスを示す](media/Presence_DND.png) フォーカスは、ユーザーがカレンダーの MyAnalytics / Insights でフォーカス時間をスケジュールしたときに表示されます。|
-| ![黄色の時計アイコンは、退席中を示す](media/Presence_Away.png) 退席中| ![黄色の時計アイコンは、退席中を示す](media/Presence_Away.png) 退席中|
+| ![塗りつぶした緑のチェックマークは、連絡可能な状態を示します。](media/Presence_Available.png) 連絡可能|![塗りつぶした緑のチェックマークは、連絡可能な状態を示す](media/Presence_Available.png) 連絡可能|
+|| ![緑枠のチェックマークは、連絡可能な外出中の状態を示します。](media/Presence_Available_OOF.png) 連絡可能、外出中。 注: 「外出中」は、ユーザーが「自動返信」を設定した期間に自動的に設定されます。 ユーザーがこれらの期間中にアプリを使用している場合、「外出中、連絡可能」などの二重のプレゼンスが表示される場合があります。 |
+|  ![塗りつぶした赤い丸は、取り込み中を示します。](media/Presence_Busy.png) 取り込み中 |  ![塗りつぶした赤い丸は、取り込み中を示す](media/Presence_Busy.png) 取り込み中  |
+|| ![塗りつぶした赤い丸は、通話のための取り込み中を示します。](media/Presence_Busy.png) 通話中|
+|| ![塗りつぶした赤い丸は、会議のための取り込み中を示します。](media/Presence_Busy.png) 会議中 |
+|| ![赤枠の丸は、取り込み中を示します。](media/Presence_Busy_OOF.png) 通話中、外出中|
+|  ![白線の入った赤い丸は、応答不可を示します。](media/Presence_DND.png) 応答不可 ||
+|| ![白線の入った赤い丸は、発表中を示します。](media/Presence_DND.png) プレゼンテーション|
+|| ![白線の入った赤い丸は、フォーカスを示します。](media/Presence_DND.png) フォーカスは、ユーザーがカレンダーの MyAnalytics / Insights でフォーカス時間をスケジュールしたときに表示されます。|
+| ![黄色の時計アイコンは、退席中を示します。](media/Presence_Away.png) [退席中]| ![黄色の時計アイコンは、退席中を示します。](media/Presence_Away.png) 退席中|
 || ![黄色の時計アイコンは、退席中を示す *前回の退席中表示](media/Presence_Away.png)時刻*|
-|![黄色の時計アイコンは、一時退席中を示す](media/Presence_Away.png) 一時退席中| |
-|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン表示|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン。ユーザーがどのデバイスにも数分間ログインしていない場合、ユーザーはオフラインとして表示されます。 | |
-|| ![灰色枠の丸は、状態不明を示す](media/Presence_Unknown.png) 状態不明|
-|| ![矢印付き紫色の丸、外出中を示す](media/Presence_OOF.png) 外出中。自動応答が設定されている場合、外出中が使用されます。 |
+|![黄色の時計アイコンは、一時退席中を示します。](media/Presence_Away.png) 一時退席中| |
+|![X マーク付き灰色の丸、オフラインを示します。](media/Presence_Offline.png) オフライン表示|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン。ユーザーがどのデバイスにも数分間ログインしていない場合、ユーザーはオフラインとして表示されます。 | |
+|| ![灰色枠の丸は、状態不明を示します。](media/Presence_Unknown.png) 状態不明|
+|| ![矢印付き紫色の丸、外出中を示します。](media/Presence_OOF.png) 外出中。自動応答が設定されている場合、外出中が使用されます。 |
 |||
  > [!NOTE]
  > メールボックスをオンプレミスで運用しているユーザーの場合、プレゼンスは最大 1 時間程度の遅延が予想されます。
