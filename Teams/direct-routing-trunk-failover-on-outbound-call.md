@@ -15,17 +15,17 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: このトピックを読んで、Teams からセッション ボーダー コントローラー (SBC) への発信呼び出しでトランク フェールオーバーを処理する方法について説明します。
-ms.openlocfilehash: 878a4735585ee183f0156b44c253b079c2e6e24c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: このトピックでは、セッション ボーダー コントローラー (SBC) への発信呼び出しTeamsを処理する方法について説明します。
+ms.openlocfilehash: 83320e93df7cbf476d71b3b9165d50ca387292b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619453"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727866"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>発信通話でのトランクのフェイルオーバー
 
-このトピックでは、発信呼び出し (セッション ボーダー コントローラー (SBC) Teamsのトランク フェールオーバーを回避する方法について説明します。
+このトピックでは、送信呼び出し (セッション ボーダー コントローラー (SBC) Teamsのトランク フェールオーバーを回避する方法について説明します。
 
 ## <a name="failover-on-network-errors"></a>ネットワーク エラーでのフェールオーバー
 
@@ -34,7 +34,7 @@ ms.locfileid: "58619453"
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>セッション ボーダー コントローラー (SBC) から受信した特定の SIP コードのフェールオーバー
 
-ダイレクト ルーティングが送信招待に応答して 4xx または 6xx の SIP エラー コードを受信した場合、呼び出しは既定で完了したと見なされます。 送信とは、Teams クライアント -> ダイレクト ルーティング -> SBC -> テレフォニー ネットワーク) のトラフィック フローを使用して、Teams クライアントから公衆交換電話網 (PSTN) への呼び出しを意味します。
+ダイレクト ルーティングが送信招待に応答して 4xx または 6xx の SIP エラー コードを受信した場合、呼び出しは既定で完了したと見なされます。 送信とは、Teams Client -> Direct Routing -> SBC -> Telephoney ネットワークのトラフィック フローを使用して、Teams クライアントから公衆交換電話網 (PSTN) への呼び出しを意味します。
 
 SIP コードの一覧は、セッション開始プロトコル [(SIP) RFC に記載されています](https://tools.ietf.org/html/rfc3261)。
 
@@ -42,15 +42,15 @@ SBC が"408 Request Timeout: The server could not produce a response within a su
 
 この特定の SBC では、ネットワークの構成ミスや他のエラーが原因で、呼び出し先への接続に問題がある可能性があります。 ただし、呼び出し先に到達できる可能性がある SBC がルートに 1 つ追加されます。
 
-次の図では、ユーザーが電話番号に通話を行った場合、この通話を配信できる可能性のある 2 つの SBC がルートに含まれます。 最初は SBC1.contoso.com に選択されますが、SBC1.contoso.com の問題により、PTSN ネットワークに到達できない場合があります。
+次の図では、ユーザーが電話番号に通話を行った場合、この通話を配信できる可能性のある 2 つの SBC がルートに含まれます。 最初に SBC1.contoso.com が選択されますが、SBC1.contoso.com の問題により、PTSN ネットワークに到達できない場合があります。
 既定では、この時点で呼び出しが完了します。 
  
-![ネットワークの問題が原因で SBC が PSTN に到達できない状態を示す図](media/direct-routing-failover-response-codes1.png)
+![ネットワークの問題が原因で SBC が PSTN に到達できない状態を示す図。](media/direct-routing-failover-response-codes1.png)
 
 ただし、ルートには、呼び出しを配信できる可能性のある SBC がもう 1 つ含めています。
 パラメーター を構成すると、2 つ目の SBC が試み `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"` SBC2.contoso.com 図のようになります。
 
-![第 2 の SBC へのルーティングを示す図](media/direct-routing-failover-response-codes2.png)
+![第 2 の SBC へのルーティングを示す図。](media/direct-routing-failover-response-codes2.png)
 
 -FailoverResponseCodes パラメーターを設定し、コードを指定すると、ルーティングを微調整し、SBC がネットワークなどの問題のために呼び出しを行えなくなる場合の潜在的な問題を回避するのに役立ちます。
 

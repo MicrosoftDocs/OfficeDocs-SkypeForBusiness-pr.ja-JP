@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: '概要: これらのリンクを参照して、Skype for Business Server 2015 の機能、サーバー、トポロジを構成するための概念的、論理的、および物理的な設計を開発する方法について説明します。'
-ms.openlocfilehash: 1408b3ff5cd609ccb3a415a0bd42867e81de2ecc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b21bb0e5d2b557fa442857f6bc17e33c04d8f5e4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578741"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732566"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>2015 年Skype for Business Server計画する
  
@@ -37,8 +37,8 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
   
 ||**コンテンツ**|**説明**|
 |:--- |:--- |:--- |
-|![技術図のアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[2015 年のSkype for Business Server図](../technical-diagrams.md) <br/> |大判の図によって各アーキテクチャを一目で確認できます。  <br/> |
-|![ビデオのアイコン](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[Skype for Business: 簡単な概要](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) <br/> [Skype for Business: 新しいユーザー向けステップ バイ ステップ ガイド](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be) <br/> |ビデオプレゼンテーションとトレーニングをSkype for Business。  <br/> |
+|![技術図のアイコン。](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[2015 年のSkype for Business Server図](../technical-diagrams.md) <br/> |大判の図によって各アーキテクチャを一目で確認できます。  <br/> |
+|![ビデオのアイコン。](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|[Skype for Business: 簡単な概要](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) <br/> [Skype for Business: 新しいユーザー向けステップ バイ ステップ ガイド](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be) <br/> |ビデオプレゼンテーションとトレーニングをSkype for Business。  <br/> |
    
 ##  <a name="articles-about-planning-for-skype-for-business-server"></a>サイトの計画に関するSkype for Business Server
 
@@ -46,7 +46,7 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
   
 |**ソリューションの計画**|**サーバーアーキテクチャ、クライアント、デバイスの計画**|
 |:-----|:-----|
-|![ソリューション コンテンツのアイコン](../media/3959ce46-bd94-40be-8a58-6108bc3583a8.png)           <br/> 組織に最適なソリューションを判断するには、次の記事を参照してください。  <br/> |![サーバー アーキテクチャ コンテンツのアイコン](../media/1d7d8156-1ca9-4124-a17f-6bce5aa91966.png)           <br/> サーバー アーキテクチャとクライアントとデバイスのサポートを計画するには、次の記事を参照してください。  <br/> |
+|![ソリューション コンテンツのアイコン。](../media/3959ce46-bd94-40be-8a58-6108bc3583a8.png)           <br/> 組織に最適なソリューションを判断するには、次の記事を参照してください。  <br/> |![サーバー アーキテクチャ コンテンツのアイコン](../media/1d7d8156-1ca9-4124-a17f-6bce5aa91966.png)           <br/> サーバー アーキテクチャとクライアントとデバイスのサポートを計画するには、次の記事を参照してください。  <br/> |
 |**[2015 年](instant-messaging-and-presence.md)** にインスタント メッセージングとプレゼンスをSkype for Business Serverするインスタント メッセージング (IM) とプレゼンスに関する要件は何ですか? インスタント メッセージング (IM) とプレゼンスは、Skype for Business Server のすべての展開に含まれていますが、技術的な要件、外部ユーザーとの通信、アーカイブに関する決定を行う必要があります。 <br/> |**[2015 年の環境Skype for Business Server要件](requirements-for-your-environment/environmental-requirements.md)** <br/> **[2015 年のサーバー Skype for Business Server要件](requirements-for-your-environment/server-requirements.md)** <br/> **[2015 年のネットワーク要件Skype for Business計画する](network-requirements/network-requirements.md)** <br/> これらのトピックを最初に読んで、このトピックの前提条件を確認Skype for Business Server。  <br/> |
 |**[2015 年エンタープライズ VoIPソリューションを](enterprise-voice-solution/enterprise-voice-solution.md)** 計画Skype for Business Serverする音声要件は何ですか? 組織の電話システムを組織の電話システムと組織の展開とどのように統合Skype for Business Serverします。エンタープライズ VoIPは、最も完全な音声サービスです。ボイス オーバー IP (VoIP) ソリューションは、Outlook および Exchange との統合を含む豊富な機能セットを提供します。Call Via Work は、既存の PBX 電話システムSkype for Businessソリューションを統合する方法を提供します。 <br/> |**[トポロジ 2015 Skype for Business Serverの基本](topology-basics/topology-basics.md)** 他に何かを準備する前に、ユーザーが適切なトポロジを計画している必要Skype for Business Server。 最初に決定する必要があるのは、Skype for Business Server のオンプレミス展開を行う場合、またはハイブリッド展開でこれを Skype for Business Server Online 展開と組み合わせる場合です。 トポロジとサーバーのコロケーションシナリオを計画するには、このセクションのトピックを参照してください。 <br/> |
 |**[2015 年のビデオ相互運用サーバー Skype for Business Serverする](video-interop-server.md)** 組織のビデオ要件は何ですか? このSkype for Business Serverビデオ相互運用サーバーは、Cisco の電話会議システム (VTC) と直接統合できます。 ビデオ機能と技術的な要件について説明します。 <br/> |**[2015 年にアップグレードSkype for Business Serverする](upgrade.md)** 以前のバージョンの Lync Server からアップグレードしていますか? アップグレードを計画する方法に関する情報を確認します。 <br/> |
@@ -62,6 +62,6 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
   
 ||**コンテンツ**|**説明**|
 |:--- |:--- |:--- |
-|![ドキュメントのアイコン](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server IT のプロ向け情報](../../Hub/index.yml) <br/> |リソース センターにアクセスして、ビデオ、コミュニティ サイト、ドキュメント、ダウンロードなどへアクセスします。  <br/> |
-|![開発者向けコンテンツのアイコン](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype開発者プラットフォーム](/skype-sdk/skypedeveloperplatform) <br/> |コード サンプル、トレーニングSkype for Business Server SDK など、ユーザーの開発者向けリソースを検索します。  <br/> |
-|![ニュース、ブログなどのためのアイコン](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skypeチームブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |作成し、ドキュメントを作成するチームからのニュースにSkype for Business Server。  <br/> |
+|![ドキュメントのアイコン。](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server IT のプロ向け情報](../../Hub/index.yml) <br/> |リソース センターにアクセスして、ビデオ、コミュニティ サイト、ドキュメント、ダウンロードなどへアクセスします。  <br/> |
+|![開発者向けコンテンツのアイコン。](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype開発者プラットフォーム](/skype-sdk/skypedeveloperplatform) <br/> |コード サンプル、トレーニングSkype for Business Server SDK など、ユーザーの開発者向けリソースを検索します。  <br/> |
+|![ニュース、ブログなどのためのアイコン。](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skypeチームブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |作成し、ドキュメントを作成するチームからのニュースにSkype for Business Server。  <br/> |

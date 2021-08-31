@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 通話品質ダッシュボード レポートを使用して、通話Power BI履歴データ自動応答を表示する方法について説明します。
-ms.openlocfilehash: cd32c732162c15cdaf4cfeac4c83cb53ebd5fe10
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a474b2f8e4acc89a92edcc0b20f1414d8cf38fde
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598621"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732736"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動応答 &キュー履歴レポート
 
@@ -42,7 +42,7 @@ CQD Teams 自動応答 & Call Queue Historical Report Power BI テンプレー�
 ## <a name="prerequisites"></a>前提条件
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-インストールされている必要Power BI Desktopがあります。 Microsoft Windows Store[からインストールできます](https://aka.ms/pbidesktopstore)。
+インストールする必要Power BI Desktopがあります。 Microsoft Windows Store[からインストールできます](https://aka.ms/pbidesktopstore)。
 
 無料バージョンの Power BI Desktop。 互換性のある最小バージョンは 2.85.681.0 (2020 年 9 月) です。
 
@@ -64,7 +64,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 
 - CQD データ パイプライン リージョンを選択するように求めるメッセージが表示されます。 テナントがあるリージョンを選択します。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="CQD データ パイプラインリージョンの選択のスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="CQD データ パイプラインリージョンを選択したスクリーンショット。":::
 
 - テナントがあるリージョンは [、Get-CsTenant コマンドレットを使用して取得](/powershell/module/skype/get-cstenant) できます。
 
@@ -79,15 +79,15 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 
  - レポートが起動し、サンプル データが表示されます。
  
- - 独自のデータを表示するには、[ホーム] タブの [クエリ] で [更新] Power BI Desktop。
+ - 独自のデータを表示するには、[ホーム] タブの [クエリ] の [更新] を選択Power BI Desktop。
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="更新オプションを選択したスクリーンショット":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="更新オプションを選択したスクリーンショット。":::
 
 - その後、サインインを求めるメッセージが表示されます。 [組織 **アカウント] を選択** し、[サインイン **] を選択します**。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="ログインを示すスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="ログインを示すスクリーンショット。":::
 
-- [Connect]**を** 選択し、データの更新を確認します。
+- **[Connect** を選択し、データの更新を確認します。
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>データの待機時間と AA & CQ 分析
 
@@ -108,11 +108,11 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 次の手順を実行します。
 - リボンの **[表示] タブ** を選択します。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="配色を変更する [ビュー] タブを選択するスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="配色を変更する [表示] タブを選択するスクリーンショット。":::
 
 - ドロップダウン リストからカラー スキーマを選択します。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="さまざまな配色を示すスクリーンショット":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="さまざまな配色を示すスクリーンショット。":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>自動応答と呼び出しキューの履歴レポートの定義
 
@@ -167,7 +167,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |AACount                                 |text                     |通話に関係する自動応答の数                               |
 |AADirectorySearchMethod                 |text                     |最後のアドレス帳の検索方法 -- 指定可能な値:<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |日付/時刻                |自動応答開始時刻                                           |
-|AATransferAction                        |text                     |呼び出し転送ターゲットの種類 -- 指定可能な値:<br><br>***§ application - 音声アプリケーション エンティティ**§ external_pstn §_<br> <br> hunt_group_*_- Call Queue entity_* _<br>_ * _§ orgaa - Organizational 自動応答 entity_**<br>§ shared_voicemail<br>§ unknown<br>§ user |
+|AATransferAction                        |text                     |呼び出し転送ターゲットの種類 -- 指定可能な値:<br><br>***§ application - voice application entity**§_<br> external_pstn <br>_§ hunt_group - Call Queue *_entity_* _<br>_ * _§ orgaa - organizational 自動応答 entity_**<br>§ shared_voicemail<br>§ unknown<br>§ user |
 |通話の種類<sup>1</sup>                   |text                     |呼び出しの種類 -- 指定可能な値:<br><br>§ External<br>§ Internal         |
 |IsAAInvolved                            |text                     |常に 1                                                                 |
 |PSTNMinutes                             |数値全体             |要約: 合計<br>分の合計使用量                                     |
@@ -201,14 +201,14 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |fCallQueueAnalytics          |CallQueueAnalytics           |なし             |
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |なし             |
 
-|レポート セクション                      |Table -> フィールドの使用                |適用されたフィルター       |
+|レポート セクション                      |Table -> フィールド Used                |適用されたフィルター       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |日付セレクター                       |Dates -> DateTime                     |なし                  |
 |キュー ID の呼び出し                 |dCQ-CQIdentity -> 呼び出しキュー ID |なし                  |
 |着信通話ソース<sup>1</sup>    |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> 呼び出しの種類    |外部呼び出し: 通話の種類は外部<br>内部呼び出し: 呼び出しの種類は内部です |
 |平均待機時間                    |fCallQueueFinalStateAction ->平均呼び出し時間 (秒) |転送前: 通話キュー呼び出しの結果がagent_joined_conferenceまたはtransferred_to_agent<br>電話を切る前: 通話キュー呼び出しの結果がagent_joined_conferenceまたはtransferred_to_agent |
 |呼び出し結果                         |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Call Result | なし |
-|Timeout/Overflow 呼び出しの合計アクション |fCallQueueFinalStateAction -> Call Count<br>fCallQueueFinalStateAction -> Call Queue Final State Action |呼び出しキューの最終状態アクションが転送されない |
+|Timeout/Overflow 呼び出しの合計アクション |fCallQueueFinalStateAction ->呼び出し数<br>fCallQueueFinalStateAction -> Call Queue Final State Action |呼び出しキューの最終状態アクションが転送されない |
 |転送/Forard ターゲットの合計       |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Target Type |なし |
 |通話ボリューム                        |fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Call Queue Identify<br>fCallQueueAnalytics -> Date |なし |
 |破棄された呼び出し                     |fCallQueueAnalytics -> %Abandoned Calls<br>fCallQueueAnalytics -> Call Count<br>fCallQueueAnalytics -> Date<br>fCallQueueAnalytics -> IsAbandoned |IsAbandoned は True です |
@@ -218,7 +218,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 
 |名前                                    |データ型                |説明                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|キュー ID の呼び出し                     |text                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com、** この値は次の値 **cq_test** |
+|キュー ID の呼び出し                     |text                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com、** この値は次 **の値cq_test** |
 
 #### <a name="fcallqueueanalytics-cqd-fields-description"></a>fCallQueueAnalytics CQD フィールドの説明
 
@@ -226,7 +226,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |通話数                              |数値全体             |要約: 合計<br>通話の数                                          |
 |キュー呼び出しの結果を呼び出す                  |text                     |呼び出しキュー呼び出しの最終状態 -- 可能な値:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|キュー ID の呼び出し                     |text                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com、** この値は次の値 **cq_test** |
+|キュー ID の呼び出し                     |text                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com、** この値は次 **の値cq_test** |
 |呼び出しキュー ターゲットの種類                  |text                     |***呼び出しリダイレクトターゲットの種類 -- 可能な値:***<br><br>§ ApplicationEndpoint<br>§ Mailbox<br>§ Other<br>§ User |
 |通話の種類<sup>1</sup>                   |text                     |呼び出しの種類 -- 指定可能な値:<br><br>§ External<br>§ Internal           |
 |日付                                    |日付/時刻                |通話キュー呼び出しの開始日時 (時間) (UTC)                           | 
@@ -250,7 +250,7 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |通話数                              |数値全体             |要約: 合計<br>通話の数                  |
 |キュー呼び出しの結果を呼び出す                  |text                     |呼び出しキュー呼び出しの最終状態 -- 可能な値:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
 |呼び出しキューの最終状態アクション           |text                     |呼び出しキューの最終的なアクション -- 可能な値:<br><br>§ disconnect<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ ボイスメール |
-|キュー ID の呼び出し                     |text                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com、** この値は次の値 **cq_test** |
+|キュー ID の呼び出し                     |text                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com、** この値は次 **の値cq_test** |
 |日付                                    |日付/時刻                |通話キュー呼び出しの開始日時 (時間) (UTC)   |
 |IsAbandoned                             |true/false               |エージェントが呼び出しに応答しない場合は true           |
 
@@ -292,13 +292,13 @@ CQ Analytics 履歴レポートの AA &に使用するアカウントには、CQ
 |平均通話時間 (秒)          |10 進数           |要約: 合計<br>通話キュー呼び出しの平均継続時間 (秒) |
 |通話数                              |数値全体             |要約: 合計<br>エージェントによって処理される呼び出しの数                    |
 |通話時間 (分)                  |数値全体             |要約: 合計<br>通話キュー呼び出しの合計通話時間 (分単位)  |
-|通話キュー名                         |text                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com、** この値は次の値 **cq_test** |
+|通話キュー名                         |text                     |通話キューに接続されているリソース アカウントの名前<br><br>完全なリソース アカウント名が指定されている **cq_test@microsoft.com、** この値は次 **の値cq_test** |
 |日付                                    |date                     |                                                    |
 
 
 > [!NOTE]
-> 1) このレポートは、エージェントの観点から見た通話数を示します。そのため、このレポートの呼び出し回数の合計は、通常 **、Cloud Call Queue Analytics** レポートの呼び出しの総数よりも多くなります。 キュー内の各呼び出しは、応答する前に少なくとも 1 回は 1 つ以上のエージェントに表示できます。 エージェントに対して提示された呼び出しキューの呼び出しは、エージェントによって応答されなくても、このレポートでカウントされます。 これら 2 つのレポートの呼び出し回数の違いは、すべての呼び出しに対してすべてのエージェントを呼び出す **ア** テンダント ルーティング オプションの方が顕著です。 
-> 2) 呼び出しが最初の呼び出しキューに最初に到着すると、そのキューで既に待機している呼び出しの数が呼び出しオーバーフロー処理の制限を超えた場合、リダイレクト オプションが 2 番目の呼び出しキューに呼び出しを送信した場合、2 番目の呼び出しキュー内のエージェントは、このレポートの最初の呼び出しキューにあると表示されます。 
+> 1) このレポートは、エージェントの観点からの呼び出し回数を示します。そのため、このレポートの呼び出し数の合計は、通常 **、Cloud Call Queue Analytics** レポートの呼び出しの総数よりも多くなります。 キュー内の各呼び出しは、応答する前に少なくとも 1 回は 1 つ以上のエージェントに表示できます。 エージェントに対して提示された呼び出しキューの呼び出しは、エージェントによって応答されなくても、このレポートでカウントされます。 これら 2 つのレポートの呼び出し回数の違いは、すべての呼び出しに対してすべてのエージェントを呼び出す **ア** テンダント ルーティング オプションの方が顕著です。 
+> 2) 呼び出しが最初の呼び出しキューに最初に到着すると、そのキューで既に待機している呼び出しの数が呼び出しオーバーフロー処理の制限を超えた場合、リダイレクト オプションが 2 番目の呼び出しキューに呼び出しを送信した場合、2 番目の呼び出しキューのエージェントは、このレポートの最初の呼び出しキューに存在すると表示されます。 
 
 ## <a name="known-issues"></a>既知の問題
 

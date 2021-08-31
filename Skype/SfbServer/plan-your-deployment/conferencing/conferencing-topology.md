@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: '概要: このトピックを参照して、会議トポロジを計画する方法についてSkype for Business Server。'
-ms.openlocfilehash: d5a048603e68b020f0aba750a4dd34cfd334f182
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 09d793a75ab72ef96d3ded85156c99a7590e087d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599912"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732636"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>電話会議のトポロジを計画Skype for Business Server
  
@@ -103,7 +103,7 @@ Skype for Business Server Web Apps Server/Officeを構成する次Office Online 
   
 **大規模な会議トポロジ**
 
-![大規模な会議トポロジ](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
+![大規模な会議トポロジ。](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
 大規模な会議をホストするユーザーは、フロントエンド プールに自分のユーザー アカウントを持っている必要があります。 ただし、このプールに他のユーザー アカウントをホストすることはお勧めしません。 代わりに、大規模な会議にのみ使用します。 ベスト プラクティスは、大規模な会議のホストにのみ使用する特殊なユーザー アカウントをこのプールに作成することです。 大規模な会議設定はパフォーマンスに最適化されています。通常のユーザーとして使用すると、PSTN エンドポイントが関係する場合に P2P セッションを会議に昇格させるなど、問題が発生する可能性があります。
   

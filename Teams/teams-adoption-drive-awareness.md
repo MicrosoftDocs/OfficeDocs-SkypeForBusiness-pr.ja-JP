@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7590d2041ed64f62765b33c291414abb618d1699
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625869"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725536"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
@@ -51,15 +51,15 @@ ms.locfileid: "58625869"
 
 リソースを使用して、ユーザーが他のサービスやサービスを使い始めるMicrosoft Teamsエンド Microsoft 365提供Office 365します。 詳細については、リソース ページを参照してください。
 
-- [講師主導のエンド ユーザーによるトレーニング (Teams](instructor-led-training-teams-landing-page.yml)
-- [管理者向けトレーニング Teams](itadmin-readiness.md)
+- [講師主導のエンド ユーザー によるトレーニング (Teams](instructor-led-training-teams-landing-page.yml)
+- [管理者向けトレーニングTeams](itadmin-readiness.md)
 - [オンライン エンドユーザー ビデオ トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [IT プロのチャンピオン向けクラウド オンライン トレーニング&コーヒー](https://aka.ms/CoffeeintheCloud) 
+- [IT プロ向けクラウド オンライン トレーニングでの&トレーニング](https://aka.ms/CoffeeintheCloud) 
 - [導入ツール](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>成功を測定、共有する
 
-コミュニケーションや導入キャンペーンと同様に、成功の測定値を前もって特定する必要があります。 次の点を考慮してください。
+通信および導入キャンペーンと同様に、成功の測定値を前もって特定する必要があります。 次の点を考慮してください。
 
 - 製品を積極的に利用するユーザー
 - 情報 Web ページの表示回数
@@ -67,8 +67,8 @@ ms.locfileid: "58625869"
 - トレーニング ビデオの再生回数
 - 学習イベントの参加者
 
-フィードバック チャネルから得た分析情報をハッシュタグ と共有#TeamsStories簡単に取得できます。 1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。 また、Microsoft Technical Community の Driving Adoption フォーラムで共有してください。 これらの実際の例を自分の会社内から共有すると、ユーザー コミュニティで時間の過ぎた変化を実現するために非常に重要です。
+フィードバック チャネルから得た分析情報を、簡単に取得できるハッシュタグ #TeamsStories共有します。 1 か月ごとに、イントラネットで #TeamsStory を共有し、組織での生産性とコラボレーションを向上するために変更を受け入れている従業員をハイライト表示します。 また、Microsoft Technical Community の Driving Adoption フォーラムで共有してください。 これらの実際の例を自分の会社内から共有すると、ユーザー コミュニティで時間の過ぎた変化を実現するために非常に重要です。
 
 [詳細については、Microsoft Teamsの使用状況レポートに関するMicrosoft 365 管理センター。](teams-activity-reports.md)
 
-![次の手順を示すアイコン ](media/teams-adoption-next-icon.png) 次: サービス正常性レビュー [をスケジュールする](teams-adoption-schedule-service-health-reviews.md)
+![次の手順を示すアイコン。](media/teams-adoption-next-icon.png) 次へ: [サービス正常性レビューのスケジュールを設定する](teams-adoption-schedule-service-health-reviews.md)

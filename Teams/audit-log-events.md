@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91111f211234058d9b438f8100e0310eec7a9db0
-ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
+ms.openlocfilehash: b0e2c1cf68097aede8fefd6410791ac103fcea68
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386696"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725666"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -63,11 +63,11 @@ ms.locfileid: "58386696"
 
 ここでは、監査ログで Teams アクティビティを検索するためのヒントをご紹介します。
 
-![監査ログ検索ページのスクリーンショット](media/audit-log-search-page.png)
+![監査ログ検索ページのスクリーンショット。](media/audit-log-search-page.png)
 
 - 検索する特定のアクティビティを選択するには、アクティビティ名をクリックします。 またはグループ名をクリックして、グループ内のすべてのアクティビティ ([**ファイルとフォルダーのアクティビティ**] など) を検索できます。 アクティビティが選択されている場合は、そのアクティビティをクリックして、選択を取り消すことができます。 また、検索ボックスを使用して、入力したキーワードを含むアクティビティを表示することもできます。
 
-  ![監査ログ検索のスクリーンショット](media/audit-log-search.png)
+  ![監査ログ検索のスクリーンショット。](media/audit-log-search.png)
 
 - cmdlets を使用して実行したアクティビティのイベントを表示するには、**[アクティビティ]** リストの **[すべてのアクティビティの結果を表示]** を選択します。 これらのアクティビティの操作の名前がわかっている場合は、すべてのアクティビティを検索し、**[アクティビティ]** 列に操作の名前を入力することで、結果をフィルター処理することができます。 詳細については、「[手順 3: 検索結果をフィルター処理する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)」を参照してください。
 
@@ -87,13 +87,13 @@ ms.locfileid: "58386696"
 
 ビジネスの観点から注意したいシナリオの一つに、Teams 環境に外部ユーザーを追加することがあります。 外部ユーザーが有効になっている場合は、そのプレゼンスを監視することをお勧めします。  [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) を使用して、脅威の可能性を特定することができます。
 
-![外部ユーザーの追加を監視するポリシー](media/TeamsExternalUserAddPolicy.png)
+![外部ユーザーの追加を監視するポリシー。](media/TeamsExternalUserAddPolicy.png)
 
 外部ユーザーの追加を監視するこのポリシーのスクリーンショットでは、ポリシーに名前を付け、ビジネスの必要に応じて重大度を設定し、(この場合は) 単一のアクティビティとして設定した上で、内部ユーザー以外の追加のみを具体的に監視するパラメーターを設定し、このアクティビティを Teams に限定することができます。
 
 本ポリシーの結果は、次の活動ログで確認することができます。
 
-![外部ユーザー ポリシーによってトリガーされるイベント](media/TeamsExternalUserList.png)
+![外部ユーザー ポリシーによってトリガーされるイベント。](media/TeamsExternalUserList.png)
 
 ここでは、設定したポリシーとの一致を確認し、必要に応じて調整を行ったり、結果をエクスポートして他の場所で使用することができます。
 
@@ -101,13 +101,13 @@ ms.locfileid: "58386696"
 
 前述したように、削除シナリオを監視することができます。 Teams サイトの大量削除を監視するポリシーを作成することができます。 この例では、30 分間隔でチームの大量削除を検知するアラートベースのポリシーを設定しています。
 
-![一括チーム削除検出のポリシーの設定を示すポリシー](media/TeamsMassDeletePolicy.png)
+![一括チーム削除検出のポリシーの設定を示すポリシー。](media/TeamsMassDeletePolicy.png)
 
 スクリーンショットが示すように、このポリシーには、重大度、単一または繰り返されたアクション、Teams とサイトの削除に限定するパラメーターなど、さまざまなパラメーターを設定して Teams の削除を監視することができます。 これは、テンプレートとは別に行うこともできますし、組織の必要に応じて、このポリシーのベースとなるテンプレートを作成させることもできます。
 
 ビジネスに有効なポリシーを設定した後は、イベントがトリガーされるとアクティビティ ログの結果を確認することができます。
 
-![一括削除によってトリガーされるスクリーンショット イベント](media/TeamsMassDeleteList.png)
+![一括削除によってトリガーされるイベントのスクリーンショット。](media/TeamsMassDeleteList.png)
 
 設定したポリシーをフィルター処理して、そのポリシーの結果を表示することができます。 アクティビティ ログで得られる結果が満足のいくものではない場合 (多くの結果が表示されたり、全く表示されなかったりする場合)、クエリを微調整して、必要なことに関連付けることができます。
 
@@ -115,7 +115,7 @@ ms.locfileid: "58386696"
 
 アクティビティ ポリシーがトリガーされた場合にアラートを設定し、管理者や他のユーザーにメール送信することができます。 ユーザーの保留や、ユーザーに再度サインインさせるなどの自動化されたガバナンス アクションを自動で設定することができます。 この例では、アクティビティ ポリシーがトリガーされ、ユーザーが 30 分間で 2 つ以上のチームを削除したと判断した場合に、ユーザー アカウントを一時停止する方法を示しています。
 
-![アクティビティ ポリシーのアラートとガバナンス アクションのスクリーンショット](media/audit-log-governance.png)
+![アクティビティ ポリシーのアラートとガバナンス アクションのスクリーンショット。](media/audit-log-governance.png)
 
 ## <a name="teams-activities"></a>Teams アクティビティ
 
@@ -139,9 +139,9 @@ ms.locfileid: "58386696"
 |削除されたアプリ |AppDeletedFromCatalog           |カタログからアプリが削除されました。     |
 |チャネルの削除     |ChannelDeleted         |ユーザーがチームからチャネルを削除しました。         |
 |チームの削除  |TeamDeleted            |チーム所有者がチームを削除しました。      |
-|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、そのメッセージに URL リンクを追加Teams。         |
+|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、メッセージに URL リンクを追加Teams。         |
 |エクスポートされたメッセージ<sup>1、2</sup> <sup></sup> | MessagesExported |チャットまたはチャネル メッセージがエクスポートされた|.
-|フェッチされたチャット <sup> 1</sup、2 <sup></sup>>    |ChatRetrieved  |チャットMicrosoft Teams取得されました。|
+|フェッチされたチャット <sup> 1</sup、 <sup>2</sup>>    |ChatRetrieved  |チャットMicrosoft Teams取得されました。|
 |メッセージ<sup>1、2</sup>のすべてのホステッド コンテンツ <sup>をフェッチしました</sup>  |MessageHostedContentsListed    |画像やコード スニペットなど、メッセージ内のすべてのホストされたコンテンツが取得されました。|
 |インストールされたアプリ |AppInstalled         |アプリがインストールされました。   |
 |カードに対して実行されたアクション|PerformedCardAction|ユーザーがチャット内のアダプティブ カードでアクションを起こしました。 アダプティブ カードは通常ボットで使用し、チャットで情報を豊富に表示して、相互作用することを可能にします。 <br/><br/>**注:** チャット内のアダプティブ カードでのインライン入力アクションだけが監査ログで利用可能になります。 たとえば、チャネルでの会話の中で、ユーザーがポーリング ボットによって生成されたアダプティブ カード上でポーリング応答を送信した場合。 ダイアログを開く「結果を表示」などのユーザー アクションや、ダイアログ内のユーザー アクションは、監査ログには表示されません。|
@@ -157,7 +157,7 @@ ms.locfileid: "58386696"
 |URL リンクを含むメッセージを送信しました Teams |MessageCreatedHasLink|ユーザーは、URL リンクを含むメッセージを Teams。|
 |メッセージ作成 <sup>1、2</sup>の変更通知 <sup>を送信しました</sup>   |MessageCreatedNotification |サブスクライブしているリスナー アプリケーションに新しいメッセージを通知する変更通知が送信されました。|
 |メッセージ削除の変更通知を送信しました<sup>1、2</sup> <sup></sup>   |MessageDeletedNotification |削除されたメッセージをサブスクライブしているリスナー アプリケーションに通知する変更通知が送信されました。|
-|メッセージ更新プログラム <sup>1、2 の</sup>変更通知を送信 <sup>しました</sup> |MessageUpdatedNotification |サブスクライブしているリスナー アプリケーションに更新されたメッセージを通知する変更通知が送信されました。|
+|メッセージ更新プログラム <sup>1、2 の変更通知</sup>を送信 <sup>しました</sup> |MessageUpdatedNotification |サブスクライブしているリスナー アプリケーションに更新されたメッセージを通知する変更通知が送信されました。|
 |メッセージ変更通知にサブスクライブ<sup>1、2</sup> <sup></sup>  |SubscribedToMessages   |メッセージの変更通知を受け取るリスナー アプリケーションによってサブスクリプションが作成されました。|
 |削除されたアプリ |AppUninstalled           |アプリがアンインストールされました。     |
 |更新されたアプリ |AppUpdatedInCatalog           |アプリがカタログで更新されました。     |
@@ -170,7 +170,7 @@ ms.locfileid: "58386696"
 ||||
 
 > [!NOTE]
-> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出して操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365 」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション 」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出して操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365 」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 

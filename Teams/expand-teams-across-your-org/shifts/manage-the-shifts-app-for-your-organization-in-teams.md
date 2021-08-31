@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8c2e8a8e976e6c92355bc894447353f436b706bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608974"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727836"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -78,7 +78,7 @@ Teamsには、組織内のフロントライン ワーカーに割り当て可�
 
 FirstLineWorker ポリシーを表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]**  >  **[アプリ セットアップ ポリシー]** の順に移動します。
 
-![FirstLineWorker アプリのセットアップ ポリシーのスクリーンショット](../../media/firstline-worker-app-setup-policy.png "管理センターの FirstLineWorker アプリセットアップ ポリシー Microsoft Teamsスクリーンショット")
+![FirstLineWorker アプリセットアップ ポリシーのスクリーンショット。](../../media/firstline-worker-app-setup-policy.png "管理センターの FirstLineWorker アプリセットアップ ポリシー Microsoft Teamsスクリーンショット")
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>FirstLineWorker アプリセットアップ ポリシーをユーザーに割り当てる
 

@@ -21,23 +21,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4023a5bf998b4cc53ad0651d7af1e9146c05a110
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8aaee7a8c0b649150f93ea2a4a86a5130b80456f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631971"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732686"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
-ユーザー フィードバックとサービス正常性レポートのベスト プラクティスに従って、サービスと従業員からシグナルが返されます。  場合によっては、特定のサービス使用状況と正常性レポートにアクセスするために管理者権限が必要な場合があります。 組織の Microsoft 365 または Office 365 管理者ではない場合は、その個人と連絡を取り、Microsoft 365 管理センター でレポート閲覧者ロールを付与して、このデータの一部にアクセスします。
+ユーザー フィードバックとサービス正常性レポートのベスト プラクティスに従って、サービスと従業員からシグナルが返されます。  場合によっては、特定のサービス使用状況と正常性レポートにアクセスするために管理者権限が必要な場合があります。 組織の Microsoft 365 または Office 365 管理者ではない場合は、その個人と一緒に作業し、Microsoft 365 管理センター でレポート閲覧者ロールを付与して、このデータの一部にアクセスします。
 
 ## <a name="incorporating-feedback"></a>フィードバックの組み込み 
 
 実験フェーズを通じて、ユーザーがどのように製品とそのエクスペリエンスを使用したのかについての情報を取得します。 この情報を今すぐ使用して、事業単位全体で使用を拡大する計画に合わせて、意識とトレーニング プログラムを調整します。 一般的な質問の例を次に示します。
 
 - この新しいツールを既存のテクノロジと共に使用する場合
-- Whoツールの使用が承認されましたか?
+- Whoツールの使用が承認されている場合は、
 - 機密性の高い情報は安全ですか? 
 - Whoについて詳しくは、お話しMicrosoft Teams。
 - 何かが機能しない。 ヘルプを受ける方法
@@ -57,7 +57,7 @@ ms.locfileid: "58631971"
 デプロイおよび導入時に確認する必要があるレポートには、次の 3 種類Microsoft Teams。
 
 - [サービス正常性](https://status.office365.com/)– Microsoft 365、Office 365、および社内 IT サポート部門から。
-- [Microsoft 365 センター](/microsoft-365/admin/activity-reports/activity-reports)の [レポート] - 管理センターの [Microsoft 365] または [Office 365 Microsoft 365 レポート] から、ユーザー アクティビティ Microsoft Teams[表示します](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 組織内の他のシステムからの情報を使用することもできます。
+- [Microsoft 365 センターの [](/microsoft-365/admin/activity-reports/activity-reports)レポート] - 管理センターの [Microsoft 365] または [Office 365] Microsoft 365から 、ユーザー アクティビティ Microsoft Teams[表示します](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 組織内の他のシステムからの情報を使用することもできます。
 - サービスの満足度 – 内部コミュニティ フォーラムと特定のエクスペリエンスに関するアンケートから収集
 
-![次の手順を表すアイコン ](media/teams-adoption-next-icon.png) 次: 意識 [向上とトレーニングの実装](teams-adoption-drive-awareness.md)
+![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [認識を高め、トレーニングを実装する](teams-adoption-drive-awareness.md)

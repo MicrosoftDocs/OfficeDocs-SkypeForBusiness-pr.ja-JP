@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 組織内の Teams ユーザーが Teams に関するフィードバックを Microsoft に送信できるかどうかを制御するフィードバック ポリシーの使用方法について説明します。
-ms.openlocfilehash: 2308b196dfd31f6d6576f57dbe06ed5eda42cb86
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5aa828a68de40ec369a6b19bf57f065ab1f483a6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635681"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733116"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams でフィードバック ポリシーを管理する
 
@@ -37,13 +37,13 @@ ms.locfileid: "58635681"
 
 ユーザーは、Teams で **[ヘルプ]** > **[フィードバックの送信]** の順に移動し、Teams に関するコメントや提案を送信できます。 **[フィードバックの送信]** を通じて送信されたデータは、Microsoft 365 または Office 365 契約の「サポート データ」とみなされます。これには、「顧客データ」または「個人データ」と見なされる情報も含まれます。
 
-![Teams の [フィードバックの送信] のスクリーンショット](media/manage-feedback-policies-in-teams-give-feedback.png)
+![[フィードバックの送信] オプションのスクリーンショットTeams。](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **アンケート**
 
 ユーザーはまた、Teams でのエクスペリエンスを評価し、評価に関する詳細を送信することもできます。 このポップアップ アンケートは、[Teams] に随時表示されます。 ユーザーが通知で **[フィードバックの** 提供] を選択すると、アンケートが表示され、完了します。
 
-![アンケートの通知とフォームが表示Teams](media/manage-feedback-policies-in-teams-survey.png)
+![アンケートの通知とフォームをTeams。](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>ユーザーが Teams に関するフィードバックを Microsoft に送信できるかどうかを設定する
 

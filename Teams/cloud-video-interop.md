@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39452a659f1a95d66aeac4a18a4d7801764437ae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e48b29ec04d10c899d646f4a28605e40fc2da09
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618643"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725506"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用性
 
@@ -49,7 +49,7 @@ Microsoft Teams は、クラウド ビデオ相互運用性により、会議室
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365米国政府とサード パーティのサービス
 
-Office 365 では、Microsoft 365 Apps for enterprise に含まれる SharePoint Online サイト、Skype for Business、Teams、Office、Office アプリケーション (Word、Excel、PowerPoint、Outlook など) にサード パーティ製アプリケーションを統合Outlook Web App。 さらに、Office 365サード パーティのサービス プロバイダーとの統合をサポートしています。 これらのサード パーティ製のアプリケーションとサービスには、Office 365 インフラストラクチャの外部にあるサードパーティ システム上で組織の顧客データを格納、送信、処理する必要があります。そのため、Office 365 のコンプライアンスとデータ保護のコミットメントの対象外となります。 **お客様の組織に対するこれらのサービスの適切な使用を評価する際には、第三者から提供されるプライバシーおよびコンプライアンスに関する声明を確認してください。**
+Office 365 では、SharePoint Online サイト、Skype for Business、Teams、Office アプリケーション (Word、Excel、PowerPoint、Outlook Outlook Web App など) に含まれる Microsoft 365 Apps for enterprise アプリケーションにサード パーティ製アプリケーションを統合する機能を提供します。 さらに、Office 365サード パーティのサービス プロバイダーとの統合をサポートしています。 これらのサード パーティ製のアプリケーションとサービスには、Office 365 インフラストラクチャの外部にあるサードパーティ システム上で組織の顧客データを格納、送信、処理する必要があります。そのため、Office 365 のコンプライアンスおよびデータ保護のコミットメントの対象外となります。 **お客様の組織に対するこれらのサービスの適切な使用を評価する際には、第三者から提供されるプライバシーおよびコンプライアンスに関する声明を確認してください。**
 
 
 
@@ -59,10 +59,10 @@ Office 365 では、Microsoft 365 Apps for enterprise に含まれる SharePoint
 
 |パートナー|パートナー ソリューション|
 |----|---|
-|![Poly RealConnect を表すロゴ](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect サービス</a> |
-|![Pexip Infinity を示すロゴ](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
-|![BlueJeans Gateway を示すロゴ](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
-|![Cisco CVI を表すロゴ](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a>|
+|![Poly RealConnect を表すロゴ。](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Poly RealConnect サービス</a> |
+|![Pexip Infinity を表すロゴ。](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity for Microsoft Teams</a> | 
+|![BlueJeans Gateway を表すロゴ。](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans Gateway for Microsoft Teams</a> |
+|![Cisco CVI を表すロゴ。](media/cisco.png)|<a href="https://aka.ms/CiscoCVI" target="_blank">Cisco Webex Video Integration for Microsoft Teams</a>|
 
 ### <a name="cloud-video-interop-overview"></a>クラウド ビデオ相互運用性の概要
 
@@ -72,14 +72,14 @@ Office 365 では、Microsoft 365 Apps for enterprise に含まれる SharePoint
      
 次の図は、パートナー ソリューションのアーキテクチャの概要を示しています。
 
-![Teams のクラウド ビデオ相互運用性パートナー ソリューションを説明する図](media/teams-cloud-video-interop-partner-solution.png)
+![クラウド ビデオ相互運用Teamsソリューションを説明する図。](media/teams-cloud-video-interop-partner-solution.png)
 
 
 ## <a name="deploy-cloud-video-interop"></a>クラウド ビデオ相互運用性を展開する
 
 Cloud Video Interop ソリューションをデプロイする場合は、パートナー ソリューションをデプロイしている点を理解することが重要です。 クラウド ビデオ相互運用性を展開するために必要な一般的な手順を次の図に示します。
 
-![組織での CVI の展開を説明する図](media/deploying-cvi.png)
+![組織内での CVI のデプロイを説明する図。](media/deploying-cvi.png)
 
 ### <a name="plan"></a>計画
 

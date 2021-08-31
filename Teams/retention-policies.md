@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634841"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727406"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Teams のアイテム保持ポリシーを管理する
 
@@ -63,17 +63,17 @@ Teams でのアイテム保持ポリシーの対象となるユーザーは、Of
 
 組織は多くの場合、プライベート チャットのデータの方が、一般にプロジェクトとの関連性がより高い会話であるチャネル メッセージよりも負債になりやすいものとみなします。
 
-すべてのメッセージに対して 1 つのアイテム保持ポリシーを非常Teamsできます。 または、よりきめ細かく制御するには、次の操作を行います。
+すべてのメッセージに対して 1 つのアイテム保持ポリシーを非常にTeamsできます。 または、よりきめ細かく制御するには、次の操作を行います。
 
-- プライベート チャット (1:1 または 1:多チャット)、標準チャネルからのメッセージ、またはプライベート チャネルからのメッセージに対して個別の保持ポリシーを設定します。
+- プライベート チャット (1:1 または 1:多のチャット)、標準チャネルからのメッセージ、またはプライベート チャネルからのメッセージに対して個別の保持ポリシーを設定します。
 
 - ポリシーは、組織内の特定のユーザーまたはチームにのみ適用します。 チャットTeamsプライベート チャネルの場合は、ポリシーを適用するユーザーを選択できます。 Teams のチャネル メッセージの場合は、ポリシーが適用されるチームを選択できます。
 
-たとえば、標準チャネル メッセージの場合: 組織内の特定のチームのアイテム保持ポリシーを作成し、1 年後に削除アクションを使用してそのポリシーを構成します。 その後、他のすべてのチームの標準チャネル メッセージに対して別のアイテム保持ポリシーを作成し、3 年後に削除アクションを使用してそのポリシーを構成します。
+たとえば、標準チャネル メッセージの場合: 組織内の特定のチームのアイテム保持ポリシーを作成し、1 年後に削除アクションを使用してそのポリシーを構成します。 次に、他のすべてのチームの標準チャネル メッセージに対して別のアイテム保持ポリシーを作成し、3 年後に削除アクションを使用してそのポリシーを構成します。
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Teams 向けアイテム保持ポリシーの作成と管理
 
-メッセージの保持ポリシーを作成または編集するにはTeamsのアイテム保持ポリシーに関するページの[Teams使用します](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
+メッセージの保持ポリシーを作成または編集するにはTeamsのアイテム保持ポリシーの手順に従Teams[します](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
 
 このページには、Microsoft 365 の他のワークロードのアイテム保持ポリシーの作成と管理に関する追加情報があります。 たとえば、Microsoft 365 グループのアイテム保持ポリシーを作成して、Teams でアクセスし、OneDrive や SharePoint に保存されたファイルを保持または削除することもできます。  
 
@@ -81,16 +81,16 @@ Teams でのアイテム保持ポリシーの対象となるユーザーは、Of
 
 私的なチャット (1:1 のチャット) やグループのチャットの場合、ユーザーにはアイテム保持ポリシーの構成より古いチャットは削除され、"組織のアイテム保持ポリシーにより、古いメッセージを削除しました" という自動生成メッセージがまだ削除されていないメッセージの上に表示されます。例を以下に示します。
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="Teams アイテム保持ポリシーにより、チャット メッセージが削除されることが Teams でユーザーに通知される":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="ユーザーは、Teams保持ポリシーが適用されたため、チャット メッセージが削除Teams通知されます。":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="Teams のユーザーが説明するメッセージが、Teams のアイテム保持ポリシーの結果として削除される":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="メッセージをTeamsするユーザーは、アイテム保持ポリシーの結果Teams削除されます。":::
 
 チャネル メッセージの場合、ユーザー (チャネル メンバー) には、メッセージの有効期限が切れた後に、削除したメッセージが表示されなくなります。 削除されたメッセージがスレッド会話の親メッセージであった場合、親メッセージの代わりに "アイテム保持ポリシーに従い、このメッセージは削除されました。" というメッセージが表示されます。 次に例を示します。
 
-:::image type="content" source="media/retention-policies-image3.png" alt-text="保持前のチャネルのスクリーンショット":::
+:::image type="content" source="media/retention-policies-image3.png" alt-text="リテンション前のチャネルのスクリーンショット。":::
 
-:::image type="content" source="media/retention-policies-image4.png" alt-text="保持後のチャネルのスクリーンショット":::
+:::image type="content" source="media/retention-policies-image4.png" alt-text="リテンション後のチャネルのスクリーンショット。":::
 
 > [!NOTE]
 > 削除済みメッセージの結果としてユーザーに表示されるメッセージは、この時点では構成できません。

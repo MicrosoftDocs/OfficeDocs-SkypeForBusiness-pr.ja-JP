@@ -23,18 +23,18 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: 72abf99895924e70f3a57ae0f8d1e1cd8c0f9bcd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d38adf5e1f5d363cb04aa9eb43109ca2ed394a65
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580051"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725976"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>会議の電話会議を設定Skype for Business
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business、この状況だけの電話会議機能が含まれています。 モバイル デバイスや PC で Skype for Business アプリを使う代わりに、電話を使ってSkype for Business会議にコールインできます。 
+組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business、この状況だけの電話会議機能が含まれています。 ユーザーは、モバイル デバイスまたは PC Skype for Businessアプリを使用する代わりに、電話を使用してSkype for Business会議にコールインできます。 
   
 電話会議の設定は、会議のスケジュールを設定または会議を進行するユーザーに対してのみ必要です。ダイヤルインで参加するユーザーについては、ライセンスの割り当てや他の設定は必要ありません。
   
@@ -47,12 +47,12 @@ ms.locfileid: "58580051"
  
 ## <a name="step-2-get-and-assign-licenses"></a>手順 2: ライセンスを取得して割り当てる
  
-1. 電話会議では、ダイヤルイン会議をセットアップするユーザーごとにライセンスが必要です。 電話会議で購入する必要があるライセンスと、その料金については、「追加機能のライセンスSkype for Business[を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+1. 電話会議では、ダイヤルイン会議をセットアップするユーザーごとにライセンスが必要です。 電話会議用に購入する必要があるライセンスと、その料金については、追加機能のライセンスに関するページSkype for Business[を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
     >[!NOTE] 
     > 電話会議は Office 365 Enterprise E5 ライセンスにアドオンとして含まれています。
         
-2. 電話会議ライセンスを購入した後は、それらのライセンスを、会議を計画または開催しようとしている組織内のユーザーに割り当てる必要があります。 「[会議をスケジュールまたは開催Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)組織内のユーザーに購入したユーザーのライセンスを割り当てるまたは削除する」を参照してください。
+2. 電話会議ライセンスを購入した後は、それらのライセンスを、会議を計画または開催しようとしている組織内のユーザーに割り当てる必要があります。 「[会議をスケジュールまたは](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)開催Microsoft 365 Apps for business組織内のユーザーに購入したユーザーのライセンスを割り当てるまたは削除する」を参照してください。
     
 3. また、前の手順でライセンスを割り当てた同じユーザーに、コミュニケーション クレジット ライセンス (費用はかかりません) を割り当てることをおすすめします。 コミュニケーション クレジットのセットアップ方法については、「[組織向けにコミュニケーション クレジットをセットアップする](/microsoftteams/set-up-communications-credits-for-your-organization)」を参照してください。
     
@@ -64,7 +64,7 @@ ms.locfileid: "58580051"
 
 電話会議では、ユーザーの電話番号を使うことはできません。サービス番号を取得する必要があります。 会議ブリッジ用に、有料または無料のサービス番号のいずれかを取得することができます。 有料サービス番号と無料サービス番号を取得する方法は 3 通りあります。 
   
-- **管理センター Skype for Business使用します**。 一部の国/地域では、管理センターで会議ブリッジのサービスSkype for Business取得できます。 「[サービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」を参照してください。
+- **管理センター Skype for Business使用します**。 一部の国/地域では、管理センターで会議ブリッジのサービス番号Skype for Business取得できます。 「[サービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)」を参照してください。
     
 - **既存のサービス番号を移行する**。 既存の番号を現在のサービス プロバイダーまたは電話会社から Microsoft 365 または Office 365 に移行または転送します。 この方法の詳細については、「[Teams に電話番号を移行する](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)」または「[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
   
@@ -77,7 +77,7 @@ ms.locfileid: "58580051"
 
 電話会議ブリッジに新規の電話番号を割り当てるには:
 
-![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴのアイコンSkype for Business表示されます。](../images/sfb-logo-30x30.png) **管理センター Skype for Business使用します。**
 
  1. **[Microsoft 365 管理センター]** > **[管理センター]** > **[Teams]** > **[従来のポータル]** の順に移動します。
  2. **[音声]**  >  **[電話番号]** の順に選択します。
@@ -90,14 +90,14 @@ ms.locfileid: "58580051"
 
 次に、電話会議[](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md)の電話番号にダイヤルインするときに、電話会議の自動応答が発信者にあいさつするために使用する電話会議の自動応答言語を設定します。 
 
-![Microsoft Teams ロゴを示すアイコン](../images/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**:
+![ロゴのアイコンMicrosoft Teams表示されます。](../images/teams-logo-30x30.png) **管理センター Microsoft Teams使用する**:
 
 1. ダッシュボードから **[会議]** > **[会議ブリッジ]** の順に開きます。
 2. 会議ブリッジ電話番号を選択して **[編集]** をクリックし、既定の言語を選択します。
 
-![[管理センターを使用Skype for Business ](../images/sfb-logo-30x30.png) **ロゴをSkype for Businessアイコン**:
+![ロゴのアイコンSkype for Business表示されます。](../images/sfb-logo-30x30.png) **管理センター Skype for Business使用する**:
 
-1. [管理センター] に移動し、[>**ポータル**  >  **] Teams**  >  **管理センターに移動します**。
+1. 従来のポータルで管理センター>**管理**  >  **センター Teams**  >  **移動します**。
 2. [電話 **会議 Microsoft**  >  **Bridge] を選択します**。 
 3. 会議ブリッジの電話番号を選択し、[ **言語の設定**] を選択して、既定の言語を選択します。
 
@@ -106,14 +106,14 @@ ms.locfileid: "58580051"
     
 会議ブリッジをセットアップした後、使用する開始/終了の通知と PIN の長さが正しいかなど、既定の設定を確認します。正しくない場合は、変更することができます。 
 
-![Microsoft Teams ロゴを示すアイコン](../images/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**:
+![ロゴのアイコンMicrosoft Teams表示されます。](../images/teams-logo-30x30.png) **管理センター Microsoft Teams使用する**:
 
 1. ダッシュボードから **[会議]** > **[会議ブリッジ]** の順に開きます。
 2. **[ブリッジの設定]** を選択します。 [**ブリッジの設定**] ウィンドウが開きます。 
 
 詳細については、[電話会議ブリッジの設定を変更する](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) を参照してください。
 
-![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴのアイコンSkype for Business表示されます。](../images/sfb-logo-30x30.png) **管理センター Skype for Business使用します。**
 
 1. **[Microsoft 365 管理センター]** > **[管理センター]** > **[Teams]** > **[従来のポータル]** の順に移動します。
 2. [電話 **会議]**  >  **[Microsoft ブリッジの設定] を選択します**。 [**Microsoft ブリッジの設定** ] ページが開きます。 
@@ -126,12 +126,12 @@ ms.locfileid: "58580051"
 
 この操作を、会議を主催したり計画している組織内のすべてのユーザーに対して行う必要があります。 
 
-![Microsoft Teams ロゴを示すアイコン](../images/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**:
+![ロゴのアイコンMicrosoft Teams表示されます。](../images/teams-logo-30x30.png) **管理センター Microsoft Teams使用する**:
 
 1. ダッシュボードから **[ユーザー]** をクリックし、リストからユーザーを選択して **[編集]** を選択します。
 2. **[電話会議]** の次にある **[編集]** をクリックしてから **[電話会議]** ウィンドウで **[有料番号]** と **[無料番号]** の番号リストから、番号を選択します。
 
-![Skype for Business のロゴを表示したアイコン](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
+![ロゴのアイコンSkype for Business表示されます。](../images/sfb-logo-30x30.png) **管理センター Skype for Business使用します。**
 
 1. [従来のポータル **]**  >  **Microsoft 365 管理センター Teams**  >  **に移動します**。
 2. [**電話会議ユーザー]**  >  **を選択** し、一覧からユーザーを選択し、[編集] を **クリックします**。 

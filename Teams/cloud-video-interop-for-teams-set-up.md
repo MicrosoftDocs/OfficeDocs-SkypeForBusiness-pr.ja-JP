@@ -17,18 +17,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a433a7a372c89a2d22bac7991effdd5081ac298d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fe0ac66b8d1ff9afe43d4d57783e803f426c23c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616253"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732956"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams のクラウド ビデオ相互運用機能の設定
 
 [クラウド ビデオ相互運用パートナーを選択](cloud-video-interop.md)した後は、展開を計画し、プロビジョニングの詳細とパートナーのテナント キーを使用して設定を行い、組織のビデオ相互運用アプリに同意する必要があります。 この手順を次の図に示します。 
 
-![組織で CVI を展開する](media/deploying-cvi.png)
+![組織内での CVI のデプロイ。](media/deploying-cvi.png)
 
 ## <a name="plan"></a>計画
 
@@ -57,7 +57,7 @@ ms.locfileid: "58616253"
  
 テナント キーは、パートナー サービスへのダイヤル アウトになります。 次の例では、813878896@t.plcm.vc がテナント キーです。 
 
-![テナント キーの例](media/tenant-key-example.png) 
+![テナント キーの例。](media/tenant-key-example.png) 
 
 テナント キーをプロビジョニングするには、次のコマンドレットを実行する必要があります。また、選択したユーザーまたは組織全体がビデオ相互運用座標を使用して会議を作成できるようになります。
 

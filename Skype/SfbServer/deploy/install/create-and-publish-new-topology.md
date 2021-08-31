@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: '概要: 新しいトポロジを作成、発行、および確認してから、新しいトポロジをインストールするSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 21c37ee17d6a7fbb1db4cce9716fa84f338e4062
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619163"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725996"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>新しいトポロジを作成し、Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "58619163"
   
 トポロジ内の各サーバーに Skype for Business Serverシステムをインストールする前に、トポロジを作成して公開する必要があります。 トポロジを発行する場合は、トポロジ情報を中央管理ストア データベースに読み込む必要があります。 これがサーバー プールEnterprise Edition、新しいトポロジを初めて公開する際に、サーバーの全体管理ストア データベースを作成します。 この手順がStandard Edition、トポロジを発行する前に、展開ウィザードから [最初のサーバー Standard Edition準備] プロセスを実行する必要があります。 これにより、Standard Edition Edition インスタンスSQL Server Expressサーバーの全体管理ストアを作成することで、サーバーの準備が整います。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、図に示されている手順 6、7、および 8 を順番に実行し、手順 1 ~ 5 の後に実行する必要があります。 新しいトポロジを作成して公開する方法については、手順 6 / 8 で説明します。
   
-![概要図](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
+![概要図。](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
 ## <a name="create-and-publish-new-topology"></a>新しいトポロジの作成と公開
 

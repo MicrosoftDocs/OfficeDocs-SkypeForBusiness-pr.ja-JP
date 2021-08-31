@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Office 365 の管理者として Microsoft Teams のゲスト アクセス機能を有効または無効にする方法について説明します。
-ms.openlocfilehash: e9701defbf987d68f2c0ce79a9797064a07111bf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 433d0f3b73da465cdfd11382889b9cd13a1e7b06
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590741"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725526"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Microsoft Teams へのゲスト アクセスをオンまたはオフにする
 
@@ -48,7 +48,7 @@ ms.locfileid: "58590741"
 
 3. **[Microsoft Teams でのゲスト アクセスを許可]** を **[オン]** に設定します。
 
-    ![ゲスト アクセスの許可の切り替えをオンに設定する ](media/guest-access-setting.png)
+    ![[ゲスト アクセス スイッチを許可する] を [オン] に設定します。](media/guest-access-setting.png)
 
 4. **[通話]**、**[会議]**、および **[メッセージング]** で、ゲスト ユーザーに何を許可する必要があるかに応じて、各機能の **[オン]** または **[オフ]** を選択します。
 
@@ -70,7 +70,7 @@ ms.locfileid: "58590741"
       - **会話でミームを使用する** – この設定を **[オン]** にすると、ゲストが会話でミームを使用することができるようになります。
       - **会話でステッカーを使用する** – この設定を [**オン**] にすると、ゲストが会話でステッカーを使用することができるようになります。
 
-    ![Teams でのゲストのアクセス権の設定](media/manage-guest-access-image1.png)
+    ![[ゲスト アクセス許可] の設定Teams。](media/manage-guest-access-image1.png)
 
 5. **[保存]** を選択します。
 

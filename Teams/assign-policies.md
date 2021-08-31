@@ -18,12 +18,12 @@ description: Microsoft Teams でユーザーにポリシーを割り当てる方
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: c33cfec3f0c242381ab4a3cd09b83eea02521375
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 858a28843fc883712ab12b868eca505069e5ab4f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626399"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727886"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Microsoft Teams でユーザーにポリシーを割り当てる
 
@@ -41,17 +41,17 @@ ms.locfileid: "58626399"
 
 ユーザーに直接ポリシーが割り当てられている場合 （個別に、またはバッチ割り当てによって）、そのポリシーが優先されます。 次の視覚的な例では、ユーザーの有効なポリシーは、ユーザーに直接割り当てられる、Square 会議ポリシーです。
 
-![直接割り当てられたポリシーの優先順位を示す図](media/assign-policies-example-directly-assigned.png)
+![直接割り当てられたポリシーが優先される方法を示す図。](media/assign-policies-example-directly-assigned.png)
 
 ユーザーに特定の種類のポリシーが直接割り当てられていない場合は、そのユーザーがメンバーになっているグループに割り当てられているポリシーが優先されます。 ユーザーが複数のグループのメンバーである場合、特定のポリシーの種類に対して、[グループ割り当てのランク付け](#group-assignment-ranking) が最も高いポリシーが優先されます。
 
-この視覚的な例では、ユーザーの有効なポリシーは Exec Teams ポリシーと HD ポリシーです。これは、ユーザーがメンバーであり、同じポリシーの種類のポリシーも割り当てられている他のグループに対して最も高い割り当てランクを持っています。  
+この視覚的な例では、ユーザーの有効なポリシーは Exec Teams ポリシーと HD ポリシーです。これは、ユーザーがメンバーであり、同じポリシーの種類のポリシーも割り当てられている他のグループに対して最も高い割り当て順位が付けられます。  
 
-![グループから継承されたポリシーの優先順位を示す図](media/assign-policies-example-group.png)
+![グループから継承されたポリシーが優先される方法を示す図。](media/assign-policies-example-group.png)
 
 ユーザーが直接ポリシーを割り当てられていない場合や、ポリシーが割り当てられているグループのメンバーではない場合、ユーザーはそのポリシーの種類に対してグローバルな (組織全体の既定の) ポリシーを取得します。 視覚的な例を次に示します。
 
-![グローバル ポリシーの優先順位を示す図](media/assign-policies-example-global.png)
+![グローバル ポリシーが優先される方法を示す図。](media/assign-policies-example-global.png)
 
 詳細については、「[優先規則](#precedence-rules)」を参照してください。
 
@@ -65,7 +65,7 @@ ms.locfileid: "58626399"
 |---------|---------|----|
 |[ポリシーを個々のユーザーに割り当てる](#assign-a-policy-to-individual-users)    | Teams を初めて使用する場合、1 つまたはいくつかのポリシーを少数のユーザーに割り当てるだけで済みます。 |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット
 |[ポリシーをグループに割り当てる](#assign-a-policy-to-a-group) |ユーザーのグループ メンバーシップに基づいてポリシーを割り当てる。 たとえば、セキュリティ グループまたは配布リスト内のすべてのユーザーにポリシーを割り当てるとします。| Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
-|[ポリシーをユーザーのバッチに割り当てる](#assign-a-policy-to-a-batch-of-users)   | 多数のユーザーにポリシーを割り当てる。 たとえば、組織内の数百または数千人のユーザーに一度にポリシーを割り当てるとします。 |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
+|[ポリシーをユーザーのバッチに割り当てる](#assign-a-policy-to-a-batch-of-users)   | 多数のユーザーにポリシーを割り当てる。 たとえば、組織内の数百または数千人のユーザーにポリシーを一度に割り当てるとします。 |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
 | [ポリシー パッケージをユーザーに割り当てる](#assign-a-policy-package-to-users)  |同じロールまたは同様のロールを持つ組織内の特定のユーザー セットに複数のポリシーを割り当てます。 たとえば、学校の教師に教育 (教師) ポリシー パッケージを割り当て、チャット、通話、会議へのフル アクセス権を与えます。 Education (中学生) ポリシー パッケージをセカンダリ 学生に割り当て、プライベート通話などの特定の機能を制限します。  |Microsoft Teams 管理センターまたは Teams PowerShell モジュールの PowerShell コマンドレット|
 | [ポリシー パッケージをグループに割り当てる](#assign-a-policy-package-to-a-group) (プライベート プレビュー)   |同じロールまたは同様のロールを持つ組織内のユーザーグループに複数のポリシーを割り当てます。 たとえば、セキュリティ グループまたは配布リスト内のすべてのユーザーにポリシー パッケージを割り当てるとします。 |Microsoft Teams 管理センター (近日公開予定) または Teams PowerShell モジュールの PowerShell コマンドレット|
 | [ポリシー パッケージをユーザーのバッチに割り当てる](#assign-a-policy-package-to-a-batch-of-users)|同じロールまたは同様のロールを持つ組織内のユーザーのバッチに複数のポリシーを割り当てます。 たとえば、バッチ割り当てを使用して、学校内のすべての教師に教育 (教師) ポリシー パッケージを割り当て、チャット、通話、会議へのフル アクセス権を与えます。 Education (中学生) ポリシー パッケージをセカンダリ 学生のバッチに割り当て、プライベート通話などの特定の機能を制限します。|Teams PowerShell モジュールの PowerShell コマンドレット|
@@ -136,9 +136,9 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ### <a name="use-powershell"></a>PowerShell を使用する
 
-各ポリシー タイプには、それを管理するための独自のコマンドレットのセットがあります。 特定のポリシー タイプに ```Grant-``` コマンドレットを使用して、ポリシーを割り当てます。 たとえば、```Grant-CsTeamsMeetingPolicy``` コマンドレットを使用して、Teams 会議ポリシーをユーザーに割り当てます。 これらのコマンドレットは PowerShell モジュールの Teamsに含まれており、次のコマンドレット[リファレンス Skype for Businessに記載されています](/powershell/skype/intro?view=skype-ps)。
+各ポリシー タイプには、それを管理するための独自のコマンドレットのセットがあります。 特定のポリシー タイプに ```Grant-``` コマンドレットを使用して、ポリシーを割り当てます。 たとえば、```Grant-CsTeamsMeetingPolicy``` コマンドレットを使用して、Teams 会議ポリシーをユーザーに割り当てます。 これらのコマンドレットは PowerShell モジュールの Teamsに含まれており、このコマンドレット リファレンス[にSkype for Business記載されています](/powershell/skype/intro?view=skype-ps)。
 
-PowerShell のパブリック Teams[を](https://www.powershellgallery.com/packages/MicrosoftTeams/)ダウンロードしてインストールし (まだインストールしていない場合)、次のコマンドを実行して接続します。
+PowerShell の[](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック Teamsをダウンロードしてインストールし (まだインストールしていない場合)、次のコマンドを実行して接続します。
 
 > [!NOTE]
 > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
@@ -187,7 +187,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 ユーザーの有効なポリシーは、次の規則に従って更新されます。
 
-- ポリシーが割り当てられているグループに対してユーザーが追加または削除された場合。
+- ポリシーが割り当てられているグループにユーザーが追加または削除された場合。
 - ポリシーはグループから割り当て解除されます。
 - ユーザーに直接割り当てられているポリシーは削除されます。
 
@@ -331,7 +331,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-Teams PowerShell モジュールで次のコマンドレットを使用して、バッチ ポリシーの割り当て ($users は指定したユーザーの一覧) を使用して大規模にこれを行います。
+Teams PowerShell モジュールで次のコマンドレットを使用して、バッチ ポリシーの割り当てを大規模に実行します。$users は、指定したユーザーの一覧です。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -476,7 +476,7 @@ Teams のポリシー パッケージは、組織内で同じまたは類似の�
     
     1. **[適用]** を選択します。
     
-    ![グループ ポリシーの割り当てを表示する](media/group-pkg-assignment.png)
+    ![グループ ポリシーの割り当てを表示します。](media/group-pkg-assignment.png)
 
 5. 特定のポリシーの種類のランク付けを管理するには、特定のポリシー ページに移動します。
 

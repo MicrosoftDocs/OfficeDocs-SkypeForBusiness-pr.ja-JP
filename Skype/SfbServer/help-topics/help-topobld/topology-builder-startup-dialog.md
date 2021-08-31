@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: トポロジ ビルダーを起動して、Microsoft Lync Server 2013 展開のプロパティと構成を構成します。 起動時に、トポロジ ビルダーは、トポロジ ドキュメントのソースを確認するダイアログを表示します。 以下の 3 つのオプションのいずれかを選択します。
-ms.openlocfilehash: 6a856bec579ddbc551a4bf11e83fa754bc29adda
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79684328510afb702c99967646725b35c7776bfd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587239"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727656"
 ---
 # <a name="topology-builder-startup-dialog"></a>トポロジ ビルダー起動ダイアログ
 
@@ -32,7 +32,7 @@ ms.locfileid: "58587239"
 
 - [**新しいトポロジ**]: このオプションは、新しいトポロジ ドキュメントの構成を開始するときに選択します。このオプションを選択すると、新しいトポロジ ドキュメントが開かれるので、構成しようとする展開の要件に合わせてドキュメントを構成します。
 
-![トポロジ ビルダー起動ダイアログ](../../media/Topology_Builder_Startup_Dialog.jpg)
+![トポロジ ビルダーの [スタートアップ] ダイアログ ボックス。](../../media/Topology_Builder_Startup_Dialog.jpg)
 
 ## <a name="see-also"></a>関連項目
 

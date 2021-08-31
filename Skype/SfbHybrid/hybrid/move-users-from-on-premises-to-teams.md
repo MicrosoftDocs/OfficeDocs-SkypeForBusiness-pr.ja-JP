@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ユーザー設定を移行し、ユーザーをユーザーに移動する方法についてTeams。'
-ms.openlocfilehash: ef1de7002bd3c757a9a08f3cbf8414a9cd4c32d9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2206c9b155c26a8559dd32346e1d9ad9e0e54978
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614971"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725486"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>オンプレミスから Teams にユーザーを移動する
 
@@ -39,7 +39,7 @@ ms.locfileid: "58614971"
 - 将来予定されているユーザーの既存の会議は、オンプレミスから既存の会議に移行Teams。
 - オンプレミスに存在していた連絡先は、ユーザーが初Teamsログオンした直後に、このサイトで利用できます。
 - ユーザーは、ユーザーから通話やチャットを開始Skype for Business、また、会議で新しい会議をスケジュールSkype for Business。 クライアントを開くSkype for Business、次に示すようにTeamsリダイレクトされます。 クライアントがTeams場合は、ブラウザーを使用して web バージョンTeamsされます。<br><br>
-    ![ユーザーをユーザーにリダイレクトするTeams](../media/go-to-teams-page.png)
+    ![ユーザーをユーザーにリダイレクトするメッセージTeams。](../media/go-to-teams-page.png)
 
 ユーザーを移動する前に、必ず前提条件を確認 [して](move-users-between-on-premises-and-cloud.md#prerequisites) 、ユーザーをクラウドに移動してください。 また、移行を使用している組織の移行と相互運用性のガイダンスと、Teams[を確認Skype for Business。](/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
@@ -101,7 +101,7 @@ cu8 と Skype for Business Server 2015 のオンプレミス管理ツール、�
 > [!TIP]
 > 一部のサーバーでは、CU8 を使用して 2015 年 2015 年Skype for Business再起動する必要があります。
 
-![今後の移行に関する通知Teams](../media/teams-upgrade-notification.png)
+![今後の移行の通知をTeams。](../media/teams-upgrade-notification.png)
 
 すぐに Teams にアップグレードされる予定のオンプレミス ユーザーに通知するには、NotifySfBUsers=true を使用して TeamsUpgradePolicy の新しいインスタンスを作成します。 次に、ポリシーをユーザーに直接割り当てるか、サイト、プール、またはグローバル レベルでポリシーを設定して、通知するユーザーにポリシーを割り当てる。 次のコマンドレットは、ユーザー レベルのポリシーを作成して付与します。
 

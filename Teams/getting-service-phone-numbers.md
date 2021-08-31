@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 新しい電話番号を取得し、電話会議、自動応答、通話キュー (サービス番号) の既存の番号をTeams。
-ms.openlocfilehash: 0122b75bbe698154f3966bb0352522c5335e4da6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb0025796ad9bbb91c5172cf2cb551de6ecf619b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598551"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732916"
 ---
 # <a name="getting-service-phone-numbers"></a>サービス電話番号を取得する
 
@@ -38,7 +38,7 @@ ms.locfileid: "58598551"
   
 サービス番号を取得するには、次の 3 つの方法があります。
   
-- **管理センター Microsoft Teams使用します。** 一部の国と地域では、管理センターでサービス番号Microsoft Teams取得できます。 「新 [しいサービス番号を取得する」を参照してください](#get-new-service-numbers)。
+- **管理センター Microsoft Teams使用します。** 一部の国と地域では、管理センターでサービスMicrosoft Teams取得できます。 「新 [しいサービス番号を取得する」を参照してください](#get-new-service-numbers)。
 
 - **既存の番号を移行する。** 現在のサービス プロバイダーまたは携帯電話会社から既存の番号を移植または転送できます。 この方法の詳細については、「[Teams に電話番号を移行](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
   
@@ -49,9 +49,9 @@ ms.locfileid: "58598551"
   
 ## <a name="get-new-service-numbers"></a>新しいサービス番号を取得する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
-1. 左側のナビゲーションで、[Voice電話  >  **番号] に移動** し、[追加] を **クリックします**。
+1. 左側のナビゲーションで、[Voice電話  >  **番号] に移動し、[** 追加] を **クリックします**。
 2. 注文の名前を入力し、説明を追加します。
 3. [場所と数量] ページで、次の操作を行います。
     1. [ **国または地域] で**、国または地域を選択します。
@@ -64,7 +64,7 @@ ms.locfileid: "58598551"
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>既存のサービス番号を移行または転送する
 
-現在のサービス プロバイダーまたは携帯電話会社から Teams に電話番号を転送するには、管理センターのMicrosoft Teams使用できます。 「電話番号を電話番号に[転送する」の手順にTeams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+現在のサービス プロバイダーまたは携帯電話会社から Teams に電話番号を転送するには、管理センターのMicrosoft Teams使用できます。 「電話番号をに転送[する」の手順にTeams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
 お客様の国または地域が移植ウィザードに表示されていない場合は、手動でポート[](phone-number-calling-plans/manually-submit-port-order.md)注文を送信するか、[組織の電話番号[](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)の管理] に移動して、お客様の国または地域を選択し、承認状 (LOA) をダウンロードできます。 LOA を使用して転送するサービス番号の種類 (有料と無料通話など) ごとに個別のポート注文を送信する必要があります。 LOA で、適切な種類のサービス番号を選択する必要があります。 サービス番号 (ユーザー番号またはサブスクライバー番号ではなく) を転送する場合、または同時呼び出し容量が呼び出しボリュームを処理するのに十分ではない可能性があります。  
 
@@ -73,7 +73,7 @@ ms.locfileid: "58598551"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>組織の電話番号を表示する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する** 
+![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用** 
 
 左側のナビゲーションで、[Voice電話] に移動して、場所、番号の種類、状態情報など、組織の番号  >  を表示します。
 
@@ -81,7 +81,7 @@ ms.locfileid: "58598551"
 
 サービス番号を取得した後、各番号を電話会議ブリッジに割り当てる。 「 [電話会議ブリッジの有料電話番号または無料電話番号を変更する」を参照してください](./change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話システムで利用できる機能](./here-s-what-you-get-with-phone-system.md)
 

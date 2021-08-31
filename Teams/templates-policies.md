@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 管理センターでチーム テンプレートを管理する方法について説明します
-ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578191"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732826"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートを管理する
 
@@ -42,7 +42,7 @@ ms.locfileid: "58578191"
 
 3. **[追加]** を選択します。
 
-    ![テンプレート ポリシーが選択され、[追加] が強調表示されている](media/template-policies-1.png)
+    ![テンプレート ポリシーが選択され、[追加] が強調表示されます。](media/template-policies-1.png)
 
 1. [テンプレート **ポリシー] セクション設定、** 次のフィールドに入力します。
 
@@ -52,7 +52,7 @@ ms.locfileid: "58578191"
 
 2. [表示 **可能なテンプレート] テーブル** で、非表示にするテンプレートを選択し、[非表示] を **選択します**。
 
-    ![非表示が強調表示されている選択したテンプレート](media/template-policies-2.png)
+    ![[非表示] が強調表示されている選択したテンプレート。](media/template-policies-2.png)
 
     非表示にしたテンプレートは、[非表示のテンプレート] テーブル **に表示** されます。
 
@@ -60,7 +60,7 @@ ms.locfileid: "58578191"
 
 2. 再表示するテンプレートを選択し、[表示] を **選択します**。
 
-   ![非表示ではない選択したテンプレート](media/template-policies-3.png)
+   ![非表示ではない選択したテンプレート。](media/template-policies-3.png)
 
    選択したテンプレートが [表示可能なテンプレート **] テーブルに表示** されます。
 3. **[保存]** を選択します。
@@ -75,7 +75,7 @@ ms.locfileid: "58578191"
 
 2. このポリシーに割り当てるユーザーを入力します。
 
-   ![テンプレート ポリシーにユーザーを割り当てる](media/template-policies-4.png)
+   ![テンプレート ポリシーにユーザーを割り当てる。](media/template-policies-4.png)
 
 3. **[適用]** を選択します。
 
@@ -112,7 +112,7 @@ A: はい。
 1. [ユーザー] リスト テーブルで、特定のテンプレート ポリシーに割り当てるユーザーを選択します。
 1. [設定の編集] を選択し、[テンプレート ポリシー] フィールドを変更します。
 1. [適用] を選択します。
-   詳細については、「[ポリシーをユーザーに割り当てる」を参照Microsoft Teams - Microsoft Docs Microsoft Teams \| を参照してください](./assign-policies.md#assign-a-policy-to-a-batch-of-users)。
+   詳細については、「Microsoft Docs でポリシーをユーザーに割り当Microsoft Teams [- \| Microsoft Teams」を参照してください](./assign-policies.md#assign-a-policy-to-a-batch-of-users)。
 
 **Q: 特定のポリシーに割り当てられているすべてのユーザーを表示する方法**
 
@@ -122,7 +122,7 @@ A: 管理センターで、次の方法を実行します。
 2. [ユーザー] リスト テーブルでフィルターを選択し、チーム テンプレート ポリシーをフィルター処理します。
 3. **[適用]** を選択します。
 
-![選択したテンプレート ポリシーとユーザーの表示](media/template-policies-5.png)
+![選択したテンプレート ポリシーとユーザーの表示。](media/template-policies-5.png)
 
 **Q: PowerShell を使用してテンプレート ポリシーを管理できますか。**
 

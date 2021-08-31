@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9973df9bc36319cfcac465363875398bb3e87aeeb6324e6e550c3356be9ace54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe74237f1f1cfd93d92e0de01a01d3b576a82ec2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347262"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727626"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Teams と連動するように Skype 会議アプリを構成する
 
@@ -33,7 +33,7 @@ Skype 会議アプリを優先アプリとして指定するには、次の操�
 2. 左側のウィンドウで、**[組織全体の設定]** の下にある **[Teams のアップグレード]** を選択します。
 3. Teams のアップグレード ページの **[アプリの環境設定]** で、**[Skype for Business 会議に参加するユーザー向けの優先アプリ]** ドロップダウンリストから、**[Skype 会議アプリ]** を選択します。
 
-    ![[Skype for Business 会議に参加するユーザー向けの優先アプリ] を選択する](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
+    ![ユーザーが会議に参加する [優先アプリSkype for Business選択します。](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>既知の制限
 

@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: '概要: Skype for Business Server 2015 年 2015 年のインフラストラクチャを構成して、System Center Operations Manager とSystem Centerします。'
-ms.openlocfilehash: e5dc5a4c01cd4e45c6b1145725b17073d910e66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a0473b3cf7c2417636536c9c475a430b09d4e1e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627979"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725696"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>SCOM Skype for Business Serverパックを使用して 2015 年を管理する
  
@@ -128,9 +128,9 @@ Skype for Business Server 2015 管理パックは、代理トランザクショ�
 
 |登録、プレゼンス、連絡先でサポートされる代理トランザクション|||
 |:-----|:-----|:-----|
-|1   <br/> |登録 (ユーザー ログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|2   <br/> |アドレス帳サービス (ファイルのダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
-|3   <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|1  <br/> |登録 (ユーザー ログイン)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|2  <br/> |アドレス帳サービス (ファイルのダウンロード)  <br/> |利用可能な Lync Server 2010 以降  <br/> |
+|3  <br/> |アドレス帳 Web クエリ  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |4   <br/> |プレゼンス  <br/> |利用可能な Lync Server 2010 以降  <br/> |
 |5   <br/> |統合連絡先ストア  <br/> |利用可能な Lync Server 2013 以降  <br/> |
 ||||   
@@ -151,7 +151,7 @@ Skype for Business Server 2015 管理パックは、代理トランザクショ�
 |10   <br/> |データ会議  <br/> |Lync Server 2013 以降で利用可能  <br/> |
 |11   <br/> |インスタント メッセージ会議  <br/> |Lync Server 2010 以降で利用可能  <br/> |
 |12   <br/> | 常設チャット <br/> |Lync Server 2013 以降で利用可能  <br/> |
-|13   <br/> |会議に起動ツール (スケジュールされた会議)  <br/> |Lync Server 2013 以降で利用可能  <br/> |
+|13  <br/> |会議に起動ツール (スケジュールされた会議)  <br/> |Lync Server 2013 以降で利用可能  <br/> |
 |14   <br/> |会議でのダイヤル  <br/> |2015 Skype for Business Serverの新機能  <br/> |
 |15   <br/> |アプリケーション共有会議  <br/> |2015 Skype for Business Serverの新機能  <br/> |
 |16   <br/> |UCWA 会議 (Web 会議への参加)  <br/> |2015 Skype for Business Serverの新機能  <br/> |
@@ -185,13 +185,13 @@ Skype for Business Server 2015 管理パックは、代理トランザクショ�
 |Skype for Business Serverポート ウォッチャー  <br/> |1 つのプールに対して実行されているポート チェックのインスタンス。  <br/> |
 |簡易 URL ウォッチャー  <br/> |展開で構成済みの単純な URL の HTTPS プロビリングを実行します。  <br/> |
    
-![SCOM のロールアップ](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
+![SCOM のロールアップ。](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
 1 Skype for Business Serverには、複数の個別の Skype for Business Server システム (複数の Skype for Business Server ロール、Skype for Business Server サービス、Skype for Business Server コンポーネント) をSkype for Business Serverできます。 したがって、個々のサーバーまたはコンポーネントの障害は、同じプール内の他のサーバーがアプリケーション サービスをクライアントに提供する可能性があるため、Skype for Business Server プールの全体的な正常性にとってそれほど重要ではありません。 正常性は、パーセンテージ レベルでプールにSkype for Business Serverされます。 
   
 プール 監視Skype for Business Serverは、プールに対して代理トランザクションSkype for Business Serverします。 次の図に示すように、1 つ以上の代理トランザクション (連続ポーリング間隔と呼ばれるプロセス) が連続して失敗すると、重大な正常性状態がプール レベル (代理トランザクションの最悪) にロールアップされます。 
   
-![SCOM ロールアップの連続ポーリング](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
+![SCOM ロールアップの連続ポーリング。](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
 ## <a name="best-practice-create-a-management-pack-for-customizations"></a>ベスト プラクティス: カスタマイズ用の管理パックを作成する
 
@@ -201,7 +201,7 @@ Skype for Business Server 2015 管理パックは、代理トランザクショ�
   
 シールされた各管理パックのカスタマイズを保存するための新しい管理パックを作成すると、テスト環境から実稼働環境にカスタマイズを簡単にエクスポートできます。 これにより、管理パックを削除する前に依存関係を削除する必要が生じ、管理パックを簡単に削除できます。 すべての管理パックのカスタマイズが既定の管理パックに保存され、1 つの管理パックを削除する必要がある場合は、最初に既定の管理パックを削除する必要があります。また、他の管理パックのカスタマイズも削除します。 
   
-## <a name="links"></a>リンク
+## <a name="links"></a>Links
 
 次のリンクは、2012 年の監視パックに関連付けられている一般的System Centerに接続します。
   

@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: ユーザーがチームやチャネルで実行できる操作を制御する組織のチーム ポリシーの使用方法と管理方法について説明します。
-ms.openlocfilehash: de5558fbecddff0c4437cf3205aa676d664867f6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92b49a31a4ae8cdedb9243293547c42699fed919
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629979"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725496"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Microsoft Teams でチーム ポリシーを管理する
 
@@ -45,7 +45,7 @@ ms.locfileid: "58629979"
 2. **[追加]** をクリックします。
 3. ポリシーの名前と説明を入力します。
 
-    ![チーム ポリシー設定のスクリーンショット](media/teams-policies.png)
+    ![Teams のポリシー設定のスクリーンショット。](media/teams-policies.png)
 4. ユーザーにプライベート チャネルの **作成**<a name="createchannels"></a>を許可するかどうかに応じて、[プライベート チャネルの作成] をオンまたはオフにします。
 
 5. **[保存]** をクリックします。
@@ -62,7 +62,7 @@ ms.locfileid: "58629979"
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [接続Teamsサイトとチャネル サイトを管理する](/SharePoint/teams-connected-sites)
 

@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '概要: 2013 または 2016 年にSkype for Business ServerをExchangeしながら、このトピックを確認してください。'
-ms.openlocfilehash: 382d432947ea099db35831a5db0d9ba649796b88
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633531"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725676"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>ユニファイド メッセージングExchange統合を計画Skype for Business
 
@@ -117,7 +117,7 @@ Skype for Business Server UM 統合では、次のトポロジExchangeサポー�
 
 **例 1: Exchange UM の復元性**
 
-![ExchangeUM 復元の図](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![ExchangeUM 復元の図。](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
 例 1 では、Exchange UM サーバー 1 と 2 がトゥクウィラ データ センターで有効にされ、Exchange UM サーバー 3 と 4 がダブリン のデータ センターで有効になっています。 トゥクウィラで Exchange UM が停止した場合、サーバー 1 とサーバー 2 のレコードがそれぞれサーバー 3 と 4 を指するように構成する必要があります。 ダブリンで EXCHANGE UM が停止した場合、サーバー 3 とサーバー 4 の DNS A レコードは、それぞれサーバー 1 とサーバー 2 を指するように構成する必要があります。
 
@@ -126,7 +126,7 @@ Skype for Business Server UM 統合では、次のトポロジExchangeサポー�
 
 **例 2:Exchange UM の復元性**
 
-![ExchangeUM 復元の図](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![ExchangeUM 復元の図。](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 例 2 では、通常の操作条件の下、Exchange UM サーバー 1 と 2 は Tukwila のデータ センターで有効化されています。Exchange UM サーバー 3 と 4 は Dublin のデータ センターで有効化されています。 4 台すべてのサーバーが Tukwila のユーザーの SIP URL ダイヤル プランに含まれていますが、サーバー3 と 4 は有効化されていません。 たとえば、Tukwila で Exchange UM サーバーが停止した場合、Exchange UM サーバー 1 と 2 は無効化され、Tukwila の Exchange UM トラフィックが Dublin のサーバーにルーティングされるよう、Exchange UM サーバー 3 と 4 は有効化されます。
 

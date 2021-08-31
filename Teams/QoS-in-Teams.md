@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3547f23d43f07d8de28ba8ca53626be119de30de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f87dfea2eb847a8bf6ae4c6aa95b099d93b0c1e0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595289"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732936"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Microsoft Teams でサービス品質 (QoS) を実装する
 
@@ -45,7 +45,7 @@ QoS を有効にするには、組織全体に一貫性のある QoS 設定を�
 
 _図 1. 組織のネットワークと Microsoft 365 または Office 365 サービス間の関係_
 
-![ネットワークとサービスの関係を示す図](media/Qos-in-Teams-Image1.png "組織のネットワークと Microsoft 365 および Office 365 サービスの間の関係: オンプレミスのネットワークとデバイスは、相互接続ネットワークに接続します。相互接続ネットワークは、Microsoft 365 および Office 365 のクラウド ボイスと電話会議のサービスに接続します。")
+![ネットワークとサービス間の関係の図。](media/Qos-in-Teams-Image1.png "組織のネットワークと Microsoft 365 および Office 365 サービスの間の関係: オンプレミスのネットワークとデバイスは、相互接続ネットワークに接続します。相互接続ネットワークは、Microsoft 365 および Office 365 のクラウド ボイスと電話会議のサービスに接続します。")
 
 ## <a name="qos-implementation-checklist"></a>QoS の実装のチェックリスト
 
@@ -64,13 +64,13 @@ _図 1. 組織のネットワークと Microsoft 365 または Office 365 サー
       > [!IMPORTANT]
       > これらの QoS ポリシーは、クライアントの送信元ポートと、送信元と宛先の IP アドレスを "any"として実装することをお勧めします。 これにより、内部ネットワーク上の受信と送信の両方のメディア トラフィックがキャッチされます。  
 
-   3. [会議のメディア トラフィックを処理する方法をTeamsします](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)。
+   3. [会議のメディア トラフィックを処理する方法Teamsします](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)。
 
 5. ネットワーク上の Teams トラフィックを分析して [QoS 実装を検証](#validate-your-qos-implementation)します。
 
 QoS の実装を準備する際には、次のガイドラインに留意してください。
 
-- 最も短いパスはMicrosoft 365最適です。
+- 最も短いパスをMicrosoft 365パスが最適です。
 - ポートを閉じると、品質の低下だけが発生します。
 - プロキシなど、その間の障害は推奨されません。
 - ポップ数を制限します:
@@ -102,7 +102,7 @@ QoS を実装するときは、Cisco のプライオリティ キューイング
 
 _図 2. QoS キューの例_
 
-![QoS キューと帯域幅分割の図](media/Qos-in-Teams-Image2.png "使用可能な合計帯域幅は、複数のキュー (オーディオ、ビデオ、その他のトラフィック) で分割されます。それらには、それぞれ異なる優先順位が割り当てられています。")
+![QoS キューと帯域幅の除算の図。](media/Qos-in-Teams-Image2.png "使用可能な合計帯域幅は、複数のキュー (オーディオ、ビデオ、その他のトラフィック) で分割されます。それらには、それぞれ異なる優先順位が割り当てられています。")
 
 わかりやすく例えると、QoS ではデータ ネットワークに仮想の "相乗り車線" を作成して、一部の種類のデータでは遅延がまったく生じない、またはほとんど生じないようにすることができます。 そのような車線を作成すると、組織ユーザーに提供するビジネス水準のエクスペリエンスを維持しながら、それらの車線の相対的なサイズを調整して、保有している接続帯域幅をより有効に管理できるようになります。
 

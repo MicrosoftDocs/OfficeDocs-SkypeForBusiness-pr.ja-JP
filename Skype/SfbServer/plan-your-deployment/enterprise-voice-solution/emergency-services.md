@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 場所の取得や通話ルーティングなど、Skype for Business Server エンタープライズ VoIP 9-1-1 (E9-1-1) サービスについて説明します。
-ms.openlocfilehash: 2e7e3a2464f7c6e3579a9779a7926be2d87492d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592511"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732756"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>緊急サービスの計画を立Skype for Business Server
 
@@ -78,7 +78,7 @@ Skype for Business クライアントには緊急通話の一部として PIDF-L
 
 次の図は、Skype for Businessクライアントが場所を取得する方法を示しています (サード パーティのクライアント MAC アドレスベースの場所の方法を除く)。
 
-![クライアントが場所図を取得する方法](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
+![クライアントが場所図を取得する方法。](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
 
 クライアントが場所情報を取得するには、次の手順を実行する必要があります。
 
@@ -98,7 +98,7 @@ E9-1-1 を展開する方法に、SIP トランクを使用して、認定され
 
 **SIP トランクを介した E9-1-1 通話のルーティング**
 
-![Lync Server から PSAP への緊急通話ルーティング](../../media/Plan_LyncServer_E911_CallRouting.jpg)
+![Lync Server から PSAP への緊急通話ルーティング。](../../media/Plan_LyncServer_E911_CallRouting.jpg)
 
 互換性のあるクライアントから緊急通話が行Skype for Business Server。
 

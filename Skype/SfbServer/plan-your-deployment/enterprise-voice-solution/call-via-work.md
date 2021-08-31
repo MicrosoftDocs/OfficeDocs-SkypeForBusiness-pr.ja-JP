@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Skype for Business Server で通話の計画を立て、Skype for Business と PBX 電話システムとの統合を可能にし、ユーザーが pbx 電話を制御するために Skype for Business を使用できます。
-ms.openlocfilehash: 287f549d0b416e432eea771c07a7331e38a0b594
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc2a20741f4f89d4a535b9aa0278fea85a8f44c6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592531"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732586"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>[通話の計画] 作業時間内の作業Skype for Business Server
  
@@ -47,7 +47,7 @@ Call Via Work は、PBX システムと Skype for Business Server 展開の間�
 
 次に、ユーザーが [通話経由の作業] を有効にした場合に、Skype for Business Serverを使用して通話を行う方法を示します。
   
-![通話の通話中の手順を表示します。最初に、呼び出し元がクライアント内のユーザーを呼び出Skype for Businessします。その後、UCWA は発信者の電話を呼び出します。 発信者が電話を受け取ると、受信者が呼び出されます](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
+![通話の通話中の手順を表示します。最初に、呼び出し元がクライアント内のユーザーを呼び出Skype for Businessします。その後、UCWA は発信者の電話を呼び出します。 発信者が電話を受け取ると、受信者が呼び出されます。](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
 1. ユーザーはクライアントでユーザーをSkype for Businessし、電話アイコンをクリックして呼び出します。 または、IM 会話中に、ユーザーがクリックして、セッションを行っているユーザーを呼び出します。
     

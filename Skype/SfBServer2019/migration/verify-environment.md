@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 2019 Skype for Business Server共存状態で展開する前に、従来のサービスが構成および開始されていることを確認する必要があります。 2019 パイロット プールを展開する前に、従来の環境に存在する主要なサービスと機能をSkype for Business Server重要です。 従来の XMPP 展開との共存状態で Microsoft Skype for Business Server 2019 XMPP を展開する前に、従来の XMPP サービスが構成および開始されていることを確認し、従来の XMPP 構成がサポートしているフェデレーション パートナーを特定する必要があります。
-ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 208b508eb6b2b5c62da51aa6317cde6e2a95bbb7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586241"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727746"
 ---
 # <a name="verify-the-legacy-environment"></a>従来の環境を確認する
 
@@ -36,7 +36,7 @@ ms.locfileid: "58586241"
     
 2. 次のサービスがフロントエンド サーバーで実行されていることを確認します。
     
-     ![フロント エンド サーバーで実行されているサービスの一覧](../media/migration_lyncserver_config_w14_services.jpg)
+     ![フロント エンド サーバーで実行されているサービスの一覧。](../media/migration_lyncserver_config_w14_services.jpg)
   
 ## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>[コントロール パネル] で従来のトポロジSkype for Business Server確認する
 
@@ -46,7 +46,7 @@ ms.locfileid: "58586241"
     
 3. [**トポロジ**] クリックします。 従来の展開のさまざまなサーバーが一覧に表示されるのを確認します。
     
-     ![コントロール パネルのトポロジ ページ](../media/migration_lyncserver_2010_topology.JPG)
+     ![コントロール パネルのトポロジ ページ。](../media/migration_lyncserver_2010_topology.JPG)
   
 ## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>[コントロール パネル] で従来Skype for Business Serverを確認する
 
@@ -56,7 +56,7 @@ ms.locfileid: "58586241"
     
 3. [レジストラー プール **] 列が、** 一覧に表示されている各ユーザーのレガシ プールをポイントしている点を確認します。 
     
-     ![ユーザーを一覧するコントロール パネル](../media/migration_lyncserver_2010_allusers.JPG)
+     ![ユーザーを一覧するコントロール パネル。](../media/migration_lyncserver_2010_allusers.JPG)
   
 ## <a name="verify-legacy-edge-and-federation-settings"></a>従来のエッジとフェデレーションの設定を確認する
 
@@ -70,15 +70,15 @@ ms.locfileid: "58586241"
     
 5. サイト ノードを選択し、サイトフェデレーション ルート割り当ての値が **設定** されているのを確認します。 
     
-     ![トポロジ ビルダー、サイト フェデレーション ルート](../media/migration_lyncserver_w14_federation.jpg)
+     ![トポロジ ビルダー、サイト フェデレーション ルート。](../media/migration_lyncserver_w14_federation.jpg)
   
 6. [サーバー] Standard Editionまたはフロントエンド Enterprise Editionを選択します。 [関連付け] の下のメディアにエッジ プールが構成 **されているかどうかを確認します**。 
     
-     ![サーバーとプールを表示するトポロジ ビルダー](../media/migration_lyncserver_w14_edgepool_media.jpg)
+     ![サーバーとプールを表示するトポロジ ビルダー。](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
 7. エッジ プールを選択し、次ホップ プールが [次ホップの選択] の下に構成 **されているかどうかを識別します**。
     
-     ![トポロジ ビルダー、次ホップの選択](../media/migration_lyncserver_w14_nexthop.jpg)
+     ![トポロジ ビルダー、次ホップの選択。](../media/migration_lyncserver_w14_nexthop.jpg)
   
 ## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>従来の XMPP フェデレーション パートナーの構成を確認する
 
@@ -86,6 +86,6 @@ ms.locfileid: "58586241"
     
 2. Office Communications Server XMPP Gateway サービスが開始されていることを確認します。 
     
-     ![OfficeCommunications Server XMPP Gateway Service](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
+     ![Officeコミュニケーション サーバー XMPP ゲートウェイ サービス。](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
 

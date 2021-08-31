@@ -18,16 +18,16 @@ description: グループ内のユーザーとグループにポリシー パッ
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 711e0fd321dd9eff16ad37d0f662c9f72159a955
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601202"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727196"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>ユーザーとグループにポリシー パッケージを割り当てる
 
-この記事では、グループ内のユーザーとグループにポリシー パッケージを割り当てるさまざまな方法についてMicrosoft Teams。 この記事を読む前に、「ポリシーの割り当て - [Teams」を参照してください](policy-assignment-overview.md)。
+この記事では、ポリシー パッケージをユーザーとグループに割り当てるさまざまな方法についてMicrosoft Teams。 この記事を読む前に、「ポリシーの割り当て - [Teams」を参照してください](policy-assignment-overview.md)。
 
 > [!NOTE]
 > カスタム ポリシー パッケージの割り当てを受け取るには、各ユーザーに Advanced Communications アドオンが必要です。 詳細については、「[Microsoft Teams 用 Advanced Communications アドオン](/microsoftteams/teams-add-on-licensing/advanced-communications)」を参照してください。
@@ -42,7 +42,7 @@ Teams のポリシー パッケージは、組織内で同じまたは類似の�
 2. ユーザーのページで 、[ポリシー]を選択し、[ポリシーパッケージ] の横にある [編集] を **選択します**。
 3. [ポリシー パッケージ **の割り** 当て] ウィンドウで、割り当てるパッケージを選択し、[保存] を **選択します**。
 
-![Teamsへのポリシー パッケージの割り当てに関する管理センターのスクリーンショット](media/assign-policypackages-user.png)
+![Teamsへのポリシー パッケージの割り当てに関する管理センターのスクリーンショット。](media/assign-policypackages-user.png)
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>ポリシー パッケージを複数のユーザーに割り当てる
 
@@ -51,7 +51,7 @@ Teams のポリシー パッケージは、組織内で同じまたは類似の�
 3. [**ユーザーを管理**] ウィンドウで、表示名またはユーザー名でユーザーを検索し、名前を選択して [**追加**] を選びます。 追加するユーザーごとに、この手順を繰り返します。
 4. ユーザーの追加が完了したら、**[保存]** を選択します。
 
-![Teamsユーザーへのポリシー パッケージの割り当てに関する管理センターのスクリーンショット](media/assign-policypackages-multipleusers.png)
+![Teamsユーザーへのポリシー パッケージの割り当てに関する管理センターのスクリーンショット。](media/assign-policypackages-multipleusers.png)
 
 ## <a name="assign-a-policy-package-to-a-group"></a>ポリシー パッケージをグループに割り当てる
 
@@ -79,7 +79,7 @@ Teams のポリシー パッケージは、組織内で同じまたは類似の�
 
     d. **[適用]** を選択します。
 
-![グループ ポリシーの割り当てを表示する](media/group-pkg-assignment.png)
+![グループ ポリシーの割り当てを表示します。](media/group-pkg-assignment.png)
 
 5. 特定のポリシーの種類のランク付けを管理するには、特定のポリシー ページに移動します。
 6. ポリシー パッケージをグループに再割り当てするには、最初にグループ ポリシーの割り当てを削除します。 次に、上記の手順に従って、ポリシー パッケージをグループに割り当てします。
@@ -151,6 +151,6 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 ## <a name="related-topics"></a>関連トピック
 
 - [ポリシー Teamsを管理する](manage-teams-with-policies.md)
-- [アプリケーションでポリシー パッケージを管理Microsoft Teams](manage-policy-packages.md)
+- [グループでポリシー パッケージを管理Microsoft Teams](manage-policy-packages.md)
 - [Teams PowerShell の概要](teams-powershell-overview.md)
-- [グループでポリシーを割りTeams - 使用を開始する](policy-assignment-overview.md)
+- [ポリシーの割り当Teams - 使用を開始する](policy-assignment-overview.md)

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df3dbdcaf0668caa4a58490371dd0a323ae8a3ff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f5743dda03b7495bc8f7c275fb955f83d7db6be2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583671"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727206"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Microsoft Teams でチームをアーカイブまたは削除する
 
@@ -45,7 +45,7 @@ ms.locfileid: "58583671"
 2. チーム名をクリックして、チームを選びます。
 3. [**アーカイブ**] を選びます。 次のメッセージが表示されます。
 
-    ![Teams のアーカイブ メッセージのスクリーンショット](media/teams-archive-message.png)
+    ![アーカイブ メッセージTeamsスクリーンショット。](media/teams-archive-message.png)
 
 4. チームに関連付けられている SharePoint サイトと Wiki タブでユーザーがコンテンツを編集するのを防ぐには、[チーム メンバーの SharePoint サイトを読み取り専用にする]**を選択します**。 (Teamsは引き続きこのコンテンツを編集できます)。
 5. [**アーカイブ**] を選択して、チームをアーカイブします。 チームの状態が [**アーカイブ済み**] に変わります。
@@ -71,7 +71,7 @@ ms.locfileid: "58583671"
 
 次の手順に従って、チームに関連付けられているMicrosoft 365グループを復元して、削除されたチームを復元します。 チームのMicrosoft 365グループを復元すると、タブ、標準チャネル、プライベート チャネル、関連するサイト コレクションなどのチーム コンテンツが復元されます。
 
-既定では、削除されたMicrosoft 365は 30 日間保持されます。 この 30 日の期間は、グループを復元できるため、「ソフト削除」と呼ばれます。 詳細については、「削除されたグループ [を復元する」を参照してください](/microsoft-365/admin/create-groups/restore-deleted-group)。
+既定では、削除されたグループMicrosoft 365は 30 日間保持されます。 この 30 日の期間は、グループを復元できるため、「ソフト削除」と呼ばれます。 詳細については、「削除されたグループ [を復元する」を参照してください](/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>AzureADPreview モジュールをインストールする
 
@@ -91,7 +91,7 @@ ms.locfileid: "58583671"
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>削除したグループをMicrosoft 365する
+### <a name="restore-the-deleted-microsoft-365-group"></a>削除されたグループをMicrosoft 365する
 
 1. Azure AD に接続するには、次の操作を実行します。
     ```PowerShell
@@ -114,6 +114,6 @@ ms.locfileid: "58583671"
 
     復元プロセスが完了するまで、最大で 24 時間かかる場合があります。その後、タブやチャネルなど、該当するチームに関連付けられたチームとコンテンツが Teams に表示されます。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [チームをアーカイブまたは復元する](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 

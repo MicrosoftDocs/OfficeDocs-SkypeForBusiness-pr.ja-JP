@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: '概要: これらのリンクを参照して、管理と管理を行う方法Skype for Business Server。'
-ms.openlocfilehash: 3430c1d704570fe5812fb4315fdc24a91c5972dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 67ecd31e3442e44d8858bbf5eb0a91c3ea191e7c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636051"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727896"
 ---
 # <a name="manage-skype-for-business-server"></a>管理Skype for Business Server 
 
@@ -34,8 +34,8 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![技術図のアイコン](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[データの技術図Skype for Business Server](../technical-diagrams.md) <br/> |大判の図によって各アーキテクチャを一目で確認できます。  <br/> |
-|![ビデオのアイコン](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|ビデオ デモとトレーニング -  *近日公開予定!*  <br/> |ビデオプレゼンテーションとトレーニングをSkype for Business Server。  <br/> |
+|![技術図のアイコン。](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[データの技術図Skype for Business Server](../technical-diagrams.md) <br/> |大判の図によって各アーキテクチャを一目で確認できます。  <br/> |
+|![ビデオのアイコン。](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|ビデオ デモとトレーニング -  *近日公開予定!*  <br/> |ビデオプレゼンテーションとトレーニングをSkype for Business Server。  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>管理に関するSkype for Business Server
 
@@ -43,11 +43,11 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![数値の [方法] アイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[トポロジを管理Skype for Business Server](topology/topology.md) <br/> |このセクションのトピックでは、Skype for Business Server コントロール パネルと管理シェルを使用してサーバーをアップグレード、更新、追加、および削除するためのSkype for Business Server手順を示します。  <br/> |
-|![数値の [方法] アイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[正常性と監視を管理Skype for Business Server](health-and-monitoring/health-and-monitoring.md) <br/> |このセクションのトピックでは、コントロール パネルと管理シェルを使用して実行できる監視および正常性構成タスクのSkype for Business Server手順Skype for Business Server示します。  <br/> |
-|![数値の [方法] アイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[アーカイブを管理Skype for Business Server](archiving/archiving.md) <br/> |このセクションのトピックでは、Skype for Business Server コントロール パネルと Skype for Business Server 管理シェルを使用して Skype for Business Server のアーカイブ オプションとユーザー ポリシーを構成する手順について説明します。  <br/> |
-|![数値の [方法] アイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[2015 年の常設チャット サーバー Skype for Business Serverする](persistent-chat/persistent-chat.md) <br/> |このセクションのトピックでは、コントロール パネルと管理シェルを使用して常設チャット サーバーをSkype for Business Server手順Skype for Business Server説明します。  <br/> **注:** これは、2015 Skype for Businessでのみ使用できます。|
-|![数値の [方法] アイコン](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 管理シェル](management-shell.md) <br/> |このセクションのトピックでは、管理シェルを使用してSkype for Business Server管理Skype for Business Server説明します。  <br/> |
+|![数値の [方法] アイコン。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[トポロジを管理Skype for Business Server](topology/topology.md) <br/> |このセクションのトピックでは、Skype for Business Server コントロール パネルと管理シェルを使用してサーバーをアップグレード、更新、追加、および削除するためのSkype for Business Server手順を示します。  <br/> |
+|![数値の [方法] アイコン。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[正常性と監視を管理Skype for Business Server](health-and-monitoring/health-and-monitoring.md) <br/> |このセクションのトピックでは、コントロール パネルと管理シェルを使用して実行できる監視および正常性構成タスクのSkype for Business Server手順Skype for Business Server示します。  <br/> |
+|![数値の [方法] アイコン。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[アーカイブを管理Skype for Business Server](archiving/archiving.md) <br/> |このセクションのトピックでは、Skype for Business Server コントロール パネルと Skype for Business Server 管理シェルを使用して Skype for Business Server のアーカイブ オプションとユーザー ポリシーを構成する手順について説明します。  <br/> |
+|![数値の [方法] アイコン。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[2015 年の常設チャット サーバー Skype for Business Serverする](persistent-chat/persistent-chat.md) <br/> |このセクションのトピックでは、コントロール パネルと管理シェルを使用して常設チャット サーバーをSkype for Business Server手順Skype for Business Server説明します。  <br/> **注:** これは、2015 Skype for Businessでのみ使用できます。|
+|![数値の [方法] アイコン。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Skype for Business Server 管理シェル](management-shell.md) <br/> |このセクションのトピックでは、管理シェルを使用してSkype for Business Server管理Skype for Business Server説明します。  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>データの計画に関するその他のSkype for Business Server
 
@@ -55,6 +55,6 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
   
 ||**コンテンツ**|**説明**|
 |:-----|:-----|:-----|
-|![ドキュメントのアイコン](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server IT のプロ向け情報](../../Hub/index.yml) <br/> |リソース センターにアクセスして、ビデオ、コミュニティ サイト、ドキュメント、ダウンロードなどへアクセスします。 |
-|![開発者向けコンテンツのアイコン](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server開発者向け  <br/> |コード サンプル、トレーニングSkype for Business Server SDK など、ユーザーの開発者向けリソースを検索します。 |
-|![ニュース、ブログなどのためのアイコン](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skypeチームブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |作成し、ドキュメントを作成するチームからのニュースにSkype for Business Server。  |
+|![ドキュメントのアイコン。](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server IT のプロ向け情報](../../Hub/index.yml) <br/> |リソース センターにアクセスして、ビデオ、コミュニティ サイト、ドキュメント、ダウンロードなどへアクセスします。 |
+|![開発者向けコンテンツのアイコン。](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server開発者向け  <br/> |コード サンプル、トレーニングSkype for Business Server SDK など、ユーザーの開発者向けリソースを検索します。 |
+|![ニュース、ブログなどのためのアイコン。](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[変更管理と導入](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office ブログ](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skypeチームブログ](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |作成し、ドキュメントを作成するチームからのニュースにSkype for Business Server。  |

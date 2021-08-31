@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: 2015 年のサーバー以外の要件Skype for Business Serverします。 Active Directory、DNS、Certs、Fileshares など、展開を行う前に構成する必要があるさまざまなものがあります。'
-ms.openlocfilehash: dfaf19ac3c34a13055cd496ad25d02cd4b89c783
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e27d854b2755a3d0d8613f12fb80342879faab26
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601332"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725956"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>2015 年の環境Skype for Business Server要件
  
@@ -117,13 +117,13 @@ Skype for Business Server 2015 でサポートされているトポロジは次�
   
 #### <a name="single-forest-with-single-domain"></a>単一のドメインを含む単一のフォレスト
 
-![1 つのドメインを持つ Active Directory 単一フォレストの図](../../media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
+![単一ドメインを持つ Active Directory 単一フォレストの図。](../../media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
 これより簡単に行えるのは、単一のドメイン フォレストです。これは一般的なトポロジです。
   
 #### <a name="single-forest-with-a-single-tree-and-multiple-domains"></a>単一のツリーと複数のドメインを含む単一のフォレスト
 
-![単一のフォレスト、単一ツリー、および mutiple ドメインの図](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![単一のフォレスト、単一ツリー、および mutiple ドメインの図。](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
 この図は、もう一度 1 つのフォレストを示していますが、1 つ以上の子ドメインも含みます (この特定の例には 3 つがあります)。 そのため、ユーザーが作成するドメインは、2015 年に展開Skype for Business Serverドメインとは異なる場合があります。 なぜこのことを心配するのですか? フロントエンド プールを展開する場合、Skype for Business Server内のすべてのサーバーが 1 つのドメイン内にある必要がある点に注意してください。 ユニバーサル管理者グループのサポートを通Skype for Business Serverドメイン間Windows管理できます。
   
@@ -131,7 +131,7 @@ Skype for Business Server 2015 でサポートされているトポロジは次�
   
 #### <a name="single-forest-with-multiple-trees-and-disjoint-namespaces"></a>複数のツリーと不整合の名前空間を含む単一のフォレスト
 
-![単一のフォレスト、複数のツリー、および不結合の名前空間の図](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
+![単一のフォレスト、複数のツリー、および不結合の名前空間の図。](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
 この図に似たトポロジが用意されている場合がありますが、フォレストは 1 つですが、そのフォレスト内には複数のドメインが含まれるので、個別の名前空間ADがあります。 この場合、2015 年 3 つの異なるドメインのユーザーが 2015 年にアクセスする場合、この図はSkype for Business Serverです。 実線は、自分のドメイン内の Skype for Business Server プールにアクセスしている場合、破線は別のツリー内のプールに移動する場合を示します。
   
@@ -139,7 +139,7 @@ Skype for Business Server 2015 でサポートされているトポロジは次�
   
 #### <a name="multiple-forests-in-a-central-forest-topology"></a>中央フォレスト トポロジの複数のフォレスト
 
-![中央フォレスト トポロジ図の複数のフォレスト](../../media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
+![中央フォレスト トポロジ図の複数のフォレスト。](../../media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
 Skype for Business Server 2015 では、中央フォレスト トポロジで構成された複数のフォレストがサポートされています。 それが自分の持っているものか分からない場合、トポロジの中央フォレストは、その中のオブジェクトを使用して他のフォレストのユーザーを表し、フォレスト内のすべてのユーザーのユーザー アカウントをホストします。
   
@@ -150,7 +150,7 @@ Skype for Business Server 2015 では、中央フォレスト トポロジで構
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>リソース フォレスト トポロジ内Skype for Businessフォレスト
 <a name="BKMK_multipleforestopology"> </a>
 
-![リソース フォレスト トポロジ図内の複数のフォレスト](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![リソース フォレスト トポロジ図内の複数のフォレスト。](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 リソース フォレスト トポロジもサポートされています。フォレストは、2015 年から 2015 年まで、サーバー アプリケーションの実行専用Microsoft Exchange Server場所Skype for Business Serverです。 このリソース フォレストは、アクティブなユーザー オブジェクトの同期表現もホストしますが、ログオンが有効なユーザー アカウントはありません。 したがって、リソース フォレストは、ユーザー オブジェクトが存在する他のフォレストの共有サービス環境であり、リソース フォレストとのフォレスト レベルの信頼関係を持ちます。
   

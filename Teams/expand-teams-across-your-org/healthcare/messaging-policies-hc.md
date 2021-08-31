@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Microsoft Teams のセキュリティで保護されたメッセージング ポリシーを、開封確認と優先通知を使用できるようにカスタマイズする方法を説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: efad01c1731ba3c7bacbae012c0062350bd92b39
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72a0ab4ebce59a9fa65ec67b413892afa0b1e045
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595081"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727246"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>医療組織向けのセキュリティで保護されたメッセージング
 
@@ -37,11 +37,11 @@ ms.locfileid: "58595081"
 
 ポリシーは次の方法で簡単に管理できます。管理者の資格情報で [Microsoft Teams 管理センター](https://admin.teams.microsoft.com)にサインインし、左側のナビゲーション ウィンドウで **[メッセージング ポリシー]** を選択します。
 
- ![[メッセージング ポリシー] ページのスクリーンショット](../../media/hc-messaging-policy-admin-center.png)
+ ![[メッセージング ポリシー] ページのスクリーンショット。](../../media/hc-messaging-policy-admin-center.png)
 
 組織に存在する既定のメッセージング ポリシーを編集するには、**[グローバル (組織全体の既定値)]** をクリックして、変更を行います。 新しいカスタム メッセージング ポリシーを作成するには、**[追加]** をクリックして、設定を選択します。 完了したら、**[保存]** を選択します。
 
-![メッセージング ポリシー設定のスクリーンショット](../../media/hc-messaging-policy.png)
+![メッセージング ポリシー設定のスクリーンショット。](../../media/hc-messaging-policy.png)
 
 以下の設定は、医療用途において特に重要であり、医療分野で使用されるカスタム ポリシーを設計する際に考慮する必要があります。
 

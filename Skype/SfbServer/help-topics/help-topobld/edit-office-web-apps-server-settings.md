@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 構成されている Web Apps Server のプロパティOffice編集します。 編集できるプロパティは次のとおりです。
-ms.openlocfilehash: 25372d8e6a6748c91f17c3d0ca7e8de7f8d63c44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9872a1700ca31dfeaa0e2466c1b341c88114db3d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606346"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725716"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Office Web Apps サーバーの設定の編集
 
@@ -32,7 +32,7 @@ ms.locfileid: "58606346"
 
 このサーバーの展開先が境界ネットワークであるか、または内部展開から境界ネットワーク、信頼性の低いネットワーク、およびインターネットを分離する内部ファイアウォールの外にある他のネットワーク ゾーンである場合は、[**Office Web Apps サーバーは外部ネットワークで展開**] チェック ボックスをオンにします。
 
-![OfficeWeb Apps 設定エキスパンダー](../../media/OfficeWebApps_Settings_Expander.jpg)
+![OfficeWeb Apps 設定エキスパンダー。](../../media/OfficeWebApps_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>関連項目
 

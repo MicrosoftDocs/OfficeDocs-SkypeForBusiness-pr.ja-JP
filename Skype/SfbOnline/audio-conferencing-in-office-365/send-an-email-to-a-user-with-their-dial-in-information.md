@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Skype for Business Online で電話会議情報を記載した電子メールをユーザーに送信します。
-ms.openlocfilehash: 8cb4d51fedc5cd12a3ee7a95b0d83c254526abd8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 428ff78fe501200ef9607a03d76c034007517cf0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584451"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727676"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Skype for Business Online で電話会議情報をユーザーに送信する
 
@@ -35,7 +35,7 @@ ms.locfileid: "58584451"
 > [!Note]
 > Microsoft Teams でユーザーに電話会議情報を送信する方法については、「[電話会議の情報が記載されたメールをユーザーに送信する](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)」をご覧ください。
 
-Skype for Business ユーザーに電話会議情報を送付しなくてはならない場合があります。 この操作を行うには、Skype for Business **管理** センターを使用し、ユーザーのプロパティの下にある [電子メールで電話会議情報を送信] をクリックします。 このメールを送信すると、次を含むすべての電話会議情報が含まれる。
+Skype for Business ユーザーに電話会議情報を送付しなくてはならない場合があります。 この操作を行うには、Skype for Business 管理センターを使用し、ユーザーのプロパティの下にある **[** 電子メールで電話会議情報を送信する] をクリックします。 このメールを送信すると、次を含むすべての電話会議情報が含まれる。
   
 - ユーザー用の会議の電話番号またはダイヤルイン電話番号。
     
@@ -44,7 +44,7 @@ Skype for Business ユーザーに電話会議情報を送付しなくてはな�
    
 送信されるメールの例を次に示します。
   
-![ダイヤルイン会議のメール](../images/audio-conferencing-info.png)
+![ダイヤルイン会議の電子メール。](../images/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -59,7 +59,7 @@ Skype for Business ユーザーに電話会議情報を送付しなくてはな�
 
 1. 仕事用または学校用のアカウントでサインインします。
     
-2. 管理センターに移動> Skype for Business **し、** 左側のナビゲーションで [電話会議]**をクリックします**。
+2. 管理センターに移動> Skype for Businessし **、** 左側のナビゲーションで [電話会議]**をクリックします**。
     
 3. [ **ユーザー]** をクリックし、ユーザーを選択します。
     
@@ -107,13 +107,13 @@ Skype for Business ユーザーに電話会議情報を送付しなくてはな�
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。 このWindows PowerShell、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [PowerShell で使用する必要があるMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell を使用するMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター のみを使用する場合に、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター を使用する場合に限り、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -124,6 +124,6 @@ Skype for Business ユーザーに電話会議情報を送付しなくてはな�
     > [!NOTE]
     > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

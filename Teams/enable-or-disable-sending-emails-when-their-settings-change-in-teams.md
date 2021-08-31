@@ -20,23 +20,23 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'ピン留めなどの設定が変更された場合や、Skype で既定の会議番号が変更された場合に、ユーザーにメールを送信Microsoft Teams。 '
-ms.openlocfilehash: 3d9284d78c20b65c3474475a91e041600c232049
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'ピン留めなどの設定が変更された場合や、Skype で既定の会議番号が変更された場合に、Skype からユーザーへのメール送信を有効または無効にする方法について説明Microsoft Teams。 '
+ms.openlocfilehash: f81572feb976ab68a6a65631ec772ec4421f2b1e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635701"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727446"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Microsoft Teams で電話会議の設定が変更されたときのメールの自動送信を有効または無効にする
 
 電話会議が有効になると、ユーザーには電子メールで自動的に通知されます。 ただし、ユーザーに送信されるメールの数を減らしたい場合Microsoft Teamsがあります。 このような場合は、メールの送信を無効にできます。
   
-メールの送信を無効にした場合、電話会議メールはユーザーに送信されません。たとえば、ユーザーが電話会議を有効または無効にした場合、PIN がリセットされた場合、電話会議 ID と既定の会議電話番号が変更された場合のメールが含されます。
+メールの送信を無効にした場合、電話会議メールはユーザーに送信されません。たとえば、ユーザーが電話会議を有効または無効にした場合、PIN がリセットされた場合、電話会議 ID と既定の会議電話番号が変更された場合のメールも含めて送信されません。
   
 電話会議が有効になっているユーザーに送信されるメールの例を次に示します。
   
-![電話会議の電子メール メッセージの例](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![電話会議の電子メール メッセージの例。](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>メールがユーザーに送信されるのは、いつですか?
 
@@ -59,7 +59,7 @@ ms.locfileid: "58635701"
 
 ユーザーに送信Microsoft TeamsまたはWindows PowerShellを使用して有効または無効にできます。
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。 
 
@@ -75,7 +75,7 @@ ms.locfileid: "58635701"
 
 **Windows PowerShell を使用する**
   
-PowerShell モジュールの Microsoft Teamsを使用して、次のコマンドを実行できます。
+また、PowerShell モジュールMicrosoft Teams使用して、次のコマンドを実行できます。
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
@@ -88,7 +88,7 @@ Windows PowerShell を使用して、次を実行することもできます。[
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

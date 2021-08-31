@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: クライアント Teamsを選択し、エンドポイントの品質を計画し、エンドポイントをデプロイし、オーディオ Wi-Fi選択するための推奨事項を取得します。
+description: クライアント Teamsを選択し、エンドポイントの品質を計画し、エンドポイントのデプロイとオーディオ デバイスの選択Wi-Fi推奨事項を取得します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -18,24 +18,24 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6482baa6738d4f7c3495085f86ae9b9a054d0eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5176f40886bdc086df43a130cb9d8414bd8f40a3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624839"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732966"
 ---
 # <a name="plan-my-users-experience"></a>ユーザーエクスペリエンスを計画する
 
-この記事では、ユーザーのエクスペリエンスに直接影響するクラウド 音声サービス デプロイの要素を適切に識別するための要件の概要を示します。 デプロイ前にこれらの項目を準備することで、ユーザーに高品質で信頼性の高いエクスペリエンスを正常に提供する可能性を高めるでしょう。 
+この記事では、ユーザーのエクスペリエンスに直接影響するクラウド 音声サービス デプロイの要素を適切に識別するための要件の概要を示します。 デプロイ前にこれらの項目を準備することで、ユーザーに高品質で信頼性の高いエクスペリエンスを正常に提供する可能性が高まれます。 
 
 ## <a name="client-deployment"></a>クライアントのデプロイ
 
-Microsoft Teams、Web、デスクトップ (Windows Mac)、モバイル (Android および iOS) で使用できるクライアントがあります。 デスクトップ (Windows および Mac) とモバイル クライアントのインストール方法の詳細については、「Get clients for Microsoft Teams 」[を参照してください](./get-clients.md)。
+Microsoft Teams、Web、デスクトップ (Windows Mac)、モバイル (Android および iOS) で使用できるクライアントがあります。 デスクトップ (Windows および Mac) とモバイル クライアントのインストール方法の詳細については、「Get clients for Microsoft Teams 」を[参照してください](./get-clients.md)。
 
 ## <a name="client-updates"></a>クライアントの更新
 
-この機能の主な利点Teams、クライアントは自動的に最新の状態に維持されます。 PC と Mac 上のクライアントは、アプリがアイドル状態のときに新しいビルドがあるかを確認したり、新しいクライアントをダウンロードしたりする、バックグラウンド プロセスを使用して更新されます。
+この機能の主な利点Teamsクライアントは自動的に最新の状態に保たれ、 PC と Mac 上のクライアントは、アプリがアイドル状態のときに新しいビルドがあるかを確認したり、新しいクライアントをダウンロードしたりする、バックグラウンド プロセスを使用して更新されます。
 
 <!--ENDOFSECTION-->
 
@@ -43,7 +43,7 @@ Microsoft Teams、Web、デスクトップ (Windows Mac)、モバイル (Android
 
 次の図に示す通り、エンドポイントは、ユーザーに高品質のエクスペリエンスを提供する上で重要なブロックです。
 
-![品質にかかわる 3 つの構成要素を取り上げた図](media/plan-my-users-experience-image1.png "品質の 3 つのコンポーネントと、サービス管理が 3 つのコンポーネントすべてとどのように重なるかについて説明する図。エンドポイントに重点を置く。")
+![品質の 3 つのコンポーネントを説明する図。](media/plan-my-users-experience-image1.png "品質の 3 つのコンポーネントと、サービス管理が 3 つのコンポーネントすべてとどのように重なるかについて説明する図。エンドポイントに重点を置く。")
 
 Teamsエンドポイントは、PC、Mac、タブレット、モバイル デバイスなど、多くのデバイスで実行できます。 エクスペリエンスの一部には、デバイスだけでなく、ユーザーがデバイスに接続する方法 (デバイスの組み込みのマイク/スピーカー、イヤーパッド、最適化されたヘッドセットなど) が含されます。 最適化されたヘッドセットを使用すると、全体的なユーザー エクスペリエンスが向上します。
 
@@ -51,21 +51,21 @@ Teamsエンドポイントは、PC、Mac、タブレット、モバイル デバ
 
 ## <a name="endpoint-capability"></a>エンドポイントの機能
 
-計画の最初の部分は、組織内のすべての PC と他のデバイスが、すべてのデバイスを実行Teams。 これには、単にハードウェア要件を確認するだけではなく、PC がバックグラウンドで他に何を実行しているかを理解することも含まれます。 多くの組織は、侵入検出システムやマルウェア対策ソフトウェアなどの、デバイスの基本パフォーマンスに影響する可能性がある、他のソフトウェアを実行しています。
+計画の最初の部分は、組織内のすべての PC と他のデバイスを確実に実行Teams。 これには、単にハードウェア要件を確認するだけではなく、PC がバックグラウンドで他に何を実行しているかを理解することも含まれます。 多くの組織は、侵入検出システムやマルウェア対策ソフトウェアなどの、デバイスの基本パフォーマンスに影響する可能性がある、他のソフトウェアを実行しています。
 
-各プラットフォーム (Web、デスクトップ、モバイル) 上の Teams クライアントのソフトウェア要件については、「Get clients for Microsoft Teams 」を[参照してください](./get-clients.md)。
+各プラットフォーム (Web、デスクトップ、モバイル) Teams クライアントのソフトウェア要件については、「Get clients for Microsoft Teams 」を[参照してください](./get-clients.md)。
 
 ## <a name="endpoint-firewalls"></a>エンドポイントのファイアウォール
 
 クライアント側のファイアウォールはユーザー エクスペリエンスに大きな影響をおよぼす可能性があります。
-クライアント側のファイアウォールは、通話が確立されないようにするだけではなく、通話品質に影響する可能性があります。 クライアント ファイアウォールで適切な除外を構成します。これらの URL と IP アドレス範囲は、Microsoft 365 または Office 365 の情報に[基づいて行います](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 ご利用のサードパーティ ベンダーには、例外の作成方法についての固有のガイダンスがあります。
+クライアント側のファイアウォールは、通話が確立されないようにするだけではなく、通話品質に影響する可能性があります。 クライアント ファイアウォールで適切な除外を構成します。クライアント ファイアウォールの URL と IP アドレス範囲Microsoft 365またはOffice 365[情報に基づいて行います](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 ご利用のサードパーティ ベンダーには、例外の作成方法についての固有のガイダンスがあります。
 
 >[!NOTE]
 > Microsoft Teams は、適切なファイアウォール構成で自動的に Windows ファイアウォールを更新します。
 
 ## <a name="wi-fi-recommendations-for-endpoints"></a>エンドポイント向けの Wi-Fi の推奨事項
 
-最適化されたネットワークをデプロイし、Wi-Fiのリアルタイム ワークロードをサポートするには、重要な計画がMicrosoft Teams。 次のセクションでは、エンドポイントを計画するときによくある落とし穴を回避するために役立つ一般的なガイダンスを示します。
+最適化されたクラウド ネットワークをデプロイし、Wi-Fiのリアルタイム ワークロードをサポートするには、重要な計画がMicrosoft Teams。 次のセクションでは、エンドポイントを計画するときによくある落とし穴を回避するために役立つ一般的なガイダンスを示します。
 
 ### <a name="wi-fi-drivers"></a>Wi-Fi ドライバー
 
@@ -90,8 +90,8 @@ Teamsエンドポイントは、PC、Mac、タブレット、モバイル デバ
 組織で 802.11 Power Save プロトコルをサポートしないワイヤレス アクセス ポイントまたはルーターを使用している場合は、Windows デバイスで実行されている Microsoft Teams で通話の低下や低品質が発生する可能性があります。 ワイヤレス アクセス ポイントまたはルーターをアップグレードすることができない場合は、バッテリで動作しているデバイスで Windows 電源プラン設定を更新する必要があります。 より詳細な情報と、構成についてのガイダンスは次の[サポート記事](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)で提供されています。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>組織Teamsどのクライアントをデプロイしますか。</li><li>ユーザーに対してTeamsをデプロイする方法を示します。</li><li>Who、エンドポイントとデバイスを評価して、品質エクスペリエンスの要件Teamsを満たしていることを検証する必要がありますか。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>クライアントをデプロイするために実行されるプロセスTeamsします。</li><li>エンドポイントとデバイスを評価し、実行と修復が必要です。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>組織Teamsどのクライアントをデプロイしますか?</li><li>ユーザーに対してクライアントをTeamsデプロイする方法</li><li>Whoは、エンドポイントとデバイスを評価して、品質エクスペリエンスの要件を満たTeamsを検証する責任がありますか?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>クライアントをデプロイするために実行されるプロセスTeamsします。</li><li>エンドポイントとデバイスを評価し、実行と修復が必要です。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -108,13 +108,13 @@ Microsoft Teams は会議のために、または電話システムとして使�
 デバイスを選択したら、それらを最終検証のパイロット テスト計画に含めます。 パイロット中にアンケートを活用して、デバイス戦略が適正であることを確認するために、フィードバックを収集します。
 
 > [!NOTE]
-> 現時点では、Skype for Business の認証プログラムを通して認証されたオーディオ デバイスを使用することをお勧めします。 このプログラムで認定されているデバイスを見つけるには、Microsoft Teams [USB](https://products.office.com/microsoft-teams/across-devices/devices)オーディオ デバイスとビデオ デバイス[に関するページを参照してください](/SkypeForBusiness/certification/devices-usb-devices)。
+> 現時点では、Skype for Business の認証プログラムを通して認証されたオーディオ デバイスを使用することをお勧めします。 このプログラムで認定されたデバイスを見つけるには、Microsoft Teams [USB](https://products.office.com/microsoft-teams/across-devices/devices)オーディオ デバイスとビデオ デバイス[に関するページを参照してください](/SkypeForBusiness/certification/devices-usb-devices)。
 
 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>ユーザーエクスペリエンスと会議室エクスペリエンスに関する組織の全体的なデバイス戦略を決定します。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次のステップ</td><td><ul><li>組織のペルシャ対デバイス マッピングの演習を完了します。</li><li>ユーザーと会議室のデバイスを取得するプロセスを文書化します。</li><li>ユーザーと会議室のデバイスを展開および構成するプロセスを文書化します。</li><li>初期デバイスを調達してデプロイを開始します。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>組織のペルシャ対デバイス マッピングの演習を完了します。</li><li>ユーザーと会議室のデバイスを取得するプロセスを文書化します。</li><li>ユーザーと会議室のデバイスを展開および構成するプロセスを文書化します。</li><li>初期デバイスを調達してデプロイを開始します。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 通話受付管理について、メディア品質が低い場合に通話が行えなSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b57d9f4d6a26acb33b03ab1befb9132ffebc9a20
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623599"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725966"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>通話受付管理の計画を立Skype for Business Server
 
@@ -98,7 +98,7 @@ CAC ポリシーのために失敗する呼び出しの場合、呼び出しを�
 
 **PSTN への接続に対する通話受付管理の適用**
 
-![Voice CAC Media Bypass Connection Enforcement](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![Voice CAC Media Bypass Connection Enforcement.](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## <a name="defining-your-requirements-for-call-admission-control"></a>通話受付管理の要件の定義
 
@@ -121,7 +121,7 @@ CAC ポリシーのために失敗する呼び出しの場合、呼び出しを�
 
 **通話受付管理のトポロジの例**
 
-![Litware Inc. ネットワーク トポロジの例](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
+![Litware Inc. Network Topology の例。](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
 
 > [!NOTE]
 > すべてのネットワーク サイトはネットワーク地域に関連付けられています。たとえば、ポートランド、リノ、およびアルバカーキは北アメリカ地域に含まれています。この図には、帯域幅制限があり、CAC ポリシーが適用されている WAN リンクのみが示されています。シカゴ、ニューヨーク、デトロイトの各ネットワーク サイトは北アメリカ地域の楕円内に示されています。これらは帯域幅が制限されていないので、CAC ポリシーが不要であるためです。

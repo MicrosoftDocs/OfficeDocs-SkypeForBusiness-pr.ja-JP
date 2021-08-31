@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: この記事では、Skype for Business または Teams の実装で、Azure Monitor を使用して Microsoft Teams Rooms デバイスを管理する場合の計画上の考慮事項について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2808d424d79d8d2b60af0573678ee18d0a52bdeb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cdd5d95d6f5f94bbe73da63b6d0b0f8e8e070cf9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619363"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726026"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Azure Monitor を使用して Microsoft Teams Rooms 管理を計画する
  
@@ -32,7 +32,7 @@ ms.locfileid: "58619363"
   
 ## <a name="functional-overview"></a>機能の概要
 
-![Azure Monitor を使用した Microsoft Teams Rooms 管理の図](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
+![Azure Monitor をMicrosoft Teams会議室管理の図。](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
 コンソール デバイス上の Microsoft Teams Rooms アプリは Windows イベント ログにイベントを書き込みます。 Microsoft Monitoring エージェントは、インストール後、情報を Azure Monitor サービスに渡します。 
   

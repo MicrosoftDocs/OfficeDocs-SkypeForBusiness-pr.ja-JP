@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: '概要: 2015 年の常設チャット サーバー のコンポーネントとトポロジについては、このトピックSkype for Business Serverしてください。'
-ms.openlocfilehash: 67b1e322bd8b367dafdee32f331e597471ba2189
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 63c82eee1a640616aaf8f390a66b2d67678b36ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598741"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725946"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>常設チャット サーバー トポロジを計画する
  
@@ -99,7 +99,7 @@ Skype for Business Server 2015 では、さまざまなコロケーション シ
   
 **単一サーバー トポロジ**
 
-![常設チャット サーバー - 単一サーバー トポロジ](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
+![常設チャット サーバー - 単一サーバー トポロジ。](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Enterprise Edition複数の常設チャット サーバーを持つサーバー
 
@@ -109,7 +109,7 @@ Skype for Business Server 2015 では、さまざまなコロケーション シ
   
 **複数のサーバー トポロジ**
 
-![常設チャット サーバー - 複数のサーバー トポロジ](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
+![常設チャット サーバー - 複数のサーバー トポロジ。](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
 複数サーバー トポロジでは、サーバー機能をプールできます。 サーバー プールでは、常設チャット サービスはデータを通信および共有します。 たとえば、最初に 1 つの常設チャット サービスに投稿されたチャット履歴は、システム内の任意の常設チャット サービスから利用できます。 1 つの常設チャット サービスを介してアップロードされたファイルには、任意の常設チャット サービスからアクセスできます。 ユーザーは、さまざまな常設チャット サーバー フロント エンド サーバーに接続し、互いに通信できます。 TCP 8011 の既定のポートは、サーバーをサーバー プールに接続し、常設チャット サービスが自身間または管理上の目的で通信するために使用します。
   

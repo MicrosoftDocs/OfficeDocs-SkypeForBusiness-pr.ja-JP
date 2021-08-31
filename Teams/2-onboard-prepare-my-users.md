@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30a844f0ecd619e609a61500ac1b845cfbbad553
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd7c41070e867b96d9238ba280d828a3081352f5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623389"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725686"
 ---
 # <a name="prepare-my-users"></a>ユーザーを準備する
 
@@ -48,7 +48,7 @@ ms.locfileid: "58623389"
 
 次に、Skype for Business から Teams にアップグレードする顧客用のビジョンからバリューへのステートメントのサンプルを示します。
 
-![ヴィジョンとバリューをまとめた 2 列の表](media/prepare-my-users-new-image1.png "ヴィジョン - 実施理由 (組織レベル) が左側に、バリュー - ユーザーとの関連性 (ユーザー レベル) が右側に記載された 2 列の表")
+![ビジョンと値を示す 2 列のテーブル。](media/prepare-my-users-new-image1.png "ヴィジョン - 実施理由 (組織レベル) が左側に、バリュー - ユーザーとの関連性 (ユーザー レベル) が右側に記載された 2 列の表")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>判断ポイント</td><td><ul><li>この新しいソリューションに対する好意的な反応を引き出すような方法で、ユーザーに対して利益と価値を明確に示しましたか?</li></ul></td></tr>
@@ -128,7 +128,7 @@ ms.locfileid: "58623389"
 
 次の図に、ペルソナ テーブルの例を示します。
 
-![ペルソナの詳細を示したバリュー テーブル](media/prepare-my-users-image2.png "共通の役割、コミュニケーション、コラボレーション ソリューションとの依存関係が記載されたペルソナの一覧表。[役員] ペルソナが強調表示され、プロファイル (1 日の業務内容) の詳細、役員が必要とする機能、デバイス、トレーニングが表示されている。")
+![値テーブルにペルサの詳細が一覧されます。](media/prepare-my-users-image2.png "共通の役割、コミュニケーション、コラボレーション ソリューションとの依存関係が記載されたペルソナの一覧表。[役員] ペルソナが強調表示され、プロファイル (1 日の業務内容) の詳細、役員が必要とする機能、デバイス、トレーニングが表示されている。")
 
 ユース ケースごとに、プロジェクト チームと次の点を検討します。
 

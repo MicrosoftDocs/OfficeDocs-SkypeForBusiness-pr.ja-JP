@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 発信者が会議に参加するための既定の電話番号を作成するには、次のMicrosoft Teamsします。
-ms.openlocfilehash: 34fd1592729e18978e1bf5c3aa65e29659092cab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c740147e551dade443852a98c5cdafac047815f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608804"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732716"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
-Microsoft 365 および Office 365 の電話会議を使用すると、組織内のユーザーは Microsoft Teams 会議を作成し、ユーザーが電話を使ってそれらの会議にダイヤルインできます。
+Microsoft 365 と Office 365 の電話会議を使用すると、組織内のユーザーは Microsoft Teams 会議を作成し、ユーザーが電話を使ってそれらの会議にダイヤルインできます。
   
 会議ブリッジは、組織用のダイヤルイン電話番号のセットを提供します。これらの番号はすべて会議開催者が作成した会議に参加するために使用できますが、会議出席依頼にどの番号を含めるか選ぶことができます。
   
@@ -45,13 +45,13 @@ Microsoft 365 および Office 365 の電話会議を使用すると、組織内
 
 電話会議が有効になっているユーザーの会議出席招待に含まれる電話番号は、既定の会議の有料電話番号と既定の会議の無料電話番号ユーザーの設定によって定義されます。 各設定では、特定のユーザーの会議出席招待に含める有料電話番号と無料電話番号を指定します。 上で説明したように、各会議出席招待には、1 つの有料電話番号、1 つのオプションの無料電話番号、および特定の会議に参加するために使用できるすべてのダイヤルイン電話番号の完全なリストを開くリンクが含まれている。
 
-新しいユーザーの場合、既定の会議の有料電話番号は、ユーザーが電話会議サービスに対して有効になっているときに、ユーザーの Microsoft 365 管理センターで設定されている使用場所に基づいて割り当てられます。 会議ブリッジにユーザーの国と一致する有料電話番号がある場合、その番号はユーザーの既定の有料電話番号として自動的に割り当てられます。 番号が 1 つない場合は、会議ブリッジの既定の有料電話番号として定義されている番号が、ユーザーの既定の有料電話番号として割り当てられます。  
+新しいユーザーの場合、既定の会議の有料電話番号は、ユーザーが電話会議サービスに対して有効になっているときに、ユーザーの Microsoft 365 管理センターで設定されている [使用場所] に基づいて割り当てられます。 会議ブリッジにユーザーの国と一致する有料電話番号がある場合、その番号はユーザーの既定の有料電話番号として自動的に割り当てられます。 番号が 1 つない場合は、会議ブリッジの既定の有料電話番号として定義されている番号が、ユーザーの既定の有料電話番号として割り当てられます。  
 
 ユーザーが電話会議サービスに対して有効になると、テナント管理者がユーザーの既定の有料電話番号と無料電話番号をいつでも初期値から変更できます。
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>会議の開催者またはユーザーの既定の電話会議電話番号を設定または変更する
 
-![Microsoft Teams ロゴを示すアイコン](media/teams-logo-30x30.png) **Microsoft Teams 管理センターを使用する**
+![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 これらの変更を行うには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
@@ -59,7 +59,7 @@ Microsoft 365 および Office 365 の電話会議を使用すると、組織内
 
 2. 左側のナビゲーションで、[ユーザー] を **クリックします**。
 
-    ![管理センターでユーザーを選択Microsoft Teams表示する](media/Admin-users.png)
+    ![管理センターでユーザーを選択Microsoft Teams表示します。](media/Admin-users.png)
 
 3. 使用可能なユーザーの一覧からユーザー名をクリックします。
 
@@ -82,8 +82,8 @@ Windows PowerShellは、ユーザーの管理と、ユーザーが許可また�
 
 [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)を使用して会議開催者またはユーザーの既定の電話会議電話番号を設定または変更するには **`ServiceNumber`** **`TollFreeServiceNumber`** [、Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps)コマンドレットの パラメーターまたは パラメーターを使用可能な番号の 1 つに設定します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[電話会議を試用または購入するには、Microsoft 365またはOffice 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[電話会議を試用または購入するには、Microsoft 365 または Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 [電話会議ブリッジの電話番号を変更する](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
