@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: b9f0accb9436ade4bb084b825662ec92453bba24
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0eddd5f7af724d9b981091ea1fca7f95ee1af8d9
+ms.sourcegitcommit: 1904d6a6b91ce613e2cf61af1e784ae046c3d6b3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734176"
+ms.locfileid: "58744460"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -91,13 +91,12 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 
 各プライベート チャネルには、独自の SharePoint サイトがあります。 個別のサイトは、プライベート チャネル ファイルへのアクセスがプライベート チャネルのメンバーのみに制限されることを確保するためにあります。 これらのサイトは規定でドキュメント ライブラリを使用して作成され、[サイト管理インターフェイス](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)を介してフル機能のサイトへと簡単に拡張できます。 各サイトは、親チームのサイトと同じ地理的な場所に作成されます。 これらの軽量サイトは、PowerShell および Graph API による管理を容易にするためのカスタム テンプレート ID "TEAMCHANNEL#0" を持っています。 
 
->[!NOTE]
->- Microsoft Teams で付与された所有者またはメンバーのアクセス許可を持つユーザーのみが、プライベート チャネル サイトのコンテンツにアクセスできます。
->- プライベート チャネルの SharePoint サイトは、新しい SharePoint 管理センターのアクティブ サイト ページには含まれていません。
->- 2021 年 6 月 28 日以降に作成されたプライベート チャネル SharePoint サイトには、カスタム テンプレート ID TEAMCHANNEL#1 が含まれます。
+> [!NOTE]
+> Microsoft Teams で付与された所有者またはメンバーのアクセス許可を持つユーザーのみが、プライベート チャネル サイトのコンテンツにアクセスできます。
+> プライベート チャネルの SharePoint サイトは、新しい SharePoint 管理センターのアクティブ サイト ページには含まれていません。
+> 2021 年 6 月 28 日以降に作成されたプライベート チャネル SharePoint サイトには、カスタム テンプレート ID TEAMCHANNEL#1 が含まれます。
 
-
-プライベート チャネル サイトはデータ分類を同期し、親チームのサイトからゲスト アクセス許可を継承します。 サイトの所有者およびメンバー グループのメンバーシップは、Teams 内のプライベート チャネルのメンバーシップと同期します。 SharePoint 内の所有者またはメンバー グループのメンバーシップに対する変更は、4 時間以内にプライベート チャネル メンバーシップに自動的に戻されます。 
+プライベート チャネル サイトはデータ分類を同期し、親チームのサイトからゲスト アクセス許可を継承します。 サイトの所有者およびメンバー グループのメンバーシップは、Teams 内のプライベート チャネルのメンバーシップと同期します。 プライベート チャネル サイトのサイト アクセス許可は、SharePoint を通じて個別に管理することはできません。 
 
 Teams は、プライベート チャネル サイトのライフ サイクルを管理します。 サイトが Teams 外で削除された場合、プライベート チャネルがアクティブである限り、バックグラウンド ジョブが 4 時間以内にサイトを復元します。 サイトが恒久的な削除をされた場合、プライベート チャネル用に新しいサイトがプロビジョニングされます。
 

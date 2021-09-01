@@ -1628,6 +1628,8 @@ items:
             href: alerts/teams-admin-alerts.md
           - name: Teams のサービス正常性の監視
             href: alerts/device-health-status.md
+          - name: Teams デバイスと周辺機器
+            href: teams-device-health.md
           - name: デバイス管理の管理単位機能
             href: administrative-unit.md
       - name: Teams PowerShell
