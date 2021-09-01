@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e50c0c3b7051ec713fff72058a53bd261ab650c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607694"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733436"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>現場担当者のために大規模に Teams をプロビジョニングする方法
 
@@ -216,11 +216,11 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[ポリシーの設定]** の順に移動します。
 2.  **[追加]** をクリックします。  
 3. ポリシーの名前と説明を入力します。 たとえば、現場マネージャー アプリのセットアップ ポリシーです。
-    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="現場マネージャー アプリのセットアップ ポリシーの名前と説明の例のスクリーンショット":::
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="現場マネージャー アプリのセットアップ ポリシーの名前と説明の例のスクリーンショット。":::
 
 4. **[カスタム アプリのアップロード]** をオフにします。
 5. **[ユーザーのピン留めを許可]** をオフにします。
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="[ユーザーのピン留めを許可] 設定のスクリーンショット":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="[ユーザーのピン留めを許可] 設定のスクリーンショット。":::
 
 6. 一覧表示されていない場合は、**Shifts** アプリを追加します。 Shifts の詳細については、[ここ](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)をクリックしてください。
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Shifts アプリの追加ボタンを表示する、[ピン留めされたアプリを追加] 画面のスクリーンショット":::
@@ -234,7 +234,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
     - カレンダー
     - Shifts
 
-    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="現場マネージャーが順番に表示されたアプリのスクリーンショット":::
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="現場マネージャーが順番に表示されたアプリのスクリーンショット。":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>現場担当者アプリのセットアップ ポリシーを作成する
 
@@ -243,11 +243,11 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[ポリシーの設定]** の順に移動します。
 2.  **[追加]** をクリックします。
 3. ポリシーの名前と説明を入力します。 たとえば、現場担当者アプリのセットアップ ポリシーです。
-    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="現場担当者アプリのセットアップ ポリシーの名前と説明の例のスクリーンショット":::
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="現場担当者アプリのセットアップ ポリシーの名前と説明の例のスクリーンショット。":::
 
 4. **[カスタム アプリのアップロード]** をオフにします。
 5. **[ユーザーのピン留めを許可]** をオフにします。
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="[ユーザーのピン留めを許可] 設定のスクリーンショット":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="[ユーザーのピン留めを許可] 設定のスクリーンショット。":::
 
 6. 一覧表示されていない場合は、**Shifts** アプリを追加します。 Shifts の詳細については、[ここ](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)をクリックしてください。
 
@@ -260,7 +260,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
     - Teams
     - Shifts
 
-    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="現場担当者が順番に表示されたアプリのスクリーンショット":::
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="現場担当者が順番に表示されたアプリのスクリーンショット。":::
 
 ### <a name="create-teams-app-permission-policies"></a>Teams アプリのアクセス許可ポリシーを作成する
 
@@ -275,7 +275,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[アクセス許可ポリシー]** の順に移動します。
 2.  **[追加]** をクリックします。
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="アプリのアクセス許可ポリシーの追加ページのスクリーンショット":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="アプリのアクセス許可ポリシーの追加ページのスクリーンショット。":::
 
 3. ポリシーの名前と説明を入力します。 たとえば、現場マネージャー アプリのアクセス許可ポリシーです。
 4.  **[Microsoft アプリ]** の下で、**[すべてのアプリを許可]** を選択します。
@@ -290,7 +290,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 1. Microsoft Teams 管理センターの左側のナビゲーションで、 **[Teams アプリ]** > **[アクセス許可ポリシー]** の順に移動します。
 2.  **[追加]** をクリックします。
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="アプリのアクセス許可ポリシーの追加ページのスクリーンショット":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="アプリのアクセス許可ポリシーの追加ページのスクリーンショット。":::
 
 3. ポリシーの名前と説明を入力します。 たとえば、現場担当者アプリのアクセス許可ポリシーです。
 4.  **[Microsoft アプリ]** の下で、**[すべてのアプリを許可]** を選択します。

@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edeb3180710dede90df8cd2bd5ba54c7f2996bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057ac60f2033336df024b8a26daa6dff963dafa7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627069"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734096"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Microsoft Teams Exploratory ライセンスを管理する
 
@@ -92,11 +92,11 @@ Teams Exploratory エクスペリエンスには Exchange Online ライセンス
 
 1. Microsoft 365 管理センターから **[設定]** > **[組織の設定]** に移動し、**[サービス]** を選択し、**[ユーザー所有のアプリとサービス]** を選択します。
 
-    ![管理センターの [サービス] ページ](media/iw-trial-services.png)
+    ![管理センターの [サービス] ページ。](media/iw-trial-services.png)
 
 2. **[ユーザーに試用版アプリとサービスのインストールを許可する]** のチェック マークをクリアします。
 
-    ![管理センターの [ユーザーが所有するアプリとサービス] ページ](media/iw-trial-user-owned-apps-services.png)
+    ![管理センターの [ユーザーが所有するアプリとサービス] ページ。](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > 組織が Teams Exploratory エクスペリエンスの対象外の場合は、「**ユーザーが試用版アプリとサービスをインストールできるようにする**」オプションは表示されません。

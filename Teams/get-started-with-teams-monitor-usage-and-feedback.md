@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f314d7d9a1a53e47e4e2c9bed02626f229f3f2c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2def0aef8c7cd90319549b82ef591c42ecf09dbc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580141"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732006"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams での使用状況とフィードバックを監視する
 ユーザーがどのように Teams を使用していているか、また Teams に関するユーザーのエクスペリエンスはどのようなものかを知ることは重要です。 使用状況レポートは、使用パターンを正しく理解するために役立ちます。また、ユーザーのフィードバックと併用することで、広範な展開の情報を確認し、トレーニングとコミュニケーションの取り組みに関する優先順位を決定するための見識が得られます。
@@ -43,14 +43,14 @@ Microsoft Teams 管理センターでの Teams のレポートにより、Teams 
 
 - **Teams の使用状況レポート**: このレポートには、Teams の使用状況アクティビティの概要が示されます。アクティブなユーザーとチャネルの合計数、アクティブなユーザー数とチャネル数、ゲスト数、および各チームのメッセージ数も示されます。 
 
-    ![Teams の使用状況レポートのスクリーンショット](media/teams-reports-teams-usage.png "Microsoft Teams 管理センターの Teams の使用状況レポートのスクリーンショット")     
+    ![Teams の使用状況レポートのスクリーンショット。](media/teams-reports-teams-usage.png "Microsoft Teams 管理センターの Teams の使用状況レポートのスクリーンショット")     
 - **Teams のユーザー アクティビティ レポート**: このレポートでは、1 対 1 の通話、チャネルのメッセージ、およびプライベート チャットのメッセージで通信したユーザー数など、ユーザーが関与したアクティビティの種類についての見識が得られます。 
 
-    ![Teams のユーザー アクティビティ レポートのスクリーンショット](media/teams-reports-user-activity.png "Microsoft Teams 管理センターの Teams のユーザー アクティビティ レポートのスクリーンショット") 
+    ![Teams のユーザー アクティビティ レポートのスクリーンショット。](media/teams-reports-user-activity.png "Microsoft Teams 管理センターの Teams のユーザー アクティビティ レポートのスクリーンショット") 
 `
 - **Teams のデバイス使用状況レポート**: このレポートには、ユーザーがどのように Teams に接続しているかが示されます。外出先で自分のモバイル デバイスから Teams を使用したユーザーの数も示されます。 
 
-    ![Teams のデバイス使用状況レポートのスクリーンショット](media/teams-reports-device-usage.png "Microsoft Teams 管理センターの Teams のデバイス使用状況レポートのスクリーンショット")
+    ![Teams のデバイス使用状況レポートのスクリーンショット。](media/teams-reports-device-usage.png "Microsoft Teams 管理センターの Teams のデバイス使用状況レポートのスクリーンショット")
 
 詳細については、「[Teams の分析とレポート](teams-analytics-and-reports/teams-reporting-reference.md)」を参照してください。 
 

@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb1898d5c172c6f0ebc4f56cf9059bbb5986077b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 493d31189c4136799075554343aaddd694922b30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586753"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728226"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Outlook で Teams の会議アドインを使用する
 
@@ -34,7 +34,7 @@ Teams 会議アドインを使用すると、ユーザーは Outlook から Team
 
 Teams の会議アドインは、Microsoft Teams と Office 2013、Office 2016 または Office 2019 を自分の Windows PC にインストール済みのユーザーに対して、自動的にインストールされます。Teams の会議アドインは、ユーザーが使用する Outlook の [予定表] リボン上に表示されます。
 
-![Outlook リボン上の Teams 会議アドインのスクリーンショット](media/Teams-add-in-for-Outlook.png)
+![Outlook リボン上の Teams 会議アドインのスクリーンショット。](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
 > - Teams アドインにリンクする **ダイレクト URL はありません**。
@@ -53,7 +53,7 @@ Outlook の製品版 16.24.414.0 以降が実行されていて、Microsoft 365 
 
 ユーザーが新しい Outlook on the Web の初期バージョンを使用している場合、Outlook Web App の [Teams 会議] ボタンが新しいイベント作成の一部として表示されます。 ユーザーが Outlook on the Web の初期バージョンを試す方法については、「[Outlook のブログ](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral)」を参照してください。
 
-![Outlook Web App の Teams 会議アドインのスクリーンショット](media/teams-meeting-add-in-web.png)
+![Outlook Web App の Teams 会議アドインのスクリーンショット。](media/teams-meeting-add-in-web.png)
 
 ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 
@@ -61,7 +61,7 @@ Outlook の製品版 16.24.414.0 以降が実行されていて、Microsoft 365 
 
 iOS と Android の Outlook アプリの最新ビルドには、Teams 会議ボタンが表示されます。
 
-![Outlook モバイルの Teams 会議アドインのスクリーンショット](media/teams-meeting-add-in-mobile.png)
+![Outlook モバイルの Teams 会議アドインのスクリーンショット。](media/teams-meeting-add-in-mobile.png)
 
 ユーザーが [**送信**] をクリックすると、会議の調整 (Teams への参加リンクおよびダイヤルイン番号) が会議出席依頼に追加されます。  
 

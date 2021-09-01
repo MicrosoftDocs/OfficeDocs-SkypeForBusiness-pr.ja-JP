@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df39e778998d01b31b08ec0f537d4a35905a2ce2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622009"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727826"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams でのライフサイクル管理の計画
 
@@ -153,8 +153,8 @@ Teams を自分の組織にロール アウトするまえに、組織で必要�
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの目的は何ですか?</li><li>チームには誰が所属していますか?</li><li>チームはプライベートですか、パブリックですか?</li><li>新しいメンバーが自分自身を追加したり、チーム所有者がそれらの新しいメンバーを追加することはできますか?</li><li>チャネルの作成や、タブ、ボット、コネクタの追加を行うためのアクセス許可があるユーザーは誰ですか?</li></ul> |
-| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>チームを作成する。</li><li>チャネルのための計画をする。</li></ul>|
+| ![判断ポイントを表すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの目的は何ですか?</li><li>チームには誰が所属していますか?</li><li>チームはプライベートですか、パブリックですか?</li><li>新しいメンバーが自分自身を追加したり、チーム所有者がそれらの新しいメンバーを追加することはできますか?</li><li>チャネルの作成や、タブ、ボット、コネクタの追加を行うためのアクセス許可があるユーザーは誰ですか?</li></ul> |
+| ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>チームを作成する。</li><li>チャネルのための計画をする。</li></ul>|
 
 
 #### <a name="set-up-channels"></a>チャネルをセットアップする。
@@ -167,8 +167,8 @@ Teams を自分の組織にロール アウトするまえに、組織で必要�
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームに追加される初期チャネルは何ですか?</li><li>新規チャネルを追加するときに、ガイダンスがある場合、どのようなものが提供されますか? (プロジェクト別、トピック別などでセットアップされますか?)</li></ul> |
-| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>初期チャネルを作成する。</li><li>ようこそメッセージを投稿する。</li><li>コラボレーションを開始する。</li></ul>|
+| ![判断ポイントを表すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームに追加される初期チャネルは何ですか?</li><li>新規チャネルを追加するときに、ガイダンスがある場合、どのようなものが提供されますか? (プロジェクト別、トピック別などでセットアップされますか?)</li></ul> |
+| ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>初期チャネルを作成する。</li><li>ようこそメッセージを投稿する。</li><li>コラボレーションを開始する。</li></ul>|
 
 ### <a name="stage-2-middle"></a>段階 2: 中間
 
@@ -188,8 +188,8 @@ Teams において、主要なグループの通信が始まり維持される�
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>問題を特定するために使用状況を監視する人は誰ですか?</li><li>チームが正常であるかどうかを判断するために使用される指標は何ですか?</li><li>有用な寿命に到達したチームを識別します。</li><li>目的に適っているが、活力を投入する必要がある、正常でないチームを特定します。</li></ul> |
-| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>個別のチームの正常性を監視するためのプロセスを実施します。</li></ul>|
+| ![判断ポイントを表すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>問題を特定するために使用状況を監視する人は誰ですか?</li><li>チームが正常であるかどうかを判断するために使用される指標は何ですか?</li><li>有用な寿命に到達したチームを識別します。</li><li>目的に適っているが、活力を投入する必要がある、正常でないチームを特定します。</li></ul> |
+| ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>個別のチームの正常性を監視するためのプロセスを実施します。</li></ul>|
 
 ### <a name="stage-3-end"></a>段階 3: 終了
 
@@ -205,8 +205,8 @@ Teams において、主要なグループの通信が始まり維持される�
 
 |    |     |
 |-----------|------------|
-| ![判断ポイントを表すアイコン](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの寿命の終わりがどのようなものであるかを定義します。</li><li>チームのコンテンツを利用可能な状態で維持するかどうか、およびその期間を決めます。</li></ul> |
-| ![次の手順を示すアイコン](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>学習したベスト プラクティスとレッスンの内容を文書にまとめます。</li><li>必要に応じて、データをアーカイブ化します。</li></ul>|
+| ![判断ポイントを表すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの寿命の終わりがどのようなものであるかを定義します。</li><li>チームのコンテンツを利用可能な状態で維持するかどうか、およびその期間を決めます。</li></ul> |
+| ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>学習したベスト プラクティスとレッスンの内容を文書にまとめます。</li><li>必要に応じて、データをアーカイブ化します。</li></ul>|
 
 ## <a name="related-topics"></a>関連トピック
 

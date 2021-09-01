@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df894e5ece2b75bc2168c02d4005b3e522bacab5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82e1ba3c58dca1326cb942726efa7d0006aa622f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617553"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731236"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Business Voice のインターネット接続を確認する
 
@@ -64,22 +64,22 @@ Business Voice は、Microsoft 365 のクラウドにあります。 Microsoft T
 2. **[計画]** を開いて **[ネットワーク プランナー]** を選択します。
 3. **[ネットワーク プラン]** で、**[追加]** を選択します。 プランの名前を入力して、**[適用]** を選択します。 ネットワーク プランは次のようになります。
 
-    ![ネットワーク プランナーのメイン画面](../media/network-planner-main.png)
+    ![ネットワーク プランナーのメイン画面。](../media/network-planner-main.png)
 1. ネットワーク プランの名前を選択します。 (これは、前の図では **[メイン オフィス]** です。)
 2. 次のページで、**[ネットワーク サイト]** タブで **[ネットワーク サイトを追加]** を選択します。
 3. 次のスクリーンショットに示されているフィールドにのみ入力し、**[保存]** を選択します。 この画面上の他のフィールドを空白のままにしておき、**[ExpressRoute]** も **[WAN に接続済み]** のオプションも選択しないでください。
 
-    ![ネットワーク プランナー サイトに関する情報](../media/network-planner-site-info.png)
+    ![ネットワーク プランナー サイトに関する情報。](../media/network-planner-site-info.png)
 1. **[レポート]** タブで、**[レポートの開始]** を選択します。
 1. 次の情報を入力してから **[レポートの生成]** を選択し、Teams の帯域幅要件を示すレポートを作成します。 次のセクションでは、レポートを読み込む方法について説明します。
 
-    ![ネットワーク プランナー レポートに関する情報](../media/network-planner-report-info.png)
+    ![ネットワーク プランナー レポートに関する情報。](../media/network-planner-report-info.png)
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>インターネット接続の最低速度を確認する
 
 **[レポートの生成]** を選択すると、Microsoft 365 または Office 365 で次のようなレポートが作成されます。
 
-![ネットワーク プランナー レポートの詳細](../media/network-planner-report.png)
+![ネットワーク プランナー レポートの詳細。](../media/network-planner-report.png)
 
 強調表示された数値は、Teams と Business Voice で使用するインターネット接続の量を示しています。 この数値が、インターネット接続の合計速度の 30% を超えないようにすることをお勧めします。 たとえば、インターネット接続が 60 Mbps の場合、Teams や Business Voice は 18 Mbps 未満を使用する必要があります。
 
@@ -87,7 +87,7 @@ Business Voice は、Microsoft 365 のクラウドにあります。 Microsoft T
 
 Teams と Business Voice での使用量がインターネット接続の合計速度の 30% を超える場合、強調表示された数値が赤色で表示されます。 この場合、インターネット接続をアップグレードする必要がある場合があります。
 
-![接続速度の警告](../media/network-planner-report-speed-warning.png)
+![接続速度の警告。](../media/network-planner-report-speed-warning.png)
 
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>ネットワーク上のコンピューターとデバイスが Microsoft 365 に到達できることを確認する
 

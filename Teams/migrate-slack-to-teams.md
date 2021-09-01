@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Slack から Microsoft Teams への移行に関する詳細なガイダンス。
-ms.openlocfilehash: 2c30b8f34c44c8b41309e796ffa44cedc61d8768
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6877c0daf7d2d86924eefe989b458c671c37f628
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617263"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731606"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Slack から Microsoft Teams に移行する
 
@@ -33,7 +33,7 @@ Slack から Teams への組織の移行を計画する場合、保持するも�
 
 次の図は、Slack のアーキテクチャの概観図です。
 
-![Slack のアーキテクチャの概観図](media/migrate-slack-to-teams-image1.png)
+![Slack のアーキテクチャの概観図。](media/migrate-slack-to-teams-image1.png)
 
 ## <a name="plan-your-migration-from-slack"></a>Slack からの移行を計画する
 ### <a name="what-you-can-and-cant-migrate"></a>移行できるものと移行できないもの

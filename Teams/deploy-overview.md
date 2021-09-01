@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a8323c2d8dfd6023a9e27de9a6f0d47c87ae67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596331"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730896"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams の展開の概要
 
@@ -32,7 +32,7 @@ ms.locfileid: "58596331"
 
 Teams はこのように幅広い組織タイプと開始ポイントをサポートしているため、設定するためのいくつかのオプションがあります。 必要な情報を見つけるために役立つよう、いくつかの記事を 2 つの対象読者に分割しました。**小規模企業**(50 ユーザー未満) と **中規模/大企業**（50 ユーザー以上）です。 記事を読むときは、組織に最適なオーディエンス タブを選択してください。 次のようなタブがあります。
 
-:::image type="content" source="media/small-large-tabs-example.png" alt-text="一部の記事に表示される大小のオーディエンス タブを示す例":::
+:::image type="content" source="media/small-large-tabs-example.png" alt-text="一部の記事に表示される大小のオーディエンス タブを示す例。":::
 
 以下は、**概要** セクションで選択できるセクションのリストと、それぞれの簡単な説明です。
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632041"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733843"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでチームを管理する
 
@@ -45,7 +45,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 
 チームの管理ツールは、Microsoft Teams 管理センターの [**Teams**] ノードの下にあります。 (管理センターでは、[**Teams**] > [**チームの管理**] を選択します。)各チームは Microsoft 365 グループによって支えられていて、このノードは自分の組織内で Microsoft Teams に対応しているグループの表示を提供します。
 
-![Teams の概要グリッドのスクリーンショット](media/manage-teams-in-modern-portal-grid.png)  
+![Teams の概要グリッドのスクリーンショット。](media/manage-teams-in-modern-portal-grid.png)  
 
 このグリッドには、次のプロパティが表示されます。
 
@@ -94,7 +94,7 @@ Teams での管理者の役割の詳細については、「[ Microsoft Teams �
 - チャネルの追加または削除 (全般チャネルを削除することはできません)。
 - チームおよびグループの設定の変更。
  
-![チーム プロフィールの例のスクリーンショット](media/manage-teams-in-modern-portal-team-profile-page.png)
+![チーム プロフィールの例のスクリーンショット。](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>チームに対する変更
 

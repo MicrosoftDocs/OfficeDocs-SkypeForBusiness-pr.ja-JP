@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議ポリシーの設定を管理する方法について説明します。また、会議ポリシーの設定を使用して、ユーザーがスケジュールした会議の参加者に対して利用できる機能を制御します。
-ms.openlocfilehash: 7f981ed6d4397d07dc0aae5bffc6174983e12e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629369"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728426"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -119,13 +119,13 @@ ms.locfileid: "58629369"
 
 [**今すぐ会議**] を許可することはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルで予定外の会議を開始できるかどうかを制御します。 この設定をオンにすると、ユーザーは [**会議**] ボタンを選択して、予定外の会議を開始したり、チャネルで会議をスケジュールしたりできます。 既定値は True です。
 
-![メッセージの下の [今すぐ会議] アイコンが表示されたスクリーンショット](media/meeting-policies-meet-now.png)
+![メッセージの下の [今すぐ会議] アイコンが表示されたスクリーンショット。](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>Outlook アドインを許可する
 
 Outlook アドインの許可はユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、Outlook (Windows、Mac、Web、およびモバイル) 内から Teams 会議をスケジュールできるかどうかを制御します。
 
-![新しい会議をスケジュールする機能が表示されたスクリーンショット](media/meeting-policies-outlook-add-in.png)
+![新しい会議をスケジュールする機能が表示されたスクリーンショット。](media/meeting-policies-outlook-add-in.png)
 
 この機能をオフにすると、ユーザーはスケジュールできなくなります。 Outlook で新しい会議を作成するときに Teams 会議をスケジュールできなくなります。 たとえば、Windows 上の Outlook では、[**新しい Teams 会議**] オプションはリボンに表示されません。
 
@@ -137,7 +137,7 @@ Outlook アドインの許可はユーザーごとのポリシーであり、会
 
 会議のスケジュールは無効になります。
 
- ![Teams の [会議のスケジュール] オプション](media/schedule-meeting-option.png)
+ ![Teams の [会議のスケジュール] オプション。](media/schedule-meeting-option.png)
 
 チャネルの選択が無効になっています。
 
@@ -146,15 +146,15 @@ Outlook アドインの許可はユーザーごとのポリシーであり、会
 [チャネルの投稿] ページで、次の機能を無効にします。
 
 - [チャネル返信の作成] ボックスの [**会議のスケジュール**] ボタン
-  ![ [会議のスケジュール] ボタン返信作成ボックス](media/schedule-meeting-disabled-in-chat2.png)
+  ![[会議のスケジュール] ボタン返信作成ボックス。](media/schedule-meeting-disabled-in-chat2.png)
   
 - チャネル ヘッダーの [**会議のスケジュール**] ボタン。
-  ![チャネル ヘッダーの [会議のスケジュール] ボタン](media/schedule-now-in-header.png)
+  ![チャネル ヘッダーの [会議のスケジュール] ボタン。](media/schedule-now-in-header.png)
 
 [チャネル カレンダー] で、次の操作を行います。
 
 - チャンネル予定表ヘッダーの[**新しいイベントの追加**] ボタンは、無効になります。
-  ![チャンネルの予定表ヘッダーのボタンが無効になっている](media/add-new-event-disabled.png)
+  ![チャンネルの予定表ヘッダーのボタンが無効になっている。](media/add-new-event-disabled.png)
 
 - ユーザーがチャネル予定表のタイム ブロックをドラッグおよび選択して、チャネルの会議を作成することはできません。
 
@@ -164,7 +164,7 @@ Outlook アドインの許可はユーザーごとのポリシーであり、会
 
 [アプリのアクセス許可ポリシー] ページの [**Microsoft アプリ**] セクションに、チャネル カレンダー アプリが表示されます。
 
- ![Teams 管理センターのアプリのアクセス許可ポリシー](media/manage-microsoft-apps-policy.png)
+ ![Teams 管理センターのアプリのアクセス許可ポリシー。](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>プライベート会議のスケジュールを許可する
 
@@ -191,7 +191,7 @@ Outlook アドインの許可はユーザーごとのポリシーであり、会
 
 このポリシーはライブ文字起こしをオンにします。 文字起こしの許可は、ユーザーごとのポリシーです。 この設定は、この特定のチームの会議で文字起こしを実行できるかどうかを制御します。
 
-![会議ポリシーの文字起こしオプション](media/live-transcription.png)
+![会議ポリシーの文字起こしオプション。](media/live-transcription.png)
 
 ライブ文字起こしでは、Teams 会議中に音声コンテンツの音声変換がほぼリアルタイムで表示されます。 テキストは発表者の名前とタイム スタンプと一緒に会議ビデオの横に表示されます。 詳細については、「[Teams 会議でライブ文字起こしを表示する](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b) 」を参照してください。
 
@@ -212,7 +212,7 @@ Outlook アドインの許可はユーザーごとのポリシーであり、会
 
 フェデレーション ユーザーや匿名ユーザーなど、組織外のユーザーは記録を開始できません。 ゲスト ユーザーは記録を開始または停止できません。
 
-![レコーディング オプション](media/meeting-policies-recording.png)
+![レコーディング オプション。](media/meeting-policies-recording.png)
 
 クラウド会議の記録の詳細については、「[Teams のクラウド会議の記録](cloud-recording.md)」を参照してください。
 
@@ -264,7 +264,7 @@ IP ビデオの許可は、開催者単位とユーザーごとのポリシー�
 
 | Teams デスクトップおよび Web クライアント |Teams モバイル クライアント  |
 |:-------:|:-------:|
-|![デスクトップのオーディオ/ビデオ設定を使用して会議への参加を示すスクリーンショット](media/meeting-policies-audio-video-settings.png)    |![モバイルでのオーディオ/ビデオの設定を使用して会議の参加を示す画面のスクリーンショット](media/meeting-policies-mobile-join.png)          |
+|![デスクトップのオーディオ/ビデオ設定を使用して会議への参加を示すスクリーンショット。](media/meeting-policies-audio-video-settings.png)    |![モバイルでのオーディオ/ビデオの設定を使用して会議の参加を示す画面のスクリーンショット](media/meeting-policies-mobile-join.png)          |
 
 次の例を見てみましょう。
 
@@ -358,11 +358,11 @@ Daniela が開催する会議では、会議の参加者が画面全体または
 
 ユーザーに対してこの設定が有効になっている場合、共有セッションの上部のバーに [**制御を渡す**] オプションが表示されます。
 
-![[制御を渡す] オプションが表示されたスクリーンショット](media/meeting-policies-give-control.png)
+![[制御を渡す] オプションが表示されたスクリーンショット。](media/meeting-policies-give-control.png)
 
 設定がユーザーに対して無効になっている場合、[**制御を渡す**] オプションは使用できません。
 
-![[制御を渡す] オプションが利用できないことを示すスクリーンショット](media/meeting-policies-give-control-not-available.png)
+![[制御を渡す] オプションが利用できないことを示すスクリーンショット。](media/meeting-policies-give-control-not-available.png)
 
 次の例を見てみましょう。
 
@@ -459,7 +459,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 これは開催者単位のポリシーです。 この設定は、ユーザーが会議に直接参加するのか、認証ユーザーにより入室が許可されるまでロビーで待機するのかを制御します。 この設定はダイヤルイン ユーザーには適用されません。
 
-![ロビーにいるユーザーとの会議を示すスクリーンショット](media/meeting-policies-lobby.png)
+![ロビーにいるユーザーとの会議を示すスクリーンショット。](media/meeting-policies-lobby.png)
 
  会議の開催者は、会議出席依頼の [**会議オプション**] を選択して、スケジュールする会議ごとにこの設定を変更できます。
 
@@ -489,7 +489,7 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 
 これはユーザーごとのポリシーであり、会議中に適用されます。 この設定は、ユーザーが参加する会議でライブ キャプションを有効または無効にするために、[**ライブ キャプションを有効にする**] オプションを使用できるかどうかを制御します。  
 
-![[ライブ キャプションを有効にする] オプションが表示されたスクリーンショット](media/meeting-policies-live-captions.png)
+![[ライブ キャプションを有効にする] オプションが表示されたスクリーンショット。](media/meeting-policies-live-captions.png)
 
 |値を設定する |動作  |
 |---------|---------|
@@ -520,7 +520,7 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 さらに、このポリシーは Teams 管理センターで編集できます。
 
-![Teams 管理センターのスクリーンショット](media/designated-presenter-role.png)
+![Teams 管理センターのスクリーンショット。](media/designated-presenter-role.png)
 
 既定値を設定した後でも、会議の開催者はチームの設定を変更し、スケジュールした会議での発表者を選ぶことができることにご注意ください。
 

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b760d5fad3a694fd0dd41c34116d09297d25dd22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579581"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731946"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要
 
@@ -92,7 +92,7 @@ Microsoft 365 での Teams 管理者である場合は、Teams 管理センタ�
 
 Teams は、縦割り組織を解体して機能横断型チームを促進することに優れています。このため、ユーザーは組織の境界ではなく機能的なチームとして考える意識が高まります。
 
-|チームのタイプ  |考えられるチャネル  |アプリ (タブ ![タブがあるフォルダーを表すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/コネクタ ![くっついたブロックを表すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/ボット ![小さなロボットを表すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|チームのタイプ  |考えられるチャネル  |アプリ (タブ ![タブがあるフォルダーを表すアイコン。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/コネクタ ![くっついたブロックを表すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/ボット ![小さなロボットを表すアイコン](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |売上     |年次販売会議<br></br> 四半期ビジネス レビュー<br></br> 月次売上パイプライン レビュー<br></br> 売上戦略 |Power BI<br></br>Trello<br></br>CRM<br></br>サマライズ ボット         |
 |広報活動     |プレス リリース<br></br>ニュースおよび更新情報<br></br>ファクト チェック         |RSS フィード<br></br>Twitter         |

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8cfa1ea62472255825684d2e168be1411bb643
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604536"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730686"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Education Insights へのユーザー アクセスを管理する
 
@@ -41,7 +41,7 @@ ms.locfileid: "58604536"
 
 * Insights アプリを開き、**[設定]** タブをクリックし、**[ユーザーのアクセス許可]** を選択する
 
-:::image type="content" source="media/insights-user-permissions.png" alt-text="設定":::
+:::image type="content" source="media/insights-user-permissions.png" alt-text="設定。":::
 
 > [!NOTE]
 > 組織レベルのアクセス許可を付与すると、そのユーザーはその下のすべての組織単位を見ることができます。
@@ -62,14 +62,14 @@ ms.locfileid: "58604536"
 
   教育組織での役割の一覧、各役割の階層レベル、その役割を割り当てられているユーザー数、役割のアクセス許可限レベルが表示されます。 
   
-  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="役割に基づくアクセス許可":::
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="役割に基づくアクセス許可。":::
   
   1 つ以上の組織レベルでの役割がある場合、その役割は各レベルで 1 回ずつ、複数回表示されます。 スクリーンショットでは、学校レベルと地区レベルの両方に校長が存在するため、'校長' には 2 つの行があります。
   
 * 各役割について、鉛筆アイコンをクリックして、アクセス許可レベルを選択します。 既定では、役割に分析情報を表示するアクセス許可がありません。
 * 権限レベルの選択 - **自分の組織のデータを表示** または **なし**。
 
-  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="役割に基づくアクセス許可パネル":::
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="役割に基づくアクセス許可パネル。":::
   
   より微妙なアクセス許可レベルを必要とするユーザーがリストに表示された場合は、[SIS からインポートされたデータ](education-insights-sis-data-sync.md)でそのユーザーの役割や組織を調整し、(必要に応じて) [個々のアクセス許可を付与](#grant-individual-permission-to-a-user)します。
 
@@ -86,7 +86,7 @@ SDS V2 を使用して組織の SIS データをインポートしていない�
   
   教育組織で個々のアクセス許可を付与されているユーザーが表示されます。 
   
-  :::image type="content" source="media/insights-individual-permissions.png" alt-text="個々のアクセス許可":::
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="個々のアクセス許可。":::
   
 ### <a name="grant-individual-permission-to-a-user"></a>個々のアクセス許可をユーザーに付与する
 * 画面左上の **[個々のアクセス許可]** をクリックします。
@@ -103,6 +103,6 @@ SDS V2 を使用して組織の SIS データをインポートしていない�
   * **特定の組織** とは、ユーザーが選択した組織単位と、その下のすべての組織単位を表示することを意味します。 入力を開始し、一覧から組織単位を選択します。
   * **[なし]** は、ユーザーが自分の役割によって自動的に割り当てられた組織単位 (ある場合) のみを表示することを意味します。
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="個々のアクセス許可パネル":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="個々のアクセス許可パネル。":::
 
 * **[変更の保存]** をクリックして保存します。

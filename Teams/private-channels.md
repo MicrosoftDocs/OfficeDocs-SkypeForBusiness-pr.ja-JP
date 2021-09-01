@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Microsoft Teams でプライベート チャネルを使用および管理する方法について説明します。
-ms.openlocfilehash: 30fafae99505c685a4042a4a79a6a30ff084d8f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9f0accb9436ade4bb084b825662ec92453bba24
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579621"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734176"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネル
 
@@ -40,7 +40,7 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 
 プライベート チャネルは作成されると親チームにリンクされ、別のチームに移動させることはできません。 また、プライベート チャネルを標準チャネルに変換することはできません。
 
-![チームのプライベート チャネルのスクリーンショット](media/private-channels-in-teams.png)
+![チームのプライベート チャネルのスクリーンショット。](media/private-channels-in-teams.png)
 
 ## <a name="private-channel-creation"></a>プライベート チャネルの作成
 
@@ -66,7 +66,7 @@ Microsoft Teams のプライベート チャネルは、チーム内でのコラ
 
 プライベート チャネルの所有者は [**チャネルの管理**] をクリックし、[**メンバー**] および [**設定**] タブを使用してメンバーを追加または削除し、設定を編集できます。
 
-![プライベート チャネル設定のスクリーンショット](media/private-channels-in-teams-channel-settings.png)
+![プライベート チャネル設定のスクリーンショット。](media/private-channels-in-teams-channel-settings.png)
 
 ## <a name="private-channel-owner-and-member-actions"></a>プライベート チャネルの所有者とメンバーのアクション
 
