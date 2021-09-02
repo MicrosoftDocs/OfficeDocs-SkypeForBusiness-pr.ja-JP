@@ -665,7 +665,7 @@ items:
             href: deploy-audio-conferencing-teams-landing-page.md
           - name: Microsoft 365 での電話会議
             href: audio-conferencing-in-office-365.md
-          - name: 'プレビューを開く: 電話会議のためのネットワーク上の会議'
+          - name: 電話会議のためのネットワーク上の会議
             href: audio-conferencing-on-network.md
           - name: 電話会議に関するよくある質問
             href: audio-conferencing-common-questions.md
