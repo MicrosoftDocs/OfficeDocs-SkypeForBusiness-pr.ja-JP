@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Microsoft 通話プランと直接ルーティングの動的緊急通話機能電話システムを構成する方法について説明します。
+description: Microsoft 通話プランとダイレクト ルーティングの動的緊急通話電話システムを構成する方法について説明します。
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7774b6ebf062f3df9f27736b3c6cc68e4151e14b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6b01a3f73de3803ca428acd8cd43de8c405fc4f9
+ms.sourcegitcommit: 8dc037a3e6df50dc81f47b630c59db6b972535ff
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584821"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58853173"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -43,13 +43,13 @@ Microsoft 通話プランと 電話システム ダイレクト ルーティン�
 
    - ネットワーク設定サイトの一致がある場合–緊急通話ポリシーは、そのサイトからTeamsクライアントに返されます。 (ポリシーの詳細については、「緊急ポリシーを [構成する」を参照してください](#configure-emergency-policies))。
 
-   - LIS が一致する場合、Teams クライアントが接続されているネットワーク要素からの緊急対応の場所が、Teamsされます。 一致は次の順序で実行され、最初に一致した結果が返されます。
+   - LIS の一致がある場合は、Teams クライアントが接続されているネットワーク要素からの緊急の場所が、Teamsされます。 一致は次の順序で実行され、最初に一致した結果が返されます。
        - WAP
        - イーサネット スイッチ/ポート
        - イーサネット スイッチ
        - サブネット
 
-3. クライアントがTeamsを発信すると、緊急対応の場所が PSTN ネットワークに伝達されます。
+3. クライアントTeams緊急通話を発信すると、緊急対応の場所が PSTN ネットワークに伝達されます。
 
    直接ルーティングの場合、管理者は ERS プロバイダーに緊急通話を送信するか、SBC ELIN アプリケーションを構成するために SBC を構成する必要があります。
 
@@ -62,7 +62,7 @@ Microsoft 通話プランと 電話システム ダイレクト ルーティン�
 - [ユーザーとサイトを有効にする](#enable-users-and-sites)
 - [緊急通話をテストする](#test-emergency-calling)
 
-適切な Public Safety Answering Point (PSAP) への自動ルーティングを実行する機能は、ユーザーの使用国によってTeamsされます。
+適切なパブリック セーフティ応答ポイント (PSAP) への自動ルーティングを実行する機能は、ユーザーが使用する国によってTeamsされます。
 
 緊急通話の詳細 (緊急対応の住所や緊急通話のルーティングに関する情報、国に固有の情報、ネットワーク設定とネットワーク トポロジに関する情報など) については、次を参照してください。
 
@@ -88,15 +88,17 @@ Microsoft 通話プランと 電話システム ダイレクト ルーティン�
 > 3PIP 電話では、動的緊急通話はサポートされていません。 
 
 > [!NOTE]
-> セキュリティ デスク通知を含む動的緊急通話は、Web クライアントTeamsサポートされていません。 ユーザーが Teams Web クライアントを使用して PSTN 番号を呼び出すのを防ぐには、Teams 通話ポリシーを設定し、[Web PSTN 通話を許可する] 設定 **をオフ** にします。 詳細については、「Teams[での](teams-calling-policy.md)ポリシーの呼び出し」と[「Set-CsTeamsCallingPolicy」を参照してください](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 
+> セキュリティ デスク通知を含む動的緊急通話は、Web クライアントTeamsサポートされていません。 ユーザーが Teams Web クライアントを使用して PSTN 番号を呼び出すのを防ぐために、Teams 通話ポリシーを設定し、[Web PSTN 通話を許可する] 設定 **をオフ** にできます。 詳細については、「Teams でのポリシー[の](teams-calling-policy.md)呼び出し」と[「Set-CsTeamsCallingPolicy」を参照してください](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 
 
 > [!NOTE]
 > サブネットと WiFi ベースの場所は、すべてのクライアントでTeamsされます。 <br>
-> イーサネット/スイッチ (LLDP) は Windows でのみサポートされ、現時点では Windows バージョン 8.1 以降でのみサポートされます。
+> イーサネット/スイッチ (LLDP) は、次の場合にサポートされます。
+> - Windowsバージョン 8.1 以降を使用します。<br>
+> - Mac [OS。LLDP 有効化ソフトウェア が必要です](https://www.microsoft.com/download/details.aspx?id=103383)。
 
 ## <a name="assign-emergency-addresses"></a>緊急対応の住所を割り当てる
 
-緊急対応の住所は、通話プランのユーザーと、場所を動的に取得するために必要なネットワーク識別子の両方に割り当て可能です。 (サブネットと WiFi AP はサポートされています。 イーサネット スイッチ/ポートは、Windows 8.1以降でサポートされています)。
+緊急対応の住所は、通話プランのユーザーと、場所を動的に取得するために必要なネットワーク識別子の両方に割り当て可能です。 (サブネットと WiFi AP はサポートされています。 イーサネット スイッチ/ポートは、現時点Windows 8.1以降) でサポートされています。
 
 米国内での緊急通話の自動ルーティングをサポートするには、ネットワーク識別子に割り当てられている緊急対応の場所に、関連する geo コードが含まれる必要があります。 (geo コードのない緊急対応の住所は、動的な場所に必要なネットワーク識別子に割り当てできません)。
 
@@ -120,7 +122,7 @@ Azure マップは、場所ベースのサービスに使用されます。  管
 > サブネットは LIS で定義し、緊急対応の場所に関連付けできます。  LIS サブネットは、クライアントに割り当てられたサブネット IP 範囲と一致するネットワーク ID で定義する必要があります。 たとえば、10.10.10.150/25 のクライアント IP/マスクのネットワーク ID は **10.10.10.128** です。 詳細については [、TCP/IP アドレス指定とサブネット化の基本に関するページを参照してください](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)。
 
 > [!Important]
-> ネットワーク構成設定の参照は、クライアントからソース IP アドレスを変更するクラウド プロキシ サービスのデプロイTeamsされていません。
+> ネットワーク構成設定の参照は、クライアントからソース IP アドレスを変更するクラウド プロキシ サービスのデプロイではTeamsされません。
 
 次の定義を念頭に置きます。 詳細については、「クラウド音声機能 [のネットワーク設定」を参照してください](cloud-voice-network-settings.md)。
 
@@ -134,7 +136,7 @@ Azure マップは、場所ベースのサービスに使用されます。  管
 
 ネットワーク設定は、管理センター Microsoft Teams PowerShell を使用して構成します。 詳細については、「クラウド音声機能 [のネットワーク トポロジを管理する」を参照してください](manage-your-network-topology.md)。
 
-ネットワーク設定 (新しいアドレス、ネットワーク識別子など) の一部の変更が反映され、Teams クライアントで使用可能になるには、時間がかかる場合があります (最大 2 時間)。  
+ネットワーク設定 (新しいアドレス、ネットワーク識別子など) の一部の変更が反映され、Teams クライアントで使用できるまで、時間がかかる場合があります (最大 2 時間)。  
 
 **通話プラン ユーザーの場合:**
 
@@ -161,7 +163,7 @@ Azure マップは、場所ベースのサービスに使用されます。  管
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. 左側のナビゲーションで、[場所ネットワーク]  >  **に移動&します**。
+1. 左側のナビゲーションで、[場所ネットワーク] に  >  **移動&します**。
 2. 追加するネットワーク識別子を表すタブをクリックします。 たとえば、[サブネット] **、Wi-Fi アクセス ポイント、[** スイッチ] 、または [**ポート**] を **クリックします**。  次に、[追加] **をクリックします**。
 3. フィールドに入力し、緊急対応の場所を追加して、[適用] を **クリックします**。
 
@@ -241,7 +243,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 | GCCH | デスクトップでTeams可能 |
 | DoD | Pending |
 
- ## <a name="related-topics"></a>関連トピック
+ ## <a name="related-topics"></a>関連項目
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [緊急通話ポリシーを管理する](manage-emergency-calling-policies.md)

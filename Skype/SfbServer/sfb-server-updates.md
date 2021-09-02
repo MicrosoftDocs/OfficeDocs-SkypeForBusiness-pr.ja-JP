@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 2015/2019 Skype for Business Server Lync 2013 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細を取得し、更新プログラムをダウンロードします。
-ms.openlocfilehash: aa9ae8c2b3b28790028635a9604687995549e6eb
-ms.sourcegitcommit: 22328f851153f3768175321b8b128a672d6adc50
+ms.openlocfilehash: fcdd7212cf7a3f612434594d028b2e7be104af36
+ms.sourcegitcommit: 5a4108219dd1b77468b3ef4aff0500cd19473fa5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "58807450"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58852045"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
@@ -32,6 +32,8 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 
 |パッケージ名|サポート技術情報番号|リリース日|
 |:--- |:--- |:--- |
+|Skype for Business Server 2019 累積的な更新プログラム 5 |[KB 4470124 (MACP3)](https://support.microsoft.com/kb/4470124)| 2021 年 3 月 |
+|Skype for Business Server 2019 累積的な更新プログラム 4 の修正プログラム 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 11 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 9 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 3 修正プログラム 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 7 月 |
 |Skype for Business Server 2019 累積的な更新プログラム 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 3 月 |
@@ -57,6 +59,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 |パッケージ名|サポート技術情報番号|リリース日|
 |:--- |:--- |:--- |
 |Skype for Business Server 2015 累積的な更新プログラム 12|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2021 年 8 月 |
+|Skype for Business Server 2015 累積的な更新プログラム 11 修正プログラム 2|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 11 月 |
 |Skype for Business Server 2015 累積的な更新プログラム 11 の修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 7 月 |
 |Skype for Business Server 2015 累積的な更新プログラム 11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020 年 5 月 13 日 |
 |Skype for Business Server 2015 累積的な更新プログラム 10 修正プログラム 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 8 月 |
@@ -267,7 +270,7 @@ Microsoft [Lync Server 2010 リソース](https://www.microsoft.com/download/en/
 
 ソフトウェアの更新プログラムには、更新プログラム、更新プログラムのロールアップ、サービス パック、機能パック、重要な更新プログラム、セキュリティ更新プログラム、修正プログラムが含まれます。Microsoft のソフトウェアの更新プログラムで使用される一般的な用語の説明については、「[KB 824684](https://support.microsoft.com/kb/824684)」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [インストール Skype for Business Server 2015](./deploy/install/install.md)
 - [2015 Skype for Business Serverへのアップグレード](./deploy/upgrade-to-skype-for-business-server.md)
