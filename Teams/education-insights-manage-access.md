@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730686"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864197"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Education Insights へのユーザー アクセスを管理する
 
@@ -64,7 +64,7 @@ ms.locfileid: "58730686"
   
   :::image type="content" source="media/insights-role-based-permissions.png" alt-text="役割に基づくアクセス許可。":::
   
-  1 つ以上の組織レベルでの役割がある場合、その役割は各レベルで 1 回ずつ、複数回表示されます。 スクリーンショットでは、学校レベルと地区レベルの両方に校長が存在するため、'校長' には 2 つの行があります。
+  1 つ以上の組織レベルでの役割がある場合、その役割は各レベルで 1 回ずつ、複数回表示されます。 スクリーンショットでは、学校レベル、地区レベル、および部署レベルでプリンシパルが存在するため、'プリンシパル' には 3 つの行があります。
   
 * 各役割について、鉛筆アイコンをクリックして、アクセス許可レベルを選択します。 既定では、役割に分析情報を表示するアクセス許可がありません。
 * 権限レベルの選択 - **自分の組織のデータを表示** または **なし**。
