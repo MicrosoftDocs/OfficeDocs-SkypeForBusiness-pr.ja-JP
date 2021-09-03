@@ -12,32 +12,29 @@ ms.collection:
 description: Skype for Business Online Connector から Teams PowerShell モジュールに移動して、Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd03b414eba2ebc10dcfdbbb4e0ea2712fff73ca2cb0eb643aa132936ab1470
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cdd6460e6a17a15193104a0871a57fa6dbff8105
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299007"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866359"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>Skype for Business Online Connector から PowerShell モジュールへのTeams移行
 
-TeamsPowerShell モジュールには、PowerShell コマンド ラインから直接管理Teamsコマンドレットの完全なセットが提供されます。 管理者は、ユーザー管理Skype For Business Online Connector を使用Teams必要とします。
+TeamsPowerShell モジュールは、PowerShell コマンド ラインから直接Teamsコマンドレットの完全なセットを提供します。 管理者は、ユーザー管理Skype For Business Online Connector を使用Teams必要があります。
 
 > [!NOTE]
 > Teamsセンターの投稿 (MC244740、2021 年 3 月 16 日付け) を通じて管理者に通知されました。この変更に関する MC250940 (2021 年 4 月 16 日付け)。
 >
 > TeamsPowerShell モジュールは最新の認証を使用しますが、基本認証Windows基になるリモート管理 (WinRM) クライアントを構成する必要があります。 WinRM [for Basic 認証を有効Windows PowerShell](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)方法については、ダウンロードとインストールに関するページを参照してください。
 
-> [!WARNING]
-> Skype for Businessオンライン コネクタ接続は、2021 年 5 月 17 日から拒否されます。 PowerShell モジュールへの移行については、Microsoft サポートTeams問い合わせください。
-
 ## <a name="how-to-migrate"></a>移行方法
 
-Skype for Business Online Connector を使用して PowerShell モジュールTeamsに移行するのは簡単で簡単です。 次の手順では、これを行う方法について説明します。
+Skype for Business Online Connector を使用Teams PowerShell モジュールへの移行は簡単で簡単です。 次の手順では、これを行う方法について説明します。
 
 1. 最新の PowerShell モジュールTeamsインストールします。 手順については[、「PowerShell のインストール」Microsoft Teams参照してください](teams-powershell-install.md)。
 
-2. For Business Online コネクタSkypeをアンインストールします。 これを行うには、コントロール パネルで [プログラムと機能]**に移動** し、[オンライン] **Skype for Business、[** モジュール] の順Windows PowerShell選択し、[アンインストール] を **選択します**。
+2. For Business Online コネクタSkypeをアンインストールします。 これを行うには、コントロール パネルで [プログラムと機能] に移動し、[オンライン] **Skype for Business、[** モジュール] Windows PowerShell 選択し、[アンインストール] を **選択します**。 
 
 3. PowerShell スクリプトで、 で参照されているモジュール名を ```Import-Module```
 
@@ -75,20 +72,6 @@ Skype for Business Online Connector を使用して PowerShell モジュールTe
          # Disconnecting and closing the Session  
          Disconnect-MicrosoftTeams
     ```
-
-## <a name="online-support"></a>オンライン サポート
-
-サービス要求をオンラインで開始することで時間を節約できます。 ソリューションの検索やテクニカル サポートへの接続をお手伝いします。
-
-1.  [https://admin.microsoft.com](https://admin.microsoft.com) で管理センターにアクセスします。 このページにアクセスしたり、この操作を実行したりするためのアクセス許可が付与されていないというメッセージが表示された場合は、管理者ではない場合があります。Whoは、私のビジネスで管理者アクセス許可を持っていますか?
-
-2.  [ヘルプが **必要ですか?] を選択します**。ボタンをクリックします。
-
-3.  「ヘルプ **が必要ですか?」を参照してください**。ウィンドウで、ヘルプが必要な情報を入力し、Enter キーを押します。
-
-4.  結果が問題ない場合は、[サポートに問い合わせ **] を選択します**。
-
-5.  問題の説明を入力し、連絡先番号とメール アドレスを確認し、希望する連絡方法を選び、[連絡してください] **を選択します**。 予想される待機時間は、「ヘルプが必要ですか?」に示されています。ウィンドウに移動します。
 
 ## <a name="related-topics"></a>関連項目
 
