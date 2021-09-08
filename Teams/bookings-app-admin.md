@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Microsoft Teams と、Bookings アプリを使用した仮想訪問
-ms.openlocfilehash: be3b4b60f7f4c3860d909757f2be6cdc75bc8491
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cf6154099db5b6c6b52b9d82b4e58cd6c00c07b3
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631421"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935863"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams と Bookings アプリを使用した仮想訪問
 
@@ -41,7 +41,7 @@ Microsoft Teams の Bookings アプリでは、医療訪問、財務相談、イ
 
 - Microsoft Bookings を組織で有効にしている必要があります。
 
-- ユーザーは、適切なライセンスを持っている必要があります。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5 では、Business Standard がサポートされています。
+- ユーザーは、適切なライセンスを持っている必要があります。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、Business Standard がサポートされています。
 
 - Bookings アプリのすべてのユーザーと会議に参加するすべてのスタッフは、Teams 会議のスケジュールをサポートするライセンスを持っている必要があります。
 
@@ -97,6 +97,8 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 フィードバックを送信するには、Teams の左側のナビゲーション バーの下部にある **[ヘルプ]** ボタンをクリックし、**すべて** の問題に関するフィードバック用の **[問題の報告]** をクリックします。 フィードバック レポートの先頭に、"Bookings" に関するフィードバックであることを明記してください。それにより、Bookings に関する問題を簡単に識別することができます。
 
 ## <a name="related-topics"></a>関連トピック
+
+[モバイル ブラウザーで仮想アクセスTeamsの参加エクスペリエンスを管理する](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [エンド ユーザー向け Bookings ドキュメント](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

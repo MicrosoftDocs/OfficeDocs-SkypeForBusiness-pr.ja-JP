@@ -23,21 +23,21 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Microsoft Teams を使用して仮想アクセス システムをセットアップする
-ms.openlocfilehash: 46f29649665521b2bc59c2a4a73db617398bcf37
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a5b04befbd3c4cf5d1730432a2c5dcad97e63675
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726636"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935853"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams での仮想アクセス - EHR への統合
 
-Microsoft Teams電子健康記録 (EHR) コネクタを使用すると、医師は EHR システムから直接 Teams で仮想患者訪問や別のプロバイダーとの相談を簡単に開始できます。 Microsoft 365 クラウド上に構築された Microsoft Teams は、HIPAA、HITECH 認定などへの準拠をサポートする単一のハブで、チャット、ビデオ、音声、およびヘルスケア ツールとのシンプルで安全なコラボレーションとコミュニケーションを可能にします。
+Microsoft Teams電子健康記録 (EHR) コネクタを使用すると、医師は EHR システムから直接、Teams で仮想患者の訪問や別のプロバイダーとの相談を簡単に開始できます。 Microsoft 365 クラウド上に構築された Microsoft Teams は、HIPAA、HITECH 認定などへの準拠をサポートする単一のハブで、チャット、ビデオ、音声、およびヘルスケア ツールとのシンプルで安全なコラボレーションとコミュニケーションを可能にします。
 Teams のコミュニケーションおよびコラボレーション プラットフォームにより、臨床医は断片化されたシステムの乱雑さを簡単に切り抜けることができるため、可能な限り最善のケアを提供するために時間を費やすことができます。 Microsoft Teams電子正常性レコード (EHR) コネクタでは、次の機能を使用できます。
 
 - 統合Teamsワークフローを使用して、プロバイダー EHR システムから仮想アクセスを開始します。
 - 患者が患者ポータル内Teams仮想訪問に参加できます。
-- 出席者が接続と切断を行い、自動監査と記録Teamsを有効にするときに記録する仮想アクセスに関するメタデータを EHR システムに書き戻します。
+- 出席者が接続と切断を行い、自動監査と記録保持を有効にTeams仮想アクセスに関するメタデータを EHR システムに書き戻します。
 
   EHR ポータルから仮想アクセスを管理する方法のビデオをご覧ください。
 
@@ -126,7 +126,7 @@ Epic サインインが成功したら、Epic 顧客アナリストは構成を�
 
 ## <a name="launch-teams-virtual-visits"></a>Teams の仮想アクセスを開始する
 
-EHR コネクタの手順とエピックの構成を完了すると、組織はビデオアクセスをサポートする準備が整Microsoft Teams。
+EHR コネクタの手順とエピック構成を完了すると、組織はビデオアクセスをサポートする準備が整Microsoft Teams。
 
 ### <a name="virtual-visit-prerequisites"></a>仮想アクセスの前提条件
 
@@ -156,7 +156,7 @@ EHR コネクタの手順とエピックの構成を完了すると、組織は�
 
 患者エクスペリエンスの主な機能:
 
-- 患者は、アプリをインストールしなくても、デスクトップとモバイルの最新の Web ブラウザーから仮想アクセスに参加できます。
+- 患者は、アプリをインストールせずに、デスクトップとモバイルの最新の Web ブラウザーから [仮想アクセスに参加できます](../mobile-browser-join.md)。
 
 - 患者はワンクリックで仮想アクセスに参加でき、他のアカウントやサインインは必要ありません。
 
