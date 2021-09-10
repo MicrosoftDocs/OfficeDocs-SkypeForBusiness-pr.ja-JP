@@ -19,12 +19,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 333afdd88313a34b7331617220fa335237a8fbbb
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620703"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935883"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -263,7 +263,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > この機能が将来的に動作する方法に関する情報を提供することで、この変化に備えて計画を立て、Teams ポリシー設定を事前に変更できるようにしています。 
 >
-> Teams の MeetingExpirationDays 設定を事前に変更する CMD (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) はまだ利用して設定できません。  設定を変更できる場合は、更新されたメッセージ センターの投稿を公開します。
+> Teams の既定の有効期限設定を事前に変更する CMD はまだ利用できません。  設定を変更できる場合は、更新されたメッセージ センターの投稿を公開します。
 >
 >
 
@@ -309,7 +309,7 @@ Teams 会議の記録 (チャネル以外、チャネル、アドホック会議
 
 **管理者は有効期限日をどのように変更しますか?**
   
-管理者は、機能がリリースされる前に、PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) または Teams 管理センターで既定の有効期限切れ設定を変更できます。 この設定はまだ変更できません。 設定を変更できる場合は、更新されたメッセージ センターの投稿を公開します。 この機能が開始されると、管理者は Teams 管理センターでこの設定を変更することができます。 有効期限設定を変更すると、その時点から新たに作成された TMR のみに影響を与えます。 その日以前に記録されたコンテンツには影響ありません。 
+管理者は、機能がリリースされる前に、PowerShell または Teams 管理センターで既定の有効期限設定を変更できます。 この設定はまだ変更できません。 設定を変更できる場合は、更新されたメッセージ センターの投稿を公開します。 この機能が開始されると、管理者は Teams 管理センターでこの設定を変更することができます。 有効期限設定を変更すると、その時点から新たに作成された TMR のみに影響を与えます。 その日以前に記録されたコンテンツには影響ありません。 
 
 有効期限の日数の値は、次のように設定できます:
   
@@ -320,7 +320,7 @@ Teams 会議の記録 (チャネル以外、チャネル、アドホック会議
   
 **管理者は TMR を有効期限切れにならないように設定できますか?**
   
- はい。管理者は、PowerShell コマンドレット (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1) を使用して、TMR の有効期限が切れないように設定できます。
+ はい。管理者は TMR の有効期限が切れないように設定できます。
   
 **レコーディングしたものを再生すると有効期限が変わりますか?**
 
@@ -332,17 +332,7 @@ Teams 会議の記録 (チャネル以外、チャネル、アドホック会議
   
 **TMR をコピーしたり、別の場所やサイトに移動したりした場合はどのようになりますか?**
 
-日付は、移動した TMR ファイルに対してのみ保持されます。 コピーされたファイルには、再アップロードされた TMR と同様に、有効期限がありません。
-  
-  PowerShell コマンドの例は、以下のとおりです。 
-  
-  ```powershell
-  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
-  ```
-  
-**管理者ポリシー向けの制御は、どの範囲ですか?**
-  
-会議も通話も、同じ `CsTeamsMeetingPolicy` の設定である `MeetingRecordingExpirationDays` で制御されます。 
+日付は、移動した TMR ファイルに対してのみ保持されます。 コピーされたファイルには、再アップロードされた TMR と同様に、有効期限がありません。 
   
 **エンド ユーザーが特定の TMR ファイルの有効期限を変更するにはどうすればいいですか?**
   
