@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
-description: 音声とビデオの会議ポリシー設定Teamsを管理する方法について学習します。
-ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 音声とビデオの会議ポリシー設定を Teams管理する方法について学習します。
+ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726566"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973035"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音声ビデオの会議ポリシー&設定
 
@@ -33,40 +33,12 @@ ms.locfileid: "58726566"
 
 この記事では、音声とビデオに固有の会議ポリシー設定について説明します。 たとえば、以下のようなものです。
 
-- [文字起こしを許可する](#allow-transcription)
-- [クラウド記録を許可する](#allow-cloud-recording)
 - [IP オーディオ用モード](#mode-for-ip-audio)
 - [IP ビデオ用モード](#mode-for-ip-video)
 - [IP ビデオを許可する](#allow-ip-video)
 - [メディア ビット レート (KBs)](#media-bit-rate-kbs)
 - [ビデオ フィルター モード](#video-filters-mode)
 - [カスタムの背景設定を許可する](#allow-custom-background-settings)
-
-### <a name="allow-transcription"></a>文字起こしを許可する
-
-これは、開催者単位とユーザーごとのポリシーの組み合わせです。 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 これをオフにすると、会議の記録の再生中に [**検索**] および [**CC**] オプションを使用できなくなります。 記録を開始したユーザーは、記録に文字起こしも含まれるように、この設定を有効にする必要があります。
-
-記録された会議の文字起こしは、現在、Teams の言語が英語に設定されているユーザー、および会議で英語が話されている場合のユーザーに対してのみサポートされていることに注意してください。
-
-### <a name="allow-cloud-recording"></a>クラウド記録を許可する
-
-これは、開催者単位とユーザーごとのポリシーの組み合わせです。 この設定は、このユーザーの会議を記録できるかどうかを制御します。 参加者のポリシー設定が有効になっており、同じ組織の認証済みユーザーである場合、会議の開催者または別の会議参加者が記録を開始できます。
-
-フェデレーション ユーザーや匿名ユーザーなど、組織外のユーザーは記録を開始できません。 ゲスト ユーザーは記録を開始または停止できません。
-
-![記録オプションを示すスクリーンショット。](media/meeting-policies-recording.png)
-
-次の例を見てみましょう。
-
-|ユーザー |会議ポリシー  |クラウド記録を許可する |
-|---------|---------|---------|
-|Daniela | グローバル   | オフ |
-|Amanda | Location1MeetingPolicy | オン|
-|John (外部ユーザー) | 該当なし | 該当なし|
-
-Daniela が開催する会議は記録されず、ポリシー設定が有効になっている Amanda は Daniela が開催する会議を記録できません。 Amanda が開催する会議は記録できますが、ポリシー設定が無効になっている Daniela と外部ユーザーである John は、Amanda が開催する会議を記録できません。
-
-クラウド会議の記録の詳細については、「[Teams のクラウド会議の記録](cloud-recording.md)」を参照してください。
 
 ### <a name="mode-for-ip-audio"></a>IP オーディオ用モード
 
@@ -116,7 +88,7 @@ Daniela が開催する会議は記録されず、ポリシー設定が有効に
 
 | Teams デスクトップおよび Web クライアント |Teams モバイル クライアント  |
 |:-------:|:-------:|
-|![デスクトップの音声/ビデオ設定を使用した会議への参加を示すスクリーンショット。](media/meeting-policies-audio-video-settings.png)    |![モバイルでのオーディオ/ビデオの設定を使用して会議の参加を示す画面のスクリーンショット](media/meeting-policies-mobile-join.png)          |
+|![デスクトップのオーディオ/ビデオ設定を使用して会議への参加を示すスクリーンショット。](media/meeting-policies-audio-video-settings.png)    |![モバイルでのオーディオ/ビデオの設定を使用して会議の参加を示す画面のスクリーンショット](media/meeting-policies-mobile-join.png)          |
 
 次の例を見てみましょう。
 
@@ -228,4 +200,4 @@ CEO 役員会議や Teams のライブ イベントなど、最高品質のビ�
 ## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+- [ Teams でユーザーにポリシーを割り当てる](policy-assignment-overview.md)

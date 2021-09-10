@@ -26,12 +26,12 @@ description: Microsoft Teams 遠隔医療、EHR 統合、現場担当者のシ�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0fa0976c4e69f205feda03a4047a6bbcb26b1183
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730676"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972905"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>医療機関向け Microsoft Teams の使用を開始する
 
@@ -63,16 +63,16 @@ Microsoft Teams では、病院やその他の医療機関で役立つさまざ�
 | [Teams テンプレート](#teams-templates-for-healthcare-organizations) | 同じ病棟、ポッド、部門内での連絡と連携または病院内の複数の病棟、ポッド、部門間での連絡と連携のための定義済み設定テンプレート、チャネル、プレインストール済みアプリが備わったチームを作成します。 | ユーザーは適切なライセンスを所有している必要があります*。  |
 | [ケア コーディネーションとコラボレーション](#care-coordination-and-collaboration) | 診療担当者とスタッフは、スケジュール、ドキュメント、タスクなどに関する共同作業を院内で行うことができます。| ユーザーは適切なライセンスを所有している必要があります*。 |
 
-*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5 では、Business Standard がサポートされています。 Teams ライセンスの全般的な説明については、「[Teams へのユーザー アクセスを管理する](../../user-access.md)」を参照してください。
+*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、Business Standard がサポートされています。 Teams ライセンスの全般的な説明については、「[Teams へのユーザー アクセスを管理する](../../user-access.md)」を参照してください。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>バーチャル受診と電子健康記録 (EHR) 統合
 
 Microsoft Teams で提供される充実した会議プラットフォームを使用して、患者の受診をスケジュール、管理、実施します。
 
 - 組織が既に電子健康記録 (EHR とも呼びます) を使用している場合、Microsoft Teams を統合してよりシームレスなエクスペリエンスを実現できます。 Microsoft Teams の電子健康記録 (EHR) コネクタを使用すると、診療スタッフは EHR システムから直接、バーチャル受診や Teams 内の別のプロバイダーとの相談を簡単に開始できます。 詳細については、「[Teams を使用したバーチャル受診 - EHR との統合](ehr-admin.md)」を参照してください。
-- サポートされている EHR を使用していない場合は、Microsoft Bookings および Microsoft Teams の Bookings アプリを使用できます。 詳細については、「[Microsoft Teams の Bookings アプリとバーチャル受診](../../bookings-app-admin.md)」を参照してください。
+- サポートされている EHR を使用していない場合は、Microsoft Bookings および Microsoft Teams の Bookings アプリを使用できます。 詳細については、「Virtual [visits with Teams and the Bookings app (Bookings アプリを使用した仮想アクセス)」を参照してください](../bookings-virtual-visits.md)。
 
-![仮想アクセスとMicrosoft Teams。](../../media/virtual-visits-teams.png)
+![仮想アクセスと Microsoft Teams。](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Teams ポリシー パッケージ
 

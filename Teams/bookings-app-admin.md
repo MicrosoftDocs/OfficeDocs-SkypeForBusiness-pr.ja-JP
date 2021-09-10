@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams と Bookings アプリを使用した仮想訪問
+title: Bookings アプリを管理Microsoft Teams
 author: dmaguire
 ms.author: serdars
 manager: serdars
@@ -18,56 +18,60 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: Microsoft Teams と、Bookings アプリを使用した仮想訪問
-ms.openlocfilehash: cf6154099db5b6c6b52b9d82b4e58cd6c00c07b3
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+description: 組織内のユーザー向け Bookings アプリを Teams管理する方法について学習します。
+ms.openlocfilehash: 42e7c4741104f417f7e24a0e6441acb57cac203a
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935863"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973055"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams と Bookings アプリを使用した仮想訪問
+# <a name="manage-the-bookings-app-in-microsoft-teams"></a>Bookings アプリを管理Microsoft Teams
 
-Microsoft Teams の Bookings アプリでは、医療訪問、財務相談、インタビュー、カスタマー サポート、教育用のオフィス時間など、対面および仮想的な予定を簡単にスケジュールできます。
+Microsoft Teams の Bookings アプリでは、医療訪問、財務相談、インタビュー、カスタマー サポート、教育用のオフィス時間など、対面および仮想的な予定を簡単にスケジュールできます。 詳細については、「Virtual [visits with Teams and the Bookings app 」を参照してください](expand-teams-across-your-org/bookings-virtual-visits.md)。
 
-スケジュール担当者は、1 つの操作環境から、複数の部門とスタッフの予定表、および組織内外の出席者との通信を管理できます。 仮想予定自体は、強力なビデオ会議機能を提供する Microsoft Teams 会議を介して開催されます。
+スケジュール担当者は、1 つの操作環境から、複数の部門とスタッフの予定表、および組織内外の出席者との通信を管理できます。 仮想予定自体は、堅牢なビデオ会議機能Microsoft Teams会議を通じて開催されます。
 
 > [!NOTE]
-> Bookings アプリを Teams にインストールする必要があるのはスケジュール担当者だけです。 仮想予定を実施または参加するスタッフは、アプリを必要としません。 Outlook または Teams の予定表から、または予約確認メールのリンクから、予定に参加できます。
+> Bookings アプリを Teams にインストールする必要があるのはスケジュール担当者だけです。 仮想予定を実施または参加するスタッフは、アプリを必要とします。 予約の確認メールで、Outlook予定表Teams、または Teams 会議のリンクから、単に予定に参加できます。
 
 ## <a name="prerequisites-for-using-the-bookings-app-in-teams"></a>Teams で Bookings アプリを使用するための前提条件
 
-- Exchange メールボックスは Exchange Online にある必要があります。 オンプレミスの Exchange Server メールボックスはサポートされていません。
+- Exchange メールボックスは Exchange Online にある必要があります。 オンプレミスのExchange Serverメールボックスはサポートされていません。
 
 - Microsoft Bookings を組織で有効にしている必要があります。
 
-- ユーザーは、適切なライセンスを持っている必要があります。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、Business Standard がサポートされています。
+- ユーザーは、適切なライセンスを持っている必要があります。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5 では、Business Standard がサポートされています。
 
-- Bookings アプリのすべてのユーザーと会議に参加するすべてのスタッフは、Teams 会議のスケジュールをサポートするライセンスを持っている必要があります。
+- Bookings アプリのすべてのユーザーと会議に参加しているすべてのスタッフは、会議のスケジュール設定をサポートするライセンスTeams必要があります。
 
 - システムは、すべての[ソフトウェアとブラウザーの前提条件](hardware-requirements-for-the-teams-app.md)を満たす必要があります。
 
 ## <a name="availability-of-bookings-in-teams"></a>Teams での Bookings の利用可能性
 
-Teams 用の Microsoft Bookings アプリは、デスクトップと Web で利用できます。 これは、[Microsoft Teams 内の アプリ](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)と Teams 管理センターの **[アプリの管理]** で見つかります。
+Microsoft Bookings app for Teamsデスクトップおよび Web で利用できます。 [アプリ] の [アプリ [] Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)管理センターの **[アプリの** 管理] Teamsにあります。
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>組織内の Bookings へのアクセスを制御する
 
-Bookings アプリにアクセスできるユーザーとアプリの特定の機能を制御するには、いくつかの方法があります。 Microsoft 365 管理センターで Microsoft Bookings をオンまたはオフにする方法、および選択したユーザーが Bookings の予定表を作成できるようにする Bookings アプリ ポリシーを作成する方法については、「[Microsoft Bookings にアクセスする](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)」を参照してください。 [Teams アプリ ポリシーを作成して、一部のユーザーに Bookings アプリをピン留めする方法](teams-app-setup-policies.md)も参照してください。
+Bookings アプリにアクセスできるユーザーとアプリの特定の機能を制御するには、いくつかの方法があります。
 
-## <a name="recommended-meeting-policy-settings"></a>推奨される会議ポリシーの設定
+Microsoft 365 管理センター で Microsoft Bookings のオンとオフを切り替え、選択したユーザーが Bookings カレンダーを作成できる Bookings アプリ ポリシーを作成する方法については[、「Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)にアクセスする」を参照してください。
 
-Bookings で最高のエクスペリエンスを実現するには、スタッフ会議ポリシーを作成して、**組織内のすべてのユーザー** を自動的に承認するようにします。 これにより、スタッフは予定に自動的に参加できるようになり、外部出席者のロビー エクスペリエンスを有効にすることができます。 詳細については、「[会議へのユーザーの参加を自動的に許可する](meeting-policies-participants-and-guests.md#automatically-admit-people)」を参照してください。
+一部の[ユーザーに対Teams Bookings](teams-app-setup-policies.md)アプリをピン留めする新しいアプリ セットアップ ポリシーを作成することもできます。
 
-### <a name="optional-staff-approvals-setting"></a>オプションのスタッフ承認設定
+## <a name="recommended-meeting-policy-settings"></a>推奨される会議ポリシー設定
+
+Bookings に最適なエクスペリエンスを有効にするには、組織内のすべてのユーザー Teamsを自動的に許可し、そのポリシーをスタッフに割り当てる会議ポリシーを作成します。 これにより、スタッフは予定に自動的に参加し、外部の出席者のロビー エクスペリエンスを有効にできます。 会議にユーザーを自動的に [参加を認める方法の詳細については、を参照してください](meeting-policies-participants-and-guests.md#automatically-admit-people)。
+
+## <a name="optional-staff-approvals-setting"></a>オプションのスタッフ承認設定
 
 追加のプライバシー設定として、スケジュールの空き時間情報が Bookings を通じて共有される前や、予定を予約する前に、スタッフに参加を要求することを選択できます。  
 
-この設定を有効にするには、**[Microsoft 365 管理センター]** \> **[設定]** \> **[設定]** に移動し、**[Bookings]** を選択します。
+この設定を有効にするには、[予約]**に移動** Microsoft 365 管理センター設定設定予約] \>  \> **を選択します**。
 
-この設定をオンにすると、予約予定表のメンバーシップを承認するように求めるメールがスタッフに送信されます。  
+この設定をオンにすると、スタッフは予約予定表のメンバーシップを承認するように求めるメールを受信します。  
 
-この機能は、Microsoft 365 および Office 365 のお客様に向けて世界中で段階的に展開されています。 ご使用の環境ですべてのオプションがまだ利用できない場合は、しばらくしてからもう一度お試しください。
+この機能は、Microsoft 365 および Office 365 のお客様に向けて世界中で段階的に展開されています。 すべてのオプションが環境でまだ使用できない場合は、すぐに確認してください。
 
 ## <a name="changing-your-default-domain-when-setting-up-bookings-mailboxes"></a>Bookings メールボックスのセットアップ時に既定のドメインを変更する
 
@@ -84,7 +88,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 詳細については、「[Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox)」コマンドレットの PowerShell ドキュメントを参照してください。
 
 > [!NOTE]
-> Exchange ハイブリッド構成を使用している場合は、既定のドメインを変更するときに、オンプレミスの Exchange と Exchange Online 間のメール フローを十分にテストすることをお勧めします。
+> Exchange ハイブリッド構成を使用している場合は、既定のドメインを変更するときに、オンプレミスの Exchange と Exchange Online の間のメール フローを徹底的にテストすることをお勧めします。
 
 ## <a name="sending-feedback"></a>フィードバックの送信
 
@@ -94,11 +98,11 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   - 機能のギャップまたは不足している機能
   - バグや問題
   
-フィードバックを送信するには、Teams の左側のナビゲーション バーの下部にある **[ヘルプ]** ボタンをクリックし、**すべて** の問題に関するフィードバック用の **[問題の報告]** をクリックします。 フィードバック レポートの先頭に、"Bookings" に関するフィードバックであることを明記してください。それにより、Bookings に関する問題を簡単に識別することができます。
+フィードバックを送信するには、左側のナビゲーション バーの下部にある [ヘルプ] Teamsを選択し、[すべての問題について問題を報告する]**を選択** します。 Bookings に関する問題を簡単に特定できるよう、フィードバック レポートの先頭に「Bookings」に関するフィードバックを送信する必要があります。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-articles"></a>関連記事
 
-[モバイル ブラウザーで仮想アクセスTeamsの参加エクスペリエンスを管理する](expand-teams-across-your-org/mobile-browser-join.md)
+[モバイル ブラウザーで仮想アクセスTeams参加エクスペリエンスを管理する](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [エンド ユーザー向け Bookings ドキュメント](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

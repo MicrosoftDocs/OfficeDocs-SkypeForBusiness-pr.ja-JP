@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Teams & Skype for Business 間の共存動作 (ルーティング パラメーター、チャット & 呼び出しルーティング、既存のスレッドからのチャット & 呼び出し、プレゼンス&します。
-ms.openlocfilehash: efd40be76e1a733e74d3e85c767cf2847d3cccbc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5383ff8c68b8950b449b5159a530a1439156a945
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582431"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972925"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Skype for Business と共存する
 
@@ -66,13 +66,13 @@ Skype for Business と Teams の各クライアントとユーザー間におけ
 
 TeamsOnly ユーザーに送信されたメッセージは、常に Teams にルーティングされます。 SfB\* ユーザーに送信されたメッセージは、上述のように会話が可能な場合は、常に Skype for Business にルーティングされます。 アイランド ユーザーに送信されたメッセージは、常にメッセージの送信元の同じクライアントにルーティングされます。
 
-次の表は、指定されたモードのクライアントが、発信元のモード、選択したクライアント、および Skype for Business クライアントがホーム (on-prem または online) に応じて、発信元 (左端の 3 列) から呼び出しを受けるのを示しています。
+次の表は、指定されたモードのクライアントが、発信元のモード、選択したクライアント、および Skype for Business クライアントがホーム (オンプレムまたはオンライン) に応じて、発信元 (左端の 3 列) から呼び出しを受信する方法を示しています。
 
 以下の表では、次のように表されます。
 
-- **SfB \** _ は、次のモードを表します: _SfBOnly*、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings。  
+- **SfB \** _ は、_SfBOnly*、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings のモードを *表します*。 
 - *斜体のテキスト* は、相互運用の会話を強調表示しています。
-- **不可** は、チャットまたは通話が不可能である状況を表します。 このような場合は、発信者は代わりに Skype for Business を使用する必要があります。 これは、マイクロソフトがプレム/ハイブリッドのお客様に提供する標準ガイダンスが、Teams へのアップグレード体験の開始点として、Islands (通常は SfBWithTeamsCollab) 以外のモードを使用する理由の 1 つになります。
+- **不可** は、チャットまたは通話が不可能である状況を表します。 このような場合は、発信者は代わりに Skype for Business を使用する必要があります。 これは、Microsoft がオンプレム/ハイブリッドのお客様に提供する標準ガイダンスが、Teams へのアップグレード体験の開始点として、Islands (通常は SfBWithTeamsCollab) 以外のモードを使用する理由の 1 つになります。
 
 #### <a name="table-1a-in-tenant-new-chat-or-call-routing-to-an-islands-mode-recipient"></a>表 1a: アイランド モードの受信者への新しいテナント内チャットまたはテナント内通話のルーティング
 
@@ -118,7 +118,7 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams にル
 > [!NOTE]
 > 現在の Teams フェデレーションの実装は Skype for Business フェデレーションに基づいています。そのため、相互運用性インフラストラクチャ (発信者のテナントが純粋なオンラインまたは Skype for Business ハイブリッドのいずれかであることが必須) を活用しているので、ネイティブ スレッドと比較して機能セットが少なくて済みます。 将来的には、ネイティブの Teams 間フェデレーションが提供される予定です。その時点で、スレッドはネイティブになり、完全な機能が使用できるようになります。
 
-次の表は、発信元のモード、選択したクライアント、および Skype for Business クライアントがホーム (オンプレムまたはオンライン) に応じて、どのクライアントが発信元 (左端の 3 列) から呼び出しを受信するかについて説明しています。
+次の表は、発信元のモード、選択したクライアント、および Skype for Business クライアントがホーム (オンプレムまたはオンライン) に応じて、発信元 (左端の 3 列) から呼び出しを受けるクライアントを示しています。
 
 #### <a name="table-2a-federated-new-chat-or-call-routing-to-an-islands-recipient"></a>表 2a: アイランド受信者への新しいフェデレーション チャットまたはフェデレーション通話のルーティング
 
@@ -173,7 +173,8 @@ Skype for Business のスレッドは、10 分間の SIP セッション タイ�
 前述のように、テナント内動作とフェデレーション動作の両方が利用できますが、使用には次の制限があります。
 
 - テナントが別の GoLocal 展開または地域に存在する外部出席者は、"フェデレーション" 会議中に IM チャットを表示しない
-- マルチテナント型の O365 とソブリン クラウド間のフェデレーションと相互運用はサポートされていません
+- 21Vianet によって運用されるマルチテナント Office 365とOffice 365のフェデレーションと相互運用は、限られたシナリオでサポートされます。
+
 
 ## <a name="presence"></a>プレゼンス
 
@@ -181,7 +182,7 @@ Teams クライアントを使用しているユーザーと、まだ Skype for 
 
 たとえば、発信元のチャットまたは通話がターゲットの Skype for Business クライアントに送信される必要がある場合、発信元に表示する必要がある Skype for Business クライアントのプレゼンスです。 ターゲットのクライアントにアクセスするTeams、表示する必要があるTeamsクライアントのプレゼンスです。
 
-予想される動作を把握するには、プレゼンスがユーザーの共存モードに基づいて共有されるという理解が必要です。
+予想される動作を把握するには、プレゼンスがユーザーの共存モードに基づいて共有されるのを理解する必要があります。
 
 - ユーザーが TeamsOnly モードの場合、他のユーザー (Teams または Skype for Business) には、TeamsOnly ユーザーのプレゼンスがTeamsされます
 - ユーザーが SfB モード \* (SfbOnly、SfbWithTeamsCollab、SfbWithTeamsCollabAndMeetings) に参加している場合、他のユーザー (Teams か Skype for Business か) には SfB ユーザーの Skype for Business プレゼンスが表示されます。 \*
@@ -227,6 +228,20 @@ TeamsOnly ユーザーに送信されたメッセージは、常に Teams に送
 既存のスレッドのプレゼンスと到達可能性を調整するには、ルーティングが可能な場合に、そのスレッドで公開されているターゲットのプレゼンスをスレッドのルーティングに合わせて配置する必要があります。
 
 具体的には、永続的な相互運用の会話スレッドをやり取りしていた受信者が Teams にアップグレードされた場合、そのスレッドは正確なプレゼンスを反映しなくなり、ルーティングできなくなります。 この場合は、新しいスレッドを開始する必要があります。
+
+### <a name="federation-and-interop-with-office-365-operated-by-21vianet"></a>21Vianet によってOffice 365フェデレーションと相互運用
+
+マルチテナント Office 365 と 21Vianet が運用する Office 365 間のフェデレーションと相互運用は、マルチテナント Office 365 ユーザーが Teams のみモードの場合にサポートされます。 このようなシナリオでは、21Vianet が運営する Office 365 の Skype for Business Online ユーザーは、チャットや通話を通じて Teams マルチテナント Office 365 のユーザーのみと通信できます。 次の表は、この構成でサポートされているシナリオを示しています。
+ 
+|シナリオ|Origin|受信者|サポートの有無|
+|---|---|---|---|
+|プレゼンス|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|はい<br>はい|
+|チャット|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|はい (1:1 のみ)<br>はい(1:1 のみ)|
+|音声通話|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|はい (1:1 のみ)<br>はい (1:1 のみ)|
+|ビデオ通話|Teams <br> Skype for Business <br> | Skype for Business <br> Teams|はい (1:1 のみ)<br>はい (1:1 のみ)|
+|画面共有|Teams <br> Skype for Business <br> | Skype for Business <br> Teams |はい (昇格された会議Teams)<br>はい (昇格された SfB 会議を通じて)|
+|||||
+
 
 ## <a name="related-links"></a>関連リンク
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](./migration-interop-guidance-for-teams-with-skype.md)

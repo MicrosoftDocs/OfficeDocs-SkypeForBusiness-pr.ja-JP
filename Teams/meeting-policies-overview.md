@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Teams で会議ポリシーの設定を管理する方法について説明します。また、会議ポリシーの設定を使用して、ユーザーがスケジュールした会議の参加者に対して利用できる機能を制御します。
-ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc2a57daccd9f252abe912892f0475a38859007f
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627339"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973045"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>会議ポリシーを管理Microsoft Teams
 
@@ -100,12 +100,12 @@ ms.locfileid: "58627339"
 
 - [全般](meeting-policies-in-teams-general.md)
 - [オーディオとビデオ](meeting-policies-audio-and-video.md)
+- [文字起こし&記録する](meetings-policies-recording-and-transcription.md)
 - [コンテンツの共有](meeting-policies-content-sharing.md)
 - [参加者とゲスト](meeting-policies-participants-and-guests.md)
-
 
 ## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+- [ Teams でユーザーにポリシーを割り当てる](policy-assignment-overview.md)
 - [ユーザーから RestrictedAnonymousAccess Teams 会議ポリシーを削除する](meeting-policies-restricted-anonymous-access.md)

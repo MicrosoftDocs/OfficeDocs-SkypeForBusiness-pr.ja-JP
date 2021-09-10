@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0e2c1cf68097aede8fefd6410791ac103fcea68
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 28aa07c3d9fa832e126bd6694b5d004c02c97d99
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725666"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972885"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -32,7 +32,8 @@ ms.locfileid: "58725666"
 - チームの作成
 - チームの削除
 - 追加されたチャネル
-- 変更された設定
+- チャネルの削除
+- チャンネル設定の変更
 
 監査対象となる Teams アクティビティの完全な一覧については、[Teams アクティビティ](#teams-activities) および [Teams アクティビティでのシフト (プレビュー段階)](#shifts-in-teams-activities) を参照してください。
 
@@ -139,9 +140,9 @@ ms.locfileid: "58725666"
 |削除されたアプリ |AppDeletedFromCatalog           |カタログからアプリが削除されました。     |
 |チャネルの削除     |ChannelDeleted         |ユーザーがチームからチャネルを削除しました。         |
 |チームの削除  |TeamDeleted            |チーム所有者がチームを削除しました。      |
-|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、メッセージに URL リンクを追加Teams。         |
+|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、そのメッセージに URL リンクを追加Teams。         |
 |エクスポートされたメッセージ<sup>1、2</sup> <sup></sup> | MessagesExported |チャットまたはチャネル メッセージがエクスポートされた|.
-|フェッチされたチャット <sup> 1</sup、 <sup>2</sup>>    |ChatRetrieved  |チャットMicrosoft Teams取得されました。|
+|フェッチされたチャット <sup> 1</sup、2 <sup></sup>>    |ChatRetrieved  |チャットMicrosoft Teams取得されました。|
 |メッセージ<sup>1、2</sup>のすべてのホステッド コンテンツ <sup>をフェッチしました</sup>  |MessageHostedContentsListed    |画像やコード スニペットなど、メッセージ内のすべてのホストされたコンテンツが取得されました。|
 |インストールされたアプリ |AppInstalled         |アプリがインストールされました。   |
 |カードに対して実行されたアクション|PerformedCardAction|ユーザーがチャット内のアダプティブ カードでアクションを起こしました。 アダプティブ カードは通常ボットで使用し、チャットで情報を豊富に表示して、相互作用することを可能にします。 <br/><br/>**注:** チャット内のアダプティブ カードでのインライン入力アクションだけが監査ログで利用可能になります。 たとえば、チャネルでの会話の中で、ユーザーがポーリング ボットによって生成されたアダプティブ カード上でポーリング応答を送信した場合。 ダイアログを開く「結果を表示」などのユーザー アクションや、ダイアログ内のユーザー アクションは、監査ログには表示されません。|
@@ -170,7 +171,7 @@ ms.locfileid: "58725666"
 ||||
 
 > [!NOTE]
-> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出して操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365 」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出して操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション 」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 
