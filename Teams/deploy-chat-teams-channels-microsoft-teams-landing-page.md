@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: e7ebfeea83a34bec241c5de29f8d8445410a97d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617453"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973015"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams のチャット、チーム、チャネル、およびアプリ
 
@@ -93,7 +93,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 
 ### <a name="external-access"></a>外部アクセス
 
-外部アクセス (旧称: フェデレーション) を使用すると、Teams と Skype for Business のユーザーが、組織外部のユーザーと通信できるようになります。これをオンにして許可リストにドメインを追加すると、ユーザーは別のドメインおよび別の組織のユーザーと通信できます。外部アクセスは、ゲスト アクセスとは異なり、個人ではなくドメイン全体にアクセス許可を与えます。外部アクセスは、既定でオフになっています。
+外部アクセス (旧称: フェデレーション) を使用すると、Teams と Skype for Business のユーザーが、組織外部のユーザーと通信できるようになります。これをオンにして許可リストにドメインを追加すると、ユーザーは別のドメインおよび別の組織のユーザーと通信できます。外部アクセスは、ゲスト アクセスとは異なり、個人ではなくドメイン全体にアクセス許可を与えます。外部アクセスは、既定でオンになっています。
 
 |確認事項|アクション |
 |------------|-------|
@@ -102,7 +102,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 
 ### <a name="guest-access"></a>ゲスト アクセス
 
-Teams のゲスト アクセスを使用すると、組織の外部にいる個人がチームおよびチャネルにアクセスできるようになります。ゲスト アクセスの設定を使用すると、ゲスト ユーザーがある機能を使用できるかどうかを制御できます。ゲスト アクセスは、既定でオフになっています。詳細については、「[Teams でのゲスト アクセス](./guest-access.md)」を参照してください。
+Teams のゲスト アクセスを使用すると、組織の外部にいる個人がチームおよびチャネルにアクセスできるようになります。 ゲスト アクセスの設定を使用すると、ゲストが使用できるまたは使用できない機能を制御できます。 ゲスト アクセスは、既定でオンになっています。 詳細については、「[Teams でのゲスト アクセス](./guest-access.md)」を参照してください。
 
 > [!NOTE]
 > 外部アクセスとゲスト アクセスの詳細ついては、「[Microsoft Teams の別の組織のユーザーと通信する](communicate-with-users-from-other-organizations.md)」を参照してください。
