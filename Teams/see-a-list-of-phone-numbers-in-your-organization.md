@@ -1,9 +1,9 @@
 ---
-title: 組織の電話番号のリストを表示する
-ms.author: tonysmit
-author: tonysmit
+title: 組織内の電話番号の一覧を表示する
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: davlick, roykuntz, jastark
 ms.topic: article
 ms.assetid: 93098bc5-df63-4a1f-8734-0b72a6280a69
 ms.tgt.pltfrm: cloud
@@ -23,29 +23,28 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Microsoft Teams 管理センターを使用して、組織内のすべての電話番号と、ユーザーに割り当てられている、または割り当てられていないすべての電話番号の一覧を表示する方法について学習します。
-ms.openlocfilehash: d7de480508020dac24a63b5923af9cf2481c691b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1473a87a190a671d537a958b34e839d53a668f3a
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733976"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432489"
 ---
-# <a name="see-a-list-of-phone-numbers-in-your-organization"></a>組織の電話番号のリストを表示する
+# <a name="see-a-list-of-telephone-numbers"></a>電話番号の一覧を表示する 
 
-ユーザーや他のサービス (サービス番号) に割り当て可能な電話番号には、さまざまな種類があります 。たとえば、Microsoft 365 や Office 365。
+電話会議や通話キューなど、ユーザーや音声アプリケーションに割り当て可能な[](deploy-audio-conferencing-teams-landing-page.md)電話番号には、さまざまな[種類があります](plan-auto-attendant-call-queue.md)。 詳細については、「組織の電話番号 [を管理する」を参照してください](/microsoftteams/manage-phone-numbers-landing-page)。
+
+この記事は、通話プランとオペレーター サービスにConnect。 ダイレクト ルーティングの詳細については、「電話番号を構成し、エンタープライズ音声とボイスメールを有効 [にする」を参照してください](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online)。
   
-## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>組織のすべての電話番号のリストを表示するには
+## <a name="to-see-all-telephone-numbers-in-your-organization"></a>組織内のすべての電話番号を表示するには
 
-![ロゴのアイコンTeams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+組織内のすべての電話番号の一覧を表示するには:
 
-1. [管理センター **] Microsoft Teams移動します**。
+1. 管理センター **にMicrosoft Teams移動します**。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
-    > [!IMPORTANT]
-    > Skype for Business 管理センターの左のナビゲーションに [**音声**] オプションが表示されるようにするには、最初に **Enterprise E5 ライセンス**、**電話システム** アドオン ライセンス、または **電話会議** アドオン ライセンスを少なくとも 1 件購入する必要があります。
-
-3. 割り当てられている電話番号を表示するには、[状態] 列 **を参照** してください。
+3. 割り当てられている電話番号を表示するには、[割り当ての状態] 列を参照してください。この列には、番号が割り当てられているサービスの種類も表示されます。
 
 4. ビューをフィルター処理するには、フィルター アイコンをクリックします。 [フィルター **] ウィンドウ** では、ドロップダウン リストを使用して、次の方法でビューをフィルター処理できます。
 
@@ -59,74 +58,59 @@ ms.locfileid: "58733976"
 
    - 電話の **状態。**
 
-## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>ユーザーに割り当てられているすべての電話番号を表示するには
+## <a name="to-see-all-telephone-numbers-that-are-assigned-to-users"></a>ユーザーに割り当てられているすべての電話番号を表示するには
 
 ユーザーを設定するときに、ユーザーに既に割り当てられている電話番号と、ユーザーに割り当て可能な電話番号の一覧を表示したい場合があります。
-  
-![ロゴのアイコンTeams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
-1. [管理センター **] Microsoft Teams移動します**。
+1. 管理センター **にMicrosoft Teams移動します**。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
     > [!IMPORTANT]
     > Microsoft Teams 管理センターの左側のナビゲーションに [音声] オプションを表示するには、まず、少なくとも 1 つの **Enterprise E5** ライセンス、1 つの **電話システム** アドオン ライセンス、または 1 つの電話会議アドオン ライセンスを購入する必要があります。
 
-3. 割り当てられている数値をすばやく並べ替え、割り当てられている番号を確認するには、[状態] 列見出 **しを** クリックします。 または、フィルター アイコンをクリックし、ビューをフィルター処理して、ユーザーに既に割り当てられている電話番号、またはユーザーに割り当て可能な未割り当て番号を表示できます。 以下の分類でフィルターすることができます。
+3. 割り当てられている番号をすばやく並べ替え、割り当てられている番号を確認するには、[割り当て状態] 列見出 **しを** クリックします。 または、フィルター アイコンをクリックし、ビューをフィルター処理して、ユーザーに既に割り当てられている電話番号、またはユーザーに割り当て可能な未割り当て番号を表示できます。 以下の分類でフィルターすることができます。
 
    - **ユーザーに割り当て済み**
-
    - **会議ブリッジに割り当て済み** 
-
+   - **Voice アプリに割り当て済み (自動応答/通話キュー)**
    - **未割り当て**
 
-## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>音声ユーザーに割り当てられているすべての電話番号を表示するには
+## <a name="to-see-all-telephone-numbers-that-are-assigned-to-voice-users"></a>音声ユーザーに割り当てられているすべての電話番号を表示するには
 
 組織内のユーザーに電話の送受信を設定する場合は、まず電話番号を取得してから、ユーザーに割り当てる必要があります。 電話番号を取得した後は、番号の割り当てのアクティブ化の状態を確認できます。
-
-![ロゴのアイコンTeams表示されます。](media/teams-logo-30x30.png) **管理センター Microsoft Teams使用します**。
   
-1. [管理センター **] Microsoft Teams移動します**。
+1. 管理センター **にMicrosoft Teams移動します**。
 
 2. In the left navigation, go to **Voice** > **Phone numbers**.
 
-    > [!IMPORTANT]
-    > Microsoft Teams 管理センターの左側のナビゲーションに [音声] オプションを表示するには、まず、少なくとも 1 つの **Enterprise E5** ライセンス、1 つの **電話システム** アドオン ライセンス、または 1 つの電話会議アドオン ライセンスを購入する必要があります。
-
-3. [フィルター] アイコンをクリックして、アクティブ化状態でビュー **をフィルター処理できます** 。次の方法でフィルター処理できます。
+3. フィルター アイコンをクリックして、アクティブ化状態でビュー **をフィルター処理します**。 以下の分類でフィルターすることができます。
 
    - **アクティブ化**
-
    - **割り当て保留中**
-
    - **割り当てに失敗しました**
-
    - **更新プログラムの保留中**
-
    - **更新に失敗しました**
 
 ## <a name="using-the-teams-powershell-module"></a>PowerShell モジュールTeams使用する
 
-Teams PowerShell モジュールを使用して前のセクションと同じ情報を取得できますが、バージョン 1.1.6 以降 (Skype for Business Online コネクタの統合を含む) が必要です。 モジュールの詳細については[、「PowerShell の概要」Microsoft Teamsを参照してください](teams-powershell-overview.md)。
+Teams PowerShell モジュールを使用して前のセクションから同じ情報を取得できますが、バージョン 1.1.6 以降 (Skype for Business Online コネクタの統合を含む) が必要です。 モジュールの詳細については[、「PowerShell の概要」Microsoft Teamsを参照してください](teams-powershell-overview.md)。
 
-[Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)コマンドレットを使用して、組織のすべての電話番号の一覧を表示できます。 たとえば、次のコマンドを実行して、各電話番号とその状態を確認できます。
+組織のすべての電話番号の一覧を表示するには [、Get-CsOnlineTelephoneNumber コマンドレットを使用](/powershell/module/skype/get-csonlinetelephonenumber) します。 たとえば、各電話番号とその状態を表示するには、次のコマンドを実行します。
 
 ```PowerShell
 Get-CsOnlineTelephoneNumber | ft Id,ActivationState
 ```
 
-[Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser)コマンドレットを使用して、ユーザーに割り当てられているすべての電話番号を確認できます。 たとえば、次のコマンドを実行して、電話番号が割り当てられているすべてのユーザーを表示できます。
+ユーザーに割り当てられているすべての電話番号を表示するには [、Get-CsOnlineUser コマンドレットを使用](/powershell/module/skype/get-csonlineuser) します。 たとえば、電話番号が割り当てられているすべてのユーザーを表示するには、次のコマンドを実行します。
 
 ```PowerShell
 Get-CsOnlineUser | Where-Object  { $_.LineURI -notlike $null } | ft DisplayName,UserPrincipalName,LineURI
 ```
 
 ## <a name="related-topics"></a>関連項目
-[電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
-[通話プランで使用されるさまざまな種類の電話番号](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
-[組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
+[組織の電話番号を管理する](manage-phone-numbers-landing-page.md)
 
 [緊急通話の利用条件](./emergency-calling-terms-and-conditions.md)
 

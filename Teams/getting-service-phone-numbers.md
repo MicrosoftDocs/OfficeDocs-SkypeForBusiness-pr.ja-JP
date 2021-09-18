@@ -1,5 +1,5 @@
 ---
-title: サービス電話番号を取得する
+title: 通話プランのサービス電話番号を取得する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,23 +22,25 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 新しい電話番号を取得し、電話会議、自動応答、通話キュー (サービス番号) の既存の番号をTeams。
-ms.openlocfilehash: fb0025796ad9bbb91c5172cf2cb551de6ecf619b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6a065c5661fc4b0a716d2aab31687e20645473fb
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732916"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432499"
 ---
-# <a name="getting-service-phone-numbers"></a>サービス電話番号を取得する
+# <a name="srvice-phone-numbers-for-calling-plans"></a>通話プランの Srvice 電話番号
 
-ユーザーの電話番号[](./getting-phone-numbers-for-your-users.md)を取得する以外に、電話会議 (会議ブリッジの場合)、自動応答、通話キュー (サービス番号とも呼ばれる) などのサービスの有料電話番号または無料電話番号を取得できます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。 たとえば、サービス番号は何百もの呼び出しを同時に処理できるのに対し、ユーザーの電話番号は数件の通話のみを同時に処理できます。
+**レビュー担当者への注意: これは通話プランに固有のようです。[通話プラン] ノードの下に移動する必要がありますか。**
+
+ユーザーの [電話番号](./getting-phone-numbers-for-your-users.md)を取得する以外に、電話会議 (電話会議ブリッジの場合)、自動応答、通話キュー (サービス番号とも呼ばれる) などのサービスの有料電話番号または無料電話番号を取得できます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。 たとえば、サービス番号は何百もの呼び出しを同時に処理できるのに対し、ユーザーの電話番号は数件の通話のみを同時に処理できます。
   
 > [!NOTE]
 > 無料電話番号を取得するには、まずコミュニケーション クレジットを設定する必要があります。 詳細については、「組織の通信 [クレジットを設定する」を参照してください](./set-up-communications-credits-for-your-organization.md)。
   
 サービス番号を取得するには、次の 3 つの方法があります。
   
-- **管理センター Microsoft Teams使用します。** 一部の国と地域では、管理センターでサービスMicrosoft Teams取得できます。 「新 [しいサービス番号を取得する」を参照してください](#get-new-service-numbers)。
+- **管理センター Microsoft Teams使用します。** 一部の国と地域では、管理センターでサービス番号Microsoft Teams取得できます。 「新 [しいサービス番号を取得する」を参照してください](#get-new-service-numbers)。
 
 - **既存の番号を移行する。** 現在のサービス プロバイダーまたは携帯電話会社から既存の番号を移植または転送できます。 この方法の詳細については、「[Teams に電話番号を移行](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
   
@@ -49,17 +51,21 @@ ms.locfileid: "58732916"
   
 ## <a name="get-new-service-numbers"></a>新しいサービス番号を取得する
 
-![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+新しいサービス番号を取得するには、管理センター Teamsします。
 
-1. 左側のナビゲーションで、[Voice電話  >  **番号] に移動し、[** 追加] を **クリックします**。
+1. 左側のナビゲーションで、[Voice電話  >  **に移動し**、[追加] を **クリックします**。
+
 2. 注文の名前を入力し、説明を追加します。
+
 3. [場所と数量] ページで、次の操作を行います。
-    1. [ **国または地域] で**、国または地域を選択します。
-    1. [ **数値の種類]** で、目的のサービス番号の種類を選択します。
-    1. [場所 **] で** 場所を選択します。 新しい場所を作成する必要がある場合は、[場所の追加 **] をクリックします**。
-    1. [ **地域コード] で**、エリア コードを選択します。 
-    2. [**数量]** で、組織に必要な数値を入力し、[次へ]をクリックして番号を選択します。
+    - [ **国または地域] で**、国または地域を選択します。
+    - [ **数値の種類]** で、目的のサービス番号の種類を選択します。
+    - [場所 **] で** 場所を選択します。 新しい場所を作成する必要がある場合は、[場所の追加 **] をクリックします**。
+    - [ **地域コード] で**、エリア コードを選択します。 
+    - [**数量]** で、組織に必要な数値を入力し、[次へ]をクリックして番号を選択します。
+
 4. 目的の数値を選択します。 電話番号を選択して注文するには 10 分かかります。 10 分以上かかる場合は、電話番号が数値のプールに返されます。
+
 5. 注文の準備ができたら、[注文] を **クリックします**。
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>既存のサービス番号を移行または転送する
@@ -73,9 +79,7 @@ ms.locfileid: "58732916"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>組織の電話番号を表示する
 
-![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用** 
-
-左側のナビゲーションで、[Voice電話] に移動して、場所、番号の種類、状態情報など、組織の番号  >  を表示します。
+[Teams 管理センターの左側のナビゲーションで 、[Voice 電話numbers] に移動し、場所、番号の種類、状態情報など、組織の番号  >  を表示します。
 
 ## <a name="assign-service-phone-numbers"></a>サービス電話番号を割り当てる
 

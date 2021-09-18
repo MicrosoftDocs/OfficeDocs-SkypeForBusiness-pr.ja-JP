@@ -1,5 +1,5 @@
 ---
-title: 組織のために電話番号を管理する
+title: 通話プランの電話番号を管理する
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,16 +27,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 組織のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得して管理する方法Microsoft Teams確認します。
-ms.openlocfilehash: 03c8fd0c265918a2ef664f668e2900d85ac50cf8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630189"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432529"
 ---
-# <a name="manage-phone-numbers-for-your-organization"></a>組織のために電話番号を管理する
+# <a name="manage-phone-numbers-for-calling-plan"></a>通話プランの電話番号を管理する
 
-組織のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得するには、次の 4 つの方法があります。
+通話プランのユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得するには、次の 4 つの方法があります。
 
 - [管理センターで新しいユーザー Microsoft Teams取得します](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)。
 - [管理センター で新しいサービスMicrosoft Teams取得します](../getting-service-phone-numbers.md#get-new-service-numbers)。
@@ -82,7 +82,9 @@ ms.locfileid: "58630189"
 
 ***
 
-## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>これらの番号の要求フォームの詳細についてはこちらです
+## <a name="number-request-forms"></a>番号の要求フォーム
+
+次のセクションでは、新しい番号と既存の番号を転送する要求フォームについて説明します。
 
 ### <a name="request-forms-for-new-phone-numbers"></a>新しい電話番号の要求フォーム
 
@@ -90,24 +92,24 @@ ms.locfileid: "58630189"
 
 (お客様の国または地域によっては) Microsoft Teams 管理センターを使用して新しいユーザー (サブスクライバー) またはサービス (有料または無料) の電話番号を取得できない場合や、特定の電話番号(バニティ要求) または特定の市番が必要な場合があります。
 
-その場合は、正しい PDF LOA フォーム (国または地域、電話番号の種類ごとに) をダウンロードして、返送する必要があります。 サービス デスクがそこからそれを受け取り、要求の処理を開始します。
+その場合は、適切な PDF LOA フォーム (国または地域、電話番号の種類) をダウンロードして、お送りください。 サービス デスクがそこからそれを受け取り、要求の処理を開始します。
 
-### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>既存の電話番号を別のサービス プロバイダーから別のサービス プロバイダーに転送または移植する承認状 (LOA) Microsoft Teams
+### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>既存の電話番号を転送/移植する承認状 (LOA) 
 
-既存の電話番号を転送/移植する必要がある場合は、承認状 (LOA) をダウンロードして入力し、送信する必要があります。これにより、お客様の代わりに、別のサービス プロバイダーから Microsoft Teams にこれらの既存の番号を要求および転送するアクセス許可が付与されます。
+既存の電話番号を別のサービス プロバイダーから Teams に転送または移植する必要がある場合は、承認状 (LOA) をダウンロードして入力し、送信する必要があります。 LOA は、お客様に代わって、別のサービス プロバイダーから既存の番号を要求および転送するアクセス許可を Microsoft に付与Teams。
 
 現在、別の運送業者に次の情報がある場合は **、LOA** をお送りください。
 
 - ユーザー (サブスクライバー) 番号。
 - 電話会議ブリッジ、自動応答、または通話キューのサービス (有料) 番号。
 - Toll-Free番号を入力します。
-- 999 を超えるユーザー電話番号を転送/ポートする必要がありますが、ローカル番号の移植ウィザードを使用して Microsoft Teams 管理センターに移動できない。
+- 999 を超えるユーザー電話番号を転送/ポートする必要がありますが、ローカル番号の移植ウィザードを使用して Microsoft Teams 管理センターにアクセスできない。
 
 入力および署名済 **み** LOA が完了したら [、PSTN](./contact-pstn-service-desk.md) サービス デスクにお問い合わせください。お手伝いします。
 
 ## <a name="still-need-assistance"></a>それでもサポートが必要な場合は、
 
-[PSTN サービス デスクにお問い合](./contact-pstn-service-desk.md) わせください。できるだけ早くサポートいたします。
+サポートが必要な場合は [、PSTN サービス デスク にお問い合わせください](./contact-pstn-service-desk.md)。
 
 ## <a name="additional-resources"></a>その他のリソース
 

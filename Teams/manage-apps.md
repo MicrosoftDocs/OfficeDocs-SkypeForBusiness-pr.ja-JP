@@ -1,7 +1,7 @@
 ---
-title: 管理センターでアプリMicrosoft Teamsする
-author: cichur
-ms.author: v-cichur
+title: 管理センターでアプリMicrosoft Teams管理する
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,20 +13,31 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: 管理センターの [Teams アプリの管理] ページでアプリを管理するMicrosoft Teams確認します。
+description: 管理センターの [Teams アプリの管理] ページでアプリを管理Microsoft Teamsします。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 2541f23342613b585622577b3c5ebe2d3a8c97c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 76b647e5c01d45eac3e634ccbc7e929eccd3dfba
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728646"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432669"
 ---
-# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>管理センターでアプリMicrosoft Teamsする
+# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>管理センターでアプリMicrosoft Teams管理する
 
-管理者は、Microsoft Teams 管理センターの [アプリの管理] ページで、組織のすべてのアプリTeams表示および管理します。 ここでは、アプリの組織レベルの状態とプロパティの表示、組織のアプリ ストアへの新しいカスタム アプリの承認またはアップロード、組織レベルでのアプリのブロックまたは許可、チームへのアプリの追加、サード パーティ製アプリのサービスの購入、アプリから要求されたアクセス許可の表示、アプリに対する管理者の同意の付与、組織全体のアプリ設定の管理を行います。
+管理者は、組織のすべてのアプリを表示Teams管理できます。 管理センターの [アプリのTeamsページでは、次の方法を実行できます。
+
+- [組織レベルでアプリを許可またはブロックする](#allow-and-block-apps)
+- [パブリッシャーによってブロックされるアプリ](#apps-blocked-by-publishers)
+- [アプリをチームに追加する](#add-an-app-to-a-team)
+- [組織のアプリ ストアに新しいカスタム アプリを承認またはアップロードする](#publish-a-custom-app-to-your-organizations-app-store)
+- [アプリによって要求されたアクセス許可を表示する](#view-resource-specific-consent-permissions)
+- [アプリに同意を付与する](#grant-admin-consent-to-apps)
+- [サード パーティ製アプリのサービスを購入する](#purchase-services-for-third-party-apps)
+- [アプリの組織レベルの状態とプロパティを確認する](#view-apps)
+- [組織全体のアプリ設定を管理する](#manage-org-wide-app-settings)
+- [認定アプリのセキュリティとコンプライアンスに関Microsoft 365表示する](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
 
 [アプリの管理] ページには、利用可能なすべてのアプリが表示され、組織全体で許可またはブロックするアプリを決定するために必要な情報が表示されます。 また、[アプリのアクセス許可ポリシー](teams-app-permission-policies.md)、[アプリのセットアップ ポリシー](teams-app-setup-policies.md)、[カスタム アプリ ポリシーと設定](teams-custom-app-policies-and-settings.md)を使って、組織内の特定のユーザーに対してアプリ エクスペリエンスの構成を行うことができます。
 
@@ -45,16 +56,17 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[Team
 
   ![アプリのアプリの詳細ページのスクリーンショット。](media/manage-apps-app-details.png)
   
-- **認定**: アプリが認定を通過した場合は、認証済みMicrosoft 365またはPublisher **表示されます**。 リンクを選択すると、アプリの認定の詳細が表示されます。 "" と **--** 表示される場合は、アプリの認定情報が表示されます。 認定されたアプリの詳細については、「Teams 認定プログラム[」Microsoft 365を参照してください](/teams-app-certification/all-apps)。  
+- **認定**: アプリが認定を通過した場合は、認証済みMicrosoft 365またはPublisher **表示されます**。 リンクを選択すると、アプリの認定の詳細が表示されます。 "" と **--** 表示される場合は、アプリの認定情報が表示されます。 Teams の認定アプリの詳細については[、「Microsoft 365」を参照してください](/teams-app-certification/all-apps)。  
 - **Publisher:** 発行元の名前。
 - **発行状態**: カスタム アプリの発行状態。
 - **状態**: 組織レベルでのアプリの状態。次のいずれかの状態です。
-- **許可:** アプリは、組織内のすべてのユーザーが使用できます。
-- **ブロック:** アプリはブロックされ、組織内のユーザーは使用できません。
-- **ブロックされる組織全体**: アプリは、組織全体のアプリ設定でブロックされます。
+    - **許可:** アプリは、組織内のすべてのユーザーが使用できます。
+    - **ブロック:** アプリはブロックされ、組織内のユーザーは使用できません。
+    - **発行元によってブロック** される: アプリはパブリッシャーによってブロックされ、既定ではエンド ユーザーには表示されません。 発行元のガイダンスを使用してアプリを設定した後は、エンド ユーザーがアプリを使用できるようアプリを許可またはブロックできます。
+    - **ブロックされる組織全体**: アプリは、組織全体のアプリ設定でブロックされます。
       この列は、以前は [組織全体の設定] ウィンドウに表示されたアプリの許可とブロックの状態を表します。 [アプリの管理] ページで、組織全体でアプリを表示、ブロック、 **および許可** できるようになりました。
 - **ライセンス**: アプリがサービスとしてのソフトウェア (SaaS) サブスクリプションを提供するかどうかを示します。 この列は、サード パーティ製アプリにのみ適用されます。 各サード パーティ製アプリには、次のいずれかの値があります。
-- **今すぐ購入**: アプリは SaaS サブスクリプションを提供し、購入できます。  
+- **購入**: アプリは SaaS サブスクリプションを提供し、購入できます。  
 - **購入:** アプリは SaaS サブスクリプションを提供し、そのライセンスを購入しました。
 - **- :** アプリは SaaS サブスクリプションを提供しない。
 - **カスタム アプリ**: アプリがカスタム アプリかどうか。
@@ -80,17 +92,17 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[Team
 
 また、開発者がカスタム アプリに更新を送信したときにも通知されます。 その後、アプリの詳細ページで更新プログラムを確認して発行 (または拒否) できます。 すべてのアプリアクセス許可ポリシーとアプリ設定ポリシーは、更新されたアプリに適用されたままです。
 
-詳細については、「Teams App Submission API を使用して送信されたカスタム[アプリを発行する」を参照してください](submit-approve-custom-apps.md)。
+詳細については、「Teams App Submission API を使用して送信されたカスタム アプリを発行[する」を参照してください](submit-approve-custom-apps.md)。
 
 ### <a name="upload-an-app-package"></a>アップロード パッケージを作成する
 
-開発者は、Teams [App Studio](/microsoftteams/platform/get-started/get-started-app-studio)を使用して Teams アプリ パッケージを作成し、そのパッケージを次の形式.zipします。 アプリ パッケージを持っている場合は、組織のアプリ ストアにアップロードできます。
+開発者は、App [Studio](/microsoftteams/platform/get-started/get-started-app-studio)をTeamsしてTeamsアプリ パッケージを作成し、そのアプリ パッケージを次の形式.zipします。 アプリ パッケージを持っている場合は、組織のアプリ ストアにアップロードできます。
 
 新しいカスタム アプリをアップロードするには **、[アップロード]** を選択してアプリ パッケージをアップロードします。 アプリはアップロード後に強調表示されません。アプリを見つけるには、[アプリの管理] ページでアプリの一覧を検索する必要があります。
 
 アップロード後にアプリを更新するには、[アプリの管理] ページのアプリの一覧でアプリ名を選択し、[更新] を選択 **します**。 これにより、既存のアプリが置き換わるので、すべてのアプリのアクセス許可ポリシーとアプリセットアップ ポリシーは、更新されたアプリに適用されたままです。
 
-詳細については、「アプリ パッケージを [アップロードしてカスタム アプリを発行する」を参照してください](upload-custom-apps.md)。
+詳細については、「アプリ パッケージをアップロードしてカスタム アプリを発行 [する」を参照してください](upload-custom-apps.md)。
 
 ## <a name="allow-and-block-apps"></a>アプリを許可およびブロックする
 
@@ -102,6 +114,14 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[Team
 
  > [!NOTE]
  > アプリをアンインストールするには、アプリを右クリックし、[アンインストール]をクリックするか、左側の [その他のアプリ]**メニューを** 使用します。
+
+## <a name="apps-blocked-by-publishers"></a>パブリッシャーによってブロックされるアプリ
+
+ISV がグローバル アプリ ストアにアプリを発行する場合、アプリ エクスペリエンスを構成またはカスタマイズするために管理者が必要になる場合があります。 管理者は、アプリが完全にセットアップされているときにエンド ユーザーが使用できます。
+
+たとえば、Contoso Electronics は、ユーザー向けのヘルプ デスク アプリを構築した ISV Microsoft Teams。 Contoso Electronics は、ユーザーがアプリを操作するときに期待通り機能するために、顧客がアプリの特定のプロパティを設定したいと考えています。 管理者がアプリケーションを許可またはブロックする前に、Teams 管理センターで発行元によってブロックされたと表示され、既定ではエンド ユーザーには表示されません。 アプリを設定するパブリッシャーのガイダンスに従った後、状態を [許可] に変更してユーザーがアプリを利用できるようしたり、状態を [ブロック] に変更して、ユーザーがアプリを使用できない状態に変更したり **することができます。**
+
+![Teams 管理センターの発行元の状態によってブロックされたスクリーンショット。](media/blocked-by-publisher.png)
 
 ## <a name="add-an-app-to-a-team"></a>アプリをチームに追加する
 
@@ -119,22 +139,22 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[Team
 
 ## <a name="purchase-services-for-third-party-apps"></a>サード パーティ製アプリのサービスを購入する
 
-[アプリの管理] ページから、組織内のユーザー向けサード パーティ製アプリによって提供されるサービスのライセンスを直接検索して購入できます。 表 **の [** ライセンス] 列は、アプリが有料の SaaS サブスクリプションを提供するかどうかを示しています。 [今 **すぐ購入]** を選択して、プランと価格情報を表示し、ユーザーのライセンスを購入します。 詳細については、「管理センターでサード パーティ製Teamsサービスを購入[する」をMicrosoft Teamsしてください](purchase-third-party-apps.md)。
+[アプリの管理] ページから、組織内のユーザー向けサード パーティ製アプリによって提供されるサービスのライセンスを直接検索して購入できます。 表 **の [** ライセンス] 列は、アプリが有料の SaaS サブスクリプションを提供するかどうかを示しています。 [今 **すぐ購入]** を選択して、プランと価格情報を表示し、ユーザーのライセンスを購入します。 詳細については、「管理センターでサード パーティTeamsサービスを購入[する」をMicrosoft Teamsしてください](purchase-third-party-apps.md)。
 
 ## <a name="grant-admin-consent-to-apps"></a>アプリに管理者の同意を付与する
 
-組織内のすべてのユーザーに代わってアクセス許可を要求するアプリを確認し、同意を付与できます。 これにより、ユーザーはアプリの起動時にアプリから要求されたアクセス許可を確認して受け入れる必要がなされます。 [ **アクセス許可]** 列は、アプリに同意が必要なアクセス許可を持っているかどうかを示します。 同意が必要な **アクセス許可を** 持つ Azure ADに登録されている各アプリの [詳細の表示] リンクが表示されます。 詳細については、「アプリのアクセス許可[を表示し、管理センター](app-permissions-admin-center.md)で管理者の同意Microsoft Teams参照してください。
+組織内のすべてのユーザーに代わってアクセス許可を要求するアプリを確認し、同意を付与できます。 これにより、ユーザーはアプリの起動時にアプリから要求されたアクセス許可を確認して受け入れる必要がなされます。 [ **アクセス許可]** 列は、アプリに同意が必要なアクセス許可を持っているかどうかを示します。 同意が必要な **アクセス許可を** 持つ Azure ADに登録されている各アプリの [詳細の表示] リンクが表示されます。 詳細については、「アプリのアクセス許可[を表示し、](app-permissions-admin-center.md)管理センターで管理者の同意Microsoft Teams参照してください。
 
 ## <a name="view-resource-specific-consent-permissions"></a>リソース固有の同意アクセス許可を表示する
 
-リソース固有の同意 (RSC) アクセス許可を使用すると、チーム所有者は、アプリがチームのデータにアクセスして変更するための同意を付与できます。 RSC アクセス許可は細かく、Teams特定のチームでアプリが実行できる操作を定義する固有のアクセス許可です。 RSC のアクセス許可は、アプリのアプリの詳細 **ページの** [アクセス許可] タブで確認できます。 詳細については、「アプリのアクセス許可[を表示し、管理センター](app-permissions-admin-center.md)で管理者の同意Microsoft Teams参照してください。
+リソース固有の同意 (RSC) アクセス許可を使用すると、チーム所有者は、アプリがチームのデータにアクセスして変更するための同意を付与できます。 RSC アクセス許可は、アプリTeamsチームで実行できる操作を定義する、詳細で詳細なアクセス許可です。 RSC のアクセス許可は、アプリのアプリの詳細 **ページの** [アクセス許可] タブで確認できます。 詳細については、「アプリのアクセス許可[を表示し、](app-permissions-admin-center.md)管理センターで管理者の同意Microsoft Teams参照してください。
 
 ## <a name="manage-org-wide-app-settings"></a>組織全体のアプリ設定を管理する
 
 組織全体のアプリ設定を使用して、ユーザーがサードパーティ製アプリをインストールできるかどうか、およびユーザーが組織内のカスタム アプリをアップロードまたは操作できるかどうかを制御します。 組織全体のアプリ設定は、すべてのユーザーの動作を管理し、ユーザーに割り当てられた他のアプリ権限ポリシーを上書きします。 それらを使用して、悪意のあるアプリや問題のあるアプリを制御できます。
 
 > [!NOTE]
-> Teams の Microsoft 365 Government - Government Community Cloud High GCCH および国防総省 (DoD) デプロイで組織全体のアプリ設定を使用する方法については、「Teams でアプリのアクセス許可ポリシーを管理する」[を参照してください](teams-app-permission-policies.md)。
+> Teams の Microsoft 365 Government - Government Community Cloud High GCCH および国防総省 (DoD) デプロイで組織全体のアプリ設定を使用する方法については、「Teams でアプリのアクセス許可ポリシーを管理する」[を参照](teams-app-permission-policies.md)してください。
 
 1. [アプリの管理] ページで、[組織全体の **アプリ設定] を選択します**。 次に、パネルで必要な設定を構成できます。
 
@@ -155,7 +175,7 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[Team
 3. [ **カスタム アプリ] で**、カスタム アプリとの対話を許可 **するをオフまたはオンにします**。 この設定は、ユーザーがカスタム アプリを操作できるかどうかを制御します。 詳細については、「[Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)」をご覧ください。
 4. 組織全体 **のアプリ** 設定を有効にするには、[保存] を選択します。
 
-## <a name="view-security-and-compliance-information-for-microsoft-365-certified-apps"></a>認定アプリのセキュリティとコンプライアンス情報Microsoft 365表示する
+## <a name="view-security-and-compliance-information-for-microsoft-365-certified-apps"></a>認定アプリのセキュリティとコンプライアンスに関Microsoft 365表示する
 
 管理者は、組織のアプリを評価するときに、Microsoft Cloud App Security (MCAS) などの独立した Cloud Access Security Brokers (CASB) を使用して、アプリのセキュリティと動作に関する情報を検索できます。 Teams センターには、Microsoft 365 認定アプリの MCAS のセキュリティとコンプライアンスに関する情報が含まれるので、アプリがニーズを満たしたかどうかに関する詳細が表示されます。
 
@@ -164,8 +184,8 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[Team
 
 MCAS 情報にアクセスするには、次の手順に従います。
 
-1. [Teams 管理センターで、[アプリの管理]**の [アプリの** 管理 **Teams選択します**。
-1. **[Certification]** を選択してアプリを並べ替え、Microsoft 365認定アプリをテーブルの一番上にプッシュします。
+1. 管理センター Teams、[アプリの管理]**の [アプリの** 管理]**をTeamsします**。
+1. **[Certification]** を選択して、アプリを並べ替えMicrosoft 365すべてのアプリをテーブルの一番上にプッシュします。
 1. 認定アプリMicrosoft 365選択します。
 1. [セキュリティと **コンプライアンス] タブを選択** します。
 

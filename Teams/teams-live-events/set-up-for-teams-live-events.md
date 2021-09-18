@@ -20,12 +20,12 @@ description: Teams でライブ イベントをセットアップします。こ
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 261bea1f2abbe4194d0906078977bf870581d31c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f33490fdccbb67a000278d1e9085b0305204c8f5
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726716"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432329"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -85,7 +85,7 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
    >[!Note]
    > Microsoft Stream の使用から [会議の記録用の OneDrive for Business および SharePoint ](../tmr-meeting-recording-change.md)への変更は段階的なアプローチになります。 リリース時には、この機能にオプトインできるようになります。Stream を使い続けるには、11 月にオプトアウトする必要があります。また、2021 年初頭には、すべてのお客様に、新しい会議の記録に OneDrive と SharePoint を使用するように要請する予定です。 ユーザーが Stream にアクセスできるよう、[**ユーザーにライセンスを割り当てる方法**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC)をご確認ください。 Stream がそのユーザーに対してブロックされていないことを、[**この記事**](/stream/disable-user-organization)の定義に従って確認します。
 
-2. Stream で、ユーザーにライブ イベント作成の許可が割り当てられるようにします。 既定では、管理者は外部アプリまたはデバイスでイベントを作成できます。 Stream 管理者は、Stream で[ライブ イベントの作成を許可する他のユーザーを追加](/stream/live-event-administration#enabling-and-restricting-users-to-creating)できます。
+2. Stream で、ユーザーにライブ イベント作成の許可が割り当てられるようにします。 既定では、管理者は外部アプリまたはデバイスでイベントを作成できます。 Stream 管理者は、Stream で[ライブ イベントの作成を許可する他のユーザーを追加](/stream/live-event-administration#restrict-who-can-create-events)できます。
 
 3. Stream 管理者によって設定されている会社のポリシーにライブ イベントの開催者が同意していることを確認します。Stream 管理者が[会社のガイドライン ポリシーを設定](/stream/company-policy-and-consent)し、そのポリシーに同意してからでなければ従業員がコンテンツを保存できないようにしている場合、ユーザーは Teams で (外部アプリまたはデバイスを使用して) ライブ イベントを作成する前に、ポリシーに同意する必要があります。 組織でライブ イベント機能を展開する前に、このようなライブ イベントを作成するユーザーがポリシーに同意していることを確認してください。
 

@@ -18,19 +18,19 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
-description: モバイル ブラウザーでの仮想アクセスTeamsの参加エクスペリエンスについて説明します。
-ms.openlocfilehash: 4017947d53078b33ce2a4195a6ace9af92adc85c
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+description: モバイル ブラウザーでの仮想アクセスのTeamsについて説明します。
+ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58936147"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432689"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>モバイル ブラウザーで仮想アクセスTeamsの参加エクスペリエンスを管理する
 
-Microsoft Teamsをダウンロードすることなく、ユーザーがモバイル デバイスで簡単に予定に参加Teams。 よりシームレスなエクスペリエンスを実現するには、出席者はモバイル ブラウザーから医療訪問、財務相談、教育者のオフィス時間などの予定に参加できます。 出席者は、Android または iOS モバイル Teamsアプリをインストールする必要があります。
+Microsoft Teamsをダウンロードすることなく、モバイル デバイスで簡単に予定に参加Teams。 よりシームレスなエクスペリエンスを実現するには、出席者はモバイル ブラウザーから医療訪問、財務相談、教育者のオフィス時間などの予定に参加できます。 出席者は、Android または iOS モバイル Teamsアプリをインストールする必要があります。
 
-モバイル ブラウザー参加では、出席者がモバイル デバイスから予定に参加すると、モバイル デバイスから予定をダウンロードTeams。 代わりに、Teamsブラウザーで [今すぐ参加] を選択して参加できます。 この機能では、Teams が出席者のモバイル デバイスに既にインストールされている場合、Teams はアプリではなくモバイル ブラウザーで開きます。
+モバイル ブラウザーに参加すると、出席者がモバイル デバイスから予定に参加すると、ユーザーはモバイル デバイスをダウンロードTeams。 代わりに、Teamsブラウザーで [今すぐ参加] を選択して参加できます。 この機能では、Teams が出席者のモバイル デバイスに既にインストールされている場合、Teams はアプリではなくモバイル ブラウザーで開きます。
 
 現在、モバイル ブラウザーの参加は、次の予定を通じてスケジュールされている予定で使用できます。
 
@@ -47,7 +47,7 @@ Microsoft Teamsをダウンロードすることなく、ユーザーがモバ�
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>予定の種類に対してモバイル ブラウザー参加を有効にする
 
-[Bookings] で、[予定の種類 **設定]** に移動し、予定の種類 を選択し、[モバイル ブラウザーから出席者の参加を許可する  >  ]**をオンにします**。 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) これにより、この種類のすべての予定に対してモバイル ブラウザーに参加できます。
+[Bookings] で、[予定の種類 **設定]** に移動し、予定の種類 を選択し、[モバイル ブラウザーから出席者の参加を許可する]  >  **をオンにします**。 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) これにより、この種類のすべての予定に対してモバイル ブラウザーに参加できます。
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings アプリの予定の種類の [モバイル ブラウザーから出席者の参加を許可する] 設定のスクリーンショット":::
 
@@ -57,11 +57,11 @@ Microsoft Teamsをダウンロードすることなく、ユーザーがモバ�
 
 :::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Bookings アプリの新しい予約フォームの [モバイル ブラウザーから出席者の参加を許可する] 設定のスクリーンショット":::
 
-### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>EHR コネクタでスケジュールTeams予定
+### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>EHR コネクタを介してTeams予定
 
 セットアップは、ユーザーまたはスタッフが必要とします。
 
-新Teams EHR コネクタは、MyChart Web とモバイルを介して仮想訪問に参加する患者をサポートします。 予約の時点で、患者は [仮想訪問の開始] ボタンを使用して、MyChart から仮想訪問 **を開始** できます。 患者が必要なブラウザーを選択し、そのTeams開きます。
+EHR コネクタTeams、MyChart Web とモバイルを介して仮想訪問に参加する患者をサポートします。 予約の時点で、患者は [仮想訪問の開始] ボタンを使用して、MyChart から仮想訪問 **を開始** できます。 患者は必要なブラウザーを選択し、そのTeams開きます。
 
 ## <a name="supported-mobile-browsers"></a>サポートされているモバイル ブラウザー
 
@@ -78,11 +78,11 @@ Microsoft Teamsをダウンロードすることなく、ユーザーがモバ�
 &sup2;送信ビデオのサポートには、Safari 14+ と macOS 11+ が必要です。
 
 > [!NOTE]
-> Teams の今後のリリースでは、会議参加エクスペリエンスにさらに機能が追加されます。そのため、最新の情報を確認してください。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
+> Teams の今後のリリースでは、会議参加エクスペリエンスにさらに機能を追加する予定なので、最新の情報を確認してください。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
 
 ## <a name="related-articles"></a>関連記事
 
-- [Bookings アプリTeams仮想アクセス](../bookings-app-admin.md)
+- [Bookings アプリTeams仮想アクセス](bookings-virtual-visits.md)
 - [Bookings の予定の種類を作成する](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Bookings の予定に出席者として参加する](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 - [Teams での仮想アクセス - EHR への統合](healthcare/ehr-admin.md)
