@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a089b94cdb8d5568fe864a91e2c98ef26ecc9b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631981"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432539"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>クイック スタート - 会議、ウェビナー、ライブ イベント 
 
@@ -156,8 +156,7 @@ Teams で提供されるアプリを使用し、認定されたサード パー�
 | 記事 | 説明 | 
 |----------|--------|
 | [アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md) | アプリの概要と、組織のアプリを展開する方法。 |
-| [Teams 会議用アプリ](/platform/apps-in-teams-meetings/teams-apps-in-meetings.md) | 会議アプリの拡張性、API リファレンス、および会議用にアプリを有効にして構成する方法の概要。 |
-| [Teams 会議用アプリの詳細](/platform/apps-in-teams-meetings/teams-apps-in-meetings.md) | Teams 会議で使用できるアプリへのリンクが含まれています。 |
+| [Teams 会議のアプリ](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | 会議アプリの拡張性、API リファレンス、および会議用にアプリを有効にして構成する方法の概要。 |
 | [Teams でホワイトボードを管理する](manage-whiteboard.md) | ホワイトボードの機能と、組織で有効または無効にする方法について説明します。 |
 ||
 

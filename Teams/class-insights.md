@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec523475d109c5658a3e30d679b2f06425e4ced8
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: cc920db842d37129a122ed69a8816e66a4c16d9e
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866409"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432449"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -133,6 +133,7 @@ Insights は、教職員に関するデータを表示 *しません*。 デー�
 | **ファイル** |   ファイル (ファイル コンテンツを含まない) のアップロード、ダウンロード、アクセス、変更、コメント添付、共有。|
 | **OneNote Class Notebook** |  ノートブックのページまたはセクションの編集 (ページ コンテンツは含まれません)。|
 | **会議** |    出席 (会議コンテンツを含まない)。|
+| **[音読みの進行状況](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    精度率、最も困難な単語、および 1 分あたりの単語数。  |
 | **[Reflect](reflect.md)** |   チェックイン (値を含む)。|
 
 > [!NOTE]

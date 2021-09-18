@@ -901,6 +901,8 @@ items:
             href: shared-line-appearance.md
           - name: ダイヤルパッドの構成
             href: dial-pad-configuration.md
+          - name: 保留中の音楽
+            href: music-on-hold.md
       - name: PSTN 接続のオプション
         items:
           - name: 概要
@@ -1000,33 +1002,39 @@ items:
       - name: 電話番号
         items:
           - name: 組織のために電話番号を管理する
-            href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-          - name: 通話プランで使用される電話番号の種類
-            href: different-kinds-of-phone-numbers-used-for-calling-plans.md
-          - name: ユーザー用の電話番号を取得する
-            href: getting-phone-numbers-for-your-users.md
+            href: manage-phone-numbers-landing-page.md
           - name: 取得できる電話番号の数について
             href: how-many-phone-numbers-can-you-get.md
           - name: ユーザーの電話番号を検索する
             href: search-for-phone-numbers-for-users.md
           - name: 組織の電話番号のリストを表示する
             href: see-a-list-of-phone-numbers-in-your-organization.md
-          - name: ユーザーの電話番号を割り当て、変更、または削除する
-            href: assign-change-or-remove-a-phone-number-for-a-user.md
-          - name: サービス電話番号を取得する
-            href: getting-service-phone-numbers.md
-          - name: 電話番号の転送
+          - name: 通話プランの電話番号を管理する
             items:
-              - name: 番号移行注文について
-                href: phone-number-calling-plans/port-order-overview.md
-              - name: Teams に電話番号を転送する
-                href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-              - name: 手動で番号移行注文を送信する
-                href: phone-number-calling-plans/manually-submit-port-order.md
-              - name: 番号移行注文の状況
-                href: phone-number-calling-plans/port-order-status.md
-          - name: サポートされているレート センターとカバレッジ
-            href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+              - name: 概要
+                href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
+              - name: ユーザー用の電話番号を取得する
+                href: getting-phone-numbers-for-your-users.md
+              - name: ユーザーの電話番号を割り当て、変更、または削除する
+                href: assign-change-or-remove-a-phone-number-for-a-user.md
+              - name: サービスの電話番号を取得する
+                href: getting-service-phone-numbers.md
+              - name: 電話番号の転送
+                items:
+                  - name: 番号移行注文について
+                    href: phone-number-calling-plans/port-order-overview.md
+                  - name: Teams に電話番号を転送する
+                    href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+                  - name: 手動で番号移行注文を送信する
+                    href: phone-number-calling-plans/manually-submit-port-order.md
+                  - name: 番号移行注文の状況
+                    href: phone-number-calling-plans/port-order-status.md
+              - name: サポートされているレート センターとカバレッジ
+                href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+          - name: オペレーター接続の電話番号を管理する
+            href: operator-connect-configure.md#set-up-phone-numbers
+          - name: ダイレクト ルーティングの電話番号を管理する
+            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
       - name: 音声ルーティング
         items:
           - name: ダイヤル プランについて

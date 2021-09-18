@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Teams で会議ポリシーの設定を管理する方法について説明します。また、会議ポリシーの設定を使用して、ユーザーがスケジュールした会議の参加者に対して利用できる機能を制御します。
-ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 92df4086252eb27c47615daafad0179f4c505d95
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728426"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432319"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Teams での会議ポリシーを管理する
 
@@ -547,7 +547,7 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 - パラメーターを **TeamsAndSfB** に設定すると、Outlook の Teams 会議アドインと Skype for Business アドインの両方が有効になります。 これが既定値です。
 - パラメーターを **Teams** に設定すると、Outlook の Teams 会議アドインのみが有効になります。 このポリシー設定では、今後のすべての会議にTeams の会議への参加リンクがあることが確実になります。 既存の Skype for Business 会議の参加リンクはTeams には移行されません。 このポリシー設定は、ユーザーが Skype for Business への参加、チャット、PSTN 通話、その他の機能を使用することに影響を与えません。ユーザーが Skype for Business の機能を引き続き使用できることを意味します。
 
-  パラメーターを **Teams** に設定し、**の TeamsAndSfB** に戻すと、両方の会議アドインが有効になります。 既存の Teams 会議の参加リンクは、Skype for Business に移行 **されません**。 変更の後にスケジュールされた Skype for Business の会議のみが、Skype for Business の会議参加リンクを持つようになります。
+パラメーターを **Teams** に設定し、**の TeamsAndSfB** に戻すと、両方の会議アドインが有効になります。 既存の Teams 会議の参加リンクは、Skype for Business に移行 **されません**。 変更の後にスケジュールされた Skype for Business の会議のみが、Skype for Business の会議参加リンクを持つようになります。
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>会議ポリシーの設定-ビデオ フィルター モード
 
@@ -581,3 +581,4 @@ AllowMeetingReactions 設定は、PowerShell を使用してのみ適用でき�
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
 - [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
 - [ユーザーから RestrictedAnonymousAccess Teams 会議ポリシーを削除する](meeting-policies-restricted-anonymous-access.md)
+- [Microsoft Teams でのウェビナーのセットアップ](set-up-webinars.md)
