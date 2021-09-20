@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: d38adf5e1f5d363cb04aa9eb43109ca2ed394a65
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 55edb015df6e0faf77eb644246677f637b7bace7
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725976"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456557"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>会議の電話会議を設定Skype for Business
 
@@ -47,17 +47,17 @@ ms.locfileid: "58725976"
  
 ## <a name="step-2-get-and-assign-licenses"></a>手順 2: ライセンスを取得して割り当てる
  
-1. 電話会議では、ダイヤルイン会議をセットアップするユーザーごとにライセンスが必要です。 電話会議用に購入する必要があるライセンスと、その料金については、追加機能のライセンスに関するページSkype for Business[を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+1. 電話会議では、ダイヤルイン会議をセットアップするユーザーごとにライセンスが必要です。 電話会議で購入する必要があるライセンスと、その料金については、「アドオン ライセンスのSkype for Business[を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
     >[!NOTE] 
     > 電話会議は Office 365 Enterprise E5 ライセンスにアドオンとして含まれています。
         
-2. 電話会議ライセンスを購入した後は、それらのライセンスを、会議を計画または開催しようとしている組織内のユーザーに割り当てる必要があります。 「[会議をスケジュールまたは](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)開催Microsoft 365 Apps for business組織内のユーザーに購入したユーザーのライセンスを割り当てるまたは削除する」を参照してください。
+2. 電話会議ライセンスを購入した後は、それらのライセンスを、会議を計画または開催しようとしている組織内のユーザーに割り当てる必要があります。 「[会議のスケジュールを設定または開催Microsoft 365 Apps for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)組織内のユーザーに購入したユーザーのライセンスを割り当てるまたは削除する」を参照してください。
     
 3. また、前の手順でライセンスを割り当てた同じユーザーに、コミュニケーション クレジット ライセンス (費用はかかりません) を割り当てることをおすすめします。 コミュニケーション クレジットのセットアップ方法については、「[組織向けにコミュニケーション クレジットをセットアップする](/microsoftteams/set-up-communications-credits-for-your-organization)」を参照してください。
     
-> [!NOTE]
-> [分毎課金の電話会議](/microsoftteams/audio-conferencing-pay-per-minute)をセットアップすることもできます。
+   > [!NOTE]
+   > [分毎課金の電話会議](/microsoftteams/audio-conferencing-pay-per-minute)をセットアップすることもできます。
 
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>手順 3: 会議ブリッジのサービス番号を取得する
 <a name="__top"> </a>
@@ -92,12 +92,12 @@ ms.locfileid: "58725976"
 
 ![ロゴのアイコンMicrosoft Teams表示されます。](../images/teams-logo-30x30.png) **管理センター Microsoft Teams使用する**:
 
-1. ダッシュボードから **[会議]** > **[会議ブリッジ]** の順に開きます。
+1. [ホーム] から [会議会議 **ブリッジ]**  >  **に移動します**。
 2. 会議ブリッジ電話番号を選択して **[編集]** をクリックし、既定の言語を選択します。
 
 ![ロゴのアイコンSkype for Business表示されます。](../images/sfb-logo-30x30.png) **管理センター Skype for Business使用する**:
 
-1. 従来のポータルで管理センター>**管理**  >  **センター Teams**  >  **移動します**。
+1. [管理センター] に移動し、[>**ポータル] Teams**  >    >  **管理センターに移動します**。
 2. [電話 **会議 Microsoft**  >  **Bridge] を選択します**。 
 3. 会議ブリッジの電話番号を選択し、[ **言語の設定**] を選択して、既定の言語を選択します。
 
@@ -108,7 +108,7 @@ ms.locfileid: "58725976"
 
 ![ロゴのアイコンMicrosoft Teams表示されます。](../images/teams-logo-30x30.png) **管理センター Microsoft Teams使用する**:
 
-1. ダッシュボードから **[会議]** > **[会議ブリッジ]** の順に開きます。
+1. [ホーム] から [会議会議 **ブリッジ]**  >  **に移動します**。
 2. **[ブリッジの設定]** を選択します。 [**ブリッジの設定**] ウィンドウが開きます。 
 
 詳細については、[電話会議ブリッジの設定を変更する](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) を参照してください。
@@ -128,7 +128,7 @@ ms.locfileid: "58725976"
 
 ![ロゴのアイコンMicrosoft Teams表示されます。](../images/teams-logo-30x30.png) **管理センター Microsoft Teams使用する**:
 
-1. ダッシュボードから **[ユーザー]** をクリックし、リストからユーザーを選択して **[編集]** を選択します。
+1. [ホーム] で [ **ユーザー] をクリック** し、一覧からユーザーを選択し、[編集] を **選択します**。
 2. **[電話会議]** の次にある **[編集]** をクリックしてから **[電話会議]** ウィンドウで **[有料番号]** と **[無料番号]** の番号リストから、番号を選択します。
 
 ![ロゴのアイコンSkype for Business表示されます。](../images/sfb-logo-30x30.png) **管理センター Skype for Business使用します。**

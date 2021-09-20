@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f41f1caf5956134c46ad16fceca41843e5edb9de
-ms.sourcegitcommit: 5712b5583f9b6e151f00f003a8fbea7ead07b09c
+ms.openlocfilehash: 6d8f04eebbd1123bf753c221e49a2b523d91ff43
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "58941834"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456397"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
 > [!NOTE]
-> Teams 会議の記録をクラシック ストリームから OneDrive および SharePoint (ODSP) に保存する変更は、2020 年 8 月 30 日の現在で完了しています。 すべての録音が ODSP に格納されます。 この変更は RecordingStorageMode ポリシーをオーバーライドし、PowerShell で設定を変更すると影響がなくなりました。
+> Teams 会議の記録をクラシック ストリームから OneDrive および SharePoint (ODSP) に保存する変更は、2021 年 8 月 30 日の現在で完了しています。 すべての録音が ODSP に格納されます。 この変更は RecordingStorageMode ポリシーをオーバーライドし、PowerShell で設定を変更すると影響がなくなりました。
 
 |日付&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|イベント&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -122,7 +122,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |アドホック/スケジュールされた会議                    |その他の会議メンバー   |レコードをクリックした会議メンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 <br /><br />開催者は編集の権利を持ち、共有できます。<br /><br /> 他のすべての会議メンバーは読み取りアクセス権を持ちます。|
 |外部ユーザーとのアドホック/予定された会議|開催者              |開催者の OneDrive for Business アカウントです。                     |開催者は記録に対して完全な権限を持ちます。<br /> <br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br /> 他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
 |外部ユーザーとのアドホック/予定された会議|その他の会議メンバー   |レコードをクリックしたメンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 開催者は編集の権利を持ち、共有できます。 <br /><br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br />他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
-|チャネル会議                            |チャネル メンバー         |Teams SharePointの場所を指定します。 **注**: IP ベースの制限では、SharePointへのチャネル会議記録のアップロードはサポートされていません。 Azure 条件付きアクセス [を使用することをお勧めします](/azure/active-directory/conditional-access/overview)。 |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
+|チャネル会議                            |チャネル メンバー         |Teams SharePointの場所を指定します。 **注**: IP ベースの制限では、SharePointへのチャネル会議の記録アップロードはサポートされていません。 Azure 条件付きアクセス [を使用することをお勧めします](/azure/active-directory/conditional-access/overview)。 |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
@@ -180,7 +180,7 @@ Teams 会議の記録ファイルは、OneDrive for Business と SharePoint の�
 
 Stream は、近い将来プラットフォームとして廃止の予定はありません。 現在、Stream に存在するビデオは、移行を開始するまで残っています。 移行すると、これらのビデオも OneDrive for Business または SharePoint に移行されます。 詳細については、「[Stream クラシックの移行](/stream/streamnew/classic-migration)」を参照してください。
 
-**会議の記録にアイテム保持ラベルをMicrosoft Teamsする方法**
+**会議のレコーディングにアイテム保持ラベルをMicrosoft Teamsする方法**
 
 「[保持ラベルを自動適用する方法](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)」を参照してください。
 
@@ -188,6 +188,6 @@ Stream は、近い将来プラットフォームとして廃止の予定はあ�
 
 「[どのポリシーが優先されますか?](./assign-policies.md#which-policy-takes-precedence)」を参照してください。
 
-**ユーザーが容量または容量を持OneDrive for Business、またはSharePointクォータが満たされている場合、記録はどこに移動しますか。**
+**ユーザーが容量または容量を持OneDrive for Business、またはSharePointクォータが満たされている場合、記録はどこに行くのですか?**
 
 記録は、21 日間保持される一時的な保存場所に保存されます。 その間、開催者はレコーディングをダウンロードする必要があります。 21 日以内にダウンロードされない場合、記録は削除されます。

@@ -17,18 +17,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams for Education ポリシー ウィザードを使用して、学生や教育者向けのポリシーを簡単に適用して、学習環境を安全に保つ方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cafe6e9725f8b365601d3d9152187b546cf2205a
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733866"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456327"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>セキュリティ ポリシー ウィザードMicrosoft Teams for Education使用して、安全な学習環境にポリシーを簡単に適用する
 
 ## <a name="overview"></a>概要
 
-このMicrosoft Teams for Education ウィザードを使用すると、学生と教師のポリシーの管理が簡単にできます。 安全で生産的な学習エクスペリエンスの作成に関連する最も重要なポリシー セットを簡単かつ迅速に適用するために使用します。
+このMicrosoft Teams for Education ウィザードを使用すると、学生と教師のポリシーの管理が簡略化されます。 安全で生産的な学習エクスペリエンスの作成に関連する最も重要なポリシー セットを簡単かつ迅速に適用するために使用します。
 
 ポリシーを使用Teams環境でのTeamsの動作と、ユーザーが使用できる機能を制御できます。 たとえば、通話ポリシー、会議ポリシー、メッセージング ポリシーなど、いくつかの名前を付けることができます。各ポリシー領域は、組織のニーズに合わせてカスタマイズできます。
 
@@ -41,7 +41,7 @@ ms.locfileid: "58733866"
 この記事では、ウィザードを実行する方法について手順を示します。
 
 > [!IMPORTANT]
-> ウィザードによって適用されるポリシーは、顧客の大半のニーズをMicrosoft Teams for Educationします。 ウィザードは、学生の安全のために推奨される設定を使用して、ポリシーのコア セットのグローバル (組織全体の既定) 定義を調整し、それを学生に適用します。 ウィザードでは、一連のカスタム ポリシーも作成され、教師とスタッフに割り当てされます。 ほとんどのMicrosoft Teams for Education、このウィザードの実行後に他のポリシー割り当て方法を使用する必要がなされません。 他のポリシー割り当て方法は、学生、教師、スタッフのポリシーを手動で作成および管理する場合にのみ使用します。
+> ウィザードによって適用されるポリシーは、顧客の大半のニーズをMicrosoft Teams for Educationします。 ウィザードは、学生の安全のために推奨される設定を使用して、ポリシーのコア セットのグローバル (組織全体の既定) 定義を調整し、それを学生に適用します。 ウィザードでは、一連のカスタム ポリシーも作成され、教師とスタッフに割り当てされます。 ほとんどのMicrosoft Teams for Education、このウィザードの実行後に他のポリシー割り当て方法を使用する必要が生じます。 他のポリシー割り当て方法は、学生、教師、スタッフのポリシーを手動で作成および管理する場合にのみ使用します。
 
 ## <a name="teams-for-education-policy-wizard"></a>Microsoft Teams for Educationポリシー ウィザード
 
@@ -69,7 +69,7 @@ ms.locfileid: "58733866"
 
 ウィザードを実行するには、次の手順に従います。
 
-1. 新しいウィザードを使用する場合Teamsウィザードが自動的に起動します。 それ以外の場合は、ダッシュボードからいつでもウィザードを開始できます。 Microsoft Teams 管理センターの左側のナビゲーションで、[ダッシュボード] に移動し、[安全な学習環境の簡単なポリシー設定] タイルで、[クイック セットアップ]**を選択します**。
+1. 新しいアプリケーションを使用する場合Teamsウィザードが自動的に起動します。 それ以外の場合は、ダッシュボードからいつでもウィザードを開始できます。 Microsoft Teams 管理センターの左側のナビゲーションで、[ホーム] に移動し、[安全な学習環境の簡単なポリシー設定] タイルで、[クイック セットアップ]**を選択します**。
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="ダッシュボードのウィザードのスクリーンショット。":::
 
@@ -131,7 +131,7 @@ ms.locfileid: "58733866"
 
 ウィザードは、これらのポリシーを自動的に [調整して適用します](#policies-applied-by-the-wizard)。 安全を保つには、機関のニーズに基づいて実行する必要がある追加の対策がいくつかある場合があります。
 
-その他[の安全に関する推奨事項については、「Teamsを](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)使用しながら学生を安全に保つ」を参照してください。
+その[他の安全に関する推奨事項については、「Teams](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)を使用しながら学生を安全に保つ」を参照してください。
 
 <a name="polwiz_mc"> </a>
 
@@ -147,7 +147,7 @@ ms.locfileid: "58733866"
 
 ウィザードの実行後に変更を加える必要がある場合は、ウィザードを再実行して選択内容を変更できます。
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[ダッシュボード] に移動し、[安全な学習環境の簡単なポリシー設定] タイルで、[変更] を選択 **します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[ホーム] に移動し、[安全な学習環境の簡単なポリシー設定] タイルで、[変更] を選択 **します**。
 2. ここから、ウィザードの各ページに進み、変更を加えます。 教育機関の種類、ポリシーを割り当てる教師とスタッフのグループ、または両方を変更できます。
 
 次の表に、ウィザードで変更を行った場合の結果を示します。
@@ -230,7 +230,7 @@ ms.locfileid: "58733866"
 |ライブ イベント ポリシー  |       |スケジュールを許可         |オフ         |オフ|
 |  |       |出席者の議事録作成を許可する          |オン       |オン|
 |  |       |スケジュールされたライブ イベントに参加できるユーザー        |組織内のすべてのユーザー        |組織内のすべてのユーザー|
-|  |       |Whoイベントを記録できる         |いつも         |いつも|
+|  |       |Whoを記録できる         |いつも         |いつも|
 |メッセージング ポリシー  |       |所有者が送信したメッセージを削除できます         |オフ|オン|
 |  |       |送信済みメッセージを削除する         |オフ         |オン|
 |  |       |送信済みメッセージを編集する         |オフ         |オン|
@@ -247,7 +247,7 @@ ms.locfileid: "58733866"
 |  |       |音声メッセージを作成する         |チャットとチャネルで許可         |チャットとチャネルで許可|
 |  |       |モバイル デバイスでは、最近のチャットの上に、お気に入りのチャネルを表示する     |有効         |有効|
 |  |       |グループ チャットからユーザーを削除する         |オフ         |オン|
-|アプリのアクセス許可ポリシー  |       |Microsoft アプリ         |特定のアプリをブロックし、Walkie Talkie がブロック>他のすべてのアプリを許可する         |すべてのアプリを許可する|
+|アプリのアクセス許可ポリシー  |       |Microsoft アプリ         |特定のアプリをブロックし、他のすべてのアプリを Walkie Talkie >許可する         |すべてのアプリを許可する|
 |  |       |サード パーティ製アプリ         |すべてのアプリを許可する         |すべてのアプリを許可する|
 |  |       |カスタム アプリ         |すべてのアプリを許可する         |すべてのアプリを許可する|
 |アプリセットアップ ポリシー  |           |アップロード アプリを作成する           |オフ         |オフ|
@@ -333,4 +333,4 @@ ms.locfileid: "58733866"
 
 - [教育機関向け Teams ポリシーおよびポリシー パッケージ](policy-packages-edu.md)
 - [学校の大規模なユーザーにポリシーを割り当てる](batch-group-policy-assignment-edu.md)
-- [距離学習に学習を利用Teams学生を安全に保つ](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [距離学習に関するTeams学生の安全を確保する](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)

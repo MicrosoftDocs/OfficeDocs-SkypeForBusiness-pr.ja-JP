@@ -13,18 +13,18 @@ ms.collection:
 description: PowerShell コントロールを使用して Microsoft Teams を管理する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3a1bb503ca759835f34220aa8a963f162b73f36d879d4cf3e8a6321e6f5775e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e878acddd27044ecb57d33c76c1af755eaa7c5d8
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328922"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456547"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft Teams PowerShell の概要
 
-Microsoft TeamsPowerShell モジュールは、PowerShell コマンド ラインから直接Teams管理するための一連のコマンドレットです。 PowerShell には、ワークロードの管理に利用できる自動化のための強力なTeamsがあります。  
+Microsoft TeamsPowerShell モジュールは、PowerShell コマンド ラインから直接Teams管理するためのコマンドレットのセットです。 PowerShell には、ワークロードの管理に利用できる自動化のための強力なTeamsがあります。  
 
-次のいずれかの方法Microsoft Teams PowerShell モジュールを使用できます。 
+次のいずれかの方法をMicrosoft Teams PowerShell モジュールを使用できます。 
 
 - [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)ギャラリー Microsoft Teams PowerShell モジュールをインストールします (推奨オプション)。 
 - 手動ダウンロード をMicrosoft Teams PowerShell モジュールを[インストールします](https://www.powershellgallery.com/packages/MicrosoftTeams)。 
@@ -39,7 +39,7 @@ PowerShell Microsoft Teamsには、次の機能が含まれています。
 
 ##  <a name="data-collection"></a>データ収集 
 
-Microsoft TeamsPowerShell モジュールの既定の設定は、テレメトリ データを収集します。 Microsoft では、収集されたデータを集計して、使用率のパターンと、成功率の低いコマンドレットなどの一般的な問題を特定し、PowerShell エクスペリエンスを向上させるために作業を優先Teamsします。 Microsoft TeamsPowerShell モジュールは、個人データまたは個人データを収集しない。  
+Microsoft TeamsPowerShell モジュールの既定の設定は、テレメトリ データを収集します。 Microsoft では、収集されたデータを集計して、使用率のパターンと、成功率の低いコマンドレットなどの一般的な問題を特定し、Teams PowerShell エクスペリエンスの向上に取り組む作業を優先します。 Microsoft TeamsPowerShell モジュールは、個人データまたは個人データを収集しない。 詳細については、Microsoft のプライバシーに関する声明 [を参照してください](https://privacy.microsoft.com/privacystatement)。
 
 ## <a name="related-topics"></a>関連トピック
 
