@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 910b36c0657e167f2581fc8b00ca4341a2e17a90
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: b53aa8cbb25c554ee321ef31cb1bf353a15157d9
+ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432519"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460666"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
@@ -150,6 +150,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
 |[Logitech Group](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
 |[Logitech PTZ Pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
 |[Logitech PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
+|[Logitech Scribe](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |
 |[Nureva HDL300](https://www.nureva.com/audio-conferencing/hdl300) |2.3.6|
 |[Poly EagleEye Cube カメラ](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
 |[Polycom EagleEye IV](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-iv)   |1.0.0   |
@@ -211,21 +212,21 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
 
 **Microsoft Teams Rooms の認定オーディオ周辺機器**
 
-|会議室の種類|ユーザー数|推奨されるマイクとスピーカーの最大間隔|会議室の最大サイズ別デバイス|注釈|
-|:-----|:-----|:-----|:-----|:-----|
-|**フォーカス** <br/> 10' x 9'   |2 ～ 4  |1.5 m  |Logitech Connect  |ロジクール Connect デバイスにはカメラが組み込まれているため、ローカルの会議出席者を撮影するには、(テーブルの中央ではなく) 会議室の正面に配置する必要があります。 |
-|**小規模** <br/> 16' x 16'  |4 ～ 6  |2.0 m  |Jabra 510 <br/> ゼンハイザー SP20  |これよりも大きい会議室では、再生音量が制限される場合があります。  |
-|**中規模** <br/> 18' x 20'  |6 ～ 12  |2.4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100 <br/> ゼンハイザー SP 220 MS <br/> ヤマハ YVC-1000MS  |Logitech Connect デバイスにはカメラが組み込まれているため、(ローカルの会議出席者を撮影するにはテーブルの中央ではなく) 会議室の正面に配置する必要があります。 <br/> 一般的に、長い長方形のテーブルまたは U 字型のテーブルが使用されている会議室では、サテライト マイクを使用すると役立ちます。 <br/> デイジーチェーン構成では SP 220 MS を使用する必要があります。  |
-|**大規模** <br/> 15' x 32'  |12 ～ 16  |3 m <br/> この間隔は、接続されている各サテライト マイクの対象エリアにも適用されます。  |Logitech Group + サテライト マイク <br/> Polycom Trio+ サテライト マイク <br/> Polycom CX5100 + サテライト マイク <br/> ゼンハイザー SP 220 MS <br/> ヤマハ YVC-1000MS + サテライト マイク  |この行に記載されているすべてのオーディオ デバイスは、サテライト マイク オプションをサポートしています。 <br/> CX5100 には全方位カメラが内蔵されているため、このデバイスはテーブルの中央に配置できます。 <br/> デイジーチェーン構成では SP 220 MS を使用する必要があります。  |
+|会議室の種類|ユーザー数|推奨されるマイクとスピーカーの最大間隔|
+|:-----|:-----|:-----|
+|**フォーカス** <br/> 10' x 9'   |2 ～ 4  |1.5 m  |
+|**小規模** <br/> 16' x 16'  |4 ～ 6  |2.0 m  |
+|**中規模** <br/> 18' x 20'  |6 ～ 12  |2.4 m  |
+|**大規模** <br/> 15' x 32'  |12 ～ 16  |3 m <br/> この間隔は、接続されている各サテライト マイクの対象エリアにも適用されます。  |
 
 **Microsoft Teams Rooms の認定ビデオ周辺機器**
 
-|会議室の種類|ユーザー数|最適な会議室のサイズ別デバイス|注釈|
-|:-----|:-----|:-----|:-----|
-|**フォーカス** <br/> 10' x 9'  |2 ～ 4  |Logitech Connect <br/> Logitech MeetUp <br/> Polycom CX5100  ||
-|**小規模** <br/> 16' x 16'  |4 ～ 6  |Logitech C930e <br/> Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |多くの場合、Logitech PTZ Pro Logitech Group にバンドルされています。  |
-|**中規模** <br/> 18' x 20'  |6 ～ 12  |Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
-|**大規模** <br/> 15' x 32'  |12 ～ 16  |Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
+|会議室の種類|ユーザー数|
+|:-----|:-----|
+|**フォーカス** <br/> 10' x 9'  |2 ～ 4  |
+|**小規模** <br/> 16' x 16'  |4 ～ 6  |
+|**中規模** <br/> 18' x 20'  |6 ～ 12  |
+|**大規模** <br/> 15' x 32'  |12 ～ 16  |
 
  > [!NOTE]
  > 会議室正面のディスプレイの解像度は 1920x1080p 以下に設定してください。
