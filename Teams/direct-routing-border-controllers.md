@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: b02bd27f15b6db4fed2835513d043c7f6561a681
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432659"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456537"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
@@ -75,11 +75,11 @@ Microsoft は以下の各ベンダーと協力します。
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      3.20 サポート済み (4.0 推奨)        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (メディア バイパス向け 4.9)      | &#10004; | &#10004; |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 シリーズ向け Cisco Unified Border Element (CUBE) 統合サービス ルータ        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.3.2 推奨)         |    &#10004;     |   |  
-|                                   |     4000 シリーズ向け Cisco Unified Border Element (CUBE) 統合サービス ルータ        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r サポート済み (17.3.2 推奨)         |   &#10004;      |    |  
-|                                   |     1000V シリーズ向け Cisco Unified Border Element (CUBE) クラウド サービス ルータ       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.3.2 推奨)         |    &#10004;     |    |  
-|                                 |     1000 シリーズ向け Cisco Unified Border Element (CUBE) 集約サービス ルータ      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.3.2 推奨)         |    &#10004;     |    |
-|                                 |     Catalyst 8000 Edge プラットフォーム向け Cisco Unified Border Element (CUBE)      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    &#10004;     |    |
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 シリーズ向け Cisco Unified Border Element (CUBE) 統合サービス ルータ        |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.6.1a 推奨)         |    &#10004;     |   |  
+|                                   |     4000 シリーズ向け Cisco Unified Border Element (CUBE) 統合サービス ルータ        |     &#10004;   | &#10004; |   IOS XE Amsterdam 17.2.1r サポート済み (17.6.1a 推奨)         |   &#10004;      |    |  
+|                                   |     1000V シリーズ向け Cisco Unified Border Element (CUBE) クラウド サービス ルータ       |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.3.3 推奨)         |    &#10004;     |    |  
+|                                 |     1000 シリーズ向け Cisco Unified Border Element (CUBE) 集約サービス ルータ      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.2.1r サポート済み (17.6.1a 推奨)         |    &#10004;     |    |
+|                                 |     Catalyst 8000 Edge プラットフォーム向け Cisco Unified Border Element (CUBE)      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2 サポート済み (17.6.1a 推奨)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    エンタープライズ向け Avaya セッション ボーダー コントローラー (ASBCE)    |     &#10004;     |       &#10004;     |       8.1.1 のリリース (メディア バイパス向け 8.1.2)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    Nokia セッション ボーダー コントローラー    |     &#10004;     |           |       20.8       |      &#10004;        |    |

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727826"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456377"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams でのライフサイクル管理の計画
 
@@ -65,49 +65,7 @@ _チーム_ とは、人、コンテンツ、ツールを 1 つにまとめて�
 > [!Note]
 > チーム所有者およびチーム メンバーが実行できる機能の詳細については、「[Microsoft Teams で役割と権限を割り当てる](assign-roles-permissions.md)」の記事をご覧ください。
 
-Teams の管理者ロールにより、各管理者ロールを持っているユーザーの機能が決まります。 これらについては、次の表で説明されています。
-
-<table>
- <thead>
-  <tr>
-    <th width="0.5%"></th>
-    <th width="15.5%">役割&nbsp;&nbsp;</th>
-    <th width="25%">説明</th>
-    <th width="60%">記載どおりにツールを使用することにより、以下のタスクを実行することができます</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-    <td valign="top" colspan="2">Teams 管理者</td>
-    <td valign="top">Teams サービスの管理、および Microsoft 365 グループの作成と管理</td>
-    <td valign="top">会議の管理。会議ポリシー、構成、会議ブリッジ<sup>1</sup>なども含まれる<br><br>音声の管理。通話ポリシー、電話番号の在庫管理と割り当て、通話キュー、自動応答<sup>1</sup>なども含まれる<br><br>メッセージングの管理。メッセージング ポリシー<sup>1</sup>なども含まれる<br><br>組織全体にわたる設定の管理。フェデレーション、Teams のアップグレード、Teams クライアントの設定 <sup>1</sup>なども含まれる<br><br>組織内のチームおよびそれらの関連づけられた設定の管理。 メンバーシップ<sup>2</sup>なども含まれる<br><br>ユーザー プロファイル ページの表示と、高度なトラブルシューティング ツールセット<sup>3</sup>を使用したユーザーの通話品質に関する問題のトラブルシューティング</td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 通信管理者</td>
-<td valign="top">Microsoft Teams サービス内の通話および会議の機能の管理</td>
-<td valign="top">会議の管理。会議ポリシー、構成、会議ブリッジ<sup>1</sup>なども含まれる<br><br>音声の管理。通話ポリシー、電話番号の在庫管理と割り当て、通話キュー、自動応答<sup>1</sup>なども含まれる<br><br>ユーザー プロファイル ページの表示と、高度なトラブルシューティング ツールセット<sup>1</sup>を使用したユーザーの通話品質に関する問題のトラブルシューティング</td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 通信スペシャリスト</td>
-<td valign="top">基本的なツールを使用した Teams 内での通信に関する問題のトラブルシューティング</td>
-<td valign="top">通話分析での通話をトラブルシューティングするためのユーザー プロファイル ページへのアクセス。 検索されている特定のユーザーのユーザー情報のみを表示可能。<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 通信サポート エンジニア</td>
-<td valign="top">高度なツールを使用した Teams 内での通信に関する問題のトラブルシューティング</td>
-<td valign="top">通話分析での通話をトラブルシューティングするためのユーザー プロファイル ページへのアクセス。 完全な通話記録の情報を表示可能。<sup>3</sup></td>
-</tr>
-<tr>
-</tbody>
-<tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell - Skype for Business モジュール</a>または <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 管理センター</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell - Microsoft Teams モジュール</a>または <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 管理センター</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3"><a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 管理センター</a>のみ</td>
-</tr>
-</tfoot>
-</table>
-
+Teams の管理者ロールにより、各管理者ロールを持っているユーザーの機能が決まります。 これらについては、次の記事で説明しています: [Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md)。
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>使用開始する前に IT で実施する決定事項
 
