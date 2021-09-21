@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: 83ad01ef738cc8e68d0cfdf41ea082493eb7c7b1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa14fc3a59d893b152f96d31a20c46119f8a71f9
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603396"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456337"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
@@ -53,7 +53,7 @@ Teams でのゲスト アクセスには、Azure AD、Microsoft 365 グループ
 - 一般的な使用のためにチームのゲスト アクセスを構成する方法については、「 [チームでゲストと共同作業する](/microsoft-365/solutions/collaborate-as-team)」を参照してください。
 - Azure Active Directory を使用するパートナー組織とコラボレーションし、ゲストがチーム アクセスに自己登録できるようにするには、「[管理されたゲストで B2B エクストラネットを作成する](/microsoft-365/solutions/b2b-extranet)」を参照してください。
 
-Teams でのゲスト アクセスは組織全体の設定であり、既定ではオフになっています。 [機密ラベル](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)を使用して、個々のチームへのゲスト アクセスを制御できます。
+Teams でのゲスト アクセスは組織全体の設定であり、既定ではオンになっています。 [機密ラベル](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)を使用して、個々のチームへのゲスト アクセスを制御できます。
 
 ### <a name="turning-guest-access-off"></a>ゲスト アクセスをオフにする
 
