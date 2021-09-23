@@ -22,16 +22,14 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 新しい電話番号を取得し、電話会議、自動応答、通話キュー (サービス番号) の既存の番号をTeams。
-ms.openlocfilehash: 6a065c5661fc4b0a716d2aab31687e20645473fb
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: abb313a169c3f9b3626e219f64810e6333e6147b
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432499"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491727"
 ---
-# <a name="srvice-phone-numbers-for-calling-plans"></a>通話プランの Srvice 電話番号
-
-**レビュー担当者への注意: これは通話プランに固有のようです。[通話プラン] ノードの下に移動する必要がありますか。**
+# <a name="service-phone-numbers-for-calling-plans"></a>通話プランのサービス電話番号
 
 ユーザーの [電話番号](./getting-phone-numbers-for-your-users.md)を取得する以外に、電話会議 (電話会議ブリッジの場合)、自動応答、通話キュー (サービス番号とも呼ばれる) などのサービスの有料電話番号または無料電話番号を取得できます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。 たとえば、サービス番号は何百もの呼び出しを同時に処理できるのに対し、ユーザーの電話番号は数件の通話のみを同時に処理できます。
   
@@ -53,7 +51,7 @@ ms.locfileid: "59432499"
 
 新しいサービス番号を取得するには、管理センター Teamsします。
 
-1. 左側のナビゲーションで、[Voice電話  >  **に移動し**、[追加] を **クリックします**。
+1. 左側のナビゲーションで、[Voice電話  >  **番号] に移動し、[** 追加] を **クリックします**。
 
 2. 注文の名前を入力し、説明を追加します。
 
@@ -70,7 +68,7 @@ ms.locfileid: "59432499"
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>既存のサービス番号を移行または転送する
 
-現在のサービス プロバイダーまたは携帯電話会社から Teams に電話番号を転送するには、管理センターのMicrosoft Teams使用できます。 「電話番号をに転送[する」の手順にTeams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+現在のサービス プロバイダーまたは通信事業者から Teams に電話番号を転送するには、管理センターのMicrosoft Teams使用できます。 「電話番号をに転送[する」の手順にTeams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
 お客様の国または地域が移植ウィザードに表示されていない場合は、手動でポート[](phone-number-calling-plans/manually-submit-port-order.md)注文を送信するか、[組織の電話番号[](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)の管理] に移動して、お客様の国または地域を選択し、承認状 (LOA) をダウンロードできます。 LOA を使用して転送するサービス番号の種類 (有料と無料通話など) ごとに個別のポート注文を送信する必要があります。 LOA で、適切な種類のサービス番号を選択する必要があります。 サービス番号 (ユーザー番号またはサブスクライバー番号ではなく) を転送する場合、または同時呼び出し容量が呼び出しボリュームを処理するのに十分ではない可能性があります。  
 

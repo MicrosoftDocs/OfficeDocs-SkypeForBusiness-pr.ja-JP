@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsのハイブリッド接続Skype for Business計画します。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: ede3c000bf46cc5b3e1e2a181da2adc6dda93855
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 40d89076973e4667c41676684841e8c35c356396
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482401"
+ms.locfileid: "59491717"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>ハイブリッド接続を計画して、Skype for Business ServerとTeams
 
@@ -64,7 +64,7 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
 
 > [!Important]
 > - teamsOnly ではない Skype for Business Online にユーザーが参加している既存のハイブリッド組織では、できるだけ早くこれらのユーザーを Teams のみモードにアップグレードする必要があります。 組織に TeamsOnly ではない Skype for Business Online にユーザーがまだ所属している場合は、これらのユーザーを TeamsOnly に移行する Microsoft 支援アップグレードをスケジュールできます。 これは、オンプレミスのユーザーにSkype for Business Server影響を与える可能性はありません。 スケジュール通知は、これらのオンラインの TeamsOnly 以外のユーザーが Teams にアップグレードされる前に、Skype for Business Online にユーザーが参加しているハイブリッド顧客に事前に送信されます。
-> - すぐに、TeamsOnly 以外のモードをオンラインのユーザーに割り当てなくなりました。
+> - TeamsOnly 以外のモードをオンラインのユーザーに割り当てなくなりました。
 
 ## <a name="about-shared-sip-address-space-functionality"></a>共有 SIP アドレス空間の機能について
 

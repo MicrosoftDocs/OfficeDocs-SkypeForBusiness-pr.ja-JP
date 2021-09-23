@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: ハイブリッド接続を実装する手順は、Skype for Business ServerとTeams。
-ms.openlocfilehash: 67caabe77afb9f06dcf28f47a93f8eef06c08de8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 272166852ef86da6318aa5fa2908697a93d65e02
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624569"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491697"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>デバイスとデバイス間のハイブリッド接続Skype for Business Server構成Teams
 
@@ -36,8 +36,26 @@ ms.locfileid: "58624569"
   
 |手順|説明|
 |:-----|:-----|
-|ユーザーのテナント アカウントを作成Microsoft 365   <br/> |詳細については、「Microsoft 365」[を参照Microsoft 365。](https://go.microsoft.com/fwlink/p/?LinkId=254980)  <br/> 環境の準備が完了していることを確認するには、「システムMicrosoft 365」[を参照してください](https://products.office.com/office-system-requirements)。  <br/> ユーザー設定の詳細については、「Microsoft 365[の概要」を参照Microsoft 365。](https://go.microsoft.com/fwlink/p/?LinkId=254982)  <br/> |
-|ドメインを組織に追加Microsoft 365所有権を確認する  <br/> | ドメインを組織に追加しMicrosoft 365手順に従ってドメインを検証する必要Microsoft 365。 これは、自分がドメインの所有者である必要があります。 <br/> ドメインを組織の組織にMicrosoft 365するには、「ドメインを組織に追加する」で説明されている[手順に従](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US)Microsoft 365。  <br/> |
-|Active Directory 同期のセットアップ  <br/> |Active Directory の同期により、オンプレミスの Active Directory は継続的に同期され、Microsoft 365。 これにより、各ユーザー アカウントとグループの同期バージョンを作成できます。  <br/> <br> **重要:** 組織内のすべての Skype for Business ユーザーの AD アカウントを、オンプレミス展開とオンライン展開の間で同期する必要があります (ユーザーが Teams に移動されていない場合でも)。 すべてのユーザーを同期しない場合は、組織内のオンプレミスユーザーとオンライン ユーザー間の通信が期待通りには機能しない場合があります。 詳細については[、「Configure Azure AD Connect ハイブリッド環境」を参照してください](configure-azure-ad-connect.md)。         |
-| Skype for Business ハイブリッドの構成 | 次の 3 つの基本的な手順があります。 <br><br> 1. オンプレミス環境を構成して、サーバーとフェデレーションMicrosoft 365。 <br> 2. オンプレミス環境を構成して、Microsoft 365を信頼し、共有 SIP アドレス空間を有効Microsoft 365。<br> 3. 組織で共有 SIP アドレス空間Microsoft 365します。 <br><br> また、オンプレミス環境Exchange場合は、オンプレミス環境とオンライン環境の間Exchange OAuth を構成することもできます。 <br> <br>詳細については、「Configure [Skype for Business ハイブリッド」を参照してください](configure-federation-with-skype-for-business-online.md)。
-|パイロット ユーザーの移動  <br/> |ユーザーの環境を準備して構成する手順を完了したら、Teamsユーザーをオンラインの組織に移動Microsoft 365できます。 詳細については、「ユーザーを[オンプレミスからユーザーに移動する」を参照](move-users-from-on-premises-to-Teams.md)Teams。  <br/> |
+|Microsoft 365 のテナント アカウントを作成します。   <br/> |詳細については、「Microsoft 365」[を参照Microsoft 365。](https://go.microsoft.com/fwlink/p/?LinkId=254980)  <br/> 環境の準備が完了していることを確認するには、「システムMicrosoft 365」[を参照してください](https://products.office.com/office-system-requirements)。  <br/> ユーザー設定の詳細については、「Microsoft 365[の概要」を参照Microsoft 365。](https://go.microsoft.com/fwlink/p/?LinkId=254982)  <br/> |
+|ドメインを組織に追加Microsoft 365所有権を確認します。  <br/> | ドメインを組織に追加しMicrosoft 365手順に従ってドメインを検証する必要Microsoft 365。 この検証は、ドメインの所有者を確認します。 <br/> ドメインを組織の組織にMicrosoft 365するには、「ドメインを組織に追加する」で説明されている[手順に従](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US)Microsoft 365。 ハイブリッドになる組織の DNS への影響に関する以下 [のガイダンスを必ず確認してください](#dns-implications-for-on-premises-organizations-that-become-hybrid)。 <br/> |
+|Active Directory 同期を設定します。  <br/> |Active Directory の同期により、オンプレミスの Active Directory が Microsoft 365 と継続的に同期され、各ユーザー アカウントとグループの同期バージョンが作成されます。  <br/> <br> **重要:** 組織内のすべての Skype for Business ユーザーの Active Directory アカウントを、ユーザーが Teams に移動されていない場合でも、オンプレミス展開とオンライン展開の間で同期する必要があります。 すべてのユーザーを同期しない場合は、組織内のオンプレミスユーザーとオンライン ユーザー間の通信が期待通りには機能しない場合があります。 詳細については[、「Configure Azure AD Connect ハイブリッド環境」を参照してください](configure-azure-ad-connect.md)。         |
+| Skype for Business ハイブリッドを構成します。 | 次の 3 つの基本的な手順があります。 <br><br> 1. オンプレミス環境を構成して、サーバーとフェデレーションMicrosoft 365。 <br> 2. オンプレミス環境を構成して、Microsoft 365を信頼し、共有 SIP アドレス空間を有効Microsoft 365。<br> 3. 組織で共有 SIP アドレス空間Microsoft 365します。 <br><br> また、オンプレミス環境Exchange場合は、オンプレミス環境とオンライン環境の間Exchange OAuth を構成することもできます。 <br> <br>詳細については、「Configure [Skype for Business ハイブリッド」を参照してください](configure-federation-with-skype-for-business-online.md)。
+|パイロット ユーザーを移動します。  <br/> |ユーザーの環境を準備して構成する手順を完了したら、Teamsユーザーをオンラインの組織に移動Microsoft 365できます。 詳細については、「ユーザーを[オンプレミスからユーザーに移動する」を参照](move-users-from-on-premises-to-Teams.md)Teams。  <br/> |
+
+
+## <a name="dns-implications-for-on-premises-organizations-that-become-hybrid"></a>ハイブリッドになるオンプレミス組織に対する DNS の影響
+
+既定では、テナントは TeamsOnly モードとして作成されます。 管理者は、この構成を変更できません。 ただし、ハイブリッド組織は、オンプレミス ユーザーのフェデレーションを壊す可能性があるため、TeamsOnly モードにする必要があります。 Teams、テナント全体の TeamsOnly 構成が新しいハイブリッド テナントに適用されないか、ハイブリッドになる既存のテナントから削除されないか確認する組み込みのメカニズムがあります。 このメカニズムは、以下で説明するように、検証済みの Microsoft 365 ドメインの LyncDiscover DNS レコードの値に基づいて行います (Skype for Business Server オンプレミス展開ではほとんどの場合、そのレコードが含まれるため)。
+
+新しいサブスクリプションMicrosoft 365処理すると、次の処理が行われます。
+- ドメインにまだ検証済みのドメインMicrosoft 365、テナントは TeamsOnly モードとして作成されます。 値は、Microsoft でのみ設定できる TeamsUpgradeOverridePolicy を使用して設定されます。 ポリシー値が UpgradeToTeams の場合、TeamsUpgradePolicy の任意の値よりも優先されます。
+- Microsoft 365 ドメインが検証済みで、パブリック DNS lyncDiscover レコードが検出されていない場合、またはすべての検出された LyncDiscover レコードが Microsoft 365 (sipfed.online.lync.com、sipfed.online.gov.skypeforbusiness.us など) をポイントしている場合、テナントは TeamsOnly モード (TeamsUpgradeOverridePolicy 経由) として作成されます。
+- LyncDiscover レコードが検出された検証済みの Microsoft 365 ドメインが少なくとも 1 つで、そのレコードが Microsoft 365 以外の場所にある場合、テナントはアイランド モードとして作成されます。
+
+既存のMicrosoft 365テナントが再プロビジョニングされる場合 (通常は、検証済みのドメインまたはサブスクリプションの詳細が変更されたため)、次の処理が行われます。
+- 1 つ以上の Microsoft 365 検証済みドメインで LyncDiscover レコードが検出され、そのレコードが Microsoft 365 を指していない場合、テナント全体の TeamsOnly モード (TeamsUpgradeOverridePolicy を介して) が削除されます。 テナント モードは、TeamsUpgradePolicy のテナント レベルで指定された値に戻ります。既定ではアイランド モードです。
+
+
+この自動検出メカニズムにはいくつかの制限があります。
+- 組織にパブリック DNS レコードが存在しない場合、TeamsOnly モードは削除されません。Microsoft 365はレコードを検出できません。 組織にパブリック DNS エントリがないオンプレミス Skype for Business Server場合は、Microsoft サポートに問い合わせ、テナントをダウングレードする必要があります。
+- 既に Microsoft 365 検証済みのドメインであるドメインにパブリックDNS レコードを追加/更新した場合、この DNS の変更は検出されません。TeamsOnly モードは削除されません。 TeamsOnly モードは、テナントが再プロビジョニングされている場合にのみ削除されます。これは通常、Microsoft 365 検証済みドメインまたはサブスクリプションに変更がある場合に発生します。  
