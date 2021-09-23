@@ -16,14 +16,14 @@ search.appverid: MET150
 description: Microsoft Teams によって生成されたデバッグ ログ、メディア ログ、デスクトップ ログ、ログが見つかる場所、および監視とトラブルシューティングに役立つ方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
-ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
+ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460646"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482381"
 ---
-# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>ログ ファイルを使用してログの監視とトラブルシューティングを行Microsoft Teams
+# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>ログ ファイルを使用して、ログの監視とトラブルシューティングを行Microsoft Teams
 
 クライアントによって自動的に生成されるログ ファイルには、次の 3 種類があります。このファイルは、クライアントの監視とトラブルシューティングに役立Teams。
 
@@ -53,7 +53,7 @@ Windows: Ctrl + Alt + Shift + 1
 Mac: Option + Command + Shift + 1
 
 
-メディア ログは既定でオフになっています。 メディア ログを有効にするには、ユーザーがクライアントのオプションを有効Teamsがあります。 [全般]**設定**  >  **に移動** し、[会議の診断のログ記録を有効にする **] を選択します (Teams)。** ログTeamsを開始するには、クライアントを再起動する必要があります。
+メディア ログは既定でオフになっています。 メディア のログ記録を有効にするには、ユーザーがクライアントでオプションを有効Teamsがあります。 [全般]**設定**  >  **に移動** し、[会議の診断のログ記録を有効にする **] を選択します (Teams)。** ログTeamsを開始するには、クライアントを再起動する必要があります。
 
 特定の会議またはライブ イベントで問題が発生した場合は、その URL を会議に関連付けることができます。 これにより、ログ内の正確な会議またはライブ イベントを特定するのに役立つ追加情報が提供されます。 この情報は、会議の参加者、またはライブ イベントの発表者またはプロデューサーから収集できます。 この URL は、結合 URL の上にマウス ポインターを置き、[ハイパーリンクのコピー] を選択 **することでキャプチャできます**。
 
@@ -94,19 +94,25 @@ Mac: Option + Command + Shift + 1
 
 -   通話/会話
 
-Linux のログを収集するには:キーボード ショートカット: Ctrl + Alt + Shift + 1 ファイルは ~/Downloads で使用できます
+Linux のログを収集するには:キーボード ショートカット: Ctrl + Alt + Shift + 1  
+      ファイルは ~/Downloads で利用できます。
 
-ブラウザーのログを収集するには:キーボード ショートカット: Ctrl + Alt + Shift + 1 ファイルは %userprofile%\Downloads で使用できます。
+ブラウザーとブラウザーのログを収集Windows: キーボード ショートカット: Ctrl + Alt + Shift + 1  
+      ファイルは %userprofile%\Downloads で使用できます。
 
 ## <a name="media-logs"></a>メディア ログ
 
-詳細と _Mac の手順については、「ログの収集_ と有効化Windows」セクションを参照してください。 メディア ログには、音声、ビデオ、画面共有に関する診断データがTeamsされます。 これらは、通話関連の問題にリンクされているサポート ケースに必要です。
+詳細と _Mac の手順については、「ログの収集_ と有効化Windows」セクションを参照してください。 メディア ログには、音声、ビデオ、画面の共有に関する診断データがTeamsされます。 これらは、通話関連の問題にリンクされているサポート ケースに必要です。
 
 メディア ログは既定でオフになっています。 会議の診断データをTeamsするには、ユーザーがクライアントでオプションを有効Teamsがあります。 [全般]**設定** に移動し、[会議の診断のログ記録を有効にする (Teams を再起動する必要があります) チェック ボックスをオンにし、Teams を再起動して、問題を  >  再現します。  
 
 ログ ファイルを Microsoft サポートに送信する場合は、ログ ファイルのタイムスタンプを確認して、問題を再現した時間をログで確実にカバーしてください。
 
-Linux のログを収集するには:ファイルは ~/.config/Microsoft/Microsoft Teams/media-stack/ .blog および *~/.config/Microsoft/Microsoft Teams/skylib/*.blog で使用できます。
+Linux のログを収集するには:  
+ファイルは~/.config/Microsoft/Microsoft Teams/media-stack/ \* \. blog および ~/.config/Microsoft/Microsoft Teams/skylib/ blog で利用できます \* \. 。
+
+データのログを収集Windows:  
+ファイルは%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack ブログおよび \\ \* \. %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib \\ \* \. ブログで利用できます。  
 
 生成されるログ ファイルとログ ファイルに含まれる情報の一覧を次に示します。
 
@@ -123,7 +129,10 @@ Linux のログを収集するには:ファイルは ~/.config/Microsoft/Microso
 詳細と _Mac の手順については、「ログの収集_ と有効化Windows」セクションを参照してください。 デスクトップ ログ (ブートストラップ ログとも呼ばれる) には、デスクトップ クライアントとブラウザーの間で発生するログ データが含まれます。 メディア ログと同様に、これらのログは Microsoft から要求された場合にのみ必要です。 ログはテキスト ベースであり、トップダウン形式の任意のテキスト ベースのエディターを使用して読み取り可能です。
 
 Linux のログを収集するには:システム トレイの [Microsoft Teams] アイコンをクリックし、[ログの取得]**を選択します**。
-ファイルは、~/.config/Microsoft/Microsoft Teams/logs.txt で使用できます。  
+ファイルは、~/.config/Microsoft/Microsoft Teams/logs.txt で使用できます。
+  
+ログを収集するにはWindows: システム トレイの [Microsoft Teams] アイコンをクリックし、[ログの取得]**を選択します**。
+ファイルlogs.txt自動的に開メモ帳されます。    
 
 ## <a name="browser-trace"></a>ブラウザートレース
 
@@ -142,7 +151,7 @@ Linux のログを収集するには:システム トレイの [Microsoft Teams]
 -   [Firefox](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> この手順では、Azure portal へのすべての参照を、新しいクライアントTeamsします。
+> この手順では、Azure portal へのすべての参照を新しいクライアントに置Teamsします。
   
 ## <a name="webrtc-logs-in-browsers"></a>ブラウザーでの WebRTC ログ
 WebRTC ログは、音声通話とビデオ通話の接続の詳細を提供することで、Microsoft サポートを支援します。 Edge (Chromium) または Chrome で WebRTC ログにアクセスする手順に従います。 
@@ -159,6 +168,6 @@ WebRTC ログは、音声通話とビデオ通話の接続の詳細を提供す�
 
 4.  アプリケーションの名前が表示されたタブをTeamsページの内容を保存します。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

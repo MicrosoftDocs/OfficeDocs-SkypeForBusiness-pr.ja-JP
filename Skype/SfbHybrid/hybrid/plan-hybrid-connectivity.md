@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsのハイブリッド接続Skype for Business計画します。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 26b837b72769380c3b67e1d24eee54cefc2b7575
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ede3c000bf46cc5b3e1e2a181da2adc6dda93855
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727016"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482401"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>ハイブリッド接続を計画して、Skype for Business ServerとTeams
 
@@ -40,14 +40,14 @@ ms.locfileid: "58727016"
 このトピックを読んでハイブリッド接続を構成する準備ができたら、「ハイブリッド接続を構成する」を参照Skype for Business Server[と](configure-hybrid-connectivity.md)Teams。 構成に関するトピックでは、オンプレミス展開とハイブリッド 接続のセットアップに関する詳細なガイダンスをTeams。
 
 > [!Important]
-> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その後サービスにアクセスできなくなりました。  さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間でサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、使用できなくなりました。 さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間でサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
-## <a name="implications-of-the-upcoming-retirement-of-skype-for-business-online"></a>オンラインの今後の退職の影響Skype for Business
+## <a name="implications-of-the-retirement-of-skype-for-business-online"></a>オンラインの退職のSkype for Business
 Skype for Business Online の退職前と退職後の両方で、Skype for Business Server オンプレミスのユーザーは Teams を使用できますが、TeamsOnly にすることはできません。 (既定では、ユーザーはアイランド モードです)。 ユーザーは、TeamsOnly モードでTeams、特定のフェデレーションと PSTN サポートの利点を完全に体験できます。 
 
-オンラインの今後のSkype for Businessは、Lync Server 2013 または Lync Server 2013 の既存のサポート ライフサイクルSkype for Business Server影響しません。  ただし、Skype for Business Online の今後の退職は、既存のハイブリッド組織を含む、オンプレミスの Skype for Business Server または Lync Server 2013 を使用している顧客がクラウドに移行する方法の特定の側面に影響を与えます。 退職後に変更されないのは、ハイブリッドをオンプレミスからクラウドに移行する手段として使用する方法が変更されない場合です。
+オンラインのSkype for Businessは、Lync Server 2013 または Lync Server 2013 の既存のサポート ライフサイクルSkype for Business Server影響しません。  ただし、Skype for Business Online の退職は、既存のハイブリッド組織を含むオンプレミスの Skype for Business Server または Lync Server 2013 を使用しているお客様がクラウドに移行する方法の特定の側面に影響を与えました。 引退後に変更されていないのは、ハイブリッドをオンプレミスからクラウドに移行する手段として使用する方法は変わらないという意味です。
 
-現在、およびオンラインの終了まで、Skype for Businessハイブリッド組織は、次の 3 つの基本的な種類のユーザーで構成できます。 
+ハイブリッド組織は、Skype for Businessの使用を中止する前に、次の 3 つの基本的な種類のユーザーで構成される可能性があります。 
 - オンプレミス ユーザー (ユーザーがユーザーを使用する場合と使用しない場合Teams、ユーザーのみTeamsモードではありません) 
 - TeamsOnly 以外の共存モードを持つオンライン ユーザー
 - TeamsOnly ユーザー。
@@ -56,15 +56,15 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
 - オンプレミスのユーザー (Who TeamsOnly モードではなく、Teamsを使用する場合と使用しない場合があります)
 - Teamsユーザーのみ。 
 
-組織が Skype for Business Server または Lync Server 2013 から Teams に移行するには、引き続き同じツールセットを使用してハイブリッドをセットアップおよび構成する必要があります。引き続き、退職前とまったく同じです。 変更されたのは、ユーザーをオンプレミスから Teams に移動するときに、ユーザーをオンプレミスから `-MoveToTeams` TeamsOnly に直接移動するスイッチを指定する必要がなくなりました `Move-CsUser` 。 以前は、このスイッチが指定されていない場合、ユーザーは Skype for Business Server オンプレミスのホームから Skype for Business Online に移行し、モードは変更されません。 退職に備えて、ユーザーをオンプレミスからクラウドに移動するときに、ユーザーは TeamsOnly モードに自動的に割り当てられると、スイッチが実際に指定されたかどうかに関係なく、スイッチが指定された場合と同じ方法で、オンプレミスから会議が自動的に Teams 会議に変換されます。 `Move-CsUser` `-MoveToTeams` (これには、切り替え前の Lync Server 2013 からの移行が含 `MoveToTeams` まれます)。 
+組織が Skype for Business Server または Lync Server 2013 から Teams に移行するには、引き続き同じツールセットを使用してハイブリッドをセットアップおよび構成する必要があります。引き続き、退職前とまったく同じです。 変更されたのは、ユーザーをオンプレミスから Teams に移動するときに、ユーザーをオンプレミスから `-MoveToTeams` TeamsOnly に直接移動するスイッチを指定する必要がなくなりました `Move-CsUser` 。 以前は、このスイッチが指定されていない場合、ユーザーは Skype for Business Server オンプレミスのホームから Skype for Business Online に移行し、モードは変更されません。 退職の結果、ユーザーをオンプレミスからクラウドに移動すると、ユーザーは自動的に TeamsOnly モードに割り当て、オンプレミスからの会議は、スイッチが実際に指定されたかどうかに関係なく、スイッチが指定された場合と同様に、自動的に Teams 会議に変換されます。 `Move-CsUser` `-MoveToTeams` (これには、切り替え前の Lync Server 2013 からの移行が含 `MoveToTeams` まれます)。 
 
-同様に、新しいユーザーがオンプレミスではなく Microsoft 365 で直接作成された場合、そのユーザーはテナントのモードに関係なく自動的に Teams のみモードになります。 (この動作は、近い将来、退職後に展開されます。ハイブリッド組織では、オンプレミスのユーザーが新しいユーザーにルーティングできるよう、Microsoft 365 でユーザーを直接作成するのではなく、オンプレミスの Active Directory で新しいユーザーを作成し (Microsoft 365 に同期する) 必要があります。
+同様に、新しいユーザーがオンプレミスではなく Microsoft 365 で直接作成された場合、そのユーザーはテナントのモードに関係なく自動的に Teams のみモードになります。 ハイブリッド組織では、オンプレミスのユーザーが新しいユーザーにルーティングできるよう、Microsoft 365 でユーザーを直接作成するのではなく、オンプレミスの Active Directory で新しいユーザーを作成し (Microsoft 365 に同期する) 必要があります。
 
-オンラインの使用が取り除かSkype for Businessされます。 以前と同様に、オンプレミスにSkype for Business Serverアカウントを持つユーザーには、TeamsOnly を除くすべての共存モードを割り当てることができます。 ただし、退職後、オンラインに住むユーザーは TeamsOnly にしか使用できません (オンライン ユーザーが任意のモードSkype for Business現在とは対照的です)。  
+オンラインの使用を取り除く後も、Skype for Businessモードが存在します。 以前と同様に、オンプレミスにSkype for Business Serverアカウントを持つユーザーには、TeamsOnly を除くすべての共存モードを割り当てることができます。 ただし、退職後、オンラインに住むユーザーは TeamsOnly にしか使用できません (オンライン ユーザーが任意のモードSkype for Business現在とは対照的です)。  
 
 > [!Important]
-> - TeamsOnly 以外の Skype for Business Online にユーザーが参加している既存のハイブリッド組織では、これらのユーザーをできるだけ早く Teams Only モードにアップグレードする必要がありますが、2021 年 7 月 31 日に終了する予定です。 組織に TeamsOnly ではない Skype for Business Online にユーザーがまだ所属している場合は、これらのユーザーを TeamsOnly に移行する Microsoft 支援アップグレードをスケジュールできます。 これは、オンプレミスのユーザーにSkype for Business Server影響を与える可能性はありません。 スケジュール通知は、これらのオンラインの TeamsOnly 以外のユーザーが Teams にアップグレードされる前に、Skype for Business Online にユーザーが参加しているハイブリッド顧客に事前に送信されます。
-> - Skype for Business Online の終了に備えて、すぐに TeamsOnly 以外のモードをオンラインに設定されているユーザーに割り当てなくなりました。
+> - teamsOnly ではない Skype for Business Online にユーザーが参加している既存のハイブリッド組織では、できるだけ早くこれらのユーザーを Teams のみモードにアップグレードする必要があります。 組織に TeamsOnly ではない Skype for Business Online にユーザーがまだ所属している場合は、これらのユーザーを TeamsOnly に移行する Microsoft 支援アップグレードをスケジュールできます。 これは、オンプレミスのユーザーにSkype for Business Server影響を与える可能性はありません。 スケジュール通知は、これらのオンラインの TeamsOnly 以外のユーザーが Teams にアップグレードされる前に、Skype for Business Online にユーザーが参加しているハイブリッド顧客に事前に送信されます。
+> - すぐに、TeamsOnly 以外のモードをオンラインのユーザーに割り当てなくなりました。
 
 ## <a name="about-shared-sip-address-space-functionality"></a>共有 SIP アドレス空間の機能について
 
