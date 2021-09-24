@@ -755,6 +755,8 @@ items:
         items:
           - name: 概要
             href: rooms/index.md
+          - name: Teams の会議室ガイダンス
+            href: teams-meeting-room-guidance.md
           - name: Microsoft Teams Rooms の管理サービス
             items:
               - name: 管理を計画する
@@ -1608,8 +1610,6 @@ items:
             href: sharepoint-onedrive-interact.md
       - name: 教育機関向け Teams デバイス
         href: devices-for-education.md
-      - name: Teams の会議室ガイダンス
-        href: teams-meeting-room-guidance.md
       - name: サポート対象のデバイス
         items:
           - name: Teams でのデバイスの管理
