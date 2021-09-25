@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: ハイブリッド接続を実装する手順は、Skype for Business ServerとTeams。
-ms.openlocfilehash: 272166852ef86da6318aa5fa2908697a93d65e02
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: fee7587c641f2fd55cd8b4ac4da72b3944b819a1
+ms.sourcegitcommit: 64b9f7297d33a883506893fb68d1ad5202b4df1a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491697"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59682812"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>デバイスとデバイス間のハイブリッド接続Skype for Business Server構成Teams
 
@@ -45,11 +45,11 @@ ms.locfileid: "59491697"
 
 ## <a name="dns-implications-for-on-premises-organizations-that-become-hybrid"></a>ハイブリッドになるオンプレミス組織に対する DNS の影響
 
-既定では、テナントは TeamsOnly モードとして作成されます。 管理者は、この構成を変更できません。 ただし、ハイブリッド組織は、オンプレミス ユーザーのフェデレーションを壊す可能性があるため、TeamsOnly モードにする必要があります。 Teams、テナント全体の TeamsOnly 構成が新しいハイブリッド テナントに適用されないか、ハイブリッドになる既存のテナントから削除されないか確認する組み込みのメカニズムがあります。 このメカニズムは、以下で説明するように、検証済みの Microsoft 365 ドメインの LyncDiscover DNS レコードの値に基づいて行います (Skype for Business Server オンプレミス展開ではほとんどの場合、そのレコードが含まれるため)。
+既定では、テナントは TeamsOnly モードとして作成されます。 管理者は、この構成を変更できません。 ただし、ハイブリッド組織は、オンプレミス ユーザーのフェデレーションを壊す可能性があるため、TeamsOnly モードにする必要があります。 Teamsには、テナント全体の TeamsOnly 構成が新しいハイブリッド テナントに適用されない仕組みと、ハイブリッドになる既存のテナントからテナント全体の TeamsOnly構成が削除される仕組みがあります。 このメカニズムは、以下で説明するように、検証済みの Microsoft 365 ドメインの LyncDiscover DNS レコードの値に基づいて行います (Skype for Business Server オンプレミス展開ではほとんどの場合、そのレコードが含まれるため)。
 
 新しいサブスクリプションMicrosoft 365処理すると、次の処理が行われます。
 - ドメインにまだ検証済みのドメインMicrosoft 365、テナントは TeamsOnly モードとして作成されます。 値は、Microsoft でのみ設定できる TeamsUpgradeOverridePolicy を使用して設定されます。 ポリシー値が UpgradeToTeams の場合、TeamsUpgradePolicy の任意の値よりも優先されます。
-- Microsoft 365 ドメインが検証済みで、パブリック DNS lyncDiscover レコードが検出されていない場合、またはすべての検出された LyncDiscover レコードが Microsoft 365 (sipfed.online.lync.com、sipfed.online.gov.skypeforbusiness.us など) をポイントしている場合、テナントは TeamsOnly モード (TeamsUpgradeOverridePolicy 経由) として作成されます。
+- Microsoft 365 ドメインが検証済みで、パブリック DNS LyncDiscover レコードが検出されていない場合、またはすべての検出された LyncDiscover レコードが Microsoft 365 (sipfed.online.lync.com、sipfed.online.gov.skypeforbusiness.us など) をポイントしている場合、テナントは TeamsOnly モード (TeamsUpgradeOverridePolicy 経由) として作成されます。
 - LyncDiscover レコードが検出された検証済みの Microsoft 365 ドメインが少なくとも 1 つで、そのレコードが Microsoft 365 以外の場所にある場合、テナントはアイランド モードとして作成されます。
 
 既存のMicrosoft 365テナントが再プロビジョニングされる場合 (通常は、検証済みのドメインまたはサブスクリプションの詳細が変更されたため)、次の処理が行われます。
