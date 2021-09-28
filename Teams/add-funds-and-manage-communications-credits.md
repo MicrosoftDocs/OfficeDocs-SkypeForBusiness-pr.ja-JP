@@ -30,16 +30,16 @@ ms.custom:
 - O365P_SFBVoiceCreditAether
 - Licensing
 description: 'Skype for Business サービスの通信クレジット (PSTN 消費) の支払い方法と、継続的な電話システム アクセスをユーザーに維持する計画について説明します。 '
-ms.openlocfilehash: fe3b80e41c6fdc411304ec43eebb0ab560063033
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d2b6eb0a1f487794cc93f9639e49e9557ca4fcd
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617613"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942050"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>資金を追加してコミュニケーション クレジットを管理する
 
-コミュニケーション クレジットは、通信プランまたは通話プランの支払い電話システムまたは通話プランに対して支払うMicrosoft 365便利Office 365。 コミュニケーション クレジットを使用すると、以下を実行できないと、ユーザーとユーザーがキャッチされません。
+通信クレジットは、通信プランまたは通話プランの支払電話システムまたは通話プランの支払いMicrosoft 365便利Office 365。 コミュニケーション クレジットを使用すると、以下を実行できないと、ユーザーとユーザーがキャッチされません。
   
 - 無料ダイヤルイン電話番号を使用して電話会議にダイヤルインします。
 
@@ -60,10 +60,10 @@ ms.locfileid: "58617613"
   
 支払いオプションはいつでも更新できます。 [サブスクリプション **] ページで** [コミュニケーション クレジット] **を選択し**、更新を行います。
   
-資金は、サービスの使用時に Microsoft が公開した料金の通信クレジットにのみ適用されます。 購入日から 12 か月以内に使用されていない資金は、有効期限が切れ、失効します。
+資金は、サービスの使用時に Microsoft が公開した料金の通信クレジットにのみ適用されます。 購入日から 12 か月以内に使用されなかった残高は、有効期限切れとなり、使用できなくなります。
   
 > [!TIP]
-> 自動リチャージで資金が追加された場合、自動リチャージが失敗した場合 (クレジット カードの有効期限が切れた場合など)、残高が 0 を下回った場合に、電子メール通知が送信されます。
+> 自動リチャージで資金が追加された場合、自動リチャージが失敗した場合 (クレジット カードの有効期限が切れた場合など)、残高が 0 に達すると、電子メール通知が送信されます。
   
 詳細については、「通信クレジット [とは」を参照してください。](what-are-communications-credits.md)
   
@@ -77,11 +77,11 @@ ms.locfileid: "58617613"
 
 - [電話システムプラン](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-また、サブスクリプションにサインインし、[課金サブスクリプション] Microsoft 365 管理センター サブスクリプションの追加]にアクセスして情報  >    >  **を確認できます**。
+また、サブスクリプションにサインインし、[課金サブスクリプション] Microsoft 365 管理センター サブスクリプションの追加]にアクセスして、情報  >    >  **を確認できます**。
   
-各機能に必要なライセンスまたはライセンスを含むテーブルを表示するには[、「Microsoft Teams」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+各機能に必要なライセンスまたはライセンスを含むテーブルを表示するには、追加Microsoft Teams[を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Skype for Business Online をセットアップする](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 

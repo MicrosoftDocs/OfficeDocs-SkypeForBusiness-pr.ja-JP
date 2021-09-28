@@ -1,14 +1,14 @@
 ---
-title: NDI を使用Microsoft Teams
-author: cichur
-ms.author: v-cichur
-ms.reviewer: aaglick
+title: 会議の内容をブロードキャストする
+author: CarolynRowe
+ms.author: crowe
+ms.reviewer: aalinne
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Microsoft Teams で NDI を使用する方法についてMicrosoft Teams。
+description: NDI と SDI を使用して、会議コンテンツをブロードキャストする方法についてMicrosoft Teams。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,50 +16,55 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a82174fd09106f623bcf0f9a03a99c2978253ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65e47ccfa1963e8e95e13a1c8b94e1e051ff709c
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615113"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941882"
 ---
-# <a name="use-ndi-technology-in-microsoft-teams"></a>NDI の®を使用Microsoft Teams
+# <a name="broadcast-meeting-content"></a>会議の内容をブロードキャストする 
 
- NewTek NDI® (Network Device Interface) テクノロジは、メディア デバイス (スタジオ カメラやミキサーなど) を接続するための最新のソリューションです。 NDI® テクノロジでは、物理的な接続を使用する代わりに、ローカル コンピューターを含むローカル イントラネットを使用して接続できます。
 
-NDI®は、ストリームのライブ コンテンツを生成するための標準的な業界標準ソリューションになり、プロのブロードキャストの世界で大きな認識と導入を獲得しています。
 
-Skype 2018 年後半に NDI ®アウト機能が追加Skypeに追加されました。 Microsoft Teamsこの機能を使用して、会議のエクスペリエンスを向上します。
+Teamsには、ネットワーク デバイス インターフェイス (NewTek NDI®Teams) とシリアル デジタル インターフェイス (SDI) の 2 つのオプションがあります。
 
-NDI®はローカル ネットワークに限定され、ブロードキャスト ソリューションではなく、実稼働ワークフローの一部と見なす必要があります。
+- NewTek NDI® テクノロジは、メディア デバイス (スタジオ カメラやミキサーなど) を接続するための最新のソリューションです。 NDI® テクノロジでは、物理的な接続を使用する代わりに、ローカル コンピューターを含むローカル イントラネットを使用して接続できます。
 
-## <a name="turn-on-ndi-technology"></a>NDI テクノロジを有効®する
+  NDI®は、ストリームのライブ コンテンツを生成するための標準的な業界標準ソリューションになり、プロのブロードキャストの世界で大きな認識と導入を獲得しています。
 
-NDI®、ユーザーに対して 2 つの手順を有効にする必要があります。
-
-1. テナント管理者は、エンド ユーザーが会議ポリシーに対して NDI を有効にする必要があります。 これは、Teams 管理ポータルまたは CsTeamsMeetingPolicy の _AllowNDIStreaming_ プロパティによって Teams PowerShell を使用して個別に実行できます。
-
-    ```PowerShell
-    Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
-    ```
-
-2. この変更が設定された後、エンド ユーザーは、特定のクライアントの NDI® テクノロジを [アクセス許可] から有効設定  >  **必要があります**。
-
-ユーザーとその特定のクライアントに対してオンにした後、ユーザーはオーバーフロー メニューで [NDI 経由でブロードキャスト] を選択して NDI を有効にできます。
-
-NDI を開始し、エンドポイントが NDI フィードをサブスクライブすると、会議がブロードキャスト中であることの通知メッセージが表示されます。 ユーザーをブロードキャストに含めたくない場合は、会議から削除する必要があります。
-
-次の図は、会議中にユーザーに表示されるバナー メッセージTeams示しています。
-
-![彼は、®に表示される NDI の技術バナー Teamsします。](media/NDI-disclosure.png)
-
-バナーには、Microsoft のプライバシー ポリシー [へのリンクがあります](https://aka.ms/teamsprivacy)。
+- SDI は 1989 年からブロードキャスト制作で使用され、ほとんどのレガシ スタジオ ハードウェア デバイスでサポートされています。 AJA Video Systems と Blackmagic Design のハードウェア デバイスは、SDI を使用する従来のブロードキャスト デバイスへの接続を提供します。
 
 > [!NOTE]
-> NDI®セッションごとにのみアクティブ化されます。 次の会議では、ユーザーは NDI を使用する前にアクティブ化する®。
+> SDI をサポートするビデオ ハードウェアアウト機能は、現在プレビュー リリース中です。
 
-## <a name="supported-locales-and-user-types"></a>サポートされている地域とユーザーの種類
+NDI® SDI テクノロジは、すべての地域でサポートされています。
 
-NDI®、すべての地域でサポートされています。
+NDI と SDI の使用へのアクセスは、機能のアクティブ化を試みるユーザーの会議ポリシーによって決まります。 最も安全なソリューションの場合は、グローバル設定としてローカル ストリーミング パラメーターを有効にすることはできません。
 
-NDI を使用するアクセスは、機能のアクティブ化を試みるユーザーの会議ポリシーによって決まります。 最も安全なソリューションでは、グローバル設定として NDI ポリシーを有効にしない。
+
+## <a name="enable-broadcast-features"></a>ブロードキャスト機能を有効にする
+
+ユーザーに対して NDI ® SDI ブロードキャスト機能を有効にするには:
+
+1. テナント管理者は、エンド ユーザーが会議ポリシーのローカル ストリーミングを有効にする必要があります。 
+
+2. エンド ユーザーは、特定のクライアントのローカル ストリーミングを有効にする必要があります。
+
+
+エンド ユーザーを有効にするには、次のように管理センター Teams使用するか、PowerShell Teamsを使用します。
+
+[Teams 管理センターで、[音声] ビデオの **[会議** ポリシー>] &し、[NDI ストリーミングを許可する]**を選択します**。
+
+PowerShell を使用するには、次のように Set-CsTeamsMeetingPolicy コマンドレットを使用します。
+
+```PowerShell
+Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
+```
+
+この変更が設定された後、エンド ユーザーは特定のクライアントのローカル ストリーミングを[アクセス許可] からオン設定  >  **必要があります**。 詳細については、オーディオとビデオの配信[に関するページを参照Teams。](https://support.microsoft.com/office/broadcasting-audio-and-video-from-teams-with-ndi-technology-e91a0adb-96b9-4dca-a2cd-07181276afa3)
+
+
+
+
+

@@ -1,9 +1,8 @@
 ---
 title: 通話プランの電話番号を管理する
-author: CarolynRowe
-ms.author: crowe
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -26,13 +25,13 @@ ms.custom:
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
 - seo-marvel-apr2020
-description: 組織のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得して管理する方法Microsoft Teams確認します。
-ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+description: 組織のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得および管理する方法Microsoft Teams確認します。
+ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432529"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942340"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>通話プランの電話番号を管理する
 
@@ -56,8 +55,10 @@ ms.locfileid: "59432529"
 > - [Austria](phone-number-management-for-austria.md)
 > - [ベルギー](phone-number-management-for-belgium.md)
 > - [カナダ](phone-number-management-for-canada.md)
+> - [Croatia](phone-number-management-for-croatia.md)
 > - [チェコ共和国](phone-number-management-for-czech-republic.md)
 > - [デンマーク](phone-number-management-for-denmark.md)
+> - [エストニア](phone-number-management-for-estonia.md)
 > - [フィンランド](phone-number-management-for-finland.md)
 > - [France](phone-number-management-for-france.md)
 > - [Germany](phone-number-management-for-germany.md)
@@ -65,6 +66,8 @@ ms.locfileid: "59432529"
 > - [アイルランド](phone-number-management-for-ireland.md)
 > - [イタリア](phone-number-management-for-italy.md)
 > - [日本](phone-number-management-for-japan.md)
+> - [ラトビア](phone-number-management-for-latvia.md)
+> - [Lithuania](phone-number-management-for-lithuania.md)
 > - [ルクセンブルク](phone-number-management-for-luxembourg.md)
 > - [ニュージーランド](phone-number-management-for-new-zealand.md)
 > - [ノルウェー](phone-number-management-for-norway.md)
@@ -73,6 +76,7 @@ ms.locfileid: "59432529"
 > - [ルーマニア](phone-number-management-for-romania.md)
 > - [シンガポール](phone-number-management-for-singapore.md)
 > - [スロバキア](phone-number-management-for-slovakia.md)
+> - [スロベニア](phone-number-management-for-slovenia.md)
 > - [スペイン](phone-number-management-for-spain.md)
 > - [スウェーデン](phone-number-management-for-sweden.md)
 > - [Switzerland](phone-number-management-for-switzerland.md)
@@ -90,13 +94,13 @@ ms.locfileid: "59432529"
 
 国または地域ごとに異なる手順、異なる種類の電話番号 (地理的/非地理的およびサービス (有料/無料))、および Microsoft Teams で使用できる電話番号を取得するルール/規制があります。
 
-(お客様の国または地域によっては) Microsoft Teams 管理センターを使用して新しいユーザー (サブスクライバー) またはサービス (有料または無料) の電話番号を取得できない場合や、特定の電話番号(バニティ要求) または特定の市番が必要な場合があります。
+(お客様の国や地域によっては) Microsoft Teams 管理センターを使用して新しいユーザー (サブスクライバー) またはサービス (有料または無料) の電話番号を取得できない場合や、特定の電話番号(バニティ要求) または特定の市番が必要な場合があります。
 
 その場合は、適切な PDF LOA フォーム (国または地域、電話番号の種類) をダウンロードして、お送りください。 サービス デスクがそこからそれを受け取り、要求の処理を開始します。
 
 ### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>既存の電話番号を転送/移植する承認状 (LOA) 
 
-既存の電話番号を別のサービス プロバイダーから Teams に転送または移植する必要がある場合は、承認状 (LOA) をダウンロードして入力し、送信する必要があります。 LOA は、お客様に代わって、別のサービス プロバイダーから既存の番号を要求および転送するアクセス許可を Microsoft に付与Teams。
+既存の電話番号を別のサービス プロバイダーから Teams に転送/移植する必要がある場合は、承認状 (LOA) をダウンロードして入力し、送信する必要があります。 LOA は、お客様に代わって、別のサービス プロバイダーから既存の番号を要求および転送するアクセス許可を Microsoft に付与Teams。
 
 現在、別の運送業者に次の情報がある場合は **、LOA** をお送りください。
 

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 組織の電話番号または移行 (転送) 番号を取得する場合は、PSTN サービス デスクでヘルプとサポートを利用する必要がある場合があります。
-ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65ebe954fb9a8b101489c9add7739b24bdd529bc
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598471"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941860"
 ---
 # <a name="pstn-service-desk"></a>PSTN サービス デスク 
 
@@ -61,7 +61,6 @@ PSTN サービス デスクとやり取りをするための新しいプロセ�
 - **[フィードバックを送信する](#view-and-manage-existing-cases)** – フィードバックを共有します。 
 
 - **(自分の名前)**  – 自分のプロフィール ページを更新します。 
-
 
 ## <a name="create-a-new-case"></a>新しいケースを作成する
 

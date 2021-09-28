@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9a3c26b72b67fe0aff43e652ca681dc8742741c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1518c2bbdf39c53f21026edc9da3dae8cc8ef90c
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584551"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942392"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams の制限事項と仕様
 
@@ -146,7 +146,7 @@ Teams チャットは、Microsoft Exchange のバックエンドで動作する�
 |終了時刻のある定期     |最後の発生の終了時刻 + 60 日         |60 日         |
 
 > [!NOTE]
-> Microsoft Teams 会議には、24 時間の時間制限があります。
+> Microsoft Teams 会議には、30 時間の時間制限があります。
 
 ## <a name="teams-live-events"></a>Teams のライブ イベント
 
