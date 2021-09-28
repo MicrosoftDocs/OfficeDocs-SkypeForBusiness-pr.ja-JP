@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab88563b26faef5be188454126f3bb4df484fe4
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733586"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984672"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
@@ -34,7 +34,7 @@ ms.locfileid: "58733586"
 - 現在と過去のミーティングアクティビティ（通話品質、ネットワークの状態と接続、参加者数など）を確認する
 - Microsoft Teams Room デバイスに接続されている周辺機器（カメラやプロジェクターなど）を表示する
 
-Teams ミーティング デバイスを管理するには、[Microsoft Teams管理センター](https://admin.teams.microsoft.com)を開いて、**Devices** > **Teams ミーティング** にアクセスします。
+会議室デバイスTeams管理するには、Microsoft Teams [管理](https://admin.teams.microsoft.com)センターを開き、[デバイス] Teams **に**  >  **Teamsします**。
 
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams管理センターの会議室Teamsページ。":::
 
@@ -105,11 +105,11 @@ Teams ミーティング デバイスを管理するには、[Microsoft Teams管
 
 デバイスを削除すると、そのデバイスは組織から削除され、チーム管理センターのTeams ミーティング デバイスのリストに表示されなくなります。
 
-デバイスを削除した場合でも、有効なユーザー名とパスワードで構成されている場合、Microsoft 365 に再度接続すると、デバイスは自動的に Teams Rooms デバイスの一覧に再追加されます。
+デバイスを削除した後も、有効なユーザー名とパスワードで構成されている場合、デバイスが Microsoft 365 に接続すると、デバイスは自動的に Teams Rooms デバイスの一覧に再追加されます。
 
 1つまたは複数のデバイスを削除するには、次の操作を行います。
 
-1. **デバイス** > **Teams ミーティング** に移動して、削除するデバイスを選択します。
+1. [会議室 **Teams デバイス**  >  **Teams] に移動し**、削除するデバイスを選択します。
 1. **削除** を選択します。
 
 ## <a name="download-device-logs"></a>デバイスログをダウンロードする
@@ -118,7 +118,7 @@ Microsoft サポートから要求された場合、デバイスの診断ログ�
 
 Teams ミーティング デバイスからコンピューターにログをダウンロードするには、次の手順を実行します。
 
-1. **デバイス** > **Teams ミーティング** に移動して、ログをダウンロードするデバイスの名前を選択します。
+1. [デバイスTeams **Teams** に移動し、ログをダウンロードするデバイス  >  の名前を選択します。
 1. **デバイスログのダウンロード** を選択します。 デバイスログが使用可能になるまでに数分かかることがあります。
 1. **[履歴]** タブを選択し、**Diagnostics ファイル** で [ログファイルのリンク] を選択します。 デバイスの診断ログファイルを含むzipファイルが、ブラウザの既定のダウンロードフォルダにダウンロードされます。
 

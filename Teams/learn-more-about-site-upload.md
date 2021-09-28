@@ -22,27 +22,27 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d875108648ca8fe91d67c03b7c569c59048cfa43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 189b821e7238911190c4c72c07b863fc961f3074
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589721"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984612"
 ---
 # <a name="add-and-update-reporting-labels"></a>レポート ラベルを追加して更新する
 
 レポート ラベルは、オフィス、ビル、または組織サイトの物理的な場所を示すために組織内で使用されます。 Microsoft Teams 管理センターの [レポート ラベル] ページでは、物理的な場所と関連付けられているネットワーク サブネットの一覧を含むテキスト ファイル (.csv または .tsv) を提供できます。 このファイルは、レポートを生成するために通話分析によって使用されます。 サブネット マッピングをアップロードすると、これらのサービスによって提供されるレポートにも場所の名前が含まれるので、レポートを理解し、潜在的な問題を修復するために使用しやすくなります。
 
 > [!IMPORTANT]
-> アップロードしたレポート ラベルは、Office 365に関する契約の下でサポート データとして処理されます。顧客データまたは個人データと見なされる情報も *含めて、* この情報はサポート目的で Microsoft エンジニアに表示されますので、Microsoft にサポート データとして提供しないデータは含めここではお使いください。
+> アップロードしたレポート ラベルは、Office 365に関する契約の下でサポート データとして処理されます。このデータには、顧客データまたは個人データと見なされる情報が *含まれており、* この情報はサポート目的で Microsoft エンジニアに表示されますので、Microsoft にサポート データとして提供しないデータは含めここではお使いください。
 
 提供するレポート のラベルと場所のデータは、1 つのデータ構造です。現在、データを個別に編集できるインターフェイスはありません。
 
 **サブネットと場所のテーブルを編集するには**
 
-1. 管理センターの左側のナビゲーションで、[場所Microsoft Teamsラベル]  >  **をクリックします**。
+1. 管理センターの左側のナビゲーションで、[Microsoft Teams レポート ラベル] &**を**  >  **クリックします**。
 2. [データ **アップロード] をクリックします**。
-3. [データ **アップロードウィンドウで**、[ファイルの選択]をクリックし、編集したファイルまたは .tsv ファイルを参照.csvアップロードします。
+3. [データ **アップロード ウィンドウ** で、[ファイルの選択] をクリックし、編集したファイルまたは .tsv ファイルを参照.csvアップロードします。
 4. [アップロード]**をクリックします**。
 
 サンプル テンプレートは、 からダウンロード [できます](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)。
@@ -59,7 +59,7 @@ ms.locfileid: "58589721"
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|マウンテン ビュー|94043|米国|CA|米国|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|マウンテン ビュー|94043|米国|CA|米国|1|1|
 
-データ ファイルの書式設定の詳細については、「テナント データ ファイル形式」と「データ ファイル構造の [構築」を参照してください](CQD-upload-tenant-building-data.md#upload-building-data-file)。
+データ ファイルの書式設定の詳細については、「テナント データ ファイル形式」および「データ ファイル構造の構築 [」を参照してください](CQD-upload-tenant-building-data.md#upload-building-data-file)。
 
 ## <a name="related-topics"></a>関連トピック
 

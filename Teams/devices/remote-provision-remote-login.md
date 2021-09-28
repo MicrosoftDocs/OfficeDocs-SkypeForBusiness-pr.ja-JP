@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Android デバイスのリモート プロビジョニングとサインインTeams説明します
-ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Android デバイスのリモート プロビジョニングとサインインを行うTeams説明します
+ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733316"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984742"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android デバイスのリモート プロビジョニングTeamsサインイン
 
@@ -61,7 +61,7 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 新しいデバイスをプロビジョニングするには、次の手順を実行します。
 
 1. Teams 管理センターにサインインします。
-2. [デバイス] **を展開します**。
+2. [デバイス **Teams展開します**。
 3. [アクション **] タブから [新しい** デバイスのプロビジョニング **] を** 選択します。
 
 [新 **しいデバイスのプロビジョニング]** ウィンドウで、MAC アドレスを手動で追加するか、ファイルをアップロードできます。
@@ -94,9 +94,9 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 
 ## <a name="provision-the-device"></a>デバイスをプロビジョニングする
 
-デバイスの電源が入り、ネットワークに接続されると、技術者がデバイスをプロビジョニングします。 これらの手順は、デバイスのTeamsされます。
+デバイスの電源が入り、ネットワークに接続されると、技術者がデバイスをプロビジョニングします。 これらの手順は、デバイス上でTeamsされます。
 
-1. 技術者が[デバイスの **プロビジョニング] を選択****設定。**  
+1. 技術者は、 から **[デバイスのプロビジョニング]** を **設定。**  
 
    ![[アクション] タブから新しいデバイス オプションをプロビジョニングします。](../media/provision-device1.png)
   
