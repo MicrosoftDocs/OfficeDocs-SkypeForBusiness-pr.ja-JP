@@ -1548,7 +1548,7 @@ items:
       - name: 小売店向けの Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: 小売店向けテンプレートで Teams の使用を開始する
+          - name: 販売店チーム テンプレートを使用する
             href: get-started-with-retail-teams-templates.md
       - name: 政府機関用 Teams
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
