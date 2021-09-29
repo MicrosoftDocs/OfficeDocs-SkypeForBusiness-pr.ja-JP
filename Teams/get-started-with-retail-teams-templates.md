@@ -1,17 +1,17 @@
 ---
-title: リテールでのチーム テンプレートの使用
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+title: 小売業チーム テンプレートを使用する
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
-description: 定義済みの設定、チャネル、およびプレインストールされたアプリを提供することで、チーム テンプレートを使用して小売業者のニーズに合ったチーム構造を作成する方法について説明します。
+description: 小売業組織のチームを迅速かつ簡単に作成するために、Teams 管理センターや Microsoft Graph で小売業テンプレートを管理および使用する方法を説明します。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,83 +19,98 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83c96d5ec3a05bf5840a21a67ae732c176e3d6b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.openlocfilehash: 073d9ee391b42a476b0657dbf910f8d019699358
+ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624619"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59991206"
 ---
-# <a name="create-a-team-using-retail-team-templates"></a>リテール チーム テンプレートを使用してチームを作成する
+# <a name="use-retail-team-templates"></a>小売業チーム テンプレートを使用する
 
-Microsoft チーム テンプレートを使用すると、設定、チャネル、およびプレインストールされたアプリの定義済みのテンプレートを提供することで、チームをすばやく簡単に作成できます。
+Microsoft Teams のチーム テンプレートでは、設定、チャネル、事前にインストールされたアプリの定義済みチーム構造を使用することで、チームをすばやく簡単に作成できます。
 
-チーム テンプレートには、小売業者のニーズを中心に設計されたチーム構造の事前構築された定義があります。 チーム テンプレートを使用すると、小売業者にとってうまく機能するチームの種類をすばやく作成し、組織全体に展開できます。 また、チーム テンプレートを拡張して、特定の組織のニーズに合わせて調整されたチームを作成することもできます。
+小売業者の場合、チーム テンプレートは特に強力で、組織全体に一貫したチームを迅速に展開するのに役立ちます。 テンプレートは、スタッフが Teams を効果的に使用する方法を理解するのにも役立ちます。
 
-この記事では、各チーム テンプレートを紹介し、その使い方をお勧めします。
+Teams には、小売業のニーズに特化して設計されたテンプレートがあります。 これらの事前構築済みのテンプレートを使用して、スタッフがコミュニケーションや共同作業を行うチームを迅速に作成できます。 この記事では、これらの各テンプレートを紹介し、それらの使用方法を推奨します。
 
-この記事は、小売業の組織全体で複数のチームを計画、展開し、管理する責任があるユーザーに役立ちます。 組織内に Teams サービスがすでに展開されています。 展開がまだの場合は、「[Microsoft Teams の展開方法](./deploy-overview.md)」をお読みになって展開を開始してください。
+チーム テンプレートの管理方法と作業方法は、管理者か開発者かによって異なります。
 
-チーム テンプレート全般の詳細については、「チーム テンプレートの概要 [」を参照してください](get-started-with-teams-templates.md)。
-
-| 名前 | 使用する方法: |
+|以下の場合: | 次に、以下の場合: |
 | ---- | --------- |
-| 管理者と IT プロフェッショナル | [リテール チーム Teamsに基](#use-the-team-templates-in-the-teams-admin-center)づいてチームを作成するには、管理センターを使用します。|
-| 開発者およびシステム インテグレーター | [Microsoft Graphを使用](#use-the-team-templates-with-the-microsoft-graph)して、リテール チーム テンプレートに基づいてチームを作成します。 |
+| 管理者または IT 担当者 |[Teams 管理センターでチーム テンプレートを管理します](#manage-team-templates-in-the-teams-admin-center)。 チーム テンプレートを表示し、テンプレート ポリシーを適用して、Teams でチームの作成にスタッフが使用できるテンプレートを制御します。 |
+| 開発者 | [Microsoft Graph を使用](#use-team-templates-with-microsoft-graph)して、チーム テンプレートでチームを作成します。 |
 
-## <a name="use-the-team-templates-in-the-teams-admin-center"></a>管理センターでチーム テンプレートTeams使用する
+## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理センターでチーム テンプレートを管理する
+
+管理者として、Microsoft Teams 管理センターでチーム テンプレートを管理できます。 こちらで、各テンプレートに関する詳細を表示できます。 [テンプレート ポリシーを作成してスタッフに割り当て](templates-policies.md)、[チームの作成](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)のために Teams でスタッフが表示できるテンプレートを制御することもできます。 
+
+一般的なチーム テンプレートの詳細については、「[Teams 管理センターでチーム テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)」をご参照ください。
+
+現在、次の事前構築済みの小売業チーム テンプレートを提供しています。 表示するには、Teams 管理センターの左側のナビゲーションで、**[Teams]**、 > **[チーム テンプレート]** の順に移動します。
 
 ### <a name="organize-a-store"></a>店舗を整理する
 
-小売業の従業員を 1 つのエクスペリエンスにまとめ、タスクの管理、ドキュメントの共有、およびお客様の問題の解決を行います。 追加のアプリケーションを統合して、シフトの開始と終了のプロセスを合理化します。
+小売業の従業員を 1 つのエクスペリエンスにまとめ、タスクの管理、ドキュメントの共有、およびお客様の問題の解決を行います。 追加のアプリを統合して、シフトの開始と終了のプロセスを合理化します。
 
-| 基本テンプレートの種類 |baseTemplateId | この基本テンプレートに含まれるプロパティ |
+| テンプレートの種類 |TemplateId | このテンプレートに含まれるプロパティ |
 | ------------------|-- |----------------------------------------------------- |
-|店舗を整理する|`retailStore`|チャネル: <ul><li>全般<li>シフトのハンドオフ</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li></ul>|
-||||
+|店舗を整理する| `retailStore` |チャネル: <ul><li>全般<li>シフトのハンドオフ</li><li>ストアの準備状況<ul><li>検査 &sup1;</li></ul></li><li>学習</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>Shifts</li><li>検査</li></ul>|
+
+&sup1; アプリがタブとしてチャネルに追加されました。
 
 ### <a name="manager-collaboration"></a>マネージャー コラボレーション
 
-マネージャー コラボレーション テンプレートは、複数のマネージャーが複数の店舗/地域間で共同作業を行うチームを作成する場合に最適です。たとえば、組織に地域がある場合は、カリフォルニア地域のマネージャー コラボレーション チームを作成し、その地域のすべてのストア マネージャーをその地域の地域マネージャーと共に含める場合があります。
+マネージャー コラボレーションのテンプレートは、マネージャーのグループが店舗や地域間でコラボレーションするためのチームを作成する場合などに最適です。たとえば、組織に地域別のグループがある場合、カリフォルニア地域のマネージャー コラボレーション チームを作成し、その地域の地域マネージャーに合わせたその地域のすべての店舗マネージャーを含めることができます。
 
-| 基本テンプレートの種類| baseTemplateId | この基本テンプレートに含まれるプロパティ |
+| テンプレートの種類| TemplateId | このテンプレートに含まれるプロパティ |
 | ------------------|- |----------------------------------------------------- |
-|小売業 - マネージャー コラボレーション|`retailManagerCollaboration` |チャネル: <ul><li>全般<li>操作</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li></ul>|
+|マネージャー用小売業|`retailManagerCollaboration` |チャネル <ul><li>全般<li>操作<ul><li>タスク (操作タスク) &sup1;</li><li>検査 &sup1;</li></ul></li><li>学習<ul><li>タスク (学習タスク) &sup1;</li></ul></li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>検査</li></ul>|
 ||||
 
-## <a name="use-the-team-templates-with-the-microsoft-graph"></a>Microsoft アカウントでチーム テンプレートを使用Graph
+&sup1; アプリがタブとしてチャネルに追加されました。
 
-### <a name="store-template"></a>店舗テンプレート
+## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
+
+開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートでチームを作成できます。 Microsoft Graph を使用したチーム テンプレートの使用方法に関する詳細については、[Microsoft Graph を使用して、チーム テンプレートの使用を開始する](get-started-with-teams-templates.md)、[Microsoft Teams API の概要](/graph/teams-concept-overview?view=graph-rest-1.0)、[teamsTemplate リソースの種類](/graph/api/resources/teamstemplate?view=graph-rest-1.0)を参照してください。
+
+こちらに事前構築済みの小売業チーム テンプレートを示します。
+
+### <a name="store"></a>ストア
 
 店舗テンプレートは、個々の小売店の場所を表すチームを作成するのに最適です。 店舗テンプレートを使用して、組織内の小売店の場所ごとにチームを作成できます。
 
-| 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
+| テンプレートの種類 | TemplateId | テンプレート チャネル |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 小売業 - <br>店舗 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| チャネル <ul><li>シフト ハンドオフ\*</li><li>学習\*</li></ul>\*自動的にお気に入りに登録されたチャネル<br><br>チームのプロパティ <ul><li>チームの可視性を公開に設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルを作成/更新/削除できません </li><li>アプリを追加/削除できません </li><li>タブを作成/更新/削除できません</li><li>コネクタを作成/更新/削除できません</li><ul>|
+| 小売業 - <br>店舗 | `https://graph.microsoft.com/beta/teamsTemplates('retailStore')`| チャネル <ul><li>全般</li><li>シフトの引き継ぎ &sup2;</li><li>ストアの準備状況</li><li>学習 &sup2;</li></ul>チームのプロパティ <ul><li>チームの可視性を公開に設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルを作成、更新、削除できません </li><li>アプリを追加、削除できません </li><li>タブを作成、更新または削除できません</li><li>コネクタを作成、更新、削除できません</li><ul>|
 ||||
+
+&sup2; お気に入りに自動登録されたチャネル
 
 組織の店舗テンプレートをカスタマイズするための推奨される方法:
 
 - 組織の各店舗に部門がある場合は、部門ごとにチャネルを追加します。 チャネルを追加すると、部門内のコミュニケーションとコラボレーションが容易になります。
 
-- 組織に内部 Web サイト (SharePoint サイトなど) がある場合は、それらを関連するチーム チャネルのタブとして固定することを検討してください。 手順については [、「チーム テンプレートの使用」](get-started-with-teams-templates.md) を参照してください。
+- 組織に内部 Web サイト (SharePoint サイトなど) がある場合は、それらを関連するチーム チャネルのタブとして固定することを検討してください。
 
-### <a name="manager-collaboration-template"></a>マネージャー コラボレーションのテンプレート
+### <a name="manager-collaboration"></a>マネージャー コラボレーション
 
-マネージャー コラボレーション テンプレートは、小売業者のニーズを中心に設計されたチーム テンプレートの 1 つです。 マネージャー コラボレーションのテンプレートは、マネージャーのグループが店舗や地域間でコラボレーションするためのチームを作成する場合などに最適です。 たとえば、組織に地域別のグループがある場合、カリフォルニア地域のマネージャー コラボレーション チームを作成し、その地域のすべての店舗マネージャーと、その地域の地域マネージャーを含めることができます。
+マネージャー コラボレーションのテンプレートは、マネージャーのグループが店舗や地域間でコラボレーションするためのチームを作成する場合などに最適です。たとえば、組織に地域別のグループがある場合、カリフォルニア地域のマネージャー コラボレーション チームを作成し、その地域の地域マネージャーに合わせたその地域のすべての店舗マネージャーを含めることができます。
 
-| 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
+| テンプレートの種類 | TemplateId | テンプレート チャネル |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 小売業 - <br>店舗 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| チャネル <ul><li>操作\*</li><li>学習\*</li></ul>\*自動的にお気に入りに登録されたチャネル<br><br>チームのプロパティ <ul><li>チームの可視性を非公開に設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルを作成/更新/削除できます </li><li>アプリを追加/削除できます </li><li>タブを作成/更新/削除できます</li><li>コネクタを作成/更新/削除できます</li><ul>|
+| 小売業 - <br>店舗 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| チャネル <ul><li>全般</li><li>操作 &sup2;</li><li>学習 &sup2;</li></ul>チームのプロパティ <ul><li>チームの可視性を非公開に設定</li></ul> <br>メンバーのアクセス許可 <ul><li>チャネルを作成、更新、削除できます </li><li>アプリを追加および削除できます </li><li>タブを作成、更新、削除できます</li><li>コネクタを作成、更新、削除できます</li><ul>|
 ||||
+
+&sup2; お気に入りに自動登録されたチャネル
 
 組織のマネージャー コラボレーションのテンプレートをカスタマイズするための推奨される方法:
 
-- 組織に、SharePoint サイトなど、マネージャーに関連する内部 Web サイトがある場合は、それらを関連するチーム チャネルのタブとして固定することを検討してください。 手順については、Microsoft チーム テンプレート [のドキュメント](get-started-with-teams-templates.md) を参照してください。
+- 組織に、SharePoint サイトなど、マネージャーに関連する内部 Web サイトがある場合は、それらを関連するチーム チャネルのタブとして固定することを検討してください。
 
-## <a name="how-to-use-first-party-templates"></a>ファースト パーティ テンプレートの使い方
+### <a name="how-to-use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する方法
 
-これらのテンプレートを使用するには、要求本文の「template@odata.bind」プロパティを「standard」から上記の TemplateID に変更します。  チーム テンプレートをデプロイする方法の詳細については、Microsoft Graph チームの作成方法に関する[記事を参照してください](/graph/api/team-post?view=graph-rest-beta)。
+これらのテンプレートを使用するには、要求本文の「template@odata.bind」プロパティを「standard」から上記の TemplateID に変更します。  Teams テンプレートを展開する方法の詳細については、「[Teams の作成](/graph/api/team-post?view=graph-rest-beta)方法に関する Microsoft Graph の記事」をご参照ください。
 
 > [!NOTE]
 > テンプレートのチャネルは自動的に [全般] タブに作成されます。
@@ -115,3 +130,9 @@ Microsoft チーム テンプレートを使用すると、設定、チャネル
   ]
 }
 ```
+
+## <a name="related-articles"></a>関連記事
+
+- [Teams 管理センターで Teams テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
+- [Teams アプリでテンプレートからチームを作成する](https://support.microsoft.com/en-us/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
+- [Microsoft Graph を使用して、チーム テンプレートの使用を開始する](get-started-with-teams-templates.md)

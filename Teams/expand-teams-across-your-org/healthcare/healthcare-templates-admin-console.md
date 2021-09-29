@@ -1,8 +1,8 @@
 ---
-title: 医療テンプレートを使用してチームを作成する
-author: cichur
-ms.author: v-cichur
-manager: serdars
+title: Teamsの医療テンプレートを使用する
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -12,91 +12,100 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.reviewer: ''
-description: 管理センターまたは Microsoft Graph でチーム テンプレートを使用すると、設定、チャネル、アプリの定義済みのテンプレートを提供することで、チームをすばやく簡単に作成できます。
+ms.reviewer: yinchang
+description: 医療組織のチームを迅速かつ簡単に作成するために、Teams 管理センターや Microsoft Graph で医療テンプレートを管理および使用する方法を説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c5da6c5df17dacbfb38e519ca4f1f751ed40fc02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.openlocfilehash: 00da42e4e573306a3737b1d35e89292b04df4fa4
+ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596181"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59991126"
 ---
-# <a name="use-a-healthcare-team-templates"></a>医療チーム テンプレートを使用する
+# <a name="use-healthcare-team-templates"></a>Teamsの医療テンプレートを使用する
 
-テンプレートを使用すると、設定、チャネル、およびプレインストールされたアプリの定義済みのテンプレートを提供することで、チームをすばやく簡単に作成できます。
+Microsoft Teams のチーム テンプレートでは、設定、チャネル、事前にインストールされたアプリの定義済みチーム構造を使用することで、チームをすばやく簡単に作成できます。
 
-医療組織の場合、テンプレートは特に強力な機能を持つ可能性があります。テンプレートは、ユーザーが効果的にアプリケーションを使用する方法をMicrosoft Teams。 また、テンプレートを使用すると、管理者は組織全体で一貫したチームを展開できます。 この記事は、貴社の医療組織全体で複数のチームを計画、展開し、管理する責任があるユーザーに役立ちます。
+医療組織の場合、チーム テンプレートは特に強力で、組織全体に一貫したチームを迅速に展開するのに役立ちます。 テンプレートは、スタッフが Teams を効果的に使用する方法を理解するのにも役立ちます。
 
-チームの医療テンプレートを使用してチームを作成する方法を選択します。
+Teams には、医療組織用に特化して設計されたテンプレートがあります。 これらの事前構築済みのテンプレートを使用して、患者の治療や運用上の必要に応じてスタッフがコミュニケーションや共同作業を行うチームを迅速に作成できます。 この記事では、これらの各テンプレートを紹介し、それらの使用方法を推奨します。
 
-| 名前 | 使用する方法: |
+チーム テンプレートの管理方法と作業方法は、管理者か開発者かによって異なります。
+
+|以下の場合: | 次に、以下の場合: |
 | ---- | --------- |
-| 管理者と IT プロフェッショナル | [管理センター Teams、](#use-the-team-templates-in-the-admin-center)医療チームテンプレートに基づいてチームを作成します。|
-| 開発者およびシステム インテグレーター | [Microsoft Graph](#use-the-team-templates-with-the-microsoft-graph)を使用して、医療チーム のテンプレートに基づいてチームを作成します。 |
+| 管理者または IT 担当者 |[Teams 管理センターでチーム テンプレートを管理します](#manage-team-templates-in-the-teams-admin-center)。 チーム テンプレートを表示し、テンプレート ポリシーを適用して、Teams でチームの作成にスタッフが使用できるテンプレートを制御します。 |
+| 開発者 | [Microsoft Graph を使用](#use-team-templates-with-microsoft-graph)して、チーム テンプレートでチームを作成します。 |
 
-## <a name="use-the-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートを使用する
+## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理センターでチーム テンプレートを管理する
 
-Microsoft Teams管理者は、管理センター Teamsチーム テンプレートを使用してチームを作成できます。 現在、ファースト パーティの医療テンプレートが 2 つ提供されています。このテンプレートはさまざまな状況で使用できます。 チーム テンプレート全般の詳細については、「管理センターでチーム テンプレートの使用を開始する [」を参照してください](../../get-started-with-teams-templates-in-the-admin-console.md)。
+管理者として、Microsoft Teams 管理センターでチーム テンプレートを管理できます。 こちらで、各テンプレートに関する詳細を表示できます。 [テンプレート ポリシーを作成してスタッフに割り当て](../../templates-policies.md)、[チームの作成](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)のために Teams でスタッフが表示できるテンプレートを制御することもできます。 
 
-### <a name="collaborate-on-patient-care"></a>患者の治療で共同作業を行う
+一般的なチーム テンプレートの詳細については、「[Teams 管理センターでチーム テンプレートの使用を開始する](../../get-started-with-teams-templates-in-the-admin-console.md)」をご参照ください。
 
- 病棟、ポッド、部門内の医療コミュニケーションと共同作業を合理化できます。 このテンプレートを使用すると、患者や病棟の業務上のニーズの管理に容易に対応できます。
+現在、次の事前構築済みの医療チーム テンプレートを提供しています。 表示するには、Teams 管理センターの左側のナビゲーションで、**[Teams]**、 > **[チーム テンプレート]** の順に移動します。
+### <a name="patient-care"></a>患者のケア
 
-| 基本テンプレートの種類 |baseTemplateId| この基本テンプレートに含まれるプロパティ |
+ このテンプレートは、病棟、ポッド、部門内でのコミュニケーションと共同作業を対象としています。 このテンプレートを使用して、患者や病棟の業務上のニーズの管理に容易に対応できます。 たとえば、*[お知らせ]* チャネルで病棟のお知らせを投稿し、*[スタッフ]* チャネルでシフトを管理します。
+
+| テンプレートの種類 |TemplateId| このテンプレートに含まれるプロパティ |
 | ------------------ |---|----------------------------------------------------- |
-| 患者の治療で共同作業を行う |`healthcareWard` | チャネル<ul><li>全般</li><li>お知らせ</li><li>ハドル</li><li>ラウンド</li><li>人員配置</li><li>トレーニング</li></ul> アプリ: <ul><li>Wiki</li><li>リスト</li></ul>|
+| 患者のケア |`healthcareWard` | チャネル<ul><li>全般</li><li>お知らせ<ul><li>情報 &sup1;</li></ul></li><li>打ち合わせ<ul><li>リスト (患者リスト) &sup1;</li></ul></li><li>ラウンド<ul><li>検査 &sup1;</li></ul></li><li>人員配置</li><li>トレーニング</li></ul> アプリ: <ul><li>Wiki</li><li>リスト</li><li>タスク</li><li>承認</li><li>Shifts</li><li>情報</li><li>検査</li></ul>|
 ||||
+
+&sup1; アプリがタブとしてチャネルに追加されました。
+### <a name="hospital"></a>病院
+
+このテンプレートは、病院内の複数の病棟、ポッド、部門間のコミュニケーションと共同作業を対象としています。 このテンプレートには、病院での活動のためのチャネルのセットが含まれており、拡張してさらにカスタマイズすることもできます。
+
+| テンプレートの種類 |TemplateId | このテンプレートに含まれるプロパティ |
+| ------------------|-- |----------------------------------------------------- |
+|病院|`healthcareHospital`|チャネル <ul><li>全般<ul><li>リスト &sup1;</li></ul></li><li>お知らせ<ul><li>情報 &sup1;</li></ul></li><li>コンプライアンス</li><ul><li>検査 &sup1;</li></ul></li><li>親権</li><li>人事管理<ul><li>アイデア&sup1;</li></ul></li><li>薬局</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>リスト</li><li>承認</li><li>Shifts</li><li>情報</li><li>検査</li><li>アイデア</li></ul>|
+||||
+
+&sup1; アプリがタブとしてチャネルに追加されました。
+## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
+
+開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートでチームを作成できます。 Microsoft Graph を使用したチーム テンプレートの使用方法に関する詳細については、[Microsoft Graph を使用して、チーム テンプレートの使用を開始する](../../get-started-with-teams-templates.md)、[Microsoft Teams API の概要](/graph/teams-concept-overview?view=graph-rest-1.0)、[teamsTemplate リソースの種類](/graph/api/resources/teamstemplate?view=graph-rest-1.0)を参照してください。
+
+こちらに事前構築済みの医療チーム テンプレートを示します。
+### <a name="ward"></a>病棟
+
+この病棟用テンプレートは、病棟、ポッド、部門内でのコミュニケーションと共同作業を対象としています。 このテンプレートを使用すると、患者や病棟の業務上のニーズの管理に容易に対応できます。 たとえば、病棟の連絡事項は、*お知らせ* チャネルに投稿され、シフトは、 *スタッフィング* で管理できます。 このテンプレートは、病棟業務の効率化を図っている場合に最適です。
+
+|[テンプレートの種類] |TemplateId |テンプレート チャネル|
+|:--- |:---|:---|
+|医療 - 病棟 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | 全般<br>お知らせ &sup2; <br> 打ち合わせ &sup2; <br> ラウンド &sup2; <br> 人員配置 &sup2; <br> トレーニング &sup2; |
+|     | |         |
+
+&sup2; お気に入りに自動登録されたチャネル
 
 ### <a name="hospital"></a>病院
 
-病院内の複数の病棟、ポッド、部門間のコミュニケーションと共同作業を合理化します。 このテンプレートには、病院での活動のための基本チャネルのセットが含まれています。自分で拡張して専門分野をその場で含めすることもできます。
+病院のテンプレートは、病院内の複数の病棟、ポッド、部門間のコミュニケーションと共同作業を対象としています。 このテンプレートには、*お知らせ*、*管理*、*薬局* など、いくつかの運用チャネルがあります。 また、追加の部署や専門チャネルを使用してテンプレートを拡張するために使用できるスクリプトも用意されています。 ニーズに合わせてスクリプトを編集できます。
 
-| 基本テンプレートの種類 |baseTemplateId | この基本テンプレートに含まれるプロパティ |
-| ------------------|-- |----------------------------------------------------- |
-|病院|`healthcareHospital`|チャネル <ul><li>全般</li><li>お知らせ</li><li>コンプライアンス</li><li>親権</li><li>人事管理</li><li>薬局</li></ul> アプリ: <ul><li>Wiki</li><li>リスト </li></ul>|
-||||
+たとえば、*Endocrinology (内分泌学)* 部門はあるが、*Ophthalmology (眼科学)* のチャネルが必要ない場合、スクリプトで調整して、*Endocrinology (内分泌学)* チャネルを含め、 *Ophthalmology (眼科学)* のチャネルを削除することができます。 このような専門的なチャネルまたは病棟用に特化したチャネルは、過度の通知を回避するために、自動的にお気に入りに登録しないことをお勧めします。 ユーザーは通常、自分に関連するチャンネルをお気に入りにしています。
 
-
-## <a name="use-the-team-templates-with-the-microsoft-graph"></a>Microsoft アカウントでチーム テンプレートを使用Graph
-
-開発者は、Microsoft Graphを使用して、チーム テンプレートを使用してチームを作成できます。 現在、ファースト パーティの医療テンプレートが 2 つ提供されています。このテンプレートはさまざまな状況で使用できます。 チーム テンプレート全般の詳細については、「チーム テンプレートの概要 [」を参照してください](../../get-started-with-teams-templates.md)。 また、チーム テンプレートと Microsoft Graphについては、「Microsoft Teams [API](/graph/teams-concept-overview?view=graph-rest-1.0)の概要」と[「teamsTemplate リソースの種類」を参照してください](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
-
-### <a name="ward-template"></a>病棟用テンプレート
-
-この病棟用テンプレートは、病棟、ポッド、部門内でのコミュニケーションと共同作業を対象としています。 このテンプレートを使用すると、患者や、病棟の業務上のニーズの管理が容易にできます。 たとえば、病棟の連絡事項は、*お知らせ* チャネルに投稿され、シフトは、 *スタッフィング* で管理できます。 このテンプレートは、病棟業務の効率化を図っている場合に最適です。
-
-|基本テンプレートの種類 |baseTemplateId |ベースライン テンプレート チャネル|
+|テンプレートの種類 |TemplateId |テンプレート チャネル|
 |:--- |:---|:---|
-|ヘルスケア - 病棟 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | お知らせ\* <br> ハドル\* <br> ラウンド\* <br> 人員配置\* <br> トレーニング\* |
-|     | |         |
-
-\*自動的にお気に入りに登録する
-
-### <a name="hospital-template"></a>病院のテンプレート
-
-病院のテンプレートは、病院内の複数の病棟、ポッド、部門間のコミュニケーションと共同作業を対象としています。 このテンプレートには、*お知らせ*、*カストディアル* および *薬品* を含むいくつかの運用チャネルが含まれていますが、テンプレートの拡張が可能なスクリプトも用意されています。このスクリプトに、必要に応じて追加の部門、専門的な中枢チャネルを追加、削除、または編集できます。 たとえば、*Endocrinology (内分泌学)* 部門はあるが、*Ophthalmology (眼科学)* のチャネルが必要ない場合、スクリプトで調整して、*Endocrinology (内分泌学)* チャネルを含め、 *Ophthalmology (眼科学)* のチャネルを削除することができます。 このような専門的なチャネルまたは病棟用に特化したチャネルは、過度の通知を回避するために、自動的にお気に入りに登録しないことをお勧めします。 ユーザーは通常、自分に関連するチャンネルをお気に入りにしています。
-
-|基本テンプレートの種類 |baseTemplateId |ベースライン テンプレート チャネル|
-|:--- |:---|:---|
-|医療 - 病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | お知らせ\* <br> コンプライアンス\* <br> カストディアル <br> 人事 <br> 薬局 |
+|医療 - 病院 | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | 全般<br>お知らせ &sup2; <br> コンプライアンス &sup2; <br> カストディアル <br> 人事 <br> 薬局 |
 | | |  |
 
-\*自動的にお気に入りに登録する 
+&sup2; お気に入りに自動登録されたチャネル
 
-### <a name="how-to-use-first-party-templates"></a>ファースト パーティ テンプレートの使い方
+### <a name="how-to-use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する方法
 
-これらのテンプレートを使用するには、要求本文の 'template@odata.bind' プロパティを '標準' から TemplateIDs に変更します。  チーム テンプレートをデプロイする方法の詳細については、Microsoft Graph チームの作成方法に関する[記事を参照してください](/graph/api/team-post?view=graph-rest-beta)。
+これらのテンプレートを使用するには、要求本文の「template@odata.bind」プロパティを「standard」から上記の TemplateID に変更します。 Teams テンプレートを展開する方法の詳細については、「[Teams の作成](/graph/api/team-post?view=graph-rest-beta)方法に関する Microsoft Graph の記事」をご参照ください。
 
 > [!NOTE]
-> テンプレートのチャネルは自動的に [全般] タブに作成されます。
+> テンプレートのチャネルは自動的に **[全般]** タブに作成されます。
 
 #### <a name="example-hospital-template-extension-script"></a>例: 病院テンプレート拡張機能スクリプト
 
@@ -200,8 +209,10 @@ Microsoft Teams管理者は、管理センター Teamsチーム テンプレー�
 
 ```
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-articles"></a>関連記事
 
-[チーム テンプレートの使用](../../get-started-with-teams-templates.md)
+[Teams 管理センターで Teams テンプレートの使用を開始する](../../get-started-with-teams-templates-in-the-admin-console.md)
 
-[医療組織向けチームの使用を開始する](teams-in-hc.md)
+[Microsoft Graph を使用して、チーム テンプレートの使用を開始する](../../get-started-with-teams-templates.md)
+
+[医療組織向けの Teams の使用を開始する](teams-in-hc.md)
