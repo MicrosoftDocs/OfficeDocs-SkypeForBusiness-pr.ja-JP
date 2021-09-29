@@ -1,54 +1,55 @@
 ---
-title: 管理センターでチーム テンプレートを使用する
-author: cichur
-ms.author: v-cichur
-manager: serdars
+title: 管理センターでチーム テンプレートをTeamsする
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: aaglick
+ms.reviewer: yinchang
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: チーム テンプレートを使用して、プレインストールされているテンプレートを使用して、さまざまなトピックのチャネルとのコラボレーション スペースを作成する方法について説明します。
+description: チーム テンプレートと、管理センターでチーム テンプレートを管理するMicrosoft Teams説明します。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ab5eb94740138af0405378728516bd4dfbaf2c7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19333badf3df580129ab7a805cf27c670748d299
+ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584561"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59991146"
 ---
-# <a name="get-started-with-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートの使用を開始する
+# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>管理センターでチーム テンプレートをTeamsする
 
 **カスタム テンプレートを作成する機能は、EDU のお客様ではまだサポートされていません。**
 
 > [!NOTE]
 > プライベート チャネルと感度ラベルは、チーム テンプレートでは現在サポートされていません。 プライベート チャネルの作成は、テンプレート定義には含まれません。 [テンプレート フローからチームを作成 **する** ] の [感度ラベル] オプションは、チームには適用されません。
 
-チーム テンプレートは、ビジネス の必要性やプロジェクトを中心に設計されたチームの構造を事前に構築した定義です。 事前構築済みのテンプレートを使用するか、独自のテンプレートを作成します。 チーム テンプレートを使用すると、さまざまなトピックのチャネルを含む豊富なコラボレーション スペースをすばやく作成し、ミッション クリティカルなコンテンツとサービスを取り込むアプリをプレインストールできます。 チーム テンプレートは、組織全体で一貫性のあるチームを簡単に作成するのに役立つ定義済みのチーム構造を提供します。 現時点では、テンプレートからチームを作成するか、または Microsoft Teams を使用[Graph。](get-started-with-teams-templates.md)
+## <a name="overview"></a>概要
 
-この記事では、次の機能について説明します。
+Microsoft Teamsチーム テンプレートは、ビジネスの必要性やプロジェクトを中心に設計されたチームの構造の定義です。 管理者は、テンプレートを使用して、組織全体に一貫性のあるチームを簡単にデプロイできます。 テンプレートを使用すると、ユーザーは定義済みの設定、チャネル、アプリを使用して、豊富なコラボレーション スペースをすばやく作成できます。
 
-- テンプレートで定義できるプロパティ。
-- 基本テンプレートの種類。
-- いくつかのサンプル要求を使用して、テンプレートからチームを作成する方法。
+チーム テンプレートは、管理センターで管理Microsoft Teams PowerShell を使用して管理できます。 提供されている事前構築済みのテンプレートを使用できます。また、独自のカスタム [テンプレートを作成することもできます](#create-your-own-team-templates)。 また、テンプレート[ポリシーを適用して](#apply-team-template-policies)、ユーザーが使用できるテンプレートを管理Teams。
 
-この記事は、組織全体で複数のチームを計画、デプロイ、管理する責任がある場合に役立ちます。
+この記事では、管理センターでチーム テンプレートを操作するTeams説明します。 テンプレートでサポートされているプロパティ、提供される事前構築済みのテンプレート、テンプレート サイズの制限、テンプレートの作成と管理の方法などについて説明します。
+
+> [!NOTE]
+> ユーザーは[、アプリ内の事前構築](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)済みのチーム テンプレートまたはカスタム チーム テンプレートからTeamsできます。 開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートからチームをプログラムで作成することもできます。 詳細については、「Microsoft Graph を使用したチーム テンプレートの[使用」を参照してください](get-started-with-teams-templates.md)。
 
 ## <a name="team-template-capabilities"></a>チーム テンプレートの機能
 
-チーム内のほとんどのプロパティは、テンプレートに含まれてサポートされています。 ただし、現在サポートされていないいくつかのプロパティと機能があります。 次の表は、チーム テンプレートに含まれているものと含まれていないものについて簡単に説明しています。
+チーム内のほとんどのプロパティは、チーム テンプレートに含まれてサポートされます。 ただし、現在サポートされていないいくつかのプロパティと機能があります。 チーム テンプレートに含まれるものと含まれていないものについて、概要を次に示します。
 
 | **チーム テンプレートでサポートされるチームのプロパティ** | **チーム テンプレートでまだサポートされていないチームのプロパティ** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| 基本テンプレートの種類 | チーム メンバーシップ |
+| テンプレートの種類 | チーム メンバーシップ |
 | チーム名 | チームの画像 |
 | チームの説明 | チャネル設定 |
 | チームの可視性 (パブリックまたはプライベート) | コネクタ |
@@ -58,44 +59,42 @@ ms.locfileid: "58584561"
 | ピン留めされたタブ | |
 
 > [!NOTE]
-> Microsoft Teams の今後のリリースでテンプレート機能を追加する予定なので、サポートされているプロパティに関する最新の情報を確認してください。
+> Microsoft Teams の将来のリリースでテンプレート機能を追加する予定なので、サポートされているプロパティに関する最新の情報を確認してください。
 
-## <a name="what-are-base-template-types"></a>基本テンプレートの種類
+## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Teams 管理センターの事前構築済みのチーム テンプレート
 
-基本テンプレートの種類は、Microsoft が特定の業界向けに作成した特別なテンプレートです。 これらの基本テンプレートには、多くの場合、アプリ ストアで使用できない独自のアプリが含まれている場合があります。
+管理センターで使用できる事前構築済みのチーム テンプレートTeams示します。 事前構築済みのテンプレートは、特定の業界向けに作成したテンプレートです。 これらのテンプレートを表示するには、管理センターの左側のTeamsチーム テンプレート に移動Teams  >  **移動します**。
 
-基本テンプレートの種類を定義したら、指定するプロパティを追加して、これらの特殊なテンプレートを拡張またはオーバーライドできます。 一部の基本テンプレートの種類には、オーバーライドできないプロパティが含まれている場合があります。
+事前構築済みのテンプレートを複製できますが、編集は行えはありません。 事前構築済みのテンプレートのプロパティを変更する場合は、既存のテンプレートから新しいテンプレートを作成し、必要なプロパティを追加または削除できます。 一部のテンプレートの特定のプロパティを変更することはできません。
 
-> [!NOTE]
-> 事前に定義された基本テンプレートは、複製Microsoft Teams編集は可能です。
-
-| 基本テンプレートの種類 | baseTemplateId | この基本テンプレートに含まれるプロパティ |
+| テンプレートの種類 | TemplateId | このテンプレートに含まれるプロパティ |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 導入Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  チャネル <ul><li>全般</li> <li>お知らせ</li> <li>チャンピオン コーナー</li> <li>チーム フォーム</li><li>カレンダー</li></ul> アプリ: <ul><li>Wiki</li>  <li>チャネルカレンダー</li> |
-| プロジェクトを管理する |`com.microsoft.teams.template.ManageAProject`| チャネル <ul><li>全般</li> <li>お知らせ</li> <li>リソース</li> <li>計画</li></ul> アプリ:<ul><li>Wiki</li><li>OneNote</li><li>プランナー</li><li>リスト</li>  </ul> |
-| イベントを管理する|`com.microsoft.teams.template.ManageAnEvent` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ:<ul><li>Wiki</li><li>Web サイト</li> <li>YouTube</li> <li>プランナー</li> <li>OneNote</li> <li>従業員のアイデア</li> <li>問題レポーター</li></ul> |
-|従業員のオンボード|`com.microsoft.teams.template.OnboardEmployees` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>従業員チャット</li> <li>トレーニング</li></ul>アプリ:<ul><li>Wiki</li><li>コミュニティ</li><li>プランナー</li><li>従業員のアイデア</li></ul>|
-|ヘルプ デスクを整理する| `com.microsoft.teams.template.OrganizeHelpDesk`|チャネル<ul><li>全般</li><li>お知らせ</li><li>よくあるご質問 (FAQ)</li></ul>アプリ:<ul><li>Wiki</li><li>OneNote</li><li>プランナー </li><li>称賛</li><li>問題レポーター</li></ul> |
-| 患者のケア| `healthcareWard`| チャネル<ul><li>全般</li><li>お知らせ</li><li>ハドル</li><li>ラウンド</li><li>人員配置</li><li>トレーニング</li></ul> アプリ: <ul><li>Wiki</li><li>リスト  </li><li>承認</li></ul>|
-| グローバルな危機やイベントで共同作業を行う |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| チャネル <ul><li>全般<li>お知らせ</li><li>世界のニュース</li><li>ビジネス継続性</li><li>リモート作業</li><li>内部 comms</li><li>外部通信</li><li>承認要求</li><li>顧客からの苦情</li><li>Kudos</li><li>エグゼクティブの更新</li></ul>アプリ: <ul><li>称賛</li><li>Wiki</li><li>Web サイト</li><li>プランナー</li><li>問題レポーター</li></ul>|
-|銀行支店| `com.microsoft.teams.template.CollaborateWithinABankBranch`|チャネル <ul><li>全般<li>お知らせ</li><li>ハドル</li><li>顧客会議</li><li>承認要求 </li><li>コーチング</li><li>スキル開発</li><li>ローン処理</li><li>顧客からの苦情</li><li>Kudos</li><li>楽しい情報</li><li>コンプライアンス</li></ul>アプリ:<ul><li>称賛 </li><li>問題レポーター</li></ul>|
-|インシデント対応| `com.microsoft.teams.template.CoordinateIncidentResponse`|チャネル <ul><li>全般<li>お知らせ</li><li>物流</li><li>計画</li><li>回復</li><li>緊急</li></ul> アプリ: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>プランナー</li> <li>承認</li> <li>検査</li> </ul>|
-|病院| `healthcareHospital` |チャネル <ul><li>全般</li><li>お知らせ</li><li>コンプライアンス</li><li>親権</li><li>人事管理</li><li>薬局</li></ul> アプリ: <ul><li>Wiki</li><li>リスト  </li></ul>|
-|店舗を整理する| `retailStore` |チャネル: <ul><li>全般<li>シフトのハンドオフ</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li><li>プランナー</li></ul>|
-|品質と安全性 |`com.microsoft.teams.template.QualitySafety`|チャネル <ul><li>全般<li>お知らせ</li><li>1 行目</li><li>2 行目</li><li>3 行目</li><li>安全性</li><li>トレーニング</li><li>メンテナンス</li><li>楽しい情報</li></ul> アプリ: <ul><li>Wiki</li><li>プランナー</li> <li>問題レポーター</li> <li>検査</li> </ul>|
-|マネージャー向けリテール| `retailManagerCollaboration` |チャネル <ul><li>全般<li>操作</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li><li>プランナー</li></ul>|
-||||
+| 導入Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  チャネル <ul><li>全般</li> <li>お知らせ</li> <li>チャンピオン コーナー</li> <li>チーム フォーム</li><li>カレンダー</li></ul> アプリ: <ul><li>Wiki</li>  <li>チャネルカレンダー</li> <li>マイルストーン</li><li>情報</li></ul>|
+| プロジェクトを管理する |`com.microsoft.teams.template.ManageAProject`| チャネル <ul><li>全般</li> <li>お知らせ</li> <li>リソース</li> <li>計画</li></ul> アプリ:<ul><li>Wiki</li><li>OneNote</li><li>タスク</li><li>リスト</li><li>Power Automate</li></ul> |
+| イベントを管理する|`com.microsoft.teams.template.ManageAnEvent` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ:<ul><li>Wiki</li><li>Web サイト</li> <li>YouTube</li> <li>タスク</li> <li>OneNote</li> <li>従業員のアイデア</li> <li>問題レポーター</li><li>Power Automate</li><li>情報</li><li>マイルストーン</li></ul> |
+|従業員のオンボード|`com.microsoft.teams.template.OnboardEmployees` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>従業員チャット</li> <li>トレーニング</li></ul>アプリ:<ul><li>Wiki</li><li>コミュニティ</li><li>タスク</li><li>従業員のアイデア</li><li>Power Automate</li><li>情報</li><li>マイルストーン</li></ul>|
+|ヘルプ デスクを整理する| `com.microsoft.teams.template.OrganizeHelpDesk`|チャネル<ul><li>全般</li><li>お知らせ</li><li>よくあるご質問 (FAQ)</li></ul>アプリ:<ul><li>Wiki</li><li>OneNote</li><li>タスク </li><li>称賛</li><li>問題レポーター</li><li>Power Automate</li><li>情報</li></ul> |
+| 患者のケア| `com.microsoft.teams.template.healthcareWard`| チャネル<ul><li>全般</li><li>お知らせ</li><li>ハドル</li><li>ラウンド</li><li>人員配置</li><li>トレーニング</li></ul> アプリ: <ul><li>Wiki</li><li>リスト  </li><li>承認</li><li>情報</li><li>検査</li></ul>|
+| 危機的なコミュニケーション |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| チャネル <ul><li>全般<li>お知らせ</li><li>世界のニュース</li><li>内部 comms</li><li>外部通信</li><li>承認要求</li><li>顧客のエスカレーション</li><li>エグゼクティブの更新</li><li>計画</li><li>物流</li></ul>アプリ: <ul><li>Web サイト</li><li>タスク</li><li>問題レポーター</li><li>承認</li><li>情報</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
+|銀行支店| `com.microsoft.teams.template.CollaborateWithinABankBranch`|チャネル <ul><li>全般<li>お知らせ</li><li>ハドル</li><li>顧客会議</li><li>承認要求 </li><li>コーチング</li><li>スキル開発</li><li>ローン処理</li><li>顧客からの苦情</li><li>Kudos</li><li>楽しい情報</li><li>コンプライアンス</li></ul>アプリ:<ul><li>称賛 </li><li>問題レポーター</li><li>Wiki</li><li>カレンダー</li><li>承認</li><li>情報</li><li>アイデア</li></ul>|
+|インシデント対応| `com.microsoft.teams.template.CoordinateIncidentResponse`|チャネル <ul><li>全般<li>お知らせ</li><li>物流</li><li>計画</li><li>回復</li><li>緊急</li></ul> アプリ: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>タスク</li> <li>承認</li> <li>検査</li> <li>Power Automate</li><li>情報</li><li>マイルストーン</li></ul>|
+|病院| `com.microsoft.teams.template.healthcareHospital` |チャネル <ul><li>全般</li><li>お知らせ</li><li>コンプライアンス</li><li>親権</li><li>人事管理</li><li>薬局</li></ul> アプリ: <ul><li>Wiki</li><li>リスト</li><li>タスク</li><li>承認</li><li>Shifts</li><li>情報</li><li>検査</li><li>アイデア</li></ul>|
+|店舗を整理する| `com.microsoft.teams.template.retailStore` |チャネル: <ul><li>全般<li>シフトのハンドオフ</li><li>ストアの準備</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>Shifts</li><li>検査</li></ul>|
+|マネージャー向けリテール| `com.microsoft.teams.template.retailManagerCollaboration` |チャネル <ul><li>全般<li>操作</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>検査</li></ul>|
+|品質と安全性 |`com.microsoft.teams.template.QualitySafety`|チャネル <ul><li>全般<li>お知らせ</li><li>リーダーシップ</li><li>メンテナンス</li><li>生産ライン 1</li><li>生産ライン 2</li><li>生産ライン 3</li><li>正常性と安全性</li><li>トレーニング</li><li>楽しい情報</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li> <li>問題レポーター</li> <li>検査</li> </ul>|
 
-テンプレート カテゴリの詳細については、次のカテゴリを参照してください。
+### <a name="team-templates-by-category-and-industry"></a>カテゴリと業界別のチーム テンプレート
 
-- [財務テンプレート](financial-teams-templates-in-the-admin-console.md)
-- [一般的なテンプレート](general-teams-templates-in-the-admin-console.md)
-- [Government テンプレート](government-teams-templates-in-the-admin-console.md)
-- [医療テンプレート](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
-- [製造テンプレート](manufacturing-teams-templates-in-the-admin-console.md)
-- [リテール テンプレート](retail-teams-templates-in-the-admin-console.md)
+業界で事前構築されたテンプレートを使用する方法の詳細については、以下を参照してください。
 
-## <a name="template-size-limits"></a>テンプレート サイズの制限
+- [財務チームのテンプレート](financial-teams-templates-in-the-admin-console.md)
+- [一般的なチーム テンプレート](general-teams-templates-in-the-admin-console.md)
+- [政府機関のチーム テンプレート](government-teams-templates-in-the-admin-console.md)
+- [医療チームのテンプレート](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
+- [製造チーム テンプレート](manufacturing-teams-templates-in-the-admin-console.md)
+- [リテール チーム テンプレート](retail-teams-templates-in-the-admin-console.md)
+
+## <a name="team-template-size-limits"></a>チーム テンプレートのサイズ制限
 
 テンプレートは、特定の数のチャネル、タブ、アプリに制限されます。
 
@@ -109,11 +108,31 @@ ms.locfileid: "58584561"
 |テンプレートあたりのアプリ数 | 50|
 |||
 
-詳細[については、「Teamsの](limits-specifications-teams.md)制限と仕様」を参照してください。
+詳細については、 の制限[と仕様に関するページをTeams。](limits-specifications-teams.md)
 
-## <a name="manage-templates-in-powershell"></a>PowerShell でテンプレートを管理する
+## <a name="manage-team-templates"></a>チーム テンプレートを管理する
 
-PowerShell でテンプレートを管理するには、次のコマンドを使用します。
+### <a name="manage-team-templates-in-the-teams-admin-center"></a>管理センターでチーム テンプレートTeams管理する
+
+#### <a name="view-team-templates"></a>チーム テンプレートを表示する
+
+チーム テンプレートを表示するには、管理センターの左側のTeamsチーム テンプレート に移動Teams  >  **移動します**。 テンプレートを選択すると、含まれるチャネルやアプリなど、詳細が表示されます。
+
+#### <a name="create-your-own-team-templates"></a>独自のチーム テンプレートを作成する
+
+独自のカスタム テンプレートは、ゼロから作成したり、既存のチームから作成したり、既存のテンプレートから作成したりすることができます。 詳細については、次を参照してください。
+
+- [カスタム チーム テンプレートを作成する](create-a-team-template.md)
+- [既存のチームからテンプレートを作成する](create-template-from-existing-team.md)
+- [既存のチーム テンプレートからチーム テンプレートを作成する](create-template-from-existing-template.md)
+
+#### <a name="apply-team-template-policies"></a>チーム テンプレート ポリシーを適用する
+
+ユーザーがチームを作成するために Teams に表示されるテンプレートを制御するには、テンプレート ポリシーを設定し、組織内のユーザーとグループに割り当てる必要があります。 詳細については、「管理センターでチーム テンプレート[を管理する」Teams参照してください](templates-policies.md)。
+
+### <a name="manage-team-templates-using-powershell"></a>PowerShell を使用してチーム テンプレートを管理する
+
+PowerShell でテンプレートを管理するには、次のコマンドレットを使用します。
 
 - [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
@@ -121,8 +140,7 @@ PowerShell でテンプレートを管理するには、次のコマンドを使
 - [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-articles"></a>関連記事
 
-- [カスタム チーム テンプレートを作成する](create-a-team-template.md)
-- [既存のチーム テンプレートからチーム テンプレートを作成する](create-template-from-existing-template.md)
-- [既存のチームからテンプレートを作成する](create-template-from-existing-team.md)
+- [テンプレートからチームを作成する](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
+- [Microsoft Graph を使用してチーム テンプレートの使用を開始する](get-started-with-teams-templates.md) 
