@@ -21,23 +21,23 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: MICROSOFT TEAMS でユーザーの電話会議 PIN をリセットする方法と、PIN に関する重要な事実について説明します。
-ms.openlocfilehash: 206d625fdf656af5c4b30fdcc9f87dae760807cd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: ユーザーの電話会議 PIN を Microsoft Teamsする方法と、PIN に関する重要な事実について説明します。
+ms.openlocfilehash: 6e2e25f05be1b2e14a41d8a102e05f735ef6c09b
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730096"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "60007777"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>Microsoft Teams で電話会議の PIN をリセットする
 
-PIN は、電話会議を有効にしているユーザーごとに作成Microsoft Teams番号で構成されるコードです。 電話会議 PIN は、会議の開催者が会議の開催者を識別し、電話で会議を開始するために使用されます。 会議を開始Microsoft Teamsアプリを使用する場合、PIN は必要ありません。 ユーザーが自分の PIN を忘れて、電話会議を有効にした場合に送信されたメールで PIN が見つからなかった場合、管理者は PIN をリセットするか、自分の PIN をリセットできます。
+PIN は、電話会議を有効にしているユーザーごとに作成Microsoft Teams番号で構成されるコードです。 電話会議 PIN は、会議の開催者が会議の開催者を識別し、電話で会議を開始するために使用されます。 ユーザーが会議を開始Microsoft Teamsアプリを使用する場合、PIN は必要ありません。 ユーザーが自分の PIN を忘れて、電話会議を有効にした場合に送信されたメールで PIN が見つからなかった場合、管理者は PIN をリセットするか、自分の PIN をリセットできます。
   
 認証されたユーザーが Microsoft Teams アプリを使用して参加した場合、または開催者が電話で PIN を使用して参加するときに、会議を開始できます。 会議を開始するために PIN が必要な場合、電話で参加するユーザーはロビーに配置され、開催者が許可するまで保留音を聞きます。 会議の開催者が、電話で会議を開始するための PIN を要求しない場合、発信者は会議に参加しようとするときに PIN の提示を求められません。
 
 ## <a name="reset-a-users-pin"></a>ユーザーの PIN をリセットする
 
-![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -52,11 +52,12 @@ PIN は、電話会議を有効にしているユーザーごとに作成Microso
    
 ## <a name="have-a-user-reset-their-own-pin"></a>ユーザーに自分の PIN をリセットする
 
-1. ユーザーに に移動します [https://admin0m.online.lync.com/lscp/usp/pstnconferencing](https://admin0m.online.lync.com/lscp/usp/pstnconferencing) 。
+1. ユーザーに に移動します [https://dialin.teams.microsoft.com/usp](https://dialin.teams.microsoft.com/usp) 。
 2. [PIN **のリセット] をクリックします**。 
 
 > [!NOTE]
-> GCCH の場合は、 に移動します https://webdir2g.online.gov.skypeforbusiness.us/lscp/usp/pstnconferencing 。
+> GCCH の場合は、 に移動します https://dialin.cpc.gov.teams.microsoft.us/usp 。
+> DoD の場合は、 に移動します https://dialin.cpc.dod.teams.microsoft.us/usp 。
 
 ## <a name="what-else-should-you-know-about-pins"></a>PIN について知っておくべきその他のこと
 
@@ -72,7 +73,7 @@ PIN は、電話会議を有効にしているユーザーごとに作成Microso
     
 - 電話会議を設定するときに、組織内の PIN に必要な数字を設定します。 PIN は 4 桁から 12 桁まで指定できます。既定値は 5 です。 PIN の長さの設定を変更した場合、この設定は新しく生成された PIN にのみ適用され、電話会議が有効になっている既存のユーザーの PIN 設定には適用されません。 「 [電話会議会議の PIN の長さを設定する」を参照してください](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
     
-- 既定では、メールはユーザーのプライマリ SMTP Microsoft 365またはOffice 365に設定されます。 メールアドレスは、Microsoft 365または MSN メール アドレスなどのOffice 365アドレスHotmail送信できます。 既定のメール アドレスは、既定のメール アドレスを無効Windows PowerShell。 これは、ユーザーがメールボックス内のメールボックスを持ExchangeまたはMicrosoft 365場合Office 365。
+- 既定では、メールはユーザーのプライマリ SMTP Microsoft 365またはOffice 365に設定されます。 メールアドレスは、Microsoft 365または MSN メール アドレスなどのOffice 365アドレスHotmail送信できます。 既定のメール アドレスは、既定のメール アドレスを上書Windows PowerShell。 これは、ユーザーがメールボックス内のメールボックスを持ExchangeまたはMicrosoft 365場合Office 365。
 
     
 
