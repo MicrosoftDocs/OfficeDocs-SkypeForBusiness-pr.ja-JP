@@ -1,5 +1,5 @@
 ---
-title: ユーザーのダイヤルイン会議の PIN を設定Skype for Business Server
+title: Skype for Business Server でユーザーのダイヤルイン会議 PIN を設定する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-description: '概要: ユーザーのダイヤルイン会議用の PIN を設定Skype for Business Server。'
-ms.openlocfilehash: d3871fe99de89bdd1430e2b870f5ddd36be188ed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '概要: Skype for Business Server のユーザーのダイヤルイン会議 PIN を設定します。'
+ms.openlocfilehash: 0532a5972a373bd92d9fb72d0883d6c40542a91e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614217"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012321"
 ---
-# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>ユーザーのダイヤルイン会議の PIN を設定Skype for Business Server
+# <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Skype for Business Server でユーザーのダイヤルイン会議 PIN を設定する
  
-**概要:** ユーザーのダイヤルイン会議用の PIN を設定Skype for Business Server。
+**概要:** Skype for Business Server のユーザーのダイヤルイン会議 PIN を設定します。
   
 認証されたユーザーとしてダイヤルイン会議に参加するには、Active Directory ドメイン サービス (AD DS) 資格情報を持つ Skype for Business Server ユーザーに個人識別番号 (PIN) が必要です。 ユーザーがダイヤルイン会議 PIN を忘れた場合、または Skype for Business Server を使用して PIN を設定していない場合は、Skype for Business Server コントロール パネルからユーザーの PIN を設定できます。 PIN は自動で生成することも手動で作成することもできます。
   
@@ -33,7 +33,7 @@ ms.locfileid: "58614217"
 
 1. CsUserAdministrator または CsAdministrator の役割に割り当てられているユーザー アカウントから、内部展開の任意のコンピューターにログオンします。
     
-2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。  
+2. ブラウザー ウィンドウを開き、管理者 URL を入力して Skype for Business Server コントロール パネルを開きます。  
     
 3. 左側のナビゲーション バーで [**ユーザー**] をクリックします。
     
@@ -65,7 +65,7 @@ ms.locfileid: "58614217"
     
 7. [**暗証番号 (PIN) の設定**] ダイアログ ボックスで、次のどちらかの手順を実行します。
     
-   - ユーザーがSkype for Business Serverを生成するには、[有効な PIN を自動的に生成する **]** (既定) を選択します。
+   - Skype for Business Server でユーザーの PIN の生成を許可するには、[有効な PIN を **自動的** に生成する ] (既定) を選択します。
     
    - 自分の PIN を作成するには、[**特定の PIN を手動で入力**] をクリックして、テキスト ボックスをクリックし、PIN のポリシー設定で指定されている PIN の要件を満たす PIN を入力します。
     
@@ -79,13 +79,13 @@ ms.locfileid: "58614217"
     
 10. [**閉じる**] をクリックします。
     
-## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用したユーザー PIN の割りWindows PowerShellする
+## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用してユーザー PIN を割りWindows PowerShellする
 
-PIN 番号は、このコマンドレットを使用して割り当Set-CsClientPinすることもできます。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。 
+PIN 番号は、このコマンドレットを使用して割り当Set-CsClientPinすることもできます。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 Skype for Business Server への接続にリモート Windows PowerShellを使用する方法の詳細については [、「Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>PIN 番号をユーザーに自動割り当てるには
 
-次のコマンドでは、PIN 番号を Ken Myer というユーザーに割り当てます。 Pin パラメーターは含まれていないので、Skype for Business Server PIN 番号が自動的に生成され、割り当てされます。
+次のコマンドでは、PIN 番号を Ken Myer というユーザーに割り当てます。 Pin パラメーターは含まれていないため、Skype for Business Server は PIN 番号を自動的に生成して割り当てします。
     
   ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" 

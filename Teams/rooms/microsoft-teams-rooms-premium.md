@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: b60f920d6364599021f77d23fe890e11fae5c43e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7584011b3fc2f20318801b33e2be87f0f0cfe83e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597591"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012741"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 
@@ -44,7 +44,7 @@ Microsoft Teams Rooms の管理サービスの概要を以下に示します。
 |**分析情報と推奨事項**     |お客様の健康状態、使用状況、使用率、および機器の信頼性に関する分析情報。         |
 |**コンプライアンスと認定**   |Microsoft オンライン サービスの該当するすべての基準を満たしています。         |
 |**カスタマー サポート**   |Microsoft Teams Rooms の管理サービス オペレーション センター (SOC) による 24 時間 365 日対応のチケット サポート お客様に代わって他の主要ベンダーにエスカレーションします (該当する場合)。 詳細については、[カスタマー サポート](#customer-support)を参照してください。|
-|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*Surface Hub 2021 年後半にサポートされる予定です*        |
+|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*Surface Hub のサポートは 2021 年後半に予定されています*        |
 |**サポートされる地域**    |[サポートされる地域](#supported-regions)を参照してください。        |
 |**統合**    |お客様がホストする ServiceNow との統合が可能です。         |
 
@@ -74,7 +74,7 @@ Microsoft Teams Rooms の管理サービスのサービス品質を維持する�
 
 Microsoft Teams Rooms の管理サービスは、専用の Microsoft Teams Rooms の管理サービス SOC を通じてサポートされます。 Microsoft Teams Rooms の管理サービス SOC からお客様への主な通信モードは、Microsoft Teams Rooms の管理サービス ポータルを介したものです。 Microsoft Teams Rooms の管理サービス SOC は、システムまたは組織によって発行されたチケットに対する最初の応答と適切なエスカレーションを提供します。
 
-|  |  |
+|  | 説明 |
 |---------|---------|
 |**対象**   |会議室のアプリ、会議室のデバイス、および周辺機器に関連するインシデントは、Microsoft Teams Rooms の管理サービス サポートに含まれます。|
 |**対象ユーザー**  |IT 運用のみ         |
@@ -91,7 +91,7 @@ Microsoft Teams Rooms の管理サービスのサポート対象の詳細につ�
 
 ## <a name="supported-regions"></a>サポートされる地域
 
-Microsoft Teams Rooms プレミアムライセンスは、利用可能なすべての国と地域Microsoft 365利用できます。 国と地域の完全な一覧については、「Microsoft 365[を参照してください](https://www.microsoft.com/microsoft-365/business/international-availability)。
+Microsoft Teams Rooms Premium ライセンスは、Microsoft 365 が利用可能なすべての国と地域で利用できます。 国と地域の完全な一覧については [、Microsoft 365 の国際展開に関するページを参照してください](https://www.microsoft.com/microsoft-365/business/international-availability)。
 
 ## <a name="support-inclusions-and-exclusions"></a>サポート内容と除外事項
 
@@ -111,7 +111,7 @@ Microsoft Teams Rooms プレミアムライセンスは、利用可能なすべ�
 |**会議の体験**   |         |         |
 |Microsoft Teams Rooms アプリの会議設定内の問題を調査し、デバイスでサービスの品質を適切に構成するためのガイダンスを要求に応じて提供します。      |通話品質の問題またはネットワーク関連の問題の根本原因分析または調査は、この範囲から除外されます。         |Microsoft のメインストリーム サポート         |
 |**修復、オンボーディング、および進行中**     |         |         |
-|お客様は、オンボーディング時に Microsoft Teams Rooms の管理サービスによって推奨されている標準に会議室をもたらすためのガイダンスを受けます    |社内カスタム ソフトウェア イメージに関する調査や、Microsoft Teams Rooms の管理サービスが推奨するソフトウェア バージョンのガイダンスに準拠していない場合は、対象外となります。          |         |
+|お客様は、オンボーディング時に Microsoft Teams Rooms の管理サービスによって推奨されている標準に会議室をもたらすためのガイダンスを受けます    |社内カスタム ソフトウェア イメージに関する調査や、Microsoft Teams Rooms の管理サービスが推奨するソフトウェア バージョンのガイダンスに準拠していない場合は、対象外となります。   | |       
 
 ## <a name="data-collection"></a>データ収集
 

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 073d9ee391b42a476b0657dbf910f8d019699358
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 2c2bda6467bf819bdf9cf82713c24e8e9cd18d9d
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991206"
+ms.locfileid: "60007797"
 ---
 # <a name="use-retail-team-templates"></a>小売業チーム テンプレートを使用する
 
@@ -57,7 +57,7 @@ Teams には、小売業のニーズに特化して設計されたテンプレ�
 | ------------------|-- |----------------------------------------------------- |
 |店舗を整理する| `retailStore` |チャネル: <ul><li>全般<li>シフトのハンドオフ</li><li>ストアの準備状況<ul><li>検査 &sup1;</li></ul></li><li>学習</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>Shifts</li><li>検査</li></ul>|
 
-&sup1; アプリがタブとしてチャネルに追加されました。
+&sup1; アプリがタブとしてチャネルに追加されました
 
 ### <a name="manager-collaboration"></a>マネージャー コラボレーション
 
@@ -68,7 +68,7 @@ Teams には、小売業のニーズに特化して設計されたテンプレ�
 |マネージャー用小売業|`retailManagerCollaboration` |チャネル <ul><li>全般<li>操作<ul><li>タスク (操作タスク) &sup1;</li><li>検査 &sup1;</li></ul></li><li>学習<ul><li>タスク (学習タスク) &sup1;</li></ul></li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>検査</li></ul>|
 ||||
 
-&sup1; アプリがタブとしてチャネルに追加されました。
+&sup1; アプリがタブとしてチャネルに追加されました
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
 

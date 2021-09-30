@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '概要: ユーザーが通話を行い、受信する方法については、ユーザーが エンタープライズ VoIPを使用Skype for Business Server。'
-ms.openlocfilehash: 68e12d072e01f9df3691401569a7759ef842570f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04533245348672afedfac113f3fd64188a2efba2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607260"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012771"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>ユーザーがユーザーのエンタープライズ VoIPを有効Skype for Business Server
  
@@ -54,7 +54,7 @@ ms.locfileid: "58607260"
     
 7. [ユーザーの **編集Skype for Business Server] ページ** の [テレフォニー]**で、[** ユーザーの設定]**をエンタープライズ VoIP。**
     
-8. [**回線 URI**] をクリックし、正規化された一意の電話番号 (たとえば、tel:+14255550200) を入力します。
+8. [ **回線 URI]** をクリックし、正規化された一意の電話番号 (たとえば) を入力します `tel:+14255550200` 。
     
 9. [**確定**] をクリックします。
     

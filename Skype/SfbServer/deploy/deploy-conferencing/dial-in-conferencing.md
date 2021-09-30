@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: '概要: このトピックを参照して、ダイヤルイン会議を構成する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: a9d48b5232a446f81de1acf14cddfa054f74d488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3533220dc84f131b02f180bb863883b371cbf365
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609954"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013791"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>会議でダイヤルイン会議を構成Skype for Business Server
  
@@ -157,7 +157,7 @@ ms.locfileid: "58609954"
     
 6. [ **表示名]** に、ダイヤルイン アクセス番号の説明を入力します。 これは、検索結果のダイヤルイン アクセス番号に関連付Skype for Businessです。 この名前は、ユーザーがアクセス番号を呼び出す際にクライアントに表示されます。 
     
-7. [ **行 URI]** に、ダイヤルイン アクセス番号の E.164 番号を TEL URI 形式で入力します。この番号の前に + 記号を付け、スペースを除きます。 たとえば、tel:+14255550200。
+7. [ **行 URI]** に、ダイヤルイン アクセス番号の E.164 番号を TEL URI 形式で入力します。この番号の前に + 記号を付け、スペースを除きます。 たとえば、`tel:+14255550200` などです。
     
     > [!NOTE]
     > 同じ回線 URI を別のダイヤルイン会議アクセス番号で再利用することはできません。 

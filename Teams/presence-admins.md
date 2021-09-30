@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8a928b532dcfb87a866f25502f4523078ce9cd48
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725828"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012961"
 ---
 # <a name="user-presence-in-teams"></a>Teams でのユーザーのプレゼンス
 
@@ -33,6 +33,7 @@ ms.locfileid: "58725828"
 
  > [!NOTE]
  > Teams はプライバシー設定を尊重しますので、プライバシー モードを有効にしている場合は、あなたの存在が外部のユーザーには表示されません。
+
 ## <a name="presence-states-in-teams"></a>Teams でのプレゼンス状態
 
 
@@ -50,10 +51,10 @@ ms.locfileid: "58725828"
 | ![黄色の時計アイコンは、退席中を示します。](media/Presence_Away.png) [退席中]| ![黄色の時計アイコンは、退席中を示します。](media/Presence_Away.png) 退席中|
 || ![黄色の時計アイコンは、退席中を示す *前回の退席中表示](media/Presence_Away.png)時刻*|
 |![黄色の時計アイコンは、一時退席中を示します。](media/Presence_Away.png) 一時退席中| |
-|![X マーク付き灰色の丸、オフラインを示します。](media/Presence_Offline.png) オフライン表示|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン。ユーザーがどのデバイスにも数分間ログインしていない場合、ユーザーはオフラインとして表示されます。 | |
+|![X マーク付き灰色の丸、オフラインを示します。](media/Presence_Offline.png) オフライン表示|![X マーク付き灰色の丸、オフラインを示す](media/Presence_Offline.png) オフライン。ユーザーがどのデバイスにも数分間ログインしていない場合、ユーザーはオフラインとして表示されます。 |
 || ![灰色枠の丸は、状態不明を示します。](media/Presence_Unknown.png) 状態不明|
 || ![矢印付き紫色の丸、外出中を示します。](media/Presence_OOF.png) 外出中。自動応答が設定されている場合、外出中が使用されます。 |
-|||
+
  > [!NOTE]
  > メールボックスをオンプレミスで運用しているユーザーの場合、プレゼンスは最大 1 時間程度の遅延が予想されます。
 
@@ -82,7 +83,6 @@ ms.locfileid: "58725828"
 | 多忙|1 日|
 | 応答不可|1 日|
 | その他|7 日間|
-|||
 
 > [!NOTE]
 > ユーザーは、プレゼンスの期間を手動で構成することもできます。 たとえば、ユーザーは自分を明日の朝までオフラインで表示するように設定できます。

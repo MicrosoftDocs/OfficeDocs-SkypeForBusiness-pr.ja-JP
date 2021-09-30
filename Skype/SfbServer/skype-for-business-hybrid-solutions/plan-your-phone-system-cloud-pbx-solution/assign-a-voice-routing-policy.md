@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: '概要: このトピックでは、オンプレミス PSTN 接続を使用してユーザーに音声ポリシーを割り当てる方法電話システム説明します。'
-ms.openlocfilehash: a3524c77cf27dc4fd9ab3a4f74211fc9040aad75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa31624921aefd1065b0719966af1df9d2b38793
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582541"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013171"
 ---
 # <a name="assign-a-voice-routing-policy"></a>音声ルーティング ポリシーの割り当て
  
@@ -37,10 +37,10 @@ ms.locfileid: "58582541"
   
 他の音声ポリシーでは、ユーザーが使用できる通話機能を定義します。この音声ポリシーは Microsoft によって定義され、オンプレミスの PSTN 接続電話システムと同じです。 ユーザーに自動的に割り当電話システムされます。
   
-||**オンプレミス ユーザー**|**電話システム PSTN 接続ユーザーとの通信**|
+|&nbsp;|オンプレミス ユーザー|電話システム PSTN 接続ユーザーとの通信|
 |:-----|:-----|:-----|
-|で定義された機能の呼び出し  <br/> |音声ポリシー  <br/> |ユーザーがユーザーのライセンスを取得するときに自動的に割り当てられる定義済みの音声電話システム。  <br/> |
-|関連付けられた PSTN 使用法レコード  <br/> |音声ポリシー  <br/> |ユーザーがまだオンプレミスに存在している間に割り当てられた音声ルーティング ポリシー。  <br/> |
+|で定義された機能の呼び出し   |音声ポリシー   |ユーザーがユーザーのライセンスを取得するときに自動的に割り当てられる定義済みの音声電話システム。   |
+|関連付けられた PSTN 使用法レコード   |音声ポリシー   |ユーザーがまだオンプレミスに存在している間に割り当てられた音声ルーティング ポリシー。   |
    
 ユーザーがオンプレミス展開にまだ存在している間、オンプレミス展開を使用して次の手順を実行します。
   
@@ -112,4 +112,4 @@ ms.locfileid: "58582541"
 
 この例では、表示名 Bob Kelly を持つユーザーが、HybridVoice という名前の以前に作成した音声ポリシーに割り当てられます。
   
-音声ルーティング ポリシーの詳細については、「音声ポリシーを作成または変更し、Skype for Business 2015、New-CsVoiceRoutingPolicy、[および Grant-CsVoicePolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)で PSTN 使用法レコードを構成する[」](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)を参照してください。 [](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)
+音声ルーティング ポリシーの詳細については、「音声ポリシーを作成または変更し、Skype for Business 2015、New-CsVoiceRoutingPolicy、[および Grant-CsVoicePolicy](/powershell/module/skype/new-csvoiceroutingpolicy)で PSTN 使用法レコードを構成する[」](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)を参照してください。 [](/powershell/module/skype/grant-csvoicepolicy)

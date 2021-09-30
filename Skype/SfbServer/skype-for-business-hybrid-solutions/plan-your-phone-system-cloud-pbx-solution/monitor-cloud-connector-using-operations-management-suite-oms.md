@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Microsoft Operations Management Suite (OMS) を使用してクラウド コネクタ バージョン 2.1 以降の展開を監視する方法については、このトピックを参照してください。
-ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf8a79b9b504b5a98592a169d3a507eb938353b9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729026"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012311"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Operations Management Suite (OMS) を使用したクラウド コネクタの監視
 
@@ -164,7 +164,7 @@ OMS には、結果アラートの数とメトリック測定アラートの 2 �
 
     このクエリでは、コンピューターに  *"MediationServer" が含まれるコンピューター フィルターを使用します*  。 フィルターは、名前に "MediationServer" という文字列が含まれているコンピューターのみを選択します。
 
-     フィルターを独自のコンピューター フィルターに置き換えるか、単に削除します。 正規表現を使用せずに複雑な文字列フィルターを作成できます。 詳細については [、「String 演算子」を参照してください](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators)。 正規表現を使用することもできます。 さらに、検索クエリを保存し、そのグループをアラート クエリのコンピューター フィルターとして使用して、コンピューター グループを作成できます。 詳細については [、「Log Analytics ログ検索のコンピューター グループ」を参照してください](/azure/log-analytics/log-analytics-computer-groups)。
+     フィルターを独自のコンピューター フィルターに置き換えるか、単に削除します。 正規表現を使用せずに複雑な文字列フィルターを作成できます。 正規表現を使用することもできます。 さらに、検索クエリを保存し、そのグループをアラート クエリのコンピューター フィルターとして使用して、コンピューター グループを作成できます。 詳細については [、「Log Analytics ログ検索のコンピューター グループ」を参照してください](/azure/log-analytics/log-analytics-computer-groups)。
 
     各コンピューターについて、エラー クエリは RTCMEDSRV サービスの開始とサービス停止の両方の最後のイベント ログを取得します。 最後のイベントがサービス停止イベントの場合は、ログが 1 つ返されます。最後のイベントがサービス開始イベントの場合は、何も返しません。 つまり、クエリは、RTCMEDSRV がタイム ウィンドウで停止しているサーバーの一覧を返します。 
 
@@ -251,8 +251,6 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 OMS の操作の詳細については、以下を参照してください。
 
 - [Log Analytics でログ検索を使用してデータを検索する](/azure/log-analytics/log-analytics-log-searches)
-
-- [Azure Log Analytics 言語リファレンス](https://docs.loganalytics.io/docs/Language-Reference)
 
 - [Log Analytics でのアラートについて](/azure/log-analytics/log-analytics-alerts)
 

@@ -21,26 +21,26 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Office 365 の電話会議 (PSTN 会議) ライセンスを試す方法または購入する方法を参照して、ダイヤル インできる電話会議をセットアップしてください。 '
-ms.openlocfilehash: 80b3dafce07298d2ca84cec94aa0c8a54020d9d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8830457873ee5555e503e88a27151d15233e217
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597431"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012341"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Microsoft 365 Online で電話会議をMicrosoft 365購入Office 365電話会議Skype for Businessする
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Microsoft Teams の電話会議の詳細については、「Microsoft 365 で電話会議を試用または購入する」または「Office 365 での電話会議の[Skype」をMicrosoft Teams。](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)
+> Microsoft Teams での電話会議の詳細については、「Microsoft 365 で電話会議を試用または購入する」または「Office 365 での電話会議Skype[を](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)Microsoft Teams。
 
 
-組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business、この状況に合った電話会議機能が含まれています。 参加者は、モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使って Skype for Business 会議にコールインできます。
+組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Skype for Business、この状況だけの電話会議機能が含まれています。 参加者は、モバイル デバイスや PC で Skype for Business アプリを使用する代わりに、電話を使って Skype for Business 会議にコールインできます。
 
 会議をスケジュールまたは開催する予定のユーザーに対して電話会議を設定する必要があります。 会議の出席者にミーティングへのライセンスが割り当てられている必要はなく、その他のセットアップも必要ありません。
 
-価格情報については、「[電話会議の価格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)」を参照してください。
+価格情報については、「電話会議 [」を参照してください](https://www.microsoft.com/microsoft-teams/audio-conferencing)。
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>手順 1: 電話会議ライセンスを購入して割り当てる
 
@@ -54,7 +54,7 @@ ms.locfileid: "58597431"
 
    - 購入する前に **お試し** ください。電話会議が含まれる Office 365 Enterprise E5 の無料試用版にサインアップできます。 [Office 365 Enterprise E5 の試用版](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3)を参照してください。
 
-   - **を購入** します [。「Skype for Business」と「Microsoft Teams ライセンス」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+   - **を購入** します [。「Skype for BusinessおよびMicrosoft Teamsライセンス」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
 3. [購入したユーザーのライセンスMicrosoft 365 Apps for business、](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)会議をスケジュールまたは開催する組織内のユーザーに割り当てるか、削除します。
 
@@ -88,15 +88,15 @@ ms.locfileid: "58597431"
 
 2. [招待に含まれる電話番号を設定します](set-the-phone-numbers-included-on-invites.md)。 これは、ユーザーが参加を予定している会議で表示される電話番号です。
 
-3. [電話会議の自動応答](set-auto-attendant-languages-for-audio-conferencing.md) が電話会議の電話番号にダイヤルインするときに発信者にあいさつするために使用する電話会議の自動応答言語を設定します。 この手順は、Microsoft を電話会議プロバイダーとして使用している場合にのみ適用されます。
+3. [電話会議の自動応答](set-auto-attendant-languages-for-audio-conferencing.md) が電話会議の電話番号にダイヤルインするときに発信者にあいさつするために使用する電話会議の自動応答言語を設定します。 この手順は、電話会議プロバイダーとして Microsoft を使用している場合にのみ適用されます。
 
-4. [電話会議の PIN の長さを設定します](set-the-pin-length-for-audio-conferencing-meetings.md)。
+4. [電話会議会議の PIN の長さを設定します](set-the-pin-length-for-audio-conferencing-meetings.md)。
 
 
 > [!NOTE]
-> この機能は、中国の 21Vianet Microsoft 365またはOffice 365を使用しているお客様は、まだ利用できません。 詳細については[、「21Vianet がMicrosoft 365またはOffice 365について学習する」を参照してください](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
+> この機能は、中国の 21Vianet Microsoft 365またはOffice 365を使用しているお客様は、まだ利用できません。 詳細については[、「21Vianet によってMicrosoft 365またはOffice 365について」を参照してください](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business Online をセットアップする](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

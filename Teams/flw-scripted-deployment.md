@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733436"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012761"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>現場担当者のために大規模に Teams をプロビジョニングする方法
 
@@ -203,7 +203,7 @@ Azure AD、MSAL、MSCloudUtils、MicrosoftTeams などのいくつかの PowerSh
 
 アプリは、アプリ バーにピン留めされます。このバーは、Teams デスクトップ クライアントの横および Teams モバイル クライアント (iOS および Android) の下側に表示されます。
 
-|Teams デスクトップ クライアント  |         |Teams モバイル クライアント  |
+|Teams デスクトップ クライアント  | &nbsp; |Teams モバイル クライアント  |
 |---------|---------|---------|
 |![アプリ バーにアプリがピン留めされた Teams デスクトップ クライアントのスクリーンショット。](media/flw-teams-desktop-client.png)         |         |![下部の バーにアプリがピン留めされた Teams モバイル クライアントのスクリーンショット。](media/flw-teams-mobile-client.png) |
 

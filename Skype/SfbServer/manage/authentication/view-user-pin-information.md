@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: '概要: ユーザーの PIN 情報をユーザーに表示Skype for Business Server。'
-ms.openlocfilehash: eb30ae22f5a80835e73962f0e2441633fdc1d46e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a77dbc71a186ff20b0136b3391f5ce33dcda1134
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622379"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014191"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>[ユーザーの PIN 情報を表示する] Skype for Business Server
  
@@ -65,7 +65,7 @@ ms.locfileid: "58622379"
     
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>ユーザーの PIN 情報を表示する方法 (Windows PowerShellコマンドレットを使用)
 
-Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN 情報を表示できます。 このコマンドレットは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+Get-CsClientPinInfo コマンドレットを使用して、ユーザーの PIN 情報を表示できます。 このコマンドレットは、管理シェルから、またはSkype for Business Serverのリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-view-user-pin-information"></a>ユーザーの PIN 情報を表示するには
 

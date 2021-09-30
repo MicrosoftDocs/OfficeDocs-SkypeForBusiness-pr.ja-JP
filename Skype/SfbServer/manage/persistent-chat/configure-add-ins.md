@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: '概要: 2015 年に常設チャット サーバー チャット ルーム用のアドインを構成するSkype for Business Serverします。'
-ms.openlocfilehash: f6ff42e57f72a6fa875e8123af91caa7f4e3efc0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab2ccbe3c9f23a7397ecdf7510da63bbd84b9d95
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599982"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013391"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>2015 年に常設チャット ルーム用のアドインをSkype for Business Serverする
  
@@ -71,7 +71,7 @@ ms.locfileid: "58599982"
 
 **New-CsPersistentChatAddin** コマンドレットを使用して、新しいアドインを作成できます。
   
-たとえば、次のコマンドは、プール サーバーの新しいアドイン (ITPersistentChatAddin という名前) を作成 atl-cs-001.contoso.com。 URL パラメーターとパラメーター値は、アドインの Web ページの http://atl-cs-001.contoso.com/itchat 場所を指定します。
+たとえば、次のコマンドは、プールの新しいアドイン (ITPersistentChatAddin という名前) を作成します `atl-cs-001.contoso.com` 。 URL パラメーターとパラメーター値は、アドインの Web ページの `http://atl-cs-001.contoso.com/itchat` 場所を指定します。
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>既存のアドインの設定を構成する
 
-**Set-CsPersistentChatAddIn** コマンドレットを使用して、既存のアドインの設定を構成できます。 たとえば、次のコマンドは、常設チャット アドイン ITPersistentChatAddin に割り当てられた URL を変更します。 この場合、URL は次の URL に変更されます。 http://atl-cs-001.contoso.com/itchat2:
+**Set-CsPersistentChatAddIn** コマンドレットを使用して、既存のアドインの設定を構成できます。 たとえば、次のコマンドは、常設チャット アドイン ITPersistentChatAddin に割り当てられた URL を変更します。 この場合、URL は次に変更されます `http://atl-cs-001.contoso.com/itchat2` 。
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>アドインを削除する
 
-**Remove-CsPersistentChatAddIn** コマンドレットを使用してアドインを削除できます。 たとえば、次のコマンドを実行すると、プール内にある常設チャット アドイン ITChatAddin が削除 atl-cs-001.contoso.com。
+**Remove-CsPersistentChatAddIn** コマンドレットを使用してアドインを削除できます。 たとえば、次のコマンドは、プールで見つかった常設チャット アドイン ITChatAddin を削除します `atl-cs-001.contoso.com` 。
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

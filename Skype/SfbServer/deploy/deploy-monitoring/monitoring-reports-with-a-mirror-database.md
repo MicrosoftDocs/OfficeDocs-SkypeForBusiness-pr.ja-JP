@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '概要: 監視レポートを、ユーザーが使用するミラー データベースに関連付けるSkype for Business Server。'
-ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600662"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014401"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>監視レポートとミラー データベースの関連付けSkype for Business Server 
  
@@ -33,15 +33,15 @@ ms.locfileid: "58600662"
     
    - **http:** プレフィックス。
     
-   - Reporting Services がインストールされているコンピューターの完全修飾ドメイン名 (FQDN) (たとえば **、atl-sql-001.litwareinc.com)。**
+   - Reporting Services がインストールされているコンピューターの完全修飾ドメイン名 (FQDN) (たとえば `atl-sql-001.litwareinc.com` )。
     
    - 文字列 **/Reports_**。
     
    - 監視レポートがインストールされているデータベース インスタンスの名前 (たとえば **、archinst)。**
     
-     たとえば、SQL Server Reporting Servicesがコンピューター atl-sql-001.litwareinc.com にインストールされ、監視レポートでデータベース インスタンス archinst が使用されている場合、ホーム ページの URL は次のようになります。
+     たとえば、コンピューター SQL Server Reporting Servicesがインストールされ、監視レポートでデータベース インスタンス archinst が使用されている場合、ホーム ページ `atl-sql-001.litwareinc.com` の URL は次のようになります。
     
-     **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
 2. Reporting Services のホーム ページにアクセスしたら **、[ServerReports]** をクリックし、[次へ] をクリック **Reports_Content。** この場合、監視 **レポートReports_Contentページ** Skype for Business Server表示されます。
     
@@ -63,7 +63,7 @@ ms.locfileid: "58600662"
     
 7. **[CDRDB] ページ** で、[追加] リンク **Reports_Content** クリックします。 **[QMSDB]** データ ソースをクリックし、QoE データベースの接続文字列を編集します。 次に例を示します。
     
-    Data source=(local)\archinst;フェールオーバー パートナー=atl-mirror-001\archinst;initial catalog=QoEMetrics
+    `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     
 8. **[適用]** をクリックします。
     

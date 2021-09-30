@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '概要: 通話品質ダッシュボードを使用する方法について学習します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8bd18b7be66c4ea9b3a69cd81d4c72fb641603eb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728266"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015081"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードを使用した通話Skype for Business Server
 
@@ -78,7 +78,7 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 棒グラフとスパークラインを表示するには、レポート エディターの上部にある [スパークラインの表示] チェック ボックスをオンにする必要があります。 [傾向] オプションを選択し、[月] を最後のディメンションに移動します。これは、[月] をクリックし、上矢印と下矢印を使用して StartDate.Month を上下にシフトすることでも実行できます。
 
-### <a name="settings"></a>設定
+### <a name="settings"></a>Settings
 
 [設定] メニューには、[System Health] ページや [概要] ページのような便利なページへのリンクが含まれています。ダッシュボードの右上隅にあります。
 
@@ -103,13 +103,13 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 **CqdBuilding**
 
-|列|データ型|Nulls を許可しますか?|詳細|
+|Column|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |int |いいえ |CqdBuilding テーブルの主キー。 |
+|BuildingKey |整数 |いいえ |CqdBuilding テーブルの主キー。 |
 |BuildingName |varchar(80) |いいえ |建物名。 |
 |BuildingShortName |varchar(10) |いいえ |建物名の短いバージョン。 |
-|OwnershipTypeId |int |いいえ |外部キーは、CqdBuildingOwners テーブルのエントリの 1 つと一致します。 |
-|BuildingTypeId |int |いいえ |外部キーは、CqdBuildingType テーブルのエントリの 1 つと一致します。 |
+|OwnershipTypeId |整数 |いいえ |外部キーは、CqdBuildingOwners テーブルのエントリの 1 つと一致します。 |
+|BuildingTypeId |整数 |いいえ |外部キーは、CqdBuildingType テーブルのエントリの 1 つと一致します。 |
 |Latitude |浮動小数点数 |はい |建物の緯度。 |
 |Longitude |浮動小数点数 |はい |建物の経度。 |
 |CityName |varchar(30) |はい |建物がある都市名。 |
@@ -119,53 +119,53 @@ StartDate.Month がディメンションとして追加され、データが表�
 |InsideCorp |ビット |はい |ビットは、建物が企業ネットワークの一部であるかどうかを示します。 |
 |BuildingOfficeType |nvarchar(150) |はい |建物のオフィスの種類の説明。 |
 |地域 |varchar(25) |はい |建物がある地域。 |
-|||||
+
 
 **CqdNetwork**
 
-|列|データ型|Nulls を許可しますか?|詳細|
+|Column|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
 |ネットワーク |varchar(25) |いいえ |サブネット アドレス。 |
 |NetworkRange |tinyint |はい |サブネット マスク。 |
-|NetworkNameID |int |はい |必要に応じて、CqdNetworkName テーブル内の行にマップします。 |
-|BuildingKey |int |はい |外部キーは、CqdBuilding テーブルのエントリの 1 つと一致します。 |
+|NetworkNameID |整数 |はい |必要に応じて、CqdNetworkName テーブル内の行にマップします。 |
+|BuildingKey |整数 |はい |外部キーは、CqdBuilding テーブルのエントリの 1 つと一致します。 |
 |UpdatedDate |日付型 |いいえ |エントリが最後に更新された日時。 |
-||||||
+
 
 既定では、この次の表には 1 つのエントリ (0、 '不明') があります。
 
 **CqdBuildingType**
 
-|列|データ型|Nulls を許可しますか?|詳細|
+|Column|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId |int |いいえ |CqdBuildingType テーブルの主キー。 |
+|BuildingTypeId |整数 |いいえ |CqdBuildingType テーブルの主キー。 |
 |BuildingTypeDesc |char(18) |いいえ |建物の種類の説明。 |
-|||||
+
 
 既定では、この次の表には 1 つのエントリ (0、'Unknown'、0、null) があります。
 
 **CqdBuildingOwnershipType**
 
-|列|データ型|Nulls を許可しますか?|詳細|
+|Column|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId |int |いいえ |CqdBuildingOwnershipType テーブルの主キー。 |
+|OwnershipTypeId |整数 |いいえ |CqdBuildingOwnershipType テーブルの主キー。 |
 |OwnershipTypeDesc |varchar(25) |いいえ |所有権の種類の説明。 |
 |LeaseInd |tinyint |はい |リースされた建物を識別するために使用される CqdBuildingOwnershipType テーブル内の別の行を参照するインデックス。 |
 |Owner |varchar(50) |はい |建物の所有者。 |
-|||||
+
 
 既定では、この次の表には 1 つのエントリ (0、'Unknown'、0、null) があります。
 
 **CqdBssid**
 
-|列|データ型|Nulls を許可しますか?|詳細|
+|Column|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
 |bss |nvarchar(50) |いいえ |CqdBssid テーブルの主キー。 WiFi アクセス ポイントの BSSID です。 |
 |ess |nvarchar(50) |はい |Wifi アクセス ポイント コントローラーの情報。 |
 |phy |nvarchar(50) |はい |Phy 情報。 |
 |ap |nvarchar(50) |はい |Wifi アクセス ポイント名。 |
 |建物 |nvarchar(500) |はい |[建物名] WiFi アクセス ポイントが位置します。 |
-||||
+
 
 ## <a name="cqd-streams"></a>CQD ストリーム
 
@@ -186,7 +186,7 @@ CQD ストリームは、良好、貧弱、または未分類と見なされま�
 |PacketLossRate |0.1 より大きい (10%) |
 |ジッターInterArrival |30 より大きい |
 |RatioConcealedSamplesAvg |0.07 より大きい |
-|||
+
 
 JPDR 定義 = 低い呼び出し定義から RatioConcealedSamplesAvg を引いた値
 
@@ -205,7 +205,7 @@ CQD は発信者/呼び出し先フィールドを使用しません。その代
 |2 (AVMCU) |4 (Skype for Business) |エンドポイント 1 |エンドポイント 2 |
 |2 (AVMCU) |1 (mMediationServer) |エンドポイント 2 |エンドポイント 1 |
 |4 (Skype for Business) |4 (Skype for Business) |MediaLine の発信者 |MMediaLine の呼び出し先 |
-|||||
+
 
 両方のエンドポイントが同じ種類の場合、CQD は [発信者] エントリを [最初] および [第 2 呼び出し先] に設定します。 エンドポイント名の詳細については、このブログ [を参照してください](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks)。
 
@@ -222,7 +222,7 @@ VPN ソリューションが VPN フラグを正確に設定することが分�
 
 - 測定
 - Dimension
-- フィルター
+- Filter
 
 整形式のクエリの例として、「6 号館 [フィルター] のサブネット [Dimension] ストリーム [測定] を表示する」 があります。
 

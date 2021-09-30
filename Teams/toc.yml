@@ -411,6 +411,8 @@ items:
                 href: set-up-call-analytics.md
               - name: 通話分析を使用して低品質の通話をトラブルシューティングする
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+              - name: リアルタイム テレメトリを使用して、低品質の会議をトラブルシューティングする
+                href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
           - name: サービスの品質 (QoS)
             items:
               - name: Teams の QoS をセットアップする

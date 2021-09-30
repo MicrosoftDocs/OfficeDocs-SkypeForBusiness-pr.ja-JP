@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: '概要: このトピックを参照して、電話会議のハードウェア要件とソフトウェア要件についてSkype for Business Server。'
-ms.openlocfilehash: bfc449abc2e01676a412fc0ead85eeae12aa2610
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5209b024ae3e5f5161e7ff777c30b66c3237b3c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733542"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013381"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>会議のハードウェア要件とソフトウェア要件Skype for Business Server
 
@@ -109,8 +109,6 @@ Skype for Business Server Web Apps サーバーで動作Skype for Business Serve
 
 Skype for Business Serverダイヤルイン会議の音声プロンプトと音楽のカスタマイズはサポートされていません。 ただし、既定のオーディオ ファイルを変更する必要がある強力なビジネスニーズがある場合は、「Microsoft サポート技術情報の記事 961177、[](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)ダイヤルイン電話会議用に音声プロンプトまたは音楽ファイルをカスタマイズする方法」を参照してください。
 
-[また、Microsoft Lync Server 会議アテンダント](https://go.microsoft.com/fwlink/p/?LinkId=396880)カスタム 音声プロンプト管理ユーティリティを使用して、電話の発信者が Skype for Business 会議に参加するときに使用される既定の音声プロンプトをカスタム プロンプトに置き換え、別の会議エントリ エクスペリエンスを提供できます。 カスタム音声プロンプトは、サーバーまたはサーバー EnterpriseインストールStandard Editionできます。
-
 会議アテンダント アプリケーションおよび会議アナウンス アプリケーション保留音、録音名、および音声プロンプト ファイルに関する次の要件があります。
 
 - Windows Media Audio (WMA) ファイル形式
@@ -132,7 +130,7 @@ Skype for Business Serverダイヤルイン会議の音声プロンプトと音�
 **必要なサーバー ポート**
 
 
-|**サーバーの役割**|**サービス名**|**Port**|**プロトコル**|**メモ**|
+|**サーバーの役割**|**サービス名**|**Port**|**プロトコル**|**注**|
 |:-----|:-----|:-----|:-----|:-----|
 |フロント エンド サーバー  <br/> |Skype for Business ServerIM 会議サービス  <br/> |5062  <br/> |TCP  <br/> |インスタント メッセージング (IM) 会議の SIP 要求を受信するために使用。  <br/> |
 |フロント エンド サーバー  <br/> |Skype for Business ServerWeb 会議サービス  <br/> |8057  <br/> |TCP (TLS)  <br/> |クライアントからの PSOM (永続共有オブジェクト モデル) 接続をリッスンするために使用。  <br/> |
@@ -144,13 +142,13 @@ Skype for Business Serverダイヤルイン会議の音声プロンプトと音�
 |フロント エンド サーバー  <br/> |Skype for Business Serverアプリケーション共有サービス  <br/> |5065  <br/> |TCP  <br/> |アプリケーション共有の SIP リッスン要求を受信するために使用。  <br/> |
 |フロント エンド サーバー  <br/> |Skype for Business Serverアプリケーション共有サービス  <br/> |49152-65535  <br/> |TCP  <br/> |アプリケーション共有で使用するメディア ポート範囲。  <br/> |
 |フロント エンド サーバー  <br/> |Skype for Business Server 会議アナウンス サービス  <br/> |5073  <br/> |TCP  <br/> |(つまり、ダイヤルイン会議用) Skype for Business Server 会議アナウンスサービスの受信 SIP 要求に使用されます。  <br/> |
-|すべての内部サーバー  <br/> |各種  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |すべての内部サーバーでのオーディオ会議で使用するメディア ポート範囲。 オーディオを終了するすべてのサーバーで使用されます。フロントエンド サーバー (Skype for Business Server 会議アテンダント サービス、Skype for Business Server 会議アナウンス サービス、Skype for Business Server オーディオ/ビデオ会議サービス用)、仲介サーバー。  <br/> |
+|すべての内部サーバー  <br/> |各種  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |すべての内部サーバーでのオーディオ会議で使用するメディア ポート範囲。 オーディオを終了するすべてのサーバーで使用されます。フロントエンド サーバー (Skype for Business Server 会議アテンダント サービス、Skype for Business Server 会議アナウンス、およびSkype for Business Server電話/ビデオ会議サービス)、仲介サーバー。  <br/> |
 |OfficeWeb Apps サーバー  <br/> ||443  <br/> ||Web Apps サーバー Skype for Business Server接続するためにOffice使用されます。  <br/> |
 
 **必要なクライアント ポート**
 
 
-|**Port**|**プロトコル**|**メモ**|
+|**Port**|**プロトコル**|**注**|
 |:-----|:-----|:-----|
 |443  <br/> |TCP (PSOM/TLS)  <br/> |Web 会議セッションへの外部ユーザー アクセスで使用。  <br/> |
 |443  <br/> |TCP (STUN/MSTURN)  <br/> |音声ビデオ セッションとメディアへの外部ユーザー アクセス (TCP) で使用  <br/> |

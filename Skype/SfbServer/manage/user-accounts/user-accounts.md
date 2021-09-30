@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: この記事のセクションでは、Active Directory ユーザーを有効、一時的に無効、または削除する方法について説明Skype for Business Server。
-ms.openlocfilehash: a604e08ad23f00f8eaf0342254df4563c0a6b864
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e33d22c8a4e3359a7fdbbb4c8420f3a0e65f5a4
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622189"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015161"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>ユーザー アカウントを管理Skype for Business Server
 
@@ -115,7 +115,7 @@ Active Directory ユーザーとコンピューターでユーザー アカウ�
 
 ### <a name="use-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Powershell Windowsを使用してユーザー アカウントを無効または再有効化する
 
-ユーザー アカウントは **、Set-CsUser** コマンドレットを使用して、一時的に無効にしてから、後で再び有効にすることができます。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+ユーザー アカウントは **、Set-CsUser** コマンドレットを使用して、一時的に無効にしてから、後で再び有効にすることができます。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
 
 ### <a name="to-disable-a-user-account"></a>ユーザー アカウントを無効にするには
 
@@ -186,7 +186,7 @@ Active Directory ユーザーとコンピューターでユーザー アカウ�
 
 ### <a name="remove-user-accounts-with-windows-powershell-cmdlets"></a>Powershell コマンドレットを使用してユーザー Windowsを削除する
 
-ユーザー アカウントは、このコマンドレットを使用Disable-CsUserできます。 このコマンドレットは、管理シェルからSkype for Business Serverリモート セッション から実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+ユーザー アカウントは、このコマンドレットを使用Disable-CsUserできます。 このコマンドレットは、管理シェルからSkype for Business Serverリモート セッション から実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
 
 ### <a name="to-remove-a-user-account"></a>ユーザー アカウントを削除するには
 ユーザー アカウントを削除するには、Disable-CsUser コマンドレットを使用します。次に例を示します。
@@ -204,4 +204,4 @@ Active Directory ユーザーとコンピューターでユーザー アカウ�
 
 [Enable-CsUser](/powershell/module/skype/enable-csuser)
 
-[Disable-CsUser](/powershell/module/skype/disable-csusers)
+[Disable-CsUser](/powershell/module/skype/disable-csuser)

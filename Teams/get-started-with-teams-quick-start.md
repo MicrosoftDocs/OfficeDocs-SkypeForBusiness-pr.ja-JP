@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: db18448960d2a2106005d292ebe6f232327fad2f
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729226"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014241"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Microsoft Teams の使用を開始する
 
@@ -44,6 +44,7 @@ ms.locfileid: "58729226"
 - [クラウド ボイス](cloud-voice-landing-page.md)
 
 ![Teams の展開経路を示す図。](media/get-started-with-teams-quick-start-pathways.png)
+
 
 中規模または大規模の組織の場合は、[Teams のアドバイザーを使用して、Microsoft Teams の展開を支援](use-advisor-teams-roll-out.md)し、組織全体でのこれらのワーク ロードの展開を計画するのに役立ててください。 アドバイザーは、Teams 自体を使用して計画タスクを作成し、それらを所有者に割り当て、ドキュメントを共有し、展開チーム間でのディスカッションを可能にします。
 
@@ -76,8 +77,8 @@ Teams を初めて使用する場合、Teams に慣れるための最良の方�
 
 Skype for Business (オンラインまたはオンプレミス) から Teams に参加している場合や、ハイブリッド構成が必要な場合は、Teams の展開では上記の「推奨されるパス」に従う必要がありますが、最初に追加の計画を立てる必要があります。まず、次の表のガイダンスを確認します。これらは組織のプロファイルに適用されます。
 
-|  |組織のプロファイル|ガイダンス  |
+|&nbsp;|組織のプロファイル|ガイダンス  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|現在 Skype for Business Online を使用しており、Teams に移行する準備が整っている。 |「[Teams へのアップグレード](upgrade-start-here.md)」に移動します。        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|組織で Skype for Business Server を実行しており、Teams の展開を希望している。 |本格的に Teams を展開するには、まず、オンプレミス環境と Microsoft 365 とのあいだでハイブリッド接続を構成する必要があります。「[Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を計画する](/skypeforbusiness/hybrid/plan-hybrid-connectivity)」を読むことから始めてください。<br><br>「[Teams へのアップグレード](upgrade-start-here.md)」も参照してください。   |
-|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Skype for Business Server はないが、オンプレミスの公衆交換電話網 (PSTN) ソリューションは所有している。Teams の展開は希望するが、オンプレミスの PSTN ソリューションも維持したい。 |この記事の提案に従って Teams を展開します。<br><br>次に、「[ダイレクト ルーティングを計画する](direct-routing-plan.md)」を読んで、電話システムのダイレクト ルーティングを使用してオンプレミスの PSTN ソリューションと Teams を接続する方法を確認してください。|
+|<IMG src="/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|現在 Skype for Business Online を使用しており、Teams に移行する準備が整っている。 |「[Teams へのアップグレード](upgrade-start-here.md)」に移動します。 |
+|<IMG SRC="/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|組織で Skype for Business Server を実行しており、Teams の展開を希望している。 |本格的に Teams を展開するには、まず、オンプレミス環境と Microsoft 365 とのあいだでハイブリッド接続を構成する必要があります。「[Skype for Business Server と Microsoft 365 または Office 365 間のハイブリッド接続を計画する](/skypeforbusiness/hybrid/plan-hybrid-connectivity)」を読むことから始めてください。<br><br>「[Teams へのアップグレード](upgrade-start-here.md)」も参照してください。   |
+|<IMG src="/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Skype for Business Server はないが、オンプレミスの公衆交換電話網 (PSTN) ソリューションは所有している。Teams の展開は希望するが、オンプレミスの PSTN ソリューションも維持したい。 |この記事の提案に従って Teams を展開します。<br><br>次に、「[ダイレクト ルーティングを計画する](direct-routing-plan.md)」を読んで、電話システムのダイレクト ルーティングを使用してオンプレミスの PSTN ソリューションと Teams を接続する方法を確認してください。|

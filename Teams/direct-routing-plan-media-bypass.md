@@ -17,24 +17,24 @@ f1.keywords:
 - NOCSH
 description: ダイレクト ルーティングを使用してメディア バイパス電話システムを計画する方法について説明します。これにより、メディア トラフィックのパスを短縮し、パフォーマンスを向上させることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8231a57d844539272c65709270b0a0477c50e214
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 35d67f2547011d15fe7d72ab99a34ca507394f7a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730486"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013131"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>ダイレクト ルーティングでメディア バイパスを計画する
 
 ## <a name="about-media-bypass-with-direct-routing"></a>ダイレクト ルーティングを使用したメディア バイパスについて
 
-メディア バイパスを使用すると、メディア トラフィックのパスを短縮し、転送中のホップ数を減らしてパフォーマンスを向上させることができます。 メディア バイパスでは、メディアは、セッション ボーダー コントローラー (SBC) とクライアントの間でメディアを送信する代わりに、Microsoft 電話されます。 メディア バイパスを構成するには、SBC とクライアントが同じ場所またはネットワークにある必要があります。
+メディア バイパスを使用すると、メディア トラフィックのパスを短縮し、転送中のホップ数を減らしてパフォーマンスを向上させることができます。 メディア バイパスを使用すると、メディアは、セッション ボーダー コントローラー (SBC) とクライアントの間でメディアを送信する代わりに、Microsoft 電話されます。 メディア バイパスを構成するには、SBC とクライアントが同じ場所またはネットワークにある必要があります。
 
 **-MediaBypass** パラメーターを true または false に設定して **Set-CSOnlinePSTNGateway** コマンドを使用して、各 SBC のメディア バイパスを制御できます。 メディア バイパスを有効にした場合、すべてのメディア トラフィックが企業ネットワーク内に残るという意味ではありません。 この記事では、さまざまなシナリオでの呼び出しフローについて説明します。
 
 次の図は、メディア バイパスの場合とメディア バイパスなしの呼び出しフローの違いを示しています。
 
-次の図に示すように、メディア バイパスを使用せずに、クライアントが呼び出しを行った場合または受信すると、SBC、Microsoft 電話 System、Teams クライアントの間で信号とメディアの両方のフローが発生します。
+次の図に示すように、メディア バイパスを使用しない場合、クライアントが呼び出しを行った場合または受信すると、SBC、Microsoft 電話 システム、Teams クライアントの間で信号とメディアフローの両方が発生します。
 
 > [!div class="mx-imgBorder"]
 > ![メディア バイパスなしで信号とメディア フローを表示します。](media/direct-routing-media-bypass-1.png)
@@ -51,7 +51,7 @@ ms.locfileid: "58730486"
   > [!div class="mx-imgBorder"]
   > ![メディア バイパスを使用した信号とメディア フローを示します。](media/direct-routing-media-bypass-2.png)
 
-メディア バイパスは、SBC 上の TEAMS クライアントと ICE lite で対話型接続確立 (ICE) と呼ばれるプロトコルを利用します。 これらのプロトコルにより、ダイレクト ルーティングは最適な品質のために最も直接的なメディア パスを使用できます。 ICE と ICE Lite は WebRTC 標準です。 これらのプロトコルの詳細については、RFC 5245 を参照してください。
+メディア バイパスは、SBC 上のクライアントと ICE lite の Teams接続確立 (ICE) と呼ばれるプロトコルを利用します。 これらのプロトコルにより、ダイレクト ルーティングは最適な品質のために最も直接的なメディア パスを使用できます。 ICE と ICE Lite は WebRTC 標準です。 これらのプロトコルの詳細については、RFC 5245 を参照してください。
 
 
 ## <a name="call-flow-and-firewall-planning"></a>呼び出しフローとファイアウォールの計画
@@ -89,7 +89,7 @@ ms.locfileid: "58730486"
 - メディア バイパスの場合、Microsoft は、Teams トランスポート リレーと SBC の間でポート 50 000 から 59 999 を開く必要があるトランスポート リレーのバージョンを使用します (将来、3478 - 3481 ポートが必要なバージョンに移行する予定です)。
 
 
-次の図は、メディア バイパスが有効で、クライアントが外部であり、クライアントがセッション ボーダー コントローラーのパブリック IP アドレスに到達できない場合の呼び出しフローを示しています (メディアは Teams トランスポート リレーによって中継されます)。
+次の図は、メディア バイパスが有効で、クライアントが外部であり、クライアントがセッション ボーダー コントローラーのパブリック IP アドレスに到達できない場合の呼び出しフローを示しています (メディアは Teams Transport Relay によってリレーされます)。
 
 - パスの矢印と数値は、呼び出しフローのMicrosoft Teams[に従います](./microsoft-teams-online-call-flows.md)。
 
@@ -102,7 +102,7 @@ ms.locfileid: "58730486"
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>ユーザーがネットワークの外部にいて、SBC のパブリック IP にアクセスできる場合の呼び出しフロー
 
 > [!NOTE]
-> この構成は、トランスポート リレーの機能を利用Teamsされていません。 代わりに、ユーザーが SBC のパブリック IP アドレスにアクセスできない前のシナリオを検討する必要があります。 
+> これは、トランスポート リレーの機能を利用しないので、Teamsではありません。 代わりに、ユーザーが SBC のパブリック IP アドレスにアクセスできない前のシナリオを検討する必要があります。 
 
 次の図は、メディア バイパスが有効で、クライアントが外部であり、クライアントが SBC (ダイレクト メディア) のパブリック IP アドレスに到達できる場合の呼び出しフローを示しています。
 
@@ -112,6 +112,7 @@ ms.locfileid: "58730486"
 
 > [!div class="mx-imgBorder"]
 > ![ユーザーが SBC のパブリック IP にアクセスできない場合の呼び出しフローを示します。](media/direct-routing-media-bypass-5.png)
+
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>メディア プロセッサとトランスポート リレーの使用
@@ -141,13 +142,13 @@ Microsoft Cloud には、メディア トラフィックのパスに含め可能
 
 次の表は、メディア プロセッサとトランスポート リレーの違いをまとめたものです。
 
-|    | メディア プロセッサ | トランスポート リレー|
+|  &nbsp; | メディア プロセッサ | トランスポート リレー|
 | :--------------|:---------------|:------------|
-エンド ユーザーのバイパスされていない呼び出しのメディア パス内 | いつも | クライアントがメディア プロセッサに直接到達できない場合 | 
-エンド ユーザーのバイパスされた呼び出しのメディア パス内 | ぜんぜん | クライアントがパブリック IP アドレスで SBC に到達できない場合 | 
-音声アプリケーションのメディア パス内 | いつも | ぜんぜん | 
-コード変換を実行できる (B2BUA)\* | はい | いいえ、エンドポイント間でのみオーディオをリレーします | 
-世界中のインスタンスの数と場所 | 合計 10: 米国東部と西部に 2。アムステルダムとダブリンの 2;香港、シンガポールの 2 つ。2 in Japan ;オーストラリア東部と南東部の 2 | 複数
+|エンド ユーザーのバイパスされていない呼び出しのメディア パス内 | いつも | クライアントがメディア プロセッサに直接到達できない場合 |
+|エンド ユーザーのバイパスされた呼び出しのメディア パス内 | ぜんぜん | クライアントがパブリック IP アドレスで SBC に到達できない場合 |
+|音声アプリケーションのメディア パス内 | いつも | ぜんぜん |
+|コード変換を実行できる (B2BUA)\* | はい | いいえ、エンドポイント間でのみオーディオをリレーします |
+|世界中のインスタンスの数と場所 | 合計 10: 米国東部と西部で 2。アムステルダムとダブリンの 2;香港、シンガポールの 2 つ。2 in Japan ;オーストラリア東部と南東部の 2 | 複数|
 
 IP 範囲は次のとおりです。
 - 52.112.0.0/14 (52.112.0.1 から 52.115.255.254 の IP アドレス)
@@ -165,7 +166,7 @@ Teamsメディア プロセッサは、次のシナリオでは常にメディ�
 
 - 通話は 1:1 からグループ通話にエスカレートされます
 - フェデレーション ユーザーへの呼び出Teamsしています
-- 通話が別のユーザーに転送Skype for Businessされます
+- 通話がユーザーに転送または転送Skype for Businessされます
 
 以下で説明するように、SBC がメディア プロセッサとトランスポート リレーの範囲にアクセスできる必要があります。    
 
@@ -178,13 +179,13 @@ SIP シグナルの場合、FQDN とファイアウォールの要件は、バ�
 - Microsoft 365またはOffice 365
 - Office 365 GCC
 - Office 365 GCC High
-- Office 365DoD Office 365、GCC [High、DoD](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)などの米国政府機関GCCについて学習します。
+- Office 365DoD 詳細については、Office 365 [GCC、High、DoD](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)などの米国政府GCC環境に関する情報を参照してください。
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、およびOffice 365 GCC環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 ダイレクト ルーティングの接続ポイントは、次の 3 つの FQDN です。
 
-- **sip.pstnhub.microsoft.com** – グローバル FQDN – 最初に試す必要があります。 SBC がこの名前を解決する要求を送信すると、Microsoft Azure DNS サーバーは、SBC に割り当てられているプライマリ Azure データセンターを指す IP アドレスを返します。 この割り当ては、データセンターのパフォーマンス メトリックと SBC に対する地理的な近接性に基づいて行われます。 返される IP アドレスは、プライマリ FQDN に対応します。
+- **sip.pstnhub.microsoft.com** – グローバル FQDN – を最初に試す必要があります。 SBC がこの名前を解決する要求を送信すると、Microsoft Azure DNS サーバーは、SBC に割り当てられているプライマリ Azure データセンターを指す IP アドレスを返します。 この割り当ては、データセンターのパフォーマンス メトリックと SBC に対する地理的な近接性に基づいて行われます。 返される IP アドレスは、プライマリ FQDN に対応します。
 
 - **sip2.pstnhub.microsoft.com** – セカンダリ FQDN – 第 2 の優先度のリージョンに地理的にマップされます。
 
@@ -197,7 +198,7 @@ SIP シグナルの場合、FQDN とファイアウォールの要件は、バ�
 - 一時的な問題が発生しているデータセンターへの SBC からの接続が確立された場合は、フェールオーバーを提供します。 詳細については、以下の「フェールオーバー メカニズム」を参照してください。
 
 
-FQDN **sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、** および **sip3.pstnhub.microsoft.com** は、次のサブネットの IP アドレスに解決されます。
+FQDN **sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com、** およびsip3.pstnhub.microsoft.com は、次のサブネットの IP アドレスに解決されます。
 - 52.112.0.0/14
 - 52.120.0.0/14
 
@@ -215,7 +216,7 @@ FQDN sip.pstnhub.dod.teams.microsoft.us は、次のサブネットの IP アド
 
 これらのすべての IP 範囲のポートをファイアウォールで開いて、アドレスからの着信トラフィックと発信トラフィックを許可して、信号を送信する必要があります。  ファイアウォールで DNS 名がサポートされている場合、FQDN sip.pstnhub.dod.teams.microsoft.us IP サブネットすべてに解決されます。 
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC高環境
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High Environment
 
 ダイレクト ルーティングの接続ポイントは、次の FQDN です。
 
@@ -229,7 +230,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アド
 
 ## <a name="sip-signaling-ports"></a>SIP シグナル: ポート
 
-ポート要件は、ダイレクト ルーティングが提供Office 365すべての環境で同じです。
+ポート要件は、ダイレクト ルーティングが提供Office 365環境で同じです。
 - Microsoft 365またはOffice 365
 - Office 365 GCC
 - Office 365 GCC High
@@ -239,7 +240,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us は、次のサブネットの IP アド
 
 | トラフィック | 開始 | 終了 | 送信元ポート | 宛先ポート|
 | :-------- | :-------- |:-----------|:--------|:---------|
-SIP/TLS| SIP プロキシ | SBC | 1024 - 65535 | SBC で定義 |
+| SIP/TLS| SIP プロキシ | SBC | 1024 - 65535 | SBC で定義 |
 | SIP/TLS | SBC | SIP プロキシ | SBC で定義 | 5061 |
 
 
@@ -256,7 +257,7 @@ SIP/TLS| SIP プロキシ | SBC | 1024 - 65535 | SBC で定義 |
 
 | トラフィック | 開始 | 終了 | 送信元ポート | 宛先ポート|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | クライアント | SBC | 3478-3481 および 49152 – 53247| SBC で定義 |
+| UDP/SRTP | クライアント | SBC | 3478-3481 および 49152 – 53247| SBC で定義 |
 | UDP/SRTP | SBC | クライアント | SBC で定義 | 3478-3481 および 49152 – 53247  |
 
 
@@ -267,7 +268,7 @@ UDP/SRTP | クライアント | SBC | 3478-3481 および 49152 – 53247| SBC �
 
 トランスポート リレーは、メディア プロセッサと同じ範囲内です (バイパス以外の場合): 
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、およびOffice 365 GCC環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365、Office 365 GCC 環境
 
 - 52.112.0.0 /14 (52.112.0.1 から 52.115.255.254 の IP アドレス)
 
@@ -275,7 +276,7 @@ UDP/SRTP | クライアント | SBC | 3478-3481 および 49152 – 53247| SBC �
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC高環境
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High Environment
 
 - 52.127.88.0/21
 
@@ -285,7 +286,7 @@ UDP/SRTP | クライアント | SBC | 3478-3481 および 49152 – 53247| SBC �
 
 | トラフィック | 開始 | 終了 | 送信元ポート | 宛先ポート|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | トランスポート リレー | SBC | 50 000 -59 999    | SBC で定義 |
+| UDP/SRTP | トランスポート リレー | SBC | 50 000 -59 999    | SBC で定義 |
 | UDP/SRTP | SBC | トランスポート リレー | SBC で定義 | 50 000 – 59 999, 3478-3481     |
 
 
@@ -315,7 +316,7 @@ UDP/SRTP | トランスポート リレー | SBC | 50 000 -59 999    | SBC で�
 
 - 52.127.64.0/21
 
-### <a name="office-365-gcc-high-environment"></a>Office 365 GCC高環境
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC High Environment
 
 - 52.127.88.0/21
 
@@ -323,7 +324,7 @@ UDP/SRTP | トランスポート リレー | SBC | 50 000 -59 999    | SBC で�
 
 | トラフィック | 開始 | 終了 | 送信元ポート | 宛先ポート|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | メディア プロセッサ | SBC | 3478-3481 および 49 152 – 53 247    | SBC で定義 |
+| UDP/SRTP | メディア プロセッサ | SBC | 3478-3481 および 49 152 – 53 247    | SBC で定義 |
 | UDP/SRTP | SBC | メディア プロセッサ | SBC で定義 | 3478-3481 および 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>メディア バイパスと非メディア バイパス用に個別のトランクを構成する  
@@ -346,10 +347,10 @@ UDP/SRTP | メディア プロセッサ | SBC | 3478-3481 および 49 152 – 5
 
 | 一連のユーザー | ユーザー数 | OVRP で割り当てられたトランク FQDN | メディア バイパスが有効 |
 | :------------ |:----------------- |:--------------|:--------------|
-メディア バイパス 以外のトランクを持つユーザー | 980 | sbc1.contoso.com:5061 | false |
-メディア バイパス トランクを持つユーザー | 20 | sbc2.contoso.com:5060 | true | 
+| メディア バイパス 以外のトランクを持つユーザー | 980 | sbc1.contoso.com:5061 | false |
+| メディア バイパス トランクを持つユーザー | 20 | sbc2.contoso.com:5060 | true | 
 
-両方のトランクが、同じパブリック IP アドレスを持つ同じ SBC をポイントできます。 次の図に示すように、SBC 上の TLS シグナル ポートは異なる必要があります。 証明書が両方のトランクをサポートしている必要があります。 SAN では、2 つの名前 **(sbc1.contoso.com** と **sbc2.contoso.com)** を持つ必要があります。または、ワイルドカード証明書を持っている必要があります。
+両方のトランクが、同じパブリック IP アドレスを持つ同じ SBC をポイントできます。 次の図に示すように、SBC 上の TLS シグナル ポートは異なる必要があります。 証明書が両方のトランクをサポートしている必要があります。 SAN では、2 つの名前 **(sbc1.contoso.com** と **sbc2.contoso.com)** を持つ必要があります。または、ワイルドカード証明書が必要です。
 
 > [!div class="mx-imgBorder"]
 > ![両方のトランクが同じパブリック IP を持つ同じ SBC を指し示す。](media/direct-routing-media-bypass-7.png)
@@ -363,7 +364,7 @@ UDP/SRTP | メディア プロセッサ | SBC | 3478-3481 および 49 152 – 5
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>メディア バイパスでサポートされるクライアント エンドポイント
 
-メディア バイパスは、デスクトップ クライアント、Android Teams iOS クライアント、Teams 電話 デバイスでサポートされています。 
+メディア バイパスは、デスクトップ クライアント、Android Teams iOS クライアント、および Teams 電話 デバイスでサポートされています。 
 
 メディア バイパスをサポートしていない他のすべてのエンドポイントでは、バイパス呼び出しとして開始された場合でも、呼び出しを非バイパスに変換します。 これは自動的に行われます。管理者からのアクションは必要とされません。 これには、Skype for Business 3PIP Phone と、ダイレクト ルーティング呼び出し (Microsoft Edge、Google Chrome、Mozilla Firefox で実行される WebRTC ベースのクライアント) をサポートする Teams Web クライアントが含まれます。 
  

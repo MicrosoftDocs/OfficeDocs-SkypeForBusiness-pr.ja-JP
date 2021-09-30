@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 2c0c18672296254d1b532f0b33cdf809e68d249b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e738faa84053f9a4d4c92127b008d397f042499
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612276"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013911"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>サーバー内のプールのフェールオーバーとフェールバックSkype for Business Server
 
@@ -49,25 +49,33 @@ ms.locfileid: "58612276"
 
 1. [管理シェルSkype for Business Server開き、次のコマンドレットを入力します。
 
-        Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
+    ```powershell
+    Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
+    ```
 
 **障害でプールをフェールオーバーする**
 
 1. Pool2 のサーバーで次のコマンドレットを入力して、サーバーの全体管理サーバーFront-End見つける。
 
-        Invoke-CsManagementServerFailover -Whatif
+    ```powershell
+    Invoke-CsManagementServerFailover -Whatif
+    ```
 
     このコマンドレットの結果は、現在サーバーの全体管理サーバーをホストしているプールを示しています。 この手順の残りの部分では、このプールは CMS プールと呼 \_ ばれる。
 
 2. トポロジ ビルダーを使用して、CMS プールでSkype for Business Serverバージョンを検索 \_ します。 このコマンドレットを実行しているSkype for Business Server、次のコマンドレットを使用してプール 1 のバックアップ プールを検索します。
 
-        Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
+    ```powershell
+    Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
+    ```
 
     バックアップ プール \_ をバックアップ プールに設定します。
 
 3. 次のコマンドレットを使用して、サーバーの全体管理ストアの状態を確認します。
 
-        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+    ```powershell
+    Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+    ```
 
     このコマンドレットは、ActiveMasterFQDN と ActiveFileTransferAgents の両方が CMS プールの FQDN を指している必要 \_ があります。 サーバーが空の場合は、サーバーの全体管理サーバーを使用できないので、サーバーをフェールオーバーする必要があります。
 
@@ -75,27 +83,37 @@ ms.locfileid: "58612276"
 
 5.  サーバーを実行しているプールの中央管理ストアをSkype for Business Server、次の手順を実行します。
 
-      - 最初に、バックアップ プールBack-Endサーバーが中央管理ストアのプリンシパル インスタンスを実行する場合は、次 \_ のように入力します。
+    1. 最初に、バックアップ プールBack-Endサーバーが中央管理ストアのプリンシパル インスタンスを実行する場合は、次 \_ のように入力します。
 
-            Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
+        ```powershell
+        Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
+        ```
     
-      - バックアップ プールのプライマリ Back-Endサーバーが \_ プリンシパルの場合は、次の種類を入力します。
+    1. バックアップ プールのプライマリ Back-Endサーバーが \_ プリンシパルの場合は、次の種類を入力します。
+
+        ```powershell        
+        Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
+        ```
         
-            Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
-        
-        バックアップ プールのサーバーBack-Endがプリンシパルの場合 \_ は、次の種類を入力します。
-        
-            Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
+    1. バックアップ プールのサーバーBack-Endがプリンシパルの場合 \_ は、次の種類を入力します。
     
-      - サーバーの全体管理サーバーのフェールオーバーが完了したと確認します。 次のコマンドを入力します。
-        
-            Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+        ```powershell
+        Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
+        ```
+    
+    1. サーバーの全体管理サーバーのフェールオーバーが完了したと確認します。 次のコマンドを入力します。
+    
+        ```powershell    
+        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+        ```
         
         ActiveMasterFQDN と ActiveFileTransferAgents の両方がバックアップ プールの FQDN を指しているのを確認 \_ します。
     
-      - 最後に、次のように入力して、Front-Endサーバーのレプリカの状態を確認します。
+    1. 最後に、次のように入力して、Front-Endサーバーのレプリカの状態を確認します。
         
-            Get-CsManagementStoreReplicationStatus 
+        ```powershell
+        Get-CsManagementStoreReplicationStatus 
+        ```
         
         すべてのレプリカの値が True であることを確認します。
         
@@ -103,45 +121,57 @@ ms.locfileid: "58612276"
 
 6.  バックアップ プールのバック エンド サーバーに中央管理ストアをインストール \_ します。
     
-      - 最初に、次のコマンドを実行します。
-        ```PowerShell
-         
+    1. 最初に、次のコマンドを実行します。
+
+        ```powershell
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-      - バックアップ プールのフロント エンド サーバーの 1 つで次のコマンドを実行して、中央管理ストア \_ を強制的に移動します。
-        
-            Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force 
+    1. バックアップ プールのフロント エンド サーバーの 1 つで次のコマンドを実行して、中央管理ストア \_ を強制的に移動します。
+
+        ```powershell
+        Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force
+        ```
     
-      - 移動が完了したことを検証します。
-        
-            Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus 
+    1. 移動が完了したことを検証します。
+
+        ```powershell
+        Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
+        ```
         
         ActiveMasterFQDN と ActiveFileTransferAgents の両方がバックアップ プールの FQDN を指しているのを確認 \_ します。
     
-      - すべてのフロントエンド サーバーのレプリカの状態を確認するために、次のように入力します。
-        
-            Get-CsManagementStoreReplicationStatus 
+    1. すべてのフロントエンド サーバーのレプリカの状態を確認するために、次のように入力します。
+
+        ```powershell
+        Get-CsManagementStoreReplicationStatus
+        ```
         
         すべてのレプリカの値が True であることを確認します。
     
-      - バックアップ プールのフロント エンド サーバーの残りの部分に、サーバーの全体管理サーバー サービスをインストール \_ します。 これを行うには、この手順の前にサーバーの全体管理ストアを移動する場合に使用したコマンドを除き、すべてのフロントエンド サーバーで次のコマンドを実行します。
-        
-            Bootstrapper /Setup 
+    1. バックアップ プールのフロント エンド サーバーの残りの部分に、サーバーの全体管理サーバー サービスをインストール \_ します。 これを行うには、この手順の前にサーバーの全体管理ストアを移動する場合に使用したコマンドを除き、すべてのフロントエンド サーバーで次のコマンドを実行します。
+
+        ```console
+        Bootstrapper /Setup
+        ```
 
 7.  [管理シェル] ウィンドウで次のコマンドレットを実行して、Pool1 から Pool2 にSkype for Business Serverします。
-    
-        Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
+
+    ```powershell
+    Invoke-CsPoolFailover -PoolFQDN <Pool1 FQDN> -DisasterMode -Verbose
+    ```
     
     この手順の前の部分で行った中央管理ストアの状態を確認する手順は汎用的ではないので、サーバーの全体管理ストアがまだ完全に失敗していないので、このコマンドレットが失敗する可能性があります。 この場合は、表示されるエラー メッセージに基づいてサーバーの全体管理ストアを修正し、このコマンドレットを再度実行する必要があります。
     
     次のエラー メッセージが表示される場合は、プールをフェールオーバーする前に、このサイトのエッジ プールを変更して別のプールを次ホップとして使用する必要があります。詳細については、このトピックの冒頭に掲載される手順を参照してください。
     
-        Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
-        topology as the next hop for the Edge server. Failing over this pool may cause External
-        access/Federation/Split-domain/XMPP features to stop working. Please use Topology Builder to
-        change the Edge internal next hop setting to point to a different Front-end pool,  before you
-        proceed.
+    ```console
+    Invoke-CsPoolFailOver : This Front-end pool "pool1.contoso.com" is specified in
+    topology as the next hop for the Edge server. Failing over this pool may cause External
+    access/Federation/Split-domain/XMPP features to stop working. Please use Topology Builder to
+    change the Edge internal next hop setting to point to a different Front-end pool,  before you
+    proceed.
+    ```
 
 
 ## <a name="fail-back-a-pool"></a>プールのフェールバック
@@ -151,8 +181,10 @@ ms.locfileid: "58612276"
 フェールバック プロセスの完了には数分かかります。 参考までに、20,000 人のユーザーのプールには最大 60 分かかると予想されます。
 
 次のコマンドレットを入力して、もともと Pool1 に属していて Pool2 にフェールオーバーされたユーザーをフェールバックします。
-    
-    Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
+
+```powershell
+Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
+```
 
 それ以外の操作は必要ありません。 サーバーの全体管理サーバーに障害が発生した場合は、Pool2 に置き去りにできます。
 
@@ -162,11 +194,11 @@ ms.locfileid: "58612276"
 
 1.  フロントエンド サーバーでトポロジ ビルダーを開きます。 [ **エッジ プール]** を展開し、現在フェデレーション用に構成されているエッジ サーバーまたはエッジ サーバー プールを右クリックします。 [**プロパティの編集**] をクリックします。
 
-2.  [**全般**] の [**プロパティの編集**] で、[**このエッジ プールのフェデレーションの有効化 (ポート 5061)**] をオフにします。 **[OK]** を選択します。
+2.  [**全般**] の [**プロパティの編集**] で、[**このエッジ プールのフェデレーションの有効化 (ポート 5061)**] をオフにします。 [**OK**] を選択します。
 
 3.  [ **エッジ プール]** を展開し、フェデレーションに使用するエッジ サーバーまたはエッジ サーバー プールを右クリックします。 [**プロパティの編集**] をクリックします。
 
-4.  [**全般**] の [**プロパティの編集**] で、[**このエッジ プールのフェデレーションの有効化 (ポート 5061)**] をオンにします。 **[OK]** を選択します。
+4.  [**全般**] の [**プロパティの編集**] で、[**このエッジ プールのフェデレーションの有効化 (ポート 5061)**] をオンにします。 [**OK**] を選択します。
 
 5.  [アクション **] を選択** し、[ **トポロジ] を選択し**、[発行] **を選択します**。 [トポロジの公開] **でメッセージが表示されたら、[** 次へ] を **選択します**。 発行が完了したら、[完了] を **選択します**。
 
@@ -188,26 +220,34 @@ ms.locfileid: "58612276"
 1.  (現在ダウンしているエッジ プール以外に) 別のエッジ プールが展開されていない場合は、そのプールを展開します。 
 
 2.  XMPP フェデレーションをホストする新しいエッジ プール (EdgePool2) の各エッジ サーバーで、次のコマンドレットを実行します。
-    
-        Stop-CsWindowsService
+
+    ```powershell
+    Stop-CsWindowsService
+    ```
 
 3.  XMPP フェデレーション ルートを変更して EdgePool2 を指すようにするには、次のコマンドレットを実行します。
-    
-        Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
+
+    ```powershell
+    Set-CsSite Site2 -XmppExternalFederationRoute EdgeServer2.contoso.com
+    ```
     
     この例で、Site2 は XMPP フェデレーション ルートをこれからホストするエッジ プールを含むサイトを表します。また、EdgeServer2.contoso.com はそのプール内のエッジ サーバーの FQDN です。
 
 4.  外部 DNS サーバーで、XMPP フェデレーションの DNS A レコードを変更して、EdgeServer2.contoso.com を指すようにします。
 
 5.  XMPP フェデレーションをホストする新しいエッジ プールに解決される、XMPP フェデレーションの DNS SRV レコードがまだない場合は、次の例に示すように、このレコードを追加する必要があります。この SRV レコードには、ポート値 5269 が含まれている必要があります。
-    
-        _xmpp-server._tcp.contoso.com
+
+    ```console
+    _xmpp-server._tcp.contoso.com
+    ```
 
 6.  XMPP フェデレーションをホストする新しいエッジ プールで、ポート 5269 が外部に開いていることを確認します。
 
 7.  XMPP フェデレーションをホストする新しいエッジ プール内のすべてのエッジ サーバーでサービスを開始します。
-    
-        Start-CsWindowsService
+
+    ```powershell
+    Start-CsWindowsService
+    ```
 
 ## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>フェデレーションまたは XMPP フェデレーションで使用Skype for Business Serverエッジ プールをフェールバックする 
 
@@ -217,35 +257,39 @@ ms.locfileid: "58612276"
 
 2.  復元されたエッジ サーバーを使用Skype for Business Serverフェデレーション ルートをフェールバックする場合は、次の手順を実行します。
     
-      - フロントエンド サーバーでトポロジ ビルダーを開きます。 [ **エッジ プール]** を展開し、現在フェデレーション用に構成されているエッジ サーバーまたはエッジ サーバー プールを右クリックします。 [**プロパティの編集**] をクリックします。
+    1. フロントエンド サーバーでトポロジ ビルダーを開きます。 [ **エッジ プール]** を展開し、現在フェデレーション用に構成されているエッジ サーバーまたはエッジ サーバー プールを右クリックします。 [**プロパティの編集**] をクリックします。
     
-      - [**全般**] の [**プロパティの編集**] で、[**このエッジ プールのフェデレーションの有効化 (ポート 5061)**] をオフにします。 **[OK]** を選択します。
+    1. [**全般**] の [**プロパティの編集**] で、[**このエッジ プールのフェデレーションの有効化 (ポート 5061)**] をオフにします。 [**OK**] を選択します。
     
-      - [ **エッジ プール] を** 展開し、フェデレーションに再度使用する元のエッジ サーバーまたはエッジ サーバー プールを右クリックします。 [**プロパティの編集**] をクリックします。
+    1. [ **エッジ プール] を** 展開し、フェデレーションに再度使用する元のエッジ サーバーまたはエッジ サーバー プールを右クリックします。 [**プロパティの編集**] をクリックします。
     
-      - [**全般**] の [**プロパティの編集**] で、[**このエッジ プールのフェデレーションの有効化 (ポート 5061)**] をオンにします。 **[OK]** を選択します。
+    1. [**全般**] の [**プロパティの編集**] で、[**このエッジ プールのフェデレーションの有効化 (ポート 5061)**] をオンにします。 [**OK**] を選択します。
     
-      - [アクション **] を選択** し、[ **トポロジ] を選択し**、[発行] **を選択します**。 [トポロジの公開] **でメッセージが表示されたら、[** 次へ] を **選択します**。 発行が完了したら、[完了] を **選択します**。
+    1. [アクション **] を選択** し、[ **トポロジ] を選択し**、[発行] **を選択します**。 [トポロジの公開] **でメッセージが表示されたら、[** 次へ] を **選択します**。 発行が完了したら、[完了] を **選択します**。
     
-      - エッジ サーバーで、[展開] ウィザードSkype for Business Server開きます。 [**システムのインストールまたは更新Skype for Business Server]** を選択し、[セットアップ] または [コンポーネント **の削除Skype for Business Server選択します**。 [もう **一度実行] を選択します**。
+    1. エッジ サーバーで、[展開] ウィザードSkype for Business Server開きます。 [**システムのインストールまたは更新Skype for Business Server]** を選択し、[セットアップ] または [コンポーネント **の削除Skype for Business Server選択します**。 [もう **一度実行] を選択します**。
     
-      - **[次へ]** を選択します。 概要画面に、実行された処理が表示されます。 展開が完了したら、[ログの表示] **を選択して** 、使用可能なログ ファイルを表示します。 [ **完了] を** 選択して展開を完了します。
+    1. **[次へ]** を選択します。 概要画面に、実行された処理が表示されます。 展開が完了したら、[ログの表示] **を選択して** 、使用可能なログ ファイルを表示します。 [ **完了] を** 選択して展開を完了します。
 
 3.  復旧されたエッジ サーバーが使用されるように XMPP フェデレーション ルートをフェールバックするには以下を行います。
     
-      - 以下のコマンドレットを実行して、XMPP フェデレーション ルートが、XMPP フェデレーションをホストするようになるエッジ プール (この例では、EdgeServer1) を再び指すようにします。
-        
-            Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
+    1. 以下のコマンドレットを実行して、XMPP フェデレーション ルートが、XMPP フェデレーションをホストするようになるエッジ プール (この例では、EdgeServer1) を再び指すようにします。
+  
+        ```powershell
+        Set-CsSite Site1 -XmppExternalFederationRoute EdgeServer1.contoso.com
+        ```
         
         この例では、Site1 は XMPP フェデレーション ルートをホストするようになるエッジ プールを含むサイトです。EdgeServer1.contoso.com はそのプール内のエッジ サーバーの FQDN です。
     
-      - XMPP フェデレーションをホストするようになるエッジ プールに解決される、XMPP フェデレーション用の DNS SRV レコードがまだない場合は、以下の例のようにそれを追加する必要があります。この SRV レコードはポート値が 5269 である必要があります。
-        
-            _xmpp-server._tcp.contoso.com
+    1. XMPP フェデレーションをホストするようになるエッジ プールに解決される、XMPP フェデレーション用の DNS SRV レコードがまだない場合は、以下の例のようにそれを追加する必要があります。この SRV レコードはポート値が 5269 である必要があります。
+
+        ```console
+        _xmpp-server._tcp.contoso.com
+        ```
     
-      - 外部 DNS サーバーで、XMPP フェデレーション用の DNS A レコードが EdgeServer2.contoso.com を指すように変更します。
+    1. 外部 DNS サーバーで、XMPP フェデレーション用の DNS A レコードが EdgeServer2.contoso.com を指すように変更します。
     
-      - XMPP フェデレーションをホストするようになるエッジ プールがポート 5269 を外部にオープンしていることを確認します。
+    1. XMPP フェデレーションをホストするようになるエッジ プールがポート 5269 を外部にオープンしていることを確認します。
 
 4.  障害発生後に復旧されたエッジ プールを含むサイトで、フロントエンド プールが実行を続けていた場合は、それらのフロントエンド プール上の Web 会議サービスおよび音声ビデオ会議サービスを更新して、ローカル サイトのエッジ プールが再び使用されるようにしてください。
 

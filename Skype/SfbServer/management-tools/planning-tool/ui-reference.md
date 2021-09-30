@@ -12,18 +12,18 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 77f3dc8b0d57da5afbaf5156b2b1e98ac975edbe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4639ce49969d9606ce9c063814d175aeec9a15b8
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621023"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011541"
 ---
 # <a name="planning-tool-ui-reference"></a>計画ツール UI リファレンス
  
 ## <a name="in-this-section"></a>このセクションの内容
 
-これらのトピックでは、Microsoft ダウンロード センターから使用できる計画ツールの [インターフェイスについて説明します](https://go.microsoft.com/fwlink/p/?LinkID=282725)。 
+これらのトピックでは、計画ツールのインターフェイスについて説明します。
   
 - [電話ビデオ会議 (計画ツール)](../../help-topics/help-planning/audio-video-conferencing.md)
     

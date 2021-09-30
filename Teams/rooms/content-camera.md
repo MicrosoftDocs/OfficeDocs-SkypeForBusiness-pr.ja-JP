@@ -15,12 +15,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: Microsoft Teams Room のコンテンツ カメラを使用すると、画像処理ソフトウェアと連携して、発表者がアナログ ホワイトボードに描画することができます。
-ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 61c0a1a36630fa31190e57de08379d6e80321a34
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726016"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013161"
 ---
 # <a name="content-cameras"></a>コンテンツ カメラ
 
@@ -65,7 +65,7 @@ Microsoft Teams Room システムでコンテンツ カメラを使用できる�
 | 100°        | 0.38 m| 0.77 m   | 1.15 m   |1.53 m   |1.61 m |
 | 110°        | 0.32 m| 0.64 m   | 0.96 m   |1.28 m    |1.31 m |
 | 120°        | 0.26 m| 0.52 m   | 0.79 m   |1.05 m   |1.10 m |
-|             |               |                  |                  |        |                    |                  |
+             
 
 コンテンツ カメラとホワイトボードが取り付けられている壁との距離は、そのカメラのモデルの HFoV によって異なります。 HFoV が広い (たとえば、120 度) カメラの場合は壁に近づけて設置し、HFoV が狭いカメラの場合は、壁から遠く離して設置します。 選択したカメラを設置する前に、HFoV を確認してください。
 
@@ -88,7 +88,7 @@ Microsoft Teams Room システムでコンテンツ カメラを使用できる�
 
 部屋にカメラを設置したら、その部屋の Microsoft Teams Rooms コンソールにカメラを設定します。
 
-1. **[設定設定]** アイコン ![ を選択します。[管理者] としてログインし、[デバイスとデバイス] を ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) **設定。**
+1. **[設定設定** ![ アイコン] を選択し ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) 、[管理者]としてログインし、[デバイス] を設定。
 2. **[カメラの既定値]** セクションで、コンテンツ カメラを選び、**[コンテンツの拡張機能]** オプションが選択されていることを確認します。
 3. (オプション) カメラを天井から取り付けるためにカメラが上下逆になってしまった場合は、**[コンテンツ カメラを 180 度回転]** オプションをオンにします。
 4. **[保存して終了]** を選択します。

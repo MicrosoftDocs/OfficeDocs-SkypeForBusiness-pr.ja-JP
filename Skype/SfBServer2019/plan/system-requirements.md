@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: ''
 description: '概要: このトピックでは、Skype for Business Server 2019 サーバーとドメイン インフラストラクチャを準備します。 ハードウェア、OS、データベース、ソフトウェア、すべてのシステム要件と推奨事項、および証明書 DNS、ファイル共有、Active Directory 情報は、サーバー ファームの正常なインストールと展開を確実に行うのに役立ちます。'
-ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cb1d7464406ae089fd31c31971cb246d79a83edb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728366"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011751"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>2019 年のSkype for Business Server要件
  
@@ -49,31 +49,31 @@ ms.locfileid: "58728366"
   
 サーバー用のStandard Editionハードウェア:
 
-|**ハードウェア コンポーネント**|**推奨**|
+|ハードウェア コンポーネント|推奨|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 デュアル プロセッサ、6 コア、2.4 ギガヘルツ (GHz) 以上。  <br/> Intel Itanium プロセッサは、2019 年Skype for Business Serverサポートされていません。  <br/> |
-|メモリ  <br/> |32 ギガバイト (GB)。  <br/> |
-|ディスク  <br/> |いずれも：  <br/> • 少なくとも 72 GB の空きディスク領域を持つ 8 台以上の 1,0000 RPM ハード ディスク ドライブ (RAID 1 と RAID 10 を使用して RAID 1 と 6 を使用するディスクの 2 つ)。  <br/> または  <br/> • ソリッド ステート ドライブ (SSD) は、8 10000 RPM のメカニカル ディスク ドライブと同じ空き領域と同様のパフォーマンスを提供できます。  <br/> |
-|ネットワーク  <br/> |1 つのデュアル ポート ネットワーク アダプター、1 Gbps 以上 (2 つのネットワーク アダプターを使用できますが、単一の MAC アドレスと 1 つの IP アドレスでチーム化する必要があります)。  <br/> デュアルまたはマルチホーム構成は **、** フロントエンド サーバー、バック エンド サーバー、および複数のサーバーではStandard Editionされません。 <br/> オペレーティング システムに公開され、サーバー ハードウェアの監視と管理に使用されている限り、DRAC や ILO などの帯域外管理システムを使用できます。 このシナリオは、マルチホーム サーバーを構成するのではありません。サポートされています。  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 デュアル プロセッサ、6 コア、2.4 ギガヘルツ (GHz) 以上。  <br/> Intel Itanium プロセッサは、2019 年Skype for Business Serverサポートされていません。   |
+|メモリ   |32 ギガバイト (GB)。   |
+|ディスク   |いずれも：  <br/> • 少なくとも 72 GB の空きディスク領域を持つ 8 台以上の 1,0000 RPM ハード ディスク ドライブ (RAID 1 と RAID 10 を使用して RAID 1 と 6 を使用するディスクの 2 つ)。  <br/> または  <br/> • ソリッド ステート ドライブ (SSD) は、8 10000 RPM のメカニカル ディスク ドライブと同じ空き領域と同様のパフォーマンスを提供できます。   |
+|ネットワーク   |1 つのデュアル ポート ネットワーク アダプター、1 Gbps 以上 (2 つのネットワーク アダプターを使用できますが、単一の MAC アドレスと 1 つの IP アドレスでチーム化する必要があります)。  <br/> デュアルまたはマルチホーム構成は **、** フロントエンド サーバー、バック エンド サーバー、および複数のサーバーではStandard Editionされません。 <br/> オペレーティング システムに公開され、サーバー ハードウェアの監視と管理に使用されている限り、DRAC や ILO などの帯域外管理システムを使用できます。 このシナリオは、マルチホーム サーバーを構成するのではありません。サポートされています。   |
 
 
 フロント エンド サーバーとバック エンド サーバーの推奨ハードウェア:
   
-|**ハードウェア コンポーネント**|**推奨**|
+|ハードウェア コンポーネント|推奨|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 デュアル プロセッサ、6 コア、2.4 ギガヘルツ (GHz) 以上。 <br/> Intel Itanium プロセッサは、2019 年Skype for Business Serverサポートされていません。  <br/> |
-|メモリ  <br/> |64 ギガバイト (GB)。  <br/> |
-|ディスク  <br/> |いずれも：  <br/> • 少なくとも 72 GB の空きディスク領域を持つ 8 台以上の 1,0000 RPM ハード ディスク ドライブ (RAID 1 と RAID 10 を使用して RAID 1 と 6 を使用するディスクの 2 つ)。  <br/> または  <br/> • ソリッド ステート ドライブ (SSD) は、8 10000 RPM のメカニカル ディスク ドライブと同じ空き領域と同様のパフォーマンスを提供できます。  <br/> |
-|ネットワーク  <br/> |1 つのデュアル ポート ネットワーク アダプター、1 Gbps 以上 (2 つのネットワーク アダプターを使用できますが、単一の MAC アドレスと 1 つの IP アドレスでチーム化する必要があります)。  <br/> デュアルまたはマルチホーム構成は **、** フロントエンド サーバー、バック エンド サーバー、および複数のサーバーではStandard Editionされません。 <br/> オペレーティング システムに公開され、サーバー ハードウェアの監視と管理に使用されている限り、DRAC や ILO などの帯域外管理システムを使用できます。 このシナリオは、マルチホーム サーバーを構成するのではありません。サポートされています。  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 デュアル プロセッサ、6 コア、2.4 ギガヘルツ (GHz) 以上。 <br/> Intel Itanium プロセッサは、2019 年Skype for Business Serverサポートされていません。   |
+|メモリ   |64 ギガバイト (GB)。   |
+|ディスク   |いずれも：  <br/> • 少なくとも 72 GB の空きディスク領域を持つ 8 台以上の 1,0000 RPM ハード ディスク ドライブ (RAID 1 と RAID 10 を使用して RAID 1 と 6 を使用するディスクの 2 つ)。  <br/> または  <br/> • ソリッド ステート ドライブ (SSD) は、8 10000 RPM のメカニカル ディスク ドライブと同じ空き領域と同様のパフォーマンスを提供できます。   |
+|ネットワーク   |1 つのデュアル ポート ネットワーク アダプター、1 Gbps 以上 (2 つのネットワーク アダプターを使用できますが、単一の MAC アドレスと 1 つの IP アドレスでチーム化する必要があります)。  <br/> デュアルまたはマルチホーム構成は **、** フロントエンド サーバー、バック エンド サーバー、および複数のサーバーではStandard Editionされません。 <br/> オペレーティング システムに公開され、サーバー ハードウェアの監視と管理に使用されている限り、DRAC や ILO などの帯域外管理システムを使用できます。 このシナリオは、マルチホーム サーバーを構成するのではありません。サポートされています。   |
    
 エッジ サーバー、スタンドアロン仲介サーバー、およびディレクターの推奨ハードウェア:
   
-|**ハードウェア コンポーネント**|**推奨**|
+|ハードウェア コンポーネント|推奨|
 |:-----|:-----|
-|CPU  <br/> |Intel Xeon E5-2673 v3 デュアル プロセッサ、6 コア、2.4 ギガヘルツ (GHz) 以上。  <br/> Intel Itanium プロセッサは、2019 年Skype for Business Serverサポートされていません。  <br/> |
-|メモリ  <br/> |32 ギガバイト。  <br/> |
-|ディスク  <br/> |いずれも：  <br/> • 少なくとも 72 GB の空きディスク領域を持つ 4 台以上の 1,0000 RPM ハード ディスク ドライブ (ディスクは 2x RAID 1 構成にする必要があります)。  <br/> または  <br/> • ソリッド ステート ドライブ (SSD) は、4 台の 10000 RPM メカニカル ディスク ドライブと同じ空き領域と同様のパフォーマンスを提供できます。  <br/> |
-|ネットワーク  <br/> |1 つのデュアル ポート ネットワーク アダプター、1 Gbps 以上 (2 つのネットワーク アダプターを使用できますが、単一の MAC アドレスと 1 つの IP アドレスでチーム化する必要があります)。  <br/> ビデオ相互運用機能サーバーとディレクターでは、デュアルまたはマルチホーム構成はサポートされていません。 <br/> エッジ サーバーには、デュアル ポート ネットワーク アダプターである 2 つのネットワーク インターフェイスが必要です。1 Gbps 以上 (または 2 つのペアのネットワーク アダプター、合計 4 つのペアで、各ペアが 1 つの MAC アドレスと 1 つの IP アドレスでチーム化され、合計 2 組)。  <br/> スタンドアロン仲介サーバーでは、特定の PSTN IP アドレスの構成を許可する追加のネットワーク インターフェイス カード (NIC) のインストールがサポートされています。  <br/> |
+|CPU   |Intel Xeon E5-2673 v3 デュアル プロセッサ、6 コア、2.4 ギガヘルツ (GHz) 以上。  <br/> Intel Itanium プロセッサは、2019 年Skype for Business Serverサポートされていません。   |
+|メモリ   |32 ギガバイト。   |
+|ディスク   |いずれも：  <br/> • 少なくとも 72 GB の空きディスク領域を持つ 4 台以上の 1,0000 RPM ハード ディスク ドライブ (ディスクは 2x RAID 1 構成にする必要があります)。  <br/> または  <br/> • ソリッド ステート ドライブ (SSD) は、4 台の 10000 RPM メカニカル ディスク ドライブと同じ空き領域と同様のパフォーマンスを提供できます。   |
+|ネットワーク   |1 つのデュアル ポート ネットワーク アダプター、1 Gbps 以上 (2 つのネットワーク アダプターを使用できますが、単一の MAC アドレスと 1 つの IP アドレスでチーム化する必要があります)。  <br/> ビデオ相互運用機能サーバーとディレクターでは、デュアルまたはマルチホーム構成はサポートされていません。 <br/> エッジ サーバーには、デュアル ポート ネットワーク アダプターである 2 つのネットワーク インターフェイスが必要です。1 Gbps 以上 (または 2 つのペアのネットワーク アダプター、合計 4 つのペアで、各ペアが 1 つの MAC アドレスと 1 つの IP アドレスでチーム化され、合計 2 組)。  <br/> スタンドアロン仲介サーバーでは、特定の PSTN IP アドレスの構成を許可する追加のネットワーク インターフェイス カード (NIC) のインストールがサポートされています。   |
 
 
 > [!NOTE]
@@ -88,11 +88,8 @@ ms.locfileid: "58728366"
 
 ハードウェアをインストールしたら、2019 年にインストールして正常に使用できるオペレーティング システム (OS) をインストールするSkype for Business Serverがあります。
   
-|||
-|:-----|:-----|
-|Windows Server 2019 <br/> |
-|Windows Server 2016 <br/> ||
-||
+- Windows Server 2019 
+- Windows Server 2016
    
 ここに示されているオペレーティング システム以外の機能は正しく動作しません。2019 年のインストールを試Skype for Business Serverしてください。 たとえば、Server Core オプションは一覧に表示されないので、サポートされていません。
 
@@ -117,21 +114,21 @@ ms.locfileid: "58728366"
   
  **すべてのサーバー:**
   
-|**ソフトウェア/役割**|**詳細**|
+|ソフトウェア/役割|詳細|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |すべてのサーバー Skype for Business Server 3.0 Windows PowerShellインストールされている必要があります。  <br/> • これは既定でインストールされ、Windows Server 2016。<br/> |
-|Microsoft .NET Framework  <br/> |WCF サービスは、**サーバー マネージャー** の下の Windows機能としてインストールされる機能で、最初はダウンロードは不要です。 <br/> • この機能をインストールする場合、または既にインストール済みで確認している場合は **、HTTP ライセンス** 認証オプションも次のようにチェックしてインストールされていることを確認する必要があります。 <br/> ![[4.5 機能] の下.NET Framework HTTP ライセンス認証オプションを示すスクリーンショット。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP ライセンス認証をインストールするには、他に何かインストールする必要があるというポップアップが表示される場合は、心配しないでください。 これは通常の動作です。[OK] をクリックして先に進んでください。 このポップアップが表示されていない場合は、これらのポップアップが既にインストール済みと仮定して先に進んでください。  <br/> Microsoft .NET Frameworkは、通常、インストール時Windows Server 2016インストールされます。 Skype for Business Server Microsoft .NET Framework 4.7 または 4.8 が必要なので、おそらく更新する必要があります。 更新プログラムは、こちらから確認 [できます。](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
-|Media Foundation  <br/> |このWindows Server 2016、Microsoft Media Foundation Windowsメディア形式ランタイムがインストールされます。  <br/> 会議に使用されるすべてのフロントエンド サーバーと Standard Edition サーバーでは、Windows Media Format Runtime が、通話パーク、アナウンス、および応答グループ アプリケーションがアナウンスや音楽のために再生する Windows Media Audio (.wma) ファイルを実行する必要があります。  <br/> |
-|Windows Identity Foundation  <br/> |2019 Windowsサーバー間認証シナリオをサポートするには、Identity Foundation 3.5 をSkype for Business Serverがあります。  <br/> • Windows Server 2016、何もダウンロードする必要はありません。 サーバー **マネージャーを開** き、サーバー マネージャーに **移動役割と機能の追加ウィザード。** **Windows 3.5 は**、[機能] セクションの下に **一覧表示** されます。 選択されている場合は、適切です。 それ以外の場合は、それを選択し、[ **次へ] をクリック** して [インストール] **ボタンに移動** します。 <br/> |
-|リモート サーバー管理ツール  <br/> |役割管理ツール: DS AD LDS AD使用する  <br/> |
+|Windows PowerShell 3.0   |すべてのサーバー Skype for Business Server 3.0 Windows PowerShellインストールされている必要があります。  <br/> • これは既定でインストールされ、Windows Server 2016。 |
+|Microsoft .NET Framework   |WCF サービスは、**サーバー マネージャー** の下の Windows機能としてインストールされる機能で、最初はダウンロードは不要です。 <br/> • この機能をインストールする場合、または既にインストール済みで確認している場合は **、HTTP ライセンス** 認証オプションも次のようにチェックしてインストールされていることを確認する必要があります。 <br/>![[4.5 機能] の下.NET Framework HTTP ライセンス認証オプションを示すスクリーンショット。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> HTTP ライセンス認証をインストールするには、他に何かインストールする必要があるというポップアップが表示される場合は、心配しないでください。 これは通常の動作です。[OK] をクリックして先に進んでください。 このポップアップが表示されていない場合は、これらのポップアップが既にインストール済みと仮定して先に進んでください。  <br/> Microsoft .NET Frameworkは、通常、インストール時Windows Server 2016インストールされます。 Skype for Business Server Microsoft .NET Framework 4.7 または 4.8 が必要なので、おそらく更新する必要があります。 更新プログラムは、こちらから確認 [できます。](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/) |
+|Media Foundation   |このWindows Server 2016、Microsoft Media Foundation Windowsメディア形式ランタイムがインストールされます。  <br/> 会議に使用されるすべてのフロントエンド サーバーと Standard Edition サーバーでは、Windows Media Format Runtime が、通話パーク、アナウンス、および応答グループ アプリケーションがアナウンスや音楽のために再生する Windows Media Audio (.wma) ファイルを実行する必要があります。   |
+|Windows Identity Foundation   |2019 Windowsサーバー間認証シナリオをサポートするには、Identity Foundation 3.5 をSkype for Business Serverがあります。  <br/> • Windows Server 2016、何もダウンロードする必要はありません。 サーバー **マネージャーを開** き、サーバー マネージャーに **移動役割と機能の追加ウィザード。** **Windows 3.5 は**、[機能] セクションの下に **一覧表示** されます。 選択されている場合は、適切です。 それ以外の場合は、それを選択し、[ **次へ] をクリック** して [インストール] **ボタンに移動** します。  |
+|リモート サーバー管理ツール   |役割管理ツール: DS AD LDS AD使用する   |
    
  **フロントエンド サーバーとサーバー Standard Editionも必要です。**
   
-|**ソフトウェア/役割**|**詳細**|
+|ソフトウェア/役割|詳細|
 |:-----|:-----|
-|インターネット インフォメーション サービス (IIS)  <br/> |IIS は、すべてのフロント エンド サーバーとすべてのサーバーで必要Standard Edition、次のモジュールが選択されています。  <br/> • 一般的な HTTP 機能: 既定のドキュメント、HTTP エラー、静的コンテンツ  <br/> • 正常性と診断: HTTP ログ、ログ ツール、トレース  <br/> • パフォーマンス: 静的コンテンツ圧縮、動的コンテンツ圧縮  <br/> • セキュリティ: 要求フィルター、クライアント証明書マッピング認証、Windows認証  <br/> • アプリケーション開発: .NET 拡張機能 3.5、.NET 拡張機能 4.5、ASP.NET 3.5、ASP.NET 4.5、ISAPI 拡張機能、ISAPI フィルター  <br/> • 管理ツール: IIS 管理コンソール、IIS 管理スクリプト、およびツール  <br/> 匿名アクセスも必要ですが、IIS をインストールするときにそれを取得します。そのため、一覧で選択する場所が用意されません。  <br/> |
-|Windows Media フォーマット ランタイム  <br/> | このWindows Server 2016、サーバー マネージャーに **Media Foundation** 機能をインストールする **必要があります**。 実際には、Skype for Business Server 2019 インストールを開始できますが、Skype for Business Server 2019 のインストールを続行する前に、インストールを求めるメッセージが表示され、サーバーを再起動します。 前もって行う方が良いです。 <br/> |
-|Silverlight  <br/> |Silverlight の最新バージョンは、こちらからインストール [できます](https://www.microsoft.com/silverlight/)。  <br/> |
+|インターネット インフォメーション サービス (IIS)   |IIS は、すべてのフロント エンド サーバーとすべてのサーバーで必要Standard Edition、次のモジュールが選択されています。  <br/> • 一般的な HTTP 機能: 既定のドキュメント、HTTP エラー、静的コンテンツ  <br/> • 正常性と診断: HTTP ログ、ログ ツール、トレース  <br/> • パフォーマンス: 静的コンテンツ圧縮、動的コンテンツ圧縮  <br/> • セキュリティ: 要求フィルター、クライアント証明書マッピング認証、Windows認証  <br/> • アプリケーション開発: .NET 拡張機能 3.5、.NET 拡張機能 4.5、ASP.NET 3.5、ASP.NET 4.5、ISAPI 拡張機能、ISAPI フィルター  <br/> • 管理ツール: IIS 管理コンソール、IIS 管理スクリプト、およびツール  <br/> 匿名アクセスも必要ですが、IIS をインストールするときにそれを取得します。そのため、一覧で選択する場所が用意されません。   |
+|Windows Media フォーマット ランタイム   | このWindows Server 2016、サーバー マネージャーに **Media Foundation** 機能をインストールする **必要があります**。 実際には、Skype for Business Server 2019 インストールを開始できますが、Skype for Business Server 2019 のインストールを続行する前に、インストールを求めるメッセージが表示され、サーバーを再起動します。 前もって行う方が良いです。  |
+|Silverlight   |Silverlight の最新バージョンは、こちらからインストール [できます](https://www.microsoft.com/silverlight/)。   |
    
 これを自動化するために実行できる PowerShell スクリプトの例を次に示します。
   
@@ -200,11 +197,9 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
 Skype for Business Server 2019 Enterprise Editionは、以下に示す完全な SQL Server を必要とします (64 ビット 版のみ、32 ビット エディションは使用しない)。
   
-||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 (64 ビット 版)、最新の更新プログラムを使用して実行する必要があります。  <br/> |Microsoft SQL Server 2017 (64 ビット 版)、最新の更新プログラムを使用して実行する必要があります。  <br/> |
-Microsoft SQL Server 2016 (64 ビット 版)、最新の更新プログラムを使用して実行する必要があります。|
- |
+- Microsoft SQL Server 2019 (64 ビット 版)、最新の更新プログラムを使用して実行する必要があります。
+- Microsoft SQL Server 2017 (64 ビット 版)、最新の更新プログラムを使用して実行する必要があります。
+- Microsoft SQL Server 2016 (64 ビット 版)、最新の更新プログラムを使用して実行する必要があります。
 
 ここで使用するエディションSQL Server表示しない場合は、使用することはできません。
   
@@ -244,15 +239,15 @@ Microsoft Internet Security and Acceleration (ISA) Server クライアント ソ
 
 サーバーとサービスの構成データの多くが Skype for Business Server 2019 サーバーの全体管理ストアに格納されているが、Active Directory には以下の情報が保存されています。
   
-|**Active Directory オブジェクト**|**オブジェクトの種類**|
+|Active Directory オブジェクト|オブジェクトの種類|
 |:-----|:-----|
-|スキーマ拡張  <br/> |ユーザー オブジェクトの拡張  <br/> |
-||2015 Skype for Business Server Lync Server 2013 の拡張機能。以前のサポートされているバージョンとの下位互換性を維持する  <br/> |
-|データ  <br/> |ユーザーの SIP URI と他のユーザー設定  <br/> |
-||アプリケーションの連絡先オブジェクト (応答グループ アプリケーションや連絡先など会議アテンダント アプリケーション)  <br/> |
-||下位互換性について公開されたデータ  <br/> |
-||サーバーの全体管理ストアのサービス コントロール ポイント (SCP)  <br/> |
-||Kerberos 認証のアカウント (オプションのコンピューター オブジェクト)  <br/> |
+|スキーマ拡張   |ユーザー オブジェクトの拡張   |
+||2015 Skype for Business Server Lync Server 2013 の拡張機能。以前のサポートされているバージョンとの下位互換性を維持する   |
+|データ   |ユーザーの SIP URI と他のユーザー設定   |
+||アプリケーションの連絡先オブジェクト (応答グループ アプリケーションや連絡先など会議アテンダント アプリケーション)   |
+||下位互換性について公開されたデータ   |
+||サーバーの全体管理ストアのサービス コントロール ポイント (SCP)   |
+||Kerberos 認証のアカウント (オプションのコンピューター オブジェクト)   |
    
 ### <a name="os-for-domain-controllers"></a>ドメイン コントローラー用 OS
 
@@ -461,39 +456,39 @@ Skype for Business Server 2019 には、SHA-256 暗号化ハッシュ関数を�
     
 サーバーのStandard Edition:
   
-|**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|**コメント**|
+|証明書|サブジェクト名/共通名|サブジェクト名の別名|例|コメント|
 |:-----|:-----|:-----|:-----|:-----|
-|既定値  <br/> |プールの FQDN  <br/> |プールの FQDN とサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効にされている場合は、証明書ウィザードで、サポートされている各 SIP ドメイン FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要となる場合は、sip.sipdomain のエントリ (存在するそれぞれの SIP 用) も必要となります。  <br/> |SN=se01.contoso.com;SAN=se01.contoso.com  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。  <br/> |サーバー Standard Editionサーバーの FQDN は、プール FQDN と同じです。  <br/> このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクト名の別名に自動的に追加されます。  <br/> この証明書は、サーバー間認証にも使用できます。  <br/> |
-|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じです)  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=se01.contoso.com;SAN=se01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com;SAN=se01.contoso.com;SAN= \* .contoso.com  <br/> |トポロジ ビルダーで内部 Web FQDN を上書きできない。  <br/> 複数の Meet 単純な URL がある場合は、すべての URL を SAN として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
-|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • ダイヤルインの簡単な URL  <br/> • SIP ドメインごとの単純な URL を満たす  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN= \* .contoso.com  <br/> |会議の簡易 URL が複数存在する場合、それらすべてをサブジェクト名の別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
+|既定値   |プールの FQDN   |プールの FQDN とサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効にされている場合は、証明書ウィザードで、サポートされている各 SIP ドメイン FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要となる場合は、sip.sipdomain のエントリ (存在するそれぞれの SIP 用) も必要となります。   |SN=se01.contoso.com;SAN=se01.contoso.com  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。   |サーバー Standard Editionサーバーの FQDN は、プール FQDN と同じです。  <br/> このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクト名の別名に自動的に追加されます。  <br/> この証明書は、サーバー間認証にも使用できます。   |
+|内部 Web   |サーバーの FQDN   |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じです)  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ   |SN=se01.contoso.com;SAN=se01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com;SAN=se01.contoso.com;SAN= \* .contoso.com   |トポロジ ビルダーで内部 Web FQDN を上書きできない。  <br/> 複数の Meet 単純な URL がある場合は、すべての URL を SAN として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。   |
+|外部 Web   |サーバーの FQDN   |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • ダイヤルインの簡単な URL  <br/> • SIP ドメインごとの単純な URL を満たす  <br/> または  <br/> • 単純な URL のワイルドカード エントリ   |SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=se01.contoso.com;SAN=webcon01.contoso.com;SAN= \* .contoso.com   |会議の簡易 URL が複数存在する場合、それらすべてをサブジェクト名の別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。   |
    
 フロントエンド プール内のフロントエンド サーバーの証明書:
   
-|**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|**コメント**|
+|証明書|サブジェクト名/共通名|サブジェクト名の別名|例|コメント|
 |:-----|:-----|:-----|:-----|:-----|
-|既定値  <br/> |プールの FQDN  <br/> |プールの FQDN とサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効にされている場合は、証明書ウィザードで、サポートされている各 SIP ドメイン FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要となる場合は、sip.sipdomain のエントリ (存在するそれぞれの SIP 用) も必要となります。  <br/> |SN=eepool.contoso.com;SAN=eepool.contoso.com;SAN=ee01.contoso.com  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。  <br/> |このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクト名の別名に自動的に追加されます。  <br/> この証明書は、サーバー間認証にも使用できます。  <br/> |
-|内部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じではない)  <br/> • サーバー FQDN  <br/> • Skype for Business FQDN  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN= \* .contoso.com  <br/> |会議の簡易 URL が複数存在する場合、それらすべてをサブジェクト名の別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
-|外部 Web  <br/> |プールの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN= \* .contoso.com  <br/> |会議の簡易 URL が複数存在する場合、それらすべてをサブジェクト名の別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。  <br/> |
+|既定値   |プールの FQDN   |プールの FQDN とサーバーの FQDN  <br/> SIP ドメインが複数あり、自動クライアント構成が有効にされている場合は、証明書ウィザードで、サポートされている各 SIP ドメイン FQDN が検出され、追加されます。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密なドメイン ネーム システム (DNS) マッチングが必要となる場合は、sip.sipdomain のエントリ (存在するそれぞれの SIP 用) も必要となります。   |SN=eepool.contoso.com;SAN=eepool.contoso.com;SAN=ee01.contoso.com  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。   |このウィザードでは、セットアップ時に指定した SIP ドメインが検出され、サブジェクト名の別名に自動的に追加されます。  <br/> この証明書は、サーバー間認証にも使用できます。   |
+|内部 Web   |プールの FQDN   |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じではない)  <br/> • サーバー FQDN  <br/> • Skype for Business FQDN  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ   |SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com;SAN=ee01.contoso.com;SAN= \* .contoso.com   |会議の簡易 URL が複数存在する場合、それらすべてをサブジェクト名の別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。   |
+|外部 Web   |プールの FQDN   |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ   |SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=ee01.contoso.com;SAN=webcon01.contoso.com;SAN= \* .contoso.com   |会議の簡易 URL が複数存在する場合、それらすべてをサブジェクト名の別名として含める必要があります。  <br/> 簡易 URL エントリにはワイルドカード エントリがサポートされます。   |
    
 ディレクターの証明書:
   
-|**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|
+|証明書|サブジェクト名/共通名|サブジェクト名の別名|例|
 |:-----|:-----|:-----|:-----|
-|既定値  <br/> |ディレクター プール  <br/> |ディレクター の FQDN、ディレクター プールの FQDN。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS 一致が必要な場合は、sip.sipdomain (SIP ドメインごとに) のエントリも必要です。  <br/> |pool.contoso.com;SAN=dir01.contoso.com  <br/> このディレクター プールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。  <br/> |
-|内部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じです)  <br/> • サーバー FQDN  <br/> • Skype for Business FQDN  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |SN=dir01.contoso.com;SAN=dir01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com;SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|外部 Web  <br/> |サーバーの FQDN  <br/> |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • SIP ドメインごとの単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ  <br/> |ディレクターの外部 Web FQDN は、フロント エンド プールまたはフロント エンド サーバーとは異なる必要があります。  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|既定値   |ディレクター プール   |ディレクター の FQDN、ディレクター プールの FQDN。  <br/> このプールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS 一致が必要な場合は、sip.sipdomain (SIP ドメインごとに) のエントリも必要です。   |pool.contoso.com;SAN=dir01.contoso.com  <br/> このディレクター プールがクライアントの自動ログオン サーバーであり、グループ ポリシーで厳密な DNS マッチングが必要となる場合は、SAN=sip.contoso.com、SAN=sip.fabrikam.com も必要となります。   |
+|内部 Web   |サーバーの FQDN   |次のうちのすべて:  <br/> • 内部 Web FQDN (サーバーの FQDN と同じです)  <br/> • サーバー FQDN  <br/> • Skype for Business FQDN  <br/> AND  <br/> • 単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> • 管理者の簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ   |SN=dir01.contoso.com;SAN=dir01.contoso.com;SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com;SAN=admin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com;SAN=dir01.contoso.com SAN= \* .contoso.com   |
+|外部 Web   |サーバーの FQDN   |次のうちのすべて:  <br/> • 外部 Web FQDN  <br/> AND  <br/> • SIP ドメインごとの単純な URL を満たす  <br/> • ダイヤルインの簡単な URL  <br/> または  <br/> • 単純な URL のワイルドカード エントリ   |ディレクターの外部 Web FQDN は、フロント エンド プールまたはフロント エンド サーバーとは異なる必要があります。  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN=meet.contoso.com;SAN=meet.fabrikam.com;SAN=dialin.contoso.com  <br/> ワイルドカード証明書使用時:  <br/> SN=dir01.contoso.com;SAN=directorwebcon01.contoso.com SAN= \* .contoso.com   |
    
 スタンドアロン仲介サーバーの証明書:
   
-|**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|
+|証明書|サブジェクト名/共通名|サブジェクト名の別名|例|
 |:-----|:-----|:-----|:-----|
-|既定値  <br/> |プールの FQDN  <br/> |プールの FQDN  <br/> プール メンバー サーバーの FQDN  <br/> |SN=medsvr-pool.contoso.net。SAN=medsvr-pool.contoso.net。SAN=medsvr01.contoso.net  <br/> |
+|既定値   |プールの FQDN   |プールの FQDN  <br/> プール メンバー サーバーの FQDN   |SN=medsvr-pool.contoso.net。SAN=medsvr-pool.contoso.net。SAN=medsvr01.contoso.net   |
    
 存続可能ブランチ アプライアンスの証明書 (具体的には、存続可能ブランチ アプライアンス 2015 for Skype for Business Server 2019):
   
-|**証明書**|**サブジェクト名/共通名**|**サブジェクト名の別名**|**例**|
+|証明書|サブジェクト名/共通名|サブジェクト名の別名|例|
 |:-----|:-----|:-----|:-----|
-|既定値  <br/> |アプライアンスの FQDN  <br/> |SIP。\<sipdomain\> (SIP ドメインごとに必要なエントリは 1 つのみです)  <br/> |SN=sba01.contoso.net;SAN=sip.contoso.com;SAN=sip.fabrikam.com  <br/> |
+|既定値   |アプライアンスの FQDN   |SIP。\<sipdomain\> (SIP ドメインごとに必要なエントリは 1 つのみです)   |SN=sba01.contoso.net;SAN=sip.contoso.com;SAN=sip.fabrikam.com   |
    
 ### <a name="certificates-for-external-user-access-edge"></a>外部ユーザー アクセス用の証明書 (Edge)
 
@@ -521,18 +516,18 @@ Skype for Business Server 2019 では、アクセスおよびWeb 会議エッジ
   
 ディレクター プールとフロントエンド プール証明書の要件:
   
-|**説明**|**SAN エントリ**|
+|説明|SAN エントリ|
 |:-----|:-----|
-|内部自動検出サービスの URL  <br/> |SAN=lyncdiscoverinternal。\<sipdomain\>  <br/> |
-|外部自動検出サービスの URL  <br/> |SAN=lyncdiscover。\<sipdomain\>  <br/> |
+|内部自動検出サービスの URL   |SAN=lyncdiscoverinternal。\<sipdomain\>   |
+|外部自動検出サービスの URL   |SAN=lyncdiscover。\<sipdomain\>   |
    
 代わりに SAN= を使用できます \* 。\<sipdomain\>
   
 リバース プロキシ (パブリック CA) 証明書の要件:
   
-|**説明**|**SAN エントリ**|
+|説明|SAN エントリ|
 |:-----|:-----|
-|外部自動検出サービスの URL  <br/> |SAN=lyncdiscover。\<sipdomain\>  <br/> |
+|外部自動検出サービスの URL   |SAN=lyncdiscover。\<sipdomain\>   |
    
 この SAN は、リバース プロキシの SSL リスナーに割り当てられている証明書に割り当てる必要があります。
   

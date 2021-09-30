@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: '概要: オンプレミス のパートナー アプリケーションを構成して、Skype for Business Server。'
-ms.openlocfilehash: 4bc1461f01c60ba1f151cfca28c979b69e08a761
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d0907d73d6a23c0a5b9a1f1725503b72c5bce993
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587179"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012621"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>オンプレミス のパートナー アプリケーションを構成Skype for Business Server
  
@@ -74,7 +74,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-コードをコピーした後、スクリプトを .PS1 ファイル拡張子を使用して保存します (例: C:\Scripts\ServerToServerAuth.ps1)。 このスクリプトを実行する前に、メタデータ URL と、それぞれ https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 Exchange 2013 および SharePoint サーバーで使用されるメタデータ URL に置き換える必要があります。 http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 各製品のメタデータ URL をExchangeする方法については、SharePoint 2013 および SharePointの製品ドキュメントを参照してください。
+コードをコピーした後、スクリプトを .PS1 ファイル拡張子を使用して保存します (例: C:\Scripts\ServerToServerAuth.ps1)。 このスクリプトを実行する前に、メタデータ URL と、それぞれ `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` Exchange 2013 および SharePoint サーバーで使用されるメタデータ URL に置き換える必要があります。 `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` 各製品のメタデータ URL をExchangeする方法については、SharePoint 2013 および SharePointの製品ドキュメントを参照してください。
   
 このスクリプトの最後の行で、Set-CsOAuthConfiguration コマンドレットが次の構文で呼び出されます。
   

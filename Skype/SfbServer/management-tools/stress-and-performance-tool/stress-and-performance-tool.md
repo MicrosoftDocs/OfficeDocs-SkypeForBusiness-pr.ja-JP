@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: 2015 Skype for Business Serverおよびパフォーマンス ツールは、非実稼働環境またはテスト環境での容量計画とパフォーマンス調整中に使用されます。
-ms.openlocfilehash: 381e6178994ce8d4ce2f3558bd075cf6fc3b6d43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0ce2c4f4a608f6ecba980d7f8fe77fbc2863d81d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611896"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012371"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 ストレスとパフォーマンス ツール
  
@@ -42,27 +42,27 @@ ms.locfileid: "58611896"
 
 ストレスとパフォーマンス ツールは、次の種類のユーザー負荷をシミュレートできます。
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
-|インスタント メッセージング (IM) とプレゼンス  <br/> |電話会議  <br/> |
-|アプリケーション共有  <br/> |公衆交換電話網 (PTSN) シミュレーションを含むボイス オーバー IP (VoIP)  <br/> |
-|Web Access クライアント会議  <br/> |会議自動応答  <br/> |
-|応答グループ  <br/> |配布リストの展開  <br/> |
-|アドレス帳のダウンロードとアドレス帳のクエリ  <br/> |拡張 911 (E911) 通話と場所プロファイル (ダイヤル プラン)  <br/> |
-|MultiView  <br/> |データの共同作業  <br/> |
-|身体  <br/> ||
+|インスタント メッセージング (IM) とプレゼンス   |電話会議   |
+|アプリケーション共有   |公衆交換電話網 (PTSN) シミュレーションを含むボイス オーバー IP (VoIP)   |
+|Web Access クライアント会議   |会議自動応答   |
+|応答グループ   |配布リストの展開   |
+|アドレス帳のダウンロードとアドレス帳のクエリ   |拡張 911 (E911) 通話と場所プロファイル (ダイヤル プラン)   |
+|MultiView   |データの共同作業   |
+|モビリティ   ||
    
 ## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 年 2015 年Skype for Business Serverパフォーマンス ツールに含まれるアプリケーションとファイル
 
 これらのアプリケーションは、ストレスとパフォーマンス ツールSkype for Business Serverの一部です。
   
-|**ツール**|**説明**|
+|ツール|説明|
 |:-----|:-----|
-|UserProvisioningTool.exe  <br/> |このツールは、ユーザーと連絡先を作成するために使用されます。  <br/> |
-|UserProfileGenerator.exe  <br/> |シミュレートするユーザー負荷の特性を構成するために使用します。  <br/> |
-|LyncPerfTool.exe  <br/> |ユーザーの負荷をシミュレートするツール。  <br/> |
-|Default.tmx  <br/> |2015 Skype for Business Serverツールを使用するために必要です。  <br/> |
-|プロビジョニング スクリプトの例  <br/> |特定のシナリオに基づいてロード テストを実行するトポロジを構成するために使用します。 特定の環境に関連付けするために、それらを変更する必要がある可能性があります。  <br/> |
+|UserProvisioningTool.exe   |このツールは、ユーザーと連絡先を作成するために使用されます。   |
+|UserProfileGenerator.exe   |シミュレートするユーザー負荷の特性を構成するために使用します。   |
+|LyncPerfTool.exe   |ユーザーの負荷をシミュレートするツール。   |
+|Default.tmx   |2015 Skype for Business Serverツールを使用するために必要です。   |
+|プロビジョニング スクリプトの例   |特定のシナリオに基づいてロード テストを実行するトポロジを構成するために使用します。 特定の環境に関連付けするために、それらを変更する必要がある可能性があります。   |
    
 ## <a name="topics-in-this-section"></a>このセクションのトピック
 

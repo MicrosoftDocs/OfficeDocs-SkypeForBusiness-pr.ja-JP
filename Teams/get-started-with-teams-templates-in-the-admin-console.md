@@ -1,5 +1,5 @@
 ---
-title: 管理センターでチーム テンプレートをTeamsする
+title: Teams 管理センターで Teams テンプレートの使用を開始する
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -18,14 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19333badf3df580129ab7a805cf27c670748d299
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 30d2ef7baf485e617ac5d703659a79d6f57e7f76
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991146"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011781"
 ---
-# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>管理センターでチーム テンプレートをTeamsする
+# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Teams 管理センターで Teams テンプレートの使用を開始する
 
 **カスタム テンプレートを作成する機能は、EDU のお客様ではまだサポートされていません。**
 
@@ -71,23 +71,23 @@ Microsoft Teamsチーム テンプレートは、ビジネスの必要性やプ�
 | ------------------ | -------------- | ----------------------------------------------------- |
 | 導入Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  チャネル <ul><li>全般</li> <li>お知らせ</li> <li>チャンピオン コーナー</li> <li>チーム フォーム</li><li>カレンダー</li></ul> アプリ: <ul><li>Wiki</li>  <li>チャネルカレンダー</li> <li>マイルストーン</li><li>情報</li></ul>|
 | プロジェクトを管理する |`com.microsoft.teams.template.ManageAProject`| チャネル <ul><li>全般</li> <li>お知らせ</li> <li>リソース</li> <li>計画</li></ul> アプリ:<ul><li>Wiki</li><li>OneNote</li><li>タスク</li><li>リスト</li><li>Power Automate</li></ul> |
-| イベントを管理する|`com.microsoft.teams.template.ManageAnEvent` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ:<ul><li>Wiki</li><li>Web サイト</li> <li>YouTube</li> <li>タスク</li> <li>OneNote</li> <li>従業員のアイデア</li> <li>問題レポーター</li><li>Power Automate</li><li>情報</li><li>マイルストーン</li></ul> |
+| イベントを管理する|`com.microsoft.teams.template.ManageAnEvent` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ:<ul><li>Wiki</li><li>Web サイト</li> <li>YouTube</li> <li>タスク</li> <li>OneNote</li> <li>従業員のアイデア</li> <li>問題の報告者</li><li>Power Automate</li><li>情報</li><li>マイルストーン</li></ul> |
 |従業員のオンボード|`com.microsoft.teams.template.OnboardEmployees` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>従業員チャット</li> <li>トレーニング</li></ul>アプリ:<ul><li>Wiki</li><li>コミュニティ</li><li>タスク</li><li>従業員のアイデア</li><li>Power Automate</li><li>情報</li><li>マイルストーン</li></ul>|
-|ヘルプ デスクを整理する| `com.microsoft.teams.template.OrganizeHelpDesk`|チャネル<ul><li>全般</li><li>お知らせ</li><li>よくあるご質問 (FAQ)</li></ul>アプリ:<ul><li>Wiki</li><li>OneNote</li><li>タスク </li><li>称賛</li><li>問題レポーター</li><li>Power Automate</li><li>情報</li></ul> |
+|ヘルプ デスクを整理する| `com.microsoft.teams.template.OrganizeHelpDesk`|チャネル<ul><li>全般</li><li>お知らせ</li><li>よくあるご質問 (FAQ)</li></ul>アプリ:<ul><li>Wiki</li><li>OneNote</li><li>タスク </li><li>称賛</li><li>問題の報告者</li><li>Power Automate</li><li>情報</li></ul> |
 | 患者のケア| `com.microsoft.teams.template.healthcareWard`| チャネル<ul><li>全般</li><li>お知らせ</li><li>ハドル</li><li>ラウンド</li><li>人員配置</li><li>トレーニング</li></ul> アプリ: <ul><li>Wiki</li><li>リスト  </li><li>承認</li><li>情報</li><li>検査</li></ul>|
-| 危機的なコミュニケーション |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| チャネル <ul><li>全般<li>お知らせ</li><li>世界のニュース</li><li>内部 comms</li><li>外部通信</li><li>承認要求</li><li>顧客のエスカレーション</li><li>エグゼクティブの更新</li><li>計画</li><li>物流</li></ul>アプリ: <ul><li>Web サイト</li><li>タスク</li><li>問題レポーター</li><li>承認</li><li>情報</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|銀行支店| `com.microsoft.teams.template.CollaborateWithinABankBranch`|チャネル <ul><li>全般<li>お知らせ</li><li>ハドル</li><li>顧客会議</li><li>承認要求 </li><li>コーチング</li><li>スキル開発</li><li>ローン処理</li><li>顧客からの苦情</li><li>Kudos</li><li>楽しい情報</li><li>コンプライアンス</li></ul>アプリ:<ul><li>称賛 </li><li>問題レポーター</li><li>Wiki</li><li>カレンダー</li><li>承認</li><li>情報</li><li>アイデア</li></ul>|
+| 危機的なコミュニケーション |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| チャネル <ul><li>全般<li>お知らせ</li><li>世界のニュース</li><li>内部 comms</li><li>外部通信</li><li>承認要求</li><li>顧客のエスカレーション</li><li>エグゼクティブの更新</li><li>計画</li><li>物流</li></ul>アプリ: <ul><li>Web サイト</li><li>タスク</li><li>問題の報告者</li><li>承認</li><li>情報</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
+|銀行の支店| `com.microsoft.teams.template.CollaborateWithinABankBranch`|チャネル <ul><li>全般<li>お知らせ</li><li>ハドル</li><li>顧客との会議</li><li>承認要求 </li><li>指導</li><li>スキルの習得</li><li>融資の処理</li><li>顧客の苦情</li><li>称賛</li><li>楽しい機能</li><li>コンプライアンス</li></ul>アプリ:<ul><li>称賛 </li><li>問題の報告者</li><li>Wiki</li><li>カレンダー</li><li>承認</li><li>情報</li><li>アイデア</li></ul>|
 |インシデント対応| `com.microsoft.teams.template.CoordinateIncidentResponse`|チャネル <ul><li>全般<li>お知らせ</li><li>物流</li><li>計画</li><li>回復</li><li>緊急</li></ul> アプリ: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>タスク</li> <li>承認</li> <li>検査</li> <li>Power Automate</li><li>情報</li><li>マイルストーン</li></ul>|
 |病院| `com.microsoft.teams.template.healthcareHospital` |チャネル <ul><li>全般</li><li>お知らせ</li><li>コンプライアンス</li><li>親権</li><li>人事管理</li><li>薬局</li></ul> アプリ: <ul><li>Wiki</li><li>リスト</li><li>タスク</li><li>承認</li><li>Shifts</li><li>情報</li><li>検査</li><li>アイデア</li></ul>|
-|店舗を整理する| `com.microsoft.teams.template.retailStore` |チャネル: <ul><li>全般<li>シフトのハンドオフ</li><li>ストアの準備</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>Shifts</li><li>検査</li></ul>|
-|マネージャー向けリテール| `com.microsoft.teams.template.retailManagerCollaboration` |チャネル <ul><li>全般<li>操作</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>検査</li></ul>|
-|品質と安全性 |`com.microsoft.teams.template.QualitySafety`|チャネル <ul><li>全般<li>お知らせ</li><li>リーダーシップ</li><li>メンテナンス</li><li>生産ライン 1</li><li>生産ライン 2</li><li>生産ライン 3</li><li>正常性と安全性</li><li>トレーニング</li><li>楽しい情報</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li> <li>問題レポーター</li> <li>検査</li> </ul>|
+|店舗を整理する| `com.microsoft.teams.template.retailStore` |チャネル: <ul><li>全般<li>シフトのハンドオフ</li><li>ストアの準備状況</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>Shifts</li><li>検査</li></ul>|
+|マネージャー用小売業| `com.microsoft.teams.template.retailManagerCollaboration` |チャネル <ul><li>全般<li>操作</li><li>学習</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>検査</li></ul>|
+|品質と安全性 |`com.microsoft.teams.template.QualitySafety`|チャネル <ul><li>全般<li>お知らせ</li><li>リーダーシップ</li><li>メンテナンス</li><li>生産ライン 1</li><li>生産ライン 2</li><li>生産ライン 3</li><li>正常性と安全性</li><li>トレーニング</li><li>楽しい機能</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li> <li>問題の報告者</li> <li>検査</li> </ul>|
 
 ### <a name="team-templates-by-category-and-industry"></a>カテゴリと業界別のチーム テンプレート
 
 業界で事前構築されたテンプレートを使用する方法の詳細については、以下を参照してください。
 
-- [財務チームのテンプレート](financial-teams-templates-in-the-admin-console.md)
+- [財務チームテンプレート](financial-teams-templates-in-the-admin-console.md)
 - [一般的なチーム テンプレート](general-teams-templates-in-the-admin-console.md)
 - [政府機関のチーム テンプレート](government-teams-templates-in-the-admin-console.md)
 - [医療チームのテンプレート](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
@@ -112,11 +112,11 @@ Microsoft Teamsチーム テンプレートは、ビジネスの必要性やプ�
 
 ## <a name="manage-team-templates"></a>チーム テンプレートを管理する
 
-### <a name="manage-team-templates-in-the-teams-admin-center"></a>管理センターでチーム テンプレートTeams管理する
+### <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理センターでチーム テンプレートを管理する
 
 #### <a name="view-team-templates"></a>チーム テンプレートを表示する
 
-チーム テンプレートを表示するには、管理センターの左側のTeamsチーム テンプレート に移動Teams  >  **移動します**。 テンプレートを選択すると、含まれるチャネルやアプリなど、詳細が表示されます。
+チーム テンプレートを表示するには、管理センターの左側のTeamsチーム **テンプレート** に移動Teams  >  **移動します**。 テンプレートを選択すると、含まれるチャネルやアプリなど、詳細が表示されます。
 
 #### <a name="create-your-own-team-templates"></a>独自のチーム テンプレートを作成する
 
@@ -134,13 +134,13 @@ Microsoft Teamsチーム テンプレートは、ビジネスの必要性やプ�
 
 PowerShell でテンプレートを管理するには、次のコマンドレットを使用します。
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
 - [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-articles"></a>関連記事
 
 - [テンプレートからチームを作成する](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
-- [Microsoft Graph を使用してチーム テンプレートの使用を開始する](get-started-with-teams-templates.md) 
+- [Microsoft Graph を使用して、チーム テンプレートの使用を開始する](get-started-with-teams-templates.md) 

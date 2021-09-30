@@ -1,6 +1,6 @@
 ---
 title: 教育機関用 Teams
-description: 学校や組織で組織のリソースを正常にデプロイ、導入、管理するために使用できるTeamsについて学習します。
+description: 学校や組織で組織のリソースを正常にデプロイ、導入、および管理Teams利用可能な管理者リソースについて学習します。
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -19,19 +19,19 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 7ddce7d633028ee3087cb8f29b6f47d593e664ae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 85810f800424ddc0453b554ee8ab3a8863766150
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730476"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013981"
 ---
 # <a name="teams-for-education"></a>教育機関用 Teams
 
-教師Teams教職員は、共同作業を行う教室を作成し、専門の学習コミュニティに接続し、学生や教師とコミュニケーションを取る方法を説明します。 ここで管理リソースを使用すると、学校や組織で組織のTeams展開、導入、管理を行うのに役立ちます。 
+教師Teams教職員は、共同作業を行う教室を作成し、専門の学習コミュニティに接続し、学生や教師とコミュニケーションを取る方法を説明します。 ここで管理者リソースを使用すると、学校や組織で組織の管理Teamsに役立ちます。 
 
 
-|               |               |
+|&nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![右矢印アイコンのスクリーンショット。](../media/arrow-right-2-teams.svg)  |  [クイック スタート - 教育用 Teams の管理者](../teams-quick-start-edu.yml) |
 | ![紙と鉛筆のアイコンのスクリーンショット。](../media/sign-up-teams.svg) | [教育機関向けの Teams の課題 ](./assignments-in-teams.md) |

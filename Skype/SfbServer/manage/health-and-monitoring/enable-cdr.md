@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '概要: 通話詳細記録 (CDR) レコードを有効にする方法については、Skype for Business Server。'
-ms.openlocfilehash: cc9b3d4f19a4598638093d92733a0917fca7c2c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 51c2dcd1f1ecf77647ded6dbbc41ea9cdc2c13d8
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622369"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014561"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>[通話の詳細記録を有効にする] Skype for Business Server
 
@@ -45,7 +45,7 @@ ms.locfileid: "58622369"
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>複数のコマンドレットを使用して CDR をWindows PowerShellする
 
-CDR を有効にするには、Windows PowerShell **Set-CsCdrConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+CDR を有効にするには、Windows PowerShell **Set-CsCdrConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>1 つの場所の CDR を有効にするには
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a8efe71507b6270181fb0451f06f10a80c7a578b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729906"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014571"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Skype for Business Online インストールをテストする
 
@@ -34,7 +34,7 @@ ms.locfileid: "58729906"
 
 必要なものは以下のとおりです。
 
-- 少なくとも 3 Microsoft 365またはOffice 365アカウント (自分と他の少なくとも 2 つ) です。
+- 少なくとも 3 Microsoft 365またはOffice 365 (自分のアカウントと少なくとも 2 つのアカウント)。
 
 - テスト アカウントごとに 1 台のコンピューター。組織内の通常のコンピューターと同様にセットアップします。
 
@@ -64,7 +64,7 @@ ms.locfileid: "58729906"
 
 各テスト コンピューター上で、次の手順を実行します。
 
-1. Microsoft 365またはOffice 365に移動し、テスト アカウントのいずれかの資格情報でサインインします。
+1. ホーム ページMicrosoft 365またはOffice 365に移動し、テスト アカウントのいずれかの資格情報でサインインします。
 
 2. [設定設定: プロファイルの更新、ソフトウェアのインストール、クラウドへの接続に関するページに移動し、[ソフトウェアのインストール] をクリックしてクラウドに ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **接続します**。
 
@@ -107,7 +107,7 @@ Skype for Business Online 会議に電話でアクセスできるようにする
 |[Lync Online へのサインインとサインアウト](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |Skype for Business サインイン画面が表示されます。  <br/> |
 |[Lync Online へのサインインとサインアウト](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |Skype for Business ウィンドウが閉じ、Windows 通知領域に Skype for Business が表示されなくなります。  <br/> |
 
-サインインできない場合は、「[Skype for Business Online で発生するサインイン問題をトラブルシューティングする方法](https://support.microsoft.com/kb/2541980)」をご覧ください。
+サインインできない場合 「[ユーザーのSkype for Businessのトラブルシューティング」を参照してください](/skypeforbusiness/troubleshoot/online-sign-in/troubleshoot-sign-in-issues-for-users)。
 
  **連絡先、プレゼンス、インスタント メッセージング**
 

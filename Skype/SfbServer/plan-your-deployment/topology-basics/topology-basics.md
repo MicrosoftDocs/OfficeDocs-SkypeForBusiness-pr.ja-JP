@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '概要: 使用するトポロジを選択Skype for Business Server。 サーバーのコロケーションについてSkype for Business Server。'
-ms.openlocfilehash: ff527bc35f534de5a7c8830bbc4359626f8f09b9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3fae86501dfc0952bfb3fcf43347a1f0c9641536
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609214"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012531"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>トポロジの基本Skype for Business Server
 
@@ -83,28 +83,28 @@ Skype for Business Serverは、高可用性と場所の要件に応じて拡張�
 
 セントラル サイトに展開Standard Editionフロント エンド プールとサーバーは、展開したと仮定して、次の情報を共有します。
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|ディレクターまたはディレクター プール  <br/> |スタンドアロン仲介サーバーまたは仲介サーバー プール  <br/> |Office Web Apps サーバー  <br/> |
-|エッジ サーバーまたはエッジ プール  <br/> |常設チャット サーバーまたは常設チャット サーバー プール  <br/> |監視  <br/> |
+|ディレクターまたはディレクター プール   |スタンドアロン仲介サーバーまたは仲介サーバー プール   |Office Web Apps サーバー   |
+|エッジ サーバーまたはエッジ プール   |常設チャット サーバーまたは常設チャット サーバー プール   |監視   |
 
 このリストExchangeユニファイド メッセージング (UM) サーバーの場所 Exchange UM と統合する場合は、Skype for Business Server と一緒に使用できますが、Skype for Business Server サイトのコンポーネントではないので、ここでは説明を行いません。
 
 複数のセントラル サイトを使用する予定の場合、中央サイトに展開されている場合は、次のサーバーと役割を共有できます。
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
-|スタンドアロン仲介サーバーまたは仲介サーバー プール  <br/> |エッジ サーバーまたはエッジ プール  <br/> |
-|常設チャット サーバーまたは常設チャット サーバー プール  <br/> |監視  <br/> |
+|スタンドアロン仲介サーバーまたは仲介サーバー プール   |エッジ サーバーまたはエッジ プール   |
+|常設チャット サーバーまたは常設チャット サーバー プール   |監視   |
 
 最後の一覧と同様に、Skype for Business Server 展開の一部ではないので、ここに Exchange UM サーバーは含めず、ここでも同じカテゴリに分類されます。
 
 もちろん、展開には他にもいくつかのコンポーネントとオプションがあります。
 
-|||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|ファイアウォール  <br/> |PSTN ゲートウェイ (PSTN ゲートウェイを展開するエンタープライズ VoIP  <br/> |ExchangeUM サーバー (UM と統合する場合Exchange)  <br/> |DNS 負荷分散  <br/> |
-|ハードウェア ロード バランサー  <br/> |SQL Server データベース  <br/> |ファイル共有  <br/> ||
+|ファイアウォール   |PSTN ゲートウェイ (PSTN ゲートウェイを展開するエンタープライズ VoIP   |ExchangeUM サーバー (UM と統合する場合Exchange)   |DNS 負荷分散   |
+|ハードウェア ロード バランサー   |SQL Server データベース   |ファイル共有   ||
 
 ## <a name="server-roles"></a>サーバーの役割
 

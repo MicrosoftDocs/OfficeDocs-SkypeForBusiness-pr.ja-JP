@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: '概要: エクスペリエンスの品質 (QoE) の設定について、Skype for Business Server。'
-ms.openlocfilehash: 564ab88b349b578cf577893e4119e5e1ebf26fb1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8c92f5844562e3a99cfc8d8701d7a72b9022267c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585101"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012171"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>[エクスペリエンスの品質] 構成設定を作成Skype for Business Server
  
@@ -63,7 +63,7 @@ QoE 構成設定は、コントロール パネルまたは[New-CsQoEConfigurati
     
 ## <a name="creating-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用設定 QoE 構成Windows PowerShell作成する
 
-QoE 構成設定を作成するには、Windows PowerShellコマンドレットをNew-CsQoEConfigurationします。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+QoE 構成設定を作成するには、Windows PowerShellコマンドレットをNew-CsQoEConfigurationします。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-create-a-new-collection-of-qoe-configuration-settings"></a>QoE 構成設定の新しいコレクションを作成するには
 

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: '概要: エクスペリエンスの品質 (QoE) 設定を削除する方法については、Skype for Business Server。'
-ms.openlocfilehash: f4200916920042bba021a423d33d8088da2fd3d0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e82e844fb217f8c2e71ecb21a6d70e26c4b90ade
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598984"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014501"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>[エクスペリエンスの品質] 構成設定を削除Skype for Business Server
  
@@ -45,7 +45,7 @@ QoE 構成設定を削除するには、Skype for Business Serverコントロー
     
 ## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した QoE 構成設定の削除Windows PowerShellする
 
-QoE 構成設定を削除するには、Windows PowerShell **Remove-CsQoEConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+QoE 構成設定を削除するには、Windows PowerShell **Remove-CsQoEConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>指定した QoE 構成設定のコレクションを削除するには
 

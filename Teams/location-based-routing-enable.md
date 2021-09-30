@@ -8,7 +8,7 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: ユーザー、ネットワーク サイト、ゲートウェイLocation-Based呼び出しポリシーの有効化など、ダイレクト ルーティングのルーティングを有効にする方法について説明します。
+description: ユーザー、ネットワーク サイト、ゲートウェイLocation-Based呼び出しポリシーに対して有効にする方法など、ダイレクト ルーティングのルーティングを有効にする方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 51a7aa95eb74e7baa199ac8d43dd5f89b352c95c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: de233212a4baf6ce5cfaf771bb809d5522d7ad0a
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584501"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013341"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
-この記事の手順に従う前に、「ダイレクト ルーティングの [計画 Location-Based ルーティング](location-based-routing-plan.md) 」を読み、ルーティングのネットワーク設定の構成に関するページの手順を完了 [Location-Basedしてください](location-based-routing-configure-network-settings.md)。
+この記事の手順に従う前に、「直接ルーティングの [Location-Based ルーティング](location-based-routing-plan.md) の計画」を読み、Location-Based ルーティングのネットワーク設定の構成に関するページ [の手順を完了してください](location-based-routing-configure-network-settings.md)。
 
-この記事では、ダイレクト ルーティングのルーティングを有効Location-Based方法について説明します。 直接ルーティング電話システムデプロイし、ネットワーク リージョン、サイト、サブネットを設定した後は、ネットワーク ルーティングを有効Location-Basedできます。 この記事の手順を完了するには、PowerShell コマンドレットに関する理解が必要です。 詳細については[、「PowerShell の概要」Teamsを参照してください](teams-powershell-overview.md)。
+この記事では、ダイレクト ルーティングのルーティングを有効Location-Based方法について説明します。 電話システムダイレクト ルーティングをデプロイし、ネットワーク リージョン、サイト、サブネットを設定した後、ネットワーク ルーティングを有効Location-Basedできます。 この記事の手順を完了するには、PowerShell コマンドレットに関する理解が必要です。 詳細については [、「Teams PowerShell の概要」を参照してください](teams-powershell-overview.md)。
 
  次の場合は、Location-Basedルーティングを有効にする必要があります。
 - ユーザー
@@ -36,7 +36,7 @@ ms.locfileid: "58584501"
 - ゲートウェイの構成
 - 通話ポリシー
 
-管理センターまたは[powerShel](#using-powershell)l [Microsoft Teams使用](#using-the-microsoft-teams-admin-center)して、ルーティングを有効Location-Basedできます。
+Microsoft Teams 管理センターまたは[PowerShel](#using-powershell)l を使用して、ルーティングLocation-Basedできます。 [](#using-the-microsoft-teams-admin-center)
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
@@ -48,17 +48,17 @@ ms.locfileid: "58584501"
     - ルーティング制限が不要なリージョンにある PSTN ゲートウェイを使用する音声ルートLocation-Based PSTN 使用法を使用します。
 2. ルーティング制限を適用する必要があるユーザーに音声ルーティング ポリシーを割り当てる。
 
-音声ルーティング ポリシーを作成してユーザーに割り当てる方法の詳細については、「音声ルーティング ポリシーを管理する」を参照[Microsoft Teams。](manage-voice-routing-policies.md)
+音声ルーティング ポリシーを作成してユーザーに割り当てる方法の詳細については、「Microsoft Teams で音声ルーティング ポリシーを管理する」 [を参照してください](manage-voice-routing-policies.md)。
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>ネットワーク Location-Basedルーティングを有効にする
 
-ルーティングLocation-Based適用する必要があるサイトのルーティングを有効にする。 これを行うには、Microsoft Teams 管理センターの左側のナビゲーションで、[場所] ネットワークトポロジに移動し、ネットワーク サイトを選択し、[編集] をクリックして、[場所ベースのルーティング] をオン  >  **にします**。   
+ルーティングLocation-Basedを適用する必要があるサイトのルーティングを有効にする。 これを行うには、Microsoft Teams 管理センターの左側のナビゲーションで、[場所ネットワーク トポロジ] に移動し、ネットワーク サイトを選択し、[編集] をクリックして、[場所ベースのルーティング] をオン  >  **にします**。   
 
 詳細については、「ネットワーク トポロジの [管理」を参照してください](manage-your-network-topology.md)。
 
 ### <a name="enable-location-based-routing-for-gateways"></a>ゲートウェイLocation-Basedルーティングを有効にする
 
-通話Location-Based PSTN にルーティングする PSTN ゲートウェイにルーティングするゲートウェイへのルーティングを有効にし、ゲートウェイがあるネットワーク サイトを関連付ける。 
+通話Location-Based PSTN にルーティングする PSTN ゲートウェイに通話をルーティングするゲートウェイへのルーティングを有効にし、ゲートウェイがあるネットワーク サイトを関連付ける。 
 
 1. 左側のナビゲーションで、[**音声ダイレクト** ルーティング]  >  **に移動し****、[SBC] タブをクリック** します。
 2. SBC を選択し、[編集] を **クリックします**。 
@@ -68,9 +68,9 @@ ms.locfileid: "58584501"
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>通話ポリシーLocation-Basedルーティングを有効にする
 
-特定のユーザーLocation-Basedルーティングを適用するには、PSTN 有料バイパスを防ぐためにユーザーの通話ポリシーを設定します。 これを行うには、呼び出し元ポリシーで **[有料** バイパスを防止する] 設定をオンにします。
+特定のユーザーLocation-Basedルーティングを強制するには、PSTN 有料バイパスを防ぐために、ユーザーの呼び出しポリシーを設定します。 これを行うには、呼び出し元ポリシーで **[有料** バイパスを防止する] 設定をオンにします。
 
-詳細については、 の呼び出し[ポリシーに関するページTeams。](teams-calling-policy.md)
+詳細については [、「Teams でのポリシーの呼び出し」を参照してください](teams-calling-policy.md)。
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
@@ -103,7 +103,7 @@ ms.locfileid: "58584501"
     ```
     次の表は、この例で定義されている音声ルーティング ポリシーを示しています。 
     
-    ||音声ルーティング ポリシー 1|音声ルーティング ポリシー 2|
+    |&nbsp;|音声ルーティング ポリシー 1|音声ルーティング ポリシー 2|
     |---------|---------|---------|
     |オンライン音声ポリシー ID   |Delhi オンライン音声ルーティング ポリシー   |ハイデラバード のオンライン音声ルーティング ポリシー    |
     |オンライン PSTN の使用状況  |距離が長い  |Long Distance、Local、Internal  |
@@ -127,9 +127,9 @@ ms.locfileid: "58584501"
     ```
     次の表は、この例でルーティングをLocation-Basedサイトを示しています。
 
-    ||サイト 1 (Delhi)  |サイト 2 (ハイデラバード)  |
+    |&nbsp;|サイト 1 (Delhi)  |サイト 2 (ハイデラバード)  |
     |---------|---------|---------|
-|サイト名    |サイト 1 (Delhi)    |サイト 2 (ハイデラバード)   
+    |サイト名    |サイト 1 (Delhi)    |サイト 2 (ハイデラバード)|
     |EnableLocationBasedRouting    |True    |True    |
     |サブネット     |サブネット 1 (Delhi)     |サブネット 2 (ハイデラバード)     |
 
@@ -150,13 +150,13 @@ ms.locfileid: "58584501"
     
 2. [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway?view=skype-ps)コマンドレットを使用して、ルーティングLocation-Basedを適用する必要があるゲートウェイのルーティングを有効にできます。 
 
-    通話Location-Based PSTN にルーティングする PSTN ゲートウェイにルーティングするゲートウェイへのルーティングを有効にし、ゲートウェイがあるネットワーク サイトを関連付ける。
+    通話Location-Based PSTN にルーティングする PSTN ゲートウェイに通話をルーティングするゲートウェイへのルーティングを有効にし、ゲートウェイがあるネットワーク サイトを関連付ける。
 
     ```PowerShell
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
-    この例では、delhi サイトとハイLocation-Basedサイトの PSTN ゲートウェイに関連付けられている各ゲートウェイのルーティングを有効にします。 
+    この例では、delhi サイトLocation-Basedハイデラバード サイトの PSTN ゲートウェイに関連付けられている各ゲートウェイのルーティングを有効にします。 
     ```PowerShell
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
@@ -190,6 +190,6 @@ Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id>
 Grant-CsTeamsCallingPolicy –PolicyName "AllowCallingPreventTollBypass" -id "User1" 
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams のクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c33ad827e5d2674f9ecf15b3229979e4bd46ad71
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: c47285a8a759ccdade5fc6e95b90d75ede77bfc3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456387"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014691"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する
 
@@ -205,11 +205,11 @@ Microsoft Teams モバイル アプリをサポートしているモバイル �
 
 モバイル アプリは、それぞれのモバイル プラットフォームのアプリ ストアからのみ配布および更新されます。 MDM やサイド ロードからモバイル アプリを配布することは、Microsoft ではサポートしていません。 サポートされているモバイル プラットフォームにモバイル アプリがインストールされると、Teams モバイル アプリ自体、そのバージョンが現在のリリースから 3 か月以内であればサポートされます。
 
-| | | |
+|&nbsp; |&nbsp; |&nbsp; |
 |---|---|---|
 |![判断ポイントを表すアイコン。](media/Get_clients_for_Microsoft_Teams_image4.png)|判断ポイント|ユーザーが適切な Microsoft Teams クライアントをデバイスにインストールすることを妨げる制限事項はありますか?|
 |![次のステップを表すアイコン。](media/Get_clients_for_Microsoft_Teams_image5.png)|次のステップ|組織によってソフトウェアのインストールが制限されている場合、処理が Microsoft Teams に対応していることを確認してください。注意: 管理者権限は、PC クライアント インストールでは必要ありませんが、Mac へのインストールでは必要になります。|
-|
+
 
 ## <a name="client-update-management"></a>クライアントの更新管理
 

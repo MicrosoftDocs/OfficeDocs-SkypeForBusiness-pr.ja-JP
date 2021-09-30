@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 2015 計画ツールのSkype for Business Serverガイダンス。
-ms.openlocfilehash: 7e532f33710da1f0a9f82f2c8169b5258dab50ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 55c45f4df4a30b223c76fcbdf829357e7410d4b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626569"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014741"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 計画ツール
  
 2015 計画ツールのSkype for Business Serverガイダンス。
   
-2015 Skype for Business Server 2015 計画ツールは、設計中の Skype for Business Server 2015 トポロジに関する質問をする、ウィザード駆動型のインタビューのようなツールです。 計画ツールは、提供された情報とトポロジ設計と容量の推奨プラクティスを組み合って、提供された回答に基づいて推奨トポロジを提示します。 計画ツールは[、2015 Skype for Business Serverツールからダウンロードできます](https://go.microsoft.com/fwlink/p/?LinkID=282725)。
+2015 Skype for Business Server 2015 計画ツールは、設計中の Skype for Business Server 2015 トポロジに関する質問をする、ウィザード駆動型のインタビューのようなツールです。 計画ツールは、提供された情報とトポロジ設計と容量の推奨プラクティスを組み合って、提供された回答に基づいて推奨トポロジを提示します。
   
 最終的には、計画ツールの目的は、2015 年の完全なトポロジを設計する潜在的な複雑さをSkype for Business Serverです。 また、Microsoft Web サイトへの接続にインターネット接続が利用できる場合は、ツール内の計画と展開に関するドキュメントに関するコンテキスト参照も提供されます。
   

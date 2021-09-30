@@ -19,19 +19,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'PowerShell を使用して、Skype for Business と Lync クライアントのユーザー インターフェイスを切り替える方法について説明Microsoft 365またはOffice 365 '
-ms.openlocfilehash: 2345e30bf43a00342b1238533884d749e32095f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Microsoft 365 または Office 365 で PowerShell を使用して Skype for Business と Lync クライアントのユーザー インターフェイスを切り替える方法について説明します '
+ms.openlocfilehash: ecb494ea274a9652024056c1b0725159565d22af
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732266"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014991"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Skype for Business と Lync クライアントのユーザー インターフェイスを切り替える
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business Online 組織では、Microsoft 365 または Office 365 のリモート PowerShell を使用して、Skype for Business ユーザーが Skype for Business クライアントまたは Skype for Business (Lync) クライアント ユーザー インターフェイスを使用できます。 既定では、Skype for Business クライアントのユーザー インターフェイスを使用するように設定されています。 Lync クライアント エクスペリエンスを使用する場合は、このトピックの後半の手順に従って、Lync ユーザー インターフェイスを表示する最初の起動クライアント動作を管理できます。
+Skype for Business Online 組織の場合、Microsoft 365 または Office 365 のリモート PowerShell を使用して、Skype for Business ユーザーが Skype for Business クライアントまたは Skype for Business (Lync) クライアント ユーザー インターフェイスを使用できます。 既定では、Skype for Business クライアントのユーザー インターフェイスを使用するように設定されています。 Lync クライアント エクスペリエンスを使用する場合は、このトピックの後半の手順に従って、Lync ユーザー インターフェイスを表示する最初の起動クライアント動作を管理できます。
   
 > [!NOTE]
 > Lync 2013 クライアント エクスペリエンスは、Skype for Business 2016 クライアント バージョンのオプションではありません。 Lync 2013 クライアントを使用するようにクライアント環境を構成する前に、クライアント バージョンを調べて、バージョンの先頭が 16 ではない (16.x.x.x などではない) ことを確認してください。 
@@ -41,7 +41,7 @@ Skype for Business Online 組織では、Microsoft 365 または Office 365 の�
   
 ## <a name="switching-the-skype-for-business-user-interface-for-users"></a>ユーザー向けに Skype for Business のユーザー インターフェイスを切り替える
 
-Skype for Business Online 用 Windows PowerShell モジュールでは、Skype for Business Online に接続するリモート Windows PowerShell セッションを作成できます。 このモジュールは、64 ビットのコンピューターでのみサポートされ、Microsoft ダウンロード センターの「[Skype for Business Online 用 Windows PowerShell モジュール](https://go.microsoft.com/fwlink/?LinkId=294688)」からダウンロードできます。 その他の情報については、「[Skype for Business Online 管理用のコンピューターの構成](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)」を参照してください。
+Skype for Business Online 用 Windows PowerShell モジュールでは、Skype for Business Online に接続するリモート Windows PowerShell セッションを作成できます。 64 ビットコンピューターでのみサポートされているこのモジュールは、Microsoft ダウンロード センターの [「Teams PowerShell](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)モジュールをダウンロードしてインストールする」からダウンロードできます。 その他の情報については、「[Skype for Business Online 管理用のコンピューターの構成](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)」を参照してください。
   
 > [!IMPORTANT]
 > ユーザー インターフェイスの切り替えに関する _Global_ ポリシー設定は、カスタム ポリシーが既に設定されているユーザーには適用されません。 ユーザー インターフェイスを変更できるようにするには、カスタム ポリシーが適用されているユーザーそれぞれについて、次のコマンドを実行する必要があります。
@@ -81,7 +81,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 
 ポリシーを正しく設定すると、次のように表示されます。
   
-![Skype for Businessオンライン - UI を有効にする。](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
+![Skype for Business Online - UI を有効にする。](../images/596aef69-41dc-4e1e-b689-2b7009ae58a1.png)
   
 組織内の 1 人のユーザーが Skype for Business (Lync) クライアントを使用できるようにするには、リモート PowerShell を開いて、次のように入力します。
   
@@ -91,7 +91,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 
 ポリシーを正しく設定すると、次のように表示されます。
   
-![Skype for Businessオンライン - UI が無効です。](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
+![Skype for Business Online - UI が無効です。](../images/61c645e0-67fc-4e03-803c-b7028a47dae3.png)
   
 組織内の複数のユーザーが Skype for Business クライアントを使用できるようにするには、リモート PowerShell を開いて、次のように入力します。
   
@@ -135,17 +135,17 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
 |:-----|:-----|
 |ポリシーが設定されていない場合 |ユーザーは、引き続き Skype for Business クライアントのユーザー インターフェイスを使うことになります。|
 |`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`<br/>|ユーザーは、引き続き Skype for Business クライアントのユーザー インターフェイスを使うことになります。|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|ユーザーは、Lync (Lync) クライアント ユーザー インターフェイスSkype for Businessに切り替える必要があります。 後で切り替えることもできます。|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|ユーザーは、クライアント ユーザー インターフェイスSkype for Business使用します。 |
-`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|ユーザーは、Lync (Lync) クライアント ユーザー インターフェイスSkype for Businessに切り替える必要があります。 管理者は、Skype for Business クライアントのユーザー インターフェイスに切り替える設定を、後で変更することができます。 |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`<br/>|ユーザーは、Skype for Business (Lync) クライアント ユーザー インターフェイスに切り替える必要があります。 後で切り替えることもできます。|
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>`|ユーザーは Skype for Business クライアント ユーザー インターフェイスを使用します。 |
+`Grant-CsClientPolicy-PolicyName ClientPolicyDisableSkypeUI -Identity <username>`|ユーザーは、Skype for Business (Lync) クライアント ユーザー インターフェイスに切り替える必要があります。 管理者は、Skype for Business クライアントのユーザー インターフェイスに切り替える設定を、後で変更することができます。 |
    
 次の表は、ポリシーが変更されたときのユーザー エクスペリエンスを示しています。
   
 |**管理ポリシー設定**|**Skype for Business (Lync) のユーザー インターフェイス**|**Skype for Business のユーザー インターフェイス**|
 |:-----|:-----|:-----|
-|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|ユーザーは、クライアント のユーザー インターフェイスに切りSkype for Business求めるメッセージが表示されます。  <br/> |ユーザーは引き続きクライアント ユーザー インターフェイスSkype for Business使用します。  <br/> |
-|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|ユーザーは引き続き Skype for Business (Lync) インターフェイスを使用します。  <br/> |ユーザーは、Lync (Lync) クライアント ユーザー インターフェイスSkype for Businessに切り替える必要があります。  <br/> |
-|ポリシーが設定されていない場合  <br/> |ポリシーが設定されていない場合、Skype for Business (Lync) クライアント ユーザー インターフェイスは表示されません。 ユーザーは、常に Skype for Business クライアントのユーザー インターフェイスを使うことになります。  <br/> |ユーザーは引き続きクライアント ユーザー インターフェイスSkype for Business使用します。  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI`|ユーザーは、Skype for Business クライアント のユーザー インターフェイスに切り替える必要があります。  <br/> |ユーザーは引き続き Skype for Business クライアント ユーザー インターフェイスを使用します。  <br/> |
+|`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`|ユーザーは引き続き Skype for Business (Lync) インターフェイスを使用します。  <br/> |ユーザーは、Skype for Business (Lync) クライアント ユーザー インターフェイスに切り替える必要があります。  <br/> |
+|ポリシーが設定されていない場合  <br/> |ポリシーが設定されていない場合、ユーザーには Skype for Business (Lync) クライアント ユーザー インターフェイスは表示されません。 ユーザーは、常に Skype for Business クライアントのユーザー インターフェイスを使うことになります。  <br/> |ユーザーは引き続き Skype for Business クライアント ユーザー インターフェイスを使用します。  <br/> |
    
 次の表は、利用できるすべての Online カスタム ポリシーを示しています。 これには、管理者が古いカスタム ポリシーを保持しながら、EnableSkypeUI フラグを切り替えられるように、柔軟性を考慮して作成された新しいポリシーが含まれています。 上のコマンドレットを使って、下のポリシーの 1 つをユーザーに付与してください。
   
@@ -169,13 +169,13 @@ Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -Policy
    
 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
   
-- [PowerShell を使用するMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Microsoft 365 または Office 365 を管理する最適なWindows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 ## <a name="first-launch-client-behaviors"></a>最初の起動クライアントの動作
 
-既定では、ユーザーが Skype for Business を初めて起動すると、前に説明したように、クライアント ポリシーを Lync クライアント エクスペリエンス () に設定して Lync クライアント エクスペリエンスを選択した場合でも、常に Skype for Business ユーザー インターフェイスが表示されます。 `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` 起動から数分後に、Lync モードに切り替えるかどうかを確認するメッセージが表示されます。
+既定では、ユーザーが初めて Skype for Business を起動すると、前に説明したように、クライアント ポリシーを Lync クライアント エクスペリエンス () に設定して Lync クライアント エクスペリエンスを選択した場合でも、常に Skype for Business ユーザー インターフェイスが表示されます。 `Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI` 起動から数分後に、Lync モードに切り替えるかどうかを確認するメッセージが表示されます。
   
 ユーザーが初めて Skype for Business クライアントを起動したときに、Lync ユーザー インターフェイスを表示したい場合は、クライアントを更新後に初めて開始する前に、以下の手順を行います。
   
@@ -203,7 +203,7 @@ Windows PowerShell の使用を開始するには、次のトピックを参照�
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>ようこそ画面のチュートリアルの表示を制御する
 
-ユーザーが Skype for Business クライアントを開いた場合、既定の動作では、ほとんどのユーザーが 求める 7 つのクイック ヒントを含む [ようこそ]*画面が表示されます*。 You can turn off the display of the Welcome screen but still allow users to access the tutorial by adding the following Registry value on the client computer:
+ユーザーが Skype for Business クライアントを開いた場合、既定の動作では、ほとんどのユーザーが 求める 7 つのクイック ヒントを含む [ようこそ] *画面が表示されます*。 You can turn off the display of the Welcome screen but still allow users to access the tutorial by adding the following Registry value on the client computer:
   
 In the **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0\\Lync]** key, create a new **DWORD (32-bit) Value**. The **Value name** must be **IsBasicTutorialSeenByUser**, and the **Value data** must be set to **1**.
   

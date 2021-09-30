@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: '概要: ユーザーのダイヤルイン会議用の PIN を削除Skype for Business Server。'
-ms.openlocfilehash: 6585da84c6dfb9f3ae09fbe25a1baafd2e9ae8dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f2616c847787001f9b661704ef77f7c8dc08cec
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612366"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014361"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>[PIN ポリシーを削除する] Skype for Business Server
  
@@ -45,7 +45,7 @@ ms.locfileid: "58612366"
     
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した PIN ポリシー Windows PowerShell削除する
 
-PIN ポリシーを削除するには、pin ポリシーと Windows PowerShellコマンドレットをRemove-CsPinPolicyします。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+PIN ポリシーを削除するには、pin ポリシーと Windows PowerShellコマンドレットをRemove-CsPinPolicyします。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-remove-a-specific-pin-policy"></a>特定の PIN ポリシーを削除するには
 

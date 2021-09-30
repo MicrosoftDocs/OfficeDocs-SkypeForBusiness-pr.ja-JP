@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 組織内の Teams ユーザーが Teams に関するフィードバックを Microsoft に送信できるかどうかを制御するフィードバック ポリシーの使用方法について説明します。
-ms.openlocfilehash: 582c5e39fca8dc37cefe8b480b2ff886779f6fa0
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 2357af358dad4407fd401b08ff75dfc2560593a2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942102"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013011"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams でフィードバック ポリシーを管理する
 
@@ -47,6 +47,7 @@ ms.locfileid: "59942102"
  フィードバック **の送信と** フィードバックの送信を通じて送信されるデータは、お客様の Microsoft 365 または Office 365 契約の下で "サポート データ" と見なされます。この情報には、"顧客データ" または "個人データ" と見なされる情報が含まれており、
 
 
+
 **アンケート**
 
 ユーザーはまた、Teams でのエクスペリエンスを評価し、評価に関する詳細を送信することもできます。 このポップアップ アンケートは、[Teams] に随時表示されます。 ユーザーが通知で **[フィードバックの** 提供] を選択すると、アンケートが表示され、完了します。
@@ -66,7 +67,9 @@ ms.locfileid: "59942102"
 機能をオフまたはオンにするには、次のパラメーターを設定します。
 
  - **フィードバックの送信**: **userInitiatedMode** パラメーターを **[有効]** に設定して、ポリシーが割り当てられているユーザーがフィードバックを送信できるようにします。 パラメーターを **[無効]** に設定すると、機能がオフになり、ポリシーが割り当てられているユーザーにはフィードバックを送信するオプションが表示されません。
+
  - **アンケート**: **receiveSurveysMode** パラメーターを **[有効]** に設定して、ポリシーが割り当てられているユーザーがアンケートを受信できるようにします。 ユーザーがアンケートを受信して受け取らないことができるようにするには、パラメーターを **enabledUserOverride** に設定します。 Teams では、**[設定]** > **[プライバシー]** の順に移動し、アンケートに参加するかどうかを選択できます。 パラメーターを **[無効]** に設定すると、機能がオフになり、ポリシーが割り当てられているユーザーはアンケートを受信できません。
+
  - **Email**: **AllowEmailCollection フラグを使用して、** 電子メール フィールドを追加します。
  - **ログ収集**: **AllowLogCollection フラグを使用** して、ユーザーのログ収集オプトインを追加します。 ログ収集は現在、モバイルでのみ有効です。 ログを介して共有されるデータの詳細については、詳細を [参照してください](https://go.microsoft.com/fwlink/?linkid=2168178)。
 

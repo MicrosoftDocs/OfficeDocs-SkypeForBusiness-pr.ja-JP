@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 2015/2019 Skype for Business Server Lync 2013 の更新プログラムを 1 か所で検索して管理します。 このページのリンクを使用して、更新プログラムの詳細を取得し、更新プログラムをダウンロードします。
-ms.openlocfilehash: 4f9b8e4de19778d2ded55f14e0de894528590d50
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432309"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012381"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server 更新プログラム
 
@@ -157,7 +157,7 @@ KB 4470124は 2019 年 2019 年のマスター Skype for Business Server KB で�
 | Lync Connectivity Analyzer (64 ビット) RETIRED |2017 年 6 月 |
 | Lync Server 2013 ベスト プラクティス アナライザー |2012 年 10 月 |
 |[Lync Server 2013 容量計算機](https://www.microsoft.com/download/details.aspx?id=36828) |2013 年 7 月 |
-|[Lync Server 2013 デバッグ ツール](https://www.microsoft.com/download/details.aspx?id=35453) |2014 年 1 月 |
+|Lync Server 2013 デバッグ ツール |2014 年 1 月 |
 | Lync Server 2013 管理パック |2016 年 5 月 |
 | Lync Server 2013 常設チャット リソース キット |2013 年 7 月 |
 | Lync Server 2013 計画ツール |2013 年 7 月 |

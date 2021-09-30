@@ -16,17 +16,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c51be5bf88a7f7f1bc73ac9b67e2a0da77b3e960
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 70ba70b262e045af964f50b11a3ce3b9a96edc7e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727036"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012151"
 ---
 # <a name="teams-for-retail"></a>小売店向けの Teams
 
 小売店や従業員向けの Teams を管理して最大限に活用するためにこちらの管理リソースを使用します。
 
-|               |               |
+|&nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![walkthrough-map-teams。](../media/walkthrough-map-teams-small.svg)  |  [小売店向けの Teams テンプレートの使用を開始する](../get-started-with-retail-teams-templates.md) |
+

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Skype for Business で使用できるPolycom、HP、Mitel 製の電話の種類と、必要なライセンスについて説明します。 '
-ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4b4a5e48a531a694b006126221ddc7fcba40e1c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607434"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013151"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Skype for Business Online で使う電話を入手する
 
@@ -36,22 +36,21 @@ ms.locfileid: "58607434"
 [] Skype for Business Online は、Skype for Business アプリよりも従来式の電話の機能性や操作性を利用したいユーザー向けに、デスクトップ電話に適合および対応しています。このトピックでは、Skype for Business Online での使用でサポートされる電話およびファームウェアのバージョンについて説明し、組織内で電話機をセットアップする際に役立つその他の情報を提供します。
 
 > [!NOTE]
-> SkypeFor Business は、Microsoft Teams の主要な通信方法として、Microsoft 365 に置き換Office 365。  詳細[については、「インテリジェント通信の新しいビジョン」Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)を参照してください。
+> SkypeFor Business は、Microsoft Teams の主要な通信方法として、Microsoft 365 に置き換Office 365。  詳細[については、「Office 365 のインテリジェントな通信に関する新しい](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/)ビジョン」を参照してください。
 >
->サポートされているデバイスに関する最新の更新プログラムと最新の情報を取得するには、インテリジェントな通信に関するMicrosoft Teamsデバイスに関するページ[を参照してください](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
+>サポートされているデバイスに関する最新の更新プログラムと最新の情報を取得するには、インテリジェントな通信を行うMicrosoft Teamsデバイスに関する[ページを参照してください](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
   
 ## <a name="supported-phones"></a>サポートされている電話
   
 Microsoft は、Polycom、Yealink、AudioCodes と密接に提携して取り組み、電話システム のパートナー IP 電話 Program (PIP) を通じてさまざまなデバイスの開発と認定を行っています。
   
-新しい携帯電話を注文するSkype for Business、適切な製品 ID を持つ電話 *を購入することが重要です*。 このような製品 ID により、お客様は受け取った電話機が Skype for Business Online の対象バージョンがインストール済みのものであることを確認できます。
+新しい携帯電話を注文Skype for Business、適切な製品 ID を持つ電話 *を購入することが重要です*。 このような製品 ID により、お客様は受け取った電話機が Skype for Business Online の対象バージョンがインストール済みのものであることを確認できます。
   
-|||
+|電話機のパートナー  |Skype for Business 固有の製品 ID  |
 |:-----|:-----|
-|**電話機のパートナー** <br/> |**Skype for Business 固有の製品 ID** <br/> |
-|Polycom  <br/> |製品 ID -019  <br/> |
-|Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
-|AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
+|Polycom   |製品 ID -019   |
+|Yealink   |SIP-TXXG Skype for Business Edition   |
+|AudioCodes   |UCXXXHDEG (SfB)   |
    
 Polycom 電話の詳細については、「Poly ドキュメント ライブラリ [」を参照してください](https://documents.polycom.com/category/voice)。
   
@@ -62,19 +61,19 @@ AudioCodes 電話機の詳細については、「[Skype for Business の IP 電
 > [!NOTE]
 > Lync Phone Edition は Skype for Business Online でサポートされていますが、Microsoft Teams ではサポートされていません。 LPE プラットフォームのメインストリーム サポートは 2014 年 4 月 10 日まで終了し、Lync Server 2013 の製品サポート ライフサイクルに合わせて 2023 年 4 月 11 日までサポートが延長されました。 LPE のライフ サイクルの詳細については、 「[マイクロソフト製品ライフ サイクル](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO)」をご覧ください。 LPE CAP モデルは Skype for Business Online でサポートされません。
 >
-> 今年の後半、Office 365 1.2 より前のバージョンの TLS はサポートされていません。 LPE の基盤となるオペレーティング システムでは TLS 1.2 をサポートしていないため、LPE の Office 365 への接続はサポートされなくなります。 詳細については、「[Office 365での TLS 1.2 の必須使用に対する準備](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365)」を参照してください。
+> 年の後半、Office 365 1.2 より前のバージョンの TLS はサポートされていません。 LPE の基盤となるオペレーティング システムでは TLS 1.2 をサポートしていないため、LPE の Office 365 への接続はサポートされなくなります。 詳細については、「[Office 365での TLS 1.2 の必須使用に対する準備](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365)」を参照してください。
   
 ## <a name="supported-firmware"></a>サポートされているファームウェア
 
 これは、サポートされている電話がサポートされている電話でサポートされているデバイスを使用するために必要な最小ソフトウェア 電話システム。
   
-||||
+
+|電話機の種類 |最小限のファームウェア |リリース日 |
 |:-----|:-----|:-----|
-|**電話機の種類** <br/> |**最小限のファームウェア** <br/> |**リリース日** <br/> |
-|最適化済み (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |2015 年 5 月  <br/> |
-|認定済み Polycom VVX シリーズ  <br/> |5.4.0A  <br/> |2015 年 12 月  <br/> |
-|Yealink  <br/> |X.8.1.52  <br/> |2017 年 2 月  <br/> |
-|AudioCodes  <br/> |3.0.0.459.1  <br/> |2016 年 12 月  <br/> |
+|最適化済み (Lync Phone Edition)   |4.0.7577.4463   |2015 年 5 月   |
+|認定済み Polycom VVX シリーズ   |5.4.0A   |2015 年 12 月   |
+|Yealink   |X.8.1.52   |2017 年 2 月   |
+|AudioCodes   |3.0.0.459.1   |2016 年 12 月   |
 
 現在の認定ファームウェア バージョンの詳細については、「IP Phone のSkype for Business[を参照してください](../../../SfbPartnerCertification/certification/devices-ip-phones.md)。
 
@@ -91,29 +90,29 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 
 すべてのデバイスの機能および性能については、製造元のユーザー ガイドを確認してください。
   
-||||||
+
+|機能  |Polycom 3PIP  |Yealink 3PIP |AudioCodes 3PIP |LPE |
 |:-----|:-----|:-----|:-----|:-----|
-|**機能** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|ユーザー資格情報でのサイン イン  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |なし  <br/> |
-|PC (ペアリング) 経由のサイン イン、Windows のみ  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |あり  <br/> |
-|(Web サイン イン) 使用でのサイン イン  <br/>  <br/> **注:** デプロイ ガイドのサポートのマトリックスを確認します。           |はい  <br/> |はい  <br/> |はい  <br/> |なし  <br/> |
-|シングルクリックでの会議への参加  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |あり  <br/> |
-|クリックしてダイヤル (ペアリング)  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |あり  <br/> |
-|会議のコントロール  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|ビジュアル ボイスメール  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |あり  <br/> |
-|電話のロック  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |あり  <br/> |
-|デバイスの更新  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |あり  <br/> |
-|インバンド プロビジョニング  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |あり  <br/> |
-|QoE  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |なし  <br/> |
-|ログのアップロード  <br/> <br/> **注:** 現在、すべてのログは Microsoft サポート チームにのみアップロードされます。お客様の電話ログへのアクセスはまだ使用できません。           |はい  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |
-|先進認証  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |なし  <br/> |
-|複数の緊急電話番号  <br/> |あり  <br/> |いいえ  <br/> |いいえ  <br/> |あり  <br/> |
-|Exchange の予定表の統合*  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |はい  <br/> <br/> **注:** PC のテザリングが必要           |
-|プレゼンス統合  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |あり  <br/> |
-|企業ディレクトリ  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |あり  <br/> |
-|デリゲーション  <br/> |あり  <br/> |はい  <br/> |はい  <br/> |なし  <br/> |
-|連絡先の写真の統合  <br/> |なし  <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |
-||||||
+|ユーザー資格情報でのサイン イン   |はい  |はい   |はい   |なし   |
+|PC (ペアリング) 経由のサイン イン、Windows のみ   |あり   |はい   |はい   |あり   |
+|(Web サイン イン) 使用でのサイン イン  <br/>  <br/> **注:** デプロイ ガイドのサポートのマトリックスを確認します。  |はい   |はい   |はい   |なし   |
+|シングルクリックでの会議への参加   |あり   |はい   |はい   |あり   |
+|クリックしてダイヤル (ペアリング)   |あり   |はい   |はい   |はい > |
+|会議のコントロール   |あり   |はい   |はい   |はい   |
+|ビジュアル ボイスメール   |はい   |はい   |はい   |あり   |
+|電話のロック   |あり   |はい   |はい   |あり   |
+|デバイスの更新   |あり   |はい   |はい   |あり   |
+|インバンド プロビジョニング   |あり   |はい   |はい   |あり   |
+|QoE   |あり   |はい   |はい   |なし  |
+|ログのアップロード  <br/> <br/> **注:** 現在、すべてのログは Microsoft サポート チームにのみアップロードされます。お客様の電話ログへのアクセスはまだ使用できません。           |はい   |はい   |はい   |はい   |
+|先進認証   |はい   |はい   |はい   |なし   |
+|複数の緊急電話番号   |あり   |いいえ   |いいえ   |あり   |
+|Exchange の予定表の統合*   |あり   |はい   |はい   |はい  <br/> <br/> **注:** PC のテザリングが必要           |
+|プレゼンス統合   |はい   |はい   |はい   |あり   |
+|企業ディレクトリ   |あり   |はい   |はい   |あり   |
+|デリゲーション   |あり   |はい   |はい   |なし   |
+|連絡先の写真の統合   |なし   |はい  |いいえ   |はい   |
+
 
      
 > [!NOTE]
@@ -122,7 +121,7 @@ Skype for Business Online の電話機には、ユーザー ライセンス以�
 ## <a name="what-else-should-you-know"></a>その他の情報
 詳細な設定手順については、「[Skype for Business Online 電話機の展開レポート](deploying-skype-for-business-online-phones.md)」をご覧ください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](/microsoftteams/getting-service-phone-numbers)
 
 [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

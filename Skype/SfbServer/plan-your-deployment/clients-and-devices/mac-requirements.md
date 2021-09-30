@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: このトピックでは、Mac でハードウェア、ソフトウェア、およびインフラストラクチャを実行するSkype for Business説明します。
-ms.openlocfilehash: dd7dc17c4166838a76b11d9905335575205f4b2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e25995173b44cf4f5892c1a34f77529042125c58
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604776"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014471"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Mac 版 Skype for Business クライアントの要件
  
@@ -31,7 +31,7 @@ ms.locfileid: "58604776"
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac でのハードウェアとソフトウェアSkype for Business要件
 
-Mac クライアントSkype for Business Mac OS X El Capitan 以上が必要で、少なくとも 100 MB 以上のディスク領域を使用します。 すべての組み込みのオーディオデバイスとビデオ デバイスの使用をサポートしています。 外部デバイスは、[ソリューション カタログ] [Skype for Businessする必要があります](https://partnersolutions.skypeforbusiness.com/solutionscatalog)。 
+Mac クライアントSkype for Business Mac OS X El Capitan 以上が必要で、少なくとも 100 MB 以上のディスク領域を使用します。 すべての組み込みのオーディオデバイスとビデオ デバイスの使用をサポートしています。 外部デバイスは、デバイスに一[覧表示Microsoft Teams必要があります](https://www.microsoft.com/microsoft-teams/across-devices/devices)。 
   
 > [!NOTE]
 > このリストは予備的なリストであり、一部のデバイスは Lync の資格を持つ可能性がありますが、Mac 上のSkype for Businessサポートされていません。 必要な最小ハードウェア [については、「System requirements」](https://products.office.com/office-system-requirements) を参照してください。

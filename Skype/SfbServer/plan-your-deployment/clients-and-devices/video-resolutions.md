@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: '概要: クライアントビデオの要件を確認し、クライアントビデオのSkype for Business Server。'
-ms.openlocfilehash: efd1bfe80f770b62e974fe598d791d7b179a8b48
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 75929db21edec514865b6cdc0d48cbda9e21fbbe
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606106"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014731"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business クライアントのビデオ解像度
  
@@ -29,7 +29,7 @@ ms.locfileid: "58606106"
   
 この記事では、Skype for Business ビデオ通話に対するビデオ ハードウェアのサポートについて説明し、さまざまなコンピューター、タブレット、およびモバイル デバイス構成で期待されるビデオ品質を判断する方法について説明します。 
   
-IT 担当者は、この情報を組織内で既に使用しているラップトップの適合性を評価したり、使用を検討したりする際に役立ちます。 また、ソリューション カタログで [特定の](https://partnersolutions.skypeforbusiness.com/solutionscatalog) デバイスに関する情報を検索することもできます。
+IT 担当者は、この情報を組織内で既に使用しているラップトップの適合性を評価したり、使用を検討したりする際に役立ちます。 また、特定のデバイスに[関Microsoft Teamsデバイス](https://www.microsoft.com/microsoft-teams/across-devices/device)で検索することもできます。
   
 ## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Windows、Mac、タブレットのビデオ要件と機能
 

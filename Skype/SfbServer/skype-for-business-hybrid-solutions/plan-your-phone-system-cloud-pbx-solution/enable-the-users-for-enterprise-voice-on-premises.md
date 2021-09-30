@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: ユーザーがクラウド PBX (Cloud PBX) を電話システムするには、最初にユーザーに対して有効にしエンタープライズ VoIP電話番号を割り当てる必要があります。 これは、ユーザーがオンプレミス展開にまだ存在している間に、オンプレミス展開を使用して行います。
-ms.openlocfilehash: 28943670a0919d80c96c97b7574cdc82ac68cfde
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613696"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012511"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>オンプレミスでユーザーエンタープライズ VoIP有効にする
  
@@ -51,7 +51,7 @@ ms.locfileid: "58613696"
     
 7. [**テレフォニー] の** 下の [エンタープライズ VoIP]**をクリックします**。
     
-8. [ **回線 URI]** をクリックし、正規化された一意の電話番号 (tel:+14255550200) を入力します。 次に、[ **コミット] をクリックします**。
+8. [ **回線 URI] を** クリックし、正規化された一意の電話番号 (たとえば) を入力します `tel:+14255550200` 。 次に、[ **コミット] をクリックします**。
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>オンプレミスでユーザーを有効にする場合のエンタープライズ VoIP考慮事項
 

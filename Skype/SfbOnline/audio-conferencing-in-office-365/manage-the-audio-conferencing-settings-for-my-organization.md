@@ -20,13 +20,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '「Skype for Business Online の手順」を参照して、ダイヤルイン会議ライセンスと会議 ID をユーザーに割り当て、その他の多くのダイヤルイン会議設定を割り当てる方法について説明します。 '
-ms.openlocfilehash: 68deefd4092d05081ffe8a7aac9a1dc92ea36940
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: '「Skype for Businessオンラインの手順」を参照して、ダイヤルイン会議ライセンスと会議 ID をユーザーに割り当て、その他の多くのダイヤルイン会議設定を割り当てる必要があります。 '
+ms.openlocfilehash: eb5313729c2071a64e5d6495e460dbaa475df305
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726466"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012131"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Skype for Business Online で組織の電話会議の設定を管理する
 
@@ -54,7 +54,7 @@ ms.locfileid: "58726466"
 
 3. [操作] ウィンドウの [**製品ライセンス**] で [**編集**] をクリックします。
 
-4. [製品ライセンス **] ページで** 、[電話会議] **をオンにし** 、[保存] を **クリックします**。 ライセンスの詳細については[、「Skype for Business」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+4. [製品ライセンス **] ページで** 、[電話会議] **をオンにし** 、[保存] を **クリックします**。 ライセンスの詳細については、「Skype for Business[ライセンス」を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
 
 > [!NOTE]
 > ライセンスを割り当てると、最初に Microsoft が電話会議プロバイダーとしてリストに表示されない場合があります。 この場合は、管理センターからログアウトするか、Ctrl キーを押しながら F5 キーを押してブラウザー ウィンドウを更新します。
@@ -65,7 +65,7 @@ ms.locfileid: "58726466"
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. 管理センターに移動し> Skype for Businessの **ナビゲーション** で、[電話会議]**をクリックします**。
+2. 管理センターに移動し **> Skype for Business** 左側のナビゲーションで、[電話会議]**をクリックします**。
 
 3. 電話会議の設定を使用してユーザーにメールを送信することもできます。これには、ユーザーの電話会議プロパティに移動して、[ **電話会議情報をメールで送信**] をクリックします。
 
@@ -132,7 +132,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. 管理センターに移動し> Skype for Businessの **ナビゲーション** で、[電話会議]**をクリックします**。
+2. 管理センターに移動し **> Skype for Business** 左側のナビゲーションで、[電話会議]**をクリックします**。
 
 3. 管理者は、ユーザーに PIN を手動で送信する必要があります。
 
@@ -146,7 +146,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. 管理センターに移動し> Skype for Businessの **ナビゲーション** で、[電話会議]**をクリックします**。
+2. 管理センターに移動し **> Skype for Business** 左側のナビゲーションで、[電話会議]**をクリックします**。
 
 3. Go to the Office 365 admin centerSkype for Business and in the left navigation click Dial-in conferencing
 
@@ -213,7 +213,7 @@ Go to the Office 365 admin centerSkype for Business.[](/MicrosoftTeams/change-th
 
 1. 仕事用または学校用のアカウントでサインインします。
 
-2. 管理センターに移動し> Skype for Businessの **ナビゲーション** で、[電話会議]**をクリックします**。
+2. 管理センターに移動し **> Skype for Business** 左側のナビゲーションで、[電話会議]**をクリックします**。
 
 3. 電話会議の設定を使用してユーザーにメールを送信することもできます。これには、ユーザーの電話会議プロパティに移動して、[ **電話会議情報をメールで送信**] をクリックします。
 
@@ -317,13 +317,13 @@ Windows PowerShell を使用して組織レベルで管理できる複数の設�
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell を使い始めるには、次のトピックを参照してください。
-- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
-  - [PowerShell を使用するMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell または PowerShell を使用Microsoft 365必要Office 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-- Windows PowerShell、多くのユーザーの設定を一度に変更する場合など、管理センターを使用する場合に限って、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。
+- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、管理センターを使用する場合に限り、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。
 
   - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
@@ -331,7 +331,7 @@ Windows PowerShell を使用して組織レベルで管理できる複数の設�
 
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-    Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
+    Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。 このモジュールは、64 ビット コンピューターでのみサポートされています。このモジュールは、Microsoft ダウンロード センターの「PowerShell モジュール をダウンロードしてインストールする[」Teamsダウンロードできます](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)。
 
 ## <a name="related-topics"></a>関連トピック
 

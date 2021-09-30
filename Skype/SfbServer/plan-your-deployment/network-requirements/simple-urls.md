@@ -1,5 +1,5 @@
 ---
-title: ドメイン内の単純な URL の DNS 要件Skype for Business Server
+title: Skype for Business Server の単純な URL の DNS 要件
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: '概要: このトピックの単純な URL に関する考慮事項を確認してから、DNS レコードを実装Skype for Business Server。'
-ms.openlocfilehash: a36805566b7bdb9f95ef14b572a8efdccdeb916b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '概要: Skype for Business Server の DNS レコードを実装する前に、このトピックの単純な URL に関する考慮事項を確認してください。'
+ms.openlocfilehash: cbc8a6f99704f9c450847d0ca3c5173b0066715e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622139"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011721"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>ドメイン内の単純な URL の DNS 要件Skype for Business Server
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Skype for Business Server の単純な URL の DNS 要件
 
-**概要:** このトピックの簡単な URL に関する考慮事項を確認してから、このトピックの DNS レコードを実装Skype for Business Server。
+**概要:** Skype for Business Server の DNS レコードを実装する前に、このトピックの単純な URL に関する考慮事項を確認してください。
 
-簡単な URL を使用すると、ユーザーが会議に参加しやすくなり、管理者が管理Skype for Business Serverを簡単に実行できます。 単純な URL は独自のドメインを使用します。これは、定義した SIP ドメインと一致する必要があります。 
+単純な URL を使用すると、ユーザーが会議に参加しやすくなり、管理者が Skype for Business Server 管理ツールを簡単に利用できます。 単純な URL は独自のドメインを使用します。これは、定義した SIP ドメインと一致する必要があります。 
 
-Skype for Business Serverは、Meet、Dial-In、Admin の 3 つの単純な URL をサポートしています。Meet と Dial-In の単純な URL を設定する必要があります。管理者の簡易 URL は省略可能です。 単純な URL をサポートするために必要なドメイン ネーム システム (DNS) レコードは、これらの単純な URL の定義方法、および簡易 URL の障害復旧をサポートするかどうかによって異なっています。 
+Skype for Business Server では、会議、ダイヤルイン、管理者の 3 つの単純な URL がサポートされています。Meet と Dial-In の単純な URL を設定する必要があります。管理者の簡易 URL は省略可能です。 単純な URL をサポートするために必要なドメイン ネーム システム (DNS) レコードは、これらの単純な URL の定義方法、および簡易 URL の障害復旧をサポートするかどうかによって異なっています。 
 
 ## <a name="simple-url-scope"></a>単純な URL スコープ
 
@@ -40,16 +40,16 @@ Skype for Business Serverは、Meet、Dial-In、Admin の 3 つの単純な URL 
 ## <a name="simple-url-naming-and-validation-rules"></a>単純な URL の名前付けと検証ルール
 <a name="BK_Valid"> </a>
 
-トポロジ ビルダーと管理シェルのSkype for Business Serverは、単純な URL に対していくつかの検証ルールを適用します。 ユーザーは、簡単な会議 URL およびダイヤルイン URL の設定を要求されますが、簡単な管理 URL の設定はオプションです。 各 SIP ドメインは独立した簡単な会議 URL を持つ必要がありますが、簡単なダイヤルイン URL と簡単な会議 URL については組織全体で必要な数は 1 つだけです。
+トポロジ ビルダーと Skype for Business Server Management Shell コマンドレットは、単純な URL に対していくつかの検証ルールを適用します。 ユーザーは、簡単な会議 URL およびダイヤルイン URL の設定を要求されますが、簡単な管理 URL の設定はオプションです。 各 SIP ドメインは独立した簡単な会議 URL を持つ必要がありますが、簡単なダイヤルイン URL と簡単な会議 URL については組織全体で必要な数は 1 つだけです。
 
-組織内の各単純な URL には一意の名前を付け、別の単純な URL のプレフィックスにすることはできません (たとえば、SfB2015.contoso.com/Meet を Meet 簡易 URL として設定し、SfB2015.contoso.com/Meet/Dialin を Dialin 単純な URL として設定することはできません)。 単純な URL 名には、プールの FQDN を含め、ポート情報を含めすることはできません (たとえば、 https://FQDN:88/meet 許可されません)。 簡易 URL は、すべてプレフィックス https:// で始まる必要があります。 
+組織内の各単純な URL には一意の名前を付け、別の単純な URL のプレフィックスにすることはできません (たとえば、Meet 単純な URL として、 `SfB2015.contoso.com/Meet` および Dialin 単純な URL として設定することはできません `SfB2015.contoso.com/Meet/Dialin` )。 単純な URL 名には、プールの FQDN を含め、ポート情報を含めすることはできません (たとえば、 https://FQDN:88/meet 許可されません)。 簡易 URL は、すべてプレフィックス https:// で始まる必要があります。 
 
 簡易 URL の名前には、英数字 (すなわち、a ～ z、A ～ Z、0 ～ 9) およびピリオド (.) 以外は使用できません。 他の文字を使用すると、簡易 URL が予想どおりに機能しない可能性があります。
 
 ## <a name="changing-simple-urls-after-deployment"></a>展開後の簡易 URL の変更
 <a name="BK_Valid"> </a>
 
-初回の展開後に簡易 URL を変更する場合は、その変更が簡易 URL の DNS レコードと証明書に及ぼす影響について認識しておく必要があります。 簡易 URL の基本部分が変わる場合は、DNS レコードと証明書も変更する必要があります。 たとえば、ベース URL を SfB2015.contoso.com から meet.contoso.com に変更する場合は、DNS レコードと証明書を変更して、meet.contoso.com を https://SfB2015.contoso.com/Meet https://meet.contoso.com 参照する必要があります。 単純な URL をからに変更した場合、SfB2015.contoso.com のベース URL は同じままなので、DNS や証明書の変更 https://SfB2015.contoso.com/Meet https://SfB2015.contoso.com/Meetings は不要です。
+初回の展開後に簡易 URL を変更する場合は、その変更が簡易 URL の DNS レコードと証明書に及ぼす影響について認識しておく必要があります。 簡易 URL の基本部分が変わる場合は、DNS レコードと証明書も変更する必要があります。 たとえば、ベース URL を変更する場合は、参照する DNS レコードと証明書を変更 `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` `SfB2015.contoso.com` `meet.contoso.com` する必要があります `meet.contoso.com` 。 単純な URL をからに変更した場合、ベース URL は同じままなので、DNS や証明書の変更 `https://SfB2015.contoso.com/Meet` `https://SfB2015.contoso.com/Meetings` `SfB2015.contoso.com` は不要です。
 
 ただし、単純な URL 名を変更するたびに、各ディレクターとフロントエンド サーバーで **Enable-CsComputer** を実行して変更を登録する必要があります。
 
@@ -69,20 +69,20 @@ Skype for Business Serverは、Meet、Dial-In、Admin の 3 つの単純な URL 
 
 | **簡易 URL** <br/> | **例** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | https://meet.contoso.com、 https://meet.fabrikam.com など (組織内の SIP ドメインごとに 1 つ)  <br/> |
-| ダイヤルイン  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
-| 管理者  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
+| Meet  <br/>          | `https://meet.contoso.com`、 `https://meet.fabrikam.com` など (組織内の SIP ドメインごとに 1 つ)  <br/> |
+| ダイヤルイン  <br/>       | `<https://dialin.contoso.com>`  <br/>                                                                                  |
+| 管理者  <br/>         | `<https://admin.contoso.com>`  <br/>                                                                                   |
 
-オプション 2 では、単純な URL はドメイン名とドメイン名に SfB2015.contoso.com。 このため、必要な DNS A レコードは 1 つだけであり、この DNS A レコードで、簡易 URL の 3 つのタイプすべてを有効にします。 この DNS A レコードは、SfB2015.contoso.com。 この場合も、組織内の他の SIP ドメインについては、独立した DNS A レコードが必要です。 
+オプション 2 では、単純な URL はドメイン名に基づいて作成されます `SfB2015.contoso.com` 。 このため、必要な DNS A レコードは 1 つだけであり、この DNS A レコードで、簡易 URL の 3 つのタイプすべてを有効にします。 この DNS A レコード参照 `SfB2015.contoso.com` 。 この場合も、組織内の他の SIP ドメインについては、独立した DNS A レコードが必要です。 
 
 **簡易 URL 命名オプション 2**
 
 
 | **簡易 URL** <br/> | **例** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | https://SfB2015.contoso.com/Meet、 https://SfB2015.fabrikam.com/Meet など (組織内の SIP ドメインごとに 1 つ)  <br/> |
-| ダイヤルイン  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
-| 管理者  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
+| Meet  <br/>          | `https://SfB2015.contoso.com/Meet`、 `https://SfB2015.fabrikam.com/Meet` など (組織内の SIP ドメインごとに 1 つ)  <br/> |
+| ダイヤルイン  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                                          |
+| 管理者  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                                           |
 
 SIP ドメインの数が多く、これらのドメインに独立した簡単会議 URL を持たせて、これらの簡易 URL の DNS レコードと証明書の要件をできるだけ少なくする場合は、オプション 3 が最も便利です。 
 
@@ -91,9 +91,9 @@ SIP ドメインの数が多く、これらのドメインに独立した簡単�
 
 | **簡易 URL** <br/> | **例** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| Meet  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
-| ダイヤルイン  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
-| 管理者  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
+| Meet  <br/>          | `<https://SfB2015.contoso.com/contosoSIPdomain/Meet>`  <br/> `<https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>`  <br/> |
+| ダイヤルイン  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                            |
+| 管理者  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                             |
 
 ## <a name="disaster-recovery-option-for-simple-urls"></a>単純な URL の障害復旧オプション
 <a name="BK_Valid"> </a>
@@ -114,7 +114,7 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-次に、(meet.contoso.com のような) 会議簡易 URL を 2 つの GeoDNS アドレスに解決する CNAME レコードを作成します。
+次に、2 つの GeoDNS アドレスに対する Meet 単純な URL (など) を解決する `meet.contoso.com` CNAME レコードを作成します。
 
 > [!NOTE]
 > ネットワークがヘアピン (組織内部からのトラフィックを含め、すべての簡易 URL トラフィックを外部リンク経由でルーティングすること) を使用している場合は、外部 GeoDNS アドレスを構成して、その外部アドレスのみに会議簡易 URL を解決できます。

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28aa07c3d9fa832e126bd6694b5d004c02c97d99
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: c176369914a2908134d541d30b8908aecef43cd4
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58972885"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015431"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -133,45 +133,45 @@ ms.locfileid: "58972885"
 |組織の設定の変更   |TeamsTenantSettingChanged         |TeamsTenantSettingChanged は、全体管理者が Microsoft 365 管理センターを使用して次のアクティビティを実行したときに記録されます。 これらの活動は、組織全体の Teams 設定に影響を与えます。 詳細については、「[組織の Teams 設定を管理する](enable-features-office-365.md)」を参照してください。 <br>これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。<ul><li>組織に対して Teams が有効または無効になります (**Microsoft Teams**)。</li><li>組織に対して Microsoft Teams と Skype for Business の相互運用が有効または無効になります (**Skype for Business の相互運用性**)。</li><li>Microsoft Teams クライアント内の組織図ビューが有効または無効になります (**組織図**)。</li><li>チーム メンバーによるプライベート会議のスケジュール機能を有効または無効にします (**プライベート会議のスケジュール**)。</li><li>チーム メンバーによるチャネル会議のスケジュール機能を有効または無効にします (**チャネル会議のスケジュール**)。</li><li>チーム会議でのビデオ通話を有効または無効にします (**Skype 会議のビデオ**)。</li><li>組織に対して Microsoft Teams 会合での画面共有が有効または無効になります (**Skype 会議向け画面共有**)。</li><li>Teams の会話にアニメーション画像 (Giphy と呼ばれる) を追加する機能が有効または無効になります (**アニメーション画像**)。</li><li>組織のコンテンツの規制設定を変更します (**コンテンツの規制**)。 コンテンツの評価により、会話に表示されるアニメーション画像の種類が制限されます。</li><li>チーム メンバーがカスタマイズ可能な画像 (カスタム ミームと呼ばれる) をインターネットからチームの会話に追加する機能が、有効または無効になります (**インターネットからのカスタマイズ可能な画像**)。</li><li>チーム メンバーが編集可能な画像 (ステッカーと呼ばれる) をチームの会話に追加する機能が、有効または無効になります (**インターネットからのカスタマイズ可能な画像**)。</li><li>チーム メンバーが Microsoft Teams のチャットおよびチャネルでボットを使用する機能が、有効または無効になります (**組織全体にわたるボット**)。</li><li>Microsoft Teams に特定のボットを有効にします。 組織でボットを有効にすると利用可能になる、Teams のヘルプ ボットである T-Bot はこれに含まれません (**個々のボット**)。</li><li>チーム メンバーが拡張機能またはタブを追加する機能を有効または無効にします (**拡張機能またはタブ**)。</li><li>Microsoft Teams に対して専用ボットのサイドローディングが有効または無効になります (**ボットのサイドローディング**)。</li><li>ユーザーがメール メッセージを Microsoft Teams に送信する機能が、有効または無効になります (**チャネルのメール**)。</li></ul>|
 |メンバーの役割の変更    |MemberRoleChanged         |チーム所有者がチームのメンバーの役割を変更します。 次の値は、ユーザーに割り当てられる役割の種類を示します。 <br><br>**1** - メンバー ロールを意味します。<br>**2** - 所有者ロールを示します。<br>**3** - ゲスト ロールを意味します。<br><br>メンバー プロパティには、組織の名前とメンバーのメール アドレスも含まれます。        |
 |チーム設定の変更    |TeamSettingChanged        |次のアクティビティがチームの所有者により実行されると、TeamSettingChanged 操作が記録されます。 これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。<ul><li>チームのアクセスの種類を変更します。 チームは非公開または公開として設定できます (**チームのアクセスの種類**)。 チームが非公開 (既定の設定) の場合、ユーザーはチームには招待状でのみアクセスでき暗ます。 チームが公開されている場合、誰でもチームにアクセスできます。</li><li>チームの情報の分類を変更します (**チーム分類**)。 たとえば、チームのデータは業務への影響が大きい、業務への影響が中程度、業務への影響が小さい、といったように分類できます。</li><li>チームの名前を変更します (**チーム名**)。</li><li>チームの説明を変更します (**チームの説明**)。</li><li>チームの設定が変更されました。 これらの設定にアクセスするには、チーム所有者はチームを右クリックし、**[チームの管理]**、**[設定]** タブの順に選択します。これらのアクティビティについては、変更された設定の名前が、監査ログの検索結果の **[項目]** 列に表示されます。</li></ul>         |
-|チャット<sup>1、2</sup><sup>を作成しました</sup>| ChatCreated|    チャットTeams作成されました。|
+|チャット<sup>1、2 を</sup><sup>作成しました</sup>|    ChatCreated|    チャットTeams作成されました。|
 |チームの作成    |TeamCreated         |ユーザーがチームを作成しました。         |
 |メッセージを削除しました  |MessageDeleted |チャットまたはチャネル内のメッセージが削除されました。|
 |すべての組織のアプリが削除されました|DeletedAllOrganizationApps           |カタログからすべての組織アプリを削除しました。     |
 |削除されたアプリ |AppDeletedFromCatalog           |カタログからアプリが削除されました。     |
 |チャネルの削除     |ChannelDeleted         |ユーザーがチームからチャネルを削除しました。         |
 |チームの削除  |TeamDeleted            |チーム所有者がチームを削除しました。      |
-|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、そのメッセージに URL リンクを追加Teams。         |
-|エクスポートされたメッセージ<sup>1、2</sup> <sup></sup> | MessagesExported |チャットまたはチャネル メッセージがエクスポートされた|.
-|フェッチされたチャット <sup> 1</sup、2 <sup></sup>>    |ChatRetrieved  |チャットMicrosoft Teams取得されました。|
-|メッセージ<sup>1、2</sup>のすべてのホステッド コンテンツ <sup>をフェッチしました</sup>  |MessageHostedContentsListed    |画像やコード スニペットなど、メッセージ内のすべてのホストされたコンテンツが取得されました。|
+|メッセージの URL リンクを含むメッセージを編集Teams     |MessageEditedHasLink         |ユーザーがメッセージを編集し、メッセージに URL リンクを追加Teams。         |
+|エクスポートされたメッセージ<sup>1、2</sup> <sup></sup> |    MessagesExported |チャットまたはチャネル メッセージがエクスポートされた。|
+|フェッチされたチャット<sup>1、2</sup> <sup></sup>   |ChatRetrieved  |チャットMicrosoft Teams取得されました。|
+|メッセージ<sup>1、2 </sup>のすべてのホステッド コンテンツ <sup>をフェッチしました</sup> |MessageHostedContentsListed    |画像やコード スニペットなど、メッセージ内のすべてのホストされたコンテンツが取得されました。|
 |インストールされたアプリ |AppInstalled         |アプリがインストールされました。   |
 |カードに対して実行されたアクション|PerformedCardAction|ユーザーがチャット内のアダプティブ カードでアクションを起こしました。 アダプティブ カードは通常ボットで使用し、チャットで情報を豊富に表示して、相互作用することを可能にします。 <br/><br/>**注:** チャット内のアダプティブ カードでのインライン入力アクションだけが監査ログで利用可能になります。 たとえば、チャネルでの会話の中で、ユーザーがポーリング ボットによって生成されたアダプティブ カード上でポーリング応答を送信した場合。 ダイアログを開く「結果を表示」などのユーザー アクションや、ダイアログ内のユーザー アクションは、監査ログには表示されません。|
-|新しいメッセージ<sup>1、2</sup><sup>を投稿しました</sup>    |MessageSent 新しいメッセージがチャットまたはチャネルに投稿されました。|
+|新しいメッセージ<sup>1、2 を</sup><sup>投稿しました</sup>   |MessageSent|   新しいメッセージがチャットまたはチャネルに投稿されました。|
 |公開済みのアプリ |AppPublishedToCatalog           |アプリがカタログに追加されました。     |
-|メッセージ <sup>1、2</sup>を <sup>読む</sup>  |MessageRead    |チャットまたはチャネルのメッセージが取得されました。|
-|メッセージ <sup>1、2</sup>のホストされているコンテンツを <sup>読み取ります。</sup>    |MessageHostedContentRead   |画像やコード スニペットなど、メッセージ内でホストされているコンテンツが取得されました。|
+|メッセージ<sup>1、2 を</sup><sup>読む</sup> |MessageRead    |チャットまたはチャネルのメッセージが取得されました。|
+|メッセージ <sup>1、2 </sup>のホストされているコンテンツ <sup>を読み取ります。</sup>   |MessageHostedContentRead   |画像やコード スニペットなど、メッセージ内でホストされているコンテンツが取得されました。|
 |チームからのボットの削除   |BotRemovedFromTeam         |ユーザーがチームからボットを削除しました。       |
 |コネクタの削除     |ConnectorRemoved         |ユーザーがチャネルからコネクタを削除しました。         |
 |メンバーの削除    |MemberRemoved        |チームの所有者が、チーム、チャネル、またはグループ チャットからメンバーを削除しました。         |
 |タブの削除    |TabRemoved         |ユーザーがチャネルからタブを削除しました。         |
-|取得されたメッセージ<sup>1、2</sup> <sup></sup>  |MessagesListed |チャットまたはチャネルからのメッセージが取得されました。|
+|取得したメッセージ<sup>1、2</sup> <sup></sup> |MessagesListed |チャットまたはチャネルからのメッセージが取得されました。|
 |URL リンクを含むメッセージを送信しました Teams |MessageCreatedHasLink|ユーザーは、URL リンクを含むメッセージを Teams。|
-|メッセージ作成 <sup>1、2</sup>の変更通知 <sup>を送信しました</sup>   |MessageCreatedNotification |サブスクライブしているリスナー アプリケーションに新しいメッセージを通知する変更通知が送信されました。|
-|メッセージ削除の変更通知を送信しました<sup>1、2</sup> <sup></sup>   |MessageDeletedNotification |削除されたメッセージをサブスクライブしているリスナー アプリケーションに通知する変更通知が送信されました。|
-|メッセージ更新プログラム <sup>1、2 の変更通知</sup>を送信 <sup>しました</sup> |MessageUpdatedNotification |サブスクライブしているリスナー アプリケーションに更新されたメッセージを通知する変更通知が送信されました。|
-|メッセージ変更通知にサブスクライブ<sup>1、2</sup> <sup></sup>  |SubscribedToMessages   |メッセージの変更通知を受け取るリスナー アプリケーションによってサブスクリプションが作成されました。|
+|メッセージ作成 <sup>1、2 </sup>の変更通知 <sup>を送信しました</sup>  |MessageCreatedNotification |サブスクライブしているリスナー アプリケーションに新しいメッセージを通知する変更通知が送信されました。|
+|メッセージ削除の変更通知を送信<sup>しました 1,2</sup> <sup></sup>  |MessageDeletedNotification |削除されたメッセージをサブスクライブしているリスナー アプリケーションに通知する変更通知が送信されました。|
+|メッセージ更新プログラム <sup>1、2 </sup>の変更通知 <sup>を送信しました</sup>    |MessageUpdatedNotification |サブスクライブしているリスナー アプリケーションに更新されたメッセージを通知する変更通知が送信されました。|
+|メッセージ変更通知のサブスクライブ<sup>1、2</sup> <sup></sup> |SubscribedToMessages   |メッセージの変更通知を受け取るリスナー アプリケーションによってサブスクリプションが作成されました。|
 |削除されたアプリ |AppUninstalled           |アプリがアンインストールされました。     |
 |更新されたアプリ |AppUpdatedInCatalog           |アプリがカタログで更新されました。     |
-|チャット<sup>1、2</sup><sup>を更新しました</sup>  |ChatUpdated    |チャットTeamsが更新されました。|
-|メッセージ<sup>1、2</sup><sup>を更新しました</sup>   |MessageUpdated |チャットまたはチャネルのメッセージが更新されました。|
+|チャット<sup>1、2 を</sup><sup>更新しました</sup> |ChatUpdated    |チャットTeamsが更新されました。|
+|メッセージ<sup>1、2 を</sup><sup>更新しました</sup>  |MessageUpdated |チャットまたはチャネルのメッセージが更新されました。|
 |コネクタの更新    |ConnectorUpdated         |ユーザーがチャネルのコネクタを変更しました。         |
 |タブの更新   |TabUpdated         |ユーザーがチャネルのタブを変更しました。         |
 |アップグレードされたアプリ |AppUpgraded           |アプリがカタログで最新版にアップグレードされました。     |
 |Teams へのユーザーのサインイン     |TeamsSessionStarted         |ユーザーが Microsoft Teams クライアントにサインインしました。 このイベントは、トークン更新アクティビティをキャプチャしません。         |
-||||
+
 
 > [!NOTE]
-> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出して操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション 」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出すことによって操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション 」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 

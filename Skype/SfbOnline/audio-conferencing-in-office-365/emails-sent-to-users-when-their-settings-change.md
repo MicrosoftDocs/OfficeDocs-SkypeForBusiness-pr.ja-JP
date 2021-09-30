@@ -20,37 +20,37 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Skype for Business Online でダイヤルイン会議の設定が変更された場合に、ユーザーにメールで自動的に送信される情報についてSkype for Businessします。 '
-ms.openlocfilehash: b33fc6176d4103125432ebe0896ccab34e8fe269
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Skype for Business Online でダイヤルイン会議の設定が変更された場合に、ユーザーにメールで自動的に送信される情報について説明します。 '
+ms.openlocfilehash: cb456b9345d8dce1aa7a1d619371f8a2f65eab36
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728036"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011951"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Skype for Business Online で設定が変更された場合にユーザーに送信されるメール
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Microsoft Teams で自動メール情報を探している場合は、「Microsoft Teams で設定が変更された場合にユーザーに送信されるメール」[をMicrosoft Teams。](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)
+> Microsoft Teams で自動メール情報を探している場合は、「Microsoft Teams で設定が変更された場合にユーザーに送信されるメール [」を参照してください](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)。
 
 電子メールは、電話会議プロバイダーとして Microsoft[](set-up-audio-conferencing.md)を使用して電話会議が有効になっているユーザーに自動的に送信されます。
   
-既定では、電話会議が有効になっているユーザーに送信される 4 種類のメールがあります。 ただし、ユーザーに送信されるメールの数を制限する場合は、オフにできます。 次の場合、Microsoft 365またはOffice 365電話会議は、ユーザーのメールにメールを送信します。
+既定では、電話会議が有効になっているユーザーに送信される 4 種類のメールがあります。 ただし、ユーザーに送信されるメールの数を制限する場合は、オフにできます。 Microsoft 365 または Office 365 の電話会議は、次の場合にユーザーのメールにメールを送信します。
   
 - **電話会議ライセンスが割り当てられるか、電話会議プロバイダーを Microsoft に変更するときに割り当てられます。**
     
-     このメールには、会議 ID、会議の既定の電話会議電話番号、ユーザーの電話会議 PIN、ユーザーの既存の会議を更新するために使用される Skype for Business Online Meeting Update Tool を使用する手順とリンクが含まれます。 「[ライセンスを割りSkype for Business割り当てる」](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)または[「Microsoft を電話会議プロバイダーとして割り当てる」を参照してください](assign-microsoft-as-the-audio-conferencing-provider.md)。
+     このメールには、会議 ID、会議の既定の電話会議電話番号、ユーザーの電話会議 PIN、ユーザーの既存の会議を更新するために使用する Skype for Business Online 会議更新ツールを使用する手順とリンクが含まれます。 「Skype [for Business ライセンスを割り当てる」または](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)[「Microsoft を電話会議プロバイダーとして割り当てる」を参照してください](assign-microsoft-as-the-audio-conferencing-provider.md)。
     
     > [!NOTE]
     > 組織で動的な会議 ID が有効になっている場合、スケジュールを設定したユーザーのすべての会議に固有の会議 ID が割り当てらされます。 組織で [電話会議の動的な ID を設定できます](./reset-a-conference-id-for-a-user.md)。 
   
     このメールの例を次に示します。
     
-     ![Skype for Businessライセンスを確認します。](../images/audio-conferencing-user-enabled.png)
+     ![Skype for Business Verify License。](../images/audio-conferencing-user-enabled.png)
   
-    追加ライセンスの詳細については、「Skype for Businessライセンス」をSkype for Business[参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
+    Skype for Business のライセンスの詳細については、「Skype for Business アドオン ライセンス」 [を参照してください](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。
     
 - **ユーザーの会議 ID または既定の電話会議電話番号が変更されます。**
     
@@ -76,9 +76,9 @@ ms.locfileid: "58728036"
   
 - **ユーザーのライセンスが削除される、または電話会議プロバイダーが Microsoft から他のプロバイダーまたはなしに変更された場合。**
     
-    これは、電話会議ライセンスがユーザーから削除された場合、またはユーザーの電話会議プロバイダーを Microsoft からサードパーティの電話会議プロバイダーに変更する場合、またはプロバイダーを [なし] に設定するときに発生 **します**。 このメールには、ユーザーが Skype for Business Online Meeting Update Tool を使用して、既定の電話会議の電話番号や会議 ID などの電話会議固有の情報を削除する手順と情報が記載されています。
+    これは、電話会議ライセンスがユーザーから削除された場合、またはユーザーの電話会議プロバイダーを Microsoft からサードパーティの電話会議プロバイダーに変更する場合、またはプロバイダーを [なし] に設定するときに発生 **します**。 このメールには、Skype for Business Online 会議更新ツールを使用して、既定の電話会議の電話番号や会議 ID などの電話会議固有の情報を削除する手順と情報が記載されています。
     
-    「ライセンス[の割り当てまたは削除」をMicrosoft 365 Apps for business。](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
+    「Microsoft [365 Apps for Business のライセンスを割り当てるまたは削除する」を参照してください](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)。
     
     このメールの例を次に示します。
     
@@ -89,7 +89,7 @@ ms.locfileid: "58728036"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>送信されるメール メッセージに変更を加える
 
-[From] 連絡先情報に含まれるメール アドレスや表示名など、ユーザーに自動的に送信されるメール *を変更できます* 。 既定では、メールの送信者は Microsoft 365 または Office 365 から送信されますが、Windows PowerShell コマンドレットと[Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10))コマンドレットを使用して、メール アドレスと表示名を変更できます。 ユーザーにメールを送信するメール アドレスを変更するには、次の条件を実行する必要があります。
+[From] 連絡先情報に含まれるメール アドレスや表示名など、ユーザーに自動的に送信されるメール *を変更できます* 。 既定では、メールの送信者は Microsoft 365 または Office 365 から送信されますが、Windows PowerShell コマンドレットと [Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) コマンドレットを使用して、メール アドレスと表示名を変更できます。 ユーザーにメールを送信するメール アドレスを変更するには、次の条件を実行する必要があります。
   
 - _SendEmailFromAddress_ パラメーターにメール アドレスを入力する
     
@@ -114,7 +114,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 既定では、メールはユーザーに送信されますが、電話会議のメールを受信したくない場合は、Skype for Business 管理センターまたは Windows PowerShell を使用できます。 
  
-![ロゴを表示Skype for Businessアイコン。](../images/sfb-logo-30x30.png)  **Skype for Business 管理センターの使用**
+![Skype for Business ロゴを示すアイコン。](../images/sfb-logo-30x30.png)  **Skype for Business 管理センターの使用**
     
 1. **Skype for Business 管理センター** の左側のナビゲーション ウィンドウで、[**電話会議**]  >  [**Microsoft ブリッジ設定**] の順に移動します。
     
@@ -147,15 +147,15 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
-- 既定では、メールの送信者は Microsoft 365 または Office 365 から送信されますが、Windows PowerShell コマンドレットと[Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10))コマンドレットを使用して、メール アドレスと表示名を変更できます。
+- 既定では、メールの送信者は Microsoft 365 または Office 365 から送信されますが、Windows PowerShell コマンドレットと [Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) コマンドレットを使用して、メール アドレスと表示名を変更できます。
     
-- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 Windows PowerShellを使用すると、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [PowerShell を使用するMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [Microsoft 365 または Office 365 PowerShell を使用する必要がある理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [Microsoft 365 または Office 365 を管理する最適なWindows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター を使用する場合に限って、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センターを使用する場合に限り、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -164,7 +164,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
+    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。 64 ビット コンピューターでのみサポートされているこのモジュールは、Microsoft ダウンロード センターの [Teams PowerShell モジュールのダウンロードとインストール][ヘルプ](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)(/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) からダウンロードできます。
   
 ## <a name="related-topics"></a>関連項目
 

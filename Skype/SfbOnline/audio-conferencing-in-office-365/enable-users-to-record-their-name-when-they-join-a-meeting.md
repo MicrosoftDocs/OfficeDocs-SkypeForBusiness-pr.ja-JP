@@ -20,13 +20,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: Skype for Business Online で会議に参加するときに、ユーザーが自分の名前を記録できるかどうかを有効または無効にする方法についてSkype for Businessします。
-ms.openlocfilehash: cad0f5a904fbec064fd07080b43af7ee6a8a9671
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Skype for Business Online でユーザーが会議に参加するときに、ユーザーが自分の名前を記録できるかどうかを有効または無効にする方法についてSkype for Businessします。
+ms.openlocfilehash: 6f1c6c5d582665f411eaa17b76e7c1922ee9e468
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626259"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012951"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Skype for Business Online でユーザーが会議に参加するときに自分の名前を記録Skype for Businessする
 
@@ -58,13 +58,13 @@ Microsoft 365 または Office 365 で電話会議を設定すると、電話番
 
 - 時間を節約したり、自動化したりするには [、Set-CsOnlineDialInConferencingTenantSettings コマンドレットを使用](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) できます。
     
-- Windows PowerShellは、ユーザーの管理と、ユーザーが実行できる操作についてすべて行います。 このWindows PowerShell、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーが実行できる操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [PowerShell を使用するMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell または PowerShell を使用Microsoft 365必要Office 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell多くのユーザーに対して一度に設定変更を行う場合など、Microsoft 365 管理センター のみを使用する場合に、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell多くのユーザーに対して一度に設定変更を行う場合など、Microsoft 365 管理センター の使用に対する速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -73,8 +73,8 @@ Microsoft 365 または Office 365 で電話会議を設定すると、電話番
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
+    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。 このモジュールは、64 ビット コンピューターでのみサポートされています。このモジュールは、Microsoft ダウンロード センターの「PowerShell モジュール をダウンロードしてインストールする[」Teamsダウンロードできます](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[電話会議を試用または購入するには、Microsoft 365 または Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 展開プロセスと、応答グループの手順をSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 1cb85ac95025b71de8a071758befb5287a6fafa4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef3c5810758d7d3c4df070ca2adf70ef80025ffe
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620183"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015301"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>応答グループの展開プロセス (Skype for Business
 
@@ -77,7 +77,7 @@ ms.locfileid: "58620183"
 
 このセクションは、組織が FIPS (Federal Information Processing Standards) に準拠する必要がある場合にのみ参照してください。
 
-FIPS に準拠するには、Web サービスのインストール後に、アプリケーション レベルの Web.config ファイルを変更して別の暗号化アルゴリズムを使用する必要があります。 ビューステート データを処理 ASP.NET、トリプル データ暗号化標準 (3DES) アルゴリズムを使用する方法を指定する必要があります。 応答グループ アプリケーションの場合、この要件は、応答グループ構成ツールとエージェントのサインインおよびサインアウト コンソールに適用されます。 この要件の詳細については、「ASP.NET 1.1 から ASP.NET 2.0 へのアップグレード後に ViewState が有効になっている ASP.NET Web ページにアクセスすると、エラー メッセージが表示される場合があります」を参照してください。 911722 [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183)
+FIPS に準拠するには、Web サービスのインストール後に、アプリケーション レベルの Web.config ファイルを変更して別の暗号化アルゴリズムを使用する必要があります。 ビューステート データを処理 ASP.NET、トリプル データ暗号化標準 (3DES) アルゴリズムを使用する方法を指定する必要があります。 応答グループ アプリケーションの場合、この要件は、応答グループ構成ツールとエージェントのサインインおよびサインアウト コンソールに適用されます。
 
 Web.config ファイルを変更するには、以下の手順を実行します。
 

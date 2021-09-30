@@ -1,5 +1,5 @@
 ---
-title: 'サード パーティの電話会議プロバイダーとのSkype for Business統合のためのサポート終了プログラム '
+title: 'サード パーティの電話会議プロバイダー Skype for Business統合のためのサポート終了プログラム '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,37 +19,37 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: 2021 年 7 月 31 日に、サード パーティの電話会議プロバイダー (サード パーティ ACP) との Skype for Business の統合について、サポート終了プログラムが終了します。
-ms.openlocfilehash: 75ee6616634b4670c633fe24d1c623bbe3d39499
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 2021 年 7 月 31 日に、Skype for Business とサード パーティの電話会議プロバイダー (サード パーティ ACP) の統合に向け、サポート終了プログラムが終了します。
+ms.openlocfilehash: c159d201a284b683237df22688878ef268c442b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609994"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014381"
 ---
-# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>サード パーティの電話会議プロバイダーとのSkype for Business統合のためのサポート終了プログラム 
+# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>サード パーティの電話会議プロバイダー Skype for Business統合のためのサポート終了プログラム 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Microsoft は、サード パーティの電話会議プロバイダー (ACL) と Skype for Business 統合のためのサポート終了プログラムの開始を発表しました。 
+Microsoft は、サード パーティの電話会議プロバイダー (ACL) との Skype for Businessの終了プログラムの開始を発表しました。 
 
-サポート終了プログラムは、2021 年 7 月 31 日に終了します。 プログラムが終了すると、サード パーティの電話会議プロバイダーとの Skype for Business の統合は停止され、その日 (2021 年 7 月 31 日) に次の変更が観察されます。
+サポート終了プログラムは、2021 年 7 月 31 日に終了します。 プログラムが終了すると、サードパーティの電話会議プロバイダーとの Skype for Business の統合は停止され、その日 (2021 年 7 月 31 日) に次の変更が観察されます。
 
-- サードパーティの ACP サービスによって提供Skype for Businessダイヤルイン番号を使用して会議に参加しようとした参加者は、Skype for Businessされます。
+- サードパーティの ACP サービスによって提供されたダイヤルイン番号を使用して Skype for Business 会議への参加を試みる参加者は、Skype for Businessされます。
  
 - サード パーティの ACP サービスに対して有効になっているユーザーは、新しい会議出席Skype for Business含まれません。
 
 サポート終了プログラムの開始の発表の一環として、次の変更が有効であり、サポート終了プログラムが終了するまで引き続き適用されます。 
 
-- サード パーティの ACP Skype for Businessを使用するように構成されたユーザーがないお客様は、サード パーティの ACP サービスを使用するようにユーザーを構成することはできません。
+- サード パーティ Skype for Business ACP サービスを使用するように構成されたユーザーがないお客様は、サード パーティの ACP サービスを使用するようにユーザーを構成することはできません。
 
-- サード パーティの ACP サービスを使用するように構成された Skype for Business ユーザーを持つ既存のお客様は、有効期間中、引き続き新しいユーザーを追加できます。 2021 年 7 月 31 日に適用される変更は、サード パーティの ACP サービスを使用するために追加の Skype for Business ユーザーを設定することをお勧めしません。
+- サード パーティの ACP サービスを使用するように構成された Skype for Business ユーザーを持つ既存のお客様は、有効期間中、引き続き新しいユーザーを追加できます。 2021 年 7 月 31 日に適用される変更も適用されるので、サード パーティの ACP サービスを使用する追加の Skype for Business ユーザーを設定することをお勧めしません。
 
 ## <a name="preparing-for-this-change"></a>この変更の準備
 
 この変更を準備するために、影響を受ける組織には、2021 年 7 月 31 日より前に、この計画された更新プログラムについて有効なユーザーに通知する必要があります。 
 
-2021 年 7 月 31 日より後、ユーザーはオンライン会議Skype for Business中断することなく引き続き会議を使用できます。ただし、組織は、Microsoft が提供する電話会議に対してユーザーがダイヤルイン電話会議を行う必要がある場合は、Skype for Businessまたは Microsoft Teams。 Microsoft 電話会議の詳細については、「電話会議」 [を参照してください](https://products.office.com/skype-for-business/audio-conferencing)。 
+2021 年 7 月 31 日より後、ユーザーはオンライン会議Skype for Business中断することなく引き続き会議を使用できます。ただし、組織は、Microsoft が提供する電話会議にユーザーがダイヤルイン電話会議を行う必要がある場合は、Skype for BusinessまたはMicrosoft Teams。 Microsoft 電話会議の詳細については、「電話会議」 [を参照してください](https://www.microsoft.com/microsoft-teams/audio-conferencing)。 
 
 組織の目的の終了状態に応じて、次の 3 つのパスを実行できます。
 
@@ -81,9 +81,9 @@ Microsoft 電話会議への移行は簡単で、サービスのライセンス�
 
 - Microsoft 電話会議に移行し、2021 年 7 月 31 日より前に移行を完了した組織は、その日の間または後にサービスに影響を与える影響はありません。
 
-- Microsoft 電話会議への移行の詳細については、「電話会議を試用または購入する」を参照Microsoft 365[または](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)Office 365。 
+- Microsoft 電話会議への移行の詳細については、「電話会議を試用または購入する」を参照Microsoft 365[または Office 365。](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
 
-### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>パス#2: サード パーティの電話会議プロバイダーを引き続き個別に使用する
+### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>パス#2: サードパーティの電話会議プロバイダーを引き続き個別に使用する
 
 2021 年 7 月 31 日以降もサード パーティ ACP の使用を決定した組織は、サード パーティの ACP ダイヤルイン情報を使用して Skype for Business 会議の音声部分に参加できなくなったため、サービスへの影響が発生します。 
 
@@ -91,7 +91,7 @@ Microsoft 電話会議への移行は簡単で、サービスのライセンス�
 
 - 特定の開催者のすべての会議から VoIP を無効にするには、会議ポリシーの AllowIPAudio パラメーターを、Set-CsConferencingPolicy コマンドレットを使用して false に設定します。 詳細については [、Set-CsConferencingPolicy に関するページを参照してください](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
  
-スケジュールに関して、および 2021 年 7 月 31 日の現在、サードパーティの ACP のダイヤルイン情報は、Skype for Business 会議への招待に自動的に含まれません。 引き続き会議の一部としてこの情報を含めたい場合は、Skype for Business 会議の招待にダイヤルイン情報を手動で追加する必要があります。 
+スケジュールに関して、および 2021 年 7 月 31 日の現在、サードパーティの ACP のダイヤルイン情報は、Skype for Business 会議出席招待に自動的に含まれません。 ユーザーが会議の一部としてこの情報を引き続き含めたい場合は、Skype for Business 会議の招待にダイヤルイン情報を手動で追加する必要があります。 
 
 2021 年 7 月 31 日に、ユーザーの既存の会議は、サード パーティの ACP ダイヤルイン情報を削除するために自動的に再スケジュールされません。 ユーザーの会議で VoIP を有効にし続ける場合は、ユーザーのサードパーティ ACP の統合を無効にし、会議移行サービスを使用して会議を再スケジュールし、既存の会議からサードパーティ電話会議のダイヤルイン情報を削除し、既にスケジュールされている会議での音声の断片化を防ぐことを検討する必要があります。 
 
@@ -101,23 +101,23 @@ Microsoft 電話会議への移行は簡単で、サービスのライセンス�
 
 **概要:**
 
-- 2021 年 7 月 31 日以降もサード パーティ ACP の使用を決定した組織は、サード パーティの ACP を Skype for Business 会議への参加に使用できないので影響を受け、新しい会議にはサード パーティの ACP ダイヤルイン情報は含めないので、影響を受ける可能性があります。 
+- 2021 年 7 月 31 日以降もサード パーティ ACP の使用を決定した組織は、サード パーティの ACP を Skype for Business 会議に参加できないので影響を受け、新しい会議にはサード パーティの ACP ダイヤルイン情報は含めないので、影響を受ける可能性があります。 
 
 - 2021 年 7 月 31 日より前に、影響を受けるすべてのユーザーのすべての会議で VoIP を無効にし、VoIP 経由およびサード パーティの ACP 経由で参加している参加者間で音声が断片化されるのを防ぐことをお勧めします。 
 
     - 特定の開催者のすべての会議から VoIP を無効にするには、ユーザーの会議ポリシーの AllowIPAudio パラメーターを、Set-CsConferencingPolicy コマンドレットを使用して false に設定します。 詳細については [、Set-CsConferencingPolicy に関するページを参照してください](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
  
-- 組織がすべての会議で VoIP を無効にしない場合は、ユーザーが Skype for Business Online とサード パーティの ACP との統合を無効にし、会議のスケジュールを変更してサードパーティの ACP ダイヤルイン情報を削除して音声の断片化を防ぐことをお勧めします。
+- 組織がすべての会議で VoIP を無効にしない場合は、ユーザーが Skype for Business Online とサード パーティの ACP との統合を使用し、会議のスケジュールを変更してサードパーティの ACP ダイヤルイン情報を削除して音声の断片化を防ぐことをお勧めします。
 
     - 特定の開催者のサードパーティ電話会議の統合を無効にするには [、Remove-CsUserAcp コマンドレットを使用](/powershell/module/skype/remove-csuseracp?view=skype-ps) します。 
 
     - 会議のスケジュールを自動的に変更するには、「ユーザーの会議移行を手動で実行する方法」を参照してください。 「Meeting [Migration Service (MMS) の設定」を参照してください](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)。
 
-### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>パス#3: ダイヤルイン会議の使用を完全に停止する
+### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>パス #3: ダイヤルイン会議の使用を完全に停止する
 
 ダイヤルイン会議の使用を完全に停止する (Microsoft もサード パーティの ACP も提供しない) 組織は、Skype for Business 会議の音声部分をサポートするために VoIP に完全に依存できます。 
 
-これらの組織では、ユーザーがサードパーティの電話会議プロバイダーを使用し、会議移行サービスを使用して会議を自動的に再スケジュールしてダイヤルイン会議情報を削除する必要があります。 
+これらの組織では、ユーザーがサードパーティの電話会議プロバイダーを使用し、会議移行サービスを使用して自動的にスケジュールを変更してダイヤルイン会議情報を削除する必要があります。 
 
 - 特定の開催者のサードパーティ電話会議の統合を無効にするには、次のコマンドレットRemove-CsUserAcpします。 詳細については [、Remove-CsUserAcp に関するページを参照してください](/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
 

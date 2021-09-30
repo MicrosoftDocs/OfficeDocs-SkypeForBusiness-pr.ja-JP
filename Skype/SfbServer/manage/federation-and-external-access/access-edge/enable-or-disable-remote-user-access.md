@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: リモート ユーザーに対してリモート ユーザー アクセスを有効にした場合、サポートされているリモート ユーザーはインターネットを使用して接続し、Skype for Business Server を使用して内部ユーザーと共同作業するために VPN を使用して接続する必要はありません。
-ms.openlocfilehash: c20f6891b463f44fdcd424ca870fbba0826d33bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 743ec476cc1541fa4163a838f333419280779611
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608194"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014531"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>リモート ユーザー アクセスを有効または無効にする方法は、Skype for Business Server
 
@@ -45,9 +45,9 @@ ms.locfileid: "58608194"
 
 5.  [**アクセス エッジ構成の編集**] で、次のいずれかの操作を行います。
     
-      - 組織に対してリモート ユーザー アクセスを有効にするには、[**リモート ユーザー アクセスを有効にする**] チェック ボックスをオンにします。
+    - 組織に対してリモート ユーザー アクセスを有効にするには、[**リモート ユーザー アクセスを有効にする**] チェック ボックスをオンにします。
     
-      - 組織に対してリモート ユーザー アクセスを無効にするには、[**リモート ユーザー アクセスを有効にする**] チェック ボックスをオフにします。
+    - 組織に対してリモート ユーザー アクセスを無効にするには、[**リモート ユーザー アクセスを有効にする**] チェック ボックスをオフにします。
 
 6.  [**確定**] をクリックします。
 
@@ -60,14 +60,16 @@ ms.locfileid: "58608194"
 
 ## <a name="to-enable-remote-user-access"></a>リモート ユーザー アクセスを有効にするには
 
-  - リモート ユーザー アクセスを有効にするには、**AllowOutsideUsers** プロパティの値を True ($True) に設定します。
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+リモート ユーザー アクセスを有効にするには、**AllowOutsideUsers** プロパティの値を True ($True) に設定します。
+
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+```
 
 ## <a name="to-disable-remote-user-access"></a>リモート ユーザー アクセスを無効にするには
 
-  - リモート ユーザー アクセスを無効にするには、**AllowOutsideUsers** プロパティの値を False ($False) に設定します。
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+リモート ユーザー アクセスを無効にするには、**AllowOutsideUsers** プロパティの値を False ($False) に設定します。
 
-
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+```

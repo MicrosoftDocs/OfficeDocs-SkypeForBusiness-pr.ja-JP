@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: 医療組織のチームを迅速かつ簡単に作成するために、Teams 管理センターや Microsoft Graph で医療テンプレートを管理および使用する方法を説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 00da42e4e573306a3737b1d35e89292b04df4fa4
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 5345f5e9886bbcb9e4a2274d21d2aabb0be373c6
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991126"
+ms.locfileid: "60007807"
 ---
 # <a name="use-healthcare-team-templates"></a>Teamsの医療テンプレートを使用する
 
@@ -60,7 +60,7 @@ Teams には、医療組織用に特化して設計されたテンプレート�
 | 患者のケア |`healthcareWard` | チャネル<ul><li>全般</li><li>お知らせ<ul><li>情報 &sup1;</li></ul></li><li>打ち合わせ<ul><li>リスト (患者リスト) &sup1;</li></ul></li><li>ラウンド<ul><li>検査 &sup1;</li></ul></li><li>人員配置</li><li>トレーニング</li></ul> アプリ: <ul><li>Wiki</li><li>リスト</li><li>タスク</li><li>承認</li><li>Shifts</li><li>情報</li><li>検査</li></ul>|
 ||||
 
-&sup1; アプリがタブとしてチャネルに追加されました。
+&sup1; アプリがタブとしてチャネルに追加されました
 ### <a name="hospital"></a>病院
 
 このテンプレートは、病院内の複数の病棟、ポッド、部門間のコミュニケーションと共同作業を対象としています。 このテンプレートには、病院での活動のためのチャネルのセットが含まれており、拡張してさらにカスタマイズすることもできます。
@@ -70,7 +70,7 @@ Teams には、医療組織用に特化して設計されたテンプレート�
 |病院|`healthcareHospital`|チャネル <ul><li>全般<ul><li>リスト &sup1;</li></ul></li><li>お知らせ<ul><li>情報 &sup1;</li></ul></li><li>コンプライアンス</li><ul><li>検査 &sup1;</li></ul></li><li>親権</li><li>人事管理<ul><li>アイデア&sup1;</li></ul></li><li>薬局</li></ul> アプリ: <ul><li>Wiki</li><li>タスク</li><li>リスト</li><li>承認</li><li>Shifts</li><li>情報</li><li>検査</li><li>アイデア</li></ul>|
 ||||
 
-&sup1; アプリがタブとしてチャネルに追加されました。
+&sup1; アプリがタブとしてチャネルに追加されました
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
 
 開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートでチームを作成できます。 Microsoft Graph を使用したチーム テンプレートの使用方法に関する詳細については、[Microsoft Graph を使用して、チーム テンプレートの使用を開始する](../../get-started-with-teams-templates.md)、[Microsoft Teams API の概要](/graph/teams-concept-overview?view=graph-rest-1.0)、[teamsTemplate リソースの種類](/graph/api/resources/teamstemplate?view=graph-rest-1.0)を参照してください。

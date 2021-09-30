@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '概要: ネットワーク コンポーネントを実装する前に、以下のネットワーク コンポーネントの考慮事項をSkype for Business Server。'
-ms.openlocfilehash: 272ac60f4322d1d9153a6518e20d02c07e066def
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623579"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014671"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>ネットワーク要件を計画Skype for Business
 
@@ -192,8 +192,8 @@ Skype for Business Serverは、多くの解像度をサポートしています�
 
 |**Media**|**RTCP の最大帯域幅 (Kbps)**|
 |:-----|:-----|
-|オーディオ  <br/> |5   <br/> |
-|ビデオ (H.264 または RTVideo の一方のみを送受信)  <br/> |10   <br/> |
+|オーディオ  <br/> |5  <br/> |
+|ビデオ (H.264 または RTVideo の一方のみを送受信)  <br/> |10  <br/> |
 |ビデオ (H.264 と RTVideo の両方を送受信)  <br/> |15   <br/> |
 
 容量計画では、次の 2 つの統計が関心を持っています。
@@ -227,7 +227,7 @@ Skype for Business Serverは、多くの解像度をサポートしています�
 |メイン ビデオ受信  <br/> |H.264 および RTVideo¹  <br/> |260  <br/> |8015  <br/> |該当なし  <br/> |
 |メイン ビデオ送信  <br/> |H.264 と RTVideo  <br/> |270  <br/> |8015  <br/> |該当なし  <br/> |
 |パノラマ ビデオ受信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2010 (最大解像度 1920x288 の場合)  <br/> |該当なし  <br/> |
-|パノラマ ビデオ送信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2515 ²  <br/> |該当しない  <br/> |
+|パノラマ ビデオ送信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2515 ²  <br/> |該当なし  <br/> |
 
 1. RT ビデオは、Lync 2010 クライアントが会議に接続されている H.264 に加えて送信されます。
 
@@ -276,7 +276,7 @@ Skype for Business Server QoS は完全にサポートされています。つ�
 
 
 > [!NOTE]
-> R2 または Windows Server 2012または Windows Server 2012を使用している場合は、そのプラットフォームで QoS を管理するための新しい Windows PowerShell コマンドレットのセットに興味がある可能性があります。 詳細については、「ネットワーク[QoS コマンドレット」を参照Windows PowerShell。](https://go.microsoft.com/fwlink/p/?LinkId=285379)
+> R2 または Windows Server 2012または Windows Server 2012を使用している場合は、そのプラットフォームで QoS を管理するための新しい Windows PowerShell コマンドレットのセットに興味がある可能性があります。 詳細については、「ネットワークの[Windows PowerShellコマンドレット」を参照してください](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj717268(v=ws.11))。
 
 QoS については、「ホワイトペーパー のネットワーク計画、監視、 [および Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) でのトラブルシューティング」でも詳しい情報と深度について説明します。 コンテンツは Lync 2010 および Lync 2013 を明示的に参照しますが、このコンテンツのSkype for Business Server変更されません。
 

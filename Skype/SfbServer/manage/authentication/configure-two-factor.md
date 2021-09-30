@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: '概要: 2 要素認証を 2 要素認証で構成Skype for Business Server。'
-ms.openlocfilehash: f4c8532d08a3ed6c06a702039eea224f231cbd06
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 447039a5dd137482c330325fcf479dade583f395
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612396"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014371"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>2 要素認証を構成Skype for Business Server
 
@@ -44,7 +44,7 @@ ms.locfileid: "58612396"
 
 6. [ **登録エージェント]** **、[Smartcard ユーザー] 、** および **[スマートカード ログオン] を選択します**。
 
-7. **[OK]** をクリックします。
+7. [**OK**] をクリックします。
 
 8. [証明書テンプレート] **を右クリックします**。
 
@@ -181,7 +181,7 @@ ms.locfileid: "58612396"
 次のセクションでは、多要素認証をサポートするために Active Directory フェデレーション サービス (AD FS 2.0) を構成する方法について説明します。 FS 2.0 をADする方法については [、「AD FS 2.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))のステップ バイ ステップ」および「How To Guides」を参照してください。
 
 > [!NOTE]
-> FS 2.0 ADインストールする場合は、Active Directory フェデレーション サービスの役割を追加Windowsサーバー マネージャーを使用しません。 代わりに、Active Directory フェデレーション サービス [2.0 RTW パッケージをダウンロードしてインストールします](https://go.microsoft.com/fwlink/p/?LinkId=313375)。
+> FS 2.0 ADインストールする場合は、Active Directory フェデレーション サービスの役割を追加Windowsサーバー マネージャーを使用しません。 代わりに、Active Directory フェデレーション サービス [をダウンロードしてインストールします](/troubleshoot/windows-server/identity/availability-description-afds)。
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>2 要素認証AD FS を構成するには
 
@@ -326,7 +326,7 @@ Skype for Business Web サービスで証明書認証が無効になっている
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>カスタム プロキシ構成を作成するには
 
-1. Skype for Business Server 管理シェルコマンド ラインから、次のコマンドを実行してパッシブ認証を有効にする Skype for Business Server エッジ プール、Enterprise プール、および Standard Edition サーバーごとに新しいプロキシ構成を作成します。
+1. Skype for Business Server 管理シェル コマンド ラインから、次の手順を実行してパッシブ認証を有効にする Skype for Business Server エッジ プール、Enterprise プール、および Standard Edition サーバーごとに新しいプロキシ構成を作成します。コマンド:
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False

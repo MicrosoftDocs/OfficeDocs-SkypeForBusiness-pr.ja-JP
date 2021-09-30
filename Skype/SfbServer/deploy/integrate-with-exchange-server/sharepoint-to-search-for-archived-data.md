@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: '概要: サーバー SharePointサーバーでアーカイブされたデータを検索Exchange Server構成Skype for Business Server。'
-ms.openlocfilehash: 8a27bb170f0e089d702417a32d93eee96c7c6299
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 081b32ad57d97a793867e56f85ad36d62424bacb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604206"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013571"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>アーカイブSharePointデータを検索するサーバーをSkype for Businessする
  
@@ -65,7 +65,7 @@ $service.Update()
 > [!NOTE]
 > 自動検出サービスの URI を使用してください。 サンプル URI を使用しない https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 。 
   
-トークン発行者を作成してトークン サービスを構成したら、これらのコマンドを実行し、SharePoint サイトの URL をサンプル URL に置き換える必要があります。http://atl-sharepoint-001:
+トークン発行者を作成してトークン サービスを構成したら、次のコマンドを実行し、SharePoint サイトの URL をサンプル URL に置き換える必要があります `http://atl-sharepoint-001` 。
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -112,17 +112,17 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 3. [**新しい結果ソース**] ウィンドウで、[**名前**] ボックスに新しい検索先の名前 (たとえば、**Microsoft Exchange**) を入力します。 **[Exchange]** を選択し、[ソースURL] ボックスに Exchange サーバーの Web サービス ソース **URL を入力Exchangeします**。 ソース URL は次のような形式です。
     
-    https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
+    `https://atl-exchange-001.litwareinc.com/ews/exchange.asmx`
     
 4. [**自動検出を使用する**] がオンでないことを確認して、[**OK**] をクリックします。
     
-最後に、新しい電子情報開示ケースと新しい電子情報開示セットを作成するには、SharePoint検出サイト (たとえば、https://atl-sharepoint-001/sites/discovery):
+最後に、新しい電子情報開示ケースと新しい電子情報開示セットを作成するには、SharePoint検出サイト (たとえば) から次の手順を実行します `https://atl-sharepoint-001/sites/discovery` 。
   
 1. [サイト コンテンツ] ページで、[**新しいケースを作成します**] をクリックします。
     
 2. [サイト コンテンツ: 新しい SharePoint サイト] ページで、[**タイトル**] ボックスにユーザーの電子メール エイリアス (たとえば、**kenmyer**) を入力し、同じその URL を [**Web サイトのアドレス**] に追加します。次のような URL になります。
     
-    https://atl-sharepoint-001/sites/eDiscovery/kenmyer
+    `https://atl-sharepoint-001/sites/eDiscovery/kenmyer`
     
 3. [**作成**] をクリックします。
     

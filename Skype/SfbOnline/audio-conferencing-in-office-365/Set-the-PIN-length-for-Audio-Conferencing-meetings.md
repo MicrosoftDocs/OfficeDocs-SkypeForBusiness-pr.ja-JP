@@ -20,13 +20,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: PIN の長さと要件のパラメーターについて説明し、会議の長さを設定する方法Skype for Business。
-ms.openlocfilehash: ecd0ef071f790e000aff00820fcd1c5a04403f23
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: PIN の長さと要件のパラメーターについて説明し、会議の期間を設定する方法Skype for Business。
+ms.openlocfilehash: a9a7ec819fef23aac0ff334aebae95a83180316c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598291"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012901"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Skype for Business Online で電話会議会議の PIN の長さを設定する
 
@@ -34,11 +34,11 @@ ms.locfileid: "58598291"
 
 
 > [!NOTE]
-> PIN の長さを設定する方法については、「Microsoft Teams で電話会議の PIN の長さを設定する[」をMicrosoft Teams。](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams)
+> PIN の長さを設定する方法については、「Microsoft Teams で電話会議の PIN の長さを設定する[」を](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams)Microsoft Teams。
 
 会議用に電話会議を設定Skype for Business、電話会議ブリッジが表示されます。 電話会議ブリッジには 1 つまたは複数の電話番号を含めることができます。 設定した電話番号は、新しいアプリの会議出席Skype for Businessされます。
   
-電話会議ブリッジは、電話を使用して会議にダイヤルインしようとしているユーザーの呼び出しに応答します。 自動応答からの音声プロンプトで呼び出し元に応答し、設定に応じて通知を再生し、発信者に自分の名前を記録するよう要求できます。 **Microsoft Bridge の設定** を使用すると、会議通知と会議参加エクスペリエンスの設定を変更し、会議開催者が使用する PIN の長さを設定できます。 会議の開催者は、他のアプリを使用して会議に参加できない場合、PIN を使用してSkype for Businessします。
+電話会議ブリッジは、電話を使用して会議にダイヤルインしようとしているユーザーの呼び出しに応答します。 自動応答からの音声プロンプトで呼び出し元に応答し、設定に応じて通知を再生し、発信者に自分の名前を記録するよう要求できます。 **Microsoft Bridge の設定** を使用すると、会議通知と会議参加エクスペリエンスの設定を変更し、会議開催者が使用する PIN の長さを設定できます。 会議の開催者は、新しいアプリを使用して会議に参加できない場合、PIN を使用してSkype for Businessします。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -66,9 +66,9 @@ ms.locfileid: "58598291"
     
 - PIN の桁数を 8 に設定するには:  `Set-CsOnlineDialInConferencingTenantSettings -PinLength 8`
     
-- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [PowerShell で使用する必要があるMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell または PowerShell を使用Microsoft 365必要Office 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -83,7 +83,7 @@ ms.locfileid: "58598291"
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
+    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。 このモジュールは、64 ビット コンピューターでのみサポートされています。このモジュールは、Microsoft ダウンロード センターの「PowerShell モジュール をダウンロードしてインストールする」Teams[ダウンロードできます](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)。
   
 ## <a name="see-also"></a>関連項目
 

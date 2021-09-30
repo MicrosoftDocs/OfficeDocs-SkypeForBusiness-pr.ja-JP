@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'PIN について知っている必要がある情報と、PIN をリセットする方法については、Skype for Businessしてください。 '
-ms.openlocfilehash: 22a95c12f1ffe05899194fa357fe33e619f337d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3e33655a5d92dbc24522611a1551c4240c4c228
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594287"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011931"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Skype for Business Online で電話会議 PIN をリセットする
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 電話会議 PIN をリセットする方法については、「Microsoft Teams で電話会議 PIN をリセットする」[をMicrosoft Teams。](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams)
+> 電話会議 PIN をリセットする方法については、「Microsoft Teams で電話会議 PIN をリセットする[」をMicrosoft Teams。](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams)
 
 PIN は、電話会議を有効にしているユーザーごとにSkype for Business番号で構成されるコードです。 電話会議 PIN は、会議の開催者が会議の開催者を識別し、電話で会議を開始するために使用されます。 ユーザーが会議を開始Skype for Businessアプリを使用する場合、PIN は必要ありません。 ユーザーが自分の PIN を忘れて、電話会議を有効にした場合に送信されたメールで PIN が見つからなかった場合、管理者は PIN をリセットするか、自分の PIN をリセットできます。
   
@@ -43,7 +43,7 @@ PIN は、電話会議を有効にしているユーザーごとにSkype for Bus
 
 1. 仕事用または学校用のアカウントでサインインします。
     
-2. 管理センターに移動> Skype for Business **し、** 左側のナビゲーションで [電話会議]**をクリックします**。
+2. 管理センターに移動し **> Skype for Business** し、左側のナビゲーションで [電話会議]**をクリックします**。
     
 3. [ユーザー **] を** クリックし、PIN をリセットするユーザーを選択します。
     
@@ -57,12 +57,12 @@ PIN は、電話会議を有効にしているユーザーごとにSkype for Bus
 ユーザーは、[ダイヤルイン会議] ページの **[PIN** のリセット] オプションを使用して PIN **をリセット** できます。 このページには、次の 3 つの方法のいずれかを使用してアクセスできます。
 
 * ブラウザーで に移動します [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling) 。
-* [Skype for Business オプション] の横にある [メニューの表示] 矢印をクリックし、[**ツール]** の [ダイヤルイン会議] を  >  **設定。**
-* [Skype for Business オプション] をクリックし、左側のメニューで [通話の転送] をクリックし、[その他の通話] セクションで設定 [設定をオンラインで編集]**を** クリック **します**。 
+* [Skype for Business オプション] の横にある [メニューの表示] 矢印をクリックし、[ツール] の [ダイヤルイン会議] を  >  **設定。**
+* [Skype for Business オプション] をクリックし、左側のメニューで [通話の転送]**を** クリックし、[その他の通話の転送] セクションで設定 [設定をオンラインで編集] をクリック **します**。  
 
 ## <a name="what-else-should-you-know-about-pins"></a>PIN について知っておくべきその他のこと
 
-- セキュリティ保護のため、PIN のリセット時に PIN は 1 回だけ管理者に表示されます。 管理者が PIN をリセットすると **、Skype for Business** 管理センターで PIN が *********** と表示され、Windows PowerShell で Get-CsCsOnlineDialInConfencingUser を使用すると結果に表示されます。
+- セキュリティ保護のため、PIN のリセット時に PIN は 1 回だけ管理者に表示されます。 管理者が PIN をリセットすると **、pin** は Skype for Business 管理センターに *********** と表示され、Windows PowerShell で Get-CsCsOnlineDialInConfencingUser を使用すると結果に表示されます。
     
 - ユーザーへのメールの自動送信は既定で有効になっています。ユーザーが電話会議を有効にした場合、または PIN がリセットされた場合、ユーザーは PIN を含むメールを受信します。 ただし、メールの自動送信を無効にした場合、PIN リセット メールはユーザーに送信されません。PIN 情報をユーザーに手動で送信する必要があります。
     
@@ -74,7 +74,7 @@ PIN は、電話会議を有効にしているユーザーごとにSkype for Bus
     
 - 電話会議を設定するときに、組織内の PIN に必要な数字を設定します。 PIN は 4 桁から 12 桁まで指定できます。既定値は 5 です。 PIN の長さの設定を変更した場合、この設定は新しく生成された PIN にのみ適用され、電話会議が有効になっている既存のユーザーの PIN 設定には適用されません。 「 [電話会議会議の PIN の長さを設定する」を参照してください](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)。
     
-- 既定では、メールはユーザーのプライマリ SMTP Microsoft 365またはOffice 365に設定されます。 メールアドレスは、Microsoft 365または MSN メール アドレスなどのOffice 365または非Hotmailアドレスに送信できます。 既定のメール アドレスは、既定のメール アドレスを無効Windows PowerShell。 これは、ユーザーがメールボックス内にメールボックスを持Exchange持Microsoft 365場合Office 365。
+- 既定では、メールはユーザーのプライマリ SMTP Microsoft 365またはOffice 365に設定されます。 メールアドレスは、Microsoft 365または MSN メール アドレスOffice 365メール アドレスHotmail送信できます。 既定のメール アドレスは、既定のメール アドレスを上書Windows PowerShell。 これは、ユーザーがメールボックス内のメールボックスを持ExchangeまたはMicrosoft 365場合Office 365。
     
 - メールが送信される既定のユーザー アドレスをオーバーライドするには、テナント管理者は、Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com" コマンドレットを使用できます。 ユーザーのメール アドレスをオーバーライドするには、SendEmail パラメーターが必要です。
     
@@ -88,9 +88,9 @@ PIN は、電話会議を有効にしているユーザーごとにSkype for Bus
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
-- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [PowerShell で使用する必要があるMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell を使用する必要があるMicrosoft 365または powerShell Office 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -103,8 +103,8 @@ PIN は、電話会議を有効にしているユーザーごとにSkype for Bus
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
+    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。 このモジュールは、64 ビット コンピューターでのみサポートされています。このモジュールは、Microsoft ダウンロード センターの「PowerShell モジュール をダウンロードしてインストールする」Teams[ダウンロードできます](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user.md)

@@ -1,5 +1,5 @@
 ---
-title: CDR 構成設定のコレクションを作成または変更Skype for Business Server
+title: Skype for Business Server で CDR 構成設定のコレクションを作成または変更する
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: '概要: 通話詳細記録 (CDR) の詳細については、Skype for Business Server。'
-ms.openlocfilehash: e9b30eee578fd83dd0d94fbd78a490bf1b0e65de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '概要: Skype for Business Server の通話詳細記録 (CDR) について説明します。'
+ms.openlocfilehash: 1f508df7d139d81d3c91dc1cf9355b61fd028dbc
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626609"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015151"
 ---
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>CDR 構成設定のコレクションを作成または変更Skype for Business Server
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Skype for Business Server で CDR 構成設定のコレクションを作成または変更する
  
-**概要:** 詳細な通話記録 (CDR) の詳細については、Skype for Business Server。
+**概要:** Skype for Business Server の通話詳細記録 (CDR) について説明します。
   
 通話詳細記録 (CDR) では、ピアツーピアのインスタント メッセージング セッション、ボイス オーバー IP (VoIP) 電話の通話、電話会議などの使用状況を追跡できます。この使用状況データの中には、通話の発信者と受信者、通話時刻、通話時間の情報が含まれます。
   
-CDR 構成設定のSkype for Business Serverのグローバル コレクションをインストールすると、自動的に作成されます。 管理者は、サイト スコープでカスタム設定を作成することもできます。 これらのサイト スコープの設定が使用されるときは常に、グローバル設定よりも優先されます。 たとえば、レドモンド サイトにサイト スコープの設定を作成する場合、レドモンドでの CDR の管理には (グローバル設定ではなく) それらの設定が使用されます。
+Skype for Business Server をインストールすると、CDR 構成設定のグローバル コレクションが 1 つ作成されます。 管理者は、サイト スコープでカスタム設定を作成することもできます。 これらのサイト スコープの設定が使用されるときは常に、グローバル設定よりも優先されます。 たとえば、レドモンド サイトにサイト スコープの設定を作成する場合、レドモンドでの CDR の管理には (グローバル設定ではなく) それらの設定が使用されます。
   
-CDR 構成設定は、コントロール パネルまたは[New-CsCdrConfiguration](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps)コマンドレットSkype for Business Server使用して作成できます。 コントロール パネルSkype for Business Server [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)コマンドレットを使用して、既存の設定を変更できます。 コントロール パネルを使用Skype for Business Server設定を作成または変更する場合は、次のオプションを使用できます。
+Skype for Business Server コントロール パネルまたは [New-CsCdrConfiguration コマンドレットを使用して、CDR 構成設定を作成](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) できます。 Skype for Business Server コントロール パネルまたは [Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) コマンドレットを使用して、既存の設定を変更できます。 Skype for Business Server コントロール パネルを使用して設定を作成または変更する場合は、次のオプションを使用できます。
   
 |**UI 設定**|**PowerShell パラメーター**|**説明**|
 |:-----|:-----|:-----|
@@ -38,11 +38,11 @@ CDR 構成設定は、コントロール パネルまたは[New-CsCdrConfigurati
 |エラー報告データを保持する最大期間 (日数)  <br/> |KeepErrorReportForDays  <br/> |CDR エラー報告を保持する日数を指定します。指定した日数を超えて保持されている報告は、自動的に削除されます。CDR エラー報告は、クライアント アプリケーションによってアップロードされる診断レポートです。  <br/> |
    
 > [!NOTE]
-> このNew-CsCdrConfigurationおよびSet-CsCdrConfigurationには、コントロール パネルで使用できない追加Skype for Business Serverがあります。 詳細については [、「New-CsCdrConfiguration」](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) および [「Set-CsCdrConfiguration」](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) のヘルプ トピックを参照してください。
+> このNew-CsCdrConfigurationおよびSet-CsCdrConfigurationには、Skype for Business Server コントロール パネルで使用できない追加のオプションが含まれます。 詳細については [、「New-CsCdrConfiguration」](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) および [「Set-CsCdrConfiguration」](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) のヘルプ トピックを参照してください。
   
-### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用して CDR 構成Skype for Business Server作成するには
+### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して CDR 構成設定を作成するには
 
-1. [コントロール Skype for Business Server] で、[監視 **とアーカイブ] をクリックします**。
+1. [Skype for Business Server コントロール パネル] で、[監視 **とアーカイブ] をクリックします**。
     
 2. [通話の詳細 **記録] タブで** 、[新規] を **クリックします**。
     
@@ -50,17 +50,17 @@ CDR 構成設定は、コントロール パネルまたは[New-CsCdrConfigurati
     
 4. [**新しい通話詳細記録 (CDR) 設定を作成する**] ダイアログで、任意に選択を行ってから [**コミット**] をクリックします。
     
-### <a name="to-modify-existing-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>コントロール パネルを使用して既存の CDR 構成Skype for Business Server変更するには
+### <a name="to-modify-existing-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルを使用して既存の CDR 構成設定を変更するには
 
-1. [コントロール Skype for Business Server] で、[監視 **とアーカイブ] をクリックします**。
+1. [Skype for Business Server コントロール パネル] で、[監視 **とアーカイブ] をクリックします**。
     
-2. 変更する設定のコレクションをダブルクリックするか、コレクションを選択して [**編集**] をクリックし、さらに [**詳細の表示**] をクリックします。 一度に変更できるのは 1 つのコレクションだけであることに注意してください。 複数のコレクションに同じ変更を加える場合は、代わりに管理Skype for Business Serverを使用します。
+2. 変更する設定のコレクションをダブルクリックするか、コレクションを選択して [**編集**] をクリックし、さらに [**詳細の表示**] をクリックします。 一度に変更できるのは 1 つのコレクションだけであることに注意してください。 複数のコレクションに同じ変更を加える場合は、代わりに Skype for Business Server 管理シェルを使用します。
     
 3. [**編集 通話詳細記録 (CDR) 設定**] ダイアログで、任意の選択を行ってから [**コミット**] をクリックします。
     
 ## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した CDR 構成Windows PowerShell作成する
 
-CDR 構成設定を作成するには、このコマンドレットと **New-CsCdrConfiguration** コマンドレットWindows PowerShellを使用して作成することもできます。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+CDR 構成設定を作成するには、このコマンドレットと **New-CsCdrConfiguration** コマンドレットWindows PowerShellを使用して作成することもできます。 このコマンドレットは、Skype for Business Server 管理シェルから、またはサーバーのリモート セッションから実行Windows PowerShell。 Skype for Business Server への接続にリモート Windows PowerShellを使用する方法の詳細については [、「Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、Skype for Business Server でも同じです。
   
 ### <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>新しい CDR 構成設定のコレクションを作成するには
 

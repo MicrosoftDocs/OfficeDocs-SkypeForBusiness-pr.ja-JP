@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: '概要: 監視対象の Skype for Business Server 2015 コンピューターに Operations Manager エージェント ファイルをインストールし、コンピューターを System Center プロキシとしてSystem Centerします。'
-ms.openlocfilehash: dbca58ff7e8cc837ce5323d24bc127a9d3ee20ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: efe7c7bd9ce2862cd423e0b36a5de21d03e32db0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606126"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015311"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>監視するSkype for Business Serverコンピューターを構成する
 
@@ -32,7 +32,7 @@ ms.locfileid: "58606126"
 
 System Center境界ネットワーク (Skype for Business Server エッジ サーバーなど) で実行されている Operations Manager エージェント(外部代理トランザクション 監視ノードなど)、または Active Directory 信頼境界を越えて実行する場合は、System Center Operations Manager Gateway Server の構成が必要な場合があります。 このサーバーの役割を使用すると、ルート管理サーバーとの信頼関係を持つエージェントがアラートを発生できます。 詳細については [、「Operations Manager 2012 での](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))ゲートウェイ サーバーの管理」を参照してください。
 
-これらの場所の 1 つでエージェントを展開する場合は、監視ノードが System Center Operations Manager に通知を送信できる証明書を要求および構成する必要があります。 このプロセスを簡単にするため、Operations Manager チームは、正しい種類の証明書を要求して監視ノード コンピューターにインストールできる一連のユーティリティを作成しました。 これらのユーティリティの詳細とダウンロードについては、「証明書生成ウィザードを使用して簡単に行う非ドメイン参加エージェントの証明書の取得」 [を参照してください](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)。
+これらの場所の 1 つでエージェントを展開する場合は、監視ノードが System Center Operations Manager に通知を送信できる証明書を要求および構成する必要があります。 このプロセスを簡単にするため、Operations Manager チームは、正しい種類の証明書を要求して監視ノード コンピューターにインストールできる一連のユーティリティを作成しました。 これらのユーティリティの詳細とダウンロードについては、「証明書生成ウィザードを使用して簡単に行う非ドメイン参加エージェントの証明書の取得」 [を参照してください](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)。
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Operation Manager エージェント ファイルのインストール
 

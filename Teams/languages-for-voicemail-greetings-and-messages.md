@@ -1,5 +1,5 @@
 ---
-title: Teams応答メッセージの言語を設定する
+title: Teams応答メッセージの言語を選択する
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -21,20 +21,21 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 既定のシステム メッセージとボイスメール応答メッセージSkype for Businessで設定できる言語について学習します。
-ms.openlocfilehash: 78c3bd30da636bb9a38d413275e2d5b1ae59f0c5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8393e8a50913548a8e6ec64bcf26154e0af5b148
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590801"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011941"
 ---
-# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams応答メッセージの言語を設定する
+# <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams応答メッセージの言語を選択する
 
 Teamsは、ボイスメール応答メッセージに対して次の言語をサポートしています。
   
-||||||
+
+
+|言語  |国/地域 |ユーザーはメールで確認するために利用できますか? |ユーザーが通話で入るときに利用できますか? |トランスクリプションはありますか?  |
 |:-------------|:------------------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
-|**言語**  |**国/地域** |**ユーザーはメールで確認するために利用できますか?** |**ユーザーが通話で入るときに利用できますか?** |**トランスクリプションはありますか?**  |
 |アラビア語        |エジプト              |はい                                          |はい                                   |いいえ  |
 |アラビア語        |サウジアラビア       |はい。ただし、アラビア語 (エジプト) が使用されます。             |いいえ                                    |いいえ  |
 |ブルガリア語     |ブルガリア           |はい                                          |はい                                   |いいえ  |

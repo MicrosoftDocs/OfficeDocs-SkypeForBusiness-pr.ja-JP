@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: '概要: CDR 構成設定を削除する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 0552997d5a682c222198adc45e4a67a913f24f1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bcc7330a2f09568159259e3a73cd0fd61a8dc6e4
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608184"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015101"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>サーバー内の CDR 構成設定の既存のコレクションを削除Skype for Business Server
  
@@ -43,7 +43,7 @@ CDR 構成設定を削除するには、Skype for Business Serverまたは[Remov
     
 ## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した CDR 構成設定Windows PowerShellする
 
-通話詳細記録構成設定を削除するには、Windows PowerShell **Remove-CsCdrConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+通話詳細記録構成設定を削除するには、Windows PowerShell **Remove-CsCdrConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>指定された CDR 構成設定のコレクションを削除するには
 

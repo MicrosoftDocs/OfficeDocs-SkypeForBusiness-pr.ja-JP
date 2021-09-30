@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 引き続きMicrosoft Teams使用しながら、組織に提供できるすべてのTeamsパイロットを開始するためのガイダンスSkype for Business
+description: ユーザーが引き続きMicrosoft Teamsしながら、組織に提供できるすべてのTeamsパイロットを開始するためのガイダンスSkype for Business
 ms.localizationpriority: medium
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 521e5eb81d2688c924e3f2c76a25c86f6645b02d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 22ee8e22f7954814aa98b43d1eac250ac38b17cd
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733296"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014611"
 ---
 # <a name="conduct-a-user-pilot"></a>ユーザー パイロットを実施する
 
@@ -42,9 +42,9 @@ ms.locfileid: "58733296"
 
 最も現実的な結果を得るため、パイロットには、実際のユーザーを含め、コミュニケーションと共同作業の方法を再現し、技術的およびユーザーの両方のエクスペリエンスを確認する必要があります。 組織が Skype for Business と Teams を同時に実行すること、今後 Teams にアップグレードすること、通話や会議などの新機能を展開することを検討している場合、パイロットは組織の適切な経路を特定するのに役立ちます。 ロールアウトのフェーズ 1 と見なされる場合があります。理想的なパイロットは、既に開始した準備を活用し、対象となるユーザー グループで定義されたプランを実装します。
 
-| | |
+|&nbsp; | &nbsp;|
 |---|---|
-| ![決定ポイントを示すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>パイロットを使用してプロジェクトの方向性をどう説明しますか?</li></ul> |
+| ![判断ポイントを表すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>パイロットを使用してプロジェクトの方向性をどう説明しますか?</li></ul> |
 | ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>以下のガイドラインを使用して、正式なパイロットを設計し、実行します。</li></ul>|
 
 > [!Tip]

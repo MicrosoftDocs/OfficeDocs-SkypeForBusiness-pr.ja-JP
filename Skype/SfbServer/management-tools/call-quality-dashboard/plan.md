@@ -1,5 +1,5 @@
 ---
-title: 通話品質ダッシュボードの計画を立Skype for Business Server
+title: 'Skype for Business Server: 通話品質ダッシュボードの計画'
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: 通話品質ダッシュボードを計画する際に考慮すべき点について学習します。'
-ms.openlocfilehash: d50b8eba500a6197eb12bad98de0ef72c054f26b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6e77e3e6dc4441c7089df9ef6cc0d08c9f3ad270
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728856"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011551"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードの計画を立Skype for Business Server 
+# <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>Skype for Business Server: 通話品質ダッシュボードの計画 
  
 **概要:** 通話品質ダッシュボードを計画する際に考慮すべき点について学習します。
   
@@ -85,7 +85,7 @@ CQD データは、CQD ポータルを介して表示し、REST API 呼び出し
 
 ポータルは、キューブ内のデータを最も速く表示する方法です。 ポータルには、すぐ使えるいくつかの組み込みレポートが付属しています。 組み込みのレポートは構造化された方法でリンクされ、ユーザーは呼び出しデータのスライスを順次小さく、小さくします。 組み込みのレポートでは、ピボット、フィルター、メジャーが異なるグラフとテーブルの組み合わせを示して、さまざまな方法でデータを表示できます。 ポータルにアクセスする各ユーザーは、自分が変更および共有できる一連のレポートを所有できます。 CQD Web ポータルの使用方法の詳細については、「Use Call Quality Dashboard for Skype for Business Server」[を参照してください](use.md)。
   
-CQD ポータルでサポートされるオペレーティング システム: Windows 8.1、Windows 8、Windows Server 2012 R2、Windows Server 2012、および Windows Server 2016 (Skype for Business Server 2019 CQD のみ)。
+CQD ポータルでサポートされるオペレーティング システム: Windows 8.1、Windows 8、Windows Server 2012 R2、Windows Server 2012、および Windows Server 2016 (Skype for Business Server 2019CQD のみ)。
   
 CQD ポータルでサポートされているブラウザー: Internet Explorer 11、Internet Explorer 10、およびInternet Explorer 9。
   
@@ -118,12 +118,12 @@ CQD は、QoE データアーカイブと通話品質データの迅速かつ深
 CQD には複数のコンポーネントが付属し、各コンポーネントの要件と、ツールの最も簡単で最もパフォーマンスの高い展開を得るために、各コンポーネントの関係を理解するのに役立ちます。 次の表に、各 CQD コンポーネントの依存コンポーネントについて説明します。
   
 
-|**コンポーネント名**|**依存コンポーネント**|
+|コンポーネント名|依存コンポーネント|
 |:-----|:-----|
-|QoE アーカイブ  <br/> |Microsoft SQL Server  <br/> |
-|キューブ  <br/> |Microsoft SQL ServerAnalysis Services  <br/> |
-|ポータル  <br/> |Microsoft Information Services  <br/> |
-|リポジトリ サービス (ポータルのインストールの一部)  <br/> |Microsoft SQL Server  <br/> |
+|QoE アーカイブ   |Microsoft SQL Server   |
+|キューブ   |Microsoft SQL ServerAnalysis Services   |
+|portal   |Microsoft Information Services   |
+|リポジトリ サービス (ポータルのインストールの一部)   |Microsoft SQL Server   |
    
 > [!NOTE]
 > QoE アーカイブとキューブの場合、特定の展開オプションでは、ビジネス インテリジェンスまたはEnterpriseエディションが必要Microsoft SQL Server。 詳細については、 [以下の「CQD の](plan.md#Infrastructure_Req) インフラストラクチャ要件」セクションを参照してください。
@@ -161,17 +161,17 @@ CQD は、複数の QoEMetrics データベースのデータをマージしま�
 
 すべてのコンポーネントと依存コンポーネントを含む CQD は、仮想マシン、1 台のコンピューター、または複数のコンピューターに展開できます。 ソフトウェアとハードウェアの最小要件を以下に示します。 データの可用性とクエリのパフォーマンスは、アクティブな Skype for Business Server ユーザーの数とハードウェアと構成に応じて分単位から時間単位で異なる場合があります。パフォーマンスの測定値を以下に示します。
   
-|||
-|:-----|:-----|
-|CQD 2015 の場合 <br/> |  <br/> |
-|サポートされているオペレーティング システム   <br/> |WindowsServer 2008 R2、Windows Server 2012、Windows Server 2012 R2  <br/> |
-|サポートされているSQL Server  <br/> |SQL Server 2012、SQL Server 2014、SQL Server 2016  <br/> |
 
-|||
+|CQD 2015 の場合 |&nbsp;  |
 |:-----|:-----|
-|CQD 2019 の場合 <br/> |  <br/> |
-|サポートされているオペレーティング システム   <br/> |Windows Server 2016、Windows Server 2019  <br/> |
-|サポートされているSQL Server  <br/> |SQL Server 2017、SQL Server 2019  <br/> |
+|サポートされているオペレーティング システム    |WindowsServer 2008 R2、Windows Server 2012、Windows Server 2012 R2   |
+|サポートされているSQL Server   |SQL Server 2012、SQL Server 2014、SQL Server 2016   |
+
+
+|CQD 2019 の場合  |&nbsp;  |
+|:-----|:-----|
+|サポートされているオペレーティング システム    |Windows Server 2016、Windows Server 2019   |
+|サポートされているSQL Server   |SQL Server 2017、SQL Server 2019   |
    
 CQD は Microsoft SQL Server、Microsoft SQL Server Analysis Services、および Microsoft インターネット インフォメーション サービス を利用します。そのため、CQD の最小ハードウェア要件とソフトウェア要件は基本的に、これらの依存コンポーネントと同じです。 ただし、データの鮮度に関する組織の要件 (組織が生成する QoE データの量に部分的に依存します) と展開コストに基づいて、追加の展開に関する考慮事項を行う必要があります。
   
@@ -193,27 +193,27 @@ CQD でのデータ処理は、次の 2 つの主要なステージに分かっ�
   
 **コンピューター プロファイル**
 
-|**マシン**|**CPU コア**|**RAM**|**同じディスク上の QoE アーカイブとキューブ**|**QoE アーカイブと SQL一時 DB を同じディスクに保存する**|
+|マシン|CPU コア|RAM|同じディスク上の QoE アーカイブとキューブ|QoE アーカイブと SQL一時 DB を同じディスクに保存する|
 |:-----|:-----|:-----|:-----|:-----|
-|仮想マシン  <br/> |4   <br/> |7 GB  <br/> |はい  <br/> |はい  <br/> |
-|4 コア  <br/> |4   <br/> |20 GB  <br/> |はい  <br/> |いいえ  <br/> |
-|8 コア  <br/> |8   <br/> |32 GB  <br/> |はい  <br/> |いいえ  <br/> |
-|16 コア  <br/> |16   <br/> |128 GB  <br/> |いいえ  <br/> |いいえ  <br/> |
+|仮想マシン   |4    |7 GB   |はい   |はい   |
+|4 コア   |4    |20 GB   |はい   |いいえ   |
+|8 コア   |8    |32 GB   |はい   |いいえ   |
+|16 コア   |16   |128 GB   |いいえ   |いいえ   |
    
 **パフォーマンスの結果**
 
-|**マシン**|**QoE メトリックの DB サイズ**|**SQLパーティション**|**ディスクの種類**|**ストリームの数**|**初期アーカイブ プロセス**|**初期キューブ プロセス**|**後続のアーカイブ プロセス**|**後続の Cube プロセス**|
+|マシン|QoE メトリックの DB サイズ|SQLパーティション|ディスクの種類|ストリームの数|初期アーカイブ プロセス|初期キューブ プロセス|後続のアーカイブ プロセス|後続の Cube プロセス|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|仮想マシン  <br/> |900 MB  <br/> |シングル  <br/> |VHD (可変サイズ)  <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
-|仮想マシン  <br/> |9 GB  <br/> |シングル  <br/> |VHD (可変サイズ)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|仮想マシン  <br/> |9 GB  <br/> |シングル  <br/> |VHD (固定サイズ)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|仮想マシン  <br/> |30 GB 以上  <br/> |シングル  <br/> |VHD (固定サイズ)  <br/> |10 M  <br/> |15 時間  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8 コア  <br/> |9 GB  <br/> |シングル  <br/> |複数のディスク  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
-|8 コア  <br/> |9 GB  <br/> |複数  <br/> |複数のディスク  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8 コア  <br/> |30 GB 以上  <br/> |シングル  <br/> |複数のディスク  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
-|8 コア  <br/> |30 GB 以上  <br/> |複数  <br/> |複数のディスク  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4 コア  <br/> |200 GB  <br/> |シングル  <br/> |複数のディスク  <br/> |125 M  <br/> |6 日以上  <br/> |7 h  <br/> |2 m  <br/> |6 時間  <br/> |
-|16 コア  <br/> |500 GB  <br/> |複数  <br/> |複数のスピンドル  <br/> |250 M  <br/> |8 日間  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
+|仮想マシン   |900 MB   |1 行   |VHD (可変サイズ)   |.5 M   |30 m   |2 m   |30 s   |1 m   |
+|仮想マシン   |9 GB   |1 行   |VHD (可変サイズ)   |5 M   |4 h   |15 m   |1 m   |5 m   |
+|仮想マシン   |9 GB   |1 行   |VHD (固定サイズ)   |5 M   |2 h   |5 m   |1 m   |5 m   |
+|仮想マシン   |30 GB 以上   |1 行   |VHD (固定サイズ)   |10 M   |15 時間   |20 m   |2 m   |45 m   |
+|8 コア   |9 GB   |1 行   |複数のディスク   |5 M   |2 h   |5 m   |25 s   |5 m   |
+|8 コア   |9 GB   |複数   |複数のディスク   |5 M   |2 h   |15 m   |35 s   |2 m   |
+|8 コア   |30 GB 以上   |1 行   |複数のディスク   |20 M   |9 h   |20 m   |1 m   |20 m   |
+|8 コア   |30 GB 以上   |複数   |複数のディスク   |20 M   |9 h   |30 m   |2 m   |2 m   |
+|4 コア   |200 GB   |1 行   |複数のディスク   |125 M   |6 日以上   |7 h   |2 m   |6 時間   |
+|16 コア   |500 GB   |複数   |複数のスピンドル   |250 M   |8 日間   |2 h   |2 m   |10 m   |
    
 \*QoE Metrics データベースはそれぞれ 9 か月と 18 か月のデータを持つ必要がありますが、完全性を高めて提供されますので、これらは実際の展開では発生する必要はありません。
   
@@ -295,11 +295,9 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 ```
 
 次のバージョンのSQL Serverサポートされています。
-  
-|||
-|:-----|:-----|
-| CQD 2015 <br/> |  SQL Server 2012、SQL Server 2014、SQL Server 2016  |
-|CQD 2019 <br/> |  SQL Server 2017、SQL Server 2019  |
+
+- CQD 2015: SQL Server 2012、SQL Server 2014、SQL Server 2016
+- CQD 2019: SQL Server 2017、SQL Server 2019 
     
 パフォーマンス上の理由Enterpriseビジネス インテリジェンスまたはサービス エディションをお勧めします。 これらのエディションでは、複数のパーティション ファイルを同時に処理でき、複数の月以上にわたるデータを処理する場合に役立ちます。 
   

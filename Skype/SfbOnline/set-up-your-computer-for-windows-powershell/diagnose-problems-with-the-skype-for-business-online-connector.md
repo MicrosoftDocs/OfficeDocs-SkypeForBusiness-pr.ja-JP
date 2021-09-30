@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Troubleshoot creating a remote PowerShell session to connect to Skype for Business Online, including Import-Module, concurrent shell, Live ID, and permission errors.
-ms.openlocfilehash: 9157c556eaa2952adf2b67a514eebfb1a9d3abff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b585a1d4e830fdd692c85f48fbc3d4ae7b65ab57
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617093"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013321"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Skype for Business Online Connector との接続の問題を診断する
 
@@ -51,20 +51,13 @@ ms.locfileid: "58617093"
 - [Skype for Business Online でのこのユーザーの同時シェルの最大数を超えました](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
 
 - [Skype for Business Online でこのテナントの同時実行シェルの最大数を超えました](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
-    
-
-> [!IMPORTANT]
-> 既定では、PowerShell セッションは 60 分後にタイムアウトします。 再接続するには、セッションを閉じて、新しい PowerShell セッションを起動する必要があります。 新しいバージョンの [Skype for Business Online Windows PowerShell Module (2046.123 - Published 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366)が最近起動されました。これには、60 分間のタイムアウトの問題を軽減する **Enable-CsOnlineSessionForReconnection** という新しいコマンドレットが含まれています。
-> PowerShell セッションは再接続して認証を行い、再接続するために新しいインスタンスを起動することなく再使用できます。
-
-
 
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Windows PowerShell 実行ポリシーによる Import-Module エラー
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
 PowerShell 実行ポリシーは、PowerShell コンソールに読み込む構成ファイルやそのコンソールからユーザーが実行できるスクリプトを決定するのに役立ちます。実行ポリシーを RemoteSigned に設定していない場合、Skype for Business Online Connector モジュール をインポートすることはできません。この設定を行っていない場合にモジュールをインポートしようとすると、次のエラー メッセージが表示されます。
   
-- **エラー**: <em>Import-Module : File C: \\ Program Files Common Files Microsoft Lync Server \\ \\ 2013 \\ Modules \\ LyncOnlineConnector \\ LyncOnlineConnectorStartup.psm1 は、このシステムで実行中のスクリプトが無効になっているため、読み込めないことです。詳細については、 を参照about_Execution_Policiesしてください https://go.microsoft.com/fwlink/?LinkID=135170 。</em>
+- **エラー**: <em>Import-Module : File C: \\ Program Files Common Files Microsoft Lync Server \\ \\ 2013 \\ Modules \\ LyncOnlineConnector \\ LyncOnlineConnectorStartup.psm1 は、このシステムで実行中のスクリプトが無効になっているため、読み込めないことです。詳細については、 のabout_Execution_Policiesを参照してください https://go.microsoft.com/fwlink/?LinkID=135170 。</em>
 
 - **解決策** この問題を解決するには、管理者として PowerShell を起動し、次のコマンドを実行します。
     ```PowerShell
@@ -77,22 +70,22 @@ PowerShell 実行ポリシーは、PowerShell コンソールに読み込む構�
 
 Skype for Business Online Connector モジュール は、Windows PowerShell 3.0 のバージョンでのみ実行できます。 以前のバージョンの PowerShell でモジュールをインポートしようとすると、インポート プロセスは失敗し、次のメッセージのようなエラー メッセージが表示されます。
   
-  - **エラー**: *Import-Module : 読み込まれた PowerShell のバージョンは '2.0' です。モジュール 'D: \\ Program Files Common Files Microsoft Lync Server \\ \\ 2013 \\ Modules \\ LyncOnlineConnectorLyncOnlineConnector.psd1' を実行するには、PowerShell の最小バージョン \\ '3.0' が必要です。PowerShell のインストールを確認して、もう一度やり直してください。*
+  - **エラー**: *Import-Module : 読み込まれた PowerShell のバージョンは '2.0' です。モジュール 'D: \\ Program Files Common Files Microsoft Lync Server \\ \\ 2013 \\ Modules \\ LyncOnlineConnector \\ LyncOnlineConnector.psd1' の実行には、PowerShell の最小バージョン '3.0' が必要です。PowerShell のインストールを確認して、もう一度やり直してください。*
 
 - **解決策**: この問題を解決する唯一の方法は、Microsoft ダウンロード センター () からWindows PowerShell 3.0 をインストールすることです [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) 。
   
 ## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>WinRM Basic 認証が無効になっていると、最新の認証が失敗する
 <a name="BKMKWinRMBasicAuth"> </a>
 
-最新バージョンの Skype for Business Online Connector モジュールでは最新の認証が使用されますが、基本認証を許可するように基になる Windows Remote Management (WinRM) クライアントを構成する必要があります。  最新の認証ではベアラー トークンが使用されます。通常は *Authorization: Bearer ヘッダーで渡* されます。 Windows PowerShell PowerShell がSkype for Businessされる場合、このヘッダーの操作は許可されません。  代わりに、Skype for Business PowerShell は *Authorization: Basic* ヘッダーを使用してベアラー トークンを渡します。
+最新バージョンの Skype for Business Online Connector モジュールでは最新の認証が使用されますが、基本認証を許可するように基になる Windows リモート管理 (WinRM) クライアントを構成する必要があります。  最新の認証ではベアラー トークンが使用されます。通常は *Authorization: Bearer ヘッダーで渡* されます。 Windows PowerShell PowerShell がSkype for Businessされる場合、このヘッダーの操作は許可されません。  代わりに、Skype for Business PowerShell は *Authorization: Basic* ヘッダーを使用してベアラー トークンを渡します。
 
-基本認証で WinRM[を有効Windows PowerShell](./download-and-install-windows-powershell-5-1.md)方法については、「ダウンロードしてインストールする」を参照してください。
+WinRM [for Basic 認証を有効Windows PowerShell](./download-and-install-windows-powershell-5-1.md)方法については、ダウンロードとインストールに関するページを参照してください。
 
 ## <a name="failed-to-connect-to-live-id-server"></a>Live ID Server への接続の失敗
 <a name="BKMKFailedConnect"> </a>
 
 > [!WARNING] 
-> For Business Online Connector のライブ ID 認証Skype非推奨です。 PowerShell モジュールTeams使用して、オンライン テナントを管理します。 ハイブリッド環境を管理する場合は、最新の累積的な更新プログラムにアップグレードするか、oAuth 認証を使用します。
+> For Business Online Connector のライブ ID 認証Skype非推奨です。 PowerShell モジュールTeamsを使用して、オンライン テナントを管理します。 ハイブリッド環境を管理する場合は、最新の累積的な更新プログラムにアップグレードするか、oAuth 認証を使用します。
 
 次のエラー メッセージにより接続が失敗する場合は、通常 3 つの原因が考えられます。
 
@@ -107,7 +100,7 @@ Skype for Business Online Connector モジュール は、Windows PowerShell 3.0
     Start-Service "msoidsvc"
     ```
 
-    サービスが実行している場合は、コンピュータと Microsoft Live ID 認証サーバーとの間でネットワーク接続の問題が発生している可能性があります。 この問題が発生しているかどうかを確認するには、Internet Explorer を開き、[https://login.microsoftonline.com/](https://login.microsoftonline.com/.) に移動します。 そこから、Microsoft 365またはOffice 365を試してください。 この操作が失敗する場合は、ネットワーク接続の問題が発生している可能性があります。
+    サービスが実行している場合は、コンピュータと Microsoft Live ID 認証サーバーとの間でネットワーク接続の問題が発生している可能性があります。 この問題が発生しているかどうかを確認するには、Internet Explorer を開き、[https://login.microsoftonline.com/](https://login.microsoftonline.com/.) に移動します。 そこからログインするか、Microsoft 365にOffice 365してみてください。 この操作が失敗する場合は、ネットワーク接続の問題が発生している可能性があります。
   
     稀なケースとして、Microsoft Live ID 認証サーバーの接続 URI が不正な値に設定されている場合があります。 サインイン アシスタントが実行中であり、ネットワーク接続の問題が発生していないことを既に確認している場合は、この問題が原因であることが考えられます。 この場合は、Microsoft サポートにお問い合わせください。
   
@@ -127,7 +120,7 @@ Skype for Business Online にリモート接続するには、有効な Skype fo
 
 - **エラー**: *Get-CsWebTicket: ユーザー 'kenmyer@litwareinc.com' のログオンに失敗しました。正しいユーザー名とパスワードを使用していることを確認して、新しい PSCredential オブジェクトを作成します。*
 
-- **解決策**: 有効なユーザー アカウントを使用し、正しいパスワードを持っている場合は、もう一度ログオンしてみてください。 失敗した場合は、同じ資格情報を使用して、 でサインインしてみてください [https://login.microsoftonline.com/](https://login.microsoftonline.com/) 。 サインインできない場合は、Microsoft サポートにお問い合わせください。 
+- **解決策**: 有効なユーザー アカウントを使用し、正しいパスワードを持っている場合は、もう一度ログオンしてみてください。 失敗した場合は、同じ資格情報を使用し、 でサインインしてみてください [https://login.microsoftonline.com/](https://login.microsoftonline.com/) 。 サインインできない場合は、Microsoft サポートにお問い合わせください。 
 
   
 ## <a name="the-user-does-not-have-permission-to-manage-this-tenant"></a>このテナントを管理する権限がユーザーにない
@@ -166,7 +159,7 @@ PowerShell を使用して Skype for Business Online を管理するには、テ
 
 - **解決策**: この問題を解決する唯一の方法は、前の接続の 1 つ以上を閉じる方法です。 Skype for Business Online セッションが終了したら、 **Remove-PSSession** コマンドレットを使用してそのセッションを切断することをお勧めします。 そうすることにより、この問題が発生することを防ぐことができます。  
  
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 [Skype for Business のオンライン管理用にコンピューターをセットアップするには、Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: この記事では、特定のトポロジで実行されているサービスを管理するSkype for Business Server説明します。
-ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be613203b9e15640ead1b136ebe1b89f4c4c50ea
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593641"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014181"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>サービスを管理Skype for Business Server
 
@@ -55,7 +55,7 @@ Skype for Business Server コントロール パネルを使用すると、Skype
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Powershell コマンドレットを使用したWindowsの表示
 
-また、サービスの状態を表示するには、Windows PowerShell **Get-CsWindowsService コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+また、サービスの状態を表示するには、Windows PowerShell **Get-CsWindowsService コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-view-service-status"></a>サービス状態を表示するには
 

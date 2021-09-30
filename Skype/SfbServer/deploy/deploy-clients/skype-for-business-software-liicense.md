@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: このトピックを参照して、ソフトウェア ボリューム ライセンスをSkype for Businessする方法について説明します。
-ms.openlocfilehash: 23ea556a8afd7160e20a1ddd0b4e1d044761d4d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dadb373bacd5af72c11d8e8945825acce7bc5b5e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583331"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011531"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>SkypeRoom System: Skype for Business ソフトウェア ライセンス
  
@@ -30,8 +30,6 @@ SkypeRoom System はインストール済みのSkype for Businessクライアン
 ボリューム KMSライセンス認証を配布する場合、Skype for Business Skypeルーム システムは自動的にクライアントをSkype for Businessします。 現在の場所にあるKMS確認するには、次の方法を使用します。
   
 コマンド プロンプトから、次のコマンドを実行します。  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
-  
-詳細については、「DNS 経由でホストを検出Office Windows KMS、承認されていないインスタンスを削除する方法[」を参照してください](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx)。 
   
 KMSを設定するには[、「KMS 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15))の Office ライセンス認証」と「KMS [2013](/DeployOffice/vlactivation/gvlks)の Active Directory ライセンス認証Office」を参照してください。
   

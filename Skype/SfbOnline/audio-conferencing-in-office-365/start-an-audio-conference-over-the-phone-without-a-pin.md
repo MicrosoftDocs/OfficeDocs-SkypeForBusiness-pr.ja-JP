@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '匿名の発信者による Skype for Business 管理センターからの会議への参加や PowerShell スクリプトの使用を有効または無効にする方法を説明します。 '
-ms.openlocfilehash: 5403d984d5e87b929db4d1ebc3c7eeba34f3744c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d420acff8d5822aa4badd8980481d67bd2eae35b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600862"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013371"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Skype for Business Online で PIN を使用せずに電話で電話会議を開始する
 
@@ -39,14 +39,14 @@ Skype for Business 会議の開催者が会議を開始しないので、会議�
   
 会議の開催者が会議にコールインする場合、既定では、会議を開始するために PIN が必要です。 誰でも会議にダイヤルインし、PIN で会議を開始するように求めららなく設定できます。 Skype for Business 管理センターを使用すると、この設定を 1 人のユーザーに対して有効または無効にすることができます。
   
-他のユーザーが会議アプリから会議を開始した場合、会議の開催者に PIN はSkype for Businessではありません。 PIN が必要であるのは、会議の開催者が電話で自分の会議に参加する場合のみです。 会議の PIN は、電話会議ライセンスが割り当て済みで電話会議が有効になると、音声ユーザーに送信されます。 「 [電話会議の設定が変](send-an-email-to-a-user-with-their-dial-in-information.md) わると自動的にユーザーに送信される電話会議情報とメールをユーザーに送信する」 [を参照してください](emails-sent-to-users-when-their-settings-change.md)。
+他のユーザーが会議アプリから会議を開始した場合、会議の開催者には PIN はSkype for Businessはありません。 PIN が必要であるのは、会議の開催者が電話で自分の会議に参加する場合のみです。 会議の PIN は、電話会議ライセンスが割り当て済みで電話会議が有効になると、音声ユーザーに送信されます。 「 [電話会議の設定が変](send-an-email-to-a-user-with-their-dial-in-information.md) わると自動的にユーザーに送信される電話会議情報とメールをユーザーに送信する」 [を参照してください](emails-sent-to-users-when-their-settings-change.md)。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>匿名の発信者の会議への参加を有効または無効にする
     
-1. 管理センター **Skype for Business左側** のナビゲーションで、[電話会議ユーザー]**に移動**  >  **します**。 
+1. [Skype for Business **管理センター] の** 左側のナビゲーションで、[電話会議ユーザー]**に移動**  >  **します**。 
     
 2. 一覧でユーザーを選択し、[操作] ウィンドウで [編集] を **クリックします**。 
     
@@ -84,9 +84,9 @@ Skype for Business 会議の開催者が会議を開始しないので、会議�
 
 - 時間を節約したり、複数のユーザーに対してこの動作を自動化したりするには、[Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) コマンドレットを使用できます。
     
-- Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShell の場合、Skype for Business Online はユーザーの管理と、ユーザーが許可されている操作や許可されていない操作の管理に使います。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [PowerShell で使用する必要があるMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell または PowerShell を使用Microsoft 365必要Office 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -99,8 +99,8 @@ Skype for Business 会議の開催者が会議を開始しないので、会議�
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
+    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。 このモジュールは、64 ビット コンピューターでのみサポートされています。このモジュールは、Microsoft ダウンロード センターの「PowerShell モジュール をダウンロードしてインストールする[」Teamsダウンロードできます](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
-[電話会議を試用または購入するには、Microsoft 365またはOffice 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[電話会議を試用または購入するには、Microsoft 365 または Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

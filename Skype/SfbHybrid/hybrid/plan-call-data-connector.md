@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: ハイブリッド シナリオでの Skype for Businessテレメトリ ツールを使用してオンプレミスの実装を監視する方法の概要。
-ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2584453ca120c3dce9b4b0ce432e244cd15ec53b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726486"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013331"
 ---
 # <a name="plan-call-data-connector"></a>通話データ コネクタの計画
 
@@ -50,7 +50,7 @@ Call Analytics および CQD ツールを使用すると、次のように、通
 
 - 品質ダッシュボードの呼び出しは、組織全体のネットワークパフォーマンスと問題に焦点を当て、 Skype for Business管理者およびネットワーク エンジニアは、このツールを使用してネットワークパフォーマンスのトラブルシューティングと最適化を行います。
 
-詳細については、「Call [Analytics and Call Quality Dashboard diagram](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)with Monitoring Server details」を参照してください。
+詳細については、「Microsoft Teams: 通話品質[の監視と向上」を参照してください](/monitor-call-quality-qos)。
 
 もちろん、一部の通話品質データをオンプレミスに保持する必要があります。 たとえば、カスタマイズされたレポートとワークフローでサード パーティ製のソリューションを使用している場合などです。  データ コネクタの呼び出しでは、次の図に示すように、データのコピーをオンプレミス サーバーに保持しながら、オンライン サービスへのデータの送信を構成できます。
 
@@ -62,7 +62,7 @@ Call Analytics および CQD ツールを使用すると、次のように、通
 
 - ハイブリッド接続を有効にする。 既に展開済Skype for Business Serverデータ コネクタの呼び出しを有効にする場合は、オンプレミス環境とオンライン環境の間にハイブリッド接続がセットアップされている必要があります。 これは、分割ドメイン構成と呼ばれる場合があります。
 
-   詳細については、「Skype for Business Server と Microsoft 365 または Office 365 のハイブリッド接続を計画する」および[「Skype for Business Server](plan-hybrid-connectivity.md)と Microsoft 365 または Office 365 のハイブリッド接続を構成する」[を参照してください](configure-hybrid-connectivity.md)。
+   詳細については[、「Skype for Business Server](plan-hybrid-connectivity.md)と Microsoft 365 または Office 365 間のハイブリッド接続を計画する」および「Skype for Business Server と Microsoft 365 間のハイブリッド接続の構成」[を参照してください。Office 365](configure-hybrid-connectivity.md).
 
 - 組織の組織Microsoft 365またはOffice 365認証し、次の役割が有効になっているか確認します。
 

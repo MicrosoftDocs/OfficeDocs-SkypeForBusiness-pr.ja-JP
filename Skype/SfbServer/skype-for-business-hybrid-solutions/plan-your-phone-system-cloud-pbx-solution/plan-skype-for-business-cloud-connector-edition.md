@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: クラウド PBX Skype for Business クラウド コネクタ エディションオンプレミス PSTN 接続を実装するパッケージ化された仮想マシン (VM) のセットである 電話システムについて説明します。
-ms.openlocfilehash: bff341213e9426f72fc0a78a9076b5b784871106
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f27fdd41978cd686a7019876dedbfe63a29af9e9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728806"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014151"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>計画を立Skype for Business クラウド コネクタ エディション
 
@@ -61,7 +61,7 @@ ms.locfileid: "58728806"
 
 - クラウド コネクタは、完全なオンプレミスの展開をSkype for Business Serverではありません。
 
-    現在、クラウド コネクタは Lync またはオンプレミス サーバー Skype for Business共存できません。 既存の Lync または Skype for Business ユーザーを Microsoft 365 に移動し、ユーザーにオンプレミステレフォニーを提供し続ける場合は、電話システム と既存の Skype for Business Server 展開を使用したオンプレミス接続を検討してください。 詳細については、「Plan [your 電話システム (Cloud PBX)](/microsoftteams/cloud-voice-landing-page.md)ソリューション」および「オンプレミス[PSTN](plan-phone-system-with-on-premises-pstn-connectivity.md)接続電話システムを計画する」を参照Skype for Business Server。
+    現在、クラウド コネクタは Lync またはオンプレミス サーバー Skype for Business共存できません。 既存の Lync または Skype for Business ユーザーを Microsoft 365 に移動し、ユーザーにオンプレミステレフォニーを提供し続ける場合は、電話システム と既存の Skype for Business Server 展開を使用したオンプレミス接続を検討してください。 詳細については、「Plan [your 電話システム (Cloud PBX)](/microsoftteams/cloud-voice-landing-page)ソリューション」および「オンプレミス[PSTN](plan-phone-system-with-on-premises-pstn-connectivity.md)接続電話システムを計画する」を参照Skype for Business Server。
 
 - 以前の Skype for Business または Lync Server 展開を行い、スキーマを拡張した場合は、環境からすべての Skype for Business または Lync Server コンポーネントを削除している限り、クラウド コネクタ展開のスキーマをクリーンアップする必要があります。
 
@@ -186,7 +186,7 @@ Cloud Connector Edition では、エッジ コンポーネント、仲介コン�
 
 ### <a name="multiple-cloud-connector-appliances-within-a-single-pstn-site"></a>1 つの PSTN サイト内の複数のクラウド コネクタ アプライアンス
 
- スケーラビリティと高可用性を目的として、次の図に示すように、1 つの PSTN サイト内に複数のクラウド コネクタ エディションを設定できます。 次の状況について検討しましょう。
+ スケーラビリティと高可用性を目的として、次の図に示すように、1 つの PSTN サイト内に複数のクラウド コネクタ エディションを設定できます。 以下の点を考慮してください。
 
 - 呼び出しは、1 つのプール内のクラウド コネクタ間でランダムな順序で分散されます。
 
@@ -432,7 +432,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - [証明書失効リスト URL](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) Office 365 [IP アドレス範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows更新プログラム:[ソフトウェア更新プログラムのファイアウォールを構成する方法](https://technet.microsoft.com/library/bb693717.aspx)
+- Windows更新:[追加の更新プログラムのWindowsを管理する](/windows/deployment/update/waas-wu-settings)
 
 - Skype for Businessオンライン管理者 PowerShell: \* .online.lync.com
 
@@ -486,7 +486,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 |SiteName  <br/> |Skype for Businessサイト名。たとえば、Seattle。  <br/> ファイルの.ini: "SiteName"  <br/> リリース 1.4.1 以降の場合、サイト名はサイトごとに異なる必要があります。名前は、Microsoft 365 または Office 365 で定義されている PSTN サイトと一致する必要があります。 サイトに最初のアプライアンスを登録すると、PSTN サイトが自動的に作成されます。  <br/> ||
 |HardwareType  <br/> リリース 1.4.1 以降  <br/> |ハードウェアの種類。 既定値は標準です。 また、Minimum に設定できます。  <br/> ||
 |Country Code  <br/> |ダイヤルの国コード。  <br/> ファイル内の.ini: "CountryCode"  <br/> ||
-|市区町村  <br/> |City (省略可能)。  <br/> ファイルの.ini: "City"  <br/> ||
+|都市  <br/> |City (省略可能)。  <br/> ファイルの.ini: "City"  <br/> ||
 |状態  <br/> |状態 (省略可能)。  <br/> ファイルの.ini: "State"  <br/> ||
 |基本 VM IP アドレス  <br/> |すべてのクラウド コネクタ仮想マシンの VHDX の作成に使用される一時的な基本 VM の IP アドレス。 この IP は、次の手順で定義されている境界企業ネットワーク サブネットと同じであり、インターネット アクセスが必要です。 企業の既定のゲートウェイと、インターネットにルーティング可能な DNS を必ず定義してください。  <br/> ファイルの.ini: "BaseVMIP"  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> リリース 1.4.1 以降  <br/> |Microsoft Update から更新Windows Server Update Servicesホストするイントラネット サーバーである、WSUS のアドレスです。  <br/> WSUS が必要ない場合は、空白のままにできます。  <br/> ||

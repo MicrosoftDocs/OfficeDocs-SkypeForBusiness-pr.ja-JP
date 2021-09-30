@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: '概要: 新しいトポロジを作成、発行、および確認してから、新しいトポロジをインストールするSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d50a2d2e89435bed7ae60c471c76fcca9f766567
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725996"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013361"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>新しいトポロジを作成し、Skype for Business Server
  
@@ -52,7 +52,7 @@ ms.locfileid: "58725996"
     > [!NOTE]
     > トポロジ構成は、トポロジ ビルダー XML (.tbxml) ファイルとして保存されます。 トポロジを公開すると、構成情報をファイルからデータベースにプッシュSQL Serverされます。 将来トポロジ ビルダーを開く場合は、SQL Server からトポロジ ビルダーに直接既存の構成をダウンロードし、SQL Server に発行し直すか、トポロジ ビルダー構成ファイルとして保存できます。 
   
-5. [プライマリ **ドメインの定義] 画面で**、プライマリ SIP ドメイン **を** 入力し、[次へ] を **クリックします**。 この例では、図に示すように **contoso.local** を使用しています。
+5. [プライマリ **ドメインの定義] 画面で**、プライマリ SIP ドメイン **を** 入力し、[次へ] を **クリックします**。 この例では、図に `contoso.local` 示すように 、を使用しています。
     
      ![プライマリ SIP ドメインを定義します。](../../media/353e6b38-485f-4042-8585-aefa6c74b554.png)
   
@@ -142,17 +142,17 @@ ms.locfileid: "58725996"
   
 10. [Web サービスの URL の指定] ページで、内部 Web サービス プールベース URL を上書きする必要がある場合に決定する必要があります。 このオーバーライドの理由は、負荷分散と関連しています。 基本的な SIP トラフィックは、単純な DNS 負荷分散によって負荷分散できます。 ただし、HTTP/S Web Services ネットワーク トラフィックでは、サポートされているハードウェアまたはソフトウェア負荷分散ソリューションを使用する必要があります。 サポートされているロード バランサーについては[、「Infrastructure for Skype for Business」 を参照してください](../../../SfbPartnerCertification/certification/infra-gateways.md)。 この例では、SIP トラフィックの DNS 負荷分散とサポートされているソフトウェア負荷分散ソリューションを使用しました。 この方法でトラフィックを分割していますので、内部 Web サービス プールの FQDN を上書きする必要があります。 または、トップ ライン ロード バランサーを使用し、SIP トラフィックに DNS 負荷分散を使用する代わりにすべてのトラフィックを送信した場合は、Web サービスの URL を上書きする必要が生じしません。 
     
-    このトピックの DNS セクションでは、webint.contoso.local の A レコードを作成しました。 これは、Web サービス HTTP/S トラフィックに使用している URL であり、セットアップしたサポートされているソフトウェア ロード バランサーを通過する必要があります。 したがって、この例では、図に示すように、url をオーバーライドして、Skype for Business Server がすべての HTTP/S トラフィックが pool.contoso.local ではなく webint.contoso.local に移動する必要があります。 負荷分散の詳細については、「負荷分散の要件」を参照[Skype for Business。](../../plan-your-deployment/network-requirements/load-balancing.md)
+    このトピックの DNS セクションで、A レコードを作成しました `webint.contoso.local` 。 これは、Web サービス HTTP/S トラフィックに使用している URL であり、セットアップしたサポートされているソフトウェア ロード バランサーを通過する必要があります。 したがって、この例では、URL をオーバーライドして、Skype for Business Serverのように、すべての HTTP/S トラフィックが代わりに移動する必要があります `webint.contoso.local` `pool.contoso.local` 。 負荷分散の詳細については、「負荷分散の要件」を参照[Skype for Business。](../../plan-your-deployment/network-requirements/load-balancing.md)
     
     > [!IMPORTANT]
-    > ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web サービスの完全な URL がである場合、基本 URL は https://webint.contoso.local webint.contoso.local です。 
+    > ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web サービスの完全な URL がである場合、ベース URL は `https://webint.contoso.local` `webint.contoso.local` . 
   
     - この例のように DNS 負荷分散を構成する場合は、[内部 Web サービス プール **の FQDN** を上書きする] チェック ボックスをオンにして、内部ベース URL (プール FQDN とは異なる必要があります) を [内部ベース **URL]** に入力します。 
     
     > [!CAUTION]
     > 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。 **URL または完全修飾ドメイン** 名を定義する場合は、標準文字 (A-Z、a-z、0-9、ハイフンを含む) のみを使用します。 Unicode 文字およびアンダースコアは使用しないでください。 URL または FQDN の標準以外の文字は、多くの場合、外部 DNS およびパブリック証明機関 (CA) ではサポートされません (つまり、証明書のサブジェクト名またはサブジェクトの代替名に URL または FQDN を割り当てる必要がある場合)。
   
-    - 必要に応じて、[外部ベース URL] に外部ベース **URL を入力します**。 外部ベース URL を入力して、内部ドメイン名と区別します。 たとえば、内部ドメインは contoso.local ですが、外部ドメイン名は contoso.com。 パブリック DNS から解決できる必要 contoso.com ドメイン名を使用して URL を定義します。 これは、リバース プロキシの場合にも重要です。 外部ベース URL ドメイン名は、リバース プロキシの FQDN のドメイン名と同じです。 モバイル クライアントでのインスタント メッセージングとプレゼンスには、フロントエンド プールへの HTTP アクセスが必要です。
+    - 必要に応じて、[外部ベース URL] に外部ベース **URL を入力します**。 外部ベース URL を入力して、内部ドメイン名と区別します。 たとえば、内部ドメインは 、 `contoso.local` ですが、外部ドメイン名は `contoso.com` . パブリック DNS から解決できる必要があるドメイン名を使用して `contoso.com` URL を定義します。 これは、リバース プロキシの場合にも重要です。 外部ベース URL ドメイン名は、リバース プロキシの FQDN のドメイン名と同じです。 モバイル クライアントでのインスタント メッセージングとプレゼンスには、フロントエンド プールへの HTTP アクセスが必要です。
     
       ![Web サービスを上書きします。](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
@@ -174,7 +174,7 @@ ms.locfileid: "58725996"
   
 2. [簡易 **URL]** ウィンドウで、[電話 **アクセス URL:** (ダイヤルイン) または会議 **URL:** (Meet) を選択して編集し、[URL の編集]**をクリックします**。
     
-3. URL を目的の値に更新し、[**OK**] をクリックして編集した URL を保存します。 外部ユーザーが内部ドメインである contoso.local とは対照的に、外部ユーザーが会議 (外部である contoso.com など) に参加できるよう、外部 SIP ドメインを使用して単純な URL を構成する必要があります。 したがって、SIP ドメインは外部 DNS によって解決できる必要があります。
+3. URL を目的の値に更新し、[**OK**] をクリックして編集した URL を保存します。 外部ユーザーが内部ドメインではなく外部の会議に参加できるよう、外部 SIP ドメインを使用して単純な URL を `contoso.com` `contoso.local` 構成する必要があります。 したがって、SIP ドメインは外部 DNS によって解決できる必要があります。
     
 4. 必要に応じて、同じ手順を使用して Meet URL を編集します。
     
@@ -185,10 +185,10 @@ ms.locfileid: "58725996"
 2. [管理アクセス **URL]** ボックスに、コントロール パネルへの管理アクセスに使用する単純な URL Skype for Business Server入力し **、[OK] をクリックします**。
     
     > [!TIP]
-    > 管理 URL にできるだけ簡易 URL を使用することをお勧めします。 最も簡単なオプションは https://admin . _\<domain\>_ 管理者 URL には、内部 DNS でいずれかのレコードが解決可能な限り、内部ドメインまたは外部ドメイン (contoso.local または contoso.com など) を指定できます。 
+    > 管理 URL にできるだけ簡易 URL を使用することをお勧めします。 最も簡単なオプションは https://admin . _\<domain\>_ 管理者 URL には、内部 DNS でいずれかのレコードが解決可能な限り、内部ドメインまたは外部ドメインを `contoso.local` `contoso.com` 指定できます。 
   
     > [!IMPORTANT]
-    > 最初の展開後に簡易 URL を変更する場合、簡易 URL のドメイン ネーム システム (DNS) レコードと証明書に影響する変更について注意する必要があります。 変更が単純な URL のベースに影響を与える場合は、DNS レコードと証明書も変更する必要があります。 たとえば、ベース URL を sfb.contoso.com から meet.contoso.com に変更する場合は、DNS レコードと証明書を変更して meet.contoso.com https://sfb.contoso.com/Meet https://meet.contoso.com を参照する必要があります。 単純な URL をからに変更した場合、sfb.contoso.com のベース URL は同じままなので、DNS や証明書の変更は https://sfb.contoso.com/Meet https://sfb.contoso.com/Meetings 不要です。 ただし、単純な URL 名を変更する場合は常に、各ディレクター サーバーとフロントエンド サーバーで **Enable-CsComputer** コマンドレットを実行して変更を登録する必要があります。
+    > 最初の展開後に簡易 URL を変更する場合、簡易 URL のドメイン ネーム システム (DNS) レコードと証明書に影響する変更について注意する必要があります。 変更が単純な URL のベースに影響を与える場合は、DNS レコードと証明書も変更する必要があります。 たとえば、ベース URL を `https://sfb.contoso.com/Meet` `https://meet.contoso.com` sfb から変更します。`contoso.com` を `meet.contoso.com` 参照するには、DNS レコードと証明書を変更する必要があります `meet.contoso.com` 。 単純な URL をからに変更した場合、ベース URL は同じままなので、DNS や証明書の変更 `https://sfb.contoso.com/Meet` `https://sfb.contoso.com/Meetings` `sfb.contoso.com` は不要です。 ただし、単純な URL 名を変更する場合は常に、各ディレクター サーバーとフロントエンド サーバーで **Enable-CsComputer** コマンドレットを実行して変更を登録する必要があります。
   
 ### <a name="publish-and-verify-the-topology"></a>トポロジの公開と確認
 

@@ -11,7 +11,7 @@
 | 9/20/2021 | [ポリシーの割り当てを管理センターのアクティビティ ログMicrosoft Teams表示する](/MicrosoftTeams/activity-log) | 更新日時 |
 | 9/20/2021 | [Teams における承認アプリケーションの利用の可否](/MicrosoftTeams/approval-admin) | 更新日時 |
 | 9/20/2021 | [Microsoft Teams でユーザーにライセンスを割り当てる](/MicrosoftTeams/assign-policies) | 更新日時 |
-| 9/20/2021 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 9/20/2021 | [ダイレクト ルーティングが認定されたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 9/20/2021 | [Microsoft Teams for Education安全な学習のためのポリシーを簡単に適用するポリシー ウィザード](/MicrosoftTeams/easy-policy-setup-edu) | 更新日時 |
 | 9/20/2021 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 更新日時 |
 | 9/20/2021 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
@@ -34,7 +34,7 @@
 | 9/23/2021 | [通話プランのサービス電話番号を取得する](/MicrosoftTeams/getting-service-phone-numbers) | 更新日時 |
 | 9/23/2021 | [新Teams管理センターへの移行Teams管理する](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 更新日時 |
 | 9/23/2021 | [ユーザーの電話番号を検索する](/MicrosoftTeams/search-for-phone-numbers-for-users) | 更新日時 |
-| 9/23/2021 | [データの感度ラベルMicrosoft Teams](/MicrosoftTeams/sensitivity-labels) | 更新日時 |
+| 9/23/2021 | [Microsoft Teams の感度ラベル](/MicrosoftTeams/sensitivity-labels) | 更新日時 |
 | 9/24/2021 | [Microsoft TeamsPowerShell リリース ノート](/MicrosoftTeams/teams-powershell-release-notes) | 更新日時 |
 
 
@@ -43,11 +43,11 @@
 
 | 公開日 |トピックのタイトル | 変更 |
 |------|------------|--------|
-| 9/13/2021 | [会議をTeamsする場合のポリシーベースの記録の&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 9/13/2021 | [会議をTeamsするポリシーベースの記録の概要&説明](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
 | 9/13/2021 | [Microsoft Teams の Education Insights への IT 管理者ガイド](/MicrosoftTeams/class-insights) | 更新日時 |
-| 9/13/2021 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 9/13/2021 | [ダイレクト ルーティングが認定されたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 9/13/2021 | [管理センターでアプリMicrosoft Teamsする](/MicrosoftTeams/manage-apps) | 更新日時 |
-| 9/14/2021 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 9/14/2021 | [ダイレクト ルーティングが認定されたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 9/14/2021 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
 | 9/15/2021 | [モバイル ブラウザーで仮想アクセスTeamsの参加エクスペリエンスを管理する](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | 更新日時 |
 | 9/16/2021 | [国/地域の可用性 - 電話会議、通話プラン](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 更新日時 |
@@ -94,9 +94,9 @@
 | 9/9/2021 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
 | 9/9/2021 | [Microsoft Teams のプライバシー](/MicrosoftTeams/teams-privacy) | 更新日時 |
 | 9/9/2021 | [Microsoft Teams と Bookings アプリを使用した仮想訪問](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 追加済 |
-| 9/9/2021 | [呼び出しキューを作成Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 9/9/2021 | [次のページで通話キューを作成Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
 | 9/9/2021 | [医療組織向Teamsの使用を開始する](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 更新日時 |
 | 9/10/2021 | [保留音](/MicrosoftTeams/music-on-hold) | 追加済 |
 | 9/10/2021 | [会議室用に ServiceNow をTeamsする](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 更新日時 |
 | 9/10/2021 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
-| 9/10/2021 | [チャネル ポリシーを管理する Microsoft Teams](/MicrosoftTeams/teams-policies) | 更新日時 |
+| 9/10/2021 | [チャネル ポリシーを管理Microsoft Teams](/MicrosoftTeams/teams-policies) | 更新日時 |

@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: '概要: プライマリ管理サーバーを構成し、2015 System Center Operations Manager をインストールし、管理パックをインポートSkype for Business Serverします。'
-ms.openlocfilehash: 926236d673a6988d36699ce0c307441b4aef3357
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20159d77c34ebaa4a8ed022a5d0f1467deeb89e0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635261"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012121"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>プライマリ管理サーバーを構成する方法
 
@@ -44,13 +44,10 @@ Operations Manager にSystem Center、次を含む、その製品のすべての
 - データ ウェアハウス
 
 > [!IMPORTANT]
-> Operations Manager 2012 をインストールする前に、"Microsoft Report Viewer[2010](https://www.microsoft.com/download/details.aspx?id=6442)再頒布可能パッケージ" をインストールSystem Center必要があります。
+> Operations Manager 2012 をインストールする前に、Microsoft Report Viewer 2010 再頒布可能パッケージをSystem Centerする必要があります。
 
-これらの製品とそのインストールの詳細については、次のリンクを参照してください。
+これらの製品とそのインストールの詳細については[、「System Center Operations Manager 2012」を参照してください。](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
-- [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
-
-- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
 
 ルート管理サーバーは、展開ごとに 1 つのみSkype for Business Serverしてください。
 

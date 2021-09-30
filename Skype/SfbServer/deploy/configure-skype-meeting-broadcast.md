@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: '概要: ハイブリッド展開用に会議ブロードキャストを構成するためにSkypeする必要がある手順Skype for Business Server説明します。'
-ms.openlocfilehash: 92e09820d5c2634041ac91a84e97c90dec243a93
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596031"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013711"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>会議ブロードキャスト用にオンプレミス展開Skype構成する
  
@@ -48,12 +48,10 @@ Skype会議ブロードキャストは、会議の一部であるオンライン
     
 3. 次の設定で新しいプロバイダーを構成します。
     
-|||
-|:-----|:-----|
-|**このプロバイダーとの通信を有効にする:** <br/> |選択済み  <br/> |
-|**プロバイダー名:** <br/> |LyncOnlineResources  <br/> |
-|**Access Edge Service (FQDN):** <br/> |sipfed.resources.lync.com  <br/> |
-|**既定の検証レベル:** <br/> |ユーザーがこのプロバイダーを使用してすべてのユーザーと通信できます。  <br/> |
+   - **このプロバイダーとの通信を有効にする:** [選択]
+   - **プロバイダー名:** LyncOnlineResources
+   - **Access Edge Service (FQDN): sipfed.resources.lync.com**
+   - **既定の検証レベル:** ユーザーがこのプロバイダーを使用してすべてのユーザーと通信できます。 
    
 また、管理シェルで次Skype for Businessコマンドレットを実行して、オンライン リソースとのフェデレーションSkype for Business Serverできます。
   

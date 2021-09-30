@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9273f8519fd7aeea90ff35f49ca0d6986afa2d59
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 19c6676bb742deacf97afae54f29b369d551b9ae
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991106"
+ms.locfileid: "60007767"
 ---
 # <a name="use-financial-team-templates"></a>財務チーム テンプレートを使用する
 
@@ -72,4 +72,4 @@ Teams には、金融サービス組織向けに設計されたテンプレー�
 ||||
 
 > [!NOTE]
-> 金融サービス組織に適用されるその他のテンプレートについては、「[Microsoft Graph で作成した中小企業向けチーム テンプレート](smb-templates.md)」を参照してください。
+> 金融サービス組織に適用されるその他のチーム テンプレートについては、「[Microsoft Graph で作成した中小企業向けチーム テンプレート](smb-templates.md)」を参照してください。

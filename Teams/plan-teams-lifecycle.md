@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456377"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012821"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams でのライフサイクル管理の計画
 
@@ -109,7 +109,7 @@ Teams を自分の組織にロール アウトするまえに、組織で必要�
 -   [クラウド ボイスを展開する](cloud-voice-landing-page.md)
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![判断ポイントを表すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの目的は何ですか?</li><li>チームには誰が所属していますか?</li><li>チームはプライベートですか、パブリックですか?</li><li>新しいメンバーが自分自身を追加したり、チーム所有者がそれらの新しいメンバーを追加することはできますか?</li><li>チャネルの作成や、タブ、ボット、コネクタの追加を行うためのアクセス許可があるユーザーは誰ですか?</li></ul> |
 | ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>チームを作成する。</li><li>チャネルのための計画をする。</li></ul>|
@@ -123,7 +123,7 @@ Teams を自分の組織にロール アウトするまえに、組織で必要�
 
 チーム内のチャネルの名前を変更しても、SharePoint ドキュメント ライブラリ内の対応するフォルダーの名前が変更されないため、作成する前にチャネル名を考慮してください。エンドユーザーが混乱する可能性があります。 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![判断ポイントを表すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームに追加される初期チャネルは何ですか?</li><li>新規チャネルを追加するときに、ガイダンスがある場合、どのようなものが提供されますか? (プロジェクト別、トピック別などでセットアップされますか?)</li></ul> |
 | ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>初期チャネルを作成する。</li><li>ようこそメッセージを投稿する。</li><li>コラボレーションを開始する。</li></ul>|
@@ -144,7 +144,7 @@ Teams において、主要なグループの通信が始まり維持される�
 - チャネル会議やドキュメントに関連するタブの会話などの、さまざまなチャネルのコラボレーションを試してみます。
 - Microsoft Teams モバイルアプリを使用して、契約を増やします。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![判断ポイントを表すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>問題を特定するために使用状況を監視する人は誰ですか?</li><li>チームが正常であるかどうかを判断するために使用される指標は何ですか?</li><li>有用な寿命に到達したチームを識別します。</li><li>目的に適っているが、活力を投入する必要がある、正常でないチームを特定します。</li></ul> |
 | ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>個別のチームの正常性を監視するためのプロセスを実施します。</li></ul>|
@@ -161,7 +161,7 @@ Teams において、主要なグループの通信が始まり維持される�
 
 有効期限ポリシーおよび保持ポリシーの設定方法の詳細については、「[Microsoft Teams のセキュリティとコンプライアンスの概要](security-compliance-overview.md)」をご覧ください。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![判断ポイントを表すアイコン。](media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>チームの寿命の終わりがどのようなものであるかを定義します。</li><li>チームのコンテンツを利用可能な状態で維持するかどうか、およびその期間を決めます。</li></ul> |
 | ![次の手順を示すアイコン。](media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>学習したベスト プラクティスとレッスンの内容を文書にまとめます。</li><li>必要に応じて、データをアーカイブ化します。</li></ul>|

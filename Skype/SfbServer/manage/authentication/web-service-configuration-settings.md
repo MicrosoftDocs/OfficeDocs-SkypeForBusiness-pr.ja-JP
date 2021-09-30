@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: '概要: Web サービス構成設定を管理する (Skype for Business Server)。'
-ms.openlocfilehash: f007a93eb71fc015f71ddef51011008315de82e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875993a006cf175432984dc78fc37a34b45e92ee
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633611"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015171"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Web サービスの構成設定を管理 Skype for Business Serverする
  
@@ -102,7 +102,7 @@ Web サービス構成設定を削除するには、次の手順を実行しま�
     
 ## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Web サービス構成の削除 設定コマンドレットをWindows PowerShellする
 
-Web サービス構成設定を削除するには、Windows PowerShell **Remove-CsWebServiceConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート Windows PowerShell を使用して Skype for Business Server に接続する方法の詳細については、ブログ記事「クイック スタート: リモート PowerShell を使用した[Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)の管理」を参照してください。 このプロセスは、同じSkype for Business Server。
+Web サービス構成設定を削除するには、Windows PowerShell **Remove-CsWebServiceConfiguration コマンドレットを使用** します。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Web サービス構成設定の特定のコレクションを削除するには
 

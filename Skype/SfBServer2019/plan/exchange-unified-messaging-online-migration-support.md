@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft は、2020 年 2 月 28 日Exchangeユニファイド メッセージング オンライン (ExchUMO) サービスを廃止します。 この記事では、影響を受けるお客様がビジネス継続性を計画するために知り、何を行う必要があるのかを要約します。
-ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6d24b05b8f1c6b8d2b47533edbd9ad79c5022e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606826"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013291"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange ユニファイド メッセージングの移行サポート
 
@@ -113,10 +113,15 @@ Microsoft 365 および Office 365 組織の管理者は、Microsoft Cloud 自�
 直前の問題を回避し、Cloud 自動応答 サービスの機能とエクスペリエンスを理解するために、新しい自動応答のセットアップを早期に開始してください。 1 つ以上のギャップ機能を必要とする自動応答の場合は、展開の準備にギャップ機能が利用可能な場合に自動応答を作成してテストできます。 ギャップ機能の詳細については、「付録」を [参照してください](#appendix)。
 
 1. [Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant)を使用Exchange UMO コマンドレットを使用して既存の自動応答の構成をエクスポートします。  
+
 2. PowerShell[の Export-UMprompt](/powershell/module/exchange/unified-messaging/export-umprompt)コマンドレットをExchange Online、案内応答メディア ファイルをエクスポートし (使用する場合)、そのファイルを別の形式.mp3します。
-3. 「クラウド自動応答を[](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)計画する」および「クラウド[](/microsoftteams/create-a-phone-system-auto-attendant)自動応答を設定する」の手順に従って、管理者センターまたは Powershell を使用して自動応答Microsoft Teams作成します。
+
+3. 「クラウド自動応答を[](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)計画する」および「クラウド[](/microsoftteams/create-a-phone-system-auto-attendant)自動応答を設定する」の手順に従って、管理者センターまたは PowerShell を使用して自動応答Microsoft Teams作成します。
+
 4. メニュー オプションが変更された場合は、案内応答を確認します。
+
 5. この記事の「既知の問題」の「自動応答 PSTN への通話転送」回避策を使用[](#known-issues)して、応答グループへの転送を構成します。  
+
 6. 新しい自動応答を内部的に呼び出すか、テスト電話番号を割り当て、テストします。  
 
 ### <a name="cutover"></a>一括
@@ -129,7 +134,7 @@ Microsoft 365 および Office 365 組織の管理者は、Microsoft Cloud 自�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO および Azure クラウドベースのサービス機能マトリックス
 
-| サービス | 機能レベル | 特徴 | Notes  | クラウド VM/AA  | ExUMO |
+| サービス | 機能レベル | 機能 | メモ  | クラウド VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | サービス機能| サードパーティ PBX のサポート    | UM Online からの SIP 通知メッセージを使用した MWI (メッセージ待機インジケーター) などのサード パーティ製 PBX に提供Exchange含む | ×   | Y    |
 | VM | サービス機能  | サポート Skype for Business Server   |  | Y | Y    |
@@ -155,7 +160,7 @@ Microsoft 365 および Office 365 組織の管理者は、Microsoft Cloud 自�
 | VM | ユーザー機能 | ボイスメールの転送  | 受信したボイスメールを他のユーザーに転送する | Y | Y    |
 | VM | ユーザー機能 | ユーザーのグループに音声メッセージを送信する  |ボイスメールブロードキャスト   | × | Y   |
 | VM | ユーザー機能 | SMS を使用したボイスメール通知    | ユーザーが新しいボイスメールを持っているときに SMS を受信できる    | × | Y    |
-| VM | ユーザー機能 | サポートされている案内応答言語 | 詳細はこちら: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| VM | ユーザー機能 | サポートされている案内応答言語 | 詳細はこちら: [クラウド自動応答とは](/microsoftteams/what-are-phone-system-auto-attendants) | Y | Y    |
 | VM | ユーザー機能 | 通話応答ルール |  | Y | Y    |
 | VM | ユーザー機能 | 電話で再生する (PSTN)- メッセージを再生する | 自分のセルに電話して音声メッセージを聞く  | × | Y    |
 | VM | ユーザー機能 | 電話で再生する (Auth)- メッセージを再生する | 認証済みデバイスで電話する  | × | Y    |
@@ -182,7 +187,7 @@ Microsoft 365 および Office 365 組織の管理者は、Microsoft Cloud 自�
 | AA | サービス機能 | サポート Microsoft Teams|  | Y | N    |
 | AA | サービス機能 | 名前によるダイヤル、DTMF 入力    |  | Y | Y    |
 | AA | サービス機能 | 名前によるダイヤル、音声入力  |  | Y | Y    |
-| AA | サービス機能 | 多言語サポート | ここでの言語の詳細: https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| AA | サービス機能 | 多言語サポート | ここでの言語の詳細: [クラウド自動応答とは](/microsoftteams/what-are-phone-system-auto-attendants) | Y | Y    |
 | AA | サービス機能 | 演算子、CQ、またはユーザーへの転送 |  | Y | Y    |
 | AA | サービス機能 | PSTN 番号への内部転送 (DID RNL)  |  | Y | Y    |
 | AA | サービス機能 | PSTN 番号への外部転送  |  | 以下の「既知の問題」セクションを参照してください。 | Y    |

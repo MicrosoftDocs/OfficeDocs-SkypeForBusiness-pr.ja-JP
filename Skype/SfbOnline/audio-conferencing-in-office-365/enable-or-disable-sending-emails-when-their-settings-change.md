@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Online で電話会議の設定が変更された場合のメールの送信を有効または無効にする
+title: Skype for Business Online で電話会議の設定が変更された場合にメールの送信を有効または無効にする
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,15 +20,15 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'PIN の変更や既定の会議Skypeなどの設定が変更された場合に、ユーザーにメールを送信する機能を有効または無効にする方法について説明します。 '
-ms.openlocfilehash: 2f322f9cfc9ba7daa60d030c043bdfda4d511d2c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'ピン留め変更や既定のSkypeなどの設定が変更された場合に、ユーザーにメールを送信する機能を有効または無効にする方法について説明します。 '
+ms.openlocfilehash: 9deb04e418d00171375aec34ca873a89c8a31cdf
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728026"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011731"
 ---
-# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online で電話会議の設定が変更された場合のメールの送信を有効または無効にする
+# <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Skype for Business Online で電話会議の設定が変更された場合にメールの送信を有効または無効にする
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -62,12 +62,12 @@ ms.locfileid: "58728026"
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>メールがユーザーに送信されるのを有効または無効にする
 
-管理者センターまたは Skype for Businessを使用してWindows PowerShellに送信されたメールを有効または無効にできます。
+管理者センターまたは管理Skype for Businessを使用してWindows PowerShellに送信されたメールを有効または無効にできます。
 
  
 ![ロゴのアイコンSkype for Business表示されます。](../images/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
     
-1. 管理センター **Skype for Business左側の** ナビゲーションで、[電話会議]**をクリックします**。
+1. [Skype for Business **センター] の左側** のナビゲーションで、[電話会議]**をクリックします**。
     
 2. 電話会議の設定を使用してユーザーにメールを送信することもできます。これには、ユーザーの電話会議プロパティに移動して、[ **電話会議情報をメールで送信**] をクリックします。
     
@@ -107,13 +107,13 @@ ms.locfileid: "58728026"
     
   - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+- Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
-  - [PowerShell を使用するMicrosoft 365またはOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [PowerShell または PowerShell を使用Microsoft 365必要Office 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell多くのユーザーに対して一度に設定を変更する場合など、Microsoft 365 管理センター を使用する場合に限り、速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
+- Windows PowerShell多くのユーザーに対して一度に設定変更を行う場合など、Microsoft 365 管理センター の使用に対する速度、シンプルさ、生産性に多くの利点があります。 次のトピックで、これらの利点を説明します。 
     
   - [Windows PowerShell と Skype for Business Online の概要](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -122,7 +122,7 @@ ms.locfileid: "58728026"
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
+    > Skype for Business Online 用 Windows PowerShell モジュールでは、リモート Windows PowerShell セッションを作成して Skype for Business Online に接続できます。 このモジュールは、64 ビット コンピューターでのみサポートされています。このモジュールは、Microsoft ダウンロード センターの[「Teams PowerShell](https://go.microsoft.com/fwlink/?LinkId=294688)モジュール (.../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)。
   
 ## <a name="related-topics"></a>関連項目
 

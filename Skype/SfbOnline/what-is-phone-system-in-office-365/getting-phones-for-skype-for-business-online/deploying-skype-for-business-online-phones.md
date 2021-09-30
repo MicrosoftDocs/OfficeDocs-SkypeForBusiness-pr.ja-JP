@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 正しいファームウェアを取得し、必要に応じて更新し、ライセンスを割り当て、オンライン電話の設定を構成するための展開Skype for Business説明します
-ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9724677a3217b73b727a72343f35ebe51a4de09
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728016"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011901"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Skype for Business Online 電話機の展開レポート
 
@@ -97,9 +97,9 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>ステップ 6 - ユーザーのサインインの準備
 
-ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。 最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。 詳細については、「Skype for Business および Microsoft Teams[ライセンス](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)の割り当て」と「Skype for Business割りMicrosoft Teams[できます](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+ユーザーが正常に Skype for Business Online 電話機にサインインし、通話できるようにするには、ユーザーに正しいライセンスが割り当てられていることを確認する必要があります。 最低でも、電話システムのライセンスと通話プランを割り当てる必要があります。 詳細については、「アドオン ライセンスのSkype for Businessと[Microsoft Teams」](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)と「ライセンスの割りSkype for Business[割りMicrosoft Teams参照してください](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
   
-通話プランの詳細については、「通話プランと通話プラン電話システム[参照してください。](/microsoftteams/calling-plan-landing-page)
+通話プランの詳細については、「通話プラン」と「通話プラン[電話システム参照してください。](/microsoftteams/calling-plan-landing-page)
   
 - Online ユーザーが利用できる **サインイン オプション** は次のとおりです。
     
@@ -120,7 +120,7 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
     > [!NOTE]
     > PIN 認証は、LPE およびパートナーの IP 電話機向けの Skype for Business Online ではサポートされていません。 
   
-- **PC の使用** ユーザーの PC に Better Together over Ethernet (BToE) ソフトウェアがインストールされ、有効化されている場合、ユーザーは Windows Skype for Business アプリの認証ウィンドウを使用して電話機にログインできます。 その [他の情報については、「手順 7 (省略可能) -](deploying-skype-for-business-online-phones.md#BK_BTOE) デバイスのペアリングとイーサネット経由の Better Together (BToE) の場合」を参照してください。
+- **PC の使用** ユーザーの PC に Better Together over Ethernet (BToE) ソフトウェアがインストールされ、有効化されている場合、ユーザーは Windows Skype for Business アプリの認証ウィンドウを使用して電話機にログインできます。 その[他の情報については、「Skype Operations Framework (SOF)](https://techcommunity.microsoft.com/t5/skype-for-business-blog/what-is-skype-operations-framework-sof-and-skype-academy/ba-p/30506)と Skype Academy とは」を参照してください。
     
   > [!NOTE]
   > ユーザーは、電話機にサインインするために組織のユーザー名およびパスワードを使用する必要があります。たとえば、ユーザー名として  <em>amosm@contoso.com</em>  のような UPN 形式を使用します。
@@ -171,17 +171,19 @@ Skype for Business インバンド管理の Windows PowerShell コマンドレ�
     > Skype for Business Online 向けの LPE 電話機は USB テザリングを介したサインインのみをサポートします。 
   
 - **サポートされる展開** 次の表は、Exchange 統合、多要素認証 (MFA) による先進認証、Skype for Business Online およびオンプレミスといった現在サポートされている展開モデルの対応認証方法を示しています。
-    
-|||||||
+
+  
+ 
+ 
+|Skype for Business |Exchange |電話機のサインイン方法 |Skype For Business アクセス |先進認証と MFA を無効にした Exchange アクセス |先進認証と MFA を有効にした Exchange アクセス |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Skype for Business** <br/> |**交換** <br/> |**電話機のサインイン方法** <br/> |**Skype For Business アクセス** <br/> |**先進認証と MFA を無効にした Exchange アクセス** <br/> |**先進認証と MFA を有効にした Exchange アクセス** <br/> |
-|オンライン  <br/> |オンライン  <br/> |Web サイン イン  <br/> |あり  <br/> |はい  <br/> |あり  <br/> |
-|オンライン  <br/> |オンライン  <br/> |ユーザー名/パスワード  <br/> |あり  <br/> |はい  <br/> |なし  <br/> |
-|オンライン  <br/> |オンプレミス  <br/> |Web サイン イン  <br/> |あり  <br/> |いいえ  <br/> |なし  <br/> |
-|オンライン  <br/> |オンプレミス  <br/> |ユーザー名/パスワード  <br/> |あり  <br/> |はい  <br/> |なし  <br/> |
-|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PIN 認証  <br/> |あり  <br/> |いいえ  <br/> |なし  <br/> |
-|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |ユーザー名/パスワード  <br/> |あり  <br/> |はい  <br/> |該当なし  <br/> |
-|オンプレミス  <br/> |オンライン/オンプレミス  <br/> |PC 経由のサイン イン(BTOE)  <br/> |あり  <br/> |はい  <br/> |該当なし  <br/> |
+|オンライン   |オンライン   |Web サイン イン   |あり   |はい   |あり   |
+|オンライン   |オンライン   |ユーザー名/パスワード   |あり   |はい   |なし   |
+|オンライン   |オンプレミス   |Web サイン イン   |あり   |いいえ   |なし   |
+|オンライン   |オンプレミス   |ユーザー名/パスワード   |あり   |はい   |なし   |
+|オンプレミス   |オンライン/オンプレミス   |PIN 認証   |あり   |いいえ   |なし   |
+|オンプレミス   |オンライン/オンプレミス   |ユーザー名/パスワード   |あり   |はい   |該当なし   |
+|オンプレミス   |オンライン/オンプレミス   |PC 経由のサイン イン(BTOE)  |あり   |はい   |該当なし   |
    
 - **電話機の機能** 機能セットは IP 電話機パートナーによって多少異なる場合があります。 完全な機能セットと、各電話の製造元の機能の詳細については[、「Getting phones for Skype for Business Online 」を参照してください](getting-phones-for-skype-for-business-online.md)。
     
@@ -208,7 +210,7 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
     
      ![PC への接続を示すスクリーン ショット。](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。 ユーザー エクスペリエンスを向上するために、BToE ソフトウェアを配布およびインストールするには、管理配布ソリューション (例: Microsoft Endpoint Configuration Manager)。 Configuration Manager の使用に関するヘルプについては、「Configuration Manager の [パッケージとプログラム」を参照してください](/configmgr/apps/deploy-use/packages-and-programs)。
+2. 次に示すリンクを使ってメーカーの Web サイトから最新の BToE ソフトウェアをダウンロードし、インストールします。 ユーザー エクスペリエンスを向上するために、管理配布ソリューション (例: Microsoft Endpoint Configuration Manager) を使用して BToE ソフトウェアを配布およびインストールMicrosoft Endpoint Configuration Manager。 Configuration Manager の使用に関するヘルプについては、「Configuration Manager の [パッケージとプログラム」を参照してください](/configmgr/apps/deploy-use/packages-and-programs)。
     
    - [Polycom BToE ソフトウェア ダウンロード サイト](https://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -228,4 +230,3 @@ BToE の動作は [ *自動*  ] (既定) および [ *手動*  ] の 2 つのモ
 
 [国および地域ごとの電話会議および通話プランの利用可能性](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-  

@@ -13,26 +13,26 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9b8b3c057ae5748f135d9085a5a3caf8b26e7f72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5e9c92d977cc7ca5d61a4cf35fd00288e6151a5
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617223"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014821"
 ---
 # <a name="navigate-microsoft-teams"></a>ナビゲーションMicrosoft Teams
 
-組織固有のパスとニーズを明確に理解し、強力なコラボレーションを開始しましょう。 以下のセクションを使用して、Kaziala の機能を各セクション内でTeams。
+組織固有のパスとニーズを明確に理解し、強力なコラボレーションを開始しましょう。 以下のセクションを使用して、Kaziala の機能を各セクション内で強化する方法Teams。
 
 ## <a name="getting-started"></a>はじめに
 
-作業の開始ガイドでは、KaizalaからTeamsの移行をこれまでよりも簡単に開始できます。 新しい体験を開始する方法の詳細についてはMicrosoft Teamsの概要に関する[ページをTeams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
+作業の開始ガイドでは、KaizalaからTeamsの移行をこれまで以上に簡単に開始できます。 新しい体験の開始の詳細については、「Microsoft Teamsの概要[」をTeams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
 
 ## <a name="starting-new-chats-11-audio-and-video-calls"></a>新しいチャットの開始、1 対 1 の音声通話とビデオ通話
 
 1 対 1 またはグループ チャットを作成して、小規模なグループと共同作業したり、グループ内でプライベートTeams。 チャットをピン留めし、メッセージを保存してすばやくアクセスできます。 リッチ テキストの書式設定、絵文字、GIF を使ったチャットを開始するには[、「Chats in Teams](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)」を参照してください。
 
-組織内のすべてのユーザーと 1 対 1 またはグループ通話を開始して、効率的に通信できます。 このTeams、音声通話とビデオ通話の両方を柔軟に行える。  開始するには、「通話を行 [う」を参照してください](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)。
+組織内のすべてのユーザーと 1 対 1 またはグループ通話を開始して、効率的に通信できます。 このTeams、音声通話とビデオ通話の両方を柔軟に実行できます。  開始するには、「通話を行 [う」を参照してください](https://www.microsoft.com/videoplayer/embed/RE4rxv0?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)。
 
 ## <a name="getting-work-done"></a>作業の完了
 
@@ -40,15 +40,15 @@ ms.locfileid: "58617223"
 
 ### <a name="announcements"></a>お知らせ
 
-[お知らせ] を使用して、重要な更新プログラムや情報を従業員[とTeams。](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)
+[お知らせ] を使用して、重要な更新プログラムや情報を従業員[と共有Teams。](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)
 
-会社の Communicator アプリとのチャットを通して、複数のチームまたは多数の従業員を対象としたメッセージ [を作成して送信](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) します。 簡単なインターフェイスにより、指定されたユーザーは、対象を絞った方法でメッセージを作成、プレビュー、共同作業、送信できます。 管理の決定に直接関連する洞察を持つメッセージを受信または操作したユーザーの数に関するカスタム テレメトリなどのカスタムターゲット通信機能を構築します。
+会社の Communicator アプリとのチャットを通して、複数のチームまたは多数の従業員を対象としたメッセージ [を作成して送信](/microsoftteams/platform/samples/app-templates#company-communicator) します。 簡単なインターフェイスにより、指定されたユーザーは、対象を絞った方法でメッセージを作成、プレビュー、共同作業、送信できます。 管理の決定に直接関連する洞察を持つメッセージを受信または操作したユーザーの数に関するカスタム テレメトリなどのカスタムターゲット通信機能を構築します。
 
 ### <a name="check-ins"></a>チェックイン
 
-[Smart Camera Teamsを使用して、注釈付き画像をキャプチャしてチームと共有します。 正確に位置情報を簡単に共有して、チームを常に知ることができます。 機能が他の機能にマップされる方法を伝Kaizala情報が必要Teams。 スライド デッキの情報は、ドキュメントにできる限り多くの情報を含む必要があります。
+[スマート Teamsを使用して、注釈付き画像をキャプチャし、チームと共有します。 正確に位置情報を簡単に共有して、チームを常に知ることができます。 機能が他の機能にマップされる方法を伝Kaizala情報が必要Teams。 スライド デッキの情報は、ドキュメントにできる限り多くの情報を含む必要があります。
 
-[スタッフ チェックイン アプリ](/microsoftteams/platform/samples/app-templates#staff-check-ins)テンプレートを使用して、フロント ラインスタッフがスケジュールされた情報や状況の更新を、スケジュール済みまたは臨時に、Teams から直接簡単に提供できます。 このアプリは、リアルタイムの場所、写真、メモ、アラーム通知、自動ワークフローをサポートします。
+[スタッフ チェックイン アプリ](/microsoftteams/platform/samples/app-templates#staff-check-ins)テンプレートを使用すると、フロント ラインのスタッフがスケジュールされた情報や状況の更新を、スケジュール済みまたは臨時に、Teams から直接簡単に提供できます。 このアプリは、リアルタイムの場所、写真、メモ、アラーム通知、自動ワークフローをサポートします。
 
 ### <a name="training"></a>トレーニング
 
@@ -58,19 +58,19 @@ ms.locfileid: "58617223"
 
 ### <a name="it-professionals"></a>IT プロフェッショナル
 
-管理ポータルから管理ポータルKaizala管理センターにMicrosoft Teams切り替えします。 管理Teamsは、主に管理者ロールのみを使用します。
+管理ポータルから管理Kaizala管理センターにMicrosoft Teamsします。 管理Teamsは、主に管理者ロールのみを使用します。
 
 管理者は Teams 全体のワークロードを管理できる場合もあれば、通話品質の問題のトラブルシューティングや組織のテレフォニーのニーズを管理するために委任されたアクセス許可を持つ場合もあります。
 
 管理センターに移動するには、[管理[センター] Microsoft Teamsにアクセスします](https://admin.teams.microsoft.com/)。
 
-コンプライアンス センターと Security Center を使用して、Microsoft 365組織Microsoft 365[コンプライアンス](/microsoft-365/compliance/microsoft-365-compliance-center)[を監視できます](/microsoft-365/security/defender/overview-security-center)。
+コンプライアンス センターと Security Center を使用して、Microsoft 365組織Microsoft 365[コンプライアンス](/microsoft-365/compliance/microsoft-365-compliance-center)を[監視できます](/microsoft-365/security/defender/overview-security-center)。
 
 組織全体でグループ[、ID、ライセンス、](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)アクセスを確認できる Azure Active Directory 管理センターで、ビジネスを保護し、ユーザーを強化Microsoft 365。
 
 ### <a name="end-users"></a>エンド ユーザー
 
-ユーザーは、デスクトップアプリまたはモバイル アプリを使用してチームを作成できます。 ユーザーをチームに一括で追加する場合は、グループ、配布リストOffice 365セキュリティ グループOffice 365チームを作成します。
+ユーザーは、デスクトップまたはモバイル アプリを使用してチームを作成できます。 ユーザーをチームに一括で追加する場合は、グループ、配布リストOffice 365セキュリティ グループOffice 365チームを作成します。
 
 チームの検索バーを使用して、組織内のすべてのユーザーを検索します。 検索バーの結果を使用して、ファイル、メッセージ、投稿を表示することもできます。
 
@@ -78,11 +78,11 @@ ms.locfileid: "58617223"
 
 チーム内 [で拡張機能](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) を有効にするには、コネクタが必要なチャネルのメニュー (...) の [コネクタ] オプションを使用します。
 
-使用状況、アクティビティ、全体的な導入レポートを表示するために、チーム所有者はメニュー (...) から移動してチームのレポートにアクセスし、チームの分析>できます。
+使用状況、アクティビティ、および全体的な導入レポートを表示するために、チーム所有者はメニュー (...) から移動してチームのレポートにアクセスし、チーム分析を管理>できます。
 
 ## <a name="kaizala-group-dissolution"></a>Kaizalaグループの選択
 
-チャネルとチャットTeams移行する際に、組織がコミュニケーションの 1 つの中心的な場所Kaizalaグループへの参加を検討できます。  グループをKaizalaすると、[チャット] リストからグループが削除されます。 グループ内の唯一の管理者である場合は、削除する前に、グループ内の少なくとも 1 人のユーザーに管理者ロールを割り当てる必要があります。
+チャネルとチャットにTeams、組織がコミュニケーションの 1 つの中心的な場所をKaizalaグループへの集中を検討できます。  グループをKaizalaすると、[チャット] の一覧からグループが削除されます。 グループ内の唯一の管理者である場合は、削除する前に、グループ内の少なくとも 1 人のユーザーに管理者ロールを割り当てる必要があります。
 
 グループを削除するには:
 
@@ -92,7 +92,7 @@ ms.locfileid: "58617223"
 
 ## <a name="kaizala-tenant-data-export"></a>Kaizalaテナント データのエクスポート
 
-データをTeams、社内データの管理は引き続き管理Kaizala。 詳細については、「管理ポータルから [テナント データをエクスポートする」を参照してください](/office365/kaizala/export-or-delete-your-data)。
+この機能Teams、引き続き社内データの管理を管理Kaizala。 詳細については、「管理ポータルから [テナント データをエクスポートする」を参照してください](/office365/kaizala/export-or-delete-your-data)。
 
 ## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>外部ユーザーとの共同作業 (ベンダー/サプライヤー/パートナー)
 
@@ -100,7 +100,7 @@ ms.locfileid: "58617223"
 
 ## <a name="what-is-external-access-in-teams"></a>外部アクセスとは何Teams?
 
-既定では、外部アクセスは Teamsオンになっています。つまり、組織は、すべての外部ドメインと通信できます。 外部アクセスとは、ドメイン全体における Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスの詳細については、「外部アクセスの管理 [」を参照してください](/microsoftteams/manage-external-access)。
+既定では、外部アクセスは Teamsで有効になっています。つまり、組織は、すべての外部ドメインと通信できます。 外部アクセスとは、ドメイン全体における Teams ユーザーが Teams で会議の検索、呼び出し、チャット、設定を行うための手段です。 外部アクセスの詳細については、「外部アクセスの管理 [」を参照してください](/microsoftteams/manage-external-access)。
 
 ## <a name="what-is-guest-access-in-teams"></a>ゲスト アクセスとは何Teams?
 
@@ -110,7 +110,7 @@ ms.locfileid: "58617223"
 
 ゲストとは、従業員または組織のメンバーではないユーザーです。 組織の仕事用アカウントを持つユーザーはいます。 たとえば、ゲストにはパートナー、製造元、供給元、コンサルタントなどが含まれます。
 
-組織の一部ではないユーザーは、 でゲスト[として追加Teams。](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team) つまり、ビジネス アカウント (つまり、Azure Active Directory アカウント) またはコンシューマーメール アカウント (outlook.com、gmail.com など) を持つすべてのユーザーが、チームやチャネルエクスペリエンスにアクセスできる Teams のゲストとして参加できます。
+組織の一部ではないユーザーは、 でゲストとして[追加Teams。](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team) つまり、ビジネス アカウント (つまり、Azure Active Directory アカウント) またはコンシューマーメール アカウント (outlook.com、gmail.com など) を持つすべてのユーザーが、チームやチャネルエクスペリエンスにアクセスできる Teams のゲストとして参加できます。
 
 >[!NOTE]
 > ゲストがチームに参加するには、ゲスト アクセスを管理者が有効にする必要Teams。
