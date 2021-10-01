@@ -19,22 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 262194a13cb38a267d5030358a612a8475cd2427
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: a23149b26db4cacff46c31396824033622bb1224
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991136"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046173"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>管理センターで一般的なチーム テンプレートを使用する
 
-Microsoft Teamsチーム テンプレートを使用すると、設定、チャネル、および事前にインストールされたアプリの定義済みのチーム構造を提供することで、すばやく簡単にチームを作成できます。
+Microsoft Teams のチーム テンプレートでは、設定、チャネル、事前にインストールされたアプリの定義済みチーム構造を使用することで、チームをすばやく簡単に作成できます。
 
-チーム テンプレートを使用して、組織全体に一貫性のあるチームをデプロイします。 テンプレートは、ユーザーが効果的にテンプレートを使用する方法をTeams。 テンプレートを拡張して、特定の組織のニーズに合わせて調整されたチームを作成することもできます。
+チーム テンプレートを使用して、組織全体に一貫性のあるチームをデプロイします。 また、テンプレートは、ユーザーが効果的にテンプレートを使用する方法をTeams。 テンプレートを拡張して、特定の組織のニーズに合わせて調整されたチームを作成することもできます。
 
 Teams、特定のビジネス ニーズとプロジェクト用に作成した事前構築済みのテンプレートが含まれています。 この記事では、さまざまなシナリオで組織で使用できるテンプレートの一般的なカテゴリについて説明します。
 
-チーム テンプレート全般の詳細については、「管理センターでチーム テンプレートを使用する[」をTeamsしてください](get-started-with-teams-templates-in-the-admin-console.md)。
+一般的なチーム テンプレートの詳細については、「[Teams 管理センターでチーム テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)」をご参照ください。
 
 ## <a name="adopt-office-365"></a>導入Office 365
 
@@ -64,7 +64,7 @@ Teams、特定のビジネス ニーズとプロジェクト用に作成した�
 > [!div class="mx-tdBreakAll"]
 > | テンプレートの種類 | TemplateId| このテンプレートに含まれるプロパティ |
 > | ------------------ |--|-----------------------------------------------------------|
-> | イベントを管理する|`com.microsoft.teams.template.ManageAnEvent` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ:<ul><li>Wiki</li><li>Web サイト</li> <li>YouTube</li> <li>タスク</li> <li>OneNote</li> <li>従業員のアイデア</li> <li>問題レポーター</li><li>Power Automate</li><li>情報</li><li>マイルストーン</li></ul> |
+> | イベントを管理する|`com.microsoft.teams.template.ManageAnEvent` | チャネル <ul><li>全般</li> <li>お知らせ</li> <li>予算</li> <li>コンテンツ</li><li>物流</li> <li>計画</li> <li> マーケティングと PR</li></ul> アプリ:<ul><li>Wiki</li><li>Web サイト</li> <li>YouTube</li> <li>タスク</li> <li>OneNote</li> <li>従業員のアイデア</li> <li>問題の報告者</li><li>Power Automate</li><li>情報</li><li>マイルストーン</li></ul> |
 > ||||
 
 ## <a name="onboard-employees"></a>従業員のオンボード
@@ -84,7 +84,7 @@ Teams、特定のビジネス ニーズとプロジェクト用に作成した�
 > [!div class="mx-tdBreakAll"]
 > | テンプレートの種類 |TemplateId| このテンプレートに含まれるプロパティ |
 > | ------------------|--|------------------------------------------------------------|
-> |ヘルプ デスクを整理する| `com.microsoft.teams.template.OrganizeHelpDesk`|チャネル<ul><li>全般</li><li>お知らせ</li><li>よくあるご質問 (FAQ)</li></ul>アプリ:<ul><li>Wiki</li><li>OneNote</li><li>タスク </li><li>称賛</li><li>問題レポーター</li><li>Power Automate</li><li>情報</li></ul> |
+> |ヘルプ デスクを整理する| `com.microsoft.teams.template.OrganizeHelpDesk`|チャネル<ul><li>全般</li><li>お知らせ</li><li>よくあるご質問 (FAQ)</li></ul>アプリ:<ul><li>Wiki</li><li>OneNote</li><li>タスク </li><li>称賛</li><li>問題の報告者</li><li>Power Automate</li><li>情報</li></ul> |
 > ||||
 
 ## <a name="crisis-communication"></a>危機的なコミュニケーション
@@ -94,5 +94,10 @@ Teams、特定のビジネス ニーズとプロジェクト用に作成した�
 > [!div class="mx-tdBreakAll"]
 > | テンプレートの種類 |TemplateId| このテンプレートに含まれるプロパティ |
 > | ------------------ |--|----------------------------------------------------------|
-> | 危機的なコミュニケーション |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| チャネル <ul><li>全般<li>お知らせ</li><li>世界のニュース</li><li>内部 comms</li><li>外部通信</li><li>承認要求</li><li>顧客のエスカレーション</li><li>エグゼクティブの更新</li><li>計画</li><li>物流</li></ul>アプリ: <ul><li>Web サイト</li><li>タスク</li><li>問題レポーター</li><li>承認</li><li>情報</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
+> | 危機的なコミュニケーション |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| チャネル <ul><li>全般<li>お知らせ</li><li>世界のニュース</li><li>内部 comms</li><li>外部通信</li><li>承認要求</li><li>顧客のエスカレーション</li><li>エグゼクティブの更新</li><li>計画</li><li>物流</li></ul>アプリ: <ul><li>Web サイト</li><li>タスク</li><li>問題の報告者</li><li>承認</li><li>情報</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
 > ||||
+
+## <a name="related-articles"></a>関連記事
+
+- [Teams 管理センターで Teams テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
+- [テンプレートからチームを作成する](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)

@@ -1,7 +1,7 @@
 ---
 title: Android デバイスのリモート プロビジョニングTeamsサインイン
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prgholve
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Android デバイスのリモート プロビジョニングとサインインを行うTeams説明します
-ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984742"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046153"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android デバイスのリモート プロビジョニングTeamsサインイン
 
@@ -61,16 +61,16 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 新しいデバイスをプロビジョニングするには、次の手順を実行します。
 
 1. Teams 管理センターにサインインします。
-2. [デバイス **Teams展開します**。
+2. [デバイスTeams 展開 **します**。
 3. [アクション **] タブから [新しい** デバイスのプロビジョニング **] を** 選択します。
 
 [新 **しいデバイスのプロビジョニング]** ウィンドウで、MAC アドレスを手動で追加するか、ファイルをアップロードできます。
 
 ### <a name="manually-add-a-device-mac-address"></a>デバイスの MAC アドレスを手動で追加する
 
-1. [アクティブ化 **を待っている] タブで****、[MAC ID の追加] を選択します**。
+1. [アクティブ化 **待ち] タブで****、[MAC ID の追加] を選択します**。
 
-   ![デバイスの Mac アドレスを手動で追加します。](../media/remote-provision-6.png)
+   ![デバイスの Mac アドレスを手動で追加します。](../media/remote-provision-6-new.png)
 
 1. MAC ID を入力します。
 1. 場所を入力します。これは、技術者がデバイスをインストールする場所を特定するのに役立ちます。
@@ -78,16 +78,16 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 
 ### <a name="upload-a-file-to-add-a-device-mac-address"></a>アップロード MAC アドレスを追加するファイルを作成する
 
-1. [アクティブ **化を待っている]** タブで、[MAC **アップロード を選択します**。
+1. [アクティブ **化待ち]** タブで、[MAC **アップロード を選択します**。
 2. ファイル テンプレートをダウンロードします。
 3. MAC ID と場所を入力し、ファイルを保存します。
-4. **ファイル を選択** し、 を **選択アップロード。**
+4. **ファイル を選択** し、[ファイル]**をアップロード。**
 
 ## <a name="generate-a-verification-code"></a>確認コードを生成する
 
 デバイスの確認コードが必要です。 確認コードは、一括またはデバイス レベルで生成され、24 時間有効です。
 
-1. [アクティブ **化を待っている] タブ** で、既存の MAC ID を選択します。
+1. [アクティブ **化待ち] タブ** で、既存の MAC ID を選択します。
    MAC アドレスのパスワードが作成され、[確認コード] 列 **に表示** されます。
 
 2. MAC の一覧と確認コードを現場の技術者に提供します。 ファイル内の詳細を直接エクスポートし、実際のインストール作業を行っている技術者とファイルを共有できます。
@@ -96,7 +96,7 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 
 デバイスの電源が入り、ネットワークに接続されると、技術者がデバイスをプロビジョニングします。 これらの手順は、デバイス上でTeamsされます。
 
-1. 技術者は、 から **[デバイスのプロビジョニング]** を **設定。**  
+1. 技術者が[デバイスの **プロビジョニング] を****選択設定。**  
 
    ![[アクション] タブから新しいデバイス オプションをプロビジョニングします。](../media/provision-device1.png)
   
@@ -110,7 +110,7 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 
 ## <a name="sign-in-remotely"></a>リモートでサインインする
 
-プロビジョニングされたデバイスが [サインイン待ち] **タブに表示** されます。個々のデバイスを選択して、リモート サインイン プロセスを開始します。
+プロビジョニングされたデバイスが [サインインの待機中 **] タブに表示** されます。個々のデバイスを選択して、リモート サインイン プロセスを開始します。
 
 1. [サインイン待ち] **タブからデバイスを選択** します。
 

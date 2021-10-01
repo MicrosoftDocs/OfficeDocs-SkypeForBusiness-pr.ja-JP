@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'ロビー、受付エリア、会議室に共通領域電話を設定する方法について説明します '
-ms.openlocfilehash: ad38f753b109aefd0e7628efe3e61472e7149597
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e2d81c047f4bf26d43da4fd8f9fc31c0702c28d8
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733756"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045563"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Microsoft Teams での共通領域電話のライセンスをセットアップする
 > [!NOTE]
@@ -105,7 +105,7 @@ Teams 管理センターを使用して、ユーザーに番号を割り当て�
 
 1. Teams 管理センターで、[**音声**]  >  [**電話番号**] の順に選択します。
 
-3.    電話番号のリストから番号を選択し、[**割り当て**] をクリックします。
+3. 電話番号のリストから番号を選択し、[**割り当て**] をクリックします。
 
 4. [**割り当て**] ページで、[音声ユーザー] ボックスに、電話を使用するユーザーの名前を入力し、[**音声ユーザーの選択**] のドロップダウン リストでユーザーを選択します。
 

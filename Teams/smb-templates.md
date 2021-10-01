@@ -17,18 +17,18 @@ appliesto:
 ms.reviewer: lavenkat
 description: Microsoft Microsoft Teamsに組み込Graphテンプレートを使用して、中小企業向けのチームをすばやく簡単に作成できます。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0855e7a61b52582b283a5c1f7c4c4f966045d743
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 324470ffc3366750777c75776e4ae4e783dbb17f
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991216"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045683"
 ---
 # <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>中小企業向けの Microsoft Graph組み込みのチーム テンプレート
 
-Microsoft Teamsチーム テンプレートを使用すると、設定、チャネル、および事前にインストールされたアプリの定義済みのチーム構造を提供することで、すばやく簡単にチームを作成できます。
+Microsoft Teams のチーム テンプレートでは、設定、チャネル、事前にインストールされたアプリの定義済みチーム構造を使用することで、チームをすばやく簡単に作成できます。
 
-中小企業の場合、テンプレートは特に強力な機能を持つ可能性があります。テンプレートを使用すると、組織全体にTeamsを簡単にデプロイできます。 また、テンプレートは、ユーザーが効果的にテンプレートを使用する方法をTeams。 この記事は、組織全体で複数のチームを計画、デプロイ、管理する責任がある場合に役立ちます。
+中小企業の場合、テンプレートは特に強力な機能を備える可能性があります。テンプレートを使用すると、組織全体にすばやくTeams展開できます。 また、テンプレートを使用すると、ユーザーはアプリを効果的に使用する方法をTeams。 この記事は、組織全体で複数のチームを計画、デプロイ、管理する責任がある場合に役立ちます。
 
 現在、さまざまな状況で使用できる中小企業向けの 3 つの事前構築済みテンプレートを提供しています。 すべてのテンプレートでプライベート チーム *が作成* されます。 チームを作成し、組織に展開する準備ができたら、必要に応じてプライバシーを *Org-Wide* または *Public* に設定できます。
 
@@ -36,11 +36,11 @@ Microsoft Teamsチーム テンプレートを使用すると、設定、チャ�
 
 ## <a name="company-wide-template"></a>Company-Wide テンプレート
 
-このCompany-Wideは、会社全体のコミュニケーションとコラボレーションを意図しています。 会社全体のお知らせ、業界ニュース、またはエグゼクティブの投稿には、[全般] チャネルを使用できます。 人事チャネルは、ジョブの投稿、新しい従業員のオンボーディング、トレーニング、開発など、人事関連のすべてのアクティビティを統合する最適な場所です。 [Fun Stuff] チャネルは、すべてのランダムで楽しい投稿にソーシャル プラットフォームを提供します。
+このCompany-Wideテンプレートは、会社全体のコミュニケーションとコラボレーションを意図しています。 会社全体のお知らせ、業界ニュース、またはエグゼクティブの投稿には、[全般] チャネルを使用できます。 人事チャネルは、ジョブの投稿、新しい従業員のオンボーディング、トレーニング、開発など、人事関連のすべてのアクティビティを統合する最適な場所です。 [Fun Stuff] チャネルは、すべてのランダムで楽しい投稿にソーシャル プラットフォームを提供します。
 
 | テンプレートの種類  | TemplateId | このテンプレートに含まれるプロパティ |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>会社全体 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| チャネル <ul><li>全般\*</li><li>人事\*</li><li>楽しい情報\*</li></ul><br> アプリ<ul><li>ポータル サイト (人事チャネルにピン留めされた Web **サイト**) </li> </UL><br>チームのプロパティ <ul><li>チームの可視性を非公開に設定</li></ul> |
+| SMB - <br>会社全体 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| チャネル <ul><li>全般\*</li><li>人事\*</li><li>楽しい情報\*</li></ul><br> アプリ<ul><li>ポータル サイト (人事チャネルにピン留め **された** Web サイト) </li> </UL><br>チームのプロパティ <ul><li>チームの可視性を非公開に設定</li></ul> |
 
 *自動お気に入りチャネル 
 
@@ -181,6 +181,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>関連項目
 
-- [管理コンソールでTeamsテンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
-- [Teams のテンプレートの使用を開始する](get-started-with-teams-templates.md)
+- [Teams 管理センターで Teams テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
+- [Microsoft Graph を使用して、チーム テンプレートの使用を開始する](get-started-with-teams-templates.md)
 - [チームを作成](/graph/api/team-post?view=graph-rest-beta) する (プレビュー中)

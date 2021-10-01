@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '電話を使用して電話会議に参加する必要がある社内ユーザーのダイヤルイン会議または電話会議をセットアップする方法について説明します。 '
-ms.openlocfilehash: db4b2eecbc6620c8f6d76a4ee4b80fd68eebc268
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: f520d9c77fb04a27dbb43194edb24f1080627a51
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456517"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046303"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Microsoft Teams の電話会議を設定する
 
@@ -63,7 +63,7 @@ ms.locfileid: "59456517"
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>手順 3: 会議ブリッジのサービス番号を取得する
 <a name="__top"> </a>
 
-電話会議では、ユーザーの電話番号を使うことはできません。サービス番号を取得する必要があります。 会議ブリッジ用に、有料または無料のサービス番号のいずれかを取得することができます。 有料サービス番号と無料サービス番号を取得する方法は 3 通りあります。 
+電話会議では、ユーザーの電話番号を使うことはできません。サービス番号を取得する必要があります。 会議ブリッジ用に、有料または無料のサービス番号のいずれかを取得することができます。 有料サービス番号と無料サービス番号を取得する方法は 3 通りあります。
   
 - **Microsoft Teams 管理センターを使用** する。 いくつかの国/地域では、Microsoft Teams 管理センターを使用して、会議ブリッジ用にサービス番号を取得できます。 「[サービス電話番号の取得](./getting-service-phone-numbers.md)」を参照してください。
     

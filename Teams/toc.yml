@@ -1009,6 +1009,8 @@ items:
             href: how-many-phone-numbers-can-you-get.md
           - name: ユーザーの電話番号を検索する
             href: search-for-phone-numbers-for-users.md
+          - name: ユーザーの電話番号を割り当て、変更、または削除する
+            href: assign-change-or-remove-a-phone-number-for-a-user.md
           - name: 組織の電話番号のリストを表示する
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: 通話プランの電話番号を管理する
@@ -1017,8 +1019,6 @@ items:
                 href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
               - name: ユーザー用の電話番号を取得する
                 href: getting-phone-numbers-for-your-users.md
-              - name: ユーザーの電話番号を割り当て、変更、または削除する
-                href: assign-change-or-remove-a-phone-number-for-a-user.md
               - name: サービスの電話番号を取得する
                 href: getting-service-phone-numbers.md
               - name: 電話番号の転送

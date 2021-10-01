@@ -1,7 +1,7 @@
 ---
 title: 手動で番号移行注文を送信する
-ms.author: v-cichur
-author: cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: ポート注文要求を手動で送信する方法について学習します。
-ms.openlocfilehash: 5313e7f19554c3c4a82514a247b1bb81b589b5a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577941"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045873"
 ---
 # <a name="manually-submit-a-port-order"></a>手動で番号移行注文を送信する
 
 国や地域によっては、電話番号の取得、電話番号の転送、電話番号の解放、住所の変更を行うサービスリクエストを手動で送信する必要がある場合があります。 国と地域ごとに必要な情報を確認したり、番号の移植の詳細については、「組織の電話番号を管理する」 [を参照してください](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-この記事の手順を使用して、お客様の国または地域が管理センター の移植ウィザードに表示されていない場合は、Microsoft Teams[送信します](transfer-phone-numbers-to-teams.md)。
+お客様の国または地域が Microsoft の移植ウィザードに表示されていない場合は、この記事の手順を使用して、ポート注文 [を手動で送信します ](transfer-phone-numbers-to-teams.md)。
 
 ## <a name="manually-submit-a-new-port-order-request"></a>新しいポート注文要求を手動で送信する
 

@@ -3,7 +3,7 @@ title: ユーザーの電話番号を割り当て、変更、または削除す�
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
+ms.reviewer: davelick, roykuntz, jastark
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
@@ -20,79 +20,94 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 外部の企業やクライアントがコールインできるよう、Teamsの電話番号を割り当て、変更、または削除する方法について学習します。
-ms.openlocfilehash: 91460769639fc773877105003e8f6b00cd87eb7d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a6e2c8075134817b61d99366633f29140599b447
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013541"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046183"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>ユーザーの電話番号を割り当て、変更、または削除する (通話プラン)
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号を割り当て、変更、または削除する
 
-通話プランを設定すると、ユーザーに電話番号が割り当てされます。 このMicrosoft Teamsユーザーが [通話] をクリックすると、割り当てる電話番号が一 **覧表示されます**。 ダイレクト ルーティング シナリオでユーザーの電話番号を割り当て、変更、または削除する手順については、「ユーザーに直接ルーティング、音声、ボイスメールを有効にする」を [参照してください](./direct-routing-enable-users.md)。
+通話プランまたはオペレーター アカウントを **設定Connect、** ユーザーに電話番号を割り当てる必要があります。 このMicrosoft Teamsユーザーが [通話] をクリックすると、割り当てる電話番号が一覧表示 **されます**。 
 
-![ユーザーの電話番号が [Teams] に表示されます。](media/teams-phone-number.png)
+**この記事は、通話プランとオペレーターサービスにConnect。** ダイレクト ルーティング シナリオでユーザーの電話番号を割り当て、変更、または削除する方法については、「ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする」 [を参照してください](./direct-routing-enable-users.md)。
 
-ユーザーが電話を送受信できるようユーザーを設定する場合は、まず Microsoft Teams 管理センターを使用して電話番号を割り当てる必要があります。 必要に応じて、電話番号を変更または削除できます。
-  
-Teams で通話プランを取得する方法とコストについては[、「Teams」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+**通話プランまたはオペレーター アカウントに番号を割り当てる前Connectユーザーの番号を取得する必要があります。詳細については、「通話プランのユーザー [の番号を](getting-phone-numbers-for-your-users.md)取得する」または「オペレーターユーザーの番号を設定する [」Connectしてください](operator-connect-configure.md#set-up-phone-numbers)。**
+
   
 > [!NOTE]
-> ユーザーにライセンスが割り当てられているかどうかを確認する方法の 1 つは、[ユーザー] の管理Microsoft Teamsに>**です**。 ライセンスが割り当てられている場合は、ページに表示されます。  また、次のMicrosoft 365 管理センター。
+> ユーザーにライセンスが割り当てられているかどうかを確認する方法の 1 つは、[ユーザー] の管理Microsoft Teamsに>**です**。 ライセンスが割り当てられている場合は、ページに表示されます。  次のコマンドをMicrosoft 365 管理センター。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>ユーザーに電話番号を割り当てる
- 
-![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
-    
-1. 左側のナビゲーションで、[音声] を **クリックして**  >  **電話します**。
 
-2. [番号 **電話ページで**、一覧で未割り当て番号を選択し、[編集] を **クリックします**。  
+管理センターで番号を割り当Teamsするには:
+    
+1. 左側のナビゲーションで、[Voice電話  >  **をクリックします**。
+
+2. [番号 **電話] ページ** で、一覧で未割り当て番号を選択し、[編集] を **クリックします**。  
 
 3. [編集] **ウィンドウの** [割 **り** 当て済み] で、表示名またはユーザー名でユーザーを検索し、[割り当て] を **クリックします**。
 
 4. 関連付けられている緊急対応の場所を割り当てるか変更するには、[緊急 **対応の場所**] で場所を検索して選択します。
 
+   > [!NOTE]
+   > **オペレーターに番号を割り当てるConnect、関連する緊急対応の場所を割り当てまたは変更できない場合があります。この機能は、オペレーターによって異なる場合があります。詳細については、オペレーターにお問い合わせください。**
+
 5. ユーザーに電話番号情報を含むメールを送信するかどうかに応じて、電話番号情報を含むメール ユーザーをオフまたは **オンにします**。 既定では、この設定はオンになっています。 
 
 6. **[保存]** をクリックします。
 
-PowerShell の例については [、Set-CsOnlineVoiceUser に関するページを参照してください](/powershell/module/skype/set-csonlinevoiceuser)。
+PowerShell を使用して数値を割り当てるには、次のように [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) コマンドレットを使用します。
+
+
+''PowerShell Set-CsOnlineVoiceUser -Identity <user>   -TelephoneNumber <phone number> 
+```
+
+For example:
+
+```PowerShell
+Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+```
 
 > [!NOTE]
-> Microsoft 365 または Office 365 と Teams の間の待機時間のため、ユーザーが有効になるのに最大 24 時間かかる場合があります。 電話番号が 24 時間後に正しく割り当てられていない場合は、ビジネス製品のサポートに問い [合わせ - 管理者向けヘルプ を参照してください](/microsoft-365/admin/contact-support-for-business-products)。 お手伝いします。
+> ユーザーが有効になるには、Microsoft 365とTeamsの間の待機時間が最大 24 時間かかる場合があります。 電話番号が 24 時間後に正しく割り当てられていない場合は、「Number [Service Center 電話を参照してください](https://pstnsd.powerappsportals.com/)。 
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>ユーザーの電話番号を変更する
- 
-![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+
+管理者センターでユーザーの電話番号を変更するにはTeamsします。
     
 1. 左側のナビゲーションで 、[ユーザー] をクリックし、目的のユーザーを見つけてダブルクリックし、[アカウント]をクリックし、[全般情報] で、ユーザーに割り当てられている電話番号をメモします。 
 
-2. 左側のナビゲーションで、[音声] を **クリックして**  >  **電話します**。
+2. 左側のナビゲーションで、[Voice電話  >  **をクリックします**。
 
-3. [番号 **電話ページ** で、手順 1 で識別した番号を選択し、[編集] を **クリックします**。  
+3. [番号 **電話ページで**、手順 1 で識別した番号を選択し、[編集] を **クリックします**。  
 
 4. [編集]**ウィンドウの**[割り当て **] で****、[X] をクリックして** ユーザーを削除します。
 
 5. **[保存]** をクリックします。
 
-6. [番号 **電話ページで**、一覧で未割り当て番号を選択し、[編集] を **クリックします**。  
+6. [番号 **電話] ページ** で、一覧で未割り当て番号を選択し、[編集] を **クリックします**。  
 
 7. [編集] **ウィンドウの** [割 **り** 当て済み] で、表示名またはユーザー名でユーザーを検索し、[割り当て] を **クリックします**。
 
 8. 関連付けられている緊急対応の場所を割り当てるか変更するには、[緊急 **対応の場所**] で場所を検索して選択します。
+
+      > [!NOTE]
+      > **オペレーターユーザーの番号を変更するConnect、関連する緊急対応の場所を割り当てまたは変更できない場合があります。この機能は、オペレーターによって異なる場合があります。詳細については、オペレーターにお問い合わせください。**
 
 9. **[保存]** をクリックします。
 
 PowerShell の例については [、Set-CsOnlineVoiceUser に関するページを参照してください](/powershell/module/skype/set-csonlinevoiceuser)。
 
 ## <a name="remove-a-phone-number-from-a-user"></a>ユーザーの電話番号を削除する
- 
-![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+
+管理センターで電話番号を削除するにはTeamsします。
 
 1. 左側のナビゲーションで 、[ユーザー] をクリックし、目的のユーザーを見つけてダブルクリックし、[アカウント]をクリックし、[全般情報] で、ユーザーに割り当てられている電話番号をメモします。 
 
-2. 左側のナビゲーションで、[音声] を **クリックして**  >  **電話します**。
+2. 左側のナビゲーションで、[Voice電話  >  **をクリックします**。
 
 3. [番号 **電話ページで**、手順 2 で識別した番号を選択し、[編集] を **クリックします**。  
 
@@ -114,4 +129,3 @@ PowerShell の例については [、Set-CsOnlineVoiceUser に関するページ
 
 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
 
-[通話プランのMicrosoft 365](./calling-plans-for-office-365.md)

@@ -1,5 +1,5 @@
 ---
-title: サービスをアップグレードする準備を行Microsoft Teams
+title: サービスをアップグレードする準備をMicrosoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: クラウド サービスを使用してコラボレーションとクラウド音声サービスを行う組織を準備するための要件についてTeams。
+description: クラウド サービスを使用したコラボレーションとクラウド音声サービスのために組織を準備するための要件についてTeams。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd80e9bf911287800443a29c4a21674d11014d58
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 056e2e8d626e8993577b945a38b560cc41a1e90b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727046"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045544"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>サービスをアップグレードする準備をTeams
 
@@ -38,7 +38,7 @@ ms.locfileid: "58727046"
 - [Skype for Business と Teams の共存と相互運用を理解した](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [アップグレードの手順を選択した](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-この記事では、組織がコラボレーションとクラウド音声サービスを使用するための準備を行う場合の要件の概要をTeams。 適切に準備することで、これらの機能を組織に提供する準備ができていることを確認できます。
+この記事では、クラウド サービスを使用したコラボレーションとクラウド音声サービスのために組織を準備するための要件の概要をTeams。 適切に準備することで、これらの機能を組織に提供する準備ができていることを確認できます。
 
 ## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>新しいロールアウトのオンボーディング チェックリストMicrosoft Teamsページ
 
@@ -57,19 +57,19 @@ ms.locfileid: "58727046"
 - [電話システム PSTN 接続オプション](cloud-voice-landing-page.md)
 
 
-これらのチェックリストのタスクとアクティビティは、コラボレーション機能と音声機能の展開に適用される主要な "To Do" Teams。 チェックリストをカスタマイズして、独自のアクティビティ体験に固有のアクティビティやタスクTeamsできます。
+これらのチェックリストのタスクとアクティビティは、コラボレーション機能と音声機能の展開に適用される主要な "to Do" Teams。 チェックリストをカスタマイズして、独自のアクティビティ体験に固有のアクティビティやタスクTeamsできます。
 
 提供されているチェックリストを使用して、個々のアクティビティとタスクの状態を追跡し、重要な手順をスキップしていないか確認します。 各アクティビティには、必要なアクションの詳細な説明と、そのアクティビティを完了するために使用できる追加情報への参照が含まれています。
 
-チェックリストを順番に実行することをお勧めしますが、正確な順序は、デプロイの範囲と環境の構成と複雑さによって異なります。 "greenfield" Teams デプロイ (以前の Skype for Business Online プレゼンスがないデプロイ) または Skype for Business Online から Teams へのアップグレードをサポートするために編成されています。 Skype for Business Online からアップグレードする場合は、これらのアクティビティの一部が既に完了している可能性があります。現在は無視できます。
+チェックリストを順番に実行することをお勧めしますが、正確な順序は、デプロイの範囲と環境の構成と複雑さによって異なります。 "greenfield" デプロイ (以前の Skype for Business Online プレゼンスがないTeams) または Skype for Business Online から Teams へのアップグレードをサポートするために編成されています。 Skype for Business Online からアップグレードする場合は、これらのアクティビティの一部が既に完了している可能性があります。現在は無視できます。
 
 サイトごとにユーザーをオンボードする場合は、これらのチェックリストの補足ガイドとして、サイト有効化プレイブック [for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) を使用することを強くお勧めします。
 
 >[!NOTE]
->構成設定の多くが、Teams Online Skype for Businessです。 これらの設定はMicrosoft Teams管理センターで構成します。
+> 構成設定の多くが、Teams Online Skype for Businessです。 これらの設定はMicrosoft Teams管理センターで構成します。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>Whoチェックリストの完了を監視する責任は何ですか?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>判断ポイント</td><td><ul><li>Whoのチェックリストの完了を監視する責任は何ですか?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>次の手順</td><td><ul><li>オンボード チェックリストをダウンロードします。</li><li>組織の展開計画に従って、オンボーディング チェックリスト項目をステップ バイ ステップで実行します。</li></ul></td></tr>
 </table>
 

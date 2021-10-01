@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '組織内でダイヤルイン会議が有効になっているユーザーの一覧を組織内のユーザーの一覧を表示する方法について説明Microsoft Teams。 '
-ms.openlocfilehash: 7d6c77eaefe3d3247e8b950cfffff156606db008
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b49dec0b73385ce09d906a128a47ddd4c723694
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579591"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045883"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams の電話会議用に有効になっているユーザーのリストを表示する
 
@@ -39,7 +39,6 @@ ms.locfileid: "58579591"
 ## <a name="viewing-a-list-of-users"></a>ユーザーの一覧を表示する
 
 - 管理センター Microsoft Teams左側のナビゲーションで、[ユーザー] をクリック **します**。
-
 
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
@@ -58,7 +57,7 @@ Windows PowerShellは、ユーザーの管理と、ユーザーが許可また�
     
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)」をご覧ください。
+Windows PowerShell の詳細については、「[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps&preserve-view=true)」をご覧ください。
     
 ## <a name="related-topics"></a>関連トピック
 

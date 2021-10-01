@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのライブ イベントのセットアップ
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: Teams でライブ イベントをセットアップします。こ
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f33490fdccbb67a000278d1e9085b0305204c8f5
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 4d9e21872adb0fb0e34280d29fe928ea3ac056da
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432329"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046193"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントのセットアップ
 
@@ -50,16 +50,16 @@ Teams で作成したライブ イベントを配信するには、[Teams 用に
 
 <a name="bkcreatepolicy"> </a>
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[**会議**]  >  [**ライブイベントポリシー**]に移動します。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、**会議** ライブ イベント ポリシーの [ポリシーの管理  >    >  **] タブに移動** します。
 2. 次のいずれかを行います。
 
     - 既存の既定のポリシーを編集する場合は、**[グローバル (組織全体の既定値)]** を選択します。
-    - 新しいカスタム ポリシーを作成する場合は、[**追加**]を選択します。
+    - 新しいカスタム ポリシーを作成する場合は、[+ 追加] **を選択します**。
     - カスタム ポリシーを編集する場合は、対象のポリシーを選択してから **[編集]** を選択します。
 
     組織のニーズに応じて変更できる設定は次のとおりです。
 
-    ![ライブ イベント ポリシー設定のスクリーン ショット。](../media/teams-live-events-policies.png "Microsoft Teams 管理センターのライブ イベント ポリシーの設定を示すスクリーン ショット")
+    ![ライブ イベント ポリシー設定のスクリーン ショット。](../media/teams-live-events-policies-new.png "Microsoft Teams 管理センターのライブ イベント ポリシーの設定を示すスクリーン ショット")
 
 |Setting  |説明  |
 |---------|---------|

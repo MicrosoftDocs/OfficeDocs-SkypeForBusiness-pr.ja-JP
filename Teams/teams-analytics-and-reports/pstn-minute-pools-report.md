@@ -1,7 +1,7 @@
 ---
 title: Microsoft TeamsPSTN 分プール レポート
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,24 +13,24 @@ ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Microsoft Teams 管理センターで Teams PSTN 分プール レポートを使用して、現在の月に組織内で消費された分数を表示する方法。
+description: Microsoft Teams 管理センターで Teams PSTN 分プール レポートを使用して、当月に組織内で消費された分数を表示する方法。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6ea18ce789ab08a92849833f72d1bf291ebaec9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ef2e207352bf4ad7ee3d0f6c8fae674c4022e0b0
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730276"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045993"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft TeamsPSTN 分プール レポート
 
-Microsoft Teams 管理センターの Teams PSTN 分プール レポートでは、組織内の電話会議と通話アクティビティの概要を示し、当月に消費された分数を示します。 通話に使用されるライセンス、利用可能な合計分数、使用分数、場所別のライセンス使用量など、アクティビティの内訳を確認できます。
+Microsoft Teams Teams管理センターの Teams PSTN ミニデータ プール レポートでは、当月の使用分数を示すことによって、組織内の電話会議と通話アクティビティの概要を示します。 通話に使用されるライセンス、利用可能な合計分数、使用分数、場所別のライセンス使用量など、アクティビティの内訳を確認できます。
 
 ## <a name="view-the-pstn-minute-pools-report"></a>PSTN 分プール レポートを表示する
 
-Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [レポート **の表示] タブの** [レポート] **で**、[PSTN 分プール] **を選択し**、[レポートの実行] **をクリックします**。
+Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [レポート **の表示] タブの** **[レポート**] で **、[PSTN 分] と [SMS(プレビュー) プール**] を選択し、[レポートの実行] **をクリックします**。
 
 ![管理センター Teams PSTN 分プール レポートのスクリーンショット。](../media/teams-reports-pstn-minute-pools-with-callouts.png "番号付き吹き出しTeams付き、Microsoft Teams PSTN 分プール レポートのスクリーンショット")
 
