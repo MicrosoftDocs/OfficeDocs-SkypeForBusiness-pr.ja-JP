@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c2bda6467bf819bdf9cf82713c24e8e9cd18d9d
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: f3cf6d2e7eb23517477572775e7d18571463957b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007797"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046343"
 ---
 # <a name="use-retail-team-templates"></a>小売業チーム テンプレートを使用する
 
@@ -38,12 +38,12 @@ Teams には、小売業のニーズに特化して設計されたテンプレ�
 
 |以下の場合: | 次に、以下の場合: |
 | ---- | --------- |
-| 管理者または IT 担当者 |[Teams 管理センターでチーム テンプレートを管理します](#manage-team-templates-in-the-teams-admin-center)。 チーム テンプレートを表示し、テンプレート ポリシーを適用して、Teams でチームの作成にスタッフが使用できるテンプレートを制御します。 |
+| 管理者または IT 担当者 |[Teams 管理センターでチーム テンプレートを管理](#manage-team-templates-in-the-teams-admin-center)します。チーム テンプレートを表示し、テンプレート ポリシーを適用して、Teams でチームを作成するためにスタッフが使用できるテンプレートを制御します。 |
 | 開発者 | [Microsoft Graph を使用](#use-team-templates-with-microsoft-graph)して、チーム テンプレートでチームを作成します。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Teams 管理センターでチーム テンプレートを管理する
 
-管理者として、Microsoft Teams 管理センターでチーム テンプレートを管理できます。 こちらで、各テンプレートに関する詳細を表示できます。 [テンプレート ポリシーを作成してスタッフに割り当て](templates-policies.md)、[チームの作成](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)のために Teams でスタッフが表示できるテンプレートを制御することもできます。 
+管理者として、Microsoft Teams 管理センターでチーム テンプレートを管理できます。 こちらで、各テンプレートに関する詳細を表示できます。 [テンプレート ポリシーを作成してスタッフに割り当て](templates-policies.md)、[チームの作成](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)のために Teams でスタッフが表示できるテンプレートを制御することもできます。
 
 一般的なチーム テンプレートの詳細については、「[Teams 管理センターでチーム テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)」をご参照ください。
 
@@ -72,7 +72,7 @@ Teams には、小売業のニーズに特化して設計されたテンプレ�
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Microsoft Graph で Teams テンプレートを使用する
 
-開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートでチームを作成できます。 Microsoft Graph を使用したチーム テンプレートの使用方法に関する詳細については、[Microsoft Graph を使用して、チーム テンプレートの使用を開始する](get-started-with-teams-templates.md)、[Microsoft Teams API の概要](/graph/teams-concept-overview?view=graph-rest-1.0)、[teamsTemplate リソースの種類](/graph/api/resources/teamstemplate?view=graph-rest-1.0)を参照してください。
+開発者は、Microsoft Graph を使用して、事前構築済みのチーム テンプレートからチームを作成できます。Microsoft Graph でチーム テンプレートを使用する方法の詳細については、「[Microsoft Graph で、チーム テンプレートの使用を開始する](get-started-with-teams-templates.md)」、「[Microsoft Teams API の概要](/graph/teams-concept-overview?view=graph-rest-1.0)」、および「[teamsTemplate リソースの種類](/graph/api/resources/teamstemplate?view=graph-rest-1.0)」を参照してください。
 
 こちらに事前構築済みの小売業チーム テンプレートを示します。
 
@@ -134,5 +134,5 @@ Teams には、小売業のニーズに特化して設計されたテンプレ�
 ## <a name="related-articles"></a>関連記事
 
 - [Teams 管理センターで Teams テンプレートの使用を開始する](get-started-with-teams-templates-in-the-admin-console.md)
-- [Teams アプリでテンプレートからチームを作成する](https://support.microsoft.com/en-us/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
+- [テンプレートからチームを作成する](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Microsoft Graph を使用して、チーム テンプレートの使用を開始する](get-started-with-teams-templates.md)
