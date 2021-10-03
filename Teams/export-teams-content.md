@@ -7,7 +7,7 @@ ms.topic: reference
 audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
-description: この記事では、エクスポート API を使用してTeamsコンテンツをエクスポートするMicrosoft Teams説明します。
+description: この記事では、エクスポート API を使用してTeamsコンテンツをエクスポートMicrosoft Teams説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9d298ad18c6ed63c269c5f31b923a89e63a9f96
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 84f53b5c75c9e99e3a3bfc2877c096b32fe3b9c0
+ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620643"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "60082867"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>Microsoft Teams Export API を使用してコンテンツをエクスポートする
 
@@ -36,7 +36,7 @@ Teamsエクスポート API を使用すると、1 対 1、グループ チャ�
 
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>Teams Export API でサポートされる機能
 
-- **Teams メッセージの** 一括エクスポート: Teams Export API は、テナントごとに最大 200 RPS、アプリケーションに 600 RPS をサポートします。これらの制限により、Teams メッセージを一括エクスポートできる必要があります。
+- **Teams メッセージの** 一括エクスポート: Teams Export API は、テナントあたり最大 200 RPS、アプリケーションに対して最大 600 RPS をサポートします。これらの制限により、Teams メッセージを一括エクスポートできる必要があります。
 - **アプリケーション コンテキスト**: Microsoft Graph を呼び出す場合、アプリはアプリケーションからアクセス トークンを取得Microsoft ID プラットフォーム。 アクセス トークンには、アプリに関する情報と、Microsoft Graph で使用できるリソースと API に対するアクセス許可が含まれます。 アクセス トークンを取得するには、アプリを Microsoft ID プラットフォーム に登録し、必要な Microsoft Graph リソースへのアクセスをユーザーまたは管理者が承認する必要があります。
 
     アプリと Microsoft ID プラットフォーム を統合してトークンを取得する方法を既に理解している場合は、「次[](/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)のステップ」セクションで Microsoft Graph に固有の情報とサンプルを参照してください。
@@ -45,37 +45,55 @@ Teamsエクスポート API を使用すると、1 対 1、グループ チャ�
 - **メッセージの添付ファイル:** エクスポート API には、メッセージの一部として送信される添付ファイルへのリンクが含まれます。 Export API を使用すると、メッセージに添付されているファイルを取得できます。
 - **チャット メッセージのプロパティ:** Export API でサポートされているプロパティの完全Teamsについては、 を参照 [してください](/graph/api/resources/chatmessage?view=graph-rest-beta#properties)。
 
-## <a name="how-to-access-teams-export-apis"></a>エクスポート API にTeamsする方法
+>[!NOTE]
+>エクスポート API では、リアクション *はサポートされていません*。
+
+## <a name="how-to-access-teams-export-apis"></a>エクスポート API Teamsアクセスする方法
 
 - **例 1 は** 、フィルターなしでユーザーまたはチームのすべてのメッセージを取得する簡単なクエリです。
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages
+    GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages
     ```
      ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages
+    GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages
     ```
 
 - **例 2** は、日時フィルターと上位 50 件のメッセージを指定して、ユーザーまたはチームのすべてのメッセージを取得するサンプル クエリです。
 
     ```HTTP
-    GET https://graph.microsoft.com/beta/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/v1.0/users/{id}/chats/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
     ```HTTP
-    GET https://graph.microsoft.com/beta/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
+    GET https://graph.microsoft.com/v1.0/teams/{id}/channels/getAllMessages?$top=50&$filter=lastModifiedDateTime gt 2020-06-04T18:03:11.591Z and lastModifiedDateTime lt 2020-06-05T21:00:09.413Z
     ```
 >[!NOTE]
 >API は、複数の結果が得られた場合に、次のページ リンクを含む応答を返します。 次の結果セットを取得するには、@odata.nextlink の URL で GET を呼び出します。 @odata.nextlink が存在しない場合、または null の場合は、すべてのメッセージが取得されます。
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>エクスポート API にTeams前提条件 
 
-- Teamsエクスポート API は現在プレビュー中です。 API に必要なライセンスを持つユーザーとテナント [だけが](/graph/teams-licenses) 使用できます。 今後、Microsoft は、API を介してアクセスされるデータの量に基づいて、お客様または顧客に追加料金の支払いを要求する場合があります。
 - Microsoft Teams機密データにアクセスGraphする Microsoft Graph API は、保護された API と見なされます。 エクスポート API を使用するには、アクセス許可と同意以外の追加の検証が必要です。 これらの保護された API へのアクセスを要求するには、要求フォーム に [入力します](https://aka.ms/teamsgraph/requestaccess)。
 - アプリケーションのアクセス許可は、サインインしているユーザーが存在せずに実行されるアプリによって使用されます。アプリケーションのアクセス許可は、管理者だけが同意できます。 次のアクセス許可が必要です。
 
     - *Chat.Read.All*: すべての 1:1、グループ チャット、および会議チャット メッセージへのアクセスを有効にする 
     - *ChannelMessage.Read.All*: すべてのチャネル メッセージへのアクセスを有効にする  
     - *User.Read.All*: テナントのユーザーの一覧へのアクセスを有効にします。
+
+## <a name="license-requirements-for-teams-export-apis"></a>Teams Export API のライセンス要件
+
+Export API は、モデル クエリ パラメーターを使用して、セキュリティとコンプライアンス (S+C) と一般的な使用シナリオをサポートします。 S+C シナリオ (モデル A) にはシード処理された容量が含まれており、E5 サブスクリプションが必要であり、一般的な使用シナリオ (モデル B) は、すべてのサブスクリプションで利用できます。使用できるのは消費のみです。 シード処理された容量と消費料金の詳細については、「Microsoft Graph Teams API のライセンスと支払[いの要件」を参照してください](/graph/teams-licenses)。
+
+### <a name="scmodel-a-scenarios"></a>S + C/モデル A のシナリオ
+
+セキュリティ機能やコンプライアンス機能を実行するアプリケーションに限定され、ユーザーは、この機能を使用してシード処理された容量を受け取る特定の E5 ライセンスを持っている必要があります。 シード処理された容量はユーザー単位で、毎月計算され、テナント レベルで集計されます。 シード処理された容量を超えて使用する場合、アプリ所有者は API の使用に対して請求されます。 モデル A は、割り当てられた E5 ライセンスを持つユーザーからのメッセージにのみアクセスできます。
+
+### <a name="general-usagemodel-b-scenarios"></a>一般的な使用方法/モデル B のシナリオ
+
+S+C に関連しないすべてのシナリオで使用できます。ライセンス要件やシード容量はありません。 消費メーターが使用可能になると、アプリ所有者は、すべての月次 API 呼び出しに対して課金されます。 
+
+### <a name="evaluation-mode-default"></a>評価モード (既定値)
+
+モデル宣言を使用すると、評価目的で要求する各アプリケーションごとに使用が制限された API にアクセスできます。 
 
 ## <a name="json-representation"></a>JSON 表現
 
