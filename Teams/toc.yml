@@ -111,8 +111,6 @@ items:
                 href: teams-for-vdi.md
               - name: リモート デスクトップ環境 (RDP) 用の Teams
                 href: teams-on-rdp.md
-              - name: Surface Hub の Teams を展開する
-                href: teams-surface-hub.md
               - name: Teams クライアントの更新プログラム
                 href: teams-client-update.md
               - name: インストールと更新に関する問題のトラブルシューティング
@@ -645,6 +643,8 @@ items:
                 href: cloud-video-interop.md
               - name: 表示限定の会議エクスペリエンス
                 href: view-only-meeting-experience.md
+              - name: Teams 会議のストリーミング
+                href: stream-teams-meetings.md
           - name: Meeting Migration Service (MMS) のセットアップ
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Microsoft Teams でのウェビナーのセットアップ
@@ -1666,8 +1666,6 @@ items:
             href: alerts/device-health-status.md
           - name: Teams デバイスと周辺機器
             href: teams-device-health.md
-          - name: デバイス管理の管理単位機能
-            href: administrative-unit.md
       - name: Teams PowerShell
         items:
           - name: 概要
