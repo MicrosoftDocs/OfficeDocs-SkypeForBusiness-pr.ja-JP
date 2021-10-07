@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: システム ダイレクト Microsoft 電話を使用して、サポートされている顧客提供のセッション ボーダー コントローラー (SBC) をシステムに接続Microsoft 電話します。
-ms.openlocfilehash: a0fe8cc7604e34fabb4c68ecb00c9a7a448afea4
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: d2069b7811b570bfa711e6d6c641c1ca9340c7bc
+ms.sourcegitcommit: d67617d5042d25ed0bf36c66c3a0605c3d4d233e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127394"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60224840"
 ---
 # <a name="plan-direct-routing"></a>ダイレクト ルーティングを計画する
 
@@ -110,10 +110,10 @@ Microsoft では、通話プランなどのクラウド内のすべての音声�
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>アドホック通話のエスカレーションと電話会議ライセンス
 
-ユーザー Teams PSTN への 1 対 1 Teams または Teams 通話を開始Teams PSTN 参加者を追加できます。 このシナリオは、アドホック会議と呼ばれる。 通話のパスは、通話をエスカレートするユーザーに Microsoft 電話会議ライセンスが割り当てられているかどうかによって異なります。
+ユーザー Teams PSTN への 1 対 1 Teams を開始するか、PSTN 通話TeamsをTeams PSTN 参加者を追加できます。 このシナリオは、アドホック会議と呼ばれる。 通話のパスは、通話をエスカレートするユーザーに Microsoft 電話会議ライセンスが割り当てられているかどうかによって異なります。
 
 - 通話をTeamsユーザーに Microsoft 電話会議ライセンスが割り当てられている場合、エスカレーションは Microsoft 電話会議サービスを通じて行います。 既存の通話に招待されたリモート PSTN 参加者は、着信に関する通知を受け取り、エスカレーションを開始した Teams ユーザーに割り当てられた Microsoft ブリッジの数を確認します。
-- 通話をTeamsユーザーに Microsoft 電話会議ライセンスが割り当てられていない場合、エスカレーションは、直接ルーティング インターフェイスに接続されたセッション ボーダー コントローラーを介して行います。 通話に招待されたリモート PSTN 参加者は、着信に関する通知を受け取り、エスカレーションを開始したTeamsの番号を表示します。 エスカレーションに使用される特定の SBC は、ユーザーのルーティング ポリシーによって定義されます。 
+- 通話をTeamsユーザーに Microsoft 電話会議ライセンスが割り当てられていない場合、エスカレーションは、直接ルーティング インターフェイスに接続されたセッション ボーダー コントローラーを介して行います。 通話に招待されたリモート PSTN 参加者は、着信に関する通知を受け取り、エスカレーションを開始したTeamsの番号を確認します。 エスカレーションに使用される特定の SBC は、ユーザーのルーティング ポリシーによって定義されます。 
 
 
 さらに、以下を確認する必要があります。
@@ -125,22 +125,22 @@ Microsoft では、通話プランなどのクラウド内のすべての音声�
 
 同じユーザーの通話プランと直接ルーティング接続の混在は省略可能ですが、便利です (たとえば、ユーザーに Microsoft 通話プランが割り当てられているが、SBC を使用して通話をルーティングする場合など)。 最も一般的なシナリオの 1 つは、サード パーティの PBX の呼び出しです。  サード パーティの PBX では、その PBX に接続されている電話への呼び出しを除くすべての通話は Microsoft 通話プランを使用してルーティングされますが、サード パーティの PBX に接続されている電話への通話は SBC に移動するため、PSTN ではなくエンタープライズ ネットワーク内に残されます。 
 
-ライセンスの詳細については、「電話システムの概要」と「プラン オプション[」Office](https://products.office.com/compare-all-microsoft-office-products?tab=2)[を参照してください](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)。 
+ライセンスの詳細については、「電話システムの詳細」と「プラン オプション」[をOffice](https://products.office.com/compare-all-microsoft-office-products?tab=2)[参照してください](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)。 
 
-ライセンスの詳細については電話システムアドオン ライセンスに関するMicrosoft Teams[を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+ライセンスの詳細については、電話システムライセンスに関するページMicrosoft Teams[を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
 
 ## <a name="supported-end-points"></a>サポートされているエンド ポイント 
 
 エンド ポイントとしてを使用できます。
 
 - 任意Teamsクライアント。 
-- 共通領域電話。 「Common [Area 電話 ライセンスを設定する」をMicrosoft Teams。](./set-up-common-area-phones.md) 直接ルーティングを使用して共通領域のライセンスを設定するときに、通話プランの電話は必要ない点に注意してください。
+- 共通領域電話。 「Common [Area 電話 ライセンスを設定する」をMicrosoft Teams。](./set-up-common-area-phones.md) 直接ルーティングを使用して共通領域を設定するときに、通話プランのライセンス電話必要はない点に注意してください。
 - Skype for Business 3PIP 電話。 詳細[についてはSkype for Business電話 (3PIP) のサポートに関するページをMicrosoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
 ## <a name="sbc-domain-names"></a>SBC ドメイン名
 
-SBC ドメイン名は、テナントのドメインに登録されている名前の 1 つから取得する必要があります。 SBC の \* FQDN onmicrosoft.com に .onmicrosoft.com テナントを使用することはできません。
+SBC ドメイン名は、テナントのドメインに登録されている名前の 1 つから取得する必要があります。 SBC の \* FQDN 名 onmicrosoft.com .onmicrosoft.com テナントを使用することはできません。
 
 次の表は、テナントに登録されている DNS 名の例、名前を SBC の FQDN として使用できるかどうか、有効な FQDN 名の例を示しています。
 
@@ -149,12 +149,12 @@ SBC ドメイン名は、テナントのドメインに登録されている名�
 contoso.com|はい|**有効な名前:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|いいえ|SBC 名 onmicrosoft.com *.onmicrosoft.com ドメインの使用はサポートされていません
 
-新しいドメイン名を使用するとします。 たとえば、テナントがテナント contoso.com ドメイン名として登録されている場合、そのドメイン名を使用 sbc1.sip.contoso.com。 SBC とドメイン名を組み合 sbc1.sip.contoso.com、テナントのドメインにドメイン名 sip.contoso.com 登録する必要があります。 ドメイン名を登録する前に SBC と sbc1.sip.contoso.com をペアリングすると、"このテナント用に構成されていない "sbc1.sip.contoso.com" ドメインを使用できません" というエラーが表示されます。
-ドメイン名を追加した後、UPN アカウントを持つユーザーを作成し、user@sip.contoso.com 割り当Teamsがあります。 ドメイン名がテナントのドメインに追加され、新しい名前を持つユーザーが作成され、ライセンスがユーザーに割り当てられると、ドメイン名が完全にプロビジョニングされるのに最大で 24 時間かかる場合があります。 
+新しいドメイン名を使用するとします。 たとえば、テナントがテナント contoso.com ドメイン名として登録されている場合、そのドメイン名を使用 sbc1.sip.contoso.com。 SBC とドメイン名を組み合 sbc1.sip.contoso.com、テナントのドメインにドメイン名 sip.contoso.com 登録する必要があります。 ドメイン名を登録する前に SBC と sbc1.sip.contoso.com をペアリングすると、「このテナント用に構成されていないので、"sbc1.sip.contoso.com" ドメインを使用できません」というエラーが表示されます。
+ドメイン名を追加した後、UPN アカウントを持つユーザーを作成し、user@sip.contoso.com 割り当Teams必要があります。 ドメイン名がテナントのドメインに追加され、新しい名前を持つユーザーが作成され、ライセンスがユーザーに割り当てられると、ドメイン名が完全にプロビジョニングされるのに最大で 24 時間かかる場合があります。 
 
 1 つのテナントに複数の SIP アドレス空間がある可能性があります。 たとえば、会社が SIP アドレス空間 contoso.com 2 つ目の SIP アドレス空間として fabrikam.com を使用している場合があります。 一部のユーザーは user@contoso.com アドレスを持ち、一部のユーザーはアドレスアドレスを持 user@fabrikam.com。 
 
-SBC は 1 つの FQDN のみを必要とし、ペアのテナント内の任意のアドレス空間からユーザーにサービスを提供できます。 たとえば、sbc1.contoso.com という名前の SBC は、これらの SIP アドレス空間が同じテナントに登録されている限り、アドレス user@contoso.com と user@fabrikam.com を持つユーザーの PSTN トラフィックを受信および送信できます。  
+SBC は 1 つの FQDN のみを必要とし、ペアのテナント内の任意のアドレス空間からユーザーにサービスを提供できます。 たとえば、sbc1.contoso.com という名前の SBC は、これらの SIP アドレス空間が同じテナントに登録されている限り、アドレス user@contoso.com と user@fabrikam.com を持つユーザーの PSTN トラフィックを送受信できます。  
 
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC のパブリック信頼された証明書
 
@@ -194,7 +194,7 @@ Microsoft では、認定署名要求 (CSR) を生成して SBC の証明書を�
 - T-Systems International GmbH (Deutsche Telekom)
 - QuoVadis
 - USERTrust RSA 証明機関
-- Hong島 Post Root CA 1,2,3
+- 香港大島事後ルート CA 1,2,3
 - Sectigo Root CA
 - Harica  
 
@@ -203,7 +203,7 @@ GCCH および DoD Office 365直接ルーティングの場合、証明書は次
 - DigiCert High Assurance EV Root CA
 
 > [!NOTE]
-> * SBC の Teams 接続で相互 TLS (MTLS) のサポートが有効になっている場合は、Teams TLS コンテキストの SBC 信頼されたルート ストアに Baltimore CyberTrust Root 証明書をインストールする必要があります。 (これは、Microsoft サービス証明書で Baltimore ルート証明書が使用されているためです)。Baltimore ルート証明書をダウンロードするには、暗号化チェーンのOffice 365[を参照してください](/microsoft-365/compliance/encryption-office-365-certificate-chains)。
+> * SBC の Teams 接続で相互 TLS (MTLS) のサポートが有効になっている場合は、Teams TLS コンテキストの SBC 信頼されたルート ストアに Baltimore CyberTrust Root Certificate をインストールする必要があります。 (これは、Microsoft サービス証明書で Baltimore ルート証明書が使用されているためです)。Baltimore ルート証明書をダウンロードするには、暗号化チェーンに関する[Office 365を参照してください](/microsoft-365/compliance/encryption-office-365-certificate-chains)。
 
 Microsoft は、顧客からの要求に基づいて証明機関を追加する作業を行っています。 
 
@@ -323,11 +323,13 @@ SBC は、DNS クエリを実行して問題を解決 sip.pstnhub.microsoft.com�
 
 メディア トラフィックは、メディア プロセッサと呼ばれるコンポーネントを介して流れます。 メディア プロセッサは、SIP プロキシと同じデータセンターに配置されます。
 
-- 米国 (米国西部と米国東部のデータセンターに 2 つ)
-- ヨーロッパ (アムステルダムとダブリンのデータセンター)
+- NOAM (米国中南部、米国西部と米国東部のデータセンターに 2 つ)
+- ヨーロッパ (英国南部、フランス中部、アムステルダム、ダブリンのデータセンター)
 - アジア (シンガポール データセンター)
 - 日本 (JP 東部と西部のデータセンター)
 - オーストラリア (オーストラリア東部および南東部のデータセンター)
+- LATAM (ブラジル南部)
+- アフリカ (南アフリカ北部)
 
 ## <a name="media-traffic-codecs"></a>メディア トラフィック: コーデック
 
