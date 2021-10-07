@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
+ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138273"
+ms.locfileid: "60148908"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -42,18 +42,20 @@ ms.locfileid: "60138273"
 
 ## <a name="turn-on-auditing-in-teams"></a>Teams で監査をオンにする
 
-監査データを確認できるようになるには、最初に[セキュリティ/コンプライアンス センター](https://protection.office.com) で監査をオンにする必要があります。 監査をオンにする方法の詳細については、「[監査ログの検索を有効または無効にする](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)」をご覧ください。
+監査データを確認する前に、最初に監査を有効にする必要Microsoft 365 コンプライアンス センター。 詳細については、「監査を [有効またはオフにする」を参照してください](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
 
 > [!IMPORTANT]
 > 利用できる監査データは、監査を有効にした時点以降のデータのみです。
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>監査ログから Teams データを取得する
 
-1. 監査ログを取得するには、[セキュリティ/コンプライアンス センター](https://go.microsoft.com/fwlink/?linkid=855775)に移動します。 **[検索]** で **[監査ログの検索]** を選択します。
+1. アクティビティの監査ログを取得Teams、[監査] <https://compliance.microsoft.com> を選択 **します**。
 
-2. [**Search (検索)**] を使用して、監査するアクティビティ、日付、ユーザーをフィルターします。
+2. [検索 **] ページ** で、監査するアクティビティ、日付、およびユーザーをフィルター処理します。
 
 3. さらに詳しく分析するために、結果を Excel にエクスポートします。
+
+詳しい手順については、「コンプライアンス センターで監査 [ログを検索する」を参照してください](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)。
 
 > [!IMPORTANT]
 > 監査データは、監査がオンになっている場合に、監査ログでのみ見ることができます。
@@ -64,18 +66,17 @@ ms.locfileid: "60138273"
 
 ここでは、監査ログで Teams アクティビティを検索するためのヒントをご紹介します。
 
-![[監査ログ] ページのスクリーンショット](media/audit-log-search-page.png)
+![コンプライアンス センターの監査ログ検索ページのスクリーンショット](media/audit-log-search-page.png)
 
+- 検索する特定のアクティビティを選択するには、1 つ以上のアクティビティの横にあるチェック ボックスをオンにします。 アクティビティが選択されている場合は、そのアクティビティをクリックして、選択を取り消すことができます。 また、検索ボックスを使用して、入力したキーワードを含むアクティビティを表示することもできます。
 
-- 検索する特定のアクティビティを選択するには、アクティビティ名をクリックします。 またはグループ名をクリックして、グループ内のすべてのアクティビティ ([**ファイルとフォルダーのアクティビティ**] など) を検索できます。 アクティビティが選択されている場合は、そのアクティビティをクリックして、選択を取り消すことができます。 また、検索ボックスを使用して、入力したキーワードを含むアクティビティを表示することもできます。
+  ![監査ログ検索ページのアクティビティドロップダウン リストのスクリーンショット](media/audit-log-search.png)
 
-  ![監査ログ検索アクティビティリストのスクリーンショット](media/audit-log-search.png)
+- cmdlets を使用して実行したアクティビティのイベントを表示するには、**[アクティビティ]** リストの **[すべてのアクティビティの結果を表示]** を選択します。 これらのアクティビティの操作の名前がわかっている場合は、検索ボックスに入力してアクティビティを表示し、選択します。
 
-- cmdlets を使用して実行したアクティビティのイベントを表示するには、**[アクティビティ]** リストの **[すべてのアクティビティの結果を表示]** を選択します。 これらのアクティビティの操作の名前がわかっている場合は、すべてのアクティビティを検索し、**[アクティビティ]** 列に操作の名前を入力することで、結果をフィルター処理することができます。 詳細については、「[手順 3: 検索結果をフィルター処理する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)」を参照してください。
+- 現在の検索条件をクリアするには、[すべてクリア] **をクリックします**。 日付の範囲が、過去 7 日間の既定値に戻ります。
 
-- 現在の検索条件をクリアするには、**[クリア]** をクリックします。 日付の範囲が、過去 7 日間の既定値に戻ります。 **[すべてクリアして、すべてのアクティビティを表示する]** をクリックして、選択されているすべてのアクティビティをキャンセルすることもできます。
-
-- 5,000 件の結果が見つかった場合、検索条件に一致するイベントが 5,000 件を超えていると見なすことができます。 検索条件を絞り込み、検索を再実行して返される結果を少なくしたり、[すべての結果をエクスポートする] を選択してすべての検索結果  >  **をエクスポートすることができます**。
+- 5,000 件の結果が見つかった場合、検索条件に一致するイベントが 5,000 件を超えていると見なすことができます。 検索条件を絞り込み、検索を再実行して返される結果を少なくしたり、[すべての結果をエクスポートする] を選択してすべての検索結果  >  **をエクスポートすることができます**。 監査ログをエクスポートする詳しい手順については、「ファイルに検索結果をエクスポートする [」を参照してください](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)。
 
 オーディオ ログ検索の使い方は、[こちらの動画](https://www.youtube.com/embed/UBxaRySAxyE)をチェックアウトしてください。 Teams のプログラム マネージャーである Ansuman Acharya が、Teams の監査ログ検索を行う方法を説明します。
 
@@ -172,7 +173,7 @@ ms.locfileid: "60138273"
 
 
 > [!NOTE]
-> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出すことによって操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出すことによって操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365 」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 
