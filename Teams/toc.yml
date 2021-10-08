@@ -775,6 +775,8 @@ items:
             items:
               - name: Microsoft Teams Rooms の計画の概要
                 href: rooms/rooms-plan.md
+              - name: Windows と Android 間の Teams デバイス機能比較
+                href: rooms/teams-devices-feature-comparison.md
               - name: バージョンのサポート
                 href: rooms/rooms-lifecycle-support.md
               - name: リリース ノート
