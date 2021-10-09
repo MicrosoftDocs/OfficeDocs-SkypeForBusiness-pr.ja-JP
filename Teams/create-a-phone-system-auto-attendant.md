@@ -1,7 +1,7 @@
 ---
 title: ユーザーの自動応答を設定Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,27 +21,27 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 大規模な組織の自動応答を設定してテストする方法についてMicrosoft Teams。
-ms.openlocfilehash: 29e746c9db2da970d4709da126297b6cc38b6c81
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+description: 大規模な組織の自動応答を設定してテストする方法については、Microsoft Teams。
+ms.openlocfilehash: 50c024854481a30f4a612db6320f51818b6d3b0d
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046033"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249529"
 ---
 # <a name="set-up-an-auto-attendant"></a>自動応答を設定する
 
-自動応答を使用すると、ユーザーが組織に電話をかけ、メニュー システム内を移動して、適切な部署、通話キュー、ユーザー、またはオペレーターと話し合います。 組織の自動応答は、管理者センターまたは PowerShell Microsoft Teamsして作成できます。
+自動応答を使用すると、ユーザーが組織に電話をかけ、メニュー システム内を移動して、適切な部署、通話キュー、ユーザー、またはオペレーターと話し合います。 組織の自動応答は、管理センターまたは PowerShell Microsoft Teamsして作成できます。
 
 > [!TIP]
 > この記事は、大規模な組織向けです。 組織が小規模企業の場合は、「自動応答の設定 - 代わりに小規模ビジネス向け [チュートリアル」を](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 参照してください。
 
-この記事の手順に従う前に[、「Teams](plan-auto-attendant-call-queue.md)自動応答と通話キューの計画」を読[](plan-auto-attendant-call-queue.md#getting-started)み、概要の手順に従ってください。
+この記事の手順に従う前に[、「Teams](plan-auto-attendant-call-queue.md)自動応答と通話キューの計画」を[](plan-auto-attendant-call-queue.md#getting-started)読み、開始手順に従ってください。
 
 自動応答は、呼び出し元の入力に基づいて、次のいずれかの宛先に通話を送信できます。 <a name="call-routing-options" ></a>
 
 - **演算子** - 自動応答に対して定義された演算子。 演算子の定義は省略可能です。 演算子は、この一覧の他の任意の宛先として定義できます。
-- **組織内のユーザー** - 音声通話を受信できる組織内のユーザー。 このユーザーは、オンライン ユーザーまたはオンプレミスでホストされているユーザーを、Skype for Business Server。
+- **組織内のユーザー** - 音声通話を受信できる組織内のユーザー。 このユーザーには、オンライン ユーザーまたはオンプレミスでホストされているユーザーを、Skype for Business Server。
 - **音声アプリ** - 別の自動応答または通話キュー。 (この宛先を選択するときに、自動応答または通話キューに関連付けられているリソース アカウントを選択します)。
 - **ボイス** メール - 指定したグループに関連Microsoft 365ボイス メールボックス。 ボイスメールの文字起こしと "トーンの後にメッセージを残してください" を選択できます。 システム プロンプト。
 - **外部電話番号** - 任意の電話番号。 (「 [外部転送の技術的な詳細」を参照してください](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details))。
@@ -123,7 +123,7 @@ ms.locfileid: "60046033"
 
 **[名前でダイヤル** ] - このオプションを有効にすると、発信者はユーザーの名前を言い、電話のキーパッドに入力できます。 Skype for Business Server を使用してオンプレミスでホストされているオンライン ユーザーまたは任意のユーザーは、対象ユーザーであり、名前でダイヤルします。 ([ダイヤル スコープ] ページで、ディレクトリに含まれているユーザーと含まれていないユーザー [を設定](#dial-scope) できます)。
 
-**内線番号による** ダイヤル - このオプションを有効にすると、発信者は内線番号にダイヤルして組織内のユーザーと接続できます。 Skype for Business Server を使用してオンプレミスでホストされているオンライン ユーザーまたは任意のユーザーは、有資格ユーザーであり **、Dial by extension を使用して見つけることができます**。 ([ダイヤル スコープ] ページで、ディレクトリに含まれているユーザーと含まれていないユーザー [を設定](#dial-scope) できます)。
+**内線番号による** ダイヤル - このオプションを有効にすると、発信者は内線番号にダイヤルして組織内のユーザーと接続できます。 Skype for Business Server を使用してオンプレミスでホストされているオンライン ユーザーまたは任意のユーザーは、有資格ユーザーであり、内線番号で **ダイヤルで確認できます**。 ([ダイヤル スコープ] ページで、ディレクトリに含まれているユーザーと含まれていないユーザー [を設定](#dial-scope) できます)。
 
 ダイヤル バイ 拡張機能を利用するには、Active Directory または Azure Active Directory で定義されている次のいずれかの電話属性の一部として拡張機能を指定する必要があります (詳細[](/microsoft-365/admin/add-users/add-users)については、「ユーザーを個別または一括で追加する」を参照してください)。
 
@@ -141,7 +141,7 @@ ms.locfileid: "60046033"
 
 - 例 1: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678;ext=5678"
 - 例 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
-- 例 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
+- 例 3: -UserPrincipalName Set-MsolUser -Phonenumber "x5678" usern@domain.com -UserPrincipalName
 
 拡張機能は、管理[センターの](https://admin.microsoft.com/)Microsoft 365 管理センター または Azure Active Directory[設定できます](https://aad.portal.azure.com)。 自動応答と通話キューで変更を利用するには、最大で 12 時間かかる場合があります。
 
@@ -154,7 +154,7 @@ ms.locfileid: "60046033"
 
 ![時間外の日と時刻の設定のスクリーンショット。](media/auto-attendant-business-hours.png)
 
-各自動応答に対して営業時間を設定できます。 営業時間が設定されていない場合、24 時間 365 日のスケジュールが既定で設定されているので、その日のすべての日とすべての時間が営業時間と見なされます。 営業時間は、日中の時間内の休憩で設定できます。営業時間として設定されていないすべての時間は、時間外と見なされます。 さまざまな着信通話処理オプションと応答メッセージを時間外に設定できます。
+各自動応答に対して営業時間を設定できます。 営業時間が設定されていない場合、24 時間 365 日のスケジュールが既定で設定されているので、その日のすべての日とすべての時間が営業時間と見なされます。 営業時間は、その日の間の時間内の休憩で設定できます。営業時間として設定されていないすべての時間は、時間外と見なされます。 さまざまな着信通話処理オプションと応答メッセージを時間外に設定できます。
 
 自動応答と通話キューの構成によっては、直接の電話番号を含む自動応答の時間外通話ルーティングのみを指定する必要がある場合があります。
 
@@ -198,7 +198,7 @@ ms.locfileid: "60046033"
 
 ダイヤル *スコープは、* 呼び出し元がダイヤル バイ ネームまたはダイヤル バイ 拡張機能を使用する場合にディレクトリ内で使用できるユーザーを定義します。 [すべてのオンライン **ユーザー] の既定値には**、オンライン ユーザーまたはオンプレミスでホストされている組織内のすべてのユーザーが、Skype for Business Server。
 
-[含める] または [除外] で [カスタムユーザー グループ] を選択し、1 つ以上のグループ、配布リスト、またはセキュリティ グループMicrosoft 365を選択することで、特定のユーザーを含めるか除外することができます。  たとえば、組織内のエグゼクティブをダイヤル ディレクトリから除外することができます。 (ユーザーが両方のリストにある場合は、ディレクトリから除外されます)。
+[含める] または [除外] で [カスタムユーザー グループ] を選択し、1 つ以上のグループ、配布リスト、またはセキュリティ グループMicrosoft 365を選択することで、特定のユーザーを含めるか除外できます。  たとえば、組織内のエグゼクティブをダイヤル ディレクトリから除外することができます。 (ユーザーが両方のリストにある場合は、ディレクトリから除外されます)。
 
 > [!NOTE]
 > 新しいユーザーの名前がディレクトリに一覧表示されるには、最大 36 時間かかる場合があります。
@@ -217,7 +217,7 @@ ms.locfileid: "60046033"
 
 リソース アカウントの追加が完了したら、[送信] を **選択して自動** 応答の構成を完了します。
 
-詳細[については、「Teamsリソース アカウントの管理](manage-resource-accounts.md)」を参照してください。
+詳細[についてはTeamsリソース アカウントの管理に関](manage-resource-accounts.md)するページを参照してください。
 
 ## <a name="external-phone-number-transfers---technical-details"></a>外部電話番号の転送 - 技術的な詳細
 
@@ -225,7 +225,7 @@ ms.locfileid: "60046033"
 
 - 通話プランライセンスまたはオペレーター [](calling-plans-for-office-365.md) [Connect](operator-connect-plan.md)番号を持つリソース アカウントの場合、外部転送電話番号は E.164 形式 (+[国コード][市外コード][電話番号]) で入力する必要があります。
 
-- 電話システム ライセンスと直接ルーティングのオンライン音声ルーティング ポリシーを持つリソース アカウントの場合、外部転送の電話番号の形式は、セッション ボーダー コントローラー [(SBC)](direct-routing-connect-the-sbc.md)の設定によって異なっています。
+- 電話システム ライセンスと直接ルーティングのオンライン音声ルーティング ポリシーを持つリソース アカウントの場合、外部転送の電話番号の形式は、セッション ボーダー コントローラー [(SBC)](direct-routing-connect-the-sbc.md)の設定に依存します。
 
 表示される送信電話番号は、次のように決定されます。
 
@@ -234,7 +234,7 @@ ms.locfileid: "60046033"
     - [無効] に設定すると、元の発信者の電話番号が表示されます。 これは既定の推奨設定です。
     - [有効] に設定すると、リソース アカウントの電話番号が表示されます。
 
-ハイブリッド環境Skype for Business、自動応答通話を PSTN に転送するには、PSTN 番号に設定された通話転送を使用して、新しいオンプレミス ユーザーを作成します。 ユーザーがユーザーに対して有効エンタープライズ VoIP音声ポリシーが割り当てられている必要があります。 詳細については、「PSTN への自動応答 [通話転送」を参照してください](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
+ハイブリッド環境Skype for Business自動応答通話を PSTN に転送するには、PSTN 番号に設定された通話転送を使用して、新しいオンプレミス ユーザーを作成します。 ユーザーは、ユーザーに対して有効エンタープライズ VoIP、音声ポリシーが割り当てられている必要があります。 詳細については、「PSTN への自動応答 [通話転送」を参照してください](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)。
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>PowerShell を使用して自動応答を作成する
 
@@ -260,7 +260,7 @@ PowerShell を使用して自動応答を作成および設定できます。 �
 
 ## <a name="related-topics"></a>関連項目
 
-[電話システムで利用できる機能](./here-s-what-you-get-with-phone-system.md)
+[次の方法で使用Teams 電話](./here-s-what-you-get-with-phone-system.md)
 
 [サービス電話番号を取得する](./getting-service-phone-numbers.md)
 

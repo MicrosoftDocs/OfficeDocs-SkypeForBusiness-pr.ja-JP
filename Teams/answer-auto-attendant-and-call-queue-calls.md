@@ -1,8 +1,8 @@
 ---
 title: 自動応答と通話キューの呼び出しに応答する
 ms.reviewer: colongma
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 audience: ITPro
 ms.date: 09/20/2018
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6c60f0f3bcf5fc683a15c5b22cc7b98aa384d477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 83659cba18674e04daa0f9d181b9ac5acf53b146
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733366"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249489"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>自動応答および通話キューの通話に Teams から直接応答する
 
@@ -71,10 +71,11 @@ Microsoft Teams で自動応答および通話キューの通話を受信する�
 通話キュー エージェントがモバイル デバイスで通話を受信すると、デバイスがロックされている場合、通話が保留される可能性があります。 ユーザーは最初にデバイスのロックを解除してから、通話に応答する必要があります。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
--    [Microsoft 365 または Office 365 の電話システムとは](what-is-phone-system-in-office-365.md)
--    [クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
--    [クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
--    [クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
+[クラウドの通話キューを作成する](create-a-phone-system-call-queue.md)
+
+[クラウドの自動応答とは](what-are-phone-system-auto-attendants.md)
+
+[クラウドの自動応答をセットアップする](create-a-phone-system-auto-attendant.md)
 

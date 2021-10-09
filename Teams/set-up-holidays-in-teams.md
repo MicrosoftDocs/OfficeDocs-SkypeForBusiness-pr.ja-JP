@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams で休日を設定する
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,18 +20,18 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: 自動応答で使用するために、Microsoft Teamsの休日を設定する方法について学習します。
-ms.openlocfilehash: b72eec8778577454c55d9b3e2e999900fcb70143
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9c86f28b855b7f92d7e4f5d850c2d97baa2a106
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733206"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249499"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams で休日を設定する
 
-Teams Holidays 機能を使用して、部門、通話キュー、または組織内のユーザーが異なる勤務時間に従う場合、または利用できない特定の日時に、発信者に代替メッセージとルーティングを提供できます。 たとえば、組織が閉じている可能性がある新年の祝日を作成できます。
+Teams Holidays 機能を使用すると、部門、通話キュー、または組織内のユーザーが異なる勤務時間に従う場合、または利用できない特定の日時に、発信者に代替メッセージとルーティングを提供できます。 たとえば、組織が閉じている可能性がある新年の祝日を作成できます。
 
-ここで作成する祝日は、自動応答を設定するときに使用 [できます](create-a-phone-system-auto-attendant.md)。それぞれ独自のあいさつ応答と通話ルーティング設定が設定されています。
+ここで作成する祝日は、自動応答を設定するときに使用 [できます](create-a-phone-system-auto-attendant.md)。それぞれに独自のあいさつ応答と通話ルーティング設定が設定されています。
 
 ## <a name="create-a-holiday"></a>休日を作成する
 
@@ -54,7 +54,7 @@ Teams Holidays 機能を使用して、部門、通話キュー、または組�
 8. ドロップダウン リストを使用して、休日の終了時刻を選択します。 終了 **時刻は、** 開始時刻 より後 **である必要があります**。  
 
    > [!NOTE]
-   > 祝日が 1 日 (つまり 24 時間の期間) の場合は、[終了時刻] を次の日に設定し、時刻を午前 12:00 に設定する必要があります。 たとえば、組織が 1 月 1 日に正月 1日に閉じている場合は、[開始時刻] を [1月 1 日 12:00 AM] に設定し、[終了時刻] を [1 月 2 日 @ 12:00 AM] に設定します。
+   > 祝日が 1 日の場合 (つまり、24 時間の期間)、終了時刻を翌日に設定し、時刻を午前 12 時に設定する必要があります。 たとえば、組織が 1 月 1 日に正月 1日に閉じている場合は、[開始時刻] を [1月 1 日 12:00 AM] に設定し、[終了時刻] を [1 月 2 日 @ 12:00 AM] に設定します。
 
 9. 必要に応じて、定期的な祝日の日付を追加します。
 
@@ -82,4 +82,4 @@ Teams Holidays 機能を使用して、部門、通話キュー、または組�
 
 ## <a name="related-topics"></a>関連項目
 
-[自動応答Teams通話キューの計画を立てませんか](plan-auto-attendant-call-queue.md)?
+[自動応答Teamsキューの計画を立てませんか](plan-auto-attendant-call-queue.md)?

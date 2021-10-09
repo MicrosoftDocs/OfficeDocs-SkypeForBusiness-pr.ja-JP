@@ -19,18 +19,18 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: モバイル ブラウザーでの仮想アクセスのTeamsについて説明します。
-ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432689"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249759"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>モバイル ブラウザーで仮想アクセスTeamsの参加エクスペリエンスを管理する
 
-Microsoft Teamsをダウンロードすることなく、モバイル デバイスで簡単に予定に参加Teams。 よりシームレスなエクスペリエンスを実現するには、出席者はモバイル ブラウザーから医療訪問、財務相談、教育者のオフィス時間などの予定に参加できます。 出席者は、Android または iOS モバイル Teamsアプリをインストールする必要があります。
+Microsoft Teamsをダウンロードすることなく、モバイル デバイス上の予定に簡単に参加Teams。 よりシームレスなエクスペリエンスを実現するには、出席者はモバイル ブラウザーから、医療訪問、財務相談、教育者のオフィス時間などの予定に参加できます。 出席者は、Android または iOS モバイル Teamsアプリをインストールする必要があります。
 
-モバイル ブラウザーに参加すると、出席者がモバイル デバイスから予定に参加すると、ユーザーはモバイル デバイスをダウンロードTeams。 代わりに、Teamsブラウザーで [今すぐ参加] を選択して参加できます。 この機能では、Teams が出席者のモバイル デバイスに既にインストールされている場合、Teams はアプリではなくモバイル ブラウザーで開きます。
+モバイル ブラウザーに参加すると、出席者がモバイル デバイスから予定に参加すると、ユーザーはモバイル デバイスをダウンロードTeams。 代わりに、モバイル Teams開き、出席者は [今すぐ参加] を **選択して** 参加できます。 この機能では、Teams が出席者のモバイル デバイスに既にインストールされている場合、Teams はアプリではなくモバイル ブラウザーで開きます。
 
 現在、モバイル ブラウザーの参加は、次の予定を通じてスケジュールされている予定で使用できます。
 
@@ -43,11 +43,11 @@ Microsoft Teamsをダウンロードすることなく、モバイル デバイ�
 
 組織内のスケジューラは、特定の予定の種類と Bookings アプリの個々の予定に対してこの機能を有効にできます。
 
-この機能を有効にすると、出席者に送信される確認メールまたは SMS テキストに、モバイル ブラウザーで Teams を開く会議参加リンクが含まれる。 Android モバイル デバイスでは、Chrome Teamsが開きます。 iOS モバイル デバイスでは、Safari Teamsが開きます。
+この機能を有効にすると、出席者に送信される確認メールまたは SMS テキストに、モバイル ブラウザーで Teams を開く会議への参加リンクが含まれる状態となります。 Android モバイル デバイスでは、Chrome Teamsが開きます。 iOS モバイル デバイスでは、Safari Teamsが開きます。
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>予定の種類に対してモバイル ブラウザー参加を有効にする
 
-[Bookings] で、[予定の種類 **設定]** に移動し、予定の種類 を選択し、[モバイル ブラウザーから出席者の参加を許可する]  >  **をオンにします**。 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) これにより、この種類のすべての予定に対してモバイル ブラウザーに参加できます。
+[Bookings] で、[予定の種類 **設定** に移動し、予定の種類 を選択し、[モバイル ブラウザーから出席者の参加を許可する  >  ]**をオンにします**。 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) これにより、この種類のすべての予定に対してモバイル ブラウザーに参加できます。
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings アプリの予定の種類の [モバイル ブラウザーから出席者の参加を許可する] 設定のスクリーンショット":::
 
@@ -57,11 +57,11 @@ Microsoft Teamsをダウンロードすることなく、モバイル デバイ�
 
 :::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Bookings アプリの新しい予約フォームの [モバイル ブラウザーから出席者の参加を許可する] 設定のスクリーンショット":::
 
-### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>EHR コネクタを介してTeams予定
+### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>EHR コネクタでスケジュールTeams予定
 
 セットアップは、ユーザーまたはスタッフが必要とします。
 
-EHR コネクタTeams、MyChart Web とモバイルを介して仮想訪問に参加する患者をサポートします。 予約の時点で、患者は [仮想訪問の開始] ボタンを使用して、MyChart から仮想訪問 **を開始** できます。 患者は必要なブラウザーを選択し、そのTeams開きます。
+新Teams EHR コネクタは、MyChart Web とモバイルを介して仮想訪問に参加する患者をサポートします。 予約の時点で、患者は [仮想訪問の開始] ボタンを使用して、MyChart から仮想訪問 **を開始** できます。 患者は必要なブラウザーを選択し、そのTeamsで開きます。
 
 ## <a name="supported-mobile-browsers"></a>サポートされているモバイル ブラウザー
 
@@ -77,8 +77,12 @@ EHR コネクタTeams、MyChart Web とモバイルを介して仮想訪問に�
 
 &sup2;送信ビデオのサポートには、Safari 14+ と macOS 11+ が必要です。
 
+## <a name="things-to-consider"></a>考慮すべき点
+
+仮想アクセスを実行するスタッフ メンバーは、Teams デスクトップ、モバイル、または Web クライアントから、モバイル ブラウザーから参加する出席者と画面を共有できます。 ただし、出席者はモバイル ブラウザーから画面を共有できない。
+
 > [!NOTE]
-> Teams の今後のリリースでは、会議参加エクスペリエンスにさらに機能を追加する予定なので、最新の情報を確認してください。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
+> Teams の今後のリリースでは、会議参加エクスペリエンスにさらに機能が追加されます。そのため、最新の情報を確認してください。 Teams 機能の最新情報を入手するには、「[Microsoft 365 ロードマップ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)」を参照してください。
 
 ## <a name="related-articles"></a>関連記事
 

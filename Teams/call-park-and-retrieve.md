@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのコール パークおよび保留解除
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: srividhc
 ms.topic: article
@@ -20,13 +20,13 @@ ms.custom:
 - Phone System
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
-description: コール パークを使用し、通話を取得して通話を保留する方法についてMicrosoft Teams。
-ms.openlocfilehash: e58cf8ead120cb7265665abecc0683ea9a96f559
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: コール パークを使用して通話を取得し、通話を保留する方法についてMicrosoft Teams。
+ms.openlocfilehash: 9092e76b9d8db5e29c1dd5881cd6b0f69d70ae4a
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732546"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249509"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Microsoft Teams でのコール パークおよび保留解除
 
@@ -38,7 +38,7 @@ ms.locfileid: "58732546"
 - バッテリーの充電が切れかけているため、ユーザーが携帯電話で通話を保留にします。 その後、そのユーザーは Teams の卓上電話でコードを入力して通話を保留解除できます。
 - サポート担当者が顧客からの電話を保留して、顧客への通話サポートを行うエキスパートへ Teams チャネルでアナウンスを送信します。 エキスパートが Teams クライアントにコードを入力し、通話を保留解除します。
 
-呼び出しをパークして取得するには、ユーザーはユーザーエンタープライズ VoIP、コール パーク ポリシーに含める必要があります。
+呼び出しをパークおよび取得するには、ユーザーはユーザーエンタープライズ VoIP、コール パーク ポリシーに含める必要があります。
 
 > [!NOTE]
 > コール パークと取得は、Teams[展開](teams-and-skypeforbusiness-coexistence-and-interoperability.md)モードでのみ使用できます。また、IP 電話Skype for Businessサポートされていません。
@@ -47,7 +47,7 @@ ms.locfileid: "58732546"
 
 コール パークを構成して取得Teams管理者である必要があります。 既定では無効になっています。 コール パーク ポリシーを使用して、ユーザーに対して有効にしたり、ユーザー グループを作成したりできます。 一連のユーザーに同じポリシーを適用すると、そのユーザーの間で通話を保留したり、保留を解除したりできます。
 
-呼び出しの集荷番号の範囲は、10 ~ 99 の範囲に事前に定義され、変更することはできません。 最初にパークされた呼び出しは 10 の集荷コードをレンダリングし、次にパークされた呼び出しは 11 などの集荷コードをレンダリングします。 99 までが集荷コードとしてレンダリングされます。 その後、レンダリングされた集荷コードは 10 から再度開始されます。  89 を超えるアクティブなパークされた呼び出しがある場合、レンダリングされた集荷コードは 99 を超えて増加し続け、90 番目のアクティブなパークされた呼び出しが集荷コードに対して 100 回レンダリングされ、91 番目のアクティブなパークされた呼び出しは 101 の集荷コードをレンダリングします。
+呼び出しの集荷番号の範囲は、10 ~ 99 の範囲に事前に定義され、変更することはできません。 最初にパークされた呼び出しは 10 の集荷コードをレンダリングし、次にパークされた呼び出しは 11 などの集荷コードをレンダリングします。 99 までが集荷コードとしてレンダリングされます。 その後、レンダリングされた集荷コードは 10 から再度開始されます。  89 を超えるアクティブなパークされた呼び出しがある場合、レンダリングされた集荷コードは 99 を超えて増加し続け、90 番目のアクティブなパークされた呼び出しが集荷コードに対して 100 回レンダリングされ、91 番目のアクティブなパークされた呼び出しは 101 の集荷コードがレンダリングされます。
 
 コール パーク ポリシーを有効にするには
 
@@ -76,12 +76,12 @@ ms.locfileid: "58732546"
 
 ## <a name="related-topics"></a>関連項目
 
-[通話を一時Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+[通話を他のユーザーにTeams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
 [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
 
-[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
+[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
 
-[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)
+[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
 
-[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)
+[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy)
