@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d9859b15b881d53a2f1b3c5b39442331e51be2e
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: e5aeecf93146a628c897e22868dc6b4f6ed7b795
+ms.sourcegitcommit: 428eda4236bd063f44e2571563dd96bd6ed1749a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138223"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60268281"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
@@ -38,10 +38,14 @@ Microsoft は以下の各ベンダーと協力します。
 
   > [!NOTE]
   > Microsoft は、認定済みの 1 つまたは複数のデバイスがダイレクト ルーティング経由で接続されている電話システムのみをサポートします。 Microsoft は、認定済みでないデバイスがダイレクト ルーティング経由で電話システムに接続されている場合に、サポート ケースを拒否する権利を留保します。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを依頼する必要があります。
+  > 認定は、特定の SBC ファームウェア バージョンに付与されます。 以下に記載されている SBC ファームウェア バージョンは、すべて認定済みであり、サポートされています。 major.minor バージョンが同じであれば、記載されているバージョンよりも高いファームウェア バージョンがサポートされます。
+  > 例: 6.10.258 をサポート - この場合、ファームウェア バージョン 6.10. (258 以降) もサポートしています。6.20.100 を推奨 - この場合は、ファームウェア バージョン 6.20. (100 以降) も推奨しています。特定のバージョンに関するサポートの有無に関する質問については、SBC ベンダーにお問い合わせください。
 
 次の表に、ダイレクト ルーティングに対応する認定済みデバイスを一覧表示します。 (ローカル メディアの最適化をサポートする SBC ベンダーの詳細については、「[ダイレクト ルーティング向けローカル メディアの最適化を構成する](direct-routing-media-optimization-configure.md)」を参照してください。)
 
-[ダイレクト ルーティングに関する詳細情報](https://aka.ms/dr)。ダイレクト ルーティングの SBC 認定プログラムについてご質問がある場合は、drsbccertification@microsoft.com にお問い合わせください。 <br/>
+[ダイレクト ルーティングの詳細についてはこちらをご覧ください](https://aka.ms/dr)。
+ダイレクト ルーティングの SBC 認証プログラムに関する質問がある場合は、drsbccertification@microsoft.com にお問い合わせください。 注: 今後通知がなされるまで、認定のための新しい推薦は受け付けません。
+<br/>
 
 ## <a name="certified-sbc-vendors"></a>認定済み SBC ベンダー
 
