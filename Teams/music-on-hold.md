@@ -14,18 +14,18 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to manage the Music on Hold feature in Phone System.
-ms.openlocfilehash: 18bf6a1d97ef52d711aa11c1abc7fceed02e6726
-ms.sourcegitcommit: a0f6d7dc524edbb82ab8edc0a9602310a74bff43
+ms.openlocfilehash: 5e28aa4774d105b687551601ba89657d91a08170
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/08/2021
-ms.locfileid: "60238139"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356555"
 ---
 # <a name="music-on-hold"></a>保留音
 
 ユーザーがMicrosoft Teams公衆交換電話網 (PSTN) からの着信通話を保留にした場合、PSTN 発信者は選択した音楽を聞き取ります。
 
-再生される音楽は、Microsoft が提供する既定の音楽か、アップロードして構成するカスタム音楽のいずれかです。 テナント管理者は、Teams 通話ポリシーを使用し、そのユーザーにポリシーを割り当て、保留音を使用できるかどうかTeamsします。 
+再生される音楽は、Microsoft が提供する既定の音楽か、アップロードして構成するカスタム音楽のいずれかです。 テナント管理者は、Teams 呼び出し元ポリシーを作成し、そのユーザーにポリシーを割り当てるTeamsします。 
 
 PSTN 発信者は、他のシナリオでも保留音を聞けるので注意してください。たとえば、クラウド通話キューにコールインする場合や、通話がユーザーによってMicrosoft Teamsされます。 これらのシナリオは、この記事で説明する機能によってカバーまたは制御されません。 
 
@@ -33,7 +33,7 @@ PSTN 発信者は、他のシナリオでも保留音を聞けるので注意し
 
 保留音を構成するには:
 
-1.  管理センターの左側のナビゲーションで、[音声Teams通話ポリシー **] に移動>します**。
+1.  管理センターの左側のナビゲーションTeams、[音声通話] >**に移動します**。
 
 2.  [ポリシー **の管理] タブ** で、既存のポリシーのいずれかを選択するか、新しいポリシーを作成します。
 
@@ -41,7 +41,7 @@ PSTN 発信者は、他のシナリオでも保留音を聞けるので注意し
 
 PowerShell モジュールの一部を使用して、保留Teams構成できます。 TeamsCallingPolicy で、MusicOnHoldEnabledType パラメーターを Enabled に変更し、そのポリシー インスタンスを 1 人または複数のユーザーに付与します。
 
-Teamsのユーザーが [保留時の音楽] が [Teams 通話ポリシー] を [無効] に設定されている場合、Teams ユーザーが通話を保留にした場合、音楽は再生されません。
+Teamsのユーザーが [保留時の音楽] を [無効] に設定した Teams 通話ポリシーを持つ場合、Teams ユーザーが通話を保留にした場合、音楽は再生されません。
 
 ## <a name="configure-custom-music"></a>カスタム 音楽を構成する
 
@@ -57,7 +57,7 @@ PSTN 呼び出し元に既定の音楽を再生する以外に、音楽や他の
 カスタムの保留音を構成するには、Teams PowerShell モジュール 2.5.0 以降の PowerShell コマンドレット New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy および Import/Get/Remove-CsOnlineAudioFile を使用します。
 
 
-1. 通話ポリシーでTeams PSTN 呼び出し元の音楽が [有効] に設定Teamsします。 
+1. 通話ポリシーでTeams PSTN 発信者の音楽が [有効] に設定Teams確認します。 
 
 2. アップロード オーディオ ファイルを開く。
 
@@ -65,7 +65,7 @@ PSTN 呼び出し元に既定の音楽を再生する以外に、音楽や他の
 
 ### <a name="upload-the-custom-audio-file"></a>アップロード オーディオ ファイルを作成する
 
-カスタムの保留音の構成は、オーディオ ファイルのアップロードから始まります。 この目的には、PowerShell コマンドレットImport-CsOnlineAudioFile使用します。 PowerShell インターフェイスを使用して MP3 オーディオ ファイルをアップロードする例を次に示します。
+保留のカスタムミュージックの構成は、オーディオ ファイルのアップロードから始まります。 この目的には、PowerShell コマンドレットImport-CsOnlineAudioFile使用します。 PowerShell インターフェイスを使用して MP3 オーディオ ファイルをアップロードする例を次に示します。
 
 ```PowerShell
 C:\> $content = Get-Content "C:\tmp\customMoH1.mp3" -Encoding byte -ReadCount 0
@@ -84,7 +84,7 @@ ApplicationId : TenantGlobal
 C:\> New-CsTeamsCallHoldPolicy -Identity "CustomMoH1" -Description "Custom MoH using CustomMoH1.mp3" -AudioFileId $AudioFile.Id
 ```
 
-新しい通話ホールド ポリシーをTeamsしたら、次のように、次のコマンドを使用してGrant-CsTeamsCallHoldPolicy付与できます。
+新しい通話ホールド ポリシーをTeamsしたら、次の方法でユーザーにGrant-CsTeamsCallHoldPolicyできます。
 
 ```PowerShell
 C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contoso.com
@@ -94,27 +94,29 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 アップロードしたオーディオ ファイルを削除するには、次のコマンドレットRemove-CsOnlineAudioFileします。 オーディオ ファイルを削除する前に、TeamsCallHoldPolicy でオーディオ ファイルを使用していないか確認してください。
 
+## <a name="feature-availability"></a>機能の可用性
+
+次の表は、保留時の音楽と保留音のカスタム音楽をサポートするクライアントとデバイスの機能を示しています。 Microsoft では引き続き機能のサポートが追加されています。そのため、頻繁に追加の可用性を確認してください。
+
+
+| 機能 | デスクトップ <br> Windows/Mac OS | ブラウザー | モバイル <br> iOS | モバイル <br> Android | Teams 電話 |
+| :------------| :------- | :------- | :------- | :------- | :------- |
+| 1 対 1 の PSTN 通話を保留する | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | -保留音<br>-Custom Music on Hold | 保留音 | 保留音 |
+| 1 対 1 PSTN 通話でコンサルティング転送を保留する |-保留音<br>-Custom Music on Hold | | | | |
+
 ## <a name="restrictions"></a>制限
 
 - 保留音は商用クラウドでのみ利用できます。
 
-- 保留音は、ユーザーが [のみ] モードTeamsにのみ使用できます。
+- 保留音は、ユーザーが TeamsOnly モードの場合にのみ使用できます。
 
-- 呼び出されたTeamsがルーティングに対して有効Location-Based、発信者に対して保留音を再生することはできません。
+- 呼び出されたユーザー Teamsルーティングが有効Location-Based場合、保留音を呼び出し元に再生することはできません。
 
--   保留音は、呼び出Teamsユーザーが次のいずれかのバージョンのクライアントを使用している場合Teams使用できます。
-    -   Microsoft TeamsのWindows
-    -   Microsoft Teams for Mac
-    -   Microsoft Teams web 上のファイル
-    -   Microsoft Teams iOS の場合
-    - Microsoft Teams for Android
-<br>
 - アップロード後にオーディオ ファイルをエクスポートできません。削除できるのは削除のみです。
 
-- Custom Music On Hold は、共有行の外観 (委任) 用に構成されたユーザーと、Call Park が使用されている場合は使用できません。 標準の保留音が再生されます。
+- Custom Music on Hold は、共有行の外観 (委任) 用に構成されたユーザーと、Call Park が使用されている場合は使用できません。 標準の保留音が再生されます。
 
 - 一部のシナリオでは、ダイレクト ルーティング メディア バイパス呼び出しは、保留時の音楽を再生するためにメディア以外のバイパスに変換され、通話が終了するまで非メディア バイパスとして保持されます。
-
 
 
 ## <a name="related-topics"></a>関連項目

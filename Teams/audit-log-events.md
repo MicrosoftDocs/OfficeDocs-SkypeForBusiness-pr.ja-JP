@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
-ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
+ms.openlocfilehash: e769de858a7c0cb1ab14a538b1b1dc2a6559b21f
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60148908"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356475"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -35,7 +35,7 @@ ms.locfileid: "60148908"
 - チャネルの削除
 - チャンネル設定の変更
 
-監査対象となる Teams アクティビティの完全な一覧については、[Teams アクティビティ](#teams-activities) および [Teams アクティビティでのシフト (プレビュー段階)](#shifts-in-teams-activities) を参照してください。
+監査されるアクティビティの完全なTeamsについては、「Teams アクティビティ」を参照Teams[](#teams-activities)[してください](#shifts-in-teams-activities)。
 
 > [!NOTE]
 > プライベート チャネルからの監査イベントも、チームや標準チャネルの場合と同様に記録されます。
@@ -80,46 +80,6 @@ ms.locfileid: "60148908"
 
 オーディオ ログ検索の使い方は、[こちらの動画](https://www.youtube.com/embed/UBxaRySAxyE)をチェックアウトしてください。 Teams のプログラム マネージャーである Ansuman Acharya が、Teams の監査ログ検索を行う方法を説明します。
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Cloud App Security を使用してアクティビティ ポリシーを設定する
-
-[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) の統合を使用し、[アクティビティ ポリシー](/cloud-app-security/user-activity-policies) を設定して、アプリ プロバイダーの API を使用した幅広い自動処理を適用することができます。 これらのポリシーにより、さまざまなユーザーが行う特定のアクティビティを監視したり、予想外に高率で発生する特定のタイプのアクティビティをフォローしたりすることができます。
-
-アクティビティ検出ポリシーを設定すると、アラートの生成を開始します。 アラートは、ポリシーを作成した後に発生したアクティビティに対してのみ生成されます。 ここでは、Cloud App Security でアクティビティ ポリシーを使用して Teams アクティビティを監視する方法について、いくつかのシナリオ例を紹介します。
-
-### <a name="external-user-scenario"></a>外部ユーザーのシナリオ
-
-ビジネスの観点から注意したいシナリオの一つに、Teams 環境に外部ユーザーを追加することがあります。 外部ユーザーが有効になっている場合は、そのプレゼンスを監視することをお勧めします。  [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) を使用して、脅威の可能性を特定することができます。
-
-![外部ユーザーの追加を監視するポリシー。](media/TeamsExternalUserAddPolicy.png)
-
-外部ユーザーの追加を監視するこのポリシーのスクリーンショットでは、ポリシーに名前を付け、ビジネスの必要に応じて重大度を設定し、(この場合は) 単一のアクティビティとして設定した上で、内部ユーザー以外の追加のみを具体的に監視するパラメーターを設定し、このアクティビティを Teams に限定することができます。
-
-本ポリシーの結果は、次の活動ログで確認することができます。
-
-![外部ユーザー ポリシーによってトリガーされるイベント。](media/TeamsExternalUserList.png)
-
-ここでは、設定したポリシーとの一致を確認し、必要に応じて調整を行ったり、結果をエクスポートして他の場所で使用することができます。
-
-### <a name="mass-delete-scenario"></a>大量削除のシナリオ
-
-前述したように、削除シナリオを監視することができます。 Teams サイトの大量削除を監視するポリシーを作成することができます。 この例では、30 分間隔でチームの大量削除を検知するアラートベースのポリシーを設定しています。
-
-![一括チーム削除検出のポリシーの設定を示すポリシー。](media/TeamsMassDeletePolicy.png)
-
-スクリーンショットが示すように、このポリシーには、重大度、単一または繰り返されたアクション、Teams とサイトの削除に限定するパラメーターなど、さまざまなパラメーターを設定して Teams の削除を監視することができます。 これは、テンプレートとは別に行うこともできますし、組織の必要に応じて、このポリシーのベースとなるテンプレートを作成させることもできます。
-
-ビジネスに有効なポリシーを設定した後は、イベントがトリガーされるとアクティビティ ログの結果を確認することができます。
-
-![一括削除によってトリガーされるイベントのスクリーンショット。](media/TeamsMassDeleteList.png)
-
-設定したポリシーをフィルター処理して、そのポリシーの結果を表示することができます。 アクティビティ ログで得られる結果が満足のいくものではない場合 (多くの結果が表示されたり、全く表示されなかったりする場合)、クエリを微調整して、必要なことに関連付けることができます。
-
-### <a name="alert-and-governance-scenario"></a>アラートとガバナンスのシナリオ
-
-アクティビティ ポリシーがトリガーされた場合にアラートを設定し、管理者や他のユーザーにメール送信することができます。 ユーザーの保留や、ユーザーに再度サインインさせるなどの自動化されたガバナンス アクションを自動で設定することができます。 この例では、アクティビティ ポリシーがトリガーされ、ユーザーが 30 分間で 2 つ以上のチームを削除したと判断した場合に、ユーザー アカウントを一時停止する方法を示しています。
-
-![アクティビティ ポリシーのアラートとガバナンス アクションのスクリーンショット。](media/audit-log-governance.png)
-
 ## <a name="teams-activities"></a>Teams アクティビティ
 
 ここでは、Microsoft 365 の監査ログで Teams のユーザーと管理者のアクティビティのために記録されるすべてのイベントの一覧を紹介します。 表には、**[アクティビティ]** 列に表示されるフレンドリ名と、監査レコードの詳細情報および検索結果をエクスポートするときに CSV ファイルに表示される対応する操作名が含まれています。
@@ -129,6 +89,8 @@ ms.locfileid: "60148908"
 |チームへのボットの追加   |BotAddedToTeam        |ユーザーがチームにボットを追加しました。        |
 |チャネルの追加   |ChannelAdded         |ユーザーがチームにチャネルを追加しました。         |
 |コネクタの追加  |ConnectorAdded          |ユーザーがチャネルにコネクタを追加しました。        |
+|会議の詳細をTeamsしました|MeetingDetail|Teams開始時刻、終了時刻、会議に参加する URL など、会議に関する情報が追加されました。|
+|会議の参加者に関する情報を追加しました|MeetingParticipantTrack|Teamsのユーザー ID、参加者が会議に参加した時刻、参加者が会議を離時刻など、会議の参加者に関する情報を追加しました。|
 |メンバーの追加    |MemberAdded         |チームの所有者が、チーム、チャネル、またはグループ チャットにメンバーを追加しました。         |
 |タブの追加    |TabAdded         |ユーザーがチャネルにタブを追加しました。        |
 |チャンネル設定の変更    |ChannelSettingChanged         |次のアクティビティがチーム メンバーにより実行されると、ChannelSettingChanged 操作が記録されます。 これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。 <ul><li>チーム チャネルの名前が変更されます (**チャネル名**)</li><li>チーム チャネルの説明が変更されます (**チャネルの説明**)</li> </ul>      |
@@ -157,14 +119,14 @@ ms.locfileid: "60148908"
 |メンバーの削除    |MemberRemoved        |チームの所有者が、チーム、チャネル、またはグループ チャットからメンバーを削除しました。         |
 |タブの削除    |TabRemoved         |ユーザーがチャネルからタブを削除しました。         |
 |取得したメッセージ<sup>1、2</sup> <sup></sup> |MessagesListed |チャットまたはチャネルからのメッセージが取得されました。|
-|URL リンクを含むメッセージを送信しました Teams |MessageCreatedHasLink|ユーザーは、URL リンクを含むメッセージを Teams。|
+|URL リンクを含むメッセージを送信しました Teams |MessageCreatedHasLink|ユーザーが URL リンクを含むメッセージを送信すると、Teams。|
 |メッセージ作成 <sup>1、2 </sup>の変更通知 <sup>を送信しました</sup>  |MessageCreatedNotification |サブスクライブしているリスナー アプリケーションに新しいメッセージを通知する変更通知が送信されました。|
 |メッセージ削除の変更通知を送信<sup>しました 1,2</sup> <sup></sup>  |MessageDeletedNotification |削除されたメッセージをサブスクライブしているリスナー アプリケーションに通知する変更通知が送信されました。|
 |メッセージ更新プログラム <sup>1、2 </sup>の変更通知 <sup>を送信しました</sup>    |MessageUpdatedNotification |サブスクライブしているリスナー アプリケーションに更新されたメッセージを通知する変更通知が送信されました。|
 |メッセージ変更通知のサブスクライブ<sup>1、2</sup> <sup></sup> |SubscribedToMessages   |メッセージの変更通知を受け取るリスナー アプリケーションによってサブスクリプションが作成されました。|
 |削除されたアプリ |AppUninstalled           |アプリがアンインストールされました。     |
 |更新されたアプリ |AppUpdatedInCatalog           |アプリがカタログで更新されました。     |
-|チャット<sup>1、2 を</sup><sup>更新しました</sup> |ChatUpdated    |チャットTeamsが更新されました。|
+|チャット<sup>1、2 を</sup><sup>更新しました</sup> |ChatUpdated    |チャットTeams更新されました。|
 |メッセージ<sup>1、2 を</sup><sup>更新しました</sup>  |MessageUpdated |チャットまたはチャネルのメッセージが更新されました。|
 |コネクタの更新    |ConnectorUpdated         |ユーザーがチャネルのコネクタを変更しました。         |
 |タブの更新   |TabUpdated         |ユーザーがチャネルのタブを変更しました。         |
@@ -173,7 +135,7 @@ ms.locfileid: "60148908"
 
 
 > [!NOTE]
-> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出すことによって操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365 」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出すことによって操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 
@@ -218,6 +180,46 @@ Office 365 マネージメント アクティビティ API を使用して、Tea
 ## <a name="attribution-in-teams-audit-logs"></a>Teams の監査ログでの属性
 
 Azure Active Directory (Azure AD)、Microsoft 365 管理センター、または Microsoft 365 グループ グラフ API を通じて行われた Teams へのメンバー変更 (ユーザーの追加や削除など) は、Teams の監査メッセージと一般チャネルに、実際のアクションの開始者ではなく、チームの既存の所有者に対する属性を付けて表示されます。 これらのシナリオでは、Azure AD または[Microsoft 365 グループの監査ログ](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)にお問い合わせの上、関連情報を参照してください。
+
+## <a name="use-cloud-app-security-to-set-activity-policies"></a>Cloud App Security を使用してアクティビティ ポリシーを設定する
+
+[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security) の統合を使用し、[アクティビティ ポリシー](/cloud-app-security/user-activity-policies) を設定して、アプリ プロバイダーの API を使用した幅広い自動処理を適用することができます。 これらのポリシーにより、さまざまなユーザーが行う特定のアクティビティを監視したり、予想外に高率で発生する特定のタイプのアクティビティをフォローしたりすることができます。
+
+アクティビティ検出ポリシーを設定すると、アラートの生成を開始します。 アラートは、ポリシーを作成した後に発生したアクティビティに対してのみ生成されます。 ここでは、Cloud App Security でアクティビティ ポリシーを使用して Teams アクティビティを監視する方法について、いくつかのシナリオ例を紹介します。
+
+### <a name="external-user-scenario"></a>外部ユーザーのシナリオ
+
+ビジネスの観点から注意したいシナリオの一つに、Teams 環境に外部ユーザーを追加することがあります。 外部ユーザーが有効になっている場合は、そのプレゼンスを監視することをお勧めします。  [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) を使用して、脅威の可能性を特定することができます。
+
+![外部ユーザーの追加を監視するポリシー。](media/TeamsExternalUserAddPolicy.png)
+
+外部ユーザーの追加を監視するこのポリシーのスクリーンショットでは、ポリシーに名前を付け、ビジネスの必要に応じて重大度を設定し、(この場合は) 単一のアクティビティとして設定した上で、内部ユーザー以外の追加のみを具体的に監視するパラメーターを設定し、このアクティビティを Teams に限定することができます。
+
+本ポリシーの結果は、次の活動ログで確認することができます。
+
+![外部ユーザー ポリシーによってトリガーされるイベント。](media/TeamsExternalUserList.png)
+
+ここでは、設定したポリシーとの一致を確認し、必要に応じて調整を行ったり、結果をエクスポートして他の場所で使用することができます。
+
+### <a name="mass-delete-scenario"></a>大量削除のシナリオ
+
+前述したように、削除シナリオを監視することができます。 Teams サイトの大量削除を監視するポリシーを作成することができます。 この例では、30 分間隔でチームの大量削除を検知するアラートベースのポリシーを設定しています。
+
+![一括チーム削除検出のポリシーの設定を示すポリシー。](media/TeamsMassDeletePolicy.png)
+
+スクリーンショットが示すように、このポリシーには、重大度、単一または繰り返されたアクション、Teams とサイトの削除に限定するパラメーターなど、さまざまなパラメーターを設定して Teams の削除を監視することができます。 これは、テンプレートとは別に行うこともできますし、組織の必要に応じて、このポリシーのベースとなるテンプレートを作成させることもできます。
+
+ビジネスに有効なポリシーを設定した後は、イベントがトリガーされるとアクティビティ ログの結果を確認することができます。
+
+![一括削除によってトリガーされるイベントのスクリーンショット。](media/TeamsMassDeleteList.png)
+
+設定したポリシーをフィルター処理して、そのポリシーの結果を表示することができます。 アクティビティ ログで得られる結果が満足のいくものではない場合 (多くの結果が表示されたり、全く表示されなかったりする場合)、クエリを微調整して、必要なことに関連付けることができます。
+
+### <a name="alert-and-governance-scenario"></a>アラートとガバナンスのシナリオ
+
+アクティビティ ポリシーがトリガーされた場合にアラートを設定し、管理者や他のユーザーにメール送信することができます。 ユーザーの保留や、ユーザーに再度サインインさせるなどの自動化されたガバナンス アクションを自動で設定することができます。 この例では、アクティビティ ポリシーがトリガーされ、ユーザーが 30 分間で 2 つ以上のチームを削除したと判断した場合に、ユーザー アカウントを一時停止する方法を示しています。
+
+![アクティビティ ポリシーのアラートとガバナンス アクションのスクリーンショット。](media/audit-log-governance.png)
 
 ## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Cloud App Security を使用して異常検出ポリシーを設定する
 
