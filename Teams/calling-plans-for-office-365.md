@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Skype for Business の通話プラン (PSTN 通話プラン) のオプションと、組織のライセンスを取得する方法を確認します。 '
-ms.openlocfilehash: f79fbab055e7dbc9148e2be11539ecbfbc9b0c03
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727266"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367535"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>通話プランのMicrosoft 365
 
@@ -39,16 +39,20 @@ ms.locfileid: "58727266"
   
 通話プランのオプションを紹介します。
   
-- **国内通話プラン**: ライセンスを取得したユーザーは、国または地域に割り当てられている国/地域にある番号をMicrosoft 365呼び出Office 365。
+- **国内通話プラン**: ライセンスを取得したユーザーは、国または地域に割り当てられている国/地域にある番号にコールアウトMicrosoft 365またはOffice 365。
     
 - **国内** 通話プランと国際通話プラン: ライセンスを取得したユーザーは、ユーザーの場所に基づいて Microsoft 365 または Office 365 ライセンスがユーザーに割り当てられている国/地域にある番号と [、196](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)か国/地域の国際番号にコールアウトできます。
 
-同じ通話プランで同じ国/地域のすべてのユーザー (Microsoft 365 管理センター のライセンス領域で定義されているユーザーの国の場所) は、分のプールを共有します。 たとえば、同じ国/地域に 100 人のユーザーがいて、国内通話プランが 120 分割り当てられている場合、ユーザーは 12,000 分のプールを共有します。 この分を超えるすべての呼び出しは、1 分ごとに請求されます。
+同じ通話プランで同じ国/地域内のすべてのユーザー (Microsoft 365 管理センター のライセンス領域で定義されているユーザーの国の場所) は、分のプールを共有します。 たとえば、同じ国/地域に 100 人のユーザーがいて、国内通話プランが 120 分割り当てられている場合、ユーザーは 12,000 分のプールを共有します。 この分を超えるすべての呼び出しは、1 分ごとに請求されます。
     
 国 [と地域の空き時間](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 情報にアクセスして、各国/地域の各組織で利用できる月次分を確認します。
   
 > [!IMPORTANT]
-> 国/地域は、**[Microsoft 365 管理センター]** の **[組織プロファイル]** にある請求先住所 **ではなく**、**[Microsoft 365 管理センター]** > **[アクティブなユーザー]** にあるユーザーのライセンスの場所に基づいています。  
+> 国/地域は、**[Microsoft 365 管理センター]** の **[組織プロファイル]** にある請求先住所 **ではなく**、**[Microsoft 365 管理センター]** > **[アクティブなユーザー]** にあるユーザーのライセンスの場所に基づいています。 
+
+> [!NOTE]
+> プールは、同一の通話プランでのみ使用できます。
+
 ![ユーザーのライセンスの場所のスクリーン ショット。](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 使用量の制限と利用規約の詳細については、「[電話会議の無料のダイヤルアウト期間](complimentary-dial-out-period.md)」を参照してください。
