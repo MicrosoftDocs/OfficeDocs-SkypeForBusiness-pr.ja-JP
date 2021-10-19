@@ -1047,6 +1047,8 @@ items:
             href: what-are-dial-plans.md
           - name: ダイヤル プランを作成および管理する
             href: create-and-manage-dial-plans.md
+          - name: 割り当てられていない番号に通話をルーティングする
+            href: routing-calls-to-unassigned-numbers.md
           - name: レポート ラベルを追加して更新する
             href: learn-more-about-site-upload.md
       - name: ネットワーク設定とトポロジ

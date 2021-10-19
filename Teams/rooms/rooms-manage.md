@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 406f083f41b0d07f6cafff273de071f11d0f2e94
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984672"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462311"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
-組織内で会議室Microsoft Teamsデバイスを使用している場合は、柔軟な管理オプションがあります。  すべての Teams ソリューション、Microsoft Teams 管理センターを管理する中央の場所でデバイスを自分で管理できます。また[、Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com)を使用して、管理責任を専用の専門家に譲渡することもできます。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
+組織内の会議室Microsoft Teamsデバイスを使用している場合は、柔軟な管理オプションがあります。  すべての Teams ソリューション、Microsoft Teams 管理センターを管理する中央の場所でデバイスを自分で管理できます。また[、Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com)を使用して、管理責任を専用の専門家に譲渡することもできます。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
 
 管理Microsoft Teamsを使用すると、次の方法を実行できます。
 
@@ -34,12 +34,12 @@ ms.locfileid: "59984672"
 - 現在と過去のミーティングアクティビティ（通話品質、ネットワークの状態と接続、参加者数など）を確認する
 - Microsoft Teams Room デバイスに接続されている周辺機器（カメラやプロジェクターなど）を表示する
 
-会議室デバイスTeams管理するには、Microsoft Teams [管理](https://admin.teams.microsoft.com)センターを開き、[デバイス] Teams **に**  >  **Teamsします**。
+会議室デバイスTeamsを管理するには、Microsoft Teams 管理センター [](https://admin.teams.microsoft.com)を開き、[デバイス] Teams **に** 移動Teams  >  **します**。
 
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams管理センターの会議室Teamsページ。":::
 
 > [!IMPORTANT]
-> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、管理者、Teams、またはデバイス管理者Teams割り当てられている必要があります。
+> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、管理者、またはデバイス管理者TeamsロールTeams割り当てられている必要があります。
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Teams ミーティング デバイスに変更を加える
 
@@ -89,6 +89,28 @@ ms.locfileid: "59984672"
 | *テーマ*                                                    |                                                        |                    |
 |                                                              | 既定値<br>テーマなし<br>カスタム<br>組み込みテーマの一覧   | はい                |
 
+## <a name="cortana-settings"></a>Cortana設定 
+組織内のすべてのデバイスCortanaデバイスごとに、PowerShellを使用して、音声のアクティブ化またはプッシュによる通話を有効にできます。  
+-   組織レベルとグループ レベルでは、PowerShell を使用する必要があります。
+-   デバイス レベルでは、いくつかのオプションがあります。 PowerShell の使用、XML 構成ファイルの編集、管理センターでの設定Teamsできます。 
+
+PowerShell を使用してアプリケーションを構成する方法の詳細についてはCortana の管理制御と制限事項に関するページCortana[参照Teams。](/microsoftteams/cortana-in-teams#admin-control-and-limitations)
+
+XML 構成ファイルを使用してデバイスを構成する方法の詳細については、「XML 構成ファイルを使用して Microsoft Teams 会議室の本体設定をリモートで管理する」[を参照してください](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file)。
+
+デバイス レベルでは、アクティブ化Cortanaを構成できます。
+- PowerShell _を使用してプッシュ_ して話す  
+  - 有効にする方法: Cortanaに関係なくロケールen-us で設定されているすべてのデバイスに対して、[プッシュして話す] が既定で有効になっている
+  - オフにする方法: PowerShell を使用します。 
+- _XML 構成_ ファイルまたは管理センターを使用した音声Teamsアクティブ化。
+  - 有効にする方法: XML 構成ファイルで設定するか、管理センターで対応する `<CortanaWakeWord>true</>` Teams使用します。
+  - [音声のアクティブ化] がCortanaをオフにする方法 
+  
+  デバイスで音声アクティベーションを有効にするには、次の 3 Cortana _満た_ されている必要があります。
+    1. 組織が有効になっているCortanaがあります
+    2. デバイスは、en-au、en-ca、en-gb、en-in、en-us のいずれかのローカルで設定する必要があります。
+    3. Cortana Room に接続されている認定デバイスが必要[Teams詳細](/microsoftteams/cortana-in-teams)   
+
 ### <a name="device-restart-options"></a>デバイス再起動のオプション
 
 デバイス設定の変更は、デバイスの再起動後にだけ有効になります。 再起動が必要な変更を行う場合、デバイスをすぐに再起動するか、再起動をスケジュールするかを選択できます。 利用可能な再起動オプションは次のとおりです。
@@ -105,7 +127,7 @@ ms.locfileid: "59984672"
 
 デバイスを削除すると、そのデバイスは組織から削除され、チーム管理センターのTeams ミーティング デバイスのリストに表示されなくなります。
 
-デバイスを削除した後も、有効なユーザー名とパスワードで構成されている場合、デバイスが Microsoft 365 に接続すると、デバイスは自動的に Teams Rooms デバイスの一覧に再追加されます。
+デバイスを削除した場合でも、有効なユーザー名とパスワードで構成されている場合、Microsoft 365 に再度接続すると、デバイスは自動的に Teams Rooms デバイスの一覧に再追加されます。
 
 1つまたは複数のデバイスを削除するには、次の操作を行います。
 
@@ -118,13 +140,13 @@ Microsoft サポートから要求された場合、デバイスの診断ログ�
 
 Teams ミーティング デバイスからコンピューターにログをダウンロードするには、次の手順を実行します。
 
-1. [デバイスTeams **Teams** に移動し、ログをダウンロードするデバイス  >  の名前を選択します。
+1. [デバイス **] Teams Teams** に移動し、ログをダウンロードするデバイス  >  の名前を選択します。
 1. **デバイスログのダウンロード** を選択します。 デバイスログが使用可能になるまでに数分かかることがあります。
 1. **[履歴]** タブを選択し、**Diagnostics ファイル** で [ログファイルのリンク] を選択します。 デバイスの診断ログファイルを含むzipファイルが、ブラウザの既定のダウンロードフォルダにダウンロードされます。
 
 ## <a name="view-device-information"></a>デバイス情報を見る
 
-Teams 管理センターから、組織内のすべてのデバイスの全体的なステータスを表示し、各デバイスの詳細を個別に表示できます。
+管理センター Teams、組織内のすべてのデバイスの全体的な状態を表示し、各デバイスの詳細を個別に表示できます。
 
 ### <a name="teams-rooms-system-dashboard"></a>Teams ミーティング システムダッシュボード
 

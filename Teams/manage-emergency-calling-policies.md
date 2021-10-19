@@ -1,7 +1,7 @@
 ---
 title: 緊急通話ポリシーを管理Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -20,18 +20,22 @@ description: Microsoft Teams で緊急通話ポリシーを使用および管理
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: c05318f34f7c52570a061aa66644cde4b8ac020c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4b44cf8ae822a3ab390e4247396ff326eb39501
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632091"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465987"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>緊急通話ポリシーを管理Microsoft Teams
 
-組織で通話プラン[](set-up-calling-plans.md)を使用している場合、または[電話システム](direct-routing-landing-page.md)ダイレクト ルーティング を展開している場合は、Microsoft Teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通話を行った場合の処理を定義できます。 ポリシーが割り当てられているユーザーが緊急サービスを呼び出したときに通知するユーザーと通知方法を設定できます。 たとえば、ポリシー設定を構成して、組織のセキュリティ デスクに自動的に通知し、緊急通話でリッスンすることができます。  
+**組織で PSTN 接続オプションとして Microsoft 通話プラン、オペレーター Connect、または [](pstn-connectivity.md)直接ルーティングを使用している場合は、Microsoft Teams の緊急通話ポリシーを使用して、組織内の Teams ユーザーが緊急通話を行った場合の処理を定義できます。**
 
-緊急通話ポリシーを管理するには、Microsoft Teams管理センターで音声緊急ポリシーに移動するか  >  、Windows PowerShell。 ポリシーは、ユーザーとネットワーク サイトに [割り当てることができます](cloud-voice-network-settings.md)。
+**次のすべてが 3 に適用されますか?**
+
+ポリシーが割り当てられているユーザーが緊急サービスを呼び出したときに通知するユーザーと通知方法を設定できます。 たとえば、ポリシー設定を構成して、組織のセキュリティ デスクに自動的に通知し、緊急通話でリッスンすることができます。  
+
+緊急通話ポリシーを管理するには、Microsoft Teams管理センターで [音声緊急] ポリシーに移動するか  >  、Windows PowerShell。 ポリシーは、ユーザーとネットワーク サイトに [割り当てることができます](cloud-voice-network-settings.md)。
 
 ユーザーの場合は、グローバル (組織全体の既定) ポリシーを使用するか、カスタム ポリシーを作成して割り当てできます。 カスタム ポリシーを作成して割り当てない限り、ユーザーは自動的にグローバル ポリシーを取得します。 グローバル ポリシーの設定は編集できますが、名前の変更や削除はできないので、ご安心ください。 ネットワーク サイトの場合は、カスタム ポリシーを作成して割り当てる必要があります。
 
@@ -47,7 +51,7 @@ ms.locfileid: "58632091"
 4. 緊急通話が行われたときに組織内のユーザー (通常はセキュリティ デスク) に通知する方法を設定します。 これを行うには、[通知モード **] で**、次のいずれかを選択します。
     - **通知のみを送信** する: Teamsメッセージが、指定したユーザーとグループに送信されます。
     - **ミュート** 状態で会議を行い、ミュートを解除できない: Teams チャット メッセージが、指定したユーザーとグループに送信され、発信者と PSAP オペレーターの間の会話でリッスン (参加できません) できます。
-    - **ミュート** で電話会議を行ったがミュート解除可能: Teams チャット メッセージは、指定したユーザーとグループに送信され、ミュートを解除して、発信者と PSAP オペレーター間の会話をリッスンして参加できます。
+    - **ミュート** で電話会議を行ったがミュート解除可能: Teams チャット メッセージは、指定したユーザーとグループに送信され、ミュートを解除して呼び出し元と PSAP オペレーター間の会話に参加できます。
 5.  いずれかの会議をミュート通知モードで選択した場合は、[緊急通話の通知をダイヤルする番号] ボックスに、緊急通話を発信して参加するユーザーまたはグループの PSTN 電話番号を入力できます。 たとえば、組織のセキュリティ デスクの番号を入力します。緊急通話が行われたときに通話を受け取り、その後、通話をリッスンできます。 モードが [電話会議] にミュートに設定されているが、ミュートを解除できる場合でも、PSTN 電話を **ミュート解除することはできません**。
 6. 緊急通話が行われたときに通知する 1 つ以上のユーザーまたはグループ (組織のセキュリティ デスクなど) を検索して選択します。  通知は、ユーザー、配布グループ、およびセキュリティ グループのメール アドレスに送信できます。 最大 50 人のユーザーに通知できます。
 7. [**適用**] をクリックします。
@@ -86,7 +90,7 @@ ms.locfileid: "58632091"
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [緊急通話ルーティング ポリシーを管理Teams](manage-emergency-call-routing-policies.md)
 

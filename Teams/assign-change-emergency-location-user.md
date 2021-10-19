@@ -1,7 +1,7 @@
 ---
 title: ユーザーの緊急対応の場所を割り当てたり変更したりする
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -18,18 +18,24 @@ f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーに緊急対応の場所を割り当てる方法または変更する方法について学習します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 36be65ef14cfe0fc97ce49dfa9227fe50daa18f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5395c74bfab124cb1036d696dd3613c920bed1e9
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588379"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465793"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
-通話プランを設定する場合は、各電話番号またはユーザーに緊急対応の場所を割り当てる必要があります。 ヨーロッパの国では、緊急対応の場所は、Microsoft 365 または Office 365 から電話番号を取得した場合、または電話番号を Microsoft 365 または Office 365 に転送するときに関連付けされます。 米国では、緊急対応の場所は、ユーザーに割り当てられた電話番号に関連付けされます。 緊急対応の住所は、割り当てられているユーザーが新しい場所に移動した場合に変更できます。 緊急対応の住所と場所の詳細については、「緊急対応の場所、場所、通話ルーティングとは」 [を参照してください](./what-are-emergency-locations-addresses-and-call-routing.md)。
-  
-通話プランを取得する方法と料金については、アドオン ライセンスのTeams[を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+**次は 3 つすべてに適用されますか?**
+
+**緊急対応の場所は、各電話番号またはユーザーに割り当てる必要があります。緊急対応の住所と場所の詳細については、「緊急対応の場所、場所、通話ルーティングとは」 [を参照してください](./what-are-emergency-locations-addresses-and-call-routing.md)。**
+
+**Microsoft 通話プランの場合、ヨーロッパの国では、緊急対応の場所は、Microsoft 365 から電話番号を受け取った場合、または電話番号を Microsoft 365 に転送するときに関連付けされます。米国では、緊急対応の場所は、ユーザーに割り当てられた電話番号に関連付けされます。緊急対応の住所は、割り当てられているユーザーが新しい場所に移動した場合に変更できます。**
+
+**[演算子] Connect、...**
+
+**ダイレクト ルーティングの場合,...**
   
 管理者センターまたは PowerShell を使用して、ユーザーの緊急対応Microsoft Teamsを割り当てまたは変更できます。
 
@@ -37,7 +43,7 @@ ms.locfileid: "58588379"
 
 1. 管理センターの左側のナビゲーションで、[音声Microsoft Teams **番号]**  >  **を電話します**。
 
-2. [数値 **電話ページで**、[数値] タブをクリックし、一覧からユーザー番号を選択し、[編集] をクリック **します**。
+2. [番号 **電話ページで**、[数値] タブをクリックし、一覧からユーザー番号を選択し、[編集] を **クリックします**。
 
 3. [編集] **ウィンドウの** [緊急対応の **場所] で**、次のいずれかの操作を行います。
 
@@ -54,7 +60,7 @@ ms.locfileid: "58588379"
 [「Set-CsOnlineVoiceUser」を参照してください](/powershell/module/skype/set-csonlinevoiceuser)。 
 
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)

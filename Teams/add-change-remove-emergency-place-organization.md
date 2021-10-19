@@ -18,20 +18,18 @@ f1.keywords:
 - NOCSH
 description: 管理センターで組織の緊急対応の場所を追加、変更、または削除Microsoft Teamsします。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0f61a16caa40a1470031ec5f680d529522d49c1d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2bf3e2fad1ee0f0182e2b3a25f2be78f5ef68823
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629379"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465967"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>組織の緊急対応の場所の位置情報を追加、変更、削除する
 
 組織の物理的な場所の数に応じて、ビル、フロア、オフィスの場所を追加して、より具体的な緊急対応の場所を作成できます。 詳細については [、「緊急通話を管理](what-are-emergency-locations-addresses-and-call-routing.md) する」を参照してください。
-  
-通話プランを取得する方法と料金については、アドオン ライセンスのTeams[を参照してください](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-組織の緊急対応の場所を管理するには、Microsoft Teamsまたは PowerShell を使用します。
+組織の緊急対応の場所は、Microsoft Teamsまたは PowerShell を使用して管理します。
   
 ## <a name="add-a-place-to-an-emergency-location"></a>緊急対応の場所に場所を追加する
 
@@ -71,7 +69,7 @@ ms.locfileid: "58629379"
 
 [Remove-CsOnlineLisLocation に関するページを参照してください](/powershell/module/skype/remove-csonlinelislocation)。
     
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 - [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)

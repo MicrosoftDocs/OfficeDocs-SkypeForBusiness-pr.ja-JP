@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams でのゲスト アクセスにより、組織内のチームは組織外の人にチームおよびチャネルへのアクセス権を付与することで、それらの人と共同作業することができるようになります。
-ms.openlocfilehash: aa14fc3a59d893b152f96d31a20c46119f8a71f9
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 2064ca1fdd816f1948af1f0efcda3021a1c7d2cb
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456337"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462341"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams でのゲスト アクセス
 
-ゲストアクセスを使用すると、企業データの管理を維持しながら、チーム、チャネル内のドキュメント、リソース、チャット、およびアプリケーションへのアクセスを組織外の人々に提供できます。 「[Microsoft 365 と Microsoft Teams を使用してセキュリティで保護された共同作業を設定する](/microsoft-365/solutions/setup-secure-collaboration-with-teams)」を参照してください。
+ゲスト アクセスを使用すると、企業データの管理を維持しながら、チーム、チャネル内のドキュメント、リソース、チャット、およびアプリケーションへのアクセスを組織外の人々に提供できます。「[Microsoft 365 と Microsoft Teams を使用してセキュリティで保護された共同作業を設定する](/microsoft-365/solutions/setup-secure-collaboration-with-teams)」を参照してください。
 
 > [!NOTE]
 > ただ他の組織の人々を見つけ、電話をかけ、チャットし、会議を設定する場合は、[外部アクセス](manage-external-access.md) を使用します。
@@ -37,7 +37,7 @@ ms.locfileid: "59456337"
 
 Teams のゲストは、Microsoft 365 と同様のコンプライアンスと監査による保護の対象となります。また、ゲストを Azure AD 内で管理できます。 ゲスト アクセスは Azure AD および、Microsoft 365 または Office 365 のサービス制限の対象になります。
 
-ゲストのエクスペリエンスには、仕様上の制限があります。 ゲストが Teams でできることとできないことの完全なリストについては、「[チーム メンバーとゲスト機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)」をご覧ください。
+ゲストのエクスペリエンスには、仕様上の制限があります。ゲストが Teams でできることとできないことの完全なリストについては、「[チーム メンバーとゲスト機能の比較](guest-experience.md#comparison-of-team-member-and-guest-capabilities)」をご覧ください。
 
 > [!IMPORTANT]
 > ゲストは、共存アップグレード モードの Teams の組織全体の設定に従います。これは変更できません。
@@ -54,6 +54,11 @@ Teams でのゲスト アクセスには、Azure AD、Microsoft 365 グループ
 - Azure Active Directory を使用するパートナー組織とコラボレーションし、ゲストがチーム アクセスに自己登録できるようにするには、「[管理されたゲストで B2B エクストラネットを作成する](/microsoft-365/solutions/b2b-extranet)」を参照してください。
 
 Teams でのゲスト アクセスは組織全体の設定であり、既定ではオンになっています。 [機密ラベル](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)を使用して、個々のチームへのゲスト アクセスを制御できます。
+
+> [!NOTE]
+> Microsoft Teams の管理者であり、ゲスト アクセスで問題が発生している場合は、以下の **[テストの実行]** を選択します。それにより、Microsoft 365 管理センターにゲスト アクセス診断が表示されます。 これらのテストでは、構成を確認し、テナントのゲスト アクセスを有効にするための次の手順をすばやくお勧めします。
+>> [!div class="nextstepaction"]
+>> [テストの実行: ゲスト アクセス](https://aka.ms/TeamsGuestAccessDiagDMC)
 
 ### <a name="turning-guest-access-off"></a>ゲスト アクセスをオフにする
 

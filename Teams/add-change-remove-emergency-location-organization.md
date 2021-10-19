@@ -18,22 +18,29 @@ f1.keywords:
 - NOCSH
 description: '管理センターで組織の緊急対応の場所を追加、変更、または削除Microsoft Teamsします。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 62604fc26f91baa77bd205869bbe4251d1a46a8a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e6523a3a3f19b2c3145bb6e89f47029c4d982ab1
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602302"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465797"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
-緊急対応の場所は電話番号に関連付けられている必要がありますが、この場合、国や地域によって異なる場合があります。 たとえば、米国では、電話番号をユーザーに割り当てるときに緊急対応の場所を関連付ける必要があります。 英国では、Microsoft 365 または Office 365 から電話番号を取得したり、現在のサービス プロバイダーから電話番号を転送したりするときに、緊急対応の場所を電話番号に関連付ける必要があります。
+**[PSTN](pstn-connectivity.md)接続オプションに関係なく、Microsoft 通話プラン、オペレーター Connect、または直接ルーティング -緊急対応の場所を電話番号に関連付けできます。ただし、PSTN 接続オプションによっては、場所の要件が異なる場合があります。**
 
+**通話プランの場合、** 緊急対応の場所は電話番号に関連付けられている必要がありますが、このような場合は国や地域によって異なる場合があります。 たとえば、米国では、電話番号をユーザーに割り当てるときに緊急対応の場所を関連付ける必要があります。 英国では、Microsoft 365 から電話番号を取得したり、現在のサービス プロバイダーから電話番号を転送したりするときに、緊急対応の場所を電話番号に関連付ける必要があります。
+
+**[演算子] Connect、...**
+
+**ダイレクト ルーティングの場合...**
+
+**これはすべての 3 に当てはまるか。**
 どの国や地域に関係なく、緊急対応の場所に場所や場所を追加し、緊急対応の場所を削除できます。 組織の物理的な場所の数に応じて、ビル、フロア、オフィスの場所を作成できます。 「緊急 [通話の管理」を参照してください](what-are-emergency-locations-addresses-and-call-routing.md)。
-  
-通話プランを取得する方法と料金については、アドオン ライセンスのTeams[を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-組織の緊急対応の場所を管理するには、Microsoft Teamsまたは PowerShell を使用します。
+組織の緊急対応の場所は、Microsoft Teamsまたは PowerShell を使用して管理します。
+
+**緊急対応の場所を割り当てるには、ユーザー、電話番号、緊急対応の場所すべてが同じ国にある必要があります。**  詳細については、「ユーザーの緊急対応 [の場所を割り当てるまたは変更する」を参照してください](assign-change-emergency-location-user.md)。
   
 ## <a name="add-an-emergency-location"></a>緊急対応の場所を追加する
 
@@ -45,7 +52,7 @@ ms.locfileid: "58602302"
 4. 国または地域を選択し、住所を入力します。
 
    > [!NOTE]
-   > ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Microsoft 365 または Office 365 で電話番号を正常にアクティブ化するには、緊急対応の場所に設定された住所 (番号の取得に使用) が電話番号の市番と一致する必要があります。
+   > ベルギー、フランス、ドイツ、アイルランド、オランダ、スペインでは、Microsoft 365 で電話番号を正常にアクティブ化するには、電話番号の取得に使用される緊急対応の場所に設定された住所が電話番号の市番と一致する必要があります。
 
 5. 住所が見つからない場合に、アドレスを手動で編集する場合は、[アドレスを手動で編集 **する] をオンにしてください**。
 6. **[保存]** をクリックします。
@@ -81,7 +88,7 @@ ms.locfileid: "58602302"
 
 [Remove-CsOnlineLisSkyicAddress に関するページを参照してください](/powershell/module/skype/remove-csonlineliscivicaddress)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)

@@ -21,12 +21,12 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0fac6c236fba7b8cc17af2bc4c21211a5160d06e
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 207c46d37503989dddd8039ccdd0c4cd71d6b276
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127374"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462331"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 
@@ -163,6 +163,20 @@ Teams ユーザーと Skype ユーザーが通信できるようにする方法�
 
 > [!IMPORTANT]
 > Teams または Skype for Business Online ユーザーが組織内外の Skype ユーザーと通信できるようにする際、**Skype ドメイン** を許可ドメインとして追加する必要はありません。すべての **Skype ドメイン** が許可されます。
+
+## <a name="federation-diagnostic-tool"></a>フェデレーション診断ツール
+
+管理者である場合は、次の診断ツールを使用して、Teams ユーザーがフェデレーション ユーザーと 通信できることを検証することができます。
+
+1. 以下の **[テストの実行]** を選択すると、診断が Microsoft 365 管理センターに表示されます。 
+
+   > [!div class="nextstepaction"]
+   > [テストの実行: Teams フェデレーション](https://aka.ms/TeamsFederationDiag)
+
+2. [診断の実行] ウィンドウで、**[セッション開始プロトコル (SIP) アドレス]** と **[フェデレーション テナントのドメイン名]** を入力してから、**[テストの実行]** を選択します。
+
+3. テストでは、フェデレーション ユーザーとの通信を妨げているテナントまたはポリシー構成に対処するための最適な次の手順が返されます。
+
 
 ## <a name="related-topics"></a>関連項目
 
