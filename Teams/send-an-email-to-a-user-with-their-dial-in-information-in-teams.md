@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Microsoft Teams で音声会議情報を記載したメールをユーザーに送信する方法について説明します。
-ms.openlocfilehash: 20050f2e4c0e2c8905b552e914c39b72de63c439
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c268c475e254bcac9a4eb579bc971705d68698aa
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733236"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536678"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Microsoft Teams の電話会議情報が含まれたメールをユーザーに送信する
 
@@ -47,7 +47,7 @@ ms.locfileid: "58733236"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>電話会議情報を含むメールをユーザーに送信する
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+###  <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -73,4 +73,4 @@ ms.locfileid: "58733236"
   
 ## <a name="related-topics"></a>関連項目
 
-[電話会議を試用または購入するには、Microsoft 365またはOffice 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[電話会議を試用または購入するには、Microsoft 365 または Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

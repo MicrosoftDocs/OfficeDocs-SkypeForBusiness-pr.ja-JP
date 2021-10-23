@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '[電話会議] で電話会議の自動応答言語を選択する方法をMicrosoft Teams。'
-ms.openlocfilehash: e96ebaff3c14dc9c7f09ceea63de7bec2d409758
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: このページでは、電話会議の自動応答言語を電話会議の番号として選択する方法Microsoft Teams。
+ms.openlocfilehash: ce436d7671cf9467371ee6ddda4ab79b9805ddd8
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731976"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537068"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams で電話会議の自動案内の言語を設定する
 
@@ -43,7 +43,7 @@ ms.locfileid: "58731976"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>電話会議の自動応答の言語を設定する
 
-![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+ **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**会議**]  >  [**会議ブリッジ**] に移動します。
 
@@ -63,7 +63,7 @@ ms.locfileid: "58731976"
     
 - 専用電話番号には言語を設定できますが、共有電話番号には設定できません。
     
-- プロバイダーとして Microsoft を使用して Microsoft 365 または Office 365 の電話会議を利用できる国/地域の一覧については、「電話会議の 電話 番号」を参照[してください](phone-numbers-for-audio-conferencing-in-teams.md)。
+- プロバイダーとして Microsoft を使用して Microsoft 365 または Office 365 の電話会議を利用できる国/地域の一覧については、「電話会議の 電話 番号」[を参照してください](phone-numbers-for-audio-conferencing-in-teams.md)。
     
 ## <a name="want-to-use-windows-powershell"></a>Windows PowerShell を使用する場合
 

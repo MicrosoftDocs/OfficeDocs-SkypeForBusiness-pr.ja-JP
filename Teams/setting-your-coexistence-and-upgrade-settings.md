@@ -18,19 +18,19 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39d2592d15e0c74f21109edae9e5af29206e6050
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 489f5315df8c818fd674e30fdaef7c057e9a8ff3
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725986"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536498"
 ---
 # <a name="set-your-coexistence-and-upgrade-settings"></a>共存およびアップグレードの設定
 
 
 Teams を使用するように Skype for Business ユーザーをアップグレードする場合、ユーザーにとってシームレスなプロセスにするためのオプションがいくつかあります。 組織内のすべてのユーザーの共存とアップグレードの設定を一度に行うオプションがあります。また、組織内の 1 人または複数のユーザーの設定を変更することもできます。 以前のバージョンの Skype for Business クライアントでは、これらの設定が優先されないことがあります。 Skype for Business クライアント バージョンの詳細については、「[Skype for Business のダウンロードと更新プログラム](/skypeforbusiness/software-updates)」ページ を参照してください。 
 
-「Understanding Microsoft Teams and Skype for Business [coexistence](teams-and-skypeforbusiness-coexistence-and-interoperability.md) and interoperability or Coexistence with Skype for Business 」を参照して、使用できるモードについて理解[を深Skype for Business。](coexistence-chat-calls-presence.md)  
+「Understanding Microsoft Teams and [Skype for Business coexistence](teams-and-skypeforbusiness-coexistence-and-interoperability.md) and interoperability or Coexistence with Skype for Business 」を参照して、使用できるモードについて理解[を深Skype for Business。](coexistence-chat-calls-presence.md)  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -38,11 +38,11 @@ Teams を使用するように Skype for Business ユーザーをアップグレ
 
 ## <a name="set-upgrade-options-for-all-users-in-your-organization"></a>組織内のすべてのユーザーに対するアップグレード オプションの設定
 
-![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+ **Microsoft Teams 管理センターの使用**
 
-1. [Microsoft Teams [管理センター]](https://admin.teams.microsoft.com/)の左側のナビゲーションで、[アップグレード] の [**組織全体の** 設定]  >  **Teams移動します**。 
+1. [Microsoft Teams [管理センター]](https://admin.teams.microsoft.com/)の左側のナビゲーションで、[アップグレード] の [**組織** 全体の設定  >  **] Teams移動します**。 
 
-2. [アップグレード]**ページのTeams、** 必要に応じて次のオプションを変更します。
+2. [アップグレード] ページ **のTeams、** 必要に応じて次のオプションを変更します。
 
     - [**共存**] モードを設定します。
         - **アイランド** - ユーザーが Skype for Business と Teams の両方を同時に使用できるようにする場合は、この設定を使用します。
@@ -53,8 +53,8 @@ Teams を使用するように Skype for Business ユーザーをアップグレ
 
           > [!IMPORTANT]
           > 次の両方の手順が完了した後でのみ、TeamsOnly モードをテナント全体に割り当てできます。
-          >  - すべてのオンプレミス ユーザーは、オンプレミスのツールセットTeamsを使用Move-CsUserのみSkype for Business Serverに移動されています。
-          >  - すべての DNS レコードがSkype for BusinessをポイントMicrosoft 365。 
+          >  - すべてのオンプレミス ユーザーは、オンプレミスのツールセットTeamsのMove-CsUserを使用Skype for Business Serverに移動されました。
+          >  - すべての DNS レコードがSkype for Businessポイントする更新Microsoft 365。 
           >
           > 詳細については、「ハイブリッド構成を[無効にする」を参照して、](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)移行のみをTeamsしてください。
         
@@ -70,7 +70,7 @@ Teams を使用するように Skype for Business ユーザーをアップグレ
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>組織内の 1 人のユーザーに対するアップグレード オプションの設定
 
-![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+ **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**ユーザー**] に移動し、リストからユーザーを選択します。 
 2. ユーザーの [**アカウント**] タブで、[**Teams アップグレード**] にある [**編集**] をクリックします。
@@ -91,4 +91,4 @@ Teams を使用するように Skype for Business ユーザーをアップグレ
 
 [Teams を Skype for Business と一緒に使用する組織向けの移行と相互運用に関するガイダンス](migration-interop-guidance-for-teams-with-skype.md)
 
-[オンプレミスの環境の使用Skype for Business使用を停止する](/skypeforbusiness/hybrid/decommission-on-prem-overview)
+[オンプレミスの環境を使用Skype for Business使用を停止する](/skypeforbusiness/hybrid/decommission-on-prem-overview)

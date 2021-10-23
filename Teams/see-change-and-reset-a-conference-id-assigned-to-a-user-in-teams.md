@@ -21,20 +21,20 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 会議 ID をユーザーに割り当てる方法とMicrosoft Teams ID パラメーターの設定方法について説明します。
-ms.openlocfilehash: 62cbb281af4db60db15676b109b2573c03eb7552
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 74e43f6dcb5599039007f784ad7ebdd5a053251e
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733256"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536868"
 ---
-# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>ユーザーに割り当てられている会議 ID を表示およびリセットMicrosoft Teams
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>グループ内のユーザーに割り当てられている会議 ID を表示およびリセットMicrosoft Teams
 
 Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft を電話会議プロバイダーとして使用すると、Microsoft Teams ユーザーに会議 ID が自動的に割り当てられます。 割り当てられた会議 ID は、会議がスケジュールされているときに会議出席招待で送信されます。 ユーザーがスケジュール設定した各会議には、一意の会議通話 ID が割り当てられます。 
   
 会議 ID は自動的に作成され、ユーザーに割り当てられますが、ユーザーがこれを使用したくない場合や、特定の番号に設定したり、ユーザーが会議 ID を覚えていない場合や紛失した場合があります。 管理センターまたはMicrosoft Teamsを使用してWindows PowerShell ID を表示、変更、リセットできます。
   
-ユーザーに会議 ID と既定の電話会議の電話番号が含む電子メールが送信されるか、または会議 ID をリセットすると、PINではない 会議 ID を含む別の電子メールが送信されます。 会議[開催者の PIN をリセットする](reset-a-conference-id-for-a-user-in-teams.md)方法の詳細については、「Microsoft Teamsでユーザーの会議 ID をリセットする」を参照してください。 
+ユーザーに会議 ID と既定の電話会議の電話番号が含む電子メールが送信されるか、または会議 ID をリセットすると、PINではない 会議 ID を含む別の電子メールが送信されます。 会議[開催者の PIN をリセットする](reset-a-conference-id-for-a-user-in-teams.md)方法の詳細については、「Microsoft Teams ユーザーの会議 ID をリセットする」を参照してください。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -43,7 +43,7 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 
 ### <a name="to-view-the-conference-id"></a>会議 ID を表示するには
 
-![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+ **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -63,7 +63,7 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
 
 例えば忘れてしまったなどの場合のために、ユーザーの会議 ID をリセットできます。
   
-![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+ **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -89,7 +89,7 @@ Microsoft 365 または Office 365 で電話会議用に設定され、Microsoft
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
@@ -99,4 +99,4 @@ Windows PowerShell の詳細については、「[Microsoft Teams PowerShell の
     
 ## <a name="related-topics"></a>関連トピック
 
-[電話会議を試用または購入するには、Microsoft 365またはOffice 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[電話会議を試用または購入するには、Microsoft 365 または Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

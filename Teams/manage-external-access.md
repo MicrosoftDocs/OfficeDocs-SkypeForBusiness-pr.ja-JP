@@ -21,12 +21,12 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 207c46d37503989dddd8039ccdd0c4cd71d6b276
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 27ce250a66bd6443419c670d7b0b8b7e26703e5d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462331"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536518"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 
@@ -67,7 +67,7 @@ Teams では既定で外部アクセスが有効になっています。つま�
 
 ## <a name="allow-or-block-domains"></a>ドメインの許可または禁止
 
-![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+  **Microsoft Teams 管理センターの使用**
 
 特定のドメインを許可するには
 
@@ -103,7 +103,7 @@ Teams では既定で外部アクセスが有効になっています。つま�
 
 組織内の Teams ユーザーが Skype ユーザーとチャットや通話をできるようにするには、次の手順を実行します。 この手順を実行すると、Teams ユーザーと Skype ユーザーとが、互いを検索したり、1 対 1 のテキストのみの会話や音声/ビデオ通話を開始したりできるようになります。
 
-![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+  **Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで、**[ユーザー]** > **[外部アクセス]** の順に移動します。
 

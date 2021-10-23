@@ -359,8 +359,6 @@ items:
             items:
               - name: ゲスト アクセスについて
                 href: guest-access.md
-              - name: ゲスト アクセスのチェックリスト
-                href: /microsoft-365/solutions/collaborate-as-team
               - name: ゲスト エクスペリエンス
                 href: guest-experience.md
               - name: ゲスト アクセスをオンまたはオフにする

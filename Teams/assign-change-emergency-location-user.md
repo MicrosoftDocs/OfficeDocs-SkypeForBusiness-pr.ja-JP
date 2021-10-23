@@ -18,26 +18,20 @@ f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーに緊急対応の場所を割り当てる方法または変更する方法について学習します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5395c74bfab124cb1036d696dd3613c920bed1e9
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465793"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537288"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
-**次は 3 つすべてに適用されますか?**
+緊急対応の場所は、各電話番号またはユーザーに割り当てる必要があります。 緊急対応の住所と場所の詳細については、「緊急対応の場所、場所、通話ルーティングとは」 [を参照してください](./what-are-emergency-locations-addresses-and-call-routing.md)。
 
-**緊急対応の場所は、各電話番号またはユーザーに割り当てる必要があります。緊急対応の住所と場所の詳細については、「緊急対応の場所、場所、通話ルーティングとは」 [を参照してください](./what-are-emergency-locations-addresses-and-call-routing.md)。**
-
-**Microsoft 通話プランの場合、ヨーロッパの国では、緊急対応の場所は、Microsoft 365 から電話番号を受け取った場合、または電話番号を Microsoft 365 に転送するときに関連付けされます。米国では、緊急対応の場所は、ユーザーに割り当てられた電話番号に関連付けされます。緊急対応の住所は、割り当てられているユーザーが新しい場所に移動した場合に変更できます。**
-
-**[演算子] Connect、...**
-
-**ダイレクト ルーティングの場合,...**
+Microsoft 通話プランの場合、ヨーロッパの国では、緊急対応の場所は、Microsoft 365 から受け取った場合、または電話番号を Microsoft 365 に転送するときに、電話番号に関連付けされます。 米国では、緊急対応の場所は、ユーザーに割り当てられた電話番号に関連付けされます。 緊急対応の住所は、割り当てられているユーザーが新しい場所に移動した場合に変更できます。
   
-管理者センターまたは PowerShell を使用して、ユーザーの緊急対応Microsoft Teamsを割り当てまたは変更できます。
+管理者センターまたは PowerShell を使用して、Microsoft Teamsの緊急対応の場所を割り当てまたは変更できます。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 

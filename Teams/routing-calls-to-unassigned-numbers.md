@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 組織内の割り当てられていない番号に通話をルーティングする方法について学習します。
-ms.openlocfilehash: 630ee818113cfb69bc25eb893ab384d186ff4137
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60466040"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536998"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>割り当てられていない番号への通話のルーティング
 
@@ -39,19 +39,19 @@ ms.locfileid: "60466040"
 
 - すべての呼び出しを、割り当てられていない特定の番号にメイン のスイッチボードにルーティングします。
 
-ユーザー、自動応答 または通話キューに関連付けられているリソース アカウント、またはカスタム オーディオ ファイルを呼び出し元に再生するアナウンス サービスに、割り当てられていない番号への呼び出しをルーティングできます。 呼び出し元がハングアップするまで、オーディオ ファイルが繰り返し再生されます。
+ユーザー、自動応答 または通話キューに関連付けられているリソース アカウント、またはカスタム オーディオ ファイルを呼び出し元に再生するアナウンス サービスに、割り当てられていない番号への呼び出しをルーティングできます。
 
 ## <a name="configuration"></a>構成
 
 割り当てられていない番号に呼び出しをルーティングするには、Teams PowerShell モジュール 2.5.1 以降で使用できる New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment コマンドレットを使用します。
 
-番号の呼び出し番号または範囲、およびこれらの番号の呼び出しに関連するルーティングを指定する必要があります。 たとえば、次のコマンドは、番号 +1 (555) 222-3333 に対する呼び出しはすべてリソース アカウントにルーティング aa@contoso.com。
+番号の呼び出し番号または範囲、およびこれらの番号の呼び出しに関連するルーティングを指定する必要があります。 たとえば、次のコマンドでは、+1 (555) 222-3333 の番号に対する呼び出しはすべてリソース アカウントにルーティング aa@contoso.com。
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
 
 
-New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -Priority 1
+New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
 次の例では、+1 (555) 333-0000 から +1 (555) 333-9999 までのすべての呼び出しがアナウンス サービスにルーティングされ、音声ファイル MainAnnouncement.wav が呼び出し元に再生されます。
@@ -63,7 +63,7 @@ $AudioFile = Import-CsOnlineAudioFile -FileName "MainAnnouncement.wav" -Content 
 
 $fid = [System.Guid]::Parse($AudioFile.Id)
 
-New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -Priority 2
+New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -TargetType Announcement -Target $fid.Guid -TreatmentPriority 2
 ```
 
 ## <a name="notes"></a>メモ
@@ -72,7 +72,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - 割り当てられていない Microsoft 通話プランのサブスクライバー番号に呼び出しをルーティングするには、テナントに使用可能な通信クレジット が [必要です](what-are-communications-credits.md)。
 
-- 割り当てられていない Microsoft 通話プランサービス番号への呼び出しをルーティングするには、テナントに少なくとも 1 つの仮想ユーザー ライセンス電話システム必要があります。
+- 割り当てられていない Microsoft 通話プランのサービス番号に呼び出しをルーティングするには、テナントに少なくとも 1 つの仮想電話システム – 仮想ユーザー ライセンスが必要です。
 
 ## <a name="related-topics"></a>関連項目
 

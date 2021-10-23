@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Microsoft 365または Office 365 管理者は、プロバイダー、既定の有料または無料電話番号、会議 ID、ユーザーの PIN など、Teams 電話会議の設定を編集できます。
-ms.openlocfilehash: c565537adfc8eeae295c1608a335b8282d3372df
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Microsoft 365または Office 365 管理者は、プロバイダー、既定の有料電話番号または無料電話番号、会議 ID、ユーザーの PIN など、Teams 電話会議の設定を編集できます。
+ms.openlocfilehash: a6a514b116cab63e321848d24785c3dab8b096dc
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732486"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537038"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Microsoft Teams でユーザーの電話会議の設定を管理する
 
-Microsoft 365 または Office 365 管理者は、組織内の個々のユーザーについて、電話会議の設定 (プロバイダー、既定の有料電話番号または無料電話番号、電話会議 ID、PIN など) を編集できます。 組織の設定を編集する場合は、「組織の電話会議設定を管理する [」を参照してください](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)。
+Microsoft 365 または Office 365 管理者は、組織内の個々のユーザーの電話会議設定 (プロバイダー、既定の有料電話番号または無料電話番号、電話会議 ID、PIN など) を編集できます。 組織の設定を編集する場合は、「組織の電話会議設定を管理する [」を参照してください](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)。
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) Microsoft Teams 管理センターの使用
+##  <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで、[**ユーザー**] をクリックしてから、空いているユーザーのリストからユーザーを選択します。
 
@@ -48,7 +48,7 @@ Microsoft 365 または Office 365 管理者は、組織内の個々のユーザ
 |**電話会議情報をメールで送信する**  |ユーザーに電子メールで会議 ID と電話番号とをすぐに送信する場合にのみ、このリンクをクリックします。 (PINはこのメールは含まれません。) [ユーザーに電子メールで電話会議の情報を送信する](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)を参照してください。  |
 |**電話会議 ID**  |ユーザー **の会議 ID をリセット** する必要がある場合は、[会議 ID のリセット] をクリックします。 詳細については、 [ユーザーの会議 ID をリセットする](reset-a-conference-id-for-a-user-in-teams.md)を参照してください。  |
 |**PIN** |ユーザー **の PIN をリセット** する必要がある場合は、[PIN のリセット] をクリックします。 詳細については、 [電話会議の PIN のリセット](reset-the-audio-conferencing-pin-in-teams.md)を参照してください。 |
-|**既定の会議の有料電話番号** (必須) |これらは、電話会議ブリッジで設定される番号です。 会議出席依頼に表示する番号の書式を設定Skype for Business、Microsoft Teams表示します。 既定の有料電話番号を変更するには、[電話会議] の横にある [編集] をクリックし、[電話会議] ウィンドウで [有料電話番号] で番号 **を選択します**。  |
+|**既定の会議の有料電話番号** (必須) |これらは、電話会議ブリッジで設定される番号です。 会議出席依頼に表示する番号を書式設定Skype for Business、Microsoft Teams表示します。 既定の有料電話番号を変更するには、[電話会議] の横にある [編集] をクリックし、[電話会議] ウィンドウで [有料電話番号] で番号 **を選択します**。  |
 |**このユーザーからの招待には、無料電話番号を含めできます。**|この設定を変更するには、[電話会議]の横にある [編集] をクリックし、[電話会議] ウィンドウで、[このユーザーからの会議出席依頼に無料電話番号を含める] を [オン] または [オフ] に切り替えます。  |
 |**認証されていないユーザーが会議の最初のユーザーになる**|この設定を変更するには、[認証されていないユーザー] を [オン] または [オフ] に **切り替** えます。
 |**ダイヤルアウトのアクセス許可**|この設定を変更するには、[電話会議]の横にある [編集] をクリックし、[電話会議] ウィンドウで、[会議からダイヤルアウト] の下にあるオプション **を選択します**。 |

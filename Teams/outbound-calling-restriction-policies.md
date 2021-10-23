@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理者は、ユーザーが行える電話会議とエンド ユーザーの PSTN 通話の種類を制御できます。
-ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 93f219feea677afe83c1c1dc031d6b878b219a45
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730326"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536878"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -49,7 +49,7 @@ ms.locfileid: "58730326"
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>電話会議の発信通話を制限する
 
-![[Microsoft Teamsロゴ] をクリックします。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+**Microsoft Teams 管理センターの使用**
 
 1. 左側のナビゲーションで [ユーザー] **を選択** し、使用可能なユーザーの一覧からユーザーの表示名を選択します。
 
@@ -59,20 +59,6 @@ ms.locfileid: "58730326"
 
 5. **[保存]** を選択します。
 
-![ロゴのアイコンSkype for Business表示されます。](media/sfb-logo-30x30.png) **Skype for Business 管理センターの使用**
-
-1. [Skype for Business **センター**] の左側のナビゲーションで、[電話会議ユーザー]に移動し、使用可能なユーザーの一覧からユーザー  >  を選択します。
-
-2. [操作] ウィンドウで、[編集] を **選択します**。
-
-3.  [ **このユーザーの会議からの** ダイヤルアウトの制限] で、必要なダイヤルアウト制限オプションを選択します。
-
-      ![[ダイヤルアウトの制限] オプション。](media/restrictions-to-dial-outs.png)
-
-4. **[保存]** を選択します。
-
-> [!Note]
-> [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 **PowerShell を使用する場合**
 
@@ -82,13 +68,13 @@ Get-CSOnlineDialOutPolicy コマンドレットを使用して、発信呼び出
 
 **次のコマンドレットを使用して、ユーザーレベルでポリシーを設定します**。 (Grant コマンドレットには、Get コマンドレットと同様に "Online" という単語が含まれている必要があります)。
 
-```
+```powershell
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
 ```
 
 **次のコマンドレットを使用して、テナント レベルでポリシーを設定します**。
 
-```
+```powershell
 Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
 ```
 

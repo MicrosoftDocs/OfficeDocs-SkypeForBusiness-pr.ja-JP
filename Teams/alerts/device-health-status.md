@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teamsデバイスの監視とアラート
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: Microsoft Teams 管理センターで Teams 監視およびアラート機能を使用して、デバイスの正常性状態を事前に監視する方法Teamsします。
+description: Microsoft Teams 管理センターの Teams 監視およびアラート機能を使用して、デバイスの正常性状態を事前に監視する方法Teamsします。
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ac8ace461e2fb2f5ca8c163a5972fa575baec21d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735354"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536918"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams正常性の監視
 
@@ -31,7 +31,7 @@ Microsoft Teams 管理センターでのデバイスの正常性の監視では�
 
 ## <a name="configure-device-state-rule"></a>デバイスの状態規則を構成する
 
-1. 管理センターの左側のナビゲーションで、[通知Microsoft Teamsルール]**を&選択**  >  **します**。
+1. 管理センターの左側のナビゲーションで、[通知] Microsoft Teams通知ルール]**を&選択**  >  **します**。
 
    ![管理センターの [ルール] セクション。](../media/select-rules.png)
 
@@ -70,9 +70,9 @@ Microsoft Teams 管理センターでのデバイスの正常性の監視では�
 
 選択したユーザーの一覧で使用されるサインイン デバイスはすべて、オフラインの正常性状態を監視します。
 
-## <a name="notifications-in-teams-client"></a>Teams クライアントでの通知
+## <a name="notifications-in-teams-client"></a>クライアントTeams通知
 
-通知は、管理アラートと通知チームの **自動作成された MonitoringAlerts** **チャネルで配信** されます。
+通知は、管理アラートと通知チームの **自動作成された MonitoringAlerts** **チャネルで配信** されます。 デバイスがオフライン状態から 15 分以内に通知を受け取る。 
 
 デバイスのオフライン通知には、次の情報を含めできます。
 

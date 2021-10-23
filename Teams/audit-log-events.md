@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e769de858a7c0cb1ab14a538b1b1dc2a6559b21f
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: d817a89b60de260529b1e9d4a9891290d9ea404b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356475"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536888"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -35,7 +35,7 @@ ms.locfileid: "60356475"
 - チャネルの削除
 - チャンネル設定の変更
 
-監査されるアクティビティの完全なTeamsについては、「Teams アクティビティ」を参照Teams[](#teams-activities)[してください](#shifts-in-teams-activities)。
+監査されるアクティビティの完全Teamsについては、「アクティビティのTeamsとシフト」[をTeamsしてください](#shifts-in-teams-activities)。 [](#teams-activities)
 
 > [!NOTE]
 > プライベート チャネルからの監査イベントも、チームや標準チャネルの場合と同様に記録されます。
@@ -89,8 +89,6 @@ ms.locfileid: "60356475"
 |チームへのボットの追加   |BotAddedToTeam        |ユーザーがチームにボットを追加しました。        |
 |チャネルの追加   |ChannelAdded         |ユーザーがチームにチャネルを追加しました。         |
 |コネクタの追加  |ConnectorAdded          |ユーザーがチャネルにコネクタを追加しました。        |
-|会議の詳細をTeamsしました|MeetingDetail|Teams開始時刻、終了時刻、会議に参加する URL など、会議に関する情報が追加されました。|
-|会議の参加者に関する情報を追加しました|MeetingParticipantTrack|Teamsのユーザー ID、参加者が会議に参加した時刻、参加者が会議を離時刻など、会議の参加者に関する情報を追加しました。|
 |メンバーの追加    |MemberAdded         |チームの所有者が、チーム、チャネル、またはグループ チャットにメンバーを追加しました。         |
 |タブの追加    |TabAdded         |ユーザーがチャネルにタブを追加しました。        |
 |チャンネル設定の変更    |ChannelSettingChanged         |次のアクティビティがチーム メンバーにより実行されると、ChannelSettingChanged 操作が記録されます。 これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。 <ul><li>チーム チャネルの名前が変更されます (**チャネル名**)</li><li>チーム チャネルの説明が変更されます (**チャネルの説明**)</li> </ul>      |
@@ -119,14 +117,14 @@ ms.locfileid: "60356475"
 |メンバーの削除    |MemberRemoved        |チームの所有者が、チーム、チャネル、またはグループ チャットからメンバーを削除しました。         |
 |タブの削除    |TabRemoved         |ユーザーがチャネルからタブを削除しました。         |
 |取得したメッセージ<sup>1、2</sup> <sup></sup> |MessagesListed |チャットまたはチャネルからのメッセージが取得されました。|
-|URL リンクを含むメッセージを送信しました Teams |MessageCreatedHasLink|ユーザーが URL リンクを含むメッセージを送信すると、Teams。|
+|URL リンクを含むメッセージを送信しました Teams |MessageCreatedHasLink|ユーザーは、URL リンクを含むメッセージを Teams。|
 |メッセージ作成 <sup>1、2 </sup>の変更通知 <sup>を送信しました</sup>  |MessageCreatedNotification |サブスクライブしているリスナー アプリケーションに新しいメッセージを通知する変更通知が送信されました。|
 |メッセージ削除の変更通知を送信<sup>しました 1,2</sup> <sup></sup>  |MessageDeletedNotification |削除されたメッセージをサブスクライブしているリスナー アプリケーションに通知する変更通知が送信されました。|
 |メッセージ更新プログラム <sup>1、2 </sup>の変更通知 <sup>を送信しました</sup>    |MessageUpdatedNotification |サブスクライブしているリスナー アプリケーションに更新されたメッセージを通知する変更通知が送信されました。|
 |メッセージ変更通知のサブスクライブ<sup>1、2</sup> <sup></sup> |SubscribedToMessages   |メッセージの変更通知を受け取るリスナー アプリケーションによってサブスクリプションが作成されました。|
 |削除されたアプリ |AppUninstalled           |アプリがアンインストールされました。     |
 |更新されたアプリ |AppUpdatedInCatalog           |アプリがカタログで更新されました。     |
-|チャット<sup>1、2 を</sup><sup>更新しました</sup> |ChatUpdated    |チャットTeams更新されました。|
+|チャット<sup>1、2 を</sup><sup>更新しました</sup> |ChatUpdated    |チャットTeamsが更新されました。|
 |メッセージ<sup>1、2 を</sup><sup>更新しました</sup>  |MessageUpdated |チャットまたはチャネルのメッセージが更新されました。|
 |コネクタの更新    |ConnectorUpdated         |ユーザーがチャネルのコネクタを変更しました。         |
 |タブの更新   |TabUpdated         |ユーザーがチャネルのタブを変更しました。         |
@@ -135,7 +133,7 @@ ms.locfileid: "60356475"
 
 
 > [!NOTE]
-> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出すことによって操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出して操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365 」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション 」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 

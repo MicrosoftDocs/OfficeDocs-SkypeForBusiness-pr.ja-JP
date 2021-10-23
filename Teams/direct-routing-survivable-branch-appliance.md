@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ee0e8e7da6410b26f9c4fc256a12c563f15e9bed1562823792bda73c1c29d70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282670"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536758"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>ダイレクト ルーティングのための存続可能ブランチ アプライアンス (SBA)
 
@@ -46,6 +46,11 @@ SBA は、Microsoft が SBC ベンダーに提供する再配布可能なコー�
 - ブランチ サイト内の Microsoft Teams クライアントが SBC と直接流れるメディアを確保するには、メディア バイパス用に SBC を構成する必要があります。 
 
 - SBA VM OS で TLS1.2 を有効にする必要があります。
+- ポート 3443、4444、および 8443 は、Microsoft SBA Server が Teams クライアントと通信するために使用され、ファイアウォールで許可する必要があります。 
+- ポート 5061 (または SBC で構成されたポート) は、Microsoft SBA Server が SBC と通信するために使用し、ファイアウォールで許可する必要があります。 
+- UDP ポート 123 は、Ntp サーバーと通信するために Microsoft SBA Server によって使用され、ファイアウォールで許可する必要があります。
+- ポート 443 は、Microsoft SBA Server が通信に使用Microsoft 365、ファイアウォールで許可する必要があります。
+- パブリック クラウドの Azure IP 範囲とサービス タグは、次のガイドラインに従って定義する必要があります。 https://www.microsoft.com/download/details.aspx?id=56519
 
 ## <a name="supported-teams-clients"></a>サポートされているTeams クライアント
 
@@ -57,11 +62,11 @@ SBA 機能は、次のクライアントでMicrosoft Teamsされます。
 
 ## <a name="how-it-works"></a>メカニズム
 
-インターネットの停止中、クライアントTeams自動的に SBA に切り替える必要があります。また、継続的な呼び出しは中断することなく続行する必要があります。 ユーザーからのアクションは必要ありません。 Teams クライアントがインターネットが稼働し、すべての発信呼び出しが完了するとすぐに、クライアントは通常の操作モードに戻り、他の Teams サービスに接続します。 SBA は収集された通話データ レコードをクラウドにアップロードし、通話履歴が更新され、テナント管理者がこの情報を確認できます。 
+インターネットの停止中は、Teamsクライアントが自動的に SBA に切り替わる必要があります。また、継続的な呼び出しは中断することなく継続する必要があります。 ユーザーからのアクションは必要ありません。 Teams クライアントがインターネットが稼働し、すべての発信呼び出しが完了するとすぐに、クライアントは通常の操作モードに戻り、他の Teams サービスに接続します。 SBA は収集された通話データ レコードをクラウドにアップロードし、通話履歴が更新され、テナント管理者がこの情報を確認できます。 
 
 クライアントがMicrosoft Teamsモードの場合、次の呼び出し関連機能を使用できます。 
 
-- ローカル SBA/SBC 経由で PSTN 通話を行い、SBC を通過するメディアを使用します。
+- SBC を通過するメディアを使用してローカル SBA/SBC 経由で PSTN 通話を行う。
 
 - SBC を通過するメディアを使用してローカル SBA/SBC 経由で PSTN 通話を受信する。 
 
@@ -76,7 +81,7 @@ SBA 機能を機能するには、Teams クライアントは、各ブランチ 
 3. ポリシーをユーザーに割り当てる。
 4. SBA のアプリケーションをアプリケーションに登録Azure Active Directory。
 
-すべての構成は、オンライン PowerShell コマンドレットSkype for Business使用して行われます。 (Teams センターでは、直接ルーティング SBA 機能はまだサポートされていません)。 
+すべての構成は、Skype for Business Online PowerShell コマンドレットを使用して行います。 (Teams センターでは、直接ルーティング SBA 機能はまだサポートされていません)。 
 
 (SBC ベンダーのドキュメントへのリンクを含む SBC の構成については、この記事の最後にある「セッション ボーダー コントローラーの構成」を参照してください)。
 
@@ -120,7 +125,7 @@ Identity             : Tag:CPH
 BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
-次のコマンドレットを使用して、ポリシーの SBA を追加Set-CsTeamsSurvivableBranchAppliancePolicyできます。 次に例を示します。 
+次のコマンドレットを使用して、ポリシーに対して SBA をSet-CsTeamsSurvivableBranchAppliancePolicyできます。 次に例を示します。 
 
 ``` powershell
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"} 
@@ -143,7 +148,7 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
-ユーザーからポリシーを削除するには、次の例に$Nullポリシーを付与します。
+ユーザーからポリシーを削除するには、次の例に示すように、$Null ポリシーを付与します。
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
@@ -157,9 +162,9 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 - [新しいビジネス アプリを開発Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [アプリケーションを Microsoft ID プラットフォーム に登録します](/azure/active-directory/develop/quickstart-register-app)。  
+- [アプリケーションを アプリケーションに登録Microsoft ID プラットフォーム。](/azure/active-directory/develop/quickstart-register-app)  
 
-登録する必要があるアプリケーションは、テナント内のすべての SBA で使用するために 1 つのみです。 
+1 つのアプリケーションを登録して、テナント内のすべての SA で使用する必要があります。 
 
 SBA 登録には、登録によって作成された次の値が必要です。 
 
@@ -172,7 +177,7 @@ SBA アプリケーションの場合は、次の注意が必要です。
 - サポートされているアカウントの種類 = この組織のディレクトリ内のアカウントのみ。 
 - Web リダイレクト URI = https://login.microsoftonline.com/common/oauth2/nativeclient 。
 - 暗黙的な付与トークン = アクセス トークンと ID トークン。 
-- API のアクセス許可 = SkypeテナントTeamsアクセス -> アプリケーションのアクセス許可 -> application_access_custom_sba_appliance。
+- API のアクセス許可 = SkypeテナントTeamsアクセス -> アプリケーションのアクセス許可 - > application_access_custom_sba_appliance。
 - クライアント シークレット: 任意の説明と有効期限を使用できます。 
 - クライアント シークレットは、作成後すぐにコピーしてください。 
 - アプリケーション (クライアント) ID が [概要] タブに表示されます。
@@ -199,7 +204,7 @@ SBA アプリケーションの場合は、次の注意が必要です。
 
 ## <a name="reporting-issues"></a>問題の報告
 
-SBC ベンダーのサポート組織に問題を報告します。 問題を報告する場合は、存続可能ブランチ アプライアンスが構成されていることを示します。
+SBC ベンダーのサポート組織に問題を報告します。 問題を報告するときに、構成済みの存続可能ブランチ アプライアンスを持っているかどうかを示します。
 
 ## <a name="known-issues"></a>既知の問題
 
@@ -207,7 +212,7 @@ SBC ベンダーのサポート組織に問題を報告します。 問題を報
 
 - ユーザーに存続可能ブランチ アプライアンス ポリシーを割り当てると、Get-CsOnlineUser の出力に SBA が表示されるまで時間がかかる場合があります。 
 
-- Azure ADに対する逆引き番号参照は実行されません。 
+- 連絡先に対する逆Azure ADは実行されません。 
 
 - SBA では、通話の転送設定はサポートされていません。 
 

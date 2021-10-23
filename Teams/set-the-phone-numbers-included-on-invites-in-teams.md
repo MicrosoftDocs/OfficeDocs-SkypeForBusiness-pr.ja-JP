@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 発信者が会議に参加するための既定の電話番号を作成するには、次のMicrosoft Teamsします。
-ms.openlocfilehash: 4c740147e551dade443852a98c5cdafac047815f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: bef8575e1e799c63159bec5cbfb06c80f4af6c83
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732716"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536748"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Microsfot Teams で招待状に含まれている電話番号を設定する
 
@@ -51,7 +51,7 @@ Microsoft 365 と Office 365 の電話会議を使用すると、組織内のユ
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>会議の開催者またはユーザーの既定の電話会議電話番号を設定または変更する
 
-![ロゴのアイコンMicrosoft Teams表示されます。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+ **Microsoft Teams 管理センターの使用**
 
 これらの変更を行うには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
@@ -72,9 +72,9 @@ Microsoft 365 と Office 365 の電話会議を使用すると、組織内のユ
 > [!IMPORTANT]
 > ユーザーの電話会議の設定を変更する場合は、定期的な会議とMicrosoft Teams会議を更新して出席者に送信する必要があります。
 
-## <a name="want-to-use-windows-powershell"></a>次のコマンドを使用Windows PowerShell
+## <a name="want-to-use-windows-powershell"></a>アプリケーションを使用Windows PowerShell
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理Microsoft 365または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
 - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 

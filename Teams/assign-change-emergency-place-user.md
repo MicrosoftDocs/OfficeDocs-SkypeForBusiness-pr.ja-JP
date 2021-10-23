@@ -18,20 +18,20 @@ f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーに緊急対応の場所を割り当てる方法または場所を変更する方法について学習します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1edc7bd6f5a1ea1b7a09f6747c1ee61f7dd74758
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 8cb8d51f35799ddb8610e7b3b36b43bf7f1fb890
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465977"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537208"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てる、または変更する
 
-ユーザーに電話番号を割り当てると、アクティブな各電話番号に緊急対応の場所が関連付けられている必要があります。 **Microsoft 365 で電話番号を取得した場合、Microsoft 365 に電話番号を転送する場合、またはプロバイダーから電話番号を取得するときに、住所を関連付ける。**
+ユーザーに電話番号を割り当てると、アクティブな各電話番号に緊急対応の場所が関連付けられている必要があります。 Microsoft 365 で電話番号を取得した場合、Microsoft 365 に電話番号を転送する場合、またはプロバイダーから電話番号を取得するときに、住所を関連付ける。
 
 緊急対応の場所に番号を関連付ける場合は、物理的な場所内のより正確な場所を提供する場所を追加できます。 場所には、ユーザーが配置されているフロア、ビルの主な場所、またはオフィス番号を指定できます。 特定の緊急対応の場所の場所の数に制限はありません。また、ユーザーが別のオフィスやビルに移動した場合に場所を変更できます。 たとえば、ユーザーがフロア 34 からフロア 35 に移動する場合です。
   
-管理者センターまたは PowerShell を使用して、ユーザーの緊急対応の場所Microsoft Teamsを割り当てまたは変更できます。
+管理者センターまたは PowerShell を使用して、ユーザーの緊急対応の場所Microsoft Teamsまたは変更できます。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
