@@ -20,7 +20,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 2163201f4b9b1090c62fbe42f5236665b09164f6
 ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/30/2021
 ms.locfileid: "58729546"
@@ -30,7 +30,7 @@ ms.locfileid: "58729546"
 > [!Tip]
 > Teams が Azure Active Directory (AAD)、Microsoft 365 グループ、Exchange、SharePoint、および OneDrive とどのようにやり取りするのかを学ぶために、次のセッションをご覧ください: [Microsoft Teams の基礎](https://aka.ms/teams-foundations)。
 
-Microsoft Teams の各チームには、SharePoint のチーム サイトがあります。チームの各標準チャネルには、既定のチーム サイトのドキュメント ライブラリ内のフォルダーが用意されています。 各[プライベート チャネル](private-channels.md)には、独自の分離した SharePoint サイトがあります。 これらのチーム サイトとチャネル サイトの詳細については、「接続されているサイトとチャネル サイトTeams[管理する」を参照してください](/sharepoint/teams-connected-sites)。
+Microsoft Teams の各チームには、SharePoint のチーム サイトがあります。チームの各標準チャネルには、既定のチーム サイトのドキュメント ライブラリ内のフォルダーが用意されています。 各[プライベート チャネル](private-channels.md)には、独自の分離した SharePoint サイトがあります。 これらのチーム サイトとチャネル サイトの詳細については、「[Teams 接続済みサイトとチャネル サイトの管理](/sharepoint/teams-connected-sites)」を参照してください。
 
 会話内で共有されているファイルはドキュメント ライブラリに自動的に追加され、SharePoint で設定されているアクセス許可とファイルのセキュリティ オプションは、Teams 内に自動的に反映されます。 SharePoint でサイト アドレスを変更した場合の影響の詳細については、「[サイト アドレスを変更する](/sharepoint/change-site-address)」を参照してください。
 
@@ -45,7 +45,7 @@ SharePoint ドキュメント ライブラリと OneDrive にファイルを格�
 
 チーム、標準チャネル、ドキュメント ライブラリの関係の例を次に示します。
 
-すべてのチームに対して SharePoint サイトが作成され、**[共有ドキュメント]** フォルダーがチーム用の既定のフォルダーとして作成されます。 **一般** チャネルを含め各標準チャネル (各チームの既定のチャネル) には、**共有ドキュメント** にフォルダーがあります。
+各チームには SharePoint サイトが作成されます。**共有ドキュメント** フォルダーは、そのチーム用に作成される既定のフォルダーです。 **全般** チャネル(各チームの既定のチャネルである) を含む各チャネルには **共有ドキュメント** 内にフォルダーが作成されます。
 
 ![SharePoint の共有ドキュメント フォルダーの図。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
@@ -53,7 +53,7 @@ SharePoint ドキュメント ライブラリと OneDrive にファイルを格�
 
 各ユーザーについては、他のユーザー (1 対 1 または 1 対多数 ) とのプライベート チャットで共有したすべてのファイルは OneDrive フォルダーの **Microsoft Teams Chat Files** に格納されます。このフォルダーには、指定したユーザーのみにアクセスを制限する権限が自動的に設定されます。
 
-![チャット ファイルという名前OneDriveフォルダー Microsoft Teams図。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
+![Microsoft Teams Chat Files という名前が付けられた OneDrive フォルダーの図。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image2.png)
 
 パブリック チームの場合、SharePoint チーム サイトには 「外部ユーザー以外のすべてのユーザー」のアクセスが設定されている点に注意してください。 チームのメンバーではないユーザーの場合、パブリック チームは Teams に表示されません。 ただし、SharePoint チーム サイトの URL を使用して SharePoint チーム サイト上のコンテンツにアクセスすることはできます。 
 
@@ -79,7 +79,7 @@ Teams の **[ファイル]** タブは、SharePoint ドキュメント ビュー
 
 ## <a name="related-topics"></a>関連トピック
 
-[接続Teamsサイトとチャネル サイトを管理する](/SharePoint/teams-connected-sites)
+[Teams 接続済みサイトとチャネル サイトの管理](/SharePoint/teams-connected-sites)
 
 [SharePoint とTeams: 共同作業の効率化](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593)。
 

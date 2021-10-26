@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 25d66dfc6487d411185e421a7bdef07c1e135156
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730646"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537098"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -37,7 +37,7 @@ ms.locfileid: "58730646"
 
 匿名参加を許可した場合、会議への招待状に含まれるリンクをクリックすると、誰でも匿名ユーザーとして会議に参加することができます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。
 
-![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+ **Microsoft Teams 管理センターの使用**
 
 これらの変更を行うには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
@@ -59,7 +59,7 @@ ms.locfileid: "58730646"
 > [!IMPORTANT]
 > 既定では、匿名ユーザーが会議でアプリを操作できるようにする設定が有効になっています。
 
-![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+ **Microsoft Teams 管理センターの使用**
 
 この設定にアクセスするには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
@@ -86,7 +86,7 @@ ms.locfileid: "58730646"
 
 ### <a name="customize-your-meeting-invitations"></a>会議の招待状をカスタマイズする
 
-![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+ **Microsoft Teams 管理センターの使用**
 
 1. 管理センターにアクセスします。
 2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
@@ -111,7 +111,7 @@ ms.locfileid: "58730646"
 > [!IMPORTANT]
 > QoS を有効にするか Microsoft Teams サービスに関する設定を Microsoft Teams 管理センターで変更するには、[すべてのユーザー デバイスおよびすべての内部ネットワーク デバイスに対して対応する設定を適用](QoS-in-Teams-clients.md)して、Teams で QoS への変更を完全に実装する必要があります。
 
- ![Microsoft Teams ロゴを示すアイコン。](media/teams-logo-30x30.png) **Microsoft Teams 管理センターの使用**
+  **Microsoft Teams 管理センターの使用**
 1. 管理センターにアクセスします。
 2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
 3. [**ネットワーク**] で、以下の手順を実行します。
@@ -121,9 +121,9 @@ ms.locfileid: "58730646"
     - DSCP マーキングを QoS で使用できるようにするには、[**リアルタイム メディア トラフィックのサービスの品質 (QoS) マーカーを挿入する**] をオンにします。 選択できるのは、マーカーを使用するか使用しないかのどちらかです。トラフィックの種類ごとにカスタム マーカーを設定することはできません。 DSCP マーカーの詳細については、「[QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)」を参照してください。
         > [!NOTE]
         > 通常、DSCP タグはソースポート経由で実行されます。 UDP トラフィックは、既定では 3478 の送信先ポートを使用してトランスポート リレーにルーティングされます。 会社が送信先ポートでのタグ付けを必要とする場合は、サポートに連絡して、UDP ポート 3479 (Audio)、3480 (ビデオ)、3481 (共有) を使用したトランスポート リレーへの通信を有効にしてください。
-    - ポート範囲を指定するには、[**リアルタイム メディア トラフィックの種類ごとのポート範囲を選択する**] の横にある [**ポート範囲を指定**] を選択し、オーディオ、ビデオ、画面共有用の開始および終了ポートを入力します。 QoS を実装するには、このオプションを選択する必要があります。 
+    - ポート範囲を指定するには、**[リアルタイム メディア トラフィックの種類ごとのポート範囲を選択する]** の横にある **[ポート範囲を指定]** を選択し、オーディオ、ビデオ、画面共有用の開始および終了ポートを入力します。QoS を実装するには、このオプションを選択する必要があります。 
         > [!Note]
-        > **リアルタイムのメディア トラフィックのサービス品質 (QoS) マーカー** がオンになっている場合は、ポート設定を管理する必要があります。 これらは、自動的に管理されません。
+        > **リアルタイムのメディア トラフィックのサービス品質 (QoS) マーカー** がオンになっている場合は、ポート設定を管理する必要があります。これらは、自動的に管理されません。
         
         > [!IMPORTANT]
         > [**任意の利用可能なポートを自動的に使用する**] を選択すると、1024 と 65535 の間の利用可能なポートが使用されます。 このオプションは、QoS を実装しない場合にのみ使用します。
@@ -143,4 +143,4 @@ ms.locfileid: "58730646"
 
 \* 割り当てたポート範囲は重なり合うことができず、相互に隣接することになります。
 
-QoS をしばらくの期間使用すると、これらの 3 つのワークロードのそれぞれの需要に関する使用状況情報を入手できます。具体的なニーズに応じて、変更が必要な点を決められます。 この作業を行う上で、[通話品質ダッシュボード](turning-on-and-using-call-quality-dashboard.md)が役に立ちます。
+QoS をしばらくの期間使用すると、これらの 3 つのワークロードのそれぞれの需要に関する使用状況情報を入手できます。具体的なニーズに応じて、変更が必要な点を決められます。この作業を行う上で、[通話品質ダッシュボード](turning-on-and-using-call-quality-dashboard.md)が役に立ちます。

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c28a79ddd3608e2e10d3e722577fc9e8d49334cb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727816"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537058"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Microsoft Teams にサイン インする
 
@@ -119,7 +119,7 @@ Windows および MacOS の Teams アプリは、組織へのサインインを�
 >1. ポリシーは、サインインのみ制約します。他の Azure AD テナントにユーザーがゲストとして招待される機能や、そこでそのテナント (ユーザーはゲストとして招待されている) への切り替えが制限されることはありません。
 >2. このポリシーには Windows バージョン 1.3.00.30866 以降の Teams および MacOS バージョン 1.3.00.30882 (2020 年 11 月半ばにリリースされました) の Teams が必要です。
 
-**Windows** 管理用テンプレート ファイル (ADMX/ADML) のポリシーは、[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=49030)から利用できます (管理テンプレート ファイルを説明する名前は、「特定のテナントのアカウントの Teams へのサインインを制限する」です)。 Windows レジストリに手動でキーを設定することもできます。
+**Windows 管理用テンプレート ファイル (ADMX/ADML) のポリシー** は、[ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=49030)から利用できます (管理テンプレート ファイルを説明する名前は、「特定のテナントのアカウントの Teams へのサインインを制限する」です)。Windows レジストリに手動でキーを設定することもできます。
 
 - 値の名前: RestrictTeamsSignInToAccountsFromTenantList
 - 値の種類: 文字列
@@ -145,10 +145,8 @@ Teams Android アプリは、グローバルなサインインとサインアウ
 
 ## <a name="urls-and-ip-address-ranges"></a>URL と IP アドレスの範囲
 
-Teams を使用するには、インターネットへの接続が必要です。 Office 365 の各プラン、政府機関向けまたはその他のクラウドを使用するユーザーが到達する必要があるエンドポイントについては、「[Office 365 の URL と IP アドレスの範囲](/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。
+Teams を使用するには、インターネットへの接続が必要です。Office 365 の各プラン、政府機関向けまたはその他のクラウド用の Teams を使用するユーザーが到達可能なエンドポイントについては、「[Office 365 の URL と IP アドレスの範囲](/office365/enterprise/urls-and-ip-address-ranges)」を参照してください。
 
-> [!IMPORTANT]
-> Teams では現在、すべてのユーザーについて、Google の ssl.gstatic.com サービスへの接続 (TCP ポート 443) が要求されています。Gstatic を使用していない場合であってもこれは要求されます。 Teams では間もなく (2020 年前半) この要件が削除される予定になっており、そのタイミングに合わせてこの記事も更新されます。
 
 ## <a name="related-topics"></a>関連項目
 

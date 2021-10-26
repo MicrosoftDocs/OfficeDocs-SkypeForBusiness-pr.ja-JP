@@ -3,15 +3,93 @@
 
 
 
+## <a name="week-of-october-18-2021"></a>2021 年 10 月 18 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 10/18/2021 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 更新日時 |
+| 10/18/2021 | [Cortanaでの音声アシスタンスのMicrosoft Teams](/MicrosoftTeams/cortana-in-teams) | 更新日時 |
+| 10/18/2021 | [ユーザーの自動応答を設定Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 10/18/2021 | [次のページで呼び出しキューをMicrosoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 10/18/2021 | [ダイレクト ルーティングの監視とトラブルシューティング](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | 更新日時 |
+| 10/18/2021 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
+| 10/18/2021 | [外部アクセス (フェデレーション) の管理](/MicrosoftTeams/manage-external-access) | 更新日時 |
+| 10/18/2021 | [Microsoft Teams Rooms を管理する](/MicrosoftTeams/rooms/rooms-manage) | 更新日時 |
+| 10/18/2021 | [クラウド ボイスメールのセットアップ](/MicrosoftTeams/set-up-phone-system-voicemail) | 更新日時 |
+| 10/18/2021 | [Microsoft Teams での回線共有機能](/MicrosoftTeams/shared-line-appearance) | 更新日時 |
+| 10/18/2021 | [割り当てられていない番号への通話のルーティング](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | 追加済 |
+| 10/18/2021 | [緊急対応の場所を追加、変更、削除する](/MicrosoftTeams/add-change-remove-emergency-place-organization) | 更新日時 |
+| 10/18/2021 | [ユーザーの緊急対応の場所を割り当てたり変更したりする](/MicrosoftTeams/assign-change-emergency-location-user) | 更新日時 |
+| 10/18/2021 | [ユーザーの緊急対応の場所を割り当て、変更する](/MicrosoftTeams/assign-change-emergency-place-user) | 更新日時 |
+| 10/18/2021 | [動的な緊急通話を構成する](/MicrosoftTeams/configure-dynamic-emergency-calling) | 更新日時 |
+| 10/18/2021 | [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新日時 |
+| 10/18/2021 | [Microsoft Teams の情報バリア](/MicrosoftTeams/information-barriers-in-teams) | 更新日時 |
+| 10/18/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
+| 10/18/2021 | [ダイレクト ルーティングの緊急音声ルーティング ポリシーを管理する](/MicrosoftTeams/manage-emergency-call-routing-policies) | 更新日時 |
+| 10/18/2021 | [緊急通話ポリシーを管理Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | 更新日時 |
+| 10/18/2021 | [クラウド音声機能のネットワーク トポロジを管理Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | 更新日時 |
+| 10/18/2021 | [緊急通話の計画と管理](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | 更新日時 |
+| 10/19/2021 | [Microsoft Teams のチャット、チーム、チャネル、およびアプリ](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | 更新 |
+| 10/19/2021 | [EDU Microsoft 保護者アプリの管理者セットアップ](/MicrosoftTeams/edu-parents-app) | 更新日時 |
+| 10/19/2021 | [Microsoft Teams のプライベート チャネル](/MicrosoftTeams/private-channels) | 更新日時 |
+| 10/20/2021 | [Microsoft Teams でイベントの監査ログを検索する。](/MicrosoftTeams/audit-log-events) | 更新日時 |
+| 10/20/2021 | [EDU Microsoft 保護者アプリの管理者セットアップ](/MicrosoftTeams/edu-parents-app) | 更新日時 |
+| 10/20/2021 | [割り当てられていない番号への通話のルーティング](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | 更新日時 |
+| 10/20/2021 | [緊急対応の場所を追加、変更、削除する](/MicrosoftTeams/add-change-remove-emergency-location-organization) | 更新日時 |
+| 10/20/2021 | [緊急対応の場所を追加、変更、削除する](/MicrosoftTeams/add-change-remove-emergency-place-organization) | 更新日時 |
+| 10/20/2021 | [採用を推進するためのツール](/MicrosoftTeams/adopt-tools-and-downloads) | 更新日時 |
+| 10/20/2021 | [ユーザーの緊急対応の場所を割り当てたり変更したりする](/MicrosoftTeams/assign-change-emergency-location-user) | 更新日時 |
+| 10/20/2021 | [ユーザーの緊急対応の場所を割り当て、変更する](/MicrosoftTeams/assign-change-emergency-place-user) | 更新日時 |
+| 10/20/2021 | [ユーザーの電話番号を割り当て、変更、または削除する](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 更新日時 |
+| 10/20/2021 | [電話会議ブリッジで電話番号を変更する](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 更新日時 |
+| 10/20/2021 | [電話会議ブリッジの設定を変更する](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge) | 更新日時 |
+| 10/20/2021 | [ユーザーの設定を変更したときに送信されるメール](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams) | 更新日時 |
+| 10/20/2021 | [電話会議の設定が変更された場合のメール オプション](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | 更新日時 |
+| 10/20/2021 | [ユーザーが会議の名前を記録できる](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | 更新日時 |
+| 10/20/2021 | [ユーザー用の電話番号を取得する](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 更新日時 |
+| 10/20/2021 | [緊急通話ポリシーを管理Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | 更新日時 |
+| 10/20/2021 | [外部アクセス (フェデレーション) の管理](/MicrosoftTeams/manage-external-access) | 更新日時 |
+| 10/20/2021 | [ユーザーの電話会議の設定を管理する](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams) | 更新日時 |
+| 10/20/2021 | [電話会議の設定を管理する](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 更新日時 |
+| 10/20/2021 | [会議の設定を管理する](/MicrosoftTeams/meeting-settings-in-teams) | 更新日時 |
+| 10/20/2021 | [発信通話の制限 - PSTN 通話&電話会議](/MicrosoftTeams/outbound-calling-restriction-policies) | 更新日時 |
+| 10/20/2021 | [Microsoft Teams でユーザーの会議 ID をリセットする](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | 更新日時 |
+| 10/20/2021 | [Microsoft Teams で電話会議の PIN をリセットする](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | 更新 |
+| 10/20/2021 | [電話会議の電話番号のリストを表示する](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | 更新日時 |
+| 10/20/2021 | [ユーザーの会議 ID を表示、変更、リセットする](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams) | 更新日時 |
+| 10/20/2021 | [ユーザーに電話会議情報を電子メールで送信する](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams) | 更新日時 |
+| 10/20/2021 | [電話会議の自動応答言語を設定する](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams) | 更新日時 |
+| 10/20/2021 | [招待状に含まれている電話番号を設定する](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 更新日時 |
+| 10/20/2021 | [電話会議の PIN の長さを設定する](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | 更新日時 |
+| 10/20/2021 | [Microsoft Teams の電話会議を設定する](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 更新日時 |
+| 10/20/2021 | [共存およびアップグレードの設定](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | 更新日時 |
+| 10/20/2021 | [電話で電話会議を開始し、PIN を使わずに電話会議を開始Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams) | 更新日時 |
+| 10/20/2021 | [Microsoft Teams でライブ イベント設定を構成する](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 更新日時 |
+| 10/20/2021 | [Microsoft TeamsPowerShell リリース ノート](/MicrosoftTeams/teams-powershell-release-notes) | 更新日時 |
+| 10/20/2021 | [会議の入退出のお知らせをオンまたはオフTeams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | 更新日時 |
+| 10/21/2021 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 更新日時 |
+| 10/21/2021 | [Microsoft Teamsデバイスの監視とアラート](/MicrosoftTeams/alerts/device-health-status) | 更新日時 |
+| 10/21/2021 | [発信通話の制限 - PSTN 通話&電話会議](/MicrosoftTeams/outbound-calling-restriction-policies) | 更新日時 |
+| 10/21/2021 | [Microsoft Teams の電話会議を設定する](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 更新日時 |
+| 10/21/2021 | [Microsoft Teams にサイン インする](/MicrosoftTeams/sign-in-teams) | 更新日時 |
+| 10/22/2021 | [ユーザーの自動応答を設定Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 10/22/2021 | [ダイレクト ルーティング SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | 更新日時 |
+| 10/22/2021 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
+| 10/22/2021 | [Microsoft Teams でのチームとチャネルの概要](/MicrosoftTeams/teams-channels-overview) | 更新日時 |
+| 10/22/2021 | [Microsoft TeamsPowerShell リリース ノート](/MicrosoftTeams/teams-powershell-release-notes) | 更新日時 |
+| 10/22/2021 | [Microsoft Teams の電話会議を設定する](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 更新日時 |
+
+
 ## <a name="week-of-october-11-2021"></a>2021 年 10 月 11 日の週
 
 
 | 公開日 |トピックのタイトル | 変更 |
 |------|------------|--------|
-| 10/11/2021 | [デバイスの電話とデバイスMicrosoft Teams](/MicrosoftTeams/devices/usb-devices) | 更新日時 |
+| 10/11/2021 | [電話とデバイス (Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 更新日時 |
 | 10/11/2021 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 10/12/2021 | [次のページで呼び出しキューをMicrosoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
-| 10/12/2021 | [ダイレクト ルーティングが認定されたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 10/12/2021 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 10/12/2021 | [オペレーター の構成Connect](/MicrosoftTeams/operator-connect-configure) | 更新日時 |
 | 10/12/2021 | [Frontline Worker オンボード ウィザードを使用して、フロント ラインの従業員を稼働させます。](/MicrosoftTeams/flw-onboarding-wizard) | 更新日時 |
 | 10/12/2021 | [Microsoft 365 電話システム – 仮想ユーザー ライセンス](/MicrosoftTeams/teams-add-on-licensing/virtual-user) | 更新日時 |
@@ -37,7 +115,7 @@
 
 | 公開日 |トピックのタイトル | 変更 |
 |------|------------|--------|
-| 10/5/2021 | [会議Teamsストリーミングする](/MicrosoftTeams/stream-teams-meetings) | 追加済 |
+| 10/5/2021 | [会議をTeamsする](/MicrosoftTeams/stream-teams-meetings) | 追加済 |
 | 10/5/2021 | 管理単位の機能を使用Microsoft Teams | 削除されました |
 | 10/5/2021 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 10/5/2021 | [直接ルーティング用にローカル メディアの最適化を構成する](/MicrosoftTeams/direct-routing-media-optimization-configure) | 更新日時 |
@@ -55,10 +133,10 @@
 | 10/6/2021 | [監視ありチャットを使用する](/MicrosoftTeams/supervise-chats-edu) | 更新日時 |
 | 10/7/2021 | [ダイレクト ルーティングを計画する](/MicrosoftTeams/direct-routing-plan) | 更新日時 |
 | 10/7/2021 | [Teamsと Android の共有スペース機能の比較Windowsデバイス](/MicrosoftTeams/rooms/teams-devices-feature-comparison) | 追加済 |
-| 10/8/2021 | [次のページで呼び出しキューをMicrosoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
-| 10/8/2021 | [自動応答 &キュー履歴レポートの呼び出し](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 更新日時 |
+| 10/8/2021 | [次のページで通話キューを作成Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 更新日時 |
+| 10/8/2021 | [自動応答 &キュー履歴レポート](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 更新日時 |
 | 10/8/2021 | [自動応答と通話キューの呼び出しに応答する](/MicrosoftTeams/answer-auto-attendant-and-call-queue-calls) | 更新日時 |
-| 10/8/2021 | [小規模ビジネス向け自動応答Microsoft Teamsセットアップする](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 更新日時 |
+| 10/8/2021 | [自動応答を設定する Microsoft Teams - Small Business チュートリアル](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 更新日時 |
 | 10/8/2021 | [小規模ビジネス向けチュートリアルでMicrosoft Teamsキューを作成する](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 更新日時 |
 | 10/8/2021 | [Microsoft Teams でのコール パークおよび保留解除](/MicrosoftTeams/call-park-and-retrieve) | 更新日時 |
 | 10/8/2021 | [ユーザーの自動応答を設定Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
@@ -91,9 +169,9 @@
 | 9/27/2021 | [電話の番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-poland) | 更新日時 |
 | 9/27/2021 | [会議の内容をブロードキャストする](/MicrosoftTeams/use-ndi-in-meetings) | 更新日時 |
 | 9/27/2021 | [資金を追加してコミュニケーション クレジットを管理する](/MicrosoftTeams/add-funds-and-manage-communications-credits) | 更新日時 |
-| 9/27/2021 | [ダイレクト ルーティングが認定されたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 9/27/2021 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 9/27/2021 | [Microsoft Teams の制限事項と仕様](/MicrosoftTeams/limits-specifications-teams) | 更新日時 |
-| 9/27/2021 | [会議をTeamsするポリシーベースの記録の概要&説明](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
+| 9/27/2021 | [会議をTeamsのためのポリシーベースの記録の&概要](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
 | 9/28/2021 | [アプリのアクセス許可を表示し、管理センターで管理者のMicrosoft Teams付与する](/MicrosoftTeams/app-permissions-admin-center) | 更新日時 |
 | 9/28/2021 | [Teams における承認アプリケーションの利用の可否](/MicrosoftTeams/approval-admin) | 更新日時 |
 | 9/28/2021 | [Android Microsoft Teams会議室を展開する](/MicrosoftTeams/devices/collab-bar-deploy) | 更新日時 |
@@ -124,7 +202,7 @@
 | 9/29/2021 | [通話品質ダッシュボード (CQD) のデータとレポート](/MicrosoftTeams/cqd-data-and-reports) | 更新日時 |
 | 9/29/2021 | [ハイブリッド組織Exchange構成する](/MicrosoftTeams/exchange-hybrid-organization) | 更新日時 |
 | 9/29/2021 | [管理者トレーニング リソース - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 更新日時 |
-| 9/29/2021 | [カスタム Microsoft 365を使用する](/MicrosoftTeams/office-365-custom-connectors) | 更新日時 |
+| 9/29/2021 | [カスタム コネクタMicrosoft 365使用する](/MicrosoftTeams/office-365-custom-connectors) | 更新日時 |
 | 9/29/2021 | [Microsoft Teams: アクセシビリティに関する準拠宣言 - フランス](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | 更新日時 |
 | 9/29/2021 | [Microsoft Teams を導入する](/MicrosoftTeams/adopt-microsoft-teams-landing-page) | 更新日時 |
 | 9/29/2021 | [採用を推進するためのツール](/MicrosoftTeams/adopt-tools-and-downloads) | 更新日時 |
@@ -151,7 +229,7 @@
 | 9/29/2021 | [ユーザー用の電話番号を取得する](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 更新日時 |
 | 9/29/2021 | [電話システムで利用できる機能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新日時 |
 | 9/29/2021 | [取得できる電話番号の数](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | 更新日時 |
-| 9/29/2021 | [Ignite 2020 Teams セッションの作成](/MicrosoftTeams/ignite-2020-landing-page) | 更新日時 |
+| 9/29/2021 | [Teams Ignite 2020 でのセッションの作成](/MicrosoftTeams/ignite-2020-landing-page) | 更新日時 |
 | 9/29/2021 | [Teams応答メッセージの言語を設定する](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | 更新日時 |
 | 9/29/2021 | [Microsoft Teams ユーザーまたはチームを訴訟ホールドの対象にする](/MicrosoftTeams/legal-hold) | 更新 |
 | 9/29/2021 | [ダイレクト ルーティングの場所に基づくルーティングを有効にする](/MicrosoftTeams/location-based-routing-enable) | 更新日時 |
@@ -180,10 +258,10 @@
 | 9/30/2021 | [組織のシフト アプリを管理する](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 更新日時 |
 | 9/30/2021 | [Frontline Worker オンボード ウィザードを使用して、フロント ラインの従業員を稼働させます。](/MicrosoftTeams/flw-onboarding-wizard) | 更新日時 |
 | 9/30/2021 | [オペレーター の構成Connect](/MicrosoftTeams/operator-connect-configure) | 更新日時 |
-| 9/30/2021 | [オペレーター サービスを利用した運送業者と Microsoft の間でのConnect](/MicrosoftTeams/operator-connect-data-transfer) | 更新日時 |
+| 9/30/2021 | [オペレーター サービスを利用した通信事業者と Microsoft の間でのConnect](/MicrosoftTeams/operator-connect-data-transfer) | 更新日時 |
 | 9/30/2021 | [演算子Connect](/MicrosoftTeams/operator-connect-plan) | 更新日時 |
 | 9/30/2021 | [手動で番号移行注文を送信する](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | 更新日時 |
-| 9/30/2021 | [自動応答Teams通話キューの計画](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
+| 9/30/2021 | [自動応答Teamsキューの計画](/MicrosoftTeams/plan-auto-attendant-call-queue) | 更新日時 |
 | 9/30/2021 | [Microsoft Teams でユーザーの会議 ID をリセットする](/MicrosoftTeams/reset-a-conference-id-for-a-user-in-teams) | 更新日時 |
 | 9/30/2021 | [ユーザーの電話番号を検索する](/MicrosoftTeams/search-for-phone-numbers-for-users) | 更新日時 |
 | 9/30/2021 | [電話会議が有効になっているユーザーの一覧を表示する](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams) | 更新日時 |
@@ -192,7 +270,7 @@
 | 9/30/2021 | [共通領域電話のライセンスをセットアップする](/MicrosoftTeams/set-up-common-area-phones) | 更新日時 |
 | 9/30/2021 | [組織用にコミュニケーション クレジットをセットアップする](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 更新日時 |
 | 9/30/2021 | [組織内の電話システムの設定](/MicrosoftTeams/setting-up-your-phone-system) | 更新日時 |
-| 9/30/2021 | [Microsoft Teams使用状況レポート](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | 更新日時 |
+| 9/30/2021 | [Microsoft Teams使用状況レポートを作成する](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | 更新日時 |
 | 9/30/2021 | [Microsoft TeamsPSTN 分プール レポート](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | 更新日時 |
 | 9/30/2021 | [Microsoft Teams の分析とレポート](/MicrosoftTeams/teams-analytics-and-reports/teams-reporting-reference) | 更新日時 |
 | 9/30/2021 | [デバイスの正常性Teamsする](/MicrosoftTeams/teams-device-health) | 更新日時 |
@@ -210,7 +288,7 @@
 | 9/30/2021 | [電話の番号管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-singapore) | 更新日時 |
 | 9/30/2021 | [Microsoft Graph を使用して構築された中小企業向けのチーム テンプレート](/MicrosoftTeams/smb-templates) | 更新日時 |
 | 9/30/2021 | [Microsoft TeamsPowerShell リリース ノート](/MicrosoftTeams/teams-powershell-release-notes) | 更新日時 |
-| 10/1/2021 | [Microsoft Teams でポリシー パッケージを管理する](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
+| 10/1/2021 | [アプリケーションでポリシー パッケージを管理Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | 更新日時 |
 | 10/1/2021 | [Microsoft Teams のプライベート チャネル](/MicrosoftTeams/private-channels) | 更新日時 |
 | 10/1/2021 | [PowerShell Teamsを使用Microsoft Teams管理する](/MicrosoftTeams/teams-powershell-managing-teams) | 更新日時 |
 | 10/1/2021 | [Microsoft Teams Export API を使用してコンテンツをエクスポートする](/MicrosoftTeams/export-teams-content) | 更新日時 |
@@ -226,7 +304,7 @@
 | 9/20/2021 | [ポリシーの割り当てを管理センターのアクティビティ ログMicrosoft Teams表示する](/MicrosoftTeams/activity-log) | 更新日時 |
 | 9/20/2021 | [Teams における承認アプリケーションの利用の可否](/MicrosoftTeams/approval-admin) | 更新日時 |
 | 9/20/2021 | [Microsoft Teams でユーザーにライセンスを割り当てる](/MicrosoftTeams/assign-policies) | 更新日時 |
-| 9/20/2021 | [ダイレクト ルーティングが認定されたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
+| 9/20/2021 | [ダイレクトルーティングが認定されたセッションボーダーコントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
 | 9/20/2021 | [Microsoft Teams for Education安全な学習のためのポリシーを簡単に適用するポリシー ウィザード](/MicrosoftTeams/easy-policy-setup-edu) | 更新日時 |
 | 9/20/2021 | [Microsoft Teams のクライアントを取得する](/MicrosoftTeams/get-clients) | 更新日時 |
 | 9/20/2021 | [Microsoft Teams でのゲスト アクセス](/MicrosoftTeams/guest-access) | 更新日時 |
@@ -251,34 +329,3 @@
 | 9/23/2021 | [ユーザーの電話番号を検索する](/MicrosoftTeams/search-for-phone-numbers-for-users) | 更新日時 |
 | 9/23/2021 | [Microsoft Teams の感度ラベル](/MicrosoftTeams/sensitivity-labels) | 更新日時 |
 | 9/24/2021 | [Microsoft TeamsPowerShell リリース ノート](/MicrosoftTeams/teams-powershell-release-notes) | 更新日時 |
-
-
-## <a name="week-of-september-13-2021"></a>2021 年 9 月 13 日の週
-
-
-| 公開日 |トピックのタイトル | 変更 |
-|------|------------|--------|
-| 9/13/2021 | [会議をTeamsするポリシーベースの記録の概要&説明](/MicrosoftTeams/teams-recording-policy) | 更新日時 |
-| 9/13/2021 | [Microsoft Teams の Education Insights への IT 管理者ガイド](/MicrosoftTeams/class-insights) | 更新日時 |
-| 9/13/2021 | [ダイレクト ルーティングが認定されたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
-| 9/13/2021 | [管理センターでアプリMicrosoft Teams管理する](/MicrosoftTeams/manage-apps) | 更新日時 |
-| 9/14/2021 | [ダイレクト ルーティングが認定されたセッション ボーダー コントローラー](/MicrosoftTeams/direct-routing-border-controllers) | 更新日時 |
-| 9/14/2021 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
-| 9/15/2021 | [モバイル ブラウザーで仮想アクセスTeamsの参加エクスペリエンスを管理する](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | 更新日時 |
-| 9/16/2021 | [国/地域の可用性 - 電話会議、通話プラン](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 更新日時 |
-| 9/16/2021 | [Teams: 会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
-| 9/17/2021 | [分数ごと従量課金制電話会議](/MicrosoftTeams/audio-conferencing-pay-per-minute) | 更新日時 |
-| 9/17/2021 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 更新日時 |
-| 9/17/2021 | [国/地域の可用性 - 電話会議、通話プラン](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 更新日時 |
-| 9/17/2021 | [Teams: 会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-in-teams) | 更新日時 |
-| 9/17/2021 | [クイック スタート - 会議、ウェビナー、ライブ イベント](/MicrosoftTeams/quick-start-meetings-live-events) | 更新日時 |
-| 9/17/2021 | [電話会議の電話番号のリストを表示する](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | 更新日時 |
-| 9/17/2021 | [Microsoft Teams でのライブ イベントのセットアップ](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 更新日時 |
-| 9/17/2021 | [組織の電話番号を管理する](/MicrosoftTeams/manage-phone-numbers-landing-page) | 追加済 |
-| 9/17/2021 | [通話プランのサービス電話番号を取得する](/MicrosoftTeams/getting-service-phone-numbers) | 更新日時 |
-| 9/17/2021 | [取得できる電話番号の数](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | 更新日時 |
-| 9/17/2021 | [通話プランの電話番号を管理する](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | 更新日時 |
-| 9/17/2021 | [Slack から Microsoft Teams に移行する](/MicrosoftTeams/migrate-slack-to-teams) | 更新日時 |
-| 9/17/2021 | [Microsoft Teams ルーム](/MicrosoftTeams/rooms/index) | 更新日時 |
-| 9/17/2021 | [ユーザーの電話番号を検索する](/MicrosoftTeams/search-for-phone-numbers-for-users) | 更新日時 |
-| 9/17/2021 | [組織内の電話番号の一覧を表示する](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | 更新日時 |
