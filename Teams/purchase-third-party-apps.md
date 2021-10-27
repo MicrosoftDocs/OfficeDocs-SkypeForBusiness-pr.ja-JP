@@ -16,16 +16,16 @@ description: 管理センターでサード パーティ製アプリを購入Tea
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 6d7a6e1a38327cef327a9de119321127b58909fb
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: 19403d35ad2e7263ad6f0d5a2c7a2b22d4249664
+ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367539"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60600221"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>サード パーティ製アプリを購入Teams
 
-Teamsは無料でインストールできます。一部のアプリでは、アプリの全機能とスコープを体験するために購入サービス サブスクリプションが必要な場合があります。 これらのサービス サブスクリプションは、サービスとしてのソフトウェア (SaaS) オファーと呼ばれるサービスであり[、AppSource](https://appsource.microsoft.com/)を通じて購入し、現在は管理センターからMicrosoft Teams利用できます。
+Teamsは無料でインストールできます。一部のアプリでは、アプリの完全な機能とスコープを体験するために購入サービス サブスクリプションが必要な場合があります。 これらのサービス サブスクリプションは、サービスとしてのソフトウェア (SaaS) オファーと呼ばれるサービスであり[、AppSource](https://appsource.microsoft.com/)を通じて購入し、現在は管理センターからMicrosoft Teams利用できます。
 
 Microsoft Teams [](manage-apps.md)管理センターの [アプリの管理] ページでは、組織のすべてのアプリTeams表示および管理できます。 たとえば、アプリの組織レベルの状態とプロパティの表示、組織のアプリ ストアへの新しいカスタム アプリのアップロード、組織レベルでのアプリのブロックまたは許可、組織全体のアプリ設定の管理を行います。
 
@@ -55,11 +55,7 @@ Microsoft Teams [](manage-apps.md)管理センターの [アプリの管理] ペ
 > [!NOTE]
 > 新しい請求先アカウントを追加するには、グローバル管理者である必要があります。
 
-7. 正しい課金プロファイルが選択されていることを確認します。 まだお持ちでない場合は、[新しい追加] を選択して新しい追加 **を行います**。 クレジット カード、デビット カード、または請求書の請求で支払うオプションがあります。 課金プロファイルでは、後で注文を識別する発注書番号を追加することもできます。 課金プロファイルの詳細については、「課金プロファイルについて [」を参照してください](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)。
-
-> [!NOTE]
-> 請求書の課金は、500 ドルを超えるトランザクションでのみ使用できます。
-
+7. 正しい課金プロファイルが選択されていることを確認します。 まだお持ちでない場合は、[新しい追加] を選択して新しい追加 **を行います**。 クレジット カード、デビット カード、または請求書を使用して支払う [オプションがあります](#invoice-billing)。 課金プロファイルでは、後で注文を識別する発注書番号を追加することもできます。 課金プロファイルの詳細については、「課金プロファイルについて [」を参照してください](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles)。
 8. [ **注文] を選択します**。
 9. [ **設定] を** 選択して、発行元の Web サイトでサブスクリプションをアクティブ化します。 購入後にサブスクリプションを設定しない場合は、後で [ライセンスの管理] を選択して **設定できます**。
 
@@ -75,17 +71,24 @@ Teams アプリに関連付けられている SaaS オファーを購入する�
 グローバル管理者は、組織内のすべてのユーザーが行った購入のライセンスの追加、ライセンスの削除、サブスクリプションの取り消しを行います。 Teams管理者は、自分で行った購入に対して同じアクションを実行できます。 ただし、サービス管理者Teams課金管理者ロールを持っている場合は、組織内のすべてのユーザーが行った購入を管理できます。
 
 > [!NOTE]
-> グローバル管理者が別のグローバル管理者によって購入されたサブスクリプションを管理する場合は、同じ請求先アカウントに登録する必要があります。 購入したサブスクリプションに対して別のグローバル管理者アクセス権を付与するには、アプリを選択Microsoft 365 管理センター。 そこから、[課金プロファイルの表示 **] [** 請求先アカウント  >  **の選択] [** ロール  >  **の割** り当て]  >  **[他のグローバル管理者の追加] に移動します**。
+> グローバル管理者が別のグローバル管理者によって購入されたサブスクリプションを管理する場合は、同じ請求先アカウントに登録する必要があります。 購入したサブスクリプションに対して別のグローバル管理者アクセス権を付与するには、アプリを選択Microsoft 365 管理センター。 そこから、[課金プロファイルの表示 **] [** 請求先アカウントの  >  **選択] [** ロール  >  **の割り当て**  >  **] [他のグローバル管理者の追加] に移動します**。
+
+### <a name="invoice-billing"></a>請求書の請求
+
+- 請求書の請求は、一部のトランザクションの支払いオプションとして利用できます。
+- 請求書の請求を初めて使用する場合は、与信審査が必要です。承認には最大 24 ~ 48 時間かかる場合があります。 クレジット チェックが完了するまで、請求書の課金は利用できません。 クレジット カードで注文するか、クレジット レビューが承認された後でもう一度やり直してください。
+- 請求書の課金は、グローバル管理者またはサービス管理者と課金管理者の両方のアクセス許可Teams管理者にのみ使用できます。
+- 30 日間の無料試用版でプランを購入する場合、請求書の課金は利用できません。
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Microsoft Teams 管理センターと AppSource で一覧表示して販売する、Teams アプリの SaaS オファーがありますか?
 
-開発者は、アプリに関連付けられた SaaS オファー Teamsできます。 これらのオファーはパートナー[センターを](https://partner.microsoft.com)通じて公開され、組織は[AppSource](https://appsource.microsoft.com/)と管理センターから購入Microsoft Teamsできます。
+開発者は、アプリに関連付けられた SaaS オファー Teamsできます。 これらのオファーはパートナー センターを[通じて](https://partner.microsoft.com)公開され、組織は[AppSource](https://appsource.microsoft.com/)と管理センターから購入Microsoft Teamsできます。
 
 サード パーティ製アプリ開発者は [、「SaaS](/azure/marketplace/partner-center-portal/create-new-saas-offer) オファーを作成する」を参照して詳細を確認できます。
 
 ## <a name="related-topics"></a>関連項目
 
-- [管理センターでアプリをMicrosoft Teamsする](manage-apps.md)
+- [管理センターでアプリMicrosoft Teamsする](manage-apps.md)
 - [SaaS オファーを作成する](/azure/marketplace/partner-center-portal/create-new-saas-offer)
 - [Azure ADロールを作成する](/azure/active-directory/roles/permissions-reference)
 - [Microsoft 365管理者ロール](/microsoft-365/admin/add-users/about-admin-roles)

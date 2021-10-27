@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0cd552a743df29cc16ca40df2ebe6e48dda95fe
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 2634f7f48a1735f8b8421bc43598fc142db1a53b
+ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356465"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60600261"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
-Microsoft Teams会議室の規模は、部屋のサイズが異なります。 Teams会議室では、部屋のサイズと用途に基づいて、さまざまな認定オーディオおよびビデオ周辺機器が使用されます。 マイク、スピーカー、カメラ、ディスプレイと組み合わせて、適切なコア デバイスと本体を選択することで、Microsoft Teams 会議室を小規模な会議室から大規模な会議スペースや会議室まで、任意のサイズの空間に展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
+Microsoft Teams会議室の規模は、部屋のサイズが異なります。 Teams会議室では、部屋のサイズと用途に基づいて、さまざまな認定オーディオおよびビデオ周辺機器が使用されます。 適切なコア デバイスと本体を選択し、マイク、スピーカー、カメラ、およびスペースに適したディスプレイと組み合わせると、Microsoft Teams 会議室を小さなハドル 空間から大きな会議スペースや会議室まで、任意のサイズの空間に展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
 
 この記事では、Microsoft Teams Rooms をサポートするためのデバイスの展開と構成に関する要件をまとめます。
 
@@ -38,7 +38,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
 > [!NOTE]
 > Microsoft Teams Rooms では、Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015、または Skype for Business Online にサインインし、これらのサービスでホストされている会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams会議室は、21Vianet Microsoft 365 DoD 環境Office 365、または DoD 環境ではサポートされていません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams21Vianet または DoD 環境Microsoft 365またはOffice 365、会議室はサポートされていません。
 >
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
@@ -79,6 +79,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
   |Lenovo ThinkSmart Core Kit |Core i5|8 GB|128 GB|
   |[Logicool Tap と Intel NUC](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
   |Logitech Tap と Intel Tiger Canyon NUC PC |Core i5|8 GB|128 GB|
+  |Logitech TAP Console with Lenovo Core Compute |Core i5|8 GB|128 GB|
   |[Logitech Tap と Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T と Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |[Yealink MVC300 と Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
@@ -131,7 +132,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
 |[Aver VB130 カメラ サウンド バー](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Biamp Devio SCR-20CX Web-Based会議ハブと Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
-|[Biamp Devio SCR-20TX Web-Basedのマイクを使用した会議ハブ](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
+|[Biamp Devio SCR-20TX Web-Based会議ハブとテーブルトップ マイク](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly キャンバス](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
