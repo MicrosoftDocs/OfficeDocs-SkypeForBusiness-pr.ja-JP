@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: オンプレミス環境を使用停止する際に DNS エントリを管理するSkype for Business手順。
-ms.openlocfilehash: 70255314ecf87d55ef578a4daa0390b46179349c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7c6e803b089d8a34703dc26ea93e207c6d7aedf6
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735324"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579667"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>DNS エントリを更新して、組織がすべてのユーザーのみTeamsする
 
@@ -35,7 +35,7 @@ ms.locfileid: "58735324"
 
 ## <a name="how-to-identify-stale-dns-records"></a>古い DNS レコードを識別する方法
 
-組織がすべての Teams のみになるのを妨げる DNS レコードを識別するには、Teams 管理センターを使用して共存モードを TeamsOnly に変更できます。 [アップグレード]**の [組織全体の**  ->  **設定Teams移動します**。 組織が [のみ] になTeams DNS レコードは、エラー メッセージに含まれます。  DNS レコードが見つからない場合、組織の共存モードは TeamsOnly に変更されます。   
+組織がすべての Teams のみになるのを妨げる DNS レコードを識別するには、Teams 管理センターを使用して共存モードを TeamsOnly に変更できます。 [アップグレード設定  >  **Teams Teamsに移動します**。 組織が [のみ] になTeams DNS レコードは、エラー メッセージに含まれます。  DNS レコードが見つからない場合、組織の共存モードは TeamsOnly に変更されます。   
 
 または、PowerShell Teamsを使用して、以下に示すように同じ操作を実行できます。
 

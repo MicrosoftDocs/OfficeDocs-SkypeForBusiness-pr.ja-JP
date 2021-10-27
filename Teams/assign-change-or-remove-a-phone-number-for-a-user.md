@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 外部の企業やクライアントがコールインできるよう、Teamsの電話番号を割り当て、変更、または削除する方法について学習します。
-ms.openlocfilehash: 92c19912e566f7dbea09b4849d9970619551b4a4
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536508"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579517"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>ユーザーの電話番号を割り当て、変更、または削除する
 
@@ -38,6 +38,9 @@ ms.locfileid: "60536508"
   
 > [!NOTE]
 > ユーザーにライセンスが割り当てられているかどうかを確認する方法の 1 つは、[ユーザー] の管理Microsoft Teamsに>**です**。 ライセンスが割り当てられている場合は、ページに表示されます。  また、次のMicrosoft 365 管理センター。
+
+> [!NOTE]
+> このメモは、オンプレミスの Active Directory を使用してハイブリッドデプロイを行うお客様に適用されます。 通話プランまたはオペレーター Connect の電話番号をユーザーまたはリソース アカウントに割り当てる場合は、オンプレミスの Active Directory の電話番号が削除され、変更が Microsoft 365 に同期されている必要があります。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>ユーザーに電話番号を割り当てる
 

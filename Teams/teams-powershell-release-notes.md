@@ -4,38 +4,39 @@ ms.reviewer: gothambi
 author: BrandBer
 ms.author: gothambi
 manager: naanur
-ms.date: 08/31/2021
+ms.date: 10/25/2021
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: PowerShell の最新の変更点Teamsします。
+description: PowerShell の最新の変更Teams確認します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55d9ec2ab188d478e3488d5272dd964c2e018418
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 232a41dce111b0d913c3888c0e00140bf2b904c0
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536738"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579617"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft TeamsPowerShell リリース ノート
 
-このページでは、一般公開Teams両方の PowerShell 変更ログの最新バージョンを提供します。
+このページでは、一般公開Teams両方の PowerShell 変更ログに関する最新の情報を提供します。
 
 ## <a name="release-notes"></a>リリース ノート
 
 > [!NOTE]
-> **次のバージョン** 列の -preview は、PowerShell パブリック プレビュー Teams更新プログラムを表しています。
+> **-preview** in the version column below は、PowerShell パブリック Teams更新プログラムを表します。
 
 | 日付 | バージョン | 更新プログラム |
 |------- | -------------------- | ------------------------------ |
-| 2021 年 9 月 | [2.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.0) |<li>別のカスタム PowerShell モジュールの入れ子になったモジュールを作成した場合に MicrosoftTeams モジュールの参照が失敗するバグを修正しました。 MicrosoftTeams コマンドレットは、別のモジュールの入れ子になったモジュールでも使用できます。</li><li>[Get \| New \| Complete \| Clear]-CsOnlineTelephoneNumberOrder コマンドレットをリリースします。</li><li>コマンドレットGet-CsOnlineTelephoneNumberCountryおよびGet-CsOnlineTelephoneNumberTypeリリースします。</li><li>これらのコマンドレットの新しいパラメーターをリリースします: Get-CsOnlineApplicationInstance、New-CsExternalAccessPolicy、New-CsTeamsAppSetupPolicy、New-CsTeamsCallingPolicy、New-CsTeamsCallParkPolicy、New-CsTeamsMeetingPolicy、 New-CsTeamsMessagingPolicy、Set-CsTeamsAppSetupPolicy、Set-CsTeamsCallParkPolicy、Set-CsTeamsGuestMessagingConfiguration、Set-CsTeamsMeetingPolicy、Set-CsTenantFederationConfiguration、Set-CsExternalAccessPolicy、Set-CsTeamsCallingPolicy。</li><li>サインイン試行が正しくない場合に、Connect-MicrosoftTeamsを再試行するときに発生したエラーを修正します。</li><li>新しいバージョンごとに PowerShell ギャラリーでモジュールのリリース ノートを使用できる更新プログラム。</li>
-| 2021 年 9 月 | [2.5.2](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.2) |<li>注: このバージョンからリリース ノートは、リリース ノートの提供遅延を減らすために、モジュール自体と共に PowerShell ギャラリーにも公開されます。</li><li>[Get \| Set \| Grant New \| \| Remove]-CsTeamsEnhancedEncryptionPolicy コマンドレットをリリースします。</li><li>[Get \| Set \| New \| Remove]-CsTenantBlockedNumberExceptionPattern コマンドレットを削除します。</li><li>別のカスタム PowerShell モジュールの入れ子になったMicrosoft Teamsモジュールの参照が失敗するバグを修正しました。 これで、Microsoft Teamsモジュールの入れ子になったモジュールでも、このコマンドレットを使用できます。</li><li>[Get \| New \| Complete \| Clear]-CsOnlineTelephoneNumberOrder コマンドレットをリリースします。</li><li>コマンドレットGet-CsOnlineTelephoneNumberCountryおよびGet-CsOnlineTelephoneNumberTypeリリースします。</li><li>サインイン試行が正しくない場合に、Connect-MicrosoftTeamsを再試行するときに発生したエラーを修正します。</li><li>プライベート チャネルAdd-TeamChannelUser失敗Remove-TeamChannelUserとエラーを修正しました。</li>
-| 2021 年 8 月 | [2.5.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.1) |<li>リソースのアクセス トークン ログインConnect-MicrosoftTeamsリソース固有のトークンごとに個別のパラメーターではなく、統合トークン配列を使用する必要があります。 詳細については、 を参照 [してください](/powershell/module/teams/connect-microsoftteams)。</li><li>Cloudshell でのConnect-MicrosoftTeamsの対話型ログイン エラーが修正されました。 既定では、再認証を求めるメッセージが表示されるのではなく、ユーザーのログイン ID が使用されます。</li><li>TeamsUnassignedNumberTreatment コマンドレットを使用できます。</li><li>Get-CsOnlineDialInConferencingBridgeおよびSet-CsOnlineDialInConferencingBridgeコマンドレットは、以前の実装から新しい API に移行されました。</li><li>最新バージョンの Get-CsTenantと Get-CsOnlineUser (-identity パラメーターのみ) がリリースされました。 非推奨のプロパティは出力されなくなりました。また、リモート処理に対応するプロパティと比較して、いくつかの書式設定が変更されています。</li><li>注: New-Team更新プログラムは 2.5.0 から元に戻され、新しい変更を回避するために以前のバージョンが提供されています。</li>|
+| 2021 年 10 月 | [2.6.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.1-preview) |<li>[Set \| Remove]-CsPhoneNumberAssignment コマンドレットをリリースします。 これらのコマンドレットは段階的に展開されます。そのため、一部のテナントでは、(ロールアウトが完了するまで) 使用できる既存のコマンドレットを参照するエラー メッセージが表示されます。</li><li>コマンドレットGet-CsOnlineTelephoneNumberCountryおよびGet-CsOnlineTelephoneNumberTypeリリースします。</li><li>[Set \| New]-CsTeamsEmergencyCallingPolicy コマンドレットの新しいパラメーター EnhancedEmergencyServiceDisclaimer をリリースします。</li><li>このコマンドレットGet-CsUserCallingSettingsリリースします。 このコマンドレットは、最終的に GA モジュールでリリースされます。 プレビュー モジュールでの試用版のリリース。</li>
+| 2021 年 9 月 | [2.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/2.6.0) |<li>別のカスタム PowerShell モジュールの入れ子になったモジュールを作成した場合に MicrosoftTeams モジュールの参照が失敗するバグを修正しました。 MicrosoftTeams コマンドレットは、別のモジュールの入れ子になったモジュールでも使用できます。</li><li>[Get \| New \| Complete \| Clear]-CsOnlineTelephoneNumberOrder コマンドレットをリリースします。</li><li>コマンドレットGet-CsOnlineTelephoneNumberCountryおよびGet-CsOnlineTelephoneNumberTypeリリースします。</li><li>これらのコマンドレットの新しいパラメーターをリリースします: Get-CsOnlineApplicationInstance、New-CsExternalAccessPolicy、New-CsTeamsAppSetupPolicy、New-CsTeamsCallingPolicy、New-CsTeamsCallParkPolicy、New-CsTeamsMeetingPolicy、 New-CsTeamsMessagingPolicy、Set-CsTeamsAppSetupPolicy、Set-CsTeamsCallParkPolicy、Set-CsTeamsGuestMessagingConfiguration、Set-CsTeamsMeetingPolicy、Set-CsTenantFederationConfiguration、Set-CsExternalAccessPolicy、Set-CsTeamsCallingPolicy。</li><li>サインイン試行が間違った後Connect-MicrosoftTeamsログインを再試行するときに発生したエラーを修正します。</li><li>新しいバージョンごとに PowerShell ギャラリーでモジュールのリリース ノートを使用できる更新プログラム。</li>
+| 2021 年 9 月 | [2.5.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.2-preview) |<li>注: このバージョンからリリース ノートは、リリース ノートの提供遅延を減らすために、モジュール自体と共に PowerShell ギャラリーにも公開されます。</li><li>[Get \| Set \| Grant New \| \| Remove]-CsTeamsEnhancedEncryptionPolicy コマンドレットをリリースします。</li><li>[Get \| Set \| New \| Remove]-CsTenantBlockedNumberExceptionPattern コマンドレットを削除します。</li><li>別のカスタム PowerShell モジュールの入れ子になったMicrosoft Teamsモジュールの参照が失敗するバグを修正しました。 これで、Microsoft Teamsモジュールの入れ子になったモジュールでも、このコマンドレットを使用できます。</li><li>[Get \| New \| Complete \| Clear]-CsOnlineTelephoneNumberOrder コマンドレットをリリースします。</li><li>コマンドレットGet-CsOnlineTelephoneNumberCountryおよびGet-CsOnlineTelephoneNumberTypeリリースします。</li><li>サインイン試行が間違った後、Connect-MicrosoftTeamsを再試行するときに発生したエラーを修正します。</li><li>プライベート チャネルAdd-TeamChannelUser失敗Remove-TeamChannelUserとエラーを修正しました。</li>
+| 2021 年 8 月 | [2.5.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.5.1) |<li>リソースのアクセス トークン ログインConnect-MicrosoftTeamsリソース固有のトークンごとに個別のパラメーターではなく、統合トークン配列を使用する必要があります。 詳細については、 を参照 [してください](/powershell/module/teams/connect-microsoftteams)。</li><li>Cloudshell でのログインの対話型Connect-MicrosoftTeamsエラーが修正されました。 既定では、再認証を求めるメッセージが表示されるのではなく、ユーザーのログイン ID が使用されます。</li><li>TeamsUnassignedNumberTreatment コマンドレットを使用できます。</li><li>Get-CsOnlineDialInConferencingBridgeコマンドレットSet-CsOnlineDialInConferencingBridge以前の実装から新しい API に移行されました。</li><li>最新バージョンの Get-CsTenantおよび Get-CsOnlineUser (-identity パラメーターのみ) がリリースされました。 非推奨のプロパティを出力しなくなったので、リモート処理に対応するプロパティと比較して、いくつかの書式設定が変更されます。</li><li>注: New-Team更新プログラムは 2.5.0 から元に戻され、新しい変更を回避するために以前のバージョンが提供されています。</li>|
 | 2021 年 7 月 | [2.4.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.1-preview) |<li>コマンドレットに変更を許可します。</li><li>新しい音声関連のコマンドレットがリリースされます。</li><li>-Cs* コマンドレットの証明書拇印認証の削除。</li><li>すべてのコマンドレットのログ ファイルのログ記録を修正しました。</li><li>*TeamChannelUser コマンドレットに関する問題を修正しました。</li>|
-| 2021 年 6 月 | [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>最新バージョンの Get-CsTenant、Get-CsOnlineUser (-identity パラメーターのみ)、Get-CsOnlineDialInConferencingLanguagesSupported、Import-CsOnlineAudioFile のリリースのみをプレビューします。</li><li>最新のバージョンのGet-CsOnlineDialInConferencingLanguagesSupportedとImport-CsOnlineAudioFile、リモート処理に対応するバージョンと同様または同じように動作する必要があります。</li><li>最新バージョンの Get-CsTenantと Get-CsOnlineUser (-identity パラメーターを使用して実行する場合) は、非推奨のプロパティを出力しない。</li><li>最新バージョンの Get-CsTenant と Get-CsOnlineUser (-identity パラメーターを使用して実行する場合) は、リモート処理カウンター部分と比較して、いくつかの書式設定が変更されます。</li><li>[Get \| Set \| Grant New \| \| Remove]-CsTeamsAudioConferencingPolicy コマンドレットをリリースします。</li><li>コマンドレットGet-CsOnlineAudioFileおよびRemove-CsOnlineAudioFileリリースします。</li><li>Set-TeamTargetingHierarchy、Remove-TeamTargetingHierarchy、Get-TeamTargetingHierarchyStatus は、ユーザーがGCCできます。</li><li>コマンドで呼び出されたエンドポイントGet-TeamTargetingHierarchyStatusします。</li>|
+| 2021 年 6 月 | [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) |<li>最新バージョンの Get-CsTenant、Get-CsOnlineUser (-identity パラメーターのみ)、Get-CsOnlineDialInConferencingLanguagesSupported、Import-CsOnlineAudioFile のリリースのみをプレビューします。</li><li>最新バージョンのGet-CsOnlineDialInConferencingLanguagesSupportedとImport-CsOnlineAudioFile、リモート処理に対応するバージョンと同様または同じように動作する必要があります。</li><li>最新バージョンの Get-CsTenantと Get-CsOnlineUser (-identity パラメーターを使用して実行する場合) では、非推奨のプロパティは出力されません。</li><li>最新バージョンの Get-CsTenant と Get-CsOnlineUser (-identity パラメーターを使用して実行する場合) は、リモート処理カウンター部分と比較して、いくつかの書式設定が変更されます。</li><li>[Get \| Set \| Grant New \| \| Remove]-CsTeamsAudioConferencingPolicy コマンドレットをリリースします。</li><li>コマンドレットGet-CsOnlineAudioFileおよびRemove-CsOnlineAudioFileリリースします。</li><li>Set-TeamTargetingHierarchy、Remove-TeamTargetingHierarchy、Get-TeamTargetingHierarchyStatus は、ユーザーがGCCできます。</li><li>コマンドで呼び出されたエンドポイントGet-TeamTargetingHierarchyStatusします。</li>|
 | 2021 年 5 月 | [2.3.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.2-preview) |<li>Connect-MicrosoftTeams を使用した AccessToken ログインのサポート。 トークンの配列を受け入れる -AccessTokens パラメーターを追加しました。 AccessTokens Teamsを使用する場合は、MSGraph とリソース トークンが必要です。</li><li>AadAccessToken パラメーターと MsAccessToken パラメーターを削除しました。</li>|
 | 2021 年 5 月 | [2.3.1](https://www.powershellgallery.com/packages/MicrosoftTeams/2.3.1) |<li>から更新します。NETCore 2.1 から 3.1</li><li>ユーザーとグループの複数の geo リージョンを取得するコマンドレットを追加しました</li><li>-AccountId と一緒に使用する統合 Windows 認証の修正Connect-MicrosoftTeams</li><li>TeamsCallHoldPolicy コマンドレットが利用可能に</li><li>多くのコマンドの入力パラメーターと出力形式の更新</li><li>リモート処理コマンド中の大きな待機時間の問題を修正しました</li><li>GA カスタム パッケージ機能</li>|
 | 2021 年 4 月 | [2.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.2.0-preview) | <li>-AccountId を Windows-MicrosoftTeams で使用する統合認証Connect修正。</li><li>ユーザーに送信できる変更通知イベントの合計の詳細を取得するコマンドレットを追加しました。</li><li>ユーザーとグループのマルチ geo リージョンを取得するコマンドレットを追加しました。</li><li>TeamsEnvironment 名に渡される値の処理では、大文字と小文字が区別されます。 これは修正されました。</li><li>単体テストを容易にするためのモジュール内のリモート セッション管理の主なリファクタリング。 テナント管理者の機能の変更は行う必要はありません。</li>|
