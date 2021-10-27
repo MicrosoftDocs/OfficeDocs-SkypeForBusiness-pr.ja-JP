@@ -20,16 +20,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88e4da290fe19f852d18687227768535d405ebd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636751"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60596920"
 ---
-#  <a name="calling-and-call-forwarding-in-teams"></a>Teams での通話と転送
+# <a name="calling-and-call-forwarding-in-teams"></a>Teams での通話と転送
 
-このMicrosoft Teams呼び出しポリシーは、ユーザーが使用できる呼び出しおよび呼び出しの転送機能を制御します。 通話ポリシーは、ユーザーがプライベート通話の発信、他のユーザーまたは外部の電話番号への着信の転送または同時呼び出しの使用、ボイスメールへの通話のルーティング、通話グループへの呼び出しの送信、着信および発信通話に委任を使用できるかどうかを決定します。
+このMicrosoft Teams呼び出しポリシーは、ユーザーが使用できる通話と通話の転送機能を制御します。 通話ポリシーは、ユーザーがプライベート通話の発信、他のユーザーまたは外部の電話番号への着信の転送または同時呼び出しの使用、ボイスメールへの通話のルーティング、通話グループへの呼び出しの送信、着信および発信通話に委任を使用できるかどうかを決定します。
 
 自動的に作成されるグローバル (組織全体の既定) ポリシーを使用するか、カスタム ポリシーを作成して割り当てできます。
 
@@ -47,7 +47,7 @@ ms.locfileid: "58636751"
 
 既存の呼び出し元ポリシーを編集するには、次の手順に従います。
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams、[音声通話ポリシー]  >  **を選択します**。
+1. 管理センターの左側のナビゲーションで、[音声Microsoft Teams ポリシー]  >  **を選択します**。
 2. 変更するポリシーの横にある をクリックし、[編集] を **選択します**。
 3. 必要な変更を行い、[保存] を **クリックします**。
 
@@ -65,7 +65,7 @@ ms.locfileid: "58636751"
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>組織内のユーザーへの通話の転送と同時呼び出し
 
-この設定は、着信通話を他のユーザーに転送できるかどうか、または同時に別のユーザーを呼び出すかどうかを制御します。 
+この設定は、着信通話を他のユーザーに転送できるかどうか、または同時に別のユーザーを呼び出すかどうかを制御します。
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>外部の電話番号への通話の転送と同時呼び出し
 
@@ -97,7 +97,7 @@ ms.locfileid: "58636751"
 
 ### <a name="web-pstn-calling"></a>Web PSTN 通話
 
-この設定を使用すると、ユーザーは Web クライアントから PSTN Teams呼び出しを行います。
+この設定により、ユーザーは Web クライアントから PSTN 番号Teams呼び出しを行います。
 
 ### <a name="incoming-meeting-invites-are-automatically-answered"></a>会議出席招待に自動的に応答する
 
