@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0843ce2adf400dca9cf426789adc6180daf3f57
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 2d0452ff05b368e00875f31c365db59ec13d0ec7
+ms.sourcegitcommit: 9033c0c998c95ff37d0afd13c5c3ba598d58feb6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465847"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60607401"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報バリア
 
@@ -60,7 +60,7 @@ IB の主要なドライバーは、金融サービス業界から得たもの�
 
 次のような状況で、IB を使用できます。
 
-- チームは、特定の他のチームとデータの通信や共有を行うのを防ぐ必要があります。
+- チームは、特定の他のチームとのデータの通信や共有を防止する必要があります。
 - チームは、チーム外のユーザーと通信したり、データを共有したりしなけってはいません。
 
 Information Barrier Policy Evaluation Service は、通信が IB ポリシーに準拠するかどうかを決定します。
@@ -74,7 +74,7 @@ IB ポリシーは、PowerShell コマンドレットMicrosoft 365コンプラ�
 
 ## <a name="information-barriers-administrator-role"></a>情報バリア管理者ロール
 
-IB コンプライアンス管理ロールは、IB ポリシーの管理を担当します。 このロールの詳細については、「コンプライアンス センターのアクセス許可[」Microsoft 365参照してください](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
+IB コンプライアンス管理ロールは、IB ポリシーの管理を担当します。 このロールの詳細については、「コンプライアンス センターのアクセス許可[」をMicrosoft 365してください](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
 ## <a name="information-barrier-triggers"></a>情報バリア トリガー
 
@@ -84,7 +84,7 @@ IB ポリシーは、次のイベントが発生Teamsアクティブ化されま
 
     ![チームに追加する新しいメンバーを検索し、一致を見つけ出すスクリーンショット。](media/information-barriers-add-members.png)
 
-- **新しいチャット** が要求される: ユーザーが 1 人または複数の他のユーザーとの新しいチャットを要求するたび、そのチャットが評価され、IB ポリシーに違反しないか確認されます。 会話が IB ポリシーに違反した場合、会話は開始されます。
+- **新しいチャット** が要求される: ユーザーが 1 人または複数の他のユーザーとの新しいチャットを要求するたび、そのチャットが評価され、IB ポリシーに違反しなさらないと確認されます。 会話が IB ポリシーに違反した場合、会話は開始されます。
 
     1 対 1 のチャットの例を次に示します。
 
@@ -108,9 +108,9 @@ IB ポリシーは、次のイベントが発生Teamsアクティブ化されま
 
     ![ブロック設定のユーザー文字を示すスクリーンショット。](media/ib-after-screen-share-policy.png)
 
-- **ユーザー** が Teams で通話を行う: ユーザーが別のユーザーまたはユーザー のグループに対して (VOIP 経由で) 音声通話を開始するたびに、その通話が評価され、他のチーム メンバーの IB ポリシーに違反しなかからなかっています。 違反がある場合、音声通話はブロックされます。
+- **ユーザー** が Teams で通話を行う: ユーザーが別のユーザーまたはユーザー のグループに対して (VOIP を介して) 音声通話を開始するたびに、その通話が評価され、他のチーム メンバーの IB ポリシーに違反しなかからなかっている必要があります。 違反がある場合、音声通話はブロックされます。
 
-- **ゲストのTeams:** IB ポリシーは、Teamsゲストに適用されます。 組織のグローバル アドレス一覧でゲストを検出できる必要がある場合は、「ゲスト グループでゲスト アクセスを管理する[」Microsoft 365してください](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 ゲストが検出可能な場合は [、IB ポリシー を定義できます](/office365/securitycompliance/information-barriers-policies)。
+- **ゲスト Teams:** IB ポリシーは、Teams ゲストに適用されます。 組織のグローバル アドレス一覧でゲストを検出できる必要がある場合は、「ゲスト グループでゲスト アクセスを管理[する」をMicrosoft 365してください](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 ゲストが検出可能な場合は [、IB ポリシー を定義できます](/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>ポリシーの変更が既存のチャットに与える影響
 
@@ -142,13 +142,13 @@ IB ポリシー管理者がポリシーに変更を加えた場合、または�
 
 ## <a name="scenario-a-user-in-an-existing-chat-becomes-blocked"></a>シナリオ: 既存のチャットのユーザーがブロックされる
 
-現在、IB ポリシーが別のユーザーをブロックした場合、ユーザーには次のシナリオが発生します。
+現在、IB ポリシーによって別のユーザーがブロックされている場合、ユーザーには次のシナリオが発生します。
 
 - **[ユーザー]** タブ: ユーザーが [ユーザー] タブにブロックされたユーザー **を表示** できない。
 
 - **ユーザー選択:** ブロックされたユーザーは、ユーザー選択には表示されません。
 
-    ![別のTeamsの表示を妨げるポリシーをユーザーに通知するメッセージのスクリーンショット。](media/information-barriers-people-picker.png)
+    ![ポリシーがTeamsユーザーの情報の表示を妨げる警告メッセージのスクリーンショット。](media/information-barriers-people-picker.png)
 
 - **[アクティビティ]** タブ: ユーザーがブロックされたユーザーの [アクティビティ] タブにアクセスした場合、投稿は表示されません。 ([ **アクティビティ] タブ** にはチャネルの投稿だけが表示され、2 人のユーザー間に共通のチャネルはありません)。
 
@@ -180,7 +180,7 @@ IB ポリシー管理者がポリシーに変更を加えた場合、または�
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>TeamsポリシーとSharePointサイト
 
-チームが作成されると、SharePointサイトがプロビジョニングされ、ファイル エクスペリエンスMicrosoft Teamsに関連付けられる。 情報バリア ポリシーは、既定では、このSharePointポリシーには適用されません。 SharePoint および OneDrive で情報バリアを有効にするには、「情報バリアを使用して情報バリアを使用する」のガイダンスと[SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)してください。
+チームが作成されると、SharePointサイトがプロビジョニングされ、ファイル エクスペリエンスMicrosoft Teamsに関連付けられる。 情報バリア ポリシーは、既定では、このSharePointポリシーには適用されません。 SharePoint および OneDrive で情報バリアを有効にするには、「情報バリアを使用して情報バリアを使用する」のガイダンスと[SharePointしてください。](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)
 
 ## <a name="information--barrier-modes-and-teams"></a>情報バリア モードとTeams
 
@@ -199,19 +199,16 @@ Microsoft 365情報バリア ポリシーをアクティブにする前に作成
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
->[!NOTE]
->グローバル管理者が、Microsoft Teams に接続されている既存の Microsoft 365 グループの IB モードを *Implicit* に更新する場合は、必ず、Teams 接続サイトの IB モードを Implicit に更新 *してください*。 詳細については、「情報バリアの [使用 」を参照してください](/microsoft-365/compliance-information-barriers.md#information-barriers-modes-preview)。
-
 ユーザーをグループから自動的に削除する方法の詳細については、情報バリア コンプライアンス アシスタント (プレビュー) に関する [記事を参照](/sharepoint/information-barriers-compliance-assistant) してください。
 
 ## <a name="required-licenses-and-permissions"></a>必要なライセンスとアクセス許可
 
-ライセンスとアクセス許可、プラン、価格の詳細については、「セキュリティとコンプライアンスMicrosoft 365ライセンス ガイダンス[」を&してください](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
+ライセンスとアクセス許可、プラン、および価格の詳細については、「セキュリティとコンプライアンスに関するMicrosoft 365ライセンス ガイダンス[」を&してください](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)。
 
 ## <a name="known-issues"></a>既知の問題
 
-- **ユーザーはアドホック** 会議に参加できません: IB ポリシーが有効になっている場合、会議リストのサイズが会議出席制限を超える場合、ユーザーは会議に参加 [できません。](limits-specifications-teams.md) 根本的な原因は、IB チェックは、ユーザーを会議チャットリストに追加できるかどうかに依存し、ユーザーをリストに追加できる場合にのみ、会議に参加できます。 会議に参加したユーザーは、そのユーザーをリストに追加します。そのため、定期的な会議では、名簿が速くいっぱいになじむ可能性があります。 チャットリストが会議出席 [制限に達](limits-specifications-teams.md)すると、その他のユーザーを会議に追加することはできません。 IB が組織に対して有効で、チャット リストが会議に対していっぱいになっている場合、新しいユーザー (まだリストに参加していないユーザー) は会議に参加できません。 ただし、IB が組織に対して有効ではなく、会議のチャット リストがいっぱいの場合、新しいユーザー (まだリストに参加していないユーザー) は会議に参加できますが、会議にはチャット オプションは表示されません。 短期的な解決策は、会議チャットリストから非アクティブなメンバーを削除して、新しいユーザーのためのスペースを作る方法です。 ただし、後日、会議チャットのリストのサイズを増やす予定です。
-- **ユーザーはチャネル** 会議に参加できません: IB ポリシーが有効になっている場合、ユーザーがチームのメンバーでない場合、チャネル会議に参加することはできません。 根本的な原因は、IB チェックは、ユーザーを会議チャットリストに追加できるかどうかに依存し、ユーザーをリストに追加できる場合にのみ、会議に参加できます。 チャネル会議のチャット スレッドは、Team/Channel メンバーだけが使用できます。また、メンバー以外のメンバーはチャット スレッドを表示したり、チャット スレッドにアクセスしたりできません。 IB が組織に対して有効で、チーム 以外のメンバーがチャネル会議への参加を試みる場合、そのユーザーは会議に参加できません。 ただし、組織でIB が有効になっていない場合、チーム メンバー以外のメンバーがチャネル会議への参加を試みる場合、ユーザーは会議への参加を許可されますが、会議にはチャット オプションは表示されません。
+- **ユーザーはアドホック** 会議に参加できません: IB ポリシーが有効になっている場合、会議リストのサイズが会議出席制限を超える場合、ユーザーは会議に参加 [できません。](limits-specifications-teams.md) 根本的な原因は、IB チェックは、ユーザーを会議チャットリストに追加できるかどうかに依存し、ユーザーをリストに追加できる場合にのみ、会議に参加できます。 会議に参加したユーザーは、そのユーザーをリストに追加します。そのため、定期的な会議では、名簿が速くいっぱいになじむ可能性があります。 チャットリストが会議出席 [制限に達](limits-specifications-teams.md)すると、その他のユーザーを会議に追加することはできません。 IB が組織に対して有効で、チャット リストが会議に対していっぱいになっている場合、新しいユーザー (まだリストに参加していないユーザー) は会議に参加できません。 ただし、IB が組織に対して有効になっていない場合、会議のチャット リストがいっぱいの場合、新しいユーザー (まだリストに参加していないユーザー) は会議に参加できますが、会議にはチャット オプションは表示されません。 短期的な解決策は、会議チャットリストから非アクティブなメンバーを削除して、新しいユーザーのためのスペースを作る方法です。 ただし、後日、会議チャットのリストのサイズを増やす予定です。
+- **ユーザーはチャネル** 会議に参加できません: IB ポリシーが有効になっている場合、ユーザーがチームのメンバーでない場合、チャネル会議に参加することはできません。 根本的な原因は、IB チェックは、ユーザーを会議チャットリストに追加できるかどうかに依存し、ユーザーをリストに追加できる場合にのみ、会議に参加できます。 チャネル会議のチャット スレッドは、Team/Channel メンバーだけが使用できます。また、メンバー以外のメンバーはチャット スレッドを表示したり、チャット スレッドにアクセスしたりできません。 組織で IB が有効で、チーム メンバー以外のメンバーがチャネル会議への参加を試みる場合、そのユーザーは会議に参加できません。 ただし、組織でIB が有効になっていない場合、チーム メンバー以外のメンバーがチャネル会議への参加を試みる場合、ユーザーは会議への参加を許可されますが、会議にはチャット オプションは表示されません。
 - **組織で許可される** セグメントの最大数: IB ポリシーを構成するときに、各組織は最大 100 セグメントを設定できます。 構成できるポリシーの数に制限はありません。
 - **IB ポリシーはフェデレーション** ユーザーには機能しません: 外部組織とのフェデレーションを許可する場合、それらの組織のユーザーは IB ポリシーによって制限されません。 組織のユーザーが外部のフェデレーション ユーザーによって開催されたチャットまたは会議に参加する場合、IB ポリシーは組織のユーザー間の通信も制限されません。
 
