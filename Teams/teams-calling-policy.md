@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60596920"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60606956"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Teams での通話と転送
 
@@ -87,7 +87,7 @@ ms.locfileid: "60596920"
 
 この設定により、代理人に受信呼び出しをルーティングし、代理人がアクセス許可を委任したユーザーの代わりに発信呼び出しを行うことができます。 詳細については、「代理人と [電話回線を共有する」を参照してください](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)。
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>有料バイパスを防止し、PSTN 経由で通話を送信する 
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>有料バイパスを防止し、PSTN 経由で通話を送信する
 
 これを [ **オン] に** 設定すると、PSTN 経由で通話が送信され、ネットワーク経由で通話を送信して通行料をバイパスするのではなく、料金が発生します。
 
@@ -97,7 +97,7 @@ ms.locfileid: "60596920"
 
 ### <a name="web-pstn-calling"></a>Web PSTN 通話
 
-この設定により、ユーザーは Web クライアントから PSTN 番号Teams呼び出しを行います。
+この設定を使用すると、ユーザーは Web クライアントから PSTN Teams呼び出しを行います。
 
 ### <a name="incoming-meeting-invites-are-automatically-answered"></a>会議出席招待に自動的に応答する
 
@@ -111,4 +111,4 @@ ms.locfileid: "60596920"
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+[ Teams でユーザーにポリシーを割り当てる](policy-assignment-overview.md)
