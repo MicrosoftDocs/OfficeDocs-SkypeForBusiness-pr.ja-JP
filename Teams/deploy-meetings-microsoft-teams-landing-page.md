@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7ed3de69ed5deffcd0681f9f040dfeb074b2aa1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c41219f080e2270ed27d52688a03891f74ac26d
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596351"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605363"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams でのミーティングと会議
 
@@ -103,7 +103,7 @@ Teams は、組織のチームを管理するために使用できる、カス�
 
 | 確認事項 | アクション |
 |--------------|--------|
-|<ul><li>初期のミーティング ポリシーをカスタマイズするか?</li><li>複数のミーティング ポリシーが必要か?</li><li>どのユーザーのグループにどのミーティング ポリシーを適用するかについて判断する方法は?</li></ul>|<br>「[Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)」を参照してください。|
+|<ul><li>初期のミーティング ポリシーをカスタマイズするか?</li><li>複数のミーティング ポリシーが必要か?</li><li>どのユーザーのグループにどのミーティング ポリシーを適用するかについて判断する方法は?</li></ul>|<br>「[Teams での会議ポリシーを管理する](meeting-policies-overview.md)」を参照してください。|
 |||
 
 ### <a name="audio-conferencing"></a>電話会議
@@ -137,12 +137,12 @@ Teams のミーティング エクスペリエンスを最適なものにする�
 
 次の設定は、組織のニーズと構成に基づいて変更できます。
 
-### <a name="bandwidth-planning"></a>帯域幅の計画 
+### <a name="bandwidth-planning"></a>帯域幅の計画
 
 帯域の計画により、組織は組織のワイド エリア ネットワークとインターネットのリンク全体でミーティングをサポートするために必要な帯域幅の推定が可能になり、ミーティング サービスの拡大をサポートするためにネットワークが適切にプロビジョニングされていることを確認できるようになります。
 
 > [!IMPORTANT]
-> Teams は、ユーザーがオフラインのときや限られた帯域幅で実行しているときには、会議やライブ イベントをスケジュールできないようにします。 
+> Teams は、ユーザーがオフラインのときや限られた帯域幅で実行しているときには、会議やライブ イベントをスケジュールできないようにします。
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -160,7 +160,7 @@ Teams のミーティング エクスペリエンスを最適なものにする�
 
 | 確認事項 | アクション |
 |--------------|--------|
-| ミーティングの文字起こしサービスをオンにするか?|「[記録の文字起こしをオンまたはオフにする](cloud-recording.md#turn-on-or-turn-off-cloud-recording)」を参照してください。|
+| ミーティングの文字起こしサービスをオンにするか?|「[記録の文字起こしをオンまたはオフにする](meetings-policies-recording-and-transcription.md#allow-transcription)」を参照してください。|
 |||
 
 

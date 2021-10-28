@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: 参加者とゲストを対象にTeams設定を管理する方法について学習します。
-ms.openlocfilehash: 2ca320db9c4020c6b79f38af86ed5083ae17fb89
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 参加者とゲストの会議ポリシー設定をTeams設定を管理する方法について学習します。
+ms.openlocfilehash: 5a277aeb5ccdef5bc3ec98d849cd9f9ec5271e2b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014541"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605413"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 
@@ -99,5 +99,5 @@ ms.locfileid: "60014541"
 ## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+- [ Teams でユーザーにポリシーを割り当てる](policy-assignment-overview.md)
 - [ユーザーから RestrictedAnonymousAccess Teams 会議ポリシーを削除する](meeting-policies-restricted-anonymous-access.md)

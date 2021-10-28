@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 組織内の Teams ユーザーが Teams に関するフィードバックを Microsoft に送信できるかどうかを制御するフィードバック ポリシーの使用方法について説明します。
-ms.openlocfilehash: 2357af358dad4407fd401b08ff75dfc2560593a2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 4cb8914a793ddb6342b047caada087006da8f670
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013011"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605773"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Microsoft Teams でフィードバック ポリシーを管理する
 
@@ -44,7 +44,7 @@ ms.locfileid: "60013011"
 
 ![モバイルでのアプリのTeamsオプションを提供する](media/feedback3.jpg)
 
- フィードバック **の送信と** フィードバックの送信を通じて送信されるデータは、お客様の Microsoft 365 または Office 365 契約の下で "サポート データ" と見なされます。この情報には、"顧客データ" または "個人データ" と見なされる情報が含まれており、
+ フィードバックの送信 **と** フィードバックの送信を通じて送信されるデータは、Microsoft 365 または Office 365 契約の下で "サポート データ" と見なされます。この情報には、"顧客データ" または "個人データ" と見なされる情報が含まれており、
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "60013011"
 
  - **アンケート**: **receiveSurveysMode** パラメーターを **[有効]** に設定して、ポリシーが割り当てられているユーザーがアンケートを受信できるようにします。 ユーザーがアンケートを受信して受け取らないことができるようにするには、パラメーターを **enabledUserOverride** に設定します。 Teams では、**[設定]** > **[プライバシー]** の順に移動し、アンケートに参加するかどうかを選択できます。 パラメーターを **[無効]** に設定すると、機能がオフになり、ポリシーが割り当てられているユーザーはアンケートを受信できません。
 
- - **Email**: **AllowEmailCollection フラグを使用して、** 電子メール フィールドを追加します。
+ - **電子** メール: **AllowEmailCollection フラグを使用して、** 電子メール フィールドを追加します。
  - **ログ収集**: **AllowLogCollection フラグを使用** して、ユーザーのログ収集オプトインを追加します。 ログ収集は現在、モバイルでのみ有効です。 ログを介して共有されるデータの詳細については、詳細を [参照してください](https://go.microsoft.com/fwlink/?linkid=2168178)。
 
 ## <a name="create-a-custom-feedback-policy"></a>カスタム フィードバック ポリシーを作成する
@@ -94,4 +94,4 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 ## <a name="related-topics"></a>関連トピック
 
 - [Teams PowerShell の概要](teams-powershell-overview.md)
-- [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+- [ Teams でユーザーにポリシーを割り当てる](policy-assignment-overview.md)

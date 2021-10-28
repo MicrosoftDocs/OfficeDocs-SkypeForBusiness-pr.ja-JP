@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f05616de4f315cee115ee9767a52eea09297dfcf
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584631"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605823"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>企業に Microsoft Teams をセットアップする
 
@@ -95,7 +95,7 @@ Teams をカスタマイズする方法はたくさんあります。 次のセ�
 | Decision | 説明 |
 |--|--|
 | 組織全体の会議設定を適用する必要があること| 会議ポリシーは、会議の主催者と参加者が利用できる会議機能を制御します。 匿名の参加者が会議に参加できるかどうかを制御したり、会議の招待状をカスタマイズしたり、リアル タイム メディアの処理方法を制御したりできます。 このような設定を変更すると、その変更は組織内のすべての会議に適用されます。 <p>[Microsoft Teams で会議の設定を管理する](meeting-settings-in-teams.md)|
-| どの会議ポリシーを適用する必要がありますか? | 会議ポリシーは、組織内のユーザーによってスケジュールされた会議への参加者が利用できる機能を制御するために使用されます。 ユーザーがプライベート会議をスケジュールできるかどうか、[今すぐ会議] オプションを有効にするか、会議の記録を許可するかなどを制御できます。 Teams には、すべてのユーザーに適用されるグローバル ポリシーがあります。<p> 同じポリシーをすべての人に適用したい場合は、このグローバル ポリシーを変更する (たとえば、会議のレコーディングをオフにする) だけで可能です。 <p>ユーザーのグループごとに異なるポリシーが必要な場合 (たとえば、オフィス ワーカー用と役員用のポリシー)、ポリシーを作成して割り当てることができます。 ポリシーをユーザーに割り当てると、グローバル ポリシーはユーザーに適用されなくなります。<p> [Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)|
+| どの会議ポリシーを適用する必要がありますか? | 会議ポリシーは、組織内のユーザーによってスケジュールされた会議への参加者が利用できる機能を制御するために使用されます。 ユーザーがプライベート会議をスケジュールできるかどうか、[今すぐ会議] オプションを有効にするか、会議の記録を許可するかなどを制御できます。 Teams には、すべてのユーザーに適用されるグローバル ポリシーがあります。<p> 同じポリシーをすべての人に適用したい場合は、このグローバル ポリシーを変更する (たとえば、会議のレコーディングをオフにする) だけで可能です。 <p>ユーザーのグループごとに異なるポリシーが必要な場合 (たとえば、オフィス ワーカー用と役員用のポリシー)、ポリシーを作成して割り当てることができます。 ポリシーをユーザーに割り当てると、グローバル ポリシーはユーザーに適用されなくなります。<p> [Teams での会議ポリシーを管理する](meeting-policies-overview.md)|
 | 会議の記録とアーカイブを許可しますか?| 会議の主催者は、クラウドで会議を記録およびアーカイブできます。 会議ポリシーを使用して、会議の記録とアーカイブのオンとオフを切り替えることができます。<p> [Teams のクラウド会議の記録](cloud-recording.md) |
 
 ### <a name="audio-conferencing"></a>電話会議
@@ -145,12 +145,12 @@ Teams と Microsoft 365 は、会社とユーザーがいる場所の規制要�
 | [通信コンプライアンス](communication-compliance.md)| 攻撃的、冒涜的、および嫌がらせの言葉、性的に際どい、あるいは残酷な画像および機密情報の共有を特定し、それに対して行動を起こすことにより、コミュニケーションのリスクを軽減するのに役立ちます。 |
 | [通話と会議のためのポリシー ベースの録音](teams-recording-policy.md)| 通話と会議を自動的に記録して保存し、後で処理、保持、または分析するかどうかを制御できます。|
 | [秘密度ラベル](sensitivity-labels.md)| 選択したプライバシー オプションを適用するラベルを作成することにより、機密情報へのアクセスを保護および規制するのに役立ちます。|
-| [データ損失防止](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 社会保障番号、クレジットカード番号などの特定の情報をどのように処理するかを決定するルールを作成できます。 特定の情報の送信を防止したり、組織からの情報の送信を防止したりすることができます。|
+| [データ損失防止](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 社会保障番号、クレジットカード番号などの特定の情報をどのように処理するかを決定するルールを作成できます。 特定の情報の送信を防止したり、組織からの情報の送信を防止したりすることができます。|
 | [電子情報開示](eDiscovery-investigation.md)| 組織が法的手続きで証拠開示要求を受け取ったときに、組織内のコンテンツを検索および取得するのに役立ちます。 |
 | ["Legal Hold/法的情報保留"](legal-hold.md)| eDiscovery の調査中に情報を発見できるように、法的手続き中に必要な場合に、ユーザーが情報を削除した場合でも、組織内の情報を保持するのに役立ちます。 |
 | [コンテンツ検索](content-search.md)| Exchange、SharePoint Online、OneDrive for Business を含む Teams の情報について問い合わせを行うことのできる特別な検索手段です。|
 | [Auditing](audit-log-events.md)| アクションを実行したユーザー、アクションが実行された時刻、使用された IP アドレスなど、指定されたアクションに関する情報を表示できます。 アクションには、チームの作成または削除、チャネルの作成、Teams の設定の変更などが含まれます。|
-| [顧客キー](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 指定した暗号化キーを使用して、データ暗号化ポリシーを作成できます。|
+| [顧客キー](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 指定した暗号化キーを使用して、データ暗号化ポリシーを作成できます。|
 
 ## <a name="clients"></a>クライアント
 

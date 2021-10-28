@@ -1,7 +1,7 @@
 ---
 title: 仮想デスクトップ インフラストラクチャ用の Teams
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1353d46d77f12ea7d829f4170f6dedf335e9395
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ddd91c477f02e8e573c0850898a21b11586821ef
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729536"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605223"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "58729536"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 複数の市場プロバイダーを使用している場合は、仮想化ソリューション プロバイダーに相談して、最小要件が満たされていることを確認することをお勧めします。
   
-現在、Teams/ビデオ (AV) の最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
+現在、Teams/ビデオ (AV) 最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
 
 ### <a name="platforms-certified-for-teams"></a>Teams 認定プラットフォーム
 
@@ -72,7 +72,7 @@ Teams デスクトップ アプリは、主要な仮想化ソリューション 
 
 ### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
-Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「Use Teams on Azure Virtual Desktop 」[を参照してください](/azure/virtual-desktop/teams-on-wvd)。
+Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「Azure Virtual Desktop での Teams[の使用」を参照してください](/azure/virtual-desktop/teams-on-wvd)。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps and Desktops の要件
 
@@ -266,7 +266,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用してポリシ�
 
 [**通話ポリシー**](teams-calling-policy.md): Teams には、すべての通話機能が無効になっている組み込みの DisallowCalling 通話ポリシーが含まれています。 DisallowCalling ポリシーを、仮想化環境で Teams を使用する組織内のすべてのユーザーに割り当てます。
 
-[**会議ポリシー**](meeting-policies-in-teams.md): Teams には、すべての会議機能が無効になっている組み込みの AllOff 会議ポリシーが含まれています。 AllOff ポリシーを、仮想化環境で Teams を使用する組織内のすべてのユーザーに割り当てます。
+[**会議ポリシー**](meeting-policies-overview.md): Teams には、すべての会議機能が無効になっている組み込みの AllOff 会議ポリシーが含まれています。 AllOff ポリシーを、仮想化環境で Teams を使用する組織内のすべてのユーザーに割り当てます。
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用してポリシーを割り当てる
 
@@ -322,7 +322,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用して、通話�
 
 [**通話ポリシー**](teams-calling-policy.md): Teams の通話ポリシーは、ユーザーが使用できる通話機能を制御します。 Teams には、すべての通話機能が有効になっている組み込みの AallowCalling 通話ポリシーが含まれています。 すべての通話機能を有効にするには、AllowCalling ポリシーを割り当てます。 または、カスタム通話ポリシーを作成して、必要な通話機能を有効にし、ユーザーに割り当てます。
 
-[**会議ポリシー**](meeting-policies-in-teams.md): Teams の会議ポリシーは、ユーザーが作成できる会議の種類と、組織内のユーザーによってスケジュールされた会議参加者が利用できる機能を制御します。 Teams には、すべての会議機能が有効になっている組み込みの AllOn 会議ポリシーが含まれています。 すべての会議機能を有効にするには、AllOn ポリシーを割り当てます。 または、カスタム会議ポリシーを作成して、必要な会議機能を有効にし、ユーザーに割り当てます。
+[**会議ポリシー**](meeting-policies-overview.md): Teams の会議ポリシーは、ユーザーが作成できる会議の種類と、組織内のユーザーによってスケジュールされた会議参加者が利用できる機能を制御します。 Teams には、すべての会議機能が有効になっている組み込みの AllOn 会議ポリシーが含まれています。 すべての会議機能を有効にするには、AllOn ポリシーを割り当てます。 または、カスタム会議ポリシーを作成して、必要な会議機能を有効にし、ユーザーに割り当てます。
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用してポリシーを割り当てる
 
@@ -381,7 +381,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 
 ## <a name="disable-audio-and-video-settings-for-vdi"></a>VDI のオーディオとビデオの設定を無効にする
 
-TeamsVDI ポリシーは、アプリケーション モジュールMicrosoft Teamsできます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
+TeamsVDI ポリシーは、Microsoft Teamsできます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
 
 - New-CsTeamsVdiPolicy  
 - Grant-CsTeamsVdiPolicy
@@ -409,7 +409,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>呼び出し機能を制限するポリシーを設定する
 
-この VDI ポリシー設定 -DisableCallsAndMeetings $true を持つユーザーが VDI で Teams にサインインする場合、次の機能を実行できない必要があります。
+この VDI ポリシー設定 -DisableCallsAndMeetings $true を使用して VDI の Teams にサインインするユーザーは、次の機能を実行できない必要があります。
 
 - 通話を行います。
 - 会議に参加します。
@@ -435,7 +435,7 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true が VDI の Teams にサインインすると、次の機能を利用できます。
+VDI ポリシー設定が -DisableAudioVideoInCallsAndMeetings $true VDI の Teams にサインインすると、次の機能を利用できます。
 
 - チャットから画面共有を行います。
 - 会議に参加して画面を共有する。 音声を電話に移動します。

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: コンテンツ共有用の会議ポリシー設定を Teamsする方法について学習します。
-ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726506"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605623"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会議ポリシーの設定 - コンテンツの共有
 
@@ -56,7 +56,7 @@ ms.locfileid: "58726506"
 |Daniela  | グローバル   | 画面全体 |
 |Amanda   | Location1MeetingPolicy  | 無効 |
 
-Daniela が開催する会議では、会議の参加者が画面全体または特定のアプリケーションを共有できます。 Amanda が Daniela の会議に参加すると、ポリシー設定が無効になっているため、Amanda は自分の画面または特定のアプリケーションを共有できません。 Amanda がホストする会議では、割り当てられた画面共有モード ポリシーに関係なく、誰も画面または単一のアプリケーションを共有できません。  その結果、Daniela は Amanda の会議で画面または単一のアプリケーションを共有できない。  
+Daniela が開催する会議では、会議の参加者が画面全体または特定のアプリケーションを共有できます。 Amanda が Daniela の会議に参加すると、ポリシー設定が無効になっているため、Amanda は自分の画面または特定のアプリケーションを共有できません。 Amanda がホストする会議では、割り当てられた画面共有モード ポリシーに関係なく、誰も画面または単一のアプリケーションを共有できません。  その結果、Daniela は Amanda の会議で画面または 1 つのアプリケーションを共有できない。  
 
 現在、ユーザーは Google Chrome を使用している場合、Teams 会議でビデオを再生したり画面を共有したりすることはできません。
 
@@ -66,11 +66,11 @@ Daniela が開催する会議では、会議の参加者が画面全体または
 
 ユーザーに対してこの設定が有効になっている場合、共有セッションの上部のバーに [**制御を渡す**] オプションが表示されます。
 
-![[制御を渡す] オプションを示すスクリーンショット。](media/meeting-policies-give-control.png)
+![[制御を渡す] オプションが表示されたスクリーンショット。](media/meeting-policies-give-control.png)
 
 設定がユーザーに対して無効になっている場合、[**制御を渡す**] オプションは使用できません。
 
-![[制御を渡す] オプションが使用できない状態を示すスクリーンショット。](media/meeting-policies-give-control-not-available.png)
+![[制御を渡す] オプションが利用できないことを示すスクリーンショット。](media/meeting-policies-give-control-not-available.png)
 
 次の例を見てみましょう。
 
@@ -144,5 +144,5 @@ Daniela は Amanda の会議でメモを取ることができ、Amanda はすべ
 ## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+- [ Teams でユーザーにポリシーを割り当てる](policy-assignment-overview.md)
 - [ユーザーから RestrictedAnonymousAccess Teams 会議ポリシーを削除する](meeting-policies-restricted-anonymous-access.md)

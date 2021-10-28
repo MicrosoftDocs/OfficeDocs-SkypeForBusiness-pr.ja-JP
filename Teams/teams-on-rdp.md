@@ -1,7 +1,7 @@
 ---
 title: リモート Teamsサービスでアプリを使用する
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,25 +17,25 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fbb5fbd43d9fdc702d0fb9a0a0de446b3a50087
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635641"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605579"
 ---
-# <a name="teams-in-remote-desktop-services"></a>Teams デスクトップ サービスの設定
+# <a name="teams-in-remote-desktop-services"></a>Teams デスクトップ サービスの使用
 
-この記事では、リモート デスクトップ サービス (RDS) 環境でMicrosoft Teamsの要件と制限事項について説明します。
+この記事では、リモート デスクトップ サービス (RDS) 環境で Microsoft Teamsを使用する場合の要件と制限事項について説明します。
 
 ## <a name="what-is-rds"></a>RDS とは
 
-リモート デスクトップ サービス (RDS) は、エンド ユーザーのニーズに応じて仮想化ソリューションを構築するためのプラットフォームです。 RDS を使用すると、個々の仮想化アプリケーションを提供し、セキュリティで保護されたモバイル およびリモート デスクトップ アクセスを提供し、エンド ユーザーにクラウドからアプリケーションとデスクトップを実行する機能を提供できます。
+リモート デスクトップ サービス (RDS) は、エンド ユーザーのニーズに応じて仮想化ソリューションを構築するためのプラットフォームです。 RDS を使用すると、個々の仮想化されたアプリケーションを提供し、セキュリティで保護されたモバイルおよびリモート デスクトップ アクセスを提供し、エンド ユーザーにクラウドからアプリケーションとデスクトップを実行する機能を提供できます。
 
 RDS は、デプロイの柔軟性、コスト効率、拡張性を提供します。 RDS は、オンプレミスデプロイ用の Windows Server 2016、クラウド デプロイ用の Microsoft Azure、パートナー ソリューションの堅牢な配列など、さまざまなデプロイ オプションを通じて提供されます。
 環境と設定に応じて、セッション ベースの仮想化用の RDS ソリューションを仮想デスクトップ インフラストラクチャ (VDI) として設定できます。
 
-現在、リモート Teamsサービス環境での共有は、コラボレーションとチャットの機能をサポートして利用できます。 最適なユーザー エクスペリエンスを確保するには、この記事のガイダンスに従ってください。
+現在、リモート Teamsサービス環境での共有は、コラボレーション機能とチャット機能をサポートして利用できます。 最適なユーザー エクスペリエンスを確保するには、この記事のガイダンスに従ってください。
 
 ## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teamsコラボレーションを使用して RDS を使用する
 
@@ -47,7 +47,7 @@ Microsoft Teams 管理センターまたは PowerShell を使用してポリシ�
 
 [**通話ポリシー**](teams-calling-policy.md): Teams には、すべての通話機能が無効になっている組み込みの DisallowCalling 通話ポリシーが含まれています。 DisallowCalling ポリシーを、仮想化環境で Teams を使用する組織内のすべてのユーザーに割り当てます。
 
-[**会議ポリシー**](meeting-policies-in-teams.md): Teams には、すべての会議機能が無効になっている組み込みの AllOff 会議ポリシーが含まれています。 AllOff ポリシーを、仮想化環境で Teams を使用する組織内のすべてのユーザーに割り当てます。
+[**会議ポリシー**](meeting-policies-overview.md): Teams には、すべての会議機能が無効になっている組み込みの AllOff 会議ポリシーが含まれています。 AllOff ポリシーを、仮想化環境で Teams を使用する組織内のすべてのユーザーに割り当てます。
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターを使用してポリシーを割り当てる
 
@@ -66,7 +66,7 @@ DisallowCalling 通話ポリシーと AllOff 会議ポリシーをユーザー�
 複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動し、ユーザーを検索するか、表示にフィルターを適用してユーザーを表示します。
-2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部&#x2713; (チェック マーク) を選択します。
+2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表&#x2713;にある [チェック マーク] を選択します。
 3. [設定 **の編集]** を選択し、必要な変更を行い、[適用] を **選択します**。
 
 または、次の手順を実行できます。

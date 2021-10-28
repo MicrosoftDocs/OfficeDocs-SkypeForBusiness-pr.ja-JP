@@ -1,7 +1,7 @@
 ---
 title: 管理センターでチーム テンプレートを管理する
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 管理センターでチーム テンプレートを管理する方法について説明します
-ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732826"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605373"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートを管理する
 
@@ -111,8 +111,7 @@ A: はい。
 1. 管理センターで、[ユーザー] に **移動します**。
 1. [ユーザー] リスト テーブルで、特定のテンプレート ポリシーに割り当てるユーザーを選択します。
 1. [設定の編集] を選択し、[テンプレート ポリシー] フィールドを変更します。
-1. [適用] を選択します。
-   詳細については、「Microsoft Docs でポリシーをユーザーに割り当Microsoft Teams [- \| Microsoft Teams」を参照してください](./assign-policies.md#assign-a-policy-to-a-batch-of-users)。
+1. [適用] を選択します。 [詳細情報を参照してください](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)。
 
 **Q: 特定のポリシーに割り当てられているすべてのユーザーを表示する方法**
 
@@ -132,7 +131,7 @@ A: いいえ、PowerShell でのテンプレートの管理はサポートされ
 
 A: いいえ、EDU のテンプレート ポリシーはサポートされていません。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [管理センターでチーム テンプレートの使用を開始する](./get-started-with-teams-templates-in-the-admin-console.md)
 
@@ -142,6 +141,6 @@ A: いいえ、EDU のテンプレート ポリシーはサポートされてい
 
 - [既存のチーム テンプレートからチーム テンプレートを作成する](./create-template-from-existing-template.md)
 
-- [Microsoft Docs でポリシーをユーザーに割り当Microsoft Teams - Microsoft Teams \| Microsoft Docs](./assign-policies.md)
+- [Microsoft Docs でポリシーをユーザーに割り当Microsoft Teams - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
 - [Batch でユーザーをポリシーに割り当てる](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

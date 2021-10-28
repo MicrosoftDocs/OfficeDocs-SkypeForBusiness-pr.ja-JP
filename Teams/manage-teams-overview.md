@@ -13,15 +13,15 @@ search.appverid: MET150
 f1.keywords: ''
 ms.custom: ''
 ms.reviewer: ''
-description: データを管理および監視する方法に関する記事Teams。
+description: データの管理と監視の方法に関する記事Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9dde19876721cde124bb72f8ced2a5dc2e84102f
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279704"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605783"
 ---
 # <a name="manage-and-monitor-teams"></a>管理と監視Teams
 
@@ -35,15 +35,15 @@ Teams、Teams サービスを管理および監視し、組織内のユーザー
 
 - [新Teamsセンターへの移行中に、アカウントを管理します](manage-teams-skypeforbusiness-admin-center.md)。 この記事では、管理センターから新しい管理センター Skype for Business移行する方法Teams説明します。 
 
-- [組織Teams設定を管理します](enable-features-office-365.md)。 この記事では、ゲストと外部アクセス、通知Teams統合、デバイスの設定を管理する方法について説明します。  
+- [組織Teams設定を管理します](enable-features-office-365.md)。 この記事では、ゲストと外部アクセス、Teams、電子メールの統合、デバイスの設定を管理する方法について説明します。  
 
 - [他の組織のユーザーと通信します](communicate-with-users-from-other-organizations.md)。 ゲスト アクセスと外部アクセスの違いと、その両方で使用できる機能については、この記事を参照してください。 このセクションのその他の記事では、ゲストアクセスと外部アクセスを管理する方法について説明します。
 
-- [ポリシーを管理します](assign-policies.md)。 この記事では、ユーザー、アクセス許可、およびアクセス許可を管理するためのポリシーを定義して割り当てる方法Teamsしてください。
+- [ポリシーを管理します](policy-assignment-overview.md)。 この記事では、ユーザー、アクセス許可、およびアクセス許可を管理するポリシーを定義して割り当てる方法Teamsしてください。
 
 - [通話品質を監視および管理します](monitor-call-quality-qos.md)。 この記事では、組織の通話品質を監視および改善するために使用できるツールを使用する方法について説明します。
 
-- [[管理センター] Teamsレポート] と [](teams-analytics-and-reports/teams-reporting-reference.md)レポート[] の [レポート] Microsoft 365 管理センター。](teams-activity-reports.md) 利用できるレポートと、これらのレポートを使用して使用状況とサービスの正常性を監視するTeamsについては、以下の記事を参照してください。
+- [[管理センター Teamsレポート] と [](teams-analytics-and-reports/teams-reporting-reference.md)[レポート] を](teams-activity-reports.md)Microsoft 365 管理センター。 利用できるレポートと、これらのレポートを使用して使用状況とサービスの正常性を監視するTeamsについては、以下の記事を参照してください。
 
 - [サービスを運用し](teams-analytics-and-reports/teams-reporting-reference.md) 、 [サービスを強化します](upgrade-enhance-my-service.md)。 これらの記事では、サービスの運用と強化の方法に関するガイドラインとロードマップTeamsしてください。
 
@@ -55,5 +55,5 @@ Teams、Teams サービスを管理および監視し、組織内のユーザー
 - [アプリ、ボット、コネクタ](deploy-apps-microsoft-teams-landing-page.md)
 
 
-### <a name="related-topics"></a>関連項目
+### <a name="related-topics"></a>関連トピック
 

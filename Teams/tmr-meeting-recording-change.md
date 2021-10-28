@@ -1,7 +1,7 @@
 ---
 title: OneDrive for Business と SharePoint を使用して会議の記録を行う
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edacf3cd2691a4f037882e25251ead3ec2521882
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6467aedfec406837dcbc79ddf6902aa95d6dde88
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011911"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605213"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
 > [!NOTE]
-> クラシック ストリームから OneDrive および SharePoint (ODSP) への Teams 会議記録の保存の変更は、2021 年 8 月 30 日の現在で完了しています。 すべての録音が ODSP に格納されます。 この変更は RecordingStorageMode ポリシーをオーバーライドし、PowerShell で設定を変更すると影響がなくなりました。
+> Teams 会議の記録をクラシック ストリームから OneDrive および SharePoint (ODSP) に保存する変更は、2021 年 8 月 30 日の現在で完了しています。 すべての録音が ODSP に格納されます。 この変更は RecordingStorageMode ポリシーをオーバーライドし、PowerShell で設定を変更すると影響がなくなりました。
 
 |日付&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|イベント&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -96,7 +96,7 @@ AMS に保存されている会議の記録は、自動的に削除される前�
    ```
 
 > [!Note]
-> ユーザーの中に、開催者単位またはユーザー単位のポリシーが割り当てられているユーザーがいる場合は、ポリシーのこの設定を設定して、OneDrive for Business と SharePoint で会議の記録を保存できるようにする必要があります。 詳細については、「[Teams での会議ポリシーを管理する](meeting-policies-in-teams.md)」を参照してください。
+> ユーザーの中に、開催者単位またはユーザー単位のポリシーが割り当てられているユーザーがいる場合は、ポリシーのこの設定を設定して、OneDrive for Business と SharePoint で会議の記録を保存できるようにする必要があります。 詳細については、「[Teams での会議ポリシーを管理する](meeting-policies-overview.md)」を参照してください。
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>OneDrive for Business と SharePoint をオプトアウトして Stream の使用を継続する
 
@@ -122,7 +122,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |アドホック/スケジュールされた会議                    |その他の会議メンバー   |レコードをクリックした会議メンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 <br /><br />開催者は編集の権利を持ち、共有できます。<br /><br /> 他のすべての会議メンバーは読み取りアクセス権を持ちます。|
 |外部ユーザーとのアドホック/予定された会議|開催者              |開催者の OneDrive for Business アカウントです。                     |開催者は記録に対して完全な権限を持ちます。<br /> <br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br /> 他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
 |外部ユーザーとのアドホック/予定された会議|その他の会議メンバー   |レコードをクリックしたメンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 開催者は編集の権利を持ち、共有できます。 <br /><br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br />他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
-|チャネル会議                            |チャネル メンバー         |そのチャネルの Teams SharePoint の場所。 **注**: SharePoint へのチャネル会議記録のアップロードは、IP ベースの制限ではサポートされていません。 Azure 条件付きアクセス [を使用することをお勧めします](/azure/active-directory/conditional-access/overview)。 |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
+|チャネル会議                            |チャネル メンバー         |Teams SharePointの場所。 **注**: IP ベースの制限では、SharePointへのチャネル会議の記録アップロードはサポートされていません。 Azure 条件付きアクセス [を使用することをお勧めします](/azure/active-directory/conditional-access/overview)。 |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
@@ -155,7 +155,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **キャプションを管理する方法**
 
-Teams 会議の録音のクローズド キャプションは、ユーザーが記録時に書き起こしをオンにしている場合にのみ、再生中に利用できます。 管理者は、[ポリシーを介して文字起こしの記録をオン](/microsoftteams/cloud-recording)にして、ユーザーが文字起こしを使用して会議を記録できるようにする必要があります。
+Teams 会議の録音のクローズド キャプションは、ユーザーが記録時に書き起こしをオンにしている場合にのみ、再生中に利用できます。 管理者は、ユーザー [がトランスクリプション](meetings-policies-recording-and-transcription.md#allow-transcription) を使用して会議を記録するオプションを持っている場合は、文字起こしの記録を有効にする必要があります。
 
 キャプションは、様々な言語的対応力の視聴者を全て包含するコンテンツを制作することを支援してくれます。所有者として、会議のレコーディングにおいてキャプションを隠すこともできます、けれども会議の文字起こしは、削除しない限り Teams で引き続き利用可能となります。
 
@@ -180,14 +180,14 @@ Teams 会議の記録ファイルは、OneDrive for Business と SharePoint の�
 
 Stream は、近い将来プラットフォームとして廃止の予定はありません。 現在、Stream に存在するビデオは、移行を開始するまで残っています。 移行すると、これらのビデオも OneDrive for Business または SharePoint に移行されます。 詳細については、「[Stream クラシックの移行](/stream/streamnew/classic-migration)」を参照してください。
 
-**Microsoft Teams 会議の記録にアイテム保持ラベルを適用する方法を説明します。**
+**会議の記録にアイテム保持ラベルをMicrosoft Teamsする方法**
 
 「[保持ラベルを自動適用する方法](/microsoft-365/compliance/apply-retention-labels-automatically)」を参照してください。
 
 **Microsoft Teams のユーザーにポリシーを割り当てるにはどうすればよいですか、どのポリシーを優先すべきですか?**
 
-「[どのポリシーが優先されますか?](./assign-policies.md#which-policy-takes-precedence)」を参照してください。
+「[どのポリシーが優先されますか?](./policy-assignment-overview.md#which-policy-takes-precedence)」を参照してください。
 
-**ユーザーが OneDrive for Business または SharePoint を持ってない場合、またはストレージ クォータが満たされている場合、記録はどこに行くのですか?**
+**ユーザーが容量または容量を持OneDrive for Business、またはSharePointクォータが満たされている場合、記録はどこに行くのですか?**
 
 記録は、21 日間保持される一時的な保存場所に保存されます。 その間、開催者はレコーディングをダウンロードする必要があります。 21 日以内にダウンロードされない場合、記録は削除されます。

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729816"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605843"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -93,12 +93,12 @@ Teams の作成方法のチュートリアルついては、「[Create a class t
 
 Teams ポリシーにより、特定のユーザーまたはユーザーのグループが使用できるオプションを制限する機能が提供されています。 ポリシーを適用することにより、プライベート チャット、プライベート通話、会議のスケジュール設定、共有可能なコンテンツの種類などを使用または設定できるユーザーを定義することができます。
 
-**高等教育機関の職員、教員、および学生** は、既定の (グローバル) ポリシーに含まれる機能のメリットを受けることができます。 [メッセージング ポリシーによる翻訳機能の有効化](messaging-policies-in-teams.md#messaging-policy-settings)や会議ポリシーによる[会議の自動文字起こしの許可](meeting-policies-in-teams.md#allow-transcription)など、追加機能を Teams に追加するためのポリシー設定がいくつかあります。
+**高等教育機関の職員、教員、および学生** は、既定の (グローバル) ポリシーに含まれる機能のメリットを受けることができます。 [メッセージング ポリシーによる翻訳機能の有効化](messaging-policies-in-teams.md#messaging-policy-settings)や会議ポリシーによる[会議の自動文字起こしの許可](meetings-policies-recording-and-transcription.md#allow-transcription)など、追加機能を Teams に追加するためのポリシー設定がいくつかあります。
 
 **小中高生** の場合は、生徒に付与する機能は制限する必要がある場合があります。 ポリシーを使用すると、生徒に許可する操作の範囲を規定できます。 多くの場合、一番数が多いユーザーの種類は生徒で、また、最も厳しい制限は生徒に対して設けられるため、生徒に関するポリシーの変更は、"グロバール" (組織全体の既定値) ポリシーに対して行うことをお勧めします。
 
 > [!IMPORTANT]
-> ユーザーに割り当てられている会議ポリシーについては、[参加を自動的に許可する] を [組織内のすべてのユーザー] に設定することをお勧めします。 この設定によって、認証されていないユーザーは、Teams 会議に参加する前にロビーからの許可が必要となります。 詳細については、「[Teams での会議ポリシーを管理する](./meeting-policies-in-teams.md#automatically-admit-people)」を参照してください。
+> ユーザーに割り当てられている会議ポリシーについては、[参加を自動的に許可する] を [組織内のすべてのユーザー] に設定することをお勧めします。 この設定によって、認証されていないユーザーは、Teams 会議に参加する前にロビーからの許可が必要となります。 詳細については、「[Teams での会議ポリシーを管理する](meeting-policies-participants-and-guests.md#automatically-admit-people)」を参照してください。
 
 **小学校の教職員** には、生徒に対しては制限されている、主要な機能を付与するポリシーを適用する必要があります。 プライベート チャットの作成および会議をスケジュール (新しいポリシーの既定の設定項目) を許可する新しいポリシーを作成します。 [これらのポリシーを教職員に一括して割り当てます](batch-group-policy-assignment-edu.md)。
 

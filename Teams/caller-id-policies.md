@@ -18,17 +18,17 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams で発信者番号ポリシーを使用および管理して、組織内の Teams ユーザーの発信者番号を変更またはブロックする方法について説明します。
-ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a511e86efcaba8ec5dd81718bf768cc45fbf2ad0
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731226"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605433"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Microsoft Teams で発信者番号ポリシーを管理する
 
 > [!NOTE]
-> 呼び出し元 ID をリソース アカウントの電話番号に設定し、発信者名を設定するには、Teams PowerShell モジュール 2.3.1 以降の PowerShell コマンドレット New-CsCallingLineIdentity または Set-CsCallingLineIdentity を使用します。 (これらのオプションは、現在、管理センター Microsoft Teams使用できません)。 
+> 呼び出し元 ID をリソース アカウントの電話番号に設定し、発信者名を設定するには、Teams PowerShell モジュール 2.3.1 以降の PowerShell コマンドレット New-CsCallingLineIdentity または Set-CsCallingLineIdentity を使用します。 (これらのオプションは現在、管理センター Microsoft Teams使用できません)。 
 
 既定では、ユーザー Teams PSTN 電話に通話を発信すると、そのユーザーの電話番号Teams表示されます。 同様に、PSTN 発信者がユーザーに通話を発信Teams PSTN 発信者の電話番号が表示されます。
 
@@ -70,8 +70,8 @@ ms.locfileid: "58731226"
 
 ## <a name="related-topics"></a>関連項目
 
-[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
 
-[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
 
-[ Teams でユーザーにポリシーを割り当てる](assign-policies.md)
+[ Teams でユーザーにポリシーを割り当てる](policy-assignment-overview.md)
