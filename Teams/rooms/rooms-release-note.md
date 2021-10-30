@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 会議室のリリース ノート
+title: Microsoft Teams Rooms のリリース ノート
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、Microsoft Teams Rooms の累積的な改善リストである Microsoft Teams Rooms のリリース ノートを参照できます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f4f6c719a0be5e1d400eae37ba19be8e0dbd0214
-ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
+ms.openlocfilehash: 6f49c2d3babfdf97bb39405d1f48a84deb724db5
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "60082877"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624248"
 ---
-# <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 会議室のリリース ノート
+# <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams Rooms のリリース ノート
 
 この記事では、Microsoft Teams Rooms の累積的な改善点について説明します。
 
@@ -29,6 +29,7 @@ ms.locfileid: "60082877"
 
 |リリース |公開日 <br/> Microsoft Store |
 |--- |--- |
+|Teams Web-Client リリース | 2021 年 10 月 |
 |4.10.10.0 |10/1/2021 |
 |4.9.12.0 |07/28/2021 |
 |4.8.31.0 |05/12/2021 |
@@ -76,10 +77,27 @@ ms.locfileid: "60082877"
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams Rooms 機能の概要と問題の解決
 
+### <a name="teams-rooms-web-client-update-october-2021"></a>TeamsRooms Web クライアントの更新プログラム (2021 年 10 月)
+
+この更新プログラムで導入されるもの:
+- Teams デスクトップ クライアントを使用した一元化されたリスト コントロールと、構造化された会議のグループ化、発表者/出席者の会議オプションとコントロール、手の並べ替え順序の設定、およびリストから直接チャットまたは会議の招待からユーザーを招待する機能 
+- ユニバーサル バー通話コントロールは、会議の通話コントロール、レイアウト ボタン、会議の状態情報でデスクトップ クライアントに合わせ
+- ルーム ディスプレイの単一フロントとデュアル フロントの動的ギャラリーのサポート
+- ルームの前面レイアウト オプションの統合レイアウト ピッカーを統合
+- 会議中に複数の参加者にスポットライトを当てるTeamsピン留めする
+- 参加者リストから参加者をタップしてアクセスできる、発表者/出席者による大規模な会議のサポート
+- 会議室が開催者である会議の会議をロックする機能と、ロックされている会議の認識
+- リモート ユーザーがコンテンツを発表者ビュー オプションと共有する場合の発表者モード (weatherman) の使用サポート
+- 会議での反応Teamsサポート 
+
+
+> [!NOTE]
+> Web クライアントの更新プログラムは、アプリケーション Teams 4.10 および 4.9 を使用して、すべての会議室で使用できます。 管理者は、Teams Rooms パブリック プレビュー プログラムに登録して、Web クライアント機能のピークを間もなく取得できます。
+
 ### <a name="410100-1012021"></a>4.10.10.0 (10/1/2021)
 
 この更新プログラムで導入されるもの:
-- ルーム リモートを使用すると、ユーザーはモバイルでルームのTeams機能を制御できます*
+- ルーム リモートを使用すると、ユーザーはモバイル上で Teamsを使用して部屋の基本的な機能を制御できます*
 - Logitech scribe content camera support for BLE button for sharing into meeting
 - チャットのバブルは、会議チャットで通知を提供し、会議チャットを使用して何が話されているのかを注意を引く *
 - 大きなギャラリーと Together モードのサポートが [高] でGCCされました
@@ -102,7 +120,7 @@ ms.locfileid: "60082877"
 - HDMI オーディオが原因で通話音量が低下する問題を修正しました。 HDMI オーディオ機能は、アプリケーション ビルド 4.9.12.0 のすべてのデバイスで自動的に有効になります。
 
 > [!NOTE]
-> サポートSkype for Businessが終了する場合は、アプリケーションのみモードに更新Teams勧めします。
+> サポートSkype for Businessに達する場合は、アプリケーションのみモードに更新Teams勧めします。
 
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
@@ -110,7 +128,7 @@ ms.locfileid: "60082877"
 - Windows 10 20H2 のサポート 
 
 > [!NOTE]
-> クリストUC-Engine ("KYSKLi" を含む BIOS バージョンの日付) Teams 会議室には互換性の問題があります。更新されたドライバーは、近い将来システム OEM によって提供される予定です。 Windows 10 20H2 は、これらのデバイスには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](./rooms-lifecycle-support.md#windows-10-release-support)」を参照してください。
+> クリストUC-Engine ("KYSKLi" を含む BIOS バージョンの日付) Teams 会議室には互換性の問題があります。更新されたドライバーは、近い将来、システム OEM によって提供される予定です。 Windows 10 20H2 は、これらのデバイスには提供されません。 Windows バージョンのサポートの詳細については、「[Windows 10 リリースのサポート](./rooms-lifecycle-support.md#windows-10-release-support)」を参照してください。
 
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
@@ -118,16 +136,16 @@ ms.locfileid: "60082877"
 - グローバル アドレス一覧 (GAL) に表示Teamsルーム アカウントの会議室情報が表示されません。
 
 > [!NOTE]
-> GCCH のお客様は、アップグレード パッケージを手動で Rooms デバイスMicrosoft Teams[ダウンロードできます。](manual-update.md)
+> GCCH のお客様は、アップグレード パッケージを手動で Microsoft Teams [Rooms デバイスからダウンロードできます。](manual-update.md)
 
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 この更新プログラムで導入されるもの:
-- Government Community CloudTeams Rooms の高 (GCCH) のサポート。 既存の Teams Rooms デバイスを使用している GCCH のお客様は、「Microsoft Teams Rooms デバイスを手動で更新する」からバージョン 4.8.19.0[をダウンロードできます](manual-update.md)。
+- Government Community CloudTeams Rooms の高 (GCCH) サポート。 既存の Teams Rooms デバイスを使用している GCCH のお客様は、「Microsoft Teams Rooms デバイスを手動で更新する」からバージョン 4.8.19.0[をダウンロードできます](manual-update.md)。
 - ビデオ品質の向上 (720p サポート) で Zoom 会議に参加し、参加者のビデオ ギャラリーを受け取る
-- Skype for Businessモードでは、サインインエラー バナーがTeams削除されました。 この変更は、インフラストラクチャを削除するSkype for Businessサポートします
-- Teamsの参加リンク解析で Microsoft Defender Advanced Thread Protection セーフ リンクを処理し、外部ユーザーとシームレスにTeamsする
-- 共有者の PC にカスタム DPI Skype for Business設定されている場合の会議での共有コンテンツのスケーリングの問題を修正Windows
+- Skype for Business モードでは、サインインエラー バナーがTeams削除されました。 この変更は、インフラストラクチャを削除するSkype for Businessサポートします
+- Teams参加リンク解析で Microsoft Defender Advanced Thread Protection セーフ リンクを処理し、外部ユーザーとシームレスにTeamsする
+- 共有者の PC にカスタム DPI が設定されているSkype for Business会議での共有コンテンツのスケーリングの問題を修正Windows
 - 品質と信頼性の修正
 
 ### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
@@ -169,7 +187,7 @@ ms.locfileid: "60082877"
 この更新プログラムで導入されるもの:
 
 - Microsoft Teams と Surface Hub 2S 間の調整された会議
-- [Windows 10 更新プログラム KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) または [Windows 10 更新プログラム KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) がインストールされている場合の Skype for Business サインイン エラーの修正
+- 更新プログラム[KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) Skype KB4571709 がインストールされている場合Windows 10 For Business [Windows 10](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709)サインイン エラーの修正
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -231,7 +249,7 @@ ms.locfileid: "60082877"
 
 この更新プログラムで導入されるもの:
 
-- 自動応答近接通信ベースの通話とこれを制御するための管理設定
+- 近接に基づく呼び出しと管理者設定に自動応答してこれを制御する
 - [バージョン情報] タブでデバイス構成を追加することによるデバイス管理設定 UI の更新
 - メイン画面に戻るルーム管理
 - GCC で使用可能なミーティング ルーム SKU
@@ -251,7 +269,7 @@ ms.locfileid: "60082877"
 - 従来のホワイトボードを Teams 会議にインテリジェントに組み込むことが可能な新しいコンテンツ カメラ機能
 - 低優先メールを削減するためのコンソール UI に対する追加の改善と、コンソール上の [詳細] 経由でアクセスする [設定] の新しいサイド バーへの移動
 - ローカル コンテンツ ケーブルが接続されていない場合やコンテンツ カメラが接続されていない場合の共有トレイ ボタンの無効化
-- MTR システムの再起動後にのみ最初の表示に失敗するタッチ キーボードに伴う問題の修正
+- タッチ キーボードが、最初に表示されない問題を修正しました。この問題は、最初に、システムの再起動後に失敗しました
 - 品質と信頼性の修正
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
@@ -260,10 +278,10 @@ ms.locfileid: "60082877"
 
 - Skype Room System ストア アプリの "Microsoft Teams Rooms" への商標変更
 - Microsoft Teams Rooms コンソール ユーザー インターフェイスの Microsoft Teams への再編
-- テーマの更新: コンソールの背景を中間色にしてコンソール UI コントロールがはっきり見えるようにしながら、常にカスタム背景画像をフロント オブ ルーム ディスプレイ上に表示する - アクセシビリティ要件
+- テーマの更新: 本体の UI コントロールが色のコントラスト (アクセシビリティ要件) を満たしていることを確認するために、本体の背景をニュートラルカラーにしながら、ルーム ディスプレイの前にカスタム背景画像のみを保持します。
 - Teams 通話/会議で Microsoft Teams PC、Web、モバイル クライアントに一貫性のあるエクスペリエンスを提供するための会議中通話制御用のユニバーサル バー<sup>1</sup>
 - Teams 通話/会議後の通話品質フィードバックの評価<sup>1</sup>
-- PC/Web Microsoft Whiteboard mobile Microsoft Teams クライアント<sup>1 2</sup><sup></sup>から共有されている場合、会議室の前面に表示される Teamsの受信/レンダリング
+- PC/Microsoft Whiteboard/mobile Microsoft Whiteboard クライアント<sup>1</sup> <sup>2</sup> Microsoft Teams共有時に会議室の前面に表示される会議室の受信/レンダリングTeams表示
 - Microsoft Teams Rooms クライアントに伴う互換性の問題が原因で、Windows 10 バージョン 1809 のアップグレードに対するサポートが削除。 Windows 10 バージョン 19H1 のサポートは今後のリリースで追加されます
 
 <sup>1</sup> Microsoft Teams サービスが Teams リングを使用して提供されます。 この機能は 4.0.105.0 クライアントの更新の前後に使用可能になります
@@ -459,7 +477,7 @@ Windows 10 Enterprise Anniversary エディション (英語版、バージョ�
 - フロント オブ ルーム ディスプレイやプロジェクターで既存の投資を再利用
 - ちょっとした打ち合わせから、大規模な会議室まで、すべてのタイプのミーティング スペースに対応
 - Skype for Business の認定オーディオ デバイスとビデオ デバイスはさまざまなサイズのルームで利用可能
-- ルームおよび Skype 会議でデスクトップ共有を投影する組み込みの有線取り込み
+- 会議室と会議へのプロジェクト デスクトップ共有への組み込みの有線Skype取り込み
 
  **展開が簡単に、管理が単純に**
 
