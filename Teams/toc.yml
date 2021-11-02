@@ -945,7 +945,7 @@ items:
                     href: direct-routing-connect-the-sbc.md
                   - name: '手順 2: ユーザーを有効にする'
                     href: direct-routing-enable-users.md
-                  - name: '手順 3: 音声ルーティングを構成する'
+                  - name: '手順 3: 通話ルーティングを構成する'
                     href: direct-routing-voice-routing.md
                   - name: '手順 4: 電話番号を変換する'
                     href: direct-routing-translate-numbers.md
@@ -953,7 +953,7 @@ items:
                     href: direct-routing-sbc-multiple-tenants.md
                   - name: ダイレクト ルーティングを使用してアナログ デバイスを使用する方法
                     href: direct-routing-analog-devices.md
-                  - name: 音声ルーティング ポリシーを管理する
+                  - name: 通話ルーティング ポリシーを管理する
                     href: manage-voice-routing-policies.md
                   - name: 着信通知の管理
                     href: direct-routing-call-notifications.md
@@ -1077,7 +1077,7 @@ items:
                 href: emergency-calling-labels.md
           - name: 緊急通話ポリシーを管理する
             href: manage-emergency-calling-policies.md
-          - name: ダイレクト ルーティングの緊急音声ルーティング ポリシーを管理する
+          - name: ダイレクト ルーティングの緊急通話のルーティング ポリシーを管理する
             href: manage-emergency-call-routing-policies.md
       - name: Teams で音声および通話のポリシーを管理する
         href: voice-and-calling-policies.md
