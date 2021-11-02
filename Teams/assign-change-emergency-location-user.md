@@ -18,26 +18,30 @@ f1.keywords:
 - NOCSH
 description: この記事では、組織内のユーザーに緊急対応の場所を割り当てる方法または変更する方法について学習します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537288"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634906"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>ユーザーの緊急対応の場所を割り当てたり変更したりする
 
-緊急対応の場所は、各電話番号またはユーザーに割り当てる必要があります。 緊急対応の住所と場所の詳細については、「緊急対応の場所、場所、通話ルーティングとは」 [を参照してください](./what-are-emergency-locations-addresses-and-call-routing.md)。
+[PSTN](pstn-connectivity.md)接続オプションに関係なく、Microsoft 通話プラン、オペレーター Connect、または直接ルーティングを選択する場合、緊急対応の場所を各電話番号またはユーザーに割り当てる &mdash; &mdash; 必要があります。
 
-Microsoft 通話プランの場合、ヨーロッパの国では、緊急対応の場所は、Microsoft 365 から受け取った場合、または電話番号を Microsoft 365 に転送するときに、電話番号に関連付けされます。 米国では、緊急対応の場所は、ユーザーに割り当てられた電話番号に関連付けされます。 緊急対応の住所は、割り当てられているユーザーが新しい場所に移動した場合に変更できます。
+ただし、PSTN 接続オプションによっては、ユーザーの緊急対応の場所を管理および割り当てる方法が異なる場合があります。 詳細については、「緊急通話の [管理」を参照してください](what-are-emergency-locations-addresses-and-call-routing.md)。
+
+この記事では、ユーザーの緊急対応の場所を割り当てる方法または変更する方法について説明します。 
+
+この記事は、通話プランとオペレーター サービスにConnect。
   
-管理者センターまたは PowerShell を使用して、Microsoft Teamsの緊急対応の場所を割り当てまたは変更できます。
+管理者センターまたは PowerShell を使用して、ユーザーの緊急対応Microsoft Teamsを割り当てまたは変更できます。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
-1. 管理センターの左側のナビゲーションで、[音声Microsoft Teams **番号]**  >  **を電話します**。
+1. 管理センターの左側のナビゲーションで、[音声Microsoft Teams **番号]**  >  **電話クリックします**。
 
-2. [番号 **電話ページで**、[数値] タブをクリックし、一覧からユーザー番号を選択し、[編集] を **クリックします**。
+2. [番号 **電話] ページで**、[数値]タブをクリックし、一覧からユーザー番号を選び、[編集] を **クリックします**。
 
 3. [編集] **ウィンドウの** [緊急対応の **場所] で**、次のいずれかの操作を行います。
 
@@ -58,8 +62,7 @@ Microsoft 通話プランの場合、ヨーロッパの国では、緊急対応�
 
 - [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
 - [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)
-- [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 - [ユーザーの緊急対応の場所の位置情報を割り当てたり変更したりする](assign-change-emergency-place-user.md)
+- [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
 - [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [緊急通話の利用条件](./emergency-calling-terms-and-conditions.md)
-- [Teams での PowerShell の概要](teams-powershell-overview.md)

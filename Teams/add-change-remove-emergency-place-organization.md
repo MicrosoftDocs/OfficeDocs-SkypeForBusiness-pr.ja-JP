@@ -16,18 +16,24 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 管理センターで組織の緊急対応の場所を追加、変更、または削除Microsoft Teamsします。
+description: 組織の緊急対応の場所を追加、変更、または削除する方法について学習します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98135be7b74583ad01718d19796889bdc9a467d1
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: fec188634377b04cb4149d3680acc07eef797149
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537218"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634876"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>組織の緊急対応の場所の位置情報を追加、変更、削除する
 
-組織の物理的な場所の数に応じて、ビル、フロア、オフィスの場所を追加して、より具体的な緊急対応の場所を作成できます。 詳細については [、「緊急通話を管理](what-are-emergency-locations-addresses-and-call-routing.md) する」を参照してください。
+組織の物理的な場所の数に応じて、ビル、フロア、オフィスの場所を追加して、より具体的な緊急対応の場所を作成できます。
+
+ただし、PSTN 接続オプションによっては、緊急対応の場所と場所の要件を管理する方法が異なる場合があります。 詳細については、「緊急通話の [管理」を参照してください](what-are-emergency-locations-addresses-and-call-routing.md)。
+
+この記事では、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。
+
+この記事は、Microsoft 通話プラン、オペレーター サービス、Connectルーティングに適用されます。
 
 組織の緊急対応の場所は、Microsoft Teamsまたは PowerShell を使用して管理します。
   
@@ -71,6 +77,7 @@ ms.locfileid: "60537218"
     
 ## <a name="related-topics"></a>関連項目
 
-- [組織の緊急対応の場所の位置情報を追加、変更、削除する](add-change-remove-emergency-place-organization.md)
+- [緊急通話を管理する](what-are-emergency-locations-addresses-and-call-routing.md)
+- [組織の緊急対応の場所を追加、変更、削除する](add-change-remove-emergency-location-organization.md)
 - [組織の電話番号を管理する](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [緊急通話の利用条件](./emergency-calling-terms-and-conditions.md)

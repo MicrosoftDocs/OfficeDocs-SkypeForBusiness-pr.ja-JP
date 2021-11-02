@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: オンプレミスのテレフォニー インフラストラクチャをMicrosoft 電話システム ダイレクト ルーティングを構成する方法について説明Microsoft Teams。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05e3152c13b0cf6559964d3926d7c66e7cf376e8
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582361"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634896"
 ---
 # <a name="configure-direct-routing"></a>ダイレクト ルーティングを構成する
 
@@ -36,7 +36,7 @@ Microsoft 電話システム ダイレクト ルーティングを使用する�
 > [!Tip]
 > ダイレクト ルーティングの利点、その計画方法、デプロイ方法については、次のセッションをご[Microsoft Teams覧](https://aka.ms/teams-direct-routing)ください。
 
-この記事で説明する手順を完了するには、管理者が PowerShell コマンドレットに精通している必要があります。 PowerShell の使用の詳細については、「コンピューターをセットアップする」[を](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)参照Windows PowerShell。 
+この記事で説明する手順を完了するには、管理者が PowerShell コマンドレットに精通している必要があります。 PowerShell の使用の詳細については、「コンピューターのセットアップ」[を](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)参照Windows PowerShell。 
 
 これらの記事の手順を実行する前に、SBC ベンダーによって推奨される SBC が既に構成されていることを確認するようにお勧めします。 
 
@@ -52,13 +52,13 @@ Microsoft 電話システム ダイレクト ルーティングを使用する�
 
 - **手順 1.** [Connect システムを使用して SBC Microsoft 電話し、接続を検証する](direct-routing-connect-the-sbc.md)
 - **手順 2.** [ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする](direct-routing-enable-users.md)
-- **手順 3.** [音声ルーティングを構成する](direct-routing-voice-routing.md)
+- **手順 3.** [通話ルーティングを構成する](direct-routing-voice-routing.md)
 - **手順 4.** [数値を別の形式に変換する](direct-routing-translate-numbers.md) 
 
 複数のテナントに対して SBC を構成する場合は、複数のテナントの SBC の構成に関する記事 [も参照してください](direct-routing-sbc-multiple-tenants.md)。
 
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話システムのダイレクト ルーティング](direct-routing-landing-page.md)
 

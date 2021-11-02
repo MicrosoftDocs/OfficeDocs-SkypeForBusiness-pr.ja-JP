@@ -16,26 +16,28 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: '管理センターで組織の緊急対応の場所を追加、変更、または削除Microsoft Teamsします。 '
+description: '組織の緊急対応の場所を追加、変更、または削除する方法について学習します。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 601d8ce50d5fcf06574f08abb2c78c73a40fefda
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 4d9c7c56b4e2b2fd14f703d51b4c07cfc173dfa3
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536538"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634856"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>組織の緊急対応の場所を追加、変更、削除する
 
-[PSTN](pstn-connectivity.md)接続オプションに関係なく、Microsoft 通話プラン、オペレーター Connect、または直接ルーティング -緊急対応の場所を電話番号に関連付けできます。 ただし、PSTN 接続オプションによっては、場所の要件が異なる場合があります。
+[PSTN](pstn-connectivity.md)接続オプションに関係なく、Microsoft 通話プラン、オペレーター Connect、または直接ルーティングの緊急対応の場所を電話番号 &mdash; に関連 &mdash; 付けできます。
 
-**通話プランの場合、** 緊急対応の場所は電話番号に関連付けられている必要がありますが、このような場合は国や地域によって異なる場合があります。 たとえば、米国では、電話番号をユーザーに割り当てるときに緊急対応の場所を関連付ける必要があります。 英国では、Microsoft 365 から電話番号を取得したり、現在のサービス プロバイダーから電話番号を転送したりするときに、緊急対応の場所を電話番号に関連付ける必要があります。
+ただし、PSTN 接続オプションによっては、緊急対応の場所と場所の要件を管理する方法が異なる場合があります。 詳細については、「緊急通話の [管理」を参照してください](what-are-emergency-locations-addresses-and-call-routing.md)。
 
-どの国や地域に関係なく、緊急対応の場所に場所や場所を追加し、緊急対応の場所を削除できます。 組織の物理的な場所の数に応じて、ビル、フロア、オフィスの場所を作成できます。 「緊急 [通話の管理」を参照してください](what-are-emergency-locations-addresses-and-call-routing.md)。
+この記事では、組織の緊急対応の場所を追加、変更、または削除する方法について説明します。 
+
+この記事は、Microsoft 通話プラン、オペレーター サービス、Connectルーティングに適用されます。
 
 組織の緊急対応の場所は、Microsoft Teamsまたは PowerShell を使用して管理します。
 
-緊急対応の場所を割り当てるには、ユーザー、電話番号、緊急対応の場所すべてが同じ国にある必要があります。  詳細については、「ユーザーの緊急対応 [の場所を割り当てるまたは変更する」を参照してください](assign-change-emergency-location-user.md)。
+緊急対応の場所を割り当てるには、ユーザー、電話番号、緊急対応の場所すべてが同じ国にある必要があります。 詳細については、「ユーザーの緊急対応 [の場所を割り当てるまたは変更する」を参照してください](assign-change-emergency-location-user.md)。
   
 ## <a name="add-an-emergency-location"></a>緊急対応の場所を追加する
 
