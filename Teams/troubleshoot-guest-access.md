@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b539116fb5e81156a56c5f73146b92eea898765
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8d54e236583211c2a8169987bf03ceba756facf
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600932"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641217"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Microsoft Teams のゲスト アクセスに関する問題のトラブルシューティング
 
@@ -41,14 +41,10 @@ Teams のゲスト アクセスでは Azure Active Directory (Azure AD) ビジ�
 > [!NOTE]
 > Teamsゲストがサインインして別の (リソース) テナントのゲストとして Teams を使用するには、ゲストのホーム テナントで有効にする必要があります。
 
-ライセンス エラーが発生する場合は [、Azure AD 外部](/azure/active-directory/external-identities/external-identities-pricing) ID の課金モデルを読んで、組織内のゲスト アクセスのニーズを満たすライセンス要件を決定してください。
+ライセンス エラーが表示される場合は[、Azure AD](/azure/active-directory/external-identities/external-identities-pricing)外部 ID の課金モデルを読んで、組織のゲスト アクセスのニーズを満たすライセンス要件を決定してください。
 
 - ゲスト ライセンスは、招待する組織に対してカウントされます。 必要なライセンスの数を算出するときは、このことを考慮に入れます。
 - ライセンスは、招待されたゲストが別の組織から送信された場合でも、Microsoft 365メール アドレスを使用している場合でも、組織に対してカウントされます。
-
-## <a name="support-for-b2b-user-types"></a>B2B ユーザーの種類のサポート
-
-現在、Teams Only は、[Azure B2B で定義](/azure/active-directory/b2b/user-properties)されている状態 1 および状態 2 のゲスト ユーザーをサポートします。
 
 ## <a name="related-topics"></a>関連項目
 

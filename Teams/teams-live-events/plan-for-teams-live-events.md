@@ -20,12 +20,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8996c796d6ab5a2e98c636a115707e6bb2249c6e
-ms.sourcegitcommit: 65964d5079120c900abdba24c08d4cc18d2fde7a
+ms.openlocfilehash: b66ef3032f5048cdde377b6a907ce4e8eee739a9
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58883755"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641227"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 
@@ -164,6 +164,7 @@ Teams ライブ イベントを整理、作成または発表するために割�
 **これらの国/地域のデータの場所 (サポートされている)**
 
 - オーストラリア
+- ブラジル
 - カナダ
 - フランス
 - ドイツ
@@ -177,7 +178,6 @@ Teams ライブ イベントを整理、作成または発表するために割�
 
 **これらの国/地域およびクラウドはサポートされていません**
 
-- ブラジル
 - ノルウェー
 - Government Community Cloud (GCC)-H
 - 米国国防総省 (DOD)
