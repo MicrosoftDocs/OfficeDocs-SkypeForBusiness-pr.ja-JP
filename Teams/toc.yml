@@ -533,6 +533,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 製造カテゴリの Teams テンプレート
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: 非営利団体カテゴリの Teams テンプレート
+            href: team-templates-nonprofit.md
           - name: Teams テンプレートのポリシーを管理する
             href: templates-policies.md
       - name: 組織外部のユーザーと作業する
@@ -1553,6 +1555,11 @@ items:
             href: flw-realwear.md
           - name: トランシーバー
             href: walkie-talkie.md
+      - name: 非営利団体向けの Teams
+        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+        items:
+          - name: 非営利団体のチーム テンプレートを使用する
+            href: team-templates-nonprofit.md
       - name: 小売店向けの Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
