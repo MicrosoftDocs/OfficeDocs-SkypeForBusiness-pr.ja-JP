@@ -21,22 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 最適な結果を生み出すMicrosoft Teams電話と電話について学習します。
-ms.openlocfilehash: 5cd7cfcbacd2799c89e764fe456954c2cf61f0ec
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 6be1415d752bdde9afd6c34419b94912a61eb35d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579557"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733708"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認定デバイス
 
 このMicrosoft Teams認定プログラムにより、認定デスクフォンと電話会議を使用する顧客は、高品質の音声通話と会議のエクスペリエンスを体験できます。
 
-Microsoft Teams認定プログラムは、パフォーマンス ターゲットとオーディオ品質メトリックが高い高品質のバーを保証します。 パートナーは、この上位のバーを満たすために積極的に取り組み、認定要件に適合するデバイスです。 一部のパートナーは、携帯電話と同じハードウェアで Skype for Business サービスのサポートを提供Teamsしています。 認定されたデバイスMicrosoft Teams次のような利点があります。
-
-- ハードウェア ボタンの統合と LED 通知に関するネイティブな Teams 体験
-- 予定表の統合とワンタッチ会議参加
-- Intune 統合を使用して管理Teams管理
+Microsoft Teams認定プログラムは、パフォーマンス ターゲットとオーディオ品質メトリックが高い高品質のバーを保証します。 パートナーは、この上位のバーを満たすために積極的に取り組み、認定要件に適合するデバイスです。 一部のパートナーは、携帯電話と同じハードウェアで Skype for Business サービスのサポートを提供Teamsしています。 
 
 ## <a name="currently-certified-teams-phones"></a>現在認定Teams携帯電話
 
@@ -65,15 +61,15 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 | Yealink MP56 | `122.15.0.6` | 2020 年 3 月    |
 | Yealink VP59 | `91.15.0.16` | 2019 年 6 月     |
 
-## <a name="currently-certified-teams-rooms-on-android"></a>現在 Android Teams会議室の認定を受けています
+## <a name="currently-certified-teams-rooms-on-android"></a>Android Teams会議室の認定を受けています
 
-次のデバイスは、Android 認定プログラムMicrosoft Teams認定を受けています。
+次のデバイスは、Android Microsoft Teams の認定プログラムの下で認定されます。
 
 | デバイス モデル | ファームウェアのバージョン | リリース日  | 部屋のサイズ                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2021 年 10 月 | EPOS Vision 3T にバンドル |
 | Logitech Tap Device     | `1.2.982`     |      2021 年 8 月   | Logitech Rally Bar および Rally Bar Mini と互換性があります |
-| Logitech Rally Bar Mini | `1.2.982`     |      2021 年 8 月   |    小規模ミーティング ルーム (4.5m x 4.5m) |
+| Logitech Rally Bar Mini | `1.2.982`     |      2021 年 8 月   |    小ミーティング ルーム (4.5m x 4.5m) |
 | Logitech Rally Bar      | `1.2.788`     |       2021 年 6 月    |    中規模の部屋 (4.5m x 6m)       |
 | AudioCodes RXV80 | `1.9.155`        |   2021 年 5 月  | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
 | EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2021 年 4 月 | フォーカス ルーム(3m x 3m) </br> 小規模会議室 (4.5m x 4.5m) |
@@ -87,7 +83,7 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 
 ## <a name="currently-certified-teams-displays"></a>現在認定されているTeams表示
 
-次のデバイスは、「Android 認定プログラムを表示Microsoft Teams認定」の下に表示されます。
+次のデバイスは、Android 認定プログラムのMicrosoft Teams認定を受けています。
 
 | デバイス モデル | ファームウェアのバージョン | リリース日  |
 |:------------------------|:-----------------|:--------------|
@@ -108,7 +104,7 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 
 #### <a name="app-versions"></a>アプリのバージョン
 
-| 製品リリース | リリース日  | Microsoft Teams アプリのバージョン | ポータル サイトバージョン | 管理エージェントのバージョン |
+| 製品リリース | リリース日  | Microsoft Teamsアプリのバージョン | ポータル サイトバージョン | 管理エージェントのバージョン |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
 | 2021 Update #2A | 2021 年 6 月 10 日  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 Update #2  | 2021 年 6 月 8 日  |`1449/1.0.94.2021051303`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
@@ -158,13 +154,13 @@ Microsoft Teams認定プログラムは、パフォーマンス ターゲット�
 
 を表示[Microsoft Teamsを参照してください](teams-displays.md)。
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams の製品リリース情報
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams Rooms の製品リリース情報
 
-Android アプリとファームウェアのTeamsの最新バージョンを次に示します。
+Android アプリとファームウェアバージョンTeamsの最新バージョンを次に示します。
 
 #### <a name="app-versions"></a>アプリのバージョン
 
-| 製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイトバージョン | 管理エージェントのバージョン |
+| 製品リリース| リリース日 | Microsoft Teamsアプリのバージョン | ポータル サイトバージョン | 管理エージェントのバージョン |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 | 2021 Update #2A | 2021 年 7 月 15 日  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 Update #2 | 2021 年 6 月 28 日  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
@@ -176,7 +172,7 @@ Android アプリとファームウェアのTeamsの最新バージョンを次�
 
 #### <a name="firmware-versions"></a>ファームウェアのバージョン
 
-デバイスに新しいファームウェア バージョンをインストールする場合は、[Included **product release]** 列で製品リリースを見つけることで、インストールされるバージョンである対応する Microsoft Teams アプリ、ポータル サイト、および管理エージェントを特定できます。 次に、上記の App **versions テーブルで製品リリースを** 確認します。
+デバイスに新しいファームウェア バージョンをインストールするときに、[Included **product release]** 列で製品リリースを見つけることで、インストールされるバージョンである対応する Microsoft Teams アプリ、ポータル サイト、および管理エージェントを特定できます。 次に、上記の App **versions テーブルで製品リリースを** 確認します。
 
 | デバイス モデル  | ファームウェアのバージョン | 含まれる製品リリース |
 |:--------------|:-----------------|:-------------------------|
@@ -205,11 +201,11 @@ Android アプリとファームウェアのTeamsの最新バージョンを次�
 
 ### <a name="product-release-information-for-teams-displays"></a>プロダクト ディスプレイの製品Teams情報
 
-アプリとファームウェアのバージョンを表示Microsoft Teams最新のバージョンを次に示します。
+アプリとファームウェアのバージョンを表示Microsoft Teamsの最新バージョンを次に示します。
 
 #### <a name="app-versions"></a>アプリのバージョン
 
-|製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイトバージョン | 管理エージェントのバージョン |
+|製品リリース| リリース日 | Microsoft Teamsアプリのバージョン | ポータル サイトバージョン | 管理エージェントのバージョン |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |2021 Update #2  |2021 年 6 月 9 日 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |2021 Update #1  |2021 年 3 月 18 日 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|
@@ -217,20 +213,20 @@ Android アプリとファームウェアのTeamsの最新バージョンを次�
 
 #### <a name="firmware-versions"></a>ファームウェアのバージョン
 
-デバイスに新しいファームウェア バージョンをインストールする場合は、[Included **product release]** 列で製品リリースを見つけることで、インストールされるバージョンである対応する Microsoft Teams アプリ、ポータル サイト、および管理エージェントを特定できます。 次に、上記の App **versions テーブルで製品リリースを** 確認します。
+デバイスに新しいファームウェア バージョンをインストールするときに、[Included **product release]** 列で製品リリースを見つけることで、インストールされるバージョンである対応する Microsoft Teams アプリ、ポータル サイト、および管理エージェントを特定できます。 次に、上記の App **versions テーブルで製品リリースを** 確認します。
 
 | デバイス モデル  | ファームウェアのバージョン | 含まれる製品リリース|
 |:--------------|:-----------------|:-------------------------|
 |Lenovo ThinkSmart View| `CD-18781Y.210507.111` |2021 Update #2 |
 |Lenovo ThinkSmart View| `CD-18781Y.210228.109` |2021 Update #1 |
 
-### <a name="product-release-information-for-teams-panels"></a>プロダクト パネルの製品Teams情報
+### <a name="product-release-information-for-teams-panels"></a>パネルの製品Teams情報
 
 次に示すのは、Microsoft Teamsとファームウェアの最新バージョンです。
 
 #### <a name="app-versions"></a>アプリのバージョン
 
-|製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイトバージョン | 管理エージェントのバージョン |
+|製品リリース| リリース日 | Microsoft Teams アプリのバージョン | ポータル サイト バージョン | 管理エージェントのバージョン |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 |2021 Update #1  |2021 年 8 月 12 日 |`1449/1.0.97.2021070601`|`5.0.5211.0`            |  `268`|
 

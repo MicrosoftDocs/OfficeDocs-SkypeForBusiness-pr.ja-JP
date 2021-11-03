@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、Microsoft 365とOffice 365、Skype for Business Microsoft Teamsサービスです。
-ms.openlocfilehash: 437250e1805515ada7dd1d668d47374456e72f24
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1d99352da922f2fa51850aca41be2fcc022ed1e6
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610374"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732699"
 ---
 # <a name="availability-in-guatemala"></a>グアテマラでの空き時間情報
 
@@ -69,7 +69,7 @@ ms.locfileid: "58610374"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | キュイダード・デ・グアテマラ<br/> |
-|有料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> 有料電話番号には、国内からのみアクセスできます。|
+|有料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> 有料電話番号には、国内からのみアクセスできます。|
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
 
  電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
@@ -82,7 +82,7 @@ ms.locfileid: "58610374"
 
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

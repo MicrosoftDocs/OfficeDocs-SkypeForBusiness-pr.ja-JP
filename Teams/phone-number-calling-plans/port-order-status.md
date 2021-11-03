@@ -17,16 +17,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 9bf0b66af230ee27036a891572dc92f292cb4d50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3699a7ccbc2aa7a54c70c9cd99c9277f56ea40fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613046"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733098"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>番号移行注文の状況
 
-ポート注文の状態を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[音声ポート注文] に移動>、[注文履歴] を  >  **クリックします**。 各ポート注文の状態は、[状態] 列に **一覧表示** されます。 注文 [プロセスの詳細については、ポート番号](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) にどのくらいの時間がかかるか確認してください。 
+ポート注文の状態を確認するには、Microsoft Teams 管理センターの左側のナビゲーションで、[> **Voice** Port orders] に移動し、[注文履歴]  >  **をクリックします**。 各ポート注文の状態は、[状態] 列に **一覧表示** されます。 注文 [プロセスの詳細については、ポート番号](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) にどのくらいの時間がかかるか確認してください。 
 
 次の表に、ポート注文の状態と、必要に応じて実行できるアクションを示します。
 
@@ -36,15 +36,15 @@ ms.locfileid: "58613046"
 |**通信業者に問い合わせ** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |注文は Microsoft によって受け取り、承認され、Microsoft は負けている運送業者と一緒に承認を受け取る作業を行います。  <br/> |
 |**譲渡が承認されました** <br/> |はい  <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |この注文は、負けている運送業者によって受け入れ、会社注文コミットメント (FOC) の日付が設定されています。  <br/> |
 |**転送保留中** <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |譲渡から 24 時間以内なので、注文の編集や取り消しは行えなくなりました。  <br/> |
-|**エラー** <br/> |いいえ  <br/> |はい  <br/> |はい  <br/> |はい (現時点では、エラーが発生した場合はポート注文を削除できます)。 ポート注文を再作成するか、PSTN サービス デスクのヘルプ に問い [合わせる必要があります](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。  <br/> |負けた運送業者は注文を拒否しました。  <br/> |
+|**エラー** <br/> |いいえ  <br/> |はい  <br/> |はい  <br/> |はい (現時点では、エラーが発生した場合はポート注文を削除できます)。 ポート注文を再作成するか、TNS Service Desk に連絡 [する必要があります](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。  <br/> |負けた運送業者は注文を拒否しました。  <br/> |
 |**完了** <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |いいえ  <br/> |番号は正常に転送されました。  <br/> |
 |**Cancelled** <br/> |いいえ  <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |管理者が注文をキャンセルしました。  <br/> |
 
 詳しい手順については、「電話番号を電話番号に転送する」を[参照Teams。](transfer-phone-numbers-to-teams.md)
 
-サポートが必要な場合、または電話番号を追加する必要がある場合は、PSTN サービス デスク にお問 [い合わせください](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+サポートが必要な場合、または電話番号を追加する必要がある場合は [、TNS Service Desk にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

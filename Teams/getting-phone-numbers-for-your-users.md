@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Teams の新しい番号、ポート番号、または既存の番号を転送する方法と、ユーザーに変更を表示する方法について学習します。
-ms.openlocfilehash: 11824043bc8ddd50c1e0c47ee15d22a5f3cc0c97
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+description: Teams の新しい番号、ポート番号、または既存の番号を転送する方法と、変更をユーザーに表示する方法について学習します。
+ms.openlocfilehash: 8fdc0e2341bd48afb0635f554d7d25b3e4244cf1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537078"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733298"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>ユーザー用に電話番号を取得する
 
@@ -34,14 +34,14 @@ ms.locfileid: "60537078"
   
 ユーザー番号を取得するには、次の 3 つの方法があります。
 
-- **管理センター Microsoft Teams使用します。** 一部の国と地域では、管理センターの管理センターでユーザーのMicrosoft Teams取得できます。 「 [ユーザーの新しい電話番号を取得する」を参照してください](#get-new-phone-numbers-for-your-users)。
+- **管理センター Microsoft Teams使用します。** 一部の国と地域では、管理センターでユーザーの番号Microsoft Teams取得できます。 「 [ユーザーの新しい電話番号を取得する」を参照してください](#get-new-phone-numbers-for-your-users)。
 
 - **既存の番号を移行する。** 現在のサービス プロバイダーまたは携帯電話会社から既存の番号を移植または転送できます。 この方法の詳細については、「[Teams に電話番号を移行](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」または「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization)」を参照してください。  
   
-- **新しい番号には申請書を使用します。** (国や地域によっては) Microsoft Teams 管理センターを使用して新しい電話番号を取得できない場合や、特定の電話番号または市番が必要な場合があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
+- **新しい番号には申請書を使用します。** (お客様の国や地域によっては) Microsoft Teams 管理センターを使用して新しい電話番号を取得できない場合や、特定の電話番号または市番が必要な場合があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
   
 > [!NOTE]
-> 組織の電話番号の設定に関するヘルプが必要な場合は、一部のビジネス向け製品のサポート担当者 - 管理者向けヘルプ [にお問い合わせください](/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)。
+> 組織の電話番号の設定に関するヘルプが必要な場合は、一部のビジネス向け製品に関するサポート連絡先 - 管理者向けヘルプ [にお問い合わせください](/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online)。
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>ユーザーの電話番号を取得する
 
@@ -73,7 +73,7 @@ ms.locfileid: "60537078"
   
 - ユーザーに 999 以下の電話番号が必要な場合は、管理センターのMicrosoft Teams使用します。 「電話番号をに転送[する」の手順にTeams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) お客様の国または地域が移植ウィザードに表示されていない場合は、手動でポート[](phone-number-calling-plans/manually-submit-port-order.md)注文を送信するか、「組織の[](/microsoftteams/manage-phone-numbers-for-your-organization)電話番号を管理する」を参照して、正しい承認状 (LOA) をダウンロードできます。
 
-- 999 を超える電話番号を移行する必要がある場合は[](phone-number-calling-plans/manually-submit-port-order.md)、手動で移行注文を送信[](/microsoftteams/manage-phone-numbers-for-your-organization)するか、「組織の電話番号を管理する」を参照して正しい承認状 (LOA) をダウンロードし[、PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)サービス デスクに送信してすべての番号を転送することができます。
+- 999 を超える電話番号を移行する必要がある場合は[](phone-number-calling-plans/manually-submit-port-order.md)、手動で移行注文を送信[](/microsoftteams/manage-phone-numbers-for-your-organization)するか、「組織の電話番号を管理する」を参照して正しい承認状 (LOA) をダウンロードし[、TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)サービス デスクに送信してすべての番号を転送できます。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>組織の電話番号を表示する
 

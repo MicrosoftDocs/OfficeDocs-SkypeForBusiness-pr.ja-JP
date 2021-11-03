@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、オーストラリアの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 156fe90556f63aaadc298b2b7c4340f5e9aa1c33
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 282c52a16cb632b15c3c0aa5d07d9a8cf1a4a07c
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630149"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733538"
 ---
 # <a name="phone-number-management-for-australia"></a>オーストラリアでの電話番号の管理
 
@@ -39,15 +39,15 @@ Telstra 呼び出し [の詳細については、 を参照してください](h
 |**実行する操作**|**これらの手順を実行して正しいフォームをダウンロードする**|
 |:-----|:-----|
 |オーストラリアで通話プランのユーザー電話番号を取得する。   <br/> |ユーザーの [新しい電話番号については、Telstra Calling](https://aka.ms/TelstraVoicePlan) にお問い合わせください。 その後、ユーザーに割り当て可能な番号が組織に追加されます。 <br/>
-|Telstra Calling を利用している場合は、Telstra からクラウド自動応答とオーストラリアの通話キューで使用できる新しいサービス電話番号を取得できます。 <br/> |新しい [電話番号については、Telstra Calling](https://aka.ms/TelstraVoicePlan) にお問い合わせください。 その後、これらの番号が組織に追加され、自動応答や通話キューに割り当てられます。 Telstra **Calling を使用** していない場合は、Microsoft Number Management Service デスクに問い合わせ、Microsoft からサービス番号を取得できます。 [手順については PSTN サービス デスクにお](contact-pstn-service-desk.md) 問い合わせください。できるだけ早くサポートいたします。 <br/>|
-|オーストラリアで、電話会議の新しいサービス電話番号を取得する。   <br/> |[PSTN サービス デスク にお問い合わせください](contact-pstn-service-desk.md)。|
+|Telstra Calling を利用している場合は、Telstra からクラウド自動応答とオーストラリアの通話キューで使用できる新しいサービス電話番号を取得できます。 <br/> |新しい [電話番号については、Telstra Calling](https://aka.ms/TelstraVoicePlan) にお問い合わせください。 その後、これらの番号が組織に追加され、自動応答や通話キューに割り当てられます。 Telstra **Calling を使用** していない場合は、Microsoft Number Management Service デスクに問い合わせ、Microsoft からサービス番号を取得できます。 [手順については、TNS サービス](contact-TNS-Service-Desk.md) デスクにお問い合わせください。できるだけ早くサポートいたします。 <br/>|
+|オーストラリアで、電話会議の新しいサービス電話番号を取得する。   <br/> |[TNS Service Desk にお問い合わせください](contact-TNS-Service-Desk.md)。|
 |ユーザー、自動応答、通話キュー Microsoft 365またはOffice 365に転送された電話番号を取得します。  <br/> | 電話番号を [転送するには、Telstra Calling](https://aka.ms/TelstraVoicePlan) にお問い合わせください。 その後、これらの番号が組織に追加されます。  <br/> |
-|電話会議で使用するためにMicrosoft 365またはOffice 365電話番号を取得します。  |[手順については、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md) |
+|電話会議で使用するためにMicrosoft 365またはOffice 365電話番号を取得します。  |[手順については、TNS サービス デスクにお問い合わせください。](contact-TNS-Service-Desk.md) |
 |コール プラン電話番号を持っているユーザーに割り当てられた緊急アドレス指定を変更する。 |緊急対応 [の住所を変更するには、Telstra Calling](https://aka.ms/TelstraVoicePlan) にお問い合わせください。 同社がこの情報を更新できます。|
 |ユーザー番号をサービス番号に変更する。 |Telstra 通話を使用する場合にサポートされます。|
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、PSTN サービス デスクに手順 [を問い合わせください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、TNS サービス デスクに手順 [を問い合わせください](contact-TNS-Service-Desk.md)。 |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

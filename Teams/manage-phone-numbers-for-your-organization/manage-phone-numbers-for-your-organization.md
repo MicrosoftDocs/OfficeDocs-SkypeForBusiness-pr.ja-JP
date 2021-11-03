@@ -26,12 +26,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 組織のユーザー (サブスクライバー) とサービス (有料および無料) の電話番号を取得および管理する方法Microsoft Teams確認します。
-ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 3f913ec3a64ab0c3444cdbfd951d3eae0152a974
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942340"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733548"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>通話プランの電話番号を管理する
 
@@ -86,7 +86,7 @@ ms.locfileid: "59942340"
 
 ***
 
-## <a name="number-request-forms"></a>番号の要求フォーム
+## <a name="number-request-forms"></a>要求フォームを番号付けする
 
 次のセクションでは、新しい番号と既存の番号を転送する要求フォームについて説明します。
 
@@ -94,13 +94,13 @@ ms.locfileid: "59942340"
 
 国または地域ごとに異なる手順、異なる種類の電話番号 (地理的/非地理的およびサービス (有料/無料))、および Microsoft Teams で使用できる電話番号を取得するルール/規制があります。
 
-(お客様の国や地域によっては) Microsoft Teams 管理センターを使用して新しいユーザー (サブスクライバー) またはサービス (有料または無料) の電話番号を取得できない場合や、特定の電話番号(バニティ要求) または特定の市番が必要な場合があります。
+(お客様の国または地域によっては) Microsoft Teams 管理センターを使用して新しいユーザー (サブスクライバー) またはサービス (有料または無料) の電話番号を取得できない場合や、特定の電話番号(バニティ要求) または特定の市番が必要な場合があります。
 
-その場合は、適切な PDF LOA フォーム (国または地域、電話番号の種類) をダウンロードして、お送りください。 サービス デスクがそこからそれを受け取り、要求の処理を開始します。
+その場合は、正しい PDF LOA フォーム (国または地域、電話番号の種類ごとに) をダウンロードして、返送する必要があります。 サービス デスクがそこからそれを受け取り、要求の処理を開始します。
 
 ### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>既存の電話番号を転送/移植する承認状 (LOA) 
 
-既存の電話番号を別のサービス プロバイダーから Teams に転送/移植する必要がある場合は、承認状 (LOA) をダウンロードして入力し、送信する必要があります。 LOA は、お客様に代わって、別のサービス プロバイダーから既存の番号を要求および転送するアクセス許可を Microsoft に付与Teams。
+既存の電話番号を別のサービス プロバイダーから Teams に転送または移植する必要がある場合は、承認状 (LOA) をダウンロードして入力し、送信する必要があります。 LOA は、お客様に代わって、別のサービス プロバイダーから既存の番号を要求および転送するアクセス許可を Microsoft に付与Teams。
 
 現在、別の運送業者に次の情報がある場合は **、LOA** をお送りください。
 
@@ -109,11 +109,11 @@ ms.locfileid: "59942340"
 - Toll-Free番号を入力します。
 - 999 を超えるユーザー電話番号を転送/ポートする必要がありますが、ローカル番号の移植ウィザードを使用して Microsoft Teams 管理センターにアクセスできない。
 
-入力および署名済 **み** LOA が完了したら [、PSTN](./contact-pstn-service-desk.md) サービス デスクにお問い合わせください。お手伝いします。
+入力済みおよび署名 **済** み LOA が完了したら、お手伝いできるよう [、TNS サービス](./contact-tns-service-desk.md) デスクにお問い合わせください。
 
 ## <a name="still-need-assistance"></a>それでもサポートが必要な場合は、
 
-サポートが必要な場合は [、PSTN サービス デスク にお問い合わせください](./contact-pstn-service-desk.md)。
+サポートが必要な場合は [、TNS Service Desk にお問い合わせください](./contact-tns-service-desk.md)。
 
 ## <a name="additional-resources"></a>その他のリソース
 

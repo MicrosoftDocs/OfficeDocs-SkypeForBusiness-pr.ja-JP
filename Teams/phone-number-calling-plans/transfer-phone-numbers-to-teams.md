@@ -19,18 +19,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 移植ウィザードを使用して、現在のサービス プロバイダーから現在のサービス プロバイダーに電話番号を転送する方法Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3d39c580c2eb17c9555c2cb6ad335a19c48f6677
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b8c2b96da4750ec31616fa577063f58b57a17986
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617213"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733078"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>電話番号を別の電話番号にMicrosoft Teams
 
 Microsoft Teams 管理センターの移植ウィザードを使用して、現在のサービス プロバイダーから現在のサービス プロバイダーに電話番号をTeams。 電話番号を Teams に移行した後、Microsoft がサービス プロバイダーになり、それらの電話番号に対する請求を行います。
 
-開始する前に、「ポート注文とは」 [の情報を確認することをお勧めします。](port-order-overview.md) ダイヤルイン会議ブリッジ、自動応答、その他のサービス番号、無料電話番号、または Teams に転送する必要がある 999 を超えるユーザー (サブスクライバー) 電話番号のサービス番号がある場合は、「組織の電話番号を[](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)管理する」を参照して、正しいフォームをダウンロードして送信してください。
+開始する前に、「ポート注文とは」 [の情報を確認することをお勧めします。](port-order-overview.md) ダイヤルイン会議ブリッジ、自動応答、その他のサービス番号、無料電話番号、または Teams に転送する必要がある 999 を超えるユーザー (サブスクライバー) 電話番号のサービス番号がある場合は、「組織の電話番号[](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)を管理する」を参照して、正しいフォームをダウンロードして送信してください。
 
   > [!NOTE]
   > 米国の営業日にのみ電話番号を転送する場合は、祝日や週末ではなく、移行注文を処理します。
@@ -70,7 +70,7 @@ Microsoft Teams 管理センターの移植ウィザードを使用して、現�
     > [!NOTE]
     > CSV ファイルには、PhoneNumber という名前のヘッダーを含む 1 つの列のみを含む必要があります。 各電話番号は個別の行に入る必要があります。数字のみ、または E.164 形式で指定できます。
 
-6. [注文 **の完了**] ページで、[署名アップロードをクリックして、署名された承認状 (LOA) のスキャンコピーをアップロードします。
+6. [**注文の完了**] ページで、[署名アップロードをクリックして、署名された承認状 (LOA) のスキャンコピーをアップロードします。
 
     LOA をまだダウンロードして署名していない場合は、次の操作を行います。
     
@@ -87,11 +87,11 @@ Microsoft Teams 管理センターの移植ウィザードを使用して、現�
 
 ## <a name="what-happens-next"></a>この後のステップは？
 
-お客様のポート注文を受け取った場合は、要求を確認する電子メールが届きます。 要求は毎日チェックおよび更新され、その進行状況と状態がメールで通知されます。 ポート要求が失った通信事業者によって拒否された場合は、PSTN サービス デスクにお [問い合わせください](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+お客様のポート注文を受け取った場合は、要求を確認する電子メールが届きます。 要求が毎日チェックおよび更新され、その進行状況と状態がメールで通知されます。 ポート要求が失った通信事業者によって拒否された場合は [、TNS Service Desk にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ポート注文の状態を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[>**音声** ポート注文] に移動し、[注文履歴]  >  **をクリックします**。 各ポート注文の状態は、[状態] 列に **一覧表示** されます。 詳細については、「ポート注文の [状態は何ですか?」を参照してください。](port-order-status.md)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

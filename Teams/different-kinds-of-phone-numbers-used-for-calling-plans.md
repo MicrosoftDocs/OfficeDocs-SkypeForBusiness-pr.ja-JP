@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
 description: この記事では、ユーザーが使用するさまざまな電話番号の種類Microsoft Teamsします。
-ms.openlocfilehash: 0aa75c9052e269d6e45054cdf5b6cf73042c55ac
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 69eaa94320a540ca0e7ad560e4ff27a7a4bc44e0
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432649"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733698"
 ---
 # <a name="types-of-phone-numbers"></a>電話番号の種類
 
 Microsoft Teams使用する目的に応じて、さまざまな電話番号の種類が使用されます。 
 
-Teams **は、** 組織内のユーザーに割り当て可能なユーザー番号と、電話会議、自動応答、通話キューなどのサービスに割り当てられるサービス番号を使用します。 サービスの電話番号は、ユーザー番号 *よりも高い同時呼び*  出し容量を持っています。 サービス電話番号は利用できますが、国/地域と番号の種類によって異なります (有料番号でもフリーダイヤル番号でも)。 Microsoft Teams 管理センターに表示されている番号以外の番号の種類が必要な場合は、PSTN サービス デスクに電話番号要求[を送信できます](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+Teams **は、** 組織内のユーザーに割り当て可能なユーザー番号と、電話会議、自動応答、通話キューなどのサービスに割り当てられるサービス番号を使用します。 サービスの電話番号は、ユーザー番号 *よりも高い同時呼び*  出し容量を持っています。 サービス電話番号は利用できますが、国/地域と番号の種類によって異なります (有料番号でもフリーダイヤル番号でも)。 Microsoft Teams 管理センターに表示される番号以外の番号の種類が必要な場合は、TNS サービス デスクに電話番号要求[を送信できます](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
   
 - **ユーザー番号**
     
@@ -53,13 +53,13 @@ Teams **は、** 組織内のユーザーに割り当て可能なユーザー番
         
       - **地理以外の数値** 地理的でない数値は、国/地域内の地理的な地域との関係を持つ国番号です。 たとえば、国/地域内の任意の場所から番号を呼び出す場合、多くの場合、地理的でない数値のコストは同じです。
    
-  - **無料サービス番号** これらのサービス番号は、通常、呼び出し元に有料のコストは発生しません。 Teams、60 を超える国/地域で国の無料電話番号を提供しています。
+  - **無料サービス番号** これらのサービス番号は、通常、呼び出し元に有料のコストは発生しません。 Teams、60 を超える国/地域で国内の無料電話番号を提供しています。
     
     > [!CAUTION]
     > 携帯電話からの通話など、発信元の国/地域や発信元の番号の種類によっては、発信者への有料料金が発生する場合があります。 
   
 > [!NOTE]
-> これより多くの電話番号を取得する必要がある場合は [、PSTN サービス デスクにお問い合わせください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+> これより多くの電話番号を取得する必要がある場合は [、TNS Service Desk にお問い合わせください](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ## <a name="related-topics"></a>関連項目
 

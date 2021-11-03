@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、アルジェリアでMicrosoft 365とOffice 365とSkype for BusinessサービスMicrosoft Teamsを示します。
-ms.openlocfilehash: b1f6a73a2f845cb36bde34755cbb226c6716bd20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: アルジェリアでMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
+ms.openlocfilehash: 2e4fd12107fbca1e0d10c40b282ccb2e425b160d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633391"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732718"
 ---
 # <a name="availability-in-algeria"></a>アルジェリアでの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、アルジェリアでMicrosoft 365とOffice 365とSkype for BusinessサービスMicrosoft Teamsを示します。
+アルジェリアでMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -69,10 +69,10 @@ ms.locfileid: "58633391"
 |**機能**|**詳細**|
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 地理的ではない。 電話番号が特定の都市や地域に関連していません。 <br/> |
-|有料電話番号は使用できますか?  <br/> |地理的ではない ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|有料電話番号は使用できますか?  <br/> |地理的ではない ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」を参照[してください。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -82,7 +82,7 @@ ms.locfileid: "58633391"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

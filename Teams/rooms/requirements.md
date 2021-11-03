@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2634f7f48a1735f8b8421bc43598fc142db1a53b
-ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
+ms.openlocfilehash: e9c379fd289c1fb7512a15b4d8f36f412279b121
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60600261"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733358"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
@@ -38,7 +38,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
 > [!NOTE]
 > Microsoft Teams Rooms では、Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015、または Skype for Business Online にサインインし、これらのサービスでホストされている会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams21Vianet または DoD 環境Microsoft 365またはOffice 365、会議室はサポートされていません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams会議室は、21Vianet Microsoft 365 DoD 環境Office 365、または 21Vianet が運営する環境ではサポートされていません。
 >
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
@@ -70,7 +70,6 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
    |[AsUS PC を使用したクレスロン Flex UC-MX70-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5|8 GB |128 GB |
   |[クレスロン・マーキュリー ミニ UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
   |[Dell OptiPlex 7080 と Logitech TAP](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
-  |Dell OptiPlex 7080 Compute with Poly GC8 Console | Core i5 |8 GB |128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 Audio Ready + Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
   |[Logicool TAP を備えた HP スライス パートナー対応]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
@@ -82,6 +81,8 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
   |Logitech TAP Console with Lenovo Core Compute |Core i5|8 GB|128 GB|
   |[Logitech Tap と Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T と Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
+  |Poly GC10-T と Lenovo Thinksmart Core|Core i5|8 GB|128 GB|
+  |Poly GC10-T と Dell 7080|Core i5|8 GB|128 GB|
   |[Yealink MVC300 と Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 と Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 と Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
@@ -128,7 +129,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
 |[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |0.0.7200.3 |
-|[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7400.03 |
+|[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver VB130 カメラ サウンド バー](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Biamp Devio SCR-20CX Web-Based会議ハブと Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
@@ -139,7 +140,7 @@ Microsoft Teams会議室の規模は、部屋のサイズが異なります。 T
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ カメラ](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |[Jabra Panacast3 Camera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
-|[Jabra Panacast 50 ビデオ バー](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.9.3|
+|[Jabra Panacast 50 ビデオ バー](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|1.13.7| &#x2714; |
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|

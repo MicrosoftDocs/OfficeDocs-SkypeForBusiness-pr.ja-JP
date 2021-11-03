@@ -19,35 +19,35 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、ノルウェーの電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: bc4be770f5fb76295c0930fd255a854e6a1946b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: この表を使用して、ノルウェーの電話番号の取得と管理に関する情報をMicrosoft Teams。
+ms.openlocfilehash: 5daf1b16c1704f487279904056bad3a1a2768c4b
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623259"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732678"
 ---
 # <a name="phone-number-management-for-norway"></a>電話の番号管理
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-この表を使用して、ノルウェーの電話番号の取得と管理に関する情報を確認Microsoft Teams。
+この表を使用して、ノルウェーの電話番号の取得と管理に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。<br/> |ノルウェーでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。<br/><br/><ul><li>[ノルウェーの新しい電話番号要求 (v.1.0) (nb-NO)](https://download.microsoft.com/download/3/9/a/39adb4f0-74b8-424d-8830-2a116b576bee/know-your-customer-for-norway-(v.1.0)-(nb-NO).pdf)</li><li>[ノルウェーの新しい電話番号要求 - ノルウェーブークモール (v.1.0) (nb-no)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)</li></ul> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力し、手順については [PTSN サービス](contact-pstn-service-desk.md)デスクにお問い合わせください。 <br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
-|転送された電話番号を取得します。<br/> | このフォームをダウンロードします。 <br/>[ノルウェーの承認状 (LOA) (すべての数値) (v.1.0) (en-nw)](https://download.microsoft.com/download/b/6/f/b6f9b87b-6cee-42e0-afa0-e08db206995e/letter-of-authorization-(loa)-for-norway-(all-numbers)-(v.1.0)-(en-nw).pdf) <br/> <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、移行に 4 ~ 5 週間かかる場合があります。<br/><br/> 現時点では、これらの番号を会議に使用できません。  |
-|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。 <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。<br/> |ノルウェーでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、TNS サービス デスクに手順 [を問い合わせてもできます](contact-tns-service-desk.md)。<br/><br/><ul><li>[ノルウェーの新しい電話番号要求 (v.1.0) (nb-NO)](https://download.microsoft.com/download/3/9/a/39adb4f0-74b8-424d-8830-2a116b576bee/know-your-customer-for-norway-(v.1.0)-(nb-NO).pdf)</li><li>[ノルウェーの新しい電話番号要求 - ノルウェーブークモール (v.1.0) (nb-no)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)</li></ul> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力し、TNS サービス デスクに問い合わせ、手順を [確認する必要があります](contact-tns-service-desk.md)。 <br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
+|転送された電話番号を取得します。<br/> | このフォームをダウンロードします。 <br/>[ノルウェーの承認状 (LOA) (すべての数値) (v.1.0) (en-nw)](https://download.microsoft.com/download/b/6/f/b6f9b87b-6cee-42e0-afa0-e08db206995e/letter-of-authorization-(loa)-for-norway-(all-numbers)-(v.1.0)-(en-nw).pdf) <br/> <br/>入力して [、TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。 <br/><br/>この市場では、移行に 4 ~ 5 週間かかる場合があります。<br/><br/> 現時点では、これらの番号を会議に使用できません。  |
+|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取](contact-tns-service-desk.md) り消す電話番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-tns-service-desk.md) ユーザー番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
 |管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。<br/> |ノルウェーでは、組織の電話番号を管理センターからMicrosoft Teams取得できます。 フォームをダウンロードして送信することで、新しい電話番号の要求 [を送信できます](mailto:ptneu@microsoft.com)。<br/><br/><ul><li>[ノルウェーの新しい電話番号要求 (v.1.0) (nb-NO)](https://download.microsoft.com/download/3/9/a/39adb4f0-74b8-424d-8830-2a116b576bee/know-your-customer-for-norway-(v.1.0)-(nb-NO).pdf)</li><li>[ノルウェーの新しい電話番号要求 - ノルウェーブークモール (v.1.0) (nb-no)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)</li></ul><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力して、送信する必要があります。 <br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
 |転送された電話番号を取得します。<br/> | このフォームをダウンロードします。 <br/>[ノルウェーの承認状 (LOA) (すべての数値) (v.1.0) (en-nw)](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>記入し、[マイクロソフトに送信します](mailto:ptneu@microsoft.com)。 <br/><br/>この市場では、移行に 4 ~ 5 週間かかる場合があります。<br/><br/> 現時点では、これらの番号を会議に使用できません。  |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |サービス番号に変換するユーザー番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、TNS サービス デスクに手順 [を問い合わせください](contact-tns-service-desk.md)。 |
    
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

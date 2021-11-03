@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 中国で利用Microsoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 52d62a5f4c5835debf5784ed40c646451d831531
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 中国で利用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+ms.openlocfilehash: 2013769f13cd94330ccc64422d5ea874d55155f2
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584781"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733688"
 ---
 # <a name="availability-in-china"></a>中国での利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-中国で利用Microsoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
+中国で利用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -71,7 +71,7 @@ ms.locfileid: "58584781"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |北京  <br/> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|無料電話番号は使用できますか?  <br/> |はい ([要求あり)。](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)中国からサービスを購入した顧客を除く。 無料電話番号は、中国からサービスを購入したお客様は利用できません。 <br/> |
+|無料電話番号は使用できますか?  <br/> |はい ([要求あり)。](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)中国からサービスを購入した顧客を除く。 無料電話番号は、中国からサービスを購入したお客様は利用できません。 <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)」をご覧ください。
   

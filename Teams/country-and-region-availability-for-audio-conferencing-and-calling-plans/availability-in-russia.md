@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ロシアで使用できるMicrosoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: cad4334c71a3b704dacdd68845fb565e4cde84db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ac85b5d1a19716a8f5e8d0b16cd0283b59fa8868
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626339"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733058"
 ---
 # <a name="availability-in-russia"></a>ロシアでの利用可能性
 
@@ -69,7 +69,7 @@ ms.locfileid: "58626339"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>モスクワ <li>セントピーターズバーグ ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>|
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>モスクワ <li>セントピーターズバーグ ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))</ul>|
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |いいえ  <br/> |
    
@@ -83,7 +83,7 @@ ms.locfileid: "58626339"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

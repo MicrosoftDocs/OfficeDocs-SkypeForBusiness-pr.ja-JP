@@ -24,13 +24,13 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Microsoft 365とOffice 365ラトビアでSkype for BusinessおよびMicrosoft Teamsサービスを提供します。
-ms.openlocfilehash: 3004aa00132e60b1136be24426ed3ed80d72c6c6
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: Microsoft 365 Office 365ラトビアでSkype for BusinessおよびMicrosoft Teamsサービスを利用できます。
+ms.openlocfilehash: dac4a1294020414e01c901d2593180d16beacfb3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942402"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733048"
 ---
 # <a name="availability-in-latvia"></a>ラトビアでの利用可能性
 
@@ -68,11 +68,11 @@ ms.locfileid: "59942402"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |Riiga ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |Riiga ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|無料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|無料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
    
-電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得するには、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得するには、「Skype for Business および通話キューのサービス電話番号を取得する」を参照[Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

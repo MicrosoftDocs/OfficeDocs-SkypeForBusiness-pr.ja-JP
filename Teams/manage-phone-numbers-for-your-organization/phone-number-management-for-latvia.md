@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ラトビアの電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: f13ec7b0c65c848d753de5151ed92e74c314ba80
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: e582c3a546ef7bb0ddfe6b9debb193549b8b12ca
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59944540"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733118"
 ---
 # <a name="phone-number-management-for-latvia"></a>電話の番号管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "59944540"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスMicrosoft Teams取得します。 |ラトビアでは、管理者センターで組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。<br/><br/>[ラトビアの新しい電話番号要求 (v.1.0)](<https://download.microsoft.com/download/7/4/7/7477191d-1b6d-4d6b-a97f-c958ae204db5/New phone number request for Latvia (v.1.0) (en-us).pdf>)。 <br/><br/> 電話番号を割り当てる前に、"顧客を知[](<https://download.microsoft.com/download/1/8/d/18d3c082-984f-4271-ba23-80225904c5e2/Latvia - Know Your Customer.pdf>)る" フォームをダウンロードし、完全に入力して、送信する必要があります。<br/><br/>新しい注文は、特定の地域に在庫がある場合に応じて、この市場に 1 ~ 4 週間かかる場合があります。 |
-|転送された電話番号を取得します。 | このフォームをダウンロードします。 <br/><br/>[ラトビアの承認状 (LOA) (すべての数値) (v.1.0)](<https://download.microsoft.com/download/d/d/6/dd67eefd-1886-44fd-a845-127e5cadc1ee/Latvia LOA.pdf>) <br/><br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 また、番号を転送する会社の住所から、公共料金を含める必要があります。<br/><br/>この市場では、移行に最大 3 週間かかる場合があります。 現時点では、これらの番号を会議に使用できません。|
-|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。 <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、PSTN サービス デスクに問い合わせ [、手順を確認してください](contact-pstn-service-desk.md)。 |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 |ラトビアでは、管理者センターで組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、TNS サービス デスクに手順 [を問い合わせてもできます](contact-tns-service-desk.md)。<br/><br/>[ラトビアの新しい電話番号要求 (v.1.0)](<https://download.microsoft.com/download/7/4/7/7477191d-1b6d-4d6b-a97f-c958ae204db5/New phone number request for Latvia (v.1.0) (en-us).pdf>)。 <br/><br/> 電話番号を割り当てる前に、"顧客を知[](<https://download.microsoft.com/download/1/8/d/18d3c082-984f-4271-ba23-80225904c5e2/Latvia - Know Your Customer.pdf>)る" フォームをダウンロードし、完全に入力して、送信する必要があります。<br/><br/>新しい注文は、特定の地域に在庫がある場合に応じて、この市場に 1 ~ 4 週間かかる場合があります。 |
+|転送された電話番号を取得します。 | このフォームをダウンロードします。 <br/><br/>[ラトビアの承認状 (LOA) (すべての数値) (v.1.0)](<https://download.microsoft.com/download/d/d/6/dd67eefd-1886-44fd-a845-127e5cadc1ee/Latvia LOA.pdf>) <br/><br/>入力して [、TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。 また、番号を転送する会社の住所から、公共料金を含める必要があります。<br/><br/>この市場では、移行に最大 3 週間かかる場合があります。 現時点では、これらの番号を会議に使用できません。|
+|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取](contact-tns-service-desk.md) り消す電話番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-tns-service-desk.md) ユーザー番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、TNS サービス デスクに手順 [を問い合わせください](contact-tns-service-desk.md)。 |
    
 ## <a name="related-topics"></a>関連項目
 

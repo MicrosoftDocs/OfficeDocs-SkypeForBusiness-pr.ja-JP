@@ -19,20 +19,20 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 電話番号を電話番号に移植するために必要なガイダンスをMicrosoft Teams。
-ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdfe677a4a76128343382373d027abd5061bd8fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598391"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733318"
 ---
 # <a name="more-information-about-porting"></a>移植の詳細
 
 電話番号を電話番号に移植する方法の詳細については、こちらをMicrosoft Teams。
 
-詳細な手順については、「電話番号を別の電話番号に転送する」を[Teams。](transfer-phone-numbers-to-teams.md)
+詳しい手順については、「電話番号を電話番号に転送する」を[参照Teams。](transfer-phone-numbers-to-teams.md)
 
-サポートが必要な場合、または電話番号を追加する必要がある場合は、PSTN サービス デスクの [ヘルプ にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+サポートが必要な場合、またはさらに電話番号を取得する必要がある場合は [、TNS Service Desk のヘルプ にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ## <a name="port-order-account-information"></a>ポート注文アカウント情報
 
@@ -52,7 +52,7 @@ ms.locfileid: "58598391"
 - アカウントを変更する権限を持つユーザーの名前
     
     > [!NOTE]
-    > これは、スペースを含む 15 文字のみを使用できます。 認証する人物の名前が 15 文字より長い場合は、名前の最初の 15 文字が発行され、番号移行注文が処理されます。 
+    > スペースを含む 15 文字のみを使用できます。 認証する人物の名前が 15 文字より長い場合は、名前の最初の 15 文字が発行され、番号移行注文が処理されます。 
   
 - サービス アドレス
   
@@ -102,7 +102,7 @@ ms.locfileid: "58598391"
 
  - ファイルには任意の名前を付けできます。
  - このファイルには、PhoneNumber という名前のヘッダーを含む 1 つの列のみを含む必要があります。
- - 各電話番号は、個別の行に含む必要があります。
+ - 各電話番号は個別の行に入る必要があります。
  - 電話は、数字のみ、または E.164 形式で指定できます。
  - 電話番号の形式は、選択した国または地域と一致している必要があります。 たとえば、移植ウィザードで英国を選択した場合は、国コードである 44 を使用し、その後に正しい桁数の電話番号を使用します。 たとえば、次4420812341234。
 
@@ -110,7 +110,7 @@ ms.locfileid: "58598391"
 
 「 [ポート注文の状態は何ですか?」を参照してください。](port-order-status.md)
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

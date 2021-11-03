@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 新しい電話番号を取得し、電話会議、自動応答、通話キュー (サービス番号) の既存の番号をTeams。
-ms.openlocfilehash: abb313a169c3f9b3626e219f64810e6333e6147b
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: 34ff296ce94afa4888e8fd4b0ad23c00d0402468
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491727"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733308"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>通話プランのサービス電話番号
 
@@ -45,13 +45,13 @@ ms.locfileid: "59491727"
 - **新しい番号には申請書を使用します。** (お客様の国または地域によっては) Microsoft Teams 管理センターを使用して新しい電話番号を取得できない場合や、特定の電話番号または市番が必要な場合があります。 その場合は、フォームをダウンロードして返送する必要があります。 詳細については「[組織の電話番号を管理](/microsoftteams/manage-phone-numbers-for-your-organization) 」を参照してください。
   
 > [!NOTE]
-> サービス番号は、特定の数に対してより高い同時呼び出し容量を取得するために必要です。 番号を譲渡する場合は [、PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) サービス デスクに問い合わせ、転送するサービス番号の同時通話容量が高い必要があります。
+> サービス番号は、特定の数に対してより高い同時呼び出し容量を取得するために必要です。 番号を譲渡する場合は [、TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) サービス デスクに問い合わせ、転送するサービス番号の同時呼び出し容量が高い必要があります。
   
 ## <a name="get-new-service-numbers"></a>新しいサービス番号を取得する
 
 新しいサービス番号を取得するには、管理センター Teamsします。
 
-1. 左側のナビゲーションで、[Voice電話  >  **番号] に移動し、[** 追加] を **クリックします**。
+1. 左側のナビゲーションで、[Voice電話  >  **番号] に移動** し、[追加] を **クリックします**。
 
 2. 注文の名前を入力し、説明を追加します。
 
@@ -68,12 +68,12 @@ ms.locfileid: "59491727"
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>既存のサービス番号を移行または転送する
 
-現在のサービス プロバイダーまたは通信事業者から Teams に電話番号を転送するには、管理センターのMicrosoft Teams使用できます。 「電話番号をに転送[する」の手順にTeams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+電話番号を現在のサービス プロバイダーまたは通信事業者から Teams に転送するには、管理センターのMicrosoft Teams使用できます。 「電話番号を電話番号に[転送する」の手順にTeams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
 お客様の国または地域が移植ウィザードに表示されていない場合は、手動でポート[](phone-number-calling-plans/manually-submit-port-order.md)注文を送信するか、[組織の電話番号[](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)の管理] に移動して、お客様の国または地域を選択し、承認状 (LOA) をダウンロードできます。 LOA を使用して転送するサービス番号の種類 (有料と無料通話など) ごとに個別のポート注文を送信する必要があります。 LOA で、適切な種類のサービス番号を選択する必要があります。 サービス番号 (ユーザー番号またはサブスクライバー番号ではなく) を転送する場合、または同時呼び出し容量が呼び出しボリュームを処理するのに十分ではない可能性があります。  
 
 > [!NOTE]
-> これより多くの電話番号を取得する必要がある場合は [、PSTN サービス デスクにお問い合わせください](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+> これより多くの電話番号を取得する必要がある場合は [、TNS サービス デスクにお問い合わせください](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>組織の電話番号を表示する
 

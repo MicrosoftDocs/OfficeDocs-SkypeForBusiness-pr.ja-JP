@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 次の表を使用して、ハンガリーの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: ce6f5bee548ba1169d424304027e2fcef7b6a270
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 33b7bbc485413e86c73016f80a0674d69a119340
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617293"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733338"
 ---
 # <a name="phone-number-management-for-hungary"></a>電話の番号管理
 
@@ -37,12 +37,12 @@ ms.locfileid: "58617293"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスMicrosoft Teams取得します。<br/> |ハンガリーでは、管理センターで組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、手順については [PTSN にお問い合わせください](contact-pstn-service-desk.md)。<br/><br/>[ハンガリー (v.1.0) (hu-hu)](https://download.microsoft.com/download/4/d/3/4d3a57e0-c092-492c-a9dc-7a5376e30414/New%20phone%20number%20request%20for%20Hungary.pdf)の新しい電話番号要求。<br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力して、送信する必要があります。<br/><br>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
-|転送された電話番号を取得します。<br/> | このフォームをダウンロードします。 <br/>[ハンガリーの承認状 (LOA) (すべての番号) (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 <br/><br/>この市場では、移行に 2 ~ 3 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。   |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。<br/> |ハンガリーでは、管理センターから組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、手順については [TNS Service Desk にお問い合わせください](contact-tns-service-desk.md)。<br/><br/>[ハンガリー (v.1.0) (hu-hu)](https://download.microsoft.com/download/4/d/3/4d3a57e0-c092-492c-a9dc-7a5376e30414/New%20phone%20number%20request%20for%20Hungary.pdf)の新しい電話番号要求。<br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力して、送信する必要があります。<br/><br>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。  |
+|転送された電話番号を取得します。<br/> | このフォームをダウンロードします。 <br/>[ハンガリーの承認状 (LOA) (すべての番号) (v.1.0) (hu-hu)](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>入力して [、TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。 <br/><br/>この市場では、移行に 2 ~ 3 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。   |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |公開/非公開にする電話番号のリストを[マイクロソフトに送信](mailto:ptneu@microsoft.com)します。 <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PTSN サービス デスクに手順を問い合わせください](contact-pstn-service-desk.md)。 |
-## <a name="related-topics"></a>関連トピック
+|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-tns-service-desk.md) ユーザー番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには、TNS サービス デスクに手順 [を問い合わせください](contact-tns-service-desk.md)。 |
+## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

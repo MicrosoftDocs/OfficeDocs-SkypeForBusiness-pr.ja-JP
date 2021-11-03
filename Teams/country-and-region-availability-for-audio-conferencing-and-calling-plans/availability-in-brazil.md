@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ブラジルで使用できるMicrosoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 68379b9c48ed70f590eb3d57a171a6af9f4042be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: ブラジルで使用Microsoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: 059876da21906264bc1961785b7cddcdc49dd132
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609044"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732738"
 ---
 # <a name="availability-in-brazil"></a>ブラジルでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ブラジルで使用できるMicrosoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+ブラジルで使用Microsoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -69,7 +69,7 @@ ms.locfileid: "58609044"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | <ul><li>リオデジャネイロ <li>  サンパウロ <li>要求に応 [じて他の都市](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> | <ul><li>リオデジャネイロ <li>  サンパウロ <li>要求に応 [じて他の都市](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
@@ -87,7 +87,7 @@ ms.locfileid: "58609044"
 
 #### <a name="other-resources"></a>その他のリソース
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

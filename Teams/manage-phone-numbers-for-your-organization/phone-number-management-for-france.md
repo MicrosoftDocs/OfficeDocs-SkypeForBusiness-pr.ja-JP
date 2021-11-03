@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、フランスの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 702feb6c3a6967b033ea111f8d0d28a7627dd0cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 26c7fd8d7cd754d52184255961e5a44aae4afa02
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617353"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732888"
 ---
 # <a name="phone-number-management-for-france"></a>フランスでの電話番号の管理
 
@@ -35,13 +35,13 @@ ms.locfileid: "58617353"
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> | これらのフォームのいずれかをダウンロードします。 <br/> [フランスの新しい電話番号要求 (v.6.0) (fr-fr)](https://download.microsoft.com/download/0/b/0/0b033801-8340-4d68-bf27-7a242df27516/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [フランスの新しい電話番号要求 (v.5.0) (en-us)](https://download.microsoft.com/download/b/c/9/bc9f48ba-09d5-4345-a6a7-9cd460b481c1/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf)<br/> <br/>   入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。  <br/>
-|転送された電話番号を取得します。  <br/> |これらのフォームのいずれかをダウンロードします。 <br/><br/> ユーザーの電話番号の場合:<br/>[フランスの承認状 (LOA) (地理番号) (v.5.0) (fr-fr)](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>無料電話番号の場合: <br/>[フランスの承認状 (LOA) (フリーフォン番号) (v.6.0) (fr-fr)](https://download.microsoft.com/download/b/5/0/b502c0e2-80d1-4d5c-8914-12617a173933/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.6.0)-(fr-fr).pdf) <br/> <br/> 入力し、手順については [PTSN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。  <br/> |
-|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取り](contact-pstn-service-desk.md) 消す電話番号の一覧に関する手順については、PTSN サービス デスクにお問い合わせください。 <br/> |
-|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換するユーザー](contact-pstn-service-desk.md) 番号の一覧については、PTSN サービス デスクにお問い合わせください。 <br/> |
-|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、PSTN サービス デスクにお問い合わせください](contact-pstn-service-desk.md)。 |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> | これらのフォームのいずれかをダウンロードします。 <br/> [フランスの新しい電話番号要求 (v.6.0) (fr-fr)](https://download.microsoft.com/download/0/b/0/0b033801-8340-4d68-bf27-7a242df27516/new-phone-number-request-for-france-(v.6.0)-(fr-fr).pdf) <br/>  [フランスの新しい電話番号要求 (v.5.0) (en-us)](https://download.microsoft.com/download/b/c/9/bc9f48ba-09d5-4345-a6a7-9cd460b481c1/new-phone-number-request-for-france-(v.5.0)-(en-us).pdf)<br/> <br/>   入力して [、TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。  <br/>
+|転送された電話番号を取得します。  <br/> |これらのフォームのいずれかをダウンロードします。 <br/><br/> ユーザーの電話番号の場合:<br/>[フランスの承認状 (LOA) (地理番号) (v.5.0) (fr-fr)](https://download.microsoft.com/download/1/2/f/12f54bab-b024-42aa-864a-7a9873509ffc/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.6.0)-(fr-fr).pdf) <br/><br/>無料電話番号の場合: <br/>[フランスの承認状 (LOA) (フリーフォン番号) (v.6.0) (fr-fr)](https://download.microsoft.com/download/b/5/0/b502c0e2-80d1-4d5c-8914-12617a173933/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.6.0)-(fr-fr).pdf) <br/> <br/> 入力して [、TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。  <br/> |
+|国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取](contact-tns-service-desk.md) り消す電話番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
+|ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-tns-service-desk.md) ユーザー番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
+|通話キューまたは自動応答番号にディレクトリ サービスを更新する|通話キューまたは自動応答番号を追加または変更するには [、TNS Service Desk にお問い合わせください](contact-tns-service-desk.md)。 |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

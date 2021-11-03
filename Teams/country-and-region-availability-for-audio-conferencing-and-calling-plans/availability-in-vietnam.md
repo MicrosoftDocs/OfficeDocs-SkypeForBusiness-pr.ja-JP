@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ベトナムで利用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
-ms.openlocfilehash: 029fa5629bd4d81b94b9aac29868222eef51dc1a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: ベトナムで利用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
+ms.openlocfilehash: 8992019aa20a6c72dd16dd1b5d0588202e40ab1f
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620673"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733718"
 ---
 # <a name="availability-in-vietnam"></a>ベトナムでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ベトナムで利用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
+ベトナムで利用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -69,8 +69,8 @@ ms.locfileid: "58620673"
 
 |**機能**|**詳細**|
 |:-----|:-----|
-|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>ラト ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))<li>Ho Chi、 ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>  <br/> |
-|有料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|有料電話番号を取得できる首都または主要都市はどこですか?  <br/> |<ul><li>ラト ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))<li>Ho Chi、 ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md))</ul>  <br/> |
+|有料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |無料電話番号は使用できますか?  <br/> |はい  <br/> |
    
  電話会議、自動応答、通話キューのための有料電話番号または無料電話番号を取得する場合は、「[Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)」をご覧ください。
@@ -83,7 +83,7 @@ ms.locfileid: "58620673"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
