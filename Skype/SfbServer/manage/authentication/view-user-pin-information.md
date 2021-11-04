@@ -1,7 +1,7 @@
 ---
 title: '[ユーザーの PIN 情報を表示する] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: '概要: ユーザーの PIN 情報をユーザーに表示Skype for Business Server。'
-ms.openlocfilehash: a77dbc71a186ff20b0136b3391f5ce33dcda1134
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 9135a502879f3d6d28c2aab9fbdbf81e9d399e29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014191"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765505"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>[ユーザーの PIN 情報を表示する] Skype for Business Server
  
@@ -51,12 +51,12 @@ ms.locfileid: "60014191"
     
    c. [**次の値に等しい**] ドロップダウン リストで、演算子 (例: [**次の値に等しい**]、[**次の値に等しくない**]) をクリックします。
     
-   d.  選択したユーザー プロパティに応じて、検索結果のフィルターに使用する条件を入力するか、ドロップダウン リストの矢印をクリックして指定します。
+   d. 選択したユーザー プロパティに応じて、検索結果のフィルターに使用する条件を入力するか、ドロップダウン リストの矢印をクリックして指定します。
     
     > [!TIP]
     > クエリにその他の検索句を追加するには、[**フィルターの追加**] をクリックします。 
   
-   e.  [**検索**] をクリックします。
+   e. [**検索**] をクリックします。
     
     > [!NOTE]
     > PIN がロックされている場合は、ロックを解除しないと PIN を設定できません。PIN のロックを解除するには、ユーザーをクリックし、[**アクション**] をクリックして、[**PIN のロック解除**] をクリックします。 

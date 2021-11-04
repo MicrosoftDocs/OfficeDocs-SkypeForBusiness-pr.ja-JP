@@ -1,7 +1,7 @@
 ---
 title: エンタープライズ VoIP計画ツール
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: 2015 エンタープライズ VoIP 2015 Skype for Business Serverは、従来の PBX システムを強化または置き換えるスタンドアロンの Voice over Internet Protocol (VoIP) サービスを提供します。 ユーザーは、組織の VoIP ネットワークまたは PBX で同僚を呼び出し、組織外の電話番号を呼び出します。 エンタープライズ VoIP ソリューションには、応答、転送、転送、保留、転用、解除、パーク、拡張 9-1-1 (E9-1-1) 通話 (E9-1-1) 通話などの一般的な通話機能が含まれています (E9-1-1 は米国でのみ使用できます)。エンタープライズ VoIP、現在および古い IP および USB デバイスの幅広い範囲もサポートしています。
-ms.openlocfilehash: d74544660802505c4d8ddde35cc578fccfe36040
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 013d79a6588df6c7c55961ea78a7ba8fa86aa00a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626589"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741993"
 ---
 # <a name="enterprise-voice-planning-tool"></a>エンタープライズ VoIP計画ツール
  

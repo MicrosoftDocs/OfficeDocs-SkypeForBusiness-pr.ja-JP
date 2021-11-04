@@ -1,7 +1,7 @@
 ---
 title: 常設チャット データベース スキーマ
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: このドキュメントでは、常設チャット データベースのスキーマをドキュメント化Skype for Business Server。
-ms.openlocfilehash: 673cca8acf2ecad76c578ba05d8d22a20a253a9c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f35e947f1cc0c36d6be743d57934453053f4e5c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610584"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759349"
 ---
 # <a name="persistent-chat-database-schema"></a>常設チャット データベース スキーマ
  

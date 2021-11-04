@@ -1,7 +1,7 @@
 ---
 title: '[最新の認証を計画する] Skype for Business'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: 他の製品との統合を含む、Skype for Business Server認証と承認のトピックを計画する
-ms.openlocfilehash: a0d9e8dff4a08c670ce2af0b6eb9399146cef006
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0cdfd5ead32ce69e918a9353fbaa35c1904de791
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632681"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741933"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>認証と認証について説明する (Skype for Business
 
@@ -25,7 +25,7 @@ ms.locfileid: "58632681"
 
 承認 (AuthZ) は、自分が誰かを証明した後にアクセスできる情報に関係します。 表示、編集、その他のアクセスが許可されている内容が決定されます。 たとえば、SharePoint Online に強力なサイト コレクション管理者アクセス権を持つ場合がありますが、Skype for Business Online など、別のオンライン ワークロードに切り替える場合は、サーバーやサーバーの構成を変更するのではなく、ユーザーの問題をトラブルシューティングする権限を持っている可能性があります。 3 番目のワークロード (Exchange Onlineなど) では、平均ユーザーのアクセス権しか持てない場合があります。 AuthZ は、サービス/worloads、アプリケーション、ファイル、その他のデータに対するアクセス権とアクセス量をチェックします。
 
-この例では、SharePoint や Exchange online などのオンライン プロパティが含まれますが、AuthN と AuthZ のプロセスはオンプレミスとハイブリッド施設で同じように動作します。 最終的には、AAD Connect や ADFS などのツールは、オンプレミスのアカウントとパスワードをクラウドの AD (Azure AD) に同期するか、または AuthZ のフローに侵入して、ユーザーが資格情報を頻繁に要求しないので、AuthN および AuthZ ストーリーに関与し、単一の Sign-On シナリオを作成します。 しかし、それ自体では、責任ある AuthN や AuthZ ではなく、メカニズムの一部にすら含まれています。
+この例では、SharePoint や Exchange online などのオンライン プロパティが含まれますが、AuthN と AuthZ のプロセスはオンプレミスとハイブリッド施設で同じように動作します。 最終的には、AAD Connect や ADFS などのツールは、オンプレミスのアカウントとパスワードをクラウドの AD (Azure AD) に同期するか、AuthZ のフローに侵入して、ユーザーが資格情報を頻繁に要求されなかった場合など、クラウド内のワークロードを切り替えてシングル Sign-On シナリオを作成することで、AuthN および AuthZ ストーリーに関与します。 しかし、それ自体では、責任ある AuthN や AuthZ ではなく、メカニズムの一部にすら含まれています。
 
 今日、多くのテクノロジでは、これらのプロセス (AuthN と AuthZ) を 1 つのメカニズムと見なしています。また、認証プロセスへの参照も多数聞こえます。 ユーザー アクセスの最初の手順は AuthN であり、自分が誰だと言うのか、AuthZ はユーザーがアクセスできるユーザーの知識を使用して (Open Authorization または OAuth を参照してください) ことを覚えておく必要があります。
 

@@ -1,7 +1,7 @@
 ---
 title: サーバーを追加する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: サーバーの既存のプール (プールは以下のいずれか) に新しいサーバーを追加するには、以下の操作を行います。
-ms.openlocfilehash: 6bd3e18654bf5a9dd0fdb9d0ad4d63ddbc30d4be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04a6412419ba9828dbb4dea70fcd4b30604c2213
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634441"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772283"
 ---
 # <a name="add-server"></a>サーバーの追加
  

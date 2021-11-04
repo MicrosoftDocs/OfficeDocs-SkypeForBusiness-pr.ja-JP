@@ -5,7 +5,7 @@ ms:assetid: 8f556849-692b-44a0-9514-4468fc9a39d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398725(v=OCS.15)
 ms:contentKeyID: 48184825
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: リモート ユーザーが内部ユーザーと共同作業できるかどうかを制御するために、1 つ以上の外部ユーザー アクセス ポリシー Skype for Business Serverします。 リモート ユーザー アクセスを管理するため、グローバル、サイト、およびユーザー レベルでポリシーを構成できます。
-ms.openlocfilehash: 3400544e39941aca408ca99f4c323f97e8c2cd0b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4029a2fe21c4d7a013808cd77b28d670d1bf994f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625189"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772043"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>ユーザーのリモート ユーザー アクセスを制御するポリシーを構成Skype for Business Server
 

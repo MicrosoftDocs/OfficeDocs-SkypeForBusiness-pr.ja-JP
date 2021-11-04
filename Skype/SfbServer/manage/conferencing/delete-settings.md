@@ -1,7 +1,7 @@
 ---
 title: '[会議の構成設定を削除する] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: '概要: 会議の構成設定を削除する方法については、Skype for Business Server。'
-ms.openlocfilehash: 8aa83668be612e2c35d2f0c541c0494ca5cbd24b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44b1808c5e5d27bb7dd8aef7ebcef9e26923bb6c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595549"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737833"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>[会議の構成設定を削除する] Skype for Business Server
  

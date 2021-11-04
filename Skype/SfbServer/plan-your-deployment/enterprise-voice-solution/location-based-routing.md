@@ -1,7 +1,7 @@
 ---
 title: 場所ベースのルーティングを計画Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 同時呼び出しと委任Skype for Business Server エンタープライズ VoIP場所ベースのルーティングでサポートされるシナリオを含む、場所ベースのルーティングを計画します。
-ms.openlocfilehash: 64757f389278dbb5899146ea4fd0f4e201311127
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 928a44ed9484f1766013404d23b61a2cc56841d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013751"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741974"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>場所ベースのルーティングを計画Skype for Business
 
@@ -213,12 +213,12 @@ Location-Basedルーティングでは、Skype for Business Serverまたは Lync
 |プールのバージョン|仲介サーバーのバージョン|サポート|
 |:-----|:-----|:-----|
 |Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |はい   |
-|Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |Lync Server 2013   |no   |
-|Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |Lync Server 2010   |no   |
-|Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |Office Communications Server 2007 R2   |no   |
-|Lync Server 2013   |any   |no   |
-|Lync Server 2010   |any   |no   |
-|Office Communications Server 2007 R2   |any   |no   |
+|Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |Lync Server 2013   |いいえ   |
+|Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |Lync Server 2010   |いいえ   |
+|Skype for Business Server Lync Server 2013 2013 年 2 月累積的な更新プログラム   |Office Communications Server 2007 R2   |いいえ   |
+|Lync Server 2013   |any   |いいえ   |
+|Lync Server 2010   |any   |いいえ   |
+|Office Communications Server 2007 R2   |any   |いいえ   |
 
 ### <a name="client-support"></a>クライアント サポート
 
@@ -231,11 +231,11 @@ Location-Basedルーティングでは、Skype for Business Serverまたは Lync
 |Skype for Business   |はい   ||
 |Lync 2013   |はい   ||
 |Lync 2010   |はい   ||
-|Office Communicator 2007 R2   |no   ||
+|Office Communicator 2007 R2   |いいえ   ||
 |Lync Phone Edition   |はい   ||
 |Lync Attendant   |はい   ||
-|Lync for Windows 8   |no   ||
-|Lync Mobile 2013   |no   |ルーティングが有効になっているユーザーが Lync Mobile 2013 クライアントで使用する場合は、VoIP をLocation-Based必要があります。   |
+|Lync for Windows 8   |いいえ   ||
+|Lync Mobile 2013   |いいえ   |ルーティングが有効になっているユーザーが Lync Mobile 2013 クライアントで使用する場合は、VoIP をLocation-Based必要があります。   |
 |Lync Mobile 2010   |はい   ||
 
 > [!NOTE]

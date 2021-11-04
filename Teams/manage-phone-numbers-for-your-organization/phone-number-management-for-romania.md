@@ -1,7 +1,7 @@
 ---
 title: 電話の番号管理
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ルーマニアの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: bdd5669e5edb02913cd98a54f8320ed065bd9b0d
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 176ece5e20ae3e83bcb03b24858d3e9f7b1244ff
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733328"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759299"
 ---
 # <a name="phone-number-management-for-romania"></a>電話の番号管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "60733328"
   
 |**実行する操作**|**正しいフォームをダウンロードする**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 <br/> |ルーマニアでは、管理センターで組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、TNS サービス デスクに手順 [を問い合わせてもできます](contact-tns-service-desk.md)。<br/><br/>[ルーマニア (v.1.0) (rm-rm)](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf)の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力して、TNS サービス デスクに問い合わせ、手順を [確認する必要があります](contact-tns-service-desk.md)。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。 |
+|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。 <br/> |ルーマニアでは、管理センターで組織の電話番号Microsoft Teams取得できます。 フォームをダウンロードして新しい電話番号の要求を送信し、TNS サービス デスクに手順 [を問い合わせてもできます](contact-tns-service-desk.md)。<br/><br/>[ルーマニア (v.1.0) (rm-rm)](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf)の新しい電話番号要求。 <br/><br/> 電話番号を割り当てる前に、"顧客を知る" フォームをダウンロードし、完全に入力し、TNS サービス デスクに問い合わせ、手順を [確認する必要があります](contact-tns-service-desk.md)。<br/><br/>この市場を埋めるには、新しい注文に 2 ~ 3 週間かかる場合があります。 |
 |転送された電話番号を取得します。<br/> | このフォームをダウンロードします。 <br/>[ルーマニアの承認状 (LOA) (すべての番号) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>入力して [、TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。<br/><br/>この市場では、移行に 4 ~ 5 週間かかる場合があります。 <br/><br/>現時点では、これらの番号を会議に使用できません。  <br/> |
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取](contact-tns-service-desk.md) り消す電話番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-tns-service-desk.md) ユーザー番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |

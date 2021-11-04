@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams へのユーザー アクセスを管理する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: ritikag
 search.appverid: MET150
-description: 組織内のユーザーに対してユーザー ライセンスを割りTeamsまたは削除することで、ユーザーアクセスを管理する方法についてTeamsを確認します。
+description: 組織内のユーザーに対する Teams ライセンスの割り当てまたは削除をTeamsアクセスを管理する方法について学習します。
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.signin.domainerror.nolicensedusers
@@ -19,24 +19,24 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4a83d0da32c11406f76b9bc355ceb666d4ea308
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 433996fe1a883bff1c019000acf912606b3ecb91
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728066"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741523"
 ---
 # <a name="manage-user-access-to-teams"></a>Teams へのユーザー アクセスを管理する
 
-製品ライセンスを割りTeamsまたは削除することで、ユーザー レベルでMicrosoft Teamsアクセスを管理します。 会議に匿名でTeams参加する場合を除き、組織内の各ユーザーは、Teams ライセンスを持っている必要Teams。 新しいユーザー アカウントをTeamsユーザーまたは既存のアカウントを持つユーザーに新しいユーザーのライセンスを割り当てできます。
+製品ライセンスを割りTeamsまたは削除することで、ユーザー レベルでMicrosoft Teamsアクセスを管理します。 会議に匿名でTeams参加する場合を除き、組織内の各ユーザーは、Teams を使用する前に、Teams ライセンスを持っている必要Teams。 新しいユーザー アカウントがTeamsユーザーに、または既存のアカウントを持つユーザーに新しいユーザーのライセンスを割り当てできます。
 
 既定では、ライセンス プラン (Microsoft 365 Enterprise E3 や Microsoft 365 Business Premium など) がユーザーに割り当てられると、Teams ライセンスが自動的に割り当てられるので、ユーザーは Teams に対して有効になります。 いつでもライセンスを削除Teams割り当てると、ユーザーのライセンス認証を無効または有効にできます。
 
 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Teams</a>管理センター から管理されるメッセージング ポリシーを使用して、Teams でユーザーが使用できるチャットおよびチャネル メッセージング機能を制御します。 既定のポリシーを使用するか、組織内のユーザーに対して 1 つ以上のカスタム メッセージング ポリシーを作成できます。 詳細については、「Manage [messaging policies in Teams 」を参照してください](messaging-policies-in-teams.md)。
-ライセンスのTeams管理するには、Microsoft 365 管理センター PowerShell を使用します。 ライセンスを管理するには、グローバル管理者またはユーザー管理管理者である必要があります。
+ユーザーは、Teamsまたは PowerShell を使用してMicrosoft 365 管理センターライセンスを管理します。 ライセンスを管理するには、グローバル管理者またはユーザー管理管理者である必要があります。
 
 > [!NOTE]
-> プロジェクトや他の動的なイニシアティブTeamsチームを有機的に形成できるよう、すべてのユーザーに対してチームの管理を有効にすることをお勧めします。 パイロットを実行している場合でも、すべてのユーザーに対して Teams を有効にし続け、パイロット グループのユーザーへの通信のみを対象とすると役に立つ場合があります。
+> チームをプロジェクトや他の動的なイニシアティブに対して有機的に形成できるよう、すべてのユーザーに対してTeamsを有効にすることをお勧めします。 パイロットを実行している場合でも、すべてのユーザーに対して Teams を有効にし続け、パイロット グループのユーザーへの通信のみを対象とすると役に立つ場合があります。
 
 ## <a name="using-the-microsoft-365-admin-center"></a>アプリケーションのMicrosoft 365 管理センター
 
@@ -44,9 +44,9 @@ Teamsレベルのライセンスは、ユーザー管理インターフェイス
 
 > [!IMPORTANT]
 > 管理者は、すべてのライセンスを管理するには、グローバル管理者またはユーザー管理管理者Microsoft Teams必要があります。
-一度Microsoft 365 管理センターユーザーまたはTeamsグループのライセンスを管理するには、次のコマンドを使用します。 [ライセンス] Teams (現時点では最大20 人のユーザー) または [アクティブなユーザー]**ページで** 管理できます。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
+このツールをMicrosoft 365 管理センター、個々のTeamsまたは小規模なユーザーのライセンスを一度に管理します。 [ライセンス] Teams (現時点では最大20 人のユーザー) または [アクティブなユーザー]**ページでライセンスを管理** できます。 選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
 
-数百または数千人のユーザーなど、多数のユーザーの Teams ライセンスを管理する必要がある場合は[、Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign)で[PowerShell](#using-powershell)またはグループベースのライセンスを使用します。 
+数百または数千人のユーザーなど、多数のユーザーの Teams ライセンスを管理する必要がある場合は[、powerShell](#using-powershell)またはグループベースのライセンスを[Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/licensing-groups-assign)で使用します。 
 
 ### <a name="assign-a-teams-license"></a>ライセンスを割りTeamsする
 
@@ -56,7 +56,7 @@ Teamsレベルのライセンスは、ユーザー管理インターフェイス
 |---------|---------|
 |![ユーザーに対して有効Teamsライセンスのスクリーンショット 1。](media/assign-teams-licenses-1.png)    | ![ユーザーに対して有効Teamsライセンスのスクリーンショット 2](media/assign-teams-licenses-2.png)        |
 
-### <a name="remove-a-teams-license"></a>ライセンスをTeamsする
+### <a name="remove-a-teams-license"></a>ライセンスを削除Teamsする
 
 > [!IMPORTANT]
 > SKU を有効にするのに、Teams約 24 時間かかります。
@@ -65,7 +65,7 @@ Teamsレベルのライセンスは、ユーザー管理インターフェイス
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![ユーザーのライセンスがTeamsのスクリーンショット 1。](media/remove-teams-licenses-1.png)    | ![ユーザーに対して無効Teamsライセンスのスクリーンショット 2](media/remove-teams-licenses-2.png)        |
+|![ユーザーのライセンスがTeamsのスクリーンショット 1。](media/remove-teams-licenses-1.png)    | ![ユーザーのライセンスがTeamsのスクリーンショット 2](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
@@ -75,7 +75,7 @@ PowerShell を使用して、ユーザー Teamsライセンスを一括管理し
 - Microsoft Teams: GCC: TEAMS_GOV
 - Microsoft Teams DoD: TEAMS_DOD
 
-### <a name="assign-teams-licenses-in-bulk"></a>ライセンスをTeams一括で割り当てる
+### <a name="assign-teams-licenses-in-bulk"></a>一括Teamsライセンスを割り当てる
 
 詳細な手順については、「PowerShell を使用して [ユーザー アカウントにライセンスを割り当てる」を参照してください](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)。
 
@@ -85,10 +85,10 @@ PowerShell を使用して、ユーザー Teamsライセンスを一括管理し
 
 #### <a name="example"></a>例 
 
-次に示すのは[、New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions)コマンドレットと[Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)コマンドレットを使用して、特定のライセンス プランを持つユーザーの Teams を無効にする方法の例です。 たとえば、次の手順に従って、最初Teamsライセンス プランを持つすべてのユーザーのライセンス認証を無効にします。 次にTeamsアクセス権を持つ必要がある個々のユーザーに対して、Teams。
+次に示すのは[、New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions)コマンドレットと[Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)コマンドレットを使用して、特定のライセンス プランを持つユーザーの Teams を無効にする方法の例です。 たとえば、次の手順に従って、最初Teamsライセンス プランを持つすべてのユーザーのライセンス認証を無効にします。 次に、Teamsアクセス権を持つ必要がある個々のユーザーに対して、Teams。
 
 > [!IMPORTANT]
-> [New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions)コマンドレットを使用すると、カスタム スクリプトで明示的に識別されない限り、以前に無効にしていたすべてのサービスが有効になります。 たとえば、Exchange と Sway の両方を無効にして Teams を無効にする場合は、スクリプトにこれを含める必要があります。または、特定したユーザーに対して Exchange と Sway の両方が有効になります。
+> [New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions)コマンドレットを使用すると、カスタム スクリプトで明示的に識別されない限り、以前に無効にしていたすべてのサービスが有効になります。 たとえば、Teams を無効にしながら Exchange と Sway の両方を無効のままにする場合は、これをスクリプトに含める必要があります。または、特定したユーザーに対して Exchange と Sway の両方が有効になります。
 
 次のコマンドを実行して、組織内で利用可能なすべてのライセンス プランを表示します。 詳細については [、「PowerShell を使用したライセンスとサービスの表示」を参照してください](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)。
 

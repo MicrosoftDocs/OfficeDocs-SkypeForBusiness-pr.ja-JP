@@ -1,7 +1,7 @@
 ---
 title: 音声の使用状況とトラフィックの見積もりSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: 次のメトリックを使用して、各サイトのユーザー トラフィックと、そのトラフィックをサポートするために必要なポートの数を推定できます。
-ms.openlocfilehash: 8661bf6c0222228ec22f582ebae0167cd23242a8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfc5e35b839f3accc139f3f9a02fdb8436426462
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629549"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746853"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>音声の使用状況とトラフィックの見積もりSkype for Business Server
  

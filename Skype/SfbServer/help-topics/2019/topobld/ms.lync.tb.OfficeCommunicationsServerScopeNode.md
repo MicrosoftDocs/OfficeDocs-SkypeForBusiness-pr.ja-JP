@@ -1,7 +1,7 @@
 ---
 title: Office Communications Server スコープ ノード
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: 7113ff379d5d20a0e9d5826ad190f24a3f392131
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60614703c18a8c0ccad0fa79c34a1309fdba5fe2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584131"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738183"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications Server のスコープ ノード
 

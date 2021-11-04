@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams Rooms を展開する方法について説明します。Teams または Skype for Business と Exchange はどちらもオンラインです。
-ms.openlocfilehash: 91c6b1ecfa12e24daded5f821da44d72084aed72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d052683b1f393afd777f6e17a4b38b96f17d6b5a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615223"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741583"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
 
@@ -175,14 +175,14 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    詳細な手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
 
-   このアカウントに電話システム機能を追加することもできますが、最初に構成する必要があります。 詳細については[、「電話システムとは](../what-is-phone-system-in-office-365.md)」を参照してください。 この例では、PSTN 国内通話プランと国際通話プランを追加します。
+   このアカウントに電話システム機能を追加することもできますが、最初に構成する必要があります。 詳細[については、「電話システムの](../what-is-phone-system-in-office-365.md)詳細」を参照してください。 この例では、PSTN 国内通話プランと国際通話プランを追加します。
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
    ```
 
     > [!NOTE]
-    > 会議にネイティブTeams参加Microsoft Teams会議室を構成する場合は、次の手順に進む必要があります。 以下は、オンプレミスのアプリケーションのサポートも有効にする場合Skype for Business必要です。
+    > 会議にのみネイティブTeams参加Microsoft Teams会議室を構成する場合は、次の手順に進む必要があります。 以下は、オンプレミスのアプリケーションのサポートも有効にする場合Skype for Business必要です。
 
 7. オンプレミスでデバイス アカウントを有効Skype for Business、環境が Microsoft Teams Rooms の要件 で定義されている要件[を満たしていることを確認します](requirements.md)。
 

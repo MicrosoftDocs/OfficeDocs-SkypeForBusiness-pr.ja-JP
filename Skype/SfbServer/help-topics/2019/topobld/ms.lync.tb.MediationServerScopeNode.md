@@ -1,7 +1,7 @@
 ---
 title: 仲介サーバー スコープ ノード
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、この仲介プールのリッスン ポート、および関連付けられた公衆交換電話網 (PSTN) ゲートウェイが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: f897a540dce01c2eaed3e3527668312f5f9d4a43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c7ac5621f718196836655316cd2eaae5e40f3971
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614531"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741073"
 ---
 # <a name="mediation-server-scope-node"></a>仲介サーバーのスコープ ノード
  

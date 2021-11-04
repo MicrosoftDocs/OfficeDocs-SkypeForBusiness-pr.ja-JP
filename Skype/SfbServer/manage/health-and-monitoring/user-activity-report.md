@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 25 のユーザー アクティビティ レポート
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: '概要: Skype for Business Server のユーザー アクティビティ レポートについて説明します。'
-ms.openlocfilehash: d2f303751219c0ba156f45d792196673a4283159
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d0021a1a8ab72da972c68da94a0a99b84eb7d28
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617873"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778337"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Skype for Business Server のユーザー アクティビティ レポート
 

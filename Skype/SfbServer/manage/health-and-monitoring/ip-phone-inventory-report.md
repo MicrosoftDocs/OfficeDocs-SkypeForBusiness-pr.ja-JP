@@ -1,7 +1,7 @@
 ---
 title: IP 電話 のインベントリ レポートSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: '概要: IP インベントリ レポート電話詳細については、「Skype for Business Server。'
-ms.openlocfilehash: 00677d5ed31303cd87df6547d2cab99323f6ed53
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7c3854148c9eb04268c5a3491a6efb00168e5544
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630591"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740553"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>IP 電話 のインベントリ レポートSkype for Business Server
  
@@ -103,8 +103,8 @@ IP 電話 インベントリ レポートを使用するもう 1 つの興味深
 |[**ハードウェア バージョン**] <br/> |IP 電話のバージョン番号。製造元とハードウェア バージョン フィルターを使用すると、特定の種類の電話を一意に識別できます。 このフィルターの値は、データベースに現在登録されている IP 電話に基づいて自動的に設定されます。  <br/> |
 |[**ユーザー エージェント**] <br/> |IP 電話で使われているソフトウェアの識別子。このフィルターの値は、データベースに現在登録されている IP 電話に基づいて自動的に設定されます。  <br/> |
 |[**MAC アドレス**] <br/> |IP 電話のネットワーク インターフェイスの一意の識別子。メディア アクセス制御 (MAC) アドレスは、通常、電話の製造時に割り当てられ、デバイス ハードウェアに組み込まれます。  <br/> 特定の MAC アドレスに関係するレコードを検索するには、そのアドレスを入力します。次に例を示します。  <br/> 00-08-5D-16-16-48  <br/> アドレスの全体を入力しなければなりません。アドレスの一部 (たとえば、00-08-5D) を入力してもデータは返されません。  <br/> |
-|[**この日数より前の最後のアクティビティ**] <br/> | 次のいずれかの値を選択します。 <br/>  [All] <br/>  10  <br/>  20 <br/>  30 <br/> |
-|[**この日数より前の最後のログオフ時刻**] <br/> | 次のいずれかの値を選択します。 <br/>  [All] <br/>  10  <br/>  20 <br/>  30 <br/> |
+|[**この日数より前の最後のアクティビティ**] <br/> | 次のいずれかの値を選択します。 <br/>  [All] <br/>  10 <br/>  20 <br/>  30 <br/> |
+|[**この日数より前の最後のログオフ時刻**] <br/> | 次のいずれかの値を選択します。 <br/>  [All] <br/>  10 <br/>  20 <br/>  30 <br/> |
 |[**ユーザー URI プレフィックス**] <br/> |IP 電話を使用したユーザーの SIP アドレス。  <br/> |
    
 ## <a name="metrics"></a>指標

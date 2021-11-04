@@ -1,7 +1,7 @@
 ---
 title: 会議の詳細レポート (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: '概要: 会議で使用される会議の詳細レポートについてSkype for Business Server。'
-ms.openlocfilehash: 9b5dbbaf4ab1312d187b4e3c02882c26066c3db5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56fafff71f1700667a2ad982f56db099cb60c45e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615703"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737803"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>会議の詳細レポート (Skype for Business Server
 
@@ -53,7 +53,7 @@ ms.locfileid: "58615703"
 | [**会議 URI**] <br/> | 電話会議に割り当てられる URI。次に例を示します。  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
 | [**プールの FQDN**] <br/>      | セッションに関係するレジストラー プールまたはエッジ サーバーの完全修飾名。  <br/>                             |
 | [**開始時刻**] <br/>     | 会議が開始した日時。  <br/>                                                                          |
-| **Organizer** <br/>      | 会議を開催したユーザーの SIP アドレス。  <br/>                                                               |
+| **開催者** <br/>      | 会議を開催したユーザーの SIP アドレス。  <br/>                                                               |
 | [**終了時刻**] <br/>       | 会議が終了した日時。  <br/>                                                                            |
 
 次の表は、会議詳細レポートの [電話会議の参加] セクションに提供される情報を示しています。

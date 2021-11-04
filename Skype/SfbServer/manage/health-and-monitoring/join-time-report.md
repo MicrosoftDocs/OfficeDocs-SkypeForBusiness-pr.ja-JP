@@ -1,7 +1,7 @@
 ---
 title: 会議参加時間レポート (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: '概要: 会議参加時間の概要レポートについて、Skype for Business Server。'
-ms.openlocfilehash: 1a7a5ec6b4ed5d5b3c2f9281766cb83079dc2f05
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1208802aa82bfe93951919403882477aa608889
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591181"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740523"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>会議参加時間レポート (Skype for Business Server
  

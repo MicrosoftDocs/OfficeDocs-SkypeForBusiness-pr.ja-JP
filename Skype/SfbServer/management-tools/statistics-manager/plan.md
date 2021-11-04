@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server の統計情報マネージャーの計画
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: '概要: このトピックを参照して、統計マネージャーの概要をSkype for Business Server。'
-ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 79f8bc38169d6cba52160772cd9ba0869e761b30
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730756"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778147"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの計画
 
@@ -32,7 +32,7 @@ Statistics Manager を使用すると、継続的なパフォーマンスの問�
 
 このトピックは、以下のセクションで構成されています。
 
-- [機能と機能](plan.md#BKMK_Features)
+- [特徴と機能](plan.md#BKMK_Features)
 
 - [リリース 2.0 の新機能](plan.md#BKMK_WhatsNew)
 
@@ -44,7 +44,7 @@ Statistics Manager を使用すると、継続的なパフォーマンスの問�
 
 - [セキュリティに関する検討事項](plan.md#BKMK_Security)
 
-## <a name="features-and-capabilities"></a>機能と機能
+## <a name="features-and-capabilities"></a>特徴と機能
 <a name="BKMK_Features"> </a>
 
 統計マネージャーでは、次の機能を使用できます。

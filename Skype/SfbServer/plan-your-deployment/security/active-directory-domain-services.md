@@ -1,7 +1,7 @@
 ---
 title: Active Directory ドメイン サービス for Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory ドメイン サービスは、Windows Server 2003、Windows Server 2008、Windows Server 2012、および R2 ネットワークWindows Server 2012サービスとして機能します。 Active Directory ドメイン サービスは、セキュリティ インフラストラクチャを構築する基盤Skype for Business Server機能します。 このセクションの目的は、ユーザーが Active Directory ドメイン Skype for Business Serverを使用して IM、Web 会議、メディア、および音声の信頼できる環境を作成する方法を説明します。 Active Directory ドメイン サービス用の環境の準備の詳細については、「展開」のドキュメントSkype for Business Serverを参照してください。 Windows Server のネットワークにおける Active Directory ドメイン サービスの役割の詳細については、お使いのバージョンのオペレーティング システムのドキュメントを参照してください。
-ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604656"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759469"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Active Directory ドメイン サービス for Skype for Business Server
  
@@ -101,7 +101,7 @@ Active Directory ドメイン Skype for Business Serverの各オブジェクト�
     
 このどちらかの条件が満たされていない場合、サーバーは信頼されず、サーバーとの接続は拒否されます。 この二重要件により、不正なサーバーが有効なサーバーの FQDN を引き継ぐ可能性が低い場合に攻撃を防ぐ。
   
-さらに、Microsoft Office Communications Server 2007 R2 および Microsoft Office Communications Server 2007 展開を有効にして Skype for Business Server サーバーと通信するために、Skype for Business Server は以前のリリースの信頼済みサーバーのリストを保持するためのフォレストの準備中にコンテナーを作成します。 次の表は、以前の展開との互換性維持のために作成されるコンテナーを示しています。
+さらに、Microsoft Office Communications Server 2007 R2 および Microsoft Office Communications Server 2007 展開を有効にして Skype for Business Server サーバーと通信するには、Skype for Business Server はフォレスト中にコンテナーを作成します。以前のリリースの信頼済みサーバーのリストを保持する準備。 次の表は、以前の展開との互換性維持のために作成されるコンテナーを示しています。
   
 **信頼済みのサーバーのリストと、以前のリリースとの互換性を維持するための Active Directory コンテナー**
 

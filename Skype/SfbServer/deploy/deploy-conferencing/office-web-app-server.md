@@ -1,7 +1,7 @@
 ---
 title: Web Apps Server Officeとの統合を構成Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: '概要: このトピックを参照して、web Apps Server と Office Web 会議Skype for Business ServerプレゼンテーションPowerPoint統合を構成する方法について説明します。'
-ms.openlocfilehash: 753ab05e533d77311c9910cb26fe7980b83b1a36
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27f5010b0e95ce7a84847ca52747f581697bde9c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596001"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740123"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Web Apps Server Officeとの統合を構成Skype for Business Server
  

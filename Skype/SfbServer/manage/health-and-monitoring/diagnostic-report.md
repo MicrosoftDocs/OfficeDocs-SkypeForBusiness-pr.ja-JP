@@ -1,7 +1,7 @@
 ---
 title: '[診断レポート] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: '概要: [診断レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: dde192aa90cc0a9cd5b1d05fbe2852d1277a6953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 84274659a45d33a144324334cec8b9f1b25c471b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590151"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740633"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>[診断レポート] Skype for Business Server
  
 **概要:**[診断レポート] の詳細については、「Skype for Business Server。
   
-診断レポートは、失敗したセッションの診断およびトラブルシューティング情報を提供します。 この情報には、セッションが失敗した場合に報告された診断 ID と診断ヘッダーの両方が含まれます。 診断 ID は SIP メッセージに接続される一意の識別子 (ms-diagnostics ヘッダーの形式) ですが、診断ヘッダーには診断 ID の説明が付属しています。 レポートには、レポート コンポーネントで知られている貴重なトラブルシューティングの詳細が含まれている場合があります。 次に例を示します。
+診断レポートは、失敗したセッションの診断およびトラブルシューティング情報を提供します。 この情報には、セッションが失敗した場合に報告された診断 ID と診断ヘッダーの両方が含まれます。 診断 ID は SIP メッセージに接続される一意の識別子 (ms-diagnostics ヘッダーの形式) ですが、診断ヘッダーには診断 ID の説明が付属しています。 レポートには、レポート コンポーネントで知られている貴重なトラブルシューティングの詳細が含まれている場合があります。 例:
   
 - エラーを生成した PSTN ゲートウェイによって提供された原因コード。発信通話が PSTN ネットワークで失敗すると、ISDN User Part (ISUP) の原因コードが自動的に生成されます。たとえば、PSTN ゲートウェイは原因コード 34 を送信して、通話を完了するための使用可能な回線またはチャネルが存在しないことを示す場合があります。
     

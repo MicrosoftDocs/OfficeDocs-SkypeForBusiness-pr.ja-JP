@@ -1,7 +1,7 @@
 ---
 title: コミットされていない音声構成設定コミット
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: '[コミットされていない音声構成] ダイアログ 設定を使用して、行ったすべての変更を確認できます。 ダイアログ ボックス内をスクロールして未確定の変更をすべて確認するか、矢印をクリックして別のセクションを展開または折りたたみます。 終了したら、[確定] をクリックしてそれらの変更をすべて確定するか、[キャンセル] をクリックして戻り、変更点を修正します。'
-ms.openlocfilehash: 60a66d45a90f6d37f342b66d793b16639589f846
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ed10ec5ec0b8bf882add97eb763cc9ee413d5aef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618003"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737903"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>コミットされていない音声構成設定: コミット
  

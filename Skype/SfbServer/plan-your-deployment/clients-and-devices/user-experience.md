@@ -1,6 +1,6 @@
 ---
 title: ユーザー向Skype for Business 2015 クライアント エクスペリエンスを計画する
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: '概要: Skype for Business Online、Skype for Business Server 2019、Skype for Business Server 2015、Lync Server 2013、Lync Server 2010 を使用している場合に関係ない、新しい Skype for Business と更新プログラムの準備に使用できる手順について説明します。'
-ms.openlocfilehash: b9ead36cb38c41376c80a85f1356e24e78b51eb7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '概要: Skype for Business Online、Skype for Business Server 2019、Skype for Business Server 2015、Lync を使用している場合に関係を含め、環境とユーザーが更新プログラムを準備するために実行できる新しい Skype for Business と手順について説明します。Server 2013、または Lync Server 2010。'
+ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586869"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740461"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>ユーザー向Skype for Business 2015 クライアント エクスペリエンスを計画する
  
-**概要:** Skype for Business Online、Skype for Business Server 2019、Skype for Business Server 2015、Lync Server 2013、Lync Server 2010 を使用している場合に関係ない、環境と更新プログラムのユーザーを準備するために実行できる新しい Skype for Business と手順について説明します。
+**概要:** Skype for Business Online、Skype for Business Server 2019、Skype for Business Server 2015、Lync Server を使用している場合を含め、新しい Skype for Business と環境と更新プログラムのユーザーを準備するための手順について説明します。2013、または Lync Server 2010。
   
 2015 年 4 月 14 日Office Lync 2013 の更新プログラムには、新しいユーザー インターフェイスSkype for Business含まれています。 この更新プログラムを使用すると、管理者はクライアントの外観を制御し、Lync 2013 クライアント エクスペリエンスを維持するか、改善されたクライアント エクスペリエンスを使用Skype for Business選択できます。 クライアントSkype for Business Lync 2013 クライアントを効果的に置き換え、管理者が既存の Lync クライアント エクスペリエンスと新しい Skype for Business クライアント エクスペリエンスの間で選択する機能を追加しました。 この更新プログラムの詳細については[、「April 14, 2015 update for Lync 2013 (Skype for Business) (KB2889923)」を参照](https://support.microsoft.com/kb/2889923/)してください。
   
@@ -44,7 +44,7 @@ ms.locfileid: "58586869"
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>ユーザーに必要なクライアント エクスペリエンス
 <a name="clientexperience"> </a>
 
-新しいクライアント Skype for Businessを使用して、Lync またはユーザーが取得するクライアント エクスペリエンスをSkype for Business。 既定のクライアント エクスペリエンスは、Lync を使用しているか、オンプレミスまたはオンラインSkype for Business使用しているかによって異なります。 Microsoft 365 Apps for enterprise、Microsoft 365 Business Standard、または Office 2013 で今日 Skype for Business Online (Lync Online) を使用している場合は、Skype の外観に影響を受けた更新された Skype for Business クライアント エクスペリエンスが既定のユーザー エクスペリエンスになります。 現在 Lync Server オンプレミスを使用している場合は、Lync クライアント エクスペリエンスが既定になります。
+新しいクライアント Skype for Businessを使用して、Lync またはユーザーが取得するクライアント エクスペリエンスをSkype for Business。 既定のクライアント エクスペリエンスは、Lync を使用しているか、オンプレミスまたはオンラインSkype for Business使用しているかによって異なります。 Microsoft 365 Apps for enterprise、Microsoft 365 Business Standard、または Office 2013 で今日Skype for Business Online (Lync Online) を使用している場合は、更新Skype for Businessクライアント エクスペリエンスは、ユーザー の外観に基Skype既定のユーザー エクスペリエンスになります。 現在 Lync Server オンプレミスを使用している場合は、Lync クライアント エクスペリエンスが既定になります。
   
 クライアント ポリシーを使用して、ユーザーが取得するクライアント エクスペリエンスを構成できます。 クライアント ポリシーは、Lync またはユーザーにログインするときにユーザーに適用される構成設定のセットSkype for Business。
   

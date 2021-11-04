@@ -1,7 +1,7 @@
 ---
 title: 応答グループのワークフロー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 応答グループ のワークフローは、応答グループ アプリケーションが電話を受け取った場合に実行されるアクションを定義します。
-ms.openlocfilehash: 0f29bfd64cbe01026bc4959d35fa17d5640b3538
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 07f3612a2d4ef5359cb1054b75df7922ebb84131
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628169"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740883"
 ---
 # <a name="response-groups-workflow"></a>応答グループのワークフロー
 

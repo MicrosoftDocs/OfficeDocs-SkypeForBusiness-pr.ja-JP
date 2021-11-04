@@ -1,7 +1,7 @@
 ---
 title: PIN の設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: ユーザーの PIN を生成するには、[有効な PIN を自動的に生成する] を選択します。
-ms.openlocfilehash: eb1dfdd6300775d606d7f2cdb3dc2f62cd175de9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f031abd3e7733752c839ca8dc41d4e620c88f9c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587489"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742243"
 ---
 # <a name="set-pin"></a>PIN の設定
 

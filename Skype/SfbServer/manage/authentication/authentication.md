@@ -1,7 +1,7 @@
 ---
 title: 認証を管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: '概要: 次の手順を使用して、セキュリティとSkype for Business Serverを管理します。'
-ms.openlocfilehash: 77d7163f6064be51ba4c835d7f61363820b23da8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5f9403adf5d31f3692c4778bb19867279c6767e7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603976"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772143"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>認証を管理Skype for Business Server
  

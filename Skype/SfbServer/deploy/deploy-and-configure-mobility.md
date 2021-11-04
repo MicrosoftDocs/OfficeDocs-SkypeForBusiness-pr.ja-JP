@@ -1,7 +1,7 @@
 ---
 title: モビリティの展開と構成をSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: この記事では、モビリティ サービスを使用する既存の Skype for Business Server インストールを構成し、モバイル デバイスが Skype for Business Server モビリティ機能を利用できるようにする手順について説明します。
-ms.openlocfilehash: c0b8a3e2902a8605f952683d6a3629af9e075798
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611336"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741503"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>モビリティの展開と構成をSkype for Business Server  
  

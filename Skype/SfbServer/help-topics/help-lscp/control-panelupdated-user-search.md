@@ -1,7 +1,7 @@
 ---
 title: コントロール パネル - 更新されたユーザー検索
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 5/21/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 検索クエリの結果を使用して、検索クエリのユーザーを構成Skype for Business Server。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 Lync Server コントロール パネルまたは Active Directory ユーザーとコンピューター スナップインを使用してユーザーを検索することもできます。
-ms.openlocfilehash: 2333a92d95a3d93ef9e10c0db89eba0c77c9f809
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ee155a1c81ffe45007d813d64fb8cc4586ba268e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608234"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740903"
 ---
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
 
@@ -82,7 +82,7 @@ ms.locfileid: "58608234"
 
 - **編集**[**編集]** をクリックし、[詳細の表示] をクリックして選択したユーザーの詳細を表示するか、[すべての検索結果を選択] をクリックして、結果テーブルに表示されるすべてのユーザーを選択します。
 
-- **アクション** [ **アクション]** をクリックし、検索結果で選択したユーザーに対して実行するアクションを選択します。 次のアクションを使用できます。
+- **アクション** [ **アクション]** をクリックし、検索結果で選択したユーザーに対して実行するアクションを選択します。 次の操作を実行できます。
 
   - **Lync Server の再有効化** 一時的に無効にした後、選択したユーザー アカウントを有効にします。
 

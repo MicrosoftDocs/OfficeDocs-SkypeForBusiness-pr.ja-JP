@@ -1,14 +1,14 @@
 ---
 title: オンライン電話システムロールアウト用のユーザー通知メール テンプレート
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: テンプレートを使用して、クラウドの音声機能を Teams または Skype for Business に実装する場合に、ユーザーにメールを送信します。
+description: テンプレートを使用して、クラウドの音声機能をユーザーにTeamsまたはSkype for Business。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 34e15e3b9fccd466905572e6cd234da2f498216b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 28cd5ad822863876527877ca0bf633577e21914d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617203"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737493"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>新しいオンライン電話システムのユーザー導入を促進する
 

@@ -1,7 +1,7 @@
 ---
 title: '[通話の詳細記録を有効にする] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: '概要: 通話詳細記録 (CDR) レコードを有効にする方法については、Skype for Business Server。'
-ms.openlocfilehash: 51c2dcd1f1ecf77647ded6dbbc41ea9cdc2c13d8
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 7adfc44c97387fc99244b0d2dea1cd7f884b6e6e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014561"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740583"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>[通話の詳細記録を有効にする] Skype for Business Server
 

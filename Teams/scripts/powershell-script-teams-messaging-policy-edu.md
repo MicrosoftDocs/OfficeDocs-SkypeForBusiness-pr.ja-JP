@@ -1,7 +1,7 @@
 ---
-title: PowerShell のサンプル スクリプト - メッセージング ポリシー&割り当てる
-author: cichur
-ms.author: serdars
+title: PowerShell のサンプル スクリプト - メッセージング ポリシー&を作成する
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c76f7441e335532fcacaf3fe41561fc0ef7ef516
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 922bbd88f8a470a19edf799b737a349043ebfeed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605193"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741553"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell サンプル スクリプト - メッセージング ポリシーの作成と割り当て
 
@@ -30,14 +30,14 @@ ms.locfileid: "60605193"
 
 この PowerShell スクリプトの使用の詳細については、「クイック スタート - Microsoft Teams for Education」[を参照してください](../teams-quick-start-edu.yml)。
 
-このスクリプトでは、Skype for Business Online PowerShell モジュールにある[Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy)コマンドレットを使用します。 PowerShell をTeams管理する方法の詳細については[、「PowerShell](../teams-powershell-overview.md)の概要」Teams参照してください。
+このスクリプトでは、PowerShell Online モジュールの一覧にある[Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy)コマンドレットSkype for Business使用します。 PowerShell [Teams管理の詳細については、「PowerShell](../teams-powershell-overview.md)の概要」Teams参照してください。
 
 
 ## <a name="before-you-start"></a>開始する前に
 
 Skype for Business Online PowerShell モジュール をダウンロード[してインストールし](https://www.microsoft.com/download/details.aspx?id=39366)、メッセージが表示されたらコンピューターを再起動します。
 
-さらに詳しくは[、「PowerShell を使用して Skype for Business Online を管理する」Office 365ください](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+さらに詳しくは[、「PowerShell を使用したオンライン Skype for Businessの管理」Office 365をご覧ください](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="sample-script"></a>サンプル スクリプト
 

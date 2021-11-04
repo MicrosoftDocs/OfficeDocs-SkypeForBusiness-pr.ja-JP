@@ -1,7 +1,7 @@
 ---
 title: Office Communications Server スコープ ノード
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: このドキュメントは暫定版であり、変更される可能性があります。空白のトピックがプレースホルダーとして含まれています。
-ms.openlocfilehash: a62ecd81d083e6f5c89d81f2d6ee950d4ccc943b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 785e97870db4ad4bc6226e05466d3fa0c6645bad
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614247"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778367"
 ---
 # <a name="office-communications-server-scope-node"></a>Office Communications Server のスコープ ノード
 

@@ -1,7 +1,7 @@
 ---
 title: AudioStreamDetail ビュー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail ビューには、データベース内の各音声ストリームに関する情報が格納されています。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: fa3d65c5c4f42bb0ecfe32447b9d8dcab5a10c55
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3485ac8e8f2f38e7440ef723dfa40b3530589fc8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583751"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741863"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail ビュー
  

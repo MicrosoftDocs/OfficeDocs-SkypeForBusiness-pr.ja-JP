@@ -1,7 +1,7 @@
 ---
 title: 電話会議でダイヤルイン会議をSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: '概要: 会議でダイヤルイン会議を管理する方法についてSkype for Business Server。'
-ms.openlocfilehash: b15a3c8b6a92faaf552bb727e05afa5a618ddd12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3c6f72d3e2c5e19ef970e7d8e5410dcc9cad2d14
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595539"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772063"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>電話会議でダイヤルイン会議をSkype for Business Server
  

@@ -1,7 +1,7 @@
 ---
 title: FocusJoinsAndLeaves ビュー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: FocusJoinsAndLeaves ビューには、1 つの会議における参加と退出についての情報が格納されます。 各会議は、ユーザーが会議に参加して会議を退出するたびに書き込まれるレコードによってこのビューで表されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 102e520c9bfdb9988061db64dec621a8683b1b5e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6195558ec7a59e9e7605db4b56f761aec374f831
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628559"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740303"
 ---
 # <a name="focusjoinsandleaves-view"></a>FocusJoinsAndLeaves ビュー
  

@@ -1,6 +1,6 @@
 ---
 title: Skype Room System アカウントの管理
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: このトピックでは、ルーム システム アカウントを管理するSkype説明します。
-ms.openlocfilehash: a92a9058ea884e8be5a0a89eab0dccebc15f05e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa25b61f8f42043d9bcabe99ff20c1fcf6d1950e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601932"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741483"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Skype Room System アカウントの管理
  

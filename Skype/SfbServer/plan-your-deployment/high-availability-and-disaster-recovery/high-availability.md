@@ -1,7 +1,7 @@
 ---
 title: フロントエンド プールの高可用性と管理
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: プールの管理、クォーラムの損失、および 2 つのフロントエンド サーバーのみを持つプールの特別な手順など、Skype for Business Server のフロントエンド プール管理について説明します。
-ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d9eef2a027131db960b05508ece28cf95b992dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585011"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737683"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  
@@ -45,17 +45,17 @@ ms.locfileid: "58585011"
   
 |プール内のサーバーの総数  <br/> |プールを初めて開始するために実行する必要がありますサーバーの数  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
-|3   <br/> |3   <br/> |
-|4   <br/> |3   <br/> |
-|5   <br/> |4   <br/> |
-|6   <br/> |5   <br/> |
-|7   <br/> |5   <br/> |
+|2  <br/> |1  <br/> |
+|3  <br/> |3  <br/> |
+|4  <br/> |3  <br/> |
+|5  <br/> |4  <br/> |
+|6   <br/> |5  <br/> |
+|7   <br/> |5  <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
-|10   <br/> |8   <br/> |
-|11   <br/> |9   <br/> |
-|12   <br/> |10   <br/> |
+|10  <br/> |8   <br/> |
+|11  <br/> |9   <br/> |
+|12   <br/> |10  <br/> |
 |16 **For Skype for Business Server 2019** <br/> |12   <br/> |
 
 
@@ -71,7 +71,7 @@ ms.locfileid: "58585011"
   
 |プール内のフロントエンド サーバーの総数  <br/> |プールが機能するために実行されている必要のあるサーバーの数  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
+|2  <br/> |1  <br/> |
 |3-4  <br/> |Any 2  <br/> |
 |5-6  <br/> |Any 3  <br/> |
 |7   <br/> |Any 4  <br/> |

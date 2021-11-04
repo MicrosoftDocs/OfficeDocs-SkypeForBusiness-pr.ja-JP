@@ -1,7 +1,7 @@
 ---
 title: Lync Server 2010 用のフロントエンド仲介サービス設定の展開
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: このダイアログでは、[仲介サーバーの PSTN ゲートウェイ] 設定のプロパティを編集します。次の設定を定義します。
-ms.openlocfilehash: 9021a1e9f186c923a8b7b35b36e0497d2c4f1d59
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81cd0fb38aa10cdd5603cc3ddddc0f7c9a48608b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621233"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778487"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のフロント エンド仲介サービス設定mエキスパンダー
  

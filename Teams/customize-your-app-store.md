@@ -1,7 +1,7 @@
 ---
 title: カスタム アプリ ストア
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: prem
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: カスタム アプリ ストアの詳細については、Microsoft Teams。
-ms.openlocfilehash: 06663505a173d7fa1a5d53957fbf2df8fdd232d0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 773e2aa7deb0d419ea60e32dc834dee8f730009a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728906"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741663"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>カスタム アプリは、Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "58728906"
 > [!Note]
 > ブランドの変更を有効にするには、24 時間が必要です。
 
-管理センターで [ストアのカスタマイズ] にアクセスするには、[アプリのカスタマイズ] **Teams を**  >  **選択します**。
+管理センターで [ストアのカスタマイズ] にアクセスするには、[ストアのカスタマイズ] Teams **を**  >  **選択します**。
 
   ![管理コンソールのストアのカスタマイズ機能が強調表示されています。](media/customize-app-store.png)
 
@@ -44,7 +44,7 @@ ms.locfileid: "58728906"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-ここで、組織のロゴをアップロードできます。 選択したロゴが、[テナント用にTeams **アプリ]** ページの [カスタム クライアント  >  **] に表示** されます。
+ここで、組織のロゴをアップロードできます。 選択したロゴが、[テナント用にTeams **アプリ]** ページの [カスタム  >  **クライアント] に表示** されます。
 
 [画像の選択 **] オプションを選択** すると、選択したファイルをアップロードできます。 ロゴは 240x60 である必要があります。または、そのサイズにスケーリングされます。 5 MB 以下にしてください。 サポートされている形式は次のとおりです。
 
@@ -68,7 +68,7 @@ ms.locfileid: "58728906"
 - .png
 - .jpg
 
-小さなロゴは、ストアのランディング ページの [built **for tenant]** セクション タイトルの横Teams表示されます。
+ストアのランディング ページの **[Built for tenant]** セクション タイトルの横に、小Teamsが表示されます。
 
 ## <a name="customize-the-background-color"></a>背景色をカスタマイズする
 
@@ -109,7 +109,7 @@ ms.locfileid: "58728906"
 ![カスタム アプリ ストアのプレビュー。](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> 一部の既定の色はユーザーのバージョンのカスタム クライアントに基づくため、カスタマイズされたアプリ ストアの最終バージョンと異なるTeamsがあります。
+> 一部の既定の色はユーザーのバージョンのカスタム クライアントに基づくため、表示はカスタマイズされたアプリ ストアの最終バージョンTeamsがあります。
 
 ## <a name="related-article"></a>関連記事
 

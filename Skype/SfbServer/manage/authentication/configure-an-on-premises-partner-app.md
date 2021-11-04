@@ -1,7 +1,7 @@
 ---
 title: オンプレミス のパートナー アプリケーションを構成Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: '概要: オンプレミス のパートナー アプリケーションを構成して、Skype for Business Server。'
-ms.openlocfilehash: d0907d73d6a23c0a5b9a1f1725503b72c5bce993
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 65e5d32787b13043d30b6cb03a7d9cdbc047c46a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012621"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772123"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>オンプレミス のパートナー アプリケーションを構成Skype for Business Server
  
@@ -88,7 +88,7 @@ Set-CsOAuthConfiguration を呼び出すときに Realm パラメーターが使
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-これらの変更を行った後、スクリプトを実行し、Exchange 管理シェル内からスクリプト ファイルを実行して、Exchange 2013 と SharePoint Skype for Business Server の両方をパートナー アプリケーションとして構成できます。 次に例を示します。
+これらの変更を行った後、スクリプトを実行し、Exchange 管理シェル内からスクリプト ファイルを実行して、Exchange 2013 と SharePoint Skype for Business Server の両方をパートナー アプリケーションとして構成できます。 例:
   
 ```PowerShell
 C:\Scripts\ServerToServerAuth.ps1

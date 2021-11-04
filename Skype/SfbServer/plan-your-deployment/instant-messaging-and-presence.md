@@ -1,7 +1,7 @@
 ---
 title: インスタント メッセージングとプレゼンスの計画を立Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: '概要: インスタント メッセージングとプレゼンスを計画する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 8498526c97794dce29d791318b025321e932081b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20de382c034e2049bdb7bb2b36f2da9bc847b876
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599892"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737663"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>インスタント メッセージングとプレゼンスの計画を立Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "58599892"
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>インスタント メッセージングとプレゼンスの計画を立Skype for Business Server
 
-フロントエンド サーバーは、インスタント Skype for Business Server (IM) やプレゼンスなどの主要な機能を提供し、すべての展開にSkype for Business Serverされます。 主に大規模な組織向けに設計された Skype for Business Server Enterprise Edition と、ハードウェアへの投資を小さくし、完全な高可用性オプションを必要としない小規模な組織向けに設計された Skype for Business Server Standard Edition の 2 つのエディションがあります。 どちらのエディションも、IM、プレゼンスSkype for Business Server会議、および会議など、すべてのワークロードをサポートエンタープライズ VoIP。
+フロントエンド サーバーは、インスタント Skype for Business Server (IM) やプレゼンスなどの主要な機能を提供し、すべての展開にSkype for Business Serverされます。 主に大規模な組織向けに設計された Skype for Business Server Enterprise Edition と、Skype for Business Server Standard Edition の 2 つのエディションがあります。これは主に小規模な組織向けで設計されています。ハードウェアへの投資が小さく、完全な高可用性オプションは不要です。 どちらのエディションも、IM、プレゼンスSkype for Business Server会議、および会議など、すべてのワークロードをサポートエンタープライズ VoIP。
   
 インスタント メッセージング (IM) を使用すると、ユーザーは各自のコンピューターでテキスト ベースのメッセージを使用して、リアルタイムで相互通信を行うことができます。 2 パーティとマルチパーティの両方の IM セッションがサポートされています。 2 パーティの IM 会話の参加者は、3 番目の参加者をいつでも会話に追加できます。 この際には、会議機能をサポートするように会話ウィンドウが変更されます。
   

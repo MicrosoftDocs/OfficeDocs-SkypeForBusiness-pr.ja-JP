@@ -1,7 +1,7 @@
 ---
 title: サーバーでアーカイブを有効または無効Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: '概要: アーカイブを有効または無効にする方法については、Skype for Business Server。'
-ms.openlocfilehash: 8384c751cbcd7d5d357ca2bdefbb8821b7e282d0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad59cd2f8bf22ae0f4ac8b8ba08c84b40fbeffb4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621093"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747333"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>サーバーでアーカイブを有効または無効Skype for Business Server
 

@@ -1,7 +1,7 @@
 ---
 title: トポロジ ビューの単純な URL の詳細
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 4c90df3677c541775c7e7688f55eb1b7f36ce4d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7c2a9bc94a1b8633f4ed40048abd33317f26ccf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626789"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740723"
 ---
 # <a name="topology-view-simple-url-detail"></a>トポロジ: 簡単な URL の詳細の表示
 

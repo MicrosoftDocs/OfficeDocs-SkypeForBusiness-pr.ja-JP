@@ -5,7 +5,7 @@ ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: この記事では、クライアントのポート範囲を構成する方法と、Skype for Business Server で実行されているクライアントのサービス品質ポリシーを構成する方法についてWindows 10。
-ms.openlocfilehash: d43b79d82e3099cbc471b12fba5ad7155de43e77
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2382a5060d0723f76312a089ab50b0b41314c8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591161"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742113"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>クライアントのポート範囲とサービス品質ポリシーの構成Skype for Business Server
 

@@ -1,7 +1,7 @@
 ---
 title: フロントエンドと Office Web Apps サーバーとの関連付けページ
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Web apps Server Officeは、会議で使用するためにドキュメントをアップロードする発表者と同様のサービスを提供しますが、以前のバージョンでは使用しなかった追加機能を有効にします。
-ms.openlocfilehash: 2a9ae984f30e582c89294f8f2bef51a07cbc0862
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 970540429f82933f5ff455657ef8760a444b2bef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625389"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738243"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>フロント エンドと Office Web Apps サーバーとの関連付けページ
 

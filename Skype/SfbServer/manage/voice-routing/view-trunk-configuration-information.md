@@ -1,7 +1,7 @@
 ---
 title: '[トランク構成情報] を [Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。
-ms.openlocfilehash: 204f6f17387499719cf3b4bbe33638a849a4e363
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b27e3dd72e7a4aebee907541b1ec0250cf7cfd3f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614067"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778257"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>[トランク構成情報] を [Skype for Business Server
 

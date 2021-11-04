@@ -1,7 +1,7 @@
 ---
 title: アーカイブの計画を立Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: '概要: このトピックを参照して、アーカイブを計画する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: e9ebe5aa0b2e4e84d436d24f9d8b7db3b450825d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7ed504558274da06d8f49b38a297626ff22f86c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629579"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740459"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>アーカイブの計画を立Skype for Business Server
  
@@ -82,7 +82,7 @@ Skype for Business Serverは、次のアーカイブ コンポーネントを使
     > [!NOTE]
     > 内部通信または外部通信のアーカイブの制御は、Skype for Businessポリシーでのみ使用できます。 統合Exchange、内部通信と外部通信の両方がアーカイブまたはアーカイブされません。 
   
-- **クリティカル モードを実装するかどうか**。 アーカイブが組織の要件である場合、重要なモードを構成すると、アーカイブを妨げる Skype for Business Server障害が発生した場合に IM セッションと会議セッションがブロックされます。 次に例を示します。 
+- **クリティカル モードを実装するかどうか**。 アーカイブが組織の要件である場合、重要なモードを構成すると、アーカイブを妨げる Skype for Business Server障害が発生した場合に IM セッションと会議セッションがブロックされます。 例: 
     
   - ストレージ サービスのSkype for Business Server。 この場合、アーカイブが有効になっているユーザーに対して IM がブロックされます。
     
@@ -99,7 +99,7 @@ Skype for Business Serverは、次のアーカイブ コンポーネントを使
 - ストレージSkype for Business Server使用
     
 > [!NOTE]
-> 両方の Skype for Business Server アーカイブ データベースを実装し、Microsoft Exchange 統合を有効にした場合、Exchange ポリシーは Skype for Business Server アーカイブ ポリシーを上書きしますが、Exchange に自宅にいて、メールボックスを In-Place Hold に置いたユーザーに対してのみです。 Skype for Businessアーカイブは、Microsoft の保留ポリシー Exchange In-Placeによって異なります。 
+> Skype for Business Server アーカイブ データベースの両方を実装し、Microsoft Exchange 統合を有効にした場合、Exchange ポリシーは Skype for Business Server アーカイブ ポリシーを上書きしますが、Exchange にホームを持ち、そのユーザーを持っていたユーザーに対してだけ優先されます。メールボックスが保留In-Placeされます。 Skype for Businessアーカイブは、Microsoft の保留ポリシー Exchange In-Placeによって異なります。 
   
 1 つのフロント エンド プールまたは Standard Edition サーバーにアーカイブを展開する場合は、展開内の他のすべてのフロントエンド プールおよび Standard Edition サーバーでアーカイブを有効にする必要があります。 会話または会議がホストされているプールでアーカイブが有効になっていない場合は、すべての会議データをアーカイブできない可能性があります。 IM メッセージではアーカイブは引き続き機能しますが、会議のコンテンツとイベントはアーカイブできない場合があります。
   
@@ -136,7 +136,7 @@ Skype for Business Serverは、次のアーカイブ コンポーネントを使
 > [!NOTE]
 > アーカイブ データベースをホストするサーバーでは、他のデータベースもホストできます。ただし、アーカイブ データベースと他のデータベースを併置することを考慮するときには、数名以上のユーザーのメッセージをアーカイブすると、アーカイブ データベースに必要なディスク領域が非常に大きくなる可能性があることに注意してください。そのため、アーカイブ データベースとバックエンド データベースを併置することはお勧めしません。 
   
-アーカイブ データベースを監視データベース、バック エンド データベース、またはこれらの両方のデータベースと照合する場合は、データベースの一部またはすべてに対して 1 つの SQL インスタンスを使用するか、またはデータベースごとに個別の SQL インスタンスを使用できます。各 SQL インスタンスには、1 つのバック エンド データベース、単一の監視データベース、および 1 つのアーカイブ データベースのみを含めできます。
+アーカイブ データベースを監視データベース、バック エンド データベース、またはこれらの両方のデータベースと照合する場合は、いずれかのデータベースまたはすべてのデータベースに 1 つの SQL インスタンスを使用するか、データベースごとに個別の SQL インスタンスを使用できます。各 SQL インスタンスには、単一のバック エンド データベースのみを含めできます。 単一の監視データベース、および単一のアーカイブ データベース。
   
 すべてのサーバーの役割とデータベースのコロケーションの詳細については[、「Topology Basics for Skype for Business Server」 を参照してください](../../plan-your-deployment/topology-basics/topology-basics.md)。 ストレージ データベースを含むトポロジを更新する方法の詳細については、「Create and publish new topology in [Skype for Business Server」 を参照してください](../../deploy/install/create-and-publish-new-topology.md)。
   

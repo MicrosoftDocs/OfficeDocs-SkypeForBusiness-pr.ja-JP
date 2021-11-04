@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server の統計情報マネージャーの展開
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: このトピックを参照して、統計マネージャーを展開する方法について説明Skype for Business Server。'
-ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6444f89f43ea4951e186af589f5986e5a3e7bc9e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612096"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778157"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの展開
  
@@ -170,7 +170,7 @@ Web インストーラーは、StatsManWebSiteUsers というローカル セキ
     
 3. **[インストール]** をクリックします。
     
-多数のコンピューターにエージェントをインストールする場合は、無人モードでこれを行う必要があります。 次に例を示します。 
+多数のコンピューターにエージェントをインストールする場合は、無人モードでこれを行う必要があります。 例: 
   
 ```console
 msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> SERVICE_PASSWORD=<password> SERVICE_URI=https://<hostname>:<servicePort>/[INSTALLDIR=<directory>][DIR_  STATSMANAPPDATA=<directory>]
@@ -290,11 +290,11 @@ Microsoft では、信頼できる証明機関によって署名された証明�
     
 6. [選択 **するオブジェクト名を入力する** ] ボックスに、次の値を入力します。
     
-7. **[OK]** をクリックします。
+7. [**OK**] をクリックします。
     
 8. [ **フル コントロール] で**、[許可] チェック **ボックスを** オフにします。 (読み取りアクセスのみ必要です。
     
-9. **[OK]** をクリックします。
+9. [**OK**] をクリックします。
     
 ## <a name="for-more-information"></a>関連情報
 <a name="BKMK_SelfCert"> </a>

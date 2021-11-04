@@ -1,7 +1,7 @@
 ---
 title: ボイス メールExchange Serverユニファイド メッセージングSkype for Business Server構成する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/11/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '概要: ボイス メールExchange Serverユニファイド メッセージングSkype for Business Server構成します。'
-ms.openlocfilehash: 94aa013a8330f6469af5a237911b4e627047f7a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621819"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741293"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>ボイス メールExchange Serverユニファイド メッセージングSkype for Business Server構成する
  
@@ -175,7 +175,7 @@ ExchUcUtul.ps1 スクリプトが正常に完了したことを確認するに�
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>ユニファイド メッセージングを実行しているサーバー Exchange Server構成する
  
-Exchange ユニファイド メッセージング (UM) を展開している場合は、「計画」のドキュメントの「Skype for Business Server での Exchange ユニファイド メッセージング統合の計画」で説明したように、組織内の エンタープライズ VoIP ユーザーに Exchange UM 機能を提供する場合は、次の手順を使用して、Exchange UM を実行しているサーバーで証明書を構成できます。
+Exchange ユニファイド メッセージング (UM) を展開している場合は、「計画」の「Skype for Business Server での Exchange ユニファイド メッセージング統合の計画」の説明に従って、組織内の エンタープライズ VoIP ユーザーに Exchange UM 機能を提供できます。UM を実行しているサーバーで証明書を構成するには、次Exchange使用します。
 
 > [!IMPORTANT]
 > 内部証明書の場合、Skype for Business Server を実行しているサーバーと Microsoft Exchange を実行しているサーバーの両方に、相互に信頼される信頼されたルート機関証明書が必要です。 証明機関 (CA) は、サーバーが信頼できるルート証明機関の証明書ストアに登録されている証明機関のルート証明書を持っている限り、同じ証明機関または別の証明機関を指定できます。 

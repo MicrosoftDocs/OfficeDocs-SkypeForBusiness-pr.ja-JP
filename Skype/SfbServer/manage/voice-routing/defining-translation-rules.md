@@ -1,7 +1,7 @@
 ---
 title: 翻訳ルールの定義Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server エンタープライズ VoIP E.164 形式に正規化された電話番号に基づいて通話をルーティングします。 つまり、逆引き番号参照 (RNL) を実行するために、ダイヤルされた文字列はすべて E.164 形式に正規化する必要があります。そのため、一致する SIP URI に変換できます。 Skype for Business Serverは、呼び出し元 ID と発信者 ID プレゼンテーションを操作する機能を提供します。
-ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9dee0e90a9cd06abef43d190cc391861f4ad1438
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629639"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737723"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>翻訳ルールの定義Skype for Business Server
 
