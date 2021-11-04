@@ -1,7 +1,7 @@
 ---
 title: tblComplianceParticipant
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: tblComplianceParticipant には、現在の参加者がチャネルおよびサーバー別に格納されます。
-ms.openlocfilehash: 8c94aab78c7f0cc9a04e849a2ad798134ff38e42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5fbd22de596de45664ce3340e9d85ee935ba07e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627769"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763275"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  
@@ -36,7 +36,7 @@ tblComplianceParticipant には、現在の参加者がチャネルおよびサ�
 |serverID  <br/> |int  <br/> |サーバーの ID (tblServerIdentity.serverID テーブルなど)。  <br/> |
 |sessionId  <br/> |bigint  <br/> |サーバー セッション。チャット サービスが起動するたびに生成されるランダムな数値。孤立した参加者の識別を目的としたセッションの区別に使用されます。  <br/> |
    
-**Key**
+**キー**
 
 |**列**|**説明**|
 |:-----|:-----|

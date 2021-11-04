@@ -1,7 +1,7 @@
 ---
 title: '[アナウンス] アプリケーションの展開Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: 展開プロセスと、アナウンス アプリケーションの手順をSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: d7e374f1e4d6d63c34506fcce7e213697885c02f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e579ca3877b35ae5cdbb85582516a3bfbac8c354
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608594"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745363"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>[アナウンス] アプリケーションの展開Skype for Business Server
  

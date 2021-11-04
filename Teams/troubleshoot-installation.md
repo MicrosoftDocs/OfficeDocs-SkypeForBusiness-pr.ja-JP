@@ -1,7 +1,7 @@
 ---
 title: Windows での Microsoft Teams のインストールと更新に関する問題のトラブルシューティング
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
 ms.topic: article
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Windows の Teams デスクトップ クライアント アプリのインストールと更新に関する問題をトラブルシューティングする方法について説明します。
-ms.openlocfilehash: 85c5a0f37f41e9a254985ff4a23e324aeb9b2c82
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f65e4b6d6bebd463d143bedc1b1cd50f031cb299
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583531"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777157"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows での Microsoft Teams のインストールと更新に関する問題のトラブルシューティング
 

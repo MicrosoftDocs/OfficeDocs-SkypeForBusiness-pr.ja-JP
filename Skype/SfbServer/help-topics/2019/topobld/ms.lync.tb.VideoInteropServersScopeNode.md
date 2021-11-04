@@ -1,7 +1,7 @@
 ---
 title: ビデオ相互運用サーバー - ノードのスコープ設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the Skype for Business Server」を参照してください。
-ms.openlocfilehash: a9404dbf103ec277ed09c2d3e339d1e16dcab1e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 242358555ef9d0f3d92001f61babd1fbccb6acb3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626829"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744913"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>ビデオ相互運用サーバー - ノードのスコープ設定
  

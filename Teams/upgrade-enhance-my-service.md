@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teams要件|サービスの強化
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: アップグレード後に、Teamsサービスを強化する機会を定期的に評価し、Teams機能の強化に関するロードマップを監視します。
+description: アップグレード後に Teams サービスを強化する機会を定期的に評価し、Teams機能の強化に関する新しいロードマップを監視します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b48f06d0a7a380756f391e98103bd0be24179795
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4cfb52a796f0b4636773bced09f68336b1f90df2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733026"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773427"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>アップグレード後に新しいTeamsを利用する
 
 ![運用の優れた段階を強調したアップグレード体験図。](media/upgrade-banner-op-excellence.png "Operational Excellence ステージに重点を置いたアップグレード体験のステージ")
 
-この記事は、アップグレード体験の Operational Excellence ステージの一部です。この段階は、Skype for Business から Teams へのアップグレードが完了するとすぐに開始されます。
+この記事は、アップグレード体験の Operational Excellence ステージの一部です。これは、Skype for Business から Teams へのアップグレードが完了するとすぐに開始されます。
 
 この記事では、アップグレード後にオペレーティング システムをTeams概要を説明します。 サービス機能Teams継続的に監視することで、組織にとって最も価値のある機能を確実に提供することができます。
 
@@ -37,7 +37,7 @@ ms.locfileid: "58733026"
 
 Teams を組織に正常にデプロイし、品質と信頼性でサービスを運用したら、次の手順では、サービスを強化する機会が与えされているかどうかを定期的に評価します。 これは、クラウド サービス管理の最新の標準である継続的なサービス改善計画の一部です。
 
-常にサービスを有効に利用するための最適な方法は[、Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)パブリック ロードマップを監視して、組織にとって関心のある新機能の強化を確認する方法です。 このサービスにアクセスできるMicrosoft 365 管理センター、メッセージ センターを通じて新機能と変更機能に関する定期的な更新プログラムを受け取ります。
+常にサービスを有効に利用するための最適な方法は[、Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)パブリック ロードマップを監視して、組織にとって関心のある新機能の機能強化を確認する方法です。 新しいサービスにアクセスできるMicrosoft 365 管理センター、メッセージ センターを通じて新機能と変更機能に関する定期的な更新プログラムを受け取ります。
 
 サービスを強化する機会が見つかったら、時間をかけて適切に行ってください。 「チャット、[チーム、チャネル](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、アプリをデプロイする」Microsoft Teams実装フェーズを見直し[](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、同じガイダンスをエンド エンド で適用します。 小規模で増分的な変更を行う場合、すべてのアクティビティとタスクを完全に完了する必要がある可能性は低いですが、成功した結果を得る最良の機会を得る最善の機会を得る方法に沿って各アクティビティとタスクを必ず評価する必要があります。
 

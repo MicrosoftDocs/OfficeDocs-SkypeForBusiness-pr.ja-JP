@@ -1,7 +1,7 @@
 ---
 title: MN トランク (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: Skype for Business Server エンタープライズ VoIP仲介サーバーと PSTN ゲートウェイ、セッション ボーダー コントローラー、IP-PBX などのコンポーネント間の M:N トランキングをサポートします。
-ms.openlocfilehash: 6c63c01609e35be014aae9c3019c8f96c9b95b41
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 28f5d7e9aae5406f54104e3411ecec6ba65ab7f4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601342"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770125"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>M:N トランク (Skype for Business Server
  

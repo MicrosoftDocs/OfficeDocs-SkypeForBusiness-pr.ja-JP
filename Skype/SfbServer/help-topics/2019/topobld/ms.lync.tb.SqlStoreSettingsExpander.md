@@ -1,7 +1,7 @@
 ---
 title: SQL ストア設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 ROBOTS: NOINDEX, NOFOLLOW
 description: データベースのプロパティを編集するにはSQL Serverデータベース インスタンスをSQL Serverする必要があります。 [プロパティの編集] ダイアログ ボックスで、アーカイブ サーバー データベースをコンピューター間で移動するなどのタスクを実行することはできません。 また、[プロパティの編集] ダイアログ ボックスを使用して、サーバーの全体管理ストアをSQL Serverのインスタンスを変更することはできません。
-ms.openlocfilehash: 46fc03549c4ced4f0a3c44882eab3fcfc03e7df5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 53d0092b634e102f7fd2511ff57d32fe575e886e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625379"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739693"
 ---
 # <a name="sql-store-settings-expander"></a>SQL ストア設定エキスパンダー
  

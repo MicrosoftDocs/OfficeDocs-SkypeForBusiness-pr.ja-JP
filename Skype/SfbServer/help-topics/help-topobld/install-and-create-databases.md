@@ -1,7 +1,7 @@
 ---
 title: データベースのインストールと作成
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: 展開用に作成するデータベースを選択します。 既定では、データベースは定義されたサイトの定義済みの SQL Server に作成され、データベースを配置する SQL Server に基づいてデータベース ファイルを自動的に展開および構成します。
-ms.openlocfilehash: f79ac80aac6133396ab2c8dd1a008d82c33c4176
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 67d30a8f9997435175a0b90067d5f61de51be202
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618863"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770475"
 ---
 # <a name="install-and-create-databases"></a>データベースのインストールと作成
 

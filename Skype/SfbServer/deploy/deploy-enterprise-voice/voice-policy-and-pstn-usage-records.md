@@ -1,7 +1,7 @@
 ---
 title: 音声ポリシーを作成または変更し、音声ポリシーで PSTN 使用法レコードを構成Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: '概要: 音声ポリシーを作成または変更し、PSTN 使用法レコードを構成するには、次のコントロール Skype for Business Server使用します。'
-ms.openlocfilehash: 80e19ed7c271df8b27f53062d4647a39fd6e7491
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0188881fe91d527c64b95a8cac49ba91ed12bf5f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605576"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769605"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>音声ポリシーを作成または変更し、音声ポリシーで PSTN 使用法レコードを構成Skype for Business
 
@@ -104,7 +104,7 @@ ms.locfileid: "58605576"
 
    - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。
 
-     d.  [**OK**] をクリックします。
+     d. [**OK**] をクリックします。
 
    - この音声ポリシーに既に関連付けられている PSTN 使用法レコードを編集するには、次の操作を実行します。
 
@@ -158,7 +158,7 @@ ms.locfileid: "58605576"
 
    - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。
 
-     d.  [**OK**] をクリックします。
+     d. [**OK**] をクリックします。
 
    - この音声ポリシーに既に関連付けられている PSTN 使用法レコードを編集するには、次の操作を実行します。
 
@@ -253,7 +253,7 @@ ms.locfileid: "58605576"
 
    - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。
 
-     d.  [**OK**] をクリックします。
+     d. [**OK**] をクリックします。
 
    - この音声ポリシーに既に関連付けられている PSTN 使用法レコードを編集するには、次の操作を実行します。
 
@@ -307,7 +307,7 @@ ms.locfileid: "58605576"
 
    - この PSTN 使用法レコードに既に関連付けられているルートを編集するには、ルートを選択状態にして [**詳細の表示**] をクリックします。詳細については、「[Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)」を参照してください。
 
-     d.  [**OK**] をクリックします。
+     d. [**OK**] をクリックします。
 
    - この音声ポリシーに既に関連付けられている PSTN 使用法レコードを編集するには、次の操作を実行します。
 

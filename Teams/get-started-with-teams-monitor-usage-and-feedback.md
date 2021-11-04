@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams での使用状況とフィードバックを監視する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/20/2019
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2def0aef8c7cd90319549b82ef591c42ecf09dbc
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dbb08816dddb29694c6983cd9172b3be8d04ed6d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732006"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777527"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Microsoft Teams での使用状況とフィードバックを監視する
 ユーザーがどのように Teams を使用していているか、また Teams に関するユーザーのエクスペリエンスはどのようなものかを知ることは重要です。 使用状況レポートは、使用パターンを正しく理解するために役立ちます。また、ユーザーのフィードバックと併用することで、広範な展開の情報を確認し、トレーニングとコミュニケーションの取り組みに関する優先順位を決定するための見識が得られます。

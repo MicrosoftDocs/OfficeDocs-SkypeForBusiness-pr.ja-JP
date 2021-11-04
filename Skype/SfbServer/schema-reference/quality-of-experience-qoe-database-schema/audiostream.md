@@ -1,7 +1,7 @@
 ---
 title: AudioStream テーブル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: 各レコードは、1 つのオーディオ ストリームを表します。 通常、1 つのオーディオ メディア回線には 2 つのオーディオ ストリームが含まれる。
-ms.openlocfilehash: 5b442c011d9e65e67fdc5cb06dd79c0f5fbee8c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0ca913e042b988d20aad644af65fed7970d2afa8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627759"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763255"
 ---
 # <a name="audiostream-table"></a>AudioStream テーブル
  
 各レコードは、1 つのオーディオ ストリームを表します。 通常、1 つのオーディオ メディア回線には 2 つのオーディオ ストリームが含まれる。
   
-|列|データ型|キー/インデックス|詳細|
+|Column|データ型|キー/インデックス|詳細|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |日付型  <br/> |Primary  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |[MediaLine テーブルから参照されます](medialine-0.md)。  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: ライブ イベント記録ポリシー
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: ライブ イベント記録ポリシーについて説明します
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bd9f800ed85d994f797c5e49d64ae0e84f90885c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 01fe1b00a4c8367dfd9c1274e3591a03b3c09634
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613456"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769805"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>ライブ イベント記録ポリシー (Microsoft Teams
 

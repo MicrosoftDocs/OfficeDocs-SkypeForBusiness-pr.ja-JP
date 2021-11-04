@@ -1,7 +1,7 @@
 ---
 title: 管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: '概要: これらのリンクを参照して、管理と管理を行う方法Skype for Business Server。'
-ms.openlocfilehash: 550e05fdfefb5f3743452b2ecf080b9835297b45
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 23312383a68b05de6d93e52b68f3b5c4c36192dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012521"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763603"
 ---
 # <a name="manage-skype-for-business-server"></a>管理Skype for Business Server 
 
@@ -32,7 +32,7 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
 
 管理方法の詳細については、次のリソースを参照Skype for Business Server。
   
-|&nbsp;|Content|説明|
+|&nbsp;|コンテンツ|説明|
 |:-----|:-----|:-----|
 |![技術図のアイコン。](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[データの技術図Skype for Business Server](../technical-diagrams.md)  |大判の図によって各アーキテクチャを一目で確認できます。   |
 |![ビデオのアイコン。](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|ビデオ デモとトレーニング -  *近日公開予定!*   |ビデオプレゼンテーションとトレーニングをSkype for Business Server。   |
@@ -41,7 +41,7 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
 
 構成、監視、および保守の方法に関する以下の記事Skype for Business Serverオンラインで表示できます。 
   
-|&nbsp;|Content|説明|
+|&nbsp;|コンテンツ|説明|
 |:-----|:-----|:-----|
 |![数値の [方法] アイコン。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[トポロジを管理Skype for Business Server](topology/topology.md)  |このセクションのトピックでは、Skype for Business Server コントロール パネルと管理シェルを使用してサーバーをアップグレード、更新、追加、および削除するためのSkype for Business Server手順を示します。   |
 |![数値の [方法] アイコン。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[正常性と監視を管理Skype for Business Server](health-and-monitoring/health-and-monitoring.md)  |このセクションのトピックでは、コントロール パネルと管理シェルを使用して実行できる監視および正常性構成タスクのSkype for Business Server手順Skype for Business Server示します。   |

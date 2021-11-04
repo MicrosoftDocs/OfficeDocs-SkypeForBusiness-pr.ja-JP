@@ -1,7 +1,7 @@
 ---
 title: 手動で場所を取得するためのユーザー エクスペリエンスを定義Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: SIP トランキング プロバイダーを使用した E9-1-1 展開でのローミング ユーザー Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 8ca43e8d81d16068806c3416687f73c090a3cbae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 263c2e79e340492b27d196f73373505f7c1e4f66
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602382"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770115"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>手動で場所を取得するためのユーザー エクスペリエンスを定義Skype for Business Server
  

@@ -1,7 +1,7 @@
 ---
 title: 証明書要求 (基本)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[名前とセキュリティ 設定] ページには、フレンドリー名、プライベート キーと公開キーのペアのビット長のドロップダウン リスト、および証明書のプライベート キーをエクスポート可能としてマークするチェック ボックスを定義するテキスト ボックスが用意されています。'
-ms.openlocfilehash: 051c883525582559756a4c3ec3b03e921314e9ef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd25ae54d5f5fe801c1beaf0de1c81eb2d7a0b60
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591881"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740033"
 ---
 # <a name="certificate-request-basic"></a>証明書要求 (基本)
  

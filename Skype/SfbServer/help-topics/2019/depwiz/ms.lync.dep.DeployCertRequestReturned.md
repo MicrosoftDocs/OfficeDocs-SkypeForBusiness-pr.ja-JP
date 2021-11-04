@@ -1,7 +1,7 @@
 ---
 title: 証明書要求 (結果)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[オンライン証明書要求の状態] ページには、オンライン証明書要求を適切に作成および発行した結果として、重要な情報が表示されます。 このページには、証明書を一意に識別する証明書の拇印が表示されます。 既定では、[証明書の使用状況にこの証明書を割り当Skype for Business Server] チェック ボックスがオンになっています。 [完了] をクリックすると、証明書要求の作成手順で定義した目的Skype for Business Serverに証明書が自動的に割り当てられます。 既定では、証明書を割り当てる目的は次のとおりです。'
-ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f92c95fa5d1588d7563791dca38da46c550048b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581781"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740053"
 ---
 # <a name="certificate-request-returned"></a>証明書要求 (結果)
  

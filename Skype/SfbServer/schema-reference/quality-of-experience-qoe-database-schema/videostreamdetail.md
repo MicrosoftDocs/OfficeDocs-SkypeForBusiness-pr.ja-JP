@@ -1,7 +1,7 @@
 ---
 title: VideoStreamDetail ビュー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail ビューには、データベース内の各ビデオ ストリームに関する情報が格納されています。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 465684ed4cfc857ede340d960f82d8be13031808
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fc778060163047b80ad7c523e2ca93414a23e25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609094"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756058"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail ビュー
  

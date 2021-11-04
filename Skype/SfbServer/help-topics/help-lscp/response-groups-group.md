@@ -1,7 +1,7 @@
 ---
 title: 応答グループ グループ
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: 応答グループは、エージェント グループ、キュー、ワークフローで構成されます。 エージェント グループは、応答グループの呼び出しに応答するために指定されたユーザーのグループです。
-ms.openlocfilehash: 70b129a48138eaf6f49ac3b6ead920b5a2ce71a8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: afe56ae2f63ba934543176b5f1ca417a6457d208
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629779"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739543"
 ---
 # <a name="response-groups-group"></a>応答グループ: グループ
 

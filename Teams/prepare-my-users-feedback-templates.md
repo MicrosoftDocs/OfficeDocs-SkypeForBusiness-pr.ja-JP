@@ -1,7 +1,7 @@
 ---
 title: Teams または Skype for Business のフィードバックアンケート
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,18 +16,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f08760e7af5b40a063f0dd43c1b728444884bb9d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98ec763d93609d0b5b4a37cf6fa02b71c478def
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594519"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773437"
 ---
 # <a name="user-feedback-surveys"></a>ユーザー フィードバックアンケート 
 
-フィードバックアンケートを使用して、デプロイ後のユーザーのエクスペリエンスと分析情報をキャプチャします。 質問は、変更に対するユーザーの受け入れ、トレーニング リソースの有効性、サポート プランの準備が整ったか、ユーザーの全体的なエクスペリエンスに関するフィードバックを得る必要があります。 プロジェクト計画中に定義した SMART (特定の、測定可能、達成可能、関連性のある、期限付き) の目標に対して測定するためにアンケートの回答を評価し、必要な追加のアクションを決定します。
+フィードバックアンケートを使用して、デプロイ後のユーザーのエクスペリエンスと分析情報をキャプチャします。 質問は、変更に対するユーザーの受け入れ、トレーニング リソースの有効性、サポート プランの準備が整ったか、ユーザーの全体的なエクスペリエンスに関するフィードバックを得る必要があります。 プロジェクト計画中に定義した SMART (特定の、測定可能、達成可能、関連性のある、期限付き) の目標に対して測定するために、アンケートの回答を評価し、必要な追加のアクションを決定します。
 
-以下の質問をカスタマイズし、配布と分析を容易に行SharePointツールに転送します。
+以下の質問をカスタマイズし、配布と分析を容易に行SharePointなどのアンケート ツールに転送します。
 
 これらのアンケートの目的上、新しい電話システムとは、メディア電話や携帯電話などのデバイスに加えて、Microsoft Teams または Skype for Business の通話機能を使用する方法を指します。 これらのアンケート内のMicrosoft Teams参照はすべて、これらのアンケートにもSkype for Business。
 

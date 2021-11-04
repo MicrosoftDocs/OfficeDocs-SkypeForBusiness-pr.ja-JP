@@ -1,7 +1,7 @@
 ---
 title: サーバー内のバック エンド サーバーに Always On 可用性グループを展開Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: サーバーの展開で Always On 可用性グループを展開 (インストール) Skype for Business Serverします。
-ms.openlocfilehash: 72bd60e102bfa121e2b8f7704032f54242aee202
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 69a7627850da06a2a120c0c37fbf83f87c17c277
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620483"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755646"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>サーバー内のバック エンド サーバーに Always On 可用性グループを展開Skype for Business Server
  

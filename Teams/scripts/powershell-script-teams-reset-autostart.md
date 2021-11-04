@@ -1,13 +1,13 @@
 ---
-title: PowerShell のサンプル スクリプト - クイック スタートの自動開始設定をリセットTeams
+title: PowerShell のサンプル スクリプト - 自動開始設定を既定でリセットTeams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、ユーザーごとに Teamsの自動開始設定をリセットします。
+description: この PowerShell スクリプトを使用して、ユーザーごとに自動Teams設定をリセットします。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a0ffe1db589541e3e4301dd81f95546615be2db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 309254304673093428ce06ce9867e1113c409682
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634021"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755923"
 ---
-# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell のサンプル スクリプト - クイック スタートの自動開始設定をリセットTeams
+# <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell のサンプル スクリプト - 自動開始設定を既定でリセットTeams
 
 このスクリプトを使用して、Teamsに基づいて自動開始設定をリセットします。 これには、ユーザーまたはアプリによって設定された値Teams含まれます。 既定では、Teamsがインストールされた後にコンピューターにログインすると、自動的に起動されます。
 
-Teams を既にデプロイ済みで、[グループ ポリシーのインストール後[](../msi-deployment.md#use-group-policy-recommended)に Microsoft Teams が自動的に開始されるのを防ぐ] 設定を設定して Teams の自動開始を無効にする場合は、最初にグループ ポリシー設定を必要な値に設定してから、このスクリプトを実行する必要があります。
+Teams を既にデプロイ済みで、インストール後に Microsoft Teams[](../msi-deployment.md#use-group-policy-recommended)が自動的に開始されるのを防ぐグループ ポリシー設定を設定して Teams の自動開始を無効にする場合は、まずグループ ポリシー設定を必要な値に設定してから、このスクリプトを実行する必要があります。
 
 ユーザー Teams開始した後は、グループ ポリシーを使用して自動開始設定を無効にすることはできません。
 
@@ -147,7 +147,7 @@ if($null -eq $teamsProc) {
 }
 ````
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [MSI を使用した Teams のインストール](../msi-deployment.md)
 - [新しいTeamsをデプロイMicrosoft 365 Apps for enterprise](/deployoffice/teams-install)

@@ -1,7 +1,7 @@
 ---
 title: アプリケーション レベルの応答グループの設定を管理するSkype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: アプリケーション レベルの応答グループ設定 (保留音やリングバック設定など) を管理Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 75a9216251b44048811cf1308be431c0eaeae045
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6cce6872bc0e1ee017d46eee4ee547c6e9aabd25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620173"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769615"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>アプリケーション レベルの応答グループの設定を管理するSkype for Business
  

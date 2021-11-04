@@ -1,7 +1,7 @@
 ---
 title: 2015 年に常設チャット サーバーの高可用性と障害復旧をSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: '概要: このトピックでは、2015 年に常設チャット サーバーの高可用性と障害復旧を構成するSkype for Business Serverしてください。'
-ms.openlocfilehash: 265065a5b4ff52dc65dccb4b0e045e3d9e21c452
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b4377d2151adfccd591bb7c59d7d8854f03e453b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601882"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755636"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年に常設チャット サーバーの高可用性と障害復旧をSkype for Business Serverする
  
@@ -48,9 +48,9 @@ Skype for Business Server、データベース ミラーリングを含む、バ
     
     c. [ログ配布SQL Server有効にする] をクリックします。
     
-    d.  ログ配布SQL Serverを追加SQL Serverします。
+    d. ログ配布SQL Serverを追加SQL Serverします。
     
-    e.  セカンダリ データベースSQL Serverミラーを追加します。
+    e. セカンダリ データベースSQL Serverミラーを追加します。
     
     f. トポロジを公開します。
     

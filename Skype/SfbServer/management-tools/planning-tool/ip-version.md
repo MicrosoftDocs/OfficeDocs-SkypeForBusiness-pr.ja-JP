@@ -1,7 +1,7 @@
 ---
 title: IP バージョン計画ツール
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: Skype for Business Server 2015 で IP アドレスを構成する場合は、Skype for Business Server 2015 を構成して IP バージョン 4 (IPv4)、IP バージョン 6 (IPv6) のみ、または両方の組み合わせ (デュアル スタックと呼ばれる) をサポートする 3 つのオプションがあります。
-ms.openlocfilehash: 0140abac90377c9658ca6de29a8429ca1296539e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c239858aef79c648a8dca45cc488978d02da65c2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617763"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756864"
 ---
 # <a name="ip-version-planning-tool"></a>IP バージョン計画ツール
  

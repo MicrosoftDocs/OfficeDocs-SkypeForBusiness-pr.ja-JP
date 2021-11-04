@@ -1,7 +1,7 @@
 ---
 title: ワークフローでの応答グループ ワークフローの設計とSkype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 応答グループ のワークフローを設計し、作成Skype for Business Server エンタープライズ VoIP。 ハント グループ ワークフローと対話型ワークフローの両方について説明します。
-ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 842cbf321dc4e4f54ff244e9e809517807a6686c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730956"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755760"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>ワークフローでの応答グループ ワークフローの設計とSkype for Business
 
@@ -238,7 +238,7 @@ ms.locfileid: "58730956"
     > [!NOTE]
     > ハント グループ ワークフローの場合、既定のアクションで呼び出しをキューに送信する必要があります。 このパラメーターは、アクティブなワークフローに必要です。 非アクティブなワークフローには必要ありません。
 
-    次に例を示します。
+    例:
 
    ```powershell
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity

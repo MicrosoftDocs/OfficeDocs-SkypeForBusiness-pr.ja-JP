@@ -1,7 +1,7 @@
 ---
 title: 2015 年Skype for Business Server会議の表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: この表の各レコードには、1 つの会議に関する通話の詳細が含まれている。
-ms.openlocfilehash: dfc1c12908e60c7a5b205c154e30175168871ceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 22d394ca447852a32d8028770d7ceefea7adbcf1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635211"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763415"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>2015 年Skype for Business Server会議の表
  
@@ -34,7 +34,7 @@ ms.locfileid: "58635211"
 |**ConferenceEndTime** <br/> |日付型  <br/> | <br/> |会議の開始時刻。  <br/> |
 |**PoolId** <br/> |int  <br/> |外部  <br/> |会議がキャプチャされたプールを識別する ID 番号。 詳細については [、「Pools」の表](pools.md) を参照してください。 <br/> |
 |**OrganizerId** <br/> |Int  <br/> |外部  <br/> |この会議の開催者 URI を識別する ID 番号。 詳細については [、「Users」テーブル](users.md) を参照してください。 <br/> |
-|**Flag** <br/> |smallint  <br/> || 会議属性を含むビット マスク。 使用可能な値は次のいずれかです。 <br/>  0X01 <br/>  合成 <br/>  トランザクション <br/> |
+|**Flag** <br/> |smallint  <br/> || 会議属性を含むビット マスク。 使用可能な値は次のとおりです。 <br/>  0X01 <br/>  合成 <br/>  トランザクション <br/> |
 |**処理** <br/> |ビット  <br/> ||監視サービスで使用される内部フィールド。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> ||監視サービスの内部用テーブル。  <br/> このフィールドは、2015 年Skype for Business Serverされました。  <br/> |
    

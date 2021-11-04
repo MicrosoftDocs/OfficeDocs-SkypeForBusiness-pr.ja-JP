@@ -1,6 +1,6 @@
 ---
 title: 2019 年のデスクトップ クライアントSkype for Business Server比較
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: Skype for Business Server 2019 または Skype for Businessオンライン管理者は、これらのテーブルを使用して、どのクライアントでサポートされている機能を理解できます。'
-ms.openlocfilehash: 5cfe72bbb680a6b127505b57456de2d513fd41bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 556b88bfe587d1d5a5a1c78461863f0ae8f8fbbf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592951"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777407"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>2019 年のデスクトップ クライアントSkype for Business Server比較
 

@@ -1,7 +1,7 @@
 ---
 title: メディア テーブル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: 各レコードは、ピアツーピア セッションで使用される 1 つのメディア種類を表します。複数のメディア種類が使用されている場合、1 つのセッションがテーブルでは複数のレコードによって表されます。
-ms.openlocfilehash: 98c849c4ecde8e1c3be40d0aab3af606a400fb0e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a32a61d5ba7c3aa7d3a77008af373a5ea45daeda
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629429"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756470"
 ---
 # <a name="media-table"></a>メディア テーブル
  

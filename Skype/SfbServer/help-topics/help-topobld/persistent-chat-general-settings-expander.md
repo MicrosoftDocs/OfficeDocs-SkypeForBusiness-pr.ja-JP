@@ -1,7 +1,7 @@
 ---
 title: 常設チャット全般設定の展開
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: これらのプロパティを構成または定義することで、常設チャット サーバーまたは常設チャット サーバー プールの全般設定を編集します。
-ms.openlocfilehash: 25208b2d4c7e4bc04e648998254406ff4e299d4f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4de31f3fd6af4dfea023d490ea849f5b58963085
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610764"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762545"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>常設チャット全般設定エキスパンダー
  

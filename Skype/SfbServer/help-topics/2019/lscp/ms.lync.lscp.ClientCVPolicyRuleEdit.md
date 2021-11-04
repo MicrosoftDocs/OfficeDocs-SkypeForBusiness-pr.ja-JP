@@ -1,7 +1,7 @@
 ---
 title: クライアント バージョン ルール
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: クライアント バージョン ポリシーは、一連のクライアント バージョン ルールで構成されます。これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。
-ms.openlocfilehash: 44f47f0281d03e63a87ce0e56ecfa1c77c516f27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e24921156470b1a91dc9f7421913c1fa6da1ef35
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597181"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769535"
 ---
 # <a name="client-version-rule"></a>クライアント バージョン ルール
 
@@ -83,7 +83,7 @@ ms.locfileid: "58597181"
 
   - **以前**
 
-- **アクション** 前の手順の条件が満たされた場合に実行するアクションを指定できます。 次のアクションを使用できます。
+- **アクション** 前の手順の条件が満たされた場合に実行するアクションを指定できます。 次の操作を実行できます。
 
   - **許可する** クライアントにログオンを許可します。
 

@@ -1,7 +1,7 @@
 ---
 title: Skype for Business と Exchange の統合の計画
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '概要: このトピックでは、2016 年または 2013 年Skype for Business Server 2016 Exchange Serverと統合Exchange Serverしてください。'
-ms.openlocfilehash: f2650e8a18767e70ab98e8763e9ec2863e99df90
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 323add0bdc06617f80fba852b8179b3f6b7e315d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012561"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773467"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Skype for Business と Exchange の統合の計画
  

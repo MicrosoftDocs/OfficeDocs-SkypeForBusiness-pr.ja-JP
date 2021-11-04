@@ -1,7 +1,7 @@
 ---
 title: 音声ルートを作成または変更Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: '概要: [コントロール パネル] コントロール パネルを使用して、Skype for Business Serverルートを作成または変更Skype for Business Serverします。'
-ms.openlocfilehash: 8b1ca3dc6120fb4e8432736672ee4821e894da56
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ee7f4a0f5d09a36fd1d8e5bcd88a15cd01cc6657
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611242"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755770"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>音声ルートを作成または変更Skype for Business
  

@@ -1,7 +1,7 @@
 ---
 title: 常設チャット サーバーのテーブルのリスト
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: 常設チャット データベース スキーマは、次の表で構成されます。
-ms.openlocfilehash: 2d5accc32b01c4c854fc3603e4ec3c1dc61a115b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e0586776d13a9e958ba30a84e421e4cba92ba12c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606036"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763325"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>常設チャット サーバーのテーブルのリスト
  

@@ -1,7 +1,7 @@
 ---
 title: 仲介サーバーをエッジと関連付ける
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 仲介サーバーを定義するには、仲介サーバーを、フロントエンド サーバーおよびエッジ サーバーまたはプールと関連付ける設定を指定します。仲介サーバーまたはプールを、エッジ サーバーまたはエッジ サーバー プールと関連付けるには、次の操作を行います。
-ms.openlocfilehash: e213b47575a28b3803d0ccd63f7d986416dbd0f7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe4745dc92369c47bdd1e1292bd0b4e6ddab2099
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630831"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758329"
 ---
 # <a name="associate-mediation-server-with-edge"></a>仲介サーバーとエッジの関連付け
  

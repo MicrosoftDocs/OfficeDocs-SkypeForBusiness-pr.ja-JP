@@ -1,7 +1,7 @@
 ---
 title: クライアント バージョン ルール
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: クライアント バージョン ポリシーは、一連のクライアント バージョン ルールで構成されます。これらのルールでは、ユーザーが特定のクライアントおよびクライアント バージョンでログオンしようとしたときに実行するアクションが定義されています。
-ms.openlocfilehash: 5f952c1a1c04e98a2635876d3746e828a086daf9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 91026c625e2fde1bafe99a1b3ffd8a669130fc70
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609544"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758509"
 ---
 # <a name="client-version-rule"></a>クライアント バージョン ルール
 
@@ -83,7 +83,7 @@ ms.locfileid: "58609544"
 
   - **以前**
 
-- **アクション** 前の手順の条件が満たされた場合に実行するアクションを指定できます。 次のアクションを使用できます。
+- **アクション** 前の手順の条件が満たされた場合に実行するアクションを指定できます。 次の操作を実行できます。
 
   - **許可する** クライアントにログオンを許可します。
 

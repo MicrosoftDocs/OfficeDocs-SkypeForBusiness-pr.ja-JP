@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の導入の推進を開始する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: この記事では、導入の開始、実験、および有効化のフェーズMicrosoft Teamsします。
+description: この記事では、導入の開始、実験、有効化のフェーズについてMicrosoft Teamsします。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab173455ea4de3ee141fb1d498945f22a3e3e9ae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8634e1071585fe026faec0fcfc5b2753317ae6b4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733736"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769825"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Microsoft Teams の導入の推進を開始する
 
-クラウド サービスの導入Microsoft Teams、優れたユーザー エクスペリエンスと企業内でのビジネス価値の向上を実現できます。 私たちの目標は、お客様が新しいサービスを使い始めTeams。 このガイドでは、Teams のユーザーの導入に焦点を当て、環境の技術的な準備に依存しています。これは、このドキュメントの他のセクションで説明されています。
+クラウド サービスの導入Microsoft Teams、優れたユーザー エクスペリエンスと企業内でのビジネス価値の向上を実現できます。 私たちの目標は、新しいサービスを使って体験を始めTeams。 このガイドでは、Teams のユーザーの導入に焦点を当て、環境の技術的な準備に依存しています。これは、このドキュメントの他のセクションで説明されています。
 
 ## <a name="adoption-prerequisites"></a>導入の前提条件
 
@@ -54,9 +54,9 @@ Microsoft 365とOffice 365、サービスの主要なワークロードに適用
 
 - **実験** - 制御された成長のこのフェーズでは、内部チャンピオンと早期導入者をオンボードします。 ビジネス ユーザーと話し合って、ユーザーが提供するコラボレーション機能と通信機能からすぐにメリットを得るシナリオTeamsします。 広範な導入フェーズを通知するフィードバックを収集し、デプロイを成功させるガバナンスとライフサイクル管理に関するサービスの決定を行います。
 
-- **スケール**- これは、すべての従業員に対して新しい機能を有効Teams展開フェーズです。 このフェーズでは、組織の規模によって、これがすべての従業員に対して Teams を同時に有効にする "大きな" プロジェクトか、地域、事業単位、または従業員の人口をセグメント化するその他の方法でこの方法に近づくかどうかを決定します。 このフェーズでは、継続的デリバリー モデルに移行します。 従業員、リーダー、および事業単位は、Teams の使用を拡大したいと考えています。Teams と Microsoft 365 または Office 365 のその他の機能を最適に使用する方法を理解するために、トレーニングと関与が必要になります。
+- **スケール**- これは、すべての従業員に対して新しい機能を有効Teams大規模な展開フェーズです。 このフェーズでは、組織の規模によって、これがすべての従業員に対して Teams を同時に有効にする "大きな" プロジェクトか、地域、事業単位、または従業員の人口をセグメント化するその他の方法でこの方法に近づくかどうかを決定します。 このフェーズでは、継続的デリバリー モデルに移行します。 従業員、リーダー、およびビジネス ユニットは、Teams の使用を拡大したいと考えています。Teams と Microsoft 365 または Office 365 のその他の機能を最適に使用する方法を理解するために、トレーニングと関与が必要になります。
 
-これらの導入フェーズは、各導入フェーズの技術的および環境的な準備状況にTeams。 では、始めましょう。
+これらの導入フェーズは、各導入フェーズの技術的および環境的な準備にTeams。 では、始めましょう。
 
 
 ![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [Microsoft Teams導入フェーズ 1: 開始](teams-adoption-phase1.md)|

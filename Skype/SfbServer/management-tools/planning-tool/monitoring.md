@@ -1,7 +1,7 @@
 ---
 title: 監視計画ツール
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 2015 Skype for Business Serverでは、監視はユーザーの通信セッションに関する利用状況情報と QoE (QoE) データを収集します。
-ms.openlocfilehash: c5299c9f143cb294d790bdb41ec82c55808d2985
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f0e85725590584f98d08bcb33517e22bea4f8487
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591041"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756578"
 ---
 # <a name="monitoring-planning-tool"></a>監視計画ツール
 

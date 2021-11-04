@@ -1,7 +1,7 @@
 ---
 title: '[通話の詳細の記録] と [エクスペリエンスの品質] の設定を構成Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: '概要: CDR と QoE を構成する方法についてSkype for Business Server。'
-ms.openlocfilehash: 5e04ac3fcf269ba9520e874e123f165f2fd4269a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: abb6996a7483afb8526731ac69404174883ce313
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604236"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745323"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>[通話の詳細の記録] と [エクスペリエンスの品質] の設定を構成Skype for Business Server
  
@@ -35,19 +35,19 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 
 サーバーをインストールSkype for Business Server、CDR と QoE の両方のグローバル構成設定の定義済みのコレクションもインストールします。 以下の表に、通話詳細記録で比較的よく使用される一部の設定の既定値を示します。
   
-|**プロパティ**|**説明**|**既定値**|
+|**Property**|**説明**|**既定値**|
 |:-----|:-----|:-----|
-|EnableCDR  <br/> |CDR が有効かどうかを示します。True の場合、すべての CDR レコードが収集され、監視データベースに書き込まれます。  <br/> |正解  <br/> |
-|EnablePurging  <br/> |CDR レコードをデータベースから定期的に削除するかどうかを示します。True の場合、KeepCallDetailForDays プロパティ (CDR レコードの場合) および KeepErrorReportForDays プロパティ (CDR エラーの場合) で指定されている期間を過ぎると、レコードが削除されます。False の場合、CDR レコードは無期限に保持されます。  <br/> |正解  <br/> |
+|EnableCDR  <br/> |CDR が有効かどうかを示します。True の場合、すべての CDR レコードが収集され、監視データベースに書き込まれます。  <br/> |True  <br/> |
+|EnablePurging  <br/> |CDR レコードをデータベースから定期的に削除するかどうかを示します。True の場合、KeepCallDetailForDays プロパティ (CDR レコードの場合) および KeepErrorReportForDays プロパティ (CDR エラーの場合) で指定されている期間を過ぎると、レコードが削除されます。False の場合、CDR レコードは無期限に保持されます。  <br/> |True  <br/> |
 |KeepCallDetailForDays  <br/> |CDR レコードをデータベース内に保持する日数を指定します。指定した日数を超えて存在する古いレコードはすべて自動的に削除されます。ただし、この処理は削除が有効になっている場合にのみ実行されます。  <br/> KeepCallDetailForDays には、1 ～ 2,562 (約 7 年間の日数に相当) の範囲の任意の整数値を設定できます。  <br/> |60 (日)  <br/> |
 |KeepErrorReportForDays  <br/> |CDR エラー レポートが保持される日数を示します。指定した日数より古いレポートは自動的に削除されます。 CDR エラー レポートは、クライアント アプリケーションによってアップロードされた診断レポートです (Skype for Business Server)。  <br/> このプロパティには、1 ～ 2,562 (日) の範囲の任意の整数値に指定できます。  <br/> |60 (日)  <br/> |
    
 同様に、一部の QoE 設定の既定値を以下の表に示します。
   
-|**プロパティ**|**説明**|**既定値**|
+|**Property**|**説明**|**既定値**|
 |:-----|:-----|:-----|
-|EnableQoE  <br/> |QoE 監視が有効かどうかを示します。True の場合、すべての QoE レコードが収集され、監視データベースに書き込まれます。  <br/> |正解  <br/> |
-|EnablePurging  <br/> |QoE レコードをデータベースから定期的に削除するかどうかを示します。True の場合、KeepQoEDataForDays プロパティで指定されている期間を過ぎると、レコードが削除されます。False の場合、QoE レコードは無期限に保持されます。  <br/> |正解  <br/> |
+|EnableQoE  <br/> |QoE 監視が有効かどうかを示します。True の場合、すべての QoE レコードが収集され、監視データベースに書き込まれます。  <br/> |True  <br/> |
+|EnablePurging  <br/> |QoE レコードをデータベースから定期的に削除するかどうかを示します。True の場合、KeepQoEDataForDays プロパティで指定されている期間を過ぎると、レコードが削除されます。False の場合、QoE レコードは無期限に保持されます。  <br/> |True  <br/> |
 |KeepQoEDataForDays  <br/> |QoE レコードをデータベース内に保持する日数を指定します。指定した日数を超えて存在する古いレコードはすべて自動的に削除されます。ただし、この処理は削除が有効になっている場合にのみ実行されます。  <br/> KeepCallDetailForDays は、1 ～ 2562 (日) の範囲の任意の整数値に設定できます。  <br/> |60 日  <br/> |
    
 これらのグローバル設定を変更する必要がある場合は、このコマンドレットと Set-CsCdrConfigurationをSet-CsQoEConfigurationできます。 たとえば、このコマンド (Skype for Business Server管理シェル内から実行) は、グローバル スコープでの CDR 監視を無効にします。EnableCDR プロパティを False (既定の値) に設定$False。

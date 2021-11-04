@@ -1,7 +1,7 @@
 ---
 title: CodecDescription テーブル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3598acb8-7ea6-4748-8417-149c971c32a2
 description: CodecDescription テーブルは、対応するコーデックに一意コーデック識別子をマップします。 コーデックは、送受信とブロードキャスト用にデジタル信号をコード化し、再生時にそれらの信号を読み取る目的で使用されます。 この表は、Microsoft Lync Server 2013 で導入されました
-ms.openlocfilehash: cfd0953322f9cc34d90947c0d9be7ecb13cd3c33
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0f5601847458f7ce59e0cd691b573ec77605b667
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609174"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763245"
 ---
 # <a name="codecdescription-table"></a>CodecDescription テーブル
  

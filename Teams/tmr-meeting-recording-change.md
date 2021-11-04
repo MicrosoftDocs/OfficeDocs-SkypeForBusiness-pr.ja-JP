@@ -1,7 +1,7 @@
 ---
 title: OneDrive for Business と SharePoint を使用して会議の記録を行う
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6467aedfec406837dcbc79ddf6902aa95d6dde88
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 62e09ef5226e4b934ff4077f095fac931b786d49
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605213"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769755"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
@@ -122,7 +122,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |アドホック/スケジュールされた会議                    |その他の会議メンバー   |レコードをクリックした会議メンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 <br /><br />開催者は編集の権利を持ち、共有できます。<br /><br /> 他のすべての会議メンバーは読み取りアクセス権を持ちます。|
 |外部ユーザーとのアドホック/予定された会議|開催者              |開催者の OneDrive for Business アカウントです。                     |開催者は記録に対して完全な権限を持ちます。<br /> <br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br /> 他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
 |外部ユーザーとのアドホック/予定された会議|その他の会議メンバー   |レコードをクリックしたメンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 開催者は編集の権利を持ち、共有できます。 <br /><br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br />他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
-|チャネル会議                            |チャネル メンバー         |Teams SharePointの場所。 **注**: IP ベースの制限では、SharePointへのチャネル会議の記録アップロードはサポートされていません。 Azure 条件付きアクセス [を使用することをお勧めします](/azure/active-directory/conditional-access/overview)。 |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
+|チャネル会議                            |チャネル メンバー         |Teams SharePointの場所を指定します。 **注**: IP ベースの制限では、SharePointへのチャネル会議の記録アップロードはサポートされていません。 Azure 条件付きアクセス [を使用することをお勧めします](/azure/active-directory/conditional-access/overview)。 |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 

@@ -1,6 +1,6 @@
 ---
 title: SkypeRoom System の移行に関する考慮事項
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: このトピックでは、複数のバージョンの Skypeと Lync Server を持つ環境にルーム システムを展開するSkype for Business Server説明します。
-ms.openlocfilehash: 5a158c3f0797bb3d0377762ea2876dbe5b9d26bb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f3a26b630873bad0d3c8585486c91c7250f452e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598161"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769735"
 ---
 # <a name="skype-room-system-migration-considerations"></a>SkypeRoom System の移行に関する考慮事項
  

@@ -1,7 +1,7 @@
 ---
 title: カザフスタンの空き時間情報
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下は、Microsoft 365とOffice 365、Skype for BusinessおよびMicrosoft Teamsサービスです。
-ms.openlocfilehash: e9950242a6d3658f9fe49c04b188f03202bea585
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: 以下は、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスです。
+ms.openlocfilehash: aeaff9031535df5e7d727f3386ae4264efa62817
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733288"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777537"
 ---
 # <a name="availability-in-kazakhstan"></a>カザフスタンの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-以下は、Microsoft 365とOffice 365、Skype for BusinessおよびMicrosoft Teamsサービスです。
+以下は、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスです。
   
 ## <a name="audio-conferencing"></a>電話会議
 

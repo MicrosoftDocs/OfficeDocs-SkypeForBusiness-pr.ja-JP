@@ -1,7 +1,7 @@
 ---
 title: 2015 年のクライアント エクスペリエンスSkype for Businessする
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: '概要: このトピックを参照して、ユーザーのクライアント エクスペリエンスを構成するSkype for Businessしてください。'
-ms.openlocfilehash: 61bb5e83378215561be2e073883b2e573d141000
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f7cbbe60de10d50d231faa201f3c8830c14f7450
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581831"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773387"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>2015 年のクライアント エクスペリエンスSkype for Businessする
  
@@ -133,11 +133,11 @@ Lync
 |**サーバーのバージョン**|**EnableSkypeUI の設定**|**クライアント エクスペリエンス**|
 |:-----|:-----|:-----|
 |Skype for Business Server |既定値  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |正解  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |不正解  <br/> |Lync モードへの切り替えを求Skype for Businessユーザーは、UI 設定を [ユーザー] に$true)  <br/> |
+|Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
+|Skype for Business Server  |False  <br/> |Lync モードへの切り替えを求Skype for Businessユーザーは、UI 設定を [ユーザー] に$true)  <br/> |
 |Lync Server 2010 または Lync Server 2013 (正しいパッチ付き)  <br/> |既定値  <br/> |Lync モードへの切り替えを求Skype for Businessユーザーは、UI 設定を [ユーザー] に$true)  <br/> |
-|Lync Server 2010 または Lync Server 2013 (正しいパッチ付き)  <br/> |正解  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 または Lync Server 2013 (正しいパッチ付き)  <br/> |不正解  <br/> |Lync モードへの切り替えを求Skype for Businessユーザーは、UI 設定を [ユーザー] に$true)  <br/> |
+|Lync Server 2010 または Lync Server 2013 (正しいパッチ付き)  <br/> |True  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 または Lync Server 2013 (正しいパッチ付き)  <br/> |False  <br/> |Lync モードへの切り替えを求Skype for Businessユーザーは、UI 設定を [ユーザー] に$true)  <br/> |
 |Lync Server 2010 または Lync Server 2013 (パッチなし)  <br/> |既定値  <br/> |Lync モードへの切り替えを求めるユーザー (ユーザーは後でSkype for Businessできません)  <br/> |
    
 次の表は、管理者が UI エクスペリエンスの初期設定を変更した場合のクライアント エクスペリエンスSkype示しています。
@@ -145,10 +145,10 @@ Lync
 
 |**サーバーのバージョン**|**EnableSkypeUI の設定**|**クライアント UI = Lync**|**クライアント UI = Skype for Business**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server |正解  <br/> |ユーザーがユーザーに切り替Skype for Business  <br/> |Skype for Business  <br/> |
-|Skype for Business Server |不正解  <br/> |Lync モード  <br/> |Lync モードへの切り替えを求めるユーザー  <br/> |
-|Lync Server 2010 または Lync Server 2013 (正しいパッチ付き)  <br/> |正解  <br/> |ユーザーがユーザーに切り替Skype for Business  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 または Lync Server 2013 (正しいパッチ付き)  <br/> |不正解  <br/> |Lync モード  <br/> |Lync モードへの切り替えを求めるユーザー  <br/> |
+|Skype for Business Server |True  <br/> |ユーザーがユーザーに切り替Skype for Business  <br/> |Skype for Business  <br/> |
+|Skype for Business Server |False  <br/> |Lync モード  <br/> |Lync モードへの切り替えを求めるユーザー  <br/> |
+|Lync Server 2010 または Lync Server 2013 (正しいパッチ付き)  <br/> |True  <br/> |ユーザーがユーザーに切り替Skype for Business  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 または Lync Server 2013 (正しいパッチ付き)  <br/> |False  <br/> |Lync モード  <br/> |Lync モードへの切り替えを求めるユーザー  <br/> |
 |Lync Server 2010 または Lync Server 2013 (パッチなし)  <br/> |既定値  <br/> |Lync モード (ユーザーに切り替えSkype for Business)  <br/> |Lync モード (ユーザーに切り替えSkype for Business)  <br/> |
    
 クライアントの構成を管理するために必要なパッチ のSkype for Businessは次のとおりです。
@@ -184,7 +184,7 @@ Lync
    |**Field**|**選択または入力する値**|
    |:-----|:-----|
    |**操作** <br/> |**Create** <br/> |
-   |**ハイブ** <br/> | HKEY_CURRENT_USER <br/> |
+   |**Hive** <br/> | HKEY_CURRENT_USER <br/> |
    |**キー パス** <br/> |Software\Microsoft\Office\Lync  <br/> |
    |**値の名前** <br/> |EnableSkypeUI  <br/> |
    |**値の型** <br/> |REG_BINARY  <br/> |

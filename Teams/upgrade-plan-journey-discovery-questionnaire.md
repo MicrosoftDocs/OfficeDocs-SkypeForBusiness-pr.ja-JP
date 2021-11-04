@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teamsアップグレード|環境の評価、検出に関する質問
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: このガイダンスを使用して、現在の環境を適切に評価するための要件について学習し、Teams。
+description: このガイダンスを使用して、現在の環境を適切に評価するための要件について説明し、Teams。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,28 +18,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7b8fa73141777bb55a020871558a7c6b95aba17
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e190445ed74380bfc3745d34b3e1bb94775e016d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629909"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758199"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>検出アンケート - 環境を評価する
 
-次の一連の表は、次の表に、環境を評価する前に環境を評価するのに役立つ質問を示[Teams。](upgrade-plan-journey-evaluate-environment.md)
+次の一連の表では、環境を評価した後に環境を評価するのに役立つ質問を次[Teams。](upgrade-plan-journey-evaluate-environment.md)
 
 - [Microsoft 365またはOffice 365の詳細](#microsoft-365-or-office-365-organization-details)
 - [既存のコラボレーション プラットフォームの概要](#existing-collaboration-platform-summary)
 - [コラボレーション プラットフォームのデプロイの詳細](#collaboration-platform-deployment-details)
-- [ネットワークと、Microsoft 365 サービスOffice 365アクセス](#networking-and-access-to-microsoft-365-or-office-365-services)
+- [ネットワークとサービスMicrosoft 365またはOffice 365アクセス](#networking-and-access-to-microsoft-365-or-office-365-services)
 - [エンドポイント](#endpoints)
 - [操作](#operations)
 - [導入と準備](#adoption-and-readiness)
 
 ## <a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365またはOffice 365の詳細
 
-アンケートを行う場合は、アクティブなMicrosoft 365またはOffice 365組織を作成することを強くお勧めします。 組織のライセンス認証または構成をまだ行っていないMicrosoft 365組織Office 365、「一Microsoft 365のセットアップを[計画する」を参照してください](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)。
+アンケートを使用する場合は、アクティブなMicrosoft 365またはOffice 365組織を作成することを強くお勧めします。 組織のライセンス認証または構成をまだ行っていないMicrosoft 365組織Office 365、「一Microsoft 365のセットアップを[計画する」を参照してください](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)。
 
 次の表を使用して、組織または組織のMicrosoft 365情報Office 365します。
 
@@ -47,14 +47,14 @@ ms.locfileid: "58629909"
 > |---|---|---|
 > | 実稼働環境またはMicrosoft 365にOffice 365する <br>[回答] 列の名前と ID <br/>複数のテナントがある場合 <br>を組織に関連付け、 <br>すべての ID をメモします。 | テナント名: <br/>テナント ID:| |
 > | どのリージョンにテナントがデプロイされていますか。| | |
-> | これらのテナントはマルチテナントMicrosoft 365またはOffice 365テナントか <br>専用ですか? | <input type="checkbox"> マルチテナント<br/> <input type="checkbox"> 専用 | |
-> | 現在使用中の Microsoft Online 製品はどれですか? <br/>各ユーザーが有効になっているユーザーの数を書き込む <br>[コメント] 列の [サービス] を選択します。 | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype for Business <br>&nbsp; &nbsp; &nbsp;オンライン <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePointオンライン <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox"> その他| |
-> | ユーザーに対して有効になっているライセンス レベルSkypeします。 <br>Business Online ユーザー | <input type="checkbox"> E1/G1 <br/> <input type="checkbox"> E2/G2 <br/> <input type="checkbox"> E3/G3 <br/> <input type="checkbox"> E4/G4 E5 <br/> <input type="checkbox"> スタンドアロン | ユーザー数 <br>各 SKU に対して次の条件を実行します。 |
-> | 現在の Active Directory フォレストとは <br>環境内の機能レベル <br/>複数のフォレストがある場合は、詳細を書き込む <br>[コメント] 列に表示されます。 | <input type="checkbox">WindowsServer 2000 <br/> <input type="checkbox">WindowsServer 2003 <br/> <input type="checkbox">WindowsServer 2008<br/> <input type="checkbox">WindowsServer 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012R2 <br/> <input type="checkbox">Windows Server 2016| |
+> | これらのテナントはマルチテナントMicrosoft 365またはOffice 365テナントですか。 <br>専用ですか? | <input type="checkbox"> マルチテナント<br/> <input type="checkbox"> 専用 | |
+> | 現在使用中の Microsoft Online 製品はどれですか? <br/>各ユーザーに対して有効になっているユーザーの数に注意してください。 <br>[コメント] 列の [サービス] を選択します。 | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype for Business <br>&nbsp; &nbsp; &nbsp;オンライン <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePointオンライン <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Yammer <br/> <input type="checkbox"> その他| |
+> | ユーザーに対して有効になっているライセンス レベルSkype。 <br>Business Online ユーザー | <input type="checkbox"> E1/G1 <br/> <input type="checkbox"> E2/G2 <br/> <input type="checkbox"> E3/G3 <br/> <input type="checkbox"> E4/G4 E5 <br/> <input type="checkbox"> スタンドアロン | ユーザー数 <br>各 SKU に対して次の条件を実行します。 |
+> | 現在の Active Directory フォレストとは <br>環境内の機能レベル。 <br/>複数のフォレストがある場合は、詳細を書き込む <br>[コメント] 列に表示されます。 | <input type="checkbox">WindowsServer 2000 <br/> <input type="checkbox">WindowsServer 2003 <br/> <input type="checkbox">WindowsServer 2008<br/> <input type="checkbox">WindowsServer 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012R2 <br/> <input type="checkbox">Windows Server 2016| |
 > | ディレクトリに使用している機能 <br>同期を今すぐ行う場合 |<input type="checkbox"> 同期なし (クラウドのみ) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp; &nbsp; &nbsp;接続 <br/> <input type="checkbox"> その他 (以下で指定します。 <br>&nbsp;&nbsp; &nbsp;[コメント] 列)。| |
 > | フェデレーション ID は現在展開されていますか? <br/>(Active Directory フェデレーション サービスまたは <br>サード パーティ) | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
 > | フェデレーション ID を使用している場合は、 <br>フェデレーション インフラストラクチャ | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox"> サード パーティのフェデレーション <br>&nbsp;&nbsp; &nbsp; ゲートウェイ <br>&nbsp;&nbsp; &nbsp; (詳細については、 <br>&nbsp;&nbsp; &nbsp;[コメント] 列)。 | |
-> | 現在アクティブな状態を維持しているMicrosoft 365またはOffice 365 <br>tenant、 は、 <br>テナントに関連付けられている対象ユーザー | <input type="checkbox">N/A – no Microsoft 365 or Office 365 <br>&nbsp;&nbsp; &nbsp; テナントの配置 <br/> <input type="checkbox"> いいえ、ユーザーの SMTP/SIP <br>&nbsp;&nbsp; &nbsp; ドメインが関連付けされていない <br>&nbsp;&nbsp; &nbsp; すべてのテナントを含む <br>&nbsp;&nbsp; &nbsp; Microsoft 365またはOffice 365 <br/> <input type="checkbox"> はい、ユーザーの SMTP/SIP <br>&nbsp;&nbsp; &nbsp; ドメインが関連付けられている <br>&nbsp;&nbsp; &nbsp; 既存のテナントを使用する <br>&nbsp;&nbsp; &nbsp; Microsoft 365 または Office 365 | |
+> | 現在アクティブな状態を維持している場合Microsoft 365またはOffice 365 <br>tenant、 は、 <br>テナントに関連付けられている対象ユーザー | <input type="checkbox">N/A – no Microsoft 365 or Office 365 <br>&nbsp;&nbsp; &nbsp; テナントの配置 <br/> <input type="checkbox"> いいえ、ユーザーの SMTP/SIP <br>&nbsp;&nbsp; &nbsp; ドメインが関連付けされていない <br>&nbsp;&nbsp; &nbsp; すべてのテナントを含む <br>&nbsp;&nbsp; &nbsp; Microsoft 365またはOffice 365 <br/> <input type="checkbox"> はい、ユーザーの SMTP/SIP <br>&nbsp;&nbsp; &nbsp; ドメインが関連付けられている <br>&nbsp;&nbsp; &nbsp; 既存のテナントを使用する <br>&nbsp;&nbsp; &nbsp; Microsoft 365 または Office 365 | |
 > | ユーザー UPN はプライマリ SMTP アドレスと一致しますか。 | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います <br/> <input type="checkbox"> 一貫性がない | |
 
 ## <a name="existing-collaboration-platform-summary"></a>既存のコラボレーション プラットフォームの概要
@@ -91,7 +91,7 @@ ms.locfileid: "58629909"
 
 ### <a name="skype-for-business-online-if-applicable"></a>Skype for Business Online (該当する場合)
 
-該当する場合は、次のサンプル 表を使用して、Skype for Business Online デプロイの詳細をキャプチャします。 オンライン デプロイをデプロイしていないSkype for Business、このセクションをスキップしてください。
+該当する場合は、次のサンプル 表を使用して、Skype for Business Online デプロイの詳細をキャプチャします。 オンライン デプロイをデプロイしていないSkype for Business、このセクションをスキップします。
 
 > | 質問 | 回答 | コメント |
 > |---|---|---|
@@ -103,7 +103,7 @@ ms.locfileid: "58629909"
 
 ### <a name="skype-for-business-on-premises-if-applicable"></a>Skype for Business (該当する場合)
 
-該当する場合は、次のサンプル 表を使用してSkype for Businessデプロイの詳細をキャプチャします。 オンプレミスにデプロイしていない場合Skype for Businessこのセクションをスキップします。
+該当する場合は、次のサンプル 表を使用してSkype for Businessデプロイの詳細をキャプチャします。 オンプレミスにデプロイしていないSkype for Business、このセクションをスキップします。
 
 > | 質問 | 回答 | コメント |
 > |---|---|---|
@@ -116,18 +116,18 @@ ms.locfileid: "58629909"
 > | Edge ロールが現在提供しているサービスを選択します。 | <input type="checkbox"> 外部ユーザー アクセス (企業ユーザー) <br/> <input type="checkbox"> リモート ユーザー アクセス (匿名外部) <br>&nbsp;&nbsp; &nbsp; 会議の参加者) <br/> <input type="checkbox"> フェデレーション <br/> <input type="checkbox"> メディア リレー | |
 > | 次の音声通話機能のどちらを使用する <br>現在依存関係がありますか? <br/>コメントに追加の依存関係をメモする <br>列。 | <input type="checkbox"> 取り込み中のオプション <br/> <input type="checkbox"> コール パーク <br/> <input type="checkbox"> 集荷またはグループ通話の集荷を呼び出す <br/> <input type="checkbox"> 一般的なエリアの電話、または "ホット デスク" <br/> <input type="checkbox"> 応答グループまたはハント グループ <br/> <input type="checkbox"> 共有線の外観 <br/> <input type="checkbox"> プライベート行 <br/> <input type="checkbox"> ボイスメール <br/> <input type="checkbox"> 仕事で通話する <br/> <input type="checkbox"> 緊急電話番号または情報番号 <br>&nbsp;&nbsp; &nbsp; (911、811、411) <br/> <input type="checkbox"> 内線番号のダイヤル <br/> <input type="checkbox"> 自動応答 <br/> <input type="checkbox"> サブスクライバーアクセス <br/> <input type="checkbox"> アナログ デバイス <br/> <input type="checkbox"> FAX <br/> <input type="checkbox"> 発信者番号のマスクまたは変更 <br/> <input type="checkbox"> 場所ベースのルーティング <br/> <input type="checkbox"> 最小コストのルーティング <br/> <input type="checkbox"> エレベーターの電話 | |
 
-## <a name="networking-and-access-to-microsoft-365-or-office-365-services"></a>ネットワークと、サービスMicrosoft 365またはOffice 365アクセス
+## <a name="networking-and-access-to-microsoft-365-or-office-365-services"></a>ネットワークとサービスMicrosoft 365またはOffice 365アクセス
 
 次の表を使用して、組織のネットワークの詳細と、ユーザーが他のサービスやサービスに接続される (または接続される) 方法Microsoft 365取得Office 365します。
 
 > | 質問 | 回答 | コメント |
 > |---|---|---|
 > | 移行の対象ユーザーの方法 (または方法) <br>オフィスTeamsにアクセスできますか? <br/>適用する項目をすべて選択します。 | <input type="checkbox"> ルーティング NAT 接続 <br/> <input type="checkbox"> プロキシ サーバー <br/> <input type="checkbox"> パブリック Wi-Fi <br/> <input type="checkbox"> マネージド (パブリックではない) Wi-Fi <br/> <input type="checkbox"> ExpressRoute (Microsoft ピアリング) ||
-> | プロキシ サーバー Microsoft 365またはOffice 365にアクセスする場合は、 <br>プロキシをバイパスする方法はありますか。 | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
+> | プロキシ サーバー経由Microsoft 365またはOffice 365にアクセスする場合は、 <br>プロキシをバイパスする方法はありますか。 | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
 > | ExpressRoute は現在使用されていますか? | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います <br/> <input type="checkbox"> いいえ。ただし、計画中です | |
 > | ネットワーク準備評価を実行しましたか? | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
-> | 接続時に VPN を使用する必要がある <br>企業リソースをリモートで使用する場合 | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
-> | VPN が使用されている場合、トラフィックTeams除外できます。 <br>サービスまたはサービスにMicrosoft 365アクセスOffice 365 VPN。 | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
+> | 接続時に VPN を使用する必要があるユーザー <br>企業リソースをリモートで使用する場合 | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
+> | VPN が使用されている場合、トラフィックTeams除外できます。 <br>サービスに直接アクセスMicrosoft 365またはOffice 365 VPN。 | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
 > | お使いのネットワークは QoS をサポートしていますか? | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
 > | 音声トラフィックとビデオ トラフィックTeams優先順位を付け可能 <br>高品質のエクスペリエンスを実現するには、 | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
 > | リージョン内のすべての場所にインターネットエグレスを設定し、 <br>または、インターネット送信はリージョン全体で一元化されていますか。 | <input type="checkbox"> インターネットへの地域アクセス <br/> <input type="checkbox"> インターネットへの一元的なアクセス | |
@@ -156,7 +156,7 @@ ms.locfileid: "58629909"
 > | 複数の国または地域にデプロイする場合は、 <br>国/地域ごとに独自の IT/テレフォニーが用意されていますか。 <br>使用するスタッフ、または一般に管理されますか。 | <input type="checkbox"> 地域での操作とサポート <br/> <input type="checkbox"> 一元化された操作とサポート | |
 > | 通話品質の手法 [に従っていますか](quality-of-experience-review-guide.md)? | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います | |
 > | 個人またはチームを <br>コラボレーション プラットフォームの品質チャンピオン ロール <br>使用中ですか? | <input type="checkbox"> うん <br/> <input type="checkbox"> 違います ||
-> | Lync Server を監視する方法、Skypeする方法 <br>Business Server、Microsoft 365、またはデプロイOffice 365場合 | | |
+> | Lync Server を監視する方法、Skypeする方法 <br>Business Server、Microsoft 365、またはデプロイOffice 365ですか? | | |
 > | 通話品質の問題を経験しましたか? | <input type="checkbox"> うん<br/> <input type="checkbox"> 違います | |
 > | トレーニングを提供する方法と時間 <br>新しいサービスと機能に関するヘルプデスク | | |
 

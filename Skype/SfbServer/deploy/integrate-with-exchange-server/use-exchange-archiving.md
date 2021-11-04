@@ -1,7 +1,7 @@
 ---
 title: アーカイブSkype for Business Server使用するExchange Server構成する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: '概要: 2016 年または 2016 年Exchange Server 2013 年および 2013 年Exchange Server IM トランスクリプトを構成Skype for Business Server。'
-ms.openlocfilehash: f264b347660df032b67f06ddf605e99ba97a32b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44dbe1418176d7f0c33a6355480913a68baea0dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603064"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745293"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>アーカイブSkype for Business Server使用するExchange Server構成する
 
@@ -42,7 +42,7 @@ Skype for Business Server管理者は、インスタント メッセージング
 
 アーカイブは、Skype for Business Server構成設定を使用して主に管理されます。 これらの設定をインストールSkype for Business Server、これらの設定の単一のグローバル コレクションが自動的に与えられる。 (管理者は、必要に応じて、サイト スコープでアーカイブ設定の新しいコレクションを作成できます)。既定では、グローバル設定ではアーカイブは有効にされません。また、これらのExchangeでアーカイブが有効になっている場合もありません。 このアーカイブを使用Exchange管理者は、これらの構成設定で EnableArchiving プロパティと EnableExchangeArchiving プロパティの両方を構成する必要があります。 EnableArchiving プロパティは、次の 3 つの値のいずれかを設定できます。
 
-- **なし 。** アーカイブは無効です。 これが既定値です。 EnableArchiving が None に設定されている場合、アーカイブ データベースまたはアーカイブ データベースにアーカイブSkype for Business Server何もアーカイブExchange Server。
+- **なし 。** アーカイブは無効です。 これは既定の値です。 EnableArchiving が None に設定されている場合、アーカイブ データベースまたはアーカイブ データベースにアーカイブSkype for Business Server何もアーカイブExchange Server。
 
 - **ImOnly**. インスタント メッセージトランスクリプトだけがアーカイブされます。 アーカイブExchange有効になっている場合、これらのトランスクリプトは、アーカイブにアーカイブExchange Server。 アーカイブExchange無効になっている場合、これらのトランスクリプトはアーカイブにアーカイブSkype for Business Server。
 

@@ -1,7 +1,7 @@
 ---
 title: ベナンでの可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Benin で使用Microsoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: fb5918c01bc1e1ef0d12f1f0be0897fece7f78cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1959c1debcf128ea1ba82b1201039e69adf54ef6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624789"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777597"
 ---
 # <a name="availability-in-benin"></a>ベナンでの可用性
 
@@ -82,7 +82,7 @@ Benin で使用Microsoft 365およびOffice 365サービスのSkype for Business
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

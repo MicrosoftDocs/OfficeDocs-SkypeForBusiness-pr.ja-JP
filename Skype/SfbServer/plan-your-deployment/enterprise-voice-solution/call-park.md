@@ -1,7 +1,7 @@
 ---
 title: プラン for Call Park in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 通話を保留にし、Skype for Business Server エンタープライズ VoIPを部署に転送できる、通話パークの計画。 容量計画、サポートされている通話、サポートされているクライアントが含まれます。
-ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625179"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770185"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>プラン for Call Park in Skype for Business
  
@@ -56,7 +56,7 @@ ms.locfileid: "58625179"
   
 ### <a name="software-requirements"></a>ソフトウェア要件
 
-コール パークが展開されているすべてのフロントエンド サーバーと Standard Edition サーバーには、Windows Server 2008 R2 を実行しているサーバー用に Windows メディア形式ランタイムがインストールされている必要があります。または Windows Server 2012 または Windows Server 2012 R2 を実行しているサーバー用の Microsoft Media Foundation がインストールされている必要があります。 Server 2008 R2 Windows、メディア形式ランタイムWindowsデスクトップ エクスペリエンスの一部としてインストールWindowsされます。 Windows通話パークが保留音で再生するメディア オーディオ (.wma) Windowsメディア オーディオ (.wma) ファイルには、メディア形式ランタイムまたは Microsoft Media Foundation が必要です。
+コール パークが展開されているすべてのフロントエンド サーバーと Standard Edition サーバーには、Windows Server 2008 R2 を実行しているサーバー用に Windows メディア形式ランタイムがインストールされている必要があります。または Windows Server 2012 または Windows Server 2012 R2 を実行しているサーバーの場合は Microsoft Media Foundation がインストールされている必要があります。. Server 2008 R2 Windows、メディア形式ランタイムWindowsデスクトップ エクスペリエンスの一部としてインストールWindowsされます。 Windows通話パークが保留音で再生するメディア オーディオ (.wma) Windowsメディア オーディオ (.wma) ファイルには、メディア形式ランタイムまたは Microsoft Media Foundation が必要です。
   
 ### <a name="port-requirements"></a>ポートの要件
 

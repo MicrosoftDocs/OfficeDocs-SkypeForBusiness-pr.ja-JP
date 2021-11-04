@@ -1,7 +1,7 @@
 ---
 title: 2015 年Skype for Business Serverパフォーマンス ツールのパフォーマンス シナリオ
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/17/2015
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: ストレスとパフォーマンス ツールを使用して、パフォーマンスSkype for Business Serverテストを行う 2015 年を構成するために必要なタスク。
-ms.openlocfilehash: 212a6fa1adc49508982e996ecdf61afc183d186b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a56e2ec12547937ef44973932ef79d3405573039
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611906"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777257"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>2015 年Skype for Business Serverパフォーマンス ツールのパフォーマンス シナリオ
  

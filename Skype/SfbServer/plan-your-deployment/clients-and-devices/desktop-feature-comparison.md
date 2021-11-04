@@ -1,6 +1,6 @@
 ---
 title: 2015 年のデスクトップ クライアント機能Skype for Business Server比較
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: Skype for Business Server 2015 または Skype for Businessオンライン管理者は、これらのテーブルを使用して、どのクライアントでサポートされている機能を理解できます。'
-ms.openlocfilehash: f73da5821c766e2fbc7837908a2b5b635bca0089
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 50fe52fa867485d3117d03796a4be8ab7203d4dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596541"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770235"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>2015 年のデスクトップ クライアント機能Skype for Business Server比較
 

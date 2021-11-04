@@ -1,7 +1,7 @@
 ---
 title: アルジェリアでの空き時間情報
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: アルジェリアでMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
-ms.openlocfilehash: 2e4fd12107fbca1e0d10c40b282ccb2e425b160d
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 370a31dcca0528dd3768f025c1ad090f2a20941b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732718"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777717"
 ---
 # <a name="availability-in-algeria"></a>アルジェリアでの空き時間情報
 

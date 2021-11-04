@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server の統計情報マネージャーのトラブルシューティング
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: '概要: このトピックを参照して、統計マネージャーの展開のトラブルシューティングを行Skype for Business Server。'
-ms.openlocfilehash: 622e3fdecc9cbe0def1f87a623692cb93889bb00
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f3bade7c7696e7361b63dc2f539534b6072d34a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612056"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777307"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーのトラブルシューティング
  

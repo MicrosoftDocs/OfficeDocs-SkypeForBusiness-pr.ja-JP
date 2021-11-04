@@ -1,7 +1,7 @@
 ---
 title: 会議で電話番号をMicrosoft Teamsする
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: moakram
 ms.topic: article
@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 会議で電話番号をマスクする方法Microsoft Teamsする
-ms.openlocfilehash: f9e7fd76f0b9afa9776e554cbde87a0b302c7011
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 会議中に電話番号をマスクするMicrosoft Teamsする
+ms.openlocfilehash: d34d2f38a3a1fe2219816184a5f127312cd0475e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733766"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758269"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>会議で電話番号をMicrosoft Teamsする
 
@@ -33,9 +33,9 @@ ms.locfileid: "58733766"
 
 特定の業界の使用例では、管理者は、テナントで開催される会議で電話会議参加者の電話番号がどのように表示されるのか選択できます。 管理者は、次の 3 つのオプションから選択できます。
 
-- 電話は、外部参加者からのみマスクされます。 会議開催者のテナントに属している参加者には、完全な電話番号が表示されます。
+- 電話は、外部参加者からのみマスクされます。 会議開催者のテナントに属している参加者には、完全な電話番号が引き続き表示されます。
 - 電話は、開催者を除く会議のすべてのユーザーからマスクされます。
-- 電話はマスク解除され、会議のすべてのユーザーに表示されます。
+- 電話はマスク解除され、会議の全員に表示されます。
 
 この設定は、電話番号が公開されている会議のすべての画面に適用されます。
 

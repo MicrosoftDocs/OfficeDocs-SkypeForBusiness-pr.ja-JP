@@ -1,7 +1,7 @@
 ---
 title: 2015 年の常設チャット サーバー Skype for Business Server計画
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/23/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: '概要: このトピックを参照して、2015 年の常設チャット サーバーの容量計画Skype for Business Serverしてください。'
-ms.openlocfilehash: d3ff8076a922d6242de0079239a3ff2c73b539a8
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: afa8ecb47913d722a1e1049a549bc6ab2f3800ed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012161"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777867"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバー Skype for Business Server計画
  
@@ -113,7 +113,7 @@ ms.locfileid: "60012161"
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>招待によってチャット ルームへのアクセスを管理するための容量を計画する
 
-次の容量計画テーブルを使用して、常設チャット サーバーが作成し、常設チャット データベースに保存する招待の数を理解できます。招待を送信するように構成されている場合。 カテゴリで招待状を管理するには、Skype for  Business Server コントロール パネルの [チャット ルーム のカテゴリ設定] ページを使用するか、Windows PowerShell コマンドレット **set-csPersistentChatCategory** を使用します。 Skype for Business クライアントから起動された [ルームの管理] ページを使用するか、Windows PowerShell コマンドレット **set-csPersistentChatRoom** を使用して、チャット ルームで招待を管理できます (カテゴリが許可する内容に沿って)。
+次の容量計画テーブルを使用して、常設チャット サーバーが作成し、常設チャット データベースに保存する招待の数を理解できます。招待を送信するように構成されている場合。 カテゴリの招待を管理するには、Skype for Business Server コントロールパネルの [チャット ルーム カテゴリの設定] ページを使用するか、Windows PowerShell コマンドレット **set-csPersistentChatCategory** を使用します。 Skype for Business クライアントから起動された [ルームの管理] ページを使用するか、Windows PowerShell コマンドレット **set-csPersistentChatRoom** を使用して、チャット ルームで招待を管理できます (カテゴリが許可する項目に沿って)。
   
 次の表のサンプル データでは、[**チャット ルームの設定**] ページの [**招待**] オプションがすべてのチャット ルームの 50 パーセントで [**はい**] に設定されていることを前提としています。
   

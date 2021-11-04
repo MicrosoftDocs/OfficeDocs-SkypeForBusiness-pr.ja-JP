@@ -1,7 +1,7 @@
 ---
 title: トポロジの基本Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: '概要: 使用するトポロジを選択Skype for Business Server。 サーバーのコロケーションについてSkype for Business Server。'
-ms.openlocfilehash: 3fae86501dfc0952bfb3fcf43347a1f0c9641536
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 3b6e1ce1038b9b5dbc39955f774660cfbdce1291
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012531"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770055"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>トポロジの基本Skype for Business Server
 
@@ -251,7 +251,7 @@ Standard Edition サーバーには、次の役割 (追加の構成が必要で�
 
 - フロントエンド プール用のEnterprise Editionデータベース
 
-#### <a name="enterprise"></a>大企業
+#### <a name="enterprise"></a>Enterprise
 
 次のデータベースは、同じバック エンド サーバーにSQL Server。
 

@@ -1,7 +1,7 @@
 ---
 title: サーバーの DNS 要件Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: '概要: このトピックの DNS に関する考慮事項を確認してから、このトピックをSkype for Business Server。'
-ms.openlocfilehash: 1a39cbfc05505e6c53b8874e3611dea8dae9d8c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4c332d9b7e315a928d488861363c2080ecf0997c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730376"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770075"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>サーバーの DNS 要件Skype for Business Server
 
@@ -33,7 +33,7 @@ ms.locfileid: "58730376"
 
 これは最初は少し気が重いように見えるかもしれないが、これを計画する重い持ち上げは[、2015](https://www.microsoft.com/download/details.aspx?id=50357)年の計画ツールを使用Skype for Business Server実行できます。 使用する予定の機能に関するウィザードの質問を確認したら、定義するサイトごとにエッジ管理レポート内で DNS レポートを表示し、ここに示す情報を使用して DNS レコードを作成できます。 使用する名前と IP アドレスの多くを調整することもできます。詳細については、「DNS レポートを確認 [する」を参照してください](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report)。 エッジ管理レポートを別のスプレッドシートにエクスポートExcel、DNS レポートはファイル内のワークシートの 1 つになる場合に備えておきます。 このツール Skype for Business Serverには[、2019 年 2019](../../../SfBServer2019/deprecated.md)年から廃止された機能が含まれていますが、これらの機能が選択されていない場合でも、初期計画の作成に使用できます。
 
-[「Skype for Business Server](../../deploy/install/create-dns-records.md)用 DNS レコードの作成」の説明に従って新しい実装をインストールし、Skype for Business Server のトポロジを構築する場合、Windows Server 2016 に組み込まれる DNS 機能またはサードパーティの DNS パッケージを使用することを選択できると認識しています。 必要な情報と、そのニーズを満たす方法について詳しく説明します。
+[「Skype for Business Server](../../deploy/install/create-dns-records.md)の DNS レコードの作成と Skype for Business Server のトポロジの構築」の説明に従って新しい実装をインストールする場合、Windows Server 2016 またはサードパーティの DNS パッケージに組み込みの DNS 機能を使用することを選択できると認識しています。ep この記事のディスカッションは、特定の説明ではなく一般的です。 必要な情報と、そのニーズを満たす方法について詳しく説明します。
 
 コミュニケーション スイートSkype for Business Lync、および Office経験豊富な管理者は、次の表が役に立つ可能性があります。 テーブルがわかりにくい場合は、以降のセクションまたは記事で、次の概念に光が当たっています。
 

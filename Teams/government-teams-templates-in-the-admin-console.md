@@ -1,7 +1,7 @@
 ---
 title: 管理センターで政府機関のチーム テンプレートを使用する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f373e2e949d4fe461ef06657e0791f4ff59f4b61
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 466eeb8c412bb09bf6eedcccb8becf49ff0c08a0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603406"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777197"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>管理センターで政府機関のチーム テンプレートを使用する
 
@@ -44,5 +44,5 @@ ms.locfileid: "58603406"
 
 | 基本テンプレートの種類 |baseTemplateId | この基本テンプレートに含まれるプロパティ |
 |-------------------|-------|---------------------------------------------------------------------------|
-|インシデント対応を調整する|`com.microsoft.teams.template.CoordinateIncidentResponse`|チャネル <ul><li>全般<li>お知らせ</li><li>物流</li><li>計画</li><li>回復</li><li>緊急</li></ul> アプリ: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>プランナー</li></ul>|
+|インシデント対応を調整する|`com.microsoft.teams.template.CoordinateIncidentResponse`|チャネル: <ul><li>全般<li>お知らせ</li><li>物流</li><li>計画</li><li>回復</li><li>緊急</li></ul> アプリ: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>プランナー</li></ul>|
 ||||

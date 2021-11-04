@@ -1,7 +1,7 @@
 ---
 title: 地域リンクの選択
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[地域リンク] ダイアログ ボックスを使用して、環境で使用可能な地域リンクを検索します。 既存の地域リンクを使用するには、リスト内の地域リンクをクリックし、[OK] をクリックします。'
-ms.openlocfilehash: 08aed477d009035a5798d9451c9b20791f9081ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7dff5aa544204137ff7e6379cb95490ececb1c87
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599472"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739913"
 ---
 # <a name="select-a-region-link"></a>地域リンクの選択
  

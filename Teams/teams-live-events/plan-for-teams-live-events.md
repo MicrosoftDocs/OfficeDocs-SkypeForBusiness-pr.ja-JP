@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのライブ イベントの計画
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: この記事では、Microsoft Teams でのライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b66ef3032f5048cdde377b6a907ce4e8eee739a9
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
+ms.openlocfilehash: 84a167e2b53ce61d7d06848b10f63c7419bc9260
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641227"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769815"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Microsoft Teams でのライブ イベントの計画
 

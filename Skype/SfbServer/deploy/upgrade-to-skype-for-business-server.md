@@ -1,7 +1,7 @@
 ---
 title: 2015 Skype for Business Serverへのアップグレード
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2016
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: '概要: Lync Server 2013 から 2015 にアップグレードするSkype for Business Serverします。 Microsoft 評価センターから Skype for Business Server 2015 の無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 14fe3926fbf3cb6ffcee368227fcaf5ead9ec0c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02455d4c013f55363e173f16c9f4de60b71939d9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590551"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740083"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>2015 Skype for Business Serverへのアップグレード
  
@@ -182,7 +182,7 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>手順 5: フロントエンド プールとフロント エンド 以外のプール サーバーをアップグレードする
 
 > [!NOTE]
->  アップグレードを行う前に、Skype for Business Server 2015 に必要なすべての新しい前提条件をインストールしてください。アップグレードを試みる前に、> 以上の空き領域が含まれます。 また、ドライブが固定ローカル ドライブで、USB または Firewire で接続されていないか確認します。 は NTFS ファイル システムで書式設定され、圧縮されません。ページ ファイルは含> PowerShell バージョン 6.2.92 00.0 以降.> Lync Server 2013 の最新の累積的な更新プログラムがインストールされている.> SQL Server 2012 SP1 がインストールされている。> 次の KB がインストールされている (Microsoft Update を使用している場合は自動的にインストール):> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB298206](https://support.microsoft.com/kb/2982006)
+>  アップグレードを行う前に、Skype for Business Server 2015 に必要なすべての新しい前提条件をインストールしてください。アップグレードを試みる前に、> 以上の空き領域が含まれます。 さらに、ドライブが固定ローカル ドライブである必要があります。 USB または Firewire で接続されていない、NTFS ファイル システムで書式設定されている、圧縮されていない、およびページ ファイル.> PowerShell バージョン 6.2.9200.0 以降が含まれます。> 最新の Lync Server 2013 累積的な更新プログラムがインストールされています。> SQL Server 2012 SP1 がインストールされています。> Microsoft Update を使用する場合は、次の KB が自動的にインストールされます。> Windows Server 2008 R2 -[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012 -[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2 -[KB2982006](https://support.microsoft.com/kb/2982006)
   
 各サーバーIn-Placeアップグレードを使用して、フロントエンド プール、エッジ プール、仲介サーバー、および常設チャット プールを更新します。
   
