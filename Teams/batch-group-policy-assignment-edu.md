@@ -1,7 +1,7 @@
 ---
 title: 学校の大規模なユーザーにポリシーを割り当てる
-author: serdars
-ms.author: serdars
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: グループ メンバーシップに基づいて、またはリモート 学校 (teleschool、tele-school) の目的でバッチ割り当てによって、教育機関の大規模なユーザーにポリシーを割り当てる方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: 3cd0bfd791d2416de31d998c693002cce87f6fcd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7a2321a42910eee77ef9dff3c3aba3165cba156a
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745703"
+ms.locfileid: "60785080"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>学校の大規模なユーザーにポリシーを割り当てる
 
@@ -76,7 +76,7 @@ ms.locfileid: "60745703"
 
 セキュリティ[学校データ同期](/SchoolDataSync/)(SDS) を使用すると、学校でセキュリティ グループ[の教師と学生を簡単](/SchoolDataSync/edu-security-groups)に作成できます。 SDS を使用して、学校のポリシーを管理するために必要なセキュリティ グループを作成することをお勧めします。
 
-環境内で SDS をデプロイできない場合は、この [PowerShell](scripts/powershell-script-security-groups-edu.md) スクリプトを使用して 2 つのセキュリティ グループを作成します。1 つは、教職員のライセンスが割り当てられているすべてのスタッフと教育者、もう 1 つは学生ライセンスが割り当てられているすべての学生用です。 グループを最新の状態に保つには、このスクリプトを定期的に実行する必要があります。
+環境内で SDS をデプロイできない場合は、この [PowerShell](scripts/powershell-script-security-groups-edu.md) スクリプトを使用して 2 つのセキュリティ グループを作成します。1 つは、教職員のライセンスが割り当てられているすべてのスタッフと教師用、もう 1 つは学生ライセンスが割り当てられているすべての学生用です。 グループを最新の状態に保つには、このスクリプトを定期的に実行する必要があります。
 
 ### <a name="assign-a-policy-to-a-security-group"></a>セキュリティ グループにポリシーを割り当てる
 
@@ -172,7 +172,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 ##### <a name="get-policy-assignments-for-a-group"></a>グループのポリシーの割り当てを取得する
 
-次のコマンドを実行して、特定のセキュリティ グループに割り当てられているすべてのポリシーを表示します。 SIP アドレスまたは電子メール アドレスがポリシーの割り当てに使用された場合でも、グループは常にグループ ID で一覧表示されます。
+次のコマンドを実行して、特定のセキュリティ グループに割り当てられているすべてのポリシーを確認します。 SIP アドレスまたは電子メール アドレスがポリシーの割り当てに使用された場合でも、グループは常にグループ ID で一覧表示されます。
 
 ```powershell
 Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
@@ -193,11 +193,11 @@ Get-CsUserPolicyAssignment -Identity reda@contoso.com
 
 ### <a name="using-powershell"></a>PowerShell の使用
 
-#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Connect PowerShell for Azure AD モジュールと powerShell モジュールGraph PowerShell Teamsにアクセスする
+#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Connect PowerShell for Azure AD モジュールと Graph PowerShell モジュールTeamsにアクセスする
 
 この記事の手順を実行する前に、Graph モジュール用の Azure AD PowerShell (割り当てられたライセンスでユーザーを識別する) と Microsoft Teams PowerShell モジュール (それらのユーザーにポリシーを割り当てる) をインストールして接続する必要があります。
 
-##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>PowerShell for Azure AD モジュールをインストールしてGraphする
+##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>PowerShell for Azure AD モジュールをインストールして接続Graphする
 
 管理者特権Windows PowerShell コマンド プロンプト (管理者として Windows PowerShell を実行) を開き、次のコマンドを実行して Azure Active Directory PowerShell for Graph モジュールをインストールします。
 
@@ -213,7 +213,7 @@ Connect-AzureAD
 
 メッセージが表示されたら、管理者の資格情報を使用してサイン インします。
 
-詳細については[、「powerShell for Connect モジュールのAzure Active Directoryを使用したGraph参照してください](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。
+詳細については[、PowerShell for Connect モジュールのAzure Active Directoryを参照Graphしてください](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft Teams PowerShell モジュールをインストールして接続する
 
