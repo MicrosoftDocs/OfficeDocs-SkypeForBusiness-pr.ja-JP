@@ -1,7 +1,7 @@
 ---
 title: ディレクターの全般設定の展開
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 既存のディレクターの設定を編集するために、以下のセクションが表示されます。
-ms.openlocfilehash: 46c82a6c731b6d08df9b40d44ec9d665468608d2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 610145333ade88f6f190905cf1c263cea0025a44
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604996"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773897"
 ---
 # <a name="director-general-settings-expander"></a>ディレクターの全般設定エキスパンダー
  

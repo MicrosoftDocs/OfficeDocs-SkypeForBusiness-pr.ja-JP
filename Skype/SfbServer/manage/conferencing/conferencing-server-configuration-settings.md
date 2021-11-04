@@ -1,7 +1,7 @@
 ---
 title: 会議サーバーの構成設定を管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: '概要: 会議サーバー構成設定を管理する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 7ba225920fd511d70efe1e063cb77dbd77d9721f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14fed927e18d291cf17a5c00ee82dac7ef80a6d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623729"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773707"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>会議サーバーの構成設定を管理Skype for Business Server
  

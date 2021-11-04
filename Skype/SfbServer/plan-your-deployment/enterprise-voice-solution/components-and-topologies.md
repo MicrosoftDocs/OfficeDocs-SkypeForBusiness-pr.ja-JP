@@ -1,7 +1,7 @@
 ---
 title: 通話受付管理のコンポーネントとトポロジは、Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: MPLS ネットワーク、SIP トランク、またはサード パーティの PSTN ゲートウェイまたは PBX がある場合の通話受付管理 (CAC) の計画。 この値は、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 338533fb307625b30ee93377ee24265ae7cca02b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730912"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773537"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>通話受付管理のコンポーネントとトポロジは、Skype for Business
 

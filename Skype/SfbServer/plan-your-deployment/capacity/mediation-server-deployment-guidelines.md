@@ -1,7 +1,7 @@
 ---
 title: 仲介サーバーの展開Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: このトピックでは、仲介サーバーの展開の計画ガイドラインについて説明します。
-ms.openlocfilehash: a524d478797c534950637d10efc39e0827d2f2a4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b65ff1335c32c17e61da97d90d290cf81b38ca33
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629539"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773557"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>仲介サーバーの展開Skype for Business Server
  
