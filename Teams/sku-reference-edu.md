@@ -1,7 +1,7 @@
 ---
 title: Education SKU リファレンス
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Education Faculty and Student のライセンス プランと SKU の一覧を示します。
 f1keywords: ''
-ms.openlocfilehash: b0fd67dd27a497712e48cb0664712963a61d678c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f6c4a1821488b14bd95bdaab670788a880b109f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627085"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774377"
 ---
 # <a name="education-sku-reference"></a>Education SKU リファレンス
 
@@ -32,8 +32,8 @@ ms.locfileid: "58627085"
 |プラン名 |SkuPartNumber   |SkuID |
 |---------|---------|---------|
 |Office 365 EducationE3 for Faculty     |ENTERPRISEPACK_FACULTY         |e4fa3838-3d01-42df-aa28-5e0a4c68604b         |
-|Office 365 Education for Faculty       |STANDARDWOFFPACK_FACULTY        |94763226-9b3c-4e75-a931-5c89701abe66         |
-|Office 365 Education for Faculty       |STANDARDWOFFPACK_IW_FACULTY     |78e66a63-337a-4a9a-8959-41c6654dfb56         |
+|Office 365 Educationの詳細       |STANDARDWOFFPACK_FACULTY        |94763226-9b3c-4e75-a931-5c89701abe66         |
+|Office 365 Educationの詳細       |STANDARDWOFFPACK_IW_FACULTY     |78e66a63-337a-4a9a-8959-41c6654dfb56         |
 |Office 365 EducationE5 for Faculty    |ENTERPRISEPREMIUM_FACULTY       |a4585165-0533-458a-97e3-c400570268c4         |
 |Office 365 Education E5 without PSTN Conferencing for faculty      |ENTERPRISEPREMIUM_NOPSTNCONF_FACULTY         |9a320620-ca3d-4705-a79d-27c135c96e05         |
 |Office 365 EducationE1 for Faculty     |STANDARDPACK_FACULTY         |a19037fc-48b4-4d57-b079-ce44b7832473         |
@@ -60,15 +60,15 @@ ms.locfileid: "58627085"
 |Microsoft 365 EducationA5 for Students        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
 |Microsoft 365 A5学生の使用特典     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
 |Microsoft 365 A5電話会議を使用しない場合      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
-|Microsoft 365 A5電話会議なしで学生が利用できる特典    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
+|Microsoft 365 A5電話会議を使用しない学生の特典    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3学生向け     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
 |Office 365 A3学生の使用特典     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
 |Office 365 A5学生の使用特典    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
 |Office 365 A5電話会議なしで学生が利用できる特典  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
-|Office 365 Education学生向け Homeschool の作成     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
-|Office 365 A1学生向け (デバイスの場合)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
+|Office 365 Education学生向け Homeschool の使用     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
+|Office 365 A1 (デバイスの場合)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1学生向けプラス     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [学校の大規模なユーザーにポリシーを割り当てる](batch-group-policy-assignment-edu.md)

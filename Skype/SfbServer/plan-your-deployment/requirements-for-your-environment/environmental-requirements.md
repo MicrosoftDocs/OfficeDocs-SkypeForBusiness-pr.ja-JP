@@ -1,7 +1,7 @@
 ---
 title: 2015 年の環境Skype for Business Server要件
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: 2015 年のサーバー以外の要件Skype for Business Serverします。 Active Directory、DNS、Certs、Fileshares など、展開を行う前に構成する必要があるさまざまなものがあります。'
-ms.openlocfilehash: e27d854b2755a3d0d8613f12fb80342879faab26
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ab3192e7a9459f86ed61277db682a8b22f0725ec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725956"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749926"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>2015 年の環境Skype for Business Server要件
  
@@ -168,7 +168,7 @@ Skype for Business Server 2015 では、中央フォレスト トポロジで構
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>リソース フォレスト トポロジ内の複数のフォレスト (オンラインおよびSkype for Businessを使用Azure Active Directory Connect
 <a name="BKMK_multipleforestopology"> </a>
 
-![2 つのAD、1 つのユーザー フォレストと 1 つのリソース フォレストを表示します。 2 つのフォレストには信頼関係があります。 これらは、Azure Microsoft 365を使用Microsoft 365またはOffice 365と同期AD Connect。 すべてのユーザーは、Skype for BusinessまたはMicrosoft 365をOffice 365。](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![2 つのAD、1 つのユーザー フォレストと 1 つのリソース フォレストを表示します。 2 つのフォレストには信頼関係があります。 これらのデータは、Microsoft 365を使用Microsoft 365またはOffice 365同期Azure AD Connect。 すべてのユーザーは、Skype for BusinessまたはMicrosoft 365をOffice 365。](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
 このシナリオでは、リソース フォレスト トポロジを持つ複数のフォレストがオンプレミスにあります。 Active Directory フォレスト間には完全な信頼関係があります。 このAzure Active Directory Connectは、オンプレミスのユーザー フォレストとユーザー フォレストまたはユーザー フォレストの間でアカウントMicrosoft 365同期Office 365。
   

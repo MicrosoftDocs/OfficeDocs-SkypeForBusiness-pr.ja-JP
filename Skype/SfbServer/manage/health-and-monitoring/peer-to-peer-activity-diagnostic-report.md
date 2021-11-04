@@ -1,7 +1,7 @@
 ---
 title: ピアツーピア アクティビティ診断レポート (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: '概要: [ピアツーピア アクティビティ診断レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: de0bbd43b12209cacac319952040afc526556db6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 703592939b5f90311a4b9da551a6ebfe28989c31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622289"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774837"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>ピアツーピア アクティビティ診断レポート (Skype for Business Server
  
@@ -33,7 +33,7 @@ ms.locfileid: "58622289"
   
 |**成功**|**[Expected failures] (予期されたエラー数)**|**[Unexpected failures] (予期しないエラー数)**|[**セッションの合計数**]|
 |:-----|:-----|:-----|:-----|
-|2024  <br/> |469  <br/> |16   <br/> |2521  <br/> |
+|2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
 2,024 + 469 + 16 を計算すると合計は 2,509 セッションになりますが、セッションの合計数の列には合計 2,521 セッションと示されています。 "不足している" 12 セッションは、システムが成功にもエラーにも分類できなかったセッションです。 これは、サードパーティ製品が新しい診断コードを導入する場合に当てはSkype for Business Server。 この場合、その製品を使用して行われ、該当する診断コードを通知する通話は、必ずしも成功、予期されたエラー、または予期しないエラーのいずれかに分類されない可能性があります。
   

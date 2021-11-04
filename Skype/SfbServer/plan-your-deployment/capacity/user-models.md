@@ -1,7 +1,7 @@
 ---
 title: ユーザー モデルのSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: ここで説明するユーザー モデルは、「容量計画のユーザー モデルの使用状況」で説明されている容量計画の測定値と推奨事項の基礎Skype for Business Server。
-ms.openlocfilehash: 3086699cc73968b3a3f902ff1f8e99d9e78d7fe3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e72a16668c0247a23ac4d032e0a3f09b06a71cc5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585031"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768635"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>ユーザー モデルのSkype for Business Server
  
@@ -146,7 +146,7 @@ ms.locfileid: "58585031"
     
 - これらの PSTN 音声通話の 65% でメディア バイパスが使用される。
     
-## <a name="mobility"></a>身体
+## <a name="mobility"></a>モビリティ
 
 登録ユーザーの 40% はモビリティが有効になっていると想定します。モビリティが有効になっている各ユーザーについて、そのユーザーのその他の MPOP インスタンスのアクティビティに加えてモバイル クライアントのアクティビティが行われます。ただし、電話会議でのやり取りは例外であり、その場合はモビリティ クライアントは電話会議への参加に使用できるクライアントの種類の 1 つに過ぎません。
   

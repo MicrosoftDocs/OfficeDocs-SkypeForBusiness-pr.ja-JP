@@ -1,7 +1,7 @@
 ---
 title: ディメンションのメンバーの取得
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: '概要: ディメンション メンバーの取得操作について学習します。 [ディメンション メンバーの取得] 操作は、通話品質ダッシュボードのデータ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 701a44d8d226b7953938b9a07883ff556ecbd7ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aaeadf46a2a281669109f960fe8d2532256e9021
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629599"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774657"
 ---
 # <a name="get-dimension-members"></a>ディメンションのメンバーの取得
  

@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server高可用性計画ツール
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: Skype for Business Server 2015 年から 2015 年のほとんどのサーバー の役割の主な高可用性スキームは、プールによるサーバーの冗長性に基づいて行います。 あるサーバーの役割を実行しているサーバーが失敗すると、プール内で同じサーバーの役割を実行している別のサーバーがそのサーバーの負荷を引き継ぎます。
-ms.openlocfilehash: 8fe42fb60d6588eee7a62ec49aa33f46c9a2e535
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6a39d065349fb392dd54a7ff0d1872acc91e89cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596751"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774197"
 ---
 # <a name="skype-for-business-server-high-availability-planning-tool"></a>Skype for Business Server高可用性計画ツール
  

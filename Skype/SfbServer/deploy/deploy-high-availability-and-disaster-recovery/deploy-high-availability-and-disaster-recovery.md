@@ -1,7 +1,7 @@
 ---
 title: 高可用性および障害回復の展開
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype for Business Serverでは、サーバー プール、プールのペアリングによる障害復旧、および AlwaysOn 可用性グループ、データベース ミラーリング、SQL フェールオーバー クラスタリングなど、いくつかのモードのバック エンド サーバー高可用性を提供します。
-ms.openlocfilehash: 168648150a249c92e4b56d4e9d335fbc864cadd3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 03a7c1e91651f2d73b1e22692f726ed3188588e6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598141"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761485"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>高可用性および障害回復の展開
  

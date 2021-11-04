@@ -1,7 +1,7 @@
 ---
 title: サーバー内の CDR 構成設定の既存のコレクションを削除Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: '概要: CDR 構成設定を削除する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: bcc7330a2f09568159259e3a73cd0fd61a8dc6e4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b72891493a88a733dfd18761023ba875a3b6bc07
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015101"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763686"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>サーバー内の CDR 構成設定の既存のコレクションを削除Skype for Business Server
  

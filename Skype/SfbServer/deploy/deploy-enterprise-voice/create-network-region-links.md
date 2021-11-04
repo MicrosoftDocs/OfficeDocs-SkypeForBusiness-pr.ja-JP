@@ -1,7 +1,7 @@
 ---
 title: ネットワーク領域リンクを作成 Skype for Business Serverする
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: ネットワーク地域リンクを作成または変更します。このリンクは、エンタープライズ VoIPの通話受付管理でSkype for Business Server。
-ms.openlocfilehash: bea44eaabf94c2b37db4d9e50f9266744670fb2a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd46e7d7043d7d1814b7a23ac755624af0af4c69
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594165"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775797"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>ネットワーク領域リンクを作成 Skype for Business Serverする
  

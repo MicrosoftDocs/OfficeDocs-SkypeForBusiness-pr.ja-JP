@@ -1,7 +1,7 @@
 ---
 title: ディレクター スコープ ノード
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: このノードには、このディレクター プールの完全修飾ドメイン名 (FQDN)、ポート、および関連付けられたファイル ストアが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: b0cde48402995e1e6d259d87df8d33f2a2289b02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ec55200b971da96163c6403444f1d1289ffce0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604986"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775127"
 ---
 # <a name="director-scope-node"></a>ディレクターのスコープ ノード
  

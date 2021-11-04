@@ -1,7 +1,7 @@
 ---
 title: Ghana での可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Microsoft 365およびOffice 365、Skype for BusinessおよびMicrosoft Teamsサービスを示します。
-ms.openlocfilehash: 0e172189e4f9e80d1f81beadad9a0a24a6b2f26e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8829e2f1deb4be50b0600184674823a3b2b92c89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603596"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761795"
 ---
 # <a name="availability-in-ghana"></a>Ghana での可用性
 
@@ -82,7 +82,7 @@ ms.locfileid: "58603596"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

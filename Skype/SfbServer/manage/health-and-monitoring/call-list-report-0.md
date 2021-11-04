@@ -1,7 +1,7 @@
 ---
 title: 呼び出しリスト レポート (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: '概要: このページで使用される通話リスト レポートについてSkype for Business Server。'
-ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe1a638bda3c830a7593f4a9048f7c4fc178229
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599006"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762415"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>呼び出しリスト レポート (Skype for Business Server
  

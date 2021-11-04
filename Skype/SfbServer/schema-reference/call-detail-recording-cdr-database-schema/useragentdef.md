@@ -1,7 +1,7 @@
 ---
 title: UserAgentDef テーブル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: UserAgentDef テーブルは、ユーザー エージェント識別子をエージェントのわかりやすい名前にマップします。 ユーザー エージェントは、2015 年から 2015 年Skype for Business Serverクライアントです。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 717d8fa52429c768cc27334ef863f2fc6a9ce613
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7d1fe0d074fc0a0d68479ec6a56cf4ee3a6c2cf1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598671"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761895"
 ---
 # <a name="useragentdef-table"></a>UserAgentDef テーブル
  
@@ -26,11 +26,11 @@ UserAgentDef テーブルは、ユーザー エージェント識別子をエー
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1   <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|2   <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
-|4   <br/> |OC  <br/> |OC  <br/> |
+|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
+|4  <br/> |OC  <br/> |OC  <br/> |
 |8   <br/> |OCPhone  <br/> |OCPhone  <br/> |
-|16   <br/> |LMC  <br/> |LMC  <br/> |
+|16  <br/> |LMC  <br/> |LMC  <br/> |
 |32  <br/> |DVT  <br/> |DVT  <br/> |
 |64  <br/> |MM  <br/> |MM  <br/> |
 |64  <br/> |MC  <br/> |MM  <br/> |

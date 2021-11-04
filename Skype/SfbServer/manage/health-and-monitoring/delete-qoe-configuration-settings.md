@@ -1,7 +1,7 @@
 ---
 title: '[エクスペリエンスの品質] 構成設定を削除Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: '概要: エクスペリエンスの品質 (QoE) 設定を削除する方法については、Skype for Business Server。'
-ms.openlocfilehash: e82e844fb217f8c2e71ecb21a6d70e26c4b90ade
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 036944af245b608ccae9836670133f99f8004068
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014501"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763665"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>[エクスペリエンスの品質] 構成設定を削除Skype for Business Server
  

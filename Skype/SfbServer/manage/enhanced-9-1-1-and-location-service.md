@@ -1,7 +1,7 @@
 ---
 title: 拡張 9-1-1 と Location サービスの管理
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Serverクライアントからの拡張 9-1-1 (E9-1-1) 呼び出しSkype for Businessします。 E9-1-1 のSkype for Business Serverを構成する場合、Skype for Business からの緊急通話には、場所情報サービス データベースからの緊急対応場所 (ERL) 情報が含まれます。
-ms.openlocfilehash: 9ac2b594a5ad13401c01ad5fcf1ea46f46cd016f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cff19de879066163f53de6b8d51ef8384d451438
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580611"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763775"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Busines Server の拡張 9-1-1 と位置情報サービスSkype管理する
 

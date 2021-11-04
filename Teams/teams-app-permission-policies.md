@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のアプリのアクセス許可ポリシーを管理する
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2f29678b53171772bf905e2b5dfaddf3131016d9
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: b407d0c96e5aa9cbf84277285ab717a1950a9f17
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605253"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761695"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのアクセス許可ポリシーを管理する
 
@@ -45,7 +45,7 @@ ms.locfileid: "60605253"
 たとえば、すべてのサードパーティ アプリをブロックし、組織内のHR チームに Microsoft の特定のアプリを許可するとします。 まず、[[アプリの管理]](manage-apps.md) ページに移動し、HR チームに許可するアプリが組織レベルで許可されていることを確認します。 次に、HR App Permission Policy という名前のカスタムポリシーを作成し、必要なアプリをブロックして許可するように設定し、HR チームのユーザーに割り当てます。
 
 > [!NOTE]
-> Microsoft 365 Government Community Cloud High (GCCH) 環境と国防総省 (DoD) 環境に Teams をデプロイした場合は[、「Microsoft 365 Government](#manage-org-wide-app-settings-for-microsoft-365-government)の組織全体のアプリ設定を管理する」を参照して、GCCH と DoD に固有のサード パーティ製アプリ設定の詳細を確認してください。
+> Microsoft 365 Government Community Cloud High (GCCH) 環境と国防総省 (DoD) 環境に Teams をデプロイした場合は、「Microsoft 365 Government の組織全体のアプリ設定を管理する」を参照して[、GCCH](#manage-org-wide-app-settings-for-microsoft-365-government)と DoD に固有のサード パーティ製アプリ設定の詳細を確認してください。
 
 ## <a name="create-a-custom-app-permission-policy"></a>カスタムアプリのアクセス許可ポリシーを作成する
 
@@ -86,7 +86,7 @@ Microsoft Teams 管理センターを使用して、作成したグローバル 
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Microsoft 365 Government の組織全体のアプリ設定を管理する  
 
-Microsoft 365 Government - Teams の GCCH と DoD のデプロイでは、GCCH と DoD に固有のサード パーティ製アプリ設定について次の点を知る必要があります。
+Microsoft 365 Government - Teams の GCCH と DoD のデプロイでは、GCCH と DoD に固有のサード パーティ製アプリ設定について、次の点を知る必要があります。
 
 GCCH および DoD では、すべてのサード パーティ製アプリが既定でブロックされます。 さらに、Microsoft Teams 管理センターのアプリのアクセス許可ポリシー ページに、サードパーティ アプリの管理に関する次の注意事項が表示されます。
 

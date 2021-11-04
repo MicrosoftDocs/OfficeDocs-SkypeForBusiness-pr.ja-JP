@@ -2,7 +2,7 @@
 title: 障害復旧、高可用性、およびバックアップ サービスの管理
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 障害復旧操作の手順と、ペアのフロントエンド プール内のデータを同期するバックアップ サービスの保守について説明します。
-ms.openlocfilehash: b8635728710efbd2c820b6ca57333f77b56d04e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 962f595dffb56f36ce8d6008db62308c352706cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612266"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763705"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>障害復旧Skype for Business Server高可用性、およびバックアップ サービスの管理
 

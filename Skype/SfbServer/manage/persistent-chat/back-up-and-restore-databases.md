@@ -1,7 +1,7 @@
 ---
 title: 2015 年に常設チャット データベースをバックアップSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: '概要: 2015 年に常設チャット サーバー データベースをバックアップおよび復元するSkype for Business Serverします。'
-ms.openlocfilehash: aba6ead1d666f9f257e9cd7bfa1e7d2343049b9d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0f875fd62eab26873b8dcc3617de709a397f4ba8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622249"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762345"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>2015 年に常設チャット データベースをバックアップSkype for Business Serverする
  

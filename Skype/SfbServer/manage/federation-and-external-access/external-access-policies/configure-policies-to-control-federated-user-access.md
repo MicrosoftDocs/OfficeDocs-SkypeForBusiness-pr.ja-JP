@@ -5,7 +5,7 @@ ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
 ms:contentKeyID: 48184180
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'フェデレーション パートナーとの通信をサポートするためのポリシーを構成すると、そのポリシーはフェデレーション ドメインのユーザーに適用されます。 '
-ms.openlocfilehash: 86d3988df429b3bc9ef2972aa27e0a6ed03ceb72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 892ba1207f0c3426b3577364f19652514e8e2110
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588589"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763755"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>グループ内のフェデレーション ユーザー アクセスを制御するポリシーを構成Skype for Business Server
 

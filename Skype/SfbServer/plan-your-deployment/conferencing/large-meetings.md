@@ -1,7 +1,7 @@
 ---
 title: 大規模な会議を計画Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: '概要: このトピックを参照して、大規模な会議を実装および管理するためのベスト プラクティスについて説明Skype for Business Server。'
-ms.openlocfilehash: 109bfef5dd86821cdb8ec8e372f26f3edd062983
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1196c1d5b2ff4fe6456d03f698b80589ef428b24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582611"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762225"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>大規模な会議を計画Skype for Business Server
  

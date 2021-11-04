@@ -1,7 +1,7 @@
 ---
 title: ネットワーク内の高度なエンタープライズ VoIP機能のネットワークSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
-description: ネットワーク地域、ネットワーク サイト、IP サブネットについて学習します。 これらのすべては、Skype for Business、Skype for Business Server の通話受付管理の計画、または Skype for Business Server エンタープライズ VoIP の Skype for Business Server での緊急サービスの計画を展開するように構成する必要があります。
-ms.openlocfilehash: 97cf81bb3efa9aa5d4b8717018232d479fcbf2c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: ネットワーク地域、ネットワーク サイト、IP サブネットについて学習します。 これらのすべては、Skype for Business でのメディア バイパスの計画、Skype for Business Server での通話受付管理の計画、または Skype for Business Server での緊急サービスの計画を展開するように構成するSkype for Business Serverエンタープライズ VoIP。
+ms.openlocfilehash: fd81c9084ca94e7b0884d1c496c153fd964bcf89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608004"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762115"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>ネットワーク内の高度なエンタープライズ VoIP機能のネットワークSkype for Business Server
 
 ネットワーク地域、ネットワーク サイト、IP サブネットについて学習します。 これらのすべては、Skype for Business の [メディア バイパスの計画] [、Skype for Business Server](media-bypass.md)での通話受付管理の計画、または Skype for Business Server エンタープライズ VoIP の[Skype for Business Server](call-admission-control.md)での緊急サービスの計画を展開するように構成[する](emergency-services.md)必要があります。
 
-Skype for Business Serverには[、Skype for Business Server エンタープライズ VoIP](call-admission-control.md)での通話受付管理の計画、Skype for Business Server での緊急サービスの計画、および[](emergency-services.md)Skype for Business でのメディア バイパス[の計画](media-bypass.md)という 3 つの高度な機能があります。 これらの機能は、ネットワーク領域、ネットワーク サイト、および Skype for Business Server トポロジ内の各サブネットとネットワーク サイトとの関連付けに関する特定の構成要件を共有します。
+Skype for Business Serverには、Skype for Business Server エンタープライズ VoIP での通話受付管理の計画[、Skype for Business Server](call-admission-control.md)での緊急サービスの計画、およびメディア[](emergency-services.md)バイパスの計画という 3 つの高度な機能[があります。in Skype for Business](media-bypass.md). これらの機能は、ネットワーク領域、ネットワーク サイト、および Skype for Business Server トポロジ内の各サブネットとネットワーク サイトとの関連付けに関する特定の構成要件を共有します。
 
 このトピックでは、これら 3 つの高度な機能すべてに共通する構成要件エンタープライズ VoIPします。
 

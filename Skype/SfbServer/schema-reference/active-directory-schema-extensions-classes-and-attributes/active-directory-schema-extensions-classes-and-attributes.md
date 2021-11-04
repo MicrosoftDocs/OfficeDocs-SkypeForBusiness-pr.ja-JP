@@ -1,7 +1,7 @@
 ---
 title: アクティブなディレクトリ スキーマの拡張機能、クラスおよび属性
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: このリファレンス セクションの内容は、次のとおりです。
-ms.openlocfilehash: 92b361a493bdb090cb216fa5c65dff4787db3c5f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 55ab4d185f2fb00159185cbb69ff1998db9d6f1b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618753"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762085"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>アクティブなディレクトリ スキーマの拡張機能、クラスおよび属性
  

@@ -1,7 +1,7 @@
 ---
 title: サーバーを追加する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
 description: サーバーの既存のプール (プールは以下のいずれか) に新しいサーバーを追加するには、以下の操作を行います。
-ms.openlocfilehash: 51e83db9382bd28308c60e57d952a33249f98344
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46316cf480a0a91b7f50a80825de5930a03154fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621595"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775417"
 ---
 # <a name="add-server"></a>サーバーの追加
  

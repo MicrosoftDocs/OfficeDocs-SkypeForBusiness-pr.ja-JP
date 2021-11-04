@@ -1,7 +1,7 @@
 ---
 title: 2019 Skype for Business Serverの展開
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/9/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: これらのリンクを参照して、2019 年にインストールおよび構成Skype for Business Serverします。'
-ms.openlocfilehash: 44f1b932451d1e9da3bdf52066ad91d553f86b2b
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: defa81886e5ae2cda536776b35722d3c08e9700e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012141"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761621"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>2019 Skype for Business Serverの展開
  
@@ -36,7 +36,7 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
 
 インストールおよび構成方法に関する以下の記事はSkype for Business Serverオンラインで表示できます。 
   
-|&nbsp;|Content|説明|
+|&nbsp;|コンテンツ|説明|
 |:-----|:-----|:-----|
 |![ドキュメントのアイコン。](/office/media/icons/paragraph-writing-blue.svg)|[2019 年のSkype for Business Server要件](../plan/system-requirements.md)   |サーバーと環境の要件についてSkype for Business Server。   |
 |![ドキュメントのアイコン。](/office/media/icons/paragraph-writing-blue.svg)|[トポロジの基本Skype for Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)  |トポロジ オプションとサーバーのコロケーション シナリオについて説明します。Skype for Business Server。   |
@@ -52,7 +52,7 @@ Skype for Business Serverは、エンタープライズ レベルのコラボレ
 
 データの計画方法に関する以下のSkype for Business Serverは、他の分野の専門家から提供されています。 
   
-|&nbsp;|Content|説明|
+|&nbsp;|コンテンツ|説明|
 |:-----|:-----|:-----|
 |![ドキュメントのアイコン。](/office/media/icons/paragraph-writing-blue.svg)|[Skype for Business Server IT のプロ向け情報](../../Hub/index.yml)  |リソース センターにアクセスして、ビデオ、コミュニティ サイト、ドキュメント、ダウンロードなどへアクセスします。|
 |![開発者向けコンテンツのアイコン。](/office/media/icons/developer-blue.svg)|[Skype開発者プラットフォーム](/skype-sdk/skypedeveloperplatform)  |コード サンプル、トレーニングSkype for Business Server SDK など、ユーザーの開発者向けリソースを検索します。   |

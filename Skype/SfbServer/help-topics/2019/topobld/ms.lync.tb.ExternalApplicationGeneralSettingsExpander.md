@@ -1,7 +1,7 @@
 ---
 title: 外部アプリケーション全般設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既に定義されている信頼済みアプリケーション サーバーのプロパティを編集するには、以下の操作を行います。
-ms.openlocfilehash: a19a2271caebe2dc0acc6c2c0609e76abfdb338c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3820e426d90a0c35c54798080308319a5184cf0d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626879"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775377"
 ---
 # <a name="external-application-general-settings-expander"></a>外部アプリケーション全般設定エキスパンダー
  

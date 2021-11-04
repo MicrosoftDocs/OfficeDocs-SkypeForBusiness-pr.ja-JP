@@ -1,7 +1,7 @@
 ---
 title: サブネットの関連付け
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 5d0a1bf1784eea717cc33d9c1ed1dd7b7694182f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 835765fa6f6ab31207aec1b77298f7202d5dab25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620433"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775617"
 ---
 # <a name="associate-a-subnet"></a>サブネットの関連付け
 

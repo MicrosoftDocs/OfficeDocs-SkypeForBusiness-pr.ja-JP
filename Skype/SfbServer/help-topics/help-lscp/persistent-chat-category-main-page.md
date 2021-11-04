@@ -1,7 +1,7 @@
 ---
 title: 常設チャット カテゴリ メイン ページ
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: '[常設チャット] ページの [カテゴリ] セクションを使用して、カテゴリを構成できます。 常設チャット ルーム カテゴリは、チャット ルームを整理する論理的な構造です。 カテゴリは、チャット ルームの作成やチャット ルームへの参加を許可するユーザーとユーザー グループを制御するアクセス制御リスト (ACL) の既定のセットを定義します。 カテゴリを使用して、組織内の異なる部門間に倫理的境界を設置できます。'
-ms.openlocfilehash: 6125672648d107b2c7e666dcf9637cac1e2fb3c7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd03180802cc8844f2b0a5d43c35f9d78a48bb32
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630961"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768955"
 ---
 # <a name="persistent-chat-category-main-page"></a>常設チャット カテゴリ メイン ページ
  
@@ -78,6 +78,6 @@ ms.locfileid: "58630961"
     
 ## <a name="see-also"></a>関連項目
 
-常設チャット サーバーの機能の詳細については、「Plan for Persistent Chat [Server in Skype for Business Server 2015」、2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)年 Skype for Business Server 年の常設チャット サーバーの展開、および Skype for Business Server [2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)年の常設チャット サーバー[の](../../manage/persistent-chat/persistent-chat.md)管理を参照してください。
+常設チャット サーバーの機能の詳細については、「Plan for Persistent Chat [Server in Skype for Business Server 2015」、](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)および[「Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)での常設チャット サーバーの展開」、および「Skype for Business Server での常設チャット サーバーの管理」を[参照してください。2015](../../manage/persistent-chat/persistent-chat.md).
   
 

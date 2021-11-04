@@ -1,7 +1,7 @@
 ---
 title: バングラデシュでの空き時間情報
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: バングラデシュで利用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
-ms.openlocfilehash: 38632bc3f6d6a6c0fb7b6b81a67ff3016bd228e1
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: バングラデシュで利用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: 0c932677099389d06aaa19145a56873d96059901
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733278"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761775"
 ---
 # <a name="availability-in-bangladesh"></a>バングラデシュでの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-バングラデシュで利用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
+バングラデシュで利用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 

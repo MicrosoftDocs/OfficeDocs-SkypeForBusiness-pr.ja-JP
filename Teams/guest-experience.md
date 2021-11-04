@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: この記事では、ゲストが利用できる Microsoft Teams の機能性について説明します。
-ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c58e70896c14719e9aa0289ef0cf6d636393d09d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729616"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774577"
 ---
 # <a name="guest-experience-in-teams"></a>Teams でのゲスト エクスペリエンス
 
@@ -110,3 +110,5 @@ Teams でのゲストエクスペリエンスに関する次のビデオをご�
 ## <a name="related-topics"></a>関連項目
 
 [ゲスト ユーザーとして組織を脱退する](/azure/active-directory/b2b/leave-the-organization)
+
+[ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする](communicate-with-users-from-other-organizations.md)

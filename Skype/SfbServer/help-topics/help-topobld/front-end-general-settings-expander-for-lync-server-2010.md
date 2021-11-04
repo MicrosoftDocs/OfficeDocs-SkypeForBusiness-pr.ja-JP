@@ -1,7 +1,7 @@
 ---
 title: Lync Server 2010 用のフロントエンド全般設定の展開
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: フロント エンド サーバーまたはフロント エンド プールのプロパティを編集するには、次の属性を編集または構成します。 構成ページは、次のセクションに分かれています。
-ms.openlocfilehash: 60f926a796ce38ecc17e033a4eef3dcd10ae1904
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7257a8abf61f2d081562e72b40811017dcefaa0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600132"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768775"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のフロント エンド全般設定エキスパンダー
 
@@ -43,7 +43,7 @@ ms.locfileid: "58600132"
 
 - [電話会議] をオンにした場合、[**ダイヤルイン (PSTN) 会議**] をオンにすることができます。ダイヤルイン会議の機能を有効にするには、このチェック ボックスをオンにします。
 
-- Lync Server 2013 がボイス オーバー IP (VoIP) テクノロジを使用して電話音声システムとして機能する機能を展開する場合は、仲介サーバー、PSTN ゲートウェイ、および IP-PBX を使用してハンドセット電話、SIP トランク、または公衆交換電話網接続を展開するオプションを含む機能を、設計と要件に基づいて組み合わせてまたは単独で展開する場合は、チェック ボックス **エンタープライズ VoIP** を選択します。 詳細については、「エンタープライズ VoIP [2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) [エンタープライズ VoIP」および](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice)「プラン for エンタープライズ VoIP」を参照Skype for Business Server。
+- Lync Server  2013 がボイス オーバー IP (VoIP) テクノロジを使用して電話音声システムとして機能する機能を展開する場合は、仲介サーバー、PSTN ゲートウェイ、IP-PBX を使用してハンドセット電話、SIP トランク、または公衆交換電話網接続を展開するオプションを組み合わせて、または単独で展開する場合は、チェック ボックス エンタープライズ VoIP を選択します。 設計と要件に基づいて行います。 詳細については、「エンタープライズ VoIP [2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) [エンタープライズ VoIP」および](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice)「プラン for エンタープライズ VoIP」を参照Skype for Business Server。
 
     **関連付け**
 

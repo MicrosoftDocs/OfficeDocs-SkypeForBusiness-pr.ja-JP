@@ -1,7 +1,7 @@
 ---
 title: サーバーのメモリ容量の制限を監視Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: '概要: サーバーのメモリ容量制限を監視する方法について、Skype for Business Server。'
-ms.openlocfilehash: 224de5c2727efe02ba2303a2eeb30e189ed4d67e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df24f96c8fca1927c1222e2bf42981f5cebf7aac
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595517"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768705"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>サーバーのメモリ容量の制限を監視Skype for Business Server
  

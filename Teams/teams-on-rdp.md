@@ -1,7 +1,7 @@
 ---
-title: リモート Teamsサービスでアプリを使用する
-author: cichur
-ms.author: serdars
+title: リモート デスクトップ Teamsを使用する
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,25 +17,25 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 063ded4b2e2963ab30126c5af967017bf4981cef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605579"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774367"
 ---
-# <a name="teams-in-remote-desktop-services"></a>Teams デスクトップ サービスの使用
+# <a name="teams-in-remote-desktop-services"></a>Teams デスクトップ サービスの設定
 
-この記事では、リモート デスクトップ サービス (RDS) 環境で Microsoft Teamsを使用する場合の要件と制限事項について説明します。
+この記事では、リモート デスクトップ サービス (RDS) 環境でMicrosoft Teamsの要件と制限事項について説明します。
 
 ## <a name="what-is-rds"></a>RDS とは
 
 リモート デスクトップ サービス (RDS) は、エンド ユーザーのニーズに応じて仮想化ソリューションを構築するためのプラットフォームです。 RDS を使用すると、個々の仮想化されたアプリケーションを提供し、セキュリティで保護されたモバイルおよびリモート デスクトップ アクセスを提供し、エンド ユーザーにクラウドからアプリケーションとデスクトップを実行する機能を提供できます。
 
-RDS は、デプロイの柔軟性、コスト効率、拡張性を提供します。 RDS は、オンプレミスデプロイ用の Windows Server 2016、クラウド デプロイ用の Microsoft Azure、パートナー ソリューションの堅牢な配列など、さまざまなデプロイ オプションを通じて提供されます。
+RDS は、デプロイの柔軟性、コスト効率、拡張性を提供します。 RDS は、オンプレミスデプロイ用の Windows Server 2016、クラウド デプロイ用の Microsoft Azure、堅牢なパートナー ソリューションなど、さまざまなデプロイ オプションを通じて提供されます。
 環境と設定に応じて、セッション ベースの仮想化用の RDS ソリューションを仮想デスクトップ インフラストラクチャ (VDI) として設定できます。
 
-現在、リモート Teamsサービス環境での共有は、コラボレーション機能とチャット機能をサポートして利用できます。 最適なユーザー エクスペリエンスを確保するには、この記事のガイダンスに従ってください。
+現在、Teamsサービス環境内の共有機能は、コラボレーション機能とチャット機能をサポートして利用できます。 最適なユーザー エクスペリエンスを確保するには、この記事のガイダンスに従ってください。
 
 ## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teamsコラボレーションを使用して RDS を使用する
 
@@ -66,7 +66,7 @@ DisallowCalling 通話ポリシーと AllOff 会議ポリシーをユーザー�
 複数のユーザーに同時にポリシーを割り当てるには、次の操作を行います。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[ユーザー]** に移動し、ユーザーを検索するか、表示にフィルターを適用してユーザーを表示します。
-2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表&#x2713;にある [チェック マーク] を選択します。
+2. [**&#x2713;** (チェックマーク)] の列からユーザーを選択します。 すべてのユーザーを選択するには、表の上部&#x2713; (チェック マーク) を選択します。
 3. [設定 **の編集]** を選択し、必要な変更を行い、[適用] を **選択します**。
 
 または、次の手順を実行できます。

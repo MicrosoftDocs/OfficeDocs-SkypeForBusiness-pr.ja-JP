@@ -1,7 +1,7 @@
 ---
 title: 電話の番号管理
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、オーストリアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 411ec652189a9e6040731b9f5b21136fa44530c9
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: 次の表を使用して、オーストリアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+ms.openlocfilehash: 6abf2814f37708e8ec13e071c34ab4f1c901f7c3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732848"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761765"
 ---
 # <a name="phone-number-management-for-austria"></a>電話の番号管理
 
-この表を使用して、オーストリアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
+次の表を使用して、オーストリアで電話番号を取得および管理する方法に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   

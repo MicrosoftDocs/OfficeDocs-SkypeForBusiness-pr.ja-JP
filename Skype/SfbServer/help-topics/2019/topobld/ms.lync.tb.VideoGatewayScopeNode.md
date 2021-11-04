@@ -1,7 +1,7 @@
 ---
 title: ビデオ ゲートウェイ スコープ
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the Skype for Business Server」を参照してください。
-ms.openlocfilehash: f36bcc1fc816cadcbb22e7c0f95f68f5398e45ef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6e39e03eb360437d3a72c2aa57edaf1853b6c770
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633181"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769145"
 ---
 # <a name="video-gateway-scope"></a>ビデオ ゲートウェイ スコープ
  

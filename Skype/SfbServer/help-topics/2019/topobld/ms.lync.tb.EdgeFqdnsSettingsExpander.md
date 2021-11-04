@@ -1,7 +1,7 @@
 ---
 title: エッジ サーバーの FQDN 設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 ROBOTS: NOINDEX, NOFOLLOW
 description: エッジ サーバーの外部 設定 を編集または指定するには、まず、セッション開始プロトコル (SIP) アクセス、Web 会議エッジ サービス、およびオーディオ/ビデオ エッジ サービスに個別の IP アドレスを使用する必要があります。
-ms.openlocfilehash: 9d75c2154f1c8bc40cc1298052bdf0a095dd199e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 98169166a684cbd42b3d17cd2962024b26d59680
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620043"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769315"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>エッジ サーバーの FQDN 設定エキスパンダー
 

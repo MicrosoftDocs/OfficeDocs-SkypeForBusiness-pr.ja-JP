@@ -1,7 +1,7 @@
 ---
 title: アーカイブ ポリシー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 ROBOTS: NOINDEX, NOFOLLOW
 description: アーカイブ ポリシーを使用して、ユーザーのアーカイブを有効または無効にSkype for Business Server。 それぞれのアーカイブ ポリシーでは、次のどちらかまたは両方のアーカイブを有効化または無効化できます。
-ms.openlocfilehash: dca1ec888a63297f89da062d22983d3d05182127
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e8a68ab2bdc4b1ee5eb98f8a8f852f52fbf9c74
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610064"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775657"
 ---
 # <a name="archiving-policy"></a>アーカイブ ポリシー
  

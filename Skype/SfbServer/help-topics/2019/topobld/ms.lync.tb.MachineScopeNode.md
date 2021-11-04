@@ -1,7 +1,7 @@
 ---
 title: コンピューター スコープ ノード
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 ROBOTS: NOINDEX, NOFOLLOW
 description: このノードには、このサーバーの完全修飾ドメイン名 (FQDN) および IP アドレス構成が表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: 2e898ba819ca06cbfb52ccac5de2d44373c6ffd7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c1157bcea1e4d8e4b05ed34f04c551f5d294340b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631041"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769265"
 ---
 # <a name="machine-scope-node"></a>コンピューターのスコープ ノード
  

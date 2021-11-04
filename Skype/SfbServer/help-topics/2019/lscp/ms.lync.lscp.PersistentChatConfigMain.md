@@ -1,7 +1,7 @@
 ---
 title: 常設チャット構成メイン ページ
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1e75d352-12cf-4548-9301-5d4c0e1c8f46
 ROBOTS: NOINDEX, NOFOLLOW
 description: 常設チャット サーバーの展開では、多数の常設チャット ルームをホストできます。 チャット ルームはサーバー上で一連のカテゴリに分類できます。 チャット ルームはそれぞれ 1 つのカテゴリに属し、そのカテゴリからいくつかの設定を継承します。 このように体系化することで、会話を業務目的に基づいて識別するのに役立つ構造が作成され、管理の委任と簡素化が促進されます。
-ms.openlocfilehash: 3a09ce98016ceb9db05d7d60dc34f945a0c0a5fd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd426c711876ce96bdfe6beea136289cfc4414b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579331"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761375"
 ---
 # <a name="persistent-chat-configuration-main-page"></a>常設チャットの構成メイン ページ
 

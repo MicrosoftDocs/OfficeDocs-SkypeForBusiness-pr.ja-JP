@@ -1,14 +1,14 @@
 ---
 title: Teams Only モードの考慮事項
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: landerl
-description: 管理者は、管理センターで [Microsoft Teamsのみ] モードへのアップグレードを準備Microsoft Teamsできます。
+description: 管理者は、管理センターで [Microsoft Teams のみ] モードへのアップグレードを準備するMicrosoft Teams確認できます。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f1c33f102c76b6443e9b206ebcdf6921dff08e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93c45670207729cbfcf42620aa235803b3c50e02
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636451"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774337"
 ---
 # <a name="teams-only-mode-considerations"></a>Teams Only モードの考慮事項
 
@@ -42,16 +42,16 @@ Teams のみモードにアップグレードすると、Microsoft 365 または
 > [!IMPORTANT]
 > アップグレード計画を開始し始めたばかりの場合は、アップグレードの開始に関するガイドをMicrosoft Teams[してください](upgrade-start-here.md)。 
 
-**共存に関する考慮事項**: Skype for Business Online や Skype for Business Server を既に使用している組織は、Teams をニーズに合ったペースで環境に導入できます。 組織は必要に応じて Teams を目的のユーザー セットに段階的にロールアウトでき、Teams を使用するユーザーは Skype for Business を使用するユーザーと通信できます。その逆も可能です。 このエクスペリエンスを管理するために、管理者は共存モードを使用します。このモードでは、エンド ユーザーのクライアント エクスペリエンス、着信チャットと通話のルーティング動作、および新しい会議が Teams または Skype for Business でスケジュールされるかどうかを定義します。 ユーザーが [のみ] にアップグレードされている場合、ユーザーは他の組織の **Teamsできます**。ただし、両方のユーザーがアプリを使用する場合に最適なTeams。 [会議のみ] にアップグレードTeamsは、引き続き会議Skype for Businessできます。 
+**共存に関する考慮事項**: Skype for Business Online や Skype for Business Server を既に使用している組織は、Teams をニーズに合ったペースで環境に導入できます。 組織は必要に応じて Teams を目的のユーザー セットに段階的にロールアウトでき、Teams を使用するユーザーは Skype for Business を使用するユーザーと通信できます。その逆も可能です。 このエクスペリエンスを管理するために、管理者は共存モードを使用します。このモードでは、エンド ユーザーのクライアント エクスペリエンス、着信チャットと通話のルーティング動作、および新しい会議が Teams または Skype for Business でスケジュールされるかどうかを定義します。 ユーザーが [のみ] にアップグレードされている場合、ユーザーは他の組織の **Teamsできます**。ただし、両方のユーザーがアプリを使用する場合に最適なTeams。 [会議のみ] にアップグレードTeamsユーザーは、引き続き会議Skype for Businessできます。 
 
 > [!IMPORTANT]
-> 共存の詳細については、「共存と相互運用性について」Microsoft Teams[とSkype for Business参照してください](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。 Teams と Skype (Consumer) の詳細については、「Teams[とSkype参照してください](teams-skype-interop.md)。
+> 共存の詳細については、「共存と相互運用性Microsoft Teams Skype for Business[を参照してください](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。 Teams と Skype (Consumer) の詳細については、「Teams[とSkype参照してください](teams-skype-interop.md)。
 
 
 **ユーザー固有の** 考慮事項: 一部のユーザー シナリオはまだ進化しており、管理者は組織内の他のユーザーをアップグレードする際に、特定のユーザーのアップグレードを一時的に延期する場合があります。 特に、プライマリ デバイスが VDI ベースのユーザー向けシナリオへの対応に引き続き取り組み中です。 サイトのお知らせについては、「ロードマップ[」をMicrosoft 365してください](https://www.microsoft.com/microsoft-365/roadmap)。
 
 > [!NOTE]
-> 移行する前にTeamsモードをサポートしないデバイスを交換または更新する必要Teams。 
+> [移行のみ] Teamsする前に、アプリケーションをサポートしないデバイスを交換または更新する必要Teams。 
 
 > [!IMPORTANT]
-> **注意**: 移行へのTeamsは、技術的な移行以上の作業です。 アップグレードが成功すると、技術的な準備とエンドユーザーの準備の両方が評価されます。 アップグレードへのSkype for BusinessのTeams計画の詳細については、アップグレード[](upgrade-framework.md)ガイダンスを参照Teams。  
+> **注意**: 移行へのTeamsは、技術的な移行以上の作業です。 アップグレードが成功すると、技術的な準備とエンドユーザーの準備の両方が評価されます。 アップグレードへのSkype for Businessの[Teams計画の](upgrade-framework.md)詳細については、アップグレードガイダンスを参照Teams。  

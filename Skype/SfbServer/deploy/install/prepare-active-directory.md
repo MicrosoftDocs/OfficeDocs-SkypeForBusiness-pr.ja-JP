@@ -1,7 +1,7 @@
 ---
 title: 'Skype for Business Server: Active Directory の準備'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '概要: Active Directory ドメインをインストール用に準備する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 928873f44b9cb3ad12069964e1b7f93b410f13de
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 882a57aa5ee857b0a4c633b6365c7a89c6266669
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731637"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775757"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype for Business Server: Active Directory の準備
  
@@ -65,9 +65,9 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     c. 手順は展開ごとに 1 回だけ実行し、[次へ] をクリックする必要 **があります。**
     
-    d.  スキーマを準備したら、[ログの表示] をクリックしてログ **を表示できます**。 
+    d. スキーマを準備したら、[ログの表示] をクリックしてログ **を表示できます**。 
     
-    e.  [ **完了]** をクリックしてスキーマの準備ウィザードを閉じ、[Active Directory の準備] 手順に戻ります。
+    e. [ **完了]** をクリックしてスキーマの準備ウィザードを閉じ、[Active Directory の準備] 手順に戻ります。
     
 5. **手順 2: スキーマ パーティションのレプリケーションを確認する**
     
@@ -77,9 +77,9 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     c. **[アクション]** メニューで、**[接続]** をクリックします。
     
-    d.  **[接続の設定]** ダイアログ ボックスの **[既知の名前付けコンテキストを選択する]** で、**[スキーマ]** を選択して **[OK]** をクリックします。
+    d. **[接続の設定]** ダイアログ ボックスの **[既知の名前付けコンテキストを選択する]** で、**[スキーマ]** を選択して **[OK]** をクリックします。
     
-    e.  スキーマ コンテナーの下で **、CN=ms-RTC-SIP-SchemaVersion を検索します**。 このオブジェクトが存在し **、rangeUpper** 属性の値が 1150 で **、rangeLower** 属性の値が 3 の場合、スキーマは正常に更新され、レプリケートされました。 このオブジェクトが存在しない場合、または **rangeUpper** 属性と **rangeLower** 属性の値が指定されていない場合、スキーマは変更されていないか、レプリケートされていません。
+    e. スキーマ コンテナーの下で **、CN=ms-RTC-SIP-SchemaVersion を検索します**。 このオブジェクトが存在し **、rangeUpper** 属性の値が 1150 で **、rangeLower** 属性の値が 3 の場合、スキーマは正常に更新され、レプリケートされました。 このオブジェクトが存在しない場合、または **rangeUpper** 属性と **rangeLower** 属性の値が指定されていない場合、スキーマは変更されていないか、レプリケートされていません。
     
 6. **手順 3: 現在のフォレストを準備する**
     
@@ -89,9 +89,9 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     c. 手順は展開ごとに 1 回だけ実行し、[次へ] をクリックする必要 **があります。**
     
-    d.  ユニバーサル グループを作成するドメインを指定します。 サーバーがドメインの一部である場合は、[ローカルドメイン] を選択し、[次へ] をクリック **します**。
+    d. ユニバーサル グループを作成するドメインを指定します。 サーバーがドメインの一部である場合は、[ローカルドメイン] を選択し、[次へ] をクリック **します**。
     
-    e.  フォレストの準備が完了したら、[ログの表示] をクリックしてログ **を表示できます**。 
+    e. フォレストの準備が完了したら、[ログの表示] をクリックしてログ **を表示できます**。 
     
     f. [ **完了]** をクリックして現在のフォレストの準備ウィザードを閉じ、[Active Directory の準備] 手順に戻ります。
     
@@ -111,7 +111,7 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     c. 左側の **ウィンドウで [Users]** コンテナーをクリックし、右側のウィンドウでユニバーサル グループ **CsAdministrator** を探します。 CsAdministrator (Cs で始まる他の新しいユニバーサル グループの中で) が存在する場合、Active Directory レプリケーションは成功しています。
     
-    d.  グループがまだ存在しない場合は、レプリケーションを強制するか、15 分待って右側のウィンドウを更新できます。 グループが表示されている場合、レプリケーションは完了しています。
+    d. グループがまだ存在しない場合は、レプリケーションを強制するか、15 分待って右側のウィンドウを更新できます。 グループが表示されている場合、レプリケーションは完了しています。
     
 8. **手順 5: 現在のドメインを準備する**
     
@@ -121,9 +121,9 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     c. この手順は、展開内のドメインごとに 1 回だけ実行し、[次へ] **をクリックする** 必要があります。
     
-    d.  ドメインの準備が完了したら、[ログの表示] をクリックしてログ **を表示できます**。 
+    d. ドメインの準備が完了したら、[ログの表示] をクリックしてログ **を表示できます**。 
     
-    e.  [ **完了]** をクリックして現在のドメインの準備ウィザードを閉じ、[Active Directory の準備] 手順に戻ります。
+    e. [ **完了]** をクリックして現在のドメインの準備ウィザードを閉じ、[Active Directory の準備] 手順に戻ります。
     
     これらの手順は、オブジェクトが見つかったすべてのSkype for Business Server完了する必要があります。それ以外の場合は、サービスが開始されない可能性があります。 これには、ユーザー、連絡先オブジェクト、管理グループ、その他の種類のオブジェクトなど、任意の種類の Active Directory オブジェクトが含まれます。 必要に応じて、Set-CsUserReplicatorConfiguration -ADDomainNamingContextList を使用して、Skype for Business Serverオブジェクトを持つドメインのみを追加できます。
     
@@ -159,9 +159,9 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     c. [**CSAdministrator のプロパティ**] で、[**メンバー**] タブをクリックします。
     
-    d.  [ **メンバー**] タブで [ **追加**] をクリックします。 [**ユーザー、連絡先、コンピューター、サービス アカウント、またはグループの選択**] で、[**選択するオブジェクト名を入力してください**] を見つけます。 CSAdministrators グループに追加するユーザー名またはグループ名を入力します。 **[OK]** をクリックします。
+    d. [ **メンバー**] タブで [ **追加**] をクリックします。 [**ユーザー、連絡先、コンピューター、サービス アカウント、またはグループの選択**] で、[**選択するオブジェクト名を入力してください**] を見つけます。 CSAdministrators グループに追加するユーザー名またはグループ名を入力します。 **[OK]** をクリックします。
     
-    e.  [メンバー **] タブ** で、選択したユーザーまたはグループが存在します。 **[OK]** をクリックします。
+    e. [メンバー **] タブ** で、選択したユーザーまたはグループが存在します。 [**OK**] をクリックします。
     
     > [!CAUTION]
     > [Skype for Business Serverコントロール パネル] は、役割ベースのアクセス制御ツールです。 CsAdministrator グループのメンバーシップを使用すると、使用可能なすべての構成機能にSkype for Business Serverコントロール パネルのフル コントロールを使用しているユーザーが表示されます。 特定の機能向けに設計されたその他の役割も使用できます。 使用可能なロールの詳細については、「環境[](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)要件」または「Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)のサーバー要件」を参照Skype for Business Serverしてください。 管理グループのメンバーを作成するには、ユーザー Skype for Business Serverを有効にする必要はなんらない点に注意してください。 

@@ -1,7 +1,7 @@
 ---
 title: エッジの次ホップ設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 description: エッジ サーバーが内部インフラストラクチャとの通信に使用する次ホップ プールを設定または変更するには、一覧からディレクター、ディレクター プール、フロント エンド サーバー、またはフロント エンド サーバー プールを選択します。 トポロジ ビルダーで構成されているディレクターまたはフロント エンド サーバーだけが一覧に表示されます。
-ms.openlocfilehash: 92f910df0e9aa65eaa0e68777d4b9ddd02174000
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f4fe69424c9126816d5f76ded9b1f7112003530
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604866"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768815"
 ---
 # <a name="edge-next-hop-settings-expander"></a>エッジの次ホップ設定エキスパンダー
 

@@ -1,7 +1,7 @@
 ---
 title: ビデオ相互運用サーバー ポート設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the VIS pool in Skype for Business Server 2015」を参照してください。
-ms.openlocfilehash: 509b628836a4ff7bc8d190dff77fc7e904a05d1e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be1983a06c9f96e4a553d691952c3129085941c5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610724"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774977"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>ビデオ相互運用サーバー ポート設定エキスパンダー
  

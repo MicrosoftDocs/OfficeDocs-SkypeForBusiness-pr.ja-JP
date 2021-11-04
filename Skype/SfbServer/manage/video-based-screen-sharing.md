@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server のビデオベースの画面共有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/20/2018
 manager: serdars
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype for Business Serverスクリーン共有 (VbSS) の計画と構成に関する情報を確認する
-ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2921330887b4e52aee5069d2bd1f97992a015ba9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591131"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762335"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Skype for Business Server のビデオベースの画面共有 
  
@@ -68,7 +68,7 @@ VbSS への切り替えは、次の 3 つの重要な改善を目的とします
   
 **Application Server QoS/VbSS 必須設定**
 
-|**プロパティ**|**ポート値**|**プロトコル**|
+|**Property**|**ポート値**|**プロトコル**|
 |:-----|:-----|:-----|
 |AudioPortStart  <br/> |49152  <br/> |UDP  <br/> |
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: プライマリ管理サーバーを構成する方法
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: '概要: プライマリ管理サーバーを構成し、2015 System Center Operations Manager をインストールし、管理パックをインポートSkype for Business Serverします。'
-ms.openlocfilehash: 20159d77c34ebaa4a8ed022a5d0f1467deeb89e0
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 98a6cb9f18a5ff3fe008e7d07f5101884e5aa0f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012121"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774597"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>プライマリ管理サーバーを構成する方法
 
@@ -39,7 +39,7 @@ Operations Manager にSystem Center、次を含む、その製品のすべての
 
 - Web コンソール
 
-- レポート
+- Reporting
 
 - データ ウェアハウス
 

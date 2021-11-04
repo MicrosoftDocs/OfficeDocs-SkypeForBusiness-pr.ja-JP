@@ -1,6 +1,6 @@
 ---
 title: Lync VDI プラグインをインストールして展開Skype for Business Server
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: krishra
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: このトピックでは、リモート仮想デスクトップに接続するSkype for Businessを使用するための展開手順について説明します。
-ms.openlocfilehash: 9d745321a398828d6ec31a55528008b467ddea47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64bbe73f1a0a4a1d2bde59cd86f1cf3a0f5d911e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608614"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775837"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Lync VDI プラグインをインストールして展開Skype for Business Server
  

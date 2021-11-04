@@ -1,6 +1,6 @@
 ---
 title: 会議クライアント用の計画 (Web アプリおよび会議アプリ)
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '概要: IT 担当者は、会議の計画中に、Skype for Business Web アプリおよび Skype 会議アプリのサポート要件を確認Skype for Business Server。 この記事は、これらのアプリのユーザー向けではありません。'
-ms.openlocfilehash: 29464c7dffbeee1a8ae6eed33764453bed948c58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608024"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762265"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアント用の計画 (Web アプリおよび会議アプリ)
  
@@ -40,12 +40,12 @@ ms.locfileid: "58608024"
   
 既定では、会議をホストしているサーバーは、会議に参加するためにユーザーにSkype for Business Web アプリインストールを指示します。 このSkype for Business Web アプリはフロントエンド サーバーに保存され、会議出席者に送信されます。 
   
-Skype for Business Server では、Skype Meetings App (on Windows) と Skype for Business for Mac (mac) は CU [Skype 5](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)から始まる Skype for Business Web アプリ の代替として利用できますが、置換アプリを提供するには、「Skype for Business Web アプリ を置き換える会議アプリを有効にする (オプション)」で説明されている追加の構成が必要です。 会議Skype Skype for Business for Mac が有効になっている場合、ユーザーは Skype for Business サーバーからではなく、Microsoft 365 または Office 365 Content Delivery Network (CDN) からアプリの最新バージョンをダウンロードします。 2019 Skype for Business Server、会議アプリと会議Skypeを使用Skype for Business for Mac唯一のオプションです。
+たとえばSkype for Business Server、Skype 会議アプリ (Windows) と Skype for Business for Mac (Mac 上) は CU5 から始まる Skype for Business Web アプリ の代替として利用できますが、代替アプリを提供します。で説明されている追加の構成が[必要です。Skype会議](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)アプリで会議を置き換Skype for Business Web アプリ (オプション) 。 会議Skypeおよび Skype for Business for Mac が有効になっている場合、ユーザーは最新バージョンのアプリを Microsoft 365 または Office 365 Content Delivery Network (CDN) からダウンロードします。Skype for Businessサーバー。 2019 Skype for Business Server、会議アプリと会議Skypeを使用Skype for Business for Mac唯一のオプションです。
   
 Skype会議アプリは、アプリをダウンロードしてインストールし、会議に参加するための簡略化されたブラウザー エクスペリエンスを提供します。たとえば、アプリのユーザーに対する 1 回のクリックInternet Explorer。 Skypeまた、会議アプリには、信頼性と会議のSkype for Business Web アプリに関する多くの改善点があります。 
   
 > [!NOTE]
-> Skype for Business Server 2015 CU5 以降では、Skype for Business Online を使用して開催された会議はクライアントレス ユーザーに Skype for Business Web アプリ を送信しなくなりました。代わりに Skype Meetings App (Windows) または Skype for Business for Mac (Mac) が送信されます。 Skype for Business Server 2015 CU5 以降の場合[、Skype Meetings App](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)で Skype for Business Web アプリ (オプション) の置き換えを有効にした場合、クライアントレス ユーザーは Skype for Business Web アプリ ではなく Skype Meetings App または Skype for Business for Mac に送信されます。 
+> Skype for Business Server 2015 CU5 以降では、Skype for Business Online を使用して開催された会議はクライアントレス ユーザーに Skype for Business Web アプリ を送信しなくなりました。代わりに Skype Meetings App (Windows) または Skype for Business for Mac (Mac) が送信されます。 2015 Skype for Business Server CU5 以降の場合[、Skype Meetings App](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)で Skype for Business Web アプリ (オプション) を置き換える場合、クライアントレス ユーザーは代わりに Skype Meetings App または Skype for Business for Mac に送信されます。のSkype for Business Web アプリ。 
   
 ## <a name="software-requirements"></a>ソフトウェア要件
 <a name="OS-Browser"> </a>

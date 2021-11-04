@@ -1,7 +1,7 @@
 ---
 title: DTMF コマンドのキー マッピングを管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: '概要: デュアルトーンマルチ周波数 (DTMF) コマンドのキー マッピングを管理する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 10f1d6f0386e97d688e0b56b2605c194c0599ee5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd9f5b4e4560d3b89e713782ad2e8a19991a1382
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592561"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763855"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>DTMF コマンドのキー マッピングを管理Skype for Business Server
  
