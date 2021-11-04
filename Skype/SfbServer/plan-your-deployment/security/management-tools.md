@@ -1,7 +1,7 @@
 ---
 title: Windows PowerShellおよびSkype for Business Server管理ツール
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: このSkype for Business Server管理ツールは、管理ツールを使用Windows PowerShell。 Windows PowerShell には、コマンド ライン環境、製品固有のコマンド、およびすべてのスクリプト言語が含まれています。 Skype for Business Serverを使用して実装されるWindows PowerShellには、次のものが含まれます。
-ms.openlocfilehash: ff8cafa49f502c14bd9d6f67de35e0109b30e44b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c9707a9af4befc9a055021426ebd5041c534d7d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595329"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767505"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShellおよびSkype for Business Server管理ツール
  

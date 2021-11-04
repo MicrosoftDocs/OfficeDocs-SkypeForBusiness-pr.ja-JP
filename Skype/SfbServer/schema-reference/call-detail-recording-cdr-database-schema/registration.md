@@ -1,7 +1,7 @@
 ---
 title: 登録テーブル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: 各レコードは 1 つのユーザー登録イベントを表します。
-ms.openlocfilehash: ed8ce9f160f42384548a01d2cd6c74b3b24e60f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c4c9ca266ac366526df1723bebc7ef58e9470187
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627779"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746543"
 ---
 # <a name="registration-table"></a>登録テーブル
  

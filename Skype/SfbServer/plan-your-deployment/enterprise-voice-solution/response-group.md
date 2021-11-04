@@ -1,7 +1,7 @@
 ---
 title: '[応答グループ] アプリケーションの計画をSkype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: ユーザーグループへの通話ルーティングSkype for Business Server エンタープライズ VoIPを設定できる、ユーザーの応答グループを計画します。 オーディオ ファイルの要件が含まれています。
-ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ca8159ca3d6fc37aa5c8f1f3f88f8188929f71f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631581"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767555"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>[応答グループ] アプリケーションの計画をSkype for Business Server
 
@@ -88,7 +88,7 @@ Manager の役割に対応するために、応答グループ アプリケー�
 
 応答グループ アプリケーションには、フロント エンド サーバーと同じハードウェア要件、オペレーティング システム要件、およびソフトウェアの前提条件があります。
 
-応答グループの音楽およびアナウンスに Windows Media Audio (.wma) ファイルを使用する場合、応答グループ アプリケーションを実行するすべてのフロントエンド サーバーまたは Standard Editions サーバーには、Windows Server 2008 R2 を実行しているサーバー用に Windows メディア形式ランタイムがインストールされている必要があります。または Windows Server 2012 または Windows Server 2012 R2 を実行しているサーバーには Microsoft Media Foundation がインストールされている必要があります。 Server 2008 R2 Windows、メディア形式ランタイムWindowsデスクトップ エクスペリエンスの一部としてインストールWindowsされます。
+応答グループの音楽およびアナウンスに Windows Media Audio (.wma) ファイルを使用する場合、応答グループ アプリケーションを実行するすべてのフロントエンド サーバーまたは Standard Editions サーバーには、Windows Server 2008 R2 を実行しているサーバー用に Windows メディア形式ランタイムがインストールされている必要があります。または Windows Server 2012 を実行しているサーバーには Microsoft Media Foundation がインストールされている必要があります。Windows Server 2012 R2. Server 2008 R2 Windows、メディア形式ランタイムWindowsデスクトップ エクスペリエンスの一部としてインストールWindowsされます。
 
 応答グループは **、言語パックを使用** して、音声合成と音声認識をサポートします。 これらの音声テクノロジは、ウェルカム メッセージや他のプロンプト、対話型音声応答 (IVR) の質問と回答などのメッセージを構成するときに使用されます。 既定では、サポートされている 26 個の言語パックは、展開時にインストールSkype for Business Server。
 
@@ -209,7 +209,7 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 
 |**測定基準**|**1 Enterprise Edition <br/> (8 つのフロントエンド サーバーを使用)**|**サーバー Standard Edition**|
 |:-----|:-----|:-----|
-|1 秒あたりの着信呼び出し  <br/> |16   <br/> |2   <br/> |
+|1 秒あたりの着信呼び出し  <br/> |16  <br/> |2  <br/> |
 |IVR または MoH に接続された同時呼び出し  <br/> |480  <br/> |60  <br/> |
 |同時匿名セッション (IM なし)  <br/> |224  <br/> |28  <br/> |
 |同時匿名セッション (IM を使用)  <br/> |64  <br/> |8   <br/> |

@@ -1,7 +1,7 @@
 ---
 title: '[フロントエンド サーバーの管理] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: '概要: フロントエンド サーバーを追加、削除、パッチ、または更新する方法についてSkype for Business Server。'
-ms.openlocfilehash: 4a58eb7ab54102d1287a61a9f736b9d0c1a87108
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4322d9456488201f029a80d3f91aaa94c9a2d3d0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578791"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760645"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>[フロントエンド サーバーの管理] Skype for Business Server
  

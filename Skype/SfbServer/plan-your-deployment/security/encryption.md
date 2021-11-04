@@ -1,7 +1,7 @@
 ---
 title: ユーザーの暗号化Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: Skype for Business Server TLS と MTLS を使用してインスタント メッセージを暗号化します。 すべてのサーバー間トラフィックでは、トラフィックが内部ネットワークに限定されているのか、内部ネットワーク境界を越えた場合でも、MTLS が必要です。 サードパーティの IPPBX Skype for Business Server SIP トランク TLS に接続する場合はオプションですが、仲介サーバーとメディア ゲートウェイの間で強く推奨されます。 このリンクで TLS が構成されている場合は、MTLS が必要です。 したがって、仲介サーバーによって信頼されている CA からの証明書を使用してゲートウェイを構成する必要があります。
-ms.openlocfilehash: ec87f7d2a32e02e8dcd4a4c489b77d2add3ac43a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a7f4d562c3433a2ca44c61659aa4ca2fe7ed271
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586859"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746703"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>ユーザーの暗号化Skype for Business Server
  

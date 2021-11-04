@@ -1,7 +1,7 @@
 ---
 title: VideoClientEvent テーブル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 description: 各レコードには、ビデオ通話で 1 つのエンドポイントのクライアント イベントが含まれる。 通常、1 つの呼び出しには、呼び出し元用と呼び出し先用の 2 つのレコードがあります。
-ms.openlocfilehash: de088fb6f4bb5cd41c4f4be69fba2445c61c3e96
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a5bfbd33a5416cf68e7df45caf389133eb517e20
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595257"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767275"
 ---
 # <a name="videoclientevent-table"></a>VideoClientEvent テーブル
  

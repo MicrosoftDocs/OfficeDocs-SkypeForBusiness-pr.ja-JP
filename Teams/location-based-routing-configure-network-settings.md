@@ -1,14 +1,14 @@
 ---
 title: ネットワーク設定の構成 - 場所ベースのルーティング
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 直接ルーティング用のネットワーク リージョン、サイト、サブネットを作成および設定するLocation-Basedについて説明します。
+description: ダイレクト ルーティング用のネットワーク リージョン、サイト、サブネットを作成および設定するLocation-Basedについて説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,28 +17,28 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: aa696a0058c34be9b3b67746c8a215f6532c2f0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f3c487828ea3b19bcd3c99604aac473c53d9e46e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584511"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749053"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>場所に基づくルーティングのネットワーク設定を構成する
 
 まだ行っていない場合は、「直接ルーティングのための [Location-Based](location-based-routing-plan.md) ルーティングの計画」を参照して、Location-Based ルーティングのネットワーク設定を構成する前に実行する必要があるその他の手順を確認してください。
 
-この記事では、ルーティングのネットワーク設定を構成する方法Location-Basedします。 組織に直接ルーティング電話システムデプロイした後、次の手順では、ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネットを作成して設定します。
+この記事では、ルーティングのネットワーク設定を構成するLocation-Based説明します。 組織に直接ルーティング電話システムデプロイした後、次の手順では、ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネットを作成して設定します。
 
 ## <a name="define-network-regions"></a>ネットワーク リージョンを定義する
 
-ネットワーク リージョンには、ネットワーク サイトのコレクションが含まれているので、ネットワークのさまざまな部分が複数の地理的領域にわたって相互接続されます。 ネットワーク リージョンを構成する方法の手順については、クラウド機能のネットワーク トポロジの管理に関するページ[を参照Teams。](manage-your-network-topology.md)
+ネットワーク リージョンには、ネットワーク サイトのコレクションが含まれているので、ネットワークのさまざまな部分が複数の地理的領域にわたって相互接続されます。 ネットワーク リージョンを構成する方法の手順については、「クラウド[機能の](manage-your-network-topology.md)ネットワーク トポロジを管理する」を参照Teams。
 
 ## <a name="define-network-sites"></a>ネットワーク サイトを定義する
 
-ネットワーク サイトは、オフィス、ビルのセット、キャンパスなど、組織が物理的な会場を持つ場所を表します。 トポロジ内の各ネットワーク サイトをネットワーク リージョンに関連付ける必要があります。 ネットワーク サイトを構成する方法の手順については、「ネットワーク サイトでクラウド機能のネットワーク トポロジを管理[する」をTeams。](manage-your-network-topology.md)
+ネットワーク サイトは、オフィス、ビルのセット、キャンパスなど、組織が物理的な会場を持つ場所を表します。 トポロジ内の各ネットワーク サイトをネットワーク リージョンに関連付ける必要があります。 ネットワーク サイトを構成する方法の手順については、「ネットワーク サイトでクラウド機能のネットワーク トポロジを管理する[」をTeams。](manage-your-network-topology.md)
 
-ルーティングのベスト プラクティスはLocation-Based PSTN 接続を持つ場所ごとに個別のサイトを作成することです。 カスタム ルーティングが有効になっているサイトLocation-Based、またはルーティングに対して有効になっていないサイトLocation-Basedできます。 たとえば、Location-Based ルーティングが有効になっていないサイトを作成して、Location-Based ルーティングが有効になっているユーザーがサイトにローミングするときに PSTN 通話を発信できる場合があります。
+ルーティングのベスト プラクティスはLocation-Based PSTN 接続を持つ場所ごとに個別のサイトを作成することです。 ルーティングに対して有効になっているサイトLocation-Based、またはカスタム ルーティングに対して有効になっていないサイトLocation-Basedできます。 たとえば、Location-Based ルーティングが有効になっているユーザーがサイトにローミングするときに PSTN 通話を発信するには、Location-Based ルーティングが有効になっていないサイトを作成できます。
 
 ## <a name="define-network-subnets"></a>ネットワーク サブネットを定義する
 
@@ -52,10 +52,10 @@ ms.locfileid: "58584511"
 
 ユーザーの外部 IP アドレスが信頼済み IP アドレス一覧にある IP アドレスと一致する場合、Location-Based ルーティングはユーザーのエンドポイントが位置する内部サブネットを確認します。 ユーザーの外部 IP アドレスが信頼済み IP アドレス一覧で定義されている IP アドレスと一致しない場合、エンドポイントは不明な場所にあると分類され、Location-Based ルーティングが有効になっているユーザーとの間の PSTN 通話はブロックされます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 「Enable Location-Based Routing for Direct Routing (ダイレクト ルーティング [のルーティングを有効にする)」を参照してください](location-based-routing-enable.md)。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [Teams のクラウド音声機能のネットワーク設定](cloud-voice-network-settings.md)

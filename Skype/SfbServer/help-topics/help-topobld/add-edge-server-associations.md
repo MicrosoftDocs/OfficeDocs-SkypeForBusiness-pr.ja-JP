@@ -1,7 +1,7 @@
 ---
 title: エッジ サーバーのの関連付けを追加する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: このページを使用して、音声ビデオ トラフィック用にこのエッジ プールを使用するフロント エンド プールと Standard Edition サーバーを選択します。
-ms.openlocfilehash: d3ec8f78774f4533609e513a3d671390316f2982
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 52da68985cb78ee0a46ceebd41885f64a678e595
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634451"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752172"
 ---
 # <a name="add-edge-server-associations"></a>エッジ サーバーの関連付けの追加
  

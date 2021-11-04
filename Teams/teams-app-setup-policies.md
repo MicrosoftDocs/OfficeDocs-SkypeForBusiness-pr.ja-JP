@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のアプリのセットアップ ポリシーを管理する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -14,25 +14,25 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 組織内のユーザーに対してアプリ 設定ポリシーを使用して管理Microsoft Teams方法について説明します。
+description: 組織内のユーザーに対してアプリ設定ポリシーを使用して管理Microsoft Teamsを管理する方法について説明します。
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aa3bcdc05107722554b6fbce9074c0462ac6d73c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f28204f524cb04a94c4c18934c737a83384ff2ae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728876"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760385"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Microsoft Teams のアプリのセットアップ ポリシーを管理する
 
-管理者は、アプリセットアップ ポリシーを使用して、アプリをインストールしてピン留めして、組織内で最も使用されているアプリを昇格し、ユーザーがカスタム アプリを Teams にアップロードする必要がある場合に決定できます。
+管理者は、アプリセットアップ ポリシーを使用して、アプリをインストールしてピン留めして、組織内で最も使用されているアプリを昇格し、カスタム アプリを Teams にアップロードするユーザーを決定できます。
 
 - **アプリ** のピン留め: アプリセットアップ ポリシーを使用すると、ピン留めするアプリを選択したり、ユーザーに表示される順序を設定したり、ユーザーが自分のアプリを Teams アプリ バーにピン留めできるかどうかを制御できます。 詳細については、「アプリをピン留め [する」を参照してください](#pin-apps)。
 - **アプリのインストール:** アプリセットアップ ポリシーを使用すると、ユーザーが会議中や会議中にアプリをTeamsにアプリをインストールできます。 詳細については、「アプリのインストール」 [を参照してください](#install-apps)。
-- **アップロード アプリのセットアップ ポリシーを** 使用すると、ユーザーがカスタム アプリをカスタム アプリにアップロードTeams。 詳細については、「カスタム アプリのアップロード[を参照してください](#upload-custom-apps)。
+- **アップロード アプリのセットアップ ポリシー** を使用すると、ユーザーがカスタム アプリをカスタム アプリにアップロードTeams。 詳細については、「カスタム アプリのアップロード[を参照してください](#upload-custom-apps)。
 
 ## <a name="pin-apps"></a>アプリをピン留めする
 
@@ -43,27 +43,27 @@ ms.locfileid: "58728876"
 - Teams をカスタマイズして、ユーザーにとって最も重要なアプリを強調表示します。 表示される順序をピン留めして設定するアプリを選択します。
 - ユーザーがアプリを Teams にピン留めできるかどうかを制御します。
 
-アプリは、Teams デスクトップ クライアントの側と Teams モバイル クライアント (iOS と Android) の下部にあるアプリ バーにピン留めされます。
+アプリはアプリ バーにピン留めされます。アプリ バーは、Teams デスクトップ クライアントの側と Teams モバイル クライアント (iOS および Android) の下部にあるバーです。
 
 |Teams デスクトップ クライアント  |Teams モバイル クライアント |
 |---------|---------|
 |![デスクトップ Teamsクライアント。](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![モバイル Teamsクライアント](media/mobile-app-ui.png)      |
 
 > [!NOTE]
-> 割り当てMicrosoft Teams for Educationがグローバル ポリシーに既定でピン留めされている場合でも、現時点ではグローバル ポリシーに表示されません。 これは、クライアント上のピン留めされたアプリの一覧の 4 番目Teamsされます。
+> 割り当てMicrosoft Teams for Educationがグローバル ポリシーに既定でピン留めされている場合でも、現時点ではグローバル ポリシーに表示されません。 これは、クライアント上の固定されたアプリの一覧で 4 番目Teamsされます。
 
 アプリをピン留めするアプリ セットアップ ポリシーを作成するには、次の手順を実行します。
 
-1. 管理センターの左側のナビゲーションMicrosoft Teamsアプリのセットアップ Teams **に**  >  **移動します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[アプリのセットアップ ポリシー **] Teams**  >  **に移動します**。
 
 2. **[追加]** を選択します。
 
 3. ポリシーの名前と説明を入力します。
 
-4. アプリをピン留めしてユーザーがアプリ バーをカスタマイズできるかどうかに応じて、[ユーザーのピン留めを許可する] をオンまたはオフにします。
+4. アプリをピン留めしてユーザーがアプリ バーをカスタマイズできるかどうかに応じて、[ユーザーの固定を許可する] をオンまたはオフにします。
 
    > [!NOTE]
-   > [**ユーザー** のピン留めを許可する] 設定は、Microsoft 365 Government Community Cloud (GCC) 環境 (GCC、GCC High、DoD) の Teams 管理センターで使用できますが、現在は無効です。
+   > [**ユーザー** のピン留めを許可する] 設定は、Microsoft 365 Government Community Cloud (GCC) 環境 (GCC、GCC High、DoD) の Teams 管理センターで使用できますが、現在は有効です。
 
 5. [ピン **留めされたアプリ] で**、[アプリの **追加] を選択します**。
 
@@ -92,7 +92,7 @@ ms.locfileid: "58728876"
 
 アプリをインストールするアプリ セットアップ ポリシーを作成するには、次の手順を実行します。
 
-1. 管理センターの左側のナビゲーションMicrosoft Teamsアプリのセットアップ Teams **に**  >  **移動します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[アプリのセットアップ ポリシー **] Teams**  >  **に移動します**。
 
 2. **[追加]** を選択します。
 
@@ -115,7 +115,7 @@ ms.locfileid: "58728876"
 
 ユーザーがカスタム アプリをアプリにアップロードできるアプリ セットアップ ポリシーを作成するにはTeams手順を実行します。
 
-1. 管理センターの左側のナビゲーションMicrosoft Teamsアプリのセットアップ Teams **に**  >  **移動します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[アプリのセットアップ ポリシー **] Teams**  >  **に移動します**。
 
 2. **[追加]** を選択します。
 
@@ -136,9 +136,9 @@ ms.locfileid: "58728876"
 
 ### <a name="edit-an-app-setup-policy"></a>アプリセットアップ ポリシーを編集する
 
-Microsoft Teams管理センターを使用して、グローバル (組織全体の既定) ポリシーや作成したカスタム ポリシーなど、ポリシーを編集できます。
+Microsoft Teams管理センターを使用して、作成するグローバル (組織全体の既定) ポリシーやカスタム ポリシーなど、ポリシーを編集できます。
 
-1. 管理センターの左側のナビゲーションMicrosoft Teamsアプリのセットアップ Teams **に**  >  **移動します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[アプリのセットアップ ポリシー **] Teams**  >  **に移動します**。
 
 2. 編集するポリシーを選択し、[編集] を **選択します**。
 
@@ -166,9 +166,9 @@ PowerShell を使用して、アプリセットアップ ポリシーをグル�
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>[ピン留めされたアプリの追加] ウィンドウにアプリが見当たらない理由
 
-すべてのアプリをアプリ セットアップ ポリシーをTeamsにピン留めすることはできません。 一部のアプリでは、この機能がサポートされていない場合があります。 ピン留めできるアプリを見つけるには、[ピン留めされたアプリの追加] **ウィンドウでアプリを検索** します。 個人用スコープ (静的タブ) とボットを持つタブは Teams デスクトップ クライアントにピン留めできます。これらのアプリは、[ピン留めされたアプリの追加] ウィンドウ **で使用** できます。
+すべてのアプリをアプリ セットアップ ポリシーを使用Teamsにピン留めすることはできません。 一部のアプリでは、この機能がサポートされていない場合があります。 ピン留めできるアプリを見つけるには、[ピン留めされたアプリの追加] **ウィンドウでアプリを検索** します。 個人用スコープ (静的タブ) とボットを持つタブは Teams デスクトップ クライアントにピン留めできます。これらのアプリは、[ピン留めされたアプリの追加] ウィンドウ **で使用** できます。
 
-アプリ ストアには、すべてのアプリTeams一覧が表示Teamsしてください。 [**ピン留めされたアプリの追加**] ウィンドウには、ポリシーを使用してTeamsにピン留めできるアプリだけが表示されます。
+アプリ ストアには、すべてのアプリTeams一覧が表示Teamsしてください。 [**ピン留めされたアプリの追加**] ウィンドウには、ポリシーを使用してアプリにピン留Teamsアプリだけが表示されます。
 
 #### <a name="im-a-teams-for-education-admin-what-do-i-need-to-know-about-app-setup-policies-in-teams-for-education"></a>管理者Microsoft Teams for Educationです。アプリのセットアップ ポリシーについて知りたいMicrosoft Teams for Education
 
@@ -193,7 +193,7 @@ PowerShell を使用して、アプリセットアップ ポリシーをグル�
 |Teams デスクトップ クライアント |Teams モバイル クライアント |
 |---------|---------|
 |アプリの横にあるアプリ バーで、[Teams]**を選択します。その他のアプリ**。| アプリ バーの下部付近にあるアプリ バー Teams上にスワイプします。|
-|![デスクトップ クライアントにTeamsアプリ。](media/app-setup-policies-desktop-more-apps.png)<br>   |![モバイル クライアントのアプリTeamsする](media/app-setup-policies-mobile-more-apps.png)  
+|![デスクトップ クライアントを使用Teamsアプリ。](media/app-setup-policies-desktop-more-apps.png)<br>   |![モバイル クライアントのアプリTeamsする](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>モバイル エクスペリエンスについて知Teams必要がある情報
 
@@ -201,11 +201,11 @@ PowerShell を使用して、アプリセットアップ ポリシーをグル�
 
 サード パーティ製アプリ (Teams Store からダウンロードできます) は、モバイルに表示される前に承認される必要があります。 Microsoft for Mobile で承認されていないアプリを管理者がピンで固定すると、Teams デスクトップに表示されますが、モバイルには表示されません。 詳細については [、「モバイル クライアント](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 」を参照してください。
 
-Teams モバイル クライアントでは、ユーザーにはアクティビティ、チャット、Teams などのコア Teams アプリが表示され、Shifts などの一部のファースト パーティ アプリを Microsoft からピン留めできます。
+Teams モバイル クライアントを使用すると、ユーザーにはアクティビティ、チャット、Teams などのコア Teams アプリが表示され、Shifts など、Microsoft の一部のファースト パーティ アプリをピン留めできます。
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>ユーザーがポリシーを使用してピン留めされたアプリの順序を変更できる
 
-[ユーザーのピン留めを許可する] オプションがオンになっている場合、Teamsクライアントでピン留めされたアプリの順序を変更できます。 ユーザーは、Web クライアントでピン留めされたアプリのTeams変更することはできません。
+[ユーザーのピン留めを許可する] オプションがオンになっている場合、Teamsクライアント上の固定アプリの順序を変更できます。 ユーザーは、Web クライアントでピン留めされたアプリのTeams変更することはできません。
 
 #### <a name="does-user-pinning-take-precedence"></a>ユーザーのピン留めが優先されますか
 
@@ -213,7 +213,7 @@ Teams モバイル クライアントでは、ユーザーにはアクティビ�
 
 ### <a name="custom-teams-apps"></a>カスタム Teams アプリ
 
-#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>組織でカスタム Teams アプリを構築し、AppSource またはテナント アプリ カタログに発行しましたが、アプリが Teams のアプリ バーにピン留めされている場合、アプリ アイコンは期待した通り表示されません。 修正方法
+#### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>組織でカスタム Teams アプリを作成し、AppSource またはテナント アプリ カタログに発行しましたが、アプリが Teams のアプリ バーにピン留めされている場合、アプリ アイコンは期待した通り表示されません。 修正方法
 
 アプリを送信する前に、ロゴのガイドラインに従う必要があります。 詳細については、販売者ダッシュボード提出 [のチェックリストに関するページを参照してください](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)。
 

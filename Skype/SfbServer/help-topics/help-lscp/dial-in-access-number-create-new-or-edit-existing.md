@@ -1,7 +1,7 @@
 ---
 title: ダイヤルイン アクセス番号 新規の作成または既存の編集
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 932e62ebf021f8320a1404bf9e6e06f9583465e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a1214948e084d0a7e466ec1342a3c5378e2cb3a4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604016"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760955"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>ダイヤルイン アクセス番号: 新規作成または現在の形式のままで編集
 

@@ -1,7 +1,7 @@
 ---
 title: クライアントとクライアントで 2 要素認証Skype for Business使用Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: '概要: 2 要素認証を使用して、Skype for Business ServerとSkype for Business。'
-ms.openlocfilehash: 5b1003c78020e1181112a0ccadaf66a7d1dd4da4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3bcba5d4bdd6aacee794b40273b2cb92c83df50a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587125"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767865"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>クライアントとクライアントで 2 要素認証Skype for Business使用Skype for Business Server
  
@@ -96,9 +96,9 @@ ms.locfileid: "58587125"
     
     c. スマート カードのラベルの製造元情報を検索し **、CSP** ドロップダウン リストからその製造元を選択します。
     
-    d.  まだ選択されていない場合は、[要求形式] として **[CSP]** を選択します。
+    d. まだ選択されていない場合は、[要求形式] として **[CSP]** を選択します。
     
-    e.  まだ **選択されていない** 場合は、[ハッシュ アルゴリズム] ドロップダウン リストから sha1 を選択します。
+    e. まだ **選択されていない** 場合は、[ハッシュ アルゴリズム] ドロップダウン リストから sha1 を選択します。
     
     f. 証明書に認識する名前を付け、[送信] を **クリックします**。
     

@@ -1,7 +1,7 @@
 ---
 title: フロントエンドの Web サービスを追加する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 99626970-1613-41ca-a36e-24bed1f459d7
 description: ベース URL は、https:// の部分を除いた URL の Web サービス ID です。 たとえば、プールの Web サービスの完全な URL がである場合、ベース URL は `https://pool01.contoso.net` `pool01.contoso.net` .
-ms.openlocfilehash: 871a9266e0d64175a6e3d11978627d22d110304f
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a02ab1d8c3013216c31d1e050e22eaf9cf614045
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013971"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752136"
 ---
 # <a name="add-front-end-web-services"></a>フロント エンドの Web サービスの追加
  

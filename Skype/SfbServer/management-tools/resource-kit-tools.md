@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2015 リソース キット ツールのドキュメント
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/20/2017
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: この記事では、Skype for Business Server 2015 リソース キットのツールについて説明します。各ツールの目的とその使用例を含む。 2015 Skype for Business Server 2015 リソース キットは、2015 年に展開および管理する IT 管理者が日常的なタスクSkype for Business Serverします。 たとえば、Web Conf Data ツールを使用して、オンライン会議中にユーザーがアップロードしたデータを簡単に制御できます。 SEFAUtil ツールを使用して、ユーザーの代理通話の転送と応答を設定できます。 IT 管理者は、2015 年にこれらのツールを使用して、より効果的に管理Skype for Business Server推奨します。
-ms.openlocfilehash: 563e60c68a82e885c3bf1beb2ed0d573ec508aa4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2abe47086a014a04ab2ce15401c5e92e1fa2f0f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012391"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760575"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Skype for Business Server 2015 リソース キット ツールのドキュメント
 
@@ -128,7 +128,7 @@ ABSConfig は、コマンド **プロンプトにABSConfig.exe** 入力して開
 
 ![[ABSConfig.exe] ツール。](../media/Reskit_2012_Tools_Documentation_ABSConfig.JPG)
 
-### <a name="summary"></a>要約
+### <a name="summary"></a>概要
 
 ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サービスのSkype for Business Server簡単に使用できます。
 
@@ -174,7 +174,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 帯域幅ポリシー サービス モニター ツールは、ネットワーク トポロジの一部であるコンピューターでSkype for Business Server必要があります。
 
-### <a name="summary"></a>要約
+### <a name="summary"></a>概要
 
 帯域幅ポリシー サービス モニター ツールは、管理者にとって貴重なリソースであり、トポロジ内のすべての帯域幅ポリシー サービスの状態を検査し、さらに重要なことに、ネットワーク構成設定で定義されているリンクのリアルタイム帯域幅使用率を取得できます。
 
@@ -362,7 +362,7 @@ ABSConfig ツールを使用すると、管理者は 2015 アドレス帳サー�
 
 - Microsoft Excel 2010またはExcel 2007
 
-### <a name="summary"></a>要約
+### <a name="summary"></a>概要
 
 帯域幅使用率アナライザーは、ネットワーク全体の UC トラフィックのオーディオ帯域幅使用率をプロットするために使用されます。 このツールを使用して、ネットワーク上のビデオ帯域幅の使用率も報告できます。
 
@@ -458,7 +458,7 @@ Integrated Security=false;"/>
 
 ![Call Parkometer でオービット予約をテストします。](../media/Reskit_2012_Tools_Documentation_Image22.jpg)
 
-### <a name="summary"></a>要約
+### <a name="summary"></a>概要
 
 Call Parkometer は、コール パーク サーバーに関する詳細情報を提供するコマンド ライン ツールです。
 
@@ -526,7 +526,7 @@ dbanalyze.exe /report:mcus
 dbanalyze.exe /report:disk
 ```
 
-### <a name="summary"></a>要約
+### <a name="summary"></a>概要
 
 DBAnalyzer は、管理者が 2015 年のデータベースを迅速かつ簡単にSkype for Business Server提供します。
 
@@ -725,7 +725,7 @@ LCSSync ツールは、複数フォレストSkype for Business Server 2015 年�
 
  LCSSync は、中央フォレスト内の同期された Active Directory ドメイン サービス連絡先オブジェクトを使用して、ユーザーがユーザーのアクセスをSkype for Business Server。 シングル サインインを提供するには、プライマリ ユーザー アカウントを 2015 年の中央フォレストの Active Directory ドメイン サービス連絡先オブジェクトSkype for Business Server必要があります。 このツールは、そのマッピングを実行するのに役立ちます。 このツールは、Microsoft Identity Integration Server で管理エージェントを作成するためのテンプレートを提供します。
 
-### <a name="summary"></a>要約
+### <a name="summary"></a>概要
 
 LCSSync ツールは、複数フォレストSkype for Business Server 2015 を展開するのに役立ちます。
 
@@ -841,7 +841,7 @@ MsTurnPing -ServerRole AudioVideoEdgeServer
 MsTurnPing -ServerRole BandwidthPolicyServer
 ```
 
-### <a name="summary"></a>要約
+### <a name="summary"></a>概要
 
 このツールは、オーディオ/ビデオおよび帯域幅ポリシー サービスを実行しているサーバーの状態を確認Skype for Business Server 2015 管理者にとって貴重なリソースになります。
 
@@ -908,7 +908,7 @@ CAC ネットワーク トポロジ図を JPG または BMP 形式で保存お�
 
 ![ネットワークのカスタム コネクタを定義する。](../media/Reskit_2012_Tools_Documentation_Image30.jpg)
 
-### <a name="summary"></a>要約
+### <a name="summary"></a>概要
 
 このツールは、展開Skype for Business Server CAC ネットワーク トポロジを表示する 2015 管理者にとって貴重なリソースになります。
 
@@ -977,7 +977,7 @@ CAC ネットワーク トポロジ図を JPG または BMP 形式で保存お�
 
 ![キュー情報の表示。](../media/Reskit_2012_Tools_Documentation_Image40.JPG)
 
-### <a name="summary"></a>要約
+### <a name="summary"></a>概要
 
 高速サインインとサインアウト、グループ メンバーシップ、および基本的なリアルタイム統計は、応答グループ サービスからアプリケーションの外部でのみ使用できる興味深い応答グループ エージェント機能です。 応答グループ エージェント Live Resource Kit ツールを使用すると、Skype for Business Server 2015 管理者はエージェントに Windows アプリケーションを提供し、より迅速かつグラフィカルな方法でタスクを実行できます。
 
@@ -1577,6 +1577,6 @@ WebConfDataTool.exe /User:user0@contoso.com /Action:delete
 
 前の例は、削除コマンドの例です。 削除コマンドは、このユーザーから非アクティブなすべての会議フォルダーを削除します。
 
-### <a name="summary"></a>要約
+### <a name="summary"></a>概要
 
 このツールは、会議の会議データを正確に制御する必要がある管理者にとって貴重なリソースになります。

@@ -1,7 +1,7 @@
 ---
 title: ダイヤル プランを作成または変更するには、Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: '概要: [コントロール パネル] を使用してダイヤル プランを作成または変更するSkype for Business Serverします。'
-ms.openlocfilehash: e5e7f7cc0fc2edf0707025ed4b5e901c0a199021
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5d2e7fa5c91dfbbfe87f68bed258960167990bb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607634"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749378"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>ダイヤル プランを作成または変更するには、Skype for Business Server
 

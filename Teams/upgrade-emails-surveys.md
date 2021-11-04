@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams への移行メールおよびアンケート | 基本的なアップグレード
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c23c2818c791915aa2a8e6c772510c6a50094c1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bda42ca439268a4d1e14c8b10d26e0dcea38332
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583471"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760365"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>アップグレードの基本手順についてコミュニケーションするためのサンプル メールとアンケート
 

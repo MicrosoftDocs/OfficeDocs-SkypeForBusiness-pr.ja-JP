@@ -1,7 +1,7 @@
 ---
 title: 緊急サービスの計画を立Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 場所の取得や通話ルーティングなど、Skype for Business Server エンタープライズ VoIP 9-1-1 (E9-1-1) サービスについて説明します。
-ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f3efcea6747c27e041e581b5d0461fd4c925eb84
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732756"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767615"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>緊急サービスの計画を立Skype for Business Server
 
@@ -43,7 +43,7 @@ Skype for Business Server E9-1-1 サービス プロバイダーに緊急通話�
 
 - 公衆交換電話網 (PSTN) ベースの E9-1-1 サービス プロバイダーへの緊急位置識別番号 (ELIN) ゲートウェイ
 
-SIP トランク E9-1-1 サービス プロバイダーを使用する場合は、ERL を位置情報サービス データベースに追加し、E9-1-1 サービス プロバイダーによって管理されているマスター ストリート アドレス ガイド (MSAG) に対して場所を検証します。 E9-1-1 サービス プロバイダーが、位置情報を持たなかったり、MSAG に対して検証されていない場所を持つ呼び出しを受信した場合、E9-1-1 サービス プロバイダーは呼び出しを国内/地域緊急通話応答センター (ECRC) にルーティングします。これは、可能であれば、発信者の場所を口頭で取得し、適切な PSAP に手動で呼び出しをルーティングする特別な訓練を受けた担当者が担当します。 この番号は、SIP トランクが何らかの理由で失敗した場合に 9-1-1 通話をルーティングするための代替手段となります) 。
+SIP トランク E9-1-1 サービス プロバイダーを使用する場合は、ERL を位置情報サービス データベースに追加し、E9-1-1 サービス プロバイダーによって管理されているマスター ストリート アドレス ガイド (MSAG) に対して場所を検証します。 E9-1-1 サービス プロバイダーが、位置情報を持たなかったり、MSAG に対して検証されていない場所を持つ呼び出しを受信した場合、E9-1-1 サービス プロバイダーは呼び出しを国内/地域緊急通話応答センター (ECRC) にルーティングします。可能であれば、発信者の場所を口頭で取得する特別な訓練を受けた担当者が対応します。 呼び出しを適切な PSAP に手動でルーティングします。 この番号は、SIP トランクが何らかの理由で失敗した場合に 9-1-1 通話をルーティングするための代替手段となります) 。
 
 固定の場所を持つ時間分割多重 (TDM) および IP ベースのプライベート ブランチ 交換機 (PBX) 電話とは異なり、Skype for Business エンドポイントは非常にモバイルになる可能性があります。 E9-1-1 機能を展開すると、Skype for Business Server は発信者がどこに配置されている場合でも、発信者の場所を提供する PSAP に緊急通話をルーティングできます。 たとえば、ユーザーのメイン オフィスがワシントン州レドモンドにあり、ユーザーがカンザス州ウィチタのブランチ オフィスにあるコンピューターから緊急電話を発信した場合、SIP トランクまたは PSTN ベースの E9-1-1 サービス プロバイダーは、Redmond の PSAP ではなく、ウィチタの PSAP に通話をルーティングします。
 

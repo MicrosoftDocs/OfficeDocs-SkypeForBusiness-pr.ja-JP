@@ -1,7 +1,7 @@
 ---
 title: 常設チャット コンプライアンス バックアップ SQL Server ストアの追加
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 常設チャット サーバーまたは常設チャット SQL Serverコンプライアンス ストアのバックアップ データベースを提供するバックアップ コンプライアンス SQL Server構成します。
-ms.openlocfilehash: 91ff6cb39a627b6501b195faf9b54a8f582b6e9e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce64fc4f43e5606930881f789dedb0d90958321f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614715"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761215"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>常設チャット コンプライアンス バックアップ SQL Server ストアの追加
 

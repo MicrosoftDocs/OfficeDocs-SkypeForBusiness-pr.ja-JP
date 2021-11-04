@@ -1,7 +1,7 @@
 ---
 title: Location-Basedでの会議のルーティングSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: コンサルティング通話の転送を含む、Skype for Business Server エンタープライズ VoIP会議の場所ベースのルーティングを計画します。
-ms.openlocfilehash: de074dae5e51156a0926956adcbc2260ed365d8f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733176"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768515"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Basedでの会議のルーティングSkype for Business Server
 
@@ -80,7 +80,7 @@ Location-Based ルーティングを Skype for Business 会議に適用する以
 
 ![会議図の場所ベースのルーティング。](../../media/LocationBasedRoutingForConferencing.jpg)
 
-Location-Based ルーティングを有効にしたユーザーが PSTN エンドポイントのコンサルティング呼び出し転送を開始すると (前の図に示すように)、PSTN ユーザーと Skype for Business ユーザー A の間の 1 つの通話、および Skype for Business ユーザー A と Skype for Business ユーザー B の間の 2 つのアクティブな呼び出しが作成されます。次の動作は、Location-Based 会議用ルーティング アプリケーションによって適用されます。
+Location-Based ルーティングを有効にしたユーザーが PSTN エンドポイントのコンサルティング通話転送を開始すると (前の図に示すように)、PSTN ユーザーと Skype for Business ユーザー A の間の 1 つの通話、および Skype for Business ユーザー A と Skype for Business ユーザー B の間の 2 つのアクティブな呼び出しが作成されます。t によって次の動作が適用されます。会議Location-Basedルーティングを使用します。
 
 - PSTN 通話をルーティングする SIP トランクが、Skype for Business ユーザー B (つまり、転送先) があるネットワーク サイトに PSTN 通話を再ルーティングする権限がある場合、通話転送が許可されます。それ以外の場合は、コンサルティング呼び出しの転送がブロックされます。 この承認は、PSTN エンドポイントにアクティブな呼び出しをルーティングする SIP トランクと同じネットワーク サイトにある転送先の場所に基づいて実行されます。
 
@@ -111,7 +111,7 @@ Location-Based ルーティングを有効にしたユーザーが PSTN エン�
 次の表は、サーバーの役割と、ルーティングをサポートするバージョンの組み合Location-Based示しています。
 
 
-|Front-End プールのバージョン|仲介サーバーのバージョン|サポート済み|
+|Front-End プールのバージョン|仲介サーバーのバージョン|サポート|
 |:-----|:-----|:-----|
 |Skype for Business Server Lync Server 2013 累積的な更新プログラム 2  <br/> |Skype for Business Server Lync Server 2013 累積的な更新プログラム 2  <br/> |はい  <br/> |
 |Lync Server 2013 累積的な更新プログラム 2  <br/> |Lync Server 2013 累積的な更新プログラム 1  <br/> |いいえ  <br/> |
@@ -151,7 +151,7 @@ Location-Based 会議用ルーティング アプリケーションの適切な�
 New-CsServerApplication -Identity Service:Registrar:<Pool FQDN>/LBRouting -Priority <Application Priority> -Enabled $true -Critical $true -Uri <http://www.microsoft.com/LCS/LBRouting>
 ```
 
-次に例を示します。
+例:
 
 ```powershell
 New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com/LBRouting -Priority 3 -Enabled $true -Critical $true -Uri http://www.microsoft.com/LCS/LBRouting

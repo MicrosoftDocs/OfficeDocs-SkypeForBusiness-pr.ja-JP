@@ -1,7 +1,7 @@
 ---
-title: カスタム チーム テンプレートを作成 Microsoft Teamsする
+title: カスタム チーム テンプレートを作成する Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b7f3574121bb056208748be522af0b9a5f744846
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726896"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749696"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a>カスタム チーム テンプレートを作成 Microsoft Teamsする
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a>カスタム チーム テンプレートを作成する Microsoft Teams
 
 **カスタム テンプレートは、EDU のお客様向けはまだサポートされていません。**
 
@@ -102,7 +102,7 @@ ms.locfileid: "58726896"
 
 現在、カスタム テンプレートから作成された将来のチームの修正に取り組み中です。
 
-**問題**: ブラウザーでTeamsを使用している場合、一部の Web サイトでは、一部の Web サイトが [Teams] タブ内に表示されません。
+**問題**: ブラウザーでTeamsを使用する場合、一部の Web サイトでは、一部の Web サイトが [Teamsされます。
 
 ![ブラウザーのエラー メッセージ。](media/browser-error-message.png)
 

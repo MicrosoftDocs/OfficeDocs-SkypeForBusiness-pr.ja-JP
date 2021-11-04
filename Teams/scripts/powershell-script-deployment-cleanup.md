@@ -1,13 +1,13 @@
 ---
 title: PowerShell のサンプル スクリプト - Teamsクリーンアップ
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: この PowerShell スクリプトを使用して、Teamsをアンインストールし、ユーザー Teamsフォルダーを削除します。
+description: この PowerShell スクリプトを使用して、Teamsをアンインストールし、ユーザーの Teams フォルダーを削除します。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe59604f6257d6bab736540d48775ffec36e5b9f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4853cf99bc6d600f8673df065c3dee3e0068207b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577796"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767155"
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell のサンプル スクリプト - Teamsクリーンアップ
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell のサンプル スクリプト - Teamsのクリーンアップ
 
-このスクリプトを使用して、Teams。 このスクリプトは、Teamsをアンインストールし、ユーザー Teamsフォルダーを削除します。 コンピューターにインストールされたユーザー プロファイルごとにTeamsスクリプトを実行します。
+このスクリプトを使用して、データをTeams。 このスクリプトは、Teamsをアンインストールし、ユーザー Teamsフォルダーを削除します。 コンピューターにインストールされているユーザー プロファイルごとにTeamsスクリプトを実行します。
 
 
 ## <a name="sample-script"></a>サンプル スクリプト

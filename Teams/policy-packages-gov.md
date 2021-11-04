@@ -1,7 +1,7 @@
 ---
-title: Teamsのポリシー パッケージを作成する
-author: cichur
-ms.author: serdars
+title: Teams用のポリシー パッケージの作成
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -17,17 +17,17 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 政府機関のポリシー パッケージを使用Teams管理する方法について学習します。
-ms.openlocfilehash: 745957168c221caf566d04a795e378c642b8ae9a
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 02680b18d32e62a8a559ac6d2a30708e5aa05497
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605443"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749596"
 ---
-# <a name="teams-policy-packages-for-government"></a>Teamsのポリシー パッケージを作成する
+# <a name="teams-policy-packages-for-government"></a>Teams用のポリシー パッケージの作成
 
 > [!NOTE]
-> 現在、ポリシー パッケージは、Government Microsoft 365 High または DoD GCCでは使用できません。
+> ポリシー パッケージは、現在、Government Microsoft 365 High または DoD GCCでは使用できません。
 
 ## <a name="overview"></a>概要
 
@@ -41,7 +41,7 @@ Microsoft Teams の[ポリシー パッケージ](manage-policy-packages.md)は�
 - アプリのセットアップ
 - ライブ イベント
 
-Teams現在、政府機関向け次のポリシー パッケージが含まれています。
+Teams、現在、政府機関向け次のポリシー パッケージが含まれています。
 
 |Microsoft Teams 管理センターのパッケージ名|以下の目的での使用に最適です|説明 |
 |---------|---------|---------|
@@ -51,7 +51,7 @@ Teams現在、政府機関向け次のポリシー パッケージが含まれ�
 
 ![医療ポリシー パッケージのスクリーンショット。](media/policy-packages-gov.png)
 
-ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、組織内のユーザーに Public safety officer ポリシー パッケージを割り当てると、パッケージ内のポリシーごとに PublicSafety_Officer という名前のポリシーが作成されます。
+ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。 たとえば、組織内のユーザーにパブリック セーフティ責任者ポリシー パッケージを割り当てると、パッケージ内のポリシーごとに PublicSafety_Officer という名前のポリシーが作成されます。
 
 ![Healthcare clinical worker パッケージのポリシーのスクリーンショット。](media/policy-packages-public-safety-officer.png)
 

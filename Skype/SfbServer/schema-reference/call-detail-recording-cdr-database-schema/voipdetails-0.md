@@ -1,7 +1,7 @@
 ---
 title: VoipDetails テーブル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 description: それぞれのレコードは、少なくとも 1 人のユーザーが VoIP ユーザーであるような 1 回の 2 者間通話を表します。
-ms.openlocfilehash: 75fd9b26baebef1fcfb06eb91eddc2d9be1e70d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 905d972c680c5541e603b3ee3810c1d6d34e008f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584811"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768475"
 ---
 # <a name="voipdetails-table"></a>VoipDetails テーブル
  

@@ -1,7 +1,7 @@
 ---
 title: CDR ビューのリスト
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: ビューを使用すると、CDR データベースからデータを返すために使用される最も一般的なシナリオについての情報に簡単にアクセスできます。 実際の CDR データベース テーブルを使用する代わりに、カスタム レポートの作成にはビューを使用してください。これは、データベース ビューが将来のリリースとの下位互換性を維持する可能性が高いためです。
-ms.openlocfilehash: 24effb3b8c90721550ac813342965142f0e29875
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7154319dba584516dcff3c41d23e5af31bee4621
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626479"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746613"
 ---
 # <a name="list-of-cdr-views"></a>CDR ビューのリスト
  

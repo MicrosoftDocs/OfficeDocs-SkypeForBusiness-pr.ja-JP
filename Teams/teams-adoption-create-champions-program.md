@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のチャンピオン プログラムを作成する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -18,15 +18,15 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 組織の認識、導入、および教育を促進することで、Teamsのチームをトレーニングし、導入を促進する方法について学習します。
+description: 組織の認識、導入、および教育を促進することで、Teamsを促進するためにチャンピオンのチームをトレーニングする方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9a6c9c81b1f36655d99b9fdfeecacda406bab6f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aba4c0ffcf13e93c0fd0c39a64a8135e54fa592f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731186"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760405"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Microsoft Teams のチャンピオン プログラムを作成する
 
@@ -45,7 +45,7 @@ ms.locfileid: "58731186"
 
 チャンピオンズ [プログラム ガイドを使用](https://go.microsoft.com/fwlink/?linkid=854665) して、組織でこのプログラムをビルドします。 このコミュニティのベスト プラクティスは次のとおりです。
 
-- チャンピオン ズ プログラム [に参加します](https://aka.ms/O365Champions)。 少なくともチャンピオン プログラムのリーダー (およびすべての会社のチャンピオン) がプログラムのメンバーである必要があります。 この無料の毎月のコミュニティ呼び出しは、独自のプログラムを実行し、Teams や他のサービスやサービスを利用Microsoft 365情報をOffice 365します。 プログラム資料は、独自の内部プログラムで再利用できます。
+- チャンピオン ズ プログラム [に参加します](https://aka.ms/O365Champions)。 少なくともチャンピオン プログラムのリーダー (およびすべての会社のチャンピオン) がプログラムのメンバーである必要があります。 この無料の毎月のコミュニティ呼び出しは、独自のプログラムを実行し、Teams や他のサービスやサービスをMicrosoft 365得Office 365情報を提供します。 プログラム資料は、独自の内部プログラムで再利用できます。
 
 - Teamwork Champions チームを使用する: チャンピオンは、セットアップしたチームを、すべてのプログラムのコミュニケーション、フィードバック、およびリソースの検索に使用する必要があります。  これを行う際に、製品とその利点に慣れ親しむ必要があります。
 

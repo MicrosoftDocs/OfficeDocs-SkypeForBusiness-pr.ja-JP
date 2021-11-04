@@ -1,7 +1,7 @@
 ---
 title: '[通話の計画] 作業時間内の作業Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Skype for Business Server で通話の計画を立て、Skype for Business と PBX 電話システムとの統合を可能にし、ユーザーが pbx 電話を制御するために Skype for Business を使用できます。
-ms.openlocfilehash: bc2a20741f4f89d4a535b9aa0278fea85a8f44c6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 268ee3a6caa7b304cc63b4e7e16c2a7565f9ced3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732586"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768565"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>[通話の計画] 作業時間内の作業Skype for Business Server
  

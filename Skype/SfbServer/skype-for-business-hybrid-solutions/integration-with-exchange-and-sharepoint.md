@@ -1,7 +1,7 @@
 ---
 title: Exchange および SharePoint との統合
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -21,12 +21,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: '概要: 2015 年 2015 Skype for Business Serverとデータの統合ExchangeについてSharePoint。'
-ms.openlocfilehash: a2caf4cf409f3631ebc0a85cd2957b30e9d36d2a
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6805296716970df896a42a3e01a89eb212930ecb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013141"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746513"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Exchange および SharePoint との統合
 

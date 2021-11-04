@@ -1,7 +1,7 @@
 ---
 title: サーバーのアーカイブ オプションを構成Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: '概要: このトピックを参照して、初期アーカイブ オプションを構成する方法について説明します。Skype for Business Server。 アーカイブを展開するときに最初にアーカイブ構成を設定しましたが、展開後に構成を変更、追加、および削除できます。'
-ms.openlocfilehash: 186c6f656931b4ef5c1ad04363bc8bef132f1108
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b27a6bdd85b935b0751abf3da2bac94488234cdb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611306"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749516"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>サーバーのアーカイブ オプションを構成Skype for Business Server
  

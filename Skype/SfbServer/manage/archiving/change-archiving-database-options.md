@@ -1,7 +1,7 @@
 ---
 title: '[アーカイブ データベース のオプションを変更する] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: '概要: アーカイブ データベース のオプションを変更する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 6fecfb4a10020c031ccd2b6ccebda1b016fd24ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 240d590b7f22e4756351939be6ecab55ea108b79
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580701"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767935"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>[アーカイブ データベース のオプションを変更する] Skype for Business Server
 
@@ -36,7 +36,7 @@ ms.locfileid: "58580701"
 1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカル Users グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
     
     > [!NOTE]
-    > ローカルの Users グループのメンバーであるアカウントを使用してトポロジを定義できますが、トポロジを発行するには、 トポロジにコンポーネントを追加するために必要なアカウントは、Domain **Admins** グループと **RTCUniversalServerAdmins** グループのメンバーであり、Skype for Business Server ファイル ストアで使用するファイル共有に対する完全な制御アクセス許可 (読み取り、書き込み、変更) を持つアカウント (つまり、トポロジ ビルダーが必要な随意アクセス制御リスト (DACL) または同等の権限を持つアカウントを構成できる必要があります。
+    > トポロジを定義するには、ローカル の Users グループのメンバーであるアカウントを使用しますが、トポロジを発行するには、トポロジにコンポーネントを追加するために必要な、Domain **Admins** グループのメンバーであり **、RTCUniversalServerAdmins** グループのメンバーであり、完全な制御アクセス許可を持つアカウントを使用する必要があります (つまり、 Skype for Business Server ファイル ストアに使用するファイル共有の読み取り、書き込み、変更) (つまり、トポロジ ビルダーが必要な任意アクセス制御リスト (DACL) または同等の権限を持つアカウントを構成できます。
   
 2. トポロジ ビルダーを開始します。
     
@@ -78,7 +78,7 @@ ms.locfileid: "58580701"
     
        c. 指定した SQL Server インスタンスがミラーリング関係にある場合は、[この **SQL** インスタンスがミラーリング関係にある] チェック ボックスをオンにし、[ミラー ポート番号] でポート番号を指定します。
     
-   - SQL Server ミラーリングを有効にし、SQL Server ミラーリング監視 (プライマリ SQL Server サーバーとミラー インスタンスの正常性を検出できる 3 番目の独立した SQL Server インスタンス) を追加または変更する場合は、[SQL Serverミラーリング監視を使用して自動フェールオーバーを有効にする] チェック ボックスをオンにして、次のいずれかの操作を行います。
+   - SQL Server ミラーリングを有効にし、SQL Server ミラーリング監視 (プライマリ SQL Server サーバーとミラー インスタンスの正常性を検出できる 3 番目の独立した SQL Server インスタンス) を追加または変更する場合は、[SQL Server ミラーリング監視を使用して自動フェールオーバーを有効にする] チェック ボックスをオンにし、次に 次のいずれかを実行します。
     
       a. [SQL Server **FQDN]** で、ミラーリング監視の新しいサーバーを作成するサーバーの FQDN をSQL Serverします。
     

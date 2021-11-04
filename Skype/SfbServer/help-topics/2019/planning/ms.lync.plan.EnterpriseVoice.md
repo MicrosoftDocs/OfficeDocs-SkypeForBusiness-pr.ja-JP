@@ -1,7 +1,7 @@
 ---
 title: エンタープライズ VoIP (計画ツール)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: このエンタープライズ VoIP、Skype for Business Serverは、従来のプライベート ブランチ 交換 (PBX) システムを強化または置き換えるスタンドアロンの Voice over Internet Protocol (VoIP) サービスを提供します。
-ms.openlocfilehash: dbee817188e808323c25ca27e6135fadd2911c27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 48243173af31d9c8c5e1c9b12893b141934b0421
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592751"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766995"
 ---
 # <a name="enterprise-voice-planning-tool"></a>エンタープライズ VoIP (計画ツール)
  

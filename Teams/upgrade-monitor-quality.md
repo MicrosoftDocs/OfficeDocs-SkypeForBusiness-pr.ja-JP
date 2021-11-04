@@ -1,13 +1,13 @@
 ---
 title: ユーザー エクスペリエンスの|Microsoft Teams |QoS |通話品質
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 管理者は、サービスの品質と使用状況を監視するために必要なタスクとアクティビティについてMicrosoft Teams。
+description: 管理者は、品質と使用状況を監視するために必要なタスクとアクティビティについてMicrosoft Teams。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2edea426fbc9ad0a7c6de026af2a9b5ecf893e1a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 48bc26e01559d30e07e580f5adbe266506280c4e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733926"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760375"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
@@ -35,7 +35,7 @@ ms.locfileid: "58733926"
 
 ## <a name="improve-and-monitor-call-quality"></a>通話品質の向上と監視
 
-[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視には、次に示すユーザー エクスペリエンスの向上に最も影響を与える主要な領域で修復ガイダンスを評価して提供する一連のアクティビティが含まれています。
+[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視には、次に示すユーザー エクスペリエンスの向上に最も大きな影響を与える主要な領域で修復ガイダンスを評価して提供する一連のアクティビティが含まれています。
 
 ![レビュー中に調べる主な領域の図。](media/plan-my-service-management-image2.png "品質レビュー中に確認する主な領域は、音声、信頼性、およびユーザーアンケートの結果です。")
 
@@ -53,7 +53,7 @@ ms.locfileid: "58733926"
 
 - 問題のあるサブネットまたはネットワーク デバイス
 
-[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためにオーディオに重点を置いて、説明されている各領域をレポートおよび調査するための主要なツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
+[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためのオーディオに重点を置いて、説明されている各領域をレポートおよび調査するための主要なツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
 早い段階で品質チャンピオンをノミネートすることを強くお勧めします。 ノミネートされた後は、「通話品質の向上と監視」の内容に慣れ始める必要[Teams。](monitor-call-quality-qos.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams に対する組織の準備状況について
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 関係者を評価し、早期採用者を特定し、組織が新しい組織に移行する準備ができているTeams。
+description: 関係者を評価し、早期導入者を特定し、組織が新しい組織に移行する準備ができているTeams。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd526f78a04bc71b2992aa8f3f0bcd15b3b77df0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 24f52433e3b52b728873d13eb06db65d8ecbaa60
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726766"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760415"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Microsoft Teams に対する組織の準備状況について
 
-プロジェクト チームが集まり、Teams が組織に対して何が可能かを確認し始め始め、移行に向け組織の準備状況を評価することがTeams。 準備状況を評価するには、次の条件を実行する必要があります。
+プロジェクト チームが集まり、Teams が組織に対して何が可能かを確認し始め始め、Teams 移行に対する組織の準備状況を評価することが重要です。 準備状況を評価するには、次の条件を実行する必要があります。
 
 1. 関係者を評価します。
 2. 早期導入者を特定します。

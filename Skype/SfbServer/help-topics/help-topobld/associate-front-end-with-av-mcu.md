@@ -1,7 +1,7 @@
 ---
 title: フロントエンドと AV MCU の関連付け
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
 description: 音声ビデオ会議を使用すると、ユーザー間でリアルタイムの音声通信およびビデオ通信を実現できます (電話会議用のハンドセット、ビデオ会議用の Web カメラなど、適切なクライアント デバイスを使用している場合)。 展開で会議をサポートしており、Web 会議と音声ビデオ会議の両方を有効にしている場合、音声ビデオ会議サーバーのフロントエンド サーバーとの併置や、1 つ以上のスタンドアロンの音声ビデオ会議サーバー (音声ビデオ会議プール) の展開ができます。 スタンドアロンの音声ビデオ会議サーバーを展開するオプションを選択した場合は、トポロジ ビルダーで定義する必要があります。
-ms.openlocfilehash: b9bc82356ff0891344fc54669236630c18ddbc7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 652b5a582d603e907deb003b23285344f6fbfc6b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625229"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768125"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>フロント エンドと AV MCU の関連付け
  

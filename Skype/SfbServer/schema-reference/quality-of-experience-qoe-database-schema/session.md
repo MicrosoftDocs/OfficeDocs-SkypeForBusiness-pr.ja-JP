@@ -1,7 +1,7 @@
 ---
 title: セッション テーブル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 各レコードは、オーディオまたはオーディオとビデオを含む 1 つのセッションを表します。 セッションに関する全体的な情報が含まれる。 セッションは、2 つのエンドポイント間の音声またはビデオセッション開始プロトコル (SIP) ダイアログとして定義されます。
-ms.openlocfilehash: bc88a924d16e8e2193b0cce5c487004ab66f47a7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc81bb3c67f91b975643929170354c7b152d2237
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611846"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768325"
 ---
 # <a name="session-table"></a>セッション テーブル
  

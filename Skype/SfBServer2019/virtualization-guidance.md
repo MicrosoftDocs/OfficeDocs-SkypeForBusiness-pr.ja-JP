@@ -1,7 +1,7 @@
 ---
 title: '2019 年の仮想化Skype for Business Serverサポート '
 ms.reviewer: corbinm
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 06/04/2020
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: 2019 年の仮想化のサポートSkype for Business Serverします。'
-ms.openlocfilehash: 3db97c5aeb2f0473b8b262f8a77e4e06af1b7d1d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 850bfc0ae19aa8391baca6c9a8b6f1dde85cde2d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594881"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767105"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>2019 年の仮想化Skype for Business Serverサポート
 

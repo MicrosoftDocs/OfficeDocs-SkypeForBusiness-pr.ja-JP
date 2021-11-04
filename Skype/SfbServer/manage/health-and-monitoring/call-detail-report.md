@@ -1,7 +1,7 @@
 ---
 title: '[通話の詳細レポート] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: '概要: このページで使用される通話詳細レポートSkype for Business Server。'
-ms.openlocfilehash: 173df324b61fc719ee989a6102ccfbb9cf850f92
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 550c218d4799623359f68930286210116628b005
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617863"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767745"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>[通話の詳細レポート] Skype for Business Server
  

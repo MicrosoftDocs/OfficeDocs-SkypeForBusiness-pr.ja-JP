@@ -1,7 +1,7 @@
 ---
 title: ファイル共有の高可用性 (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: DFS を使用して、ファイル共有の高可用性をSkype for Business Serverする方法について説明します。
-ms.openlocfilehash: 6abdf9656ddca5148c9b04c6dbe11cdc5da7e840
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd51464aa1588f672134c0d9ce5b2c8fc3faa97f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603816"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767525"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>ファイル共有の高可用性 (Skype for Business Server
  

@@ -1,7 +1,7 @@
 ---
 title: 監視ありチャットを使用する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams 会議の監視ありチャットについて説明します。
-ms.openlocfilehash: fcf2a14b2c05f657a3342c6a0a193b841df4ce27
-ms.sourcegitcommit: 689387de6a07e3f50b3ea65b33bda6960cf30356
+ms.openlocfilehash: 0d2b727ab28577e8d7d9ed6d935afeab38560d94
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60216015"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749003"
 ---
 # <a name="supervised-chats-in-microsoft-teams"></a>Microsoft Teams の監視ありチャット
 
@@ -68,7 +68,7 @@ ms.locfileid: "60216015"
 
 ### <a name="allow-supervised-chat"></a>監視ありチャットを許可する
 
-監視ありチャットは、テナントに対して既定で無効になっています。 ユーザーのチャットアクセス許可ロールを設定した後 **、Teams** Teams の設定に移動し、[ロールベースのチャットアクセス許可] ポリシーを [オン] に設定することで、テナント内で教師ありチャットを有効 &gt; *にできます*。 また、PowerShell を使用して、AllowRoleBasedChatPermissions を True に設定することにより、監視ありチャットを有効にすることもできます。 このコマンドレットは CsTeamsClientConfiguration の下にあります。
+監視ありチャットは、テナントに対して既定で無効になっています。 ユーザーのチャットアクセス許可ロールを設定した後 **、Teams** &gt; **Teams** の設定に移動し、[ロールベースのチャットのアクセス許可] ポリシーを [オン] に設定することで、テナント内で教師ありチャットを有効にできます。 また、PowerShell を使用して、AllowRoleBasedChatPermissions を True に設定することにより、監視ありチャットを有効にすることもできます。 このコマンドレットは CsTeamsClientConfiguration の下にあります。
 
 監視ありチャットは、テナント内のすべてのユーザーに対して有効にする必要があり、一部のユーザーに対してのみ有効にすることはできません。
 

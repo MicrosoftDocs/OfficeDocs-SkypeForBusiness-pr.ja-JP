@@ -1,7 +1,7 @@
 ---
 title: Office Web Apps サーバーを追加する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[Web Apps サーバー Officeの定義] ウィザードでは、展開で Web Apps サーバー Office新しいアプリケーションを定義します。 以下の情報を入力します。'
-ms.openlocfilehash: 09ce8e0db72fdcd4dfcc4ce668302e89c40b9281
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d8f86890face6ae6a948a5006b101bc8585f16a4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605306"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766915"
 ---
 # <a name="add-office-web-apps-server"></a>Office Web Apps サーバーの追加
 

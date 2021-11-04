@@ -2,7 +2,7 @@
 title: レガシ システムでのメッセージと呼び出しの受信に関するTeams
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 05/29/2020
 ms.topic: troubleshooting
@@ -17,16 +17,16 @@ description: レガシ システムでのメッセージと呼び出しの受信
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 002354418c06980600f5cebef035b8480d0f1bef
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: fb36f4be70b174a324f017b1e52529f457e83f36
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235002"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768305"
 ---
 # <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>レガシ システムでのメッセージと呼び出しの受信に関する問題
 
-以前のバージョンのアプリケーションを使用している場合、または他のアプリケーションでログインしている場合、Teamsまたは呼び出しの受信に問題がある可能性があります。
+ユーザーが古いバージョンのアプリケーションを使用している場合、または他のアプリケーションでログインしている場合、Teamsまたは呼び出しの受信に問題がある可能性があります。
 
 ## <a name="legacy-adu-setups"></a>従来の ADU セットアップ
 
@@ -39,7 +39,7 @@ ms.locfileid: "58235002"
 > [!NOTE]
 > 「.local」 または 「.corp」 で終わるユーザー名については、ユーザー名の事前入力のスキップは既定でオンになっているため、レジストリ キーを設定してオフにする必要はありません。
 
-詳細[については、「最新の認証をMicrosoft Teamsサインインする」](sign-in-teams.md)を参照してください。
+詳細については[、「最新の認証をMicrosoft Teamsサインインする」](sign-in-teams.md)を参照してください。
 
 ## <a name="skype-token-revocation"></a>Skype取り消し
 

@@ -1,7 +1,7 @@
 ---
 title: モビリティを計画する Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/17/2018
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: モビリティの実装を計画Skype for Business Server。
-ms.openlocfilehash: 59523076dc3b59b92af41fc85ef4193a92c87d08
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d78739be230c7c68157d8bae474bf63133a96d7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632721"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746713"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>モビリティを計画する Skype for Business Server
  
@@ -244,11 +244,11 @@ Skype for Business モバイル クライアントに自動検出を使用して
   
 |**機能**|**パラメーター名**|**説明**|**既定の設定**|
 |:-----|:-----|:-----|:-----|
-|モビリティの有効化  <br/> |EnableMobility  <br/> |モバイル クライアントがインストールされている特定のスコープSkype for Businessを制御します。 ポリシーが False に設定されている場合、ユーザーはクライアントでサインインできます。  <br/> |正解  <br/> |
-|外部音声  <br/> |EnableOutsideVoice  <br/> |ユーザーが[仕事を経由して通話] を使用できる機能を使用すると、ユーザーは携帯電話番号の代わりに自分の電話番号を使用して通話を送受信できます。 False に設定されている場合、ユーザーは仕事用電話番号を使用するときに携帯電話で通話を行う、または受信できない。  <br/> |正解  <br/> |
-|IP オーディオとビデオを有効にする  <br/> |EnableIPAudioVideo  <br/> |既定に設定すると、ユーザーは VoIP を使用して、モバイル デバイスで電話またはビデオ通話を行う、または受信できます。 False に設定すると、ユーザーはモバイル デバイスを使用してこれらの操作を実行できません。  <br/> |正解  <br/> |
-|IP オーディオに WiFi を要求する  <br/> |RequireWiFiForIPAudio  <br/> |モバイル データ ネットワークの代わりに、クライアントが WiFi で VoIP を使用して通話を行い、受信する必要があるかどうかを定義します。 True に設定されている場合、ユーザーは WiFi 経由で接続されている場合にのみ VoIP 呼び出しを行い、受信できます。  <br/> |不正解  <br/> |
-|IP ビデオに WiFi を要求する  <br/> |RequireWiFiForIPVideo  <br/> |モバイル データ ネットワークの代わりに、クライアントが WiFi でビデオ通話を行い、受信する必要があるかどうかを定義します。 True に設定されている場合、ユーザーは WiFi 経由で接続されている場合にのみ VoIP 呼び出しを行い、受信できます。  <br/> |不正解  <br/> |
+|モビリティの有効化  <br/> |EnableMobility  <br/> |モバイル クライアントがインストールされている特定のスコープSkype for Businessを制御します。 ポリシーが False に設定されている場合、ユーザーはクライアントでサインインできます。  <br/> |True  <br/> |
+|外部音声  <br/> |EnableOutsideVoice  <br/> |ユーザーが[仕事を経由して通話] を使用できる機能を使用すると、ユーザーは携帯電話番号の代わりに自分の電話番号を使用して通話を送受信できます。 False に設定されている場合、ユーザーは仕事用電話番号を使用するときに携帯電話で通話を行う、または受信できない。  <br/> |True  <br/> |
+|IP オーディオとビデオを有効にする  <br/> |EnableIPAudioVideo  <br/> |既定に設定すると、ユーザーは VoIP を使用して、モバイル デバイスで電話またはビデオ通話を行う、または受信できます。 False に設定すると、ユーザーはモバイル デバイスを使用してこれらの操作を実行できません。  <br/> |True  <br/> |
+|IP オーディオに WiFi を要求する  <br/> |RequireWiFiForIPAudio  <br/> |モバイル データ ネットワークの代わりに、クライアントが WiFi で VoIP を使用して通話を行い、受信する必要があるかどうかを定義します。 True に設定されている場合、ユーザーは WiFi 経由で接続されている場合にのみ VoIP 呼び出しを行い、受信できます。  <br/> |False  <br/> |
+|IP ビデオに WiFi を要求する  <br/> |RequireWiFiForIPVideo  <br/> |モバイル データ ネットワークの代わりに、クライアントが WiFi でビデオ通話を行い、受信する必要があるかどうかを定義します。 True に設定されている場合、ユーザーは WiFi 経由で接続されている場合にのみ VoIP 呼び出しを行い、受信できます。  <br/> |False  <br/> |
    
 ### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>会議に対して有効になっていないユーザーエンタープライズ VoIPクリックして会議に参加できますか?
 

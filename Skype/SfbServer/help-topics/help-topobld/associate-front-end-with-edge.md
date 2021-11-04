@@ -1,7 +1,7 @@
 ---
 title: フロント エンドとエッジの関連付け
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: 各フロントエンド プールには、エッジ サーバーまたはエッジ プールを 1 つしか関連付けできません。 サイトで外部ユーザーのアクセスを有効にする場合は、リモート ユーザーのサポートを提供できます。 また、特定のパブリック インスタント メッセージング (IM) 接続プロバイダー (Windows Live など) のユーザーのサポート、匿名ユーザーのサポートなど、フェデレーション ユーザーのサポートを有効にできます。
-ms.openlocfilehash: 34b0cfe5fdfa7b98d37ff3a7458f3a4f4a59c534
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6a9288da87e259f770ae2404196a89770133df94
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581411"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752076"
 ---
 # <a name="associate-front-end-with-edge"></a>フロント エンドとエッジの関連付け
 

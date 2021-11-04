@@ -1,6 +1,6 @@
 ---
 title: ドミニカでの可用性
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、ドミニカMicrosoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを示します。
-ms.openlocfilehash: eac947ef58bd6166f23451287bed2d419f57258e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: ここでは、ドミニカMicrosoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
+ms.openlocfilehash: d5e0e46cc82ceb6747fd0248ff3cbbe97dbaa462
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619573"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760525"
 ---
 # <a name="availability-in-dominica"></a>ドミニカでの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、ドミニカMicrosoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを示します。
+ここでは、ドミニカMicrosoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -84,7 +84,7 @@ ms.locfileid: "58619573"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

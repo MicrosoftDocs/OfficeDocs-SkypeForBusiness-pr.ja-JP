@@ -1,7 +1,7 @@
 ---
 title: サーバー間認証 (OAuth) とパートナー アプリケーションを管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: '概要: OAuth アプリケーションとパートナー アプリケーションを管理するには、Skype for Business Server。'
-ms.openlocfilehash: 1f2b963ad8a116236e3a0bdb33307e9f9d4a95f7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d49006bd01de80bd23d8f70954478b6b6a2bbea4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608204"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760745"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>サーバー間認証 (OAuth) とパートナー アプリケーションを管理Skype for Business Server
  
 **概要:** OAuth とパートナー アプリケーションを管理するには、Skype for Business Server。
   
-Skype for Business Serverアプリケーションやサーバー製品と安全かつシームレスに通信できる必要があります。 たとえば、連絡先データやアーカイブ データSkype for Business Server 2013 年に格納されるデータを構成Microsoft Exchange Serverできます。ただし、この方法を実行できるのは、Skype for Business ServerとExchange間で安全に通信できる場合のみです。 同様に、Web Apps サーバー内Skype for Business Server会議をOfficeすることもできます。繰り返しになりますが、これは 2 台のサーバー (SharePointと Skype for Business Server) が信頼している場合にのみ実行できます。 Skype for Business Server と Exchange 間の通信には 1 つの認証メカニズムを使用できますが、Skype for Business Server と SharePoint の通信には別のメカニズムを使用できますが、サーバー間のすべての認証と承認に標準化された方法を使用する方が、より効率的な方法です。
+Skype for Business Serverアプリケーションやサーバー製品と安全かつシームレスに通信できる必要があります。 たとえば、連絡先データやアーカイブ データSkype for Business Server 2013 年に格納されるデータを構成Microsoft Exchange Serverできます。ただし、この方法を実行できるのは、Skype for Business ServerとExchange間で安全に通信できる場合のみです。 同様に、Web Apps サーバー内Skype for Business Server会議をOfficeすることもできます。繰り返しになりますが、これは 2 台のサーバー (SharePointと Skype for Business Server) が信頼している場合にのみ実行できます。 Skype for Business Server と Exchange 間の通信には 1 つの認証メカニズムを使用できますが、Skype for Business Server と SharePoint の通信には別のメカニズムを使用できますが、より効率的な方法は、すべてのユーザーに対して標準化された方法を使用することです。サーバー間の認証と承認を行います。
   
 サーバー間認証に 1 つの標準化された方法を使用する方法は、サーバー間認証で行Skype for Business Server。 Office Server 2013 リリースから開始し、Skype for Business Server (Exchange Server および SharePoint Server を含む他の Microsoft Server 製品) は、サーバー間認証と承認のための OAuth (Open Authorization) プロトコルをサポートしました。 OAuth を使用すると、多数の主要な Web サイトで使用される標準的な承認プロトコル、ユーザー資格情報、およびパスワードは、あるコンピューターから別のコンピューターに渡されません。 代わりに、認証と承認はセキュリティ トークンの交換に基づいて行います。これらのトークンは、特定の時間の特定のリソース セットへのアクセスを許可します。
   
