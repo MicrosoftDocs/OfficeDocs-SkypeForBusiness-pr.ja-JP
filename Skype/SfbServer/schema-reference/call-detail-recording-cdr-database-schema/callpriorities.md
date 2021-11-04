@@ -1,7 +1,7 @@
 ---
 title: 2015 年の CallPriorities Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
 description: CallPriorities テーブルは、"緊急"、"緊急"、"標準" などの呼び出しの優先順位の一覧を格納する静的テーブルです。
-ms.openlocfilehash: 0538af29f73c5e01d67dd61fe2ff304cd45f82ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21924d712ff4ee658f757911ce168fe8b662357d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635931"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743213"
 ---
 # <a name="callpriorities-table-in-skype-for-business-server-2015"></a>2015 年の CallPriorities Skype for Business Server
  

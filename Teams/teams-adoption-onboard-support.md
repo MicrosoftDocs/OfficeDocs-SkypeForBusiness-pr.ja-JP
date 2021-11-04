@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のサポートについて関与する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41b145b4741199a133c602caa383277aa24d02e3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a0663712bb676519019785d3639fc3712d3f03d0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730866"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771736"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Microsoft Teams のサポートについて関与する
 
-早期導入チームとチャンピオン チームが Teams の使用を開始する場合に適切なサポートを受け取るには、サポート スタッフと会い、Teams の機能を確認してください。 サポート組織の主要メンバーは、早期導入者プログラムへの参加を望む場合があります。 独自のシナリオでTeams使用を促します。 オンライン トレーニング リソースを使用して、製品の基本的なオンボードを行います。  
+早期採用チームとチャンピオン チームが Teams の使用を開始する場合に適切なサポートを受け取るには、サポート スタッフと会い、Teams の機能を確認してください。 サポート組織の主要メンバーは、早期導入者プログラムへの参加を望む場合があります。 独自のシナリオでTeams使用を促します。 オンライン トレーニング リソースを使用して、製品の基本的なオンボードを行います。  
 
 - [Foundations - Microsoft Teams のコア コンポーネント](https://youtu.be/V6B4KraD-FM)
 - [トラブルシューティングTeams](https://youtu.be/0KNh9KNpXcA)

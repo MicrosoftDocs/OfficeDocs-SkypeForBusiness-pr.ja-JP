@@ -1,7 +1,7 @@
 ---
 title: 仲介サーバー スコープ ノード
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[仲介プール] ノードには、トポロジ内の仲介プールの一覧が表示されます。以下のアクションを実行できます。'
-ms.openlocfilehash: 890d6e84f04299db9f92d5577b2fde4ecc4559e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 998379e3b0a942eb19e92f4df20e146d01655f0f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631031"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757609"
 ---
 # <a name="mediation-servers-scope-node"></a>仲介サーバーのスコープ ノード
  

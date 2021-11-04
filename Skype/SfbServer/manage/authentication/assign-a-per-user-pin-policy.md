@@ -1,7 +1,7 @@
 ---
 title: ユーザー単位の PIN ポリシーをユーザー単位で割り当Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: '概要: AV 証明書と OAuth 証明書をステージにSkype for Business Server。'
-ms.openlocfilehash: 6925b8b042da41f82c505a79afcc5b7678454fbd
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2ca870ff500c5a963db17f90262c2f128c847d60
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012721"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750356"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>ユーザー単位の PIN ポリシーをユーザー単位で割り当Skype for Business Server
 
@@ -52,12 +52,12 @@ ms.locfileid: "60012721"
     
    c. [**次の値に等しい**] ドロップダウン リストで、演算子 (例: [**次の値に等しい**]、[**次の値に等しくない**]) をクリックします。
     
-   d.  選択したユーザー プロパティによっては、検索結果のフィルターに使用する条件を入力するか、ドロップダウン リストの矢印をクリックして指定します。
+   d. 選択したユーザー プロパティによっては、検索結果のフィルターに使用する条件を入力するか、ドロップダウン リストの矢印をクリックして指定します。
     
     > [!TIP]
     > クエリにその他の検索句を追加するには、[**フィルターの追加**] をクリックします。 
   
-   e.  [**検索**] をクリックします。
+   e. [**検索**] をクリックします。
     
 6. 検索結果のユーザーをクリックし、[**アクション**] をクリックして、[**ポリシーの割り当て**] をクリックします。
     

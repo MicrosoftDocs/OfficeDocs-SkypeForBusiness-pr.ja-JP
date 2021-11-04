@@ -1,7 +1,7 @@
 ---
 title: 2015 年および 2015 年Skype for Business Serverでパートナー アプリケーションを構成Exchange Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: '概要: 2016 年または 2013 年および 2013 年Exchange Serverサーバー認証用Exchange Serverサーバー認証を構成Skype for Business Server。'
-ms.openlocfilehash: 4d88676b3c2cfc01935388b49b120ca99d1b7025
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0f85c617558ae348eaa554efcb5aff1fb4a624d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607614"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771465"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>パートナー アプリケーションを構成するには、Skype for Business ServerとExchange Server
  
@@ -33,7 +33,7 @@ Skype for Business Server と Exchange Server の間でサーバー間認証を�
   
 ## <a name="configuring-skype-for-business-server-to-be-a-partner-application-for-exchange-server"></a>クライアントSkype for Business Serverパートナー アプリケーションとして構成Exchange Server
 
-Skype for Business Server を Exchange Server 2016 または Exchange Server 2013 のパートナー アプリケーションとして構成する最も簡単な方法は、Exchange Server に含む Windows PowerShell スクリプトである Configure-EnterprisePartnerApplication.ps1 スクリプトを実行する方法です。 このスクリプトを実行するには、認証メタデータ ドキュメントの URL を指定Skype for Business Server必要があります。通常、これは、サーバー プールの完全修飾ドメイン名Skype for Business Server接尾辞 /metadata/json/1 が続きます。 次に例を示します。
+Skype for Business Server を Exchange Server 2016 または Exchange Server 2013 のパートナー アプリケーションとして構成する最も簡単な方法は、Exchange Server に含む Windows PowerShell スクリプトである Configure-EnterprisePartnerApplication.ps1 スクリプトを実行する方法です。 このスクリプトを実行するには、認証メタデータ ドキュメントの URL を指定Skype for Business Server必要があります。通常、これは、サーバー プールの完全修飾ドメイン名Skype for Business Server接尾辞 /metadata/json/1 が続きます。 例:
   
 ```console
 https://atl-cs-001.litwareinc.com/metadata/json/1
@@ -55,13 +55,13 @@ iisreset atl-exchange-001
   
 ## <a name="configuring-exchange-server-to-be-a-partner-application-for-skype-for-business-server"></a>クライアントExchange Serverパートナー アプリケーションとして構成Skype for Business Server
 
-Skype for Business Server を Exchange Server 2016 または Exchange Server 2013 のパートナー アプリケーションとして構成した後、Exchange Server を Skype for Business Server のパートナー アプリケーションとして構成する必要があります。 これは、管理シェルを使用して、Skype for Business Serverの認証メタデータ ドキュメントを指定することでExchange。これは通常、自動検出サービスの URI Exchange後にサフィックス /metadata/json/1 が続きます。 次に例を示します。
+Skype for Business Server を Exchange Server 2016 または Exchange Server 2013 のパートナー アプリケーションとして構成した後、Exchange Server を Skype for Business Server のパートナー アプリケーションとして構成する必要があります。 これは、管理シェルを使用して、Skype for Business Serverの認証メタデータ ドキュメントを指定することでExchange。これは通常、自動検出サービスの URI Exchange後にサフィックス /metadata/json/1 が続きます。 例:
   
 ```console
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
-このSkype for Business Server、パートナー アプリケーションは[New-CsPartnerApplication コマンドレットを使用して構成](/powershell/module/skype/new-cspartnerapplication?view=skype-ps)されます。 メタデータ URI の指定に加えて、アプリケーション信頼レベルを Full に設定する必要があります。これにより、ユーザー Exchange、領域内の承認されたユーザーの両方を表す可能性があります。 次に例を示します。
+このSkype for Business Server、パートナー アプリケーションは[New-CsPartnerApplication コマンドレットを使用して構成](/powershell/module/skype/new-cspartnerapplication?view=skype-ps)されます。 メタデータ URI の指定に加えて、アプリケーション信頼レベルを Full に設定する必要があります。これにより、ユーザー Exchange、領域内の承認されたユーザーの両方を表す可能性があります。 例:
   
 ```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -69,7 +69,7 @@ New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -Metadat
 
 または、サーバー間認証に関するドキュメントにあるスクリプト コードをコピーして変更Skype for Business Serverパートナー アプリケーションを作成することもできます。 詳細については[、「サーバー間認証 (OAuth)](../../manage/authentication/server-to-server-and-partner-applications.md)とパートナー アプリケーションの管理」のSkype for Business Serverを参照してください。
   
-Skype for Business Server と Exchange Server の両方のパートナー アプリケーションを正常に構成した場合は、2 つの製品間でサーバー間認証も正常に構成されています。 Skype for Business Serverには、Windows PowerShell コマンドレット[Test-CsExStorageConnectivity](/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps)が含まれています。これにより、サーバー間認証が正しく構成され、Skype for Business Server Storage Service が Exchange Server に接続できる状態を確認できます。 このコマンドレットは、Exchange Server ユーザーのメールボックスに接続し、そのユーザーの [会話履歴] フォルダーにアイテムを書き込み、そのアイテムを (必要に応じて) 削除することでこれを行います。
+Skype for Business Server と Exchange Server の両方のパートナー アプリケーションを正常に構成した場合は、2 つの製品間でサーバー間認証も正常に構成されています。 Skype for Business Serverには Windows PowerShell コマンドレット[Test-CsExStorageConnectivity](/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps)が含まれています。これにより、サーバー間認証が正しく構成され、Skype for Business Server Storage Service が接続可能な状態を確認できます。をクリックExchange Server。 このコマンドレットは、Exchange Server ユーザーのメールボックスに接続し、そのユーザーの [会話履歴] フォルダーにアイテムを書き込み、そのアイテムを (必要に応じて) 削除することでこれを行います。
   
 管理シェルと管理Skype for Business Server Exchange Server統合をテストするには、次のようなコマンドを実行Skype for Business Serverします。
   

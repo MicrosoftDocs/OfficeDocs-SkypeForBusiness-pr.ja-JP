@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 管理シェル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: サーバー Skype for Business Server管理シェルは、サーバーの管理と管理のためのコマンド ライン インターフェイスを提供します。 このコマンドレットは、Windows PowerShellおよび従来の Lync サーバー製品に固有の管理コマンドレットと管理コマンドレットのSkype組み込まれています。
-ms.openlocfilehash: dbff67d52d616d55d8e183ffab91126f8546f1b1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d8caadfb1dfe80af74861cf20fa0b155dd20d1a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609294"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750316"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェル
  

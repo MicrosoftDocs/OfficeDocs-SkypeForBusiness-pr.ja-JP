@@ -1,7 +1,7 @@
 ---
 title: Office Web Apps サーバーの設定を編集する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/19/2016
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 構成されている Web Apps Server のプロパティOffice編集します。 編集できるプロパティは次のとおりです。
-ms.openlocfilehash: 9872a1700ca31dfeaa0e2466c1b341c88114db3d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: efc4982ba40d6b0b2467d0540d9697e3ea19f0cb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725716"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743703"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Office Web Apps サーバーの設定の編集
 

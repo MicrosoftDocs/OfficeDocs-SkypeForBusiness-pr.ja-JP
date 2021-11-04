@@ -1,7 +1,7 @@
 ---
 title: サーバーでのトランクのSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: エンタープライズ VoIP 展開の一環として、仲介サーバーと 1 つ以上のピア間のトランクを構成して、組織内の エンタープライズ VoIP クライアントおよびデバイスに公衆交換電話網 (PSTN) 接続を提供できます。
-ms.openlocfilehash: 5f7ce6bac163c481d01e71b3efb4ee13347a49e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 528dc8accbb2165bb86f3de9f10b3141dea01143
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598801"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739163"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>サーバーでのトランクのSkype for Business Server
 

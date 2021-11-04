@@ -1,7 +1,7 @@
 ---
 title: 会議を展開するSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: '概要: このトピックを参照して、会議を展開する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 6c0b1493810bd3e2604621773cd74b490d2bf04e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: f11a184671ec054bb12dcb6b61096a1051a38b33
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011571"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771659"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>会議を展開するSkype for Business Server
 
@@ -83,5 +83,5 @@ Skype for Business Server では、web 会議、音声ビデオ (A/V) 会議、�
 |**(オプション) 会議の参加時と退席時のアナウンス動作を変更する** <br/> |**Set-CsDialinConferencingConfiguration** を使用して、参加者が会議に参加および退席する際のアナウンス動作を変更します。 <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[会議への参加を管理し、会議のアナウンスをSkype for Business Server](../../manage/conferencing/join-and-leave-announcements.md) <br/> [Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) <br/> |
 |**(推奨)会議ディレクトリの構成** <br/> |**New-CsConferenceDirectory** コマンドレットを使用して、プール内の 999 ユーザーごとに 1 つの会議ディレクトリを作成します。 <br/> |RTCUniversalServerAdmins  <br/> |[(推奨)会議ディレクトリの作成](/previous-versions/office/lync-server-2013/recommended-create-conference-directories) <br/> [New-CsConferenceDirectory](/powershell/module/skype/new-csconferencedirectory?view=skype-ps) <br/> |
 |**(オプション) ダイヤルイン会議の設定の検証** <br/> |**Get-CsDialinConferencingAccessNumber** コマンドレットを使用して、地域が割り当てられていないすべてのアクセス番号に関して使用されるダイヤルイン会議の地域が設定されたダイヤル プランを検索します。 <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsViewOnlyAdministrator  <br/> CsHelpDesk  <br/> |[会議でダイヤルイン会議を構成Skype for Business Server](dial-in-conferencing.md) <br/> [電話でのダイヤルイン会議のSkype for Business Server](../../manage/conferencing/tests.md) <br/> [Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps) <br/> |
-|**(オプション) ダイヤルイン会議の検証** <br/> |**Test-CsDialInConferencing** コマンドレットを使用して、指定のプールのアクセス番号が正しく機能するかどうかをテストします。 <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Skype for Business Server でのダイヤルイン会議のテスト](../../manage/conferencing/tests.md) <br/> [Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |
-|**(オプション) ユーザーにダイヤルイン会議を案内して最初の PIN を設定する** <br/> |**Set-CsPinSendCAWelcomeMail** スクリプトを使用して、ユーザーの初期 PIN を設定し、初期 PIN と [ダイヤルイン会議の設定] ページへのリンクを含むウェルカム メールを送信します。 <br/> |RTCUniversalServerAdmins  <br/> |[Skype for Business Server でダイヤルイン ユーザーにウェルカム メールを送信する](../../manage/conferencing/welcome-emails.md) <br/> |
+|**(オプション) ダイヤルイン会議の検証** <br/> |**Test-CsDialInConferencing** コマンドレットを使用して、指定のプールのアクセス番号が正しく機能するかどうかをテストします。 <br/> |RTCUniversalServerAdmins  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[電話でのダイヤルイン会議のSkype for Business Server](../../manage/conferencing/tests.md) <br/> [Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |
+|**(オプション) ユーザーにダイヤルイン会議を案内して最初の PIN を設定する** <br/> |**Set-CsPinSendCAWelcomeMail** スクリプトを使用して、ユーザーの初期 PIN を設定し、初期 PIN とダイヤルイン会議 設定 ページへのリンクを含むウェルカム メールを送信します。 <br/> |RTCUniversalServerAdmins  <br/> |[会議のダイヤルイン ユーザーにウェルカム メールを送信Skype for Business Server](../../manage/conferencing/welcome-emails.md) <br/> |

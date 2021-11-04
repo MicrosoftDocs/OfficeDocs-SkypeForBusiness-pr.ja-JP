@@ -1,7 +1,7 @@
 ---
 title: 証明書要求 (基本)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: '[名前とセキュリティ 設定] ページには、フレンドリー名、プライベート キーと公開キーのペアのビット長のドロップダウン リスト、および証明書のプライベート キーをエクスポート可能としてマークするチェック ボックスを定義するテキスト ボックスが用意されています。'
-ms.openlocfilehash: 45633f52ded86f860a90a3544802944f98493c04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 445a71c4655a8325de85165f1970b85fc536dff9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596951"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764275"
 ---
 # <a name="certificate-request-basic"></a>証明書要求 (基本)
  

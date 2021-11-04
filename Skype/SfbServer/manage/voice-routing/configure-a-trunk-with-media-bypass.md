@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server - メディア バイパスを使用してトランクを構成する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: メディア バイパスを有効にしたトランクを構成する方法。 "
-ms.openlocfilehash: 44bc66a1407e42f4cf8611f1e7f5aec0d0c0819d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 40a3b991481a8cf9cfb26be8ad45aa97dccf261f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635271"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739233"
 ---
 # <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>Skype for Business Server - メディア バイパスを使用してトランクを構成する 
 
@@ -84,7 +84,7 @@ ms.locfileid: "58635271"
             - PSTN 使用法レコードからルートを削除するには、ルートを選択し、[**削除**] をクリックします。
             - 新しいルートを定義してこの PSTN 使用法レコードに関連付けるには、[**新規**] をクリックします。 
             - この PSTN 使用法レコードに関連付けられているルートを編集するには、ルートを選択し、[**詳細の表示**] をクリックします。 
-        3. **[OK]** をクリックします。
+        3. [**OK**] をクリックします。
 
     > [!Important]
     > 構成されているトランクに関連付けられている仲介サーバー ピアに従って PSTN 使用法レコードを関連付ける必要があります。 仲介サーバー ピアが PSTN ゲートウェイまたはセッション ボーダー コントローラー (SBC) である場合は、トランク構成が PSTN 宛先または Skype for Business Server 経由で接続されている他のダウンストリーム システムにルーティングする PSTN 使用法レコードに関連付けなさらなかった方が強く推奨されます。 

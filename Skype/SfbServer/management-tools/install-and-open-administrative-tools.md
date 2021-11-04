@@ -1,7 +1,7 @@
 ---
 title: 管理ツールのインストールおよび起動
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: このトピックでは、展開および管理に必要な管理ツールをインストールして開く方法についてSkype for Business。
-ms.openlocfilehash: 70f7732c9db49f5a089e9d5008a27902e5aac51c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a40a1617490f22c37ec2a8173118dcb289ec8ff8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630481"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743433"
 ---
 # <a name="install-and-open-administrative-tools"></a>管理ツールのインストールおよび起動
 
@@ -64,7 +64,7 @@ ms.locfileid: "58630481"
 
 1. トポロジ ビルダーがインストールされているコンピューターに、Domain Admins グループおよび RTCUniversalServerAdmins グループのメンバーとしてログオンします。
     > [!NOTE]
-    > トポロジを定義するには、ローカルの Users グループのメンバーであるアカウントを使用しますが、読み取り、発行、 または、サーバーに Skype for Business Server をインストールするために必要なトポロジを有効にするか、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであり、アーカイブ ファイル ストアで使用するファイル共有に対する完全な制御アクセス許可 (読み取り、書き込み、変更) を持つアカウントを使用して、トポロジ ビルダーが必要な随意アクセス制御リスト (DACLs) または同等の権限を持つアカウントを構成する必要があります。
+    > トポロジを定義するには、ローカルの Users グループのメンバーであるアカウントを使用しますが、サーバーに Skype for Business Server をインストールするために必要なトポロジを読み取り、発行、または有効にするには、ドメイン管理者グループと RTCUniversalServerAdmins グループのメンバーであるアカウントを使用する必要があります。 また、アーカイブ ファイル ストアで使用するファイル共有に対する完全な制御アクセス許可 (読み取り、書き込み、変更) を持ち、トポロジ ビルダーが必要な随意アクセス制御リスト (DACL) または同等のユーザー権限を持つアカウントを構成できます。
  
 2. トポロジ ビルダーの開始: [スタート] を **クリック** し、[すべてのプログラム] をクリックし、[Skype for Business Server] を **クリック** し、[トポロジ ビルダー] Skype for Business Server **クリックします**。
 

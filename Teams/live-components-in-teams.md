@@ -1,7 +1,7 @@
 ---
 title: アプリケーションでライブ コンポーネントを管理Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 031f49d79659e0d5af1152e054466255d208a146
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b8bda034030f2ccb6e12e23908f16ca212f4add0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631461"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750336"
 ---
 # <a name="manage-live-components-in-teams"></a>アプリケーションでライブ コンポーネントを管理Teams
 
@@ -33,31 +33,31 @@ ms.locfileid: "58631461"
 
 **コンポーネントを共有します。** このリリースでは、ライブ コンポーネントをさまざまなチャットにTeamsできます。 受信者は、変更が行われた場所に関係なく、どこからでも編集し、更新をすぐに表示できます。 今後のリリースでは、ライブ コンポーネントは Teams 会議のノートとチャネル、Outlook、および最終的にはすべての Microsoft 365 アプリケーションでサポートされる予定です。
 
-**チャットを開始し、そこからビルドします。** チャットから作成Teamsコンポーネントは、自動的にファイルに保存OneDrive。 そのため、チャットで共同作業を始め、後でファイルに移動すると、編集用の視覚的なスペースが広く、必要な数のコンポーネントを追加できます。
+**チャットを開始し、そこからビルドします。** チャットから作成したコンポーネントTeams、チャット内のファイルに自動的にOneDrive。 そのため、チャットで共同作業を始め、後でファイルに移動すると、編集用の視覚的なスペースが広く、必要な数のコンポーネントを追加できます。
 
 ## <a name="clients-and-platforms"></a>クライアントとプラットフォーム
 
-Teams、Mac Windows Linux、iOS、Android のアプリで利用できます。
+Teams、Mac、Linux、iOS、および Android Windows アプリで使用できます。
 
 9 月の初めから、ライブ コンポーネントはグローバルに利用できます。 9 月末には、Mod (Government Community Cloud) でGCC。
 
 ## <a name="settings-management"></a>設定管理
 
-ライブ コンポーネントは、Microsoft 流動フレームワーク Microsoft 365 スイート全体でサポートされ、SharePoint Online から管理され、管理センターからTeamsされません。
+ライブ コンポーネントは、Microsoft 流動フレームワーク Microsoft 365 スイート全体でサポートされ、SharePoint Online から制御され、Teams 管理センターから制御されません。
 
-すべての Fluid Experiences を有効または無効にするには、SharePoint [Online PowerShell](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell)モジュールの最新バージョンがOffice 365があります。 Microsoft 流動フレームワーク対象のリリース **テナントの既定値** は ON です。 ライブ コンポーネントはコラボレーション用に設計されています。テナントが既定で他の種類のファイルの表示専用に設定されている場合でも、コンポーネントは常に他のユーザーが編集可能として共有されます。 詳細については、 **設定の横** にある [詳細情報] リンクを参照してください。
+お使いのすべての Fluid Experiences を有効または無効にするには[、SharePoint Online PowerShell](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell)モジュールの最新バージョンがOffice 365があります。 Microsoft 流動フレームワーク対象のリリース **テナントの既定値** は ON です。 ライブ コンポーネントはコラボレーション用に設計されています。テナントが既定で他の種類のファイルの表示専用に設定されている場合でも、コンポーネントは常に他のユーザーが編集可能として共有されます。 詳細については、 **設定の横** にある [詳細情報] リンクを参照してください。
 
-## <a name="checking-if-the-fluid-framework-is-enabled-through-the-sharepoint-online-powershell-cmdlet"></a>SharePoint Online PowerShell コマンドレットを使用して、流動フレームワークが有効になっているか確認する
+## <a name="checking-if-the-fluid-framework-is-enabled-through-the-sharepoint-online-powershell-cmdlet"></a>流動フレームワーク Online PowerShell コマンドレットを使用して、SharePointが有効になっているか確認する
 
-1. [Connect Online PowerShell SharePointにアクセスします](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password)。 
+1. [Connect Online PowerShell SharePointする方法について説明します](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password)。 
 
-2. 引数を指定流動フレームワークコマンドレットを実行して、Get-SPOTenantが有効になっているか確認します。
+2. 引数なしで 流動フレームワーク コマンドレットを実行して、Get-SPOTenantが有効になっているか確認します。
 
 3. IsFluidEnabled の値が true を確認 **します**。
 
 ## <a name="enabling-the-fluid-framework-through-the-sharepoint-online-powershell-cmdlet"></a>流動フレームワーク SharePoint Online PowerShell コマンドレットを使用してSharePointを有効にする 
 
-1. [Connect Online PowerShell SharePointにアクセスします](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password)。 
+1. [Connect Online PowerShell SharePointする方法について説明します](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password)。 
 
 2. -IsFluidEnabled コマンドレットを使用Set-SPOTenant Fluid を有効$true 
    
@@ -67,7 +67,7 @@ Teams、Mac Windows Linux、iOS、Android のアプリで利用できます。
 
 ## <a name="disabling-fluid-framework-through-sharepoint-online-powershell-cmdlet"></a>オンライン PowerShell コマンドレット流動フレームワークしてSharePointを無効にする
 
-1. [Connect Online PowerShell SharePointにアクセスします](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。
+1. [Connect Online PowerShell SharePointする方法について説明します](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)。
 
 2. -IsFluidEnabled コマンドレットをSet-SPOTenantしてSet-SPOTenant Fluid を無効$false。 
 
@@ -87,7 +87,7 @@ PS C:\\WINDOWS\\system32&gt;
 
 ## <a name="known-limitations"></a>既知の制限
 
-- アプリの再起動後に最初のコンポーネントとしてテーブルまたはタスク Teamsを作成するには、時間がかかる場合があります。
+- アプリの再起動後に最初のコンポーネントとしてテーブルまたはタスク Teams作成するには、時間がかかる場合があります。
 
 - 他のチャット メンバーは、 (@) 記号で説明すると、電子メール通知を受け取ります。 (アクティビティ フィードの通知Teams近日公開される予定です)。
 
@@ -103,7 +103,7 @@ PS C:\\WINDOWS\\system32&gt;
 
 Teamsで作成されたライブ コンポーネントは、作成者のファイルに格納されたファイル `.fluid` によってOneDrive for Business。 ファイルは、OneDrive for Businessドキュメントと同じ方法で、ライブ コンポーネント (ファイル) を簡単に作成、検出、 `.fluid` 管理Officeします。
 
-ユーザーは、Office.com および OneDrive for Business からファイル内 `.fluid` のコンテンツを検索できます。
+ユーザーは、Office.com および OneDrive for Business `.fluid` からファイル内のコンテンツを検索できます。
 `.fluid` ファイルは、電子情報開示、監査、レポート、法的ホールドなど、データ ガバナンス機能と機能します。
 
 `.fluid`ファイルが Office.com および OneDrive for Business に表示されます ([最近使用したファイル] 領域や [推奨] 領域など)。
@@ -111,7 +111,7 @@ Teamsで作成されたライブ コンポーネントは、作成者のファ�
 
 チャット参加者は、ライブ コンポーネントをOneDriveアカウントを持っている必要があります。 有効な OneDrive アカウントがない場合、チャット参加者は、有効な OneDrive アカウントを持っているが、自分で作成できない他のユーザーによって作成されたコンポーネントで共同作業を行える場合があります。
 
-[ファイル](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b)を別のOneDriveサイトSharePoint移動すると、ライブ コンポーネントがチャットに読み込 `.fluid` Teams失敗します。
+[ファイル](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b)を別のOneDriveサイトSharePoint移動すると、ライブ コンポーネントがチャットに読み `.fluid` 込Teamsされます。
 
 **ファイルの所有者が会社を離れる場合は、どうなるでしょうか。**
 
@@ -121,7 +121,7 @@ Teamsで作成されたライブ コンポーネントは、作成者のファ�
 
 ライブ コンポーネントは、チャットに挿入Teamsチャットから別のチャットにコピーすることができます。 (ライブ コンポーネントはチャネルではまだサポートされていません)。既定ではテナントの既存のアクセス許可が設定されますが、ユーザーは送信前にアクセス許可を変更して、すべてのユーザーがアクセス権を持つ必要があります。
 
-Office.com で Teams チャットからコンポーネントを開く場合、他の Office ドキュメントで提供される共有オプションと同様に、ウィンドウの上部に共有機能が用意されています。
+Office.com で Teams チャットからコンポーネントを開くには、他の Office ドキュメントで提供される共有オプションと同様に、ウィンドウの上部に共有機能が用意されています。
 
 **ファイルが `.fluid` 破損または破損した場合は、どうなるでしょうか。**
 

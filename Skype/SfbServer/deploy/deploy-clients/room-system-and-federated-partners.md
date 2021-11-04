@@ -1,6 +1,6 @@
 ---
 title: SkypeRoom System と Skype for Businessフェデレーション パートナー
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: このトピックを参照して、フェデレーション パートナー向Skype Room System をSkype for Businessしてください。
-ms.openlocfilehash: 2f0a44538839fd6c722021f806bd8623f0c210ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57c143559af533e1a2a8ef6577a1fe6e9f9de660
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620513"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771669"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>SkypeRoom System と Skype for Businessフェデレーション パートナー
  
@@ -34,4 +34,4 @@ New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
 
-リモート組織で TNEF が有効になると、インターネットを通して組織に送信されたメッセージは、TNEF 形式の添付ファイルとして送信されます。 TNEF を有効にすると、Skype for Business 会議出席依頼が Skype for Business フェデレーション パートナーに送信された場合、Skype 会議室システムは Skype for Business 会議に参加し、リモート ユーザーは Skype for Business 会議に参加できます。 
+リモート組織で TNEF が有効になると、インターネットを通して組織に送信されたメッセージは、TNEF 形式の添付ファイルとして送信されます。 TNEF を有効にすると、Skype for Business 会議出席依頼が Skype for Business フェデレーション パートナーに送信された場合、Skype 会議室システムは参加 Skype for Business 会議をレンダリングし、リモート ユーザーは会議に参加Skype for Business会議。 

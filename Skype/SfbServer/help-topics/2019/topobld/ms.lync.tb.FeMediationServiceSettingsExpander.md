@@ -1,7 +1,7 @@
 ---
 title: 仲介サービス設定の展開
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[仲介サーバー] では、次の情報を指定できます。'
-ms.openlocfilehash: e64343efa357caad2e843061574e5788a11db365
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 32e8b2732a0b07a1934a4ce3d3b3f16a6d12d31c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582961"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764425"
 ---
 # <a name="mediation-service-settings-expander"></a>仲介サービス設定エキスパンダー
 

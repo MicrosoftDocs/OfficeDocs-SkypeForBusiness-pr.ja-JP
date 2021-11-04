@@ -1,7 +1,7 @@
 ---
-title: Skype for Business Server の単純な URL の DNS 要件
+title: ドメイン内の単純な URL の DNS 要件Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: '概要: Skype for Business Server の DNS レコードを実装する前に、このトピックの単純な URL に関する考慮事項を確認してください。'
-ms.openlocfilehash: cbc8a6f99704f9c450847d0ca3c5173b0066715e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: '概要: このトピックの単純な URL に関する考慮事項を確認してから、DNS レコードを実装Skype for Business Server。'
+ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011721"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777917"
 ---
-# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Skype for Business Server の単純な URL の DNS 要件
+# <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>ドメイン内の単純な URL の DNS 要件Skype for Business Server
 
-**概要:** Skype for Business Server の DNS レコードを実装する前に、このトピックの単純な URL に関する考慮事項を確認してください。
+**概要:** このトピックの簡単な URL に関する考慮事項を確認してから、このトピックの DNS レコードを実装Skype for Business Server。
 
-単純な URL を使用すると、ユーザーが会議に参加しやすくなり、管理者が Skype for Business Server 管理ツールを簡単に利用できます。 単純な URL は独自のドメインを使用します。これは、定義した SIP ドメインと一致する必要があります。 
+簡単な URL を使用すると、ユーザーが会議に参加しやすくなり、管理者が管理Skype for Business Serverを簡単に実行できます。 単純な URL は独自のドメインを使用します。これは、定義した SIP ドメインと一致する必要があります。 
 
-Skype for Business Server では、会議、ダイヤルイン、管理者の 3 つの単純な URL がサポートされています。Meet と Dial-In の単純な URL を設定する必要があります。管理者の簡易 URL は省略可能です。 単純な URL をサポートするために必要なドメイン ネーム システム (DNS) レコードは、これらの単純な URL の定義方法、および簡易 URL の障害復旧をサポートするかどうかによって異なっています。 
+Skype for Business Serverは、Meet、Dial-In、Admin の 3 つの単純な URL をサポートしています。Meet と Dial-In の単純な URL を設定する必要があります。管理者の簡易 URL は省略可能です。 単純な URL をサポートするために必要なドメイン ネーム システム (DNS) レコードは、これらの単純な URL の定義方法、および簡易 URL の障害復旧をサポートするかどうかによって異なっています。 
 
 ## <a name="simple-url-scope"></a>単純な URL スコープ
 
@@ -40,7 +40,7 @@ Skype for Business Server では、会議、ダイヤルイン、管理者の 3 
 ## <a name="simple-url-naming-and-validation-rules"></a>単純な URL の名前付けと検証ルール
 <a name="BK_Valid"> </a>
 
-トポロジ ビルダーと Skype for Business Server Management Shell コマンドレットは、単純な URL に対していくつかの検証ルールを適用します。 ユーザーは、簡単な会議 URL およびダイヤルイン URL の設定を要求されますが、簡単な管理 URL の設定はオプションです。 各 SIP ドメインは独立した簡単な会議 URL を持つ必要がありますが、簡単なダイヤルイン URL と簡単な会議 URL については組織全体で必要な数は 1 つだけです。
+トポロジ ビルダーと管理シェルのSkype for Business Serverは、単純な URL に対していくつかの検証ルールを適用します。 ユーザーは、簡単な会議 URL およびダイヤルイン URL の設定を要求されますが、簡単な管理 URL の設定はオプションです。 各 SIP ドメインは独立した簡単な会議 URL を持つ必要がありますが、簡単なダイヤルイン URL と簡単な会議 URL については組織全体で必要な数は 1 つだけです。
 
 組織内の各単純な URL には一意の名前を付け、別の単純な URL のプレフィックスにすることはできません (たとえば、Meet 単純な URL として、 `SfB2015.contoso.com/Meet` および Dialin 単純な URL として設定することはできません `SfB2015.contoso.com/Meet/Dialin` )。 単純な URL 名には、プールの FQDN を含め、ポート情報を含めすることはできません (たとえば、 https://FQDN:88/meet 許可されません)。 簡易 URL は、すべてプレフィックス https:// で始まる必要があります。 
 

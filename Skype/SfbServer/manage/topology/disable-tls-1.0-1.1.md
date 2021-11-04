@@ -1,7 +1,7 @@
 ---
 title: 2015 年に TLS 1.0/1.1 を無効Skype for Business Serverする
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 環境で TLS 1.0 と 1.1 を無効にする準備と実装を行います。
-ms.openlocfilehash: 93ebf65101cd3e8ddc36a3a17e945035ad770d49
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 86df7a322642682748c0ec31b3f07b6572b5b7d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731466"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757150"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>2015 年に TLS 1.0/1.1 を無効Skype for Business Serverする
 
@@ -119,7 +119,7 @@ PIC (パブリック IM Connectivity) から Skype コンシューマー サー�
 
 上記の場合を除き、TLS 1.0 と 1.1 が無効になった後は、スコープ外のサーバーが無効になり、クライアントとデバイスが正常に機能しなくなるか、または全く機能しなくなる。 これは、Microsoft からの更新されたガイダンスを一時停止して待つ必要がある場合があります。 すべての要件を満たしていることを確認し、ギャップに対処する計画を立てしたら、続行します。
 
-Skype for Business Server 2019 はインストール時に手順を実行する準備ができましたが、Skype for Business Server 2015 では、CU9 のインストール、.NET と SQL への前提条件更新プログラムの適用、前提条件のレジストリ キーの展開、および最後に別の OS 構成更新プログラムの展開 (レジストリ ファイルのインポートによる TLS 1.0 と 1.1 の無効化) が必要になります。 環境内の任意のサーバーで TLS 1.0 と 1.1 を無効にする前に、Skype for Business Server 2015 CU6 HF2 を含むすべての前提条件のインストールを完了することが非常に重要です。 エッジSkype for Businessバックエンドを含むすべてのサーバー SQL更新プログラムが必要です。 また、サポートされている (スコープ内の) すべてのクライアントが必要な最小バージョンに更新されている必要があります。 管理ワークステーションも更新することを忘れないでください。
+高レベルでは、Skype for Business Server 2019 はインストール時に手順を実行できる状態ですが、Skype for Business Server 2015 では、CU9 のインストール、.NET と SQL への前提条件の更新の適用、前提条件のレジストリ キーの展開、および最後に別の OS 構成更新プログラムの展開 (つまり、レジストリ経由での TLS 1.0 と 1.1 の無効化) が必要になります。ファイルのインポート)。 環境内の任意のサーバーで TLS 1.0 と 1.1 を無効にする前に、Skype for Business Server 2015 CU6 HF2 を含むすべての前提条件のインストールを完了することが非常に重要です。 エッジSkype for Businessバックエンドを含むすべてのサーバー SQL更新プログラムが必要です。 また、サポートされている (スコープ内の) すべてのクライアントが必要な最小バージョンに更新されている必要があります。 管理ワークステーションも更新することを忘れないでください。
 
 サーバーをアップグレードするために、"inside out" の通常の操作順序に従Skype for Businessします。 ディレクター プール、常設チャット、ペアリングされたプールは、通常と同じ方法で処理します。 アップグレードの順序と方法については、ここで[説明](topology.md)[します](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)。
 
@@ -524,11 +524,11 @@ Skype for Business Server 2015 で TLS 1.2 をサポートするには、いく�
      ![[ローカル構成ストアのインストール] ダイアログ ボックス。](../../media/local-configuration-store.png)
      - 結果を確認し、[タスクの状態] が [完了] に設定されています。 [ログの表示] をクリックして、結果のログ ファイル **を確認します**。
      ![タスクの状態が [完了] と表示されます。](../../media/local-configuration-task-completed.png)
-     - **[完了]** をクリックします。
+     - [**完了**] をクリックします。
 9. コンポーネントをセットアップまたはSkype for Business Serverする (手順 2):
     - 展開ウィザードを開き、[システムのインストールまたは更新 **Skype for Business Server]** をクリックし、[手順 2: コンポーネントの設定と削除] で [実行] Skype for Business Serverクリックします。
     - [**コンポーネントの設定**] ダイアログ ボックスの [Skype for Business Server] をクリックします。
     ![[コンポーネントの設定Skype for Business Server] ウィンドウを開きます。](../../media/set-up-skype-for-business-server-components-window.png)
     - [ログの表示] を使用してログを確認し、問題なくセットアップが完了したと検証します。 
-    - **[完了]** をクリックします。
+    - [**完了**] をクリックします。
 10. 必要に応じて追加のインストールと構成を続行します (この時点で通常のインストール手順を再開できます)。

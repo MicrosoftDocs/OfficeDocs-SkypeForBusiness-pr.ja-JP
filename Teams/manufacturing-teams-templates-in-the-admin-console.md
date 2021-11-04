@@ -1,7 +1,7 @@
 ---
 title: 管理センターで製造チーム テンプレートの使用を開始する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b030b3a9635c0ba3f7737e4b749d47ac93fba862
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c7d7c7d648d36f38bc25bae946136388bd6485d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604416"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739053"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>管理センターで製造チーム テンプレートを使用する
 
@@ -44,5 +44,5 @@ ms.locfileid: "58604416"
 
 | 基本テンプレートの種類|baseTemplateId| この基本テンプレートに含まれるプロパティ |
 | ------------------|-- |----------------------------------------------------- |
-|品質と安全性|`com.microsoft.teams.template.QualitySafety` |チャネル <ul><li>全般<li>お知らせ</li><li>1 行目</li><li>2 行目</li><li>3 行目</li><li>安全性</li><li>トレーニング</li><li>メンテナンス</li><li>楽しい情報</li></ul> アプリ: <ul><li>Wiki</li><li>プランナー</li></ul>|
+|品質と安全性|`com.microsoft.teams.template.QualitySafety` |チャネル: <ul><li>全般<li>お知らせ</li><li>1 行目</li><li>2 行目</li><li>3 行目</li><li>安全性</li><li>トレーニング</li><li>メンテナンス</li><li>楽しい機能</li></ul> アプリ: <ul><li>Wiki</li><li>プランナー</li></ul>|
 ||||

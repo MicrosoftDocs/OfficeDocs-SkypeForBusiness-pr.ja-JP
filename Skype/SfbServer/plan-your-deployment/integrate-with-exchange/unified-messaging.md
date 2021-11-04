@@ -1,7 +1,7 @@
 ---
 title: ユニファイド メッセージングExchange統合を計画Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: '概要: 2013 または 2016 年にSkype for Business ServerをExchangeしながら、このトピックを確認してください。'
-ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ad9b51a282bdd2e1f922368fad29037515ef7bb5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725676"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777987"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>ユニファイド メッセージングExchange統合を計画Skype for Business
 
@@ -63,7 +63,7 @@ Skype for Business Server エンタープライズ VoIP Exchange ユニファイ
 
 ### <a name="exchange-server-components"></a>Exchange Server コンポーネント
 
-「統合ユニファイド メッセージングと Skype for Business Server の機能」で説明されている Exchange UM 機能とサービスを組織内の[エンタープライズ VoIP](#features-of-integrated-unified-messaging-and-skype-for-business-server)ユーザーに提供するには、Microsoft Exchange メールボックス サーバーとクライアント アクセス サーバーを展開し、ユーザー メールボックスをホストし、電子メールとボイス メールの 1 つの保存場所を提供する必要があります。 ExchangeUM は、メールボックス サーバーとクライアント アクセス Exchangeサービスとして実行されます。
+「統合ユニファイド メッセージングと[Skype for Business Server](#features-of-integrated-unified-messaging-and-skype-for-business-server)の機能」で説明されている Exchange UM 機能とサービスを組織内の エンタープライズ VoIP ユーザーに提供するには、Microsoft Exchange メールボックス サーバーとクライアント アクセス サーバーを展開し、ユーザー メールボックスをホストし、単一のメールボックスを提供する必要があります。メールとボイス メールの保存場所。 ExchangeUM は、メールボックス サーバーとクライアント アクセス Exchangeサービスとして実行されます。
 
 Microsoft Exchange Server Exchange 2010 の UM コンポーネントの詳細については、「Deploying On-Premises Exchange UM to Provide [Lync Server 2013 Preview Voice Mail」](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail)を参照してください。
 
@@ -100,7 +100,7 @@ Skype for Business Server UM 統合では、次のトポロジExchangeサポー�
     > [!IMPORTANT]
     > ユニファイド Exchange (UM) がインストールされている場合、自己署名証明書を使用するように構成されます。 自己署名証明書では、Skype for Business Server UM と Exchange UM が互いを信頼できないので、両方のサーバーが信頼する証明機関から別の証明書を要求する必要があります。
 
-- UM Skype for Business Serverと Exchange UM が異なるフォレストにインストールされている場合は、Skype for Business Server フォレストと Skype for Business Server フォレストを信頼して各 Exchange フォレストを信頼Exchangeします。 また、Skype for Business Server フォレスト内Exchangeユーザー オブジェクトに対してユーザーの UM 設定を設定します (通常は、スクリプトまたはフォレスト間ツール (ID ライフサイクル マネージャー (ILM) など) を使用します。
+- UM Skype for Business Serverと Exchange UM が異なるフォレストにインストールされている場合は、Exchange フォレストと Skype for Business Server フォレストを信頼する各 Skype for Business Server Exchange フォレストを構成します。Exchangeフォレスト。 また、Skype for Business Server フォレスト内Exchangeユーザー オブジェクトに対してユーザーの UM 設定を設定します (通常は、スクリプトまたはフォレスト間ツール (ID ライフサイクル マネージャー (ILM) など) を使用します。
 
 - 必要に応じて、ユニファイド メッセージング サーバーを管理するのに Exchange 管理コンソールをインストールします。
 

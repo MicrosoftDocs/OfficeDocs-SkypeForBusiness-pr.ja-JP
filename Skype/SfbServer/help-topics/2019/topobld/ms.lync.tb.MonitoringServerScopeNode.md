@@ -1,7 +1,7 @@
 ---
 title: 監視のスコープ ノード
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーでは、監視を実行している個々のサーバーに関連するタスクを実行するには、コンソール ツリーで監視を実行しているサーバーを右クリックし、ツールバーの [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックし、監視を実行しているサーバーの次のいずれかのオプションをクリックします。
-ms.openlocfilehash: e352bdb67fa8957c9d25e9e876f512fce38fc5a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8bbd3bb046e8628963d6663ebf752a80274ab8bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622689"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764355"
 ---
 # <a name="monitoring-scope-node"></a>監視のスコープ ノード
  

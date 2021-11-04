@@ -1,7 +1,7 @@
 ---
 title: 帯域幅ポリシー プロファイル 新規の作成または既存の編集
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: c7b020bd0ad9d7f93c032608b635d129eb4c0b4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a865d0add8618636a535ffcb211a3e00325cda0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636261"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770855"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>帯域幅ポリシーのプロファイル: 新規作成または現在の形式のままで編集
 

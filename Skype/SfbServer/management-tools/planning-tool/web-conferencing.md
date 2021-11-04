@@ -1,7 +1,7 @@
 ---
 title: Web 会議計画ツール
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Skype for Business Server 2015 の Web 会議には、ドキュメントの共同作業、アプリケーション共有、デスクトップ共有が含まれます。
-ms.openlocfilehash: 262eab31e28b9272c0e51de30d95071c69049140
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 607bac428224c93a23fcfbe94ddfd022b134166f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582621"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743373"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web 会議計画ツール
  

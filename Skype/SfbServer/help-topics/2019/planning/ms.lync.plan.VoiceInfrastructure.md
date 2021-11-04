@@ -1,7 +1,7 @@
 ---
 title: 音声インフラストラクチャ (計画ツール)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Serverは、SIP トランクを使用したり、PSTN ゲートウェイに SIP 接続を直接接続したり、PBX への直接 SIP 接続を使用して、信頼性の高いスケーラブルな PSTN 接続を提供します。 詳細については、「Plan for PSTN connectivity in Skype for Business Server」 を参照してください。
-ms.openlocfilehash: eba0674ef9e9491a0a4d2307eb4c5baa2899e0ad
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78dc587143df2e87a94e3a88d9d23a2025e57693
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594631"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757769"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>音声インフラストラクチャ (計画ツール)
  

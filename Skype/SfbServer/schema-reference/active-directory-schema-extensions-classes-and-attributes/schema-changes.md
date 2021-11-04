@@ -1,7 +1,7 @@
 ---
 title: スキーマの変更Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: サーバーを展開して操作するSkype for Business Server、スキーマを拡張して Active Directory ドメイン サービスを準備する必要があります。 スキーマ拡張機能は、ユーザーに必要なクラスと属性をSkype for Business Server。
-ms.openlocfilehash: 16f71b80864fae8fc97b87eda22ad2a9594c3987
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 000aad35a546556a2a6bceaedc0d0fdb9deb2420
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626539"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743283"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>スキーマの変更Skype for Business Server
  
@@ -69,7 +69,7 @@ msRTCSIP プレフィックスは、ユーザーに固有のクラスと属性Sk
 
 |**クラス**|**変更**|**クラスまたは属性**|
 |:-----|:-----|:-----|
-|ユーザー  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|User  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Contact  <br/> |add: mayContain  <br/> add: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Mail-Recipient  <br/> |add:mayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |add: mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |

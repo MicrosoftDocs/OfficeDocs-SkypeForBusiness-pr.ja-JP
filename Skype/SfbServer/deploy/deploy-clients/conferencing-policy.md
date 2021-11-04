@@ -1,6 +1,6 @@
 ---
 title: ルーム システム アカウントSkype会議ポリシー
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: このトピックでは、ルーム システム アカウントに会議ポリシーを割り当てるSkype説明します。
-ms.openlocfilehash: 202440953aedaa54ac69a7bd4549bf7dcbd8d865
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9e6bab608ab68b3f0e0d5075ae1caf8cb16d4c0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618203"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771679"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>ルーム システム アカウントSkype会議ポリシー
  
@@ -27,7 +27,7 @@ ms.locfileid: "58618203"
 
 ルーム システム アカウントに割り当Skype会議ポリシーには、特定の特性が必要です。 ほとんどの場合、会議室システム クライアントSkypeスケジュールされた会議に参加するため、会議開催者の会議ポリシーは会議に影響します。 ただし、Skype for Business Serverの機能は、参加者の構成によって異なります。 たとえば、参加者のポリシーで最大 1080p のビデオ解像度が許可されている場合、開催者のポリシーで許可しない場合でも、参加者は会議でこの高解像度ビデオ機能を体験します。 次の表では、組織内の Room System アカウントの会議ポリシーを設定するときに注意する必要があるSkype設定について説明します。 
   
-|特徴  <br/> |値  <br/> |コメント  <br/> |
+|機能  <br/> |値  <br/> |Comment  <br/> |
 |:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |ルーム システムオーディオのSkypeする必要があります  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |[ルーム システム] Skypeの Meet Now (アドホック) ホワイトボード セッションで機能するには、Skypeする必要があります。  <br/> |
@@ -45,7 +45,7 @@ ms.locfileid: "58618203"
 |AllowPolls  <br/> |TRUE  <br/> |Meet Now (アドホック) 会議の N/A ですが、Skypeルーム システムはルームの前面の画面でポーリングに応答できます  <br/> |
 |AllowSharedNotes  <br/> |TRUE  <br/> |Meet Now (アドホック) 会議の N/A ですが、Skypeルーム システムはルームの前面の画面でポーリングに応答できます  <br/> |
 |EnableDialInConferencing  <br/> |TRUE  <br/> |Meet Now (アドホック) ホワイトボード セッション (Skypeルーム システム) に影響する  <br/> |
-|EnableAppDesktopSharing  <br/> |デスクトップ  <br/> |Meet Now (アドホック) ホワイトボード セッション (Skypeルーム システム) に影響する  <br/> |
+|EnableAppDesktopSharing  <br/> |Desktop  <br/> |Meet Now (アドホック) ホワイトボード セッション (Skypeルーム システム) に影響する  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |N/A for Skype ルーム システム。 TRUE の場合、リモート パーティはレコードを記録できます。  <br/> |
 |EnableP2PRecording  <br/> |FALSE  <br/> |N/A for Skype ルーム システム。 TRUE の場合、リモート パーティはレコードを記録できます。  <br/> |
 |EnableFileTransfer  <br/> |TRUE  <br/> |該当なし  <br/> |
