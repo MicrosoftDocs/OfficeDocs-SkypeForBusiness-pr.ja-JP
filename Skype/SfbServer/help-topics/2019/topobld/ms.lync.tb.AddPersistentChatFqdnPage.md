@@ -1,7 +1,7 @@
 ---
 title: 常設チャットの FQDN の定義
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 新しい常設チャット サーバーまたは常設チャット サーバー プールを作成するには、[新しい常設チャット プールの定義] ウィザードを使用します。 [複数のコンピューター プール] または [単一のコンピューター プール] を選択します。 1 つのコンピューター プールを選択し、後で複数のコンピューター プールが必要な場合は、1 つのコンピューター プールを削除してから、複数のコンピューター プールを定義する必要があります。
-ms.openlocfilehash: af16c2fcb285af2e31f2ac64258b3d5b67cfa04e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cefd43ade682949b4a0e30db562b52039e9b9e54
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614685"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760049"
 ---
 # <a name="define-persistent-chat-fqdn"></a>常設チャットの FQDN の定義
 

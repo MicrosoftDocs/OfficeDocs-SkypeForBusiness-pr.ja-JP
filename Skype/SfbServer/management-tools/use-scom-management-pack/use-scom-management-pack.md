@@ -1,7 +1,7 @@
 ---
 title: SCOM Skype for Business Serverパックを使用して 2015 年を管理する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: '概要: Skype for Business Server 2015 年 2015 年のインフラストラクチャを構成して、System Center Operations Manager とSystem Centerします。'
-ms.openlocfilehash: 0349949afe27c5351f9eefda7a5cc5f44a0a072d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 43fba4fa3672621052d51314e1d39ead5f4d568b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014941"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766275"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>SCOM Skype for Business Serverパックを使用して 2015 年を管理する
  
@@ -131,7 +131,7 @@ Skype for Business Server 2015 管理パックは、代理トランザクショ�
 |1   |登録 (ユーザー ログイン)   |利用可能な Lync Server 2010 以降   |
 |2   |アドレス帳サービス (ファイルのダウンロード)   |利用可能な Lync Server 2010 以降   |
 |3   |アドレス帳 Web クエリ   |利用可能な Lync Server 2010 以降   |
-|4    |プレゼンス   |利用可能な Lync Server 2010 以降   |
+|4   |プレゼンス   |利用可能な Lync Server 2010 以降   |
 |5   |統合連絡先ストア   |利用可能な Lync Server 2013 以降   |
 
   

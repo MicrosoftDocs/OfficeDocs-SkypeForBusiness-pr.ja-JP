@@ -1,7 +1,7 @@
 ---
 title: カメルーンでの可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Cameroon でMicrosoft 365およびOffice 365のSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: e63bdf922073c57df9cd2d914c982d6197847ac9
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: カメルーンでMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
+ms.openlocfilehash: 59b959e50f9d80e5ff502cf632f68f6910b0be18
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733748"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754010"
 ---
 # <a name="availability-in-cameroon"></a>カメルーンでの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-Cameroon でMicrosoft 365およびOffice 365のSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
+カメルーンでMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 

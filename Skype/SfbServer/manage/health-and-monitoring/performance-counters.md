@@ -1,7 +1,7 @@
 ---
 title: モバイル パフォーマンス カウンター (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: '概要: ユニファイド コミュニケーション Web API (UCWA) および Mcx Mobility Service を実行しているサーバーを監視するために使用できるパフォーマンス カウンター Skype for Business Server説明します。'
-ms.openlocfilehash: 4ea7ba3f7c4d9685fe01c64157324a64f823c5bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 983caf353b5fb18a438a9ad2128ec24feec97742
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578781"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754736"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>モバイル パフォーマンス カウンター (Skype for Business Server
  

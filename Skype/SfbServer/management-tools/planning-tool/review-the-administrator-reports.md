@@ -1,7 +1,7 @@
 ---
 title: 2015 年の管理者レポートSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 管理者レポートは、展開と運用に関する詳細情報です。 レポートは、デザイン サイトでマークされた選択内容に基づいて生成されます。 設計者は、ネットワーク ダイアグラムを編集し、サーバー、プール、およびロード バランサーの完全な IP アドレスと完全修飾ドメイン名 (FQDN) を定義することで、管理者レポートに値を追加できます。
-ms.openlocfilehash: fe2d14856a1d884dc04ff8cf2de4ebba41eb95eb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e2a30e27b5b1928dacc36e5592033090484f065a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730396"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766295"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>2015 年の管理者レポートSkype for Business Serverする
 

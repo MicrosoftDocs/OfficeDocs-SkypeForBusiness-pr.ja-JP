@@ -1,7 +1,7 @@
 ---
 title: チャネル モデレーションの設定と管理
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -18,16 +18,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: チーム メンバーをチャネルのモデレーターとして追加する方法を含む、Microsoft Teams でモデレート用にチャネルを設定する方法について説明します。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e1a58f7f09c94ae5178add3897b84e3571eef03
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a012eb26ac9017e0d6a1110505aa1d1025c6a779
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726136"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753990"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Microsoft Teams でチャネルのモデレーションを設定および管理する
 
-チームMicrosoft Teams、標準チャネルのモデレーションを有効にし、新しい投稿を開始し、そのチャネルの投稿に返信できるユーザーを制御できます。
+このMicrosoft Teams、チーム所有者は標準チャネルのモデレーションを有効にし、新しい投稿を開始し、そのチャネルの投稿に返信できるユーザーを制御できます。
 
 チーム所有者は、チーム メンバーをモデレーターとして追加することもできます。 チーム所有者が、チャネルのモデレーションを最大限にサポートするためのチャネル レベルにおける領域の専門知識を持っていない場合もあります。 特定のチーム メンバーがチャネルをモデレートすることを許可することにより、チャネル内のコンテンツとコンテキストを管理する責任を、チーム所有者とチャネル モデレーターで共有できます。 たとえば、チーム所有者はモデレーターとしてビジネス オーナーまたはコンテンツ所有者を追加できます。これにより、対象チャネルで共有する情報を制御できます。
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でのチームとチャネルの概要を理解する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,22 +21,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ba80c74e905fa80f42095afd7a524d202661f21
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
+ms.openlocfilehash: 7af581966c2822e88ce439d5c590331f220cef7a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641197"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766075"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams でのチームとチャネルの概要を理解する
 
-チームとチャネルの概念は、アプリケーションの正常で生産的な実装のMicrosoft Teams。 
+チームとチャネルの概念は、チームとチャネルの正常で生産的な実装のMicrosoft Teams。 
 
 - チームは、会社のビジネス成果を生み出す、人、コンテンツ、ツールのコレクションです。 Teams は、Microsoft 365 グループを基にして構築されていて、Microsoft 365 グループ メンバーシップに対する変更はチームに同期されます。
 
 - チャネルは、実際の作業が行われるチーム内のコラボレーション スペースです。 
 
-チームとチャネルの詳細については、「チームとチャネルの概要[」](teams-channels-overview.md)を参照Microsoft Teams。 包括的な導入Teamsについては、「導入ガイド」のTeams[を参照してください](https://aka.ms/teamstoolkit)。 グループとグループのTeamsとMicrosoft 365については、「グループとグループMicrosoft 365」および[](office-365-groups.md)「Microsoft Teams グループの詳細」[をMicrosoft 365してください](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+チームとチャネルの詳細については、「チームとチャネルの概要[」](teams-channels-overview.md)を参照Microsoft Teams。 包括的なTeams導入ガイダンスについては、「導入ガイド」のTeams[を参照してください](https://aka.ms/teamstoolkit)。 グループとグループのTeamsのMicrosoft 365については、「グループとグループMicrosoft 365」および[](office-365-groups.md)「Microsoft Teams グループの詳細」[をMicrosoft 365してください](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 | &nbsp; |&nbsp;  |
@@ -53,7 +53,7 @@ ms.locfileid: "60641197"
 
 ## <a name="use-teams-to-drive-cross-organization-collaboration"></a>組織Teamsコラボレーションを推進する
 
-チームを使用して組織間のコラボレーションを改善するベスト プラクティスであり、多くのプロジェクトがこのモデルに役立ちます。 さらに、組織内のリーダーまたは部門は、自分のメンバー専用のチームを望む場合があります。 次の図に示す組織モデルとプロジェクト モデルを検討してください。
+チームを使用して組織間のコラボレーションを向上させるのがベスト プラクティスであり、多くのプロジェクトがこのモデルに役立ちます。 さらに、組織内のリーダーまたは部門は、自分のメンバー専用のチームを望む場合があります。 次の図に示す組織モデルとプロジェクト モデルを検討してください。
 
 ![組織モデルとプロジェクト モデル。](media/teams-adoption-organization-project.png)
 

@@ -1,7 +1,7 @@
 ---
 title: '統合連絡先ストアを展開Skype for Business Server '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: '概要: 連絡先ストアで統合連絡先ストアを有効Skype for Business Server。'
-ms.openlocfilehash: 181c23b9dc7ab1c4361e3406a9f1f61b4bcf5057
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 459626fe40f76cc19534aaff67d1b1b39c268469
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609934"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748833"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>統合連絡先ストアを展開Skype for Business Server
  
@@ -56,7 +56,7 @@ ms.locfileid: "58609934"
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
-   次に例を示します。
+   例:
     
    ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
@@ -68,7 +68,7 @@ ms.locfileid: "58609934"
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
-   次に例を示します。
+   例:
     
    ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
@@ -139,7 +139,7 @@ ms.locfileid: "58609934"
 - ユーザーを Exchange 2013 に移行した後にユーザー データをエクスポートする場合は、移行をロールバックし、移行後に何らかの理由でデータをインポートすると、統合連絡先ストア のデータと連絡先リストが破損します。
     
 > [!IMPORTANT]
-> Exchange メールボックスを Exchange 2013 から Exchange 2010 に移動する前に、Exchange 管理者は、Skype for Business Server Skype for Business Server 管理者が最初に Exchange ユーザー連絡先を Exchange から Skype for Business Server にロールバックする必要があります。 統合連絡先ストアの連絡先を Skype for Business Server にロールバックするには、このセクションの「統合連絡先ストアの連絡先を Exchange 2013 から Skype for Business Server にロールバックするには」の手順を参照してください。 
+> Exchange メールボックスを Exchange 2013 から Exchange 2010 に移動する前に、Exchange 管理者は、Skype for Business Server 管理者が最初にSkype for Business Server2013 Exchangeからユーザーの連絡先Skype for Business Server。 統合連絡先ストアの連絡先を Skype for Business Server にロールバックするには、このセクションの「統合連絡先ストアの連絡先を Exchange 2013 から Skype for Business Server にロールバックするには」の手順を参照してください。 
   
  **ユーザーの連絡先をロールバックする方法:** Move-CsUser コマンドレットを使用してユーザーを Skype for Business Server 2015 と Lync Server 2010 の間で移動する場合 **、Move-CsUser** コマンドレットは、ユーザーを Skype for Business Server 2015 から Lync Server 2010 に移動するときに統合連絡先ストアを自動的にロールバックします。  **Move-CsUser** は統合連絡先ストア ポリシーを無効にしないので、ユーザーが 2015 年に戻った場合、統合連絡先ストアへの移行はSkype for Business Serverされます。
   

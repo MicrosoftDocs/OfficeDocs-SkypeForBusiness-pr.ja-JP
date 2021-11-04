@@ -1,7 +1,7 @@
 ---
 title: 証明書要求 (証明機関のアカウント)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: 要求を送信するために、証明機関 (CA) では、現在ログインしているユーザーとは別のユーザーの資格情報を必要とすることがあります。別のユーザーとしての証明書要求を許可するには、[証明機関に別の資格情報を指定する] チェック ボックスをオンにして、証明書を要求可能なユーザーのユーザー名または domain\username を入力します。[パスワード] ボックスに、指定したユーザーのパスワードを入力します。ユーザー名とパスワードは、実際の証明書要求に含めてではなく、証明書要求プロセスの一部としてオンライン CA に送信されます。
-ms.openlocfilehash: 7ff5c20d14e2d42688424866f2f463996aff0d8c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 013d5caa627f1fe24755a0b39d7b993cf1f47ba7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626769"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748373"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>証明書要求 (証明機関のアカウント)
  

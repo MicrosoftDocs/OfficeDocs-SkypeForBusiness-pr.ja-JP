@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server コントロール パネルの最初の実行チェックリスト
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
 description: Web ベースのSkype for Business Server管理用の Web ベースのユーザー インターフェイスであるコントロール パネルへようこそSkype for Business Server。 コントロール パネルを使用して、以前のリリースで Microsoft 管理コンソールを使用して実行された管理タスクの種類を実行できます。
-ms.openlocfilehash: 05f2882622325ed9b4bdb837811941ccb34b0401
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21f4f2f3add2ba287357243463967e93d3ebe7b4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609781"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742763"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Skype for Business Server コントロール パネルの最初の実行チェックリスト
 
@@ -38,7 +38,7 @@ Web ベースのSkype for Business Server管理用の Web ベースのユーザ�
 |**タスク**|**[コントロール パネル] グループ**|**ドキュメント**|
 |:-----|:-----|:-----|
 |トポロジにインストールしたサービスが期待通り実行されていることを確認します。  <br/> |**トポロジ** <br/> |[サービスに関する詳細の表示](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service) <br/> |
-|ユーザーがユーザーのSkype for Business Server。 必要に応じて、以前のリリースから移行する場合は、ユーザーを別のリリースにSkype for Business Server。  <br/> |**Users** <br/> |[ユーザーの管理](/previous-versions/office/lync-server-2013/lync-server-2013-user-accounts-enabled-for-lync-server) <br/> |
+|ユーザーがユーザーのSkype for Business Server。 必要に応じて、以前のリリースから移行する場合は、ユーザーを別のリリースにSkype for Business Server。  <br/> |**ユーザー** <br/> |[ユーザーの管理](/previous-versions/office/lync-server-2013/lync-server-2013-user-accounts-enabled-for-lync-server) <br/> |
 |展開または展開する場合は、エンタープライズ VoIP公衆交換電話網 (PSTN) への接続を有効にするために SIP トランク接続を構成します。  <br/> |**音声ルーティング** <br/> |[トランクと変換ルールの構成](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-trunks) <br/> |
 |サーバーを展開したエンタープライズ VoIP、ルーティングエンタープライズ VoIP確認します。  <br/> |**音声ルーティング** <br/> |[音声ルーティングのテスト](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing) <br/> |
 |アーカイブ サーバーを展開した場合は、アーカイブ ポリシーと設定が組織のコンプライアンス ニーズを満たします。  <br/> |**監視およびアーカイブ** <br/> |[アーカイブの管理](/previous-versions/office/lync-server-2013/lync-server-2013-managing-archiving) <br/> |

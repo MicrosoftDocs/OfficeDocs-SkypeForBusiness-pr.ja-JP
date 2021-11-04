@@ -1,7 +1,7 @@
 ---
 title: 統合Skype for Business Serverストアを使用するユーザーの構成
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: '概要: 連絡先と連絡先の統合連絡先ストアExchange Server構成Skype for Business Server。'
-ms.openlocfilehash: d3e83f052f866e0d87d27c94fad8c2a7f46f4db0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d75db18a799d1384a88a0b66cd1cd73d5e01c639
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620103"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765835"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>統合Skype for Business Serverストアを使用するユーザーの構成
  

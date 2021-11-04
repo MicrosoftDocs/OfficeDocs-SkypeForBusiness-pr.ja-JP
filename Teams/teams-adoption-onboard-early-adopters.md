@@ -1,7 +1,7 @@
 ---
 title: アーリー アダプターに関与してフィードバックを収集する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b62032ac94bed2c8f393e36724249abd4c9bb81
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 47c51e869e25726e73863091a88e4f7289d7693c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727786"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753868"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する
 
-早期導入プログラムに関心を示した従業員の一覧に戻る。 これらの個人の中から、自分の実験に参加する必要があるユーザーを決定Teams。 関心のあるユーザーのすべてまたは一部である可能性があります。 これらの初期プロジェクトに選択しない場合でも、引き続き連絡を取り合い、関心を持ち、今後も参加する予定です。 これらは、ビジネス利害関係者、技術チーム、上記の事前設定演習とのディスカッションに基づいて、選択したプロジェクトのオンボーディング プロセスの一部になります。 
+早期導入プログラムに関心を示した従業員の一覧に戻る。 これらの個人の中から、自分の実験に参加する必要があるユーザーを決定Teams。 関心のあるユーザーのすべてまたは一部である可能性があります。 これらの初期プロジェクトに選択しない場合でも、引き続き連絡を取り合い、関心を持ち、今後も参加する予定です。 これらは、ビジネス利害関係者、技術チーム、上記の事前設定演習とのディスカッションに基づいて選択したプロジェクトのオンボーディング プロセスの一部になります。 
 
 これらの早期導入者で次の手順を実行します。
 

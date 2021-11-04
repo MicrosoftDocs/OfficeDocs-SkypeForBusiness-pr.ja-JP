@@ -1,7 +1,7 @@
 ---
 title: CQD のユーザー サービス
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: '概要: 呼び出し品質ダッシュボードのリポジトリ API の一部である User Service について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 4a7655e7f3e9dfb846c3978786e92dbbce078083
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ac709949e9d69dbf92f9c0c185406c7d3d8d5462
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606146"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766385"
 ---
 # <a name="user-service-for-cqd"></a>CQD のユーザー サービス
  

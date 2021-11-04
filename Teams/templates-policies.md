@@ -1,7 +1,7 @@
 ---
 title: 管理センターでチーム テンプレートを管理する
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 管理センターでチーム テンプレートを管理する方法について説明します
-ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605373"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766065"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>管理センターでチーム テンプレートを管理する
 
@@ -131,7 +131,7 @@ A: いいえ、PowerShell でのテンプレートの管理はサポートされ
 
 A: いいえ、EDU のテンプレート ポリシーはサポートされていません。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [管理センターでチーム テンプレートの使用を開始する](./get-started-with-teams-templates-in-the-admin-console.md)
 

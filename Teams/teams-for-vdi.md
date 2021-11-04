@@ -1,7 +1,7 @@
 ---
 title: 仮想デスクトップ インフラストラクチャ用の Teams
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddd91c477f02e8e573c0850898a21b11586821ef
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 2461620fa70ba6bf3b3db4db613e6d5adb908ddb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605223"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753858"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "60605223"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 複数の市場プロバイダーを使用している場合は、仮想化ソリューション プロバイダーに相談して、最小要件が満たされていることを確認することをお勧めします。
   
-現在、Teams/ビデオ (AV) 最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
+現在、Teams/ビデオ (AV) 最適化を使用した VDI での認証は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
 
 ### <a name="platforms-certified-for-teams"></a>Teams 認定プラットフォーム
 
@@ -381,7 +381,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 
 ## <a name="disable-audio-and-video-settings-for-vdi"></a>VDI のオーディオとビデオの設定を無効にする
 
-TeamsVDI ポリシーは、Microsoft Teamsできます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
+TeamsVDI ポリシーは、アプリケーション モジュールMicrosoft Teamsできます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
 
 - New-CsTeamsVdiPolicy  
 - Grant-CsTeamsVdiPolicy
@@ -435,7 +435,7 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-VDI ポリシー設定が -DisableAudioVideoInCallsAndMeetings $true VDI の Teams にサインインすると、次の機能を利用できます。
+VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true VDI で Teams にサインインするユーザーは、次の機能を使用できます。
 
 - チャットから画面共有を行います。
 - 会議に参加して画面を共有する。 音声を電話に移動します。

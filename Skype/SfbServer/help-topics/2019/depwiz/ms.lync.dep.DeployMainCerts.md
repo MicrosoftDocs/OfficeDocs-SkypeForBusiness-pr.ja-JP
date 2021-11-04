@@ -1,7 +1,7 @@
 ---
 title: 証明書の要求、インストール、または割り当て
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: '手順 3: [実行] をクリックすると、証明書の要求、インストール、または割り当てによって証明書ウィザードが開始されます。 ウィザードを介して構成される証明書は、トポロジ ビルダーによって構成され、サーバーの全体管理ストアに発行される Skype for Business Server トポロジの定義に基づいて行います。 組織内のオンライン証明機関 (CA) の証明書ウィザードを正常に実行するには、コンピューターのローカル管理者グループのメンバーであるユーザーとしてコンピューターにログオンする必要があります。 コンピューターと CA が存在するドメイン内の認証済みドメイン ユーザーである必要があります。 証明書ウィザードでは、組織の CA にアクセスするための代替資格情報を指定できます。'
-ms.openlocfilehash: 63581c0a24d8bef811d77a5473326d17e404b8d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f7f99ff3fb7b35936dfeb19b1f1b82bf53e679db
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605446"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738713"
 ---
 # <a name="request-install-or-assign-certificates"></a>証明書の要求、インストール、または割り当て
  

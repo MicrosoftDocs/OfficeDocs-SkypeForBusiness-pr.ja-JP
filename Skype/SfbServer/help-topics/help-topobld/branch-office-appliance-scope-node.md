@@ -1,7 +1,7 @@
 ---
 title: ブランチ オフィス アプライアンス スコープ ノード
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 description: このノードには、完全修飾ドメイン名 (FQDN)、関連するプールとサーバー、およびこの存続可能ブランチ アプライアンスに関する復元情報が表示されます。 以下のアクションを実行できます。
-ms.openlocfilehash: a58f06b2f7f743d2d218daa31031271a7de6cf8a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d192ce72e082180904a3bee877838dd2464c6249
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582811"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747813"
 ---
 # <a name="branch-office-appliance-scope-node"></a>ブランチ オフィス アプライアンスのスコープ ノード
  

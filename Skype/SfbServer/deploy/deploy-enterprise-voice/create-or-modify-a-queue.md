@@ -1,7 +1,7 @@
 ---
 title: キューを作成または変更Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 応答グループ キューを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 8dc93e2d171b45b81527c4706b4b4bbb4f978015
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7cc079b458f4aae2748c212dd5c0bcf710142716
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611262"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765905"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>キューを作成または変更Skype for Business
  
@@ -162,7 +162,7 @@ ms.locfileid: "58611262"
     > [!NOTE]
     > 可能なアクションとその構文の詳細については [、「New-CsRgsCallAction」を参照してください](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。 
   
-    次に例を示します。
+    例:
     
    ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate

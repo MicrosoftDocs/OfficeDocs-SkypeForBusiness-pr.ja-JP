@@ -1,7 +1,7 @@
 ---
 title: 常設チャット サーバーを 2015 Skype for Business Serverトポロジに追加する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '概要: 常設チャット サーバーを 2015 年 2015 年のトポロジに追加するSkype for Business Server説明します。'
-ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607240"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753414"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>常設チャット サーバーを 2015 Skype for Business Serverトポロジに追加する
  
@@ -42,7 +42,7 @@ ms.locfileid: "58607240"
 1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカル Users グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
     
     > [!NOTE]
-    > ローカルの Users グループのメンバーであるアカウントを使用してトポロジを定義できます。 ただし、Skype for Business Server のインストールに必要なトポロジを発行するには、ドメイン管理者グループと **RTCUniversalServerAdmins** グループのメンバーであり、常設チャット サーバー ファイル ストアで使用するファイル ストアに対する完全な制御アクセス許可 (読み取り、書き込み、変更) を持つアカウント (トポロジ ビルダーが必要な DACL を構成できる) または同等の権限を持つアカウントを使用する必要があります。
+    > トポロジを定義するには、ローカル の Users グループのメンバーであるアカウントを使用しますが、Skype for Business Server のインストールに必要なトポロジを発行するには、Domain **Admins** グループと **RTCUniversalServerAdmins** グループのメンバーであり、完全な制御権限を持つアカウントを使用する必要があります (読み取り、 常設チャット サーバー ファイル ストアで使用するファイル ストア (トポロジ ビルダーが必要な DACL を構成できるよう)、または同等の権限を持つアカウントに書き込み、変更する)。
   
 2. トポロジ ビルダーを開始します。
     
@@ -109,7 +109,7 @@ ms.locfileid: "58607240"
   
 トポロジを公開する前に、常設チャット サーバー用のデータベースをインストールします。 [アクション] と [データベースのインストール] を選択して、トポロジ ビルダーを使用 **してデータベース****をインストールします**。
   
-1. 管理ツールがインストールされているSkype for Business Serverコンピューター上Skype for Business Serverコンピューターで、 Domain **Admins** グループと **RTCUniversalServerAdmins** グループの両方のメンバーであり、常設チャット サーバー ファイル ストアで使用するファイル ストアの完全な制御アクセス許可 (読み取り、書き込み、および変更) を持つアカウント (トポロジ ビルダーが必要な随意アクセス制御リスト (DACLs)) を構成できるアカウント、または同等のユーザー権限を持つアカウントを使用してログオンします。
+1. Skype for Business Server を実行しているコンピューターまたは Skype for Business Server 管理ツールがインストールされているコンピューターで、ドメイン管理者グループと **RTCUniversalServerAdmins** グループの両方のメンバーであり、ファイル ストアで使用する完全な制御権限 (読み取り、書き込み、および変更) を持つアカウントを使用してログオンします。常設チャット サーバー ファイル ストア (トポロジ ビルダーが必要な任意のアクセス制御リスト (DACLs) を構成できるよう)、または同等のユーザー権限を持つアカウント。
     
 2. トポロジ ビルダーを開始します。 ローカル **ファイルをローカルに保存する場合は、[トポロジを開** く] を選択します。
     

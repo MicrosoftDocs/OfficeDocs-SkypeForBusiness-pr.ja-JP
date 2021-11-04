@@ -1,7 +1,7 @@
 ---
 title: アーカイブ データベースを既存の展開に追加Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: '概要: このトピックでは、アーカイブ データベースを展開に追加する方法Skype for Business Serverしてください。'
-ms.openlocfilehash: 36d825ef79befa430edfd126bd9cd5a5d840b2f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7174919ef34cd77bf7da316d23808ea1cfaff7f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611326"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778937"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>アーカイブ データベースを既存の展開に追加Skype for Business Server
  
@@ -72,7 +72,7 @@ ms.locfileid: "58611326"
     
      c. 指定した SQL Server インスタンスがミラーリング関係にある場合は、[この **SQL** インスタンスがミラーリング関係にある] チェック ボックスをオンにし、[ミラー ポート番号] でポート番号を指定します。
     
-   - SQL Server ミラーリングを有効にして、SQL Server ミラーリング監視 (プライマリ SQL Server インスタンスとミラー インスタンスの正常性を検出できる 3 番目の独立した SQL Server インスタンス) を含める場合は、[SQL Serverミラーリング監視を使用して自動フェールオーバーを有効にする] チェック ボックスをオンにして、次のいずれかの操作を行います。
+   - SQL Server ミラーリングを有効にし、SQL Server ミラーリング監視 (プライマリ SQL Server インスタンスとミラー インスタンスの正常性を検出できる 3 番目の独立した SQL Server インスタンス) を含める場合は、[SQL Serverミラーリング監視を使用して自動フェールオーバーを有効にする] チェック ボックスをオンにして、次のいずれかの操作を行います。e 次の手順を実行します。
     
      a. [SQL Server **FQDN]** で、ミラーリング監視の新しいサーバーを作成するサーバーの FQDN をSQL Serverします。
     
@@ -87,7 +87,7 @@ ms.locfileid: "58611326"
 1. Skype for Business Server を実行しているコンピューター、または Skype for Business Server 管理ツールがインストールされているコンピューターで、ローカル Users グループのメンバーであるアカウント (または同等のユーザー権限を持つアカウント) を使用してログオンします。
     
     > [!NOTE]
-    > ローカルの Users グループのメンバーであるアカウントを使用してトポロジを定義できます。 ただし、サーバーをトポロジに追加するために必要なトポロジを発行するには、ドメイン管理者グループと **RTCUniversalServerAdmins** グループのメンバーであり、Skype for Business Server ファイル ストアで使用するファイル共有に対する完全な制御アクセス許可 (読み取り、書き込み、変更) を持つアカウント (トポロジ ビルダーが必要な随意アクセス制御リスト (DACLs) または同等の権限を持つアカウントを使用する必要があります。
+    > ローカル の Users グループのメンバーであるアカウントを使用してトポロジを定義できますが、トポロジを発行するには、サーバーをトポロジに追加するために必要な、Domain **Admins** グループと **RTCUniversalServerAdmins** グループのメンバーであり、完全な制御権限を持つアカウントを使用する必要があります (読み取り、 Skype for Business Server ファイル ストアに使用するファイル共有に書き込み、変更を行います (トポロジ ビルダーは、必要な任意アクセス制御リスト (DACLs) または同等の権限を持つアカウントを構成できます。
   
 2. トポロジ ビルダーを使用して、前のセクションで作成したトポロジを開きます。
     

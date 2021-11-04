@@ -1,7 +1,7 @@
 ---
 title: '[監視レポートのインストール] Skype for Business Server'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: '概要: 監視レポートを生成するサービスをインストールする方法について、Skype for Business Server。'
-ms.openlocfilehash: bda56b297f9e4f46033cb6d09c46c61f56092b4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5dd24524feecf8792f864d44e0d898166c9717e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581031"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753444"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>[監視レポートのインストール] Skype for Business Server
  
@@ -45,7 +45,7 @@ Skype for Business Server監視レポートには、会議、ピアツーピア 
 > [!NOTE]
 > 別のレポート (QoE 通話詳細サブレポート) は、Skype for Business Server。 ただし、このレポートは主に内部用であり、直接アクセスするためのものではありません。 
   
-Skype for Business Server 監視レポートをインストールするには、Skype for Business Server 展開ウィザードを使用するか、Skype for Business Server インストール ファイルに含まれる Windows PowerShell スクリプトを使用できます。 どちらの方法でレポートをインストールする場合でも、最初に次のことを確認する必要があります。
+監視レポート Skype for Business Serverをインストールするには、Skype for Business Server 展開ウィザードを使用するか、Windows PowerShell スクリプトをSkype for Business Serverインストール ファイル。 どちらの方法でレポートをインストールする場合でも、最初に次のことを確認する必要があります。
   
 - 監視データベースのユーザー アカウントにデータベースの役割を追加する権限を持っている。
     

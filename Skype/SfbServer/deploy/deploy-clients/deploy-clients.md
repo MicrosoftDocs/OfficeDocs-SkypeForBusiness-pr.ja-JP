@@ -1,6 +1,6 @@
 ---
 title: クライアントを展開Skype for Business Server
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: '概要: エンタープライズ クライアント のインストール方法の概要をSkype for Business。'
-ms.openlocfilehash: ff173a5b0579e2a25044682190376c055cc16578
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60da950c4ef330f704d45944a900e579478c558c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598221"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778927"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>クライアントを展開Skype for Business Server
  

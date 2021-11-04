@@ -1,7 +1,7 @@
 ---
 title: 監視ノードをインストールして構成する方法
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/20/2015
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 代理トランザクション用に監視ノードをインストールSkype for Business Server構成する方法。
-ms.openlocfilehash: c73958e9173040e7fb800fdb2d1fd36c7ab65ae1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aca051b005c3ec9a901c5366a7788af5e95d06f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637012"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766215"
 ---
-# <a name="learn-how-to-install-and-configure-watcher-nodes"></a>監視ノードをインストールして構成する方法の詳細
+# <a name="how-to-install-and-configure-watcher-nodes"></a>監視ノードをインストールして構成する方法
  
 **概要:** 代理トランザクションの監視ノードをインストールSkype for Business Server構成します。
   
@@ -112,7 +112,7 @@ Lync Server 2013 監視ノードは、次の点を確認するために、企業
   
 1. 監視ノード コンピューターで、[スタート] ボタン、[すべてのプログラム]、[アクセサリ] の順にクリックし、[コマンド プロンプト] を右クリックし、[管理者として実行] をクリックします。
     
-2. コンソール ウィンドウで、次のコマンドを入力し、Enter キーを押します。 Skype for Business Server セットアップ ファイルへの適切なパスを入力してください:D:\Setup.exe /BootstrapLocalMgmt コア Skype for Business Server コンポーネントが正常にインストールされていることを確認するには、[スタート] をクリックし、[すべてのプログラム]をクリックし、[Skype for Business Server **2015]** をクリックし **、[Skype for Business Server** 管理シェル] をクリックします。 [管理シェルSkype for Business Serverに、次のコマンドを入力Windows PowerShell Enter キーを押します。
+2. コンソール ウィンドウで、次のコマンドを入力し、Enter キーを押します。 Skype for Business Server セットアップ ファイルへの適切なパスを入力してください:D:\Setup.exe /BootstrapLocalMgmt コア Skype for Business Server コンポーネントが正常にインストールされていることを確認するには、[スタート] をクリックし、[すべてのプログラム]をクリックし、[Skype for Business Server **2015] をクリックします。** をクリックし、[管理 **シェルSkype for Business Server] をクリックします**。 [管理シェルSkype for Business Serverに、次のコマンドを入力Windows PowerShell Enter キーを押します。
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration

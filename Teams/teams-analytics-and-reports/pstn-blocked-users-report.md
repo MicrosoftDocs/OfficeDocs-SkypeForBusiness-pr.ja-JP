@@ -1,7 +1,7 @@
 ---
 title: Microsoft TeamsPSTN ブロックユーザー レポート
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターで PSTN ブロックユーザー
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1f703c672859c68d79a56af754dc087f68407c1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ef39298142b2cf3fcf16f1acaeba9c3a62e606e0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733096"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742983"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft TeamsPSTN ブロックユーザー レポート
 
@@ -40,7 +40,7 @@ Microsoft Teams 管理センターの左側のナビゲーションで、**[分�
 |--------|-------------|
 |**1**   |各レポートには、それが生成された日付が表示されます。通常、レポートはアクティビティの時刻から 24 から 48 時間の遅延を反映します。 |
 |**2**   |X 軸は日付です。 Y 軸はユーザー数です。 <br>特定の日付のドットにマウス ポインターを合わせると、その日付にブロックされたユーザーの数が表示されます。 |
-|**3**   |この表は、PSTN 通話をブロックしているすべてのユーザーの内訳を示しています。  このページには、電話会議または電話電話システム割り当てられているすべてのユーザーが表示され、各ユーザーに関する詳細が表示されます。 <ul><li>**表示名** はユーザーの表示名です。 表示名をクリックして、Microsoft Teams 管理センターのユーザーの設定ページに移動することができます。 </li> <li>**電話** は、ユーザーに割り当てられている番号です。</li> <li>**ブロックされる理由** は、ユーザーが呼び出しを行うのをブロックされる理由です。</li><li>**[ブロック] アクション** は、ユーザーが PSTN 通話をブロックまたはブロック解除されているかどうかを示Teams。</li> <li>**[ブロックされた時刻** ] は、ユーザーが呼び出しを行うのをブロックされた日時 (UTC) です。</li></li> </ul>表に希望する情報を表示するには、表に列を追加する必要があります。 |
+|**3**   |この表は、PSTN 通話をブロックしているすべてのユーザーの内訳を示しています。  このページには、電話会議または電話電話システム割り当てられているすべてのユーザーが表示され、各ユーザーに関する詳細が表示されます。 <ul><li>**表示名** はユーザーの表示名です。 表示名をクリックして、Microsoft Teams 管理センターのユーザーの設定ページに移動することができます。 </li> <li>**電話** は、ユーザーに割り当てられている番号です。</li> <li>**ブロックされる理由** は、ユーザーが呼び出しを行うのをブロックされる理由です。</li><li>**[ブロック] アクション** は、ユーザーが PSTN 通話を行うのをブロックまたはブロック解除されているかどうかを示Teams。</li> <li>**[ブロックされた時刻** ] は、ユーザーが呼び出しを行うのをブロックされた日時 (UTC) です。</li></li> </ul>表に希望する情報を表示するには、表に列を追加する必要があります。 |
 |**4**   |[**列の編集**] を選択して表で列を追加または削除します。|
 |**5**   |[**全画面**] を選択すると、レポートが全画面モードで表示されます。|
 

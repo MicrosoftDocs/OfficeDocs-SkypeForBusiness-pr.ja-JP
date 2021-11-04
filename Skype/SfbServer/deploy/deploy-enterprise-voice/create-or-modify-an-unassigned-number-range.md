@@ -1,7 +1,7 @@
 ---
 title: 割り当てられていない番号範囲を作成または変更Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: アナウンス アプリケーションの割り当てられていない番号範囲を作成、変更、または削除Skype for Business Server エンタープライズ VoIP。 これは、割り当てられていない番号の呼び出しの処理方法に影響します。
-ms.openlocfilehash: eb20f43729c29911cb9f45888564c8ab5a0ac739
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ad3193994d41d26546da36614baee64c2298cec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620243"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753754"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>割り当てられていない番号範囲を作成または変更Skype for Business Server
  

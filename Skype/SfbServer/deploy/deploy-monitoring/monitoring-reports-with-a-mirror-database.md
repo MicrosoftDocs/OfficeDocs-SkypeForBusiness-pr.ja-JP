@@ -1,7 +1,7 @@
 ---
 title: 監視レポートとミラー データベースの関連付けSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '概要: 監視レポートを、ユーザーが使用するミラー データベースに関連付けるSkype for Business Server。'
-ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a30a107f8a5f5df6bb11bc8c409bf7376438f619
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014401"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748853"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>監視レポートとミラー データベースの関連付けSkype for Business Server 
  
@@ -61,7 +61,7 @@ ms.locfileid: "60014401"
     
 6. 接続文字列を更新した後、[適用] を **クリックします**。
     
-7. **[CDRDB] ページ** で、[追加] リンク **Reports_Content** クリックします。 **[QMSDB]** データ ソースをクリックし、QoE データベースの接続文字列を編集します。 次に例を示します。
+7. **[CDRDB] ページ** で、[追加] リンク **Reports_Content** クリックします。 **[QMSDB]** データ ソースをクリックし、QoE データベースの接続文字列を編集します。 例:
     
     `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     

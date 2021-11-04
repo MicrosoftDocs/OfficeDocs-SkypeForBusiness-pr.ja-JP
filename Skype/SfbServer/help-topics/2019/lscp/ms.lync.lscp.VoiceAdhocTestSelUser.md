@@ -1,7 +1,7 @@
 ---
 title: エンタープライズ VoIP ユーザーの選択
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ユーザーの選択エンタープライズ VoIP] ダイアログ ボックスを使用して、ユーザーが有効になっているユーザーをエンタープライズ VoIP。 検索ボックスに、検索するユーザーの SIP アドレスまたは表示名を入力して [検索] をクリックします。 ユーザーを選択するには、検索結果の一覧でユーザーをクリックして [OK] をクリックします。 探しているユーザーが見当たらされない場合は、そのユーザーがユーザーに対して有効エンタープライズ VoIP。'
-ms.openlocfilehash: 25430def4c98cc074ca76058b54df51da9b5a758
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ec938682874589a3592e266fe6ee217453b88793
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583131"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748663"
 ---
 # <a name="select-enterprise-voice-users"></a>エンタープライズ VoIP ユーザーの選択
  

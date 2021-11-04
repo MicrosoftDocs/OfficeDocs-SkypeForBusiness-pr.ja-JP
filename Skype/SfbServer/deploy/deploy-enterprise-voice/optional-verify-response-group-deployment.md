@@ -1,7 +1,7 @@
 ---
 title: (省略可能)応答グループの展開を確認Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 応答グループの展開が成功した場合は、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: c3ac732b822d754048b8dbde96f272108958ab22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e9820a68e06c3cf9ec583c9aad2e86708583ac9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607250"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753486"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(省略可能)応答グループの展開を確認Skype for Business
  
@@ -26,7 +26,7 @@ ms.locfileid: "58607250"
   
 応答グループを構成した後、応答グループが期待通り動作するために構成を確認する必要があります。 少なくとも、次の種類のユーザーを使用して以下のシナリオを検証してください。
   
- **Users**
+ **ユーザー**
   
 - ユーザーがユーザーにSkype for Business
     

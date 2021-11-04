@@ -1,7 +1,7 @@
 ---
 title: ユーザー Teamsアドオン ライセンスを割り当てる
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,22 +13,22 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: 電話会議、通話プランTeams機能について、ユーザーにアドオン ライセンスを割り当てる電話システム説明します。
+description: 電話会議、電話会議Teams通話プランなどについて、ユーザーにアドオン ライセンスを割り当てる電話システム説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36b644f983bc24304ff35f8ada0f8628e3b99e56974a8e434345a2c9e2c3c26d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 47d5f5838b382459fe6820f210a29b4809525e18
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324786"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766125"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>ユーザー Teamsアドオン ライセンスを割り当てる
 
 アドオン ライセンスは、電話会議、電話会議Teams通話プランなどの特定の機能電話システムライセンスです。 この記事では、アドオン ライセンスを個々のユーザーと多数のユーザーに一括で割り当てる方法について説明します。
 
 > [!NOTE]
-> 追加[Teamsライセンスで使用できる](./microsoft-teams-add-on-licensing.md)Teams機能については、「追加のアドオン ライセンス」を参照してください。 また、購入する必要があるライセンスと購入方法に関する情報も表示されます。そのため、ユーザーは電話会議、無料電話番号、組織外の電話番号に通話する機能などの機能を利用できます。 ユーザーに必要な機能を決定した後、ユーザーにライセンスを割り当てる。
+> 追加[Teamsライセンスで使用できる](./microsoft-teams-add-on-licensing.md)Teams機能については、「Teamsアドオン ライセンス」を参照してください。 また、購入する必要があるライセンスと購入方法に関する情報も表示されます。そのため、ユーザーは電話会議、無料電話番号、組織外の電話番号に通話する機能などの機能を利用できます。 ユーザーに必要な機能を決定した後、ユーザーにライセンスを割り当てる。
 
 Microsoft 365 管理センター または PowerShell を使用して、組織内のユーザーにライセンスを割り当てできます。 ライセンスを管理するには、グローバル管理者またはユーザー管理管理者である必要があります。
 
@@ -36,19 +36,19 @@ Microsoft 365 管理センター または PowerShell を使用して、組織�
 
 開始する前に、次の要件を確認してください。
 
-- ハイブリッド ユーザーに対してオンプレミスの公衆交換電話網 (PSTN) 接続を使用している場合は、ネットワーク ライセンスを割り当てる電話システムがあります。 通話プランライセンスを割り当てない。
+- ハイブリッド ユーザーに対してオンプレミスの公衆交換電話網 (PSTN) 接続を使用している場合、割り当てる電話システムがあります。 通話プランライセンスを割り当てない。
 
-- Microsoft 365 と Microsoft Teams の間の待機時間のため、ライセンスを割り当てた後にユーザーに通話プランが割り当てられるまで最大 24 時間かかる場合があります。 ユーザーに 24 時間後に通話プランが割り当てられていない場合は、ビジネス製品のサポート ( 管理者向けヘルプ) にお [問い合わせください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- Microsoft 365 と Microsoft Teams の間の待ち時間のため、ライセンスを割り当てた後、ユーザーに通話プランが割り当てられるまで最大 24 時間かかる場合があります。 ユーザーに 24 時間後に通話プランが割り当てられていない場合は、ビジネス製品のサポート ( 管理者向けヘルプ) にお [問い合わせください](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - 正しい数のライセンスを購入していない場合は、エラー メッセージが表示されます。 通話プランのライセンスを追加購入する必要がある場合は、さらに購入するオプションを選択します。
 
-- ユーザーに E5 ライセンスが割り当Enterprise場合でも、PSTN から[](../what-are-communications-credits.md)通話を発信または受信する場合は、そのユーザーに通信クレジット ライセンスを割り当てる必要があります。
+- ユーザーに E5 ライセンスが割り当Enterprise場合でも、PSTN から通話[](../what-are-communications-credits.md)を発信または受信する場合は、通信クレジット ライセンスを割り当てる必要があります。
 
 - 通話プランまたはコミュニケーション クレジットライセンスをユーザーに割り当てると、組織の電話番号を取得し、その番号をユーザーに割り当てる必要があります。 詳しい手順については、「[通話プランのセットアップ](../set-up-calling-plans.md)」をご覧ください。
 
-## <a name="using-the-microsoft-365-admin-center"></a>コマンドを使用Microsoft 365 管理センター
+## <a name="using-the-microsoft-365-admin-center"></a>アプリケーションのMicrosoft 365 管理センター
 
-一度Microsoft 365 管理センターユーザーまたは小規模なユーザーにライセンスを割り当てるには、次のコマンドを使用します。 ライセンスを割り当てる **には、[ライセンス**] ページ (一度に最大 20 人のユーザー) または [アクティブ なユーザー] ページ (最大 40 人のユーザー) を割り当てる必要があります。  選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
+一度Microsoft 365 管理センターユーザーまたは小規模なユーザーにライセンスを割り当てるには、このオプションを使用します。 ライセンスの割り当ては、[**ライセンス**] ページ (一度に最大 20 人のユーザー) または [アクティブ なユーザー] ページ (一度に最大 40 人のユーザー) に割り当てる場合です。  選択する方法は、特定のユーザーの製品ライセンスを管理するか、特定の製品のユーザー ライセンスを管理するかによって異なります。
 
 詳細な手順については、「ユーザーにライセンスを割り当 [てる」を参照してください](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
@@ -63,7 +63,7 @@ PowerShell を使用して、ユーザーにライセンスを一括で割り当
 スクリプトを使用してライセンスをユーザーに割り当てる方法の例を次に示します。
 
 1. IT プロフェッショナル向けサインイン アシスタント RTW Microsoft Online Services 64 ビット [版をインストールします](/collaborate/connect-redirect?DownloadID=59185)。
-2. 次の手順にMicrosoft Azure Active Directory モジュールをインストールWindows PowerShell。
+2. 次の手順Microsoft Azure Active DirectoryモジュールをインストールWindows PowerShell。
     1. 管理者特権のコマンド Windows PowerShellを開きます (管理者としてWindows PowerShellを実行します)。
     2. 次のコマンドを実行します。
         ```powershell
@@ -110,7 +110,7 @@ PowerShell を使用して、ユーザーにライセンスを一括で割り当
         }
     ```
 
-    たとえば、1 と電話Microsoft 365 Enterpriseライセンスを割り当てるには、スクリプトで次の構文を使用します。
+    たとえば、1 と電話会議Microsoft 365 Enterprise割り当てるには、スクリプトで次の構文を使用します。
 
       ```powershell
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue

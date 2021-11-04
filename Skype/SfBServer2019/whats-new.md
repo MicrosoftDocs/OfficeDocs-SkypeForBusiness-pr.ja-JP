@@ -1,7 +1,7 @@
 ---
 title: 2019 年 2019 Skype for Business Serverの新機能|機能
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、2019 年Skype for Business Serverされています。'
-ms.openlocfilehash: b58c61702d447a7b68e9fa7e09cc6e539e682582
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c701b9397e43744f8673dfb8c6f56cac2c6d56c7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600902"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748973"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>2019 年のSkype for Business Server
 

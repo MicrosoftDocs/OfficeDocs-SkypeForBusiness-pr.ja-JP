@@ -1,7 +1,7 @@
 ---
 title: PSTN 電話会議の概要レポート (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: '概要: PSTN 電話会議の概要レポートについて説明します。Skype for Business Server。'
-ms.openlocfilehash: c1f652e6c99db1e011624ee368244795555b61f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 145207e296fb14462e204bb9c8091612ff89b7da
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591151"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754716"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>PSTN 電話会議の概要レポート (Skype for Business Server
  

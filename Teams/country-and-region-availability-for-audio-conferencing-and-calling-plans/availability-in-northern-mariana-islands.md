@@ -1,7 +1,7 @@
 ---
 title: 北マリアナ諸島の空き時間
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 北マリアナ諸島Microsoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 0924e44c075adffd61b3d3a5dd397598a576bcd2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8be7e802cb399b8e4d874fabddc4c9389fc07627
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582401"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753956"
 ---
 # <a name="availability-in-northern-mariana-islands"></a>北マリアナ諸島の空き時間
 
@@ -82,7 +82,7 @@ ms.locfileid: "58582401"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

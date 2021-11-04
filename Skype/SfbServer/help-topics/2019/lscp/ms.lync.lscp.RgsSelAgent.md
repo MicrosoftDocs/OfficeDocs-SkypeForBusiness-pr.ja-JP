@@ -1,7 +1,7 @@
 ---
 title: エージェントの選択
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: エージェントは、応答グループの呼び出しに応答するために指定されたユーザーです。 応答グループには、そのグループへの呼び出しを受信できるエージェントを示すエージェント グループが割り当てられている必要があります。 エージェント グループを作成する方法の 1 つは、適格なユーザーを選択してカスタム グループを定義することです。 対象となるユーザーは、ユーザーとSkype for Business Serverにエンタープライズ VoIP。
-ms.openlocfilehash: 0751bfc3e5b4c836a2be52f45844a0ce38cd5019
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6d1aaa217589ec2448e5a176dbe94dcf78cf5fed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579781"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778737"
 ---
 # <a name="select-agents"></a>エージェントの選択
 

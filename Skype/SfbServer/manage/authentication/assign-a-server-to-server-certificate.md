@@ -1,7 +1,7 @@
 ---
 title: サーバー間認証証明書をサーバー間認証証明書に割り当Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: '概要: サーバー間認証証明書をサーバー間認証証明書に割り当Skype for Business Server。'
-ms.openlocfilehash: 67e9b618e882a257047a4569e790d96c73bf386b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b36db3956dc801d4874a13033bba60917b7112af
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621083"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754880"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>サーバー間認証証明書をサーバー間認証証明書に割り当Skype for Business Server
 **概要:** サーバー間認証証明書を割り当Skype for Business Server。

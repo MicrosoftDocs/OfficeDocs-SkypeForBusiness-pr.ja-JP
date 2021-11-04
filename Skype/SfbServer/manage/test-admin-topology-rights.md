@@ -1,7 +1,7 @@
 ---
 title: 管理者トポロジの権限をテストSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: トポロジの権限をテストするSkype for Business Server
-ms.openlocfilehash: 7e1d7b8fe1f2b35cffd63aa8816b36946cdc500f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2da77957baaa510ef7669fb6a980de2aacf428a4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580541"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759719"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>管理者トポロジの権限をテストSkype for Business Server
 
@@ -45,19 +45,19 @@ Active Directory コンテナーに対してセットアップアクセス許可
 
 Active Directory Test-CsSetupPermissionに必要なアクセス許可が既に設定されている場合、コマンドレットは値 True を返します。
 
-正解 
+True 
 
-アクセス許可が設定されていない場合、Test-CsSetupPermission False が返されます。 通常、この値は多くの警告メッセージで囲まれます。 次に例を示します。
+アクセス許可が設定されていない場合、Test-CsSetupPermission False が返されます。 通常、この値は多くの警告メッセージで囲まれます。 例:
 
 警告: アクセス制御エントリ (ACE) atl-cs-001\RTCUniversalServerAdmins;許可する。ExtendedRight;なし。なし。1131f6aa-9c07-11d1-f79f-00c04fc2dcd2 
 
 警告: オブジェクト "CN=Computers,DC=litwareinc,DC=com" のアクセス制御エントリ (ACEs) が準備ができていません。 
 
-不正解 
+False 
 
 警告: "Test-CsSetupPermission" 処理が完了し、警告が表示されました。 "2" 警告は、この実行時に記録されました。 
 
-警告: 詳細な結果は"C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html" で確認できます。 
+警告: 詳細な結果については、「C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html」を参照してください。 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>テストが失敗した可能性がある理由
 

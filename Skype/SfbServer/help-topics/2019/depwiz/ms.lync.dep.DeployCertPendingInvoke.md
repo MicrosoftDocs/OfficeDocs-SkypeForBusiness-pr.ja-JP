@@ -1,7 +1,7 @@
 ---
 title: 保留中の証明書 (起動)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[実行コマンド] ページには、保留中の証明書を取得するコマンドの状態が表示されます。タスクが完了すると、[保留中の証明書の取得] ログ ファイルが表示可能になります。[ログの表示] をクリックして、処理およびタスクの完了状態を確認します。[次へ] をクリックして続行します。'
-ms.openlocfilehash: e23ee50958462716c77f3f1f3bf8476adea75777
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 878995a346ceb149b650c6ac974ef9c29286e47a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587787"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765781"
 ---
 # <a name="pending-certificate-invoke"></a>保留中の証明書 (起動)
  

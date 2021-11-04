@@ -1,7 +1,7 @@
 ---
 title: 2015 年に集中ログ サービスによって作成された検索キャプチャ ログSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: '概要: 2015 年に集中ログ サービス キャプチャ ログを検索して読み取るSkype for Business Serverします。'
-ms.openlocfilehash: ff33e2d680c83b9d997e2c17d8852d8bd816edbf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5a1935b5c2bfcfccd0001adab53d04f6d8a1307
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636041"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766335"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>2015 年に集中ログ サービスによって作成された検索キャプチャ ログSkype for Business Server
  
@@ -94,7 +94,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 3. 1 台のコンピューターではなくプール全体を検索する必要がある場合は、-Computers パラメーターを -Pools に変更し、コンピューター名を削除し、コンマで区切られた二重引用符で囲まれたプールまたはプールに置き換える必要があります。
     
-    次に例を示します。
+    例:
     
    ```PowerShell
    Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"

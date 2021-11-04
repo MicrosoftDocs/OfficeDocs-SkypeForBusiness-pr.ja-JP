@@ -1,7 +1,7 @@
 ---
 title: 発信者番号の変換ルールを選択
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: '[発信者番号の変換ルールを選択] ダイアログ ボックスには、展開に構成された変換ルールが表示されます。変換ルールの詳細については、次のトピックを参照してください。'
-ms.openlocfilehash: 29abcdfb2f707c607035b71c7861f72969b1acfd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: faeafc361b6471744746d6fc8cd9676afb07342e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625339"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748153"
 ---
 # <a name="select-calling-number-rules-translation"></a>発信者番号の変換ルールを選択
 

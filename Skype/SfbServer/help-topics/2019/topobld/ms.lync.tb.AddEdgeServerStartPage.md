@@ -1,7 +1,7 @@
 ---
 title: エッジ サーバーのサポートを追加する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 初期トポロジの展開時やその後に、外部ユーザー アクセスのサポートを追加できます。既存のトポロジにエッジ サーバーを追加する方法の詳細については、「エッジ サーバーの展開」のドキュメントの「Define Your Edge Topology」を参照してください。
-ms.openlocfilehash: 67b38057b3a52d7d48f0f10dbe5e1df2077577e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 68a37a5062410987b837b9f9456a74326b689d56
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619103"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748553"
 ---
 # <a name="add-edge-server-support"></a>エッジ サーバーのサポートの追加
 

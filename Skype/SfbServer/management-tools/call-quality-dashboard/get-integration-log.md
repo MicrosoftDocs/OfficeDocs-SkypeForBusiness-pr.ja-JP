@@ -1,7 +1,7 @@
 ---
 title: 統合ログの取得
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: '概要: 呼び出し品質ダッシュボードのデータ API の一部である統合ログの取得操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: c4d94497a7ed2b7ca1a9c716ede0eef466b0f1ad
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8eca61cf97cc79f34be1f6473f3223b9f2a639d4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578771"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759709"
 ---
 # <a name="get-integration-log"></a>統合ログの取得
  
@@ -33,7 +33,7 @@ ms.locfileid: "58578771"
 この操作は、セキュリティ上の理由から既定で無効になっています。 無効にすると、空の文字列が返されます。 この操作を有効にするには、管理者が Data API のホスト web アプリケーションweb.configを構成する必要があります。
   
 
-|メソッド|**要求 URI**|**HTTP バージョン**|
+|Method|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
 |GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog  <br/> |HTTP/1.1  <br/> |
    

@@ -1,7 +1,7 @@
 ---
 title: アプリケーションSkype for Business Server統合Exchange Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: '概要: 2016 年または 2016 年Exchange Server 2013 年およびExchange Serverの統合手順をSkype for Business Server。'
-ms.openlocfilehash: 44b27328252384d6c7635cee2f0c98dafdd180ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46e7380669ee93a9fa4a61511f362a809387a022
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621789"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778847"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>アプリケーションSkype for Business Server統合Exchange Server
 

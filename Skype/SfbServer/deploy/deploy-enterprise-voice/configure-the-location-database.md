@@ -1,7 +1,7 @@
 ---
 title: 場所データベースを構成Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: E9-1-1 の場所データベースを構成、設定、発行Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 0eb2fd8e09c09688cf8c8282b35328ca7eb1761b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 759dffbaf5f9370b2604534e2868cdd87933d1ef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597741"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748913"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>場所データベースを構成Skype for Business Server
  
@@ -62,7 +62,7 @@ E9-1-1 の場所データベースを構成、設定、発行Skype for Business 
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    ELIN ゲートウェイの場合は、ELIN を [CompanyName] フィールドに入力します。 複数の ELIN を含めできます。 次に例を示します。
+    ELIN ゲートウェイの場合は、ELIN を [CompanyName] フィールドに入力します。 複数の ELIN を含めできます。 例:
     
    ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US

@@ -1,7 +1,7 @@
 ---
 title: 表示限定の会議エクスペリエンス
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: HT
+ms.openlocfilehash: 6e56f1722d75c8126e8f19ac297e301dfc4e8706
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732296"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766035"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams の表示限定の会議エクスペリエンス
 
@@ -128,7 +128,7 @@ Teams の表示限定エクスペリエンスでは、参加者は次の機能�
 - 参加レポートには、表示限定の出席者は含まれません。
 - 表示限定の出席者は、1 つのビデオ機能を利用できます。 アクティブな発表者を見ること、または共有されているコンテンツの閲覧はできますが、両方はできません。
 - 現在、**ギャラリー**、 **大きなギャラリー**、または表示限定の出席者用の **Together モード** レイアウトはサポートされていません。
-- 表示限定の出席者は、次のロビー ポリシーでのみサポートされます: "自分のみ"、"所属組織内のユーザーおよびゲスト"、"所属組織内のユーザー、および信頼できるユーザーおよびゲスト"、または "すべてのユーザー" 表示限定の出席者をサポートしていないロビー ポリシーを使用している場合、表示限定の出席者は会議で拒否されます。 
+- 表示専用の出席者は、"組織内のユーザー"、"組織内のユーザーとゲスト"、"組織内のユーザー、信頼できる組織、ゲスト"、"すべてのユーザー" というロビー ポリシーでのみサポートされます。 表示限定の出席者をサポートしていないロビー ポリシーを使用している場合、表示限定の出席者は会議で拒否されます。 
 - 表示限定の出席者は、通常の出席者と同じ待機時間ではありません。<sup>1</sup>
 
   <sup>1</sup> 表示限定の出席者は、会議で 30 秒のビデオと音声の遅延が発生します。  

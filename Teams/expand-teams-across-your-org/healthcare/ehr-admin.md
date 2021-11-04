@@ -1,7 +1,7 @@
 ---
 title: 仮想アクセスのための Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Microsoft Teams を使用して仮想アクセス システムをセットアップする
-ms.openlocfilehash: a5b04befbd3c4cf5d1730432a2c5dcad97e63675
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 40772326d2767e7815a73ad9feca2e4853c762fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935853"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743043"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams での仮想アクセス - EHR への統合
 
@@ -37,7 +37,7 @@ Teams のコミュニケーションおよびコラボレーション プラッ�
 
 - 統合Teamsワークフローを使用して、プロバイダー EHR システムから仮想アクセスを開始します。
 - 患者が患者ポータル内Teams仮想訪問に参加できます。
-- 出席者が接続と切断を行い、自動監査と記録保持を有効にTeams仮想アクセスに関するメタデータを EHR システムに書き戻します。
+- 出席者が接続と切断を行い、自動監査と記録Teamsを有効にするときに記録する仮想アクセスに関するメタデータを EHR システムに書き戻します。
 
   EHR ポータルから仮想アクセスを管理する方法のビデオをご覧ください。
 
@@ -49,7 +49,7 @@ EHR コネクタを統合する前に、次の前提条件があることを確�
 
 - [Epic の App Orchard マーケットプレイス](https://apporchard.epic.com/Gallery?id=6153)で Microsoft Teams アプリを使用するためのアクセス。
 
-- Microsoft Cloud for Healthcare のアクティブなサブスクリプションまたは EHR コネクタMicrosoft Teamsプランへのサブスクリプション (実稼働テスト中にのみ適用)。
+- EHR コネクタスタンドアロン オファー医療向け Microsoft CloudまたはサブスクリプションをMicrosoft Teamsアクティブなサブスクリプション (実稼働テスト中にのみ適用)。
 
 - ユーザーは Microsoft Teams 会議が含まれている Microsoft 365 または Office 365 の適切なライセンスを所有している必要があります。
 
@@ -126,7 +126,7 @@ Epic サインインが成功したら、Epic 顧客アナリストは構成を�
 
 ## <a name="launch-teams-virtual-visits"></a>Teams の仮想アクセスを開始する
 
-EHR コネクタの手順とエピック構成を完了すると、組織はビデオアクセスをサポートする準備が整Microsoft Teams。
+EHR コネクタの手順とエピックの構成を完了すると、組織はビデオアクセスをサポートする準備が整Microsoft Teams。
 
 ### <a name="virtual-visit-prerequisites"></a>仮想アクセスの前提条件
 

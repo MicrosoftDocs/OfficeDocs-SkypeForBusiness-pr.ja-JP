@@ -1,7 +1,7 @@
 ---
 title: フロントエンド全般設定エキスパンダー
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 既存のフロントエンド プールまたは Standard Edition サーバーの設定を編集するには、以下のセクションに示す手順に従って操作します。
-ms.openlocfilehash: 2501ad035950582b67167089972c7d84f25be052
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 655ee2e4bd49e63aaeade7b0c0bfab5f244adae9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628999"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748523"
 ---
 # <a name="front-end-general-settings-expander"></a>フロント エンド全般設定エキスパンダー
 

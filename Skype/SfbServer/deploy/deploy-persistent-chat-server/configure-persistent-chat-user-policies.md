@@ -1,7 +1,7 @@
 ---
 title: 2015 年に常設チャット ユーザー ポリシーをSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: '概要: 2015 年に常設チャット サーバーの初期ユーザー ポリシーを作成する方法については、このトピックSkype for Business Serverしてください。 常設チャット ユーザー ポリシーは、ユーザーがチャット ルームにアクセスできるかどうかを決定します。'
-ms.openlocfilehash: 0cf0bb4f241e6186dcf63c3678e36e11e65b0956
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c77782ed1aeef1b7696ab7b00b5bbfcc9c00f421
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624399"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778897"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>2015 年に常設チャット ユーザー ポリシーをSkype for Business Serverする
  

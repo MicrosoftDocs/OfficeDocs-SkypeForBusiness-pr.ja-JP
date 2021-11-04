@@ -1,7 +1,7 @@
 ---
 title: サーバーでセカンダリ位置情報サービスを構成Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: E9-1-1 のセカンダリ 場所ソース (SLS) データベースを構成Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: b2db211ec9c1bc7d2459ad2dbc8cada4b87afa6e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6d42375ddc127bd19a73d64782f4f6840a373b87
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618113"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753454"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>サーバーでセカンダリ位置情報サービスを構成Skype for Business Server
  

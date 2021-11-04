@@ -1,7 +1,7 @@
 ---
 title: トポロジ ビルダーで追加のトランクを定義Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: '概要: 仲介サーバーとゲートウェイ ピアの間に追加のトランクを定義する方法については、Skype for Business Server のトポロジ ビルダーで説明します。'
-ms.openlocfilehash: 42f435079a66f7dba6c325ad8afbb1b28a3e3753
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3a1094bdc9d0f92eba5cfa1ace87f14db0011de
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585857"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748873"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>トポロジ ビルダーで追加のトランクを定義Skype for Business Server
  
@@ -62,6 +62,6 @@ ms.locfileid: "58585857"
     > [!NOTE]
     > 複数のトランク サポートを使用Skype for Business Server複数の SIP シグナリング ポートを仲介サーバーで定義して、複数のピアとの通信を行います。 トランクを定義する場合、関連する仲介 **サーバー** のポート番号は、仲介サーバーが許可するそれぞれのプロトコルのリッスン ポートの範囲内にある必要があります。 このポート範囲は、サーバー プールSkype for Business Server仲介サーバー プールで定義されます。 関連する仲介サーバー プールを右クリックし、[プロパティの編集] **を選択します**。 [**リッスン ポート**] フィールドでポート範囲を指定します。
   
-7. **[OK]** をクリックします。 
+7. [**OK**] をクリックします。 
     
 
