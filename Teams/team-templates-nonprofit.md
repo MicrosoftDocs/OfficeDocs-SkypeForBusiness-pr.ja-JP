@@ -19,13 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 07c335797b2092b42cacb8f0daa92947e7a2349a
-ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
+ms.openlocfilehash: 2f0a6218d9843c0ed99c80c517fe9986f41d79b6
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "60633557"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641347"
 ---
 # <a name="use-nonprofit-team-templates"></a>非営利団体のチーム テンプレートを使用する
 
@@ -41,7 +40,7 @@ Teams には、ボランティアの管理アクティビティを効率化す�
 
 ボランティアの管理タスクとアクティビティに関するコミュニケーションや共同作業が行えるよう、スタッフを集めます。
 
-このテンプレートには、ボランティアの管理アクティビティを効率化するように設計されたチャネルとアプリが含まれています。 スタッフは、オンボード資料や頻繁に使用されるドキュメントを整理および共有したり、レポートを表示したり、チームおよびイベントの重要な最新のアナウンスを把握したりすることなどができます。 また、このテンプレートは、Microsoft Cloud for Nonprofit を構成するアプリである "ボランティアの管理" と統合されており、これを使用することでスタッフは Teams 内でボランティア エンゲージメントの機会を管理できます。
+このテンプレートには、ボランティアの管理アクティビティを効率化するように設計されたチャネルとアプリが含まれています。 スタッフは、オンボード資料や頻繁に使用されるドキュメントを整理および共有したり、レポートを表示したり、チームおよびイベントの重要な最新のアナウンスを把握したりすることなどができます。 また、このテンプレートは、[Microsoft Cloud for Nonprofit](/industry/nonprofit/) を構成するアプリである ["ボランティアの管理"](/dynamics365/industry/nonprofit/volunteer-management-use) と統合されており、これを使用することでスタッフは Teams 内でボランティア エンゲージメントの機会を管理できます。
 
 次に、ボランティアの管理チーム テンプレートに含まれるチャネルとアプリを示します。
 
@@ -88,3 +87,4 @@ Teams でボランティアの管理アプリを使用するには、ボラン�
 ## <a name="related-articles"></a>関連記事
 
 - [Teams のヘルプ ドキュメント](https://support.microsoft.com/teams)
+- [Microsoft Cloud for Nonprofit のドキュメント](/industry/nonprofit/)
