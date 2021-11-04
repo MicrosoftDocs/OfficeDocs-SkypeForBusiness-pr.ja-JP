@@ -20,16 +20,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: e1ed56a843fc0582c903d7b8b549ab1b97eb050a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60606956"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60783174"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Teams での通話と転送
 
-このMicrosoft Teams呼び出しポリシーは、ユーザーが使用できる通話と通話の転送機能を制御します。 通話ポリシーは、ユーザーがプライベート通話の発信、他のユーザーまたは外部の電話番号への着信の転送または同時呼び出しの使用、ボイスメールへの通話のルーティング、通話グループへの呼び出しの送信、着信および発信通話に委任を使用できるかどうかを決定します。
+このMicrosoft Teams呼び出しポリシーは、ユーザーが使用できる通話と呼び出しの転送機能を制御します。 通話ポリシーは、ユーザーがプライベート通話の発信、他のユーザーまたは外部の電話番号への着信の転送または同時呼び出しの使用、ボイスメールへの通話のルーティング、通話グループへの呼び出しの送信、着信および発信通話に委任を使用できるかどうかを決定します。
 
 自動的に作成されるグローバル (組織全体の既定) ポリシーを使用するか、カスタム ポリシーを作成して割り当てできます。
 
@@ -47,7 +47,7 @@ ms.locfileid: "60606956"
 
 既存の呼び出し元ポリシーを編集するには、次の手順に従います。
 
-1. 管理センターの左側のナビゲーションで、[音声Microsoft Teams ポリシー]  >  **を選択します**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[音声通話ポリシー]  >  **を選択します**。
 2. 変更するポリシーの横にある をクリックし、[編集] を **選択します**。
 3. 必要な変更を行い、[保存] を **クリックします**。
 
@@ -97,7 +97,7 @@ ms.locfileid: "60606956"
 
 ### <a name="web-pstn-calling"></a>Web PSTN 通話
 
-この設定を使用すると、ユーザーは Web クライアントから PSTN Teams呼び出しを行います。
+この設定により、ユーザーは Web クライアントから PSTN Teams呼び出しを行います。
 
 ### <a name="incoming-meeting-invites-are-automatically-answered"></a>会議出席招待に自動的に応答する
 

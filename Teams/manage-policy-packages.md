@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams でポリシー パッケージを管理する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sekrantz, aaglick
 ms.topic: article
@@ -20,18 +20,18 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams でポリシー パッケージを使用および管理して、ユーザー グループのポリシーを管理する際の一貫性を簡素化、合理化、および提供する方法について説明します。
-ms.openlocfilehash: 3ea2a0b88b5c412cde4b4b6cbd3da6e1d7282e94
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 37e4c54dca61adacf7d573f9effd11563818bc29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60081618"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60783173"
 ---
-# <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams: ポリシー パッケージを管理する
+# <a name="manage-policy-packages-in-microsoft-teams"></a>Microsoft Teams でポリシー パッケージを管理する
 
-Microsoft Teams のポリシー パッケージは、組織内で類似の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 組織全体のユーザー グループのポリシーを管理する際に、一貫性を提供するために、ポリシー パッケージを構築しました。  
+Microsoft Teams のポリシー パッケージは、組織内で類似の役割を持つユーザーに割り当てることができる定義済みのポリシーおよびポリシー設定のコレクションです。 組織全体のユーザー のグループに対するポリシーを管理する際に、一貫性を提供するために、ポリシー パッケージを構築しました。  
 
-アプリケーションに含まれている[ポリシー パッケージをTeams](#policy-packages-included-in-teams)独自のカスタム ポリシー[パッケージを作成できます](#custom-policy-packages)。
+アプリケーションに含まれている[ポリシー パッケージを使用Teams](#policy-packages-included-in-teams)独自[のカスタム ポリシー パッケージを作成できます](#custom-policy-packages)。
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="管理センターの [ポリシー パッケージ] ページのスクリーンショット。":::
 
@@ -44,7 +44,7 @@ Microsoft Teams のポリシー パッケージは、組織内で類似の役割
 
 ポリシー パッケージを使用すると、組織Teams特定のユーザーのセットに対して許可または制限する機能を制御できます。 Teams の各ポリシー パッケージは、ユーザー ロールを中心に設計され、そのロールに一般的なコラボレーションおよび通信アクティビティをサポートする定義済みのポリシーとポリシー設定が含まれています。
 
-ポリシー パッケージは、次の種類のポリシー Teamsサポートしています。
+ポリシー パッケージでは、次の種類のポリシー Teamsサポートされています。
 
 - メッセージング ポリシー
 - 会議ポリシー
@@ -65,16 +65,16 @@ Teamsには、現在、次のポリシー パッケージが含まれていま�
 |教育 (リモート学習を使用するプライマリ スクール教師)    |小学校教師に適用する一連のポリシーを作成して、学生が最大限に安心して共同でリモート学習に集中できる環境づくりを行います。      |
 |教育 (リモート学習を使用するプライマリ スチューデント)    |小学生に適用する一連のポリシーを作成して、学生が最大限に安心して共同でリモート学習に集中できる環境づくりを行います。      |
 |Frontline Manager |一連のポリシーを作成し、組織内の Frontline マネージャーにそれらの設定を適用します。 |
-|Frontline worker |一連のポリシーを作成し、それらの設定を組織内の Frontline worker に適用します。 |
+|Frontline worker |一連のポリシーを作成し、組織内の Frontline worker にそれらの設定を適用します。 |
 |医療施設の職員  |一連のポリシーとポリシー設定を作成して、登録済看護師、担当看護師、医師、およびソーシャル ワーカーに対して、チャット、通話、シフト管理、会議へのフル アクセスを提供します。 |
 |医療情報提供者  |一連のポリシーとポリシー設定を作成して、IT 担当者、情報スタッフ、財務担当者、法令遵守責任者に対して、チャット、通話、会議へのフル アクセスを提供します。|
 |医療患者室  |貴社の医療組織の患者室に適用される一連のポリシーとポリシー設定を作成します。|
 |中小企業ユーザー (Business Voice) |ビジネス音声エクスペリエンス用のアプリを含むアプリセットアップ ポリシーを作成します。|
-|中小企業ユーザー (Business Voice なし) |ユーザー (非 Business Voice エクスペリエンス) を使用して、中小企業Teamsに関連するアプリ セットアップ ポリシーを作成します。
+|中小企業ユーザー (Business Voice なし) |ユーザー (非 Business Voice エクスペリエンス) を使用して、中Teamsに関連するアプリ セットアップ ポリシーを作成します。
 |公安責任者   |組織内の公安責任者に適用される一連のポリシーとポリシー設定を作成します。|
 
 > [!NOTE]
-> Teams の今後のリリースでポリシー パッケージを追加する予定なので、最新の情報を確認してください。  
+> Teams の将来のリリースでポリシー パッケージを追加する予定なので、最新の情報を確認してください。  
 
 ポリシー パッケージにリンクされているポリシーを容易に識別できるように、個々のポリシーにはポリシー パッケージ名が付けられます。
 たとえば、学校の教師に Education (Teacher) ポリシー パッケージを割り当てると、パッケージ内のポリシーごとに Education_Teacher という名前のポリシーが作成されます。
@@ -87,7 +87,7 @@ Teamsには、現在、次のポリシー パッケージが含まれていま�
 
 新しいカスタム ポリシー パッケージを作成するには:
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams[ポリシー パッケージ] を選択し、[追加] を **クリックします**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams ポリシー パッケージ]を選択し、[追加] を **クリックします**。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="管理センターの [ポリシー パッケージ] ページの [追加] ボタンのスクリーンショット。":::
 
@@ -128,7 +128,7 @@ Teamsには、現在、次のポリシー パッケージが含まれていま�
 
 ポリシーの設定は、[ポリシー パッケージ]ページで編集するか、管理センターのポリシー ページに直接移動Microsoft Teamsできます。
 
-1. 管理センターの左側のMicrosoft Teamsで、次のいずれかの操作を行います。
+1. 管理センターの左側のMicrosoft Teams、次のいずれかの操作を行います。
     - [ **ポリシー パッケージ]** をクリックし、パッケージ名の左側をクリックしてポリシー パッケージを選択します。
     - ポリシーの種類をクリックします。  たとえば、[メッセージング ポリシー **] をクリックします**。
 
