@@ -1,7 +1,7 @@
 ---
 title: 教師ありチャットを非教育機関向けテナントに使用する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -14,13 +14,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 非教育機関向けテナント向け教師ありチャットについて学習し、Microsoft Teamsします。
-ms.openlocfilehash: f7e0ad99f50e8d0089aa6edf122458f429792aba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 会議中の非教育テナント向け教師ありチャットについてMicrosoft Teamsします。
+ms.openlocfilehash: d56a41e3c168aea1d5454fb38ae2aac0c033fe64
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586499"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745483"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>非教育機関向けテナント向け教師ありチャット
 
@@ -54,7 +54,7 @@ ms.locfileid: "58586499"
 
 ## <a name="allow-supervised-chat"></a>監視ありチャットを許可する
 
-監視ありチャットは、テナントに対して既定で無効になっています。 ユーザーのチャットアクセス許可ロールを設定した後、組織全体の設定 Teams 設定 に移動し、[ロールベースのチャットアクセス許可ポリシー] を [オン] に設定することで、テナント内で教師ありチャットを  >  有効 **にできます**。  また、PowerShell を使用して、AllowRoleBasedChatPermissions を True に設定することにより、監視ありチャットを有効にすることもできます。 このコマンドレットは [CsTeamsClientConfiguration の下に置かされています](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)。
+監視ありチャットは、テナントに対して既定で無効になっています。 ユーザーのチャットアクセス許可ロールを設定した後、組織全体の設定 Teams 設定 に移動し、[ロールベースのチャットアクセス許可ポリシー] を [オン] に設定することで、テナント内で教師ありチャットを有効  >  **にできます**。 また、PowerShell を使用して、AllowRoleBasedChatPermissions を True に設定することにより、監視ありチャットを有効にすることもできます。 このコマンドレットは [CsTeamsClientConfiguration の下に置かされています](/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)。
 
 監視ありチャットは、テナント内のすべてのユーザーに対して有効にする必要があり、一部のユーザーに対してのみ有効にすることはできません。
 

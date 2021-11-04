@@ -1,7 +1,7 @@
 ---
 title: 電話の番号管理
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ノルウェーの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 5daf1b16c1704f487279904056bad3a1a2768c4b
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: eafc5ae311d9c021c62a47c17482a3f6cc32229f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732678"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745573"
 ---
 # <a name="phone-number-management-for-norway"></a>電話の番号管理
 

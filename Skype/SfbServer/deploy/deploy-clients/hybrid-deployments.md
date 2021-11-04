@@ -1,6 +1,6 @@
 ---
 title: SkypeRoom System ハイブリッド展開
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: ハイブリッド環境にルーム システムをSkypeする方法については、このトピックを参照してください。
-ms.openlocfilehash: b5a512871a60a502d1e2f5e981593291149d3361
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c47809fcf5277ed34f11955b19306e6a4078d650
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598191"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751356"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>SkypeRoom System ハイブリッド展開
 
@@ -60,6 +60,6 @@ ms.locfileid: "58598191"
    ```
 
 > [!NOTE]
-> 上記のシナリオで Skype for Business Server の代わりに Skype for Business Online を使用している場合は、Exchange リソース メールボックスをプロビジョニングした後、Skype for Business アカウントをプロビジョニングします (「Skype for Business Online Provisioning」を参照)。 
+> 上記のシナリオで Skype for Business Server の代わりに Skype for Business Online を使用している場合は、Exchange リソース メールボックスをプロビジョニングした後、Skype for Business アカウントを準備します (Skype for Businessオンライン プロビジョニング。 
   
 

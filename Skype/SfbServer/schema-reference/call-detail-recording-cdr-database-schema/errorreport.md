@@ -1,7 +1,7 @@
 ---
 title: ErrorReport テーブル in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: ErrorReport テーブルには、発生したエラーに関する情報が格納されます。 各レコードは 1 つのエラー発生です。 このエラーは、フロントエンド サーバーで実行されている CDR エージェントによってキャプチャされます。またはクライアントから送信されます。
-ms.openlocfilehash: d2fccd6f1f99884e9d4412cb9814f24d581248a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd74743ed0b9dcd2fb9bb4cfa651f840528cb58c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634181"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745773"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>ErrorReport テーブル in Skype for Business Server 2015
  

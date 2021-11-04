@@ -1,7 +1,7 @@
 ---
 title: CQD の開発サンプル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: '概要: 通話品質ダッシュボードのチュートリアルと開発サンプルを確認します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ba49af8e8ce79b87c57d761a47b54b6574f3a7f5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727516"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751716"
 ---
 # <a name="cqd-development-samples"></a>CQD の開発サンプル
 
@@ -122,9 +122,9 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
    c. type (QoEDataService の場合、RunQuery は 'POST' 要求のみを受け入れる)。
 
-   d.  async (AJAX 呼び出しが同期か非同期かを示すフラグ)。
+   d. async (AJAX 呼び出しが同期か非同期かを示すフラグ)。
 
-   e.  contentType ("application/json" である必要があります)。
+   e. contentType ("application/json" である必要があります)。
 
    f. 成功 (AJAX 呼び出しが正常に終了した場合の呼び出し戻し関数)。
 

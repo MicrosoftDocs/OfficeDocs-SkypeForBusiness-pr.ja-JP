@@ -1,7 +1,7 @@
 ---
 title: クライアント ブートストラップ ポリシーの構成
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: '概要: グループ ポリシーを管理する方法。'
-ms.openlocfilehash: 3fccd578b18686ea6c9ce1a5686042f5c25c4f54
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0cf5dedc464dfbfb542d41cbf0477011cd1fbfd4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578151"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751386"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>クライアント ブートストラップ ポリシーの構成
  
@@ -51,10 +51,10 @@ ms.locfileid: "58578151"
 
 |**Precedence**|**設定の場所と方法**|
 |:-----|:-----|
-|1   <br/> |Skype for Business Serverインバンド プロビジョニング  <br/> |
-|2   <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|3   <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
-|4   <br/> |[オプション] ダイアログ ボックス (Skype for Business  <br/> |
+|1  <br/> |Skype for Business Serverインバンド プロビジョニング  <br/> |
+|2  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|3  <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|4  <br/> |[オプション] ダイアログ ボックス (Skype for Business  <br/> |
    
 ### <a name="to-define-group-policy-settings-by-using-the-skype-for-business-administrative-template-files"></a>管理用テンプレート ファイルを使用してグループ Skype for Business設定を定義するには
 

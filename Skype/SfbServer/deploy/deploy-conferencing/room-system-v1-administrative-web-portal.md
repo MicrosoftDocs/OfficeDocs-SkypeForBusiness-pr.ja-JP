@@ -1,7 +1,7 @@
 ---
 title: SRS v1 管理 Web ポータルをサーバーに展開Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype for Business Server Skype会議室システム v1 (SRS v1、以前は Lync Room System と呼ばれる) 管理 Web ポータルは、組織が会議室システムの会議室を維持するために使用Skype Web ポータルです。 管理者は、SRS v1 管理 Web ポータルを使用して、オーディオ/ビデオ デバイスの監視など、デバイスの正常性を監視できます。 このポータルを使用すると、管理者はリモートで診断情報を収集して会議室の正常性を監視できます。
-ms.openlocfilehash: 0b52657d33b4da97266a635b53459ed21fd4a944
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aa59b142ee7147772af3c13a7e9bf4dffbbc520c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729116"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751346"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>SRS v1 管理 Web ポータルをサーバーに展開Skype for Business Server
 
@@ -172,7 +172,7 @@ SRS v1 管理 Web ポータルのインストールを確認するには、次�
 
 ポータルの [会議室情報] セクションでは、個々の SRS ルームを表示および構成できます。 このセクションには、設定、ログ、正常性の 4 つのセクションがあります。
 
-#### <a name="settings"></a>設定
+#### <a name="settings"></a>Settings
 
 [設定] セクションでは、ルームのパスワード、ルーム タグ、および既定のボリューム レベルを設定できます。 これらの設定を構成した場合、変更は SRS コンソールを再起動した後にのみレプリケートされます。 リリース 15.12 以降を使用している SRS デバイスのシステム更新プログラムの設定だけが表示されます。
 

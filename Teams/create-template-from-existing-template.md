@@ -1,7 +1,7 @@
 ---
 title: 既存のチーム テンプレートから新しいテンプレートを作成Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56af8756282a4d2cc40ebf33a620855785c67306
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 095596684c52615340efa32e7dcfd78eb3e9e823
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588219"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745593"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>既存のチーム テンプレートから新しいチーム テンプレートを作成Microsoft Teams
 
@@ -41,7 +41,7 @@ Microsoft Teamsは、特定の組織のニーズに合わせて保存および�
 
 (または、[追加] を **選択できます。**  > **既存のテンプレートから始め、** 開始点として使用するテンプレートを **選択します**)。
 
-![[既存のテンプレートで開始] が強調表示されている [チーム テンプレートの開始点] 画面の画像。](media/template-start-existing-template.png)
+![[既存のテンプレートを開始] が強調表示されている [チーム テンプレートの開始点] 画面の画像。](media/template-start-existing-template.png)
 
 5. [開始 **点として使用するテンプレートの選択] 画面で、[次** へ] を **選択します**。
 

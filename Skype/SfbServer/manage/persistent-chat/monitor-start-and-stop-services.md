@@ -1,7 +1,7 @@
 ---
 title: 2015 年の常設チャット サービスの監視、開始、および停止Skype for Business Server。
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: '概要: 2015 年に常設チャット サービスを開始、停止、監視するSkype for Business Serverします。'
-ms.openlocfilehash: 3bc40e0e338cb2ef30b417482185121b26b8cd34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2b2c964659b3de5045d414736bc5c1e5ddadd28
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580551"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766485"
 ---
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>2015 年の常設チャット サービスの監視、開始、および停止Skype for Business Server。
  
@@ -26,7 +26,7 @@ ms.locfileid: "58580551"
   
 常設チャット サービスと常設チャット コンプライアンス サービスは Skype for Business Server トポロジの一部であるため、次のコマンドレットを使用して監視、停止、および開始できます。
   
-|コマンドレット|関数|
+|コマンドレット|職務|
 |:-----|:-----|
 |get-CsWindowsService  <br/> |サービスとして実行される 2015 Skype for Business Serverの詳細な情報をWindowsします。  <br/> |
 |start-CsWindowsService  <br/> |サービスを開始します。  <br/> |

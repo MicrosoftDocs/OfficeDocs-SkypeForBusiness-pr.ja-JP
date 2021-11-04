@@ -1,7 +1,7 @@
 ---
 title: 非標準ユーザーに対する Teams アプリの動作
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882fda0be339c8f9869c5b83fbeff3e97d5892ee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ad7f7c5f92a5bbde4e8a01d8616305bbf06f980
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619403"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745543"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>非標準ユーザーに対する Microsoft Teams アプリの動作
 
@@ -63,7 +63,7 @@ ms.locfileid: "58619403"
 
 ### <a name="install-update-and-delete-for-external-users"></a>外部ユーザーのインストール、更新、および削除
 
-外部ユーザーは、個人、チャット、チャネル、会議などのコンテキストにアプリをインストール、更新、または削除することはできません。 ホスティング組織のアプリ ストアTeamsアクセス権を持つユーザーはアクセスできない。
+外部ユーザーは、個人、チャット、チャネル、会議などのコンテキストにアプリをインストール、更新、または削除することはできません。 ホスティング組織のアプリ ストアTeamsアクセス権を持つユーザーはいます。
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部ユーザーの使用行動とポリシー
 
@@ -84,6 +84,6 @@ ms.locfileid: "58619403"
 
 匿名ユーザーは、ユーザー レベルのグローバル既定権限ポリシーを継承します。 ユーザー レベルのアクセス許可ポリシーでアプリが有効になっている場合は、Teams 会議でアプリを操作できます。 匿名ユーザーは、会議ですでに利用可能なアプリのみを操作でき、これらのアプリを取得または管理できないことに注意してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Microsoft Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)

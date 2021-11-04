@@ -1,7 +1,7 @@
 ---
 title: 会議を管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: '概要: 会議を管理する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 8f91e6c7e87c5e7a2032e6c3eb9d6b220ec3da51
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef1afdecaec5ae237020b1681d95b556a37e2ab8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636071"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751776"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>会議を管理Skype for Business Server
  

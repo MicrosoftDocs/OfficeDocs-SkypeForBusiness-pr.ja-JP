@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の導入段階 3 - 規模
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86de4726585f067235c578353a30e0f5ad86574d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: acf0e51436aaad905c1713af7f6131be08b9e704
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733726"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745453"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams の導入段階 3 - 規模
 
-このフェーズでは、学習、有能なプロジェクト チーム、関係者、チャンピオン、早期採用者との関係を利用して、組織の Teams の広範なスケールの有効化をサポートします。 組織でのビジネス 契約の継続的な使用に備える場合は、次の手順をMicrosoft Teams。
+このフェーズでは、学習、有能なプロジェクト チーム、および関係者、チャンピオン、早期採用者との関係を使用して、組織の Teams の広範なスケールの有効化をサポートします。 組織でのサービスの使用に関する継続的なビジネス エンゲージメントの準備を行う場合は、次の手順をMicrosoft Teams。
 
 1. 結果と成功の対策を定義します。
 2. サービス戦略を選択します。

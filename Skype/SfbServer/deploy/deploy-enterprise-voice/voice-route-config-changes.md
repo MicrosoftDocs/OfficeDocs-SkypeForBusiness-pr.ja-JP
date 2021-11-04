@@ -1,7 +1,7 @@
 ---
 title: 音声ルーティング構成に保留中の変更を公開Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: '概要: [コントロール パネル] コントロール パネルを使用して、Skype for Business Serverの音声ルーティング構成の変更を確認、発行、または取り消Skype for Business Server説明します。'
-ms.openlocfilehash: 2873520be0b5f7709fb493912be18afa807884c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf859dd7ed31a9a08fcba18af1b65cd1f34e8d16
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583191"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764855"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>音声ルーティング構成に保留中の変更を公開Skype for Business
  

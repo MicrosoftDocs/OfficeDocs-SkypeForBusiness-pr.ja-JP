@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の導入段階 2 - 実験
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9cd56875378d7e38660fd1dfd7a4228e7ce5a7e8
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 177ce9d4ee32f1cb620482acfdbf12086e5b5966
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726746"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745463"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams の導入段階 2 - 実験
 
-これで、組織に関する重要な情報を持つプロジェクト チームと重要な情報が用意され、新しいプロジェクトをTeams。 積極的な関係を持ち、組織に十分な数の早期採用者がいて、意味のあるフィードバックを提供できる関係者が主導する、グループ内の 2 ~ 3 つの現実世界のプロジェクトを実験することをお勧めします。 組織の規模が大きいか小規模かに関係ない場合は、このフェーズを完了して、Teams がチャット機能やファイル ストレージ機能を使用する以外に、どのようにコラボレーションを改善できるのかを把握することをお勧めします。  
+これで、組織に関する重要な情報を持つプロジェクト チームと重要な情報が用意され、新しいプロジェクトをTeams。 積極的な関係を持ち、組織に十分な数の早期採用者がいて、意味のあるフィードバックを提供できる関係者が主導する、グループ内の 2 ~ 3 つの現実世界のプロジェクトを実験することをお勧めします。 組織の規模が大きいか小さいかに関係ない場合は、このフェーズを完了して、Teams がチャット機能やファイル ストレージ機能を使用する以外にコラボレーションを改善する方法を理解することをお勧めします。  
 
 このフェーズでは、次の手順を実行します。
 

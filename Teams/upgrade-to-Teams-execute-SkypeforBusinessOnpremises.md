@@ -1,7 +1,7 @@
 ---
 title: Skype for Business オンプレミスから Teams にアップグレードする
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8d8b104354e442116dd908b686bc5e1d18f22d2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 584243197f15b746a0fa5638fbba3141e93f34bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731156"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777137"
 ---
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>オンプレミスのデプロイSkype for BusinessからデプロイにアップグレードTeams
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>オンプレミスのデプロイSkype for BusinessからオンプレミスデプロイにアップグレードTeams
 
-![デプロイと実装のステージに重点を置いたアップグレード体験のステージ。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
+![「展開と実装」段階が強調表示された、アップグレード行程の各段階。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
 この記事は、アップグレード体験のデプロイと実装のステージの一部です。 先に進む前に、次のアクティビティを完了していることを確認してください。
 
@@ -68,4 +68,4 @@ Skype for Business または Microsoft Lync をオンプレミスに展開し、
 
 通話プランを使用していない場合は、アップグレードの一環として、エンタープライズ音声展開を 電話システム 直接ルーティングに移行する必要Teams。
 
-詳細については、「ダイレクト ルーティング[」の追加の考慮事項電話システム参照してください](./direct-routing-landing-page.md)。 通話プランを使用する予定の場合は、電話番号を通話プランに移行する場合のガイダンス[をTeams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+詳細については、「ダイレクト ルーティング」[の追加の考慮事項電話システム参照してください](./direct-routing-landing-page.md)。 通話プランを使用する予定の場合は、電話番号を通話プランに移行する場合のガイダンス[をTeams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

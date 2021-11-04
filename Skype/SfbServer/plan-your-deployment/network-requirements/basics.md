@@ -1,7 +1,7 @@
 ---
 title: DNS の基本
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 DNS サービスを提供できるソフトウェアが組み込まれています。そのため、DNS ポリシー シナリオ ガイドなどの使用可能なドキュメントを確認できます。 必要に応じて、サード パーティ製のソリューションを選択できます。
-ms.openlocfilehash: 2ee4ee73a6cb85ac51785a47e4f0ec86d581b809
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe5c38aa22f87e9096d9c887c387938e1cf66ab3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602342"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765235"
 ---
 # <a name="dns-basics"></a>DNS の基本
  

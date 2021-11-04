@@ -1,7 +1,7 @@
 ---
 title: 場所ポリシー [新規の作成] または [既存の編集]
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: 場所ポリシーを構成して、拡張 9-1-1 (E9-1-1) が有効になっているかどうか、その使用方法、およびユーザーと連絡先の位置情報の使用方法を決定できます。
-ms.openlocfilehash: 15fd372a7597ce73c3246cbbd1aca867f39dc34e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f45fefbd13d20e5bdbef2500b17a394f544aad1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590461"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764645"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>場所ポリシー: 新規作成または現在の形式のままで編集
 

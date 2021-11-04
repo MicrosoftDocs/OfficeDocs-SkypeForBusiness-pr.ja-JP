@@ -1,6 +1,6 @@
 ---
 title: Skype 会議アプリの最小ネットワーク要件
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: '概要: 組織がホストする会議にMicrosoft 365またはOffice 365する必要がある組織の情報。'
-ms.openlocfilehash: 29b9103d741440a480be27e9d4268d6cc8d94c47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d27e578e448c44cd13190d4aedf1e15f611d997
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615613"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751576"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 会議アプリの最小ネットワーク要件
  

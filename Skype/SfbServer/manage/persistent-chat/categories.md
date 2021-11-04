@@ -1,7 +1,7 @@
 ---
 title: 2015 年の常設チャット サーバーでSkype for Business Serverする
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: '概要: 常設チャット サーバー のカテゴリを 2015 年に管理するSkype for Business Serverします。'
-ms.openlocfilehash: a69d8ec3119f9f94f9f5c864ec0e0d2d613b0e20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e9892f032d5af24d1394fddc6965ead6e769472e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622219"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776197"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバーでSkype for Business Serverする
  

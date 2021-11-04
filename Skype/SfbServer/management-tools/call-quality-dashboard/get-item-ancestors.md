@@ -1,7 +1,7 @@
 ---
 title: アイテムの親の取得
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
 description: '概要: アイテム サービスの一部であるアイテムの先祖の取得操作について学習します。 Item Service は、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: f6977d1519b487003460e8d4eb5300fe4d98e84f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 96fae0992ed6952d36ff966a559ef74da76e2606
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633621"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765345"
 ---
 # <a name="get-item-ancestors"></a>アイテムの親の取得
  

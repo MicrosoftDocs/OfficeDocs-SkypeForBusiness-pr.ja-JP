@@ -1,7 +1,7 @@
 ---
 title: ハイブリッド環境のサーバー間認証Skype for Business Server構成する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: '概要: ハイブリッド環境のサーバー間認証Skype for Business Server構成します。'
-ms.openlocfilehash: 1da99f335e5d26523bb29ef6e11251019e2020c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcec1e982af0c5ad778a83fe6af9b58fbd44c7e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587199"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746073"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>ハイブリッド環境のサーバー間認証Skype for Business Server構成します。
 
@@ -79,7 +79,7 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 
 
 
-Microsoft 365 または Office 365 を構成し、Skype for Business Server および Exchange 2013 の Microsoft 365 または Office 365 サービス プリンシパルを作成した後、これらのサービス プリンシパルに資格情報を登録する必要があります。 これを行うには、まず、 として保存された X.509 Base64 証明書を取得する必要があります。CER ファイル。 この証明書は、サービス プリンシパルまたはサービス Microsoft 365 Office 365されます。
+Microsoft 365 または Office 365 を構成し、Skype for Business Server および Exchange 2013 の Microsoft 365 または Office 365 サービス プリンシパルを作成した後、資格情報を登録する必要があります。これらのサービス プリンシパルを使用します。 これを行うには、まず、 として保存された X.509 Base64 証明書を取得する必要があります。CER ファイル。 この証明書は、サービス プリンシパルまたはサービス Microsoft 365 Office 365されます。
 
 X.509 証明書を取得した後、PowerShell コンソールを開き、サービス プリンシパルの管理に使用できるコマンドレットを含む Microsoft Online Windows PowerShell モジュールをインポートします。
 

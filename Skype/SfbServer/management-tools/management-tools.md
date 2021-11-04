@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server 2015 管理ツール
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: '概要: 2015 年のサービス管理ツールSkype for Business Serverします。'
-ms.openlocfilehash: 775f8221fe29cc306e0bcdef5855652c47681c76
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 89adf7ab2ad71441abf765de75537eec43b8ce17
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014971"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776177"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Skype for Business Server 2015 管理ツール
  
@@ -29,7 +29,7 @@ Skype for Business Server 2015 コミュニケーション ソフトウェア (�
   
 ## <a name="skype-for-business-server-2015-tools"></a>Skype for Business Server 2015 ツール
 
-|&nbsp;|Content|説明|
+|&nbsp;|コンテンツ|説明|
 |:-----|:-----|:-----|
 ||[Microsoft Call Quality Methodology Scorecard, v1.5](https://go.microsoft.com/fwlink/p/?LinkId=615208) (.zipダウンロード) <br/> [CQM ポスター (Skype for Business](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [Lync 2013 の CQM ポスター](https://go.microsoft.com/fwlink/p/?LinkId=391841)  |Lync Server および 2015 の Microsoft Call Quality Methodology (CQM) スコアカードの更新Skype for Business Serverしました。 CQM スコアカードを使用して、ネットワーク ガイドで概説されているメソッドに基づいて、通話品質を体系的に定義およびアサートする全体的な方法である通話品質手法を実装できます。 CQM は、Lync/Skype for Business実装を品質に影響する 10 個の個別の領域に分割し、ターゲットを定義し、それぞれの修復計画を定義します。 CQM は、通話品質の問題に取り組むためのフレームワークです。ネットワーク上の特定の条件に対処するために変更または拡張できます。  <br/> CQM ポスターは、エンタープライズ音声機能を含む Lync/Skype for Business 実装の通話品質とユーザー エクスペリエンスに影響を与える問題を見つけて排除するのに役立つ、CQM、Lync および Skype for Business の通話品質方法について学ぶのに役立ちます。  <br/>**注:** これらのツールは、2019 年Skype for Business Serverされません。 |
 |![ダッシュボード アイコン。](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[通話品質ダッシュボード](./call-quality-dashboard/call-quality-dashboard.md)  |通話品質ダッシュボード (CQD) は、Skype for Business または Lync 環境の QoE (Quality of Experience) データに基づいてレポートを迅速に作成および整理するための Web ポータルです。 CQD は SSAS キューブを展開して QoEMetrics データベース内のデータを集計します。これにより、ユーザーはレポートを作成および変更し、リアルタイムで更新を確認できます。 さらに、CQD は、ユーザーがカスタム ダッシュボードで使用するためにキューブ データにプログラムでアクセスできる Web API を公開します。   |

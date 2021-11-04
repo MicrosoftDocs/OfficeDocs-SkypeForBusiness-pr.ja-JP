@@ -1,7 +1,7 @@
 ---
 title: セントクリストファー・ネイビスの空き時間情報
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: セントクリストファー Microsoft 365ネOffice 365、Skype for BusinessおよびMicrosoft Teamsサービスの一覧を次に示します。
-ms.openlocfilehash: 7c3bf480c8d705f94b681e7b939724b8caa8d290
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: acb4b5f60248f1a881a8ecb2f392c20b4a389f08
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618553"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745633"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>セントクリストファー・ネイビスの空き時間情報
 
@@ -82,7 +82,7 @@ ms.locfileid: "58618553"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

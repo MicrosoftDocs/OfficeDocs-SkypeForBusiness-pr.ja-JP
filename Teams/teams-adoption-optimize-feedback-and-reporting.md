@@ -1,7 +1,7 @@
 ---
-title: フィードバックとレポートを最適化して導入Microsoft Teamsする
+title: フィードバックとレポートを最適化し、Microsoft Teamsする
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8aaee7a8c0b649150f93ea2a4a86a5130b80456f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 136e6a2b2155a7215b468f1c2309b54db7914605
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732686"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745493"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Microsoft Teams の導入についてのフィードバックとレポートを最適化する
 
@@ -34,17 +34,17 @@ ms.locfileid: "58732686"
 
 ## <a name="incorporating-feedback"></a>フィードバックの組み込み 
 
-実験フェーズを通じて、ユーザーがどのように製品とそのエクスペリエンスを使用したのかについての情報を取得します。 この情報を今すぐ使用して、事業単位全体で使用を拡大する計画に合わせて、意識とトレーニング プログラムを調整します。 一般的な質問の例を次に示します。
+実験フェーズを通じて、ユーザーがどのように製品とそのエクスペリエンスを使用したのかについての情報を取得します。 この情報を今すぐ使用して、ビジネス ユニット全体で使用を拡大する予定の場合に、意識とトレーニング プログラムを調整します。 一般的な質問の例を次に示します。
 
 - この新しいツールを既存のテクノロジと共に使用する場合
 - Whoツールの使用が承認されている場合は、
 - 機密性の高い情報は安全ですか? 
-- Whoについて詳しくは、お話しMicrosoft Teams。
+- Whoについて詳しくは、お話Microsoft Teams。
 - 何かが機能しない。 ヘルプを受ける方法
 
 ## <a name="invest-in-your-champions"></a>チャンピオンに投資する
 
-ビジネス グループの使用量を拡大する準備をMicrosoft Teams、展開する各事業単位またはグループに追加のチャンピオンを採用します。 これらの熱望的な人々をサービス トレーニング プログラムに登録し、その人と会う方法と時間を標準化します。
+ビジネス グループの使用量を拡大する準備をMicrosoft Teams、展開する各事業単位またはグループに追加のチャンピオンを採用します。 これらの熱望的な人々をサービス トレーニング プログラムに登録し、会う方法と時間を標準化します。
  
 チャンピオン プログラムでは、従業員が何を受け取り、チャンピオンになったら何を期待されるのかを明確に設計してください。 一般的なプログラム要件は、これらの新しいエクスペリエンスへの移行をサポートするために、スケジュールされたオフィス時間、毎月のコミュニティ呼び出しへの参加、内部オンライン コミュニティへの参加です。  
 
@@ -57,7 +57,7 @@ ms.locfileid: "58732686"
 デプロイおよび導入時に確認する必要があるレポートには、次の 3 種類Microsoft Teams。
 
 - [サービス正常性](https://status.office365.com/)– Microsoft 365、Office 365、および社内 IT サポート部門から。
-- [Microsoft 365 センターの [](/microsoft-365/admin/activity-reports/activity-reports)レポート] - 管理センターの [Microsoft 365] または [Office 365] Microsoft 365から 、ユーザー アクティビティ Microsoft Teams[表示します](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 組織内の他のシステムからの情報を使用することもできます。
+- [Microsoft 365 センター](/microsoft-365/admin/activity-reports/activity-reports)の [レポート] - 管理センターの [Microsoft 365] または [Office 365] Microsoft 365 レポートの表示 - Microsoft Teams[アクティビティを表示します](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 組織内の他のシステムからの情報を使用することもできます。
 - サービスの満足度 – 内部コミュニティ フォーラムと特定のエクスペリエンスに関するアンケートから収集
 
 ![次のステップを表すアイコン。](media/teams-adoption-next-icon.png) 次へ: [認識を高め、トレーニングを実装する](teams-adoption-drive-awareness.md)

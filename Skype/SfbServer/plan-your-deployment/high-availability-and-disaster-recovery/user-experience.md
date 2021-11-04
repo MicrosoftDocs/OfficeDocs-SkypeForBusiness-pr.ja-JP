@@ -1,7 +1,7 @@
 ---
 title: プールの障害時のユーザー エクスペリエンスSkype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: フロントエンド プールが障害復旧中に障害復旧中に失敗した場合に発生するユーザーのSkype for Business Server。
-ms.openlocfilehash: b207fd34bc5eaaf2e02addc8040dc262709b2853
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 568f0bce49379e10da8e64ca1eb4507b9319d250
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609234"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744163"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>プールの障害時のユーザー エクスペリエンスSkype for Business Server
  
@@ -54,8 +54,8 @@ Location Information Server データベースはバックアップ プールに
 |影響を受けないユーザーによって開催された進行中の会議  <br/> |会議は続行され、影響を受けるユーザーは会議にとどまることができます。影響を受けるユーザーが実行できるのは、復元モードで実行可能な機能に制限されます。  <br/> |会議は続行され、影響を受けるユーザーは会議にとどまることができます。すべてのモダリティは、ユーザーが復元モードでなくなった後に動作します。  <br/> |
 |会議の予定のスケジュールまたは変更、臨時会議の作成  <br/> |ユーザーが復元モードの間は実行できません。  <br/> |すべてのモダリティで利用可能です。  <br/> |
 |同じプールの他のユーザーによって確認されるプレゼンス  <br/> |ユーザーが復元モードでバックアップ プールにサインインしている間、プレゼンスは不明です。  <br/> |ユーザーが最後に設定したプレゼンス状態が表示されます。プレゼンスの変更が反映されるようになります。  <br/> |
-|連絡先リストとアドレス帳サービスの可用性  <br/> |該当なし  <br/> |Available  <br/> |
-|すべてのピアツーピア セッションおよびモダリティ  <br/> |Available  <br/> |Available  <br/> |
+|連絡先リストとアドレス帳サービスの可用性  <br/> |該当なし  <br/> |使用可能  <br/> |
+|すべてのピアツーピア セッションおよびモダリティ  <br/> |使用可能  <br/> |使用可能  <br/> |
    
 **別のプールのフェールバック中に影響を受けないプールに所属するユーザーのユーザー エクスペリエンス**
 
@@ -64,6 +64,6 @@ Location Information Server データベースはバックアップ プールに
 |影響を受けるユーザーのプレゼンスの表示  <br/> |影響を受けるユーザーが最後に設定したプレゼンス状態が表示されます。  <br/> |動作しています。影響を受けないユーザーには、影響を受けるユーザーによる更新が見えます。  <br/> |
 |影響を受けるユーザーによって開催中の会議  <br/> |会議のすべてのモダリティが終了されます。  <br/> |すべてのモダリティが機能するようになります。すべての参加者は、クリックによって会議に再度参加する必要があります。  <br/> |
 |影響を受けないユーザーによって開催された進行中の会議  <br/> |会議は続行されます。影響を受けないユーザーは会議に留まることができ、すべてのモダリティが機能します。  <br/> |会議は続行されます。影響を受けないユーザーは会議に留まることができ、すべてのモダリティが機能します。  <br/> |
-|すべてのピアツーピア セッションおよびモダリティ  <br/> |Available  <br/> |Available  <br/> |
+|すべてのピアツーピア セッションおよびモダリティ  <br/> |使用可能  <br/> |使用可能  <br/> |
    
 

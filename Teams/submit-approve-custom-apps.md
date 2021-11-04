@@ -1,7 +1,7 @@
 ---
 title: Teams アプリ申請 API を使用してカスタム アプリを送信および承認する
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -16,31 +16,31 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Teams App Submission API を使用して送信されるカスタム アプリを承認する方法について説明Microsoft Teams。
-ms.openlocfilehash: f6db8ca129835fca2ab3ad58fc341c0bef8b110e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Microsoft Teams で Teams App Submission API を使用して送信されるカスタム アプリを承認する方法について説明します。
+ms.openlocfilehash: ff115ab34c30bf2acfc7f24407045c1d44c4eade
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731046"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745513"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Teams App Submission API を使用して送信されたカスタム アプリを発行する
 
 ## <a name="overview"></a>概要
 
 > [!NOTE]
-> カスタム アプリを発行Teams、組織のアプリ ストア内のユーザーが使用できます。 カスタム アプリを発行する方法と使用する方法は、アプリの取得方法によって異なります。 この記事では、開発者がアプリ提出 API を使用して送信するカスタム アプリを承認して発行するTeams **を中心に説明します**。 カスタム アプリをアップロードするもう 1 つの方法は、開発者がアプリ パッケージをカスタム 形式で.zipされます。 その方法の詳細については、「アプリ パッケージをアップロードして <a href="/microsoftteams/upload-custom-apps" target="_blank">カスタム アプリを発行する」を参照してください</a>。 承認アプリ ウィジェットは、他のテナントGCCできません。 
+> カスタム アプリを発行Teams、組織のアプリ ストア内のユーザーが使用できます。 カスタム アプリを発行する方法と使用する方法は、アプリの取得方法によって異なります。 この記事では、開発者がアプリ提出 API を使用して送信するカスタム アプリを承認して発行するTeams **を中心に説明します**。 カスタム アプリをアップロードするもう 1 つの方法は、開発者がアプリ パッケージをカスタム 形式で.zipされます。 その方法の詳細については、「アプリ パッケージをアップロードして <a href="/microsoftteams/upload-custom-apps" target="_blank">カスタム アプリを発行する」を参照してください</a>。 承認アプリ ウィジェットは、テナントGCCできません。 
 
 > [!IMPORTANT]
-> この方法は現在、一部の環境ではGCCできません。 カスタム アプリ メソッドの *アップロードを使用する必要* があります。
+> この方法は現在、一部の環境GCCできません。 カスタム アプリ メソッドの *アップロードを使用する必要* があります。
 
-この記事では、開発からデプロイ、検出まで、Teamsアプリを使用する方法について、エンド to エンドのガイダンスを提供します。 Teams がアプリのライフサイクル全体にわたって提供する接続エクスペリエンスの概要を取得して、組織のアプリ ストアでカスタム アプリを開発、デプロイ、管理する方法を合理化します。
+この記事では、開発からデプロイ、検出まで、Teams アプリを使用する方法について、エンド to エンドのガイダンスを提供します。 Teams がアプリのライフサイクル全体にわたって提供する接続エクスペリエンスの概要を確認し、組織のアプリ ストアでカスタム アプリを開発、デプロイ、管理する方法を合理化します。
 
-ライフサイクルの各手順について説明します。たとえば、開発者が Teams App Submission API を使用してカスタム アプリを Microsoft Teams 管理センターに直接送信してレビューと承認を行う方法、組織内のユーザー向けのアプリを管理するためのポリシーを設定する方法、ユーザーが Teams でアプリを検出する方法などについて説明します。
+開発者が Teams App Submission API を使用してカスタム アプリを Microsoft Teams 管理センターに直接送信してレビューと承認を行う方法、組織内のユーザー向けのアプリを管理するためのポリシーを設定する方法、Teams でユーザーがアプリを検出する方法など、ライフサイクルの各ステップについて説明します。
 
 ![開発からデプロイまで、アプリの概要。](media/custom-app-lifecycle.png)
 
-このガイダンスでは、アプリのTeamsに焦点を当て、管理者と IT のプロを対象にしています。 アプリの開発については、Teams 開発者向けドキュメント<a href="/microsoftteams/platform" target="_blank">Teams参照してください</a>。
+このガイダンスでは、アプリのTeamsに焦点を当て、管理者と IT のプロを対象にしています。 アプリの開発の詳細についてはTeams開発者向けドキュメント<a href="/microsoftteams/platform" target="_blank">をTeams参照してください</a>。
 
 ## <a name="develop"></a>開発
 
@@ -50,9 +50,9 @@ ms.locfileid: "58731046"
 
 ### <a name="submit-the-app"></a>アプリを送信する
 
-アプリを実稼働環境で使用する準備ができたら、開発者は[Graph API、Visual Studio Code](/graph/api/teamsapp-publish)などの統合された開発環境 (IDE)、または Power Apps や Power Virtual Agents などのプラットフォームから呼び出し可能な Teams アプリ送信 API を使用してアプリを送信できます。 これにより、管理者は Microsoft Teams 管理<a href="/microsoftteams/manage-apps" target="_blank"></a>センターの [アプリの管理] ページでアプリを利用できます。このページでは、管理者がアプリを確認して承認できます。
+アプリを実稼働環境で使用する準備ができたら、開発者は[、Graph API、Visual Studio Code](/graph/api/teamsapp-publish)などの統合された開発環境 (IDE)、または Power Apps や Power Virtual Agents などのプラットフォームから呼び出し可能な Teams アプリ送信 API を使用してアプリを送信できます。 これにより、管理者は Microsoft Teams 管理<a href="/microsoftteams/manage-apps" target="_blank"></a>センターの [アプリの管理] ページでアプリを利用できます。このページでは、管理者がアプリを確認および承認できます。
 
-<a href="/graph/api/teamsapp-publish" target="_blank">Microsoft Graph</a>上に構築された Teams App Submission API を使用すると、組織は選択したプラットフォーム上で開発し、Teams 上のカスタム アプリの提出から承認へのプロセスを自動化できます。
+<a href="/graph/api/teamsapp-publish" target="_blank">Microsoft Graph</a>上に構築された Teams App Submission API を使用すると、組織は選択したプラットフォームで開発し、Teams 上のカスタム アプリの提出から承認へのプロセスを自動化できます。
 
 このアプリの提出手順の例を次に示します。この手順は次Visual Studio Code。
 
@@ -66,7 +66,7 @@ Graph API を使用してアプリを送信する方法の詳細については�
 
 Microsoft Teams <a href="/microsoftteams/manage-apps" target="_blank"></a>管理センターの [アプリの管理] ページ (左側のナビゲーションの [Teams **アプリ** の管理] に移動すると、組織のすべての Teams アプリが  >  表示されます。 ページ **の上部にある** [承認待ち] ウィジェットでは、カスタム アプリが承認のためにいつ送信されたのか確認できます。
 
-この表では、新しく送信されたアプリの発行状態が [**送信** 済み] と [状態] が [ブロック]**に** 自動的 **に表示されます**。 [発行状態] **列を降** 順で並べ替え、アプリをすばやく見つける。
+この表では、新しく送信されたアプリの発行状態が [**送信** 済み] と [状態] が [ブロック]**に** 自動的 **に表示されます**。 [発行の状態 **] 列を** 降順で並べ替え、アプリをすばやく見つける。
 
 ![発行状態。](media/custom-app-lifecycle-validate-app.png)
 
@@ -95,7 +95,7 @@ Graph API を使用して発行の状態を確認する方法の詳細につい�
 
 既定では、ユーザーが組織のアプリ ストアにアクセスしてアプリを参照または検索する必要があるアプリを見つける場合。 ユーザーがアプリに簡単にアクセスするには、アプリをアプリ バーのアプリ バーにピン留Teams。 これを行うには、アプリセットアップ ポリシーを作成し、ユーザーに割り当てる必要があります。 詳細については、「<a href="/microsoftteams/teams-app-setup-policies" target="_blank">Teams でアプリの設定ポリシーを管理する</a>」を参照してください。
 
-### <a name="search-the-audit-log-for-teams-app-events"></a>アプリ イベントの監査ログTeams検索する
+### <a name="search-the-audit-log-for-teams-app-events"></a>監査ログでアプリ イベントTeams検索する
 
 監査ログを検索して、組織内のTeamsアクティビティを表示できます。 監査ログを検索する方法と、監査ログに記録されている Teams アクティビティの一覧を表示する方法の詳細については、「Teams でイベントの監査ログを検索する」<a href="/microsoftteams/audit-log-events" target="_blank">を参照してください</a>。
 
@@ -130,15 +130,15 @@ Graph API を使用して発行の状態を確認する方法の詳細につい�
 次の注意が必要です。
 
 - アプリが承認されると、誰でもアプリに更新を送信できます。 つまり、アプリを最初に送信した開発者を含む他の開発者は、アプリに更新プログラムを送信できます。
-- 開発者がアプリを送信し、要求が保留中の場合、同じ開発者だけがアプリに更新を送信できます。 他の開発者は、アプリが承認された後にのみ更新を送信できます。
+- 開発者がアプリを送信し、要求が保留中の場合、同じ開発者だけがアプリに更新を送信できます。 他の開発者は、アプリが承認された後にのみ更新プログラムを送信できます。
 
 Graph API を使用してアプリを更新する方法の詳細については、こちらを参照<a href="/graph/api/teamsapp-update">してください</a>。
 
 ## <a name="related-topics"></a>関連項目
 
 - [アプリ パッケージをアップロードしてカスタム アプリを発行する](upload-custom-apps.md)
-- [管理センターでアプリMicrosoft Teamsする](manage-apps.md)
+- [管理センターでアプリMicrosoft Teams管理する](manage-apps.md)
 - [Teams のカスタム アプリのポリシーと設定を管理する](teams-custom-app-policies-and-settings.md)
 - [Teams のアプリのアクセス許可ポリシーを管理する](teams-app-permission-policies.md)
 - [Teams のアプリのセットアップ ポリシーを管理する](teams-app-setup-policies.md)
-- <a href="/graph/api/resources/teamsapp" target="_blank">Microsoft Graph アプリ用 Teams API</a>
+- <a href="/graph/api/resources/teamsapp" target="_blank">Microsoft Graph API for Teams アプリ</a>

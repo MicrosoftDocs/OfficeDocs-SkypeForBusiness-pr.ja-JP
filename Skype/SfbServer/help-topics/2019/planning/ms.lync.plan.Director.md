@@ -1,7 +1,7 @@
 ---
 title: ディレクター (計画ツール)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: ディレクターは、ユーザー要求を認証Skype for Business Server、ユーザー アカウントは含めない通信ソフトウェアを実行しているサーバーです。
-ms.openlocfilehash: 26a6e7e0807f29622214d733b1d848180a3e437c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8aa280fec1d7b3d57edd0027ebad4cbdb909827
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597141"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750906"
 ---
 # <a name="director-planning-tool"></a>ディレクター (計画ツール)
  

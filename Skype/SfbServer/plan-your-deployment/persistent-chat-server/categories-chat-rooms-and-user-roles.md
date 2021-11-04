@@ -1,7 +1,7 @@
 ---
 title: 2015 年の永続的なチャット カテゴリ、チャット ルーム、およびユーザー Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: '概要: このトピックでは、2015 年の常設チャット サーバーのカテゴリ、チャット ルーム、ユーザーと管理者の役割についてSkype for Business Serverしてください。'
-ms.openlocfilehash: e3740702f43ae677ef451049bfce2a4497a0b992
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c468092016fae578e3c96987fed88b37db9d1c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615563"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765215"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>2015 年の永続的なチャット カテゴリ、チャット ルーム、およびユーザー Skype for Business Server
  

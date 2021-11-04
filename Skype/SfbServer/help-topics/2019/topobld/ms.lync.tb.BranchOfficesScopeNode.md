@@ -1,7 +1,7 @@
 ---
 title: ブランチ オフィスのスコープ ノード
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ブランチ サイト] ノードには、この中央サイトに関連付けられたブランチ サイトが一覧表示されます。以下のアクションを実行できます。'
-ms.openlocfilehash: c3d241eba7b8994b1ac4867f85cbaf45f7e70448
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3966b9f5e1a7d525bc67899a0757a1d0af76bf92
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624159"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776757"
 ---
 # <a name="branch-offices-scope-node"></a>ブランチ オフィスのスコープ ノード
  

@@ -1,7 +1,7 @@
 ---
 title: エッジ サーバーの内部 IP を追加する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 description: 内部 IP アドレスは、エッジ サーバーの内部インターフェイスの IP アドレスです。
-ms.openlocfilehash: 760445683092fb1ac5d40aa3e7ca9668b0ed63e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1966052f0dbd59c38c9910b4c0adc2da2ff76b72
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578963"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776387"
 ---
 # <a name="add-edge-server-internal-ip"></a>エッジ サーバー内部 IP の追加
 

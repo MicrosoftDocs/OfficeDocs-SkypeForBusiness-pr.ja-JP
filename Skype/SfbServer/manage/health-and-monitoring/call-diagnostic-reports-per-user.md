@@ -1,7 +1,7 @@
 ---
 title: ユーザーごとの診断レポートの呼び出し (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: '概要: ユーザーごとの通話診断レポートについて説明します。Skype for Business Server。'
-ms.openlocfilehash: c8caf074022514cca1792cedf60f77fae0506dfb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bb9adb37b37ea06627ba5f678d32b5bdcb50b00
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623669"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766495"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>ユーザーごとの診断レポートの呼び出し (Skype for Business Server
   
@@ -47,7 +47,7 @@ Ken.my
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>ユーザー アクティビティ レポートを最大限活用する
 
-ユーザー アクティビティ レポートには、多くの良質な情報が含まれていますが、この情報は見つけにくい場合があります。 たとえば、指定した期間中に組織内で実行されるすべてのユーザー アクティビティは、ユーザー アクティビティ レポートに含まれます。つまり、レポート内には、Skype for Business Server を何らかの方法で実際に使用したユーザーに関する情報が埋め込まれます。
+ユーザー アクティビティ レポートには有用な情報が多数含まれますが、場合によっては、その情報を見つけるのが難しいことがあります。たとえば、ユーザー アクティビティ レポートには、指定した期間に組織で行われたすべてのユーザー アクティビティが含まれます。つまり、実際に何らかの形で Skype for Business Server を使用したユーザーに関する情報がレポートに埋もれてしまいます。
 
 > [!NOTE]
 > 技術的には、ユーザー アクティビティの一部を記録されないようにすることも可能です。なぜなら、Skype for Business Server は、すべての通話を保存することになっていますが、この通話情報をデータベースに記録することなく通話することが可能だからです。 Skype for Business Server は、極めて正確に提供するよう設計されていますが、その使用方法を必ずしも完全に注視する必要はありません。 (すべての通話が 100% 記録されることが保証されない事実は、Skype for Business Server の監視を課金システムとして使用することはできない理由を説明します。) 次に、表示される監視レポートは、1,000 件のみです。 これは、ユーザー アクティビティの量と作業時間によっては、データベースに実際に格納されたデータの一部がクエリでは返されない場合があることを意味します。 
@@ -58,13 +58,13 @@ Ken.my
 
 - 通話数が最も多いユーザーが、最も多くのインスタント メッセージング セッションに参加しているユーザーでもあるかどうか。
 
-このような情報を確認するには、監視レポートで取得されたデータを Excel スプレッドシートにエクスポートします。 次に、そのスプレッドシート/コンマ区切り値ファイルを使用して、ユーザー アクティビティ レポートのようなやり方でデータを分析します。 たとえば、レポートデータを Excel にエクスポートしてから、コンマ区切り値ファイルにエクスポートするとします。 この時点で、次のようなコマンドを使用することで、データを .CSV ファイルから Windows PowerShell にインポートできます。
+このような情報を確認するには、監視レポートで取得されたデータを Excel スプレッドシートにエクスポートします。次に、そのスプレッドシート/コンマ区切り値ファイルを使用して、ユーザー アクティビティ レポートのようなやり方でデータを分析します。たとえば、レポートデータを Excel にエクスポートしてから、コンマ区切り値ファイルにエクスポートするとします。この時点で、次のようなコマンドを使用して、データを CSV ファイルから Windows PowerShell にインポートできます。
 
 ```PowerShell
 $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 ```
 
-データがインポートされたら、簡単な Windows PowerShell コマンドを使用して質問に回答する場合に役立てることができます。 たとえば、次のコマンドは、少なくとも 1 つのセッションで "呼び出し元" ユーザーとしての役割を果たす一意のユーザーの一覧を返します。
+データがインポートされたら、簡単な Windows PowerShell コマンドを使用して、情報を確認できます。たとえば、次のコマンドは、少なくとも 1 つのセッションで "呼び出し元" ユーザーとしての役割を果たす一意のユーザーの一覧を返します。
 
 ```PowerShell
 $x | Group-Object "From user" | Select Name | Sort-Object Name

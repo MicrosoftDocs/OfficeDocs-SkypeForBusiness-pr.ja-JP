@@ -1,7 +1,7 @@
 ---
 title: フロントエンド サーバー VoIP コンポーネント (Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
 description: 翻訳サービスやエンタープライズ VoIPルーティング コンポーネントなど、Skype for Business Server フロントエンド サーバー上にあるさまざまなコンポーネントについて説明します。
-ms.openlocfilehash: d3baa24366b36d1962c1102b4c25c1745a4ea625
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb57e3c4d06ff77661453321a7b4f3254c780822
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585021"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751566"
 ---
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>フロントエンド サーバー VoIP コンポーネント (Skype for Business Server
 

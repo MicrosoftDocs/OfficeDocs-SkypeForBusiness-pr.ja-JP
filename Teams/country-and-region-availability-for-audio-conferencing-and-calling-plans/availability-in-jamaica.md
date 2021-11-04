@@ -1,7 +1,7 @@
 ---
 title: ジャマイカでの空き時間情報
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、Microsoft 365とOffice 365、Skype for Business Microsoft Teamsサービスです。
-ms.openlocfilehash: 5a1ad442ad23aaf6fea64b9822feba536339c679
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecac9baf800bd588d295fd686c14ca748183f407
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607684"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745683"
 ---
 # <a name="availability-in-jamaica"></a>ジャマイカでの空き時間情報
 
@@ -82,7 +82,7 @@ ms.locfileid: "58607684"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

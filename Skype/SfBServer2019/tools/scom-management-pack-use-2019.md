@@ -1,7 +1,7 @@
 ---
 title: SCOM Skype for Business Serverパックを使用して 2019 年を管理する
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/26/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: Skype for Business Server 2019 年 2019 年のインフラストラクチャを構成して、System Centerします。'
-ms.openlocfilehash: a58b98790b955953d916b26276e8579fb7989028
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 69954c7568702e4e3d6e9618bdd7e37243c61ef6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011591"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751496"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>SCOM Skype for Business Serverパックを使用して 2019 年を管理する
  
@@ -129,7 +129,7 @@ Skype for Business Server 2019 管理パックは、代理トランザクショ�
 |1   |登録 (ユーザー ログイン)   |利用可能な Lync Server 2010 以降   |
 |2   |アドレス帳サービス (ファイルのダウンロード)   |利用可能な Lync Server 2010 以降   |
 |3   |アドレス帳 Web クエリ   |利用可能な Lync Server 2010 以降   |
-|4    |プレゼンス   |利用可能な Lync Server 2010 以降   |
+|4   |プレゼンス   |利用可能な Lync Server 2010 以降   |
 |5   |統合連絡先ストア   |利用可能な Lync Server 2013 以降   |
    
 **ピアツーピア サービスでサポートされる代理トランザクション**

@@ -1,7 +1,7 @@
 ---
 title: オンラインサーバーとSkype for BusinessサーバーのExchange統合
 ms.reviewer: cbland
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/2/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: オンプレミスとオンラインの間Exchange OAuth 認証をSkype for Businessすると、「機能のサポート」でSkype for BusinessおよびExchange統合機能を有効にします。
-ms.openlocfilehash: 8adb5209a00d1b42dc57f9de8635ade40966f9f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e811a7feb713e2c356acdeba5461a212bfff17e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621779"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764775"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>オンラインとサーバー間の統合と OAuth Skype for Business構成Exchange Server 
 
@@ -99,7 +99,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 [System.IO.File]::WriteAllBytes($CertFile, $certBytes)
 ```
 
-組織Exchange PowerShell で、Exchange作成した PowerShell スクリプトを実行します。 たとえば、次の.\ExportAuthCert.ps1
+組織Exchange PowerShell で、Exchange作成した PowerShell スクリプトを実行します。 たとえば、.\ExportAuthCert.ps1
 
 ### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>手順 5: アップロード認証証明書を ACS にAzure Active Directoryする
 
@@ -126,7 +126,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 3. 直前の手順で作成した PowerShell スクリプトを実行します。 例:  `.\UploadAuthCert.ps1`
 
-4. スクリプトを起動した後に、[資格情報] ダイアログ ボックスが表示されます。 Microsoft Online Azure 組織のテナント管理者アカウントの資格情報ADします。 スクリプトの実行後、Azure AD 用 Windows PowerShell セッションを開いたままにします。 これは、次のステップで PowerShell スクリプトを実行するために使用します。
+4. スクリプトを起動した後に、[資格情報] ダイアログ ボックスが表示されます。 組織の Microsoft Online 管理者アカウントの資格情報をAzure ADします。 スクリプトの実行後、Azure AD 用 Windows PowerShell セッションを開いたままにします。 これは、次のステップで PowerShell スクリプトを実行するために使用します。
 
 ### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>手順 6: 証明書がサービス プリンシパルにアップロードSkype for Businessする
 1. PowerShell が開いて認証され、Azure Active Directoryを実行します。
@@ -152,6 +152,6 @@ OAuth が正常に使用されたことを確認する場合は、何を期待�
 
 セットアップの例 [を次](/archive/blogs/kaevans/updated-fiddler-oauth-inspector)に示しますが、このプロセスを実行するには、任意のネットワーク トレース ツールを使用できます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Exchange と Exchange Online 組織の間の OAuth 認証を構成する](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

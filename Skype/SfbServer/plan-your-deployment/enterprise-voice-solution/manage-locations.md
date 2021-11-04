@@ -1,7 +1,7 @@
 ---
 title: SIP トランク サービス プロバイダーの場所を管理Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: SIP トランキング プロバイダーを使用した E9-1-1 展開の場所情報データベースまたは同様の外部データベースを計画するために必要なSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: add2bc3ffea29d6fb61db84b899d3e39ef50fd02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bc74933623f1a435288246ac695c9545c8606d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602432"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751546"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>SIP トランク サービス プロバイダーの場所を管理Skype for Business Server
 

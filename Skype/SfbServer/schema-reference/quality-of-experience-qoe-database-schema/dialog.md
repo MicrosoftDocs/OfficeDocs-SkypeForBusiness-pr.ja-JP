@@ -1,7 +1,7 @@
 ---
 title: ダイアログ テーブル
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 description: Dialog テーブルはサポート テーブルです。各レコードは、1 つのセッション開始プロトコル (SIP) ダイアログを表します。
-ms.openlocfilehash: 0310845ada3b86346ccc6b410a5c7539b16689f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bccc053855ae88bc453aeef27d13732166cc6760
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603726"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765045"
 ---
 # <a name="dialog-table"></a>ダイアログ テーブル
  

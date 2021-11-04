@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server仲介コロケーション計画ツール
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 既定では、仲介サーバーはフロント エンド サーバーと同じ場所に表示されます。 また、パフォーマンス上の理由から、または SIP トランキングを展開する場合は、スタンドアロン プールに展開できます。その場合は、スタンドアロン プールが推奨されます。 Lync Server 2013 Skype for Business Serverと同じ機能を使用して、コロケーションが機能します。
-ms.openlocfilehash: 7d1ceaa5faab15b4fc945b160445d184272a6a72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25174be6952f6339f95ae2460532b0e930442235
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617923"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744343"
 ---
 # <a name="skype-for-business-server-mediation-collocation-planning-tool"></a>Skype for Business Server仲介コロケーション計画ツール
  
