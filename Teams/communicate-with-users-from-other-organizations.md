@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 外部アクセス (フェデレーション) とゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
-ms.openlocfilehash: 8b4665c17559f94152279e86a82bb44c3c73f016
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 63077f500f1cf4953abf200913d39c37846eb4e5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729866"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763075"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする
 
@@ -49,7 +49,7 @@ Teams、Skype for Business (オンラインまたはオンプレミス)、Skype 
 
 ## <a name="guest-access"></a>ゲスト アクセス
 
-ゲスト アクセスを使用して、チャット、通話、会議、およびファイル上での共同作業が可能な、組織外のユーザーをチームに追加します。 ゲストには、ネイティブ チーム メンバーとほぼ同じ Teams 機能を使用できるように設定できます。
+ゲスト アクセスを使用して、チャット、通話、会議、およびファイル上での共同作業が可能な、組織外のユーザーをチームに追加します。 ゲストには、ネイティブ チーム メンバーとほぼ同じ Teams 機能を使用できるように設定できます。 詳細については、[Teamsのゲスト エクスペリエンス](guest-experience.md)を参照してください。
 
 ゲストは組織の Azure Active Directory に B2B ユーザーとして追加され、ゲスト アカウントを使用して Teams にサインインする必要があります。 つまり、ゲストがお客様の組織にサインインするには、ゲスト自身の組織からサインアウトする必要がある場合があります。
 
