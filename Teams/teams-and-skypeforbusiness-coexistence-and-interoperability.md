@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69a197d75f3b229f32117e7923a390691e8c4fa5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f76fa8a527de5cc56d6ae1d2f6a657bf702d9b35
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727386"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824676"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Microsoft Teams と Skype for Business の共存と相互運用性を理解する
 
@@ -49,16 +49,16 @@ ms.locfileid: "58727386"
 
 次のセクションでは、Teams へのアップグレードを決定するときに使用できる共存モードと、各モードが提供する機能について説明します。 さらに、Skype-for-Business クライアントのユーザーと Teams クライアントのユーザーの間で発生する相互運用性、および選択した共存モードによって相互運用性がどのように影響を受けるかについても説明します。
 
- Teams では、共同作業の機能だけでなく、チャット、通話、会議の機能を提供しています。 選択する Teams の展開方法によっては、これらの機能が、特定のユーザーに対して Skype for Business で提供される機能と重複する場合があります。 既定のモードでは、Teams は Skype for Business と並列に、機能が重複して実行されます。 ただし、ユーザーにはいくつかある共存モード (アップグレード モードとも呼ばます) のいずれかを割り当てることができます。共存モードは、モードが割り当てられたユーザーに対して機能が重複しないよう作られており、その場合には Teams と Skype for Business の相互運用性を利用できます。 たとえば、複雑なエンタープライズ VoIP の展開と共に、多くの Skype for Business Server のオンプレミスの資産を持っているものの、ユーザーが最新の会議をできるだけ早く利用できるようにしたい場合には、代替パスとして [Meetings First](meetings-first.md) を評価することができます。
+Teams では、共同作業の機能だけでなく、チャット、通話、会議の機能を提供しています。 選択する Teams の展開方法によっては、これらの機能が、特定のユーザーに対して Skype for Business で提供される機能と重複する場合があります。 既定のモードでは、Teams は Skype for Business と並列に、機能が重複して実行されます。 ただし、ユーザーにはいくつかある共存モード (アップグレード モードとも呼ばます) のいずれかを割り当てることができます。共存モードは、モードが割り当てられたユーザーに対して機能が重複しないよう作られており、その場合には Teams と Skype for Business の相互運用性を利用できます。 たとえば、複雑なエンタープライズ VoIP の展開と共に、多くの Skype for Business Server のオンプレミスの資産を持っているものの、ユーザーが最新の会議をできるだけ早く利用できるようにしたい場合には、代替パスとして [Meetings First](meetings-first.md) を評価することができます。
 
 どのパスが組織に一番適しているかを判断するために、以下の共存モードを確認することをお勧めします。
 
 > [!Important]
-> 共存モードは、2021 年 7 月 31 日に Skype for Business Online が提供を開始した後も引き続き存在しますが、Skype for Business Server のオンプレミス デプロイを使用している組織にのみ関連します。 提供終了の直前に、オンプレミスデプロイに参加しているユーザーには、TeamsOnly 以外の任意のモードを割り当てることができます。 ただし、Skype for Business Online の提供がSkype for Business、クラウドにホームされているユーザーは TeamsOnly に限定されます。
+> 共存モードは、Skype for Business Online の提供終了後も引き続き存在しますが、オンラインに自宅にいたユーザーは TeamsOnly のモードのみを使用できます。 TeamsOnly 以外のモードをオンラインで自宅のユーザーに割り当てなくなりました。  Skype for Business Online の提供終了前と同様に、オンプレミスに自宅にいたユーザーには、TeamsOnly 以外の任意のモード *を割り当てることができます*。
 
 ### <a name="islands-mode"></a>アイランド モード
 
-既定では、ユーザーは、類似した重なり合う機能を提供する 2 つの別個のソリューションとして、Teams と Skype for Business を並列で実行できます。 プレゼンス、チャット、通話、会議などの機能を利用できます。 Teams ユーザーは、チームとチャネル、Microsoft 365 または Office 365 のファイルへのアクセス、アプリケーションなどの新しい共同作業の機能を利用することもできます。
+既定では、ユーザーは、類似した重なり合う機能を提供する 2 つの別個のソリューションとして、Teams と Skype for Business を並列で実行できます。 プレゼンス、チャット、通話、会議などの機能を利用できます。 Teamsユーザーは、チームやチャネルなどの新しいコラボレーション機能、アプリケーション内のファイルへのアクセスMicrosoft 365利用することもできます。
 
 「**アイランド**」と呼ばれるこの共存モードでは、各クライアント アプリケーションが別個のアイランド (島) として動作します。 Skype for Business は Skype for Business とやり取りし、Teams は Teams とやり取りします。 ユーザーは、両方のクライアントを常時実行することが想定されており、コミュニケーションを開始したクライアントでネイティブにコミュニケーションできます。 そのため、[**アイランド**] モードでは、相互運用性は必要ありません。
 
@@ -73,9 +73,6 @@ Skype for Business が混乱したり、エクスペリエンスが低下した�
 
 > [!Important]
 > [**アイランド**] モードでは、フェデレーション ユーザー (組織外のユーザー) からのすべてのメッセージと通話は、Skype for Business に配信されます。 [**Teams のみ**] モードにアップグレードすると、組織の外部からのすべてのメッセージと通話が Teams に配信されます。
-
-> [!Tip]
-> Skype for Business Online を使用中のお客様の場合、最初は既定の [**アイランド**] モードを使用し、組織内で Teams の導入完了を図り、その後、迅速に [**Teams のみ**] モードに移行することをお勧めします。 オンプレミスおよびハイブリッドのお客様は、その環境が複雑な場合は特に、出発点として [**アイランド**] モードではなく [**Skype for Business と Teams のコラボレーション**] モードを展開し、組織で Teams の導入準備が整い次第、(状況に応じて) [**Skype for Business と Teams のコラボレーションと会議**] モード (Meetings First のことです) および [**Teams のみ**] モードに進むという方法が有効な場合があります。
 
 ### <a name="teams-only"></a>Teams のみ
 
@@ -162,7 +159,7 @@ Skype for Business ユーザーは、Teams ユーザーとの 1 対 1 の音声�
 <!--![Screen shot of Interop calling experience from Teams.](media/Interop_calling_experience_from_Teams.png "Interop calling experience from Teams")-->
 
 > [!Important]
-> オンプレミス展開の Skype for Business を使用する相互運用エクスペリエンスでは、対象のオンプレミス展開が Microsoft 365 または Office 365 Skype for Business のハイブリッド モードである必要があります。 詳細については、「[移行と相互運用に関するガイドライン](./migration-interop-guidance-for-teams-with-skype.md)」を参照してください。
+> オンプレミスの環境のデプロイとの相互運用Skype for Business、オンプレミス環境がオンプレミス環境とハイブリッド モードである必要Teams。 詳細については、「Skype for Business Server と Microsoft 365 または Office 365 の間のハイブリッド[接続を構成する」を参照してください](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)。
 
 これらの相互運用エクスペリエンスは、[**Skype for Business と Teams のコラボレーション**]、[**Skype for Business と Teams のコラボレーションと会議**]、[**Skype for Business Only のみ**]、および [**Teams のみ**] の共存モードが割り当てられているユーザーが利用でき、これらのユーザー間で使用できます。 [**アイランド**] モードのユーザーの場合、相互運用性はありません。
 
@@ -204,7 +201,7 @@ Skype for Business からの相互運用と相互運用エスカレーション�
 
 Skype for Business ユーザーがデスクトップを共有しようとすると、会議が始まることが通知され、手順が案内されます。
 
-![ユーザーとのTeams開始するメッセージのスクリーン Teams。](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
+![ユーザーとのTeamsを開始するメッセージのスクリーン Teams。](media/teams-and-skypeforbusiness-coexistence-and-interop-start-meeting-with-teams-user.png)
 
 それと同時に、Teams ユーザーには会議へのリンクが含まれたチャット メッセージが届き、参加するためのガイドが示されます。
 
@@ -220,7 +217,7 @@ Teams から Teams 会議への相互運用エスカレーションが、Skype f
 
 ユーザーが通話中の場合は、Teams と Skype for Business 間で行われている現在の通話が、Teams 会議に参加すると終了することも警告されます。 選択した場合は、承諾前に Skype for Business ユーザーに警告できます。
 
-![他のユーザーとTeams共有するメッセージのスクリーン Skype for Business。](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
+![他のユーザー Teams共有するメッセージのスクリーン Skype for Business。](media/teams-and-skypeforbusiness-coexistence-and-interop-share-meeting-with-skype-user.png)
 
 承諾すると、Teams 会議に参加できます。会議の共有トレイから共有を開始する必要があります。
 

@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: この記事では、新しいコントロール パネルの概要について説明します。
-ms.openlocfilehash: 8a4f8e073b424969951a69c620dd5f65a582fd75
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579872"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824645"
 ---
 # <a name="control-panel"></a>コントロール パネル
 
@@ -38,7 +38,7 @@ ms.locfileid: "60579872"
 > [!NOTE]
 > 他のメニュー項目のドキュメントは、段階的に後で使用できます。
 
-## <a name="client"></a>クライアント
+## <a name="client"></a>Client
 
 |サブメニュー  |コマンドレットの情報のソース  |
 |---------|---------|
@@ -50,3 +50,11 @@ ms.locfileid: "60579872"
 |デバイス構成         |    [デバイス構成](use-powershell-client-menu.md#device-configuration)     |
 |モビリティ ポリシー         |    [モビリティ ポリシー](use-powershell-client-menu.md#mobility-policy)     |
 |プッシュ通知の構成         |    [プッシュ通知の構成](use-powershell-client-menu.md#push-notification-configuration)     |
+
+## <a name="security"></a>セキュリティ
+
+|サブメニュー  |コマンドレットの情報のソース  |
+|---------|---------|
+|レジストラー         |    [レジストラー](use-powershell-security-menu.md#registrar)     |
+|(Web) サービス      |  [Web サービス](use-powershell-security-menu.md#web-service)       |
+|PIN ポリシー    | [PIN ポリシー](use-powershell-security-menu.md#pin-policy)        |
