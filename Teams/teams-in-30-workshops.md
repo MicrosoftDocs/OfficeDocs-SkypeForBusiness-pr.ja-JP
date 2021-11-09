@@ -13,24 +13,24 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: ライブでインタラクティブなワークショップは、わずか 30 日でMicrosoft Teamsを実行できます。
+description: ライブでインタラクティブなワークショップは、わずか 30 日でMicrosoft Teamsを実行するように設計されています。
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45856ed0e452c6ed1c04e0d724551a17316112a95b1f3cefcda5b481b8868e6b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9b4175769ea9d6cc57167c086b28ee5ef4e742d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339395"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850530"
 ---
 # <a name="teams-in-30"></a>Teams 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft は、中規模の組織 (500 ~ 5000 人の従業員) を 30 日間で Microsoft Teams で稼働させるのに役立つ、一連のライブの対話型ワークショップである<strong>30</strong>の Teams に招待するのを楽しみにしています。 時間のテストされたガイダンスとベスト プラクティスを学び、質問に答Teamsしてください。 また、ワークショップの参加者には、オープンマイクのオフィス時間に関する特別な招待状が、専門家とTeamsされます。
+        <p>Microsoft は、中規模の組織 (500 ~ 5000 人の従業員) を 30 日で Microsoft Teams で稼働させるのに役立つ、一連のライブの対話型ワークショップである<strong>30</strong>の Teams に招待するのを楽しみにしています。 時間のテストされたガイダンスとベスト プラクティスを学び、質問に答Teamsしてください。 ワークショップの参加者には、オープンマイクオフィスの時間に関する特別な招待状が、専門家とTeamsされます。
            <p><font color="#6264A7">飛び込む準備はできましたか?</font> プロジェクト チームのメンバー全員が<i>、30</i>セッションではじめにをTeams開始してください。 下のセッション タイトルをクリックしてサインアップします。
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
@@ -44,8 +44,8 @@ ms.locfileid: "54339395"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>30 でTeamsを開始する (ここから開始)</h3>
-                        <P>右足Teams 30 回の旅で開始します。 プログラム、参加する必要があるユーザー、成功を保証するために使用できるリソースを理解します。</P>
+                        <h3>30 でTeamsを開始する (ここから開始!</h3>
+                        <P>30 Teamsを右足で開始します。 プログラム、参加する必要があるユーザー、成功を保証するために使用できるリソースを理解します。</P>
                         <p><i>対象ユーザー: ビジネス スポンサー、IT 管理者、導入所有者、変更所有者</i></p>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ ms.locfileid: "54339395"
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/ReadyendusersT30"target="_blank"">
+        <a href="https://aka.ms/ReadyendusersT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -65,7 +65,7 @@ ms.locfileid: "54339395"
                     </div>
                     <div class="cardText">
                         <h3>エンド ユーザーを準備させる</h3>
-                    <p>ユーザーを準備し、チャンピオンのコンティンティントを構築し、ユーザーの受け入れをロールアウトの中核コンポーネントとして確実に受け入Teamsします。</p><p><i>対象ユーザー: 導入と変更の所有者</i></p>
+                    <p>ユーザーを準備し、チャンピオンのコンティンティントを構築し、ユーザーがユーザーをロールアウトの中核コンポーネントとして受け入れTeamsします。</p><p><i>対象ユーザー: 導入と変更の所有者</i></p>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ ms.locfileid: "54339395"
         </a>
     </li>
         <li> 
-        <a href="https://aka.ms/Preparepart1T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart1T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -91,7 +91,7 @@ ms.locfileid: "54339395"
         </div>
         </a>
     </li> <li>
-        <a href="https://aka.ms/Preparepart2T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart2T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -110,7 +110,7 @@ ms.locfileid: "54339395"
         </a>
     </li> 
  <li>
-        <a href="https://aka.ms/OptimizeexpandT30"target="_blank"">
+        <a href="https://aka.ms/OptimizeexpandT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -121,7 +121,7 @@ ms.locfileid: "54339395"
                     </div>
                     <div class="cardText">
                     <h3>最適化と展開</h3>
-                    <p>サービスパフォーマンスの最適化、新しい機能の拡張、新しいTeamsを含む計画を設計します。</p>
+                    <p>サービス パフォーマンスの最適化、新しい機能の拡張、新しいユーザー Teamsを含む計画を設計します。</p>
                     <p><i>対象ユーザー: ビジネス スポンサー、IT 管理者、導入所有者、変更所有者</i></p>
                     </div>
                 </div>
@@ -130,7 +130,7 @@ ms.locfileid: "54339395"
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -141,8 +141,8 @@ ms.locfileid: "54339395"
                     </div>
                     <div class="cardText">
                     <h3>Teams取り込み講演</h3>
-                    <p>これらのオンライン対話型ワークショップは、主題の専門家によって促進され、Teams で最も人気のある説得力のあるシナリオに関するベスト プラクティスと実践的なガイダンスを学ぶ独自の機会を提供します。 取り込み講演では、ロールアウトに関する基本的なTeamsします。</p>
-                    <p><strong>前提条件</strong>: Teams 30 のワークショップへの参加を有効にするか、組織全体のTeams有効になっています。</p>
+                    <p>これらのオンライン対話型ワークショップは、主題の専門家によって促進され、Teams で最も人気のある説得力のあるシナリオに関するベスト プラクティスと実践的なガイダンスを学ぶユニークな機会を提供します。 取り込み講演では、ロールアウトの基本的なTeamsします。</p>
+                    <p><strong>前提条件</strong>: Teams 30 のワークショップへの参加を有効にするか、組織全体でTeams有効になっています。</p>
                     <p><i>対象ユーザー: IT 管理者</i></p>
                     </div>
                 </div>

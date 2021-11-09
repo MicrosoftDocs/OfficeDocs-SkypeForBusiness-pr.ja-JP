@@ -1,6 +1,6 @@
 ---
 title: バハバスでの空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下に、ba大Microsoft 365でOffice 365サービスとSkype for BusinessサービスMicrosoft Teamsを示します。
-ms.openlocfilehash: a568158ac60c3bbb30e14abbfda0401553c9b821
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1a5a54b15da9b2adaf6d138c2c168bbde1375d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741723"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827380"
 ---
 # <a name="availability-in-the-bahamas"></a>バハバスでの空き時間情報
 
@@ -70,9 +70,9 @@ ms.locfileid: "60741723"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
-|無料電話番号は利用できますか? <br/> | はい  <br/> |
+|無料電話番号は利用できますか? <br/> | Yes  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は[、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号の取得」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

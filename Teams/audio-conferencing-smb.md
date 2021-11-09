@@ -1,7 +1,7 @@
 ---
 title: 中小企業向けに音声会議を設定する
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '電話を使って会議にコールインする必要があるユーザーのために、中小企業で電話会議を設定する方法について説明します。 '
-ms.openlocfilehash: ddac35fa5ee6ff7134b1114037aca627fda792db
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cd11d5c3c348b64717cb092a523ee857639712c6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743053"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827410"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>中小企業向けに音声会議を設定する
 
@@ -52,8 +52,8 @@ ms.locfileid: "60743053"
 
 会議を開催するユーザーごとに 1 つの電話会議ライセンスを取得します。 これを行うにはMicrosoft 365 管理センターを使用します。
 
-1. [Microsoft 365 管理センターの購入サービス] に移動し、ページの下部にある [アドオン  >  ]**を選択します**。
-2. [電話 **Microsoft 365導入プロモーション** の詳細] を  >  **選択し**、[今すぐ取得]**を選択します**。
+1. [課金Microsoft 365 管理センター サービス] に移動し、ページの下部にある [アドオン  >  ]**を選択します**。
+2. [**電話Microsoft 365導入プロモーション** の詳細] を  >  **選択し**、[今すぐ取得]**を選択します**。
 3. 会議開催者に必要なライセンス数を入力し、注文を完了します。
 
     :::image type="content" source="media/audio-conferencing-smb-add.png" alt-text="電話会議導入プロモーション ライセンスのスクリーンショット。":::
@@ -67,20 +67,20 @@ ms.locfileid: "60743053"
 
 #### <a name="assign-a-license-to-one-user"></a>1 人のユーザーにライセンスを割り当てる
 
-1. [アクティブMicrosoft 365 管理センター ユーザー] に  >  **移動します**。  
+1. [ユーザー] Microsoft 365 管理センター[アクティブなユーザー ]  >  **に移動します**。  
 2. ライセンスを割り当てるユーザーの行を選択し、ウィンドウで [ライセンスとアプリ] **を選択します**。
 3. [電話会議 **Microsoft 365] チェック ボックス** をオンにし、[変更の保存]**を選択します**。
 
 #### <a name="assign-a-license-to-multiple-users"></a>複数のユーザーにライセンスを割り当てる
 
-1. [アクティブMicrosoft 365 管理センター ユーザー] に  >  **移動します**。  
+1. [ユーザー] Microsoft 365 管理センター[アクティブなユーザー ]  >  **に移動します**。  
 2. ライセンスを割り当てるユーザーの横にある円を選択し、[製品ライセンスの管理] **を選択します**。
 3. [製品ライセンス **の管理] ウィンドウで、[** さらに割り当てる] **を選択します**。
 4. [電話会議 **Microsoft 365] チェック ボックス** をオンにし、[変更の保存]**を選択します**。  
 
 ## <a name="schedule-teams-meetings-in-outlook"></a>会議Teamsスケジュールを設定Outlook
 
-会議の開催者は、会議のスケジュールを設定Outlook。 [Outlook] に移動 **し**、[会議の新しいTeams **選択** します。 会議のダイヤルイン番号と会議 ID は、会議の出席者に送信される会議出席依頼に自動的に追加されます。 詳細については、「Teams[で会議をスケジュールする」をOutlook。](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
+会議の開催者は、会議のスケジュールを設定Outlook。 [Outlook] に移動 **し**、[会議の新しいTeams **選択** します。 会議のダイヤルイン番号と会議 ID は、会議の出席者に送信される会議出席依頼に自動的に追加されます。 詳細については、「会議のスケジュール[を設定する」をTeamsを参照Outlook。](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
 
 > [!NOTE]
 > 必要に応じて、会議出席依頼をカスタマイズして、会社のロゴ、サポート Web サイトへのリンク、免責事項、テキストのみフッターを追加できます。 詳細については、「会議出席依頼を [カスタマイズする」を参照してください](meeting-settings-in-teams.md#customize-meeting-invitations)。
@@ -93,7 +93,7 @@ ms.locfileid: "60743053"
 
 共有番号は、すべての組織で共有される番号です。 共有番号は有料電話番号であり、電話会議を設定すると自動的に割り当てられます。
 
-会議ブリッジに割り当てられている既定の番号を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[会議会議ブリッジ] に移動し、最も近い場所の番号を見つけて確認します。  >  
+会議ブリッジに割り当てられている既定の番号を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[会議会議ブリッジ]に移動し、最も近い場所の番号を見つけて確認します。  >  
 
 ### <a name="dedicated-numbers"></a>専用番号
 
@@ -112,7 +112,7 @@ ms.locfileid: "60743053"
 次に、会議を開催する各ユーザーに番号を割り当てる。 これを行うにはMicrosoft Teams管理センターを使用します。
 
 1. 管理センターの左側のナビゲーションMicrosoft Teams、[ユーザー] を選択し、ユーザーの表示名をクリックして、[編集] を **選択します**。
-2. [**電話会議**]**の横** にある [編集] を選択し、[電話会議] ウィンドウで [有料電話番号] または [無料電話番号] リストで番号を選択し、[適用] を **選択します**。 
+2. [**電話会議**]**の横** にある [編集] を選択し、[電話会議] ウィンドウの [有料電話番号] または [無料電話番号] リストで番号を選び、[適用] を **選択します**。 
 
 ## <a name="related-topics"></a>関連項目
 
@@ -121,5 +121,5 @@ ms.locfileid: "60743053"
 - [電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)
 - [電話会議に関するよくある質問](audio-conferencing-common-questions.md)
 - [サービス番号の取得](getting-service-phone-numbers.md)
-- [Teams アドオン ライセンス](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- [Teams ライセンスの追加](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [ユーザーにライセンスを割り当てる](/microsoft-365/admin/manage/assign-licenses-to-users)

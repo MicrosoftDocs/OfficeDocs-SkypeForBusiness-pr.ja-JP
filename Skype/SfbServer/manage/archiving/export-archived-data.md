@@ -2,7 +2,7 @@
 title: アーカイブされたデータをエクスポートSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
 description: '概要: アーカイブされたデータをエクスポートする方法についてSkype for Business Server。'
-ms.openlocfilehash: e78ec210e993a11bf0ae17d4e41270602d2bf24a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef9ffca2612adb088f9d06cdbaad809f72278595
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740653"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856784"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>アーカイブされたデータをエクスポートSkype for Business Server
 

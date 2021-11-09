@@ -2,7 +2,7 @@
 title: 2015 年の新機能Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: '概要: このトピックを参照して、2015 年の新機能Skype for Business Serverしてください。 新しいクライアント エクスペリエンスの詳細については、「Lync は現在使用Skype for Business -- 新機能」を参照してください。'
-ms.openlocfilehash: aac68c369983b85ecb95b5000dc41d95e2080d6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760565"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829751"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>2015 年の新機能Skype for Business Server
 

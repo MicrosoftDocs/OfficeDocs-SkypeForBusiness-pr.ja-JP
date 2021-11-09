@@ -1,6 +1,6 @@
 ---
 title: モロッコでの空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: モロッコでMicrosoft 365およびOffice 365サービスSkype for Business Microsoft Teamsを次に示します。
-ms.openlocfilehash: e04e6a6a5fe8dd084fdddc1f252c2b4dbc887232
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: モロッコで使用Microsoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
+ms.openlocfilehash: e2d3e5b6773904e609ea9b0d0863accac9eb8e0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775987"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864504"
 ---
 # <a name="availability-in-morocco"></a>モロッコでの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-モロッコでMicrosoft 365およびOffice 365サービスSkype for Business Microsoft Teamsを次に示します。
+モロッコで使用Microsoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 

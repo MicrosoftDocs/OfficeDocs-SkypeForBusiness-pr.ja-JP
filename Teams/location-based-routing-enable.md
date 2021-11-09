@@ -1,6 +1,6 @@
 ---
 title: ダイレクト ルーティングの場所に基づくルーティングを有効にする
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,20 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c4fdd18e6ae7f3d583451bf8be2ce12e8e87ba3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 750c20367c5710054d2b19d266ff9dc70f46edd9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749043"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829621"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>ダイレクト ルーティングの場所に基づくルーティングを有効にする
 
-この記事の手順に従う前に、「ダイレクト ルーティングの [計画 Location-Based ルーティング](location-based-routing-plan.md) 」を読み、ルーティングのネットワーク設定の構成に関するページの手順を完了 [Location-Basedしてください](location-based-routing-configure-network-settings.md)。
+この記事の手順に従う前に、「直接ルーティングの計画 [Location-Based ルーティング](location-based-routing-plan.md) 」を読み、ネットワーク ルーティングのネットワーク設定の構成に関するページの手順を完了Location-Based [してください](location-based-routing-configure-network-settings.md)。
 
 この記事では、ダイレクト ルーティングのルーティングを有効Location-Based方法について説明します。 直接ルーティング電話システムデプロイし、ネットワーク リージョン、サイト、サブネットを設定した後、ネットワーク ルーティングを有効Location-Basedできます。 この記事の手順を完了するには、PowerShell コマンドレットに関する理解が必要です。 詳細については[、「PowerShell の概要Teamsを参照してください](teams-powershell-overview.md)。
 
- 次の場合は、Location-Basedルーティングを有効にする必要があります。
+ 次の場合は、Location-Based ルーティングを有効にする必要があります。
 - ユーザー
 - ネットワーク サイト
 - ゲートウェイの構成
@@ -48,11 +48,11 @@ ms.locfileid: "60749043"
     - ルーティング制限が不要なリージョンにある PSTN ゲートウェイを使用する音声ルートLocation-Based PSTN 使用法を使用します。
 2. ルーティング制限を適用する必要があるユーザーに音声ルーティング ポリシーを割り当てる。
 
-音声ルーティング ポリシーを作成してユーザーに割り当てる方法の詳細については、「音声ルーティング ポリシーを管理する」を参照[Microsoft Teams。](manage-voice-routing-policies.md)
+音声ルーティング ポリシーを作成してユーザーに割り当てる方法の詳細については、音声ルーティング ポリシーの管理に関するページを[Microsoft Teams。](manage-voice-routing-policies.md)
 
 ### <a name="enable-location-based-routing-for-network-sites"></a>ネットワーク Location-Basedルーティングを有効にする
 
-ルーティングLocation-Basedを適用する必要があるサイトのルーティングを有効にする。 これを行うには、Microsoft Teams 管理センターの左側のナビゲーションで、[場所ネットワーク トポロジ] に移動し、ネットワーク サイトを選択し、[編集] をクリックして、[場所ベースのルーティング] をオン  >  **にします**。   
+ルーティングLocation-Based適用する必要があるサイトのルーティングを有効にする。 これを行うには、Microsoft Teams 管理センターの左側のナビゲーションで、[場所] ネットワークトポロジに移動し、ネットワーク サイトを選択し、[編集] をクリックして、[場所ベースのルーティング] をオン  >  **にします**。   
 
 詳細については、「ネットワーク トポロジの [管理」を参照してください](manage-your-network-topology.md)。
 
@@ -68,9 +68,9 @@ ms.locfileid: "60749043"
 
 ### <a name="enable-location-based-routing-for-calling-policies"></a>通話ポリシーLocation-Basedルーティングを有効にする
 
-特定のユーザーLocation-Basedルーティングを強制するには、PSTN 有料バイパスを防ぐために、ユーザーの呼び出しポリシーを設定します。 これを行うには、呼び出し元ポリシーで **[有料** バイパスを防止する] 設定をオンにします。
+特定のユーザーLocation-Basedルーティングを強制するには、PSTN 有料バイパスを防ぐためにユーザーの通話ポリシーを設定します。 これを行うには、呼び出し元ポリシーで **[有料** バイパスを防止する] 設定をオンにします。
 
-詳細については、次のページ[の「通話ポリシー」をTeams。](teams-calling-policy.md)
+詳細については、 の呼び出し[ポリシーに関するページTeams。](teams-calling-policy.md)
 
 ## <a name="using-powershell"></a>PowerShell の使用
 
@@ -156,12 +156,12 @@ ms.locfileid: "60749043"
     Set-CSOnlinePSTNGateway -Identity <gateway configuration ID> -GatewaySiteLbrEnabled $true -GatewaySiteID <site ID> 
     ```
 
-    この例では、Location-Basedハイダにある PSTN ゲートウェイに関連付けられている各ゲートウェイのルーティングを有効にします。 
+    この例では、delhi サイトとハイLocation-Basedサイトの PSTN ゲートウェイに関連付けられている各ゲートウェイのルーティングを有効にします。 
     ```PowerShell
     Set-CSOnlinePSTNGateway -Identity sbc.contoso.com  -GatewaySiteLbrEnabled $true –GatewaySiteID "Delhi"
     Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com  -GatewaySiteLbrEnabled $true -GatewaySiteID "Hyderabad" 
     ```
-    PSTN に通話Location-Basedルーティングしないゲートウェイのルーティングを有効にしない。 ただし、システムが存在するネットワーク サイトにゲートウェイを関連付ける必要があります。 これは、このゲートウェイLocation-Based接続されているエンドポイントに到達する PSTN 通話には、ルーティング制限を適用する必要があるためです。 この例ではLocation-Based、Delhi サイトとハイデラバード サイトの PBX システムに関連付けられている各ゲートウェイで、このルーティングが有効になっていません。
+    PSTN に通話Location-Basedルーティングしないゲートウェイのルーティングを有効にしない。 ただし、システムが存在するネットワーク サイトにゲートウェイを関連付ける必要があります。 これは、このゲートウェイLocation-Based接続されているエンドポイントに到達する PSTN 通話には、ルーティング制限を適用する必要があるためです。 この例ではLocation-Based、Delhi サイトとハイデラバード サイトの PBX システムに関連付けられているゲートウェイごとに、このルーティングが有効になっていません。
 
     ```PowerShell
     Get-CSONlinePSTNGateway -Identity sbc.contoso.com 

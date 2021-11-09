@@ -2,7 +2,7 @@
 title: ソリューションのエンタープライズ VoIPを計画Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: '概要: 音声と通信の統合ソリューションを計画するためのオプションについて、Skype for Business Server。'
-ms.openlocfilehash: 2cd47f1b3655166ced3bec5591a7b8197639544a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71fc511d6c435ab6b1cd5f553d668acd2fb606a7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749956"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829861"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>ソリューションのエンタープライズ VoIPを計画Skype for Business Server
  

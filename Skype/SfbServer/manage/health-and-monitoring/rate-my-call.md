@@ -2,7 +2,7 @@
 title: '[通話の評価] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: '概要: [通話の評価] 機能について、Skype for Business Server。'
-ms.openlocfilehash: 7786a5e3cb41918c34e5413259b27a01e3f94aaf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768755"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864834"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>[通話の評価] Skype for Business Server
 

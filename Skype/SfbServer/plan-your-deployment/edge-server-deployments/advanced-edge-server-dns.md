@@ -2,7 +2,7 @@
 title: 高度なエッジ サーバーの展開を計画Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 単一のサーバー Skype for Business Server DNS または HLB を使用するサーバー プールを優先するかどうかに関するシナリオを確認します。
-ms.openlocfilehash: 5b58d9aa79566f7aee3ac102f1c5e73996bc6dae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5fa829bf805529792abb408cd6716e2948dd69ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767645"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842770"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>高度なエッジ サーバーの展開を計画Skype for Business Server
  

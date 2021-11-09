@@ -1,6 +1,6 @@
 ---
 title: カスタム チーム テンプレートを作成する Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f3574121bb056208748be522af0b9a5f744846
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749696"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864484"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>カスタム チーム テンプレートを作成する Microsoft Teams
 
@@ -102,11 +102,11 @@ ms.locfileid: "60749696"
 
 現在、カスタム テンプレートから作成された将来のチームの修正に取り組み中です。
 
-**問題**: ブラウザーでTeamsを使用する場合、一部の Web サイトでは、一部の Web サイトが [Teamsされます。
+**問題**: ブラウザーでTeamsを使用している場合、一部の Web サイトでは、一部の Web サイトが [Teams] タブ内に表示されません。
 
 ![ブラウザーのエラー メッセージ。](media/browser-error-message.png)
 
-**解決** 方法: [Web サイト] タブの内容の表示で問題が発生した場合は、別の Web ページでタブを開くか、代わりにデスクトップ アプリで Teams を開き、Web サイト タブ アプリを表示します。
+**解決策**: [Web サイト] タブの内容の表示で問題が発生した場合は、別の Web ページでタブを開くか、代わりにデスクトップ アプリで Teams を開き、Web サイト タブ アプリを表示します。
 
 ## <a name="related-topics"></a>関連項目
 

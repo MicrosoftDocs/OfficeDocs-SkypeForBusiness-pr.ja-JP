@@ -2,7 +2,7 @@
 title: サイトと地域の情報を使用Skype for Business Serverメディア バイパスのグローバル設定を構成する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 特定のサイトと地域でのみ使用するメディア バイパスを構成Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 2d1c10ce06421635783a50bf97286c8d752f478b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7ec292f768633d64959704599269c0fb9cedd4fd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741353"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829501"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>サイトと地域の情報を使用Skype for Business Serverメディア バイパスのグローバル設定を構成する
  

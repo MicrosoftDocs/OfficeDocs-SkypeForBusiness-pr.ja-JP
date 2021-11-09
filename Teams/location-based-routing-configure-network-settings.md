@@ -1,6 +1,6 @@
 ---
 title: ネットワーク設定の構成 - 場所ベースのルーティング
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: roykuntz
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: ダイレクト ルーティング用のネットワーク リージョン、サイト、サブネットを作成および設定するLocation-Basedについて説明します。
+description: 直接ルーティング用のネットワーク リージョン、サイト、サブネットを作成および設定するLocation-Based方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f3c487828ea3b19bcd3c99604aac473c53d9e46e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bbe82aa178668ab43f279d830984b4a3d5263e5d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749053"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829631"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>場所に基づくルーティングのネットワーク設定を構成する
 
@@ -32,19 +32,19 @@ ms.locfileid: "60749053"
 
 ## <a name="define-network-regions"></a>ネットワーク リージョンを定義する
 
-ネットワーク リージョンには、ネットワーク サイトのコレクションが含まれているので、ネットワークのさまざまな部分が複数の地理的領域にわたって相互接続されます。 ネットワーク リージョンを構成する方法の手順については、「クラウド[機能の](manage-your-network-topology.md)ネットワーク トポロジを管理する」を参照Teams。
+ネットワーク リージョンには、ネットワーク サイトのコレクションが含まれているので、ネットワークのさまざまな部分が複数の地理的領域にわたって相互接続されます。 ネットワーク リージョンを構成する方法の手順については、「クラウド機能のネットワーク トポロジを管理する」を参照[Teams。](manage-your-network-topology.md)
 
 ## <a name="define-network-sites"></a>ネットワーク サイトを定義する
 
 ネットワーク サイトは、オフィス、ビルのセット、キャンパスなど、組織が物理的な会場を持つ場所を表します。 トポロジ内の各ネットワーク サイトをネットワーク リージョンに関連付ける必要があります。 ネットワーク サイトを構成する方法の手順については、「ネットワーク サイトでクラウド機能のネットワーク トポロジを管理する[」をTeams。](manage-your-network-topology.md)
 
-ルーティングのベスト プラクティスはLocation-Based PSTN 接続を持つ場所ごとに個別のサイトを作成することです。 ルーティングに対して有効になっているサイトLocation-Based、またはカスタム ルーティングに対して有効になっていないサイトLocation-Basedできます。 たとえば、Location-Based ルーティングが有効になっているユーザーがサイトにローミングするときに PSTN 通話を発信するには、Location-Based ルーティングが有効になっていないサイトを作成できます。
+ルーティングのベスト プラクティスはLocation-Based PSTN 接続を持つ場所ごとに個別のサイトを作成することです。 ルーティングに対して有効になっているサイトLocation-Based、またはルーティングに対して有効になっていないサイトLocation-Basedできます。 たとえば、Location-Based ルーティングが有効になっていないサイトを作成して、Location-Based ルーティングが有効になっているユーザーが、そのサイトにローミングするときに PSTN 通話を発信できます。
 
 ## <a name="define-network-subnets"></a>ネットワーク サブネットを定義する
 
-各サブネットは、特定のネットワーク サイトに関連付けられている必要があります。 複数のサブネットを同じネットワーク サイトに関連付けできますが、複数のサイトを同じサブネットに関連付けは行いません。 ネットワーク サブネットを構成する方法の手順については、「クラウド機能のネットワーク トポロジを管理する」を参照[Teams。](manage-your-network-topology.md)
+各サブネットは、特定のネットワーク サイトに関連付けられている必要があります。 複数のサブネットを同じネットワーク サイトに関連付けできますが、複数のサイトを同じサブネットに関連付けは行いません。 ネットワーク サブネットを構成する方法の手順については、クラウド機能のネットワーク トポロジの管理に関するページを[参照Teams。](manage-your-network-topology.md)
 
-ルーティングLocation-Based、Teams エンドポイントがネットワークに接続できる場所にある IP サブネットを定義し、定義されたネットワークに関連付け、有料バイパスを強制する必要があります。 このサブネットの関連付Location-Basedルーティングを使用して、特定の PSTN 呼び出しを許可するかどうかを判断するために、エンドポイントを地理的に特定できます。 IPv6 サブネットと IPv4 サブネットの両方がサポートされています。 エンドポイントがサイトにあるTeams判断する場合は、Location-Based一致する IPv6 アドレスが最初にチェックされます。 IPv6 アドレスが存在しない場合は、Location-Basedが IPv4 アドレスをチェックします。
+ルーティングLocation-Based、Teams エンドポイントがネットワークに接続できる場所にある IP サブネットを定義し、定義されたネットワークに関連付け、有料バイパスを強制する必要があります。 このサブネットの関連付Location-Basedルーティングを使用してエンドポイントを地理的に特定し、特定の PSTN 呼び出しを許可するかどうかを決定できます。 IPv6 サブネットと IPv4 サブネットの両方がサポートされています。 エンドポイントがサイトにあるTeams判断する場合は、Location-Based一致する IPv6 アドレスが最初にチェックされます。 IPv6 アドレスが存在しない場合は、Location-Basedが IPv4 アドレスをチェックします。
 
 ## <a name="define-trusted-ip-addresses-external-subnets"></a>信頼できる IP アドレス (外部サブネット) を定義する
 

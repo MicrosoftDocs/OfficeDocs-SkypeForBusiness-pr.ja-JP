@@ -1,6 +1,6 @@
 ---
 title: グアムでの空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下に、Microsoft 365とOffice 365とSkype for BusinessサービスMicrosoft Teamsを示します。
-ms.openlocfilehash: 78f3b64cd7311ceee0f680c5edc6703f9c2d9b29
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8aa149c1f6f8da23db0f55f8c39c0ac740689f3e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759319"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827430"
 ---
 # <a name="availability-in-guam"></a>グアムでの空き時間情報
 
@@ -70,7 +70,7 @@ ms.locfileid: "60759319"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
-|無料電話番号は利用できますか?  <br/> |はい  <br/> |
+|無料電話番号は利用できますか?  <br/> |Yes  <br/> |
    
  電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
   

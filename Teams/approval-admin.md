@@ -1,6 +1,6 @@
 ---
 title: Teams における承認アプリケーションの利用の可否
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: farhazk
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35491e8f55e55741f8567c3711f8612464c968e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 33af895358695227d9f7e76ec5b80fb733749342
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769995"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850610"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 

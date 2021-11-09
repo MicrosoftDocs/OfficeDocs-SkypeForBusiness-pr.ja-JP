@@ -2,7 +2,7 @@
 title: 常設チャット サーバーを 2015 Skype for Business Serverトポロジに追加する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: '概要: 常設チャット サーバーを 2015 年 2015 年のトポロジに追加するSkype for Business Server説明します。'
-ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b4148989430987c2a1435ce08315908e27e7e13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753414"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857014"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>常設チャット サーバーを 2015 Skype for Business Serverトポロジに追加する
  

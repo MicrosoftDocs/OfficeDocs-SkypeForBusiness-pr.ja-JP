@@ -2,7 +2,7 @@
 title: ユーザーがユーザーのエンタープライズ VoIPを有効Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: '概要: ユーザーが通話を行い、受信する方法については、ユーザーが エンタープライズ VoIPを使用Skype for Business Server。'
-ms.openlocfilehash: 27c60b7532411c50d6613635a28a638a5cfbc97d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3dab9488b1d184f5d3dd215f4012933de1ca0245
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749368"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864344"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>ユーザーがユーザーのエンタープライズ VoIPを有効Skype for Business Server
  

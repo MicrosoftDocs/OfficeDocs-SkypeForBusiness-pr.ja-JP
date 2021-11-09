@@ -2,7 +2,7 @@
 title: URL フィルター [新規の作成] または [既存の編集]
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 79cb3114f1e83c4ca8f0787a3ea2ac3467d33aa2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e3e1bb47cb83387373280533afaa1564351ad638
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773077"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850330"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL フィルター: 新規作成または現在の形式のままで編集
 

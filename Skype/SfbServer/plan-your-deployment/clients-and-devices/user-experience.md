@@ -1,7 +1,7 @@
 ---
 title: ユーザー向Skype for Business 2015 クライアント エクスペリエンスを計画する
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: '概要: Skype for Business Online、Skype for Business Server 2019、Skype for Business Server 2015、Lync を使用している場合に関係を含め、環境とユーザーが更新プログラムを準備するために実行できる新しい Skype for Business と手順について説明します。Server 2013、または Lync Server 2010。'
-ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9979b7d9fe449de926358097b9fd2fdd36e5afb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740461"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864744"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>ユーザー向Skype for Business 2015 クライアント エクスペリエンスを計画する
  

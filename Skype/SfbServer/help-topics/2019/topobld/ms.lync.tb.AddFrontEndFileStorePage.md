@@ -2,7 +2,7 @@
 title: フロント エンド ファイル ストアの追加
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 ROBOTS: NOINDEX, NOFOLLOW
 description: サーバーまたはフロントエンド プールのファイル ストアとして使用するファイル共有Standard Edition指定Enterprise Edition必要があります。 ファイル ストアに既存のファイル共有を使用するか、ファイル共有を保存するファイル サーバーの完全修飾ドメイン名 (FQDN) と、新しいファイル共有のフォルダー名を指定して、新しいファイル共有を指定できます。
-ms.openlocfilehash: 5cda72723d4c183271324f45f4279f741972becc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a99c731690b7b41c1fee28306f47956a9dfaa32
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752536"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829371"
 ---
 # <a name="add-front-end-file-store"></a>フロント エンド ファイル ストアの追加
 

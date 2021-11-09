@@ -2,7 +2,7 @@
 title: ワークフローでの応答グループ ワークフローの設計とSkype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 応答グループ のワークフローを設計し、作成Skype for Business Server エンタープライズ VoIP。 ハント グループ ワークフローと対話型ワークフローの両方について説明します。
-ms.openlocfilehash: 842cbf321dc4e4f54ff244e9e809517807a6686c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ec92a0dfa378746db98a6377b2ebd51df0e77813
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755760"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864384"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>ワークフローでの応答グループ ワークフローの設計とSkype for Business
 

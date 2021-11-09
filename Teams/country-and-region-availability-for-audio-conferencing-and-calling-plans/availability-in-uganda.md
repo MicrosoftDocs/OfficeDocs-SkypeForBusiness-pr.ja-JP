@@ -1,6 +1,6 @@
 ---
 title: ウガンダの空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下に、Microsoft 365とOffice 365とSkype for BusinessのMicrosoft Teamsサービスを示します。
-ms.openlocfilehash: 746d4d368964e19c74a94b8ff623b4bbc639eff8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 以下に、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスを示します。
+ms.openlocfilehash: 7143b72ec26782fbc1be9b14e55916f152ed7fc2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760495"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827340"
 ---
 # <a name="availability-in-uganda"></a>ウガンダの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-以下に、Microsoft 365とOffice 365とSkype for BusinessのMicrosoft Teamsサービスを示します。
+以下に、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +72,7 @@ ms.locfileid: "60760495"
 |有料電話番号は使用できますか?  <br/> |地理的ではない ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は[、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号の取得」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

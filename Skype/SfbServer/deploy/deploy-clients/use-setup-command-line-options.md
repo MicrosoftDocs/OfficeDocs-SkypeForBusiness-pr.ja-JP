@@ -2,7 +2,7 @@
 title: クライアントでセットアップ コマンド ライン オプションを使用Skype for Businessする
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: '概要: セットアップでのコマンド Setup.exe操作の詳細Officeします。'
-ms.openlocfilehash: 00d76dddef6a2cc8ba1bcda87ceadb22f7269dcb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a64ac821019f49f8cbb4988ad0e42da0363245b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742933"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850486"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>クライアントでセットアップ コマンド ライン オプションを使用Skype for Businessする
  

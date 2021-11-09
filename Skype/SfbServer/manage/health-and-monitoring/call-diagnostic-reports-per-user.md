@@ -2,7 +2,7 @@
 title: ユーザーごとの診断レポートの呼び出し (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: '概要: ユーザーごとの通話診断レポートについて説明します。Skype for Business Server。'
-ms.openlocfilehash: 4bb9adb37b37ea06627ba5f678d32b5bdcb50b00
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766495"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864854"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>ユーザーごとの診断レポートの呼び出し (Skype for Business Server
   

@@ -2,7 +2,7 @@
 title: コール パークの正規化ルールをSkype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 description: コール パークの正規化ルールについては、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: ca76c15d7f71afa75e9b9247eab9cd96e5baedb0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2928044f5b10d579ed9e7ffa44acdb3248b32008
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771532"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835865"
 ---
 # <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>コール パークの正規化ルールをSkype for Business
  

@@ -2,7 +2,7 @@
 title: ネットワーク要件を計画Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '概要: ネットワーク コンポーネントを実装する前に、以下のネットワーク コンポーネントの考慮事項をSkype for Business Server。'
-ms.openlocfilehash: b2b8496b307111261c77f93d45d3332b42ead90d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3e5912cb00bb704afdfc5d568b66711a1ddf472f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777927"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864704"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>ネットワーク要件を計画Skype for Business
 
@@ -227,7 +227,7 @@ Skype for Business Serverは、多くの解像度をサポートしています�
 |メイン ビデオ受信  <br/> |H.264 および RTVideo¹  <br/> |260  <br/> |8015  <br/> |該当なし  <br/> |
 |メイン ビデオ送信  <br/> |H.264 と RTVideo  <br/> |270  <br/> |8015  <br/> |該当なし  <br/> |
 |パノラマ ビデオ受信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2010 (最大解像度 1920x288 の場合)  <br/> |該当なし  <br/> |
-|パノラマ ビデオ送信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2515 ²  <br/> |該当なし  <br/> |
+|パノラマ ビデオ送信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2515 ²  <br/> |該当しない  <br/> |
 
 1. RT ビデオは、Lync 2010 クライアントが会議に接続されている H.264 に加えて送信されます。
 

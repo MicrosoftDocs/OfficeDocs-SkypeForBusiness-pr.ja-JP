@@ -2,7 +2,7 @@
 title: ネットワークSkype接続を展開Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: '概要: ユーザーとコンシューマーを接続Skype for Business ServerするSkypeします。 また、接続のSkype呼び出されます。'
-ms.openlocfilehash: 003e9a69dc4213b662795b0570afb3ca152d7e00
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c8bdbf96fcbf0831433ad2274d8ab89911df1de5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751306"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835825"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>ネットワークSkype接続を展開Skype for Business Server
 
@@ -52,7 +52,7 @@ Skypeディレクトリ検索機能は、Skype for Businessの連絡先を検索
 次の表では、ディレクトリ検索のSkype説明します。
   
 
-|&nbsp;|Skype for Business Serverフロントエンド|Lync Server 2013 (または古い) フロントエンド|コメント|
+|&nbsp;|Skype for Business Serverフロントエンド|Lync Server 2013 (または古い) フロントエンド|Comments|
 |:-----|:-----|:-----|:-----|
 |Skype for Business Serverエッジ   |サポートされている   |サポート対象外   |Skype for Business Serverおよびエッジは、ディレクトリ検索Skype前提条件です   |
 |Skype for Business Serverエッジ + Lync Server 2013 Edge が並べて展開されている   |サポートされている   |サポート対象外   |Skypeディレクトリ検索トラフィックは、エッジ サーバー Skype for Business Server流れます。 フェデレーション トラフィックは、管理者が構成したエッジを通過します。 たとえば、管理者は、ディレクトリ検索をサポートしない Lync Server 2013 エッジ サーバーを通じてフェデレーション トラフィックの送信Skype選択できます。   |
@@ -231,7 +231,7 @@ Skype for Business オンプレミス展開と Skype 間のフェデレーショ
    
 次の表に、最新バージョンの Skype for Business コンシューマーと最新バージョンの相互運用Skype示します。 
   
-|クライアント|Skypeディレクトリ検索と連絡先の追加|SkypeA/V、IM 相互運用|
+|Client|Skypeディレクトリ検索と連絡先の追加|SkypeA/V、IM 相互運用|
 |:-----|:-----|:-----|
 |Skype for Business   |はい   |はい   |
 |Mac 版 Skype for Business   |追加可能 (検索なし)   |はい   |

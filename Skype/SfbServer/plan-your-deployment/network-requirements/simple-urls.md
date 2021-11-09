@@ -2,7 +2,7 @@
 title: ドメイン内の単純な URL の DNS 要件Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: '概要: このトピックの単純な URL に関する考慮事項を確認してから、DNS レコードを実装Skype for Business Server。'
-ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777917"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864674"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>ドメイン内の単純な URL の DNS 要件Skype for Business Server
 
@@ -123,7 +123,7 @@ Meet-ext.geolb.contoso.com
 
 ダイヤルイン簡易 URL でも同じ構成をセットアップできます。 これを行うには、前の例のような追加のレコードを  `dialin` 作成し、DNS レコードの代 `meet` わりに作成します。 管理簡易 URL では、このセクションで以前に示した 3 つのオプションのいずれかを使用します。
 
-この構成をセットアップした後に、監視アプリケーションを使用して、障害の監視用に HTTP 監視をセットアップする必要があります。 外部アクセスの場合は、HTTPS GET lyncdiscover を監視して確認します。<sipdomain> 2 つのプールの外部 Web FQDN またはロード バランサー IP アドレスへの要求が成功しました。 たとえば、以下の要求では、**ACCEPT** ヘッダーが含まれないようにし、**200 OK** を戻す必要があります。
+この構成をセットアップした後に、監視アプリケーションを使用して、障害の監視用に HTTP 監視をセットアップする必要があります。 外部アクセスの場合は、HTTPS GET lyncdiscover を監視して確認します。\<sipdomain> 2 つのプールの外部 Web FQDN またはロード バランサー IP アドレスへの要求が成功しました。 たとえば、以下の要求では、**ACCEPT** ヘッダーが含まれないようにし、**200 OK** を戻す必要があります。
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root

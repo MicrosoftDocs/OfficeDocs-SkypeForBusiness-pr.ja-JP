@@ -2,7 +2,7 @@
 title: エンタープライズ VoIPのSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: エンタープライズ VoIP、地域Skype for Business Serverサイト間のネットワーク リンク、音声使用量トラフィックの見積もりなど、さまざまな方法で基本を計画します。
-ms.openlocfilehash: 60b762d2e9ef49d912dc00407d7b12d44ec334c0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 51c197979c5faaf587f63320b4a2dc6c5dc6a06f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762145"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829841"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>エンタープライズ VoIPのSkype for Business Server
  

@@ -2,7 +2,7 @@
 title: 2015 年に計画ツールSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Skype for Business Server 2015 計画ツールを使用して Skype for Business Server 2015 インフラストラクチャの設計と計画を開始する前に、まず計画ツールをインストールする必要があります。 計画ツールは、2015 年にインストールする予定のドメインまたはインフラストラクチャの一部であるワークステーションまたはサーバーに展開するSkype for Business Serverではありません。 計画ツールに関連する Readme ファイルは、ツールのインストールと使用に関する重要な情報を詳細に示します。 わかりやすくするために、Readme ファイルの情報の一部をここに転載します。
-ms.openlocfilehash: b476d5d39515fe14d3f13a3ee9dc0c5b5298fdc1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d9dc6204647daf03adfab6fcf3cf091d7ba5415
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756886"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850890"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>2015 年に計画ツールSkype for Business Serverする
 

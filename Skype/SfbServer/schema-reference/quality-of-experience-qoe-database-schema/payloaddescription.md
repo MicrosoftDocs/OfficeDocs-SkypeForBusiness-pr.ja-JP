@@ -2,7 +2,7 @@
 title: PayloadDescription テーブル
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c49d61c0-305a-4770-a5d2-5d9f05decc6d
 description: PayloadDescription テーブルは、サポート テーブルです。各レコードが、音声セッションまたはビデオ セッションで使用される 1 つのコーデックを表します。
-ms.openlocfilehash: 02fb4b00bfa0067078cfd7ff3f4df71ea0a82f50
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aada0dae9c371700756be16133ca9cccdcbf82ae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767285"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850620"
 ---
 # <a name="payloaddescription-table"></a>PayloadDescription テーブル
  

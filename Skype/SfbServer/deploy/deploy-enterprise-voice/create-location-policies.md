@@ -2,7 +2,7 @@
 title: '[場所ポリシーを作成する] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: このトピックでは、拡張緊急サービス (E9-1-1) の場所ポリシーを構成する方法について説明Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 889a20e0b48955be1ce0ba8c891d6c4825b79dab
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d8ead66a66a0cf92c39acfe9cb1d547422362d0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741443"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850450"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>[場所ポリシーを作成する] Skype for Business Server
 

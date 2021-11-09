@@ -2,7 +2,7 @@
 title: ビュー内に VIS プールを作成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: '概要: トポロジ ビルダーを使用して、ビデオ相互運用Skype for Business Serverを作成します。'
-ms.openlocfilehash: e622c6510b23148617ad180ecc61480503a79a8a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3c16381e1fceaf280571f2927d8123bc6861dd5c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748803"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864334"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>ビュー内に VIS プールを作成Skype for Business Server
  

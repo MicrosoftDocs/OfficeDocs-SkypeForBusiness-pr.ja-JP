@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: この付録には、クラウド統合の一環としてエッジ証明書を更新する手順の詳細TeamsおよびSkype for Business。
-ms.openlocfilehash: 1c4708f593b1a9bd8fbc2a427e2f0c5df9feab5c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb8d2eabf17d83546737d3d94fb4add5dc0a892e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610204"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857114"
 ---
 # <a name="update-the-edge-certificate"></a>エッジ証明書の更新
 
@@ -39,7 +39,7 @@ ms.locfileid: "58610204"
 
 **手順:**
 
-1.  "sip" という形式のクラウド環境のすべての SIP ドメイン (*.onmicrosoft.com ドメインを除く) のすべての既存のエントリと SAN 内の追加エントリを持つエッジの新しい外部エッジ証明書を取得します。 <DomainName>
+1.  フォーム内のすべての既存のエントリと、クラウド環境内のすべての SIP ドメイン (*.onmicrosoft.com ドメインを除く) の SAN 内の追加エントリを持つエッジの新しい外部エッジ証明書を取得します。 `sip.<DomainName>`
 2.  証明書を各エッジ サーバーにローカルにインストールし、各エッジ サービスSkypeエッジ サービスに割り当てる。  詳細な手順については、「Deploy Edge Service in the [2015」](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md)の「外部エッジ インターフェイス証明書」を参照Skype for Business Serverしてください。
 3.  各エッジ サーバーでエッジ サービスを再起動します。 これは、次の PowerShell コマンドを使用して 1 つのボックスに対して実行できます。
 

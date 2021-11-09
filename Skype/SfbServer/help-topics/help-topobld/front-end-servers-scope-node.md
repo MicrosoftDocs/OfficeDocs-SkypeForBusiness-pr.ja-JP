@@ -2,7 +2,7 @@
 title: フロントエンド サーバー スコープ ノード
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: '[Enterprise Edition フロントエンドのプール] ノードには、このサイトのフロントエンドのプールが一覧表示され、[Standard Edition フロントエンド サーバー] ノードには、このサイトの Standard Edition サーバーが一覧表示されます。以下のアクションを実行できます。'
-ms.openlocfilehash: 7e3394024950321d87351323f21db2b7479bd38e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbb7ddfcf76314ebd538251c76c018c79633561b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775067"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830151"
 ---
 # <a name="front-end-servers-scope-node"></a>フロント エンド サーバーのスコープ ノード
  

@@ -2,7 +2,7 @@
 title: '[通話診断の概要] レポート (Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: '概要: 通話診断の概要レポートについて説明します。Skype for Business Server。'
-ms.openlocfilehash: 88537a3f52679883fb5cf051a28d2c0c42294d16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef50ecde07fdd7354bd97c40bddfe4fb5e762d08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757299"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827570"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>[通話診断の概要] レポート (Skype for Business Server
  
@@ -72,8 +72,8 @@ ms.locfileid: "60757299"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|[**セッションの合計数**] <br/> |いいえ  <br/> |実施されたピアツーピア セッションの総数です。  <br/> |
-|**エラー率** <br/> |いいえ  <br/> |エラーが発生したピアツーピア セッションの割合です。この項目をクリックすると、このレポートでは、エラーが発生したピアツーピア セッションに関する詳細情報を示すピアツーピア アクティビティ診断レポートが表示されます。  <br/> |
+|[**セッションの合計数**] <br/> |不要  <br/> |実施されたピアツーピア セッションの総数です。  <br/> |
+|**エラー率** <br/> |不要  <br/> |エラーが発生したピアツーピア セッションの割合です。この項目をクリックすると、このレポートでは、エラーが発生したピアツーピア セッションに関する詳細情報を示すピアツーピア アクティビティ診断レポートが表示されます。  <br/> |
    
 ## <a name="metrics-for-conferencing-sessions"></a>電話会議セッションの指標
 
@@ -83,12 +83,12 @@ ms.locfileid: "60757299"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|[**電話会議の合計数**] <br/> |いいえ  <br/> |実施された電話会議の総数です。  <br/> |
-|[**電話会議セッションの合計数**] <br/> |いいえ  <br/> |実施された電話会議セッションの総数です。  <br/> |
-|[**全体的なセッション エラー率**] <br/> |いいえ  <br/> |エラーが発生した電話会議セッション総数の割合です。  <br/> |
-|[**フォーカス セッション**] <br/> |いいえ  <br/> |エラーが発生したフォーカス ベース電話会議セッションの総数です。  <br/> |
-|[**フォーカス エラー率**] <br/> |いいえ  <br/> |エラーが発生したフォーカス ベース電話会議セッションの割合です。  <br/> |
-|[**MCU セッション**] <br/> |いいえ  <br/> |エラーが発生した、会議サーバー (以前の Multipoint Control Unit (MCU)) ベースの電話会議の総数です。  <br/> |
-|[**MCU エラー率**] <br/> |いいえ  <br/> |エラーが発生した、会議サーバー (以前の Multipoint Control Unit (MCU)) ベースの電話会議の割合です。  <br/> |
+|[**電話会議の合計数**] <br/> |不要  <br/> |実施された電話会議の総数です。  <br/> |
+|[**電話会議セッションの合計数**] <br/> |不要  <br/> |実施された電話会議セッションの総数です。  <br/> |
+|[**全体的なセッション エラー率**] <br/> |不要  <br/> |エラーが発生した電話会議セッション総数の割合です。  <br/> |
+|[**フォーカス セッション**] <br/> |不要  <br/> |エラーが発生したフォーカス ベース電話会議セッションの総数です。  <br/> |
+|[**フォーカス エラー率**] <br/> |不要  <br/> |エラーが発生したフォーカス ベース電話会議セッションの割合です。  <br/> |
+|[**MCU セッション**] <br/> |不要  <br/> |エラーが発生した、会議サーバー (以前の Multipoint Control Unit (MCU)) ベースの電話会議の総数です。  <br/> |
+|[**MCU エラー率**] <br/> |不要  <br/> |エラーが発生した、会議サーバー (以前の Multipoint Control Unit (MCU)) ベースの電話会議の割合です。  <br/> |
    
 

@@ -2,7 +2,7 @@
 title: 2015 年に共有回線の外観をSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: このトピックでは、2015 年 11 月 2015 年 11 月の累積的な更新プログラムで共有回線の外観 (SLA) を展開するSkype for Business Server説明します。 SLA は、共有番号と呼ばれる特定の番号で複数の呼び出しを処理する機能です。
-ms.openlocfilehash: edf731976ae9fbf36f99266f0d993c9e4e78fa34
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e79bb427c28f2c0e8dcc3ff7b5e0d1f6319ac7d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749446"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835945"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>2015 年に共有回線の外観をSkype for Business Server
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams で受信通話をブロックする
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -14,16 +14,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 4e7e6d40173bb5917a6cf540481257b21253eeaa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1b5b19189ea301eab5d2c06dfa85be7d4ddb6eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766225"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827390"
 ---
 # <a name="block-inbound-calls"></a>受信通話をブロックする
 
-Microsoft 通話プラン、直接ルーティング、およびオペレーター Connect、パブリック交換電話網 (PSTN) からの着信通話のブロックをサポートしています。 この機能により、管理者はテナント グローバル レベルで番号パターンのリストを定義し、テナントに対するすべての着信 PSTN 呼び出しの発信者番号を一致のリストに対してチェックできます。 一致した場合、着信は拒否されます。
+Microsoft 通話プラン、直接ルーティング、およびオペレーター Connect公衆交換電話網 (PSTN) からの着信通話のブロックをサポートしています。 この機能を使用すると、管理者はテナント グローバル レベルで番号パターンのリストを定義し、テナントに対するすべての着信 PSTN 呼び出しの発信者番号を一致のリストに対してチェックできます。 一致した場合、着信は拒否されます。
 
 この着信呼び出しブロック機能は、PSTN から発信され、テナント グローバル レベルでのみ機能する受信呼び出しでのみ機能します。 個々Teamsユーザーは、このリストを操作できない。 このTeamsでは、個々のユーザーが PSTN 通話をブロックできます。 エンド ユーザーが通話ブロックを実装する方法については、「通話の設定を管理する」を参照[Teams。](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
@@ -98,7 +98,7 @@ Get-CsInboundBlockedNumberPattern
 
 New- **、Get-**  **、Set-** **、Remove-CsInboundExemptNumberPattern** コマンドレットを使用して、ブロックされた番号パターンに例外を追加できます。
 
-- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) は、テナントリストに数の例外パターンを追加します。 
+- [New-CsInboundExemptNumberPattern](/powershell/module/skype/New-CsInboundExemptNumberPattern) は、テナントリストに数例外パターンを追加します。 
 - [Get-CsInboundExemptNumberPattern](/powershell/module/skype/Get-CsInboundExemptNumberPattern) は、テナント リストに追加された例外パターンの一覧を返します。
 - [Set-CsInboundExemptNumberPattern](/powershell/module/skype/Set-CsInboundExemptNumberPattern) は、テナントリスト内の 1 つ以上のパラメーターを数値例外パターンに変更します。
 - [Remove-CsInboundExemptNumberPattern](/powershell/module/skype/Remove-CsInboundExemptNumberPattern) は、テナントリストから数値例外パターンを削除します。

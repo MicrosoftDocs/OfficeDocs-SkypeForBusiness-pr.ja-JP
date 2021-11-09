@@ -2,7 +2,7 @@
 title: サービスを管理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: サービスの状態を表示し、サービスを開始および停止し、サービスのセッションを防止する方法について学習します。
-ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cc5218f5347eb2124f42b8881bce730c74889bda
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756984"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864734"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>サービスを管理Skype for Business Server
 

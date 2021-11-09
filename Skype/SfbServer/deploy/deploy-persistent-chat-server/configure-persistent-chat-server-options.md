@@ -2,7 +2,7 @@
 title: 2015 年の常設チャット サーバー のSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: '概要: 2015 年のグローバル レベル、サイト レベル、またはプール レベルで常設チャット サーバー オプションを構成するSkype for Business Serverします。'
-ms.openlocfilehash: 76ad47a45f8883064b712107ec54b20939437dcb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 99dab0b4a5e7bb542dee00803e5c401c63544ada
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751316"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835845"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバー のSkype for Business Serverする
  

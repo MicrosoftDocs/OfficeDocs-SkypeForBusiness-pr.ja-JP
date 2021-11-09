@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 2019 年にクラウド自動応答を使用するSkype for Business Server
-ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 832ba7fc5e93a76cc3e05d09baecd880241f6c46
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011511"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857084"
 ---
 # <a name="plan-cloud-auto-attendants"></a>クラウド自動応答の計画
 
@@ -37,7 +37,7 @@ Exchange ユニファイド メッセージング (Exchange Server 2013 また�
 ![自動応答の図。](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via Skype for Business Server 2019
-2. セッション ボーダー[コントローラーとダイレクト ルーティング](/MicrosoftTeams/direct-routing-border-controllers)[を介して](/microsoftteams/direct-routing-plan-media-bypass)。
+2. セッション ボーダー[コントローラーとダイレクト ルーティング](/microsoftteams/direct-routing-border-controllers)[を介して](/microsoftteams/direct-routing-plan-media-bypass)。
 3. オンラインまたはオンラインのMicrosoft 365経由Office 365。
 
 以下も参照してください。
@@ -45,7 +45,7 @@ Exchange ユニファイド メッセージング (Exchange Server 2013 また�
 - [クラウドの自動応答をセットアップする](/microsoftteams/create-a-phone-system-auto-attendant)
 - [着信呼び出しへの自動応答とルーティング](/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>要件
+## <a name="requirements"></a>Requirements
 
 次の要件では、サポートされているトポロジSkype for Business Server 2019 を既に展開していることを前提とします。  要件はシナリオによって異なります。
 
@@ -64,7 +64,7 @@ Exchange ユニファイド メッセージング (Exchange Server 2013 また�
 
 ## <a name="migration-and-interoperability"></a>移行と相互運用性
 
-2019 年または Skype for Business Server Exchange Server 2019 の展開を計画している場合は、自動応答の継続的なサポートを確保するために、移行を慎重に計画する必要があります。 以下の点にご注意ください:
+2019 年または Skype for Business Server Exchange Server 2019 の展開を計画している場合は、自動応答の継続的なサポートを確保するために、移行を慎重に計画する必要があります。 以下の点にご注意ください。
 
 - Exchange Server 2019 では、UM Exchange機能が提供されなくなりました
 - Exchangeユニファイド メッセージングが終了モード
