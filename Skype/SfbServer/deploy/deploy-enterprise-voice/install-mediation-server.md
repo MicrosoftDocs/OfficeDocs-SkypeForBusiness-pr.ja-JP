@@ -2,7 +2,7 @@
 title: 仲介サーバーのファイルをサーバーにインストールSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: '概要: 仲介サーバー用のファイルをインストールする方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 8dcc6862b55a4620030d03ed442a24e22ccde54b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6efe52ab2964e8a9c95083bbcf6592573ebf7da2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769625"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839689"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>仲介サーバーのファイルをサーバーにインストールSkype for Business Server
  

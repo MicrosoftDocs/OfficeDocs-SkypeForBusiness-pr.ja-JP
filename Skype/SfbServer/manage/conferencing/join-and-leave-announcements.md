@@ -2,7 +2,7 @@
 title: 会議への参加を管理し、会議のアナウンスをSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: '概要: 会議への参加を管理し、会議にアナウンスを残す方法についてSkype for Business Server。'
-ms.openlocfilehash: 375cd1da4e60ccd9c6d7e4eb2864d49279e3c62a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ee624ee347bb52f4bbdf4fbfae42f5303c8b6a54
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765485"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837669"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>会議への参加を管理し、会議のアナウンスをSkype for Business Server
  

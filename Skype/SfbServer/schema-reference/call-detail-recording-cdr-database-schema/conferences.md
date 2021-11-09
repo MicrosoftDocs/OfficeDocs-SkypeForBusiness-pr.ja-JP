@@ -2,7 +2,7 @@
 title: 2015 年Skype for Business Server会議の表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: この表の各レコードには、1 つの会議に関する通話の詳細が含まれている。
-ms.openlocfilehash: 22d394ca447852a32d8028770d7ceefea7adbcf1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cbcda30c47b4bbeac012f80d64f297a9a1259f2c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763415"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838449"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>2015 年Skype for Business Server会議の表
  

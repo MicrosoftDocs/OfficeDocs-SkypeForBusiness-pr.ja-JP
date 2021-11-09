@@ -2,7 +2,7 @@
 title: XMPP フェデレーション パートナー 新規の作成または既存の編集
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 0e02ce6ad94db08b5ed6b245af5b194c3e31d507
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3e4a1b55449947d56a15132edd8541ee4cab0804
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746303"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839129"
 ---
 # <a name="xmpp-federated-partners-create-new-or-edit-existing"></a>XMPP フェデレーション パートナー: 新規作成または現在の形式のままで編集
 

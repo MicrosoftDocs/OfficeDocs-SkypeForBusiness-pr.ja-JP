@@ -1,7 +1,7 @@
 ---
 title: '[Skypeのルーム システム アカウントMicrosoft 365プロビジョニングOffice 365'
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: このトピックを参照して、SkypeまたはSkypeの Room System アカウントのプロビジョニングMicrosoft 365説明Office 365。
-ms.openlocfilehash: 1f4262453735baa08e16e7da03909e48ef12f4ff
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 77416d34c3b478f0013cf41c63dcebd52e52f3ce
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758119"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853771"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>[Skypeのルーム システム アカウントMicrosoft 365プロビジョニングOffice 365
  

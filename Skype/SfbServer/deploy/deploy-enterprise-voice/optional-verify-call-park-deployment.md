@@ -2,7 +2,7 @@
 title: (省略可能)[通話パークの展開を確認する] Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: コール パークの展開をSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 86644cc3b626bcb59b1991bcb57e17b7c1716931
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9258a38936ffe22eb209c4b4bd9d1e5692341003
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773237"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838339"
 ---
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(省略可能)[通話パークの展開を確認する] Skype for Business
  

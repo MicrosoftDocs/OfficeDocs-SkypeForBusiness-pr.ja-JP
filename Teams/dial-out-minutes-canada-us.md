@@ -1,6 +1,6 @@
 ---
 title: Office 365電話会議の米国とカナダへのダイヤルアウト通話 (分) の延長
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2c1ec4f5a4c96f62b54a9c97cecb003b05e731
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 20775abe5b463daed9d07245275ff9a2e176d685
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751526"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838379"
 ---
 # <a name="office-365-audio-conferencing-extended-dial-out-minutes-to-us-and-canada"></a>Office 365電話会議の米国とカナダへのダイヤルアウト通話 (分) の延長
 

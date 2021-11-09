@@ -1,6 +1,6 @@
 ---
 title: ニカラグアでの可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Nicaragua でMicrosoft 365およびOffice 365のSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: e1b3681cf859f668b366e1ee920da24ba05e944c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9ff8d2a0a6051a68dfb13bf5905aa5ed0a90f303
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743033"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852791"
 ---
 # <a name="availability-in-nicaragua"></a>ニカラグアでの可用性
 
@@ -72,7 +72,7 @@ Nicaragua でMicrosoft 365およびOffice 365のSkype for BusinessおよびMicro
 |有料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は[、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号の取得」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

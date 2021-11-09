@@ -2,7 +2,7 @@
 title: モビリティの展開と構成をSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: この記事では、モビリティ サービスを使用する既存の Skype for Business Server インストールを構成し、モバイル デバイスが Skype for Business Server モビリティ機能を利用できるようにする手順について説明します。
-ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b4ca8b229fb0d6fc15305bb15c32466a678955f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741503"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865425"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>モビリティの展開と構成をSkype for Business Server  
  
@@ -317,7 +317,7 @@ TMG は製品として Microsoft によって提供されなくなりました�
     
    - **要求を受け** 入れるが、ドメイン名用である必要があります。
     
-   - [名前 **] に****「lyncdiscover」と入力する必要があります。** <sipdomain> (これは外部自動検出サービスの URL です)。 ここで、フロントエンド プールに外部 Web サービス URL のルールを作成する場合は、フロントエンド プールの外部 Web サービスの FQDN を入力する必要があります (たとえば、lyncwebextpool01.contoso.com)。
+   - [名前 **] に****「lyncdiscover」と入力する必要があります。**\<sipdomain> (これは外部自動検出サービスの URL です)。 ここで、フロントエンド プールに外部 Web サービス URL のルールを作成する場合は、フロントエンド プールの外部 Web サービスの FQDN を入力する必要があります (たとえば、lyncwebextpool01.contoso.com)。
     
    - [パス] オプション **が** 表示され、ここに * と入力 **/\\** する必要があります。
     
@@ -363,7 +363,7 @@ TMG は製品として Microsoft によって提供されなくなりました�
     
    - **要求を受け** 入れるが、ドメイン名用である必要があります。
     
-   - [名前 **] に****「lyncdiscover」と入力する必要があります。** <sipdomain> (これは外部自動検出サービスの URL です)。
+   - [名前 **] に****「lyncdiscover」と入力する必要があります。**\<sipdomain> (これは外部自動検出サービスの URL です)。
     
    - [パス] オプション **が** 表示され、ここに * と入力 **/\\** する必要があります。
     
@@ -463,7 +463,7 @@ Skype for Business Server 2015 の Lync Server 2010 クライアントの場合�
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-さらにコマンド手順を確認するには [、Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) と [Test-CsMcxP2PIM を確認できます](/powershell/module/skype/test-csmcxp2pim?view=skype-ps)。
+さらにコマンド手順を確認するには [、Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference) と [Test-CsMcxP2PIM を確認できます](/powershell/module/skype/test-csmcxp2pim)。
   
 ## <a name="configure-for-push-notifications"></a>プッシュ通知を構成する
 <a name="ConfigPush"> </a>
@@ -592,7 +592,7 @@ Skype for Business Server では、モビリティ サービスを使用でき�
     > [!NOTE]
     > モビリティへのアクセスをオフにすることなく、仕事で通話をオフにできます。 ただし、仕事で通話をオフにしない場合は、モビリティをオフに設定できます。 
   
-    詳細については [、「Set-CsMobilityPolicy」を参照してください](/powershell/module/skype/set-csmobilitypolicy?view=skype-ps)。
+    詳細については [、「Set-CsMobilityPolicy」を参照してください](/powershell/module/skype/set-csmobilitypolicy)。
     
 ### <a name="modify-mobility-policy-by-site"></a>サイト別にモビリティ ポリシーを変更する
 
@@ -606,7 +606,7 @@ Skype for Business Server では、モビリティ サービスを使用でき�
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    詳細については [、「New-CsMobilityPolicy」を参照してください](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+    詳細については [、「New-CsMobilityPolicy」を参照してください](/powershell/module/skype/new-csmobilitypolicy)。
     
 ### <a name="modify-mobility-policy-by-user"></a>ユーザーによるモビリティ ポリシーの変更
 

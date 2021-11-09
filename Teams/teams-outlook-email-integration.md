@@ -1,6 +1,6 @@
 ---
 title: Teams と Outlook のメールの統合
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16103b19385af5d9e4519302df1ecde62c0b6cc3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c6f41d26a2d87d1c95b99534a866f64cd9f30eb8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774317"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837459"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams と Outlook のメールの統合
 
@@ -29,7 +29,7 @@ Microsoft Teams には、組織内のユーザーが Outlook のメールと Tea
 
 **Outlook と共有** すると、Teams を離れることなく、Outlook のメールに Teams の会話のコピーを共有できます。 この機能は、ユーザーが直属のチーム以外のユーザーや組織外のユーザーと会話やステータスの更新を共有する必要がある場合に便利です。  Teams で会話の一番上に移動し、[ **...その他のオプション**] を選択し、[**Outlook に共有する**] を選択します。  詳細については、「[Teams から Outlook に共有する](https://support.office.com/article/share-to-outlook-from-teams-f9dabbe9-9e9b-4e35-99dd-2eeeb67c4f6d)」をご覧ください。
 
-![[共有して共有] 機能Outlookを示すスクリーンショットTeams。](media/share-to-outlook.png)
+![[共有] 機能をOutlookスクリーンショットTeams。](media/share-to-outlook.png)
 
 この機能を使用するには、ユーザーに対して Outlook on the web がオンになっている必要があります。 Outlook on the web がオフになっている場合は、**Teams** のユーザーに対して、[Outlook に共有する] のオプションは表示されません。 Outlook on the web をオンまたはオフにする手順については、「[メールボックスメールボックス用に Outlook on the web を有効または無効にする](/exchange/recipients-in-exchange-online/manage-user-mailboxes/enable-or-disable-outlook-web-app)」をご覧ください。
 

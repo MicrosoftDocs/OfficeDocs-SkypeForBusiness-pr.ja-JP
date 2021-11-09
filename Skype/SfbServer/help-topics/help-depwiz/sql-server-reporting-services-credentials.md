@@ -2,7 +2,7 @@
 title: SQL Server Reporting Services (資格情報)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: 監視データベースにアクセスするための SQL Server Reporting Services (SSRS) の資格情報を指定するには、次の操作を行います。
-ms.openlocfilehash: a871b24f88ec717c81e9d55df3c9adff80b6a1ad
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 809688b2b6c9c25338e86fa3e07682b7b578f7f5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776647"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853361"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services (資格情報)
  

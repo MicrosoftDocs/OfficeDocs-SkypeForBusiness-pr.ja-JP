@@ -2,7 +2,7 @@
 title: エッジ サーバー IP 追加オプション
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: Microsoft Lync Server 2013 では、エッジ サーバーとエッジ プールのインターフェイスごとに IPv4 アドレスと IPv6 アドレスを構成できます。 これを行うには、次の操作を行います。
-ms.openlocfilehash: b26fdd7dccca93f04c5fa5d9ee40e644143f8f9c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7cac0c12014e1b4b83ca186fe20adfa67469d8a2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776377"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852181"
 ---
 # <a name="add-edge-server-ip-options"></a>エッジ サーバー IP のオプション
  

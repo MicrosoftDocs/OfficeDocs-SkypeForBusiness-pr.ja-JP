@@ -2,7 +2,7 @@
 title: 'Skype for Business Server: SIP トランク構成設定の変更'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: '概要: [コントロール パネル] を使用して SIP トランク構成設定を変更するSkype for Business Server説明します。'
-ms.openlocfilehash: 83cad666b07c011b2b0a23ad4d51532e52a623c5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e2e935e47f629ff3dcbf0106f1728402be986c1d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745353"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839649"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype for Business Server: SIP トランク構成設定の変更 
  

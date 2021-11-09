@@ -1,6 +1,6 @@
 ---
 title: 直接ルーティング セッション ボーダー コントローラー接続をテストする PowerShell スクリプト
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -16,16 +16,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: acba1d06debc9a0e06ee6636e14ee5cbf15bd90f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bd2d0aa4a22e306d08ce215341e6e0a32efb100c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774407"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837469"
 ---
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>直接ルーティング セッション ボーダー コントローラー接続をテストする PowerShell スクリプト
 
-SIP Tester クライアントは PowerShell スクリプトのサンプルで、このスクリプトを使用して、Microsoft Teams で直接ルーティング セッション ボーダー コントローラー (SBC) 接続をテストできます。 このスクリプトでは、顧客ペアのセッション開始プロトコル (SIP) トランクの基本的な機能を直接ルーティングでテストします。
+SIP Tester クライアントは、直接ルーティング セッション ボーダー コントローラー (SBC) 接続をテストするために使用できる PowerShell スクリプトのサンプルMicrosoft Teams。 このスクリプトでは、顧客ペアのセッション開始プロトコル (SIP) トランクの基本的な機能を直接ルーティングでテストします。
 
 このスクリプトは、SIP テストをテスト ランナーに送信し、結果を待機して、人間が判読できる形式で表示します。 このスクリプトを使用して、次のシナリオをテストできます。
 
@@ -39,6 +39,6 @@ SIP Tester クライアントは PowerShell スクリプトのサンプルで、
 SIP [Tester クライアント スクリプトとドキュメント をダウンロードします](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)。
 
   > [!NOTE]
-  > SIP Tester クライアント スクリプトは、adal.ps 3.19.8.1 のみをサポートします。 新しいバージョンのアプリケーションが使用されている場合、adal.ps が返されます。
+  > SIP Tester クライアント スクリプトは、adal.ps 3.19.8.1 のみをサポートします。 新しいバージョンのアプリケーションが使用されている場合、adal.ps 返されます。
   
   

@@ -2,7 +2,7 @@
 title: ユーザー 新しい Lync Server ユーザー
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 70fe7343cef3bbf6d32fbce8a28bca3eebc13cb5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 86e0fae5eeaab3715a08a3331b9591585bc701e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748003"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852311"
 ---
 # <a name="users-new-lync-server-user"></a>ユーザー: 新しい Lync Server ユーザー
 

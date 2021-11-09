@@ -1,6 +1,6 @@
 ---
 title: Windows での Microsoft Teams のインストールと更新に関する問題のトラブルシューティング
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Windows の Teams デスクトップ クライアント アプリのインストールと更新に関する問題をトラブルシューティングする方法について説明します。
-ms.openlocfilehash: f65e4b6d6bebd463d143bedc1b1cd50f031cb299
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71a7162e243779ae779a4e0224d54955ec611e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777157"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865445"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Windows での Microsoft Teams のインストールと更新に関する問題のトラブルシューティング
 
@@ -123,7 +123,7 @@ Teams は自身を新しいバージョンに更新する必要があると判�
 - これが発生している問題であることを確認するために、Teams を終了します (タスクバーの [Teams] を右クリックし、[**終了**] をクリックします)。 次に、Windows のタスク マネージャーを開いて、Teams インスタンスがまだ実行中であるかどうかを確認します。  
 - この問題が発生しているコンピューターを使用していない場合は、この問題が発生しているコンピューターから収集された SquirrelTemp.log を調べ、"Program: Unable to terminate the process in the log" というエントリを探します。
 - Teams.exe の終了を妨げている原因を特定するには、Dlls.txt および Handles.txt ログを確認します。 これらは、Teams の終了を妨げたプロセスを示しています。
-- Teams の終了を妨げる可能性のあるもう 1 つの原因は、カーネル モードのファイル システム フィルター ドライバーです。 SysInternals ツールの [ProcDump](/sysinternals/downloads/procdump) を使用して、```procdump -mk <pid>``` を実行して、カーネル モード プロセス ダンプを収集します。ここで、<pid> はタスク マネージャーから取得したプロセス ID です。 Driverquery.txt ログファイルを調べて、Teams に干渉する可能性のあるアクティブなフィルター ドライバーを確認することもできます。
+- Teams の終了を妨げる可能性のあるもう 1 つの原因は、カーネル モードのファイル システム フィルター ドライバーです。 SysInternals ツールの [ProcDump](/sysinternals/downloads/procdump) を使用して、```procdump -mk <pid>``` を実行して、カーネル モード プロセス ダンプを収集します。ここで、\<pid> はタスク マネージャーから取得したプロセス ID です。 Driverquery.txt ログファイルを調べて、Teams に干渉する可能性のあるアクティブなフィルター ドライバーを確認することもできます。
 - この状態から回復するには、コンピューターを再起動します。
 
 #### <a name="file-permissions"></a>ファイルのアクセス許可

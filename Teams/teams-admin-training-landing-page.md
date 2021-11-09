@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams の管理者トレーニング
 ms.reviewer: ''
-description: 組織の管理に必要な管理者のトレーニングとMicrosoft Teams取得します。
-author: cichur
+description: 組織の管理に必要な管理者トレーニングとサポートMicrosoft Teams取得します。
+author: HowlinWolf-92
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -20,12 +20,12 @@ f1.keywords:
 search.appverid: MET150
 ms.topic: landing-page
 ms.author: v-mahoffman
-ms.openlocfilehash: a7260b3d522a3a7b06deef73eb3e262b892307b7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5ba0fb0b417d99731eb5474d0d931c10ed86eab2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743013"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853821"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Microsoft Teams の管理者トレーニング
 

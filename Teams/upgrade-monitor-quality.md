@@ -1,13 +1,13 @@
 ---
 title: ユーザー エクスペリエンスの|Microsoft Teams |QoS |通話品質
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 管理者は、品質と使用状況を監視するために必要なタスクとアクティビティについてMicrosoft Teams。
+description: 管理者は、サービスの品質と使用状況を監視するために必要なタスクとアクティビティについてMicrosoft Teams。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48bc26e01559d30e07e580f5adbe266506280c4e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760375"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865536"
 ---
 # <a name="quality-of-experience-review-guide"></a>QoE のレビュー ガイド
 
 ![アップグレード体験の Operational Excellence ステージを強調表示した図。](media/upgrade-banner-op-excellence.png "Operational Excellence ステージに重点を置いたアップグレード体験のステージ")
 
-この記事は、アップグレード体験の Operational Excellence ステージの一部です。これは、Skype for Business から Teams へのアップグレードが完了するとすぐに開始されます。
+この記事は、アップグレード体験の Operational Excellence ステージの一部です。この段階は、Skype for Business から Teams へのアップグレードが完了するとすぐに開始されます。
 
 ## <a name="improve-and-monitor-call-quality"></a>通話品質の向上と監視
 
@@ -53,7 +53,7 @@ ms.locfileid: "60760375"
 
 - 問題のあるサブネットまたはネットワーク デバイス
 
-[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためのオーディオに重点を置いて、説明されている各領域をレポートおよび調査するための主要なツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
+[Teams](monitor-call-quality-qos.md)の通話品質の向上と監視に関するガイダンスでは、導入と影響を最大化するためにオーディオに重点を置いて、説明されている各領域を報告および調査するための主要なツールとして通話品質ダッシュボード (CQD) Online を使用する方法に重点を置いています。 音声エクスペリエンスを改善するためにネットワークに対して行われた最適化は、ビデオおよびデスクトップ共有を改善することにも直接転用されます。
 
 早い段階で品質チャンピオンをノミネートすることを強くお勧めします。 ノミネートされた後は、「通話品質の向上と監視」の内容に慣れ始める必要[Teams。](monitor-call-quality-qos.md)
 

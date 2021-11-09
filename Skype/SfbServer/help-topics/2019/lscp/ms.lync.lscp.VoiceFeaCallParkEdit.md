@@ -2,7 +2,7 @@
 title: Call Park Create New or Edit Existing
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 呼び出しパーク番号の範囲は、パークされた通話が保持される一時的な番号を定義します。その番号は、他のユーザーが通話を取得するか、または時間が切れるまで保持されます。
-ms.openlocfilehash: 0a30bcd12e89cbfdc65078d03f468e4462423de8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9dc6f60a9adef67ad3237512deaee0bf7b62de6b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776987"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838979"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>コール パーク: 新規作成または現在の形式のままで編集
 

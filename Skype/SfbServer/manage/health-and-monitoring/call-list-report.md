@@ -2,7 +2,7 @@
 title: 応答グループ通話リスト レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: '概要: [応答グループ] アプリケーションの詳細については、「Skype for Business Server。'
-ms.openlocfilehash: 46193159c9cb29f63b3fc4ca9053a3e9dd098d01
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: df1ff0cb6e7eb4fcae8a506cf62bf075734f97eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773617"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837599"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>応答グループ通話リスト レポート (Skype for Business Server
 
@@ -108,11 +108,11 @@ Count    Name
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|**Caller** <br/> |いいえ  <br/> |発信者の SIP アドレス。  <br/> |
-|**ワークフロー** <br/> |いいえ  <br/> |応答グループ ワークフローの SIP アドレス。  <br/> |
-|[**開始時刻**] <br/> |いいえ  <br/> |通話が開始された日時。  <br/> |
-|[**終了時刻**] <br/> |いいえ  <br/> |通話が終了した日時。  <br/> |
-|[**応答コード**] <br/> |いいえ  <br/> |セッションが失敗したときに送信された SIP 応答コード。  <br/> |
+|**Caller** <br/> |不要  <br/> |発信者の SIP アドレス。  <br/> |
+|**ワークフロー** <br/> |不要  <br/> |応答グループ ワークフローの SIP アドレス。  <br/> |
+|[**開始時刻**] <br/> |不要  <br/> |通話が開始された日時。  <br/> |
+|[**終了時刻**] <br/> |不要  <br/> |通話が終了した日時。  <br/> |
+|[**応答コード**] <br/> |不要  <br/> |セッションが失敗したときに送信された SIP 応答コード。  <br/> |
 |[**診断 ID**] <br/> |いいえ  <br/> |SIP メッセージに (ms-diagnostics ヘッダーの形で) 添付された一意の識別子。多くの場合、この情報はトラブルシューティングに役立ちます。  <br/> |
 
 

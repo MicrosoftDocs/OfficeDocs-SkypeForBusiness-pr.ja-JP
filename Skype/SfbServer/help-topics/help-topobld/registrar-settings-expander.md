@@ -2,7 +2,7 @@
 title: レジストラー設定エキスパンダー
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: 復元は、レジストラー プールの高可用性と障害復旧を提供します。プライマリ レジストラーに障害が発生した場合にバックアップ レジストラーを提供することで、障害が発生したレジストラーの処理をバックアップ レジストラーが引き継ぐことができるため、ユーザーがログオンして通信することができます。プライマリ レジストラーで障害が発生したシステムによっては、機能が低下する可能性があります。
-ms.openlocfilehash: fd138232b2d1561fbd4628ebacd30e83a571dc62
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 599923fc8b85e57387ff2742a933c60a928a2dde
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768055"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837709"
 ---
 # <a name="registrar-settings-expander"></a>レジストラー設定エキスパンダー
  

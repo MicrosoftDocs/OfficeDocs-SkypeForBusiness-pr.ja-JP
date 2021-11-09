@@ -2,7 +2,7 @@
 title: Web 会議 (計画ツール)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server会議には、ドキュメントの共同作業、アプリケーション共有、デスクトップ共有が含まれます。
-ms.openlocfilehash: 1e1aa9f5cb4b4e079336f4eff3f0d5bb20941fee
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b6300fc1ee1ed8d815fe4358ba036ff440000dde
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776887"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837189"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web 会議 (計画ツール)
  

@@ -2,7 +2,7 @@
 title: 'Skype for Business Server: メディア バイパスなしでトランクを構成する'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: '概要: メディア バイパスを有効にせずにトランクを構成Skype for Business Server。'
-ms.openlocfilehash: 09d178cf2deeb27ec47c39090f7dcc233af3cbb0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bccc88e442532ebf9a2c503fa851965447eb1e85
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759119"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839119"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype for Business Server: メディア バイパスなしでトランクを構成する
 
@@ -105,7 +105,7 @@ ms.locfileid: "60759119"
 
      - この PSTN 使用法レコードに関連付けられているルートを編集するには、ルートを選択し、[**詳細の表示**] をクリックします。
 
-     c. [**OK**] をクリックします。
+     c. **[OK]** をクリックします。
 
      > [!IMPORTANT]
      > 構成されているトランクに関連付けられている仲介サーバー ピアに従って PSTN 使用法レコードを関連付ける必要があります。 仲介サーバー ピアが PSTN ゲートウェイまたはセッション ボーダー コントローラー (SBC) である場合は、トランク構成が PSTN 宛先または Skype for Business Server 経由で接続されている他のダウンストリーム システムにルーティングする PSTN 使用法レコードに関連付けなさらなかった方が強く推奨されます。

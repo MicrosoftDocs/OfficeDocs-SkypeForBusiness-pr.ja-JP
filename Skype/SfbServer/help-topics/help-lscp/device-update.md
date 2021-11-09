@@ -2,7 +2,7 @@
 title: デバイス更新
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 description: Microsoft は、サーバーにインポートしてユーザーに配布できる Skype for Business 電話 Edition のデバイス ファームウェア更新プログラムの新しいセットを定期的にリリースします。 最新のデバイス更新ルールのセットを取得するには、Microsoft Web サイトの [ヘルプとサポート] ページに移動し、Phone Edition を検索します。最新の更新プログラム パッケージをダウンロードし、更新プログラムをアップロードするコンピューター上のフォルダーにファイルを抽出します。 ファイルを抽出した後、Import-CsDeviceUpdate コマンドレットを使用して、抽出された .CAB ファイルにあるデバイス更新ルール (名前は UCUpdates.cab) をインポートできます。 詳細については、「Import-CsDeviceUpdate」を参照してください。
-ms.openlocfilehash: 8758473504ebc7707d79f9fab3d2d4b60c0670ff
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ba5c028569abffe489eeda982e9e11be670c9530
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772493"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838029"
 ---
 # <a name="device-update"></a>デバイス更新
 

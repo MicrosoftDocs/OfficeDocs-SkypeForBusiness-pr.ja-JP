@@ -2,7 +2,7 @@
 title: '[ファイル ストア データを新しいファイル ストアに移動する] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: Skype for Business Server 展開のファイル ストアとして現在機能しているファイル サーバーを削除する必要がある場合、または現在のファイル ストアを使用できない他の変更を行う必要がある場合は、最初に新しい共有を作成する必要があります。 次に、次の手順を実行する必要があります。
-ms.openlocfilehash: 606b3e1f405e75f58612831e896ff8003c87c682
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ab214a4ed23810aa14cefed205cf33dbccb52849
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745943"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838549"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>[ファイル ストア データを新しいファイル ストアに移動する] Skype for Business Server
 

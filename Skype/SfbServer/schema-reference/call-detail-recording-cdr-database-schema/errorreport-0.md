@@ -2,7 +2,7 @@
 title: ErrorReport ビュー
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport ビューには、報告されたエラーに関する情報が格納されます。 各レコードは 1 つのエラー発生です。 このエラーは、フロントエンド サーバーで実行されている CDR エージェントによってキャプチャされます。またはクライアントから送信されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 1937c463696be5b45534e9145b1a91bde80b7114
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5a35cc8b3a726549be7de10259c7e59a67ca5500
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763395"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852931"
 ---
 # <a name="errorreport-view"></a>ErrorReport ビュー
  

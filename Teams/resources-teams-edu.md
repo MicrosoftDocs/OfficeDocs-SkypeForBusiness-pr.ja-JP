@@ -1,6 +1,6 @@
 ---
 title: 'Microsoft Teams: Education 管理者向けリソース'
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
@@ -17,18 +17,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2342f68403120f04e865203c304c2c4e14d41c0a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cabaace50bea563ac2803c33f2b302f2f326bfa4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767195"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865666"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>教育機関管理者向け Microsoft Teams のリソース
 
 ## <a name="resources-for-remote-learning"></a>リモート学習のためのリソース
 
-学校や大学では、リモート学習のためのMicrosoft Teamsを有効にする必要がありますか? [「Getting Started one-pager](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) and any below adoption materials」 (1 ページ 1 ページの使用を開始する) と以下のいずれかの導入資料を使用して、すぐに起動して実行できます。
+学校や大学では、リモート学習のMicrosoft Teamsを有効にする必要がありますか? [「Getting Started one-pager](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) and any below adoption materials」 (1 ページ 1 ページの使用を開始する) と以下のいずれかの導入資料を使用して、すぐに起動して実行できます。
 
 ## <a name="adoption-content"></a>導入向けコンテンツ
 

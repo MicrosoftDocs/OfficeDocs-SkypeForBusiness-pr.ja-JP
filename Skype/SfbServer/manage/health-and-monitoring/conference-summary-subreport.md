@@ -2,7 +2,7 @@
 title: '[会議の概要] サブレポート (Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: '概要: 会議の概要サブレポートについて、Skype for Business Server。'
-ms.openlocfilehash: ef5f444c85cd64d990a8a2aa642d0a1554cec5dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6c2161287b3446d5b7cba28e984ad50cd3a136e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765416"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838629"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>[会議の概要] サブレポート (Skype for Business Server
  
@@ -45,14 +45,14 @@ ms.locfileid: "60765416"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|[**電話会議の合計数**] <br/> |いいえ  <br/> |開催された電話会議の合計数です。  <br/> |
-|[**電話会議セッションの合計数**] <br/> |いいえ  <br/> |電話会議セッションの合計数です。1 つの電話会議に複数のセッションが存在する場合があります。たとえば、1 つの電話会議にフォーカス セッションと MCU セッションの両方が含まれる場合があります。  <br/> |
-|[**全体的なセッション エラー率**] <br/> |いいえ  <br/> |エラーが発生したすべての電話会議の割合です。  <br/> |
-|[**フォーカス セッション**] <br/> |いいえ  <br/> |フォーカス セッションの合計数です。  <br/> |
-|[**フォーカス エラー率**] <br/> |いいえ  <br/> |エラーが発生したフォーカス セッションの割合です。  <br/> |
-|[MCU セッション]  <br/> |いいえ  <br/> |MCU セッションの合計数です。  <br/> |
-|[**MCU エラー率**] <br/> |いいえ  <br/> |エラーが発生した MCU セッションの割合です。  <br/> |
-|[**MCU セッション (モダリティ別)**] <br/> |いいえ  <br/> |モダリティ (IM 電話会議など) ごとにグループ化した、MCU セッションの合計数です。  <br/> |
-|[**エラー率 (モダリティ別)**] <br/> |いいえ  <br/> |モダリティ (IM 電話会議など) ごとにグループ化した、エラーが発生した MCU セッションの割合です。  <br/> |
+|[**電話会議の合計数**] <br/> |不要  <br/> |開催された電話会議の合計数です。  <br/> |
+|[**電話会議セッションの合計数**] <br/> |不要  <br/> |電話会議セッションの合計数です。1 つの電話会議に複数のセッションが存在する場合があります。たとえば、1 つの電話会議にフォーカス セッションと MCU セッションの両方が含まれる場合があります。  <br/> |
+|[**全体的なセッション エラー率**] <br/> |不要  <br/> |エラーが発生したすべての電話会議の割合です。  <br/> |
+|[**フォーカス セッション**] <br/> |不要  <br/> |フォーカス セッションの合計数です。  <br/> |
+|[**フォーカス エラー率**] <br/> |不要  <br/> |エラーが発生したフォーカス セッションの割合です。  <br/> |
+|[MCU セッション]  <br/> |不要  <br/> |MCU セッションの合計数です。  <br/> |
+|[**MCU エラー率**] <br/> |不要  <br/> |エラーが発生した MCU セッションの割合です。  <br/> |
+|[**MCU セッション (モダリティ別)**] <br/> |不要  <br/> |モダリティ (IM 電話会議など) ごとにグループ化した、MCU セッションの合計数です。  <br/> |
+|[**エラー率 (モダリティ別)**] <br/> |不要  <br/> |モダリティ (IM 電話会議など) ごとにグループ化した、エラーが発生した MCU セッションの割合です。  <br/> |
    
 

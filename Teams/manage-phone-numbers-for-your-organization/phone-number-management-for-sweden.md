@@ -1,6 +1,6 @@
 ---
 title: 電話の番号管理
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、スウェーデンの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: 3cb5152fea4897e4970775b17bb3b4a41959b37b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 次の表を使用して、スウェーデンの電話番号の取得と管理に関する情報をMicrosoft Teams。
+ms.openlocfilehash: 23580c70651cbb7ab53c4c1ef9efd31f02fd555e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775967"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839769"
 ---
 # <a name="phone-number-management-for-sweden"></a>電話の番号管理
 
-この表を使用して、スウェーデンの電話番号の取得と管理に関する情報をMicrosoft Teams。
+次の表を使用して、スウェーデンの電話番号の取得と管理に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   

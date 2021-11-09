@@ -2,7 +2,7 @@
 title: Web サービス セキュリティ 設定の作成または既存の変更
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 072a0bae5bd628d032d66a43ee7de737d6efae37
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8badd865fa4145e401464ace3422cdcc997f92f2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770685"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840189"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Web サービスのセキュリティ設定: 新規作成または現在の形式のままで変更
 

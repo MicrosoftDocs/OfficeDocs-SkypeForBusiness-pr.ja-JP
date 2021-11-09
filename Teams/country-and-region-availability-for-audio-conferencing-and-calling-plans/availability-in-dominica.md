@@ -1,7 +1,7 @@
 ---
 title: ドミニカでの可用性
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、ドミニカMicrosoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
-ms.openlocfilehash: d5e0e46cc82ceb6747fd0248ff3cbbe97dbaa462
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: ここでは、ドミニカMicrosoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを示します。
+ms.openlocfilehash: f890a0f5ff6971cafb5a4e158fa860567369682b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760525"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853941"
 ---
 # <a name="availability-in-dominica"></a>ドミニカでの可用性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、ドミニカMicrosoft 365およびOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
+ここでは、ドミニカMicrosoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 

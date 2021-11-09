@@ -2,7 +2,7 @@
 title: 常設チャット SQL Server ストアを追加する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: 常設チャット サーバー SQL Server常設チャット サーバー プールのデータベースを提供するサーバー ストアを構成します。
-ms.openlocfilehash: 27063ed9a2858714e6fd26db9fad98db1c47f95e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0f092d064b280cd75638a7556497debc41b5996c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763945"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837789"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>常設チャット SQL Server ストアの追加
  
