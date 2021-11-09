@@ -2,7 +2,7 @@
 title: フロントエンド サーバーの併置を追加する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: Enterprise Edition 展開では、音声ビデオ会議サービスがフロントエンド プールに併置されます。仲介サーバーをフロントエンド プールに併置することも、スタンドアロンのサーバーとして仲介サーバーを展開することもできます。電話会議を有効にすると、音声ビデオ会議サービスは常に併置されます。
-ms.openlocfilehash: d093bba54e756db22391ef33ea7e20f3bcb0d777
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cdce077dedaba831775364980afed8e52d9751c9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739433"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860364"
 ---
 # <a name="add-front-end-server-collocations"></a>フロント エンド サーバーの併置の追加
 
