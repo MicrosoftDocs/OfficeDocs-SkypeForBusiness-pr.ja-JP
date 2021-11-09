@@ -2,7 +2,7 @@
 title: IMReportSummary テーブル (2015 Skype for Business Server)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: IMReportSummaryTable は、組織内で確立されているインスタント メッセージング セッションについての概要レポートを提供します。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 41856ffd49029f627fd9af93c5bbe296cddd429a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 438b6f7e7093cba3e7f2c1d0b9a82a592128b86c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746673"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845020"
 ---
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>IMReportSummary テーブル (2015 Skype for Business Server)
  

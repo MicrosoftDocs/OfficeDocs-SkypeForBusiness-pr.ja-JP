@@ -2,7 +2,7 @@
 title: McuJoinsAndLeaves テーブル (2015 Skype for Business Server)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: この表の各レコードには、ユーザー参加サーバーまたは退出サーバーと会議サーバーの 1 つの組み合わせに関する通話の詳細が含まれている。 たとえば、ユーザーが Web 会議と音声/ビデオ要素を含む会議に参加した場合、そのユーザーの Web 会議参加用に 1 つのレコードが作成され、ユーザーの電話/ビデオ会議参加用に別のレコードが作成されます。
-ms.openlocfilehash: df18ca4785fab9b56057eb439ab55caa2b1a170f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 35b229d7a3fecbd731fc044cb4c8e30b93e736b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737604"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844970"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>McuJoinsAndLeaves テーブル (2015 Skype for Business Server)
  

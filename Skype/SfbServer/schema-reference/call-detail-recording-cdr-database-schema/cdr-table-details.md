@@ -2,7 +2,7 @@
 title: CDR テーブルの詳細 (Skype for Business Server 2015)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: 以下のトピックでは、通話詳細記録 (CDR) データベース スキーマの各テーブル内の列について詳しく説明します。
-ms.openlocfilehash: 9e368669c03e3b81e6eb7a9e2778a8f0edfe2eef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a88bbb0f76e8bb222de8f4dce665c2177ac9e56
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744043"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845080"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>CDR テーブルの詳細 (Skype for Business Server 2015)
  

@@ -2,7 +2,7 @@
 title: ConferenceJoinTimeThresholds テーブル (Skype for Business Server 2015)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: ConferenceJoinTimeThresholds テーブルには、電話会議参加時間要約レポートによって使用される分類境界が含まれます。電話会議参加時間要約レポートは、ユーザーが問題なく電話会議に参加する目的で必要な時間を集計します。これらの時間値は、平均と、以下のカテゴリの 1 つの両方で報告されます。
-ms.openlocfilehash: 61267cb92e543da3b07b97bd344bc07d2845d6a6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: df247fc259d17fbb0ec263210216563b5b96b0e5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749906"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854181"
 ---
 # <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>ConferenceJoinTimeThresholds テーブル (Skype for Business Server 2015)
  

@@ -2,7 +2,7 @@
 title: 場所ベースのルーティングを計画Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 同時呼び出しと委任Skype for Business Server エンタープライズ VoIP場所ベースのルーティングでサポートされるシナリオを含む、場所ベースのルーティングを計画します。
-ms.openlocfilehash: 928a44ed9484f1766013404d23b61a2cc56841d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aada1db39d4dacbd5a6ec7f5dec1ede08468c50e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741974"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855334"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>場所ベースのルーティングを計画Skype for Business
 

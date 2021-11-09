@@ -2,7 +2,7 @@
 title: 'Skype for Business Server: Active Directory の準備'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: '概要: Active Directory ドメインをインストール用に準備する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: 882a57aa5ee857b0a4c633b6365c7a89c6266669
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbc5769c38436cdc7199aadf4338fa59a47edf3d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775757"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845860"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype for Business Server: Active Directory の準備
  
@@ -161,7 +161,7 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     d. [ **メンバー**] タブで [ **追加**] をクリックします。 [**ユーザー、連絡先、コンピューター、サービス アカウント、またはグループの選択**] で、[**選択するオブジェクト名を入力してください**] を見つけます。 CSAdministrators グループに追加するユーザー名またはグループ名を入力します。 **[OK]** をクリックします。
     
-    e. [メンバー **] タブ** で、選択したユーザーまたはグループが存在します。 [**OK**] をクリックします。
+    e. [メンバー **] タブ** で、選択したユーザーまたはグループが存在します。 **[OK]** をクリックします。
     
     > [!CAUTION]
     > [Skype for Business Serverコントロール パネル] は、役割ベースのアクセス制御ツールです。 CsAdministrator グループのメンバーシップを使用すると、使用可能なすべての構成機能にSkype for Business Serverコントロール パネルのフル コントロールを使用しているユーザーが表示されます。 特定の機能向けに設計されたその他の役割も使用できます。 使用可能なロールの詳細については、「環境[](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)要件」または「Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)のサーバー要件」を参照Skype for Business Serverしてください。 管理グループのメンバーを作成するには、ユーザー Skype for Business Serverを有効にする必要はなんらない点に注意してください。 

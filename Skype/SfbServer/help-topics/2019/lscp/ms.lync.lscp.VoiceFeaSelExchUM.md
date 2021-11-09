@@ -2,7 +2,7 @@
 title: Exchange UM 自動応答の選択
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[Exchange UM 自動応答の選択] ダイアログ ボックスを使用して、	割り当てられていない番号の範囲への着信通話を処理する Exchange UM 自動応答を選択します。'
-ms.openlocfilehash: 82a9c69ba935ccbbfb8d2ff17baee02b7c3eea4f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e36e27d0cab93258f60c7d96db2df11438f0672
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750956"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860724"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Exchange UM 自動応答の選択
 

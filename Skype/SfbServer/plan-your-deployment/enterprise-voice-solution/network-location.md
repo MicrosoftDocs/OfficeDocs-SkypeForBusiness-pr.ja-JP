@@ -2,7 +2,7 @@
 title: ネットワーク内の場所を決定するために使用するネットワーク要素をSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 発信者を E9-1-1 展開の場所にマップするために使用するネットワーク コンポーネントを計画するために必要なSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 908e8b45f1825d7bd98693810ac97b13d4aa3273
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6de3d960dd68dfc0f34ce0e67fef569c36e44612
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768505"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861114"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>ネットワーク内の場所を決定するために使用するネットワーク要素をSkype for Business Server
  

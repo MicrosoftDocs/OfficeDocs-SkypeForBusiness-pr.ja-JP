@@ -1,6 +1,6 @@
 ---
 title: 電話の番号管理
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: この表を使用して、ポルトガルの電話番号の取得と管理に関する情報を確認Microsoft Teams。
-ms.openlocfilehash: 9a5fb9a5c74085eedf29b7e7ac996c8449ddeff1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8e02168fafc4f871042f44513cf5d872f516017e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774457"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844960"
 ---
 # <a name="phone-number-management-for-portugal"></a>電話の番号管理
 
@@ -34,7 +34,7 @@ ms.locfileid: "60774457"
   
 |**実行する操作**|**正しいフォームをダウンロードして、マイクロソフトに送信する**|
 |:-----|:-----|
-|管理センターに表示されていない新しいユーザーまたはサービスの電話番号Microsoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [ポルトガルの新しい電話番号要求 (v.5.0) (pt-pt)](https://download.microsoft.com/download/9/2/3/923a2900-c545-4823-aa51-b911ce06cd8d/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf) <br/>  [ポルトガル (v.5.0) の新しい電話番号要求 (en-us)](https://download.microsoft.com/download/a/7/e/a7ec1596-eabc-49a7-ac47-9b399c847565/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf)<br/>  <br/>入力して [、TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。<br/><br/> また、三者契約に記入し、署名し、TNS サービス デスクに問い合わせ、手順 [を確認する必要があります](contact-tns-service-desk.md)。 このフォームは、新しい電話番号を取得する注文を行った後、TNS Service Desk チームから送信されます。 <br/><br/>|
+|管理センターに表示されていない新しいユーザーまたはサービスMicrosoft Teams取得します。   <br/> |これらのフォームのいずれかをダウンロードします。 <br/>  [ポルトガルの新しい電話番号要求 (v.5.0) (pt-pt)](https://download.microsoft.com/download/9/2/3/923a2900-c545-4823-aa51-b911ce06cd8d/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf) <br/>  [ポルトガル (v.5.0) の新しい電話番号要求 (en-us)](https://download.microsoft.com/download/a/7/e/a7ec1596-eabc-49a7-ac47-9b399c847565/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf)<br/>  <br/>入力して [、TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。<br/><br/> また、三者契約に記入し、署名し、TNS サービス デスクに問い合わせ、手順 [を確認する必要があります](contact-tns-service-desk.md)。 このフォームは、新しい電話番号を取得する注文を行った後、TNS Service Desk チームから送信されます。 <br/><br/>|
 |転送された電話番号を取得します。  <br/> | このフォームをダウンロードします。 <br/>[ポルトガルの承認状 (LOA) (すべての数値) (v.6.0) (pt-pt)](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>入力して [、TNS サービス デスクに問い合わせ、手順を確認してください](contact-tns-service-desk.md)。 <br/><br/> また、三者契約に記入し、署名し、TNS サービス デスクに問い合わせ、手順 [を確認する必要があります](contact-tns-service-desk.md)。 このフォームは、電話番号の転送を注文した後、TNS サービス デスク チームから送信されます。<br/><br/>|
 |国内電話番号ディレクトリの電話番号を公開/発行解除します。  <br/> |[公開/発行を取](contact-tns-service-desk.md) り消す電話番号の一覧については、TNS サービス デスクにお問い合わせください。      <br/> |
 |ユーザーの番号をサービス番号に変更します。  <br/> |[サービス番号に変換する](contact-tns-service-desk.md) ユーザー番号の一覧については、TNS サービス デスクにお問い合わせください。 <br/> |

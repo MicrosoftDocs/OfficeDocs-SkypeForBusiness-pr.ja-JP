@@ -2,7 +2,7 @@
 title: 送信音声ルーティングの計画を立Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 通話ルーティング設定、ダイヤル プラン、正規化ルール、音声ポリシー、PSTN 使用法レコード、音声ルートなど、Skype for Business Server エンタープライズ VoIP での発信音声ルーティングについて説明します。
-ms.openlocfilehash: 47b0b196579d69612c3c9d62c8ca9aade008535e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1c8331f1959b03166ecd02b65e6fa1080bb43993
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759509"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861074"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>送信音声ルーティングの計画を立Skype for Business Server
  

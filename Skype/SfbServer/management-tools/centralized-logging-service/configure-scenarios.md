@@ -2,7 +2,7 @@
 title: 2015 年の集中ログ サービスのシナリオSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: '概要: 2015 年の集中ログ サービスのシナリオを作成、変更、および削除するSkype for Business Serverします。'
-ms.openlocfilehash: da9a3c431be78a3abeab929fab86f1bf45e6cfa7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 10225be172d91aba18db29a1a6669cfbe8656fa6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766345"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855444"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>2015 年の集中ログ サービスのシナリオSkype for Business Serverする
  

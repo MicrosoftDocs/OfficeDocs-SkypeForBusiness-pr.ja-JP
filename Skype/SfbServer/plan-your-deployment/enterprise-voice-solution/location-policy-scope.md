@@ -2,7 +2,7 @@
 title: '[場所ポリシーのスコープを割り当てる] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: E9-1-1 展開の場所ポリシーを計画Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 2b3733df7e03f9f66b836a889732a023bddb18de
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7748d6ecf58769a2d9bee71aa61ccf871dc667c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770145"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855314"
 ---
 # <a name="assign-location-policy-scope-in-skype-for-business-server"></a>[場所ポリシーのスコープを割り当てる] Skype for Business Server
  

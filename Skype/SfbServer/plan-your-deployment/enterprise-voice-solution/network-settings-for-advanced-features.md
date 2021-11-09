@@ -2,7 +2,7 @@
 title: ネットワーク内の高度なエンタープライズ VoIP機能のネットワークSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: ネットワーク地域、ネットワーク サイト、IP サブネットについて学習します。 これらのすべては、Skype for Business でのメディア バイパスの計画、Skype for Business Server での通話受付管理の計画、または Skype for Business Server での緊急サービスの計画を展開するように構成するSkype for Business Serverエンタープライズ VoIP。
-ms.openlocfilehash: fd81c9084ca94e7b0884d1c496c153fd964bcf89
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 50e076cd4be0e0c98b6319a7d0b4ce1a848689cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762115"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861094"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>ネットワーク内の高度なエンタープライズ VoIP機能のネットワークSkype for Business Server
 

@@ -2,7 +2,7 @@
 title: プラン for Busy Options for Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: 詳細については、「ビジー オプション」を参照Skype for Business Server。
-ms.openlocfilehash: d47b31c53b5357a520f6aa0b3a6c0a02c18df8f2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b233260327688830a338989c14ef0eb24ade781e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756544"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854231"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>プラン for Busy Options for Skype for Business Server
  

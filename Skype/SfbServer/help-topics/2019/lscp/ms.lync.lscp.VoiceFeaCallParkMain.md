@@ -2,7 +2,7 @@
 title: コール パーク
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 ROBOTS: NOINDEX, NOFOLLOW
 description: 呼び出しがパークされている場合、通話は一時的な番号に転送され、呼び出しは誰かが呼び出しを取得するか、または時間が切れるまで保持されます。パークされた呼び出しのために予約する内線番号の範囲を持つテーブルを構成する必要があります。 これらの内線番号は仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要あがります。 コール パーク アプリケーションを実行する各プールには、1 つ以上の範囲の拡張機能を使用できます。 これらの範囲は、展開全体でグローバルに一意である必要があります。
-ms.openlocfilehash: b7abb0cf68a49c686c787531715f5dc7924ca056
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f37913066bb2bf0a0eb6eec767501a3b16534ec6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771225"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845700"
 ---
 # <a name="call-park"></a>コール パーク
 

@@ -2,7 +2,7 @@
 title: '[診断レポート] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: '概要: [診断レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: 84274659a45d33a144324334cec8b9f1b25c471b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b04dfd74e13568e6d22448ad9160a874dd6f79b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740633"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855534"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>[診断レポート] Skype for Business Server
  
@@ -47,17 +47,17 @@ ms.locfileid: "60740633"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|**レポート時刻** <br/> |いいえ  <br/> |レポートが記録された日時。  <br/> |
-|**応答コード** <br/> |いいえ  <br/> |セッションが失敗したときに送信された SIP 応答コード。  <br/> |
-|**要求の種類** <br/> |いいえ  <br/> |失敗した SIP 要求の種類 (INVITE、BYE、SERVICE など)。  <br/> |
-|**Source** <br/> |いいえ  <br/> |エラーのソース。  <br/> |
-|**送信元ユーザー URI** <br/> |いいえ  <br/> |セッションを開始したユーザーの SIP アドレス。  <br/> |
-|**送信元ユーザー エージェント** <br/> |いいえ  <br/> |セッションを開始したユーザーのエンドポイントで使用されているソフトウェア。  <br/> |
+|**レポート時刻** <br/> |不要  <br/> |レポートが記録された日時。  <br/> |
+|**応答コード** <br/> |不要  <br/> |セッションが失敗したときに送信された SIP 応答コード。  <br/> |
+|**要求の種類** <br/> |不要  <br/> |失敗した SIP 要求の種類 (INVITE、BYE、SERVICE など)。  <br/> |
+|**Source** <br/> |不要  <br/> |エラーのソース。  <br/> |
+|**送信元ユーザー URI** <br/> |不要  <br/> |セッションを開始したユーザーの SIP アドレス。  <br/> |
+|**送信元ユーザー エージェント** <br/> |不要  <br/> |セッションを開始したユーザーのエンドポイントで使用されているソフトウェア。  <br/> |
 |[**診断 ID**] <br/> |いいえ  <br/> |エラーのトラブルシューティングに役立つ情報を得られることが多い、SIP メッセージに添付された一意の識別子です (ms-diagnostics ヘッダーの形式)。  <br/> |
-|**コンテンツの種類** <br/> |いいえ  <br/> |失敗したメディア コンテンツの種類。たとえば、よく使われるコンテンツの種類は Application/sdp です。セッション記述プロトコル (SDP) は、セッションのアナウンス、セッションの招待、その他のマルチメディア セッション開始形式で使われる標準インターネット プロトコルです。  <br/> |
-|**アプリケーション** <br/> |いいえ  <br/> |エラーに関係するアプリケーション。  <br/> |
-|**送信先ユーザー URI** <br/> |いいえ  <br/> |セッションに招待されたユーザーの SIP アドレス。  <br/> |
-|**会議参加時間 (ミリ秒)** <br/> |いいえ  <br/> |ユーザーが会議に参加するのにかかった時間 (ミリ秒)。  <br/> |
-|**診断ヘッダー** <br/> |いいえ  <br/> |診断 ID の説明。  <br/> |
+|**コンテンツの種類** <br/> |不要  <br/> |失敗したメディア コンテンツの種類。たとえば、よく使われるコンテンツの種類は Application/sdp です。セッション記述プロトコル (SDP) は、セッションのアナウンス、セッションの招待、その他のマルチメディア セッション開始形式で使われる標準インターネット プロトコルです。  <br/> |
+|**アプリケーション** <br/> |不要  <br/> |エラーに関係するアプリケーション。  <br/> |
+|**送信先ユーザー URI** <br/> |不要  <br/> |セッションに招待されたユーザーの SIP アドレス。  <br/> |
+|**会議参加時間 (ミリ秒)** <br/> |不要  <br/> |ユーザーが会議に参加するのにかかった時間 (ミリ秒)。  <br/> |
+|**診断ヘッダー** <br/> |不要  <br/> |診断 ID の説明。  <br/> |
    
 診断エラーの一覧は [、[Ms-Diagnostics Header] ページに表示されます](/openspecs/office_protocols/ms-ocer/f6787b39-0842-43ca-94a2-6afadda5f0a3)。

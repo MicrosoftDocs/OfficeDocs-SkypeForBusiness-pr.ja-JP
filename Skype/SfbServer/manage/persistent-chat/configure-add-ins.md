@@ -2,7 +2,7 @@
 title: 2015 年に常設チャット ルーム用のアドインをSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: '概要: 2015 年に常設チャット サーバー チャット ルーム用のアドインを構成するSkype for Business Serverします。'
-ms.openlocfilehash: 183ac4cbbdcdddfea65b3a6acab44ef4c81fe662
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c23a0dd11d51bbfa1c49d8a910decda5be0ac48f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745953"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854301"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>2015 年に常設チャット ルーム用のアドインをSkype for Business Serverする
  

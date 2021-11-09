@@ -2,7 +2,7 @@
 title: スキーマの準備 (起動)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[コマンドの実行] ページには、スキーマを拡張するために発行されたコマンドの概要が表示Skype for Business Server。'
-ms.openlocfilehash: 379f0890dbb9795a60a3d643f3a228fdb517c969
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fb148bd36f0c67ec4af0d3f6f85e64a4814d9793
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755176"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860764"
 ---
 # <a name="prepare-schema-invoke"></a>スキーマの準備 (起動)
  

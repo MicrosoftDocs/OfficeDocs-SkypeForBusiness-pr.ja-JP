@@ -2,7 +2,7 @@
 title: 障害復旧用にペアのフロント エンド プールを展開Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: ペアのフロント エンド プールを使用して障害復旧保護を提供する場合がありますが、これは要件ではありません。
-ms.openlocfilehash: 9aec106905b2d8628e30461dce130f301aef1b25
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 27909f44f0d86cac3100437f7df094b5f72ba1be
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741333"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855101"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>障害復旧用にペアのフロント エンド プールを展開Skype for Business Server
  

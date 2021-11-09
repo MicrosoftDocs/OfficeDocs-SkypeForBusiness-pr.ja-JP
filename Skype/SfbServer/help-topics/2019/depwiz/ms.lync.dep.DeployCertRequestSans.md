@@ -2,7 +2,7 @@
 title: 証明書要求 (追加のサブジェクト代替名)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[追加のサブジェクト代替名の構成] を使用すると、証明書を完了して要求する前に、追加のサブジェクト代替名 (SAN) を証明書に追加できます。SAN を追加するには、SAN の完全修飾ドメイン名 (FQDN) を入力し、[追加] をクリックします。追加した SAN を削除する必要がある場合は、SAN エントリを強調表示して [削除] をクリックします。追加したすべての SAN エントリを削除するには、[すべてクリア] をクリックします。'
-ms.openlocfilehash: b0819a0f04532b41b8645f09d9bac92a9fff3370
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b1c6ebc2f505853c39268142661d03ed70a9aef5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748773"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860784"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>証明書要求 (追加のサブジェクトの別名)
  

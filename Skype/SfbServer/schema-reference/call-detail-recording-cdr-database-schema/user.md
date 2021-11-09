@@ -2,7 +2,7 @@
 title: ユーザー ビュー
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: ユーザー ビューには、データベース内にレコードのある通話またはセッションに関係するユーザーについての情報が格納されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 6508bac1b40ca88429cc0504982ed9d2464ee5d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 46ce45644d66d0268a0fc57b81df50b018dccf2a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777737"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854141"
 ---
 # <a name="user-view"></a>ユーザー ビュー
  

@@ -2,7 +2,7 @@
 title: コントロール パネル - 更新されたユーザー検索
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: 検索クエリの結果を使用して、検索クエリのユーザーを構成Skype for Business Server。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 Lync Server コントロール パネルまたは Active Directory ユーザーとコンピューター スナップインを使用してユーザーを検索することもできます。
-ms.openlocfilehash: efcb183eb9f763113d5db4c49c86b1d3594173c0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3c5bdc9de490adbc022f00342d291d012da78d4b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758849"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854931"
 ---
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
 

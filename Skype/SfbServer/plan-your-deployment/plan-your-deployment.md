@@ -2,7 +2,7 @@
 title: 2015 年Skype for Business Server計画する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/21/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: '概要: これらのリンクを参照して、Skype for Business Server 2015 の機能、サーバー、トポロジを構成するための概念的、論理的、および物理的な設計を開発する方法について説明します。'
-ms.openlocfilehash: 8896d962920cdf580685332d324e2d20eb5c9c94
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5ac742f416f22b4a9875c2b78315225545d9c13d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754444"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860964"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>2015 年Skype for Business Server計画する
  

@@ -2,7 +2,7 @@
 title: 常設チャット ファイル ストアの追加
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Standard Edition サーバーまたは Enterprise Edition フロント エンドのプールのファイル ストアとして使用するファイル共有を指定する必要があります。既存のファイル共有をファイル ストアに使用できます。または、ファイル共有を配置するファイル サーバーの完全修飾ドメイン名 (FQDN) と新しいファイル共有のフォルダー名を指定して、新しいファイル共有を指定することもできます。
-ms.openlocfilehash: d58f9124e41fab027c5e55429cd47d21e6849fd4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6edbd186b69024767760bd884d768952e1525e8d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758709"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854761"
 ---
 # <a name="add-persistent-chat-file-store"></a>常設チャット ファイル ストアの追加
 

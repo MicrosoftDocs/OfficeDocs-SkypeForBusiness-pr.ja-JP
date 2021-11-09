@@ -2,7 +2,7 @@
 title: リモート通話制御の計画を立Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: リモート通話制御は、以前のバージョンの Lync Server の機能で、ユーザーは Lync Server で PBX 電話を制御できます。 このSkype for Business Serverは、Call Via Work に置き換えされています。 Skype for Business Server 2015 および今後のクライアント バージョンでは、リモート通話制御はクライアントで構成できなくなったので、使用するために削除されています。
-ms.openlocfilehash: 23d8f25f4a416c10bf4fd186db68a729703891ca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1007c4d6d94cc18248adc465061374bace32dc4f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746743"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860984"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>リモート通話制御の計画を立Skype for Business
  

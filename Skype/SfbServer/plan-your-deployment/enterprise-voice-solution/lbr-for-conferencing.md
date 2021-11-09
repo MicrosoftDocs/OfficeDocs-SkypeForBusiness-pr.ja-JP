@@ -2,7 +2,7 @@
 title: Location-Basedでの会議のルーティングSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: コンサルティング通話の転送を含む、Skype for Business Server エンタープライズ VoIP会議の場所ベースのルーティングを計画します。
-ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768515"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855404"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Basedでの会議のルーティングSkype for Business Server
 
@@ -104,7 +104,7 @@ Location-Based ルーティングを有効にしたユーザーが PSTN エン�
 |任意のサイトの PBX エンドポイント  <br/> |Skype for Business不明なネットワーク サイトのユーザーを管理する  <br/> |コンサルト転送が許可されます  <br/> |
 |任意のサイトの PBX エンドポイント  <br/> |フェデレーション Skype for Business ユーザー  <br/> |コンサルト転送が許可されます  <br/> |
 
-## <a name="requirements"></a>要件
+## <a name="requirements"></a>Requirements
 
 会議Location-Basedルーティング アプリケーションでは、トポロジ内のすべての Front-End プールと Standard Edition サーバーに Skype for Business Server または Lync Server 2013 累積的な更新プログラム 2 を展開する必要があります。 これらのサーバー バージョンがトポロジ内の一部のサーバーにインストールされていない場合、Location-Based ルーティングの制限を会議やコンサルティング通話転送に完全に適用することはできません。
 
@@ -114,12 +114,12 @@ Location-Based ルーティングを有効にしたユーザーが PSTN エン�
 |Front-End プールのバージョン|仲介サーバーのバージョン|サポート|
 |:-----|:-----|:-----|
 |Skype for Business Server Lync Server 2013 累積的な更新プログラム 2  <br/> |Skype for Business Server Lync Server 2013 累積的な更新プログラム 2  <br/> |はい  <br/> |
-|Lync Server 2013 累積的な更新プログラム 2  <br/> |Lync Server 2013 累積的な更新プログラム 1  <br/> |いいえ  <br/> |
-|Lync Server 2013 累積的な更新プログラム 2  <br/> |Lync Server 2010  <br/> |いいえ  <br/> |
-|Lync Server 2013 累積的な更新プログラム 2  <br/> |Office Communications Server 2007 R2  <br/> |いいえ  <br/> |
-|Lync Server 2013 累積的な更新プログラム 1  <br/> |任意  <br/> |いいえ  <br/> |
-|Lync Server 2010  <br/> |任意  <br/> |いいえ  <br/> |
-|Office Communications Server 2007 R2  <br/> |任意  <br/> |いいえ  <br/> |
+|Lync Server 2013 累積的な更新プログラム 2  <br/> |Lync Server 2013 累積的な更新プログラム 1  <br/> |不要  <br/> |
+|Lync Server 2013 累積的な更新プログラム 2  <br/> |Lync Server 2010  <br/> |不要  <br/> |
+|Lync Server 2013 累積的な更新プログラム 2  <br/> |Office Communications Server 2007 R2  <br/> |不要  <br/> |
+|Lync Server 2013 累積的な更新プログラム 1  <br/> |任意  <br/> |不要  <br/> |
+|Lync Server 2010  <br/> |任意  <br/> |不要  <br/> |
+|Office Communications Server 2007 R2  <br/> |任意  <br/> |不要  <br/> |
 
 ## <a name="configuration-of-location-based-routing-for-conferencing"></a>会議用Location-Basedルーティングの構成
 

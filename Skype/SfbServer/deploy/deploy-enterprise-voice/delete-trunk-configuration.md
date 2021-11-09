@@ -2,7 +2,7 @@
 title: 'Skype for Business Server: SIP トランク構成設定の既存のコレクションを削除する'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: '概要: [コントロール パネル] を使用してトランク構成設定のコレクションを削除するSkype for Business Server説明します。'
-ms.openlocfilehash: 19de05f2b31bc7a083aca7a04d71c32f17d0ea85
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d438db687c8af918a1ac0da67542048ac2fa0bae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771542"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860884"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server: SIP トランク構成設定の既存のコレクションを削除する 
  

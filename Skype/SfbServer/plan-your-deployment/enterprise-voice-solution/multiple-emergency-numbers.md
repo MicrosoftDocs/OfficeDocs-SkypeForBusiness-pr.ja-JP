@@ -2,7 +2,7 @@
 title: 複数の緊急電話番号を計画Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: このトピックでは、複数の緊急電話番号を計画する方法について説明します。Skype for Business Server。
-ms.openlocfilehash: 8e4761b22295d71c33af414e2a92dac7bf1210d6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbff70b3772b9d941d615f3d1aaf2ad668177e30
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741964"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861134"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>複数の緊急電話番号を計画Skype for Business Server
  
@@ -78,8 +78,8 @@ Skype for Business Server、クライアントの複数の緊急電話番号の�
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |米国  <br/> |はい  <br/> |911  <br/> | 112;999 <br/> ||USEmergency  <br/> |はい  <br/> |
 |US-Hospital  <br/> |はい  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |はい  <br/> |
-|ロンドン  <br/> |はい  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911;117;118  <br/> |GBEmergency  <br/> |いいえ  <br/> |
-|インド  <br/> |はい  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |いいえ  <br/> |
+|ロンドン  <br/> |はい  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911;117;118  <br/> |GBEmergency  <br/> |不要  <br/> |
+|インド  <br/> |はい  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |不要  <br/> |
    
  **米国** -複数の緊急電話番号の要件はありません。 米国では、古い緊急ダイヤル文字列とダイヤル マスク構成を使用します。
   

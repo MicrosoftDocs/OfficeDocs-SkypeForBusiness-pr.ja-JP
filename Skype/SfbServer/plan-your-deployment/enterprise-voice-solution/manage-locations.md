@@ -2,7 +2,7 @@
 title: SIP トランク サービス プロバイダーの場所を管理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: SIP トランキング プロバイダーを使用した E9-1-1 展開の場所情報データベースまたは同様の外部データベースを計画するために必要なSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 4bc74933623f1a435288246ac695c9545c8606d1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4667ea571fe3bbb022c8dd1ee1483e6195165ec9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751546"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855294"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>SIP トランク サービス プロバイダーの場所を管理Skype for Business Server
 
@@ -33,7 +33,7 @@ SIP トランキング プロバイダーを使用した E9-1-1 展開の場所�
 
 - 緊急対応員が公的アドレスにたどり着いたときに特定の場所をすぐに特定するように、緊急電話の発信者の場所を特定するわかりやすい名前。この場所名には建物番号、階数、ウイング名、部屋番号などを含めることができます。従業員にしかわからないニックネームは避けてください。そのようなニックネームになっていると、緊急対応員が間違った場所へ行ってしまう可能性があります。
 
-- ユーザーが自分のクライアントが適切な場所をSkype for Businessを簡単に確認するのに役立つ場所識別子。 クライアントSkype for Business、検出された Location フィールドと **City** フィールドをヘッダーに自動的に連結して表示します。 建物の住所を各場所識別子 (たとえば"1st Floor") に追加する方法をお使 <street number> いください。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
+- ユーザーが自分のクライアントが適切な場所をSkype for Businessを簡単に確認するのに役立つ場所識別子。 クライアントSkype for Business、検出された Location フィールドと **City** フィールドをヘッダーに自動的に連結して表示します。 建物の住所を各場所識別子 (たとえば"1st Floor") に追加する方法をお使 \<street number> いください。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
 
 - 場所がワイヤレス アクセス ポイントによって決まるので近似値の場合は **、[Near]** という単語を追加できます (たとえば、「Near 1st Floor 1234」)。
 

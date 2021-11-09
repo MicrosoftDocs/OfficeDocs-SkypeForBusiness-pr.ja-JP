@@ -2,7 +2,7 @@
 title: ユーザーの取得
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: '概要: ユーザー サービスの一部であるユーザーの取得操作について学習します。 User Service は、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: ecf549dccf73ec6adae7360efbe516ae3710bf17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5b2981206965e449fa817c6c40f27bf0daa6ea08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739123"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854281"
 ---
 # <a name="get-users"></a>ユーザーの取得
  

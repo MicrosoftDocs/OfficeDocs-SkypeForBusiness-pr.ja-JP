@@ -2,7 +2,7 @@
 title: '従来版のマージ: SIP ポート'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: クライアント、従来のフロントエンド プール、およびサーバーと通信するための既定の伝送制御プロトコル (TCP) SIP ポートは 5061 です。既定値を使用していなかった場合は、[すべてのポートとサーバー用の SIP ポート:] を選択して、新しい値を入力します。
-ms.openlocfilehash: 0bda73048a456a6a4c0be8f4c0556eafedad33de
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fc91bd1acfacb5b9b32ffb7a840b8f5d5e8dfb3f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739713"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860624"
 ---
 # <a name="legacy-merge-sip-port"></a>従来版のマージ SIP ポート
  

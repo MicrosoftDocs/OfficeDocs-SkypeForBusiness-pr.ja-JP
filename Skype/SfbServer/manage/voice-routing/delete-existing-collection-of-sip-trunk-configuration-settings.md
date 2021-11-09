@@ -2,7 +2,7 @@
 title: Skype for Business Server - SIP トランク構成設定の既存のコレクションを削除する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 'SIP トランクの構成では、仲介サーバーと、公衆交換電話網 (PSTN) ゲートウェイ、IP-PBX (Public Branch Exchange)、サービス プロバイダーのセッション境界コントローラー (SBC) のいずれかとの間の関係および機能を定義します。 '
-ms.openlocfilehash: 09e51dd54401b761c448872545111e8bebf01599
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: SIP トランク構成設定は、仲介サーバーと公衆交換電話網ゲートウェイ、IP-public ブランチ 交換、またはサービス プロバイダーのセッション ボーダー コントローラーとの間の関係と機能を定義します。
+ms.openlocfilehash: 390e70040994dbd8474bda51b0d33bfc13c36697
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760615"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845420"
 ---
 # <a name="skype-for-business-server---delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>Skype for Business Server - SIP トランク構成設定の既存のコレクションを削除する
 

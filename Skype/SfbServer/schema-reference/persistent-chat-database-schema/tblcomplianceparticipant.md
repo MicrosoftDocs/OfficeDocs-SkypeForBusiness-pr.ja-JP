@@ -2,7 +2,7 @@
 title: tblComplianceParticipant
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d7e0dea-74f7-46d1-badf-b94abc8f066d
 description: tblComplianceParticipant には、現在の参加者がチャネルおよびサーバー別に格納されます。
-ms.openlocfilehash: 5fbd22de596de45664ce3340e9d85ee935ba07e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d28b81d6ce0169999297dbcde65b1d7fbde38780
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763275"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854071"
 ---
 # <a name="tblcomplianceparticipant"></a>tblComplianceParticipant
  

@@ -2,7 +2,7 @@
 title: 仲介サーバー コンポーネント (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: サポートされているトポロジ、M:N トランク、メディア バイパス、通話受付管理との関係など、Skype for Business Server の仲介サーバーについて説明します。
-ms.openlocfilehash: 2cd436929d865d51b92f5d2353de4b98e36f03db
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 10d35081e1b6af1d7ee634fa3507a9c6d46f3954
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759519"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861174"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>仲介サーバー コンポーネント (Skype for Business Server
  

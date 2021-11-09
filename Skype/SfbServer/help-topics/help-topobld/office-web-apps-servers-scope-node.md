@@ -2,7 +2,7 @@
 title: Office Web Apps サーバーのスコープ ノード
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: '[Web Apps サーバー] Office右クリックし、[新しい Web アプリ サーバー] Officeを選択してウィザードを開きます。'
-ms.openlocfilehash: 3be73db10f8250152c0561befa5cf0b1a1778921
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 862767cc78732b41be4325807599e9b1e89b1eb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763935"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854431"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps サーバーのスコープ ノード
 

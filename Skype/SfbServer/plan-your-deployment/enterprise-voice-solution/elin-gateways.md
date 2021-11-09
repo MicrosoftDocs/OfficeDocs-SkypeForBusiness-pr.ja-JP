@@ -2,7 +2,7 @@
 title: ELIN ゲートウェイの場所を管理Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: ELIN ゲートウェイを使用した E9-1-1 展開の場所情報データベースまたは類似の外部データベースを計画するために必要なSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756524"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845170"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>ELIN ゲートウェイの場所を管理Skype for Business Server
 
@@ -52,7 +52,7 @@ ELIN ゲートウェイを使用する場合は、場所情報サービス デ�
 
 - 緊急対応員が特定の住所に到着したときに緊急通報をした人の場所がすぐにわかるように、場所を具体的に特定するわかりやすい名前。この場所名には、建物の番号、階数、翼棟名、部屋番号などを含めます。従業員にしかわからないような呼称は避けます。緊急対応員がわからなければ、彼らは正しい場所に行くことができません。
 
-- ユーザーがクライアントが正しい場所を選んだのを簡単に確認するのに役立つ場所識別子。 クライアントSkype for Business、検出された Location フィールドと **City** フィールドをヘッダーに自動的に連結して表示します。 建物の住所を各場所識別子 (たとえば"1st Floor") に追加する方法をお使 <street number> いください。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
+- ユーザーがクライアントが正しい場所を選んだのを簡単に確認するのに役立つ場所識別子。 クライアントSkype for Business、検出された Location フィールドと **City** フィールドをヘッダーに自動的に連結して表示します。 建物の住所を各場所識別子 (たとえば"1st Floor") に追加する方法をお使 \<street number> いください。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
 
 - 場所がワイヤレス アクセス ポイントによって決まるので近似値の場合は **、[Near]** という単語を追加できます (たとえば、「Near 1st Floor 1234」)。
 

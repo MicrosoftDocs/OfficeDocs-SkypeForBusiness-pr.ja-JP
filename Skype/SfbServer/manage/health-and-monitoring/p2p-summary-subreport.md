@@ -2,7 +2,7 @@
 title: P2P Summary Subreport in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: '概要: P2P Summary Subreport の詳細については、Skype for Business Server。'
-ms.openlocfilehash: 14472ee8ede0e05d56f026561dfd8884c3d6c152
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8296604626b143bb143ea2acbdf8e6875e1acf6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774857"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861324"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P Summary Subreport in Skype for Business Server
  
@@ -45,9 +45,9 @@ P2P 概要サブレポートは、エラーが発生したピアツーピア セ
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|[**セッションの合計数**] <br/> |いいえ  <br/> |セッションの総数です。成功したセッション、失敗したセッション (予期されるエラーと予期しないエラーの両方)、およびどちらにも分類されないセッションを含みます。  <br/> |
-|[**エラー率**] <br/> |いいえ  <br/> |エラーが発生したピアツーピア セッションの割合です。  <br/> |
-|[**モダリティ別セッション**] <br/> |いいえ  <br/> |モダリティによってグループ化されたセッションの合計数 (たとえば、インスタント メッセージング)。  <br/> |
-|[**モダリティ別エラー率**] <br/> |いいえ  <br/> |モダリティによってグループ化された失敗したセッションの合計数 (たとえば、インスタント メッセージング)。  <br/> |
+|[**セッションの合計数**] <br/> |不要  <br/> |セッションの総数です。成功したセッション、失敗したセッション (予期されるエラーと予期しないエラーの両方)、およびどちらにも分類されないセッションを含みます。  <br/> |
+|[**エラー率**] <br/> |不要  <br/> |エラーが発生したピアツーピア セッションの割合です。  <br/> |
+|[**モダリティ別セッション**] <br/> |不要  <br/> |モダリティによってグループ化されたセッションの合計数 (たとえば、インスタント メッセージング)。  <br/> |
+|[**モダリティ別エラー率**] <br/> |不要  <br/> |モダリティによってグループ化された失敗したセッションの合計数 (たとえば、インスタント メッセージング)。  <br/> |
    
 
