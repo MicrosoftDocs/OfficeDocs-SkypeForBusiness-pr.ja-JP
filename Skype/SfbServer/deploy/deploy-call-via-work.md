@@ -2,7 +2,7 @@
 title: '[作業を介して通話を展開する] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: '概要: ユーザーの一部またはすべてのユーザーに対して、Skype for Business Serverを展開する方法について学習します。'
-ms.openlocfilehash: 98d7cc08b2cb4101f1d9d062e62ef32a3998691b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761611"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851621"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>[作業を介して通話を展開する] Skype for Business Server
  

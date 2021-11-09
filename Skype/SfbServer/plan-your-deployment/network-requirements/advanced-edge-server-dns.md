@@ -2,7 +2,7 @@
 title: 高度なエッジ サーバー DNS 計画のSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 manager: serdars
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 展開オプションのシナリオSkype for Business Server表示します。 単一のサーバーが必要な場合でも、DNS または HLB を使用するサーバー プールを優先する場合でも、このトピックは役立つ必要があります。
-ms.openlocfilehash: 8aada20b1ffe712a5b4cf0f9df42b139f25248dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2c9ea99ae8f5ae7c6151dc337bd5571d739ff549
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737673"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844110"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高度なエッジ サーバー DNS 計画のSkype for Business Server
  

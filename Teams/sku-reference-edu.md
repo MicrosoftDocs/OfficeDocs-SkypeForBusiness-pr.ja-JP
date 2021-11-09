@@ -1,6 +1,6 @@
 ---
 title: Education SKU リファレンス
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Education Faculty and Student のライセンス プランと SKU の一覧を示します。
 f1keywords: ''
-ms.openlocfilehash: 8f6c4a1821488b14bd95bdaab670788a880b109f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8fb6077a34f20a694542caae724315868a66a3cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774377"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843570"
 ---
 # <a name="education-sku-reference"></a>Education SKU リファレンス
 
@@ -59,8 +59,8 @@ ms.locfileid: "60774377"
 |Microsoft 365 EducationA3 for Students の特典を使用する       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
 |Microsoft 365 EducationA5 for Students        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
 |Microsoft 365 A5学生の使用特典     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
-|Microsoft 365 A5電話会議を使用しない場合      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
-|Microsoft 365 A5電話会議を使用しない学生の特典    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
+|Microsoft 365 A5電話会議を使用しない学生向け会議      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
+|Microsoft 365 A5電話会議なしで学生が利用できる特典    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3学生向け     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
 |Office 365 A3学生の使用特典     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
 |Office 365 A5学生の使用特典    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |

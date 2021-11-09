@@ -2,7 +2,7 @@
 title: 保留中の証明書 (結果)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[オンライン証明書要求状態] ページには、証明書の現在の状態が表示されます。 証明機関の管理者が証明書がまだ承認待ち状態である場合、つまりまだ承認されていない場合は、証明書がまだ処理中であることの状態が示されます。'
-ms.openlocfilehash: 74d121dfa0884a4898229790b66f48f658bee6eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 99dede5fb903795a36245158065f14040433b94a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753174"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834675"
 ---
 # <a name="pending-certificate-returned"></a>保留中の証明書 (結果)
  

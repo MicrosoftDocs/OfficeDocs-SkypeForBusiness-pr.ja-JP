@@ -1,6 +1,6 @@
 ---
 title: 仮想アクセスのための Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Microsoft Teams を使用して仮想アクセス システムをセットアップする
-ms.openlocfilehash: 40772326d2767e7815a73ad9feca2e4853c762fc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3ba0ff974f9a8381eab054bb92468762dc1d8cc8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743043"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859734"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams での仮想アクセス - EHR への統合
 
@@ -156,7 +156,7 @@ EHR コネクタの手順とエピックの構成を完了すると、組織は�
 
 患者エクスペリエンスの主な機能:
 
-- 患者は、アプリをインストールせずに、デスクトップとモバイルの最新の Web ブラウザーから [仮想アクセスに参加できます](../mobile-browser-join.md)。
+- 患者は、アプリをインストールせずに、デスクトップおよびモバイル上の最新の Web ブラウザーから [仮想アクセスに参加できます](../mobile-browser-join.md)。
 
 - 患者はワンクリックで仮想アクセスに参加でき、他のアカウントやサインインは必要ありません。
 

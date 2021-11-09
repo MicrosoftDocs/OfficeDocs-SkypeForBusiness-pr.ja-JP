@@ -2,7 +2,7 @@
 title: システム使用状況レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: '概要: [システム使用状況レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: 2e0572b35cf29cf69e9c0515b5f94384b226d8ed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cb1fd3fd05d553fa81f7c0646659f7593dad5869
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774777"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843880"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>システム使用状況レポート (Skype for Business Server
  

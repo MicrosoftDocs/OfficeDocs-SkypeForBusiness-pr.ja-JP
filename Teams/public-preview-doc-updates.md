@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams でのパブリック プレビュー
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ description: Microsoft Teams のパブリック プレビューについて説�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0a92e579945d31412c2ad422d5134723846b3c75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ea71e9a00b49c498240be0ca876a0f1baeed27eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756048"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834735"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams パブリック プレビュー
 

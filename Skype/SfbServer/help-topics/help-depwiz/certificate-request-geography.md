@@ -2,7 +2,7 @@
 title: 証明書要求 (地理)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aef0110c-b4b0-453c-a2dd-602372e64952
 description: '[地理情報] ページでは、証明書要求についての追加情報の入力を要求されます。このページでは、[国] を選択し、テキスト ボックスに [都道府県] と [市区町村] を入力します。都道府県名と市区町村名は、略称を使用せず、完全な名称を入力してください。'
-ms.openlocfilehash: b6fefb87266a38fefecc544c3c679099259a66bc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ebeb03188004e24451e54b681daf676033ef7ffa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740953"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834385"
 ---
 # <a name="certificate-request-geography"></a>証明書要求 (地理)
  

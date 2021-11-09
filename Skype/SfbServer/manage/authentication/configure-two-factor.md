@@ -2,7 +2,7 @@
 title: 2 要素認証を構成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: '概要: 2 要素認証を 2 要素認証で構成Skype for Business Server。'
-ms.openlocfilehash: c1749c6fcd97e10f7e09ddc243059cedc695fb65
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1e28c88f28d765737415b01d82e2e8a7621c3744
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751796"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844250"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>2 要素認証を構成Skype for Business Server
 
@@ -44,7 +44,7 @@ ms.locfileid: "60751796"
 
 6. [ **登録エージェント]** **、[Smartcard ユーザー] 、** および **[スマートカード ログオン] を選択します**。
 
-7. [**OK**] をクリックします。
+7. **[OK]** をクリックします。
 
 8. [証明書テンプレート] **を右クリックします**。
 

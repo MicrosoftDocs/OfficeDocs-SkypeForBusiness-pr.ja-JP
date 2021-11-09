@@ -2,7 +2,7 @@
 title: IP アドレスの種類を構成Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: '概要: IP アドレスを実装する前に、以下の IP アドレスの種類に関する考慮事項をSkype for Business Server。'
-ms.openlocfilehash: 931d0af8dd064ebec854c08442abfe573333bf8e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 936857f79cf71328303e3a0a842b230694cf86c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765225"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834995"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>IP アドレスの種類を構成Skype for Business
 

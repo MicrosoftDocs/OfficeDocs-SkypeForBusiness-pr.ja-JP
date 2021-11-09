@@ -1,7 +1,7 @@
 ---
 title: SkypeRoom System Room セットアップ スクリプト
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: このトピックを参照して、Room System アカウントをプロビジョニングするためのSkypeを見つける。
-ms.openlocfilehash: 02c356896608987fc52aae8aa613b1b5bff6eb6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771689"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859634"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>SkypeRoom System Room セットアップ スクリプト
  

@@ -2,7 +2,7 @@
 title: Skype for Business Server コンポーネントのセットアップまたは削除 (起動)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[コマンドを実行しています] には、サーバーの役割を展開するために実行されるタスクの実行概要が表示されます。 タスクが完了すると、展開とアクティブ化、非アクティブ化、アンインストールが完了すると、概要が表示されます。 また、ドロップダウン リストでは、コマンドの実行時に作成されたログ ファイルを選択できます。 ドロップダウン リストを使用して表示するログ ファイルを選択し、[ログの表示] をクリックします。'
-ms.openlocfilehash: 8feb4d595c7845f77140cccec5b566d970fefea3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6802d4564518e718b3fc6ab854bcbf5bf3025642
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753206"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851591"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Skype for Business Server コンポーネントのセットアップまたは削除 (起動)
  

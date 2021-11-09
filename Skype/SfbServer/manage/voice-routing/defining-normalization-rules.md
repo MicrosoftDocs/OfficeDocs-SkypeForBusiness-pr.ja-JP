@@ -2,7 +2,7 @@
 title: 正規化ルールの定義Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server正規化ルールでは、.NET Frameworkを使用して、ダイヤルされた電話番号を E.164 形式に変換します。つまり、正規化ルールは、ユーザーがダイヤルした電話番号を受け取り、その番号をユーザーが内部的に使用する形式Skype for Business Server。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: e2cf2deaefa18323dcd69e9f09703d6994f101c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0319a27dd7a6f0d42fffb4e65fcf71fe152cec18
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778287"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859914"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>正規化ルールの定義Skype for Business Server
 

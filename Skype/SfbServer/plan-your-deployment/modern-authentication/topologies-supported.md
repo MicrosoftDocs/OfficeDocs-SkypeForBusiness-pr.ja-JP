@@ -2,7 +2,7 @@
 title: 先進認証でサポートされている Skype for Business トポロジ
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: この記事では、Skype for Business のモダン認証でサポートされるオンライン トポロジとオンプレミス トポロジ、および各トポロジに適用されるセキュリティ機能について説明します。
-ms.openlocfilehash: 1d2dd2c691962f0703866a4ece0812467c1f236e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed6710e0f25e946e8cb9e7034300bd450dd07baa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777967"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835075"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>先進認証でサポートされている Skype for Business トポロジ
 

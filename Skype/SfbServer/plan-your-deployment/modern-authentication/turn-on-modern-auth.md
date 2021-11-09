@@ -2,7 +2,7 @@
 title: ネットワークに対してレガシ認証方法を内部および外部でオフにする計画
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: この記事では、管理者がビジネスの内部および外部で使用される認証方法の制御を管理者に提供するコマンドレットの概要を説明します。 管理者は、認証方法を内部的または外部的にネットワークに対してオンまたはオフにできます。
-ms.openlocfilehash: 65ec31dcd4a320b42da746eece41009f70e886af
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 845af6891d7da419ffd6fc5a4f663cfc2b61a01a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777957"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835065"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>従来の認証方法をネットワークに対して内部および外部でオフにする計画。
 

@@ -2,7 +2,7 @@
 title: SQL ストアを追加する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: 新しい SQL ストアを定義するには、SQL Server ベースのデータベースと SQL Server のインスタンス (既定のインスタンスまたは名前付きインスタンス) を指定します。
-ms.openlocfilehash: 1e72569385a4cabf02cdaf1ddd71fd56ecc34909
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 367d0bb57d673bdb062b5a1f99ead7cb426995c6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770495"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844510"
 ---
 # <a name="add-sql-store"></a>SQL ストアの追加
 

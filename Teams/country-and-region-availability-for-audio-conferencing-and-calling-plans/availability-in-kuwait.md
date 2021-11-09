@@ -1,6 +1,6 @@
 ---
 title: クウェートでの空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、クウェートでMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsサービスを示します。
-ms.openlocfilehash: 2067077acba0c3604c83bbc46483b6bd8ee6dc22
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: ここでは、クウェートでMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
+ms.openlocfilehash: fdcadf7b877875ca53658358630201c8867404fa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766195"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851751"
 ---
 # <a name="availability-in-kuwait"></a>クウェートでの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、クウェートでMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsサービスを示します。
+ここでは、クウェートでMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teamsを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +72,7 @@ ms.locfileid: "60766195"
 |有料電話番号は使用できますか?  <br/> |はい <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は[、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号の取得」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
 ms:contentKeyID: 48679555
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 1 つ以上のエッジ サーバーを展開した後、組織でサポートされるエッジ サーバーを通じて、外部ドメインまたはプロバイダー アクセス、リモート ユーザー アクセス、匿名ユーザー アクセスの種類を有効にする必要があります。
-ms.openlocfilehash: 18d4f6e0225c14d3eb5198cb1dc9214c10875267
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ff152ea25bbea750815e0619ce521ede8d8d7203
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766515"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860094"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>組織のアクセス エッジ構成の管理
 

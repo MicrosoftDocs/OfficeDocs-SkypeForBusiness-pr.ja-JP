@@ -2,7 +2,7 @@
 title: アーカイブ構成を削除Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: '概要: アーカイブ構成を削除する方法については、Skype for Business Server。'
-ms.openlocfilehash: f0489fb26526a8e68935754a8689e28eca9ef335
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: defd9377453234e400dbf75a7d0261c52904adda
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767885"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851030"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>アーカイブ構成を削除Skype for Business Server
 

@@ -2,7 +2,7 @@
 title: モビリティ サービスと UCWA の使用状況を監視Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: '概要: モビリティ サービス (Mcx) とユニファイド コミュニケーション Web API (UCWA) を管理Skype for Business Server。'
-ms.openlocfilehash: 370e2e2fb8707f7d893747a0ffbcfe85f2612dd8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6139ab53e964bd7c880a83a7af252fe2da71a152
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742143"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835255"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>モビリティ サービスと UCWA の使用状況を監視Skype for Business Server
  

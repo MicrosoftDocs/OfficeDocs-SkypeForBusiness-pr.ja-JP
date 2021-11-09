@@ -2,7 +2,7 @@
 title: ローカル構成ストアのインストール
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: 新しい役割サーバーのインストールをSkype for Business Server、最初にローカル構成ストアをホストするローカル SQL Serverインストールする必要があります。 ローカル構成ストアは、サーバーの全体管理ストア (CMS) のSkype for Business Serverレプリカとして機能します。
-ms.openlocfilehash: 993eaa4e07a1b14e1ddeef11c80a15b4869b7719
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 82e82bc87a20f1bd4c86c4aa7c3e8c6bc8858c1b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738663"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859574"
 ---
 # <a name="install-local-configuration-store"></a>ローカル構成ストアのインストール
 

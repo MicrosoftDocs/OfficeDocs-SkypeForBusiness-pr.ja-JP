@@ -2,7 +2,7 @@
 title: 2015 年の環境Skype for Business Server要件
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: '概要: 2015 年のサーバー以外の要件Skype for Business Serverします。 Active Directory、DNS、Certs、Fileshares など、展開を行う前に構成する必要があるさまざまなものがあります。'
-ms.openlocfilehash: ab3192e7a9459f86ed61277db682a8b22f0725ec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1d6e43e9ca65af85c37f262900805d9e0d3b8bfe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749926"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834985"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>2015 年の環境Skype for Business Server要件
  

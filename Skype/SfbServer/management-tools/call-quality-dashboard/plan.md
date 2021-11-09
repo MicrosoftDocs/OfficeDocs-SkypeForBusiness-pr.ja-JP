@@ -2,7 +2,7 @@
 title: 'Skype for Business Server: 通話品質ダッシュボードの計画'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: 通話品質ダッシュボードを計画する際に考慮すべき点について学習します。'
-ms.openlocfilehash: 42b80c8e426f438a1608d3c71a41b20dd9d27a63
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c9ab2cafcd05ac7ea0585b0f3af2924b9fa4f0cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777347"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835175"
 ---
 # <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>Skype for Business Server: 通話品質ダッシュボードの計画 
  
@@ -196,9 +196,9 @@ CQD でのデータ処理は、次の 2 つの主要なステージに分かっ�
 |マシン|CPU コア|RAM|同じディスク上の QoE アーカイブとキューブ|QoE アーカイブと SQL一時 DB を同じディスクに保存する|
 |:-----|:-----|:-----|:-----|:-----|
 |仮想マシン   |4   |7 GB   |はい   |はい   |
-|4 コア   |4   |20 GB   |はい   |いいえ   |
-|8 コア   |8    |32 GB   |はい   |いいえ   |
-|16 コア   |16   |128 GB   |いいえ   |いいえ   |
+|4 コア   |4   |20 GB   |はい   |不要   |
+|8 コア   |8    |32 GB   |はい   |不要   |
+|16 コア   |16   |128 GB   |不要   |不要   |
    
 **パフォーマンスの結果**
 

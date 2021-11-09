@@ -2,7 +2,7 @@
 title: 通話品質ダッシュボードを使用した通話Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: '概要: 通話品質ダッシュボードを使用する方法について学習します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: ad4c1b295b672900b632903fc653691c03cc5193
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739103"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843810"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードを使用した通話Skype for Business Server
 
@@ -78,7 +78,7 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 棒グラフとスパークラインを表示するには、レポート エディターの上部にある [スパークラインの表示] チェック ボックスをオンにする必要があります。 [傾向] オプションを選択し、[月] を最後のディメンションに移動します。これは、[月] をクリックし、上矢印と下矢印を使用して StartDate.Month を上下にシフトすることでも実行できます。
 
-### <a name="settings"></a>Settings
+### <a name="settings"></a>設定
 
 [設定] メニューには、[System Health] ページや [概要] ページのような便利なページへのリンクが含まれています。ダッシュボードの右上隅にあります。
 
@@ -105,11 +105,11 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 |Column|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |int |いいえ |CqdBuilding テーブルの主キー。 |
-|BuildingName |varchar(80) |いいえ |建物名。 |
-|BuildingShortName |varchar(10) |いいえ |建物名の短いバージョン。 |
-|OwnershipTypeId |int |いいえ |外部キーは、CqdBuildingOwners テーブルのエントリの 1 つと一致します。 |
-|BuildingTypeId |int |いいえ |外部キーは、CqdBuildingType テーブルのエントリの 1 つと一致します。 |
+|BuildingKey |int |不要 |CqdBuilding テーブルの主キー。 |
+|BuildingName |varchar(80) |不要 |建物名。 |
+|BuildingShortName |varchar(10) |不要 |建物名の短いバージョン。 |
+|OwnershipTypeId |int |不要 |外部キーは、CqdBuildingOwners テーブルのエントリの 1 つと一致します。 |
+|BuildingTypeId |int |不要 |外部キーは、CqdBuildingType テーブルのエントリの 1 つと一致します。 |
 |Latitude |浮動小数点数 |はい |建物の緯度。 |
 |Longitude |浮動小数点数 |はい |建物の経度。 |
 |CityName |varchar(30) |はい |建物がある都市名。 |
@@ -125,11 +125,11 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 |Column|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|ネットワーク |varchar(25) |いいえ |サブネット アドレス。 |
+|ネットワーク |varchar(25) |不要 |サブネット アドレス。 |
 |NetworkRange |tinyint |はい |サブネット マスク。 |
 |NetworkNameID |int |はい |必要に応じて、CqdNetworkName テーブル内の行にマップします。 |
 |BuildingKey |int |はい |外部キーは、CqdBuilding テーブルのエントリの 1 つと一致します。 |
-|UpdatedDate |日付型 |いいえ |エントリが最後に更新された日時。 |
+|UpdatedDate |日付型 |不要 |エントリが最後に更新された日時。 |
 
 
 既定では、この次の表には 1 つのエントリ (0、 '不明') があります。
@@ -138,8 +138,8 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 |Column|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId |int |いいえ |CqdBuildingType テーブルの主キー。 |
-|BuildingTypeDesc |char(18) |いいえ |建物の種類の説明。 |
+|BuildingTypeId |int |不要 |CqdBuildingType テーブルの主キー。 |
+|BuildingTypeDesc |char(18) |不要 |建物の種類の説明。 |
 
 
 既定では、この次の表には 1 つのエントリ (0、'Unknown'、0、null) があります。
@@ -148,8 +148,8 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 |Column|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId |int |いいえ |CqdBuildingOwnershipType テーブルの主キー。 |
-|OwnershipTypeDesc |varchar(25) |いいえ |所有権の種類の説明。 |
+|OwnershipTypeId |int |不要 |CqdBuildingOwnershipType テーブルの主キー。 |
+|OwnershipTypeDesc |varchar(25) |不要 |所有権の種類の説明。 |
 |LeaseInd |tinyint |はい |リースされた建物を識別するために使用される CqdBuildingOwnershipType テーブル内の別の行を参照するインデックス。 |
 |Owner |varchar(50) |はい |建物の所有者。 |
 
@@ -160,7 +160,7 @@ StartDate.Month がディメンションとして追加され、データが表�
 
 |Column|データ型|Nulls を許可しますか?|詳細|
 |:-----|:-----|:-----|:-----|
-|bss |nvarchar(50) |いいえ |CqdBssid テーブルの主キー。 WiFi アクセス ポイントの BSSID です。 |
+|bss |nvarchar(50) |不要 |CqdBssid テーブルの主キー。 WiFi アクセス ポイントの BSSID です。 |
 |ess |nvarchar(50) |はい |Wifi アクセス ポイント コントローラーの情報。 |
 |phy |nvarchar(50) |はい |Phy 情報。 |
 |ap |nvarchar(50) |はい |Wifi アクセス ポイント名。 |

@@ -2,7 +2,7 @@
 title: ConferenceSessionDetails テーブル (2015 Skype for Business Server)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: 各レコードは 1 つの会議セッションを表し、フォーカスを持つセッションまたは特定の会議サーバーとのセッションのいずれかになります。
-ms.openlocfilehash: 087dd056dae0041ab63934b25038672a74410343
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fc69150cf95ca0f00a4c1731aeda44f1e674a6cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759449"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843670"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>ConferenceSessionDetails テーブル (2015 Skype for Business Server)
  

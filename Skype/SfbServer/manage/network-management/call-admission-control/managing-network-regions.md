@@ -2,7 +2,7 @@
 title: ネットワーク地域の管理
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ネットワーク領域* は、通話受付管理、E9-1-1、およびメディア バイパスの構成で使用されるネットワーク ハブまたはバックボーンです。
-ms.openlocfilehash: 5bfe3051404b41cd6a1d96bfac240e83070bbdbc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d0a40576098ceb641bdc677a551908b6a23044b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759739"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843870"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域の管理
 

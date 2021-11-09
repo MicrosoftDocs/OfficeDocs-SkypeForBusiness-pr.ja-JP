@@ -1,7 +1,7 @@
 ---
 title: Windows クライアントの要件とソフトウェア サポート
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: '概要: クライアント サポート要件Windows計画中に、クライアント サポート要件を確認Skype for Business Server。'
-ms.openlocfilehash: 143fdf0e03f6ea125e7b1cbfb3aa0e7a6a93788b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b38c1d7a3565fbc2250766dbed3a0413b914388f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770215"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859904"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows クライアントの要件とソフトウェア サポート
  

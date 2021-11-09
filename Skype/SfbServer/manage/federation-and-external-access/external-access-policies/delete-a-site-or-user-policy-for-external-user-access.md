@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
 ms:contentKeyID: 48184455
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: '[外部アクセス ポリシー] ページの [コントロール パネル] の [Skype for Business Server] に表示されているサイトまたはユーザー ポリシーを削除できます。'
-ms.openlocfilehash: 53be2748328211c901a2daeeb0ca84e70cfd6511
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 136b7f612dc2dcc0625e7f844ecf6ad38aba0c37
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765455"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834225"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>外部ユーザー アクセスに関するサイト ポリシーまたはユーザー ポリシーの削除
 

@@ -2,7 +2,7 @@
 title: 機能の概要計画ツール
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: 2015 Skype for Business Serverツールを削除します。
-ms.openlocfilehash: 87250dba5df1b7f338f4cb9159a7583f1fd5f4fa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7351ef19480f4153ee98db58ab2ba70b34e3df06
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756938"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850940"
 ---
 # <a name="feature-overview-planning-tool"></a>機能の概要計画ツール
  

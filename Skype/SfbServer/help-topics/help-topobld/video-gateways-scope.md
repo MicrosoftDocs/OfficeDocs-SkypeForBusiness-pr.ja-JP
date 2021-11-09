@@ -2,7 +2,7 @@
 title: ビデオ ゲートウェイ スコープ
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the VIS pool in Skype for Business Server 2015」を参照してください。
-ms.openlocfilehash: 357cc11173a4e7d914f2e2557e5164e90d541ec8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ba7c1719b5c92ba5d14b62c7e61cf134746a9332
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751876"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844280"
 ---
 # <a name="video-gateways-scope"></a>ビデオ ゲートウェイ スコープ
  

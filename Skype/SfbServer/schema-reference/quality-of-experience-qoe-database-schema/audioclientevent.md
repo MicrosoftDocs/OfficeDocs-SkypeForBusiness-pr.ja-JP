@@ -2,7 +2,7 @@
 title: AudioClientEvent テーブル
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: 各レコードには、オーディオ通話で 1 つのエンドポイントのクライアント イベントが含まれる。 通常、1 つの呼び出しには、呼び出し元用と呼び出し先用の 2 つのレコードがあります。
-ms.openlocfilehash: a7e5e481fd9398532212f4bda767bab83815250c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e51146211567af3abfe68fdc415814d433e84884
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767315"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843650"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent テーブル
  

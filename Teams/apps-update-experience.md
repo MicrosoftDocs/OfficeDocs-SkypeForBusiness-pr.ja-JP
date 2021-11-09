@@ -1,6 +1,6 @@
 ---
 title: アプリの更新エクスペリエンス (Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: v-tbasra
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: アプリを更新する方法については、Microsoft Teams。
-ms.openlocfilehash: 025096ebce82fb9c5dd7fb8bb23f81094655d106
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: feb1cdf7c8b528b7d773978375d1d16a20fae631
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746483"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850590"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Microsoft Teams でアプリを更新する
 
@@ -42,7 +42,7 @@ ms.locfileid: "60746483"
 ![アプリのアップグレード オプション。](media/manage-your-custom-apps-update2.png)
 
 > [!NOTE] 
-> 更新プロセスは、Microsoft アプリ、カスタム アプリ、サード パーティ製アプリのすべてのアプリ更新プログラムに適用されます。 
+> 更新プロセスは、Microsoft アプリ、カスタム アプリ、およびサード パーティ製アプリのすべてのアプリ更新プログラムに適用されます。 
 
 ## <a name="related-topics"></a>関連項目
 

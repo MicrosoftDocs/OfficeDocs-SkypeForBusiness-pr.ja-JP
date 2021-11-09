@@ -2,7 +2,7 @@
 title: ピアツーピア IM レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: '概要: [ピアツーピア IM レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: 999750f039b2ca57cc31198bcf1599f042763ed3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767665"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834205"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>ピアツーピア IM レポート (Skype for Business Server
  
@@ -58,9 +58,9 @@ ms.locfileid: "60767665"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |いいえ  <br/> |レジストラー プールまたはエッジ サーバーの名前。  <br/> |
-|**日付/時刻** <br/> |いいえ  <br/> |セッションの発生日時。  <br/> |
-|**合計** <br/> |いいえ  <br/> |セッション数またはメッセージ数の合計。  <br/> |
+|**Pool** <br/> |不要  <br/> |レジストラー プールまたはエッジ サーバーの名前。  <br/> |
+|**日付/時刻** <br/> |不要  <br/> |セッションの発生日時。  <br/> |
+|**合計** <br/> |不要  <br/> |セッション数またはメッセージ数の合計。  <br/> |
    
 ## <a name="metrics-for-peer-to-peer-im-session-by-authentication-type"></a>ピアツーピア IM セッション (認証の種類別) の指標
 
@@ -70,8 +70,8 @@ ms.locfileid: "60767665"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|[**認証の種類**] <br/> |いいえ  <br/> | セッション参加者によって使用される認証の種類。通常、値は次のいずれかです。 <br/>  Enterprise <br/>  フェデレーション <br/>  PIC <br/> |
-|**日付/時刻** <br/> |いいえ  <br/> |セッションの発生日時。  <br/> |
-|**合計** <br/> |いいえ  <br/> |セッション数またはメッセージ数の合計。  <br/> |
+|[**認証の種類**] <br/> |不要  <br/> | セッション参加者によって使用される認証の種類。通常、値は次のいずれかです。 <br/>  Enterprise <br/>  フェデレーション <br/>  PIC <br/> |
+|**日付/時刻** <br/> |不要  <br/> |セッションの発生日時。  <br/> |
+|**合計** <br/> |不要  <br/> |セッション数またはメッセージ数の合計。  <br/> |
    
 

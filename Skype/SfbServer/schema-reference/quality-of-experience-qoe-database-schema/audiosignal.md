@@ -2,7 +2,7 @@
 title: AudioSignal テーブル
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: 各レコードは、1 つのエンドポイントのオーディオ信号メトリックを表します。 通常、各呼び出しには 2 つのレコードが含まれます。1 つは発信者用で、1 つは呼び出し先用です。
-ms.openlocfilehash: 1e4f7bf92448d4f2efefe3bfad4e1ca556ad44b8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ee9029992e925fd43cc55da85bc4a7c127793e54
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761785"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843600"
 ---
 # <a name="audiosignal-table"></a>AudioSignal テーブル
  

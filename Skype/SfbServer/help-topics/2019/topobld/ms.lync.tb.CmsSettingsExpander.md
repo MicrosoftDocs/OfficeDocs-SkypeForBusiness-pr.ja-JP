@@ -2,7 +2,7 @@
 title: CMS 設定の展開
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: 中央管理サーバーを、ある定義済みのフロントエンドのプールから別の定義済みのフロントエンドのプールに変更できます。中央管理サーバーの場所を変更するには、[中央管理サーバーをインストールするフロントエンド サーバー] の下のドロップダウン リストからフロントエンド プールを選択します。フロントエンド サーバーは、Enterprise Edition フロントエンドのプールまたは Standard Edition フロントエンド サーバーのいずれかにできます。
-ms.openlocfilehash: 171fa12dd073cd1ca2b2bbb92c103263ea2a6a0c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3c0c432853e7902b117224750849af6123e5d529
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757719"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859244"
 ---
 # <a name="cms-settings-expander"></a>CMS 設定エキスパンダー
  

@@ -2,7 +2,7 @@
 title: ユーザー外部アクセス ポリシーの表示または構成
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 87ba07ccff068687e578a5aa0a9a51f4bdcffa11
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e31fecf8139b8a44e3d9eab263f03ee384576034
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752706"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859484"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>ユーザー: 外部アクセス ポリシーの表示または構成
 

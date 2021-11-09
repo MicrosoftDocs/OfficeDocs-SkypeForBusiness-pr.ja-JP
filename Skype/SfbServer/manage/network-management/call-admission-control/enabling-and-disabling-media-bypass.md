@@ -2,7 +2,7 @@
 title: メディア バイパスの有効化と無効化
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: この記事の手順を使用して、メディア バイパスを有効または無効にするには、[コントロール パネル] Skype for Business Server使用します。
-ms.openlocfilehash: abbbc6bf77a5fe1aea22de9c5f225ac694cf1d1d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8465d376e32d677d52cb0bdb57e86d9aa9fac44
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750286"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852001"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Skype for Business Server でのメディア バイパスの有効化および無効化
 

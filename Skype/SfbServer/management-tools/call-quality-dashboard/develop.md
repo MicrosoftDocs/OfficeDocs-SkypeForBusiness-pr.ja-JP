@@ -2,7 +2,7 @@
 title: 通話品質ダッシュボードを開発Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
 description: '概要: 通話品質ダッシュボードのソリューションを開発する方法について学習します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: ea7f2faad9c7aa8f0d0e9323aa0a10a544b26cb4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 704621b3ca8033553ef73197577d2cf23a0f0387
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762325"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835235"
 ---
 # <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>通話品質ダッシュボードを開発Skype for Business Server
  

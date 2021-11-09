@@ -1,7 +1,7 @@
 ---
 title: 会議室Windows更新プログラムをMicrosoft Teamsする
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 10/10/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: M365-voice
 ms.assetid: ''
 description: 会議室Windows更新プログラムをMicrosoft Teamsする
-ms.openlocfilehash: 0aab39e58472d6efac40e3b33abce66fa12b158d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1a5e665546c00525939585f4655fcdf404e5786f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740473"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859994"
 ---
 # <a name="manage-windows-updates"></a>更新Windows管理
 
