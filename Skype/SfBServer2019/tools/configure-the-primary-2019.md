@@ -2,7 +2,7 @@
 title: プライマリ管理サーバーを構成する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: プライマリ管理サーバーを構成し、2019 System Center Operations Manager をインストールし、管理パックをインポートSkype for Business Serverします。'
-ms.openlocfilehash: 8dd5b3ff94f393ccce88dd5a27bd8133810b4c1c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 15fecd23a4376eab64d49820da69f8ac0aec6c08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760345"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846000"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype for Business Server: プライマリ管理サーバーを構成する
 

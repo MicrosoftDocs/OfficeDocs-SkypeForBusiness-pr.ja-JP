@@ -1,6 +1,6 @@
 ---
 title: アップロード管理センターでカスタム アプリをMicrosoft Teamsする
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: joglocke, vaibhava
@@ -17,19 +17,19 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: カスタム アプリを管理センターの組織のアプリ ストアにアップロードMicrosoft Teams説明します。
-ms.openlocfilehash: f5e2bffa1f725f9fa741d96bdea17be3096f75f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3869019d9becaf85da9c54ebc0ccca801980ec8a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777107"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846010"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>アプリ パッケージをアップロードしてカスタム アプリを発行する
 
 > [!NOTE]
-> カスタム アプリを発行Teams、組織のアプリ ストア内のユーザーが使用できます。 カスタム アプリを発行する方法と使用する方法は、アプリの取得方法によって異なります。 **この記事では、** 開発者から送信されたアプリ パッケージ (.zip 形式) をアップロードして、カスタム アプリを発行する方法について説明します。 カスタム アプリを承認するもう 1 つの方法は、開発者が Teams App <a href="/microsoftteams/manage-apps" target="_blank"></a> Submission API を使用してアプリを [アプリの管理] ページに直接送信するときに使用されます。 その方法の詳細については、「アプリ送信 API を使用して送信されたカスタム アプリを発行Teams<a href="/microsoftteams/submit-approve-custom-apps" target="_blank">参照してください</a>。
+> カスタム アプリを発行Teams、組織のアプリ ストア内のユーザーが使用できます。 カスタム アプリを発行する方法と使用する方法は、アプリの取得方法によって異なります。 **この記事では、開発者から** 送信されるアプリ パッケージ (.zip 形式) をアップロードして、カスタム アプリを発行する方法について説明します。 カスタム アプリを承認するもう 1 つの方法は、開発者が Teams App <a href="/microsoftteams/manage-apps" target="_blank"></a> Submission API を使用してアプリを [アプリの管理] ページに直接送信するときに使用されます。 その方法の詳細については、「アプリ送信 API を使用して送信されたカスタム アプリを発行Teams<a href="/microsoftteams/submit-approve-custom-apps" target="_blank">参照してください</a>。
 
-この記事では、開発からデプロイ、検出まで、Teams アプリを使用する方法について、エンド to エンドのガイダンスを提供します。 このガイダンスでは、アプリのTeamsに焦点を当て、管理者と IT のプロを対象にしています。 アプリの開発の詳細についてはTeams開発者向けドキュメント<a href="/microsoftteams/platform" target="_blank">Teams参照してください</a>。
+この記事では、開発からデプロイ、検出まで、Teamsアプリを使用する方法について、エンド to エンドのガイダンスを提供します。 このガイダンスでは、アプリのTeamsに焦点を当て、管理者と IT のプロを対象にしています。 アプリの開発の詳細についてはTeams開発者向けドキュメント<a href="/microsoftteams/platform" target="_blank">Teams参照してください</a>。
 
 ![開発からデプロイまで、アプリの概要。](media/upload-custom-apps.png)
 
@@ -37,22 +37,22 @@ ms.locfileid: "60777107"
 
 ### <a name="create-your-app"></a>アプリを作成する
 
-開発者Microsoft Teamsプラットフォームを使用すると、開発者は独自のアプリとサービスを簡単に統合して生産性を向上させ、意思決定を迅速に行い、既存のコンテンツやワークフローに関するコラボレーションを作成できます。 Teams プラットフォーム上に構築されたアプリは、Teams クライアントとサービスとワークフローの間のブリッジであり、コラボレーション プラットフォームのコンテキストに直接組み込む必要があります。 詳細については、開発者向けドキュメント<a href="/microsoftteams/platform" target="_blank">Teams参照してください</a>。
+開発者Microsoft Teamsプラットフォームを使用すると、開発者は独自のアプリとサービスを簡単に統合して生産性を向上させ、意思決定を迅速に行い、既存のコンテンツとワークフローに関するコラボレーションを作成できます。 Teams プラットフォーム上に構築されたアプリは、Teams クライアントとサービスとワークフローの間のブリッジであり、コラボレーション プラットフォームのコンテキストに直接取り込む必要があります。 詳細については、開発者向けドキュメント<a href="/microsoftteams/platform" target="_blank">Teams参照してください</a>。
 
 ## <a name="validate"></a>検証
 
 ### <a name="get-the-app-package"></a>アプリ パッケージを取得する
 
-アプリを実稼働環境で使用する準備ができたら、開発者はアプリ パッケージを生成する必要があります。 その場合 <a href="/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">、App Studio</a> を使用できます。 このファイルは、次の形式で.zipされます。
+アプリを実稼働環境で使用する準備ができたら、開発者はアプリ パッケージを生成する必要があります。 その場合 <a href="/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">、App Studio</a> を使用できます。 ユーザーは、ファイルを別の形式.zipします。
 
-Microsoft では<a href="/microsoftteams/platform/publishing/office-store-approval" target="_blank">、これらのガイドラインを使用</a>して、アプリがグローバルなアプリ ストアの品質とセキュリティ基準に準拠Teamsします。
+Microsoft では<a href="/microsoftteams/platform/publishing/office-store-approval" target="_blank">、これらのガイドラインを使用</a>して、アプリがグローバルアプリ ストアの品質とセキュリティ基準に準拠Teamsします。
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>信頼できるユーザーにカスタム アプリのアップロードを許可する
 
 アプリが実稼働テナントで正しく動作しているのを検証するには、自分や信頼できるユーザーがカスタム アプリを実稼働テナントにアップロードできる必要があります。 これを行 <a href="/microsoftteams/teams-app-setup-policies" target="_blank">うには、アプリセットアップ ポリシー</a> を使用します。
 
 > [!NOTE]
-> 検証のためにアプリを実稼働テナントにアップロードする場合は、この手順をスキップし[、「アップロード」](#upload)セクションと「セットアップと管理」セクションの手順に従って、検証されていないアプリを組織[](#set-up-and-manage)のアプリ ストアに発行します。 その後、そのアプリへのアクセスを自分と信頼できるユーザーにのみ制限します。 これらのユーザーは、検証を実行するために、組織のアプリ ストアからアプリを取得できます。 アプリが検証された後、同じアクセス許可ポリシーを使用して、アクセス権を開き、アプリを実稼働環境で使用するためにロールアウトします。
+> 検証のためにアプリを実稼働テナントにアップロードする場合は、この手順をスキップし[、「アップロード」](#upload)セクションと「セクションの設定と管理」の手順に従って、検証されていないアプリを[](#set-up-and-manage)組織のアプリ ストアに発行できます。 その後、そのアプリへのアクセスを自分と信頼できるユーザーにのみ制限します。 これらのユーザーは、検証を実行するために、組織のアプリ ストアからアプリを取得できます。 アプリが検証された後、同じアクセス許可ポリシーを使用して、アクセス権を開き、アプリを実稼働環境で使用するためにロールアウトします。
 
 信頼できるユーザーにカスタム アプリのアップロードを許可するには、次の手順に従います。
 
@@ -89,11 +89,11 @@ Microsoft では<a href="/microsoftteams/platform/publishing/office-store-approv
 
 既定では、ユーザーが組織のアプリ ストアにアクセスしてアプリを参照または検索する必要があるアプリを見つける場合。 ユーザーがアプリに簡単にアクセスするには、アプリをアプリ バーのアプリ バーにピン留Teams。 これを行うには、アプリセットアップ ポリシーを作成し、ユーザーに割り当てる必要があります。 詳細については、「<a href="/microsoftteams/teams-app-setup-policies" target="_blank">Teams でアプリの設定ポリシーを管理する</a>」を参照してください。
 
-### <a name="search-the-audit-log-for-teams-app-events"></a>監査ログでアプリ イベントTeams検索する
+### <a name="search-the-audit-log-for-teams-app-events"></a>アプリ イベントの監査Teams検索する
 
 監査ログを検索して、組織内のTeamsアクティビティを表示できます。 監査ログを検索する方法と、監査ログに記録されている Teams アクティビティの一覧を表示する方法の詳細については、「Teams でイベントの監査ログを検索する」<a href="/microsoftteams/audit-log-events" target="_blank">を参照してください</a>。
 
-監査ログを検索できるようになるには、最初に<a href="https://protection.office.com" target="_blank">セキュリティ/コンプライアンス センター</a>で監査をオンにする必要があります。 詳細については、「<a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">監査ログの検索を有効または無効にする</a>」を参照してください。 利用できる監査データは、監査を有効にした時点以降のデータのみであることにご注意ください。
+監査ログを検索できるようになるには、最初に<a href="https://protection.office.com" target="_blank">セキュリティ/コンプライアンス センター</a> で監査をオンにする必要があります。 詳細については、「<a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">監査ログの検索を有効または無効にする</a>」を参照してください。 利用できる監査データは、監査を有効にした時点以降のデータのみであることにご注意ください。
 
 ## <a name="discover-and-adopt"></a>検出して採用する
 
@@ -111,7 +111,7 @@ Microsoft では<a href="/microsoftteams/platform/publishing/office-store-approv
 
 ### <a name="end-user-update-experience"></a>エンド ユーザーの更新エクスペリエンス
 
-ほとんどの場合、アプリの更新を完了すると、エンド ユーザーに対して新しいバージョンが自動的に表示されます。 ただし、完了するためにユーザーの受け入れを必要Microsoft Teams<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">マニフェスト</a>にはいくつかの更新があります。
+ほとんどの場合、アプリの更新を完了すると、エンド ユーザーに対して新しいバージョンが自動的に表示されます。 ただし、完了するためにユーザーの受け入れを必要Microsoft Teams<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">マニフェスト</a>には、いくつかの更新があります。
 
 * ボットが追加または削除されました
 * 既存のボットの "botId" プロパティが変更されました

@@ -1,6 +1,6 @@
 ---
 title: Google Workspace Microsoft Teamsの会議アドオンをセットアップする
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aravin
 manager: serdars
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Google Workspace の会議Microsoft Teamsを設定する方法について説明します。
+description: Google Workspace の会議アドオンMicrosoft Teamsを設定する方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f3c4553e20bb9c02ff99dcf8ad452af05f054e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6116567a14aa55a5295b995336b49b30c7bb56ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777207"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846110"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace Microsoft Teamsの会議アドオンをセットアップする
 
-新しいMicrosoft Teamsアドオンを使用すると、Google カレンダー ユーザーは Google ワークスペースから直接会議Microsoft Teamsスケジュールを設定し、会議に参加できます。 ユーザーは、ビデオ会議Teams会議、画面共有、会議チャット、デジタル ホワイトボードなど、さまざまな会議機能にアクセスできます。 仕事、学校、生活をまたがってより多くの作業を行う場合は、つながって整理します。
+新しいMicrosoft Teamsアドオンを使用すると、Google カレンダー ユーザーは Google ワークスペースから直接会議Microsoft Teamsスケジュールを設定して会議に参加できます。 ユーザーは、ビデオ会議Teams、画面共有、会議チャット、デジタル ホワイトボードなど、さまざまな会議機能にアクセスできます。 仕事、学校、生活をまたがってより多くの作業を行う場合は、つながって整理します。
 
-テナント Microsoft Teamsユーザーがアプリにアクセスするには、Google ワークスペースの会議アドオンを管理者がTeams有効にする必要があります。
+テナント Microsoft Teamsがアプリにアクセスするには、Google ワークスペースの会議アドオンを管理者がTeams有効にする必要があります。
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Azure portal Microsoft Teams Google Workspace の会議アドオンを有効または無効にする
 
@@ -41,7 +41,7 @@ ms.locfileid: "60777207"
 
 2. [**アプリケーションEnterprise すべてのアプリケーション**  >  **] を選択します**。
 
-3. Google Workspace **のMicrosoft Teamsアドオンを検索します**。
+3. Google Workspace **Microsoft Teamsの会議アドオンを検索します**。
 
    ![すべてのアプリケーションを表示する Azure Portal。](media/aad-add-google-workspace.png)
 
@@ -77,4 +77,4 @@ if ($servicePrincipal) {
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace Microsoft Teamsの会議アドオンを削除する
 
-手順については、Google のドキュメント [「Google Workspace Marketplace アプリを削除する](https://support.google.com/a/answer/6216211?hl=en) 」を参照してください。
+手順については、Google のドキュメント [「Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) アプリを削除する」を参照してください。

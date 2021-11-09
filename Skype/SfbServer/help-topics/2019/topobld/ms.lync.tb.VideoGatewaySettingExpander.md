@@ -2,7 +2,7 @@
 title: ビデオ ゲートウェイの設定
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8dcd4168-60ed-4787-b6de-2b04268d6d0f
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the Skype for Business Server」を参照してください。
-ms.openlocfilehash: 83c6304d15ffca29b57b0f6fd0938758cd3266e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 285ea631e20694b40a86ac9bad34783b6f41b458
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738103"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846690"
 ---
 # <a name="video-gateway-setting"></a>ビデオ ゲートウェイの設定
  

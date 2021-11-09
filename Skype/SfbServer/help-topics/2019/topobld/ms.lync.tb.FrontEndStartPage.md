@@ -2,7 +2,7 @@
 title: フロントエンド スタート ページ
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
 ROBOTS: NOINDEX, NOFOLLOW
 description: このウィザードを使用して、サイトの新しいフロント エンド プールを定義します。各サイトには、少なくとも 1 つの Enterprise Edition プールか Standard Edition サーバーが必要です。ウィザードを使用して新しいフロント エンド プールを作成する場合の要件の詳細については、「展開」のドキュメントの「Define and Configure a Front End Pool (フロント エンド プールの定義および構成)」を参照してください。
-ms.openlocfilehash: 633d99919d6f15fce62c57a85872951d5bb7e118
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b3c290a5c169aa371b0a777802bf3ef8be8e0a3c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752426"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846750"
 ---
 # <a name="front-end-start-page"></a>フロント エンド スタート ページ
 

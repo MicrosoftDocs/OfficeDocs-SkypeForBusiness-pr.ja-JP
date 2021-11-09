@@ -1,6 +1,6 @@
 ---
 title: Skype for Business オンプレミスから Teams にアップグレードする
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -20,14 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 584243197f15b746a0fa5638fbba3141e93f34bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b6d8c95b34345bd6ea6203abbb099c7071c9db60
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777137"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846020"
 ---
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>オンプレミスのデプロイSkype for BusinessからオンプレミスデプロイにアップグレードTeams
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>オンプレミスのデプロイSkype for BusinessからデプロイにアップグレードTeams
 
 ![「展開と実装」段階が強調表示された、アップグレード行程の各段階。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
 
@@ -41,7 +41,7 @@ ms.locfileid: "60777137"
 - [組織を準備した](./upgrade-prepare-organization.md)
 - [パイロットを実施した](./pilot-essentials.md)
 
-Skype for Business または Microsoft Lync をオンプレミスに展開し、組織が複数の共存モードを使用して選択的に Microsoft Teams にアップグレードする場合、またはすべて使用する場合は、この記事のガイダンスに従います。 
+Skype for Business または Microsoft Lync をオンプレミスに展開し、組織が複数の共存モードを使用して選択して Microsoft Teams にアップグレードする場合、またはすべて使用する場合は、この記事のガイダンスに従います。 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

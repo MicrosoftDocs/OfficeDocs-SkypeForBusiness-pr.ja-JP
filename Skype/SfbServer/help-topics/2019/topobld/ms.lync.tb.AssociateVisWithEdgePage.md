@@ -2,7 +2,7 @@
 title: VIS とエッジの関連付け
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the Skype for Business Server」を参照してください。
-ms.openlocfilehash: 18b27cab340b7724206bee6658ef691fcba274e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 680799a05b2c797048389a015167ab5c0881523e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739833"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846820"
 ---
 # <a name="associate-vis-with-edge"></a>VIS とエッジの関連付け
  

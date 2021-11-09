@@ -2,7 +2,7 @@
 title: 会議を展開するSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: '概要: このトピックを参照して、会議を展開する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: f11a184671ec054bb12dcb6b61096a1051a38b33
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5b16afdd4530b111f34fd07ad7851c84200fca2b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771659"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845950"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>会議を展開するSkype for Business Server
 

@@ -2,7 +2,7 @@
 title: オンプレミス のパートナー アプリケーションを構成Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: '概要: オンプレミス のパートナー アプリケーションを構成して、Skype for Business Server。'
-ms.openlocfilehash: 65e5d32787b13043d30b6cb03a7d9cdbc047c46a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c922765e81c0507e6eca9e81047cce4dfbb6dd6c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772123"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846470"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>オンプレミス のパートナー アプリケーションを構成Skype for Business Server
  

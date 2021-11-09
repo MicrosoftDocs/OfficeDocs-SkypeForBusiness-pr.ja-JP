@@ -1,6 +1,6 @@
 ---
-title: アプリのアクセス許可を表示し、管理センターで管理者のMicrosoft Teams付与する
-author: cichur
+title: アプリのアクセス許可を表示し、管理センターで管理者Microsoft Teams付与する
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: vaibhava
 manager: serdars
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5076c80edfff8e4b36b53ad79c3b17805f4d6df
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5e2f773686fee965a9c80aa4a68987dc6280db66
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775997"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846130"
 ---
-# <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>アプリのアクセス許可を表示し、管理センターで管理者のMicrosoft Teams付与する
+# <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>アプリのアクセス許可を表示し、管理センターで管理者Microsoft Teams付与する
 
-Microsoft Teams [](manage-apps.md)管理センターの [アプリの管理] ページでは、組織のすべてのアプリTeams表示および管理できます。 たとえば、アプリの組織レベルの状態とプロパティの表示、組織のアプリ ストアへの新しいカスタム アプリの承認またはアップロード、組織レベルでのアプリのブロックまたは許可、組織全体のアプリ設定の管理を行います。
+管理[センターの](manage-apps.md)[Microsoft Teams] ページでは、組織のすべてのアプリTeams表示および管理できます。 たとえば、アプリの組織レベルの状態とプロパティの表示、組織のアプリ ストアへの新しいカスタム アプリの承認またはアップロード、組織レベルでのアプリのブロックまたは許可、組織全体のアプリ設定の管理を行います。
 
 ここでは、データへのアクセス許可を要求し、アプリのリソース固有の同意 (RSC) アクセス許可を表示するアプリに対して、組織全体の管理者の同意を付与することもできます。
 
@@ -30,9 +30,9 @@ Microsoft Teams [](manage-apps.md)管理センターの [アプリの管理] ペ
 
 グローバル管理者の場合は、組織内のすべてのユーザーに代わってアクセス許可を要求するアプリを確認し、同意を付与できます。 これにより、ユーザーはアプリの起動時にアプリから要求されたアクセス許可を確認して受け入れる必要がなされます。 さらに、Azure Active Directory (Azure AD) のユーザー[](/azure/active-directory/manage-apps/configure-user-consent)の同意設定によっては、会社のデータにアクセスするアプリに同意を付与できないユーザーもいます。
 
-アプリによって要求されるアクセス許可の例には、チームに格納されている情報の読み取り、ユーザーのプロファイルの読み取り、ユーザーに代わって電子メールを送信する機能が含まれます。 詳細については、エンドポイント の[アクセス許可と同意に関するページMicrosoft ID プラットフォームしてください](/azure/active-directory/develop/v2-permissions-and-consent)。 
+アプリによって要求されるアクセス許可の例には、チームに格納されている情報の読み取り、ユーザーのプロファイルの読み取り、ユーザーに代わって電子メールを送信する機能が含まれます。 詳細については、エンドポイントの[アクセス許可と同意に関するページMicrosoft ID プラットフォームしてください](/azure/active-directory/develop/v2-permissions-and-consent)。 
 
-[ **アクセス許可]** 列は、アプリに同意が必要なアクセス許可を持っているかどうかを示します。 同意が必要な **アクセス許可を** 持つ Azure ADに登録されている各アプリの [詳細の表示] リンクが表示されます。 これは、カスタム アプリとサード パーティ製アプリにのみ適用されます。 このリンクは表示されません。または、Microsoft によって発行されたアプリに対して管理者の同意を付与する必要があります。
+[ **アクセス許可]** 列は、アプリに同意が必要なアクセス許可を持っているかどうかを示します。 同意が必要な **アクセス許可を** 持つ Azure ADアプリごとに [詳細の表示] リンクが表示されます。 これは、カスタム アプリとサード パーティ製アプリにのみ適用されます。 このリンクは表示されません。または、Microsoft によって発行されたアプリに対して管理者の同意を付与する必要があります。
 
 :::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="[アプリの管理] ページの [アクセス許可] 列のスクリーンショット。":::
 
@@ -61,14 +61,14 @@ Microsoft Teams [](manage-apps.md)管理センターの [アプリの管理] ペ
 
 :::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="同意が許可された場合に表示されるメッセージのスクリーンショット。":::
 
-組織内のユーザーが同意を許可されている場合、1 人または複数のユーザーが特定のアプリに同意を許可した場合は、同意が付与されたことを知らせ、Azure AD ポータルのアプリのページへの Azure Active Directory リンクを知らせる同じメッセージも表示されます。
+組織内のユーザーが同意を許可され、1 人または複数のユーザーが特定のアプリに同意を許可した場合は、同意が付与されたことを知らせ、Azure AD ポータルのアプリのページへの Azure Active Directory リンクを知らせる同じメッセージも表示されます。
 
 > [!NOTE]
 > ただし、[アクセス許可と同意の確認] オプションは Teams サービス管理者には使用できません。また、Teams サービス管理者はアプリの [アクセス許可] タブでコンテンツを表示できます。  たとえば、Teamsサービス管理者は、[Azure Active Directory] リンクをクリックして、アプリのアクセス許可の詳細をポータルAzure ADできます。 
 
 ## <a name="view-resource-specific-consent-permissions-of-an-app"></a>アプリのリソース固有の同意アクセス許可を表示する
 
-RSC アクセス許可を使用すると、チーム所有者は、アプリがチームのデータにアクセスして変更する同意を付与できます。 RSC アクセス許可は細かく、Teams特定のチームでアプリが実行できる操作を定義する固有のアクセス許可です。 RSC アクセス許可の例としては、チャネルの作成と削除、チームの設定の取得、チャネル タブの作成と削除が含まれます。 
+RSC アクセス許可を使用すると、チーム所有者は、アプリがチームのデータにアクセスして変更する同意を付与できます。 RSC アクセス許可は、アプリTeamsチームで実行できる操作を定義する、詳細で詳細なアクセス許可です。 RSC アクセス許可の例としては、チャネルの作成と削除、チームの設定の取得、チャネル タブの作成と削除が含まれます。 
 
 RSC アクセス許可はアプリ マニフェストで定義され、アプリケーション マニフェストAzure AD。 アプリをチームに追加するときに、RSC アクセス許可に同意します。 詳細については、「リソース固有の [同意 (RSC)」を参照してください](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)。
 
@@ -90,7 +90,7 @@ RSC アクセス許可はアプリ マニフェストで定義され、アプリ
 
 ## <a name="related-topics"></a>関連項目
 
-- [管理センターでアプリMicrosoft Teamsする](manage-apps.md)
+- [管理センターでアプリをMicrosoft Teamsする](manage-apps.md)
 - [Microsoft ID プラットフォーム エンドポイントのアクセス許可と同意](/azure/active-directory/develop/v2-permissions-and-consent)
 - [リソース固有の同意 (Teams](resource-specific-consent.md)
 - [リソース固有の同意 (RSC)](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)

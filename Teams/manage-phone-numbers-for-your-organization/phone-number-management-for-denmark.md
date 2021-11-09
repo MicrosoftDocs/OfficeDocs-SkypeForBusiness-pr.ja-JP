@@ -1,6 +1,6 @@
 ---
 title: 電話の番号管理
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: この表を使用して、デンマークの電話番号の取得と管理に関する情報をMicrosoft Teams。
-ms.openlocfilehash: b163bd9f8506ae2bbcef5092b1dd7d10f1f39c1d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 次の表を使用して、デンマークの電話番号の取得と管理に関する情報をMicrosoft Teams。
+ms.openlocfilehash: e7903a7cb533d3bd789c648bb4441f48cda34655
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756088"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846100"
 ---
 # <a name="phone-number-management-for-denmark"></a>電話の番号管理
 
-この表を使用して、デンマークの電話番号の取得と管理に関する情報をMicrosoft Teams。
+次の表を使用して、デンマークの電話番号の取得と管理に関する情報をMicrosoft Teams。
   
 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization.md)」をご覧ください。
   

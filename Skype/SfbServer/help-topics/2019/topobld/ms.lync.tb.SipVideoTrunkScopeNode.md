@@ -2,7 +2,7 @@
 title: SIP ビデオ トランクのスコープ ノード
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 1dc894e5-e2db-4c4d-9946-1d5f92090113
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the Skype for Business Server」を参照してください。
-ms.openlocfilehash: e2a08ff4700deb97c2573d8e8ba165121693f511
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 102df37d4152fa53a07fef1c2b11cac330dfef7b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775337"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846700"
 ---
 # <a name="sip-video-trunk-scope-node"></a>SIP ビデオ トランクのスコープ ノード
  
