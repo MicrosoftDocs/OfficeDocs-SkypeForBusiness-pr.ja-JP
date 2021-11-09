@@ -2,7 +2,7 @@
 title: Active Directory の準備
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: サーバーとユーザーをホストSkype for Business Server Active Directory ドメイン サービス スキーマ、フォレスト、およびドメインを準備する必要があります。 このSkype for Business Serverウィザードでは、Active Directory の準備に必要な手順を、スキーマからフォレストの準備まで順に説明します。 Active Directory レプリケーションが成功したと確認したら、ユーザーまたはサーバーをホストする各ドメインを準備します。
-ms.openlocfilehash: c8973d9f5e269a9ebea48c81c70e68d74759eb92
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0a4bbde9a3dc4bc22a6a709565fe3b1dcf1e009
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755330"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830621"
 ---
 # <a name="prepare-active-directory"></a>Active Directory の準備
 

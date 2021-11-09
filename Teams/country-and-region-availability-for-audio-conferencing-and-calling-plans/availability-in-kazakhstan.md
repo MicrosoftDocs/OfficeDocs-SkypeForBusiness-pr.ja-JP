@@ -1,6 +1,6 @@
 ---
 title: カザフスタンの空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下は、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスです。
-ms.openlocfilehash: aeaff9031535df5e7d727f3386ae4264efa62817
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 以下は、Microsoft 365とOffice 365、Skype for BusinessおよびMicrosoft Teamsサービスです。
+ms.openlocfilehash: b69d4634ee91e002c0f86fbe19d57dc20d3dd582
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777537"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836085"
 ---
 # <a name="availability-in-kazakhstan"></a>カザフスタンの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-以下は、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスです。
+以下は、Microsoft 365とOffice 365、Skype for BusinessおよびMicrosoft Teamsサービスです。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +72,7 @@ ms.locfileid: "60777537"
 |有料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は[、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号の取得」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

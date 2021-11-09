@@ -2,7 +2,7 @@
 title: 2015 年の常設チャット サーバーの高可用性と障害復旧Skype for Business Serverする
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: '概要: 2015 年の常設チャット サーバーの高可用性と障害復旧を計画する方法については、このトピックSkype for Business Serverしてください。'
-ms.openlocfilehash: 55ab4da8fbb5e0ddd6c2eaa3c8912a472d8e112f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 042080aebf57a14554820eea9b5bb9d5c9bb1f71
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740393"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836229"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバーの高可用性と障害復旧Skype for Business Serverする
  

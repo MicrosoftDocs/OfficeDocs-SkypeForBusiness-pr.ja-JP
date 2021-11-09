@@ -2,7 +2,7 @@
 title: 常設チャット カテゴリ メイン ページ
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: '[常設チャット] ページの [カテゴリ] セクションを使用して、カテゴリを構成できます。 常設チャット ルーム カテゴリは、チャット ルームを整理する論理的な構造です。 カテゴリは、チャット ルームの作成やチャット ルームへの参加を許可するユーザーとユーザー グループを制御するアクセス制御リスト (ACL) の既定のセットを定義します。 カテゴリを使用して、組織内の異なる部門間に倫理的境界を設置できます。'
-ms.openlocfilehash: dd03180802cc8844f2b0a5d43c35f9d78a48bb32
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbbfb0185b463a6f63bb9016b77e4539a003505e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768955"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836579"
 ---
 # <a name="persistent-chat-category-main-page"></a>常設チャット カテゴリ メイン ページ
  

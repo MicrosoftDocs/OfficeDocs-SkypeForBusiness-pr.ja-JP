@@ -2,7 +2,7 @@
 title: 簡易 URL の追加
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: 展開の定義に単純な URL を追加するには、新しい簡易 URL の URL を指定します。
-ms.openlocfilehash: 6008a57576fbd755643dcb876e67dddc61f1cdbb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7ce88a2d67dd672dbdd02a23d88e5693cc57c4a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752116"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862584"
 ---
 # <a name="add-simple-url"></a>簡易 URL の追加
  

@@ -2,7 +2,7 @@
 title: ユーザー会議ポリシーの表示または構成
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 2e225ed46a9b104e4643c54004ae48ec74de5b98
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5f54cb69a2f4767b7fb8838fb4175579d8ceb6e7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752736"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856064"
 ---
 # <a name="users-view-or-configure-conferencing-policy"></a>ユーザー: 会議ポリシーの表示または構成
 

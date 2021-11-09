@@ -1,6 +1,6 @@
 ---
 title: Meeting First - Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2aafa115d6da600df17ac18e4b1af66358efb16b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8ac722e48a570571f7ac8e5937a2fe7b2ae778e5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741643"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849540"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -111,7 +111,7 @@ Meetings First のすべての機能とユーザー エクスペリエンス (Te
 
 ![最初に会議を有効にする管理者設定のスクリーンショット。](media/teams-meeting-admin-settings.png)
 
-必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションから Teams アプリケーションとチャネル アプリケーションを非表示にし、アプリセットアップ ポリシー を使用して実現できる会議にさらに集中する必要[があります。](teams-app-setup-policies.md)
+必要に応じて、ユーザーの Teams クライアントの左側のナビゲーションから Teams アプリケーションとチャネル アプリケーションを非表示にし、アプリ設定ポリシー を使用して実現できる会議にさらに集中する必要があります[。](teams-app-setup-policies.md)
 
 ## <a name="reporting-and-call-analytics"></a>レポート作成と通話分析
 

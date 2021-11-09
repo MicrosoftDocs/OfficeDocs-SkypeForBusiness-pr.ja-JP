@@ -2,7 +2,7 @@
 title: 2015 SQLでバック エンド サーバーの高可用性のミラーリングをSkype for Business Serverする
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: SQL ミラーリングを展開できるようにするには、サーバーで最小限の SQL Server 2008 R2 を実行する必要があります。 このバージョンは、すべての関連サーバー (プライマリ、ミラー、およびミラーリング監視の各サーバー) で実行する必要があります。 詳細については、「累積的な更新プログラム パッケージ 9 for SQL Server 2008 Service Pack 1」を参照してください。
-ms.openlocfilehash: 862b7ba5a381ea422c63dfc96bde202a5330bfd5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b27fed99cafa109da8c13e369c93985d7bc4cf64
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742873"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849450"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>2015 SQLのバック エンド サーバーの高可用性に対するミラー Skype for Business展開する
 

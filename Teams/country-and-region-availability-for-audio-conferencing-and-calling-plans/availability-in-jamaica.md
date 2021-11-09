@@ -1,6 +1,6 @@
 ---
 title: ジャマイカでの空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下は、Microsoft 365とOffice 365、Skype for Business Microsoft Teamsサービスです。
-ms.openlocfilehash: ecac9baf800bd588d295fd686c14ca748183f407
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 以下は、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスです。
+ms.openlocfilehash: 940ca93742e3c52630575c637116e0d9d79658c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745683"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863154"
 ---
 # <a name="availability-in-jamaica"></a>ジャマイカでの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-以下は、Microsoft 365とOffice 365、Skype for Business Microsoft Teamsサービスです。
+以下は、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスです。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -70,9 +70,9 @@ ms.locfileid: "60745683"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
-|無料電話番号は利用できますか?  <br/> |はい  <br/> |
+|無料電話番号は利用できますか?  <br/> |Yes  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は[、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号の取得」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

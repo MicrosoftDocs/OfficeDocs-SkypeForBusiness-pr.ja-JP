@@ -1,6 +1,6 @@
 ---
 title: Teams または Skype for Business のフィードバックアンケート
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: ユーザーフィードバックを収集して、クラウドまたはクラウドでのクラウド音声Microsoft Teams向上Skype for Business。
+description: ユーザーフィードバックを収集して、クラウドまたはクラウドでのクラウド音声の実装Microsoft Teams向上Skype for Business。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,20 +16,20 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e98ec763d93609d0b5b4a37cf6fa02b71c478def
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cebd19b40513ece384112e6fdc3efa1be54155b1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773437"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836035"
 ---
 # <a name="user-feedback-surveys"></a>ユーザー フィードバックアンケート 
 
-フィードバックアンケートを使用して、デプロイ後のユーザーのエクスペリエンスと分析情報をキャプチャします。 質問は、変更に対するユーザーの受け入れ、トレーニング リソースの有効性、サポート プランの準備が整ったか、ユーザーの全体的なエクスペリエンスに関するフィードバックを得る必要があります。 プロジェクト計画中に定義した SMART (特定の、測定可能、達成可能、関連性のある、期限付き) の目標に対して測定するために、アンケートの回答を評価し、必要な追加のアクションを決定します。
+フィードバックアンケートを使用して、デプロイ後のユーザーのエクスペリエンスと分析情報をキャプチャします。 質問は、変更に対するユーザーの受け入れ、トレーニング リソースの有効性、サポート プランの準備が整ったか、ユーザーの全体的なエクスペリエンスに関するフィードバックを得る必要があります。 プロジェクト計画中に定義した SMART (特定の、測定可能、達成可能、関連性のある、期限付き) の目標に対して測定するためにアンケートの回答を評価し、必要な追加のアクションを決定します。
 
-以下の質問をカスタマイズし、配布と分析を容易に行SharePointなどのアンケート ツールに転送します。
+以下の質問をカスタマイズし、配布と分析を容易に行SharePointツールに転送します。
 
-これらのアンケートの目的上、新しい電話システムとは、メディア電話や携帯電話などのデバイスに加えて、Microsoft Teams または Skype for Business の通話機能を使用する方法を指します。 これらのアンケート内のMicrosoft Teams参照はすべて、これらのアンケートにもSkype for Business。
+これらのアンケートの目的上、新しい電話システムとは、メディア電話や携帯電話などのデバイスに加えて、Microsoft Teams または Skype for Business の通話機能を使用する方法を指します。 これらのアンケート内のMicrosoft Teams参照はすべて、このアンケートにもSkype for Business。
 
 電話での通話の使用に関連する次のステートメントを使用して、契約Teams示します。 
 
@@ -42,7 +42,7 @@ ms.locfileid: "60773437"
 | 新しい電話システムは、すべての通話ニーズ (転送、保留、ボイスメールなど) を満たします。                                      |                      |                    |             |                       |                         |                        |
 | 電話システムと電話システムを統合する価値Teams。                                                 |                      |                    |             |                       |                         |                        |
 | スマートフォンTeamsを使用すると、仕事が簡単になります。                                          |                      |                    |             |                       |                         |                        |
-| この機能を使用したTeamsは、古い電話システムと同じか、それよりも優れたものになります。                   |                      |                    |             |                       |                         |                        |
+| 古い電話システムTeamsと同じかそれ以上のオーディオ エクスペリエンスです。                   |                      |                    |             |                       |                         |                        |
 
 上記の **ステートメントに対** して [やや反対] または [完全に反対] を選択した場合は、説明してください。 (テキストを開く)
 

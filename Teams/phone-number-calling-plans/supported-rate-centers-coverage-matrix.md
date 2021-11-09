@@ -1,7 +1,7 @@
 ---
 title: 通話プランでサポートされているレート センターとカバレッジ
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: davlick, julienp
 ms.topic: article
@@ -17,16 +17,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 通話プランでサポートされているレート センターとカバレッジを一覧表示します。
-ms.openlocfilehash: 0c0bd4d80005bdd38b044a27a5de4a16bbd999c8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4287a4acbecaca4b2933cc0308393b6612dff4c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759249"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830791"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>通話プランでサポートされているレート センターとカバレッジ
 
-この記事では、北米の通話プランでサポートされているレート センターとカバレッジの一覧を示します。 レート センターは、従来、公衆交換電話網 (PSTN) の地域通話、請求率、電話番号の割り当ての境界を定義する地理的領域の業界用語です。 多くの場合、業界が包括的なプランまたは分数のバンドルに移行する中で、料金センターは課金の重要な点が低くなっていますが、一部では引き続き使用されます。
+この記事では、北米の通話プランでサポートされているレート センターとカバレッジの一覧を示します。 レート センターは、従来、公衆交換電話網 (PSTN) の地域通話、請求率、電話番号の割り当ての境界を定義する地理的領域の業界用語です。 多くの場合、業界が包括的なプランや分数のバンドルに移行する中で、料金センターは課金の重要な点が低くなっていますが、一部では引き続き使用されます。
 
 北米 [スプレッドシートでサポートされているレート センター](https://www.microsoft.com/download/details.aspx?id=102534) とカバレッジ マトリックスには、サポートされているレート センターが一覧表示されます。 新しい電話番号を取得する場合、または既存のプロバイダーから Teams に電話番号を転送する場合は、スプレッドシートをダウンロードし、それを使用してレート センターを参照します。 レート センターが分からない場合は、地域コード (NPO) とプレフィックス (NXX) に基づいてインターネット上で検索できます。
 新しい数値を取得し、要求した数値が表示されなくなっても、同じレート センターから番号を提供します。

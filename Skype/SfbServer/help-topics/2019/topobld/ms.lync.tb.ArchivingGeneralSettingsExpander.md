@@ -2,7 +2,7 @@
 title: アーカイブ サーバーの全般設定の展開
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーでは、アーカイブを実行している個々のサーバーのプロパティを編集するには、コンソール ツリーでアーカイブを実行しているサーバーを右クリックし、ツールバーの [アクション] をクリックするか、[操作] ウィンドウでタスクをクリックし、[プロパティの編集] をクリックし、次のいずれかのオプションを変更します。
-ms.openlocfilehash: f12b43f027ef0a562f8e15aeb265091e3e85d0a9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 331aa14ff8adee17c201c4e1bf71dbe411d97ac8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778567"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836819"
 ---
 # <a name="archiving-server-general-settings-expander"></a>アーカイブ サーバーの全般設定エキスパンダー
  

@@ -2,7 +2,7 @@
 title: デバイス構成 新規の作成または既存の編集
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[新しいデバイス構成] または [デバイス構成の編集] ページで、エディションの管理に使用される設定のコレクションをSkype for Business 電話できます。 これらの設定を使用すると、必須のセキュリティ モード、デバイス ログ レベル、音声のサービス品質 (QoS) の設定、非アクティブな電話を指定の時間の経過後に自動的にロックするかどうかなどを構成できます。'
-ms.openlocfilehash: 80063cf2a369b5b6322cc87cc54489ebcd87ea9b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 377eaeb2be80fbebb402e1d3d2150d39c4ff1baa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742793"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828240"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>デバイス構成: 新規作成または現在の形式のままで編集
  

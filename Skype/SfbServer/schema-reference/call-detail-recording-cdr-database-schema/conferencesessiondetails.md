@@ -2,7 +2,7 @@
 title: ConferenceSessionDetails ビュー
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: ConferenceSessionDetails ビューには、マルチパーティ セッションに関する情報が格納されます。 各レコードは 1 つの会議セッションを表し、フォーカスを持つセッションまたは特定の会議サーバーとのセッションのいずれかになります。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: cebd4acd218d551f7f43dba39334c342441e216a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f35a815743dcfb8dba3d2a69943c9c5c42344a86
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771903"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849670"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails ビュー
  

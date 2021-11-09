@@ -2,7 +2,7 @@
 title: 教育機関用 Teams
 description: 学校や組織で組織のリソースを正常にデプロイ、導入、および管理Teams利用可能な管理者リソースについて学習します。
 ms.topic: conceptual
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: admin
@@ -19,16 +19,16 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: c7d2429a412c74ebf175d6e4f99dfe1a6d8b522a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 563cf727031ebad6f27c7989499a95040e8fa104
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749083"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863144"
 ---
 # <a name="teams-for-education"></a>教育機関用 Teams
 
-このTeams教師と教職員は、共同作業を行う教室を作成し、専門の学習コミュニティに接続し、学生や教師とコミュニケーションを取り合います。 ここで管理リソースを使用すると、学校や組織で組織のTeams、導入、管理を行うのに役立ちます。 
+教師Teamsと教職員は、共同作業を行う教室を作成し、専門の学習コミュニティに接続し、学生や教師とコミュニケーションを取り合います。 ここで管理リソースを使用すると、学校や組織で組織のTeams、導入、管理を行うのに役立ちます。 
 
 
 |&nbsp;|&nbsp;|

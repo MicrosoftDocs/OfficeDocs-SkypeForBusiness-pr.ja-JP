@@ -2,7 +2,7 @@
 title: FocusJoinsAndLeaves テーブル (2015 Skype for Business Server)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: この表の各レコードには、1 つのユーザーの参加に関する CDR 情報と、1 つの会議の情報を残す情報が含まれている。 各会議は、ユーザーが会議に参加して会議を離れるごとに、この表に 1 つのレコードで表されます。
-ms.openlocfilehash: ca5ba1776478566c57d8e5992b86db2dd300613b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f48c36e4a6d12150594c7e5c0bfb44046b6804cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777787"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828580"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>FocusJoinsAndLeaves テーブル (2015 Skype for Business Server)
  

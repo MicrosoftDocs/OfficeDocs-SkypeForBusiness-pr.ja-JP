@@ -1,6 +1,6 @@
 ---
 title: 北マリアナ諸島の空き時間
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 北マリアナ諸島Microsoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 8be7e802cb399b8e4d874fabddc4c9389fc07627
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 北マリアナ諸島Microsoft 365、Office 365およびSkype for BusinessサービスMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: 192438f92baf5d905a14664f5a68222ae5354259
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753956"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836075"
 ---
 # <a name="availability-in-northern-mariana-islands"></a>北マリアナ諸島の空き時間
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-北マリアナ諸島Microsoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを次に示します。
+北マリアナ諸島Microsoft 365、Office 365およびSkype for BusinessサービスMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -70,7 +70,7 @@ ms.locfileid: "60753956"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
-|無料電話番号は利用できますか?  <br/> |はい <br/> |
+|無料電話番号は利用できますか?  <br/> |Yes <br/> |
    
  電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
   

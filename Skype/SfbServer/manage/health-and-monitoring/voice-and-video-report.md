@@ -2,7 +2,7 @@
 title: ピアツーピア音声およびビデオ レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: '概要: [音声とビデオのピアツーピア レポート] Skype for Business Server。'
-ms.openlocfilehash: 0428f75ada29c13eee9b717326d4c1077b0dece6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 61065578ea67ba3ec5004d517482c8c449216a0c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757289"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836329"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>ピアツーピア音声およびビデオ レポート (Skype for Business Server
  
@@ -72,9 +72,9 @@ ms.locfileid: "60757289"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |いいえ  <br/> |呼び出しに使用されるレジストラー プールまたはエッジ サーバーの名前。  <br/> |
-|**日付/時刻** <br/> |いいえ  <br/> |通話が行われた日付と時間。  <br/> |
-|**合計** <br/> |いいえ  <br/> |セッション数またはメッセージ数の合計。  <br/> |
+|**Pool** <br/> |不要  <br/> |呼び出しに使用されるレジストラー プールまたはエッジ サーバーの名前。  <br/> |
+|**日付/時刻** <br/> |不要  <br/> |通話が行われた日付と時間。  <br/> |
+|**合計** <br/> |不要  <br/> |セッション数またはメッセージ数の合計。  <br/> |
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>通話の種類別のピアツーピア音声およびビデオ アクティビティの指標
 
@@ -84,9 +84,9 @@ ms.locfileid: "60757289"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|[**通話の種類**] <br/> |いいえ  <br/> | 行われた通話の種類を示します。値は次のいずれかです。 <br/>  UC から UC へのアクセス <br/>  UC から PSTN への接続 <br/>  PSTN から UC への接続 <br/>  PSTN から PSTN への接続 <br/> |
-|**日付/時刻** <br/> |いいえ  <br/> |通話が行われた日付と時間。  <br/> |
-|**合計** <br/> |いいえ  <br/> |セッション数またはメッセージ数の合計。  <br/> |
+|[**通話の種類**] <br/> |不要  <br/> | 行われた通話の種類を示します。値は次のいずれかです。 <br/>  UC から UC へのアクセス <br/>  UC から PSTN への接続 <br/>  PSTN から UC への接続 <br/>  PSTN から PSTN への接続 <br/> |
+|**日付/時刻** <br/> |不要  <br/> |通話が行われた日付と時間。  <br/> |
+|**合計** <br/> |不要  <br/> |セッション数またはメッセージ数の合計。  <br/> |
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>アクセスの種類別のピアツーピア音声およびビデオ アクティビティの指標
 
@@ -96,9 +96,9 @@ ms.locfileid: "60757289"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|[**動作状況の種類**] <br/> |いいえ  <br/> | クライアントが通話時に内部ネットワークにログオンしたか、外部ネットワークにログオンしたかを示します。通常は次のいずれかの値です。 <br/>  内部 <br/>  外部 <br/>  混合 <br/> |
-|**日付/時刻** <br/> |いいえ  <br/> |通話が行われた日付と時間。  <br/> |
-|**合計** <br/> |いいえ  <br/> |セッション数またはメッセージ数の合計。  <br/> |
+|[**動作状況の種類**] <br/> |不要  <br/> | クライアントが通話時に内部ネットワークにログオンしたか、外部ネットワークにログオンしたかを示します。通常は次のいずれかの値です。 <br/>  内部 <br/>  外部 <br/>  混合 <br/> |
+|**日付/時刻** <br/> |不要  <br/> |通話が行われた日付と時間。  <br/> |
+|**合計** <br/> |不要  <br/> |セッション数またはメッセージ数の合計。  <br/> |
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>仲介サーバー別のピアツーピア音声およびビデオ アクティビティの指標
 
@@ -108,8 +108,8 @@ ms.locfileid: "60757289"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|[**仲介サーバー**] <br/> |いいえ  <br/> |仲介サーバーの名前。  <br/> |
-|**日付/時刻** <br/> |いいえ  <br/> |通話が行われた日付と時間。  <br/> |
-|**合計** <br/> |いいえ  <br/> |セッション数またはメッセージ数の合計。  <br/> |
+|[**仲介サーバー**] <br/> |不要  <br/> |仲介サーバーの名前。  <br/> |
+|**日付/時刻** <br/> |不要  <br/> |通話が行われた日付と時間。  <br/> |
+|**合計** <br/> |不要  <br/> |セッション数またはメッセージ数の合計。  <br/> |
    
 

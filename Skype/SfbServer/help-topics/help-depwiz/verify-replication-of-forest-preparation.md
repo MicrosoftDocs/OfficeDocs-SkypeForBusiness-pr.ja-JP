@@ -2,7 +2,7 @@
 title: フォレスト準備のレプリケーションの確認
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 description: フォレストの準備中にグローバル カタログのレプリケーションとオブジェクトの作成が成功したことを確認するには、次の手順を実行します。
-ms.openlocfilehash: 845a53bc466dc586b63eaf8427c3e0ba23800886
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2105ff54f44a4e5ab58b2509348126920f0823b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744773"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862844"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>フォレスト準備のレプリケーションの確認
  

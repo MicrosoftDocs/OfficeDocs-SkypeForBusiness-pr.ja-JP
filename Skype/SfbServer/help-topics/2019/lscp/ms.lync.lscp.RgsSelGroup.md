@@ -2,7 +2,7 @@
 title: グループの選択
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループ キューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。 各キューには、エージェント グループを割り当てます。 キューを作成または編集するときに、[グループの選択] ダイアログ ボックスを使用して、キューに割り当てる 1 つ以上のエージェント グループを選択します。
-ms.openlocfilehash: 3202887986c3a384f158b487148d09fece3df2d5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7f58d4004b894b9bf79c1dc63f5d61a5add223fb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742703"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830601"
 ---
 # <a name="select-groups"></a>グループの選択
 

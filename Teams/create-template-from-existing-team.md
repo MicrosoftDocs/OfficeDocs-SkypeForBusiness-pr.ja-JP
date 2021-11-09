@@ -1,6 +1,6 @@
 ---
 title: 既存のチームからテンプレートを作成Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e48c41e7c6b1a28d6d16cdd76c4fcb70bd795861
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a5f22f9acbd3cf39c144ca07cce1c5d690267b6b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749686"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828480"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>既存のチームからチーム テンプレートを作成Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "60749686"
 
 **カスタム テンプレートは、EDU のお客様向けはまだサポートされていません。**
 
-Microsoft Teams、特定の組織のニーズに合わせて保存および変更できる既存のチームからテンプレートを作成できます。
+Microsoft Teams、特定の組織のニーズに合わせて保存および変更できるテンプレートを既存のチームから作成できます。
 
 1. Teams 管理センターにサインインします。
 

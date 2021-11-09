@@ -2,7 +2,7 @@
 title: ビデオ ゲートウェイ FQDN の追加
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーで新しい VIS またはビデオ ゲートウェイを定義するために必要な手順については、「Create a VIS pool in the Skype for Business Server」を参照してください。
-ms.openlocfilehash: e2c55d64d8e09103b8439d6b2de3d0bb3e5c9073
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7fcc28058233ca5a323debe7db9784c89794bc9d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772827"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836889"
 ---
 # <a name="add-video-gateway-fqdn"></a>ビデオ ゲートウェイ FQDN の追加
  

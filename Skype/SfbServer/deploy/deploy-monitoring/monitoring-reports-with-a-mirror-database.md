@@ -2,7 +2,7 @@
 title: 監視レポートとミラー データベースの関連付けSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: '概要: 監視レポートを、ユーザーが使用するミラー データベースに関連付けるSkype for Business Server。'
-ms.openlocfilehash: a30a107f8a5f5df6bb11bc8c409bf7376438f619
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748853"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856214"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>監視レポートとミラー データベースの関連付けSkype for Business Server 
  

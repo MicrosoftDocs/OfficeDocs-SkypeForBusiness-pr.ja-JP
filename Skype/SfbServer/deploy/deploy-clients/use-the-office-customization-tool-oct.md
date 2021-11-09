@@ -2,7 +2,7 @@
 title: '[カスタム カスタマイズ Officeツール (OCT) を使用Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: '概要: カスタム カスタマイズ ツールを Officeクライアントで使用するSkype for Businessします。'
-ms.openlocfilehash: 435ce2e1b9644fe5f30968a0766abe69165ca387
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c561fe9865d06b26ea46981bdf528515a465deea
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738953"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830681"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>[カスタム カスタマイズ Officeツール (OCT) を使用Skype for Business Server
  

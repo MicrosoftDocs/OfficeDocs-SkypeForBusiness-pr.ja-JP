@@ -2,7 +2,7 @@
 title: エッジ サーバーの FQDN を追加する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
 description: アクセス エッジ サービスの完全修飾ドメイン名 (FQDN) を指定する必要があります。 [機能の選択] ページで [単一の FQDN IP アドレスを使用する] オプションを選択しなかった場合は、Web 会議エッジ サービスと音声ビデオ エッジ サービスの FQDN も指定する必要があります。 &amp;
-ms.openlocfilehash: 57e34eaecd4c2d1b1210dcee51cc9675571183f9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9324cb0fb546eaf1688a2239e8cf887c698f2d77
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776847"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855974"
 ---
 # <a name="add-edge-server-fqdn"></a>エッジ サーバー FQDN の追加
  

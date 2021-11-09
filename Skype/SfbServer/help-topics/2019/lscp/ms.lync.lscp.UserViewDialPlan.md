@@ -2,7 +2,7 @@
 title: ユーザー ダイヤル プランの表示または構成
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 498394e4f594007f8de707c2de0ced1cb844524f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 719a3fdbdb6fe0d930d9e44ccc9d1e5cc68c9a0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752726"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843340"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>ユーザー: ダイヤル プランの表示または構成
 

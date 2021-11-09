@@ -2,7 +2,7 @@
 title: 証明書要求 (テンプレートの指定)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[別の証明書テンプレートの指定] ページでは、既定で使用される WebServer 証明書テンプレート以外の証明書テンプレートを定義できます。[選択された証明機関に別の証明書テンプレートを使用する] チェック ボックスをオンにしてから、[証明書テンプレート名] テキスト ボックスで別の証明書テンプレートの名前を定義します。証明機関 (CA) で定義したのと同じテンプレート名を使用する必要があります。前のページに戻るには、[戻る] をクリックします。証明書要求プロセスを終了するには、[キャンセル] をクリックします。'
-ms.openlocfilehash: 358abe26c6334e2853fab5bbe5a1733030e77af1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cb234c74bd1a267d1f130b2116eefa7056b2b1bb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738823"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828260"
 ---
 # <a name="certificate-request-specify-termplate"></a>証明書要求 (テンプレートの指定)
  

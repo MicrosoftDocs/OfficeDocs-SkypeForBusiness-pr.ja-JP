@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams でタグを管理する
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: acolonna, salu
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams で組織でのタグの使用方法を管理する方法について説明します。
-ms.openlocfilehash: 8c623c4240466c7f7a6d11194e03e9717e302089
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6d5ec8407dd413b2850603ad1eb7c6424e1d483d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771746"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856384"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Microsoft Teams でタグを管理する
 
@@ -93,7 +93,7 @@ Microsoft Teams 管理センターで **[チーム所有者に、タグの管理
 
 カスタム タグを作成して割り当てるには、アプリの左側にある **[Teams]** を選択し、一覧でチームを見つけます。 **˙˙˙ [その他のオプション]** を選択し、**[タグを管理]** を選択します。 ここで、タグを作成してチームのユーザーに割り当てることができます。
 
-![クライアント でタグを適用する方法のTeamsスクリーンショット。](media/manage-tags-teams.png)
+![クライアント にタグを適用する方法のスクリーンショットTeamsします。](media/manage-tags-teams.png)
 
 タグを削除するには、タグの横にある **˙˙˙ [その他のオプション]** を選択し、**[タグを削除]** を選択します。
 

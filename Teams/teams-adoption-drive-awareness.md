@@ -1,6 +1,6 @@
 ---
 title: 啓発とトレーニングの実施
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d3ba97744998014d0cfb6199aac71d63590a41f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753888"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842529"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Microsoft Teams について啓発し、トレーニングを実施する
 
@@ -49,17 +49,17 @@ ms.locfileid: "60753888"
 
 ## <a name="implement-end-user-training"></a>エンド ユーザー トレーニングを実装する
 
-リソースを使用して、ユーザーが他のサービスやサービスを使い始めるMicrosoft Teamsエンド Microsoft 365をOffice 365します。 詳細については、リソース ページを参照してください。
+リソースを使用して、ユーザーが他のサービスやサービスを使い始めるMicrosoft Teamsエンド Microsoft 365をMicrosoft 365提供Office 365します。 詳細については、リソース ページを参照してください。
 
 - [講師主導のエンド ユーザー によるトレーニング (Teams](instructor-led-training-teams-landing-page.yml)
-- [管理者向けトレーニング Teams](itadmin-readiness.md)
+- [管理者向けトレーニングTeams](itadmin-readiness.md)
 - [オンライン エンドユーザー ビデオ トレーニング](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [チャンピオンと IT プロのためのクラウド オンライン トレーニング&コーヒー](https://aka.ms/CoffeeintheCloud) 
+- [IT プロのチャンピオン向けクラウド オンライン トレーニング&コーヒー](https://aka.ms/CoffeeintheCloud) 
 - [導入ツール](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>成功を測定、共有する
 
-通信および導入キャンペーンと同様に、成功の測定値を前もって特定する必要があります。 次の点を考慮してください。
+コミュニケーションや導入キャンペーンと同様に、成功の測定値を前もって特定する必要があります。 次の点を考慮してください。
 
 - 製品を積極的に利用するユーザー
 - 情報 Web ページの表示回数

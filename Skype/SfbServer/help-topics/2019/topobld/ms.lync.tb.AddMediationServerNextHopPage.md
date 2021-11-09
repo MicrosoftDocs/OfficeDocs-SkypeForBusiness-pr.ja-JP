@@ -2,7 +2,7 @@
 title: 仲介サーバーの次ホップを追加する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 定義する仲介サーバーの次ホップを定義するには、[次ホップ プール] ドロップダウン リストから、仲介サーバーの次ホップとして機能する Enterprise Edition サーバーまたは Standard Edition サーバーを選択します。 続行するには、[次へ] をクリックします。
-ms.openlocfilehash: 9b98b940914dcf3c9c4c95b5ee60759047735ba6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3aaec770bc24e9187444f951bf12af07ca36ac35
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772877"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842229"
 ---
 # <a name="add-mediation-server-nexthop"></a>仲介サーバーの次ホップの追加
  

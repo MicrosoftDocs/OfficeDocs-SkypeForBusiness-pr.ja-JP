@@ -2,7 +2,7 @@
 title: ユーザーが場所ポリシーを表示または構成する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 95b77fc377ccffc27958c068581aeb4ca28ee0ed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 80a6b73de390c5d36ebfa4102121fae9c1e43d85
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747993"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830281"
 ---
 # <a name="users-view-or-configure-location-policy"></a>ユーザー: 場所ポリシーの表示または構成
 

@@ -1,6 +1,6 @@
 ---
 title: 会議で電話番号をMicrosoft Teamsする
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: moakram
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 会議中に電話番号をマスクするMicrosoft Teamsする
-ms.openlocfilehash: d34d2f38a3a1fe2219816184a5f127312cd0475e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: afdbaa4f2f437728aad14e3731ab3e26ba90f36d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758269"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828430"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>会議で電話番号をMicrosoft Teamsする
 

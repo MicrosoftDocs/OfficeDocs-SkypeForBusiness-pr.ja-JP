@@ -2,7 +2,7 @@
 title: 正規化ルールの選択
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c46041b8-b52c-48bf-9da6-d91ccc7d7968
 ROBOTS: NOINDEX, NOFOLLOW
 description: 正規化ルールでは、.NET Frameworkを使用して、ダイヤルされた電話番号を E.164 形式に変換します。 各ダイヤル プランには、正規化ルールを 1 つ以上割り当てる必要があります。
-ms.openlocfilehash: 5bb747009b7a3024f776686993c7796b25d37b30
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6fa4a6601e5b8f34f9fefeae30d826a6b2cda74f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745190"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856054"
 ---
 # <a name="select-normalization-rules"></a>正規化ルールの選択
  

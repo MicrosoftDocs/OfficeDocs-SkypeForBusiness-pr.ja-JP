@@ -2,7 +2,7 @@
 title: ネットワーク領域、サイト、サブネットを展開Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: ネットワーク領域、ネットワーク サイトを作成または変更し、ネットワーク サブネットを関連付Skype for Business Server。 これらはすべて、メディア バイパス、通話受付管理エンタープライズ VoIP場所ベースのルーティングなど、高度な機能に使用されます。
-ms.openlocfilehash: 72c8fcf9bbdeb50df5806a0a8c020fcec4bb0022
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4d726466153f30b7c5fdd3ac478b1b2444838ae6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738913"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856304"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>ネットワーク領域、サイト、サブネットを展開Skype for Business
 

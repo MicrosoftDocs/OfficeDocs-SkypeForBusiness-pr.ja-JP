@@ -2,7 +2,7 @@
 title: 管理ツールをインストールSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: '概要: インストールに必要な管理ツールをインストールする方法について説明Skype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: d2f80627aceee47559a06ab604e1cc8827d310b8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 686b0af861638f446fc490f1d99489d4f4747a0b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753250"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849420"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>管理ツールをインストールSkype for Business Server
  

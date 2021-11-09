@@ -2,7 +2,7 @@
 title: A/V MCU コンピューターの追加
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 56f6f46e-7482-45dc-87dc-c2b30e3ec67f
 ROBOTS: NOINDEX, NOFOLLOW
 description: この音声ビデオ会議プールに音声ビデオ会議サーバーとして追加する各コンピューターの完全修飾ドメイン名 (FQDN) を指定します。一覧にコンピューターを追加した後、トポロジを公開するまでの間はいつでも、コンピューターの FQDN を更新したり、プールからコンピューターを削除したりできます。トポロジの公開後に FQDN を変更するには、トポロジ ビルダーでサーバーを削除し、新しいサーバーを新しい FQDN でプールに追加する必要があります。
-ms.openlocfilehash: 4149f668d6939786e2bc2a755a0ec20e9239dbe9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3fec808f188ad1b7701c432723d2d778db309629
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769405"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830481"
 ---
 # <a name="add-av-mcu-machine"></a>A/V MCU コンピューターの追加
  

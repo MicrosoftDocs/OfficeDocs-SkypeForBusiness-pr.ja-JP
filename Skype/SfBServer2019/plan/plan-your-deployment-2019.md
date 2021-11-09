@@ -2,7 +2,7 @@
 title: 2019 年Skype for Business Server計画する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2019
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: '概要: これらのリンクを参照して、Skype for Business Server 2019 の機能、サーバー、トポロジを構成するための概念的、論理的、および物理的な設計を開発する方法について説明します。'
-ms.openlocfilehash: 6e4afa2d473b2ee668ab129506df15f612fa08ce
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd75f705c0307adc8819b09bb9c738dbdc9c38c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741513"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863124"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>2019 年Skype for Business Server計画する
  

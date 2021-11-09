@@ -1,8 +1,8 @@
 ---
-title: 'Skype for Business Server: トランク構成設定の新しいコレクションを作成する'
+title: トランク構成設定の新しいコレクションを作成するSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: '概要: コントロール パネルを使用してトランク構成設定の新しいコレクションを作成するSkype for Business Server説明します。'
-ms.openlocfilehash: 95eae0c14aad532b3f3f80e01c2acc0918751496
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2a6db1b82693ce78bd48ff8cc816503026871a09
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755656"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856294"
 ---
-# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>Skype for Business Server: トランク構成設定の新しいコレクションを作成する
+# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>トランク構成設定の新しいコレクションを作成するSkype for Business Server
 
 **概要:**[コントロール パネル] を使用してトランク構成設定の新しいコレクションを作成するSkype for Business Server説明します。
   

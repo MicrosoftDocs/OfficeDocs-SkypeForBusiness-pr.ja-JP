@@ -2,7 +2,7 @@
 title: エッジ サーバーの外部 IPv6 を追加する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c9c43d46-374e-4dc9-858c-54a021b69947
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[外部 IPv6 アドレス] に、Access Edge サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスをポイントする外部 IP アドレスを入力します。'
-ms.openlocfilehash: 2384f9d2f80ef097f4f0b75c62372bb01894f7cf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eb4655c3f87bb47066362e43c51ec0c15a8faf03
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745073"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842239"
 ---
 # <a name="add-edge-server-external-ipv6"></a>エッジ サーバー外部 IPv6 の追加
  
