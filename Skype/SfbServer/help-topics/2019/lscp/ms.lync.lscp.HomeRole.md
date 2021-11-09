@@ -2,7 +2,7 @@
 title: 管理役割とSkype for Business Serverコントロール パネル
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: セキュリティの高い標準を維持しながら管理タスクを委任するために、Skype for Business Serverベースのアクセス制御 (RBAC) をサポートしています。
-ms.openlocfilehash: 8ede6e5c45a7dbd47e3cf7522edf34b290f10e7a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6692ba3116ad88898c73660fd209d6a63528cfdd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752936"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864214"
 ---
 # <a name="administrative-roles-and-skype-for-business-server-control-panel"></a>管理役割とSkype for Business Serverコントロール パネル
 

@@ -2,7 +2,7 @@
 title: SQL インスタンス スコープ ノード
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[SQL格納] ノードには、トポロジSQL Serverデータベースが一覧表示されます。 以下のアクションを実行できます。'
-ms.openlocfilehash: 22d46de950a01c5ee153e4af901b3f8383dc77eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d8fd04904dc0a9336f773b5c030025c8a1614c29
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766845"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858434"
 ---
 # <a name="sql-instances-scope-node"></a>SQL インスタンスのスコープ ノード
  

@@ -2,7 +2,7 @@
 title: MediaLine ビュー
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: メディア ライン ビューは、各メディア ラインに関する情報をデータベースに格納します。 通常、1 つの音声セッションに 1 つの音声メディア ラインが含まれます。 また、通常は 1 つの音声ビデオ (A/V) セッションに 1 つの音声メディア ラインと 1 つのビデオ メディア ラインが含まれますが、会議デバイスまたはギャラリー ビューが使用される場合は、セッションに 2 つのビデオ メディア ラインが含まれることがあります。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 2a8f5ad413bb127e20d82927d804379b5e981636
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cf360f06fa293dc75c33caa2a10ac761ae156e91
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771873"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858124"
 ---
 # <a name="medialine-view"></a>MediaLine ビュー
  

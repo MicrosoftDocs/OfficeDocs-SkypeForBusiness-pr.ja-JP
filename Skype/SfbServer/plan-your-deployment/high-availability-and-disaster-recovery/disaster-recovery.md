@@ -2,7 +2,7 @@
 title: フロントエンド プールの障害復旧 (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 障害復旧の場合、Skype for Business Server 1 つのプールがダウンした場合に備え、フェールオーバーとプールのペアリングを提供します。
-ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740433"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833323"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>フロントエンド プールの障害復旧 (Skype for Business Server
  

@@ -2,7 +2,7 @@
 title: エラー リスト レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: '概要: エラー リスト レポートの詳細については、「エラー リスト レポート」をSkype for Business Server。'
-ms.openlocfilehash: 6853da551f65de835f6966cf0a59af57d80e1f75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 37442d95c3a79bffbd79ebd74a793f5d3e1f3fb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763635"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858294"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>エラー リスト レポート (Skype for Business Server 
  
@@ -103,13 +103,13 @@ Count    Name
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|**レポートされた時刻** <br/> |いいえ  <br/> |レポートが記録された日時です。  <br/> |
-|**要求** <br/> |いいえ  <br/> |失敗した SIP 要求の種類です (INVITE、BYE など)。  <br/> |
-|**応答コード** <br/> |いいえ  <br/> |会議にエラーが発生したときに送信された SIP 応答コードです。  <br/> |
+|**レポートされた時刻** <br/> |不要  <br/> |レポートが記録された日時です。  <br/> |
+|**要求** <br/> |不要  <br/> |失敗した SIP 要求の種類です (INVITE、BYE など)。  <br/> |
+|**応答コード** <br/> |不要  <br/> |会議にエラーが発生したときに送信された SIP 応答コードです。  <br/> |
 |[**診断 ID**] <br/> |いいえ  <br/> |エラーのトラブルシューティングに役立つ情報を得られることが多い、SIP メッセージに添付された一意の識別子です (ms-diagnostics ヘッダーの形式)。  <br/> |
-|[**Join cost time (ms)**] (参加に要した時間 (ミリ秒)) <br/> |いいえ  <br/> |ユーザーが会議に参加するのに要した時間 (ミリ秒)。  <br/> |
-|**送信元ユーザー** <br/> |いいえ  <br/> |呼び出しを開始したユーザーの SIP アドレスです。  <br/> |
-|**送信元ユーザー エージェント** <br/> |いいえ  <br/> |呼び出しを開始したユーザーのエンドポイントで使用されているソフトウェアです。  <br/> |
-|**送信先ユーザー** <br/> |いいえ  <br/> |呼び出しを受けたユーザーの SIP アドレスです。  <br/> |
+|[**Join cost time (ms)**] (参加に要した時間 (ミリ秒)) <br/> |不要  <br/> |ユーザーが会議に参加するのに要した時間 (ミリ秒)。  <br/> |
+|**送信元ユーザー** <br/> |不要  <br/> |呼び出しを開始したユーザーの SIP アドレスです。  <br/> |
+|**送信元ユーザー エージェント** <br/> |不要  <br/> |呼び出しを開始したユーザーのエンドポイントで使用されているソフトウェアです。  <br/> |
+|**送信先ユーザー** <br/> |不要  <br/> |呼び出しを受けたユーザーの SIP アドレスです。  <br/> |
    
 

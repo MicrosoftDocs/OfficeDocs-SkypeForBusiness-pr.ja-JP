@@ -2,7 +2,7 @@
 title: '[トポロジ ビルダー] でゲートウェイを定義Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: '概要: トポロジ ビルダーで PSTN ゲートウェイを定義する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: c3ea9b02f39b3ef93c7c725735599a3940f33641
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e8a69fb1a884597f4e6ecde1a3811a88982d13e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753608"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857954"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>[トポロジ ビルダー] でゲートウェイを定義Skype for Business Server
  

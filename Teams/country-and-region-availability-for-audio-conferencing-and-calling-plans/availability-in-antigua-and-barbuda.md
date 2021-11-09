@@ -1,6 +1,6 @@
 ---
 title: アンティグア・バーブーダの空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 次に示すのMicrosoft 365バーブーダOffice 365、Skype for BusinessバーブーダMicrosoft Teamsサービスを紹介します。
-ms.openlocfilehash: 66cc66d614ccd579267d7b1fe384b80ca802ed89
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 次に示すのMicrosoft 365、Office 365バーブーダでSkype for BusinessおよびMicrosoft Teamsサービスを紹介します。
+ms.openlocfilehash: f9a72fed02e9accfc98bb1d453108d6dad3becab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777677"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858884"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>アンティグア・バーブーダの空き時間情報
 
 [別の国または地域を見](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)つけるか、電話会議と通話プランの国と地域の利用可能性の詳細を確認します。
 
-次に示すのMicrosoft 365バーブーダOffice 365、Skype for BusinessバーブーダMicrosoft Teamsサービスを紹介します。
+次に示すのMicrosoft 365、Office 365バーブーダでSkype for BusinessおよびMicrosoft Teamsサービスを紹介します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -71,9 +71,9 @@ ms.locfileid: "60777677"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし |
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
-|無料電話番号は利用できますか?  <br/> |はい  <br/> |
+|無料電話番号は利用できますか?  <br/> |Yes  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は[、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号の取得」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

@@ -1,6 +1,6 @@
 ---
 title: Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1e9af313bc24919f96008d7f1ff5bf7383df3260
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 66fc220e2796ae35b7a11467e16da98ab475d647
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774447"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831731"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Microsoft Education のガバナンスに関するよくある質問 (管理者向け)
 
@@ -61,7 +61,7 @@ ms.locfileid: "60774447"
 
 各学期または四半期の始めには、新しいチームが多数必要です。 これらのチームを自動的に作成し、適切なユーザーを選択し、適切な権限を設定するという自動化されたアプローチは適切かもしれません。
 
--   学校データ同期 Exchange Online および SharePoint Online 用の Microsoft 365 グループ、Microsoft Teams および OneNote Class Notebook 用のクラス チーム、Intune for Education の学校グループ、および一覧作成とシングル サインオン (SSO) の統合を作成できます。その他の多くのサード パーティ製アプリケーション。 詳細については、「[School Data Sync の概要](/schooldatasync/overview-of-school-data-sync)」を参照してください。
+-   学校データ同期 Exchange Online および SharePoint Online の Microsoft 365 グループ、Microsoft Teams および OneNote Class Notebook 用のクラス チーム、Intune for Education の学校グループ、および一覧作成とシングル サインオン (SSO) の統合を作成できます。その他の多くのサード パーティ製アプリケーション。 詳細については、「[School Data Sync の概要](/schooldatasync/overview-of-school-data-sync)」を参照してください。
 -   PowerShell を使用すると、チームやチャネルを作成して、設定を自動的に構成できます。 詳細については、「[Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)」を参照してください。
 -   Microsoft Graph API (現在ベータ版) を使用して、チームの作成、構成、複製、アーカイブを行うことができます。 詳細については、「[Microsoft Graph API を使用して Microsoft Teams で作業する](/graph/api/resources/teams-api-overview)」を参照してください。
 
@@ -70,7 +70,7 @@ ms.locfileid: "60774447"
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>学期や四半期が終わったときにチームにどのような対処すればよいですか?
 
-学校の学期または四半期が終わったときに、Teams データを処理する方法を最初に考えるのをお勧めします。学生がコースを完了した後でも、それを削除するか、学生が利用できる状態に保つかを考えすることをお勧めします。 設定したポリシーが祝日と競合しないので、学校の予定表を念頭に置いておきます。 戦略の実装には次のツールを使用できます。
+学校の学期または四半期が終了した場合に、Teams データを処理する方法を最初に考えすることをお勧めします。コースを完了した後でも、それを削除するか、学生が利用できる状態に保つかを考えすることをお勧めします。 設定したポリシーが祝日と競合しないので、学校の予定表を念頭に置いておきます。 戦略の実装には次のツールを使用できます。
 
 -   **アイテム保持ポリシー:** 指定した期間を経過したすべての古いデータが削除されます。古いデータがチャット (すべてまたは一部のユーザー用) およびチャンネルから削除されます。 コンテンツを削除Teamsコンテンツを保持するアカウントを構成できます。 詳細については、「[Microsoft Teams の保持ポリシー](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011)」を参照してください。
 -   **有効期限ポリシー:** 特定の日数が経過した後に、期限切れになるようにチームを構成します。 有効期限の 30 日前に、チームのすべての所有者に、チームの更新が必要であることが通知されます。それ以外の場合は、削除されます (管理者は、削除されたチームをさらに 30 日間復元できます)。 この設定は、未使用のチームが使用されていない状況を確認するのに非常に便利です。 詳細については、「Microsoft 365[ポリシー」を参照してください](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733)。
@@ -122,7 +122,7 @@ Teams のポリシーの詳細については、「[組織の Microsoft Teams �
 ゲスト アクセスを使用すると、テナント外のユーザーを招待することができます。これは、研究の共同作業や来客の講義に便利です。
 
 -   ドメインの許可リストを使用して、ドメインに基づいてゲストを許可またはブロックします。
--   特定のグループとチームに対するゲスト アクセスMicrosoft 365オンとオフを切り替え、ゲストを招待できる (または招待できない) チームを制御します。
+-   特定のグループとチームのゲスト アクセスMicrosoft 365をオンまたはオフにし、ゲストを招待できる (または招待できない) チームを制御します。
 -   監査ログを使用して、招待されたゲストに送信された警告を確認します。
 
 詳細については、「グループ内の[ゲスト アクセス」をMicrosoft 365してください](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)。

@@ -1,7 +1,7 @@
 ---
 title: クライアントConfig.xmlインストール タスクを実行するには、Skype for Business使用します。
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '概要: Config.xmlファイルを使用して、追加のインストール手順を指定する方法について説明します。'
-ms.openlocfilehash: 76bf5980f7ced3c2e92f53ade8a51eaf3835054d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0dcc16a09540965346ea014a8c39be0470e4f09
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742943"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858674"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>クライアントConfig.xmlインストール タスクを実行するには、Skype for Business使用します。
 

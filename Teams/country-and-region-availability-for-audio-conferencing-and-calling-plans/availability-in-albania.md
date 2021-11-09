@@ -1,6 +1,6 @@
 ---
 title: アルバニアでの利用可能性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: アルバニアで使用Microsoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 423c8c690c99e30dcd0e02851485015f11611a79
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: アルバニアで使用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+ms.openlocfilehash: b618c288f06c01a037a3c386d3d65baa7a0c25c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759329"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858914"
 ---
 # <a name="availability-in-albania"></a>アルバニアでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-アルバニアで使用Microsoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+アルバニアで使用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 

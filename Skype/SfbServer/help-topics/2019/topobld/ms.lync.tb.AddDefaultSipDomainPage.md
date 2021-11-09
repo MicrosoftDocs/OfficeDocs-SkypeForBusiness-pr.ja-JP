@@ -2,7 +2,7 @@
 title: 既定の SIP ドメインを追加する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 展開でサポートするプライマリ セッション開始プロトコル (SIP) ドメインを指定します。 プライマリ SIP ドメインは、Active Directory ドメイン サービス ドメインと同じか、異なる場合があります。 たとえば、Active Directory ドメインが fabrikam.net の場合に、プライマリ SIP ドメインとして contoso.net などを指定できます。
-ms.openlocfilehash: 30204e60624560b0f0d09ab88d9b6899d0181ee9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bf7d01b96dd3d720c26549640111c572bee69975
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769385"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858494"
 ---
 # <a name="add-default-sip-domain"></a>既定の SIP ドメインの追加
  

@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams を組織全体で展開する
-description: 特定の組織の種類のリソースを活用するためにTeamsのデプロイに基Teamsについて説明します。
+description: 特定の組織の種類のリソースをTeamsするために、標準の Teams デプロイに基Teamsについて説明します。
 ms.topic: conceptual
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: admin
@@ -15,16 +15,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03bb7b1d8d7cf2a30fd4ee2d80ceec71f4e05fdd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 30a9017417e6c4d50745fe1ec1bf492d65dc6b81
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777557"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858784"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Microsoft Teams を組織全体で展開する
 
-これらのリソースは、標準の Teams デプロイ ガイダンスに基いて構築され、特定の組織の種類のTeamsを活用するのに役立ちます。 まだデプロイしていない場合Teamsを展開する方法に関するページTeamsを参照[Microsoft Teams。](../deploy-overview.md)
+これらのリソースは、標準のデプロイ ガイダンスTeams基に構築され、特定の組織の種類のリソースをTeamsを得るのに役立ちます。 まだデプロイしていない場合は、「Teamsの展開方法」のTeams推奨[されるパスを参照Microsoft Teams。](../deploy-overview.md)
 
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;| 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 

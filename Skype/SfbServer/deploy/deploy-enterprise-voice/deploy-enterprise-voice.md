@@ -2,7 +2,7 @@
 title: '[エンタープライズ VoIPにSkype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: '概要: 中央サイトにエンタープライズ VoIPをSkype for Business Serverする方法について学習します。'
-ms.openlocfilehash: df2926bc0d425057431db68e9800763f6f49d4d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4073850d9583e5bd28d573ad73b0acdaaca0943f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765895"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833823"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>[エンタープライズ VoIPにSkype for Business Server
 

@@ -2,7 +2,7 @@
 title: Lync Server 2013 新規作成の展開
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: トポロジ ビルダーの Lync Server 2013 ノードで新しいサーバー ロールを作成するには、Lync Server 2013 を右クリックし、[新規] を選択してから、作成するサーバー の役割を選択します。
-ms.openlocfilehash: 0139d302d4bf61785d4bbe703bbce1a762815221
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5c8e71dbeed4f3e77641c3e67a9c565632d0d35e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761145"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849080"
 ---
 # <a name="skype-for-business-server-create-new-expander"></a>Skype for Business Server新しいエキスパンダーの作成
  

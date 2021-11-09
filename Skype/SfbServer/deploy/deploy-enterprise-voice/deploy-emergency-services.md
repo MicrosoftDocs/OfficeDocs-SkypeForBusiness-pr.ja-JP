@@ -2,7 +2,7 @@
 title: 緊急サービスをSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: E9-1-1 を展開Skype for Business Server エンタープライズ VoIP。 前提条件と展開プロセスのチェックリストが含まれています。
-ms.openlocfilehash: ce0175f3f249ab013ae425686f8ea167117d2bc1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cfbb49cbeaf855af96961f828b9471e5b86a95c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741363"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833853"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>緊急サービスをSkype for Business Server
  

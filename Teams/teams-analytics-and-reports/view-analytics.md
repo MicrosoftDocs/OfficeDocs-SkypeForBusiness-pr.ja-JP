@@ -1,6 +1,6 @@
 ---
-title: アプリで分析を表示Teams
-author: cichur
+title: Teams で分析を表示する
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -13,17 +13,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
-description: Teams のクロスチーム分析、チームごとの分析、チャネルごとの分析について学習します。この分析を使用すると、チームまたはチャネルの使用状況データがユーザーに表示されます。
+description: Teams のクロスチーム分析、チームごとの分析、チャネルごとの分析について学習します。この分析を使用すると、ユーザーは自分が参加しているチームまたはチャネルの使用状況データを表示できます。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86c14b49de7b6ea8175d486aa86e03ceeff068c7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b682ebe6b6c759be067b98ad99f1d6d8e437480
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742973"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831721"
 ---
-# <a name="view-analytics-in-teams"></a>アプリで分析を表示Teams
+# <a name="view-analytics-in-teams"></a>Teams で分析を表示する
 
 このMicrosoft Teams、ユーザーは自分が参加しているチームとチャネルの分析を表示できます。 この情報は、チームの使用パターンやアクティビティに関する分析情報をユーザーに提供します。 ユーザーは、アクティブなユーザー数、投稿数、返信数などのデータを 3 つのレベルで表示できます。
 
@@ -49,7 +49,7 @@ ms.locfileid: "60742973"
     |**ゲスト**   |指定した期間内のチームのゲストの数です。 |
     |**投稿**   |指定した期間中にチーム チャットに投稿された新しいメッセージの数。 |
     |**返信**   |指定された期間中のチーム チャットでの応答の数。 |
-    |**種類**   |チームがプライベート チームであるかパブリック チームであるかが示されます。|
+    |**Type**   |チームがプライベート チームであるかパブリック チームであるかが示されます。|
 
 ## <a name="view-per-team-analytics"></a>チームごとの分析を表示する
 
@@ -87,7 +87,7 @@ ms.locfileid: "60742973"
 > また、チームごとの分析ビューのドロップダウン リスト ボックスでチャネルを選択して、チャネルごとの分析 [を表示することもできます](#view-per-team-analytics)。
     
 > [!NOTE]
-> アクティブ ユーザーは、デスクトップ クライアント、モバイル クライアント、および Web クライアントで意図的なアクションを実行するユーザーとして定義されます。 意図的な操作の例としては、チャットの開始、通話の配置、ファイルの共有、チーム内でのドキュメントの編集、会議への参加などです。 自動起動、画面の最小化、アプリの終了など、パッシブアクションを取り除きます。 また、1 つのユーザー ID ですべてのアクションをデデュアします。
+> アクティブ ユーザーは、デスクトップ クライアント、モバイル クライアント、および Web クライアントで意図的なアクションを実行するユーザーとして定義されます。 意図的な操作の例としては、チャットの開始、通話の設定、ファイルの共有、チーム内でのドキュメントの編集、会議への参加などです。 自動起動、画面の最小化、アプリの終了など、パッシブアクションを取り除きます。 また、1 つのユーザー ID ですべてのアクションをデデュアします。
 
 ## <a name="related-topics"></a>関連項目
 

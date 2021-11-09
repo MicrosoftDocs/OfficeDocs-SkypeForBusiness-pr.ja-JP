@@ -2,7 +2,7 @@
 title: ユーザーのセキュリティ フレームワークSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: このセクションでは、セキュリティ フレームワークを形成する基本的な要素の概要をSkype for Business Server。 これらの要素がどのように組み合わせて機能するのか理解は、特定の展開環境のセキュリティ保護に関する情報に基づいた意思決定を行Skype for Business Serverです。
-ms.openlocfilehash: a560d903b2a08e6444e561cb0fcdd9da978edb0c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9b0947e488987df7e0250bef7ba0c59d1980c5a3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740343"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834043"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>ユーザーのセキュリティ フレームワークSkype for Business Server
  

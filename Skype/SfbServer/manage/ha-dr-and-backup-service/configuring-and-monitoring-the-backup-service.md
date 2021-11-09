@@ -1,7 +1,7 @@
 ---
 title: バックアップ サービスの構成と監視
 ms.reviewer: ''
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 管理シェル コマンドSkype for Business Server使用して、バックアップ サービスを構成および監視できます。
-ms.openlocfilehash: f50f8ab13c2013505beace71f7e35cbc7674777c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0881d40ca639edf825b0af104981ceddcab6e87a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747045"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832021"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>バックアップ サービスの構成とSkype for Business Server
 

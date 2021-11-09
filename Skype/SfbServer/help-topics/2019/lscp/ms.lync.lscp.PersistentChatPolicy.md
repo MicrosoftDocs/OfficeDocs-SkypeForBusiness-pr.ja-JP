@@ -2,7 +2,7 @@
 title: 常設チャットのポリシー
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 常設チャット グループの [常設チャット ポリシー] ページを使用して、既定のグローバル ポリシーの構成、展開用の 1 つ以上の追加のユーザー ポリシーとサイト ポリシーの作成など、グローバル、プール、サイト、またはユーザー レベルでポリシーを管理できます。 ポリシーによってユーザーに対して常設チャット サーバーが有効になっている場合、常設チャット サーバー環境がクライアントに表示されます。
-ms.openlocfilehash: bdc41ee60f58f47e279164ddb5c2b9c92e74a6c3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a32caeb894d308415cc25a0546030b19e60df66b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757849"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841809"
 ---
 # <a name="persistent-chat-policy"></a>常設チャットのポリシー
 

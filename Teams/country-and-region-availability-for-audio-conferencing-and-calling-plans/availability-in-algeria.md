@@ -1,6 +1,6 @@
 ---
 title: アルジェリアでの空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: アルジェリアでMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
-ms.openlocfilehash: 370a31dcca0528dd3768f025c1ad090f2a20941b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: アルジェリアでMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: 7b83eaf1ddf776e301258bf696549e479d0ff9c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777717"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858904"
 ---
 # <a name="availability-in-algeria"></a>アルジェリアでの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-アルジェリアでMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teams次に示します。
+アルジェリアでMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 

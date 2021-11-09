@@ -2,7 +2,7 @@
 title: 通話受付管理レポート (Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: '概要: [通話受付管理レポート] で使用される通話受付管理Skype for Business Server。'
-ms.openlocfilehash: 83259ed107113d5a013aa3a239ce9ef1eeab833b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bb980dfa132778e1507e26359beca3679a94893a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754768"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849900"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>通話受付管理レポート (Skype for Business Server
  
@@ -99,7 +99,7 @@ ms.locfileid: "60754768"
 |**役割** <br/> |いいえ  <br/> |電話会議の参加者が担った役割 (発表者など)。  <br/> |
 |**参加者** <br/> |いいえ  <br/> |電話会議の参加者の SIP アドレス。  <br/> |
 |**接続** <br/> |いいえ  <br/> |参加者のネットワーク接続 (一般には内部送信元または外部送信元)。  <br/> |
-|**モダリティ** <br/> |いいえ  <br/> |電話会議の種類 (音声ビデオ会議など)。  <br/> |
+|**モダリティ** <br/> |不要  <br/> |電話会議の種類 (音声ビデオ会議など)。  <br/> |
 |[**参加時間**] <br/> |いいえ  <br/> |参加者が電話会議に参加した日時。  <br/> |
 |[**退場時間**] <br/> |いいえ  <br/> |参加者が電話会議から退出した日時。  <br/> |
 |[**診断 ID**] <br/> |いいえ  <br/> |SIP メッセージに添付される一意の識別子 (ms-diagnostics ヘッダー形式)。その情報は、多くの場合、エラーのトラブルシューティングに役立ちます。診断ヘッダーはオプションで (このヘッダーを含まない SIP セッションがある可能性もあります)、診断 ID は、何らかの問題が生じたセッションについてのみ報告されます。  <br/> |

@@ -1,6 +1,6 @@
 ---
 title: ナイジェリアの空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下は、Microsoft 365とOffice 365とSkype for BusinessとMicrosoft Teamsサービスです。
-ms.openlocfilehash: d88d602fba36803cf9b3ef7972c6fb90fe04516d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 以下は、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスです。
+ms.openlocfilehash: 2227e9a63189062449e4d5a0a91e6208e08625ad
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745663"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858054"
 ---
 # <a name="availability-in-nigeria"></a>ナイジェリアの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-以下は、Microsoft 365とOffice 365とSkype for BusinessとMicrosoft Teamsサービスです。
+以下は、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスです。
   
 ## <a name="audio-conferencing"></a>電話会議
 

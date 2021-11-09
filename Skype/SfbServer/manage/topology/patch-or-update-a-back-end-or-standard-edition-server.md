@@ -2,7 +2,7 @@
 title: サーバー内のバック エンド サーバーまたは Standard Editionサーバーにパッチを適用または更新Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: '概要: 更新プログラムまたは更新プログラムをバック エンド サーバーにインストールする方法についてSkype for Business Server。'
-ms.openlocfilehash: 6c2a03358f5fc5f1253f65d1ff2bc202871da678
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 55d81e97712abe51544a854bf175348526e9f29c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737783"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858214"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>サーバー内のバック エンド サーバーまたは Standard Editionサーバーにパッチを適用または更新Skype for Business Server
  

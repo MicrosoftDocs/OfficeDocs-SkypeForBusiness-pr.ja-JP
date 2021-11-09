@@ -2,7 +2,7 @@
 title: ユーザーの役割ベースのアクセス制御 (RBAC) Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
 description: Skype for Business ServerにはRole-Basedアクセス制御 (RBAC) グループが含まれています。 これらのグループはフォレストの準備の際に作成されます。 フォレストの準備の詳細については、「Active Directory Domain Services for Skype for Business Server。 フォレストの準備によって作成された特定のグループの詳細については、「展開」のドキュメントの「Skype for Business Serverフォレストの準備によって行われた変更」を参照してください。
-ms.openlocfilehash: 05f1b4873e6d671ecb53e6778a67b5558d4aa1ee
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8b4f96764487ba20e2699ea8f22e1b065e109e8b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744104"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858954"
 ---
 # <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>ユーザーの役割ベースのアクセス制御 (RBAC) Skype for Business Server
  

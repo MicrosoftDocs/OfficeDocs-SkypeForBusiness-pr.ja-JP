@@ -2,7 +2,7 @@
 title: 最新の認証 (ADAL) の計画とSkype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: この記事では、モダン認証 (Active Directory 認証ライブラリ (ADAL) と OAuth 2.0 に基づく) について説明します。
-ms.openlocfilehash: af2ab64b2719348f2c1bb860ae560ea79509921f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 40bf87317b68e258fc6576b1ce7be7b8decc6939
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759499"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834083"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>モダン認証 (ADAL) とパスワードを使用するSkype for Business
  

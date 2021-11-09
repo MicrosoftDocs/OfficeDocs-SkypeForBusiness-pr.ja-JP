@@ -2,7 +2,7 @@
 title: ボイス メールExchange Serverユニファイド メッセージングSkype for Business Server構成する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: '概要: ボイス メールExchange Serverユニファイド メッセージングSkype for Business Server構成します。'
-ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741293"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865284"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>ボイス メールExchange Serverユニファイド メッセージングSkype for Business Server構成する
  
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 上のコマンドで、Extensions パラメーターはユーザーの内線番号を表します。この例の場合、ユーザーの内線番号は 100 です。
   
-メールボックスを有効にすると、ユーザー kenmyer@litwareinc.com は Exchange ユニファイド メッセージングを使用できるようになります。 管理シェル内から[Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps)コマンドレットをExchangeして、ユーザーが UM に接続Skype for Business Serverできます。
+メールボックスを有効にすると、ユーザー kenmyer@litwareinc.com は Exchange ユニファイド メッセージングを使用できるようになります。 管理シェル内から[Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity)コマンドレットをExchangeして、ユーザーが UM に接続Skype for Business Serverできます。
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-ユニファイド メッセージングが有効化されている 2 番目のユーザーがいる場合は、[Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail?view=skype-ps) コマンドレットを使用して、この 2 番目のユーザーが最初のユーザーにボイスメール メッセージを残すことができるかを確認できます。
+ユニファイド メッセージングが有効化されている 2 番目のユーザーがいる場合は、[Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail) コマンドレットを使用して、この 2 番目のユーザーが最初のユーザーにボイスメール メッセージを残すことができるかを確認できます。
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
@@ -155,7 +155,7 @@ Microsoft Skype for Business Server とユニファイド メッセージング 
 - UM IP ゲートウェイごとに UM ハント グループを作成します。 各ハント グループのパイロット識別子は、UM IP ゲートウェイに関連付けられている Skype for Business Server フロントエンド プールまたは Standard Edition サーバーで使用される UM SIP URI ダイヤル プランを指定します。
 - UM Skype for Business Server、自動応答、UM IP ゲートウェイ、UM ハント グループなどの Active Directory UM コンテナー オブジェクトを読み取るアクセス許可を付与します。
   > [!IMPORTANT]
-  > Skype for Business Server が展開されているフォレストを信頼するように各 UM フォレストを構成し、Skype for Business Server 2013 が展開されているフォレストは、各 UM フォレストを信頼するように構成する必要があります。 UM Exchangeが複数のフォレストにインストールされている場合は、Exchange Server 統合手順を各 UM フォレストに対して実行する必要があります。または、Skype for Business Server ドメインを指定する必要があります。 たとえば、ExchUcUtil.ps1 –Forest:<lync-domain-controller-fqdn>。 
+  > Skype for Business Server が展開されているフォレストを信頼するように各 UM フォレストを構成し、Skype for Business Server 2013 が展開されているフォレストは、各 UM フォレストを信頼するように構成する必要があります。 UM Exchangeが複数のフォレストにインストールされている場合は、Exchange Server 統合手順を各 UM フォレストに対して実行する必要があります。または、Skype for Business Server ドメインを指定する必要があります。 たとえば、–Forest: ExchUcUtil.ps1を使用します \<lync-domain-controller-fqdn> 。 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>シェルを使用して ExchUcUtil.ps1 スクリプトを実行する
 

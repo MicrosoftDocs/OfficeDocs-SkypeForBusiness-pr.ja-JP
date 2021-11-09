@@ -2,7 +2,7 @@
 title: '[会議アクティビティ レポート] (Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: '概要: 会議で使用される会議アクティビティ レポートについてSkype for Business Server。'
-ms.openlocfilehash: fcbe28d031abc7803cd8b84a67c3baeef42eff08
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c136bfaeb40a9b84c2861332636916353856855f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774947"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849930"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>[会議アクティビティ レポート] (Skype for Business Server
  
@@ -66,9 +66,9 @@ ms.locfileid: "60774947"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|**Pool** <br/> |いいえ  <br/> |電話会議で使用されたレジストラー プールまたはエッジ サーバーの名前。  <br/> |
-|**日付/時刻** <br/> |いいえ  <br/> |電話会議の開始日時。  <br/> |
-|**合計** <br/> |いいえ  <br/> |参加者総数、参加者総時間 (分)、電話会議総数。  <br/> |
+|**Pool** <br/> |不要  <br/> |電話会議で使用されたレジストラー プールまたはエッジ サーバーの名前。  <br/> |
+|**日付/時刻** <br/> |不要  <br/> |電話会議の開始日時。  <br/> |
+|**合計** <br/> |不要  <br/> |参加者総数、参加者総時間 (分)、電話会議総数。  <br/> |
    
 ## <a name="metrics-for-conferences-by-server-type"></a>電話会議 (サーバーの種類別) の指標
 
@@ -78,8 +78,8 @@ ms.locfileid: "60774947"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|[**会議サーバーの種類**] <br/> |いいえ  <br/> | 電話会議で使用されたサーバーの種類。通常は、次のいずれかです。 <br/>  Web 会議サーバー <br/>  IM 会議サービス <br/>  テレフォニー会議サービス <br/>  音声ビデオ会議サーバー <br/>  アプリケーション共有 <br/> |
-|**日付/時刻** <br/> |いいえ  <br/> |電話会議の開始日時。  <br/> |
-|**合計** <br/> |いいえ  <br/> |参加者総数、参加者総時間 (分)、電話会議総数。  <br/> |
+|[**会議サーバーの種類**] <br/> |不要  <br/> | 電話会議で使用されたサーバーの種類。通常は、次のいずれかです。 <br/>  Web 会議サーバー <br/>  IM 会議サービス <br/>  テレフォニー会議サービス <br/>  音声ビデオ会議サーバー <br/>  アプリケーション共有 <br/> |
+|**日付/時刻** <br/> |不要  <br/> |電話会議の開始日時。  <br/> |
+|**合計** <br/> |不要  <br/> |参加者総数、参加者総時間 (分)、電話会議総数。  <br/> |
    
 

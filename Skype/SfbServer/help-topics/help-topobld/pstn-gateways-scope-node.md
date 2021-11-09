@@ -2,7 +2,7 @@
 title: PSTN ゲートウェイ スコープ ノード
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: '[PSTN ゲートウェイ] ノードには、トポロジ内の公衆交換電話網 (PSTN) ゲートウェイが一覧表示されます。以下のアクションを実行できます。'
-ms.openlocfilehash: 289ceffeddceacc7cfa04801932acb40cca78677
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2fc89412cdd6e18651c0cf41582697ae0306c84e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763885"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832181"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN ゲートウェイのスコープ ノード
  

@@ -1,6 +1,6 @@
 ---
 title: 管理センター称賛アプリをTeamsする
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
@@ -8,22 +8,22 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: 管理センターの 称賛 アプリの管理者設定Microsoft Teamsする
-ms.openlocfilehash: c67f70150c2b8635bd317f724004471f4b73e800
-ms.sourcegitcommit: 36761f644b9af5bdef30fe1c3817defc278b965e
+description: 管理センターの 称賛 アプリの管理者設定Microsoft Teams確認する
+ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60793455"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858034"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>管理センター称賛アプリをMicrosoft Teamsする
 
 > [!NOTE]
 > 管理者は、この機能にアクセスTeamsライセンスを持っている必要があります。 ライセンスなしでこの機能にアクセスTeams、エラー メッセージが表示されます。
 
-称賛アプリはMicrosoft Teams、ユーザーが自分の組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 選択できるバッジ セットと独自のバッジを作成するオプションにより、称賛 は、教師から Frontline Worker まで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 詳細については、「ユーザーにメールを[送信称賛」を参照してください](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+称賛アプリはMicrosoft Teams、ユーザーが自分の組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 選択できるバッジ セットと独自のバッジを作成するオプションにより、称賛 は、教師からフロントライン ワーカーまで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 詳細については、「ユーザーにメールを[送信称賛」を参照してください](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
-管理者は、管理センターから組織が使用できるバッジMicrosoft Teamsできます。 左側のナビゲーションで、[アプリの管理] **Teamsアプリ>に移動します**。 アプリの一覧で[] を **クリック称賛** し、[] を選択 **設定。**  ここから、既定の組み込みのバッジ セットを有効にし、カスタム バッジを作成することができます。
+管理者は、管理センターから組織が使用できるバッジMicrosoft Teamsできます。 左側のナビゲーションで、[アプリの管理] **Teams アプリ> に移動します**。 アプリの一覧で 、[アプリ]**を称賛** し、[]**を** 設定。  ここから、既定の組み込みのバッジ セットを有効にし、カスタム バッジを作成することができます。
 
 ![アプリの [設定] タブ称賛スクリーンショット。](media/manage-praise-app-settings.png)
 
@@ -32,13 +32,13 @@ ms.locfileid: "60793455"
 
 ## <a name="use-built-in-badge-sets"></a>組み込みのバッジ セットを使用する
 
-組み込みセットは、Microsoft が設計したアプリ用に設計されたバッジ称賛です。 これらのセットは管理者が編集できません。 既定のバッジ セットは既に有効であり、称賛できます。 既定のセットまたはバッジ セットの可用性を変更するには、対応するトグルを [オン] または [オフ] に切り替えます。 
+組み込みセットは、Microsoft によって設計された、新しいアプリ用に設計称賛です。 これらのセットは管理者が編集できません。 既定のバッジ セットは既に有効であり、称賛できます。 既定のセットまたはバッジ セットの可用性を変更するには、対応するトグルを [オン] または [オフ] に切り替えます。 
 
 <a name="default-badges"></br></a>
 
 ### <a name="default-badges"></a>既定のバッジ
 
-既定のバッジ セットは、ユーザーが仕事Teams以上の作業を行う場合に、他のユーザーが同僚を認識するのに役立ちます。
+既定のバッジ セットは、ユーザーが仕事Teams以上の作業を行う同僚を認識するのに役立ちます。
 
 ![既定のバッジ セットのプレビュー。](media/default-set-praise.png)
 
@@ -93,9 +93,9 @@ ms.locfileid: "60793455"
 
 |色  |16 進値|
 |-------|---------|
-|![16 進数#FF6666。](media/hexColor1.png)|  #FF6666   |
+|![16 進カラー #FF6666。](media/hexColor1.png)|  #FF6666   |
 |![16 進数#7FFFD4。](media/hexColor2.png)|  #7FFFD4   |
-|![16 進数#FF75F0。](media/hexColor3.png)|  #FF75F0   |
+|![16 進カラー #FF75F0。](media/hexColor3.png)|  #FF75F0   |
 |![16 進数#00BFFF。](media/hexColor4.png)|  #00BFFF   |
 |![16 進数の色 #800080。](media/hexColor5.png)|  #800080   |
 |![16 進数の色 #000000。](media/hexColor6.png)|  #000000   |
@@ -116,7 +116,7 @@ ms.locfileid: "60793455"
 
 ## <a name="badge-set-assets"></a>バッジ セットアセット
 
-組み込みのバッジ セットは変更できません。そのため、組み込みセットが有効になっている場合、セット内のすべてのバッジが 称賛されます。 組み込みのセットから特定のバッジを追加し、他のバッジを削除する場合は、カスタム バッジとして使用するバッジを再作成します。 バッジ画像をダウンロードし、次の表の組み込みセットからバッジのテキストと背景色を見つけることができます。
+組み込みのバッジ セットは変更できないので、組み込みセットが有効になっている場合、セット内のすべてのバッジが 称賛されます。 組み込みのセットから特定のバッジを追加し、他のバッジを削除する場合は、カスタム バッジとして使用するバッジを再作成します。 バッジ画像をダウンロードし、次の表の組み込みセットからバッジのテキストと背景色を見つけることができます。
 
 ### <a name="default-badges-assets"></a>既定のバッジ アセット
 

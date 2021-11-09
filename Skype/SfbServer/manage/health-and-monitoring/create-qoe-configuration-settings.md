@@ -2,7 +2,7 @@
 title: '[エクスペリエンスの品質] 構成設定を作成Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: '概要: エクスペリエンスの品質 (QoE) の設定について、Skype for Business Server。'
-ms.openlocfilehash: 71fda331338e8792245c7ac0ee3dfa408345f390
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 842e9bbf3100efc30346e88b4b5f660cdd42ec53
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762395"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858324"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>[エクスペリエンスの品質] 構成設定を作成Skype for Business Server
  

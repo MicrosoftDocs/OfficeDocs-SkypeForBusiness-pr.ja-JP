@@ -1,7 +1,7 @@
 ---
 title: SkypeRoom System ハイブリッド展開
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: ハイブリッド環境にルーム システムをSkypeする方法については、このトピックを参照してください。
-ms.openlocfilehash: c47809fcf5277ed34f11955b19306e6a4078d650
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: caebf77f0ef5abb2b56c64446ad04a052d8f98f9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751356"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841949"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>SkypeRoom System ハイブリッド展開
 
