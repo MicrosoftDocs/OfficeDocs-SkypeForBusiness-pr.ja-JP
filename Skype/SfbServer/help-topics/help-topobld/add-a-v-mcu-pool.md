@@ -2,7 +2,7 @@
 title: A/V MCU プールの追加
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: 併置された音声ビデオ会議サービスのないセントラル サイトのすべての Enterprise Edition フロント エンド サーバーは、同じスタンドアロン音声ビデオ会議プールを使用できます。音声ビデオ会議プールごとに、プールの完全修飾ドメイン名 (FQDN) と、音声ビデオ会議サーバーが 1 つだけなのか、または負荷分散された複数の音声ビデオ会議サーバーが存在するのかを指定する必要があります。
-ms.openlocfilehash: 5419e3ca77eed71fc8e0bae05839e24e8c585217
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aa5f0342b56ea0cfe34840854bf60459ee7a8311
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772293"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850100"
 ---
 # <a name="add-av-mcu-pool"></a>A/V MCU プールの追加
  

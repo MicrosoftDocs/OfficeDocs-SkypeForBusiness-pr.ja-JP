@@ -2,7 +2,7 @@
 title: '[場所] レポート (Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: '概要: [場所レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: 25ae04e604ccfb5f423e3d066585c85fb07c742b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: afbbf54e913146326ee49e6db051869fa2ac7aca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740513"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862404"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>[場所] レポート (Skype for Business Server
  
@@ -58,8 +58,8 @@ ms.locfileid: "60740513"
 
 |**名前**|**このアイテムを並べ替えることはできますか?**|**説明**|
 |:-----|:-----|:-----|
-|**発信者サブネット** <br/> |いいえ  <br/> |呼び出しを行ったユーザーの IP サブネット。  <br/> |
-|**呼び出し先サブネット** <br/> |いいえ  <br/> |呼び出しを受信したユーザーの IP サブネット。  <br/> |
+|**発信者サブネット** <br/> |不要  <br/> |呼び出しを行ったユーザーの IP サブネット。  <br/> |
+|**呼び出し先サブネット** <br/> |不要  <br/> |呼び出しを受信したユーザーの IP サブネット。  <br/> |
 |[**通話ボリューム**] <br/> |はい  <br/> |発信された通話の合計数。  <br/> |
 |[**低品質通話のパーセンテージ**] <br/> |はい  <br/> |通話が不十分に分類された通話の割合。 低品質通話とは、少なくとも 1 つの測定指標が許容値を超えている通話 (たとえば、過剰なジッターが発生した通話) のことです。  <br/> |
 |[**往復 (ミリ秒)**] <br/> |はい  <br/> |リアルタイム転送プロトコル (RTP) パケットが別のエンドポイントとの間を往復するのに要する平均時間 (ミリ秒単位)。100 ミリ秒以下の往復時間が許容できる品質と見なされます。  <br/> この値が高い場合は、国際通話ルーティング、ルーティングの構成ミス、メディア サーバーの過負荷などの原因が考えられます。その結果、双方向のリアルタイムの音声会話が困難になります。  <br/> |

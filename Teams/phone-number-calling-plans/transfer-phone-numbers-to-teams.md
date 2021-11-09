@@ -1,6 +1,6 @@
 ---
 title: 電話番号を別の電話番号にMicrosoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
@@ -19,18 +19,18 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 移植ウィザードを使用して、現在のサービス プロバイダーから現在のサービス プロバイダーに電話番号を転送する方法Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b86210d5e8ac7fe70db0e3774ee7483aad9236a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b487249e9a3744c2f83a9bece04a17e7e2948f01
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761745"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861954"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>電話番号を別の電話番号にMicrosoft Teams
 
 Microsoft Teams 管理センターの移植ウィザードを使用して、現在のサービス プロバイダーから現在のサービス プロバイダーに電話番号をTeams。 電話番号を Teams に移行した後、Microsoft がサービス プロバイダーになり、それらの電話番号に対する請求を行います。
 
-開始する前に、「ポート注文とは」 [の情報を確認することをお勧めします。](port-order-overview.md) ダイヤルイン会議ブリッジ、自動応答、その他のサービス番号、無料電話番号、または Teams に転送する必要がある 999 を超えるユーザー (サブスクライバー) 電話番号のサービス番号がある場合は、「組織の電話番号[](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)を管理する」を参照して、適切なフォームをダウンロードして送信してください。
+開始する前に、「ポート注文とは」 [の情報を確認することをお勧めします。](port-order-overview.md) ダイヤルイン会議ブリッジ、自動応答、その他のサービス番号、無料電話番号、または Teams に転送する必要がある 999 を超えるユーザー (サブスクライバー) 電話番号のサービス番号がある場合は、「組織の電話番号を[](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)管理する」を参照して、正しいフォームをダウンロードして送信してください。
 
   > [!NOTE]
   > 米国の営業日にのみ電話番号を転送する場合は、祝日や週末ではなく、移行注文を処理します。
@@ -40,12 +40,12 @@ Microsoft Teams 管理センターの移植ウィザードを使用して、現�
 > [!NOTE]
 > **現時点では、このウィザードを使用して**、英国、米国、およびカナダの電話番号を取得できます。 他の国や地域の電話番号を取得するには、ポート注文 [を手動で送信します](manually-submit-port-order.md)。 ポート注文を手動で送信する必要があるフォームを取得するには、[組織の電話番号の管理] のドロップダウン リストで国または地域 [を選択します](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams、[Voice 電話  >  **に移動します**。 [ **数値]** をクリックし、[ **ポート] をクリック** して移植ウィザードを開始します。
+1. 管理センターの左側のナビゲーションMicrosoft Teams、[Voice 電話  >  **します**。 [ **数値]** をクリックし、[ **ポート] をクリック** して移植ウィザードを開始します。
 2. [開始] ページの情報 **を確認** し、準備ができたら [次へ] をクリック **します**。
 3. [場所 **と番号の種類の選択] ページで** 、次を指定し、[次へ] を **クリックします**。
 
     - **国または地域**: 数値を取得する国または地域。
-    - **電話の種類**: 地理的な番号やフリーダイヤルの番号など、番号の種類。
+    - **電話の種類**: 地理的な番号やフリーダイヤル番号などの番号の種類。
     - **[割り当てられた数値**]: 数値の割り当て方法。 たとえば、ユーザー、会議、音声機能などです。
 
 4. [アカウント **情報の追加] ページ** で、次の手順を実行し、[次へ] を **クリックします**。
@@ -87,7 +87,7 @@ Microsoft Teams 管理センターの移植ウィザードを使用して、現�
 
 ## <a name="what-happens-next"></a>この後のステップは？
 
-お客様のポート注文を受信すると、要求を確認する電子メールが届きます。 要求は毎日チェックおよび更新され、その進行状況と状態がメールで通知されます。 ポート要求が失った通信事業者によって拒否された場合は [、TNS Service Desk にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
+お客様のポート注文を受け取った場合は、要求を確認する電子メールが届きます。 要求は毎日チェックおよび更新され、その進行状況と状態がメールで通知されます。 ポート要求が失った通信事業者によって拒否された場合は [、TNS Service Desk にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ポート注文の状態を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[>**音声** ポート注文] に移動し、[注文履歴]  >  **をクリックします**。 各ポート注文の状態は、[状態] 列に **一覧表示** されます。 詳細については、「ポート注文の [状態は何ですか?」を参照してください。](port-order-status.md)
 

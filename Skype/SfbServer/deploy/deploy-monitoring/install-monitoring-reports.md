@@ -2,7 +2,7 @@
 title: '[監視レポートのインストール] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: '概要: 監視レポートを生成するサービスをインストールする方法について、Skype for Business Server。'
-ms.openlocfilehash: 5dd24524feecf8792f864d44e0d898166c9717e1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 703bb209c68558ba8f98c8e3a3efcde94e4ce5eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753444"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861824"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>[監視レポートのインストール] Skype for Business Server
  
@@ -79,9 +79,9 @@ C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.p
 |:-----|:-----|:-----|
 |storedUserName  <br/> |はい  <br/> |監視ストアへのアクセスに使用するユーザーアカウント (形式はドメイン\ユーザー名)。次に例を示します。  <br/> ```-storedUserName "litwareinc\kenmyer"```このアカウントには、以前に指定したアクセス許可とSQL ServerアクセスSQL Server Reporting Services、スクリプトが失敗する必要があります。  <br/> |
 |storedPassword  <br/> |はい  <br/> |監視ストアへのアクセスに使用するユーザー アカウントのパスワード。  <br/> |
-|readOnlyGroupName  <br/> |いいえ  <br/> |監視レポートへの読み取り専用アクセス権を付与するユーザーが属するドメインまたはローカル セキュリティ グループ。 指定したグループが存在しない場合、スクリプトは失敗することに注意してください。 後でこれらのアクセス権を無効にしたり他のユーザーまたはグループにアクセス権を付与したりする必要が生じた場合は、SQL Service Reporting Services レポート マネージャーを使用して実行できます。  <br/> |
-|reportSqlServerInstance  <br/> |いいえ  <br/> |Reporting Service をホストする SQL Server インスタンス。Reporting インスタンスは、レポート サーバーの完全修飾ドメイン名を使用して指定する必要があります。次に例を示します。<br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com```このパラメーターが含まれていない場合、スクリプトは、レポート サービスが監視データベースをホストする同じSQL Serverホストされている必要があります。  <br/> |
-|monitoringDatabaseId  <br/> |いいえ  <br/> |監視データベースのサービス ID。次のコマンドを実行することで、監視データベースの ID を取得できます。<br/> ```Get-CsService -MonitoringDatabase```|
+|readOnlyGroupName  <br/> |不要  <br/> |監視レポートへの読み取り専用アクセス権を付与するユーザーが属するドメインまたはローカル セキュリティ グループ。 指定したグループが存在しない場合、スクリプトは失敗することに注意してください。 後でこれらのアクセス権を無効にしたり他のユーザーまたはグループにアクセス権を付与したりする必要が生じた場合は、SQL Service Reporting Services レポート マネージャーを使用して実行できます。  <br/> |
+|reportSqlServerInstance  <br/> |不要  <br/> |Reporting Service をホストする SQL Server インスタンス。Reporting インスタンスは、レポート サーバーの完全修飾ドメイン名を使用して指定する必要があります。次に例を示します。<br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com```このパラメーターが含まれていない場合、スクリプトは、レポート サービスが監視データベースをホストする同じSQL Serverホストされている必要があります。  <br/> |
+|monitoringDatabaseId  <br/> |不要  <br/> |監視データベースのサービス ID。次のコマンドを実行することで、監視データベースの ID を取得できます。<br/> ```Get-CsService -MonitoringDatabase```|
    
 監視レポートがインストールされた後、New-CsReportingConfigurationコマンドレットを使用して、これらのレポートへのアクセスに使用する URL を構成する必要があります。 このタスクは、次のコマンドを実行Skype for Business Server管理シェルからWindows PowerShellできます。 レポート URL の構成時には、必須ではありませんが、HTTPS プロトコルを使用することをお勧めします。
   

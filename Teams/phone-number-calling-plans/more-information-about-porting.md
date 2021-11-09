@@ -1,6 +1,6 @@
 ---
 title: 移植の詳細
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit,jastark
@@ -19,18 +19,18 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 電話番号を電話番号に移植するために必要なガイダンスをMicrosoft Teams。
-ms.openlocfilehash: 02023cc88fbab5b1063ed2734db500aa3c14aa9c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761755"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848180"
 ---
 # <a name="more-information-about-porting"></a>移植の詳細
 
 電話番号を電話番号に移植する方法の詳細については、こちらをMicrosoft Teams。
 
-詳しい手順については、「電話番号を電話番号に転送する」を[参照Teams。](transfer-phone-numbers-to-teams.md)
+詳細な手順については、「電話番号を電話番号に転送する」を[参照Teams。](transfer-phone-numbers-to-teams.md)
 
 サポートが必要な場合、またはさらに電話番号を取得する必要がある場合は [、TNS Service Desk のヘルプ にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
@@ -102,7 +102,7 @@ ms.locfileid: "60761755"
 
  - ファイルには任意の名前を付けできます。
  - このファイルには、PhoneNumber という名前のヘッダーを含む 1 つの列のみを含む必要があります。
- - 各電話番号は個別の行に入る必要があります。
+ - 各電話番号は、個別の行に含む必要があります。
  - 電話は、数字のみ、または E.164 形式で指定できます。
  - 電話番号の形式は、選択した国または地域と一致している必要があります。 たとえば、移植ウィザードで英国を選択した場合は、国コードである 44 を使用し、その後に正しい桁数の電話番号を使用します。 たとえば、次4420812341234。
 

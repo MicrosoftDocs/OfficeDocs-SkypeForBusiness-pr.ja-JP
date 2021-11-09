@@ -2,7 +2,7 @@
 title: 外部アプリケーション スコープ ノード
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[信頼されたアプリケーション サーバー] ノードには、このサイトの信頼されたアプリケーション プールの一覧が表示されます。 信頼済みアプリケーション プールには、信頼できる Microsoft Unified Communications アプリケーションを実行するサーバーが含まれますが、信頼できる役割Skype for Business Serverはありません。 以下のアクションを実行できます。'
-ms.openlocfilehash: 04dba3c585e53b9a26c179266a9685e0db70ea31
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 97d6906472b0deac71df8f3458565c508db62f25
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738193"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847870"
 ---
 # <a name="external-applications-scope-node"></a>外部アプリケーションのスコープ ノード
  

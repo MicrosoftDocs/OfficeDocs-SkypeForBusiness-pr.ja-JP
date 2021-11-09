@@ -1,7 +1,7 @@
 ---
 title: 会議クライアント用の計画 (Web アプリおよび会議アプリ)
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: '概要: IT 担当者は、会議の計画中に、Skype for Business Web アプリおよび Skype 会議アプリのサポート要件を確認Skype for Business Server。 この記事は、これらのアプリのユーザー向けではありません。'
-ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dbf9f83599e36189c172daa37cdb7444659aad83
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762265"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862124"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>会議クライアント用の計画 (Web アプリおよび会議アプリ)
  
@@ -59,7 +59,7 @@ Skype会議アプリは、アプリをダウンロードしてインストール
 |Windows 10  <br/> |はい  <br/> |はい  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |はい &#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |該当なし  <br/> |はい  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし <br/> |はい &#x2778; <br/> |
 |Windows 8 (Intel ベース) &#x2776; <br/> |該当なし  <br/> |該当なし  <br/> |はい  <br/> |該当なし <br/> |該当なし  <br/> |はい &#x2778; <br/> |
-|Windows 7 sp1 &#x2777; <br/> |該当なし  <br/> |はい  <br/> |いいえ  <br/> |いいえ  <br/> |該当なし <br/>|はい &#x2778; <br/> |
+|Windows 7 sp1 &#x2777; <br/> |該当なし  <br/> |はい  <br/> |不要  <br/> |不要  <br/> |該当なし <br/>|はい &#x2778; <br/> |
 |WindowsSP1 を使用したサーバー 2008 R2 &#x2777; <br/> |該当なし  <br/> |はい  <br/> |はい  <br/> |はい  <br/> |該当なし <br/>|はい &#x2778; <br/> |
 |macOS 10.8 以降 (Intel ベース) &#x2777; <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |該当なし  <br/> |はい  <br/> |はい <br/> |
    

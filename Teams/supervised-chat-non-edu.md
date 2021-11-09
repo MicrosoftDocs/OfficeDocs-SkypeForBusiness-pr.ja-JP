@@ -1,6 +1,6 @@
 ---
 title: 教師ありチャットを非教育機関向けテナントに使用する
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
@@ -14,13 +14,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 会議中の非教育テナント向け教師ありチャットについてMicrosoft Teamsします。
-ms.openlocfilehash: d56a41e3c168aea1d5454fb38ae2aac0c033fe64
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 会議中の非教育機関向けテナント向け教師ありチャットMicrosoft Teamsします。
+ms.openlocfilehash: 2aabfee2f8267e786acf293d612066af2db46f25
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745483"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848110"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>非教育機関向けテナント向け教師ありチャット
 

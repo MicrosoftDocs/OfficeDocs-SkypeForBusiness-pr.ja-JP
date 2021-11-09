@@ -2,7 +2,7 @@
 title: '[PIN ポリシーを削除する] Skype for Business Server'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: '概要: ユーザーのダイヤルイン会議用の PIN を削除Skype for Business Server。'
-ms.openlocfilehash: 5cc487f5d8f9e66193446922d51c4c62d94143a9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 61bd6aabf823ab73f26832b1494bf625d3ea641c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762525"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847430"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>[PIN ポリシーを削除する] Skype for Business Server
  

@@ -2,7 +2,7 @@
 title: '統合連絡先ストアを展開Skype for Business Server '
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: '概要: 連絡先ストアで統合連絡先ストアを有効Skype for Business Server。'
-ms.openlocfilehash: 459626fe40f76cc19534aaff67d1b1b39c268469
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23e5aebcd0ed92cc07a203be5b3112142f692d9a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748833"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861814"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>統合連絡先ストアを展開Skype for Business Server
  

@@ -2,7 +2,7 @@
 title: Web サービスの構成設定を管理 Skype for Business Serverする
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: '概要: Web サービス構成設定を管理する (Skype for Business Server)。'
-ms.openlocfilehash: 5311609fa1c554364f1b91ea2ddf9643840dea05
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 006b2b80514c3902c7ce27e212fd451aea9921b4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746003"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847390"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Web サービスの構成設定を管理 Skype for Business Serverする
  

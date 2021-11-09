@@ -2,7 +2,7 @@
 title: 通話受付管理をユーザーに展開Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: 通話受付管理 (CAC) は、混雑したネットワーク上のユーザーのオーディオ/ビデオ品質の低下を防ぐために、利用可能な帯域幅に基づいてリアルタイム セッションを確立できるかどうかを決定するソリューションです。
-ms.openlocfilehash: b22074df1eac0727334371d92097333a589eb684
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f7d813d85a3c3eadd770c1dc939358506c230d44
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753598"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861904"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>通話受付管理をユーザーに展開Skype for Business Server
  

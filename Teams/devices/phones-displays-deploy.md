@@ -1,7 +1,7 @@
 ---
 title: Intune Teams Android で携帯電話、Teamsディスプレイ、Microsoft Teams会議室をデプロイする
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: weizxue
 ms.topic: reference
@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、ディスプレイでサポートされる機能と機能の概要Microsoft Teamsします。
-ms.openlocfilehash: 3d89dce290d241eebd3d71da560bb383a81f6a2a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 96ffaef167fd40b320ff4c1b9b7a6dca0e9c3325
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746473"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861964"
 ---
 # <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>Intune Teams Android で携帯電話、Teamsディスプレイ、Microsoft Teams会議室をデプロイする
 
@@ -29,7 +29,7 @@ ms.locfileid: "60746473"
 
 ## <a name="conditional-access"></a>条件付きアクセス
 
-条件付きアクセスは、Azure Active Directory (Azure AD) 機能であり、Office 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されていることを確認するのに役立ちます。  Teams サービスに条件付きアクセス ポリシーを適用する場合、Teams にアクセスする Android デバイス (Teams スマートフォン、Teams ディスプレイ、Microsoft Teams Rooms on Android を含む) は Intune に登録する必要があります。その設定はポリシーに準拠する必要があります。  デバイスが Intune に登録されていない場合、またはデバイスが登録されているが設定がポリシーに準拠しない場合、条件付きアクセスでは、ユーザーがデバイスで Teams アプリにサインインまたは使用できません。
+条件付きアクセスは、Azure Active Directory (Azure AD) 機能であり、Office 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されていることを確認するのに役立ちます。  Teams サービスに条件付きアクセス ポリシーを適用する場合、Teams にアクセスする Android デバイス (Teams スマートフォン、Teams ディスプレイ、Microsoft Teams Rooms on Android を含む) は Intune に登録する必要があります。その設定はポリシーに準拠する必要があります。  デバイスが Intune に登録されていない場合、またはデバイスが登録されているが、その設定がポリシーに準拠しない場合、条件付きアクセスでは、ユーザーがデバイスで Teams アプリにサインインまたは使用できません。
 
 通常、Intune 内で定義されたコンプライアンス ポリシーは、ユーザーのグループに割り当てられます。  つまり、android コンプライアンス ポリシーを user@contoso.com に割り当てると、そのポリシーは Android スマートフォンと、サインインする Android ベースの Teams デバイスにも同様 user@contoso.com 適用されます。
 

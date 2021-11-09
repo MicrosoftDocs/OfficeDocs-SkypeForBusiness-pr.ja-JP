@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams で組織全体にわたるチームを作成する
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: phlouie
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b266bf4cfef25761ce492cb93090ff3df380994d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8698625cc219b1d343afd43cc8bf44cd9e71dc52
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745613"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861984"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Microsoft Teams で組織全体にわたるチームを作成する
 
@@ -95,7 +95,7 @@ ms.locfileid: "60745613"
 
 ### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>Teams クライアントを使用する以外に、組織全体のチームを作成する方法はありますか?
 
-グローバル管理者だけが、組織全体のチームを作成するには、クライアントTeamsします。 組織がチームの作成を PowerShell を使用する場合に制限している場合、推奨される回避策は、チームを作成できるユーザーのセキュリティ グループにグローバル管理者を追加することです。
+グローバル管理者だけが、組織全体のチームを作成するには、Teamsします。 組織がチームの作成を PowerShell を使用する場合に制限している場合、推奨される回避策は、チームを作成できるユーザーのセキュリティ グループにグローバル管理者を追加することです。
 
 詳細については、「[グループを作成できるユーザーを管理する](/microsoft-365/admin/create-groups/manage-creation-of-groups)」をご覧ください。
 

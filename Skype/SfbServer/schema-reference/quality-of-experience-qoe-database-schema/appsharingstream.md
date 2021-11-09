@@ -2,7 +2,7 @@
 title: AppSharingStream テーブル
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream テーブルには、アプリケーション共有のストリームが使用するネットワークの QoE 測定値が含まれます。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 8ff42466ce5919b42c39e9e4cc84daefadf803fd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6bd74e7e67a5292382a09f6a4cba7fb73fb9c100
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765055"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862004"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream テーブル
  
