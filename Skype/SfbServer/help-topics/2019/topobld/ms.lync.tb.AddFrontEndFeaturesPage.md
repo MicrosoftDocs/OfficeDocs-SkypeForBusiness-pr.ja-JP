@@ -2,7 +2,7 @@
 title: フロント エンドの機能の追加
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: フロントエンド プールで有効にする各機能を選択します。 少なくとも、インスタント メッセージング (IM) を展開する必要があります。これは常に有効であり、選択解除できません。 また、会議、電話会議、通話受付管理 (CAC) などの他エンタープライズ VoIP展開することもできます。 一部の機能はトポロジに依存します。
-ms.openlocfilehash: 8c9b615a721ff33abc20ebb049e3d18f5ed0ccd8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6989234d12c4e6a415eb9949550a6ad1c187b25a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760100"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832601"
 ---
 # <a name="add-front-end-features"></a>フロント エンドの機能の追加
 

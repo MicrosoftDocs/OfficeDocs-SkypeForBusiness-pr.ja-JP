@@ -2,7 +2,7 @@
 title: ユーザー アカウントのプロパティをカスタマイズSkype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: このセクションの手順を使用して、個々のユーザー アカウントのプロパティを変更できます。
-ms.openlocfilehash: 47e1c09e898a023bbebacbeb57f855568a9a0131
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2a2f63e31d17e90cea528c3fc8ef88dd1952902
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750156"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856654"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>ユーザー アカウントのプロパティをカスタマイズSkype for Business Server
  

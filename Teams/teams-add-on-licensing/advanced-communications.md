@@ -1,6 +1,6 @@
 ---
 title: Advanced Communications アドオン (Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: reference
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea12429b0ae8e63e0e1ee43ae66af4aea1a81672
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7eb4708e032f713f85cf6532fe1726d9d8e7a3b2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759209"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833001"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Advanced Communications アドオン (Microsoft Teams
 
@@ -43,10 +43,10 @@ Advanced Communications は、すべての Microsoft 365 市場で、任意の�
 > 機能は、利用可能になるとリリースされます。 最新の[機能Microsoft 365については、「](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams)パブリック ロードマップ」を参照してください。
 
 > [!NOTE]
-> Advanced Communications は、Microsoft 365 GCC国防総省 (DoD) 環境ではまだ使用できません。
+> Advanced Communications は、高レベルまたは国防総省 (DoD) Microsoft 365 GCC環境ではまだ使用できません。
 
 これらの機能は、これらの機能を引き続き使用するためにユーザーごとの Advanced Communications ライセンスが必要になる年末までプレビューで利用できます。
 
 ## <a name="related-articles"></a>関連記事
 
-[会議のTeamsに関するポリシーベースの記録の概要&説明](../teams-recording-policy.md)
+[会議のTeamsに対するポリシーベースの記録の&概要](../teams-recording-policy.md)

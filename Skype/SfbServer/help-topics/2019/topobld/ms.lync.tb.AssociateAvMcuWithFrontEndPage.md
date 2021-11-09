@@ -2,7 +2,7 @@
 title: AV MCU をフロントエンドと関連付ける
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5a436e41-c902-4968-8d6e-8e7c0adf9f40
 ROBOTS: NOINDEX, NOFOLLOW
 description: 会議が有効になっているすべての Enterprise Edition フロントエンド プールで、音声ビデオ会議サービスを併置しているか、スタンドアロンの音声ビデオ会議プールを使用している必要があります。現在音声ビデオ会議サービスを併置している既存の Enterprise Edition フロントエンド プールを選択して、代わりにこの新しいスタンドアロンの音声ビデオ会議プールを使用できます。
-ms.openlocfilehash: a2ff4e18968fef1459b58c017d4ef08056ab65e1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0300ae0c9fb9b01d88a6eb9ce0f46107638b2cf6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758699"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832541"
 ---
 # <a name="associate-av-mcu-with-front-end"></a>AV MCU をフロント エンドと関連付ける
  

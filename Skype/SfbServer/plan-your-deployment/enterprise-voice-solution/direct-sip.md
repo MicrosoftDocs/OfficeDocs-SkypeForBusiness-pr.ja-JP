@@ -2,7 +2,7 @@
 title: ネットワーク内の直接 SIP 接続Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: 直接 SIP 接続は、SKYPE FOR BUSINESS SERVER PSTN ゲートウェイと IP-PBX の両方の間エンタープライズ VoIP。
-ms.openlocfilehash: b08067518f4f9e60214a34d8220a7ae367978ee5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754454"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848400"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>ネットワーク内の直接 SIP 接続Skype for Business Server
 

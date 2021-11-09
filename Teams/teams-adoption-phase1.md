@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams の導入段階 1 - 開始
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cf809a665a008adf7b7e613a58f4ff274c6a708
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5ba8e37a6cbb6850eebd1fd7d1e1a238d4c7d304
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741533"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840699"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams の導入段階 1 - 開始
 
@@ -55,7 +55,7 @@ ms.locfileid: "60741533"
 | Program Manager<sup>1</sup> | 起動の実行とTeamsプロセス全体を監視します。 | IT |
 | チャンピオン<sup>1</sup> | アプリケーションの理解をTeamsスキルの構築をサポートし、使用状況に関する洞察を提供します。 | 複数の部門 |
 | トレーニング リード | トレーニング コンテンツを管理し、Teams。 | IT その他 |
-| 部門のリード (利害関係者)<sup>2</sup> | 特定の部門が組織を使用し、関与をTeamsする方法を特定します。 | 任意の部署 (管理) |
+| 部門のリード (利害関係者)<sup>2</sup> | 特定の部門が組織を使用する方法を特定Teams関与を促します。 | 任意の部署 (管理) |
 | IT スペシャリスト<sup>1</sup> | 統合を含め、実装のすべての技術的側面を監視します。 | IT |
 | コミュニケーション リード<sup>2</sup> | ネットワークに関する会社全体の通信を監視Teams。 | 企業コミュニケーション、IT、その他 |
 | CommunityManager | ネットワーク アクティビティを使用して、Yammer管理します。 ガイダンスとベスト プラクティスを提供します。 | 複数の部門 |
@@ -63,13 +63,13 @@ ms.locfileid: "60741533"
 <sup>1</sup>これらのロールは、プロジェクトの成功に不可欠です。</br>
 <sup>2</sup>これらのロールは、プログラム全体の成功にとって重要です。
 
-ほとんどの場合、この初期チームは、Teams に関心を持ち、その実装に対して責任を持つ可能性がある、同じ考えの人の小さなグループである必要があります。 導入計画が追加フェーズに進むと、チームに追加のユーザーが追加されます。 また、お手伝いできる Microsoft リソースを活用してください。 
+ほとんどの場合、この初期チームは、Teams に関心を持ち、その実装に対して責任を持つ、同じ考えの人の小さなグループである必要があります。 導入計画が追加フェーズに進むと、チームに追加のユーザーが追加されます。 また、お手伝いできる Microsoft リソースを活用してください。 
 
 ## <a name="additional-resources"></a>その他のリソース
 
-[Microsoft Technical Community](https://aka.ms/TechCommunity)は、多くの製品や製品の導入と技術的な問題に関するピア提供のMicrosoft 365をOffice 365しています。 次のコミュニティに参加してください。
+[Microsoft Technical Community](https://aka.ms/TechCommunity)は、多くの製品や製品の導入と技術的な問題に関するピア提供のMicrosoft 365をOffice 365します。 次のコミュニティに参加してください。
 
-- [Microsoft Teams テクニカル](https://aka.ms/TeamsCommunity)Community – 製品の質問に回答し、他の Teams のお客様から学習し、ブログに従って、Teams の新機能と使用事例を最新の情報に更新します。 
+- [Microsoft Teams Technical Community](https://aka.ms/TeamsCommunity) – 製品の質問に回答し、他の Teams のお客様から学習し、ブログに従って、Teams の新機能と使用事例を最新の情報に更新します。 
 - [チャンピオン](https://aka.ms/O365Champions)プログラムと導入推進コミュニティ – Teams、SharePoint、Yammer、その他の製品など、Microsoft 365 または Office 365 ワークロードの導入を最適に推進する方法について、同僚から学んでください。 IT プロ、ビジネス ユーザー、"偶発的な" 開発者、クラウド サービスの導入を推進することに関心のあるユーザーが利用できます。  
 
 

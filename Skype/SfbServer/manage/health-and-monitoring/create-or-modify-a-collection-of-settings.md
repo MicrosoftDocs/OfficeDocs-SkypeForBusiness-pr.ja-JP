@@ -2,7 +2,7 @@
 title: CDR 構成設定のコレクションを作成または変更Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: '概要: 通話詳細記録 (CDR) の詳細については、Skype for Business Server。'
-ms.openlocfilehash: 9e77cc7782116f317504cbbee98d0731d69ed5e8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0057a8a7966307dd570ac1faed716484ca82331
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751746"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841249"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>CDR 構成設定のコレクションを作成または変更Skype for Business Server
  

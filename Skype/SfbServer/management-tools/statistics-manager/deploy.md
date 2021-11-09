@@ -2,7 +2,7 @@
 title: Skype for Business Server の統計情報マネージャーの展開
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: '概要: このトピックを参照して、統計マネージャーを展開する方法について説明Skype for Business Server。'
-ms.openlocfilehash: 6444f89f43ea4951e186af589f5986e5a3e7bc9e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778157"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857434"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Skype for Business Server の統計情報マネージャーの展開
  
@@ -290,11 +290,11 @@ Microsoft では、信頼できる証明機関によって署名された証明�
     
 6. [選択 **するオブジェクト名を入力する** ] ボックスに、次の値を入力します。
     
-7. [**OK**] をクリックします。
+7. **[OK]** をクリックします。
     
 8. [ **フル コントロール] で**、[許可] チェック **ボックスを** オフにします。 (読み取りアクセスのみ必要です。
     
-9. [**OK**] をクリックします。
+9. **[OK]** をクリックします。
     
 ## <a name="for-more-information"></a>関連情報
 <a name="BKMK_SelfCert"> </a>

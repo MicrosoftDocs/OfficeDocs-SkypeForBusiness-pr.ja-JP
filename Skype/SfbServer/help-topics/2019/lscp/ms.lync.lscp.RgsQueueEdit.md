@@ -2,7 +2,7 @@
 title: 応答グループ キュー の作成 新規または既存の編集
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 応答グループ キューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。
-ms.openlocfilehash: 995a2ec25184f451fe28a7f32ac9335b1b7248e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1595439c8d85bf5525ef5cecdc250856d9d2596f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745223"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832701"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>応答グループのキュー: 新規作成または現在の形式のままで編集
 
@@ -46,11 +46,11 @@ ms.locfileid: "60745223"
 
   - **Disconnect**
 
-  - **ボイス メールへの転送** このオプションを選択した場合は **、[SIP アドレス**] に SIP 形式のボイス メール アドレスを入力します <username> (たとえば @ <domainname> 、sip:bob@contoso.com)。
+  - **ボイス メールへの転送** このオプションを選択した場合は **、[SIP アドレス**] に SIP 形式のボイス メール アドレス \<username> @ \<domainname> を入力します (たとえば、sip:bob \@ contoso.com)。
 
-  - **電話番号に転送する** このオプションを選択した場合は **、SIP アドレスに** SIP の形式で電話番号を入力します <number> (たとえば @ <domainname> 、sip:+14255550121@contoso.com)。
+  - **電話番号に転送する** このオプションを選択した場合は **、SIP** アドレスに SIP の形式で電話番号を入力します \<number> @ \<domainname> (たとえば、sip:+14255550121 contoso.com)。 \@
 
-  - **SIP アドレスへの転送** 通話を別のユーザーに転送するには、このオプションを選択します。 **[SIP アドレス]** に、SIP 形式でユーザーの URI を入力します <username> @ <domainname> 。
+  - **SIP アドレスへの転送** 通話を別のユーザーに転送するには、このオプションを選択します。 **[SIP アドレス]** に、SIP 形式でユーザーの URI を入力します \<username> @ \<domainname> 。
 
   - **別のキューに転送する** このオプションを選択した場合は、通話が時間切れ時に呼び出しを受信するキューを参照します。
 
@@ -64,11 +64,11 @@ ms.locfileid: "60745223"
 
   - **Disconnect**
 
-  - **ボイス メールへの転送** このオプションを選択した場合は **、[SIP アドレス**] に SIP 形式のボイス メール アドレスを入力します <username> (たとえば @ <domainname> 、sip:bob@contoso.com)。
+  - **ボイス メールへの転送** このオプションを選択した場合は **、[SIP アドレス**] に SIP 形式のボイス メール アドレスを入力します \<username> (たとえば @ \<domainname> 、sip:bob@contoso.com)。
 
-  - **電話番号に転送する** このオプションを選択した場合は **、SIP アドレスに** SIP の形式で電話番号を入力します <number> (たとえば @ <domainname> 、sip:+14255550121@contoso.com)。
+  - **電話番号に転送する** このオプションを選択した場合は **、SIP アドレスに** SIP の形式で電話番号を入力します \<number> (たとえば @ \<domainname> 、sip:+14255550121@contoso.com)。
 
-  - **SIP アドレスへの転送** 通話を別のユーザーに転送するには、このオプションを選択します。 **[SIP アドレス]** に、SIP 形式でユーザーの URI を入力します <username> @ <domainname> 。
+  - **SIP アドレスへの転送** 通話を別のユーザーに転送するには、このオプションを選択します。 **[SIP アドレス]** に、SIP 形式でユーザーの URI を入力します \<username> @ \<domainname> 。
 
   - **別のキューに転送する** このオプションを選択した場合は、キュー オーバーフローしきい値が満たされた場合に呼び出しを受信するキューを参照します。
 

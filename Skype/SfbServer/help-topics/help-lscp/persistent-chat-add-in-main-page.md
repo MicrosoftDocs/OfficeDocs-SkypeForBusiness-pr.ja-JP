@@ -2,7 +2,7 @@
 title: 常設チャット アドイン メイン ページ
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: '[常設チャット] ページの [アドイン] セクションを使用して、URL を常設チャット ルームに関連付けできます。 これらの URL は、会話機能拡張ウィンドウのチャット ルームのクライアントに表示されます。 管理者は、登録されたアドインのリストにアドインを追加する必要があります。また、チャット ルームの管理者/作成者は、ユーザーがクライアントでこのアップグレードを確認する前に、登録されたアドインの 1 つとルームを関連付ける必要があります。'
-ms.openlocfilehash: 226810dd7fca7327085a4c715269423ef962a816
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd24de819167bc766009fb6e56a06c377bba076b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757319"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841499"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>常設チャット アドイン メイン ページ
 

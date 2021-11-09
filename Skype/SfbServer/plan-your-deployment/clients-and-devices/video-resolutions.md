@@ -2,7 +2,7 @@
 title: Skype for Business クライアントのビデオ解像度
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: '概要: クライアントビデオの要件を確認し、クライアントビデオのSkype for Business Server。'
-ms.openlocfilehash: 6a483a67b298f2d1ce9a32fbcd7e89882c0598aa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 717813e9ed667bbd0d3d9d63e45ae3b9c45b4dcf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745883"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856554"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business クライアントのビデオ解像度
  

@@ -2,7 +2,7 @@
 title: 外部アプリケーションの次ホップ設定エキスパンダー
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 信頼済みアプリケーション サーバー プールの次ホップ サーバーを指定するには、ドロップダウン リストから定義済みの Enterprise Edition フロントエンド プールまたは Standard Edition フロント エンド サーバーを選択します。 ディレクターまたはディレクター プールは、信頼済みアプリケーション サーバーの次ホップとしては有効な選択肢ではないため、リストに表示されません。 [OK] をクリックして変更を受け入れて保存します。 変更を破棄してプロパティ ページを終了するには、[キャンセル] をクリックします。
-ms.openlocfilehash: 49da73cb3480087b65ba80f1446c43d4eaf032a6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: de31c667b00632f3dfa79566bc1cb4b2d1c5d8c9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758669"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855934"
 ---
 # <a name="external-application-next-hop-settings-expander"></a>外部アプリケーションの次ホップ設定エキスパンダー
  

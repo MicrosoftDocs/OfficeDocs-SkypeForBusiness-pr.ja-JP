@@ -2,7 +2,7 @@
 title: エッジ コンピューター外部 IP の追加 (2010)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: このページのプロパティを構成して、エッジ サーバーが Access Edge サービス、Web 会議エッジ サービス、および音声ビデオ エッジ サービスの外部の場所を指し示します。
-ms.openlocfilehash: 8a5321d0443d65a63efc9c45877d6ee28da63f1c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d3bf19703d89bd1cb8943abf7cc37aa40d4a9ddf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774157"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863974"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>エッジ コンピューター外部 IP の追加 (2010)
 

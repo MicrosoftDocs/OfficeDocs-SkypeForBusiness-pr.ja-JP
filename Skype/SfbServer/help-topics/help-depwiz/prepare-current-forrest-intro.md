@@ -2,7 +2,7 @@
 title: 現在のフォレストの準備 (開始)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 71314efe-136b-4970-a411-6282d1cb5b87
 description: '[フォレストの準備] タスクを開始するには、[次へ] をクリックします。 フォレストの準備タスクを実行すると、グローバル設定が作成され、2015 年に使用するユニバーサル Skype for Business Server作成されます。'
-ms.openlocfilehash: 7bdf0466db912066401313af89a681e6799f8ed0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4d0cd72d1471bfd4391185c78ced7453af887cf2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772593"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841599"
 ---
 # <a name="prepare-current-forrest-intro"></a>現在のフォレストの準備 (開始)
  

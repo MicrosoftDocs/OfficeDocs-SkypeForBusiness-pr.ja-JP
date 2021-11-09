@@ -2,7 +2,7 @@
 title: '従来版のマージ: エッジの種類'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[単一エッジ サーバー] または [負荷分散された統合エッジ] サーバーの場合、[次へ] をクリックして構成情報を指定します。 Expanded Edge の場合、マージする前に、各サーバーの構成を統合エッジ構成に変更する必要があります。'
-ms.openlocfilehash: 54a295a33c2f7e14b17c2f9d5b803d753a1b75b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8b6b8d8c5400de919013aaec00994c883504cb21
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759920"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831231"
 ---
 # <a name="legacy-merge-edge-type"></a>従来版のマージ エッジの種類
  

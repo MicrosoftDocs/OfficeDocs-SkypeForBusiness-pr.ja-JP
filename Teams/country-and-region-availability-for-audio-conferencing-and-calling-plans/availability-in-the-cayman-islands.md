@@ -1,6 +1,6 @@
 ---
 title: ケイマン諸島の空き時間情報
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Cayman 諸島Microsoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: e4c3b83d0ba8079cd224319341db136fd4a0761e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a19b3752d10316968676d61c7b28f7d8efe2a47c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741713"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840869"
 ---
 # <a name="availability-in-the-cayman-islands"></a>ケイマン諸島の空き時間情報
 
@@ -70,9 +70,9 @@ Cayman 諸島Microsoft 365、Office 365およびSkype for BusinessのMicrosoft T
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | 該当なし <br/> |
 |有料電話番号は使用できますか?  <br/> |いいえ  <br/> |
-|無料電話番号は利用できますか?  <br/> |はい  <br/> |
+|無料電話番号は利用できますか?  <br/> |Yes  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は[、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号の取得」を参照してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

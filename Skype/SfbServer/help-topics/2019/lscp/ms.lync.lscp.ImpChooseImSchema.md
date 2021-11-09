@@ -2,7 +2,7 @@
 title: ハイパーリンクのプレフィックスの選択
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[ハイパーリンク プレフィックスの選択] ダイアログ ボックスを使用して、ハイパーリンクプレフィックスの下のカテゴリから拡張機能のチェック ボックスをオフ (警告メッセージをブロックまたは送信する) またはクリア (許可する) を選択して、ブロック、警告メッセージの送信、または許可するハイパーリンクの種類を選択します。 矢印をクリックしてカテゴリを展開し、そのカテゴリのすべてのハイパーリンク プレフィックスを表示します。 カテゴリのすべてのハイパーリンク プレフィックスを選択する場合は、カテゴリ名を選択します。'
-ms.openlocfilehash: e1df9a63f01ba164bf059506a69bc7d77bb7f687
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ee81b1cf31ad9138eb2ced9073b66bdd6b9de6fd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742743"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832751"
 ---
 # <a name="select-hyperlink-prefix"></a>ハイパーリンクのプレフィックスの選択
  

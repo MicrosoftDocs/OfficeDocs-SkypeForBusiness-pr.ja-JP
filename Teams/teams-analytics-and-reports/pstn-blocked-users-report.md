@@ -1,6 +1,6 @@
 ---
 title: Microsoft TeamsPSTN ブロックユーザー レポート
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,16 +17,16 @@ description: Microsoft Teams 管理センターで PSTN ブロックユーザー
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ef39298142b2cf3fcf16f1acaeba9c3a62e606e0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a89e7ead560e3782d7120884a047110118d2ecd0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742983"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840689"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft TeamsPSTN ブロックユーザー レポート
 
-Microsoft Teams 管理センターの PSTN ブロックユーザー レポートには、組織内のユーザーが、TEAMS で PSTN 通話を行うのをブロックされているユーザーが表示されます。 割り当てられた電話番号や、通話がブロックされた理由など、ブロックされている各ユーザーの詳細を表示できます。
+Microsoft Teams 管理センターの PSTN ブロックユーザー レポートには、組織内のユーザーが、TEAMS で PSTN 通話を行うのをブロックされているユーザーが表示されます。 割り当てられた電話番号や、通話をブロックされた理由など、ブロックされた各ユーザーの詳細を表示できます。
 
 ## <a name="view-the-pstn-blocked-users-report"></a>PSTN ブロックユーザー レポートを表示する
 

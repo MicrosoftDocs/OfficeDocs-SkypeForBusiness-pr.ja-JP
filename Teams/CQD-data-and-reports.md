@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Microsoft 通話品質ダッシュボード (CQD) で使用できるデータとレポートについて説明します。
-ms.openlocfilehash: 0f54b6c3c69d65b12aa248f7180dec3617273857
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 04edfbcbdcfc8cc5a51a08bccd7c0dfc6c511e58
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014621"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833081"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) のデータとレポート
 
@@ -43,7 +43,7 @@ CQD データには、さまざまな方法でアクセスできます。 ニー
 |Teams 管理センター [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD データは Teams管理センターの [ユーザー] ページに含まれており、必要な最も一般的なデータは読みやすく表示されます。 [ユーザー] の下にある CQD データをカスタマイズ **できない**。  |
 |CQD ポータル[( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | ドリルスルー フィルターを使用して、ほとんどのニーズを満たす堅牢な概要レポートと詳細レポート。 CQD ポータルでレポートをカスタマイズすることもできます。 <br><br>[CQD ポータルでデータを分析](#import-the-cqd-report-templates)するのに役立つ 2 つの CQD レポート テンプレートを取得します。       |
 |Power BI     | 直接クエリを使用して、カスタマイズ可能なテンプレートを使用して、Power BIで CQD [Power BI表示します](CQD-Power-BI-query-templates.md)。 [CQD Power BIクエリ テンプレートをダウンロードします](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>REST API を[使用して、REST API を使用して CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api)データにアクセスPower BI。 CQD データをダウンロードしてオフラインで作業する場合は、この方法を使用します。 この方法を使用する利点は、パフォーマンスが向上することです。特に、オンラインのときにデータが大量にPower BIの場合に便利です。       |
-|Graph API     | Graph API を使用して、[通話品質データにアクセスします](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)。 これは最も複雑な方法ですが、呼び出し品質データを最も柔軟に分析できます。 たとえば、組織の他のデータと結合する必要がある場合は、Graph API を使用してデータ モデルを作成し、呼び出し品質データを組み込む必要があります。        |
+|Graph API     | Graph API を使用して、[通話品質データにアクセスします](/graph/api/resources/callrecords-api-overview)。 これは最も複雑な方法ですが、呼び出し品質データを最も柔軟に分析できます。 たとえば、組織の他のデータと結合する必要がある場合は、Graph API を使用してデータ モデルを作成し、通話品質データを組み込む必要があります。        |
 
 ## <a name="import-the-cqd-report-templates"></a>CQD レポート テンプレートをインポートする
 
@@ -66,7 +66,7 @@ CQD データには、さまざまな方法でアクセスできます。 ニー
 
 ## <a name="euii-data"></a>EUII データ
 
-コンプライアンス上の理由から、エンドユーザーが特定できる情報 (EUII) データ (個人を特定できる情報または PII とも呼ばれる) は 28 日間のみ保持されます。 NRT データが 28 日間のマークを超える場合、EUII を含むフィールドがクリアされ、EUII フリーの NRT データが生成されます。 EUII データを含むフィールドは次のとおりです。
+コンプライアンス上の理由から、エンドユーザーが特定できる情報 (EUII) データ (個人を特定できる情報または PII とも呼ばれる) は 28 日間のみ保持されます。 NRT データが 28 日間のマークを超える場合、EUII を含むフィールドがクリアされ、結果として EUII フリーの NRT データが生成されます。 EUII データを含むフィールドは次のとおりです。
 
 - 完全な IP アドレス
 - Media Access Control (MAC) アドレス
@@ -106,9 +106,9 @@ URL Date パラメーターは Day フィールドを受け取ります。 ロ�
 
 |URL| ローリング 日傾向の終了日|
 |:---|:---|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02/</span>   |2019 年 2 月の現在の日|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02-15/</span>|2019 年 2 月 15 日|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /00/</span>        |現在の日|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /2019-02/</span>   |2019 年 2 月の現在の日|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /2019-02-15/</span>|2019 年 2 月 15 日|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /00/</span>        |現在の日|
 |||
 
 既定では、月の現在の日がローリング 日傾向の最終日として使用されます。
@@ -118,30 +118,30 @@ URL Date パラメーターは Day フィールドを受け取ります。 ロ�
 
 既定の概要と詳細な CQD レポートは、組織の通話品質を管理するために必要なすべてである可能性があります。必要に応じて、カスタム レポート [を作成できます](#create-custom-detailed-reports)。 
 
-CQD データをPower BIする場合は、「CQD データを分析するには Power BI を使用して CQD データを分析する」[をTeams。](CQD-Power-BI-query-templates.md)
+CQD データをPower BIする場合は、「CQD データを分析するには Power BI を使用して[CQD](CQD-Power-BI-query-templates.md)データを分析する」をTeams。
 
 |機能|サマリー レポート|詳細レポート|
 |:--- |:--- |:--- |
-|アプリケーション共有メトリック | いいえ | はい |
-|顧客の建物情報のサポート | はい | はい |
+|アプリケーション共有メトリック | いいえ | Yes |
+|顧客の建物情報のサポート | Yes | はい |
 |顧客エンドポイント情報のサポート | cqd.teams.microsoft.com <span><span/> | cqd.teams.microsoft.com <span><span/> |
-|ドリルダウン分析のサポート   | いいえ   | はい   |
-|メディア信頼性メトリック   | いいえ   | はい   |
-|Out-of-the-box reports   | はい   | はい   |
-|概要レポート   | はい   | はい   |
+|ドリルダウン分析のサポート   | いいえ   | Yes   |
+|メディア信頼性メトリック   | いいえ   | Yes   |
+|Out-of-the-box reports   | はい   | Yes   |
+|概要レポート   | Yes   | はい   |
 |ユーザーごとのレポート セット   | いいえ   | はい   |
 |レポート セットのカスタマイズ (レポートの追加、削除、変更)   | いいえ   | はい   |
 |ビデオベースの画面共有メトリック   | いいえ   | はい   |
 |ビデオ メトリック   | いいえ   | はい   |
 |使用可能なデータの量   | 過去 12 か月   | 過去 12 か月   |
-|Microsoft Teamsデータ   | はい   | はい   |
+|Microsoft Teamsデータ   | Yes   | はい   |
 | | | |
 
 
  
 ### <a name="select-product-data-to-see-in-reports"></a>レポートに表示する製品データを選択する
 
-[概要] レポートと [Location-Enhanced レポート] では、[製品フィルター] ドロップダウンを使用して、すべての製品データを表示したり、Microsoft Teams データのみを表示したり、Skype for Business Online データのみを表示したりすることができます。
+[概要] および [Location-Enhanced レポート] では、[製品フィルター] ドロップダウンを使用して、すべての製品データを表示したり、Microsoft Teams データのみを表示したり、Skype for Business Online データのみを表示したりすることができます。
 
 > [!div class="mx-imgBorder"]
 > ![スクリーンショット: [Product Filter] コントロール オプションを示します。](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
@@ -157,7 +157,7 @@ CQD データをPower BIする場合は、「CQD データを分析するには 
 |全体的な通話品質     | 他の 3 つのタブの集計。       |
 |サーバー - クライアント     |サーバーエンドポイントとクライアント エンドポイント間のストリームの詳細。        |
 |クライアント - クライアント     |2 つのクライアント エンドポイント間のストリームの詳細。        |
-|音声品質 SLA     |音声品質 SLA に含まれるSkype for Businessに関する[情報](https://go.microsoft.com/fwlink/p/?linkid=846252)。        |
+|音声品質 SLA     |音声品質 SLA に関するSkype for Businessに関する[情報](https://go.microsoft.com/fwlink/p/?linkid=846252)。        |
 
 ### <a name="overall-call-quality-tab"></a>[全体的な通話品質] タブ
 
@@ -197,7 +197,7 @@ CQD データをPower BIする場合は、「CQD データを分析するには 
 - WiFi Inside
 - WiFi Outside
 
-同様に、[Client-Client] タブには折りたたみ可能なセクションが 5 つ表示されます。
+同様に、[Client-Client] タブには、次の 5 つの折りたたみ可能なセクションがあります。
 
 - Wired Inside — Wired Inside
 - 内部のワイヤード ( 外部のワイヤード)
@@ -209,7 +209,7 @@ CQD データをPower BIする場合は、「CQD データを分析するには 
 
 CQD は、Building 情報を使用してストリームを  *Inside*  または *Outside*  として分類します (存在する場合)。 各ストリームのエンドポイントは、サブネット アドレスに関連付けされます。 アップロードされた建物情報で InsideCorp とマークされているサブネットの一覧にサブネットがある場合、そのサブネットは Inside と見 *なされます*。 Building 情報がまだアップロードされていない場合、Inside Test は常にストリームを Outside として分類 *します*。 
 
-テスト シナリオの Inside Test Server-Clientクライアント エンドポイントのみを考慮します。 サーバーは常にユーザーの観点から外部に存在しますが、これはテストでは考慮されません。
+アプリケーション シナリオの Inside Test Server-Clientクライアント エンドポイントのみを考慮します。 サーバーは常にユーザーの観点から外部に存在しますが、これはテストでは考慮されません。
   
 #### <a name="wired-versus-wifi"></a>有線と WiFi
 
@@ -227,7 +227,7 @@ CQD サマリー レポート ダッシュボードには、[テナント デー
 - 各ワイヤレス AP とその MAC アドレスのマップ。
 - エンドポイントからエンドポイントの作成/モデル/種類などのマップ。
   
-CQD がレポートにこの情報を含めできるよう、テナント、建物、場所のデータをアップロードすることをお勧めします。 このデータをまだアップロードしていない場合は、テナントを読みアップロード[データを作成します](CQD-upload-tenant-building-data.md)。 
+CQD がレポートにこの情報を含めできるよう、テナント、建物、場所のデータをアップロードすることをお勧めします。 このデータをまだアップロードしていない場合は、テナントを読アップロード[データを作成します](CQD-upload-tenant-building-data.md)。 
 
 
 ## <a name="detailed-reports"></a>詳細レポート
@@ -267,7 +267,7 @@ CQD がレポートにこの情報を含めできるよう、テナント、建�
 
 | フィルター         | 説明          | CQD クエリ フィルターの例      |
 |----------------|----------------------|-------------------------------|
-| 空白値なし   | 一部のフィルターには、空の値をフィルター処理するオプションはありません。 空の値を手動でフィルター処理するには、空の式を使用し、必要に応じてフィルターを [等しい] または [等しくない] に設定します。      | Second Building Name \<\> \^ \\ s\*\$                       |
+| 空白値なし   | 一部のフィルターには、空の値をフィルター処理するオプションはありません。 空白値を手動でフィルター処理するには、空の式を使用し、必要に応じてフィルターを [等しい] または [等しくない] に設定します。      | Second Building Name \<\> \^ \\ s\*\$                       |
 | 一般的なサブネットを除外する | 管理されていないネットワークから管理を分離する有効な建物ファイルがない場合、ホーム ネットワークはレポートに含まれます。 これらのホーム サブネットは IT の管理対象外であり、レポートからすぐに除外できます。 このガイドで定義されている一般的なサブネットは、10.0.0.0、192.168.1.0、192.168.0.0 です。 | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
 | 内部のみを表示する  | 管理 (内部) または管理されていない (外部) のレポートをフィルター処理するために使用します。 管理された CQD テンプレートは、これらのフィルターで既に構成されています。       | Second Inside Corp = Inside        |
 
@@ -363,11 +363,11 @@ URL 全体は次のように表示されます。
 無効な名前または値を指定した場合、URL フィルターは適用されません。
 
 
-URL フィルターを使用して、特定のディメンションのすべてのレポートをフィルター処理できます。 最も一般的な URL フィルターは、レポートをフィルター処理してフェデレーション参加者のテレメトリを除外したり、オンライン上の Teams または Skype for Businessしたりするために使用されます。 CQD レポートからフェデレーション データを除外すると、フェデレーション エンドポイントがレポートに影響を与える可能性がある管理された建物やネットワークを修復する場合に便利です。
+URL フィルターを使用して、特定のディメンションのすべてのレポートをフィルター処理できます。 最も一般的な URL フィルターは、レポートをフィルター処理してフェデレーション参加者のテレメトリを除外したり、オンライン上の Teams または Skype for Businessします。 CQD レポートからフェデレーション データを除外すると、フェデレーション エンドポイントがレポートに影響を与える可能性がある管理された建物やネットワークを修復する場合に便利です。
 
 | フィルター         | 説明          | CQD クエリ フィルターの例      |
 |----------------|----------------------|-------------------------------|
-| 空白値なし   | 一部のフィルターには、空の値をフィルター処理するオプションはありません。 空の値を手動でフィルター処理するには、空の式を使用し、必要に応じてフィルターを [等しい] または [等しくない] に設定します。      | Second Building Name \<\> \^ \\ s\*\$                       |
+| 空白値なし   | 一部のフィルターには、空の値をフィルター処理するオプションはありません。 空白値を手動でフィルター処理するには、空の式を使用し、必要に応じてフィルターを [等しい] または [等しくない] に設定します。      | Second Building Name \<\> \^ \\ s\*\$                       |
 | 一般的なサブネットを除外する | 管理されていないネットワークから管理を分離する有効な建物ファイルがない場合、ホーム ネットワークはレポートに含まれます。 これらのホーム サブネットは IT の管理対象外であり、レポートからすぐに除外できます。 この記事で定義されている一般的なサブネットは、10.0.0.0、192.168.1.0、192.168.0.0 です。 | Second Subnet \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
 | 内部のみを表示する  | 管理 (内部) または管理されていない (外部) のレポートをフィルター処理するために使用します。 管理された CQD テンプレートは、これらのフィルターで既に構成されています。       | Second Inside Corp = Inside        |
 
@@ -388,13 +388,13 @@ CQD のテナント ID は、Azure のディレクトリ ID に対応します�
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>CQD TeamsとSkype for Business比較
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>CQD TeamsとSkype for Businessの比較
 
-データを確認するときに、データとデータの間でデータのTeamsがSkype for Business。 次の理由があります。
+データを確認するときに、データのデータが異なる場合TeamsとSkype for Business。 次の理由があります。
 - パフォーマンスと信頼性を確保するためのメカニズムの違い:
   - Teams、自動再接続と高速ローミングがあります。 Skype for Businessは行わない。
   - Teams帯域幅管理があります。 Skype for Businessは行わない。
-- IP アドレス範囲[の違いは、Teams](Office-365-URLs-IP-address-ranges.md)とSkype for Business。 IP Teamsは新しいので、ファイアウォールで接続の問題が発生する可能性があります。
+- IP アドレス範囲[の違いは、Teams](Office-365-URLs-IP-address-ranges.md)とSkype for Business。 新Teams IP 範囲が新しいので、ファイアウォールで接続の問題が発生する可能性があります。
 
 
 
@@ -406,7 +406,7 @@ Login-AzureRmAccount
 
 [通話品質ダッシュボード (CQD) を設定する](turning-on-and-using-call-quality-dashboard.md)
 
-[アップロードの作成とデータの作成](CQD-upload-tenant-building-data.md)
+[アップロードとデータの構築](CQD-upload-tenant-building-data.md)
 
 [CQD を使用して通話と会議の品質を管理する](quality-of-experience-review-guide.md)
 
@@ -414,4 +414,4 @@ Login-AzureRmAccount
 
 [CQD のストリーム分類](stream-classification-in-call-quality-dashboard.md)
 
-[CQD Power BI分析する](CQD-Power-BI-query-templates.md)
+[CQD Power BI分析するには、次のコマンドを使用します。](CQD-Power-BI-query-templates.md)

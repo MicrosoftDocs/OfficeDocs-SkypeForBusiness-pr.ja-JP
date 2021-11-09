@@ -2,7 +2,7 @@
 title: 通話受付管理の計画を立Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 通話受付管理について、メディア品質が低い場合に通話が行えなSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 59b8d3f74d138e087f4a5b49b7a40d6ec935a829
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6260321a29ad138fae41eacb9a1bee5d322d1684
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768645"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841079"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>通話受付管理の計画を立Skype for Business Server
 

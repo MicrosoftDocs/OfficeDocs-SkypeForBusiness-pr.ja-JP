@@ -2,7 +2,7 @@
 title: 監視サーバー SQL Server ストアを追加する
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 監視サーバーでは、監視データを格納するために、サポートされている 64 ビット 版SQL Serverデータベース ソフトウェアが必要です。 監視に使用する定義済みの SQL Server データベースを選択するか、または新しい SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) を指定して、新しい SQL Server データベース (既定のインスタンス、または指定した名前付きインスタンス) に使用する SQL Server のインスタンスを指定して、新しい SQL Server データベースを定義できます。
-ms.openlocfilehash: 8e3fa8c78ac39828d3275568864c1281b4e53682
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 515f88f73e65f4d82e490484624adaa7369cc178
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772857"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855964"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>監視サーバー SQL Server ストアの追加
 

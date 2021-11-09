@@ -2,7 +2,7 @@
 title: Skype for Business Server の通話品質ダッシュボード
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: '概要: 通話品質ダッシュボード (このダッシュボードのレポート ツール) についてSkype for Business Server。'
-ms.openlocfilehash: 6623217b81db0be552cef1683e5db0a36a46977a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3a595dac7e495eadaf821d814a08bca8b50feb80
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768685"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841159"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Skype for Business Server の通話品質ダッシュボード
  

@@ -2,7 +2,7 @@
 title: AV MCU 設定エキスパンダー
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 既に定義してある音声ビデオ会議サーバー プールのプロパティを編集するには、次の操作を行います。
-ms.openlocfilehash: c598b6430829c2d4743173ef6dd2a76fa6bc551a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ea84f56fcbcaf1462b93718e15feb52d85b90d97
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751956"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863694"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 設定エキスパンダー
  

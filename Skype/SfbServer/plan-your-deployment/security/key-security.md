@@ -2,7 +2,7 @@
 title: セキュリティの主な機能は、Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype for Business Serverには、サーバー間認証、役割ベースのアクセス制御、構成データの集中ストレージなど、いくつかのセキュリティ機能が含まれています。
-ms.openlocfilehash: 5e24f9cc32d7f6d3730813abea4e98d4288861ec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c70d997dc29166b05376bbd6c1bcd7886d1c176b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768495"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848390"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>セキュリティの主な機能は、Skype for Business Server
  

@@ -2,7 +2,7 @@
 title: モバイル クライアント プッシュ通知の構成
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: '[Microsoft プッシュ通知] と [Apple Push 通知] を構成するには、どちらの種類のプッシュ通知が必要かを定義するポリシーを作成する必要があります。'
-ms.openlocfilehash: 48bc4dd4c218797719d4ad9884bc6c3870c9d688
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 22b1174eee06fd46bd69d1d9b6c1c4f3f12ac01f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764135"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841529"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>モバイル クライアント: プッシュ通知の構成
  

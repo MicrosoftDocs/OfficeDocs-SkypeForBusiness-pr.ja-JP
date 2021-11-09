@@ -2,7 +2,7 @@
 title: 機能の概要 (計画ツール)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server計画ツール
-ms.openlocfilehash: 0b47d1dad12d4933f042217b4762d7bb4f766c6c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ee6578aeb51aa0cf9f6a4066c78d6038a057763b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758779"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832691"
 ---
 # <a name="feature-overview-planning-tool"></a>機能の概要 (計画ツール)
  

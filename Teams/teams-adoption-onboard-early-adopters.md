@@ -1,6 +1,6 @@
 ---
 title: アーリー アダプターに関与してフィードバックを収集する
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47c51e869e25726e73863091a88e4f7289d7693c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a87a6802a538609e9899f2645833a1e9bdab120f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753868"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840729"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>アーリー アダプターに関与して、Microsoft Teams についてのフィードバックを収集する
 
@@ -41,7 +41,7 @@ ms.locfileid: "60753868"
 
 ## <a name="gather-feedback"></a>フィードバックの収集
 
-プロジェクトのフィードバックをMicrosoft 365またはOffice 365コンポーネントを使用します。
+プロジェクトのフィードバックを収集Microsoft 365またはOffice 365コンポーネントを使用します。
   
 ![決定ポイントを表すアイコン。](media/teams-adoption-decision-icon.png) 決定: 組織が既に Yammer ネットワークに投資している場合は、早期導入者プログラムのフィードバック フォーラムとして使用できます。 それ以外の場合、早期導入プログラムのメンバー数が 5,000 人未満の場合は、Teams でチームを作成してフィードバックを収集し、トレーニングを提供します。
   
