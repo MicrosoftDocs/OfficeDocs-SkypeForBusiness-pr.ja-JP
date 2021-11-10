@@ -16,13 +16,14 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 description: ハイブリッド接続を実装する手順は、Skype for Business ServerとTeams。
-ms.openlocfilehash: fee7587c641f2fd55cd8b4ac4da72b3944b819a1
-ms.sourcegitcommit: 64b9f7297d33a883506893fb68d1ad5202b4df1a
+ms.openlocfilehash: ffc1205ca91f81e9b9361e4603318bc1a8fcf76c
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59682812"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887175"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>デバイスとデバイス間のハイブリッド接続Skype for Business Server構成Teams
 
@@ -38,7 +39,7 @@ ms.locfileid: "59682812"
 |:-----|:-----|
 |Microsoft 365 のテナント アカウントを作成します。   <br/> |詳細については、「Microsoft 365」[を参照Microsoft 365。](https://go.microsoft.com/fwlink/p/?LinkId=254980)  <br/> 環境の準備が完了していることを確認するには、「システムMicrosoft 365」[を参照してください](https://products.office.com/office-system-requirements)。  <br/> ユーザー設定の詳細については、「Microsoft 365[の概要」を参照Microsoft 365。](https://go.microsoft.com/fwlink/p/?LinkId=254982)  <br/> |
 |ドメインを組織に追加Microsoft 365所有権を確認します。  <br/> | ドメインを組織に追加しMicrosoft 365手順に従ってドメインを検証する必要Microsoft 365。 この検証は、ドメインの所有者を確認します。 <br/> ドメインを組織の組織にMicrosoft 365するには、「ドメインを組織に追加する」で説明されている[手順に従](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US)Microsoft 365。 ハイブリッドになる組織の DNS への影響に関する以下 [のガイダンスを必ず確認してください](#dns-implications-for-on-premises-organizations-that-become-hybrid)。 <br/> |
-|Active Directory 同期を設定します。  <br/> |Active Directory の同期により、オンプレミスの Active Directory が Microsoft 365 と継続的に同期され、各ユーザー アカウントとグループの同期バージョンが作成されます。  <br/> <br> **重要:** 組織内のすべての Skype for Business ユーザーの Active Directory アカウントを、ユーザーが Teams に移動されていない場合でも、オンプレミス展開とオンライン展開の間で同期する必要があります。 すべてのユーザーを同期しない場合は、組織内のオンプレミスユーザーとオンライン ユーザー間の通信が期待通りには機能しない場合があります。 詳細については[、「Configure Azure AD Connect ハイブリッド環境」を参照してください](configure-azure-ad-connect.md)。         |
+|Active Directory 同期を設定します。  <br/> |Active Directory の同期により、オンプレミスの Active Directory が Microsoft 365 と継続的に同期され、各ユーザー アカウントとグループの同期バージョンが作成されます。  <br/> <br> **重要:** 組織内のすべての Skype for Business ユーザーの Active Directory アカウントを、ユーザーが Teams に移動されていない場合でも、オンプレミス展開とオンライン展開の間で同期する必要があります。 すべてのユーザーを同期しない場合は、組織内のオンプレミスユーザーとオンライン ユーザー間の通信が期待通りには機能しない場合があります。 詳細については、「Configure [Azure AD Connect ハイブリッド環境」を参照してください](configure-azure-ad-connect.md)。         |
 | Skype for Business ハイブリッドを構成します。 | 次の 3 つの基本的な手順があります。 <br><br> 1. オンプレミス環境を構成して、サーバーとフェデレーションMicrosoft 365。 <br> 2. オンプレミス環境を構成して、Microsoft 365を信頼し、共有 SIP アドレス空間を有効Microsoft 365。<br> 3. 組織で共有 SIP アドレス空間Microsoft 365します。 <br><br> また、オンプレミス環境Exchange場合は、オンプレミス環境とオンライン環境の間Exchange OAuth を構成することもできます。 <br> <br>詳細については、「Configure [Skype for Business ハイブリッド」を参照してください](configure-federation-with-skype-for-business-online.md)。
 |パイロット ユーザーを移動します。  <br/> |ユーザーの環境を準備して構成する手順を完了したら、Teamsユーザーをオンラインの組織に移動Microsoft 365できます。 詳細については、「ユーザーを[オンプレミスからユーザーに移動する」を参照](move-users-from-on-premises-to-Teams.md)Teams。  <br/> |
 

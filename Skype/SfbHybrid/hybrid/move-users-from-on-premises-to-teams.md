@@ -16,14 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 ms.custom: ''
 description: '概要: ユーザー設定を移行し、ユーザーをユーザーに移動する方法についてTeams。'
-ms.openlocfilehash: 2206c9b155c26a8559dd32346e1d9ad9e0e54978
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 370b9ba170362168a421377ab2af56c96016271d
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725486"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887195"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>オンプレミスから Teams にユーザーを移動する
 

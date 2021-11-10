@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: この記事では、新しいコントロール パネルの概要について説明します。
-ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824645"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887305"
 ---
 # <a name="control-panel"></a>コントロール パネル
 
@@ -58,3 +58,10 @@ ms.locfileid: "60824645"
 |レジストラー         |    [レジストラー](use-powershell-security-menu.md#registrar)     |
 |(Web) サービス      |  [Web サービス](use-powershell-security-menu.md#web-service)       |
 |PIN ポリシー    | [PIN ポリシー](use-powershell-security-menu.md#pin-policy)        |
+
+## <a name="im-and-presence"></a>IM とプレゼンス
+
+|サブメニュー  |コマンドレットの情報のソース  |
+|---------|---------|
+|ファイル フィルター         |    [ファイル フィルター](use-powershell-im-and-presence-menu.md#file-filter)     |
+|URL フィルター      |  [URL フィルター](use-powershell-im-and-presence-menu.md#url-filter)       |

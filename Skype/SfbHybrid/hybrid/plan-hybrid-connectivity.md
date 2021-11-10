@@ -16,14 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 description: ハイブリッド モードを構成して、Skype for Business ServerとTeamsのハイブリッド接続Skype for Business計画します。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 40d89076973e4667c41676684841e8c35c356396
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: ac2243613b4d3929f3d78facd4a45a4d70acda2b
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491717"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887205"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>ハイブリッド接続を計画して、Skype for Business ServerとTeams
 
@@ -82,7 +83,7 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
 - オンプレミスのユーザーは、オンプレミスのサーバーとSkype for Businessします。
 - オンラインに登録されているユーザーは、Teams と対話し、2021 年 7 月 31 日まで Skype for Business Online を共同存在モードに基づいて操作できます。
 - 両方の環境のユーザーが相互に通信できます。
-- オンプレミスの Active Directory は権限があります。 すべてのユーザーは、最初にオンプレミスの Active Directory に作成し、Azure サーバーに同期AD。 ユーザーをオンラインで使用する場合でも、最初にユーザーをオンプレミス環境で作成し、そのユーザーをオンラインに移動して、ユーザーがオンプレミスのユーザーが検出可能なユーザーを確認する必要があります。
+- オンプレミスの Active Directory は権限があります。 すべてのユーザーは、最初にオンプレミスの Active Directory に作成し、次にユーザーに同期Azure AD。 ユーザーをオンラインで使用する場合でも、最初にユーザーをオンプレミス環境で作成し、そのユーザーをオンラインに移動して、ユーザーがオンプレミスのユーザーが検出可能なユーザーを確認する必要があります。
 
 ユーザーをオンラインに移動する前に、ユーザーにオンライン (プラン 2) とTeamsライセンスSkype for Business割り当てる必要があります。 **オンライン ライセンスのSkype for Businessは、オンラインの使用を取り除Skype for Businessです。** ユーザーが電話会議や 電話システム などの追加のオンライン機能を利用する場合は、Microsoft 365 で適切なライセンスを割り当てる必要があります。
 
@@ -98,7 +99,7 @@ Skype for Business Online の退職前と退職後の両方で、Skype for Busin
     > [!NOTE]
     > オンプレミス展開では、ハイブリッド構成に使用できるテナントは 1 つのみです。
     
-- Azure Active Directory Connectオンプレミス ディレクトリと同期する方法をMicrosoft 365。 詳細については、「Azure AD Connect: アカウントとアクセス許可[」を参照してください](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
+- Azure Active Directory Connectオンプレミス ディレクトリと同期する方法をMicrosoft 365。 詳細については[、「Azure AD Connect: アカウントとアクセス許可」を参照してください](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
 - Skype for Business Server管理ツール。 これらは、ユーザーをオンプレミスからクラウドに移動するために必要です。 これらのツールは、オンプレミス展開とインターネットの両方にアクセスできるサーバーにインストールする必要があります。
 - オンライン管理ツール。 管理センターまたは管理センター Teams使用して、Windows PowerShell管理Teams。 PowerShell を使用してサーバーを管理するにはTeams PowerShell モジュールをダウンロードしてTeamsインストールします。 (オンライン Skype for Businessが廃止されました)。
@@ -138,7 +139,7 @@ Microsoft では、次の種類のマルチフォレスト ハイブリッド �
 
 - **複数のフォレストにSkype for Business Server展開。** この構成は、合併および買収のシナリオ、およびより複雑な企業の結果として発生する可能性があります。 次の重要な要件が満たされている場合、複数の Microsoft 365 Skype for Business 展開を持つ組織では、オンプレミスからクラウドへのすべてのユーザーの統合を実現できます。
   - 関連する組織には、少なくとも 1 Microsoft 365必要があります。 複数の組織とのシナリオでの統合はサポートされていません。
-  - 任意の時点で、ハイブリッド モード (共有 SIP アドレスSkype for Business 1 つのオンプレミス フォレストのみを使用できます。 その他のすべてのオンプレミス Skype for Businessフォレストは、完全にオンプレミスに残る必要があります (おそらく、互いにフェデレーションされている可能性があります)。 これらの他のオンプレミス組織は、2018 年 12 月現在利用可能なオンライン [SIP](/powershell/module/skype/disable-csonlinesipdomain) ドメインを無効にする新しい機能を必要に応じて AAD に同期できます。
+  - 任意の時点で、ハイブリッド モード (共有 SIP アドレスSkype for Business 1 つのオンプレミス フォレストのみを使用できます。 その他のすべてのオンプレミス Skype for Businessフォレストは、完全にオンプレミスに残る必要があります (おそらく、互いにフェデレーションされている可能性があります)。 これらの他のオンプレミス組織は、2018 年 12 月現在利用可能なオンライン[SIP](/powershell/module/skype/disable-csonlinesipdomain)ドメインを無効にする新しい機能を必要に応じて AAD に同期できます。
 
     複数のフォレストに Skype for Business を展開しているお客様は、分割ドメイン (共有 SIP アドレス空間) 機能を使用して、Skype for Business フォレストごとに個別に Microsoft 365 組織に完全に移行する必要があります。 フォレストの移行が完了したら、次のオンプレミス展開を移行する前に、オンプレミス展開とのハイブリッドを無効にするSkype for Businessがあります。 さらに、クラウドに移行する前に、オンプレミスのユーザーは、同じユーザーのオンプレミス ディレクトリに表示されないユーザーとフェデレーション状態のままです。 詳細については、「クラウド統合[for Teams」を参照](cloud-consolidation.md)Skype for Business。
 
