@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms デバイスを特定のバージョンに手動で更新する方法について説明します。
-ms.openlocfilehash: 36d5477ef84eb97971727314aa39ab19e4139488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c823cd9ffc98c0eea53ecc48f6ea7fc47519dfd1
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578251"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909548"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>Microsoft Teams Rooms デバイスを手動で更新する
 
-Microsoft Teams Rooms アプリは、Microsoft Store を通じて配布されます。 アプリの更新プログラムは、夜間のメンテナンス中Microsoft Storeから自動的にインストールされます。これは、更新プログラムを取得するために推奨される方法です。 ただし、Teams Rooms デバイスがデバイスから更新プログラムを受信できない場合Microsoft Store。 たとえば、セキュリティ ポリシーでは、デバイスがインターネットに接続できない場合や、デバイスからアプリをダウンロードできない場合Microsoft Store。 または、セットアップを実行する前にデバイスを更新し、その間Microsoft Storeを使用できない場合があります。
+Microsoft Teams Rooms アプリは、Microsoft Store を通じて配布されます。 アプリの更新プログラムは、夜間のメンテナンス中Microsoft Storeから自動的にインストールされます。これは、更新プログラムを取得するために推奨される方法です。 ただし、一部の状況では、Teams Rooms デバイスがデバイスから更新プログラムを受信Microsoft Store。 たとえば、セキュリティ ポリシーでは、デバイスがインターネットに接続できない場合や、デバイスからアプリをダウンロードできない場合Microsoft Store。 または、セットアップを実行する前にデバイスを更新する必要がある場合があります。その間、Microsoft Storeは使用できません。
 
-Microsoft Store から更新プログラムを取得できない場合は、オフライン アプリの更新 PowerShell スクリプトを使用して、Teams Rooms デバイスを新しいバージョンの Teams Rooms アプリに手動で更新できます。 この記事の手順に従って、Teams Rooms デバイスを手動で更新します。
+Microsoft Store から更新プログラムを取得できない場合は、オフライン アプリ更新 PowerShell スクリプトを使用して、Teams Rooms デバイスを新しいバージョンの Teams Rooms アプリに手動で更新できます。 この記事の手順に従って、Teams Rooms デバイスを手動で更新します。
 
 > [!NOTE]
 > このプロセスでは、Teams Rooms アプリが既にインストールされている Teams Rooms デバイスのみを更新できます。 新しいインストールの実行には使用できません。 また、アプリを以前のバージョンにダウングレードするためにも使用できません。 Teams Rooms アプリの新しいインストールを実行するには、デバイスの製造元に特定のメディアを問い合わせ、または「インストール メディアを準備する」[を参照してください](console.md#prepare-the-installation-media)。
@@ -35,7 +35,7 @@ Microsoft Store から更新プログラムを取得できない場合は、オ�
 
 まず、オフライン アプリ更新スクリプトの最新バージョンをダウンロードします。 スクリプトをダウンロードするには、 をクリックします <https://go.microsoft.com/fwlink/?linkid=2151817> 。 スクリプトは、デバイスの既定のダウンロード フォルダーにダウンロードされます。
 
-ダウンロードしたファイルは、ダウンロードしたファイルがブロック済みとしてマークWindows。 操作を行わずにスクリプトを実行する必要がある場合は、スクリプトのブロックを解除する必要があります。 スクリプトのブロックを解除するには、次の操作を行います。
+ダウンロードしたファイルは、ダウンロードしたファイルによってブロックWindows。 操作を行わずにスクリプトを実行する必要がある場合は、スクリプトのブロックを解除する必要があります。 スクリプトのブロックを解除するには、次の操作を行います。
 
 1. エクスプローラーでファイルを右クリックする
 2. [プロパティ] **をクリックします。**
@@ -48,7 +48,7 @@ PowerShell を使用してスクリプトのブロックを解除するには、
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>手順 2: スクリプトを実行して、Teams Rooms アプリを更新する
 
-オフライン アプリの更新スクリプトは、管理者特権でコマンド プロンプトから実行する必要があります。Skype ユーザー (アプリを実行するユーザー) はまだサインインしています。 管理者アカウントにログインして、Skype ユーザーがまだログインしている間に管理者特権のコマンド プロンプトを使用する方法の詳細については、「管理者モードに切り替えて[、Microsoft Teams Rooms](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)アプリが実行されているときに戻る」を参照してください。
+Skype ユーザー (アプリを実行するユーザー) がまだサインインしている間は、管理者特権でのコマンド プロンプトからオフライン アプリ更新スクリプトを実行する必要があります。 Skype ユーザーがまだログインしている間に管理者アカウントにログインして管理者特権のコマンド プロンプトを使用する方法の詳細については、「管理者モードに切り替えて[、Microsoft Teams Rooms](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes)アプリがクラッシュした場合に戻る」を参照してください。
 
 管理者特権のコマンド プロンプトからスクリプトを実行するには、次の操作を行います。
 
@@ -60,7 +60,7 @@ PowerShell を使用してスクリプトのブロックを解除するには、
     PowerShell -ExecutionPolicy Unrestricted "<path to script>"
     ```
 
-たとえば、スクリプト ファイルが にあり、スクリプト ファイル名が である場合は、次 `C:\Users\Admin\Downloads` `MTR-Update-4.5.6.7.ps1` のコマンドを実行します。
+たとえば、スクリプト ファイルが にあり、スクリプト ファイル名が である場合は、 `C:\Users\Admin\Downloads` `MTR-Update-4.5.6.7.ps1` 次のコマンドを実行します。
 
 ```console
 PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.5.6.7.ps1"
