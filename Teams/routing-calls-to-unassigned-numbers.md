@@ -21,17 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 組織内の割り当てられていない番号に通話をルーティングする方法について学習します。
-ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
+ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536998"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60947504"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>割り当てられていない番号への通話のルーティング
-
-> [!NOTE]
-> この機能は、パブリック プレビュー リリースとして利用できます。
 
 管理者は、組織内の割り当てられていない番号に通話をルーティングできます。 たとえば、次のように、割り当てられていない番号に呼び出しをルーティングできます。 
 
@@ -45,7 +42,7 @@ ms.locfileid: "60536998"
 
 割り当てられていない番号に呼び出しをルーティングするには、Teams PowerShell モジュール 2.5.1 以降で使用できる New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment コマンドレットを使用します。
 
-番号の呼び出し番号または範囲、およびこれらの番号の呼び出しに関連するルーティングを指定する必要があります。 たとえば、次のコマンドでは、+1 (555) 222-3333 の番号に対する呼び出しはすべてリソース アカウントにルーティング aa@contoso.com。
+番号の呼び出し番号または範囲、およびこれらの番号の呼び出しに関連するルーティングを指定する必要があります。 たとえば、次のコマンドは、番号 +1 (555) 222-3333 に対する呼び出しはすべてリソース アカウントにルーティング aa@contoso.com。
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
@@ -72,7 +69,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - 割り当てられていない Microsoft 通話プランのサブスクライバー番号に呼び出しをルーティングするには、テナントに使用可能な通信クレジット が [必要です](what-are-communications-credits.md)。
 
-- 割り当てられていない Microsoft 通話プランのサービス番号に呼び出しをルーティングするには、テナントに少なくとも 1 つの仮想電話システム – 仮想ユーザー ライセンスが必要です。
+- 割り当てられていない Microsoft 通話プランサービス番号への呼び出しをルーティングするには、テナントに少なくとも 1 つの仮想電話システム – 仮想ユーザー ライセンスが必要です。
 
 ## <a name="related-topics"></a>関連項目
 
