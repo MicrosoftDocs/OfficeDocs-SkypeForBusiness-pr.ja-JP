@@ -17,12 +17,12 @@ description: Microsoft Teams 管理センターで Teams ライブ イベント�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865546"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959896"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teamsイベント使用状況レポートを作成する
 
@@ -30,12 +30,12 @@ Teams センターのライブ イベント使用状況レポートMicrosoft Tea
 
 ## <a name="view-the-live-event-usage-report"></a>ライブ イベント使用状況レポートを表示する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [レポート **の表示] タブの**[レポート **] で**、[ライブ イベントTeams **を選択します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [レポートの **表示] タブの**[レポート **] で**、[ライブ イベントTeams **を選択します**。
 2. [ **日付範囲] で**、定義済みの範囲を選択するか、ユーザー設定の範囲を設定します。 現在の日付の前と後に最大 1 年、6 か月のデータを表示する範囲を設定できます。
 3. (省略可能)[ **開催者**] で、特定のユーザーによって編成されたライブ イベントのみを表示することができます。
 4. [レポートの **実行] をクリックします**。  
 
-    ![吹き出しTeams付きビデオ管理センターのライブ イベントTeamsレポートのスクリーンショット。](../media/teams-live-event-usage-report-with-callouts.png "吹き出しTeams付きビデオ管理センターのライブ イベントTeamsレポートのスクリーンショット")
+   :::image type="content" alt-text="吹き出しTeams付きビデオ管理センターのライブ イベントTeamsレポートのスクリーンショット。" source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 
@@ -48,13 +48,15 @@ Teams センターのライブ イベント使用状況レポートMicrosoft Tea
 |**5**   |[**列の編集**] を選択して表で列を追加または削除します。|
 
 ## <a name="notes"></a>メモ
-現在のレポートの条件に一致する最大 100 件のライブ イベントを表示します。 より多くのライブ イベントを表示するには、日付フィルターを適用してリスト のサイズを小さくします。
+現在のレポートの条件に一致する最大 100 件のライブ イベントが表示されます。 より多くのライブ イベントを表示するには、日付フィルターを適用してリスト のサイズを小さくします。 
+
+イベントまたはイベントの記録をオンデマンドで視聴するユーザーは、ビュー数に含まれません。 
 
 ## <a name="view-event-details"></a>イベントの詳細を表示する
 
 ライブ イベントの詳細ページには、ライブ イベントの詳細の概要が表示され、イベントに関連付けられているトランスクリプトや録音を含むすべてのファイルが一覧表示されます。 ファイル名をクリックして、ファイルを表示またはダウンロードします。
 
-![ライブ イベントの詳細を示すスクリーンショット。](../media/teams-live-event-usage-report-event-detail.png)
+:::image type="content" alt-text="ライブ イベントの詳細を示すスクリーンショット。" source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
 組織で [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN または [Analyticlective](https://kollective.com) eCDN が有効になっている場合は、パートナー レポートのリンクをクリックして、追加の出席者分析を取得できます。
 

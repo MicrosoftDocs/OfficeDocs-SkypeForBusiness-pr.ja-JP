@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Microsoft 365 コンプライアンス センターの監査ログから Microsoft Teams のデータを取得する方法をご紹介します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d817a89b60de260529b1e9d4a9891290d9ea404b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: d5c57cc859c3a30040b4874579157a714600156a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536888"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959836"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Microsoft Teams でイベントの監査ログを検索する
 
@@ -35,7 +35,7 @@ ms.locfileid: "60536888"
 - チャネルの削除
 - チャンネル設定の変更
 
-監査されるアクティビティの完全Teamsについては、「アクティビティのTeamsとシフト」[をTeamsしてください](#shifts-in-teams-activities)。 [](#teams-activities)
+監査されるアクティビティの完全なTeamsについては、「監査アクティビティのアクティビティTeamsシフト[」をTeamsしてください](#shifts-in-teams-activities)。 [](#teams-activities)
 
 > [!NOTE]
 > プライベート チャネルからの監査イベントも、チームや標準チャネルの場合と同様に記録されます。
@@ -89,6 +89,8 @@ ms.locfileid: "60536888"
 |チームへのボットの追加   |BotAddedToTeam        |ユーザーがチームにボットを追加しました。        |
 |チャネルの追加   |ChannelAdded         |ユーザーがチームにチャネルを追加しました。         |
 |コネクタの追加  |ConnectorAdded          |ユーザーがチャネルにコネクタを追加しました。        |
+|会議の詳細をTeamsしました|MeetingDetail|Teams開始時刻、終了時刻、会議に参加する URL など、会議に関する情報が追加されました。|
+|会議の参加者に関する情報を追加しました|MeetingParticipantDetail|Teamsのユーザー ID、参加者が会議に参加した時刻、参加者が会議を離時刻など、会議の参加者に関する情報を追加しました。|
 |メンバーの追加    |MemberAdded         |チームの所有者が、チーム、チャネル、またはグループ チャットにメンバーを追加しました。         |
 |タブの追加    |TabAdded         |ユーザーがチャネルにタブを追加しました。        |
 |チャンネル設定の変更    |ChannelSettingChanged         |次のアクティビティがチーム メンバーにより実行されると、ChannelSettingChanged 操作が記録されます。 これらの各アクティビティについては、変更された設定 (かっこ内) の説明が、監査ログの検索結果の **[項目]** 列に表示されます。 <ul><li>チーム チャネルの名前が変更されます (**チャネル名**)</li><li>チーム チャネルの説明が変更されます (**チャネルの説明**)</li> </ul>      |
@@ -133,7 +135,7 @@ ms.locfileid: "60536888"
 
 
 > [!NOTE]
-> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出して操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365 」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション 」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup>このイベントの監査レコードは、Microsoft Graph API を呼び出すことによって操作が実行された場合にのみ記録されます。 クライアントで操作が実行Teams、監査レコードはログに記録されません。<br/><br/><sup>2</sup> このイベントは、高度な監査でのみ使用できます。 つまり、これらのイベントが監査ログに記録される前に、ユーザーに適切なライセンスが割り当てられている必要があります。 高度な監査でのみ使用できるアクティビティの詳細については、「Advanced Audit in Microsoft 365 」[を参照してください](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 高度な監査のライセンス要件については、「監査ソリューション」を参照[Microsoft 365。](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>Teams アクティビティにサインイン
 
@@ -209,7 +211,7 @@ Azure Active Directory (Azure AD)、Microsoft 365 管理センター、または
 
 ビジネスに有効なポリシーを設定した後は、イベントがトリガーされるとアクティビティ ログの結果を確認することができます。
 
-![一括削除によってトリガーされるイベントのスクリーンショット。](media/TeamsMassDeleteList.png)
+![一括削除によってトリガーされるスクリーンショット イベント。](media/TeamsMassDeleteList.png)
 
 設定したポリシーをフィルター処理して、そのポリシーの結果を表示することができます。 アクティビティ ログで得られる結果が満足のいくものではない場合 (多くの結果が表示されたり、全く表示されなかったりする場合)、クエリを微調整して、必要なことに関連付けることができます。
 

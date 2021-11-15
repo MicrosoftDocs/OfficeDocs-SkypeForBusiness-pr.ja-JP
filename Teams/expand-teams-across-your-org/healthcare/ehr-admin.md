@@ -1,8 +1,8 @@
 ---
-title: 仮想アクセスのための Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+title: 仮想アクセスと Teams - エピック EHR への統合
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -22,17 +22,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Microsoft Teams を使用して仮想アクセス システムをセットアップする
-ms.openlocfilehash: 3ba0ff974f9a8381eab054bb92468762dc1d8cc8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Teams EHR コネクタを統合して、組織内の医療プロバイダーがエピック EHR システムから直接 Teams で患者または他のプロバイダーと仮想訪問を行う方法について説明します。
+ms.openlocfilehash: 48d2cfd69dd9d5cd8be2fcd5a0c29fca7162d246
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859734"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960046"
 ---
-# <a name="virtual-visits-with-teams---integration-into-ehr"></a>Teams での仮想アクセス - EHR への統合
+# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>仮想アクセスと Teams - エピック EHR への統合
 
-Microsoft Teams電子健康記録 (EHR) コネクタを使用すると、医師は EHR システムから直接、Teams で仮想患者の訪問や別のプロバイダーとの相談を簡単に開始できます。 Microsoft 365 クラウド上に構築された Microsoft Teams は、HIPAA、HITECH 認定などへの準拠をサポートする単一のハブで、チャット、ビデオ、音声、およびヘルスケア ツールとのシンプルで安全なコラボレーションとコミュニケーションを可能にします。
+Microsoft Teams電子健康記録 (EHR) コネクタを使用すると、医師は eHR システムから直接 Teams で仮想患者の訪問や別のプロバイダーとの相談を簡単に開始できます。 Microsoft 365 クラウド上に構築された Microsoft Teams は、HIPAA、HITECH 認定などへの準拠をサポートする単一のハブで、チャット、ビデオ、音声、およびヘルスケア ツールとのシンプルで安全なコラボレーションとコミュニケーションを可能にします。
 Teams のコミュニケーションおよびコラボレーション プラットフォームにより、臨床医は断片化されたシステムの乱雑さを簡単に切り抜けることができるため、可能な限り最善のケアを提供するために時間を費やすことができます。 Microsoft Teams電子正常性レコード (EHR) コネクタでは、次の機能を使用できます。
 
 - 統合Teamsワークフローを使用して、プロバイダー EHR システムから仮想アクセスを開始します。
@@ -49,7 +49,7 @@ EHR コネクタを統合する前に、次の前提条件があることを確�
 
 - [Epic の App Orchard マーケットプレイス](https://apporchard.epic.com/Gallery?id=6153)で Microsoft Teams アプリを使用するためのアクセス。
 
-- EHR コネクタスタンドアロン オファー医療向け Microsoft CloudまたはサブスクリプションをMicrosoft Teamsアクティブなサブスクリプション (実稼働テスト中にのみ適用)。
+- EHR コネクタスタンドアロン オファー医療向け Microsoft CloudまたはサブスクリプションMicrosoft Teams有効なサブスクリプション (実稼働テスト中にのみ適用)。
 
 - ユーザーは Microsoft Teams 会議が含まれている Microsoft 365 または Office 365 の適切なライセンスを所有している必要があります。
 
@@ -179,4 +179,4 @@ Microsoft Teams EHR コネクタは、EHR システムから、識別可能な�
 
 ## <a name="related-topics"></a>関連項目
 
-[Teams仮想アクセス](ehr-admin-reports.md)
+[Teams EHR コネクタ管理者レポート](ehr-admin-reports.md)

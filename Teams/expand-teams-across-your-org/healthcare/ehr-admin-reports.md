@@ -1,5 +1,5 @@
 ---
-title: Teamsアクセスの詳細 - 管理者レポート
+title: Teamsアクセスの詳細 - EHR コネクタ管理者レポート
 author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
@@ -23,18 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: EHR コネクタのアクセスにTeamsレポートを表示する
-ms.openlocfilehash: 7ec22bdfd7a73ba39c9e94d0c65f2da6f1f5f973
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 256a93dc9e78036659eccf86c54d9da62f4277bb
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858764"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959886"
 ---
-# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft TeamsEHR コネクタの管理レポート
+# <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR コネクタ管理者レポート
 
-電子Microsoft Teams (EHR) コネクタの [管理レポート] ダイアログ ボックスでは、使用状況データのすばやく読み取りが容易になります。
+[Microsoft Teams電子正常性レコード (EHR) コネクタ管理者レポート] ダイアログ ボックスでは、使用状況データの表示がすばやく簡単に表示されます。
 
-[管理センター] ダッシュボードMicrosoft Teamsダイアログを表示すると、Microsoft Teams EHR コネクタ管理者レポートを表示できます。
+EHR コネクタ管理Teamsレポートを表示するには、Microsoft Teams 管理センター ダッシュボードに移動し、そこでダイアログを表示します。
 
 管理センター ダッシュボードからMicrosoft Teamsにアクセスします。
 
@@ -48,6 +48,7 @@ ms.locfileid: "60858764"
 
 レポート ダイアログを使用して、仮想アクセスを追加購入できます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
-[Teamsアクセスの詳細](ehr-admin.md)
+- [仮想アクセスと Teams - Cerner EHR への統合](ehr-admin-cerner.md)
+- [仮想アクセスと Teams - エピック EHR への統合](ehr-admin.md)
