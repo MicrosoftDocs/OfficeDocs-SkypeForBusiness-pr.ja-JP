@@ -1464,7 +1464,9 @@ items:
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
           - name: 仮想アクセス
             items:
-              - name: Teamsでの仮想アクセス - EHR への統合
+              - name: Teams での仮想アクセス - Cerner EHR への統合
+                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
+              - name: Teams での仮想アクセス - Epic EHR への統合
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EHR 管理者レポート
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md

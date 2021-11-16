@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: caabea3e1310ad704953171836dcdfb35506609a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432539"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960066"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>クイック スタート - 会議、ウェビナー、ライブ イベント 
 
@@ -51,9 +51,9 @@ Microsoft Teams では、会議、ウェビナー、ライブ イベントなど
 | ライブ イベント | 最大 20,000 人** |- 大規模な視聴者に配信。 <br>- 対象ユーザーの相互作用に対するモデレートされた Q&A。 <br> - 外部発表者を含むプロデューサーと発表者を指定できます。<br>- より高度な運用機能をサポートしています。 | いいえ |
 ||||
 
-*通常 10,000 人が、2021 年 12 月 31 日まで 20,000 人に増やされます。<br>
+*通常 10,000 人が、2022 年 6 月 30 日まで 20,000 人に増やされます。<br>
 
-**通常 10,000 人が、2021 年 12 月 31 日まで 20,000 人に増やされます。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](/stream/live-events-assistance) が必要であることにご留意ください。 
+**通常 10,000 人が、2022 年 6 月 30 日まで 20,000 人に増やされます。 Yammer や Microsoft Stream のライブ イベントを使用して、さらに多くの人数をスケジュールすることさえできます。 詳細については、「[Microsoft 365 全体でライブ イベントをする](/stream/live-event-m365)」を参照してください。 ただし、20,000 人を超える参加者のイベントには、[Live Events Assistance Program](/stream/live-events-assistance) が必要であることにご留意ください。 
 
 **大規模な会議、ウェビナー、ライブ イベントに関する考慮事項** - 大規模な会議を主催する場合は、以下の点を考慮してください。
 
