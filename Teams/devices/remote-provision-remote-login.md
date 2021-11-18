@@ -1,9 +1,8 @@
 ---
 title: Android デバイスのリモート プロビジョニングTeamsサインイン
-author: serdarsoysal
-ms.author: serdars
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: prgholve
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Android デバイスのリモート プロビジョニングとサインインを行うTeams説明します
-ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
+ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046153"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070151"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Android デバイスのリモート プロビジョニングTeamsサインイン
 
@@ -44,24 +43,24 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 |Teams電話|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams電話|  オーディオ コード C448HD/C450HD/C470HD|   1.10.120|
 |Teams パネル|  クレスロン 770/1070|  1.004.0115|
-|TeamsAndroid の会議室|Logitech Rally Bar Mini|1.2.982|
-|TeamsAndroid の会議室|Logitech Rally Bar|1.2.982|
-|TeamsAndroid の会議室|AudioCodes RXV80|1.13.361|
-|TeamsAndroid の会議室|EPOS EXPAND Vision 3T|1.2.2.21182.10|
-|TeamsAndroid の会議室|Yealink MeetingBar A30|133.15.0.60|
-|TeamsAndroid の会議室|Yealink MeetingBar A20|133.15.0.60|
-|TeamsAndroid の会議室|Yealink CTP18 タッチ コンソール|137.15.0.37|
-|TeamsAndroid の会議室|Poly Studio X30|3.5.0.344025|
-|TeamsAndroid の会議室|Poly Studio X50|3.5.0.344025|
-|TeamsAndroid の会議室|Poly TC8 タッチ コンソール |3.5.0.210489|
-|TeamsAndroid の会議室|Yealink VC210|118.15.0.54|
+|Teams Android の会議室|Logitech Rally Bar Mini|1.2.982|
+|Teams Android の会議室|Logitech Rally Bar|1.2.982|
+|Teams Android の会議室|AudioCodes RXV80|1.13.361|
+|Teams Android の会議室|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Teams Android の会議室|Yealink MeetingBar A30|133.15.0.60|
+|Teams Android の会議室|Yealink MeetingBar A20|133.15.0.60|
+|Teams Android の会議室|Yealink CTP18 タッチ コンソール|137.15.0.37|
+|Teams Android の会議室|Poly Studio X30|3.5.0.344025|
+|Teams Android の会議室|Poly Studio X50|3.5.0.344025|
+|Teams Android の会議室|Poly TC8 タッチ コンソール |3.5.0.210489|
+|Teams Android の会議室|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>デバイスの MAC アドレスを追加する
 
 新しいデバイスをプロビジョニングするには、次の手順を実行します。
 
 1. Teams 管理センターにサインインします。
-2. [デバイスTeams 展開 **します**。
+2. [デバイス **Teams 展開します**。
 3. [アクション **] タブから [新しい** デバイスのプロビジョニング **] を** 選択します。
 
 [新 **しいデバイスのプロビジョニング]** ウィンドウで、MAC アドレスを手動で追加するか、ファイルをアップロードできます。
@@ -81,7 +80,7 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 1. [アクティブ **化待ち]** タブで、[MAC **アップロード を選択します**。
 2. ファイル テンプレートをダウンロードします。
 3. MAC ID と場所を入力し、ファイルを保存します。
-4. **ファイル を選択** し、[ファイル]**をアップロード。**
+4. **ファイル を選択** し、 を **選択アップロード。**
 
 ## <a name="generate-a-verification-code"></a>確認コードを生成する
 
@@ -108,7 +107,7 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 
    ![サインイン ページのテナント名。](../media/provision-code.png)
 
-## <a name="sign-in-remotely"></a>リモートでサインインする
+## <a name="first-time-remote-sign-in"></a>初めてのリモート サインイン
 
 プロビジョニングされたデバイスが [サインインの待機中 **] タブに表示** されます。個々のデバイスを選択して、リモート サインイン プロセスを開始します。
 
@@ -120,7 +119,8 @@ IT 管理者は、Android デバイスを使用してリモートでプロビジ
 
    ![個々のデバイスの [ユーザーのサインイン] ウィンドウ。](../media/sign-in-user.png)
 
-## <a name="related-article"></a>関連記事
+## <a name="related-articles"></a>関連記事
 
 - [Teams でのデバイスの管理](device-management.md)
+- [リモート サインインとサインアウト](remote-sign-in-and-sign-out.md)
 - [デバイスTeamsをリモートで更新する](remote-update.md)
