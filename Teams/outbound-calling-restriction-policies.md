@@ -20,19 +20,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 管理者は、ユーザーが行える電話会議とエンド ユーザーの PSTN 通話の種類を制御できます。
-ms.openlocfilehash: 93f219feea677afe83c1c1dc031d6b878b219a45
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+description: 管理者は、ユーザーが行える電話会議とエンドユーザー PSTN 通話の種類を制御できます。
+ms.openlocfilehash: 43fda0e088cc0b7c29bd270d20f0701f0391f8ce
+ms.sourcegitcommit: 47f537a81659ec5ecb7dfdb57589fa133199ec57
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536878"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61066548"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
 管理者は、発信通話コントロールを使用して、組織内のユーザーが行える電話会議とエンドユーザーの公衆交換電話網 (PSTN) 通話の種類を制限できます。
 
-発信呼び出しコントロールは、ユーザー単位またはテナント単位で適用できます。次の 2 つのコントロールを提供して、各種類の送信呼び出しを個別に制限します。 既定では、両方のコントロールが国際発信通話と国内発信呼び出しを許可する設定になっています。
+発信呼び出しコントロールは、ユーザー単位またはテナント単位で適用できます。次の 2 つのコントロールを提供して、各種類の送信呼び出しを個別に制限します。 既定では、両方のコントロールが、国際および国内の発信呼び出しを許可する設定になっています。
 
 |コントロール|説明|コントロール オプション|
 |:-----|:-----|:-----|
@@ -42,7 +42,7 @@ ms.locfileid: "60536878"
 ゾーン A と見なされる国と地域を確認するには、「電話会議の国と [地域のゾーン」を参照してください](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > ダイヤルされた番号が会議の開催者 (電話会議の場合) またはエンド ユーザー (エンド ユーザー PSTN 通話の場合) に対して Microsoft 365 または Office 365 が設定されている国と同じ国にある場合、通話は国内通話と見なされます。
+   > ダイヤルされた番号が会議の開催者 (電話会議の場合) またはエンド ユーザー (エンド ユーザー PSTN 通話の場合) に設定されている Office 365 Microsoft 365国と同じ国にある場合、通話は国内と見なされます。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -75,7 +75,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 **次のコマンドレットを使用して、テナント レベルでポリシーを設定します**。
 
 ```powershell
-Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
 ダイヤルアウト ポリシーが割り当てられていないテナントのすべてのユーザーに、このポリシーが適用されます。 他のユーザーは、現在のポリシーのままです。
@@ -84,11 +84,11 @@ Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global
 
 |PowerShell コマンドレット|説明|
 |:-----|:-----|
-|Identity='tag:DialoutCPCandPSTNInternational'    |    会議のユーザーは、国際電話番号と国内番号にダイヤルアウトできます。また、このユーザーは、国際番号と国内番号への発信通話を発信できます。    |
+|Identity='tag:DialoutCPCandPSTNInternational'    |    会議のユーザーは、国際電話番号と国内番号にダイヤルアウトできます。また、このユーザーは、国際番号と国内番号への発信通話を行う場合にも使用できます。    |
 |Identity='tag:DialoutCPCDomesticPSTNInternational'  |    会議のユーザーは国内番号にのみダイヤルアウトできます。このユーザーは、国際番号と国内番号への発信通話を行います。    |
-|    Identity='tag:DialoutCPCDisabledPSTNInternational'    |    会議のユーザーがダイヤルアウトできない。このユーザーは、国際番号と国内番号に対して発信呼び出しを行います。    |
+|    Identity='tag:DialoutCPCDisabledPSTNInternational'    |    会議のユーザーがダイヤルアウトできない。このユーザーは、国際番号と国内番号への発信呼び出しを行います。    |
 |    Identity='tag:DialoutCPCInternationalPSTNDomestic'    |    会議のユーザーは国際番号と国内番号にダイヤルアウトできます。このユーザーは国内 PSTN 番号への発信通話のみを行います。    |
-|    Identity='tag:DialoutCPCInternationalPSTNDisabled'    |    会議のユーザーは国際番号と国内番号にダイヤルアウトできます。このユーザーは、緊急電話番号以外に PSTN 番号への発信通話を行う必要があります。    |
+|    Identity='tag:DialoutCPCInternationalPSTNDisabled'    |    会議のユーザーは国際電話番号と国内番号にダイヤルアウトできます。このユーザーは、緊急電話番号以外に PSTN 番号への発信通話を行う必要があります。    |
 |    Identity='tag:DialoutCPCandPSTNDomestic'    |    会議のユーザーは国内番号にのみダイヤルアウトできます。このユーザーは国内 PSTN 番号への発信通話のみを行います。    |
 |    Identity='tag:DialoutCPCDomesticPSTNDisabled'    |    会議のユーザーは国内番号にのみダイヤルアウトできます。このユーザーは、緊急電話番号以外に PSTN 番号への発信通話を行う必要があります。    |
 |    Identity='tag:DialoutCPCDisabledPSTNDomestic'    |    会議のユーザーはダイヤルアウトできないので、このユーザーは国内 PSTN 番号への発信通話のみを行います。    |
