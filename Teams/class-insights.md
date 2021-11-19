@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc920db842d37129a122ed69a8816e66a4c16d9e
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: ea57cc0f2a0809400376372952dfd7b274f40a02
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432449"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055418"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -175,6 +175,8 @@ Insights にアクセスするには、ユーザーは Microsoft 365 の A1、A3
 
 *Education Insights Premium* は、教育機関のリーダーに Education Insights データの組織レベルのビューを提供し、教師の履歴データ ビューへのアクセスを拡張する有料アップグレードです。 対象となる教育機関は、教育ソリューション加入契約 (EES)、クラウド サービス プロバイダー (CSP)、そして Microsoft 365 管理センター (Web ダイレクト) を通じて *Education Insights Premium* アドオン ライセンスを購入できます。
 
+Education Insights Premium アドオンは、テナント内のすべてのデジタル アクティブな学生のライセンスの購入に基づいて組織で利用できるようになります。
+
 ## <a name="student-information-system-sis-integration"></a>学生情報システム (SIS) への統合
 より多くのデータが Insights に提供されるほど、教師はより適切に学生をサポートでき、教育リーダーはより適切に教師をサポートできます。
 
@@ -269,3 +271,7 @@ Insights レポートで会議データを表示するには、最大 24 時間�
 
 > [!NOTE]
 > 質問にまだ回答がない場合は、[サポート チケットをオープン](https://aka.ms/edusupport)してください。 問題を示すスクリーンショットと、問題が発生した日付を含めます。 問題の解決に役立つと思われるデータを追加してください。
+
+### <a name="what-licenses-do-i-need-to-activate-education-insights-premium"></a>Education Insights Premium をアクティブにするにはどのようなライセンスが必要ですか?
+組織で Education Insights Premium を有効にするには、テナントは、組織のテナント内のデジタル アクティブな学生の数に基づいてライセンスを購入する必要があります。 つまり、会議、コミュニケーション、チャット、課題、ファイルの編集、クラス ノートブック、リフレクトなどのアクティビティの学校での作業の一部として Teams クラスを使用するすべての学生向けです。
+

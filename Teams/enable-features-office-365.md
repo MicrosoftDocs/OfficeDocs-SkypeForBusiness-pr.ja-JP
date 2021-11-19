@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a76559ea1ec140b18acbcc49f92b724a0e1bdc3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604456"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055428"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>組織の Microsoft Teams の設定を管理する
 
@@ -36,9 +36,9 @@ ms.locfileid: "58604456"
 
 詳細については、「[Teams でのアプリの管理設定](admin-settings.md)」をご覧ください。  
 
-## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams の組織全体の設定
+## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターでの Teams の外部アクセスとゲスト アクセスの設定
 
-Microsoft Teams 管理センターで、組織全体のユーザー設定を制御することができます。組織全体の設定を編集するには、Microsoft Teams 管理センターに移動して、**[Org-wide settings (組織全体の設定)]** を選択します。次の設定を構成することができます。
+Microsoft Teams 管理センターで外部アクセスとゲスト アクセスの設定を制御できます。 これらの設定を編集するには、Microsoft Teams 管理センターに移動し、**[ユーザー]** を選択します。 次の設定を構成できます。
 
 ### <a name="external-access"></a>外部アクセス
 
@@ -54,6 +54,10 @@ Microsoft Teams 管理センターで、組織全体のユーザー設定を制�
 ### <a name="guest-access"></a>ゲスト アクセス
 
 Microsoft Teams での **ゲスト アクセス** により、組織内のチームは組織外のユーザーにチームおよびチャネルへのアクセス権を付与することで、それらのユーザーと共同作業することができるようになります。Outlook、Gmail などの勤務先または通常のメール アカウントを持っているユーザーは、チーム チャット、会議、ファイルに完全なアクセス権を持つゲストとして Teams に参加することができます。詳細については、「[Guest access in Microsoft Teams (Microsoft Teams でのゲスト アクセス)](guest-access.md)」をご覧ください。
+
+## <a name="teams-settings-and-teams-upgrade-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの Teams 設定と Teams アップグレード設定
+
+Microsoft Teams 管理センターで Teams 設定と Teams アップグレード設定を制御できます。 これらの設定を編集するには、Microsoft Teams 管理センターに移動し、**[Teams]** を選択します。 次の設定を構成できます。
 
 ### <a name="teams-settings"></a>Teams の設定
 
@@ -102,11 +106,7 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 
 監視付きチャットを使用すると、組織や学校は役割ベースのアクセス許可を使用してチャット機能を制限できます。 これらのアクセス許可は、ユーザーが他のユーザーとチャットするときに必要な監視の量を制御します。 [監視付きチャット](supervise-chats-edu.md)の詳細をご覧ください。
 
-### <a name="skype-for-business"></a>Skype for Business
-
-このページを使用して、組織内の Skype for Business ユーザー向けの Skype for Business 機能を管理します。 詳細については、「[Microsoft Teams 管理センターで Skype for Business の設定を管理する](skype-for-business-settings.md)」を参照してください。
-
-### <a name="teams-upgrade"></a>Teams のアップグレード
+### <a name="teams-upgrade-settings"></a>Teams アップグレード設定
 
 これらの設定を使用して、自分たちのユーザーがどのように Skype for Business から Microsoft Teams にアップグレードするかを構成することができます。 
 
@@ -125,6 +125,7 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 
 ユーザーが Skype for Business の会議に参加するために使用するアプリを選ぶことができます (Skype for Business または [Skype 会議アプリ](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))。この設定は、共存モードの設定に依存しません。
 
+### <a name="planning-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの計画設定
 
 #### <a name="network-planner"></a>ネットワーク プランナー
 
@@ -132,6 +133,11 @@ Microsoft Teams の範囲指定ディレクトリ検索では、アドレス帳�
 
 [Skype for Business 向けにバックグラウンドで Teams アプリをダウンロードする] オプションも選択できます。  既定では、この設定は [オン] に設定されています。 この設定を有効にすると、Windows PC で Skype for Business アプリを実行しているユーザー向けに、バックグラウンドで Teams アプリがダウンロードされます。 この問題が発生するのは、ユーザーの [共存モード] が [チームのみ] になっているか、[保留中のアップグレード通知] が Skype for Business アプリで有効になっている場合です。
 
+## <a name="other-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターのその他の設定
+
+### <a name="skype-for-business"></a>Skype for Business
+
+このページを使用して、組織内の Skype for Business ユーザー向けの Skype for Business 機能を管理します。 詳細については、「[Microsoft Teams 管理センターで Skype for Business の設定を管理する](skype-for-business-settings.md)」を参照してください。
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>利用可能な機能を知る方法を教えてください。
 
