@@ -1641,6 +1641,8 @@ items:
             href: devices/device-management.md
           - name: リモート プロビジョニングとサインイン
             href: devices/remote-provision-remote-login.md
+          - name: リモート サインインおよびサインアウト
+            href: devices/remote-sign-in-and-sign-out.md
           - name: デバイスをリモートで更新する
             href: devices/remote-update.md
           - name: Teams デバイス タグを管理する

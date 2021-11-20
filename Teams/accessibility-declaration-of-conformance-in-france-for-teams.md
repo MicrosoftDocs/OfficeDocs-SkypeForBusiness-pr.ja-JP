@@ -20,20 +20,24 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intégre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée et collaborate. "
-ms.openlocfilehash: 00ad78c4c38865a242f303dc1a5900995906d649
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b366a21f278735c887f9c92a23f87e7217228218
+ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014581"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "61129877"
 ---
 # <a name="microsoft-teams-en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>Microsoft Teams: EN 301 549 Déclaration de conformité en matration d'accessibilité
 
-Date : 2 octobre 2018
+日付: 23 juin 2021
 
 Nom du produit : Microsoft Teams
 
-説明 du produit: Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intégre toutes les personnes, contenus et outils don't votre équipe a besoin pour être plus impliquée etの有効性。
+Description du produit : Microsoft Teams, Teams for Work et Microsoft Teams for Education sont des plateformes qui permettent à toutes les personnes de chatter, de créer des canaux, de suivre les activités, de partager des calendriers et de passer des appels/ faire des réunions, ainsi que d'utiliser une console d'administrateur.
+
+Cette déclaration de conformité ne couvre pas les extensions de fonctionnalités qui peuvent être installées et déployées au sein de la plateforme Teams (par exemple, les applications Office 365 telles que Word, PowerPoint, Excel, OneNote, les listes de fichiers de SharePoint SharePoint、et autres) は、font l'objet de déclarations de conformité distinctes dans les rapports de conformité des produits Microsoft.
+
+Remarque: Teams ne prend pas en charge tous les paramétres de Windows, mais prend en charge un zoom intégré jusqu'à 200 %.
 
 Plate-forme : Win32
 
@@ -43,10 +47,9 @@ Site web en matière d'accessibilité : [Microsoft Accessibility](https://www.mi
 
 Pour obtenir de l'aide sur ce rapport, veuillez [nous envoyer un email](mailto:edad@microsoft.com?subject=Conformance%20Statement).
 
-
 ## <a name="section-1-champ-dapplication"></a>セクション 1. アプリケーションを起動する
 
-La présente attestation de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en matuit d'accessibilité applicables](http://mandate376.standards.eu/standard/scope) aux produits et services TIC de Microsoft.
+La présente attestation de conformité à la norme [EN 301 549 v2.1.2](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) (PDF) [précise les exigences fonctionnelles en mat立 d'accessibilité applicables](http://mandate376.standards.eu/standard/scope) aux produits et services TIC de Microsoft.
 
 ## <a name="section-2-rfrences"></a>Section 2 Références
 
@@ -134,8 +137,8 @@ Cette section ne s'applique pas à Microsoft Teams.
 |**11.2.1.1.1 Clavier**<br/>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur et qui permet l'accaux claviers ou à une interface clavier, elle remplit les Crittés de Succté WCAG 2.1 indiqués dans le Tableau 2.1.1 Clavier.|Pris en charge avec des exceptions|<ul/><li>Le retour à l'appel à partir de la notification n'est pas pris en charge. Pour revenir à l'appel, il convient d'utiliser le moniteur d'appelêé dans la fenêtre principale de l'application.</li><li>Les infobulles d'écran n'apparaissent pas lorsque le clavier est centré sur les icônes.</li></ul>|
 |**11.2.1.16 Pas de piège au clavier**<br/>Si le focus du clavier peut être positionné sur un composant du logiciel à l'aide d'une interface clavier, réciproquement, il peut être déplacé hors de ce même composant simplement à l'aide d'une interface clavier et, si ce déplacement exige plus que l'utilisation d'une simple touche fléche ou tabulation ou toute autre méthode standard de sortie, l'utilisateur est informé de la méthode permettant de déplacer le focus hors de ce composant.|Pris en charge| |
 |**11.2.1.4.1 Raccourcis touches de caractère**<br/>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Crittés de Succté WCAG 2.1 indiqués dans le Tableau 2.1.4 Raccourcis touches de caractté.|Non évalué| |
-|**11.2.2.1 Réglage du délai**<br/>Pour chaque délai qui est fixé par le logiciel, au moins l'un des points suivants est vrai :<br/><ul><li>抑制: l'utilisateur est autorisé à supprimer la limite de temps suppression de la dépasser;ou</li><li>Ajustement: l'utilisateur est autorisé à ajuster la limite de temps param de la dépasser dans un intervalle d'au moins dix fois la durée paramétrée par défaut ;ou</li><li>延長: l'utilisateur est averti que la limite de temps n'expire et il lui est accordé au moins 20 secondes pour prolonger cette limite par une action simple (par exemple, « appuyer sur la barre d'espace ») et l'utilisateur est autorisé à prolonger la limite de temps au moins diins dix ; fox fois ;ou</li><li>L'exception du temps réel: la limite de temps est une partie constitutive d'un événement en temps réel (par exemple, une enchère) et aucune alternative n'est possible ;ou</li><li>L'exception de la limite essentielle: la limite de temps est essentielle et la prolonger invaliderait alors l'activité ;ou</li><li>L'exception des 20 heures : la limite de temps est supérieure à 20 heures.</li></ul>| Non applicable| |
-|**11.2.2.2 Mettre sur pause, arrêter, masquer**<br/>Pour toute information en mouvement, clignotante, défilante ou mise à jour automatiquement, tous les points suivants sont vrais :<br/><br/>Déplacement、 clignotement, défilement : pour toute information enoument, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée conjointement avec un autre contenu, l'utilisateur dispose d'un mécanisme pour la mettre en pause, l'arrêter ou la masquer, à moins que le movement, le clignotement ou le défilement s'avlé un élément essentiel au bon déroulement de l'activité ;et<br/><br/>Mise à jour automatique: pour toute information mise à jour automatiquement qui (1) démarre automatiquement et (2) est présentée conjointement avec un autre contenu, l'utilisateur dispose d'un mécanisme pour la mettre en pause, l'arrêter ou pour contréler la fréquence des mises à jour à moins que la mise à jour automatique s'avelle essentielle au bon déroulement de l'activité.|Pas pris en charge|L'arrêt des GIF animés n'est pas pris en charge|
+|**11.2.2.1 Réglage du délai**<br/>Pour chaque délai qui est fixé par le logiciel, au moins l'un des points suivants est vrai :<br/><ul><li>抑制: l'utilisateur est autorisé à supprimer la limite de temps suppression de la dépasser;ou</li><li>Ajustement: l'utilisateur est autorisé à ajuster la limite de temps la dépasser dans un intervalle d'au moins dix fois la durée paramétrée par défaut ;ou</li><li>延長: l'utilisateur est averti que la limite de temps n'expire et il lui est accordé au moins 20 secondes pour prolonger cette limite par une action simple (par exemple, « appuyer sur la barre d'espace ») et l'utilisateur est autorisé à prolonger la limite de temps au moins diins dix fois ;ou</li><li>L'exception du temps réel: la limite de temps est une partie constitutive d'un événement en temps réel (par exemple, une enchère) et aucune alternative n'est possible ;ou</li><li>L'exception de la limite essentielle: la limite de temps est essentielle et la prolonger invaliderait alors l'activité ;ou</li><li>L'exception des 20 heures : la limite de temps est supérieure à 20 heures.</li></ul>| Non applicable| |
+|**11.2.2.2 Mettre sur pause, arrêter, masquer**<br/>Pour toute information en mouvement, clignotante, défilante ou mise à jour automatiquement, tous les points suivants sont vrais :<br/><br/>Déplacement、 clignotement, défilement : pour toute information enoument, clignotante ou défilante qui (1) démarre automatiquement, (2) dure plus de cinq secondes et (3) est présentée conjointement avec un autre contenu, l'utilisateur dispose d'un mécanisme pour la mettre en pause, l'arrêter ou la masquer, à moins que le movement, le clignotement ou le défilement s'avlé un élément essentiel au bon déroulement de l'activité;et<br/><br/>Mise à jour automatique: pour toute information mise à jour automatiquement qui (1) démarre automatiquement et (2) est présentée conjointement avec un autre contenu, l'utilisateur dispose d'un mécanisme pour la mettre en pause, l'arrêter ou pour contrôler la fréquence des mises à jour à moins que la mise à jour automatique s'avelle essentielle au bon déroulement de l'activité.|Pas pris en charge|L'arrêt des GIF animés n'est pas pris en charge|
 |**11.2.3.1 Pas plus de trois flashs ou sous le seuil critique**<br/>Le logiciel est exempt de tout élément qui flashe plus de trois fois dans n'importe quel intervalle d'une seconde ou ce flash doit se sous le siel de flash générique et le sique de flash rouge.|Pris en charge| |
 |**11.2.4.3 Parcours du focus**<br/>Si un logiciel peut être parcouru de façon séquentielle et que les séquences de navigation affectent la signification ou l'action, les éléments reçoivent le focus dans un ordre qui préserve la signification et l'opérabilité.|Pris en charge| |
 |**11.2.4.4 Fonction du lien (selon le contexte)**<br/>Dans le cas où la TIC est un logiciel non-web qui est doté d'une interface utilisateur, elle remplit les Crittés de Succté WCAG 2.1 indiqués dans le Tableau 2.4.4 Fonction du lien (selon le contexte)。|Pris en charge| |    
@@ -195,14 +198,13 @@ Cette section ne s'applique pas à Microsoft Teams.
 
 Cette section ne s'applique pas à Microsoft Teams.
 
+&copy; 2021 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l’opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication. Microsoft ne peut garantir l’exactitude d’une information présentée après la date de publication. Microsoft met régulièrement à jour ses sites Internet et publie de nouvelles informations sur l’accessibilité de ses produits dès qu’elles sont disponibles.
 
-&copy; 2019 Microsoft Corporation. Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriétaires respectifs. Les informations qui figurent dans le présent document constituent l'opinion actuelle de Microsoft Corporation sur les thémes concernés à la date de publication. Microsoft ne peut garantir l'exactitude d'une information présentée aprée la date de publication. Microsoft は、régulellement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dré qu'elles sont disponibles.
+La personnalisation du produit annule la présente déclaration de conformité de Microsoft. Les clients ont la possibilité de faire des déclarations de conformité indépendantes s’ils ont contrôlé avec toute la diligence raisonnable nécessaire que les mesures de personnalisation qu’ils ont prises remplissent toutes les exigences.
 
-La personnalisation du produit annule la présente déclaration de conformité de Microsoft. Les clients ont la possibilité de faire des déclarations de conformité indépendantes s'ils ont contrélé avec toute la diligence raisonnable nécessaire que les mesures de personnalisation qu'ils ont prises remplissent toutes les exigences.
+Pour en savoir plus sur les spécifications de compatibilité de produits de technologie d’assistance spécifiques, consultez vos fournisseurs de technologies d’assistance. 
 
-Pour en savoir plus sur les spécifications de compatibilité de produits delogie d'assistance spécifiques, consultez vos fournisseurs de technologies d'assistance. 
-
-Le présent document n'est pas la norme EN 301 549 v 2.1.2 (2018-08) et ne doit pas être utilisé en remplacement de celle-ci. Les extraits de la norme EN 301 549 v 2.1.2 qu'il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses dispositions. un exemplaire complet de la norme EN 301 549 v 2.1.2 (2018-08) est disponible émanant de l'European Telecommunications Standards Institute (ETSI)、du Comité Européen de Normalisation et du Comité Européen de Normalisation Électrotechnique.
+Le présent document n’est pas la norme EN 301 549 v 2.1.2 (2018-08) et ne doit pas être utilisé en remplacement de celle-ci. Les extraits de la norme EN 301 549 v 2.1.2 qu’il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses dispositions. Un exemplaire complet de la norme EN 301 549 v 2.1.2 (2018-08) est disponible émanant de l’European Telecommunications Standards Institute (ETSI), du Comité Européen de Normalisation et du Comité Européen de Normalisation Électrotechnique.
 
 Le présent document est fourni à titre indicatif. MICROSOFT NE FOURNIT AUCUNE GARANTIE, EXPRESSE OU TACITE, DANS LE PRÉSENT DOCUMENT.
 
