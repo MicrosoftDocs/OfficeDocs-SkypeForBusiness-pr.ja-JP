@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2e598a44fade1805824354606229668fb3494d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850580"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124244"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -44,8 +44,6 @@ MSI ファイルへのリンクを次に示します。
 **展開を成功させるには、次の点に注意してください:**
 
 - 64 ビット版の Teams を 64 ビット オペレーティング システムにインストールします。 64 ビット版の Teams を 32 ビット オペレーティング システムにインストールしようとすると、インストールは成功せず、現在、エラー メッセージは表示されません。
-
-- お客様のテナントが GCCH または DoD クラウド上にある場合、お客様は、レジストリの **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams** キーに **CloudType** 値を追加して、レジストリの初期エンドポイントを設定する必要があります。 **CloudType** の種類は **DWORD** で、値は (0 = 未設定、1 = 商用、2 = GCC、3 = GCCH、4 = DOD) です。 レジストリ キーを使用してエンドポイントを設定すると、Teams は、Teams との事前サインイン接続のため、正しいクラウド エンドポイントに接続するように制限されます。
 
 - Teams は、Microsoft 365 Apps for enterprise の展開に含まれる場合があります。 詳細については、「[Microsoft 365 Apps for enterprise で Microsoft Teams を展開する](/deployoffice/teams-install)」をご覧ください。
 

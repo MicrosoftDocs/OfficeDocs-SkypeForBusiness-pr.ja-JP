@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 参加者とゲストの会議ポリシー設定Teamsを管理する方法について学習します。
-ms.openlocfilehash: 2c87434aa198169854e59b6a2a93ed9ceed9cd2f
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: aab9dda3f0a6bd5674cde2614fbbe0987292d6bf
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055358"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124234"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 
@@ -40,6 +40,7 @@ ms.locfileid: "61055358"
 
 > [!NOTE]
 >会議に参加するためのオプションは、各 Teams グループの設定および接続方法によって異なります。 グループに電話会議があり、それを使用して接続する場合は、「[電話会議](/microsoftteams/audio-conferencing-in-office-365)」を参照してください。 Teams グループに電話会議がない場合は、「[Teams で会議に参加](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)」を参照してください。
+
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>匿名ユーザーが会議を開始できるようにする
 

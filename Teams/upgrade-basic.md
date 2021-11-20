@@ -1,5 +1,5 @@
 ---
-title: アップグレード のチェックリスト|SkypeBusiness to Teams Upgrade |基本的な手順
+title: アップグレード のチェックリスト|Skype Business を使用Teamsアップグレード|基本的な手順
 author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: この 10 ステップの高速アクション プランに従って、基本設定からSkype for Businessセットアップに移行Microsoft Teamsします。
+description: この高速な 10 ステップのアクション プランに従って、基本的な設定Skype for BusinessセットアップからMicrosoft Teamsに移行します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -23,28 +23,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c0017169ce8cb96b9c8ea1ba871eb9e21101025
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1a06c4783e9ee4f42473e6b08f0d9bd51c142ddf
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851641"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124254"
 ---
 # <a name="upgrade-basic"></a>Basic のアップグレード
 
 <a name="about-upgrade-basic"></a>
 
-小規模な組織や、IM (チャット) および会議専用の Skype for Business Online を使用しているユーザー向けに設計された Upgrade Basic チェックリストは、Skype for Business から Teams への移行を成功に向け、コア、推奨されるアクティビティ、関連リソースを含む高速アクション プランです。
+小規模な組織や、IM (チャット) および会議にのみ Skype for Business Online を使用しているユーザー向けに設計された Upgrade Basic チェックリストは、Skype for Business から Teams への移行を成功に移す際のコア、推奨されるアクティビティ、関連リソースを含む高速アクション プランです。
 
 この 10 の簡単な手順は、アップグレードを成功するために必要なすべてを提供します。 これらは約 30 ~ 45 日で完了するように設計されています。ただし、組織のアップグレード スケジュールに基づいてタスクの完了日を調整する必要があります。
 
 > [!IMPORTANT]
-> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止されます。 その後、Skype for Business Online サービスにアクセスしたりサポートしたりしなくなりました。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。
+> Skype for Business Online は、2021 年 7 月 31 日に廃止されます。 その後、Skype for Business Online サービスにアクセスしたりサポートしたりしなくなりました。 移行によるメリットを最大限に高め、アップグレード実施のための時間を組織で十分確保できるよう、Microsoft Teams への移行をすぐに開始することをお勧めします。
 
 アップグレード後Skype for Businessは何が起こりますか? ユーザーが Teams にアップグレードされた後 (**Teams のみ** モード) は次のようになります:
 
-- そのSkype for Businessクライアントが無効になり、すべてのチャットと通話が Teams。 これにより、デスクトップ上のクライアントはアンインストールされないので注意してください。
-- アップグレードSkype for Business前にスケジュールされていた会議は設計通り動作しますが、すべての新しい会議は、Teams。 このSkype for Businessプラグインは、このプラグインでは使用Outlook。 
+- そのSkype for Businessクライアントが無効になり、すべてのチャットと通話がTeams。 これにより、デスクトップ上のクライアントはアンインストールされないので注意してください。
+- アップグレードSkype for Business前にスケジュールされた会議は設計通り動作しますが、すべての新しい会議は、Teams。 このSkype for Businessプラグインは、Outlook で使用Outlook。 
 - ユーザーが Skype for Business にサインインしようとして、クライアントからユーザーにアップグレードされたという通知を受け取Teams。
 - ユーザーは、モバイル デバイス上のSkype for Businessクライアントを手動でアンインストールする必要があります。
 
@@ -76,10 +76,10 @@ ms.locfileid: "60851641"
 
 *(アップグレードの約 4 ~ 6 週間前)*
 
-Teams、IM Skype for Business会議など、互換性のある機能を提供しますが、さらに多くの機能を利用できます。 チームワークの真のハブとして、Teamsワークグループがプロジェクト、ファイル、会話、アプリを 1 つの場所ですべて管理できます。 既定では、Teams はすべての組織でオンになります。 組織でアプリケーションを使用する方法を決定Teams、成功のために環境を構成します。 
+Teams、IM Skype for Business会議など、互換性のある機能を提供しますが、さらに多くの機能を利用できます。 チームワークの真のハブとして、Teamsワークグループがプロジェクト、ファイル、会話、アプリを 1 つの場所ですべて管理できます。 既定では、Teams はすべての組織でオンになります。 組織でアプリケーションを使用する方法を決定Teams環境を成功に向け構成します。 
 
 > [!Note]
-> 既存の顧客Skype for Business、現在のネットワーク インフラストラクチャが既に構成Teams。 これを確認するには、以下にリンクされている「完全な技術計画」のガイダンスに従ってください (これは省略可能です)。
+> 既存の顧客Skype for Business、現在のネットワーク インフラストラクチャが既に構成されている可能性が高Teams。 これを確認するには、以下にリンクされている「完全な技術計画」のガイダンスに従ってください (これは省略可能です)。
 
 **リソース:**
 
@@ -92,7 +92,7 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 <a name="step-3"></a>
 
-## <a name="step-3-know-your-skype-for-business-users"></a>手順 3. ユーザーをSkype for Businessする
+## <a name="step-3-know-your-skype-for-business-users"></a>手順 3. 自分のユーザーをSkype for Businessする
 
 *(アップグレードの約 4 週間前)*
 
@@ -120,7 +120,7 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 **リソース:**
 
 - [組織のMicrosoft Teams の設定を管理する](enable-features-office-365.md)
-- [サンプル メール: ユーザーに関するユーザーへのお知Skype for Business](upgrade-emails-surveys.md#step-4-email)
+- [電子メールのサンプル: ユーザーに関する通知Skype for Business](upgrade-emails-surveys.md#step-4-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
@@ -132,7 +132,7 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 *(アップグレードの約 1 週間前)*
 
-管理ポータルでユーザーのアップグレード通知を有効にすることで、ユーザーが Skype for Business から Teams にアップグレードされるという視覚的なアラートを Skype for Business クライアントで提供することで、アップグレードの勢いを維持します。
+管理ポータルでユーザーのアップグレード通知を有効にすることでアップグレードの勢いを維持し、Skype for Business クライアントでユーザーが Skype for Business から Teams にアップグレードされるという視覚的なアラートを提供します。
 
 **リソース:**
 
@@ -148,7 +148,7 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 *(アップグレードの約 5 日前)*
 
-ユーザーは毎日の責任に取り組む必要があります。 保留中のアップグレードを通知すると、アップグレードの準備に必要な手順を忘れTeams。 これは、利用可能なトレーニングと、新しいトレーニングを開始する方法についてユーザーに知Teams。
+ユーザーは毎日の責任に取り組む必要があります。 保留中のアップグレードを通知すると、アップグレードの準備に必要な手順を忘れTeams。 これは、利用可能なトレーニングと、トレーニングの開始方法についてユーザーに通知する最適なTeams。
 
 **リソース:**
 
@@ -160,18 +160,18 @@ Teams、IM Skype for Business会議など、互換性のある機能を提供し
 
 <!--ENDOFSECTION-->
 
-## <a name="step-7-upgrade-users-to-teams"></a>手順 7. ユーザーをアップグレードしてTeams。
+## <a name="step-7-upgrade-users-to-teams"></a>手順 7. ユーザーをアップグレードしてTeams!
 
 *(アップグレード日)*
 
-今日は、組織が通信およびコラボレーション ソリューションとしてTeamsにアップグレードする日です。 管理センター Microsoft Teams、共存モードを [のみ] に設定して、アップグレード **スイッチTeamsします**。 (管理センターで、[組織全体]**ページに移動設定**  > **Teams アップグレード .)** ユーザーは、クライアントにSkype for Businessアップグレードされたという通知を受信Teams。
+今日は、組織が通信およびコラボレーション ソリューションとしてTeamsにアップグレードする日です。 管理センター Microsoft Teams、共存モードを [のみ] に設定して、アップグレード **スイッチTeamsします**。 (管理センターで、[アップグレード設定 **] Teams Teams**  >  **に移動します**)。ユーザーは、自分のクライアントSkype for Businessにアップグレードされたという通知を受け取Teams。
 
-すべてのユーザーがアップグレードされた後、すべてのユーザーを歓迎するメールを送信Teams。
+すべてのユーザーがアップグレードされた後、すべてのユーザーを歓迎する電子メールを送信Teams。
 
 **リソース:**
 
 - [共存およびアップグレードの設定](setting-your-coexistence-and-upgrade-settings.md)
-- [サンプル メール: ユーザーをメールにTeams](upgrade-emails-surveys.md#step-7-email)
+- [電子メールの例: ユーザーをメールにTeams](upgrade-emails-surveys.md#step-7-email)
 
 [ページのトップへ](#about-upgrade-basic)
 
