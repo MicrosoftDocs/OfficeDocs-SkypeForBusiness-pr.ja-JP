@@ -369,8 +369,6 @@ items:
                 href: view-guests.md
               - name: ゲスト情報を編集する
                 href: edit-guests-information.md
-              - name: ゲスト アクセスのトラブルシューティング
-                href: troubleshoot-guest-access.md
       - name: 通話品質を監視および管理する
         items:
           - name: 通話品質を監視および改善する
