@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 6cf78791a1ece16a3a90b096271210b88d356f23
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
+ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124284"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "61129867"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -35,11 +35,14 @@ ms.locfileid: "61124284"
 
 2021 年 11 月の時点で、管理者は、特定のユーザーまたはユーザーのグループが匿名ユーザーを自分が開催する会議に参加させることができるかどうかを制御することもできます。 この開催者ごとのポリシーは、管理者が Teams 管理センターで管理する以下の組織全体の匿名ユーザーの設定よりも制限が厳しく、上書きされます。
 
+> [!Important]
+ > **-DisableAnonymousJoin** は、組織全体のポリシー設定です。 将来的には非推奨になり、開催者ごとのポリシーが匿名参加を制御する唯一の方法になります。
+
 ## <a name="allow-anonymous-users-to-join-meetings"></a>匿名ユーザーによる会議への参加を許可する
 
-匿名参加を許可した場合、会議への招待状に含まれるリンクをクリックすると、誰でも匿名ユーザーとして会議に参加することができます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。
+匿名参加を許可した場合、会議への招待状に含まれるリンクをクリックすると、誰でも匿名ユーザーとして会議に参加することができます。 詳細については、「[Teams のアカウントなしに会議に参加する](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)」を参照してください。 2 つの異なるポリシー設定を使用して、組織レベルで、または会議の開催者ごとに、匿名ユーザーが会議に参加する機能を制御できます。
 
- ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
+ ### <a name="using-the-microsoft-teams-admin-center-to-configure-organization-wide-policy"></a>Microsoft Teams 管理センターを使用して組織全体のポリシーを構成する
 
 これらの変更を行うには、Teams 管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
@@ -54,9 +57,9 @@ ms.locfileid: "61124284"
 > [!CAUTION]
 > 組織のユーザーがスケジュールを行った会議に匿名ユーザーを参加させないようにするには、この設定をオフにします。
 
-### <a name="using-powershell"></a>PowerShell の使用
+### <a name="using-powershell-to-configure-per-organizer-policy"></a>PowerShell を使用して開催者ごとのポリシーを構成する
 
-管理者は、特定のユーザーまたはユーザーのグループが匿名ユーザーを自分が開催する会議に参加させることができるかどうかを制御できるようになりました。 この新しい開催者ごとのポリシーは、[Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) の **-AllowAnonymousUsersToJoinMeeting** パラメーターを使用して制御されます。 これは、Teams PowerShell バージョン 2.6.0 以降に付属しています。
+管理者は、特定のユーザーまたはユーザーのグループが匿名ユーザーを自分が開催する会議に参加させることができるかどうかを制御できるようになりました。 この新しい開催者ごとのポリシーは、[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) の **-AllowAnonymousUsersToJoinMeeting** パラメーターを使用して制御されます。 これは、Teams PowerShell バージョン 2.6.0 以降に付属しています。
 
 匿名参加を管理するには、組織全体または開催者ごとのポリシーを使用できます。 開催者ごとのポリシーを実装することをお勧めします。 組織全体のポリシー設定は将来廃止される予定であり、開催者ごとのポリシーが匿名参加を制御する唯一の方法になります。
 
@@ -67,7 +70,7 @@ ms.locfileid: "61124284"
 
 その他の値の組み合わせは、匿名ユーザーが会議に参加するのを防ぎます。
 > [!NOTE]
-> 組織ごとに匿名参加がオフになっている組織に開催者ごとのポリシーを使用するには、管理者はポリシーを作成し、ユーザーに割り当てる必要があります。 これを行う方法については、「[Microsoft Teams での会議ポリシーの管理](https://docs.microsoft.com/microsoftteams/meeting-policies-overview)」を参照してください。
+> 組織ごとに匿名参加がオフになっている組織に開催者ごとのポリシーを使用するには、管理者はポリシーを作成し、ユーザーに割り当てる必要があります。 これを行う方法については、「[Microsoft Teams での会議ポリシーの管理](/microsoftteams/meeting-policies-overview)」を参照してください。
 
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>匿名ユーザーが会議でアプリを操作できるようにする
