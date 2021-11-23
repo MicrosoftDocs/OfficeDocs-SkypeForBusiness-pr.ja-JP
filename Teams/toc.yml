@@ -99,7 +99,7 @@ items:
                 href: hardware-requirements-for-the-teams-app.md
               - name: ハードウェア デコーダー/エンコーダー ドライバーの推奨事項
                 href: hardware-decoders-and-encoders.md
-              - name: MSI を使用した Teams のインストール
+              - name: Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
                 href: msi-deployment.md
               - name: 組織で Teams を有効にする
                 href: Office-365-set-up.md
