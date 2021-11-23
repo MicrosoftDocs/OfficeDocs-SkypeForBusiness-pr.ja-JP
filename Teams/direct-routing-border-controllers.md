@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 97f8ffbf6613ca4106a68284c8e889375a7b0feb
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275581"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135200"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
@@ -37,7 +37,7 @@ Microsoft は以下の各ベンダーと協力します。
 - SBC ベンダーとの共同サポート プロセスを確立します。
 
   > [!NOTE]
-  > Microsoft は、認定済みの 1 つまたは複数のデバイスがダイレクト ルーティング経由で接続されている電話システムのみをサポートします。 Microsoft は、認定済みでないデバイスがダイレクト ルーティング経由で電話システムに接続されている場合に、サポート ケースを拒否する権利を留保します。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを依頼する必要があります。
+  > Microsoft は、認定済みの 1 つまたは複数のデバイスがダイレクト ルーティング経由で接続されている電話システムのみをサポートします。 問題が発生した場合は、最初に SBC ベンダーのカスタマー サポートにお問い合わせください。 必要に応じて、SBC ベンダーは内部チャネルを介して問題を Microsoft にエスカレートします。 Microsoft は、認定済みでないデバイスがダイレクト ルーティング経由で電話システムに接続されている場合に、サポート ケースを拒否する権利を留保します。 お客様のダイレクト ルーティングの問題がベンダーの SBC デバイスにあると Microsoft が判断した場合、お客様は SBC ベンダーにサポートを再び依頼する必要があります。
   >
   > 認定は、特定の SBC ファームウェア バージョンに付与されます。 以下に記載されている SBC ファームウェア バージョンは、すべて認定済みであり、サポートされています。 major.minor バージョンが同じであれば、記載されているバージョンよりも高いファームウェア バージョンがサポートされます。
   >
