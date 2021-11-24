@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: このトピックでは、Exchange OnlineとSkype for Business Serverオンプレミス を使用して Microsoft Teams Rooms を展開する方法について説明します。
-ms.openlocfilehash: e1331526660b928b49beeebf2e70e2552afdacd8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e80da026164fc2b1feba3d03c220e4622454e49
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636661"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153290"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams Rooms を展開
 
@@ -71,7 +71,7 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
 
    ``` Powershell
    Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>オンプレミスのドメインアカウントのメールアドレスを追加する
@@ -102,7 +102,7 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
 
 2. ユーザーアカウントは、Exchange と Skype for Business Serverが正常に機能するように、有効な Microsoft 365 または Office 365 ライセンスを持っている必要があります。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。 課題は次の手順で行います。
 3. 次に、`Get-MsolAccountSku`を使用します。  <!--Get-AzureADSubscribedSku--> Microsoft 365 または Office 365の 組織で使用でき SKU の一覧を取得します。
-4. SKUの一覧が表示された場合は、`Set-MsolUserLicense`を使用してライセンスを追加できます <!-- Set-AzureADUserLicense--> コマンドレット この例では、表示される SKU コードは$strLicenseです (たとえば、contoso: STANDARDPACK )。 
+4. SKUの一覧が表示された場合は、`Set-MsolUserLicense`を使用してライセンスを追加できます <!-- Set-AzureADUserLicense--> コマンドレット この例では、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。 
 
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
@@ -118,7 +118,7 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>Skype for Business Server でユーザー アカウントを有効にする
 
 > [!NOTE]
-> [会議室] をTeams会議にのみ参加Microsoft Teams場合は、次の手順を実行する必要があります。 次の手順は、アプリケーションのサポートを有効にする場合にのみSkype for Business。
+> 会議にのみ参加Teams会議室をMicrosoft Teams場合は、次の手順を実行する必要があります。 次の手順は、アプリケーションのサポートを有効にする場合にのみSkype for Business。
 
 1. PC からリモートの Windows PowerShell セッションを作成するには、次のようにします。
 
@@ -149,7 +149,7 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Microsoft Teams Rooms のアカウントに Skype for Business Server のライセンスを割り当てる
 
 > [!NOTE]
-> [会議室] をTeams会議にのみ参加Microsoft Teams場合は、次の手順を実行する必要があります。 次の手順は、アプリケーションのサポートを有効にする場合にのみSkype for Business。
+> 会議にのみ参加Teams会議室をMicrosoft Teams場合は、次の手順を実行する必要があります。 次の手順は、アプリケーションのサポートを有効にする場合にのみSkype for Business。
 
 1. テナント管理者としてログインし、Microsoft 365 管理センターを開き、Admin アプリをクリックします。
 2. [ **ユーザーとグループ**] をクリックし [ **ユーザーの追加]、[パスワードのリセット]、およびその他の** をクリックします。

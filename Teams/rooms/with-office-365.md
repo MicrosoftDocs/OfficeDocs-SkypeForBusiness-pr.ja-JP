@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: このトピックでは、Microsoft 365 または Office 365 を使用して Microsoft Teams Rooms を展開する方法について説明します。Teams または Skype for Business と Exchange はどちらもオンラインです。
-ms.openlocfilehash: cf323332b6c9b7742a2a10a12017553f462b8619
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 948287d8a5711e1643605d147d1b25b28d764a42
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846080"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153300"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する
 
@@ -98,17 +98,17 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    - AddAdditionalResponse: $true (AdditionalResponse パラメーターで指定されたテキストが会議出席依頼に追加されます。)
 
-   - AdditionalResponse: "これは Skype 会議室です。" (会議出席依頼に追加するテキスト)。
+   - AdditionalResponse: "This is a Microsoft Teams Meeting room!" (会議出席依頼に追加するテキスト)。
 
    この例では、Rigel-01 という名前の会議室メールボックスでこれらの設定を構成します。
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity "Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    構文とパラメーターの詳細については、「[Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
-4. Connect MS Online PowerShell に移動し、PowerShell コマンドレットを実行して Active Directory `Connect-MsolService -Credential $cred` の設定を行います。 Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。
+4. Connect MS Online PowerShell に移動して、Active Directory の設定を行います。 `Connect-MsolService -Credential $cred`PowerShell コマンドレット。 Active Directory の詳細については、「[Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)」を参照してください。
 
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。
@@ -175,14 +175,14 @@ Skype for Business Online プランの詳細については、「[Skype for Busi
 
    詳細な手順については、「[Office 365 PowerShell を使用してライセンスをユーザー アカウントに割り当てる](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)」を参照してください。
 
-   このアカウントに電話システム機能を追加することもできますが、最初に構成する必要があります。 詳細[については、「電話システムの](../what-is-phone-system-in-office-365.md)詳細」を参照してください。 この例では、PSTN 国内通話プランと国際通話プランを追加します。
+   このアカウントに電話システム機能を追加することもできますが、最初に構成する必要があります。 詳細については[、「電話システムの](../what-is-phone-system-in-office-365.md)詳細」を参照してください。 この例では、PSTN 国内通話プランと国際通話プランを追加します。
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
    ```
 
     > [!NOTE]
-    > 会議にネイティブTeams参加Microsoft Teams会議室を構成する場合は、次の手順に進む必要があります。 以下は、オンプレミスのアプリケーションのサポートも有効にする場合Skype for Business必要です。
+    > 会議にネイティブTeams参加のみを行Microsoft Teams会議室を構成する場合は、次の手順に進む必要があります。 以下は、オンプレミスのアプリケーションのサポートも有効にする場合Skype for Business必要です。
 
 7. オンプレミスでデバイス アカウントを有効Skype for Business、環境が Microsoft Teams Rooms の要件 で定義されている要件[を満たしていることを確認します](requirements.md)。
 

@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
-ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
+ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "61129867"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153310"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
 管理者は Teams 会議の設定を使用することにより、Teams 会議への匿名ユーザーの参加可否、会議への招待状のカスタマイズ、およびサービスの品質 (QoS) をオンにするかどうかの制御を行え、リアルタイム トラフィックのポート範囲を設定することができます。 これらの設定は、組織のユーザーがスケジュールするすべての Teams 会議に適用されます。 これらの設定は、Microsoft Teams 管理センターの [**会議**] > [**会議設定**] から管理します。
 
-2021 年 11 月の時点で、管理者は、特定のユーザーまたはユーザーのグループが匿名ユーザーを自分が開催する会議に参加させることができるかどうかを制御することもできます。 この開催者ごとのポリシーは、管理者が Teams 管理センターで管理する以下の組織全体の匿名ユーザーの設定よりも制限が厳しく、上書きされます。
+管理者は、開催者ごとのポリシー設定を通じて、特定のユーザーまたはユーザーのグループが匿名ユーザーを自分が開催する会議に参加させることができるかどうかを制御できるようになりました。 開催者ごとのポリシー設定と組織全体のポリシー設定は、両方とも匿名参加を制御し、より制限が厳しい設定が有効になります。
 
 > [!Important]
  > **-DisableAnonymousJoin** は、組織全体のポリシー設定です。 将来的には非推奨になり、開催者ごとのポリシーが匿名参加を制御する唯一の方法になります。
