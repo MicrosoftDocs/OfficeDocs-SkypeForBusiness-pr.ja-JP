@@ -1,5 +1,5 @@
 ---
-title: 通話品質ダッシュボード (CQD) とは
+title: 通話品質ダッシュボード (CQD) とは?
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -22,41 +22,41 @@ ms.custom:
 - Reporting
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: 通話品質ダッシュボード (CQD) と、このダッシュボードを使用して、通話品質に関するレポートを表示する方法についてMicrosoft Teams。
+description: 通話品質ダッシュボード (CQD) と、それを使用して Microsoft Teams の会議と通話品質に関するレポートを表示する方法について説明します。
 ms.openlocfilehash: f87f8184b0417d04206d31780392f21dca387d10
 ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/11/2021
 ms.locfileid: "60909558"
 ---
-# <a name="what-is-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) とは
+# <a name="what-is-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) とは?
 
-Microsoft 通話品質ダッシュボード (CQD) [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) - Microsoft Teams、Skype for Business Online、および Skype for Business Server 2019 の通話と会議の品質を組織全体で表示します。 
+Microsoft 通話品質ダッシュボード (CQD) - [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) - Microsoft Teams、Skype for Business Online、Skype for Business Server 2019 に関する通話と会議の品質を **組織全体レベル** で表示します。 
 
   
-最新バージョンの CQD では、ほぼリアルタイム [(NRT)](CQD-data-and-reports.md)のデータ フィードが備わっています。つまり、呼び出しの終了から 30 分以内に CQD で通話レコードを利用できます。
+最新バージョンの CQD は、[near-real-time (NRT) データ フィード](CQD-data-and-reports.md)を備えています。つまり、通話レコードは、呼び出しの終了から 30 分以内に CQD で使用できます。
 
-CQD にエンド ユーザー識別可能な[情報 (EUII)](CQD-data-and-reports.md#euii-data)データが含まれる場合は、 全体を通じて EUII と同じ方法[で管理Microsoft 365。](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview)
+CQD に [個人を特定できる情報 (EUII) データが含まれている場合](CQD-data-and-reports.md#euii-data)、[Microsoft 365 全体の EUII](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview) と同じ方法で管理されます。
 
-CQD は、管理者、Teams管理者Skype for Business、ネットワーク エンジニアが組織全体の通話と会議の品質を監視するのに役立ちます。 CQD を使用して、ネットワークを **最適化して** パフォーマンスの品質を向上させます。 特定のユーザーの通話と会議の情報を調ぶ必要がある場合は、ユーザーごとの呼び出し分析と組み合わせて CQD データ[を使用します](use-call-analytics-to-troubleshoot-poor-call-quality.md)。
+CQD は、Teams 管理者、Skype for Business 管理者、ネットワーク エンジニアが組織全体のレベルで通話と会議の品質を監視できるように設計されています。 CQD を使用して **ネットワークを最適化** してパフォーマンスの品質を向上させます。 **固有のユーザー** の通話と会議の情報を確認する必要がある場合は、CQD データをユーザーごとの[通話分析](use-call-analytics-to-troubleshoot-poor-call-quality.md)と組み合わせて使用します。
 
-たとえば、CQD を使用すると、ユーザーの低品質 (ユーザーごとの通話分析を使用して観察した) が、他の多くのユーザーにも影響を与えるネットワークの問題が原因と判断できます。 CQD は、個々の通話エクスペリエンスと、個々の呼び出しを使用して行われた呼び出しの全体的な品質TeamsキャプチャSkype for Business。 CQD では、全体的なパターンが明らかになる可能性があります。そのため、ネットワーク エンジニアは、通話品質に関する情報に基づいた評価を行います。 CQD は、全体的な通話品質、サーバー クライアント ストリーム、クライアント クライアント ストリーム、音声品質 SLA に関する分析情報を提供する通話品質メトリックのレポートを提供 [します](https://go.microsoft.com/fwlink/p/?linkid=846252)。 
+たとえば、CQD を使用すると、(ユーザーごとの通話分析を使用して観察した) ユーザーの通話品質の低下は、他の多くのユーザーにも影響するネットワークの問題が原因であると判断できます。 CQD は、個々の通話エクスペリエンスと、Teams または Skype for Business を使用して行われた通話の全体的な品質の両方を捕捉します。 CQD を使うと、全体的なパターンが明らかになる場合があるので、ネットワーク エンジニアは情報に基づいた通話品質の評価を行うことができます。 CQD には、通話品質の指標に関するレポートが示されます。これにより、全体的な通話品質、サーバー/クライアント間のストリーム、クライアント/クライアント間のストリーム、および音声品質 [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252) についての分析情報が得られます。 
   
 ![通話品質ダッシュボードのスクリーンショット。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-CQD では、建物とエンドポイントの情報をアップロードして、Location-Enhanced レポートを使用して、ユーザーの建物内の通話品質と信頼性を分析できます。 データを評価して、問題が 1 人のユーザーに分離されているのか、それともより大きなユーザー セグメントに影響を及ぼすのか判断できます。 CQD で作成ビューまたはエンドポイント固有のビューを有効にするには、[](CQD-upload-tenant-building-data.md)管理者が CQD テナント データファイルページに建物またはエンドポイント情報をアップロードアップロードがあります。
+CQD では、建物とエンドポイントの情報をアップロードすることをお勧めします。これにより、位置情報拡張レポートを使用して、ユーザーの建物内の通話の品質と信頼性を分析できます。 データを評価して、問題が 1 人のユーザーに分離されているか、より大きなユーザー セグメントに影響するかを判断できます。 CQD で建物またはエンドポイント固有のビューを有効にするには、管理者が CQD の **テナント データのアップロード** ページに[建物またはエンドポイントの情報をアップロードする](CQD-upload-tenant-building-data.md)必要があります。
 
-![通話品質ダッシュボードの [通話レポート] Location-Enhancedスクリーンショット。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+![通話品質ダッシュボードの位置情報拡張レポートのスクリーンショット。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
-通話と会議品質の[](quality-of-experience-review-guide.md)管理に関する記事をお見逃しなく。この記事では、Teams のサービス品質の管理を担当する Teams 管理者またはサポート エンジニアに関する詳細なガイダンスを Teams提供しています。
+「[通話と会議の品質の管理](quality-of-experience-review-guide.md)」の記事をお見逃しなく。Teams のサービス品質の管理を担当する Teams 管理者またはサポート エンジニアに詳細なガイダンスを提供します。
 
 
-## <a name="use-power-bi-to-analyze-cqd-data"></a>CQD Power BI分析するには、次のコマンドを使用します。
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Power BI を使用して CQD データを分析する
 
-2020 年 1 月の新機能: [CQD Power BIテンプレートをダウンロードします](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 カスタマイズ可能Power BIテンプレートを使用して、CQD データの分析とレポートを行います。
+2020 年 1 月の新機能: [CQD 用の Power BI クエリ テンプレートのダウンロード](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 CQD データの分析やレポートに使えるカスタマイズ可能な Power BI テンプレートです。
 
-詳細[については、「Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)」を参照してください。
+「[Power BI を使って CQD データを分析する](CQD-Power-BI-query-templates.md)」をご覧ください。
 
 
 
@@ -64,19 +64,19 @@ CQD では、建物とエンドポイントの情報をアップロードして�
 
 [Teams の通話品質の向上と監視](monitor-call-quality-qos.md)
 
-[通話品質ダッシュボード (CQD) を設定する](turning-on-and-using-call-quality-dashboard.md)
+[通話品質ダッシュボード (CQD) をセットアップする](turning-on-and-using-call-quality-dashboard.md)
 
-[アップロードとデータの構築](CQD-upload-tenant-building-data.md)
+[テナントと建物のデータをアップロードする](CQD-upload-tenant-building-data.md)
 
-[CQD データとレポート](CQD-data-and-reports.md)
+[CQD のデータとレポート](CQD-data-and-reports.md)
 
 [CQD を使用して通話と会議の品質を管理する](quality-of-experience-review-guide.md)
 
-[CQD で使用可能なディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[CQD で利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [CQD のストリーム分類](stream-classification-in-call-quality-dashboard.md)
 
-[CQD Power BI分析するには、次のコマンドを使用します。](CQD-Power-BI-query-templates.md)
+[Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)
 
 
 [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)
