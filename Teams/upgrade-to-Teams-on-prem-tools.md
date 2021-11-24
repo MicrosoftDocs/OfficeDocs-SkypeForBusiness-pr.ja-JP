@@ -1,5 +1,5 @@
 ---
-title: オンプレミスのデプロイからTeamsアップグレードSkype for Businessツール
+title: Skype for Business のオンプレミス展開から Teams にアップグレードするためのツール。
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 新しいバージョンからSkype for BusinessアップグレードTeams
+description: Skype for Business から Teams にアップグレードするためのツール
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -19,16 +19,16 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d98257e9a29564d22b57c5cc537d703bbb1fe842
 ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 08/30/2021
 ms.locfileid: "58729306"
 ---
-# <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>IT 管理者向け Teams &mdash; アップグレードするためのツール
+# <a name="tools-for-upgrading-to-teams-mdash-for-it-administrators"></a>IT 管理者向けの Teams &mdash; にアップグレードするためのツール
 
-この記事では、アプリケーションからアプリケーションにアップグレードするためのTeamsについてSkype for Business。 
+この記事では、Skype for Business から Teams にアップグレードするためのツールについて説明します。 
 
-アップグレードを開始する前に、アップグレードの重要な概念と共存動作について説明する次の記事をお勧めします。
+アップグレードを開始する前に、Microsoft では、重要なアップグレードの概念と共存動作について説明する次の記事をお勧めします:
 
 - [Teams と Skype for Business の共存](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [共存モード - リファレンス](migration-interop-guidance-for-teams-with-skype.md)
@@ -36,18 +36,18 @@ ms.locfileid: "58729306"
 
 ## <a name="tools-for-managing-the-upgrade"></a>アップグレードの管理ツール
 
-どのアップグレード方法を選択した場合でも、Skype for Business Online を既に持っているユーザーの場合は、ユーザーの共存モードを制御する[TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)を使用して TeamsOnly への移行を管理します。 オンプレミス アカウントを持つユーザーの場合は、 Skype for Business Server を使用してクラウド `Move-CsUser` [に移動することもできます](/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  各モードの詳細については、「[共存モード](migration-interop-guidance-for-teams-with-skype.md)」を参照してください。
+どちらのアップグレード方法を選択した場合でも、Skype for Business Online を既に持っているユーザーの場合は、ユーザーの共存モードを制御する [TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) を使用して TeamsOnly への移行を管理します。 Skype for Business Server のオンプレミス アカウントを持つユーザーの場合は、`Move-CsUser` を使用して、[クラウドに移動](/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)させることもできます。  各モードの詳細については、「[共存モード](migration-interop-guidance-for-teams-with-skype.md)」を参照してください。
 
 > [!NOTE]
-> 現在、Skype for Business Online Connector を使用してサービスを管理している場合は、Teams PowerShell モジュールに移動し、既存の PowerShell スクリプトを更新する必要があります。 詳細[については、「Skype for Business Online Connector から powerShell モジュールTeamsに移動する」](teams-powershell-move-from-sfbo.md)を参照してください。
+> 現在 Skype for Business Online Connector を使用してサービスを管理している場合は、Teams PowerShell モジュールに移動し、既存の PowerShell スクリプトを更新する必要があります。 詳しくは、「[Skype for Business Online Connector から Teams PowerShell モジュールに移動する](teams-powershell-move-from-sfbo.md)」をご覧ください。
 
-Skype for Business モードを使用して選択機能の切り替えを実行する場合でも、既定の Islands 構成から TeamsOnly モードにアップグレードする場合でも、TeamsUpgradePolicy が主なツールです。他のポリシーと同様Teams TeamsUpgradePolicy をユーザーに直接割り当てできます。 また、テナント全体の既定値としてポリシーを設定できます。 ユーザーへの割り当ては、テナントの既定の設定よりも優先されます。  ポリシーは、Teams PowerShell で管理できます。
+Skype for Business モードを使用して選択機能の移行を実行する場合でも、単に既定のアイランド構成から TeamsOnly モードにアップグレードする場合でも、TeamsUpgradePolicy が主要なツールです。Teams の他のポリシーと同様に、TeamsUpgradePolicy をユーザーに直接割り当てることができます。 ポリシーをテナント全体の既定値として設定することもできます。 ユーザーへの割り当ては、テナントの既定の設定よりも優先されます。  これは、Teams の管理コンソールでも PowerShell でも管理できます。
 
-TeamsOnly モードを除く、TeamsUpgradePolicy の任意のモードを、オンプレミスの Skype for Businessに割り当てできます。 逆に、クラウドにホームされているユーザーには、TeamsOnly モードのみを割り当てることができます。 **TeamsOnly** モードは、クラウドに既にホームされているユーザーにのみ割り当てることができます。これは、Skype for Business ユーザーおよび Microsoft 365 電話システム 機能との相互運用とフェデレーションは、ユーザーが Skype for Business Online にホームされている場合にのみ可能です。  さらに、Skype for Business オンプレミスデプロイ (Office 365 以外の場所を示す lyncdiscover DNS レコードの存在によって検出される) がある場合は、テナント全体の既定値として **TeamsOnly** モードを割り当てできません。 詳細については、「ハイブリッド構成[を無効にする」を参照して、](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)移行のみをTeamsしてください。
+TeamsOnly モードを除く TeamsUpgradePolicy の任意のモードを、オンプレミスの Skype for Business に所属するユーザーに割り当てることができます。 逆に、クラウドをホームにしているユーザーには TeamsOnly モードのみを割り当てることができます。 **TeamsOnly モードは、既にクラウドをホームにしているユーザーにのみ割り当てることができます**、というには、Skype for Business ユーザーおよび Microsoft 365 電話システム機能との相互運用とフェデレーションは、ユーザーが Skype for Business Online をホームにしている場合にのみ可能だからです。  さらに **Skype for Business オンプレミス展開 がある場合、TeamsOnly モードをテナント全体の既定値として割り当てることはできません** (これは Office 365 以外の場所を指す lyncdiscover DNS レコードの存在によって検出されます)。 詳細については、「[ハイブリッド構成を無効にして Teams Only への移行を完了する](/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)」を参照してください。
 
-オンプレミスにSkype for Businessアカウントを持つユーザーは、オンプレミスの[](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)ツールセットの Move-CsUser を使用して、Teams のみSkype for Businessに移動する必要があります。 
+オンプレミスをホームにする Skype for Business アカウントを持つユーザーは、Skype for Business オンプレミスのツールセットに含まれる Move-CsUser を使用して、Skype for Business Online か直接 Teams のどちらかの[オンラインに移行する必要があります](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)。 
 
-他のポリシーとは異なり、TeamsUpgradePolicy の新しいインスタンスを Microsoft 365 または Office 365。 既存のインスタンスはすべて、このサービスに組み込まれています。  (モードは、TeamsUpgradePolicy 内のプロパティであり、ポリシー インスタンスの名前ではありません)。ポリシー インスタンスの名前がモードと同一である場合もありますが、必ず一致するわけではありません。 特に、ユーザーに TeamsOnly モードを割り当てる場合は、TeamsUpgradePolicy の UpgradeToTeams インスタンスをそのユーザーに付与します。 すべてのインスタンスの一覧を表示するには、次のコマンドを実行します。
+他のポリシーとは異なり、Microsoft 365 または Office 365 で TeamsUpgradePolicy の新しいインスタンスを作成することはできません。 既存のインスタンスはすべて、このサービスに組み込まれています。  (モードは、TeamsUpgradePolicy 内のプロパティであり、ポリシー インスタンスの名前ではありません)。ポリシー インスタンスの名前がモードと同一である場合もありますが、必ず一致するわけではありません。 特に、ユーザーに TeamsOnly モードを割り当てる場合は、TeamsUpgradePolicy の UpgradeToTeams インスタンスをそのユーザーに付与します。 すべてのインスタンスの一覧を表示するには、次のコマンドを実行します。
 
 ```PowerShell
 Get-CsTeamsUpgradePolicy|ft Identity, Mode, NotifySfbUsers
@@ -73,7 +73,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->オンプレミスのアカウントを持つSkype for Businessがある場合は、テナント レベルで TeamsOnly モードを割り当てできません。 Move-CsUser を使用して、これらのユーザー Teamsモードに個別に移動する必要があります。
+>オンプレミスの Skype for Business アカウントを持つユーザーがいる場合は、テナント レベルで TeamsOnly モードを割り当てることはできません。 Move-CsUser を使用して、これらのユーザーを Teams 専用モードに個別に移動する必要があります。
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>Skype for Business クライアントで通知を使用する
@@ -84,7 +84,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 ユーザーが Skype for Business Online に所属している場合は、そのユーザーと同じモードを持つポリシー インスタンスを割り当てるだけです。ただし、NotifySfbUsers=true に設定します。 
 
-ユーザーが Skype for Business Server オンプレミスに所属している場合は、オンプレミスのツールセットを使用する必要があります。Skype for Business Server 2019 か、または Skype for Business Server 2015 用の CU8 が必要になります。 Skype for Business Server オンプレミスにホームされているユーザーの場合、TeamsUpgradePolicy のオンライン インスタンスの mode プロパティは受け入れされますが、NotifySfbUsers プロパティは受け入れされません。 通知が必要な場合は、クライアントの動作を制御するために、TeamsUpgradePolicy のオンプレミス インスタンスを作成する必要があります。 
+ユーザーが Skype for Business Server オンプレミスに所属している場合は、オンプレミスのツールセットを使用する必要があります。Skype for Business Server 2019 か、または Skype for Business Server 2015 用の CU8 が必要になります。 オンプレミスの Skype for Business Server をホームにしているユーザーの場合、TeamsUpgradePolicy のオンライン インスタンスの [mode] プロパティは適用されますが、[NotifySfbUsers] プロパティは適用されません。 通知が必要な場合は、クライアントの動作を制御する TeamsUpgradePolicy のオンプレミス インスタンスを作成する必要があります。 
 
 オンプレミスの PowerShell ウィンドウで、TeamsUpgradePolicy の新しいインスタンスを作成し、次のようにして NotifySfbUsers=true に設定します。
 
