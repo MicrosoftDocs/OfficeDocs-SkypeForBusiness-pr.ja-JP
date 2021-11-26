@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: 参加者とゲストの会議ポリシー設定Teamsを管理する方法について学習します。
-ms.openlocfilehash: aab9dda3f0a6bd5674cde2614fbbe0987292d6bf
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+description: 参加者とゲストを対象にTeams設定を管理する方法について学習します。
+ms.openlocfilehash: 21a5737c51f33d288277f6a6ff5b1ecb27d8c86f
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124234"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205247"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 
@@ -35,8 +35,8 @@ ms.locfileid: "61124234"
 - [匿名ユーザーが会議を開始できるようにする](#let-anonymous-people-start-a-meeting)
 - [ユーザーの参加を自動的に許可する](#automatically-admit-people)
 - [ダイヤルイン ユーザーによるロビーのバイパスを許可する](#allow-dial-in-users-to-bypass-the-lobby)
-- [ライブ キャプションを有効にする](#enable-live-captions)
-- [会議でチャットを許可する](#allow-chat-in-meetings)
+- [ライブ キャプション](#live-captions)
+- [会議でのチャット](#chat-in-meetings)
 
 > [!NOTE]
 >会議に参加するためのオプションは、各 Teams グループの設定および接続方法によって異なります。 グループに電話会議があり、それを使用して接続する場合は、「[電話会議](/microsoftteams/audio-conferencing-in-office-365)」を参照してください。 Teams グループに電話会議がない場合は、「[Teams で会議に参加](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)」を参照してください。
@@ -76,7 +76,7 @@ ms.locfileid: "61124234"
 > [!NOTE]
 > 組織のユーザーが会議に参加する前に、ダイヤルイン ユーザーが会議に参加すると、組織のユーザーがチームのクライアントと共に会議に参加して、そのユーザーを入室させるまで、ダイヤルインユーザーはロビーに入ります。 ユーザーの既定の設定を変更すると、そのユーザーによって開催されたすべての新しい会議に適用され、ユーザーが会議のオプションを変更していない以前の会議にも適用されます。
 
-## <a name="enable-live-captions"></a>ライブ キャプションを有効にする
+## <a name="live-captions"></a>ライブ キャプション
 
 この設定はユーザーごとのポリシーであり、会議中に適用されます。 この設定は、ユーザーが参加する会議でライブ キャプションを有効または無効にするために、[**ライブ キャプションを有効にする**] オプションを使用できるかどうかを制御します。  
 
@@ -89,7 +89,7 @@ ms.locfileid: "61124234"
 
 <a name="bkcontentsharing"> </a>
 
-## <a name="allow-chat-in-meetings"></a>会議でチャットを許可する
+## <a name="chat-in-meetings"></a>会議でのチャット
 
 この設定は、参加者ごとの設定です。 この設定は、ユーザーの会議で会議チャットを許可するかどうかを制御します。
 

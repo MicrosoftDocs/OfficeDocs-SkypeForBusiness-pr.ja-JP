@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1c25ed5b00adf162ceb5d75d9207e43e489f3c6
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: ac7558f2177ab468043e624d6230106179f79a6e
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536528"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205237"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Microsoft Teams でライブ イベント設定を構成する
 
@@ -67,7 +67,7 @@ Microsoft ビデオ配信パートナーを通じてソフトウェア定義ネ�
 
     ![管理センターのサード パーティのビデオ配信プロバイダーの設定。](../media/teams-live-events-settings-distribution-provider-new.png "ライブ イベントのサード パーティのビデオ配信プロバイダー設定のスクリーン ショット")
 
-    - **サード パーティの配布プロバイダーを使用する** サード パーティのビデオ配信プロバイダーを有効にするには、この設定をオンにしてください。
+    - **サード パーティの配布プロバイダー** サード パーティのビデオ配信プロバイダーを有効にするには、この機能をオンにしてください。
     - **SDN プロバイダー名** お使いのプロバイダーを選択します。
     - **SDN 構成** SDN 構成の詳細を入力します。
         

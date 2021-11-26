@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
-description: コンテンツ共有用の会議ポリシー設定を Teamsする方法について学習します。
-ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+description: コンテンツ共有用の会議ポリシー設定を管理する方法Teamsを確認します。
+ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605623"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205317"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>会議ポリシーの設定 - コンテンツの共有
 
@@ -35,9 +35,9 @@ ms.locfileid: "60605623"
 - [画面共有モード](#screen-sharing-mode)
 - [参加者に制御を渡す、または制御を要求する](#allow-a-participant-to-give-or-request-control)
 - [外部の参加者に制御を渡す、または制御を要求する](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint の共有を許可する](#allow-powerpoint-sharing)
-- [ホワイトボードを許可する](#allow-whiteboard)
-- [メモの共有を許可する](#allow-shared-notes)
+- [PowerPoint共有](#powerpoint-sharing)
+- [Whiteboard](#whiteboard)
+- [共有ノート](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>画面共有モード
 
@@ -99,39 +99,39 @@ Daniela は、共有デスクトップまたはウィンドウを、赤んじり
 
 PowerShell を使用して、外部の参加者が制御を渡すことができるか、または制御要求を受け入れることができるかを制御するには、AllowExternalParticipantGiveRequestControl コマンドレットを使用します。
 
-### <a name="allow-powerpoint-sharing"></a>PowerPoint の共有を許可する
+### <a name="powerpoint-sharing"></a>PowerPoint共有
 
 これは、ユーザーごとのポリシーです。 この設定は、ユーザーが会議で PowerPoint スライド セットを共有できるかどうかを制御します。 匿名ユーザー、ゲスト ユーザー、フェデレーション ユーザーを含む外部ユーザーは、会議開催者のポリシーを継承します。
 
 次の例を見てみましょう。
 
-|ユーザー |会議ポリシー  |PowerPoint の共有を許可する |
+|ユーザー |会議ポリシー  |PowerPoint共有 |
 |---------|---------|---------|
 |Daniela   | グローバル   | オン       |
 |Amanda   | Location1MeetingPolicy        | オフ   |
 
 Amanda は、会議の開催者であっても、PowerPoint スライド セットを会議で共有することはできません。 Daniela は、会議が Amanda によって開催されている場合でも、PowerPoint スライド セットを共有することができます。 Amanda は、PowerPoint スライド セットを共有できない場合でも、会議の他のユーザーによって共有されている PowerPoint スライド セットを表示することができます。
 
-## <a name="allow-whiteboard"></a>ホワイトボードを許可する
+## <a name="whiteboard"></a>Whiteboard
 
 この設定は、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でホワイトボードを共有できるかどうかを制御します。 匿名ユーザー、B2B ユーザー、およびフェデレーション ユーザーを含む外部ユーザーは、会議開催者のポリシーを継承します。
 
 次の例を見てみましょう。
 
-|ユーザー |会議ポリシー  |ホワイトボードを許可する|
+|ユーザー |会議ポリシー  |Whiteboard|
 |---------|---------|---------|
 |Daniela   | グローバル   | オン       |
 |Amanda   | Location1MeetingPolicy        | オフ   |
 
 Amanda は、会議の開催者であっても、会議でホワイトボードを共有することはできません。 Daniela は、Amanda が会議を開催する場合でも、ホワイトボードを共有することができます。  
 
-## <a name="allow-shared-notes"></a>メモの共有を許可する
+## <a name="shared-notes"></a>共有ノート
 
 この設定は、ユーザーごとのポリシーです。 この設定は、ユーザーが会議でメモを作成および共有できるかどうかを制御します。 匿名ユーザー、B2B ユーザー、およびフェデレーション ユーザーを含む外部ユーザーは、会議開催者のポリシーを継承します。 現在、[**会議メモ**] タブは、参加者が 20 人未満の会議でのみサポートされています。
 
 次の例を見てみましょう。
 
-|ユーザー |会議ポリシー  |メモの共有を許可する |
+|ユーザー |会議ポリシー  |共有ノート |
 |---------|---------|---------|
 |Daniela   | グローバル   | オン       |
 |Amanda   | Location1MeetingPolicy | オフ |

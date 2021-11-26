@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 会議の全般ポリシー設定を管理する方法については、Teams。
-ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b7c08799ee9e7c2b1e6239b17abaa66b7d1e3d47
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731666"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177938"
 ---
 # <a name="meeting-policy-settings---general"></a>会議ポリシーの設定 - 全般
 
@@ -32,32 +32,32 @@ ms.locfileid: "58731666"
 
 この記事では、会議の一般的なポリシー設定についてTeamsします。
 
-- [チャネルで "今すぐ会議" を許可する](#allow-meet-now-in-channels)
-- [Outlook アドインを許可する](#allow-the-outlook-add-in)
-- [チャネルの会議スケジュールを許可する](#allow-channel-meeting-scheduling)
-- [プライベート会議のスケジュールを許可する](#allow-scheduling-private-meetings)
-- [プライベート会議で "今すぐ会議" を許可する](#allow-meet-now-in-private-meetings)
+- [チャネルで今すぐ会う](#meet-now-in-channels)
+- [Outlook アドイン](#outlook-add-in)
+- [チャネル会議のスケジュール](#channel-meeting-scheduling)
+- [プライベート会議のスケジュール設定](#private-meeting-scheduling)
+- [プライベート会議で今すぐ会議を行う](#meet-now-in-private-meetings)
 - [指定された発表者ロール モード](#designated-presenter-role-mode)
-- [エンゲージメント レポートを許可する](#allow-engagement-report)
-- [会議の登録を許可する](#allow-meeting-registration)
+- [エンゲージメント レポート](#engagement-report)
+- [会議の登録](#meeting-registration)
 - [Who登録可能](#who-can-register)
 - [諸島モードの会議プロバイダー](#meeting-provider-for-islands-mode)
 
-## <a name="allow-meet-now-in-channels"></a>チャネルで "今すぐ会議" を許可する
+## <a name="meet-now-in-channels"></a>チャネルで今すぐ会う
 
 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルでアドホック会議を開始できるかどうかを制御します。 これを有効にした場合、ユーザーは [会議] ボタンをクリックして、臨時の会議を開始したり、チャネルで会議をスケジュールすることができます。 既定値は True です。
 
-[![メッセージの下に [今すぐ会う] アイコンを示すスクリーンショット。 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![メッセージの下に [今すぐ会う] アイコンを示すスクリーンショット。 ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
-## <a name="allow-the-outlook-add-in"></a>Outlook アドインを許可する
+## <a name="outlook-add-in"></a>Outlook アドイン
 
 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、Outlook (Windows、Mac、Web、およびモバイル) 内から Teams 会議をスケジュールできるかどうかを制御します。
 
-![新しい会議をスケジュールする機能を示すスクリーンショット。](media/meeting-policies-outlook-add-in.png)
+![新しい会議をスケジュールする機能が表示されたスクリーンショット。](media/meeting-policies-outlook-add-in.png)
 
 これをオフにすると、ユーザーは Outlook で新しい会議を作成するときに Teams 会議をスケジュールできなくなります。 たとえば、Windows 上の Outlook では、[**新しい Teams 会議**] オプションはリボンに表示されません。
 
-## <a name="allow-channel-meeting-scheduling"></a>チャネルの会議スケジュールを許可する
+## <a name="channel-meeting-scheduling"></a>チャネル会議のスケジュール
 
 既存の[AllowChannelMeetingScheduling] ポリシーを使用して、チームのチャネルの予定表で作成できるイベントの種類を制御します。 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams チャネルで会議をスケジュールできるかどうかを制御します。 既定では、この設定は[オン] に設定されています。 
 
@@ -69,7 +69,7 @@ ms.locfileid: "58731666"
 
 チャネルの選択が無効になっています。
 
-[![会議のスケジュールを設定するチャネルを選択する予定表オプションを示すスクリーンショット。 ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[![会議のスケジュールを設定するチャネルを選択する予定表オプションを示すスクリーンショット。 ](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 チャネルの投稿ページで、次の機能が無効になります。
 
@@ -86,7 +86,7 @@ ms.locfileid: "58731666"
 
 - ユーザーは、チャネル予定表で時間ブロックをドラッグして選択して、チャネル会議を作成できない。
 
-- ユーザーは、キーボード ショートカットを使用して、チャネル予定表に会議を作成することはできません。
+- ユーザーは、キーボード ショートカットを使用して、チャネルの予定表に会議を作成することはできません。
 
 管理センターにて
 
@@ -94,13 +94,13 @@ ms.locfileid: "58731666"
 
 ![管理センターのアプリのアクセス許可ポリシー Teamsスクリーンショット。](media/manage-microsoft-apps-policy.png)
 
-## <a name="allow-scheduling-private-meetings"></a>プライベート会議のスケジュールを許可する
+## <a name="private-meeting-scheduling"></a>プライベート会議のスケジュール設定
 
 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーが Teams でプライベート会議をスケジュールできるかどうかを制御します。 チームのチャネルに公開されていない会議はプライベートです。
 
 [**プライベート会議のスケジュールを許可する**] および [**チャネルの会議スケジュールを許可する**] を無効にすると、Teams のユーザーに対して [**必須出席者の追加**] および [**チャネルの追加**] オプションが無効になります。 既定では、この設定は[オン] に設定されています。
 
-## <a name="allow-meet-now-in-private-meetings"></a>プライベート会議で "今すぐ会議" を許可する
+## <a name="meet-now-in-private-meetings"></a>プライベート会議で今すぐ会議を行う
 
 これはユーザーごとのポリシーであり、会議が始まる前に適用されます。 この設定は、ユーザーがアドホック プライベート会議を開始できるかどうかを制御します。  既定では、この設定は[オン] に設定されています。
 
@@ -120,11 +120,11 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 既定値を設定した後でも、会議の開催者はチームの設定を変更し、スケジュールした会議での発表者を選ぶことができることにご注意ください。
 
-## <a name="allow-engagement-report"></a>エンゲージメント レポートを許可する
+## <a name="engagement-report"></a>エンゲージメント レポート
 
 これは、ユーザーごとのポリシーです。 この設定では、会議の開催者が [会議出席レポート](teams-analytics-and-reports/meeting-attendance-report.md)をダウンロードできるかどうかを制御します。
 
-このポリシーは既定でオフになっています。開催者は、設定した会議やウェビナーを誰が登録して参加したのか確認できます。 管理センターでこれを有効Teams、[会議会議ポリシー] に移動し、ポリシーを [有効]  >  に **設定します**。
+このポリシーは既定でオフになっています。開催者は、設定した会議やウェビナーを誰が登録して参加したのか確認できます。 管理センターでこれを有効Teams、[**会議の会議** ポリシー] に移動し、ポリシーを [有効]  >  に **設定します**。
 
 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
@@ -132,26 +132,26 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 会議の開催者がレポートをダウンロードしないようにするには、パラメーターを [**無効**] に設定します。
 
-## <a name="allow-meeting-registration"></a>会議の登録を許可する
+## <a name="meeting-registration"></a>会議の登録
 
 これは、ユーザーごとのポリシーです。 これを有効にした場合、組織内のユーザーはウェビナーを設定できます。 このポリシーは既定で有効になっています。
 
-管理センターでこのポリシーを編集Teams、[会議の会議ポリシー]   >  **に移動します**。 会議の登録をオフにする場合は、ポリシーを [オフ] に **設定します**。
+管理センターでこのポリシーを編集Teams、[会議の会議ポリシー]  >  **に移動します**。 会議の登録をオフにする場合は、ポリシーを [オフ] に **設定します**。
 
 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
-会議の登録を有効にする場合は  **、AllowMeetingRegistration** パラメーターを True に **設定します**。 これは既定で **True に** 設定されています。
+会議の登録を有効にする場合は  **、MeetingRegistration パラメーター** を True に **設定します**。 これは既定で **True に** 設定されています。
 
 会議の登録をオフにし、ユーザーがウェビナーをスケジュールできない場合は、 パラメーターを False に **設定します**。
 
 ## <a name="who-can-register"></a>Who登録可能
 
-このポリシーは、ウェビナーを登録して参加できるユーザーを制御します。 このポリシーには 2 つのオプションがあります。このオプションは、[会議の登録を許可する] がオン **になっている** 場合にのみ使用できます。
+このポリシーは、ウェビナーを登録して参加できるユーザーを制御します。 このポリシーには 2 つのオプションがあります。このオプションは、会議の登録が有効 **になっている** 場合にのみ使用できます。
 
-- 匿名 **Who** を含むすべてのユーザーが、組織内のユーザーが設定したウェビナーの登録と参加を許可する場合は、[すべてのユーザーに登録できます] を設定します。
-- 組織内 **Whoウェ** ビナーの登録と参加のみを許可する場合は、組織内のすべてのユーザーに登録できるオプションを設定します。
+- 匿名 **Who** を含むすべてのユーザーが、組織内のユーザーが設定したウェビナーの登録と参加を許可する場合は、[すべてのユーザー] に登録できます。
+- 組織内 **Whoの** ユーザーにのみウェビナーの登録と参加を許可する場合は、[組織内のすべてのユーザー] に登録できるオプションを設定します。
 
-既定では、**登録Whoは [すべてのユーザー** ] に **設定されています**。 管理センターでこのポリシーを編集Teams、[会議の会議ポリシー]   >  **に移動します**。
+既定では、**登録Whoは [すべてのユーザー** ] に **設定されています**。 管理センターでこのポリシーを編集Teams、[会議の会議ポリシー]  >  **に移動します**。
 
 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、既存の Teams 会議ポリシーを編集することができます。 または、[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) コマンドレットを使用して、新しい Teams の会議ポリシーを作成し、ユーザーに割り当てます。
 
@@ -161,7 +161,7 @@ Teams の **誰がプレゼンをするか?** 設定の既定値を指定する�
 
 ## <a name="meeting-provider-for-islands-mode"></a>諸島モードの会議プロバイダー
 
-これは、ユーザー単位のポリシーです。 この設定は、*アイランド モードのユーザー* がどの Outlook 会議アドインを使用するかを制御できます。 Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールできます。
+これは、ユーザーごとのポリシーです。 この設定は、*アイランド モードのユーザー* がどの Outlook 会議アドインを使用するかを制御できます。 Teams 会議アドインのみを使用するか、Teams 会議アドインと Skype for Business 会議アドインの両方を使用するかを指定して、Outlook で会議をスケジュールできます。
 
 このポリシーは、アイランドモードで、Teams の会議ポリシーで **AllowOutlookAddIn** パラメーターが **True** に設定されているユーザーにのみ適用できます。
 
@@ -184,5 +184,5 @@ AllowMeetingReactions 設定は、PowerShell を使用してのみ適用でき�
 ## <a name="related-topics"></a>関連項目
 
 - [Teams での PowerShell の概要](teams-powershell-overview.md)
-- [グループでポリシーを割り当Teams](policy-assignment-overview.md)
+- [[ポリシーの割り当て] Teams](policy-assignment-overview.md)
 - [ユーザーから RestrictedAnonymousAccess Teams 会議ポリシーを削除する](meeting-policies-restricted-anonymous-access.md)

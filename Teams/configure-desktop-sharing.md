@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732316"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205288"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Microsoft Teams でのデスクトップ共有を構成する
 
@@ -60,7 +60,7 @@ ms.locfileid: "58732316"
 
 5. 次の設定をオンまたはオフにします。
 
-    - **参加者に制御の許可または** 要求を許可する - チームのメンバーが発表者のデスクトップまたはアプリケーションの制御を許可または要求できます。
+    - **参加者に制御の許可または** 要求を許可する – チームのメンバーが発表者のデスクトップまたはアプリケーションの制御を許可または要求できます。
     - **外部参加者に制御の許可または要求を許可** する – これはユーザーごとのポリシーです。 組織がユーザーに対してこの設定を行ったかどうかは、会議の開催者が設定した内容に関係なく、外部の参加者ができることを制御するものではありません。 このパラメーターは、組織の会議ポリシー内において、共有先が設定した内容に応じて、外部の参加者に共有スクリーンの制御または制御の依頼を許可するかどうかを制御します。
     - **[PowerPoint 共有を許可する]**: ユーザーによる、PowerPoint プレゼンテーションのアップロードや共有ができる会議の作成を許可します。
     - **[ホワイトボードを許可する]**: ユーザーによるホワイトボードの共有を許可します。
@@ -70,7 +70,7 @@ ms.locfileid: "58732316"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>PowerShell を使用して共有デスクトップを構成する
 
-[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) コマンドレットを使用して、デスクトップ共有を制御することもできます。 次のパラメーターを設定します。
+[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) コマンドレットを使用して、デスクトップ共有を制御することもできます。 次のパラメーターを設定します。
 
 - Description
 - ScreenSharingMode
@@ -81,4 +81,4 @@ ms.locfileid: "58732316"
 - AllowWhiteboard
 - AllowSharedNotes
 
-[csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)。
+[csTeamsMeetingPolicy コマンドレットの使用方法に関する詳細情報](/powershell/module/skype/set-csteamsmeetingpolicy)。
