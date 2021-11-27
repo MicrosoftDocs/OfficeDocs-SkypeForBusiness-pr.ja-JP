@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
-ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
+ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "61153310"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205307"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -59,7 +59,7 @@ ms.locfileid: "61153310"
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>PowerShell を使用して開催者ごとのポリシーを構成する
 
-管理者は、特定のユーザーまたはユーザーのグループが匿名ユーザーを自分が開催する会議に参加させることができるかどうかを制御できるようになりました。 この新しい開催者ごとのポリシーは、[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) の **-AllowAnonymousUsersToJoinMeeting** パラメーターを使用して制御されます。 これは、Teams PowerShell バージョン 2.6.0 以降に付属しています。
+管理者は、特定のユーザーまたはユーザーのグループが匿名ユーザーを自分が開催する会議に参加させることができるかどうかを制御できるようになりました。 この新しい開催者ごとのポリシーは、[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) の **-AllowAnonymousUsersToJoinMeeting** パラメーターを使用して制御されます。 これは、Teams PowerShell バージョン 2.6.0 以降に付属しています。
 
 匿名参加を管理するには、組織全体または開催者ごとのポリシーを使用できます。 開催者ごとのポリシーを実装することをお勧めします。 組織全体のポリシー設定は将来廃止される予定であり、開催者ごとのポリシーが匿名参加を制御する唯一の方法になります。
 
@@ -147,7 +147,7 @@ ms.locfileid: "61153310"
 
     ![管理センターでの会議のネットワーク設定のスクリーンショット。](media/meeting-settings-network.png "Microsoft Teams 管理センターでの Teams 会議のネットワーク設定のスクリーンショット")
 
-    - DSCP マーキングを QoS で使用できるようにするには、[**リアルタイム メディア トラフィックのサービスの品質 (QoS) マーカーを挿入する**] をオンにします。 選択できるのは、マーカーを使用するか使用しないかのどちらかです。トラフィックの種類ごとにカスタム マーカーを設定することはできません。 DSCP マーカーの詳細については、「[QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)」を参照してください。
+    - DSCP マーキングを QoS で使用できるようにするには、[**リアルタイム メディア トラフィックのサービスの品質 (QoS) マーカー**] をオンにします。 選択できるのは、マーカーを使用するか使用しないかのどちらかです。トラフィックの種類ごとにカスタム マーカーを設定することはできません。 DSCP マーカーの詳細については、「[QoS の実装方法を選択する](QoS-in-Teams.md#select-a-qos-implementation-method)」を参照してください。
 
         > [!IMPORTANT]
         > なお、QoS の有効化は、クライアントから送信されるパケットにタグ付けするためのエンドポイントでのみ実行されます。 引き続き、着信トラフィックに対して、すべての内部ネットワーク デバイスで照合 QoS ルールを適用することをお勧めします。

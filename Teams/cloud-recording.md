@@ -19,12 +19,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536898"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205417"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -79,7 +79,7 @@ Teams ユーザーの会議をレコーディングするには、テナント�
 
 Microsoft Teams 管理センターまたは PowerShell を使用して、Teams の会議ポリシーを設定すると、ユーザーの会議を記録できるかどうかを制御できます。
 
-Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Allow cloud recording](クラウド レコーディングを許可する)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオについての会議ポリシーの設定](meetings-policies-recording-and-transcription.md#allow-cloud-recording)」を参照してください。
+Microsoft Teams 管理センターを使用する場合は、会議ポリシーの **[Cloud recording](クラウド レコーディング)** 設定をオンまたはオフにします。 詳細については、「[オーディオおよびビデオについての会議ポリシーの設定](meetings-policies-recording-and-transcription.md#allow-cloud-recording)」を参照してください。
 
 PowerShell を使用する場合は、TeamsMeetingPolicy で AllowCloudRecording 設定を構成します。 詳細については、「[New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy)」および「[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)」を参照してください。
 
@@ -431,7 +431,7 @@ Teams の文字起こしとレコーディングの間のリンクに対する�
 
 ### <a name="retention-policies"></a>アイテム保持ポリシー
 
-アイテム保持ポリシー 自動化ラベルを適用し、ProgID プロパティを使用して Teams 会議レコーディング ビデオ ファイルだけを抽出ターゲットにできます。 詳細については、「 [Teams 会議レコーディングにアイテム保持ポリシー ラベルを自動的に適用する方法](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)」を参照してください。
+アイテム保持ポリシー 自動化ラベルを適用し、ProgID プロパティを使用して Teams 会議レコーディング ビデオ ファイルだけを抽出ターゲットにできます。 詳細については、「 [Teams 会議レコーディングにアイテム保持ポリシー ラベルを自動的に適用する方法](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings)」を参照してください。
 
 ### <a name="data-loss-prevention-dlp-policies"></a>データ損失防止 (DLP) ポリシー
 
