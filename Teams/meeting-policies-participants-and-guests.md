@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 参加者とゲストを対象にTeams設定を管理する方法について学習します。
-ms.openlocfilehash: 21a5737c51f33d288277f6a6ff5b1ecb27d8c86f
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ebbb13d4d0430aee6fadba10b825a6c0cb8ec3b0
+ms.sourcegitcommit: 3e724a57e946550f2f61002c8e2de1ec20c9755a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205247"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "61234305"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>会議ポリシーの設定 - 参加者とゲスト
 
@@ -68,6 +68,9 @@ ms.locfileid: "61205247"
 |**自分の組織のユーザー**    |組織内から認証されたユーザーは、ロビーで待機せずに直接会議に参加します。  信頼できる組織、ゲスト ユーザー、匿名ユーザーのユーザーはロビーで待機します。          |
 |**開催者のみ**    |会議の開催者のみが、ロビーで待たずに会議に直接参加します。 組織内の認証済みユーザー、ゲスト ユーザー、信頼できる組織のユーザー、匿名ユーザーなど、他のすべてのユーザーはロビーで待機する必要があります。 [クライアントTeamsオプション] ページに、[自分のみ] と表示されます。          |
 |**招待されたユーザーのみ**    |ロビーで待機せずに会議に直接参加できるのは、招待されたユーザーと会議の開催者のみです。 組織内の認証済みユーザー、ゲスト ユーザー、信頼できる組織のユーザー、匿名ユーザーなど、他のすべてのユーザーはロビーで待機する必要があります。 [クライアントTeamsオプション] ページに、[招待するユーザー] と表示されます。 配布グループの一部として追加されたユーザーは、ロビーを通過する必要があります。      |
+
+ > [!NOTE]
+> 信頼できる組織は、組織でフェデレーション通信を許可するドメインTeams。 Teams 管理センターで [外部アクセスのすべての外部ドメインを許可する] を有効にした場合、組織内のすべての認証済みユーザー Teams信頼されます。 許可されている外部ドメインを指定し、他のすべてのドメインをブロックすると、許可されているドメインは信頼できる組織になります。 ブロックされているドメインは、信頼できる組織ではないと見なされます。
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>ダイヤルイン ユーザーによるロビーのバイパスを許可する
 
