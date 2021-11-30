@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f40ddcfdd9e9491fd5d4fc7f82c77d5e5dca66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636991"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216673"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Teams Exploratory 試用版からユーザーをアップグレードする
 
@@ -50,7 +50,7 @@ ms.locfileid: "58636991"
 
 - **既存の Microsoft 365 サブスクリプションをアップグレードします。** 組織に Teams を含まない他の Office 製品のサブスクリプションがある場合は、このオプションを使用します。 詳細については、「<a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">別のビジネス プランにアップグレードする</a>」を参照してください。 既存のサブスクリプションのアクティブなユーザーを表示するには、Microsoft 365 管理センターの **[ユーザー] >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>[アクティブなユーザー]</b></a> に移動します。
 
-- **既存の Microsoft 365 サブスクリプションを追加します。** 組織に十分な支払いがない場合は、このオプションを使用してください。 Teams Exploratory ユーザーを対象とする Teams ライセンス。 詳細については、「<a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">ライセンスの購入/削除</a>」をご覧ください。 すでに十分な使用可能なライセンスがある既存のサブスクリプションにユーザーを追加するには、「<a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">ユーザーを別のサブスクリプションに移動する</a>」を参照してください。 既存のサブスクリプションのアクティブなユーザーを表示するには、Microsoft 365 管理センターの **[ユーザー] >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>[アクティブなユーザー]</b></a> に移動します。
+- **既存の Microsoft 365 サブスクリプションを追加します。** 組織が Teams Exploratory ユーザーをカバーするのに十分な有料 Teams ライセンスを所持していない場合は、このオプションを使用してください。 詳細については、「<a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">ライセンスの購入/削除</a>」をご覧ください。 すでに十分な使用可能なライセンスがある既存のサブスクリプションにユーザーを追加するには、「<a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">ユーザーを別のサブスクリプションに移動する</a>」を参照してください。 既存のサブスクリプションのアクティブなユーザーを表示するには、Microsoft 365 管理センターの **[ユーザー] >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>[アクティブなユーザー]</b></a> に移動します。
 
 - **新しい Microsoft 365 サブスクリプションを購入する** 組織に Office 製品の既存のサブスクリプションがない場合、または組織がTeams Exploratory ユーザーを対象とするために既存のサブスクリプションとは異なるサブスクリプションを購入したい場合は、このオプションを使用します。  詳細については、「<a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">一般法人向け Microsoft 365 サブスクリプションのライセンスを購入する</a>」を参照してください。
 
