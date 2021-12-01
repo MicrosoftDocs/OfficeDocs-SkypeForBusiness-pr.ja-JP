@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e684f9d64c3a10611b3cd71c9ea711f052050f48
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: ce78cfa86dfe562b33a892fbcc85a3946097eca6
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055448"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257358"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "61055448"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 複数の市場プロバイダーを使用している場合は、仮想化ソリューション プロバイダーに相談して、最小要件が満たされていることを確認することをお勧めします。
   
-現在、Teams/ビデオ (AV) 最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
+現在、Teams/ビデオ (AV) 最適化を使用した VDI での認証は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
 
 ### <a name="platforms-certified-for-teams"></a>Teams 認定プラットフォーム
 
@@ -381,7 +381,7 @@ PowerShell を使用して会議ポリシーを管理する方法の詳細につ
 
 ## <a name="disable-audio-and-video-settings-for-vdi"></a>VDI のオーディオとビデオの設定を無効にする
 
-Teams VDI ポリシーは、Microsoft Teamsモジュールで使用できます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
+Teams VDI ポリシーは、このモジュールでMicrosoft Teamsできます。 これらのポリシーはアクティブであり、最適化されていない VDI 環境に適用されます。
 
 - New-CsTeamsVdiPolicy  
 - Grant-CsTeamsVdiPolicy
@@ -409,7 +409,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>呼び出し機能を制限するポリシーを設定する
 
-この VDI ポリシー設定 -DisableCallsAndMeetings $true を使用しているユーザーが VDI で Teams にサインインする場合、次の機能を実行できない必要があります。
+この VDI ポリシー設定 -DisableCallsAndMeetings $true を使用して VDI の Teams にサインインするユーザーは、次の機能を実行できない必要があります。
 
 - 通話を行います。
 - 会議に参加します。
@@ -435,7 +435,7 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true を持つユーザーが VDI 上の Teams にサインインすると、次の機能を実行できます。
+VDI ポリシー設定 -DisableAudioVideoInCallsAndMeetings $true を持つユーザーが VDI 上の Teams にサインインすると、次の機能を利用できます。
 
 - チャットから画面共有を行います。
 - 会議に参加して画面を共有する。 音声を電話に移動します。
@@ -486,7 +486,6 @@ if($cleanup){
 - PSTN 通話呼び出しの呼び出し音
 - 共有システムのオーディオ/コンピューターのサウンド
 - ダイレクト ルーティングのメディア バイパス
-- コール パーク
 - ズーム コントロール
 
 > [!NOTE]

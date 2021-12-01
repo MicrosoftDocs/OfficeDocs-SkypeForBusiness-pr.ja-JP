@@ -17,12 +17,12 @@ description: ライブ イベント記録ポリシーについて説明します
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9dbed75a7f9c9655cc52bb798eefb0038cc5fe4a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 80489f699004ed7dbcb8d7493c32a7bc26e3e25e
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844930"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257347"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>ライブ イベント記録ポリシー (Microsoft Teams
 
@@ -54,14 +54,14 @@ ms.locfileid: "60844930"
 | オーガナイザーは記録可能か記録しないか | 既定で有効および選択されている                  | 既定で有効および選択されている   |
 | 記録しない               | 無効で選択されていない                            | 無効で選択されていない      |
 
-## <a name="storage-and-persistence-behavior"></a>Storage永続化の動作
+## <a name="storage-and-persistence-behavior"></a>Storageと永続化の動作
 
 | オプション                                       | 都道府県   | DVR                                                   | VOD                                                     | 記録                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
 | 出席者が使用できる記録 | 選択済み     | DVR が使用可能で、Azure Media Services (AMS) 資産は 180 日間保存されます。 | 出席者はイベントにアクセスして視聴できます。                     |                              |
 |                                                  | 選択されていない | DVR が使用可能で、AMS 資産が 180 日間保存される | イベントが終わった後、出席者はイベントにアクセスできない |                              |
 ||無効 (選択されていない)|DVR が使用可能で、イベントの後に AMS 資産が削除される|イベントが終わった後、出席者はイベントにアクセスできない||
-| プロデューサーと発表者が使用できるレコーディング | 選択済み     |                                                           |                                                             | MP4 が作成され、保存される |
+| プロデューサーと発表者が使用できるレコーディング | 選択済み     |                                                           |                                                             | MP4 が作成され、180 日間保存される |
 |                                                  | 選択されていない |                                                           |                                                             | ファイルが作成されません           |
 
 ### <a name="related-topics"></a>関連項目
