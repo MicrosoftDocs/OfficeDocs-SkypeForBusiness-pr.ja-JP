@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d607a2ea0469ce3b88411bfe17ca8d54b76c7cc0
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 97f45330404f6a42c4293e4205e82dc7188d4b9e
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055438"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284735"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 承認アプリの利用の可否
 
@@ -70,7 +70,7 @@ Microsoft Teams ユーザーは、個人用アプリとして承認アプリを�
 >[!Note]
 >Microsoft Forms サイトで Forms テンプレートを削除すると、承認テンプレートが破損し、ユーザーは要求を開始できなくなります。 ユーザーが Microsoft Forms で削除された承認テンプレートを開こうとすると、"CDB TableNotFound" というエラーが表示されます。
 
-承認テンプレートは基盤データ ストレージ (SDS) に保存されています。これは準拠したストレージ プラットフォームで、Microsoft 内部でのみ使用されています。 組織を対象とするテンプレートは SDS の "テナント シャード" に、チームを対象とするテンプレートは SDS の "グループ シャード" に保存されています。 つまり、組織を対象とするテンプレートはテナントの有効期間が、チームを対象とするテンプレートはチームの有効期間が同じです。 そのため、チームを完全に削除すると、関連するテンプレートも削除されます。
+組織スコープのテンプレートは、テナントとチーム スコープのテンプレートの同じ有効期間を共有し、チームの同じ有効期間を共有します。 そのため、チームを完全に削除すると、関連するテンプレートも削除されます。
 
 ## <a name="approvals-teams-app-permissions"></a>Teams アプリの権限の承認
 
@@ -99,7 +99,7 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
 - すべてのチーム所有者は、所有するチームの承認テンプレートを作成できます。
 
-- 管理者は、組織全体のテンプレートを初めて作成すると、グローバル管理者やチームのサービス管理者を含む、テナントのすべての管理者に対して新しい Azure Active Directory(AAD) グループを自動的に作成します。 これらの管理者はグループの所有者として追加され、組織のテンプレートを共同管理できます。 チームの作成後に組織に新しい管理者をグループ所有者として手動で追加する必要があります。そのため、組織全体のテンプレートを管理する権限は同じです。
+- 管理者が組織全体のテンプレートを初めて作成すると、グローバル管理者やチームのサービス管理者を含む、テナントのすべての管理者に対して新しい Azure Active Directory(AAD) グループが自動的に作成されます。 これらの管理者はグループの所有者として追加され、組織のテンプレートを共同管理できます。 チームの作成後に組織に新しい管理者をグループ所有者として手動で追加する必要があります。そのため、組織全体のテンプレートを管理する権限は同じです。
 
 > [!Note]
 > 管理者がグループを削除した場合、Azure Active Directory (AAD) ポータル内でグループを復元して、すべての関連データを復元できます。 1 か月後、または管理者がごみ箱内でこのグループを削除すると、関連するデータはすべて失われる可能性があります。
@@ -120,7 +120,7 @@ Teams アプリの承認では、次の機能にアクセスできます。
 
   5. 切り替えを選択して、組織のアプリを無効にします。
 
-     ![承認アプリの詳細を表示する。](media/approvals-details-new.png)
+     :::image type="content" alt-text="承認アプリの詳細を表示する。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## <a name="retention-policy"></a>アイテム保持ポリシー
 
