@@ -15,30 +15,29 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a96fd2ee05b60a8147574678bc2afed89ad5be2d
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 8524f1481c98425e726f902a76ce82ce536ed419
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959926"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306132"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
-Microsoft Teams会議室のサイズは異なります。 Teamsルームでは、部屋のサイズと用途に基づいて、さまざまな認定オーディオ周辺機器とビデオ周辺機器を使用します。 適切なコア デバイスと本体を選択し、マイク、スピーカー、カメラ、およびスペースに適したディスプレイと組み合わせると、Microsoft Teams 会議室を小さなハドル 空間から大きな会議スペースや会議室まで、任意のサイズの空間に展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
+Microsoft Teams会議室のサイズは異なります。 Teams会議室では、部屋のサイズと用途に基づいて、さまざまな認定オーディオ周辺機器とビデオ周辺機器を使用します。 マイク、スピーカー、カメラ、ディスプレイと組み合わせて、適切なコア デバイスと本体を選択することで、Microsoft Teams 会議室を小規模な会議室から大規模な会議スペースや会議室まで、任意のサイズの空間に展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
 
 この記事では、Microsoft Teams Rooms をサポートするためのデバイスの展開と構成に関する要件をまとめます。
 
-展開作業では、[デプロイの概要](rooms-deploy.md)で説明している手順に従ってアカウントを作成する必要があります。また、[Microsoft Teams Rooms コンソールを構成する](console.md)で説明している手順に従って会議用コンソールを設定する必要もあります。
+デプロイには、「Microsoft Teams Rooms のデプロイ」の説明に従って、リソース アカウントの作成と Teams Rooms[のセットアップが含まれる。](rooms-deploy.md)
 
 以下を参照してください。
 
-- [Skype for Business アドオンのライセンス](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [プランに基づいたライセンス オプション: Microsoft Teams Rooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [プランに基づいたライセンス オプション: Microsoft Teams Rooms](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams Rooms では、Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015、または Skype for Business Online にサインインし、これらのサービスでホストされている会議に参加できます。
+> Microsoft Teams Rooms は Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015 にサインインし、これらのサービスによってホストされている会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Rooms は、21Vianet または DoD 環境Microsoft 365または 21Vianet Office 365が運用する環境ではサポートされていません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Rooms は、21Vianet または DoD Microsoft 365または DoD Office 365が運用する環境ではサポートされていません。
 >
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
@@ -133,7 +132,7 @@ Microsoft Teams会議室のサイズは異なります。 Teamsルームでは�
 |[Aver VB130 カメラ サウンド バー](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose Video Bar VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Biamp Devio SCR-20CX Web-Based会議ハブと Ceiling Microphone](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
-|[Biamp Devio SCR-20TX Web-Basedのマイクを使用した会議ハブ](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
+|[テーブルトップ マイクを使用した biamp Devio SCR-20TX Web-Based会議ハブ](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly キャンバス](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
@@ -201,11 +200,11 @@ Microsoft Teams会議室のサイズは異なります。 Teamsルームでは�
 
 #### <a name="usb-extenders"></a>USB エクステンダー
 
-- タブレット ドック上の USB ポートは USB 3.0 対応です。 USB 2.x エクステンダーを使用することはできますが、その場合遠端での速度は USB 2.x の速度に制限されます。 USB 3.0 周辺機器にはエクステンダーの使用は推奨されていません。
+- タブレット ドック上の USB ポートは USB 3.0 対応です。 USB 2.x 拡張を使用できますが、遠端では USB 2.x の速度に制限されます。 USB 3.0 周辺機器にはエクステンダーの使用は推奨されていません。
 - エクステンダーは USB 2.0 以降の仕様を満たしている必要があります。
   - タブレット ドックは、少なくとも 2 つの外部 USB ハブによる拡張をサポートします。 2 つを超える USB ハブを直列に接続する場合は、ドックの製造元に直列接続がサポートされるかどうかを確認してください。
   - 会議室内の有線 GbE 接続。 適切な長さのイーサネット ケーブル。
-  - HDMI で接続された最大 2 台の 1080-p ディスプレイ。 適切な長さの HDMI ケーブル。
+  - HDMI 接続を備える最大 2 つの 1080p ディスプレイ。 適切な長さの HDMI ケーブル。
 
 > [!NOTE]
 > 屋内ディスプレイの前面として使用される消費者向け TV では、スタンバイ モードからアクティブなビデオ ソースに自動的に切り替わるように、HDMI の CEC (Consumer Electronics Control) 機能をサポート/有効にする必要があります。 この機能はすべての TV でサポートされるものではありません。
@@ -235,14 +234,6 @@ Microsoft Teams会議室のサイズは異なります。 Teamsルームでは�
  > [!NOTE]
  > 会議室正面のディスプレイの解像度は 1920x1080p 以下に設定してください。
 
-## <a name="required-software-downloads"></a>必要なソフトウェア ダウンロード
-
-Microsoft Teams Rooms のイメージをビルドするには、「[Microsoft Teams Rooms コンソールを構成する](console.md)」で説明している手順に従ってください。 これらの手順では、インストールに必要なすべてのソフトウェアをダウンロードする方法を説明しています。
-
-> [!NOTE]
-> IT 担当者は、ボリューム ライセンス契約を介して Windows 10 Enterprise ISO ファイルにアクセスする必要があります。
-
-必要に応じ、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) をダウンロードして、Microsoft Teams Rooms アカウントのプロビジョニングに使用できます。
 
 ## <a name="see-also"></a>関連項目
 
@@ -255,5 +246,3 @@ Microsoft Teams Rooms のイメージをビルドするには、「[Microsoft Te
 [Microsoft Teams Rooms コンソールを構成する](console.md)
 
 [Microsoft Teams Rooms を管理する](rooms-manage.md)
-
-[Skype for Business アドオンのライセンス](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

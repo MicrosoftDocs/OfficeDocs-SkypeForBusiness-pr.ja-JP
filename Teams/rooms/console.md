@@ -15,17 +15,20 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定および構成方法を説明します。
-ms.openlocfilehash: 0acd5449c97f1a42f1a1c015b74df8f7cdaf3e4c
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 687c507d94a7397fef0386ef3ddcc65ac7a7735b
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011561"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306312"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams Rooms のコンソールを構成する
 
 この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定方法を説明します。
-  
+
+> [!NOTE]
+> 次の手順は、Surface Pro Rooms Teamsにのみ適用されます。 その他のデバイスについては、OEM (Original Equipment Manufacturer) に問い合わせください。
+
 これらの手順は、「[デプロイの概要](rooms-deploy.md)」で説明されているように、必要な Microsoft Teams アカウントや Skype for Business のアカウントと Exchange アカウントが既に作成されている場合にのみ実行してください。 「[Microsoft Teams Rooms の要件](requirements.md)」で説明されているハードウェアとソフトウェアが必要になります。 このトピックには次のセクションが含まれます。
   
 - [インストール メディアを準備する](console.md#Prep_Media)
@@ -35,7 +38,7 @@ ms.locfileid: "60011561"
 - [Microsoft Teams Rooms のデプロイ チェックリスト](console.md#Checklist)
 
 > [!NOTE]
-> Microsoft Teams Rooms は、「[デプロイの概要](rooms-deploy.md)」で説明されているとおりにデバイス アカウントが正しく設定されている、適切に構成された Microsoft Teams 環境または Skype for Business 環境でのみ動作します。
+> 次の手順は、Surface Pro Rooms Teamsにのみ適用されます。 その他のデバイスについては、OEM にサポートを確認してください。
   
 ## <a name="prepare-the-installation-media"></a>インストール メディアを準備する
 <a name="Prep_Media"> </a>
@@ -199,7 +202,7 @@ Microsoft Teams Rooms のコンソールは、接続先のサーバーで使用�
 ### <a name="join-an-active-directory-domain-optional"></a>Active Directory ドメインに参加する (オプション)
 <a name="Certs"> </a>
 
-Microsoft Teams Rooms のコンソールをドメインに参加させることができます。 Microsoft Teams Rooms のコンソールは、使用する PC ワークステーションとは別の OU に配置する必要があります。これは、多くのワークステーション ポリシーは Microsoft Teams Roomsと互換性がないためです。 たとえば、パスワードの強制ポリシーが設定されていると、Microsoft Teams Rooms は自動的に起動しなくなります。 GPO 設定の管理の詳細については、「[Microsoft Teams Rooms の管理](rooms-operations.md)」を参照してください。
+Microsoft Teams Rooms のコンソールをドメインに参加させることができます。 Microsoft Teams Rooms のコンソールは、使用する PC ワークステーションとは別の OU に配置する必要があります。これは、多くのワークステーション ポリシーは Microsoft Teams Roomsと互換性がないためです。 たとえば、パスワードの強制ポリシーが設定されていると、Microsoft Teams Rooms は自動的に起動しなくなります。 GPO 設定の管理については、「会議室の管理[」をMicrosoft Teamsしてください](rooms-operations.md)。
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Microsoft Teams Rooms をドメインに参加させるには
 

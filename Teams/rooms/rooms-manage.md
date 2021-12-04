@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 406f083f41b0d07f6cafff273de071f11d0f2e94
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 4f326f58bea724dbf1d728955ee1d63b018ba628
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462311"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306292"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
-組織内の会議室Microsoft Teamsデバイスを使用している場合は、柔軟な管理オプションがあります。  すべての Teams ソリューション、Microsoft Teams 管理センターを管理する中央の場所でデバイスを自分で管理できます。また[、Microsoft Teams Rooms Managed Services](https://portal.rooms.microsoft.com)を使用して、管理責任を専用の専門家に譲渡することもできます。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
+組織内で会議室Microsoft Teamsデバイスを使用している場合は、柔軟な管理オプションがあります。  管理センターを使用して、すべてのソリューションを管理するのと同じ中央TeamsデバイスMicrosoft Teams管理できます。 または、Rooms [Managed Services](https://portal.rooms.microsoft.com)を使用して、管理責任を専用の専門家Microsoft Teams転送できます。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
 
 管理Microsoft Teamsを使用すると、次の方法を実行できます。
 
@@ -34,12 +34,13 @@ ms.locfileid: "60462311"
 - 現在と過去のミーティングアクティビティ（通話品質、ネットワークの状態と接続、参加者数など）を確認する
 - Microsoft Teams Room デバイスに接続されている周辺機器（カメラやプロジェクターなど）を表示する
 
-会議室デバイスTeamsを管理するには、Microsoft Teams 管理センター [](https://admin.teams.microsoft.com)を開き、[デバイス] Teams **に** 移動Teams  >  **します**。
+会議室デバイスTeamsを管理するには、Microsoft Teams 管理センター [](https://admin.teams.microsoft.com)を開き、[Teams デバイス] Teams  >  **に移動Windows。**
 
-:::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams管理センターの会議室Teamsページ。":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teamsセンターの [会議室の概要Teamsページ] をクリックします。":::
+
 
 > [!IMPORTANT]
-> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、管理者、またはデバイス管理者TeamsロールTeams割り当てられている必要があります。
+> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、Teams、またはデバイス管理者Teams割り当てられている必要があります。
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Teams ミーティング デバイスに変更を加える
 
@@ -90,24 +91,24 @@ ms.locfileid: "60462311"
 |                                                              | 既定値<br>テーマなし<br>カスタム<br>組み込みテーマの一覧   | はい                |
 
 ## <a name="cortana-settings"></a>Cortana設定 
-組織内のすべてのデバイスCortanaデバイスごとに、PowerShellを使用して、音声のアクティブ化またはプッシュによる通話を有効にできます。  
+組織内のすべてのデバイスCortanaデバイスごとに、PowerShell を使用して、音声のアクティブ化またはプッシュによる通話の共有を有効にできます。  
 -   組織レベルとグループ レベルでは、PowerShell を使用する必要があります。
 -   デバイス レベルでは、いくつかのオプションがあります。 PowerShell の使用、XML 構成ファイルの編集、管理センターでの設定Teamsできます。 
 
-PowerShell を使用してアプリケーションを構成する方法の詳細についてはCortana の管理制御と制限事項に関するページCortana[参照Teams。](/microsoftteams/cortana-in-teams#admin-control-and-limitations)
+PowerShell を使用してアプリケーションを構成する方法の詳細については、「Cortana の管理制御と制限事項」をCortana[参照Teams。](/microsoftteams/cortana-in-teams#admin-control-and-limitations)
 
 XML 構成ファイルを使用してデバイスを構成する方法の詳細については、「XML 構成ファイルを使用して Microsoft Teams 会議室の本体設定をリモートで管理する」[を参照してください](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file)。
 
 デバイス レベルでは、アクティブ化Cortanaを構成できます。
 - PowerShell _を使用してプッシュ_ して話す  
-  - 有効にする方法: Cortanaに関係なくロケールen-us で設定されているすべてのデバイスに対して、[プッシュして話す] が既定で有効になっている
+  - 有効にする方法: Cortanaに関係なくロケール en-us で設定されているすべてのデバイスに対して、[プッシュして話す] が既定で有効になっている
   - オフにする方法: PowerShell を使用します。 
 - _XML 構成_ ファイルまたは管理センターを使用した音声Teamsアクティブ化。
-  - 有効にする方法: XML 構成ファイルで設定するか、管理センターで対応する `<CortanaWakeWord>true</>` Teams使用します。
+  - 有効にする方法: XML 構成ファイルで設定するか、管理センターで対応する `<CortanaWakeWord>true</>` 設定Teams使用します。
   - [音声のアクティブ化] がCortanaをオフにする方法 
   
   デバイスで音声アクティベーションを有効にするには、次の 3 Cortana _満た_ されている必要があります。
-    1. 組織が有効になっているCortanaがあります
+    1. 組織が有効になっているCortana
     2. デバイスは、en-au、en-ca、en-gb、en-in、en-us のいずれかのローカルで設定する必要があります。
     3. Cortana Room に接続されている認定デバイスが必要[Teams詳細](/microsoftteams/cortana-in-teams)   
 
@@ -127,11 +128,11 @@ XML 構成ファイルを使用してデバイスを構成する方法の詳細�
 
 デバイスを削除すると、そのデバイスは組織から削除され、チーム管理センターのTeams ミーティング デバイスのリストに表示されなくなります。
 
-デバイスを削除した場合でも、有効なユーザー名とパスワードで構成されている場合、Microsoft 365 に再度接続すると、デバイスは自動的に Teams Rooms デバイスの一覧に再追加されます。
+デバイスを削除した場合でも、有効なユーザー名とパスワードでデバイスが構成されている場合、Microsoft 365 に再度接続すると、デバイスは自動的に Teams Rooms デバイスの一覧に再追加されます。
 
 1つまたは複数のデバイスを削除するには、次の操作を行います。
 
-1. [会議室 **Teams デバイス**  >  **Teams] に移動し**、削除するデバイスを選択します。
+1. [会議室 **TeamsデバイスTeams**  >  **に移動し**、削除するデバイスを選択します。
 1. **削除** を選択します。
 
 ## <a name="download-device-logs"></a>デバイスログをダウンロードする
@@ -140,7 +141,7 @@ Microsoft サポートから要求された場合、デバイスの診断ログ�
 
 Teams ミーティング デバイスからコンピューターにログをダウンロードするには、次の手順を実行します。
 
-1. [デバイス **] Teams Teams** に移動し、ログをダウンロードするデバイス  >  の名前を選択します。
+1. [デバイス **Teams Teams** に移動し、ログをダウンロードするデバイス  >  の名前を選択します。
 1. **デバイスログのダウンロード** を選択します。 デバイスログが使用可能になるまでに数分かかることがあります。
 1. **[履歴]** タブを選択し、**Diagnostics ファイル** で [ログファイルのリンク] を選択します。 デバイスの診断ログファイルを含むzipファイルが、ブラウザの既定のダウンロードフォルダにダウンロードされます。
 
@@ -169,7 +170,7 @@ Teams ミーティング システムダッシュボードでは、すべての�
 
 Teams ミーティング デバイスの詳細の **[アクティビティ]** タブには、デバイスが参加したすべての会議に関する高レベルの詳細情報が表示されます。 **[アクティビティ]** タブで、ミーティングがいつ開催されたか、ミーティングに参加している参加者の数、およびミーティング中のオーディオ品質を確認できます。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams[Room device activity summary list]を選択します。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teamsのデバイス アクティビティの概要一覧を表示します。":::
 
 特定のミーティングに関する詳細情報を表示するには、ミーティングの日付と時刻を選択します。 ミーティングに参加できるのが2人のみの場合は、[参加者の詳細] ページが表示されます。表示されない場合は、参加者の概要ページが表示されます。
 
@@ -177,10 +178,10 @@ Teams ミーティング デバイスの詳細の **[アクティビティ]** �
 
 参加者の概要ページには、ミーティングに参加したすべての参加者が表示されます。 各参加者がミーティングに参加した時期、名前、音声品質、およびセッション中に使用された機能を確認できます。 参加者のセッションの詳細を表示するには、参加者のセッションの開始時刻を選択します。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams会議室デバイス会議の詳細。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams会議室のデバイス会議の詳細。":::
 
 ##### <a name="participant-details"></a>参加者の詳細
 
 参加者の詳細ページには、参加者のセッションのエンドツーエンドの診断情報が表示されます。 次の図に示すように、**デバイス**、**システム**、および **接続** の情報が参加者とチームルームのデバイスに提供されます。 参加者と Teams ミーティングのデバイス間 **ネットワーク** 診断情報も表示されます。 詳細情報が必要なコンテキストのアイコンを選択します。 追加の診断情報については、**[詳細]** タブを選択してください。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teamsルーム デバイスの通話の詳細。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teamsデバイスの呼び出しの詳細を確認します。":::
