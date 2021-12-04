@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efe81626a512c4ffce9cebe9a4cb6d62e4035b5f
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b8ec92d734a62b0bfe7416a0aa83f46151ca95ab
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257548"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306432"
 ---
 # <a name="teams-essentials-quickstart-guide-for-small-businesses"></a>中小企業向けの Teams Essentials クイックスタート ガイド
 
@@ -47,23 +47,23 @@ Microsoft 認定パートナーを通じて Teams Essentials を購入した場�
 以下の表は、プラン全体で利用できる Microsoft Teams の主な機能の一覧です。 特定の警告が適用されます。 詳細については、脚注を参照してください。 将来予告なしに変更されることがあります。 機能の最新の完全なリストについては、「[Microsoft Teams サービスの説明](/office365/servicedescriptions/teams-service-description)」にアクセスしてください。
 
  
-|Microsoft Teams プラン | [**Microsoft Teams (無料)**](manage-freemium.md)) | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD ID)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams プラン | [**Microsoft Teams (無料)**](manage-freemium.md) | [**Microsoft Teams Essentials**](#get-microsoft-teams-essentials) | **Microsoft Teams Essentials (AAD ID)** | [**Microsoft 365 Business Basic**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***機能***     |         |         |         |         |
-| **会議と通話** | Yes| Yes| Yes |   Yes    |
-| 無制限のグループ会議 |     Yes    |   Yes      |   Yes      |
-| 無制限の 1 対 1 の呼び出し |    Yes     |    Yes     |   Yes      | Yes |
+| **会議と通話** | Yes| はい| はい |   Yes    |
+| 無制限のグループ会議 |     Yes    |   はい      |   Yes      |
+| 無制限の 1 対 1 の呼び出し |    Yes     |    はい     |   はい      | Yes |
 | グループ会議参加者の定員 |  100       |     300    |   300      |  300  |
 | グループ会議の期間 |    60 分     |    30 時間     |    30 時間     | 30 時間 |
-| 画面共有 |   Yes      |    Yes     |    Yes     | Yes |
-| カスタマイズされた背景 |    Yes     |    Yes     |    Yes     | Yes |
-| ライブ文字起こし |    Yes     |    Yes     |   Yes      |     Yes    |
-| 会議をスケジュールする |    Yes     |   Yes      |     Yes    |     Yes    |
-| 予定表アプリ |    Yes     |      Yes   |     Yes    |     Yes    |
-| Together モード |     Yes   |      Yes   |     Yes    |     Yes    |
-| ライブ リアクション |   Yes      |    Yes     |   Yes      |     Yes    |
-| ノイズ抑制 |    Yes     |    Yes     |   Yes      |     Yes    |
-| 会議の出席者は、アカウントなしで会議に参加できます | Yes  |    Yes     |     Yes    |     Yes    |
+| 画面共有 |   Yes      |    はい     |    はい     | Yes |
+| カスタマイズされた背景 |    Yes     |    はい     |    はい     | Yes |
+| ライブ文字起こし |    Yes     |    はい     |   はい      |     Yes    |
+| 会議をスケジュールする |    Yes     |   はい      |     はい    |     Yes    |
+| 予定表アプリ |    Yes     |      はい   |     はい    |     Yes    |
+| Together モード |     Yes   |      はい   |     はい    |     Yes    |
+| ライブ リアクション |   Yes      |    はい     |   はい      |     Yes    |
+| ノイズ抑制 |    Yes     |    はい     |   はい      |     Yes    |
+| 会議の出席者は、アカウントなしで会議に参加できます | Yes  |    はい     |     はい    |     Yes    |
 | 電話番号に会議の招待を送信する |   Yes     |  Yes      |         |    |
 | 会議のレコーディングと文字起こし |         |         |   Yes       |     Yes    |
 | リアルタイム翻訳 |         |         |    Yes     |     Yes    |
@@ -71,20 +71,20 @@ Microsoft 認定パートナーを通じて Teams Essentials を購入した場�
 | ホワイトボード |         |         |  はい       |     Yes    |
 | 出席者登録ページ、メールの確認、レポートを含むウェビナーをホストします。 |     |     |      | Business Standard で利用可能|
 | **チャットと共同作業**     |         |         |         |         |
-| 無制限のチャット (プライベートとグループ) |     Yes    |   Yes      |   Yes      |    Yes      |
-| Office アプリでのリアルタイム コラボレーション |     Yes    |   Yes      |   Yes      |  Yes      |
-| ゲスト アクセス: 社内外の誰とでもチャットできます|     Yes    |   Yes      |   Yes      |  Yes      |
-| 投票 |     Yes    |   Yes      |   Yes      |  Yes      |
+| 無制限のチャット (プライベートとグループ) |     Yes    |   はい      |   はい      |    Yes      |
+| Office アプリでのリアルタイム コラボレーション |     Yes    |   はい      |   はい      |  Yes      |
+| ゲスト アクセス: 社内外の誰とでもチャットできます|     Yes    |   はい      |   はい      |  Yes      |
+| 投票 |     Yes    |   はい      |   はい      |  Yes      |
 | グループ チャット テンプレート |     Yes    |   Yes      |   | | 
 | チームとチャネル |     |   |   Yes      |  Yes      |
 | **生産性向上アプリとサービス** |         |         |         ||
 | ファイルとドキュメントのクラウド ストレージ (ユーザーあたり) |     5 GB    |   10 GB      |   10 GB     | 1 TB | 
-| Word、Excel、PowerPoint Web & モバイル アプリ |     Yes   |   Yes      |   Yes      | Yes | 
+| Word、Excel、PowerPoint Web & モバイル アプリ |     Yes   |   はい      |   はい      | Yes | 
 | Google カレンダーの同期 |     近日対応予定    |   近日対応予定      |   はい&sup1;      | はい&sup1; | 
 | アプリの拡張性 (250 以上の統合アプリとサービス) |     |        |   Yes      | Yes | 
 | 顧客のメール ドメイン アドレスとの Exchange メール ホスティング |    |   | 2 GB&sup2; |    50 GB|
 |**セキュリティとコンプライアンス**     |         |         |         | | 
-| 保管中および転送中の Microsoft Teams データの暗号化 |     Yes    |   Yes      |   Yes      | Yes | 
+| 保管中および転送中の Microsoft Teams データの暗号化 |     Yes    |   はい      |   はい      | Yes | 
 | すべてのサービスへのシングル サインオン |         |     |   Yes      | Yes | 
 |**管理とサポート**     |         |         |         | | 
 | ユーザー、アプリ、設定、ポリシーを管理するための管理ツール  |     |   | Yes |   Yes      |
