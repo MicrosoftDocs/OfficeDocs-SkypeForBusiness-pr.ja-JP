@@ -759,96 +759,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: 'ビデオ: Teams での電話会議'
                 href: ./audio-conferencing-in-office-365.md
-      - name: Microsoft Teams Rooms
-        items:
-          - name: 概要
-            href: rooms/index.md
-          - name: Teams の会議室ガイダンス
-            href: teams-meeting-room-guidance.md
-          - name: Microsoft Teams Rooms の管理サービス
-            items:
-              - name: 管理を計画する
-                href: rooms/microsoft-teams-rooms-premium.md
-              - name: 役割ベースのアクセス制御
-                href: rooms/microsoft-teams-rooms-premium-rbac.md
-              - name: ライセンスを取得して割り当てる
-                href: rooms/obtaining-assigning-license.md
-              - name: INTUNEP マネージド サービスに登録する
-                href: rooms/enrolling-mtrp-managed-service.md
-              - name: Teams Rooms の ServiceNow を構成する
-                href: rooms/microsoft-teams-rooms-configure-servicenow.md
-          - name: 計画
-            items:
-              - name: Microsoft Teams Rooms の計画の概要
-                href: rooms/rooms-plan.md
-              - name: Windows と Android 間の Teams デバイス機能比較
-                href: rooms/teams-devices-feature-comparison.md
-              - name: バージョンのサポート
-                href: rooms/rooms-lifecycle-support.md
-              - name: リリース ノート
-                href: rooms/rooms-release-note.md
-              - name: 環境を準備する
-                href: rooms/rooms-prep.md
-              - name: 要件
-                href: rooms/requirements.md
-              - name: セキュリティ
-                href: rooms/security.md
-              - name: オンライン ライセンス
-                href: rooms/rooms-licensing.md
-              - name: Azure Monitor による管理の計画
-                href: rooms/azure-monitor-plan.md
-          - name: 展開
-            items:
-              - name: 展開の概要
-                href: rooms/rooms-deploy.md
-              - name: アカウントを構成する
-                href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 最適化された会議を設定する
-                    href: rooms/coordinated-meetings.md
-                  - name: Microsoft Teams 設定の管理
-                    href: rooms/surface-hub-manage-config.md
-              - name: Office 365 の場合
-                href: rooms/with-office-365.md
-              - name: Skype for Business Server の場合
-                href: rooms/with-skype-for-business-server-2015.md
-              - name: Exchange Online の場合 (ハイブリッド)
-                href: rooms/with-exchange-online.md
-              - name: オンプレミスの Exchange の場合 (ハイブリッド)
-                href: rooms/with-exchange-on-premises.md
-              - name: コンソールを構成する
-                href: rooms/console.md
-              - name: 手動でデバイスを更新する
-                href: rooms/manual-update.md
-              - name: 認証を構成する
-                href: rooms/rooms-authentication.md
-              - name: サードパーティ製の会議に参加する
-                href: rooms/third-party-join.md
-              - name: Microsoft Endpoint Configuration Manager を使用する
-                href: rooms/rooms-scale.md
-              - name: Azure Monitor による管理
-                href: rooms/azure-monitor-deploy.md
-              - name: SRS v1 または LRS の移行
-                href: rooms/lrs-migration.md
-              - name: コンテンツ カメラ
-                href: rooms/content-camera.md
-              - name: インテリジェント スピーカー向け音声認識コントロール
-                href: rooms/voice-recognition.md
-          - name: 管理
-            items:
-              - name: 管理の概要
-                href: rooms/rooms-manage.md
-              - name: メンテナンスと操作
-                href: rooms/rooms-operations.md
-              - name: 既知の問題
-                href: rooms/known-issues.md
-              - name: Azure Monitor でのデバイス
-                href: rooms/azure-monitor-manage.md
-              - name: XML を使用した設定
-                href: rooms/xml-config-file.md
-              - name: 回復ツールの使用
-                href: rooms/recovery-tool.md
   - name: 音声 - Teams 電話 と PSTN 接続
     items:
       - name: Teams の音声ソリューションを計画する
@@ -1069,6 +979,8 @@ items:
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: 動的な緊急通話を構成する
             href: configure-dynamic-emergency-calling.md
+          - name: リモートの場所の緊急時の住所を設定する
+            href: emergency-calling-dispatchable-location.md
           - name: 緊急時の連絡先の住所を管理する
             items:
               - name: 組織の緊急対応の場所を追加、変更、削除する
@@ -1377,6 +1289,148 @@ items:
             href: business-voice/analytics-dashboard.md
       - name: パートナーのリソース
         href: business-voice/partner-resources.md
+  - name: デバイスと会議室の管理
+    items:
+      - name: Microsoft Teams Rooms
+        items:
+          - name: 概要
+            href: rooms/index.md
+          - name: Teams の会議室ガイダンス
+            href: teams-meeting-room-guidance.md
+          - name: 計画
+            items:
+              - name: Microsoft Teams Rooms の計画の概要
+                href: rooms/rooms-plan.md
+              - name: Windows と Android 間の Teams デバイス機能比較
+                href: rooms/teams-devices-feature-comparison.md
+              - name: バージョンのサポート
+                href: rooms/rooms-lifecycle-support.md
+              - name: リリース ノート
+                href: rooms/rooms-release-note.md
+              - name: 環境を準備する
+                href: rooms/rooms-prep.md
+              - name: 要件
+                href: rooms/requirements.md
+              - name: セキュリティ
+                href: rooms/security.md
+              - name: オンライン ライセンス
+                href: rooms/rooms-licensing.md
+              - name: Azure Monitor による管理の計画
+                href: rooms/azure-monitor-plan.md
+          - name: 展開
+            items:
+              - name: 展開の概要
+                href: rooms/rooms-deploy.md
+              - name: アカウントを構成する
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: 最適化された会議を設定する
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 設定の管理
+                    href: rooms/surface-hub-manage-config.md
+              - name: Office 365 の場合
+                href: rooms/with-office-365.md
+              - name: Skype for Business Server の場合
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: Exchange Online の場合 (ハイブリッド)
+                href: rooms/with-exchange-online.md
+              - name: オンプレミスの Exchange の場合 (ハイブリッド)
+                href: rooms/with-exchange-on-premises.md
+              - name: コンソールを構成する
+                href: rooms/console.md
+              - name: 手動でデバイスを更新する
+                href: rooms/manual-update.md
+              - name: 認証を構成する
+                href: rooms/rooms-authentication.md
+              - name: サードパーティ製の会議に参加する
+                href: rooms/third-party-join.md
+              - name: Microsoft Endpoint Configuration Manager を使用する
+                href: rooms/rooms-scale.md
+              - name: Azure Monitor による管理
+                href: rooms/azure-monitor-deploy.md
+              - name: SRS v1 または LRS の移行
+                href: rooms/lrs-migration.md
+              - name: コンテンツ カメラ
+                href: rooms/content-camera.md
+              - name: インテリジェント スピーカー向け音声認識コントロール
+                href: rooms/voice-recognition.md
+          - name: 管理
+            items:
+              - name: 管理の概要
+                href: rooms/rooms-manage.md
+              - name: メンテナンスと操作
+                href: rooms/rooms-operations.md
+              - name: 既知の問題
+                href: rooms/known-issues.md
+              - name: Azure Monitor でのデバイス
+                href: rooms/azure-monitor-manage.md
+              - name: XML を使用した設定
+                href: rooms/xml-config-file.md
+              - name: 回復ツールの使用
+                href: rooms/recovery-tool.md
+      - name: Microsoft Teams Rooms の管理サービス
+        items:
+          - name: 管理を計画する
+            href: rooms/microsoft-teams-rooms-premium.md
+          - name: 役割ベースのアクセス制御
+            href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: ライセンスを取得して割り当てる
+            href: rooms/obtaining-assigning-license.md
+          - name: INTUNEP マネージド サービスに登録する
+            href: rooms/enrolling-mtrp-managed-service.md
+          - name: Teams Rooms の ServiceNow を構成する
+            href: rooms/microsoft-teams-rooms-configure-servicenow.md
+      - name: デバイス
+        items:
+          - name: Teams でのデバイスの管理
+            href: devices/device-management.md
+          - name: リモート プロビジョニングとサインイン
+            href: devices/remote-provision-remote-login.md
+          - name: リモート サインインおよびサインアウト
+            href: devices/remote-sign-in-and-sign-out.md
+          - name: デバイスをリモートで更新する
+            href: devices/remote-update.md
+          - name: Teams デバイス タグを管理する
+            href: devices/manage-device-tags.md
+          - name: Teams 対応の電話機
+            href: devices/phones-for-teams.md
+          - name: Teams ディスプレイ
+            href: devices/teams-displays.md
+          - name: Teams パネル
+            items:
+              - name: Teams パネル
+                href: devices/teams-panels.md
+              - name: Teams パネルを使用する
+                href: devices/use-teams-panels.md
+              - name: Teams パネルでのアプリのサポート
+                href: app-support-on-Teams-panels.md
+          - name: Teams 電話を Teams ディスプレイにアップグレードする
+            href: devices/upgrade-phones-to-displays.md
+          - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
+            href: devices/phones-displays-deploy.md
+          - name: USB オーディオ デバイスおよびビデオ デバイス
+            href: devices/usb-devices.md
+          - name: Android に Microsoft Teams ミーティングを展開する
+            href: devices/collab-bar-deploy.md
+          - name: Microsoft Teams Android デバイスのユーザー インターフェイスを設定する
+            href: devices/Teams-Android-devices-user-interface.md
+          - name: 会議室のデバイスとソリューション
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Teams 認定 デバイス
+            href: devices/teams-ip-phones.md
+          - name: SIP ゲートウェイ
+            items:
+              - name: SIP ゲートウェイの計画
+                href: sip-gateway-plan.md
+              - name: SIP ゲートウェイの構成
+                href: sip-gateway-configure.md
+          - name: Teams の警告と監視
+            href: alerts/teams-admin-alerts.md
+          - name: Teams のサービス正常性の監視
+            href: alerts/device-health-status.md
+          - name: Teams デバイスと周辺機器
+            href: teams-device-health.md
   - name: アプリ、ボット、コネクタ
     items:
       - name: 概要
@@ -1643,52 +1697,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Teams との SharePoint Online と OneDrive for Business の連携
             href: sharepoint-onedrive-interact.md
-      - name: サポート対象のデバイス
-        items:
-          - name: Teams でのデバイスの管理
-            href: devices/device-management.md
-          - name: リモート プロビジョニングとサインイン
-            href: devices/remote-provision-remote-login.md
-          - name: リモート サインインおよびサインアウト
-            href: devices/remote-sign-in-and-sign-out.md
-          - name: デバイスをリモートで更新する
-            href: devices/remote-update.md
-          - name: Teams デバイス タグを管理する
-            href: devices/manage-device-tags.md
-          - name: Teams 対応の電話機
-            href: devices/phones-for-teams.md
-          - name: Teams ディスプレイ
-            href: devices/teams-displays.md
-          - name: Teams パネル
-            items:
-              - name: Teams パネル
-                href: devices/teams-panels.md
-              - name: Teams パネルを使用する
-                href: devices/use-teams-panels.md
-              - name: Teams パネルでのアプリのサポート
-                href: app-support-on-Teams-panels.md
-          - name: Teams 電話を Teams ディスプレイにアップグレードする
-            href: devices/upgrade-phones-to-displays.md
-          - name: Intune を使用して Teams 電話と Teams ディスプレイを展開する
-            href: devices/phones-displays-deploy.md
-          - name: USB オーディオ デバイスおよびビデオ デバイス
-            href: devices/usb-devices.md
-          - name: Android に Microsoft Teams ミーティングを展開する
-            href: devices/collab-bar-deploy.md
-          - name: Microsoft Teams Android デバイスのユーザー インターフェイスを設定する
-            href: devices/Teams-Android-devices-user-interface.md
-          - name: 会議室のデバイスとソリューション
-            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Teams 認定 デバイス
-            href: devices/teams-ip-phones.md
-          - name: Skype for Business Online 対応の電話機
-            href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: Teams の警告と監視
-            href: alerts/teams-admin-alerts.md
-          - name: Teams のサービス正常性の監視
-            href: alerts/device-health-status.md
-          - name: Teams デバイスと周辺機器
-            href: teams-device-health.md
       - name: Teams PowerShell
         items:
           - name: 概要

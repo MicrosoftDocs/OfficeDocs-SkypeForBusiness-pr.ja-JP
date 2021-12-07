@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Microsoft Teamsアプリの前提条件とセットアップについて説明している EDU の記事を参照してください。
+description: Microsoft Teamsの前提条件とセットアップについて説明している EDU の記事を参照してください。
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
@@ -17,23 +17,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a991075ada39f5433e20230d6fabdfaebcb52aa9
-ms.sourcegitcommit: df26b435b2a7bb7561ddea74477f1ba988de9d8f
+ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
+ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61245559"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61322989"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>親アプリをデプロイするMicrosoft Teams
 
-保護者向けアプリは、教師の組織全体で拡張される Teams チャットを使用して、教師がクラス チームの学生の保護者と安全に接続し、関与するのに役立ちます。 すべての親と保護者のデータは、学校データ同期を使用してプロビジョニングされ、IT スタッフがスムーズに設定できます。
+保護者向けアプリは、教師が Teams チャットを使用して、クラス チームの学生の保護者と安全に接続して関与するのに役立ちます。このチャットは、教師の組織全体で拡張されます。 保護者のすべてのデータは、IT スタッフがスムーズに設定学校データ同期を使用してプロビジョニングされます。
 
 ## <a name="requirements"></a>要件
 
 ### <a name="school-data-sync"></a>学校データ同期
 
-- 各学生学校データ同期保護者に関連する連絡先情報を設定するには、SDS (サポート情報)**が必要** です。
-  - [SDS を展開する](/schooldatasync/how-to-deploy-sds-using-sds-v2.1-csv-files)
+- 各学生学校データ同期保護者に関連する連絡先情報を設定するには、SDS (ユーザー設定)**が必要** です。
+  - [SDS を展開する](/schooldatasync/parent-contact-sync)
 
 - SDS の設定と、テナント内の学生の保護者関連の連絡先の設定に関するサポートが必要な場合は、次の方法で EDU Customer Success チームに問い合わせてください。
   - RFA プロセスの完了[(FastTrack)。](https://www.microsoft.com/fasttrack?rtc=1)
@@ -42,8 +42,8 @@ ms.locfileid: "61245559"
 ### <a name="teams-admin-center---policies"></a>Teams 管理センター - ポリシー
 
 - クラス チームの所有者は、チャットを有効Teams必要があります。
-- クラス チームの所有者は、組織によって管理されていないTeams **を使用して外部アクセスできる必要** があります。 
-  - これは、テナント レベルとユーザー レベルで有効にする必要があります。 テナント レベルの設定は、管理センターの [ユーザー>**外部** アクセス] Teamsにあります。 この設定には、PowerShell を使用してアクセスできます。 ユーザー レベルの外部アクセス ポリシーには、PowerShell 経由でのみアクセスできます。 詳細なガイダンスについては、以下の PowerShell コマンドを参照してください。
+- クラス チームの所有者は、組織によって管理されていないアカウントTeams **外部アクセス権を持っている必要** があります。
+  - これは、テナント レベルとユーザー レベルで有効にする必要があります。 テナント レベルの設定は、管理センターの [>**外部** アクセスTeamsにあります。 この設定には、PowerShell を使用してアクセスできます。 ユーザー レベルの外部アクセス ポリシーには、PowerShell 経由でのみアクセスできます。 詳細なガイダンスについては、以下の PowerShell コマンドを参照してください。
 
 ## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>組織が管理していないアカウントTeams外部アクセスを有効にする
 
@@ -68,10 +68,13 @@ ms.locfileid: "61245559"
 3. どのユーザー レベルの外部アクセス ポリシーが存在するのかを確認します。
 
     ```powershell
-    Get-CsExternalAccessPolicy -Include All
+    Get-CsExternalAccessPolicy
     ```
 
-4. "グローバル" ポリシー以外の各ポリシーについて、ポリシーが割り当てられているユーザーを確認します。 注: 特定のポリシーが割り当てられていないユーザーは、"グローバル" ポリシーに戻されます。 テナントに追加された新しいユーザーには、"グローバル" ポリシーが割り当てられます。
+4. "グローバル" ポリシー以外の各ポリシーについて、ポリシーが割り当てられているユーザーを確認します。
+
+   > [!NOTE]
+   > 特定のポリシーが割り当てられていないユーザーは、"グローバル" ポリシーに戻されます。 テナントに追加された新しいユーザーには、"グローバル" ポリシーが割り当てられます。
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
@@ -98,9 +101,9 @@ ms.locfileid: "61245559"
 
 Parents アプリは既定で無効になっているので、クラス チームの所有者は、管理センターからアプリが許可されるまで、クラス チームのTeamsされません。 アプリは、パブリッシャーによってブロックされるアプリTeamsを使用して、管理センターから[許可できます](manage-apps.md#apps-blocked-by-publishers)。
 
-アプリは、テナント 管理センターで [許可] と[](manage-apps.md#allow-and-block-apps)[ブロック] を使用して、テナント レベルTeamsできます。 アプリがテナント レベルで無効になっている場合、ユーザー レベルのアクセス許可が有効になっている場合でも、すべてのユーザーに対してアプリがブロックされます。
+アプリは、テナント レベルでいつでも、管理センターでアプリを[](manage-apps.md#allow-and-block-apps)許可およびブロックTeamsできます。 アプリがテナント レベルで無効になっている場合、ユーザー レベルのアクセス許可が有効になっている場合でも、すべてのユーザーに対してアプリがブロックされます。
 
-アプリは、 の [アプリのアクセス許可ポリシーの管理] を使用して、ユーザー[レベルで無効Microsoft Teams。](teams-app-permission-policies.md)
+アプリは、 の [アプリのアクセス許可ポリシーの管理] を使用して、ユーザー レベル[Microsoft Teams。](teams-app-permission-policies.md)
 
 ## <a name="more-information"></a>詳細情報
 
