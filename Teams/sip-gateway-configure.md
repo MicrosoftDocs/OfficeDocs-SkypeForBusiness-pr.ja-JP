@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db828fba03cfa4c05bef16d9f1b3ec2b50dbc4af
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
+ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314258"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61327305"
 ---
 # <a name="configure-sip-gateway"></a>SIP ゲートウェイの構成
 
@@ -80,7 +80,7 @@ SIP ゲートウェイを構成する前に、次の操作を行います。
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>組織で SIP ゲートウェイを使用できると確認する
 
-1. 管理センター[にTeamsします](https://admin-teams.microsoft.net/)。
+1. 管理センター[にTeamsします](https://admin-teams.microsoft.com/)。
 
 2. 左側の [デバイス] **Teamsを選択し****、[SIP デバイス] タブが表示** されていないか確認します。 その場合、組織で SIP ゲートウェイ サービスが有効になります。
 
@@ -92,7 +92,7 @@ SIP ゲートウェイを構成する前に、次の操作を行います。
 
 管理センターで SIP ゲートウェイTeamsするには、次の手順に従います。
 
-1. 管理センター [Teams移動する](https://admin.teams.microsoft.net/)
+1. 管理センター [Teams移動する](https://admin.teams.microsoft.com/)
 
 2. 左側の [音声] で **、[通話** ポリシー] **を選択します**。
 
@@ -144,7 +144,7 @@ SIP デバイスがオンボードでサポートされているファームウ�
 
 ## <a name="configure-conditional-access"></a>条件付きアクセスを構成する
 
-条件付きアクセスは、Azure Active Directory (Azure AD) 機能であり、Microsoft 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されていることを確認するのに役立ちます。 SIP ゲートウェイは、AZURE AD で SIP デバイスを認証します。そのため、組織が企業ネットワーク内のデバイスに条件付きアクセスを使用している場合は、次の IP アドレスを除外する必要があります。
+条件付きアクセスは、Azure Active Directory (Azure AD) 機能であり、Microsoft 365 リソースにアクセスするデバイスが適切に管理され、セキュリティで保護されていることを確認するのに役立ちます。 SIP ゲートウェイは、Azure AD で SIP デバイスを認証します。そのため、組織が企業ネットワーク内のデバイスに条件付きアクセスを使用している場合は、次の IP アドレスを除外する必要があります。
 
 - 北米:
     - 米国東部: 52.170.38.140
@@ -185,13 +185,13 @@ SIP デバイスがオンボードでサポートされているファームウ�
 
      a. 右側 **の [アクティブ化の待機** 中] で、[**エクスポート]** ([エクスポート] アイコン) Microsoft Excelします。
      
-     b. [デバイス **のプロビジョニング] ウィンドウ** の [複数 **の MAC アップロード]** で、[テンプレートのダウンロード]**を選択します**。
+     b. [デバイス **のプロビジョニング] ウィンドウ** の [複数アップロード **MAC アドレスの** 選択] で、[テンプレートの **ダウンロード] を選択します**。
      
-     c. コンピューター **Template_Provisioning.csv** 保存し **、[MAC** ID] フィールドと [場所] フィールドに **入力** します。
+     c. コンピューター **Template_Provisioning.csv** 保存し **、[MAC** ID] フィールドと [場所] フィールド **に入力** します。
     
      d. [デバイスの **プロビジョニング] ウィンドウ** で、[複数の **MAC アップロードを選択します**。 
 
-     e. [MAC アドレスのアップロード **ウィンドウ** の右側で、[ファイルの選択] を選択し、データをTemplate_Provisioning.csvファイルを選択します。
+     e. [MAC アドレスの **アップロード]** ウィンドウの右側で、[ファイルの選択] を選択し、データを **Template_Provisioning.csvファイルを** 選択します。
 
      f. [**デバイスのプロビジョニング**] ウィンドウの [**アクティブ** 化待ち] でデバイスを選択し、[確認コードの生成] を選択して、プロビジョニングされたデバイスごとに 1 回の確認コードを生成します。 各 SIP デバイスの確認コードをメモします。
 
@@ -215,7 +215,7 @@ SIP デバイスがオンボードでサポートされているファームウ�
 
 1. 管理センター [**にログインTeamsします**](https://admin.teams.microsoft.com)。
 
-2. [デバイス **TEAMS SIP デバイス**  >  **] を選択します**。
+2. [デバイス **TEAMS SIP**  >  **デバイス] を選択します**。
 
 3. 右側で SIP デバイスを選択し、[サインアウト] **を選択します**。
 
@@ -243,7 +243,7 @@ SIP デバイスがオンボードでサポートされているファームウ�
 
 1. 管理センター [**にログインTeamsします**](https://admin.teams.microsoft.com)。
 
-2. [デバイス **TEAMS SIP デバイス**  >  **] を選択します**。
+2. [デバイス **TEAMS SIP**  >  **デバイス] を選択します**。
 
 3. 右側の [SIP デバイス] **ウィンドウで** 、デバイスを選択します。
 
@@ -254,15 +254,15 @@ SIP デバイスがオンボードでサポートされているファームウ�
 
 デバイスのユーザーが少なくとも 1 回サインインした後、Teams センターで SIP デバイスのインベントリを表示および監視できます。 次の操作を実行してください。
 
-1. 管理センター[にログインTeamsします](https://admin.teams.microsoft.net/)。
+1. 管理センター[にログインTeamsします](https://admin.teams.microsoft.com/)。
 
-2. [デバイス **TEAMS SIP デバイス**  >  **] を選択します**。 サインインしている SIP デバイスはすべて右側に表示されます。
+2. [デバイス **TEAMS SIP**  >  **デバイス] を選択します**。 サインインしている SIP デバイスはすべて右側に表示されます。
 
 ## <a name="restart-a-sip-device"></a>SIP デバイスを再起動する
 
 1. 管理センター[にログインTeamsします](https://admin.teams.microsoft.com)。
 
-2. [デバイス **TEAMS SIP デバイス**  >  **] を選択します**。 
+2. [デバイス **TEAMS SIP**  >  **デバイス] を選択します**。 
 
 3. 右側で、再起動する SIP デバイスを選択し、[再起動] を **選択します**。
 
