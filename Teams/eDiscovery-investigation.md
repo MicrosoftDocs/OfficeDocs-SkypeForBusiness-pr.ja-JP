@@ -17,12 +17,12 @@ description: 法的手続きのためにすべての電子的に保存された�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6fd0a7b8108ef0c8d56a814558ae0bd055dc8ef5
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: ca4e85be70ce85d8e35c743275c9f3689061bcda
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356485"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331128"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Microsoft Teams のコンテンツに対して電子情報開示の調査を行う
 
@@ -39,32 +39,32 @@ ms.locfileid: "60356485"
 | コンテンツの種類 | eDiscoverable | メモ |
 |:--- | :--- |:--- |
 |オーディオ録音 | いいえ | |
-|カードの内容|はい|詳細については [、「カードコンテンツを検索する](#search-for-card-content) 」を参照してください。|
+|カードの内容|Yes|詳細については [、「カードコンテンツを検索する](#search-for-card-content) 」を参照してください。|
 |チャット リンク | はい | |
-|チャット メッセージ | はい |これには、Teams チャネルのコンテンツ、1 対 1 のチャット、1:N グループ チャット、ゲスト ユーザー参加者とのチャットが含まれます。  |
+|チャット メッセージ | Yes |これには、Teams チャネルのコンテンツ、1 対 1 のチャット、1:N グループ チャット、ゲスト ユーザー参加者とのチャットが含まれます。  |
 |コード スニペット | いいえ | |
-|編集されたメッセージ | はい | ユーザーが保留の場合、以前のバージョンの編集されたメッセージも保持されます。 |
+|編集されたメッセージ | Yes | ユーザーが保留の場合、以前のバージョンの編集されたメッセージも保持されます。 |
 |絵文字、GIF、ステッカー | はい | |
-|インライン 画像 | はい | |
-|IM 会話を会議する | はい | |
-|会議メタデータ<sup>1</sup> | はい |  |
-|チャネルの名前 | いいえ | |
-|プライベート チャネル メッセージ | はい | |
-|引用符 | はい | 引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用されたというわけではありません。 |
-|反応 (例: Likes、ハート、その他の反応) | いいえ | |
-|件名 | はい | |
-|テーブル | はい | |
 |フィード通知 | いいえ | |
+|インライン 画像 | Yes | |
+|IM 会話を会議する | Yes | |
+|会議メタデータ<sup>1</sup> | Yes |  |
+|チャネルの名前 | はい | |
+|プライベート チャネル メッセージ | Yes | |
+|引用符 | Yes | 引用符で囲まれたコンテンツは検索可能です。 ただし、検索結果は、コンテンツが引用されたというわけではありません。 |
+|反応 (例: Likes、ハート、その他の反応) | いいえ | |
+|件名 | Yes | |
+|テーブル | はい | |
 |||
 
 <sup>1 会議</sup> (および通話) メタデータには、次が含まれます。
 
 - 会議の開始時刻と終了時刻、および期間
 - 各参加者の会議への参加と退出のイベント
-- VOIP 参加/通話
+- VOIP の参加/呼び出し
 - 匿名結合
 - フェデレーション ユーザー参加
-- ゲスト ユーザー参加
+- ゲスト ユーザーの参加
 
   この画像は、会議のメタデータの例を示しています。
 
@@ -80,7 +80,7 @@ ms.locfileid: "60356485"
 
 電子情報開示調査の実施の詳細については、「Core eDiscovery の概要 [」を参照してください](/microsoft-365/compliance/get-started-core-ediscovery)。
 
-Microsoft Teams電子情報開示のエクスポート出力に、データが IM または会話Excel表示されます。 エクスポート後に、Outlookファイルを開き、それらの `.pst` メッセージを表示できます。
+Microsoft Teams電子情報開示のエクスポート出力に、IM または会話Excel表示されます。 エクスポートしたメッセージ `.pst` をOutlookファイルを開き、それらのメッセージを表示できます。
 
 チームの .pst ファイルを表示すると、すべての会話が [会話履歴] の [チーム チャット] フォルダーに置きます。 メッセージのタイトルには、チーム名とチャネル名が含まれている。 たとえば、次の図は、製造仕様チームの Project 7 標準チャネルにメッセージを送信した Bob からのメッセージを示しています。
 
@@ -100,7 +100,7 @@ Teamsチーム内の 1 つのチャネルの電子情報開示検索をサポー
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>電子情報開示検索にプライベート チャネル ファイルを含める
 
-これらの手順を実行する前に、SharePoint Online Management Shell をインストールし、SharePoint [Online に接続します](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)。
+これらの手順を実行する前に[、SharePoint Online Management Shell をインストールし、SharePoint Online に接続します](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)。
 
 1. 次のコマンドを実行して、チーム内のプライベート SharePointに関連付けられているすべてのサイト コレクションの一覧を取得します。
 
@@ -149,7 +149,7 @@ Teamsチーム内の 1 つのチャネルの電子情報開示検索をサポー
 
 ゲスト ユーザーのコンテンツを検索するには:
 
-1. Connect PowerShell Azure ADします。 手順については、PowerShell を使用したConnectの詳細Azure Active Directoryの「Connect PowerShell [Microsoft 365」セクションを参照してください](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。 前のトピックの手順 1 と手順 2 を必ず完了してください。
+1. Connect PowerShell Azure ADを選択します。 手順については、「PowerShell を使用したConnect」の「Azure Active Directory PowerShell の[Connect」Microsoft 365を参照してください](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。 前のトピックの手順 1 と手順 2 を必ず完了してください。
 
 2. PowerShell に正常にAzure ADしたら、次のコマンドを実行して、組織内のすべてのゲスト ユーザーのユーザー プリンシパル名 (UPN) を表示します。 手順 4 で検索を作成するときに、ゲスト ユーザーの UPN を使用する必要があります。
 
@@ -160,7 +160,7 @@ Teamsチーム内の 1 つのチャネルの電子情報開示検索をサポー
    > [!TIP]
    > コンピューターの画面にユーザー プリンシパル名の一覧を表示する代わりに、コマンドの出力をテキスト ファイルにリダイレクトできます。 これを行うには、前のコマンド `> filename.txt` に を追加します。 ユーザー プリンシパル名を持つテキスト ファイルは、現在のフォルダーに保存されます。
 
-3. 別のウィンドウWindows PowerShell、Security & Compliance Center PowerShell に接続します。 手順については、「Security [Connect コンプライアンス センター PowerShell &」を参照してください](/powershell/exchange/connect-to-scc-powershell)。 多要素認証を使用する場合と接続せずに接続できます。
+3. 別のウィンドウWindows PowerShell、Security & Compliance Center PowerShell に接続します。 手順については、「Security [Connect Compliance Center PowerShell &」を参照してください](/powershell/exchange/connect-to-scc-powershell)。 多要素認証を使用して接続するか、またはを使用せずに接続できます。
 
 4. 次のコマンドを実行して、指定されたゲスト ユーザーが参加者だったすべてのコンテンツ (チャット メッセージや電子メール メッセージなど) を検索するコンテンツ検索を作成します。
 
@@ -190,7 +190,7 @@ Teamsチーム内の 1 つのチャネルの電子情報開示検索をサポー
 
    - [ **結果の表示]** をクリックして検索結果を表示し、コンテンツをプレビューします。
 
-   - [クエリ] **フィールドの横** にある [編集] **をクリック** して編集し、検索を再実行します。 たとえば、検索クエリを追加して結果を絞り込むなどです。
+   - [クエリ] **フィールドの横** にある [編集 **] をクリック** して編集し、検索を再実行します。 たとえば、検索クエリを追加して結果を絞り込むなどです。
 
    - [結果 **のエクスポート]** をクリックして、検索結果をエクスポートしてダウンロードします。
 
@@ -198,13 +198,13 @@ Teamsチーム内の 1 つのチャネルの電子情報開示検索をサポー
 
 Teams チャネル、1 対 1 のチャット、および 1xN チャットのアプリによって生成されたカード コンテンツは、メールボックスに格納され、検索できます。 カード *は* 、短いコンテンツの UI コンテナーです。 カードには複数のプロパティと添付ファイルを含め、カードアクションをトリガーできるボタンを含めることができます。 詳細については、「カード」を [参照してください。](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
 
-他のTeamsコンテンツと同様に、カードコンテンツが格納される場所は、カードが使用された場所に基づいて行います。 チャネルで使用されるカードのTeamsは、グループ メールボックスTeamsされます。 1 対 1 および 1xN のチャットのカード コンテンツは、チャット参加者のメールボックスに保存されます。
+他のTeamsコンテンツと同様に、カードコンテンツが格納される場所は、カードが使用された場所に基づいて行います。 チャネルで使用されるカードのTeamsは、グループ メールボックスTeams保存されます。 1 対 1 および 1xN のチャットのカード コンテンツは、チャット参加者のメールボックスに保存されます。
 
-カードコンテンツを検索するには、 または 検索条件 `kind:microsoftteams` を `itemclass:IPM.SkypeTeams.Message` 使用します。 検索結果を確認すると、Teams チャネル内のボットによって生成されたカード コンテンツは **、Sender/Author** メール プロパティとして として設定されます。ここでは、カード コンテンツを生成したアプリの `<appname>@teams.microsoft.com` `appname` 名前です。 カードコンテンツがユーザーによって生成された場合 **、Sender/Author** の値はユーザーを識別します。
+カードコンテンツを検索するには、 または 検索条件 `kind:microsoftteams` を `itemclass:IPM.SkypeTeams.Message` 使用します。 検索結果を確認すると、Teams チャネル内のボットによって生成されたカード コンテンツは **、Sender/Author** メール プロパティとして として設定されます。ここでは、カード コンテンツを生成したアプリの名前です `<appname>@teams.microsoft.com` `appname` 。 カードコンテンツがユーザーによって生成された場合 **、Sender/Author** の値はユーザーを識別します。
 
 コンテンツ検索結果でカードコンテンツを表示すると、そのコンテンツがメッセージの添付ファイルとして表示されます。 添付ファイルの名前 `appname.html` は です。 `appname` ここでは、カードコンテンツを生成したアプリの名前です。 次のスクリーンショットは、(Asana という名前のアプリの) カード コンテンツが検索の結果Teamsに表示される方法を示しています。
 
-**[カードコンテンツ] Teams**
+**Teams のカードコンテンツ**
 
 ![チャネル メッセージのTeamsコンテンツ。](media/CardContentTeams.png)
 
@@ -213,9 +213,9 @@ Teams チャネル、1 対 1 のチャット、および 1xN チャットのア�
 ![コンテンツ検索の結果と同じカード コンテンツ。](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> この時点でカード コンテンツの画像を検索結果に表示するには (前のスクリーンショットのチェックマークなど)、(検索結果の表示に使用したのと同じブラウザー セッションの別のタブで) Teams にサインインする必要があります。 https://teams.microsoft.com) それ以外の場合は、画像プレースホルダーが表示されます。
+> この時点でカードコンテンツの画像を検索結果に表示するには (前のスクリーンショットのチェックマークなど)、(検索結果の表示に使用したのと同じブラウザー セッションの別のタブで) Teams にサインインする必要があります。 https://teams.microsoft.com) それ以外の場合は、画像プレースホルダーが表示されます。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [Microsoft 365電子情報開示ソリューション](/microsoft-365/compliance/ediscovery)
 - [Core eDiscovery の使用](/microsoft-365/compliance/get-started-core-ediscovery)

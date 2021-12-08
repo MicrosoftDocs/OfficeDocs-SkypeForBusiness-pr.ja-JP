@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Microsoft Teams Rooms の管理サービスについて説明します。
 f1keywords: ''
-ms.openlocfilehash: 7584011b3fc2f20318801b33e2be87f0f0cfe83e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2c0131f76146c27e259198baca826cedaddc6426
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012741"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331108"
 ---
 # <a name="microsoft-teams-rooms-managed-service"></a>Microsoft Teams Rooms の管理サービス
 
@@ -31,6 +31,25 @@ Microsoft Teams Rooms の管理サービスは、Microsoft Teams Rooms デバイ
 Microsoft Teams Rooms の管理サービスは、Microsoft Teams Rooms デバイスを積極的に管理することにより、会議室のエクスペリエンスを向上させ、設置面積を迅速に拡張したいと考えている組織を対象としています。 このサービスを利用すると、「自分で行う」会議室の管理に費やす時間とコストを節約し、専門知識を活用できます。  
 
 Microsoft Teams Rooms の管理サービスは、エンド ポイントのソフトウェア対応管理、機械学習、およびインテリジェント自動化に関する Microsoft の専門知識に基づいて構築されています。 Microsoft Teams Rooms の管理サービスは、組織が複数のリモート サイトにわたって高品質の環境を提供し、組織が必要とするあらゆる成長ペースに対応できるよう支援します。
+
+サービスの 3 つの重要な側面を次に示します。  
+
+- インテリジェント操作  
+
+   Microsoft Teams Rooms の更新、問題の検出、問題の解決を自動化するソフトウェアと機械学習。  
+
+
+
+- 専用のエキスパート  
+
+   24 時間 365 日のサービス操作、階層化されたサポート、インシデント解決の支援を提供する専門家チーム。  
+
+
+
+- 強化された分析情報  
+
+   豊富な分析、レポート作成、実証済みの学習を多数の顧客に提供します。  
+
 
 ## <a name="service-capabilities"></a>サービス機能
 
@@ -44,7 +63,7 @@ Microsoft Teams Rooms の管理サービスの概要を以下に示します。
 |**分析情報と推奨事項**     |お客様の健康状態、使用状況、使用率、および機器の信頼性に関する分析情報。         |
 |**コンプライアンスと認定**   |Microsoft オンライン サービスの該当するすべての基準を満たしています。         |
 |**カスタマー サポート**   |Microsoft Teams Rooms の管理サービス オペレーション センター (SOC) による 24 時間 365 日対応のチケット サポート お客様に代わって他の主要ベンダーにエスカレーションします (該当する場合)。 詳細については、[カスタマー サポート](#customer-support)を参照してください。|
-|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*Surface Hub のサポートは 2021 年後半に予定されています*        |
+|**サポートされるデバイス**    |認定された Microsoft Teams Rooms のシステムとその周辺機器。<br>*Surface Hub 2021 年後半にサポートされる予定です*        |
 |**サポートされる地域**    |[サポートされる地域](#supported-regions)を参照してください。        |
 |**統合**    |お客様がホストする ServiceNow との統合が可能です。         |
 
@@ -91,7 +110,7 @@ Microsoft Teams Rooms の管理サービスのサポート対象の詳細につ�
 
 ## <a name="supported-regions"></a>サポートされる地域
 
-Microsoft Teams Rooms Premium ライセンスは、Microsoft 365 が利用可能なすべての国と地域で利用できます。 国と地域の完全な一覧については [、Microsoft 365 の国際展開に関するページを参照してください](https://www.microsoft.com/microsoft-365/business/international-availability)。
+Microsoft Teams Rooms プレミアムライセンスは、利用可能なすべての国と地域Microsoft 365利用できます。 国と地域の完全な一覧については、「Microsoft 365[を参照してください](https://www.microsoft.com/microsoft-365/business/international-availability)。
 
 ## <a name="support-inclusions-and-exclusions"></a>サポート内容と除外事項
 
