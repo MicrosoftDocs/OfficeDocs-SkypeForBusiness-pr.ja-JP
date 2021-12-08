@@ -759,6 +759,102 @@ items:
                 href: audio-conferencing-zones.md
               - name: 'ビデオ: Teams での電話会議'
                 href: ./audio-conferencing-in-office-365.md
+      - name: Microsoft Teams Rooms
+        items:
+          - name: 概要
+            href: rooms/index.md
+          - name: Teams の会議室ガイダンス
+            href: teams-meeting-room-guidance.md
+          - name: Microsoft Teams Rooms の管理サービス
+            items:
+              - name: 概要
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: ライセンスを取得して割り当てる
+                href: rooms/obtaining-assigning-license.md
+              - name: INTUNEP マネージド サービスに登録する
+                href: rooms/enrolling-mtrp-managed-service.md
+              - name: 役割ベースのアクセス制御
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
+              - name: Teams Rooms の ServiceNow を構成する
+                href: rooms/microsoft-teams-rooms-configure-servicenow.md
+              - name: パートナー向けの顧客マルチテナント管理
+                href: rooms/multi-tenant-management-partner.md
+              - name: 顧客向けのパートナー管理
+                href: rooms/multi-tenant-management-customer.md
+              - name: Teams Rooms の管理対象サービス アクティビティの監査ログ
+                href: rooms/multi-tenant-auditing.md
+          - name: 計画
+            items:
+              - name: Microsoft Teams Rooms の計画の概要
+                href: rooms/rooms-plan.md
+              - name: Windows と Android 間の Teams デバイス機能比較
+                href: rooms/teams-devices-feature-comparison.md
+              - name: バージョンのサポート
+                href: rooms/rooms-lifecycle-support.md
+              - name: リリース ノート
+                href: rooms/rooms-release-note.md
+              - name: 環境を準備する
+                href: rooms/rooms-prep.md
+              - name: 要件
+                href: rooms/requirements.md
+              - name: セキュリティ
+                href: rooms/security.md
+              - name: オンライン ライセンス
+                href: rooms/rooms-licensing.md
+              - name: Azure Monitor による管理の計画
+                href: rooms/azure-monitor-plan.md
+          - name: 展開
+            items:
+              - name: 展開の概要
+                href: rooms/rooms-deploy.md
+              - name: アカウントを構成する
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: 最適化された会議を設定する
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams 設定の管理
+                    href: rooms/surface-hub-manage-config.md
+              - name: Office 365 の場合
+                href: rooms/with-office-365.md
+              - name: Skype for Business Server の場合
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: Exchange Online の場合 (ハイブリッド)
+                href: rooms/with-exchange-online.md
+              - name: オンプレミスの Exchange の場合 (ハイブリッド)
+                href: rooms/with-exchange-on-premises.md
+              - name: コンソールを構成する
+                href: rooms/console.md
+              - name: 手動でデバイスを更新する
+                href: rooms/manual-update.md
+              - name: 認証を構成する
+                href: rooms/rooms-authentication.md
+              - name: サードパーティ製の会議に参加する
+                href: rooms/third-party-join.md
+              - name: Microsoft Endpoint Configuration Manager を使用する
+                href: rooms/rooms-scale.md
+              - name: Azure Monitor による管理
+                href: rooms/azure-monitor-deploy.md
+              - name: SRS v1 または LRS の移行
+                href: rooms/lrs-migration.md
+              - name: コンテンツ カメラ
+                href: rooms/content-camera.md
+              - name: インテリジェント スピーカー向け音声認識コントロール
+                href: rooms/voice-recognition.md
+          - name: 管理
+            items:
+              - name: 管理の概要
+                href: rooms/rooms-manage.md
+              - name: メンテナンスと操作
+                href: rooms/rooms-operations.md
+              - name: 既知の問題
+                href: rooms/known-issues.md
+              - name: Azure Monitor でのデバイス
+                href: rooms/azure-monitor-manage.md
+              - name: XML を使用した設定
+                href: rooms/xml-config-file.md
+              - name: 回復ツールの使用
+                href: rooms/recovery-tool.md
   - name: 音声 - Teams 電話 と PSTN 接続
     items:
       - name: Teams の音声ソリューションを計画する
