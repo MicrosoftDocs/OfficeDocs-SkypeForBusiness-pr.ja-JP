@@ -15,20 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: このトピックでは、Exchange OnlineとSkype for Business Serverオンプレミス を使用して Microsoft Teams Rooms を展開する方法について説明します。
-ms.openlocfilehash: 7e80da026164fc2b1feba3d03c220e4622454e49
-ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
+ms.openlocfilehash: 8f8511f4dd05b6d2eb073aaab0a14305c9d67831
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "61153290"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355636"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Exchange Online を使用して Microsoft Teams Rooms を展開
 
-このトピックでは、Exchange OnlineとSkype for Business Serverオンプレミス を使用して Microsoft Teams Rooms を展開する方法について説明します。
+このトピックでは、会議室と会議室をデプロイするMicrosoft Teams方法について説明Exchange Online。
   
 組織にサービスが混在していて、オンプレミスとオンラインでホストされているものがある場合、構成は各サービスのホスト場所によって異なります。 このトピックでは Exchangeがオンラインでホストする、Microsoft Teams Rooms のハイブリッドな展開について説明します。 この種類の展開には、さまざまな違いがあるため、すべての手順を詳細に説明することはできません。 次のプロセスは、多くの構成で機能します。 このプロセスがユーザーのセットアップに適していない場合は、Windows PowerShell を使用して、ここに記載されているのと同じ結果を達成するか、または他の展開オプションをお勧めします。
-
-ユーザー アカウントをセットアップする最も簡単な方法は、リモート Windows PowerShell を使用して構成することです。 Microsoft では、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) を提供しています。これは、新しいユーザー アカウントを作成するか、既存のリソース アカウントを検証するスクリプトであり、それらのアカウントを互換性のある Microsoft Teams Rooms のユーザー アカウントに変換する助けとなります。 必要な場合は、次の手順に従って、Microsoft Teams Rooms のデバイスが使用するアカウントを構成できます。
 
 ## <a name="requirements"></a>要件
 
@@ -46,11 +44,8 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
 1. PC でリモートの Windows PowerShell セッションを開始し、次のように Exchange Online に接続します。
 
     ``` Powershell
-    Set-ExecutionPolicy Unrestricted
-    $org = 'contoso.microsoft.com'
-    $cred = Get-Credential $admin@$org
-    $sess = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $cred -Authentication Basic -AllowRedirection
-    Import-PSSession $sess -DisableNameChecking
+   Import-Module ExchangeOnlineManagement
+   Connect-ExchangeOnline
     ```
 
 2. セッションを確立したら、新しいメールボックスを作成して、それを RoomMailboxAccount として有効にするか、既存の会議室メールボックスの設定を変更します。 これにより、アカウントは、Microsoft Teams Roomsに認証されます。
@@ -58,20 +53,20 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
    既存のリソースメールボックスを変更する場合：
 
    ``` Powershell
-   Set-Mailbox -Identity 'PROJECT01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   Set-Mailbox -Identity 'ConferenceRoom01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
     新しいリソース メールボックスを作成している場合:
 
    ``` Powershell
-   New-Mailbox -MicrosoftOnlineServicesID 'PROJECT01@contoso.com' -Alias PROJECT01 -Name "Project--01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
+   New-Mailbox -MicrosoftOnlineServicesID 'ConferenceRoom01@contoso.com' -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
 3. 会議のエクスペリエンスを改善するには、ユーザー アカウントで、次のように Exchangeプロパティを設定する必要があります。
 
    ``` Powershell
-   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity 'PROJECT01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+   Set-CalendarProcessing -Identity 'ConferenceRoom01@contoso.com' -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>オンプレミスのドメインアカウントのメールアドレスを追加する
@@ -94,20 +89,20 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview) はサポートされていません。
 
     ``` PowerShell
-   Connect-MsolService -Credential $cred
+   Connect-MsolService
     ```
   <!--   ``` Powershell
      Connect-AzureAD -Credential $cred
      ``` -->
 
-2. ユーザーアカウントは、Exchange と Skype for Business Serverが正常に機能するように、有効な Microsoft 365 または Office 365 ライセンスを持っている必要があります。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。 課題は次の手順で行います。
+2. ユーザー アカウントが動作するには、有効なMicrosoft 365またはOffice 365ライセンスが必要Exchangeがあります。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。 課題は次の手順で行います。
 3. 次に、`Get-MsolAccountSku`を使用します。  <!--Get-AzureADSubscribedSku--> Microsoft 365 または Office 365の 組織で使用でき SKU の一覧を取得します。
-4. SKUの一覧が表示された場合は、`Set-MsolUserLicense`を使用してライセンスを追加できます <!-- Set-AzureADUserLicense--> コマンドレット この例では、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。 
+4. ライセンスを追加するには、 `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> することができます。 この場合、Microsoft Teams Rooms Standard ライセンスが適用されています。 
 
     ```PowerShell
-    Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
+    Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
     Get-MsolAccountSku
-    Set-MsolUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
+    Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses "contoso:MEETING_ROOM"
     ```
   <!--   ``` Powershell
      Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
@@ -115,59 +110,7 @@ Active Directory フェデレーションサービス (AD FS) を展開した場
      Set-AzureADUserLicense -UserPrincipalName 'PROJECT01@contoso.com' -AddLicenses $strLicense
      ``` -->
 
-### <a name="enable-the-user-account-with-skype-for-business-server"></a>Skype for Business Server でユーザー アカウントを有効にする
-
-> [!NOTE]
-> 会議にのみ参加Teams会議室をMicrosoft Teams場合は、次の手順を実行する必要があります。 次の手順は、アプリケーションのサポートを有効にする場合にのみSkype for Business。
-
-1. PC からリモートの Windows PowerShell セッションを作成するには、次のようにします。
-
-   > [!NOTE]
-   > Skype for Business Online Connector は現在、最新の Teams PowerShell モジュールに含まれています。
-   >
-   > 最新の [Teams PowerShell パブリック リリース](https://www.powershellgallery.com/packages/MicrosoftTeams/)をご利用の場合は、Skype for Business Online Connector をインストールする必要はありません。
-
-   ``` Powershell
-   # When using Teams PowerShell Module
-   Import-Module MicrosoftTeams
-   $credential = Get-Credential
-   Connect-MicrosoftTeams -Credential $credential
-   ```
-
-2. Skype for Business Serverに対して Microsoft Teams Rooms を有効にするには、次のコマンドを実行します。
-
-   ``` Powershell
-   Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
-   ```
-
-    お使いの環境のRegistrarPool パラメーターに使用する値が定かでない場合は、次のコマンドを実行して既存のSkype for Business Serverユーザーから値を取得できます。
-
-   ``` Powershell
-   Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
-   ```
-
-### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Microsoft Teams Rooms のアカウントに Skype for Business Server のライセンスを割り当てる
-
-> [!NOTE]
-> 会議にのみ参加Teams会議室をMicrosoft Teams場合は、次の手順を実行する必要があります。 次の手順は、アプリケーションのサポートを有効にする場合にのみSkype for Business。
-
-1. テナント管理者としてログインし、Microsoft 365 管理センターを開き、Admin アプリをクリックします。
-2. [ **ユーザーとグループ**] をクリックし [ **ユーザーの追加]、[パスワードのリセット]、およびその他の** をクリックします。
-3. Microsoft Teams Rooms アカウントをクリックし、ペン アイコンをクリックして、アカウント情報を編集します。
-4. [**ライセンス**] をクリックします。
-5. ライセンスとエンタープライズ VoIP の要件に応じて、[**ライセンスの割り当て**] で [Skype for Business (プラン 2)] または [
-Skype for Business (プラン 3)] を選択します。 Microsoft Teams Rooms でエンタープライズ通話 を使用する場合は、プラン 3 のライセンスを使用する必要があります。
-6. [**保存**] をクリックします。
-
-検証を行う場合は、通常、どの Skype for Businessクライアントを使用してもこのアカウントにログインできます。
-
-> [!NOTE]
-> 電話会議、または電話システム、通話プランが含まれる Skype for Business プラン 2で、E1、E3、E4、E5 SKU を現在お使いの場合、これらは引き続き機能します。 現在のライセンスの有効期限が切れている場合は、[Teams ミーティングルームのライセンスアップデート](rooms-licensing.md)の説明にあるように、簡単なライセンスモデルへの移行をお勧めします。
-
-> [!IMPORTANT]
-> Skype for Business プラン 2 を使用している場合、[Skype for Business のみ] のモードで Microsoft Teams Rooms をご利用いただけます。つまり、すべての会議が Skype for Business の会議になります。 Microsoft Teams ミーティングの会議室を使用できるようにするため、ミーティング ルーム ライセンスのご購入をお勧めします。
-  
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Microsoft Teams Rooms のアカウントを構成する](rooms-configure-accounts.md)
 

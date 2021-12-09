@@ -1,5 +1,5 @@
 ---
-title: オンプレミスで Exchange を使用し Microsoft Teams Rooms を展開
+title: オンプレミスMicrosoft Teamsを使用Exchange会議室をデプロイする (ハイブリッド)
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -17,26 +17,24 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: このトピックでは、オンプレミスの Exchange が搭載されたハイブリッド環境に Microsoft Teams Rooms を展開する方法について説明します。
-ms.openlocfilehash: 96d8a49cd75e3413739d36a3c86a91daa72b22e6
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 15936a805e45ce17ec35822bb02980b4d47499b8
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909538"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355622"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>オンプレミスで Exchange を使用し Microsoft Teams Rooms を展開する
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>オンプレミスMicrosoft Teams会議室をExchangeする (ハイブリッド)
 
 このトピックでは、オンプレミスとオンプレミスのハイブリッド環境に Microsoft Teams Rooms をデプロイするExchange方法について説明Microsoft Teams。
   
-組織に複数のサービスが混在し、一部がオンプレミスでホストされ、一部がオンラインでホストされている場合、構成は各サービスがホストされている場所によって異なります。 このトピックでは、オンプレミスでホストされている Microsoft Teams Rooms Exchangeハイブリッド デプロイについて説明します。 この種類の展開には、さまざまな違いがあるため、すべての手順を詳細に説明することはできません。 次のプロセスは、多くの構成で機能します。 このプロセスがユーザーのセットアップに適していない場合は、Windows PowerShell を使用して、ここに記載されているのと同じ結果を達成するか、または他の展開オプションをお勧めします。
-
-Microsoft では、[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) を提供しています。これは、新しいユーザー アカウントを作成するか、既存のリソース アカウントを検証するスクリプトであり、それらのアカウントを互換性のある Microsoft Teams Rooms のユーザー アカウントに変換する助けとなります。 必要な場合は、次の手順に従って、Microsoft Teams Rooms のデバイスが使用するアカウントを構成できます。
+組織に複数のサービスが混在し、一部がオンプレミスでホストされ、一部がオンラインでホストされている場合、構成は各サービスがホストされている場所によって異なります。 このトピックでは、オンプレミスでホストされている Microsoft TeamsルームのExchange展開について説明します。 この種類の展開には、さまざまな違いがあるため、すべての手順を詳細に説明することはできません。 次のプロセスは、多くの構成で機能します。 このプロセスがユーザーのセットアップに適していない場合は、Windows PowerShell を使用して、ここに記載されているのと同じ結果を達成するか、または他の展開オプションをお勧めします。
   
 ## <a name="requirements"></a>要件
 
 Microsoft Teams Rooms をオンプレミスの Exchangeで展開する前に、要件を満たしていることをご確認ください。 詳細については、「[Microsoft Teams Rooms の要件](requirements.md)」をご覧ください。
   
-Microsoft Teams Rooms と Exchange をオンプレミスでデプロイする場合は、Active Directory 管理ツールを使用して、オンプレミス ドメイン アカウントのメール アドレスを追加します。 このアカウントは、Microsoft 365 または Office 365 に同期されます。 次の操作が必要です。
+Exchange を使用して Microsoft Teams 会議室をオンプレミスにデプロイする場合は、Active Directory 管理ツールを使用して、オンプレミス ドメイン アカウントのメール アドレスを追加します。 このアカウントは、Microsoft 365 または Office 365 に同期されます。 次の操作が必要です。
   
 - アカウントを作成し、アカウントを Azure Active Directory。
 
@@ -53,9 +51,9 @@ Microsoft Teams Rooms と Exchange をオンプレミスでデプロイする場
 3. このアカウントのパスワードを入力します。確認のためにもう一度入力する必要があります。[**パスワードを無期限にする**] チェック ボックスだけがオンになっていることを確認します。
 
     > [!NOTE]
-    > [パスワードの **有効期限がありません] を選択** すると、会議室Microsoft Teamsされます。 有効期限が切れないパスワードは、ドメインのルールで禁止されるかもしれません。 その場合は、Microsoft Teams Rooms のユーザーアカウントごとに例外を作成する必要があります。
+    > [パスワードの **有効期限が切れることはありません**] を選択すると、Microsoft Teamsされます。 有効期限が切れないパスワードは、ドメインのルールで禁止されるかもしれません。 その場合は、各会議室アカウントに対して例外Microsoft Teams必要があります。
   
-4. アカウントを作成したら、ディレクトリの同期を実行します。 同期が完了したら、Microsoft 365管理センターの [ユーザー] ページに移動し、上記の手順で作成したアカウントがオンラインにマージされていることを確認します。
+4. アカウントを作成したら、ディレクトリの同期を実行します。 完了したら、Microsoft 365 管理センター の [ユーザー] ページに移動し、前の手順で作成したアカウントがオンラインに同期済みである必要があります。
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>リモートメールボックスを有効にしてプロパティを設定する
 
@@ -64,14 +62,14 @@ Microsoft Teams Rooms と Exchange をオンプレミスでデプロイする場
 2. Exchange PowerShell で次のコマンドを実行して、アカウントのメールボックスを作成します （アカウントのメールボックス有効化）アカウントを有効にします）。
 
    ```PowerShell
-   Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
+   Enable-Mailbox ConferenceRoom01@contoso.com -Room
    ```
 
    構文およびパラメーターの詳細については、「[Enable-Mailbox](/powershell/module/exchange/mailboxes/enable-mailbox)」を参照してください。
 
 3. Exchange Online PowerShell で、会議機能を向上させるために、会議室メールボックスの次の設定を構成します。
 
-   - AutomateProcessing: AutoAccept (会議の開催者は、手動での介入なしに部屋予約の決定を受け取ります: free = 同意; busy = 拒否。)
+   - AutomateProcessing: AutoAccept (会議の開催者は、人の介入なしに会議室の予約の決定を直接受け取る)。
 
    - AddOrganizerToSubject: $false (会議の開催者は、会議出席依頼の件名に追加されません。)
 
@@ -85,13 +83,13 @@ Microsoft Teams Rooms と Exchange をオンプレミスでデプロイする場
 
    - AdditionalResponse: "This is a Microsoft Teams Meeting room!" (会議出席依頼に追加するテキスト)。
 
-   この例では、Project-Rigel-01という名前の会議室メールボックスでこれらの設定を構成します。
+   この例では、ConferenceRoom01 という名前の会議室メールボックスでこれらの設定を構成します。
 
    ```PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
-   構文とパラメーターの詳細情報については、[Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
+   構文とパラメーターの詳細については、「[Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)」を参照してください。
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Microsoft 365 または Office 365 ライセンスを割り当てる
 
@@ -100,7 +98,7 @@ Microsoft Teams Rooms と Exchange をオンプレミスでデプロイする場
    > [!NOTE]
    > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) はサポートされていません。 
 
-2. デバイスアカウントには、Microsoft 365 または Office 365 の有効なライセンスが必要です。さもないと Exchange および Microsoft Teams は機能しません。 ライセンスを所有している場合は、使用場所をユーザーアカウントに割り当てる必要があります。これにより、アカウントに使用できるライセンス SKU が決まります。 `Get-MsolAccountSku` を使用して、 <!-- Get-AzureADSubscribedSku --> 使用可能な SKUの一覧を取得できます。
+2. リソース アカウントには、有効なライセンスまたはMicrosoft 365ライセンスがOffice 365必要です。または、ExchangeがMicrosoft Teams機能しません。 ライセンスを持っている場合は、リソース アカウントに使用場所を割り当てる必要があります。これにより、アカウントで使用できるライセンス SKU が決されます。 `Get-MsolAccountSku` を使用して、 <!-- Get-AzureADSubscribedSku --> 使用可能な SKUの一覧を取得できます。
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -109,9 +107,9 @@ Microsoft Teams Rooms と Exchange をオンプレミスでデプロイする場
 3. 次に、以下の `Set-MsolUserLicense`を使用してライセンスを追加することができます。 <!-- Set-AzureADUserLicense --> することができます。 この例では、表示される SKU コードは $strLicense です (たとえば、contoso:STANDARDPACK)。
 
   ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
   Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
   ```
 
 <!--   ``` Powershell

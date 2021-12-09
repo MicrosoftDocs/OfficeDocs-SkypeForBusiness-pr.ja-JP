@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) に関してよく寄せられる質問 (FAQ) Microsoft Teams回答を参照してください。
-ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d0d0bbbc35ac130755e61075408e9de80f1c09c
+ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616303"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "61362544"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)
 
@@ -38,11 +38,13 @@ ms.locfileid: "58616303"
 
 [CQD で EUII が表示できない理由](#why-cant-i-see-euii-in-cqd)
 
-[フィルター処理のみをSkype for Business、CQD に情報が表示Teams。](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[フィルター処理のみをSkype for Business、CQD に一部の情報が表示Teams。](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [追加のエントリが必要とわかっているのに、カスタム レポートで返される行数が最大 10,000 行になる理由](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [VPN 接続Wi-Fi Wi-Fi ではなく有線接続として表示される理由](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
+
+[Teams でポリシー ベースのレコーディングを有効にした後、ピアツーピア通話は電話会議としてマークされています。何が起こったのでしょうか。](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>1 人または複数の会議参加者の経験が低い場合、CQD が通話を "良好" とマークする理由
 
@@ -79,30 +81,34 @@ CQD で詳細なレポートを作成し、会議 ID でフィルター処理し
 
 これらの管理者ロールは CQD にアクセスできますが、EUII (エンド ユーザーが特定できる情報) を表示できません。
 
-- Microsoft 365レポート閲覧者
+- Microsoft 365 レポート閲覧者
 - Teams 通信サポート スペシャリスト
 
 CQD にアクセスできるロール (EUII を含む) の詳細については、「CQD にアクセスするためにロールを割り当てる」 [を参照してください](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>フィルター処理のみをSkype for Business、CQD に情報が表示Teams。
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>フィルター処理のみをSkype for Business、CQD に情報がTeams理由
 
-CQD レポート (isTeams = 1) でのみ Teams をフィルター処理する場合は、最初のエンドポイントが呼び出されるすべての呼び出しをフィルター処理Teams。 2 *つ目の* エンドポイントSkype for Business、その情報が CQD レポートに表示されます。
+CQD Teams (isTeams = 1) でのみフィルター処理する場合は、最初のエンドポイントが呼び出されるすべての呼び出しTeams。 2 *つ目の* エンドポイントSkype for Business、その情報が CQD レポートに表示されます。
 
 CQDv2 と CQDv3 の合計カウントは常に異なります。CQDv3 には、CQDv2 にはない新しいシナリオが含まれています。 集計合計または集計された全数値をフィルターを使用して比較すると、これらの期待される違いが生じ得るのは、その理由です。  
 
 顧客のシナリオに応じて、CQDv3 には SFB 2019 オンプレミス呼び出し (SFB 2019 がデータ コネクタで使用されている場合)、Skype ボット呼び出し (AA、CVI、VDI)、ライブ イベント、PSTN 通話が含まれます。 顧客が利用できるが、そのデータが CQD V2 にはないシナリオ/機能。
 
-たとえば、CQD V2 の概要レポートでは 5000 件の障害が発生し、CQD V3 では 2019 年のオンプレム通話、CVI 呼び出し、PSTN 通話などから 5500 件の障害が発生した 300,000 のオーディオ ストリームで、顧客と 200,000 のオーディオ ストリームが表示されます。
+たとえば、CQD V3 では、顧客と顧客に 200,000 のオーディオ ストリームが表示され、CQD V2 の概要レポートでは 5000 エラー、5,500 の障害 (2019 年のオンプレム通話、CVI 呼び出し、PSTN 呼び出しなど) の 300,000 のオーディオ ストリームが表示されます。
 
 予期しない違いがある場合は、データ全体のさまざまな内訳を確認する必要があります。  意図と比較します。  ユーザー エージェント カテゴリ ペアによるデータのスライスは、最初に推奨される項目の 1 つです。  *First Product と* *Second Product* も優れたスライサーです。  
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>追加のエントリが必要とわかっているのに、カスタム レポートで返される行数が最大 10,000 行になる理由
 
-CQD は集計されたデータ クエリ用に設計され、データエクスポート用には設計されません。 10,000 行の制限を超えないように、可能な限りレポートを再構築することをお勧めします。 まず、月、年、日付、地域、国など、より広範で低カーディナリティのディメンションを使用して KPI を確認します。そこから、より高いカーディナリティ ディメンションにドリルダウンできます。 ヘルプデスクレポートとLocation-Enhancedレポートはどちらも、このドリルダウン ワークフローの優れた例を提供します。
+CQD は集計されたデータ クエリ用に設計され、データエクスポート用には設計されません。 10,000 行の制限を超えないように、可能な限りレポートを再構築することをお勧めします。 まず、月、年、日付、地域、国などのより広いカーディナリティディメンションを使用して KPI を確認します。 そこから、より高いカーディナリティ ディメンションにドリルダウンできます。 ヘルプデスクとLocation-Enhancedレポートは、このドリルダウン ワークフローの優れた例です。
 
 ### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>VPN 接続Wi-Fi Wi-Fi ではなく有線接続として表示される理由
 
-これは予期されることです。 VPN ベンダーは、有線接続と同様に扱われる仮想イーサネット アダプターを作成しました。 正しくラベル付けされていないので、オペレーティング システムは WiFi 接続を知らないので、有線として報告します。
+これは想定された動作です。 VPN ベンダーは、有線接続と同様に扱われる仮想イーサネット アダプターを作成しました。 適切にラベルが付けされていないので、オペレーティング システムは、それがネットワーク接続Wi-Fi有線として報告します。
+
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Teams でポリシー ベースのレコーディングを有効にした後、ピアツーピア通話は電話会議としてマークされています。何が起こったのでしょうか。
+
+この動作は、ポリシー ベースの記録が有効になっている場合にMicrosoft Teams。 ポリシー ベースの記録では、Teamsにデプロイされた Microsoft Azure 記録ボットを使用して、コンプライアンスの目的で会議の内容をキャプチャします。 レコーダー ボット自体が呼び出しの当事者なので、通話はピアツーピアではなく、マルチパーティ呼び出しです。 マルチパーティ通話は Microsoft Teams によって電話会議として分類されます。そのため、CQD や他の通話品質ツールでこれらの通話を表示すると、その通話が表示されます。
 
 ## <a name="related-articles"></a>関連記事
 
@@ -110,18 +116,18 @@ CQD は集計されたデータ クエリ用に設計され、データエクス
 
 [CQD とは](CQD-what-is-call-quality-dashboard.md)
 
-[通話品質ダッシュボード (CQD) を設定する](turning-on-and-using-call-quality-dashboard.md)
+[通話品質ダッシュボード (CQD) をセットアップする](turning-on-and-using-call-quality-dashboard.md)
 
-[アップロードとデータの構築](CQD-upload-tenant-building-data.md)
+[テナントと建物のデータをアップロードする](CQD-upload-tenant-building-data.md)
 
-[CQD データとレポート](CQD-data-and-reports.md)
+[CQD のデータとレポート](CQD-data-and-reports.md)
 
 [CQD を使用して通話と会議の品質を管理する](quality-of-experience-review-guide.md)
 
-[CQD で使用可能なディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[CQD で利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [CQD のストリーム分類](stream-classification-in-call-quality-dashboard.md)
 
-[CQD Power BI分析するには、次のコマンドを使用します。](CQD-Power-BI-query-templates.md)
+[Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)
 
 [Teams のトラブルシューティング](/MicrosoftTeams/troubleshoot/teams)

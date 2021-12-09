@@ -15,19 +15,18 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: このトピックでは、Skype for Business Server を使用して Microsoft Teams Rooms を展開する方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2990e1314ee851156bc11430ecf933fe31552117
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615193"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355626"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Skype for Business Server で Microsoft Teams Rooms を展開する
   
-このトピックでは、単一フォレストのオンプレミス展開がある場合に Microsoft Teams Rooms のデバイス アカウントを追加する方法を説明します。
+このトピックでは、単一フォレストのオンプレミスデプロイがある場合に Microsoft Teams Rooms のリソース アカウントを追加する方法について説明します。
   
 単一つのフォレスト、Exchange 2013 SP1 以降のオンプレミス展開、および Skype for Business Server 2015 以降を使用している場合、提供されている Windows PowerShell スクリプトを使用してデバイスアカウントを作成できます。 複数のフォレストを使用している場合は、同じ結果を生成する同じコマンドレットを使用できます。 ここでは、これらのツールについて説明します。
-
   
 Microsoft Teams Rooms の展開を開始する前に、関連するコマンドレットを実行するための適切な権限があることを確認します。
   
@@ -50,71 +49,69 @@ Microsoft Teams Rooms の展開を開始する前に、関連するコマンド�
     既存のリソースメールボックスを変更する場合：
 
    ``` Powershell
-   Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
+   Set-Mailbox -Identity 'ConferenceRoome01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
    新しいリソース メールボックスを作成している場合:
 
    ``` Powershell
-   New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
+   New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Alias ConferenceRoom01 -Name "Conference Room 01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. ユーザーの会議エクスペリエンスを改善するために、デバイス アカウントに対してさまざまなExchangeプロパティを設定することができます。 [Exchange プロパティ] セクションで設定する必要があるプロパティが表示されます。
+3. 会議室のリソース アカウントExchangeさまざまなプロパティTeams設定して、ユーザーの会議エクスペリエンスを向上できます。 [Exchange プロパティ] セクションで設定する必要があるプロパティが表示されます。
 
    ``` Powershell
-   Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
+   Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
    $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity ConferenceRoom01 -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams and Skype for Business meeting room!"
    ```
 
-4. パスワードを無期限にする場合は、Windows PowerShellコマンドレットでその設定を行うこともできます。 詳細については、「パスワードの管理」を参照してください。
+4. リソース アカウントでパスワードの有効期限をオフにします。
 
    ``` Powershell
-   Set-AdUser $acctUpn -PasswordNeverExpires $true
+   Set-AdUser ConferenceRoom01@contoso.com -PasswordNeverExpires $true
    ```
 
-5. Active Directory でアカウントを有効にし、Microsoft Teams Rooms に対して認証できるようにします。
+5. Active Directory でリソース アカウントを有効にして、会議室に対してMicrosoft Teamsします。
 
    ``` Powershell
-   Set-AdUser $acctUpn -Enabled $true
+   Set-AdUser ConferenceRoom01@contoso.com -Enabled $true
    ```
 
-6. Skype for Business Server のプールで、Microsoft Teams Rooms Active Directoryアカウントを有効にしてから、Skype for Business Server を使用して、でデバイスアカウントを有効にします。
+6. リソース プールで Skype for Business Server Rooms Active Directory アカウントMicrosoft Teamsを有効にして、リソース アカウントを有効Skype for Business Serverします。
 
    ``` Powershell
-   Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
-   -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
+   Enable-CsMeetingRoom -Identity ConferenceRoom01 -SipAddress sip:ConferenceRoom01@contoso.com -DomainController DC-ND-001.contoso.com
+   -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    プロジェクトのセッション開始プロトコル (SIP) アドレスとドメインコントローラーを使用する必要があります。
+    と 属性 `-DomainController` を `-RegistrarPool` 、環境に適した値に変更します。
 
-7. **オプション。** アカウントのEnterprise Voice を有効にすることで、Microsoft Teams Rooms を使用して、公衆交換電話網 (PSTN) 通話を発着信することもできます。 Enterprise Voice は、Microsoft Teams Rooms では必要ありませんが、Microsoft Teams Rooms クライアントにPSTNダイアル機能を持たせたい場合は、次のようにしてください。
+7. **オプション。** アカウントのEnterprise Voice を有効にすることで、Microsoft Teams Rooms を使用して、公衆交換電話網 (PSTN) 通話を発着信することもできます。 エンタープライズ VoIP Microsoft Teams 会議室の要件ではないが、Microsoft Teams 会議室の PSTN ダイヤル機能が必要な場合は、次の方法で有効にします。
 
    ``` Powershell
-   Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
-   Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
-   Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
-   Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
+   Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
+   Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -EnterpriseVoiceEnabled $true
+   Grant-CsVoicePolicy -Identity ConferenceRoom01 -PolicyName VP1
+   Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName DP1
    ```
 
-   繰り返しますが、提供されるドメイン コントローラーと電話番号の例は、実際に使用する情報に置き換える必要があります。パラメータ値 $true は同じままです。
+   繰り返しますが、提供されるドメイン コントローラーと電話番号の例は、実際に使用する情報に置き換える必要があります。 パラメータ値 $true は同じままです。 また、音声ポリシーとダイヤル プラン ポリシー名を置き換える必要があります。
 
 ## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>サンプル: Exchange およびオンプレミスの Skype for Business Serverの会議室アカウントのセットアップ
 
 ``` Powershell
-New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
--UserPrincipalName rigel1@contoso.com
+New-Mailbox -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) -UserPrincipalName ConferenceRoom01@contoso.com
 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false
--RemovePrivateProperty $false
-Set-CalendarProcessing -Identity rigel1 -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+Set-CalendarProcessing -Identity ConferenceRoom01 -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams and Skype for Business meeting room!"
 
-Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com -SipAddressType EmailAddress
-Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
-Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
-Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
+Enable-CsMeetingRoom -Identity ConferenceRoom01@contoso.com -RegistrarPool cs3.contoso.com -SipAddressType EmailAddress
+Set-CsMeetingRoom -Identity ConferenceRoom01 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
+Grant-CsVoicePolicy -Identity ConferenceRoom01 -PolicyName dk
+Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName e15dp2.contoso.com
 ```
 
 ## <a name="related-topics"></a>関連項目
