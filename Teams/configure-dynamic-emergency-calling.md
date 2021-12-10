@@ -18,12 +18,12 @@ description: Microsoft 通話プランと直接ルーティングの動的緊急
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e7b49fcde0dba2a37eb4b08daeed324a9155dc
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401921"
+ms.locfileid: "61410718"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>動的な緊急通話を計画して構成する 
 
@@ -87,12 +87,12 @@ Microsoft 通話プランとオペレーター Connect、米国およびカナ�
 > [!NOTE]
 > サブネットと WiFi ベースの場所は、サポートされているすべてのクライアントTeamsされます。 <br><br>
 > イーサネット/スイッチ (LLDP) は、次の場合にサポートされます。
-> - Windowsバージョン 8.1 以降を使用します。<br>
+> - Windowsバージョン 8.1 以降。<br>
 > - Mac [OS。LLDP 有効化ソフトウェア が必要です](https://www.microsoft.com/download/details.aspx?id=103383)。<br>
 > - Teams Teams バージョン 1449/1.0.94.2021110101 以降がインストールされたスマートフォン。
 
 > [!NOTE]
-> セキュリティ デスク通知を含む動的緊急通話は、Web クライアントTeamsサポートされていません。 ユーザーが Teams Web クライアントを使用して PSTN 番号を呼び出すのを防ぐために、Teams 通話ポリシーを設定し、[Web PSTN 通話を許可する] 設定 **をオフ** にできます。 詳細については、「Teams[でのポリシーの](teams-calling-policy.md)呼び出し」と[「Set-CsTeamsCallingPolicy」を参照してください](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 
+> セキュリティ デスク通知を含む動的緊急通話は、Web クライアントTeamsサポートされていません。 ユーザーが Teams Web クライアントを使用して PSTN 番号を呼び出すのを防ぐために、Teams 通話ポリシーを設定し、[Web PSTN 通話を許可する] 設定 **をオフ** にできます。 詳細については、「Teams[での](teams-calling-policy.md)ポリシーの呼び出し」と[「Set-CsTeamsCallingPolicy」を参照してください](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 
 
 > [!NOTE]
 > 3PIP 電話では、動的緊急通話はサポートされていません。 
@@ -111,7 +111,7 @@ Microsoft 通話プランとオペレーター Connect、米国およびカナ�
 
 米国内での緊急通話の自動ルーティングをサポートするには、ネットワーク識別子に割り当てられている緊急対応の場所に、関連する geo コードが含まれる必要があります。 (geo コードのない緊急対応の住所は、動的な場所に必要なネットワーク識別子に割り当てできません)。
 
-Azure マップは、場所ベースのサービスに使用されます。 管理センターで緊急対応の住所を入力Microsoft Teams、Azure Teamsアドレスマップ確認します。
+Azure マップは、場所ベースのサービスに使用されます。 管理者センターを使用して緊急対応の住所を入力Microsoft Teams、Azure Teamsアドレスマップ確認します。
 
 - 一致が見つかった場合は、geo コードが自動的に含まれます。
 
@@ -236,7 +236,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 米国の一部の緊急ルーティング サービス プロバイダー (ERSP) は、緊急通話テスト ボットを提供しています。
 
-- **米国またはカナダConnect** の通話プランとオペレーターは、事前に定義されたテスト緊急電話番号 933 を使用して、緊急通話の構成を検証できます。 この番号はボットにルーティングされ、呼び出し元の電話番号 (発信元の電話番号 ID)、緊急対応の住所または場所、および呼び出しが PSAP に自動的にルーティングされるのか、最初に画面に表示されるのかをエコーバックします。
+- **米国またはカナダのConnect** 通話プランとオペレーターは、事前に定義されたテスト緊急電話番号 933 を使用して、緊急通話の構成を検証できます。 この番号はボットにルーティングされ、呼び出し元の電話番号 (発信元の電話番号 ID)、緊急対応の住所または場所、および呼び出しが PSAP に自動的にルーティングされるのか、最初に画面に表示されるのかをエコーバックします。
 
 - **米国のダイレクト ルーティングのお客様は、** テスト サービスのために ERSP と調整する必要があります。
 
@@ -248,7 +248,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 | :------------|:-------|
 | World Wide Multi Tenant | すべてのクライアントでTeams可能 |
 | GCC | すべてのクライアントでTeams可能 |
-| GCCH | デスクトップでTeams可能 |
+| GCCH | -デスクトップでTeams可能 <br> -モバイル クライアントTeams使用可能 <br> -携帯電話での保留中Teams空き時間 |
 | DoD | Pending |
 
  ## <a name="related-topics"></a>関連トピック

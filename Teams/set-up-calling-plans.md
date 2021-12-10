@@ -25,27 +25,27 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 地域で利用可能なプランの表示、ライセンスの割り当て&の購入、電話番号の取得、緊急対応の住所の追加など、通話プランの&します。
-ms.openlocfilehash: b7593155711597ae94d2db97573c6b6ba7afcc18
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 594304fdc9aa95d283d6366a27aff48d5e4a1c91
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725726"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410698"
 ---
 # <a name="set-up-calling-plans"></a>通話プランの設定
 
-他の Teams ユーザーへの通話は無料ですが、ユーザーが社外の電話に発信するには、Microsoft 365 または Office 365 で国内通話プランまたは国際通話プランを取得します。 ビジネス向け通話プランは簡単にセットアップできます。  通話プランの詳細については、「どの通話プランが最適ですか [?」を参照してください](calling-plan-landing-page.md)。
+他の Teams ユーザーへの通話は無料ですが、ユーザーが社外の電話に発信できる場合は、Microsoft 365 または Office 365 で国内通話プランまたは国際通話プランを取得します。 ビジネス向け通話プランは簡単にセットアップできます。  通話プランの詳細については、「どの通話プランが最適ですか [?」を参照してください](calling-plan-landing-page.md)。
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>手順 1: お客様の国/地域で通話プランが使用できるかどうかを確認する
 [電話会議および通話プランが利用可能な国と地域](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) で、お住まいの国と地域を選択し、電話会議、通話プラン、電話システム、有料または無料電話番号、通信クレジットについての情報を確認します。
 
-通話プランが国または地域で利用できない場合は、直接ルーティングを使用してオンプレミスのテレフォニー インフラストラクチャを接続して、電話システム。  詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
+お客様の国または地域で通話プランを利用できない場合は、直接ルーティングを使用してオンプレミスのテレフォニー インフラストラクチャを接続電話システム。  詳細については、「[電話システムのダイレクト ルーティング](direct-routing-landing-page.md)」を参照してください。
   
 ## <a name="step-2-buy-and-assign-licenses"></a>手順 2: ライセンスを購入して割り当てる
-1. この電話システムが Microsoft 365 プランまたは Office 365 プランに含まれていない場合は、電話システム アドオン ライセンスの購入が必要な場合があります。 ライセンスを取得した **電話システム、** 通話プランを購入するか、 をMicrosoft 365 [購入Office 365。](calling-plans-for-office-365.md) ライセンスとプランの購入については、[Microsoft Teams アドオンライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) を参照してください。 
+1. 電話システム機能が Microsoft 365 プランまたは Office 365 プランに含まれていない場合は、電話システム アドオン ライセンスの購入が必要な場合があります。 ライセンスを購入 **した電話システム、** 通話プランを購入するか、 をMicrosoft 365 [購入Office 365。](calling-plans-for-office-365.md) ライセンスとプランの購入については、[Microsoft Teams アドオンライセンス](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) を参照してください。 
     
     > [!TIP]
-    > **電話システム** Microsoft 365 または Office 365 の通話プランは一緒に作成されます。そのため、通話プランを購入するオプションを確認するには、最初に 電話システム ライセンス **を** 持っている必要があります。
+    > **電話システム** Microsoft 365 または Office 365 の通話プランは一緒に作成されます。そのため、通話プランを購入するオプションを確認するには、最初に 電話システム ライセンスを持っている **必要** があります。
   
 2. まずライセンスを割り当て、組織内のユーザーに通話プランを割り当てます。 「[アドオン ライセンスMicrosoft Teams割り当てる」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
@@ -54,7 +54,7 @@ ms.locfileid: "58725726"
 
 - **管理センター Teams使用します。** 一部の国/地域では、Teams 管理センターを使用してユーザーの番号を取得できます。「ユーザーの電話番号を取得する」[を参照してください](getting-phone-numbers-for-your-users.md)。
     
-- **既存の番号を移行する。** 現在のサービス プロバイダーまたは携帯電話会社から、既存の番号をポートまたは転送して、Microsoft 365またはOffice 365。 詳細については、「組織の電話番号[を管理する」または](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)「Teamsに電話番号を転送する[」を参照してください](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+- **既存の番号を移行する。** 現在のサービス プロバイダーまたは携帯電話会社から既存の番号を、現在のサービス プロバイダーまたは電話会社にMicrosoft 365またはOffice 365。 詳細については、「組織の電話番号[を管理する」または](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)「Teams電話番号を転送する[」を参照してください](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
   
 - **新しい番号には申請書を使用します。** (お客様の国/地域によっては) Teams 管理センターを使用して新しい電話番号を取得できない場合や、特定の電話番号または市番が必要になる場合があります。 その場合は、申請書をダウンロードして送信する必要があります。 詳細については、「[組織のために電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)」をご覧ください。 
 
@@ -80,6 +80,18 @@ Microsoft では、新しい電話番号についてユーザーに通知する�
 
 ![[通話] をクリックした後に使用できるオプションのスクリーン ショット。](media/teams-phone-number.png)
 
+## <a name="run-a-self-diagnostics-tool"></a>自己診断ツールを実行する
+
+Microsoft 365管理者ユーザーは、テナント内で実行できる診断にアクセスして、PSTN 通話を発信または受信するようにユーザーが正しく構成されていることを確認できます。 
+
+> [!NOTE]
+>この機能は、Microsoft 365 Government、21Vianet Microsoft 365、ドイツではMicrosoft 365できません。
+
+次のように、[テストの実行] を選択します。 これにより、診断が Microsoft 365 管理されます。
+>> [!div class="nextstepaction"]
+>> [テストの実行: PSTN Teamsする](https://aka.ms/TeamsPSTNDiag)
+
+診断は、さまざまな検証を実行します。
 
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>電話番号の割り当てを自動化したい場合
 <a name="bkmk_add_addresses"> </a>
@@ -90,10 +102,10 @@ Windows PowerShell を使うことができる場合は、次のコマンドレ�
     
 - [Set-CsOnlineVoiceUser](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps): 電話番号を設定します。
     
-詳細については[、「PowerShell の概要」Teamsを参照してください](teams-powershell-overview.md)。
+詳細については[、「PowerShell の概要Teamsを参照してください](teams-powershell-overview.md)。
   
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 [電話番号の移行に関するよくある質問](./phone-number-calling-plans/port-order-overview.md)
 
 [通話プランで使用されるさまざまな種類の電話番号](different-kinds-of-phone-numbers-used-for-calling-plans.md)
