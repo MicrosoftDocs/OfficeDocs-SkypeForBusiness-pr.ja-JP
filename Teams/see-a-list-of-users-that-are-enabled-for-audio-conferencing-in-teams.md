@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '組織内でダイヤルイン会議が有効になっているユーザーの一覧を組織内のユーザーの一覧を表示する方法について説明Microsoft Teams。 '
-ms.openlocfilehash: 7b49dec0b73385ce09d906a128a47ddd4c723694
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+description: '組織内でダイヤルイン会議が有効になっているユーザーの一覧を、組織内のユーザーの一覧を Microsoft Teams。 '
+ms.openlocfilehash: ff63ca0b34bcdf86b3c261a018911f42a34dcb5c
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045883"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401911"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams の電話会議用に有効になっているユーザーのリストを表示する
 
@@ -38,7 +38,7 @@ ms.locfileid: "60045883"
   
 ## <a name="viewing-a-list-of-users"></a>ユーザーの一覧を表示する
 
-- 管理センター Microsoft Teams左側のナビゲーションで、[ユーザー] をクリック **します**。
+- 管理センター Microsoft Teams左側のナビゲーションで、[ユーザー] を **クリックします**。
 
 ## <a name="what-else-should-i-know"></a>他に必要な情報はありますか?
 
@@ -48,10 +48,22 @@ ms.locfileid: "60045883"
    
 - 検索ボタンを使用して、リスト内の個々のユーザーを検索できます。
     
-    
+## <a name="run-a-self-diagnostics-tool"></a>自己診断ツールを実行する
+
+Microsoft 365管理者ユーザーは、テナント内で実行できる診断にアクセスして、ユーザーが PSTN 電話会議を作成できるのを確認できます。 
+
+> [!NOTE]
+>この機能は、Microsoft 365 Government、21Vianet Microsoft 365、ドイツではMicrosoft 365できません。
+
+次のように、[テストの実行] を選択します。 これにより、診断が Microsoft 365 管理されます。
+>> [!div class="nextstepaction"]
+>> [テストの実行: Teams 会議](https://aka.ms/TeasConfDiag)
+
+診断は、さまざまな検証を実行します。
+ 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell の詳細情報
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理できます。複数のタスクを実行する場合は、毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
     
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

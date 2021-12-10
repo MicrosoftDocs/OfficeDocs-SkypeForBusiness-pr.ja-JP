@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: b378ee327f2ba284a348ff7458c617fed71541c6
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536758"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401891"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>ダイレクト ルーティングのための存続可能ブランチ アプライアンス (SBA)
 
@@ -49,7 +49,7 @@ SBA は、Microsoft が SBC ベンダーに提供する再配布可能なコー�
 - ポート 3443、4444、および 8443 は、Microsoft SBA Server が Teams クライアントと通信するために使用され、ファイアウォールで許可する必要があります。 
 - ポート 5061 (または SBC で構成されたポート) は、Microsoft SBA Server が SBC と通信するために使用し、ファイアウォールで許可する必要があります。 
 - UDP ポート 123 は、Ntp サーバーと通信するために Microsoft SBA Server によって使用され、ファイアウォールで許可する必要があります。
-- ポート 443 は、Microsoft SBA Server が通信に使用Microsoft 365、ファイアウォールで許可する必要があります。
+- ポート 443 は、Microsoft SBA Server が通信を行Microsoft 365、ファイアウォールで許可する必要があります。
 - パブリック クラウドの Azure IP 範囲とサービス タグは、次のガイドラインに従って定義する必要があります。 https://www.microsoft.com/download/details.aspx?id=56519
 
 ## <a name="supported-teams-clients"></a>サポートされているTeams クライアント
@@ -58,11 +58,13 @@ SBA 機能は、次のクライアントでMicrosoft Teamsされます。
 
 - Microsoft Teams Windows デスクトップ 
 
-- Microsoft Teams macOS デスクトップ 
+- Microsoft Teams macOS デスクトップ
+- Teams for Mobile 
+- Teams電話
 
 ## <a name="how-it-works"></a>メカニズム
 
-インターネットの停止中は、Teamsクライアントが自動的に SBA に切り替わる必要があります。また、継続的な呼び出しは中断することなく継続する必要があります。 ユーザーからのアクションは必要ありません。 Teams クライアントがインターネットが稼働し、すべての発信呼び出しが完了するとすぐに、クライアントは通常の操作モードに戻り、他の Teams サービスに接続します。 SBA は収集された通話データ レコードをクラウドにアップロードし、通話履歴が更新され、テナント管理者がこの情報を確認できます。 
+インターネットの停止中、Teamsクライアントは自動的に SBA に切り替える必要があります。また、継続的な呼び出しは中断することなく続行する必要があります。 ユーザーからのアクションは必要ありません。 Teams クライアントがインターネットが稼働し、すべての発信呼び出しが完了するとすぐに、クライアントは通常の操作モードに戻り、他の Teams サービスに接続します。 SBA は収集された通話データ レコードをクラウドにアップロードし、通話履歴が更新され、テナント管理者がこの情報を確認できます。 
 
 クライアントがMicrosoft Teamsモードの場合、次の呼び出し関連機能を使用できます。 
 
@@ -81,7 +83,7 @@ SBA 機能を機能するには、Teams クライアントは、各ブランチ 
 3. ポリシーをユーザーに割り当てる。
 4. SBA のアプリケーションをアプリケーションに登録Azure Active Directory。
 
-すべての構成は、Skype for Business Online PowerShell コマンドレットを使用して行います。 (Teams センターでは、直接ルーティング SBA 機能はまだサポートされていません)。 
+すべての構成は、Skype for Business Online PowerShell コマンドレットを使用して行われます。 (Teams センターでは、直接ルーティング SBA 機能はまだサポートされていません)。 
 
 (SBC ベンダーのドキュメントへのリンクを含む SBC の構成については、この記事の最後にある「セッション ボーダー コントローラーの構成」を参照してください)。
 
@@ -125,7 +127,7 @@ Identity             : Tag:CPH
 BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
-次のコマンドレットを使用して、ポリシーに対して SBA をSet-CsTeamsSurvivableBranchAppliancePolicyできます。 次に例を示します。 
+次のコマンドレットを使用して、ポリシーに対して SBA を追加Set-CsTeamsSurvivableBranchAppliancePolicyできます。 次に例を示します。 
 
 ``` powershell
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"} 
@@ -148,7 +150,7 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
-ユーザーからポリシーを削除するには、次の例に示すように、$Null ポリシーを付与します。
+ユーザーからポリシーを削除するには、次の例に$Nullポリシーを付与します。
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
@@ -156,13 +158,13 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ### <a name="register-an-application-for-the-sba-with-azure-active-directory"></a>SBA のアプリケーションをアプリケーションに登録Azure Active Directory
 
-テナント内で使用される異なる SBA が Microsoft 365 から必要なデータを読み取るのを許可するには、SBA のアプリケーションを Azure Active Directory に登録する必要があります。 
+テナント内で使用されている異なる SBA が Microsoft 365 から必要なデータを読み取るのを許可するには、SBA 用のアプリケーションを Azure Active Directory。 
 
 アプリケーションの登録の詳細については、次を参照してください。
 
 - [新しいビジネス アプリを開発Azure Active Directory](/azure/active-directory/manage-apps/developer-guidance-for-integrating-applications)
 
-- [アプリケーションを アプリケーションに登録Microsoft ID プラットフォーム。](/azure/active-directory/develop/quickstart-register-app)  
+- [アプリケーションを Microsoft ID プラットフォーム に登録します](/azure/active-directory/develop/quickstart-register-app)。  
 
 1 つのアプリケーションを登録して、テナント内のすべての SA で使用する必要があります。 
 

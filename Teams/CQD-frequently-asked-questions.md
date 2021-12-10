@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 通話品質ダッシュボード (CQD) に関してよく寄せられる質問 (FAQ) Microsoft Teams回答を参照してください。
-ms.openlocfilehash: 4d0d0bbbc35ac130755e61075408e9de80f1c09c
-ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
+ms.openlocfilehash: 81c6478147e0959ca97b67ee0f01632478c0eb38
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "61362544"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401901"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)
 
@@ -38,13 +38,15 @@ ms.locfileid: "61362544"
 
 [CQD で EUII が表示できない理由](#why-cant-i-see-euii-in-cqd)
 
-[フィルター処理のみをSkype for Business、CQD に一部の情報が表示Teams。](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[使用タイプのレポートに CQD を使用しようとして、一部のデータが不完全であるのが分かっています。なぜですか?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
+
+[フィルター処理のみをSkype for Business、CQD に一部の情報が表示Teams理由](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [追加のエントリが必要とわかっているのに、カスタム レポートで返される行数が最大 10,000 行になる理由](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [VPN 接続Wi-Fi Wi-Fi ではなく有線接続として表示される理由](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
-[Teams でポリシー ベースのレコーディングを有効にした後、ピアツーピア通話は電話会議としてマークされています。何が起こったのでしょうか。](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+[Teams でポリシー ベースのレコーディングを有効にした後、ピアツーピア通話が電話会議としてマークされています。何が起こったのでしょうか。](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>1 人または複数の会議参加者の経験が低い場合、CQD が通話を "良好" とマークする理由
 
@@ -58,7 +60,7 @@ CQD がストリーム分類に使用する規則 [を確認してください](
  
 ネットワーク メトリックが平均値と最大値で良好に見える場合は、他のテレメトリ データを確認します。 
 - [CPU Insufficient Event Ratio]をオンにし、検出された使用可能な CPU リソースが不十分で、低品質の原因になっているか確認します。 
-- スピーカーに近いマイクによるフィードバックを防ぐために、オーディオ デバイスは半二重モードでしたか? 
+- スピーカーに近すぎるマイクが理由でフィードバックを防ぐために、オーディオ デバイスは半二重モードでしたか? 
 - デバイスの半分の両面 AEC イベントの比率を確認します。 ハブまたはドッキング ステーションに接続すると、USB オーディオドロップアウトが原因で、デバイスのグリンクまたはマイクのグリンクによってノイズや静的が発生しましたか?  
 - デバイスの不具合とマイクの不具合イベントの比率を確認します。 デバイス自体が正しく機能していますか?  
 - Capture デバイスと Render Device Not Functioning Event Ratios を確認します。
@@ -74,7 +76,7 @@ CQD で詳細なレポートを作成し、会議 ID でフィルター処理し
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>メジャーの呼び出しとユーザーカウントの値に最大 0.2% の差が表示される理由と、最も正確なボリュームを取得する方法 
 
-呼び出し数とユーザー数の測定を計算するために、データ セット内の呼び出しまたはユーザー識別子に対して個別の countif 操作が実行されます。 大規模なデータ セットでは、個別の countif 操作に固有の最大 0.2% のエラーがあります。 最も正確なボリュームの場合は、この個別のカウント演算に依存しならず、ストリーム数のメジャーに依存する必要があります。 データ 量を減らしてフィルター処理すると、エラーが減る可能性がありますが、個別の呼び出しとユーザー数でこのエラーの原因が排除されない場合があります。 メジャーが [影響を受け取る「通話品質](dimensions-and-measures-available-in-call-quality-dashboard.md) ダッシュボード」で使用できるディメンションと測定値に関するページを参照してください。
+呼び出し数とユーザー数の測定を計算するために、データ セット内の呼び出しまたはユーザー識別子に対して個別の countif 操作が実行されます。 大規模なデータ セットでは、個別の countif 操作に固有の最大 0.2% のエラーがあります。 最も正確なボリュームの場合は、この個別のカウント演算に依存しならず、ストリーム数のメジャーに依存する必要があります。 データ 量を減らしてフィルター処理すると、エラーが減る可能性がありますが、個別の呼び出しとユーザー数でこのエラーの原因が排除されない場合があります。 メジャーが [影響を受ける方法については、「通話品質ダッシュボードで](dimensions-and-measures-available-in-call-quality-dashboard.md) 使用できるディメンションと測定値」を参照してください。
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>CQD で EUII が表示できない理由
@@ -86,29 +88,29 @@ CQD で詳細なレポートを作成し、会議 ID でフィルター処理し
 
 CQD にアクセスできるロール (EUII を含む) の詳細については、「CQD にアクセスするためにロールを割り当てる」 [を参照してください](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>フィルター処理のみをSkype for Business、CQD に情報がTeams理由
+### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>使用タイプのレポートに CQD を使用しようとして、一部のデータが不完全であるのが分かっています。なぜですか?
 
-CQD Teams (isTeams = 1) でのみフィルター処理する場合は、最初のエンドポイントが呼び出されるすべての呼び出しTeams。 2 *つ目の* エンドポイントSkype for Business、その情報が CQD レポートに表示されます。
+CQD、Call Analytics、CallRecord Graph API、リアルタイム分析のような通話品質管理ツールは、診断テレメトリに基づいて行います。 通話品質管理ツールTeamsに表示される情報は、呼び出しに参加しているクライアントから受信したテレメトリ データと同じのみです。 ネットワークの停止、ファイアウォールまたはプロキシの構成ミスなど、完全なテレメトリが受信されない理由 [はいくつか考えます](/microsoft-365/enterprise/urls-and-ip-address-ranges.md)。 引き続き、お客様がサービスにテレメトリを配信する信頼性Teams回復性の向上に取り組み続け中です。
 
-CQDv2 と CQDv3 の合計カウントは常に異なります。CQDv3 には、CQDv2 にはない新しいシナリオが含まれています。 集計合計または集計された全数値をフィルターを使用して比較すると、これらの期待される違いが生じ得るのは、その理由です。  
+この念を念頭に置いて、使用状況レポートの通話品質管理ツールに依存しならずにすることをお勧めします。 Teams管理センターには一連の使用状況レポートが[](teams-analytics-and-reports/teams-reporting-reference.md)用意されています。会議出席[](teams-analytics-and-reports/meeting-attendance-report.md)レポートは、クライアントから直接Teamsできます。
 
-顧客のシナリオに応じて、CQDv3 には SFB 2019 オンプレミス呼び出し (SFB 2019 がデータ コネクタで使用されている場合)、Skype ボット呼び出し (AA、CVI、VDI)、ライブ イベント、PSTN 通話が含まれます。 顧客が利用できるが、そのデータが CQD V2 にはないシナリオ/機能。
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>フィルター処理のみをSkype for Business、CQD に一部の情報が表示Teams理由
 
-たとえば、CQD V3 では、顧客と顧客に 200,000 のオーディオ ストリームが表示され、CQD V2 の概要レポートでは 5000 エラー、5,500 の障害 (2019 年のオンプレム通話、CVI 呼び出し、PSTN 呼び出しなど) の 300,000 のオーディオ ストリームが表示されます。
+CQD レポート (isTeams = 1) でのみ Teams をフィルター処理する場合は、最初のエンドポイントが呼び出されるすべての呼び出しをフィルター処理Teams。 2 *つ目の* エンドポイントSkype for Business、その情報が CQD レポートに表示されます。 お客様のシナリオによっては、CQD に Call [Data Connector](/skypeforbusiness/hybrid/plan-call-data-connector.md)が構成されているSkype for Business Server 2019 の呼び出しが含まれる場合があります。 また、ボット呼びSkype (AA、CVI、VDI)、ライブ イベント、PSTN 通話も含まれます。
 
-予期しない違いがある場合は、データ全体のさまざまな内訳を確認する必要があります。  意図と比較します。  ユーザー エージェント カテゴリ ペアによるデータのスライスは、最初に推奨される項目の 1 つです。  *First Product と* *Second Product* も優れたスライサーです。  
+First *User Agent Category* や Skype for Business Second User Agent Category などのディメンションでフィルター処理することで、クエリからユーザー情報を削除 *できます*。 1 番目と *2* 番目のディメンションを 1 つのフィルターに結合するユーザー エージェント カテゴリ ペアを使用することもできます。
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>追加のエントリが必要とわかっているのに、カスタム レポートで返される行数が最大 10,000 行になる理由
 
-CQD は集計されたデータ クエリ用に設計され、データエクスポート用には設計されません。 10,000 行の制限を超えないように、可能な限りレポートを再構築することをお勧めします。 まず、月、年、日付、地域、国などのより広いカーディナリティディメンションを使用して KPI を確認します。 そこから、より高いカーディナリティ ディメンションにドリルダウンできます。 ヘルプデスクとLocation-Enhancedレポートは、このドリルダウン ワークフローの優れた例です。
+CQD は集計されたデータ クエリ用に設計され、データエクスポート用には設計されません。 10,000 行の制限を超えないように、可能な限りレポートを再構築することをお勧めします。 まず、月、年、日付、地域、国などのより広いカーディナリティディメンションを使用して KPI を確認します。 そこから、より高いカーディナリティ ディメンションにドリルダウンできます。 ヘルプデスクレポートとLocation-Enhancedレポートはどちらも、このドリルダウン ワークフローの優れた例を提供します。
 
 ### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>VPN 接続Wi-Fi Wi-Fi ではなく有線接続として表示される理由
 
 これは想定された動作です。 VPN ベンダーは、有線接続と同様に扱われる仮想イーサネット アダプターを作成しました。 適切にラベルが付けされていないので、オペレーティング システムは、それがネットワーク接続Wi-Fi有線として報告します。
 
-### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Teams でポリシー ベースのレコーディングを有効にした後、ピアツーピア通話は電話会議としてマークされています。何が起こったのでしょうか。
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Teams でポリシー ベースのレコーディングを有効にした後、ピアツーピア通話が電話会議としてマークされています。何が起こったのでしょうか。
 
-この動作は、ポリシー ベースの記録が有効になっている場合にMicrosoft Teams。 ポリシー ベースの記録では、Teamsにデプロイされた Microsoft Azure 記録ボットを使用して、コンプライアンスの目的で会議の内容をキャプチャします。 レコーダー ボット自体が呼び出しの当事者なので、通話はピアツーピアではなく、マルチパーティ呼び出しです。 マルチパーティ通話は Microsoft Teams によって電話会議として分類されます。そのため、CQD や他の通話品質ツールでこれらの通話を表示すると、その通話が表示されます。
+この動作は、ポリシー ベースの記録が有効になっている場合にMicrosoft Teams。 ポリシーベースの記録では、TeamsにデプロイされたMicrosoft Azure記録ボットを使用して、コンプライアンスの目的で会議の内容をキャプチャします。 通話品質管理では、"ピアツーピア" とは、ユーザー間のやり取りではなく、メディア トラフィックのフローの説明です。 レコーダー ボット自体が呼び出しの当事者なので、通話はピアツーピアではなく、マルチパーティ呼び出しです。 マルチパーティ通話は Microsoft Teams によって電話会議として分類されます。そのため、CQD や他の通話品質ツールでこれらの通話を表示すると、その通話が表示されます。
 
 ## <a name="related-articles"></a>関連記事
 
