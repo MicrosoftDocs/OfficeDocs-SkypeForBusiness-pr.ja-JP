@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Microsoft ダイレクト ルーティングを使用して通話ルーティングを構成する方法について説明します。
-ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 919b98d6c8c8ee5a1af08967dc55c30748af37f1
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60635046"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420157"
 ---
 # <a name="configure-call-routing-for-direct-routing"></a>ダイレクト ルーティングの呼び出しルーティングを構成する
 
@@ -36,7 +36,7 @@ ms.locfileid: "60635046"
 
 ## <a name="call-routing-overview"></a>通話ルーティングの概要
 
-Microsoft 電話システムには、次に基づいて特定のセッション ボーダー コントローラー (SBC) に呼び出しを送信できるルーティング メカニズムがあります。 
+Microsoft 電話 システムには、次に基づいて特定のセッション ボーダー コントローラー (SBC) に呼び出しを送信できるルーティング メカニズムがあります。 
 
 - 呼び出された番号パターン 
 - 呼び出された番号パターンに、呼び出しを行う特定のユーザーを加えたもの
@@ -64,9 +64,9 @@ SBC はアクティブとバックアップとして指定できます。 アク
 
 次の図は、通話フローにおける音声ルーティング ポリシーの 2 つの例を示しています。
 
-**1 Flow (左側) を呼び出します。** ユーザーが +1 425 XXX XX XX または +1 206 XXX XX XX を呼び出した場合、呼び出しは SBC sbc1.contoso.biz または sbc2.contoso.biz にルーティングされます。 呼び出 sbc1.contoso.biz も sbc2.contoso.biz 使用できない場合、呼び出しは破棄されます。 
+Flow **1 (** 左側) を呼び出す: ユーザーが +1 425 XXX XX XX または +1 206 XXX XX XX を呼び出した場合、その呼び出しは SBC sbc1.contoso.biz または sbc2.contoso.biz にルーティングされます。 呼び出 sbc1.contoso.biz も sbc2.contoso.biz 使用できない場合、呼び出しは破棄されます。 
 
-**2 Flowを呼び出します (右側)。** ユーザーが +1 425 XXX XX XX または +1 206 XXX XX XX を呼び出した場合、その呼び出しは最初に SBC sbc1.contoso.biz または sbc2.contoso.biz にルーティングされます。 どちらの SBC も使用できない場合は、優先順位の低いルートが試 sbc3.contoso.biz し、sbc4.contoso.biz。 使用できる SBC が存在しない場合、呼び出しは破棄されます。 
+**Flow 2 (** 右側) を呼び出す: ユーザーが +1 425 XXX XX XX または +1 206 XXX XX XX を呼び出した場合、呼び出しは最初に SBC sbc1.contoso.biz または sbc2.contoso.biz にルーティングされます。 どちらの SBC も使用できない場合は、優先順位の低いルートが試 sbc3.contoso.biz され、sbc4.contoso.biz。 使用できる SBC が存在しない場合、呼び出しは破棄されます。 
 
 ![音声ルーティング ポリシーの例を示します。](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
@@ -75,7 +75,7 @@ SBC はアクティブとバックアップとして指定できます。 アク
   > [!NOTE]
   > ユーザーも Microsoft 通話プラン のライセンスを持たない限り、サンプル構成のパターン +1 425 XXX XX XX または +1 206 XXX XX XX に一致する番号を除く任意の番号を呼び出します。 ユーザーが通話プランライセンスを持つ場合、通話は Microsoft 通話プランのポリシーに従って自動的にルーティングされます。 Microsoft 通話プランは、Microsoft 通話プラン ライセンスを持つすべてのユーザーへの最後のルートとして自動的に適用され、追加の通話ルーティング構成は必要とされません。
 
-次の図に示す例では、音声ルートが追加され、他のすべての米国およびカナダの番号に通話を送信します (番号パターン +1 XXX XXX XX XX という呼び出しに移動する呼び出し)。
+次の図に示す例では、他のすべての米国およびカナダの番号に通話を送信する音声ルートが追加されています (番号パターン +1 XXX XXX XX XX という呼び出しに移動する呼び出し)。
 
 ![3 番目のルートを含む音声ルーティング ポリシーを表示します。](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
@@ -102,21 +102,21 @@ SBC はアクティブとバックアップとして指定できます。 アク
 3. 音声ルーティング ポリシーを作成します。
 4. Spencer Low というユーザーにポリシーを割り当てる。
 
-管理センターまたは[PowerShell Microsoft Teams使用して](#admincenterexample1)[、これらの](#powershellexample1)手順を実行できます。
+管理センターまたは[PowerShell Microsoft Teamsを使用](#admincenterexample1)[して、これらの](#powershellexample1)手順を実行できます。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 <a name="admincenterexample1"></a>
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>手順 1: "米国とカナダ" PSTN の使用を作成する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[音声ダイレクト ルーティング]に移動し、右上隅の [PSTN 使用レコードの管理]  >  **を選択します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[音声ダイレクト ルーティング] に移動し、右上隅にある [PSTN 利用状況レコードの管理  >  **] を選択します**。
 2. [追加 **] をクリック** し **、「US」と「Canada」と入力し**、[適用] を **クリックします**。
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>手順 2: 3 つの音声ルートを作成する (Redmond 1、Redmond 2、Other +1)
 
 次の手順では、音声ルートを作成する方法について説明します。 前の表で説明した設定を使用して、この例では Redmond 1、Redmond 2、Other +1 という名前の 3 つの音声ルートを作成するには、次の手順を使用します。
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams [**音声ダイレクト** ルーティング] に移動し、[音声ルート  >  ]**タブを選択** します。
+1. 管理センターの左側のナビゲーションMicrosoft Teams [**音声ダイレクト** ルーティング] に移動し、[音声ルート]  >  **タブを選択** します。
 2. [ **追加]** をクリックし、音声ルートの名前と説明を入力します。
 3. 優先順位を設定し、ダイヤルされた番号パターンを指定します。
 4. SBC を音声ルートに登録するには、[登録されている **SBC (省略可能)**] の **[SBC** の追加] をクリックし、登録する SBC を選択し、[適用] を **クリックします**。
@@ -125,7 +125,7 @@ SBC はアクティブとバックアップとして指定できます。 アク
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>手順 3: "米国のみ" という名前の音声ルーティング ポリシーを作成し、"米国とカナダ" の PSTN 使用法をポリシーに追加する
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams Voice Voiceルーティング ポリシー] に移動し、[  >  追加] を **クリックします**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams **音声音声ルーティング** ポリシー] に移動し、[  >  追加] を **クリックします**。
 2. 名前 **として「US のみ** 」と入力し、説明を追加します。
 3. [PSTN **使用状況レコード] の** **[PSTN** 使用法の追加] をクリックし、[米国とカナダ] PSTN 使用レコードを選択し、[適用] を **クリックします**。
 4. **[保存]** をクリックします。
@@ -207,7 +207,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 2" -NumberPattern "^\+1(425|206)
 (\d{7})$" -OnlinePstnGatewayList sbc3.contoso.biz, sbc4.contoso.biz -Priority 2 -OnlinePstnUsages "US and Canada"
 ```
 
-[その他 + 1] ルートを作成するには、次を入力します。
+[その他 + 1] ルートを作成するには、次のコマンドを入力します。
 
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
@@ -257,7 +257,7 @@ OnlinePstnGatewayList    : {sbc5.contoso.biz, sbc6.contoso.biz}
 Name             : Other +1
 ```
 
-この例では、ルート "Other +1" に自動的に優先度 4 が割り当て済みでした。 
+この例では、ルート "Other +1" に優先度 4 が自動的に割り当て済みでした。 
 
 #### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>手順 3: "米国のみ" という名前の音声ルーティング ポリシーを作成し、"米国とカナダ" の PSTN 使用法をポリシーに追加する
 
@@ -300,7 +300,7 @@ US Only
 
 ## <a name="example-2-voice-routing-with-multiple-pstn-usages"></a>例 2: 複数の PSTN 使用法を使用した音声ルーティング
 
-例 1 で作成した音声ルーティング ポリシーでは、Microsoft 通話プランライセンスもユーザーに割り当てられていない限り、米国とカナダの電話番号への通話のみを許可します。
+例 1 で作成した音声ルーティング ポリシーでは、Microsoft 通話プランのライセンスもユーザーに割り当てられていない限り、米国とカナダの電話番号への通話のみを許可します。
 
 次の例では、"制限なし" 音声ルーティング ポリシーを作成できます。 このポリシーは、例 1 で作成した "米国とカナダ" の PSTN 使用法と、新しい "国際" PSTN 使用法を再利用します。 このポリシーは、他のすべての呼び出しを SBC にルーティングし、sbc2.contoso.biz を sbc5.contoso.biz。
 
@@ -312,7 +312,7 @@ US Only
 
 ![ユーザー Spencer Low に割り当てられた音声ルーティング ポリシーを示します。](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-その他のすべての呼び出しでは、ユーザーが両方のライセンス (Microsoft 電話 システムと Microsoft 通話プラン) を持つ場合は、自動ルートが使用されます。 管理者が作成したオンライン音声ルートの番号パターンと一致しない場合、通話は Microsoft 通話プランを使用してルーティングされます。  ユーザーがシステムに対してMicrosoft 電話場合、一致する規則が使用できないので、呼び出しは破棄されます。
+他のすべての呼び出しでは、ユーザーが両方のライセンス (システムと Microsoft Microsoft 電話 プラン) を持つ場合は、自動ルートが使用されます。 管理者が作成したオンライン音声ルートの番号パターンと一致しない場合、通話は Microsoft 通話プランを使用してルーティングされます。  ユーザーがシステムに対してMicrosoft 電話場合、一致する規則が利用できないので、呼び出しは破棄されます。
 
 ![ユーザー John Woods に割り当てられている音声ルーティング ポリシーを示します。](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
@@ -338,14 +338,14 @@ US Only
 3. "制限なし" という音声ルーティング ポリシーを作成します。
 4. ポリシーをユーザー John Woods に割り当てる。
 
-管理センターまたは[PowerShell Microsoft Teams使用して](#admincenterexample2)[、これらの](#powershellexample2)手順を実行できます。
+管理センターまたは[PowerShell Microsoft Teamsを使用](#admincenterexample2)[して、これらの](#powershellexample2)手順を実行できます。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 <a name="admincenterexample2"></a>
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>手順 1: "国際" PSTN 使用法を作成する
 
-1. Microsoft Teams 管理センターの左側のナビゲーションで、[音声ダイレクト ルーティング] に移動し、右上隅の [PSTN 使用レコードの管理  >  **] を選択します**。
+1. Microsoft Teams 管理センターの左側のナビゲーションで、[音声ダイレクト ルーティング] に移動し、右上隅にある [PSTN 利用状況レコードの管理  >  **] を選択します**。
 2. [追加 **] をクリック** し、「 **国際」と入力** し、[適用] を **クリックします**。
 
 #### <a name="step-2-create-the-international-voice-route"></a>手順 2: "国際" 音声ルートを作成する
@@ -361,13 +361,13 @@ US Only
 
 PSTN の使用 "米国とカナダ" は、この音声ルーティング ポリシーで再利用され、番号 "+1 425 XXX XX XX" および "+1 206 XXX XX XX" の呼び出しに対する特別な処理をローカルまたはオンプレミスの通話として保持します。
 
-1. 管理センターの左側のナビゲーションMicrosoft Teams Voice Voiceルーティング ポリシー] に移動し、[  >  追加] を **クリックします**。
+1. 管理センターの左側のナビゲーションMicrosoft Teams **音声音声ルーティング** ポリシー] に移動し、[  >  追加] を **クリックします**。
 2. 名前 **として「制限なし** 」と入力し、説明を追加します。
 3. **[PSTN 使用レコード**] で **、[PSTN** 使用法の追加] をクリックし、[米国とカナダ] PSTN 使用レコードを選択し、[国際] PSTN 使用レコードを選択します。 [**適用**] をクリックします。
 
     PSTN の使用状況の順序をメモします。
 
-    - この例のように構成された使用法で番号 "+1 425 XXX XX XX" を呼び出した場合、呼び出しは "米国とカナダ" で設定されたルートに従い、特殊なルーティング ロジックが適用されます。 つまり、最初に sbc1.contoso.biz と sbc2.contoso.biz を使用して呼び出しがルーティングされ、次 sbc3.contoso.biz バックアップ sbc4.contoso.biz としてルーティングされます。
+    - この例のように構成された使用法で番号 "+1 425 XXX XX XX" を呼び出した場合、呼び出しは "米国とカナダ" で設定されたルートに従い、特殊なルーティング ロジックが適用されます。 つまり、最初に sbc1.contoso.biz と sbc2.contoso.biz を使用して呼び出しがルーティングされ、sbc3.contoso.biz バックアップ sbc4.contoso.biz としてルーティングされます。
 
     - "国際" PSTN の使用が "米国およびカナダ" より前の場合、+1 425 XXX XX XX の呼び出しはルーティング ロジックの一部として sbc2.contoso.biz および sbc5.contoso.biz にルーティングされます。
 
@@ -414,7 +414,7 @@ Name                      : International
 
 #### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions"></a>手順 3: "制限なし" という名前の音声ルーティング ポリシーを作成する
 
-PSTN の使用法 "Redmond 1" と "Redmond" は、この音声ルーティング ポリシーで再利用され、番号 "+1 425 XXX XX XX" および "+1 206 XXX XX XX" の呼び出しに対する特別な処理をローカルまたはオンプレミスの呼び出しとして保持します。
+PSTN 使用法 "Redmond 1" と "Redmond" は、この音声ルーティング ポリシーで再利用され、番号 "+1 425 XXX XX XX" および "+1 206 XXX XX XX" の呼び出しに対する特別な処理をローカルまたはオンプレミスの呼び出しとして保持します。
 
   ```PowerShell
   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
@@ -422,7 +422,7 @@ PSTN の使用法 "Redmond 1" と "Redmond" は、この音声ルーティング
 
 PSTN の使用状況の順序をメモします。
 
-  - 次の例に示す使用法が構成された番号 "+1 425 XXX XX XX" に対する呼び出しが行われた場合、呼び出しは "米国とカナダ" で設定されたルートに従い、特殊なルーティング ロジックが適用されます。 つまり、最初に sbc1.contoso.biz と sbc2.contoso.biz を使用して呼び出しがルーティングされ、次 sbc3.contoso.biz バックアップ sbc4.contoso.biz としてルーティングされます。
+  - 次の例に示す使用法が構成された番号 "+1 425 XXX XX XX" に対する呼び出しが行われた場合、呼び出しは "米国とカナダ" で設定されたルートに従い、特殊なルーティング ロジックが適用されます。 つまり、最初に sbc1.contoso.biz と sbc2.contoso.biz を使用して呼び出しがルーティングされ、sbc3.contoso.biz バックアップ sbc4.contoso.biz としてルーティングされます。
 
   - "国際" PSTN の使用が "米国およびカナダ" より前の場合、+1 425 XXX XX XX の呼び出しはルーティング ロジックの一部として sbc2.contoso.biz および sbc5.contoso.biz にルーティングされます。 コマンドを入力します。
 
@@ -460,6 +460,19 @@ No Restrictions
 ```
 
 その結果、John Woods の呼び出しに適用される音声ポリシーは無制限であり、米国、カナダ、および国際通話で使用できる通話ルーティングのロジックに従います。
+
+## <a name="run-a-self-diagnostics-tool"></a>自己診断ツールを実行する
+
+Microsoft 365管理者ユーザーは、テナント内で実行できる診断にアクセスして、ユーザーが直接ルーティング用に正しく構成されていることを確認できます。 
+
+> [!NOTE]
+>この機能は、Microsoft 365 Government、21Vianet Microsoft 365、ドイツではMicrosoft 365できません。
+
+次のように、[テストの実行] を選択します。 これにより、診断が Microsoft 365 管理されます。
+>> [!div class="nextstepaction"]
+>> [テストの実行: Teams ルーティング](https://aka.ms/TeamsDirectRoutingDiag)
+
+診断は、さまざまな検証を実行します。
 
 ## <a name="see-also"></a>関連項目
 
