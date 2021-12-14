@@ -3,6 +3,49 @@
 
 
 
+## <a name="week-of-december-06-2021"></a>2021 年 12 月 6 日の週
+
+
+| 公開日 |トピックのタイトル | 変更 |
+|------|------------|--------|
+| 12/6/2021 | [SIP ゲートウェイの構成](/MicrosoftTeams/sip-gateway-configure) | 追加済 |
+| 12/6/2021 | [SIP ゲートウェイを計画する](/MicrosoftTeams/sip-gateway-plan) | 追加済 |
+| 12/6/2021 | [サービスの自動応答を設定Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 更新日時 |
+| 12/6/2021 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
+| 12/6/2021 | [リモートの場所の緊急対応の住所](/MicrosoftTeams/emergency-calling-dispatchable-location) | 追加済 |
+| 12/7/2021 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
+| 12/7/2021 | [会議のユーザーに対して会議のダイヤルアウト確認を設定Microsoft Teams](/MicrosoftTeams/set-up-meeting-dial-out-confirmation) | 更新日時 |
+| 12/7/2021 | [SIP ゲートウェイの構成](/MicrosoftTeams/sip-gateway-configure) | 更新日時 |
+| 12/7/2021 | [Microsoft Teams ルーム ポータル](/MicrosoftTeams/rooms/multi-tenant-auditing) | 追加済 |
+| 12/7/2021 | [顧客向けパートナー管理](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 追加済 |
+| 12/7/2021 | [パートナー向けマルチテナント顧客管理](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 追加済 |
+| 12/7/2021 | [Microsoft Teams Rooms の管理サービス](/MicrosoftTeams/rooms/microsoft-teams-rooms-premium) | 更新日時 |
+| 12/7/2021 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
+| 12/8/2021 | [Microsoft EDU Parents アプリの管理者セットアップ (Teams](/MicrosoftTeams/edu-parents-app) | 更新日時 |
+| 12/8/2021 | [ダイレクト ルーティングの場所に基づくルーティングを計画する](/MicrosoftTeams/location-based-routing-plan) | 更新 |
+| 12/8/2021 | [保留音](/MicrosoftTeams/music-on-hold) | 更新日時 |
+| 12/8/2021 | [オンプレミスMicrosoft Teamsを使用Exchange会議室をデプロイする (ハイブリッド)](/MicrosoftTeams/rooms/with-exchange-on-premises) | 更新日時 |
+| 12/8/2021 | [Exchange Online を使用して Microsoft Teams ミーティング を展開](/MicrosoftTeams/rooms/with-exchange-online) | 更新日時 |
+| 12/8/2021 | [Microsoft 365 または Office 365 で Microsoft Teams Rooms を展開する](/MicrosoftTeams/rooms/with-office-365) | 更新日時 |
+| 12/8/2021 | [Skype for Business Server で Microsoft Teams Rooms を展開する](/MicrosoftTeams/rooms/with-skype-for-business-server-2015) | 更新日時 |
+| 12/8/2021 | [通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | 更新日時 |
+| 12/8/2021 | [ディメンションと測定値 - 通話品質ダッシュボード (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 更新日時 |
+| 12/9/2021 | [動的な緊急通話を構成する](/MicrosoftTeams/configure-dynamic-emergency-calling) | 更新日時 |
+| 12/9/2021 | [Teams 用のデバイス](/MicrosoftTeams/devices/teams-ip-phones) | 更新日時 |
+| 12/9/2021 | [ダイレクト ルーティング SBA](/MicrosoftTeams/direct-routing-survivable-branch-appliance) | 更新日時 |
+| 12/9/2021 | [電話会議が有効になっているユーザーの一覧を表示する](/MicrosoftTeams/see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams) | 更新日時 |
+| 12/9/2021 | [通話品質ダッシュボード (CQD) についてよく寄せられる質問 (FAQ)](/MicrosoftTeams/cqd-frequently-asked-questions) | 更新日時 |
+| 12/9/2021 | [リアルタイム テレメトリを使用して低品質の会議のトラブルシューティングを行う](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 更新日時 |
+| 12/10/2021 | [動的な緊急通話を構成する](/MicrosoftTeams/configure-dynamic-emergency-calling) | 更新日時 |
+| 12/10/2021 | [自動応答と通話キューのダイヤルと音声認識のリファレンス](/MicrosoftTeams/dial-voice-reference) | 更新日時 |
+| 12/10/2021 | [Microsoft Teams のトラブルシューティングでログ ファイルを使用する](/MicrosoftTeams/log-files) | 更新 |
+| 12/10/2021 | [通話プランの設定](/MicrosoftTeams/set-up-calling-plans) | 更新日時 |
+| 12/10/2021 | [ダイレクト ルーティングの呼び出しルーティングを構成する](/MicrosoftTeams/direct-routing-voice-routing) | 更新日時 |
+| 12/10/2021 | [非営利団体向けの Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-nonprofit-landing-page) | 更新日時 |
+| 12/10/2021 | [顧客向けパートナー管理](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 更新日時 |
+| 12/10/2021 | [パートナー向けマルチテナント顧客管理](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 更新日時 |
+
+
 ## <a name="week-of-november-29-2021"></a>2021 年 11 月 29 日の週
 
 
@@ -23,7 +66,7 @@
 | 12/1/2021 | [Free Microsoft Teams (クラシック) をサブスクリプションにアップグレードする](/MicrosoftTeams/upgrade-freemium) | 更新日時 |
 | 12/1/2021 | [中小企業向けの Teams Essentials クイックスタート ガイド](/MicrosoftTeams/get-started-with-teams-essentials) | 更新日時 |
 | 12/1/2021 | [次の方法で利用Teams 電話](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 更新日時 |
-| 12/1/2021 | [組織内のTeams 電話を設定する](/MicrosoftTeams/setting-up-your-phone-system) | 更新日時 |
+| 12/1/2021 | [組織でTeams 電話を設定する](/MicrosoftTeams/setting-up-your-phone-system) | 更新日時 |
 | 12/1/2021 | [使用するTeams 電話](/MicrosoftTeams/what-is-phone-system-in-office-365) | 更新日時 |
 | 12/2/2021 | [音声ソリューションの計画を立Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 更新日時 |
 | 12/2/2021 | [デバイスの電話とデバイスMicrosoft Teams](/MicrosoftTeams/devices/usb-devices) | 更新日時 |
@@ -39,7 +82,7 @@
 | 12/3/2021 | [中小企業向けの Teams Essentials クイックスタート ガイド](/MicrosoftTeams/get-started-with-teams-essentials) | 更新日時 |
 | 12/3/2021 | [Microsoft Teams Rooms コンソールを構成する](/MicrosoftTeams/rooms/console) | 更新日時 |
 | 12/3/2021 | [コンテンツ カメラをセットアップする方法 - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | 更新日時 |
-| 12/3/2021 | [会議室と会議室で調整Microsoft Teamsを設定Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | 更新日時 |
+| 12/3/2021 | [会議室と会議室で調整されたMicrosoft Teamsを設定Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | 更新日時 |
 | 12/3/2021 | [Microsoft Teams Rooms の要件](/MicrosoftTeams/rooms/requirements) | 更新日時 |
 | 12/3/2021 | [Microsoft Teams 会議室での認証](/MicrosoftTeams/rooms/rooms-authentication) | 更新日時 |
 | 12/3/2021 | [Microsoft Teams Rooms のアカウントを構成する](/MicrosoftTeams/rooms/rooms-configure-accounts) | 更新日時 |
@@ -48,7 +91,7 @@
 | 12/3/2021 | [Microsoft Teams Rooms アプリ バージョンのサポート](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 更新日時 |
 | 12/3/2021 | [Microsoft Teams Rooms を管理する](/MicrosoftTeams/rooms/rooms-manage) | 更新日時 |
 | 12/3/2021 | [Microsoft Teams Rooms のメンテナンスと運用](/MicrosoftTeams/rooms/rooms-operations) | 更新日時 |
-| 12/3/2021 | [Microsoft Teams Rooms Security](/MicrosoftTeams/rooms/security) | 更新日時 |
+| 12/3/2021 | [Microsoft Teams 会議室のセキュリティ](/MicrosoftTeams/rooms/security) | 更新日時 |
 
 
 ## <a name="week-of-november-22-2021"></a>2021 年 11 月 22 日の週
@@ -69,7 +112,7 @@
 | 11/24/2021 | [Teams のクラウド会議の記録](/MicrosoftTeams/cloud-recording) | 更新日時 |
 | 11/24/2021 | [Microsoft Teams でのデスクトップ共有を構成する](/MicrosoftTeams/configure-desktop-sharing) | 更新 |
 | 11/24/2021 | [Cortanaでの音声アシスタンスのMicrosoft Teams](/MicrosoftTeams/cortana-in-teams) | 更新日時 |
-| 11/24/2021 | [Microsoft Teams for Educationウィザードを使用して、安全な学習のためにポリシーを簡単に適用する](/MicrosoftTeams/easy-policy-setup-edu) | 更新日時 |
+| 11/24/2021 | [Microsoft Teams for Educationウィザードを使用して、安全な学習のためのポリシーを簡単に適用する](/MicrosoftTeams/easy-policy-setup-edu) | 更新日時 |
 | 11/24/2021 | [会議ポリシーと会議の有効期限 (Microsoft Teams](/MicrosoftTeams/meeting-expiration) | 更新日時 |
 | 11/24/2021 | [音声とビデオの会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-audio-and-video) | 更新日時 |
 | 11/24/2021 | [コンテンツ共有の会議ポリシーを管理する](/MicrosoftTeams/meeting-policies-content-sharing) | 更新日時 |
@@ -112,7 +155,7 @@
 | 11/17/2021 | [発信通話の制限 - PSTN 通話&電話会議](/MicrosoftTeams/outbound-calling-restriction-policies) | 更新日時 |
 | 11/17/2021 | [リアルタイム テレメトリを使用して低品質の会議のトラブルシューティングを行う](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 更新日時 |
 | 11/18/2021 | [Android デバイスのリモート プロビジョニングTeamsサインイン](/MicrosoftTeams/devices/remote-provision-remote-login) | 更新日時 |
-| 11/18/2021 | [Android デバイスのリモート サインインとTeamsサインアウト](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | 追加済 |
+| 11/18/2021 | [Android デバイスのリモート サインインTeamsサインアウト](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | 追加済 |
 | 11/18/2021 | [Microsoft Teams PowerShell リリース ノート](/MicrosoftTeams/teams-powershell-release-notes) | 更新日時 |
 | 11/18/2021 | [Bookings アプリを管理する Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | 更新日時 |
 | 11/18/2021 | [非営利団体向けの Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-nonprofit-landing-page) | 更新日時 |
@@ -126,4 +169,4 @@
 | 11/18/2021 | Microsoft Teams のゲスト アクセスに関する問題のトラブルシューティング | 削除されました |
 | 11/19/2021 | [アップグレード チェックリスト \| Skype for Business から Teams へのアップグレード \| 基本手順](/MicrosoftTeams/upgrade-basic) | 更新日時 |
 | 11/19/2021 | アクセシビリティに関する準拠宣言 - フランス | 削除されました |
-| 11/19/2021 | [Microsoft Teams: アクセシビリティに関する準拠宣言 - フランス](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | 更新日時 |
+| 11/19/2021 | [Microsoft Teams: 準拠のアクセシビリティ宣言 - フランス](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | 更新日時 |
