@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理者は、更新プログラム、ユーザー インターフェイス、ハードウェア、制限事項や想定される動作を含む、Microsoft Teams Rooms の既知の問題のリストについて知ることができます。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: adf3b0fb7642b4a9774459527af304fe33167352
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72d80d930a8c140e6c2c00917a08cf69398fd4b1
+ms.sourcegitcommit: badcd3abeed138c330ee98d739eac5bbc5c0bfae
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578321"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "61441127"
 ---
 # <a name="known-issues"></a>既知の問題 
  
@@ -31,10 +31,11 @@ ms.locfileid: "58578321"
 
 | 問題のタイトル |  動作 \/ 症状 | 既知の回避策 | サポート技術情報記事 |
 |  ---        |      ---             |   ---            | --- |
-| アプリケーションが起動しない |  アプリケーション バージョン 4.4.41.0 に更新すると、システムが黒い画面を表示するか、数分後にログオン画面に移動します。 | この問題を修正するには、[バージョン 4.4.41.0 に更新後に Microsoft Teams Rooms が起動しない](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) の手順に従います。  | なし |
-|  コンテンツ共有後の会議の量が少ない         |   Microsoft TeamsWindows 10 20H2 の会議室デバイスでは、ルーム内 HDMI 経由でコンテンツを共有した後、メディアと会議の音量が低下します。 これは、20H2 のオーディオの問題Windows 10発生します。 | この問題の修正プログラムは、アプリケーション バージョン [4.9.12.0 で利用できます](/microsoftteams/rooms/rooms-release-note#49120-7282021)。 | なし |
+| ギャラリー参加者の分割ビデオ   | デュアル フロント オブ ルーム表示モードでは、9 人を超えるリモート ビデオ参加者が参加する会議で共有コンテンツがない場合、既知の問題により、自己プレビューを含む会議室の前面ディスプレイに 1 つのビデオが音声として表示される場合があります。 また、オーディオ参加者の数が実際よりも少ない場合は、デュアル フロント オブ ルーム ディスプレイに表示されます。 | 問題は今後の更新で解決される予定です。 | なし |
+| アプリケーションが起動しない |  アプリケーション バージョン 4.4.41.0 に更新した後、システムは黒い画面で起動するか、数分後にサインイン画面に移動します。 | この問題を修正するには、[バージョン 4.4.41.0 に更新後に Microsoft Teams Rooms が起動しない](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update) の手順に従います。  | なし |
+|  コンテンツ共有後の会議の量が少ない         |   Microsoft Teams 20H2 の会議室デバイスでは、Windows 10 HDMI 経由でコンテンツを共有した後、メディアと会議の音量が低下します。 これは、20H2 のオーディオの問題Windows 10発生します。 | この問題の修正プログラムは、アプリケーション バージョン [4.9.12.0 で利用できます](/microsoftteams/rooms/rooms-release-note#49120-7282021)。 | なし |
 |  旧版のアプリ         |    Microsoft Teams Rooms のコンソールには、「システム構成が古くなっています」というエラーが表示されます。                |   [Microsoft Teams Rooms の回復ツールを使用する](recovery-tool.md)             |  なし |
-|  デバイスを Windows 10 でサポートされていないバージョンに更新した   |    Windows 10 デバイスはバージョン 1803 からバージョン 1809 に更新されましたが、これはサポートされていないバージョンです。 サポートされているバージョンは 1903 です。 |   これは、[DeferFeatureUpdatesPeriodinDays 向けグループ ポリシーまたは MDM 設定](/windows/deployment/update/waas-configure-wufb)で、機能の更新を指定した日数 (最大 365 日) 保留にした場合に発生することがあります。 <br><br> Windows 10 バージョン 1903 は Microsoft Teams Rooms でサポートされていますが、バージョン 1809 はサポートされていません。 ただし、2020 年 3 月 27 日時点で、バージョン 1809 はリリースから 365 日以上経過しています。 この設定が変更されていない場合は、Windows は バージョン 1809 のインストールを試行します。これにより、Microsoft Teams Rooms で問題が発生する可能性があります。<br><br>このような状況を回避するには、更新を保留しているグループ ポリシーまたは MDM 設定のいずれかを **削除** します。 これにより、Windows はサポートされている最新の OS バージョンに更新されます。 <br><br>**重要** グループ ポリシーまたは MDM 設定は、**削除済み** (構成しないままにする) および **0 に設定しない** 必要があります。 ポリシーが 0 に設定された場合、Windows はサポートされていない可能性がある使用可能な最新バージョンを選択します。 |  なし |
+|  デバイスを Windows 10 でサポートされていないバージョンに更新した   |    Windows 10 デバイスはバージョン 1803 からバージョン 1809 に更新されましたが、これはサポートされていないバージョンです。 サポートされているバージョンは 1903 です。 |   これは、[DeferFeatureUpdatesPeriodinDays 向けグループ ポリシーまたは MDM 設定](/windows/deployment/update/waas-configure-wufb)で、機能の更新を指定した日数 (最大 365 日) 保留にした場合に発生することがあります。 <br><br> Windows 10 バージョン 1903 は Microsoft Teams Rooms でサポートされていますが、バージョン 1809 はサポートされていません。 ただし、2020 年 3 月 27 日時点で、バージョン 1809 はリリースから 365 日以上経過しています。 この設定が変更されていない場合は、Windows は バージョン 1809 のインストールを試行します。これにより、Microsoft Teams Rooms で問題が発生する可能性があります。<br><br>このような状況を回避するには、更新を保留しているグループ ポリシーまたは MDM 設定のいずれかを **削除** します。 これにより、Windows はサポートされている最新の OS バージョンに更新されます。 <br><br>**大事な：** グループ ポリシーまたは MDM 設定は **削除する必要** があります (未構成の状態)。 **0 に設定することはできません**。 ポリシーが 0 に設定された場合、Windows はサポートされていない可能性がある使用可能な最新バージョンを選択します。 |  なし |
 
 
 
@@ -63,7 +64,7 @@ Microsoft Teams Rooms は、HDMI インジェストの機能 (ビデオ、オー
 
 ルームの前方ディスプレイを、ソースがスタンバイ モードから復帰したときにアクティブなビデオ ソース (MTR コンソールなど) に自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアで機能がサポートされている場合は、Microsoft Teams Rooms ソフトウェアによってサポートされます。 ルームの前方ディスプレイとして使用される一般向けテレビは、HDMI の CEC (Consumer Electronics Control) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があるため、製造元のサポート ドキュメントを参照してください) に応じて、適切な動作を実現するには、Crestron 社の [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) や Extron 社の [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) などのコントローラーが必要になる場合があります。
 
-さらに、ルーム ディスプレイの前面として使用されるコンシューマーテレビは、Microsoft Teams Rooms ソフトウェアの安定性の問題を引き起こす可能性があります。 これは、スタンバイ モードの一貫性のない実装、アクティブなビデオ ソースの選択、および障害のある EDID 情報を Microsoft Teams Rooms デバイスに伝達するために発生します。 既知の症状は、ルーム ディスプレイの前面の黒/灰色の画面、または Microsoft Teams Rooms コンソールがスタンバイからスリープ解除した後に応答しなくなるなどです。  コンシューマーテレビを使用するときに問題が発生する場合は、構成可能な EDID コントローラーまたは EDID エミュレーターをインストールすることをお勧めします (例: [Hd-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) fromのCedron または FSR Video Products Group の[DR-EDID Emulator)。](https://fsrinc.com/fsr-products/product/dr-edid-manager-learner/category_pathway-143)
+さらに、ルーム ディスプレイの前面として使用されるコンシューマーテレビは、Microsoft Teams Rooms ソフトウェアの安定性の問題を引き起こす可能性があります。 これは、スタンバイ モードの一貫性のない実装、アクティブなビデオ ソースの選択、および障害のある EDID 情報を Microsoft Teams Rooms デバイスに伝達するために発生します。 既知の症状は、会議室ディスプレイの前面の黒/灰色の画面、または Microsoft Teams Rooms コンソールがスタンバイからスリープ解除された後に応答しなくなるなどです。  コンシューマーテレビを使用するときに問題が発生する場合は、構成可能な EDID コントローラーまたは EDID エミュレーターをインストールすることをお勧めします (例: [Hd-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) fromのCedron または FSR Video Products Group の[DR-EDID Emulator)。](https://fsrinc.com/fsr-products/product/dr-edid-manager-learner/category_pathway-143)
 
 ***
 
