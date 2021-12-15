@@ -9,21 +9,21 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 管理センターの 称賛 アプリの管理者設定Microsoft Teams確認する
-ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 044ab5d7fc5aebba1b1245f349e4ed27c61190b6
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858034"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513458"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>管理センター称賛アプリをMicrosoft Teamsする
 
 > [!NOTE]
 > 管理者は、この機能にアクセスTeamsライセンスを持っている必要があります。 ライセンスなしでこの機能にアクセスTeams、エラー メッセージが表示されます。
 
-称賛アプリはMicrosoft Teams、ユーザーが自分の組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 選択できるバッジ セットと独自のバッジを作成するオプションにより、称賛 は、教師からフロントライン ワーカーまで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 詳細については、「ユーザーにメールを[送信称賛」を参照してください](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+称賛アプリはMicrosoft Teams、ユーザーが自分の組織または教室のメンバーに感謝の気持ちを示すのに役立ちます。 選択できるバッジ セットと独自のバッジを作成するオプションにより、称賛 は、教師から Frontline Worker まで、Teams ユーザーが行う幅広い作業に取り組む作業を認識するのに役立ちます。 詳細については、「ユーザーにメールを[送信称賛」を参照してください](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
-管理者は、管理センターから組織が使用できるバッジMicrosoft Teamsできます。 左側のナビゲーションで、[アプリの管理] **Teams アプリ> に移動します**。 アプリの一覧で 、[アプリ]**を称賛** し、[]**を** 設定。  ここから、既定の組み込みのバッジ セットを有効にし、カスタム バッジを作成することができます。
+管理者は、管理センターから組織が使用できるバッジMicrosoft Teamsできます。 左側のナビゲーションで、[アプリの管理] **Teams アプリ> に移動します**。 アプリの一覧で [アプリ]**をクリック称賛** し、[]**を** 設定。  ここから、既定の組み込みのバッジ セットを有効にし、カスタム バッジを作成することができます。
 
 ![アプリの [設定] タブ称賛スクリーンショット。](media/manage-praise-app-settings.png)
 
@@ -32,13 +32,13 @@ ms.locfileid: "60858034"
 
 ## <a name="use-built-in-badge-sets"></a>組み込みのバッジ セットを使用する
 
-組み込みセットは、Microsoft によって設計された、新しいアプリ用に設計称賛です。 これらのセットは管理者が編集できません。 既定のバッジ セットは既に有効であり、称賛できます。 既定のセットまたはバッジ セットの可用性を変更するには、対応するトグルを [オン] または [オフ] に切り替えます。 
+組み込みセットは、Microsoft によって設計されたバッジのコレクションで、称賛されます。 これらのセットは管理者が編集できません。 既定のバッジ セットは既に有効であり、称賛できます。 既定のセットまたはバッジ セットの可用性を変更するには、対応するトグルを [オン] または [オフ] に切り替えます。 
 
 <a name="default-badges"></br></a>
 
 ### <a name="default-badges"></a>既定のバッジ
 
-既定のバッジ セットは、ユーザーが仕事Teams以上の作業を行う同僚を認識するのに役立ちます。
+既定のバッジ セットは、他のユーザーがTeamsを超えて作業を行うユーザーを認識するのに役立ちます。
 
 ![既定のバッジ セットのプレビュー。](media/default-set-praise.png)
 
@@ -93,9 +93,9 @@ ms.locfileid: "60858034"
 
 |色  |16 進値|
 |-------|---------|
-|![16 進カラー #FF6666。](media/hexColor1.png)|  #FF6666   |
+|![16 進数#FF6666。](media/hexColor1.png)|  #FF6666   |
 |![16 進数#7FFFD4。](media/hexColor2.png)|  #7FFFD4   |
-|![16 進カラー #FF75F0。](media/hexColor3.png)|  #FF75F0   |
+|![16 進数#FF75F0。](media/hexColor3.png)|  #FF75F0   |
 |![16 進数#00BFFF。](media/hexColor4.png)|  #00BFFF   |
 |![16 進数の色 #800080。](media/hexColor5.png)|  #800080   |
 |![16 進数の色 #000000。](media/hexColor6.png)|  #000000   |
@@ -116,7 +116,7 @@ ms.locfileid: "60858034"
 
 ## <a name="badge-set-assets"></a>バッジ セットアセット
 
-組み込みのバッジ セットは変更できないので、組み込みセットが有効になっている場合、セット内のすべてのバッジが 称賛されます。 組み込みのセットから特定のバッジを追加し、他のバッジを削除する場合は、カスタム バッジとして使用するバッジを再作成します。 バッジ画像をダウンロードし、次の表の組み込みセットからバッジのテキストと背景色を見つけることができます。
+組み込みのバッジ セットは変更できません。そのため、組み込みセットが有効になっている場合、セット内のすべてのバッジが 称賛されます。 組み込みのセットから特定のバッジを追加し、他のバッジを削除する場合は、カスタム バッジとして使用するバッジを再作成します。 バッジ画像をダウンロードし、次の表の組み込みセットからバッジのテキストと背景色を見つけることができます。
 
 ### <a name="default-badges-assets"></a>既定のバッジ アセット
 
@@ -157,3 +157,11 @@ ms.locfileid: "60858034"
 |自己認識    |[自己認識 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |自己管理   |[自己管理 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |思いやり    |[思いやりの PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
+
+## <a name="upcoming-changes"></a>今後の変更
+
+2022 年 1 月から、バッジで現在利用可能な機能が変更されます。 自己認識や自己管理を含む教育用のソーシャルおよび感情的な学習バッジは使用できなくなりました。
+
+[**カスタム バッジの作成**]   オプションは、2022 年 1 月の提供を終了します。
+
+さらに、称賛を許可またはブロックする Teams 管理センターの [状態] トグルは、Teams の 称賛 アプリと 称賛 アプリの インサイト 称賛 機能の両方に影響します。

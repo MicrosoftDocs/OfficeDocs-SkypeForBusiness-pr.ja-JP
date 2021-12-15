@@ -21,12 +21,12 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634926"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513488"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 
@@ -141,6 +141,50 @@ Teams ユーザーと Skype ユーザーが通信できるようにする方法�
 
 > [!NOTE]
 > これは、ユーザーともう 1 人のユーザーの両方が外部アクセスを有効にしてお互いのドメインを許可している場合に可能になります。 正常に動作しない場合は、もう 1 人のユーザーの構成でユーザーのドメインが禁止されていないかを確認してもらいます。
+
+## <a name="limit-external-access-to-specific-people"></a>外部アクセスを特定のユーザーに制限する
+
+PowerShell を使用して、外部アクセスを特定のユーザーに制限できます。
+
+以下のサンプル スクリプトを使用して、ポリシーに付ける名前を *PolicyName* に置き換え、外部アクセスを使用できるようにする各ユーザーを *UserName* に置き換えることができます。
+
+スクリプトを実行する前に、[Microsoft Teams PowerShell モジュール](/microsoftteams/teams-powershell-install)がインストールされていることを確認してください。
+
+```PowerShell
+Connect-MicrosoftTeams
+
+# Disable external access globally
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+# Create a new external access policy
+New-CsExternalAccessPolicy -Identity <PolicyName> -EnableTeamsConsumerAccess $true
+
+# Assign users to the policy
+$users_ids = @("<UserName1>", "<UserName2>")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "<PolicyName>" -Identity $users_ids
+
+```
+
+次に例を示します。
+
+```PowerShell
+Connect-MicrosoftTeams
+
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+New-CsExternalAccessPolicy -Identity ContosoExternalAccess -EnableTeamsConsumerAccess $true
+
+$users_ids = @("MeganB@contoso.com", "AlexW@contoso.com")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "ContosoExternalAccess" -Identity $users_ids
+
+```
+
+ユーザー リストをコンパイルする方法の追加の例については、[New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) を参照してください。
+
+`Get-CsExternalAccessPolicy -Include All` を実行すると、新しいポリシーを確認できます。
+
+
+[New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) および [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) も参照してください。
 
 ## <a name="common-external-access-scenarios"></a>一般的な外部アクセスのシナリオ
 

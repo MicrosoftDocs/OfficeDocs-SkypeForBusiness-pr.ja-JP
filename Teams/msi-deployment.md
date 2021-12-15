@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7ff835715bd91e66160817410312734c6949f5c
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 4a26970bdef120ae6b6ba80fac80838320a06fd7
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216633"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513508"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Microsoft Endpoint Configuration Manager を使用して Microsoft Teams をインストールする
 
@@ -64,7 +64,7 @@ Teams MSI はインストーラーを Program Files に配置します。 ユー
 更新プログラムを展開するのに MSI を使用しないでください。クライアントは、サービスから利用可能な新しいバージョンを見つけたら、自動更新します。 最新のインストーラーを再展開するには、以下に説明されている MSI の再展開のプロセスを使用します。 MSI パッケージの以前のバージョンを展開すると、クライアントはそのユーザーが可能なときに自動更新を実行します (VDI 環境を除く)。 非常に昔のバージョンが展開された場合、MSI はユーザーが Teams を使用できる状態になる前にアプリの更新をトリガーします。
 
 > [!IMPORTANT]
-> 既定の場所は、32 ビット オペレーティング システムの C:\Program Files (x86)\Teams Installer、64 ビット オペレーティング システムの C:\Program Files\Teams Installer です。
+> 既定の場所は、32 ビット オペレーティング システムの C:\Program Files\Teams Installer、64 ビット オペレーティング システムの C:\Program Files (x86)\Teams Installer です。
 > 既定のインストール場所を変更すると、更新フローが崩れる可能性があるため、お勧めしません。 非常に昔のバージョンを利用すると、ユーザーがサービスにアクセスするのを妨げる結果になってしまいます。
 
 #### <a name="target-computer-requirements"></a>対象となるコンピューターの要件
