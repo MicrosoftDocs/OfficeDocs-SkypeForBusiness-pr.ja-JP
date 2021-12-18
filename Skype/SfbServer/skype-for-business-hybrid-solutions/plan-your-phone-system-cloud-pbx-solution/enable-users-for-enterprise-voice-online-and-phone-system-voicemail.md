@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: ユーザーの音声サービスを有効電話システムする方法についてSkype for Businessします。
-ms.openlocfilehash: b82121dff3c7a82827d6e19fdb0b78bfeee263f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9c9123b79a1fd5557d0d31db7b4b150bcda80af3
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602312"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563440"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>エンタープライズ VoIP オンラインおよび電話システムのボイスメールのユーザーを有効にする
  
 > [!Important]
-> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その後サービスにアクセスできなくなりました。  さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間でサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Skype for Business 2021 年 7 月 31 日にオンラインが廃止され、Skype for Business Server または Cloud Connector Edition と Skype for Business Online を通じたオンプレミス環境間の PSTN 接続はサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
 ユーザーの音声サービスを有効電話システムする方法についてSkype for Businessします。
   
@@ -42,7 +42,7 @@ ms.locfileid: "58602312"
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>音声とボイスメールの電話システムを有効にするには
 
 > [!NOTE]
-> Skype for Businessオンライン コネクタは現在、PowerShell モジュールの最新Teams一部です。
+> Skype for Businessコネクタは現在、PowerShell モジュールの最新Teams一部です。
 > 最新の[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)パブリック リリースTeams使用している場合は、オンライン コネクタをインストールするSkype for Business必要があります。
 
 1. 開始する前に、PowerShell Teamsがフロント エンド サーバーにインストールされていることを確認してください。 インストールされていない場合は、「PowerShell モジュールのインストール」のTeams[を使用してインストールしてください](/microsoftteams/teams-powershell-install)。
@@ -134,7 +134,7 @@ ms.locfileid: "58602312"
 電話システムを正常にルーティングするには、ユーザーに音声ルーティング ポリシーが割り当てられている必要があります。 これは、通話を正常にルーティングするために音声ポリシーを割り当てる必要があるオンプレミスのビジネス音声ユーザーとは異なります。 音声ルーティング ポリシーには、ユーザーに対する承認された呼び出しとルートを定義する PSTN 使用法電話システムがあります。 これらの PSTN 使用法は、既存の音声ポリシーから新しい音声ルーティング ポリシーにコピーできます。 詳細については [、「New-CsVoiceRoutingPolicy」を参照してください](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
   
 > [!NOTE]
-> すべてのユーザー電話システム、許可される通話機能を定義する BusinessVoice という名前の同じオンライン音声ポリシーが割り当てられます。たとえば、同時呼び出しを許可します。 
+> すべての電話システムは、許可される通話機能を定義する BusinessVoice という名前の同じオンライン音声ポリシー (同時呼び出しを許可するなど) が割り当てられます。 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>ユーザー単位の音声ルーティング ポリシーを 1 人のユーザーに割り当てるには
 

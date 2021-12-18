@@ -20,17 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: オンプレミス PSTN 接続を使用電話システム (Cloud PBX) の計画に関する考慮事項について説明します。
-ms.openlocfilehash: 21ad7efc67b503f790dd307b23aee5f8fd9ce11c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a3c01ed32cb2654ea10773f53c4148262e3ee6c5
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864534"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562779"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Skype for Business Server でオンプレミス PSTN 接続を使用して電話システムを計画する
 
 > [!Important]
-> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その後サービスにアクセスできなくなりました。  さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間でサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Skype for Business 2021 年 7 月 31 日にオンラインが廃止され、Skype for Business Server または Cloud Connector Edition と Skype for Business Online を介したオンプレミス環境間の PSTN 接続はサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
 
 オンプレミス PSTN 接続を使用電話システム (Cloud PBX) の計画に関する考慮事項について説明します。
 
@@ -102,7 +102,7 @@ Skype for Business Server 2015 年 2015 年と直接相互運用する従来の 
 
 さらに、次の情報を確認する必要があります。
 
-- **オンプレミス のユーザーエンタープライズ VoIP構成および** テストされるオンプレミス のユーザー向けこれには、PSTN 接続コンポーネントが含まれます。 詳細については、Skype for Business Server 2015 を使用している場合は、次のトピックを参照してください。「Skype for Business Server [2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)の エンタープライズ VoIP の計画」および「Skype for Business Server [2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)での エンタープライズ VoIP の展開」を参照してください。
+- **オンプレミス のユーザーエンタープライズ VoIP構成** され、テストされます。これには、PSTN 接続コンポーネントが含まれます。 詳細については、Skype for Business Server 2015 を使用している場合は、次のトピックを参照してください。「エンタープライズ VoIP 2015 の計画」および「Skype for Business Server [2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)でのエンタープライズ VoIPの展開」を[参照してください。Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md).
 
     Lync Server 2013 を使用している場合は[、「Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice)での エンタープライズ VoIP の計画」および「Lync Server [2013](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice)での エンタープライズ VoIPの展開」を参照してください。
 
@@ -111,7 +111,7 @@ Skype for Business Server 2015 年 2015 年と直接相互運用する従来の 
     > [!NOTE]
     > 使用するAAD Connectバージョンはバージョン 1.0.9125.0 以降である必要があります。 以前のバージョンのツールまたは DirSync をAAD Connect場合は、サポートされているバージョンにアップグレードしてください。 現在のインストールをアップグレードし、環境で定義したカスタム ルールを維持できます。 
 
-- **ハイブリッド展開を構成する** すべての Skype for Business ユーザーが現在オンラインまたはオンプレミスのどちらに配置されている場合でも、現在混在している場合は、「Skype for Business Server と Office 365 間のハイブリッド接続の展開」で説明されている手順に従って [、Skype for Business Server](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)または Lync Server 2013 のハイブリッド展開を構成する手順を完了する必要があります。 ハイブリッド展開の背景の詳細については、「ハイブリッド接続を計画する」を参照[Skype for Business Serverと](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)Office 365。 
+- **ハイブリッド展開を構成する** すべての Skype for Business ユーザーが現在オンラインまたはオンプレミスのどちらに配置されているのか、または現在混在している場合は、「ハイブリッド接続を間に展開する」で説明されている Skype for Business Server または Lync Server 2013 のハイブリッド展開を構成する手順を完了する必要があります。 [Skype for Business ServerとOffice 365](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)。 ハイブリッド展開の背景の詳細については、「ハイブリッド接続を計画する」を参照[Skype for Business Serverと](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)Office 365。 
 
     Lync Server 2013 を使用している場合は [、「Lync Server 2013 ハイブリッド」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-2013-hybrid)。
 

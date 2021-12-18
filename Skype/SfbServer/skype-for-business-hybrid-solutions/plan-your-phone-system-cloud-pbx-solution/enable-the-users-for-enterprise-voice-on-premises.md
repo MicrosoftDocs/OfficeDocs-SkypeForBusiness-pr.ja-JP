@@ -19,19 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: ユーザーがクラウド PBX (Cloud PBX) を電話システムするには、最初にユーザーに対して有効にしエンタープライズ VoIP電話番号を割り当てる必要があります。 これは、ユーザーがオンプレミス展開にまだ存在している間に、オンプレミス展開を使用して行います。
-ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a71b47b5b7b5ec7ca7328bbe9b0ee864b87f36ac
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012511"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563716"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>オンプレミスでユーザーエンタープライズ VoIP有効にする
  
 ユーザーがクラウド PBX (Cloud PBX) を電話システムするには、最初にユーザーに対して有効にしエンタープライズ VoIP電話番号を割り当てる必要があります。 これは、ユーザーがオンプレミス展開にまだ存在している間に、オンプレミス展開を使用して行います。
 
 > [!Important]
-> Skype for Businessオンラインは 2021 年 7 月 31 日に廃止され、その後サービスにアクセスできなくなりました。  さらに、オンプレミス環境間の PSTN 接続は、Skype for Business Server または Cloud Connector Edition と Skype for Business Online の間でサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
+> Skype for Business 2021 年 7 月 31 日にオンラインが廃止され、Skype for Business Server または Cloud Connector Edition と Skype for Business Online を通じたオンプレミス環境間の PSTN 接続はサポートされなくなりました。  直接ルーティングを使用してオンプレミスのテレフォニー ネットワークをネットワークにTeams[する方法について説明します](/MicrosoftTeams/direct-routing-landing-page)。
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>オンプレミスのユーザーを有効エンタープライズ VoIP電話番号を割り当てるには
 

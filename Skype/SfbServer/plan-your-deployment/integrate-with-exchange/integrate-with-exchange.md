@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '概要: このトピックでは、2016 年または 2013 年Skype for Business Server 2016 Exchange Serverと統合Exchange Serverしてください。'
-ms.openlocfilehash: 8613f080aa878c5111a4c69c38b77f9c16606b26
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5edfdf44b50d2a58c097bed5ee83855f375ff895
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844130"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562839"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Skype for Business と Exchange の統合の計画
  
@@ -28,9 +28,9 @@ ms.locfileid: "60844130"
   
 インストール方法の詳細についてはExchange ServerバージョンExchange Serverの「計画と展開」のドキュメントを参照Exchange。 
    
-サーバーが稼働した後、サーバー間認証証明書をサーバー間認証証明書とサーバー間認証証明書の両方Skype for Business Server割りExchange Server。これらの証明書を使用Skype for Business Server、Exchange Serverを交換し、相互に通信することができます。 証明書をインストールExchange Server、Auth 証明書という名前の自己署名証明書Microsoft Exchange Server作成されます。 ローカル コンピューター証明書ストアにあるこの証明書は、サーバー間認証に使用する必要Exchange Server。 サーバーでの証明書の割り当てExchange Server詳細については[、「Configure Mail Flow」および「クライアント アクセス」を参照してください](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)。
+サーバーが稼働した後、サーバー間認証証明書を Skype for Business Server と Exchange Server の両方に割り当てる必要があります。これらの証明書は、Skype for Business Server とExchange Server を使用して、情報の交換および相互通信を行います。 証明書をインストールExchange Server、Auth 証明書という名前の自己署名証明書Microsoft Exchange Server作成されます。 ローカル コンピューター証明書ストアにあるこの証明書は、サーバー間認証に使用する必要Exchange Server。 サーバーでの証明書の割り当てExchange Server詳細については[、「Configure Mail Flow」および「クライアント アクセス」を参照してください](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)。
   
-たとえばSkype for Business Serverサーバー間認証証明書Skype for Business Server既存の証明書を使用できます。たとえば、既定の証明書を OAuthTokenIssuer 証明書として使用できます。 Skype for Business Serverを使用すると、次の条件を提供するサーバー間認証の証明書として任意の Web サーバー証明書を使用できます。
+たとえばSkype for Business Serverサーバー間認証証明書として既存の Skype for Business Server 証明書を使用できます。たとえば、既定の証明書を OAuthTokenIssuer 証明書として使用することもできます。 Skype for Business Serverを使用すると、次の条件を提供するサーバー間認証の証明書として任意の Web サーバー証明書を使用できます。
   
 - 証明書の [Subject] (サブジェクト) フィールドに SIP ドメインの名前が含まれている。
     
@@ -66,7 +66,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 自動検出サービスの詳細については、「 [自動検出サービス」を参照してください](/Exchange/architecture/client-access/autodiscover)。
   
-自動検出サービスが構成された後で、OAuth 構成設定のSkype for Business Server変更する必要があります。これにより、自動検出Skype for Business Server場所を確認できます。 OAuth 構成設定を変更するには、Skype for Business Server管理シェル内から次のコマンドSkype for Business Server実行します。 このコマンドを実行する場合は、Exchange Server で実行されている自動検出サービスに URI を指定し **、autodiscover.svc** を使用して **autodiscover.xml** ではなくサービスの場所をポイントします (サービスで使用される XML ファイルを指します)。
+自動検出サービスを構成したら、Skype for Business Server OAuth 構成設定を変更する必要があります。これにより、Skype for Business Server が自動検出サービスの場所を確認できます。 OAuth 構成設定を変更するには、Skype for Business Server管理シェル内から次のコマンドSkype for Business Server実行します。 このコマンドを実行する場合は、Exchange Server で実行されている自動検出サービスに URI を指定し **、autodiscover.svc** を使用して **autodiscover.xml** ではなくサービスの場所をポイントします (サービスで使用される XML ファイルを指します)。
   
 ```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -83,13 +83,13 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 自動検出サービスの構成に加えて、サービスの DNS レコードを作成して、そのサービスをポイントExchange Server。 たとえば、自動検出サービスが autodiscover.litwareinc.com にある場合は、Exchange Server の完全修飾ドメイン名 (atl-exchange-001.litwareinc.com など) に解決される autodiscover.litwareinc.com の DNS レコードを作成する必要があります。
   
-Skype for Business Server と Exchange Online を統合する場合は、「オンプレミス Skype for Business Server と[Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md)の間の統合を構成する」を参照してください。それ以外の場合は、「Skype for Business Server と Exchange Server を統合する」を[参照](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)してください。
+Skype for Business Server と Exchange Online を統合する場合、次の手順は「Configure integration between [on-premises Skype for Business Server](../../deploy/integrate-with-exchange-server/outlook-web-app.md)と Outlook Web App」で、それ以外の場合は[「Integrat」を参照してください。Skype for Business Server Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>機能のサポート
 <a name="feature_support"> </a>
 
 >[!Important]
-> Skype for Businessサービスを含む以下の Exchange 統合がサポートされなくなった後、オンラインは 2021 年 7 月 31 日に廃止されます。
+> Skype for Businessは 2021 年 7 月 31 日に廃止されました。 以下Exchangeサービスを含む統合機能はサポートされなくなりました。
 
 次の表は、オンラインまたはオンプレミスのさまざまな組み合わせでサポートされる機能の詳細を示ExchangeおよびSkype for Business。
   
@@ -98,19 +98,19 @@ Skype for Business Server と Exchange Online を統合する場合は、「オ�
 |プレゼンス イン Outlook   |Y   |Y   |Y   |Y   |Y   |
 |IM、PSTN 通話、電話Skypeビデオ通話を経由して、電子メールからOutlookする   |Y   |Y   |Y   |Y   |Y   |
 |オンライン会議のスケジュール設定と参加は、Outlook   |Y   |Y   |Y   |Y   |Y   |
-|プレゼンス イン Outlook Web App   |Y   |Y   |N   |×   |Y   |
-|IM、PSTN 通話、OWA メールSkypeビデオ通話による応答   |Y   |Y   |N   |×   |Y   |
-|オンライン会議をスケジュールし、会議に参加Outlook Web App   |Y   |Y   |N   |×   |Y   |
+|プレゼンス イン Outlook Web App   |Y   |Y   |N   |N   |Y   |
+|IM、PSTN 通話、OWA メールSkypeビデオ通話による応答   |Y   |Y   |N   |N   |Y   |
+|オンライン会議をスケジュールし、会議に参加Outlook Web App   |Y   |Y   |N   |N   |Y   |
 |モバイル クライアントでの IM/Presence   |Y   |Y   |Y   |Y   |Y   |
 |モバイル クライアントでのオンライン会議への参加   |Y   |Y   |Y   |Y   |Y   |
 |予定表の空き時間情報Outlookに基づいて状態を公開する   |Y   |Y   |Y   |Y   |Y   |
-|連絡先リスト (統合連絡先ストア経由)   |Y (Exchange 2016/2013)   |Y   |N   |×   |Y   |
+|連絡先リスト (統合連絡先ストア経由)   |Y (Exchange 2016/2013)   |Y   |N   |N   |Y   |
 |高解像度の連絡先写真 (Lync 2013 または Skype for Businessクライアントが必要です。 LWA、モバイル アプリ、Lync 2010、Lync for Mac、その他の古いクライアントではサポートされていません)。   |Y (Exchange 2016/2013)   |Y   |N   |Y   |Y   |
 |会議の委任   |Y   |Y   |Y   |Y   |Y   |
 |会話の履歴と通話ログがユーザーの Exchange メールボックスに書き込まれる   |Y   |Y   |Y   |Y   |Y   |
-|アーカイブ コンテンツ (IM と会議) Exchange   |Y (Exchange 2016/2013)   |Y   |N   |×   |Y   |
-|アーカイブされたコンテンツを検索する   |Y (Exchange 2016/2013)   |Y   |N   |×   |Y   |
-|ExchangeUM ボイス メール   |Y   |Y   |N   |×   |×   |
+|アーカイブ コンテンツ (IM と会議) Exchange   |Y (Exchange 2016/2013)   |Y   |N   |N   |Y   |
+|アーカイブされたコンテンツを検索する   |Y (Exchange 2016/2013)   |Y   |N   |N   |Y   |
+|Exchange UM ボイス メール   |Y   |Y   |N   |N   |N   |
 |サーバー側の会話の履歴   |Y   |Y   |N   |Y   |Y   |
 
 > [!NOTE]

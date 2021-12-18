@@ -1,9 +1,9 @@
 ---
 title: 組織のシフト アプリを管理する
-author: serdarsoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: lisawu,gumariam
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: d474198bc644563007428ac50a85f8f839a9e1dc
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605833"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562930"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -36,12 +36,12 @@ ms.locfileid: "60605833"
 
 ## <a name="overview-of-shifts"></a>シフトの概要
 
-Microsoft Teams Shifts アプリは、フロントライン ワーカーを接続し、同期を維持します。チームの時間管理とコミュニケーションを迅速かつ効果的に行うモバイルを最初に構築します。 シフトを使用すると、フロントラインの従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合います。
+Shifts アプリは、Microsoft Teamsワーカーを接続し、同期したままにします。チームの時間管理とコミュニケーションを迅速かつ効果的に行うモバイルを最初に構築します。 シフトを使用すると、フロントラインの従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合います。
 
 - マネージャーは、チームのシフト スケジュールを作成、更新、および管理します。 マネージャーは、メッセージを 1 人のユーザーに送ることも ("床が汚れています" など)、チーム全体に送ることもできます ("地区本部長があと 20 分で到着します" など)。 マネージャーは、ポリシー ドキュメント、ニュース速報、およびビデオを送信することもできます。
 - 従業員は、自分の今後のシフトの確認、自分の他にその日にスケジュールが入っている従業員の表示、シフトの入れ替えや申し出のリクエスト、および休暇のリクエストを行います。
 
-Shifts では現在ゲストがサポートされていません。 つまり、Teams でゲスト アクセスがオンになっていると、チームのゲストをシフト スケジュールに追加することも、チームのゲストがシフト スケジュールを使用することもできません。 
+Shifts では現在ゲストがサポートされていません。 つまり、Teams でゲスト アクセスがオンになっていると、チームのゲストをシフト スケジュールに追加することも、チームのゲストがシフト スケジュールを使用することもできません。
 
 > [!Note]
 > さまざまなプラットフォームでの Shifts 機能の詳細については、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
@@ -70,19 +70,15 @@ Shifts では現在ゲストがサポートされていません。 つまり、
 
 組織内の特定のユーザーによる Shifts の使用を許可またはブロックするには、[アプリの管理] ページで組織の Shifts が有効 [になっていることを確認](../../manage-apps.md) します。 次に、カスタム アプリのアクセス許可ポリシーを作成し、それらのユーザーに割り当てる必要があります。 詳細については、「[Teams のアプリのアクセス許可ポリシーを管理する](../../teams-app-permission-policies.md)」を参照してください。
 
-### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>FirstLineWorker のアプリ セットアップ ポリシーを使用してシフトを Teams にピン留めする
+### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>アプリセットアップ ポリシーを使用して、Shifts をアプリにピン留Teams
 
 アプリ セットアップ ポリシーを使用すると、組織内のユーザーにとって最も重要なアプリを強調表示するように Teams をカスタマイズできます。 ポリシーに設定されたアプリは、アプリ バー (Teams デスクトップ クライアントの横、および Teams モバイル クライアントの一番下にある) にピン留めされ、ユーザーはそこからすばやく簡単にアプリにアクセスできます。
- 
-Teamsには、組織内のフロントライン ワーカーに割り当て可能な組み込みの FirstLineWorker アプリセットアップ ポリシーが含まれています。 既定では、ポリシーにはアクティビティ、シフト、チャット、および通話の各アプリが含まれています。
 
-FirstLineWorker ポリシーを表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[アプリのセットアップ Teams **に**  >  **移動します**。
+Shifts アプリを [追加してカスタム アプリセットアップ ポリシー](../../teams-app-setup-policies.md) を作成し、そのポリシーを [ユーザー](../../assign-policies-users-and-groups.md) に割り当てできます。 または、Frontline Worker および Frontline Manager ポリシー パッケージの一部であるアプリセットアップ ポリシーを使用できます。
 
-:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="管理センターの FirstLineWorker アプリセットアップ ポリシー Microsoft Teamsスクリーンショット" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
+Teams [](../../manage-policy-packages.md)のポリシー パッケージは、組織内で同様のロールを持つユーザーに割り当て可能な定義済みのポリシーとポリシー設定のコレクションです。 Frontline Worker ポリシー パッケージと Frontline Manager ポリシー パッケージの一連のポリシーには、Shifts アプリと、そのロールのコミュニケーションおよびコラボレーション アクティビティをサポートする他のアプリをピン留めするアプリセットアップ ポリシーが含まれています。
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>FirstLineWorker アプリセットアップ ポリシーをユーザーに割り当てる
-
-[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
+Frontline Worker ポリシー パッケージと Frontline Manager ポリシー パッケージを使用することをお勧めします。Frontline Worker と Frontline Manager のポリシー パッケージは、フロントラインの従業員のポリシーを管理する際に簡素化、合理化、一貫性を提供するのに役立ちます。
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>Teams でシフト イベントの監査ログを検索する
 
