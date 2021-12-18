@@ -21,12 +21,12 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513488"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563564"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 
@@ -144,7 +144,7 @@ Teams ユーザーと Skype ユーザーが通信できるようにする方法�
 
 ## <a name="limit-external-access-to-specific-people"></a>外部アクセスを特定のユーザーに制限する
 
-PowerShell を使用して、外部アクセスを特定のユーザーに制限できます。
+**組織内のユーザーが、組織によってアカウントが管理されていない Teams ユーザーと通信できる** ようになっている場合は、PowerShell を使用して、外部アクセスを特定のユーザーに制限できます。
 
 以下のサンプル スクリプトを使用して、ポリシーに付ける名前を *PolicyName* に置き換え、外部アクセスを使用できるようにする各ユーザーを *UserName* に置き換えることができます。
 
