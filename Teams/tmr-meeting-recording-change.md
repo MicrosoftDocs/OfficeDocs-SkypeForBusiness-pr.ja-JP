@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 62e09ef5226e4b934ff4077f095fac931b786d49
 ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 11/04/2021
 ms.locfileid: "60769755"
@@ -27,7 +27,7 @@ ms.locfileid: "60769755"
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>OneDrive for Business と SharePoint または Stream を使用して会議の記録を行う
 
 > [!NOTE]
-> Teams 会議の記録をクラシック ストリームから OneDrive および SharePoint (ODSP) に保存する変更は、2021 年 8 月 30 日の現在で完了しています。 すべての録音が ODSP に格納されます。 この変更は RecordingStorageMode ポリシーをオーバーライドし、PowerShell で設定を変更すると影響がなくなりました。
+> Teams 会議の記録の保存を Classic Stream から OneDrive および SharePoint (ODSP) に変更したのは、2021 年 8 月 30 日です。 今後、すべての録音が ODSP に保存されます。 この変更により、RecordingStorageMode ポリシーが上書きされ、PowerShell で設定を変更しても影響はなくなります。
 
 |日付&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|イベント&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ ms.locfileid: "60769755"
 Microsoft Teams には、会議の記録を保存するための新しい方法があります。 従来の Microsoft Stream から[新しい Stream](/stream/streamnew/new-stream) への移行の最初のフェーズとして、このメソッドは Microsoft 365 の Microsoft OneDrive for Business と SharePoint に記録を保存し、多くの利点を提供します。
 
 > [!NOTE]
-> Teams 会議の記録が OneDrive/SharePoint に正常にアップロードできない場合は、"レコーディングが予期せず終了しました" というエラー メッセージが表示され、代わりに記録が Azure Media Services (AMS) に一時的に保存されます。 AMS に保存すると、記録を OneDrive/SharePoint または Stream に自動的にアップロードするための再試行は行われなくなります。
+> Teams 会議の記録が OneDrive/SharePoint に正常にアップロードされない場合、"記録が予期せず終了しました" というエラー メッセージが表示され、代わりに記録が一時的に Azure Media Services (AMS) に保存されます。 AMS に保存すると、記録を OneDrive/SharePoint または Stream に自動的にアップロードするための再試行は行われなくなります。
 
 AMS に保存されている会議の記録は、自動的に削除される前に 21 日間使用できます。 コピーを保持する必要がある場合、ユーザーは AMS からビデオをダウンロードできます。
 
@@ -117,12 +117,12 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |社内関係者との １ 対 １ の通話             |受信者                 |受信者の OneDrive for Business アカウントです。                        |受信者は所有者であり、完全なアクセス権限を持っています。 <br /><br />発信者 (同じテナントの場合) は読み取り専用アクセス許可を与えられます。アクセス許可を共有させることはできません。 <br /><br />(別のテナントの場合) 発信者はアクセス権を持っていません。 発信者に共有する必要があります。|
 |外部通話を使用した １ 対 １ の通話             |発信者                 |発信者の OneDrive for Business アカウントです。                        |発信者は所有者であり、完全なアクセス権限を持っています。<br /> <br />受信者にはアクセス権がありません。 発信者は受信者にそれを共有する必要があります。|
 |外部通話を使用した １ 対 １ の通話             |受信者                 |受信者の OneDrive for Business アカウントです。                        |受信者は所有者であり、完全なアクセス権限を持っています。<br /><br />発信者にはアクセス権がありません。 受信者は発信者に共有する必要があります。|
-|グループ通話                                 |通話のいずれかのメンバー |レコードの OneDrive for Business アカウントをクリックしたグループ メンバー  |レコードをクリックしたメンバーは完全な権限を持っています。 <br /><br /> 同じテナントの他のグループ メンバーには、読み取り権限があります。 <br /><br /> 別のテナントの他のグループ メンバーには、何の権限もありません。|
+|グループ通話                                 |通話のいずれかのメンバー |レコードの OneDrive for Business アカウントをクリックしたグループ メンバー  |レコードをクリックしたメンバーは完全な権限を持っています。 <br /><br /> 同じテナントの他のグループ メンバーには読み取り権限があります。 <br /><br /> 別のテナントの他のグループ メンバーには、何の権限もありません。|
 |アドホック/スケジュールされた会議                    |開催者              |開催者の OneDrive for Business アカウントです。                     |開催者は記録に対して完全な権限を持ちます。 <br /><br /> 会議の他のメンバー全員が読み取りアクセス権を持ちます。|
 |アドホック/スケジュールされた会議                    |その他の会議メンバー   |レコードをクリックした会議メンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 <br /><br />開催者は編集の権利を持ち、共有できます。<br /><br /> 他のすべての会議メンバーは読み取りアクセス権を持ちます。|
 |外部ユーザーとのアドホック/予定された会議|開催者              |開催者の OneDrive for Business アカウントです。                     |開催者は記録に対して完全な権限を持ちます。<br /> <br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br /> 他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
 |外部ユーザーとのアドホック/予定された会議|その他の会議メンバー   |レコードをクリックしたメンバー                                  |レコードをクリックしたメンバーには、記録への完全なアクセス権があります。 開催者は編集の権利を持ち、共有できます。 <br /><br /> 開催者と同じテナントのすべての会議メンバーは、読み取りアクセス権を持ちます。 <br /><br />他のすべての外部メンバーにはアクセス権がありません。開催者はそれを共有する必要があります。|
-|チャネル会議                            |チャネル メンバー         |Teams SharePointの場所を指定します。 **注**: IP ベースの制限では、SharePointへのチャネル会議の記録アップロードはサポートされていません。 Azure 条件付きアクセス [を使用することをお勧めします](/azure/active-directory/conditional-access/overview)。 |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
+|チャネル会議                            |チャネル メンバー         |そのチャネルの Teams の SharePoint の場所。 **注**: SharePoint へのチャネル会議の記録のアップロードは、IP ベースの制限ではサポートされていません。 [Azure 条件付きアクセス](/azure/active-directory/conditional-access/overview)を使用することをお勧めします。 |レコードをクリックしたメンバーには、記録の編集権限があります。 <br /> <br />他のすべてのメンバーのアクセス許可は、チャネル SharePoint のアクセス許可に基づいています。|
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
@@ -155,7 +155,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 **キャプションを管理する方法**
 
-Teams 会議の録音のクローズド キャプションは、ユーザーが記録時に書き起こしをオンにしている場合にのみ、再生中に利用できます。 管理者は、ユーザー [がトランスクリプション](meetings-policies-recording-and-transcription.md#allow-transcription) を使用して会議を記録するオプションを持っている場合は、文字起こしの記録を有効にする必要があります。
+Teams 会議の録音のクローズド キャプションは、ユーザーが記録時に書き起こしをオンにしている場合にのみ、再生中に利用できます。 管理者は、[文字起こしの記録をオンにして](meetings-policies-recording-and-transcription.md#allow-transcription)、ユーザーが文字起こしを使用して会議を記録できるようにする必要があります。
 
 キャプションは、様々な言語的対応力の視聴者を全て包含するコンテンツを制作することを支援してくれます。所有者として、会議のレコーディングにおいてキャプションを隠すこともできます、けれども会議の文字起こしは、削除しない限り Teams で引き続き利用可能となります。
 
@@ -180,7 +180,7 @@ Teams 会議の記録ファイルは、OneDrive for Business と SharePoint の�
 
 Stream は、近い将来プラットフォームとして廃止の予定はありません。 現在、Stream に存在するビデオは、移行を開始するまで残っています。 移行すると、これらのビデオも OneDrive for Business または SharePoint に移行されます。 詳細については、「[Stream クラシックの移行](/stream/streamnew/classic-migration)」を参照してください。
 
-**会議の記録にアイテム保持ラベルをMicrosoft Teamsする方法**
+**Microsoft Teams の会議の記録に保持ラベルを適用するにはどうすればよいですか?**
 
 「[保持ラベルを自動適用する方法](/microsoft-365/compliance/apply-retention-labels-automatically)」を参照してください。
 
@@ -188,6 +188,6 @@ Stream は、近い将来プラットフォームとして廃止の予定はあ�
 
 「[どのポリシーが優先されますか?](./policy-assignment-overview.md#which-policy-takes-precedence)」を参照してください。
 
-**ユーザーが容量または容量を持OneDrive for Business、またはSharePointクォータが満たされている場合、記録はどこに行くのですか?**
+**ユーザーが OneDrive for Business または SharePoint を持っていない場合、またはストレージ クォータがいっぱいの場合、記録はどこに保存されますか?**
 
-記録は、21 日間保持される一時的な保存場所に保存されます。 その間、開催者はレコーディングをダウンロードする必要があります。 21 日以内にダウンロードされない場合、記録は削除されます。
+記録は、21 日間保持される一時保管場所に到着します。 その間、主催者は記録をダウンロードする必要があります。 21 日以内にダウンロードされない場合、記録は削除されます。
