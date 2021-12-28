@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams ルーム ポータル
+title: マルチテナント監査
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: TRM の監査ログ。
 f1keywords: ''
-ms.openlocfilehash: e5e5cd25385f6e8a71484c57aa9c44da5d4c9cd8
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: bb002ad546553e906339b03ff7b36ff2ccce8506
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331244"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620531"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>Teams Rooms Managed サービスの監査ログ
 
-Teams Rooms Managed (TRM) サービスの監査では、ユーザーと管理者がポータルで実行したアクティビティの監査レコードを検索できます。 この機能は既定で有効になっています。 ログをエクスポートして表示するアクセス許可を持つのは、管理対象サービス管理者のみです。
+Teams Rooms Managed (TRM) サービスの監査では、ユーザーと管理者によってポータルで実行されたアクティビティの監査レコードを検索できます。 この機能は既定で有効になっています。 ログをエクスポートして表示するアクセス許可を持つのは、管理対象サービス管理者のみです。
 
 > [!NOTE]
 > TRM サービスで実行されたアクションは、監査Microsoft 365ログインOffice 365されません。 
@@ -37,7 +37,7 @@ Teams Rooms Managed (TRM) サービスの監査では、ユーザーと管理者
 
 **ログをダウンロードするには** 
 
-1. [全般監査 **設定 > ログ] >に移動します**。
+1. [全般]**設定 > 監査> に移動します**。
 1. 関心のあるログの日付範囲を定義するには、[開始日] と [終了日 **]** **を入力します。**
 
    > [!NOTE]
