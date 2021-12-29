@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: この記事では、新しいコントロール パネルの概要について説明します。
-ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7def5267b88260b66b6aa345c9585b83659f6ea3
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887305"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625938"
 ---
 # <a name="control-panel"></a>コントロール パネル
 
@@ -38,7 +38,7 @@ ms.locfileid: "60887305"
 > [!NOTE]
 > 他のメニュー項目のドキュメントは、段階的に後で使用できます。
 
-## <a name="client"></a>Client
+## <a name="client"></a>クライアント
 
 |サブメニュー  |コマンドレットの情報のソース  |
 |---------|---------|
@@ -65,3 +65,33 @@ ms.locfileid: "60887305"
 |---------|---------|
 |ファイル フィルター         |    [ファイル フィルター](use-powershell-im-and-presence-menu.md#file-filter)     |
 |URL フィルター      |  [URL フィルター](use-powershell-im-and-presence-menu.md#url-filter)       |
+
+## <a name="monitoring-and-archiving"></a>監視およびアーカイブ
+
+|サブメニュー  |コマンドレットの情報のソース  |
+|---------|---------|
+|通話詳細記録       |    [通話詳細記録](use-powershell-monitoring-and-archiving-menu.md#call-detail-recording)     |
+|Quality of Experience Data      |  [Quality of Experience Data](use-powershell-monitoring-and-archiving-menu.md#quality-of-experience-data)       |
+|アーカイブ ポリシー       |    [アーカイブ ポリシー](use-powershell-monitoring-and-archiving-menu.md#archiving-policy)     |
+|アーカイブ構成      |  [アーカイブ構成](use-powershell-monitoring-and-archiving-menu.md#archiving-configuration)       |
+
+## <a name="network-configuration"></a>ネットワーク構成
+
+|サブメニュー  |コマンドレットの情報のソース  |
+|---------|---------|
+|場所ポリシー       |    [場所のポリシー](use-powershell-network-configuration-menu.md#location-policy)     |
+|帯域幅ポリシー      |  [帯域幅ポリシー](use-powershell-network-configuration-menu.md#bandwidth-policy)       |
+|地域       |    [Region](use-powershell-network-configuration-menu.md#region)     |
+|サイト      |  [サイト](use-powershell-network-configuration-menu.md#site)       |
+|サブネット      |  [Subnet](use-powershell-network-configuration-menu.md#subnet)       |
+|地域リンク       |    [地域リンク](use-powershell-network-configuration-menu.md#region-link)     |
+|地域ルート      |  [地域ルート](use-powershell-network-configuration-menu.md#region-route)       |
+
+## <a name="topology"></a>トポロジ
+
+|サブメニュー  |コマンドレットの情報のソース  |
+|---------|---------|
+|状態       |    [状態](use-powershell-topology-menu.md#status)     |
+|サーバー アプリケーション      |  [サーバー アプリケーション](use-powershell-topology-menu.md#server-application)       |
+|簡易 URL       |    [簡易 URL](use-powershell-topology-menu.md#simple-url)     |
+|信頼済みアプリケーション       |    [信頼済みアプリケーション](use-powershell-topology-menu.md#trusted-application)     |

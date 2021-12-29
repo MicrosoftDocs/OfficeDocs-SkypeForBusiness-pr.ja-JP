@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 組織のユーザーがスケジュールする Teams 会議の設定を管理する方法を説明します。
-ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205307"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625918"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Microsoft Teams で会議の設定を管理する
 
@@ -46,7 +46,7 @@ ms.locfileid: "61205307"
 
 これらの変更を行うには、Teams 管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
-1. [Teams 管理センター](https://admin.teams.microsoft.net)に移動します。
+1. [Teams 管理センター](https://admin.teams.microsoft.com)に移動します。
 
 2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
 
@@ -84,7 +84,7 @@ ms.locfileid: "61205307"
 
 この設定にアクセスするには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
-1. 管理センターにアクセスします。
+1. [Teams 管理センター](https://admin.teams.microsoft.com)に移動します。
 
 2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
 
@@ -109,7 +109,7 @@ ms.locfileid: "61205307"
 
  **Microsoft Teams 管理センターの使用**
 
-1. 管理センターにアクセスします。
+1. [Teams 管理センター](https://admin.teams.microsoft.com)に移動します。
 2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
 3. [**招待メール**] で、次の操作を行います。
 
@@ -141,7 +141,7 @@ ms.locfileid: "61205307"
 > QoS を有効にするか Microsoft Teams サービスに関する設定を Microsoft Teams 管理センターで変更するには、[すべてのユーザー デバイスおよびすべての内部ネットワーク デバイスに対して対応する設定を適用](QoS-in-Teams-clients.md)して、Teams で QoS への変更を完全に実装する必要があります。
 
   **Microsoft Teams 管理センターの使用**
-1. 管理センターにアクセスします。
+1. [Teams 管理センター](https://admin.teams.microsoft.com)に移動します。
 2. 左側のナビゲーションで、[**会議**] > [**会議設定**] に移動します。
 3. [**ネットワーク**] で、以下の手順を実行します。
 

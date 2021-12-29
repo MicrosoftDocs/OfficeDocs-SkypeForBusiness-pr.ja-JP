@@ -22,13 +22,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: 詳細な手順については、組織内の組織のTeams 電話システムを設定する方法を説明Microsoft 365。
-ms.openlocfilehash: 2241a58c02b43ea8a8f0eb15fedaaef8e2728f94
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+- intro-get-started
+description: 詳細な手順ガイドでは、組織内の組織のTeams 電話システムを設定する方法について詳しく説明Microsoft 365。
+ms.openlocfilehash: 305cb9874ed7d14a647d984dfc36586a16004d71
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262141"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625798"
 ---
 # <a name="set-up-teams-phone-in-your-organization"></a>組織内のTeams 電話を設定する
 
@@ -42,7 +43,7 @@ ms.locfileid: "61262141"
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>手順 2: 電話システムおよび通話プランのライセンスを購入し、割り当てる
 
-1 人の電話システムプランライセンスを 1 人のユーザーに割り当てる手順は、ライセンスの割り当てとMicrosoft 365です。  複数のユーザーにライセンスを一括で割り当てて可能です。 詳細については、「アドオン ライセンスを割[り当Microsoft Teams」を参照してください](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+1 人のユーザー電話システムプランライセンスを 1 人のユーザーに割り当てる手順は、ライセンスの割り当てとMicrosoft 365です。  複数のユーザーにライセンスを一括で割り当てて可能です。 詳細については、「アドオン ライセンスを割[り当Microsoft Teams」を参照してください](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
 通話プランが国または地域で利用できない場合は、公衆交換電話網 (PSTN) に接続するためのその他のオプションがあります。  詳細については [、「PSTN 接続オプション」を参照してください](pstn-connectivity.md)。
 
@@ -53,7 +54,7 @@ ms.locfileid: "61262141"
 ユーザー用の番号を取得するには、次の 3 つの方法があります。
 
 - 管理センターで新しい番号Teams取得します。
-- 管理センターで使用できない新しい番号Teams取得します。
+- 管理センターで使用できない新しいTeams取得します。
 - 既存の番号を現在のサービス プロバイダーまたは携帯電話会社から携帯電話会社にMicrosoft 365。
 
 これらの数値を表示、 **検索** 、取得、予約するには、[数値の追加] ページを使用する必要があります。 [ 国または地域]、[ 都道府県]、[ 市区町村] で検索してから、ユーザー用に必要となる電話番号の数を入力できます。
@@ -64,9 +65,9 @@ ms.locfileid: "61262141"
 
 2. **Teams 管理センター** に移動します。
     
-3. 左側のナビゲーションで、[Voice電話 番号] に移動し、[追加]  >  **を** クリックし、画面の指示に従います。 
+3. 左側のナビゲーションで、[Voice電話 番号] に移動し  >  **、[追加**] をクリックし、画面の指示に従います。 
     
-### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>管理センターで使用できない新しいTeams取得する
+### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>管理センターで使用できない新しい番号Teams取得する
   
 (お客様の国/地域によっては) 管理センターで新しい番号を取得Teams場合があります。 この場合は、フォームをダウンロードして返送する必要があります。 新しいユーザー番号を要求する方法については、「組織の電話番号を [管理する」を参照してください](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。   
   
@@ -89,12 +90,12 @@ Microsoft 365 または Office 365 からユーザーの電話番号を取得す
 
 2. **Teams 管理センター** に移動します。
 
-3. 左側のナビゲーション ウィンドウで、[Voice 電話 新しい番号を追加] に移動し、[新しいサービス番号]  >    >  **をクリックします**。
+3. 左側のナビゲーション ウィンドウで、[Voice電話番号] に移動し、[新しいサービス番号]  >    >  **をクリックします**。
 
     > [!IMPORTANT]
-    > Teams 管理センターの左側のナビゲーション ウィンドウに [音声] オプションを表示するには、まず、少なくとも 1 つの **Enterprise E5** ライセンス、1 つの **電話システム** アドオンライセンス、または 1 つの電話会議アドオン ライセンスを購入する必要があります。
+    > Teams 管理センターの左側のナビゲーション ウィンドウに [音声] オプションを表示するには、まず、少なくとも 1 つの **Enterprise E5** ライセンス、1 つの **電話システム** アドオン ライセンス、または 1 つの電話会議アドオン ライセンスを購入する必要があります。
 
-### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>管理センターで使用できない新しいTeams取得する
+### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>管理センターで使用できない新しい番号Teams取得する
   
 (お客様の国/地域によっては) 管理センターで新しい番号を取得Teams場合があります。 この場合は、フォームをダウンロードして返送する必要があります。 新しい番号を要求する方法については、「組織の電話番号を [管理する」を参照してください](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
@@ -110,7 +111,7 @@ Microsoft 365 または Office 365 からユーザーの電話番号を取得す
 
 ## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>手順 6: 電話会議を設定する場合
 
-組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams、この状況に合った電話会議機能が含まれています。 ユーザーは、モバイル デバイスまたは PC Teamsアプリを使用する代わりに、電話を使用してTeams会議にコールインできます。
+組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams、この状況だけの電話会議機能が含まれています。 ユーザーは、モバイル デバイスまたは PC Teamsアプリを使用する代わりに、電話を使用してTeams会議にコールインできます。
 電話会議を設定する方法については、「電話会議をセットアップする」を参照[Teams。](set-up-audio-conferencing-in-teams.md)
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>手順 7: クラウドの通話キューを設定する場合
@@ -132,21 +133,21 @@ Microsoft 365 または Office 365 からユーザーの電話番号を取得す
 
 - 電話会議の場合は、管理センターの会議ブリッジに移動して、Teamsに専用の番号を割り当て、画面の指示に  >    >  従います。  詳細については、「電話会議ブリッジの有料電話番号または無料電話番号を変更  [する」を参照してください](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
-- 自動応答の場合は、管理センターの [音声自動応答] に移動し、Teamsに従って、自動応答に専用の番号を  >    >  割り当てできます。  詳細については、「クラウド自動応答 [を設定する」を参照してください](create-a-phone-system-auto-attendant.md)。
+- 自動応答の場合は、管理センターの音声自動応答に移動して、Teamsに専用の番号を割り当て、画面の指示に  >    >  従います。  詳細については、「クラウド自動応答 [を設定する」を参照してください](create-a-phone-system-auto-attendant.md)。
 
-- 通話キューの場合は、管理センターの音声通話キューに移動し、Teamsに従って、通話キューに専用の番号を割り  >    >  当てできます。 詳細については、「クラウド呼び出し [キューを作成する」を参照してください](create-a-phone-system-call-queue.md)。
+- [通話キュー] では、管理センターの音声通話キューに移動し、Teamsに従って、通話キューに専用の番号を割り  >    >  当てできます。 詳細については、「クラウド呼び出し [キューを作成する」を参照してください](create-a-phone-system-call-queue.md)。
 
 新しいサービス番号を取得し、既存のサービス番号を転送する方法の詳細については、 [サービスの電話番号の取得](getting-service-phone-numbers.md)  を参照してください。
 
 ## <a name="step-10-set-up-communications-credits-for-your-organization"></a>手順 10: 組織のコミュニケーション クレジットをセットアップする
 
-無料電話番号を使用する場合は、Microsoft Teams通信クレジットを設定する必要があります。 Microsoft では、任意の宛先にダイヤルアウトする機能が必要な通話プラン (国内または国際) および電話会議ユーザーの通信クレジットを設定する必要があります。 ご利用の通話プランまたは電話会議のサブスクリプションでは、多くの国や地域が含まれていますが、一部の発信先が含まれていない可能性があります。 
+電話番号で無料電話番号を使用する場合はMicrosoft Teams通信クレジットを設定する必要があります。 Microsoft では、任意の宛先にダイヤルアウトする機能が必要な通話プラン (国内または国際) および電話会議ユーザーの通信クレジットを設定する必要があります。 ご利用の通話プランまたは電話会議のサブスクリプションでは、多くの国や地域が含まれていますが、一部の発信先が含まれていない可能性があります。 
 
 コミュニケーション クレジットの請求を設定しない場合や、ユーザーに **コミュニケーション クレジット** のライセンスを割り当てない場合に (国/地域の通話プランまたは電話会議プランに基づき) 組織の通話分数が不足すると、これらのユーザーは通話を発信することや、電話会議からダイヤルアウトすることができなくなります。 推奨される資金金額を含む詳細については、「通信[](what-are-communications-credits.md)クレジットとは」および「組織の通信クレジットを[設定する」を参照してください](set-up-communications-credits-for-your-organization.md)。
   
 
-## <a name="related-topics"></a>関連トピック
-[次の方法で利用Teams 電話](here-s-what-you-get-with-phone-system.md)
+## <a name="related-topics"></a>関連項目
+[次の方法で使用Teams 電話](here-s-what-you-get-with-phone-system.md)
 
 [組織の電話番号を管理する](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
