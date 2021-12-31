@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: Google Workspace の会議アドオンMicrosoft Teamsを設定する方法について説明します。
+description: Google Workspace の会議Microsoft Teamsを設定する方法について説明します。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6116567a14aa55a5295b995336b49b30c7bb56ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c5b3d873dd327be4cbc28d4d979ad06cb6f9c9ea
+ms.sourcegitcommit: 9ed5aecbf671accae93ac5084ad7875e82e3858b
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846110"
+ms.lasthandoff: 12/31/2021
+ms.locfileid: "61648885"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace Microsoft Teamsの会議アドオンをセットアップする
 
-新しいMicrosoft Teamsアドオンを使用すると、Google カレンダー ユーザーは Google ワークスペースから直接会議Microsoft Teamsスケジュールを設定して会議に参加できます。 ユーザーは、ビデオ会議Teams、画面共有、会議チャット、デジタル ホワイトボードなど、さまざまな会議機能にアクセスできます。 仕事、学校、生活をまたがってより多くの作業を行う場合は、つながって整理します。
+新しいMicrosoft Teamsアドオンを使用すると、Google カレンダー ユーザーは Google Workspace から直接会議Microsoft Teamsスケジュールを設定し、会議に参加できます。 ユーザーは、ビデオ会議Teams会議、画面共有、会議チャット、デジタル ホワイトボードなど、さまざまな会議機能にアクセスできます。 仕事、学校、生活をまたがってより多くの作業を行う場合は、つながって整理します。
 
-テナント Microsoft Teamsがアプリにアクセスするには、Google ワークスペースの会議アドオンを管理者がTeams有効にする必要があります。
+テナント Microsoft Teamsアプリにアクセスするには、Google ワークスペースの会議アドオンを管理者Teams有効にする必要があります。
 
-## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Azure portal Microsoft Teams Google Workspace の会議アドオンを有効または無効にする
+## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Azure portal で google workspace Microsoft Teamsの会議アドオンを有効または無効にする
 
 テナント管理者は、Azure portal を使用して、組織の管理者アカウントから google Workspace の Microsoft Teams 会議アドオンを有効または無効にできます。
 
@@ -41,7 +41,7 @@ ms.locfileid: "60846110"
 
 2. [**アプリケーションEnterprise すべてのアプリケーション**  >  **] を選択します**。
 
-3. Google Workspace **Microsoft Teamsの会議アドオンを検索します**。
+3. Google Workspace **のMicrosoft Teamsアドオンを検索します**。
 
    ![すべてのアプリケーションを表示する Azure Portal。](media/aad-add-google-workspace.png)
 
@@ -68,13 +68,35 @@ if ($servicePrincipal) {
 } else {
     # Service principal does not yet exist, create it and disable it at the same time
     New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
-    $servicePrincipal = New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName -AccountEnabled $false
+    Get-AzureADServicePrincipal -Filter "appId eq '$appId'" | Set-AzureADServicePrincipal -AccountEnabled:$false
     Write-Host "Created and disabled the Service Principal \n"
 }
 ```
 
-詳細については、 を使用した[Azure サービス プリンシパルの作成に関するページをAzure PowerShell。](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
+詳細については、 を使用した[Azure サービス プリンシパルの作成に関するページAzure PowerShell。](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Google Workspace Microsoft Teamsの会議アドオンを削除する
 
 手順については、Google のドキュメント [「Google Workspace Marketplace](https://support.google.com/a/answer/6216211?hl=en) アプリを削除する」を参照してください。
+
+## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>PowerShell をMicrosoft Teams Google Workspace の会議用の新しい会議アドオンを作成する
+
+テナントにMicrosoft Teamsアドオンが存在しない場合は、PowerShell を使用して作成できます。 
+
+```powershell
+Connect-AzureAD
+
+$displayName = 'Microsoft Teams meeting add-on for Google Workspace'
+$appId = '7969c887-ba98-48bb-8832-6c9239929d7c'
+
+# Check if a service principal already exists for the app
+$servicePrincipal = Get-AzureADServicePrincipal -Filter "appId eq '$appId'"
+if ($servicePrincipal) {
+    # Service principal exists already
+    Write-Host "The Service principal already exists"
+} else {
+    # Service principal does not yet exist, create it
+    New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
+    Write-Host "Created the Service Principal"
+}
+```
