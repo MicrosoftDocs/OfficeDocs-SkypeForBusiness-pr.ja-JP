@@ -19,13 +19,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: ストリーミング品質がどのように分類されるのかについては、「通話品質ダッシュボード (CQD) for Microsoft Teams online」Skype for Businessしてください。
-ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: ストリーミング品質の分類方法については、「通話品質ダッシュボード (CQD) for Microsoft Teams Online Skype for Businessします。
+ms.openlocfilehash: 21de07e2b590bafcb7de65495e6b7d68faa381cc
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598341"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767200"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>通話品質ダッシュボード (CQD) のストリーム分類
 
@@ -72,10 +72,10 @@ VBSS ストリームは、最初に使用可能なメトリックの値に基づ
 
 |手順 # |測定基準 |状態 |条件が真である場合の分類 |条件が偽の場合の分類 |メトリックが利用できない場合の分類 |説明 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|手順 2 に進んでください|ユーザーに対する表示でのビデオ フレームの損失の平均割合。 平均には、ネットワーク損失から復旧されたフレームが含まれます。|
-|2|Video Frame Rate Avg|<2|_Poor_|_Good_|手順 3 に進んでください|セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。|
-|3|Video Post FECPLR|> 0.15|_Poor_|_Good_|_Unclassified_|FEC が適用された後のパケット損失率は、すべてのビデオ ストリームとコーデックに集約されます。|
+|1|Video Local Frame Loss Percentage Avg|コーデックが H264S ではない</br>そして</br>StreamDirection が受信</br></br>FrameLoss が 50% >場合|_Poor_|_Good_|_Unclassified_|ユーザーに対する表示でのビデオ フレームの損失の平均割合。 平均には、ネットワーク損失から復旧されたフレームが含まれます。 FrameLoss は、H264S 以外の受信ストリームの分類にのみ使用されます。|
+|2|Video Frame Rate Avg|< 1|_Poor_|_Good_|_Unclassified_|セッションのデュレーションにわたり算出された、ビデオ ストリームで受信した秒あたりの平均フレーム数。 すべての送信ストリームと、H264S の StreamDirection に適用されます。|
 | |  | | | |  ||
+
 
 ### <a name="application-sharing-classifier"></a>アプリケーション共有分類子
 
@@ -117,14 +117,14 @@ ICE接続障害をチェックするには、 "FAILED"値の "First Connectivity
 
 [CQD とは](CQD-what-is-call-quality-dashboard.md)
 
-[通話品質ダッシュボード (CQD) を設定する](turning-on-and-using-call-quality-dashboard.md)
+[通話品質ダッシュボード (CQD) をセットアップする](turning-on-and-using-call-quality-dashboard.md)
 
-[アップロードとデータの構築](CQD-upload-tenant-building-data.md)
+[テナントと建物のデータをアップロードする](CQD-upload-tenant-building-data.md)
 
-[CQD データとレポート](CQD-data-and-reports.md)
+[CQD のデータとレポート](CQD-data-and-reports.md)
 
 [CQD を使用して通話と会議の品質を管理する](quality-of-experience-review-guide.md)
 
-[CQD で使用可能なディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
+[CQD で利用できるディメンションとメジャー](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[CQD Power BI分析するには、次のコマンドを使用します。](CQD-Power-BI-query-templates.md)
+[Power BI を使用して CQD データを分析する](CQD-Power-BI-query-templates.md)

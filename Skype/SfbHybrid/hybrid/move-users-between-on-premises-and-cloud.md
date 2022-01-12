@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: '概要: ハイブリッドに対して有効Skype for Business Serverのオンプレミス展開では、ユーザーをオンプレミス環境とクラウドの間で移動できます。'
-ms.openlocfilehash: 5d5f14cfdb5de2e11c95a2532900dfa3fcf669a1
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: ae0855388c4f97cd43e250ea5ee7aec1e1bf7938
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410708"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766780"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>オンプレミスとクラウドの間でユーザーを移動する
 
@@ -70,7 +70,7 @@ TeamsOnly モードにユーザーを移動するための前提条件:
 
 オンプレミスとクラウドの間でユーザーを移動するには、オンプレミスの Skype for Business Server 環境と Teams 組織の両方で十分な権限を持つアカウントを使用する必要があります。 必要なすべての特権を持つ 1 つのアカウントを使用するか、2 つのアカウントを使用できます。その場合は、オンプレミスの資格情報を使用してオンプレミス のツールにアクセスし、それらのツールで Teams 管理アカウントに追加の資格情報を提供します。  
 
-- オンプレミス環境では、移動を実行するユーザーに CSServerAdministrator と CsUserAdministrator の役割が必要Skype for Business Server。
+- オンプレミス環境では、移動を実行するユーザーは、CSServerAdministrator、CsUserAdministrator、および RTCUniversalUserAdmins の各役割を Skype for Business Server に持っている必要があります。
 - このTeams、移動を実行するユーザーは、次のいずれかの条件を満たしている必要があります。
   - ユーザーは、グローバル管理者ロールのメンバーです。
   - ユーザーは、管理者ロールとユーザー管理者ロールTeamsメンバーです。

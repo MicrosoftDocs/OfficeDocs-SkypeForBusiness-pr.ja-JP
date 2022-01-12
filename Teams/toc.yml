@@ -277,6 +277,8 @@ items:
         items:
           - name: 情報バリア
             href: information-barriers-in-teams.md
+          - name: PowerShell スクリプトを使用した情報バリア モードの変更
+            href: information-barriers-mode-script.md
           - name: アイテム保持ポリシー
             href: retention-policies.md
           - name: コミュニケーション コンプライアンス
@@ -1015,6 +1017,62 @@ items:
             href: voice-case-study-audio-conferencing.md
           - name: 自動応答と呼び出しキュー
             href: voice-case-study-call-queues.md
+      - name: 中小企業向けガイダンス
+        items:
+          - name: 中小企業向け Microsoft Teams 電話ガイダンス
+            href: business-voice/whats-business-voice.md
+          - name: 国および地域ごとの利用可能性
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: インターネット接続を確認する
+            href: business-voice/get-ready-internet.md
+          - name: 販売店またはパートナーからサポートを受ける
+            href: business-voice/reseller-partner-support.md
+          - name: 中小企業向け Microsoft Teams 電話のセットアップ
+            items:
+              - name: 概要
+                href: business-voice/set-up-overview.md
+              - name: '手順 1: 緊急用の場所を設定する'
+                href: business-voice/set-up-emergency-locations.md
+              - name: '手順 2: 電話番号を設定する'
+                href: business-voice/set-up-phone-numbers.md
+              - name: '手順 3: ライセンスを割り当てる'
+                href: business-voice/set-up-licenses.md
+              - name: '手順 4: リソース アカウントを設定する'
+                href: business-voice/set-up-resource-account.md
+              - name: '手順 5:ユーザーに電話番号を割り当てる'
+                href: business-voice/set-up-assign-numbers.md
+              - name: '手順 6: 自動応答を設定する'
+                href: business-voice/set-up-auto-attendant.md
+              - name: '手順 7: ポートの電話番号 (省略可能)'
+                href: business-voice/port-phone-numbers.md
+              - name: 設定後の参考資料
+                href: business-voice/set-up-finish.md
+          - name: 中小企業向け Microsoft Teams 電話のセットアップをカスタマイズする
+            items:
+              - name: カスタマイズのオプション
+                href: business-voice/customize-business-voice.md
+              - name: 通話ポリシーの設定
+                href: business-voice/set-up-policies.md
+              - name: ポリシー パッケージを管理する
+                href: business-voice/policy-packages.md
+              - name: さらにユーザーを作成する
+                href: business-voice/create-users.md
+              - name: 通話キューを設定する
+                href: business-voice/create-a-phone-system-call-queue-smb.md
+              - name: 自動応答を設定する
+                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+          - name: 中小企業向け Microsoft Teams 電話のセットアップを管理する
+            items:
+              - name: 1 名以上のユーザーを作成する
+                href: business-voice/create-users.md
+              - name: デバイスを管理する
+                href: business-voice/manage-devices.md
+              - name: 通話品質を監視する
+                href: business-voice/monitor-quality.md
+              - name: 通話品質ダッシュボード
+                href: business-voice/analytics-dashboard.md
+          - name: パートナーのリソース
+            href: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
       - name: Reference
         items:
           - name: 国別電話番号の管理
@@ -1227,68 +1285,6 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Microsoft Teams の通話フロー
             href: microsoft-teams-online-call-flows.md
-  - name: Microsoft 365 Business Voice
-    items:
-      - name: Microsoft 365 企業向け音声とは?
-        href: business-voice/whats-business-voice.md
-      - name: 国および地域ごとの利用可能性
-        href: business-voice/country-region-availability.md
-      - name: 購入前の注意事項
-        items:
-          - name: 企業向け音声を取得するために何を購入すべきか
-            href: business-voice/what-to-buy.md
-          - name: 販売店またはパートナーからサポートを受ける
-            href: business-voice/reseller-partner-support.md
-          - name: インターネット接続を確認する
-            href: business-voice/get-ready-internet.md
-          - name: ユーザーの準備を行う
-            href: business-voice/prepare-users.md
-      - name: 企業向け音声を設定する
-        items:
-          - name: 概要
-            href: business-voice/set-up-overview.md
-          - name: '手順 1: 緊急用の場所を設定する'
-            href: business-voice/set-up-emergency-locations.md
-          - name: '手順 2: 電話番号を設定する'
-            href: business-voice/set-up-phone-numbers.md
-          - name: '手順 3: ライセンスを割り当てる'
-            href: business-voice/set-up-licenses.md
-          - name: '手順 4: リソース アカウントを設定する'
-            href: business-voice/set-up-resource-account.md
-          - name: '手順 5:ユーザーに電話番号を割り当てる'
-            href: business-voice/set-up-assign-numbers.md
-          - name: '手順 6: 自動応答を設定する'
-            href: business-voice/set-up-auto-attendant.md
-          - name: '手順 7: ポートの電話番号 (省略可能)'
-            href: business-voice/port-phone-numbers.md
-          - name: 設定後の参考資料
-            href: business-voice/set-up-finish.md
-      - name: 設定をカスタマイズする
-        items:
-          - name: カスタマイズのオプション
-            href: business-voice/customize-business-voice.md
-          - name: 通話ポリシーの設定
-            href: business-voice/set-up-policies.md
-          - name: ポリシー パッケージを管理する
-            href: business-voice/policy-packages.md
-          - name: さらにユーザーを作成する
-            href: business-voice/create-users.md
-          - name: 通話キューを設定する
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: 自動応答を設定する
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: 設定を管理する
-        items:
-          - name: 1 名以上のユーザーを作成する
-            href: business-voice/create-users.md
-          - name: デバイスを管理する
-            href: business-voice/manage-devices.md
-          - name: 通話品質を監視する
-            href: business-voice/monitor-quality.md
-          - name: 通話品質ダッシュボード
-            href: business-voice/analytics-dashboard.md
-      - name: パートナーのリソース
-        href: business-voice/partner-resources.md
   - name: デバイスと会議室の管理
     items:
       - name: Microsoft Teams Rooms
@@ -1345,8 +1341,6 @@ items:
                 href: rooms/rooms-authentication.md
               - name: サードパーティ製の会議に参加する
                 href: rooms/third-party-join.md
-              - name: Microsoft Endpoint Configuration Manager を使用する
-                href: rooms/rooms-scale.md
               - name: Azure Monitor による管理
                 href: rooms/azure-monitor-deploy.md
               - name: SRS v1 または LRS の移行
@@ -1381,6 +1375,12 @@ items:
             href: rooms/enrolling-mtrp-managed-service.md
           - name: Teams Rooms の ServiceNow を構成する
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
+          - name: パートナー向けのマルチテナント管理
+            href: rooms/multi-tenant-management-partner.md
+          - name: 顧客向けのマルチテナント管理
+            href: rooms/multi-tenant-management-customer.md
+          - name: Rooms アクティビティ向け監査ログ
+            href: rooms/multi-tenant-auditing.md
       - name: デバイス
         items:
           - name: Teams でのデバイスの管理

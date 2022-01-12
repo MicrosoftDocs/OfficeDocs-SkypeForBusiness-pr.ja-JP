@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: 自動応答で使用するために、Microsoft Teamsの休日を設定する方法について学習します。
-ms.openlocfilehash: b9c86f28b855b7f92d7e4f5d850c2d97baa2a106
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: f7e6d5a3d305afedd732fe20fb7ab22a97b12c21
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249499"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766590"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Microsoft Teams で休日を設定する
 
@@ -37,7 +37,7 @@ Teams Holidays 機能を使用すると、部門、通話キュー、または�
 
 休日を作成するには
 
-1. 管理センター Microsoft Teams、組織全体の **設定 [祝日] に移動**  >  **します**。
+1. 管理センター Microsoft Teams、Voice Holidays に **移動**  >  **します**。
 
 2. [新 **しい休日] を選択します**。
 
@@ -66,7 +66,7 @@ Teams Holidays 機能を使用すると、部門、通話キュー、または�
 
 休日を変更するには
 
-1. 管理センター Microsoft Teams、組織全体の **設定 [祝日] に移動**  >  **します**。
+1. 管理センター Microsoft Teams、Voice Holidays に **移動**  >  **します**。
 
 2. 一覧から休日を選択します。
 

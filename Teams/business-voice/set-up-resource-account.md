@@ -1,5 +1,5 @@
 ---
-title: リソース アカウントMicrosoft 365 Business Voice設定する
+title: 通話プランリソース アカウントMicrosoft 365 Teams 電話を設定する
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,17 +14,17 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 自動応答で使用Microsoft 365 Business Voiceリソース アカウントを設定する方法について説明します。
+description: 自動応答で使用する通話プランMicrosoft 365 Teams 電話アカウントを使用してアカウントを設定する方法について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c0cfe87861086105587e58aba178821f4db778c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 91eb252073a2e2421afe8a12a308a429480e4664
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726166"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766200"
 ---
-# <a name="step-4-set-up-a-business-voice-resource-account"></a>手順 4: Business Voice リソース アカウントを設定する
+# <a name="step-4-set-up-a-teams-phone-with-calling-plan-resource-account"></a>手順 4: 通話プランリソース アカウントTeams 電話を設定する
 
 リソース アカウントは、特定のユーザーには割り当てられていない。 代わりに、無料の仮想ユーザー ライセンスを使用するリソース アカウントは、仮想マシン内のデバイスとサービスMicrosoft 365。 このMicrosoft Teams、リソース アカウントには電話番号が割り当てられた後、自動応答と通話キューに関連付けられます。
 
@@ -32,22 +32,18 @@ ms.locfileid: "58726166"
 
 この記事のセクションでは、リソース アカウントを設定し、そのアカウントに電話番号を割り当てる方法について説明します。 後で、リソース アカウントを自動応答に関連付ける予定です。
 
-次のビデオでは、管理センターでこれらの手順を完了Teams示します。
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYG]
-
 ## <a name="obtain-virtual-user-licenses"></a>仮想ユーザー ライセンスの取得
 
-自動応答と通話キューを操作するには、リソース アカウントにライセンスが必要です。 無料のサービス -*仮想Microsoft 365 電話システムライセンスを使用* できます。
+自動応答と通話キューを操作するには、リソース アカウントにライセンスが必要です。 無料の仮想マシン Microsoft 365 電話システム *ライセンスを使用* できます。
 
 > [!NOTE]
-> Business Voice の試用期間にサインアップした場合にのみ、次の手順を実行する必要があります。 Business Voice ライセンスを購入した場合は、仮想ライセンスが既にアカウントに適用されている必要があります。 
+> 通話プランの試用期間でプランにサインアップした場合にのみ、次Teams 電話実行する必要があります。 通話プランのライセンスTeams 電話を購入した場合、仮想ライセンスは既にアカウントに適用されている必要があります。
 >
 > 仮想ライセンスを既に持っている場合は、グローバル管理者アクセス許可Microsoft 365アカウントを使用してログインします。 次に、[製品の課金> [に移動します](https://admin.microsoft.com/Adminportal/Home#/subscriptions)。 仮想ライセンスがある場合は、[仮想ユーザー] **Microsoft 365 電話システム として表示されます**。
 
-1. [Microsoft 365 管理センターを開き、グローバル管理者であるユーザーでログインします (通常、このアカウントは、アカウントのサインアップに使用Microsoft 365)。
+1. [アカウントMicrosoft 365 管理センター開き、グローバル管理者であるユーザーでログインします。これは通常、アカウントのサインアップに使用したアカウントMicrosoft 365。
 2. 左側のナビゲーション ウィンドウで、[課金 <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank">  >  購入サービス</a>アドオン] に移動します。すべてのアドオン  >    >  **製品を表示します**。
-3. 最後までスクロールして、仮想ユーザー ライセンス **Microsoft 365 電話システムを見** つける。 [詳細 **] を選択** し、[購入] **を選択します**。
+3. 最後までスクロールして、仮想ユーザー **ライセンスMicrosoft 365 電話システムを見** つける。 [詳細 **] を選択** し、[購入] **を選択します**。
 4. ライセンス購入ページで、必要な仮想ユーザー ライセンスの数を選択します。 設定する予定の自動応答と通話キューごとに 1 つの仮想ライセンスが必要です。 少なくとも 5 つのライセンスを選択することをお勧めします。今後、より多くの自動応答と通話キューを簡単にセットアップできます。ライセンスを今すぐ追加購入する必要はありません。
 5. [ **ライセンスがないすべてのユーザーに自動的に割り当てる] チェック ボックスをオフにします**。
 6. [今 **すぐチェックアウト] を選択します**。
@@ -58,26 +54,20 @@ ms.locfileid: "58726166"
 
 ## <a name="create-a-resource-account"></a>リソース アカウントを作成する
 
-仮想マシン - 仮想ユーザー Microsoft 365 電話システム *を受け* 取った後、リソース アカウントを作成できます。
+仮想ユーザー - 仮想Microsoft 365 電話システムライセンスを受 *け* 取った後、リソース アカウントを作成できます。
 
-![リソース アカウントのユーザー インターフェイスの追加のスクリーンショット。](../media/resource-account-add.png)
-
-1. Microsoft Teams 管理センターを開き、グローバル管理者であるユーザー (通常は、このアカウントを使用してアカウントにサインアップしたアカウント) でログインMicrosoft 365。
+1. 管理センター Microsoft Teams開き、グローバル管理者であるユーザーと一緒にログインします。これは通常、アカウントのサインアップに使用したアカウントMicrosoft 365。
 2. 左側のナビゲーション ウィンドウで、[組織全体の設定] <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank"> **[リソース アカウント]**  >  **に移動します**</a>。
 3. **[追加]** を選択します。
-4. [リソース **アカウントの追加] ウィンドウ** で、[表示名] **に入力** し、[ユーザー名] を **入力します**。 リソース アカウントの目的を説明するわかりやすい表示名 ("メイン ライン自動応答" など) を選択します。
+4. [リソース **アカウントの追加] ウィンドウ** で、[表示名] **に入力** し、[ユーザー名] を **入力します**。 "メイン ライン 自動応答" などのわかりやすい表示名を選択して、リソース アカウントの目的を説明します。
 5. [ **リソース アカウントの種類] で、[** 自動応答] **を選択します**。
 6. **[保存]** を選択します。
-
-![リソース アカウントの一覧のスクリーンショット。](../media/resource-accounts-auto-attendant-only-page.png)
 
 ## <a name="assign-a-license"></a>ライセンスを割り当てる
 
 リソース アカウントを作成したら、仮想ユーザー ライセンスまたは仮想ユーザー ライセンスMicrosoft 365 電話システム *割**り当* てる電話システムがあります。
 
-![ライセンスの割り当てに関するページのスクリーン Microsoft 365 管理センター。](../media/resource-account-assign-virtual-user-license.png)
-
-1. [Microsoft 365 管理センターを開き、グローバル管理者であるユーザーでログインします (通常、このアカウントは、アカウントのサインアップに使用Microsoft 365)。
+1. [アカウントMicrosoft 365 管理センター開き、グローバル管理者であるユーザーでログインします。これは通常、アカウントのサインアップに使用したアカウントMicrosoft 365。
 1. 左側のナビゲーション ウィンドウで、[ユーザー] [アクティブな <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank">**ユーザー]**  >  **に移動します**</a>。
 1. リソース アカウントを選択します。
 1. [ライセンスと **アプリ] タブの**[ライセンス]**で**、[仮想Microsoft 365 電話システム **- 仮想ユーザー] を選択します**。
@@ -85,9 +75,7 @@ ms.locfileid: "58726166"
 
 ## <a name="assign-a-service-number"></a>サービス番号を割り当てる
 
-![サービス番号の割り当てユーザー インターフェイスのスクリーンショット。](../media/resource-account-assign-phone-number.png)
-
-1. Microsoft Teams 管理センターを開き、グローバル管理者であるユーザー (通常は、このアカウントを使用してアカウントにサインアップしたアカウント) でログインMicrosoft 365。
+1. 管理センター Microsoft Teams開き、グローバル管理者であるユーザーと一緒にログインします。これは通常、アカウントのサインアップに使用したアカウントMicrosoft 365。
 1. 左側のナビゲーション ウィンドウで、[組織全体の設定] <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank"> **[リソース アカウント]**  >  **に移動します**</a>。
 1. 作成したリソース アカウントを選択し、[割り当て/割り当て解除] **をクリックします**。
 1. [電話番号の **電話ボックスで、[オンライン**] を **選択します**。

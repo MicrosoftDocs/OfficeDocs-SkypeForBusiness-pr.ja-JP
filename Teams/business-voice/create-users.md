@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 ユーザーを作成し、Business Voice ライセンスを追加し、電話番号を割り当てる
+title: ユーザー Microsoft 365作成し、通話Teams 電話ライセンスを使用して電話番号を追加し、電話番号を割り当てる
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,36 +8,35 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33367a75eef98a847edfe6ce985f952719bfcf4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 00eb2842b063399f69563571180197de0238588e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605966"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766190"
 ---
-# <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Business Voice ユーザーの作成と割り当てを行い、電話番号を割り当てる
+# <a name="create-and-license-teams-phone-with-calling-plan-users-and-assign-them-phone-numbers"></a>通話プランのユーザー Teams 電話を作成してライセンスを取得し、電話番号を割り当てる
 
-:::no-loc text="Microsoft 365 Business Voice"::: を使用するには、:::no-loc text="Microsoft 365 Business Voice"::: ライセンスを持つ :::no-loc text="Microsoft 365"::: アカウントが必要です。 ライセンスとアカウントを取得すると、そのアカウントに電話番号を割り当てることができます。
+:::no-loc text="Microsoft 365 Teams Phone with Calling Plan"::: を使用するには、:::no-loc text="Microsoft 365 Teams Phone with Calling Plan"::: ライセンスを持つ :::no-loc text="Microsoft 365"::: アカウントが必要です。 ライセンスとアカウントを取得すると、そのアカウントに電話番号を割り当てることができます。
 
 ## <a name="create-and-license-users"></a>ユーザーの作成とユーザーへのライセンスの割り当て
 
 「[ユーザーを個別または一括で追加する](/microsoft-365/admin/add-users/add-users)」および「[ユーザーにライセンスを割り当てる](/microsoft-365/admin/manage/assign-licenses-to-users)」の手順に従います。
 
 > [!NOTE]
-> **[製品ライセンスの割り当て]** ウィンドウで、**:::no-loc text="Microsoft 365 Business Voice":::** を選択します。
+> **[製品ライセンスの割り当て]** ウィンドウで、**:::no-loc text="Microsoft 365 Teams Phone with Calling Plan":::** を選択します。
 
 ## <a name="assign-phone-numbers-to-users"></a>ユーザーに電話番号を割り当てる
 
-ユーザーの作成とユーザーへの :::no-loc text="Microsoft 365 Business Voice"::: ライセンスの割り当てが完了すると、ユーザーに電話番号を割り当てることができます。 外部電話番号に対し発信または受信する必要がある各ユーザーに、割り当てられていない電話番号が必要です。 未使用の電話番号が十分ない場合、この記事で後述する「[追加の電話番号を取得する](#get-more-phone-numbers)」を参照してください。
+ユーザーの作成とユーザーへの :::no-loc text="Microsoft 365 Teams Phone with Calling Plan"::: ライセンスの割り当てが完了すると、ユーザーに電話番号を割り当てることができます。 外部電話番号に対し発信または受信する必要がある各ユーザーに、割り当てられていない電話番号が必要です。 未使用の電話番号が十分ない場合、この記事で後述する「[追加の電話番号を取得する](#get-more-phone-numbers)」を参照してください。
 
 1. https://admin.teams.microsoft.com に移動します。
 2. 電話番号の要求の名前と説明を入力します。

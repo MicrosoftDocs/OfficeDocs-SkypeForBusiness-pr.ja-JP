@@ -19,23 +19,23 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 移植ウィザードを使用して、現在のサービス プロバイダーから現在のサービス プロバイダーに電話番号を転送する方法Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39be72edfa013a42fec6dcc60a8555d98be87b57
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 7650ccf8bee05fec6688e77c0fb9d68f94d18a0f
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513478"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766580"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>電話番号を別の電話番号にMicrosoft Teams
 
 Microsoft Teams 管理センターの移植ウィザードを使用して、現在のサービス プロバイダーから現在のサービス プロバイダーに電話番号をTeams。 電話番号を Teams に移行した後、Microsoft がサービス プロバイダーになり、それらの電話番号に対する請求を行います。
 
-開始する前に、「ポート注文とは」 [の情報を確認することをお勧めします。](port-order-overview.md) ダイヤルイン会議ブリッジ、自動応答、その他のサービス番号、無料電話番号、または Teams に転送する必要があるユーザー (サブスクライバー) 電話番号が 999 を超える場合は、「組織の電話番号を管理する」[](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)を参照して、適切なフォームをダウンロードして送信してください。
+開始する前に、「ポート注文とは」 [の情報を確認することをお勧めします。](port-order-overview.md) ダイヤルイン会議ブリッジ、自動応答、その他のサービス番号、無料電話番号、または Teams に転送する必要がある 999 を超えるユーザー (サブスクライバー) 電話番号のサービス番号がある場合は、「組織の電話番号を[](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)管理する」を参照して、正しいフォームをダウンロードして送信してください。
 
   > [!NOTE]
   > 米国の営業日にのみ電話番号を転送する場合は、祝日や週末ではなく、移行注文を処理します。
 
-## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>ポート注文を作成し、電話番号を電話番号に転送Teams
+## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>ポート注文を作成し、電話番号を別の電話番号にTeams
 
 > [!NOTE]
 > **現時点では、このウィザードを使用して**、英国、米国、およびカナダの電話番号を取得できます。 他の国や地域の電話番号を取得するには、ポート注文 [を手動で送信します](manually-submit-port-order.md)。 ポート注文を手動で送信する必要があるフォームを取得するには、[組織の電話番号の管理] のドロップダウン リストで国または地域 [を選択します](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
@@ -45,7 +45,7 @@ Microsoft Teams 管理センターの移植ウィザードを使用して、現�
 3. [場所 **と番号の種類の選択] ページで** 、次を指定し、[次へ] を **クリックします**。
 
     - **国または地域**: 数値を取得する国または地域。
-    - **電話の種類**: 地理的な番号やフリーダイヤル番号などの番号の種類。
+    - **電話の種類**: 地理的な番号やフリーダイヤルの番号など、番号の種類。
     - **[割り当てられた数値**]: 数値の割り当て方法。 たとえば、ユーザー、会議、音声機能などです。
 
 4. [アカウント **情報の追加] ページ** で、次の手順を実行し、[次へ] を **クリックします**。
@@ -70,14 +70,14 @@ Microsoft Teams 管理センターの移植ウィザードを使用して、現�
     > [!NOTE]
     > CSV ファイルには、PhoneNumber という名前のヘッダーを含む 1 つの列のみを含む必要があります。 各電話番号は個別の行に入る必要があります。数字のみ、または E.164 形式で指定できます。
 
-6. [**注文の完了**] ページで **、[** 署名アップロードをクリックして、署名された承認状 (LOA) のスキャンコピーをアップロードします。
+6. [**注文の完了**] ページで、[署名アップロードをクリックして、署名された承認状 (LOA) のスキャンコピーをアップロードします。
 
     LOA をまだダウンロードして署名していない場合は、次の操作を行います。
     
     1. [ **テンプレートのダウンロード] を** クリックして、お客様の国または地域の LOA をダウンロードします。 
     2. LOA を印刷します。
     3. アカウントに変更を加える権限を持つユーザーが LOA に署名します。
-    4. 署名された LOA をスキャンし、署名アップロード **をクリック** してアップロードします。
+    4. 署名された LOA をスキャンし、署名アップロード **を** クリックしてアップロードします。
 
     > [!NOTE]
     > LOA をアップロードした後、注文を送信します。 LOA をアップロードするだけで十分ではありません。 また、処理する注文を送信する必要があります。
@@ -93,9 +93,9 @@ Microsoft Teams 管理センターの移植ウィザードを使用して、現�
 
 
 ## <a name="reporting-telephone-number-issues"></a>電話番号に関する問題の報告
-最初の 24 ~ 48 時間以内に移植された番号に問題がある場合。 ポートが完了したら [、TNS Service Desk にお問い合わせください](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。 48 時間外の問題については、MS サポート チームにお問い合わせください。
+ポートが完了した後、最初の 24 ~ 48 時間以内に移植された番号に問題がある場合は [、TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)Service Desk にお問い合わせください。 48 時間を超える問題については、Microsoft サポート チームにお問い合わせください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 - [番号移行注文について](port-order-overview.md)
 - [通話プランで使用されるさまざまな種類の電話番号](../different-kinds-of-phone-numbers-used-for-calling-plans.md)

@@ -15,19 +15,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定および構成方法を説明します。
-ms.openlocfilehash: 687c507d94a7397fef0386ef3ddcc65ac7a7735b
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2df40f136308bb7855d911667bc871e5750f06cd
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306312"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767280"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams Rooms のコンソールを構成する
 
 この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定方法を説明します。
-
-> [!NOTE]
-> 次の手順は、Surface Pro Rooms Teamsにのみ適用されます。 その他のデバイスについては、OEM (Original Equipment Manufacturer) に問い合わせください。
 
 これらの手順は、「[デプロイの概要](rooms-deploy.md)」で説明されているように、必要な Microsoft Teams アカウントや Skype for Business のアカウントと Exchange アカウントが既に作成されている場合にのみ実行してください。 「[Microsoft Teams Rooms の要件](requirements.md)」で説明されているハードウェアとソフトウェアが必要になります。 このトピックには次のセクションが含まれます。
   
@@ -37,9 +34,6 @@ ms.locfileid: "61306312"
 - [コンソールの初期設定](console.md#Initial)
 - [Microsoft Teams Rooms のデプロイ チェックリスト](console.md#Checklist)
 
-> [!NOTE]
-> 次の手順は、Surface Pro Rooms Teamsにのみ適用されます。 その他のデバイスについては、OEM にサポートを確認してください。
-  
 ## <a name="prepare-the-installation-media"></a>インストール メディアを準備する
 <a name="Prep_Media"> </a>
 

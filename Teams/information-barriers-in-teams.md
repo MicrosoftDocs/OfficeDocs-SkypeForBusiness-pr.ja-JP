@@ -16,18 +16,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae5efb39f6d395d96b455df52167ee39ced6da2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828520"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767340"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報バリア
 
 情報バリア (IB) は、個人またはグループが互いに通信し合うのを防ぐために管理者が構成できるポリシーです。 たとえば、ある部署が他の部門と共有してはならない情報を処理している場合、IB は便利です。 また、グループを分離したり、そのグループ外のユーザーとの通信を妨げる必要がある場合にも便利です。
 
-このMicrosoft Teams、情報バリアは、次の種類の未承認のコラボレーションを特定し、防止できます。
+情報Microsoft Teams、次の種類の未承認のコラボレーションを特定して防止できます。
 
 - チームまたはチャネルへのユーザーの追加
 - チームまたはチャネルのコンテンツへのユーザー アクセス
@@ -39,7 +39,7 @@ ms.locfileid: "60828520"
 >- テナント間で情報バリア グループを作成することはできません。
 >- ボット、Azure Active Directory (Azure AD) アプリ、アクティビティ フィード通知を送信する API、およびユーザーを追加する一部の API の使用は、バージョン 1 ではサポートされていません。
 >- プライベート チャネルは、構成する情報バリア ポリシーに準拠しています。
->- SharePoint に接続されているサイトのバリアのサポートについては、「Teams サイトに関連付けられているセグメント」[をMicrosoft Teamsしてください](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
+>- Teams SharePoint に接続されているサイトのバリアのサポートについては、「Teams サイトに関連付けられているセグメント」[をMicrosoft Teamsしてください](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
 ## <a name="background"></a>背景
 
@@ -74,7 +74,7 @@ IB ポリシーは、PowerShell コマンドレットMicrosoft 365コンプラ�
 
 ## <a name="information-barriers-administrator-role"></a>情報バリア管理者ロール
 
-IB コンプライアンス管理ロールは、IB ポリシーの管理を担当します。 このロールの詳細については、「Microsoft 365 コンプライアンス センターのアクセス許可[」を参照してください](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
+IB コンプライアンス管理ロールは、IB ポリシーの管理を担当します。 このロールの詳細については、「コンプライアンス センターのアクセス許可[」Microsoft 365参照してください](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
 ## <a name="information-barrier-triggers"></a>情報バリア トリガー
 
@@ -176,11 +176,11 @@ IB ポリシー管理者がポリシーに変更を加えた場合、または�
     > [!div class="mx-imgBorder"]
     > ![ユーザーがチャットからブロックされた状態を示すスクリーンショット。](media/ib-after-chat-contacts-policy.png)
 
-- **Skype移行** へのTeams: Skype for Business から Teams への移行中は、IB ポリシーによってブロックされているユーザーも含め、すべてのユーザーが Teams に移行されます。 これらのユーザーは、上記のように処理されます。
+- **Skype移行** へのTeams: Skype for Business から Teams への移行中に、IB ポリシーによってブロックされているユーザーも含め、すべてのユーザーが Teams に移行されます。 これらのユーザーは、上記のように処理されます。
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>TeamsポリシーとSharePointサイト
 
-チームが作成されると、SharePointサイトがプロビジョニングされ、ファイル エクスペリエンスMicrosoft Teamsに関連付けられる。 情報バリア ポリシーは、既定では、このサイトとSharePointポリシーには適用されません。 SharePoint および OneDrive で情報バリアを有効にするには、「情報バリアを使用して情報バリアを使用する」のガイダンスと[SharePointしてください。](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)
+チームが作成されると、SharePointサイトがプロビジョニングされ、ファイル エクスペリエンスMicrosoft Teamsに関連付けられる。 情報バリア ポリシーは、既定では、このSharePointポリシーには適用されません。 SharePoint および OneDrive で情報バリアを有効にするには、「情報バリアを使用して情報バリアを使用する」のガイダンスと[SharePointしてください。](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)
 
 ## <a name="information--barrier-modes-and-teams"></a>情報バリア モードとTeams
 
@@ -188,18 +188,21 @@ IB ポリシー管理者がポリシーに変更を加えた場合、または�
 
 - **[** 開く]: この構成は、情報バリアを有効にする前にプロビジョニングされた既存のすべてのグループの既定の IB モードです。 このモードでは、IB ポリシーは適用されません。
 - **Implicit**: この構成は、情報バリアを有効にした後にチームがプロビジョニングされる場合の既定の IB モードです。 暗黙的モードでは、グループ内のすべての互換性のあるユーザーを追加できます。
+- **所有者モデタイル**: このモードは、所有者がモデ管理している互換性のないセグメント ユーザー間のコラボレーションを許可する場合に、チームで設定されます。 チーム所有者は、IB ポリシーごとに新しいメンバーを追加できます。
 
-Microsoft 365情報バリア ポリシーをアクティブにする前に作成されたグループは、既定で *自動的に [開く*] モードに設定されます。 テナントで IB ポリシーをアクティブ化したら、グループとサイトを再評価し、準拠していないユーザーをこれらのグループとサイトから自動的に削除するモードを更新する必要があります。 組織のコンプライアンス要件を満たすために既存の Teams に接続されているグループでオープン モードの構成を変更する必要がある場合は、Teams チームに接続されている SharePoint サイトの[IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell)モードを更新する必要があります。
+Teamsで情報バリア ポリシーをアクティブにする前に作成されたポリシーは、既定で *[開* く] モードに自動的に設定されます。 テナントで IB ポリシーをアクティブ化したら、既存のチームのモードを *Implicit* に更新して、既存のチームが IB に準拠している必要があります。
 
-セグメントに使用するモードに対応する *InformationBarrierMode* パラメーターを指定して [、Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup)コマンドレットを使用します。 *InformationBarrierMode* パラメーターに使用できる値の一覧は *、Open* と *Implicit です*。
+セグメントに使用するモードに対応する *InformationBarrierMode* パラメーターを指定して [、Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup)コマンドレットを使用します。 *InformationBarrierMode* パラメーターに使用できる値の一覧は *、Open、Implicit、Owner* *Moderated です*。 
 
-たとえば、新しいグループに *対して暗黙的* モードMicrosoft 365、次の PowerShell コマンドを使用します。
+たとえば、新しいグループの *暗黙的モードMicrosoft 365、* 次の PowerShell コマンドを使用します。
 
 ```powershell
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
-ユーザーをグループから自動的に削除する方法の詳細については、情報バリア コンプライアンス アシスタント (プレビュー) に関する [記事を参照](/sharepoint/information-barriers-compliance-assistant) してください。
+既存のすべてのチームのモードを [開く] から [暗黙的] に更新するには、この [PowerShell スクリプト を使用します](information-barriers-mode-script.md)。
+
+組織のコンプライアンス要件を満たすために既存の Teams に接続されているグループのオープン モード構成を変更する場合は、Teams チームに接続されている関連付けられている SharePoint サイトの[IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell)モードを更新する必要があります。
 
 ## <a name="required-licenses-and-permissions"></a>必要なライセンスとアクセス許可
 
@@ -221,4 +224,4 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 ## <a name="availability"></a>使用するための条件
 
 - この機能は、パブリック クラウドで利用できます。2021 年 1 月に、クラウドに情報バリアGCCしました。
-- この機能は、GCC DOD クラウドでは使用できません。
+- この機能は、GCC -DOD クラウドでは使用できません。

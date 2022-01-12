@@ -1,5 +1,5 @@
 ---
-title: 電話番号Microsoft 365 Business Voice設定する
+title: 電話番号をMicrosoft 365 Teams 電話プランを使用して通話プランを設定する
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,17 +14,17 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 組織内のユーザーとサービスMicrosoft 365 Business Voice電話番号を設定する方法について学習します。
+description: 組織内のユーザーとサービスMicrosoft 365 Teams 電話通話プランの電話番号を使用して通話プランを設定する方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c57e459d3ad502b9e361e5fa7e4eb4b8b45c29e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eefdfcb764f44830bb6dc23c63c2a80701c32c3e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599812"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766620"
 ---
-# <a name="step-2-set-up-business-voice-phone-numbers"></a>手順 2: Business Voice の電話番号を設定する
+# <a name="step-2-set-up-teams-phone-phone-numbers"></a>手順 2: 電話番号Teams 電話設定する
 
 組織内のユーザーまたは自動応答を設定する前に、ユーザーの電話番号を取得する必要があります。 電話番号にはさまざまな種類があります。ただし、この手順で追加する必要がある 2 種類の電話番号を次に示します。
 
@@ -37,15 +37,11 @@ ms.locfileid: "58599812"
 > [!NOTE]
 > 新しい電話番号が新しい電話番号で利用可能になるには、数時間かかるTeams。
 
-次のビデオでは、管理センターでこれらの手順を完了Teams示します。
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENzQ]
-
 ## <a name="set-up-a-service-number"></a>サービス番号を設定する
 
 ここで設定したサービス番号は、後の手順で会社のメイン電話番号に使用されます。
 
-1. Microsoft Teams管理センターを開き、グローバル管理者であるユーザー (通常は、管理者のサインアップに使用したアカウント) でログインMicrosoft 365。
+1. Microsoft Teams 管理センターを開き、グローバル管理者であるユーザー (通常は、このアカウントを使用してアカウントにサインアップしたアカウント) でログインMicrosoft 365。
 2. 左側のナビゲーションで、[Voice 電話 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">  >  **番号] に移動**</a>し、[追加] を **クリックします**。
 3. 注文の名前を入力し、説明を追加します。
 4. [場所と数量] ページで、次の操作を行います。
@@ -53,11 +49,11 @@ ms.locfileid: "58599812"
     2. [ **数値の種類] で**、次のいずれかのオプションを選択します。
 
         - **自動応答 (有料)** 通常のフリーダイヤル以外の電話番号。 呼び出し元には、遠距離料金が請求されます。
-        - **自動応答 (無料通話)** フリーダイヤル (米国およびカナダ) またはフリーフォン (英国) の電話番号。 遠距離料金は会社に請求されます。 このオプションを選択する前に、コミュニケーション クレジットを購入する必要があります。 詳細については、「What do I need to buy to use [Microsoft 365 Business Voice?」を参照してください](what-to-buy.md)。
+        - **自動応答 (無料通話)** フリーダイヤル (米国およびカナダ) またはフリーフォン (英国) の電話番号。 遠距離料金は会社に請求されます。 このオプションを選択する前に、コミュニケーション クレジットを購入する必要があります。 詳細については、「中小企業向け音声機能を利用するには何を購入する [必要がありますか?」を参照してください](whats-business-voice.md)。
 
     3. [**数量] で****、[1] を選択します**。
         > [!NOTE]
-        > [この種類の番号を要求するのに十分なライセンスはありません] というメッセージが表示される場合は、Business Voice ライセンスを購入している必要があります。 詳細については、「What do I need to buy to use [Microsoft 365 Business Voice?」を参照してください](what-to-buy.md)。
+        > [この種類の番号を要求するのに十分なライセンスを持ってない] というメッセージが表示される場合は、通話プランライセンスを使用して Teams 電話を購入している必要があります。 詳細については、「中小企業向け音声機能を利用するには何を購入する [必要がありますか?」を参照してください](whats-business-voice.md)。
     4. [場所 **]** **または**[市区町エリア コード] を選択します。場所の都市を使用して電話番号を検索するか、特定の市区町エリア コードで番号を検索するかに応じて選択します。
     5. [場所] を **選択した場合**:
 
@@ -71,7 +67,7 @@ ms.locfileid: "58599812"
 
 ## <a name="set-up-phone-numbers-for-your-users"></a>ユーザーの電話番号を設定する
 
-1. Microsoft Teams管理センターを開き、グローバル管理者であるユーザー (通常は、管理者のサインアップに使用したアカウント) でログインMicrosoft 365。
+1. 管理センター Microsoft Teams開き、グローバル管理者であるユーザーと一緒にログインします。これは通常、アカウントのサインアップに使用したアカウントMicrosoft 365。
 2. 左側のナビゲーションで、[Voice 電話 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">  >  **番号] に移動**</a>し、[追加] を **クリックします**。
 3. 注文の名前を入力し、説明を追加します。
 4. [場所と数量] ページで、次の操作を行います。
@@ -90,4 +86,4 @@ ms.locfileid: "58599812"
 6. 注文の準備ができたら、[注文] をクリックし、[完了] を **クリックします**。
 
 > [!div class="nextstepaction"]
-> [次の手順: ユーザーにライセンスをTeamsする](set-up-licenses.md)
+> [次の手順: ユーザーにライセンスを割りTeamsする](set-up-licenses.md)

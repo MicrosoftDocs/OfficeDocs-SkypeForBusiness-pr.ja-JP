@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams API を使用してGraphチャネルを管理する
+title: Graph API を使用してMicrosoft Teamsプライベート チャネルを管理する
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Graph API を使用して組織内のプライベート チャネルを管理する方法について説明します。
-ms.openlocfilehash: a2cb9b45afb005c837b260ac3da22c250d16c758
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: GRAPH API を使用して組織内のプライベート チャネルを管理する方法について説明します。
+ms.openlocfilehash: 25065401216a29e28e0d4aa3f1ad02d071215188
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615323"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766380"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Microsoft Teams のプライベート チャネルのライフ サイクルを管理する
 
-ここでは、Graph API を使用して組織内のプライベート チャネルTeams管理するために必要[な](./private-channels.md)ガイダンスを確認できます。
+ここでは、Graph API を使用して組織内のプライベート チャネルを管理Teams[ガイダンス](./private-channels.md)を確認できます。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>チーム メンバーがプライベート チャネルを作成できるかどうかを設定する
 
@@ -52,7 +52,7 @@ POST /teams/{id}/channels
   "displayName": "<Channel_Name>",
   "members":[{    
            "@odata.type":"#microsoft.graph.aadUserConversationMember",
-           "user@odata.bind":"https://graph.microsoft.com/beta/users('<user_id>')",
+           "user@odata.bind":"https://graph.microsoft.com/users('<user_id>')",
            "roles":["owner"]
             }]
 ```
@@ -79,7 +79,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     **要求**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
+    GET https://graph.microsoft.com/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **応答**
@@ -109,7 +109,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     **要求**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **応答**
@@ -147,7 +147,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     **要求**
 
     ```Graph API
-    GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
+    GET https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members
     ```
 
     **応答**
@@ -156,7 +156,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
-          "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams({group_id}')/channels('{channel_id}')/members",
+          "@odata.context": "https://graph.microsoft.com/$metadata#teams({group_id}')/channels('{channel_id}')/members",
           "@odata.count": 2,
           "value": [
               {
@@ -185,7 +185,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
     ```Graph API
     PATCH 
-    https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
+    https://graph.microsoft.com/teams/<group_id>/channels/<channel_id>/members/<id>
       
     {
     "@odata.type": "#microsoft.graph.aadUserConversationMember",
@@ -200,7 +200,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     Content-type: application/json
 
     {
-      "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
+      "@odata.context": "https://graph.microsoft.com/$metadata#teams('{group_id}')/channels('{channel_id}')/members/$entity",
       "@odata.type": "#microsoft.graph.aadUserConversationMember",
       "id": "id-value",
       "roles": ["owner"],

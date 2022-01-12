@@ -16,54 +16,51 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: この記事では、各パネルでサポートされる機能と機能の概要Microsoft Teamsします。
-ms.openlocfilehash: 872aeed96b12679c809194425a1c7823ac6e663a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: fc5c21ef11f60758644c48ee879bf4c6f3647457
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045615"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766430"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams パネル
 
-Microsoft Teamsパネルは、会議スペースの外 (通常は入口の横) の外に取り付けられているコンパクトなタッチスクリーン デバイスです。 Teamsパネルを使用すると、場所と会議の詳細を一目で確認し、その場で利用可能な会議スペースを予約することができます。 豊富な大きなテキストと色分けされたインジケーターを使用すると、離れた場所から会議スペースの空き時間情報を確認できます。
+Microsoft Teamsパネルは、会議スペースの外 (通常は入口の隣) の外に取り付けられているコンパクトなタッチスクリーン デバイスです。 Teamsパネルを使用すると、場所と会議の詳細を一目で確認し、その場で利用可能な会議スペースを予約することができます。 豊富な大きなテキストと色分けされたインジケーターを使用すると、離れた場所から会議スペースの空き時間情報を確認できます。
 
 Teamsパネルは、Microsoft Teams 365 カレンダー アプリケーションを介してスケジュールされた会議の詳細Teams表示Outlook専用のデバイスです。 会議の詳細が目立つように表示された場合、出席者は、適切な会議スペース、適切な時刻、および適切な会議に参加しているユーザーを確認できます。
 
-この記事では、Teamsパネルの概要を説明し、組織内の Teams パネル デバイスの計画、配信、管理に役立ちます。
+この記事では、Teamsパネルの概要を説明し、組織内のTeamsパネル デバイスの計画、配信、管理に役立ちます。
 
-## <a name="features-supported-by-teams-panels"></a>一部のパネルでTeams機能
+## <a name="features-supported-by-teams-panels"></a>複数のパネルでサポートTeams機能
 
 Teamsパネルでは、次の機能がサポートされています。
 
 - **会議スペースと会議の詳細の専用表示。** 場所や空き時間情報など、会議スペースに関する詳細が一目でわかります。 予約された会議スペースでは、会議のタイトル、会議のスケジュール、会議の開催者などの主要な会議の詳細を確認できます。
-- **臨時の会議に使用できる会議スペースを予約します。** タッチスクリーン パネルを使用すると、臨時の会議の場で利用可能な会議スペースを予約し、会議室または Surface Hub Microsoft Teams デバイスからその Teams 会議に参加できます。
+- **臨時の会議に使用できる会議スペースを予約します。** タッチスクリーン パネルを使用すると、臨時の会議の場で利用可能な会議スペースを予約し、会議室または Surface Hub デバイスからその Teams Microsoft Teams 会議に参加できます。
 - **空き領域の状態を示す色分けされたインジケーター。** 鮮やかな LED とホーム画面インジケーターを使用して、会議スペースの空き時間情報を確認できます。 [緑] は会議スペースが利用可能な状態を示し、必要に応じてパネル自体から予約できます。 赤または紫は、会議スペースが予約済みかどうかを示します。
 - **壁紙と予約状態インジケーターをカスタマイズします。** 管理者は、設定を使用してパネルの既定の外観を変更できます。 たとえば、管理者は背景の壁紙を変更したり、ビジー状態インジケーターの色を変更したりすることができます。
 - **アクセシビリティ。** Teamsパネルには、ハイ コントラスト テキストなど、ユーザーが簡単に使用できるアクセシビリティ機能があります。
 
-これらの機能の詳細と、その使い方については、パネルの使用に関する[ページMicrosoft Teamsしてください](use-teams-panels.md)。
+これらの機能の詳細と、その使い方については、「Use Microsoft Teams panels 」[を参照してください](use-teams-panels.md)。
 
 ## <a name="partners-certified-for-teams-panels"></a>パネルの認定Teamsパートナー
 
-次のいずれかのパートナー Teamsパネル デバイスを取得できます。
+パネルの認定を受けたパートナーの詳細については、「現在Teams認定されているパートナー パネル」[をTeamsしてください](teams-ip-phones.md#currently-certified-teams-panels)。
 
-- クレスロン
-- Yealink
-
-## <a name="teams-panels-requirements"></a>Teamsの要件
+## <a name="teams-panels-requirements"></a>Teamsパネルの要件
 
 パネル デバイスを展開するハードウェア、ソフトウェア、ネットワークの要件は、展開するパネル デバイスの種類によって異なる場合があります。 一連のデバイスに必要な情報については、OEM (Original Equipment Manufacturer) のドキュメントを参照してください。
 
 ## <a name="license-requirement"></a>ライセンス要件
 
-パネルをTeamsするには、Rooms Standard License [Microsoft Teamsが必要です](../rooms/rooms-licensing.md)。
+パネルをTeamsするには、Rooms Standard [License Microsoft Teamsが必要です](../rooms/rooms-licensing.md)。
 
 > [!Note]
 > Teams パネルをインストールする会議スペースに Microsoft Teams 会議室が既に展開されている場合は、Teams パネルを使用するために追加のライセンスは必要ない。
 
 ## <a name="deploy-teams-panels-devices"></a>パネル Teamsをデプロイする
 
-パネル デバイスの計画、デプロイ、管理にTeams場合は、このセクションを参照してください。 このセクションは、パネルのエンド ユーザーを対象Teamsです。
+パネル デバイスの計画、デプロイ、管理にTeams、このセクションはユーザー向けです。 このセクションは、特定のパネルのエンド ユーザー Teams対象となんら行う必要があります。
 
 パネル デバイスTeamsのデプロイは、次のタスクに分けられます。
 
@@ -74,13 +71,13 @@ Teamsパネルでは、次の機能がサポートされています。
 
 ## <a name="inventory-sites-and-meeting-spaces"></a>サイトと会議スペースのインベントリ
 
-組織内の既存の予約可能な会議スペースのインベントリを作成します。 複数のパネルを展開する対象のサイトと会議スペースTeamsします。 施設やオーディオ ビジュアル チームと一緒に作業し、Teams パネル デバイスをインストールする場所と方法、およびパネルを取り付ける追加のハードウェアが必要かどうかを判断します。
+組織内の既存の予約可能な会議スペースのインベントリを作成します。 複数のパネルを展開する対象のサイトと会議スペースTeamsします。 施設やオーディオ ビジュアル チームと一緒に作業し、Teams パネル デバイスをインストールする場所と方法、およびパネルをマウントするために追加のハードウェアが必要かどうかを判断します。
 
 ## <a name="procurement"></a>調達
 
-Teams パネルの展開の対象である会議スペースの数に基づいて、Teams パネルの認定を受けたパートナーの 1 つから[デバイスを調達します](#partners-certified-for-teams-panels)。 デバイスと調達オプションの詳細については、パートナーの Web サイトを参照してください。
+Teams パネルを展開する対象の会議スペースの数に基づいて、Teams パネルの認定を受けたパートナーの 1 つから[デバイスを調達します](#partners-certified-for-teams-panels)。 デバイスと調達オプションの詳細については、パートナーの Web サイトを参照してください。
 
-組織内の会議スペースには、デバイスのインストールまたはマウントに関するハードウェア要件が異なる場合があります。 たとえば、デバイスをガラス、ドライウォール、または木のパネルに取り付けるのに必要なハードウェアが同じではない可能性があります。 使用可能なマウント オプションについては、デバイス パートナーのドキュメントを参照してください。
+組織内の会議スペースには、デバイスのインストールまたはマウントに関するハードウェア要件が異なる場合があります。 たとえば、デバイスをガラス、ドライウォール、または木のパネルに取り付ける際に必要なハードウェアが同じではない可能性があります。 使用可能なマウント オプションについては、デバイス パートナーのドキュメントを参照してください。
 
 ## <a name="site-readiness"></a>サイトの準備
 
@@ -105,7 +102,7 @@ Teams パネルの展開の対象である会議スペースの数に基づい�
 
 すべてのTeams パネル デバイスには、Microsoft 365のリソース アカウントが必要です。 リソース アカウントの資格情報を使用して、パネル デバイスMicrosoft Teamsアプリにサインインします。
 
-各パネルにMicrosoft 365リソース アカウントTeamsするには、Microsoft Teams Rooms Standard ライセンス[を購入Microsoft Teamsをお勧めします](#license-requirement)。 リソース アカウントを作成し、そのアカウントにライセンスを割り当てる方法については、「リソース アカウントを使用してリソース アカウントを作成する」を[Microsoft 365 管理センター。](resource-account-ui.md)
+Microsoft 365 パネル用Microsoft 365 Teamsリソース アカウントを設定するには、Microsoft Teams Rooms Standard ライセンス[を購入Microsoft Teamsをお勧めします](#license-requirement)。 リソース アカウントを作成し、そのアカウントにライセンスを割り当てる方法については、「リソース アカウントを使用してリソース アカウントを作成する」を[Microsoft 365 管理センター。](resource-account-ui.md)
 
 > [!NOTE]
 >
@@ -121,7 +118,7 @@ Teams パネルの展開の対象である会議スペースの数に基づい�
 
 ### <a name="testing"></a>テスト
 
-パネルをデプロイした後、それらをテストする必要があります。 デプロイされた[デバイスで、パネルでTeams機能](#features-supported-by-teams-panels)が動作している必要があります。 コンピューター上の 365 を使用して、Teamsまたは Outlookに対して複数の会議を作成してみてください。 パネルに、スケジュールされた会議の会議の詳細と空き時間情報が正しく表示されていることを確認します。 [予約] **ボタンを** 使用して、利用可能な会議スペースをデバイスから直接予約できるのか確認してみてください。
+パネルをデプロイした後、それらをテストする必要があります。 デプロイされたデバイス[で、パネルでTeams機能](#features-supported-by-teams-panels)が動作している必要があります。 コンピューター上の 365 を使用して、Teamsまたは Outlookに対して複数の会議を作成してみてください。 パネルに、スケジュールされた会議の会議の詳細と空き時間情報が正しく表示されていることを確認します。 [予約] **ボタンを** 使用して、利用可能な会議スペースをデバイスから直接予約できるのか確認してみてください。
 
 ## <a name="manage-teams-panels-in-your-organization"></a>組織内Teamsパネルを管理する
 
@@ -133,10 +130,10 @@ Teams パネル デバイスを管理するには、Microsoft Teams 管理セン
 
 ## <a name="see-also"></a>関連項目
 
-[Microsoft TeamsパネルのTeamsブログ](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
+[Microsoft Teamsパネルに関するTeamsブログ](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/manage-meeting-space-availability-with-microsoft-teams-panels/ba-p/2167734)
 
 [パネルの使用Teamsする](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
 [Teamsパネル マーケットプレース](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=815)
 
-[デバイス パネル認定プログラムMicrosoft Teams認定デバイス](teams-ip-phones.md#currently-certified-teams-panels)
+[Microsoft Teams パネル認定プログラムの下で認定されたデバイス](teams-ip-phones.md#currently-certified-teams-panels)

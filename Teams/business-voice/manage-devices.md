@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ''
+description: 通話プランを使用してデバイスをTeams 電話する方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9341c88798da6ff9978a23a3f359c66089eff23
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3e5e1527a85b3ce6e87390a2d0dc550da652bc9f
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618683"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766540"
 ---
 [!INCLUDE [device-management](../devices/device-management.md)]

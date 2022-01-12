@@ -1,5 +1,5 @@
 ---
-title: デバイスの電話とデバイスMicrosoft Teams
+title: 電話とデバイス (Microsoft Teams
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -15,34 +15,34 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: USB 周辺機器とデバイス (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) が認定を受けたMicrosoft Teams。
-ms.openlocfilehash: 718a4f96e6a54a5f2563cec4e69b7037a8bb470e
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 97299120992cf6500822c452386a9f402cb6cf55
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267780"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766700"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB オーディオ デバイスとビデオ デバイスは、Microsoft Teams
 
-周辺機器認定プログラムは、USB 周辺機器 (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) が豊富なオーディオ品質またはビデオ品質を提供します。 認定デバイスは、追加の構成&機能 (プラグ アンド プレイ) を行い、Microsoft TeamsおよびSkype for Business。 この製品は、エンド ユーザーと管理者に最適なエクスペリエンスを提供します。
+周辺機器認定プログラムは、USB 周辺機器 (ヘッドセット、スピーカーフォン、Web カメラ、モニターなど) が豊富なオーディオ品質またはビデオ品質を提供します。 認定デバイスは特別な構成&機能 (プラグ アンド プレイ) を行い、Microsoft TeamsおよびSkype for Business。 この製品は、エンド ユーザーと管理者に最適なエクスペリエンスを提供します。
 
-テスト済みで認定されたデバイスをMicrosoft Teams、ストアにTeams[してください](https://products.office.com/microsoft-teams/across-devices/devices)。
+テスト済みで認定されたデバイスをMicrosoft Teams、ストアに[Teamsしてください](https://products.office.com/microsoft-teams/across-devices/devices)。
 
-Teams での通話制御のサポートの詳細については、「Teams でヘッドセットを使用して通話を制御する[」を参照してください](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)。
+Teams での通話制御のサポートの詳細については、「Teams でヘッドセットを使用して通話[を制御する」をTeams。](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
 > [!TIP]
 > Skype for Business の認定を受けたデバイスをお探Skype for Business。 デバイスの認定[を受けた USB オーディオ デバイスとビデオ デバイスにSkype for Business。](/skypeforbusiness/certification/devices-usb-devices)
 
 ## <a name="understanding-certification-categories"></a>認定カテゴリについて
 
-ユーザーは、以前に認定されたデバイスをデバイスからアップグレードするときに、Teams交換Skype for Business。  認定デバイスはすべて、ユーザーのMicrosoft TeamsとSkype for Businessサポートされ、いくつかの違いがあります。  認定では、特定のデバイス カテゴリに対してさらに指定することもできます。
+ユーザーは、以前に認定されたデバイスをデバイスからアップグレードするときに、Teams交換する必要Skype for Business。  認定済みデバイスはすべて、Microsoft TeamsおよびSkype for Businessユーザーに対してサポートされます。違いはわずかです。  認定では、特定のデバイス カテゴリに対してさらに指定することもできます。
 
 - **Skype for Businessレベルで認定Teamsアップグレード** デバイスの認定を受けたデバイスは、最初は認定を受けたSkype for Business。 Microsoft は、デバイスの製造元と連携して、元のハードウェアを変更することなくTeams最高の統合エクスペリエンスを提供しています。 フック *スイッチ ボタンは*、通話中Teamsボタンとして機能し、時間のと一度に多くの関数が含まれる場合があります。  このカテゴリのデバイスは、マーケティング資料Teams認定バッジを持つ場合があります。
-- **このレベルでMicrosoft Teams** 認定されたデバイスは、セキュリティ侵害を受け付けないエクスペリエンスのために、認定された最新のデバイスTeamsします。 これらのデバイスは、以前の認定のすべての利点を提供し、LED インジケーター付き専用のTeamsボタンも含まれます。 ほとんどのフォーム ファクターでは、Teamsボタンは、ロゴが付いた見つけやすいボタンTeamsされます。 Microsoft は、デバイスの製造元と引き続き取り組み、ファームウェアの更新を通じて新しい価値を提供します。
+- **このレベルでMicrosoft Teams** 認定されたデバイスは、セキュリティ侵害を受け付けないエクスペリエンスのために、認定された最新のデバイスTeamsします。 これらのデバイスは、以前の認定のすべての利点を提供し、LED インジケーター付き専用のTeamsボタンも含まれます。 ほとんどのフォーム ファクターでは、Teamsボタンは、ロゴが付いた簡単に見つけることができるボタンTeamsされます。 Microsoft は、デバイスの製造元と引き続き取り組み、ファームウェアの更新を通じて新しい価値を提供します。
 
 ### <a name="special-usage-designations"></a>特別な使用指定
 
-- **プレミアム マイク for Open Office** クリア オーディオを提供するためにすべてのヘッドセットがテストされますが、オフィスや他のノイズの多い環境を開く方が大きな課題になります。 この指定のヘッドセットは、ヘッドセット ユーザーの声を受け取りますが、近隣のユーザーの音は送信しない。
+- **プレミアム マイク for Open Office** すべてのヘッドセットはクリアオーディオを提供するテストを行いますが、オフィスや他のノイズの多い環境を開く方が大きな課題になります。 この指定のヘッドセットは、ヘッドセット ユーザーの声を受け取りますが、近隣のユーザーの音は送信しない。
 - **会議室のサイズ** スピーカーフォンやカメラなどの共有デバイスでは、使用距離がサポートされます。 推奨される距離は、製造元によって異なる場合があります。 お客様に明確なガイダンスを提供するために、すべての共有デバイスは、明確に定義された部屋のサイズとノイズ環境に対する認定でテストされます。
 
 の[認定を受けたデバイスをMicrosoft Teams。](https://products.office.com/microsoft-teams/across-devices/devices)
@@ -52,7 +52,7 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 ### <a name="new-teams-certification-benefits"></a>新Teams認定特典
 
 - 専用Teamsボタンと LED インジケーター ライト。
-- Teams クライアントからのイベントとアラートのユーザー通知 (会議の開始、ボイスメール、通話ミスなど)。
+- クライアントからのイベントとアラートのユーザー通知 (Teams開始、ボイスメール、通話ミスなど)。
 - クライアントをアクティブTeamsボタンを押して通知に応答する機能 (会議に参加する場合など)。
 - 拡張性を目的として設計された認定 (ファームウェアの更新によって提供される新しいデバイス/クライアント機能)。
 
@@ -74,10 +74,11 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 
 ## <a name="certified-devices"></a>認定デバイス
 
-*テーブル更新日: 2021 年 12 月*
+*テーブルの更新日: 2022 年 1 月*
 
 | [製造元]        | モデル                                                     | 修飾      | 認定プログラム                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|レドク               |Go Wired Speakerphone                                      |1/10/2022       |認定Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5066T                                           |12/1/2021       |認定Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5063T                                           |12/1/2021       |認定Microsoft Teams                           |
 |EPOS                 |IMPACT SDW 5036T                                           |12/1/2021       |認定Microsoft Teams                           |
@@ -87,7 +88,7 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 |Jabra                |PanaCast 20                                                |11/26/2021      |認定Microsoft Teams                           |
 |Poly                 |ボジラー フォーカス 2 とエボOffice ベース                    |10/20/2021      |認定Microsoft Teams                           |
 |Poly                 |アンボラー 4320 とアンボOffice ベース                       |10/20/2021      |認定Microsoft Teams                           |
-|Poly                 |アンボラー 4310 とアンボラー Office ベース                       |10/20/2021      |認定Microsoft Teams                           |
+|Poly                 |アンボラー 4310 とアンボOffice ベース                       |10/20/2021      |認定Microsoft Teams                           |
 |Jabra                |Evolve 2 75 Headset                                        |10/8/2021       |認定Microsoft Teams                           |
 |Logitech             |Zone Wired Earbuds                                         |9/2/2021        |認定Microsoft Teams                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |認定Microsoft Teams                           |
@@ -138,20 +139,20 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 |Dell                 |C2422HE モニター                                            |12/11/2020      |認定Microsoft Teams                           |
 |Poly                 |Poly BT600 USB ドングルと 20 + スピーカーフォンを同期する          |11/9/2020       |認定Microsoft Teams                           |
 |Poly                 |20 スピーカーフォンを同期する                                       |11/9/2020       |認定Microsoft Teams                           |
-|Jabra                |Evolve 65t Headset                                         |10/31/2020      |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|Jabra                |Evolve 80 Headset                                          |8/23/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|Jabra                |Evolve 40 Headset                                          |8/23/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|Jabra                |Evolve 30 II Headset                                       |8/23/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|Jabra                |Evolve 20 Headset                                          |8/23/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|EPOS/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 660 への影響               |8/20/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|EPOS/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 630 への影響               |8/20/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|EPOS/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 260 への影響               |8/20/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|Jabra                |Evolve 75 Headset                                          |7/31/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|Jabra                |Evolve 65 Headset                                          |7/31/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
-|Jabra                |50 ヘッドセットを装着する                                          |7/31/2020       |Skype for Businessへのアップグレードを使用Microsoft Teams      |
+|Jabra                |Evolve 65t Headset                                         |10/31/2020      |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|EPOS/Sennheiser      |MB Pro 1                                                   |10/2/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|EPOS/Sennheiser      |MB Pro 2                                                   |10/2/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|Jabra                |Evolve 80 Headset                                          |8/23/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|Jabra                |Evolve 40 Headset                                          |8/23/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|Jabra                |Evolve 30 II Headset                                       |8/23/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|Jabra                |Evolve 20 Headset                                          |8/23/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|EPOS/Sennhesier      |COMMAND 260 USB PTT                                        |8/20/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|EPOS/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 660 への影響               |8/20/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|EPOS/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 630 への影響               |8/20/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|EPOS/Sennheiser      |USB-ED CC 01 MS コネクタを使用した SC 260 への影響               |8/20/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|Jabra                |Evolve 75 Headset                                          |7/31/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|Jabra                |Evolve 65 Headset                                          |7/31/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
+|Jabra                |50 ヘッドセットを装着する                                          |7/31/2020       |Skype for Businessへのアップグレードに関するMicrosoft Teams      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |認定Microsoft Teams                           |
 |Jabra                |Evolve2 85 Headset                                         |7/17/2020       |認定Microsoft Teams                           |
 |Bose                 |NC 700 ヘッドセット                                             |6/8/2020        |認定Microsoft Teams                           |
@@ -161,32 +162,32 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 | EPOS                | Sennheiser Adapt 460T headset                             | 5/15/2020      | 認定Microsoft Teams                          |
 | EPOS                | Sennheiser Adapt 360 headset                              | 5/15/2020      | 認定Microsoft Teams                          |
 | Yealink             | UH36 ヘッドセット                                              | 5/13/2020      | 認定Microsoft Teams                          |
-| Poly                | Savi 8210 Office                                          | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | Savi 8210 UC                                              | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | Savi 8220 Office                                          | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | Savi 8220 UC                                              | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | Savi 8240 Office                                          | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | Savi 8240 UC                                              | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | Savi 8245 Office                                          | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | Savi 8245 UC                                             | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | Blackwire 5210 Headset                                    | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | Blackwire 5220 Headset                                    | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | Blackwire 7225 Headset                                    | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | インバーサー フォーカス UC                                          | 4/20/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
+| Poly                | Savi 8210 Office                                          | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | Savi 8210 UC                                              | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | Savi 8220 Office                                          | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | Savi 8220 UC                                              | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | Savi 8240 Office                                          | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | Savi 8240 UC                                              | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | Savi 8245 Office                                          | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | Savi 8245 UC                                             | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | Blackwire 5210 Headset                                    | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | Blackwire 5220 Headset                                    | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | Blackwire 7225 Headset                                    | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| Poly                | インバーサー フォーカス UC                                          | 4/20/2020      | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
 | Yealink             | CP700                                                     | 4/13/2020      | 認定Microsoft Teams                          |
 | Jabra               | Evolve2 65 Headset                                        | 4/13/2020      | 認定Microsoft Teams                          |
-| EPOS/Sennheiser     | Impact SC 30                                              | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 45                                              | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 60                                              | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 75 MS                                           | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 75 MS EUL                                       | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 230 USB MS II                                   | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 260 USB MS II                                   | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 630 USB MS                                      | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 635 USB                                         | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 660 USB MS                                      | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 660 ANC USB                                     | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| EPOS/Sennheiser     | Impact SC 665 USB                                         | 4/9/2020       | Skype for Businessへのアップグレードを使用Microsoft Teams     |
+| EPOS/Sennheiser     | Impact SC 30                                              | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 45                                              | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 60                                              | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 75 MS                                           | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 75 MS EUL                                       | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 230 USB MS II                                   | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 260 USB MS II                                   | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 630 USB MS                                      | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 635 USB                                         | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 660 USB MS                                      | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 660 ANC USB                                     | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
+| EPOS/Sennheiser     | Impact SC 665 USB                                         | 4/9/2020       | Skype for Businessへのアップグレードに関するMicrosoft Teams     |
 | Logitech            | ゾーン ワイヤレス                                             | 4/8/2020       | 認定Microsoft Teams                          |
 | Poly                | Headsetr 8200 Headset                                      | 3/26/2020      | Skype for Businessへのアップグレードを使用Microsoft Teams     |
 | Logitech            | 有線ゾーン                                                | 3/26/2020      | 認定Microsoft Teams                          |
@@ -195,9 +196,9 @@ Teams での通話制御のサポートの詳細については、「Teams で�
 | Poly                | アンボラー 4245 Office                                       | 3/23/2020      | 認定Microsoft Teams                          |
 | Poly                | Blackwire 8225 Headset                                    | 3/23/2020      | 認定Microsoft Teams                          |
 | Poly                | Calisto 5300-M                                            | 03/05/2020     | 認定Microsoft Teams                          |
-| Poly                | アンジュラー 4210 Office                                       | 03/05/2020     | 認定Microsoft Teams                          |
+| Poly                | アンボラー 4210 Office                                       | 03/05/2020     | 認定Microsoft Teams                          |
 | Poly                | アンボラー 4210 UC                                           | 03/05/2020     | Skype for Businessへのアップグレードを使用Microsoft Teams     |
-| Poly                | アンジュラー 4220 Office                                       | 03/05/2020     | 認定Microsoft Teams                          |
+| Poly                | アンボラー 4220 Office                                       | 03/05/2020     | 認定Microsoft Teams                          |
 | Poly                | アンボラー 4220 UC                                           | 03/05/2020     | Skype for Businessへのアップグレードを使用Microsoft Teams     |
 | Poly                | アンボラー 5200 Office                                       | 03/05/2020     | 認定Microsoft Teams                          |
 | Poly                | アンボラー 5200 UC                                           | 03/05/2020     | Skype for Businessへのアップグレードを使用Microsoft Teams     |

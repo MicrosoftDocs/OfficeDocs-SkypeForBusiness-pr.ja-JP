@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caabea3e1310ad704953171836dcdfb35506609a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 0146c77fc5727a1dc57a7062eeb62cebaba46034
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960066"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766220"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>クイック スタート - 会議、ウェビナー、ライブ イベント 
 
@@ -113,7 +113,7 @@ Teams の **会議** には、最大 1,000 人のユーザー向けの音声、�
 | トレーニング | 説明 | 
 |----------|--------|
 | [Teams ウェビナーを開始する](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3) | Teams ウェビナーを初めて使用するユーザー向けの簡潔なトレーニング ビデオ。 |
-| [ビジュアル クイック スタート ガイド](https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf) | ウェビナーのスケジュール設定を開始する方法を説明するダウンロード可能なビジュアル ガイドです。  |
+| [ビジュアル クイック スタート ガイド](https://adoption.microsoft.com/files/assets/TeamsWebinarsGetStartedGuide.pdf) | ウェビナーのスケジュール設定を開始する方法を説明するダウンロード可能なビジュアル ガイドです。  |
 ||
 
 

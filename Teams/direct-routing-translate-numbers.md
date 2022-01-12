@@ -15,19 +15,19 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: システム ダイレクト ルーティングを構成Microsoft 電話方法について説明します。
-ms.openlocfilehash: d6b767ace4f00e581e99ec73585b0b596029b17e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: システム ダイレクト ルーティングを構成Microsoft 電話する方法について説明します。
+ms.openlocfilehash: 2e94da39c23c10a912f4b3f0433467439b5ecf77
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619463"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766370"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>電話番号を別の形式に翻訳する
 
 この記事では、発信呼び出しと受信呼び出しの番号を別の形式に変換する方法について説明します。  これは、ダイレクト ルーティングを構成するための次の手順の手順 4 です。
 
-- 手順 1. [Connect システムを使用して SBC Microsoft 電話接続を検証する](direct-routing-connect-the-sbc.md) 
+- 手順 1. [Connect システムで SBC をMicrosoft 電話し、接続を検証する](direct-routing-connect-the-sbc.md) 
 - 手順 2. [ダイレクト ルーティング、音声、ボイスメールのユーザーを有効にする](direct-routing-enable-users.md)   
 - 手順 3. [音声ルーティングを構成する](direct-routing-voice-routing.md)
 - **手順 4.数値を別の形式に変換する**   (この記事)
@@ -56,7 +56,7 @@ SBC で番号操作ルールを割り当て、構成、および一覧表示す�
 このシナリオでは、コマンドレット ```New-CsOnlinePSTNGateway``` を実行して次の SBC 構成を作成します。
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,‘StripPlus1’  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
 ```
 
 SBC に割り当てられた翻訳規則を次の表にまとめると、次の表に示します。
@@ -72,8 +72,8 @@ SBC に割り当てられた翻訳規則を次の表にまとめると、次の�
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>例 1: 10 桁の番号への着信呼び出し
 
-Bob は、E.164 以外の 10 桁の番号を使用して Alice を呼び出します。 Bob は、2065550100にダイヤルします。
-SBC では、RequestURI 2065550100 To ヘッダー内のヘッダーと From ヘッダー 4255550100を使用します。
+Bob は、E.164 以外の 10 桁の番号を使用して Alice を呼び出します。 Bob は、2065550100をダイヤルして Alice に到達します。
+SBC では、RequestURI 2065550100 To ヘッダーのヘッダーと From ヘッダーの 4255550100を使用します。
 
 
 |ヘッダー  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
@@ -85,7 +85,7 @@ SBC では、RequestURI 2065550100 To ヘッダー内のヘッダーと From ヘ
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>例 2: 4 桁の番号への着信呼び出し
 
 Bob は、4 桁の番号を使用して Alice を呼び出します。 Bob は 0100 をダイヤルして Alice に到達します。
-SBC では、RequestURI ヘッダーと To ヘッダーで 0100 を使用し、From 4255550100を使用します。
+SBC は、RequestURI ヘッダーと To ヘッダーで 0100 を使用し、from 4255550100を使用します。
 
 
 |ヘッダー  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |
@@ -97,9 +97,9 @@ SBC では、RequestURI ヘッダーと To ヘッダーで 0100 を使用し、F
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>例 3: 10 桁の非 E.164 番号を使用した発信呼び出し
 
 Alice は、10 桁の番号を使用して Bob を呼び出します。 Alice は 425 555 0100 にダイヤルして Bob に到達します。
-SBC は、ユーザーと PSTN ユーザーの両方に E.164 以外の 10 Teamsを使用するように構成されています。
+SBC は、ユーザーと PSTN ユーザーの両方に E.164 以外の 10 桁の番号Teams構成されています。
 
-このシナリオでは、ダイヤル プランは、ダイレクト ルーティング インターフェイスに送信する前に番号を変換します。 Alice が Teams クライアントに 425 555 0100 を入力すると、国のダイヤル プランによって番号が +14255550100 に変換されます。 結果として得られる数値は、ダイヤル プラン ルールと翻訳ルールのTeams正規化です。 このTeams、ダイヤル プランによって追加された "+1" を削除します。
+このシナリオでは、ダイヤル プランは、ダイレクト ルーティング インターフェイスに送信する前に番号を変換します。 Alice が Teams クライアントに 425 555 0100 を入力すると、国のダイヤル プランによって番号が +14255550100 に変換されます。 結果の数値は、ダイヤル プラン ルールと翻訳ルールのTeams正規化です。 このTeams、ダイヤル プランによって追加された "+1" を削除します。
 
 
 |ヘッダー  |翻訳元 |翻訳済みヘッダー |パラメーターとルールの適用  |

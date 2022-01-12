@@ -1,5 +1,5 @@
 ---
-title: Business Voice のインターネット接続を確認する
+title: 通話プランを使用してインターネットTeams 電話接続を確認する
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,96 +17,68 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82e1ba3c58dca1326cb942726efa7d0006aa622f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: HT
+ms.openlocfilehash: 5f28350c2ae0487ed62d55bbd99d6a731a7bfac0
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731236"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766920"
 ---
-# <a name="check-your-internet-connection-for-business-voice"></a>Business Voice のインターネット接続を確認する
+# <a name="check-your-internet-connection-for-teams-phone"></a>インターネット接続で接続を確認Teams 電話
 
-Business Voice は、Microsoft 365 のクラウドにあります。 Microsoft Teams および Business Voice を使用するすべてのデバイスで、インターネット接続が必要になります。
+Teams 電話クラウドを使用して、Microsoft Teams内で電話機能を有効にするための Microsoft Microsoft 365テクノロジです。 デバイスとデバイスを使用Microsoft Teams、Teams 電話インターネットへの接続が必要です。
 
-最高の Business Voice エクスペリエンスを達成するには、組織が一度に行う最大通話数をサポートできるブロードバンド インターネット接続が必要です。 また、ネットワーク上のコンピューターが Microsoft 365 サーバーに到達できることを確認する必要もあります。
+最適なTeams 電話するには、組織が一度に行う可能性がある電話の最大数をサポートできるブロードバンド インターネット接続が必要です。 また、ネットワーク上のコンピューターが他のサービスにアクセスMicrosoft 365があります。
 
-これらの手順を実行するには、次のいずれかのサブスクリプションを持つテナントが必要です。
+次の手順に従Teams 電話ライセンスは必要ない。
 
-* Microsoft 365 Business Basic
-* Microsoft 365 Business Standard
-* Office 365 E1
-* Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
-* Microsoft 365 A3
-* Microsoft 365 E3
-* Microsoft 365 Business
+## <a name="check-your-internet-connection-speed"></a>インターネット接続速度を確認する
 
-これらの手順を実行するのに Business Voice ライセンスは必要ありません。
-
-## <a name="check-your-internet-connection-speed"></a>インターネット接続の速度を確認する
-
-この記事は、電話をかける必要のある人数、ビデオ会議のホストに対応するのにインターネット接続が十分な速度であるかどうかを判断するのに役立ちます。 組織に関する情報を入力すると、Teams や Business Voice で使用されるインターネット接続の量が記載されたレポートが返されます。
+この記事は、電話をかける必要があるユーザーの数に対してインターネット接続が十分に高速かどうかを判断するのに役立ちます。 組織に関する情報を提供し、ユーザーが使用するインターネット接続の量を示すレポートTeams取得Teams 電話。
 
 ### <a name="gather-information-about-your-internet-connection-and-users"></a>インターネット接続とユーザーに関する情報を収集する
 
 始める前に、次の情報が必要です。
 
 * インターネット接続の速度
-* 主にオフィス内で Business Voice を使用する人数
-* ホーム オフィスなど、主にリモートの場所で Business Voice を使用する人数
+* 主に自分のオフィスからTeams 電話ユーザーの数
+* 自宅オフィスなど、Teams 電話から使用するユーザーの数
 
 ### <a name="enter-your-information-into-the-network-planner"></a>ネットワーク プランナーに情報を入力する
 
 次の手順を実行します。
 
-1. ブラウザーで、https://admin.teams.microsoft.com に移動します。 グローバル管理者権限を持つアカウントを使用してサインインします。 Microsoft 365 または Office 365 へのサインアップに使用したアカウントには、これらのアクセス許可があります。
+1. ブラウザーで に移動します [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com) 。 グローバル管理者権限を持つアカウントを使用してサインインします。 Microsoft 365 または Office 365 へのサインアップに使用したアカウントには、これらのアクセス許可があります。
 2. **[計画]** を開いて **[ネットワーク プランナー]** を選択します。
-3. **[ネットワーク プラン]** で、**[追加]** を選択します。 プランの名前を入力して、**[適用]** を選択します。 ネットワーク プランは次のようになります。
+3. **[ネットワーク プラン]** で、**[追加]** を選択します。 プランの名前を入力して、**[適用]** を選択します。
+4. ネットワーク プランの名前を選択します。
+5. 次のページで、**[ネットワーク サイト]** タブで **[ネットワーク サイトを追加]** を選択します。
+6. [ネットワーク サイト **名] フィールド、[****ネットワーク** ユーザー] フィールド、[インターネット リンク容量] フィールドを **入力** し、[保存] を **選択します**。 この画面上の他のフィールドを空白のままにしておき、**[ExpressRoute]** も **[WAN に接続済み]** のオプションも選択しないでください。
+7. **[レポート]** タブで、**[レポートの開始]** を選択します。
+8. [レポート名 **] と**[ネットワークユーザー数 **]** **(Office** と [リモート] ) を入力し、[レポートの生成] を選択して、Teams の帯域幅要件を示すレポートを作成します。  次のセクションでレポートを読む方法について説明します。
 
-    ![ネットワーク プランナーのメイン画面。](../media/network-planner-main.png)
-1. ネットワーク プランの名前を選択します。 (これは、前の図では **[メイン オフィス]** です。)
-2. 次のページで、**[ネットワーク サイト]** タブで **[ネットワーク サイトを追加]** を選択します。
-3. 次のスクリーンショットに示されているフィールドにのみ入力し、**[保存]** を選択します。 この画面上の他のフィールドを空白のままにしておき、**[ExpressRoute]** も **[WAN に接続済み]** のオプションも選択しないでください。
+### <a name="find-your-minimum-internet-connection-speed"></a>インターネット接続の最小速度を確認する
 
-    ![ネットワーク プランナー サイトに関する情報。](../media/network-planner-site-info.png)
-1. **[レポート]** タブで、**[レポートの開始]** を選択します。
-1. 次の情報を入力してから **[レポートの生成]** を選択し、Teams の帯域幅要件を示すレポートを作成します。 次のセクションでは、レポートを読み込む方法について説明します。
+[レポートの生成 **] を** 選択すると、Microsoft 365またはOffice 365レポートが作成されます。
 
-    ![ネットワーク プランナー レポートに関する情報。](../media/network-planner-report-info.png)
+[**影響]** 列と **[Office 365]** 行に、使用するインターネット接続のTeamsとTeams 電話が表示されます。 この数は、インターネット接続の合計速度の 30% 以下にすることをお勧めします。 たとえば、インターネット接続が *60 Mbps* の場合、Teams Teams 電話 *18 Mbps 以下を使用する必要があります*。
 
-### <a name="find-your-minimum-internet-connection-speed"></a>インターネット接続の最低速度を確認する
+この数式を使用して、インターネット接続の最小速度を決定します。<影響> */ 0.3。*  
 
-**[レポートの生成]** を選択すると、Microsoft 365 または Office 365 で次のようなレポートが作成されます。
+影響の数が *4.6875 Mbps とします*。 インターネット接続の最小速度を確認する計算は *、4.6875 / 0.3 = 15.6 です*。 この場合、インターネット接続速度は *15.6 Mbps 以上である必要があります*。
 
-![ネットワーク プランナー レポートの詳細。](../media/network-planner-report.png)
-
-強調表示された数値は、Teams と Business Voice で使用するインターネット接続の量を示しています。 この数値が、インターネット接続の合計速度の 30% を超えないようにすることをお勧めします。 たとえば、インターネット接続が 60 Mbps の場合、Teams や Business Voice は 18 Mbps 未満を使用する必要があります。
-
-この式を使用して、インターネット接続の最小速度を決定します: *\<highlighted number> / 0.3*。 前の図で強調表示されている数値を使用すると計算は、*4.6875 / 0.3 = 15.6* になります。 この場合、インターネット接続速度は、15.6 Mbps 以上にする必要があります。
-
-Teams と Business Voice での使用量がインターネット接続の合計速度の 30% を超える場合、強調表示された数値が赤色で表示されます。 この場合、インターネット接続をアップグレードする必要がある場合があります。
+すべてのTeams、Teams 電話の合計インターネット接続速度の 30% を超える値を使用すると、[影響] の **数が赤** で表示されます。 その場合は、インターネット接続のアップグレードが必要な場合があります。
 
 ![接続速度の警告。](../media/network-planner-report-speed-warning.png)
 
+>[!NOTE]
+> Network Planner によって提供される帯域幅への影響は見積もりのみです。 通話品質ダッシュボード[を使用して](../cqd-what-is-call-quality-dashboard.md)、組織内の音声通話とビデオ通話のユーザー エクスペリエンスをMicrosoft Teamsをお勧めします。
+
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>ネットワーク上のコンピューターとデバイスが Microsoft 365 に到達できることを確認する
 
-Business Voice を使用するコンピューターやデバイスは、特定のネットワーク ポートを使用して Microsoft 365 サーバーと通信する必要があります。 これらのポートは実質的に、ネットワークやインターネット経由でデバイスが相互に通信するための出入口です。 ファイアウォールでは、次の *送信* ネットワーク ポートを使用して、ネットワーク上のデバイスが Microsoft 365 に到達できるようにする必要があります。
+デバイスを使用するコンピューター Teams 電話、特定のネットワーク ポートを使用して、特定のネットワーク Microsoft 365必要があります。 これらのポートは、基本的に、ネットワークまたはインターネット経由でデバイスが互いに通信するドアです。 ファイアウォールでは、次の *送信* ネットワーク ポートを使用して、ネットワーク上のデバイスが Microsoft 365 に到達できるようにする必要があります。
 
 * **TCP ポート** 80 と 443
 * **UDP ポート** 3478、3479、3480、3481
 
-お使いのファイアウォールでこれらのネットワーク ポート上の通信が許可されているかどうかを確認する一番簡単な方法は、Teams でテスト通話を行うことです。
-
-1. ネットワーク上のコンピューターで https://aka.ms/getteams に移動して、Teams をインストールします。 コンピューターにスピーカーとマイクがあることを確認します。
-2. Teams を開いて、Microsoft 365 アカウントを使用してサインインします。
-3. Teams で、プロファイルの画像を選択してから、**[設定]**  >  **[デバイス]** の順に移動します。
-4. **[オーディオ デバイス]** で、**[テスト通話]** を選択します。
-5. 手順に従ってメッセージを残し、メッセージを再生します。
-
-   * 電話が繋がり、メッセージが聞こえたら、ファイアウォールは正しく設定されています。
-   * 電話は繋がるものの、指示が聞こえない場合またはメッセージが再生されない場合は、コンピューターによってスピーカーとマイクが正しく設定されていることを確認し、もう一度お試しください。
-   * 電話が繋がらない場合、または繋がるもののメッセージが聞こえない場合は、ファイアウォールを更新して、必要なネットワーク ポートへのアクセスを許可する必要がある場合があります。ファイアウォールのドキュメントを確認するか、IT 専門家にお問い合わせください。
-
- IT プロフェッショナルで、Business Voice をサポートするためにより大きくて複雑なネットワークを準備する方法の詳細が必要な場合は、「[環境を評価する](../3-envision-evaluate-my-environment.md)」をご参照ください。 この記事では、帯域幅、プロキシ、ファイアウォールの要件に関する詳細と、[Network Assessment Tool](../3-envision-evaluate-my-environment.md#test-the-network) を使用してネットワークをテストする方法について説明します。
-
+ファイアウォールがこれらのネットワーク ポートで通信を許可するかどうかを確認する最も簡単な方法は、テストするオフィスの場所から[Microsoft 365](/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool)ネットワーク接続ツールを使用して接続テストを実行する方法です。 テストを完了した後、結果と推奨事項を確認します。

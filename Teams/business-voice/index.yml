@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 Business Voiceドキュメント
-summary: 組織で Microsoft 365 企業向け音声を計画、セットアップ、使用する方法について説明します。 企業向け音声により、中小規模の組織では、社内ソリューションの費用負担と複雑性なく、パワフルで柔軟性の高い電話システムを簡単にセットアップすることができます。
+title: Microsoft 365 Teams 電話プラン バンドルに関するドキュメントの概要
+summary: 組織の通話プラン バンドルを使用して、Microsoft 365 Teams 電話を計画、設定、および使用する方法について学習します。 通話Teams 電話バンドルを使用すると、中小企業は、企業内ソリューションの費用と複雑さを必要とせずに、強力で柔軟な電話システムを簡単にセットアップできます。
 metadata:
-  title: Microsoft 365 Business Voiceドキュメント
-  description: Microsoft 365 企業向け音声を計画、展開、使用する方法について説明します。
+  title: Microsoft 365 Teams 電話プラン バンドルに関するドキュメントの概要
+  description: 通話プラン バンドルを使用して、Microsoft 365 Teams 電話、デプロイ、および使用する方法について学習します。
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
@@ -14,22 +14,22 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
       links:
         - url: whats-business-voice.md
-          text: 企業向け音声とは
+          text: Teams 電話中小規模企業向け通話プランガイダンスの概要
         - url: 'https://www.microsoft.com/microsoft-365/business-voice'
-          text: Microsoft 365 Business Voice
-        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-          text: サービスの説明
+          text: Microsoft 365 Teams 電話プラン バンドルの使用
+        - url: /office365/servicedescriptions/teams-service-description
+          text: Teams サービスの説明
     - title: セットアップ
       imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
       links:
-        - url: ./what-to-buy.md
-          text: 企業向け音声を取得する方法
+        - url: ./whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business
+          text: 通話プラン バンドルでTeams 電話を取得する方法
         - url: get-ready-internet.md
           text: インターネット接続を確認する
         - url: prepare-users.md
           text: ユーザーの準備を行う
         - url: set-up-overview.md
-          text: Business Voice を設定する
+          text: 通話プランTeams 電話を設定する
     - title: 設定をカスタマイズする
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
       links:
@@ -57,10 +57,8 @@ productDirectory:
       links:
         - url: /partner-center/
           text: パートナー センターから Microsoft 365 Business を取得する
-        - url: 'https://www.microsoft.com/microsoft-365/partners/businessvoice'
-          text: パートナー用の Microsoft 365 企業向け音声
-        - url: partner-resources.md
-          text: Microsoft 365 企業向け音声のパートナーのサポート リソース
+        - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
+          text: Microsoft 365 Teams 電話プラン バンドル パートナー プレイブックを使用した通話プランの作成
     - title: サポートが必要な場合
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
       links:

@@ -21,12 +21,12 @@ description: Teams または IT 管理者は、他のドメインの外部アク
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 5a52e479b7dd813af786c33e494675fe7b8e9743
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563564"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766610"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Microsoft Teams での外部アクセスの管理
 
@@ -181,7 +181,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 ユーザー リストをコンパイルする方法の追加の例については、[New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) を参照してください。
 
-`Get-CsExternalAccessPolicy -Include All` を実行すると、新しいポリシーを確認できます。
+`Get-CsExternalAccessPolicy` を実行すると、新しいポリシーを確認できます。
 
 
 [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) および [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) も参照してください。

@@ -1,5 +1,5 @@
 ---
-title: ライセンスのMicrosoft 365 Business Voice割り当て
+title: 通話プランライセンスMicrosoft 365 Teams 電話を割り当てる
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -14,27 +14,23 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: ユーザーにライセンスを割りMicrosoft 365 Business Voiceする方法について学習する
+description: 通話プランバンドル ライセンスを持つMicrosoft 365 Teams 電話をユーザーに割り当てる方法について学習します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 879862446aef2f5d7a2b8dd1a6515c80a1d6b741
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e26d8ce219d697791c220d9c76afb46df411c3e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635821"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766330"
 ---
-# <a name="step-3-assign-business-voice-licenses"></a>手順 3: Business Voice ライセンスを割り当てる
+# <a name="step-3-assign-the-teams-phone-with-calling-plan-bundle-licenses"></a>手順 3: 通話プラン バンドル ライセンスTeams 電話を割り当てる
 
-アカウントを使用する必要がある各Microsoft 365 Business Voice Business Voice のライセンスを割り当てる必要があります。
+通話プランで通話プランを使用するMicrosoft 365 Teams 電話ユーザーには、通話プラン バンドルを使用するユーザーのライセンスTeams 電話割り当てる必要があります。
 
-次のビデオでは、次のビデオでこれらの手順を完了する方法Microsoft 365 管理センター。
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENAx]
-
-1. [Microsoft 365 管理センターを開き、グローバル管理者であるユーザー (通常は、アカウントのサインアップに使用したアカウント) でログインMicrosoft 365。
+1. [アカウントMicrosoft 365 管理センター開き、グローバル管理者であるユーザーでログインします。これは通常、アカウントのサインアップに使用したアカウントMicrosoft 365。
 1. 左側のナビゲーション ウィンドウで、[課金ライセンス] に <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**移動**  >  **します**</a>。
-1. [Microsoft 365 Business Voice]**を選択します**。
+1. [通話 **Microsoft 365 Teams 電話 を選択します**。
 1. 製品の詳細ページで、[ライセンスの割り当て] **を選択します**。
 1. [ユーザー **にライセンスを割り** 当てる] ウィンドウで、名前の入力を開始し、結果から選択して一覧に追加します。 最大 20 人のユーザーを同時に追加できます。
 1. 完了したら、[**割り当て**] を選択し、[**閉じる**] を選択します。

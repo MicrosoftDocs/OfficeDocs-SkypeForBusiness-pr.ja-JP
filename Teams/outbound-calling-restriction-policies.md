@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理者は、ユーザーが行える電話会議とエンドユーザー PSTN 通話の種類を制御できます。
-ms.openlocfilehash: 43fda0e088cc0b7c29bd270d20f0701f0391f8ce
-ms.sourcegitcommit: 47f537a81659ec5ecb7dfdb57589fa133199ec57
+ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61066548"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766240"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -79,6 +79,12 @@ Grant-CsDialoutPolicy -PolicyName <policy name>  -Global
 ```
 
 ダイヤルアウト ポリシーが割り当てられていないテナントのすべてのユーザーに、このポリシーが適用されます。 他のユーザーは、現在のポリシーのままです。
+
+**次のコマンドレットを使用して、テナント レベルで現在のポリシーを確認します**。
+
+```powershell
+Get-CSOnlineDialOutPolicy -Identity Global
+```
 
 次の表は、各ポリシーの概要を示しています。
 
