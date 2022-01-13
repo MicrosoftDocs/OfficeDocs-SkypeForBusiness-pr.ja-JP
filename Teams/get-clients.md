@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams のクライアントを取得する
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,30 +12,26 @@ ms.collection:
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: high
 search.appverid: MET150
-description: Microsoft Teams で利用できる Web、デスクトップ (Windows、Mac)、およびモバイル (Android、iOS) などのさまざまなクライアントを使用する方法を知る。
+description: Microsoft Teams で利用可能なさまざまなクライアントを PC、Mac、およびモバイル デバイスにインストールする方法について説明します。
 f1.keywords:
 - CSH
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c47285a8a759ccdade5fc6e95b90d75ede77bfc3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 31bafc1c112d8b50990cc6e92c863c7e242aa5fb
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014691"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993011"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Microsoft Teams のクライアントを取得する
 
-Microsoft Teams には、Web、デスクトップ (Windows、Mac、Linux) およびモバイル (Android、iOS) で利用できるクライアントがあります。これらのクライアントはすべてインターネット接続が必要で、オフライン モードをサポートしていません。
+> [!TIP]
+> **PC、Mac、またはモバイル デバイスに Teams をインストールしますか?** 「[Teams クライアントのインストール](https://www.microsoft.com/microsoft-teams/download-app)」を確認してください。
 
-> [!NOTE]
-> 別のプラットフォームでの機能についての詳細は、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
->
-> 2018 年 11 月 29 日付で、Microsoft Store から入手可能な Microsoft Teams の Windows 10 S (プレビュー) アプリが使用できなくなります。 代わりに、Windows 10 S モードを実行しているデバイスに、Teams デスクトップ クライアントをダウンロードしてインストールできるようになりました。 デスクトップ クライアントをダウンロードするには、[https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=855754) にアクセスしてください。 Teams デスクトップ クライアントの MSI ビルドは、Windows 10 S モードを実行しているデバイスではまだ利用できません。
->
-> Windows 10 S モードの詳細については、「[Windows 10 (S モード) について](https://www.microsoft.com/windows/s-mode)」を参照してください。
+この記事では、企業内のデバイスに Microsoft Teams をインストールする方法について説明します。
+
+さまざまなプラットフォームでの各クライアントの機能の詳細については、「[プラットフォームごとの Teams の機能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)」を参照してください。
 
 ## <a name="desktop-client"></a>デスクトップ クライアント
 

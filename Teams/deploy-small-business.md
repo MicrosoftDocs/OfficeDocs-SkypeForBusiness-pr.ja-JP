@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a7e15a8a327d40ea11412229205fca6e856e9f7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596321"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767150"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>小規模ビジネスで Microsoft Teams を設定する
 
-Teams をカスタマイズする方法はたくさんあります。 以下のセクションでは、**チャット、チーム、チャネル**、**ミーティングと会議**、および **クラウド ボイス** に関する Teams の各ワークロードを設定する方法を説明します。 各ワークロードを設定する順序に決まりはありません。 最初にチャット、チーム、チャネルのワークロードを設定することをお勧めしますが、ミーティングと会議から始めることも、クラウド ボイスから始めることもできます。 選択は自由です。
+Teams をカスタマイズする方法はたくさんあります。 以下のセクションでは、**チャット、チーム、チャネル**、**ミーティングと会議**、および **音声ソリューション** に関する Teams の各ワークロードを設定する方法を説明します。 各ワークロードを設定する順序に決まりはありません。 最初にチャット、チーム、チャネルのワークロードを設定することをお勧めしますが、ミーティングと会議から始めることも、クラウド ボイスから始めることもできます。 選択は自由です。
 
 > [!NOTE]
 > まだ行っていない場合は、パイロットから Teams の展開を開始することを強くお勧めします。 パイロットにより、計画と最終的な展開の前に、あなたや早期採用者が Teams とその機能に精通することができます。 パイロットを開始する方法の詳細については、「[Microsoft Teams を開始する](get-started-with-teams-quick-start.md)」を参照してください。
@@ -39,7 +39,7 @@ Teams を広く展開する前に、[[準備ができていることを確認し
 - [ワークロード](#workloads)
   - [チャット、チーム、チャネル](#chat-teams-and-channels)
   - [ミーティングと会議](#meetings-and-conferencing)
-  - [Business Voice](#business-voice)
+  - [通話プランが設定された Teams 電話](#teams-phone-with-calling-plan)
 - [クライアントの展開](#deploy-clients)
 - [トレーニング](#training)
 
@@ -57,7 +57,7 @@ Teams を広く展開する前に、[[準備ができていることを確認し
 |--|--|
 | [Teams 管理者は誰にすればよいですか?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-administrators) | 管理者の役割を使用して、Teams を管理するユーザーに特定のアクセス許可を付与できます。 小規模ビジネスの場合は、1 人のユーザーが Teams のすべての側面を担当している場合があるため、これらの追加の役割を割り当てる必要がないかもしれません。 管理者は後からいつでも追加または削除できます。<br><br>[Microsoft Teams の管理者ロールを使用して Teams を管理する](using-admin-roles.md) |
 | [Teams の所有者やメンバーの役割は、誰に割り当てればよいですか?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#teams-owners-and-members) | Teams の所有者は、チームとそのチャネルにアクセスできるユーザーを制御します。 所有者は、チームまたはチャネルを (組織に対して) パブリックにするかプライベートにするかを決定し、チャネルをモデレートする必要があるかどうかなどのポリシーを設定できます。 メンバーは、チームとそのチャネルにアクセスでき (チャネルがプライベートに設定されていて、そのチャネルのメンバーでない場合を除きます)、また、モデレーターとして指名を受けることができます。<br><br>[Microsoft Teams でチーム所有者とメンバーを割り当てる](assign-roles-permissions.md) |
-| [ゲスト アクセスは有効にする必要がありますか?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |ゲスト アクセスを使用すると、組織内の人々が組織外の人々をチームやチャネルに招待できます。 ゲスト アクセスは多くの場合、組織との間に雇用関係などの正式な関係を持たない組織外のユーザーとコラボレーションするために使用されます。 たとえば、プロジェクト プランナーを招待して、プロジェクトに一時的に参加してもらうことができます。<br>ゲスト アクセスは外部アクセスとは異なります。 ゲスト アクセスは、特定の個人が招待してアクセス権を付与することで、組織内のユーザーとやり取りできるようにします。  <br>ゲスト アクセスは、既定で **オフ** になっています。 <br><br>[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)  |
+| [ゲスト アクセスは有効にする必要がありますか?](deploy-chat-teams-channels-microsoft-teams-landing-page.md#guest-access) |ゲスト アクセスを使用すると、組織内の人々が組織外の人々をチームやチャネルに招待できます。 ゲスト アクセスは多くの場合、組織との間に雇用関係などの正式な関係を持たない組織外のユーザーとコラボレーションするために使用されます。 たとえば、プロジェクト プランナーを招待して、プロジェクトに一時的に参加してもらうことができます。<br>ゲスト アクセスは外部アクセスとは異なります。 ゲスト アクセスは、特定の個人のアクセスを招待して、組織内の人々と対話します。  <br>ゲスト アクセスは、既定で **オフ** になっています。 <br><br>[Microsoft Teams へのゲスト アクセスをオンまたはオフにする](set-up-guests.md)  |
 
 上記以外に、ユーザーがチャット、チーム、およびチャネルの使用を開始できるようにするために管理者が行う必要がある操作はありません。 ただし、Teams の利用方法を管理するためのさまざまなオプションがあります。 今すぐ変更することも、Teams の実際の利用状況を確認してから変更することもできます。 詳細については、次の記事を参照してください。
 
@@ -78,15 +78,11 @@ Teams では既定で会議が有効になっていますが、主催者と参�
 - [管理者向けクイック スタート - Microsoft Teams での会議とライブ イベント](quick-start-meetings-live-events.md)
 - [中小企業向けに音声会議を設定する](audio-conferencing-smb.md)
 
-### <a name="business-voice"></a>Business Voice
+### <a name="teams-phone-with-calling-plan"></a>通話プランが設定された Teams 電話
 
-[Microsoft 365 Business Voice](business-voice/whats-business-voice.md) は、オフィスの電話システムのすべての機能を提供する、ユーザー数が 300 人未満の企業に適したソリューションです。 Business Voice には、ボイスメール、発信者 ID、電話システム メニュー、フリーダイヤル番号などが含まれ、複雑でコストのかかるオンプレミスの電話システムを管理する必要はありません。
+通話プランが設定された Microsoft 365 Teams 電話は、オフィスの電話システムのすべての機能を提供する、ユーザー数が 300 人未満の企業に適したソリューションです。 Teams 電話には、ボイスメール、発信者 ID、電話システム メニュー、フリーダイヤル番号などが含まれ、複雑でコストのかかるオンプレミスの電話システムを管理する必要はありません。
 
-Microsoft 365 Phone System に基づく Business Voice は、電話システムの機能とアドオンをバンドルし、電話システムの設定に役立つわかりやすいウィザードを提供することで、通話機能を組織に追加する作業を簡素化します。 [Business Voice がサポートされている国または地域](business-voice/country-region-availability.md)にある組織の場合は、組織の電話番号を Microsoft 365 に移転して、Microsoft 365 を使用して電話システムを管理することができます。
-
-電話システムとして Microsoft 365 を使用すると、Teams クライアントをインストールすることで、すべてのデバイスを電話に変えることができます。 また、従来の卓上電話や会議用電話を使用することを希望する場合は、さまざまな Teams 認定デバイスの中から選ぶことができます。 いずれの場合も、常に通話はユーザーがいる場所にルーティングされ、発信する通話の発信元は常に勤務先電話番号となります。
-
-Business Voice を試してみたい場合は、「[Microsoft 365 Business Voice を使用するために購入する必要があるもの](business-voice/what-to-buy.md)」確認してください。
+中小企業向けの通話プランが設定された Teams 電話の詳細については、「[中小企業向け Microsoft Teams 電話ガイダンス](/microsoftteams/business-voice/whats-business-voice)」を参照してください。
 
 ## <a name="deploy-clients"></a>クライアントの展開
 
