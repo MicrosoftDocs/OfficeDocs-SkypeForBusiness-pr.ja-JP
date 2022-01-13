@@ -15,52 +15,46 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms を展開するためのインフラストラクチャを準備して、すべての機能を利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5003bbb3554436ca388990aeebfec4ce6dfb9f57
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b92325fe9c7c43497fd9647306cfb6b218f5fde0
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577961"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015037"
 ---
 # <a name="prepare-your-environment"></a>環境を準備する
 
 このセクションでは、Microsoft Teams Rooms の全機能を使用できるように環境を準備するために必要な手順の概要を説明します。
   
-1. Microsoft Teams Rooms の各コンソールにデバイス アカウントを準備します。 詳細については、「[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)」を参照してください。
+1. 各会議室コンソールのリソース アカウントMicrosoft Teams準備します。 詳細については、「[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)」を参照してください。
     
-2. デバイスが使用できるように動作するネットワークまたはインターネット接続があることを確認します。 
-    
-   DHCP を使用して IP アドレスを受信できる必要があります。 (Microsoft Teamsユニットの起動時に会議室を静的 IP アドレスで構成することはできませんが、その後、デバイスまたはアップストリーム スイッチまたはルーターでデバイスの静的 IP アドレスを構成できます)。
-
-   次のポートが開かれている必要があります (メディアの通常のポートも開かれている必要があります)。
-   - HTTPS: 443
-   - HTTP:80
-
-   プロキシを介してネットワークが動作している場合は、プロキシのアドレスまたはスクリプトの情報も必要です。
-    
-   > [!IMPORTANT]
-   > Microsoft Teams Rooms は、会議室の通常の操作を妨害する可能性があるため、プロキシ認証をサポートしていません。 運用環境に移行する前に、Microsoft Teams Rooms がプロキシ認証から除外されていることを確認してください。
+2. デバイスが使用できるように動作するネットワークまたはインターネット接続があることを確認します。
   
 3. エクスペリエンスを向上させるために、Microsoft ではデータを収集します。 Microsoft にデータの収集を許可するには、次のサイトを許可します。
 
    - テレメトリ クライアント エンドポイント: https://vortex.data.microsoft.com/
    - テレメトリ設定エンドポイント: https://settings.data.microsoft.com/
     
-### <a name="create-and-test-a-device-account"></a>デバイス アカウントを作成してテストする
+### <a name="create-and-test-a-resource-account"></a>リソース アカウントを作成してテストする
 
-*デバイス アカウント* は、Microsoft Teams Rooms クライアントが、予定表などの Exchange の機能にアクセスし、Skype for Business を有効にするために使用するアカウントです。 詳細については、「[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)」を参照してください。
+リソース *アカウント* は、Microsoft Teams Rooms クライアントが予定表など、Exchange から機能にアクセスし、Microsoft Teams に接続するために使用するアカウントです。 詳細については、「[Microsoft Teams Rooms をデプロイする](rooms-deploy.md)」を参照してください。
   
 ### <a name="check-network-availability"></a>ネットワークの可用性を確認する
 
-適切に機能するために、Microsoft Teams Rooms デバイスには、以下の要件を満たす有線ネットワークにアクセスする必要があります。
+適切に機能するには、Microsoft Teamsこれらの要件を満たす有線ネットワークにアクセスできる必要があります。
   
-- Active Directory または Azure Active Directory (Azure AD) インスタンスと、Microsoft Exchange および Skype for Business Server へのアクセス。
+- Active Directory または Azure Active Directory (Azure AD) インスタンス、および Microsoft Exchange および Microsoft Teams へのアクセス。
 
 - DHCP を使用して IP アドレスを提供することができるサーバーへのアクセス。 最初のユニットの起動時に、静的 IP アドレスを使用して Microsoft Teams Rooms を構成することはできません。
 
 - HTTP ポート 80 および 443 にアクセスします。
 
-- オンプレミスの Skype for Business Server の実装については「[サーバーのポートとプロトコルの要件](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)」、または Microsoft Teams や Skype for Business Online の実装については「[Microsoft 365 および Office 365 の URL と IP アドレスの範囲](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)」の説明に従って構成された TCP および UDP ポート。
+- 「オンプレミスの Skype for Business Server 実装用[](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)のサーバーのポートとプロトコルの要件」、または Microsoft Teams の Microsoft 365 と Office 365 の URL と[IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)アドレス範囲に関するページの説明に従って構成された TCP ポートと UDP ポート。
+
+プロキシを介してネットワークが動作している場合は、プロキシのアドレスまたはスクリプトの情報も必要です。
+    
+> [!IMPORTANT]
+> Microsoft Teams Rooms は、会議室の通常の操作を妨害する可能性があるため、プロキシ認証をサポートしていません。 運用環境に移行する前に、Microsoft Teams Rooms がプロキシ認証から除外されていることを確認してください。
 
 > [!IMPORTANT]
 > 有線の 1 Gbps ネットワーク接続を使用して、必要な帯域幅を確保してください。
@@ -70,7 +64,7 @@ ms.locfileid: "58577961"
   
 ### <a name="certificates"></a>証明書
 
-Microsoft Teams Rooms のデバイスでは、Exchange Web サービス、Microsoft Teams、Skype for Business、ネットワークの使用量および認証に証明書を使用します。 関連のあるサーバーがパブリック証明書を使用していて、これがオンラインおよびオンプレミスのデプロイの場合、管理者が証明書をインストールするために必要な操作はありません。 一方、証明機関がプライベート CA (オンプレミスのデプロイでは一般的) の場合、デバイスはこの CA を信頼する必要があります。これは、デバイスに CA と CA チェーン証明書がインストールされていることを意味します。 デバイスをドメインに追加すると、このタスクが自動的に実行される場合があります。
+Microsoft Teams Rooms のデバイスでは、Exchange Web サービス、Microsoft Teams、Skype for Business、ネットワークの使用量および認証に証明書を使用します。 関連するサーバーがパブリック証明書を使用している場合 (オンラインおよび一部のオンプレミスデプロイの場合)、管理者が証明書をインストールするために追加のアクションを必要としません。 一方、証明機関がプライベート CA である場合、デバイスはその CA を信頼する必要があります。 これは、CA + CA チェーン証明書がデバイスにインストールされていることを意味します。 デバイスをドメインに追加すると、このタスクが自動的に実行される場合があります。
   
 他の Windows クライアントの場合と同じ方法で、証明書をインストールします。 
   
@@ -117,16 +111,11 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
     
 11. サインイン画面に戻り、**Skype** ユーザーを選択します。 上記のすべての手順を正常に完了した場合は、Microsoft Teams Rooms デバイスのサインインに成功します。
     
-会議室に[必要な](./security.md#network-security)FQDN、ポート、IP アドレス範囲の詳細については、ネットワーク セキュリティに関する記事Microsoft Teamsしてください。
-  
-  
-### <a name="create-provisioning-packages"></a>プロビジョニング パッケージを作成する
-
-プロビジョニング パッケージは、Exchange Server、Microsoft 365、または Office 365 の認証に使用します。
+会議室に[必要](./security.md#network-security)な FQDN、ポート、IP アドレス範囲の詳細については、ネットワーク セキュリティに関する記事Microsoft Teamsしてください。
   
 ### <a name="admin-group-management"></a>管理グループの管理
 
-ドメインの参加後、ドメイン内の Widonws PC の場合と同じ方法で、グループ ポリシーまたはローカルのコンピュータの管理を使用して、ローカル管理者としてセキュリティ グループを設定できます。 そのセキュリティ グループのどのメンバーでも、各自の資格情報を入力して設定をロック解除することができます。
+ドメイン (Azure Active Directory または Active Directory) に参加する場合は、ドメイン内の Windows PC の場合と同様に、Microsoft エンドポイント マネージャー、グループ ポリシー、またはローカル コンピューター管理を使用して、セキュリティ グループをローカル管理者として設定できます。 そのセキュリティ グループのどのメンバーでも、各自の資格情報を入力して設定をロック解除することができます。
   
 > [!NOTE]
 > Microsoft Teams Rooms デバイスがドメインとの信頼関係を失った場合 (たとえば、Microsoft Teams Rooms をドメインに参加させた後にドメインから削除した場合)、デバイスを認証して設定を開くことはできません。 回避策では、ローカルの管理者アカウントでログインします。 
@@ -135,24 +124,24 @@ Microsoft Teams Rooms は、Windows OS からプロキシ設定を継承する�
 
 ### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams Rooms のローカル ユーザー アカウント
 
-通常、デバイス アカウントではパスワードを使用しません。 パスワードを指定することは可能ですが、パスワードが期限切れとなった場合にユーザーがコンソール アプリケーションケーションからロックアウトされる可能性などの因果関係があります。 その結果として、管理者は、パスワードが期限切れにならないようにする必要があります。
+Teams Rooms には、"Skype" という名前のパスワードのないローカル アカウントが含まれています。 このアカウントは、Windows Rooms アプリを起動するためにTeams使用されます。 このアカウントにパスワードを適用することはできません。 詳細[についてはMicrosoft Teams会議室のセキュリティに関](security.md)するページを参照してください。
   
 ### <a name="admin---local-administrator-account"></a>"Admin" - ローカル管理者アカウント
 
-Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます。 パスワードは、[Windows の設定] \>[Windows に移動] の順に移動してローカルで変更するか、AutoUnattend.xml ファイルで変更することができます (ADK からの Windows システム イメージ マネージャーを使用して xml ファイルを変更します)。
+Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます。 パスワードは、管理者モードまたは AutoUnattend.xml ファイルでローカルに変更できます (ADK の Windows システム イメージ マネージャーを使用して xml ファイルを変更します)。
   
 > [!CAUTION]
 > できるだけ早く Microsoft Teams Rooms のパスワードを変更してください。 
   
-ドメイン管理者をローカル管理者として設定したグループ ポリシーを設定することで、ローカル管理者のパスワードを管理することもできます。
-  
 ローカル管理者パスワードは設定時の選択肢として含まれません。
+
+管理者アカウントの詳細については、「Microsoft Teams Rooms [Security」を参照](security.md)してください。
   
 ### <a name="machine-account"></a>コンピューター アカウント
 
-他のデバイスとWindows、コンピューター名の名前を変更するには、[PC 名の変更について]をクリック設定 \> **クリック** \> **します**。
+他のデバイスと同様Windows名を変更するには、[PC 名の変更について] を右 **クリック** 設定 \> **を** \> **クリックします**。
   
-ドメインに参加した後にコンピューターの名前を変更する場合は **、Rename-Computer** を使用し、PowerShell コマンドに続いてコンピューターの新しい名前を入力します。
+ドメインに参加した後にコンピューターの名前を変更する場合は [、Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)を使用し、PowerShell コマンドに続いてコンピューターの新しい名前を入力します。
   
 ## <a name="related-topics"></a>関連項目
 
@@ -164,6 +153,6 @@ Microsoft Teams Rooms の既定のパスワードは "sfb" に設定されます
   
 [Microsoft Teams Rooms コンソールを構成する](console.md)
   
-[Microsoft Teams Rooms の管理](rooms-manage.md)
+[Microsoft Teams Rooms を管理する](rooms-manage.md)
 
 [ビジネスおよび教育機関向け Microsoft Store の前提条件](/microsoft-store/prerequisites-microsoft-store-for-business)

@@ -16,18 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: カスタム テーマの適用やマスター設定ファイルの作成など、Microsoft Teams Rooms デバイスで使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: bb21a74d3cde9588b08b5513e8f70e467bf1e13f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57702fb995c05766bf8a65f17b2c56356d267924
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577951"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015057"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams Rooms のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
-この記事では、カスタム テーマの適用など、 Microsoft Teams Rooms デバイスによって使用される既定の設定のリモート管理について説明します。 マスター設定ファイルの作成方法を説明するともに、リモート管理されたデバイス上にそれらを配置する方法を説明するリンクを示します。
+この記事では、カスタム テーマの適用など、 Microsoft Teams Rooms デバイスによって使用される既定の設定のリモート管理について説明します。 マスター設定ファイルを作成する方法と、必要に応じてマスター設定ファイルを会議室に配置する方法についてのTeams説明します。
   
-マスター XML ファイルを更新し、管理コンソールにコピーを送信することで、リモート管理されているデバイスの既定の設定を変更できます。 XML 構成ファイルを使用して、Microsoft Teams Rooms のコンソールでカスタム テーマを実装することもできます。
+マスター XML ファイルを更新し、リモート Teams Rooms デバイスにコピーを送信することで、Teams Rooms の既定の設定を変更できます。
   
 ## <a name="create-an-xml-configuration-file"></a>XML 構成ファイルを作成する
 
@@ -123,8 +123,8 @@ ms.locfileid: "58577951"
 | \<AutoExitMeetingEnabled>                   | ブール値 &#x2777;            | First &#x2776; | true の場合、デバイスは会議に最後に残っている参加者である場合、会議から自動的に退出します。  既定では無効になっています。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | \<DualScreenMode\>                          | ブール値 &#x2777;            | First &#x2776; | true の場合、2 画面表示モードが有効になります。 それ以外の場合、デバイスでは 1 画面表示モードが使用されます。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DuplicateIngestDefault\>                  | ブール値 &#x2777;            | First &#x2776; | True の場合、会議を終了しているときに、2 画面表示モードで両方の画面にコンテンツが表示されます。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| \<DisableTeamsAudioSharing\>                | ブール値 &#x2777;            | First &#x2776; | [true] に設定すると、会議中の会議の参加者に対する HDMI オーディオ共有Teams無効になります。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| \<CortanaWakewordEnabled\>                  | ブール値 &#x2777;            | First &#x2776; | "Hey Cortana" というウェイク ワードを有効にするには、true にCortana。 この設定は、お客様の国または地域で Cortana サービスがサポートされ、接続されているオーディオ周辺機器がサポートしている場合をCortana。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| \<DisableTeamsAudioSharing\>                | ブール値 &#x2777;            | First &#x2776; | 会議中に会議の参加者に対する HDMI オーディオ共有を無効にするには、true Teamsします。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| \<CortanaWakewordEnabled\>                  | ブール値 &#x2777;            | First &#x2776; | "Hey Cortana" というウェイク ワードを有効にするには、true に設定Cortana。 この設定は、お客様の国または地域で Cortana サービスがサポートされ、接続されているオーディオ周辺機器がサポートしている場合をCortana。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | コンテナー                   | First &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | 文字列  &#x2778;            |                | [フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションのメールアドレスを設定します。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | \<SendLogsAndFeedback\>                     | ブール値 &#x2777;            |                | True の場合、ログは管理者に送信されます。False の場合は、フィードバックのみが管理者に送信され、ログには送信されません。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -168,38 +168,61 @@ ms.locfileid: "58577951"
   
 ## <a name="supported-meeting-modes-app-version-49"></a>サポートされている会議モード アプリ バージョン 4.9
 
-| 設定名                                    | XML 表記                | XML 値      |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business (既定) および Microsoft Teams| \<TeamsMeetingsEnabled>     |   True         |
-|                                                 | \<SfbMeetingEnabled>        |   True         |
-|                                                 | \<IsTeamsDefaultClient>     |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business および Microsoft Teams (既定)|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<SfbMeetingEnabled>       |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |
-|:------------------------------------------------|:----------------------------|:---------------|                                                      
-| Skype for Business のみ                         |  \<TeamsMeetingsEnabled>    |   False        |
-|                                                 |  \<SfbMeetingEnabled>       |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Microsoft Teamsのみ                            |  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<SfbMeetingEnabled>       |   False        |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |                       
-|:------------------------------------------------|:----------------------------|:---------------|                                                       
-                                                                                                           
+**Skype for Business (既定) および Microsoft Teams**
+
+| XML 表記                | XML 値      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>     |   True         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   False        |
+
+**Skype for Business および Microsoft Teams (既定)**
+
+| XML 表記                | XML 値      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   True         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   True        |
+
+**Skype for Business のみ**
+
+| XML 表記                | XML 値      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   False         |
+| \<SfbMeetingEnabled>        |   True         |
+| \<IsTeamsDefaultClient>     |   False        |
+
+**Microsoft Teamsのみ**
+
+| XML 表記                | XML 値      |
+|----------------------------|---------------|
+| \<TeamsMeetingsEnabled>    |   True         |
+| \<SfbMeetingEnabled>        |   False         |
+| \<IsTeamsDefaultClient>     |   True        |
+
+
 ## <a name="supported-meeting-modes-app-version-48-or-lower"></a>サポートされている会議モード アプリ バージョン 4.8 以下
 
-| 設定名                                    | XML 表記                | XML 値      |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business (既定) および Microsoft Teams|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|
-| Skype for Business および Microsoft Teams (既定)|  \<TeamsMeetingsEnabled>    |   True         |
-|                                                 |  \<IsTeamsDefaultClient>    |   True         |
-|:------------------------------------------------|:----------------------------|:---------------|                                                      
-| Skype for Business のみ                         |  \<TeamsMeetingsEnabled>    |   False        |
-|                                                 |  \<IsTeamsDefaultClient>    |   False        |
-|:------------------------------------------------|:----------------------------|:---------------|                                                 
+**Skype for Business (既定) および Microsoft Teams**
+
+| XML 表記                | XML 値      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   True         |
+|  \<IsTeamsDefaultClient>     |   False        |
+
+**Skype for Business および Microsoft Teams (既定)**
+
+| XML 表記                | XML 値      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   True         |
+|  \<IsTeamsDefaultClient>     |   True         |
+
+**Skype for Business のみ**
+
+| XML 表記                | XML 値      |
+|----------------------------|---------------|
+|  \<TeamsMeetingsEnabled>     |   False         |
+|  \<IsTeamsDefaultClient>     |   False         |
 
 ## <a name="custom-theme-images"></a>ユーザー設定のテーマ画像
 

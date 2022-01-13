@@ -18,24 +18,26 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80aedfd0c1bb4f4a20ecdfcd977ce74d667cad43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602072"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015017"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams のトランシーバー アプリ
 
-Teams のトランシーバー アプリは、Teams にインスタント プッシュツートーク (PTT) 通信を提供し、Android で利用できるようになりました。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルでトランシーバーに接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ相互に通信できます。
+Teams の Walkie Talkie アプリは、チームにインスタント プッシュ対トーク (PTT) 通信を提供し、Android & iOS で利用できます。 トランシーバーを使用すると、ユーザーは、メンバーと同じ基本チャネルを使用してチームとつながることができます。 チャネルでトランシーバーに接続するユーザーのみが参加者になり、プッシュツートークを使用して一度に 1 つずつ相互に通信できます。
 
-Teams で Walkie Talkie を使用すると、フロントライン ワーカーは、バルクラジオを持ち歩く必要なく、使い慣れた PTT エクスペリエンスと安全に通信できます。また、Walkie Talkie は WiFi や携帯電話のインターネット接続でどこからでも動作します。
+Teams で Walkie Talkie を使用すると、フロントライン ワーカーは、バルク ラジオを持ち歩く必要なく、使い慣れた PTT エクスペリエンスと安全に通信できます。また、Walkie Talkie は WiFi や携帯電話のインターネット接続とどこでも動作します。
 
 ## <a name="getting-started"></a>はじめに
 
 ### <a name="deploying-walkie-talkie"></a>トランシーバーの展開
 
-現在、Walkie Talkie は Google Mobile Services (GMS) を搭載した Android デバイスで使用できます。また、プレインストールされていません。 組織内のユーザーに対してこの機能を有効にするには、[[Teams 管理センター]](https://admin.teams.microsoft.com/) からユーザーに割り当てられた [アプリ セットアップ ポリシー](teams-app-setup-policies.md) にトランシーバーを追加する必要があります。 有効にすると、トランシーバーは 48 時間以内に Android アプリで利用できるようになります。
+Walkie Talkie は、Google Mobile Services (GMS) および iOS デバイスを使用する Android デバイスでサポートされています。 
+
+現在、トランシーバーはプリインストールされていません。 組織内のユーザーに対してこの機能を有効にするには、[[Teams 管理センター]](https://admin.teams.microsoft.com/) からユーザーに割り当てられた [アプリ セットアップ ポリシー](teams-app-setup-policies.md) にトランシーバーを追加する必要があります。 有効にすると、Walkie Talkie は 48 時間以内にアプリで利用できます。
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>トランシーバーをアプリ リストに追加する
 
@@ -74,24 +76,23 @@ Walkie Talkie からの予想されるデータ使用量は、音声の送受信
 多くの場合、フロントラインワーカーは、携帯電話がロックされている場合でも、Walkie Talkie の通話を話して受信する必要があります。 この体験は、専用の PTT ボタンを備えた専用デバイスを介して可能です。
 
 - **ヘッドセット**
-  - ワイヤレス ヘッドセット 
+  - ワイヤレス ヘッドセット (iOS & Android)
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - 有線ヘッドセット 
+  - 有線ヘッドセット (Android のみ)
     - [クライン電子](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **頑丈な電話**
+- **堅牢な Android フォン**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/) [、Galaxy XCover 5、Galaxy](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)Tab Active [3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
-    -  手動セットアップ - インストールTeams、XCover/Active キー設定 >高度>に移動します。 [アプリで XCover キーを制御する] をオンにし、[Teams] を選択します。
-    -  [MDM のセットアップ](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-
+    - 手動セットアップ - インストールTeams、XCover/Active キー設定 >高度>に移動します。 [アプリで XCover キーを制御する] をオンにし、[Teams] を選択します。
+    - [MDM のセットアップ](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
+  - Zebra [TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html)、TC7x、TC2x、EC5x、EC30、MC3300、MC9300 [](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html) [](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+    - 手動セットアップ - 既定Teams、専用 PTT ボタン (LEFT_TRIGGER_2) が Walkie Talkie で動作します。
+    
 > [!NOTE]
 > これらのデバイスは Teams 認定を受けていません。 Teams トランシーバーで動作することが検証されています。
 
 ### <a name="license-requirements"></a>ライセンス要件
 
 トランシーバー アプリは、[Office 365 サブスクリプション](/office365/servicedescriptions/teams-service-description)の Teams のすべての有料ライセンスに含まれています。 Teams の入手方法の詳細については、「 [Microsoft Teams へのアクセス方法](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)」を参照してください。
-
-> [!NOTE]
-> 特定の高度な機能には、追加のライセンスが必要な場合があります。 たとえば、Samsung Galaxy XCover Pro との統合には Knox ライセンスが必要です。
 
 ## <a name="further-information"></a>詳細情報
 

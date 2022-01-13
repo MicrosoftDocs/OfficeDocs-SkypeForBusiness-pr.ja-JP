@@ -15,19 +15,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 展開フェーズを含む、Microsoft Teams Rooms の展開方法の詳細については、この記事を参照してください。
-ms.openlocfilehash: 6a47ebd523e7b4806b3bc28251435942e9778844
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 1f9edd4ccd2c0de00c91b99cef4f3f27b081b9ab
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306182"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015237"
 ---
 # <a name="deployment-overview"></a>展開の概要
 
 Microsoft Teams Rooms の展開は、基本的に次のフェーズに分けられます。
 
 - デプロイの場所 (スペース) がデプロイの依存関係を満たした確認
-- Microsoft Teams または Skype for Business アカウントと、Exchange アカウントを作成し、それらをコンソール デバイスに割り当てる (「[Microsoft Teams Rooms のアカウントを構成する](rooms-configure-accounts.md)」を参照してください)
+- アカウントMicrosoft TeamsまたはSkype for Business作成Exchangeし、Teams 会議室に割り当てる (「Microsoft Teams 会議室のアカウント[を構成する」を参照してください](rooms-configure-accounts.md))。
 - (省略可能)システム用に Azure Monitor を設定する[(「Azure Monitor を使用Microsoft Teams Rooms 管理をデプロイする」を参照してください。](azure-monitor-deploy.md)
 - 会議室Teamsのセットアップと必要な周辺機器の接続 (一連のデバイスの OEM ドキュメントを参照)
 
@@ -41,7 +41,7 @@ Microsoft Teams Rooms の展開は、基本的に次のフェーズに分けら�
 -   [証明書](rooms-prep.md#certificates)
 -   [プロキシ](rooms-prep.md#proxy)
 
-**Proヒント**- プロキシ サーバーを使用してプロキシ サーバーへのアクセスを提供する必要があるTeams、まずこの [記事を確認してください](../proxy-servers-for-skype-for-business-online.md)。 プロキシ サーバーを使用Microsoft Teamsリアルタイム メディア トラフィックを処理する場合は、プロキシ サーバーを完全にバイパスすることをお勧めします。 Microsoft Teamsトラフィックは既に暗号化されています。そのため、プロキシ サーバーではセキュリティが高くなされません。 広範囲の展開の一環として、「[Teams 用にネットワークを準備する](../prepare-network.md)」のガイダンスに従って、帯域幅の計画を行い、実際のトラフィックに対するネットワークの適合性を評価することをお勧めします。
+**Proヒント**- プロキシ サーバーを使用してプロキシ サーバーへのアクセスを提供する必要があるTeams、まずこの記事 [を確認してください](../proxy-servers-for-skype-for-business-online.md)。 プロキシ サーバーを使用Microsoft Teamsリアルタイム メディア トラフィックを処理する場合は、プロキシ サーバーを完全にバイパスすることをお勧めします。 Microsoft Teamsは既に暗号化されています。そのため、プロキシ サーバーはセキュリティを高めず、リアルタイム トラフィックに待機時間を追加します。 広範囲の展開の一環として、「[Teams 用にネットワークを準備する](../prepare-network.md)」のガイダンスに従って、帯域幅の計画を行い、実際のトラフィックに対するネットワークの適合性を評価することをお勧めします。
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
@@ -53,8 +53,8 @@ Microsoft Teams Rooms の展開は、基本的に次のフェーズに分けら�
 Microsoft Teams Rooms の展開を準備するには、次の主要な中心的タスクを実行します。
 
 -   Rooms リソース Microsoft Teamsを定義します。
--   会議室にTeams参加Azure Active Directory、Azure AD Rooms のすべてのリソース アカウントを保持する動的メンバーシップを持つ Teams グループを準備します。 これにより、条件付きアクセス ポリシーの適用など、将来の管理が簡略化されます。
--   Teams Room を Active Directory に参加する場合は、組織単位と Active Directory グループを準備し、Microsoft Teams Rooms のマシンアカウントとサービス アカウントを保持し、必要に応じてグループ ポリシー オブジェクト (GPO) を準備して PowerShell リモート処理を有効にします。
+-   Teams Room に参加Azure Active Directory、Azure AD Rooms のすべてのリソース アカウントを保持する動的メンバーシップを持つ Teams グループを準備します。 これにより、条件付きアクセス ポリシーの適用など、将来の管理が簡略化されます。 動的グループを最も簡単に利用Azure AD、会議室のリソース アカウントを一意に識別する名前付け規則Teams決定します。
+-   Teams Room を Active Directory に参加する場合は、組織単位と Active Directory グループを準備し、Microsoft Teams Rooms のマシンアカウントとリソース アカウントを保持し、必要に応じてグループ ポリシー オブジェクト (GPO) を準備して PowerShell リモート処理を有効にします。
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>会議室Microsoft Teamsアカウントの機能を定義する 
 
@@ -62,7 +62,7 @@ Microsoft Teams Rooms の展開で有効にしたコラボレーションシナ�
 
 | **シナリオ** | **説明** | **Microsoft Teams Rooms のサービス アカウント機能** |
 |---------- |------------- | --- |
-| 対話型の会議            | 音声、ビデオ、画面共有を使用。Microsoft Teams Rooms を予約可能なリソースにする                     | [Microsoft Teams または Skype for Business に対して有効。Exchange (リソース メールボックス) に対して有効 |
+| 対話型の会議            | 音声、ビデオ、画面共有を使用。Microsoft Teams Rooms を予約可能なリソースにする                     | [リソースMicrosoft TeamsまたはSkype for Businessに対して有効、Exchange (リソース メールボックス) に対して有効 |
 | ダイヤルイン会議            | 本体で [新しい会議] をタップするときに電話会議の電話番号を持っている | 電話会議の有効化                                          |
 | 発信/着信 PSTN 通話 | Microsoft Teams Rooms のコンソールで PSTN 通話を受信できるようにする                                         | 電話システムの有効化                                                |
 
@@ -71,25 +71,25 @@ Microsoft Teams Rooms のアカウントの詳細については、「[Microsoft
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
-| ![シナリオのサポート。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サポートするシナリオを決定し、Microsoft Teams Rooms のサービス アカウントのライセンス要件を特定します。</li></ul>| 
-| ![ホスト コンピューターを準備します。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>コンピューター アカウントとサービス アカウントをホストするための準備を行います。</li></ul>| 
+| ![シナリオのサポート。](../media/audio_conferencing_image7.png) <br/>判断ポイント|<ul><li>サポートするシナリオを決定し、Microsoft Teams Rooms リソース アカウントのライセンス要件を特定します。</li></ul>| 
+| ![ホスト コンピューターを準備します。](../media/audio_conferencing_image9.png)<br/>次の手順|<ul><li>マシンアカウントとリソース アカウントをホストする準備をします。</li></ul>| 
 
 
-_サンプル: Microsoft Teams Rooms のサービス アカウントの計画テーブル_
+_会議室Microsoft Teamsリソース アカウント計画テーブルのサンプル_
 
 | **サイト**  | **部屋の名前** | **部屋の種類** | **将来の部屋の機能**                                                 | **Microsoft Teams Rooms のアカウント機能**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| ロンドン HQ | Curie         | 中        | 1 つのスクリーン、オーディオ、ビデオ、プレゼンテーション <br>ダイヤルイン会議アクセス<br> PSTN アクセス  | [リソースExchange (リソース メールボックス) に対して有効 <br>電話会議の有効化 <br>電話システムの有効化 |
-| シドニー HQ | Hill          | 大         | 2 つのスクリーン、オーディオ、ビデオ、プレゼンテーション<br>ダイヤルイン会議アクセス<br> PSTN アクセス  | 有効なSkype for Business <br>[リソースExchange (リソース メールボックス) に対して有効<br> 電話会議の有効化 <br>電話システムの有効化 |
+| ロンドン HQ | Curie         | 中        | 1 つのスクリーン、オーディオ、ビデオ、プレゼンテーション <br>ダイヤルイン会議アクセス<br> PSTN アクセス  | 有効なExchange (リソース メールボックス) <br>電話会議の有効化 <br>電話システムの有効化 |
+| シドニー HQ | Hill          | 大         | 2 つのスクリーン、オーディオ、ビデオ、プレゼンテーション<br>ダイヤルイン会議アクセス<br> PSTN アクセス  | 有効なSkype for Business <br>有効なExchange (リソース メールボックス)<br> 電話会議の有効化 <br>電話システムの有効化 |
 
 
-### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>会議室とリソース Microsoft Teamsホストする準備をする (省略可能)
+### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>会議室とリソース アカウントMicrosoft Teamsホストする準備をする (省略可能)
 
 Microsoft Teams 会議室とリソース アカウントの管理とレポートを作成するには、オンプレミスの Active Directory または Azure Active Directory (Azure AD) を準備します。 
 
-オンプレミスの Active Directory または Azure Active Directory グループを定義して、すべての Microsoft Teams Rooms サービス (ユーザー) アカウントを追加します。 リソース アカウントをAzure Active Directory、動的グループを使用して、グループに対してリソース アカウントを自動的に追加および削除します。
+すべての会議室リソース アカウントを追加Azure Active Directoryオンプレミスの Active Directory または Microsoft Teams グループを定義します。 リソース アカウントをAzure Active Directory、動的グループを使用して、グループに対してリソース アカウントを自動的に追加および削除します。
 
-すべての Microsoft Teams Rooms マシン アカウント (ドメインに参加している場合) と 1 つの組織単位を保持し、すべての Microsoft Teams Rooms ユーザー アカウントを保持するために、オンプレミスの Active Directory 階層に 1 つの組織単位を定義します。 グループ ポリシーの継承を無効にして、ドメインに参加している会議室に適用するポリシーのみを適用Microsoft Teamsします。
+すべての Microsoft Teams Rooms コンピューター アカウント (ドメインに参加している場合) と 1 つの組織単位を保持し、すべての Microsoft Teams Rooms ユーザー アカウントを保持するために、オンプレミスの Active Directory 階層で 1 つの組織単位を定義します。 グループ ポリシーの継承を無効にして、ドメインに参加している会議室に適用するポリシーのみを適用Microsoft Teamsします。
 
 Microsoft Teams Rooms のコンピューター アカウントが含まれている組織単位に割り当てられるグループ ポリシー オブジェクトを作成します。 これは次のように使用します。 
 
@@ -104,16 +104,16 @@ PowerShell を使用して、構成情報の取得や設定など、複数のリ
 
 構成と展開を計画する主要分野は次のとおりです。
 
--   アカウントのプロビジョニング
+-   リソース アカウントのプロビジョニング
 -   デバイス ソフトウェアのインストール
 -   デバイスの展開
 -   Microsoft Teams Rooms のアプリケーションと周辺機器の構成
 -   テスト
 -   資産管理
 
-### <a name="account-provisioning"></a>アカウントのプロビジョニング 
+### <a name="resource-account-provisioning"></a>リソース アカウントのプロビジョニング 
 
-各 Microsoft Teams Rooms デバイスには専用の一意のリソース アカウントが必要です。このアカウントは、Microsoft Teams と Skype for Business、Exchange。 このアカウントには、ルーム メールボックスがホストされている必要Exchange。 デバイスが着信会議出席依頼を自動的に受け入れできるよう、予定表の処理を構成する必要があります。 これらのアカウントの作成に関する詳細については、「[Microsoft Teams Rooms のアカウントを構成する](rooms-configure-accounts.md)」を参照してください。 
+各 Microsoft Teams Rooms デバイスには専用の一意のリソース アカウントが必要です。このアカウントは、Microsoft Teams または Skype for Business と Exchange の両方に対して有効にする必要があります。 このアカウントには、Exchange でホストされているルーム メールボックスが必要です。 デバイスが着信会議出席依頼を自動的に受け入れできるよう、予定表の処理を構成する必要があります。 これらのアカウントの作成に関する詳細については、「[Microsoft Teams Rooms のアカウントを構成する](rooms-configure-accounts.md)」を参照してください。 
 
 **Pro のヒント** - 各Microsoft Teams Rooms は、ネットワーク上で有効な一意のコンピューター名が必要です。 多くの監視および警告システムでは、キー識別子としてコンピューター名が表示されるため、アクションが必要であるとフラグが付けられた Microsoft Teams Rooms をサポート担当者が簡単に見つけられるように、Microsoft Teams Rooms の展開用の命名規則を作成することが重要です。 例としては、MTR-*サイト*-*部屋の名前* (MTR-LON-CURIE) などのパターンが使用されることがあります。 
 
@@ -125,11 +125,11 @@ PowerShell を使用して、構成情報の取得や設定など、複数のリ
 
 ### <a name="device-software-installation"></a>デバイス ソフトウェアのインストール 
 
-Teams会議室は OEM によってプレインストールされています。
+Teams会議室は、元の機器メーカー (OEM) によってプレインストールされています。
 
-[Microsoft Azure Monitor](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor)を使用して Microsoft Teams Rooms の展開を監視し、可用性、ハードウェア/ソフトウェア エラー、Microsoft Teams Rooms アプリケーション バージョンを報告する方法に関するガイダンスを提供します。 Microsoft Operations Management Suite を使用する場合は、ソフトウェアのインストール プロセスの一環として Operations Management Suite エージェントをインストールし、ワークスペースに対してワークスペース接続情報を構成する必要があります。 
+[Microsoft Azure Monitor](/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor)を使用して Microsoft Teams Rooms のデプロイを監視し、可用性、ハードウェア/ソフトウェア エラー、Microsoft Teams Rooms アプリケーション バージョンに関するレポートを作成する方法に関するガイダンスを提供します。 Microsoft Operations Management Suite を使用する場合は、ソフトウェアのインストール プロセスの一環として Operations Management Suite エージェントをインストールし、ワークスペースに対してワークスペース接続情報を構成する必要があります。 
 
-また、Microsoft Teams Rooms をドメインに参加させるかどうかも検討してください。 ドメイン参加の利点については、「Microsoft Teams Rooms のグループ[ポリシーの構成」を参照してください](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)。 
+また、Microsoft Teams Rooms をドメインに参加させるかどうかも検討してください。 ドメイン参加の利点については、会議室のグループ ポリシーの構成[に関するMicrosoft Teams覧ください](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)。 
 
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
@@ -139,7 +139,7 @@ Teams会議室は OEM によってプレインストールされています。
 
 ### <a name="device-deployment"></a>デバイスの展開
 
-Microsoft Teams Rooms リソース アカウントを作成して管理する方法を決定したら、デバイスとその割り当てられた周辺機器を会議室に発送する計画を作成し、インストールと構成に進みます。 
+Microsoft Teams Rooms リソース アカウントを作成して管理する方法を決定したら、デバイスとその割り当てられた周辺機器を会議室に発送する計画を作成し、インストールと構成に進みます。
 
 
 |  &nbsp;  |   &nbsp;  |
@@ -156,9 +156,9 @@ _サンプル: 展開テーブル_
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft Teams Rooms のアプリケーションと周辺機器の構成 
 
-各 Microsoft Teams Rooms システムが物理的に展開され、サポートされている周辺機器が接続された後、Microsoft Teams Rooms アプリケーションを構成して Microsoft Teams Rooms リソース アカウントとパスワードを割り当て、Teams Rooms がサインインを有効にする必要があります。Microsoft TeamsまたはSkype for Business、およびExchange。
+各 Microsoft Teams Rooms システムが物理的に展開され、サポートされている周辺機器が接続された後、Teams Rooms がサインインを有効にするには、Microsoft Teams Rooms リソース アカウントとパスワードを割り当てる Microsoft Teams Rooms アプリケーションを構成する必要があります。Microsoft TeamsまたはSkype for Business、およびExchange。
 
-各Microsoft Teams Rooms システムは、手動で構成できます。 または、Rooms XML 構成ファイルを 1 Microsoft Teamsに格納してアプリケーション設定を管理することもできます。
+各Microsoft Teams Rooms システムは、手動で構成できます。 または、Rooms XML 構成ファイルを 1 Teamsに格納してアプリケーション設定を管理することもできます。
 
 XML 構成ファイルの使用方法の詳細については、「[XML 構成ファイルを使用して Microsoft Teams Rooms のコンソール設定をリモートで管理する](xml-config-file.md)」を参照してください。 
 
@@ -177,7 +177,7 @@ XML 構成ファイルの使用方法の詳細については、「[XML 構成�
 
 ### <a name="asset-management"></a>資産管理
 
-デプロイの一環として、ルーム名、Microsoft Teams 会議室名、サインインした Microsoft Teams Rooms リソース アカウント、割り当てられた周辺機器を使用して資産登録を更新する必要があります。 
+デプロイの一環として、ルーム名、Microsoft Teams 会議室名、Microsoft Teams Rooms リソース アカウント、割り当てられた周辺機器を使用して資産登録を更新する必要があります。 
 
 _サンプル: 資産テーブル_
 

@@ -24,26 +24,26 @@ search.appverid: MET150
 description: 通話 (PSTN Teams) オプションと、組織に対して行う決定の詳細について説明します。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 994115cdf1dda3b5f938b6816623ead2a4196fdb
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 49c836687d7652c18b5932bd662d8ee935638d8a
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766850"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015277"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 接続オプション
 
-Microsoft は、お客様の組織Exchangeプライベート ブランチ サービス (PBX) 機能を完全に提供Teams 電話。 ただし、ユーザーが組織外で通話を発信するには、ユーザーをパブリック Teams 電話 (PSTN) に接続する必要があります。
+Microsoft では、お客様の組織にExchangeプライベート ブランチ サービス (PBX) 機能を提供Teams 電話。 ただし、ユーザーが組織外で通話を発信するには、PSTN (Public Switched Telephone Network) Teams 電話に接続する必要があります。
 
-この記事では、PSTN 接続オプションについて説明します。 Microsoft 音声ソリューションの詳細については、「音声ソリューションを計画する」をTeams 電話[Teamsを参照してください](cloud-voice-landing-page.md)。
+この記事では、PSTN 接続オプションについて説明します。 Microsoft 音声ソリューションの詳細については、「音声ソリューションを計画する」Teams 電話 Teamsを参照[してください](cloud-voice-landing-page.md)。
 
 PSTN Teams 電話接続するには、次のオプションから選択できます。
 
 - [**通話プラン**](#teams-phone-with-calling-plan)。 MICROSOFT を PSTN 通信事業者として使用する、クラウド内のすべてソリューション。
 
-- [**オペレーター Connect、**](#teams-phone-with-operator-connect)現在パブリック プレビューでのみ **使用できます。**  オペレーター Connectを使用すると、既存の運送業者が Microsoft Operator Connect プログラムに参加している場合は、PSTN 通話とセッション ボーダー コントローラー (SBC) を管理できます。 
+- [**演算子Connect。**](#teams-phone-with-operator-connect) オペレーター Connectを使用すると、既存の運送業者が Microsoft Operator Connect プログラムに参加している場合、PSTN 通話とセッション ボーダー コントローラー (SBC) を管理できます。 
 
-- [**ダイレクト ルーティング**](#teams-phone-with-direct-routing): セッション ボーダー コントローラー (SBC) を接続して、独自の PSTN 通信業者を使用Teams 電話。
+- [**ダイレクト ルーティング**](#teams-phone-with-direct-routing)。 を使用すると、セッション ボーダー コントローラー (SBC) を接続して PSTN 通信業者を使用Teams 電話。
 
 
 オプションの組み合わせを選択して、複雑な環境向けソリューションを設計したり、複数ステップの移行を管理したりすることができます。
@@ -51,13 +51,13 @@ PSTN Teams 電話接続するには、次のオプションから選択できま
 選択したオプションは、一部の機能の構成方法Teams 電話注意してください。 詳細については、この記事の [後半の「構成に関](#configuration-considerations) する考慮事項」を参照してください。
 
 
-## <a name="teams-phone-with-calling-plan"></a>Teams 電話プランの使用 
+## <a name="teams-phone-with-calling-plan"></a>通話プランが設定された Teams 電話 
 
-Teams 電話プランを使用する方法は、ユーザーが利用できる Microsoft のクラウド内音声Teamsです。 これは、PSTN に接続する最もTeams 電話オプションです。 このオプションを使用すると、次の図に示すように、Microsoft は PSTN 通信事業者として機能します。
+Teams 電話プランを使用する方法は、ユーザーをサポートする Microsoft のクラウド内音声Teamsです。 これは、PSTN に接続する最もTeams 電話オプションです。 このオプションを使用すると、次の図に示すように、Microsoft は PSTN 通信事業者として機能します。
 
 ![図 1 は、通話電話システムの概要を示しています。](media/voice-solutions-simple.png)
 
-次に対して 「はい」と回答した場合は、Teams 電話プランを使用する方法が適切なソリューションです。
+次に対して 「はい」と答える場合は、Teams 電話プランを使用する方法が適切なソリューションです。
 
 - 通話プランは、お客様のリージョンで利用できます。
 - 現在の PSTN 通信事業者を保持する必要はない。
@@ -65,9 +65,9 @@ Teams 電話プランを使用する方法は、ユーザーが利用できる M
 
 このオプションでは、次のオプションを使用します。 
 
-- 国内通話Teams 電話国際通話プランが追加され、世界中の電話への通話が可能になります (ライセンスされるサービスのレベルに応じて異なる)。
+- 国内通話Teams 電話国際通話プランが追加され、世界中の電話への通話が可能になります (ライセンスを受け取るサービスのレベルに応じて異なる)。
 
-- 呼び出しプランは、オンプレミスのデプロイまたはメンテナンスを必要と &mdash; Microsoft 365。
+- 通話プランは、オンプレミスのデプロイまたはメンテナンスを必要と &mdash; Microsoft 365。
 
 - 注: 必要に応じて、サード パーティの PBX、アナログ デバイス、SBC でサポートされているその他のサードパーティのテレフォニー機器との相互運用性を確保するために、サポートされているセッション ボーダー コントローラー (SBC) を直接ルーティング経由で接続できます。
 
@@ -83,7 +83,7 @@ Teams 電話プランを使用する方法は、ユーザーが利用できる M
 
 ## <a name="teams-phone-with-operator-connect"></a>Teams 電話演算子を使用Connect
 
-オペレーター Connect では、現在パブリック プレビュー中です。既存の通信事業者が Microsoft Operator Connect プログラムに参加している場合、PSTN 通話を Teams に持ち込むサービスを管理できます。 通信事業者が PSTN 通話サービスとセッション ボーダー コントローラー (SBC) を管理し、ハードウェアの購入と管理を節約できます。
+オペレーター Connect(現在パブリック プレビュー中) では、既存の通信事業者が Microsoft Operator Connect プログラムに参加している場合、PSTN 通話を Teams に持ち込むサービスを管理できます。 通信事業者が PSTN 通話サービスとセッション ボーダー コントローラー (SBC) を管理し、ハードウェアの購入と管理を節約できます。
 
 オペレーター Connectは、次の場合に組織に適切なソリューションになる可能性があります。
 
@@ -91,18 +91,18 @@ Teams 電話プランを使用する方法は、ユーザーが利用できる M
 - お好みの運送業者は、Microsoft Operator Connectです。
 - 通話を有効にする新しい通信事業者を探Teams。
 
-Operator Connect の利点と要件、およびこのプログラムに参加している運送業者の一覧については、「プラン オペレーター」を参照[Connect。](operator-connect-plan.md) オペレーター アカウントを構成する方法の詳細については、オペレーター Connect構成に関[するページをConnect。](operator-connect-configure.md)
+Operator Connect の利点と要件、およびこのプログラムに参加している運送業者の一覧については、「プラン オペレーターサービス」を[Connect。](operator-connect-plan.md) オペレーター アカウントを構成する方法の詳細についてはConnectの構成に関[するページをConnect。](operator-connect-configure.md)
 
 
-## <a name="teams-phone-with-direct-routing"></a>Teams 電話 ルーティングの使用
+## <a name="teams-phone-with-direct-routing"></a>Teams 電話ルーティングの使用
 
 このオプションは、Teams 電話に示すように、ダイレクト ルーティングを使用して、ネットワークをテレフォニー ネットワークに接続します。 
 
 ![図 5 は、直接ルーティング電話システムを示しています。](media/voice-solution-with-direct-routing.png)
 
-次の質問に対して 「はい」と回答した場合は、Teams 電話 ルーティングを使用する方法が適切なソリューションです。
+次の質問に対して 「はい」と回答した場合は、Teams 電話ルーティングを使用する方法が適切なソリューションです。
 
-- このコマンドは、Teamsで使用Teams 電話。
+- このコマンドを使用してTeamsをTeams 電話。
 - 現在の PSTN 通信事業者を保持する必要があります。
 - 通話プランを経由する通話と、運送業者を介した通話を混在したい場合。
 - サードパーティの PBX やオーバーヘッド ページ、アナログ デバイスなどの機器と相互運用する必要があります。
@@ -119,12 +119,12 @@ Operator Connect の利点と要件、およびこのプログラムに参加し
 
 このオプションには、次が必要です。
 
-- ネットワークへの接続が中断Microsoft 365。
+- ネットワークへの接続Microsoft 365。
 
 - サポートされている SBC のデプロイと保守。
 
 - サード パーティの運送業者との契約。
-  (サード パーティ製 PBX、アナログ デバイス、その他のテレフォニー機器への接続を提供するオプションとして、通話プランを使用しているユーザーにTeams 電話しない限り)。
+  (サード パーティ製 PBX、アナログ デバイス、その他のテレフォニー機器への接続を提供するオプションとして、通話プランを利用しているユーザーにTeams 電話しない限り)。
 
 ダイレクト ルーティングの詳細については、次の記事を参照してください。
 
@@ -166,7 +166,7 @@ Microsoft には、組織内のユーザーに割り当て可能なサブスク�
 
 - 通話プランの電話番号の管理については、「組織の電話番号を管理 [する」を参照してください](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-- オペレーター アカウントを使用して電話番号を管理する方法については、「オペレーター Connectを使用して電話番号を[設定する」をConnect。](operator-connect-configure.md#set-up-phone-numbers)
+- オペレーター アカウントを使用して電話番号を管理する方法についてはConnect演算子を使用して電話番号を[設定する」をConnect。](operator-connect-configure.md#set-up-phone-numbers)
 
 - ダイレクト ルーティングの電話番号の管理については、「電話番号を構成し、エンタープライズ音声とボイスメールを有効 [にする」を参照してください](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online)。
 
@@ -190,18 +190,18 @@ Microsoft には、組織内のユーザーに割り当て可能なサブスク�
 - [場所に基づくルーティングのネットワーク設定を構成する](location-based-routing-configure-network-settings.md)
 - [ダイレクト ルーティングの場所に基づくルーティングを有効にする](location-based-routing-enable.md)
 - [Contoso のケース スタディ: Location-Based ルーティング](voice-case-study-location-based-routing.md)<br>
-  架空の多国籍企業 Contoso が、組織に対してLocation-Basedを実装する方法について説明します。
+  架空の多国籍企業 Contoso が、組織のルーティングをLocation-Based実装する方法について説明します。
 
 
 ### <a name="emergency-calling"></a>緊急通話
 
 緊急通話の構成方法は、PSTN 接続オプションによって異なります。
 
-- 通話プランの場合、各ユーザーは自動的に緊急通話を有効にし、割り当てられた電話番号に関連付けられた登録済みの緊急対応の住所を持っている必要があります。 動的緊急通話 (クライアントの場所に基づく) Teamsサポートされます。  
+- 通話プランの場合、各ユーザーは自動的に緊急通話を有効にし、割り当てられた電話番号に関連付けられた登録済みの緊急対応の住所を持っている必要があります。 動的緊急通話 (クライアントの場所に基Teams) がサポートされています。  
 
-- オペレーター Connectでは、各ユーザーは緊急通話を自動的に有効にし、割り当てられた電話番号に関連付けられている登録済みの緊急対応の住所を持っている必要がありますが、設定できるのは運送業者パートナーのみです。 動的緊急通話 (クライアントの場所に基づく) Teamsサポートされます。
+- オペレーター Connectの場合、各ユーザーは自動的に緊急通話を有効にし、割り当てられた電話番号に関連付けられている登録済みの緊急対応の住所を持っている必要がありますが、設定できるのは運送業者パートナーのみです。 動的緊急通話 (クライアントの場所に基Teams) がサポートされています。
 
-- 直接ルーティングの場合は、Teams 緊急通話ルーティング ポリシー (TeamsEmergencyCallRoutingPolicy) を使用して緊急電話番号と関連するルーティング先を定義することで、ユーザーの緊急通話ポリシーを定義する必要があります。 登録済みの緊急対応の場所は、ダイレクト ルーティング ユーザーではサポートされていません。 動的緊急通話の場合は、緊急通話をルーティングし、場合によってはパートナーの接続用に追加の構成が必要です。
+- 直接ルーティングでは、Teams 緊急通話ルーティング ポリシー (TeamsEmergencyCallRoutingPolicy) を使用して緊急電話番号と関連するルーティング先を定義することで、ユーザーの緊急通話ポリシーを定義する必要があります。 登録済みの緊急対応の場所は、ダイレクト ルーティング ユーザーではサポートされていません。 動的緊急通話の場合は、緊急通話をルーティングし、場合によってはパートナーの接続用に追加の構成が必要です。
 
 緊急通話の概念と用語、および緊急通話と動的緊急通話を構成する方法の詳細については、次の記事を参照してください。
 
@@ -218,7 +218,7 @@ Microsoft には、組織内のユーザーに割り当て可能なサブスク�
 動的緊急通話または直接ルーティング用の Location-Based ルーティングをデプロイする場合は、これらの機能で使用するネットワーク設定を構成する必要Microsoft Teams。 ネットワーク リージョン、ネットワーク サイト、ネットワーク サブネット、信頼済み IP アドレスのネットワーク設定を構成する方法については、次の記事を参照してください。
 
 - [Microsoft Teams のクラウド音声機能のネットワーク設定 - 概念と用語](cloud-voice-network-settings.md)
-- [クラウド音声機能のネットワーク トポロジを管理Microsoft Teams](manage-your-network-topology.md)
+- [クラウド音声機能のネットワーク トポロジを管理する Microsoft Teams](manage-your-network-topology.md)
 
 
 

@@ -13,25 +13,25 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 構成Microsoft Teamsを使用してSurface HubのMicrosoft Intune設定Windows管理する
-ms.openlocfilehash: 39d62296a87fa50722bce98a4fcd5e0372b362cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70295a22524dc702832a729dc7e631c49b206053
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602162"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015267"
 ---
 # <a name="manage-microsoft-teams-settings-on-surface-hub"></a>アカウントMicrosoft Teams設定を管理Surface Hub
 
-構成デザイナーまたはMicrosoft Teamsを使用して、Surface HubのWindows設定Microsoft Intune管理Microsoft エンドポイント マネージャー。 構成設定Windows変更を行Microsoft Intune構成デザイナーまたは構成Teams知識が必要です。 これらのオプションの詳細については、次の記事を参照してください。
+構成デザイナーまたはMicrosoft Teamsを使用して、Surface HubのWindows設定Microsoft Intune管理Microsoft エンドポイント マネージャー。 構成デザイナーまたはWindowsの知識はMicrosoft Intune設定を変更するために必要Teamsです。 これらのオプションの詳細については、次の記事を参照してください。
 
 - [アプリケーションのプロビジョニング パッケージを作成Windows 10](/windows/configuration/provisioning-packages/provisioning-create-package)
 - [デバイス管理Microsoft Intuneとは](/mem/intune/remote-actions/device-management)
 
-Windows構成デザイナーは、少数のデバイスしか持Surface Hub簡単にアクセスできる場合に便利なオプションです。 多数の Surface Hub がある場合、またはリモートの場所にある場合は、組織内にデプロイされている場合は、Microsoft Intune Microsoft エンドポイント マネージャー を使用します。 選択した方法に関係なく、XML 構成ファイルを作成して、設定を変更Teams必要Surface Hub。
+Windowsデバイスが少数しかなく、簡単にアクセスSurface Hub場合は、構成デザイナーをお使いください。 多数の Surface Hub がある場合、またはリモートの場所にある場合は、組織内に展開されている場合は、Microsoft Intune Microsoft エンドポイント マネージャー を使用します。 選択した方法に関係なく、XML 構成ファイルを作成して、設定を変更する必要Teams必要Surface Hub。
 
 ## <a name="teams-configuration-file-syntax"></a>Teams構成ファイルの構文
 
-Teamsの構成はSurface Hub XML ファイルを使用して定義されます。 XML ファイルには、アプリケーションの動作を制御するために使用できるすべての設定Teamsされます。 両方Windows構成デザイナーとMicrosoft Intune同じ XML 構文を使用します。 次に示すのは、構成 XML Teams例です。
+Teamsの構成はSurface Hub XML ファイルを使用して定義されます。 XML ファイルには、アプリケーションの動作を制御するために使用できるすべての設定Teamsされます。 構成Windowsと構成Microsoft Intune同じ XML 構文を使用します。 次に示すのは、構成 XML Teams例です。
 
 ```xml
 <SurfaceHubSettings>
@@ -51,11 +51,11 @@ Teamsの構成はSurface Hub XML ファイルを使用して定義されます�
 
 | 親                  | 要素                                   | 属性 | 説明                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------|-------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| なし                    | `<SurfaceHubSettings>`                    |           | 複数の構成に対して構成Teamsすべての構成要素がSurface Hub。                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| `<SurfaceHubSettings>`  | `<BluetoothAdvertisementEnabled>`         |           | ユーザーがSurface Hub接続で使用できるかどうかをアドバタイズBluetoothします。<br>使用できる値: `true` 、。 `false`                                                                                                                                                                                                                                                                                                                                                                                         |
+| なし                    | `<SurfaceHubSettings>`                    |           | 1 つの構成に対するTeamsのすべての構成要素がSurface Hub。                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `<SurfaceHubSettings>`  | `<BluetoothAdvertisementEnabled>`         |           | 特定の接続Surface Hub使用できるかどうかを通知するかどうかをBluetoothします。<br>使用できる値: `true` 、。 `false`                                                                                                                                                                                                                                                                                                                                                                                         |
 | `<SurfaceHubSettings>`  | `<AutoAcceptProximateMeetingInvitations>` |           | 近接Teams会議を自動的に受け入れるかどうかを決定します。<br>使用できる値: `true` 、。 `false`                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `<SurfaceHubSettings>`  | `<CoordinatedMeetings>`                   |           | 調整された会議のすべての構成要素が含まれます。                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|                         |                                           | `enabled` | 他のデバイスTeams会議に参加するように構成されているかどうかを決定します。<br>使用できる値: `true` 、。 `false`                                                                                                                                                                                                                                                                                                                                                                                |
+|                         |                                           | `enabled` | 他のデバイスとのTeams会議に参加するように構成されているかどうかを決定します。<br>使用できる値: `true` 、。 `false`                                                                                                                                                                                                                                                                                                                                                                                |
 | `<CoordinatedMeetings>` | `<TrustedAccounts>`                       |           | これは、それぞれの Teams ミーティング デバイスまたは Surface Hub 用の UPN をカンマで区切ったリストで、デバイスが会議への参加依頼を承諾するか、または送信する必要があるかを指定します。<br>使用できる値: 文字列                                                                                                                                                                                                                                                                                                                         |
 | `<CoordinatedMeetings>` | `<Settings>`                              |           | 調整された会議の構成オーディオとビデオの構成要素が含まれています。                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | `<Settings>`            | `<Audio>`                                 |           | デバイス上のオーディオのTeamsを制御Surface Hub。                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -65,16 +65,16 @@ Teamsの構成はSurface Hub XML ファイルを使用して定義されます�
 |                         |                                           | `default` | 会議の開始時にカメラがアクティブになるデバイスを決定します。 最適な操作性を実現するために、他のすべてのデバイスが`false`に設定されている間は、Teams ミーティング デバイスだけを`true`に設定することをお勧めします。<br>使用できる値: `true` 、。 `false`                                                                                                                                                                                                                                                                  |
 |                         |                                           | `enabled` | 会議の参加者がカメラのオンとオフを切り替えるかどうかを決定します。 参加者が、Surface Hub ホワイトボードを使用している場合など、イベント参加者が別のデバイスで`true`に設定することができるようにします。 参加者がデバイスでカメラのオンとオフを切り替えることができないようにする場合は、`false`に設定します。<p> [ **ビデオの既定値]** が に設定されている場合、この設定は `true` 無視され、参加者はカメラのオンとオフを切り替えます。<br>使用できる値: `true` 、。 `false` |
 
-## <a name="apply-teams-settings-to-surface-hub"></a>設定Teamsに適用Surface Hub
+## <a name="apply-teams-settings-to-surface-hub"></a>設定をTeamsに適用Surface Hub
 
-構成デザイナーまたは Teams を使用して、Surface HubにWindows構成設定をMicrosoft Intuneまたは更新Microsoft エンドポイント マネージャー。
+構成デザイナーまたはTeamsを使用して、Surface HubにWindows構成設定をMicrosoft Intuneまたは更新Microsoft エンドポイント マネージャー。
 
 ### <a name="use-windows-configuration-designer"></a>構成Windowsを使用する
 
 Windows 構成デザイナーを使用してプロビジョニング パッケージを作成できます。このパッケージを使用して、Surface Hubs にTeams設定を適用できます。 上記で作成した XML ファイルを構成デザイナー Windowsに貼り付け、プロビジョニング パッケージを作成します。
 
 > [!IMPORTANT]
-> プロビジョニング パッケージを使用して Surface Hub に Teams 構成を既に適用し、それを変更する場合は、まず既存のプロビジョニング パッケージを削除する必要があります。 詳細については、「構成デザイナーで作成されたプロビジョニング パッケージを削除[する」Windows参照してください](#remove-a-provisioning-package-created-by-windows-configuration-designer)。
+> プロビジョニング パッケージを使用して Teams 構成を Surface Hub に既に適用し、それを変更する場合は、まず既存のプロビジョニング パッケージを削除する必要があります。 詳細については、「構成デザイナーで[作成されたプロビジョニング パッケージを削除する」Windows参照してください](#remove-a-provisioning-package-created-by-windows-configuration-designer)。
 
 構成デザイナーでプロビジョニング パッケージを作成するには、次Windowsします。
 
@@ -91,10 +91,10 @@ Windows 構成デザイナーを使用してプロビジョニング パッケ�
 
 1. 上記で作成したプロビジョニング パッケージを USB ドライブに保存する
 2. USB ドライブをデバイスに挿入Surface Hub
-3. 自分のSurface Hubを開き、[すべての **スタート メニュー]** を選択し、[アプリ] を **選択設定**
+3. 自分のSurface Hubを開き、[すべての **スタート メニュー]** を選択し、[アプリ] を選択 **設定**
 4. 管理者のユーザー名とパスワードを入力し、[はい] を **選択します。**
-5. [デバイス管理 **Surface Hub****に移動****し、プロビジョニング** パッケージを追加または削除し、[パッケージの追加 **] を選択します。**
-6. [**パッケージの選択] で**、プロビジョニング パッケージ **の** 横にある [追加] を選択し、アプリケーションを再起動Surface Hub
+5. [Surface Hub 管理] に **移動** し、プロビジョニング パッケージを **追加または削除** し、[パッケージの追加 **] を選択します。**
+6. [**パッケージの選択] で**、プロビジョニング パッケージ **の** 横にある [追加] を選択し、アプリを再起動Surface Hub
 
 ### <a name="use-microsoft-intune"></a>使用Microsoft Intune
 
@@ -124,15 +124,15 @@ Surface Hubs に設定を適用する構成プロファイルをTeamsするに�
 
 ## <a name="remove-teams-settings-from-a-surface-hub"></a>アプリTeams設定を削除Surface Hub
 
-構成Teamsデザイナーまたは Surface Hub を使用して、Windowsの構成設定Microsoft Intune削除Microsoft エンドポイント マネージャー。
+Teams 構成デザイナーまたは Surface Hub を使用して、Windowsの構成Microsoft Intuneを削除Microsoft エンドポイント マネージャー。
 
 ### <a name="remove-a-provisioning-package-created-by-windows-configuration-designer"></a>構成デザイナーで作成されたプロビジョニング パッケージWindows削除する
 
-Windows 構成デザイナーによって作成されたプロビジョニング パッケージを使用して Surface Hub に設定を適用した場合は、次の手順に従ってパッケージとその設定を削除します。 Teams
+Windows 構成デザイナーによって作成されたプロビジョニング パッケージを使用して Teams 設定を Surface Hub に適用した場合は、次の手順に従ってパッケージとその設定を削除します。
 
-1. 自分のSurface Hubを開き、[すべての **スタート メニュー]** を選択し、[アプリ] を **選択設定**
+1. 自分のSurface Hubを開き、[すべての **スタート メニュー]** を選択し、[アプリ] を選択 **設定**
 2. 管理者のユーザー名とパスワードを入力し、[はい] を **選択します。**
-3. [デバイス管理 **Surface Hub****に移動** し、プロビジョニング **パッケージを追加または削除します。**
+3. [デバイス管理 **Surface Hub****に移動し**、プロビジョニング パッケージを追加 **または削除します。**
 4. 削除するプロビジョニング パッケージの横にある [削除] を選択 **します。**
 5. [アプリ] **Surface Hub、[** アプリ]**の順に&します。**
 6. [詳細 **Microsoft TeamsをSurface Hub** し、[詳細オプション]**を選択します。**
@@ -150,7 +150,7 @@ Microsoft Endpoint Management Teams Surface Hub を使用して Microsoft Intune
 
 Surface Hub の調整された会議設定を含む構成プロファイルを削除した後、次の手順に従って、Teams アプリを Surface Hub。
 
-1. 自分のSurface Hubを開き、[すべての **スタート メニュー]** を選択し、[アプリ] を **選択設定**
+1. アプリケーションでSurface Hubを開きスタート メニュー **アプリ]** を選択し、[アプリ] を **選択設定**
 2. 管理者のユーザー名とパスワードを入力し、[はい] を **選択します。**
 3. [アプリ] **Surface Hub、[** アプリ]**の順に&します。**
 4. [詳細 **Microsoft TeamsをSurface Hub** し、[詳細オプション]**を選択します。**

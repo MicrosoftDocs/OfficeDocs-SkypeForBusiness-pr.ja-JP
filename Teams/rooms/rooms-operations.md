@@ -13,25 +13,25 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: このトピックでは、会議室の管理についてMicrosoft Teamsしてください。
-ms.openlocfilehash: 3717c140501cbfc7650daafd14a6daa47a4febd3
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2238712b269475891074016c1099a33c56004595
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306162"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015047"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams Rooms のメンテナンスと運用
  
 このトピックでは、会議室の管理についてMicrosoft Teamsしてください。
   
-Microsoft Teams会議室は、会議室をリッチで共同作業的なエクスペリエンスに変換するように設計された Microsoft の会議ソリューションです。 ユーザーは使い慣れたMicrosoft TeamsまたはSkype for Businessインターフェイスを利用できます。IT 管理者は、簡単に展開および管理できる Windows 10 Teams Rooms アプリを利用できます。 Microsoft Teams会議室は、既存の機器を活用して、インストールを容易にし、会議室にMicrosoft TeamsまたはSkype for Businessを取り込む設計です。
+Microsoft Teams会議室は、会議室を豊富で共同作業的なエクスペリエンスに変換するように設計された Microsoft の会議ソリューションです。 ユーザーは使い慣れたMicrosoft Teamsまたは Skype for Businessインターフェイスを利用できます。IT 管理者は、簡単に展開および管理できる Windows 10 Teams Rooms アプリを利用できます。 Microsoft Teams会議室は、既存の機器を活用してインストールを容易にし、会議室にMicrosoft TeamsまたはSkype for Businessを取り込む設計です。
     
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Microsoft Teams Roomsでログを収集する
 <a name="Logs"> </a>
 
-管理センターからログをTeamsできます。 管理Teamsで、[デバイス]\[会議室] のTeamsに移動Windows。 このページで、ログをダウンロードする表示名をクリックします。 上部のパネルで、[デバイス ログのダウンロード] をクリックします。 通知を求めるメッセージが表示されます。 [Got it]をクリックします。 数分後、[履歴] タブでログをダウンロードする準備が整います。
+管理センターでログをTeamsするには、[会議室] の **[Teams デバイス> Teamsに移動Windows。** ログを記録するデバイスの表示名を選択します。 上部のパネルで、[デバイス ログのダウンロード] を選択します。 確認すると、数分後に [履歴] タブにログをダウンロードする準備が整います。
 
-PowerShell を使用してログを収集することもできます。 Microsoft Teams Rooms アプリに含むログ収集スクリプトを呼び出す必要があります。 管理者モードで、管理者特権のコマンド プロンプトを開始して、次のコマンドを発行します。
+PowerShell を使用してログを収集することもできます。 Microsoft Teams Rooms アプリに含むログ収集スクリプトを呼び出す必要があります。 管理者 [モードで、](rooms-operations.md)管理者特権のコマンド プロンプトを起動し、次のコマンドを発行します。
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -44,7 +44,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 Consumer Electronics Control (CEC) をサポートするか PC モードを有効にするか、ルーム前面ディスプレイの設定を構成します。
   
-会議室の前面ディスプレイがスタンバイ モードからTeamsに自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアで機能がサポートされている場合は、Microsoft Teams Rooms ソフトウェアによってサポートされます。 ルームの前方ディスプレイとして使用される一般向けテレビは、HDMI の CEC (Consumer Electronics Control) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があるため、製造元のサポート ドキュメントを参照してください) に応じて、適切な動作を実現するには、Crestron 社の [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) や Extron 社の [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) などのコントローラーが必要になる場合があります。 
+会議室の前面ディスプレイがスタンバイ モードからTeamsに自動的に切り替える場合は、特定の条件を満たしている必要があります。 この機能はオプションですが、基盤となるハードウェアで機能がサポートされている場合は、Microsoft Teams Rooms ソフトウェアによってサポートされます。 ルームの前方ディスプレイとして使用される一般向けテレビは、HDMI の CEC (Consumer Electronics Control) 機能をサポートしている必要があります。  選択されているドックまたはコンソール (CEC をサポートしていない可能性があるため、製造元のサポート ドキュメントを参照してください) に応じて、適切な動作を実現するには、Crestron 社の [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) や Extron 社の [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) などのコントローラーが必要になる場合があります。
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams Rooms のリセット (工場出荷時の復元)
 <a name="Reset"> </a>
@@ -62,7 +62,7 @@ Microsoft Teams Roomsが正常に動作していない場合は、出荷時の�
 
 |ワークグループ|ドメインに参加していない場合|ドメインに参加している場合|
 |:-----|:-----|:-----|
-|再起動  <br/> |Teams管理センター  <br/> リモート デスクトップ  <br/> リモート Powershell  <br/> | <br/>リモート デスクトップ (詳細な設定が必要)  <br/> リモート PowerShell (詳細な設定が必要)  <br/> Configuration Manager  <br/> |
+|再起動  <br/> |Teams管理センター  <br/> リモート デスクトップ  <br/> リモート PowerShell  <br/> | <br/>リモート デスクトップ (詳細な設定が必要)  <br/> リモート PowerShell (追加の構成が必要)  <br/> Configuration Manager  <br/> |
 |OS の更新  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
 |アプリの更新  <br/> |Windows ストア  <br/> |Windows ストア  <br/> Configuration Manager  <br/> |
 |アカウント構成  <br/> |Teams管理センター  <br/> |Teams管理センター  <br/> |
@@ -75,13 +75,13 @@ Microsoft Teams Roomsが正常に動作していない場合は、出荷時の�
 
 会議室Teams Active Directory ドメインに参加すると、次の利点があります。
 
-- 会議室へのドメインTeamsを使用すると、ドメイン ユーザーとグループの管理者権限を付与できます。 これにより、ローカル コンピューター レベルの管理者アカウントのパスワードを記憶する必要がなくなります。
+- [ドメイン参加] Teamsでは、ドメイン ユーザーとグループの管理者権限を付与できます。 これにより、ローカル コンピューター レベルの管理者アカウントのパスワードを記憶する必要がなくなります。
 
 - サービス品質のWindowsを会議室にTeamsできます。
 
-- Skype for Businessを使用している場合は、Teams Rooms へのドメイン参加により、組織のプライベート ルート証明書チェーンを自動的にインポートできます。
+- Skype for Businessを使用している場合は、Teams Rooms にドメインを参加すると、組織のプライベート ルート証明書チェーンのインポートが自動化されます。
 
-Teams Rooms をドメインに参加する場合は、グループ ポリシー オブジェクト (GPO) の除外をすべての Teams Rooms オブジェクトが存在する OU に提供できるよう、別の組織単位 (OU) を作成する必要があります。 すべての GPO の継承を無効にして、サポートされていないグループ ポリシー設定が会議室に適用Teamsします。 既定のコンピューター OU に適用されたグループ ポリシーが確実に適用Teamsに参加する前に、OU にマシン オブジェクトを作成します。
+Teams Rooms をドメインに参加する場合は、グループ ポリシー オブジェクト (GPO) の除外をすべての Teams Rooms オブジェクトが存在する OU に提供できるよう、個別の組織単位 (OU) を作成する必要があります。 すべての GPO の継承を無効にして、サポートされていないグループ ポリシー設定が会議室に適用Teamsします。 既定のコンピューター OU に適用されたグループ ポリシーが適用Teams、ドメインに Teams Rooms を参加する前に、OU にマシン オブジェクトを作成します。
 
 > [!NOTE]
 > 別の OU を作成し、継承をブロックする場合でも、グループ ポリシーによっては、[オーバーライドなし] が設定されている場合に問題が発生する可能性があります。 オーバーライドが設定されたグループ ポリシーは、ブロック ポリシー継承が設定された OU を打ち負かします。
@@ -95,9 +95,9 @@ Teams Rooms をドメインに参加する場合は、グループ ポリシー 
   - ユーザーに低速のネットワーク接続を推奨する
   - ログオン時に特定のプログラムを起動する
   - ドメインに参加するすべてのマシンで別のドメイン ユーザー アカウントを作成する。
-  - 更新WindowsをルームにTeamsする
+  - 更新WindowsをルームにプッシュTeamsする
 
-会議室をMicrosoft Teamsに参加する場合は、グループ ポリシーによって次の表の設定が上書きされていないことを確認してください。
+会議室をMicrosoft Teamsドメインに参加する場合は、グループ ポリシーが次の表の設定を上書きしなかからなされていないことを確認します。
 
 |Setting|許可されること|
 |:-----|:-----|
@@ -187,13 +187,13 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>ソフトウェアの更新
 <a name="SWupdate"> </a>
 
-既定では、Microsoft Teams Rooms は最新バージョンの Windows Rooms ソフトウェアを取得するために、Microsoft Teams Store への接続を試行します。 そのため、会議室Teamsインターネットに定期的にアクセスする必要があります。 サポートの問題について Microsoft に連絡する前に、Microsoft Teams最新バージョンのアプリが読み込まれているか確認してください。
+既定では、Microsoft Teams Rooms は、Windows Rooms ソフトウェアの最新バージョンを取得するために、Microsoft Teams Store への接続を試行します。 そのため、会議室Teamsインターネットに定期的にアクセスする必要があります。 サポートの問題について Microsoft に連絡する前に、Microsoft Teams最新バージョンのアプリが読み込まれているか確認してください。
   
-Microsoft Teams Rooms は、オペレーティング システムとWindowsファームウェアの更新プログラムを取得するために、更新プログラムに接続します。 Teamsは、ローカル時刻の午前 2 時 00 分からインストールするように構成されています。
+Microsoft Teams Rooms は、オペレーティング システムとWindowsファームウェアの更新プログラムを取得するために、Windows Update に接続します。 Teamsは、ローカル時刻の午前 2 時 00 分からインストールするように構成されています。
   
-Windows ストアへのアクセスの制限により更新プログラムを手動で管理する必要があり、ビジネス向け Microsoft Store から[オフライン](https://businessstore.microsoft.com/store)アプリの配布に関する通常の手順に従う[](/microsoft-store/distribute-offline-apps)必要がある場合は、デプロイ キットから適切な APPX ファイルと依存関係を取得できます[(「](https://go.microsoft.com/fwlink/?linkid=851168) [Microsoft Teams ルーム コンソール](console.md))構成マネージャーで使用できます。 デプロイメント キットのリリースは、ストアのリリースよりも後になるため、最新の入手可能な最新ビルドに必ずしも一致しない可能性があります。
+Windows ストアへのアクセスの制限により更新プログラムを手動で管理する必要があり、ビジネス向け Microsoft Store から[オフライン](https://businessstore.microsoft.com/store)アプリの配布に関する通常の手順に[](/microsoft-store/distribute-offline-apps)従う必要がある場合は、デプロイ キットから適切な APPX ファイルと依存関係を取得できます[(「](https://go.microsoft.com/fwlink/?linkid=851168)構成する」の手順から[Microsoft Teams ルーム コンソール](console.md))構成マネージャーで使用できます。 デプロイメント キットのリリースは、ストアのリリースよりも後になるため、最新の入手可能な最新ビルドに必ずしも一致しない可能性があります。
   
-### <a name="to-update-using-powershell"></a>PowerShell を使用して更新する場合
+### <a name="to-update-using-powershell"></a>PowerShell を使用して更新するには
 
 1. インストール [MSI](https://go.microsoft.com/fwlink/?linkid=851168) から、デバイスがアクセスできる共有先にパッケージを抽出します。
 2. Microsoft Teams Rooms のデバイスを対象に次のスクリプトを実行します \<share\> は、該当するデバイス共有に変更します)。
@@ -207,7 +207,7 @@ Windows ストアへのアクセスの制限により更新プログラムを手
 
 プライベート CA 証明書を手動でインストールする場合など、一部の管理機能では、Teamsを管理モードにする必要があります。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>管理者モードに切り替えて、会議室アプリMicrosoft Teamsに戻る
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>管理者モードに切り替えて、Microsoft Teams Rooms アプリが実行されているときに戻る
 
 1. 現在の通話を切って、ホーム画面に戻ります。
 2. 歯車アイコンをクリックすると、メニューが表示されます (オプションは、**[設定]**、**[アクセシビリティ]**、**[デバイスを再起動]** です)。
@@ -218,7 +218,7 @@ Windows ストアへのアクセスの制限により更新プログラムを手
 7. 必要な管理タスクを実行します。
 8.  終了したら、コンピューターを再起動します。
     
-コンソールは通常の操作モードに戻ります。次の手順では、デバイスにキーボードが接続されていない場合は接続する必要があります。 
+コンソールは、通常の操作モードに戻ります。 次の手順では、キーボードまたはデバイスのいずれかが接続済みでない場合に、キーボードをデバイスに接続することが要求されます。 
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>管理者モードに切り替え、Microsoft Teams Rooms アプリがクラッシュしたら元に戻す
 

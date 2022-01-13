@@ -13,30 +13,30 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: この記事では、Cisco WebEx と Zoom へのサードパーティの会議参加をサポートTeams、組織と会議室デバイスを構成する方法について説明します。
-ms.openlocfilehash: 7d3636c2cb3c12e47b4bba0e0c95f7e181069f19
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d952df95a396e29ffcf393ded068a30459707218
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602152"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015247"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>ルーム Teamsサード パーティ会議への参加を有効にする
+# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>ルーム Teamsを有効にしてサードパーティ会議に参加する
 
-Microsoft Teams会議室デバイスは、直接ゲスト参加とも呼ばれるサードパーティのオンライン会議に参加するワンタッチ エクスペリエンスをサポートします。 有効にすると、Teams Rooms デバイスを使用して、Microsoft Teams でホストされている会議に参加できるのと同じ方法で、Cisco WebEx および Zoom でホストされている会議に参加できます。
+Microsoft Teams会議室デバイスは、サード パーティのオンライン会議 (直接ゲスト参加とも呼ばれます) に参加するワンタッチ 操作をサポートします。 有効にすると、Teams 会議室を使用して、Cisco WebEx および Zoom でホストされている会議に、Microsoft Teams でホストされている会議に参加できるのと同じ方法で簡単に参加できます。
 
-Teams Rooms デバイスからサードパーティ会議に参加するには、次の操作を行う必要があります。
+Teams 会議室からサード パーティの会議に参加するには、次の操作を行う必要があります。
 
-1. サード パーティTeamsの招待を処理Exchange Online会議室メールボックスの会議室メールボックスを構成します。
+1. サードパーティ会議Teamsを処理Exchange Online会議室メールボックスを構成します。
 2. 組織に、サードパーティの会議サービスへの接続を妨げるポリシーが設定されていないことを確認します。
-3. サードパーティのTeamsを許可する会議室デバイスを構成します。
+3. サードパーティTeamsを許可する会議室を構成します。
 
 次のセクションでは、これらの各手順を実行する方法について説明します。
 
 ## <a name="step-1-allow-calendar-invite-processing-for-third-party-meetings"></a>手順 1: サードパーティ会議の予定表の招待処理を許可する
 
-Team Rooms デバイスからワンタッチ参加エクスペリエンスを有効にするには、まず、デバイスの会議室メールボックスの予定表処理ルールをExchange Onlineがあります。 会議室メールボックスは、外部会議を許可し、メッセージの本文と件名を保持して、サード パーティ会議に参加するために必要な URL を確認できる必要があります。 [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.)コマンドレットを使用してこれらのルーム メールボックス オプションを設定するには、次の操作を行います。
+チーム ルームからワンタッチ参加エクスペリエンスを有効にするには、まず、デバイスの会議室メールボックスの予定表処理ルールをExchange Onlineがあります。 会議室メールボックスは、外部会議を許可し、メッセージの本文と件名を保持して、サード パーティ会議に参加するために必要な URL を確認できる必要があります。 [Set-CalendarProcessing](/powershell/module/exchange/set-calendarprocessing?view=exchange-ps.)コマンドレットを使用してこれらのルーム メールボックス オプションを設定するには、次の操作を行います。
 
-1. Exchange Online PowerShell に接続します。 詳細については、「基本認証を使用Connect PowerShell をExchange Onlineする」を参照するか、認証方法に応じて、Connect から Exchange Online [PowerShell](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)を多要素認証を使用して[PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)を使用する方法に関するページを参照してください。
+1. Exchange Online PowerShell に接続します。 詳細については、「基本認証を使用Connect [PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)をExchange Onlineする」を参照するか、認証方法に応じて Connect から[Exchange Online PowerShell](/powershell/exchange/mfa-connect-to-exchange-online-powershell?view=exchange-ps)に対して多要素認証を使用する方法に関するページを参照してください。
 
 2. 次のコマンドを実行して、ルーム メールボックスのユーザー プリンシパル名 (UPN) を取得します (分からない場合)。
 
@@ -56,13 +56,13 @@ PowerShell の詳細[については、Exchange Onlineしてください](/power
 
 ## <a name="step-2-configure-office-365-threat-protection-and-link-rewrite"></a>手順 2: Threat Protection とOffice 365書き換えを構成する
 
-ワンタッチ参加エクスペリエンスを有効にするには、サードパーティの会議からの会議参加リンク情報が会議の招待に表示され、読み取り可能である必要があります。 組織で Office 365 [Advanced Threat Protection セーフ リンク](/microsoft-365/security/office-365-security/atp-safe-links)機能を使用している場合、またはすべての受信 URL と送信 URL をスキャンして脅威を検出するサード パーティ製ソリューションを使用している場合は、会議参加 URL が変更され、Teams Rooms デバイスで会議が認識できない可能性があります。 これが発生しない場合は、サード パーティの会議サービスの URL を ATP セーフ リンクの "書き換えない" リストまたはサード パーティの URL 書き換え例外リストに追加する必要があります。
+ワンタッチ参加エクスペリエンスを有効にするには、サードパーティの会議からの会議参加リンク情報が会議の招待に表示され、読み取り可能である必要があります。 組織で Office 365 [Advanced Threat Protection セーフ リンク](/microsoft-365/security/office-365-security/atp-safe-links)機能を使用している場合、またはすべての受信 URL と送信 URL をスキャンして脅威を検出するサード パーティ製ソリューションを使用している場合は、会議参加 URL が変更され、Teams Rooms デバイスによって会議が認識できない可能性があります。 これが発生しない場合は、サード パーティの会議サービスの URL を ATP セーフ リンクの "書き換えない" リストまたはサード パーティの URL 書き換え例外リストに追加する必要があります。
 
-サードパーティの会議サービス URL を ATP セーフ リンク "書き換えない" リストに追加するには、「ATP セーフ リンクを使用してカスタムの書き換えない URL リストを設定する」の[手順に従](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)います。 サード パーティのソリューションを使用する場合は、そのソリューションの手順を参照して、URL 書き換え例外リストに URL を追加します。
+サード パーティの会議サービス URL を ATP セーフ リンクの "書き換えない" リストに追加するには、「ATP セーフ リンクを使用してカスタムの書き換えない URL リストを設定する[」の手順に従](/microsoft-365/security/office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp?view=o365-worldwide)います。 サード パーティのソリューションを使用する場合は、そのソリューションの手順を参照して、URL 書き換え例外リストに URL を追加します。
 
 ATP セーフ リンク "書き換えない" リストまたはサード パーティの URL 書き換え例外リストに追加する必要があるエントリの例を次に示します。
 
-- **Cisco WebEx**`*.webex.com*`
+- **Cisco WebEx** `*.webex.com*`
 - **ズーム** `*.zoom.us*` `*.zoom.com*` 、、、 `*.zoomgov.com*`
 
 ATP セーフ リンク "書き換えない" リストまたはサード パーティの URL 書き換え例外リストに追加する URL の完全な一覧については、会議の招待を受け入れるサードパーティの会議サービス プロバイダーにお問い合わせください。 
@@ -70,13 +70,13 @@ ATP セーフ リンク "書き換えない" リストまたはサード パー�
 > [!CAUTION]
 > 信頼できる URL のみを ATP アカウントに追加セーフリンク "書き換えない" リストまたはサード パーティの URL 書き換え例外リスト。
 
-## <a name="step-3-enable-third-party-meetings-on-device"></a>手順 3: デバイスでサードパーティの会議を有効にする
+## <a name="step-3-enable-third-party-meetings-on-teams-rooms"></a>手順 3: 会議室でサードパーティの会議Teamsする
 
-最後に行う必要がある手順は、各会議室デバイスTeamsサードパーティ会議への参加を許可します。 サードパーティ会議に参加するには、ユーザー名とメール アドレスが必要です。 使用する必要があるユーザー名とメール アドレスがデバイスのルーム メールボックスと異なる場合は、デバイスに追加する必要があります。 これは、デバイス設定または XML 構成ファイルで行います。
+最後に行う必要がある手順は、会議室Teamsサードパーティ会議への参加を許可します。 サードパーティ会議に参加するには、ユーザー名とメール アドレスが必要です。 使用する必要があるユーザー名とメール アドレスがデバイスのルーム メールボックスと異なる場合は、デバイスに追加する必要があります。 これは、会議室の設定Teams XML 構成ファイルで行います。
 
 ### <a name="use-device-settings"></a>デバイス設定を使用する
 
-タッチスクリーンを使用して Teams Rooms デバイスを構成するには、次の操作を行います。
+タッチスクリーン コンソールをTeams会議室を構成するには、次の操作を行います。
 
 1. [会議室] Microsoft Teamsで、[その他 **...] を選択します**。
 2. **[設定]** を選択し、デバイス管理者のユーザー名とパスワードを入力します。
@@ -101,7 +101,7 @@ Zoom 会議を有効にするには、 `ZoomMeetingsEnabled` 次のように XML
 <ZoomMeetingsEnabled>True</ZoomMeetingsEnabled>
 ```
 
-必要に応じて、カスタム ユーザー名とメール アドレスを指定して、次の XML 要素を使用してサードパーティの会議に参加できます。 指定した値が無効な場合、Teams Rooms デバイスは、既定で会議室メールボックスのユーザー名とメール アドレスを使用します。
+必要に応じて、カスタム ユーザー名とメール アドレスを指定して、次の XML 要素を使用してサードパーティの会議に参加できます。 指定した値が無効な場合、会議室Teamsのユーザー名とメール アドレスが既定で使用されます。
 
 ```xml
 <UseCustomInfoForThirdPartyMeetings>true</UseCustomInfoForThirdPartyMeetings>
