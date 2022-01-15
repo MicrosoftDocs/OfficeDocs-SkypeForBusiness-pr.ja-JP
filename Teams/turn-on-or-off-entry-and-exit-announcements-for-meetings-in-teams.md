@@ -1,7 +1,7 @@
 ---
 title: 会議の入退出のお知らせをオンまたはオフTeams
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 管理者は、会議中に入退出のお知らせをオンまたはオフにする方法Microsoft Teamsできます。
-ms.openlocfilehash: ab69b64352508d15b5f1125629ab90b3ec58f851
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: a9dcaaabcaa31160e162ba2a2685a02d9e2397da
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537278"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056017"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Microsoft Teams で会議の入退室通知をオンまたはオフにする
 
@@ -37,9 +37,7 @@ Microsoft 365 または Office 365 で電話会議を設定すると、電話会
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="setting-meeting-join-options"></a>会議の参加オプションの設定
-
- **Microsoft Teams 管理センターの使用**
+## <a name="setting-meeting-join-options-using-the-microsoft-teams-admin-center"></a>管理センターで会議参加オプションMicrosoft Teams設定する
 
 これらの変更を行うには、Teams サービス管理者であることが必要です。 「[Teams 管理者ロールを使用してチームを管理する](./using-admin-roles.md)」をご覧いただき、管理者ロールとアクセス許可を取得する方法について読んでください。
 
@@ -62,9 +60,9 @@ Microsoft 365 または Office 365 で電話会議を設定すると、電話会
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Windows PowerShell を使い始めるには、次のトピックを参照してください。
 
-Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作についてすべて行います。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
+Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、単一の管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
 
-- [PowerShell で使用する必要があるMicrosoft 365またはOffice 365する理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [PowerShell または PowerShell をMicrosoft 365するOffice 365理由](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
 - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 

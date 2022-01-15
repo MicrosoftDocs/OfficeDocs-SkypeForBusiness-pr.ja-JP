@@ -1,7 +1,7 @@
 ---
 title: 中小企業向けに音声会議を設定する
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
@@ -21,23 +21,23 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '電話を使って会議にコールインする必要があるユーザーのために、中小企業で電話会議を設定する方法について説明します。 '
-ms.openlocfilehash: cd11d5c3c348b64717cb092a523ee857639712c6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fc9a87c2e516dc97fae5c71f72b5a7ef82c75c8d
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827410"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055627"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>中小企業向けに音声会議を設定する
 
-電話会議では、モバイル デバイスやコンピューターで Teams アプリを使用する代わりに、電話を使って Teams 会議にコールインできます。  
+電話会議では、モバイル デバイスやコンピューターから Teams アプリを使う代わりに、電話を使って Teams 会議にコールインできます。  
 
 最大 300 人のユーザーを含む中小企業で、現在電話会議のライセンスを持ってない場合は、電話会議を 1 年間無料で利用できます。 この無料オファーは、2020 年 10 月 1 日から利用できます。
 
 電話会議アドオン ライセンスは、Microsoft 365 Business Basic、Business Standard、Business プレミアム、Enterprise E1、または Enterprise E3 ライセンスを持つユーザーに適用できます。 詳細については、「Teams[ライセンス」を参照してください。](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 > [!NOTE]
-> E5 または Enterprise Microsoft 365 Business Voiceを使用している場合、これらのライセンスには既に電話会議が含まれるため、無料の電話会議オファーを使用することはできません。
+> E5 または EnterpriseをMicrosoft 365 Business Voice場合、これらのライセンスには既に電話会議が含まれるため、無料の電話会議オファーを使用することはできません。
 
 この記事では、電話会議を設定する方法について説明します。 電話会議のセットアップは、ミーティングのスケジュールを設定するユーザーまたはミーティングを主催するユーザーにのみ必要です。 会議にコールインする会議出席者は、ライセンスや他のセットアップを必要としません。 詳細については、「電話会議」 [を参照してください](audio-conferencing-in-office-365.md)。
 
@@ -80,7 +80,7 @@ ms.locfileid: "60827410"
 
 ## <a name="schedule-teams-meetings-in-outlook"></a>会議Teamsスケジュールを設定Outlook
 
-会議の開催者は、会議のスケジュールを設定Outlook。 [Outlook] に移動 **し**、[会議の新しいTeams **選択** します。 会議のダイヤルイン番号と会議 ID は、会議の出席者に送信される会議出席依頼に自動的に追加されます。 詳細については、「会議のスケジュール[を設定する」をTeamsを参照Outlook。](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
+会議の開催者は、会議のスケジュールを設定Outlook。 [Outlook] に移動 **し**、[会議の新規Teams **選択** します。 会議のダイヤルイン番号と会議 ID は、会議の出席者に送信される会議出席依頼に自動的に追加されます。 詳細については、「会議のスケジュール[を設定する」をTeamsを参照Outlook。](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
 
 > [!NOTE]
 > 必要に応じて、会議出席依頼をカスタマイズして、会社のロゴ、サポート Web サイトへのリンク、免責事項、テキストのみフッターを追加できます。 詳細については、「会議出席依頼を [カスタマイズする」を参照してください](meeting-settings-in-teams.md#customize-meeting-invitations)。
@@ -93,7 +93,7 @@ ms.locfileid: "60827410"
 
 共有番号は、すべての組織で共有される番号です。 共有番号は有料電話番号であり、電話会議を設定すると自動的に割り当てられます。
 
-会議ブリッジに割り当てられている既定の番号を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[会議会議ブリッジ]に移動し、最も近い場所の番号を見つけて確認します。  >  
+会議ブリッジに割り当てられている既定の番号を表示するには、Microsoft Teams 管理センターの左側のナビゲーションで、[会議会議ブリッジ] に移動し、最も近い場所の番号を見つけて確認します。  >  
 
 ### <a name="dedicated-numbers"></a>専用番号
 

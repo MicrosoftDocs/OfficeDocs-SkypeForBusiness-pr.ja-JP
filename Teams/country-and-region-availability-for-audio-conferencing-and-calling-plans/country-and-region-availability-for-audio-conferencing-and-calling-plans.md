@@ -1,7 +1,7 @@
 ---
 title: 国/地域の可用性 - 電話会議、通話プラン
-ms.author: czawideh
-author: czawideh
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -25,13 +25,13 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: 電話会議、電話システム、通話プラン、通信クレジット、有料および無料電話番号が国または地域で利用できる場合について説明します。
-ms.openlocfilehash: 8480fcbe512ed53bf7a94753b22214b50b8f3f85
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+description: 国または地域で電話会議、電話システム、通話プラン、通信クレジット、有料および無料電話番号を利用できる場合について説明します。
+ms.openlocfilehash: ab534a020e91caaa6f9608857d6de76f5505b899
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579527"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056077"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>国および地域ごとの電話会議および通話プランの利用可能性
 
@@ -193,7 +193,7 @@ Skype for Business または Microsoft Teams サービスのいずれかを使�
   
 ### <a name="phone-system"></a>電話システム
 
-この電話システム、自動応答と通話キュー (有料または無料電話番号を含む) を作成して、組織の着信通話に応答します。 ユーザーの通話プランを追加すると、Skype for Business を使用して、通話の発信と受信、通話の転送、通話のミュートとミュート解除などの基本的な通話制御タスクを処理できます。 **電話システム** ユーザーがアドレス帳の名前をクリックするとSkype for Businessそのユーザーに通話が送信されます。 通話の送受信を行う場合、電話システム ユーザーは、モバイル デバイス、ノート PC を搭載したヘッドセット、または Skype for Business で動作する多くの IP 電話のいずれかを使用します。
+この電話システム、自動応答と通話キュー (有料または無料電話番号) を作成して、組織の着信通話に応答します。 ユーザーの通話プランを追加すると、Skype for Business を使用して、通話の発信と受信、通話の転送、通話のミュートとミュート解除などの基本的な通話制御タスクを処理できます。 **電話システム** ユーザーがアドレス帳の名前をクリックするとSkype for Businessそのユーザーに通話が送信されます。 通話を送受信するために **、電話システム** ユーザーは、モバイル デバイス、ノート PC を搭載したヘッドセット、または Skype for Business で動作する多くの IP 電話のいずれかを使用します。
 
 これらの場所の一部では、有料電話番号の使用可能性が、在庫レベルによって随時変わる場合があります。 個々のユーザーの電話番号を取得するだけでなく、電話会議 (会議ブリッジの場合)、自動応答、通話キューなどのサービスの有料電話番号または無料電話番号を検索して取得できます。 これらはサービス番号と呼ばれます。 電話番号を取得する方法については、「[サービス電話番号を取得する](../getting-service-phone-numbers.md)」を参照してください。 ただし、自分のユーザーに対しては、通話プランの割り当て後に、ユーザーの電話番号を割り当てて通話の発信や受信をできるようにすることができます。 このような電話番号を見つけるには、「[ユーザー用に電話番号を取得する](../getting-phone-numbers-for-your-users.md)」を参照してください。 詳細については、「[ユーザーの電話番号の割り当て、変更、削除を行う](../assign-change-or-remove-a-phone-number-for-a-user.md)」をご覧ください。
 
@@ -217,7 +217,7 @@ Skype for Business または Microsoft Teams サービスのいずれかを使�
 
 個々のユーザーの電話番号を取得する以外に、電話会議 (会議ブリッジの場合)、自動応答、通話キューなどのサービスの有料電話番号または無料電話番号を検索して取得できます。 これらはサービス番号と呼ばれます。
   
-電話会議と通話プランで使用する有料サービス番号を取得できる首都および主要都市のリストを以下に示します。 これらの場所から有料サービス番号を受け取る場合は、Skype for Business **を使用します**。
+電話会議と通話プランで使用する有料サービス番号を取得できる首都および主要都市のリストを以下に示します。 これらの場所から有料サービス番号を取得するには、Skype for Business **を使用します**。
   
 有料または無料のサービス番号を取得する場合は、「サービス電話番号を取得する」 [を参照してください](../getting-service-phone-numbers.md)。 別のプロバイダーから転送する有料または無料のサービス番号が既に存在する場合は、「組織の電話番号を管理する」 [を参照してください](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 

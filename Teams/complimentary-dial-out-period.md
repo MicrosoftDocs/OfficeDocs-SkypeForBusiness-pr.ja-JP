@@ -1,7 +1,7 @@
 ---
 title: 無料のダイヤルアウト期間
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, OscarR
 ms.topic: conceptual
@@ -22,29 +22,29 @@ f1.keywords:
 ms.custom:
 - Legal
 - seo-marvel-mar2020
-description: 通話プランまたは通話プランの無料のダイヤルMicrosoft 365プランOffice 365、Office 365電話会議のMicrosoft Teams。
-ms.openlocfilehash: fa571a355f4eb9a546c2c231e9a06f83d4374029
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 通話プランと電話会議のMicrosoft 365またはOffice 365の無料ダイヤルアウト期間Office 365について説明Microsoft Teams。
+ms.openlocfilehash: 5cdc9d7c9c19218a29685fc7ff256d27ef81462a
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619603"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055497"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>音声会議の無料ダイヤル アウト期間
 
 ## <a name="skype-for-business-pstn-services"></a>Skype for Business PSTN サービス
 
-お客様は、Skype for Business Online PSTN サービス使用条件および顧客のボリューム ライセンス契約で許可されている Microsoft 365 または Office 365 通話プランと Office 365 電話会議を使用できます。 PSTN サービスの使用条件については、「ライセンス条項とドキュメント [」を参照してください](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)。
+Skype for Business Online PSTN サービス使用条件および顧客のボリューム ライセンス契約で許可されている Microsoft 365 または Office 365 通話プランと Office 365 電話会議を使用できます。 PSTN サービスの使用条件については、「ライセンス条項とドキュメント [」を参照してください](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=2&amp;Keyword=PSTN)。
   
 ### <a name="end-of-complimentary-dial-out-period"></a>無料のダイヤルアウト期間の終了
 
-無料のダイヤルアウト機能は、2019 年 12 月 1 日に終了しました。 詳細については、「電話会議サブスクリプション [のダイヤルアウト」を参照し、特典を受け取って電話をかける方法に関するページを参照してください](audio-conferencing-subscription-dial-out.md)。 
+無料のダイヤルアウト機能は、2019 年 12 月 1 日に終了しました。 詳細については、「電話会議サブスクリプション [のダイヤルアウト」を参照し、特典を受け取って電話をかける方法に関するページを参照してください](audio-conferencing-subscription-dial-out.md)。
 
 この変更は、電話会議サブスクリプションを利用できる国では行われなかったが、現在通信クレジットの設定は有効にしていない。 これらの特定の国は、ロシア、韓国、台湾です。
 
 ### <a name="complimentary-dial-out-period-details"></a>無料のダイヤルアウト期間の詳細
 
-Microsoft 365 または Office 365 電話会議サービスを導入しているお客様のために、Microsoft は 2019 年 11 月まで Microsoft 365 または Office 365 電話会議サブスクリプション ライセンスが割り当てられているユーザーによって開催される会議からのダイヤルアウトに関連する追加の無料特典を提供しています。 この無料期間中、Microsoft では、会議の開催者または承認された出席者が、会議ポリシー設定で定義されている通り、44 ゾーン [A](audio-conferencing-zones.md)の国と地域で会議内からプレミアム以外の電話番号へのダイヤルアウト通話を行います。 この特典は、電話会議の月額サブスクリプション ライセンスに適用され、電話会議の分単位支払いライセンスには適用できません。
+microsoft が Microsoft 365 または Office 365 電話会議サービスを導入しているお客様向けには、Microsoft 365 または Office 365 電話会議サブスクリプション ライセンスが 2019 年 11 月まで割り当てられているユーザーによって開催される会議からのダイヤルアウトに関連する追加の無料特典を提供しています。 この無料期間中、Microsoft では、会議の開催者または承認された出席者が、会議ポリシー設定で定義されている通り、44 ゾーン [A](audio-conferencing-zones.md)の国と地域で会議内からプレミアム以外の電話番号へのダイヤルアウト通話を行います。 この特典は、電話会議の月額サブスクリプション ライセンスに適用され、電話会議の分単位支払いライセンスには適用できません。
 
 さらに、無料のダイヤルアウト期間中は、次のように 900 分の制限があります。
 
@@ -57,15 +57,15 @@ Microsoft 365 または Office 365 電話会議サービスを導入している
 - [ゾーン A](audio-conferencing-zones.md)の国と地域の一覧に含められていない宛先へのすべての発信通話は、その宛先に公開された料金で通信クレジットを使用して分単位で請求されます (テナントが通信クレジットを設定し、会議開催者にコミュニケーション クレジット ライセンスを割り当てた場合)。
 
 > [!NOTE]
-> この管理センターでは、ダイヤルアウト分プールに対して使用状況Skype for Business監視できます。 [管理センター Microsoft Teams & Skype、従来のポータルの **[PSTN** ミニプールのレポート  >    >  **] に移動します**。 この無料の分のプールは、レポートで "ゾーン A の国と地域への発信呼び出し" としてラベル付けされます。
+> この管理センターでは、ダイヤルアウト分のプールに対して使用状況Skype for Business監視できます。 [管理センター Microsoft Teams & Skype、従来のポータルの **[PSTN** ミニプールのレポート  >    >  **] に移動します**。 この無料の分のプールは、レポートで "ゾーン A の国と地域への発信呼び出し" としてラベル付けされます。
 
 テナントのダイヤルアウト分プールの使用率が 80% と 100% に達すると、特定の顧客のすべてのテナント管理者に電子メール通知が送信されます。
 
 分単位で請求されるダイヤルアウト通話 (テナントのダイヤルアウト分プールを超える呼び出し、またはゾーン [A](audio-conferencing-zones.md) の国と地域の一覧ではない宛先への呼び出し) の場合、呼び出しと関連付けられている料金は、主に開催者または参加者がダイヤルアウト通話を開始する国または地域ではなく、通話の宛先に基づいて行います。 たとえば、フランスの電話番号に対する通話は、米国の会議参加者またはフランスの会議参加者によって開始された場合、同じ料金で請求されます。
 
 コミュニケーション クレジットの詳細については、「コミュニケーション クレジット」 [を参照してください](what-are-communications-credits.md)。
-     
-## <a name="related-topics"></a>関連トピック
+
+## <a name="related-topics"></a>関連項目
 
 - [国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [電話会議の国と地域のゾーン](audio-conferencing-zones.md)

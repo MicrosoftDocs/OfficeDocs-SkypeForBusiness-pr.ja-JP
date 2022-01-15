@@ -1,8 +1,8 @@
 ---
 title: 発信通話の制限 - PSTN 通話&電話会議
 ms.reviewer: ''
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 管理者は、ユーザーが行える電話会議とエンドユーザー PSTN 通話の種類を制御できます。
-ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 39a51c1fdf6bbb7597b255fc5879a4d7a77be2db
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766240"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055177"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー
 
@@ -42,25 +42,24 @@ ms.locfileid: "61766240"
 ゾーン A と見なされる国と地域を確認するには、「電話会議の国と [地域のゾーン」を参照してください](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > ダイヤルされた番号が会議の開催者 (電話会議の場合) またはエンド ユーザー (エンド ユーザー PSTN 通話の場合) に設定されている Office 365 Microsoft 365国と同じ国にある場合、通話は国内と見なされます。
+   > ダイヤルされた番号が会議の開催者 (電話会議の場合) またはエンド ユーザー (エンド ユーザー PSTN 通話の場合) に対して Microsoft 365 または Office 365 が設定されている国と同じ国にある場合、通話は国内通話と見なされます。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>電話会議の発信通話を制限する
 
-**Microsoft Teams 管理センターの使用**
+### <a name="using-the-microsoft-teams-admin-center"></a>Microsoft Teams 管理センターの使用
 
 1. 左側のナビゲーションで [ユーザー] **を選択** し、使用可能なユーザーの一覧からユーザーの表示名を選択します。
 
-3. [電話会議 **] の横にある [** 編集] を **選択します**。
+2. 次に、[電話会議] **に移動し、[編集**] を **選択します**。
 
-4. [ **会議からのダイヤルアウト] で**、必要なダイヤルアウト制限オプションを選択します。
+3. [ **会議からのダイヤルアウト] で**、必要なダイヤルアウト制限オプションを選択します。
 
-5. **[保存]** を選択します。
+4. **[保存]** を選択します。
 
-
-**PowerShell を使用する場合**
+### <a name="using-powershell"></a>PowerShell の使用
 
 発信呼び出し制限は、OnlineDialOutPolicy と呼ばれる 1 つのポリシーによって制御されます。このポリシーには、それぞれに制限属性があります。 ポリシーをカスタマイズすることはできません。設定の組み合わせごとに事前に定義されたポリシー インスタンスがあります。
 

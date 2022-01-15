@@ -1,7 +1,7 @@
 ---
 title: 特定の Teams ユーザーの無料電話番号を無効にする
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,31 +21,32 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 開催者が電話会議ブリッジ会議に無料電話番号を使用する方法を制御する方法について説明します。
-ms.openlocfilehash: 3d9cd647f8089bd95defe016176dbc236e9f628b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18696143930c42649304bb62b5693e95179397e4
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613646"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055437"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>特定の Teams ユーザーの無料電話番号を無効にする
 
 組織の Microsoft 電話会議ブリッジに無料電話番号がある場合、特定の開催者の会議でその使用を許可または禁止することができます。  
 
-既定では、組織内のすべてのユーザーは、無料電話番号を使用することができます。つまり、それらの番号が使用可能な場合は、会議に参加するために参加者が使用できます。 この設定が組織の特定のユーザーに対しては必要ない場合、特定のユーザーが会議でそれらの番号を使用するのを無料電話番号有効化コントロールを使って制限できます。 
+既定では、組織内のすべてのユーザーは、無料電話番号を使用することができます。つまり、それらの番号が使用可能な場合は、会議に参加するために参加者が使用できます。 この設定が組織の特定のユーザーに対しては必要ない場合、特定のユーザーが会議でそれらの番号を使用するのを無料電話番号有効化コントロールを使って制限できます。
 
-特定の開催者の無料電話番号が無効になっている場合: 
- - 対象の開催者が招待する会議で無料電話番号は含まれなくなります。 
- - 無料電話番号は、対象の開催者が招待する会議で参照される [電話番号の検索] ページにリストされなくなります。 
- - 参加者は、組織の無料電話番号をダイヤルしてその開催者の会議に参加できなくなります。 
- - その開催者のすべての会議は自動的に再スケジュールされ、無料電話番号が削除されます。  
+特定の開催者の無料電話番号が無効になっている場合:
+
+- 対象の開催者が招待する会議で無料電話番号は含まれなくなります。
+- 無料電話番号は、対象の開催者が招待する会議で参照される [電話番号の検索] ページにリストされなくなります。
+- 参加者は、組織の無料電話番号をダイヤルしてその開催者の会議に参加できなくなります。
+- その開催者のすべての会議は自動的に再スケジュールされ、無料電話番号が削除されます。  
 
     > [!IMPORTANT]
-    > この場合、それらの会議の参加者すべてに開催者の電子メールの全招待状が再送信されます。 
+    > この場合、それらの会議の参加者すべてに開催者の電子メールの全招待状が再送信されます。
 
- - 参加者は、電話番号 (有料) を使用して対象開催者の会議に引き続き参加できます。 
+- 参加者は、電話番号 (有料) を使用して対象開催者の会議に引き続き参加できます。
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーの無料電話番号を無効にする 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>特定のユーザーの無料電話番号を無効にする
 
 **Microsoft Teams 管理センター** から次の操作を行います。
 
@@ -53,14 +54,13 @@ ms.locfileid: "58613646"
 
 2. [**電話会議**] の横の [**編集**] をクリックします。
 
-3. **[このユーザーからの会議出席依頼にフリー ダイヤルの番号を含める]** を **[オフ]** に設定します。 
+3. **[このユーザーからの会議出席依頼にフリー ダイヤルの番号を含める]** を **[オフ]** に設定します。
 
-4. **[保存]** をクリックします。 
+4. **[保存]** をクリックします。
 
- 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
- 
-**PowerShell を使用する場合**  
+
+### <a name="using-powershell"></a>PowerShell の使用
 
 詳細については、[Microsoft Teams PowerShell のリファレンス](/powershell/module/teams/?view=teams-ps)をご覧ください。

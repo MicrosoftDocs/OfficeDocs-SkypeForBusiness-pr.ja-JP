@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Rooms のコンソールを構成する
+title: 会議室イメージMicrosoft Teams作成する
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Travis-Snoozy
@@ -15,16 +15,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定および構成方法を説明します。
-ms.openlocfilehash: 2df40f136308bb7855d911667bc871e5750f06cd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: d6c675ed6eb6f50cf41b817770caf723f75f556b
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767280"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055647"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Microsoft Teams Rooms のコンソールを構成する
+# <a name="build-a-microsoft-teams-rooms-image"></a>会議室イメージMicrosoft Teams作成する
 
-この記事では、Microsoft Teams Rooms のコンソールとその周辺機器の設定方法を説明します。
+この記事では、会議室の一括展開Microsoft Teams Rooms イメージを作成するTeams説明します。
+
+> [!NOTE]
+> 次の手順は、一括デプロイ用に WIM ベースのイメージを [作成する場合にのみ](/windows-hardware/manufacture/desktop/capture-and-apply-an-image) 使用する必要があります。 個々のデバイスを回復する場合は、サポートを受け取る元の機器製造元 (OEM) にお問い合わせください。
 
 これらの手順は、「[デプロイの概要](rooms-deploy.md)」で説明されているように、必要な Microsoft Teams アカウントや Skype for Business のアカウントと Exchange アカウントが既に作成されている場合にのみ実行してください。 「[Microsoft Teams Rooms の要件](requirements.md)」で説明されているハードウェアとソフトウェアが必要になります。 このトピックには次のセクションが含まれます。
   
@@ -63,6 +66,7 @@ CreateSrsMedia.ps1 スクリプトを実行すると、次のタスクが自動�
 3. 必要なサポート コンポーネントをダウンロードする。
 4. 必要なコンポーネントをインストール メディアにアセンブルする。
 
+> [!NOTE]
 特定のバージョンの Windows 10 が必要です。このバージョンはボリューム ライセンスのお客様のみが利用できます。  [ボリューム ライセンス サービス センター](https://www.microsoft.com/Licensing/servicecenter/)からコピーを入手できます。
 
 完了したら、コンピューターから USB ディスクを削除し、「[Windows 10 と Microsoft Teams Roomsのコンソール アプリをインストールする](console.md#Reimage)」に進みます。
@@ -71,7 +75,7 @@ CreateSrsMedia.ps1 スクリプトを実行すると、次のタスクが自動�
 ## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Windows 10 と Microsoft Teams Rooms コンソール アプリをインストールする
 <a name="Reimage"> </a>
 
-ここで、作成したセットアップ メディアを適用する必要があります。 ターゲット デバイスは、アプライアンスとして実行されます。既定のユーザーは Microsoft Teams Rooms コンソール アプリのみを実行するように設定されます。
+ここで、作成したセットアップ メディアを適用する必要があります。 ターゲット デバイスはアプライアンスとして実行され、既定のユーザーは、Microsoft Teams Rooms アプリのみを実行Microsoft Teamsされます。
 
 1. ターゲット デバイスがドック (Surface Pro など) にインストールされている場合は、ドックとの接続を解除します。
 
@@ -101,7 +105,7 @@ CreateSrsMedia.ps1 スクリプトを実行すると、次のタスクが自動�
 Creators Update では、暗黙的に言語を選択するとアプリケーションの言語がユーザーが希望する言語に設定されない場合 (フランス語でコンソール アプリを表示したいのに英語で表示される場合など)、ApplyCurrentRegionAndLanguage.ps1 スクリプトを使用する必要があります。
   
 > [!NOTE]
-> 次の手順は、Windows Creators Update を使用して作成されたコンソールにのみ使用できます。 新しいプロビジョニング システムを使用するメディアを使用してセットアップされていないレガシ システムや現行のシステムでは次の手順は使用できません。ただし、この手動操作が必要となる最初の問題の影響を受けないようにする必要もあります (Anniversary Edition では、セットアップの一部としてアプリの言語を明示的に選択できます)。
+> 次の手順は、Windows Creator's Update (Windows 10 20H1) 以降を使用して作成された本体でのみ機能します。
   
 ### <a name="to-apply-your-desired-language"></a>必要な言語を適用するには
 
@@ -142,29 +146,22 @@ Creators Update では、暗黙的に言語を選択するとアプリケーシ�
 ## <a name="initial-set-up-of-the-console"></a>コンソールの初期設定
 <a name="Initial"> </a>
 
-Windows をインストールすると、次回 Microsoft Teams Rooms のコンソール アプリを起動するか、/reboot オプションが選択されていた場合、アプリの初期設定プロセスが実行されます。
+インストールWindows、Microsoft Teams Rooms アプリは初期セットアップ プロセスに入る必要があります。
   
-1. [ユーザー アカウント] 画面が表示されます。 コンソールで使用される会議室アカウントの Skype サインイン アドレス ("ユーザー@ドメイン" 形式) を入力します。
+1. [ユーザー アカウント] 画面が表示されます。 本体で使用Exchangeルーム アカウントの Microsoft Exchange リソース アカウントサインイン アドレス (user@domain 形式) を入力します。
     
 2. 会議室アカウントのパスワードを入力し、確認のためにもう一度入力します。
-    
-3. [Configure Domain](ドメインの設定) で、Skype for Business Server の FQDN を設定します。 Skype for Business SIP ドメインがユーザーの Exchange ドメインと異なる場合は、このフィールドに Exchange ドメインを入力します。
-    
+   
+3. サポートされている会議モードを選択します。Microsoft Teamsのみ、Skype for Businessのみ、または 2 つの複合モードオプションのいずれかを選択します。 必要に応じて、最新の認証を有効にします。
+
 4. **[次へ]** をクリックします。
     
-5. [機能] 画面に表示されたデバイスを選択して、**[次へ]** をクリックします。 既定では、自動画面共有はオンで、会議名の非表示はオフになっています。 選択対象のデバイスは次のとおりです。
+5. Skype for Business を使用し、Skype for Business SIP ドメインがユーザーの Exchange ドメインと異なる場合は、[詳細設定] セクションで Skype for Business Server の FQDN を設定します。 アプリケーションを使用していない場合Skype for Business SIP ドメインがドメインのドメインExchange一致する場合は、このセクションを空白のままにします。
+6. **[次へ]** をクリックします。
     
-   - 会議用のマイク: 会議室で使用する既定のマイク。
+7. [**完了**] をクリックします。
     
-   - 会議用のスピーカー: 会議で使用する既定のスピーカー。 
-    
-   - 既定のスピーカー: HDMI インジェストからのオーディオ用に使用されるスピーカー。
-    
-     それぞれの項目に、選択できるドロップダウン メニューのオプションがあります。各デバイスについて選択を行う必要があります。
-    
-6. [**完了**] をクリックします。
-    
-Microsoft Teams Rooms のコンソール アプリは、先ほど入力した資格情報を使用して Skype for Business Server へのサインインを直ちに開始し、同じ資格情報を使用して Exchange との予定表の同期も開始します。 コンソール アプリの使用方法の詳細については、「[Microsoft Teams Rooms のヘルプ](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)」を参照してください。
+Microsoft Teams Rooms アプリは、上記で入力した資格情報を使用して Microsoft Teams または Skype for Business Server にサインインする必要があります。また、同じ資格情報を使用して予定表と Exchange の同期を開始する必要があります。 会議室の使用の詳細Teams、「会議室のヘルプ[」Microsoft Teams参照してください](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
 > Microsoft Teams Rooms には、認定されたコンソール ハードウェアが必要です。 Microsoft Teams Rooms のコンソール アプリを含むイメージが正しく作成されていても、コンソール ハードウェアが検出されない限り、そのイメージは初期設定手順の後に起動しません。 Surface Pro ベースのソリューションの場合、このチェックが成功するには、Surface Pro と付属するドック ハードウェアが接続されている必要があります。
@@ -174,8 +171,10 @@ Microsoft Teams Rooms のコンソール アプリは、先ほど入力した資
   
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>コンソールにプライベート CA 証明書をインストールする
 <a name="Certs"> </a>
+> [!NOTE]
+> 以下は、会議室と会議室をTeamsする場合にのみSkype for Business。
 
-Microsoft Teams Rooms のコンソールは、接続先のサーバーで使用されている証明書を信頼する必要があります。 O365 の場合、これらのサーバーでは公的証明機関が使用され、Windows 10 によって自動的に信頼されるため、この処理は自動的に実行されます。 Active Directory や Windows 証明機関を使用したオンプレミス デプロイなど、民間の証明機関を使用する場合は、Microsoft Teams Rooms のコンソールに次の 2 つの方法で証明書を追加できます。
+Microsoft Teamsルームは、接続するサーバーによって使用される証明書を信頼する必要があります。 たとえば、Active Directory と Windows 証明機関を使用したオンプレミスデプロイなど、証明機関がプライベートである場合は、いくつかの方法で Microsoft Teams 会議室に証明書を追加できます。
   
 - 証明機関が Active Directory に対して公開されている場合 (通常のデプロイ オプション)、コンソールを Active Directory に参加させると、必要な証明書は自動的に追加されます。
     
@@ -196,7 +195,7 @@ Microsoft Teams Rooms のコンソールは、接続先のサーバーで使用�
 ### <a name="join-an-active-directory-domain-optional"></a>Active Directory ドメインに参加する (オプション)
 <a name="Certs"> </a>
 
-Microsoft Teams Rooms のコンソールをドメインに参加させることができます。 Microsoft Teams Rooms のコンソールは、使用する PC ワークステーションとは別の OU に配置する必要があります。これは、多くのワークステーション ポリシーは Microsoft Teams Roomsと互換性がないためです。 たとえば、パスワードの強制ポリシーが設定されていると、Microsoft Teams Rooms は自動的に起動しなくなります。 GPO 設定の管理については、「会議室の管理[」をMicrosoft Teamsしてください](rooms-operations.md)。
+自分のドメインMicrosoft Teams会議室に参加できます。 Microsoft Teamsは PC ワークステーションとは別の OU に配置する必要があります。多くのワークステーション ポリシーは、Microsoft Teamsです。 たとえば、パスワードの強制ポリシーが設定されていると、Microsoft Teams Rooms は自動的に起動しなくなります。 GPO 設定の管理については、「会議室の管理[」をMicrosoft Teamsしてください](rooms-operations.md)。
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Microsoft Teams Rooms をドメインに参加させるには
 
@@ -227,7 +226,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 
 |完了 |チェック |
 |:-----:|:-----|
-|☐   |ルーム アカウント名と電話番号 (PSTN が有効な場合) が、コンソール画面の右上に正しく表示される   |
+|☐   |ルーム アカウント名と電話番号 (PSTN が有効な場合) が正しく表示される   |
 |☐   |Windows コンピューター名が正しく設定されている (リモート管理に役立つ)   |
 |☐   |管理者アカウントのパスワードが設定されており、確認済みである   |
 |☐   |すべてのファームウェア更新プログラムが適用されている   |
@@ -244,15 +243,15 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 |☐   |オーディオ入力デバイスが機能し、適切に配置されている   |
 |☐   |オーディオ出力デバイスが機能し、適切に配置されている   |
 
-**ドック**
+**コンソール**
 
 |完了 |チェック |
 |:-----:|:-----|
 |☐   |ケーブルが保護されており、圧迫されていない   |
 |☐   |HDMI を介したオーディオ インジェストが機能している   |
 |☐   |HDMI を介したビデオ インジェストが機能している   |
-|☐   |ドックは自由に回転することができる   |
-|☐   |表示の明るさが環境に適している   |
+|☐   |本体は自由に動き回ることができます   |
+
 
 
    

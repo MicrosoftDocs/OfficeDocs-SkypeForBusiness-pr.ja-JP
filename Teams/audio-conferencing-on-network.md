@@ -1,7 +1,7 @@
 ---
 title: 電話会議用のネットワーク上会議
-ms.author: crowe
-author: CarolynRowe
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: conceptual
@@ -19,16 +19,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 電話会議のオンネットワークについて説明します。
-ms.openlocfilehash: 7d477826c79b1a1630616cc51130348bfb953fa7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c6820bade333b6672d00e4f52a361280c10c8771
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620713"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055667"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>電話会議用のネットワーク上会議
 
-ネットワーク上の会議を使用すると、組織は直接ルーティングを通じて、着信および発信の電話会議通話を Microsoft ダイヤルイン番号に送信できます。 この機能は、電話会議のサポートをサード パーティのダイヤルイン番号に拡張することを目的としていない。 サード パーティのダイヤルイン電話番号または Microsoft 電話会議ブリッジから PSTN への発信通話を介して電話会議サービスへの着信通話をルーティングするために使用される場合、ネットワーク会議はサポートされません。 
+ネットワーク上の会議を使用すると、組織は直接ルーティングを通じて、着信および発信の電話会議通話を Microsoft ダイヤルイン番号に送信できます。 この機能は、電話会議のサポートをサード パーティのダイヤルイン番号に拡張することを目的としていない。 サード パーティのダイヤルイン電話番号または Microsoft 電話会議ブリッジから PSTN への発信通話を介して電話会議サービスへの着信通話をルーティングするために使用される場合、ネットワーク会議はサポートされません。
 
 この記事では、組織のネットワーク上会議を有効にするために必要な前提条件と構成手順について説明します。
 
@@ -37,34 +37,34 @@ ms.locfileid: "58620713"
   
 ## <a name="prerequisites"></a>前提条件
 
-オンネットワーク会議を構成する前に、組織が次の前提条件を満たしていることを確認します。 
+オンネットワーク会議を構成する前に、組織が次の前提条件を満たしていることを確認します。
 
-- 電話会議で有効になっている、または有効にする組織内のすべてのユーザーが、すべての会議に Teams を使用します。 オンネットワーク会議を介した受信および送信電話会議のルーティングは、一部の会議でのみTeamsされます。
+- 電話会議で有効になっている、または有効にする組織内のすべてのユーザーが、すべての会議に対して Teamsを使用します。 オンネットワーク会議を介した受信および送信電話会議のルーティングは、電話会議Teamsされます。
 
 - 電話会議ライセンスを、オンネットワーク会議を使用するすべてのユーザーに割り当てる。
 
 - 電話会議サービスを設定します。 詳細については、「電話会議[をセットアップする」を参照Microsoft Teams。](set-up-audio-conferencing-in-teams.md)
 
-- 直接ルーティング用にセッション ボーダー コントローラー (SBC) を設定します。 詳細については、「ダイレクト ルーティングの[計画」および「ダイレクト ルーティング](direct-routing-plan.md)[の構成」を参照してください](direct-routing-configure.md)。 
+- 直接ルーティング用にセッション ボーダー コントローラー (SBC) を設定します。 詳細については、「ダイレクト ルーティングの[計画」および「ダイレクト ルーティング](direct-routing-plan.md)[の構成」を参照してください](direct-routing-configure.md)。
 
   電話会議の目的でのみ直接ルーティングを設定する場合は、"手順 1: SBC を使用する手順 1: Connect ネットワーク会議" のみを完了する必要があります。
   
-## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>直接ルーティングを使用して Microsoft 電話会議へのダイヤルイン通話のルーティングを有効にする 
+## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>直接ルーティングを使用して Microsoft 電話会議へのダイヤルイン通話のルーティングを有効にする
 
 オンプレミス ユーザーが行ったダイヤルイン通話を直接ルーティングを通じて電話会議サービスにルーティングするには、SBC と Private Branch Exchange (PBX) に対して適切なルーティング規則を構成する必要があります。
 
 直接ルーティング トランクを介して組織の電話会議ブリッジの任意のサービス番号に通話をルーティングするには、サイトのテレフォニー機器を構成する必要があります。
 
-Teams 管理センターの [会議 **- >** 会議ブリッジ] または Skype for Business Online PowerShell コマンドレット Get-CsOnlineDialInConferencingBridge を使用して、サービス番号を確認できます。 詳細については、 の電話会議番号の一覧を参照[Microsoft Teams。](see-a-list-of-audio-conferencing-numbers-in-teams.md)
+Teams 管理センターの [会議 **- >** 会議ブリッジ] または Skype for Business Online PowerShell コマンドレット Get-CsOnlineDialInConferencingBridge を使用して、サービス番号を確認できます。 詳細については、 の電話会議番号の一覧を[参照Microsoft Teams。](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
 > [!NOTE]
 > この機能は、分単位の電話会議ライセンスを持つユーザーは使用できません。
 
-## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>直接ルーティングを使用してTeamsダイヤルアウト通話のルーティングを有効にする
+## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>直接ルーティングを使用してTeamsのダイヤルアウト通話のルーティングを有効にする
 
-Teams会議のダイヤルアウト通話は、組織内の会議から PSTN 番号に開始されます。会議に新しい参加者を追加するコールや通話などです。 
+Teams会議のダイヤルアウト通話は、組織内の会議内から PSTN 番号に開始されます。会議に新しい参加者を追加するコールや通話を含む。
 
-ネットワーク上Teams直接ルーティングを介した会議のダイヤルアウト ルーティングを有効にするには、"OnlineAudioConferencingRoutingPolicy" という電話会議ルーティング ポリシーを作成して割り当てる必要があります。 
+ネットワーク上Teams直接ルーティングを介した会議のダイヤルアウト ルーティングを有効にするには、"OnlineAudioConferencingRoutingPolicy" という電話会議ルーティング ポリシーを作成して割り当てる必要があります。
 
 OnlineAudioConferencingRoutingPolicy ポリシーは、直接ルーティングを介した 1 対 1 の PSTN 呼び出しの CsOnlineVoiceRoutingPolicy と同等です。 OnlineAudioConferencingRoutingPolicy ポリシーは、次のコマンドレットを使用して管理できます。
 
@@ -76,8 +76,7 @@ OnlineAudioConferencingRoutingPolicy ポリシーは、直接ルーティング�
 
 ダイレクト ルーティングのルーティングの詳細については、「ダイレクト ルーティングの音声ルーティング [を構成する」を参照してください](direct-routing-voice-routing.md)。
 
-
-直接ルーティングを通じて会議ダイヤルアウト通話のルーティングを有効にするには、次の手順を実行する必要があります。 
+直接ルーティングを通じて会議ダイヤルアウト通話のルーティングを有効にするには、次の手順を実行する必要があります。
 
 - 電話会議ルーティング ポリシーを構成する
 - 組織のテレフォニー機器でルーティングを構成する
@@ -90,11 +89,11 @@ OnlineAudioConferencingRoutingPolicy ポリシーは、直接ルーティング�
 電話会議ルーティング ポリシー OnlineAudioConferencingRoutingPolicy は、ダイレクト ルーティング トランクにルーティングされる会議ダイヤルアウト呼び出しを決定します。 CsOnlineVoiceRoutingPolicy ポリシーをよく理解している場合、このポリシーは非常に似た方法で動作します。
 
 電話会議ルーティング ポリシーを設定するには、次の手順が必要です。
-1.  PSTN の使用状況を作成する
-2.  音声ルートを構成する
-3.  電話会議の音声ルーティング ポリシーを作成する
-4.  ユーザーにポリシーを割り当てる
 
+1. PSTN の使用状況を作成する
+1. 音声ルートを構成する
+1. 電話会議の音声ルーティング ポリシーを作成する
+1. ユーザーにポリシーを割り当てる
 
 #### <a name="create-pstn-usages"></a>PSTN の使用状況を作成する
 
@@ -108,7 +107,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 
 #### <a name="configure-voice-routes"></a>音声ルートを構成する
 
-音声ルートは、会議からダイヤルされた電話番号に基づいて、通話をルーティングするために使用する PSTN Teamsします。 音声ルートは、特定の通話をルーティングするために使用する PSTN ゲートウェイを決定します。これは、Teams からダイヤルされた電話番号と正規表現パターンを照合します。 音声ルートを作成する場合、ルートは 1 つ以上の PSTN 使用法に関連付けられている必要があります。
+音声ルートは、会議からダイヤルされた電話番号に基づいて通話をルーティングするために使用する PSTN Teamsします。 音声ルートは、特定の通話をルーティングするために使用する PSTN ゲートウェイを決定します。これは、Teams会議からダイヤルされた電話番号と正規表現パターンを照合します。 音声ルートを作成する場合、ルートは 1 つ以上の PSTN 使用法に関連付けられている必要があります。
 
 "New-CsOnlineVoiceRoute" コマンドレットを使用して、音声ルートを作成し、音声ルートに関連付けられる正規表現とゲートウェイを定義できます。 次に例を示します。
 
@@ -138,11 +137,9 @@ New-CsOnlineAudioConferencingRoutingPolicy "Policy 1" -OnlinePstnUsages "US and 
 Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -PolicyName "Policy 1”
 ```
 
-
 ### <a name="configure-routing-on-the-telephony-equipment-of-your-organization"></a>組織のテレフォニー機器でルーティングを構成する
 
 組織のテレフォニー機器では、ダイレクト ルーティングを介してルーティングされた会議ダイヤルアウト通話が、目的のネットワーク上の宛先にルーティングされる必要があります。
-
 
 ### <a name="optional-configure-a-dial-plan"></a>(省略可能)ダイヤル プランを構成する
 
@@ -152,6 +149,4 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 ネットワーク上の会議を通じて内線番号ベースのダイヤルを有効にする場合は、組織の電話番号の電話番号範囲に合わせて、内線番号のダイヤル パターンに合わせてダイヤル プランを設定できます。 ダイヤル プランを設定するには、「ダイヤル プランの [作成と管理」を参照してください](create-and-manage-dial-plans.md)。
 
-## <a name="related-topics"></a>関連トピック
-
-
+## <a name="related-topics"></a>関連項目

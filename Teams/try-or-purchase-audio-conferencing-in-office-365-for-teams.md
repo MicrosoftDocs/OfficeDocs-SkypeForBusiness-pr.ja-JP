@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 で電話会議を試用または購入Teams
-ms.author: tonysmit
-author: tonysmit
+title: Microsoft 365 で電話会議を試Microsoft 365購入Teams
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -24,14 +24,14 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Microsoft 365 または Office 365 の電話会議 (PSTN 会議) ライセンスを試用または購入して、ユーザーがダイヤルインできる電話会議を設定する方法について説明します。 '
-ms.openlocfilehash: af031e26cceb920811c3b4f349fda44fd7e3a387
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 992d6b71b5ad63cfe082a9b12c0a5add98074a0f
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611536"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055307"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 365 で電話会議を試用または購入Microsoft Teams
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Microsoft 365 で電話会議を試Microsoft Teams
 
 組織内のユーザーが、会議にダイヤル インするために電話機を使用する必要がある場合があります。 Microsoft Teams、この状況に合った電話会議機能が含まれています。 ユーザーは、モバイル デバイスまたは PC Microsoft Teamsアプリを使用する代わりに、電話を使用してMicrosoft Teams会議にコールインできます。
 
@@ -55,7 +55,7 @@ ms.locfileid: "58611536"
 
 3. [会議をスケジュールまたは開催](/microsoft-365/admin/manage/assign-licenses-to-users) する組織内のユーザーにライセンスを割り当てる。
 
-4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「アドオン ライセンスの[割りMicrosoft Teams割り当て」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+4. 電話会議のアドオン ライセンスおよびコミュニケーション クレジットのライセンスを購入した場合も割り当てます。 手順については、「アドオン ライセンスを割[りMicrosoft Teams割り当てる」を参照してください](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>分単位の電話会議ライセンスを購入して割り当てるには
 
@@ -79,7 +79,7 @@ ms.locfileid: "58611536"
 
 Skype for Business がサードパーティの電話会議プロバイダーと統合されていない組織内のユーザーに電話会議ライセンスを割り当てると、すべてがセットアップされ、準備が整います。 (電話会議プロバイダーを設定する必要はありません。)
 
-サードパーティの電話会議プロバイダーでユーザーを有効にしている場合は、そのユーザーのプロバイダーを Microsoft に変更する必要があります。 ユーザーのプロバイダーを変更するには、「電話会議プロバイダーとして Microsoft を割り当 [てる」を参照してください](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
+サードパーティの電話会議プロバイダーでユーザーを有効にしている場合は、それらのユーザーのプロバイダーを Microsoft に変更する必要があります。 ユーザーのプロバイダーを変更するには、「電話会議プロバイダーとして Microsoft を割り当 [てる」を参照してください](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
 ## <a name="step-3-other-admin-tasks"></a>手順 3: その他の管理タスク
 
@@ -89,14 +89,14 @@ Skype for Business がサードパーティの電話会議プロバイダーと�
 
 2. [招待に含まれる電話番号を設定します](set-the-phone-numbers-included-on-invites-in-teams.md)。 これは、ユーザーが参加を予定している会議で表示される電話番号です。
 
-3. [電話会議の自動応答](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) が電話会議の電話番号にダイヤルインするときに発信者にあいさつするために使用する電話会議の自動応答言語を設定します。 この手順は、電話会議プロバイダーとして Microsoft を使用している場合にのみ適用されます。
+3. [電話会議の自動応答](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) が電話会議の電話番号にダイヤルインするときに発信者にあいさつするために使用する電話会議の自動応答言語を設定します。 この手順は、Microsoft を電話会議プロバイダーとして使用している場合にのみ適用されます。
 
-4. [電話会議の PIN の長さを設定します](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
+4. [電話会議会議の PIN の長さを設定します](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
 
 > [!NOTE]
 > この機能は、21Vianet が運営する Office 365 を中国で使用しているお客様にはまだご利用いただけません。詳細については、「 [21Vianet が運営する Office 365 について](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)」を参照してください。
 
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [組織Teamsを有効にする](office-365-set-up.md)
 

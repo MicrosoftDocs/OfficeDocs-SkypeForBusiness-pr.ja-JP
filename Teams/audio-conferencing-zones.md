@@ -1,7 +1,7 @@
 ---
 title: 電話会議の国と地域のゾーン
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: conceptual
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - seo-marvel-mar2020
 description: 電話会議のゾーンと、各ゾーンの国と地域を一覧表示します。
-ms.openlocfilehash: 441e3134c8430ed5d1aecc5697a28a5cca1df162
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0874612ef586975bf24c15718c686d4112d88e18
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864514"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055847"
 ---
 # <a name="country-and-region-zones-for-audio-conferencing"></a>電話会議の国と地域のゾーン
 

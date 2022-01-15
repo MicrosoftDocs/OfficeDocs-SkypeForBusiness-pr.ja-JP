@@ -1,7 +1,7 @@
 ---
 title: 電話会議でサポートされている言語
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: reference
@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: それぞれの国/地域のダイヤルイン会議の言語と割り当てられたカルチャ ID (en-US、da-DK、de-DE など) を検索します。
-ms.openlocfilehash: 4ecdcf951fde12af53b64cdafd4028e5638f6f27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 38277b1b4b24c544cd271c9bbdb52f53d407fceb
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633431"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055457"
 ---
 # <a name="audio-conferencing-supported-languages"></a>電話会議でサポートされている言語
 
-Microsoft 365 または Office 365 で電話会議を設定および構成する場合は、発信者が Skype for Business または Microsoft Teams 会議にダイヤルインするときに使用されるプライマリ言語とセカンダリ言語 (最大 4 つ) を選択できます。 電話会議でサポートされている言語の一覧を示します。 
+Microsoft 365 または Office 365 で電話会議を設定および構成する場合は、発信者が Skype for Business または Microsoft Teams 会議にダイヤルインするときに使用されるプライマリ言語とセカンダリ言語 (最大 4 つ) を選択できます。 電話会議でサポートされている言語の一覧を示します。
   
 > [!IMPORTANT]
-> プライマリとセカンダリの言語は、専用の電話会議の電話番号でのみ変更できます。 
+> プライマリとセカンダリの言語は、専用の電話会議の電話番号でのみ変更できます。
   
 ## <a name="currently-supported-languages"></a>現在サポートされている言語
 
@@ -84,7 +84,7 @@ Microsoft 365 または Office 365 で電話会議を設定および構成する
 |タイ語  <br/> |タイ  <br/> |th-TH  <br/> |
 |トルコ語  <br/> |トルコ  <br/> |tr-TR  <br/> |
 |ウクライナ語  <br/> |ウクライナ  <br/> |uk-UA  <br/> |
-   
+
 電話会議を購入できる国または地域を調べるには、「[国および地域ごとの電話会議および通話プランの利用可能性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)」を参照してください。
   
 電話会議用の電話番号のある特定の国や地域を検索するには、「[Microsoft Teams での電話会議の電話番号](phone-numbers-for-audio-conferencing-in-teams.md)」または「[Skype for Business Online での電話会議の電話番号](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)」を参照してください。
@@ -92,24 +92,24 @@ Microsoft 365 または Office 365 で電話会議を設定および構成する
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Windows PowerShell での管理方法について
 
 - [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) または [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) コマンドレットを使って、時間の節約や自動化が可能です。
-    
+
 - Windows PowerShellは、ユーザーの管理と、ユーザーが許可または許可されていない操作に関するすべてです。 このWindows PowerShell、1 つの管理ポイントを使用して Microsoft 365 または Office 365 を管理し、複数のタスクを実行する場合に毎日の作業を簡略化できます。 Windows PowerShell の使用を開始するには、次のトピックを参照してください。
-    
+
   - [Windows PowerShell で Office 365 を管理するための最善の方法](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
+
   - [アプリを使用してMicrosoft 365またはOffice 365を管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-- 多くのユーザーの設定を同時に変更するときなどは、Microsoft 365 管理センターのみを使用するよりも、Windows PowerShell を使用した方が、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。 
-    
+
+- 多くのユーザーの設定を同時に変更するときなどは、Microsoft 365 管理センターのみを使用するよりも、Windows PowerShell を使用した方が、速度、わかりやすさ、生産性の点で多くのメリットがあります。次のトピックで、これらの利点を説明します。
+
   - [Windows PowerShell と Skype for Business Online の概要](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [Windows PowerShell による Skype for Business Online の管理](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [Windows PowerShell を使用した一般的な Skype for Business Online の管理タスクの実行](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
     > [!NOTE]
     > Skype for Business Online 用の Windows PowerShell モジュールがあれば、Skype for Business Online に接続するリモートの Windows PowerShell セッションを作成できます。このモジュールは、64 ビット版のコンピューターでのみサポートされており、「[Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688)」の Microsoft ダウンロード センターからダウンロードできます。
   
-## <a name="related-topics"></a>関連トピック
+## <a name="related-topics"></a>関連項目
 
 [電話会議を試用または購入するには、Microsoft 365またはOffice 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

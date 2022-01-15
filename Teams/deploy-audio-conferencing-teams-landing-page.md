@@ -3,8 +3,8 @@ title: 電話会議の設定－Microsoft Teams
 ms.reviewer: ''
 description: ここに示す展開リソースを使用して、Microsoft Teams のミーティング ワークロードの一部として電話会議を展開してください。
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 audience: admin
 ms.date: 01/28/2019
@@ -21,12 +21,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8467132a365fcfdf105859a3404a4a63f4f1a67d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3ede4a0721bacb9c4feb996d58ab01327c13dfd
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617473"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055857"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams での電話会議の導入方法
 
@@ -38,8 +38,7 @@ ms.locfileid: "58617473"
 
 電話会議のセットアップは、ミーティングのスケジュールを設定するユーザーまたはミーティングを主催するユーザーにのみ必要です。 ダイヤルインするミーティングの参加者には、ライセンスの割り当てなど一切のセットアップが不要です。 ミーティングへのダイヤルイン (通話) は、外出先でラップトップやモバイル デバイスの Skype for Business または Teams アプリを使用してミーティングに参加できないユーザーにとって便利なものです。 
 
-
-## <a name="audio-conferencing-prerequisites"></a>電話会議の前提条件 
+## <a name="audio-conferencing-prerequisites"></a>電話会議の前提条件
 
 Teams の電話会議を展開する前に、次の事項について検討してください。
 
@@ -50,15 +49,13 @@ Teams の電話会議を展開する前に、次の事項について検討し�
 |電話会議のライセンスを割り当てたユーザーにコミュニケーション クレジットを購入する必要があるか?|詳細については、「[コミュニケーション クレジットについて](what-are-communications-credits.md)」を参照してから、この後のセクション「[コミュニケーション クレジット](#communications-credits)」を確認してください。|
 |||
 
-
 ## <a name="core-deployment-decisions"></a>展開に関する重要な決定事項
 
 電話会議の前提条件を満たしたら、次の作業を実行してユーザーの電話会議を構成します。
 
-
 ### <a name="teams-administrators"></a>Teams の管理者
 
-Teams は、組織のチームを管理するために使用できる、カスタムの管理者ロールのセットを提供します。ロールは、管理者がさまざまな機能を使用できるようにします。 
+Teams は、組織のチームを管理するために使用できる、カスタムの管理者ロールのセットを提供します。ロールは、管理者がさまざまな機能を使用できるようにします。
 
 | 確認事項 | アクション |
 |--------------|--------|
@@ -80,7 +77,6 @@ Teams は、組織のチームを管理するために使用できる、カス�
 |電話会議で使用する番号を移行する必要があるか?|電話番号の移行の詳細は、「[Teams に電話番号を転送する](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)」を参照してください。|
 |||
 
-
 ### <a name="default-and-alternate-languages"></a>既定の言語と第 2 言語
 
 Teams の電話会議では、会議ブリッジの既定の言語と第 2 言語を設定できます。
@@ -90,9 +86,9 @@ Teams の電話会議では、会議ブリッジの既定の言語と第 2 言�
 | どの言語を自動応答案内に選択する必要があるか? | 言語を選択する場合は、「[電話会議の自動案内の言語を設定する](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)」を参照してください。|
 |||
 
-### <a name="conferencing-bridge-settings"></a>会議ブリッジの設定 
+### <a name="conferencing-bridge-settings"></a>会議ブリッジの設定
 
-会議ブリッジのセットアップ後 (既定の言語および第 2 言語のセットアップを含む)、参加/退出の通知と使用する PIN の長さが適切かなど、既定の設定を確認します。変更が必要な場合は、変更できます。 
+会議ブリッジのセットアップ後 (既定の言語および第 2 言語のセットアップを含む)、参加/退出の通知と使用する PIN の長さが適切かなど、既定の設定を確認します。変更が必要な場合は、変更できます。
 
 |確認事項|アクション |
 |------------|-------|
@@ -120,13 +116,11 @@ Teams の電話会議では、会議ブリッジの既定の言語と第 2 言�
 |自動リチャージする金額を構成できるか?|自動リチャージする金額を設定する場合は、「[組織のコミュニケーション クレジットをセットアップする](set-up-communications-credits-for-your-organization.md)」を参照してください。|
 |||
 
-
-
 ## <a name="additional-deployment-decisions"></a>その他の展開に関する決定事項
 
 次の設定は、組織のニーズと構成に基づいて変更できます。
 
-### <a name="outbound-calling-restriction-policies"></a>発信通話の制限ポリシー 
+### <a name="outbound-calling-restriction-policies"></a>発信通話の制限ポリシー
 
 管理者は、発信通話の制御を使用して、組織内のユーザーが発信できる電話会議の種類とエンド ユーザーの PSTN 通話を制限できます。
 
@@ -134,7 +128,6 @@ Teams の電話会議では、会議ブリッジの既定の言語と第 2 言�
 |------------|-------|
 | 許可する発信通話の種類を制限するか? | 発信通話を制限する場合は、「[電話会議およびユーザーの PSTN 通話に対する発信通話の制限ポリシー](outbound-calling-restriction-policies.md)」を参照してください。|
 |||
-
 
 ### <a name="dial-plans"></a>ダイヤル プラン
 
@@ -148,17 +141,17 @@ Microsoft 365 または Office 365 の電話システムの一部であるダイ
 |どのユーザーがダイヤル プランのカスタマイズを要求していて、どのテナント ダイヤル プランを各ユーザーに割り当てる必要があるか?|PowerShell を使用して、カスタマイズしたダイヤル プランにユーザーを追加するには、「[ダイヤル プランの作成と管理](create-and-manage-dial-plans.md)」を参照してください。|
 |||
 
-### <a name="troubleshoot-meeting-and-call-quality"></a>ミーティングと通話の品質に関するトラブルシューティング 
+### <a name="troubleshoot-meeting-and-call-quality"></a>ミーティングと通話の品質に関するトラブルシューティング
 
-Teams では、通話品質の問題を監視してトラブルシューティングするために、[通話分析と通話品質ダッシュボード](monitor-call-quality-qos.md)という 2 つの方法を利用できます。 通話分析は、各ユーザーの特定の通話および会議に関連するデバイス、ネットワーク、および接続性についての詳細情報を示します。 通話分析は特定の通話の品質にかかわる問題を管理者やヘルプデスク エージェントがトラブルシューティングする際の支援を目的として設計されていますが、通話品質ダッシュボードは管理者やネットワーク エンジニアがネットワークを最適化する際の支援を目的として設計されています。 通話品質ダッシュボードは、特定のユーザーに焦点を合わせるのではなく、Teams 組織全体についての集計情報に注目します。 
+Teams では、通話品質の問題を監視してトラブルシューティングするために、[通話分析と通話品質ダッシュボード](monitor-call-quality-qos.md)という 2 つの方法を利用できます。 通話分析は、各ユーザーの特定の通話および会議に関連するデバイス、ネットワーク、および接続性についての詳細情報を示します。 通話分析は特定の通話の品質にかかわる問題を管理者やヘルプデスク エージェントがトラブルシューティングする際の支援を目的として設計されていますが、通話品質ダッシュボードは管理者やネットワーク エンジニアがネットワークを最適化する際の支援を目的として設計されています。 通話品質ダッシュボードは、特定のユーザーに焦点を合わせるのではなく、Teams 組織全体についての集計情報に注目します。
 
 |確認事項|アクション |
 |------------|-------|
 | 通話品質の問題についての監視およびトラブルシューティングを誰が担当するか? | 通話品質の問題をトラブルシューティングするために必要なアクセス許可レベルの詳細については、「[通話分析を使用して低品質の通話をトラブルシューティングする](use-call-analytics-to-troubleshoot-poor-call-quality.md)」を参照してください。|
 |||
 
-
 ## <a name="next-steps"></a>次のステップ
+
 - 組織での電話会議の[導入を推進する](adopt-microsoft-teams-landing-page.md)。
 - [クラウド ボイスを展開する](cloud-voice-landing-page.md)
 - 最初の Teams ロールアウトには、Planner などのおすすめのアプリを含めます。Teams 導入の進行に応じて、その他の[アプリ、ボット、およびコネクタ](deploy-apps-microsoft-teams-landing-page.md)を追加してください。
