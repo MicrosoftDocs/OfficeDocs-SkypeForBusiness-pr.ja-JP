@@ -19,12 +19,12 @@ description: Teams にクラウド音声機能を展開して、音声、ビデ�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205417"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056087"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams のクラウド会議のレコーディング
 
@@ -255,18 +255,12 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 1 時間のレコーディングのサイズは 400 MB です。 レコーディング ファイルに要求される容量を理解していること、及び OneDrive for Business と SharePoint Online に十分な記憶域が確保されていることを確かめて下さい。  サブスクリプションに含まれる基本のストレージを理解し、追加の記憶域の注文方法を知るために、[OneDrive for Business に既定の記憶域を設定する](/onedrive/set-default-storage-space) そして [SharePoint Online サイトの記憶域の制限を管理する](/sharepoint/manage-site-collection-storage-limits) をご覧ください。
 
  <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 会議の記録の自動消去: 
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 会議の記録の自動消去
 
-> [!IMPORTANT]
->
-> この記事で説明した自動期限切れ機能はまだ開始されていません。 納期日については、[ロードマップ (Feature ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580) を参照してください。
-> 
-> この機能が将来的に動作する方法に関する情報を提供することで、この変化に備えて計画を立て、Teams ポリシー設定を事前に変更できるようにしています。
->
-> Teams の既定の有効期限設定をプリエンプティブに変更するコマンドは現在展開中ですが、PowerShell で属性を確認できる場合があります。 この設定は現在、Teams 管理センターでは利用できません。 これらの設定は、機能を開始する少なくとも 30 日前に利用可能になり、メッセージ センターの投稿で通知されます。
->
->
+管理者固有の変更の詳細については、[こちら](meeting-expiration.md#changes-to-meeting-expiration)を参照してください。
 
+エンド ユーザーが会議の期限を管理する方法の詳細については、[こちら](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)を参照してください。
+  
 管理者およびエンド ユーザーによく寄せられる質問を確認して、Teams 会議の記録の自動期限切れがどのように機能するか、今すぐできるアクション、および機能の開始後にできるアクションに関する分析情報を集めています。
   
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
