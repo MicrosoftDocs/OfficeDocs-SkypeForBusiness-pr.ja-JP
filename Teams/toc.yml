@@ -1365,14 +1365,20 @@ items:
                 href: rooms/recovery-tool.md
       - name: Microsoft Teams Rooms の管理サービス
         items:
-          - name: 管理を計画する
+          - name: 概要
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: 役割ベースのアクセス制御
-            href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: ライセンスを取得して割り当てる
             href: rooms/obtaining-assigning-license.md
           - name: INTUNEP マネージド サービスに登録する
             href: rooms/enrolling-mtrp-managed-service.md
+          - name: インストール
+            href: rooms/monitor-software-installation-guide.md
+          - name: 役割ベースのアクセス制御
+            href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: 会議室の監視と保守
+            href: rooms/managed-meeting-rooms-portal.md
+          - name: 管理された更新プログラム
+            href: rooms/update-management.md
           - name: Teams Rooms の ServiceNow を構成する
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: パートナー向けのマルチテナント管理
