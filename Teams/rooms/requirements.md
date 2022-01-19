@@ -15,29 +15,29 @@ ms.collection:
 - M365-collaboration
 description: Microsoft Teams Rooms をサポートするための要件 (適切なデバイス、マイク、スピーカー、カメラ、ディスプレイの選択) について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56ca188db185e16aa2d85aa88d4e0c00fa4e3d8c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 83e4984ea9cdb689310ec673134b9831bb0c0f00
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767360"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070925"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams Rooms の要件
 
-Microsoft Teams会議室のサイズは異なります。 Teamsルームでは、部屋のサイズと使用に基づいて、さまざまな認定オーディオ周辺機器とビデオ周辺機器を使用します。 マイク、スピーカー、カメラ、ディスプレイと組み合わせて、適切なコア デバイスと本体を選択することで、Microsoft Teams 会議室を小規模な会議室から大きな会議スペースや会議室まで、任意のサイズの空間に展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
+Microsoft Teams会議室のサイズは異なります。 Teams会議室では、部屋のサイズと用途に基づいて、さまざまな認定オーディオおよびビデオ周辺機器を使用します。 適切なコア デバイスと本体を選択し、マイク、スピーカー、カメラ、およびスペースに適したディスプレイと組み合わせると、Microsoft Teams 会議室を小さなハドル 空間から大きな会議スペースや会議室まで、任意のサイズの空間に展開できます。  Microsoft Teams Rooms を構成するために使用できる認定オーディオ/ビデオ周辺機器一式は、[デバイス ショーケース](https://products.office.com/microsoft-teams/across-devices)に用意されています。
 
 この記事では、Microsoft Teams Rooms をサポートするためのデバイスの展開と構成に関する要件をまとめます。
 
-デプロイには、「Teams Rooms のデプロイ」の説明に従って、リソース[アカウントの作成とMicrosoft Teamsが含まれる。](rooms-deploy.md)
+デプロイには、「Microsoft Teams Rooms のデプロイ」の説明に従って、リソース アカウントの作成と Teams Rooms[のセットアップが含まれる。](rooms-deploy.md)
 
 以下を参照してください。
 
 - [プランに基づいたライセンス オプション: Microsoft Teams Rooms](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams Rooms は Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015 にサインインし、これらのサービスによってホストされている会議に参加できます。
+> Microsoft Teams 会議室は Microsoft Teams、Skype for Business Server 2019、Skype for Business Server 2015 にサインインし、これらのサービスによってホストされている会議に参加できます。
 >
-> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Rooms は、21Vianet または DoD 環境Microsoft 365、Office 365または DoD 環境ではサポートされていません。
+> Lync Server 2013 のような以前のプラットフォームは、Microsoft Teams Rooms ではサポートしていません。 Microsoft Teams Rooms は、21Vianet または DoD Microsoft 365または DoD Office 365が運用する環境ではサポートされていません。
 >
 > オンプレミスの Exchange サーバーをご使用の場合、Microsoft Teams Rooms では Exchange Server 2013 SP1 以降を使用する必要があります。
 
@@ -122,7 +122,7 @@ Microsoft Teams会議室のサイズは異なります。 Teamsルームでは�
 
 |Microsoft Teams Rooms の周辺機器|認定ファームウェア バージョン | コンテンツ カメラとして使用できるカメラ|
 |:--- |:--- | :--- |
-|[Aver VC520 Pro カメラ + スピーカーフォン](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
+|[Aver VC520 Pro Camera + Speakerphone](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2 会議システム](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ カメラ サウンド バー](https://www.averusa.com/products/conference-camera/vb342plus) | サウンドバー: 0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
@@ -172,7 +172,7 @@ Microsoft Teams会議室のサイズは異なります。 Teamsルームでは�
 |[EPOS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
 |[EPOS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Speakerphone — 4.6.55 <br/> Extension Mic — 0.2.314|
 |[EPOS Expand Capture 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
-|[Extron DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT、DMP 128 Plus C AT、DMP 128 Plus C V、DMP 128 Plus C、DMP 128 Plus AT、DMP 128 Plus AT、DMP 128 Plus)](https://www.extron.com/product/dmp128plus) | 1.08 |
+|[Extron DMP128 PLUS C V AT DSP システム (DMP 128 Plus C V AT、DMP 128 Plus C AT、DMP 128 Plus C V、DMP 128 Plus C、DMP 128 Plus AT、DMP 128 Plus、DMP 128 FlexPlus C AT、DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |

@@ -1435,6 +1435,8 @@ items:
             href: alerts/device-health-status.md
           - name: Teams デバイスと周辺機器
             href: teams-device-health.md
+          - name: 管理単位を使用してデバイスを管理する
+            href: administrative-unit.md
   - name: アプリ、ボット、コネクタ
     items:
       - name: 概要
@@ -1489,10 +1491,10 @@ items:
                 href: teams-app-permission-policies.md
               - name: Teams のアプリのセットアップ ポリシーを管理する
                 href: teams-app-setup-policies.md
-              - name: ライセンスに基づいて Teams アプリを調整する
-                href: pin-teams-apps-based-on-license.md
               - name: Teams のカスタム アプリのポリシーと設定を管理する
                 href: teams-custom-app-policies-and-settings.md
+          - name: ライセンスに基づいて Teams アプリを調整する
+            href: pin-teams-apps-based-on-license.md
           - name: アプリのアクセス許可を表示し、管理者の同意を与える
             href: app-permissions-admin-center.md
           - name: リソース固有の同意

@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 会議室デバイスTeamsマネージド サービスへのオンボード
 f1keywords: ''
-ms.openlocfilehash: 70209bcd60740f1d1e19b45b215b921396a6f0fd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a02f47970392d5c428eb2cd76387678c1c2a5ed6
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767561"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62071055"
 ---
 # <a name="monitor-device-software-installation"></a>デバイス ソフトウェアのインストールを監視する
 
-デプロイするには、Microsoft Teams Rooms デバイスを Microsoft Teams Rooms で管理されるサービスにオンボードする必要があります。 監視サービス エージェントは、認定ソリューション ルーム (MICROSOFT TEAMS システムと周辺機器) で使用します。
+デプロイするには、Microsoft Teams Rooms デバイスを Microsoft Teams Rooms マネージド サービスにオンボードする必要があります。 監視サービス エージェントは、認定Microsoft Teams ROOM (ISO) システムおよび周辺機器で使用します。
 
 ## <a name="performing-operations-as-the-admin-user-of-the-mtr-device"></a>操作を、デバイスの管理者ユーザーとして実行する
 
@@ -35,7 +35,7 @@ ms.locfileid: "61767561"
 管理者 (ローカル管理者) としてデバイスにログインするには:
 
 1. 進行中の通話を必ず停止し、ホーム画面に戻ります。
-1. Microsoft Teams Room ユーザー インターフェイスで、[詳細] を選択し、[設定] を選択します。ここで、デバイスのローカル管理者パスワード (既定のパスワードは **_sfb)_** を求められます。
+1. Microsoft Teams Room ユーザー インターフェイスで、[詳細] を選択し、[設定] を選択します。ここで、デバイスのローカル管理者パスワード (既定のパスワードは **_sfb)_** の入力を求められます。
 1. **[設定] を** 選択し、[Windows 設定] を選択してWindows管理者としてアクセスします。  
 
 1. [ログイン] 画面に表示されるユーザー Windows、[管理者] **(または** デバイスのそれぞれのローカル管理者) を選択します。
@@ -45,8 +45,8 @@ ms.locfileid: "61767561"
 
 必要な管理タスクをMicrosoft Teamsして、Microsoft Teams Room アプリに戻る場合:
 
-1. [] ***Windowsスタート メニュー*** 管理者アカウントからサインアウトします。
-1. 画面のMicrosoft Teamsにあるユーザー アカウント アイコンを選択し、[] を選択して [Skype]**に戻ります**。
+1. をクリック ***Windowsスタート メニュー*** 管理者アカウントからサインアウトします。
+1. 画面のMicrosoft Teamsにあるユーザー アカウント アイコンを選択し、[] を選択して [Microsoft Teams Room] に戻 **Skype。**
 
 > [!NOTE]
 > ユーザーがSkype場合は、[その他のユーザー] を選択し、ユーザー名として ***「.\skype」*** と入力してサインインします。
@@ -87,7 +87,7 @@ Intel NUC デバイスの TPM が無効になっている場合は、次のよ�
 ## <a name="urls-required-for-communication"></a>通信に必要な URL
 
  > [!NOTE]
- > ポート 443 を使用して、すべてのネットワーク トラフィックMicrosoft Teams MTR デバイス エージェントと MICROSOFT TEAMS Rooms – Managed Services サービス ポータルの間の SSL です *。*  「Office 365 [URL と IP アドレス範囲 - Microsoft 365 Enterprise |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
+ > ポート 443 を使用した、MICROSOFT TEAMS Rooms – Managed Services サービス ポータルとの間のすべてのネットワーク トラフィックは SSL です *。*  「Office 365 [URL と IP アドレス範囲 - Microsoft 365 Enterprise |Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true)。
 
 エンタープライズ環境内でトラフィック許可リストが有効になっている場合は、 **次のホスト** を許可する必要があります。
 
@@ -109,14 +109,14 @@ mmrprodnoamstor.blob.core.windows.net
 
 登録プロセスには、いくつかの手順が含まれます。  
 
-1. [会議室 - Managed Services] ポータルのMicrosoft Teamsバーで、[設定] を展開し、[全般] [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) **を****選択します**。  
+1. [会議室 - Managed Services] ポータルのMicrosoft Teamsバーで [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) 、[設定] を展開し **、[全般] を****選択します**。  
 1. [ *自己登録キー] の [* インストーラーのダウンロード] ハイパーリンク **を** 選択 https://aka.ms/serviceportalagentmsi して、監視エージェント ソフトウェアをダウンロードします。
 1. [キー **のダウンロード] を選択します**。 登録する各デバイスの **C:\Rigel** フォルダーの下にキー ファイルを配置します。  
 1. **省略可能:** エージェントのプロキシ設定を設定します。「 [プロキシ設定の追加 (省略可能)」を参照してください](#adding-proxy-settings-optional)。
 1. (手順 2 でダウンロードした) エージェント インストーラーを、MSI をローカルの MSI デバイスで実行するか、環境内のデバイス (グループ ポリシーなど) に MSI アプリケーションを発行する通常の手段を使用して、(手順 2 でダウンロードした) インストールします。  
-1. 5 ~ 10 分以内にポータルにルームが表示されます。 表示されない場合は、managedroomsupport@microsoft.com に問い合 managedroomsupport@microsoft.com。  
+1. 5 ~ 10 分以内にポータルにルームが表示されます。 サポートされていない場合は、managedroomsupport@microsoft.com に問い合 managedroomsupport@microsoft.com。  
 
-![図 5](../media/software-installation-005.jpg)
+![設定と自己登録キーのスクリーンショット。](../media/software-installation-005.jpg)
 
 ## <a name="installation"></a>インストール
 
@@ -138,7 +138,7 @@ mmrprodnoamstor.blob.core.windows.net
    - デバイスの **C:\Rigel** ディレクトリに 、(以前にポータルからダウンロードした) "自己登録キー" を配置します。
    - (以前 **ManagedRoomsInstaller.msi** ポータルまたはポータルからダウンロードしたファイル) をデバイス AKA.MS コピーします。
 
-1. *ManagedRoomsInstaller.msiを **実行** すると、[ライセンス契約] 画面が表示されます。 契約を読んだ後、[ _*_使用許諾契約書の条項_*_ に同意する] チェック ボックスをオンにし、_ *[インストール*] * ボタンを押します。  
+1. *ManagedRoomsInstaller.msiを **実行** すると、[使用許諾契約書] 画面が表示されます。 契約を読んだ後、[ _*_使用許諾契約書の条項_*_ に同意する] チェック ボックスをオンにし、_ *[インストール*] * ボタンを押します。  
 
     これにより、Microsoft Teams Rooms – Managed Services 監視ソフトウェアのインストールが開始されます。 昇格のプロンプト (管理者として実行) が表示されます。
  1. [ ***はい] を選択します***。
@@ -165,7 +165,7 @@ mmrprodnoamstor.blob.core.windows.net
 1. 監視対象のデバイスで、デバイスに管理者としてログインします。 デバイスの管理者ユーザーとしての操作 *の実行に関するページの手順に従ってください*。
 1. からリセット スクリプトを[ダウンロード aka.ms/MTRPDeviceOffBoarding。](https://aka.ms/MTRPDeviceOffBoarding)
 1. デバイス上のどこかにスクリプトを抽出し、パスをコピーします。
-1. 管理者として PowerShell を開きます。Windows ***検索** _ フィールド (画面の左下のセクション) で、「Powershell」と入力し、_* Windows PowerShell ** を _右クリック_ します。
+1. 管理者として PowerShell を開きます。Windows ***Search** _ フィールド (画面の左下のセクション) で、「Powershell」と入力し _、_*_ を右クリックして **Windows PowerShellします。
 1. [管理者 *として実行] を選択し、UAC* プロンプトに同意します。
 1. *「Set-ExecutionPolicy –ExecutionPolicy RemoteSigned」* と入力し、次のプロンプトで **Y** キーを押します。  
 1. PowerShell ウィンドウに、未接続のオフボード スクリプトへの完全パスを貼り付けるか入力し、Enter キーを **押します**。
