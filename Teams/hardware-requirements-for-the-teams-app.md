@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45918358ac6e0419b65a0359bdcc8e500a1187bc
-ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
+ms.openlocfilehash: c975abb16b8c131b21733d57463435aa7e643639
+ms.sourcegitcommit: 6e7af2e556526bd8b2bcc8f689192e254d8cb4a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60600231"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62146254"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams のハードウェア要件
 
@@ -36,7 +36,7 @@ ms.locfileid: "60600231"
 | コンポーネント | 要件 |
 |---------|---------|
 |コンピューターとプロセッサ    | 最小速度 1.1 GHz 以上、2コア<br><br>注: Intel プロセッサの場合、Intel Turbo Boost Technology を使用して実現される最大速度 (Max Turbo Frequency) を考慮する必要があります。         |
-|メモリ     |    4.0 GB RAM (Teams では、他のシステム要件に加えて、4 GB の専用 RAM が必要です)    |
+|メモリ     |  4.0 GB RAM |
 |ハード ディスク    | 3.0 GB の空きディスク容量        |
 |ディスプレイ    |   1024 x 768 の画面解像度 |
 |グラフィックス ハードウェア |  Windows OS: グラフィック ハードウェア アクセラレータを使用するには、Windows 10 用の WDDM 2.0以降 (または Windows 10 Fall Creators Update 用の WDDM 1.3 以降) と共にDirectX 9 以降をインストールする必要があります。
@@ -52,7 +52,7 @@ ms.locfileid: "60600231"
 | コンポーネント | 要件 |
 |---------|---------|
 |コンピューターとプロセッサ    | インテル® Core Duo プロセッサー |
-|メモリ     |   4.0 GB RAM (Teams では、他のシステム要件に加えて、4 GB の専用 RAM が必要です)     |
+|メモリ     |   4.0 GB RAM|
 |ハード ディスク    |   1.5 GB の空きディスク容量      |
 |ディスプレイ    | 1280 x 800 以上の解像度のモニター    |
 |オペレーティング システム  |    MacOS の 3 つの最新バージョンのいずれか。 最新の MacOS バージョンについての詳細とMacOS バージョンをアップグレードする方法については、[こちら](https://support.apple.com/en-us/HT201260)を参照 してください。 たとえば、新しいバージョンの MacOS がリリースされたときに、新しいバージョンとそのすぐ前にある 2つのバージョンがサポートされています。      |
@@ -66,7 +66,7 @@ ms.locfileid: "60600231"
 | コンポーネント | 要件 |
 |---------|---------|
 |コンピューターとプロセッサ    | 1.6 GHz (またはそれ以上) (32 ビットまたは 64 ビット)、2 コア        |
-|メモリ     |    4.0 GB RAM (Teams では、他のシステム要件に加えて、4 GB の専用 RAM が必要です)   |
+|メモリ     |    4.0 GB RAM |
 |ハード ディスク    | 3.0 GB の空きディスク容量        |
 |ディスプレイ    |   1024 x 768 の画面解像度 |
 |グラフィックス ハードウェア |  128 MB 以上のグラフィックス メモリ
