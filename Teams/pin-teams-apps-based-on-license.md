@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a82dbf888fcd6fd0b05816e3edb390b79c9a9e3f
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
+ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055317"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62161036"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>ライセンスに基Teamsアプリを調整する
 
@@ -34,7 +34,7 @@ ms.locfileid: "62055317"
 
 Teamsは、ライセンスに基づいてアプリをピン留めする方法を提供します。 カスタマイズされたアプリ エクスペリエンスを有効Teamsユーザーがアプリにサインインすると、ユーザーはライセンスに基づいて調整されたアプリ エクスペリエンスを取得します。
 
-この機能を使用すると、管理者からの操作を必要とせずに、Teams最も関連性の高いアプリがユーザーに提供されます。
+この機能を使用すると、管理者からの操作を必要とせずにTeams最も関連性の高いアプリがユーザーに提供されます。
 
 ## <a name="tailored-app-experience"></a>カスタマイズされたアプリ エクスペリエンス
 
@@ -47,7 +47,6 @@ F ライセンスを持つユーザー用にピン留めされたアプリ:
 - Teams
 - Shifts
 - タスク
-- トランシーバー
 
 ## <a name="admin-controls"></a>管理者コントロール
 
@@ -60,7 +59,7 @@ F ライセンスを持つユーザー用にピン留めされたアプリ:
 
 この機能は既定で有効になっています。 ただし、Microsoft が提供するカスタマイズされたアプリ エクスペリエンスが必要ない場合は、この機能をオフにできます。 機能をオフまたはオンにする方法:
 
-1. 管理センターの Microsoft Teams左側のナビゲーションで、[Teams アプリの管理] に移動し、[組織全体のアプリ設定]  >  **を選択します**。
+1. 管理センターの左側のナビゲーションで、[Microsoft Teams Teams アプリの管理] に移動し、[組織全体のアプリ **設定**]  >  **を選択します**。
 2. [ **カスタマイズされたアプリ] で**、[ライセンスに基 **づいてカスタマイズされたアプリを** 表示する] トグルを **[オフ** ] または [オン] に **切り替えます**。
 
     :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="[アプリの管理] ページのスクリーンショット。[ライセンスに基づいてカスタマイズされたアプリを表示する] 組織全体のアプリ設定" lightbox="media/pin-teams-apps-based-on-license.png":::
