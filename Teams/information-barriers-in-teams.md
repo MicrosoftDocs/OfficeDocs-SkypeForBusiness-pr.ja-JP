@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 247f8e1d735bfe331c914da1ec89863b755cf373
+ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767340"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62163548"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams の情報バリア
 
@@ -110,7 +110,7 @@ IB ポリシーは、次のイベントが発生Teamsアクティブ化されま
 
 - **ユーザー** が Teams で通話を行う: ユーザーが別のユーザーまたはユーザー のグループに対して (VOIP を介して) 音声通話を開始するたびに、その通話が評価され、他のチーム メンバーの IB ポリシーに違反していないと判断されます。 違反がある場合、音声通話はブロックされます。
 
-- **ゲストのTeams:** IB ポリシーは、Teamsゲストに適用されます。 組織のグローバル アドレス一覧でゲストを検出できる必要がある場合は、「ゲスト グループでゲスト アクセスを管理[する」をMicrosoft 365してください](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 ゲストが検出可能な場合は [、IB ポリシー を定義できます](/office365/securitycompliance/information-barriers-policies)。
+- **ゲストのTeams:** IB ポリシーは、TEAMS ゲストに適用されます。 組織のグローバル アドレス一覧でゲストを検出できる必要がある場合は、「ゲスト グループでゲスト アクセスを管理[する」をMicrosoft 365してください](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 ゲストが検出可能な場合は [、IB ポリシー を定義できます](/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>ポリシーの変更が既存のチャットに与える影響
 
@@ -176,11 +176,11 @@ IB ポリシー管理者がポリシーに変更を加えた場合、または�
     > [!div class="mx-imgBorder"]
     > ![ユーザーがチャットからブロックされた状態を示すスクリーンショット。](media/ib-after-chat-contacts-policy.png)
 
-- **Skype移行** へのTeams: Skype for Business から Teams への移行中に、IB ポリシーによってブロックされているユーザーも含め、すべてのユーザーが Teams に移行されます。 これらのユーザーは、上記のように処理されます。
+- **Skype移行** へのTeams: Skype for Business から Teams への移行中は、IB ポリシーによってブロックされているユーザーも含め、すべてのユーザーが Teams に移行されます。 これらのユーザーは、上記のように処理されます。
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>TeamsポリシーとSharePointサイト
 
-チームが作成されると、SharePointサイトがプロビジョニングされ、ファイル エクスペリエンスMicrosoft Teamsに関連付けられる。 情報バリア ポリシーは、既定では、このSharePointポリシーには適用されません。 SharePoint および OneDrive で情報バリアを有効にするには、「情報バリアを使用して情報バリアを使用する」のガイダンスと[SharePointしてください。](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)
+チームが作成されると、SharePointサイトがプロビジョニングされ、ファイル エクスペリエンスMicrosoft Teams関連付けされます。 情報バリア ポリシーは、既定では、このSharePointポリシーには適用されません。 SharePoint および OneDrive で情報バリアを有効にするには、「情報バリアを使用して情報バリアを使用する」の手順に[SharePointしてください。](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)
 
 ## <a name="information--barrier-modes-and-teams"></a>情報バリア モードとTeams
 
@@ -188,13 +188,13 @@ IB ポリシー管理者がポリシーに変更を加えた場合、または�
 
 - **[** 開く]: この構成は、情報バリアを有効にする前にプロビジョニングされた既存のすべてのグループの既定の IB モードです。 このモードでは、IB ポリシーは適用されません。
 - **Implicit**: この構成は、情報バリアを有効にした後にチームがプロビジョニングされる場合の既定の IB モードです。 暗黙的モードでは、グループ内のすべての互換性のあるユーザーを追加できます。
-- **所有者モデタイル**: このモードは、所有者がモデ管理している互換性のないセグメント ユーザー間のコラボレーションを許可する場合に、チームで設定されます。 チーム所有者は、IB ポリシーごとに新しいメンバーを追加できます。
+- **所有者モデタイル (プレビュー)**: このモードは、所有者がモデ管理している互換性のないセグメント ユーザー間のコラボレーションを許可する場合に、チームで設定されます。 チーム所有者は、IB ポリシーごとに新しいメンバーを追加できます。
 
-Teamsで情報バリア ポリシーをアクティブにする前に作成されたポリシーは、既定で *[開* く] モードに自動的に設定されます。 テナントで IB ポリシーをアクティブ化したら、既存のチームのモードを *Implicit* に更新して、既存のチームが IB に準拠している必要があります。
+Teamsで情報バリア ポリシーをアクティブにする前に作成されたポリシーは、既定で自動的に *[開く*] モードに設定されます。 テナントで IB ポリシーをアクティブ化したら、既存のチームのモードを *Implicit* に更新して、既存のチームが IB に準拠している必要があります。
 
 セグメントに使用するモードに対応する *InformationBarrierMode* パラメーターを指定して [、Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup)コマンドレットを使用します。 *InformationBarrierMode* パラメーターに使用できる値の一覧は *、Open、Implicit、Owner* *Moderated です*。 
 
-たとえば、新しいグループの *暗黙的モードMicrosoft 365、* 次の PowerShell コマンドを使用します。
+たとえば、新しいグループに *対して暗黙的* モードMicrosoft 365、次の PowerShell コマンドを使用します。
 
 ```powershell
 Set-UnifiedGroup -InformationBarrierMode Implicit
@@ -223,5 +223,5 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 ## <a name="availability"></a>使用するための条件
 
-- この機能は、パブリック クラウドで利用できます。2021 年 1 月に、クラウドに情報バリアGCCしました。
-- この機能は、GCC -DOD クラウドでは使用できません。
+- この機能は、パブリック クラウドで利用できます。2021 年 1 月に、クラウドの情報バリアGCCしました。
+- この機能は、GCC DOD クラウドでは使用できません。
