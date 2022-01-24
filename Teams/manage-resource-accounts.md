@@ -21,16 +21,16 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: この記事では、リソース アカウントを作成、編集、管理する方法についてMicrosoft Teams。
-ms.openlocfilehash: 84ca7a68cfc620c5f62dbdd6308c1862a7e7bda7
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 8e271900958362934a51700b98f1ed944ace9f56
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249469"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180910"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Microsoft Teams のリソースのアカウントの管理
 
-リソース アカウントは、Azure ADで無効になっているユーザー オブジェクトであり、一般的なリソースを表す場合に使用できます。 たとえば、会議室を表し、電話番号と予定表Exchangeリソース アカウントを使用できます。 リソース アカウントは、Microsoft 365 2019 を使用して、Skype for Business Serverできます。
+リソース アカウントは、Azure ADの無効なユーザー オブジェクトであり、一般的にリソースを表す場合に使用できます。 たとえば、会議室を表し、電話番号と予定表Exchangeリソース アカウントを使用できます。 リソース アカウントは、Microsoft 365 2019 を使用して、Skype for Business Serverできます。
 
 このMicrosoft Teams、自動応答または通話キューごとにリソース アカウントが必要です。 リソース アカウントには、サービスの電話番号が割り当て済みである場合があります。 これは、外部の発信者が自動応答または通話キューに到達できるように、Teamsに電話番号を自動応答と通話キューに割り当てる方法です。
 
@@ -43,7 +43,7 @@ ms.locfileid: "60249469"
 
 ### <a name="obtain-virtual-user-licenses"></a>仮想ユーザー ライセンスの取得
 
-各リソース アカウントでは、自動応答と通話キューを操作するためにライセンスが必要です。 無料の仮想マシン *Microsoft 365 電話システムライセンスを使用* できます。 これらのライセンスを取得するには、仮想ユーザー ライセンス [に関するページを参照してください](teams-add-on-licensing/virtual-user.md)。
+各リソース アカウントでは、自動応答と通話キューを操作するためにライセンスが必要です。 無料の仮想マシン Microsoft 365 電話システム *ライセンスを使用* できます。 これらのライセンスを取得するには、仮想ユーザー ライセンス [に関するページを参照してください](teams-add-on-licensing/virtual-user.md)。
 
 この記事の後半では、リソース アカウントにライセンスを割り当てる方法について説明します。
 
@@ -77,11 +77,11 @@ ms.locfileid: "60249469"
 
 ## <a name="assign-a-license"></a>ライセンスを割り当てる
 
-リソース アカウントごとに、仮想ユーザー ライセンスまたは仮想ユーザー ライセンスMicrosoft 365 電話システム *割**り当* てる電話システムがあります。
+リソース アカウントごとに、仮想ユーザー ライセンスまたは仮想ユーザー ライセンスMicrosoft 365 電話システム *割* り当てる *電話システム* があります。
 
-![[ライセンスの割り当て] ユーザー インターフェイスのスクリーンショットMicrosoft 365 管理センター。](media/resource-account-assign-virtual-user-license.png)
+![[ライセンスの割り当て] の [ユーザー インターフェイス] のスクリーンショットMicrosoft 365 管理センター。](media/resource-account-assign-virtual-user-license.png)
 
-1. [リソースMicrosoft 365 管理センター、ライセンスを割り当てるリソース アカウントをクリックします。
+1. [Microsoft 365 管理センターで、ライセンスを割り当てるリソース アカウントをクリックします。
 
 2. [ライセンスと **アプリ] タブの**[ライセンス]**で**、[仮想Microsoft 365 電話システム **- 仮想ユーザー] を選択します**。
 
@@ -93,7 +93,7 @@ ms.locfileid: "60249469"
 
 ![サービス番号の割り当てユーザー インターフェイスのスクリーンショット。](media/resource-account-assign-phone-number.png)
 
-1. 管理センター Teamsの [リソース アカウント] ページで、サービス番号を割り当てるリソース アカウントを選択し、[割り当て/割り当て解除]**をクリックします**。
+1. 管理センター Teams [リソース アカウント]ページで、サービス番号を割り当てるリソース アカウントを選択し、[割り当て/割り当て解除]**をクリックします**。
 
 2. [数値 **電話ドロップダウンリストで**、使用する数値の種類を選択します。
 
@@ -104,7 +104,7 @@ ms.locfileid: "60249469"
 
 リソース アカウントに直接ルーティングまたはハイブリッド番号を割り当てるには、PowerShell を使用する必要があります。
 
-`Set-CsOnlineApplicationInstance -Identity aa-contoso_main@contoso64.net -OnpremPhoneNumber +19295550150`
+`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
 
 ## <a name="next-steps"></a>次の手順
 
@@ -120,12 +120,12 @@ ms.locfileid: "60249469"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>仮想ユーザー ライセンスを使用するために既存のリソース アカウントを変更する
 
-既存のリソース アカウントのライセンスを 電話システム ライセンスから **仮想** ユーザー ライセンスに切り替える場合は、無料の仮想ユーザー ライセンスを取得し、Microsoft 365 管理センター の手順に従ってユーザーを別のサブスクリプションに移動する必要 [があります。](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+既存のリソース アカウントのライセンスを 電話システム ライセンスから仮想ユーザー ライセンスに切り替える場合は、無料の仮想ユーザー ライセンスを取得し **、「Microsoft 365 管理センター** でユーザーを別のサブスクリプションに移動する」の手順に従う必要 [があります。](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > 常に完全なライセンス 電話システム削除し、同じライセンス アクティビティで仮想ユーザー ライセンスを割り当てる必要があります。 古いライセンスを削除し、アカウントの変更を保存し、新しいライセンスを追加して、アカウント設定を再度保存すると、リソース アカウントが期待した通り機能しなくなる可能性があります。 このような場合は、仮想ユーザー ライセンスの新しいリソース アカウントを作成し、壊れたリソース アカウントを削除することをお勧めします。
 
-## <a name="skype-for-business-server-2019"></a>SkypeBusiness Server 2019 の場合
+## <a name="skype-for-business-server-2019"></a>Skype For Business Server 2019
 
 クラウド通話キューとクラウド自動応答で使用できる Skype For Business Server 2019 にホームされているリソース アカウントについては、「クラウド[](/SkypeforBusiness/hybrid/plan-call-queue)通話キューの計画」または「クラウド自動応答を計画する」を参照[してください。](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant) ハイブリッド実装 (ダイレクト ルーティングに含む番号) は、オンプレミスの Skype for Business Server 2019 サーバーで[New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint)コマンドレットを使用して構成されます。
 
@@ -135,7 +135,7 @@ ms.locfileid: "60249469"
 - **通話キュー:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> Skype For Business Server 2019 ユーザーが通話キューまたは自動応答を検索可能にしたい場合は、オンライン リソース アカウントが Active Directory に同期されないので、Skype For Business Server 2019 でリソース アカウントを作成する必要があります。 sipfederationtls の DNS SRV レコードが Skype for Business Server 2019 に解決された場合は、SfB 管理シェルを使用して Skype For Business Server 2019 でリソース アカウントを作成し、Azure AD に同期する必要があります。
+> Skype For Business Server 2019 ユーザーが通話キューまたは自動応答を検索可能にしたい場合は、オンライン リソース アカウントが Active Directory に同期されないので、Skype For Business Server 2019 でリソース アカウントを作成する必要があります。 sipfederationtls の DNS SRV レコードが Skype for Business Server 2019 に解決された場合、SfB 管理シェルを使用して Skype For Business Server 2019 でリソース アカウントを作成し、Azure AD に同期する必要があります。
 
 アプリケーションとハイブリッドである実装Skype for Business Server。
 
@@ -150,10 +150,10 @@ ms.locfileid: "60249469"
 
 サービス番号が保留中モードでスタックしないように、リソース アカウントを削除する前に、リソース アカウントから電話番号の関連付け解除を行います。
 
-その後、[ユーザー] タブの [Microsoft 365 管理センター リソース アカウントを削除できます。
+その後、[ユーザー] タブの [リソース アカウント] Microsoft 365 管理センターリソース アカウントを削除できます。
 
 直接ルーティングの電話番号とリソース アカウントの関連付けを解除するには、次のコマンドレットを使用します。
 
 ```powershell
-Set-CsOnlineApplicationInstance -Identity  <Resource Account oid> -OnpremPhoneNumber ""
+Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```
