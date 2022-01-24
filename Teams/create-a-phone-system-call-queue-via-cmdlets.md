@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: コマンドレットを使用して呼び出しキューを構成する方法について説明します
-ms.openlocfilehash: 8ffbef5541a230755bb7439507e3002a5cb92462
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62071112"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181110"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>コマンドレットを使用して呼び出しキューを作成する
 
 ## <a name="assumptions"></a>前提条件
 1)  PowerShell がコンピューターにインストールされている
-- コンピューターを[セットアップしてWindows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- コンピューターを[セットアップしてWindows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - MSTeams モジュールのインストール ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - インストールされている MSOnline モジュール ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  テナントの管理権限がある
@@ -52,7 +52,7 @@ MicrosoftTeams モジュールが既にインストールされているユー�
 次の 3 つの呼び出しキューが作成されます。
 
 Sales Call Queue の情報:
-- 前に表示される自動応答: はい
+- [Fronted by 自動応答: Yes
 - PSTN からの直接通話: いいえ
 - 言語: 英語 (米国)
 - あいさつ: なし
@@ -72,7 +72,7 @@ Sales Call Queue の情報:
 - - リダイレクト先: Adele@contoso.com
 
 サポート呼び出しキュー情報:
-- 前に表示される自動応答: はい
+- [Fronted by 自動応答: Yes
 - PSTN からの直接通話: いいえ
 -   言語: 英国英語
 -   あいさつ: オーディオ ファイルを再生する
@@ -117,7 +117,7 @@ Sales Call Queue の情報:
 
 
 ## <a name="login"></a>ログイン
-管理者の資格情報を入力するように求Teamsされます。
+管理者の資格情報を入力Teams求めるメッセージが表示されます。
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
@@ -160,6 +160,8 @@ Get-MsolAccountSku
 - ApplicationID
 - - 自動応答: ce933385-9390-45d1-9512-c8d228074e07
 - - 通話キュー: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+注: 以下に示すライセンスの種類 (PHONESYSTEM_VIRTUALUSER) は、上記の Get-MsolAccountSku コマンドレットで示されているライセンスの種類である必要があります。
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -215,6 +217,9 @@ Get-MsolAccountSku
 - ApplicationID
 - - 自動応答: ce933385-9390-45d1-9512-c8d228074e07
 - - 通話キュー: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+注: 以下に示すライセンスの種類 (PHONESYSTEM_VIRTUALUSER) は、上記の Get-MsolAccountSku コマンドレットで示されているライセンスの種類である必要があります。
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -271,8 +276,11 @@ Get-MsolAccountSku
 - ApplicationID
 - - 自動応答: ce933385-9390-45d1-9512-c8d228074e07
 - - 通話キュー: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+注: 以下に示すライセンスの種類 (PHONESYSTEM_VIRTUALUSER) は、上記の Get-MsolAccountSku コマンドレットで示されているライセンスの種類である必要があります。
+
 ````
-New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
 Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 

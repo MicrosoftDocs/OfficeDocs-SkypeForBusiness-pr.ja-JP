@@ -2,7 +2,7 @@
 title: 組織のシフト アプリを管理する
 author: LanaChin
 ms.author: v-lanachin
-ms.reviewer: lisawu,gumariam
+ms.reviewer: aaku
 manager: samanro
 ms.topic: article
 audience: admin
@@ -22,21 +22,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c4b1550ca90515714e509017f4fb13b83414fbf0
-ms.sourcegitcommit: 293d1b8a591d2284029632874067471f8d5bb0ff
+ms.openlocfilehash: c6e50d92dfb296bcf67402cdbd14a65fba490125
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/30/2021
-ms.locfileid: "61639691"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180930"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
-> [!IMPORTANT]
-> 2020 年 6 月 30 日をもって、Microsoft Staffhub は廃止されました。 Microsoft では、StaffHub の機能を Microsoft Teams に組み込む作業に取り組んでいます。 現在、Teams にはシフト アプリのスケジュール管理機能が含まれています。今後、他の機能もロールアウトされる予定です。 StaffHub は 2020 年 6 月 30 日をもって、すべてのユーザーがご利用できなくなりました。 ユーザーが StaffHub を開くと、Teams をダウンロードするように求めるメッセージが表示されます。 詳細については、「[Microsoft StaffHub は廃止されました](microsoft-staffhub-to-be-retired.md)」を参照してください。  
-
 ## <a name="overview-of-shifts"></a>シフトの概要
 
-Shifts アプリは、Microsoft Teamsワーカーを接続し、同期したままにします。チームの時間管理とコミュニケーションを迅速かつ効果的に行うモバイルを最初に構築します。 シフトを使用すると、フロントラインの従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合います。
+Shifts アプリは、Microsoft Teamsのワーカーを接続し、同期を維持します。チームの時間管理とコミュニケーションを迅速かつ効果的に行うモバイルを最初に構築します。 シフトを使用すると、フロントラインの従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合います。
 
 - マネージャーは、チームのシフト スケジュールを作成、更新、および管理します。 マネージャーは、メッセージを 1 人のユーザーに送ることも ("床が汚れています" など)、チーム全体に送ることもできます ("地区本部長があと 20 分で到着します" など)。 マネージャーは、ポリシー ドキュメント、ニュース速報、およびビデオを送信することもできます。
 - 従業員は、自分の今後のシフトの確認、自分の他にその日にスケジュールが入っている従業員の表示、シフトの入れ替えや申し出のリクエスト、および休暇のリクエストを行います。

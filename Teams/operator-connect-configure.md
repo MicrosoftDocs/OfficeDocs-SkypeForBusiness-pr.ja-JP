@@ -15,22 +15,22 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: オペレーター アカウントを構成する方法の詳細については、Connect。
+description: オペレーター アカウントを構成する方法の詳細についてはConnect。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fa7a7c314fe2d31e5306ec96902f8ca87e44355
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 9abb37e195e602281c8fad0cdf052e35bf35cc67
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111967"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181070"
 ---
 # <a name="configure-operator-connect"></a>オペレーター の構成Connect
 
-この記事では、オペレーター アカウントを構成する方法Connect。 オペレーター サービスを構成するConnect前提条件とライセンスの詳細については、「オペレーター向けプラン[Connect」を](operator-connect-plan.md)参照してください。
+この記事では、オペレーター アカウントを構成する方法についてConnect。 オペレーター サービスを構成する前Connect前提条件とライセンスの[](operator-connect-plan.md)詳細については、「オペレーター向けプランConnect」を参照してください。
 
 ## <a name="enable-an-operator"></a>演算子を有効にする
 
@@ -56,19 +56,19 @@ ms.locfileid: "61111967"
 
 - 通話プランからオペレーター グループに Connect既存の番号を移動する場合は、「通話プランからオペレーターに番号を移動する」を[Connect。](#move-numbers-from-calling-plans-to-operator-connect)
 
-- 既存の番号を直接ルーティングからオペレーター グループに移動するConnect、「ダイレクト ルーティングからオペレーターへの番号の移動」を[Connect。](#move-numbers-from-direct-routing-to-operator-connect)
+- 既存の番号を直接ルーティングからオペレーター グループに移動するConnect、「直接ルーティングからオペレーターへの番号の移動」を[Connect。](#move-numbers-from-direct-routing-to-operator-connect)
 
-### <a name="acquire-numbers-for-new-teams-users"></a>新しいユーザーの数値をTeamsする
+### <a name="acquire-numbers-for-new-teams-users"></a>新しいユーザーの番号をTeamsする
 
-新しいユーザーの番号を取得Teams、次の手順に従います。
+新しいユーザーの番号を取得するにはTeams手順に従います。
 
-1. **ライセンスを割り電話システムします。** 管理者は、電話システムから、または PowerShell を使用して、Microsoft 365 管理センターライセンスを割り当てできます。 詳細については、「アドオン ライセンスを[ユーザーに割りTeams割り当てる」を参照してください](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+1. **ライセンスを割り電話システムします。** ユーザーにライセンス ライセンス電話システム割り当てるには、Microsoft 365 管理センター PowerShell を使用します。 詳細については、「アドオン ライセンスを[ユーザーに割りTeams割り当てる」を参照してください](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
-2. オペレーター アカウントで取得した電話番号が割り当てられるConnect TeamsOnly モードである必要があります。 組織が TeamsOnly モードの場合、すべてのユーザーが TeamsOnly モードになります。 これを確認するには、Teams 管理センターで、[アップグレード設定] Teams > Teams **に移動します**。 組織が諸島モードの場合は、特定のユーザーが TeamsOnly モードを使用している必要があります。 [ユーザー] **に移動** し、ユーザー アカウントを選択します。 [**アカウント]** タブの [アップグレード **Teams、** 共存モードを 'TeamsOnly' に設定する必要があります。
+2. オペレーター アカウントで取得した電話番号が割り当てられるConnect TeamsOnly モードである必要があります。 組織が TeamsOnly モードの場合、すべてのユーザーが TeamsOnly モードになります。 これを確認するには、Teams 管理センターで、[アップグレード設定] **Teams > Teamsに移動します**。 組織が諸島モードの場合は、特定のユーザーが TeamsOnly モードを使用している必要があります。 [ユーザー] **に移動** し、ユーザー アカウントを選択します。 [**アカウント]** タブの [アップグレード **Teams、** 共存モードを 'TeamsOnly' に設定する必要があります。
 
 3. **数値を取得します。** オペレーターの Web サイトに移動して、電話番号を注文して取得します。 オペレーターの Web サイトの一覧については、オペレーターの web サイトMicrosoft 365[にConnectしてください](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 テナント ID を指定する必要があります。 テナント ID が分からない場合は、「テナント ID を確認する[」Microsoft 365を](/onedrive/find-your-office-365-tenant-id)参照してください。
 
-4. **数値を割り当てる。** オペレーターが注文を完了すると、テナントに番号がアップロードされます。 [Voice > 電話 numbers] に移動すると、Teams管理センターで **番号とプロバイダー> 電話できます**。 管理者センターまたは PowerShell を使用してTeamsユーザーに番号を割り当てる。 詳細については、「番号を割り当てる [」を参照してください](#assign-numbers)。
+4. **数値を割り当てる。** オペレーターが注文を完了すると、テナントに番号がアップロードされます。 [Voice > 電話 numbers] に移動して、Teams管理センターで番号と **プロバイダー> 電話できます**。 管理者センターまたは PowerShell を使用してTeamsユーザーに番号を割り当てる。 詳細については、「番号を割り当てる [」を参照してください](#assign-numbers)。
 
 > [!NOTE]
 > ユーザーの [電話番号](getting-phone-numbers-for-your-users.md)を取得する以外に、電話会議 (電話会議ブリッジの場合)、自動応答、通話キュー (サービス番号とも呼ばれる) などのサービスの有料電話番号または無料電話番号を取得できます。 サービス用電話番号の同時通話容量は、ユーザーまたは登録者の電話番号より大きくなります。 たとえば、サービス番号は何百もの呼び出しを同時に処理できるのに対し、ユーザーの電話番号は数件の通話のみを同時に処理できます。 サービス番号を取得するには、オペレーターにお問い合わせください。
@@ -93,7 +93,7 @@ ms.locfileid: "61111967"
 
 2. オペレーターが移植注文を完了したら、ユーザーの通話プランの電話番号の割り当てを解除し、通話プラン ライセンスを削除できます。 その後、オペレーターはテナントに番号をアップロードできます。
 
-3. 管理者センター Connect PowerShell を使用して、オペレーターにTeams番号を割り当てる。 詳細については、「番号を割り当てる [」を参照してください](#assign-numbers)。
+3. 管理者センター Connectまたは PowerShell を使用して、オペレーター Teams番号をユーザーに割り当てる。 詳細については、「番号を割り当てる [」を参照してください](#assign-numbers)。
 
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>直接ルーティングからオペレーター グループに番号を移動Connect
 
@@ -108,14 +108,14 @@ ms.locfileid: "61111967"
    次の PowerShell コマンドを実行して、On-prem Line URI を削除します。  
 
    ```
-   Set-CsUser -Identity <user> -OnPremLineURI $null 
+   Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <value of OnPremLineURI> -PhoneNumberType DirectRouting 
    ```
 
 2. ユーザーに関連付けられている PSTNUsage を削除します。それ以外の場合、通話は PSTN 使用法で指定されたゲートウェイにルーティングされます。 PSTN の使用状況を削除する方法については [、「Set-CsOnlinePstnUsage」を参照してください](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)。
 
 3. オペレーターの Web サイトに移動して、電話番号を注文して取得します。 演算子の Web サイトを見つけるには、演算子のMicrosoft 365[をConnectしてください](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 テナント ID を指定する必要があります。 テナント ID が分からない場合は、「テナント ID を確認する[」Microsoft 365を](/onedrive/find-your-office-365-tenant-id)参照してください。
 
-4. オペレーターが注文を完了すると、テナントに番号がアップロードされます。 [Voice > 電話 numbers] に移動すると、Teams管理センターで **番号とプロバイダー> 電話できます**。 管理者センター Connect PowerShell を使用して、オペレーターにTeams番号を割り当てる。 詳細については、「番号を割り当てる [」を参照してください](#assign-numbers)。
+4. オペレーターが注文を完了すると、テナントに番号がアップロードされます。 [Voice > 電話 numbers] に移動して、Teams管理センターで番号と **プロバイダー> 電話できます**。 管理者センター Connectまたは PowerShell を使用して、オペレーター Teams番号をユーザーに割り当てる。 詳細については、「番号を割り当てる [」を参照してください](#assign-numbers)。
 
 ### <a name="assign-numbers"></a>数値を割り当てる
 
@@ -140,6 +140,6 @@ ms.locfileid: "61111967"
 
 - 電話番号がユーザーに割り当てられている場合は、番号の割り当てを解除する必要があります。 [編集 **] を選択** し、[ユーザーの **削除] を選択します**。 変更を保存した後、[リリース] を **選択します**。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [自動応答Teamsキューの計画](plan-auto-attendant-call-queue.md)
