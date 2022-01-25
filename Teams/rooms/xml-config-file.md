@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: カスタム テーマの適用やマスター設定ファイルの作成など、Microsoft Teams Rooms デバイスで使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: 57702fb995c05766bf8a65f17b2c56356d267924
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 01ecdd5a960978e15e7c21d5f5e7fe6707437a42
+ms.sourcegitcommit: e0e3c83cea2662057ee2f3f2a429c7831c3d917a
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015057"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62213496"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams Rooms のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
@@ -62,6 +62,8 @@ ms.locfileid: "62015057"
   <DualScreenMode>0</DualScreenMode>
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
+  <FrontRowEnabled>true</FrontRowEnabled>
+  <DefaultFoRExperience>0</DefaultFoRExperience>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -75,13 +77,13 @@ ms.locfileid: "62015057"
     <ContentCameraInverted>false</ContentCameraInverted>
   </Devices>
   <Theming>
-   <ThemeName>Custom</ThemeName>
-   <CustomThemeImageUrl>file name</CustomThemeImageUrl>
-   <CustomThemeColor>
-   <RedComponent>100</RedComponent>
-   <GreenComponent>100</GreenComponent>
-   <BlueComponent>100</BlueComponent>
-  </CustomThemeColor>
+       <ThemeName>Custom</ThemeName>
+       <CustomThemeImageUrl>file name</CustomThemeImageUrl>
+       <CustomThemeColor>
+            <RedComponent>100</RedComponent>
+            <GreenComponent>100</GreenComponent>
+            <BlueComponent>100</BlueComponent>
+       </CustomThemeColor>
   </Theming>
   <CoordinatedMeetings enabled="true">
     <TrustedAccounts>username1@microsoft.com,username2@contoso.com</TrustedAccounts>
@@ -123,8 +125,10 @@ ms.locfileid: "62015057"
 | \<AutoExitMeetingEnabled>                   | ブール値 &#x2777;            | First &#x2776; | true の場合、デバイスは会議に最後に残っている参加者である場合、会議から自動的に退出します。  既定では無効になっています。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | \<DualScreenMode\>                          | ブール値 &#x2777;            | First &#x2776; | true の場合、2 画面表示モードが有効になります。 それ以外の場合、デバイスでは 1 画面表示モードが使用されます。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | \<DuplicateIngestDefault\>                  | ブール値 &#x2777;            | First &#x2776; | True の場合、会議を終了しているときに、2 画面表示モードで両方の画面にコンテンツが表示されます。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| \<DisableTeamsAudioSharing\>                | ブール値 &#x2777;            | First &#x2776; | 会議中に会議の参加者に対する HDMI オーディオ共有を無効にするには、true Teamsします。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| \<CortanaWakewordEnabled\>                  | ブール値 &#x2777;            | First &#x2776; | "Hey Cortana" というウェイク ワードを有効にするには、true に設定Cortana。 この設定は、お客様の国または地域で Cortana サービスがサポートされ、接続されているオーディオ周辺機器がサポートしている場合をCortana。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| \<DisableTeamsAudioSharing\>                | ブール値 &#x2777;            | First &#x2776; | [true] に設定すると、会議中の会議の参加者に対する HDMI オーディオ共有Teams無効になります。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| \<FrontRowEnabled>                          | ブール値 &#x2777;            | First &#x2776; | 既定では有効になっています。 false の場合、最前面行は無効になります。
+| \<DefaultFoRExperience>                     | ブール値 &#x2777;            | First &#x2776; | 既定ではギャラリー ビュー。 既定のレイアウトをギャラリー ビューから最前面行に変更するには、1 を配置します。
+| \<CortanaWakewordEnabled\>                  | ブール値 &#x2777;            | First &#x2776; | "Hey Cortana" というウェイク ワードを有効にするには、true にCortana。 この設定は、お客様の国または地域で Cortana サービスがサポートされ、接続されているオーディオ周辺機器がサポートしている場合をCortana。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | コンテナー                   | First &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | 文字列  &#x2778;            |                | [フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションのメールアドレスを設定します。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | \<SendLogsAndFeedback\>                     | ブール値 &#x2777;            |                | True の場合、ログは管理者に送信されます。False の場合は、フィードバックのみが管理者に送信され、ログには送信されません。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
