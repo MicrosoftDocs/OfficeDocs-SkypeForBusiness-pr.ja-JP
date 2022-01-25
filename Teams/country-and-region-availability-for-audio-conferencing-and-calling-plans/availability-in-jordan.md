@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスを示します。
-ms.openlocfilehash: 7b76169fb05f3ee1d853eea536302e2827d0c071
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: ここでは、Microsoft 365とOffice 365、Skype for Business Microsoft Teamsサービスを紹介します。
+ms.openlocfilehash: 2062025923513285c4014c747c3a95fd3f808f0e
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733668"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191428"
 ---
 # <a name="availability-in-jordan"></a>ヨルダンでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスを示します。
+ここでは、Microsoft 365とOffice 365、Skype for Business Microsoft Teamsサービスを紹介します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -63,7 +63,7 @@ ms.locfileid: "60733668"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -83,7 +83,7 @@ ms.locfileid: "60733668"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

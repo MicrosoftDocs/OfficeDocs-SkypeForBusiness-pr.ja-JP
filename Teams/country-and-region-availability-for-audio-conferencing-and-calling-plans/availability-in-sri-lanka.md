@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ここでは、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスを紹介します。
-ms.openlocfilehash: c493199d163b2ffcbb14cd81f63d4ba492e6d044
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba5ae750e21a2fee49ea4c506e2214a224d3d69a
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584711"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191088"
 ---
 # <a name="availability-in-sri-lanka"></a>スリランカでの利用可能性
 
@@ -43,7 +43,7 @@ ms.locfileid: "58584711"
 |**機能**|**詳細**|
 |:-----|:-----|
 |電話会議は購入できますか?  <br/> |はい  <br/> |
-|電話番号は自動的に電話会議に割り当てられますか?  <br/> | 電話番号が特定の都市や地域に関連していません。 専用の電話番号が必要な場合は[、「Getting service phone numbers for Skype for Business and Microsoft Teams 」を参照してください](../getting-service-phone-numbers.md)。  <br/> |
+|電話番号は自動的に電話会議に割り当てられますか?  <br/> | 電話番号が特定の都市や地域に関連していません。 専用の電話番号が必要な場合は、「Getting service phone numbers for Skype for Business and Microsoft Teams 」[を参照してください](../getting-service-phone-numbers.md)。  <br/> |
 |折り返し通話機能を使用するダイヤルアウト機能  <br/> |通信クレジットが必要  <br/> |
    
 ## <a name="phone-system"></a>電話システム
@@ -63,7 +63,7 @@ ms.locfileid: "58584711"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

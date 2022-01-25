@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: アラブ首長国連邦でMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 0118f7e59d0b09809bf1316b64fb1ba6ca49c383
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: アラブ首長国連邦でMicrosoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: 1521e66660568015362af6a0ed563fd5891b6021
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631351"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190718"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>アラブ首長国連邦 (UAE) での利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-アラブ首長国連邦でMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+アラブ首長国連邦でMicrosoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -63,7 +63,7 @@ ms.locfileid: "58631351"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

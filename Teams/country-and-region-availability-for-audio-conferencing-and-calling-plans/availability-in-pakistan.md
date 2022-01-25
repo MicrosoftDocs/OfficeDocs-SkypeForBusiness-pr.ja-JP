@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、Microsoft 365とOffice 365とSkype for BusinessサービスMicrosoft Teams提供されています。
-ms.openlocfilehash: d3c43e6fe4f73fc00e61c229b40060dd1c1bc69f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 471898a25343d0c79533d9d3d12ae6beb61372a7
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588259"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191258"
 ---
 # <a name="availability-in-pakistan"></a>パキスタンでの利用可能性
 
@@ -63,7 +63,7 @@ ms.locfileid: "58588259"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -73,7 +73,7 @@ ms.locfileid: "58588259"
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
 |無料電話番号は使用できますか?  <br/> |いいえ  <br/> |
    
- パキスタンでは、サービス番号は電話会議にのみ使用できます。 そのため、電話会議の有料電話番号と無料電話番号を取得する場合は、「電話会議と電話会議のサービス電話番号を取得[Skype for Business」](../getting-service-phone-numbers.md)をMicrosoft Teams。
+ パキスタンでは、サービス番号は電話会議にのみ使用できます。 そのため、電話会議の有料電話番号と無料電話番号を取得する場合は、電話会議と電話会議のサービス電話番号の取得に関するSkype for Business[を](../getting-service-phone-numbers.md)Microsoft Teams。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

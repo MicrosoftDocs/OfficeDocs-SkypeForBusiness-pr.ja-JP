@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ここでは、エルサルバドルMicrosoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを示します。
-ms.openlocfilehash: 3fe5caea4e3ecaaab17307320a24ed2e893fc83a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: El サルバドルでMicrosoft 365およびOffice 365サービスSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: 464b40e571222eb7a56d4258ceae237b49d525fd
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635011"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192198"
 ---
 # <a name="availability-in-el-salvador"></a>エルサルバドルでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ここでは、エルサルバドルMicrosoft 365、Office 365およびSkype for BusinessのMicrosoft Teamsサービスを示します。
+El サルバドルでMicrosoft 365およびOffice 365サービスSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -63,7 +63,7 @@ ms.locfileid: "58635011"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

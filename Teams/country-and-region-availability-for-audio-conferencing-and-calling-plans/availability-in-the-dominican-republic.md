@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ドミニカ共和国でMicrosoft 365およびOffice 365サービスSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: d83a44c9bc9f86bd3e24b2f77374d5955a9d27da
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf4908ee28bc691a16b791d976cd99ab3c8cbc7b
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593121"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191708"
 ---
 # <a name="availability-in-the-dominican-republic"></a>ドミニカ共和国での利用可能性
 
@@ -63,7 +63,7 @@ ms.locfileid: "58593121"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

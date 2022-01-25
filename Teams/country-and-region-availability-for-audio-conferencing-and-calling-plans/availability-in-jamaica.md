@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下は、Microsoft 365とOffice 365、Skype for BusinessとMicrosoft Teamsサービスです。
-ms.openlocfilehash: 940ca93742e3c52630575c637116e0d9d79658c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5b9807707ca19bc58d2bf038ddf962b924ecace0
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863154"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190838"
 ---
 # <a name="availability-in-jamaica"></a>ジャマイカでの空き時間情報
 
@@ -62,7 +62,7 @@ ms.locfileid: "60863154"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -72,7 +72,7 @@ ms.locfileid: "60863154"
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
 |無料電話番号は利用できますか?  <br/> |Yes  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は[、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号の取得」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」を参照[してください](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 
@@ -82,7 +82,7 @@ ms.locfileid: "60863154"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

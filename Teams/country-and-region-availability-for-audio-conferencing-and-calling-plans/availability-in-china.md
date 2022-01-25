@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 中国で利用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 2013769f13cd94330ccc64422d5ea874d55155f2
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: 中国で利用できるMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
+ms.openlocfilehash: a08cb9c6b391ced7a9c3631d42a3fd7da9b544a0
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733688"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191218"
 ---
 # <a name="availability-in-china"></a>中国での利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-中国で利用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+中国で利用できるMicrosoft 365およびOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -63,7 +63,7 @@ ms.locfileid: "60733688"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

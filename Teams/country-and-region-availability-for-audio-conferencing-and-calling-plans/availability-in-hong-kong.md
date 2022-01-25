@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 香港で利用できるMicrosoft 365とOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 8beff18fb59ad3969b66b8f4786e3a72e84fc273
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 香港で利用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: 9a2f991ae2cc3256cfdfb9c952bf956021f4c9f8
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578411"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191578"
 ---
 # <a name="availability-in-hong-kong"></a>香港での利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-香港で利用できるMicrosoft 365とOffice 365サービスのSkype for BusinessとMicrosoft Teamsを次に示します。
+香港で利用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -63,7 +63,7 @@ ms.locfileid: "58578411"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -83,7 +83,7 @@ ms.locfileid: "58578411"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

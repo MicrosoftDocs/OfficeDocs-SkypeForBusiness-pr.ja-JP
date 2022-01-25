@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: パラグアイでMicrosoft 365およびOffice 365のSkype for BusinessおよびMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 969e702fe7f14d9e7af2e9d023367fe9c1f8eb25
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05f2c1f579610e7d33e0f844442e845cbaef62f1
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578391"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191728"
 ---
 # <a name="availability-in-paraguay"></a>パラグアイでの利用可能性
 
@@ -63,7 +63,7 @@ ms.locfileid: "58578391"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -83,7 +83,7 @@ ms.locfileid: "58578391"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

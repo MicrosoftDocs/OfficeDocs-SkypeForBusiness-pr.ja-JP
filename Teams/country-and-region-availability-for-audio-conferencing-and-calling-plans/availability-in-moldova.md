@@ -25,13 +25,13 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: モルドバでMicrosoft 365およびOffice 365サービスSkype for BusinessおよびMicrosoft Teams情報を確認します。
-ms.openlocfilehash: f7fe5633f7ca2756b8e6611f1c44fabc4ff8c0c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: モルドバでMicrosoft 365およびOffice 365サービスSkype for Business Microsoft Teams情報を確認します。
+ms.openlocfilehash: fad85c4f1e875ffd65f255fb95eac209f74c8f7b
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589801"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191568"
 ---
 # <a name="availability-in-moldova"></a>モルドバでの利用可能性
 
@@ -64,7 +64,7 @@ ms.locfileid: "58589801"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

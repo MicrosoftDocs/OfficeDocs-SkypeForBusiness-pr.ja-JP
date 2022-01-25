@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ブルガリアで使用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
-ms.openlocfilehash: 7c810114ab56a6b32f1b467597f9f608c5d464ab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3256a4b182fa26899dbaa6478cda913c5dcc4367
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580191"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192288"
 ---
 # <a name="availability-in-bulgaria"></a>ブルガリアでの利用可能性
 
@@ -63,7 +63,7 @@ ms.locfileid: "58580191"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -83,7 +83,7 @@ ms.locfileid: "58580191"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 

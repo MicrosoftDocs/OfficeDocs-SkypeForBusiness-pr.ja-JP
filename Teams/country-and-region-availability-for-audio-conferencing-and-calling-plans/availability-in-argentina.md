@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: アルゼンチンで使用Microsoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
-ms.openlocfilehash: 904731570fc53fd3db3939e4fab8897d634a4c63
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: アルゼンチンで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: 78507c7a000c1aa320f6ff4cba77e1a99cbf3021
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602282"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191468"
 ---
 # <a name="availability-in-argentina"></a>アルゼンチンでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-アルゼンチンで使用Microsoft 365およびOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+アルゼンチンで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -63,7 +63,7 @@ ms.locfileid: "58602282"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
 
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
@@ -72,9 +72,9 @@ ms.locfileid: "58602282"
 |:-----|:-----|
 |有料電話番号を取得できる首都または主要都市はどこですか?   | <ul><li>ブエノスアイレス <li>コルドバ <li>ラプラタ <li>マル・デル・プラタ <li>メンドーサ <br/>  <li>サン・ミゲル・デ・トゥクマン <br/> |
 |有料電話番号は使用できますか?  <br/> |はい  <br/> |
-|無料電話番号は利用できますか?  <br/> |はい  <br/> |
+|無料電話番号は利用できますか?  <br/> |Yes  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」を参照[してください](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

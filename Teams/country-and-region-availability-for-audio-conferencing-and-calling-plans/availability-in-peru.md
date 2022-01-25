@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: ペルーで使用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
-ms.openlocfilehash: b8414e863aa643cb18946c07f2738ac70cebcb34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: ここでは、ペルーでMicrosoft 365とOffice 365サービスのSkype for BusinessとMicrosoft Teamsを示します。
+ms.openlocfilehash: 2f3b61a923ce7ae53d03da65b79619f6b3c21b45
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584741"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191698"
 ---
 # <a name="availability-in-peru"></a>ペルーでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-ペルーで使用できるMicrosoft 365サービスOffice 365とSkype for BusinessサービスMicrosoft Teams次に示します。
+ここでは、ペルーでMicrosoft 365とOffice 365サービスのSkype for BusinessとMicrosoft Teamsを示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -63,7 +63,7 @@ ms.locfileid: "58584741"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

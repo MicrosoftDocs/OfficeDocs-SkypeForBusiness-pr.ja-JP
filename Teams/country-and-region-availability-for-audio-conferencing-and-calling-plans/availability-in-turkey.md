@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: トルコで利用できるMicrosoft 365およびOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: 08531f0c7228d20bc5086ab2aa566a8a3466d9a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 439a78c2551677bf4dbd843cd64678677b34f0a9
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627629"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192028"
 ---
 # <a name="availability-in-turkey"></a>トルコでの利用可能性
 
@@ -63,7 +63,7 @@ ms.locfileid: "58627629"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

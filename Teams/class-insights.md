@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff8418a44ea8369d4659b6bb5978e3f4a1ce51d7
-ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
+ms.openlocfilehash: 9468047673f1832fdf9878bda123be181d21067c
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "62163538"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190868"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams の Education Insights への IT 管理者ガイド
 
@@ -140,7 +140,7 @@ Insights は、教職員に関するデータを表示 *しません*。 デー�
 > 収集されたデータのほとんどは、数分以内に Insights に表示されます。クラス ミーティング (クラス チャネルの 1 つに関連するミーティング) への出席は、ミーティングの終了後数時間で、通常は最大 24 時間後に表示されます。
 
 > [!NOTE]
-> Education Insights で収集されたデータは、IT 管理者が [Education Analytics トグル](#Tturn-sds-for-insights-on-or-off)をオフにするか、テナントの Office サブスクリプションが終了するまで保持されます。 Teams の特定の機能をオフにしても、履歴データは削除されません。
+> Education Insights で収集されたデータは、IT 管理者が [Education Analytics トグル](#turn-sds-for-insights-on-or-off)をオフにするか、テナントの Office サブスクリプションが終了するまで保持されます。 Teams の特定の機能をオフにしても、履歴データは削除されません。
 
 ### <a name="privacy-and-security"></a>プライバシーとセキュリティ
 Insights で収集、表示される情報は、学生、子供、その他同様のプライバシーに関する規定に対して、[GDPR](/compliance/regulatory/gdpr)、家庭教育の[権利とプライバシーに関する法律 (FERPA)](/compliance/regulatory/offering-ferpa) などを含む [90 以上の規制および業界標準](/compliance/regulatory/offering-home)を満たしています。

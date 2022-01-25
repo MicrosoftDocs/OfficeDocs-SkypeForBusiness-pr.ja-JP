@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: コロンビアで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
-ms.openlocfilehash: f3bae061d8b4b6d53b3a985b9afb781faf5e5292
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: コロンビアで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
+ms.openlocfilehash: d544494fa01447e18b02421e0ae71feb6a0940eb
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626369"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191048"
 ---
 # <a name="availability-in-colombia"></a>コロンビアでの利用可能性
 
 電話会議と通話プランを利用できる[別の国や地域を見つけたり、](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)それぞれの国や地域でのそれらの詳細な利用可能状況を確認したりすることができます。
 
-コロンビアで利用できるMicrosoft 365とOffice 365サービスSkype for Business Microsoft Teams次に示します。
+コロンビアで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -63,7 +63,7 @@ ms.locfileid: "58626369"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 

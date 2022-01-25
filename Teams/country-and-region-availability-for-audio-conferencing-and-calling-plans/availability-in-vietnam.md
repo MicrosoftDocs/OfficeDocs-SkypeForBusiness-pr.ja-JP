@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: ベトナムで利用できるMicrosoft 365とOffice 365のSkype for BusinessサービスMicrosoft Teams次に示します。
-ms.openlocfilehash: 8992019aa20a6c72dd16dd1b5d0588202e40ab1f
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 4332fcab208c55ff7899a76727b1b5738282267b
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733718"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192428"
 ---
 # <a name="availability-in-vietnam"></a>ベトナムでの利用可能性
 
@@ -63,7 +63,7 @@ ms.locfileid: "60733718"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、直接ルーティングの使用[電話システム検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、利用可能なすべてのオプションの [PSTN](../pstn-connectivity.md) 接続オプションに関するページを参照してください。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -83,7 +83,7 @@ ms.locfileid: "60733718"
    
 この機能をセットアップする場合は、「[組織のためにコミュニケーション クレジットをセットアップする](../set-up-communications-credits-for-your-organization.md)」をご覧ください。
   
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 [Skype for Business および Microsoft Teams のサービス電話番号の取得](../getting-service-phone-numbers.md)
 
