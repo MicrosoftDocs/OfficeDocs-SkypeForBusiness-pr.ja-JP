@@ -17,13 +17,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: 記録と文字起こしを行う会議Teams設定を管理する方法について学習します。
-ms.openlocfilehash: c89fc88c46ae8b614021417ab2aa02832f64fce1
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+description: レコーディングとトランスクリプションのための会議ポリシー設定Teamsを管理する方法について学習します。
+ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973224"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224074"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>文字起こしを記録する会議&設定
 
@@ -35,7 +35,9 @@ ms.locfileid: "58973224"
 
 ## <a name="allow-transcription"></a>文字起こしを許可する
 
-これは、開催者単位とユーザーごとのポリシーの組み合わせです。 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 この設定をオフにすると、会議のレコーディングの再生中に [検索] オプションと **[CC]** オプションを使用できません。 記録を開始したユーザーは、記録に文字起こしも含まれるように、この設定を有効にする必要があります。
+これは、開催者単位とユーザーごとのポリシーの組み合わせです。 この設定は、会議の記録の再生中にキャプションと文字起こし機能を使用できるかどうかを制御します。 録音を開始したユーザーは、これらの機能が記録を使用するためにこの設定を有効にしている必要があります。
+
+この設定をオンにすると、会議記録に保存されているトランスクリプトのコピーが作成され、会議の記録で検索 **、CC、** およびトランスクリプトが有効にされます。 
 
 現在、記録された会議の文字起こしは、会議中に自分の言語を英語に設定または英語で話すユーザー Teamsされています。
 
@@ -67,7 +69,7 @@ ms.locfileid: "58973224"
 
 このポリシーは、会議レコードを別の国または地域に永続的に保存できるかどうかを制御します。 有効になっている場合は、レコーディングを移行できません。 クラウド会議とレコーディングの保存場所の詳細については、「クラウド会議の記録Teams[を参照してください](cloud-recording.md)。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-topics"></a>関連トピック
 
 - [グループ内のユーザーにポリシーを割り当Teams](policy-assignment-overview.md)
 - [クラウド会議の記録](cloud-recording.md)

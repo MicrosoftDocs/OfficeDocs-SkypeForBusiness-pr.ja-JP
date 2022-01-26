@@ -1539,7 +1539,7 @@ items:
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
               - name: シフト コネクタ
                 items:
-                  - name: シフト コネクタの概要
+                  - name: 概要
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
       - name: 教育機関用 Teams
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
