@@ -20,10 +20,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: edec88f0923605dff29a93a0f1f31685575e2aa0
+ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/16/2021
+ms.lasthandoff: 01/26/2022
 ms.locfileid: "61545008"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>現場担当者のために大規模に Teams をプロビジョニングする方法
