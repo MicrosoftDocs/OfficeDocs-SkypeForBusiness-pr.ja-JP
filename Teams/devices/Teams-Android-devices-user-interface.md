@@ -1,5 +1,5 @@
 ---
-title: Android Microsoft Teamsのユーザー インターフェイスを設定する
+title: Android Microsoft Teamsユーザー インターフェイスを設定する
 ms.author: mitressl
 author: flinchbot
 manager: serdars
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Android デバイスでユーザー インターフェイスを設定するTeams説明します。
-ms.openlocfilehash: cf0c60fa5073ee2a3915f2450900865bc058e295
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 32f5129330bf46657f126fc00f7eddc2fc30f090
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767430"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279385"
 ---
-# <a name="set-microsoft-teams-android-devices-user-interface"></a>Android Microsoft Teamsのユーザー インターフェイスを設定する
+# <a name="set-microsoft-teams-android-devices-user-interface"></a>Android Microsoft Teamsユーザー インターフェイスを設定する
 
-Microsoft Teams Android デバイスでは、サインインしているアカウントに割り当てられているライセンスの種類に基づいて、特定のユーザー インターフェイスを表示できます。 この動作をオーバーライドし、表示されるインターフェイスを制御できます。 この記事では、既定のユーザー インターフェイスを選択する方法と、PowerShell ポリシーを使用してインターフェイスを変更する方法について説明します。
+Microsoft Teams Android デバイスでは、サインインしたアカウントに割り当てられているライセンスの種類に基づいて、特定のユーザー インターフェイスを表示できます。 この動作をオーバーライドし、表示されるインターフェイスを制御できます。 この記事では、既定のユーザー インターフェイスを選択する方法と、PowerShell ポリシーを使用してインターフェイスを変更する方法について説明します。
 
 Android デバイスには、次の 3 種類Teamsがあります。
 
@@ -30,17 +30,25 @@ Android デバイスには、次の 3 種類Teamsがあります。
 2. 共通領域
 3. 会議
 
-E3[](/microsoftteams/user-access)や E5 ライセンスなどのアカウントにユーザー ライセンスを割り当てると、Teams デバイスには、ほとんどのユーザー シナリオで完全に機能する既定のエンド ユーザー インターフェイスが表示されます。 ただし、デバイスが共通エリア電話や会議室などの特定の機能を実行している場合は、これらの使用方法に固有のユーザー インターフェイスがあります。
+E3 [](/microsoftteams/user-access) や E5 ライセンスなどのアカウントにユーザー ライセンスを割り当てると、Teams デバイスには、ほとんどのユーザー シナリオで完全に機能する既定のエンド ユーザー インターフェイスが表示されます。 ただし、デバイスが共通エリア電話や会議室などの特定の機能を実行している場合は、これらの使用方法に固有のユーザー インターフェイスがあります。
 
-次の 3 つの画像は、ユーザー アカウントに割り当てられたライセンスに基づいてユーザー インターフェイスがどのように変化するのか示しています。 最初の画像では、ユーザー アカウントに E5 ライセンスが割り当てられます。 これはユーザー ライセンスなので、デバイスには既定のエンド ユーザー インターフェイスが表示されます。
+次の 3 つの画像は、ユーザー アカウントに割り当てられたライセンスに基づいてユーザー インターフェイスがどのように変化するのか示しています。 
+
+## <a name="end-user-interface"></a>エンド ユーザー インターフェイス 
+
+ユーザー アカウントには E5 ライセンスが割り当てられます。 これはユーザー ライセンスなので、デバイスには既定のエンド ユーザー インターフェイスが表示されます。
 
 :::image type="content" source="../media/teams-android-devices-usermode1.jpg" alt-text="ユーザー モード インターフェイス。":::
 
-この画像では、ユーザー アカウントに共通エリア電話ライセンス [が割り当て済みです](/microsoftteams/set-up-common-area-phones)。 一般的なエリアの電話は、主に電話の送受信に使用されます。 そのため、ダイヤル パッドがディスプレイに表示されます。
+## <a name="common-area-interface"></a>共通領域インターフェイス
+
+この画像では、ユーザー アカウントに共通領域ライセンスが割[り電話されています](/microsoftteams/set-up-common-area-phones)。 一般的なエリアの電話は、主に電話の送受信に使用されます。 そのため、ダイヤル パッドがディスプレイに表示されます。
 
 :::image type="content" source="../media/teams-android-devices-cap1.jpg" alt-text="共通領域の電話インターフェイス。":::
 
-最後に、この画像は、Microsoft Teams Rooms [Standard ライセンスが割り当てられているユーザー アカウントを示](/MicrosoftTeams/rooms/rooms-licensing)しています。 Teams会議室ライセンスは会議室または共有スペースで使用することを意図しています。そのため、予定表ビューを表示することで、ユーザー インターフェイスが変更して会議に簡単に参加できます。
+## <a name="meeting-interface"></a>会議インターフェイス
+
+この画像は、Rooms Standard ライセンスが割り当[Microsoft Teamsアカウントを示](/MicrosoftTeams/rooms/rooms-licensing)しています。 Teams会議室ライセンスは会議室または共有スペースで使用することを意図しています。そのため、予定表ビューを表示することで、ユーザー インターフェイスが変更して会議に簡単に参加できます。
 
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="会議インターフェイス。":::
 
@@ -52,7 +60,7 @@ E3[](/microsoftteams/user-access)や E5 ライセンスなどのアカウント�
 
 ## <a name="override-automatic-user-interface-detection"></a>ユーザー インターフェイスの自動検出をオーバーライドする
 
-場合によっては、目的の使用に一致しないアカウントにライセンスを割り当てる場合があります。 たとえば、Android 上の会議室にサインインすることを意図したアカウントにユーザー ライセンスTeams割り当てる場合があります。 既定では、会議室インターフェイスの代わりにエンド ユーザー インターフェイスが表示されます。 既定のインターフェイスをオーバーライドするには、新しい TEAMS IP 電話[ポリシー](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)を作成し、そのアカウントに適用します。
+場合によっては、目的の使用に一致しないアカウントにライセンスを割り当てる場合があります。 たとえば、Android 上の会議室にサインインすることを意図したアカウントにユーザー ライセンスTeams割り当てる場合があります。 既定では、会議室インターフェイスの代わりにエンド ユーザー インターフェイスが表示されます。 既定のインターフェイスをオーバーライドするには、新しい TEAMS [IP 電話ポリシー](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)を作成し、そのアカウントに適用します。
 
 > [!NOTE]
 > ユーザー アカウントに割り当てられたライセンスには、少なくとも目的のユーザー インターフェイスと同じライセンス資格が必要です。 共通領域のライセンス電話、共通領域の電話のユーザー インターフェイスのみを許可します。 会議室ライセンスを使用すると、会議室と共通領域の電話のユーザー インターフェイスを使用できます。 E3 または E5 ライセンスでは、すべてのサインイン モードがサポートされます。
@@ -84,13 +92,13 @@ E3[](/microsoftteams/user-access)や E5 ライセンスなどのアカウント�
 
 ## <a name="impact-on-microsoft-teams-admin-center"></a>管理センター Microsoft Teamsへの影響
 
-Microsoft Teams管理センターでは、デバイスを管理Microsoft Teamsできます。 管理センターを使用してデバイスを管理する方法のTeams、管理センターでのデバイスの管理に関する[ページMicrosoft Teams。](device-management.md)
+Microsoft Teams管理センターでは、デバイスを管理Microsoft Teamsできます。 管理センターを使用してデバイスを管理する方法のTeams、管理センターでのデバイスの管理[に関するページMicrosoft Teams](device-management.md)。
 
 
 Teams管理センターには、電話を管理Teamsがあります。 電話は、ユーザーの電話、共通領域の電話、電話会議の機能に基づいて、3 つのタブの 1 つでフィルター処理されます。 
 
- :::image type="content" source="../media/teams-admin-center-phones-header.png" alt-text="管理センターの電話Teamsヘッダー。":::
+ :::image type="content" source="../media/teams-admin-center-phones-header.png" alt-text="管理センター Teams電話ヘッダー。":::
 
-ユーザー インターフェイスの検出と同様Teamsは、電話にサインインするアカウントに割り当てられたライセンスに基づいて分類されます。 たとえば、共通領域の電話ライセンスが割り当てられているアカウントが電話にサインインした場合、その電話は既定の [すべての電話]セクションと [共通領域の電話] セクションの両方に **表示** されます。
+ユーザー インターフェイスの検出と同様Teamsは、電話にサインインするアカウントに割り当てられたライセンスに基づいて分類されます。 たとえば、共通領域の電話ライセンスが割り当てられているアカウントが電話にサインインした場合、その電話は既定の [すべての電話] セクションと [共通領域の電話] セクションの両方に **表示** されます。
 
-電話を別のセクションに表示する場合は、電話に別のライセンスを割り当てるか、前述のように Teams IP 電話 ポリシーを作成して割り当[てる](#override-automatic-user-interface-detection)かのどちらかです。
+電話を別のセクションに表示する場合は、別のライセンスを電話に割り当てるか、前述のように Teams IP 電話 ポリシーを作成して割り当てるかのどちらか[です。](#override-automatic-user-interface-detection)
