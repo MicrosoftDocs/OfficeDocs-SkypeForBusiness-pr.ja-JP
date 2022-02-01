@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cb964114a05490d750fee5ec7f8c1a59330e2bd6
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 02faaec97837f61befaa5320f7d73b84e33d25c2
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015187"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299002"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
-組織内に会議室Microsoft Teamsがある場合は、柔軟な管理オプションがあります。  デバイスは、管理センターを使用して、すべてのソリューションを管理Teams中央Microsoft Teams管理できます。 または、Rooms Managed Services を使用して、管理責任を専用[の専門家Microsoft Teams転送できます](https://portal.rooms.microsoft.com)。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
+組織内に会議室Microsoft Teamsがある場合は、柔軟な管理オプションがあります。  管理センターを使用して、すべてのソリューションを管理するのと同じ中央TeamsデバイスMicrosoft Teams管理できます。 または、会議室管理サービスを使用して、管理責任を専用の専門家Microsoft Teams[転送できます](https://portal.rooms.microsoft.com)。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
 
 管理Microsoft Teamsを使用すると、次の方法を実行できます。
 
@@ -34,21 +34,21 @@ ms.locfileid: "62015187"
 - 現在と過去のミーティングアクティビティ（通話品質、ネットワークの状態と接続、参加者数など）を確認する
 - 会議室に接続されている周辺機器 (カメラやプロジェクターなど) をMicrosoft Teamsする
 
-会議室デバイスTeamsを管理するには、Microsoft Teams 管理センター [](https://admin.teams.microsoft.com)を開き、Teams の [Teams 会議室]  >  **にWindows。**
+会議室デバイスTeams管理するには、 > Microsoft Teams 管理センターを開 [](https://admin.teams.microsoft.com)き、[デバイス] Teams Teams **に移動Windows**。
 
-:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teamsセンターの [会議室の概要Teamsページ] を選択します。":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teamsセンターの [会議室の概要Teamsページ。":::
 
 
 > [!IMPORTANT]
-> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、Teams、またはデバイス管理者ロールTeams割り当てられている必要があります。
+> Teams 管理センターを使用してデバイスを管理するには、グローバル管理者、Teams、またはデバイス管理者Teams割り当てられている必要があります。
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Teams ミーティング デバイスに変更を加える
 
-複数の会議室があるTeams、複数のデバイスで同時にほとんどの操作を実行できます。 たとえば、すべての会議室Teamsアプリの設定を同時Teams設定できます。
+複数の会議室があるTeams、複数のデバイスで同時にほとんどの操作を実行できます。 たとえば、すべての会議室Teamsアプリの設定Teams同時に設定できます。
 
 ### <a name="device-settings"></a>デバイス設定
 
-組織内の会議室の 1 つ以上Teams設定を変更できます。 設定を変更するには、管理するデバイスを選択し、**[設定の編集]** を選択します。 新しいウィンドウが開き、変更できるすべての設定が表示されます。 次の表に、Teams 管理センターを使用して変更できる設定を示します。 一部の設定は、1 つの会議室を選択Teams使用できます。
+組織内の 1 つ以上の会議室でTeams設定を変更できます。 設定を変更するには、管理するデバイスを選択し、**[設定の編集]** を選択します。 新しいウィンドウが開き、変更できるすべての設定が表示されます。 次の表に、Teams 管理センターを使用して変更できる設定を示します。 一部の設定は、1 つの会議室を選択Teamsがあります。
 
 複数のオプションを選択した場合、一括編集をサポートする設定には、次の 2 つのオプションが表示されます。
 
@@ -76,7 +76,7 @@ ms.locfileid: "62015187"
 | **サードパーティの会議に参加する**                 | Cisco Webex<br>ズーム                                              | Yes                |
 | **ルーム情報を使用して参加する**                 | 選択済み<br>選択されていません                                              | はい                |
 | **カスタム情報を使用して参加する**                 | 選択済み<br>選択されていません                                              | はい                |
-| **名前 (必須)**                 | ルームまたはスペースの名前                                              | Yes                |
+| **名前 (必須)**                 | ルームまたはスペースの名前                                              | はい                |
 | **メール (必須)**                 | メール アドレス                                              | はい                |
 | *デバイス*                                                     |                                                        |                    |
 | **デュアル モニター モード**                                        | オン<br>オフ                                              | はい                |
@@ -105,12 +105,27 @@ ms.locfileid: "62015187"
 | *テーマ*                                                    |                                                        |                    |
 |                                                              | 既定値<br>テーマなし<br>カスタム<br>組み込みテーマの一覧   | はい                |
 
-## <a name="cortana-settings"></a>Cortana設定 
-組織内のすべてのデバイスCortanaデバイスごとに PowerShell を使用して、音声のアクティブ化またはプッシュによる音声通話を有効にできます。 
+### <a name="cortana-settings"></a>Cortana設定
 
-[「Microsoft Teamsでの音声アシスタンス](../cortana-in-teams.md)Windows」の記事Cortana「Teams 会議室」を参照してください。
+組織内のすべてのデバイスCortanaデバイスごとに、PowerShell を使用して、音声のアクティブ化またはプッシュによる通話の共有を有効にできます。
 
-### <a name="device-restart-options"></a>デバイス再起動のオプション
+「[Microsoft Teamsの音声アシスタンスWindows](../cortana-in-teams.md)の詳細については、「Cortanaの会議室」Teams参照してください。
+
+### <a name="front-row-layout-settings"></a>最前面行レイアウトの設定
+
+最前面の行は、[会議室] の [会議Teamsレイアウト オプションWindows。
+
+| Teams デバイス | アプリのバージョン | 部屋の前面表示 |
+|--------------|-------------|-----------------------|
+|Microsoft Teams の会議室Windows | 4.11.14.0 から 4.11.12.0 | 単一ディスプレイとデュアル ディスプレイをサポートします。最小サイズ: 46 インチ;縦横比 16:9、解像度 1920*1080、解像度 21:9、解像度 2560x1080。すべてのディスプレイは、すべての設定で 100% のWindowsする必要があります。 |
+
+フロント[Microsoft Teams要件を](rooms-operations.md#change-scale-and-resolution)満たして表示設定を調整するには、「会議室のメンテナンスと操作」を参照してください。
+
+会議室の既定のレイアウトとして最前面行を設定する方法、またはオフにする方法については、「XML 構成ファイルを使用して [Microsoft Teams 会議室](xml-config-file.md#set-front-row-as-the-default-layout)の本体設定をリモートで管理する」を参照してください。
+
+Front [行の管理の詳細](known-issues.md#Limits) については、「既知の問題」を参照してください。
+
+## <a name="device-restart-options"></a>デバイス再起動のオプション
 
 デバイス設定の変更は、会議室が再起動Teams後にのみ有効になります。 再起動が必要な変更を行う場合は、すぐに再起動するか、再起動のスケジュールを設定するかを選択できます。 利用可能な再起動オプションは次のとおりです。
 
@@ -122,15 +137,15 @@ ms.locfileid: "62015187"
 > [!CAUTION]
 > Teams時に使用されている会議室は、再起動プロセス中は使用できません。 進行中のミーティングから切断され、新しいミーティングに参加できなくなります。
 
-### <a name="remove-device"></a>デバイスを削除する
+## <a name="remove-device"></a>デバイスを削除する
 
 デバイスを削除すると、デバイスは組織から削除され、Teams 管理センターの Teams Rooms on Windows の一覧に表示されなくなりました。
 
-デバイスを削除した後も、有効なユーザー名とパスワードで構成されている場合、デバイスが Microsoft 365 に再度接続すると、そのデバイスは Teams 会議室の一覧に自動的に再追加されます。
+デバイスを削除した場合でも、有効なユーザー名とパスワードでデバイスが構成されている場合、Microsoft 365 に再度接続すると、デバイスは自動的に Teams 会議室リストに再追加されます。
 
 1つまたは複数のデバイスを削除するには、次の操作を行います。
 
-1. [デバイス] **Teams Teams**  >  **に移動Windows** 削除するデバイスを選択します。
+1. [デバイス] **Teams、[** > Teams] Windowsに **移動** し、削除するデバイスを選択します。
 2. **削除** を選択します。
 
 ## <a name="download-device-logs"></a>デバイスログをダウンロードする
@@ -139,7 +154,7 @@ Microsoft サポートから要求された場合、デバイスの診断ログ�
 
 Teams ミーティング デバイスからコンピューターにログをダウンロードするには、次の手順を実行します。
 
-1. [デバイス **Teams Teams** Windows] に移動し、ログをダウンロードするデバイス  >  の名前を選択します。
+1. [デバイス **Teams Teams** > **[** 会議室Windows] に移動し、ログをダウンロードするデバイスの名前を選択します。
 1. **デバイスログのダウンロード** を選択します。 デバイスログが使用可能になるまでに数分かかることがあります。
 1. **[履歴]** タブを選択し、**Diagnostics ファイル** で [ログファイルのリンク] を選択します。 デバイスの診断ログファイルを含むzipファイルが、ブラウザの既定のダウンロードフォルダにダウンロードされます。
 
@@ -168,7 +183,7 @@ Teams ミーティング システムダッシュボードでは、すべての�
 
 Teams ミーティング デバイスの詳細の **[アクティビティ]** タブには、デバイスが参加したすべての会議に関する高レベルの詳細情報が表示されます。 **[アクティビティ]** タブで、ミーティングがいつ開催されたか、ミーティングに参加している参加者の数、およびミーティング中のオーディオ品質を確認できます。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teamsのデバイス アクティビティの概要一覧を表示します。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teamsデバイス アクティビティの概要一覧を表示します。":::
 
 特定のミーティングに関する詳細情報を表示するには、ミーティングの日付と時刻を選択します。 ミーティングに参加できるのが2人のみの場合は、[参加者の詳細] ページが表示されます。表示されない場合は、参加者の概要ページが表示されます。
 

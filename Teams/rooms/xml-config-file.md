@@ -16,18 +16,18 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: カスタム テーマの適用やマスター設定ファイルの作成など、Microsoft Teams Rooms デバイスで使用される既定の設定のリモート管理について説明します。
-ms.openlocfilehash: 01ecdd5a960978e15e7c21d5f5e7fe6707437a42
-ms.sourcegitcommit: e0e3c83cea2662057ee2f3f2a429c7831c3d917a
+ms.openlocfilehash: fdece0fb7ed554e229a5eef557e1bd2cbf8e4711
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62213496"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299022"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Microsoft Teams Rooms のコンソールの設定を、XML 構成ファイルを使用してリモートで管理する
 
-この記事では、カスタム テーマの適用など、 Microsoft Teams Rooms デバイスによって使用される既定の設定のリモート管理について説明します。 マスター設定ファイルを作成する方法と、必要に応じてマスター設定ファイルを会議室に配置する方法についてのTeams説明します。
+この記事では、カスタム テーマの適用など、 Microsoft Teams Rooms デバイスによって使用される既定の設定のリモート管理について説明します。 マスター設定ファイルを作成する方法と、必要に応じてマスター設定ファイルを会議室に配置する方法の説明Teams説明します。
   
-マスター XML ファイルを更新し、リモート Teams Rooms デバイスにコピーを送信することで、Teams Rooms の既定の設定を変更できます。
+マスター XML ファイルを更新し、リモート Teams Rooms デバイスにコピーを送信することで、Teams Rooms の既定の設定を変更できます。 
   
 ## <a name="create-an-xml-configuration-file"></a>XML 構成ファイルを作成する
 
@@ -128,7 +128,7 @@ ms.locfileid: "62213496"
 | \<DisableTeamsAudioSharing\>                | ブール値 &#x2777;            | First &#x2776; | [true] に設定すると、会議中の会議の参加者に対する HDMI オーディオ共有Teams無効になります。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | \<FrontRowEnabled>                          | ブール値 &#x2777;            | First &#x2776; | 既定では有効になっています。 false の場合、最前面行は無効になります。
 | \<DefaultFoRExperience>                     | ブール値 &#x2777;            | First &#x2776; | 既定ではギャラリー ビュー。 既定のレイアウトをギャラリー ビューから最前面行に変更するには、1 を配置します。
-| \<CortanaWakewordEnabled\>                  | ブール値 &#x2777;            | First &#x2776; | "Hey Cortana" というウェイク ワードを有効にするには、true にCortana。 この設定は、お客様の国または地域で Cortana サービスがサポートされ、接続されているオーディオ周辺機器がサポートしている場合をCortana。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| \<CortanaWakewordEnabled\>                  | ブール値 &#x2777;            | First &#x2776; | "Hey Cortana" というウェイク ワードCortanaを有効にするには、true に設定します。 この設定は、お客様の国または地域で Cortana サービスがサポートされ、接続されているオーディオ周辺機器がサポートしている場合をCortana。 既定の設定は False です。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | コンテナー                   | First &#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | 文字列  &#x2778;            |                | [フィードバックの送信] ウィンドウが表示されたときにログの送信先となるオプションのメールアドレスを設定します。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | \<SendLogsAndFeedback\>                     | ブール値 &#x2777;            |                | True の場合、ログは管理者に送信されます。False の場合は、フィードバックのみが管理者に送信され、ログには送信されません。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -249,6 +249,16 @@ ms.locfileid: "62213496"
 5. カメラを右クリックし、[**プロパティ**] を開きます。
 6. [**詳細**] タブを選び、ドロップダウンリストから [**デバイス インスタンスパス**] プロパティを見つけます。
 7. 表示される値は、XML 構成ファイルに設定するデバイス インスタンス パスです。 XML でパスを指定する場合は、アンパサンド (&) を`&amp;`に置き換えます。
+
+## <a name="set-front-row-as-the-default-layout"></a>[最前面行] を既定のレイアウトとして設定する
+
+XML 構成でルームの既定の表示レイアウトを設定しない場合、既定のレイアウトは [ギャラリー] に設定されます。 既定のレイアウトとして [最前面] 行を表示するには、 ```<DefaultFoRExperience>1</DefaultFoRExperience>``` XML 構成ファイルに を追加します。
+
+エンド ユーザーは、メッティング中にレイアウト ピッカーを使用して、既定の表示レイアウトから切り替えます。
+
+## <a name="turn-off-front-row"></a>[最前面] 行をオフにする
+
+最前面行は既定で有効になっています。 エンド ユーザーが特定のルームで最前面行を使用できない場合は、[最前面行] をオフにします。 これを行うには、XML 構成 ```<FrontRowEnabled>false</FrontRowEnabled>``` ファイルに を追加します。
 
 ## <a name="see-also"></a>関連項目
 
