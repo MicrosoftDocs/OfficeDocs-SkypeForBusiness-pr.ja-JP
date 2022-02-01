@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 組織内のフロントライン ワーカー向け Teams Shifts アプリを設定および管理する方法について学習します。
 f1.keywords:
 - NOCSH
@@ -19,21 +20,22 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec708d310ea72ac56b5f6ad6bb65a4ab436915f6
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192378"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288375"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
 ## <a name="overview-of-shifts"></a>シフトの概要
 
-Shifts アプリは、Microsoft Teamsのワーカーを接続し、同期を維持します。チームの時間管理とコミュニケーションを迅速かつ効果的に行うモバイルを最初に構築します。 シフトを使用すると、フロントラインの従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合います。
+Shifts アプリは、Microsoft Teamsワーカーを接続し、同期したままにします。チームの時間管理とコミュニケーションを迅速かつ効果的に行うモバイルを最初に構築します。 シフトを使用すると、フロントラインの従業員とそのマネージャーは、モバイル デバイスを使用してスケジュールを管理し、連絡を取り合います。
 
 - マネージャーは、チームのシフト スケジュールを作成、更新、および管理します。 マネージャーは、メッセージを 1 人のユーザーに送ることも ("床が汚れています" など)、チーム全体に送ることもできます ("地区本部長があと 20 分で到着します" など)。 マネージャーは、ポリシー ドキュメント、ニュース速報、およびビデオを送信することもできます。
 - 従業員は、自分の今後のシフトの確認、自分の他にその日にスケジュールが入っている従業員の表示、シフトの入れ替えや申し出のリクエスト、および休暇のリクエストを行います。
@@ -58,7 +60,7 @@ Shifts では現在ゲストがサポートされていません。 つまり、
 シフトは、組織内のすべての Teams ユーザーに対して既定で有効になっています。 組織レベルでアプリをオフまたはオンにするには、Microsoft Teams 管理センターの [[アプリを管理]](../../manage-apps.md) ページで行います。
 
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリを管理]** の順に移動します。
-2. アプリの一覧で Shifts アプリを検索して選択し、[状態] トグルを [ブロック] または [許可]**に****切り替えます**。
+2. アプリの一覧で Shifts アプリを検索して選択し、[状態] トグルを [ブロック] または [許可 **] に****切り替えます**。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>組織内の特定のユーザーのシフトを有効または無効にする
 
@@ -70,7 +72,7 @@ Shifts では現在ゲストがサポートされていません。 つまり、
 
 Shifts アプリを [追加してカスタム アプリセットアップ ポリシー](../../teams-app-setup-policies.md) を作成し、そのポリシーを [ユーザー](../../assign-policies-users-and-groups.md) に割り当てできます。 または、Frontline Worker および Frontline Manager ポリシー パッケージの一部であるアプリセットアップ ポリシーを使用できます。
 
-Teams [](../../manage-policy-packages.md)のポリシー パッケージは、組織内で同様のロールを持つユーザーに割り当て可能な定義済みのポリシーとポリシー設定のコレクションです。 Frontline Worker ポリシー パッケージと Frontline Manager ポリシー パッケージの一連のポリシーには、Shifts アプリと、そのロールのコミュニケーションおよびコラボレーション アクティビティをサポートする他のアプリをピン留めするアプリセットアップ ポリシーが含まれています。
+[Teams の](../../manage-policy-packages.md)ポリシー パッケージは、組織内で同様のロールを持つユーザーに割り当て可能な定義済みのポリシーとポリシー設定のコレクションです。 Frontline Worker ポリシー パッケージと Frontline Manager ポリシー パッケージの一連のポリシーには、Shifts アプリと、そのロールのコミュニケーションおよびコラボレーション アクティビティをサポートする他のアプリをピン留めするアプリセットアップ ポリシーが含まれています。
 
 Frontline Worker ポリシー パッケージと Frontline Manager ポリシー パッケージを使用することをお勧めします。Frontline Worker と Frontline Manager のポリシー パッケージは、フロントラインの従業員のポリシーを管理する際に簡素化、合理化、一貫性を提供するのに役立ちます。
 

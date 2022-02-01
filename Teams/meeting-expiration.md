@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 会議ポリシー設定を使用して、会議の有効期限を制御する方法についてMicrosoft Teams。
-ms.openlocfilehash: 8c8a5603aea6ac65a2cd35b12eca9250debc7c51
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: d12c0ca4a0b838f66cfac142102b6e4b8efc3e03
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279174"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288335"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>会議ポリシーと会議の有効期限 (Microsoft Teams
 
@@ -80,7 +80,7 @@ ms.locfileid: "62279174"
 > [!IMPORTANT]
 > テナントで会議の有効期限を早Teams有効にする場合は、会議の有効期限の早期導入プログラムにMicrosoft Teamsを[適用します](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u)。
 
-新しく作成Teams記録 (TMRs) には、既定で 60 日間の有効期限が設定されます。 これは、すべてのテナントで既定でオンになっています。 つまり、既定では、この機能を有効にした後に作成された TMRs はすべて、作成日から 60 日後に削除されます。 管理者は、会議を自動期限切れに **しない設定に設定できます**。 OneDriveとSharePointシステムは、すべての TMRs に設定された有効期限を監視し、その有効期限に自動的に TMRs をごみ箱に移動します。
+新しく作成Teams記録 (TMRs) には、既定で 120 日間の有効期限が設定されます。 これは、すべてのテナントで既定でオンになっています。 つまり、既定では、この機能を有効にした後に作成された TMRs はすべて、作成日から 120 日後に削除されます。 管理者は、会議を自動期限切れに **しない設定に設定できます**。 OneDriveとSharePointシステムは、すべての TMRs に設定された有効期限を監視し、その有効期限に自動的に TMRs をごみ箱に移動します。
 
 自動会議の有効期限は、古い TMRs によって作成されたストレージの低優先メールを減らす軽量の家事処理メカニズムです。 すべてのお客様の平均で、60 日後に 96% の TMRS が監視され、99% が 110 日後に視聴されません。 ほぼすべてのお客様が、60 日後に再び視聴されなくなる可能性が高い記録を削除することで、テナントのストレージ負荷の削減の恩恵を受けると考えています。 既定では、すべてのお客様に可能な限りクリーンなエクスペリエンスを提供することです。
 
@@ -120,13 +120,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 いいえ。エンド ユーザーが制御する記録の有効期限を変更できるので、法的保護のためにこれを利用してはならない。
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>Security & コンプライアンス センターで設定したアイテム保持ポリシーや削除ポリシーは、会議Teamsの有効期限設定を上書きしますか?
+#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>Security & コンプライアンス センターで設定したアイテム保持ポリシーや削除ポリシーは、会議Teamsの有効期限の設定を上書きしますか?
 
 はい。コンプライアンス センターで設定したポリシーが完全に優先されます。
 
 次に例を示します。
 
-- サイト内のすべてのファイルを 100 日間保持する必要があるというポリシーを使用し、Teams 会議の記録の有効期限設定が 30 日間の場合、記録は 100 日間保持されます。
+- サイト内のすべてのファイルを 100 日間保持する必要があるというポリシーを使用し、Teams 会議の記録の有効期限設定が 30 日間である場合、記録は 100 日間保持されます。
 - Teams 会議のすべての記録が 5 日後に削除され、Teams 会議記録の有効期限設定が 30 日後に設定されている削除ポリシーがある場合、記録は 5 日後に削除されます。
 
 ### <a name="will-this-feature-enforce-file-retention"></a>この機能はファイルの保持を強制しますか?
@@ -142,7 +142,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 セキュリティポリシーとコンプライアンス 保持ポリシーまたは削除ポリシーを使用することをお勧めします。 このサービスは、複雑なポリシーや SLA 駆動型の管理的な法的問題を解決することを目的としています。
 
-自動有効期限機能は、古い会議記録から作成されたストレージの煩雑を軽減する軽量のTeams専用です。
+自動有効期限機能は、古い会議の記録から作成されたストレージの煩雑を軽減する軽量のTeams専用です。
 
 ### <a name="will-future-tmrs-migrated-from-classic-stream-after-this-feature-is-released-have-auto-expiration-applied-to-them-too"></a>この機能のリリース後、クラシック ストリームから移行した将来の TMR にも自動失効が適用されますか?
 

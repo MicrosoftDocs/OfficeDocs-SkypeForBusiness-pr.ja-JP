@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 組織内のユーザー向けに Teams でリスト アプリを管理する方法について説明します。
 f1.keywords:
 - NOCSH
@@ -18,16 +19,17 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365initiative-lists
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 72235497f2b020aaed1228ecadff781ed76b7341
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829551"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288485"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Microsoft Teams で組織のシフト アプリを管理する
 
@@ -35,7 +37,7 @@ ms.locfileid: "60829551"
 
 Microsoft Teams のリスト アプリは、組織内のユーザーが情報を追跡し、仕事を整理し、ワークフローを管理するのに役立ちます。 リストを使用すると、ユーザーはカスタマイズ可能なビュー、ルール、アラートを使用して、問題、資産、ルーチン、連絡先、インベントリ、インシデント、ローン、患者などのデータを追跡し、チーム内のすべてのユーザーが同期を保つことができるようになります。
 
-Teams では、ユーザーはチャネル内のタブとしてリストにアクセスします。 **[+]** をクリックしてタブ ギャラリーを開き、開始するチャネルに新しいリスト アプリのタブ インスタンスを追加します。
+Teams では、ユーザーはチャネル内のタブとしてリストにアクセスします。 を **+** 選択してタブ ギャラリーを開き、チャネルに新しいリスト アプリ タブ インスタンスを追加して開始します。
 
 ![タブ ギャラリーのアプリを一覧表示します。](media/lists-tab.png)
 
@@ -58,7 +60,7 @@ Teams では、ユーザーはチャネル内のタブとしてリストにア�
 
 打ち合わせ後、郵便配達員が郵便物を受け取り、配達ルートへの移動を開始します。 インシデントはルート上で発生する可能性があります。たとえば、車両事故、犬に関連する問題、社会問題に対する抗議運動などです。 配達員がインシデントに遭遇した場合、モバイル デバイス上の Teams を使用してインシデントの詳細を記録します。そしてそのインシデントは、チーム チャネル内のリストで追跡されます。 現場の郵便配達員を含むチームの全員がこの情報を確認しながら、常に情報を得ることができます。
 
-Teams に移行する前であれば、郵便配達員は郵便局に戻り、Excel のスプレッドシートに入力するための印刷用紙にインシデントに関する報告を記入しなければなりませんでした。 Teams は、リストを使用して現場で発生したインシデントを報告したり、インシデントの詳細をチーム メンバーと共有したり、チャネル上で会話したり、インシデントを解決したりすることができるモバイル ファーストな使用体験を郵便配達員に提供します。
+Teams に移行する前に、郵便業者は、郵便会社に戻って、インシデントを報告するハード コピー フォームを完成する必要がありました。このフォームは、Excel スプレッドシートに入力されました。 Teams は、リストを使用して現場で発生したインシデントを報告したり、インシデントの詳細をチーム メンバーと共有したり、チャネル上で会話したり、インシデントを解決したりすることができるモバイル ファーストな使用体験を郵便配達員に提供します。
 
 ## <a name="what-you-need-to-know-about-lists"></a>リストについて知っておくべきこと
 
@@ -72,7 +74,7 @@ Teams に移行する前であれば、郵便配達員は郵便局に戻り、Ex
 
 SharePoint で設定したアクセス許可は、リスト アプリで作成したリストに適用されます。 既定では、リストは、ユーザーが所属するサイトから権限を継承します。 これらのアクセス許可は、ユーザーがリストの作成や編集をできるかどうかなど、ユーザーが実行可能なアクションの種類を管理します。 詳細については、「[SharePoint でのアクセス許可レベル](/sharepoint/understanding-permission-levels)」と「[SharePoint Server でのユーザー アクセス許可とアクセス許可レベル](/sharepoint/sites/user-permissions-and-permission-levels)」を参照してください。
 
-特定のシナリオでは、ユーザーがリストで実行可能なアクションを制限する必要がある場合があります。 たとえば、あるチーム内のユーザーがすべてのチーム メンバーに変更が適用されるリスト ビューの編集を行う場合や、チームの所有者や特定のチーム メンバーにのみリスト ビューの編集を許可する必要がある場合などです。 詳細については、「[SharePoint リストまたはライブラリのアクセス許可をカスタマイズする方法](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)」を参照してください。
+特定のシナリオでは、ユーザーがリストで実行できるアクションを制限できます。 たとえば、あるチーム内のユーザーがすべてのチーム メンバーに変更が適用されるリスト ビューの編集を行う場合や、チームの所有者や特定のチーム メンバーにのみリスト ビューの編集を許可する必要がある場合などです。 詳細については、「[SharePoint リストまたはライブラリのアクセス許可をカスタマイズする方法](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)」を参照してください。
 
 > [!NOTE]
 > 現時点では、チーム内の所有者やメンバーのアクセス許可は、リストやリスト アプリの動作を管理するチーム サイトのアクセス許可とは一切リンクしていません。 ただし、これについては、お客様からのフィードバックやご利用状況を元に今後のイテレーションで検討していきます。  
@@ -96,8 +98,8 @@ SharePoint で設定したアクセス許可は、リスト アプリで作成�
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[Teams アプリ]** > **[アプリの管理]** の順に移動します。
 2. 次のいずれかの操作を行います。
 
-    - 組織のリストをオフにするには、リスト アプリを検索して選択し、**[ブロック]** をクリックします。
-    - 組織のリストをオンにするには、リスト アプリを検索して選択し、**[許可]** をクリックします。
+    - 組織のリストをオフにする場合は、リスト アプリを検索して選択し、[ブロック] を選択 **します**。
+    - 組織のリストを有効にする場合は、リスト アプリを検索して選択し、[許可] を選択 **します**。
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>組織内の特定のユーザーのリストを有効または無効にする
 
@@ -105,7 +107,7 @@ SharePoint で設定したアクセス許可は、リスト アプリで作成�
 
 ## <a name="search-the-audit-log-for-list-events"></a>Teams でリスト イベントの監査ログを検索する
 
-リストは、企業レベルの監査で有効になっているので、セキュリティ/コンプライアンス センターの監査ログでリストやリスト アイテムのイベントを検索できます。 詳細については、「[セキュリティ/コンプライアンス センターで監査ログを検索する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」を参照してください。
+リストはエンタープライズ レベルの監査で有効になっているので、Security & コンプライアンス センターの監査ログでリストとリスト アイテムのイベントを検索できます。 詳細については、「[セキュリティ/コンプライアンス センターで監査ログを検索する](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)」を参照してください。
 
 Teams のリスト アプリに関連する監査イベントの一覧については、「[SharePoint リスト アクティビティ](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)」を参照してください。
 
@@ -117,8 +119,8 @@ Teams のリスト アプリに関連する監査イベントの一覧につい�
 
 ## <a name="give-feedback-or-report-an-issue"></a>フィードバックの提供/問題の報告
   
-フィードバックを送信したり、問題を報告したりするには、Teams の左側のナビゲーションの下部にある **[ヘルプ]** をクリックしてから、**[問題の報告]** を選択します。 **[リスト]** を選択し、フィードバックや発生している問題についての詳細情報を入力します。
+フィードバックを送信したり、問題を報告したりするには、Teams の左側のナビゲーションの下部にある [ヘルプ] を選択し、[問題の報告] **を選択します**。 **[リスト]** を選択し、フィードバックや発生している問題についての詳細情報を入力します。
 
-## <a name="related-topics"></a>関連項目
+## <a name="related-articles"></a>関連記事
 
 - [リストのヘルプ ドキュメント](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)

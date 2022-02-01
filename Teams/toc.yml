@@ -1675,8 +1675,36 @@ items:
       - name: 小売店向けの Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
+          - name: 販売店チーム間のコラボレーション
+            href: expand-teams-across-your-org/retail-team-collaboration.md
+          - name: 販売店のビジネス プロセスを簡素化する
+            href: expand-teams-across-your-org/retail-business-processes.md
           - name: 販売店チーム テンプレートを使用する
             href: get-started-with-retail-teams-templates.md
+          - name: 現場担当者のオンボーディング ウィザード
+            href: flw-onboarding-wizard.md
+          - name: 現場担当者のスクリプト化された展開
+            href: flw-scripted-deployment.md
+          - name: Teams の Shifts
+            items:
+              - name: Teams の Shifts
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+              - name: Teams で組織の シフト アプリを管理する
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: シフトベースのアクセスを管理する
+                href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: トランシーバー
+            href: walkie-talkie.md
+          - name: RealWear
+            href: flw-realwear.md
+          - name: 称賛アプリを管理する
+            href: manage-praise-app.md
+          - name: 組織のタスク アプリを管理する
+            href: manage-tasks-app.md
+          - name: Teams で組織のリスト アプリを管理する
+            href: manage-lists-app.md
+          - name: 承認アプリを管理する
+            href: approval-admin.md
   - name: 参照
     items:
       - name: Teams の制限と仕様

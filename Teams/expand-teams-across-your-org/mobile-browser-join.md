@@ -10,21 +10,23 @@ search.appverid: ''
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: モバイル ブラウザーでの仮想アクセスTeams参加エクスペリエンスについて説明します。
-ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 5c4b0f7ac9011d12d12e3076f900880292e72eb1
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960116"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288565"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>モバイル ブラウザーで仮想アクセスTeamsの参加エクスペリエンスを管理する
 
@@ -46,27 +48,27 @@ Microsoft Teamsをダウンロードすることなく、モバイル デバイ�
 
 組織内のスケジューラは、特定の予定の種類と Bookings アプリの個々の予定に対してこの機能を有効にできます。
 
-この機能を有効にすると、出席者に送信される確認メールまたは SMS テキストに、モバイル ブラウザーで Teams を開く会議参加リンクが含まれる状態となります。 Android モバイル デバイスでは、Chrome Teamsが開きます。 iOS モバイル デバイスでは、Safari Teamsが開きます。
+この機能を有効にすると、出席者に送信される確認メールまたは SMS テキストに、モバイル ブラウザーで Teams を開く会議への参加リンクが表示されます。 Android モバイル デバイスでは、Chrome Teamsが開きます。 iOS モバイル デバイスでは、Safari Teamsが開きます。
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>予定の種類に対してモバイル ブラウザー参加を有効にする
 
-[Bookings] で、[予定の種類 **設定** に移動し、予定の種類 を選択し、[モバイル ブラウザーから出席者の参加を許可する  >  ]**をオンにします**。 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) これにより、この種類のすべての予定に対してモバイル ブラウザーに参加できます。
+[Bookings]  >  で 、[設定 **Appointment** の種類] に移動し、[](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)予定の種類を選択して、[モバイル ブラウザーから出席者の参加を許可する] **をオンにします**。 これにより、この種類のすべての予定に対してモバイル ブラウザーに参加できます。
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Bookings アプリの予定の種類の [モバイル ブラウザーから出席者の参加を許可する] 設定のスクリーンショット":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>個々の予定のモバイル ブラウザー参加を有効にする
 
-[Bookings] で [ **新しい予約]** を選択し、[モバイル ブラウザーから出席者の参加 **を許可する] をオンにします**。
+[Bookings] で [ **新しい予約**] を選択し、[モバイル ブラウザーから出席者の参加 **を許可する] をオンにします**。
 
 :::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Bookings アプリの新しい予約フォームの [モバイル ブラウザーから出席者の参加を許可する] 設定のスクリーンショット":::
 
-### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>EHR コネクタでスケジュールTeams予定
+### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>EHR コネクタを介してTeams予定
 
 セットアップは、ユーザーまたはスタッフが必要とします。
 
-**Cerner EHR** との統合: Teams EHR コネクタは、モバイル経由で仮想訪問に参加する患者をサポートします。 予約の時点で、患者は SMS テキスト メッセージのリンクをタップして仮想訪問に参加できます。 患者が必要なブラウザーを選択し、そのTeams開きます。
+**Cerner EHR** との統合: Teams EHR コネクタは、モバイル経由で仮想訪問に参加する患者をサポートします。 予約の時点で、患者は SMS テキスト メッセージのリンクをタップして仮想訪問に参加できます。 患者は必要なブラウザーを選択し、そのTeams開きます。
 
-**エピック EHR** との統合: Teams EHR コネクタは、MyChart Web およびモバイルを介して仮想訪問に参加する患者をサポートします。 予約の時点で、患者は [仮想訪問の開始] ボタンを使用して、MyChart から仮想訪問 **を開始** できます。 患者が必要なブラウザーを選択し、そのTeams開きます。
+**エピック EHR** との統合: Teams EHR コネクタは、MyChart Web およびモバイルを介して仮想訪問に参加する患者をサポートします。 予約の時点で、患者は [仮想訪問の開始] ボタンを使用して、MyChart から仮想訪問 **を開始** できます。 患者は必要なブラウザーを選択し、そのTeams開きます。
 
 ## <a name="supported-mobile-browsers"></a>サポートされているモバイル ブラウザー
 

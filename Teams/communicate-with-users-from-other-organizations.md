@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 外部アクセス (フェデレーション) とゲスト アクセスを使用して、Microsoft Teams で組織外のユーザーと電話およびチャットし、ユーザーを検索および追加する方法を説明します。
-ms.openlocfilehash: 63077f500f1cf4953abf200913d39c37846eb4e5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ab6a15edc1aa8d0de6f77b96ed176171ff5d65ae
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763075"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288435"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>ゲスト アクセスと外部アクセスを使用して、組織外の人々とコラボレーションする
 
@@ -45,7 +45,7 @@ Teams、Skype for Business (オンラインまたはオンプレミス)、Skype 
 外部アクセスを構成するには、「[外部アクセスの管理](manage-external-access.md)」を参照してください。 
 
 >[!NOTE]
->Microsoft Teams の無料ライセンスでは、外部アクセスはサポートされていません。
+> [Microsoft Teams 無料版 (クラシック)](https://support.microsoft.com/office/welcome-to-microsoft-teams-free-classic-6d79a648-6913-4696-9237-ed13de64ae3c) ライセンスでは、外部アクセスはサポートされていません。
 
 ## <a name="guest-access"></a>ゲスト アクセス
 
