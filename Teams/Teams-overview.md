@@ -34,7 +34,7 @@ Teams を使うのが初めてで、詳細を知りたい場合は、「[Teams �
 
 Teams の管理者向けビデオの「Teams へようこそ」をお見逃しなく (3 分強):
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxWd]
 
 エンド ユーザー向けの Teams のヘルプを探している場合は、アプリの左側にある **[ヘルプ]** をクリックするか、「[Microsoft Teams ヘルプ センター](https://support.office.com/teams)」に移動します。トレーニングについては、「[Microsoft Teams のトレーニング](training-microsoft-teams-landing-page.md)」を参照してください。 
 
