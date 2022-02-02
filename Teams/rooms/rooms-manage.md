@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: 継続的なメンテナンスと運用を開発および実行して、Microsoft Teams Rooms システムをユーザーが確実に利用できるようにする方法について説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02faaec97837f61befaa5320f7d73b84e33d25c2
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 72e6a89e23ddb8874c6fe9e262759d2aab4522e7
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299002"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312250"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams Rooms を管理する
 
-組織内に会議室Microsoft Teamsがある場合は、柔軟な管理オプションがあります。  管理センターを使用して、すべてのソリューションを管理するのと同じ中央TeamsデバイスMicrosoft Teams管理できます。 または、会議室管理サービスを使用して、管理責任を専用の専門家Microsoft Teams[転送できます](https://portal.rooms.microsoft.com)。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
+組織内に会議室Microsoft Teamsがある場合は、柔軟な管理オプションがあります。  管理センターを使用して、すべてのソリューションを管理する中央の場所TeamsデバイスMicrosoft Teams管理できます。 または、会議室管理サービスを使用して、管理責任を専用[の専門家Microsoft Teams転送できます](https://portal.rooms.microsoft.com)。  どちらのオプションでも、選択したパートナーに管理アクセスを委任することもできます。
 
 管理Microsoft Teamsを使用すると、次の方法を実行できます。
 
@@ -34,9 +34,9 @@ ms.locfileid: "62299002"
 - 現在と過去のミーティングアクティビティ（通話品質、ネットワークの状態と接続、参加者数など）を確認する
 - 会議室に接続されている周辺機器 (カメラやプロジェクターなど) をMicrosoft Teamsする
 
-会議室デバイスTeams管理するには、 > Microsoft Teams 管理センターを開 [](https://admin.teams.microsoft.com)き、[デバイス] Teams Teams **に移動Windows**。
+会議室デバイスTeams管理するには、Microsoft Teams [管理](https://admin.teams.microsoft.com) > センターを開き、[デバイス] Teams Teams **に移動Windows**。
 
-:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teamsセンターの [会議室の概要Teamsページ。":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teamsセンターの [会議室] Teamsページ。":::
 
 
 > [!IMPORTANT]
@@ -44,11 +44,11 @@ ms.locfileid: "62299002"
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Teams ミーティング デバイスに変更を加える
 
-複数の会議室があるTeams、複数のデバイスで同時にほとんどの操作を実行できます。 たとえば、すべての会議室Teamsアプリの設定Teams同時に設定できます。
+会議室に複数の Teamsがある場合は、複数のデバイスで同時にほとんどの操作を実行できます。 たとえば、すべての会議室でTeamsアプリの設定を同時Teams設定できます。
 
 ### <a name="device-settings"></a>デバイス設定
 
-組織内の 1 つ以上の会議室でTeams設定を変更できます。 設定を変更するには、管理するデバイスを選択し、**[設定の編集]** を選択します。 新しいウィンドウが開き、変更できるすべての設定が表示されます。 次の表に、Teams 管理センターを使用して変更できる設定を示します。 一部の設定は、1 つの会議室を選択Teamsがあります。
+組織内の会議室の 1 つ以上Teams設定を変更できます。 設定を変更するには、管理するデバイスを選択し、**[設定の編集]** を選択します。 新しいウィンドウが開き、変更できるすべての設定が表示されます。 次の表に、Teams 管理センターを使用して変更できる設定を示します。 一部の設定は、1 つの [会議室] を選択Teams使用できます。
 
 複数のオプションを選択した場合、一括編集をサポートする設定には、次の 2 つのオプションが表示されます。
 
@@ -57,7 +57,7 @@ ms.locfileid: "62299002"
     > [!CAUTION]
     > 更新を選択した設定の既存の値は、指定した値に置き換えられます。 既存の値のリストに追加する場合は、追加する値に既存の値を含める必要があります。 たとえば、設定に`contoso.com, fabrikam.com`の既存のドメインリストがあり、`northwindtraders.com`を追加する場合、指定する必要がある値は`contoso.com, fabrikam.com, northwindtraders.com`になります。
     >
-    > 会議室で複数Teams選択すると、選択したデバイスの設定が指定した値に変更されます。 会議室Teams設定に異なる値がある場合、それらはすべて同じ値に更新されます。
+    > 会議室で複数のTeams選択すると、選択したすべてのデバイスの設定が、指定した値に変更されます。 会議室Teams設定に異なる値がある場合、それらはすべて同じ値に更新されます。
 
 | Setting                                                      | 指定できる値                                        | 一括編集をサポートする |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
@@ -76,7 +76,7 @@ ms.locfileid: "62299002"
 | **サードパーティの会議に参加する**                 | Cisco Webex<br>ズーム                                              | Yes                |
 | **ルーム情報を使用して参加する**                 | 選択済み<br>選択されていません                                              | はい                |
 | **カスタム情報を使用して参加する**                 | 選択済み<br>選択されていません                                              | はい                |
-| **名前 (必須)**                 | ルームまたはスペースの名前                                              | はい                |
+| **名前 (必須)**                 | ルームまたはスペースの名前                                              | Yes                |
 | **メール (必須)**                 | メール アドレス                                              | はい                |
 | *デバイス*                                                     |                                                        |                    |
 | **デュアル モニター モード**                                        | オン<br>オフ                                              | はい                |
@@ -109,7 +109,7 @@ ms.locfileid: "62299002"
 
 組織内のすべてのデバイスCortanaデバイスごとに、PowerShell を使用して、音声のアクティブ化またはプッシュによる通話の共有を有効にできます。
 
-「[Microsoft Teamsの音声アシスタンスWindows](../cortana-in-teams.md)の詳細については、「Cortanaの会議室」Teams参照してください。
+「[Microsoft Teamsの音声アシスタンス](../cortana-in-teams.md)Windows」の記事Cortana「Teams 会議室」を参照してください。
 
 ### <a name="front-row-layout-settings"></a>最前面行レイアウトの設定
 
@@ -117,11 +117,11 @@ ms.locfileid: "62299002"
 
 | Teams デバイス | アプリのバージョン | 部屋の前面表示 |
 |--------------|-------------|-----------------------|
-|Microsoft Teams の会議室Windows | 4.11.14.0 から 4.11.12.0 | 単一ディスプレイとデュアル ディスプレイをサポートします。最小サイズ: 46 インチ;縦横比 16:9、解像度 1920*1080、解像度 21:9、解像度 2560x1080。すべてのディスプレイは、すべての設定で 100% のWindowsする必要があります。 |
+|Microsoft Teamsの会議室Windows | 4.11.12.0 以上 (最新バージョンをお勧めします) | 単一ディスプレイとデュアル ディスプレイをサポートします。最小サイズ: 46 インチ;縦横比 16:9、解像度 1920*1080、解像度 21:9、解像度 2560x1080。すべてのディスプレイは、すべての設定で 100% のWindowsする必要があります。 |
 
 フロント[Microsoft Teams要件を](rooms-operations.md#change-scale-and-resolution)満たして表示設定を調整するには、「会議室のメンテナンスと操作」を参照してください。
 
-会議室の既定のレイアウトとして最前面行を設定する方法、またはオフにする方法については、「XML 構成ファイルを使用して [Microsoft Teams 会議室](xml-config-file.md#set-front-row-as-the-default-layout)の本体設定をリモートで管理する」を参照してください。
+会議室の既定のレイアウトとして Front 行を設定する方法、またはオフにする方法については、「XML 構成ファイルを使用して [Microsoft Teams Rooms](xml-config-file.md#set-front-row-as-the-default-layout) コンソール設定をリモートで管理する」を参照してください。
 
 Front [行の管理の詳細](known-issues.md#Limits) については、「既知の問題」を参照してください。
 
@@ -139,9 +139,9 @@ Front [行の管理の詳細](known-issues.md#Limits) については、「既�
 
 ## <a name="remove-device"></a>デバイスを削除する
 
-デバイスを削除すると、デバイスは組織から削除され、Teams 管理センターの Teams Rooms on Windows の一覧に表示されなくなりました。
+デバイスを削除すると、デバイスは組織から削除され、Windows 管理センターの Teams 会議室の一覧Teams表示されなくなりました。
 
-デバイスを削除した場合でも、有効なユーザー名とパスワードでデバイスが構成されている場合、Microsoft 365 に再度接続すると、デバイスは自動的に Teams 会議室リストに再追加されます。
+デバイスを削除した後も、有効なユーザー名とパスワードで構成されている場合は、Microsoft 365 に再度接続すると、Teams 会議室の一覧に自動的に再追加されます。
 
 1つまたは複数のデバイスを削除するには、次の操作を行います。
 
@@ -191,10 +191,10 @@ Teams ミーティング デバイスの詳細の **[アクティビティ]** �
 
 参加者の概要ページには、ミーティングに参加したすべての参加者が表示されます。 各参加者がミーティングに参加した時期、名前、音声品質、およびセッション中に使用された機能を確認できます。 参加者のセッションの詳細を表示するには、参加者のセッションの開始時刻を選択します。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams会議室のデバイス会議の詳細。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teamsデバイス会議の詳細。":::
 
 ##### <a name="participant-details"></a>参加者の詳細
 
 参加者の詳細ページには、参加者のセッションのエンドツーエンドの診断情報が表示されます。 次の図に示すように、**デバイス**、**システム**、および **接続** の情報が参加者とチームルームのデバイスに提供されます。 参加者と Teams ミーティングのデバイス間 **ネットワーク** 診断情報も表示されます。 詳細情報が必要なコンテキストのアイコンを選択します。 追加の診断情報については、**[詳細]** タブを選択してください。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teamsデバイスの通話の詳細を確認します。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teamsデバイスの呼び出しの詳細を確認します。":::

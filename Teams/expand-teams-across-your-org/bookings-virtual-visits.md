@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 仮想アクセスをスケジュール、管理、実施するために、Teams Bookings アプリを使用する方法について説明します。
-ms.openlocfilehash: 8d4ac6effa95751fa75a77d09b941bc74fa96af2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: ae74a4195bc8aa0deeca81221e70fe28890938ec
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288555"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312350"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Microsoft Teams と Bookings アプリを使用した仮想訪問
 
@@ -38,7 +38,7 @@ Bookings アプリを使用すると、組織の複雑なスケジュール要�
 
 仮想アクセスは、堅牢なビデオ会議機能Microsoft Teams会議を通じて開催されます。 たとえば、医師は画面を共有し、患者とテスト結果を確認できます。 または、銀行アドバイザーはドキュメントに電子署名を要求して、リモートでトランザクションを閉じできます。
 
-各仮想予定には、Teams 会議リンクが含まれています。このリンクは、Web ブラウザーまたは任意のデバイス上の Teams から簡単に参加できるメールで出席者に送信されます。 自動メール アラームは、表示を減らし、顧客とクライアントのエンゲージメントを強化するのに役立ちます。
+各仮想予定には、Teams 会議リンクが含まれています。このリンクは、Web ブラウザーまたは任意のデバイスの Teams から簡単に参加できるメールで出席者に送信されます。 自動メール アラームは、表示を減らし、顧客とクライアントのエンゲージメントを強化するのに役立ちます。
 
 Bookings を使用すると、業界に合わせてカスタマイズされたエクスペリエンスを利用できます。 組織で使用する方法の例を次に示します。
 
@@ -46,9 +46,9 @@ Bookings を使用すると、業界に合わせてカスタマイズされた�
 |---------|---------|
 |金融サービス    |  リモート販売とサービスの仮想訪問<br/>銀行関係マネージャー、財務アドバイザー、クレーム調整担当者の仮想予定をスケジュールおよび管理して、効率と利便性を高める顧客にサービスを提供します。  |
 |医療   |  患者のケアのための仮想訪問 <br/>患者や他の医療プロバイダーと会って医療について話し合う、ケア チーム メンバーの仮想訪問をスケジュールおよび管理します。   |
-|リテール   | 仮想適合と相談 <br/>営業担当者、製品エキスパート、設計コンサルタントの予定をスケジュールおよび管理して、顧客との仮想適合や相談を実施します。   |
+|リテール   | 仮想試着と相談 <br/>営業担当者、製品エキスパート、設計コンサルタントの予定をスケジュールおよび管理して、顧客との仮想適合や相談を実施します。   |
 
-この記事では、Teams で Bookings アプリを使用して仮想アクセスをスケジュール、管理、実施する方法の概要について説明します。
+この記事では、Teams で Bookings アプリを使用して仮想アクセスをスケジュール、管理、実施する方法の概要を説明します。
 
 ## <a name="before-you-get-started"></a>使用を開始する前に
 
@@ -72,7 +72,7 @@ Bookings アプリをインストールする必要があるのは、組織内�
 
 ### <a name="add-staff"></a>スタッフを追加する
 
-予約予定表で、[その他の **オプション (.**..)] >設定し、[スタッフ] を選択 **します**。 スタッフ メンバーを追加し、追加する各ユーザーにロールを割り当てる。
+予約予定表で、[その他の **オプション (.**..)] >設定し、[スタッフ] を選択 **します**。 スタッフ メンバーを追加し、追加する各ユーザーにロールを割り当てる。 予約予定表には、最大 100 人のスタッフ メンバーを追加できます。
 
 Bookings アプリは、Bookings アプリとOutlook。 スタッフを追加すると、そのユーザーの予定表の空き時間情報を表示し、そのユーザーの予約をスケジュールできます。 詳細については、「スタッフを追加 [する」と「Bookings カレンダーを表示する」を参照してください](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0)。  
 
@@ -82,7 +82,7 @@ Bookings アプリは、Bookings アプリとOutlook。 スタッフを追加す
 
 予約予定表で、[予定の種類] **の [その** 他の> **]に移動** し、[新しい予定の種類 **] を選択します**。 名前を入力&mdash;します。たとえば、アカウントの開始、支払い方法の更新、ローンの相談、税金&mdash;の準備、その他の情報や設定を入力します。
 
-追加した情報とリンクは、この種類の予定が予約されるごとに出席者に送信されるメールの確認に含まれます。 メール アラームなどのオプション (出席者がモバイル ブラウザーから参加できるかどうかなど) を設定Teams[](mobile-browser-join.md)。 詳細については、「予定の種類を [作成する」を参照してください](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)。
+追加した情報とリンクは、この種類の予定が予約されるごとに出席者に送信されるメールの確認に含まれます。 また、メール アラームなどのオプションを設定することもできます。このオプションを使用すると、出席者[](mobile-browser-join.md)がモバイル ブラウザーから参加できるかどうかを設定Teams。 詳細については、「予定の種類を [作成する」を参照してください](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)。
 
 ## <a name="schedule-a-virtual-visit"></a>仮想アクセスのスケジュールを設定する
 
@@ -96,16 +96,29 @@ Bookings アプリは、Bookings アプリとOutlook。 スタッフを追加す
 
 予定表TeamsまたはOutlookで、予約に移動し、[参加] または [会議への参加] Teams選択します。 オーディオとビデオの設定を確認し、[今すぐ参加] **を選択します**。 詳細については、「 [Bookings の予定を実施する」を参照してください](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd)。
 
+## <a name="monitor-virtual-visits-and-get-real-time-status-updates"></a>仮想アクセスを監視し、リアルタイムの状態の更新を取得する
+
+Bookings [の](https://support.microsoft.com/office/queue-view-in-bookings-3eea2840-a1e0-4bcd-8e09-d3cf51c184d6) キュー ビューでは、スタッフにダッシュボードが表示され、その日のすべての仮想予定をリアルタイムで更新して監視できます。 キューを表示するには、Bookings の **[キュー]** タブに移動します。
+
+:::image type="content" source="../media/bookings-virtual-visits-queue.png" alt-text="Bookings アプリのキュー ビューのスクリーンショット (Teams" lightbox="../media/bookings-virtual-visits-queue.png":::
+
+キューから、スケジューラは新しい予約を追加し、関連する予定の詳細を表示し、一日中予定の状態を確認できます。 患者が待合室に参加すると、状態が変化し、その待機時間が表示され、追跡されます。 変更を簡単に識別できるよう、ビューは色分けされた更新プログラムで自動的に更新されます。
+
+スタッフは、キューから直接予定に参加して管理することもできます。
+
+> [!NOTE]
+> 現在、Bookings アプリでは、予約カレンダーごとに最大 100 人のスタッフを追加できます。 予約カレンダー Graphを設定してスタッフを追加するために API を使用した場合、この制限は適用されない可能性があります。 このシナリオでは、[キュー **]** タブでは、100 人を超えるスタッフが含まれる予定表のコンテンツをレンダリングできません。 最適なエクスペリエンスを得る場合は、予約予定表に 100 人以下のスタッフを追加することをお勧めします。 今後のリリースでは、この制限の解決に取り組み中です。
+
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Bookings Web アプリを使用した追加機能
 
-Bookings Web アプリでは、追加の機能が提供されます。 たとえば、セルフサービスのオンライン予約ページを公開して、スタッフとの予定をスケジュールできます。 Bookings Web アプリにアクセスするには、「Bookings Web アプリを開く」>オプション **(.** ..) **に移動します**。
+Bookings Web アプリでは、追加の機能が提供されます。 たとえば、セルフサービスのオンライン予約ページを公開して、スタッフとの予定をスケジュールできます。 Bookings Web アプリにアクセスするには、「Bookings Web アプリを開く」> **オプション (.** ..) **に移動します**。
 
 詳細については、「 [Microsoft Bookings」を参照してください](/microsoft-365/bookings/bookings-overview)。
 
 ## <a name="related-articles"></a>関連記事
 
-[モバイル ブラウザーで仮想アクセスTeamsの参加エクスペリエンスを管理する](mobile-browser-join.md)
+- [モバイル ブラウザーで仮想アクセスTeamsの参加エクスペリエンスを管理する](mobile-browser-join.md)
 
-[医療組織向Teamsの使用を開始する](healthcare/teams-in-hc.md)
+- [医療組織向Teamsの使用を開始する](healthcare/teams-in-hc.md)
 
-[Bookings アプリのヘルプ Teamsドキュメント](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)
+- [Bookings アプリのヘルプ Teamsドキュメント](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Bookings)

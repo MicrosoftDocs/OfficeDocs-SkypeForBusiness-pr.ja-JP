@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: ユーザー向けエンド ユーザー トレーニングMicrosoft Teams
-summary: Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 参加して、実際Microsoft Teams、質問に回答し、ライブ講師とやり取りします。 自分の時間にトレーニング クラスを表示するには、オンデマンドのエンド ユーザー トレーニングにアクセスしてください。 以下のセッションをクリックしてサインアップしてください。
+summary: Microsoft では、Teams を使いこなすための無料のライブ オンライン トレーニング クラスのシリーズを主催いたします。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 ご参加ください。実際Microsoft Teams、質問に回答し、ライブ講師とやり取りしてください。 自分の時間にトレーニング クラスを表示するには、オンデマンドのエンド ユーザー トレーニングにアクセスしてください。 以下のセッションをクリックしてサインアップしてください。
 brand: teams
 metadata:
   title: ユーザー向けエンド ユーザー トレーニングMicrosoft Teams
-  description: Microsoft では、お客様をサポートするために設計された無料のライブ仮想トレーニング クラスを提供Teams。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 参加して、実際Microsoft Teams、質問に回答し、ライブ講師とやり取りします。 以下のセッションをクリックしてサインアップし、以下の他のコースを確認してください。
+  description: Microsoft では、お客様をサポートするために設計された無料のライブ仮想トレーニング クラスを提供Teams。 ビジネス意思決定者、管理者、IT プロフェッショナルであれ、エンド ユーザーであれ、最適なクラスが用意されています。 ご参加ください。実際Microsoft Teams、質問に回答し、ライブ講師とやり取りしてください。 以下のセッションをクリックしてサインアップし、以下の他のコースを確認してください。
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: serdars
@@ -46,10 +46,10 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 'Teams を活用して仕事を整理し、同僚とのつながりを保つ方法について説明します。 (対象ユーザー: すべてのユーザー)'
       url: 'https://aka.ms/TeamsProTips'
-    - title: Teams を使用して自宅で仕事する方法をマスターする
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: 'チームと常につながり、生産性を維持するためのベスト プラクティスを紹介します。 (対象ユーザー: すべてのユーザー)'
-      url: 'https://aka.ms/WFHTeams'
+    - title: Microsoft Teams YouTube で使用する
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
+      summary: 'サブスクライブして、最新の機能、ヒント、テクニックなどについて最初に学習します。 (対象ユーザー: すべてのユーザー)'
+      url: 'https://www.youtube.com/MicrosoftTeams'
     - title: Teams for Education - ウェビナー
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: '高等教育機関で Teams を使用する方法について説明します。 (対象ユーザー: スタッフ、学生、教育関係者、研究教員、IT プロフェッショナル)'
@@ -63,8 +63,8 @@ additionalContent:
     - title: コース
       items:
         - title: Teamwork Specialist の認定
-          summary: コラボレーションは、今日の作業能力にとって不可欠なスキルです。 Microsoft Teams内の堅牢な機能を使用して、チームとの接続を高め、より効率的に作業する方法について学習します。
+          summary: コラボレーションは、今日の作業能力にとって不可欠なスキルです。 チーム内の堅牢な機能Microsoft Teams、チームとの接続を高め、より効率的に作業する方法について学習します。
           url: /learn/paths/teamwork-specialist
         - title: サービス導入スペシャリスト認定
-          summary: Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織で組織のクラウド サービスの導入Microsoft サービスする方法について学習する
+          summary: Microsoft サービス導入スペシャリスト認定コースの機能Teams。 組織で組織のサービスの導入をMicrosoft サービスする方法について学習する
           url: /learn/paths/m365-service-adoption
