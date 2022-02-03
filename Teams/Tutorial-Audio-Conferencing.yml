@@ -22,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: b6e3a8d04a2b990e9021ec99ec88ed563b29dbee
-  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.openlocfilehash: 915cfdc59752821226208ddad2487ce2d6032f60
+  ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
   ms.translationtype: MT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 08/26/2021
-  ms.locfileid: "58635851"
+  ms.lasthandoff: 02/03/2022
+  ms.locfileid: "62353392"
 items:
 - durationInMinutes: 1
   content: >
@@ -79,7 +79,7 @@ items:
   content: "\n既に Skype for Business を使用している場合は、次の点を考慮する必要があります。\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>Skype for Business Server 所属ユーザー\n\nSkype for Business Server を使用している場合、オンプレミスの Skype for Business に所属しているユーザーがスケジュールした Teams 会議には PSTN 会議座標は含まれません。 2019 年 3 月 1 日より前にそうしたユーザーに電話会議ライセンスを割り当てた場合に、それらのユーザーに PSTN 会議座標が表示されるには、ライセンスの割り当てを解除し、2 時間待ってから、再割り当てする必要があります。\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>Skype for Business Online 所属ユーザー\n\nユーザーが Skype for Business Online に属していて、電話会議が既に有効になっている場合は、Teams の電話会議でも自動的に有効になります。 ダイヤルイン時に会議で認証するために使用する暗証番号は、Skype for Business と Teams で同じです。\n"
 - title: 電話会議を想定する
   durationInMinutes: 48
-  content: "\n実践ガイダンスでは、電話会議を計画して成功裏に実装するために必要な事柄を詳細に取り上げています。 次の記事を参照して、これらの技術的な計画手順をご確認ください。\n\n-   [成功を定義する - 電話会議](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) (推定所要時間: 11 分)\n-   [サービスに関して決定する - 電話会議](./deploy-audio-conferencing-teams-landing-page.md) (推定所要時間: 12 分)\n-   [環境を評価する](./3-envision-evaluate-my-environment.md) (推定所要時間: 12 分)\n-   [サービス管理を計画する](./4-envision-plan-my-service-management.md) (推定所要時間: 5 分)\n-   [ユーザー エクスペリエンスを計画する](./5-envision-plan-my-users-experience.md) (推定所要時間: 5 分)\n-   [成功計画を文書化する](./6-envision-document-my-success-plan.md) (推定所要時間: 6 分)\n"
+  content: "\n実践ガイダンスでは、電話会議を計画して成功裏に実装するために必要な事柄を詳細に取り上げています。 次の記事を参照して、これらの技術的な計画手順をご確認ください。\n\n-   [成功を定義する - 電話会議](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice) (推定所要時間: 11 分)\n-   [サービスに関して決定する - 電話会議](./deploy-audio-conferencing-teams-landing-page.md) (推定所要時間: 12 分)\n-   [環境を評価する](./3-envision-evaluate-my-environment.md) (推定所要時間: 12 分)\n-   [サービス管理を計画する](./4-envision-plan-my-service-management.md) (推定所要時間: 5 分)\n-   [ユーザー エクスペリエンスを計画する](./5-envision-plan-my-users-experience.md) (推定所要時間: 5 分)\n-   [成功計画を文書化する](./6-envision-document-my-success-plan.md) (推定所要時間: 6 分)\n"
 - title: 電話会議をオンボードする
   durationInMinutes: 13
   content: "\n想定の場合と同じように、オンボードについても実践ガイダンスで取り上げられています。 電話会議でユーザーをオンボードする方法について、次の記事をご確認ください。\n\n-   [サービスを準備する](./1-onboard-prepare-my-service.md) (推定所要時間: 6 分)\n-   [ユーザーを準備する](./2-onboard-prepare-my-users.md) (推定所要時間: 2 分)\n-   [サービスを展開する](./3-onboard-deploy-my-service.md) (推定所要時間: 3 分)\n-   [電話会議のトラブルシューティングと既知の問題](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) (Teams 固有のコンテンツについての推定所要時間: 2 分)\n"

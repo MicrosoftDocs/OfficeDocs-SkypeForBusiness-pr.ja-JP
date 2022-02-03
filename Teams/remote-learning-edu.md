@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: bbcafdef989d3154ba99e557f0632e1a6bd6e665
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605843"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353412"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>遠隔学習向けに Microsoft Teams の使用を開始する。
 
@@ -67,7 +67,7 @@ Teams では、Microsoft 365 の機能を利用してユーザーの認証とサ
 
 ユーザーが Teams 機能を使用する前に、[ライセンスをユーザーに割り当てる](teams-edu-licensing.md)必要があります。 Teams では、[Microsoft 365 グループ](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint と OneDrive](SharePoint-OneDrive-interact.md) など、Teams 以外の Microsoft 365 の機能を利用して共同作業のシナリオを有効にしています。 最適な Teams 環境をユーザーに提供するには、これらの機能も有効になっている必要があります。 [Teams では、Google でホストされるメールを使用するユーザーもサポートされています](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
-Microsoft Teams は、教育機関が無料で使用できる Office 365 A1 に含まれています。 Office 365 の展開方法および教育機関全体で Teams の使用を開始する方法に関する IT ガイドについては、[こちらのページ](/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)を参照してください。 サポートが必要な場合は、[こちら](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)でサポート チケットを申請することができます。Microsoft のスペシャリストに直接相談することをご希望の場合は、お近くの Microsoft Store までご来店ください。
+Microsoft Teams は、教育機関が無料で使用できる Office 365 A1 に含まれています。 Office 365 の展開方法および教育機関全体で Teams の使用を開始する方法に関する IT ガイドについては、[こちらのページ](/microsoft-365/education/deploy/create-your-office-365-tenant)を参照してください。 サポートが必要な場合は、[こちら](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)でサポート チケットを申請することができます。Microsoft のスペシャリストに直接相談することをご希望の場合は、お近くの Microsoft Store までご来店ください。
 
 > [!NOTE]
 > EDU の展開に関する最新情報は、「[COVID-19 流行期における M365 EDU の展開の更新済みガイダンス](/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)」をご確認ください。
