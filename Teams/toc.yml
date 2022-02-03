@@ -495,8 +495,8 @@ items:
         href: turn-off-teams-native-file-upload-policy.md
       - name: Teams でチャネルのモデレートを設定する
         href: manage-channel-moderation-in-teams.md
-      - name: ライブ コンポーネントを管理する
-        href: live-components-in-teams.md
+      - name: ループ コンポーネントの管理
+        href: loop-components-in-teams.md
       - name: Teams と Outlook のメールの統合
         href: teams-outlook-email-integration.md
       - name: Outlook から Teams に共有する
@@ -1429,6 +1429,8 @@ items:
             href: devices/Teams-Android-devices-user-interface.md
           - name: Android デバイスの認証のベスト プラクティス
             href: devices/authentication-best-practices-for-android-devices.md
+          - name: Teams Android デバイスの自動応答を設定する
+            href: set-up-auto-answer-on-teams-android.md
           - name: 会議室のデバイスとソリューション
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams 認定 デバイス
@@ -1755,9 +1757,9 @@ items:
               - name: Exchange のメール フロー ルールを使用する
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Teams と SharePoint の統合の概要
-            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: SharePoint と Teams の統合設定を管理する
-            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: Teams PowerShell
         items:
           - name: 概要
