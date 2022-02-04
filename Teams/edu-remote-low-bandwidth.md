@@ -1,7 +1,7 @@
 ---
 title: EDU 向けの Microsoft Teams 低帯域幅ガイダンス
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08241e16c4d63ddc8e1cdcaf2508ce5ceea01a1f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f95cb60f28a81c2feb10fb01c6088fa0799e119c
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635731"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62362973"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>EDU 向けの Teams の低帯域幅状況を解決するためのヘルプ
 

@@ -1,7 +1,7 @@
 ---
 title: 学校の大規模なユーザーにポリシーを割り当てる
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,31 +17,31 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: グループ メンバーシップに基づいて、またはリモート 学校 (teleschool、tele-school) の目的でバッチ割り当てによって、教育機関の大規模なユーザーにポリシーを割り当てる方法について説明します。
 f1keywords: ''
-ms.openlocfilehash: 7a2321a42910eee77ef9dff3c3aba3165cba156a
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: 3cfde2dc523904f571b696e63ea7a5da16afff26
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785080"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62362993"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>学校の大規模なユーザーにポリシーを割り当てる
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> ポリシーの割り当てに関する詳細については、「Microsoft Teams でポリシーをユーザーに割り当てる[」をTeams。](policy-assignment-overview.md)
+> ポリシーの割り当てに関する詳細については、「Microsoft Teams のユーザーにポリシーを割り当てる[」をTeams](policy-assignment-overview.md)。
 
 ## <a name="overview"></a>概要
 
-学生や教師に、さまざまな機能へのアクセス権を与える必要Microsoft Teams。 ライセンスの種類によって組織内のユーザーをすばやく特定し、適切なポリシーを割り当てできます。 このチュートリアルでは、学校の大規模なユーザーに会議ポリシーを割り当てる方法について説明します。 管理センターと PowerShell のMicrosoft Teamsポリシーを割り当て、両方の方法について説明します。
+学生と教師に、さまざまな機能へのアクセス権を与える必要Microsoft Teams。 ライセンスの種類によって組織内のユーザーをすばやく特定し、適切なポリシーを割り当てできます。 このチュートリアルでは、学校の大規模なユーザーに会議ポリシーを割り当てる方法について説明します。 管理センターと PowerShell の Microsoft Teamsを使用してポリシーを割り当て、両方の方法について説明します。
 
 会議ポリシーは、ユーザーがメンバーであるセキュリティ グループに割り当てるか、バッチ ポリシーの割り当てによって大規模なユーザーに直接割り当てできます。 次の方法について学習します。
 
-- **グループ [へのポリシーの割り当てを使用](#assign-a-policy-to-a-group) して、セキュリティ グループに会議ポリシーを割り当てる (推奨)**。 この方法では、グループ メンバーシップに基づいてポリシーを割り当てできます。 セキュリティ グループまたは配布リストにポリシーを割り当てできます。 メンバーがグループに追加またはグループから削除されると、そのメンバーの継承されたポリシー割り当てが更新されます。 この方法を使用することをお勧めします。これは、新しいユーザーのポリシーを管理する時間を短縮したり、ユーザーのロールが変更された場合に時間を減らしたりするために使用することをお勧めします。 この方法は、最大 50,000 人のユーザーのグループに最適ですが、より大きなグループでも機能します。
+- **グループ [へのポリシーの割り当てを使用](#assign-a-policy-to-a-group)して、セキュリティ グループに会議ポリシーを割り当てる (推奨)** この方法では、グループ メンバーシップに基づいてポリシーを割り当てできます。 セキュリティ グループまたは配布リストにポリシーを割り当てできます。 メンバーがグループに追加またはグループから削除されると、そのメンバーの継承されたポリシー割り当てが更新されます。 この方法を使用することをお勧めします。これは、新しいユーザーのポリシーを管理する時間を短縮したり、ユーザーのロールが変更された場合に時間を減らしたりするために使用することをお勧めします。 この方法は、最大 50,000 人のユーザーのグループに最適ですが、より大きなグループでも機能します。
 
 - **バッチ [ポリシーの割り当てを使用](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)して、会議ポリシーをユーザーに直接一括で割り当てる。** 一度に最大 5,000 人のユーザーにポリシーを割り当てできます。 ユーザー数が 5,000 を超える場合は、複数のバッチを送信できます。 この方法では、新しいユーザーが作成された場合、それらの新しいユーザーにポリシーを割り当てるバッチ割り当てを再び実行する必要があります。
 
-カスタム ポリシーを作成Teams割り当てない限り、Teams ポリシーの種類に対してグローバル (組織全体の既定) ポリシーが自動的に取得されます。 学生の人口は多くの場合、最大のユーザー セットであり、最も制限の厳しい設定を受け取る場合が多いので、次の手順を実行することをお勧めします。
+Teamsでは、カスタム ポリシーを作成して割り当てない限り、Teams ポリシータイプのグローバル (組織全体の既定) ポリシーが自動的に取得されます。 学生の人口は多くの場合、最大のユーザー セットであり、最も制限の厳しい設定を受け取る場合が多いので、次の手順を実行することをお勧めします。
 
 - プライベート チャットや会議のスケジュール設定などのコア機能を許可し、そのポリシーをスタッフや教師に割り当てるカスタム ポリシーを作成します。
 - カスタム ポリシーをスタッフと教師に割り当てる。
@@ -49,7 +49,7 @@ ms.locfileid: "60785080"
 
 カスタム ポリシーを作成してスタッフや教師に割り当てるまで、グローバル ポリシーは学校のすべてのユーザーに適用されます。
 
-このチュートリアルでは、学生はグローバル会議ポリシーを取得し、EducatorMeetingPolicy という名前のカスタム会議ポリシーをスタッフと教師に割り当てる必要があります。 グローバル ポリシーを編集して学生の会議設定を調整し、スタッフと教師の[](policy-packages-edu.md)会議エクスペリエンスを定義するカスタム ポリシーを作成したと想定しています。
+このチュートリアルでは、学生はグローバル会議ポリシーを取得し、EducatorMeetingPolicy という名前のカスタム会議ポリシーをスタッフと教師に割り当てる必要があります。 グローバル ポリシーを編集して学生の会議設定を調整し、スタッフと教師の会議[](policy-packages-edu.md)エクスペリエンスを定義するカスタム ポリシーを作成したと想定しています。
 
 ![管理センターの [会議ポリシー] ページTeamsスクリーンショット。](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
@@ -62,19 +62,19 @@ ms.locfileid: "60785080"
 > [!IMPORTANT]
 > グループにポリシーを割り当てると、優先順位ルールに従ってポリシーの割り当てがグループのメンバーに伝達されます。 たとえば、ユーザーに (個別またはバッチ割り当てによって) ポリシーが直接割り当てられている場合、そのポリシーはグループから継承されたポリシーよりも優先されます。 また、ユーザーに直接割り当てられた会議ポリシーがある場合は、セキュリティ グループから会議ポリシーを継承する前に、その会議ポリシーをユーザーから削除する必要があります。
 
-使用を開始する前に、[優先規則](policy-assignment-overview.md#which-policy-takes-precedence)と[グループ割り当てのランク付け](assign-policies-users-and-groups.md#group-assignment-ranking)を理解することが重要です。 **グループへのポリシー割り当 [](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)** てについて知る必要がある概念を必ず読んで理解してください。
+使用を開始する前に、[優先規則](policy-assignment-overview.md#which-policy-takes-precedence)と[グループ割り当てのランク付け](assign-policies-users-and-groups.md#group-assignment-ranking)を理解することが重要です。 **グループへのポリシー割り当 [](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)** てについて知る必要がある概念を読み、理解してください。
 
 スタッフと教師がセキュリティ グループから会議ポリシーを継承するには、これらすべての手順を完了する必要があります。
 
-1. [セキュリティ グループ を作成します](#create-security-groups)。
-2. [セキュリティ グループ にポリシーを割り当てる](#assign-a-policy-to-a-security-group)。
+1. [セキュリティ グループを作成します](#create-security-groups)。
+2. [セキュリティ グループにポリシーを割り当てる](#assign-a-policy-to-a-security-group)。
 3. [ユーザーに直接割り当てられたポリシーを削除します](#remove-a-policy-that-was-directly-assigned-to-users)。
 
 ### <a name="create-security-groups"></a>セキュリティ グループを作成する
 
 まず、スタッフと教師のセキュリティ グループを作成します。
 
-セキュリティ[学校データ同期](/SchoolDataSync/)(SDS) を使用すると、学校でセキュリティ グループ[の教師と学生を簡単](/SchoolDataSync/edu-security-groups)に作成できます。 SDS を使用して、学校のポリシーを管理するために必要なセキュリティ グループを作成することをお勧めします。
+セキュリティ [学校データ同期](/SchoolDataSync/) (SDS) を使用すると、学校でセキュリティ グループ[の教育者と学生を簡単に](/SchoolDataSync/edu-security-groups)作成できます。 SDS を使用して、学校のポリシーを管理するために必要なセキュリティ グループを作成することをお勧めします。
 
 環境内で SDS をデプロイできない場合は、この [PowerShell](scripts/powershell-script-security-groups-edu.md) スクリプトを使用して 2 つのセキュリティ グループを作成します。1 つは、教職員のライセンスが割り当てられているすべてのスタッフと教師用、もう 1 つは学生ライセンスが割り当てられているすべての学生用です。 グループを最新の状態に保つには、このスクリプトを定期的に実行する必要があります。
 
@@ -91,8 +91,8 @@ ms.locfileid: "60785080"
 
     ![会議ポリシーを示す [設定の編集] ウィンドウのスクリーンショット。](media/batch-group-policy-assignment-edu-group.png)
     1. [グループ **の選択] ボックス** で、スタッフと教師を含むセキュリティ グループを検索して追加します。
-    2. [ランク **の選択] ボックスに****「1」と入力します**。
-    3. [ポリシー **の選択] ボックスで****、[EducatorMeetingPolicy] を選択します**。
+    2. [ランク **の選択] ボックス** に「 **1」と入力します**。
+    3. [ポリシー **の選択] ボックスで** 、[ **EducatorMeetingPolicy] を選択します**。
     4. **[適用]** を選択します。
 
 グループ ポリシーの割り当てを削除するには、ポリシー ページの **[グループ ポリシーの割り当て]** タブで、グループの割り当てを選び、**[削除]** を選択します。
@@ -106,7 +106,7 @@ ms.locfileid: "60785080"
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft Teams PowerShell モジュールをインストールして接続する
 
-PowerShell モジュールをインストールするには[Teamsを実行](https://www.powershellgallery.com/packages/MicrosoftTeams)します (まだインストールされていない場合)。 バージョン 1.0.5 以降をインストールしていることを確認します。
+次のコマンドを実行して、[Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) モジュールをインストールします (まだインストールされていない場合)。 バージョン 1.0.5 以降をインストールしていることを確認します。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -132,13 +132,13 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 ユーザーにポリシーが直接割り当てられた場合 (個別に割り当てたり、バッチ割り当てによって割り当てたりした場合)、そのポリシーが優先される点に注意してください。 つまり、ユーザーに直接割り当てられた会議ポリシーがある場合は、セキュリティ グループから会議ポリシーを継承する前に、その会議ポリシーをユーザーから削除する必要があります。
 
-詳細については、「グループへのポリシー [の割り当てについて知る必要がある情報」を参照してください](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
+詳細については、「グループへのポリシー [割り当てについて知る必要がある情報」を参照してください](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
 次の手順に従って、スタッフと教師に直接割り当てられた会議ポリシーを削除します。
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft Teams PowerShell モジュールをインストールして接続する
 
-PowerShell モジュールをインストールするには[Teamsを実行](https://www.powershellgallery.com/packages/MicrosoftTeams)します (まだインストールされていない場合)。 バージョン 1.0.5 以降をインストールしていることを確認します。
+次のコマンドを実行して、[Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) モジュールをインストールします (まだインストールされていない場合)。 バージョン 1.0.5 以降をインストールしていることを確認します。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -199,7 +199,7 @@ Get-CsUserPolicyAssignment -Identity reda@contoso.com
 
 ##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>PowerShell for Azure AD モジュールをインストールして接続Graphする
 
-管理者特権Windows PowerShell コマンド プロンプト (管理者として Windows PowerShell を実行) を開き、次のコマンドを実行して Azure Active Directory PowerShell for Graph モジュールをインストールします。
+管理者特権Windows PowerShell コマンド プロンプトを開き (Windows PowerShell を管理者として実行)、次のコマンドを実行して、Azure Active Directory PowerShell for Graph します。
 
 ```powershell
 Install-Module -Name AzureAD
@@ -213,11 +213,11 @@ Connect-AzureAD
 
 メッセージが表示されたら、管理者の資格情報を使用してサイン インします。
 
-詳細については[、PowerShell for Connect モジュールのAzure Active Directoryを参照Graphしてください](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。
+詳細については、[PowerShell for Connect モジュールのAzure Active Directoryを参照Graphしてください](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Microsoft Teams PowerShell モジュールをインストールして接続する
 
-PowerShell モジュールをインストールするには[Teamsを実行](https://www.powershellgallery.com/packages/MicrosoftTeams)します (まだインストールされていない場合)。 バージョン 1.0.5 以降をインストールしていることを確認します。
+次のコマンドを実行して、[Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) モジュールをインストールします (まだインストールされていない場合)。 バージョン 1.0.5 以降をインストールしていることを確認します。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -251,7 +251,7 @@ M365EDU_A5_STUDENT 46c119d4-0379-4a9d-85e4-97c66d3f909e
 この例の出力では、Faculty ライセンス SKUId が "e97c048c-37a4-45fb-ab50-922fbf07a370" である必要があります。
 
 > [!NOTE]
-> Education SKU と SKU の一覧を表示するには [、「Education SKU リファレンス」を参照してください](sku-reference-edu.md)。
+> Education SKU と SKU の一覧については、「Education [SKU リファレンス」を参照してください](sku-reference-edu.md)。
 
 次に、次のコマンドを実行して、このライセンスを持つユーザーを特定し、それらをまとめて収集します。
 
@@ -270,7 +270,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> TeamsMessagingPolicy など、別のポリシーの種類を一括で割り当てるには、割り当てるポリシーとポリシー名に変更する ```PolicyType``` ```PolicyName``` 必要があります。
+> TeamsMessagingPolicy ```PolicyType``` ```PolicyName``` など、別のポリシーの種類を一括で割り当てるには、割り当てるポリシーとポリシー名に変更する必要があります。
 
 #### <a name="get-the-status-of-a-bulk-assignment"></a>一括割り当ての状態を取得する
 
@@ -300,7 +300,7 @@ $faculty.count
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty[0..19999].ObjectId
 ```
 
-ユーザー ID の範囲は、ユーザーの完全な一覧に到達するまで変更できます。 たとえば、最初のバッチに「」と入力し、2 番目のバッチに を使用し、3 番目のバッチに「」と ```$faculty[0..4999``` ```$faculty[5000..9999``` ```$faculty[10000..14999``` 入力します。
+ユーザー ID の範囲は、ユーザーの完全な一覧に到達するまで変更できます。 たとえば、最初のバッチ```$faculty[0..4999```に「」と```$faculty[5000..9999``````$faculty[10000..14999```入力し、2 番目のバッチに を使用し、3 番目のバッチに「」と入力します。
 
 #### <a name="get-the-policies-assigned-to-a-user"></a>ユーザーに割り当てられているポリシーを取得する
 
@@ -312,9 +312,9 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## <a name="faq"></a>よくあるご質問 (FAQ)
 
-**PowerShell の使用に慣Teams。詳細については、どこで学習できますか?**
+**PowerShell を使い慣れたTeams。詳細については、どこで学習できますか?**
 
-PowerShell を使用して管理する方法の概要については、「PowerShell Teamsの概要[」Teamsを参照してください](teams-powershell-overview.md)。 この記事で使用するコマンドレットの詳細については、以下を参照してください。
+PowerShell を使用して管理する方法の概要については、「PowerShell Teams」[Teamsを参照してください](teams-powershell-overview.md)。 この記事で使用するコマンドレットの詳細については、以下を参照してください。
 
 - [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment)
 - [Get-CsGroupPolicyAssignment](/powershell/module/teams/get-csgrouppolicyassignment)

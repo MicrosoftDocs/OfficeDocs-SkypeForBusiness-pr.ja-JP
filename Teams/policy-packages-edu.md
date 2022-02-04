@@ -1,7 +1,7 @@
 ---
 title: EDU 管理者向け Microsoft Teams ポリシーおよびポリシーパッケージ
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: prkuch
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: 教育機関におけるポリシーや EDU 設定、および Microsoft Teams でポリシー パッケージを使用および管理する方法について説明します。
-ms.openlocfilehash: 80e4b7becb720a6e4e89740ce7bf8c1c49e33af9
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: ce2c3a93d524ce9e08c3e97dd51ef8c6f19d9111
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605383"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363003"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>教育機関向け Teams ポリシーおよびポリシー パッケージ
 
