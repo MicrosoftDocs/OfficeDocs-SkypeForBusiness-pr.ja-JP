@@ -10,21 +10,16 @@ ms.service: msteams
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 hideEdit: true
 f1.keywords:
-- NOCSH
+  - NOCSH
 description: どのセッション ボーダー コントローラー (SBC) がダイレクト ルーティングの認証済みであるかについて説明します。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88723107679314d5f30a26e1b3b41675e1454c81
-ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62228994"
 ---
+
 # <a name="session-border-controllers-certified-for-direct-routing"></a>ダイレクト ルーティングが認定されたセッション ボーダー コントローラー
 
 マイクロソフトは、選択したセッション ボーダー コントローラー (SBC) ベンダーと提携して、SBC がダイレクト ルーティングと連携していることを保証しています。
@@ -58,12 +53,12 @@ Microsoft は以下の各ベンダーと協力します。
 |                                                       仕入先                                                        |       Product       | 非メディア バイパス | メディアのバイパス | ソフトウェアのバージョン | 911 サービス プロバイダー対応* | ELIN 対応 |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20A.258 サポート済み (7.40A.100 推奨)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.258 サポート済み (7.40A.100 推奨)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.258 サポート済み (7.40A.100 推奨)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.258 サポート済み (7.40A.100 推奨)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.258 サポート済み (7.40A.250 推奨)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.258 サポート済み (7.40A.250 推奨)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.258 サポート済み (7.40A.250 推奨)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   &#10004;     |  7.20A.250 サポート済み (7.20A.258 推奨)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  7.20A.258 サポート済み (7.40A.100 推奨)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.258 サポート済み (7.40A.100 推奨) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  7.20A.258 サポート済み (7.40A.250 推奨)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.258 サポート済み (7.40A.250 推奨) |  &#10004;    |  &#10004;  |   
 |                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  7.20A.258 サポート済み (7.40A.100 推奨) |  &#10004;    |  &#10004;  |
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       9.2、8.2 および 7.2 サポート済み (10.1 推奨)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       9.2、8.2 および 7.2 サポート済み (10.1 推奨)       |   &#10004; |    |
