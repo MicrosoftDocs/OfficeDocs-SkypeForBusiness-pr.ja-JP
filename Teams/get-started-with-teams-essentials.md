@@ -1,5 +1,5 @@
 ---
-title: 中小企業向けの Teams Essentials クイックスタート ガイド
+title: 小規模企業向けの Microsoft Teams Essentials クイックスタート ガイド
 author: adeejoseph
 ms.author: adjoseph
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8ec92d734a62b0bfe7416a0aa83f46151ca95ab
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306432"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279375"
 ---
-# <a name="teams-essentials-quickstart-guide-for-small-businesses"></a>中小企業向けの Teams Essentials クイックスタート ガイド
+# <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>小規模企業向けの Microsoft Teams Essentials クイックスタート ガイド
 
 Microsoft Teams Essentials は、中小企業向けの会議、チャット、およびコラボレーションを備えたオールインワン ソリューションを提供するスタンドアロンの Teams サブスクリプションです。 ビジネスがリモート ワークと仮想接続の増大するニーズに適応するにつれて、あなたは、従業員、パートナー、サプライヤー、そして顧客と安全にコラボレーションする方法を探しているかもしれません。 複数の都市で展開するパン屋であろうと、9 人のイベント代理店であろうと、Microsoft Teams Essentials は、1 つの接続エクスペリエンスを通じてビジネスをまとめることができます。
 
@@ -31,11 +31,11 @@ Microsoft Teams Essentials は、中小企業向けの会議、チャット、�
 
 Microsoft Teams Essentials は、Microsoft の直接の Web サイトおよび一部の Microsoft Cloud パートナーから購入できます。 直接およびパートナーを通じたサブスクリプションは、異なる ID システムを使用するため、いくつかの点で異なります。 詳細については、この記事の後半の表にアクセスしてください: [Microsoft Teams Essentials の計画](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
 
-Microsoft の直接の Web サイトから購入したサブスクリプションでは、Microsoft アカウント ID を使用して、MeganB@outlook.com、MeganB@gmail.com、MeganB@ContosoLandscaping.com などの既存のメール アドレスを使用してサインアップできます。
+Microsoft の直接の Web サイトから購入したサブスクリプションでは、Microsoft アカウント ID を使用して、Tomislav@outlook.com、TomislavK@gmail.com、TomislavK@ContosoLandscaping.com などの既存のメール アドレスを使用してサインアップできます。
 
 または、一部の Microsoft 認定パートナーから購入した Teams Essentials は、新しいログイン/ID の作成を要求する Azure Active Directory (AAD) を使用します。 パートナーは、既存のメール アドレスに接続するように Teams Essentials を構成できるため、既存のメール アドレスを使用してサインインできます。  
 
-## <a name="what-teams-essentials-subscription-do-i-have"></a>Teams Essentials のサブスクリプションにはどのようなものがありますか?  
+## <a name="what-microsoft-teams-essentials-subscription-do-i-have"></a>Microsoft Teams Essentials のサブスクリプションにはどのようなものがありますか?  
 
 Microsoft の Web サイト (直接) から Teams Essentials を購入した場合は、**Microsoft Teams Essentials** を所有しています。
 
@@ -93,7 +93,7 @@ Microsoft 認定パートナーを通じて Teams Essentials を購入した場�
 
 <sup>1</sup> 次の構成で Google カレンダーおよびその他のサードパーティの予定表への接続を提供します: [Microsoft Teams Essentials (AAD ID) 構成ガイド](connect-teams-essentials-to-email.md)
 
-<sup>2</sup> パートナーを通じた Teams Essentials (AAD ID) には、2 GB の Exchange メールボックスが含まれ、アーカイブは含まれていないため、ユーザーはサードパーティのメール プロバイダーと同期できます。
+<sup>2</sup> パートナーを通して入手した Teams Essentials (AAD ID) には、2 GB の Exchange メールボックスが含まれ、アーカイブは含まれていないため、ユーザーはサードパーティのメール プロバイダーと同期できます。
 
 
 > [!IMPORTANT] 
@@ -103,7 +103,7 @@ Microsoft 認定パートナーを通じて Teams Essentials を購入した場�
 
 管理者として考慮すべきいくつかの重要な Teams Essentials の制限と仕様を次に示します。
 
-  - **管理:** Teams Essentials サブスクリプションには、Teams 管理センターへのアクセスは含まれて **いません**。 Teams Essentials ユーザーは、Microsoft 365 管理センターの簡略化されたビューを楽しんで、サブスクリプションの管理や新しいユーザーの構成などの重要なタスクを実行できます。
+  - **管理:** Teams Essentials サブスクリプションには、Teams 管理センターへのアクセスは含まれて **いません**。 Teams Essentials ユーザーは、簡易化された Microsoft 365 管理センターのビューを使って、サブスクリプションの管理や新しいユーザーの構成など重要なタスクを実行できます。
 
   - **Microsoft Teams PowerShell:** PowerShell がサポートされていないため、PowerShell コマンド ラインを使用して Teams Essentials を直接管理することは **できません**。
 
@@ -131,7 +131,7 @@ Teams Essentials の使用を開始するには、次の手順に従います。
 
 3. **導入を計画します。** 中小企業の場合、ユーザーの導入計画は、ユーザーに Teams の使用方法を個別に示すのと同じくらい簡単です。 多くの場合、中小企業のお客様は、アプリケーションの成功と導入に悪影響を与える、新しいアプリケーションのこのステップを考慮していません。
 
-3.  **Teams Essentials を管理します。** 無料版の Microsoft Teams と同様に、組織で Teams Essentials に最初にサインアップするユーザーとしての管理者の役割は制限されています。 チーム メンバーを追加および削除したり、この役割を持つ別のメンバーを招待できるかどうかを指定したりできますが、高度な管理機能や Microsoft Teams 管理センターへのアクセス権はありません。
+3.  **Microsoft Teams Essentials の管理** 無料版の Microsoft Teams と同様に、組織で Teams Essentials に最初にサインアップするユーザーとしての管理者の役割は制限されています。 チーム メンバーを追加および削除したり、この役割を持つ別のメンバーを招待できるかどうかを指定したりできますが、高度な管理機能や Microsoft Teams 管理センターへのアクセス権はありません。
 
 ## <a name="upgrade-from-a-free-version-of-microsoft-teams-to-microsoft-teams-essentials"></a>無料版の Microsoft Teams から Microsoft Teams Essentials にアップグレードする
 
@@ -161,7 +161,7 @@ Teams Essentials の使用を開始するには、次の手順に従います。
 
 #### <a name="how-do-i-upgrade-my-organization"></a>組織をアップグレードするにはどうすればよいですか?
 
-Teams の Microsoft Teams Essentials バージョンにアップグレードするには、**[...]** を選択します。 上部のナビゲーション メニューにあります。 次に、表示されるドロップ ダウン メニューの下部にある **[アップグレード]**  ボタンを選択します。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="[アップグレード] ボタンを示すスクリーンショット"::: 
+Teams の Microsoft Teams Essentials バージョンにアップグレードするには、**[...]** を選択します。 上部のナビゲーション バー。 次に、表示されるドロップ ダウン メニューの下部にある **[アップグレード]**  ボタンを選択します。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="[アップグレード] ボタンを示すスクリーンショット"::: 
 
 Teams で **[アップグレード]** ボタンを選択すると、次の場所に移動します: [中小企業向け Microsoft Teams](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
@@ -172,7 +172,7 @@ Teams へのサインインに使用する現在のメール アドレスを入�
 
 いいえ。 AAD ID を持つ Teams Essentials は、一部の Microsoft Cloud パートナーからのみ利用できます。 パートナーとの連携に関心がある場合は、「[Microsoft パートナー クラウド ソリューション プロバイダーの検索](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)」にアクセスしてください。
 
-### <a name="can-i-use-an-existing-email-system-with-teams-essentials"></a>Teams Essentials で既存のメール システムを使用できますか?  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Microsoft Teams Essentials で既存のメール システムを使用できますか?  
 
 はい。 既存のメール システムを維持し、Teams Essentials を活用して、会議、チャット、およびコラボレーションを行うことができます。  
 
