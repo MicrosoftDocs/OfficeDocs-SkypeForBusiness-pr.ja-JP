@@ -1,25 +1,20 @@
 ---
-title: SkypeRoom System の移行に関する考慮事項
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skypeの移行に関する考慮事項
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: このトピックでは、複数のバージョンの Skypeと Lync Server を持つ環境にルーム システムを展開するSkype for Business Server説明します。
-ms.openlocfilehash: 1b57115a332a647143fc0a3a7ca2c1ee178ad5fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850510"
 ---
-# <a name="skype-room-system-migration-considerations"></a>SkypeRoom System の移行に関する考慮事項
+
+# <a name="skype-room-system-migration-considerations"></a>Skypeの移行に関する考慮事項
  
 このトピックでは、複数のバージョンの Skypeと Lync Server を持つ環境にルーム システムを展開するSkype for Business Server説明します。
   
@@ -39,21 +34,21 @@ Skype Room System アカウントが Lync にサインインしようとして�
     
 - Skype Room System が企業ネットワークの外部に展開され、Lync Edge Server が展開され、従来のプールまたはディレクターをポイントするように構成されている場合は、セカンダリ エッジ サーバー サイトが必要です。これは Lync Server 2013 プールを指しています。 セカンダリ エッジ サーバーの展開の詳細については、エッジ サーバーの展開に関するドキュメントを参照してください。 
     
-## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>SkypeLync Server 2010 プールとのルーム システムの相互運用性
+## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Skypeルーム システムと Lync Server 2010 プールの相互運用性
 
 移行中に、Lync Server 2010 プールに参加しているユーザーが会議をスケジュールし、Skype Room System アカウントを招待した場合、Skype Room System クライアントは会議に出席する際に機能が制限されます。 
   
 Skype Room System クライアントが、Lync Server 2010 に参加しているユーザーによって組織された予定された電話会議に参加すると、Skype Room System には次の会議内の制限があります。 
   
-- SkypeRoom System では、マルチビュー ビデオ ギャラリーを表示できません。
+- Skypeシステムは、マルチビュー ビデオ ギャラリーを表示できません。
     
 - Room System クライアントSkype発表者である場合、参加者にビデオ ロックを適用できません。
     
-- SkypeRoom System では、Lync Server 2013 会議ポリシーで許可されている場合でも、次の理由で 1080p ビデオ解像度 (受信または送信) を表示できません。 
+- Skype Lync Server 2013 会議ポリシーで許可されている場合でも、ルーム システムは 1080p ビデオ解像度 (受信または送信) を表示できません。次の理由により、 
     
   - Lync Server 2010 は 1080p の解決をサポートしません。
     
-  - Skypeルーム システムは、ビデオ解決のための開催者の会議ポリシーによって常に制限されます。 そのため、Lync 2010 プールが 720p 解決をサポートしている場合でも、Skype Room System は、開催者のポリシーがサポートしていない限り、720p の解像度を利用できない可能性があります。 
+  - Skypeシステムは、ビデオ解決のための開催者の会議ポリシーによって常に制限されます。 そのため、Lync 2010 プールが 720p 解決をサポートしている場合でも、Skype Room System は、開催者のポリシーがサポートしていない限り、720p の解像度を利用できない可能性があります。 
     
 - Lync 2013 クライアントは会議室での LRS プレゼンスを検出し、物理的な会議室でのエコーを回避するために自分自身を自動ミュートします。 この機能は、Lync Server 2010 でホストされている会議では機能しません。
     

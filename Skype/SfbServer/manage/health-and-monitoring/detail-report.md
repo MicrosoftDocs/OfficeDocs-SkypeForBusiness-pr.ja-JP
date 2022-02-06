@@ -1,24 +1,19 @@
 ---
 title: 会議の詳細レポート (Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: '概要: 会議で使用される会議の詳細レポートについてSkype for Business Server。'
-ms.openlocfilehash: a86124c05e0d35caef3f92c4ec43b561eb54938c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829991"
 ---
+
 # <a name="conference-detail-report-in-skype-for-business-server"></a>会議の詳細レポート (Skype for Business Server
 
 **概要:** 詳細レポートで使用される会議の詳細レポートSkype for Business Server。
@@ -48,7 +43,7 @@ ms.locfileid: "60829991"
 **電話会議情報の指標**
 
 
-| **名前**                 | **説明**                                                                                                            |
+| **[名前]**                 | **説明**                                                                                                            |
 |:-------------------------|:---------------------------------------------------------------------------------------------------------------------------|
 | [**会議 URI**] <br/> | 電話会議に割り当てられる URI。次に例を示します。  <br/> sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4  <br/> |
 | [**プールの FQDN**] <br/>      | セッションに関係するレジストラー プールまたはエッジ サーバーの完全修飾名。  <br/>                             |
@@ -60,7 +55,7 @@ ms.locfileid: "60829991"
 
 **電話会議参加の指標**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**ユーザー** <br/> |会議に参加したユーザーの SIP アドレス。  <br/> |
 |**役割** <br/> |電話会議の参加者が担った役割 (発表者など)。  <br/> |
@@ -74,7 +69,7 @@ ms.locfileid: "60829991"
 
 **電話会議のモダリティの指標**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**ユーザー** <br/> |会議に参加したユーザーの SIP アドレス。  <br/> |
 |[**参加時間**] <br/> |参加者が電話会議に参加した日時。  <br/> |

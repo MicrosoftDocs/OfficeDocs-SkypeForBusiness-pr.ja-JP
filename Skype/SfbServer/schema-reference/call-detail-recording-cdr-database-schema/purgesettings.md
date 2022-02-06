@@ -1,25 +1,20 @@
 ---
 title: PurgeSettings テーブル
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: PurgeSettings テーブルには、古い通話詳細レコードが CDR データベースから自動的に削除される場合 (およびいつ) を指定する情報が含まれます。 次のコマンドを実行して、2015 年 2015 年Skype for Business Serverから削除関連の情報を取得することもできます。
-ms.openlocfilehash: 119c357ed9b0f3da456d34899c8fb9bd7007a375
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859824"
 ---
+
 # <a name="purgesettings-table"></a>PurgeSettings テーブル
  
 PurgeSettings テーブルには、古い通話詳細レコードが CDR データベースから自動的に削除される場合 (およびいつ) を指定する情報が含まれます。 次のコマンドを実行して、2015 年 2015 年Skype for Business Serverから削除関連の情報を取得することもできます。

@@ -1,27 +1,22 @@
 ---
 title: コール パーク
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.VoiceFeaCallParkMain
+  - ms.lync.lscp.VoiceFeaCallParkMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 呼び出しがパークされている場合、通話は一時的な番号に転送され、呼び出しは誰かが呼び出しを取得するか、または時間が切れるまで保持されます。パークされた呼び出しのために予約する内線番号の範囲を持つテーブルを構成する必要があります。 これらの内線番号は仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要あがります。 コール パーク アプリケーションを実行する各プールには、1 つ以上の範囲の拡張機能を使用できます。 これらの範囲は、展開全体でグローバルに一意である必要があります。
-ms.openlocfilehash: f37913066bb2bf0a0eb6eec767501a3b16534ec6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845700"
 ---
+
 # <a name="call-park"></a>コール パーク
 
 呼び出しがパークされている場合、通話は一時的な番号に転送され、呼び出しは誰かが呼び出しを取得するか、または時間が切れるまで保持されます。パークされた呼び出しのために予約する内線番号の範囲を持つテーブルを構成する必要があります。 これらの内線番号は仮想の内線番号 (つまり、ユーザーや電話が割り当てられていない内線番号) にする必要あがります。 コール パーク アプリケーションを実行する各プールには、1 つ以上の範囲の拡張機能を使用できます。 これらの範囲は、展開全体でグローバルに一意である必要があります。
@@ -42,7 +37,7 @@ ms.locfileid: "60845700"
 
 次の一覧に、このページのコマンドを示します。
 
-- **New** 新しい通話パーク番号範囲を開始します。
+- **新機能** 新しい通話パーク番号範囲を開始します。
 
 - **編集** 選択した番号範囲を編集用に開き、リスト内のすべての番号範囲を選択するか、選択した番号範囲を削除します。
 
@@ -58,4 +53,4 @@ ms.locfileid: "60845700"
 
 - **宛先** 番号範囲のコール パーク アプリケーションをホストする Application サービスの完全修飾ドメイン名 (FQDN) またはサービス ID。
 
-通話パークの機能の詳細については、「[プラン for Call Park in Skype for Business」 を参照してください](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 コール パーク番号範囲の操作の詳細については[、「Configure 電話番号拡張機能」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)。
+通話パークの機能の詳細については、「[プラン for Call Park in Skype for Business」 を参照してください](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 コール パーク番号範囲の操作の詳細については、「[Configure 電話番号拡張機能」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)。

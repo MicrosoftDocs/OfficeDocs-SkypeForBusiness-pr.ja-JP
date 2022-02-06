@@ -1,24 +1,19 @@
 ---
 title: アーカイブ オプションを管理Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: '概要: アーカイブ オプションを構成する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: d382cd829a9db8472df286580f6bd5d4b3baf036
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856774"
 ---
+
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>アーカイブ オプションを管理Skype for Business Server
 
 **概要:** ドキュメントのアーカイブ オプションを構成する方法Skype for Business Server。
@@ -45,7 +40,7 @@ ms.locfileid: "60856774"
     
 - 特定のプールに対するアーカイブの実装方法を指定するオプションのプール レベル構成
     
-サイト構成またはプール構成を削除できますが、グローバル構成を削除することはできません。 グローバル構成を削除すると、自動的に既定値にリセットされます。 アーカイブ構成の実装方法とアーカイブ構成の階層の詳細については、「Plan for archiving in Skype for Business Server」[を参照してください](../../plan-your-deployment/archiving/archiving.md)。
+サイト構成またはプール構成を削除できますが、グローバル構成を削除することはできません。 グローバル構成を削除すると、自動的に既定値にリセットされます。 アーカイブ構成の実装方法とアーカイブ構成の階層の詳細については、「Plan [for archiving in Skype for Business Server」 を参照してください](../../plan-your-deployment/archiving/archiving.md)。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>コントロール パネルを使用してアーカイブ オプションを構成する
 
@@ -55,11 +50,11 @@ ms.locfileid: "60856774"
     
 2. ブラウザー ウィンドウを開き、管理者 URL を入力して[コントロール パネル] Skype for Business Server開きます。 
     
-3. 左側のナビゲーション バーで、[アーカイブ構成] **をクリックします**。
+3. 左側のナビゲーション バーで、[アーカイブ構成 **] をクリックします**。
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>サーバーを使用してアーカイブ オプションを構成Windows PowerShell
 
-次の表に示す Windows PowerShellコマンドレットを使用して、アーカイブ オプションを構成することもできます。 使用可能なすべてのパラメーターを含む構文の詳細については[、「Skype for Business Server」を参照してください](../management-shell.md)。
+次の表に示す Windows PowerShellコマンドレットを使用して、アーカイブ オプションを構成することもできます。 使用可能なすべてのパラメーターを含む構文の詳細については、「Skype for Business Server[」を参照してください](../management-shell.md)。
   
 
 |**コマンドレット**|**説明**|

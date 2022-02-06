@@ -1,28 +1,23 @@
 ---
 title: 呼び出し管理機能を展開Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: 呼び出し管理機能をSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: f68a1e3030692c3c69ba2183e90f8a5f54be47fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859594"
 ---
+
 # <a name="deploy-call-management-features-in-skype-for-business"></a>呼び出し管理機能を展開Skype for Business
  
 呼び出し管理機能をSkype for Business Server エンタープライズ VoIP。
@@ -31,7 +26,7 @@ ms.locfileid: "60859594"
   
 - **通話パーク**: 音声ユーザーが一時的に通話をパークしてから、同じ電話または別の電話から通話を受け取る機能を有効にします。
     
-- **グループ通話ピックアップ**: ユーザーがピックアップ グループ番号をダイヤルしてピックアップ グループに割り当てられている別のユーザーに対して行われた通話に応答できます。
+- **グループ通話ピックアップ**: 通話ピックアップ グループ番号をダイヤルして、ピックアップ グループに割り当てられている別のユーザーに対して発信された通話にユーザーが応答できます。
     
 - **応答グループ**: ハント グループまたは対話型音声応答 (IVR) の質問と回答を使用して、着信呼び出しをエージェントのグループにルーティングします。
     

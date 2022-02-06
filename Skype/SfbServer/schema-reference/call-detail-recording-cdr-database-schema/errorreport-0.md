@@ -1,25 +1,20 @@
 ---
 title: ErrorReport ビュー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport ビューには、報告されたエラーに関する情報が格納されます。 各レコードは 1 つのエラー発生です。 このエラーは、フロントエンド サーバーで実行されている CDR エージェントによってキャプチャされます。またはクライアントから送信されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 5a35cc8b3a726549be7de10259c7e59a67ca5500
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852931"
 ---
+
 # <a name="errorreport-view"></a>ErrorReport ビュー
  
 ErrorReport ビューには、報告されたエラーに関する情報が格納されます。 各レコードは 1 つのエラー発生です。 このエラーは、フロントエンド サーバーで実行されている CDR エージェントによってキャプチャされます。またはクライアントから送信されます。 このビューは、Microsoft Lync Server 2013 で導入されました。
@@ -37,18 +32,18 @@ ErrorReport ビューには、報告されたエラーに関する情報が格�
 |**ToTenant** <br/> |nvarchar(256)  <br/> |エラー レポートの対象となるユーザーのテナント。 詳細については [、「Tenants」テーブル](tenants.md) を参照してください。 <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |エラー レポートの対象だった会議の URI。  <br/> |
 |**ConferenceUriType** <br/> |nvarchar(256)  <br/> |エラー レポートのターゲットだった会議の URI の種類。 詳細については [、UriTypes テーブル](uritypes.md) を参照してください。 <br/> |
-|**SessionIdTime** <br/> |日付型  <br/> |エラー レポートを発生したセッション要求の時刻。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |エラー レポートを発生したセッション要求を識別する ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**SessionIdTime** <br/> |日付型  <br/> |エラー レポートを発生したセッション要求の時刻。 セッションを一意に識別するために SessionIdSeq と組み合わせて使用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |エラー レポートを発生したセッション要求を識別する ID 番号。 セッションを一意に識別するために SessionIdTime と組み合わせて使用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |エラーが発生したセッションの SIP ダイアログ ID。 形式は次のとおりです。  <br/> dialog;from-tag;to-tag  <br/> このデータは、次の構文を使用してテキスト形式に変換できます。  <br/> cast(cast(ExternalId as varbinary(max)) as varchar(max))  <br/> |
 |**ClientVersion** <br/> |nvarchar(256)  <br/> |エラーを発生したユーザーが使用するクライアントのバージョン。  <br/> |
 |**ClientType** <br/> |int  <br/> |エラーを発生したユーザーが使用するクライアント。 詳細については [、UserAgentDef の表](useragentdef.md) を参照してください。 <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |エラーを発生したユーザーが使用するクライアントのカテゴリの名前。  <br/> |
 |**Source** <br/> |nvarchar(256)  <br/> |エラーを発生させたサーバーの名前 (サーバー コンポーネントからレポートが送信された場合)。  <br/> |
-|**アプリケーション** <br/> |nvarchar(256)  <br/> |エラーを発生させたアプリケーションの名前 (サーバー コンポーネントからレポートが送信された場合)。  <br/> |
+|**Application** <br/> |nvarchar(256)  <br/> |エラーを発生させたアプリケーションの名前 (サーバー コンポーネントからレポートが送信された場合)。  <br/> |
 |**ResponseCode** <br/> |int  <br/> |エラー レポートを含む SIP メッセージのセッションに対する SIP 応答コード。  <br/> |
 |**RequestType** <br/> |varchar(max)  <br/> |失敗した要求の種類。  <br/> |
 |**ContentType** <br/> |varchar(max)  <br/> |失敗した要求のコンテンツ タイプ。  <br/> |
-|**CallType** <br/> |nvarchar(256)  <br/> |セッションの種類。 詳細については[、2015 Skype for Business Serverの CallType](calltype.md)テーブルを参照してください。 <br/> |
+|**CallType** <br/> |nvarchar(256)  <br/> |セッションの種類。 詳細については[、2015 Skype for Business Serverの CallType](calltype.md) テーブルを参照してください。 <br/> |
 |**TelemetryId** <br/> |uniqueidentifier  <br/> |会議に関するさまざまなコンポーネントの参加時間情報に関係する一意の識別子。  <br/> |
 |**SetupTime** <br/> |int  <br/> |特定のコンポーネントが会議に参加するのに必要な時間 (ミリ秒)。  <br/> |
 |**IsCapturedByServer** <br/> |ビット  <br/> |エラー レポートがフロントエンド サーバーで実行されている CDR エージェントによってキャプチャされたのか、クライアントによって送信されたのかを示します。  <br/> |

@@ -1,34 +1,29 @@
 ---
 title: 'Skype for Business Server: Active Directory の準備'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
-description: '概要: Active Directory ドメインをインストール用に準備する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードします https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。'
-ms.openlocfilehash: fbc5769c38436cdc7199aadf4338fa59a47edf3d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845860"
+description: '概要: Active Directory ドメインをインストール用に準備する方法についてSkype for Business Server。 以下の Microsoft 評価センター Skype for Business Server無料試用版をダウンロードしますhttps://www.microsoft.com/evalcenter/evaluate-skype-for-business-server。'
 ---
+
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype for Business Server: Active Directory の準備
  
 **概要:** Active Directory ドメインをインストール用に準備する方法についてSkype for Business Server。 Microsoft 評価センターからSkype for Business Server試用版[をダウンロードします](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)。
   
-Skype for Business Server Active Directory と密接に動作します。 Active Directory ドメインを準備して、このドメインをSkype for Business Server。 このプロセスは展開ウィザードで実行され、ドメインに対して 1 回だけ実行されます。 これは、プロセスによってグループが作成され、ドメインが変更され、1 回だけ行う必要があるためです。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、図に示されている手順 6、7、および 8 を順番に実行し、手順 1 ~ 5 の後に実行する必要があります。 Active Directory の準備は、手順 4 / 8 です。 Active Directory の計画の詳細については、「環境要件 for [Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) [2019」](../../../SfBServer2019/plan/system-requirements.md)を参照Skype for Business Serverしてください。
+Skype for Business Server Active Directory と密接に動作します。 Active Directory ドメインを準備して、このドメインをSkype for Business Server。 このプロセスは展開ウィザードで実行され、ドメインに対して 1 回だけ実行されます。 これは、プロセスによってグループが作成され、ドメインが変更され、1 回だけ行う必要があるためです。 手順 1 ~ 5 は、任意の順序で実行できます。 ただし、図に示されている手順 6、7、および 8 を順番に実行し、手順 1 ~ 5 の後に実行する必要があります。 Active Directory の準備は、手順 4 / 8 です。 Active Directory の計画の詳細については、「環境要件 for [Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) [2019](../../../SfBServer2019/plan/system-requirements.md)」を参照Skype for Business Server。
   
 ![概要図。](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
@@ -42,7 +37,7 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
 > [!IMPORTANT]
 > [Active Directory の準備] プロシージャは、展開内のドメインごとに 1 回だけ実行する必要があります。 
   
-「Active Directory の準備」のビデオ **手順をご覧ください**。
+「Active Directory の準備」のビデオ **手順を見る**:
   
 > [!video https://www.microsoft.com/videoplayer/embed/RE1Ybuk]
   
@@ -61,9 +56,9 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     a. 手順 1 のタイトルの下にあるドロップダウンをクリックして、アクセスできる手順 1 の前提条件情報を確認します。
     
-    b. 手順 **1 で** [実行] をクリックして、スキーマの準備ウィザードを起動します。
+    b. 手順 1 **で** [実行] をクリックして、スキーマの準備ウィザードを起動します。
     
-    c. 手順は展開ごとに 1 回だけ実行し、[次へ] をクリックする必要 **があります。**
+    c. 手順は展開ごとに 1 回だけ実行し、[次へ] **をクリックする** 必要があります。
     
     d. スキーマを準備したら、[ログの表示] をクリックしてログ **を表示できます**。 
     
@@ -79,17 +74,17 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     d. **[接続の設定]** ダイアログ ボックスの **[既知の名前付けコンテキストを選択する]** で、**[スキーマ]** を選択して **[OK]** をクリックします。
     
-    e. スキーマ コンテナーの下で **、CN=ms-RTC-SIP-SchemaVersion を検索します**。 このオブジェクトが存在し **、rangeUpper** 属性の値が 1150 で **、rangeLower** 属性の値が 3 の場合、スキーマは正常に更新され、レプリケートされました。 このオブジェクトが存在しない場合、または **rangeUpper** 属性と **rangeLower** 属性の値が指定されていない場合、スキーマは変更されていないか、レプリケートされていません。
+    e. スキーマ コンテナーの下で **、CN=ms-RTC-SIP-SchemaVersion を検索します**。 このオブジェクトが存在し、 **rangeUpper** 属性の値が 1150 で **、rangeLower** 属性の値が 3 の場合、スキーマは正常に更新され、レプリケートされました。 このオブジェクトが存在しない場合、または **rangeUpper** 属性と **rangeLower** 属性の値が指定されていない場合、スキーマは変更されていないか、レプリケートされていません。
     
 6. **手順 3: 現在のフォレストを準備する**
     
     a. 手順 3 のタイトルの下にあるドロップダウンをクリックして、アクセスできる手順 3 の前提条件情報を確認します。
     
-    b. 手順 **3 で** [実行] をクリックして、[現在のフォレストの準備] ウィザードを起動します。
+    b. 手順 3 **で** [実行] をクリックして、[現在のフォレストの準備] ウィザードを起動します。
     
-    c. 手順は展開ごとに 1 回だけ実行し、[次へ] をクリックする必要 **があります。**
+    c. 手順は展開ごとに 1 回だけ実行し、[次へ] **をクリックする** 必要があります。
     
-    d. ユニバーサル グループを作成するドメインを指定します。 サーバーがドメインの一部である場合は、[ローカルドメイン] を選択し、[次へ] をクリック **します**。
+    d. ユニバーサル グループを作成するドメインを指定します。 サーバーがドメインの一部である場合は、[ローカル ドメイン] **を選択し**、[次へ] をクリック **します**。
     
     e. フォレストの準備が完了したら、[ログの表示] をクリックしてログ **を表示できます**。 
     
@@ -99,17 +94,17 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     h. Get-CsAdForest コマンドを入力し、Enter キーを **押します**。
     
-    i. 結果 **がLC_FORESTSETTINGS_STATE_READY、** 図に示すように、フォレストが正常に準備されました。
+    i. 結果が完全に **LC_FORESTSETTINGS_STATE_READY**、図に示すように、フォレストが正常に準備されています。
     
      ![フォレストのレプリケーションを確認します。](../../media/20835669-b8ff-445b-aa8d-51cce46a8b0e.png)
   
 7. **手順 4: グローバル カタログのレプリケーションを確認する**
     
-    a. ドメイン コントローラー (できれば、他のドメイン コントローラーからのリモート サイト) で、フォレスト準備が実行されたフォレストで **、Active Directory Users** and Computers を開きます。
+    a. ドメイン コントローラー (できれば、他のドメイン コントローラーからのリモート サイト) で、フォレスト準備が実行されたフォレストで **、Active Directory Users and Computers を開きます**。
     
     b. **[Active Directory ユーザーとコンピューター]** で、フォレストまたは子ドメインのドメイン名を展開します。
     
-    c. 左側の **ウィンドウで [Users]** コンテナーをクリックし、右側のウィンドウでユニバーサル グループ **CsAdministrator** を探します。 CsAdministrator (Cs で始まる他の新しいユニバーサル グループの中で) が存在する場合、Active Directory レプリケーションは成功しています。
+    c. 左側の **ウィンドウで [Users** ] コンテナーをクリックし、右側のウィンドウでユニバーサル グループ **CsAdministrator** を探します。 CsAdministrator (Cs で始まる他の新しいユニバーサル グループの中で) が存在する場合、Active Directory レプリケーションは成功しています。
     
     d. グループがまだ存在しない場合は、レプリケーションを強制するか、15 分待って右側のウィンドウを更新できます。 グループが表示されている場合、レプリケーションは完了しています。
     
@@ -117,7 +112,7 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
     a. 手順 5 の前提条件情報を確認します。
     
-    b. 手順 **5** で [実行] をクリックして、[現在のドメインの準備] ウィザードを起動します。
+    b. **手順 5** で [実行] をクリックして、[現在のドメインの準備] ウィザードを起動します。
     
     c. この手順は、展開内のドメインごとに 1 回だけ実行し、[次へ] **をクリックする** 必要があります。
     
@@ -129,7 +124,7 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     
 9. **手順 6: ドメイン内のレプリケーションを確認する**
     
-    a. [アプリ]**ページSkype for Business Server管理シェル** をクリック **して**、PowerShell を起動します。
+    a. [アプリ] **Skype for Business Server管理シェル** をクリック **して** PowerShell を起動します。
     
     b. ドメイン内のレプリケーションGet-CsAdDomainを確認するには、次のコマンドを使用します。
     
@@ -149,22 +144,22 @@ Skype for Business Server Active Directory ドメイン サービス (DS) と緊
     > [!NOTE]
     > GlobalSettingsDomainController パラメーターを使用すると、グローバル設定の格納場所を指定できます。 設定が System コンテナーに格納されている場合 (グローバル設定が構成コンテナーに移行されていないアップグレード展開では一般的です)、AD DS フォレストのルートにドメイン コントローラーを定義します。 グローバル設定を構成コンテナーに保存する (新しい展開または構成コンテナーに設定を移行しているアップグレードの展開で一般的) 場合、フォレストに任意のドメイン コントローラーを定義します。 このパラメーターを指定しない場合、コマンドレットは設定が構成コンテナーに格納され、Active Directory の任意のドメイン コントローラーを参照すると想定します。 
   
-    c. 結果が **LC_DOMAINSETTINGS_STATE_READY、ドメイン** は正常にレプリケートされました。
+    c. 結果が正常に **LC_DOMAINSETTINGS_STATE_READY**、ドメインは正常にレプリケートされます。
     
 10. **手順 7: ユーザーを追加して、コントロール パネルへのSkype for Business Serverを提供する**
     
     a. Domain Admins グループまたは RTCUniversalServerAdmins グループのメンバーとしてログオンします。
     
-    b. **[Active Directory ユーザーとコンピューター]** を開き、ドメインを展開し、[**ユーザー** ] コンテナーをクリックし、[CSAdministrator] を右クリックして、[プロパティ] を **選択します**。
+    b. **[Active Directory ユーザーとコンピューター**] を開き、ドメインを展開し、[**ユーザー**] コンテナーをクリックし、[CSAdministrator] を右クリックして、[プロパティ] を選択 **します**。
     
     c. [**CSAdministrator のプロパティ**] で、[**メンバー**] タブをクリックします。
     
     d. [ **メンバー**] タブで [ **追加**] をクリックします。 [**ユーザー、連絡先、コンピューター、サービス アカウント、またはグループの選択**] で、[**選択するオブジェクト名を入力してください**] を見つけます。 CSAdministrators グループに追加するユーザー名またはグループ名を入力します。 **[OK]** をクリックします。
     
-    e. [メンバー **] タブ** で、選択したユーザーまたはグループが存在します。 **[OK]** をクリックします。
+    e. [メンバー **] タブ** で、選択したユーザーまたはグループが存在します。 [**OK**] をクリックします。
     
     > [!CAUTION]
-    > [Skype for Business Serverコントロール パネル] は、役割ベースのアクセス制御ツールです。 CsAdministrator グループのメンバーシップを使用すると、使用可能なすべての構成機能にSkype for Business Serverコントロール パネルのフル コントロールを使用しているユーザーが表示されます。 特定の機能向けに設計されたその他の役割も使用できます。 使用可能なロールの詳細については、「環境[](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)要件」または「Skype for Business Server [2019](../../../SfBServer2019/plan/system-requirements.md)のサーバー要件」を参照Skype for Business Serverしてください。 管理グループのメンバーを作成するには、ユーザー Skype for Business Serverを有効にする必要はなんらない点に注意してください。 
+    > [Skype for Business Serverコントロール パネル] は、役割ベースのアクセス制御ツールです。 CsAdministrator グループのメンバーシップを使用すると、使用可能なすべての構成機能にSkype for Business Serverコントロール パネルのフル コントロールを使用しているユーザーが表示されます。 特定の機能向けに設計されたその他の役割も使用できます。 使用可能な役割の詳細については、「環境[](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)要件」または「Skype for Business Server [2019 のサーバー](../../../SfBServer2019/plan/system-requirements.md)要件Skype for Business Serverしてください。 管理グループのメンバーを作成するには、ユーザー Skype for Business Serverを有効にする必要はなんらない点に注意してください。 
   
     > [!CAUTION]
     > セキュリティと役割ベースのアクセス制御の整合性を維持するために、ユーザーが展開の管理で実行する役割を定義するグループにユーザーをSkype for Business Serverします。 

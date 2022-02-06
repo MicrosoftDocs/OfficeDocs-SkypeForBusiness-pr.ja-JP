@@ -1,27 +1,22 @@
 ---
 title: アーカイブ ポリシー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchPolicyMain
+  - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: アーカイブ ポリシーを使用して、ユーザーのアーカイブを有効または無効にSkype for Business Server。 それぞれのアーカイブ ポリシーでは、次のどちらかまたは両方のアーカイブを有効化または無効化できます。
-ms.openlocfilehash: 85842f6722300dfe4b169a443eef512720a997cb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860534"
 ---
+
 # <a name="archiving-policy"></a>アーカイブ ポリシー
  
 アーカイブ ポリシーを使用して、ユーザーのアーカイブを有効または無効にSkype for Business Server。 それぞれのアーカイブ ポリシーでは、次のどちらかまたは両方のアーカイブを有効化または無効化できます。
@@ -42,7 +37,7 @@ ms.locfileid: "60860534"
 > アーカイブ ポリシーは、ユーザーが管理しているユーザーにのみSkype for Business Server。 Exchange 統合を使用してアーカイブ データを Microsoft Exchange に保存する場合、Exchange 2013 ポリシーは、Exchange 2013 のユーザーのアーカイブを制御します。 これらのユーザーのアーカイブを有効にするには、ユーザーのメールボックスを [保持] In-Place必要があります。 
   
 [**アーカイブ ポリシー**] ページには、展開に構成されている各アーカイブ ポリシーが一覧表示されます。また、各アーカイブ ポリシーの名前、対象範囲 (グローバル、サイト、ユーザー)、および有効になっているアーカイブ オプションも示されます。[**アーカイブ ポリシー**] ページからは、以下のオプションを使用できます。
-- **New** 次のオプションのアーカイブ ポリシーのそれぞれを 1 つ以上追加できます。
+- **新機能** 次のオプションのアーカイブ ポリシーのそれぞれを 1 つ以上追加できます。
     
   - サイト ポリシー
     
@@ -68,5 +63,5 @@ ms.locfileid: "60860534"
     
 - **更新** [アーカイブ ポリシー] **ページを更新** して、すべてのアーカイブ ポリシーのオプションの状態を確認できます。
     
-Exchange 統合を含むアーカイブ機能の詳細については[、「plan for archiving in Skype for Business Server 2015」、2015](../../plan-your-deployment/archiving/archiving.md)年 Skype for Business Server 年のアーカイブの展開、および Skype for Business Server [2015](../../manage/archiving/archiving.md)でのアーカイブの管理を参照してください。 [](../../deploy/deploy-archiving/deploy-archiving.md)
+Exchange 統合を含むアーカイブ機能の詳細については、「[Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md) でのアーカイブの計画」、[201 Skype for Business Server 5](../../deploy/deploy-archiving/deploy-archiving.md) 年のアーカイブの展開、およびアーカイブの管理を参照してください。[Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

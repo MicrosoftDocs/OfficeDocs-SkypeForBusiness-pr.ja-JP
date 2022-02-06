@@ -1,24 +1,19 @@
 ---
 title: 計画ツール UI リファレンス
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 516ecfc5433455af8813ecc1c66917e77f4c6677
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845270"
 ---
+
 # <a name="planning-tool-ui-reference"></a>計画ツール UI リファレンス
  
 ## <a name="in-this-section"></a>このセクションの内容
@@ -33,7 +28,7 @@ ms.locfileid: "60845270"
     
 - [エンタープライズ VoIP (計画ツール)](../../help-topics/help-planning/enterprise-voice.md)
     
-- [Exchangeユニファイド メッセージング 設定 (計画ツール)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
+- [Exchange ユニファイド メッセージング 設定 (計画ツール)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     
 - [通話受付管理 (計画ツール)](../../help-topics/help-planning/call-admission-control.md)
     
@@ -53,7 +48,7 @@ ms.locfileid: "60845270"
     
 - [機能の概要 (計画ツール)](../../help-topics/help-planning/feature-overview.md)
     
-- [Exchangeユニファイド メッセージング (計画ツール)](../../help-topics/help-planning/exchange-unified-messaging.md)
+- [Exchange ユニファイド メッセージング (計画ツール)](../../help-topics/help-planning/exchange-unified-messaging.md)
     
 - [ロード バランサー (計画ツール)](../../help-topics/help-planning/load-balancer.md)
     

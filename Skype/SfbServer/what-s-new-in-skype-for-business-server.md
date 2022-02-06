@@ -1,29 +1,24 @@
 ---
 title: 2015 年の新機能Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: '概要: このトピックを参照して、2015 年の新機能Skype for Business Serverしてください。 新しいクライアント エクスペリエンスの詳細については、「Lync は現在使用Skype for Business -- 新機能」を参照してください。'
-ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829751"
 ---
+
 # <a name="whats-new-in-skype-for-business-server-2015"></a>2015 年の新機能Skype for Business Server
 
-**概要:** このトピックでは、2015 年の新機能についてSkype for Business Serverしてください。 新しいクライアント エクスペリエンスの詳細については[、「Lync is now」を参照Skype for Business新機能を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=529022)。
+**概要:** このトピックでは、2015 年の新機能についてSkype for Business Serverしてください。 新しいクライアント エクスペリエンスの詳細については、「Lync は現在使用Skype for Business[--新機能」を参照してください](https://go.microsoft.com/fwlink/p/?LinkId=529022)。
   
 Lync はSkype for Business、Skype にインスパイアされたエクスペリエンスと、エンタープライズ レベルのセキュリティ、コンプライアンス、および Lync の制御を統合するコミュニケーションおよびコラボレーション プラットフォームです。 Skype for Business、IM、音声およびビデオ通話、オンライン会議などの機能を提供します。 Skype for Business、新しいクライアント エクスペリエンス、新しいサーバー リリース、およびサービスの更新プログラムを、Microsoft 365またはOffice 365。 組織内のユーザーが既に Skype に精通している場合、同僚を簡単に見つけて接続できる Skype for Business の機能とシンプルさを理解できます。 組織内のユーザーが Lync から Skype for Business にアクセスする場合、ユーザーは既に使用しているすべての機能を認識しますが、簡略化されたコントロールと新しい追加機能を備え、新しいインターフェイスで認識されます。 新しいクライアント エクスペリエンスに加えて、Skype for Business Server 2015 には、オンプレミス サーバーとハイブリッド ソリューションの管理性を向上させるいくつかの新機能が提供されています。
   
@@ -40,7 +35,7 @@ Lync はSkype for Business、Skype にインスパイアされたエクスペリ
 
 このSkype for Businessクライアントは、コンシューマー バージョンの Skypeに非常に似ていて、同じボタンとアイコンを使用します。 メニューが少なく、タスク階層がフラット化された場合、ユーザーは必要なコントロールとコマンドをすばやく見つけやすくできます。 
   
-Skype for Business、前述の新しいユーザー エクスペリエンスと、以前にリリースされた Lync 2013 ユーザー エクスペリエンスが含まれます。 両方のエクスペリエンスを組み込むと、企業は新しいクライアント ロールアウトのプロセスとタイミングを制御することで、ユーザーの変更を管理できます。既定のユーザー エクスペリエンスは、使用しているサーバーのバージョンによって異なります。 管理者は、EnableSkypeUI パラメーターで **Set-CsClientPolicy** コマンドレットを使用して、優先するエクスペリエンスを選択します。 クライアント エクスペリエンスの構成の詳細については、「クライアント[](deploy/deploy-clients/configure-the-client-experience.md)エクスペリエンスを構成する」および「Skype for Business デスクトップ クライアント機能の比較」を[参照](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)Skype for Business。
+Skype for Business、前述の新しいユーザー エクスペリエンスと、以前にリリースされた Lync 2013 ユーザー エクスペリエンスが含まれます。 両方のエクスペリエンスを組み込むと、企業は新しいクライアント ロールアウトのプロセスとタイミングを制御することで、ユーザーの変更を管理できます。既定のユーザー エクスペリエンスは、使用しているサーバーのバージョンによって異なります。 管理者は、EnableSkypeUI パラメーターで **Set-CsClientPolicy** コマンドレットを使用して、優先するエクスペリエンスを選択します。 クライアント エクスペリエンスの構成の詳細については、「クライアント エクスペリエンスを[](deploy/deploy-clients/configure-the-client-experience.md)構成する」および「Skype for Businessデスクトップ クライアント機能の比較」[を参照](plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)Skype for Business。
   
 > [!NOTE]
 > Lync 2013 クライアント エクスペリエンスは、2016 クライアント バージョンSkype for Businessオプションではありません。 Lync 2013 クライアントを使用するクライアント環境を構成する前に、クライアントのバージョンを確認して、番号 16 で始まるのを確認してください。たとえば、16.x.x.x. 
@@ -55,7 +50,7 @@ Skype for Business Server 2015 には、通話データの収集と分析、サ�
   
 ### <a name="improved-interoperability-with-third-party-video-teleconferencing-systems"></a>サードパーティ製ビデオ電話会議システムとの相互運用性の向上
 
-ビデオ相互運用サーバー (VIS) は、Skype for Business Serverビデオ電話会議 (VTC) システム間の仲介として機能します。 会議に参加すると、ユーザーは Cisco VTC システムを選択できます。 ビデオ相互運用サーバー (VIS) は、オンプレミス展開のスタンドアロン サーバーの役割として実装されます。 詳細については[、「Plan for Video Interop Server in Skype for Business Server 2015」を参照](plan-your-deployment/video-interop-server.md)してください。
+ビデオ相互運用サーバー (VIS) は、Skype for Business Serverビデオ電話会議 (VTC) システム間の仲介として機能します。 会議に参加すると、ユーザーは Cisco VTC システムを選択できます。 ビデオ相互運用サーバー (VIS) は、オンプレミス展開のスタンドアロン サーバーの役割として実装されます。 詳細については、「[Plan for Video Interop Server in Skype for Business Server 2015」を参照](plan-your-deployment/video-interop-server.md)してください。
   
 ### <a name="call-via-work"></a>仕事で通話する
 
@@ -103,34 +98,34 @@ Skype for Business Server 2015 には、インプレイス アップグレード
 
 既存の Lync Server 2013 ハードウェアとサーバーへの投資を使用する新しい一時アップグレード機能を使用して、Lync Server 2013 システムを Skype for Business Server 2015 にアップグレードし、Skype for Business Server 2015 を展開する全体的なコストを削減できます。
   
-インプレイス アップグレードには、ダウンタイムが必要ない Move User メソッドと、ダウンタイムが必要な Offline メソッドの 2 つのシナリオがあります。 ビジネスに最適なアップグレード手順の詳細については、「Plan to upgrade to upgrade to Skype for Business Server [2015」を参照](plan-your-deployment/upgrade.md)してください。 
+インプレイス アップグレードには、ダウンタイムが必要ない Move User メソッドと、ダウンタイムが必要な Offline メソッドの 2 つのシナリオがあります。 ビジネスに最適なアップグレード手順の詳細については、「Plan [to upgrade to upgrade to Skype for Business Server 2015」](plan-your-deployment/upgrade.md)を参照してください。 
   
 > [!NOTE]
-> Lync Server 2010 からアップグレードする場合は、インプレイス オプションを使用できません。 Lync Server 2010 からのアップグレードの詳細については、「Plan to upgrade to upgrade to Skype for Business Server [2015」を参照](plan-your-deployment/upgrade.md)してください。 
+> Lync Server 2010 からアップグレードする場合は、インプレイス オプションを使用できません。 Lync Server 2010 からのアップグレードの詳細については、「Plan [to upgrade to upgrade to Skype for Business Server 2015」](plan-your-deployment/upgrade.md)を参照してください。 
   
 ### <a name="smart-setup"></a>スマート セットアップ
 
-更新プログラムを自動的に検出してダウンロードするスマート セットアップ機能は、セットアップ プログラムの一部です。 インストール プロセス中に、インストール プロセスで更新プログラムを確認する必要がある場合は、ユーザーに問い合されます。 詳細については[、「Install Skype for Business Server 2015」を参照してください](deploy/install/install.md)。
+更新プログラムを自動的に検出してダウンロードするスマート セットアップ機能は、セットアップ プログラムの一部です。 インストール プロセス中に、インストール プロセスで更新プログラムを確認する必要がある場合は、ユーザーに問い合されます。 詳細については、「[Install Skype for Business Server 2015」を参照](deploy/install/install.md)してください。
   
 ### <a name="improved-front-end-server-patching-and-upgrade-process"></a>フロント エンド サーバーの修正プログラムとアップグレード プロセスの改善
 
 Skype for Business Server 2 つの新しいコマンドレットが導入されています。これは、以前のバージョンの Lync Server よりもずっと簡単にフロント エンド サーバーをアップグレードまたは修正するのに役立ちます。
   
-フロント エンド サーバーにパッチを適用するか、その他のメンテナンスを実行する必要がある場合は **、「Invoke-CsComputerFailOver」** と入力し、そのサーバーの名前を指定します。 Skype for Business Server、そのサーバーのワークロードをプール内の他のサーバーに一時的に移動します。 その後、メンテナンスを実行し **、Invoke-CsComputerFailback** コマンドレットを使用して、そのサーバーをサービスに戻すことができます。 プール内の各サーバーにパッチを適用する必要がある場合は、単に各サーバーに対して、一度に 1 つ、この手順に従います。 これらの新しいコマンドレットを使用すると、以前のバージョンよりもはるかに速く、信頼性とワークフローが簡単なサーバーにパッチを適用できます。
+フロント エンド サーバーにパッチを適用するか、その他のメンテナンスを実行する必要がある場合は、「 **Invoke-CsComputerFailOver** 」と入力し、そのサーバーの名前を指定します。 Skype for Business Server、そのサーバーのワークロードをプール内の他のサーバーに一時的に移動します。 その後、メンテナンスを実行し、 **Invoke-CsComputerFailback** コマンドレットを使用して、そのサーバーをサービスに戻すことができます。 プール内の各サーバーにパッチを適用する必要がある場合は、単に各サーバーに対して、一度に 1 つ、この手順に従います。 これらの新しいコマンドレットを使用すると、以前のバージョンよりもはるかに速く、信頼性とワークフローが簡単なサーバーにパッチを適用できます。
   
 ### <a name="improved-front-end-pool-cold-start-capability"></a>フロントエンド プールのコールド スタート機能の強化
 
 Skype for Business Server、フロント エンド プール全体をコールドスタートするプロセスを簡素化し、改善する新しいコマンドレットが導入されています。 新しい **Start-CsPool** コマンドレットを使用すると、プール内のすべてのフロントエンド サーバーの前提条件をチェックし、各サーバーの起動を試みる。 問題が発生した場合は、それらを診断し、詳細と回避策を通知します。 場合によっては、個々のサーバーの一部が起動できない場合でも、プールを開始できます。
   
-### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL ServerAlwaysOn のオンプレミス サーバーのサポート
+### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server AlwaysOn のオンプレミス サーバーのサポート
 
 Skype for Business Server 2015 では、AlwaysOn 可用性グループSQL Server AlwaysOn フェールオーバー クラスター インスタンスSQL Serverサポートが追加されています。 これらの機能に加えて、Skype for Business Server以前のバージョンの Lync Server と同様に、SQL Serverクラスタリングのサポートが引き続きサポートされています。
   
-SQL ServerAlwaysOn 可用性グループは、SQL Server 2012 および SQL Server 2014 の高可用性および障害復旧ソリューションであり、データベース ミラーリングの代わりに使用できます。 可用性グループは、一緒にフェールオーバーするデータベースの個別のセット (可用性データベースと呼ばれる) のフェールオーバー環境をサポートします。 可用性グループは、読み取り/書き込みプライマリ データベースのセットと、対応するセカンダリ データベースの 1 ~ 4 セットをサポートします。 必要に応じて、セカンダリ データベースを読み取り専用アクセスおよび一部のバックアップ操作で使用できます。
+SQL Server AlwaysOn 可用性グループは、SQL Server 2012 および SQL Server 2014 の高可用性および障害復旧ソリューションであり、データベース ミラーリングの代わりに使用できます。 可用性グループは、一緒にフェールオーバーするデータベースの個別のセット (可用性データベースと呼ばれる) のフェールオーバー環境をサポートします。 可用性グループは、読み取り/書き込みプライマリ データベースのセットと、対応するセカンダリ データベースの 1 ~ 4 セットをサポートします。 必要に応じて、セカンダリ データベースを読み取り専用アクセスおよび一部のバックアップ操作で使用できます。
   
-SQL Serverフェールオーバー クラスター インスタンスは、Windows サーバー フェールオーバー クラスタリング (WSFC) 機能を活用して、サーバー インスタンス レベルの冗長性 (フェールオーバー クラスター インスタンス (FCI) でローカル高可用性を提供します。 FCI は、SQL Server Windows サーバー フェールオーバー クラスタリング (WSFC) ノード全体にインストールされ、場合によっては複数のサブネットにまたがってインストールされる 1 つのインスタンスです。
+SQL Server フェールオーバー クラスター インスタンスは、Windows Server フェールオーバー クラスタリング (WSFC) 機能を活用して、サーバー インスタンス レベルの冗長性 (フェールオーバー クラスター インスタンス (FCI) でローカル高可用性を提供します。 FCI は、SQL Server Windows サーバー フェールオーバー クラスタリング (WSFC) ノード全体にインストールされ、場合によっては複数のサブネットにまたがってインストールされる 1 つのインスタンスです。
   
-詳細については、「Plan for high availability and disaster recovery in Skype for Business Server [2015」を参照](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)してください。
+詳細については、「[Plan for high availability and disaster recovery in Skype for Business Server 2015」を参照](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)してください。
   
 ### <a name="centralized-logging-and-troubleshooting-improvements-for-on-premises-servers"></a>オンプレミス サーバーの一元的なログ記録とトラブルシューティングの改善
 

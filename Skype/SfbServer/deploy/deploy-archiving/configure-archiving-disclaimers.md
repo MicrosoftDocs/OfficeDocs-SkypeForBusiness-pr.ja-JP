@@ -1,31 +1,26 @@
 ---
 title: 外部ユーザーのアーカイブに関する免責事項を構成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: '概要: このトピックでは、アーカイブに関する免責事項を構成する方法について説明Skype for Business Server。'
-ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834715"
 ---
+
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>外部ユーザーのアーカイブに関する免責事項を構成Skype for Business Server
  
 **概要:** このトピックでは、アーカイブに関する免責事項を構成する方法について説明Skype for Business Server。
   
 組織が外部パートナーと通信する場合は、そのパートナーとの通信をアーカイブしている必要があります。 エッジ サーバーを展開し、組織のフェデレーションを有効にするときに、アーカイブに関する免責事項を外部パートナーに自動的に送信するかどうかを確認するメッセージが表示されます。 
   
-この構成を変更する必要がある場合は、Skype for Business Server **Set-CsAccessEdgeConfiguration** コマンドレットWindows PowerShell使用できます。 コマンドレットは、管理シェルまたはSkype for Business Serverリモート セッションから実行Windows PowerShell。
+この構成を変更する必要がある場合は、Skype for Business Server **Set-CsAccessEdgeConfiguration コマンドレットWindows PowerShellを使用** できます。 コマンドレットは、管理シェルまたはSkype for Business Serverリモート セッションから実行Windows PowerShell。
   
 外部ユーザーが Skype for Business Server 展開内のユーザーと共同作業を行う場合は、外部ユーザー アクセスをサポートするために、少なくとも 1 つの外部アクセス ポリシーを構成する必要があります。 詳細については、「Manage XMPP Federated Partners for Your Organization」を参照してください。 特定のフェデレーション ドメインのアクセス制御の詳細については、「個々のフェデレーション ドメインによるアクセスの制御」を参照してください。
   

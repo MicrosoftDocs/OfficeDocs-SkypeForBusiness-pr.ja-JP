@@ -1,25 +1,20 @@
 ---
 title: スキーマの変更Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: サーバーを展開して操作するSkype for Business Server、スキーマを拡張して Active Directory ドメイン サービスを準備する必要があります。 スキーマ拡張機能は、ユーザーに必要なクラスと属性をSkype for Business Server。
-ms.openlocfilehash: 9f5a0f5e3b70925a39d94df9d3fec6728ef6429c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829821"
 ---
+
 # <a name="schema-changes-in-skype-for-business-server"></a>スキーマの変更Skype for Business Server
  
 サーバーを展開して操作するSkype for Business Server、スキーマを拡張して Active Directory ドメイン サービスを準備する必要があります。 スキーマ拡張機能は、ユーザーに必要なクラスと属性をSkype for Business Server。
@@ -35,7 +30,7 @@ Skype for Business Serverいくつかの新しいクラスと属性が必要で�
     
   - サポートされている以前のバージョンの Lync Server との下位互換性を維持するためのクラスの拡張機能。
     
-- **データ**(拡張スキーマSkype for Business Server既存のスキーマ クラスに格納されます)。
+- **データ** (拡張スキーマSkype for Business Server既存のスキーマ クラスに格納されます)。
     
   - ユーザーの SIP URI (Uniform Resource Identifier) と他のユーザー設定
     
@@ -45,7 +40,7 @@ Skype for Business Serverいくつかの新しいクラスと属性が必要で�
     
   - Kerberos 認証のアカウント (オプションのコンピューター オブジェクト)
     
-このトピックでは、ユーザーが必要とする Active Directory スキーマの変更Skype for Business Server。 以前のバージョンのコミュニケーション サーバーで導入されたスキーマの変更Officeしません。 クラスとその説明の一覧については、「[スキーマ](schema-classes-and-descriptions.md)クラスと説明」を参照Skype for Business Server。 属性とその説明の一覧については、「[スキーマ](schema-attributes-and-descriptions.md)の属性と説明」を参照Skype for Business Server。 含まれる可能性のある属性を持つクラスの一覧については、「[スキーマ属性」](schema-attributes-by-class.md)を参照Skype for Business Server。
+このトピックでは、ユーザーが必要とする Active Directory スキーマの変更Skype for Business Server。 以前のバージョンのコミュニケーション サーバーで導入されたスキーマの変更Officeしません。 クラスとその説明の一覧については、「[スキーマ](schema-classes-and-descriptions.md) クラスと説明」を参照Skype for Business Server。 属性とその説明の一覧については、「[スキーマ](schema-attributes-and-descriptions.md)の属性と説明」を参照Skype for Business Server。 含まれる可能性のある属性を持つクラスの一覧については、「[スキーマ](schema-attributes-by-class.md)属性」を参照Skype for Business Server。
   
 msRTCSIP プレフィックスは、ユーザーに固有のクラスと属性Skype for Business Server。
   

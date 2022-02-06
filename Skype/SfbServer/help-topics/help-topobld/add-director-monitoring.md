@@ -1,27 +1,22 @@
 ---
 title: ディレクターの監視を追加する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddDirectorMonitoringPage
+  - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 以下のプロパティを構成することにより、監視 SQL Server ストアの定義を行えます。
-ms.openlocfilehash: 21d97a6b67f97404526b30e31d9666cdc3647696
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841459"
 ---
+
 # <a name="add-director-monitoring"></a>ディレクターの監視の追加
  
 以下のプロパティを構成することにより、**監視 SQL Server ストアの定義** を行えます。
@@ -30,13 +25,13 @@ ms.locfileid: "60841459"
     
     [**新規]** をクリックして、FQDN 定義SQL Server作成し、必要に応じて監視サーバー ストアのインスタンス名を作成します。
     
-- 監視サーバー **にデータベース ミラーリングSQL Server追加** する場合は、[ミラーストアのミラーリングを有効にする] チェック ボックスをオンにします。
+- 監視サーバー **にデータベース ミラーリングSQL Server** する場合は、[ストア ミラーリングを有効にする] チェック ボックスをオンにします。
     
     リストから既存の **監視 SQL Server ストア ミラー** を選択します。
     
-    [**新規]** をクリックして、新SQL Server FQDN 定義を作成し、必要に応じてミラー ストアのインスタンス名を作成します。
+    [**新規]** をクリックして、FQDN 定義SQL Server作成し、必要に応じてミラー ストアのインスタンス名を作成します。
     
-- [SQL Server ストア ミラーリング **を有効** にする] を選択した場合は、必要に応じて **[SQL Server** ミラーリング監視を使用する] を選択して自動フェールオーバーを有効にして、一覧から SQL Server ミラーリング監視ストアを選択します。
+- [SQL Server ストア ミラーリング **を** 有効にする] を選択した場合は、必要に応じて [**SQL Server** ミラーリング監視を使用する] を選択して自動フェールオーバーを有効にして、一覧から SQL Server ミラーリング監視ストアを選択します。
     
     [**新規]** をクリックして、FQDN 定義SQL Server作成し、必要に応じてミラーリング監視ストアのインスタンス名を作成します。
     

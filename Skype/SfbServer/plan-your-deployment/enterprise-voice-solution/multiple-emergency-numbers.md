@@ -1,28 +1,23 @@
 ---
 title: 複数の緊急電話番号を計画Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: このトピックでは、複数の緊急電話番号を計画する方法について説明します。Skype for Business Server。
-ms.openlocfilehash: fbff70b3772b9d941d615f3d1aaf2ad668177e30
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861134"
 ---
+
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>複数の緊急電話番号を計画Skype for Business Server
  
 このトピックでは、複数の緊急電話番号を計画する方法について説明します。Skype for Business Server。
@@ -35,7 +30,7 @@ Skype for Business Server、クライアントの複数の緊急電話番号の�
 
 緊急通話の実装方法を定義する場所ポリシーを作成して、緊急通話を構成します。 場所ポリシーを使用して、緊急通話を構成する番号 (米国の 911 など) を定義します。イギリスの 999 と 112。 場所ポリシーは、ユーザーが緊急通話を有効にするかどうかを決定し、緊急通話の動作が有効かどうかを決定します。 また、企業のセキュリティを自動的に通知するかどうかを定義し、通話のルーティング方法を定義することもできます。
   
-場所ポリシーの定義と変更の詳細については、「場所ポリシーを計画[](location-policies.md)する」および「Skype for Business Serverで場所ポリシーを作成する」を[参照Skype for Business Server。](../../deploy/deploy-enterprise-voice/create-location-policies.md) これらのトピックでは、場所ポリシーに関する概念について説明します。ただし、「複数の緊急電話番号を構成する」の手順に従って、Skype for Business[緊急電話番号](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)を構成する必要があります。
+場所ポリシーの定義と変更の詳細については、「場所ポリシーを計画[](location-policies.md)する」および「Skype for Business Serverで場所ポリシーを作成する」[を参照Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md)。 これらのトピックでは、場所ポリシーに関する概念について説明します。ただし、「複数の緊急電話番号を構成する」の手順に従って、複数[Skype for Businessを構成](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)する必要があります。
   
 複数の緊急電話番号を計画する場合は、次の注意が必要です。
   
@@ -52,24 +47,24 @@ Skype for Business Server、クライアントの複数の緊急電話番号の�
     
 - 場所ポリシーに EmergencyNumbers パラメーターと DialString パラメーターの両方が定義され、クライアントが複数の緊急電話番号をサポートしている場合は、緊急番号が優先されます。 クライアントが複数の緊急電話番号をサポートしていない場合は、緊急ダイヤル文字列が使用されます。
     
-- 複数の緊急電話番号、ダイヤル Skype for Business公衆交換電話網 (PSTN) の使用法の受信をサポートするユーザーおよび Lync クライアントの詳細については、「クライアント サポート」を[参照してください](multiple-emergency-numbers.md#BKMK_Clients)。
+- 複数の緊急電話番号、ダイヤル Skype for Business公衆交換電話網 (PSTN) の使用状況の受信をサポートするユーザーと Lync クライアントの詳細については、「クライアント サポート」を[参照してください](multiple-emergency-numbers.md#BKMK_Clients)。
     
 > [!NOTE]
 > [コントロール パネル] コントロール パネルを使用して複数Skype for Businessすることはできません。 PowerShell を使用して複数の緊急電話番号を構成する必要があります。 
   
 複数の緊急電話番号を構成する前に、次の注意が必要です。
   
-- 複数の緊急電話番号を構成するには、New-CsEmergencyNumber コマンドレットを使用する必要があります。 [また、New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) コマンドレットと [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) コマンドレットで EmergencyNumbers パラメーターを指定して、複数の緊急番号をサポートする場所ポリシーを定義する必要があります。
+- 複数の緊急番号を構成するには、New-CsEmergencyNumber コマンドレットを使用する必要があります。[また、New-CsLocationPolicy コマンドレットと Set-CsLocationPolicy コマンドレットで EmergencyNumbers](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) パラメーターを指定して、複数の緊急番号[](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)をサポートする場所ポリシーを定義する必要があります。
     
 - EmergencyDialString パラメーターと EmergencyDialMask パラメーターを使用して Set-CsLocationPolicy または New-CsLocationPolicy コマンドレットを使用して既存の番号を定義している場合、EmergencyNumbers パラメーターで指定された値は、古い値よりも優先されます。 つまり、EmergencyDialString パラメーターと EmergencyDialMask パラメーターの値は無視されます。
     
-- emergencyDialString パラメーターと EmergencyDialMask パラメーターを使用して Set-CsLocationPolicy または New-CsLocationPolicy コマンドレットを使用して既存の番号を定義し、新しい緊急番号を構成しない場合、既存の番号は引き続き使用されます。
+- EmergencyDialString パラメーターと EmergencyDialMask パラメーターを使用して Set-CsLocationPolicy または New-CsLocationPolicy コマンドレットを使用して既存の番号を定義し、新しい緊急番号  を構成しない場合、既存の番号は引き続き使用されます。
     
 - 複数の緊急電話番号機能を機能するには、実行しているクライアント バージョンが新しい機能をサポートできる必要があります。 古いクライアントは、EmergencyDialString パラメーターと EmergencyDialMask パラメーターを使用して、Set-CsLocationPolicy または New-CsLocationPolicy コマンドレットで指定された古い値を引き続き使用します。 
     
 - ユーザーがダイヤル文字列に一致する番号をダイヤルする場合、ダイヤル マスクは必要ありません。 たとえば、ユーザーがダイヤルする番号が 911 の場合、ダイヤル文字列は 911 で、マスクは必要ありません。 
     
-複数の緊急電話番号を構成する方法の詳細については、「複数の緊急電話番号を構成する」[を](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)参照Skype for Business。
+複数の緊急電話番号を構成する方法の詳細については、「複数の緊急電話番号を構成する」を参照[Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。
   
 次の表に、場所ポリシーの例を示します (この例では、すべての属性が表示される場合ではありません)。
   
@@ -101,9 +96,9 @@ Skype for Business Server、クライアントの複数の緊急電話番号の�
 ||2016 年 10 月 11 日にリリースされた DC (遅延チャネル) - バージョン 1605 (ビルド 6965.2092)  <br/> |
 |**MSI** <br/> |6 月 7 日の更新プログラム - [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac と iOS** <br/> |**バージョン** <br/> |
-||Skype for BusinessMac クライアント バージョン 16.9  <br/> Skype for Business iOS クライアント バージョン 6.16  <br/> |
+||Skype for Business Mac クライアント バージョン 16.9  <br/> Skype for Business iOS クライアント バージョン 6.16  <br/> |
 |**Android** <br/> |**バージョン** <br/> |
-||Skype for BusinessAndroid クライアント バージョン 6.17  <br/> |
+||Skype for Business Android クライアント バージョン 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**バージョン** <br/> |
 || Aastra 6721ip および Aastra 6725ip 電話 - 2016 年 9 月の累積的な更新プログラム (ビルド 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || HP 4110 および HP 4120 電話 - 2016 年 9 月の累積的な更新プログラム (ビルド 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |

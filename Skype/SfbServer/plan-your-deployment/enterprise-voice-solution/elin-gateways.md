@@ -1,28 +1,23 @@
 ---
 title: ELIN ゲートウェイの場所を管理Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: ELIN ゲートウェイを使用した E9-1-1 展開の場所情報データベースまたは類似の外部データベースを計画するために必要なSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845170"
 ---
+
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>ELIN ゲートウェイの場所を管理Skype for Business Server
 
 ELIN ゲートウェイを使用した E9-1-1 展開の場所情報データベースまたは類似の外部データベースを計画するために必要なSkype for Business Server エンタープライズ VoIP。
@@ -52,9 +47,9 @@ ELIN ゲートウェイを使用する場合は、場所情報サービス デ�
 
 - 緊急対応員が特定の住所に到着したときに緊急通報をした人の場所がすぐにわかるように、場所を具体的に特定するわかりやすい名前。この場所名には、建物の番号、階数、翼棟名、部屋番号などを含めます。従業員にしかわからないような呼称は避けます。緊急対応員がわからなければ、彼らは正しい場所に行くことができません。
 
-- ユーザーがクライアントが正しい場所を選んだのを簡単に確認するのに役立つ場所識別子。 クライアントSkype for Business、検出された Location フィールドと **City** フィールドをヘッダーに自動的に連結して表示します。 建物の住所を各場所識別子 (たとえば"1st Floor") に追加する方法をお使 \<street number> いください。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
+- ユーザーがクライアントが正しい場所を選んだのを簡単に確認するのに役立つ場所識別子。 クライアントSkype for Business、検出された Location フィールドと **City** フィールドをヘッダーに自動的に連結して表示します。 建物の住所を各場所識別子 (たとえば"1st Floor") に追加する方法をお使 \<street number>いください。 番地がないと、「1 階」のような一般的な場所 ID は、市内のすべての建物に該当します。
 
-- 場所がワイヤレス アクセス ポイントによって決まるので近似値の場合は **、[Near]** という単語を追加できます (たとえば、「Near 1st Floor 1234」)。
+- 場所がワイヤレス アクセス ポイントによって決まるので近似値の場合は、[ **Near]** という単語を追加できます (たとえば、「Near 1st Floor 1234」)。
 
 ### <a name="planning-elins"></a>ELIN の計画
 
@@ -86,7 +81,7 @@ ELIN ゲートウェイを使用する場合は、場所情報サービス デ�
 
 [セカンダリ位置情報サービス] オプションを使用してサードパーティ データベースに接続すると、オフライン プラットフォームを使用して場所をグループ化および管理できます。 この方法の利点は、場所をネットワーク ID に関連付けることに加えて、場所をユーザーに関連付けられることです。 つまり、位置情報サービスは、セカンダリ 位置情報サービスから発信された複数のアドレスを、特定のクライアントにSkype for Businessできます。 その後、ユーザーは最適な場所を選択できます。
 
-位置情報サービスと統合するには、サード パーティのデータベースが場所要求/応答スキーマSkype for Business Serverに従う必要があります。 詳細については [、「Web サービス for E911 サポート プロトコル」を参照してください](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd)。 セカンダリ位置情報サービスの展開の詳細については、「[展開」の](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)ドキュメントの「セカンダリ位置情報サービスを構成する」Skype for Business Serverを参照してください。
+位置情報サービスと統合するには、サード パーティのデータベースが場所要求/応答スキーマSkype for Business Serverに従う必要があります。 詳細については、「 [Web サービス for E911 サポート プロトコル」を参照してください](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd)。 セカンダリ位置情報サービスの展開の詳細については、「展開」のドキュメント[](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)の「セカンダリ位置情報サービスを構成する」Skype for Business Serverを参照してください。
 
 場所データベースへのデータの取り込みの詳細については、「展開」のドキュメントの「[Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database)」を参照してください。
 

@@ -1,28 +1,23 @@
 ---
 title: '[応答グループ] アプリケーションの計画をSkype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: ユーザーグループへの通話ルーティングSkype for Business Server エンタープライズ VoIPを設定できる、ユーザーの応答グループを計画します。 オーディオ ファイルの要件が含まれています。
-ms.openlocfilehash: 3b208b5f18b4b14a35985144b2b96cbabbf39dfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859884"
 ---
+
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>[応答グループ] アプリケーションの計画をSkype for Business Server
 
 ユーザーグループへの通話ルーティングSkype for Business Server エンタープライズ VoIPを設定できる、ユーザーの応答グループを計画します。 オーディオ ファイルの要件が含まれています。
@@ -78,7 +73,7 @@ Manager の役割に対応するために、応答グループ アプリケー�
 
 - Skype for Business Server 管理シェル
 
-応答グループは、部署やワークグループの環境に合った規模で拡張[](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)できます (詳細については、「応答グループの容量計画」を参照してください)、完全に新しいテレフォニー インストールに展開できます。 このサービスは、ローカル展開およびローカル エンタープライズ VoIPからの着信呼び出しをサポートします。 エージェントは、Skype for Business、Lync 2013、Lync 2010、Lync 2010 アテンダント、または Lync 電話 Edition を使用して、ルーティングされた通話を受け取る場合があります。
+応答グループは、部署やワークグループの環境に合った規模で拡張できます (詳細については、「応答グループの容量計画」を [参照してください)](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)、完全に新しいテレフォニー インストールに展開できます。 このサービスは、ローカル展開およびローカル エンタープライズ VoIPからの着信呼び出しをサポートします。 エージェントは、Skype for Business、Lync 2013、Lync 2010、Lync 2010 アテンダント、または Lync 電話 Edition を使用して、ルーティングされた通話を受け取る場合があります。
 
 ## <a name="deployment-and-requirements"></a>展開と要件
 
@@ -130,7 +125,7 @@ WAVE ファイルで最適なパフォーマンスを得るには、16 kHz、モ
 
 Windows Media オーディオ ファイルを使用する場合、低いビットレートの使用を検討し、読み込み時のシステム パフォーマンスを検証してください。
 
-Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media オーディオ形式に変換できます。 式エンコーダー 4 をダウンロードするには、を参照してください [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843) 。
+Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media オーディオ形式に変換できます。 式エンコーダー 4 をダウンロードするには、を参照してください [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843)。
 
 ### <a name="response-group-configuration-tool-requirements"></a>応答グループ構成ツールの要件
 
@@ -191,9 +186,9 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 
 - **発信者** は、先にリストされたクライアントのいずれかを使用するか、または公衆交換電話網 (PSTN) 経由で標準的な電話機を使用して、応答グループを呼び出すことができます。
 
-- **非公式エージェント**(グループにサインインして通話を受け入れないエージェント) は、アテンダント、Lync、または Lync 電話 Edition を使用して通話を受け入れできます。 非公式エージェントは、これらのクライアントの 1 つを使用してSkype for Business Serverグループに自動的にサインインします。
+- **非公式エージェント** (通話を受け入れるグループにサインインまたはサインアウトしないエージェント) は、Attendant、Lync、または Lync 電話 Edition を使用して呼び出しを受け入れできます。 非公式エージェントは、これらのクライアントの 1 つを使用してSkype for Business Serverグループに自動的にサインインします。
 
-- 正式なエージェント **(通話** を受け入れるにはグループからサインインおよびサインアウトする必要があるエージェント) は、Skype for Business を使用して、メニュー項目からエージェント コンソールにアクセスするか、アテンダントを使用して Internet Explorer から直接エージェント コンソールにアクセスすることで、通話を受け入れできます。
+- 正式 **な** エージェント (通話を受け入れるにはグループからサインインおよびサインアウトする必要があるエージェント) は、Skype for Business を使用して、メニュー項目からエージェント コンソールにアクセスするか、Attendant を使用して Internet Explorer から直接エージェント コンソールにアクセスすることで、通話を受け入れできます。
 
 ## <a name="capacity-planning"></a>キャパシティ プランニング
 
@@ -207,7 +202,7 @@ Microsoft Expression Encoder 4 を使用して、ファイルを Windows Media �
 
 **応答グループ のユーザー モデル**
 
-|**測定基準**|**1 Enterprise Edition <br/> (8 つのフロントエンド サーバーを使用)**|**サーバー Standard Edition**|
+|**測定基準**|**1 Enterprise Edition (<br/>8 つのフロントエンド サーバーを使用)**|**サーバー Standard Edition**|
 |:-----|:-----|:-----|
 |1 秒あたりの着信呼び出し  <br/> |16  <br/> |2  <br/> |
 |IVR または MoH に接続された同時呼び出し  <br/> |480  <br/> |60  <br/> |

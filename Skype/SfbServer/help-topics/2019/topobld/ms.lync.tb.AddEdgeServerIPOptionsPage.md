@@ -1,27 +1,22 @@
 ---
 title: エッジ サーバー IP 追加オプション
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddEdgeServerIPOptionsPage
+  - ms.lync.tb.AddEdgeServerIPOptionsPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: Skype for Business Serverエッジ サーバーとエッジ プールのインターフェイスごとに IPv4 アドレスと IPv6 アドレスを構成できます。 これを行うには、次の操作を行います。
-ms.openlocfilehash: cd742999521c4700b969ac001153135b403962df
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829337"
 ---
+
 # <a name="add-edge-server-ip-options"></a>エッジ サーバー IP のオプション
  
 Skype for Business Serverエッジ サーバーとエッジ プールのインターフェイスごとに IPv4 アドレスと IPv6 アドレスを構成できます。 これを行うには、次の操作を行います。
@@ -30,7 +25,7 @@ Skype for Business Serverエッジ サーバーとエッジ プールのイン�
     
 - **内部インターフェイスで IPv6** を有効にする: エッジ サーバーまたはエッジ プールの内部インターフェイスに IPv6 アドレスを適用する場合は、チェック ボックスをオンにします。
     
-- **外部インターフェイスで IPv4 を** 有効にする: エッジ サーバーまたはエッジ プールの外部インターフェイスに IPv4 アドレスを適用する場合は、チェック ボックスをオンにします。
+- **外部インターフェイスで IPv4** を有効にする: エッジ サーバーまたはエッジ プールの外部インターフェイスに IPv4 アドレスを適用する場合は、チェック ボックスをオンにします。
     
 - **外部インターフェイスで IPv6** を有効にする: エッジ サーバーまたはエッジ プールの外部インターフェイスに IPv6 アドレスを適用する場合は、チェック ボックスをオンにします。
     

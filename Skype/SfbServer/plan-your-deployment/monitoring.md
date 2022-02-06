@@ -1,31 +1,26 @@
 ---
 title: 監視の計画を立Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: '概要: このトピックを参照して、監視サービスを計画Skype for Business Server。'
-ms.openlocfilehash: f1bd1dbab35247b17067adaa3b2d06557b8f0292
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835015"
 ---
+
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>監視の計画を立Skype for Business Server
 
 **概要:** このトピックを参照して、監視サービスを計画Skype for Business Server。
 
 Skype for Business Server の監視サービスは、管理者が組織で行う通信セッションの使用状況と品質データを収集する方法を提供します。これにより、傾向や問題を特定できます。 展開を継続的に監視することで、早期に問題をキャッチし、組織のユーザーを満足のいく状態に保ちます。
 
-以前のSkype for Business Serverの場合と同様に、サーバーの役割を個別に必要としない場合の監視。代わりに、監視サービスは各フロントエンド サーバーに組み込されます。 監視は、既定では既定では有効Skype for Business Server。 この記事では、初期構成中または初期構成後に監視を有効Skype for Business Server監視アクティビティをサポートするために必要SQLリソースを決定するのに役立ちます。 監視対象または監視されていない情報が正確に不明な場合は、「監視に関する基本」を [参照してください](monitoring.md#Basics)。 計画プロセスを開始するには、「監視の [要件を定義する」に移動します](monitoring.md#requirements)。 監視の要件の詳細SQL、監視のSQL[を参照してください](monitoring.md#topologies)。
+監視サービスSkype for Business Server(以前の Lync バージョンの場合と同様)、別のサーバーの役割は必要としません。代わりに、監視サービスは各フロントエンド サーバーに組み込されます。 監視は、既定では既定では有効Skype for Business Server。 この記事では、初期構成中または初期構成後に監視を有効Skype for Business Server監視アクティビティをサポートするために必要SQLリソースを決定するのに役立ちます。 監視対象が何か、監視されていないか、監視がどのように役立つのか正確に不明な場合は、「監視に関する基本 [」を参照してください](monitoring.md#Basics)。 計画プロセスを開始するには、「監視の [要件を定義する」に移動します](monitoring.md#requirements)。 監視の要件の詳細SQL、監視のSQL[を参照してください](monitoring.md#topologies)。
 
 ## <a name="basics-about-monitoring"></a>監視の基本
 <a name="Basics"> </a>
@@ -39,7 +34,7 @@ Skype for Business Server の監視サービスは、管理者が組織で行う
 - インスタント メッセージングや音声通話などのピアツーピア会話を介した別のユーザー
 
 > [!NOTE]
-> Skype for Business Server、各セッションに関する情報 (誰が誰を呼び出したのか) を追跡します。セッションで使用されたエンドポイント。セッションが最後に行った期間。セッションの知覚された品質は何でした。などなど。 Skype for Business Server実際の呼び出し自体を記録および保存しません。 これには、インスタント メッセージング セッションが含まれます。Skype for Business Serverはインスタント メッセージング セッションに関する情報を記録しますが、セッション中に送信された各インスタント メッセージのレコードを保持しません。
+> Skype for Business Server各セッションに関する情報を追跡します。誰が誰を呼び出したのか、どのエンドポイントがセッションで使用されたのか、セッションが最後に使用された期間、セッションの知覚された品質は何かなどです。 Skype for Business Server実際の呼び出し自体を記録および保存しません。 これには、インスタント メッセージング セッションが含まれます。Skype for Business Serverはインスタント メッセージング セッションに関する情報を記録しますが、セッション中に送信された各インスタント メッセージのレコードを保持しません。
 
 各セッションに対してSkype for Business Server基本的な通話詳細情報を使用できます。
 
@@ -66,11 +61,11 @@ Skype for Business Server の監視サービスは、管理者が組織で行う
 
 監視のインストールと構成を開始する前に、以下の重要な問題に対処する必要Skype for Business Server。
 
- **監視をインストールする場合** 監視は、インストールと構成と同時にインストールおよび構成Skype for Business Server。展開ウィザードSkype for Business Server、セットアップ中にフロントエンド プールを監視データベースに関連付ける機会を提供します。 または、監視自体がインストールされたSkype for Business Server監視をインストールできます。これは、トポロジ ビルダーを使用してフロントエンド プールとサーバーを監視データベースに関連付け、修正されたトポロジを公開することで実行できます。
+ **監視をインストールする場合** 監視は、Skype for Business Server のインストールと構成と同時にインストールおよび構成できます。Skype for Business Server 展開ウィザードを使用すると、セットアップ中にフロントエンド プールを監視データベースに関連付ける機会が提供されます。 または、Skype for Business Server 自体がインストールされた後に監視をインストールすることもできます。これは、トポロジ ビルダーを使用してフロントエンド プールとサーバーを監視データベースに関連付け、修正されたトポロジを公開することで実行できます。
 
-監視を展開および構成SQL Server前に、インストールおよび構成する必要があります。 ただし、展開する必要SQL Serverのみです。監視データベースは、トポロジを公開するときにSkype for Business Serverされます。
+監視を展開および構成SQL Server前に、インストールおよび構成する必要があります。 ただし、サーバー自体をSQL Serverする必要があります。監視データベースは、トポロジを公開するときにSkype for Business Serverされます。
 
- **監視するデータの種類** Skype for Business Serverでは、通話の詳細記録 (CDR) データと QoE (Quality of Experience) データの 2 種類の一般的なデータを監視できます。 通話の詳細記録は、Voice over IP (VoIP) 電話Skype for Business Server機能の使用状況を追跡する方法を提供します。インスタント メッセージング (IM)。ファイル転送。音声/ビデオ (音声ビデオ) 会議。およびアプリケーション共有セッション。 この情報は、使用Skype for Business Server機能 (および使用されていない機能) を知るのに役立ち、これらの機能がいつ使用されるのかについての情報も提供します。 Quality of Experience データを使用すると、失われたネットワーク パケットの数、バックグラウンド ノイズ、ジッターの量 (パケット遅延の違い) など、組織内で行われた音声通話とビデオ通話の品質の記録を維持できます。
+ **監視するデータの種類** Skype for Business Serverでは、通話の詳細記録 (CDR) データと QoE (Quality of Experience) データの 2 種類の一般的なデータを監視できます。 通話の詳細記録を使用すると、ボイス オーバー IP (VoIP) 通話、インスタント メッセージング (IM)、ファイル転送、音声/ビデオ (A/V) 会議、アプリケーション共有セッションなどの Skype for Business Server 機能の使用状況を追跡できます。 この情報は、使用Skype for Business Server機能 (および使用されていない機能) を知るのに役立ち、これらの機能がいつ使用されるのかについての情報も提供します。 Quality of Experience データを使用すると、失われたネットワーク パケットの数、バックグラウンド ノイズ、ジッターの量 (パケット遅延の違い) など、組織内で行われた音声通話とビデオ通話の品質の記録を維持できます。
 
 Skype for Business Server で監視を有効にした場合は、CDR 監視と QoE 監視の両方を有効にするか、もう一方の種類を無効にした状態で 1 種類の監視を有効にできます。 たとえば、ユーザーがインスタント メッセージングとファイル転送だけを使用し、音声またはビデオ通話を行わないとします。 この場合、QoE 監視を有効にする意味はほとんどありません。 同様に、Skype for Business Server展開後に監視を有効または無効にできます。 たとえば、監視を展開するが、最初は QoE 監視を無効にする場合があります。 ユーザーが音声またはビデオ通話の問題に遭遇し始めた場合は、QoE 監視を有効にし、そのデータを使用してトラブルシューティングとそれらの問題の解決を行います。
 
@@ -88,7 +83,7 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 これが重要なのは、ミラーリングでは、必要なデータベースの数が 2 倍になるからです。
 
- **ユーザーのサイトSkype for Business Server独自のカスタム監視構成が必要ですか?** この設定をインストールSkype for Business Server CDR および QoE 構成設定のグローバル コレクションもインストールします。これらのグローバル コレクションを使用すると、組織全体に同じ CDR および QoE 設定を適用できます。 多くの場合、これは十分です。多くの場合、すべてのユーザーに対して CDR 監視を有効にする必要があります。
+ **ユーザーのサイトSkype for Business Server独自のカスタム監視構成が必要ですか?** クライアント をインストールSkype for Business Server CDR および QoE 構成設定のグローバル コレクションもインストールします。これらのグローバル コレクションを使用すると、組織全体に同じ CDR と QoE 設定を適用できます。 多くの場合、これは十分です。多くの場合、すべてのユーザーに対して CDR 監視を有効にする必要があります。
 
 ただし、異なるサイトに異なる設定を適用する場合があります。 たとえば、レドモンド サイトで CDR と QoE の両方の監視を使用する場合がありますが、ダブリン サイトでは CDR 監視のみを使用します。 同様に、Redmond サイトで監視データを 60 日間保持する必要がありますが、この種類のデータはダブリン サイトで 30 日間だけ維持する必要があります。 Skype for Business Serverサイト スコープで CDR および QoE 構成設定の個別のコレクションを作成できます。これにより、各サイトを異なる方法で管理できます。 (これには、監視の有効化と無効化の両方と、データの保持期間などの管理設定の構成が含まれます。
 
@@ -97,9 +92,9 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 ## <a name="sql-requirements-for-monitoring"></a>SQLの要件
 <a name="topologies"> </a>
 
-監視を有効にすると、統合データ収集エージェントが各フロントエンド サーバーに自動的にインストールされ、アクティブ化されます。 サポートされているバージョンの SQL Serverその他の詳細については[、「Server requirements for Skype for Business Server 2015」を参照してください。](requirements-for-your-environment/server-requirements.md)
+監視を有効にすると、統合データ収集エージェントが各フロントエンド サーバーに自動的にインストールされ、アクティブ化されます。 サポートされているバージョンの SQL Serverその他の詳細については、「[サーバー要件 for Skype for Business Server 2015」](requirements-for-your-environment/server-requirements.md)を参照してください。
 
-監視データは、他の種類SQL Serverインスタンスを共有できます。 通常、通話詳細記録データベース (LcsCdr) と Quality of Experience データベース (QoEMetrics) は、インスタンスと同じSQLします。また、2 つの監視データベースがアーカイブ データベース (LcsLog) SQL同じインスタンスに含まれます。 インスタンスの実際の要件SQL Server、インスタンスの 1 つのインスタンスSQL Serverに制限されます。
+監視データは、他の種類SQL Serverインスタンスを共有できます。 通常、通話詳細記録データベース (LcsCdr) と Quality of Experience データベース (QoEMetrics) は同じ SQL インスタンスを共有します。また、2 つの監視データベースがアーカイブ データベース (LcsLog) と同じ SQL インスタンスにあるのも一般的です。 インスタンスの実際の要件SQL Server、インスタンスの 1 つのインスタンスSQL Serverに制限されます。
 
 - 2015 バックエンド データベースSkype for Business Serverインスタンス 1 つ。 (一般的なルールとして、監視データベースをバックエンド データベースと同じ SQL インスタンス、または同じコンピューター上に同じ場所に接続する方法は推奨されません。 技術的には可能ですが、バックエンド データベースに必要なディスク領域を使い切って監視データベースのリスクを実行します。
 

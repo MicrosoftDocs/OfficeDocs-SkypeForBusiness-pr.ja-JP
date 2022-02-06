@@ -1,25 +1,20 @@
 ---
 title: '2019 年の仮想化Skype for Business Serverサポート '
 ms.reviewer: corbinm
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 06/04/2020
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: 2019 年の仮想化のサポートSkype for Business Serverします。'
-ms.openlocfilehash: 73e9121e2b530e44395aefda50082682fb910e7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853781"
 ---
+
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>2019 年の仮想化Skype for Business Serverサポート
 
 Skype for Business Server 2019 は仮想化でサポートされています。
@@ -41,7 +36,7 @@ SfB Server 2019 は、サーバー 2019 Windows Server 2016およびWindowsで�
 サードパーティのハイパーバイザーでは、関連する OS のサーバー仮想化検証プログラム (SVVP) テストに合格したハイパーバイザーが必要です。
 
 - SVVP リスト[Windows Server 2016バージョン](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25)を参照してください。
-- SVVP リスト[Windowsサーバー 2019](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25)のバージョンを参照してください。
+- SVVP リスト[Windowsサーバー 2019](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) のバージョンを参照してください。
 
 ## <a name="stress-and-performance-tool"></a>ストレスとパフォーマンス ツール
 

@@ -1,25 +1,20 @@
 ---
 title: サーバー間認証証明書をサーバー間認証証明書に割り当Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: '概要: サーバー間認証証明書をサーバー間認証証明書に割り当Skype for Business Server。'
-ms.openlocfilehash: 30d62351d92a53c107e858ce1e0f88239f615208
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839949"
 ---
+
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>サーバー間認証証明書をサーバー間認証証明書に割り当Skype for Business Server
 **概要:** サーバー間認証証明書を割り当Skype for Business Server。
   
@@ -29,7 +24,7 @@ ms.locfileid: "60839949"
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
-証明書情報が返されない場合は、サーバー間認証を使用する前にトークン発行者証明書を割り当てる必要があります。 一般的なルールとして、すべてのSkype for Business Server OAuthTokenIssuer 証明書として使用できます。たとえば、既定Skype for Business Server OAuthTokenIssuer 証明書として使用できます。 (OAUthTokenIssuer 証明書には、[サブジェクト] フィールドに SIP ドメインの名前を含む Web サーバー証明書を指定することもできます)。サーバー間認証に使用される証明書の主な 2 つの要件は次のとおりです。1)すべてのフロントエンド サーバーで同じ証明書を OAuthTokenIssuer 証明書として構成する必要があります。2) 証明書は少なくとも 2048 ビットである必要があります。
+証明書情報が返されない場合は、サーバー間認証を使用する前にトークン発行者証明書を割り当てる必要があります。 一般に、すべての Skype for Business Server 証明書を OAuthTokenIssuer 証明書として使用できます。たとえば、Skype for Business Server の既定の証明書を OAuthTokenIssuer 証明書として使用できます。 (OAUthTokenIssuer 証明書には、[サブジェクト] フィールドに SIP ドメインの名前を含む Web サーバー証明書を指定することもできます)。サーバー間認証に使用される証明書の主な 2 つの要件は次のとおりです。1)すべてのフロントエンド サーバーで同じ証明書を OAuthTokenIssuer 証明書として構成する必要があります。2) 証明書は少なくとも 2048 ビットである必要があります。
   
 サーバー対サーバーの認証に使用できる証明書がない場合は、新しい証明書をインポートして、その証明書をサーバー対サーバーの認証に使用します。新しい証明書を要求して取得した後で、フロントエンド サーバーのどれかにログオンし、次のような Windows PowerShell コマンドを使用して証明書をインポートして割り当てます。
   
@@ -66,11 +61,11 @@ Windows PowerShell を使用したくない場合は、証明書 MMC コンソ�
   
 すべてのフロントエンド サーバーに証明書をインポートした後、その証明書を割り当てるには、証明書の代わりに Skype for Business Server 展開ウィザードをWindows PowerShell。 展開ウィザードを使用して証明書を割り当てるには、展開ウィザードがインストールされているコンピューターで以下の手順を実行します。
   
-1. [スタート] ボタン、[すべてのプログラム] をクリックし、[Skype for Business Server]**をクリック** し、[展開 **ウィザードSkype for Business Serverクリックします**。
+1. [スタート] ボタン、[すべてのプログラム] をクリック **し、[Skype for Business Server**] をクリックし、[展開 **ウィザードSkype for Business Serverクリックします**。
     
 2. 展開ウィザードで、[システムのインストールまたは **更新] をSkype for Business Serverします**。
     
-3. [証明書のSkype for Business Server] ページで、[手順3: 証明書の要求、インストール、または割り当て] という見出しの下にある [実行]**ボタンをクリックします**。 (注: このコンピューターに既に証明書をインストールしている場合は、[ **実行** ] ボタンに [もう一度実行する] という **ラベルが付きます**)。
+3. [証明書のSkype for Business Server] ページで、[手順  3: 要求、インストール、または証明書の割り当て] という見出しの下にある [**実行] ボタンをクリックします**。 (注: このコンピューターに証明書が既にインストールされている場合は、[ **実行** ] ボタンに [もう一度実行] というラベル **が付きます**)。
     
 4. 証明書ウィザードで、**OAuthTokenIssuer** 証明書を選択してから [**割り当て**] をクリックします。
     

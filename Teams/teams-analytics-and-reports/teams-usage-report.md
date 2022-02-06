@@ -1,28 +1,22 @@
 ---
 title: Microsoft Teams の使用状況レポート
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kojika
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 description: 自分の組織での Teams のアクティビティの概要を把握するために、Microsoft Teams 管理センターにある Teams の使用状況レポートを、どのように使用するかについて説明します。
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e527fbb3565075b8e380eee68a6ce2ec5eb56720
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851741"
 ---
 # <a name="microsoft-teams-usage-report"></a>Microsoft Teams の使用状況レポート
 
@@ -33,7 +27,7 @@ Microsoft Teams 管理センターにある Teams の使用状況レポートは
 1. Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 **[レポートの表示]** タブの **[レポート]** で、**[Teams ユーザーの利用状況]** を選択します。
 2. **[日付の範囲]** で範囲を選択し、**[レポートの実行]** をクリックします。
 
-    ![吹き出しTeams付き管理センターのTeams使用状況レポートのスクリーンショット。](../media/teams-reports-teams-usage-with-callouts1.png "Teams 管理センターの Teams 使用状況レポートの吹き出しつきスクリーンショット")
+    ![吹き出しTeams付き管理センター Teams使用状況レポートのスクリーンショット。](../media/teams-reports-teams-usage-with-callouts1.png "Teams 管理センターの Teams 使用状況レポートの吹き出しつきスクリーンショット")
 
 ## <a name="interpret-the-report"></a>レポートを解釈する
 

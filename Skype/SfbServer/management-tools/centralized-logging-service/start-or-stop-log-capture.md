@@ -1,26 +1,21 @@
 ---
 title: 2015 年に CLS ログ キャプチャを開始またはSkype for Business Serverする
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: '概要: 2015 年に集中ログ サービス ログ キャプチャ セッションを開始または停止するSkype for Business Serverします。'
-ms.openlocfilehash: 79210bffbf21046d1aaa5359761dbfcdeb1e6959
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848430"
 ---
+
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>2015 年に CLS ログ キャプチャを開始またはSkype for Business Serverする
  
 **概要:** 2015 年に集中ログ サービス ログ キャプチャ セッションを開始または停止するSkype for Business Serverします。
@@ -35,7 +30,7 @@ ms.locfileid: "60848430"
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>基本コマンドをStart-CsClsLoggingしてWindows PowerShellを実行するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 次のように入力して、集中ログ サービスを使用してログシナリオを開始します。
     
@@ -70,7 +65,7 @@ ms.locfileid: "60848430"
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>高度なコマンドをStart-CsClsLoggingしてWindows PowerShellを実行するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 追加のパラメーターを使用して、このログ記録コマンドを管理できます。 -Duration を使用すると、シナリオを実行する時間の長さを調整できます。 また、-Computer、コンマで区切られたコンピューター完全修飾ドメイン名 (FQDN) の一覧、またはログオンを実行するプールの FQDN のコンマ区切りリストである -Pools を定義することもできます。
     
@@ -92,7 +87,7 @@ ms.locfileid: "60848430"
 現在実行中のログ セッションは、Stop-CsClsLoggingできます。 一般に、ログ セッションを停止する必要がある状況はそれほど多くはない。 たとえば、ログを検索したり、構成を変更したりすると、最初にログを停止する必要が生じることなく実行できます。 AlwaysOn や UserReplicator など、2 つのシナリオが実行されている場合、認証に関連する情報を収集する必要がある場合は、認証シナリオの実行を開始する前に、他のシナリオ (グローバル、サイト、プール、またはコンピューター スコープ) のいずれかを停止する必要があります。 詳細については、「[Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps)」を参照してください。
   
 > [!NOTE]
-> 特定の展開、プール、またはコンピューターで実行できるシナリオを決定する場合は、AlwaysOn と 1 つのカスタムシナリオの 2 つのシナリオを実行する場合に限られていることを覚えておく必要があります。 プールでアクティビティをログに記録する場合は、プールを 1 つのエンティティとして扱う必要があります。 ほとんどの場合、プール内の各コンピューターで異なるシナリオを実行しても意味がありません。 データを収集している問題を見て、展開全体で特定のコンピューターで最も意味のあるシナリオを考えるのは理にかなっています。 たとえば、UserReplicator シナリオを考える場合、エッジ サーバーまたはエッジ プールで UserReplicator を実行する場合の値は非常に少ない可能性があります。 
+> 特定の展開、プール、またはコンピューターで実行できるシナリオを決定する場合は、コンピューターごとに AlwaysOn と 1 つのカスタム シナリオの 2 つのシナリオを実行するに制限されている点に注意する必要があります。 プールでアクティビティをログに記録する場合は、プールを 1 つのエンティティとして扱う必要があります。 ほとんどの場合、プール内の各コンピューターで異なるシナリオを実行しても意味がありません。 データを収集している問題を見て、展開全体で特定のコンピューターで最も意味のあるシナリオを考えるのは理にかなっています。 たとえば、UserReplicator シナリオを考える場合、エッジ サーバーまたはエッジ プールで UserReplicator を実行する場合の値は非常に少ない可能性があります。 
   
 問題とその影響が及ぶ範囲を把握したら、次は、どのコンピューターと、どのプールで、どのようなシナリオを実行するかについて慎重に検討する必要があります。AlwaysOn シナリオは各種プロバイダーについての情報を収集するため、多岐にわたるアプリケーションに対しては有効ですが、シナリオが限定的であれば、それが効果を発揮するコンピューターやプールも一部に限定されます。また、最初に特定のシナリオの価値を理解することなく、ログ セッションをランダムに開始する場合も注意が必要です。誤ったシナリオを使用していたり、タスクに適切なシナリオであるが、そのシナリオを適用するスコープ (グローバル、サイト、プール、またはコンピューター) が誤っていたりすると、ほとんど役に立たない不適切な (シナリオをまったく実行してないかのような) データが得られる可能性があります。
   
@@ -102,18 +97,18 @@ Skype for Business Server 管理シェルを使用して集中ログ サービ�
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-例:
+次に例を示します。
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> では、ログ記録が有効になっているので、ログはどこに保存されますか? CLS エージェントに送信される管理シェル クエリを使用してログに格納されている情報にアクセスし、結果をいくつかの可能なファイル形式に出力できます。各サーバーでは、CLS エージェントがレコードを保持することが実際には重要ではありません。  ログ ファイルは **、Snooper.exe** やNotepad.exeなどのテキスト ファイルを読み取るツールなど、さまざまなツールを使用して、指定および読み取りおよび分析する場所 **に保存できます**。 Snooper.exe 2015 デバッグ ツールSkype for Business Serverの一部であり、Web ダウンロードとして[利用できます](https://go.microsoft.com/fwlink/p/?LinkId=285257)。
+> では、ログ記録が有効になっているので、ログはどこに保存されますか? CLS エージェントに送信される管理シェル クエリを使用してログに格納されている情報にアクセスし、結果をいくつかの可能なファイル形式に出力できます。各サーバーでは、CLS エージェントがレコードを保持することが実際には重要ではありません。  ログ ファイルは、 **Snooper.exeやNotepad.exe** などのテキスト ファイルを読み取るツールなど、さまざまなツールを使用して、指定および読み取りおよび分析する場所 **に保存できます**。 Snooper.exe 2015 デバッグ ツールSkype for Business Server一部であり、Web ダウンロードとして[使用できます](https://go.microsoft.com/fwlink/p/?LinkId=285257)。
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>現在実行中の集中ログ サービス セッションを停止するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 集中ログ サービスにクエリを実行して、現在実行されているシナリオを確認するには、次のように入力します。
     

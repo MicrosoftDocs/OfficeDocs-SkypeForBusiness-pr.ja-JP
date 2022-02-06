@@ -1,25 +1,20 @@
 ---
-title: SkypeRoom System 単一フォレストのオンプレミス展開
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype Room System の単一フォレストのオンプレミス展開
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: このトピックでは、単一フォレストのオンプレミス環境Skype Room System を展開する方法について説明します。
-ms.openlocfilehash: 0f8ab644efc3d832fd5e201bd49517971ba5ba08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828420"
 ---
-# <a name="skype-room-system-single-forest-on-premises-deployments"></a>SkypeRoom System 単一フォレストのオンプレミス展開
+
+# <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Room System の単一フォレストのオンプレミス展開
  
 このトピックでは、単一フォレストのオンプレミス環境Skype Room System を展開する方法について説明します。
   
@@ -45,7 +40,7 @@ ms.locfileid: "60828420"
 
    上記の例では、Active Directory に有効なユーザー アカウントと、組織内の会議室用の会議室メールボックスをExchangeします。 RoomMailboxPassword パラメーターは、ユーザー アカウントのパスワードを指定します。
     
-3. 会議を受け入れる/拒否することで、競合を自動的に解決するアカウントを構成します。 SkypeExchange の会議室システムが装備された会議室アカウントは、個人が管理できますが、個人が会議を受け入れるまで、Skype Room System のホーム画面カレンダーには表示されません。
+3. 会議を受け入れる/拒否することで、競合を自動的に解決するアカウントを構成します。 Skype Exchange の会議室の会議室アカウントは、個人が管理できますが、個人が会議を受け入れるまで、Skype Room System のホーム画面カレンダーには表示されません。
     
    ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -73,7 +68,7 @@ ms.locfileid: "60828420"
 
 ## <a name="check-resource-mailbox-account-in-active-directory"></a>Active Directory でリソース メールボックス アカウントを確認する
 
-上記の手順 1 の Exchangeによって作成された会議室メールボックス アカウントは、Active Directory の無効なユーザー オブジェクトである可能性があります。 Skypeアカウントが Active Directory で無効になっている場合、Room System は Kerberos/NTLM 認証を使用してサインインまたは認証できません。 ルーム Skype クライアントは、予定表の設定を取得するために Exchange Web サービスに対して認証できる必要があります。また、ホワイトボードの内容を含む電子メールを送信できる必要があります。 
+上記の手順 1 の Exchangeによって作成された会議室メールボックス アカウントは、Active Directory の無効なユーザー オブジェクトである可能性があります。 Skype Active Directory でアカウントが無効になっている場合、ルーム システムは Kerberos/NTLM 認証を使用してサインインまたは認証できません。 ルーム Skype クライアントは、予定表の設定を取得するために Exchange Web サービスに対して認証できる必要があります。また、ホワイトボードの内容を含む電子メールを送信できる必要があります。 
   
 したがって、アカウントが無効になっている場合は、次の手順を実行して Active Directory でこのアカウントを有効にする必要があります。 
   

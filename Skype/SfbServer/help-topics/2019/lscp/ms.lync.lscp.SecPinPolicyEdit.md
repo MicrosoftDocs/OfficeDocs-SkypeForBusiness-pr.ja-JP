@@ -1,27 +1,22 @@
 ---
-title: PIN ポリシー [新規の作成] または [既存の編集]
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'PIN ポリシー [新規の作成] または [既存の編集]'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.SecPinPolicyEdit
+  - ms.lync.lscp.SecPinPolicyEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 00d4b0eb0aa8f163c770f436241a18f1d45793de
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852631"
 ---
+
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN ポリシー: 新規作成または現在の形式のままで編集
 
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。

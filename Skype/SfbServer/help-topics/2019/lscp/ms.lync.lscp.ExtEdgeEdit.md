@@ -1,27 +1,22 @@
 ---
 title: Access Edge Configuration Edit
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ExtEdgeEdit
+  - ms.lync.lscp.ExtEdgeEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。
-ms.openlocfilehash: 1f864779e2dde3ea1c85d175a5b370f6e4cfe069
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841819"
 ---
+
 # <a name="access-edge-configuration-edit"></a>アクセス エッジ構成: 編集
 
 目的に合ったトピックをクリックしてください。実行するタスクへのリンクをクリックしてください。

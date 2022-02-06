@@ -1,25 +1,20 @@
 ---
 title: TraceRoute テーブル
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 description: TraceRoute テーブルには、通話からのルーティング情報が含まれています。 この表は、Microsoft Lync Server 2013 で導入されました。
-ms.openlocfilehash: 8a4ca952bb2b6ced61f4b1aae6745a5e1b68d417
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840919"
 ---
+
 # <a name="traceroute-table"></a>TraceRoute テーブル
  
 TraceRoute テーブルには、通話からのルーティング情報が含まれています。 この表は、Microsoft Lync Server 2013 で導入されました。
@@ -31,7 +26,7 @@ TraceRoute テーブルには、通話からのルーティング情報が含ま
 |**MediaLineLabel** <br/> |tinyint  <br/> |主/プライマリ、外部  <br/> |通話で使用されたビデオ回線の種類を表します。有効な値は次のとおりです。  <br/> 0 - オーディオ  <br/> 1 - ビデオ  <br/> 2 - パノラマ ビデオ  <br/> 3 - アプリケーション/デスクトップ共有  <br/> |
 |**FromCaller** <br/> |ビット  <br/> |Primary  <br/> |通話を発信したエンドポイント。  <br/> |
 |**ホップ** <br/> |int  <br/> ||ネットワーク ホップ/  <br/> |
-|**IPAddressKey** <br/> |int  <br/> |外部  <br/> |IP アドレスの一意の識別子。 IP アドレス情報は [IPAddress テーブルに格納されます](ipaddress.md)。  <br/> |
+|**IPAddressKey** <br/> |int  <br/> |外部  <br/> |IP アドレスの一意の識別子。 IP アドレス情報は [、IPAddress テーブルに格納されます](ipaddress.md)。  <br/> |
 |**RTT** <br/> |int  <br/> ||ラウンド トリップ時間。ラウンド トリップ時間は、音声パケットが宛先に到達してから受信通知を送り返すまでにかかる時間を測定します。  <br/> |
    
 

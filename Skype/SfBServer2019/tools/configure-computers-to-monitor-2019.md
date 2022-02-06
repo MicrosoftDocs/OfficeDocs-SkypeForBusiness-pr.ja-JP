@@ -1,25 +1,20 @@
 ---
 title: 監視するSkype for Business Serverコンピューターを構成する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: 監視対象の Skype for Business Server 2019 コンピューターに Operations Manager エージェント ファイルをインストールし、コンピューターを System Center プロキシとして動作System Centerします。'
-ms.openlocfilehash: 975c9eaa7d70720fefa52b8adc84b4f17200f972
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859644"
 ---
+
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>監視するSkype for Business Serverコンピューターを構成する
 
 **概要:** 監視する 2019 年 2019 年 2019 年のコンピューターに Operations Skype for Business Server Manager エージェント ファイルをインストールし、コンピューターを System Center構成します。
@@ -29,35 +24,35 @@ ms.locfileid: "60859644"
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>境界ネットワーク外にある監視ノードの証明書のインストール
 <a name="watcher_node_outside"> </a>
 
-System Center境界ネットワーク (Skype for Business Server エッジ サーバーなど) で実行されている Operations Manager エージェント(外部代理トランザクション 監視ノードなど)、または Active Directory 信頼境界を越えて実行する場合は、System Center Operations Manager Gateway Server の構成が必要な場合があります。 このサーバーの役割を使用すると、ルート管理サーバーとの信頼関係を持つエージェントがアラートを発生できます。 詳細については [、「Operations Manager 2012 での](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))ゲートウェイ サーバーの管理」を参照してください。
+System Center境界ネットワーク (Skype for Business Server エッジ サーバーなど) で実行されている Operations Manager エージェント(外部代理トランザクション 監視ノードなど)、または Active Directory 信頼境界を越えて実行する場合は、System Center Operations Manager Gateway Server の構成が必要な場合があります。 このサーバーの役割を使用すると、ルート管理サーバーとの信頼関係を持つエージェントがアラートを発生できます。 詳細については、「 [Operations Manager 2012 でのゲートウェイ サーバーの管理」を参照してください](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))。
 
-これらの場所の 1 つでエージェントを展開する場合は、監視ノードが System Center Operations Manager に通知を送信できる証明書を要求および構成する必要があります。 このプロセスを簡単にするため、Operations Manager チームは、正しい種類の証明書を要求して監視ノード コンピューターにインストールできる一連のユーティリティを作成しました。 これらのユーティリティの詳細とダウンロードについては、「証明書生成ウィザードを使用して簡単に行う非ドメイン参加エージェントの証明書の取得」 [を参照してください](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)。
+これらの場所の 1 つでエージェントを展開する場合は、監視ノードが System Center Operations Manager に通知を送信できる証明書を要求および構成する必要があります。 このプロセスを簡単にするため、Operations Manager チームは、正しい種類の証明書を要求して監視ノード コンピューターにインストールできる一連のユーティリティを作成しました。 これらのユーティリティの詳細とダウンロードについては、「証明書生成ウィザードで簡単に行う非ドメイン参加エージェントの証明書の取得」 [を参照してください](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)。
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Operation Manager エージェント ファイルのインストール
 
-1. セットアップ メディアでSystem Centerをダブルクリックします **Setup.exe。**
+1. [セットアップ メディアSystem Center] で、[ファイル] を **ダブルクリックSetup.exe**。
 
-2. [操作マネージャー System Centerウィザードで、[オプションのインストール] の下の [エージェントのインストール] から [Operations **Manager エージェント** のインストール] をクリックします。
+2. [操作マネージャー System Centerウィザードで、[オプションのインストール] の [エージェントのインストール] から [操作マネージャー エージェントのインストール] をクリックします。
 
 3. [セットアップ ウィザードSystem Centerで、[操作マネージャーのセットアップ ウィザード] ページの [System Center] をクリック **します**。
 
-4. [移動先フォルダー] ページで、Operations Manager エージェント ファイルをインストールするフォルダーを選択し、[次へ] を **クリックします**。
+4. [移動先フォルダー] ページで、Operations Manager エージェント ファイルをインストールするフォルダーを選択し、[次へ] をクリック **します**。
 
-5. [管理グループの構成] ページで、[管理グループ情報 **の指定] を選択し、[** 次へ] を **クリックします**。
+5. [管理グループの構成] ページで、[管理グループ **情報の指定] を選択し、[** 次へ] を **クリックします**。
 
-6. [管理グループ構成] ページで、[管理グループ名] ボックスに Operations  Manager 管理グループの名前を入力し、[管理サーバー] ボックスに Operations Manager サーバーのホスト名 (atl-scom-001 など) を入力します。  Operations Manager で使用されるポート番号を変更した場合は、[管理サーバー ポート] ボックスに新しいポート **番号を入力** します。 それ以外の場合は、ポートを既定値の 5723 のままにし、[次へ] を **クリックします**。
+6. [管理グループ構成] ページで、[管理グループ名] ボックスに Operations Manager 管理グループの名前を入力し、[管理サーバー] ボックスに Operations Manager サーバーのホスト名 (atl-scom-001 など) を入力します。 Operations Manager で使用されるポート番号を変更した場合は、[管理サーバー ポート] ボックスに新しいポート **番号を入力** します。 それ以外の場合は、ポートを既定値の 5723 のままにし、[次へ] をクリック **します**。
 
 7. [エージェント アクション アカウント] ページで、[ローカル システム] **を選択し、[次** へ] を **クリックします**。
 
-8. [Microsoft Update] ページで、[Microsoft Update を使用しない] を選択し、[ **次** へ] を **クリックします**。
+8. [Microsoft Update] ページで、[Microsoft Update を使用しない] を選択し、[ **次** へ] をクリック **します**。
 
 9. [インストールの準備完了] ページで、[ **インストール**] をクリックします。
 
-10. [操作マネージャーのセットアップ ウィザードSystem Center完了] ページで、[完了] を **クリックします**。
+10. [操作マネージャーのセットアップ ウィザードSystem Center完了] ページで、[完了] をクリック **します**。
 
 11. **[終了]** をクリックします。
 
-2012 System Centerでは、[スタート] ボタン、[すべてのプログラム] の順にクリックし **、[System Center Operations Manager 2012]** をクリックし、[Operations **2012 Manager Shell]** をクリックして、エージェントが作成されたと確認できます。  [コマンド] Operations Manager シェル次のコマンドを入力Windows PowerShell Enter キーを押します。
+System Center 2012 では、[スタート] ボタン、[すべてのプログラム] の順にクリックし、[**System Center Operations Manager 2012**] をクリックし、[Operations **2012 Manager Shell**] をクリックして、エージェントが作成されたと確認できます。 [コマンド] Operations Manager シェル次のコマンドを入力Windows PowerShell Enter キーを押します。
 ```PowerShell
 Get-SCOMAgent
 ```

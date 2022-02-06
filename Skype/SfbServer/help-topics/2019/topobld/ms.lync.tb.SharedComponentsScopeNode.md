@@ -1,27 +1,22 @@
 ---
 title: 共有コンポーネントのスコープ ノード
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SharedComponentsScopeNode
+  - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
-ROBOTS: NOINDEX, NOFOLLOW
-description: トポロジ ビルダー階層ツリーの [共有コンポーネント] を右クリックして、新しい共有コンポーネントを作成するか、トポロジ レベルのオプションにアクセスします。
-ms.openlocfilehash: a586191e15ce92c12ca1f6e8d6e1127ca4a0a0b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829241"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'トポロジ ビルダー階層ツリーの [共有コンポーネント] を右クリックして、新しい共有コンポーネントを作成するか、トポロジ レベルのオプションにアクセスします。'
 ---
+
 # <a name="shared-components-scope-node"></a>共有コンポーネントのスコープ ノード
  
 トポロジ ビルダー階層ツリーの **[共有コンポーネント** ] を右クリックして、新しい共有コンポーネントを作成するか、トポロジ レベルのオプションにアクセスします。

@@ -1,27 +1,22 @@
 ---
 title: 組織の SIP フェデレーション プロバイダーの管理
-ms.reviewer: ''
-ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
-ms:contentKeyID: 48679566
+ms.reviewer: null
+'ms:assetid': c78d7e9b-c496-40c6-9249-06ced9cb87f3
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)'
+'ms:contentKeyID': 48679566
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: SIP フェデレーション プロバイダーのユーザーのサポートを構成する方法について説明します。
-ms.openlocfilehash: a5812eafc92e466306d7047d2adb48338bef783d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837579"
 ---
+
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>組織内の SIP フェデレーション プロバイダーを管理Skype for Business Server
 
 SIP フェデレーション プロバイダーのユーザーのサポートを構成するには、次の操作を行う必要があります。

@@ -1,25 +1,20 @@
 ---
 title: オンプレミス のパートナー アプリケーションを構成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: '概要: オンプレミス のパートナー アプリケーションを構成して、Skype for Business Server。'
-ms.openlocfilehash: c922765e81c0507e6eca9e81047cce4dfbb6dd6c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846470"
 ---
+
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>オンプレミス のパートナー アプリケーションを構成Skype for Business Server
  
 **概要:** オンプレミス のパートナー アプリケーションを構成して、Skype for Business Server。
@@ -74,7 +69,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-コードをコピーした後、スクリプトを .PS1 ファイル拡張子を使用して保存します (例: C:\Scripts\ServerToServerAuth.ps1)。 このスクリプトを実行する前に、メタデータ URL と、それぞれ `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` Exchange 2013 および SharePoint サーバーで使用されるメタデータ URL に置き換える必要があります。 `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` 各製品のメタデータ URL をExchangeする方法については、SharePoint 2013 および SharePointの製品ドキュメントを参照してください。
+コードをコピーした後、スクリプトを .PS1 ファイル拡張子を使用して保存します (例: C:\Scripts\ServerToServerAuth.ps1)。 このスクリプトを実行`https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1``http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1`する前に、メタデータ URL と、それぞれ Exchange 2013 および SharePoint サーバーで使用されるメタデータ URL に置き換える必要があります。 各製品のメタデータ URL をExchangeする方法については、SharePoint 2013 および SharePointの製品ドキュメントを参照してください。
   
 このスクリプトの最後の行で、Set-CsOAuthConfiguration コマンドレットが次の構文で呼び出されます。
   
@@ -88,7 +83,7 @@ Set-CsOAuthConfiguration を呼び出すときに Realm パラメーターが使
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-これらの変更を行った後、スクリプトを実行し、Exchange 管理シェル内からスクリプト ファイルを実行して、Exchange 2013 と SharePoint Skype for Business Server の両方をパートナー アプリケーションとして構成できます。 例:
+これらの変更を行った後、スクリプトを実行し、Exchange 管理シェル内からスクリプト ファイルを実行して、Exchange 2013 と SharePoint Skype for Business Server の両方をパートナー アプリケーションとして構成できます。 次に例を示します。
   
 ```PowerShell
 C:\Scripts\ServerToServerAuth.ps1
@@ -104,7 +99,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 このエラー メッセージは、通常は次の 2 つのどちらかを意味します。1) スクリプトに指定されたいずれかの URL が無効である (いずれかのメタデータ URL が実際のメタデータ URL ではない)。または、2) いずれかのメタデータ URL に接続できない。これが発生した場合は、URL が正しいこと、およびアクセス可能であることを確認し、スクリプトを再実行します。
   
-パートナー アプリケーションを作成した後、Skype for Business Server 2013 のパートナー アプリケーションSkype for Business Server構成する必要があります。Exchange。 2013 年のパートナー アプリケーションをExchangeするには、スクリプト を実行Configure-EnterprisePartnerApplication.ps1。必要なのは、新しいパートナー アプリケーションのメタデータ URL をSkype for Business Serverし、Skype for Business Serverを指定する必要があります。 
+パートナー アプリケーションを作成した後、Skype for Business Server 2013 のパートナー アプリケーションSkype for Business Server構成する必要があります。Exchange。 Exchange 2013 のパートナー アプリケーションを構成するには、スクリプト Configure-EnterprisePartnerApplication.ps1 を実行します。Skype for Business Server のメタデータ URL を指定し、Skype for Business Server が新しいパートナー アプリケーションである必要があります。 
   
 パートナー アプリケーションSkype for Business Serverを構成するには、Exchange管理シェルExchange開き、次のようなコマンドを実行します。
   

@@ -1,27 +1,22 @@
 ---
 title: 監視サーバーのスコープ ノード
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.MonitoringServersScopeNode
+  - ms.lync.tb.MonitoringServersScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: '[監視サーバー] ノードには、トポロジ内の監視サーバーの一覧が表示されます。以下のアクションを実行できます。'
-ms.openlocfilehash: d34782925f25a41303680fbcf32328a462bdfb31
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859164"
 ---
+
 # <a name="monitoring-servers-scope-node"></a>監視サーバーのスコープ ノード
  
 **[監視サーバー]** ノードには、トポロジ内の監視サーバーの一覧が表示されます。以下のアクションを実行できます。

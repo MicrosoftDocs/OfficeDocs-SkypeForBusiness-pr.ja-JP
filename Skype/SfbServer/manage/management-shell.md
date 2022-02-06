@@ -1,25 +1,20 @@
 ---
 title: Skype for Business Server 管理シェル
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: サーバー Skype for Business Server管理シェルは、サーバーの管理と管理のためのコマンド ライン インターフェイスを提供します。 このコマンドレットは、Windows PowerShellおよび従来の Lync サーバー製品に固有の管理コマンドレットと管理コマンドレットのSkype組み込まれています。
-ms.openlocfilehash: 3b9ea4658e7745bb1e6bd330c5dd865bf45a396a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857504"
 ---
+
 # <a name="skype-for-business-server-management-shell"></a>Skype for Business Server 管理シェル
  
 サーバー Skype for Business Server管理シェルは、サーバーの管理と管理のためのコマンド ライン インターフェイスを提供します。 このコマンドレットは、Windows PowerShellおよび従来の Lync サーバー製品に固有の管理コマンドレットと管理コマンドレットのSkype組み込まれています。
@@ -56,13 +51,13 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
     
 - Update-Help コマンドレットを実行Skype for Business Server管理シェル のヘルプ コンテンツ[を更新](/powershell/module/microsoft.powershell.core/update-help)できます。 このUpdate-Helpは、コンピューターにインストールされているすべてのモジュールで利用可能な最新のヘルプ ファイルをダウンロードし、インストールします 。このSkype for Businessします。
     
-    既定では **、Update-Help コマンドレット** は、コンピューターにインストールされているすべてのモジュールを更新Skype for Business Server。 特定のモジュールのみを更新する場合は _、Module_ パラメーターを使用してコマンドレットのスコープを制限できます。 次の使用例は、モジュールのSkype for Businessします。
+    既定では、**Update-Help コマンドレット** は、コンピューターにインストールされているすべてのモジュールを更新Skype for Business Server。 特定のモジュールのみを更新する場合は、 _Module_ パラメーターを使用してコマンドレットのスコープを制限できます。 次の使用例は、モジュールのSkype for Businessします。
     
   ```PowerShell
   Update-Help -Module SkypeforBusiness
   ```
 
-    インターネットに接続されていないサーバーでヘルプを更新する必要がある場合は [、Save-Help](/powershell/module/microsoft.powershell.core/save-help) コマンドレットを使用して、ヘルプの最新バージョンを取得し、指定した場所に保存できます。 その後 **、Update-Help** コマンドレットを使用して、インターネットに接続されていないサーバー上の _-SourcePath_ パラメーターを使用して、選択した場所から更新されたヘルプを取得できます。 次の例は、ヘルプ ファイルをネットワーク ファイル共有に保存し、ファイル共有から Skype for Businessモジュールのヘルプを更新する方法を示しています。
+    インターネットに接続されていないサーバーでヘルプを更新する必要がある場合は、 [Save-Help](/powershell/module/microsoft.powershell.core/save-help) コマンドレットを使用して、ヘルプの最新バージョンを取得し、指定した場所に保存できます。 その後、 **Update-Help** コマンドレットを使用して、インターネットに接続されていないサーバー上の _-SourcePath_ パラメーターを使用して、選択した場所から更新されたヘルプを取得できます。 次の例は、ヘルプ ファイルをネットワーク ファイル共有に保存し、ファイル共有から Skype for Businessモジュールのヘルプを更新する方法を示しています。
     
   ```PowerShell
   // Save the help files

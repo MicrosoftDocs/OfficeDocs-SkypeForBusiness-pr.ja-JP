@@ -1,25 +1,20 @@
 ---
 title: データ API for Call Quality Dashboard (CQD) in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: '概要: 通話品質ダッシュボードのデータ API について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 619a02d776f5eb55c6349d1f123181190bc0299d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862214"
 ---
+
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>データ API for Call Quality Dashboard (CQD) in Skype for Business Server
  
 **概要:** 通話品質ダッシュボードのデータ API について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
@@ -44,7 +39,7 @@ REST 操作は、次の表に含まれています。
    
  **クロスオリジン リソース共有 (CORS) データ API のサポート**
   
-データ API では、クロスオリジン リソース共有 (CORS) がサポートされています。 CORS は、あるドメインで実行されている Web アプリケーションが別のドメインのリソースにアクセスできる HTTP 機能です。 Web ブラウザーは、Web ページが別のドメインで API を呼び出すのを防ぐ [Same-Origin Policy same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) と呼ばれるセキュリティ制限を実装します。 CORS は、あるドメイン (オリジン ドメイン) が別のドメインで API を呼び出す安全な方法を提供します。 [CORS の詳細については、CORS](https://www.w3.org/TR/cors/)仕様を参照してください。
+データ API では、クロスオリジン リソース共有 (CORS) がサポートされています。 CORS は、あるドメインで実行されている Web アプリケーションが別のドメインのリソースにアクセスできる HTTP 機能です。 Web ブラウザーは、Web ページが別のドメインで API を呼び出すのを防ぐ [Same-Origin Policy same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) と呼ばれるセキュリティ制限を実装します。 CORS は、あるドメイン (オリジン ドメイン) が別のドメインで API を呼び出す安全な方法を提供します。 [CORS の詳細については、CORS](https://www.w3.org/TR/cors/) 仕様を参照してください。
   
  **データ API の CORS の有効化**
   

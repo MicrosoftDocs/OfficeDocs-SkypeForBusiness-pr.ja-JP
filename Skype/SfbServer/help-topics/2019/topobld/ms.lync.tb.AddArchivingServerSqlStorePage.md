@@ -1,30 +1,25 @@
 ---
 title: アーカイブ サーバー SQL Server ストアの追加
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddArchivingServerSqlStorePage
+  - ms.lync.tb.AddArchivingServerSqlStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
-ROBOTS: NOINDEX, NOFOLLOW
-description: アーカイブ サーバーでは、アーカイブ データを格納するために、サポートされている 64 ビット 版SQL Serverデータベース ソフトウェアが必要です。 アーカイブに使用する定義済みの SQL Server データベースを選択するか、SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) と、新しい SQL Server データブに使用する SQL Server のインスタンスを指定して、新しい SQL Server データベースを定義できます。ase (既定のインスタンスまたは指定した名前付きインスタンスを指定できます)。
-ms.openlocfilehash: a2a9785235586640350e774286bdae6c66156e80
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857814"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: アーカイブ サーバーでは、アーカイブ データを格納するために、サポートされている 64 ビット 版SQL Serverデータベース ソフトウェアが必要です。 アーカイブに使用する定義済みの SQL Server データベースを選択するか、SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) と、新しい SQL Server に使用する SQL Server のインスタンスを指定して、新しい SQL Server データベースを定義できます。 データベース (既定のインスタンスまたは指定した名前付きインスタンスを指定できます)。
 ---
+
 # <a name="add-archiving-server-sql-server-store"></a>アーカイブ サーバー SQL Server ストアの追加
 
-アーカイブ サーバーでは、アーカイブ データを格納するために、サポートされている 64 ビット 版SQL Serverデータベース ソフトウェアが必要です。 アーカイブに使用する定義済みの SQL Server データベースを選択するか、SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) と、新しい SQL Server データブに使用する SQL Server のインスタンスを指定して、新しい SQL Server データベースを定義できます。ase (既定のインスタンスまたは指定した名前付きインスタンスを指定できます)。
+アーカイブ サーバーでは、アーカイブ データを格納するために、サポートされている 64 ビット 版SQL Serverデータベース ソフトウェアが必要です。 アーカイブに使用する定義済みの SQL Server データベースを選択するか、SQL Server データベースが存在するサーバーの完全修飾ドメイン名 (FQDN) と、新しい SQL Server に使用する SQL Server のインスタンスを指定して、新しい SQL Server データベースを定義できます。 データベース (既定のインスタンスまたは指定した名前付きインスタンスを指定できます)。
 
 > [!NOTE]
 > トポロジの公開に使用するアカウントに適切なユーザー権限とアクセス許可があれば、トポロジの発行時にアーカイブ データベース (LcsLog) を作成できます。インストール手順の一部として実行するなど、データベースを後で作成することもできます。

@@ -1,25 +1,20 @@
 ---
 title: 常設チャット サーバー トポロジを計画する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: '概要: 2015 年の常設チャット サーバー のコンポーネントとトポロジについては、このトピックSkype for Business Serverしてください。'
-ms.openlocfilehash: 1b57d9d9ace6e51001acfa39101eb185a8e00939
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862074"
 ---
+
 # <a name="plan-persistent-chat-server-topology"></a>常設チャット サーバー トポロジを計画する
  
 **概要:** 2015 年の常設チャット サーバー コンポーネントとトポロジの詳細については、このトピックSkype for Business Serverしてください。
@@ -46,27 +41,27 @@ ms.locfileid: "60862074"
   
 - コンプライアンスが有効な場合、コンプライアンス イベントとコンプライアンスを目的としてチャット コンテンツが格納される常設チャット コンプライアンス データベースをホストする SQL Server のバック エンド データベースを実行する 1 つ以上のサーバー (ミラーリングが使用されている場合は複数)。
     
-常設チャット サーバーのハードウェア要件とソフトウェア要件の詳細については[、「Skype for Business Server 2015 のサーバー要件」および「Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)の常設チャット サーバーのハードウェアと[ソフトウェアの要件」を参照](hardware-and-software-requirements.md)してください。 
+常設チャット サーバーのハードウェア要件とソフトウェア要件の詳細については、「Skype for Business Server 2015 のサーバー要件」および「[Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) の常設チャット サーバーのハードウェアと[ソフトウェアの要件」を参照](hardware-and-software-requirements.md)してください。 
   
 ## <a name="persistent-chat-server-topologies"></a>常設チャット サーバー のトポロジ
 
 常設チャット サーバーは、単一サーバープールまたは複数サーバー プール、および単一プールトポロジまたは複数プール トポロジで展開できます。 常設チャット サーバーは、次のトポロジをサポートしています。
   
--  Standard Editionフロントエンド サーバー上に常設チャット サーバーが接続されているサーバー
+-  Standard Edition エンド サーバー上に常設チャット サーバーが接続されているサーバー
     
--  Standard Edition常設チャット サーバーが別のサーバー上のサーバー
+-  Standard Editionサーバーに常設チャット サーバーがある場合
     
--  Enterprise Edition個別のサーバー上に 1 つの常設チャット サーバーがあるサーバー
+-  Enterprise Editionサーバー上に 1 つの常設チャット サーバーがある場合
     
--  Enterprise Edition複数の常設チャット サーバーが別々のサーバー上にあるサーバー
+-  Enterprise Editionサーバー上に複数の常設チャット サーバーがあるサーバー
     
 常設チャット サーバーは Standard Edition サーバーに展開することもできますが、パフォーマンスとスケールが影響を受け、高可用性はオプションではありません。 したがって、主に概念実証と評価の目的で、Standard Editionサーバーに常設チャットを展開する必要があります。 
   
 Skype for Business Server 2015 では、さまざまなコロケーション シナリオがサポートされ、1 つのサーバーで複数のコンポーネントを実行してハードウェア コストを柔軟に節約できます (組織が小さい場合)、または別のサーバーで個々のコンポーネントを実行する (スケーラビリティとパフォーマンスが必要な組織が大きい場合)。 コンポーネントを照合するかどうかを決定する前に、スケーラビリティ要因を考慮する必要があります。 コロケーションのシナリオは、2015 Skype for Business ServerサーバーとEnterprise EditionでStandard Edition異なります。 
   
-以下のセクションでは、コロケーションシナリオや、バック エンド データベース サーバーのオプションなど、トポロジの詳細について説明します。 すべてのサーバーの役割とデータベースのコロケーションの詳細については[、「Topology Basics for Skype for Business Server 2015」を参照](../../plan-your-deployment/topology-basics/topology-basics.md)してください。
+以下のセクションでは、コロケーションシナリオや、バック エンド データベース サーバーのオプションなど、トポロジの詳細について説明します。 すべてのサーバーの役割とデータベースのコロケーションの詳細については、「[Topology Basics for Skype for Business Server 2015」を](../../plan-your-deployment/topology-basics/topology-basics.md)参照してください。
   
-### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Standard Editionフロントエンド サーバー上に常設チャット サーバーが接続されているサーバー
+### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Standard Edition エンド サーバー上に常設チャット サーバーが接続されているサーバー
 
 このStandard Edition、フロントエンド サーバーで常設チャットを照合できます。 これは、最も簡単で最も基本的な構成です。 CPU、メモリ、ディスク領域など、物理リソースの観点から、既存のフロントエンド サーバーに十分な容量が含まれます。
   
@@ -81,7 +76,7 @@ Skype for Business Server 2015 では、さまざまなコロケーション シ
   
 常設チャット サーバーのバック エンド サーバーと常設チャット コンプライアンス データベース (有効な場合) は、ローカル ネットワーク SQL Server Expressに関連付けできます。 また、専用インスタンスと一緒に別のSQL Serverを使用する場合も選択できます。 
   
-### <a name="enterprise-edition-server-with-a-single-persistent-chat-server"></a>Enterprise Edition単一の常設チャット サーバーを持つサーバー
+### <a name="enterprise-edition-server-with-a-single-persistent-chat-server"></a>Enterprise Edition常設チャット サーバーを使用するサーバー
 
 このEnterprise Edition、常設チャット サーバーを別のコンピューターにインストールする必要があります。 つまり、フロントエンド サーバー上の常設チャット サーバーをEnterprise Editionすることはできません。 この展開では、常設チャット サーバーとコンプライアンス サービス (有効な場合) を実行する別のサーバーが必要です。
   
@@ -101,7 +96,7 @@ Skype for Business Server 2015 では、さまざまなコロケーション シ
 
 ![常設チャット サーバー - 単一サーバー トポロジ。](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
-### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Enterprise Edition複数の常設チャット サーバーを持つサーバー
+### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Enterprise Edition常設チャット サーバーを持つサーバー
 
 このEnterprise Edition、より大きな容量と信頼性を実現するために、複数サーバー トポロジを展開できます。 複数サーバー トポロジは、複数のサーバーが常設チャット サーバーをホストする場合を除き、単一サーバー トポロジと同じであり、より大きな規模に拡大できます。 複数サーバー トポロジには、常設チャット サーバーを実行しているアクティブ なコンピューターを最大 4 台まで含めできます (高可用性と障害復旧の構成では最大 8 台まで許可されますが、アクティブにできるのは 4 台、スタンバイ時の残りの 4 台のみ)。 各サーバーは、4 台のサーバーを持つ常設チャット サーバー プールに接続されている合計 80,000 人の同時ユーザーに対して、最大 20,000 人の同時ユーザーをサポートできます。 常設チャット サーバーを実行している複数のコンピューターは、管理者およびコンプライアンス サービスと同じ Active Directory ドメイン Skype for Business Serverに存在する必要があります。
   

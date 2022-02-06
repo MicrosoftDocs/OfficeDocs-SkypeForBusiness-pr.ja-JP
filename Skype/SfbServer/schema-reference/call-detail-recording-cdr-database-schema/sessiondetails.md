@@ -1,25 +1,20 @@
 ---
 title: SessionDetails テーブル
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: 各レコードは、1 つのピアツーピア セッションを表します。これは、VoIP-VoIP、2 パーティ IM セッション、または他の種類のセッションである可能性があります。 Media テーブルでテーブル結合を実行して、このセッションに関係する各メディアの詳細を確認できます。
-ms.openlocfilehash: e7b89dc242fb3e4adec215948915218b579631ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863434"
 ---
+
 # <a name="sessiondetails-table"></a>SessionDetails テーブル
  
 各レコードは、1 つのピアツーピア セッションを表します。これは、VoIP-VoIP、2 パーティ IM セッション、または他の種類のセッションである可能性があります。 Media テーブルでテーブル結合を実行して [、](media.md) このセッションに関係する各メディアの詳細を確認できます。
@@ -28,11 +23,11 @@ IsUser1IntegratedWithDeskPhone フィールドと IsUser2IntegratedWithDeskPhone
   
 |**列**|**データ型**|**キー/インデックス**|**詳細**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |日付型  <br/> |主/プライマリ、外部  <br/> |セッション要求の時刻。 セッションを一意に識別するために **SessionIdSeq** と併用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |主/プライマリ、外部  <br/> |セッションを識別するための ID 番号。 **SessionIdTime** と組み合わせて使用して、セッションを一意に識別します。*詳細については、Skype for Business Server [2015](dialogs.md)の Dialogs テーブルを参照してください。 <br/> |
+|**SessionIdTime** <br/> |日付型  <br/> |主/プライマリ、外部  <br/> |セッション要求の時刻。 セッションを一意に識別するために **SessionIdSeq** と併用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |主/プライマリ、外部  <br/> |セッションを識別するための ID 番号。 **SessionIdTime と組み合** わせて使用して、セッションを一意に識別します。*詳細については、Skype for Business Server [2015 の Dialogs テーブル](dialogs.md)を参照してください。 <br/> |
 |**CorrelationId** <br/> |uniqueidentifier  <br/> ||複数のセッションを相互に関連付けるための GUID。  <br/> |
-|**ReplaceDialogIdTime** <br/> |日付型  <br/> |外部  <br/> |現在のセッションで置き換えられたダイアログを識別するための ID 番号。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |外部  <br/> |セッションを識別するための ID 番号。 このセッションで置き換えられたセッションを一意に識別するために **ReplacesDialogIdTime** と併用されます。 詳細については[、「ダイアログ」の表Skype for Business Server 2015](dialogs.md)を参照してください。 <br/> |
+|**ReplaceDialogIdTime** <br/> |日付型  <br/> |外部  <br/> |現在のセッションで置き換えられたダイアログを識別するための ID 番号。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |外部  <br/> |セッションを識別するための ID 番号。 このセッションで置き換えられたセッションを一意に識別するために **ReplacesDialogIdTime** と併用されます。 詳細については[、2015 Skype for Business Serverの](dialogs.md) Dialogs テーブルを参照してください。 <br/> |
 |**User1Id** <br/> |int  <br/> |外部  <br/> |セッションにいる一方のユーザーの ID。 詳細については [、「Users」テーブル](users.md) を参照してください。 <br/> |
 |**User2Id** <br/> |int  <br/> |外部  <br/> |セッションにいる他方のユーザーの ID。 詳細については [、「Users」テーブル](users.md) を参照してください。 <br/> |
 |**User1EndpointId** <br/> |uniqueIdentifier  <br/> ||セッションの第 1 のユーザーによって使用されているエンドポイントを示す GUID。  <br/> このフィールドは、Microsoft Lync Server 2013 で導入されました。  <br/> |
@@ -43,18 +38,18 @@ IsUser1IntegratedWithDeskPhone フィールドと IsUser2IntegratedWithDeskPhone
 |**referredById** <br/> |int  <br/> |外部  <br/> |通話の参照元であるユーザーの ID。 詳細については [、「Users」テーブル](users.md) を参照してください。 <br/> |
 |**ServerId** <br/> |int  <br/> |外部  <br/> |このセッションで使用されるフロントエンド サーバーの ID。 詳細については [、「サーバー」の表](servers.md) を参照してください。 <br/> |
 |**PoolId** <br/> |int  <br/> |外部  <br/> |セッションが取得されたプールの ID。 詳細については [、「Pools」の表](pools.md) を参照してください。 <br/> |
-|**ContentTypeID** <br/> |int  <br/> |外部  <br/> |セッションで使用されるコンテンツの種類。 詳細については[、2015 Skype for Business Serverの ContentTypes](contenttypes.md)テーブルを参照してください。 <br/> |
-|**User1ClientVerId** <br/> |int  <br/> |外部  <br/> |User1 によって使用されるクライアント バージョン。 詳細については[、2015 Skype for Business Server ClientVersions](clientversions.md)テーブルを参照してください。 <br/> |
-|**User2ClientVerId** <br/> |int  <br/> |外部  <br/> |User2 によって使用されるクライアント バージョン。 詳細については[、2015 Skype for Business Server ClientVersions](clientversions.md)テーブルを参照してください。 <br/> |
-|**User1EdgeServerid** <br/> |int  <br/> |外部  <br/> |User1 によって使用されるエッジ サーバー。 詳細については[、2015 年の edgeServers Skype for Business Serverを](edgeservers.md)参照してください。 <br/> |
-|**User2EdgeServerid** <br/> |int  <br/> |外部  <br/> |User2 によって使用されるエッジ サーバー。 詳細については[、2015 年の edgeServers Skype for Business Serverを](edgeservers.md)参照してください。 <br/> |
+|**ContentTypeID** <br/> |int  <br/> |外部  <br/> |セッションで使用されるコンテンツの種類。 詳細については[、2015 Skype for Business Serverの ContentTypes](contenttypes.md) テーブルを参照してください。 <br/> |
+|**User1ClientVerId** <br/> |int  <br/> |外部  <br/> |User1 によって使用されるクライアント バージョン。 詳細については[、2015 年Skype for Business Server ClientVersions](clientversions.md) テーブルを参照してください。 <br/> |
+|**User2ClientVerId** <br/> |int  <br/> |外部  <br/> |User2 によって使用されるクライアント バージョン。 詳細については[、2015 年Skype for Business Server ClientVersions](clientversions.md) テーブルを参照してください。 <br/> |
+|**User1EdgeServerid** <br/> |int  <br/> |外部  <br/> |User1 によって使用されるエッジ サーバー。 詳細については[、2015 Skype for Business Serverの EdgeServers](edgeservers.md) テーブルを参照してください。 <br/> |
+|**User2EdgeServerid** <br/> |int  <br/> |外部  <br/> |User2 によって使用されるエッジ サーバー。 詳細については[、2015 Skype for Business Serverの EdgeServers](edgeservers.md) テーブルを参照してください。 <br/> |
 |**IsUser1Internal** <br/> |ビット  <br/> ||User1 が内部からログオンしているかどうかを示します。  <br/> |
 |**IsUser2Internal** <br/> |ビット  <br/> ||User2 が内部からログオンしているかどうかを示します。  <br/> |
 |**InviteTime** <br/> |日付型  <br/> ||最初の INVITE 要求の時刻。 このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。 INVITE メッセージがない場合は、関連する最初の SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。 このフィールドには通常、セッションの最初の INVITE メッセージから生成されたデータが設定されます。 INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
 |**ResponseTime** <br/> |日付型  <br/> ||最初の INVITE メッセージへの応答の時刻。 このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。 INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
 |**ResponseCode** <br/> |int  <br/> ||セッションへの招待に対する SIP 応答コード。このフィールドには通常、セッションの最初の INVITE メッセージから生成されるデータが設定されます。INVITE メッセージがない場合は、フィールドには、最初の関連する SIP メッセージ (BYE、CANCEL、MESSAGE、または INFO) の日時が設定されます。  <br/> |
 |**DiagnosticId** <br/> |int  <br/> ||SIP ヘッダーから取得された診断 ID。  <br/> |
-|**CallPriority** <br/> |int  <br/> |外部  <br/> |通話の優先順位。 詳細については[、2015 年の CallPriorities Skype for Business Serverを](callpriorities.md)参照してください。 <br/> |
+|**CallPriority** <br/> |int  <br/> |外部  <br/> |通話の優先順位。 詳細については[、2015 年の CallPriorities Skype for Business Server](callpriorities.md)を参照してください。 <br/> |
 |**User1MessageCount** <br/> |int  <br/> ||User1 がセッション中に送信したメッセージの数。  <br/> |
 |**User2MessageCount** <br/> |int  <br/> ||User2 がセッション中に送信したメッセージの数。  <br/> |
 |**SessionEndTime** <br/> |日付型  <br/> ||セッションの終了時刻。  <br/> |

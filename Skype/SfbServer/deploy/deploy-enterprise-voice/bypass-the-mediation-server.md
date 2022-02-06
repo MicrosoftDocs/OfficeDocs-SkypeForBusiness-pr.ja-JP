@@ -1,35 +1,30 @@
 ---
 title: 仲介サーバーを常にバイパスSkype for Business Serverメディア バイパスを構成する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: メディア バイパスを有効にして、常に仲介サーバーをバイパスSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 83d945059afd654492bd52d2487d0d704436b0f1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837349"
 ---
+
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>仲介サーバーを常にバイパスSkype for Business Serverメディア バイパスを構成する
  
 メディア バイパスを有効にして、常に仲介サーバーをバイパスSkype for Business Server エンタープライズ VoIP。 
   
  このトピックの手順を使用してメディア バイパスのグローバル設定を構成する場合、Skype for Business エンドポイントとトランク接続でメディア バイパスを構成したピアとの間に良好な接続性があるという前提があります。
   
-Skype for Business エンドポイントと仲介サーバーの各トランク接続がメディア バイパスに対して有効になっているすべてのピア間の接続が良好ではない場合は、メディア バイパスを使用するときにサイトと地域の情報を使用するグローバル メディア バイパス設定を構成する必要があります。 これにより、メディアが仲介サーバーをバイパスするか判定する際に、よりよく制御できます。 これを行うには、「Skype for Business Server でメディア[](use-site-and-region-information.md)バイパスグローバル設定を構成する」の手順を使用して、サイトと地域の情報を使用し、代わりにサブネットをネットワーク サイト[に関連付](deploy-network.md#BKMK_AssociateSubnets)ける。
+Skype for Business エンドポイントと仲介サーバーの各トランク接続がメディア バイパスに対して有効になっているすべてのピア間の接続が良好ではない場合は、メディア バイパスを使用するときにサイトと地域の情報を使用するグローバル メディア バイパス設定を構成する必要があります。 これにより、メディアが仲介サーバーをバイパスするか判定する際に、よりよく制御できます。 これを行うには、「Skype for Business Server でメディア バイパスグローバル設定を構成する」の手順を使用して、サイト[と地域](use-site-and-region-information.md)の情報を使用し、代わりにサブネットをネットワーク サイト[に](deploy-network.md#BKMK_AssociateSubnets)関連付ける。
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>仲介サーバーを常にバイパスするよう、メディア バイパスをグローバルに有効化するには
 

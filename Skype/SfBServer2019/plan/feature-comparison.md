@@ -1,44 +1,39 @@
 ---
 title: 2019 年のデスクトップ クライアントSkype for Business Server比較
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: '概要: Skype for Business Server 2019 または Skype for Businessオンライン管理者は、これらのテーブルを使用して、どのクライアントでサポートされている機能を理解できます。'
-ms.openlocfilehash: fa4a516f949f858502c0aece58af8b0c737044b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831701"
 ---
+
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>2019 年のデスクトップ クライアントSkype for Business Server比較
 
 **概要:** Skype for Business Server 2019 または Skype for Businessオンライン管理者は、これらのテーブルを使用して、どのクライアントでサポートされている機能を理解できます。
 
  サーバーを展開またはアップグレードする前Skype for Business Server、組織で既に使用されているクライアントを確認してください。 これらのクライアントに対する機能サポートの影響を理解するには、以下の表を参照してください。 これは、ユーザーへの変更の伝達、ロールアウト プロセスのペース調整、および最新のクライアントへのアップグレードの利点の完全な理解に役立ちます。
 
-Skype for Business Server 2019 で使用できる一部の機能は、Skype for Business Online ではSkype for Businessできません。詳細については[、「Online または Hybrid ユーザー アカウントの制限](feature-comparison.md#Online-Hybrid)」を参照してください。 Skype for Business Online 管理者は、利用可能なさまざまなプランについて、「[Skype for Business Online サービスの説明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)」を参照することをお勧めします。
+Skype for Business Server 2019 で利用できる一部の機能は、Skype for Business Online では使用できません。詳細については、「Online または [Hybrid](feature-comparison.md#Online-Hybrid) ユーザー アカウントの制限」を参照してください。 Skype for Business Online 管理者は、利用可能なさまざまなプランについて、「[Skype for Business Online サービスの説明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)」を参照することをお勧めします。
 
-次の表は、2019 年または 2019 年にオンラインで動作する各クライアントSkype for Business Server機能Skype for Business示しています。 また、スマートフォンとタブレット クライアント機能の比較については、「モバイル[クライアント機能](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)Skype for Business比較」を参照してください。 組織が購入するクライアント アクセス ライセンスまたはユーザー サブスクリプション ライセンスは、ユーザーが利用できる機能にも影響します。 Full クライアントまたは Basic クライアントをユーザーに展開するかどうかは、組織が購入するライセンスまたは計画によって異なります。 詳細については [、「ライセンス ガイド」](https://products.office.com/skype-for-business/it-pros) を参照してください。
+次の表は、2019 年または 2019 年にオンラインで動作する各クライアントSkype for Business Server機能Skype for Business示しています。 また、スマートフォンとタブレット クライアント機能の比較については、「モバイル [クライアントSkype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)の比較」を参照してください。 組織が購入するクライアント アクセス ライセンスまたはユーザー サブスクリプション ライセンスは、ユーザーが利用できる機能にも影響します。 Full クライアントまたは Basic クライアントをユーザーに展開するかどうかは、組織が購入するライセンスまたは計画によって異なります。 詳細については [、「ライセンス ガイド」](https://products.office.com/skype-for-business/it-pros) を参照してください。
 
 > [!IMPORTANT]
-> Skype for Business Server 2019 および Skype for Business Online では、Lync 2013、Skype for Business 2015、Skype for Business 2016、および Skype for Business 2019 クライアントがサポートされています。 これらのクライアントを他のサーバーと一緒に使用する場合の詳細については[、「Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables)のクライアント比較テーブル」および「デスクトップ クライアント機能の比較」を参照Skype for Business[してください](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)。 
+> Skype for Business Server 2019 および Skype for Business Online では、Lync 2013、Skype for Business 2015、Skype for Business 2016、および Skype for Business 2019 クライアント。 これらのクライアントを他のサーバーと一緒に使用する場合の詳細については、「[Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) のクライアント比較テーブル」および「デスクトップ クライアント機能の比較」を参照Skype for Business[してください](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)。 
 
 
 > [!NOTE]
-> このSkype for Business Web アプリブラウザー クライアントと会議SkypeアプリWindows 10は、会議のサポート[のみを提供します](feature-comparison.md#BKMK_Conferencing)。 これらのクライアント [の詳細については、「Plan for Meetings クライアント (Web App および Meetings App)」](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) を参照してください。
+> ブラウザー Skype for Business Web アプリおよび会議アプリ SkypeアプリWindows 10は、会議のサポート[のみを提供します](feature-comparison.md#BKMK_Conferencing)。 これらのクライアント [の詳細については、「Plan for Meetings クライアント (Web App および Meetings App)](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md) 」を参照してください。
 
 ## <a name="enhanced-presence-support"></a>拡張プレゼンスのサポート
 <a name="BKMK_EnhancedPresence"> </a>
@@ -109,7 +104,7 @@ Skype for Business Server 2019 で使用できる一部の機能は、Skype for 
 )。
 
 Skype対 Skype セッションでは、Skype for Business Online Plan 1 ユーザーは、共有機能にアクセスできるユーザーに招待されている場合、デスクトップ共有とアプリケーション共有に参加できます。
-詳細については、「オンライン サービスの[Skype for Business」を参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。 
+詳細については、「オンライン サービスのSkype for Business[」を参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。 
 
 |機能/機能 | Skype for Business 2016 クライアント | Mac 版 Skype for Business | Skype for Business の Web アプリ | Skype for Business 2015 クライアント | Lync 2013 クライアント | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
@@ -132,7 +127,7 @@ Skype対 Skype セッションでは、Skype for Business Online Plan 1 ユー�
 |投票の実行 |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |アップロード共有するファイルを作成する |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |会議または電話会議の予約 |OutlookまたはSkype for Business Web スケジューラー  |OutlookまたはSkype for Business Web スケジューラー |Skype for Business Web スケジューラー |OutlookまたはSkype for Business Web スケジューラー   |Outlook Lync Web スケジューラ |  
-|Q &amp; A マネージャー |&#x2714;|||||
+|QA&amp; マネージャー |&#x2714;|||||
 |出席者ビデオを無効にする |&#x2714;||&#x2714;|||
 |会議 IM を無効にする |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
 |対象ユーザーをミュートする |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -159,7 +154,7 @@ Skype対 Skype セッションでは、Skype for Business Online Plan 1 ユー�
 この表では、音声サービスのサポートに関連する機能について説明します。
 
 > [!NOTE]
-> Skype for Business音声 (テレフォニー) 機能は、オンライン サブスクリプション プランSkype for Businessに制限されます。 詳細については、「オンライン サービスの[Skype for Business」を参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。 
+> Skype for Business (テレフォニー) 機能は、オンライン サブスクリプション プランSkype for Businessに制限されます。 詳細については、「オンライン サービスのSkype for Business[」を参照してください](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。 
 
  | 機能/機能 | Skype for Business 2015、2016、または 2019 クライアント | Mac 版 Skype for Business | Lync 2013 クライアント |  
 |:-----|:-----|:-----|:-----| 
@@ -216,7 +211,7 @@ Skype対 Skype セッションでは、Skype for Business Online Plan 1 ユー�
 
 次の表では、最新の認証をサポートする必要がある機能について説明します。 
 
-モダン認証では、モダン認証でサポートされるトポロジSkype for Business[トポロジも必要です](../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md)。
+また、モダン認証では、「モダン認証でサポートされているトポロジSkype for Business[トポロジ」で説明されているトポロジも必要です](../../SfbServer/plan-your-deployment/modern-authentication/topologies-supported.md)。
 
 
  | 機能/機能 | Skype for Business 2015、2016、または 2019 クライアント | Mac 版 Skype for Business | Lync 2013 クライアント | 

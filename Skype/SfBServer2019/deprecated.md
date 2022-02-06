@@ -1,27 +1,22 @@
 ---
 title: 2019 年から廃止Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: これらの機能は、2019 年Skype for Business Serverされています。'
-ms.openlocfilehash: 7f956aed60a65d074776756e0c6254e2aa3d9629
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846980"
 ---
+
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>2019 年から廃止Skype for Business Server
 
-2019 年に廃止された機能についてSkype for Business Server。 2019 年 2019 年Skype for Business Server新機能の詳細については[、「What's in Skype for Business Server 2019」を参照](whats-new.md)してください。
+2019 年に廃止された機能についてSkype for Business Server。 2019 年 2019 年の新機能については、「Skype for Business Server [What's in Skype for Business Server 2019」を参照](whats-new.md)してください。
 
 以前の製品バージョンとの互換性のために、2019 Skype for Business Serverにいくつかの強調されていない機能が含まれています。
 
@@ -39,19 +34,19 @@ Skype for Business Server 2015 とその先行タスクでは、エッジ サー
 
 同じ機能は、Teams。 詳細については、「アップグレードの開始[方法」をMicrosoft Teamsしてください](/microsoftteams/upgrade-start-here)。
 
-### <a name="sql-mirroring-for-skype-for-business-server"></a>SQLサーバーのミラーリングSkype for Business Server
+### <a name="sql-mirroring-for-skype-for-business-server"></a>SQLのミラーリングSkype for Business Server
 
-SQL2019 年にミラーリングを展開Skype for Business Server。 高可用性と障害復旧を提供するためのその他のオプションは引き続きサポートされ、その中から選択する必要があります。 オプション[を確認するには、「高可用性と障害復旧を計画する」を参照Skype for Business Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
+SQL 2019 ではミラーリングを展開Skype for Business Server。 高可用性と障害復旧を提供するためのその他のオプションは引き続きサポートされ、その中から選択する必要があります。 オプション[を確認するには、「高可用性と障害復旧を計画する」を参照Skype for Business Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)を参照してください。
 
 ### <a name="in-place-upgrades"></a>一括アップグレード 
 
-インプレイス アップグレードは 2015 年Skype for Business Serverでしたが、2019 年Skype for Business Serverではサポートされていません。 サイド バイ サイド のアップグレードと共存がサポートされています。 詳細については[、「Migration to Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md)」を参照してください。
+インプレイス アップグレードは 2015 年Skype for Business Serverでしたが、2019 年Skype for Business Serverではサポートされていません。 サイド バイ サイド のアップグレードと共存がサポートされています。 詳細については、「[Migration to Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md)」を参照してください。
 
 ### <a name="mobility-service-mcx"></a>モビリティ サービス (Mcx)
 
 現在のすべての Skype for Business モバイル クライアントはUnified Communications Web API (UCWA) を使用して、インスタント メッセージング (IM)、プレゼンス、および連絡先をサポートしています。 Mcx を使用している従来のクライアントを持つユーザーは、現在のクライアントにアップグレードする必要があります。
 
-詳細については、「Plan [for Mobility for Skype for Business Server」および「](../SfbServer/plan-your-deployment/mobility.md)モバイル クライアント機能の比較」[を参照](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)Skype for Business。
+詳細については、「Plan [for Mobility for Skype for Business Server](../SfbServer/plan-your-deployment/mobility.md)」および「モバイル クライアント機能の比較」[を参照](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)Skype for Business。
 
 ## <a name="tools"></a>ツール
 
@@ -59,7 +54,7 @@ SQL2019 年にミラーリングを展開Skype for Business Server。 高可用�
 
 - Skype for Business Server の容量計画計算ツール
 - Skype for Business Serverデバッグ ツール
-- Skype for Business Serverリソース キット ツール (一部のツールは削除されます)
+- Skype for Business Server キット ツール (一部のツールは削除されます)
     - Call Parkometer
     - ユーザー コンソールの参照
     - 割り当てられていない番号アナウンスの移行

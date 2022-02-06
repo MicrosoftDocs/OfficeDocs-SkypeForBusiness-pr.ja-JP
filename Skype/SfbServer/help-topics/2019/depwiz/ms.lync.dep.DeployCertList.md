@@ -1,27 +1,22 @@
 ---
 title: 証明書のリスト
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertList
+  - ms.lync.dep.DeployCertList
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
-ROBOTS: NOINDEX, NOFOLLOW
-description: 証明書を割り当てるには、ローカル証明書ストアから証明書を選択します。 続行するには、[次へ] をクリックします。
-ms.openlocfilehash: cec1b97abb8827894661c1738dd775ca8b6e6251
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846920"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '証明書を割り当てるには、ローカル証明書ストアから証明書を選択します。 続行するには、[次へ] をクリックします。'
 ---
+
 # <a name="certificate-list"></a>証明書のリスト
  
 証明書を割り当てるには、ローカル証明書ストアから証明書を選択します。 **[次へ]** をクリックして続行します。

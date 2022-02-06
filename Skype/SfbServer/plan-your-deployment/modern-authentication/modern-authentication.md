@@ -1,24 +1,19 @@
 ---
 title: '[最新の認証を計画する] Skype for Business'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: 他の製品との統合を含む、Skype for Business Server認証と承認のトピックを計画する
-ms.openlocfilehash: 3bcd9ab78c9703dd938230740fddba4034aff315
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851871"
 ---
+
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>認証と認証について説明する (Skype for Business
 
 認証と承認は関連する概念ですが、作業は異なります (両方とも必要です)。 簡単に言いますと、Authenciation (AuthN) は、有効なユーザーだけが知っている、または持っているシークレットに依存します。パスワード、コード、指紋、証明書、ユーザーに関するクレームの組み合わせ、またはこれらが組み合わせて使用されます。 AuthN は、自分が自分であることを証明するプロセスです。

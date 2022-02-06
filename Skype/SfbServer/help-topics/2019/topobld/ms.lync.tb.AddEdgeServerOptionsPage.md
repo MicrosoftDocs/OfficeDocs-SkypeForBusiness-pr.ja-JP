@@ -1,27 +1,22 @@
 ---
 title: エッジ サーバーのオプションを追加する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddEdgeServerOptionsPage
+  - ms.lync.tb.AddEdgeServerOptionsPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: エッジ プールで有効にする各機能を選択します。 既定では、エッジ プールは、仮想プライベート ネットワーク (VPN) を使用してファイアウォールの外部からサインインする組織内のリモート ユーザーをサポートします。 以下のエッジ プール機能オプションも使用できます。
-ms.openlocfilehash: 9ac07d7a15e138c3fe817aab6754ca098f8ff774
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834485"
 ---
+
 # <a name="add-edge-server-options"></a>エッジ サーバー オプションの追加
 
 エッジ プールで有効にする各機能を選択します。 既定では、エッジ プールは、仮想プライベート ネットワーク (VPN) を使用してファイアウォールの外部からサインインする組織内のリモート ユーザーをサポートします。 以下のエッジ プール機能オプションも使用できます。

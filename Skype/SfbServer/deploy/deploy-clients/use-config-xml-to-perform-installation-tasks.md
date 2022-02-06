@@ -1,24 +1,19 @@
 ---
 title: クライアントConfig.xmlインストール タスクを実行するには、Skype for Business使用します。
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: '概要: Config.xmlファイルを使用して、追加のインストール手順を指定する方法について説明します。'
-ms.openlocfilehash: e0dcc16a09540965346ea014a8c39be0470e4f09
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858674"
 ---
+
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>クライアントConfig.xmlインストール タスクを実行するには、Skype for Business使用します。
 
 **概要:** 追加のインストール手順を指定Config.xmlファイルを使用する方法。
@@ -39,7 +34,7 @@ Office カスタマイズ ツール (OCT) はカスタマイズ インストー�
 
 サイレント インストールを構成するには、Config.xmlファイルをSkype for Businessすることをお勧めします。 
 
-既定では、コアConfig.xmlに格納されているファイル (\製品など) を指定 _します_。WW) は、セットアップを指示して、その製品をインストールします。 たとえば、次のフォルダーConfig.xmlファイルがインストールされますSkype for Business。
+既定では、コアConfig.xmlに格納されているファイル (\製品 _など)。_ WW) は、セットアップを指示して、その製品をインストールします。 たとえば、次のフォルダーConfig.xmlファイルがインストールされますSkype for Business。
 
 - \\server\share\Skype15\Skype。WW \Config.xml
 
@@ -54,8 +49,8 @@ Office カスタマイズ ツール (OCT) はカスタマイズ インストー�
 | OptionState  <br/>       | インストール中、特定の製品の機能が処理される方法を指定します。 次の属性を使用して、Business Connectivityサービスのインストールを防止します。この属性には、Outlook。 <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
 | ディスプレイ  <br/>           | セットアップがユーザーに表示する UI のレベル。一般的には次の属性があります。 <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | ログ記録  <br/>           | セットアップが実行するログ記録の種類のオプション。一般的には次の属性があります。 <br/>  Type ="Off"                                                                                                                                                                                       |
-| Setting  <br/>           | Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。<br/>  Id="*の名前を設定* する (インストーラー プロパティのWindows)  <br/>  Value=" *値*" (プロパティに割り当てる値)  <br/>                                                             |
-| DistributionPoint  <br/> | インストールを実行するネットワーク インストール ポイントの完全修飾パス<br/>  Location=" *パス*"  <br/>                                                                                                                                     |
+| Setting  <br/>           | Windows インストーラーのプロパティの値を指定します。一般的には次の属性があります。<br/>  Id=" *名を設定* する (インストーラー プロパティのWindows)  <br/>  Value=" *value*" (プロパティに割り当てる値)  <br/>                                                             |
+| DistributionPoint  <br/> | インストールを実行するネットワーク インストール ポイントの完全修飾パス<br/>  Location=" *path*"  <br/>                                                                                                                                     |
 
 次の使用例は、Config.xmlクライアントの一般的なサイレント インストール用のSkype for Businessします。 
 
@@ -69,7 +64,7 @@ Office カスタマイズ ツール (OCT) はカスタマイズ インストー�
 </Configuration>
 ```
 
-インストールおよび保守タスクの実行に Config.xmlファイルを使用Office詳細については、以下を参照してください [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 。
+Config.xmlファイルを使用してインストールおよびOfficeタスクを実行する方法の詳細については、以下のページを参照してください[https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15))。
 
 ## <a name="to-customize-the-configxml-file"></a>Config.xml ファイルをカスタマイズするには
 
@@ -77,7 +72,7 @@ Office カスタマイズ ツール (OCT) はカスタマイズ インストー�
 
 2. 変更する要素を含む行に移動します。
 
-3. 使用するサイレント オプションで要素のエントリを変更します。 コメント区切り記号 "" を削除してください \<!--" and "--\> 。 たとえば、次の構文を使用します。
+3. 使用するサイレント オプションで要素のエントリを変更します。 コメント区切り記号 "" を削除してください\<!--" and "--\>。 たとえば、次の構文を使用します。
 
    <pre>
    < DistributionPoint Location="\\server\share\Skype15" />

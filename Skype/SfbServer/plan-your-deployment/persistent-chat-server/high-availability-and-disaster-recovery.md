@@ -1,25 +1,20 @@
 ---
 title: 2015 年の常設チャット サーバーの高可用性と障害復旧Skype for Business Serverする
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: '概要: 2015 年の常設チャット サーバーの高可用性と障害復旧を計画する方法については、このトピックSkype for Business Serverしてください。'
-ms.openlocfilehash: 042080aebf57a14554820eea9b5bb9d5c9bb1f71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836229"
 ---
+
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>2015 年の常設チャット サーバーの高可用性と障害復旧Skype for Business Serverする
  
 **概要:** このトピックでは、2015 年に常設チャット サーバーの高可用性と障害復旧を計画するSkype for Business Serverしてください。
@@ -50,11 +45,11 @@ ms.locfileid: "60836229"
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>障害復旧と高可用性ソリューション
 
-Skype for Business Server、データベース ミラーリングを含む、バック エンド サーバーの高可用性の複数のモードをサポートしています。 詳細については、「Plan for high availability and disaster recovery in Skype for Business Server [2015」を参照](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)してください。 
+Skype for Business Server、データベース ミラーリングを含む、バック エンド サーバーの高可用性の複数のモードをサポートしています。 詳細については、「[Plan for high availability and disaster recovery in Skype for Business Server 2015」を参照](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)してください。 
   
 このトピックで説明する常設チャット サーバーの障害復旧ソリューションは、ストレッチされた常設チャット サーバー プール上に構築されています。 ストレッチされた仮想ローカル エリア ネットワーク (VLAN) の要件はありません。 常設チャット サーバー プールを拡大することで、トポロジ内の 1 つのプールを論理的に構成しますが、2 つの異なるデータ センターにサーバーを物理的にプールに配置します。 データベースのSQL Serverを同じ方法で構成し、データベースとミラーを同じデータ センターに展開します。 セカンダリ データ センターでバックアップ データベースを構成する必要があります (オプションのミラーを使用して、障害復旧時に高可用性を提供します)。 これは、障害復旧時のフェールオーバーに使用されるバックアップ データベースです。 
   
-常設チャット サーバーの高可用性と障害復旧を構成する方法の詳細については、「Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server [2015」を参照](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)してください。 
+常設チャット サーバーの高可用性と障害復旧を構成する方法の詳細については、「Configure high availability and disaster recovery [for Persistent Chat Server for Skype for Business Server 2015」を参照](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)してください。 
   
 次の図は、2 つの異なるストレッチ プール トポロジで常設チャット サーバー プールを構成する方法を示しています。
   
