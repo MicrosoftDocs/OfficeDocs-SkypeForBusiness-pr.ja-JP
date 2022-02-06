@@ -1,27 +1,22 @@
 ---
 title: レジストラー設定エキスパンダー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.RegistrarSettingsExpander
+  - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 復元は、レジストラー プールの高可用性と障害復旧を提供します。プライマリ レジストラーに障害が発生した場合にバックアップ レジストラーを提供することで、障害が発生したレジストラーの処理をバックアップ レジストラーが引き継ぐことができるため、ユーザーがログオンして通信することができます。プライマリ レジストラーで障害が発生したシステムによっては、機能が低下する可能性があります。
-ms.openlocfilehash: 5c7c17e693002a8d708e33342b889961630fbdf7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829261"
 ---
+
 # <a name="registrar-settings-expander"></a>レジストラー設定エキスパンダー
  
 復元は、レジストラー プールの高可用性と障害復旧を提供します。プライマリ レジストラーに障害が発生した場合にバックアップ レジストラーを提供することで、障害が発生したレジストラーの処理をバックアップ レジストラーが引き継ぐことができるため、ユーザーがログオンして通信することができます。プライマリ レジストラーで障害が発生したシステムによっては、機能が低下する可能性があります。

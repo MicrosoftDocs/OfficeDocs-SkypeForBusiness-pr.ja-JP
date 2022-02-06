@@ -1,35 +1,30 @@
 ---
 title: 帯域幅ポリシー プロファイルを作成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 帯域幅ポリシーを作成または変更します。このポリシーは、エンタープライズ VoIPの通話受付管理でSkype for Business Server。
-ms.openlocfilehash: d1c7391abb535f3d7309809adea5b66a28087c75
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841909"
 ---
+
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>帯域幅ポリシー プロファイルを作成Skype for Business Server 
  
 帯域幅ポリシーを作成または変更します。このポリシーは、エンタープライズ VoIPの通話受付管理でSkype for Business Server。 
   
 帯域幅ポリシーは、リアルタイムのオーディオおよびビデオのモダリティについて、帯域幅使用量の制限を定義します。 帯域幅ポリシーはbandwidth ポリシー プロファイルに適用され、通話受付管理のために複数のネットワーク サイトに適用できます。
   
-CAC 展開で設定する帯域幅制限のガイドラインについては、「通話受付管理の計画」を参照[Skype for Business Server。](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)
+CAC 展開で設定する必要がある帯域幅制限のガイドラインについては、「プラン [for call admission control in Skype for Business Server」を参照してください](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
 次の手順で作成されるポリシーの例は、オーディオ トラフィック全体、個々のオーディオ セッション、ビデオ トラフィック全体、および個々のビデオ セッションに制限を設けます。 たとえば、5Mb_Link の帯域幅のポリシーのプロファイルは次の制限値を設定します。 
   
@@ -46,7 +41,7 @@ CAC 展開で設定する帯域幅制限のガイドラインについては、�
   
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して帯域幅ポリシー プロファイルをSkype for Business Serverするには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 作成する帯域幅ポリシーのプロファイルごとに、New-CsNetworkBandwidthPolicyProfile コマンドレットを実行します。たとえば、以下を実行します。
     

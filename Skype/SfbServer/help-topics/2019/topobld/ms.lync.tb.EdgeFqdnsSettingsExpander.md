@@ -1,27 +1,22 @@
 ---
 title: エッジ サーバーの FQDN 設定エキスパンダー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeFqdnsSettingsExpander
+  - ms.lync.tb.EdgeFqdnsSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: エッジ サーバーの外部 設定 を編集または指定するには、まず、セッション開始プロトコル (SIP) アクセス、Web 会議エッジ サービス、およびオーディオ/ビデオ エッジ サービスに個別の IP アドレスを使用する必要があります。
-ms.openlocfilehash: 79e60b5785f24ecdcd774b661f406e8d83b31747
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858474"
 ---
+
 # <a name="edge-server-fqdns-settings-expander"></a>エッジ サーバーの FQDN 設定エキスパンダー
 
 エッジ サーバーの **外部 設定** を編集または指定するには、まず、セッション開始プロトコル (SIP) アクセス、Web 会議エッジ サービス、およびオーディオ/ビデオ エッジ サービスに個別の IP アドレスを使用する必要があります。
@@ -38,4 +33,4 @@ ms.locfileid: "60858474"
 > [!IMPORTANT]
 > 別々の FQDN および IP アドレスまたはポートを使用することを含め、これらの設定のいずれかに変更を加える場合は、最初に構成された値に依存する他のすべてのサービスを更新する必要があります。
 
-エッジ サービスの設定の定義と構成の詳細については [、「Define Your Edge Topology 」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)。
+エッジ サービスの設定の定義と構成の詳細については、「Define [Your Edge Topology」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)。

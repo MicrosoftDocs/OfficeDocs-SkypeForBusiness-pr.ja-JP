@@ -1,25 +1,20 @@
 ---
 title: Skype for Business Server 2019 管理ツール
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: '概要: 2019 年のサービス管理ツールSkype for Business Serverします。'
-ms.openlocfilehash: 72b5f9a704aa57a9550bf3f0da3145a8a0c3b931
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848060"
 ---
+
 # <a name="skype-for-business-server-2019-management-tools"></a>Skype for Business Server 2019 管理ツール
  
 **概要:** 2019 年のサービス管理ツールについてSkype for Business Server。

@@ -1,25 +1,20 @@
 ---
-title: (省略可能)[応答グループの休日セットを定義する] Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: '(省略可能)[応答グループの休日セットを定義する] Skype for Business'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 応答グループの休日セットを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 307dfefb42f31102755bd4469ed8c24129e41767
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852721"
 ---
+
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(省略可能)[応答グループの休日セットを定義する] Skype for Business
  
 応答グループの休日セットを作成または変更するには、Skype for Business Server エンタープライズ VoIP。
@@ -33,7 +28,7 @@ ms.locfileid: "60852721"
 
 1. RTCUniversalServerAdmins グループのメンバーまたは応答グループをサポートする定義済みの管理者の役割のいずれかのメンバーとしてログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. 定義する休日ごとに、以下を実行します。
     

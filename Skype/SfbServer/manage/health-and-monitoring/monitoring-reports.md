@@ -1,24 +1,19 @@
 ---
 title: '[監視レポートの使用] Skype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: '概要: [レポートの監視] Skype for Business Server。'
-ms.openlocfilehash: 0088bb5a83de7f1f22e14461bb841a6011810444
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862284"
 ---
+
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>[監視レポートの使用] Skype for Business Server 
  
 **概要:** 詳細については、「レポートの監視」を参照Skype for Business Server。
@@ -29,15 +24,15 @@ Skype for Business Serverレポート サービスによって発行される一
   
 ## <a name="in-this-section"></a>このセクションの内容
 
-- [[監視ダッシュボード] を使用Skype for Business Server](monitoring-dashboard.md)管理者は、システムの正常性とシステム使用状況の概要を簡単に説明します。
+- [[監視ダッシュボード] をSkype for Business Server](monitoring-dashboard.md)管理者は、システムの正常性とシステムの使用状況の概要を簡単に説明します。
     
-- [システム使用状況レポート (Skype for Business Server](system-usage-reports.md)ユーザーが収集した CDR データに基づくシステム使用状況情報をSkype for Business Server。
+- [[Skype for Business Server] のシステム使用状況](system-usage-reports.md)レポート ユーザーが収集した CDR データに基づくシステム使用状況Skype for Business Server。
     
-- [通話診断レポート (ユーザーごとの) Skype for Business Server](call-diagnostic-reports-per-user.md)失敗したピアツーピアセッションと会議セッションに関するユーザーごとの情報を提供します。
+- [[通話診断レポート] (ユーザーごとの) Skype for Business Server](call-diagnostic-reports-per-user.md)失敗したピアツーピアセッションと会議セッションに関するユーザーごとの情報を提供します。
     
-- [通話診断レポート (Skype for Business Server](call-diagnostic-reports.md)失敗したピアツーピアセッションと会議セッションの概要情報と診断データを提供します。
+- [[通話診断レポート] Skype for Business Server](call-diagnostic-reports.md)失敗したピアツーピアセッションおよび会議セッションの概要情報と診断データを提供します。
     
-- [メディア品質診断レポート (Skype for Business Server](media-quality-diagnostic-reports.md)通話の品質に関する情報と、失敗した通話の診断およびトラブルシューティング情報を提供します。
+- [[メディア品質診断レポート] Skype for Business Server](media-quality-diagnostic-reports.md)通話の品質に関する情報と、失敗した通話の診断およびトラブルシューティング情報を提供します。
     
 ## <a name="locating-records"></a>レコードの検索
 

@@ -1,28 +1,23 @@
 ---
 title: 送信音声ルーティングの計画を立Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 通話ルーティング設定、ダイヤル プラン、正規化ルール、音声ポリシー、PSTN 使用法レコード、音声ルートなど、Skype for Business Server エンタープライズ VoIP での発信音声ルーティングについて説明します。
-ms.openlocfilehash: 1c8331f1959b03166ecd02b65e6fa1080bb43993
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861074"
 ---
+
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>送信音声ルーティングの計画を立Skype for Business Server
  
 通話ルーティング設定、ダイヤル プラン、正規化ルール、音声ポリシー、PSTN 使用法レコード、音声ルートなど、Skype for Business Server エンタープライズ VoIP での発信音声ルーティングについて説明します。
@@ -84,7 +79,7 @@ ms.locfileid: "60861074"
     
     組織が複数の場所にわたって 1 つのダイヤル プランを維持している場合でも、プライベート ブランチ エクスチェンジ (PBX) から移行し、既存の内線番号を保持する必要がある エンタープライズ VoIP ユーザーに対して個別のダイヤル プランを作成する必要がある場合があります。
     
-- ユーザーごとのダイヤル プランが必要かどうかを決定します。 たとえば、ブランチ サイトのユーザーが中央サイトに登録されている場合、または存続可能ブランチ アプライアンスに登録されているユーザーがある場合は、ユーザーごとのダイヤル プランと正規化ルールを使用して、そのようなユーザーに対して特別なダイヤル シナリオを検討できます。 詳細については、「Plan [for エンタープライズ VoIP 復元」を参照Skype for Business Server。](enterprise-voice-resiliency.md)
+- ユーザーごとのダイヤル プランが必要かどうかを決定します。 たとえば、ブランチ サイトのユーザーが中央サイトに登録されている場合、または存続可能ブランチ アプライアンスに登録されているユーザーがある場合は、ユーザーごとのダイヤル プランと正規化ルールを使用して、そのようなユーザーに対して特別なダイヤル シナリオを検討できます。 詳細については、「[Plan for エンタープライズ VoIP復元」を参照Skype for Business Server](enterprise-voice-resiliency.md)。
     
 - ダイヤル プランのスコープを決定します (このトピックで前述したように)。
     
@@ -106,7 +101,7 @@ ms.locfileid: "60861074"
   
 #### <a name="external-access-prefix"></a>外部アクセス プレフィックス
 
-ユーザーが外部行を取得するために 1 つ以上の先頭の数字 (9 など) をダイヤルする必要がある場合は、最大 4 文字 \* (#、、および 0- 9) の外部アクセス プレフィックスを指定できます。
+ユーザーが外部行を取得するために 1 つ以上の先頭の数字 (9 など) をダイヤルする必要がある場合は、最大 4 文字 (# \*、、および 0- 9) の外部アクセス プレフィックスを指定できます。
   
 > [!NOTE]
 > 外部アクセス プレフィックスを指定する場合に、プレフィックスに対応するために追加の正規化ルールを作成する必要はありません。 
@@ -137,7 +132,7 @@ ms.locfileid: "60861074"
 
 正規化ルールでは、.NET Framework 正規表現を使用して、逆引き番号参照を実行するために、サーバーがダイヤル文字列を E.164 形式に変換するために使用する数値の一致パターンを指定します。 Skype for Business Server コントロール パネルで正規化ルールを作成するには、式を手動で入力するか、開始数字と一致するダイヤル文字列の長さを入力し、Skype for Business Server コントロール パネルで対応する正規表現を生成します。 いずれの方法でも、終了したら、テスト番号を入力して、正規化ルールが期待通り動作するか確認できます。
   
-正規表現の使用の.NET Frameworkについては[、「.NET Framework 正規表現」を参照してください](/dotnet/standard/base-types/regular-expressions)。
+正規表現の使用の.NET Frameworkについては、「[.NET Framework」を参照してください](/dotnet/standard/base-types/regular-expressions)。
   
 #### <a name="sample-normalization-rules"></a>正規化ルールの例
 <a name="BKMK_SampleNormalizationRules"> </a>
@@ -149,16 +144,16 @@ ms.locfileid: "60861074"
 |**ルール名**|**説明**|**番号パターン**|**翻訳**|**例**|
 |:-----|:-----|:-----|:-----|:-----|
 |4digitExtension  <br/> |4 桁の内線番号を変換します。  <br/> |^(\d{4})$  <br/> |+1425555$1  <br/> |0100 が +14255550100 に変換されます。  <br/> |
-|5digitExtension  <br/> |5 桁の内線番号を変換します。  <br/> |^5(\d {4} )$  <br/> |+1425555$1  <br/> |50100 が +14255550100 に変換されます。  <br/> |
+|5digitExtension  <br/> |5 桁の内線番号を変換します。  <br/> |^5(\d{4})$  <br/> |+1425555$1  <br/> |50100 が +14255550100 に変換されます。  <br/> |
 |7digitcallingRedmond  <br/> |7 桁の番号を Redmond の電話番号に変換します。  <br/> |^(\d{7})$  <br/> |+1425$1  <br/> |5550100 が +14255550100 に変換されます。  <br/> |
 |7digitcallingDallas  <br/> |7 桁の番号を Dallas の電話番号に変換します。  <br/> |^(\d{7})$  <br/> |+1972$1  <br/> |5550100 が +19725550100 に変換されます。  <br/> |
 |10digitcallingUS  <br/> |米国の 10 桁の番号を変換します。  <br/> |^(\d{10})$  <br/> |+1$1  <br/> |2065550100 が +12065550100 に変換されます。  <br/> |
-|LDCallingUS  <br/> |米国の長距離プレフィックス付きの番号を変換します。  <br/> |^1(\d {10} )$  <br/> |+$1  <br/> |12145550100 が +2145550100 に変換されます。  <br/> |
-|IntlCallingUS  <br/> |米国の国際プレフィックス付きの番号を変換します。  <br/> |^011(\d \* )$  <br/> |+$1  <br/> |01191445550100 が +91445550100 に変換されます。  <br/> |
+|LDCallingUS  <br/> |米国の長距離プレフィックス付きの番号を変換します。  <br/> |^1(\d{10})$  <br/> |+$1  <br/> |12145550100 が +2145550100 に変換されます。  <br/> |
+|IntlCallingUS  <br/> |米国の国際プレフィックス付きの番号を変換します。  <br/> |^011(\d\*)$  <br/> |+$1  <br/> |01191445550100 が +91445550100 に変換されます。  <br/> |
 |RedmondOperator  <br/> |0 を Redmond のオペレータ呼び出し番号に変換します。  <br/> |^0$  <br/> |+14255550100  <br/> |0 が +14255550100 に変換されます。  <br/> |
-|RedmondSitePrefix  <br/> |ネットワーク内プレフィックス (6) および Redmond のサイト コード (222) 付きの番号を変換します。  <br/> |^6222(\d {4} )$  <br/> |+1425555$1  <br/> |62220100 が +14255550100 に変換されます。  <br/> |
-|NYSitePrefix  <br/> |ネットワーク内プレフィックス (6) および NY のサイト コード (333) 付きの番号を変換します。  <br/> |^6333(\d {4} )$  <br/> |+1202555$1  <br/> |63330100 が +12025550100 に変換されます。  <br/> |
-|DallasSitePrefix  <br/> |ネットワーク内プレフィックス (6) および Dallas のサイト コード (444) 付きの番号を変換します。  <br/> |^6444(\d {4} )$  <br/> |+1972555$1  <br/> |64440100 が +19725550100 に変換されます。  <br/> |
+|RedmondSitePrefix  <br/> |ネットワーク内プレフィックス (6) および Redmond のサイト コード (222) 付きの番号を変換します。  <br/> |^6222(\d{4})$  <br/> |+1425555$1  <br/> |62220100 が +14255550100 に変換されます。  <br/> |
+|NYSitePrefix  <br/> |ネットワーク内プレフィックス (6) および NY のサイト コード (333) 付きの番号を変換します。  <br/> |^6333(\d{4})$  <br/> |+1202555$1  <br/> |63330100 が +12025550100 に変換されます。  <br/> |
+|DallasSitePrefix  <br/> |ネットワーク内プレフィックス (6) および Dallas のサイト コード (444) 付きの番号を変換します。  <br/> |^6444(\d{4})$  <br/> |+1972555$1  <br/> |64440100 が +19725550100 に変換されます。  <br/> |
    
 以下の表は、Redmond (Washington、米国) の場所のダイヤル プランの例です。これは、前の表に示す正規化ルールに基づいています。
   

@@ -1,27 +1,22 @@
 ---
 title: アーカイブ ポリシー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.MonArchPolicyMain
+  - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: アーカイブ ポリシーを使用して、ユーザーのアーカイブを有効または無効にSkype for Business Server。 それぞれのアーカイブ ポリシーでは、次のどちらかまたは両方のアーカイブを有効化または無効化できます。
-ms.openlocfilehash: eae717d8c3a70b7f7c631f432f78dc4a18f82507
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864194"
 ---
+
 # <a name="archiving-policy"></a>アーカイブ ポリシー
  
 アーカイブ ポリシーを使用して、ユーザーのアーカイブを有効または無効にSkype for Business Server。 それぞれのアーカイブ ポリシーでは、次のどちらかまたは両方のアーカイブを有効化または無効化できます。
@@ -42,7 +37,7 @@ ms.locfileid: "60864194"
 > アーカイブ ポリシーは、ユーザーが管理しているユーザーにのみSkype for Business Server。 Microsoft Exchange Exchange にアーカイブ データを格納するために Exchange 統合を使用する場合、Exchange ポリシーは、Exchange に保存されているユーザーのアーカイブを制御します。 これらのユーザーのアーカイブを有効にするには、ユーザーのメールボックスを [保持] In-Place必要があります。 
   
 [**アーカイブ ポリシー**] ページには、展開に構成されている各アーカイブ ポリシーが一覧表示されます。また、各アーカイブ ポリシーの名前、対象範囲 (グローバル、サイト、ユーザー)、および有効になっているアーカイブ オプションも示されます。[**アーカイブ ポリシー**] ページからは、以下のオプションを使用できます。
-- **New** 次のオプションのアーカイブ ポリシーのそれぞれを 1 つ以上追加できます。
+- **新機能** 次のオプションのアーカイブ ポリシーのそれぞれを 1 つ以上追加できます。
     
   - サイト ポリシー
     
@@ -68,5 +63,5 @@ ms.locfileid: "60864194"
     
 - **更新** [アーカイブ ポリシー] **ページを更新** して、すべてのアーカイブ ポリシーのオプションの状態を確認できます。
     
-Exchange 統合を含むアーカイブ機能の詳細については、「Skype for Business Server でのアーカイブの計画[」、Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)のアーカイブの展開、[](../../../deploy/deploy-archiving/deploy-archiving.md)および Skype for Business Server でのアーカイブ[の管理を参照してください](../../../manage/archiving/archiving.md)。
+Exchange 統合を含むアーカイブ機能の詳細については、「Skype for Business Server でのアーカイブの計画」、[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md) のアーカイブの展開、および Skype for Business Server でのアーカイブの[](../../../deploy/deploy-archiving/deploy-archiving.md)[管理を参照してください。](../../../manage/archiving/archiving.md).
 

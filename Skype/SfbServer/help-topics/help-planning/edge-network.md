@@ -1,31 +1,26 @@
 ---
-title: Skype for Business Serverエッジ ネットワーク計画ツール
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype for Business Server エッジ ネットワーク計画ツール
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.EdgeNetwork
-- ms.lync.plan.EdgeNetwork
+  - ms.lync.plan.EdgeNetwork
+  - ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: ほとんどのエッジ コンポーネントは境界ネットワークに展開されます。 これらのコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 ここで説明するコンポーネントは、Skype for Business Server 2015 のエッジ サーバー シナリオの一部であり、境界ネットワークにあります。
-ms.openlocfilehash: f1231870c6e2bdbdac0b1be439154295d6f49cfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847720"
 ---
-# <a name="skype-for-business-server-edge-network-planning-tool"></a>Skype for Business Serverエッジ ネットワーク計画ツール
+
+# <a name="skype-for-business-server-edge-network-planning-tool"></a>Skype for Business Server エッジ ネットワーク計画ツール
  
-ほとんどのエッジ コンポーネントは境界ネットワークに展開されます。 次のコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 ただし、コンポーネントは[2015 年 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md)年のエッジ サーバー のシナリオに含Skype for Business Server境界ネットワークにあります。 エッジ コンポーネントには、次のものが含まれます。
+ほとんどのエッジ コンポーネントは境界ネットワークに展開されます。 次のコンポーネントは、境界ネットワークのエッジ トポロジを構成します。 ただし、コンポーネントは [2015 年 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md) 年のエッジ サーバー シナリオの一部であり、境界ネットワークSkype for Business Server含まれています。 エッジ コンポーネントには、次のものが含まれます。
   
 - エッジ サーバー
     

@@ -1,27 +1,22 @@
 ---
 title: 場所のポリシー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.NcsLocMain
+  - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 場所ポリシーは、拡張 9-1-1 (E9-1-1) を有効にするかどうか、E9-1-1 の使用方法、およびユーザーと連絡先での場所情報の使用方法を指定します。
-ms.openlocfilehash: 3226a166ee9389501d9c63c71b933601de633f38
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831511"
 ---
+
 # <a name="location-policy"></a>場所ポリシー
 
 場所ポリシーは、拡張 9-1-1 (E9-1-1) を有効にするかどうか、E9-1-1 の使用方法、およびユーザーと連絡先での場所情報の使用方法を指定します。
@@ -53,7 +48,7 @@ ms.locfileid: "60831511"
 
 次の一覧に、このページのコマンドを示します。
 
-- **New** 新しいサイトの場所ポリシーまたはユーザーの場所ポリシーを開始します。
+- **新機能** 新しいサイトの場所ポリシーまたはユーザーの場所ポリシーを開始します。
 
 - **編集** 選択した場所ポリシーを開き、編集するか、リスト内のすべての場所ポリシーを選択するか、選択したサイト ポリシーまたはユーザー ポリシーを削除します。
 
@@ -78,4 +73,4 @@ ms.locfileid: "60831511"
 
 - **E9-1-1 マスク** ユーザーがダイヤルして緊急ダイヤル番号に変換する番号を指定します。
 
-緊急サービスの機能エンタープライズ VoIP詳細については、「計画」のドキュメントの[「E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1)の概要」を参照してください。 場所ポリシーの操作の詳細については、「操作」のドキュメントの「[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)」を参照してください。
+緊急サービスの機能エンタープライズ VoIP詳細については、「計画」のドキュメントの「[E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) の概要」を参照してください。 場所ポリシーの操作の詳細については、「操作」のドキュメントの「[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)」を参照してください。

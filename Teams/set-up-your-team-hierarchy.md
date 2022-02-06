@@ -1,35 +1,30 @@
 ---
 title: チーム対象の階層を設定する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: andfried, acolonna
+ms.reviewer: 'andfried, acolonna'
 search.appverid: MET150
 description: 大規模なチーム セットにコンテンツを発行するために、組織内のチーム階層を設定する方法について学習します。
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: f65ffa8fa6dc661451669ded8f407bb519468112
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850552"
+  - Microsoft Teams
 ---
+
 # <a name="set-up-your-team-targeting-hierarchy"></a>チーム対象の階層を設定する
 
-チームのターゲット階層を設定すると、組織は大規模なチーム セットにコンテンツを発行できます。 階層を対象とするチームは、階層内のすべてのチームが互いに関連付けられている方法、タスクを発行できるユーザー、およびユーザーが公開するアクセス許可を持つチームを定義します。 組織に対してチームのターゲット階層が設定されていない限り、すべてのユーザーに対して公開機能が無効になります。 階層を対象とするチームを設定するには、階層を定義するファイルを作成し、それを Teams にアップロードして組織に適用する必要があります。 スキーマがアップロードされると、そのスキーマ内のTeamsを使用できます。
+チームのターゲット階層を設定すると、組織は大規模なチーム セットにコンテンツを発行できます。 階層を対象とするチームは、階層内のすべてのチームが互いに関連付けられている方法、タスクを発行できるユーザー、およびユーザーが公開するアクセス許可を持つチームを定義します。 組織に対してチームのターゲット階層が設定されていない限り、すべてのユーザーに対して公開機能が無効になります。 階層を対象とするチームを設定するには、階層を定義するファイルを作成し、それを Teams にアップロードして組織に適用する必要があります。 スキーマがアップロードされると、そのスキーマ内Teams使用できます。
 
 > [!IMPORTANT]
 > 最初のリリースでは、タスク アプリだけが階層型チームをサポートします。  組織にチームのターゲット階層を適用すると、タスク [アプリで](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) タスクを発行できます。 チームの他の領域にチームの階層が表示Microsoft Teams。
 
-次に示すのは、タスク アプリで階層がどのように表されるのかの例Teams。 タスク リストが作成されると、発行チームのメンバーは、タスク リストの送信 (発行) 先の受信者チームを選択できます。 チームを選択すると、発行チームは階層、属性、または両方の組み合わせでフィルター処理できます。<br>
+次に示すのは、階層がタスク アプリ内のタスク アプリでどのように表Teams。 タスク リストが作成されると、発行チームのメンバーは、タスク リストの送信 (発行) 先の受信者チームを選択できます。 チームを選択すると、発行チームは階層、属性、または両方の組み合わせでフィルター処理できます。<br>
 
 ![タスクの発行のスクリーンショット。](media/manage-tasks-app-publish.png)
 
@@ -39,8 +34,8 @@ ms.locfileid: "60850552"
 
 * **ルート ノード** は、階層内の最上位のノードです。 この例では、Retail Communications はルート ノードです。
 * **親ノードと****子ノードは**、接続されている 2 つのノード間の関係を表す用語です。 この例では、District 01 は領域 1 の子ノードです。
-* 複数のレベルの子は、子孫 **と呼ばれます**。 District 01、Store 01、Store 03、Store 07、District 02、District 03 はすべて、Area 1 の子孫です。
-* 子がないノードはリーフ ノードと **呼ばれる。** 階層の一番下に表示されます。
+* 複数のレベルの子は子孫と **呼ばれます**。 District 01、Store 01、Store 03、Store 07、District 02、District 03 はすべて、Area 1 の子孫です。
+* 子がないノードはリーフ ノードと **呼ばれる**。 階層の一番下に表示されます。
 * **受信者チーム** は、公開するコンテンツの特定のセットを受信するために選択されたチームです。 リーフ ノードである必要があります。
 
 ## <a name="plan-your-hierarchy"></a>階層を計画する
@@ -78,7 +73,7 @@ ms.locfileid: "60850552"
 
 階層を定義するスキーマは、コンマ区切り値 (CSV) ファイルに基づいて作成されます。 ファイルは、次の形式UTF-8があります。 CSV ファイル内の各行は、チームの階層内の 1 つのノードに対応します。 各行には、階層内のノードに名前を付け、必要に応じてチームにリンクする情報が含まれます。また、それをサポートするアプリでチームをフィルター処理するために使用できる属性も含まれています。
 
-バケット を定義することもできます。これは、発行チームが受信者チームに送信されるコンテンツを整理して、関連するコンテンツの表示、並べ替え、集中を容易にするために使用できるカテゴリです。
+バケットを定義することもできます。これは、発行チームが受信者チームに送信されるコンテンツを整理して、関連するコンテンツの表示、並べ替え、および集中を容易にするために使用できるカテゴリです。
 
 ### <a name="add-required-columns"></a>必要な列を追加する
 
@@ -86,9 +81,9 @@ CSV ファイルには、最初の列から始まる次の 3 つの列を次の�
 
 | 列名   | 必須 | 説明   |
 ----------------|----------|---------------|
-| DisplayName    | はい      | このフィールドはノードの名前です。 名前は最大 100 文字で、A ~ Z、a ~ z、および 0 ~ 9 の文字のみを含めることができます。 ノード名は一意である必要があります。 |
-| ParentName    | はい       | これは親ノードの名前です。 ここで指定する値は、親ノードの **DisplayName** フィールドの値と正確に一致する必要があります。 複数の親ノードを追加する場合は、各親ノード名をセミコロンで区切;)。 最大 25 の親ノードを追加できます。各親ノード名は最大 2,500 文字です。 ノードは、親ノードがルート ノードである場合にのみ、複数の親ノードを持つ可能性があります。   <br><br>**重要** 階層内の上位の親が階層の下位にある子ノードを参照するループを作成しないように注意してください。 これはサポートされていません。 |
-| TeamId        | はい (チームがタスクを発行するか、親ノードからタスクを受け取った場合)       | これには、ノードをリンクするチームの ID が含まれている。 各ノードは一意のチームを参照する必要があります。したがって、各 TeamId 値は階層ファイルに 1 回しか表示されません。 ノードをリンクするチームの ID を取得するには、次の PowerShell コマンドを実行します `Get-Team | Export-Csv TeamList.csv` 。 このコマンドでは、組織内のチームが一覧表示され、各チームの名前と ID が含まれます。 リンク先のチームの名前を見つけ、このフィールドに ID をコピーします。|
+| DisplayName    | Yes      | このフィールドはノードの名前です。 名前は最大 100 文字で、A ~ Z、a ~ z、および 0 ~ 9 の文字のみを含めることができます。 ノード名は一意である必要があります。 |
+| ParentName    | Yes       | これは親ノードの名前です。 ここで指定する値は、親ノードの **DisplayName** フィールドの値と正確に一致する必要があります。 複数の親ノードを追加する場合は、各親ノード名をセミコロンで区切;)。 最大 25 の親ノードを追加できます。各親ノード名は最大 2,500 文字です。 ノードは、親ノードがルート ノードである場合にのみ、複数の親ノードを持つ可能性があります。   <br><br>**大事な** 階層内の上位の親が階層の下位にある子ノードを参照するループを作成しないように注意してください。 これはサポートされていません。 |
+| TeamId        | はい (チームがタスクを発行するか、親ノードからタスクを受け取った場合)       | これには、ノードをリンクするチームの ID が含まれている。 各ノードは一意のチームを参照する必要があります。したがって、各 TeamId 値は階層ファイルに 1 回しか表示されません。 ノードをリンクするチームの ID を取得するには、次の PowerShell コマンドを実行します `Get-Team | Export-Csv TeamList.csv`。 このコマンドでは、組織内のチームが一覧表示され、各チームの名前と ID が含まれます。 リンク先のチームの名前を見つけ、このフィールドに ID をコピーします。|
 
 > [!NOTE]
 > ノードがルート ノードまたはリーフ ノードで、発行とレポートに対応するアクセス許可を付与するためにチーム メンバーシップを必要としない場合は、TeamId を空白のままにすることができます。 この方法を使用すると、受信者チームを選択する際に細分性を高め、対応するチームがなくても完了レポートを表示できます。
@@ -100,7 +95,7 @@ CSV ファイルには、最初の列から始まる次の 3 つの列を次の�
 |属性を追加する方法|説明 |例  |
 |---|---------|---------|
 |属性の値が相互に排他的である場合、指定した列名は属性の名前になります。|各行にはその属性に対して 1 つの値を含め、各属性列には最大 50 の一意の値を含めることができます。 各値の長は最大 100 文字です。 属性列で指定した属性値のセットは、チームのターゲット階層を使用して受信者チームを選択すると、その属性のフィルター値として表示されます。|ユーザーがレイアウトでストアをフィルター処理できる必要がある。 この属性の値は相互に排他的です。これは、ストアにレイアウトを 1 つしか設定しないのでです。 <br><br>レイアウトでストアをフィルター処理する属性を追加するには、[ストア レイアウト] という名前の列を追加します。 この例では、Store レイアウト属性の値は、Compact、Standard、Large です。
-|属性に対して複数の値を指定する必要があるが、値が相互に排他的でない場合は、列名に **AttributeName:UniqueValue** 形式を使用します。 <br><br>**重要** 必ず英語専用コロン (:)Unicode は属性列の区切り記号としてサポートされていません。 |コロンの前のテキスト文字列 (:)は属性の名前になります。 コロンの前に同じテキスト文字列を含むすべての列 (:)は、フィルター 処理メニューのセクションにグループ化されます。 コロンの後の各文字列が、そのセクションの値になります。<br><br>各行には、その属性に対して 0 (ゼロ) または 1 の値を指定できます。 値 0 は、属性がノードに適用されません。値 1 は、そのノードに属性が適用されるという意味です。|ユーザーが部門別にストアをフィルター処理できる必要がある。 ストアには複数の部署を含め、この属性の値は相互に排他的ではありません。<br><br>この例では、属性列として、Departments:Clothing、Departments:Electronics、Departments:Foods、Departments:Home and Garden、Departments:Sporting goods を追加します。 部門は属性名になり、ユーザーは、ウェア、電子、食品、家庭および庭、スポーツ用品の各部門でフィルター処理できます。|
+|属性に対して複数の値を指定する必要があるが、値が相互に排他的でない場合は、列名に **AttributeName:UniqueValue** 形式を使用します。 <br><br>**大事な** 必ず英語専用コロン (:)Unicode は属性列の区切り記号としてサポートされていません。 |コロンの前のテキスト文字列 (:)は属性の名前になります。 コロンの前に同じテキスト文字列を含むすべての列 (:)は、フィルター 処理メニューのセクションにグループ化されます。 コロンの後の各文字列が、そのセクションの値になります。<br><br>各行には、その属性に対して 0 (ゼロ) または 1 の値を指定できます。 値 0 は、属性がノードに適用されません。値 1 は、そのノードに属性が適用されるという意味です。|ユーザーが部門別にストアをフィルター処理できる必要がある。 ストアには複数の部署を含め、この属性の値は相互に排他的ではありません。<br><br>この例では、属性列として、Departments:Clothing、Departments:Electronics、Departments:Foods、Departments:Home and Garden、Departments:Sporting goods を追加します。 部門は属性名になり、ユーザーは、ウェア、電子、食品、家庭および庭、スポーツ用品の各部門でフィルター処理できます。|
 
 属性列を追加する場合は、次の注意が必要です。
 
@@ -125,11 +120,11 @@ CSV ファイルには、最初の列から始まる次の 3 つの列を次の�
 
 前の図に示した階層をサポートするために作成されるスキーマ CSV ファイルの例を次に示します。 このスキーマには、次の情報が含まれます。
 
-* 、、および という名前 `TargetName` の 3 `ParentName` つの必須列 `TeamId`
-* 、、および という名前 `Store layout` の 3 `Departments:Clothing` つの属性列 `Departments:Foods`
-* 、、および という名前 `Fresh Foods` の 3 `Frozen Foods` つのバケット列 `Women's Wear`
+* 、、および という名前の `TargetName``ParentName`3 つの必須列`TeamId`
+* 、、および という名前 `Store layout`の `Departments:Clothing`3 つの属性列 `Departments:Foods`
+* 、、および という名前の `Fresh Foods``Frozen Foods`3 つのバケット列`Women's Wear`
 
-属性 `Store layout` には、、、 を `Compact` 含む `Standard` 値があります `Large` 。 属性 `Departments` 列は、(ゼロ) または `0` の値に設定できます `1` 。 レイアウト `Store` と `Departments` 属性は、上の図には表示されません。 ここでは、ノード エントリに属性を追加する方法を示すのに役立ちます。 3 つのバケット列でも同じです。
+属性 `Store layout` には、、、 を含む `Compact`値 `Standard`があります `Large`。 属性 `Departments` 列は、(ゼロ) または `0` の値に設定できます `1`。 レイアウト `Store` と属性 `Departments` は、上の図には表示されません。 ここでは、ノード エントリに属性を追加する方法を示すのに役立ちます。 3 つのバケット列でも同じです。
 
 ```CSV
 TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
@@ -154,7 +149,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 > この手順を実行するには、PowerShell ギャラリー Teams PowerShell パブリック プレビュー モジュールをインストールして使用する必要があります。 モジュールをインストールする手順については、PowerShell のインストールに関するTeams参照してください。
 
 > [!NOTE]
-> Government Community Cloud (GCC) のお客様は、パブリック クラウド環境ではなく GCC 環境にデータがルーティングされるのを確認するために、コマンドレット プレビュー バージョン[2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview)以降を使用する必要があります。
+> Government Community Cloud (GCC) のお客様は、パブリック クラウド環境ではなく GCC 環境にデータがルーティングされるのを確認するために、コマンドレット プレビュー バージョン [2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) 以降を使用する必要があります。
 
 スキーマ CSV ファイルで階層を定義した後は、その階層をスキーマ CSV ファイルにアップロードTeams。 これを行うには、次のコマンドを実行します。 この手順を実行するには、グローバル管理者Teamsまたはサービス管理者である必要があります。
 
@@ -179,7 +174,7 @@ Get-TeamTargetingHierarchyStatus
 フィールド|説明
 -----|------------
 ID | アップロードの一意の ID。
-状態 | アップロード状態。 値には **、Starting、Validating、Successful、Failed****が含まれます。**  
+状態 | アップロード状態。 値には **、開始、****検証、****成功、****失敗が含まれます。**
 ErrorDetails | アップロード エラーが発生した場合の詳細。 エラーの詳細については、「トラブルシューティング」セクションを参照してください。 エラーがない場合、このフィールドは空白です。
 LastUpdatedAt | ファイルが最後に更新されたタイムスタンプと日付。
 LastModifiedBy | ファイルを変更した最後のユーザーの ID。
@@ -202,7 +197,7 @@ Remove-TeamTargetingHierarchy
 ### <a name="install-the-teams-powershell-module"></a>PowerShell モジュールTeamsインストールする
 
 > [!IMPORTANT]
-> この手順を実行するには、PowerShell ギャラリー から powerShell パブリック Teams モジュールをインストールして[使用する必要があります](https://www.powershellgallery.com/packages/MicrosoftTeams/)。 モジュールをインストールする手順については、PowerShell のインストールに関する[ページTeams参照してください](teams-powershell-install.md)。
+> この手順を実行するには、PowerShell ギャラリー Teams PowerShell パブリック プレビュー モジュールをインストールして[使用する必要があります](https://www.powershellgallery.com/packages/MicrosoftTeams/)。 モジュールをインストールする手順については、PowerShell のインストールに関[するTeams参照してください](teams-powershell-install.md)。
 
 ### <a name="sample-script"></a>サンプル スクリプト
 
@@ -270,10 +265,10 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-スキーマ CSV ファイルでチームに正しい TeamId を使用していることを確認します。 TeamId は、チームをバックアップするグループのグループ ID Microsoft 365同じである必要があります。 チームのグループ ID は、管理センターでMicrosoft Teamsできます。
+スキーマ CSV ファイルでチームに正しい TeamId を使用していることを確認します。 TeamId は、チームをバックアップするグループのグループ ID Microsoft 365同じである必要があります。 管理センターでチームのグループ ID をMicrosoft Teamsできます。
 
-1. 管理センターの左側のナビゲーション [Microsoft Teams、[](https://admin.teams.microsoft.com/)チームの管理] にTeams  >  **移動します**。
-2. [**グループ ID]** 列がテーブルに表示されない場合は、テーブルの右上隅にある [列の編集] を選択し、[グループ **ID] をオンにします**。
+1. 管理センターの左側の [ナビゲーションで、[](https://admin.teams.microsoft.com/)Microsoft Teams **管理]** >  Teams **に移動します**。
+2. [**グループ ID]** 列がテーブルに表示されない場合は、テーブルの右上隅にある [列の編集] を選択し、[グループ ID] を **オンにします**。
 3. 一覧でチームを見つけ、グループ ID を見つける。
 
 スキーマ CSV ファイルの TeamId が、管理センターに表示されるグループ ID と一致Microsoft Teams確認します。

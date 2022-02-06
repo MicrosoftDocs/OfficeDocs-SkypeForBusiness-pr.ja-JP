@@ -1,25 +1,20 @@
 ---
 title: 2015 年に常設チャット データベースをバックアップSkype for Business Serverする
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: '概要: 2015 年に常設チャット サーバー データベースをバックアップおよび復元するSkype for Business Serverします。'
-ms.openlocfilehash: 3c294a33a82a9279e05e1d69e48b531f8b85e3c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841169"
 ---
+
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>2015 年に常設チャット データベースをバックアップSkype for Business Serverする
  
 **概要:** 2015 年に常設チャット サーバー データベースをバックアップおよび復元するSkype for Business Serverします。
@@ -35,9 +30,9 @@ ms.locfileid: "60841169"
   
 - SQL Serverバックアップ
     
-- 常設チャット データをファイルとしてエクスポートする **Export-CsPersistentChatData** コマンドレット
+- **常設チャット データをファイルとしてエクスポートする Export-CsPersistentChatData** コマンドレット
     
-SQL Server バックアップを使用して作成されるデータには **、Export-CsPersistentChatData** コマンドレットによって作成されたディスク領域の 20 倍のディスク領域が必要になりますが、SQL Server バックアップは使い慣れた手順である可能性があります。
+SQL Server バックアップを使用して作成されるデータには、**Export-CsPersistentChatData** コマンドレットによって作成されたディスク領域の 20 倍のディスク領域が必要になりますが、SQL Server バックアップは、よく知っている手順である可能性があります。
   
 バックアップ手順を使用するSQL Server詳細については、SQLドキュメントを参照してください。 
   
@@ -61,7 +56,7 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 ## <a name="restore-the-databases"></a>データベースを復元する
 
-常設チャット データを復元する方法は、バックアップに使用した方法によって異なります。 バックアップ手順をSQL Server場合は、復元手順SQL Server使用する必要があります。 **Export-CsPersistentChatData** コマンドレットを使用して常設チャット データをバックアップした場合は **、Import-CsPersistentChatData** コマンドレットを使用してデータを復元する必要があります。
+常設チャット データを復元する方法は、バックアップに使用した方法によって異なります。 バックアップ手順をSQL Server場合は、復元手順SQL Server使用する必要があります。 **Export-CsPersistentChatData** コマンドレットを使用して常設チャット データをバックアップした場合は、**Import-CsPersistentChatData** コマンドレットを使用してデータを復元する必要があります。
   
 ```PowerShell
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>

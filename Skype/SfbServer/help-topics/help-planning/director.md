@@ -1,28 +1,23 @@
 ---
 title: Skype for Business Serverディレクター計画ツール
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.Director
-- ms.lync.plan.Director
+  - ms.lync.plan.Director
+  - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: ディレクターは、2015 年Skype for Business Serverを実行しているサーバーで、ユーザー要求を認証できますが、ユーザー アカウントは使用しません。
-ms.openlocfilehash: d96ba36f98bb6ef2fb3d70dec2b700e916008a9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840179"
 ---
+
 # <a name="skype-for-business-server-director-planning-tool"></a>Skype for Business Serverディレクター計画ツール
  
 ディレクターは、2015 年Skype for Business Serverを実行しているサーバーで、ユーザー要求を認証できますが、ユーザー アカウントは使用しません。 
