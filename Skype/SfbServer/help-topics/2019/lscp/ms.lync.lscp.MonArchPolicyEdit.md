@@ -1,27 +1,22 @@
 ---
-title: アーカイブ ポリシー [新規の作成] または [既存の編集]
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'アーカイブ ポリシー [新規の作成] または [既存の編集]'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.MonArchPolicyEdit
+  - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: アーカイブ ポリシーを使用して、展開内の内部通信と外部通信のアーカイブを管理します。このポリシーは、Skype for Business Server。 アーカイブ ポリシーには、グローバル ポリシーとオプションの 1 つ以上のサイト ポリシーやユーザー ポリシーが含まれます。
-ms.openlocfilehash: 0cf89285cd1549a1d84c7ab5ef3c553ca829c770
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861654"
 ---
+
 # <a name="archiving-policy-create-new-or-edit-existing"></a>アーカイブ ポリシー: 新規作成または現在の形式のままで編集
  
 アーカイブ ポリシーを使用して、展開内の内部通信と外部通信のアーカイブを管理します。このポリシーは、Skype for Business Server。 アーカイブ ポリシーには、グローバル ポリシーとオプションの 1 つ以上のサイト ポリシーやユーザー ポリシーが含まれます。
@@ -50,5 +45,5 @@ ms.locfileid: "60861654"
     
 - **外部通信のアーカイブ** リモート ユーザー (匿名ユーザーや PIC 設定ユーザーを含む) やフェデレーション パートナーなど、外部ユーザーを含む通信のアーカイブを有効にするには、このチェック ボックスをオンにします。 既定では、これはどのポリシーでも有効になっていません。
     
-Exchange 統合を含むアーカイブ機能の詳細については、「Skype for Business Server でのアーカイブの計画[」、Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)のアーカイブの展開、[](../../../deploy/deploy-archiving/deploy-archiving.md)および Skype for Business Server でのアーカイブ[の管理を参照してください](../../../manage/archiving/archiving.md)。
+Exchange 統合を含むアーカイブ機能の詳細については、「Skype for Business Server でのアーカイブの計画」、[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md) のアーカイブの展開、および Skype for Business Server でのアーカイブの[](../../../deploy/deploy-archiving/deploy-archiving.md)[管理を参照してください。](../../../manage/archiving/archiving.md).
 

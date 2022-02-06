@@ -1,28 +1,23 @@
 ---
 title: ユーザー設定でアナウンスを作成またはSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: '[アナウンス] アプリケーションのアナウンスを作成または削除Skype for Business Server エンタープライズ VoIP。 これは、割り当てられていない番号の呼び出しの処理方法に影響します。'
-ms.openlocfilehash: 26882070c566eba57925b5eddc43cd11d0e9ea7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843520"
 ---
+
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>ユーザー設定でアナウンスを作成またはSkype for Business Server
 
 [アナウンス] アプリケーションのアナウンスを作成または削除Skype for Business Server エンタープライズ VoIP。 これは、割り当てられていない番号の呼び出しの処理方法に影響します。
@@ -52,9 +47,9 @@ ms.locfileid: "60843520"
 
 1. 音声ガイダンスの場合は、オーディオ ファイルを作成します。
 
-2. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「代理セットアップのアクセス許可」の説明に従って必要なユーザー権限でログオン **します。**
+2. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「委任セットアップのアクセス許可」の説明に従って必要なユーザー権限を持つコンピューターにログオンします。
 
-3. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+3. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 4. 音声ガイダンスの場合は、次のように実行します。
 
@@ -62,7 +57,7 @@ ms.locfileid: "60843520"
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. 次を実行します: 
+5. 次のコマンドを実行します。
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
@@ -84,15 +79,15 @@ ms.locfileid: "60843520"
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   これらのコマンドレットの詳細、 **および TextToSpeechPrompt** パラメーターで使用する言語コードの一覧については [、「New-CsAnnouncement」を参照してください](/powershell/module/skype/new-csannouncement?view=skype-ps)。
+   これらのコマンドレットの詳細と **、TextToSpeechPrompt** パラメーターで使用する言語コードの一覧については、「 [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps)」を参照してください。
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>割り当てられていない番号のアナウンスを削除する
 
 ### <a name="to-delete-an-announcement"></a>アナウンスを削除するには
 
-1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「代理セットアップのアクセス許可」の説明に従って必要なユーザー権限でログオン **します。**
+1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「委任セットアップのアクセス許可」の説明に従って必要なユーザー権限を持つコンピューターにログオンします。
 
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 3. 組織のすべてのアナウンスの一覧を取得します。コマンド ラインで次のコマンドを実行します。
 
@@ -113,7 +108,7 @@ ms.locfileid: "60843520"
    ```
 
     > [!NOTE]
-    > その他のオプションの詳細については [、「Get-CsAnnouncement」](/powershell/module/skype/get-csannouncement?view=skype-ps) および [「Remove-CsAnnouncement」を参照してください](/powershell/module/skype/remove-csannouncement?view=skype-ps)。
+    > その他のオプションの詳細については、「 [Get-CsAnnouncement」](/powershell/module/skype/get-csannouncement?view=skype-ps) および「 [Remove-CsAnnouncement」を参照してください](/powershell/module/skype/remove-csannouncement?view=skype-ps)。
 
 ## <a name="see-also"></a>関連項目
 

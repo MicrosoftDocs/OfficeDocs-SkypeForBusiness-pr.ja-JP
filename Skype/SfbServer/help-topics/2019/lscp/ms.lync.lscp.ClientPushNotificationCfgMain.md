@@ -1,27 +1,22 @@
 ---
 title: モバイル クライアント プッシュ通知の構成
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientPushNotificationCfgMain
+  - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: '[Microsoft プッシュ通知] と [Apple Push 通知] を構成するには、どちらの種類のプッシュ通知が必要かを定義するポリシーを作成する必要があります。'
-ms.openlocfilehash: 0f0d5a465abecf9ba0f5fb2b5de594c537801914
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847980"
 ---
+
 # <a name="mobile-client-push-notification-configuration"></a>モバイル クライアント: プッシュ通知の構成
  
 [**Microsoft プッシュ通知**] と [**Apple Push 通知**] を構成するには、どちらの種類のプッシュ通知が必要かを定義するポリシーを作成する必要があります。

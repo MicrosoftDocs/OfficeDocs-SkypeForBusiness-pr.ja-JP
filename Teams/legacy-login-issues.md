@@ -1,32 +1,27 @@
 ---
 title: レガシ システムでのメッセージと呼び出しの受信に関するTeams
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 05/29/2020
 ms.topic: troubleshooting
 ms.service: msteams
 audience: admin
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 description: レガシ システムでのメッセージと呼び出しの受信に関する問題のトラブルシューティング
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 69a3f070b247507e0d22535179353860434e94ad
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857144"
 ---
+
 # <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>レガシ システムでのメッセージと呼び出しの受信に関する問題
 
-以前のバージョンのアプリケーションを使用している場合、または他のアプリケーションでログインしている場合、Teamsまたは呼び出しの受信に問題が発生する可能性があります。
+以前のバージョンのアプリケーションを使用している場合、または他のアプリケーションでログインしている場合、Teamsまたは呼び出しの受信に問題がある可能性があります。
 
 ## <a name="legacy-adu-setups"></a>従来の ADU セットアップ
 
@@ -41,7 +36,7 @@ ms.locfileid: "60857144"
 
 詳細[については、「最新の認証をMicrosoft Teamsサインインする」](sign-in-teams.md)を参照してください。
 
-## <a name="skype-token-revocation"></a>Skype取り消し
+## <a name="skype-token-revocation"></a>Skypeトークンの失効
 
 パスワードを変更/リセットすると、古いクライアントは最大 1 時間メッセージと呼び出しを受信しません。 この問題を解決するには、アプリを再起動するか、新しいクライアントに移動します。
 

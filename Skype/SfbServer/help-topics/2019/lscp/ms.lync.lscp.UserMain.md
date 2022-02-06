@@ -1,27 +1,22 @@
 ---
 title: コントロール パネル - 更新されたユーザー検索
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.UserMain
+  - ms.lync.lscp.UserMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 検索クエリの結果を使用して、検索クエリのユーザーを構成Skype for Business Server。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 Lync Server コントロール パネルまたは Active Directory ユーザーとコンピューター スナップインを使用してユーザーを検索することもできます。
-ms.openlocfilehash: 3c5bdc9de490adbc022f00342d291d012da78d4b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854931"
 ---
+
 # <a name="control-panel---updated-user-search"></a>コントロール パネル - 更新: ユーザー検索
 
 検索クエリの結果を使用して、検索クエリのユーザーを構成Skype for Business Server。 ユーザーは、表示名、名、姓、セキュリティ アカウント マネージャー (SAM) のアカウント名、SIP アドレス、または回線 URI (Uniform Resource Identifier) で検索できます。 Lync Server コントロール パネルまたは Active Directory ユーザーとコンピューター スナップインを使用してユーザーを検索することもできます。
@@ -76,7 +71,7 @@ ms.locfileid: "60854931"
 
 ### <a name="search-results-menus"></a>検索結果メニュー
 
-- **ユーザーを有効にする**[ユーザー: 新しい [Lync Server ユーザー]](ms.lync.lscp.UserNew.md)ダイアログを開き、新しいユーザーをユーザーに追加Skype for Business Server。
+- **ユーザーを有効にする**[ユーザー: 新しい [Lync Server ユーザー] ダイアログを](ms.lync.lscp.UserNew.md)開き、新しいユーザーをユーザーに追加Skype for Business Server。
 
     新規連絡先を追加するには、下矢印をクリックして [**連絡先を有効にする**] を選択し、[[Users: New Contact Objects](ms.lync.lscp.UserNewContact.md)] ダイアログを開きます。
 
@@ -92,7 +87,7 @@ ms.locfileid: "60854931"
 
   - **PIN の状態を表示する** [ユーザー [: PIN 状態の表示] ダイアログボックスが](ms.lync.lscp.UserViewPin.md) 開き、選択したユーザーの PIN データが表示されます。
 
-  - **PIN の設定** [PIN の [設定]](ms.lync.lscp.UserSetPin.md) ダイアログを開き、選択したユーザーの PIN を設定できます。
+  - **PIN の設定** [ [PIN の設定]](ms.lync.lscp.UserSetPin.md) ダイアログを開き、選択したユーザーの PIN を設定できます。
 
   - **PIN のロック** ユーザーの PIN をロックします。
 

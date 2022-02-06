@@ -1,28 +1,23 @@
 ---
 title: 応答グループの展開プロセス (Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 展開プロセスと、応答グループの手順をSkype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 13a83c5fbedc2a7b38118b0e7935c4722e3855ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853701"
 ---
+
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>応答グループの展開プロセス (Skype for Business
 
 展開プロセスと、応答グループの手順をSkype for Business Server エンタープライズ VoIP。
@@ -71,7 +66,7 @@ ms.locfileid: "60853701"
 
 ### <a name="enabling-users"></a>ユーザーの有効化
 
-応答グループを構成する最初の手順は、エージェント グループを作成します。 エージェント グループを作成する前に、応答グループのエージェントになるユーザーを有効にし、Skype for Businessおよびエンタープライズ VoIP。 通常、ユーザーがサーバー Skype for Businessを有効にすることを、サーバーまたはサーバー Enterprise Edition展開Standard Edition手順です。 ユーザーが Lync [Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)プレビュー Skype for Business有効または無効にするを参照してください。 エンタープライズ VoIP のユーザーの有効化は通常、エンタープライズ VoIP 展開で行うステップです。 詳細については、「ユーザーを[有効にする」を参照エンタープライズ VoIPをSkype for Business Server。](enable-users-for-enterprise-voice.md)
+応答グループを構成する最初の手順は、エージェント グループを作成します。 エージェント グループを作成する前に、応答グループのエージェントになるユーザーを有効にし、Skype for Businessおよびエンタープライズ VoIP。 通常、ユーザーがサーバー Skype for Businessを有効にすることを、サーバーまたはサーバー Enterprise Edition展開Standard Edition手順です。 ユーザーが Lync [Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) プレビュー Skype for Business有効または無効にするを参照してください。 エンタープライズ VoIP のユーザーの有効化は通常、エンタープライズ VoIP 展開で行うステップです。 詳細については、「ユーザーを有効[にする」を参照エンタープライズ VoIP。Skype for Business Server](enable-users-for-enterprise-voice.md)。
 
 ### <a name="complying-with-fips-requirements"></a>FIPS 要件の準拠
 
@@ -85,7 +80,7 @@ Web.config ファイルを変更するには、以下の手順を実行します
 
 2. [ファイル] Web.configセクションを探  `<system.web>` します。
 
-3. セクションに次  `<machineKey>` のセクションを追加 `<system.web>` します。
+3. セクションに次の  `<machineKey>` セクションを追加 `<system.web>` します。
 
    ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
@@ -104,7 +99,7 @@ Web.config ファイルを変更するには、以下の手順を実行します
 このセクションは、組織で Yi、Meng、または Zang の文字をサポートする必要がある場合に参照してください。
 
 > [!NOTE]
-> Yi、Meng、Zang の各文字が何で、展開にとって重要な理由については、GB18030 文字セットの情報を参照してください [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)) 。
+> Yi、Meng、Zang の各文字が何で、展開にとって重要な理由については、GB18030 文字セットの情報を参照してください [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105))。
 
 Yi、Meng、または Zang の文字をサポートするには、Rgsconfig データベースの照合順序を変更する必要があります。 各 Rgsconfig データベースの以下の表にある [**名前**] 列の照合順序を変更します。
 
@@ -122,7 +117,7 @@ Yi、Meng、または Zang の文字をサポートするには、Rgsconfig デ�
 
 照合順序は、Microsoft SQL Server Management Studio を使用して変更できます。 このツールの使用の詳細については、「Using [SQL Server Management Studio」を参照してください](/sql/ssms/sql-server-management-studio-ssms)。 照合順序を変更するには、以下の手順に従います。
 
-1. 表の再作成を必要とする変更が SQL Server Management Studio で許可されていることを確認します。 詳細については、「 [保存 (許可されない) ダイアログ ボックス」を参照してください](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box)。 列照合順序の設定の詳細については [、「How to: Set Column Collation (Visual Database Tools)」を参照してください](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105))。
+1. 表の再作成を必要とする変更が SQL Server Management Studio で許可されていることを確認します。 詳細については、「 [保存 (許可されない) ダイアログ ボックス」を参照してください](/sql/ssms/visual-db-tools/save-not-permitted-dialog-box)。 列照合順序の設定の詳細については、「 [How to: Set Column Collation (Visual Database Tools)」を参照してください](/previous-versions/sql/sql-server-2008-r2/ms187473(v=sql.105))。
 
 2. Microsoft SQL Server Management Studio を使用して、Rgsconfig データベースに接続します。
 

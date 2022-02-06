@@ -1,25 +1,20 @@
 ---
 title: SRS v1 管理 Web ポータルをサーバーに展開Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: Skype for Business Server Skype会議室システム v1 (SRS v1、以前は Lync Room System と呼ばれる) 管理 Web ポータルは、組織が会議室システムの会議室を維持するために使用Skype Web ポータルです。 管理者は、SRS v1 管理 Web ポータルを使用して、オーディオ/ビデオ デバイスの監視など、デバイスの正常性を監視できます。 このポータルを使用すると、管理者はリモートで診断情報を収集して会議室の正常性を監視できます。
-ms.openlocfilehash: c25671717db51af880bd4b7e2700bb9e795f2790
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843970"
 ---
+
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>SRS v1 管理 Web ポータルをサーバーに展開Skype for Business Server
 
 Skype for Business Server Skype会議室システム v1 (SRS v1、以前は Lync Room System と呼ばれる) 管理 Web ポータルは、組織が会議室システムの会議室を維持するために使用Skype Web ポータルです。 管理者は、SRS v1 管理 Web ポータルを使用して、オーディオ/ビデオ デバイスの監視など、デバイスの正常性を監視できます。 このポータルを使用すると、管理者はリモートで診断情報を収集して会議室の正常性を監視できます。
@@ -29,7 +24,7 @@ Skype for Business Server Skype会議室システム v1 (SRS v1、以前は Lync
 SRS v1 管理 Web ポータルがサーバーに展開された後、管理者は自分のコンピューターまたはラップトップからサイトにログオンして、SRS v1 デバイスの状態を確認できます。
 
 > [!IMPORTANT]
-> [2015 Skypeの](https://www.microsoft.com/download/details.aspx?id=46906)Microsoft Skype Room Systems v1 管理 Web ポータルをダウンロードSkype for Business Serverします。
+> [2015 Skype用の Microsoft Skype Room Systems v1 管理](https://www.microsoft.com/download/details.aspx?id=46906) Web ポータルをダウンロードSkype for Business Serverします。
 
 このトピックの内容
 
@@ -49,7 +44,7 @@ SRS v1 管理 Web ポータルを使用するには、次の前提条件をイ�
 
 1. [Skype for Business Serverトポロジに累積的な更新プログラムSkype for Business Serverインストールします。
 
-    更新プログラムを取得したり、更新プログラムに含まれているものについては[、「Update for Skype for Business Server 2015」を参照してください](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)。
+    更新プログラムを取得したり、更新プログラムに含まれているものについては、「[Update for Skype for Business Server 2015」を](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)参照してください。
 
 2. SIP が有効な Active Directory ユーザーを作成します。
 
@@ -77,12 +72,12 @@ SRS v1 管理 Web ポータルを使用するには、次の前提条件をイ�
 
      ![LRSSupportAdminGroup プロパティ メンバー ページ。](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
-8. MVC [4 ASP.NET 2010 SP1 Visual Studio Visual Web Developer 2010 SP1 用にインストールします](https://go.microsoft.com/fwlink/p/?LinkId=323967)。
+8. [2010 SP1 ASP.NET Visual Web Developer 2010 SP1 Visual Studio MVC 4 をインストールします](https://go.microsoft.com/fwlink/p/?LinkId=323967)。
 
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>SRS v1 管理 Web ポータルのインストール
 <a name="Install_SRS"> </a>
 
-[2015 Skypeの](https://www.microsoft.com/download/details.aspx?id=46906)Microsoft Skype Room Systems v1 管理 Web ポータルをダウンロードSkype for Business Serverします。
+[2015 Skype用の Microsoft Skype Room Systems v1 管理](https://www.microsoft.com/download/details.aspx?id=46906) Web ポータルをダウンロードSkype for Business Serverします。
 
 SRS v1 管理 Web ポータルをインストールするには、次の手順を実行します。
 
@@ -98,7 +93,7 @@ SRS v1 管理 Web ポータルをインストールするには、次の手順�
 
     %Program Files%\Skype for Business Server 2015\Web Components\ミーティング ルーム\Int\Handler\
 
-4. Web.Config ファイルで[、「SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)管理 Web ポータルの環境を構成する」(手順の推奨名は LRSApp) の下の手順 2 で作成したユーザー名に変更します。
+4. Web.Config ファイルで、PortalUserName を「[SRS v1 管理 Web](room-system-v1-administrative-web-portal.md#Config_Env) ポータルの環境を構成する」セクションの手順 2 で作成したユーザー名に変更します (手順の推奨名は LRSApp です)。
 
     ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
@@ -122,7 +117,7 @@ SRS v1 管理 Web ポータルのインストールを確認するには、次�
 
 1. フロントエンド サーバーで、次の URL を参照します。
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
     次の図に示すように、エラーは表示されません。
 
@@ -130,9 +125,9 @@ SRS v1 管理 Web ポータルのインストールを確認するには、次�
 
 2. エラーが表示されない場合は、トポロジ内の他のコンピューターから次の URL にアクセスしてみてください。
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
-    ページにアクセスするには、「自動クライアント サインインに必要な DNS レコード」の説明に従って[DNS レコードを追加する必要があります](/previous-versions/office/communications-server/bb663700(v=office.12))。
+    ページにアクセスするには、「自動クライアント サインインに必要な DNS レコード」の説明に従って [DNS レコードを追加する必要があります](/previous-versions/office/communications-server/bb663700(v=office.12))。
 
 ## <a name="use-the-srs-administrative-web-portal"></a>SRS 管理 Web ポータルの使用
 <a name="Use_Portal"> </a>
@@ -143,7 +138,7 @@ SRS v1 管理 Web ポータルのインストールを確認するには、次�
 
 1. 次の URL を参照します。
 
-    https:// \<fe-server\> /lrs
+    \<fe-server\>https:///lrs
 
 2. LRSSupport アカウントの資格情報、または LRSSupportAdminGroup セキュリティ グループに追加されたアカウントを入力します。
 
@@ -172,7 +167,7 @@ SRS v1 管理 Web ポータルのインストールを確認するには、次�
 
 ポータルの [会議室情報] セクションでは、個々の SRS ルームを表示および構成できます。 このセクションには、設定、ログ、正常性の 4 つのセクションがあります。
 
-#### <a name="settings"></a>設定
+#### <a name="settings"></a>Settings
 
 [設定] セクションでは、ルームのパスワード、ルーム タグ、および既定のボリューム レベルを設定できます。 これらの設定を構成した場合、変更は SRS コンソールを再起動した後にのみレプリケートされます。 リリース 15.12 以降を使用している SRS デバイスのシステム更新プログラムの設定だけが表示されます。
 
@@ -213,13 +208,13 @@ SRS ルームの一括管理は、高度な IT 管理者向けに設計された
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>管理 Web ポータルにサインインできない理由
 
-開いていると、サインイン ページが表示されますが、資格情報を入力するとサインイン https://localhost/lrs できません。 この場合は、管理 Web ポータル https://FQDNofFEserver/SRS にサインインするために開く必要があります。
+開いていると https://localhost/lrs、サインイン ページが表示されますが、資格情報を入力するとサインインできません。 この場合は、管理 Web ポータル https://FQDNofFEserver/SRS にサインインするために開く必要があります。
 
 #### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>管理 Web ポータルに SRS v1 が表示できない理由
 
 - 展開に SRS アカウントが含み、SRS 管理 Web ポータルの展開の推奨事項に従って作成される必要があります。 SRS アカウントが、Enable-CsUser ではなく Enable-CsMeetingRoom を使用してプロビジョニングSkype for Business Server。
 
-- SRS アカウントを作成し、管理 Web ポータルにアカウントを表示できない場合は **、meetingPortal** コンポーネントを選択した Skype for Business Server ログ ツールを使用してサーバー ログを収集し、SRS サポート連絡先に送信します。
+- SRS アカウントを作成し、管理 Web ポータルでアカウントを表示できない場合は、**meetingPortal** コンポーネントを選択した Skype for Business Server ログ ツールを使用してサーバー ログを収集し、SRS サポート連絡先に送信します。
 
 - SRS アカウントを作成し、管理 Web ポータルでアカウントを表示できない場合は、Fiddler を使用してクライアント ログを収集し、ブラウザー開発ツールからコンソール ログをコピーしてから、SRS サポート連絡先に送信します。 また、詳細なログを取得するために、Web.configのトレース レベルの値を変更できます。
 
@@ -240,7 +235,7 @@ SRS ルームの一括管理は、高度な IT 管理者向けに設計された
 
 - LRSApp ユーザー アカウントが SIP が有効になっているか確認します。
 
-- 問題が解決し続ける場合は、D:\Trace\LRSAdminLogs から SRS システムの **Trace.log** ファイルを収集し、SRS サポート連絡先に \, 送信します。
+- 問題が解決し続ける場合は、D:\Trace\LRSAdminLogs\, から SRS システムの **Trace.log** ファイルを収集し、SRS サポート連絡先に送信します。
 
 #### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>管理 Web ポータルに SRS の一括管理メニューが表示できない理由
 

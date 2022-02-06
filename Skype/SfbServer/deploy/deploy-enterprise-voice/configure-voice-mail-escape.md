@@ -1,28 +1,23 @@
 ---
 title: ボイス メール エスケープを構成Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: '概要: 管理シェルを使用して、Skype for Business Serverでボイス メール エスケープSkype for Business Server説明します。'
-ms.openlocfilehash: 7bd18056362fc4ed6ffdede31515b6eb41d8b134
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865324"
 ---
+
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>ボイス メール エスケープを構成Skype for Business
 
 **概要:** 管理シェルを使用して、Skype for Business Serverボイス メール エスケープを構成Skype for Business Server説明します。
@@ -33,7 +28,7 @@ ms.locfileid: "60865324"
 
 ### <a name="to-configure-voice-mail-escape"></a>ボイス メール エスケープを構成するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
 2. **Set-CsVoicePolicy に次のパラメーターを指定します**。
 

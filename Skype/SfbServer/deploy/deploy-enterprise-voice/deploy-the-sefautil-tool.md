@@ -1,28 +1,23 @@
 ---
 title: SEFAUtil ツールをサーバーに展開Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: SEFAUtil ツールをサーバーに展開Skype for Business Server。
-ms.openlocfilehash: d4d25a69476aa678f600178b9426db89670289d2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837329"
 ---
+
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>SEFAUtil ツールをサーバーに展開Skype for Business
  
 SEFAUtil ツールをサーバーに展開Skype for Business Server。
@@ -30,18 +25,18 @@ SEFAUtil ツールをサーバーに展開Skype for Business Server。
 グループ通話ピックアップを展開および管理するには、SEFAUtil ツールの Skype for Business Serverバージョンを使用する必要があります。 
   
 > [!IMPORTANT]
-> Microsoft Unified Communications Managed API (UCMA) 5 ランタイムは、SEFAUtil ツールを実行する予定の任意のコンピューターにインストールする必要があります。 ここにダウンロードする: [ユニファイド コミュニケーションマネージ API 5.0 ランタイム](https://www.microsoft.com/download/details.aspx?id=47344)。 また、UCMA 5 SDK (ランタイムを含む) をダウンロードすることもできます [。UCMA 5.0 SDK を次に示します](https://www.microsoft.com/download/details.aspx?id=47345)。
+> Microsoft Unified Communications Managed API (UCMA) 5 ランタイムは、SEFAUtil ツールを実行する予定の任意のコンピューターにインストールする必要があります。 こちらからダウンロード: [ユニファイド コミュニケーションマネージ API 5.0 ランタイム](https://www.microsoft.com/download/details.aspx?id=47344)。 また、UCMA 5.0 SDK (ランタイムを含む) をダウンロードすることもできます。 [UCMA 5.0 SDK を参照してください](https://www.microsoft.com/download/details.aspx?id=47345)。
   
 展開内の任意のフロントエンド プールで SEFAUtil ツールを実行できます。 SEFAUtil ツールを実行するには、信頼済みアプリケーション コンピューターの Skype for Business 展開ウィザードから手順 1、2、および 3 を実行する必要があります。 SEFAUtil では、証明書と同様に、ローカル構成ストアが存在する必要があります。
   
 > [!NOTE]
-> SEFAUtil の実行の詳細については、ブログ記事[「SEFAutil を実行する方法」を参照してください。](/archive/blogs/jenstr/how-to-get-sefautil-running) 
+> SEFAUtil の実行の詳細については、ブログ記事「[SEFAutil を実行する方法」を参照してください](/archive/blogs/jenstr/how-to-get-sefautil-running)。 
   
 ### <a name="to-deploy-sefautil"></a>SEFAUtil を展開するには
 
-1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「代理セットアップのアクセス許可」の説明に従って必要なユーザー権限でログオン **します。**
+1. Skype for Business Server 管理シェルがインストールされているコンピューターに RTCUniversalServerAdmins グループのメンバーとして、または「委任セットアップのアクセス許可」の説明に従って必要なユーザー権限を持つコンピューターにログオンします。
     
-2. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+2. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 3. SEFAUtil ツールは、信頼できるアプリケーション プールの一部であるコンピューターでのみ実行できます。 必要に応じて、SEFAUtil を実行する予定のフロント エンド プールの信頼できるアプリケーション プールを定義します。 コマンド ラインで、次のコマンドを実行します。
     
@@ -68,7 +63,7 @@ SEFAUtil ツールをサーバーに展開Skype for Business Server。
    Enable-CsTopology
    ```
 
-6. まだインストールしていない場合は、この場所から Skype for Business Server バージョンの SEFAUtil ツールを[](https://www.microsoft.com/download/details.aspx?id=52631)ダウンロードし、手順 3 で作成した信頼できるアプリケーション プールにインストールします。
+6. まだインストールしていない場合は、この場所から Skype for Business Server バージョンの SEFAUtil ツールをダウンロードし、手順 [](https://www.microsoft.com/download/details.aspx?id=52631)3 で作成した信頼できるアプリケーション プールにインストールします。
     
 7. 次のように、SEFAUtil ツールが正しく実行されていることを確認します。 
     
