@@ -1,27 +1,22 @@
 ---
 title: ブランチ オフィス アプライアンスとエッジの関連付け
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
+  - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
-description: エッジ サーバーが展開され、外部で使用するメディア サービスを提供する必要がある場合は、ドロップダウン リストでエッジ サービスを選択して、存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けられるエッジ サーバーまたはプールを選択します。 続行するには、[次へ] をクリックします。
-ms.openlocfilehash: 50dcfd6aaa04ba2d7167fe5228be5382d9085ccf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842870"
+description: 'エッジ サーバーが展開され、外部で使用するメディア サービスを提供する必要がある場合は、ドロップダウン リストでエッジ サービスを選択して、存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けられるエッジ サーバーまたはプールを選択します。 続行するには、[次へ] をクリックします。'
 ---
+
 # <a name="associate-branch-office-appliance-with-edge"></a>ブランチ オフィス アプライアンスとエッジの関連付け
  
 エッジ サーバーが展開され、外部で使用するメディア サービスを提供する必要がある場合は、ドロップダウン リストでエッジ サービスを選択して、存続可能ブランチ アプライアンスまたは存続可能ブランチ サーバーに関連付けられるエッジ サーバーまたはプールを選択します。 続行するには、**[次へ]** をクリックします。

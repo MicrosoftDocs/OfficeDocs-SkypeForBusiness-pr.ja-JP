@@ -1,27 +1,22 @@
 ---
 title: 応答グループ キュー の作成 新規または既存の編集
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.RgsQueueEdit
+  - ms.lync.lscp.RgsQueueEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: 応答グループ キューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。
-ms.openlocfilehash: fba6a756ab12dda91c84aee5c0ed75679db71c71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827760"
 ---
+
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>応答グループのキュー: 新規作成または現在の形式のままで編集
 
 応答グループ キューは、エージェントが通話に応答するまで、応答グループへの呼び出しを保持します。
@@ -46,11 +41,11 @@ ms.locfileid: "60827760"
 
   - **Disconnect**
 
-  - **ボイス メールへの転送** このオプションを選択した場合は **、[SIP アドレス**] に SIP 形式のボイス メール アドレスを入力します \<username> (たとえば @ \<domainname> 、sip:bob@contoso.com)。
+  - **ボイス メールへの転送** このオプションを選択した場合は、 **SIP アドレス** に sip:\<username>@\<domainname> という形式のボイス メール アドレスを入力します (たとえば、sip:bob@contoso.com)。
 
-  - **電話番号に転送する** このオプションを選択した場合は **、SIP アドレスに** SIP の形式で電話番号を入力します \<number> (たとえば @ \<domainname> 、sip:+14255550121@contoso.com)。
+  - **電話番号に転送する** このオプションを選択した場合は、 **SIP アドレスに** SIP の\<number>@\<domainname> 形式で電話番号を入力します(たとえば、sip:+14255550121@contoso.com)。
 
-  - **SIP アドレスへの転送** 通話を別のユーザーに転送するには、このオプションを選択します。 **[SIP アドレス]** に、SIP 形式でユーザーの URI を入力します \<username> @ \<domainname> 。
+  - **SIP アドレスへの転送** 通話を別のユーザーに転送するには、このオプションを選択します。 **SIP アドレスに、** sip: 形式でユーザーの URI を入力します\<username>@\<domainname>。
 
   - **別のキューに転送する** このオプションを選択した場合は、通話が時間切れ時に呼び出しを受信するキューを参照します。
 
@@ -64,12 +59,12 @@ ms.locfileid: "60827760"
 
   - **Disconnect**
 
-  - **ボイス メールへの転送** このオプションを選択した場合は **、[SIP アドレス**] に SIP 形式のボイス メール アドレスを入力します \<username> (たとえば @ \<domainname> 、sip:bob@contoso.com)。
+  - **ボイス メールへの転送** このオプションを選択した場合は、 **SIP アドレス** に sip:\<username>@\<domainname> という形式のボイス メール アドレスを入力します (たとえば、sip:bob@contoso.com)。
 
-  - **電話番号に転送する** このオプションを選択した場合は **、SIP アドレスに** SIP の形式で電話番号を入力します \<number> (たとえば @ \<domainname> 、sip:+14255550121@contoso.com)。
+  - **電話番号に転送する** このオプションを選択した場合は、 **SIP アドレスに** SIP の\<number>@\<domainname> 形式で電話番号を入力します(たとえば、sip:+14255550121@contoso.com)。
 
-  - **SIP アドレスへの転送** 通話を別のユーザーに転送するには、このオプションを選択します。 **[SIP アドレス]** に、SIP 形式でユーザーの URI を入力します \<username> @ \<domainname> 。
+  - **SIP アドレスへの転送** 通話を別のユーザーに転送するには、このオプションを選択します。 **SIP アドレスに、** sip: 形式でユーザーの URI を入力します\<username>@\<domainname>。
 
   - **別のキューに転送する** このオプションを選択した場合は、キュー オーバーフローしきい値が満たされた場合に呼び出しを受信するキューを参照します。
 
-応答グループの機能の詳細については、「計画」のドキュメントの「Skype for Business Server [2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md)の応答グループ アプリケーションの計画」を参照してください。 キューの使用の詳細については、「操作」のドキュメントの「[Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)」を参照してください。
+応答グループの機能の詳細については、「計画」のドキュメントの「Skype for Business Server [2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) の応答グループ アプリケーションの計画」を参照してください。 キューの使用の詳細については、「操作」のドキュメントの「[Managing Response Group Queues](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues)」を参照してください。
