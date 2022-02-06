@@ -1,27 +1,22 @@
 ---
 title: トポロジ ビルダー起動ダイアログ
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.StartupDialog
+  - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: トポロジ ビルダーを起動して、展開のプロパティと構成を構成します。 起動時に、トポロジ ビルダーは、トポロジ ドキュメントのソースを確認するダイアログを表示します。 以下の 3 つのオプションのいずれかを選択します。
-ms.openlocfilehash: 3474fae9694fe3b2ba5fd2d82c36f63b9ce6c903
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865034"
 ---
+
 # <a name="topology-builder-startup-dialog"></a>トポロジ ビルダー起動ダイアログ
  
 トポロジ ビルダーを起動して、展開のプロパティと構成を構成します。 起動時に、トポロジ ビルダーは、トポロジ ドキュメントのソースを確認するダイアログを表示します。 以下の 3 つのオプションのいずれかを選択します。

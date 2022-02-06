@@ -1,25 +1,20 @@
 ---
 title: AudioStream テーブル
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: 各レコードは、1 つのオーディオ ストリームを表します。 通常、1 つのオーディオ メディア回線には 2 つのオーディオ ストリームが含まれる。
-ms.openlocfilehash: b9a5e184a258115934d3583e4f6cde8f659fb9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856424"
 ---
+
 # <a name="audiostream-table"></a>AudioStream テーブル
  
 各レコードは、1 つのオーディオ ストリームを表します。 通常、1 つのオーディオ メディア回線には 2 つのオーディオ ストリームが含まれる。

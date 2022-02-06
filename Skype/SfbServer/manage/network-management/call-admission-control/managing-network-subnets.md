@@ -1,23 +1,18 @@
 ---
 title: ネットワーク サブネットの管理
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 通話受付管理 (CAC) Skype for Business Server実装されているほとんどの展開では、通常、多数のサブネットがあります。 この理由から、多くの場合、管理シェルからサブネットを構成Skype for Business Serverです。
-ms.openlocfilehash: 73a0f99fa35cd1b92194ce5b09d85a30d30b72e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843860"
 ---
+
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク サブネットの管理
 
 ネットワーク サブネットを管理するには、Skype for Business Serverコントロール パネルまたは Skype for Business Server管理シェルのいずれかを使用できます。 通話受付管理 (CAC) Skype for Business Server実装されているほとんどの展開では、通常、多数のサブネットがあります。 この理由から、多くの場合、管理シェルからサブネットを構成Skype for Business Serverです。
@@ -69,7 +64,7 @@ ms.locfileid: "60843860"
 
 ネットワーク サブネットは、そのサブネットに所属するホストの地理的な場所を指定するために、ネットワーク サイトに関連付ける必要があります。 [コントロール パネル] Skype for Business Serverを使用してサブネットを構成できます。 [コントロール Skype for Business Serverから、ネットワーク サブネットを作成、変更、または削除できます。 
 
-通話受付管理 (CAC) Skype for Business Server実装されているほとんどの展開では、通常、多数のサブネットがあります。 この理由から、多くの場合、管理シェルからサブネットを構成Skype for Business Serverです。 そこから **New-CsNetworkSubnet** を呼び出し、Windows PowerShell **Import-CSV を呼び出すことができます**。 これらのコマンドレットを使用すると、コンマ区切り値 (.csv) ファイルからサブネット設定を読み込み、同時に複数のサブネットを作成することができます。 csv ファイルからサブネットを作成する方法の例については、「[New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
+通話受付管理 (CAC) Skype for Business Server実装されているほとんどの展開では、通常、多数のサブネットがあります。 この理由から、多くの場合、管理シェルからサブネットを構成Skype for Business Serverです。 そこから **New-CsNetworkSubnet** を呼び出し、Windows PowerShell **Import-CSV と組み合わせて呼び出すことができます**。 これらのコマンドレットを使用すると、コンマ区切り値 (.csv) ファイルからサブネット設定を読み込み、同時に複数のサブネットを作成することができます。 csv ファイルからサブネットを作成する方法の例については、「[New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
 
 
 ### <a name="to-create-a-network-subnet"></a>ネットワーク サブネットを作成するには
@@ -116,7 +111,7 @@ ms.locfileid: "60843860"
 
 次の手順を使用して、サブネットを削除できます。 [コントロール Skype for Business Serverから、ネットワーク サブネットを作成、変更、または削除できます。 
 
-通話受付管理 (CAC) Skype for Business Server実装されているほとんどの展開では、通常、多数のサブネットがあります。 この理由から、多くの場合、管理シェルからサブネットを構成Skype for Business Serverです。 そこから **New-CsNetworkSubnet** を呼び出し、Windows PowerShell **Import-CSV を呼び出すことができます**。 これらのコマンドレットを使用すると、コンマ区切り値 (.csv) ファイルからサブネット設定を読み込み、同時に複数のサブネットを作成することができます。 .csv ファイルからサブネットを作成する方法の例は、「[New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
+通話受付管理 (CAC) Skype for Business Server実装されているほとんどの展開では、通常、多数のサブネットがあります。 この理由から、多くの場合、管理シェルからサブネットを構成Skype for Business Serverです。 そこから **New-CsNetworkSubnet** を呼び出し、Windows PowerShell **Import-CSV と組み合わせて呼び出すことができます**。 これらのコマンドレットを使用すると、コンマ区切り値 (.csv) ファイルからサブネット設定を読み込み、同時に複数のサブネットを作成することができます。 .csv ファイルからサブネットを作成する方法の例は、「[New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)」を参照してください。
 
 
 ### <a name="to-delete-a-network-subnet"></a>ネットワーク サブネットを削除するには

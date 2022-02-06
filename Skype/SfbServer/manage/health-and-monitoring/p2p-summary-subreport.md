@@ -1,24 +1,19 @@
 ---
 title: P2P Summary Subreport in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: '概要: P2P Summary Subreport の詳細については、Skype for Business Server。'
-ms.openlocfilehash: e8296604626b143bb143ea2acbdf8e6875e1acf6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861324"
 ---
+
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>P2P Summary Subreport in Skype for Business Server
  
 **概要:** P2P Summary Subreport の詳細については、Skype for Business Server。
@@ -31,7 +26,7 @@ P2P 概要サブレポートは、エラーが発生したピアツーピア セ
   
 **P2P 概要サブレポートのフィルター**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |

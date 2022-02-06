@@ -1,28 +1,23 @@
 ---
 title: プラン for Call Park in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 通話を保留にし、Skype for Business Server エンタープライズ VoIPを部署に転送できる、通話パークの計画。 容量計画、サポートされている通話、サポートされているクライアントが含まれます。
-ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839839"
 ---
+
 # <a name="plan-for-call-park-in-skype-for-business"></a>プラン for Call Park in Skype for Business
  
 通話を保留にし、Skype for Business Server エンタープライズ VoIPを部署に転送できる、通話パークの計画。 容量計画、サポートされている通話、サポートされているクライアントが含まれます。
@@ -56,18 +51,18 @@ ms.locfileid: "60839839"
   
 ### <a name="software-requirements"></a>ソフトウェア要件
 
-コール パークが展開されているすべてのフロントエンド サーバーと Standard Edition サーバーには、Windows Server 2008 R2 を実行しているサーバー用に Windows メディア形式ランタイムがインストールされている必要があります。または Windows Server 2012 または Windows Server 2012 R2 を実行しているサーバーの場合は Microsoft Media Foundation がインストールされている必要があります。. Server 2008 R2 Windows、メディア形式ランタイムWindowsデスクトップ エクスペリエンスの一部としてインストールWindowsされます。 Windows通話パークが保留音で再生するメディア オーディオ (.wma) Windowsメディア オーディオ (.wma) ファイルには、メディア形式ランタイムまたは Microsoft Media Foundation が必要です。
+コール パークが展開されているすべてのフロントエンド サーバーと Standard Edition サーバーには、Windows Server 2008 R2 を実行しているサーバー用に Windows メディア形式ランタイムがインストールされている必要があります。または Windows Server 2012 を実行しているサーバーの場合は Microsoft Media Foundation がインストールされている必要があります。Windows Server 2012 R2. Server 2008 R2 Windows、メディア形式ランタイムWindowsデスクトップ エクスペリエンスの一部としてインストールWindowsされます。 Windowsパークが保留音で再生するメディア オーディオ (.wma) ファイルWindowsメディア形式ランタイムまたは Microsoft Media Foundation が必要です。
   
 ### <a name="port-requirements"></a>ポートの要件
 
-コール パーク アプリケーションは **、SIP リッスン要求にポート 5075**  を使用します。
+コール パーク アプリケーションは、 **SIP リッスン要求にポート 5075**  を使用します。
     
 > [!NOTE]
 > このポートは既定の設定であり、**Set-CsApplicationServer** コマンドレットを使用して変更できます。 このコマンドレットの詳細については、「Lync Server 管理シェル」のドキュメントを参照してください。
   
 ### <a name="audio-file-requirements"></a>オーディオ ファイルの要件
 
-コール パーク アプリケーションは、保留音Windowsメディア オーディオ (.wma) ファイルのみをサポートします。 保留音のファイルをカスタマイズするには、Microsoft Expression Encoder 4 を使用できます。 Expression Encoder 4 をダウンロードするには   [、「Expression Encoder 4」を参照してください](https://go.microsoft.com/fwlink/p/?linkId=202843)。 このツールを使用すると、ファイルを WMA 形式に変換できます。 コール パークの保留音ファイルとしての推奨形式は Media Audio 9、44 kHz、16 ビット、モノラル、CBR、32 kbps です。
+コール パーク アプリケーションは、保留音Windowsメディア オーディオ (.wma) ファイルのみをサポートします。 保留音のファイルをカスタマイズするには、Microsoft Expression Encoder 4 を使用できます。 Expression Encoder 4 をダウンロードするには、「   [Expression Encoder 4」を参照してください](https://go.microsoft.com/fwlink/p/?linkId=202843)。 このツールを使用すると、ファイルを WMA 形式に変換できます。 コール パークの保留音ファイルとしての推奨形式は Media Audio 9、44 kHz、16 ビット、モノラル、CBR、32 kbps です。
   
 > [!NOTE]
 > 変換されたファイルは、44 kHz で録音された場合でも、電話では 16 kHz でのみ再生されます。 

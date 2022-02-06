@@ -1,31 +1,26 @@
 ---
 title: Microsoft Teams監視とアラート
 author: vaibhav
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: vapati
-f1.keywords: ''
+f1.keywords: null
 ms.localizationpriority: medium
-search.appverid: ''
+search.appverid: null
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 description: 管理センターでTeamsアラートと通知の機能についてMicrosoft Teamsします。
 appliesto:
-- Microsoft Teams
-ms.custom: ''
-ms.openlocfilehash: f97905320912ec1a63aa4580018c134bed3589c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737473"
+  - Microsoft Teams
+ms.custom: null
 ---
+
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams監視とアラート
 
-管理センターでは、Microsoft Teamsの新しい監視Teams機能を利用できます。 Teams 管理センターの [通知と通知] **&** セクションで使用できるさまざまなルール セットを使用して、Teams機能を監視し、アラートを受信します。 たとえば、IP Phone、コラボレーション バーなどの Teams デバイスの正常性を、予期せずオフラインにした場合にアクティブに監視できます。  
+管理センターでは、Microsoft Teamsの新しい監視Teams機能を利用できます。 & Teams 管理センターの [通知]  & セクションで使用できるさまざまなルール セットを使用して、Teams機能を監視し、アラートを受信します。 たとえば、IP Phone、コラボレーション バーなどの Teams デバイスが予期せずオフラインになる場合、その他のデバイスの正常性をアクティブに監視できます。  
 
 組織は、監視とTeamsを使用して、次の項目を実行できます。
 
@@ -35,10 +30,10 @@ ms.locfileid: "60737473"
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>監視とアラートを管理する方法
 
- アラート ルールを構成するには、Microsoft 365または Teams サービス管理者である必要があります。 各[管理者ロールTeamsアクセス](../using-admin-roles.md)できるレポートの詳細については、「Teams Teams 管理者ロールを使用して Teams を管理する」を参照してください。
+ アラート ルールを構成するには、Microsoft 365または Teams サービス管理者である必要があります。 各[管理者ロールTeamsアクセス](../using-admin-roles.md)できるレポートの詳細については、「Teams Teams 管理者ロールを使用Teams管理者ロールを使用して管理する」を参照してください。
 
 1. Teams 管理センターにサインインします。
-2. 左側のナビゲーションで、[通知とアラート **] &選択します**。
+2. 左側のナビゲーションで、[通知] を **選択&します**。
 3. [ルール] から構成するルールを **選択します**。
 
 ## <a name="teams-monitoring-rules-reference"></a>Teams監視ルール リファレンス
@@ -48,4 +43,4 @@ ms.locfileid: "60737473"
 
 |ルール  |監視機能|監視対象 |
 |---------|---------|---------|
-|[デバイスの正常性状態](device-health-status.md)  |Teamsデバイス | ProデバイスがオフラインになTeamsデバイスをアクティブに監視します。|
+|[デバイスの正常性状態](device-health-status.md)  |Teams デバイス | ProデバイスがオフラインになTeamsデバイスをアクティブに監視します。|

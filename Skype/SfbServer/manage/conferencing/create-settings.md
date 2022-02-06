@@ -1,24 +1,19 @@
 ---
 title: 会議の構成設定を作成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: '概要: 会議の構成設定を作成する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 1b0ba956e467f5b03036d8ef1d1629b4fc4dc517
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850030"
 ---
+
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>会議の構成設定を作成Skype for Business Server
  
 **概要:** 会議の構成設定を作成する方法については、Skype for Business Server。
@@ -67,7 +62,7 @@ ms.locfileid: "60850030"
     
 ## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議の構成Skype for Business Server作成する
 
-会議構成設定を作成するには **、New-CsMeetingConfiguration コマンドレットを使用** します。
+会議構成設定を作成するには、 **New-CsMeetingConfiguration コマンドレットを使用** します。
   
 次のコマンドは、Redmond サイトの会議構成設定の新しいセットを作成します。
   
@@ -89,4 +84,4 @@ New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Every
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 ```
 
-パラメーターの完全なリストを含む詳細については [、「New-CsMeetingConfiguration」を参照してください](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)。
+パラメーターの完全な一覧を含む詳細については、「 [New-CsMeetingConfiguration」を参照してください](/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps)。

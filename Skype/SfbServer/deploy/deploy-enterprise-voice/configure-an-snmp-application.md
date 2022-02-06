@@ -1,28 +1,23 @@
 ---
 title: サーバーで SNMP アプリケーションを構成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: E9-1-1 で動作する SNMP アプリケーションを構成Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 9d173bf38f3462ce056b1517e4a5fa6f1a522212
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833943"
 ---
+
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>サーバーで SNMP アプリケーションを構成Skype for Business Server
  
 E9-1-1 で動作する SNMP アプリケーションを構成Skype for Business Server エンタープライズ VoIP。 
@@ -36,7 +31,7 @@ SNMP アプリケーションがインストールされ、位置情報サービ
   
 ### <a name="to-configure-the-snmp-application-url"></a>SNMP アプリケーションの URL を構成するには
 
-1.  管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1.  管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 次のコマンドレットを使用して SNMP アプリケーションの URL を構成します。 
     

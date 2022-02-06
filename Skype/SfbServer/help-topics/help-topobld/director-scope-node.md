@@ -1,27 +1,22 @@
 ---
 title: ディレクター スコープ ノード
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DirectorScopeNode
+  - ms.lync.tb.DirectorScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: このノードには、このディレクター プールの完全修飾ドメイン名 (FQDN)、ポート、および関連付けられたファイル ストアが表示されます。以下のアクションを実行できます。
-ms.openlocfilehash: de50c3152578bb38bb260c65f3a1ef41fbe08866
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851161"
 ---
+
 # <a name="director-scope-node"></a>ディレクターのスコープ ノード
  
 このノードには、このディレクター プールの完全修飾ドメイン名 (FQDN)、ポート、および関連付けられたファイル ストアが表示されます。以下のアクションを実行できます。
@@ -34,7 +29,7 @@ ms.locfileid: "60851161"
     
 これらのオプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、コンポーネントのマージ、展開の削除を行います。
+- **トポロジ。** このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、コンポーネントのマージ、展開の削除を行います。
     
 - **表示**。このオプションを使用して、コンソール ツリー ビュー内の項目を選択して表示と非表示を切り替えることによって、トポロジ ビルダーのビューをカスタマイズできます。
     

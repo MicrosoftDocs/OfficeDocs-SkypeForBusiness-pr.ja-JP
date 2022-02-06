@@ -1,28 +1,23 @@
 ---
 title: 翻訳ルール (Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 翻訳ルールとダイヤル文字列の正規化については、Skype for Business Server エンタープライズ VoIP。
-ms.openlocfilehash: 1ad2434a0f57e57f6d86b8bda0c9c2e7af6c3de9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841009"
 ---
+
 # <a name="translation-rules-in-skype-for-business-server"></a>翻訳ルール (Skype for Business Server
 
 翻訳ルールとダイヤル文字列の正規化については、Skype for Business Server エンタープライズ VoIP。
@@ -42,5 +37,5 @@ ms.locfileid: "60841009"
 
 |**説明**|**先頭の数字**|**Length**|**削除する数字**|**追加する数字**|**一致パターン**|**翻訳**|**例**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|米国内の従来の長距離電話ダイヤル  <br/> ('+' を取り除く)  <br/> |+1  <br/> |ちょうど 12  <br/> |1  <br/> |0  <br/> |^\+(1\d {10} )$  <br/> |$1  <br/> |+14255551010 を 14255551010 に変換  <br/> |
-|米国長距離国際電話ダイヤル  <br/> ('+' を削除し、011 を追加)  <br/> |+  <br/> |11 以上  <br/> |1  <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 を 011441235551010 に変換  <br/> |
+|米国内の従来の長距離電話ダイヤル  <br/> ('+' を取り除く)  <br/> |+1  <br/> |ちょうど 12  <br/> |1  <br/> |0  <br/> |^\+(1\d{10})$  <br/> |$1  <br/> |+14255551010 を 14255551010 に変換  <br/> |
+|米国長距離国際電話ダイヤル  <br/> ('+' を削除し、011 を追加)  <br/> |+  <br/> |11 以上  <br/> |1  <br/> |011  <br/> |^\+(\d{9}\d+)$  <br/> |011$1  <br/> |+441235551010 を 011441235551010 に変換  <br/> |

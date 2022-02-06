@@ -1,25 +1,20 @@
 ---
 title: クエリの実行
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: '概要: 呼び出し品質ダッシュボードのデータ API の一部であるクエリの実行操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 00060baabff5bdcc4e930f56f7885de273060597
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849810"
 ---
+
 # <a name="run-query"></a>クエリの実行
 
 **概要:** 呼び出し品質ダッシュボードのデータ API の一部であるクエリの実行操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
@@ -33,7 +28,7 @@ ms.locfileid: "60849810"
 
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
 
  **URI パラメーター** - なし。
 

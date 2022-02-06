@@ -1,35 +1,30 @@
 ---
 title: ネットワーク要件を計画Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: '概要: ネットワーク コンポーネントを実装する前に、以下のネットワーク コンポーネントの考慮事項をSkype for Business Server。'
-ms.openlocfilehash: 3e5912cb00bb704afdfc5d568b66711a1ddf472f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864704"
 ---
+
 # <a name="plan-network-requirements-for-skype-for-business"></a>ネットワーク要件を計画Skype for Business
 
 **概要:** ネットワーク コンポーネントを実装する前に、以下のネットワーク コンポーネントに関する考慮事項をSkype for Business Server。
 
 これらのトピックの情報については、「ホワイトペーパー のネットワーク計画、監視、 [および Lync Server](https://www.microsoft.com/download/details.aspx?id=39084) でのトラブルシューティング」でも詳しい情報と詳細について説明します。 コンテンツは Lync 2010 および Lync 2013 を明示的に参照しますが、このコンテンツのSkype for Business Server変更されません。
 
-同様に、ネットワークに Wi-Fi と有線アクセスが関係する場合は、Wi-Fi 上の[Lync 2013 Real-Time Communications](https://www.microsoft.com/download/details.aspx?id=36494)を配信するホワイトペーパーが適切な参照であり、Skype for Business Server にも同様に適用できます。
+同様に、ネットワークに Wi-Fi と有線アクセスが関係する場合は、[Wi-Fi 上の Lync 2013 Real-Time Communications](https://www.microsoft.com/download/details.aspx?id=36494) を配信するホワイトペーパーが適切な参照であり、Skype for Business Server にも同様に適用できます。
 
 <!-- Deprecated tools
 Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
@@ -50,14 +45,14 @@ Network performance and needs are directly linked to the traffic load placed on 
 
 オーディオ/ビデオ (A/V) のネットワーク要件は、Skype for Business Server含まれます。
 
-- DNS 負荷分散を使用して単一のエッジ サーバーまたはエッジ プールを展開する場合は、ネットワークアドレス変換 (NAT) を実行する外部ファイアウォールを構成できます。 NAT を実行する内部 _ファイアウォール_ を構成できない。 詳細については、「ポートと [ファイアウォールの計画」を参照してください](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)。
+- DNS 負荷分散を使用して単一のエッジ サーバーまたはエッジ プールを展開する場合は、ネットワーク アドレス変換 (NAT) を実行する外部ファイアウォールを構成できます。 NAT を実行する内部 _ファイアウォール_ を構成できない。 詳細については、「ポートとファイアウォール [の計画」を参照してください](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)。
 
     > [!IMPORTANT]
-    > エッジ プールを使用し、ハードウェア ロード バランサーを使用している場合は、エッジ サーバーでパブリック IP アドレスを使用する必要があります。NAT 対応デバイス (ファイアウォール アプライアンスや LAN スイッチなど) のサーバーまたはプールに NAT を使用することはできません。 詳細については、「Edge [Server のシナリオ」を参照Skype for Business Server。](../edge-server-deployments/scenarios.md)
+    > エッジ プールを使用し、ハードウェア ロード バランサーを使用している場合は、エッジ サーバーでパブリック IP アドレスを使用する必要があります。NAT 対応デバイス (ファイアウォール アプライアンスや LAN スイッチなど) のサーバーまたはプールに NAT を使用することはできません。 詳細については、「エッジ [サーバーのシナリオ」を参照Skype for Business Server](../edge-server-deployments/scenarios.md)。
 
 - 組織でサービスの品質 (QoS) インフラストラクチャが使用されている場合、メディア サブシステムは、この既存のインフラストラクチャで機能するように設計されています。
 
-- インターネット プロトコル セキュリティ (IPsec) を使用する場合は、A/V トラフィックに使用されるポート範囲に対する IPsec を無効にすることをお勧めします。 詳細については [、「IPsec 例外」を参照してください](#ipsec-exceptions)。
+- インターネット プロトコル セキュリティ (IPsec) を使用する場合は、A/V トラフィックに使用されるポート範囲に対する IPsec を無効にすることをお勧めします。 詳細については、「 [IPsec 例外」を参照してください](#ipsec-exceptions)。
 
 最適なメディア品質を提供するには、次の手順を実行します。
 
@@ -132,7 +127,7 @@ IIS (IIS) サーバーから会議コンテンツをダウンロードするた�
 |SILK ワイドバンド/ナローバンド  <br/> |ピアツーピア  <br/> |13.0  <br/> |29.0  <br/> |41.0  <br/> |54.0  <br/> |
 
 > [!NOTE]
-> 通常、クライアントからの PSTN 通話Skype for Business G.711 コーデックを使用します。これは高帯域幅を必要とします。 そのコーデックで十分な帯域幅が使用できない場合、メディア ログで次のようなエラーが発生すると、呼び出しが失敗する可能性があります。少なくとも 1 つのコーデックを有効にする必要があります **。hr: c0042004。** メディア ログ (.blog ファイル) は暗号化され、Microsoft サポート担当者だけがデコードできます。
+> 通常、クライアントからの PSTN 通話Skype for Business G.711 コーデックを使用します。これは高帯域幅を必要とします。 そのコーデックで十分な帯域幅が使用できない場合、メディア ログで次のようなエラーが発生すると、呼び出しが失敗する可能性があります。少なくとも 1 つのコーデックを有効にする必要があります **。hr: c0042004**。 メディア ログ (.blog ファイル) は暗号化され、Microsoft サポート担当者だけがデコードできます。
 
 前の表の帯域幅番号は、20ms のパケット化 (1 秒あたり 50 パケット) に基づいており、Siren コーデックと G.722 コーデックには、会議シナリオからのセキュリティで保護されたリアルタイム トランスポート プロトコル (SRTP) オーバーヘッドが追加され、ストリームが 100% アクティブである前提になります。 前方エラー修正 (FEC) は、オーディオ ストリームの品質を維持するためにリンクにパケット損失がある場合に動的に使用されます。
 
@@ -202,7 +197,7 @@ Skype for Business Serverは、多くの解像度をサポートしています�
 
 - **FEC による最大帯域幅** ストリームが使用する最大帯域幅。 これには、ストリームの一般的なアクティビティと、FEC のシナリオで使用される一般的なコーデックが含まれます。 この値は、ストリームのアクティビティ レベルが 100% で、品質向上のための FEC の使用の原因となるパケット損失がある場合の帯域幅です。 これは、特定のシナリオでコーデックを使用し、パケット損失条件下で FEC を使用して品質を維持するために割り当てる必要がある帯域幅の量を計算する場合に役立ちます。
 
-次の表に、追加の帯域幅の値である標準帯域幅 **も示します**。 これは、ストリームが消費する平均帯域幅です。 これには、ストリームの一般的なアクティビティと、シナリオで使用される一般的なコーデックが含まれます。 この帯域幅は、特定の時間にメディア トラフィックによって消費される帯域幅の量を近似するために使用できますが、アクティビティ レベルが平均より大きい場合、個々の呼び出しがこの値を超えるので、容量計画には使用できません。 以下の表の一般的なビデオ ストリーム帯域幅は、測定された顧客データで観察されるさまざまなビデオ解像度の組み合わせに基づいており、小規模なインストールでは、テーブル データとは異なる実際の数を持つ可能性があります。 たとえば、ピアツーピア セッションでは、ほとんどのユーザーが既定のビデオ レンダリング ウィンドウを使用しますが、一部のユーザーはビデオ解像度を向上するために Skype for Business Server アプリケーションを増やしたり最大化したりします。
+次の表では、追加の帯域幅の値である標準帯域幅 **も示します**。 これは、ストリームが消費する平均帯域幅です。 これには、ストリームの一般的なアクティビティと、シナリオで使用される一般的なコーデックが含まれます。 この帯域幅は、特定の時間にメディア トラフィックによって消費される帯域幅の量を近似するために使用できますが、アクティビティ レベルが平均より大きい場合、個々の呼び出しがこの値を超えるので、容量計画には使用できません。 以下の表の一般的なビデオ ストリーム帯域幅は、測定された顧客データで観察されるさまざまなビデオ解像度の組み合わせに基づいており、小規模なインストールでは、テーブル データとは異なる実際の数を持つ可能性があります。 たとえば、ピアツーピア セッションでは、ほとんどのユーザーが既定のビデオ レンダリング ウィンドウを使用しますが、一部のユーザーはビデオ解像度を向上するために Skype for Business Server アプリケーションを増やしたり最大化したりします。
 
 次の表に、さまざまなシナリオの値を示します。
 
@@ -227,7 +222,7 @@ Skype for Business Serverは、多くの解像度をサポートしています�
 |メイン ビデオ受信  <br/> |H.264 および RTVideo¹  <br/> |260  <br/> |8015  <br/> |該当なし  <br/> |
 |メイン ビデオ送信  <br/> |H.264 と RTVideo  <br/> |270  <br/> |8015  <br/> |該当なし  <br/> |
 |パノラマ ビデオ受信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2010 (最大解像度 1920x288 の場合)  <br/> |該当なし  <br/> |
-|パノラマ ビデオ送信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2515 ²  <br/> |該当しない  <br/> |
+|パノラマ ビデオ送信  <br/> |H.264 と RTVideo  <br/> |190  <br/> |2515 ²  <br/> |該当なし  <br/> |
 
 1. RT ビデオは、Lync 2010 クライアントが会議に接続されている H.264 に加えて送信されます。
 
@@ -266,9 +261,9 @@ Skype for Business Server QoS は必要としませんが、強く推奨され�
 
 Skype for Business Server QoS は完全にサポートされています。つまり、QoS を既に使用している組織は、既存のネットワーク インフラストラクチャにSkype for Business Server簡単に統合できます。 これを行うには、次の手順に従う必要があります。
 
-- [デバイスに基づいてSkype for Business Serverデバイスの QoS](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)を有効Windows。 既定では、その他のオペレーティング システムを実行するコンピューターおよびその他のデバイス (iPhone など) では QoS は無効です。 Skype for Business Serverを使用してデバイスのサービス品質を有効または無効にすることもできますが、通常、製品を使用してこれらのデバイスで使用される DSCP コードを変更することはできません。
+- [デバイスに基づいてSkype for Business Serverデバイスの QoS](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md) を有効Windows。 既定では、その他のオペレーティング システムを実行するコンピューターおよびその他のデバイス (iPhone など) では QoS は無効です。 Skype for Business Serverを使用してデバイスのサービス品質を有効または無効にすることもできますが、通常、製品を使用してこれらのデバイスで使用される DSCP コードを変更することはできません。
 
-- [会議、アプリケーション、仲介サーバー](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)のポート範囲とサービス品質ポリシーの構成。 音声とビデオなどの異なるパケットの種類に対して独自のポート セットを予約する必要があります。 これを使用Skype for Business Serverプロパティ値を True または False に設定して QoS を有効または無効にしない。 代わりに、ポート範囲を構成し、グループ ポリシーを作成して適用することで QoS を有効にします。 後で QoS を使用しない場合は、適切なグループ ポリシー オブジェクトを削除して QoS を "無効" できます。
+- [会議サーバー、アプリケーション サーバー、仲介](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)サーバーのポート範囲とサービス品質ポリシーの構成。 音声とビデオなどの異なるパケットの種類に対して独自のポート セットを予約する必要があります。 これを使用Skype for Business Serverプロパティ値を True または False に設定して QoS を有効または無効にしない。 代わりに、ポート範囲を構成し、グループ ポリシーを作成して適用することで QoS を有効にします。 後で QoS を使用しない場合は、適切なグループ ポリシー オブジェクトを削除して QoS を "無効" できます。
 
 - [エッジ サーバーのポート範囲とサービス品質ポリシーの構成](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md)。 必須ではありませんが、その他のサーバーと同じポート範囲を使用するようにエッジ サーバーを構成することができます。 QoS ポリシーの構成は、エッジ サーバーの内部側でのみ行われます。 これは、QoS がインターネットではなく内部ネットワークで使用するように設計されているからです。
 

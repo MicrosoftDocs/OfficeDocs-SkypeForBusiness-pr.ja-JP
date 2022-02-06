@@ -1,25 +1,20 @@
 ---
 title: 直近の統合データの取得
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: '概要: 呼び出し品質ダッシュボードのデータ API の一部である[最終統合データの取得] 操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 7bc9323c4a2d3933706be0a39a2ff4b86b11eb42
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851971"
 ---
+
 # <a name="get-last-integration-data"></a>直近の統合データの取得
  
 **概要:** 呼び出し品質ダッシュボードのデータ API の一部である [最後の統合データの取得] 操作について説明します。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
@@ -35,7 +30,7 @@ Get Last Integration Data operation は、アーカイブとキューブ処理�
 
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
  **URI パラメーター** - なし。
   

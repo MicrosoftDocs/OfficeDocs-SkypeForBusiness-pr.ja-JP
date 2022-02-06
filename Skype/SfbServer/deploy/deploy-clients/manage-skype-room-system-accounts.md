@@ -1,31 +1,26 @@
 ---
 title: Skype Room System アカウントの管理
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: このトピックでは、ルーム システム アカウントを管理するSkype説明します。
-ms.openlocfilehash: 2ae91a977a837e2b1b54db8d127551b5f53bb1a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864454"
 ---
+
 # <a name="manage-skype-room-system-accounts"></a>Skype Room System アカウントの管理
  
 このトピックでは、ルーム システム アカウントを管理するSkype説明します。 
 
 > [!NOTE]
-> Microsoft Teams会議室は、依存関係と展開手順が異なる別の製品です。 会議室の詳細Microsoft Teams、会議室の管理Microsoft Teamsを[参照してください](/microsoftteams/rooms/rooms-manage)。
+> Microsoft Teams Rooms は、依存関係と展開手順が異なる別の製品です。 詳細については、「Microsoft Teamsの管理のMicrosoft Teams」[を参照してください](/microsoftteams/rooms/rooms-manage)。
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>プール間Skypeルーム システム アカウントを移動する
 

@@ -1,32 +1,27 @@
 ---
 title: Skype for Business オンプレミスから Teams にアップグレードする
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 組織をオンプレミスのデプロイからMicrosoft Teams移行Skype for Business方法について説明します。
+description: 組織をオンプレミスのデプロイからMicrosoft Teams移行するSkype for Business説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Teams-upgrade-guidance
-- seo-marvel-apr2020
+  - Teams-upgrade-guidance
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: b6d8c95b34345bd6ea6203abbb099c7071c9db60
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846020"
+  - Microsoft Teams
 ---
+
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>オンプレミスのデプロイSkype for BusinessからデプロイにアップグレードTeams
 
 ![「展開と実装」段階が強調表示された、アップグレード行程の各段階。](media/upgrade-banner-deployment.png "「展開と実装」段階が強調表示された、アップグレード行程の各段階")
@@ -41,7 +36,7 @@ ms.locfileid: "60846020"
 - [組織を準備した](./upgrade-prepare-organization.md)
 - [パイロットを実施した](./pilot-essentials.md)
 
-Skype for Business または Microsoft Lync をオンプレミスに展開し、組織が複数の共存モードを使用して選択して Microsoft Teams にアップグレードする場合、またはすべて使用する場合は、この記事のガイダンスに従います。 
+Skype for Business または Microsoft Lync をオンプレミスに展開し、組織が複数の共存モードを使用して選択的に Microsoft Teams にアップグレードする場合、またはすべて使用する場合は、この記事のガイダンスに従います。 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -56,11 +51,11 @@ Skype for Business または Microsoft Lync をオンプレミスに展開し、
 
 ハイブリッドセットアップが完了したら、ユーザーを別のユーザーに移行Microsoft 365またはOffice 365。
 
-詳細については、以下を参照してください。
+詳細については、次を参照してください:
 
 - [TeamsUpgradePolicy: 移行と共存の管理](upgrade-to-teams-on-prem-tools.md)。
 
-- [オンプレミスからオンライン にユーザーをSkype for Businessします](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。
+- [オンプレミスからオンラインにユーザーをSkype for Businessします](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。
 
 ## <a name="phone-system-and-teams-upgrade"></a>電話システムと Teams のアップグレード
 
@@ -68,4 +63,4 @@ Skype for Business または Microsoft Lync をオンプレミスに展開し、
 
 通話プランを使用していない場合は、アップグレードの一環として、エンタープライズ音声展開を 電話システム 直接ルーティングに移行する必要Teams。
 
-詳細については、「ダイレクト ルーティング」[の追加の考慮事項電話システム参照してください](./direct-routing-landing-page.md)。 通話プランを使用する予定の場合は、電話番号を通話プランに移行する場合のガイダンス[をTeams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+詳細については、「ダイレクト ルーティング[の追加の考慮事項電話システム参照してください](./direct-routing-landing-page.md)。 通話プランを使用する予定の場合は、電話番号を通話プランに移行する方法に関するガイダンス[Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。

@@ -1,36 +1,31 @@
 ---
 title: バハバスでの空き時間情報
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
+ms.reviewer: 'mikedav, jastark, oscarr, v-sukade, rcole, fafan'
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
 description: 以下に、ba大Microsoft 365でOffice 365サービスとSkype for BusinessサービスMicrosoft Teamsを示します。
-ms.openlocfilehash: d1a5a54b15da9b2adaf6d138c2c168bbde1375d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827380"
 ---
+
 # <a name="availability-in-the-bahamas"></a>バハバスでの空き時間情報
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
@@ -62,7 +57,7 @@ ms.locfileid: "60827380"
 |通話プランで利用可能な通話分数  <br/> |該当しない  <br/> |
 |発信通話を行うことができますか?  <br/> |該当しない  <br/> |
 
-通話プランを購入できない場合は、ダイレクト ルーティング の使用 [を検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
+通話プランを購入できない場合は、直接ルーティングの使用 [を検討してください](../direct-routing-landing-page.md)。 ダイレクト ルーティングでは、事実上すべてのテレフォニー 電話システムを使用できます。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>サービスの有料電話番号と無料電話番号
 
@@ -72,7 +67,7 @@ ms.locfileid: "60827380"
 |有料電話番号は使用できますか?  <br/> |いいえ <br/> |
 |無料電話番号は利用できますか? <br/> | Yes  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は[、「Skype for Business](../getting-service-phone-numbers.md)および Microsoft Teams のサービス電話番号の取得」を参照してください。
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」[を参照](../getting-service-phone-numbers.md)してください。
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

@@ -1,24 +1,19 @@
 ---
 title: ピアツーピア セッション詳細レポート (Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: '概要: [ピアツーピア セッションの詳細レポート] の詳細レポートについてSkype for Business Server。'
-ms.openlocfilehash: fe49c455391583a02f873769a75d86da62fe2a25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829971"
 ---
+
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>ピアツーピア セッション詳細レポート (Skype for Business Server
  
 **概要:**「ピアツーピア セッション詳細レポート」を参照Skype for Business Server。
@@ -37,7 +32,7 @@ ms.locfileid: "60829971"
     
 - エラー リスト レポート 
     
-ピアツーピア セッション詳細レポート内から、診断レポート (詳細[](diagnostic-report.md)) メトリックをクリックすると、Skype for Business Serverで診断レポートにアクセスできます。 次のいずれかの指標をクリックしてトップ エラー レポートにアクセスすることもできます。
+ピアツーピア セッション詳細レポート内から、診断レポート (詳細) メトリック[](diagnostic-report.md)をクリックSkype for Business Serverで診断レポートにアクセスできます。 次のいずれかの指標をクリックしてトップ エラー レポートにアクセスすることもできます。
   
 - 応答
     
@@ -61,7 +56,7 @@ ms.locfileid: "60829971"
   
 **セッション情報の指標**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |[**プールの FQDN**] <br/> |セッションに関与したレジストラー プールまたはエッジ サーバーの完全修飾ドメイン名 (FQDN) です。  <br/> |
 |[**招待時間**] <br/> |セッションへの招待が最初に送信された日時です。  <br/> |

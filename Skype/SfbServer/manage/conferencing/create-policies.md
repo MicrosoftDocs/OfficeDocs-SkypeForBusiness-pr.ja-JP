@@ -1,24 +1,19 @@
 ---
 title: 会議ポリシーを作成するSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: '概要: 会議ポリシーを作成する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 56404f98389dbe2fca6a6022e7d6f175bcca030c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828830"
 ---
+
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>会議ポリシーを作成するSkype for Business Server
  
 **概要:** 会議ポリシーを作成する方法については、Skype for Business Server。
@@ -31,13 +26,13 @@ ms.locfileid: "60828830"
     
 2. [コントロール Skype for Business Server] を開きます。
     
-3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー] **をクリックします**。
+3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー **] をクリックします**。
     
 4. [**新規**] をクリックし、次のいずれかを実行します。
     
-   - ユーザーレベルのポリシーを作成するには、[**ユーザー ポリシー**] をクリックします。 [ **新しい会議ポリシー]** の [ **名前]** に、ポリシーのわかりやすい名前を入力します。
+   - ユーザーレベルのポリシーを作成するには、[**ユーザー ポリシー**] をクリックします。 [ **新しい会議ポリシー] の** **[名前**] に、ポリシーのわかりやすい名前を入力します。
     
-   - サイトレベルのポリシーを作成するには、[**サイト ポリシー**] をクリックします。 [**サイトの選択**] 検索フィールドに、ポリシーを作成するサイトの名前または名前の一部を入力します。 サイトの一覧で、必要なサイトをクリックし **、[OK] をクリックします**。
+   - サイトレベルのポリシーを作成するには、[**サイト ポリシー**] をクリックします。 [**サイトの選択**] 検索フィールドに、ポリシーを作成するサイトの名前または名前の一部を入力します。 サイトの一覧で、必要なサイトをクリックし、[OK] をクリック **します**。
     
      > [!NOTE]
      > サイト名は会議ポリシー名になります。変更できません。 
@@ -70,7 +65,7 @@ ms.locfileid: "60828830"
     
     - ユーザーによる会議へのダイヤル インを許可し、未認証 (匿名) のユーザーがダイヤル アウト番号を使用して会議に参加できるようにするには、**[匿名の参加者によるダイヤル アウトを許可する]** チェック ボックスをオンにします。 会議サーバーはダイヤルアウト番号を使用してユーザーを呼び出し、ユーザーはその電話に応答し会議に参加します。 既定では、匿名ユーザーはダイヤル アウト番号を使用して、会議に参加できません。
     
-12. オーディオ/ビデオでのビデオの使用を許可することを選択した場合は、[複数のビデオ ストリームを許可する **] をオンにしてください**。
+12. オーディオ/ビデオでのビデオの使用を許可する場合は、[複数のビデオ ストリームを **許可する****] をオンにしてください**。
     
 13. **[共同作業データ]** で、次のどちらかの操作を行います。
     
@@ -84,7 +79,7 @@ ms.locfileid: "60828830"
     
     - ファイル転送を使用できないようにするには、**[参加者によるファイルの転送を許可する]** チェック ボックスをオフにします。 既定では、ユーザーはファイルを転送できます。
     
-    - コメントを使用できないようにするには、**[コメントを有効にする]** チェック ボックスをオフにします。 共有プレゼンテーションで注釈を使用するにはPowerPoint注釈を有効 **にするをPowerPointします**。 既定では、コメントは許可されます。
+    - コメントを使用できないようにするには、**[コメントを有効にする]** チェック ボックスをオフにします。 共有プレゼンテーションで注釈を使用するにはPowerPoint注釈を有効 **PowerPointします**。 既定では、コメントは許可されます。
     
     - ポーリングを使用できないようにするには、**[ポーリングを有効にする]** チェック ボックスをオフにします。 既定では、ポーリングは許可されます。
     
@@ -118,7 +113,7 @@ ms.locfileid: "60828830"
     
 ## <a name="create-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議ポリシー Skype for Business Server作成する
 
-会議ポリシーを作成するには **、New-CsConferencingPolicy コマンドレットを使用** します。
+会議ポリシーを作成するには、 **New-CsConferencingPolicy コマンドレットを使用** します。
   
 次の例では、Identity SalesConferencingPolicy を使用して新しい会議ポリシーを作成します。 このポリシーでは、MaxMeetingSize 以外の会議ポリシーのすべての既定値が使用されます。 この例では、会議の最大サイズは既定値の 250 ではなく 50 に設定されます。
   
@@ -126,4 +121,4 @@ ms.locfileid: "60828830"
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 
-完全な構文の説明とパラメーターの一覧を含む詳細については [、「New-CsConferencingPolicy」を参照してください](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)。
+完全な構文の説明とパラメーターの一覧を含む詳細については、「 [New-CsConferencingPolicy」を参照してください](/powershell/module/skype/new-csconferencingpolicy?view=skype-ps)。

@@ -1,28 +1,23 @@
 ---
 title: '[通話パークの設定] を [Skype for Business'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: '[通話パーク] の設定を変更Skype for Business Server エンタープライズ VoIP。'
-ms.openlocfilehash: 686484fd42982f2b64623b652851482b85d3e1b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833933"
 ---
+
 # <a name="configure-call-park-settings-in-skype-for-business"></a>[通話パークの設定] を [Skype for Business
 
 [通話パーク] の設定を変更Skype for Business Server エンタープライズ VoIP。
@@ -44,9 +39,9 @@ ms.locfileid: "60833933"
 
 ### <a name="to-configure-call-park-settings"></a>通話パークの設定を構成するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
 
-2. 次を実行します: 
+2. 次のコマンドを実行します。
 
    ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
@@ -55,7 +50,7 @@ ms.locfileid: "60833933"
    > [!TIP]
    > サイトを識別するには、**Get-CsSite** コマンドレットを使用します。 詳細については、「管理シェルSkype for Business Server」を参照してください。
 
-    例:
+    次に例を示します。
 
    ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com

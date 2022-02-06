@@ -1,25 +1,20 @@
 ---
 title: 'Skype for Business Server: 通話品質ダッシュボードの計画'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: '概要: 通話品質ダッシュボードを計画する際に考慮すべき点について学習します。'
-ms.openlocfilehash: c9ab2cafcd05ac7ea0585b0f3af2924b9fa4f0cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835175"
 ---
+
 # <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>Skype for Business Server: 通話品質ダッシュボードの計画 
  
 **概要:** 通話品質ダッシュボードを計画する際に考慮すべき点について学習します。
@@ -35,7 +30,7 @@ ms.locfileid: "60835175"
 - **レポート構造と分析キューブ データへの Web API アクセス。** ダッシュボード レポート フレームワークは、キューブからデータを表示する唯一の方法ではありません。 CQD には、HTML と JavaScript を使用して CQD Web API からデータを取得し、カスタム形式でデータをレンダリングする例がいくつか示されています。 レポート エディターと CQD Web API を組み合わせて使用すると、レポートの迅速なプロトタイプ作成とカスタム レポート レイアウトが可能です。
 
 > [!NOTE]
-> 管理者は[、CQD](https://cqd.teams.microsoft.com) Skype for Business Server 3 を使用して 2019 年を管理できます (管理者資格情報を使用してログインします)。 これには、ハイブリッド実装と通話データ コネクタ (CDC) の使用が必要です。 CDC [の有効化の詳細については](../../../SfbHybrid/hybrid/plan-call-data-connector.md) 、「通話データ コネクタの計画」を参照してください。 CQD バージョン 3 のドキュメントについては、CQD バージョン 3 の詳細については[、「Microsoft Teams](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)および Skype for Business Online の通話品質ダッシュボードを有効にし、使用する」を参照してください。
+> 管理者は、[CQD Skype for Business Server 3](https://cqd.teams.microsoft.com) (管理者資格情報を使用してログイン) を使用して、2019 年を管理できます。 これには、ハイブリッド実装と通話データ コネクタ (CDC) の使用が必要です。 CDC [の有効化の詳細については](../../../SfbHybrid/hybrid/plan-call-data-connector.md) 、「通話データ コネクタの計画」を参照してください。 CQD バージョン 3 のドキュメントについては、「CQD バージョン 3 の詳細については、「[Microsoft Teams および Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) の通話品質ダッシュボードを有効にし、使用する」を参照してください。
 
 ## <a name="cqd-design-goals"></a>CQD デザインの目標
 
@@ -83,15 +78,15 @@ CQD データは、CQD ポータルを介して表示し、REST API 呼び出し
   
 ### <a name="cqd-portal"></a>CQD ポータル
 
-ポータルは、キューブ内のデータを最も速く表示する方法です。 ポータルには、すぐ使えるいくつかの組み込みレポートが付属しています。 組み込みのレポートは構造化された方法でリンクされ、ユーザーは呼び出しデータのスライスを順次小さく、小さくします。 組み込みのレポートでは、ピボット、フィルター、メジャーが異なるグラフとテーブルの組み合わせを示して、さまざまな方法でデータを表示できます。 ポータルにアクセスする各ユーザーは、自分が変更および共有できる一連のレポートを所有できます。 CQD Web ポータルの使用方法の詳細については、「Use Call Quality Dashboard for Skype for Business Server」[を参照してください](use.md)。
+ポータルは、キューブ内のデータを最も速く表示する方法です。 ポータルには、すぐ使えるいくつかの組み込みレポートが付属しています。 組み込みのレポートは構造化された方法でリンクされ、ユーザーは呼び出しデータのスライスを順次小さく、小さくします。 組み込みのレポートでは、ピボット、フィルター、メジャーが異なるグラフとテーブルの組み合わせを示して、さまざまな方法でデータを表示できます。 ポータルにアクセスする各ユーザーは、自分が変更および共有できる一連のレポートを所有できます。 CQD Web ポータルの使用方法の詳細については、「Use [Call Quality Dashboard for the call Quality Dashboard for](use.md) Skype for Business Server。
   
-CQD ポータルでサポートされるオペレーティング システム: Windows 8.1、Windows 8、Windows Server 2012 R2、Windows Server 2012、および Windows Server 2016 (Skype for Business Server 2019CQD のみ)。
+CQD ポータルでサポートされるオペレーティング システム: Windows 8.1、Windows 8、Windows Server 2012 R2、Windows Server 2012、および Windows Server 2016 (Skype for Business Server2019 CQD のみ)。
   
 CQD ポータルでサポートされているブラウザー: Internet Explorer 11、Internet Explorer 10、およびInternet Explorer 9。
   
 ### <a name="rest-apis"></a>REST API
 
-キューブ データには、REST API 呼び出しを介してアクセスすることもできます。 REST API 呼び出しを介して取得されたデータは、HTML ページを介してレンダリングできます。 ユーザーは、ビジネス ニーズに適したカスタム レポートを作成しながら、クエリ速度と CQD の高レベルスキーマを利用できます。 API とサンプルの詳細については、「呼び出し品質[ダッシュボードの開発」を参照Skype for Business Server。](develop.md) 
+キューブ データには、REST API 呼び出しを介してアクセスすることもできます。 REST API 呼び出しを介して取得されたデータは、HTML ページを介してレンダリングできます。 ユーザーは、ビジネス ニーズに適したカスタム レポートを作成しながら、クエリ速度と CQD の高レベルスキーマを利用できます。 API とサンプルの詳細については、「通話品質ダッシュボード[の開発」を参照Skype for Business Server](develop.md)。 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>CQD に対する組織の要件の定義
 
@@ -121,7 +116,7 @@ CQD には複数のコンポーネントが付属し、各コンポーネント�
 |コンポーネント名|依存コンポーネント|
 |:-----|:-----|
 |QoE アーカイブ   |Microsoft SQL Server   |
-|キューブ   |Microsoft SQL ServerAnalysis Services   |
+|キューブ   |Microsoft SQL Server Analysis Services   |
 |portal   |Microsoft Information Services   |
 |リポジトリ サービス (ポータルのインストールの一部)   |Microsoft SQL Server   |
    
@@ -164,7 +159,7 @@ CQD は、複数の QoEMetrics データベースのデータをマージしま�
 
 |CQD 2015 の場合 |&nbsp;  |
 |:-----|:-----|
-|サポートされているオペレーティング システム    |WindowsServer 2008 R2、Windows Server 2012、Windows Server 2012 R2   |
+|サポートされているオペレーティング システム    |Windows Server 2008 R2、Windows Server 2012、Windows Server 2012 R2   |
 |サポートされているSQL Server   |SQL Server 2012、SQL Server 2014、SQL Server 2016   |
 
 
@@ -241,15 +236,15 @@ CQD は Microsoft SQL Server、Microsoft SQL Analysis Server、Microsoft Interne
 
 CQD には、次のオペレーティング システムが必要です。
   
-- WindowsIIS 7.5 を使用したサーバー 2008 R2
+- Windows IIS 7.5 を使用した Server 2008 R2 のインストール
     
 - Windows Server 2012 IIS 8.0 のインストール
     
-- Windows Server 2012IIS 8.5 の R2
+- Windows Server 2012 R2 と IIS 8.5
 
 - Windows Server 2016 IIS 10.0 のインストール (Skype for Business Server 2019 CQD のみ)
 
-- WindowsServer 2019 (Skype for Business Server 2019 CQD のみ)
+- Windows Server 2019 (Skype for Business Server 2019 CQD のみ)
     
 次に、必要な IIS 役割サービス (階層順) を示します。
   
@@ -282,7 +277,7 @@ CQD には、次のオペレーティング システムが必要です。
   - IIS 管理コンソール
     
 > [!NOTE]
->  上記の要件については、次の点に注意してください:>.Net フレームワークの 3.5 バージョンと 4.5 バージョンを使用できます。 どちらも必須です (具体的には、3.5 SP1 が必要です)。> 一部のシステムでは、IIS のインストール前に ASP.NET がセットアップされている場合、ASP.NET が IIS に登録されない場合があります。 この問題は、対応する .Net バージョンのアプリケーション プールが存在しない場合と、アプリ プール構成に .NET CLR バージョンがない場合に発生します。 サーバー 2008 R2 でこのようなWindowsを修正するには、を実行します `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` 。 R2 Windows Server 2012 および Windows Server 2012 で実行し、IIS Manager.> 管理ツールの既定の Web サイトから "ServiceModel" モジュールを削除する方法はオプションですが、お勧 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` めします。
+>  上記の要件については、次の点に注意してください:>.Net フレームワークの 3.5 バージョンと 4.5 バージョンを使用できます。 どちらも必須です (具体的には、3.5 SP1 が必要です)。> 一部のシステムでは、IIS のインストール前に ASP.NET がセットアップされている場合、ASP.NET が IIS に登録されない場合があります。 この問題は、対応する .Net バージョンのアプリケーション プールが存在しない場合と、アプリ プール構成に .NET CLR バージョンがない場合に発生します。 サーバー 2008 R2 でこのようなWindows修正するには、を実行します`%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru`。 R2 Windows Server 2012 および Windows Server 2012 で`dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45`実行し、IIS Manager.> 管理ツールの既定の Web サイトから "ServiceModel" モジュールを削除する方法はオプションですが、お勧めします。
   
 PowerShell を使用してこれらの要件をインストールするには、次のコマンドを実行します。
   
@@ -309,7 +304,7 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
   
 SSAS セットアップを構成する場合は、Analysis Services 構成で、"Server Mode" を "多次元およびデータ マイニング モード" に設定します。 
   
-ビジネス インテリジェンス機能のインストールと構成のSQL Server詳細については、「Install Analysis Services in [Multidimensional and Data Mining Mode」を参照してください](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110))。
+ビジネス インテリジェンス機能のインストールと構成のSQL Server詳細については、「Install [Analysis Services in Multidimensional and Data Mining Mode」を参照してください](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110))。
   
 #### <a name="account-requirements"></a>アカウントの要件
 

@@ -1,25 +1,20 @@
 ---
-title: -Roll in Skype for Business Serverを使用して、AV 証明書と OAuth 証明書をSet-CsCertificate
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: '-Roll in Skype for Business Serverを使用して、AV 証明書と OAuth 証明書をSet-CsCertificate'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: '概要: AV 証明書と OAuth 証明書をステージにSkype for Business Server。'
-ms.openlocfilehash: 7eeac29ba322d40d8ab8f70712ecfca5ead5c97d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832111"
 ---
+
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>-Roll in Skype for Business Serverを使用して、AV 証明書と OAuth 証明書をSet-CsCertificate
  
 **概要:** AV 証明書と OAuth 証明書をステージSkype for Business Server。
@@ -56,7 +51,7 @@ OAuthTokenIssuer 証明書をステージングするときは、証明書が有
     
 3. 新しい AudioVideoAuthentication 証明書をエッジ サーバーとプール内の他のすべてのエッジ サーバーにインポートします (プールが展開されている場合)。
     
-4. インポートされた証明書を Set-CsCertificateコマンドレットで構成し、-EffectiveDate パラメーターと一緒に -Roll パラメーターを使用します。 有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) からトークン存続時間 (既定では 8 時間) を引いた値で定義します。 これにより、証明書をアクティブに設定する必要がある時間が与え、-EffectiveDate \<string\> : "7/22/2015 6:00:00 AM" になります。 
+4. インポートされた証明書を Set-CsCertificateコマンドレットで構成し、-EffectiveDate パラメーターと一緒に -Roll パラメーターを使用します。 有効日は、現在の証明書の有効期限 (14:00:00 または 2:00:00 PM) からトークン存続時間 (既定では 8 時間) を引いた値で定義します。 これにより、証明書をアクティブに設定する必要がある時間が与え、-EffectiveDate \<string\>: "7/22/2015 6:00:00 AM" になります。 
     
     > [!IMPORTANT]
     > エッジ プールでは、すべての AudioVideoAuthentication 証明書を展開し、新しい証明書を使用してすべてのクライアント トークンとコンシューマー トークンが更新される前に古い証明書が期限切れになった場合に発生する可能性がある音声ビデオ通信の中断を回避するために展開された最初の証明書の -EffectiveDate パラメーターによって定義された日付と時刻によって準備されている必要があります。 
@@ -87,9 +82,9 @@ Set-CsCertificate、-Roll、-EffectiveDate が使用するプロセスをさら�
 |**Callout**|**ステージ**|
 |:-----|:-----|
 |1  <br/> |開始: 2015/7/22 12:00:00 AM  <br/> 現在の AudioVideoAuthentication 証明書は、2015 年 7 月 22 日午後 2 時に期限切れになる予定です。 これは、証明書の有効期限切れタイム スタンプによって決まります。 既存の証明書が有効期限に達する前に、証明書の交換とロールオーバーを計画して、8 時間の重複 (既定のトークンの有効期間) を考慮します。 この例では、2:00:00 AM のリード タイムを使用して、管理者が新しい証明書を 6:00:00 の有効時間より前に配置して準備するための十分な時間を確保します。  <br/> |
-|2  <br/> |2015/7/22 2:00:00 AM - 7/22/2015 5:59:59 AM  <br/> Set-CsCertificate \<certificate usage type\> -Type -Thumbprint -Roll -EffectiveDate を使用して、有効な時間が 6:00:00 (この例では 4 時間のリード タイムですが、長くすることができます) のエッジ サーバーに証明書を \<thumbprint of new certificate\> 設定する \<datetime string of the effective time for new certificate\>  <br/> |
+|2  <br/> |2015/7/22 2:00:00 AM - 7/22/2015 5:59:59 AM  <br/> Set-CsCertificate -Type \<certificate usage type\> -Thumbprint \<thumbprint of new certificate\> -Roll -EffectiveDate を使用して、有効な時間が 6:00:00 (この例では 4 時間のリード タイムですが、長くすることができます) のエッジ サーバーに証明書を設定する \<datetime string of the effective time for new certificate\>  <br/> |
 |3  <br/> |2015/7/22 6:00 AM - 7/22/2015 14:00  <br/> トークンを検証するには、新しい証明書が最初に試され、新しい証明書がトークンの検証に失敗した場合は、古い証明書が試されます。 このプロセスは、8 時間 (既定のトークンの有効期間) の重複期間中のすべてのトークンに使用されます。  <br/> |
-|4  <br/> |終了: 2015/7/22 14:00:01  <br/> 古い証明書の有効期限が切れ、新しい証明書が引き継がれています。 古い証明書は、-Type -Previous Remove-CsCertificateで安全 \<certificate usage type\> に削除できます  <br/> |
+|4  <br/> |終了: 2015/7/22 14:00:01  <br/> 古い証明書の有効期限が切れ、新しい証明書が引き継がれています。 古い証明書は、-Type -Previous Remove-CsCertificateで安全に削除 \<certificate usage type\> できます  <br/> |
    
 有効時間に達すると (2015/7/22 6:00:00 AM)、すべての新しいトークンが新しい証明書によって発行されます。 トークンを検証する場合、トークンはまず新しい証明書に照らして検証されます。 検証が失敗した場合は、古い証明書が試されます。 新しい証明書を試してから古い証明書にフォールバックするこのプロセスは、古い証明書の有効期限まで続きます。 古い証明書の有効期限が切れたら (2015/7/22 2:00:00 PM)、トークンは新しい証明書によってのみ検証されます。 以前の証明書は、-Previous パラメーターを使用Remove-CsCertificateコマンドレットを使用して安全に削除できます。
 

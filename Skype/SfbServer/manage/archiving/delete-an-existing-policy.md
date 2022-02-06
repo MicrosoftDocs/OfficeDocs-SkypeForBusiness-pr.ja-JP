@@ -1,24 +1,19 @@
 ---
 title: 既存のアーカイブ ポリシーを削除Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: '概要: ユーザーのアーカイブ ポリシーを削除する方法についてSkype for Business Server。'
-ms.openlocfilehash: f475eb3ea70eea98c2bfa67b1dea02e30a0b977c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852091"
 ---
+
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>既存のアーカイブ ポリシーを削除Skype for Business Server
 
 **概要:** ユーザーのアーカイブ ポリシーを削除する方法についてSkype for Business Server。
@@ -59,4 +54,4 @@ Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 
-詳細については [、Remove-CsArchivingPolicy](/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [Remove-CsArchivingPolicy](/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。

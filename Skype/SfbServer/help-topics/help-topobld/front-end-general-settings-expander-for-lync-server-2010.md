@@ -1,27 +1,22 @@
 ---
 title: Lync Server 2010 用のフロントエンド全般設定の展開
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FrontEndGeneralSettingsExpander2010
+  - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: フロント エンド サーバーまたはフロント エンド プールのプロパティを編集するには、次の属性を編集または構成します。 構成ページは、次のセクションに分かれています。
-ms.openlocfilehash: b515acd1aa475247f0f87206a0af50eedb21a294
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855564"
 ---
+
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Lync Server 2010 用のフロント エンド全般設定エキスパンダー
 
 フロント エンド サーバーまたはフロント エンド プールのプロパティを編集するには、次の属性を編集または構成します。 構成ページは、次のセクションに分かれています。
@@ -35,7 +30,7 @@ ms.locfileid: "60855564"
     > [!IMPORTANT]
     > フロント エンド サーバーまたはフロント エンド プールで仲介サーバーを照合する場合は、このオプションを選択する必要はありません。 仲介サーバーとフロントエンド サーバーには、通信する専用の IP アドレスが必要です。
 
-- [ **サービスの使用状況を選択** した IP アドレスに制限する] を選択し、展開の残りの部分とのフロントエンド サーバーまたはフロントエンド プール通信のプライマリ IP アドレスの **IP** アドレスを入力します。 仲介サーバー **に関連付** けられている IP アドレスを PSTN IP アドレスに入力します。
+- [ **サービスの使用状況を選択した IP** アドレスに制限する] を選択し、展開の残りの部分とのフロントエンド サーバーまたはフロントエンド プール通信のプライマリ IP アドレスの **IP** アドレスを入力します。 仲介サーバー **に関連付** けられている IP アドレスを PSTN IP アドレスに入力します。
 
     [**機能**]
 
@@ -43,15 +38,15 @@ ms.locfileid: "60855564"
 
 - [電話会議] をオンにした場合、[**ダイヤルイン (PSTN) 会議**] をオンにすることができます。ダイヤルイン会議の機能を有効にするには、このチェック ボックスをオンにします。
 
-- Lync Server  2013 がボイス オーバー IP (VoIP) テクノロジを使用して電話音声システムとして機能する機能を展開する場合は、仲介サーバー、PSTN ゲートウェイ、IP-PBX を使用してハンドセット電話、SIP トランク、または公衆交換電話網接続を展開するオプションを組み合わせて、または単独で展開する場合は、チェック ボックス エンタープライズ VoIP を選択します。 設計と要件に基づいて行います。 詳細については、「エンタープライズ VoIP [2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) [エンタープライズ VoIP」および](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice)「プラン for エンタープライズ VoIP」を参照Skype for Business Server。
+- Lync Server 2013 がボイス オーバー IP (VoIP) テクノロジを使用して電話音声システムとして機能する機能を展開する場合は、仲介サーバー、PSTN ゲートウェイ、IP-PBX を使用してハンドセット電話、SIP トランク、または公衆交換電話網接続を展開するオプションを含む機能を、設計と要件に基づいて組み合わせて、または単独で展開する場合は、チェック ボックス **エンタープライズ VoIP** を選択します。 詳細については、「エンタープライズ VoIP 2015 [エンタープライズ VoIP」および](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice)「[プラン for エンタープライズ VoIP」をSkype for Business Serverしてください。](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **関連付け**
 
-- **SQL Server**: フロントエンド サーバーまたはフロントエンド プールに関連SQL Server (およびオプションで名前付きインスタンス) の FQDN。 リストから SQL Server ストアを選択するか、または、[**新規**] をクリックして新しい SQL Server ストアを作成します。
+- **SQL Server:** フロントエンド サーバーまたはフロントエンド プールに関連SQL Server (および必要に応じて名前付きインスタンス) の FQDN。 リストから SQL Server ストアを選択するか、または、[**新規**] をクリックして新しい SQL Server ストアを作成します。
 
-- **ファイル** ストア : Lync Server 2013 が作成し、レプリケーション、会議ディレクトリ、その他の目的で使用する共有ファイルのファイル ストアの場所として機能するサーバーの FQDN と共有 (形式) を選択します。 `\\<FQDN of server>\<share name>` リストからファイル ストアを選択するか、[新規] をクリックして新しいファイル ストアを作成 **します**。
+- **ファイル** ストア: Lync Server 2013 が作成し、レプリケーション、会議ディレクトリ、その他の目的で使用する共有ファイルのファイル ストアの場所として機能するサーバーの FQDN と共有 (  `\\<FQDN of server>\<share name>`形式) を選択します。 リストから [ファイル ストア] を選択するか、[新規] をクリックして新しいファイル ストアを作成 **します**。
 
-- [アーカイブ **サーバーの関連付け** ] チェック ボックスをオンにして、このフロントエンド サーバーまたはフロントエンド プールのアーカイブ サーバーを有効にします。 チェック ボックスをオンにした後、リストから既存のアーカイブ サーバーを選択するか、[新規] をクリックして新しいアーカイブ サーバーの定義を作成します。
+- [アーカイブ **サーバーの関連付け** ] チェック ボックスをオンにして、このフロントエンド サーバーまたはフロントエンド プールのアーカイブ サーバーを有効にします。 チェック ボックスをオンにした後、リストから既存のアーカイブ サーバーを選択するか、[新規]  をクリックして新しいアーカイブ サーバーの定義を作成します。
 
 - [監視サーバー **の関連付け** ] チェック ボックスをオンにして、このフロントエンド サーバーまたはフロントエンド プールの監視サーバーを有効にします。 チェック ボックスをオンにした後、リストから既存の監視サーバーを選択するか、[ **新規** ] をクリックして新しい監視サーバーの定義を作成します。
 
@@ -77,7 +72,7 @@ ms.locfileid: "60855564"
 
   **仲介サーバー**
 
-- 同一 **配置の** 仲介サーバー (つまり、フロント エンド サーバーまたはフロント エンド プールに展開された仲介サーバー) の仲介サーバーのプロパティを構成するには、[コロケーション仲介サーバーが有効] を **選択します**。
+- 同一 **配置の** 仲介サーバー (つまり、フロント エンド サーバーまたはフロント エンド プールに展開された仲介サーバー) の仲介サーバーのプロパティを構成するには、[コロケーション仲介サーバーが有効] **を選択します**。
 
 - コロケーション仲介 **サーバーの** リッスン ポートを定義するには、コロケーション仲介サーバーがリッスンしている **TLS** と **TCP** ポートの値を入力します。 既定では、TLS は TCP ポート 5067 と定義されています。
 
@@ -91,7 +86,7 @@ ms.locfileid: "60855564"
     仲介サーバーに複数のゲートウェイが関連付けられている場合は、既定にするゲートウェイを選択し、[既定にする] をクリックして、既定のゲートウェイを **指定できます**。 現在の既定のゲートウェイを削除する場合は、ゲートウェイを選択して、[**既定値の解除**] をクリックします。
 
 > [!IMPORTANT]
-> このダイアログ ボックスでプロパティを変更する場合は、トポロジを発行し、影響を受けるすべてのサーバー Skype for Business Server展開ウィザードを実行する必要があります。 新しいトポロジを発行した後、Skype for Business Server 展開ウィザードを実行する必要がある影響を受けるサーバーの一覧が、正常なトポロジ発行の概要画面のリンクとして提供されます。 更新したトポロジの公開に関する詳細については、「[Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology)」を参照してください。 展開ウィザードの詳細Skype for Business Server Lync [Server 管理ツール を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)。
+> このダイアログ ボックスでプロパティを変更する場合は、トポロジを発行し、影響を受けるすべてのサーバー Skype for Business Server展開ウィザードを実行する必要があります。 新しいトポロジを発行した後、Skype for Business Server 展開ウィザードを実行する必要がある影響を受けるサーバーの一覧が、正常なトポロジ発行の概要画面のリンクとして提供されます。 更新したトポロジの公開に関する詳細については、「[Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology)」を参照してください。 展開ウィザードの詳細Skype for Business Server Lync [Server 管理ツール」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)。
 
 トポロジ ドキュメントへの変更を保存して確定するには、[**OK**] をクリックします。
 

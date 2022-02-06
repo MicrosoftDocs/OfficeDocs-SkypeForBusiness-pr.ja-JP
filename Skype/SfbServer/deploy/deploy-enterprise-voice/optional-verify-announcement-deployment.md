@@ -1,25 +1,20 @@
 ---
-title: (省略可能)[アナウンスの展開を確認する] Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: '(省略可能)[アナウンスの展開を確認する] Skype for Business'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: '[アナウンス] アプリケーションの展開をSkype for Business Server エンタープライズ VoIP。 これは、割り当てられていない番号の呼び出しの処理方法に影響します。'
-ms.openlocfilehash: 493ebab118abbfae634bf2c189b292832f0d3b92
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828410"
 ---
+
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(省略可能)[アナウンスの展開を確認する] Skype for Business
  
 [アナウンス] アプリケーションの展開をSkype for Business Server エンタープライズ VoIP。 これは、割り当てられていない番号の呼び出しの処理方法に影響します。

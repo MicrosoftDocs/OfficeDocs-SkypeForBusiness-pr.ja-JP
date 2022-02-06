@@ -1,24 +1,19 @@
 ---
 title: 会議ポリシーを管理Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: '概要: 会議ポリシーを管理する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 8a4c209e711ba6ff332873147c0523839807b108
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835305"
 ---
+
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>会議ポリシーを管理Skype for Business Server
  
 **概要:** 会議ポリシーを管理する方法については、Skype for Business Server。
@@ -39,7 +34,7 @@ ms.locfileid: "60835305"
     
 2.  [コントロール Skype for Business Server] を開きます。
     
-3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー] **をクリックします**。
+3. 左側のナビゲーション バーで、[会議] **をクリック** し、[会議ポリシー **] をクリックします**。
     
 ## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>管理シェルを使用して会議ポリシー Skype for Business Server管理する
 

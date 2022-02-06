@@ -1,27 +1,22 @@
 ---
 title: 会議の構成
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ConfMeetingSettingMain
+  - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: 会議の構成設定では、ユーザーが作成できる会議の種類 (いわゆるmeetings) を定義し、匿名ユーザーとダイヤルイン会議ユーザーがこれらの会議に参加する方法 (またはかどうかを) 制御します。 これらの設定はスケジュール設定された会議にのみ適用されます。 クライアントで [今すぐ会議] オプションをクリックして作成されたアドホック会議には適用されません。
-ms.openlocfilehash: 009985af02283752f29be14379d55da59cf066d2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855654"
+description: '会議の構成設定では、ユーザーが作成できる会議の種類 (いわゆるmeetings) を定義し、匿名ユーザーとダイヤルイン会議ユーザーがこれらの会議に参加する方法 (またはかどうかを) 制御します。 これらの設定はスケジュール設定された会議にのみ適用されます。 クライアントで [今すぐ会議] オプションをクリックして作成されたアドホック会議には適用されません。'
 ---
+
 # <a name="meeting-configuration"></a>会議の構成
 
 会議の構成設定では、ユーザーが作成できる会議 ("ミーティング" とも呼ばれます) の種類を定義でき、さらにこの会議への匿名ユーザーやダイヤルイン会議ユーザーの参加方法について (または、参加可能かどうかについて) 制御できます。 これらの設定はスケジュール設定された会議にのみ適用されます。 クライアントで [今すぐ会議] オプションをクリックして作成されたアドホック会議には適用されません。
@@ -50,7 +45,7 @@ ms.locfileid: "60855654"
 
 次の一覧に、このページのコマンドを示します。
 
-- **New** 新しいサイト会議の構成またはプール会議の構成を開始します。
+- **新機能** 新しいサイト会議の構成またはプール会議の構成を開始します。
 
 - **編集** 選択した会議の構成を開き、編集するか、リスト内のすべての会議構成を選択するか、選択したサイト構成またはプール構成を削除します。
 

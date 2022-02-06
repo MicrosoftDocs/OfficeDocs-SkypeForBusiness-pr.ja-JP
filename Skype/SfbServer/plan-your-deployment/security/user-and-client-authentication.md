@@ -1,24 +1,19 @@
 ---
 title: ユーザーとクライアントの認証Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 信頼済みユーザーとは、資格情報が信頼できるサーバーによって認証されたユーザー Skype for Business Server。 このサーバーは、通常、Standard Edition サーバー、Enterprise Edition フロント エンド サーバー、またはディレクターです。 Skype for Business Server Active Directory ドメイン サービスは、ユーザー資格情報の信頼できる単一のバック エンド リポジトリとして使用されます。
-ms.openlocfilehash: c0c64bb269a80ca4241ec9f2d338817b05f1ff9d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831831"
 ---
+
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>ユーザーとクライアントの認証Skype for Business Server
  
 信頼済みユーザーとは、資格情報が信頼できるサーバーによって認証されたユーザー Skype for Business Server。 このサーバーは、通常、Standard Edition サーバー、Enterprise Edition フロント エンド サーバー、またはディレクターです。 Skype for Business Server Active Directory ドメイン サービスは、ユーザー資格情報の信頼できる単一のバック エンド リポジトリとして使用されます。
@@ -50,7 +45,7 @@ ICE プロトコルおよび TURN プロトコルでも、IETF TURN RFC に記�
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>4.5 の暗号化 ASP.NET 要件 
 
-2015 Skype for Business Server CU5 の時点では、AES は ASP.NET 4.6 ではサポートされていません。これにより、Skype Meetings App の起動が失敗する可能性があります。 クライアントがマシン キー検証値として AES を使用している場合は、マシン キー値を IIS の Skype Meetings App サイト レベルで SHA-1 または別のサポートされているアルゴリズムにリセットする必要があります。 必要に応じて[、「IIS 8.0 ASP.NET 構成管理」](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)を参照してください。
+2015 Skype for Business Server CU5 の時点では、AES は ASP.NET 4.6 ではサポートされていません。これにより、Skype Meetings App の起動が失敗する可能性があります。 クライアントがマシン キー検証値として AES を使用している場合は、マシン キー値を IIS の Skype Meetings App サイト レベルで SHA-1 または別のサポートされているアルゴリズムにリセットする必要があります。 必要に応じて、「[IIS 8.0 ASP.NET 構成管理」](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)を参照してください。
   
 その他のサポートされる値は次のとおりです。
   
@@ -60,4 +55,4 @@ ICE プロトコルおよび TURN プロトコルでも、IETF TURN RFC に記�
     
 - HMACSHA512
     
-  AES、3DES、および MD5 の値は、4 の値に含 ASP.NET なくなりました。 [4.5 ASP.NET の暗号化の改善点 pt. 2 には詳細](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)があります。
+  AES、3DES、および MD5 の値は、4 の値に含 ASP.NET なくなりました。 [4.5 ASP.NET の暗号化の改善点 pt. 2 には](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/)詳細があります。

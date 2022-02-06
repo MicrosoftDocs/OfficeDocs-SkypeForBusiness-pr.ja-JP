@@ -1,48 +1,43 @@
 ---
 title: 常設チャット SQL Server ストアを追加する
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatSqlStorePage
+  - ms.lync.tb.AddPersistentChatSqlStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: 常設チャット サーバー SQL Server常設チャット サーバー プールのデータベースを提供するサーバー ストアを構成します。
-ms.openlocfilehash: 0f092d064b280cd75638a7556497debc41b5996c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837789"
 ---
+
 # <a name="add-persistent-chat-sql-server-store"></a>常設チャット SQL Server ストアの追加
  
 常設チャット サーバー SQL Server常設チャット サーバー プールのデータベースを提供するサーバー ストアを構成します。
   
- **SQL Serverストア**: 既存のストアを選択SQL Server、必要に応じて常設チャットのインスタンスを選択します。
+ **SQL Serverストア**: 常設チャットの既存のSQL Server、必要に応じてインスタンスを選択します。
   
 [**新規]** をクリックして新しいSQL Serverし、必要に応じて常設チャット データの新しいインスタンスを定義します。
   
 [ストア **ミラーリングSQL Server有効** にする] チェック ボックスをオンにして、永続的なチャット データSQL Serverミラー化されたデータベースを提供するデータベースとオプションのインスタンスを構成します。
   
-[ミラーリング] リストから選択 **SQL Server、SQL Server** 常設チャット サーバーのSQL Serverミラーとして機能するSQL Server。
+[ミラーリング] リストから選択 **SQL Server** 常設チャット SQL Serverのミラーとして機能するSQL Serverオプションのインスタンスを格納SQL Server。
   
 [**新規]** をクリックして新しいSQL Serverし、必要に応じて常設チャット の新しいインスタンスをミラーリングSQL Serverします。
   
 [**SQL Server ミラーリング監視を自動フェールオーバーの有効化のために使用**] の一覧で、フェールオーバーのシナリオにおいて監視サーバーとして機能する SQL Server を選択します。 ミラーリング監視サーバーは、常設チャット サーバーのデータをミラーリングまたはホストしませんが、ミラーリングされた構成内の 1 つの SQL Server だけがアクティブなSQL Server状態になります。
   
-[**新規]** をクリックして、SQL Serverミラーリング監視のインスタンスを必要に応じて定義SQL Serverします。
+[**新規]** をクリックして、SQL Serverミラーリング監視のインスタンスを必要に応じてSQL Server定義します。
   
 前のプール定義ダイアログに戻るには、[**戻る**] をクリックします。
   
-この **プールの** ストア構成のオプションの入力が完了したら、[SQL Server] をクリックして、常設チャット サーバー プール定義を続行します。
+この **プールの** ストア構成のオプションの入力が完了したら、[SQL Server] をクリックして、常設チャット サーバー プールの定義を続行します。
   
 すべての変更を破棄して **新しい常設チャット プールの定義** ウィザードを終了するには、[**キャンセル**] をクリックします。
   

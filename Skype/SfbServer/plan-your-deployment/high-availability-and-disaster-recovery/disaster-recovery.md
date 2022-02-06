@@ -1,30 +1,25 @@
 ---
 title: フロントエンド プールの障害復旧 (Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 障害復旧の場合、Skype for Business Server 1 つのプールがダウンした場合に備え、フェールオーバーとプールのペアリングを提供します。
-ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833323"
 ---
+
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>フロントエンド プールの障害復旧 (Skype for Business Server
  
 障害復旧の場合、Skype for Business Server 1 つのプールがダウンした場合に備え、フェールオーバーとプールのペアリングを提供します。
   
-ネットワーク 上で最も堅牢な障害復旧オプションSkype for Business Server、地理的に分散した 2 つのサイトにフロント エンド プールのペアを展開します。 各サイトにはフロント エンド プールが存在し、もう一方のサイトの対応するフロント エンド プールと組み合わされます。 両方のサイトがアクティブであり、バックアップ サービスはプールの同期を維持するためにリアルタイムのデータ レプリケーションを提供します。 フロント[エンド プールのペアリングを実装する](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)場合は、「障害復旧用のペアSkype for Business Serverフロント エンド プールを展開する」を参照してください。
+ネットワーク 上で最も堅牢な障害復旧オプションSkype for Business Server、地理的に分散した 2 つのサイトにフロント エンド プールのペアを展開します。 各サイトにはフロント エンド プールが存在し、もう一方のサイトの対応するフロント エンド プールと組み合わされます。 両方のサイトがアクティブであり、バックアップ サービスはプールの同期を維持するためにリアルタイムのデータ レプリケーションを提供します。 フロント [エンド プールのペアリングを実装する](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)場合は、「障害復旧用のペアSkype for Business Serverフロント エンド プールを展開する」を参照してください。
   
 ![2 つの異なるサイトのフロント エンド プールを、互いにペアリングして表示します。](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
@@ -86,7 +81,7 @@ Backup Service は、2 つのペアのフロント エンド プール間でユ�
   
 ### <a name="mitigating-security-risks"></a>セキュリティ リスクの軽減
 
-Backup Service トラフィックのセキュリティ保護を強化する方法は多数あります。 これは、データ センターへのアクセスの制限から、2 つのデータ センター間の WAN トランスポートのセキュリティ保護までです。 ほとんどの場合、アプリケーションを展開しているSkype for Business Server必要なセキュリティ インフラストラクチャが既に用意されている可能性があります。 ガイダンスをお探しの企業向けには、セキュリティで保護された IT インフラストラクチャを構築する方法の例として、Microsoft がソリューションを提供しています。 詳細については、を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 。 
+Backup Service トラフィックのセキュリティ保護を強化する方法は多数あります。 これは、データ センターへのアクセスの制限から、2 つのデータ センター間の WAN トランスポートのセキュリティ保護までです。 ほとんどの場合、アプリケーションを展開しているSkype for Business Server必要なセキュリティ インフラストラクチャが既に用意されている可能性があります。 ガイダンスをお探しの企業向けには、セキュリティで保護された IT インフラストラクチャを構築する方法の例として、Microsoft がソリューションを提供しています。 詳細については、を参照してください [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10))。 
   
 私たちは、それが唯一の解決策を示すのではなく、また、それがアプリケーションの推奨される解決策Skype for Business Server。 企業のお客様は、IT セキュリティ インフラストラクチャと要件に基づいて、特定のニーズに合ったソリューションを選択することをお勧めします。 Microsoft ソリューションの例では、サーバーとドメインの分離に IPSec とグループ ポリシーを採用しています。
   

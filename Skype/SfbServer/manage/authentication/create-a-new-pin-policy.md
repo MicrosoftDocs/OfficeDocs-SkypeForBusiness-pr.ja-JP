@@ -1,30 +1,25 @@
 ---
 title: 新しい PIN ポリシーを作成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: '概要: 新しい PIN ポリシーを作成します。Skype for Business Server。'
-ms.openlocfilehash: cf9a35c634c9b53b557601009fa131c3c24e7db2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844210"
 ---
+
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>新しい PIN ポリシーを作成Skype for Business Server
  
 **概要:** 新しい PIN ポリシーを作成します。Skype for Business Server。
   
-[PIN ポリシー]**ページを使用** して、IP Phone を使用してユーザーに接続しているユーザーに個人識別番号 (PIN) 認証Skype for Business提供できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
+[PIN ポリシー] **ページを使用** して、IP Phone を使用してユーザーに接続しているユーザーに個人識別番号 (PIN) 認証Skype for Business提供できます。 PIN 認証を使用するには、Web サービス設定で [**PIN 認証を有効にする**] が選択されていることを確認してください。
   
 ユーザーレベルまたはサイトレベルの PIN ポリシーを作成するには、次の手順を実行します。 
   

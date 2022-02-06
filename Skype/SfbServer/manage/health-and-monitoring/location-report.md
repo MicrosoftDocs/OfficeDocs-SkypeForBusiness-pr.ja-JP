@@ -1,24 +1,19 @@
 ---
 title: '[場所] レポート (Skype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: '概要: [場所レポート] の詳細については、「Skype for Business Server。'
-ms.openlocfilehash: afbbf54e913146326ee49e6db051869fa2ac7aca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862404"
 ---
+
 # <a name="location-report-in-skype-for-business-server"></a>[場所] レポート (Skype for Business Server
  
 **概要:** 詳細については、「場所レポート」を参照Skype for Business Server。
@@ -41,7 +36,7 @@ ms.locfileid: "60862404"
   
 **場所レポート のフィルター**
 
-|**名前**|**説明**|
+|**[名前]**|**説明**|
 |:-----|:-----|
 |**From** <br/> |時間範囲の開始日と開始時刻。データを時間単位で表示するには、次のように開始日と開始時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 開始時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に開始します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |
 |**To** <br/> |時間範囲の終了日と終了時刻。データを時間単位で表示するには、次のように終了日と終了時刻の両方を入力します。  <br/> 2015 年 7 月 7 日 13:00  <br/> 終了時刻を入力しないと、レポートは自動的に指定日の午前 12:00 に終了します。データを日単位で表示するには、次のように日付のみを入力します。  <br/> 7/7/2015  <br/> 週単位または月単位で表示するには、表示する週または月の任意の日付を入力します (その週または月の最初の日である必要はありません)。  <br/> 7/3/2015  <br/> 週は、常に日曜日から土曜日までです。  <br/> |

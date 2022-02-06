@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams の導入段階 3 - 規模
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,27 +10,22 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: お客様の組織に対する大規模なサービスの有効化をサポートするために必要Teamsの概要を確認してください。
+description: お客様の組織の大規模なサービスの有効化をサポートするために必要Teamsの概要を確認してください。
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 51d69c0f96248c74f285fbc99ac4a66182de88cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833973"
+  - Microsoft Teams
 ---
+
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams の導入段階 3 - 規模
 
-このフェーズでは、学習、有能なプロジェクト チーム、関係者、チャンピオン、早期導入者との関係を利用して、組織の Teams の広範なスケールの有効化をサポートします。 組織でのサービスの使用に関する継続的なビジネス エンゲージメントの準備を行う場合は、次の手順をMicrosoft Teams。
+このフェーズでは、学習、有能なプロジェクト チーム、関係者、チャンピオン、早期導入者との関係を利用して、組織の Teams の広範なスケールの有効化をサポートします。 組織でのビジネス 契約の継続的な使用に備え、次の手順をMicrosoft Teams。
 
 1. 結果と成功の対策を定義します。
 2. サービス戦略を選択します。

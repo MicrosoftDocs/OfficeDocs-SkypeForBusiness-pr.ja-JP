@@ -1,25 +1,20 @@
 ---
 title: ユーザー設定の取得
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
 description: '概要: User 設定 サービスの一部である Get User 設定します。 User 設定サービスは、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。'
-ms.openlocfilehash: 1d1964ca82ac498df2fedac59890316c4574b592
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851891"
 ---
+
 # <a name="get-user-settings"></a>ユーザー設定の取得
  
 **概要:** User 設定 サービスの一部である Get User 設定操作について設定します。 User 設定サービスは、呼び出し品質ダッシュボードのリポジトリ API の一部です。 品質ダッシュボードの呼び出しは、ユーザーのSkype for Business Server。
@@ -33,11 +28,11 @@ Get User 設定指定したユーザーの設定の一覧を返します。
 
 |**メソッド**|**要求 URI**|**HTTP バージョン**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/user/{userId}/setting  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/user/{userId}/setting  <br/> |HTTP/1.1  <br/> |
    
  **URI パラメーター**
   
-- *effective*  - 省略可能です。 このパラメーターは、特別なユーザー ID の既定値が使用されている場合にのみ適用されます。 それ以外の場合は無視されます。 `True` 有効なユーザー設定を返し `false` 、ユーザー設定 (既定) を返します。
+- *effective*  - 省略可能です。 このパラメーターは、特別なユーザー ID の既定値が使用されている場合にのみ適用されます。 それ以外の場合は無視されます。 `True` 有効なユーザー設定を返し、 `false` ユーザー設定 (既定) を返します。
     
   **要求ヘッダー** - 追加のヘッダーはありません。
   

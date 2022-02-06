@@ -1,27 +1,22 @@
 ---
 title: 割り当てられていない電話番号
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.VoiceFeaVacantNumMain
+  - ms.lync.lscp.VoiceFeaVacantNumMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
-ms.openlocfilehash: 7b09083238f034a7f087ed8aadfa9169c644ceb1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864004"
 ---
+
 # <a name="unassigned-phone-number"></a>割り当てられていない電話番号
 
 未使用の番号とは、組織にとって有効であるが、ユーザーや電話に割り当てられていない電話番号です。未使用の番号の表は、それらの番号に対して発信があった場合の対処方法を示します。
@@ -49,7 +44,7 @@ ms.locfileid: "60864004"
 
 次の一覧に、このページのコマンドを示します。
 
-- **New** 割り当てられていない新しい番号範囲を開始します。
+- **新機能** 割り当てられていない新しい番号範囲を開始します。
 
 - **編集** 選択した割り当てられていない番号範囲を編集用に開き、リスト内のすべての割り当てられていない番号範囲を選択するか、選択した割り当てられていない番号範囲を削除します。
 
@@ -81,4 +76,4 @@ ms.locfileid: "60864004"
 
 - **お知らせ** 割り当てられていないこの範囲の番号に対して再生されるアナウンス。
 
-アナウンス機能の詳細については、「Plan for the Announcement application for the [Announcement application in Skype for Business 2015」](../../plan-your-deployment/enterprise-voice-solution/announcement.md)を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。
+アナウンス機能の詳細については、「Plan [for the Announcement application for the Announcement application in Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md)」を参照してください。 未使用の番号範囲の操作の詳細については、「操作」のドキュメントの「[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)」を参照してください。

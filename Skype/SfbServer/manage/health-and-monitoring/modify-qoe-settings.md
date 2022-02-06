@@ -1,24 +1,19 @@
 ---
 title: '[エクスペリエンスの品質] 設定を変更Skype for Business Server'
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: '概要: QoE データの保持を指定する方法については、Skype for Business Server。'
-ms.openlocfilehash: 7960f7c89ce16a7105cf24cc89d5efd660fe260b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855524"
 ---
+
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>[エクスペリエンスの品質] 設定を変更Skype for Business Server
 
 **概要:** QoE データの保持を指定する方法については、Skype for Business Server。
@@ -48,7 +43,7 @@ ms.locfileid: "60855524"
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した QoE 保持Windows PowerShellする
 
-QoE 保持設定を作成するには、Windows PowerShell **Set-CsQoEConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+QoE 保持設定を作成するには、Windows PowerShell **Set-CsQoEConfiguration コマンドレットを使用** します。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>特定のロケーションに対して QoE の保持を指定するには
 
@@ -66,7 +61,7 @@ QoE 保持設定を作成するには、Windows PowerShell **Set-CsQoEConfigurat
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-詳細については [、Set-CsQoEConfiguration](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [Set-CsQoEConfiguration](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
 
 ## <a name="see-also"></a>関連項目
 

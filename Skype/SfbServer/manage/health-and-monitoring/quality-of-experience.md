@@ -1,24 +1,19 @@
 ---
 title: エクスペリエンスの品質 (QoE) Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 description: '概要: エクスペリエンスの品質 (QoE) を管理Skype for Business Server。'
-ms.openlocfilehash: b8b50567efcc46cc1938174e150754313b0690e1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828780"
 ---
+
 # <a name="quality-of-experience-qoe-in-skype-for-business-server"></a>エクスペリエンスの品質 (QoE) Skype for Business Server
  
 **概要:** エクスペリエンスの品質 (QoE) を管理Skype for Business Server。

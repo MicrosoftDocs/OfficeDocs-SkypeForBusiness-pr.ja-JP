@@ -1,34 +1,29 @@
 ---
 title: Web ダウンロード可能なクライアントを展開Skype for Business Server
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: '概要: 会議で使用Skype for Business Web アプリおよびSkype会議アプリを展開Skype for Business。'
-ms.openlocfilehash: abb0a24d234043d793b09a538cbff23d0d549ac0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842499"
 ---
+
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Web ダウンロード可能なクライアントを展開Skype for Business Server
 
 **概要:** 2015 Skype for Business Web アプリを展開し、Skypeで使用Skype for Business Server。
 
-Skype for Business Web アプリは Skype for Business Server を実行しているサーバーにインストールされている インターネット インフォメーション サービス (IIS) Web クライアントであり、既定では、Skype for Business クライアントを持ってない会議ユーザーに対してオンデマンドで展開されます。 これらの会議ユーザーは、ネットワークの外部から接続しないよりも頻繁に使用されます。 ユーザーが会議の URL をクリックしても Skype for Business クライアントがインストールされていない場合は常に、最新バージョンの Skype for Business Web アプリ、Skype Meetings App、または Skype for Business for Mac を使用して会議に参加するオプションが表示されます。
+Skype for Business Web アプリは インターネット インフォメーション サービス を実行しているサーバーにインストールされている インターネット インフォメーション サービス (IIS Skype for Business Server) Web クライアントであり、既定では、サーバーを既に持ってない会議ユーザーにオンデマンドで展開Skype for Business クライアント。 これらの会議ユーザーは、ネットワークの外部から接続しないよりも頻繁に使用されます。 ユーザーが会議の URL をクリックしても Skype for Business クライアントがインストールされていない場合は常に、最新バージョンの Skype for Business Web アプリ、Skype Meetings App、または Skype for Business for Mac を使用して会議に参加するオプションが表示されます。
 
 音声、ビデオ、および共有機能Skype for Business Web アプリ、ユーザーのブラウザー ActiveXプラグインとして使用される Microsoft ActiveX コントロールが必要です。 ActiveX コントロールを事前にインストールするか、ユーザーが Skype for Business Web アプリ を初めて使用するか、ActiveX コントロールを必要とする機能に初めてアクセスするときに、ユーザーにインストールを許可することができます。
 
 > [!NOTE]
-> エッジ Skype for Business Server展開では、境界ネットワーク内の HTTPS リバース プロキシがクライアント アクセスのSkype for Business Web アプリ必要です。 また、簡易 URL も公開する必要があります。 詳細については、「リバース プロキシ[サーバー](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers)と[DNS](../../plan-your-deployment/network-requirements/simple-urls.md)要件を設定する」を参照してください。Skype for Business Server。
+> エッジ Skype for Business Server展開では、境界ネットワーク内の HTTPS リバース プロキシがクライアント アクセスのSkype for Business Web アプリ必要です。 また、簡易 URL も公開する必要があります。 詳細については、「リバース プロキシ [サーバー](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers)と [DNS](../../plan-your-deployment/network-requirements/simple-urls.md) 要件を設定する」を参照してください。Skype for Business Server。
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>ユーザーの多要素認証を有効Skype for Business Web アプリ
 <a name="MFA"> </a>
@@ -48,7 +43,7 @@ Skype for Business Web アプリ、Skype、会議アプリ、Skype for Business 
 
 ### <a name="configure-multi-factor-authentication"></a>多要素認証の構成
 
-1. AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「Active Directory フェデレーション サービス [2.0 展開ガイド」を参照してください。](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
+1. AD FS フェデレーション サーバーの役割をインストールします。 詳細については、「 [Active Directory フェデレーション サービス 2.0 展開ガイド」を参照してください。](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd807092(v=ws.10))
 
 2. FS の証明書をADします。 詳細については、「シングル サインオン [で](/previous-versions/azure/azure-services/jj205462(v=azure.100)) 使用する AD FS の計画と展開」の「フェデレーション サーバー証明書」セクションを参照してください。
 
@@ -77,12 +72,12 @@ Skype for Business Web アプリ、Skype、会議アプリ、Skype for Business 
 
 サーバー 7 および Windows Server 2008 R2 Windows BranchCache 機能は、Web コンポーネントのSkype for Business Web アプリする可能性があります。 ユーザーが問題をSkype for Business Web アプリするには、BranchCache が有効になっていないか確認してください。
 
-BranchCache の無効化の詳細については [、「BranchCache 展開ガイド」を参照してください](/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)。
+BranchCache の無効化の詳細については、「 [BranchCache 展開ガイド」を参照してください](/windows-server/networking/branchcache/deploy/branchcache-deployment-guide)。
 
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>展開Skype for Business Web アプリ確認する
 <a name="MFA"> </a>
 
-Test-CsUcwaConference コマンドレットを使用すると、2 人のテスト ユーザーが統合コミュニケーション Web API (UCWA) を使用して会議に参加できることを検証できます。 このコマンドレットの詳細については、「管理シェル」のドキュメントの[「Test-CsUcwaConference」](/powershell/module/skype/test-csucwaconference?view=skype-ps)を参照Skype for Business Server参照してください。
+Test-CsUcwaConference コマンドレットを使用すると、2 人のテスト ユーザーが統合コミュニケーション Web API (UCWA) を使用して会議に参加できることを検証できます。 このコマンドレットの詳細については、「管理シェル」のドキュメントの[「Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps)」を参照Skype for Business Server参照してください。
 
 ## <a name="troubleshooting-plug-in-installation-on-windows-server-2008-r2"></a>サーバー 2008 R2 でのWindowsインストールのトラブルシューティング
 <a name="MFA"> </a>
@@ -135,7 +130,7 @@ Windows Server 2008 R2 を実行しているコンピューターでプラグイ
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Microsoft に送信される情報は、データ収集のプラクティスに[Skype for Business準拠しています](/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
+    Microsoft に送信される情報は、データ収集のプラクティスに[Skype for Business遵守しています](/skypeforbusiness/legal-and-regulatory/data-collection-practices)。
 
 3. 使用できない場合は、ローカルでホストされているSkype for Business Web アプリエクスペリエンスにCDNタイムアウトを設定します。 既定値は 6 秒です。 この値が 0 に設定されている場合、タイムアウトはありません。
 
@@ -144,7 +139,7 @@ Windows Server 2008 R2 を実行しているコンピューターでプラグイ
    ```
 
 > [!NOTE]
-> MeetingUxUseCdn が 2015 Skype for Business Server累積的な更新プログラム 5 の場合、既定値は False に設定されます。 これにより、Skype for Business for Mac 管理者が MeetingUxUseCdn を True に設定している場合でも、Skype for Business for Mac Skype for Business クライアントが非フェデレーション パートナーの会議にゲストとして参加できないという問題が発生します。 これを機能するには、Skype for Business Server 2015 の累積的な更新プログラム 7、6.0.9319.534 以降が必要です。 [「2015 年Skype会議アプリを有効にして、Skype for Business Web アプリをSkype for Business Serverする」を参照](https://support.microsoft.com/kb/4132312)してください。
+> MeetingUxUseCdn が 2015 Skype for Business Server累積的な更新プログラム 5 の場合、既定値は False に設定されます。 これにより、Skype for Business for Mac 管理者が MeetingUxUseCdn を True に設定している場合でも、Skype for Business for Mac Skype for Business クライアントが非フェデレーション パートナーの会議にゲストとして参加できないという問題が発生します。 これを機能するには、Skype for Business Server 2015 の累積的な更新プログラム 7、6.0.9319.534 以降が必要です。 「[2015 年Skype会議アプリを有効にして、Skype for Business Web アプリをSkype for Business Serverしてください](https://support.microsoft.com/kb/4132312)。
 
 
 ## <a name="see-also"></a>関連項目

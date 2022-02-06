@@ -1,27 +1,22 @@
 ---
 title: 仲介サービス設定の展開
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FeMediationServiceSettingsExpander
+  - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: '[仲介サーバー] では、次の情報を指定できます。'
-ms.openlocfilehash: 649f4ac74280564fc53182b9bf627f566781c2eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850230"
 ---
+
 # <a name="mediation-service-settings-expander"></a>仲介サービス設定エキスパンダー
 
 [**仲介サーバー**] では、次の情報を指定できます。
@@ -34,4 +29,4 @@ ms.locfileid: "60850230"
 
 仲介サーバーに複数のゲートウェイを関連付けている場合は、関連付けた最初のゲートウェイが既定のゲートウェイとなります。既定のゲートウェイとして別のゲートウェイを選択する必要がある場合は、既定にするゲートウェイを選択して、[**既定にする**] をクリックします。既定のゲートウェイとしての選択を解除するには、[**既定値の解除**] をクリックします。
 
-Enterprise Edition フロントエンド プールまたは Standard Edition サーバーの設定の定義と構成の詳細については、「トポロジの定義と構成」[](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)および「仲介サーバーの展開」および「[](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)ピアの定義」を参照してください。
+Enterprise Edition フロントエンド プールまたは Standard Edition サーバーの設定の定義と構成の詳細については、「トポロジの定義と構成」および「仲介サーバーの[](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)展開」および「ピアの定義」を[](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)参照してください。

@@ -1,27 +1,22 @@
 ---
 title: アーカイブ構成
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.MonArchSettingMain
+  - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: アーカイブ構成を使用して、次のオプションを有効または無効にするなど、Skype for Business Server展開のアーカイブ オプションを制御します。
-ms.openlocfilehash: 8eba27c2fc132e97b6b9857a72f029b567890947
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828230"
 ---
+
 # <a name="archiving-configuration"></a>アーカイブ構成
  
 アーカイブ構成を使用して、次のオプションを有効または無効にするなど、Skype for Business Server展開のアーカイブ オプションを制御します。
@@ -44,7 +39,7 @@ ms.locfileid: "60828230"
 > アーカイブ構成は、Skype for Business Server にホームされたユーザーに適用され、Exchange を使用してアーカイブ データを Microsoft Exchange に保存する場合は、Exchange にホームを持つユーザーに適用されますが、Exchange にホームを持つユーザーには若干異なる方法で実装されます。 相違点については、次のセクションで説明します。 
   
 [**アーカイブ構成**] ページには、展開に構成されている各アーカイブ ポリシーが一覧表示されます。また、各アーカイブ構成の名前、対象範囲 (グローバル、サイト、プール)、および有効になっているアーカイブ オプションも示されます。[**アーカイブ構成**] ページからは、以下のオプションを使用できます。
-- **New** 次のオプションのアーカイブ構成のそれぞれを 1 つ以上追加できます。
+- **新機能** 次のオプションのアーカイブ構成のそれぞれを 1 つ以上追加できます。
     
   - サイト構成
     
@@ -68,5 +63,5 @@ ms.locfileid: "60828230"
     
 - **更新** [アーカイブ構成] **ページを更新** して、すべてのアーカイブ構成のオプションの状態を確認できます。
     
-Exchange 統合を含むアーカイブ機能の詳細については、「Skype for Business Server でのアーカイブの計画[」、Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md)のアーカイブの展開、[](../../../deploy/deploy-archiving/deploy-archiving.md)および Skype for Business Server でのアーカイブ[の管理を参照してください](../../../manage/archiving/archiving.md)。
+Exchange 統合を含むアーカイブ機能の詳細については、「Skype for Business Server でのアーカイブの計画」、[Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md) のアーカイブの展開、および Skype for Business Server でのアーカイブの[](../../../deploy/deploy-archiving/deploy-archiving.md)[管理を参照してください。](../../../manage/archiving/archiving.md).
 

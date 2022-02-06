@@ -1,28 +1,23 @@
 ---
 title: ネットワーク内の直接 SIP 接続Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: 直接 SIP 接続は、SKYPE FOR BUSINESS SERVER PSTN ゲートウェイと IP-PBX の両方の間エンタープライズ VoIP。
-ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848400"
 ---
+
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>ネットワーク内の直接 SIP 接続Skype for Business Server
 
 直接 SIP 接続は、SKYPE FOR BUSINESS SERVER PSTN ゲートウェイと IP-PBX の両方の間エンタープライズ VoIP。
@@ -59,7 +54,7 @@ ms.locfileid: "60848400"
 ![部署の移行オプションの図。](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> 認定されたダイレクト SIP パートナー Skype for Business Server展開を接続する場合、仲介サーバーと PBX の間の公衆交換電話網 (PSTN) ゲートウェイは必要ありません。 認定された Direct SIP パートナーの一覧については  [、「Microsoft Unified Communications Open Interoperability Program」を参照してください](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
+> 認定されたダイレクト SIP パートナー Skype for Business Server展開を接続する場合、仲介サーバーと PBX の間の公衆交換電話網 (PSTN) ゲートウェイは必要ありません。 認定された Direct SIP パートナーの一覧については、「  [Microsoft Unified Communications Open Interoperability Program」を参照してください](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
 
 > [!NOTE]
 > この図に示すメディア パスには、メディア バイパスが有効になっています (推奨される構成)。 メディア バイパスを無効にした場合、メディア パスは仲介サーバー経由でルーティングされます。
@@ -68,7 +63,7 @@ ms.locfileid: "60848400"
 
 相互運用性を確保するために、エンタープライズ VoIPを既存の PBX インフラストラクチャに接続するための 2 つの推奨構成があります。PBX の背後に エンタープライズ VoIP、PBX の前にエンタープライズ VoIPを追加します。
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>エンタープライズ VoIPPBX の背後
+#### <a name="enterprise-voice-behind-the-pbx"></a>エンタープライズ VoIP PBX の背後にある
 
 PBX エンタープライズ VoIP展開すると、PSTN からのすべての呼び出しが PBX に到着し、エンタープライズ VoIP ユーザーに PSTN ゲートウェイに通話をルーティングし、PBX ユーザーを PBX に呼び出します。
 
@@ -126,9 +121,9 @@ PSTN ゲートウェイの数、サイズ、場所を決定することが、イ
 
 仲介サーバーは、インターネット テレフォニー サービス プロバイダーによって提供される複数のゲートウェイ、セッション ボーダー コントローラー (SPC)、または 2 つの組み合わせを介して通話をルーティングできます。 さらに、プール内の複数の仲介サーバーが複数のゲートウェイと対話できます。 仲介サーバーとゲートウェイの間で定義される論理ルートはトランクと呼ばれる。 内部ユーザーが PSTN 通話を発信すると、フロントエンド プール上の送信ルーティング ロジックによって、その特定の呼び出しをルーティングするために使用できる可能性があるすべての組み合わせからルーティングするトランクが選択されます。 DNS 負荷分散では、プール内の特定の仲介サーバーに問題が発生して、呼び出しがゲートウェイに到達できない場合、その呼び出しはプール内の代替仲介サーバーに再試行されます。
 
-複数のゲートウェイの計画の詳細については[、「M:N トランク」を参照Skype for Business Server。](m-n-trunk.md)
+複数のゲートウェイの計画の詳細については、「[M:N トランク」を参照Skype for Business Server](m-n-trunk.md)。
 
-その他の送信ルーティング機能拡張の詳細については、「 [通話ルート」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes)。
+その他の送信ルーティング機能拡張の詳細については、「 [Call Routes」を参照してください](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes)。
 
 #### <a name="gateway-topologies"></a>ゲートウェイ トポロジ
 

@@ -1,24 +1,19 @@
 ---
 title: CDR データの保持を指定Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: '概要: 通話の詳細記録 (CDR) データを管理する方法についてSkype for Business Server。'
-ms.openlocfilehash: b232e853e28f2dbdee33c666e65ca89932796941
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852011"
 ---
+
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>CDR データの保持を指定Skype for Business Server
  
 **概要:** 通話の詳細記録 (CDR) データを管理する方法について説明Skype for Business Server。
@@ -50,7 +45,7 @@ CDR データの削除設定を構成するには、次の手順を実行しま�
     
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用した CDR 保持Windows PowerShellする
 
-Windows PowerShell と Set-CsCdrConfiguration コマンドレットを使用して、CDR の保持設定を作成できます。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
+Windows PowerShell と Set-CsCdrConfiguration コマンドレットを使用して、CDR の保持設定を作成できます。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 このプロセスは、同じSkype for Business Server。
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>特定のロケーションに対して CDR の保持を指定するには
 
@@ -68,7 +63,7 @@ Windows PowerShell と Set-CsCdrConfiguration コマンドレットを使用し�
   Get-CsCdrConfiguration | Set-CsCdrConfiguration-EnablePurging -KeepCallDetailForDays 20 -KeepErrorReportForDays 20
   ```
 
-詳細については [、Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [Set-CsCdrConfiguration コマンドレットのヘルプ トピックを参照](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) してください。
   
 ## <a name="see-also"></a>関連項目
 

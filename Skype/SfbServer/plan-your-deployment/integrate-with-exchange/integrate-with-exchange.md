@@ -1,25 +1,20 @@
 ---
 title: Skype for Business と Exchange の統合の計画
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: '概要: このトピックでは、2016 年または 2013 年Skype for Business Server 2016 Exchange Serverと統合Exchange Serverしてください。'
-ms.openlocfilehash: 5edfdf44b50d2a58c097bed5ee83855f375ff895
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562839"
 ---
+
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Skype for Business と Exchange の統合の計画
  
 **概要:** このトピックでは、2016 年または 2013 年Skype for Business Server 2016 Exchange Serverと統合Exchange Serverしてください。
@@ -28,7 +23,7 @@ ms.locfileid: "61562839"
   
 インストール方法の詳細についてはExchange ServerバージョンExchange Serverの「計画と展開」のドキュメントを参照Exchange。 
    
-サーバーが稼働した後、サーバー間認証証明書を Skype for Business Server と Exchange Server の両方に割り当てる必要があります。これらの証明書は、Skype for Business Server とExchange Server を使用して、情報の交換および相互通信を行います。 証明書をインストールExchange Server、Auth 証明書という名前の自己署名証明書Microsoft Exchange Server作成されます。 ローカル コンピューター証明書ストアにあるこの証明書は、サーバー間認証に使用する必要Exchange Server。 サーバーでの証明書の割り当てExchange Server詳細については[、「Configure Mail Flow」および「クライアント アクセス」を参照してください](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)。
+サーバーが稼働した後、サーバー間認証証明書を Skype for Business Server と Exchange Server の両方に割り当てる必要があります。これらの証明書は、Skype for Business Server とExchange Server を使用して、情報の交換および相互通信を行います。 証明書をインストールExchange Server、Auth 証明書という名前の自己署名証明書Microsoft Exchange Server作成されます。 ローカル コンピューター証明書ストアにあるこの証明書は、サーバー間認証に使用する必要Exchange Server。 クライアント サーバーでの証明書の割り当てExchange Server詳細については、「[Configure Mail Flow」および「クライアント アクセス」を参照してください](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)。
   
 たとえばSkype for Business Serverサーバー間認証証明書として既存の Skype for Business Server 証明書を使用できます。たとえば、既定の証明書を OAuthTokenIssuer 証明書として使用することもできます。 Skype for Business Serverを使用すると、次の条件を提供するサーバー間認証の証明書として任意の Web サーバー証明書を使用できます。
   
@@ -38,7 +33,7 @@ ms.locfileid: "61562839"
     
 - 証明書の長さが 2,048 ビット以上。
     
-サーバー間認証証明書の詳細については、「Skype for Business Serverサーバー間認証証明書をサーバーに割り当てる」を[参照](../../manage/authentication/assign-a-server-to-server-certificate.md)Skype for Business Server。
+サーバー間認証証明書の詳細については、「Skype for Business Serverサーバー間認証証明書の割り当て」を[参照](../../manage/authentication/assign-a-server-to-server-certificate.md)Skype for Business Server。
   
 証明書が割り当てられたら、自動検出サービスを構成する必要Exchange Server。 このExchange Server自動検出サービスは、ユーザー プロファイルを構成し、ユーザーがシステムにログオンするときにExchangeサービスへのアクセスを提供します。 ユーザーが autodiscover サービスに電子メール アドレスとパスワードを入力すると、このサービスからユーザーへ次の情報が提供されます。
   
@@ -66,7 +61,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 自動検出サービスの詳細については、「 [自動検出サービス」を参照してください](/Exchange/architecture/client-access/autodiscover)。
   
-自動検出サービスを構成したら、Skype for Business Server OAuth 構成設定を変更する必要があります。これにより、Skype for Business Server が自動検出サービスの場所を確認できます。 OAuth 構成設定を変更するには、Skype for Business Server管理シェル内から次のコマンドSkype for Business Server実行します。 このコマンドを実行する場合は、Exchange Server で実行されている自動検出サービスに URI を指定し **、autodiscover.svc** を使用して **autodiscover.xml** ではなくサービスの場所をポイントします (サービスで使用される XML ファイルを指します)。
+自動検出サービスを構成したら、Skype for Business Server OAuth 構成設定を変更する必要があります。これにより、Skype for Business Server が自動検出サービスの場所を確認できます。 OAuth 構成設定を変更するには、Skype for Business Server管理シェル内から次のコマンドSkype for Business Server実行します。 このコマンドを実行する場合は、Exchange Server で実行されている自動検出サービスに URI を指定し、**autodiscover.svc** を使用して **autodiscover.xml** の代わりにサービスの場所をポイントします (サービスで使用される XML ファイルを指します)。
   
 ```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -76,14 +71,14 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 > 前のコマンドの Identity パラメーターは省略可能です。これは、OAuth 構成Skype for Business Serverの単一のグローバル コレクションしか持てないのでです。 とりわけ、この少し簡単なコマンドを使用して自動検出 URL を構成できます。 
 > 
 > [!NOTE]
-> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl <https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc> " 
+> Set-CsOAuthConfiguration-ExchangeAutodiscoverUrl "<https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc>" 
 > 
 > [!NOTE]
 > OAuth というテクノロジは、多くの大手 Web サイトで使用されている標準的な認証プロトコルです。OAuth では、ユーザーの資格情報とパスワードがコンピューター間で渡されることはありません。その代わりに、セキュリティ トークンの交換に基づいて認証と承認が行われます。これらのトークンによって、特定のリソースのセットに対する特定の時間のアクセスが許可されます。 
   
 自動検出サービスの構成に加えて、サービスの DNS レコードを作成して、そのサービスをポイントExchange Server。 たとえば、自動検出サービスが autodiscover.litwareinc.com にある場合は、Exchange Server の完全修飾ドメイン名 (atl-exchange-001.litwareinc.com など) に解決される autodiscover.litwareinc.com の DNS レコードを作成する必要があります。
   
-Skype for Business Server と Exchange Online を統合する場合、次の手順は「Configure integration between [on-premises Skype for Business Server](../../deploy/integrate-with-exchange-server/outlook-web-app.md)と Outlook Web App」で、それ以外の場合は[「Integrat」を参照してください。Skype for Business Server Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Skype for Business Server と Exchange Online を統合する場合、次の手順は、「Configure [integration between on-premises](../../deploy/integrate-with-exchange-server/outlook-web-app.md) Skype for Business Server と Outlook Web App」を参照[してください。Skype for Business ServerとExchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。
   
 ## <a name="feature-support"></a>機能のサポート
 <a name="feature_support"> </a>

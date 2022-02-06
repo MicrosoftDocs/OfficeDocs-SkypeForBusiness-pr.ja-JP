@@ -1,27 +1,22 @@
 ---
 title: ユーザーごとの診断レポートの呼び出し (Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: '概要: ユーザーごとの通話診断レポートについて説明します。Skype for Business Server。'
-ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864854"
 ---
+
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>ユーザーごとの診断レポートの呼び出し (Skype for Business Server
   
-通話診断レポートは、失敗したピアツーピア セッションと会議セッションについて、ユーザーごとの情報を提供します。 現時点では、ユーザー アクティビティ レポートは 1 **つのレポートのみです**。
+通話診断レポートは、失敗したピアツーピア セッションと会議セッションについて、ユーザーごとの情報を提供します。 現時点では、ユーザー アクティビティ レポートは **1 つのレポートのみです**。
 
 ユーザー アクティビティ レポートは、特定の期間にユーザーによって実行されたピアツーピアおよび電話会議セッションの詳細な一覧を示します。多くの監視レポートとは異なり、ユーザー アクティビティ レポートは、各呼び出しを個別のユーザーに関連付けます。たとえば、ピアツーピアセッションでは、呼び出しを開始した人 (呼び出し元ユーザー) と呼び出しを受けた人 (呼び出し先ユーザー) の SIP URI が示されます。電話会議の情報を展開すると、すべての電話会議の参加者と、その電話会議における参加者の役割の一覧が表示されます。
 

@@ -1,25 +1,20 @@
 ---
 title: フロントエンド プールの高可用性と管理
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: プールの管理、クォーラムの損失、および 2 つのフロントエンド サーバーのみを持つプールの特別な手順など、Skype for Business Server のフロントエンド プール管理について説明します。
-ms.openlocfilehash: f8ad22c7728fc4fb62980a81fa659558aaba4be7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831851"
 ---
+
 # <a name="front-end-pool-high-availability-and-management"></a>フロントエンド プールの高可用性と管理
  
 プールの管理、クォーラムの損失、および 2 つのフロントエンド サーバーのみを持つプールの特別な手順など、Skype for Business Server のフロントエンド プール管理について説明します。
@@ -60,7 +55,7 @@ ms.locfileid: "60831851"
 
 
    
-それ以降、プールが開始されるごとに、サーバーの 85% を開始する必要があります (前の表に示すように)。 この数のサーバーを開始できない場合 (ただし、プール レベルのクォーラム損失が発生しないので十分なサーバーを開始できます)、このコマンドレットを使用して、このルーティング グループ レベルのクォーラム損失からプールを回復し、進行状況を確認できます。 `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` このコマンドレットの使用方法の詳細については [、「Reset-CsPoolRegistrarState」を参照してください](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
+それ以降、プールが開始されるごとに、サーバーの 85% を開始する必要があります (前の表に示すように)。 この数のサーバーを開始できない場合 (  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` ただし、プール レベルのクォーラム損失が発生しないので十分なサーバーを開始できます)、このコマンドレットを使用して、このルーティング グループ レベルのクォーラム損失からプールを回復し、進行状況を確認できます。 このコマンドレットの使用方法の詳細については、「 [Reset-CsPoolRegistrarState」を参照してください](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps)。 
   
 > [!NOTE]
 > サーバーの数が 1 つでも多いプールでは、Skype for Business Serverプライマリ サーバー データベースSQLミラーリング監視として使用されます。 このようなプールでは、プライマリ データベースをシャットダウンしてミラー コピーに切り替えて、前の表に従って十分に実行されない十分なフロントエンド サーバーをシャットダウンすると、プール全体がダウンします。 詳細については、「データベース ミラーリング [監視」を参照してください](/sql/database-engine/database-mirroring/database-mirroring-witness)。 
@@ -77,12 +72,12 @@ ms.locfileid: "60831851"
 |7   <br/> |Any 4  <br/> |
 |8-9  <br/> |最初の 7 つのサーバーの 4 つ  <br/> |
 |10-12  <br/> |最初の 9 つのサーバーの 5 つ  <br/> |
-|12-16 **2019 Skype for Business Server**  <br/> |最初の 12 台のサーバーの 7 つ  <br/> |
+|12-16 **For Skype for Business Server 2019**  <br/> |最初の 12 台のサーバーの 7 つ  <br/> |
    
 前の表では、"最初のサーバー" は、プールが初めて開始された最初に、時系列的に起動されたサーバーです。 これらのサーバーを確認するには、オプションで  `Get-CsComputer` コマンドレットを使用 `-PoolFqdn` できます。 このコマンドレットは、サーバーがトポロジに表示される順序で表示され、一覧の上部にあるサーバーが最初のサーバーになります。
   
 > [!IMPORTANT]
-> [2019](../../../SfBServer2019/plan/user-model-2019.md)年にフロント エンド サーバーの最大数が 16 にSkype for Business Server。
+> [2019](../../../SfBServer2019/plan/user-model-2019.md) 年にフロント エンド サーバーの最大数が 16 にSkype for Business Server。
 > 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>プールが機能する追加の手順
 
@@ -90,7 +85,7 @@ ms.locfileid: "60831851"
   
 - ユーザーを初めてプールに移動する場合は、少なくとも 3 つのフロント エンド サーバーが実行されている必要があります。
     
-- 障害復旧のためにこのプールと別のプールの間にペアリング関係を確立する場合、その関係を確立した後、このプールに 3 つのフロントエンド サーバーが同時に実行されていることを確認して、データをバックアップ プールと適切に同期する必要があります。 プールのペアリングと障害復旧機能の詳細については[、「Plan for high availability and disaster recovery in](high-availability-and-disaster-recovery.md)Skype for Business Server」 を参照してください。 
+- 障害復旧のためにこのプールと別のプールの間にペアリング関係を確立する場合、その関係を確立した後、このプールに 3 つのフロントエンド サーバーが同時に実行されていることを確認して、データをバックアップ プールと適切に同期する必要があります。 プールのペアリングと障害復旧機能の詳細については、「[Plan for high availability and disaster recovery in](high-availability-and-disaster-recovery.md) Skype for Business Server」 を参照してください。 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>2 台のフロント エンド サーバーを備え、フロントエンド プール
 

@@ -1,27 +1,22 @@
 ---
 title: トランク スコープ ノード
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.TrunkScopdeNode
+  - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: トポロジ ビルダーで既存の SIP トランクを右クリックして、次の操作を実行します。
-ms.openlocfilehash: 083780d318de69f1fe817e9863dc669220afbee5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846490"
 ---
+
 # <a name="trunk-scope-node"></a>トランクのスコープ ノード
  
 トポロジ ビルダーで既存の SIP トランクを右クリックして、次の操作を実行します。
@@ -30,7 +25,7 @@ ms.locfileid: "60846490"
     
 プロパティの編集オプションに加えて、次の一般的なタスクを実行できます。
   
-- **トポロジ**。 このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンの Lync Server からのコンポーネントのマージ、展開の削除を行います。
+- **トポロジ。** このオプションを使用すると、新しいトポロジの定義、既存のトポロジの開き、現在のトポロジのダウンロード、トポロジのコピーの保存、トポロジの発行、データベースのインストール、以前のバージョンの Lync Server からのコンポーネントのマージ、展開の削除を行います。
     
 - **削除**。このオプションを使用して、現在選択されているアイテムを削除します。他の依存関係によって削除ができないこともあります。アイテムの削除に先立って解決する必要のあるサービスと依存関係がダイアログに示されます。
     

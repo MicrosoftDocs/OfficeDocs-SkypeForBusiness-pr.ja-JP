@@ -1,26 +1,21 @@
 ---
 title: 2015 年の集中ログ サービスのプロバイダー Skype for Business Serverする
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: '概要: 2015 年の集中ログ サービスのシナリオ プロバイダーを構成するSkype for Business Serverします。'
-ms.openlocfilehash: 526c42e1a6fd741b228cd99450b9d11bc3152670
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855454"
 ---
+
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>2015 年の集中ログ サービスのプロバイダー Skype for Business Serverする
  
 **概要:** 2015 年の集中ログ サービスのシナリオ プロバイダーを構成するSkype for Business Serverします。
@@ -46,13 +41,13 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 プロバイダーの詳細を深く掘り下げる必要が生じなくても、集中ログ サービスには、既に定義されている多数のシナリオが提供されます。 用意されているシナリオを使用して、遭遇する可能性がある問題の大部分に対応できます。 まれに、プロバイダーを定義してシナリオに割り当てなければならない場合があります。 新しいプロバイダーとシナリオを作成する必要があるかどうかを考慮する前に、用意されているシナリオを十分に調べることを強くお勧めします。 ここでは、シナリオでのプロバイダー要素の使用によるトレース情報の収集方法を理解するために、プロバイダーの作成に関する情報が提示されていますが、プロバイダーそのものの詳細については説明しません。 
   
-[2015](centralized-logging-service.md)年 Skype for Business の集中ログ サービスで導入された、シナリオで使用するプロバイダーを定義する重要な要素は次のとおりです。
+[2015](centralized-logging-service.md) 年Skype for Businessの集中ログ サービスで導入された、シナリオで使用するプロバイダーを定義する重要な要素は次のとおりです。
   
 - **プロバイダー** OCSLogger に精通している場合、プロバイダーは、トレース エンジンがログを収集する必要がある情報を OCSLogger に伝えるコンポーネントです。 プロバイダーは同じコンポーネントであり、多くの場合、OCSLogger のコンポーネントと同じ名前を持っています。 OCSLogger に精通していないプロバイダーは、集中ログ サービスがログを収集できるサーバー役割固有のコンポーネントです。 集中ログ サービスの場合、CLSAgent は、プロバイダー構成で定義したコンポーネントのトレースを行う集中ログ サービスのアーキテクチャ部分です。
     
-- **ログ レベル** OCSLogger には、収集されたデータの詳細レベルの数を選択するオプションが用意されています。 この機能は、集中ログ サービスとシナリオの不可欠な部分であり **、Type** パラメーターによって定義されます。 次の中から選択できます。
+- **ログ レベル** OCSLogger には、収集されたデータの詳細レベルの数を選択するオプションが用意されています。 この機能は、集中ログ サービスとシナリオの不可欠な部分であり、Type パラメーターによって **定義** されます。 次の中から選択できます。
     
-  - **All** 致命的、エラー、警告、詳細、デバッグの種類のトレース メッセージを、定義されたプロバイダーのログに収集します。
+  - **すべての** 致命的、エラー、警告、詳細、デバッグの種類のトレース メッセージを、定義されたプロバイダーのログに収集します。
     
   - **致命的** "Fatal" として定義されたトレース メッセージのみを収集します。
     
@@ -78,11 +73,11 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
   - **TF_Component** プロバイダーの一部として指定されたコンポーネントのログを有効にします。
     
-  - **All** プロバイダーで使用可能なすべてのフラグを設定します。
+  - **すべての** プロバイダーで使用可能なすべてのフラグを設定します。
     
 ### <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>既存の集中ログ サービス シナリオ プロバイダーに関する情報を確認するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 既存のプロバイダーの構成をレビューするには、次を入力します。
     
@@ -106,7 +101,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 ### <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>新しい集中ログ サービス シナリオ プロバイダーを定義するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. シナリオ プロバイダーは、トレースするコンポーネント、使用するフラグ、および収集する詳細レベルで構成されます。これは実行するには次のように入力します。
     
@@ -120,7 +115,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
    ```
 
--Level は、致命的、エラー、警告、および情報メッセージを収集します。 使用されるフラグは、Lyss プロバイダー用に定義されたフラグのすべてであり、TF_Connection、TF_Diag、TF_Protocol が含まれます。変数 $LyssProvider を定義した後 **、New-CsClsScenario** コマンドレットと一緒に使用して、Lyss プロバイダーからトレースを収集できます。 このプロバイダーの作成と新しいシナリオへの割り当てを完了するには、次のように入力します。
+-Level は、致命的、エラー、警告、および情報メッセージを収集します。 使用されるフラグは、Lyss プロバイダー用に定義されたフラグのすべてであり、TF_Connection、TF_Diag、TF_Protocol が含まれます。変数 $LyssProvider を定義した後、 **New-CsClsScenario** コマンドレットと一緒に使用して、Lyss プロバイダーからトレースを収集できます。 このプロバイダーの作成と新しいシナリオへの割り当てを完了するには、次のように入力します。
 
 ```PowerShell
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
@@ -129,7 +124,7 @@ New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvid
 $LyssProvider は、**New-CsClsProvider** で作成された定義済みのシナリオを含む変数です。
 ### <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>既存の集中ログ サービス シナリオ プロバイダーを変更するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 既存のプロバイダーの構成を更新または変更するには、次のように入力します。
     
@@ -156,7 +151,7 @@ Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSP
 Add ディレクティブで定義される各プロバイダーは、**New-CsClsProvider** プロセスで既に定義されています。
 ### <a name="to-remove-a-scenario-provider"></a>シナリオ プロバイダーを削除するには
 
-1. 管理シェルをSkype for Business Serverする: [**スタート**] をクリックし、[すべてのプログラム] をクリックし **、[Skype for Business 2015]** をクリックし、[管理シェルSkype for Business Server **クリックします**。
+1. 管理シェルをSkype for Business Serverする **: [スタート**] をクリックし、[すべてのプログラム] をクリックし、[**2015** 年Skype for Business] をクリックし、[管理シェルSkype for Business Server **クリックします**。
     
 2. 用意されているコマンドレットを使用して、既存のプロバイダーの更新と新しいプロバイダーの作成を実行できます。 プロバイダーを削除するには、**Set-CsClsScenario** に対して Provider パラメーター用の Replace ディレクティブを使用する必要があります。 プロバイダーを完全に削除する唯一の方法は、Update ディレクティブを使用して、削除するプロバイダーを、再定義した同じ名前のプロバイダーに置き換えることです。 たとえば、プロバイダー LyssProvider は、ログの種類として WPP、レベルとして Debug、およびフラグとして TF_CONNECTION と TF_DIAG が定義されています。 フラグを "All" に変更する必要があります。 このプロバイダーを変更するには、次のように入力します。
     

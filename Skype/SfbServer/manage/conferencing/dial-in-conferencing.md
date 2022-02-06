@@ -1,35 +1,30 @@
 ---
 title: 電話会議でダイヤルイン会議をSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: '概要: 会議でダイヤルイン会議を管理する方法についてSkype for Business Server。'
-ms.openlocfilehash: e2b836cf45bf3e9253ea6161c4bd634864337e5f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830861"
 ---
+
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>電話会議でダイヤルイン会議をSkype for Business Server
  
 **概要:** ダイヤルイン会議を管理する方法については、Skype for Business Server。
   
-このトピックでは、ダイヤルイン会議を管理する方法について説明します。 展開時にダイヤルイン会議を計画および構成する方法の詳細については、「Skype for Business Server でのダイヤルイン会議の計画」および[「Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)でのダイヤルイン会議[の構成」を参照してください](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
+このトピックでは、ダイヤルイン会議を管理する方法について説明します。 展開時にダイヤルイン会議を計画および構成する方法の詳細については、「Skype for Business Server でのダイヤルイン会議の計画」および「[Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) でのダイヤルイン会議の構成」[を参照してください](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
   
 次のタスクを実行して、ダイヤルイン会議を有効または無効にする、アクセス番号を管理する、ダイヤルイン会議の PIN ポリシーを管理する、会議参加とアナウンスを残すを管理する、DTMF コマンドのキー マッピングを変更する、ダイヤルイン会議にユーザーを歓迎する。 
   
 ダイヤル プランの管理の詳細については、「ダイヤル プランを作成または変更する」を参照[Skype for Business Server。](../../deploy/deploy-enterprise-voice/dial-plans.md)
   
-PSTN 使用法の詳細については、「[音声ポリシー、PSTN](../../deploy/deploy-enterprise-voice/voice-and-pstn.md)使用法レコード、および音声ルートを構成する」を参照Skype for Business。
+PSTN 使用法の詳細については、「音声ポリシー、[PSTN](../../deploy/deploy-enterprise-voice/voice-and-pstn.md) 使用法レコード、および音声ルートを構成する」を参照Skype for Business。
   
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>[コントロール パネル] を使用してダイヤルイン会議Skype for Business Server管理する
 

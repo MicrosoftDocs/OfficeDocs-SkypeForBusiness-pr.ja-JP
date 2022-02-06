@@ -1,41 +1,36 @@
 ---
 title: アルバニアでの利用可能性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
-description: アルバニアで使用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
-ms.openlocfilehash: b618c288f06c01a037a3c386d3d65baa7a0c25c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858914"
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
+description: アルバニアで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
 ---
+
 # <a name="availability-in-albania"></a>アルバニアでの利用可能性
 
 [[別の国または地域を検索]](country-and-region-availability-for-audio-conferencing-and-calling-plans.md) するか、国および地域ごとの電話会議および通話プランの利用可能性の詳細をご確認ください。
 
-アルバニアで使用できるMicrosoft 365とOffice 365サービスSkype for BusinessとMicrosoft Teamsを次に示します。
+アルバニアで使用できるMicrosoft 365とOffice 365のSkype for BusinessとMicrosoft Teamsサービスを次に示します。
   
 ## <a name="audio-conferencing"></a>電話会議
 
@@ -72,7 +67,7 @@ ms.locfileid: "60858914"
 |有料電話番号は使用できますか?  <br/> |はい ([要求に応じて](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |無料電話番号は利用できますか?  <br/> |いいえ  <br/> |
    
- 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および通話キューのサービス電話番号を取得する」を[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 電話会議、自動応答、通話キューの有料電話番号と無料電話番号を取得する場合は、「Skype for Business および Microsoft Teams のサービス電話番号を取得する」を参照[してください。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>コミュニケーション クレジット
 

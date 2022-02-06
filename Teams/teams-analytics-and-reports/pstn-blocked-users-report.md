@@ -1,36 +1,30 @@
 ---
-title: Microsoft TeamsPSTN ブロックユーザー レポート
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Microsoft Teams PSTN ブロックユーザー レポート
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
-- M365-voice
+  - M365-voice
 description: Microsoft Teams 管理センターで PSTN ブロックユーザー レポートを使用して、PSTN 通話をブロックされている組織の Teams ユーザーの概要を確認します。
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a89e7ead560e3782d7120884a047110118d2ecd0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840689"
 ---
-# <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft TeamsPSTN ブロックユーザー レポート
+# <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams PSTN ブロックユーザー レポート
 
 Microsoft Teams 管理センターの PSTN ブロックユーザー レポートには、組織内のユーザーが、TEAMS で PSTN 通話を行うのをブロックされているユーザーが表示されます。 割り当てられた電話番号や、通話をブロックされた理由など、ブロックされた各ユーザーの詳細を表示できます。
 
 ## <a name="view-the-pstn-blocked-users-report"></a>PSTN ブロックユーザー レポートを表示する
 
-Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [レポート **の表示] タブの** [レポート] **で**、[PSTN ブロックユーザー] を **選択し**、[レポートの実行] **をクリックします**。
+Microsoft Teams 管理センターの左側のナビゲーションで、**[分析 & レポート]** > **[使用状況レポート]** をクリックします。 [レポート **の表示] タブ** の [レポート] **で、[** PSTN ブロックユーザー] **を選択** し、[レポートの実行] **をクリックします**。
 
 ![管理センターの PSTN ブロックユーザー レポート レポートのスクリーンショット。](../media/teams-reports-pstn-blocked-users-with-callouts.png "番号付き吹き出しが表示された Microsoft Teams PSTN ブロック ユーザー レポートのスクリーンショット")
 

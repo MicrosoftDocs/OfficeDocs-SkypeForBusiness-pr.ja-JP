@@ -1,38 +1,33 @@
 ---
 title: 常設チャット コンプライアンス バックアップ SQL Server ストアの追加
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatBackupComplianceStorePage
+  - ms.lync.tb.AddPersistentChatBackupComplianceStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: 常設チャット サーバーまたは常設チャット SQL Serverコンプライアンス ストアのバックアップ データベースを提供するバックアップ コンプライアンス SQL Server構成します。
-ms.openlocfilehash: 818fda030415f8b1274b3dadf2ceed000f40a16d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857674"
 ---
+
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>常設チャット コンプライアンス バックアップ SQL Server ストアの追加
  
 常設チャット サーバーまたは常設チャット SQL Serverコンプライアンス ストアのバックアップ データベースを提供するバックアップ コンプライアンス SQL Server構成します。
   
- **SQL Serverストア**: 既存のストアを選択SQL Server、必要に応じて常設チャットのインスタンスを選択します。
+ **SQL Serverストア**: 常設チャットの既存のSQL Server、必要に応じてインスタンスを選択します。
   
 [**新規]** をクリックして新SQL Serverし、必要に応じて常設チャット バックアップ コンプライアンス データの新しいインスタンスを定義します。
   
-[ストア **ミラーリングSQL Server** 有効にする] チェック ボックスをオンにして、SQL Server データベースとオプションのインスタンスを構成し、常設チャット のバックアップ コンプライアンス データにミラー化されたデータベースを提供します。
+[ストア **ミラーリングSQL Server有効** にする] チェック ボックスをオンにして、常設チャット のバックアップ コンプライアンス データにミラー化されたデータベースを提供する SQL Server データベースとオプションのインスタンスを構成します。
   
-[ミラーリング] リストから選択 **SQL Server、SQL Server** およびオプションのインスタンスを保存して、常設チャット のバックアップ コンプライアンス SQL Serverミラーとして機能SQL Server。
+[ミラーリング] リストから選択 **SQL Server**、SQL Serverおよびオプションのインスタンスを保存して、常設チャット のバックアップ コンプライアンス SQL Server ミラーとして機能SQL Server。
   
 [**新規]** をクリックして新しいSQL Serverし、必要に応じて常設チャット の新しいインスタンスをミラーリングSQL Serverします。
   

@@ -1,23 +1,19 @@
 ---
 title: ネットワーク地域のリンク
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: '通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを公正できます。 '
-ms.openlocfilehash: 718f9223749c86fdff5ce98d1d652a0a3f1a9fbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841179"
 ---
+
+
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Skype for Business Server でのネットワーク領域のリンクの設定
 
 通話受付管理 (CAC) の一環として、2 つのネットワーク地域間のリンクを公正できます。 この記事のセクションを使用して、newtwork 地域リンク情報を表示するか、netwrok 地域リンクを構成または削除します。 
@@ -44,7 +40,7 @@ ms.locfileid: "60841179"
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>ネットワーク地域のリンク情報を表示するには、Windows PowerShellコマンドレットを使用します。
 
-ネットワーク領域のリンクは、ユーザー設定Windows PowerShell **Get-CsNetworkRegionLink コマンドレットを使用して表示** できます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 
+ネットワーク地域のリンクは、ユーザー設定Windows PowerShell **Get-CsNetworkRegionLink コマンドレットを使用して表示** できます。 このコマンドレットは、Skype for Business Server 管理シェルまたは Windows PowerShell のリモート セッションから実行できます。 
 
 
 ### <a name="to-view-network-region-link-information"></a>ネットワーク地域リンク情報を表示するには
@@ -75,16 +71,16 @@ ms.locfileid: "60841179"
 
 4.  [地域リンク **] ページで、[** 新規] を **クリックします**。
 
-5.  [ **新しい地域リンク]** で、[名前] フィールドに値 **を入力** します。
+5.  [ **新しい地域リンク] で**、[名前] フィールドに値 **を入力** します。
  
     > [!NOTE]  
     > この値は、展開内で一意Skype for Business Server必要があります。
 
-6.  [ネットワーク **領域 \# 1]** ドロップダウン リストから、リンクする 2 つの領域のいずれかを選択します。
+6.  [ネットワーク **領域 \#1]** ドロップダウン リストから、リンクする 2 つの領域のいずれかを選択します。
 
-7.  [ネットワーク **領域 \# 2]** ドロップダウン リストから、リンクする他の領域を選択します。 この領域は、ネットワーク領域 1 で選択した地域とは異なる \# 必要があります。
+7.  [ネットワーク **領域 \#2** ] ドロップダウン リストから、リンクする他の領域を選択します。 この領域は、ネットワーク領域 1 で選択した地域とは異なる必要 \#があります。
 
-8.  (省略可能)これらの地域間のオーディオ通話またはビデオ通話に帯域幅制限を設定する場合は、[帯域幅ポリシー] ドロップダウン リストから帯域幅ポリシー **プロファイルを** 選択します。
+8.  (省略可能)これらの地域間のオーディオ通話またはビデオ通話に帯域幅制限を設定する場合は、[帯域幅ポリシー] ドロップダウン リストから帯域幅 **ポリシー プロファイルを** 選択します。
 
 9.  [**確定**] をクリックします。
 

@@ -1,29 +1,24 @@
 ---
 title: 仮想デスクトップ インフラストラクチャ用の Teams
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi, jmorrow
+ms.reviewer: 'rafarhi, jmorrow'
 audience: admin
 description: 仮想デスクトップ インフラストラクチャ (VDI) 環境で Microsoft Teams を実行する方法について説明します。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
-- m365initiative-deployteams
+  - M365-collaboration
+  - m365initiative-deployteams
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: b499a11d057f376f09ad101b043f8ac60f112ade
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513499"
+  - Microsoft Teams
 ---
+
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>仮想デスクトップ インフラストラクチャ用の Teams
 
 この記事では、仮想化環境で Microsoft Teams を使用する場合の要件と制限について説明します。
@@ -58,7 +53,7 @@ ms.locfileid: "61513499"
 
 Teams デスクトップ アプリは、主要な仮想化ソリューション プロバイダーで検証済みです。 複数の市場プロバイダーを使用している場合は、仮想化ソリューション プロバイダーに相談して、最小要件が満たされていることを確認することをお勧めします。
   
-現在、Teams/ビデオ (AV) の最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
+現在、Teams/ビデオ (AV) 最適化を使用した VDI の使用は、Azure Virtual Desktop、Citrix、VMware で認定されています。 このセクションの情報を確認して、適切に機能するためのすべての要件を満たしていることを確認してください。
 
 ### <a name="platforms-certified-for-teams"></a>Teams 認定プラットフォーム
 
@@ -66,17 +61,17 @@ Teams デスクトップ アプリは、主要な仮想化ソリューション 
 
 |プラットフォーム|ソリューション|
 |----|---|
-|![Microsoft を表すロゴ。](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a> <a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">、Windows 365</a> |
+|![Microsoft を表すロゴ。](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a>、<a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
 |![Citrix を表すロゴ。](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Citrix Virtual Apps and Desktops</a> |
 |![VMware を表すロゴ。](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="azure-virtual-desktop"></a>Azure Virtual Desktop
 
-Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「Use Teams on Azure Virtual Desktop 」[を参照してください](/azure/virtual-desktop/teams-on-wvd)。
+Azure Virtual Desktop は、VDI 上の仮想マシンTeams AV 最適化を提供します。 要件とインストールの詳細については、「[Azure Virtual Desktop での Teams使用」を参照してください](/azure/virtual-desktop/teams-on-wvd)。
 
 ### <a name="windows-365"></a>Windows 365
 
-Windows 365 では、Azure Virtual Desktop によって提供される AV 最適化を使用して、クラウド PC からの最適なTeamsエクスペリエンスを確保します。 要件とインストールの詳細については、「クラウド PC で Teams[を使用する」を参照してください](/windows-365/enterprise/teams-on-cloud-pc)。
+Windows 365 では、Azure Virtual Desktop によって提供される AV 最適化を使用して、クラウド PC Teams最適なエクスペリエンスを実現します。 要件とインストールの詳細については、「クラウド PC 上で Teams[を使用する」を参照してください](/windows-365/enterprise/teams-on-cloud-pc)。
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Citrix Virtual Apps and Desktops の要件
 
@@ -192,7 +187,7 @@ Teams と Microsoft 365 Apps for enterprise の詳細については、「[Micro
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
 
-        このプロセスにより、必要なレジストリ キーがマシンに追加され、Teams VDI インスタンスがマシンに知らされます。  インストールしない場合、インストーラーは次のエラーを返します。"インストールに失敗しました。  VDI 環境が検出されない場合は、すべてのユーザーにインストールできません。"
+        このプロセスにより、必要なレジストリ キーがマシンに追加され、Teamsが VDI インスタンスとして知らされます。  インストールしない場合、インストーラーは次のエラーを返します。"インストールに失敗しました。  VDI 環境が検出されない場合は、すべてのユーザーにインストールできません。"
 
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
@@ -472,7 +467,7 @@ if($cleanup){
 ### <a name="client-deployment-installation-and-setup"></a>クライアントの展開、インストール、およびセットアップ
 
 - マシンごとのインストールでは、VDI 上の Teams は、非 VDI Teams のクライアントと同様に自動的に更新されません。 [VDI で Teams デスクトップ アプリをインストールまたは更新する](#install-or-update-the-teams-desktop-app-on-vdi)セクションの説明に従って新しい MSI をインストールし、VM イメージを更新する必要があります。 現在のバージョンをアンインストールして新しいバージョンに更新する必要があります。
-- Citrix 環境では、Teams の実行中にユーザーが仮想マシンから切断された場合、Teams の更新により、再接続時にユーザーが AV 用に最適化されていない状態になる可能性があります。 ユーザーは、このシナリオを回避Teams Citrix 仮想マシンから切断する前に、アプリケーションを終了することをお勧めします。
+- Citrix 環境では、Teams の実行中にユーザーが仮想マシンから切断されると、Teams の更新により、再接続時にユーザーが AV 用に最適化されていない状態になる可能性があります。 ユーザーは、このシナリオを回避Teams Citrix 仮想マシンから切断する前に、アプリケーションを終了することをお勧めします。
 - Teams は、ユーザーごとまたはマシンごとに展開する必要があります。 Teams のユーザーごとおよびマシンごとの同時展開はサポートされていません。 マシンごとまたはユーザーごとからこれらのモードのいずれかに移行するには、アンインストール手順に従っていずれかのモードに再展開します。
 - 現時点では、Azure Virtual Desktop は macOS および Linux ベースのクライアントをサポートしません。
 - テナントの高速切り替えにより、画面共有が利用できないなど、VDI で呼び出し関連の問題が発生する可能性があります。 クライアントを再起動すると、これらの問題が軽減されます。

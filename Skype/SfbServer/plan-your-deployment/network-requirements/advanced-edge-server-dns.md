@@ -1,28 +1,23 @@
 ---
 title: 高度なエッジ サーバー DNS 計画のSkype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Hybrid
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 展開オプションのシナリオSkype for Business Server表示します。 単一のサーバーが必要な場合でも、DNS または HLB を使用するサーバー プールを優先する場合でも、このトピックは役立つ必要があります。
-ms.openlocfilehash: 2c9ea99ae8f5ae7c6151dc337bd5571d739ff549
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844110"
 ---
+
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>高度なエッジ サーバー DNS 計画のSkype for Business Server
  
 **概要:** 展開オプションのシナリオSkype for Business Server確認します。 単一のサーバーが必要な場合でも、DNS または HLB を使用するサーバー プールを優先する場合でも、このトピックは役立つ必要があります。
@@ -79,9 +74,9 @@ Skype for Businessクライアントは、以前の Skype for Business Serverバ
   
 それを行う傾向がある場合は、サービスを手動で検出するためにモバイル デバイスを設定できます。 これが必要な場合、各ユーザーは、プロトコルとパスを含む、内部および外部の自動検出サービス URI 全体を使用してモバイル デバイス設定を構成する必要があります。
   
-- 外部アクセスの場合: https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root
+- 外部アクセスの場合: https://\<ExtPoolFQDN\>/自動検出/自動検出サービス.svc/Root
     
-- 内部アクセスの場合: \<IntPoolFQDN\> https:// /AutoDiscover/AutoDiscover.svc/Root
+- 内部アクセスの場合: https://\<IntPoolFQDN\>/AutoDiscover/AutoDiscover.svc/Root
     
 手動検出ではなく自動検出を使用することをお勧めします。 ただし、トラブルシューティングやテストを行う場合は、手動設定が役立ちます。
   
@@ -108,9 +103,9 @@ Skype for Businessクライアントは、以前の Skype for Business Serverバ
     
   - 境界ネットワーク内の各リバース プロキシ サーバーの内部インターフェイスの DNS A および AAAA (IPv6 アドレス指定を使用している場合) レコード (リバース プロキシの管理ではオプション)。
     
-  - DNS A と AAAA (IPv6 アドレス指定を使用している場合) と SRV レコードは、内部 Skype for Business Server クライアントの自動構成 (省略可能) に **使用します**。
+  - DNS A と AAAA (IPv6 アドレス指定を使用している場合) と SRV レコードは、内部 Skype for Business Server クライアントの自動構成 (省略 **可能**) です。
     
-  - DNS A および AAAA (IPv6 アドレス指定を使用している場合) または CNAME レコードを使用して、Skype for Business Server Web サービスの自動検出を行います (これはオプション **です**)。
+  - DNS A と AAAA (IPv6 アドレス指定を使用している場合) または CNAME レコードを使用して、Skype for Business Server Web サービスの自動検出を行います (これはオプション **です**)。
     
 - 境界ネットワークSkype for Business Server内部エッジ インターフェイスでは、この内部 DNS ゾーンを使用してクエリを解決 contoso.com。
     
@@ -205,7 +200,7 @@ Skype for Businessクライアントは、以前の Skype for Business Serverバ
 
 障害復旧 (DR) Skype for Business Serverフェールオーバー サイトに Web トラフィックをリダイレクトする DNS を構成するには、GeoDNS をサポートする DNS プロバイダーを使用する必要があります。 障害復旧をサポートするために DNS レコードを設定すると、フロント エンド プール全体がダウンしても Web サービスを使用する機能が続行されます。 この DR 機能は、自動検出、会議、ダイヤルインの単純な URL をサポートします。
   
-追加の DNS ホスト A (IPv6 を使用する場合は AAAA) レコードを定義および構成し、GeoDNS プロバイダーで Web サービスの内部および外部解決を行います。 次の詳細は、ペアのプールが地理的に分散し、プロバイダーがサポートする GeoDNS がラウンドロビン **DNS** を持つか、または Pool1 をプライマリとして使用するように構成され、通信の損失や停電が発生した場合に Pool2 に失敗すると仮定します。
+追加の DNS ホスト A (IPv6 を使用する場合は AAAA) レコードを定義および構成し、GeoDNS プロバイダーで Web サービスの内部および外部解決を行います。 次の詳細は、ペアのプールが地理的に分散し、プロバイダーがサポートする GeoDNS がラウンド **ロビン DNS を** 持つか、または Pool1 をプライマリとして使用するように構成され、通信の損失や停電が発生した場合に Pool2 に失敗すると仮定します。
   
 この表のすべての DNS レコードが例です。
   

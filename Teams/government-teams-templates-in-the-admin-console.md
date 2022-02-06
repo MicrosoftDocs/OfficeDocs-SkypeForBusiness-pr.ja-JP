@@ -1,31 +1,26 @@
 ---
 title: 管理センターで政府機関のチーム テンプレートを使用する
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 管理センターを使用して定義済みの設定、チャネル、およびプレインストールされたアプリを提供することで、チーム テンプレートを使用して政府のニーズに合ったチーム構造を作成する方法について説明します。
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- NewAdminCenter_Update
-- seo-marvel-apr2020
+  - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 819eb3297ae3b486e7c9d93053911c5090cfae29
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840749"
+  - Microsoft Teams
 ---
+
 # <a name="use-government-team-templates-in-the-admin-center"></a>管理センターで政府機関のチーム テンプレートを使用する
 
 チーム テンプレートを使用すると、設定、チャネル、およびプレインストールされたアプリの定義済みのテンプレートを提供することで、チームをすばやく簡単に作成できます。

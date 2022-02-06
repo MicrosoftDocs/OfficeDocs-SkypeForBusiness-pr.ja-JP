@@ -1,25 +1,20 @@
 ---
-title: SkypeRoom System Room セットアップ スクリプト
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skypeシステムルームのセットアップ スクリプト
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: このトピックを参照して、Room System アカウントをプロビジョニングするためのSkypeを見つける。
-ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859634"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>SkypeRoom System Room セットアップ スクリプト
+
+# <a name="skype-room-system-room-setup-scripts"></a>Skypeシステムルームのセットアップ スクリプト
  
 このトピックを参照して、Room System アカウントをプロビジョニングするためのSkypeを見つける。
   
@@ -47,7 +42,7 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
     
 - Windows Azure Active Directory モジュール (64 Windows PowerShell バージョン) または (32 ビット バージョン)
     
-- TeamsPowerShell モジュール
+- Teams PowerShell モジュール
     
 - 必要に応じて再起動する
     

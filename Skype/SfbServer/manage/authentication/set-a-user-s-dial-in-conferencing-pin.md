@@ -1,25 +1,20 @@
 ---
 title: ユーザーのダイヤルイン会議の PIN を設定Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: '概要: ユーザーのダイヤルイン会議用の PIN を設定Skype for Business Server。'
-ms.openlocfilehash: 45ee99a0e9ab1b10c429fae470e528ffdd2c3326
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856684"
 ---
+
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>ユーザーのダイヤルイン会議の PIN を設定Skype for Business Server
  
 **概要:** ユーザーのダイヤルイン会議用の PIN を設定Skype for Business Server。
@@ -65,7 +60,7 @@ ms.locfileid: "60856684"
     
 7. [**暗証番号 (PIN) の設定**] ダイアログ ボックスで、次のどちらかの手順を実行します。
     
-   - ユーザーがSkype for Business Serverを生成するには、[有効な PIN を自動的に生成する **]** (既定) を選択します。
+   - ユーザーのSkype for Business Serverを許可するには、[有効な PIN を自動的に生成 **する ] (** 既定) を選択します。
     
    - 自分の PIN を作成するには、[**特定の PIN を手動で入力**] をクリックして、テキスト ボックスをクリックし、PIN のポリシー設定で指定されている PIN の要件を満たす PIN を入力します。
     
@@ -81,7 +76,7 @@ ms.locfileid: "60856684"
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>コマンドレットを使用したユーザー PIN の割りWindows PowerShellする
 
-PIN 番号は、このコマンドレットを使用して割り当Set-CsClientPinすることもできます。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してサーバー Windows PowerShellする方法[Skype for Business Server、Microsoft Lync リモート PowerShell 管理を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 
+PIN 番号は、このコマンドレットを使用して割り当Set-CsClientPinすることもできます。 このコマンドレットは、管理者管理シェルSkype for Business Serverリモート セッションから実行Windows PowerShell。 リモート サーバーを使用してリモート Windows PowerShell接続する方法Skype for Business Server [Microsoft Lync リモート PowerShell 管理」を参照してください](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>PIN 番号をユーザーに自動割り当てるには
 
@@ -99,4 +94,4 @@ PIN 番号は、このコマンドレットを使用して割り当Set-CsClientP
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-詳細については [、Set-CsClientPin](/powershell/module/skype/set-csclientpin?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [Set-CsClientPin コマンドレットのヘルプ トピックを参照](/powershell/module/skype/set-csclientpin?view=skype-ps) してください。
