@@ -1,27 +1,22 @@
 ---
 title: Web サービス設定エキスパンダー
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.WebServicesSettingsExpander
+  - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: トポロジ ビルダー内から、内部 Web サービスと外部 Web サービスの両方に使用されるポート設定を変更できます。 さらに、ドメイン ネーム システム (DNS) 負荷分散を展開する場合は、トポロジ ビルダーを使用して、プール内のすべてのサーバーの物理 IP アドレスに解決されるプールの完全修飾ドメイン名 (FQDN) を構成できます。
-ms.openlocfilehash: 66dc22bed1d8e5e24f5403fec9cfa8c2924c810d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854401"
 ---
+
 # <a name="web-services-settings-expander"></a>Web サービス設定エキスパンダー
  
 トポロジ ビルダー内から、内部 Web サービスと外部 Web サービスの両方に使用されるポート設定を変更できます。 さらに、ドメイン ネーム システム (DNS) 負荷分散を展開する場合は、トポロジ ビルダーを使用して、プール内のすべてのサーバーの物理 IP アドレスに解決されるプールの完全修飾ドメイン名 (FQDN) を構成できます。
@@ -33,7 +28,7 @@ ms.locfileid: "60854401"
 2. [**プロパティの編集**] ダイアログ ボックスで、[**Web サービス**] タブをクリックします。
     
     > [!CAUTION]
-    > 複数のフロント エンド プールまたはフロント エンド サーバーがある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロントエンド サーバーの外部 Web サービス FQDN を **pool01.contoso.com** として定義する場合、別のフロントエンド プールまたはフロント エンド サーバーに pool01.contoso.com を使用することはできません。 ディレクターも展開する場合、ディレクターまたはディレクター プールに対して定義される外部 Web サービス FQDN は、他のディレクターまたはディレクター プール、およびフロント エンド プールまたはフロント エンド サーバーから一意である必要があります。 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。
+    > 複数のフロント エンド プールまたはフロント エンド サーバーがある場合は、外部 Web サービスの FQDN が一意である必要があります。 たとえば、フロント エンド サーバーの外部 Web サービス FQDN を **pool01.contoso.com** として定義する場合、別のフロントエンド プールまたはフロント エンド サーバーに **pool01.contoso.com** を使用することはできません。 ディレクターも展開する場合、ディレクターまたはディレクター プールに対して定義される外部 Web サービス FQDN は、他のディレクターまたはディレクター プール、およびフロント エンド プールまたはフロント エンド サーバーから一意である必要があります。 内部 Web サービスを自己定義の FQDN で上書きする場合、各 FQDN は他のフロントエンド プール、ディレクター、またはディレクター プールから一意である必要があります。
   
 3. Enterprise Edition プールのプロパティを編集する場合は、[**FQDN の上書き**] を選択できます。 このオプションは、ドメイン ネーム システム (DNS) 負荷分散を使用する場合にのみ選択してください。 DNS 負荷分散を使用する場合は、[**FQDN の上書き**] を選択してから、テキスト ボックスにプール内のすべてのサーバーの物理 IP アドレスに解決するそのプールの完全修飾ドメイン名 (FQDN) を入力します。 DNS 負荷分散を使用しない場合、および [**FQDN の上書き**] を選択しない場合は、内部 Web サービスの FQDN を変更できません。 内部 Web サービス FQDN は、内部ユーザーがユーザーに接続するために使用する URL Skype for Business Server。
     

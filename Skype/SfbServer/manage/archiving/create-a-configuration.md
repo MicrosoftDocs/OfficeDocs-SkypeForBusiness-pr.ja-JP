@@ -1,24 +1,19 @@
 ---
 title: アーカイブ構成を作成Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: '概要: アーカイブ構成を作成する方法について説明します。Skype for Business Server。'
-ms.openlocfilehash: 76fd2785f172cc9dd4b76df97d3c29a78e831e46
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850040"
 ---
+
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>アーカイブ構成を作成Skype for Business Server
 
 **概要:** ドキュメントのアーカイブ構成を作成する方法Skype for Business Server。
@@ -35,9 +30,9 @@ ms.locfileid: "60850040"
     
 4. [**アーカイブ構成**] ページで、[**新規作成**] をクリックし、次のいずれかを実行します。 
     
-   - サイト アーカイブ構成を作成するには、[サイト構成] をクリックし、[サイトの選択] で、アーカイブ用に構成するサイトを選択します。
+   - サイト アーカイブ構成を作成するには、[サイト構成] をクリックし、[サイトの **選択] で**、アーカイブ用に構成するサイトを選択します。
     
-   - プールのアーカイブ構成を作成するには、[プール構成] をクリックし、[プールの選択] でアーカイブ用に構成するプールを選択します。
+   - プールのアーカイブ構成を作成するには、[プール構成] をクリックし、[プールの **選択] で**、アーカイブ用に構成するプールを選択します。
     
 5. [**新しいアーカイブ設定**] の [**アーカイブ設定**] ドロップダウン リスト ボックスで、次のいずれかの操作を実行します。
     
@@ -51,7 +46,7 @@ ms.locfileid: "60850040"
     
    - アーカイブを使用できない場合にアクティビティをブロックするには、[**アーカイブ失敗時はインスタント メッセージング (IM) または Web 会議セッションを禁止する**] チェック ボックスをオンにします。
     
-   - アーカイブ データをMicrosoft Exchange Serverするには **、[Microsoft** データの統合] チェック ボックスExchangeクリックします。
+   - アーカイブ データをMicrosoft Exchange Serverするには、[Microsoft データの統合] チェック ボックス **Exchangeクリック** します。
     
    - データの削除を有効にするには、[**アーカイブ データの削除を有効にする**] チェック ボックスをオンにし、次のどちらかの操作を実行します。
     
@@ -85,4 +80,4 @@ New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly"
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-詳細については [、New-CsArchivingConfiguration](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
+詳細については、 [New-CsArchivingConfiguration](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) コマンドレットのヘルプ トピックを参照してください。
